@@ -5,44 +5,93 @@
     <title>EdmundEducation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* General Layout */
+        /* --- 1. GENERAL LAYOUT --- */
         body { 
             margin: 0; 
-            padding: 50px 0; /* Increased padding slightly for better scroll feel */
+            padding: 0; 
             display: flex; 
             flex-direction: column; 
             align-items: center; 
             background: #fff; 
             min-height: 100vh;
+            font-family: sans-serif; /* Makes the menu font look clean */
         }
 
-        /* Image Styles & Animation Setup */
+        /* --- 2. MENU BAR STYLES (New!) --- */
+        nav {
+            width: 100%;
+            background-color: #f0f0f0; /* Pale Gray */
+            padding: 20px 0;
+            text-align: center;
+            position: sticky; /* Keeps menu at the top when scrolling */
+            top: 0;
+            z-index: 1000; /* Ensures menu sits ON TOP of images */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+        }
+
+        /* The Links (Buttons) */
+        nav a {
+            text-decoration: none; /* Removes underline */
+            color: black;          /* Black Text */
+            margin: 0 15px;        /* Spacing between buttons */
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s ease; /* Smooth color change */
+            display: inline-block; /* Helps them sit in a line */
+        }
+
+        /* Hover Effect (Cursor touches word) */
+        nav a:hover {
+            color: red; /* Becomes Red */
+            cursor: pointer;
+        }
+
+        /* Mobile Adjustment for Menu */
+        @media (max-width: 600px) {
+            nav a {
+                display: block; /* Stack buttons vertically on phones */
+                margin: 10px 0;
+            }
+        }
+
+        /* --- 3. IMAGE ANIMATION STYLES (Existing) --- */
+        /* Added a top margin to the first image so it doesn't hide behind the menu */
+        img:first-of-type {
+            margin-top: 40px; 
+        }
+
         img { 
             max-width: 100%; 
             height: auto; 
-            margin-bottom: 50px; /* More space between images to appreciate the fade */
+            margin-bottom: 50px; 
             display: block;
             
-            /* HIDDEN STATE (Initial) */
+            /* HIDDEN STATE */
             opacity: 0; 
-            transform: translateY(30px); /* Push it down slightly */
+            transform: translateY(30px); 
             
-            /* ANIMATION SETTINGS */
-            /* This makes the change happen smoothly over 1.2 seconds */
+            /* ANIMATION SPEED */
             transition: opacity 1.2s ease-out, transform 1.2s ease-out;
         }
 
-        /* VISIBLE STATE (Triggered by Javascript) */
+        /* VISIBLE STATE */
         img.visible {
             opacity: 1;
-            transform: translateY(0); /* Returns to original position */
+            transform: translateY(0);
         }
     </style>
 </head>
 <body>
 
-    <!-- The list of images -->
-    <!-- Note: They are invisible until you scroll to them -->
+    <!-- --- THE MENU BAR --- -->
+    <nav>
+        <a href="about.html">About Edmund Sir</a>
+        <a href="contact.html">Contact Edmund Sir here directly</a>
+        <!-- This link points to the new file we will create called cre.html -->
+        <a href="cre.html">香港公務員綜合招聘考試CRE 英文運用測試 備試課程</a>
+    </nav>
+
+    <!-- --- THE IMAGES --- -->
     <img src="Image1.jpg" alt="Image 1">
     <img src="Image2.jpg" alt="Image 2">
     <img src="Image3.jpg" alt="Image 3">
@@ -52,27 +101,18 @@
     <img src="Image7.jpg" alt="Image 7">
     <img src="Image8.jpg" alt="Image 8">
 
-    <!-- The Magic Logic -->
+    <!-- --- THE MAGIC LOGIC (Script) --- -->
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // 1. Create a "Watcher" (IntersectionObserver)
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
-                    // 2. Check if the image is on screen
                     if (entry.isIntersecting) {
-                        // 3. Add the class that makes it visible
                         entry.target.classList.add('visible');
-                        
-                        // 4. Stop watching this specific image 
-                        // (So it doesn't fade out again if you scroll up)
                         observer.unobserve(entry.target);
                     }
                 });
-            }, {
-                threshold: 0.1 // Trigger when 10% of the image is visible
-            });
+            }, { threshold: 0.1 });
 
-            // 5. Tell the Watcher to look at all images
             const images = document.querySelectorAll('img');
             images.forEach(img => {
                 observer.observe(img);
