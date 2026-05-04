@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>IELTS / DSE / CRE 備試資源站 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --ink: #0c0c0d;
+      --paper: #fbfbfa;
+      --line: rgba(0,0,0,0.075);
+      --muted: #68696e;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 700;
+      background:
+        radial-gradient(circle at 18% 18%, rgba(255,255,255,0.08), transparent 18%),
+        radial-gradient(circle at 80% 28%, rgba(255,255,255,0.08), transparent 15%),
+        linear-gradient(135deg, rgba(255,255,255,0.05) 0 18%, transparent 18% 100%),
+        #111;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    body::before {
+      z-index: 0;
+      opacity: 0.28;
+      background-image:
+        repeating-radial-gradient(circle at 0 0, rgba(255,255,255,0.16) 0 0.7px, transparent 0.8px 3px);
+      mix-blend-mode: screen;
+    }
+
+    body::after {
+      z-index: 1;
+      background:
+        linear-gradient(162deg, transparent 0 34%, rgba(255,255,255,0.88) 34.2% 49%, rgba(190,190,186,0.56) 49.2% 57%, transparent 57.3%),
+        linear-gradient(90deg, rgba(0,0,0,0.34), transparent 30%, transparent 70%, rgba(0,0,0,0.36));
+      opacity: 0.86;
+    }
+
+    a,
+    button { font: inherit; }
+
+    .page-shell {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      padding: clamp(30px, 4vw, 72px) clamp(18px, 3.2vw, 54px);
+      display: grid;
+      align-items: center;
+    }
+
+    .exam-nav {
+      position: absolute;
+      top: clamp(18px, 2.4vw, 38px);
+      left: clamp(24px, 5vw, 90px);
+      right: clamp(24px, 5vw, 90px);
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 54px;
+      text-decoration: none;
+    }
+
+    .brand-link img {
+      width: min(360px, 42vw);
+      max-height: 76px;
+      object-fit: contain;
+      filter: brightness(0) invert(1) drop-shadow(0 12px 28px rgba(0,0,0,0.42));
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nav-actions a {
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(255,255,255,0.24);
+      border-radius: 999px;
+      padding: 0 18px;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 900;
+      background: rgba(0,0,0,0.26);
+      backdrop-filter: blur(12px);
+    }
+
+    .exam-grid {
+      width: min(1760px, 100%);
+      margin: clamp(72px, 8vh, 108px) auto 0;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(360px, 1fr));
+      gap: clamp(24px, 3vw, 48px);
+      align-items: stretch;
+    }
+
+    .exam-card {
+      min-height: clamp(874px, 90vh, 1035px);
+      height: clamp(874px, 90vh, 1035px);
+      background: rgba(255,255,255,0.965);
+      color: var(--ink);
+      box-shadow: 0 36px 80px rgba(0,0,0,0.42);
+      border: 1px solid rgba(255,255,255,0.72);
+      display: grid;
+      grid-template-rows: auto 1fr;
+      overflow: hidden;
+      transform: translateZ(0);
+      opacity: 0;
+      animation: cardIn 0.85s cubic-bezier(0.2, 0.78, 0.2, 1) forwards;
+      transition: transform 0.34s ease, box-shadow 0.34s ease, border-color 0.34s ease;
+    }
+
+    .exam-card:nth-child(2) {
+      animation-delay: 0.12s;
+    }
+
+    .exam-card:nth-child(3) {
+      animation-delay: 0.24s;
+    }
+
+    @keyframes cardIn {
+      from {
+        opacity: 0;
+        filter: blur(5px);
+      }
+      to {
+        opacity: 1;
+        filter: blur(0);
+      }
+    }
+
+    .exam-card:hover,
+    .exam-card:focus-within {
+      transform: translateY(-26px) scale(1.085);
+      box-shadow: 0 62px 116px rgba(0,0,0,0.52);
+      border-color: rgba(255,255,255,0.94);
+      z-index: 3;
+    }
+
+    .card-chrome {
+      min-height: 70px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 clamp(24px, 2.4vw, 38px);
+      color: #171717;
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .mini-mark {
+      font-size: 34px;
+      line-height: 1;
+      font-weight: 900;
+      color: rgba(0,0,0,0.35);
+      letter-spacing: -0.08em;
+    }
+
+    .card-content {
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: clamp(42px, 4.2vw, 62px) clamp(26px, 2.8vw, 48px) clamp(26px, 2.6vw, 42px);
+      background:
+        linear-gradient(var(--line), var(--line)) left 25% / 100% 1px no-repeat,
+        linear-gradient(var(--line), var(--line)) left 50% / 100% 1px no-repeat,
+        linear-gradient(var(--line), var(--line)) left 75% / 100% 1px no-repeat,
+        repeating-linear-gradient(90deg, transparent 0 54px, rgba(0,0,0,0.035) 55px 56px, transparent 57px 110px),
+        #fff;
+    }
+
+    .kicker {
+      margin: 0 0 16px;
+      color: #171717;
+      font-size: clamp(16px, 1.1vw, 20px);
+      line-height: 1;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .exam-title {
+      margin: 0;
+      max-width: 520px;
+      min-height: clamp(132px, 13vh, 172px);
+      display: grid;
+      place-items: center;
+      font-size: clamp(40px, 4.4vw, 72px);
+      line-height: 0.98;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .exam-title em {
+      font-style: italic;
+      font-weight: 650;
+    }
+
+    .exam-description {
+      max-width: 430px;
+      min-height: clamp(42px, 4vh, 56px);
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: clamp(17px, 1.2vw, 21px);
+      line-height: 1.42;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .start-button {
+      margin: clamp(20px, 2.4vh, 30px) auto clamp(14px, 1.8vh, 22px);
+      min-height: 48px;
+      border-radius: 999px;
+      padding: 0 30px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      background: #050505;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 900;
+      box-shadow: 0 16px 34px rgba(0,0,0,0.18);
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .start-button:hover,
+    .start-button:focus-visible {
+      transform: translateY(-3px);
+      box-shadow: 0 22px 42px rgba(0,0,0,0.24);
+    }
+
+    .exam-art {
+      width: min(520px, 100%);
+      min-height: 0;
+      margin-top: clamp(10px, 1.2vh, 18px);
+      display: grid;
+      place-items: start center;
+    }
+
+    .exam-art img {
+      width: 100%;
+      max-height: clamp(280px, 35vh, 430px);
+      object-fit: contain;
+      display: block;
+      filter: drop-shadow(0 22px 28px rgba(0,0,0,0.16));
+    }
+
+    @media (max-width: 1050px) {
+      .page-shell {
+        display: block;
+        padding-top: 116px;
+      }
+
+      .exam-nav {
+        position: fixed;
+        left: 18px;
+        right: 18px;
+      }
+
+      .exam-grid {
+        grid-template-columns: 1fr;
+        max-width: 620px;
+        margin-top: 30px;
+      }
+
+      .exam-card {
+        height: auto;
+        min-height: 690px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .exam-nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .brand-link img {
+        width: min(280px, 76vw);
+      }
+
+      .nav-actions {
+        width: 100%;
+        overflow-x: auto;
+      }
+
+      .nav-actions a {
+        flex: 0 0 auto;
+      }
+
+      .page-shell {
+        padding: 154px 18px 34px;
+      }
+
+      .exam-title {
+        font-size: clamp(34px, 13vw, 54px);
+      }
+
+      .card-content {
+        padding-inline: 20px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+
+  <main class="page-shell">
+    <nav class="exam-nav" aria-label="Exam resources navigation">
+      <a class="brand-link" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+      <div class="nav-actions">
+        <a href="index.html">主頁</a>
+        <a href="resources.html">學習資源</a>
+      </div>
+    </nav>
+
+    <section class="exam-grid" aria-label="IELTS DSE CRE exam resources">
+      <article class="exam-card">
+        <div class="card-chrome">
+          <span class="mini-mark">E</span>
+        </div>
+        <div class="card-content">
+          <p class="kicker">Edmund Sir</p>
+          <h1 class="exam-title">DSE<br>資源站</h1>
+          <p class="exam-description">提升文憑試應試技巧！</p>
+          <a class="start-button" href="resources.html">Start Free</a>
+          <div class="exam-art">
+            <img src="Static Images/DSE.png" alt="DSE resources">
+          </div>
+        </div>
+      </article>
+
+      <article class="exam-card">
+        <div class="card-chrome">
+          <span class="mini-mark">E</span>
+        </div>
+        <div class="card-content">
+          <p class="kicker">Edmund Sir</p>
+          <h2 class="exam-title">IELTS<br>資源站</h2>
+          <p class="exam-description">好好準備 IELTS升學移民！</p>
+          <a class="start-button" href="resources.html">Start Free</a>
+          <div class="exam-art">
+            <img src="Static Images/IELTS Resource.png" alt="IELTS resources">
+          </div>
+        </div>
+      </article>
+
+      <article class="exam-card">
+        <div class="card-chrome">
+          <span class="mini-mark">E</span>
+        </div>
+        <div class="card-content">
+          <p class="kicker">Edmund Sir</p>
+          <h2 class="exam-title">CRE<br>公務員資源站</h2>
+          <p class="exam-description">好好準備 CRE 公務員英文考試！</p>
+          <a class="start-button" href="resources.html">Start Free</a>
+          <div class="exam-art">
+            <img src="Static Images/CRE Resource Page.png" alt="CRE resources">
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

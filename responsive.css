@@ -1,0 +1,430 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  max-width: 100%;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+input,
+textarea,
+select {
+  font-size: 16px;
+}
+
+.topnav,
+.news-links,
+.nav-actions,
+.study-nav-right,
+.study-nav-left,
+.filter-line {
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 1180px) {
+  .header-title-image {
+    max-width: 44vw;
+    object-fit: contain;
+  }
+
+  .course-stage {
+    display: block !important;
+    padding: 54px clamp(20px, 4vw, 42px) 84px !important;
+  }
+
+  .course-summary {
+    position: relative !important;
+    top: auto !important;
+    opacity: 1 !important;
+    transform: none !important;
+    margin-bottom: 34px;
+  }
+
+  .gallery {
+    grid-column: auto !important;
+  }
+
+  .side-logo {
+    display: none !important;
+  }
+
+  .about-frame {
+    min-height: auto !important;
+    padding: clamp(46px, 6vw, 78px) clamp(20px, 4vw, 42px) !important;
+  }
+
+  .frame-inner,
+  .frame-inner.image-left {
+    width: min(980px, 100%) !important;
+    min-height: 0 !important;
+    grid-template-columns: 1fr !important;
+    gap: 34px !important;
+  }
+
+  .frame-inner .core-panel,
+  .frame-inner.image-left .core-panel {
+    order: 1;
+    justify-self: center;
+  }
+
+  .frame-inner .copy-space,
+  .frame-inner.image-left .copy-space,
+  .feature-stack {
+    order: 2;
+    width: 100%;
+  }
+
+  .copy-space,
+  .image-left .copy-space {
+    min-height: 320px !important;
+    border-right: 0 !important;
+    border-left: 4px solid rgba(147,85,47,0.24) !important;
+  }
+
+  .about-copy-card {
+    max-height: min(70vh, 720px);
+  }
+
+  .recorded-page,
+  .newsletter-shell,
+  .study-shell,
+  .forum-shell {
+    width: min(100%, calc(100vw - 32px)) !important;
+  }
+
+  .hero-stage,
+  .newsletter-stage,
+  .study-layout,
+  .forum-main,
+  .post-workspace {
+    grid-template-columns: 1fr !important;
+  }
+
+  .video-image-card,
+  .newsletter-hero-media,
+  .study-cover-area {
+    width: min(620px, 100%) !important;
+    margin-inline: auto !important;
+  }
+
+  .learn-panel,
+  .newsletter-hero-copy,
+  .study-copy {
+    width: 100% !important;
+  }
+
+  .advantage-strip {
+    width: min(100%, 760px) !important;
+    margin-inline: auto !important;
+  }
+}
+
+@media (max-width: 900px) {
+  html,
+  body,
+  a,
+  button {
+    cursor: auto !important;
+  }
+
+  .custom-cursor {
+    display: none !important;
+  }
+
+  .header-title-image,
+  .brand-center,
+  .side-label,
+  .vertical-label,
+  .post-side-label {
+    display: none !important;
+  }
+
+  .topbar,
+  .topbar-inner,
+  .news-nav,
+  .study-nav,
+  .exam-nav {
+    min-height: 76px !important;
+  }
+
+  .topbar-inner,
+  .news-nav,
+  .study-nav,
+  .exam-nav {
+    padding-inline: clamp(16px, 5vw, 24px) !important;
+  }
+
+  .brand img,
+  .study-brand img,
+  .brand-link img {
+    max-width: min(260px, 70vw) !important;
+    height: auto !important;
+  }
+
+  .topnav,
+  .news-links,
+  .nav-actions,
+  .study-nav-right,
+  .study-nav-left {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    white-space: nowrap;
+  }
+
+  .category-row-break {
+    display: none !important;
+  }
+
+  .resource-options,
+  .detail-section,
+  .news-page,
+  .music-page,
+  .forum-page,
+  .daily-page,
+  .study-page,
+  .recorded-page {
+    overflow-x: hidden;
+  }
+
+  .category-stack,
+  .post-grid,
+  .music-grid,
+  .forum-stats,
+  .detail-grid,
+  .newsletter-bottom,
+  .all-post-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .comparison-grid,
+  .table-grid,
+  .resource-options .options-heading {
+    display: block !important;
+  }
+
+  .comparison-table,
+  .advantage-table,
+  .pain-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    min-width: 680px;
+  }
+
+  .modal-card,
+  .login-card,
+  .admin-panel,
+  .bookshelf-modal,
+  .all-posts-window {
+    width: min(100%, calc(100vw - 28px)) !important;
+    max-height: 86vh !important;
+    overflow-y: auto !important;
+  }
+}
+
+@media (max-width: 760px) {
+  h1,
+  .intro-title,
+  .hero-title,
+  .study-title,
+  .newsletter-title,
+  .forum-hero h1 {
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+  }
+
+  .store {
+    padding-inline: 18px !important;
+  }
+
+  .hero-row,
+  .category-strip,
+  .offerings,
+  .student-comments,
+  .resource-hero,
+  .resource-options,
+  .course-stage,
+  .final-cta,
+  .about-frame,
+  .page-shell,
+  .forum-page,
+  .daily-page,
+  .study-page,
+  .recorded-page {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .company-logo {
+    position: static !important;
+    width: min(320px, 86vw) !important;
+    margin: 30px auto 0 !important;
+  }
+
+  .category-strip {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .category,
+  .category.is-focus,
+  .category:hover,
+  .category:focus-visible {
+    width: 100% !important;
+    flex-basis: auto !important;
+    min-height: 210px !important;
+    height: auto !important;
+    transform: none !important;
+  }
+
+  .category-number {
+    font-size: clamp(34px, 12vw, 48px) !important;
+  }
+
+  .category-name {
+    font-size: clamp(22px, 7vw, 31px) !important;
+  }
+
+  .offer-row {
+    gap: 16px !important;
+    padding-right: 18px !important;
+  }
+
+  .offer-card,
+  .recommendation-card,
+  .resource-card {
+    flex-basis: 84vw !important;
+    min-width: 0 !important;
+  }
+
+  .student-comment-card {
+    width: 100% !important;
+  }
+
+  .student-comment-image-wrap img,
+  .post-hero img,
+  .image-card img {
+    height: auto !important;
+  }
+
+  .exam-grid {
+    width: 100% !important;
+    gap: 24px !important;
+  }
+
+  .exam-card {
+    min-height: 640px !important;
+  }
+
+  .exam-title {
+    font-size: clamp(44px, 14vw, 72px) !important;
+  }
+
+  .learn-panel {
+    padding: 48px 22px 66px !important;
+  }
+
+  .search-form {
+    grid-template-columns: 1fr auto !important;
+  }
+
+  .advantage-strip {
+    grid-template-columns: 1fr !important;
+    margin-top: 20px !important;
+  }
+
+  .forum-hero {
+    padding: 34px 22px !important;
+  }
+
+  .forum-hero-actions {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .forum-hero-actions a,
+  .forum-hero-actions button {
+    width: 100%;
+  }
+
+  .post-row,
+  .thread-row,
+  .course-row,
+  .newsletter-topic-card {
+    grid-template-columns: 1fr !important;
+  }
+
+  .post-row button,
+  .thread-row button,
+  .course-row button {
+    justify-self: start !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand img,
+  .study-brand img,
+  .brand-link img {
+    max-width: min(220px, 68vw) !important;
+  }
+
+  .topbar,
+  .topbar-inner,
+  .news-nav,
+  .study-nav,
+  .exam-nav {
+    min-height: 68px !important;
+  }
+
+  .section-title,
+  .recommendation-title,
+  .options-heading h2 {
+    font-size: clamp(28px, 9vw, 38px) !important;
+  }
+
+  .offer-card,
+  .recommendation-card,
+  .resource-card {
+    flex-basis: 88vw !important;
+  }
+
+  .student-comment-header {
+    gap: 10px !important;
+  }
+
+  .student-comment-label {
+    font-size: 15px !important;
+  }
+
+  .student-comment-heart {
+    width: 38px !important;
+    height: 38px !important;
+  }
+
+  .about-copy-card {
+    padding: 24px 20px !important;
+    font-size: 18px !important;
+  }
+
+  .about-copy-card h2 {
+    font-size: clamp(30px, 10vw, 42px) !important;
+  }
+}

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Edmund VS 其他補習社 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --page-pad: clamp(24px, 5vw, 104px);
+      --ink: #1d1d1f;
+      --muted: #575761;
+      --gold-frame: linear-gradient(135deg, #a66a18 0%, #f0c568 28%, #fff3c7 52%, #d39a2e 78%, #8e5818 100%);
+      --panel: rgba(255,255,255,0.94);
+      --bad: #33343a;
+      --good: #3150c9;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    html, body, a, button {
+      cursor: none;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 700;
+      background: #f6f4ef;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      background-image: url("Static Images/Advantage Comparison.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      opacity: 0.90;
+      pointer-events: none;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.54), rgba(255,255,255,0.28) 48%, rgba(255,255,255,0.42)),
+        rgba(246,244,239,0.30);
+      pointer-events: none;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      width: 100%;
+      height: 10vh;
+      min-height: 82px;
+      max-height: 116px;
+      background: #F7E7CE;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 0 var(--page-pad);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 24px;
+    }
+
+    .brand {
+      position: absolute;
+      left: var(--page-pad);
+      top: 50%;
+      transform: translateY(-50%);
+      display: block;
+      text-decoration: none;
+    }
+
+    .brand img {
+      display: block;
+      height: clamp(74px, 9.2vh, 110px);
+      width: auto;
+      max-width: min(760px, 44vw);
+      object-fit: contain;
+    }
+
+    .topnav {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      gap: 24px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .topnav::-webkit-scrollbar { display: none; }
+
+    .topnav a {
+      color: #1d1d1f;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .topnav a:hover {
+      color: #0071e3;
+    }
+
+    .hero {
+      min-height: calc(100svh - 82px);
+      padding: clamp(70px, 11vh, 132px) var(--page-pad) clamp(60px, 9vh, 110px);
+      display: grid;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-copy {
+      width: min(1500px, 100%);
+      margin: 0 auto;
+    }
+
+    .hero-kicker {
+      display: block;
+      margin-bottom: 20px;
+      color: rgba(44,44,48,0.74);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      color: #111827;
+      font-size: clamp(44px, 7vw, 92px);
+      line-height: 1.04;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+      text-shadow:
+        0 2px 0 rgba(255,255,255,0.78),
+        0 10px 30px rgba(255,255,255,0.82),
+        0 18px 48px rgba(0,0,0,0.16);
+    }
+
+    .hero-subheading {
+      max-width: 1320px;
+      margin: 30px auto 0;
+      color: #34343a;
+      font-size: clamp(19px, 2vw, 28px);
+      line-height: 1.52;
+      font-weight: 850;
+      text-shadow:
+        0 2px 0 rgba(255,255,255,0.74),
+        0 8px 24px rgba(255,255,255,0.88),
+        0 14px 36px rgba(0,0,0,0.14);
+    }
+
+    .hero-subheading span {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .comparison-area {
+      padding: clamp(52px, 8vw, 104px) clamp(10px, 1.4vw, 28px) clamp(86px, 11vw, 140px);
+    }
+
+    .comparison-grid {
+      width: min(2178px, calc(100vw + clamp(120px, 10vw, 220px)));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: clamp(14px, 2vw, 34px);
+      align-items: start;
+    }
+
+    .comparison-frame {
+      border-radius: 28px;
+      padding: 8px;
+      background: var(--gold-frame);
+      box-shadow: 0 24px 70px rgba(73,47,14,0.22);
+      opacity: 0;
+      transform: translateY(34px);
+      transition: opacity 0.75s ease, transform 0.75s ease;
+    }
+
+    .comparison-frame:first-child {
+      margin-left: clamp(-82px, -4.4vw, -30px);
+    }
+
+    .comparison-frame:last-child {
+      margin-right: clamp(-82px, -4.4vw, -30px);
+    }
+
+    .comparison-frame.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .comparison-panel {
+      border-radius: 22px;
+      overflow: hidden;
+      background: rgba(255,255,255,0.96);
+      border: 1px solid rgba(255,255,255,0.66);
+    }
+
+    .comparison-panel::before {
+      content: "";
+      display: block;
+      height: 14px;
+      background: linear-gradient(90deg, rgba(187,125,32,0.92), rgba(255,238,191,0.96), rgba(211,151,42,0.92));
+    }
+
+    .table-title {
+      margin: 0;
+      padding: 24px clamp(22px, 2.5vw, 34px) 20px;
+      color: #171719;
+      font-size: clamp(24px, 2.4vw, 38px);
+      line-height: 1.12;
+      font-weight: 900;
+      text-wrap: balance;
+      white-space: nowrap;
+    }
+
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      background: rgba(255,255,255,0.98);
+    }
+
+    .comparison-table col.icon-col { width: 54px; }
+    .comparison-table col.topic-col { width: 28%; }
+    .comparison-table col.meaning-col { width: auto; }
+
+    .comparison-table thead th {
+      position: sticky;
+      top: 82px;
+      z-index: 2;
+      padding: 18px clamp(14px, 1.3vw, 22px);
+      background: rgba(250,246,235,0.98);
+      color: #191919;
+      border-top: 1px solid rgba(0,0,0,0.08);
+      border-bottom: 1px solid rgba(0,0,0,0.12);
+      font-size: clamp(16px, 1.05vw, 20px);
+      line-height: 1.25;
+      font-weight: 900;
+      text-align: left;
+      backdrop-filter: blur(12px);
+    }
+
+    .comparison-table tbody td {
+      padding: 16px clamp(14px, 1.25vw, 22px);
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      vertical-align: top;
+      font-size: clamp(14px, 0.92vw, 17px);
+      line-height: 1.52;
+      font-weight: 780;
+      color: #24242a;
+    }
+
+    .comparison-table tbody tr:nth-child(even) td {
+      background: rgba(248,248,249,0.72);
+    }
+
+    .comparison-table tbody tr:hover td {
+      background: rgba(255,246,219,0.70);
+    }
+
+    .icon-cell {
+      text-align: center;
+      padding-left: 14px !important;
+      padding-right: 6px !important;
+    }
+
+    .comparison-icon {
+      width: 28px;
+      height: 28px;
+      display: inline-block;
+      margin-top: 1px;
+    }
+
+    .topic-cell {
+      font-weight: 900 !important;
+      font-size: clamp(17.5px, 1.15vw, 21.25px) !important;
+      line-height: 1.34 !important;
+      letter-spacing: 0;
+    }
+
+    .comparison-table thead th:nth-child(2) {
+      font-size: clamp(20px, 1.32vw, 25px);
+      line-height: 1.18;
+    }
+
+    .bad-table .topic-cell {
+      color: var(--bad);
+    }
+
+    .good-table .topic-cell {
+      color: var(--good);
+    }
+
+    @media (max-width: 1120px) {
+      .comparison-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .comparison-table thead th {
+        top: 88px;
+      }
+    }
+
+    @media (max-width: 760px) {
+      html, body, a, button { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .topbar {
+        height: 88px;
+        min-height: 88px;
+      }
+
+      .topbar-inner {
+        padding: 12px 22px;
+      }
+
+      .brand img {
+        height: 62px;
+        max-width: 210px;
+      }
+
+      .topnav {
+        max-width: 52vw;
+        gap: 16px;
+      }
+
+      .hero,
+      .comparison-area {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+
+      .comparison-frame {
+        border-radius: 20px;
+        padding: 5px;
+      }
+
+      .comparison-panel {
+        border-radius: 16px;
+      }
+
+      .comparison-table {
+        table-layout: auto;
+      }
+
+      .comparison-table col.icon-col { width: 42px; }
+      .comparison-table col.topic-col { width: 38%; }
+
+      .comparison-table thead th,
+      .comparison-table tbody td {
+        padding: 13px 10px;
+        font-size: 13px;
+      }
+
+      .comparison-icon {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+      <nav class="topnav" aria-label="Main navigation">
+        <a href="index.html">主頁</a>
+        <a href="cre.html">真人英文課程</a>
+        <a href="resources.html">免費資源</a>
+        <a href="about.html">關於 Edmund</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Edmund VS 其他補習社<br>優勢比較</h1>
+        <p class="hero-subheading">
+          <span>英語學習不只是簡單報讀一個課程，</span>
+          <span>好的英語導師，能為您設計一套真正配合自己生活、工作與目標的學習方式。</span>
+          <span>歡迎看看 Edmund Sir 如何將</span>
+          <span>成人英語、職場需要、彈性安排與實戰英語結合起來。</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="comparison-area" aria-label="Edmund Sir advantages comparison">
+      <div class="comparison-grid">
+        <section class="comparison-frame" data-reveal>
+          <div class="comparison-panel bad-table">
+            <h2 class="table-title">香港補習社目前遇到的挑戰</h2>
+            <table class="comparison-table">
+              <colgroup>
+                <col class="icon-col">
+                <col class="topic-col">
+                <col class="meaning-col">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th colspan="2" aria-label="Challenge"></th>
+                  <th>甚麼意思?</th>
+                </tr>
+              </thead>
+              <tbody data-bad-rows></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="comparison-frame" data-reveal>
+          <div class="comparison-panel good-table">
+            <h2 class="table-title">Edmund Sir 優勢</h2>
+            <table class="comparison-table">
+              <colgroup>
+                <col class="icon-col">
+                <col class="topic-col">
+                <col class="meaning-col">
+              </colgroup>
+              <thead>
+                <tr>
+                  <th colspan="2" aria-label="Advantage"></th>
+                  <th>甚麼意思?</th>
+                </tr>
+              </thead>
+              <tbody data-good-rows></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const badRows = [
+      ["過度側重文法與書面詞彙", "學習大量文法規則及書面詞彙，但在會議、電話或即時對話中仍難以自然表達。"],
+      ["學習內容與現實應用脫節", "課堂所學未必能直接應用於工作、會議、社交或日常溝通。"],
+      ["缺乏知識轉化能力", "課程只教授課本知識，未能協助學生將內容轉化為可即時使用的實際表達。"],
+      ["缺乏度身設計", "課程內容制式化，未能針對學生的職業背景、能力水平及實際需要作出調整。"],
+      ["不能使用個人材料學習", "課程需跟隨固定 syllabus，學生較難帶入自己的工作文件、電郵、簡報或實際需求。"],
+      ["材料未必切合個人需要", "所有學生使用同一套教材，內容未必符合個別學生的程度、目標或職場需要。"],
+      ["課程晉級路徑僵化", "即使學生已有明確目標，例如行業英語或商務英語，仍被要求按固定級別由基礎班開始，容易浪費時間與金錢。"],
+      ["學習與日常生活脫節", "英語學習只集中在課堂內，未能自然融入工作、生活及日常溝通場景。"],
+      ["導師經驗較單一", "部分導師主要任教 DSE 或中小學考試課程，未必具備成人英語或商務英語教學經驗。"],
+      ["大班教學難以照顧個別需要", "班級人數較多時，導師難以因應每位學生的程度、目標及問題作出即時調整。"],
+      ["害怕出錯，不敢開口", "在團體課堂中容易感到壓力，擔心說錯或尷尬，因而減少開口練習的機會。"],
+      ["中式英文問題", "發音、語調及表達方式未夠自然，容易影響英語的地道感與專業形象。"],
+      ["缺乏文化與語境訓練", "只學課本內容，較少接觸地道用語、文化背景及真實語境，影響自然溝通能力。"],
+      ["缺乏跟進與問責", "課後缺少持續跟進，學生容易失去方向、動力不足，甚至半途而廢。"],
+      ["時間安排欠彈性", "上課時間受限，遇上突發工作或私人安排時，難以臨時更改或取消課堂。"],
+      ["取消課堂仍需扣費", "一般語言中心即使學生因加班或突發情況未能上課，仍可能照常扣除課堂費用。"],
+      ["取消政策較僵化", "學生通常需要提前 24 至 48 小時通知，否則會被視作缺席，缺乏彈性安排。"],
+      ["學生承擔突發風險", "加班、家庭事務或臨時行程等不可預計情況，往往由學生自行承擔時間及金錢損失。"],
+      ["形成隱性上課壓力", "為免浪費學費，學生即使狀態不佳或時間緊迫，仍可能被迫上課，影響學習成效。"],
+      ["固定時間表限制", "學生必須按照既定時間上課，較難配合不規律的工作安排或個人生活節奏。"],
+      ["難以臨時調整安排", "遇上突發情況，或臨時希望增加課堂時，傳統課程通常較難即時配合。"],
+      ["強制每週出席", "即使工作繁忙、身心疲倦或需要休息，學生仍需按固定時間出席，影響學習質素。"],
+      ["與生活安排產生衝突", "當遇上旅行、工作高峰期或私人安排時，固定課程容易中斷學習或造成費用損失。"],
+      ["需要親身到中心上課", "下班後仍需前往學習中心，容易增加通勤疲勞，降低持續學習的動力。"],
+      ["學習地點受限制", "只能在指定課室上課，學生難以按自己的生活環境及學習狀態選擇最合適的地點。"],
+      ["沒有免費試堂", "部分中心不設試堂，或只提供非常短的體驗環節，學生難以在報名前充分了解教學質素。"],
+      ["未試清楚便需付款", "學生在未真正了解導師風格、課程內容及學習效果前，便需要先行報名，承擔較高風險。"],
+      ["試堂流於形式", "即使設有試堂，也可能偏向銷售介紹，未必能讓學生真正體驗實際教學內容。"],
+      ["實際成本不夠透明", "表面收費清晰，但若涉及取消限制、補堂安排或額外條款，實際成本可能高於預期。"],
+      ["收費隨程度提升而增加", "學生程度越高，課程收費往往越高，令長期學習成本變得難以預算。"],
+      ["教材需額外付費", "課程費用以外，學生仍需另外購買書本、練習或補充教材，增加整體學習成本。"],
+      ["教材成本持續增加", "課程以外仍需購買書本、練習或額外教材，令整體學習開支逐步上升。"],
+      ["學費包含營運成本", "傳統學習中心需承擔租金、人手及場地營運開支，部分學費未必直接投放於教學本身。"],
+      ["筆記有限，練習不足", "課堂材料不足，缺乏足夠閱讀、口語及寫作練習，令進步速度受限。"],
+      ["學習資源分散", "練習、範文及題目需要自行搜尋，缺乏系統整理，令學習過程不夠連貫。"],
+      ["只在上課時才有學習內容", "沒有課堂時便缺少英語輸入及練習資源，難以建立持續學習習慣。"],
+      ["過度依賴 AI，未能真正提升英語能力", "只學習 prompt 技巧或依賴工具生成內容，容易忽略語言基礎、表達邏輯及實際溝通能力。"],
+      ["難以與熟人一同學習", "傳統大班教學安排固定，學生未必能與朋友、同事或熟悉的學習夥伴一同上課。"],
+      ["課堂時長過於固定", "課堂必須按固定時間結束，即使學生狀態良好或內容尚未完成，也難以延長。"],
+      ["無法即時調整學習安排", "當學生當下學習狀態理想，或需要深入處理某個重點時，傳統課程未必能即時加時或調整內容。"],
+      ["學習節奏被中斷", "學生剛進入學習狀態便需結束課堂，容易影響專注度及學習延續性。"],
+      ["不接受臨急備試學生", "若錯過開班時間或報名期限，臨近考試時往往難以找到合適課程。"],
+      ["難以臨時插班", "HKDSE、IELTS、TOEFL 或 TOEIC 臨考前需要補強時，傳統課程未必能提供即時支援。"]
+    ];
+
+    const goodRows = [
+      ["100% 度身訂造課程", "課程內容可根據學生身份、程度、職業及學習目標設計，真正切合個人需要。"],
+      ["自帶教材學習", "學生可帶備工作文件、筆記或指定學習內容，由 Edmund 協助拆解、修正並轉化為實用英文。"],
+      ["真實內容轉化能力", "將學生手上的真實材料轉化為可應用於工作與生活的英文表達，提升學習的實用價值。"],
+      ["即學即用", "課堂所學可即時應用於工作、會議、電郵、簡報及日常溝通。"],
+      ["行業導向教學", "聚焦工作與日常生活中真正會使用的英語，內容貼近不同行業及實際溝通場景。"],
+      ["專注成人英語教學", "專門針對成人學生設計課程，理解在職人士及成年學習者的實際需要，而非單純考試導向。"],
+      ["深明成人學習需要", "理解成人學生在工作、會議、匯報及專業交流中的實際需要，教學更貼近現實場景。"],
+      ["商務背景，熟悉職場需要", "具備商務經驗，了解職場上真正需要的表達能力、應對技巧及專業語感。"],
+      ["成人教學及商務經驗", "結合成人教學經驗與商務實戰背景，課程更貼近職場及專業溝通需要。"],
+      ["提供實戰溝通策略", "除了英語知識，亦會教授實際溝通策略、表達框架及職場應對方法。"],
+      ["不止於文法講解", "不單講解文法規則，更著重如何在會議、電話、電郵及日常工作中即時運用。"],
+      ["策略型實戰教學", "以靈活、具策略性的教學方式，協助學生掌握可即時應用的表達技巧，而非只學抽象理論。"],
+      ["80/20 高效學習法", "以真實對話與情境演練為核心，配合精簡文法講解，讓學生更快建立自然、實用的英語能力。"],
+      ["7 年專業英語教學經驗＋港大畢業", "由具 7 年教學經驗、香港大學畢業的專業英語導師任教，為學生建立穩妥可靠的學習基礎。"],
+      ["免費 45 分鐘試堂", "提供 45 分鐘免費試堂，讓學生先了解教學方式、課程內容及學習效果，再作決定。"],
+      ["零風險開始", "先體驗、後決定；如不合適，毋須報讀，整個過程清晰、安心、無壓力。"],
+      ["即時了解是否適合", "透過試堂即可初步感受教學風格、課程方向及是否符合個人需要。"],
+      ["全額退款保障", "課堂可按需要取消；取消即不收費、不扣款，讓學生更安心安排學習。"],
+      ["彈性時間安排", "上課時間可按個人日程彈性安排，亦可因應突發情況取消或更改。"],
+      ["靈活預約，無需固定時段", "可視乎當下需要預約課堂，靈活配合工作、旅行及生活上的變化。"],
+      ["自由選擇上課節奏", "可按個人生活安排學習頻率，包括每週固定、隔週一次、臨時預約或不設固定時間。"],
+      ["真正配合生活節奏", "即使遇上工作繁忙、臨時行程或外遊安排，亦能靈活調整學習進度。"],
+      ["Zoom 線上彈性上課", "以 Zoom 形式上課，學生可自由選擇開鏡互動或旁聽學習，配合不同學習狀態。"],
+      ["隨時隨地上課", "只要環境合適，學生可在家中、辦公室、宿舍、酒店、海外或其他舒適地點上課。"],
+      ["減少通勤壓力", "免卻下班後趕往學習中心的舟車勞頓，節省時間與精力，讓學習更輕鬆、更持久。"],
+      ["無需每週到中心上課", "不必固定到學習中心報到，減少時間成本，讓學習安排更輕便自在。"],
+      ["線上課程，減少額外營運成本", "採用 Zoom 網課形式，無需承擔傳統學習中心的高昂營運成本，學費更集中投放於教學本身。"],
+      ["明碼實價", "收費清晰透明，體現專業服務與公平收費原則。"],
+      ["全包式透明收費", "課堂、教材及筆記均已包括在收費內，沒有隱藏費用。"],
+      ["一價全包", "一個收費已包括課堂、教材及筆記，學生無需額外購買學習材料。"],
+      ["長期固定收費", "收費不會因學生程度提升而調整，方便長期規劃學習預算。"],
+      ["豐富學習資源", "提供 600+ 閱讀材料、700+ 口語題目及 300+ 範文，全面支援閱讀、寫作與口語提升。"],
+      ["度身訂造筆記", "筆記可按學生程度、目標及實際需要調整，內容更精準貼合個人學習方向。"],
+      ["課後持續練習", "學習不止於課堂，學生可透過課後資源與練習持續鞏固所學。"],
+      ["高效功課系統", "功課設計聚焦真正有效的練習，避免機械式操練，幫助學生善用時間、穩步進步。"],
+      ["課堂以外持續學習", "課堂以外亦提供持續學習內容，讓學生在日常生活中保持穩定的英語輸入。"],
+      ["免費每日英文通訊", "提供免費每日英文通訊，讓學生在課堂以外持續接觸實用英語，培養穩定學習習慣。"],
+      ["WhatsApp／Signal 直接聯絡", "學生可透過 WhatsApp 或 Signal 直接聯絡 Edmund Sir，溝通更即時、更方便。"],
+      ["美式／英式口音訓練", "提供美式及英式發音訓練，協助學生改善發音、語調及口音清晰度。"],
+      ["多元教學經驗", "不局限於考試導向教學，能照顧成人英語、職場英語及商務英語等不同學習需要。"],
+      ["接受短期備試學生", "接受 HKDSE、IELTS、TOEFL 及 TOEIC 等短期備試學生；即使考試臨近，仍可集中處理重點與策略。"],
+      ["應試導向＋實戰技巧", "以考試目標為導向，重點教授提分策略、答題方法及實戰技巧，而非從零開始泛泛而談。"],
+      ["小班／朋友同行課程", "支援小班教學，亦可與朋友或同事一同學習，令課堂氣氛更輕鬆、更具互動性。"],
+      ["趣味主題課程", "透過音樂、電影、書籍及生活化主題提升學習興趣，令英文學習更自然、更投入。"],
+      ["課堂可即時延長", "若當日學習狀態良好，或需要深入處理特定內容，可視乎安排即時延長課堂，提高學習效率。"]
+    ];
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function renderRows(targetSelector, rows, iconSrc, iconAlt) {
+      const target = document.querySelector(targetSelector);
+      if (!target) return;
+
+      target.innerHTML = rows.map(([topic, meaning]) => `
+        <tr>
+          <td class="icon-cell"><img class="comparison-icon" src="${iconSrc}" alt="${iconAlt}"></td>
+          <td class="topic-cell">${escapeHtml(topic)}</td>
+          <td>${escapeHtml(meaning)}</td>
+        </tr>
+      `).join("");
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    function setupReveal() {
+      const targets = document.querySelectorAll("[data-reveal]");
+      if (!targets.length) return;
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+          }
+        });
+      }, { threshold: 0.12 });
+
+      targets.forEach(target => observer.observe(target));
+    }
+
+    renderRows("[data-bad-rows]", badRows, "comparison-cross.svg", "No");
+    renderRows("[data-good-rows]", goodRows, "comparison-check.svg", "Yes");
+    setupCustomCursor();
+    setupReveal();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

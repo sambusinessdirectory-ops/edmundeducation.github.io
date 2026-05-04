@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Edmund 隨筆 / 免費英文學習資源站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --page-pad: clamp(24px, 5vw, 132px);
+      --card-size: clamp(240px, 24vw, 320px);
+      --card-gap: clamp(16px, 2vw, 24px);
+    }
+
+    html, body, a, button { cursor: none; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #111;
+      color: #f5f5f7;
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 600;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .page-background {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      background-image:
+        linear-gradient(90deg, rgba(9, 7, 5, 0.72), rgba(9, 7, 5, 0.28) 48%, rgba(9, 7, 5, 0.64)),
+        linear-gradient(180deg, rgba(245,245,247,0.05), rgba(17,17,17,0.56) 72%, rgba(17,17,17,0.95)),
+        url("Reource Site - Image 1.png");
+      background-size: cover;
+      background-position: center;
+      pointer-events: none;
+    }
+
+    .topbar,
+    main {
+      position: relative;
+      z-index: 1;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      width: 100%;
+      height: 10vh;
+      min-height: 82px;
+      max-height: 116px;
+      background: #93552F;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      backdrop-filter: blur(18px);
+      transition: background 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s ease;
+    }
+
+    body.header-centered .topbar {
+      background: #93552F;
+      border-color: rgba(0,0,0,0.08);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 0 var(--page-pad);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 24px;
+    }
+
+    .brand {
+      position: absolute;
+      top: 50%;
+      display: block;
+      text-decoration: none;
+      transform: translateY(-50%);
+      transition: opacity 0.42s ease, transform 0.42s ease, filter 0.42s ease;
+    }
+
+    .brand img {
+      display: block;
+      height: clamp(76px, 9.4vh, 112px);
+      width: auto;
+      max-width: min(760px, 44vw);
+      object-fit: contain;
+    }
+
+    .brand-left {
+      left: var(--page-pad);
+      opacity: 1;
+    }
+
+    .brand-center {
+      left: 50%;
+      opacity: 0;
+      transform: translate(-50%, -50%) translateY(-8px) scale(0.96);
+      pointer-events: none;
+    }
+
+    .brand-center img {
+      height: clamp(82px, 9.8vh, 118px);
+      max-width: min(920px, 54vw);
+      filter: brightness(0) contrast(1.25);
+      mix-blend-mode: multiply;
+    }
+
+    body.header-centered .brand-left {
+      opacity: 0;
+      transform: translateY(-50%) translateX(-18px);
+      pointer-events: none;
+    }
+
+    body.header-centered .brand-center {
+      opacity: 0.58;
+      transform: translate(-50%, -50%) translateY(0) scale(1);
+      pointer-events: auto;
+    }
+
+    body.header-centered .topnav {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .topnav {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      gap: 26px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      transition: opacity 0.28s ease;
+    }
+
+    .topnav::-webkit-scrollbar { display: none; }
+
+    .topnav a {
+      color: #1d1d1f;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .topnav a:hover { color: #0071e3; }
+
+    .resource-hero {
+      min-height: calc(100svh - 174px);
+      display: grid;
+      align-items: center;
+      padding: clamp(64px, 9vh, 108px) var(--page-pad) clamp(72px, 10vh, 118px);
+      text-align: center;
+    }
+
+    .hero-copy {
+      width: min(1120px, 100%);
+      margin: 0 auto;
+    }
+
+    .hero-kicker {
+      display: block;
+      margin-bottom: 18px;
+      color: rgba(255,255,255,0.82);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(44px, 7vw, 94px);
+      line-height: 1.03;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+      color: #fff;
+      text-shadow: 0 16px 54px rgba(0,0,0,0.62);
+    }
+
+    .hero-subheading {
+      max-width: 880px;
+      margin: 28px auto 0;
+      font-size: clamp(19px, 2vw, 28px);
+      line-height: 1.5;
+      font-weight: 800;
+      color: rgba(255,255,255,0.88);
+      text-shadow: 0 10px 36px rgba(0,0,0,0.62);
+    }
+
+    .resource-options {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      padding: clamp(58px, 9vw, 112px) var(--page-pad) clamp(84px, 11vw, 132px);
+      background: rgba(245,245,247,0.94);
+      color: #1d1d1f;
+      backdrop-filter: blur(18px);
+    }
+
+    .options-heading {
+      width: min(1120px, 100%);
+      margin: 0 auto clamp(28px, 4vw, 46px);
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .options-heading h2 {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(31px, 4vw, 58px);
+      line-height: 1.08;
+      font-weight: 900;
+      letter-spacing: 0;
+      color: #1d1d1f;
+      text-wrap: balance;
+    }
+
+    .options-heading p {
+      margin: 0;
+      max-width: 300px;
+      color: #6e6e73;
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .option-grid {
+      width: min(calc((var(--card-size) * 3.95) + (var(--card-gap) * 2)), 100%);
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: stretch;
+      gap: var(--card-gap);
+    }
+
+    .resource-card {
+      position: relative;
+      flex: 0 1 var(--card-size);
+      min-height: var(--card-size);
+      height: var(--card-size);
+      border-radius: 8px;
+      padding: clamp(22px, 2.5vw, 32px);
+      color: #fff;
+      text-decoration: none;
+      background: var(--card-color);
+      box-shadow: 0 18px 45px rgba(0,0,0,0.14);
+      overflow: hidden;
+      outline: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition:
+        flex-basis 0.42s ease,
+        background 0.32s ease,
+        color 0.32s ease,
+        transform 0.32s ease,
+        box-shadow 0.32s ease;
+    }
+
+    .resource-card::after {
+      content: "";
+      position: absolute;
+      inset: auto 20px 20px auto;
+      width: 54px;
+      height: 54px;
+      border: 1px solid rgba(255,255,255,0.46);
+      border-radius: 50%;
+      opacity: 0.68;
+      transition: transform 0.32s ease, opacity 0.32s ease;
+    }
+
+    .resource-card:hover,
+    .resource-card:focus-visible {
+      flex-basis: calc(var(--card-size) * 1.85);
+      background: #050505;
+      transform: translateY(-6px);
+      box-shadow: 0 28px 72px rgba(0,0,0,0.26);
+    }
+
+    .resource-card:hover::after,
+    .resource-card:focus-visible::after {
+      opacity: 1;
+      transform: scale(1.08);
+    }
+
+    .option-meta {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 16px;
+      color: rgba(255,255,255,0.78);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .option-meta > span:not(.option-number) {
+      display: none;
+    }
+
+    .option-number {
+      font-size: 42px;
+      line-height: 1;
+      font-weight: 900;
+      color: rgba(255,255,255,0.22);
+    }
+
+    .option-content {
+      position: relative;
+      z-index: 1;
+      min-width: 0;
+    }
+
+    .option-copy {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-width: 0;
+      transition: padding-right 0.24s ease;
+    }
+
+    .resource-card:hover .option-copy,
+    .resource-card:focus-visible .option-copy {
+      max-width: none;
+      padding-right: clamp(190px, 38%, 260px);
+    }
+
+    .option-title {
+      margin: auto 0 0;
+      max-width: 500px;
+      font-size: clamp(24px, 2.8vw, 36px);
+      line-height: 1.12;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: normal;
+    }
+
+    .option-title span {
+      display: block;
+    }
+
+    .option-desc {
+      max-width: 540px;
+      max-height: 0;
+      margin: 0;
+      opacity: 0;
+      transform: translateY(14px);
+      color: rgba(255,255,255,0.84);
+      font-size: clamp(15px, 1.4vw, 18px);
+      line-height: 1.45;
+      font-weight: 700;
+      overflow: hidden;
+      transition:
+        opacity 0.32s ease 0.08s,
+        transform 0.32s ease 0.08s,
+        margin-top 0.32s ease;
+    }
+
+    .option-image {
+      position: absolute;
+      right: clamp(22px, 2.5vw, 32px);
+      bottom: clamp(22px, 2.5vw, 32px);
+      z-index: 1;
+      width: clamp(150px, 30%, 210px);
+      height: clamp(120px, 11vw, 160px);
+      object-fit: cover;
+      object-position: center;
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateX(18px) scale(0.96);
+      box-shadow: 0 18px 44px rgba(0,0,0,0.34);
+      transition:
+        opacity 0.28s ease 0.08s,
+        transform 0.32s ease 0.08s;
+    }
+
+    .resource-card:hover .option-desc,
+    .resource-card:focus-visible .option-desc {
+      max-height: 170px;
+      margin-top: 22px;
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .resource-card:hover .option-image,
+    .resource-card:focus-visible .option-image {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+    }
+
+    .card-gold .option-title {
+      font-size: clamp(21px, 1.8vw, 26px);
+      line-height: 1.06;
+    }
+
+    .card-gold .option-title span:nth-child(2) {
+      white-space: nowrap;
+    }
+
+    .card-gold .option-desc {
+      font-size: clamp(14px, 1.2vw, 16px);
+      line-height: 1.38;
+    }
+
+    .card-gold:hover .option-desc,
+    .card-gold:focus-visible .option-desc {
+      max-height: 88px;
+    }
+
+    .card-gold:hover .option-copy,
+    .card-gold:focus-visible .option-copy {
+      padding-right: clamp(160px, 32%, 220px);
+    }
+
+    .card-gold .option-image {
+      width: clamp(132px, 26%, 176px);
+      height: clamp(96px, 8vw, 124px);
+      object-position: center 34%;
+    }
+
+    .card-blue { --card-color: #2574e8; }
+    .card-coral { --card-color: #f05242; }
+    .card-emerald { --card-color: #12936f; }
+    .card-violet { --card-color: #7457e8; }
+    .card-gold { --card-color: #b7791f; }
+
+    @media (max-width: 900px) {
+      html, body, a, button { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .topbar {
+        height: 88px;
+        min-height: 88px;
+      }
+
+      .topbar-inner {
+        padding: 12px 22px;
+        align-items: center;
+      }
+
+      .brand img {
+        height: 62px;
+        max-width: 210px;
+      }
+
+      .brand-center img {
+        height: 68px;
+        max-width: 260px;
+      }
+
+      .topnav {
+        max-width: 58vw;
+        gap: 18px;
+      }
+
+      .resource-hero {
+        min-height: calc(100svh - 176px);
+        padding: 64px 22px 72px;
+      }
+
+      .hero-subheading {
+        line-height: 1.42;
+      }
+
+      .resource-options {
+        padding: 54px 22px 76px;
+      }
+
+      .options-heading {
+        display: block;
+      }
+
+      .options-heading p {
+        margin-top: 14px;
+        max-width: none;
+        text-align: left;
+      }
+
+      .option-grid {
+        width: 100%;
+        display: block;
+      }
+
+      .resource-card,
+      .resource-card:hover,
+      .resource-card:focus-visible {
+        width: 100%;
+        min-height: 260px;
+        height: auto;
+        aspect-ratio: auto;
+        margin-bottom: 18px;
+        transform: none;
+      }
+
+      .option-desc,
+      .resource-card:hover .option-desc,
+      .resource-card:focus-visible .option-desc {
+        max-height: none;
+        margin-top: 20px;
+        opacity: 1;
+        transform: none;
+      }
+
+      .option-content {
+        display: block;
+      }
+
+      .option-copy,
+      .resource-card:hover .option-copy,
+      .resource-card:focus-visible .option-copy {
+        max-width: none;
+        padding-right: 0;
+      }
+
+      .option-image,
+      .card-gold .option-image,
+      .resource-card:hover .option-image,
+      .resource-card:focus-visible .option-image,
+      .card-gold:hover .option-image,
+      .card-gold:focus-visible .option-image {
+        position: static;
+        display: block;
+        width: 100%;
+        height: 220px;
+        margin-top: 22px;
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+  <div class="page-background" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand brand-left" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+      <a class="brand brand-center" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+      <nav class="topnav">
+        <a href="cre.html">真人英文課程</a>
+        <a href="recorded.html">錄影班</a>
+        <a href="notes.html">英文筆記</a>
+        <a href="resources.html">免費資源</a>
+        <a href="forum.html">英文論壇</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="resource-hero">
+      <div class="hero-copy">
+        <span class="hero-kicker">Edmund Education Resources</span>
+        <h1>Edmund 隨筆 /<br>免費英文學習資源站</h1>
+        <p class="hero-subheading">
+          語言博大精深，被眾文明視為藝術的一種.<br>
+          歡迎隨時過來，同 Edmund 一齊探索英文藝術！
+        </p>
+      </div>
+    </section>
+
+    <section class="resource-options" aria-labelledby="resource-options-title">
+      <div class="options-heading">
+        <h2 id="resource-options-title">選擇您想探索的英文世界</h2>
+        <p>細讀，細聽，細將英文變成自己的語言</p>
+      </div>
+
+      <div class="option-grid">
+        <a class="resource-card card-blue" href="daily-newsletter.html">
+          <div class="option-meta">
+            <span class="option-number">01</span>
+          </div>
+          <div class="option-content">
+            <div class="option-copy">
+              <h3 class="option-title">每日英文通訊</h3>
+              <p class="option-desc">Edmund Sir 儘量每日尋找香港各地可見到的英文，學習日常英語，同準備考試英文同樣重要！</p>
+            </div>
+            <img class="option-image" src="Daily Newsletter.png" alt="">
+          </div>
+        </a>
+
+        <a class="resource-card card-coral" href="major-music.html">
+          <div class="option-meta">
+            <span class="option-number">02</span>
+          </div>
+          <div class="option-content">
+            <div class="option-copy">
+              <h3 class="option-title">英文流行曲歌詞賞析</h3>
+              <p class="option-desc">英文流行曲看似簡單，但每首均是各英文填詞人的功夫菜！讓我們一起細心品嚐各首歌曲，欣賞音樂裡的文字！</p>
+            </div>
+            <img class="option-image" src="Singer Montage.jpeg" alt="">
+          </div>
+        </a>
+
+        <a class="resource-card card-emerald" href="news-analysis.html">
+          <div class="option-meta">
+            <span class="option-number">03</span>
+          </div>
+          <div class="option-content">
+            <div class="option-copy">
+              <h3 class="option-title">香港／國際新聞分析</h3>
+              <p class="option-desc">學習如何從新聞學英文！Edmund Sir 陪您一同從新聞學專業英文！</p>
+            </div>
+            <img class="option-image" src="News.png" alt="">
+          </div>
+        </a>
+
+        <a class="resource-card card-violet" href="english-study.html">
+          <div class="option-meta">
+            <span class="option-number">04</span>
+          </div>
+          <div class="option-content">
+            <div class="option-copy">
+              <h3 class="option-title">英語研究 / 導讀</h3>
+              <p class="option-desc">Edmund Sir 酷愛閱讀～最愛英文書籍，我們一起學習作者們的英文，學習如何「我手寫我心」！</p>
+            </div>
+            <img class="option-image" src="English Study.jpg" alt="">
+          </div>
+        </a>
+
+        <a class="resource-card card-gold" href="english-study.html">
+          <div class="option-meta">
+            <span class="option-number">05</span>
+          </div>
+          <div class="option-content">
+            <div class="option-copy">
+              <h3 class="option-title">
+                <span>更多</span>
+                <span>Edmund Education</span>
+                <span>出版文章!</span>
+              </h3>
+              <p class="option-desc">Edmund Sir 不定期也會寫下從各種主題所學到的英文. 學海無崖，我們一起持續學習！</p>
+            </div>
+            <img class="option-image" src="Edmund Publishment.png" alt="">
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    function setupHeaderWordmark() {
+      function updateHeader() {
+        document.body.classList.toggle("header-centered", window.scrollY > 24);
+      }
+
+      window.addEventListener("scroll", updateHeader, { passive: true });
+      window.addEventListener("resize", updateHeader);
+      updateHeader();
+    }
+
+    setupCustomCursor();
+    setupHeaderWordmark();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

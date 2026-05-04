@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>免費英文通訊 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --ink: #17201b;
+      --muted: #657169;
+      --paper: #fbfaf4;
+      --panel: rgba(255,255,255,0.82);
+      --green: #1f9d62;
+      --green-dark: #0f5f3e;
+      --gold: #e9ba5c;
+      --line: rgba(31,157,98,0.18);
+      --shadow: 0 24px 70px rgba(25,42,31,0.16);
+    }
+
+    html, body, a, button, input, textarea { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 700;
+      background:
+        radial-gradient(860px 480px at 8% 8%, rgba(18,88,62,0.30), transparent 68%),
+        radial-gradient(760px 520px at 88% 16%, rgba(233,186,92,0.32), transparent 64%),
+        linear-gradient(135deg, #101815 0%, #eff8ec 46%, #fffaf0 100%);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.48)),
+        radial-gradient(circle at 50% 100%, rgba(31,157,98,0.12), transparent 48%);
+      pointer-events: none;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .newsletter-shell {
+      min-height: 100vh;
+      padding: clamp(22px, 3vw, 48px) clamp(22px, 4vw, 66px) 70px;
+    }
+
+    .study-nav {
+      min-height: 52px;
+      display: grid;
+      grid-template-columns: 1.15fr auto 1fr;
+      align-items: center;
+      gap: 22px;
+      font-size: 15px;
+      line-height: 1;
+      font-weight: 900;
+      position: relative;
+      z-index: 5;
+    }
+
+    .study-brand,
+    .study-nav-title,
+    .nav-mini-link,
+    .login-button {
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .study-nav-left,
+    .study-nav-right {
+      display: flex;
+      align-items: center;
+      gap: clamp(12px, 1.6vw, 22px);
+      min-width: 0;
+    }
+
+    .study-nav-left { justify-self: start; }
+    .study-nav-right { justify-self: end; }
+
+    .study-brand {
+      display: inline-flex;
+      align-items: center;
+      min-height: 52px;
+      min-width: 0;
+    }
+
+    .study-brand img {
+      display: block;
+      height: clamp(34px, 4.2vw, 58px);
+      width: auto;
+      max-width: min(310px, 28vw);
+      object-fit: contain;
+    }
+
+    .nav-mini-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 46px;
+      border-radius: 999px;
+      padding: 0 10px;
+      color: #343437;
+      font-size: 17px;
+      font-weight: 900;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .nav-mini-link:hover {
+      background: rgba(29,29,31,0.07);
+      color: #0071e3;
+    }
+
+    .study-nav-title {
+      justify-self: center;
+      color: #22302a;
+      font-size: clamp(22px, 2vw, 34px);
+      font-weight: 900;
+    }
+
+    .view-posts {
+      min-height: 46px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 18px;
+      background: rgba(255,255,255,0.82);
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(29,29,31,0.08);
+    }
+
+    .login-button {
+      min-height: 46px;
+      border: 1px solid rgba(29,29,31,0.10);
+      border-radius: 999px;
+      padding: 0 20px;
+      background: rgba(255,255,255,0.82);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(29,29,31,0.08);
+    }
+
+    .dashboard-title {
+      margin: clamp(28px, 4vw, 48px) 0 18px;
+      color: #17201b;
+      font-size: clamp(34px, 4.5vw, 74px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .hero-card {
+      min-height: clamp(300px, 36vh, 460px);
+      border: 1px solid rgba(31,157,98,0.20);
+      border-radius: 34px;
+      overflow: hidden;
+      background:
+        linear-gradient(105deg, rgba(14,38,29,0.94), rgba(28,107,72,0.74) 46%, rgba(246,255,238,0.78)),
+        var(--hero-image);
+      background-size: cover;
+      background-position: center;
+      box-shadow: var(--shadow);
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(300px, 0.7fr);
+      align-items: stretch;
+      transition: opacity 0.55s ease, transform 0.55s ease, background-image 0.65s ease;
+    }
+
+    .hero-card.is-switching {
+      opacity: 0.55;
+      transform: translateY(8px);
+    }
+
+    .hero-copy {
+      padding: clamp(28px, 4vw, 58px);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-shadow: 0 16px 40px rgba(0,0,0,0.28);
+    }
+
+    .hero-kicker {
+      width: fit-content;
+      min-height: 32px;
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.90);
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 900;
+      backdrop-filter: blur(12px);
+    }
+
+    .hero-title {
+      max-width: 820px;
+      margin: 24px 0 0;
+      font-size: clamp(38px, 5vw, 82px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .hero-note {
+      max-width: 680px;
+      margin: 18px 0 0;
+      color: rgba(255,255,255,0.86);
+      font-size: clamp(18px, 1.5vw, 24px);
+      line-height: 1.48;
+      font-weight: 800;
+    }
+
+    .hero-note span {
+      display: block;
+    }
+
+    .hero-action {
+      margin-top: 38px;
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      width: fit-content;
+      border: 0;
+      border-radius: 999px;
+      padding: 0;
+      background: transparent;
+      color: #d7ffe9;
+      font-family: inherit;
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .book-button {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--green);
+      box-shadow: 0 14px 32px rgba(31,157,98,0.30);
+    }
+
+    .book-button svg {
+      width: 33px;
+      height: 33px;
+      display: block;
+    }
+
+    .hero-image-panel {
+      min-height: 100%;
+      background:
+        linear-gradient(90deg, rgba(15,31,24,0.36), rgba(255,255,255,0.06)),
+        var(--hero-image);
+      background-size: cover;
+      background-position: center;
+      border-left: 1px solid rgba(255,255,255,0.16);
+      clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .content-grid {
+      margin-top: 22px;
+      display: grid;
+      grid-template-columns: minmax(360px, 0.95fr) minmax(420px, 1.05fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .section-list,
+    .detail-card {
+      border-radius: 28px;
+      background: rgba(255,255,255,0.78);
+      box-shadow: 0 18px 44px rgba(25,42,31,0.10);
+      backdrop-filter: blur(18px);
+    }
+
+    .section-list {
+      padding: 22px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .section-list h2,
+    .detail-card h2 {
+      margin: 0;
+      color: #24342b;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .section-list h2 {
+      font-size: clamp(28px, 2.7vw, 41px);
+    }
+
+    .detail-card h2 {
+      font-size: clamp(34px, 3.8vw, 64px);
+    }
+
+    .section-tab {
+      width: 100%;
+      min-height: 152px;
+      border: 0;
+      border-radius: 22px;
+      padding: 14px 18px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.94), rgba(244,250,239,0.86));
+      color: var(--ink);
+      display: grid;
+      grid-template-columns: 112px minmax(0, 1fr) auto;
+      gap: 22px;
+      align-items: center;
+      text-align: left;
+      font-family: inherit;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.72), 0 10px 24px rgba(25,42,31,0.08);
+      transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .section-tab:hover,
+    .section-tab.is-active {
+      transform: translateY(-2px);
+      background: #fff;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.88), 0 16px 34px rgba(31,157,98,0.16);
+    }
+
+    .section-tab img {
+      width: 104px;
+      height: 104px;
+      display: block;
+    }
+
+    .section-label {
+      display: block;
+      font-size: clamp(34px, 3.8vw, 64px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .section-more {
+      min-height: 36px;
+      border-radius: 999px;
+      padding: 10px 16px;
+      background: #d7f6e4;
+      color: var(--green-dark);
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .detail-card {
+      min-height: 520px;
+      aspect-ratio: 1 / 1;
+      padding: clamp(26px, 3vw, 46px);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .detail-card::after {
+      content: "";
+      position: absolute;
+      right: -90px;
+      bottom: -120px;
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      background: rgba(31,157,98,0.10);
+      pointer-events: none;
+    }
+
+    .detail-text {
+      margin: 28px 0 0;
+      max-height: 350px;
+      overflow-y: auto;
+      padding-right: 12px;
+      color: #2f3b35;
+      font-size: clamp(21px, 1.7vw, 30px);
+      line-height: 1.62;
+      font-weight: 820;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(31,157,98,0.55) rgba(31,157,98,0.08);
+    }
+
+    .detail-text p {
+      margin: 0 0 1em;
+    }
+
+    .detail-empty {
+      color: #7b857e;
+      font-style: italic;
+    }
+
+    .admin-panel {
+      width: min(1180px, calc(100vw - 44px));
+      margin: 34px auto 0;
+      padding: clamp(24px, 4vw, 38px);
+      border-radius: 24px;
+      background: rgba(255,255,255,0.90);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .admin-panel[hidden],
+    .login-modal[hidden] {
+      display: none;
+    }
+
+    .admin-panel h2 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .admin-note {
+      margin: 10px 0 24px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 760;
+    }
+
+    .post-form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field.full { grid-column: 1 / -1; }
+
+    .field label {
+      font-size: 13px;
+      font-weight: 900;
+      color: #343437;
+    }
+
+    .field input,
+    .field textarea {
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 12px;
+      padding: 13px 14px;
+      background: #fbfbfd;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 760;
+      outline: 0;
+    }
+
+    .field textarea {
+      min-height: 170px;
+      resize: vertical;
+      line-height: 1.58;
+    }
+
+    .image-preview {
+      min-height: 230px;
+      border: 1px dashed rgba(0,0,0,0.18);
+      border-radius: 12px;
+      background: #f5f5f7;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .image-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .form-actions {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-top: 6px;
+    }
+
+    .post-button {
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 22px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .post-button.secondary {
+      background: #f5f5f7;
+      color: var(--ink);
+      border: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .saved-posts {
+      grid-column: 1 / -1;
+      display: grid;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .clipboard-row {
+      grid-column: 1 / -1;
+      display: grid;
+      gap: 10px;
+      padding: 18px;
+      border-radius: 18px;
+      background: #f3f8ef;
+      border: 1px solid rgba(31,157,98,0.14);
+    }
+
+    .clipboard-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .clipboard-head h3 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .clipboard-adopt {
+      border: 0;
+      border-radius: 999px;
+      padding: 11px 18px;
+      background: var(--green);
+      color: #fff;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .clipboard-row textarea {
+      min-height: 190px;
+      border: 1px solid rgba(31,157,98,0.18);
+      border-radius: 14px;
+      padding: 14px;
+      background: rgba(255,255,255,0.86);
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 16px;
+      line-height: 1.62;
+      font-weight: 760;
+      resize: vertical;
+      outline: 0;
+    }
+
+    .clipboard-row textarea[readonly] {
+      background: rgba(255,255,255,0.58);
+      color: #6a746d;
+    }
+
+    .posts-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 88;
+      display: grid;
+      place-items: center;
+      padding: 26px;
+      background: rgba(236, 244, 232, 0.64);
+      backdrop-filter: blur(12px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.28s ease, visibility 0.28s ease;
+    }
+
+    .posts-modal.is-open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .posts-window {
+      width: min(1120px, 94vw);
+      max-height: 82vh;
+      border-radius: 30px;
+      padding: clamp(24px, 4vw, 44px);
+      background: rgba(255,255,255,0.94);
+      box-shadow: var(--shadow);
+      overflow-y: auto;
+      transform: translateY(18px);
+      transition: transform 0.28s ease;
+    }
+
+    .posts-modal.is-open .posts-window {
+      transform: translateY(0);
+    }
+
+    .posts-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .posts-head h2 {
+      margin: 0;
+      font-size: clamp(34px, 4vw, 64px);
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .posts-close {
+      width: 58px;
+      height: 58px;
+      border: 0;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 30px;
+      font-weight: 900;
+      box-shadow: 0 12px 28px rgba(58,42,24,0.12);
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .post-card {
+      min-height: 260px;
+      border: 0;
+      border-radius: 22px;
+      padding: 20px;
+      background: #f7fbf3;
+      color: var(--ink);
+      text-align: left;
+      font-family: inherit;
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      box-shadow: 0 14px 30px rgba(25,42,31,0.10);
+    }
+
+    .post-card img {
+      width: 100%;
+      aspect-ratio: 1.6 / 1;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .post-card strong {
+      font-size: 21px;
+      line-height: 1.15;
+      font-weight: 900;
+    }
+
+    .post-card span {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .saved-post {
+      min-height: 54px;
+      border-radius: 14px;
+      padding: 10px 14px;
+      background: #f6faf4;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      font-weight: 900;
+    }
+
+    .delete-post {
+      border: 0;
+      border-radius: 999px;
+      padding: 9px 14px;
+      background: #d71920;
+      color: #fff;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .login-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      padding: 22px;
+      background: rgba(0,0,0,0.42);
+      backdrop-filter: blur(10px);
+      display: grid;
+      place-items: center;
+    }
+
+    .login-card {
+      width: min(460px, 100%);
+      border-radius: 18px;
+      padding: 28px;
+      background: #fff;
+      box-shadow: 0 28px 80px rgba(0,0,0,0.28);
+    }
+
+    .login-card h2 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .login-card p {
+      margin: 10px 0 18px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .login-error {
+      min-height: 22px;
+      margin-top: 10px;
+      color: #b42318;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    @media (max-width: 980px) {
+      html, body, a, button, input, textarea { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .newsletter-shell {
+        padding: 18px 18px 56px;
+      }
+
+      .study-nav {
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 14px;
+      }
+
+      .study-nav-title,
+      .study-nav-right {
+        justify-self: start;
+      }
+
+      .hero-card,
+      .content-grid,
+      .post-form {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-image-panel {
+        min-height: 240px;
+        clip-path: none;
+      }
+
+      .detail-card {
+        min-height: 430px;
+        aspect-ratio: auto;
+      }
+
+      .section-tab {
+        min-height: 128px;
+        grid-template-columns: 86px minmax(0, 1fr);
+      }
+
+      .section-tab img {
+        width: 82px;
+        height: 82px;
+      }
+
+      .section-label {
+        font-size: clamp(30px, 9vw, 46px);
+      }
+
+      .section-more {
+        grid-column: 2;
+        width: fit-content;
+      }
+
+      .posts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <div class="newsletter-shell">
+    <header class="study-nav">
+      <div class="study-nav-left">
+        <a class="study-brand" href="index.html" aria-label="EdmundEducation">
+          <img src="Font Transparent.png" alt="EdmundEducation">
+        </a>
+        <a class="nav-mini-link" href="index.html">主頁</a>
+        <a class="nav-mini-link" href="resources.html">回到其他英文學習資源</a>
+      </div>
+      <a class="study-nav-title" href="daily-newsletter.html">免費英文通訊</a>
+      <div class="study-nav-right">
+        <button class="view-posts" type="button" data-open-posts>查看所有通訊</button>
+        <button class="login-button" type="button" data-login-button>Log In</button>
+      </div>
+    </header>
+
+    <h1 class="dashboard-title">Edmund Sir 每日英文通訊</h1>
+
+    <main>
+      <section class="hero-card" data-hero-card style="--hero-image: url('Static Images/Daily Newsletter - Default English.jpg');">
+        <div class="hero-copy">
+          <span class="hero-kicker">Daily English In Hong Kong</span>
+          <h2 class="hero-title" data-hero-title>每日英文通訊</h2>
+          <p class="hero-note" data-hero-subheading>
+            <span>Edmund Sir 儘量每日尋找香港各地可見到的英文。</span>
+            <span>學習日常英語，同準備考試英文同樣重要！</span>
+          </p>
+          <button class="hero-action" type="button" data-start-learning>
+            <span class="book-button" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="presentation" aria-hidden="true">
+                <path d="M10 13c7 0 11 2 14 6 3-4 7-6 14-6v23c-7 0-11 2-14 6-3-4-7-6-14-6V13Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+                <path d="M24 19v23" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span>學習今天的免費英文通訊！</span>
+          </button>
+        </div>
+        <div class="hero-image-panel" data-hero-image aria-hidden="true"></div>
+      </section>
+
+      <section class="content-grid" id="newsletter-content">
+        <div class="section-list" aria-label="Newsletter sections">
+          <h2>今日重點</h2>
+          <button class="section-tab is-active" type="button" data-section-tab="imageEnglish">
+            <img src="newsletter-icon-image.svg" alt="">
+            <span class="section-label">圖中英語</span>
+            <span class="section-more">查看更多</span>
+          </button>
+          <button class="section-tab" type="button" data-section-tab="extension">
+            <img src="newsletter-icon-idea.svg" alt="">
+            <span class="section-label">主題延伸</span>
+            <span class="section-more">查看更多</span>
+          </button>
+          <button class="section-tab" type="button" data-section-tab="sentences">
+            <img src="newsletter-icon-sentence.svg" alt="">
+            <span class="section-label">實用句子</span>
+            <span class="section-more">查看更多</span>
+          </button>
+          <button class="section-tab" type="button" data-section-tab="summary">
+            <img src="newsletter-icon-summary.svg" alt="">
+            <span class="section-label">總結</span>
+            <span class="section-more">查看更多</span>
+          </button>
+        </div>
+
+        <article class="detail-card" aria-live="polite">
+          <h2 data-detail-title>圖中英語</h2>
+          <div class="detail-text" data-detail-text></div>
+        </article>
+      </section>
+
+      <section class="admin-panel" id="create" data-admin-panel hidden>
+        <h2>新增每日英文通訊</h2>
+        <p class="admin-note">登入後可以新增通訊。圖片會壓縮後儲存在此瀏覽器的 localStorage，最新一篇會顯示在首頁大橫幅。</p>
+
+        <form class="post-form" data-post-form>
+          <div class="field">
+            <label for="post-title">文章標題</label>
+            <input id="post-title" name="title" type="text" placeholder="例如：港鐵站內的一句英文" required>
+          </div>
+
+          <div class="field">
+            <label for="post-tag">Tag</label>
+            <input id="post-tag" name="tag" type="text" placeholder="例如：Daily English">
+          </div>
+
+          <div class="field full">
+            <label for="post-subheading">Subheading</label>
+            <input id="post-subheading" name="subheading" type="text" placeholder="例如：從香港街頭看見真正會用到的英文" required>
+          </div>
+
+          <div class="field">
+            <label for="post-image">Insert an image</label>
+            <input id="post-image" name="image" type="file" accept="image/*" required data-image-input>
+          </div>
+
+          <div class="field full">
+            <div class="image-preview" data-image-preview>Image preview</div>
+          </div>
+
+          <div class="field full">
+            <label for="post-image-english">圖中英語</label>
+            <textarea id="post-image-english" name="imageEnglish" placeholder="寫下圖片中值得學習的英文、字眼或用法。" required></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="post-extension">主題延伸</label>
+            <textarea id="post-extension" name="extension" placeholder="延伸相關主題、文化背景或常見錯誤。" required></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="post-sentences">實用句子</label>
+            <textarea id="post-sentences" name="sentences" placeholder="提供可直接使用的英文句子。" required></textarea>
+          </div>
+
+          <div class="clipboard-row">
+            <div class="clipboard-head">
+              <h3>Stationary Clipboard｜圖中英語至實用句子</h3>
+              <button class="clipboard-adopt" type="button" data-adopt-clipboard>Adopt</button>
+            </div>
+            <textarea id="post-clipboard" name="clipboard" readonly data-clipboard-text placeholder="這裡會自動整理「圖中英語」「主題延伸」「實用句子」的內容；按 Adopt 後可以編輯。"></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="post-summary">總結</label>
+            <textarea id="post-summary" name="summary" placeholder="寫下今日重點總結。" required></textarea>
+          </div>
+
+          <div class="saved-posts" data-saved-posts></div>
+
+          <div class="form-actions">
+            <button class="post-button secondary" type="reset">Clear</button>
+            <button class="post-button" type="submit">發布通訊</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <div class="login-modal" data-login-modal hidden>
+    <form class="login-card" data-login-form>
+      <h2>Password</h2>
+      <p>輸入管理員密碼後，就可以新增每日英文通訊。</p>
+      <div class="field">
+        <label for="admin-password">Password</label>
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <div class="login-error" data-login-error></div>
+      <div class="form-actions">
+        <button class="post-button secondary" type="button" data-close-login>Cancel</button>
+        <button class="post-button" type="submit">Log In</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="posts-modal" data-posts-modal aria-hidden="true">
+    <section class="posts-window" role="dialog" aria-modal="true" aria-label="查看所有通訊">
+      <div class="posts-head">
+        <h2>查看所有通訊</h2>
+        <button class="posts-close" type="button" data-close-posts aria-label="Close posts">×</button>
+      </div>
+      <div class="posts-grid" data-posts-grid></div>
+    </section>
+  </div>
+
+  <script>
+    const ADMIN_PASSWORD = "EdmundDailyNews";
+    const POSTS_KEY = "edmundDailyNewsletterPosts";
+    const AUTH_KEY = "edmundDailyNewsletterLoggedIn";
+    const DEFAULT_IMAGE = "Static Images/Daily Newsletter - Default English.jpg";
+
+    const sectionLabels = {
+      imageEnglish: "圖中英語",
+      extension: "主題延伸",
+      sentences: "實用句子",
+      summary: "總結"
+    };
+
+    const defaultPost = {
+      id: "daily-newsletter-default",
+      title: "每日英文通訊",
+      subheading: "Edmund Sir 儘量每日尋找香港各地可見到的英文。\n學習日常英語，同準備考試英文同樣重要！",
+      tag: "Daily English",
+      image: DEFAULT_IMAGE,
+      imageEnglish: "圖片中值得學習的英文。",
+      extension: "",
+      sentences: "",
+      summary: ""
+    };
+
+    let activePost = defaultPost;
+    let activeSection = "imageEnglish";
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function paragraphs(value) {
+      return String(value || "")
+        .split(/\n{2,}/)
+        .map(paragraph => paragraph.trim())
+        .filter(Boolean);
+    }
+
+    function getStoredPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveStoredPosts(posts) {
+      localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function getLatestPost() {
+      return getStoredPosts().sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0))[0] || null;
+    }
+
+    function heroImageValue(src) {
+      return `url("${String(src || DEFAULT_IMAGE).replaceAll('"', "%22")}")`;
+    }
+
+    function renderHero(post) {
+      const hero = document.querySelector("[data-hero-card]");
+      const title = document.querySelector("[data-hero-title]");
+      const subheading = document.querySelector("[data-hero-subheading]");
+      const imagePanel = document.querySelector("[data-hero-image]");
+      if (!hero || !title || !imagePanel || !subheading) return;
+
+      hero.style.setProperty("--hero-image", heroImageValue(post.image));
+      title.textContent = post.title || "每日英文通訊";
+      const lines = String(post.subheading || defaultPost.subheading)
+        .split(/\n+/)
+        .map(line => line.trim())
+        .filter(Boolean);
+      subheading.innerHTML = lines.map(line => `<span>${escapeHtml(line)}</span>`).join("");
+      imagePanel.style.backgroundImage = `linear-gradient(90deg, rgba(15,31,24,0.36), rgba(255,255,255,0.06)), ${heroImageValue(post.image)}`;
+    }
+
+    function renderDetail() {
+      const title = document.querySelector("[data-detail-title]");
+      const text = document.querySelector("[data-detail-text]");
+      if (!title || !text) return;
+
+      title.textContent = sectionLabels[activeSection] || "圖中英語";
+      const content = paragraphs(activePost[activeSection]);
+      text.innerHTML = content.length
+        ? content.map(paragraph => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`).join("")
+        : `<p class="detail-empty">這一欄暫時未有內容。</p>`;
+    }
+
+    function renderPost(post) {
+      activePost = post || defaultPost;
+      renderHero(activePost);
+      renderDetail();
+    }
+
+    function setSection(key) {
+      activeSection = key;
+      document.querySelectorAll("[data-section-tab]").forEach(tab => {
+        tab.classList.toggle("is-active", tab.getAttribute("data-section-tab") === key);
+      });
+      renderDetail();
+    }
+
+    function setLoggedIn(isLoggedIn) {
+      sessionStorage.setItem(AUTH_KEY, isLoggedIn ? "yes" : "no");
+      updateAuthUi();
+    }
+
+    function isLoggedIn() {
+      return sessionStorage.getItem(AUTH_KEY) === "yes";
+    }
+
+    function updateAuthUi() {
+      const adminPanel = document.querySelector("[data-admin-panel]");
+      const loginButton = document.querySelector("[data-login-button]");
+      const loggedIn = isLoggedIn();
+
+      if (adminPanel) adminPanel.hidden = !loggedIn;
+      if (loginButton) loginButton.textContent = loggedIn ? "Log Out" : "Log In";
+      document.body.classList.toggle("is-admin", loggedIn);
+      renderSavedPosts();
+      renderPostsGrid();
+    }
+
+    function openLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      const input = document.querySelector("#admin-password");
+      const error = document.querySelector("[data-login-error]");
+      if (error) error.textContent = "";
+      if (modal) modal.hidden = false;
+      setTimeout(() => input?.focus(), 0);
+    }
+
+    function closeLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      if (modal) modal.hidden = true;
+    }
+
+    async function readImageFile(file) {
+      const dataUrl = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+
+      return await new Promise(resolve => {
+        const image = new Image();
+        image.onload = () => {
+          const maxWidth = 1400;
+          const scale = Math.min(1, maxWidth / image.width);
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.round(image.width * scale);
+          canvas.height = Math.round(image.height * scale);
+          const context = canvas.getContext("2d");
+          context.drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolve(canvas.toDataURL("image/jpeg", 0.78));
+        };
+        image.onerror = () => resolve(dataUrl);
+        image.src = dataUrl;
+      });
+    }
+
+    function setupLogin() {
+      const loginButton = document.querySelector("[data-login-button]");
+      const loginForm = document.querySelector("[data-login-form]");
+      const closeButton = document.querySelector("[data-close-login]");
+
+      loginButton?.addEventListener("click", () => {
+        if (isLoggedIn()) {
+          setLoggedIn(false);
+          return;
+        }
+        openLogin();
+      });
+
+      closeButton?.addEventListener("click", closeLogin);
+
+      loginForm?.addEventListener("submit", event => {
+        event.preventDefault();
+        const formData = new FormData(loginForm);
+        const password = String(formData.get("password") || "");
+        const error = document.querySelector("[data-login-error]");
+
+        if (password === ADMIN_PASSWORD) {
+          setLoggedIn(true);
+          closeLogin();
+          loginForm.reset();
+          document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else if (error) {
+          error.textContent = "Password does not match.";
+        }
+      });
+    }
+
+    function renderSavedPosts() {
+      const container = document.querySelector("[data-saved-posts]");
+      if (!container || !isLoggedIn()) return;
+      const posts = getStoredPosts();
+
+      container.innerHTML = posts.length
+        ? posts.map(post => `
+          <div class="saved-post">
+            <span>${escapeHtml(post.title || "每日英文通訊")}</span>
+            <button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>
+          </div>
+        `).join("")
+        : `<p class="admin-note">暫時未有自訂通訊。</p>`;
+    }
+
+    function allPostsForDisplay() {
+      const posts = getStoredPosts();
+      return posts.length ? posts : [defaultPost];
+    }
+
+    function renderPostsGrid() {
+      const grid = document.querySelector("[data-posts-grid]");
+      if (!grid) return;
+      const posts = allPostsForDisplay();
+
+      grid.innerHTML = posts.map(post => `
+        <button class="post-card" type="button" data-open-post-id="${escapeHtml(post.id)}">
+          <img src="${escapeHtml(post.image || DEFAULT_IMAGE)}" alt="">
+          <strong>${escapeHtml(post.title || "每日英文通訊")}</strong>
+          <span>${escapeHtml(post.subheading || "")}</span>
+          ${post.tag ? `<span>#${escapeHtml(post.tag)}</span>` : ""}
+        </button>
+      `).join("");
+    }
+
+    function deletePost(id) {
+      saveStoredPosts(getStoredPosts().filter(post => post.id !== id));
+      const latest = getLatestPost();
+      renderPost(latest || defaultPost);
+      renderSavedPosts();
+      renderPostsGrid();
+    }
+
+    function setupPostForm() {
+      const form = document.querySelector("[data-post-form]");
+      const imageInput = document.querySelector("[data-image-input]");
+      const preview = document.querySelector("[data-image-preview]");
+      const clipboard = document.querySelector("[data-clipboard-text]");
+      const adoptButton = document.querySelector("[data-adopt-clipboard]");
+      const clipboardSources = [
+        document.querySelector("#post-image-english"),
+        document.querySelector("#post-extension"),
+        document.querySelector("#post-sentences")
+      ];
+
+      function updateClipboard() {
+        if (!clipboard || clipboard.dataset.adopted === "yes") return;
+        const labels = ["圖中英語", "主題延伸", "實用句子"];
+        clipboard.value = clipboardSources.map((source, index) => {
+          const value = source?.value.trim() || "";
+          return value ? `${labels[index]}\n${value}` : "";
+        }).filter(Boolean).join("\n\n");
+      }
+
+      clipboardSources.forEach(source => {
+        source?.addEventListener("input", updateClipboard);
+      });
+
+      adoptButton?.addEventListener("click", () => {
+        if (!clipboard) return;
+        updateClipboard();
+        clipboard.dataset.adopted = "yes";
+        clipboard.readOnly = false;
+        clipboard.focus();
+      });
+
+      imageInput?.addEventListener("change", async () => {
+        const file = imageInput.files?.[0];
+        if (!file || !preview) return;
+        const image = await readImageFile(file);
+        preview.innerHTML = `<img src="${image}" alt="">`;
+      });
+
+      form?.addEventListener("reset", () => {
+        setTimeout(() => {
+          if (preview) preview.textContent = "Image preview";
+          if (clipboard) {
+            clipboard.value = "";
+            clipboard.dataset.adopted = "no";
+            clipboard.readOnly = true;
+          }
+        }, 0);
+      });
+
+      form?.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+
+        const formData = new FormData(form);
+        const file = formData.get("image");
+        if (!(file instanceof File) || !file.size) return;
+
+        const createdAt = Date.now();
+        const post = {
+          id: `daily-${createdAt}`,
+          createdAt,
+          title: String(formData.get("title") || "").trim(),
+          subheading: String(formData.get("subheading") || "").trim(),
+          tag: String(formData.get("tag") || "").trim(),
+          image: await readImageFile(file),
+          imageEnglish: String(formData.get("imageEnglish") || "").trim(),
+          extension: String(formData.get("extension") || "").trim(),
+          sentences: String(formData.get("sentences") || "").trim(),
+          summary: String(formData.get("summary") || "").trim()
+        };
+
+        try {
+          saveStoredPosts([post, ...getStoredPosts()]);
+        } catch {
+          alert("This browser could not permanently save the post, likely because localStorage is full.");
+        }
+
+        form.reset();
+        if (preview) preview.textContent = "Image preview";
+        if (clipboard) {
+          clipboard.value = "";
+          clipboard.dataset.adopted = "no";
+          clipboard.readOnly = true;
+        }
+        renderPost(post);
+        renderSavedPosts();
+        renderPostsGrid();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      document.addEventListener("click", event => {
+        const deleteButton = event.target.closest("[data-delete-post]");
+        if (!deleteButton) return;
+        event.preventDefault();
+        if (!confirm("Delete this post?")) return;
+        deletePost(deleteButton.getAttribute("data-delete-post"));
+      });
+    }
+
+    function setupPostsModal() {
+      const openButton = document.querySelector("[data-open-posts]");
+      const closeButton = document.querySelector("[data-close-posts]");
+      const modal = document.querySelector("[data-posts-modal]");
+      const grid = document.querySelector("[data-posts-grid]");
+
+      function openModal() {
+        renderPostsGrid();
+        modal?.classList.add("is-open");
+        modal?.setAttribute("aria-hidden", "false");
+      }
+
+      function closeModal() {
+        modal?.classList.remove("is-open");
+        modal?.setAttribute("aria-hidden", "true");
+      }
+
+      openButton?.addEventListener("click", openModal);
+      closeButton?.addEventListener("click", closeModal);
+      modal?.addEventListener("click", event => {
+        if (event.target === modal) closeModal();
+      });
+      grid?.addEventListener("click", event => {
+        const button = event.target.closest("[data-open-post-id]");
+        if (!button) return;
+        const id = button.getAttribute("data-open-post-id");
+        const post = allPostsForDisplay().find(item => item.id === id);
+        if (post) renderPost(post);
+        closeModal();
+      });
+      window.addEventListener("keydown", event => {
+        if (event.key === "Escape") closeModal();
+      });
+    }
+
+    function setupSections() {
+      document.querySelectorAll("[data-section-tab]").forEach(tab => {
+        tab.addEventListener("click", () => {
+          setSection(tab.getAttribute("data-section-tab") || "imageEnglish");
+        });
+      });
+
+      document.querySelector("[data-start-learning]")?.addEventListener("click", () => {
+        setSection("imageEnglish");
+        document.querySelector("#newsletter-content")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    renderPost(defaultPost);
+    window.setTimeout(() => {
+      const latest = getLatestPost();
+      if (!latest) return;
+      const hero = document.querySelector("[data-hero-card]");
+      hero?.classList.add("is-switching");
+      window.setTimeout(() => {
+        renderPost(latest);
+        hero?.classList.remove("is-switching");
+      }, 380);
+    }, 2000);
+
+    updateAuthUi();
+    setupLogin();
+    setupPostForm();
+    setupPostsModal();
+    setupSections();
+    setupCustomCursor();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

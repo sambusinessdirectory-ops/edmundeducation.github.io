@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Post | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body, a, button { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 600;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .post-shell {
+      width: min(1180px, calc(100vw - 28px));
+      margin: 0 auto;
+      padding: 14px 0 70px;
+    }
+
+    .post-nav {
+      position: sticky;
+      top: 12px;
+      z-index: 20;
+      min-height: 58px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.82);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 16px 48px rgba(0,0,0,0.09);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .post-brand,
+    .back-link {
+      color: #1d1d1f;
+      text-decoration: none;
+      font-weight: 900;
+    }
+
+    .post-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+    }
+
+    .brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #050505;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 17px;
+    }
+
+    .back-link {
+      font-size: 14px;
+      color: #3f3f46;
+    }
+
+    .post-hero {
+      margin-top: 14px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #d2d2d7;
+      box-shadow: 0 18px 54px rgba(0,0,0,0.13);
+    }
+
+    .post-hero img {
+      display: block;
+      width: 100%;
+      max-height: 620px;
+      object-fit: cover;
+    }
+
+    .post-copy {
+      width: min(880px, calc(100vw - 44px));
+      margin: 48px auto 0;
+    }
+
+    .tag-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: #050505;
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    h1 {
+      margin: 18px 0 0;
+      font-size: clamp(38px, 5vw, 74px);
+      line-height: 1.08;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .post-meta {
+      margin: 18px 0 0;
+      color: #6e6e73;
+      font-size: 15px;
+      font-weight: 800;
+    }
+
+    .post-body {
+      margin-top: 38px;
+      font-size: clamp(19px, 1.7vw, 24px);
+      line-height: 1.72;
+      font-weight: 700;
+      color: #2f2f33;
+    }
+
+    .post-body p {
+      margin: 0 0 24px;
+    }
+
+    .missing {
+      min-height: 60vh;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 60px 22px;
+    }
+
+    .missing h1 {
+      font-size: clamp(36px, 5vw, 64px);
+    }
+
+    @media (max-width: 760px) {
+      html, body, a, button { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .post-shell {
+        width: 100%;
+        padding-top: 0;
+      }
+
+      .post-nav {
+        top: 0;
+        border-radius: 0;
+      }
+
+      .post-brand span:last-child {
+        display: none;
+      }
+
+      .post-hero {
+        margin-top: 0;
+        border-radius: 0;
+      }
+
+      .post-copy {
+        margin-top: 34px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <div class="post-shell">
+    <header class="post-nav">
+      <a class="post-brand" href="major-music.html">
+        <span class="brand-mark">♪</span>
+        <span>Edmund Music Journal</span>
+      </a>
+      <a class="back-link" href="major-music.html">Back to music blog</a>
+    </header>
+
+    <main data-post-root></main>
+  </div>
+
+  <script>
+    const POSTS_KEY = "edmundMusicPosts";
+
+    const seedPosts = [];
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function getStoredPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function getAllPosts() {
+      return [...getStoredPosts(), ...seedPosts];
+    }
+
+    function getNavigationPost(id) {
+      const candidates = [];
+
+      if (window.name) candidates.push(window.name);
+
+      try {
+        const activePost = sessionStorage.getItem("edmundMusicActivePost");
+        if (activePost) candidates.push(activePost);
+      } catch {}
+
+      for (const candidate of candidates) {
+        try {
+          const payload = JSON.parse(candidate);
+          if (payload?.type === "edmundMusicPost" && payload.post?.id === id) {
+            return payload.post;
+          }
+        } catch {}
+      }
+
+      return null;
+    }
+
+    function renderParagraphs(body) {
+      return String(body)
+        .split(/\n{2,}/)
+        .map(paragraph => paragraph.trim())
+        .filter(Boolean)
+        .map(paragraph => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`)
+        .join("");
+    }
+
+    function renderPost() {
+      const root = document.querySelector("[data-post-root]");
+      const id = new URLSearchParams(window.location.search).get("id");
+      const post = getAllPosts().find(item => item.id === id) || getNavigationPost(id);
+
+      if (!root) return;
+
+      if (!post) {
+        document.title = "Post not found | EdmundEducation";
+        root.innerHTML = `
+          <section class="missing">
+            <div>
+              <h1>找不到這篇文章</h1>
+              <p class="post-meta">這篇文章可能只存在於另一個瀏覽器或已被刪除。</p>
+              <p><a class="back-link" href="major-music.html">Back to music blog</a></p>
+            </div>
+          </section>
+        `;
+        return;
+      }
+
+      document.title = `${post.title} | EdmundEducation`;
+      root.innerHTML = `
+        <article>
+          <div class="post-hero">
+            <img src="${escapeHtml(post.image)}" alt="">
+          </div>
+          <div class="post-copy">
+            <span class="tag-pill">${escapeHtml(post.tag)}</span>
+            <h1>${escapeHtml(post.title)}</h1>
+            <p class="post-meta">${escapeHtml(post.author || "Edmund Sir")} ・ ${escapeHtml(post.date)} ・ ${escapeHtml(post.minutes)}</p>
+            <div class="post-body">${renderParagraphs(post.body)}</div>
+          </div>
+        </article>
+      `;
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    renderPost();
+    setupCustomCursor();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

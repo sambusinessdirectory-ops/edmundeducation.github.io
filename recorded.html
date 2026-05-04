@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Edmund Sir 錄影班 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="page-loader.css">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --pink: #f72f75;
+      --pink-soft: #ffe5ef;
+      --ink: #17171a;
+      --muted: #8b8d97;
+      --paper: #ffffff;
+      --wash: #fff5f0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, #ffe7dc 0 6.3%, #fff 6.3% 100%);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 700;
+    }
+
+    .ambient-dots {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.64;
+      background-image:
+        radial-gradient(circle, rgba(211, 145, 113, 0.16) 0 2px, transparent 2.8px),
+        radial-gradient(circle, rgba(252, 202, 177, 0.28) 0 4px, transparent 5px),
+        radial-gradient(circle, rgba(255, 238, 226, 0.68) 0 8px, transparent 9px);
+      background-size: 86px 86px, 154px 154px, 248px 248px;
+      background-position: 0 0, 38px 48px, 90px 18px;
+      animation: ambientDotsDrift 52s ease-in-out infinite alternate;
+    }
+
+    @keyframes ambientDotsDrift {
+      from {
+        transform: translate3d(-1.2%, -0.8%, 0);
+        background-position: 0 0, 38px 48px, 90px 18px;
+      }
+      to {
+        transform: translate3d(1.4%, 1%, 0);
+        background-position: 34px 20px, 8px 82px, 128px 54px;
+      }
+    }
+
+    a,
+    button,
+    input {
+      font: inherit;
+    }
+
+    .study-nav {
+      position: relative;
+      z-index: 5;
+      width: min(1320px, calc(100vw - 48px));
+      min-height: 62px;
+      margin: 0 auto;
+      padding-top: clamp(18px, 2.6vw, 34px);
+      display: grid;
+      grid-template-columns: 1.2fr auto 1fr;
+      align-items: center;
+      gap: 22px;
+      font-size: 15px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .study-brand,
+    .study-nav-title,
+    .nav-mini-link {
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .study-nav-left,
+    .study-nav-right {
+      display: flex;
+      align-items: center;
+      gap: clamp(12px, 1.6vw, 22px);
+      min-width: 0;
+    }
+
+    .study-nav-left { justify-self: start; }
+    .study-nav-right { justify-self: end; }
+
+    .study-brand {
+      display: inline-flex;
+      align-items: center;
+      min-height: 52px;
+      min-width: 0;
+    }
+
+    .study-brand img {
+      display: block;
+      height: clamp(34px, 4.2vw, 58px);
+      width: auto;
+      max-width: min(310px, 28vw);
+      object-fit: contain;
+    }
+
+    .nav-mini-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 46px;
+      border-radius: 999px;
+      padding: 0 10px;
+      color: #343437;
+      font-size: 17px;
+      font-weight: 900;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .nav-mini-link:hover {
+      background: rgba(29,29,31,0.07);
+      color: #0071e3;
+    }
+
+    .study-nav-title {
+      justify-self: center;
+      color: #22302a;
+      font-size: clamp(22px, 2vw, 34px);
+      font-weight: 900;
+    }
+
+    .recorded-page {
+      position: relative;
+      z-index: 1;
+      width: min(1320px, calc(100vw - 48px));
+      margin: 0 auto;
+      padding: clamp(42px, 5vw, 72px) 0 clamp(72px, 8vw, 110px);
+    }
+
+    .hero-stage {
+      position: relative;
+      min-height: clamp(510px, 48vw, 680px);
+      display: grid;
+      grid-template-columns: minmax(320px, 0.72fr) minmax(680px, 1.28fr);
+      gap: clamp(30px, 3.8vw, 58px);
+      align-items: start;
+    }
+
+    .video-image-card {
+      position: relative;
+      z-index: 2;
+      width: min(540px, 100%);
+      aspect-ratio: 1 / 1.04;
+      overflow: hidden;
+      background: #f3f5f7;
+      box-shadow: 0 34px 86px rgba(27, 36, 48, 0.12);
+      opacity: 0;
+      transform: translateY(24px);
+      animation: recordedFadeIn 0.95s ease 0.12s forwards;
+    }
+
+    .video-image-card img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: blur(2.4px) saturate(0.92) contrast(1.02);
+      transform: scale(1.035);
+    }
+
+    .learn-panel {
+      position: relative;
+      z-index: 1;
+      min-height: clamp(360px, 35vw, 520px);
+      margin-top: 0;
+      margin-left: 0;
+      padding: clamp(86px, 8vw, 142px) clamp(48px, 5.2vw, 92px) clamp(130px, 10vw, 182px);
+      background: rgba(255,255,255,0.94);
+      box-shadow: 0 26px 72px rgba(40, 46, 60, 0.08);
+      overflow: hidden;
+    }
+
+    .learn-panel::before {
+      content: "Study";
+      position: absolute;
+      top: clamp(28px, 4vw, 54px);
+      right: clamp(24px, 4vw, 66px);
+      color: rgba(29,29,31,0.028);
+      font-family: Arial, sans-serif;
+      font-size: clamp(116px, 15vw, 210px);
+      line-height: 0.82;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      pointer-events: none;
+    }
+
+    .learn-copy {
+      position: relative;
+      z-index: 2;
+      width: min(760px, 100%);
+      margin-left: 0;
+    }
+
+    .hero-kicker {
+      display: block;
+      margin-bottom: 8px;
+      color: #9a9ca5;
+      font-family: Arial, sans-serif;
+      font-size: clamp(11px, 1vw, 14px);
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0.32em;
+      opacity: 0;
+      transform: translateY(18px);
+      animation: recordedFadeIn 0.9s ease 0.72s forwards;
+    }
+
+    h1 {
+      margin: 0;
+      color: #111114;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: clamp(58px, 5.4vw, 86px);
+      line-height: 0.98;
+      font-weight: 300;
+      letter-spacing: -0.045em;
+      white-space: nowrap;
+      opacity: 0;
+      transform: translateY(22px);
+      animation: recordedFadeIn 1s ease 0.82s forwards;
+    }
+
+    h1 strong {
+      font-weight: 900;
+      letter-spacing: -0.035em;
+    }
+
+    .search-form {
+      width: min(450px, 100%);
+      margin-top: clamp(28px, 3vw, 46px);
+      display: flex;
+      align-items: center;
+      min-height: 58px;
+      border-radius: 999px;
+      background: #fff;
+      box-shadow: 0 22px 44px rgba(55, 77, 100, 0.13);
+      overflow: hidden;
+      opacity: 0;
+      transform: translateY(18px);
+      animation: recordedFadeIn 0.95s ease 1.18s forwards;
+    }
+
+    .search-form label {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .search-form input {
+      width: 100%;
+      min-height: 58px;
+      border: 0;
+      outline: 0;
+      padding: 0 22px 0 30px;
+      color: #494b52;
+      background: transparent;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .search-form input::placeholder {
+      color: #9da0aa;
+      opacity: 1;
+    }
+
+    .search-button {
+      width: 86px;
+      min-height: 58px;
+      border: 0;
+      border-radius: 999px;
+      background: var(--pink);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 18px 32px rgba(247, 47, 117, 0.32);
+      transition: transform 0.24s ease, box-shadow 0.24s ease, background 0.24s ease;
+    }
+
+    .search-button:hover,
+    .search-button:focus-visible {
+      transform: translateX(-4px) scale(1.06);
+      background: #ff2d7c;
+      box-shadow: 0 22px 40px rgba(247, 47, 117, 0.40);
+    }
+
+    .search-button svg {
+      width: 23px;
+      height: 23px;
+      stroke: currentColor;
+      stroke-width: 2.8;
+      fill: none;
+      transition: transform 0.24s ease;
+    }
+
+    .search-button:hover svg,
+    .search-button:focus-visible svg {
+      transform: rotate(-9deg) scale(1.08);
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    .advantage-strip {
+      position: relative;
+      z-index: 4;
+      width: min(820px, 74%);
+      margin: clamp(-104px, -6.4vw, -68px) 0 0 clamp(180px, 22vw, 320px);
+      min-height: 126px;
+      padding: 28px clamp(30px, 4vw, 58px);
+      background: rgba(255,255,255,0.98);
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 28px;
+      align-items: center;
+      box-shadow: 0 24px 52px rgba(52, 72, 93, 0.14);
+      opacity: 0;
+      transform: translateY(24px);
+      animation: recordedFadeIn 0.95s ease 1.52s forwards;
+    }
+
+    .advantage-item {
+      min-width: 0;
+      display: grid;
+      justify-items: center;
+      gap: 13px;
+      color: #8d8f98;
+      text-align: center;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: clamp(13px, 1vw, 16px);
+      line-height: 1.26;
+      font-weight: 800;
+    }
+
+    .advantage-icon {
+      width: 28px;
+      height: 28px;
+      color: var(--pink);
+      display: grid;
+      place-items: center;
+    }
+
+    .advantage-icon svg {
+      width: 28px;
+      height: 28px;
+      fill: currentColor;
+    }
+
+    .recommended {
+      margin-top: clamp(82px, 10vw, 126px);
+      width: min(860px, calc(100% - 160px));
+      margin-left: auto;
+      margin-right: auto;
+      opacity: 0;
+      transform: translateY(24px);
+      animation: recordedFadeIn 0.95s ease 1.88s forwards;
+    }
+
+    .recommended-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 26px;
+    }
+
+    .recommended h2 {
+      margin: 0;
+      color: #19191d;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: clamp(28px, 3.2vw, 44px);
+      line-height: 1.08;
+      font-weight: 900;
+      letter-spacing: -0.025em;
+    }
+
+    .recommended h2 span {
+      color: #9b9da5;
+      font-weight: 300;
+    }
+
+    .empty-recommendations {
+      min-height: 210px;
+      border: 1px dashed rgba(247, 47, 117, 0.22);
+      background:
+        radial-gradient(circle at 18% 20%, rgba(247,47,117,0.08), transparent 30%),
+        rgba(255,255,255,0.70);
+      display: grid;
+      place-items: center;
+      padding: 34px;
+      color: #8c8f99;
+      text-align: center;
+      font-size: clamp(18px, 1.4vw, 22px);
+      line-height: 1.45;
+      font-weight: 800;
+      box-shadow: 0 20px 50px rgba(42, 52, 70, 0.06);
+    }
+
+    @keyframes recordedFadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .page-loader-markup {
+      position: fixed;
+      inset: auto;
+    }
+
+    @media (max-width: 950px) {
+      body {
+        background:
+          linear-gradient(90deg, #ffe7dc 0 14px, #fff 14px 100%);
+      }
+
+      .recorded-page {
+        width: min(100%, calc(100vw - 28px));
+        padding-top: 34px;
+      }
+
+      .study-nav {
+        width: min(100%, calc(100vw - 28px));
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 10px;
+      }
+
+      .study-nav-left,
+      .study-nav-right {
+        width: 100%;
+        flex-wrap: wrap;
+      }
+
+      .study-nav-title {
+        justify-self: start;
+      }
+
+      .study-brand img {
+        max-width: min(280px, 82vw);
+      }
+
+      .hero-stage {
+        display: block;
+        min-height: 0;
+      }
+
+      .video-image-card {
+        width: min(560px, 100%);
+        margin: 0 auto;
+      }
+
+      .learn-panel {
+        margin: 24px auto 0;
+        padding: 68px 26px 84px;
+      }
+
+      .learn-copy {
+        margin: 0;
+      }
+
+      h1 {
+        font-size: clamp(48px, 13vw, 82px);
+        white-space: normal;
+      }
+
+      .search-form {
+        max-width: 100%;
+      }
+
+      .advantage-strip {
+        width: min(100%, 680px);
+        margin: -26px auto 0;
+        grid-template-columns: 1fr;
+        gap: 22px;
+      }
+
+      .recommended {
+        width: 100%;
+        margin-top: 64px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ambient-dots,
+      .video-image-card,
+      .hero-kicker,
+      h1,
+      .search-form,
+      .advantage-strip,
+      .recommended {
+        animation: none;
+      }
+
+      .video-image-card,
+      .hero-kicker,
+      h1,
+      .search-form,
+      .advantage-strip,
+      .recommended {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="ambient-dots" aria-hidden="true"></div>
+
+  <header class="study-nav">
+    <div class="study-nav-left">
+      <a class="study-brand" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+      <a class="nav-mini-link" href="index.html">主頁</a>
+      <a class="nav-mini-link" href="resources.html">回到其他英文學習資源</a>
+    </div>
+    <a class="study-nav-title" href="recorded.html">錄影班</a>
+    <div class="study-nav-right" aria-hidden="true"></div>
+  </header>
+
+  <main class="recorded-page">
+    <section class="hero-stage" aria-labelledby="recorded-title">
+      <div class="video-image-card">
+        <img src="Static Images/Video Class.jpg" alt="Edmund Sir recorded class">
+      </div>
+
+      <div class="learn-panel">
+        <div class="learn-copy">
+          <span class="hero-kicker">Study Any topic anytime</span>
+          <h1 id="recorded-title">Edmund Sir <strong>錄影班</strong></h1>
+
+          <form class="search-form" action="#" aria-label="Search recorded classes">
+            <label>
+              <span class="visually-hidden">搜尋錄影課程</span>
+              <input type="search" placeholder="您想學習甚麼？">
+            </label>
+            <button class="search-button" type="submit" aria-label="Search">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="6.2"></circle>
+                <path d="M16 16l4.2 4.2"></path>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantage-strip" aria-label="Recorded class advantages">
+      <div class="advantage-item">
+        <span class="advantage-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32">
+            <path d="M6 7h20a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7v2h4v2H9v-2h4v-2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Zm0 3v10h20V10H6Z"/>
+          </svg>
+        </span>
+        <span>不同考試及學習需要課程</span>
+      </div>
+
+      <div class="advantage-item">
+        <span class="advantage-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32">
+            <path d="M16 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12Zm-10 14c0-6 4.2-10.5 10-10.5S26 23 26 29H6Z"/>
+          </svg>
+        </span>
+        <span>專業英文導師教學</span>
+      </div>
+
+      <div class="advantage-item">
+        <span class="advantage-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32">
+            <path d="M18.8 2 6 18h8l-1.8 12L26 13h-8l.8-11Z"/>
+          </svg>
+        </span>
+        <span>隨時重溫，彈性學習</span>
+      </div>
+    </section>
+
+    <section class="recommended" aria-labelledby="recommended-title">
+      <div class="recommended-header">
+        <h2 id="recommended-title">為您<span>推薦</span></h2>
+      </div>
+      <div class="empty-recommendations">
+        敬請期待 Edmund Sir 新錄影班課程!~
+      </div>
+    </section>
+  </main>
+
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="">
+  </div>
+
+  <script>
+    document.querySelector(".search-form")?.addEventListener("submit", event => {
+      event.preventDefault();
+    });
+  </script>
+  <script src="page-loader.js"></script>
+</body>
+</html>

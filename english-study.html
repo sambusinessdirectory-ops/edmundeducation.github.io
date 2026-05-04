@@ -1,0 +1,1708 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>英語研究 / 導讀 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --ink: #1d1d1f;
+      --muted: #67676d;
+      --paper: #f8f7f4;
+      --accent: #d71920;
+      --line: rgba(215,25,32,0.62);
+      --panel-shadow: 0 26px 70px rgba(26, 24, 22, 0.12);
+    }
+
+    html, body, a, button, input, textarea { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 22% 48%, rgba(215,25,32,0.05), transparent 22%),
+        linear-gradient(90deg, rgba(255,255,255,0.96), rgba(248,247,244,0.98));
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 700;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .study-shell {
+      min-height: 100vh;
+      padding: clamp(22px, 3vw, 48px) clamp(22px, 4vw, 66px);
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      gap: clamp(28px, 4vw, 58px);
+      position: relative;
+      transition: filter 0.35s ease, opacity 0.35s ease;
+    }
+
+    body.posts-browser-open .study-shell,
+    body.posts-browser-open .vertical-label {
+      filter: blur(10px);
+      opacity: 0.66;
+    }
+
+    .study-nav {
+      min-height: 42px;
+      display: grid;
+      grid-template-columns: 1.15fr auto 1fr;
+      align-items: center;
+      gap: 22px;
+      font-size: 15px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0;
+      position: relative;
+      z-index: 5;
+    }
+
+    .study-brand,
+    .study-nav-title,
+    .view-posts,
+    .nav-mini-link,
+    .login-button {
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .study-nav-left {
+      justify-self: start;
+      display: flex;
+      align-items: center;
+      gap: clamp(12px, 1.6vw, 22px);
+      min-width: 0;
+    }
+
+    .study-brand {
+      display: inline-flex;
+      align-items: center;
+      min-height: 52px;
+      min-width: 0;
+    }
+
+    .study-brand img {
+      display: block;
+      height: clamp(34px, 4.2vw, 58px);
+      width: auto;
+      max-width: min(310px, 28vw);
+      object-fit: contain;
+    }
+
+    .nav-mini-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 46px;
+      padding: 0 10px;
+      border-radius: 999px;
+      font-size: 17px;
+      font-weight: 900;
+      color: #343437;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .nav-mini-link:hover {
+      background: rgba(29,29,31,0.07);
+      color: #0071e3;
+    }
+
+    .study-nav-title {
+      justify-self: center;
+      color: #2c2c30;
+    }
+
+    .view-posts {
+      justify-self: end;
+      border: 0;
+      min-height: 46px;
+      border-radius: 999px;
+      padding: 0 16px;
+      background: transparent;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .view-posts:hover {
+      background: rgba(29,29,31,0.07);
+      color: #0071e3;
+    }
+
+    .study-nav-right {
+      justify-self: end;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .login-button {
+      min-height: 46px;
+      border: 1px solid rgba(29,29,31,0.12);
+      border-radius: 999px;
+      padding: 0 20px;
+      background: #fff;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(29,29,31,0.08);
+    }
+
+    .study-layout {
+      display: grid;
+      grid-template-columns: minmax(300px, 0.82fr) minmax(560px, 1.28fr) minmax(160px, 230px);
+      gap: clamp(30px, 4vw, 68px);
+      align-items: center;
+      min-height: calc(100vh - 132px);
+      padding-right: clamp(26px, 4vw, 72px);
+      position: relative;
+    }
+
+    .post-visual {
+      min-width: 0;
+      display: grid;
+      justify-items: center;
+      align-content: center;
+      gap: 28px;
+      position: relative;
+    }
+
+    .post-visual::before {
+      content: "";
+      position: absolute;
+      width: clamp(350px, 36vw, 610px);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 38% 34%, rgba(255,255,255,0.76), rgba(224,222,216,0.82) 55%, rgba(205,202,194,0.46) 74%, transparent 78%);
+      box-shadow:
+        inset 0 0 58px rgba(255,255,255,0.56),
+        0 28px 90px rgba(72,68,61,0.13);
+      z-index: 0;
+    }
+
+    .post-image-card {
+      position: relative;
+      z-index: 1;
+      width: min(430px, 88%);
+      border-radius: 4px;
+      box-shadow: 0 34px 76px rgba(29,29,31,0.20);
+      background: #fff;
+      overflow: hidden;
+      transform: translateY(2px);
+    }
+
+    .post-image-card img {
+      width: 100%;
+      display: block;
+      aspect-ratio: 0.75 / 1;
+      object-fit: cover;
+      background: #eee;
+    }
+
+    .post-image-caption {
+      position: relative;
+      z-index: 1;
+      max-width: min(430px, 88%);
+      margin: 0;
+      color: #36363b;
+      text-align: center;
+      font-size: 15px;
+      line-height: 1.42;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.88);
+    }
+
+    .post-image-caption[hidden] { display: none; }
+
+    .post-content {
+      min-width: 0;
+      align-self: center;
+    }
+
+    .post-heading-row {
+      display: flex;
+      align-items: flex-end;
+      gap: clamp(16px, 2vw, 28px);
+      flex-wrap: wrap;
+    }
+
+    .post-title {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(46px, 5.4vw, 86px);
+      line-height: 0.96;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .post-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      max-width: 340px;
+      padding-bottom: 8px;
+    }
+
+    .post-tags[hidden] {
+      display: none;
+    }
+
+    .post-tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: #e6bb68;
+      color: #21120d;
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 900;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.35), 0 8px 18px rgba(133,93,35,0.10);
+    }
+
+    .post-author {
+      margin: 18px 0 0;
+      font-size: 16px;
+      line-height: 1;
+      color: #2f2f34;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .post-author strong {
+      font-weight: 900;
+    }
+
+    .post-subheading {
+      margin: clamp(28px, 3vw, 42px) 0 0;
+      max-width: 800px;
+      color: #4a4a51;
+      font-size: clamp(23px, 2.05vw, 35px);
+      line-height: 1.48;
+      font-style: italic;
+      font-weight: 780;
+      text-wrap: balance;
+    }
+
+    .post-scroll-shell {
+      position: relative;
+      max-width: 900px;
+      margin-top: clamp(32px, 4vw, 56px);
+    }
+
+    .post-text {
+      max-height: min(36vh, 430px);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding-right: 18px;
+      scrollbar-width: none;
+    }
+
+    .post-text::-webkit-scrollbar {
+      display: none;
+    }
+
+    .post-text p {
+      margin: 0 0 1.16em;
+      color: #34343a;
+      font-size: clamp(18px, 1.24vw, 24px);
+      line-height: 1.78;
+      font-weight: 760;
+    }
+
+    .post-text strong,
+    .post-text .text-highlight {
+      color: #d71920;
+      font-weight: 900;
+    }
+
+    .writer-card {
+      max-width: 690px;
+      margin-top: clamp(42px, 5vw, 70px);
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr);
+      gap: 18px;
+      align-items: center;
+    }
+
+    .writer-avatar-button {
+      width: 118px;
+      height: 118px;
+      border: 0;
+      border-radius: 50%;
+      padding: 0;
+      overflow: hidden;
+      background: #f7f2e8;
+      box-shadow: 0 18px 42px rgba(70,62,48,0.12);
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .writer-avatar-button:hover {
+      transform: translateY(-2px) scale(1.04);
+      box-shadow: 0 20px 42px rgba(29,29,31,0.21);
+    }
+
+    .writer-avatar-button img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      object-position: center 48%;
+    }
+
+    .writer-kicker {
+      margin: 0;
+      color: #5c5c63;
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .writer-name {
+      display: block;
+      margin-top: 2px;
+      color: #1d1d1f;
+      font-size: 26px;
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    .writer-intro {
+      margin: 10px 0 0;
+      color: #3a3a40;
+      font-size: clamp(17px, 1.1vw, 20px);
+      line-height: 1.58;
+      font-weight: 760;
+    }
+
+    .writer-intro span {
+      display: block;
+    }
+
+    .writer-more {
+      display: inline-block;
+      margin-top: 8px;
+      color: #0071e3;
+      text-decoration: none;
+      font-weight: 900;
+    }
+
+    .post-rail {
+      min-height: min(78vh, 820px);
+      display: grid;
+      align-content: start;
+      gap: 28px;
+      padding-left: 28px;
+      position: relative;
+      --rail-line-top: 0px;
+    }
+
+    .post-rail::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: var(--rail-line-top);
+      width: 4px;
+      height: clamp(102px, 19.8vh, 187px);
+      border-radius: 999px;
+      background: var(--line);
+      transition: top 0.24s ease;
+    }
+
+    .rail-post-wrap {
+      position: relative;
+      display: grid;
+      gap: 8px;
+    }
+
+    .rail-post {
+      border: 0;
+      padding: 0;
+      background: transparent;
+      text-align: left;
+      display: grid;
+      gap: 10px;
+      color: var(--ink);
+      opacity: 0.82;
+      transform: translateX(0);
+      transition: opacity 0.22s ease, transform 0.22s ease;
+    }
+
+    .rail-post:hover,
+    .rail-post.is-active {
+      opacity: 1;
+      transform: translateX(-3px);
+    }
+
+    .rail-post img {
+      width: 108px;
+      aspect-ratio: 0.72 / 1;
+      object-fit: cover;
+      display: block;
+      background: #eee;
+      box-shadow: 0 14px 32px rgba(29,29,31,0.16);
+    }
+
+    .rail-post-title {
+      width: 142px;
+      font-size: 13px;
+      line-height: 1.15;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #3b3b40;
+    }
+
+    .delete-post {
+      display: none;
+      width: fit-content;
+      min-height: 28px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(215,25,32,0.92);
+      color: #fff;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 900;
+      box-shadow: 0 10px 22px rgba(215,25,32,0.18);
+    }
+
+    body.is-admin .delete-post {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .vertical-label {
+      position: fixed;
+      right: 18px;
+      top: 50%;
+      z-index: 4;
+      transform: translateY(-50%);
+      writing-mode: vertical-rl;
+      color: #2a2a2e;
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0.36em;
+      text-transform: uppercase;
+      opacity: 0.76;
+      pointer-events: none;
+    }
+
+    .post-browser {
+      position: fixed;
+      inset: 0;
+      z-index: 82;
+      display: grid;
+      place-items: center;
+      padding: clamp(18px, 3vw, 46px);
+      background: rgba(236, 225, 204, 0.58);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.32s ease, visibility 0.32s ease;
+    }
+
+    .post-browser.is-open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .post-browser-window {
+      width: min(1500px, 96vw);
+      min-height: min(720px, 82vh);
+      border-radius: 42px;
+      background: #fbf7f1;
+      box-shadow: 0 38px 100px rgba(58,42,24,0.18);
+      padding: clamp(28px, 4vw, 56px);
+      position: relative;
+      overflow: hidden;
+      transform: translateY(28px) scale(0.98);
+      transition: transform 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+      pointer-events: auto;
+    }
+
+    .post-browser.is-open .post-browser-window {
+      transform: translateY(0) scale(1);
+    }
+
+    .post-browser-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .post-browser-title {
+      margin: 0;
+      color: #271a15;
+      font-size: clamp(34px, 4vw, 64px);
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .post-browser-close {
+      width: 64px;
+      height: 64px;
+      border: 0;
+      border-radius: 50%;
+      background: #fff;
+      color: #271a15;
+      font-family: inherit;
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 1;
+      display: grid;
+      place-items: center;
+      position: relative;
+      z-index: 8;
+      box-shadow: 0 12px 28px rgba(58,42,24,0.12);
+    }
+
+    .post-browser-close::before,
+    .browser-control::before {
+      content: "";
+      position: absolute;
+      inset: -14px;
+      border-radius: 50%;
+    }
+
+    .book-pile {
+      position: absolute;
+      right: clamp(70px, 8vw, 140px);
+      bottom: 74px;
+      width: clamp(120px, 14vw, 220px);
+      z-index: 3;
+      pointer-events: none;
+    }
+
+    .browser-stage {
+      min-height: 520px;
+      display: grid;
+      grid-template-columns: minmax(260px, 0.78fr) minmax(600px, 1.22fr);
+      align-items: center;
+      gap: clamp(34px, 5vw, 80px);
+      position: relative;
+      z-index: 2;
+    }
+
+    .browser-copy h3 {
+      margin: 0;
+      max-width: 420px;
+      color: #241713;
+      font-size: clamp(42px, 5vw, 76px);
+      line-height: 0.98;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .browser-copy p {
+      max-width: 390px;
+      margin: 22px 0 0;
+      color: #77706a;
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: 760;
+    }
+
+    .browser-posts {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: clamp(20px, 3vw, 38px);
+      align-items: stretch;
+      position: relative;
+      padding-bottom: 40px;
+    }
+
+    .browser-posts::after {
+      content: "";
+      position: absolute;
+      left: -6%;
+      right: -10%;
+      bottom: 0;
+      height: 20px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.98);
+      box-shadow: 0 18px 34px rgba(92,68,42,0.20), 0 4px 0 rgba(231,222,209,0.82);
+    }
+
+    .browser-card-shell {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      min-width: 0;
+    }
+
+    .browser-card {
+      width: 100%;
+      min-height: 410px;
+      border: 0;
+      border-radius: 22px;
+      padding: 24px;
+      background: #fff;
+      color: #241713;
+      font-family: inherit;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 16px 20px 34px rgba(87,69,49,0.13);
+      transition: transform 0.24s ease, box-shadow 0.24s ease;
+    }
+
+    .browser-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 18px 28px 48px rgba(87,69,49,0.18);
+    }
+
+    .browser-card-shell:first-child .browser-card {
+      min-height: 470px;
+      background: linear-gradient(180deg, #fff, #f7eee2);
+    }
+
+    .browser-card-title {
+      margin: 0;
+      font-size: clamp(21px, 1.8vw, 30px);
+      line-height: 1.12;
+      font-weight: 900;
+    }
+
+    .browser-card-subheading {
+      margin: 12px 0 0;
+      color: #625c58;
+      font-size: 15px;
+      line-height: 1.38;
+      font-style: italic;
+      font-weight: 760;
+    }
+
+    .browser-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .browser-tag {
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: #e6bb68;
+      color: #21120d;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .browser-card img {
+      width: min(150px, 60%);
+      aspect-ratio: 0.72 / 1;
+      object-fit: cover;
+      align-self: center;
+      margin-top: auto;
+      box-shadow: 0 14px 28px rgba(47,35,24,0.16);
+    }
+
+    .browser-card-shell .delete-post {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 4;
+    }
+
+    .browser-controls {
+      position: absolute;
+      left: clamp(28px, 4vw, 56px);
+      bottom: clamp(24px, 3vw, 46px);
+      display: flex;
+      gap: 18px;
+      z-index: 5;
+    }
+
+    .browser-control {
+      width: 64px;
+      height: 64px;
+      border: 0;
+      border-radius: 50%;
+      background: #fff;
+      color: #271a15;
+      font-family: inherit;
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 1;
+      display: grid;
+      place-items: center;
+      position: relative;
+      box-shadow: 0 12px 26px rgba(58,42,24,0.13);
+    }
+
+    .admin-panel {
+      width: min(1180px, calc(100vw - 44px));
+      margin: 30px auto 70px;
+      padding: clamp(24px, 4vw, 38px);
+      border-radius: 22px;
+      background: #fff;
+      box-shadow: var(--panel-shadow);
+    }
+
+    .admin-panel[hidden],
+    .login-modal[hidden] {
+      display: none;
+    }
+
+    .admin-panel h2 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .admin-note {
+      margin: 10px 0 24px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 760;
+    }
+
+    .post-form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field.full { grid-column: 1 / -1; }
+
+    .field label {
+      font-size: 13px;
+      font-weight: 900;
+      color: #343437;
+    }
+
+    .field input,
+    .field textarea {
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 12px;
+      padding: 13px 14px;
+      background: #fbfbfd;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 760;
+      outline: 0;
+    }
+
+    .field textarea {
+      min-height: 230px;
+      resize: vertical;
+      line-height: 1.58;
+    }
+
+    .image-preview {
+      min-height: 230px;
+      border: 1px dashed rgba(0,0,0,0.18);
+      border-radius: 12px;
+      background: #f5f5f7;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .image-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .form-actions {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-top: 6px;
+    }
+
+    .post-button {
+      border: 0;
+      border-radius: 999px;
+      padding: 13px 22px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .post-button.secondary {
+      background: #f5f5f7;
+      color: var(--ink);
+      border: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .login-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      padding: 22px;
+      background: rgba(0,0,0,0.42);
+      backdrop-filter: blur(10px);
+      display: grid;
+      place-items: center;
+    }
+
+    .login-card {
+      width: min(460px, 100%);
+      border-radius: 18px;
+      padding: 28px;
+      background: #fff;
+      box-shadow: 0 28px 80px rgba(0,0,0,0.28);
+    }
+
+    .login-card h2 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .login-card p {
+      margin: 10px 0 18px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .login-error {
+      min-height: 22px;
+      margin-top: 10px;
+      color: #b42318;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .mascot-zoom {
+      position: fixed;
+      inset: 0;
+      z-index: 90;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: rgba(248,247,244,0.72);
+      backdrop-filter: blur(16px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.32s ease, visibility 0.32s ease;
+    }
+
+    .mascot-zoom.is-open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .mascot-zoom-button {
+      border: 0;
+      width: min(520px, 78vw);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      padding: clamp(16px, 3vw, 34px);
+      background:
+        radial-gradient(circle at 42% 36%, #fff, #f2eee4 58%, rgba(218,211,198,0.86));
+      box-shadow: 0 34px 110px rgba(29,29,31,0.22);
+      overflow: hidden;
+      transform: scale(0.72);
+      transition: transform 0.38s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .mascot-zoom.is-open .mascot-zoom-button {
+      transform: scale(1);
+    }
+
+    .mascot-zoom-button img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      border-radius: 50%;
+    }
+
+    @media (max-width: 1050px) {
+      html, body, a, button { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .study-shell {
+        padding: 18px 18px 56px;
+      }
+
+      .study-nav {
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 14px;
+      }
+
+      .study-nav-title,
+      .view-posts {
+        justify-self: start;
+      }
+
+      .study-layout {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding-right: 0;
+      }
+
+      .post-visual {
+        order: 1;
+      }
+
+      .post-content {
+        order: 2;
+      }
+
+      .post-rail {
+        order: 3;
+        min-height: auto;
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        padding: 24px 0 0;
+      }
+
+      .post-rail::before {
+        display: none;
+      }
+
+      .rail-post-title {
+        width: auto;
+      }
+
+      .vertical-label {
+        display: none;
+      }
+
+      .post-text {
+        max-height: 52vh;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <div class="study-shell">
+    <header class="study-nav">
+      <div class="study-nav-left">
+        <a class="study-brand" href="index.html" aria-label="EdmundEducation">
+          <img src="Font Transparent.png" alt="EdmundEducation">
+        </a>
+        <a class="nav-mini-link" href="index.html">主頁</a>
+        <a class="nav-mini-link" href="resources.html">回到其他英文學習資源</a>
+      </div>
+      <a class="study-nav-title" href="english-study.html">英語研究 / 導讀</a>
+      <div class="study-nav-right">
+        <button class="view-posts" type="button" data-open-post-browser>查看所有文章</button>
+        <button class="login-button" type="button" data-login-button>Log In</button>
+      </div>
+    </header>
+
+    <main class="study-layout">
+      <section class="post-visual" aria-label="Article image">
+        <figure class="post-image-card">
+          <img data-post-image src="" alt="">
+        </figure>
+        <p class="post-image-caption" data-post-caption hidden></p>
+      </section>
+
+      <article class="post-content">
+        <div class="post-heading-row">
+          <h1 class="post-title" data-post-title></h1>
+          <div class="post-tags" data-post-tags hidden></div>
+        </div>
+        <p class="post-author">by <strong>Edmund Sir</strong></p>
+        <p class="post-subheading" data-post-subheading></p>
+        <div class="post-scroll-shell">
+          <div class="post-text" data-post-body></div>
+        </div>
+
+        <section class="writer-card" aria-label="Written by Edmund Sir">
+          <button class="writer-avatar-button" type="button" data-mascot-open aria-label="Open Edmund Sir introduction animation">
+            <img src="Mascot Directory/English Self Study - About Edmund copy.jpg" alt="Edmund Sir">
+          </button>
+          <div>
+            <p class="writer-kicker">Written By <span class="writer-name">Edmund Sir</span></p>
+            <p class="writer-intro">
+              <span>香港大學(HKU) 畢業，擁有七年專業英語教學經驗。</span>
+              <span>主修生物基因工程，雙副修計量市場研究及意大利語。</span>
+              <span>現職於香港一間創新科技初創 (Startup) 企業，</span>
+              <span>負責環球營運管理及商務拓展(business development)。</span>
+              <a class="writer-more" href="about.html">查看更多</a>
+            </p>
+          </div>
+        </section>
+      </article>
+
+      <aside class="post-rail" id="all-posts" data-post-rail aria-label="All English study posts"></aside>
+    </main>
+
+    <section class="admin-panel" id="create" data-admin-panel hidden>
+      <h2>新增英語研究 / 導讀文章</h2>
+      <p class="admin-note">登入後可以新增文章。圖片會壓縮後儲存在此瀏覽器的 localStorage，新增後會立即加入右側文章列表。</p>
+
+      <form class="post-form" data-post-form>
+        <div class="field">
+          <label for="post-title">文章標題</label>
+          <input id="post-title" name="title" type="text" placeholder="例如：細讀一本英文書" required>
+        </div>
+
+        <div class="field">
+          <label for="post-tags">Tags</label>
+          <input id="post-tags" name="tags" type="text" placeholder="例如：Reading, Style, Writing">
+        </div>
+
+        <div class="field full">
+          <label for="post-subheading">Subheading</label>
+          <input id="post-subheading" name="subheading" type="text" placeholder="一段較大的斜體副標題" required>
+        </div>
+
+        <div class="field">
+          <label for="post-image">Insert an image</label>
+          <input id="post-image" name="image" type="file" accept="image/*" required data-image-input>
+        </div>
+
+        <div class="field">
+          <label for="post-image-text">Image bottom text (optional)</label>
+          <input id="post-image-text" name="imageText" type="text" placeholder="例如：Oliver and Preview">
+        </div>
+
+        <div class="field full">
+          <div class="image-preview" data-image-preview>Image preview</div>
+        </div>
+
+        <div class="field full">
+          <label for="post-body">Article text</label>
+          <textarea id="post-body" name="body" placeholder="每段之間留一個空行，長文會自動放入可滾動文字區。" required></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button class="post-button secondary" type="reset">Clear</button>
+          <button class="post-button" type="submit">發布文章</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <div class="vertical-label" aria-hidden="true">Edmund Sir 英語研究</div>
+
+  <div class="post-browser" data-post-browser aria-hidden="true">
+    <section class="post-browser-window" role="dialog" aria-modal="true" aria-label="查看所有文章">
+      <div class="post-browser-top">
+        <h2 class="post-browser-title">查看所有文章</h2>
+        <button class="post-browser-close" type="button" data-close-post-browser aria-label="Close all posts">×</button>
+      </div>
+
+      <div class="browser-stage">
+        <div class="browser-copy">
+          <h3>More<br>from here!</h3>
+          <p>按時間排序閱讀 Edmund Sir 最新的英語研究、導讀與出版文章。</p>
+        </div>
+
+        <div class="browser-posts" data-browser-posts></div>
+      </div>
+
+      <img class="book-pile" src="book-pile.svg" alt="" aria-hidden="true">
+
+      <div class="browser-controls">
+        <button class="browser-control" type="button" data-browser-prev aria-label="Previous posts">‹</button>
+        <button class="browser-control" type="button" data-browser-next aria-label="Next posts">›</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="mascot-zoom" data-mascot-zoom aria-hidden="true">
+    <button class="mascot-zoom-button" type="button" data-mascot-close aria-label="Close Edmund Sir animation">
+      <img src="Mascot Directory/About Edmund - Zoom in.gif" alt="Edmund Sir animation" data-mascot-gif>
+    </button>
+  </div>
+
+  <div class="login-modal" data-login-modal hidden>
+    <form class="login-card" data-login-form>
+      <h2>Password</h2>
+      <p>輸入管理員密碼後，就可以新增英語研究 / 導讀文章。</p>
+      <div class="field">
+        <label for="admin-password">Password</label>
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <div class="login-error" data-login-error></div>
+      <div class="form-actions">
+        <button class="post-button secondary" type="button" data-close-login>Cancel</button>
+        <button class="post-button" type="submit">Log In</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Change your admin password here.
+    const ADMIN_PASSWORD = "EdmundBookStudy";
+    const POSTS_KEY = "edmundEnglishStudyPosts";
+    const AUTH_KEY = "edmundEnglishStudyLoggedIn";
+
+    let activePostId = "";
+    let browserOffset = 0;
+
+    const seedPosts = [
+      {
+        id: "english-study-intro",
+        date: "2026-05-03",
+        title: "英語研究 / 導讀",
+        subheading: "細讀英文書籍、句子節奏與作者思維，將閱讀慢慢變成自己的表達能力。",
+        image: "English Study.jpg",
+        imageText: "從分析英文段落中學英文",
+        tags: ["Reading", "Style", "導讀"],
+        body: [
+          "Edmund Sir 酷愛閱讀，也相信英文學習不應只停留在考試題目或生字表。一本英文書、一篇文章、一段精彩句子，往往都藏著作者如何安排語氣、推進思路和建立聲音的方法。",
+          "在英語研究 / 導讀裡，我會選取值得細讀的英文材料，拆解當中的用字、句式、修辭、節奏和思想。閱讀不應只是被動吸收，也是一種慢慢訓練眼光的過程。",
+          "我希望這個欄目能讓也讓讀者在閱讀之中找到自己的文字感。學習作者們的英文，最終是為了學習如何「我手寫我心」。"
+        ]
+      }
+    ];
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function getStoredPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveStoredPosts(posts) {
+      localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function postTimestamp(post) {
+      if (Number.isFinite(Number(post.createdAt))) return Number(post.createdAt);
+      const parsedDate = Date.parse(post.date || "");
+      return Number.isFinite(parsedDate) ? parsedDate : 0;
+    }
+
+    function sortedPosts(posts) {
+      return [...posts].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+    }
+
+    function getAllPosts() {
+      return sortedPosts([
+        ...getStoredPosts().map(post => ({ ...post, isCustom: true })),
+        ...seedPosts.map(post => ({ ...post, isCustom: false }))
+      ]);
+    }
+
+    function todayLabel() {
+      return new Date().toISOString().slice(0, 10);
+    }
+
+    function normalizeBody(body) {
+      return Array.isArray(body) ? body : String(body || "")
+        .split(/\n{2,}/)
+        .map(paragraph => paragraph.trim())
+        .filter(Boolean);
+    }
+
+    function formatPostParagraph(paragraph) {
+      return String(paragraph)
+        .split(/(\*\*[\s\S]+?\*\*)/g)
+        .map(part => {
+          if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
+            return `<strong class="text-highlight">${escapeHtml(part.slice(2, -2))}</strong>`;
+          }
+          return escapeHtml(part);
+        })
+        .join("");
+    }
+
+    function tagList(post) {
+      return Array.isArray(post.tags) ? post.tags.filter(Boolean) : [];
+    }
+
+    function updateRailLineFromScroll() {
+      const rail = document.querySelector("[data-post-rail]");
+      const text = document.querySelector("[data-post-body]");
+      if (!rail || !text) return;
+
+      const maxScroll = Math.max(1, text.scrollHeight - text.clientHeight);
+      const progress = Math.min(1, Math.max(0, text.scrollTop / maxScroll));
+      const thumbHeight = Math.min(Math.max(window.innerHeight * 0.198, 102), 187);
+      const travel = Math.max(0, rail.clientHeight - thumbHeight);
+      rail.style.setProperty("--rail-line-top", `${Math.round(progress * travel)}px`);
+    }
+
+    function renderPost(post) {
+      activePostId = post.id;
+      document.title = `${post.title} | EdmundEducation`;
+      document.querySelector("[data-post-title]").textContent = post.title;
+      document.querySelector("[data-post-subheading]").textContent = post.subheading;
+
+      const tags = tagList(post);
+      const tagContainer = document.querySelector("[data-post-tags]");
+      if (tagContainer) {
+        tagContainer.hidden = !tags.length;
+        tagContainer.innerHTML = tags.map(tag => `<span class="post-tag">#${escapeHtml(tag)}</span>`).join("");
+      }
+
+      const image = document.querySelector("[data-post-image]");
+      image.src = post.image;
+      image.alt = post.title;
+
+      const caption = document.querySelector("[data-post-caption]");
+      if (post.imageText) {
+        caption.textContent = post.imageText;
+        caption.hidden = false;
+      } else {
+        caption.textContent = "";
+        caption.hidden = true;
+      }
+
+      const body = document.querySelector("[data-post-body]");
+      body.innerHTML = normalizeBody(post.body).map(paragraph => `<p>${formatPostParagraph(paragraph)}</p>`).join("");
+      body.scrollTop = 0;
+
+      document.querySelectorAll("[data-post-id]").forEach(button => {
+        button.classList.toggle("is-active", button.getAttribute("data-post-id") === post.id);
+      });
+
+      updateRailLineFromScroll();
+    }
+
+    function renderPostRail() {
+      const rail = document.querySelector("[data-post-rail]");
+      if (!rail) return;
+
+      const posts = getAllPosts();
+      rail.innerHTML = posts.map(post => `
+        <div class="rail-post-wrap">
+          <button class="rail-post" type="button" data-post-id="${escapeHtml(post.id)}">
+            <img src="${escapeHtml(post.image)}" alt="">
+            <span class="rail-post-title">${escapeHtml(post.title)}</span>
+          </button>
+          ${post.isCustom ? `<button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>` : ""}
+        </div>
+      `).join("");
+
+      rail.querySelectorAll("[data-post-id]").forEach(button => {
+        button.addEventListener("click", () => {
+          const post = getAllPosts().find(item => item.id === button.getAttribute("data-post-id"));
+          if (post) renderPost(post);
+        });
+      });
+
+      document.querySelectorAll("[data-post-id]").forEach(button => {
+        button.classList.toggle("is-active", button.getAttribute("data-post-id") === activePostId);
+      });
+    }
+
+    function renderBrowserPosts() {
+      const container = document.querySelector("[data-browser-posts]");
+      if (!container) return;
+
+      const posts = getAllPosts();
+      if (!posts.length) {
+        container.innerHTML = "";
+        return;
+      }
+
+      const visiblePosts = Array.from({ length: Math.min(3, posts.length) }, (_, index) => posts[(browserOffset + index) % posts.length]);
+      container.innerHTML = visiblePosts.map(post => {
+        const tags = tagList(post).length ? tagList(post) : ["English", "Study"];
+        return `
+          <article class="browser-card-shell">
+            <button class="browser-card" type="button" data-browser-post-id="${escapeHtml(post.id)}">
+              <h4 class="browser-card-title">${escapeHtml(post.title)}</h4>
+              <p class="browser-card-subheading">${escapeHtml(post.subheading || "")}</p>
+              <span class="browser-tags">
+                ${tags.map(tag => `<span class="browser-tag">${escapeHtml(tag)}</span>`).join("")}
+              </span>
+              <img src="${escapeHtml(post.image)}" alt="">
+            </button>
+            ${post.isCustom ? `<button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>` : ""}
+          </article>
+        `;
+      }).join("");
+
+      container.querySelectorAll("[data-browser-post-id]").forEach(button => {
+        button.addEventListener("click", () => {
+          const post = getAllPosts().find(item => item.id === button.getAttribute("data-browser-post-id"));
+          if (!post) return;
+          renderPost(post);
+          closePostBrowser();
+        });
+      });
+    }
+
+    function openPostBrowser() {
+      renderBrowserPosts();
+      const modal = document.querySelector("[data-post-browser]");
+      if (!modal) return;
+      modal.classList.add("is-open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("posts-browser-open");
+    }
+
+    function closePostBrowser() {
+      const modal = document.querySelector("[data-post-browser]");
+      if (!modal) return;
+      modal.classList.remove("is-open");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("posts-browser-open");
+    }
+
+    function setupPostBrowser() {
+      const openButton = document.querySelector("[data-open-post-browser]");
+      const closeButton = document.querySelector("[data-close-post-browser]");
+      const prev = document.querySelector("[data-browser-prev]");
+      const next = document.querySelector("[data-browser-next]");
+      const modal = document.querySelector("[data-post-browser]");
+
+      openButton?.addEventListener("click", openPostBrowser);
+      closeButton?.addEventListener("click", closePostBrowser);
+      prev?.addEventListener("click", () => {
+        const posts = getAllPosts();
+        browserOffset = posts.length ? (browserOffset - 1 + posts.length) % posts.length : 0;
+        renderBrowserPosts();
+      });
+      next?.addEventListener("click", () => {
+        const posts = getAllPosts();
+        browserOffset = posts.length ? (browserOffset + 1) % posts.length : 0;
+        renderBrowserPosts();
+      });
+      modal?.addEventListener("click", event => {
+        if (event.target === modal) closePostBrowser();
+      });
+      window.addEventListener("keydown", event => {
+        if (event.key === "Escape") closePostBrowser();
+      });
+    }
+
+    function setLoggedIn(isLoggedIn) {
+      sessionStorage.setItem(AUTH_KEY, isLoggedIn ? "yes" : "no");
+      updateAuthUi();
+    }
+
+    function isLoggedIn() {
+      return sessionStorage.getItem(AUTH_KEY) === "yes";
+    }
+
+    function updateAuthUi() {
+      const adminPanel = document.querySelector("[data-admin-panel]");
+      const loginButton = document.querySelector("[data-login-button]");
+      const loggedIn = isLoggedIn();
+
+      if (adminPanel) adminPanel.hidden = !loggedIn;
+      if (loginButton) loginButton.textContent = loggedIn ? "Log Out" : "Log In";
+      document.body.classList.toggle("is-admin", loggedIn);
+    }
+
+    function openLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      const input = document.querySelector("#admin-password");
+      const error = document.querySelector("[data-login-error]");
+      if (error) error.textContent = "";
+      if (modal) modal.hidden = false;
+      setTimeout(() => input?.focus(), 0);
+    }
+
+    function closeLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      if (modal) modal.hidden = true;
+    }
+
+    async function readImageFile(file) {
+      const dataUrl = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+
+      return await new Promise(resolve => {
+        const image = new Image();
+        image.onload = () => {
+          const maxWidth = 1200;
+          const scale = Math.min(1, maxWidth / image.width);
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.round(image.width * scale);
+          canvas.height = Math.round(image.height * scale);
+          const context = canvas.getContext("2d");
+          context.drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolve(canvas.toDataURL("image/jpeg", 0.78));
+        };
+        image.onerror = () => resolve(dataUrl);
+        image.src = dataUrl;
+      });
+    }
+
+    function setupLogin() {
+      const loginButton = document.querySelector("[data-login-button]");
+      const loginForm = document.querySelector("[data-login-form]");
+      const closeButton = document.querySelector("[data-close-login]");
+
+      loginButton?.addEventListener("click", () => {
+        if (isLoggedIn()) {
+          setLoggedIn(false);
+          return;
+        }
+        openLogin();
+      });
+
+      closeButton?.addEventListener("click", closeLogin);
+
+      loginForm?.addEventListener("submit", event => {
+        event.preventDefault();
+        const formData = new FormData(loginForm);
+        const password = String(formData.get("password") || "");
+        const error = document.querySelector("[data-login-error]");
+
+        if (password === ADMIN_PASSWORD) {
+          setLoggedIn(true);
+          closeLogin();
+          loginForm.reset();
+          document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else if (error) {
+          error.textContent = "Password does not match.";
+        }
+      });
+    }
+
+    function setupPostForm() {
+      const form = document.querySelector("[data-post-form]");
+      const imageInput = document.querySelector("[data-image-input]");
+      const preview = document.querySelector("[data-image-preview]");
+      const bodyInput = document.querySelector("#post-body");
+
+      imageInput?.addEventListener("change", async () => {
+        const file = imageInput.files?.[0];
+        if (!file || !preview) return;
+        const image = await readImageFile(file);
+        preview.innerHTML = `<img src="${image}" alt="">`;
+      });
+
+      form?.addEventListener("reset", () => {
+        setTimeout(() => {
+          if (preview) preview.textContent = "Image preview";
+        }, 0);
+      });
+
+      form?.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+
+        const formData = new FormData(form);
+        const file = formData.get("image");
+        if (!(file instanceof File) || !file.size) return;
+
+        const bodyText = String(formData.get("body") || "").trim();
+        const tags = String(formData.get("tags") || "")
+          .split(",")
+          .map(tag => tag.trim())
+          .filter(Boolean);
+        const createdAt = Date.now();
+        const post = {
+          id: `study-${createdAt}`,
+          title: String(formData.get("title") || "").trim(),
+          subheading: String(formData.get("subheading") || "").trim(),
+          tags,
+          image: await readImageFile(file),
+          imageText: String(formData.get("imageText") || "").trim(),
+          body: normalizeBody(bodyText),
+          createdAt,
+          date: todayLabel()
+        };
+
+        try {
+          saveStoredPosts([post, ...getStoredPosts()]);
+        } catch {
+          alert("This browser could not permanently save the post, likely because localStorage is full.");
+        }
+
+        form.reset();
+        if (preview) preview.textContent = "Image preview";
+        renderPostRail();
+        renderBrowserPosts();
+        renderPost(post);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      bodyInput?.addEventListener("keydown", event => {
+        if (event.key.toLowerCase() !== "b" || (!event.metaKey && !event.ctrlKey)) return;
+        event.preventDefault();
+
+        const start = bodyInput.selectionStart;
+        const end = bodyInput.selectionEnd;
+        const selectedText = bodyInput.value.slice(start, end);
+        const fallback = "重點文字";
+        const replacement = `**${selectedText || fallback}**`;
+        bodyInput.setRangeText(replacement, start, end, "select");
+
+        if (!selectedText) {
+          bodyInput.setSelectionRange(start + 2, start + 2 + fallback.length);
+        }
+      });
+    }
+
+    function deleteStoredPost(id) {
+      const nextPosts = getStoredPosts().filter(post => post.id !== id);
+      saveStoredPosts(nextPosts);
+      renderPostRail();
+      renderBrowserPosts();
+
+      const posts = getAllPosts();
+      if (activePostId === id && posts.length) {
+        renderPost(posts[0]);
+      }
+    }
+
+    function setupPostActions() {
+      document.addEventListener("click", event => {
+        const deleteButton = event.target.closest("[data-delete-post]");
+        if (!deleteButton) return;
+
+        event.preventDefault();
+        event.stopPropagation();
+
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+
+        const id = deleteButton.getAttribute("data-delete-post");
+        if (!id || !confirm("Delete this post?")) return;
+        deleteStoredPost(id);
+      });
+    }
+
+    function setupScrollableText() {
+      const text = document.querySelector("[data-post-body]");
+      text?.addEventListener("scroll", updateRailLineFromScroll, { passive: true });
+      window.addEventListener("resize", updateRailLineFromScroll);
+    }
+
+    function setupMascotZoom() {
+      const modal = document.querySelector("[data-mascot-zoom]");
+      const openButton = document.querySelector("[data-mascot-open]");
+      const closeButton = document.querySelector("[data-mascot-close]");
+      const gif = document.querySelector("[data-mascot-gif]");
+      const gifSrc = gif?.getAttribute("src") || "";
+      if (!modal || !openButton || !closeButton) return;
+
+      function openModal() {
+        if (gif && gifSrc) gif.src = gifSrc;
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+      }
+
+      function closeModal() {
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+      }
+
+      openButton.addEventListener("click", openModal);
+      closeButton.addEventListener("click", closeModal);
+      modal.addEventListener("click", event => {
+        if (event.target === modal) closeModal();
+      });
+      window.addEventListener("keydown", event => {
+        if (event.key === "Escape") closeModal();
+      });
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    updateAuthUi();
+    setupLogin();
+    setupPostForm();
+    setupPostActions();
+    renderPostRail();
+    renderBrowserPosts();
+    renderPost(getAllPosts()[0]);
+    setupScrollableText();
+    setupPostBrowser();
+    setupMascotZoom();
+    setupCustomCursor();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

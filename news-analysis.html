@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>香港／國際新聞分析 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --page-pad: clamp(22px, 5vw, 96px);
+      --ink: #f7f8ff;
+      --muted: rgba(247,248,255,0.72);
+      --paper: #f5f5f7;
+      --dark: #09172c;
+      --blue-gradient:
+        radial-gradient(100% 110% at 82% 14%, rgba(97, 210, 255, 0.58), transparent 54%),
+        radial-gradient(100% 90% at 2% 10%, rgba(135, 54, 209, 0.62), transparent 58%),
+        linear-gradient(118deg, #3536a8 0%, #385bd7 42%, #2f9bea 100%);
+      --gold-gradient:
+        radial-gradient(110% 100% at 8% 8%, rgba(255,255,255,0.56), transparent 48%),
+        radial-gradient(95% 90% at 88% 72%, rgba(255, 119, 57, 0.62), transparent 58%),
+        linear-gradient(120deg, #efe1bc 0%, #f7c15e 42%, #f06d35 100%);
+    }
+
+    html, body, a, button, input, textarea, select { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(900px 620px at 18% 5%, rgba(103,49,151,0.55), transparent 62%),
+        radial-gradient(880px 660px at 88% 10%, rgba(31,133,196,0.52), transparent 66%),
+        linear-gradient(120deg, #170926 0%, #10244b 54%, #072f48 100%);
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 600;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .site-shell {
+      width: min(1440px, calc(100vw - 28px));
+      margin: 0 auto;
+      padding: 14px 0 80px;
+    }
+
+    .news-nav {
+      position: sticky;
+      top: 12px;
+      z-index: 20;
+      min-height: 58px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.18);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 18px 54px rgba(0,0,0,0.20);
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .news-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-width: max-content;
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .news-brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: #fff;
+      color: #10244b;
+      font-size: 17px;
+      font-weight: 900;
+    }
+
+    .news-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .news-links::-webkit-scrollbar { display: none; }
+
+    .news-links a {
+      color: rgba(255,255,255,0.84);
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .news-links a:hover { color: #fff; }
+
+    .nav-button {
+      margin-left: auto;
+      border: 0;
+      border-radius: 8px;
+      padding: 11px 16px;
+      background: #fff;
+      color: #10244b;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .nav-button:hover {
+      transform: translateY(-1px);
+      background: rgba(255,255,255,0.88);
+    }
+
+    .intro {
+      min-height: 34vh;
+      padding: clamp(54px, 8vw, 96px) clamp(12px, 2vw, 24px) clamp(26px, 4vw, 42px);
+      text-align: center;
+      display: grid;
+      place-items: center;
+    }
+
+    .intro h1 {
+      margin: 0;
+      font-size: clamp(42px, 7vw, 96px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+      text-shadow: 0 18px 58px rgba(0,0,0,0.34);
+    }
+
+    .intro p {
+      max-width: 860px;
+      margin: 22px auto 0;
+      color: var(--muted);
+      font-size: clamp(18px, 2vw, 26px);
+      line-height: 1.48;
+      font-weight: 800;
+    }
+
+    .category-stage {
+      min-height: 58vh;
+      padding: clamp(20px, 4vw, 50px) var(--page-pad) clamp(80px, 10vw, 132px);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      transition: min-height 0.7s ease, opacity 0.42s ease;
+    }
+
+    .category-stage.is-hidden {
+      min-height: 0;
+      height: 0;
+      padding: 0;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .category-stack {
+      position: relative;
+      width: min(920px, 100%);
+      min-height: clamp(560px, 58vw, 680px);
+      display: grid;
+      align-content: center;
+      justify-items: center;
+      gap: 2px;
+    }
+
+    .category-card {
+      position: relative;
+      width: min(720px, 86vw);
+      min-height: 285px;
+      height: clamp(285px, 30vw, 315px);
+      border: 0;
+      border-radius: 0;
+      padding: clamp(28px, 4vw, 46px);
+      color: #fff;
+      text-align: left;
+      overflow: hidden;
+      box-shadow: 0 28px 68px rgba(0,0,0,0.28);
+      transform: translateX(0);
+      transition: transform 0.72s cubic-bezier(0.22, 0.8, 0.2, 1), opacity 0.42s ease, box-shadow 0.32s ease;
+    }
+
+    .category-card:hover {
+      transform: translateX(-26px);
+      box-shadow: 0 36px 86px rgba(0,0,0,0.36);
+    }
+
+    .category-card.international {
+      background: var(--blue-gradient);
+    }
+
+    .category-card.local {
+      background: var(--gold-gradient);
+      color: #fff;
+    }
+
+    .category-stage.is-leaving .category-card.international {
+      transform: translateX(-125vw);
+      opacity: 0;
+    }
+
+    .category-stage.is-leaving .category-card.local {
+      transform: translateX(-145vw);
+      opacity: 0;
+      transition-delay: 0.08s;
+    }
+
+    .category-card.local h2,
+    .category-card.local p {
+      width: min(100%, 430px);
+      margin-left: auto;
+      max-width: 410px;
+      text-shadow: 0 4px 20px rgba(117,48,0,0.28);
+    }
+
+    .card-kicker {
+      display: block;
+      margin-bottom: 34px;
+      color: rgba(255,255,255,0.82);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+    }
+
+    .category-card h2,
+    .detail-hero h2 {
+      position: relative;
+      z-index: 2;
+      margin: 0;
+      max-width: 470px;
+      font-size: clamp(30px, 4vw, 54px);
+      line-height: 1.08;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-wrap: balance;
+    }
+
+    .title-line,
+    .intro-line {
+      display: block;
+    }
+
+    .category-card p,
+    .detail-hero p {
+      position: relative;
+      z-index: 2;
+      max-width: 560px;
+      margin: 18px 0 0;
+      color: rgba(255,255,255,0.86);
+      font-size: clamp(16px, 1.45vw, 21px);
+      line-height: 1.52;
+      font-weight: 800;
+    }
+
+    .detail-hero.local h2 {
+      font-size: clamp(40px, 5vw, 72px);
+    }
+
+    .detail-hero.local p {
+      font-size: clamp(19px, 2vw, 28px);
+    }
+
+    .map-art {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      opacity: 0.42;
+      pointer-events: none;
+    }
+
+    .map-art svg {
+      position: absolute;
+      right: -3%;
+      top: 5%;
+      width: 62%;
+      height: 90%;
+    }
+
+    .category-card.local .map-art svg,
+    .detail-hero.local .map-art svg {
+      left: 4%;
+      right: auto;
+      top: 8%;
+      width: 54%;
+      height: 84%;
+    }
+
+    .detail-section {
+      display: none;
+      color: #1d1d1f;
+      background: var(--paper);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 30px 90px rgba(0,0,0,0.26);
+    }
+
+    .detail-section.is-active {
+      display: block;
+      animation: detailEnter 0.72s ease both;
+    }
+
+    .detail-section.is-closing {
+      display: block;
+      animation: detailExit 0.42s ease both;
+    }
+
+    @keyframes detailEnter {
+      from {
+        opacity: 0;
+        transform: translateY(32px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes detailExit {
+      from {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      to {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+    }
+
+    .detail-hero {
+      position: relative;
+      min-height: 50svh;
+      padding: clamp(34px, 5vw, 64px);
+      color: #fff;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .detail-hero.international { background: var(--blue-gradient); }
+    .detail-hero.local { background: var(--gold-gradient); }
+
+    .detail-hero.local {
+      align-items: flex-end;
+      text-align: left;
+    }
+
+    .detail-hero.local .card-kicker,
+    .detail-hero.local h2,
+    .detail-hero.local p {
+      width: min(620px, 48%);
+      max-width: 620px;
+      text-shadow: 0 4px 22px rgba(117,48,0,0.28);
+    }
+
+    .back-to-categories {
+      position: absolute;
+      top: clamp(20px, 3vw, 34px);
+      left: clamp(20px, 3vw, 34px);
+      z-index: 5;
+      min-height: 42px;
+      border: 1px solid rgba(255,255,255,0.5);
+      border-radius: 8px;
+      padding: 0 18px;
+      background: rgba(255,255,255,0.18);
+      color: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.16);
+      transition: transform 0.22s ease, background 0.22s ease;
+    }
+
+    .back-to-categories:hover {
+      transform: translateX(-4px);
+      background: rgba(255,255,255,0.28);
+    }
+
+    .detail-hero.local .back-to-categories {
+      left: auto;
+      right: clamp(20px, 3vw, 34px);
+      background: rgba(255,255,255,0.22);
+    }
+
+    .detail-hero.local .back-to-categories:hover {
+      transform: translateX(4px);
+      background: rgba(255,255,255,0.34);
+    }
+
+    .detail-controls {
+      padding: clamp(28px, 4vw, 46px) clamp(22px, 4vw, 54px) 0;
+    }
+
+    .search-row {
+      position: relative;
+      display: block;
+      width: min(860px, 100%);
+      margin-bottom: 20px;
+    }
+
+    .search-row input {
+      width: 100%;
+      height: 48px;
+      border: 1px solid rgba(0,0,0,0.10);
+      border-radius: 8px;
+      padding: 0 46px 0 16px;
+      background: #fff;
+      color: #1d1d1f;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 800;
+      outline: 0;
+    }
+
+    .search-row span {
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #6e6e73;
+      font-size: 17px;
+    }
+
+    .filter-area {
+      width: fit-content;
+      max-width: 100%;
+      display: flex;
+      align-items: stretch;
+      flex-wrap: wrap;
+      gap: 0;
+      background: #fff;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      box-shadow: 0 14px 36px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+
+    .filter-line {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      min-height: 62px;
+      padding: 12px 18px;
+    }
+
+    .filter-line[data-tag-filters] {
+      padding: 0;
+    }
+
+    .filter-select-wrap {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-height: 62px;
+      padding: 12px 18px;
+    }
+
+    .filter-select-wrap + .filter-line {
+      border-left: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .filter-line + .filter-line {
+      border-left: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .filter-label {
+      width: auto;
+      margin-right: 6px;
+      color: #a13aa5;
+      font-size: 14px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .filter-button {
+      min-width: 72px;
+      min-height: 48px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 20px;
+      background: transparent;
+      color: #6e6e73;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+      transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+    }
+
+    .filter-button:hover {
+      background: rgba(0,0,0,0.07);
+      color: #1d1d1f;
+      transform: translateY(-1px);
+    }
+
+    .filter-button.is-active {
+      background: #050505;
+      color: #fff;
+    }
+
+    .filter-select {
+      min-width: 178px;
+      min-height: 38px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 38px 0 14px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      outline: 0;
+    }
+
+    .post-grid {
+      padding: 34px clamp(22px, 4vw, 54px) clamp(42px, 6vw, 70px);
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .post-card-wrap {
+      position: relative;
+      opacity: 0;
+      transform: translateY(18px);
+      animation: postFadeIn 0.58s ease forwards;
+      animation-delay: calc(var(--post-index, 0) * 42ms);
+    }
+
+    @keyframes postFadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .post-card {
+      display: block;
+      color: #1d1d1f;
+      text-decoration: none;
+    }
+
+    .post-card-image {
+      position: relative;
+      aspect-ratio: 1.58 / 1;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #d2d2d7;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.10);
+    }
+
+    .post-card-image img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform 0.32s ease;
+    }
+
+    .post-card:hover img { transform: scale(1.04); }
+
+    .tag-pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: rgba(0,0,0,0.46);
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+      backdrop-filter: blur(12px);
+    }
+
+    .post-card .tag-pill {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+    }
+
+    .post-meta {
+      margin: 14px 0 0;
+      color: #6e6e73;
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 800;
+    }
+
+    .post-title {
+      margin: 8px 0 0;
+      font-size: clamp(20px, 1.7vw, 27px);
+      line-height: 1.15;
+      font-weight: 900;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .post-excerpt {
+      margin: 8px 0 0;
+      color: #444;
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 700;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      margin: 0;
+      padding: 58px 24px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.72);
+      color: #6e6e73;
+      text-align: center;
+      font-size: 17px;
+      line-height: 1.5;
+      font-weight: 800;
+    }
+
+    .delete-post {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 5;
+      display: none;
+      min-height: 32px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(0,0,0,0.72);
+      color: #fff;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 900;
+      backdrop-filter: blur(10px);
+    }
+
+    body.is-admin .delete-post {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .admin-panel {
+      margin: 34px clamp(22px, 4vw, 54px) clamp(42px, 6vw, 70px);
+      padding: clamp(22px, 4vw, 34px);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 18px 52px rgba(0,0,0,0.12);
+    }
+
+    .admin-panel[hidden] { display: none; }
+
+    .admin-panel h2 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .admin-note {
+      margin: 10px 0 24px;
+      color: #6e6e73;
+      font-size: 14px;
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .blog-form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field.full { grid-column: 1 / -1; }
+
+    .field label {
+      font-size: 13px;
+      font-weight: 900;
+      color: #343437;
+    }
+
+    .field input,
+    .field textarea,
+    .field select {
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 8px;
+      padding: 13px 14px;
+      background: #fbfbfd;
+      color: #1d1d1f;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      outline: 0;
+    }
+
+    .field textarea {
+      min-height: 240px;
+      resize: vertical;
+      line-height: 1.58;
+    }
+
+    .image-preview {
+      min-height: 230px;
+      border: 1px dashed rgba(0,0,0,0.18);
+      border-radius: 8px;
+      background: #f5f5f7;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: #6e6e73;
+      font-weight: 900;
+    }
+
+    .image-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .form-actions {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-top: 6px;
+    }
+
+    .post-button {
+      border: 0;
+      border-radius: 8px;
+      padding: 14px 22px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .post-button.secondary {
+      background: #f5f5f7;
+      color: #1d1d1f;
+      border: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .login-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      padding: 22px;
+      background: rgba(0,0,0,0.42);
+      backdrop-filter: blur(10px);
+      display: grid;
+      place-items: center;
+    }
+
+    .login-modal[hidden] { display: none; }
+
+    .login-card {
+      width: min(460px, 100%);
+      border-radius: 8px;
+      padding: 28px;
+      background: #fff;
+      color: #1d1d1f;
+      box-shadow: 0 28px 80px rgba(0,0,0,0.28);
+    }
+
+    .login-card h2 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .login-card p {
+      margin: 10px 0 18px;
+      color: #6e6e73;
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .login-error {
+      min-height: 22px;
+      margin-top: 10px;
+      color: #b42318;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    @media (max-width: 950px) {
+      html, body, a, button, input, textarea, select { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .site-shell {
+        width: 100%;
+        padding-top: 0;
+      }
+
+      .news-nav {
+        top: 0;
+        border-radius: 0;
+        flex-wrap: wrap;
+      }
+
+      .news-links {
+        order: 3;
+        width: 100%;
+      }
+
+      .intro {
+        min-height: auto;
+        padding: 58px 22px 26px;
+      }
+
+      .category-stage {
+        padding: 24px 22px 70px;
+      }
+
+      .category-stack {
+        min-height: auto;
+        display: grid;
+        gap: 18px;
+      }
+
+      .category-card {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        width: 100%;
+        min-height: 260px;
+        height: 260px;
+      }
+
+      .category-card:hover {
+        transform: none;
+      }
+
+      .map-art svg {
+        width: 76%;
+        opacity: 0.78;
+      }
+
+      .detail-section {
+        border-radius: 0;
+      }
+
+      .detail-hero {
+        min-height: 50svh;
+      }
+
+      .detail-hero.local {
+        align-items: flex-start;
+      }
+
+      .detail-hero.local .card-kicker,
+      .detail-hero.local h2,
+      .detail-hero.local p {
+        width: min(100%, 640px);
+      }
+
+      .category-card.local .map-art svg,
+      .detail-hero.local .map-art svg {
+        left: auto;
+        right: -10%;
+        width: 74%;
+      }
+
+      .filter-label {
+        width: 100%;
+      }
+
+      .filter-area {
+        width: 100%;
+      }
+
+      .filter-line {
+        width: 100%;
+      }
+
+      .filter-select-wrap {
+        width: 100%;
+        flex-wrap: wrap;
+      }
+
+      .filter-select {
+        flex: 1;
+        min-width: 180px;
+      }
+
+      .filter-line + .filter-line {
+        border-left: 0;
+        border-top: 1px solid rgba(0,0,0,0.10);
+      }
+
+      .post-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .blog-form {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <div class="site-shell">
+    <header class="news-nav">
+      <a class="news-brand" href="news-analysis.html" aria-label="Edmund News Analysis">
+        <span class="news-brand-mark">N</span>
+        <span>Edmund News Analysis</span>
+      </a>
+
+      <nav class="news-links">
+        <a href="index.html">主頁</a>
+        <a href="resources.html">回到其他英文學習資源</a>
+      </nav>
+
+      <button class="nav-button" type="button" data-login-button>Log In</button>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div>
+          <h1>香港／國際新聞分析</h1>
+          <p>學習如何從新聞學英文！Edmund Sir 陪您一同從新聞學專業英文！</p>
+        </div>
+      </section>
+
+      <section class="category-stage" data-category-stage aria-label="News categories">
+        <div class="category-stack">
+          <button class="category-card international" type="button" data-category-card="international">
+            <span class="card-kicker">Highlights</span>
+            <h2>國際新聞英文分析</h2>
+            <p>從世界大事裡拆解新聞用字、句式和觀點表達。</p>
+            <span class="map-art" aria-hidden="true" data-map="world"></span>
+          </button>
+
+          <button class="category-card local" type="button" data-category-card="local">
+            <h2><span class="title-line">香港本地</span><span class="title-line">新聞英文分析</span></h2>
+            <p>由香港本地議題入手，學習英文新聞如何寫近身處境。</p>
+            <span class="map-art" aria-hidden="true" data-map="hong-kong"></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="detail-section" data-detail-section>
+        <div class="detail-hero" data-detail-hero></div>
+
+        <div class="detail-controls">
+          <label class="search-row" aria-label="Search news analysis">
+            <input type="search" placeholder="搜尋新聞分析，可輸入中文或英文關鍵字..." data-search>
+            <span>⌕</span>
+          </label>
+
+          <div class="filter-area">
+            <div class="filter-line" data-tag-filters></div>
+            <div class="filter-line" data-time-filters></div>
+          </div>
+        </div>
+
+        <div class="post-grid" data-post-grid></div>
+
+        <section class="admin-panel" id="create" data-admin-panel hidden>
+          <h2>新增新聞英文分析文章</h2>
+          <p class="admin-note">登入後可以新增文章。圖片會壓縮後儲存在此瀏覽器的 localStorage，發布後會開啟新的文章頁面。</p>
+
+          <form class="blog-form" data-blog-form>
+            <div class="field">
+              <label for="post-category">新聞分類</label>
+              <select id="post-category" name="category" required>
+                <option value="international">國際新聞英文分析</option>
+                <option value="local">香港本地新聞英文分析</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="post-tag">Tag</label>
+              <input id="post-tag" name="tag" type="text" placeholder="例如：Politics / Economy / Culture" required>
+            </div>
+
+            <div class="field full">
+              <label for="post-title">文章標題</label>
+              <input id="post-title" name="title" type="text" placeholder="例如：從新聞標題學英文修辭" required>
+            </div>
+
+            <div class="field full">
+              <label for="post-image">Insert an image</label>
+              <input id="post-image" name="image" type="file" accept="image/*" required data-image-input>
+            </div>
+
+            <div class="field full">
+              <div class="image-preview" data-image-preview>Image preview</div>
+            </div>
+
+            <div class="field full">
+              <label for="post-body">Write notes here</label>
+              <textarea id="post-body" name="body" placeholder="在這裡寫下新聞英文分析、詞彙、句式、觀點整理..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button class="post-button secondary" type="reset">Clear</button>
+              <button class="post-button" type="submit">發布文章</button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <div class="login-modal" data-login-modal hidden>
+    <form class="login-card" data-login-form>
+      <h2>Password</h2>
+      <p>輸入管理員密碼後，就可以新增新聞英文分析文章。</p>
+      <div class="field">
+        <label for="admin-password">Password</label>
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <div class="login-error" data-login-error></div>
+      <div class="form-actions">
+        <button class="post-button secondary" type="button" data-close-login>Cancel</button>
+        <button class="post-button" type="submit">Log In</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Change your admin password here.
+    const ADMIN_PASSWORD = "edmundnews";
+
+    const POSTS_KEY = "edmundNewsPosts";
+    const AUTH_KEY = "edmundNewsLoggedIn";
+    const ACTIVE_POST_KEY = "edmundNewsActivePost";
+
+    const categories = {
+      international: {
+        key: "international",
+        label: "國際新聞英文分析",
+        kicker: "Highlights",
+        intro: "從世界大事裡拆解新聞用字、句式和觀點表達。",
+        map: "world"
+      },
+      local: {
+        key: "local",
+        label: "香港本地新聞英文分析",
+        titleLines: ["香港本地", "新聞英文分析"],
+        kicker: "",
+        intro: "由香港本地議題入手，學習英文新聞如何寫近身處境。",
+        detailIntroLines: ["由香港本地議題入手，", "學習英文新聞如何寫近身處境。"],
+        map: "hong-kong"
+      }
+    };
+
+    const timeFilters = [
+      { key: "week", label: "本週", days: 7 },
+      { key: "month", label: "本月", days: 31 },
+      { key: "year", label: "今年", days: 366 },
+      { key: "all", label: "全部", days: null }
+    ];
+
+    let activeCategory = null;
+    let activeTag = "All";
+    let activeTime = "all";
+
+    const seedPosts = [];
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function plainExcerpt(value) {
+      return String(value).replace(/\s+/g, " ").trim().slice(0, 150);
+    }
+
+    function getStoredPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveStoredPosts(posts) {
+      localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function postTimestamp(post) {
+      if (Number.isFinite(Number(post.createdAt))) return Number(post.createdAt);
+      const idTime = String(post.id || "").match(/(\d{10,})/);
+      if (idTime) return Number(idTime[1]);
+      const parsedDate = Date.parse(post.date || "");
+      return Number.isFinite(parsedDate) ? parsedDate : 0;
+    }
+
+    function sortPosts(posts) {
+      return [...posts].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+    }
+
+    function getAllPosts() {
+      return sortPosts([
+        ...getStoredPosts().map(post => ({ ...post, isCustom: true })),
+        ...seedPosts.map(post => ({ ...post, isCustom: false }))
+      ]);
+    }
+
+    function minutesRead(body) {
+      const words = String(body).trim().split(/\s+/).filter(Boolean).length;
+      return `${Math.max(1, Math.ceil(words / 180))} mins read`;
+    }
+
+    function todayLabel() {
+      return new Date().toLocaleDateString("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric"
+      });
+    }
+
+    function mapSvg(type) {
+      const worldPaths = `
+        <path d="M68 96c34-38 82-42 129-24 25 10 44 28 70 24 19-3 34-18 55-12 32 9 45 34 70 44 32 13 65 2 96 18 26 14 31 40 16 62-19 29-61 19-86 42-22 20-32 56-68 54-36-2-41-38-66-57-31-24-73-6-100-33-19-19-18-47-46-52-28-5-71 8-88-19-10-16 1-34 18-47Z"/>
+        <path d="M438 86c32-14 83-7 105 22 17 23 5 48 28 70 19 18 51 18 62 46 9 24-4 52-27 62-33 14-57-19-86-13-34 7-45 55-84 44-33-9-27-48-50-68-25-22-63-14-75-48-10-30 18-54 42-69 28-17 53-32 85-46Z"/>
+      `;
+      const hongKongPath = `
+        <path d="M156 164c44-38 90-49 142-43 38 5 67 26 100 43 35 19 79 18 115 36 42 21 65 63 47 95-17 31-63 31-100 24-42-8-74-33-116-31-38 2-68 27-106 21-39-6-51-37-87-48-33-10-73 3-91-24-18-28 44-61 96-73Z"/>
+        <path d="M420 326c39-2 72 10 101 34 20 17 20 42-3 55-32 19-77 4-107-17-31-21-35-70 9-72Z"/>
+        <path d="M238 354c24-12 57-10 73 11 14 18 0 43-25 48-27 5-63-12-67-34-2-10 6-19 19-25Z"/>
+      `;
+
+      return `
+        <svg viewBox="0 0 680 440" role="presentation" aria-hidden="true">
+          <defs>
+            <pattern id="dot-${type}" width="11" height="11" patternUnits="userSpaceOnUse">
+              <circle cx="2.5" cy="2.5" r="1.45" fill="rgba(255,255,255,0.72)"/>
+            </pattern>
+          </defs>
+          <g fill="url(#dot-${type})">
+            ${type === "world" ? worldPaths : hongKongPath}
+          </g>
+        </svg>
+      `;
+    }
+
+    function renderMaps() {
+      document.querySelectorAll("[data-map]").forEach(target => {
+        target.innerHTML = mapSvg(target.getAttribute("data-map"));
+      });
+    }
+
+    function stackedLineHtml(lines, className) {
+      return lines.map(line => `<span class="${className}">${escapeHtml(line)}</span>`).join("");
+    }
+
+    function categoryTitleHtml(category) {
+      return category.titleLines
+        ? stackedLineHtml(category.titleLines, "title-line")
+        : escapeHtml(category.label);
+    }
+
+    function categoryIntroHtml(category) {
+      return category.detailIntroLines
+        ? stackedLineHtml(category.detailIntroLines, "intro-line")
+        : escapeHtml(category.intro);
+    }
+
+    function selectCategory(key) {
+      const category = categories[key] || categories.international;
+      const stage = document.querySelector("[data-category-stage]");
+      const detail = document.querySelector("[data-detail-section]");
+      const hero = document.querySelector("[data-detail-hero]");
+      const categorySelect = document.querySelector("#post-category");
+
+      activeCategory = category.key;
+      activeTag = "All";
+      activeTime = "all";
+
+      if (hero) {
+        hero.className = `detail-hero ${category.key === "local" ? "local" : "international"}`;
+        hero.innerHTML = `
+          <button class="back-to-categories" type="button" data-back-categories>返回</button>
+          ${category.kicker ? `<span class="card-kicker">${escapeHtml(category.kicker)}</span>` : ""}
+          <h2>${categoryTitleHtml(category)}</h2>
+          <p>${categoryIntroHtml(category)}</p>
+          <span class="map-art" aria-hidden="true">${mapSvg(category.map)}</span>
+        `;
+      }
+
+      if (categorySelect) categorySelect.value = category.key;
+
+      stage?.classList.add("is-leaving");
+      window.setTimeout(() => {
+        stage?.classList.add("is-hidden");
+        detail?.classList.add("is-active");
+        detail?.scrollIntoView({ behavior: "smooth", block: "start" });
+        refreshNews();
+        updateAuthUi();
+      }, 520);
+    }
+
+    function returnToCategories() {
+      const stage = document.querySelector("[data-category-stage]");
+      const detail = document.querySelector("[data-detail-section]");
+      const hero = document.querySelector("[data-detail-hero]");
+
+      if (!activeCategory || !stage || !detail) return;
+
+      activeCategory = null;
+      activeTag = "All";
+      activeTime = "all";
+      updateAuthUi();
+
+      detail.classList.add("is-closing");
+      stage.classList.remove("is-hidden");
+      requestAnimationFrame(() => {
+        stage.classList.remove("is-leaving");
+        stage.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+
+      window.setTimeout(() => {
+        detail.classList.remove("is-active", "is-closing");
+        if (hero) hero.innerHTML = "";
+      }, 420);
+    }
+
+    function isWithinTime(post, filterKey) {
+      const filter = timeFilters.find(item => item.key === filterKey);
+      if (!filter || !filter.days) return true;
+
+      const threshold = Date.now() - filter.days * 24 * 60 * 60 * 1000;
+      return postTimestamp(post) >= threshold;
+    }
+
+    function filteredPosts() {
+      const search = document.querySelector("[data-search]");
+      const query = (search?.value || "").trim().toLowerCase();
+
+      return getAllPosts().filter(post => {
+        if (activeCategory && post.category !== activeCategory) return false;
+        if (activeTag !== "All" && post.tag !== activeTag) return false;
+        if (!isWithinTime(post, activeTime)) return false;
+        if (query && !`${post.title} ${post.tag} ${post.body}`.toLowerCase().includes(query)) return false;
+        return true;
+      });
+    }
+
+    function renderFilters() {
+      const tagRow = document.querySelector("[data-tag-filters]");
+      const timeRow = document.querySelector("[data-time-filters]");
+      if (!tagRow || !timeRow) return;
+
+      const categoryPosts = getAllPosts().filter(post => post.category === activeCategory);
+      const tags = ["All", ...Array.from(new Set(categoryPosts.map(post => post.tag).filter(Boolean)))];
+      if (!tags.includes(activeTag)) activeTag = "All";
+
+      tagRow.innerHTML = `
+        <label class="filter-select-wrap">
+          <span class="filter-label">標籤</span>
+          <select class="filter-select" data-tag-filter-select aria-label="選擇標籤">
+            ${tags.map(tag => {
+              const label = tag === "All" ? "全部標籤" : tag;
+              return `<option value="${escapeHtml(tag)}"${tag === activeTag ? " selected" : ""}>${escapeHtml(label)}</option>`;
+            }).join("")}
+          </select>
+        </label>
+      `;
+
+      timeRow.innerHTML = `
+        <span class="filter-label">時間</span>
+        ${timeFilters.map(filter => `<button class="filter-button${filter.key === activeTime ? " is-active" : ""}" type="button" data-time-filter="${escapeHtml(filter.key)}">${escapeHtml(filter.label)}</button>`).join("")}
+      `;
+
+      tagRow.querySelector("[data-tag-filter-select]")?.addEventListener("change", event => {
+        activeTag = event.currentTarget.value || "All";
+        renderPosts();
+        renderFilters();
+      });
+
+      timeRow.querySelectorAll("[data-time-filter]").forEach(button => {
+        button.addEventListener("click", event => {
+          event.stopPropagation();
+          activeTime = button.getAttribute("data-time-filter") || "all";
+          renderPosts();
+          renderFilters();
+        });
+      });
+    }
+
+    function postCard(post, index = 0) {
+      return `
+        <article class="post-card-wrap" style="--post-index: ${index};">
+          <a class="post-card" href="news-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
+            <div class="post-card-image">
+              <img src="${escapeHtml(post.image)}" alt="">
+              <span class="tag-pill">${escapeHtml(post.tag)}</span>
+            </div>
+            <p class="post-meta">${escapeHtml(post.date)} ・ ${escapeHtml(post.minutes)} ・ ${escapeHtml(categories[post.category]?.label || "")}</p>
+            <h3 class="post-title">${escapeHtml(post.title)}</h3>
+            <p class="post-excerpt">${escapeHtml(plainExcerpt(post.body))}${plainExcerpt(post.body).length >= 150 ? "..." : ""}</p>
+          </a>
+          ${post.isCustom ? `<button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>` : ""}
+        </article>
+      `;
+    }
+
+    function renderPosts() {
+      const grid = document.querySelector("[data-post-grid]");
+      if (!grid) return;
+
+      const posts = filteredPosts();
+      grid.innerHTML = posts.length
+        ? posts.map(postCard).join("")
+        : `<p class="empty-state">暫時未有符合條件的新聞英文分析。</p>`;
+    }
+
+    function refreshNews() {
+      renderFilters();
+      renderPosts();
+    }
+
+    function setLoggedIn(isLoggedIn) {
+      sessionStorage.setItem(AUTH_KEY, isLoggedIn ? "yes" : "no");
+      updateAuthUi();
+    }
+
+    function isLoggedIn() {
+      return sessionStorage.getItem(AUTH_KEY) === "yes";
+    }
+
+    function updateAuthUi() {
+      const adminPanel = document.querySelector("[data-admin-panel]");
+      const loginButton = document.querySelector("[data-login-button]");
+      const loggedIn = isLoggedIn();
+
+      if (adminPanel) adminPanel.hidden = !loggedIn || !activeCategory;
+      if (loginButton) loginButton.textContent = loggedIn ? "Log Out" : "Log In";
+      document.body.classList.toggle("is-admin", loggedIn);
+    }
+
+    function openLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      const input = document.querySelector("#admin-password");
+      const error = document.querySelector("[data-login-error]");
+      if (error) error.textContent = "";
+      if (modal) modal.hidden = false;
+      window.setTimeout(() => input?.focus(), 0);
+    }
+
+    function closeLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      if (modal) modal.hidden = true;
+    }
+
+    async function readImageFile(file) {
+      const dataUrl = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+
+      return await new Promise(resolve => {
+        const image = new Image();
+        image.onload = () => {
+          const maxWidth = 1100;
+          const scale = Math.min(1, maxWidth / image.width);
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.round(image.width * scale);
+          canvas.height = Math.round(image.height * scale);
+          const context = canvas.getContext("2d");
+          context.drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolve(canvas.toDataURL("image/jpeg", 0.76));
+        };
+        image.onerror = () => resolve(dataUrl);
+        image.src = dataUrl;
+      });
+    }
+
+    function setupCategoryCards() {
+      document.querySelectorAll("[data-category-card]").forEach(card => {
+        card.addEventListener("click", () => {
+          selectCategory(card.getAttribute("data-category-card") || "international");
+        });
+      });
+    }
+
+    function setupReturnNavigation() {
+      document.addEventListener("click", event => {
+        const backButton = event.target.closest("[data-back-categories]");
+        if (backButton) {
+          event.preventDefault();
+          returnToCategories();
+          return;
+        }
+
+        const detail = document.querySelector("[data-detail-section]");
+        if (!activeCategory || !detail?.classList.contains("is-active")) return;
+        if (event.target.closest("[data-detail-section]")) {
+          const protectedTarget = event.target.closest(
+            ".detail-hero, .detail-controls, .post-card-wrap, .admin-panel, button, a, input, textarea, select"
+          );
+          if (!protectedTarget) returnToCategories();
+          return;
+        }
+        if (event.target.closest("[data-login-modal]")) return;
+        if (event.target.closest(".news-nav")) return;
+
+        returnToCategories();
+      });
+    }
+
+    function setupLogin() {
+      const loginButton = document.querySelector("[data-login-button]");
+      const loginForm = document.querySelector("[data-login-form]");
+      const closeButton = document.querySelector("[data-close-login]");
+
+      loginButton?.addEventListener("click", () => {
+        if (isLoggedIn()) {
+          setLoggedIn(false);
+          return;
+        }
+        openLogin();
+      });
+
+      closeButton?.addEventListener("click", closeLogin);
+
+      loginForm?.addEventListener("submit", event => {
+        event.preventDefault();
+        const formData = new FormData(loginForm);
+        const password = String(formData.get("password") || "");
+        const error = document.querySelector("[data-login-error]");
+
+        if (password === ADMIN_PASSWORD) {
+          setLoggedIn(true);
+          closeLogin();
+          loginForm.reset();
+          if (!activeCategory) selectCategory("international");
+          document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else if (error) {
+          error.textContent = "Password does not match.";
+        }
+      });
+    }
+
+    function setupBlogForm() {
+      const form = document.querySelector("[data-blog-form]");
+      const imageInput = document.querySelector("[data-image-input]");
+      const preview = document.querySelector("[data-image-preview]");
+
+      imageInput?.addEventListener("change", async () => {
+        const file = imageInput.files?.[0];
+        if (!file || !preview) return;
+        const image = await readImageFile(file);
+        preview.innerHTML = `<img src="${image}" alt="">`;
+      });
+
+      form?.addEventListener("reset", () => {
+        window.setTimeout(() => {
+          if (preview) preview.textContent = "Image preview";
+        }, 0);
+      });
+
+      form?.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+
+        const formData = new FormData(form);
+        const file = formData.get("image");
+        if (!(file instanceof File) || !file.size) return;
+
+        const body = String(formData.get("body") || "").trim();
+        const createdAt = Date.now();
+        const post = {
+          id: `news-${createdAt}`,
+          category: String(formData.get("category") || activeCategory || "international"),
+          title: String(formData.get("title") || "").trim(),
+          tag: String(formData.get("tag") || "").trim(),
+          image: await readImageFile(file),
+          body,
+          createdAt,
+          date: todayLabel(),
+          minutes: minutesRead(body),
+          author: "Edmund Sir"
+        };
+
+        const storedPosts = getStoredPosts();
+        try {
+          saveStoredPosts([post, ...storedPosts]);
+        } catch {
+          alert("This browser could not permanently save the post, likely because localStorage is full. The post will still open now, but it may not stay in the list after refresh.");
+        }
+
+        preparePostForNavigation(post);
+        form.reset();
+        if (preview) preview.textContent = "Image preview";
+        activeCategory = post.category;
+        refreshNews();
+        window.location.href = `news-post.html?id=${encodeURIComponent(post.id)}`;
+      });
+    }
+
+    function preparePostForNavigation(post) {
+      const payload = JSON.stringify({
+        type: "edmundNewsPost",
+        post
+      });
+
+      window.name = payload;
+
+      try {
+        sessionStorage.setItem(ACTIVE_POST_KEY, payload);
+      } catch {}
+    }
+
+    function setupPostActions() {
+      document.addEventListener("click", event => {
+        const deleteButton = event.target.closest("[data-delete-post]");
+        if (deleteButton) {
+          event.preventDefault();
+          event.stopPropagation();
+
+          if (!isLoggedIn()) {
+            openLogin();
+            return;
+          }
+
+          const id = deleteButton.getAttribute("data-delete-post");
+          if (!id || !confirm("Delete this post?")) return;
+
+          saveStoredPosts(getStoredPosts().filter(post => post.id !== id));
+          refreshNews();
+          return;
+        }
+
+        const postLink = event.target.closest("[data-post-link]");
+        if (!postLink) return;
+
+        const id = postLink.getAttribute("data-post-id");
+        const post = getAllPosts().find(item => item.id === id);
+        if (post) preparePostForNavigation(post);
+      });
+    }
+
+    function setupSearch() {
+      const search = document.querySelector("[data-search]");
+      search?.addEventListener("input", renderPosts);
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    renderMaps();
+    updateAuthUi();
+    setupCategoryCards();
+    setupReturnNavigation();
+    setupLogin();
+    setupBlogForm();
+    setupPostActions();
+    setupSearch();
+    setupCustomCursor();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>英文流行曲歌詞賞析 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --page-pad: clamp(22px, 5vw, 96px);
+      --ink: #1d1d1f;
+      --muted: #6e6e73;
+      --brand: #93552F;
+      --panel: rgba(255,255,255,0.94);
+    }
+
+    html, body, a, button, input, textarea { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f5f7;
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 600;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .site-shell {
+      width: min(1440px, calc(100vw - 28px));
+      margin: 0 auto;
+      padding: 14px 0 64px;
+    }
+
+    .music-nav {
+      position: sticky;
+      top: 12px;
+      z-index: 20;
+      min-height: 58px;
+      padding: 12px 14px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.78);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 16px 48px rgba(0,0,0,0.09);
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .music-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-width: max-content;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .music-brand-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #050505;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 17px;
+      font-weight: 900;
+    }
+
+    .music-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-left: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .music-links::-webkit-scrollbar { display: none; }
+
+    .music-links a {
+      color: #343437;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .music-links a:hover { color: #0071e3; }
+
+    .nav-search {
+      width: min(320px, 24vw);
+      min-width: 180px;
+      margin-left: auto;
+      position: relative;
+    }
+
+    .nav-search input {
+      width: 100%;
+      height: 38px;
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 8px;
+      padding: 0 38px 0 14px;
+      background: rgba(255,255,255,0.68);
+      color: var(--ink);
+      font-family: inherit;
+      font-weight: 700;
+      outline: 0;
+    }
+
+    .nav-search span {
+      position: absolute;
+      right: 13px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #6e6e73;
+      font-size: 15px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: 4px;
+    }
+
+    .nav-button {
+      border: 0;
+      border-radius: 8px;
+      padding: 11px 16px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .nav-button:hover {
+      transform: translateY(-1px);
+      background: #252525;
+    }
+
+    .nav-button.secondary {
+      background: rgba(255,255,255,0.74);
+      color: var(--ink);
+      border: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .nav-button[hidden] { display: none; }
+
+    .hero {
+      position: relative;
+      min-height: clamp(520px, 74vh, 760px);
+      margin-top: 14px;
+      border-radius: 8px;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.78)),
+        url("Singer Montage.jpeg");
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 18px 54px rgba(0,0,0,0.14);
+      display: flex;
+      align-items: flex-end;
+      padding: clamp(28px, 5vw, 54px);
+    }
+
+    .hero[hidden] { display: none; }
+
+    .hero-link {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      max-width: 760px;
+    }
+
+    .hero-link h1 {
+      transition: color 0.22s ease;
+    }
+
+    .hero-link:hover h1 {
+      color: rgba(255,255,255,0.82);
+    }
+
+    .hero-copy {
+      max-width: 760px;
+      color: #fff;
+      text-shadow: 0 10px 40px rgba(0,0,0,0.45);
+    }
+
+    .tag-pill {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      min-height: 30px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.22);
+      color: #fff;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+      backdrop-filter: blur(12px);
+    }
+
+    h1 {
+      margin: 18px 0 0;
+      font-size: clamp(38px, 5vw, 78px);
+      line-height: 1.05;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .hero-subtitle {
+      max-width: 680px;
+      margin: 16px 0 0;
+      font-size: clamp(17px, 1.7vw, 23px);
+      line-height: 1.45;
+      font-weight: 800;
+      color: rgba(255,255,255,0.88);
+    }
+
+    .hero-meta {
+      position: absolute;
+      right: clamp(28px, 5vw, 54px);
+      bottom: clamp(28px, 5vw, 54px);
+      color: rgba(255,255,255,0.9);
+      font-size: 14px;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .hero-meta strong {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    .blog-section {
+      padding: 42px 24px 0;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 24px;
+      margin-bottom: 22px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: clamp(30px, 4vw, 48px);
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .section-head p {
+      margin: 10px 0 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.5;
+      font-weight: 800;
+    }
+
+    .filter-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
+    .filter-row[hidden] { display: none; }
+
+    .filter-button {
+      min-height: 42px;
+      border: 1px solid rgba(0,0,0,0.07);
+      border-radius: 8px;
+      padding: 0 18px;
+      background: #fff;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .filter-button.is-active {
+      background: #050505;
+      color: #fff;
+    }
+
+    .post-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .post-card-wrap {
+      position: relative;
+      min-width: 0;
+      opacity: 0;
+      transform: translateY(18px);
+      animation: postFadeIn 0.58s ease forwards;
+      animation-delay: calc(var(--post-index, 0) * 42ms);
+    }
+
+    @keyframes postFadeIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .post-card {
+      color: var(--ink);
+      text-decoration: none;
+      display: block;
+      min-width: 0;
+    }
+
+    .post-card-image {
+      position: relative;
+      aspect-ratio: 1.58 / 1;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #d2d2d7;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.10);
+    }
+
+    .post-card-image img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      transition: transform 0.32s ease;
+    }
+
+    .post-card:hover img { transform: scale(1.04); }
+
+    .post-card .tag-pill {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(0,0,0,0.42);
+      color: #fff;
+    }
+
+    .post-meta {
+      margin: 14px 0 0;
+      color: #6e6e73;
+      font-size: 13px;
+      line-height: 1.3;
+      font-weight: 800;
+    }
+
+    .post-title {
+      margin: 8px 0 0;
+      font-size: clamp(19px, 1.6vw, 25px);
+      line-height: 1.16;
+      font-weight: 900;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .post-excerpt {
+      margin: 8px 0 0;
+      color: #444;
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 700;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .post-author {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      margin: 0;
+      padding: 48px 24px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.72);
+      color: var(--muted);
+      text-align: center;
+      font-size: 17px;
+      line-height: 1.5;
+      font-weight: 800;
+    }
+
+    .load-more-row {
+      display: flex;
+      justify-content: center;
+      margin-top: 34px;
+    }
+
+    .load-more-button {
+      min-height: 48px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 24px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.14);
+      transition: transform 0.22s ease, background 0.22s ease;
+    }
+
+    .load-more-button:hover {
+      transform: translateY(-2px);
+      background: #252525;
+    }
+
+    .load-more-button[hidden] { display: none; }
+
+    .delete-post {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 5;
+      display: none;
+      min-height: 32px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(0,0,0,0.72);
+      color: #fff;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 900;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero .delete-post {
+      top: 18px;
+      right: 18px;
+      min-height: 38px;
+      padding: 0 16px;
+      background: rgba(0,0,0,0.78);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.24);
+    }
+
+    body.is-admin .delete-post {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .author-dot {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #93552F;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .admin-panel {
+      margin: 42px 24px 0;
+      padding: clamp(22px, 4vw, 34px);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 18px 52px rgba(0,0,0,0.12);
+    }
+
+    .admin-panel[hidden] { display: none; }
+
+    .admin-panel h2 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .admin-note {
+      margin: 10px 0 24px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .blog-form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field.full { grid-column: 1 / -1; }
+
+    .field label {
+      font-size: 13px;
+      font-weight: 900;
+      color: #343437;
+    }
+
+    .field input,
+    .field textarea {
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 8px;
+      padding: 13px 14px;
+      background: #fbfbfd;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 700;
+      outline: 0;
+    }
+
+    .field textarea {
+      min-height: 210px;
+      resize: vertical;
+      line-height: 1.55;
+    }
+
+    .image-preview {
+      min-height: 220px;
+      border: 1px dashed rgba(0,0,0,0.18);
+      border-radius: 8px;
+      background: #f5f5f7;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .image-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .form-actions {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-top: 6px;
+    }
+
+    .post-button {
+      border: 0;
+      border-radius: 8px;
+      padding: 14px 22px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .post-button.secondary {
+      background: #f5f5f7;
+      color: var(--ink);
+      border: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .login-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      padding: 22px;
+      background: rgba(0,0,0,0.42);
+      backdrop-filter: blur(10px);
+      display: grid;
+      place-items: center;
+    }
+
+    .login-modal[hidden] { display: none; }
+
+    .login-card {
+      width: min(460px, 100%);
+      border-radius: 8px;
+      padding: 28px;
+      background: #fff;
+      box-shadow: 0 28px 80px rgba(0,0,0,0.28);
+    }
+
+    .login-card h2 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .login-card p {
+      margin: 10px 0 18px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .login-error {
+      min-height: 22px;
+      margin-top: 10px;
+      color: #b42318;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    @media (max-width: 950px) {
+      html, body, a, button, input, textarea { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .site-shell {
+        width: 100%;
+        padding-top: 0;
+      }
+
+      .music-nav {
+        top: 0;
+        border-radius: 0;
+        flex-wrap: wrap;
+      }
+
+      .music-links {
+        order: 3;
+        width: 100%;
+      }
+
+      .nav-search {
+        display: none;
+      }
+
+      .hero {
+        margin-top: 0;
+        border-radius: 0;
+        min-height: 560px;
+      }
+
+      .hero-meta {
+        position: static;
+        margin-top: 22px;
+        text-align: left;
+      }
+
+      .blog-section {
+        padding: 34px 22px 0;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .post-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .blog-form {
+        grid-template-columns: 1fr;
+      }
+
+      .admin-panel {
+        margin: 34px 22px 0;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <div class="site-shell">
+    <header class="music-nav">
+      <a class="music-brand" href="major-music.html" aria-label="Edmund Music Journal">
+        <span class="music-brand-mark">♪</span>
+        <span>Edmund Music Journal</span>
+      </a>
+
+      <nav class="music-links">
+        <a href="index.html">主頁</a>
+        <a href="resources.html">回到其他英文學習資源</a>
+      </nav>
+
+      <label class="nav-search" aria-label="Search posts">
+        <input type="search" placeholder="Search lyrics analysis..." data-search>
+        <span>⌕</span>
+      </label>
+
+      <div class="nav-actions">
+        <button class="nav-button" type="button" data-login-button>Log In</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" data-featured-hero hidden></section>
+
+      <section class="blog-section" id="blog">
+        <div class="section-head">
+          <div>
+            <h2>英文流行曲歌詞賞析</h2>
+            <p>在這裡收藏 Edmund Sir 的英文流行曲歌詞分析。</p>
+          </div>
+        </div>
+
+        <div class="filter-row" data-filter-row></div>
+        <div class="post-grid" data-post-grid></div>
+        <div class="load-more-row">
+          <button class="load-more-button" type="button" data-load-more hidden>繼續搜尋您最喜愛的音樂</button>
+        </div>
+      </section>
+
+      <section class="admin-panel" id="create" data-admin-panel hidden>
+        <h2>新增歌詞賞析文章</h2>
+        <p class="admin-note">登入後可以新增文章。圖片會壓縮後儲存在此瀏覽器的 localStorage，發布後會開啟新的文章頁面。</p>
+
+        <form class="blog-form" data-blog-form>
+          <div class="field">
+            <label for="post-title">文章標題</label>
+            <input id="post-title" name="title" type="text" placeholder="例如：Taylor Swift 歌詞中的 metaphor" required>
+          </div>
+
+          <div class="field">
+            <label for="post-tag">Tag</label>
+            <input id="post-tag" name="tag" type="text" placeholder="例如：Lyrics / Pop / Grammar" required>
+          </div>
+
+          <div class="field full">
+            <label for="post-image">Insert an image</label>
+            <input id="post-image" name="image" type="file" accept="image/*" required data-image-input>
+          </div>
+
+          <div class="field full">
+            <div class="image-preview" data-image-preview>Image preview</div>
+          </div>
+
+          <div class="field full">
+            <label for="post-body">Write anything here</label>
+            <textarea id="post-body" name="body" placeholder="在這裡寫下你的歌詞分析、英文用法、個人觀察..." required></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button class="post-button secondary" type="reset">Clear</button>
+            <button class="post-button" type="submit">發布文章</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <div class="login-modal" data-login-modal hidden>
+    <form class="login-card" data-login-form>
+      <h2>Password</h2>
+      <p>輸入管理員密碼後，就可以新增歌詞賞析文章。</p>
+      <div class="field">
+        <label for="admin-password">Password</label>
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <div class="login-error" data-login-error></div>
+      <div class="form-actions">
+        <button class="post-button secondary" type="button" data-close-login>Cancel</button>
+        <button class="post-button" type="submit">Log In</button>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    // Change your admin password here.
+    const ADMIN_PASSWORD = "edmundmusic";
+
+    const POSTS_KEY = "edmundMusicPosts";
+    const AUTH_KEY = "edmundMusicLoggedIn";
+    const POSTS_PER_LOAD = 12;
+
+    let activeFilter = "All";
+    let visiblePostCount = POSTS_PER_LOAD;
+
+    const seedPosts = [];
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function plainExcerpt(value) {
+      return String(value).replace(/\s+/g, " ").trim().slice(0, 150);
+    }
+
+    function getStoredPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveStoredPosts(posts) {
+      localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function postTimestamp(post) {
+      if (Number.isFinite(Number(post.createdAt))) return Number(post.createdAt);
+
+      const idTime = String(post.id || "").match(/(\d{10,})/);
+      if (idTime) return Number(idTime[1]);
+
+      const parsedDate = Date.parse(post.date || "");
+      return Number.isFinite(parsedDate) ? parsedDate : 0;
+    }
+
+    function sortPosts(posts) {
+      return [...posts].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+    }
+
+    function getAllPosts() {
+      return sortPosts([
+        ...getStoredPosts().map(post => ({ ...post, isCustom: true })),
+        ...seedPosts.map(post => ({ ...post, isCustom: false }))
+      ]);
+    }
+
+    function minutesRead(body) {
+      const words = String(body).trim().split(/\s+/).filter(Boolean).length;
+      return `${Math.max(1, Math.ceil(words / 180))} mins read`;
+    }
+
+    function todayLabel() {
+      return new Date().toLocaleDateString("en-GB", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric"
+      });
+    }
+
+    function heroBackground(image) {
+      const safeImage = String(image || "Singer Montage.jpeg").replaceAll('"', "%22");
+      return `linear-gradient(180deg, rgba(0,0,0,0.08), rgba(0,0,0,0.78)), url("${safeImage}")`;
+    }
+
+    function renderFeatured(posts = getAllPosts()) {
+      const hero = document.querySelector("[data-featured-hero]");
+      if (!hero) return;
+
+      const post = posts[0];
+      if (!post) {
+        hero.hidden = true;
+        hero.removeAttribute("style");
+        hero.innerHTML = "";
+        return;
+      }
+
+      hero.hidden = false;
+      hero.style.backgroundImage = heroBackground(post.image);
+      hero.innerHTML = `
+        <a class="hero-link" href="music-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
+          <div class="hero-copy">
+            <span class="tag-pill">${escapeHtml(post.tag || "英文流行曲歌詞賞析")}</span>
+            <h1>${escapeHtml(post.title)}</h1>
+            <p class="hero-subtitle">${escapeHtml(plainExcerpt(post.body))}${plainExcerpt(post.body).length >= 150 ? "..." : ""}</p>
+            <div class="hero-meta">
+              <strong>${escapeHtml(post.author || "Edmund Sir")}</strong>
+              ${escapeHtml(post.date || "")} ・ ${escapeHtml(post.minutes || "")}
+            </div>
+          </div>
+        </a>
+        ${post.isCustom ? `<button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>` : ""}
+      `;
+    }
+
+    function renderFilters(posts) {
+      const row = document.querySelector("[data-filter-row]");
+      if (!row) return;
+
+      const tags = ["All", ...Array.from(new Set(posts.map(post => post.tag).filter(Boolean)))];
+      if (tags.length <= 1) {
+        row.hidden = true;
+        row.innerHTML = "";
+        activeFilter = "All";
+        return;
+      }
+
+      if (!tags.includes(activeFilter)) activeFilter = "All";
+      row.hidden = false;
+      row.innerHTML = tags.map((tag, index) => `
+        <button class="filter-button${tag === activeFilter ? " is-active" : ""}" type="button" data-filter="${escapeHtml(tag)}">${escapeHtml(tag)}</button>
+      `).join("");
+
+      row.querySelectorAll("[data-filter]").forEach(button => {
+        button.addEventListener("click", () => {
+          activeFilter = button.dataset.filter || "All";
+          row.querySelectorAll("[data-filter]").forEach(item => item.classList.remove("is-active"));
+          button.classList.add("is-active");
+          renderPosts(activeFilter, true);
+        });
+      });
+    }
+
+    function postCard(post, index = 0) {
+      return `
+        <article class="post-card-wrap" style="--post-index: ${index % POSTS_PER_LOAD};">
+          <a class="post-card" href="music-post.html?id=${encodeURIComponent(post.id)}" data-post-link data-post-id="${escapeHtml(post.id)}">
+            <div class="post-card-image">
+              <img src="${escapeHtml(post.image)}" alt="">
+              <span class="tag-pill">${escapeHtml(post.tag)}</span>
+            </div>
+            <p class="post-meta">${escapeHtml(post.date)} ・ ${escapeHtml(post.minutes)}</p>
+            <h3 class="post-title">${escapeHtml(post.title)}</h3>
+            <p class="post-excerpt">${escapeHtml(plainExcerpt(post.body))}...</p>
+            <div class="post-author">
+              <span class="author-dot">E</span>
+              <span>${escapeHtml(post.author || "Edmund Sir")}</span>
+            </div>
+          </a>
+          ${post.isCustom ? `<button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>` : ""}
+        </article>
+      `;
+    }
+
+    function updateLoadMore(totalVisiblePosts) {
+      const button = document.querySelector("[data-load-more]");
+      if (!button) return;
+
+      button.hidden = totalVisiblePosts <= visiblePostCount;
+    }
+
+    function renderPosts(filter = activeFilter, reset = false) {
+      const grid = document.querySelector("[data-post-grid]");
+      const search = document.querySelector("[data-search]");
+      if (!grid) return;
+
+      if (reset) visiblePostCount = POSTS_PER_LOAD;
+      activeFilter = filter || "All";
+
+      const query = (search?.value || "").trim().toLowerCase();
+      const featuredPost = getAllPosts()[0];
+      let posts = getAllPosts();
+
+      if (featuredPost) {
+        posts = posts.filter(post => post.id !== featuredPost.id);
+      }
+
+      if (activeFilter !== "All") {
+        posts = posts.filter(post => post.tag === activeFilter);
+      }
+
+      if (query) {
+        posts = posts.filter(post => `${post.title} ${post.tag} ${post.body}`.toLowerCase().includes(query));
+      }
+
+      const visiblePosts = posts.slice(0, visiblePostCount);
+      updateLoadMore(posts.length);
+
+      grid.innerHTML = posts.length
+        ? visiblePosts.map(postCard).join("")
+        : `<p class="empty-state">暫時未有符合條件的文章。</p>`;
+    }
+
+    function refreshBlog(reset = true) {
+      const posts = getAllPosts();
+      renderFeatured(posts);
+      renderFilters(posts);
+      renderPosts(activeFilter, reset);
+    }
+
+    function setLoggedIn(isLoggedIn) {
+      sessionStorage.setItem(AUTH_KEY, isLoggedIn ? "yes" : "no");
+      updateAuthUi();
+    }
+
+    function isLoggedIn() {
+      return sessionStorage.getItem(AUTH_KEY) === "yes";
+    }
+
+    function updateAuthUi() {
+      const adminPanel = document.querySelector("[data-admin-panel]");
+      const loginButton = document.querySelector("[data-login-button]");
+      const loggedIn = isLoggedIn();
+
+      if (adminPanel) adminPanel.hidden = !loggedIn;
+      if (loginButton) loginButton.textContent = loggedIn ? "Log Out" : "Log In";
+      document.body.classList.toggle("is-admin", loggedIn);
+    }
+
+    function openLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      const input = document.querySelector("#admin-password");
+      const error = document.querySelector("[data-login-error]");
+      if (error) error.textContent = "";
+      if (modal) modal.hidden = false;
+      setTimeout(() => input?.focus(), 0);
+    }
+
+    function closeLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      if (modal) modal.hidden = true;
+    }
+
+    async function readImageFile(file) {
+      const dataUrl = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+
+      return await new Promise(resolve => {
+        const image = new Image();
+        image.onload = () => {
+          const maxWidth = 1000;
+          const scale = Math.min(1, maxWidth / image.width);
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.round(image.width * scale);
+          canvas.height = Math.round(image.height * scale);
+          const context = canvas.getContext("2d");
+          context.drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolve(canvas.toDataURL("image/jpeg", 0.76));
+        };
+        image.onerror = () => resolve(dataUrl);
+        image.src = dataUrl;
+      });
+    }
+
+    function setupLogin() {
+      const loginButton = document.querySelector("[data-login-button]");
+      const loginForm = document.querySelector("[data-login-form]");
+      const closeButton = document.querySelector("[data-close-login]");
+
+      loginButton?.addEventListener("click", () => {
+        if (isLoggedIn()) {
+          setLoggedIn(false);
+          return;
+        }
+        openLogin();
+      });
+
+      closeButton?.addEventListener("click", closeLogin);
+
+      loginForm?.addEventListener("submit", event => {
+        event.preventDefault();
+        const formData = new FormData(loginForm);
+        const password = String(formData.get("password") || "");
+        const error = document.querySelector("[data-login-error]");
+
+        if (password === ADMIN_PASSWORD) {
+          setLoggedIn(true);
+          closeLogin();
+          loginForm.reset();
+          document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else if (error) {
+          error.textContent = "Password does not match.";
+        }
+      });
+    }
+
+    function setupBlogForm() {
+      const form = document.querySelector("[data-blog-form]");
+      const imageInput = document.querySelector("[data-image-input]");
+      const preview = document.querySelector("[data-image-preview]");
+
+      imageInput?.addEventListener("change", async () => {
+        const file = imageInput.files?.[0];
+        if (!file || !preview) return;
+        const image = await readImageFile(file);
+        preview.innerHTML = `<img src="${image}" alt="">`;
+      });
+
+      form?.addEventListener("reset", () => {
+        setTimeout(() => {
+          if (preview) preview.textContent = "Image preview";
+        }, 0);
+      });
+
+      form?.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+
+        const formData = new FormData(form);
+        const file = formData.get("image");
+        if (!(file instanceof File) || !file.size) return;
+
+        const body = String(formData.get("body") || "").trim();
+        const image = await readImageFile(file);
+        const createdAt = Date.now();
+        const post = {
+          id: `music-${createdAt}`,
+          title: String(formData.get("title") || "").trim(),
+          tag: String(formData.get("tag") || "").trim(),
+          image,
+          body,
+          createdAt,
+          date: todayLabel(),
+          minutes: minutesRead(body),
+          author: "Edmund Sir"
+        };
+
+        const storedPosts = getStoredPosts();
+        try {
+          saveStoredPosts([post, ...storedPosts]);
+        } catch {
+          alert("This browser could not permanently save the post, likely because localStorage is full. The post will still open now, but it may not stay in the blog list after refresh.");
+        }
+        preparePostForNavigation(post);
+        form.reset();
+        if (preview) preview.textContent = "Image preview";
+        activeFilter = "All";
+        refreshBlog(true);
+        window.location.href = `music-post.html?id=${encodeURIComponent(post.id)}`;
+      });
+    }
+
+    function preparePostForNavigation(post) {
+      const payload = JSON.stringify({
+        type: "edmundMusicPost",
+        post
+      });
+
+      window.name = payload;
+
+      try {
+        sessionStorage.setItem("edmundMusicActivePost", payload);
+      } catch {}
+    }
+
+    function setupPostActions() {
+      const loadMoreButton = document.querySelector("[data-load-more]");
+
+      loadMoreButton?.addEventListener("click", () => {
+        visiblePostCount += POSTS_PER_LOAD;
+        renderPosts(activeFilter, false);
+      });
+
+      document.addEventListener("click", event => {
+        const deleteButton = event.target.closest("[data-delete-post]");
+        if (deleteButton) {
+          event.preventDefault();
+          event.stopPropagation();
+
+          if (!isLoggedIn()) {
+            openLogin();
+            return;
+          }
+
+          const id = deleteButton.getAttribute("data-delete-post");
+          if (!id || !confirm("Delete this post?")) return;
+
+          const nextPosts = getStoredPosts().filter(post => post.id !== id);
+          saveStoredPosts(nextPosts);
+          refreshBlog(true);
+          return;
+        }
+
+        const postLink = event.target.closest("[data-post-link]");
+        if (!postLink) return;
+
+        const id = postLink.getAttribute("data-post-id");
+        const post = getAllPosts().find(item => item.id === id);
+        if (post) preparePostForNavigation(post);
+      });
+    }
+
+    function setupSearch() {
+      const search = document.querySelector("[data-search]");
+      search?.addEventListener("input", () => renderPosts(activeFilter, true));
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    refreshBlog(true);
+    updateAuthUi();
+    setupLogin();
+    setupBlogForm();
+    setupPostActions();
+    setupSearch();
+    setupCustomCursor();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

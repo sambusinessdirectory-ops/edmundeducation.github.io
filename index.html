@@ -1,124 +1,1815 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <title>EdmundEducation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        /* --- 1. GENERAL LAYOUT --- */
-        body { 
-            margin: 0; 
-            padding: 0; 
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
-            background: #fff; 
-            min-height: 100vh;
-            font-family: sans-serif; /* Makes the menu font look clean */
-        }
+  <meta charset="UTF-8">
+  <title>Edmund 英文學習平台</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        /* --- 2. MENU BAR STYLES (New!) --- */
-        nav {
-            width: 100%;
-            background-color: #f0f0f0; /* Pale Gray */
-            padding: 20px 0;
-            text-align: center;
-            position: sticky; /* Keeps menu at the top when scrolling */
-            top: 0;
-            z-index: 1000; /* Ensures menu sits ON TOP of images */
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow for depth */
-        }
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
 
-        /* The Links (Buttons) */
-        nav a {
-            text-decoration: none; /* Removes underline */
-            color: black;          /* Black Text */
-            margin: 0 15px;        /* Spacing between buttons */
-            font-weight: bold;
-            font-size: 16px;
-            transition: color 0.3s ease; /* Smooth color change */
-            display: inline-block; /* Helps them sit in a line */
-        }
+    * { box-sizing: border-box; }
 
-        /* Hover Effect (Cursor touches word) */
-        nav a:hover {
-            color: red; /* Becomes Red */
-            cursor: pointer;
-        }
+    :root {
+      --video-opacity: 0.38;
+      --video-cover: rgba(245,245,247,0.50);
+    }
 
-        /* Mobile Adjustment for Menu */
-        @media (max-width: 600px) {
-            nav a {
-                display: block; /* Stack buttons vertically on phones */
-                margin: 10px 0;
-            }
-        }
+    html {
+      scroll-behavior: smooth;
+    }
 
-        /* --- 3. IMAGE ANIMATION STYLES (Existing) --- */
-        /* Added a top margin to the first image so it doesn't hide behind the menu */
-        img:first-of-type {
-            margin-top: 40px; 
-        }
+    html, body, a, button { cursor: none; }
 
-        img { 
-            max-width: 100%; 
-            height: auto; 
-            margin-bottom: 50px; 
-            display: block;
-            
-            /* HIDDEN STATE */
-            opacity: 0; 
-            transform: translateY(30px); 
-            
-            /* ANIMATION SPEED */
-            transition: opacity 1.2s ease-out, transform 1.2s ease-out;
-        }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 600;
+    }
 
-        /* VISIBLE STATE */
-        img.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .video-background {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+      background:
+        linear-gradient(rgba(245,245,247,0.18), rgba(245,245,247,0.18)),
+        url("Static Images/Homepage Video Poster.jpg") center / cover no-repeat,
+        #f5f5f7;
+    }
+
+    .bg-video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      filter: saturate(1.15) contrast(1.05);
+      transition: opacity 1.2s ease;
+    }
+
+    .bg-video.is-active { opacity: var(--video-opacity); }
+
+    html.video-enabled .video-background {
+      background: #f5f5f7;
+    }
+
+    html.video-light-mode .bg-video {
+      display: none;
+    }
+
+    .video-background::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: var(--video-cover);
+      transition: background 1.2s ease;
+    }
+
+    .topbar,
+    main {
+      position: relative;
+      z-index: 1;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      width: 100%;
+      height: 10vh;
+      min-height: 82px;
+      max-height: 116px;
+      background: #F7E7CE;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      backdrop-filter: blur(18px);
+      transition: background 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s ease;
+    }
+
+    .topbar-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 0 clamp(28px, 5vw, 132px);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 24px;
+    }
+
+    .brand {
+      position: absolute;
+      top: 50%;
+      display: block;
+      text-decoration: none;
+      transform: translateY(-50%);
+      transition: opacity 0.42s ease, transform 0.42s ease, filter 0.42s ease;
+    }
+
+    .brand img {
+      display: block;
+      height: clamp(76px, 9.4vh, 112px);
+      width: auto;
+      max-width: min(760px, 44vw);
+      object-fit: contain;
+    }
+
+    .brand-left {
+      left: clamp(28px, 5vw, 132px);
+      opacity: 1;
+    }
+
+    .header-title-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 3;
+      height: 100%;
+      width: auto;
+      max-width: none;
+      object-fit: contain;
+      object-position: right top;
+      filter: drop-shadow(0 12px 22px rgba(0,0,0,0.12));
+      pointer-events: none;
+    }
+
+    .topnav {
+      position: relative;
+      z-index: 2;
+      display: none;
+      gap: 26px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      transition: opacity 0.28s ease;
+    }
+
+    .topnav::-webkit-scrollbar { display: none; }
+
+    .topnav a {
+      color: #1d1d1f;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .topnav a:hover { color: #0071e3; }
+
+    .store {
+      position: relative;
+      width: 100%;
+      padding: 62px 0 42px var(--category-page-pad);
+      min-height: 980px;
+      --category-page-pad: clamp(28px, 5vw, 132px);
+      --category-card-width: clamp(290px, 15.5vw, 340px);
+      --category-focus-card-width: clamp(348px, 18.6vw, 408px);
+      --category-card-height: clamp(176px, 9.2vw, 212px);
+      --category-focus-card-height: clamp(211px, 11.04vw, 254px);
+      --category-gap: clamp(16px, 1.6vw, 28px);
+      --category-logo-width: min(450px, 34vw);
+      --category-logo-gap: clamp(56px, 6vw, 118px);
+    }
+
+    .hero-row {
+      padding-right: var(--category-page-pad);
+      max-width: calc(100% - var(--category-logo-width) - clamp(34px, 5vw, 88px));
+      display: flex;
+      align-items: flex-start;
+      gap: clamp(24px, 3vw, 52px);
+      flex-wrap: wrap;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 980px;
+      font-size: clamp(46px, 6vw, 76px);
+      line-height: 1.04;
+      font-weight: 900;
+      letter-spacing: 0;
+      background: linear-gradient(95deg, #55c7ff 0%, #0071e3 42%, #062b84 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .company-logo {
+      position: absolute;
+      top: 62px;
+      right: var(--category-page-pad);
+      width: var(--category-logo-width);
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      border-radius: 28px;
+      background: #fff;
+      box-shadow: 0 12px 34px rgba(0,0,0,0.08);
+      transition: transform 0.28s ease, box-shadow 0.28s ease;
+    }
+
+    .company-logo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 18px 50px rgba(0,113,227,0.20);
+    }
+
+    .social-links {
+      position: relative;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      gap: clamp(22px, 2.8vw, 52px);
+      padding-top: 0.2em;
+    }
+
+    .social-link {
+      width: auto;
+      height: auto;
+      display: grid;
+      place-items: center;
+      border-radius: 0;
+      background: transparent;
+      border: 0;
+      box-shadow: none;
+      transition: transform 0.22s ease, filter 0.22s ease;
+    }
+
+    .social-link:hover {
+      transform: translateY(-5px) scale(1.04);
+      filter: drop-shadow(0 16px 22px rgba(0,113,227,0.18));
+    }
+
+    .social-link img {
+      max-width: 78px;
+      max-height: 78px;
+      display: block;
+      object-fit: contain;
+    }
+
+    .social-link.carousell {
+      width: auto;
+      border-radius: 0;
+    }
+
+    .social-link.carousell img {
+      max-width: 150px;
+      max-height: 54px;
+    }
+
+    .category-strip {
+      counter-reset: category-card;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      gap: var(--category-gap);
+      margin-top: 78px;
+      padding: 0 0 24px;
+      overflow: visible;
+      scrollbar-width: none;
+      width: calc(100vw - (var(--category-page-pad) * 2) - var(--category-logo-width) - var(--category-logo-gap));
+      max-width: 100%;
+    }
+
+    .category-strip::-webkit-scrollbar { display: none; }
+
+    .category-row-break {
+      flex: 0 0 100%;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+
+    .category {
+      counter-increment: category-card;
+      position: relative;
+      flex: 0 0 var(--category-card-width);
+      width: var(--category-card-width);
+      min-height: var(--category-card-height);
+      height: auto;
+      min-width: 0;
+      padding: clamp(8px, 0.8vw, 12px);
+      text-align: left;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 24px;
+      background: var(--category-gradient, linear-gradient(135deg, #4366d8 0%, #74b8ef 56%, #e39ad2 100%));
+      box-shadow: 0 22px 52px rgba(61,91,188,0.20);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      transition:
+        background 0.32s ease,
+        transform 0.32s ease,
+        box-shadow 0.32s ease;
+    }
+
+    .category::before {
+      content: counter(category-card, decimal-leading-zero);
+      position: absolute;
+      top: clamp(12px, 1.1vw, 18px);
+      right: clamp(14px, 1.25vw, 20px);
+      z-index: 2;
+      color: rgba(52,60,76,0.30);
+      font-size: clamp(26px, 2.9vw, 44px);
+      line-height: 1;
+      font-weight: 900;
+      pointer-events: none;
+    }
+
+    .category:nth-child(-n + 3) {
+      flex-basis: var(--category-focus-card-width);
+      width: var(--category-focus-card-width);
+      min-height: var(--category-focus-card-height);
+    }
+
+    .category::after {
+      content: "";
+      position: absolute;
+      right: clamp(18px, 1.7vw, 28px);
+      bottom: clamp(18px, 1.7vw, 28px);
+      width: clamp(42px, 3.8vw, 62px);
+      height: clamp(42px, 3.8vw, 62px);
+      border: 1px solid rgba(255,255,255,0.34);
+      border-radius: 50%;
+      opacity: 0.7;
+      display: none;
+      transition: transform 0.32s ease, opacity 0.32s ease;
+    }
+
+    .category:hover,
+    .category:focus-visible {
+      background: var(--category-gradient-hover, linear-gradient(135deg, #365ad0 0%, #68afeb 56%, #d98fca 100%));
+      transform: translateY(-6px);
+      box-shadow: 0 30px 74px rgba(61,91,188,0.30);
+      outline: 0;
+    }
+
+    .category:hover::after,
+    .category:focus-visible::after {
+      opacity: 1;
+      transform: scale(1.08);
+    }
+
+    .category-visual {
+      display: none;
+    }
+
+    .category-mark {
+      width: auto;
+      height: auto;
+      display: inline-block;
+      border-radius: 0;
+      color: white;
+      font-size: clamp(12px, 1vw, 15px);
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      background: transparent !important;
+      opacity: 0.78;
+    }
+
+    .live {
+      --category-gradient: linear-gradient(135deg, #0f7b5f 0%, #2fbf71 54%, #b6e27b 100%);
+      --category-gradient-hover: linear-gradient(135deg, #0b6a52 0%, #26ad66 54%, #a7d96f 100%);
+    }
+
+    .video {
+      --category-gradient: linear-gradient(135deg, #12623f 0%, #35b779 54%, #71d6b2 100%);
+      --category-gradient-hover: linear-gradient(135deg, #0e5536 0%, #2ea76d 54%, #63cda7 100%);
+    }
+
+    .notes {
+      --category-gradient: linear-gradient(135deg, #235f4b 0%, #61b86b 52%, #d0c36a 100%);
+      --category-gradient-hover: linear-gradient(135deg, #1b503e 0%, #55aa61 52%, #c5b75d 100%);
+    }
+
+    .resources-card {
+      --category-gradient: linear-gradient(135deg, #5f102a 0%, #9e173f 48%, #ef4444 100%);
+      --category-gradient-hover: linear-gradient(135deg, #4f0d23 0%, #8c1337 48%, #df3438 100%);
+    }
+
+    .forum-card {
+      --category-gradient: linear-gradient(135deg, #f0d099 0%, #d8bb75 44%, #8aae6f 100%);
+      --category-gradient-hover: linear-gradient(135deg, #e7c286 0%, #ccb065 44%, #7fa263 100%);
+    }
+
+    .vs-card {
+      --category-gradient: linear-gradient(135deg, #674420 0%, #a87935 48%, #f0bf5f 100%);
+      --category-gradient-hover: linear-gradient(135deg, #563719 0%, #95682d 48%, #e2ad4f 100%);
+    }
+
+    .about-card {
+      --category-gradient: linear-gradient(135deg, #ffb347 0%, #f7c35f 48%, #f59e0b 100%);
+      --category-gradient-hover: linear-gradient(135deg, #f7a732 0%, #efb84c 48%, #e89105 100%);
+    }
+
+    .about-card .category-badge {
+      position: absolute;
+      top: clamp(10px, 0.85vw, 15px);
+      left: clamp(12px, 1vw, 18px);
+      z-index: 4;
+      width: clamp(42px, 2.9vw, 56px);
+      height: clamp(42px, 2.9vw, 56px);
+      display: block;
+      filter: drop-shadow(0 10px 16px rgba(82,50,8,0.18));
+    }
+
+    .about-card .category-badge img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .review-card::after {
+      content: "❤️";
+      position: absolute;
+      top: clamp(11px, 0.95vw, 16px);
+      left: clamp(12px, 1vw, 18px);
+      z-index: 4;
+      width: clamp(34px, 2.7vw, 46px);
+      height: clamp(34px, 2.7vw, 46px);
+      border: 0;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,0.30);
+      box-shadow: 0 14px 30px rgba(109,74,122,0.18);
+      font-size: clamp(18px, 1.35vw, 24px);
+      line-height: 1;
+      opacity: 1;
+      transition: transform 0.32s ease, background 0.32s ease;
+    }
+
+    .review-card:hover::after,
+    .review-card:focus-visible::after {
+      transform: scale(1.08);
+      background: rgba(255,255,255,0.42);
+    }
+
+    .category-name {
+      display: block;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: none;
+      min-height: clamp(126px, 7vw, 166px);
+      margin-top: clamp(50px, 4.1vw, 70px);
+      padding: clamp(17px, 1.25vw, 23px);
+      color: #1d1d1f;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.96);
+      box-shadow: 0 14px 34px rgba(32,54,112,0.10);
+      font-size: clamp(26px, 1.48vw, 32px);
+      line-height: 1.08;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-shadow: none;
+      opacity: 1;
+      transform: none;
+      transition: opacity 0.28s ease 0.06s, transform 0.28s ease 0.06s;
+    }
+
+    .category:hover .category-name,
+    .category:focus-visible .category-name {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .offerings {
+      width: 100%;
+      padding: 28px 0 80px clamp(28px, 5vw, 132px);
+    }
+
+    .offer-section + .offer-section { margin-top: 72px; }
+
+    .offer-section {
+      scroll-margin-top: 132px;
+    }
+
+    .section-title {
+      margin: 0 0 22px;
+      padding-right: clamp(28px, 5vw, 132px);
+      font-size: clamp(36px, 3.6vw, 50px);
+      line-height: 1.15;
+      font-weight: 900;
+      color: #1d1d1f;
+    }
+
+    .section-title span { color: #0071e3; }
+
+    .offer-row-shell {
+      position: relative;
+      width: 100%;
+    }
+
+    .offer-row {
+      display: flex;
+      gap: 18px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scroll-snap-type: x proximity;
+      padding: 4px 0 18px;
+      scrollbar-width: none;
+    }
+
+    .offer-row::-webkit-scrollbar { display: none; }
+
+    .offer-card {
+      flex: 0 0 410px;
+      position: relative;
+      min-height: 565px;
+      padding: 28px;
+      border-radius: 18px;
+      overflow: hidden;
+      background:
+        radial-gradient(140% 100% at 12% 0%, rgba(129, 92, 255, 0.28), transparent 52%),
+        radial-gradient(120% 100% at 88% 16%, rgba(255, 171, 145, 0.34), transparent 56%),
+        radial-gradient(110% 95% at 46% 94%, rgba(255, 236, 205, 0.48), transparent 58%),
+        linear-gradient(135deg, rgba(255,255,255,0.94), rgba(250,244,255,0.91) 46%, rgba(255,247,239,0.93));
+      color: #1d1d1f;
+      text-decoration: none;
+      scroll-snap-align: start;
+      border: 1px solid rgba(255,255,255,0.74);
+      box-shadow: 0 12px 34px rgba(97,78,136,0.13);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .offer-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 46px rgba(111,82,166,0.22);
+    }
+
+    .offer-card.is-gold-chrome {
+      background:
+        linear-gradient(180deg,
+          #6b5b00 0%,
+          #b59200 13%,
+          #ffe875 24%,
+          #fff8c8 28%,
+          #c7a300 34%,
+          #49430d 52%,
+          #806b00 64%,
+          #f0c600 78%,
+          #fff0a1 87%,
+          #6c5d08 100%);
+      color: #fff7cc;
+      border-color: rgba(255,246,180,0.72);
+      box-shadow: 0 18px 48px rgba(128,96,0,0.30), inset 0 1px 0 rgba(255,255,255,0.52);
+      text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+
+    .offer-card.is-gold-chrome:hover {
+      box-shadow: 0 24px 62px rgba(154,118,0,0.38), inset 0 1px 0 rgba(255,255,255,0.62);
+    }
+
+    .offer-card.is-gold-chrome .offer-new,
+    .offer-card.is-gold-chrome .offer-desc,
+    .offer-card.is-gold-chrome .offer-price {
+      color: #fff8cf;
+    }
+
+    .offer-new {
+      color: #bf4800;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .offer-title {
+      margin: 0;
+      font-size: 23px;
+      line-height: 1.12;
+      font-weight: 900;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .offer-desc {
+      margin: 12px 0 0;
+      font-size: 15px;
+      line-height: 1.25;
+      font-weight: 700;
+      color: #3f3f46;
+    }
+
+    .offer-price {
+      margin: 12px 0 0;
+      font-size: 15px;
+      color: #1d1d1f;
+      font-weight: 700;
+    }
+
+    .offer-art {
+      margin-top: auto;
+      min-height: 230px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(120% 100% at 0% 0%, rgba(127,86,255,0.32), transparent 54%),
+        radial-gradient(120% 100% at 100% 10%, rgba(255,178,135,0.38), transparent 56%),
+        linear-gradient(145deg, #f6edff, #ffe7d6);
+      color: #0756d8;
+      font-size: 34px;
+      font-weight: 900;
+      overflow: hidden;
+    }
+
+    .offer-card.is-gold-chrome .offer-art {
+      background:
+        linear-gradient(180deg, #493f00 0%, #ffe24f 26%, #fff8bd 32%, #594d00 54%, #e9be00 82%, #655600 100%);
+      color: #fff7c4;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.48), inset 0 -28px 50px rgba(0,0,0,0.22);
+    }
+
+    .offer-art.has-image { background: #fff; }
+
+    .offer-art.has-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      background: #fff;
+    }
+
+    .carousel-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 52px;
+      height: 52px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(210,210,215,0.9);
+      color: #5f6368;
+      font-size: 42px;
+      line-height: 1;
+      cursor: none;
+      z-index: 5;
+    }
+
+    .carousel-button:hover { background: rgba(185,185,190,0.95); }
+
+    .carousel-button.prev { left: -18px; }
+    .carousel-button.next { right: 24px; }
+    .carousel-button[hidden] { display: none; }
+
+    .student-comments {
+      position: relative;
+      width: 100%;
+      padding: 48px clamp(22px, 5vw, 132px) 120px;
+      overflow: hidden;
+      scroll-margin-top: 126px;
+    }
+
+    .student-comments-heading {
+      max-width: 960px;
+      margin: 0 0 72px;
+    }
+
+    .student-comments-heading h2 {
+      margin: 0;
+      font-size: clamp(36px, 5vw, 70px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+      color: #1d1d1f;
+    }
+
+    .student-comments-heading p {
+      margin: 18px 0 0;
+      font-size: clamp(18px, 2vw, 26px);
+      line-height: 1.24;
+      font-weight: 800;
+      color: #0071e3;
+    }
+
+    .student-comments-list {
+      display: grid;
+      gap: clamp(48px, 7vw, 92px);
+      overflow: hidden;
+      padding: 6px 0 24px;
+    }
+
+    .student-comment-row {
+      display: flex;
+      width: 100%;
+    }
+
+    .student-comment-row.from-left { justify-content: flex-start; }
+    .student-comment-row.from-right { justify-content: flex-end; }
+
+    .student-comment-card {
+      width: min(820px, calc(100vw - 44px));
+      border-radius: 38px;
+      padding: 8px;
+      background:
+        radial-gradient(130% 90% at 12% 2%, rgba(58, 88, 199, 0.96), transparent 58%),
+        radial-gradient(120% 100% at 46% 6%, rgba(118, 201, 246, 0.96), transparent 58%),
+        radial-gradient(120% 105% at 76% 8%, rgba(244, 180, 222, 0.95), transparent 62%),
+        radial-gradient(115% 115% at 100% 0%, rgba(205, 74, 145, 0.98), transparent 64%),
+        linear-gradient(115deg, #4257c5 0%, #82d0f5 38%, #f2b4dd 70%, #cc4f99 100%);
+      box-shadow: 0 28px 68px rgba(59, 77, 162, 0.24);
+      opacity: 0;
+      will-change: transform, opacity;
+      transition: transform 0.9s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.65s ease;
+    }
+
+    .student-comment-row.from-left .student-comment-card {
+      transform: translateX(calc(-100vw - 120px));
+    }
+
+    .student-comment-row.from-right .student-comment-card {
+      transform: translateX(calc(100vw + 120px));
+    }
+
+    .student-comment-row .student-comment-card.is-visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .student-comment-header {
+      min-height: 82px;
+      padding: 18px 22px 18px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      color: white;
+    }
+
+    .student-comment-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+      font-size: clamp(18px, 2vw, 27px);
+      line-height: 1.1;
+      font-weight: 900;
+      letter-spacing: 0.01em;
+      text-transform: none;
+      text-shadow: 0 2px 12px rgba(17, 28, 92, 0.24);
+    }
+
+    .student-comment-spark {
+      width: 26px;
+      height: 26px;
+      flex: 0 0 auto;
+      display: inline-grid;
+      place-items: center;
+      border-radius: 50%;
+      border: 2px dotted rgba(255,255,255,0.74);
+      font-size: 14px;
+      animation: commentSpark 1.5s linear infinite;
+    }
+
+    @keyframes commentSpark {
+      to { transform: rotate(360deg); }
+    }
+
+    .student-comment-heart {
+      width: 48px;
+      height: 48px;
+      flex: 0 0 auto;
+      border: 0;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,0.26);
+      color: white;
+      font-size: 24px;
+      cursor: none;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.42), 0 10px 22px rgba(124, 54, 121, 0.24);
+      backdrop-filter: blur(10px);
+    }
+
+    .student-comment-body {
+      border-radius: 34px;
+      padding: clamp(18px, 3vw, 28px);
+      background: rgba(255,255,255,0.96);
+      box-shadow: inset 0 -2px 0 rgba(0,0,0,0.06);
+    }
+
+    .student-comment-image-wrap {
+      display: grid;
+      place-items: center;
+      overflow: visible;
+    }
+
+    .student-comment-image-wrap img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      border-radius: 18px;
+      background: #fff;
+      box-shadow: 0 14px 34px rgba(0,0,0,0.12);
+    }
+
+    .student-comment-emojis {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 22px;
+    }
+
+    .student-comment-emoji {
+      min-width: 68px;
+      padding: 12px 20px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255,255,255,0.94);
+      border: 1px solid rgba(0,0,0,0.08);
+      box-shadow: 0 8px 18px rgba(58, 88, 199, 0.10);
+      font-size: 24px;
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.42s ease 0.5s, transform 0.42s ease 0.5s;
+    }
+
+    .student-comment-card.is-visible.image-loaded .student-comment-emoji {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .student-comments-final {
+      min-height: 70vh;
+      display: grid;
+      place-items: center;
+      padding: 110px 0 40px;
+      text-align: center;
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+
+    .student-comments-final.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .student-comments-final p {
+      margin: 0;
+      max-width: 1120px;
+      font-size: clamp(34px, 5vw, 72px);
+      line-height: 1.12;
+      font-weight: 900;
+      letter-spacing: 0;
+      color: #1d1d1f;
+    }
+
+    .student-comments-final span {
+      display: block;
+    }
+
+    .student-comments-final .final-emphasis {
+      margin-top: 0.08em;
+      font-size: 1.2em;
+      line-height: 1.04;
+    }
+
+    @media (max-width: 1100px) {
+      .company-logo { width: min(330px, 30vw); }
+      h1 { max-width: 660px; }
+    }
+
+    @media (max-width: 1500px) {
+      .social-links {
+        flex-wrap: wrap;
+      }
+    }
+
+    @media (max-width: 760px) {
+      html, body, a, button { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .topbar {
+        height: 88px;
+        min-height: 88px;
+      }
+
+      .topbar-inner {
+        padding: 12px 22px;
+        align-items: center;
+      }
+
+      .brand img {
+        height: 62px;
+        max-width: 210px;
+      }
+
+      .header-title-image {
+        display: none;
+      }
+
+      .topnav {
+        max-width: 58vw;
+        gap: 18px;
+      }
+
+      .store {
+        min-height: 0;
+        padding: 46px 0 34px 22px;
+      }
+
+      .hero-row {
+        max-width: none;
+        padding-right: 22px;
+      }
+
+      .social-links {
+        margin-top: 24px;
+        gap: 14px;
+      }
+
+      .social-link {
+        width: auto;
+        height: auto;
+        border-radius: 22px;
+      }
+
+      .social-link img {
+        max-width: 58px;
+        max-height: 58px;
+      }
+
+      .social-link.carousell {
+        width: auto;
+      }
+
+      .social-link.carousell img {
+        max-width: 112px;
+        max-height: 40px;
+      }
+
+      .company-logo {
+        position: static;
+        width: min(325px, 85vw);
+        margin-top: 34px;
+      }
+
+      .category-strip {
+        width: calc(100vw - 44px);
+        gap: 18px;
+        margin-top: 52px;
+      }
+
+      .category,
+      .category:hover,
+      .category:focus-visible {
+        flex-basis: 100%;
+        width: 100%;
+        max-width: none;
+        min-height: 200px;
+        height: auto;
+        transform: none;
+      }
+
+      .category-visual {
+        width: auto;
+        height: auto;
+      }
+
+      .category-mark {
+        width: auto;
+        height: auto;
+        font-size: 13px;
+      }
+
+      .offerings {
+        padding: 18px 0 54px 22px;
+      }
+
+      .section-title {
+        padding-right: 22px;
+        font-size: clamp(32px, 9vw, 42px);
+      }
+
+      .category-name {
+        min-height: 0;
+        font-size: clamp(22px, 6vw, 30px);
+        opacity: 1;
+        transform: none;
+      }
+
+      .offer-card {
+        flex-basis: 82vw;
+        min-height: 490px;
+      }
+
+      .offer-art { min-height: 190px; }
+
+      .carousel-button {
+        width: 44px;
+        height: 44px;
+        font-size: 34px;
+      }
+
+      .carousel-button.prev { left: -8px; }
+      .carousel-button.next { right: 12px; }
+
+      .student-comments {
+        padding: 32px 16px 74px;
+      }
+
+      .student-comments-heading {
+        margin-bottom: 44px;
+      }
+
+      .student-comments-list {
+        gap: 42px;
+      }
+
+      .student-comment-card {
+        width: calc(100vw - 32px);
+        border-radius: 28px;
+      }
+
+      .student-comment-header {
+        min-height: 70px;
+        padding: 14px 14px 14px 18px;
+      }
+
+      .student-comment-label {
+        gap: 10px;
+        font-size: 17px;
+      }
+
+      .student-comment-spark {
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+      }
+
+      .student-comment-heart {
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+        cursor: auto;
+      }
+
+      .student-comment-body {
+        border-radius: 24px;
+      }
+
+      .student-comment-image-wrap img {
+        border-radius: 14px;
+      }
+
+      .student-comments-final {
+        min-height: 56vh;
+        padding-top: 70px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
 </head>
+
 <body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
 
-    <!-- --- THE MENU BAR --- -->
-    <nav>
-        <a href="about.html">About Edmund Sir</a>
-        <a href="contact.html">Contact Edmund Sir here directly</a>
-        <!-- This link points to the new file we will create called cre.html -->
-        <a href="cre.html">香港公務員綜合招聘考試CRE 英文運用測試 備試課程</a>
-    </nav>
+  <div class="video-background" aria-hidden="true">
+    <video class="bg-video is-active" muted playsinline preload="none"></video>
+    <video class="bg-video" muted playsinline preload="none"></video>
+  </div>
 
-    <!-- --- THE IMAGES --- -->
-    <img src="Image1.jpg" alt="Image 1">
-    <img src="Image2.jpg" alt="Image 2">
-    <img src="Image3.jpg" alt="Image 3">
-    <img src="Image4.jpg" alt="Image 4">
-    <img src="Image5.jpg" alt="Image 5">
-    <img src="Image6.jpg" alt="Image 6">
-    <img src="Image7.jpg" alt="Image 7">
-    <img src="Image8.jpg" alt="Image 8">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand brand-left" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
 
-    <!-- --- THE MAGIC LOGIC (Script) --- -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, { threshold: 0.1 });
+      <img class="header-title-image" src="Static Images/Header Title.jpg" alt="" aria-hidden="true">
 
-            const images = document.querySelectorAll('img');
-            images.forEach(img => {
-                observer.observe(img);
-            });
+      <nav class="topnav">
+        <a href="cre.html">真人英文課程</a>
+        <a href="recorded.html">錄影班</a>
+        <a href="notes.html">英文筆記</a>
+        <a href="resources.html">免費資源</a>
+        <a href="forum.html">英文討論區</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="store">
+      <div class="hero-row">
+        <h1>Edmund 英文學習平台</h1>
+        <img class="company-logo" src="Company Logo for Cover Page.png" alt="EdmundEducation company logo">
+        <div class="social-links" aria-label="EdmundEducation social links">
+          <a class="social-link carousell" href="https://carousell.app.link/g2jaZvmwM2b" target="_blank" rel="noopener" aria-label="Carousell">
+            <img src="Static Images/1. Carousell Link Logo.png" alt="Carousell">
+          </a>
+          <a class="social-link" href="https://www.instagram.com/edmundeducationedu?igsh=MXhlc3FqbjBxYzIw&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="Static Images/2. Instagram Link Logo.png" alt="Instagram">
+          </a>
+          <a class="social-link" href="https://www.youtube.com/@learnenglishforfreehongkong" target="_blank" rel="noopener" aria-label="YouTube">
+            <img src="Static Images/3. YouTube Link Logo.png" alt="YouTube">
+          </a>
+        </div>
+      </div>
+
+      <div class="category-strip">
+        <a class="category live" href="#latest-courses">
+          <span class="category-name">Edmund<br>真人英文課程</span>
+        </a>
+
+        <a class="category video" href="recorded.html">
+          <span class="category-name">Edmund<br>英文課程錄影班</span>
+        </a>
+
+        <a class="category notes" href="#notes-shop">
+          <span class="category-name">Edmund<br>英文筆記售賣</span>
+        </a>
+
+        <span class="category-row-break" aria-hidden="true"></span>
+
+        <a class="category resources-card" href="resources.html">
+          <span class="category-name">Edmund 隨筆 /<br>免費英文學習<br>資源站</span>
+        </a>
+
+        <a class="category forum-card" href="forum.html">
+          <span class="category-name">英文討論區</span>
+        </a>
+
+        <a class="category about-card" href="about.html">
+          <span class="category-badge" aria-hidden="true">
+            <img src="Static Images/HKU Logo.png" alt="">
+          </span>
+          <span class="category-name">關於 Edmund Sir<br>導師介紹及經驗</span>
+        </a>
+
+        <a class="category vs-card" href="vs.html">
+          <span class="category-name">為何 Edmund Sir 英文補習比其他補習社更幫到您？</span>
+        </a>
+
+        <a class="category review-card" href="#student-reviews">
+          <span class="category-name">用家實證！<br>學生主動寫給<br>Edmund Sir<br>的評價</span>
+        </a>
+
+        <a class="category" href="exam-resources.html">
+          <span class="category-name">IELTS (雅思),<br>DSE 英文文憑試,<br>CRE 公務員英考<br>備試資源站！</span>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="offerings" data-offering-sections></section>
+
+    <section class="student-comments" id="student-reviews" data-student-comments-section>
+      <div class="student-comments-heading">
+        <h2>用家實證！</h2>
+        <p>學生主動寫給 Edmund Sir 的評價</p>
+      </div>
+
+      <div class="student-comments-list" data-student-comments></div>
+
+      <div class="student-comments-final" data-student-comments-final>
+        <p>
+          <span>老師有冇用心，</span>
+          <span>盡職盡責，</span>
+          <span class="final-emphasis">學生內心是會feel到的!</span>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const offerings = [
+      { id: "ielts-two", group: ["ielts"], title: "#救得一個得一個！二人同行優惠｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$310", type: "IELTS", image: "IELTS 2 People/1.jpg", videoSet: "ieltsTwoPeople" },
+      { id: "ielts-three", group: ["ielts"], title: "#救得一個得一個！三人同行超減班｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$290", type: "IELTS", image: "IELTS 3 People/1.jpg", videoSet: "ieltsThreePeople" },
+      { id: "ielts-four", group: ["ielts"], title: "#救得一個得一個！四人開團價｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$270", type: "IELTS", image: "IELTS 4 PEOPLE/1.jpg", videoSet: "ieltsFourPeople" },
+      { id: "dse-reading-notes", group: ["dse"], title: "DSE 英文閱讀卷超詳盡拆題筆記｜解題分析", desc: "適合英文老師、奪星學生、自修生", price: "$370", type: "DSE", image: "DSE Reading Notes/1.jpg", videoSet: "dseReadingNotes" },
+      { id: "ielts-five-plus", group: ["ielts"], title: "#救得一個得一個！五人或以上成班價｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$250", type: "IELTS", image: "IELTS 5 PEOPLE/1.jpg", videoSet: "ieltsFivePeople" },
+      { id: "ielts-two-subjects", group: ["ielts"], title: "#救得一個得一個！四科任揀二｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$320", type: "IELTS", image: "IELTS Four Choose Two/1.jpg", videoSet: "ieltsFourChooseTwo" },
+      { id: "ielts-three-coupons", group: ["ielts"], title: "#救得一個得一個！四份券，任揀三｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$340", type: "IELTS", image: "IELTS Four Choose Three/1.jpg", videoSet: "ieltsFourChooseThree" },
+      { id: "adult-english", group: ["regular"], title: "成人英語進修補習班", desc: "適合大專生、打工仔", price: "$500", type: "Adult", image: "Premium Class/1.jpg", videoSet: "premium" },
+      { id: "ielts-writing-task-2", group: ["ielts"], title: "#彈性練習救時間！IELTS Writing Task 2 專注課程", desc: "IELTS 寫作專項", price: "$270", type: "Writing", image: "IETLS 純Writing Task 2班/1.jpg", videoSet: "ieltsWritingTask2" },
+      { id: "ielts-writing-task-1", group: ["ielts"], title: "#彈性練習救時間！IELTS Writing Task 1 專注課程", desc: "IELTS 寫作專項", price: "$270", type: "Writing", image: "IETLS 純Writing Task 1班/1.jpg", videoSet: "ieltsWritingTask1" },
+      { id: "cre-course", group: ["vocational"], title: "香港公務員綜合招聘考試 CRE 英文運用測試備試課程", desc: "CRE English Use of English", price: "$370", type: "CRE", image: "CRE Course/1.jpg", videoSet: "cre" },
+      { id: "dse-writing-2024-q5", group: ["dse"], title: "DSE 英文作文獨立解堂｜2024 Q5「100,000 Likes Overnight」", desc: "範文全剖析", price: "$350", type: "DSE", image: "DSE 2024 Q5 Individual Writing Question Note/1.jpg", videoSet: "dseWriting" },
+      { id: "dse-writing-2025-q3", group: ["dse"], title: "DSE 英文作文獨立解堂｜2025 Q3「Restaurant × Tutorial Lessons」", desc: "範文全剖析", price: "$350", type: "DSE", image: "DSE 2025 Q3 Individual Writing Question Note/1.jpg", videoSet: "dseWriting" },
+      { id: "ielts-emergency", group: ["ielts"], title: "#救得一個得一個｜IELTS 緊急補底班", desc: "專教成人英語｜免費45分鐘試堂", price: "$370", type: "IELTS", image: "IELTS 緊急補底班/1.jpg", videoSet: "ieltsEmergency" },
+      { id: "ielts-speaking", group: ["ielts"], title: "IELTS Speaking 純技巧班", desc: "IELTS 口說專項", price: "$290", type: "Speaking", image: "IETLS 純SPEAKING班/1.jpg", videoSet: "ieltsSpeakingOnly" },
+      { id: "ielts-writing", group: ["ielts"], title: "IELTS 純 Writing 班", desc: "IELTS 寫作專項", price: "$290", type: "Writing", image: "IETLS 純Writing班/1.jpg", videoSet: "ieltsWritingOnly" },
+      { id: "ielts-reading", group: ["ielts"], title: "IELTS 純 Reading 班", desc: "IELTS 閱讀專項", price: "$290", type: "Reading", image: "IETLS 純READING班/1.jpg", videoSet: "ieltsReadingOnly" },
+      { id: "ielts-listening", group: ["ielts"], title: "IELTS 純 Listening 班", desc: "IELTS 聆聽專項", price: "$290", type: "Listening", image: "IETLS 純Listening班/1.jpg", videoSet: "ieltsListeningOnly" },
+      { id: "ielts-easy", group: ["ielts"], title: "IELTS 輕鬆學班｜成人英語", desc: "免費45分鐘試堂", price: "$290", type: "IELTS", image: "IELTS Relax Class/1.jpg", videoSet: "ieltsRelax" },
+      { id: "clinic-assistant-english", group: ["vocational"], title: "診所助理專業英文課程", desc: "職場英語服務系列", price: "$350", type: "Clinic", image: "Clinic Nurse Course/1.jpg", videoSet: "clinic" },
+      { id: "dental-assistant-english", group: ["vocational"], title: "牙醫診所助理專業英文課程", desc: "職場英語服務系列", price: "$350", type: "Dental", image: "Dental Nurse English Course/1.jpg", videoSet: "dental" },
+      { id: "pilates-yoga-english", group: ["vocational"], title: "Pilates / 瑜伽教練專業英文培訓課程", desc: "職場英語服務系列", price: "$350", type: "Pilates", image: "Pilates Yoga English Course/1.jpg", videoSet: "pilates" },
+      { id: "fitness-trainer-english", group: ["vocational"], title: "健身教練 PT 專業英文課程", desc: "職場英語服務系列", price: "$350", type: "Fitness", image: "Fitness Coach English Course/1.jpg", videoSet: "fitness" },
+      { id: "cabin-crew-english", group: ["vocational"], title: "機艙服務員專業英文培訓", desc: "職場英語服務系列", price: "$350", type: "Cabin", image: "Flight Attendant English Course/1.jpg", videoSet: "flight" },
+      { id: "sommelier-english", group: ["vocational"], title: "Sommelier / 品酒師專業英文提升課程", desc: "職場英語服務系列", price: "$350", type: "Wine", image: "%20Sommerlier%20English%20Course/1.jpg", videoSet: "sommelier" },
+      { id: "retail-sales-english", group: ["vocational"], title: "專業零售 Sales 英文課程", desc: "職場英語服務系列", price: "$350", type: "Sales", image: "Sales English Course /1.jpg", videoSet: "sales" },
+      { id: "manager-english", group: ["vocational"], title: "Manager 管理層專業英文課程", desc: "職場英語服務系列", price: "$350", type: "Manager", image: "Management English Course /1.jpg", videoSet: "management" },
+      { id: "reading-speed", group: ["regular"], title: "純 Reading 加速班｜成人英文輔導班", desc: "Reading 速度及理解訓練", price: "$320", type: "Reading", image: "Reading Course Images/1.jpg", videoSet: "reading" },
+      { id: "american-accent", group: ["regular"], title: "American Accent 美式口音重點培訓課程", desc: "英語口音訓練", price: "$250", type: "Accent", image: "American Accent Course/1.jpg", videoSet: "americanAccent" },
+      { id: "grammar-course", group: ["regular"], title: "純 Grammar 文法進修補習班", desc: "適合大專生、打工仔", price: "$300", type: "Grammar", image: "Grammar Class/1.jpg", videoSet: "grammar" },
+      { id: "british-accent", group: ["regular"], title: "全港唯一 1v1 英式口音課程", desc: "British Accent 英式口音訓練", price: "$250", type: "British", image: "British Accent Course/1.jpg", videoSet: "britishAccent" },
+      { id: "italian-course", group: ["regular"], title: "Edmund Sir 意大利文 1對1「全包」課程", desc: "Zoom 一對一課程", price: "$300", type: "Italian", image: "Italian Class/1.jpg", videoSet: "italian" }
+    ];
+
+    function pickOfferings(ids) {
+      return ids.map(id => offerings.find(item => item.id === id)).filter(Boolean);
+    }
+
+    const rowConfigs = [
+      { id: "latest-courses", title: "<span>最新課程! </span>即刻睇下 Edmund 有咩新 Course 啱您~~！", items: offerings },
+      { title: "<span>最熱賣! </span>IELTS 系列", items: offerings.filter(item => item.group.includes("ielts")) },
+      { title: "<span>職業英文訓練系列！</span>幫忙打工仔，老細有自信用英文～", items: offerings.filter(item => item.group.includes("vocational")) },
+      { title: "<span>DSE 中學文憑試</span>英文課程系列", items: offerings.filter(item => item.group.includes("dse")) },
+      { title: "<span>常規英文課程</span>", items: offerings.filter(item => item.group.includes("regular")) },
+      {
+        id: "notes-shop",
+        title: "<span>不上堂也可享受 Edmund 課程！</span> 英文筆記售賣區",
+        randomize: false,
+        items: pickOfferings(["dse-writing-2024-q5", "dse-writing-2025-q3", "dse-reading-notes"])
+      }
+    ];
+
+    const studentCommentFiles = [
+      "Student's Comments/Comment 1 form Student H.png",
+      "Student's Comments/Comment 2 from Student T.png",
+      "Student's Comments/Comment 3 From Student Z.png",
+      "Student's Comments/Comment 4 from Parent G.png",
+      "Student's Comments/Comment 5 from Student X.png",
+      "Student's Comments/Comment 6 from Parent J.png",
+      "Student's Comments/Comment 7 from Parent M.png",
+      "Student's Comments/Comment 8 from Student Y.png",
+      "Student's Comments/Comment 9 from Student P.png",
+      "Student's Comments/Comment 10 from Parent B.png",
+      "Student's Comments/Comment 11 from Student MM.png",
+      "Student's Comments/Comment 12 from Student Z.png",
+      "Student's Comments/Comment 13 from Student O.png",
+      "Student's Comments/Comment 14 from Parent S.png",
+      "Student's Comments/Comment 15 from Parent HH.png",
+      "Student's Comments/Comment 16 from Parent E (Immigrated).png",
+      "Student's Comments/Comment 17 from Student A.png",
+      "Student's Comments/Comment 18 from Student A.png",
+      "Student's Comments/Comment 19 from Student A.png",
+      "Student's Comments/Comment 20 from Student J.png",
+      "Student's Comments/Comment 21 from Student W.png",
+      "Student's Comments/Comment 22 from Parent D.png",
+      "Student's Comments/Comment 23 from Parent F.png"
+    ];
+
+    const studentCommentEmojis = [
+      "🤍",
+      "❤️",
+      "🤗",
+      "🫶🏻",
+      "👍🏻",
+      "👏🏻",
+      "🙏🏻",
+      "💯",
+      "✨ 🌟",
+      "💪🏻",
+      "🔥",
+      "🚀",
+      "☺️",
+      "😊",
+      "🥺",
+      "😇",
+      "😳"
+    ];
+
+    function hourlyPrice(price) {
+      return price.includes("|") ? price : `${price} | 小時`;
+    }
+
+    function shuffle(items) {
+      const copy = [...items];
+      for (let i = copy.length - 1; i > 0; i--) {
+        const randomIndex = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[randomIndex]] = [copy[randomIndex], copy[i]];
+      }
+      return copy;
+    }
+
+    function escapeHtml(value) {
+      return String(value).replace(/[&<>"']/g, character => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        "\"": "&quot;",
+        "'": "&#039;"
+      }[character]));
+    }
+
+    function studentCommentLabel(file) {
+      const filename = file.split("/").pop().replace(/\.[^.]+$/, "");
+      const numberMatch = filename.match(/Comment\s+(\d+)/i);
+      const sourceMatch = filename.match(/(?:from|form)\s+(.+)$/i);
+      const number = numberMatch ? numberMatch[1] : "";
+      const source = sourceMatch ? sourceMatch[1] : filename;
+      const translatedSource = source
+        .replace(/^Student\b/i, "學生")
+        .replace(/^Parent\b/i, "家長")
+        .replace(/\(Immigrated\)/i, "(已移民)");
+
+      return number ? `評價 #${number} - ${translatedSource}` : `評價 - ${translatedSource}`;
+    }
+
+    function commentEmojiChips() {
+      return shuffle(studentCommentEmojis).slice(0, 2).map(emoji => `
+        <span class="student-comment-emoji" aria-hidden="true">${escapeHtml(emoji)}</span>
+      `).join("");
+    }
+
+    function renderStudentComments() {
+      const section = document.querySelector("[data-student-comments-section]");
+      const container = document.querySelector("[data-student-comments]");
+      if (!section || !container) return;
+
+      if (!studentCommentFiles.length) {
+        section.hidden = true;
+        return;
+      }
+
+      container.innerHTML = studentCommentFiles.map((file, index) => {
+        const direction = index % 2 === 0 ? "from-left" : "from-right";
+        const label = studentCommentLabel(file);
+
+        return `
+          <div class="student-comment-row ${direction}">
+            <article class="student-comment-card" data-student-comment-card>
+              <header class="student-comment-header">
+                <span class="student-comment-label">
+                  <span class="student-comment-spark" aria-hidden="true"></span>
+                  <span>${escapeHtml(label)}</span>
+                </span>
+                <button class="student-comment-heart" type="button" aria-label="Love this review">❤️</button>
+              </header>
+              <div class="student-comment-body">
+                <div class="student-comment-image-wrap">
+                  <img src="${escapeHtml(file)}" alt="${escapeHtml(label)}">
+                </div>
+                <div class="student-comment-emojis" aria-label="Student reaction emojis">
+                  ${commentEmojiChips()}
+                </div>
+              </div>
+            </article>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function setupStudentCommentMotion() {
+      const cards = document.querySelectorAll("[data-student-comment-card]");
+      const rows = document.querySelectorAll(".student-comment-row");
+      const finalMessage = document.querySelector("[data-student-comments-final]");
+      if (!cards.length && !finalMessage) return;
+
+      cards.forEach(card => {
+        const image = card.querySelector("img");
+        if (!image) return;
+
+        if (image.complete) {
+          card.classList.add("image-loaded");
+        } else {
+          image.addEventListener("load", () => card.classList.add("image-loaded"), { once: true });
+        }
+      });
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          const card = entry.target.matches("[data-student-comment-card]")
+            ? entry.target
+            : entry.target.querySelector("[data-student-comment-card]");
+          const target = card || entry.target;
+
+          target.classList.toggle("is-visible", entry.isIntersecting);
         });
-    </script>
+      }, {
+        threshold: 0.28,
+        rootMargin: "0px 0px -8% 0px"
+      });
 
+      rows.forEach(row => observer.observe(row));
+      if (finalMessage) observer.observe(finalMessage);
+    }
+
+    function createOfferCard(item) {
+      const videoAttribute = item.videoSet ? ` data-video-set="${item.videoSet}"` : "";
+      const cardClass = item.id === "adult-english" ? "offer-card is-gold-chrome" : "offer-card";
+      const art = item.image
+        ? `<div class="offer-art has-image"><img src="${item.image}" alt="${item.title}"></div>`
+        : `<div class="offer-art">${item.type}</div>`;
+
+      return `
+        <a class="${cardClass}" href="course.html?id=${item.id}"${videoAttribute}>
+          <span class="offer-new">NEW</span>
+          <h3 class="offer-title">${item.title}</h3>
+          <p class="offer-desc">${item.desc}</p>
+          <p class="offer-price">${hourlyPrice(item.price)}</p>
+          ${art}
+        </a>
+      `;
+    }
+
+    function renderOfferSections() {
+      const container = document.querySelector("[data-offering-sections]");
+      if (!container) return;
+
+    container.innerHTML = rowConfigs.map((row, index) => {
+      const sectionId = row.id ? ` id="${row.id}"` : "";
+      const rowItems = row.randomize === false ? row.items : shuffle(row.items);
+
+      return `
+      <section class="offer-section"${sectionId}>
+        <h2 class="section-title">${row.title}</h2>
+        <div class="offer-row-shell" data-carousel-shell>
+          <button class="carousel-button prev" type="button" data-carousel-prev aria-label="Previous offerings">‹</button>
+          <div class="offer-row" data-offering-row="${index}">
+            ${rowItems.map(createOfferCard).join("")}
+          </div>
+          <button class="carousel-button next" type="button" data-carousel-next aria-label="Next offerings">›</button>
+        </div>
+      </section>
+    `;
+    }).join("");
+  }
+
+    function setupCarousels() {
+      document.querySelectorAll("[data-carousel-shell]").forEach(shell => {
+        const row = shell.querySelector(".offer-row");
+        const prev = shell.querySelector("[data-carousel-prev]");
+        const next = shell.querySelector("[data-carousel-next]");
+
+        if (!row || !prev || !next) return;
+
+        function scrollAmount() {
+          return Math.min(row.clientWidth * 0.85, 920);
+        }
+
+        function updateButtons() {
+          prev.hidden = row.scrollLeft < 20;
+          next.hidden = row.scrollLeft + row.clientWidth >= row.scrollWidth - 20;
+        }
+
+        prev.addEventListener("click", () => row.scrollBy({ left: -scrollAmount(), behavior: "smooth" }));
+        next.addEventListener("click", () => row.scrollBy({ left: scrollAmount(), behavior: "smooth" }));
+        row.addEventListener("scroll", updateButtons);
+        window.addEventListener("resize", updateButtons);
+        updateButtons();
+      });
+    }
+
+    const videoSets = {
+      hongKong: {
+        sources: ["Hong Kong 4 - Order 1.mp4", "Hong Kong 3 - Order 2 .mp4", "Hong Kong 1 - Order 3.mp4", "Hong Kong 9 - Order 4.mp4"],
+        opacity: "0.38",
+        cover: "rgba(245,245,247,0.50)"
+      },
+      horse: {
+        sources: ["Horse Video 1 - Order 1.mp4", "Horse Video 2 - Order 2.mp4", "Horse Video 3 - Order 3.mp4", "Horse Video 4 - Order 4.mp4", "Horse Video 5 - Order 5.mp4"],
+        opacity: "0.48",
+        cover: "rgba(245,245,247,0.38)"
+      },
+      reading: {
+        sources: ["Reading 16.mp4"],
+        opacity: "0.52",
+        cover: "rgba(245,245,247,0.34)"
+      },
+      pilates: {
+        sources: ["Pilates Video 1 - Order 1.mp4", "Pilates Video 2 - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      cre: {
+        sources: ["CRE Video - Order 1.mp4", "CRE Video - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      flight: {
+        sources: ["Flight Attendant - Order 1.mp4", "Flight Attendant - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      dental: {
+        sources: ["Dental Video - Order 1.mp4", "Dental Video - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      fitness: {
+        sources: ["Gym video - Order 1.mp4", "Gym video - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      sales: {
+        sources: ["Sales English - Order 1.mp4", "Sales English - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      management: {
+        sources: ["Management English Course - Order 1.mp4", "Management English Course - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      clinic: {
+        sources: ["Clinic Nurse - Order 1.mp4", "Clinic Nurse - Order 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      sommelier: {
+        sources: ["Sommerlier English - Order 1.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsTwoPeople: {
+        sources: ["IELTS 2 People Video.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsThreePeople: {
+        sources: ["IELTS 3 People Video.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsFourPeople: {
+        sources: ["IELTS 4 People Video.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsFourChooseThree: {
+        sources: ["IELTS 4 People Video.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsFourChooseTwo: {
+        sources: ["IELTS 2 People Video.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsFivePeople: {
+        sources: ["IELTS 5 People Video.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsEmergency: {
+        sources: ["IELTS 1 Person.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsReadingOnly: {
+        sources: ["IELTS - Just Reading.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsSpeakingOnly: {
+        sources: ["IELTS - Just Speaking.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsWritingOnly: {
+        sources: ["IELTS - Just Writing.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsWritingTask1: {
+        sources: ["IELTS - Just Writing - Task 1.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsWritingTask2: {
+        sources: ["IELTS Just Writing - Task 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsListeningOnly: {
+        sources: ["IELTS Just listening.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      ieltsRelax: {
+        sources: ["IELTS Relax Class - Video 1.mp4", "IELTS Relax Class - Video 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      dseWriting: {
+        sources: ["All DSE Writing.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      dseReadingNotes: {
+        sources: ["DSE Reading Notes Video.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      premium: {
+        sources: ["Premium Course - Video 1.mp4", "Premium Course - Video 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      americanAccent: {
+        sources: ["American Accent Video 1.mp4", "American Accent Video 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      italian: {
+        sources: ["Italy 13 - Video 1.mp4", "Italy 25 - Video 2.mp4", "Italy 22 - Video 3.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      britishAccent: {
+        sources: ["British Accent - Video 1.mp4", "British Accent - Video 2.mp4", "British Accent - Video 3.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      },
+      grammar: {
+        sources: ["Grammar Video 1.mp4", "Grammar Video 2.mp4"],
+        opacity: "0.80",
+        cover: "rgba(245,245,247,0.20)"
+      }
+    };
+
+    const bgVideos = Array.from(document.querySelectorAll(".bg-video"));
+    let activeBgVideoIndex = 0;
+    let currentVideoSet = null;
+    let currentVideoIndex = 0;
+    let videosAreEnabled = false;
+
+    function shouldUseLightweightVideoMode() {
+      const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      const effectiveType = connection?.effectiveType || "";
+      const isMobileLike = window.matchMedia("(max-width: 900px), (hover: none), (pointer: coarse)").matches;
+      const isSlowConnection = ["slow-2g", "2g", "3g"].includes(effectiveType);
+      const isCellular = connection?.type === "cellular";
+
+      return Boolean(connection?.saveData || isMobileLike || isSlowConnection || isCellular);
+    }
+
+    const useLightweightVideoMode = shouldUseLightweightVideoMode();
+
+    if (useLightweightVideoMode) {
+      document.documentElement.classList.add("video-light-mode");
+    }
+
+    function canUseBackgroundVideo() {
+      return !useLightweightVideoMode && bgVideos.length;
+    }
+
+    function enableBackgroundVideos() {
+      if (!canUseBackgroundVideo()) return false;
+      if (!videosAreEnabled) {
+        videosAreEnabled = true;
+        document.documentElement.classList.add("video-enabled");
+      }
+      return true;
+    }
+
+    function setVideoStrength(set) {
+      document.documentElement.style.setProperty("--video-opacity", set.opacity);
+      document.documentElement.style.setProperty("--video-cover", set.cover);
+    }
+
+    function playBackgroundSource(src) {
+      if (!enableBackgroundVideos()) return;
+
+      const currentVideo = bgVideos[activeBgVideoIndex];
+      const hasCurrentSource = Boolean(currentVideo.getAttribute("src"));
+      const nextIndex = hasCurrentSource ? 1 - activeBgVideoIndex : activeBgVideoIndex;
+      const nextVideo = bgVideos[nextIndex];
+
+      nextVideo.src = src;
+      nextVideo.currentTime = 0;
+      nextVideo.load();
+
+      const playPromise = nextVideo.play();
+      if (playPromise) playPromise.catch(() => {});
+
+      nextVideo.classList.add("is-active");
+
+      if (nextVideo !== currentVideo) {
+        currentVideo.classList.remove("is-active");
+      }
+
+      activeBgVideoIndex = nextIndex;
+    }
+
+    function switchVideoSet(name) {
+      if (!canUseBackgroundVideo()) return;
+      if (currentVideoSet === name) return;
+
+      const set = videoSets[name];
+      if (!set) return;
+
+      currentVideoSet = name;
+      currentVideoIndex = 0;
+      setVideoStrength(set);
+      playBackgroundSource(set.sources[currentVideoIndex]);
+    }
+
+    function scheduleInitialBackgroundVideo() {
+      setVideoStrength(videoSets.hongKong);
+      if (!canUseBackgroundVideo()) return;
+
+      const startVideo = () => {
+        window.setTimeout(() => switchVideoSet("hongKong"), 1400);
+      };
+
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(startVideo, { timeout: 3200 });
+      } else {
+        window.addEventListener("load", startVideo, { once: true });
+      }
+    }
+
+    bgVideos.forEach(video => {
+      video.addEventListener("ended", () => {
+        if (video !== bgVideos[activeBgVideoIndex]) return;
+
+        const set = videoSets[currentVideoSet];
+        if (!set) return;
+
+        currentVideoIndex = (currentVideoIndex + 1) % set.sources.length;
+        playBackgroundSource(set.sources[currentVideoIndex]);
+      });
+    });
+
+    function setupLogoEasterEgg() {
+      const logo = document.querySelector(".company-logo");
+      if (!logo) return;
+
+      logo.addEventListener("mouseenter", () => switchVideoSet("horse"));
+      logo.addEventListener("mouseleave", () => switchVideoSet("hongKong"));
+      logo.addEventListener("focus", () => switchVideoSet("horse"));
+      logo.addEventListener("blur", () => switchVideoSet("hongKong"));
+    }
+
+    function setupOfferHoverVideos() {
+      document.querySelectorAll("[data-video-set]").forEach(card => {
+        const setName = card.getAttribute("data-video-set");
+
+        card.addEventListener("mouseenter", () => switchVideoSet(setName));
+        card.addEventListener("mouseleave", () => switchVideoSet("hongKong"));
+        card.addEventListener("focus", () => switchVideoSet(setName));
+        card.addEventListener("blur", () => switchVideoSet("hongKong"));
+      });
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    renderOfferSections();
+    renderStudentComments();
+    setupCarousels();
+    setupLogoEasterEgg();
+    setupOfferHoverVideos();
+    setupStudentCommentMotion();
+    setupCustomCursor();
+    scheduleInitialBackgroundVideo();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>
 </html>

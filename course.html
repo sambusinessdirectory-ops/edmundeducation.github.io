@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>EdmundEducation Course</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body, a, button { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 600;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      width: 100%;
+      height: 10vh;
+      min-height: 82px;
+      max-height: 116px;
+      background: #93552F;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      backdrop-filter: blur(18px);
+      transition: background 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s ease;
+    }
+
+    body.header-centered .topbar {
+      background: #93552F;
+      border-color: transparent;
+      backdrop-filter: none;
+    }
+
+    .topbar-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 0 clamp(28px, 5vw, 132px);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 24px;
+    }
+
+    .brand {
+      position: absolute;
+      top: 50%;
+      display: block;
+      text-decoration: none;
+      transform: translateY(-50%);
+      transition: opacity 0.42s ease, transform 0.42s ease, filter 0.42s ease;
+    }
+
+    .brand img {
+      display: block;
+      height: clamp(62px, 8.5vh, 102px);
+      width: auto;
+      max-width: min(520px, 34vw);
+      object-fit: contain;
+    }
+
+    .brand-left {
+      left: clamp(28px, 5vw, 132px);
+      opacity: 1;
+    }
+
+    .brand-center {
+      left: 50%;
+      opacity: 0;
+      transform: translate(-50%, -50%) translateY(-8px) scale(0.96);
+      pointer-events: none;
+    }
+
+    .brand-center img {
+      height: clamp(70px, 9.3vh, 112px);
+      max-width: min(680px, 42vw);
+      filter: brightness(0) contrast(1.25);
+      mix-blend-mode: multiply;
+    }
+
+    body.header-centered .brand-left {
+      opacity: 0;
+      transform: translateY(-50%) translateX(-18px);
+      pointer-events: none;
+    }
+
+    body.header-centered .brand-center {
+      opacity: 0.58;
+      transform: translate(-50%, -50%) translateY(0) scale(1);
+      pointer-events: auto;
+    }
+
+    .intro {
+      min-height: 90vh;
+      display: grid;
+      place-items: center;
+      padding: 80px 24px;
+      text-align: center;
+    }
+
+    .intro-copy {
+      width: min(1220px, calc(100vw - 48px));
+      max-width: none;
+    }
+
+    .eyebrow {
+      display: block;
+      color: #bf4800;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    .intro-title {
+      margin: 0 auto;
+      max-width: 1220px;
+      font-size: clamp(38px, 4.4vw, 70px);
+      line-height: 1.06;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    body.long-title .intro-title {
+      font-size: clamp(34px, 3.8vw, 62px);
+      max-width: 1280px;
+    }
+
+    .intro-desc {
+      margin: 22px 0 0;
+      font-size: clamp(18px, 1.6vw, 24px);
+      line-height: 1.25;
+      font-weight: 800;
+      color: #3f3f46;
+    }
+
+    .intro-price {
+      margin: 20px 0 0;
+      font-size: clamp(18px, 1.4vw, 22px);
+      font-weight: 800;
+    }
+
+    .course-stage {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(230px, 330px) minmax(520px, 920px) 1fr;
+      gap: clamp(28px, 4vw, 68px);
+      align-items: start;
+      padding: 72px clamp(28px, 5vw, 96px) 12vh;
+    }
+
+    .course-summary {
+      position: sticky;
+      top: 132px;
+      opacity: 0;
+      transform: translateX(-20px);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+    }
+
+    body.is-gallery .course-summary {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    body.is-final .course-summary {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+
+    .summary-title {
+      margin: 0;
+      font-size: clamp(30px, 2.8vw, 50px);
+      line-height: 1.06;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    body.long-title .summary-title {
+      font-size: clamp(26px, 2.35vw, 42px);
+    }
+
+    .summary-desc {
+      margin: 22px 0 0;
+      font-size: 18px;
+      line-height: 1.25;
+      font-weight: 800;
+      color: #3f3f46;
+    }
+
+    .summary-price {
+      margin: 18px 0 0;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .gallery {
+      grid-column: 2;
+      min-width: 0;
+    }
+
+    .image-card {
+      position: sticky;
+      top: 126px;
+      width: 100%;
+      margin: 0 0 18vh;
+      border-radius: 30px;
+      background: #fff;
+      overflow: hidden;
+      display: block;
+      box-shadow: 0 22px 60px rgba(0,0,0,0.14);
+      opacity: 0.25;
+      transform: translateY(60px) rotate(var(--tilt));
+      transition: opacity 0.7s ease, transform 0.7s ease, box-shadow 0.7s ease;
+    }
+
+    .image-card.is-visible {
+      opacity: 1;
+      transform: translateY(0) rotate(var(--tilt-active));
+      box-shadow: 0 30px 80px rgba(0,0,0,0.17);
+    }
+
+    .image-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      border-radius: inherit;
+      background: #fff;
+    }
+
+    .placeholder {
+      width: 100%;
+      min-height: 620px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 44px;
+      background: linear-gradient(145deg, #e0f2fe, #bfdbfe);
+      color: #0756d8;
+      font-weight: 900;
+    }
+
+    .placeholder span {
+      display: block;
+      font-size: clamp(42px, 6vw, 86px);
+      line-height: 1;
+    }
+
+    .placeholder small {
+      display: block;
+      margin-top: 14px;
+      color: #1d4ed8;
+      font-size: 18px;
+    }
+
+    .side-logo {
+      position: fixed;
+      z-index: 9;
+      top: 136px;
+      right: clamp(20px, 4vw, 72px);
+      width: min(1080px, 52vw);
+      height: auto;
+      object-fit: contain;
+      padding: 0;
+      border-radius: 34px;
+      background: transparent;
+      box-shadow: 0 28px 80px rgba(0,0,0,0.16);
+      opacity: 0;
+      transform: translateY(18px) scale(0.96);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+      pointer-events: none;
+    }
+
+    body.is-gallery .side-logo {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    body.is-final .side-logo {
+      opacity: 0;
+      transform: translateY(18px) scale(0.96);
+    }
+
+    .final-cta {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 0 0;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .cta-copy {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 24px;
+      font-size: clamp(38px, 5vw, 76px);
+      line-height: 1.12;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .cta-copy strong {
+      color: #0071e3;
+      font-weight: 900;
+    }
+
+    .cta-copy .phone {
+      display: inline-block;
+      font-size: 1.3em;
+      line-height: 1;
+    }
+
+    .course-recommendations {
+      width: 100%;
+      margin-top: auto;
+      opacity: 0;
+      transform: translateY(26px);
+      pointer-events: none;
+      transition: opacity 1.45s ease, transform 1.45s ease;
+    }
+
+    body.recommendations-visible .course-recommendations {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    .recommendation-title {
+      margin: 0 0 18px;
+      padding: 0 clamp(28px, 5vw, 96px);
+      text-align: left;
+      color: #6e6e73;
+      font-size: clamp(22px, 2.4vw, 34px);
+      line-height: 1.16;
+      font-weight: 900;
+    }
+
+    .recommendation-marquee {
+      width: 100%;
+      overflow: hidden;
+      mask-image: linear-gradient(90deg, transparent, #000 7%, #000 93%, transparent);
+    }
+
+    .recommendation-track {
+      width: max-content;
+      display: flex;
+      align-items: stretch;
+      gap: 18px;
+      padding: 0 18px 0;
+      animation: recommendationScroll 500s linear infinite;
+      will-change: transform;
+    }
+
+    .recommendation-marquee:hover .recommendation-track {
+      animation-play-state: paused;
+    }
+
+    @keyframes recommendationScroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    .recommendation-card {
+      flex: 0 0 410px;
+      position: relative;
+      min-height: 565px;
+      overflow: hidden;
+      border-radius: 18px;
+      background:
+        radial-gradient(140% 100% at 12% 0%, rgba(129, 92, 255, 0.28), transparent 52%),
+        radial-gradient(120% 100% at 88% 16%, rgba(255, 171, 145, 0.34), transparent 56%),
+        radial-gradient(110% 95% at 46% 94%, rgba(255, 236, 205, 0.48), transparent 58%),
+        linear-gradient(135deg, rgba(255,255,255,0.94), rgba(250,244,255,0.91) 46%, rgba(255,247,239,0.93));
+      color: #1d1d1f;
+      text-align: left;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.74);
+      box-shadow: 0 12px 34px rgba(97,78,136,0.13);
+      display: flex;
+      flex-direction: column;
+      padding: 28px;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .recommendation-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 46px rgba(111,82,166,0.22);
+    }
+
+    .recommendation-card.is-gold-chrome {
+      background:
+        linear-gradient(180deg,
+          #6b5b00 0%,
+          #b59200 13%,
+          #ffe875 24%,
+          #fff8c8 28%,
+          #c7a300 34%,
+          #49430d 52%,
+          #806b00 64%,
+          #f0c600 78%,
+          #fff0a1 87%,
+          #6c5d08 100%);
+      color: #fff7cc;
+      border-color: rgba(255,246,180,0.72);
+      box-shadow: 0 18px 48px rgba(128,96,0,0.30), inset 0 1px 0 rgba(255,255,255,0.52);
+      text-shadow: 0 2px 12px rgba(0,0,0,0.35);
+    }
+
+    .recommendation-card.is-gold-chrome:hover {
+      box-shadow: 0 24px 62px rgba(154,118,0,0.38), inset 0 1px 0 rgba(255,255,255,0.62);
+    }
+
+    .recommendation-art {
+      order: 2;
+      margin-top: auto;
+      min-width: 0;
+      min-height: 230px;
+      border-radius: 16px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background:
+        radial-gradient(120% 100% at 0% 0%, rgba(127,86,255,0.32), transparent 54%),
+        radial-gradient(120% 100% at 100% 10%, rgba(255,178,135,0.38), transparent 56%),
+        linear-gradient(145deg, #f6edff, #ffe7d6);
+      color: #0756d8;
+      font-size: 34px;
+      font-weight: 900;
+    }
+
+    .recommendation-card.is-gold-chrome .recommendation-art {
+      background:
+        linear-gradient(180deg, #493f00 0%, #ffe24f 26%, #fff8bd 32%, #594d00 54%, #e9be00 82%, #655600 100%);
+      color: #fff7c4;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.48), inset 0 -28px 50px rgba(0,0,0,0.22);
+    }
+
+    .recommendation-art img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      background: #fff;
+    }
+
+    .recommendation-copy {
+      order: 1;
+      min-width: 0;
+      padding: 0 0 24px;
+    }
+
+    .recommendation-name {
+      margin: 0;
+      font-size: 23px;
+      line-height: 1.12;
+      font-weight: 900;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .recommendation-meta {
+      margin: 12px 0 0;
+      color: #4a4a4f;
+      font-size: 15px;
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .recommendation-card.is-gold-chrome .recommendation-meta {
+      color: #fff8cf;
+    }
+
+    @media (max-width: 1250px) {
+      .course-stage {
+        grid-template-columns: minmax(220px, 300px) minmax(500px, 820px) 1fr;
+      }
+
+      .side-logo {
+        width: min(760px, 44vw);
+      }
+    }
+
+    @media (max-width: 900px) {
+      html, body, a, button { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .topbar {
+        height: 88px;
+        min-height: 88px;
+      }
+
+      .topbar-inner {
+        padding: 12px 22px;
+        align-items: center;
+      }
+
+      .brand img {
+        height: 62px;
+        max-width: 210px;
+      }
+
+      .brand-center img {
+        height: 68px;
+        max-width: 260px;
+      }
+
+      .intro-title,
+      body.long-title .intro-title {
+        font-size: clamp(34px, 10vw, 56px);
+      }
+
+      .course-stage {
+        display: block;
+        padding: 48px 22px 72px;
+      }
+
+      .course-summary {
+        position: relative;
+        top: auto;
+        opacity: 1;
+        transform: none;
+        margin-bottom: 34px;
+      }
+
+      .side-logo { display: none; }
+
+      .image-card {
+        position: relative;
+        top: auto;
+        margin-bottom: 28px;
+        border-radius: 24px;
+      }
+
+      .image-card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .placeholder { min-height: 420px; }
+
+      .cta-copy {
+        font-size: clamp(34px, 11vw, 58px);
+      }
+
+      .recommendation-title {
+        padding: 0 22px;
+      }
+
+      .recommendation-card {
+        flex-basis: 82vw;
+        min-height: 490px;
+      }
+
+      .recommendation-art {
+        min-height: 190px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .recommendation-track {
+        animation: none;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand brand-left" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+      <a class="brand brand-center" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="intro-copy">
+        <span class="eyebrow">NEW</span>
+        <h1 class="intro-title" data-title></h1>
+        <p class="intro-desc" data-desc></p>
+        <p class="intro-price" data-price></p>
+      </div>
+    </section>
+
+    <section class="course-stage">
+      <aside class="course-summary">
+        <span class="eyebrow">NEW</span>
+        <h2 class="summary-title" data-title></h2>
+        <p class="summary-desc" data-desc></p>
+        <p class="summary-price" data-price></p>
+      </aside>
+
+      <div class="gallery" data-gallery></div>
+
+      <img class="side-logo" src="Company Logo for Cover Page.png" alt="EdmundEducation company logo">
+    </section>
+
+    <section class="final-cta" id="final-cta">
+      <p class="cta-copy">
+        有興趣嗎？<br>
+        不妨先來一節<br>
+        <strong>45 分鐘免費體驗</strong><br>
+        <strong>直接聯絡 Edmund 就可以：</strong><br>
+        <strong class="phone">(+852) 4623 5513</strong><br>
+        WhatsApp、Signal，<br>
+        或直接致電均可
+      </p>
+
+      <section class="course-recommendations" data-course-recommendations aria-label="Recommended courses">
+        <h2 class="recommendation-title">您可能也會以下課程有興趣...</h2>
+        <div class="recommendation-marquee">
+          <div class="recommendation-track" data-recommendation-track></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    function imageSet(folder, count) {
+      return Array.from({ length: count }, (_, index) => `${folder}/${index + 1}.jpg`);
+    }
+
+    const courses = {
+      "ielts-two": { title: "#救得一個得一個！二人同行優惠｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$310", type: "IELTS", images: imageSet("IELTS 2 People", 11) },
+      "ielts-three": { title: "#救得一個得一個！三人同行超減班｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$290", type: "IELTS", images: imageSet("IELTS 3 People", 11) },
+      "ielts-four": { title: "#救得一個得一個！四人開團價｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$270", type: "IELTS", images: imageSet("IELTS 4 PEOPLE", 11) },
+      "dse-reading-notes": { title: "DSE 英文閱讀卷超詳盡拆題筆記｜解題分析", desc: "適合英文老師、奪星學生、自修生", price: "$370", type: "DSE", images: imageSet("DSE Reading Notes", 10) },
+      "ielts-five-plus": { title: "#救得一個得一個！五人或以上成班價｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$250", type: "IELTS", images: imageSet("IELTS 5 PEOPLE", 11) },
+      "ielts-two-subjects": { title: "#救得一個得一個！四科任揀二｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$320", type: "IELTS", images: imageSet("IELTS Four Choose Two", 11) },
+      "ielts-three-coupons": { title: "#救得一個得一個！四份券，任揀三｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$340", type: "IELTS", images: imageSet("IELTS Four Choose Three", 11) },
+      "adult-english": { title: "成人英語進修補習班", desc: "適合大專生、打工仔", price: "$500", type: "Adult", images: imageSet("Premium Class", 10) },
+      "ielts-writing-task-2": { title: "#彈性練習救時間！IELTS Writing Task 2 專注課程", desc: "IELTS 寫作專項", price: "$270", type: "Writing", images: imageSet("IETLS 純Writing Task 2班", 11) },
+      "ielts-writing-task-1": { title: "#彈性練習救時間！IELTS Writing Task 1 專注課程", desc: "IELTS 寫作專項", price: "$270", type: "Writing", images: imageSet("IETLS 純Writing Task 1班", 11) },
+
+      "cre-course": {
+        title: "香港公務員綜合招聘考試 CRE 英文運用測試備試課程",
+        desc: "CRE English Use of English",
+        price: "$370",
+        type: "CRE",
+        images: [
+          "CRE Course/1.jpg",
+          "CRE Course/2.jpg",
+          "CRE Course/3.jpg",
+          "CRE Course/4.jpg",
+          "CRE Course/5.jpg",
+          "CRE Course/6.jpg",
+          "CRE Course/7.jpg",
+          "CRE Course/8.jpg"
+        ]
+      },
+
+      "dse-writing-2024-q5": { title: "DSE 英文作文獨立解堂｜2024 Q5「100,000 Likes Overnight」", desc: "範文全剖析", price: "$350", type: "DSE", images: imageSet("DSE 2024 Q5 Individual Writing Question Note", 10) },
+      "dse-writing-2025-q3": { title: "DSE 英文作文獨立解堂｜2025 Q3「Restaurant × Tutorial Lessons」", desc: "範文全剖析", price: "$350", type: "DSE", images: imageSet("DSE 2025 Q3 Individual Writing Question Note", 10) },
+      "ielts-emergency": { title: "#救得一個得一個｜IELTS 緊急補底班", desc: "專教成人英語｜免費45分鐘試堂", price: "$370", type: "IELTS", images: imageSet("IELTS 緊急補底班", 11) },
+      "ielts-speaking": { title: "IELTS Speaking 純技巧班", desc: "IELTS 口說專項", price: "$290", type: "Speaking", images: imageSet("IETLS 純SPEAKING班", 11) },
+      "ielts-writing": { title: "IELTS 純 Writing 班", desc: "IELTS 寫作專項", price: "$290", type: "Writing", images: imageSet("IETLS 純Writing班", 11) },
+      "ielts-reading": { title: "IELTS 純 Reading 班", desc: "IELTS 閱讀專項", price: "$290", type: "Reading", images: imageSet("IETLS 純READING班", 11) },
+      "ielts-listening": { title: "IELTS 純 Listening 班", desc: "IELTS 聆聽專項", price: "$290", type: "Listening", images: imageSet("IETLS 純Listening班", 11) },
+      "ielts-easy": { title: "IELTS 輕鬆學班｜成人英語", desc: "免費45分鐘試堂", price: "$290", type: "IELTS", images: imageSet("IELTS Relax Class", 11) },
+
+      "clinic-assistant-english": {
+        title: "診所助理專業英文課程",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Clinic",
+        images: [
+          "Clinic Nurse Course/1.jpg",
+          "Clinic Nurse Course/2.jpg",
+          "Clinic Nurse Course/3.jpg",
+          "Clinic Nurse Course/4.jpg",
+          "Clinic Nurse Course/5.jpg",
+          "Clinic Nurse Course/6.jpg",
+          "Clinic Nurse Course/7.jpg",
+          "Clinic Nurse Course/8.jpg",
+          "Clinic Nurse Course/9.jpg",
+          "Clinic Nurse Course/10.jpg"
+        ]
+      },
+
+      "dental-assistant-english": {
+        title: "牙醫診所助理專業英文課程",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Dental",
+        images: [
+          "Dental Nurse English Course/1.jpg",
+          "Dental Nurse English Course/2.jpg",
+          "Dental Nurse English Course/3.jpg",
+          "Dental Nurse English Course/4.jpg",
+          "Dental Nurse English Course/5.jpg",
+          "Dental Nurse English Course/6.jpg",
+          "Dental Nurse English Course/7.jpg",
+          "Dental Nurse English Course/8.jpg"
+        ]
+      },
+
+      "pilates-yoga-english": {
+        title: "Pilates / 瑜伽教練專業英文培訓課程",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Pilates",
+        images: [
+          "Pilates Yoga English Course/1.jpg",
+          "Pilates Yoga English Course/2.jpg",
+          "Pilates Yoga English Course/3.jpg",
+          "Pilates Yoga English Course/4.jpg",
+          "Pilates Yoga English Course/5.jpg",
+          "Pilates Yoga English Course/6.jpg",
+          "Pilates Yoga English Course/7.jpg",
+          "Pilates Yoga English Course/8.jpg",
+          "Pilates Yoga English Course/9.jpg",
+          "Pilates Yoga English Course/10.jpg"
+        ]
+      },
+
+      "fitness-trainer-english": {
+        title: "健身教練 PT 專業英文課程",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Fitness",
+        images: [
+          "Fitness Coach English Course/1.jpg",
+          "Fitness Coach English Course/2.jpg",
+          "Fitness Coach English Course/3.jpg",
+          "Fitness Coach English Course/4.jpg",
+          "Fitness Coach English Course/5.jpg",
+          "Fitness Coach English Course/6.jpg",
+          "Fitness Coach English Course/7.jpg",
+          "Fitness Coach English Course/8.jpg",
+          "Fitness Coach English Course/9.jpg",
+          "Fitness Coach English Course/10.jpg"
+        ]
+      },
+
+      "cabin-crew-english": {
+        title: "機艙服務員專業英文培訓",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Cabin",
+        images: [
+          "Flight Attendant English Course/1.jpg",
+          "Flight Attendant English Course/2.jpg",
+          "Flight Attendant English Course/3.jpg",
+          "Flight Attendant English Course/4.jpg",
+          "Flight Attendant English Course/5.jpg",
+          "Flight Attendant English Course/6.jpg",
+          "Flight Attendant English Course/7.jpg",
+          "Flight Attendant English Course/8.jpg",
+          "Flight Attendant English Course/9.jpg",
+          "Flight Attendant English Course/10.jpg"
+        ]
+      },
+
+      "sommelier-english": {
+        title: "Sommelier / 品酒師專業英文提升課程",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Wine",
+        images: [
+          "%20Sommerlier%20English%20Course/1.jpg",
+          "%20Sommerlier%20English%20Course/2.jpg",
+          "%20Sommerlier%20English%20Course/3.jpg",
+          "%20Sommerlier%20English%20Course/4.jpg",
+          "%20Sommerlier%20English%20Course/5.jpg",
+          "%20Sommerlier%20English%20Course/6.jpg",
+          "%20Sommerlier%20English%20Course/7.jpg",
+          "%20Sommerlier%20English%20Course/8.jpg",
+          "%20Sommerlier%20English%20Course/9.jpg",
+          "%20Sommerlier%20English%20Course/10.jpg"
+        ]
+      },
+
+      "retail-sales-english": {
+        title: "專業零售 Sales 英文課程",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Sales",
+        images: [
+          "Sales English Course /1.jpg",
+          "Sales English Course /2.jpg",
+          "Sales English Course /3.jpg",
+          "Sales English Course /4.jpg",
+          "Sales English Course /5.jpg",
+          "Sales English Course /6.jpg",
+          "Sales English Course /7.jpg",
+          "Sales English Course /8.jpg",
+          "Sales English Course /9.jpg",
+          "Sales English Course /10.jpg"
+        ]
+      },
+
+      "manager-english": {
+        title: "Manager 管理層專業英文課程",
+        desc: "職場英語服務系列",
+        price: "$350",
+        type: "Manager",
+        images: [
+          "Management English Course /1.jpg",
+          "Management English Course /2.jpg",
+          "Management English Course /3.jpg",
+          "Management English Course /4.jpg",
+          "Management English Course /5.jpg",
+          "Management English Course /6.jpg",
+          "Management English Course /7.jpg",
+          "Management English Course /8.jpg",
+          "Management English Course /9.jpg",
+          "Management English Course /10.jpg"
+        ]
+      },
+
+      "reading-speed": {
+        title: "純 Reading 加速班｜成人英文輔導班",
+        desc: "Reading 速度及理解訓練",
+        price: "$320",
+        type: "Reading",
+        images: [
+          "Reading Course Images/1.jpg",
+          "Reading Course Images/2.jpg",
+          "Reading Course Images/3.jpg",
+          "Reading Course Images/4.jpg",
+          "Reading Course Images/5.jpg",
+          "Reading Course Images/6.jpg",
+          "Reading Course Images/7.jpg",
+          "Reading Course Images/8.jpg",
+          "Reading Course Images/9.jpg",
+          "Reading Course Images/10.jpg"
+        ]
+      },
+
+      "american-accent": { title: "American Accent 美式口音重點培訓課程", desc: "英語口音訓練", price: "$250", type: "Accent", images: imageSet("American Accent Course", 10) },
+      "grammar-course": { title: "純 Grammar 文法進修補習班", desc: "適合大專生、打工仔", price: "$300", type: "Grammar", images: imageSet("Grammar Class", 10) },
+      "british-accent": { title: "全港唯一 1v1 英式口音課程", desc: "British Accent 英式口音訓練", price: "$250", type: "British", images: imageSet("British Accent Course", 10) },
+      "italian-course": { title: "Edmund Sir 意大利文 1對1「全包」課程", desc: "Zoom 一對一課程", price: "$300", type: "Italian", images: imageSet("Italian Class", 10) }
+    };
+
+    function hourlyPrice(price) {
+      return price.includes("|") ? price : `${price} | 小時`;
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function getCourseId() {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id") || "reading-speed";
+      return courses[id] ? id : "reading-speed";
+    }
+
+    function getCourse() {
+      const id = getCourseId();
+      return courses[id] || courses["reading-speed"];
+    }
+
+    function shuffle(items) {
+      const copy = [...items];
+      for (let i = copy.length - 1; i > 0; i--) {
+        const randomIndex = Math.floor(Math.random() * (i + 1));
+        [copy[i], copy[randomIndex]] = [copy[randomIndex], copy[i]];
+      }
+      return copy;
+    }
+
+    function recommendationImage(course) {
+      return course.images && course.images.length ? course.images[0] : "";
+    }
+
+    function createRecommendationCard(item) {
+      const image = recommendationImage(item.course);
+      const cardClass = item.id === "adult-english" ? "recommendation-card is-gold-chrome" : "recommendation-card";
+      const art = image
+        ? `<span class="recommendation-art"><img src="${escapeHtml(image)}" alt="${escapeHtml(item.course.title)}"></span>`
+        : `<span class="recommendation-art">${escapeHtml(item.course.type)}</span>`;
+
+      return `
+        <a class="${cardClass}" href="course.html?id=${encodeURIComponent(item.id)}">
+          ${art}
+          <span class="recommendation-copy">
+            <span class="recommendation-name">${escapeHtml(item.course.title)}</span>
+            <span class="recommendation-meta">${escapeHtml(item.course.desc)} · ${escapeHtml(hourlyPrice(item.course.price))}</span>
+          </span>
+        </a>
+      `;
+    }
+
+    function renderCourseRecommendations() {
+      const track = document.querySelector("[data-recommendation-track]");
+      if (!track) return;
+
+      const currentId = getCourseId();
+      const items = Object.entries(courses)
+        .map(([id, course]) => ({ id, course }))
+        .filter(item => item.id !== currentId);
+      const randomizedItems = shuffle(items);
+      const marqueeItems = [...randomizedItems, ...randomizedItems];
+
+      track.innerHTML = marqueeItems.map(createRecommendationCard).join("");
+    }
+
+    function setupRecommendationReveal() {
+      const finalCta = document.querySelector(".final-cta");
+      const recommendations = document.querySelector("[data-course-recommendations]");
+      if (!finalCta || !recommendations) return;
+
+      let revealTimer = null;
+      let hasRevealed = false;
+
+      const observer = new IntersectionObserver(entries => {
+        if (hasRevealed) return;
+
+        const isReadingCta = entries.some(entry => entry.isIntersecting);
+
+        if (isReadingCta) {
+          clearTimeout(revealTimer);
+          revealTimer = setTimeout(() => {
+            hasRevealed = true;
+            document.body.classList.add("recommendations-visible");
+            observer.disconnect();
+          }, 3000);
+        } else {
+          clearTimeout(revealTimer);
+        }
+      }, { threshold: 0.42 });
+
+      observer.observe(finalCta);
+    }
+
+    function renderCourse() {
+      const course = getCourse();
+      document.title = `${course.title} | EdmundEducation`;
+      document.body.classList.toggle("long-title", course.title.length > 18);
+
+      document.querySelectorAll("[data-title]").forEach(element => {
+        element.textContent = course.title;
+      });
+
+      document.querySelectorAll("[data-desc]").forEach(element => {
+        element.textContent = course.desc;
+      });
+
+      document.querySelectorAll("[data-price]").forEach(element => {
+        element.textContent = hourlyPrice(course.price);
+      });
+
+      const gallery = document.querySelector("[data-gallery]");
+      if (!gallery) return;
+
+      const tilts = ["-1.2deg", "1deg", "-0.7deg", "1.4deg", "-1deg", "0.8deg", "-1.3deg", "1.1deg", "-0.9deg", "0.7deg"];
+      const activeTilts = ["-0.25deg", "0.2deg", "-0.15deg", "0.25deg", "-0.2deg", "0.15deg", "-0.25deg", "0.2deg", "-0.15deg", "0.1deg"];
+
+      if (course.images && course.images.length) {
+        gallery.innerHTML = course.images.map((src, index) => `
+          <figure class="image-card" style="--tilt: ${tilts[index % tilts.length]}; --tilt-active: ${activeTilts[index % activeTilts.length]};">
+            <img src="${src}" alt="${course.title} image ${index + 1}">
+          </figure>
+        `).join("");
+      } else {
+        gallery.innerHTML = Array.from({ length: 6 }).map((_, index) => `
+          <figure class="image-card" style="--tilt: ${tilts[index % tilts.length]}; --tilt-active: ${activeTilts[index % activeTilts.length]};">
+            <div class="placeholder">
+              <div>
+                <span>${course.type}</span>
+                <small>Image slot ${index + 1}</small>
+              </div>
+            </div>
+          </figure>
+        `).join("");
+      }
+    }
+
+    function setupScrollState() {
+      const finalCta = document.querySelector(".final-cta");
+
+      function update() {
+        const isGallery = window.scrollY > window.innerHeight * 0.42;
+        document.body.classList.toggle("is-gallery", isGallery);
+
+        if (finalCta) {
+          const finalTop = finalCta.getBoundingClientRect().top;
+          document.body.classList.toggle("is-final", finalTop < window.innerHeight * 0.75);
+        }
+      }
+
+      window.addEventListener("scroll", update, { passive: true });
+      window.addEventListener("resize", update);
+      update();
+    }
+
+    function setupCardVisibility() {
+      const cards = document.querySelectorAll(".image-card");
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("is-visible", entry.isIntersecting);
+        });
+      }, { threshold: 0.38 });
+
+      cards.forEach(card => observer.observe(card));
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    function setupHeaderWordmark() {
+      function updateHeader() {
+        document.body.classList.toggle("header-centered", window.scrollY > 24);
+      }
+
+      window.addEventListener("scroll", updateHeader, { passive: true });
+      window.addEventListener("resize", updateHeader);
+      updateHeader();
+    }
+
+    renderCourse();
+    renderCourseRecommendations();
+    setupScrollState();
+    setupCardVisibility();
+    setupRecommendationReveal();
+    setupCustomCursor();
+    setupHeaderWordmark();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>

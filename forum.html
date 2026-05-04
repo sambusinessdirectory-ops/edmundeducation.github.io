@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>英文論壇 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="page-loader.css">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --bg: #171717;
+      --panel: #1f1f1f;
+      --panel-soft: #242424;
+      --line: rgba(255,255,255,0.07);
+      --ink: #f4ead2;
+      --muted: rgba(244,234,210,0.58);
+      --gold: #f4bf64;
+      --gold-deep: #a97b38;
+      --olive: #b6cc82;
+      --danger: #ff9f8d;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(244,191,100,0.09), transparent 30%),
+        radial-gradient(circle at 92% 14%, rgba(182,204,130,0.08), transparent 28%),
+        #111;
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 700;
+    }
+
+    a,
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .forum-shell {
+      width: min(1420px, calc(100vw - 34px));
+      margin: 0 auto;
+      padding: 16px 0 70px;
+    }
+
+    .hero-bar {
+      position: relative;
+      min-height: 184px;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #191919;
+      box-shadow: 0 20px 70px rgba(0,0,0,0.34);
+      display: flex;
+      align-items: center;
+      padding: clamp(24px, 3vw, 38px);
+      isolation: isolate;
+    }
+
+    .hero-bar::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -3;
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.035), transparent 48%),
+        #191919;
+    }
+
+    .hero-polygon {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0.96;
+    }
+
+    .poly-left {
+      left: -3%;
+      bottom: 0;
+      width: 46%;
+      height: 100%;
+      background: linear-gradient(125deg, #6f5737 0%, #f0bd63 62%, #d49943 100%);
+      clip-path: polygon(0 0, 76% 0, 100% 28%, 90% 100%, 0 100%);
+      z-index: -2;
+    }
+
+    .poly-shadow {
+      right: 13%;
+      top: -34%;
+      width: 31%;
+      height: 138%;
+      background: linear-gradient(110deg, rgba(0,0,0,0.88), rgba(0,0,0,0.54));
+      clip-path: polygon(0 8%, 100% 0, 72% 100%, 28% 78%);
+      z-index: -1;
+    }
+
+    .poly-top {
+      right: 12%;
+      top: 0;
+      width: 23%;
+      height: 43%;
+      background: linear-gradient(100deg, rgba(244,191,100,0.15), #e4ad55 72%, #f8cf7f);
+      clip-path: polygon(0 0, 100% 0, 86% 100%, 16% 74%);
+      z-index: -2;
+    }
+
+    .poly-middle {
+      right: 29%;
+      top: 30%;
+      width: 20%;
+      height: 36%;
+      background: linear-gradient(100deg, #b7cd85, rgba(42,52,37,0.35));
+      clip-path: polygon(10% 0, 100% 28%, 88% 100%, 0 68%);
+      z-index: -1;
+      opacity: 0.95;
+    }
+
+    .poly-bottom {
+      right: 7%;
+      bottom: 0;
+      width: 16%;
+      height: 28%;
+      background: linear-gradient(100deg, rgba(56,50,38,0.74), #e5ad54 84%);
+      clip-path: polygon(8% 0, 100% 42%, 94% 100%, 0 72%);
+      z-index: -1;
+    }
+
+    .poly-chip {
+      right: 1.4%;
+      top: 24%;
+      width: 9.4%;
+      height: 28%;
+      background: linear-gradient(105deg, #b5ca82, rgba(61,71,48,0.86) 52%, #c1d78b);
+      clip-path: polygon(8% 0, 96% 30%, 100% 100%, 0 72%);
+      z-index: -1;
+    }
+
+    .hero-copy {
+      position: relative;
+      z-index: 2;
+      width: min(540px, 54%);
+    }
+
+    .hero-mascot {
+      position: absolute;
+      right: clamp(34px, 5.2vw, 84px);
+      top: 50%;
+      z-index: 4;
+      width: clamp(118px, 12vw, 168px);
+      height: clamp(118px, 12vw, 168px);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at 50% 46%, rgba(255,252,244,0.96), rgba(242,236,221,0.88) 62%, rgba(218,205,178,0.72) 100%);
+      box-shadow: 0 22px 52px rgba(0,0,0,0.32), inset 0 0 0 1px rgba(255,255,255,0.58);
+      overflow: hidden;
+      transform: translateY(-50%);
+    }
+
+    .hero-mascot img {
+      width: 112%;
+      height: 112%;
+      object-fit: cover;
+      display: block;
+      transform: translateY(2%);
+    }
+
+    .hero-copy h1 {
+      margin: 0;
+      color: #fff5df;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: clamp(34px, 3vw, 52px);
+      line-height: 1.05;
+      font-weight: 400;
+      letter-spacing: -0.045em;
+    }
+
+    .hero-actions {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .hero-link,
+    .login-button,
+    .admin-open-button {
+      min-height: 48px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 22px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #111;
+      color: #f5ead2;
+      text-decoration: none;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.09), 0 12px 30px rgba(0,0,0,0.24);
+      transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+    }
+
+    .hero-link:hover,
+    .login-button:hover,
+    .admin-open-button:hover {
+      transform: translateY(-2px);
+      background: #f4bf64;
+      color: #171717;
+    }
+
+    .bottom-login {
+      position: fixed;
+      right: clamp(18px, 2.8vw, 42px);
+      bottom: clamp(18px, 2.8vw, 42px);
+      z-index: 30;
+      min-height: 44px;
+      background: rgba(17,17,17,0.86);
+      backdrop-filter: blur(12px);
+    }
+
+    .category-grid {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .category-card {
+      min-height: 164px;
+      border: 1px solid rgba(255,255,255,0.045);
+      border-radius: 6px;
+      padding: 22px 22px;
+      background: rgba(31,31,31,0.96);
+      color: var(--ink);
+      text-align: left;
+      box-shadow: 0 16px 46px rgba(0,0,0,0.16);
+      transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease;
+    }
+
+    .category-card:hover,
+    .category-card.is-active {
+      transform: translateY(-3px);
+      border-color: rgba(244,191,100,0.52);
+      background:
+        linear-gradient(135deg, rgba(255,226,172,0.88), rgba(236,209,154,0.82));
+      color: #181818;
+      box-shadow: 0 18px 52px rgba(244,191,100,0.16);
+    }
+
+    .category-card:hover strong,
+    .category-card.is-active strong,
+    .category-card:hover span,
+    .category-card.is-active span {
+      color: #171717;
+    }
+
+    .category-card strong {
+      display: block;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: clamp(22px, 1.75vw, 29px);
+      line-height: 1.08;
+      font-weight: 800;
+      color: #fff4da;
+    }
+
+    .category-card span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: clamp(18px, 1.35vw, 23px);
+      line-height: 1.22;
+      font-weight: 900;
+    }
+
+    .content-grid {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: minmax(430px, 0.98fr) minmax(520px, 1fr);
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      border-radius: 6px;
+      background: rgba(31,31,31,0.96);
+      border: 1px solid rgba(255,255,255,0.045);
+      box-shadow: 0 18px 54px rgba(0,0,0,0.18);
+    }
+
+    .posts-panel {
+      min-height: 452px;
+      padding: 26px 24px;
+    }
+
+    .panel-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .panel h2 {
+      margin: 0;
+      color: #f6edda;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: clamp(25px, 2vw, 34px);
+      line-height: 1.08;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+
+    .post-list {
+      display: grid;
+      gap: 0;
+    }
+
+    .post-row {
+      width: 100%;
+      border: 0;
+      border-top: 1px solid var(--line);
+      padding: 21px 0;
+      background: transparent;
+      color: inherit;
+      display: grid;
+      grid-template-columns: minmax(120px, 0.33fr) minmax(0, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+      text-align: left;
+    }
+
+    .post-row:last-child {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .post-row.is-active .post-title {
+      color: #fff;
+    }
+
+    .post-date {
+      color: rgba(244,234,210,0.54);
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .post-title {
+      margin: 0;
+      color: #f4ead2;
+      font-size: clamp(19px, 1.45vw, 25px);
+      line-height: 1.18;
+      font-weight: 900;
+    }
+
+    .post-meta {
+      margin: 7px 0 0;
+      color: var(--gold);
+      font-size: 15px;
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .more-button,
+    .submit-button,
+    .delete-post,
+    .delete-permanent {
+      min-height: 38px;
+      border: 0;
+      border-radius: 8px;
+      padding: 0 16px;
+      background: #111;
+      color: #f6edda;
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      white-space: nowrap;
+      transition: transform 0.2s ease, filter 0.2s ease, background 0.2s ease, color 0.2s ease;
+    }
+
+    .more-button {
+      min-width: 128px;
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      justify-self: center;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.08);
+    }
+
+    .more-button:hover,
+    .submit-button:hover,
+    .delete-post:hover,
+    .delete-permanent:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.05);
+    }
+
+    .post-row:hover .more-button,
+    .more-button:hover {
+      background: var(--gold);
+      color: #181818;
+    }
+
+    .submit-button {
+      background: var(--gold);
+      color: #181818;
+    }
+
+    .delete-post,
+    .delete-permanent {
+      display: none;
+      background: rgba(255,159,141,0.92);
+    }
+
+    body.is-admin .delete-post,
+    body.is-admin .delete-permanent {
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .post-detail {
+      min-height: 452px;
+      padding: 34px clamp(24px, 3vw, 40px);
+    }
+
+    .detail-kicker {
+      margin: 0 0 14px;
+      color: var(--olive);
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .detail-title {
+      margin: 0;
+      color: #fff5df;
+      font-size: clamp(32px, 3.2vw, 54px);
+      line-height: 1.08;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+
+    .detail-meta {
+      margin: 16px 0 0;
+      color: rgba(244,234,210,0.56);
+      font-family: Arial, "Noto Serif TC Local", sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .detail-body {
+      margin-top: 26px;
+      color: rgba(255,246,224,0.86);
+      font-size: clamp(19px, 1.55vw, 24px);
+      line-height: 1.62;
+      font-weight: 700;
+    }
+
+    .detail-body p {
+      margin: 0 0 18px;
+    }
+
+    .thread-section {
+      margin-top: 38px;
+      padding-top: 26px;
+      border-top: 1px solid var(--line);
+    }
+
+    .thread-section h3 {
+      margin: 0 0 16px;
+      color: #f6edda;
+      font-size: clamp(24px, 2vw, 34px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .thread-list {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .thread-item {
+      border-radius: 10px;
+      padding: 16px 18px;
+      background: rgba(255,255,255,0.045);
+      border: 1px solid rgba(255,255,255,0.045);
+    }
+
+    .thread-item strong {
+      color: var(--gold);
+      font-size: 16px;
+    }
+
+    .thread-item p {
+      margin: 8px 0 0;
+      color: rgba(255,246,224,0.82);
+      line-height: 1.5;
+    }
+
+    .thread-form,
+    .admin-form,
+    .login-card {
+      display: grid;
+      gap: 12px;
+    }
+
+    .field {
+      display: grid;
+      gap: 7px;
+    }
+
+    .field label {
+      color: rgba(244,234,210,0.78);
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .field input,
+    .field textarea,
+    .field select {
+      width: 100%;
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 9px;
+      padding: 12px 13px;
+      background: rgba(0,0,0,0.28);
+      color: #fff5df;
+      outline: 0;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .field textarea {
+      min-height: 124px;
+      resize: vertical;
+      line-height: 1.55;
+    }
+
+    .admin-panel {
+      margin-top: 18px;
+      padding: 24px;
+      display: block;
+    }
+
+    .bin-panel {
+      margin-top: 18px;
+      padding: 24px;
+      display: none;
+    }
+
+    body.is-admin .bin-panel {
+      display: block;
+    }
+
+    .bin-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .bin-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 14px;
+      align-items: center;
+      padding: 15px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    .bin-row:last-child {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .bin-title {
+      display: block;
+      color: #fff5df;
+      font-size: 18px;
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .bin-meta {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.25;
+      font-weight: 800;
+    }
+
+    .login-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: grid;
+      place-items: center;
+      padding: 22px;
+      background: rgba(0,0,0,0.58);
+      backdrop-filter: blur(12px);
+    }
+
+    .login-modal[hidden] {
+      display: none;
+    }
+
+    .login-card {
+      width: min(460px, 100%);
+      border-radius: 12px;
+      padding: 28px;
+      background: #1f1f1f;
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 30px 90px rgba(0,0,0,0.44);
+    }
+
+    .login-card h2 {
+      margin: 0;
+      color: #fff5df;
+      font-size: 32px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .login-error {
+      min-height: 22px;
+      color: var(--danger);
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .form-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .secondary-button {
+      min-height: 38px;
+      border: 1px solid rgba(255,255,255,0.13);
+      border-radius: 8px;
+      padding: 0 16px;
+      background: rgba(255,255,255,0.04);
+      color: #f6edda;
+      font-weight: 900;
+    }
+
+    .empty-state {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    @media (max-width: 980px) {
+      .category-grid,
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy {
+        width: min(620px, 100%);
+      }
+
+      .hero-mascot {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 22px 0 0 auto;
+        transform: none;
+      }
+
+      .post-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .more-button {
+        justify-self: start;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="forum-shell">
+    <section class="hero-bar" aria-labelledby="forum-title">
+      <span class="hero-polygon poly-left" aria-hidden="true"></span>
+      <span class="hero-polygon poly-shadow" aria-hidden="true"></span>
+      <span class="hero-polygon poly-top" aria-hidden="true"></span>
+      <span class="hero-polygon poly-middle" aria-hidden="true"></span>
+      <span class="hero-polygon poly-bottom" aria-hidden="true"></span>
+      <span class="hero-polygon poly-chip" aria-hidden="true"></span>
+
+      <div class="hero-mascot" aria-hidden="true">
+        <img src="Mascot Directory/Formum talking horse.gif" alt="" data-loop-gif data-gif-src="Mascot Directory/Formum talking horse.gif">
+      </div>
+
+      <div class="hero-copy">
+        <h1 id="forum-title">Edmund 英文論壇</h1>
+        <div class="hero-actions">
+          <a class="hero-link" href="index.html">返回主頁</a>
+          <a class="hero-link" href="#posts">查看或創作帖文，與Edmund Sir 直接對話 <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category-grid" aria-label="Forum categories">
+      <button class="category-card" type="button" data-category-filter="grammar">
+        <strong>Grammar</strong>
+        <span>語法問題</span>
+      </button>
+      <button class="category-card" type="button" data-category-filter="vocabulary">
+        <strong>Vocabulary</strong>
+        <span>詞彙疑問</span>
+      </button>
+      <button class="category-card" type="button" data-category-filter="structure">
+        <strong>Sentence Structure</strong>
+        <span>句式／結構解釋</span>
+      </button>
+      <button class="category-card" type="button" data-category-filter="sharing">
+        <strong>Other sharing</strong>
+        <span>任何隨心討論</span>
+      </button>
+    </section>
+
+    <section class="content-grid" id="posts">
+      <div>
+        <section class="panel posts-panel" aria-labelledby="posts-title">
+          <div class="panel-title-row">
+            <h2 id="posts-title">Posts 帖文</h2>
+            <button class="admin-open-button" type="button" data-admin-jump>創作帖文</button>
+          </div>
+          <div class="post-list" data-post-list></div>
+        </section>
+
+        <section class="panel admin-panel" data-admin-panel aria-label="Create post">
+          <div class="panel-title-row">
+            <h2>新增論壇帖文</h2>
+          </div>
+          <form class="admin-form" data-post-form>
+            <div class="field">
+              <label for="post-title">帖文標題</label>
+              <input id="post-title" name="title" type="text" required>
+            </div>
+            <div class="field">
+              <label for="post-category">分類</label>
+              <select id="post-category" name="category" required>
+                <option value="grammar">Grammar 語法問題</option>
+                <option value="vocabulary">Vocabulary 詞彙疑問</option>
+                <option value="structure">Sentence Structure 句式／結構解釋</option>
+                <option value="sharing">Other sharing 任何隨心討論</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="post-body">帖文內容</label>
+              <textarea id="post-body" name="body" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="secondary-button" type="reset">Clear</button>
+              <button class="submit-button" type="submit">發布帖文</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel bin-panel" data-bin-panel aria-label="Deleted posts bin">
+          <div class="panel-title-row">
+            <h2>Bin 已刪除帖文</h2>
+          </div>
+          <div class="bin-list" data-bin-list></div>
+        </section>
+      </div>
+
+      <section class="panel post-detail" aria-live="polite" data-post-detail></section>
+    </section>
+  </div>
+
+  <div class="login-modal" data-login-modal hidden>
+    <form class="login-card" data-login-form>
+      <h2>Password</h2>
+      <div class="field">
+        <label for="admin-password">Password</label>
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <div class="login-error" data-login-error></div>
+      <div class="form-actions">
+        <button class="secondary-button" type="button" data-close-login>Cancel</button>
+        <button class="submit-button" type="submit">Log In</button>
+      </div>
+    </form>
+  </div>
+
+  <button class="login-button bottom-login" type="button" data-login-button>Log In</button>
+
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="">
+  </div>
+
+  <script>
+    const ADMIN_PASSWORD = "EdmundForum";
+    const POSTS_KEY = "edmundForumPosts";
+    const BIN_KEY = "edmundForumDeletedPosts";
+    const PURGED_KEY = "edmundForumPermanentlyDeletedIds";
+    const THREADS_KEY = "edmundForumThreads";
+    const AUTH_KEY = "edmundForumLoggedIn";
+
+    const categoryLabels = {
+      grammar: "Grammar 語法問題",
+      vocabulary: "Vocabulary 詞彙疑問",
+      structure: "Sentence Structure 句式／結構解釋",
+      sharing: "Other sharing 任何隨心討論"
+    };
+
+    const seedPosts = [
+      {
+        id: "seed-grammar",
+        category: "grammar",
+        title: "Should I use present perfect or past tense?",
+        body: "如果想問一件事和現在仍然有關，present perfect 通常更自然；如果只是交代過去發生的事，past tense 會更直接。你可以貼上自己的句子，Edmund Sir 可以幫你判斷語氣和時間感。",
+        createdAt: Date.now() - 4 * 24 * 60 * 60 * 1000,
+        author: "Edmund Sir"
+      },
+      {
+        id: "seed-vocabulary",
+        category: "vocabulary",
+        title: "Formal email 裡面，如何避免語氣太硬？",
+        body: "商務電郵最重要不是一味 formal，而是準確、清楚、有分寸。可以先用較柔和的動詞，例如 would appreciate、could we、may I clarify，再按關係調整直接程度。",
+        createdAt: Date.now() - 3 * 24 * 60 * 60 * 1000,
+        author: "Edmund Sir"
+      },
+      {
+        id: "seed-structure",
+        category: "structure",
+        title: "句子太長，應該如何拆開？",
+        body: "先找主句，再把原因、補充和例子分開。英文句式不一定要把所有資訊塞進一句；清楚的順序往往比複雜句更專業。",
+        createdAt: Date.now() - 2 * 24 * 60 * 60 * 1000,
+        author: "Edmund Sir"
+      },
+      {
+        id: "seed-sharing",
+        category: "sharing",
+        title: "大家最近在哪裡見到有趣英文？",
+        body: "歡迎分享街上、餐廳、公司文件、廣告、電影或書本裡見到的英文。日常生活其實有很多值得學習的語感和用字細節。",
+        createdAt: Date.now() - 1 * 24 * 60 * 60 * 1000,
+        author: "Edmund Sir"
+      }
+    ];
+
+    let activeCategory = "all";
+    let activePostId = "";
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function formatDate(timestamp) {
+      return new Date(timestamp).toLocaleDateString("en-GB", {
+        day: "2-digit",
+        month: "short"
+      });
+    }
+
+    function getStoredPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveStoredPosts(posts) {
+      localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function getBinPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(BIN_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveBinPosts(posts) {
+      localStorage.setItem(BIN_KEY, JSON.stringify(posts));
+    }
+
+    function getPurgedIds() {
+      try {
+        return JSON.parse(localStorage.getItem(PURGED_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function savePurgedIds(ids) {
+      localStorage.setItem(PURGED_KEY, JSON.stringify(Array.from(new Set(ids))));
+    }
+
+    function getAllPosts() {
+      const binIds = new Set(getBinPosts().map(post => post.id));
+      const purgedIds = new Set(getPurgedIds());
+      return [...getStoredPosts().map(post => ({ ...post, isCustom: true })), ...seedPosts]
+        .filter(post => !binIds.has(post.id))
+        .filter(post => !purgedIds.has(post.id))
+        .sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0));
+    }
+
+    function getThreads() {
+      try {
+        return JSON.parse(localStorage.getItem(THREADS_KEY) || "{}");
+      } catch {
+        return {};
+      }
+    }
+
+    function saveThreads(threads) {
+      localStorage.setItem(THREADS_KEY, JSON.stringify(threads));
+    }
+
+    function filteredPosts() {
+      return getAllPosts().filter(post => activeCategory === "all" || post.category === activeCategory);
+    }
+
+    function renderPosts() {
+      const list = document.querySelector("[data-post-list]");
+      if (!list) return;
+
+      const posts = filteredPosts();
+      if (!posts.length) {
+        list.innerHTML = `<p class="empty-state">暫時未有這個分類的帖文。</p>`;
+        renderDetail(null);
+        renderBin();
+        return;
+      }
+
+      if (!posts.some(post => post.id === activePostId)) activePostId = posts[0].id;
+
+      list.innerHTML = posts.map(post => `
+        <button class="post-row${post.id === activePostId ? " is-active" : ""}" type="button" data-post-id="${escapeHtml(post.id)}">
+          <span class="post-date">${escapeHtml(formatDate(post.createdAt))}</span>
+          <span>
+            <span class="post-title">${escapeHtml(post.title)}</span>
+            <span class="post-meta">${escapeHtml(categoryLabels[post.category] || "")}</span>
+          </span>
+          <span class="more-button">查看更多</span>
+        </button>
+      `).join("");
+
+      renderDetail(getAllPosts().find(post => post.id === activePostId) || posts[0]);
+      renderBin();
+    }
+
+    function renderBin() {
+      const list = document.querySelector("[data-bin-list]");
+      if (!list) return;
+
+      const posts = getBinPosts().sort((a, b) => Number(b.deletedAt || 0) - Number(a.deletedAt || 0));
+      if (!posts.length) {
+        list.innerHTML = `<p class="empty-state">Bin 暫時未有已刪除帖文。</p>`;
+        return;
+      }
+
+      list.innerHTML = posts.map(post => `
+        <article class="bin-row">
+          <span>
+            <span class="bin-title">${escapeHtml(post.title)}</span>
+            <span class="bin-meta">${escapeHtml(categoryLabels[post.category] || "")} ・ deleted ${escapeHtml(formatDate(post.deletedAt || Date.now()))}</span>
+          </span>
+          <button class="delete-permanent" type="button" data-delete-permanent="${escapeHtml(post.id)}">永久刪除</button>
+        </article>
+      `).join("");
+    }
+
+    function paragraphHtml(value) {
+      return String(value)
+        .split(/\n{2,}/)
+        .map(part => part.trim())
+        .filter(Boolean)
+        .map(part => `<p>${escapeHtml(part).replace(/\n/g, "<br>")}</p>`)
+        .join("");
+    }
+
+    function renderDetail(post) {
+      const detail = document.querySelector("[data-post-detail]");
+      if (!detail) return;
+
+      if (!post) {
+        detail.innerHTML = `<p class="empty-state">選擇左邊帖文後，內容會在這裡顯示。</p>`;
+        return;
+      }
+
+      const threads = getThreads()[post.id] || [];
+      detail.innerHTML = `
+        <p class="detail-kicker">${escapeHtml(categoryLabels[post.category] || "")}</p>
+        <h2 class="detail-title">${escapeHtml(post.title)}</h2>
+        <p class="detail-meta">${escapeHtml(post.author || "Edmund Sir")} ・ ${escapeHtml(formatDate(post.createdAt))}</p>
+        <div class="detail-body">${paragraphHtml(post.body)}</div>
+        <button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Move to bin</button>
+        <section class="thread-section">
+          <h3>Threads 討論串</h3>
+          <div class="thread-list">
+            ${threads.length ? threads.map(thread => `
+              <article class="thread-item">
+                <strong>${escapeHtml(thread.name)}</strong>
+                <p>${escapeHtml(thread.message)}</p>
+              </article>
+            `).join("") : `<p class="empty-state">暫時未有回覆，歡迎留下第一個想法。</p>`}
+          </div>
+          <form class="thread-form" data-thread-form data-thread-post-id="${escapeHtml(post.id)}">
+            <div class="field">
+              <label for="thread-name">您的名字</label>
+              <input id="thread-name" name="name" type="text" required>
+            </div>
+            <div class="field">
+              <label for="thread-message">回覆內容</label>
+              <textarea id="thread-message" name="message" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="submit-button" type="submit">發布回覆</button>
+            </div>
+          </form>
+        </section>
+      `;
+    }
+
+    function isLoggedIn() {
+      return sessionStorage.getItem(AUTH_KEY) === "yes";
+    }
+
+    function updateAuthUi() {
+      document.body.classList.toggle("is-admin", isLoggedIn());
+      const loginButton = document.querySelector("[data-login-button]");
+      if (loginButton) loginButton.textContent = isLoggedIn() ? "Log Out" : "Log In";
+      renderPosts();
+    }
+
+    function openLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      const error = document.querySelector("[data-login-error]");
+      if (error) error.textContent = "";
+      if (modal) modal.hidden = false;
+      window.setTimeout(() => document.querySelector("#admin-password")?.focus(), 0);
+    }
+
+    function closeLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      if (modal) modal.hidden = true;
+    }
+
+    document.addEventListener("click", event => {
+      const postButton = event.target.closest("[data-post-id]");
+      if (postButton) {
+        activePostId = postButton.getAttribute("data-post-id") || "";
+        renderPosts();
+        return;
+      }
+
+      const categoryButton = event.target.closest("[data-category-filter]");
+      if (categoryButton) {
+        const nextCategory = categoryButton.getAttribute("data-category-filter") || "all";
+        activeCategory = activeCategory === nextCategory ? "all" : nextCategory;
+        document.querySelectorAll("[data-category-filter]").forEach(button => {
+          button.classList.toggle("is-active", button.getAttribute("data-category-filter") === activeCategory);
+        });
+        activePostId = "";
+        renderPosts();
+        return;
+      }
+
+      const deleteButton = event.target.closest("[data-delete-post]");
+      if (deleteButton) {
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+        const id = deleteButton.getAttribute("data-delete-post");
+        if (!id) return;
+        const post = getAllPosts().find(item => item.id === id);
+        if (!post) return;
+        saveStoredPosts(getStoredPosts().filter(post => post.id !== id));
+        const binPosts = getBinPosts().filter(item => item.id !== id);
+        saveBinPosts([{ ...post, deletedAt: Date.now() }, ...binPosts]);
+        activePostId = "";
+        renderPosts();
+        return;
+      }
+
+      const permanentDeleteButton = event.target.closest("[data-delete-permanent]");
+      if (permanentDeleteButton) {
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+        const id = permanentDeleteButton.getAttribute("data-delete-permanent");
+        if (!id) return;
+        saveBinPosts(getBinPosts().filter(post => post.id !== id));
+        saveStoredPosts(getStoredPosts().filter(post => post.id !== id));
+        savePurgedIds([...getPurgedIds(), id]);
+        const threads = getThreads();
+        delete threads[id];
+        saveThreads(threads);
+        activePostId = "";
+        renderPosts();
+        renderBin();
+        return;
+      }
+
+      if (event.target.closest("[data-admin-jump]")) {
+        document.querySelector("[data-admin-panel]")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+
+    document.querySelector("[data-login-button]")?.addEventListener("click", () => {
+      if (isLoggedIn()) {
+        sessionStorage.removeItem(AUTH_KEY);
+        updateAuthUi();
+        return;
+      }
+      openLogin();
+    });
+
+    document.querySelector("[data-close-login]")?.addEventListener("click", closeLogin);
+
+    document.querySelector("[data-login-form]")?.addEventListener("submit", event => {
+      event.preventDefault();
+      const password = String(new FormData(event.currentTarget).get("password") || "");
+      const error = document.querySelector("[data-login-error]");
+      if (password === ADMIN_PASSWORD) {
+        sessionStorage.setItem(AUTH_KEY, "yes");
+        event.currentTarget.reset();
+        closeLogin();
+        updateAuthUi();
+        document.querySelector("[data-admin-panel]")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else if (error) {
+        error.textContent = "Password does not match.";
+      }
+    });
+
+    document.querySelector("[data-post-form]")?.addEventListener("submit", event => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      const formData = new FormData(form);
+      const post = {
+        id: `forum-${Date.now()}`,
+        title: String(formData.get("title") || "").trim(),
+        category: String(formData.get("category") || "sharing"),
+        body: String(formData.get("body") || "").trim(),
+        createdAt: Date.now(),
+        author: "Forum User"
+      };
+      saveStoredPosts([post, ...getStoredPosts()]);
+      activeCategory = "all";
+      activePostId = post.id;
+      document.querySelectorAll("[data-category-filter]").forEach(button => {
+        button.classList.remove("is-active");
+      });
+      form.reset();
+      renderPosts();
+    });
+
+    document.addEventListener("submit", event => {
+      const form = event.target.closest("[data-thread-form]");
+      if (!form) return;
+      event.preventDefault();
+      const postId = form.getAttribute("data-thread-post-id");
+      if (!postId) return;
+      const formData = new FormData(form);
+      const thread = {
+        name: String(formData.get("name") || "").trim(),
+        message: String(formData.get("message") || "").trim(),
+        createdAt: Date.now()
+      };
+      if (!thread.name || !thread.message) return;
+      const threads = getThreads();
+      threads[postId] = [thread, ...(threads[postId] || [])];
+      saveThreads(threads);
+      form.reset();
+      renderDetail(getAllPosts().find(post => post.id === postId));
+    });
+
+    document.querySelectorAll("[data-loop-gif]").forEach(image => {
+      const baseSource = image.getAttribute("data-gif-src");
+      if (!baseSource) return;
+      window.setInterval(() => {
+        image.src = `${baseSource}?loop=${Date.now()}`;
+      }, 9000);
+    });
+
+    updateAuthUi();
+  </script>
+  <script src="page-loader.js"></script>
+</body>
+</html>

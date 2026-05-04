@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>About me | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    html, body, a, button { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 600;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .topbar,
+    main {
+      position: relative;
+      z-index: 1;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      width: 100%;
+      height: 10vh;
+      min-height: 82px;
+      max-height: 116px;
+      background: #F7E7CE;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      backdrop-filter: blur(18px);
+      transition: background 0.35s ease, border-color 0.35s ease, backdrop-filter 0.35s ease;
+    }
+
+    body.header-centered .topbar {
+      background: #F7E7CE;
+      border-color: rgba(0,0,0,0.08);
+      backdrop-filter: blur(18px);
+    }
+
+    .topbar-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 0 clamp(28px, 5vw, 132px);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 24px;
+    }
+
+    .brand {
+      position: absolute;
+      top: 50%;
+      display: block;
+      text-decoration: none;
+      transform: translateY(-50%);
+      transition: opacity 0.42s ease, transform 0.42s ease, filter 0.42s ease;
+    }
+
+    .brand img {
+      display: block;
+      height: clamp(76px, 9.4vh, 112px);
+      width: auto;
+      max-width: min(760px, 44vw);
+      object-fit: contain;
+    }
+
+    .brand-left {
+      left: clamp(28px, 5vw, 132px);
+      opacity: 1;
+    }
+
+    .brand-center {
+      left: 50%;
+      opacity: 0;
+      transform: translate(-50%, -50%) translateY(-8px) scale(0.96);
+      pointer-events: none;
+    }
+
+    .brand-center img {
+      height: clamp(82px, 9.8vh, 118px);
+      max-width: min(920px, 54vw);
+      filter: brightness(0) contrast(1.25);
+      mix-blend-mode: multiply;
+    }
+
+    body.header-centered .brand-left {
+      opacity: 0;
+      transform: translateY(-50%) translateX(-18px);
+      pointer-events: none;
+    }
+
+    body.header-centered .brand-center {
+      opacity: 0.58;
+      transform: translate(-50%, -50%) translateY(0) scale(1);
+      pointer-events: auto;
+    }
+
+    .topnav {
+      position: relative;
+      z-index: 2;
+      display: none;
+      gap: 26px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      transition: opacity 0.28s ease;
+    }
+
+    .topnav::-webkit-scrollbar { display: none; }
+
+    .topnav a {
+      color: #1d1d1f;
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .about-main {
+      background: #f6f4f0;
+    }
+
+    .about-frame {
+      position: relative;
+      min-height: calc(100vh - 82px);
+      padding: clamp(36px, 4vw, 78px) clamp(22px, 3vw, 58px);
+      display: grid;
+      align-items: center;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .about-frame::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background-image: var(--bg);
+      background-size: var(--bg-size, cover);
+      background-position: var(--bg-position, center);
+      background-repeat: no-repeat;
+      transform: scale(1.03);
+      filter: saturate(0.9) contrast(1.02);
+      opacity: 0.90;
+      transition: filter 0.9s ease, opacity 0.9s ease, transform 0.9s ease;
+    }
+
+    .about-frame::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background:
+        linear-gradient(90deg, rgba(246,244,240,0.14), rgba(246,244,240,0.02) 45%, rgba(246,244,240,0.16)),
+        rgba(255,255,255,0.02);
+      transition: background 0.9s ease, opacity 0.9s ease;
+    }
+
+    .frame-two::after,
+    .frame-four::after {
+      background:
+        linear-gradient(90deg, rgba(246,244,240,0.12), rgba(246,244,240,0.02) 52%, rgba(246,244,240,0.12)),
+        rgba(255,255,255,0.02);
+    }
+
+    .frame-three::after,
+    .frame-five::after {
+      background:
+        linear-gradient(90deg, rgba(246,244,240,0.12), rgba(246,244,240,0.02) 48%, rgba(246,244,240,0.14)),
+        rgba(255,255,255,0.02);
+    }
+
+    .frame-inner {
+      position: relative;
+      width: min(2380px, 100%);
+      min-height: min(1040px, calc(100vh - 132px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(610px, 0.92fr) minmax(820px, 1.08fr);
+      gap: clamp(36px, 3.4vw, 86px);
+      align-items: center;
+      transition: filter 0.6s ease, opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .frame-inner.image-left {
+      grid-template-columns: minmax(860px, 1.06fr) minmax(650px, 0.94fr);
+    }
+
+    .copy-space {
+      height: clamp(650px, calc(100vh - 166px), 1120px);
+      min-height: 0;
+      border-left: 5px solid rgba(147,85,47,0.24);
+      background:
+        linear-gradient(90deg, rgba(255,255,255,0.82), rgba(255,255,255,0.54));
+      backdrop-filter: blur(10px);
+      opacity: 0;
+      transform: translateX(-56px);
+      transition:
+        opacity 1.35s cubic-bezier(0.16, 1, 0.3, 1),
+        transform 1.35s cubic-bezier(0.16, 1, 0.3, 1),
+        box-shadow 1.35s ease;
+      box-shadow: 0 28px 74px rgba(29,29,31,0.13);
+      overflow: hidden;
+    }
+
+    .image-left .copy-space {
+      border-left: 0;
+      border-right: 5px solid rgba(147,85,47,0.24);
+      transform: translateX(56px);
+    }
+
+    .about-frame.is-focused .copy-space {
+      opacity: 1;
+      transform: translateX(0);
+      transition-delay: 1s, 1s, 1s;
+    }
+
+    .about-main.has-focused-frame .about-frame:not(.is-focused) .frame-inner {
+      filter: blur(3px);
+      opacity: 0.58;
+      transform: scale(0.985);
+    }
+
+    .about-main.has-focused-frame .about-frame:not(.is-focused)::before {
+      filter: saturate(0.72) contrast(0.94) blur(8px);
+      opacity: 0.68;
+      transform: scale(1.08);
+    }
+
+    .about-main.has-focused-frame .about-frame:not(.is-focused)::after {
+      background:
+        linear-gradient(90deg, rgba(246,244,240,0.30), rgba(246,244,240,0.18) 48%, rgba(246,244,240,0.32)),
+        rgba(255,255,255,0.16);
+    }
+
+    .about-main.has-focused-frame .about-frame.is-focused .frame-inner {
+      filter: none;
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .about-copy-panel {
+      display: flex;
+      flex-direction: column;
+      padding: clamp(34px, 2.6vw, 62px);
+      color: #1d1d1f;
+    }
+
+    .about-copy-panel:focus {
+      outline: 3px solid rgba(147,85,47,0.26);
+      outline-offset: -8px;
+    }
+
+    .about-copy-title {
+      margin: 0;
+      font-size: clamp(30px, 2.15vw, 48px);
+      line-height: 1.16;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 0.95s ease, transform 0.95s ease;
+    }
+
+    .about-title-line {
+      display: block;
+    }
+
+    .about-copy-rule {
+      flex: 0 0 auto;
+      width: 100%;
+      height: 3px;
+      margin: clamp(18px, 1.6vw, 30px) 0 clamp(18px, 1.7vw, 34px);
+      background: linear-gradient(90deg, rgba(147,85,47,0.72), rgba(212,170,83,0.24), transparent);
+      opacity: 0;
+      transform: scaleX(0.74);
+      transform-origin: left center;
+      transition: opacity 0.95s ease, transform 0.95s ease;
+    }
+
+    .about-copy-body {
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding: 0 clamp(12px, 1vw, 20px) 4px 0;
+      scrollbar-color: rgba(147,85,47,0.58) rgba(255,255,255,0.22);
+      scrollbar-width: thin;
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 1.05s ease, transform 1.05s ease;
+    }
+
+    .about-frame.is-focused .about-copy-title,
+    .about-frame.is-focused .about-copy-rule,
+    .about-frame.is-focused .about-copy-body {
+      opacity: 1;
+      transform: none;
+    }
+
+    .about-frame.is-focused .about-copy-title {
+      transition-delay: 1.18s, 1.18s;
+    }
+
+    .about-frame.is-focused .about-copy-rule {
+      transition-delay: 1.32s, 1.32s;
+    }
+
+    .about-frame.is-focused .about-copy-body {
+      transition-delay: 1.44s, 1.44s;
+    }
+
+    .about-copy-body::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .about-copy-body::-webkit-scrollbar-track {
+      background: rgba(255,255,255,0.24);
+    }
+
+    .about-copy-body::-webkit-scrollbar-thumb {
+      background: rgba(147,85,47,0.52);
+      border-radius: 999px;
+    }
+
+    .about-copy-body p {
+      margin: 0 0 1.05em;
+      font-size: clamp(25px, 1.52vw, 35px);
+      line-height: 1.64;
+      font-weight: 760;
+      color: #25252a;
+    }
+
+    .core-panel {
+      position: relative;
+      margin: 0;
+      width: 100%;
+      border-radius: 0;
+      overflow: visible;
+      background: rgba(255,255,255,0.70);
+      box-shadow: 0 34px 86px rgba(0,0,0,0.14);
+      opacity: 0;
+      transform: translateY(34px) scale(0.975);
+      transition: opacity 0.85s ease, transform 0.85s ease, box-shadow 0.85s ease;
+    }
+
+    .about-frame.is-visible .core-panel {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+
+    .core-panel img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      object-position: var(--image-position, center);
+    }
+
+    .frame-one .core-panel {
+      max-width: 1580px;
+      justify-self: end;
+    }
+
+    .frame-four {
+      min-height: calc(100vh - 82px);
+    }
+
+    .frame-four .frame-inner {
+      align-items: center;
+    }
+
+    .feature-stack {
+      min-width: 0;
+    }
+
+    .about-card-dock {
+      position: relative;
+      width: min(100%, 1040px);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0;
+      align-items: center;
+      padding-bottom: 76px;
+    }
+
+    .about-card-dock::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 24px;
+      width: 252px;
+      height: 18px;
+      transform: translateX(-50%);
+      background:
+        radial-gradient(circle at 9px 50%, rgba(29,29,31,0.30) 0 5px, transparent 5.5px),
+        radial-gradient(circle at 45px 50%, rgba(29,29,31,0.78) 0 5px, transparent 5.5px),
+        radial-gradient(circle at 81px 50%, rgba(29,29,31,0.78) 0 5px, transparent 5.5px),
+        radial-gradient(circle at 117px 50%, rgba(29,29,31,0.78) 0 5px, transparent 5.5px),
+        radial-gradient(circle at 153px 50%, rgba(29,29,31,0.78) 0 5px, transparent 5.5px),
+        radial-gradient(circle at 189px 50%, rgba(29,29,31,0.78) 0 5px, transparent 5.5px),
+        radial-gradient(circle at 225px 50%, rgba(29,29,31,0.78) 0 5px, transparent 5.5px);
+    }
+
+    .rail-copy-space {
+      position: relative;
+      display: grid;
+      place-items: center;
+      padding: clamp(46px, 4.2vw, 76px) clamp(34px, 3vw, 56px);
+      overflow: visible;
+    }
+
+    .rail-copy-space .about-card-dock {
+      width: min(1120px, 118%);
+    }
+
+    .rail-button {
+      width: 44px;
+      height: 44px;
+      border: 1px solid rgba(29,29,31,0.16);
+      border-radius: 50%;
+      background: rgba(255,255,255,0.78);
+      color: #1d1d1f;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 300;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+      transition: transform 0.22s ease, background 0.22s ease;
+      position: absolute;
+      bottom: 10px;
+      z-index: 3;
+    }
+
+    .rail-button[data-rail-prev] {
+      left: calc(50% - 246px);
+    }
+
+    .rail-button[data-rail-next] {
+      right: calc(50% - 246px);
+    }
+
+    .rail-button:hover {
+      transform: scale(1.05);
+      background: rgba(255,255,255,0.96);
+    }
+
+    .about-card-track {
+      display: flex;
+      gap: 30px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      padding: 6px 2px 18px;
+    }
+
+    .about-card-track::-webkit-scrollbar { display: none; }
+
+    .about-info-card {
+      flex: 0 0 calc((100% - 90px) / 4);
+      min-height: clamp(310px, 18vw, 420px);
+      padding: clamp(24px, 1.7vw, 34px);
+      scroll-snap-align: start;
+      background: rgba(242,245,246,0.94);
+      box-shadow: none;
+      display: grid;
+      align-content: start;
+      grid-template-rows: auto auto auto auto 1fr auto;
+      gap: clamp(13px, 1vw, 18px);
+      overflow: hidden;
+    }
+
+    .about-info-card span {
+      position: relative;
+      width: 46px;
+      height: 42px;
+      display: block;
+      border: 0;
+      border-radius: 0;
+      background: none;
+    }
+
+    .about-info-card span::before {
+      content: "";
+      position: absolute;
+      left: 3px;
+      top: 6px;
+      width: 38px;
+      height: 12px;
+      border: 2px solid #16a6c9;
+      border-bottom: 0;
+      transform: perspective(80px) rotateX(20deg);
+    }
+
+    .about-info-card span::after {
+      content: "";
+      position: absolute;
+      left: 7px;
+      top: 20px;
+      width: 30px;
+      height: 18px;
+      background:
+        linear-gradient(90deg, #16a6c9 0 2px, transparent 2px 7px, #16a6c9 7px 9px, transparent 9px 14px, #16a6c9 14px 16px, transparent 16px 21px, #16a6c9 21px 23px, transparent 23px 28px, #16a6c9 28px 30px),
+        linear-gradient(#16a6c9, #16a6c9) left bottom / 30px 2px no-repeat;
+    }
+
+    .card-line {
+      height: 9px;
+      border-radius: 999px;
+      background: rgba(29,29,31,0.10);
+    }
+
+    .card-line.long {
+      width: 82%;
+      height: 20px;
+      margin-top: 8px;
+      background: rgba(29,29,31,0.32);
+    }
+
+    .card-line.mid {
+      width: 90%;
+      background: rgba(29,29,31,0.16);
+    }
+
+    .card-line.short {
+      width: 66%;
+      background: rgba(29,29,31,0.16);
+    }
+
+    .about-info-card::after {
+      content: "";
+      align-self: end;
+      width: 86px;
+      height: 11px;
+      margin-top: clamp(32px, 5vw, 86px);
+      background:
+        linear-gradient(#057c9b, #057c9b) left center / 62px 2px no-repeat,
+        linear-gradient(135deg, transparent 45%, #057c9b 45% 58%, transparent 58%) right center / 16px 16px no-repeat;
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (max-width: 900px) {
+      html, body, a, button { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .topbar {
+        height: 88px;
+        min-height: 88px;
+      }
+
+      .topbar-inner {
+        padding: 12px 22px;
+        align-items: center;
+      }
+
+      .brand img {
+        height: 62px;
+        max-width: 210px;
+      }
+
+      .brand-center img {
+        height: 68px;
+        max-width: 260px;
+      }
+
+      .about-frame {
+        min-height: auto;
+        padding: 58px 22px;
+      }
+
+      .frame-inner,
+      .frame-inner.image-left {
+        min-height: 0;
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+
+      .frame-inner .core-panel,
+      .frame-inner.image-left .core-panel {
+        order: 1;
+      }
+
+      .frame-inner .copy-space,
+      .frame-inner.image-left .copy-space {
+        order: 2;
+      }
+
+      .copy-space,
+      .image-left .copy-space {
+        height: min(74svh, 720px);
+        min-height: 460px;
+        padding: 26px 22px;
+        border-right: 0;
+        border-left: 4px solid rgba(147,85,47,0.24);
+      }
+
+      .about-copy-title {
+        font-size: clamp(25px, 7.2vw, 36px);
+      }
+
+      .about-copy-body p {
+        font-size: 24px;
+        line-height: 1.55;
+      }
+
+      .core-panel img {
+        max-height: none;
+      }
+
+      .frame-four {
+        padding-bottom: 58px;
+      }
+
+      .frame-four .frame-inner {
+        transform: none;
+      }
+
+      .feature-stack {
+        min-width: 0;
+      }
+
+      .about-card-dock {
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr);
+        transform: none;
+        padding-bottom: 0;
+      }
+
+      .about-card-dock::after {
+        display: none;
+      }
+
+      .rail-copy-space {
+        padding: 20px;
+      }
+
+      .rail-copy-space .about-card-dock {
+        width: 100%;
+      }
+
+      .rail-button {
+        display: none;
+      }
+
+      .about-info-card {
+        flex-basis: 72vw;
+        min-height: 310px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+</head>
+
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand brand-left" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+      <a class="brand brand-center" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+
+      <nav class="topnav" aria-label="Main navigation">
+        <a href="cre.html">真人英文課程</a>
+        <a href="recorded.html">錄影班</a>
+        <a href="notes.html">英文筆記</a>
+        <a href="resources.html">免費資源</a>
+        <a href="forum.html">英文論壇</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="about-main">
+    <h1 class="visually-hidden">關於 Edmund Sir 導師介紹及經驗</h1>
+
+    <section class="about-frame frame-one" style="--bg: url('Static Images/Aboute me - Background Image 1.jpg'); --bg-position: center left;" aria-label="About Edmund Sir section 1">
+      <div class="frame-inner">
+        <article class="copy-space about-copy-panel" tabindex="0">
+          <h2 class="about-copy-title"><span class="about-title-line">Edmund Sir｜專教成人英語，</span><span class="about-title-line">將英文帶回真實世界</span></h2>
+          <div class="about-copy-rule" aria-hidden="true"></div>
+          <div class="about-copy-body">
+            <p>很多香港人學英文，最辛苦的一刻，往往出現在真正需要開口的時候。</p>
+            <p>會議室裡，腦中有想法，句子卻「卡在喉嚨」；客戶電郵來了，意思看得明白，回覆時卻反覆修改；面試前準備了很久，臨場又擔心語氣太生硬 (Stiff)、太學生化 (Academic)、太不像自己 (not even “who I am”)。</p>
+            <p>這些問題，我十分熟悉。</p>
+            <p>我是 Edmund Sir，香港大學 (The University of Hong Kong)畢業，擁有七年專業英語教學經驗，現職於香港一間創新科技初創企業 (VC-backed tech startup)，負責環球營運管理 (global operational management)及商務拓展(business development)。</p>
+            <p>我的日常工作(core duties)需要處理跨國團隊協作(cross-border coordination)、海外客戶溝通、英文電郵、會議簡報(daily correspondence)、商務洽談和項目推進(project push through)。</p>
+            <p>英文對我而言，從來都不是一門只放在課本裡的「科目」；它是一件每天要拿上手、用得好、用得穩陣的「工具」。</p>
+            <p>成人英語最值得訓練的地方，往往藏在細節裡(devil’s in the details)。</p>
+            <p>同一句說話，換一個動詞，力度(power)不同；調整一下語氣，專業感不同；重排句子次序，說服力又會不同。</p>
+            <p>文法正確只是起點; 真正影響表現的，是你能否在合適的場合，用合適的語氣，把想法說得清楚、自然、有分寸(appropriately)。</p>
+            <p>這種能力需要訓練，也需要有人幫你看見盲點(blind spots)。</p>
+            <p>我的課堂通常由一個很實際的(practical) 問題開始：你下一次真正需要用英文的場合 (occasion) 在哪裡？是公司會議、客戶電話、升職面試、商務電郵、海外簡報，還是公開考試？</p>
+            <p>找到場景畫面，讀書才有方向。</p>
+            <p>英文學習最怕「繞遠路」。成人學生時間有限，沒有必要花太多精力在短期內用不上的內容上；更重要的是先處理最常遇到、最容易失分、最影響自信的部分。</p>
+            <p>我會根據學生的身份、行業、程度和目標設計課程。</p>
+            <p>有人需要提升會議表達(delivery)，有人需要改善商務電郵，有人要準備 IELTS、TOEFL、TOEIC 或 HKDSE，有人則希望在職場上表達得更成熟、更有條理。</p>
+            <p>課堂內容可以很貼身：工作文件、公司電郵、履歷、面試答案、簡報稿、客戶訊息，萬物皆可以成為學習材料。</p>
+            <p>好的英文課，應該像一套剪裁合身的「西裝」(a bespoke suit)；外表亮眼固然好，但真正重要的是穿上後能讓人站得更「挺身」。</p>
+            <p>我的教學核心很簡單：讓學生把英文用起來。</p>
+            <p>說話更自然，寫作更清晰，語氣更得體，思路更有層次(clear and clever)。</p>
+            <p>英文能力一旦真正提升，便會慢慢變成一種「骨氣」;它未必高聲張揚，但卻會在會議、面試、電郵和每一次重要溝通中，安靜地替你「加分」。</p>
+          </div>
+        </article>
+        <figure class="core-panel" style="--image-position: center;">
+          <img src="Static Images/About Me - 1st Core Image.jpg" alt="Edmund Sir">
+        </figure>
+      </div>
+    </section>
+
+    <section class="about-frame frame-two" style="--bg: url('Static Images/Aboute me - Background Image 2.jpg'); --bg-position: center top;" aria-label="About Edmund Sir section 2">
+      <div class="frame-inner">
+        <article class="copy-space about-copy-panel" tabindex="0">
+          <h2 class="about-copy-title">港大背景｜語言、科學與商業思維的交會</h2>
+          <div class="about-copy-rule" aria-hidden="true"></div>
+          <div class="about-copy-body">
+            <p>於香港大學，我主修生物基因工程 (Genetic Engineering | Molecular Biology and Biotechnology)，並雙副修計量市場研究 (Quantitative Marketing) 及意大利語。</p>
+            <p>這段大學經歷，後來成為我教英文時最重要的「底色」。它訓練我的，不只是知識本身，還包括分析複雜內容的能力、對語言細節的敏感度 (sensitivity)，以及在不同語境中作出準確判斷的能力。</p>
+            <p>生物基因工程是一個高度講求精準的領域。科學英文不能靠浮誇詞彙支撐，也不能用模糊句子蒙混過關。閱讀研究文獻時，每一個概念都需要定義清楚；寫作或匯報時，每一個結論都要有邏輯承托。</p>
+            <p>這種訓練像一把「顯微鏡」，迫使人看清句子背後的結構：重點在哪裡，因果是否清楚，證據是否足夠，語氣是否過度。多年下來，我對文字的準確度特別敏感，也更明白學生寫英文時常見的問題。很多時候，句子卡住，根源未必是生字不夠，其實也許只是思路未整理好。</p>
+            <p>計量市場研究則帶給我另一種視角。商業世界重視受眾(target audience)、目標(mission)、訊息(message)和結果(deliverables)。</p>
+            <p>你說一句話，對方是否願意聽? 你寫一封電郵，對方是否願意回? 你提出一個方案，對方是否願意行動? 這些都牽涉語言以外的判斷(things that exist beyond language)。</p>
+            <p>商務英文的關鍵，往往在於分寸(appropriacy) ; 太直接，容易顯得冒進 (aggressive)；太婉轉，又可能失去重點。成熟的表達需要像調校儀器一樣，掌握力度、角度和時機。</p>
+            <p>意大利語的學習經驗，讓我更深刻理解語言本身的「生命力」。</p>
+            <p>每一種語言都有自己的節奏、習慣和文化「氣味」。英文說得自然，不能只靠把中文逐字翻譯過去。英文有自己的句子推進方式 (progression and development)，有自己的禮貌邏輯，也有自己的語氣層次。學習外語的過程，令我更懂得站在學生角度看問題：為甚麼明明背了很多句子，臨場仍然說不出來？為甚麼文法沒有大錯，聽起來仍然不夠自然？這些問題背後，往往涉及語感、語境和思維方式。</p>
+            <p>在港大期間，我也曾協助教授及學院副院長 (Associate Dean) 接待來自歐美及亞洲不同地區的外國訪客。那是一種很實在的跨文化訓練。</p>
+            <p>專業場合中的英文，除了準確，還要體面；除了清楚，還要有禮；除了能說出意思，還要懂得照顧現場氣氛。一次握手、一句寒暄、一個簡短回應，都可能影響對方對你的印象。</p>
+            <p>語言在這些場合裡，像一盞「燈」，「照」出人的修養、判斷和準備程度。</p>
+            <p>因此，我的教學並不只處理表層的錯字和文法。我更重視學生如何組織想法，如何選擇語氣，如何讓表達符合身份、場合和目的。</p>
+            <p>科學訓練讓我追求精準，商業訓練讓我重視效果，語言訓練讓我敏感於細節。這三者合起來，形成了我今日的教學方法：有結構，有實用性，也有語感。</p>
+          </div>
+        </article>
+        <figure class="core-panel" style="--image-position: center;">
+          <img src="Static Images/About Me - 2nd Core Image.png" alt="Edmund Sir teaching story">
+        </figure>
+      </div>
+    </section>
+
+    <section class="about-frame frame-three" style="--bg: url('Static Images/Aboute me - Background Image 3.jpg'); --bg-position: center;" aria-label="About Edmund Sir section 3">
+      <div class="frame-inner image-left">
+        <figure class="core-panel" style="--image-position: center;">
+          <img src="Static Images/About me - 3rd Core Image.jpg" alt="Edmund Sir academic experience">
+        </figure>
+        <article class="copy-space about-copy-panel" tabindex="0">
+          <h2 class="about-copy-title"><span class="about-title-line">真實商界經驗｜</span><span class="about-title-line">每日在國際商業環境中使用英文</span></h2>
+          <div class="about-copy-rule" aria-hidden="true"></div>
+          <div class="about-copy-body">
+            <p>我現職於香港一間由風險 (Venture Capital) 投資支持的創新科技初創企業，負責環球營運管理及商務拓展。公司估值超過一億港元，業務涉及海外市場、國際客戶、多國團隊和快速變化的科技商業環境。</p>
+            <p>這份工作讓我每天都在高密度的英文場景 (English-rich environment) 中工作；英文在這裡沒有練習題的「安全網」(safety net)，只有真實訊息、真實對象和真實後果。</p>
+            <p>我的日常工作包括處理大量英文電郵、參與跨國會議、與海外客戶溝通、協調全球團隊、跟進項目進度、推動商務合作和處理營運細節。</p>
+            <p>客戶來自不同國家，文化背景各異，溝通節奏亦不一樣。有些人重視效率，有些人重視關係；有些回覆直接，有些說話含蓄 (implicit)。</p>
+            <p>真正的商務英文，正是在這些微妙差異(subtle difference)之間慢慢「鍛煉」出來。</p>
+            <p>在企業環境中，英文的作用很清楚：令事情向前走 (move forward):</p>
+            <p>一封好的 follow-up email，可以把「沉默的對話」重新打開；一句得體的 clarification，可以避免整個項目走錯方向；一個有分寸的拒絕，可以保留關係，也保住立場。</p>
+            <p>我經常見到學生在職場英文上遇到幾類困難。有些人想在會議中插話，卻怕打斷別人；有些人想跟進進度，卻怕語氣顯得催促(pushy)；有些人想拒絕客戶要求，卻怕關係變差；有些人需要向上司匯報，卻不知道如何把重點排得更有層次(managing up)。</p>
+            <p>這些情境很日常，也很關鍵 (critical)。處理得好 (handled properly)，專業感 (professionalism) 會提升；處理得差 (mishandled)，工作能力容易被低估。</p>
+            <p>我的課堂會把這些真實情境轉化成可練習的內容。</p>
+            <p>學生可以學習如何寫一封清楚、有禮、有效的英文電郵；如何在 conference call 中簡潔匯報進度；如何向客戶解釋延誤；如何提出要求而不顯得唐突 (sudden)；如何在面試中呈現經驗；如何把中文式思維改寫成自然英文。</p>
+            <p>這些訓練不追求花巧，重點在於可用、可重複、可帶回工作場合(applicable skills)。</p>
+            <p>科技初創企業的節奏也影響了我的教學方式。</p>
+            <p>在 startup 環境中，資訊來得快，決策推得快，溝通也要快而準。</p>
+            <p>成人學生的學習亦應如此：先找出最有價值的「突破口」 (breakthroughs)，再「集中火力」處理。英文學習不需要盲目鋪排成一條漫長的「隊列」；更有效的方法，是先處理學生眼前最常用、最急切 (imminent)、最影響表現的部分，然後逐步擴大能力範圍。</p>
+            <p>我每天在國際商業環境中使用英文，因此對職場語言有很直接的判斷。</p>
+            <p>這句話自然嗎？這封電郵會否太強硬 (strongly worded)？這個回覆是否清楚 (on the spot)？這種語氣是否符合客戶關係？這個表達能否推動下一步？</p>
+            <p>這些問題，教科書未必會逐一回答，但真實工作每天都會「給」你答案。我的教學，就是把這些答案整理成學生能吸收、能練習、能真正使用的方法。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-frame frame-four" style="--bg: url('Static Images/Aboute me - Background Image 4.jpg'); --bg-position: center;" aria-label="About Edmund Sir section 4">
+      <div class="frame-inner image-left">
+        <figure class="core-panel" style="--image-position: center;">
+          <img src="Static Images/About me - 4th Core Image.jpg" alt="Edmund Sir course experience">
+        </figure>
+
+        <article class="copy-space about-copy-panel" tabindex="0">
+          <h2 class="about-copy-title">我的學生｜來自不同行業，目標都是把英文真正用起來</h2>
+          <div class="about-copy-rule" aria-hidden="true"></div>
+          <div class="about-copy-body">
+            <p>過去七年，我教過很多不同背景的學生。</p>
+            <p>他們之中，有白領、中階管理層、空中服務員、奢侈品零售銷售代表、B2B 藥廠銷售人員、創業者、健身教練、醫學美容顧問、社交媒體市場推廣人員、產品設計師、消防員、海關人員、公務員、紀律部隊成員、酒店廚師、IT 項目經理、醫療診所專科配藥員、英文老師、家庭主婦、大學生、副學士學生、DSE retaker，以及準備 HKDSE、IELTS、TOEFL 和 TOEIC 的考生....</p>
+            <p>這份名單看起來很長，背後其實有一個共通點 (things in common)：他們都希望英文能在關鍵時刻派上用場。</p>
+            <p>有些學生需要在公司會議中說得更清楚；有些學生要面對海外客戶和英文電郵；有些學生準備升職、轉工或面試；有些學生短期內要應付公開考試；有些學生多年來一直害怕開口，希望終於可以自在地用英文表達自己。</p>
+            <p>每個人的起點不同，壓力不同，目標也不同。有效的課程，必須先看清這些差異。</p>
+            <p>我很重視學生的身份和使用場景。</p>
+            <p>管理層學生通常需要處理匯報、會議、決策和團隊溝通，語氣要成熟，結構要清楚，重點要有份量 (carries some weight)。</p>
+            <p>銷售和商務拓展學生，則需要面對客戶開發 (development)、跟進 (follow-up)、談判 (negotation)、拒絕 (decline)和關係維護 (relationship management)；一句英文寫得太「冷」，可能失去「溫度」，寫得太「軟」，又可能失去立場。服務業學生需要的是即時反應、禮貌表達和現場應對。考試學生則要面對時間限制、評分標準和高分策略。</p>
+            <p>不同身份需要不同「刀法」，不能用同一把「尺量」所有人。</p>
+            <p>我也曾長期教授來自本地 Band 1 中學、國際學校、小學、大專院校及不同升學背景的學生，涵蓋升中面試、初中英文、高中 DSE、成人英語和商務英語。</p>
+            <p>年輕學生需要建立語感、信心和基本功；大學生需要面試、學術表達和職場銜接；成人學生則更重視效率、應用和即時成果。</p>
+            <p>教學經驗累積得越多，我越明白一件事：英文進步沒有單一模板 (template)。真正有效的訓練，必須「對症下藥」。</p>
+            <p>成人學生尤其適合「貼身」學習。</p>
+            <p>很多人工作能力很強，只是英文表達尚未完全跟上自己的專業程度。</p>
+            <p>因此，我常鼓勵學生把自己的真實材料「帶」到課堂：工作電郵、履歷、面試答案、簡報稿、會議內容、公司文件，甚至是一段想說卻說不好的句子。這些材料比一般教材更有「溫度」，也更接近學生真正需要解決的問題。</p>
+            <p>我的角色，是幫學生把零散的英文知識整理成可用的能力。</p>
+            <p>用字要準，句子要順，語氣要穩，思路要清。當學生開始聽得懂會議重點，寫得出得體電郵，說得出自己的觀點，面試時能自然回應，英文就不再只是壓力來源。</p>
+            <p>最好的學習成果，往往「不聲張」。</p>
+            <p>它出現在學生第一次敢在會議中補充意見的時候，出現在一封寫得乾淨俐落的電郵裡，出現在面試官點頭的瞬間，也出現在學生發現自己終於能夠自然開口的那一刻。</p>
+            <p>那一刻，「英文開始真正屬於他們」。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-frame frame-five" style="--bg: url('Static Images/Aboute me - Background Image 5.jpg'); --bg-position: center;" aria-label="About Edmund Sir section 5">
+      <div class="frame-inner image-left">
+        <figure class="core-panel" style="--image-position: center;">
+          <img src="Static Images/About me - 5th Core Image.jpg" alt="Edmund Sir future learning vision">
+        </figure>
+        <article class="copy-space about-copy-panel" tabindex="0">
+          <h2 class="about-copy-title">立即預約免費體驗課</h2>
+          <div class="about-copy-rule" aria-hidden="true"></div>
+          <div class="about-copy-body">
+            <p>立即預約 45 分鐘免費體驗課，親身感受 Edmund Sir 的教學方式、課程方向與實際效果。</p>
+            <p>直接聯絡 Edmund 即可安排時間：<br>(+852) 4623 5513</p>
+            <p>歡迎透過 WhatsApp、Signal，或直接致電聯絡。</p>
+            <p>讓英文重新貼近你的工作、生活與真正需要。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    function setupHeaderWordmark() {
+      function updateHeader() {
+        document.body.classList.toggle("header-centered", window.scrollY > 24);
+      }
+
+      window.addEventListener("scroll", updateHeader, { passive: true });
+      window.addEventListener("resize", updateHeader);
+      updateHeader();
+    }
+
+    function setupFrameReveal() {
+      const frames = document.querySelectorAll(".about-frame");
+      if (!frames.length) return;
+
+      frames[0].classList.add("is-visible");
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          entry.target.classList.toggle("is-visible", entry.isIntersecting);
+        });
+      }, { threshold: 0.08 });
+
+      frames.forEach(frame => observer.observe(frame));
+    }
+
+    function setupFrameFocus() {
+      const main = document.querySelector(".about-main");
+      const frames = Array.from(document.querySelectorAll(".about-frame"));
+      if (!main || !frames.length) return;
+
+      const ratios = new Map(frames.map(frame => [frame, 0]));
+
+      function setFocused(frame) {
+        frames.forEach(item => item.classList.toggle("is-focused", item === frame));
+        main.classList.toggle("has-focused-frame", Boolean(frame));
+      }
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => ratios.set(entry.target, entry.intersectionRatio));
+
+        const focusedFrame = frames.reduce((best, frame) => {
+          if (!best) return frame;
+          return (ratios.get(frame) || 0) > (ratios.get(best) || 0) ? frame : best;
+        }, null);
+
+        setFocused((ratios.get(focusedFrame) || 0) > 0.18 ? focusedFrame : null);
+      }, {
+        threshold: [0, 0.18, 0.32, 0.48, 0.64, 0.8, 1]
+      });
+
+      frames.forEach(frame => {
+        observer.observe(frame);
+        frame.addEventListener("focusin", () => setFocused(frame));
+      });
+    }
+
+    function setupAboutRail() {
+      const rail = document.querySelector("[data-about-rail]");
+      const prev = document.querySelector("[data-rail-prev]");
+      const next = document.querySelector("[data-rail-next]");
+      if (!rail || !prev || !next) return;
+
+      function amount() {
+        return rail.clientWidth;
+      }
+
+      prev.addEventListener("click", () => {
+        rail.scrollBy({ left: -amount(), behavior: "smooth" });
+      });
+
+      next.addEventListener("click", () => {
+        rail.scrollBy({ left: amount(), behavior: "smooth" });
+      });
+    }
+
+    setupCustomCursor();
+    setupHeaderWordmark();
+    setupFrameReveal();
+    setupFrameFocus();
+    setupAboutRail();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>
