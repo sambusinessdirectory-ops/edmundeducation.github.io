@@ -1666,6 +1666,7 @@
     let currentVideoSet = null;
     let currentVideoIndex = 0;
     let videosAreEnabled = false;
+    let backgroundVideoLoadToken = 0;
 
     function shouldUseLightweightVideoMode() {
       const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
@@ -1691,7 +1692,6 @@
       if (!canUseBackgroundVideo()) return false;
       if (!videosAreEnabled) {
         videosAreEnabled = true;
-        document.documentElement.classList.add("video-enabled");
       }
       return true;
     }
@@ -1708,21 +1708,42 @@
       const hasCurrentSource = Boolean(currentVideo.getAttribute("src"));
       const nextIndex = hasCurrentSource ? 1 - activeBgVideoIndex : activeBgVideoIndex;
       const nextVideo = bgVideos[nextIndex];
+      const loadToken = ++backgroundVideoLoadToken;
+      let hasRevealed = false;
 
+      nextVideo.classList.remove("is-active");
       nextVideo.src = src;
       nextVideo.currentTime = 0;
       nextVideo.load();
 
-      const playPromise = nextVideo.play();
-      if (playPromise) playPromise.catch(() => {});
+      function revealPreparedVideo() {
+        if (hasRevealed || loadToken !== backgroundVideoLoadToken) return;
+        hasRevealed = true;
 
-      nextVideo.classList.add("is-active");
+        const playPromise = nextVideo.play();
+        if (playPromise) playPromise.catch(() => {});
 
-      if (nextVideo !== currentVideo) {
-        currentVideo.classList.remove("is-active");
+        document.documentElement.classList.add("video-enabled");
+        nextVideo.classList.add("is-active");
+
+        if (nextVideo !== currentVideo) {
+          currentVideo.classList.remove("is-active");
+        }
+
+        activeBgVideoIndex = nextIndex;
       }
 
-      activeBgVideoIndex = nextIndex;
+      nextVideo.addEventListener("loadeddata", revealPreparedVideo, { once: true });
+      nextVideo.addEventListener("canplay", revealPreparedVideo, { once: true });
+      nextVideo.addEventListener("error", () => {
+        if (loadToken === backgroundVideoLoadToken) {
+          nextVideo.classList.remove("is-active");
+        }
+      }, { once: true });
+
+      if (nextVideo.readyState >= 2) {
+        window.requestAnimationFrame(revealPreparedVideo);
+      }
     }
 
     function switchVideoSet(name) {
