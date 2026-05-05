@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Edmund 隨筆 / 免費英文學習資源站</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
 
   <style>
     @font-face {
@@ -305,7 +305,8 @@
     }
 
     .resource-card:hover,
-    .resource-card:focus-visible {
+    .resource-card:focus-visible,
+    .resource-card.is-touch-expanded {
       flex-basis: calc(var(--card-size) * 1.85);
       background: #050505;
       transform: translateY(-6px);
@@ -313,7 +314,8 @@
     }
 
     .resource-card:hover::after,
-    .resource-card:focus-visible::after {
+    .resource-card:focus-visible::after,
+    .resource-card.is-touch-expanded::after {
       opacity: 1;
       transform: scale(1.08);
     }
@@ -356,7 +358,8 @@
     }
 
     .resource-card:hover .option-copy,
-    .resource-card:focus-visible .option-copy {
+    .resource-card:focus-visible .option-copy,
+    .resource-card.is-touch-expanded .option-copy {
       max-width: none;
       padding-right: clamp(190px, 38%, 260px);
     }
@@ -411,7 +414,8 @@
     }
 
     .resource-card:hover .option-desc,
-    .resource-card:focus-visible .option-desc {
+    .resource-card:focus-visible .option-desc,
+    .resource-card.is-touch-expanded .option-desc {
       max-height: 170px;
       margin-top: 22px;
       opacity: 1;
@@ -419,7 +423,8 @@
     }
 
     .resource-card:hover .option-image,
-    .resource-card:focus-visible .option-image {
+    .resource-card:focus-visible .option-image,
+    .resource-card.is-touch-expanded .option-image {
       opacity: 1;
       transform: translateX(0) scale(1);
     }
@@ -439,12 +444,14 @@
     }
 
     .card-gold:hover .option-desc,
-    .card-gold:focus-visible .option-desc {
+    .card-gold:focus-visible .option-desc,
+    .card-gold.is-touch-expanded .option-desc {
       max-height: 88px;
     }
 
     .card-gold:hover .option-copy,
-    .card-gold:focus-visible .option-copy {
+    .card-gold:focus-visible .option-copy,
+    .card-gold.is-touch-expanded .option-copy {
       padding-right: clamp(160px, 32%, 220px);
     }
 
@@ -519,7 +526,8 @@
 
       .resource-card,
       .resource-card:hover,
-      .resource-card:focus-visible {
+      .resource-card:focus-visible,
+      .resource-card.is-touch-expanded {
         width: 100%;
         min-height: 260px;
         height: auto;
@@ -530,7 +538,8 @@
 
       .option-desc,
       .resource-card:hover .option-desc,
-      .resource-card:focus-visible .option-desc {
+      .resource-card:focus-visible .option-desc,
+      .resource-card.is-touch-expanded .option-desc {
         max-height: none;
         margin-top: 20px;
         opacity: 1;
@@ -543,7 +552,8 @@
 
       .option-copy,
       .resource-card:hover .option-copy,
-      .resource-card:focus-visible .option-copy {
+      .resource-card:focus-visible .option-copy,
+      .resource-card.is-touch-expanded .option-copy {
         max-width: none;
         padding-right: 0;
       }
@@ -552,8 +562,10 @@
       .card-gold .option-image,
       .resource-card:hover .option-image,
       .resource-card:focus-visible .option-image,
+      .resource-card.is-touch-expanded .option-image,
       .card-gold:hover .option-image,
-      .card-gold:focus-visible .option-image {
+      .card-gold:focus-visible .option-image,
+      .card-gold.is-touch-expanded .option-image {
         position: static;
         display: block;
         width: 100%;
@@ -712,8 +724,32 @@
       updateHeader();
     }
 
+    function setupTouchResourceCards() {
+      if (!window.matchMedia("(hover: none), (pointer: coarse)").matches) return;
+
+      let expandedCard = null;
+
+      document.querySelectorAll(".resource-card[href]").forEach(card => {
+        card.addEventListener("click", event => {
+          if (expandedCard !== card) {
+            event.preventDefault();
+            expandedCard?.classList.remove("is-touch-expanded");
+            card.classList.add("is-touch-expanded");
+            expandedCard = card;
+          }
+        });
+      });
+
+      document.addEventListener("click", event => {
+        if (!expandedCard || event.target.closest(".resource-card")) return;
+        expandedCard.classList.remove("is-touch-expanded");
+        expandedCard = null;
+      });
+    }
+
     setupCustomCursor();
     setupHeaderWordmark();
+    setupTouchResourceCards();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>

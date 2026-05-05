@@ -59,8 +59,18 @@ select {
     grid-column: auto !important;
   }
 
-  .side-logo {
-    display: none !important;
+  .side-logo,
+  body.is-gallery .side-logo,
+  body.is-final .side-logo {
+    display: block !important;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    width: min(420px, 82vw) !important;
+    margin: 28px auto 0 !important;
+    opacity: 1 !important;
+    transform: none !important;
+    pointer-events: none !important;
   }
 
   .about-frame {
@@ -80,6 +90,8 @@ select {
   .frame-inner.image-left .core-panel {
     order: 1;
     justify-self: center;
+    width: min(720px, 100%) !important;
+    max-width: 100% !important;
   }
 
   .frame-inner .copy-space,
@@ -91,13 +103,22 @@ select {
 
   .copy-space,
   .image-left .copy-space {
+    height: min(72vh, 680px) !important;
     min-height: 320px !important;
     border-right: 0 !important;
     border-left: 4px solid rgba(147,85,47,0.24) !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
   }
 
-  .about-copy-card {
-    max-height: min(70vh, 720px);
+  .about-copy-panel {
+    padding: clamp(26px, 4vw, 44px) !important;
+  }
+
+  .about-copy-body {
+    max-height: calc(100% - 118px) !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
   }
 
   .recorded-page,
@@ -126,6 +147,24 @@ select {
   .newsletter-hero-copy,
   .study-copy {
     width: 100% !important;
+  }
+
+  .study-nav {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 12px !important;
+    justify-items: start !important;
+  }
+
+  .study-nav-left,
+  .study-nav-right {
+    width: 100% !important;
+    flex-wrap: wrap !important;
+    gap: 10px 16px !important;
+  }
+
+  .study-nav-title {
+    justify-self: start !important;
+    white-space: normal !important;
   }
 
   .advantage-strip {
@@ -220,8 +259,16 @@ select {
   .comparison-table,
   .advantage-table,
   .pain-table {
+    width: 100% !important;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .comparison-table-wrap,
+  .table-shell,
+  .comparison-card {
+    width: 100% !important;
+    max-width: 100% !important;
   }
 
   table {

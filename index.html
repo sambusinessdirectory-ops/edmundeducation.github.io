@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Edmund 英文學習平台</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
 
   <style>
     @font-face {
@@ -1671,11 +1671,9 @@
     function shouldUseLightweightVideoMode() {
       const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
       const effectiveType = connection?.effectiveType || "";
-      const isMobileLike = window.matchMedia("(max-width: 900px), (hover: none), (pointer: coarse)").matches;
       const isSlowConnection = ["slow-2g", "2g", "3g"].includes(effectiveType);
-      const isCellular = connection?.type === "cellular";
 
-      return Boolean(connection?.saveData || isMobileLike || isSlowConnection || isCellular);
+      return Boolean(connection?.saveData || isSlowConnection);
     }
 
     const useLightweightVideoMode = shouldUseLightweightVideoMode();
