@@ -906,7 +906,8 @@
 
       <section class="admin-panel" id="create" data-admin-panel hidden>
         <h2>新增每日英文通訊</h2>
-        <p class="admin-note">登入後可以新增通訊。圖片會壓縮後儲存在此瀏覽器的 localStorage，最新一篇會顯示在首頁大橫幅。</p>
+        <p class="admin-note">登入後可以新增通訊。圖片會壓縮後儲存在 Supabase，最新一篇會顯示在首頁大橫幅。</p>
+        <p class="admin-note" data-sync-status>正在連接 Supabase...</p>
 
         <form class="post-form" data-post-form>
           <div class="field">
@@ -998,11 +999,16 @@
     </section>
   </div>
 
+  <script src="supabase-config.js?v=20260518-supabase-1"></script>
   <script>
     const ADMIN_PASSWORD = "EdmundDailyNews";
     const POSTS_KEY = "edmundDailyNewsletterPosts";
     const AUTH_KEY = "edmundDailyNewsletterLoggedIn";
     const DEFAULT_IMAGE = "Static Images/Daily Newsletter - Default English.jpg";
+    const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
+    const SUPABASE_URL = String(SUPABASE_CONFIG.url || "").replace(/\/$/, "");
+    const SUPABASE_ANON_KEY = String(SUPABASE_CONFIG.anonKey || "");
+    const POSTS_TABLE = SUPABASE_CONFIG.dailyNewsletterTable || "daily_newsletter_posts";
 
     const sectionLabels = {
       imageEnglish: "圖中英語",
@@ -1025,6 +1031,7 @@
 
     let activePost = defaultPost;
     let activeSection = "imageEnglish";
+    let cachedPosts = [];
 
     function escapeHtml(value) {
       return String(value)
@@ -1042,7 +1049,18 @@
         .filter(Boolean);
     }
 
-    function getStoredPosts() {
+    function hasSupabaseConfig() {
+      return SUPABASE_URL && SUPABASE_ANON_KEY && !SUPABASE_ANON_KEY.includes("PASTE_");
+    }
+
+    function setSyncStatus(message, isError = false) {
+      const status = document.querySelector("[data-sync-status]");
+      if (!status) return;
+      status.textContent = message;
+      status.style.color = isError ? "#a23b2d" : "var(--green-dark)";
+    }
+
+    function getLocalPosts() {
       try {
         return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
       } catch {
@@ -1050,12 +1068,131 @@
       }
     }
 
-    function saveStoredPosts(posts) {
+    function saveLocalPosts(posts) {
       localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function getStoredPosts() {
+      return cachedPosts;
     }
 
     function getLatestPost() {
       return getStoredPosts().sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0))[0] || null;
+    }
+
+    function postFromRow(row) {
+      const createdAt = Date.parse(row.created_at);
+      return {
+        id: row.id,
+        createdAt: Number.isFinite(createdAt) ? createdAt : Date.now(),
+        title: row.title || "",
+        subheading: row.subheading || "",
+        tag: row.tag || "",
+        image: row.image || DEFAULT_IMAGE,
+        imageEnglish: row.image_english || "",
+        extension: row.extension || "",
+        sentences: row.sentences || "",
+        summary: row.summary || ""
+      };
+    }
+
+    function rowFromPost(post) {
+      return {
+        id: post.id,
+        title: post.title,
+        subheading: post.subheading,
+        tag: post.tag,
+        image: post.image,
+        image_english: post.imageEnglish,
+        extension: post.extension,
+        sentences: post.sentences,
+        summary: post.summary,
+        published: true
+      };
+    }
+
+    async function supabaseRequest(path, options = {}) {
+      if (!hasSupabaseConfig()) {
+        throw new Error("Supabase anon key is missing.");
+      }
+
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+        ...options,
+        headers: {
+          apikey: SUPABASE_ANON_KEY,
+          Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+          ...(options.headers || {})
+        }
+      });
+
+      if (!response.ok) {
+        let message = response.statusText;
+        try {
+          const error = await response.json();
+          message = error.message || error.hint || message;
+        } catch {}
+        throw new Error(message);
+      }
+
+      if (response.status === 204) return null;
+      const text = await response.text();
+      return text ? JSON.parse(text) : null;
+    }
+
+    async function loadStoredPosts() {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = getLocalPosts();
+        setSyncStatus("Supabase public anon key is not set yet. Posts are still local until supabase-config.js is filled in.", true);
+        return cachedPosts;
+      }
+
+      try {
+        const rows = await supabaseRequest(`${POSTS_TABLE}?select=*&published=eq.true&order=created_at.desc`);
+        cachedPosts = Array.isArray(rows) ? rows.map(postFromRow) : [];
+        setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
+      } catch (error) {
+        cachedPosts = getLocalPosts();
+        setSyncStatus(`Supabase could not load posts: ${error.message}`, true);
+      }
+
+      return cachedPosts;
+    }
+
+    async function createStoredPost(post) {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = [post, ...cachedPosts];
+        saveLocalPosts(cachedPosts);
+        setSyncStatus("Saved in this browser only because the Supabase anon key is not set.", true);
+        return post;
+      }
+
+      const rows = await supabaseRequest(POSTS_TABLE, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Prefer: "return=representation"
+        },
+        body: JSON.stringify(rowFromPost(post))
+      });
+      const savedPost = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : post;
+      cachedPosts = [savedPost, ...cachedPosts.filter(item => item.id !== savedPost.id)];
+      setSyncStatus("Saved to Supabase.");
+      return savedPost;
+    }
+
+    async function deleteStoredPost(id) {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = cachedPosts.filter(post => post.id !== id);
+        saveLocalPosts(cachedPosts);
+        setSyncStatus("Deleted from this browser only because Supabase is not configured.", true);
+        return;
+      }
+
+      await supabaseRequest(`${POSTS_TABLE}?id=eq.${encodeURIComponent(id)}`, {
+        method: "DELETE"
+      });
+      cachedPosts = cachedPosts.filter(post => post.id !== id);
+      setSyncStatus("Deleted from Supabase.");
     }
 
     function heroImageValue(src) {
@@ -1232,12 +1369,17 @@
       `).join("");
     }
 
-    function deletePost(id) {
-      saveStoredPosts(getStoredPosts().filter(post => post.id !== id));
-      const latest = getLatestPost();
-      renderPost(latest || defaultPost);
-      renderSavedPosts();
-      renderPostsGrid();
+    async function deletePost(id) {
+      try {
+        await deleteStoredPost(id);
+        const latest = getLatestPost();
+        renderPost(latest || defaultPost);
+        renderSavedPosts();
+        renderPostsGrid();
+      } catch (error) {
+        alert(`Could not delete this post from Supabase: ${error.message}`);
+        setSyncStatus(`Supabase delete failed: ${error.message}`, true);
+      }
     }
 
     function setupPostForm() {
@@ -1316,10 +1458,13 @@
           summary: String(formData.get("summary") || "").trim()
         };
 
+        let savedPost;
         try {
-          saveStoredPosts([post, ...getStoredPosts()]);
-        } catch {
-          alert("This browser could not permanently save the post, likely because localStorage is full.");
+          savedPost = await createStoredPost(post);
+        } catch (error) {
+          alert(`Could not save this post to Supabase: ${error.message}`);
+          setSyncStatus(`Supabase save failed: ${error.message}`, true);
+          return;
         }
 
         form.reset();
@@ -1329,7 +1474,7 @@
           clipboard.dataset.adopted = "no";
           clipboard.readOnly = true;
         }
-        renderPost(post);
+        renderPost(savedPost);
         renderSavedPosts();
         renderPostsGrid();
         window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1407,24 +1552,30 @@
       });
     }
 
-    renderPost(defaultPost);
-    window.setTimeout(() => {
-      const latest = getLatestPost();
-      if (!latest) return;
-      const hero = document.querySelector("[data-hero-card]");
-      hero?.classList.add("is-switching");
-      window.setTimeout(() => {
-        renderPost(latest);
-        hero?.classList.remove("is-switching");
-      }, 380);
-    }, 2000);
+    async function initializeNewsletter() {
+      renderPost(defaultPost);
+      setupLogin();
+      setupPostForm();
+      setupPostsModal();
+      setupSections();
+      setupCustomCursor();
+      updateAuthUi();
 
-    updateAuthUi();
-    setupLogin();
-    setupPostForm();
-    setupPostsModal();
-    setupSections();
-    setupCustomCursor();
+      await loadStoredPosts();
+      const latest = getLatestPost();
+      if (latest) {
+        const hero = document.querySelector("[data-hero-card]");
+        hero?.classList.add("is-switching");
+        window.setTimeout(() => {
+          renderPost(latest);
+          hero?.classList.remove("is-switching");
+        }, 380);
+      }
+      updateAuthUi();
+      renderPostsGrid();
+    }
+
+    initializeNewsletter();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>
