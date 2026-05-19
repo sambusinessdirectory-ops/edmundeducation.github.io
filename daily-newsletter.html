@@ -326,12 +326,33 @@
       background: rgba(255,255,255,0.92);
       color: #12251c;
       font-family: inherit;
-      font-size: 32px;
+      font-size: 0;
       line-height: 1;
       font-weight: 900;
       display: grid;
       place-items: center;
       box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+      transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+    }
+
+    .post-swipe::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      border-left: 3px solid currentColor;
+      border-bottom: 3px solid currentColor;
+      transform: rotate(45deg) translate(1px, -1px);
+    }
+
+    .post-swipe[data-next-post]::before,
+    .post-swipe[data-image-next-post]::before {
+      transform: rotate(-135deg) translate(1px, -1px);
+    }
+
+    .post-swipe:not(:disabled):hover {
+      transform: translateY(-1px);
+      background: #fff7df;
+      color: var(--green-dark);
     }
 
     .post-swipe:disabled {
@@ -350,7 +371,7 @@
     .learning-workspace {
       margin-top: 22px;
       display: grid;
-      grid-template-columns: minmax(340px, 0.78fr) minmax(580px, 1.22fr);
+      grid-template-columns: minmax(430px, 0.95fr) minmax(560px, 1.05fr);
       gap: 22px;
       align-items: start;
     }
@@ -366,13 +387,13 @@
 
     .uploaded-image-panel {
       margin: 0;
-      padding: clamp(14px, 2vw, 20px);
+      padding: clamp(14px, 1.6vw, 18px);
       position: sticky;
       top: 18px;
     }
 
     .uploaded-image-frame {
-      min-height: clamp(360px, 56vh, 680px);
+      min-height: clamp(430px, 65vh, 820px);
       border-radius: 16px;
       overflow: hidden;
       background:
@@ -385,7 +406,7 @@
     .uploaded-image-frame img {
       width: 100%;
       height: 100%;
-      max-height: clamp(360px, 56vh, 680px);
+      max-height: clamp(430px, 65vh, 820px);
       display: block;
       object-fit: contain;
     }
@@ -407,6 +428,57 @@
       text-align: right;
     }
 
+    .image-panel-actions {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .image-post-nav {
+      justify-self: start;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 7px;
+      border-radius: 999px;
+      background: rgba(15,95,62,0.10);
+      border: 1px solid rgba(31,157,98,0.18);
+    }
+
+    .image-post-nav .post-swipe {
+      width: 42px;
+      height: 42px;
+      background: #fff;
+      color: var(--green-dark);
+      box-shadow: 0 8px 18px rgba(25,42,31,0.12);
+    }
+
+    .image-post-nav .post-counter {
+      color: var(--green-dark);
+      min-width: 56px;
+    }
+
+    .image-overview-button {
+      min-height: 54px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 20px;
+      background: linear-gradient(135deg, var(--green), var(--green-dark));
+      color: #fff;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 900;
+      box-shadow: 0 14px 30px rgba(31,157,98,0.22);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .image-overview-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 18px 38px rgba(31,157,98,0.28);
+    }
+
     .notes-panel {
       padding: clamp(20px, 3vw, 34px);
       min-height: clamp(560px, 68vh, 860px);
@@ -417,7 +489,7 @@
 
     .notes-panel-head {
       display: grid;
-      grid-template-columns: minmax(118px, 0.28fr) minmax(500px, 1.72fr);
+      grid-template-columns: minmax(170px, 0.38fr) minmax(500px, 1.62fr);
       gap: 20px;
       align-items: start;
     }
@@ -439,10 +511,11 @@
     .notes-panel h2 {
       margin: 12px 0 0;
       color: #17201b;
-      font-size: clamp(32px, 3.2vw, 56px);
+      font-size: clamp(34px, 2.55vw, 46px);
       line-height: 1.02;
       font-weight: 900;
       letter-spacing: 0;
+      white-space: nowrap;
     }
 
     .section-switcher {
@@ -455,11 +528,11 @@
     .section-tab {
       width: 100%;
       min-height: 110px;
-      border: 1px solid rgba(255,255,255,0.08);
+      border: 1px solid rgba(31,157,98,0.20);
       border-radius: 8px;
       padding: 16px;
-      background: linear-gradient(180deg, #202321, #151815);
-      color: #fff7df;
+      background: linear-gradient(135deg, rgba(248,255,245,0.98), rgba(222,246,232,0.92));
+      color: #173d2a;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -467,20 +540,39 @@
       text-align: left;
       font-family: inherit;
       min-width: 0;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 12px 28px rgba(7,21,14,0.18);
-      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+      position: relative;
+      overflow: hidden;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.72), 0 12px 28px rgba(31,157,98,0.12);
+      transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .section-tab::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0;
+      background: var(--gold);
+      transition: width 0.22s ease;
     }
 
     .section-tab:hover,
     .section-tab.is-active {
       transform: translateY(-2px);
       border-color: rgba(233,186,92,0.86);
-      background: linear-gradient(180deg, #293027, #111611);
+      background: linear-gradient(135deg, var(--green), var(--green-dark));
+      color: #fffaf0;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.20), 0 18px 34px rgba(15,95,62,0.22);
+    }
+
+    .section-tab.is-active::before {
+      width: 7px;
     }
 
     .section-label {
       display: block;
-      color: #fff7df;
+      position: relative;
+      z-index: 1;
+      color: inherit;
       font-size: clamp(18px, 1.28vw, 25px);
       line-height: 1.08;
       font-weight: 900;
@@ -489,10 +581,17 @@
 
     .section-more {
       display: block;
-      color: rgba(255,247,223,0.72);
+      position: relative;
+      z-index: 1;
+      color: rgba(15,95,62,0.72);
       font-size: clamp(13px, 1vw, 16px);
       line-height: 1.15;
       font-weight: 900;
+    }
+
+    .section-tab:hover .section-more,
+    .section-tab.is-active .section-more {
+      color: rgba(255,250,240,0.78);
     }
 
     .detail-text {
@@ -509,6 +608,12 @@
 
     .detail-text p {
       margin: 0 0 1em;
+    }
+
+    .detail-text strong,
+    .detail-text .text-highlight {
+      color: #ff1f2d;
+      font-weight: 950;
     }
 
     .detail-empty {
@@ -867,6 +972,16 @@
       font-weight: 900;
     }
 
+    @media (max-width: 1340px) {
+      .notes-panel-head {
+        grid-template-columns: 1fr;
+      }
+
+      .notes-panel h2 {
+        width: fit-content;
+      }
+    }
+
     @media (max-width: 980px) {
       html, body, a, button, input, textarea { cursor: auto; }
       .custom-cursor { display: none; }
@@ -912,6 +1027,10 @@
       .uploaded-image-frame img {
         min-height: 320px;
         max-height: none;
+      }
+
+      .image-panel-actions {
+        grid-template-columns: 1fr;
       }
 
       .notes-panel {
@@ -976,7 +1095,16 @@
 
       .uploaded-image-frame,
       .uploaded-image-frame img {
-        min-height: 260px;
+        min-height: 300px;
+      }
+
+      .image-post-nav {
+        justify-self: stretch;
+        justify-content: space-between;
+      }
+
+      .image-overview-button {
+        width: 100%;
       }
 
       .section-switcher {
@@ -1083,7 +1211,6 @@
       </div>
       <a class="study-nav-title" href="daily-newsletter.html">免費英文通訊</a>
       <div class="study-nav-right">
-        <button class="view-posts" type="button" data-open-posts>查看所有通訊</button>
         <button class="login-button" type="button" data-login-button>Log In</button>
       </div>
     </header>
@@ -1126,6 +1253,14 @@
             <span data-image-caption-title>每日英文通訊</span>
             <span data-image-caption-tag>Daily English</span>
           </figcaption>
+          <div class="image-panel-actions">
+            <div class="image-post-nav" aria-label="Switch newsletter posts near image">
+              <button class="post-swipe" type="button" data-image-prev-post aria-label="Previous post">‹</button>
+              <span class="post-counter" data-post-counter>1 / 1</span>
+              <button class="post-swipe" type="button" data-image-next-post aria-label="Next post">›</button>
+            </div>
+            <button class="image-overview-button" type="button" data-open-posts>查看所有通訊</button>
+          </div>
         </figure>
 
         <article class="notes-panel" aria-live="polite">
@@ -1303,6 +1438,19 @@
         .split(/\n{2,}/)
         .map(paragraph => paragraph.trim())
         .filter(Boolean);
+    }
+
+    function formatDetailParagraph(paragraph) {
+      return String(paragraph)
+        .split(/(\*\*[\s\S]+?\*\*)/g)
+        .map(part => {
+          if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
+            return `<strong class="text-highlight">${escapeHtml(part.slice(2, -2))}</strong>`;
+          }
+          return escapeHtml(part);
+        })
+        .join("")
+        .replace(/\n/g, "<br>");
     }
 
     function hasSupabaseConfig() {
@@ -1529,7 +1677,7 @@
       title.textContent = sectionLabels[activeSection] || "圖中英語";
       const content = paragraphs(activePost[activeSection]);
       text.innerHTML = content.length
-        ? content.map(paragraph => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`).join("")
+        ? content.map(paragraph => `<p>${formatDetailParagraph(paragraph)}</p>`).join("")
         : `<p class="detail-empty">這一欄暫時未有內容。</p>`;
     }
 
@@ -1669,14 +1817,21 @@
 
     function updatePostNavigation() {
       const posts = allPostsForDisplay();
-      const previous = document.querySelector("[data-prev-post]");
-      const next = document.querySelector("[data-next-post]");
-      const counter = document.querySelector("[data-post-counter]");
+      const previousButtons = document.querySelectorAll("[data-prev-post], [data-image-prev-post]");
+      const nextButtons = document.querySelectorAll("[data-next-post], [data-image-next-post]");
+      const counters = document.querySelectorAll("[data-post-counter]");
       const hasMultiplePosts = posts.length > 1;
+      const counterText = `${Math.min(activePostIndex() + 1, posts.length)} / ${posts.length}`;
 
-      if (previous) previous.disabled = !hasMultiplePosts;
-      if (next) next.disabled = !hasMultiplePosts;
-      if (counter) counter.textContent = `${Math.min(activePostIndex() + 1, posts.length)} / ${posts.length}`;
+      previousButtons.forEach(button => {
+        button.disabled = !hasMultiplePosts;
+      });
+      nextButtons.forEach(button => {
+        button.disabled = !hasMultiplePosts;
+      });
+      counters.forEach(counter => {
+        counter.textContent = counterText;
+      });
     }
 
     async function showPostById(id) {
@@ -1736,6 +1891,11 @@
         document.querySelector("#post-extension"),
         document.querySelector("#post-sentences")
       ];
+      const highlightInputs = [
+        ...clipboardSources,
+        document.querySelector("#post-summary"),
+        clipboard
+      ];
 
       function updateClipboard() {
         if (!clipboard || clipboard.dataset.adopted === "yes") return;
@@ -1748,6 +1908,26 @@
 
       clipboardSources.forEach(source => {
         source?.addEventListener("input", updateClipboard);
+      });
+
+      highlightInputs.forEach(input => {
+        input?.addEventListener("keydown", event => {
+          if (event.key.toLowerCase() !== "b" || (!event.metaKey && !event.ctrlKey)) return;
+          event.preventDefault();
+
+          const start = input.selectionStart;
+          const end = input.selectionEnd;
+          const selectedText = input.value.slice(start, end);
+          const fallback = "重點文字";
+          const replacement = `**${selectedText || fallback}**`;
+          input.setRangeText(replacement, start, end, "select");
+
+          if (!selectedText) {
+            input.setSelectionRange(start + 2, start + 2 + fallback.length);
+          }
+
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+        });
       });
 
       adoptButton?.addEventListener("click", () => {
@@ -1854,7 +2034,7 @@
     }
 
     function setupPostsModal() {
-      const openButton = document.querySelector("[data-open-posts]");
+      const openButtons = document.querySelectorAll("[data-open-posts]");
       const closeButton = document.querySelector("[data-close-posts]");
       const modal = document.querySelector("[data-posts-modal]");
       const grid = document.querySelector("[data-posts-grid]");
@@ -1870,7 +2050,9 @@
         modal?.setAttribute("aria-hidden", "true");
       }
 
-      openButton?.addEventListener("click", openModal);
+      openButtons.forEach(button => {
+        button.addEventListener("click", openModal);
+      });
       closeButton?.addEventListener("click", closeModal);
       modal?.addEventListener("click", event => {
         if (event.target === modal) closeModal();
@@ -1892,12 +2074,16 @@
     }
 
     function setupPostNavigation() {
-      document.querySelector("[data-prev-post]")?.addEventListener("click", () => {
-        movePost(-1);
+      document.querySelectorAll("[data-prev-post], [data-image-prev-post]").forEach(button => {
+        button.addEventListener("click", () => {
+          movePost(-1);
+        });
       });
 
-      document.querySelector("[data-next-post]")?.addEventListener("click", () => {
-        movePost(1);
+      document.querySelectorAll("[data-next-post], [data-image-next-post]").forEach(button => {
+        button.addEventListener("click", () => {
+          movePost(1);
+        });
       });
 
       const hero = document.querySelector("[data-hero-card]");
