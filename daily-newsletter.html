@@ -331,21 +331,36 @@
       font-weight: 900;
       display: grid;
       place-items: center;
+      position: relative;
       box-shadow: 0 10px 22px rgba(0,0,0,0.18);
       transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
     }
 
-    .post-swipe::before {
+    .post-swipe::before,
+    .post-swipe::after {
       content: "";
-      width: 18px;
-      height: 18px;
-      background: currentColor;
-      clip-path: polygon(66% 6%, 80% 20%, 48% 50%, 80% 80%, 66% 94%, 20% 50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-color: currentColor;
+      border-style: solid;
+      border-width: 0 4px 4px 0;
+      border-radius: 1px;
+    }
+
+    .post-swipe::before {
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+
+    .post-swipe::after {
+      display: none;
     }
 
     .post-swipe[data-next-post]::before,
     .post-swipe[data-image-next-post]::before {
-      clip-path: polygon(34% 6%, 80% 50%, 34% 94%, 20% 80%, 52% 50%, 20% 20%);
+      transform: translate(-50%, -50%) rotate(-45deg);
     }
 
     .post-swipe:not(:disabled):hover {
@@ -1041,17 +1056,35 @@
       font-weight: 900;
     }
 
+    .saved-post-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .edit-post,
     .delete-post {
       border: 0;
       border-radius: 999px;
       min-width: 104px;
       min-height: 48px;
       padding: 13px 18px;
-      background: #d71920;
-      color: #fff;
       font-family: inherit;
       font-size: 15px;
       font-weight: 900;
+    }
+
+    .edit-post {
+      background: #dff6e9;
+      color: var(--green-dark);
+      border: 1px solid rgba(31,157,98,0.16);
+    }
+
+    .delete-post {
+      background: #d71920;
+      color: #fff;
     }
 
     .login-modal {
@@ -1383,7 +1416,7 @@
               <button class="post-swipe" type="button" data-image-next-post aria-label="Next post">›</button>
             </div>
             <label class="post-search" aria-label="Search newsletter posts">
-              <input type="search" placeholder="Search posts..." autocomplete="off" data-post-search>
+              <input type="search" placeholder="可搜尋任何字眼！或月份 e.g., Apr, May 甚至年份 e.g., 2026 etc." autocomplete="off" data-post-search>
               <span class="post-search-icon" aria-hidden="true"></span>
             </label>
             <button class="image-overview-button" type="button" data-open-posts>查看所有通訊</button>
@@ -1421,7 +1454,7 @@
       </section>
 
       <section class="admin-panel" id="create" data-admin-panel hidden>
-        <h2>新增每日英文通訊</h2>
+        <h2 data-admin-title>新增每日英文通訊</h2>
         <p class="admin-note">登入後可以新增通訊。圖片會壓縮後儲存在 Supabase，最新一篇會顯示在首頁大橫幅。</p>
         <p class="admin-note" data-sync-status>正在連接 Supabase...</p>
 
@@ -1482,7 +1515,7 @@
 
           <div class="form-actions">
             <button class="post-button secondary" type="reset">Clear</button>
-            <button class="post-button" type="submit">發布通訊</button>
+            <button class="post-button" type="submit" data-submit-post>發布通訊</button>
           </div>
         </form>
       </section>
@@ -1554,6 +1587,8 @@
     let activePost = defaultPost;
     let activeSection = "imageEnglish";
     let cachedPosts = [];
+    let editingPostId = null;
+    let editingPostImage = "";
 
     function escapeHtml(value) {
       return String(value)
@@ -1754,6 +1789,37 @@
       return savedPost;
     }
 
+    async function updateStoredPost(post) {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = sortPosts([
+          post,
+          ...cachedPosts.filter(item => item.id !== post.id)
+        ]);
+        saveLocalPosts(cachedPosts);
+        setSyncStatus("Updated in this browser only because Supabase is not configured.", true);
+        return post;
+      }
+
+      const rows = await supabaseRequest(`${POSTS_TABLE}?id=eq.${encodeURIComponent(post.id)}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+          Prefer: "return=representation"
+        },
+        body: JSON.stringify(rowFromPost(post))
+      });
+      if (Array.isArray(rows) && rows.length === 0) {
+        throw new Error("No Supabase row was updated. Please run the update policy SQL, then try again.");
+      }
+      const savedPost = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : post;
+      cachedPosts = sortPosts([
+        savedPost,
+        ...cachedPosts.filter(item => item.id !== savedPost.id)
+      ]);
+      setSyncStatus("Updated in Supabase.");
+      return savedPost;
+    }
+
     async function deleteStoredPost(id) {
       if (!hasSupabaseConfig()) {
         cachedPosts = cachedPosts.filter(post => post.id !== id);
@@ -1931,7 +1997,10 @@
         ? posts.map(post => `
           <div class="saved-post">
             <span>${escapeHtml(post.title || "每日英文通訊")}</span>
-            <button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>
+            <div class="saved-post-actions">
+              <button class="edit-post" type="button" data-edit-post="${escapeHtml(post.id)}">Edit</button>
+              <button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>
+            </div>
           </div>
         `).join("")
         : `<p class="admin-note">暫時未有自訂通訊。</p>`;
@@ -2109,6 +2178,71 @@
       }
     }
 
+    function setPostFormMode(post = null) {
+      const form = document.querySelector("[data-post-form]");
+      const imageInput = document.querySelector("[data-image-input]");
+      const preview = document.querySelector("[data-image-preview]");
+      const submitButton = form?.querySelector('button[type="submit"]');
+      const adminTitle = document.querySelector("[data-admin-title]");
+
+      editingPostId = post?.id || null;
+      editingPostImage = post?.image || "";
+
+      if (form) form.dataset.mode = editingPostId ? "edit" : "create";
+      if (imageInput) imageInput.required = !editingPostId;
+      if (submitButton) submitButton.textContent = editingPostId ? "更新通訊" : "發布通訊";
+      if (adminTitle) adminTitle.textContent = editingPostId ? "編輯每日英文通訊" : "新增每日英文通訊";
+      if (!editingPostId && preview) preview.textContent = "Image preview";
+    }
+
+    function fillPostForm(post) {
+      const form = document.querySelector("[data-post-form]");
+      const preview = document.querySelector("[data-image-preview]");
+      const clipboard = document.querySelector("[data-clipboard-text]");
+      if (!form) return;
+
+      form.elements.title.value = post.title || "";
+      form.elements.tag.value = post.tag || "";
+      form.elements.subheading.value = post.subheading || "";
+      form.elements.imageEnglish.value = post.imageEnglish || "";
+      form.elements.extension.value = post.extension || "";
+      form.elements.sentences.value = post.sentences || "";
+      form.elements.summary.value = post.summary || "";
+      if (form.elements.image) form.elements.image.value = "";
+      if (clipboard) {
+        clipboard.value = "";
+        clipboard.dataset.adopted = "no";
+        clipboard.readOnly = true;
+      }
+      if (preview) {
+        preview.innerHTML = post.image
+          ? `<img src="${escapeHtml(post.image)}" alt="">`
+          : "Image preview";
+      }
+      setPostFormMode(post);
+    }
+
+    async function editPost(id) {
+      try {
+        let post = cachedPosts.find(item => item.id === id) || null;
+        if (post && !post.isFullPost && post.id !== defaultPost.id) {
+          setSyncStatus("Loading this post for editing...");
+          post = await loadStoredPostById(id);
+        }
+        if (!post) {
+          setSyncStatus("Could not find this post to edit.", true);
+          return;
+        }
+
+        fillPostForm(post);
+        renderPost(post);
+        setSyncStatus(`Editing "${post.title || "每日英文通訊"}". Upload a new image only if you want to replace the current one.`);
+        document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      } catch (error) {
+        setSyncStatus(`Could not load this post for editing: ${error.message}`, true);
+      }
+    }
+
     function setupPostForm() {
       const form = document.querySelector("[data-post-form]");
       const imageInput = document.querySelector("[data-image-input]");
@@ -2181,6 +2315,7 @@
 
       form?.addEventListener("reset", () => {
         setTimeout(() => {
+          setPostFormMode(null);
           if (preview) preview.textContent = "Image preview";
           if (clipboard) {
             clipboard.value = "";
@@ -2206,7 +2341,8 @@
 
         const formData = new FormData(form);
         const file = formData.get("image");
-        if (!(file instanceof File) || !file.size) {
+        const isEditing = Boolean(editingPostId);
+        if (!isEditing && (!(file instanceof File) || !file.size)) {
           if (submitButton) {
             submitButton.disabled = false;
             submitButton.textContent = originalSubmitText;
@@ -2214,26 +2350,37 @@
           return;
         }
 
+        const existingPost = isEditing
+          ? cachedPosts.find(item => item.id === editingPostId)
+          : null;
+        let image = editingPostImage || existingPost?.image || DEFAULT_IMAGE;
+        if (file instanceof File && file.size) {
+          image = await readImageFile(file);
+        }
+
         const createdAt = Date.now();
         const post = {
-          id: `daily-${createdAt}`,
-          createdAt,
+          id: isEditing ? editingPostId : `daily-${createdAt}`,
+          createdAt: isEditing ? postTimestamp(existingPost || activePost) || createdAt : createdAt,
           title: String(formData.get("title") || "").trim(),
           subheading: String(formData.get("subheading") || "").trim(),
           tag: String(formData.get("tag") || "").trim(),
-          image: await readImageFile(file),
+          image,
           imageEnglish: String(formData.get("imageEnglish") || "").trim(),
           extension: String(formData.get("extension") || "").trim(),
           sentences: String(formData.get("sentences") || "").trim(),
-          summary: String(formData.get("summary") || "").trim()
+          summary: String(formData.get("summary") || "").trim(),
+          isFullPost: true
         };
 
         let savedPost;
         try {
-          savedPost = await createStoredPost(post);
+          savedPost = isEditing
+            ? await updateStoredPost(post)
+            : await createStoredPost(post);
         } catch (error) {
-          alert(`Could not save this post to Supabase: ${error.message}`);
-          setSyncStatus(`Supabase save failed: ${error.message}`, true);
+          alert(`Could not ${isEditing ? "update" : "save"} this post in Supabase: ${error.message}`);
+          setSyncStatus(`Supabase ${isEditing ? "update" : "save"} failed: ${error.message}`, true);
           if (submitButton) {
             submitButton.disabled = false;
             submitButton.textContent = originalSubmitText;
@@ -2242,6 +2389,7 @@
         }
 
         form.reset();
+        setPostFormMode(null);
         if (preview) preview.textContent = "Image preview";
         if (clipboard) {
           clipboard.value = "";
@@ -2254,7 +2402,7 @@
         window.scrollTo({ top: 0, behavior: "smooth" });
         if (submitButton) {
           submitButton.disabled = false;
-          submitButton.textContent = originalSubmitText;
+          submitButton.textContent = "發布通訊";
         }
       });
 
@@ -2264,6 +2412,13 @@
         event.preventDefault();
         if (!confirm("Delete this post?")) return;
         deletePost(deleteButton.getAttribute("data-delete-post"));
+      });
+
+      document.addEventListener("click", event => {
+        const editButton = event.target.closest("[data-edit-post]");
+        if (!editButton) return;
+        event.preventDefault();
+        editPost(editButton.getAttribute("data-edit-post"));
       });
     }
 

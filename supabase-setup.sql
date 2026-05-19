@@ -19,6 +19,7 @@ alter table public.daily_newsletter_posts enable row level security;
 
 drop policy if exists "Daily newsletter posts are public" on public.daily_newsletter_posts;
 drop policy if exists "Daily newsletter posts can be created from site" on public.daily_newsletter_posts;
+drop policy if exists "Daily newsletter posts can be updated from site" on public.daily_newsletter_posts;
 drop policy if exists "Daily newsletter posts can be deleted from site" on public.daily_newsletter_posts;
 
 create policy "Daily newsletter posts are public"
@@ -31,6 +32,13 @@ create policy "Daily newsletter posts can be created from site"
 on public.daily_newsletter_posts
 for insert
 to anon
+with check (true);
+
+create policy "Daily newsletter posts can be updated from site"
+on public.daily_newsletter_posts
+for update
+to anon
+using (true)
 with check (true);
 
 create policy "Daily newsletter posts can be deleted from site"
