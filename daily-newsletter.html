@@ -437,9 +437,14 @@
       font-weight: 900;
     }
 
+    .image-caption span:first-child {
+      min-width: 0;
+    }
+
     .image-caption span:last-child {
       color: var(--green-dark);
       text-align: right;
+      flex: 0 0 auto;
     }
 
     .image-panel-actions {
@@ -578,14 +583,39 @@
       width: 100%;
       border: 1px solid rgba(31,157,98,0.14);
       border-radius: 14px;
-      padding: 12px 14px;
+      padding: 10px;
       background: rgba(255,255,255,0.88);
       color: var(--ink);
       display: grid;
-      gap: 5px;
+      grid-template-columns: 86px minmax(0, 1fr);
+      align-items: center;
+      gap: 12px;
       text-align: left;
       font-family: inherit;
       box-shadow: 0 10px 22px rgba(25,42,31,0.08);
+    }
+
+    .search-result-thumb {
+      width: 86px;
+      aspect-ratio: 4 / 3;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #0e261d;
+      display: block;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.12);
+    }
+
+    .search-result-thumb img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .search-result-copy {
+      min-width: 0;
+      display: grid;
+      gap: 5px;
     }
 
     .search-result-card strong {
@@ -1560,7 +1590,7 @@
     const POSTS_TABLE = SUPABASE_CONFIG.dailyNewsletterTable || "daily_newsletter_posts";
     const POST_FIELDS = "id,created_at,title,subheading,tag,image,image_english,extension,sentences,summary";
     const POST_LIST_FIELDS = "id,created_at,title,subheading,tag";
-    const POST_SEARCH_FIELDS = "id,created_at,title,subheading,tag,image_english,extension,sentences,summary";
+    const POST_SEARCH_FIELDS = "id,created_at,title,subheading,tag,image,image_english,extension,sentences,summary";
     const POST_LIST_LIMIT = 30;
     const POST_SEARCH_LIMIT = 20;
     const SEARCH_COLUMNS = ["title", "subheading", "tag", "image_english", "extension", "sentences", "summary"];
@@ -1860,11 +1890,14 @@
       const image = document.querySelector("[data-post-image]");
       const captionTitle = document.querySelector("[data-image-caption-title]");
       const captionTag = document.querySelector("[data-image-caption-tag]");
+      const captionText = String(post.subheading || post.title || "每日英文通訊")
+        .replace(/\s+/g, " ")
+        .trim();
       if (image) {
         image.src = post.image || DEFAULT_IMAGE;
         image.alt = post.title ? `${post.title} image` : "";
       }
-      if (captionTitle) captionTitle.textContent = post.title || "每日英文通訊";
+      if (captionTitle) captionTitle.textContent = captionText;
       if (captionTag) captionTag.textContent = post.tag || "Daily English";
     }
 
@@ -2143,8 +2176,13 @@
         <div class="search-results-head">${results.length} ${resultWord} found for "${escapeHtml(query)}"</div>
         ${results.map(post => `
           <button class="search-result-card" type="button" data-search-post-id="${escapeHtml(post.id)}">
-            <strong>${escapeHtml(post.title || "每日英文通訊")}</strong>
-            <span>${escapeHtml(searchPreview(post, query))}</span>
+            <span class="search-result-thumb" aria-hidden="true">
+              <img src="${escapeHtml(post.image || DEFAULT_IMAGE)}" alt="">
+            </span>
+            <span class="search-result-copy">
+              <strong>${escapeHtml(post.title || "每日英文通訊")}</strong>
+              <span>${escapeHtml(searchPreview(post, query))}</span>
+            </span>
           </button>
         `).join("")}
       `;
