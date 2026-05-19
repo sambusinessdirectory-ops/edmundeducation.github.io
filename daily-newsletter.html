@@ -337,16 +337,15 @@
 
     .post-swipe::before {
       content: "";
-      width: 12px;
-      height: 12px;
-      border-left: 3px solid currentColor;
-      border-bottom: 3px solid currentColor;
-      transform: rotate(45deg) translate(1px, -1px);
+      width: 18px;
+      height: 18px;
+      background: currentColor;
+      clip-path: polygon(66% 6%, 80% 20%, 48% 50%, 80% 80%, 66% 94%, 20% 50%);
     }
 
     .post-swipe[data-next-post]::before,
     .post-swipe[data-image-next-post]::before {
-      transform: rotate(-135deg) translate(1px, -1px);
+      clip-path: polygon(34% 6%, 80% 50%, 34% 94%, 20% 80%, 52% 50%, 20% 20%);
     }
 
     .post-swipe:not(:disabled):hover {
@@ -430,7 +429,7 @@
 
     .image-panel-actions {
       display: grid;
-      grid-template-columns: 1fr auto;
+      grid-template-columns: auto minmax(150px, 1fr) auto;
       align-items: center;
       gap: 12px;
       margin-top: 14px;
@@ -460,8 +459,65 @@
       min-width: 56px;
     }
 
+    .post-search {
+      min-height: 54px;
+      border: 1px solid rgba(31,157,98,0.18);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.94);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 34px;
+      align-items: center;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.70);
+    }
+
+    .post-search input {
+      min-width: 0;
+      width: 100%;
+      border: 0;
+      background: transparent;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 820;
+      outline: 0;
+      padding: 0 4px 0 16px;
+    }
+
+    .post-search input::placeholder {
+      color: rgba(52,67,59,0.58);
+    }
+
+    .post-search-icon {
+      width: 34px;
+      height: 34px;
+      color: var(--green-dark);
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    .post-search-icon::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      border: 2px solid currentColor;
+      border-radius: 50%;
+      transform: translate(-2px, -2px);
+    }
+
+    .post-search-icon::after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 2px;
+      border-radius: 999px;
+      background: currentColor;
+      transform: translate(7px, 7px) rotate(45deg);
+    }
+
     .image-overview-button {
       min-height: 54px;
+      min-width: 124px;
       border: 0;
       border-radius: 999px;
       padding: 0 20px;
@@ -470,6 +526,7 @@
       font-family: inherit;
       font-size: 14px;
       font-weight: 900;
+      white-space: nowrap;
       box-shadow: 0 14px 30px rgba(31,157,98,0.22);
       transition: transform 0.18s ease, box-shadow 0.18s ease;
     }
@@ -477,6 +534,69 @@
     .image-overview-button:hover {
       transform: translateY(-1px);
       box-shadow: 0 18px 38px rgba(31,157,98,0.28);
+    }
+
+    .post-search-results {
+      grid-column: 1 / -1;
+      display: grid;
+      gap: 10px;
+      margin-top: 2px;
+      padding: 14px;
+      border-radius: 18px;
+      border: 1px solid rgba(31,157,98,0.16);
+      background: rgba(243,250,239,0.88);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.74);
+    }
+
+    .post-search-results[hidden] {
+      display: none;
+    }
+
+    .search-results-head {
+      color: var(--green-dark);
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .search-result-card {
+      width: 100%;
+      border: 1px solid rgba(31,157,98,0.14);
+      border-radius: 14px;
+      padding: 12px 14px;
+      background: rgba(255,255,255,0.88);
+      color: var(--ink);
+      display: grid;
+      gap: 5px;
+      text-align: left;
+      font-family: inherit;
+      box-shadow: 0 10px 22px rgba(25,42,31,0.08);
+    }
+
+    .search-result-card strong {
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .search-result-card span {
+      color: #536157;
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 760;
+    }
+
+    .search-result-card:hover {
+      border-color: rgba(31,157,98,0.42);
+      background: #fff;
+    }
+
+    .search-empty {
+      margin: 0;
+      color: #657169;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 820;
     }
 
     .notes-panel {
@@ -614,6 +734,9 @@
     .detail-text .text-highlight {
       color: #ff1f2d;
       font-weight: 950;
+      text-decoration: underline;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.16em;
     }
 
     .detail-empty {
@@ -1259,7 +1382,12 @@
               <span class="post-counter" data-post-counter>1 / 1</span>
               <button class="post-swipe" type="button" data-image-next-post aria-label="Next post">›</button>
             </div>
+            <label class="post-search" aria-label="Search newsletter posts">
+              <input type="search" placeholder="Search posts..." autocomplete="off" data-post-search>
+              <span class="post-search-icon" aria-hidden="true"></span>
+            </label>
             <button class="image-overview-button" type="button" data-open-posts>查看所有通訊</button>
+            <div class="post-search-results" data-post-search-results hidden></div>
           </div>
         </figure>
 
@@ -1399,7 +1527,10 @@
     const POSTS_TABLE = SUPABASE_CONFIG.dailyNewsletterTable || "daily_newsletter_posts";
     const POST_FIELDS = "id,created_at,title,subheading,tag,image,image_english,extension,sentences,summary";
     const POST_LIST_FIELDS = "id,created_at,title,subheading,tag";
+    const POST_SEARCH_FIELDS = "id,created_at,title,subheading,tag,image_english,extension,sentences,summary";
     const POST_LIST_LIMIT = 30;
+    const POST_SEARCH_LIMIT = 20;
+    const SEARCH_COLUMNS = ["title", "subheading", "tag", "image_english", "extension", "sentences", "summary"];
 
     const sectionLabels = {
       imageEnglish: "圖中英語",
@@ -1494,8 +1625,10 @@
       return sortPosts(getStoredPosts())[0] || null;
     }
 
-    function postFromRow(row) {
+    function postFromRow(row, options = {}) {
       const createdAt = Date.parse(row.created_at);
+      const hasImage = Boolean(row.image);
+      const hasContent = Boolean(row.image_english || row.extension || row.sentences || row.summary);
       return {
         id: row.id,
         createdAt: Number.isFinite(createdAt) ? createdAt : Date.now(),
@@ -1507,7 +1640,7 @@
         extension: row.extension || "",
         sentences: row.sentences || "",
         summary: row.summary || "",
-        isFullPost: Boolean(row.image || row.image_english || row.extension || row.sentences || row.summary)
+        isFullPost: options.isFullPost ?? Boolean(hasImage && hasContent)
       };
     }
 
@@ -1836,6 +1969,11 @@
 
     async function showPostById(id) {
       let post = allPostsForDisplay().find(item => item.id === id);
+      if (!post && hasSupabaseConfig() && id !== defaultPost.id) {
+        setSyncStatus("Loading this post from Supabase...");
+        post = await loadStoredPostById(id);
+        setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
+      }
       if (post && !post.isFullPost && post.id !== defaultPost.id) {
         setSyncStatus("Loading this post from Supabase...");
         post = await loadStoredPostById(post.id);
@@ -1850,6 +1988,97 @@
       if (posts.length < 2) return;
       const nextIndex = (activePostIndex() + direction + posts.length) % posts.length;
       await showPostById(posts[nextIndex].id);
+    }
+
+    function plainSearchText(value) {
+      return String(value || "").replace(/\*\*/g, "").replace(/\s+/g, " ").trim();
+    }
+
+    function searchableText(post) {
+      return [
+        post.title,
+        post.subheading,
+        post.tag,
+        post.imageEnglish,
+        post.extension,
+        post.sentences,
+        post.summary
+      ].map(plainSearchText).join(" ").toLowerCase();
+    }
+
+    function searchPreview(post, query) {
+      const fields = [
+        post.title,
+        post.subheading,
+        post.tag,
+        post.imageEnglish,
+        post.extension,
+        post.sentences,
+        post.summary
+      ].map(plainSearchText).filter(Boolean);
+      const lowerQuery = query.toLowerCase();
+      const match = fields.find(field => field.toLowerCase().includes(lowerQuery)) || fields[0] || "Open this newsletter post.";
+      const index = match.toLowerCase().indexOf(lowerQuery);
+      if (index < 0 || match.length <= 104) return match;
+      const start = Math.max(0, index - 34);
+      const end = Math.min(match.length, index + lowerQuery.length + 70);
+      return `${start > 0 ? "..." : ""}${match.slice(start, end)}${end < match.length ? "..." : ""}`;
+    }
+
+    function searchLocalPosts(query) {
+      const lowerQuery = query.toLowerCase();
+      return allPostsForDisplay()
+        .filter(post => searchableText(post).includes(lowerQuery))
+        .slice(0, POST_SEARCH_LIMIT);
+    }
+
+    async function searchStoredPosts(query) {
+      const term = plainSearchText(query);
+      if (!term) return [];
+      if (!hasSupabaseConfig()) return searchLocalPosts(term);
+
+      const encodedTerm = encodeURIComponent(`*${term}*`);
+      const filters = SEARCH_COLUMNS.map(column => `${column}.ilike.${encodedTerm}`).join(",");
+      const rows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_SEARCH_FIELDS}&published=eq.true&or=(${filters})&order=created_at.desc&limit=${POST_SEARCH_LIMIT}`);
+      return (Array.isArray(rows) ? rows : []).map(row => postFromRow(row, { isFullPost: false }));
+    }
+
+    function renderPostSearchResults(results, query, status = "ready") {
+      const container = document.querySelector("[data-post-search-results]");
+      if (!container) return;
+
+      if (!query.trim()) {
+        container.hidden = true;
+        container.innerHTML = "";
+        return;
+      }
+
+      container.hidden = false;
+      if (status === "loading") {
+        container.innerHTML = `<p class="search-empty">Searching posts...</p>`;
+        return;
+      }
+
+      if (status === "error") {
+        container.innerHTML = `<p class="search-empty">Search could not load. Please try again.</p>`;
+        return;
+      }
+
+      if (!results.length) {
+        container.innerHTML = `<p class="search-empty">No posts found for "${escapeHtml(query)}".</p>`;
+        return;
+      }
+
+      const resultWord = results.length === 1 ? "post" : "posts";
+      container.innerHTML = `
+        <div class="search-results-head">${results.length} ${resultWord} found for "${escapeHtml(query)}"</div>
+        ${results.map(post => `
+          <button class="search-result-card" type="button" data-search-post-id="${escapeHtml(post.id)}">
+            <strong>${escapeHtml(post.title || "每日英文通訊")}</strong>
+            <span>${escapeHtml(searchPreview(post, query))}</span>
+          </button>
+        `).join("")}
+      `;
     }
 
     function renderPostsGrid() {
@@ -1886,6 +2115,7 @@
       const preview = document.querySelector("[data-image-preview]");
       const clipboard = document.querySelector("[data-clipboard-text]");
       const adoptButton = document.querySelector("[data-adopt-clipboard]");
+      const summaryInput = document.querySelector("#post-summary");
       const clipboardSources = [
         document.querySelector("#post-image-english"),
         document.querySelector("#post-extension"),
@@ -1893,7 +2123,7 @@
       ];
       const highlightInputs = [
         ...clipboardSources,
-        document.querySelector("#post-summary"),
+        summaryInput,
         clipboard
       ];
 
@@ -1935,6 +2165,10 @@
         updateClipboard();
         clipboard.dataset.adopted = "yes";
         clipboard.readOnly = false;
+        if (summaryInput && !summaryInput.value.trim() && clipboard.value.trim()) {
+          summaryInput.value = clipboard.value;
+          summaryInput.dispatchEvent(new Event("input", { bubbles: true }));
+        }
         clipboard.focus();
       });
 
@@ -2106,6 +2340,49 @@
       });
     }
 
+    function setupPostSearch() {
+      const input = document.querySelector("[data-post-search]");
+      const resultsContainer = document.querySelector("[data-post-search-results]");
+      if (!input || !resultsContainer) return;
+
+      let searchTimer = 0;
+      let searchToken = 0;
+
+      input.addEventListener("input", () => {
+        const query = input.value.trim();
+        window.clearTimeout(searchTimer);
+
+        if (!query) {
+          renderPostSearchResults([], "");
+          return;
+        }
+
+        const token = ++searchToken;
+        renderPostSearchResults([], query, "loading");
+        searchTimer = window.setTimeout(async () => {
+          try {
+            const results = await searchStoredPosts(query);
+            if (token === searchToken) renderPostSearchResults(results, query);
+          } catch (error) {
+            if (token === searchToken) renderPostSearchResults([], query, "error");
+          }
+        }, 260);
+      });
+
+      resultsContainer.addEventListener("click", async event => {
+        const button = event.target.closest("[data-search-post-id]");
+        if (!button) return;
+        const id = button.getAttribute("data-search-post-id");
+        try {
+          await showPostById(id);
+          document.querySelector("#newsletter-content")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        } catch (error) {
+          renderPostSearchResults([], input.value.trim(), "error");
+          setSyncStatus(`Supabase could not load this post: ${error.message}`, true);
+        }
+      });
+    }
+
     function setupSections() {
       document.querySelectorAll("[data-section-tab]").forEach(tab => {
         tab.addEventListener("click", () => {
@@ -2140,6 +2417,7 @@
       setupPostForm();
       setupPostsModal();
       setupPostNavigation();
+      setupPostSearch();
       setupSections();
       setupCustomCursor();
       updateAuthUi();
