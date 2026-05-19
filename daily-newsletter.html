@@ -75,9 +75,12 @@
     .study-nav {
       min-height: 52px;
       display: grid;
-      grid-template-columns: 1.15fr auto 1fr;
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas:
+        "left right"
+        "title title";
       align-items: center;
-      gap: 22px;
+      gap: 14px 22px;
       font-size: 15px;
       line-height: 1;
       font-weight: 900;
@@ -102,8 +105,16 @@
       min-width: 0;
     }
 
-    .study-nav-left { justify-self: start; }
-    .study-nav-right { justify-self: end; }
+    .study-nav-left {
+      grid-area: left;
+      justify-self: start;
+      flex-wrap: wrap;
+    }
+
+    .study-nav-right {
+      grid-area: right;
+      justify-self: end;
+    }
 
     .study-brand {
       display: inline-flex;
@@ -138,6 +149,7 @@
     }
 
     .study-nav-title {
+      grid-area: title;
       justify-self: center;
       color: #22302a;
       font-size: clamp(22px, 2vw, 34px);
@@ -289,127 +301,210 @@
       clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
     }
 
-    .content-grid {
-      margin-top: 22px;
-      display: grid;
-      grid-template-columns: minmax(360px, 0.95fr) minmax(420px, 1.05fr);
-      gap: 22px;
-      align-items: stretch;
+    .hero-post-nav {
+      position: absolute;
+      top: clamp(18px, 2vw, 26px);
+      right: clamp(18px, 2vw, 28px);
+      z-index: 4;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px;
+      border: 1px solid rgba(255,255,255,0.24);
+      border-radius: 999px;
+      background: rgba(11,30,22,0.46);
+      color: #fff;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.20);
+      backdrop-filter: blur(18px);
     }
 
-    .section-list,
-    .detail-card {
-      border-radius: 28px;
-      background: rgba(255,255,255,0.78);
+    .post-swipe {
+      width: 48px;
+      height: 48px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.92);
+      color: #12251c;
+      font-family: inherit;
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 900;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+    }
+
+    .post-swipe:disabled {
+      opacity: 0.42;
+    }
+
+    .post-counter {
+      min-width: 70px;
+      text-align: center;
+      color: rgba(255,255,255,0.92);
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .learning-workspace {
+      margin-top: 22px;
+      display: grid;
+      grid-template-columns: minmax(340px, 0.78fr) minmax(580px, 1.22fr);
+      gap: 22px;
+      align-items: start;
+    }
+
+    .uploaded-image-panel,
+    .notes-panel {
+      border: 1px solid rgba(31,157,98,0.16);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.84);
       box-shadow: 0 18px 44px rgba(25,42,31,0.10);
       backdrop-filter: blur(18px);
     }
 
-    .section-list {
-      padding: 22px;
-      display: grid;
-      gap: 14px;
+    .uploaded-image-panel {
+      margin: 0;
+      padding: clamp(14px, 2vw, 20px);
+      position: sticky;
+      top: 18px;
     }
 
-    .section-list h2,
-    .detail-card h2 {
-      margin: 0;
-      color: #24342b;
-      line-height: 1.1;
+    .uploaded-image-frame {
+      min-height: clamp(360px, 56vh, 680px);
+      border-radius: 16px;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(14,38,29,0.96), rgba(31,157,98,0.18)),
+        #0f1914;
+      display: grid;
+      place-items: center;
+    }
+
+    .uploaded-image-frame img {
+      width: 100%;
+      height: 100%;
+      max-height: clamp(360px, 56vh, 680px);
+      display: block;
+      object-fit: contain;
+    }
+
+    .image-caption {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 14px;
+      color: #34433b;
+      font-size: 14px;
+      line-height: 1.35;
       font-weight: 900;
     }
 
-    .section-list h2 {
-      font-size: clamp(28px, 2.7vw, 41px);
+    .image-caption span:last-child {
+      color: var(--green-dark);
+      text-align: right;
     }
 
-    .detail-card h2 {
-      font-size: clamp(34px, 3.8vw, 64px);
+    .notes-panel {
+      padding: clamp(20px, 3vw, 34px);
+      min-height: clamp(560px, 68vh, 860px);
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .notes-panel-head {
+      display: grid;
+      grid-template-columns: minmax(118px, 0.28fr) minmax(500px, 1.72fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    .notes-kicker {
+      display: inline-flex;
+      width: fit-content;
+      min-height: 30px;
+      align-items: center;
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: #dff6e9;
+      color: var(--green-dark);
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .notes-panel h2 {
+      margin: 12px 0 0;
+      color: #17201b;
+      font-size: clamp(32px, 3.2vw, 56px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .section-switcher {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      min-width: 0;
     }
 
     .section-tab {
       width: 100%;
-      min-height: 152px;
-      border: 0;
-      border-radius: 22px;
-      padding: 14px 18px;
-      background: linear-gradient(135deg, rgba(255,255,255,0.94), rgba(244,250,239,0.86));
-      color: var(--ink);
-      display: grid;
-      grid-template-columns: 112px minmax(0, 1fr) auto;
-      gap: 22px;
-      align-items: center;
+      min-height: 110px;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 16px;
+      background: linear-gradient(180deg, #202321, #151815);
+      color: #fff7df;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 7px;
       text-align: left;
       font-family: inherit;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.72), 0 10px 24px rgba(25,42,31,0.08);
-      transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+      min-width: 0;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 12px 28px rgba(7,21,14,0.18);
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
     }
 
     .section-tab:hover,
     .section-tab.is-active {
       transform: translateY(-2px);
-      background: #fff;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.88), 0 16px 34px rgba(31,157,98,0.16);
-    }
-
-    .section-tab img {
-      width: 104px;
-      height: 104px;
-      display: block;
+      border-color: rgba(233,186,92,0.86);
+      background: linear-gradient(180deg, #293027, #111611);
     }
 
     .section-label {
       display: block;
-      font-size: clamp(34px, 3.8vw, 64px);
-      line-height: 1.1;
+      color: #fff7df;
+      font-size: clamp(18px, 1.28vw, 25px);
+      line-height: 1.08;
       font-weight: 900;
+      overflow-wrap: anywhere;
     }
 
     .section-more {
-      min-height: 36px;
-      border-radius: 999px;
-      padding: 10px 16px;
-      background: #d7f6e4;
-      color: var(--green-dark);
-      font-size: 14px;
-      line-height: 1;
+      display: block;
+      color: rgba(255,247,223,0.72);
+      font-size: clamp(13px, 1vw, 16px);
+      line-height: 1.15;
       font-weight: 900;
-      white-space: nowrap;
-    }
-
-    .detail-card {
-      min-height: 520px;
-      aspect-ratio: 1 / 1;
-      padding: clamp(26px, 3vw, 46px);
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .detail-card::after {
-      content: "";
-      position: absolute;
-      right: -90px;
-      bottom: -120px;
-      width: 320px;
-      height: 320px;
-      border-radius: 50%;
-      background: rgba(31,157,98,0.10);
-      pointer-events: none;
     }
 
     .detail-text {
-      margin: 28px 0 0;
-      max-height: 350px;
-      overflow-y: auto;
-      padding-right: 12px;
-      color: #2f3b35;
-      font-size: clamp(21px, 1.7vw, 30px);
-      line-height: 1.62;
+      width: 100%;
+      flex: 1;
+      overflow: visible;
+      padding: 0;
+      color: #25322b;
+      font-size: clamp(19px, 1.45vw, 27px);
+      line-height: 1.72;
       font-weight: 820;
-      scrollbar-width: thin;
-      scrollbar-color: rgba(31,157,98,0.55) rgba(31,157,98,0.08);
+      white-space: normal;
     }
 
     .detail-text p {
@@ -505,7 +600,7 @@
     .image-preview img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
 
@@ -521,12 +616,18 @@
     .post-button {
       border: 0;
       border-radius: 999px;
-      padding: 13px 22px;
+      min-width: 132px;
+      min-height: 56px;
+      padding: 16px 28px;
       background: #050505;
       color: #fff;
       font-family: inherit;
-      font-size: 15px;
+      font-size: 16px;
       font-weight: 900;
+    }
+
+    .post-button:disabled {
+      opacity: 0.58;
     }
 
     .post-button.secondary {
@@ -715,11 +816,13 @@
     .delete-post {
       border: 0;
       border-radius: 999px;
-      padding: 9px 14px;
+      min-width: 104px;
+      min-height: 48px;
+      padding: 13px 18px;
       background: #d71920;
       color: #fff;
       font-family: inherit;
-      font-size: 13px;
+      font-size: 15px;
       font-weight: 900;
     }
 
@@ -784,9 +887,16 @@
       }
 
       .hero-card,
-      .content-grid,
-      .post-form {
+      .learning-workspace,
+      .post-form,
+      .notes-panel-head {
         grid-template-columns: 1fr;
+      }
+
+      .hero-post-nav {
+        top: auto;
+        right: 16px;
+        bottom: 16px;
       }
 
       .hero-image-panel {
@@ -794,40 +904,169 @@
         clip-path: none;
       }
 
-      .detail-card {
-        min-height: 430px;
-        aspect-ratio: auto;
+      .uploaded-image-panel {
+        position: static;
+      }
+
+      .uploaded-image-frame,
+      .uploaded-image-frame img {
+        min-height: 320px;
+        max-height: none;
+      }
+
+      .notes-panel {
+        min-height: auto;
+      }
+
+      .section-switcher {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
       .section-tab {
-        min-height: 128px;
-        grid-template-columns: 86px minmax(0, 1fr);
-      }
-
-      .section-tab img {
-        width: 82px;
-        height: 82px;
+        min-height: 94px;
       }
 
       .section-label {
-        font-size: clamp(30px, 9vw, 46px);
+        font-size: clamp(20px, 5.5vw, 31px);
       }
 
       .section-more {
-        grid-column: 2;
-        width: fit-content;
+        font-size: 13px;
       }
 
       .posts-grid {
         grid-template-columns: 1fr;
       }
     }
+
+    @media (max-width: 640px) {
+      .hero-card {
+        min-height: 430px;
+      }
+
+      .hero-copy {
+        padding: 24px 20px 96px;
+      }
+
+      .hero-title {
+        font-size: clamp(36px, 13vw, 56px);
+      }
+
+      .hero-note {
+        font-size: 17px;
+      }
+
+      .post-swipe {
+        width: 44px;
+        height: 44px;
+      }
+
+      .post-counter {
+        min-width: 58px;
+      }
+
+      .learning-workspace {
+        gap: 16px;
+      }
+
+      .uploaded-image-panel,
+      .notes-panel {
+        border-radius: 16px;
+      }
+
+      .uploaded-image-frame,
+      .uploaded-image-frame img {
+        min-height: 260px;
+      }
+
+      .section-switcher {
+        grid-template-columns: 1fr;
+      }
+
+      .section-tab {
+        min-height: 74px;
+      }
+
+      .detail-text {
+        font-size: 18px;
+      }
+
+      .form-actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .post-button {
+        width: 100%;
+      }
+    }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+  <style>
+    @media (max-width: 1180px) {
+      body.daily-newsletter-page .study-nav {
+        grid-template-columns: minmax(0, 1fr) auto !important;
+        grid-template-areas:
+          "left right"
+          "title title" !important;
+        padding-inline: 0 !important;
+      }
+
+      body.daily-newsletter-page .study-nav-left {
+        grid-area: left;
+      }
+
+      body.daily-newsletter-page .study-nav-right {
+        grid-area: right;
+        justify-self: end !important;
+      }
+
+      body.daily-newsletter-page .study-nav-title {
+        grid-area: title;
+        justify-self: center !important;
+      }
+    }
+
+    @media (max-width: 640px) {
+      body.daily-newsletter-page .study-nav {
+        grid-template-columns: 1fr !important;
+        grid-template-areas:
+          "left"
+          "right"
+          "title" !important;
+      }
+
+      body.daily-newsletter-page .study-nav-left,
+      body.daily-newsletter-page .study-nav-right {
+        overflow: visible !important;
+        white-space: normal !important;
+      }
+
+      body.daily-newsletter-page .study-nav-right {
+        justify-self: start !important;
+      }
+
+      body.daily-newsletter-page .study-brand img {
+        max-width: min(270px, 82vw) !important;
+      }
+
+      body.daily-newsletter-page .nav-mini-link {
+        white-space: normal;
+      }
+
+      body.daily-newsletter-page .hero-card {
+        min-height: 0;
+      }
+
+      body.daily-newsletter-page .hero-image-panel {
+        display: none;
+      }
+    }
+  </style>
 </head>
 
-<body>
+<body class="daily-newsletter-page">
   <div class="page-loader" data-page-loader aria-hidden="true">
     <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
   </div>
@@ -853,6 +1092,11 @@
 
     <main>
       <section class="hero-card" data-hero-card style="--hero-image: url('Static Images/Daily Newsletter - Default English.jpg');">
+        <div class="hero-post-nav" aria-label="Switch newsletter posts">
+          <button class="post-swipe" type="button" data-prev-post aria-label="Previous post">‹</button>
+          <span class="post-counter" data-post-counter>1 / 1</span>
+          <button class="post-swipe" type="button" data-next-post aria-label="Next post">›</button>
+        </div>
         <div class="hero-copy">
           <span class="hero-kicker">Daily English In Hong Kong</span>
           <h2 class="hero-title" data-hero-title>每日英文通訊</h2>
@@ -873,33 +1117,42 @@
         <div class="hero-image-panel" data-hero-image aria-hidden="true"></div>
       </section>
 
-      <section class="content-grid" id="newsletter-content">
-        <div class="section-list" aria-label="Newsletter sections">
-          <h2>今日重點</h2>
-          <button class="section-tab is-active" type="button" data-section-tab="imageEnglish">
-            <img src="newsletter-icon-image.svg" alt="">
-            <span class="section-label">圖中英語</span>
-            <span class="section-more">查看更多</span>
-          </button>
-          <button class="section-tab" type="button" data-section-tab="extension">
-            <img src="newsletter-icon-idea.svg" alt="">
-            <span class="section-label">主題延伸</span>
-            <span class="section-more">查看更多</span>
-          </button>
-          <button class="section-tab" type="button" data-section-tab="sentences">
-            <img src="newsletter-icon-sentence.svg" alt="">
-            <span class="section-label">實用句子</span>
-            <span class="section-more">查看更多</span>
-          </button>
-          <button class="section-tab" type="button" data-section-tab="summary">
-            <img src="newsletter-icon-summary.svg" alt="">
-            <span class="section-label">總結</span>
-            <span class="section-more">查看更多</span>
-          </button>
-        </div>
+      <section class="learning-workspace" id="newsletter-content">
+        <figure class="uploaded-image-panel">
+          <div class="uploaded-image-frame">
+            <img src="Static Images/Daily Newsletter - Default English.jpg" alt="" data-post-image>
+          </div>
+          <figcaption class="image-caption">
+            <span data-image-caption-title>每日英文通訊</span>
+            <span data-image-caption-tag>Daily English</span>
+          </figcaption>
+        </figure>
 
-        <article class="detail-card" aria-live="polite">
-          <h2 data-detail-title>圖中英語</h2>
+        <article class="notes-panel" aria-live="polite">
+          <div class="notes-panel-head">
+            <div>
+              <span class="notes-kicker">Today’s Notes</span>
+              <h2 data-detail-title>圖中英語</h2>
+            </div>
+            <div class="section-switcher" aria-label="Newsletter sections">
+              <button class="section-tab is-active" type="button" data-section-tab="imageEnglish">
+                <span class="section-label">圖中英語</span>
+                <span class="section-more">Image English</span>
+              </button>
+              <button class="section-tab" type="button" data-section-tab="extension">
+                <span class="section-label">主題延伸</span>
+                <span class="section-more">Extension</span>
+              </button>
+              <button class="section-tab" type="button" data-section-tab="sentences">
+                <span class="section-label">實用句子</span>
+                <span class="section-more">Useful Sentences</span>
+              </button>
+              <button class="section-tab" type="button" data-section-tab="summary">
+                <span class="section-label">總結</span>
+                <span class="section-more">Summary</span>
+              </button>
+            </div>
+          </div>
           <div class="detail-text" data-detail-text></div>
         </article>
       </section>
@@ -927,7 +1180,7 @@
 
           <div class="field">
             <label for="post-image">Insert an image</label>
-            <input id="post-image" name="image" type="file" accept="image/*" required data-image-input>
+            <input id="post-image" name="image" type="file" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" required data-image-input>
           </div>
 
           <div class="field full">
@@ -1246,14 +1499,26 @@
       const imagePanel = document.querySelector("[data-hero-image]");
       if (!hero || !title || !imagePanel || !subheading) return;
 
-      hero.style.setProperty("--hero-image", heroImageValue(post.image));
+      hero.style.setProperty("--hero-image", heroImageValue(DEFAULT_IMAGE));
       title.textContent = post.title || "每日英文通訊";
       const lines = String(post.subheading || defaultPost.subheading)
         .split(/\n+/)
         .map(line => line.trim())
         .filter(Boolean);
       subheading.innerHTML = lines.map(line => `<span>${escapeHtml(line)}</span>`).join("");
-      imagePanel.style.backgroundImage = `linear-gradient(90deg, rgba(15,31,24,0.36), rgba(255,255,255,0.06)), ${heroImageValue(post.image)}`;
+      imagePanel.style.backgroundImage = `linear-gradient(90deg, rgba(15,31,24,0.36), rgba(255,255,255,0.06)), ${heroImageValue(DEFAULT_IMAGE)}`;
+    }
+
+    function renderPostImage(post) {
+      const image = document.querySelector("[data-post-image]");
+      const captionTitle = document.querySelector("[data-image-caption-title]");
+      const captionTag = document.querySelector("[data-image-caption-tag]");
+      if (image) {
+        image.src = post.image || DEFAULT_IMAGE;
+        image.alt = post.title ? `${post.title} image` : "";
+      }
+      if (captionTitle) captionTitle.textContent = post.title || "每日英文通訊";
+      if (captionTag) captionTag.textContent = post.tag || "Daily English";
     }
 
     function renderDetail() {
@@ -1271,7 +1536,9 @@
     function renderPost(post) {
       activePost = post || defaultPost;
       renderHero(activePost);
+      renderPostImage(activePost);
       renderDetail();
+      updatePostNavigation();
     }
 
     function setSection(key) {
@@ -1392,6 +1659,42 @@
     function allPostsForDisplay() {
       const posts = getStoredPosts();
       return posts.length ? posts : [defaultPost];
+    }
+
+    function activePostIndex() {
+      const posts = allPostsForDisplay();
+      const index = posts.findIndex(post => post.id === activePost.id);
+      return index >= 0 ? index : 0;
+    }
+
+    function updatePostNavigation() {
+      const posts = allPostsForDisplay();
+      const previous = document.querySelector("[data-prev-post]");
+      const next = document.querySelector("[data-next-post]");
+      const counter = document.querySelector("[data-post-counter]");
+      const hasMultiplePosts = posts.length > 1;
+
+      if (previous) previous.disabled = !hasMultiplePosts;
+      if (next) next.disabled = !hasMultiplePosts;
+      if (counter) counter.textContent = `${Math.min(activePostIndex() + 1, posts.length)} / ${posts.length}`;
+    }
+
+    async function showPostById(id) {
+      let post = allPostsForDisplay().find(item => item.id === id);
+      if (post && !post.isFullPost && post.id !== defaultPost.id) {
+        setSyncStatus("Loading this post from Supabase...");
+        post = await loadStoredPostById(post.id);
+        setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
+      }
+      if (post) renderPost(post);
+      return post;
+    }
+
+    async function movePost(direction) {
+      const posts = allPostsForDisplay();
+      if (posts.length < 2) return;
+      const nextIndex = (activePostIndex() + direction + posts.length) % posts.length;
+      await showPostById(posts[nextIndex].id);
     }
 
     function renderPostsGrid() {
@@ -1576,21 +1879,44 @@
         const button = event.target.closest("[data-open-post-id]");
         if (!button) return;
         const id = button.getAttribute("data-open-post-id");
-        let post = allPostsForDisplay().find(item => item.id === id);
-        if (post && !post.isFullPost && post.id !== defaultPost.id) {
-          try {
-            setSyncStatus("Loading this post from Supabase...");
-            post = await loadStoredPostById(post.id);
-            setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
-          } catch (error) {
-            setSyncStatus(`Supabase could not load this post: ${error.message}`, true);
-          }
+        try {
+          await showPostById(id);
+        } catch (error) {
+          setSyncStatus(`Supabase could not load this post: ${error.message}`, true);
         }
-        if (post) renderPost(post);
         closeModal();
       });
       window.addEventListener("keydown", event => {
         if (event.key === "Escape") closeModal();
+      });
+    }
+
+    function setupPostNavigation() {
+      document.querySelector("[data-prev-post]")?.addEventListener("click", () => {
+        movePost(-1);
+      });
+
+      document.querySelector("[data-next-post]")?.addEventListener("click", () => {
+        movePost(1);
+      });
+
+      const hero = document.querySelector("[data-hero-card]");
+      let touchStartX = 0;
+      hero?.addEventListener("touchstart", event => {
+        touchStartX = event.changedTouches[0]?.clientX || 0;
+      }, { passive: true });
+
+      hero?.addEventListener("touchend", event => {
+        const touchEndX = event.changedTouches[0]?.clientX || 0;
+        const distance = touchEndX - touchStartX;
+        if (Math.abs(distance) < 60) return;
+        movePost(distance > 0 ? -1 : 1);
+      }, { passive: true });
+
+      window.addEventListener("keydown", event => {
+        if (event.target.closest?.("input, textarea")) return;
+        if (event.key === "ArrowLeft") movePost(-1);
+        if (event.key === "ArrowRight") movePost(1);
       });
     }
 
@@ -1627,6 +1953,7 @@
       setupLogin();
       setupPostForm();
       setupPostsModal();
+      setupPostNavigation();
       setupSections();
       setupCustomCursor();
       updateAuthUi();
