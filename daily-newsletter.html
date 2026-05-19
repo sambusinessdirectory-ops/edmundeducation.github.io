@@ -1009,6 +1009,9 @@
     const SUPABASE_URL = String(SUPABASE_CONFIG.url || "").replace(/\/$/, "");
     const SUPABASE_ANON_KEY = String(SUPABASE_CONFIG.anonKey || "");
     const POSTS_TABLE = SUPABASE_CONFIG.dailyNewsletterTable || "daily_newsletter_posts";
+    const POST_FIELDS = "id,created_at,title,subheading,tag,image,image_english,extension,sentences,summary";
+    const POST_LIST_FIELDS = "id,created_at,title,subheading,tag";
+    const POST_LIST_LIMIT = 30;
 
     const sectionLabels = {
       imageEnglish: "圖中英語",
@@ -1076,8 +1079,18 @@
       return cachedPosts;
     }
 
+    function postTimestamp(post) {
+      if (Number.isFinite(Number(post.createdAt))) return Number(post.createdAt);
+      const parsedDate = Date.parse(post.created_at || "");
+      return Number.isFinite(parsedDate) ? parsedDate : 0;
+    }
+
+    function sortPosts(posts) {
+      return [...posts].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+    }
+
     function getLatestPost() {
-      return getStoredPosts().sort((a, b) => Number(b.createdAt || 0) - Number(a.createdAt || 0))[0] || null;
+      return sortPosts(getStoredPosts())[0] || null;
     }
 
     function postFromRow(row) {
@@ -1092,7 +1105,8 @@
         imageEnglish: row.image_english || "",
         extension: row.extension || "",
         sentences: row.sentences || "",
-        summary: row.summary || ""
+        summary: row.summary || "",
+        isFullPost: Boolean(row.image || row.image_english || row.extension || row.sentences || row.summary)
       };
     }
 
@@ -1147,8 +1161,19 @@
       }
 
       try {
-        const rows = await supabaseRequest(`${POSTS_TABLE}?select=*&published=eq.true&order=created_at.desc`);
-        cachedPosts = Array.isArray(rows) ? rows.map(postFromRow) : [];
+        const latestRows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_FIELDS}&published=eq.true&order=created_at.desc&limit=1`);
+        const listRows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_LIST_FIELDS}&published=eq.true&order=created_at.desc&limit=${POST_LIST_LIMIT}`);
+        const postMap = new Map();
+        (Array.isArray(listRows) ? listRows : []).forEach(row => {
+          const post = postFromRow(row);
+          post.image = DEFAULT_IMAGE;
+          postMap.set(post.id, post);
+        });
+        (Array.isArray(latestRows) ? latestRows : []).forEach(row => {
+          const post = postFromRow(row);
+          postMap.set(post.id, post);
+        });
+        cachedPosts = sortPosts(Array.from(postMap.values()));
         setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
       } catch (error) {
         cachedPosts = getLocalPosts();
@@ -1156,6 +1181,21 @@
       }
 
       return cachedPosts;
+    }
+
+    async function loadStoredPostById(id) {
+      const cached = cachedPosts.find(post => post.id === id);
+      if (!hasSupabaseConfig() || cached?.isFullPost) return cached || null;
+
+      const rows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_FIELDS}&id=eq.${encodeURIComponent(id)}&published=eq.true&limit=1`);
+      const post = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : null;
+      if (!post) return cached || null;
+
+      cachedPosts = sortPosts([
+        post,
+        ...cachedPosts.filter(item => item.id !== post.id)
+      ]);
+      return post;
     }
 
     async function createStoredPost(post) {
@@ -1440,9 +1480,22 @@
           return;
         }
 
+        const submitButton = form.querySelector('button[type="submit"]');
+        const originalSubmitText = submitButton?.textContent || "";
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.textContent = "Saving...";
+        }
+
         const formData = new FormData(form);
         const file = formData.get("image");
-        if (!(file instanceof File) || !file.size) return;
+        if (!(file instanceof File) || !file.size) {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = originalSubmitText;
+          }
+          return;
+        }
 
         const createdAt = Date.now();
         const post = {
@@ -1464,6 +1517,10 @@
         } catch (error) {
           alert(`Could not save this post to Supabase: ${error.message}`);
           setSyncStatus(`Supabase save failed: ${error.message}`, true);
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = originalSubmitText;
+          }
           return;
         }
 
@@ -1478,6 +1535,10 @@
         renderSavedPosts();
         renderPostsGrid();
         window.scrollTo({ top: 0, behavior: "smooth" });
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = originalSubmitText;
+        }
       });
 
       document.addEventListener("click", event => {
@@ -1511,11 +1572,20 @@
       modal?.addEventListener("click", event => {
         if (event.target === modal) closeModal();
       });
-      grid?.addEventListener("click", event => {
+      grid?.addEventListener("click", async event => {
         const button = event.target.closest("[data-open-post-id]");
         if (!button) return;
         const id = button.getAttribute("data-open-post-id");
-        const post = allPostsForDisplay().find(item => item.id === id);
+        let post = allPostsForDisplay().find(item => item.id === id);
+        if (post && !post.isFullPost && post.id !== defaultPost.id) {
+          try {
+            setSyncStatus("Loading this post from Supabase...");
+            post = await loadStoredPostById(post.id);
+            setSyncStatus("Connected to Supabase. New posts will be shared across devices.");
+          } catch (error) {
+            setSyncStatus(`Supabase could not load this post: ${error.message}`, true);
+          }
+        }
         if (post) renderPost(post);
         closeModal();
       });

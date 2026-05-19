@@ -12,6 +12,9 @@ create table if not exists public.daily_newsletter_posts (
   published boolean not null default true
 );
 
+create index if not exists daily_newsletter_posts_published_created_idx
+on public.daily_newsletter_posts(published, created_at desc);
+
 alter table public.daily_newsletter_posts enable row level security;
 
 drop policy if exists "Daily newsletter posts are public" on public.daily_newsletter_posts;
