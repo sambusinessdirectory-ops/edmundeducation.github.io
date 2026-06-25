@@ -175,9 +175,13 @@
     .course-stage {
       position: relative;
       display: grid;
-      grid-template-columns: minmax(230px, 330px) minmax(520px, 920px) 1fr;
+      grid-template-columns:
+        minmax(230px, 330px)
+        minmax(520px, 920px)
+        minmax(230px, 330px);
       gap: clamp(28px, 4vw, 68px);
       align-items: start;
+      justify-content: center;
       padding: 72px clamp(28px, 5vw, 96px) 12vh;
     }
 
@@ -226,9 +230,20 @@
       font-weight: 800;
     }
 
+    .summary-logo {
+      display: block;
+      width: min(280px, 100%);
+      height: auto;
+      margin-top: 28px;
+      border-radius: 22px;
+      box-shadow: 0 18px 46px rgba(0,0,0,0.14);
+    }
+
     .gallery {
       grid-column: 2;
       min-width: 0;
+      width: 100%;
+      justify-self: center;
     }
 
     .image-card {
@@ -284,34 +299,6 @@
       margin-top: 14px;
       color: #1d4ed8;
       font-size: 18px;
-    }
-
-    .side-logo {
-      position: fixed;
-      z-index: 9;
-      top: 136px;
-      right: clamp(20px, 4vw, 72px);
-      width: min(1080px, 52vw);
-      height: auto;
-      object-fit: contain;
-      padding: 0;
-      border-radius: 34px;
-      background: transparent;
-      box-shadow: 0 28px 80px rgba(0,0,0,0.16);
-      opacity: 0;
-      transform: translateY(18px) scale(0.96);
-      transition: opacity 0.55s ease, transform 0.55s ease;
-      pointer-events: none;
-    }
-
-    body.is-gallery .side-logo {
-      opacity: 1;
-      transform: translateY(0) scale(1);
-    }
-
-    body.is-final .side-logo {
-      opacity: 0;
-      transform: translateY(18px) scale(0.96);
     }
 
     .final-cta {
@@ -510,11 +497,10 @@
 
     @media (max-width: 1250px) {
       .course-stage {
-        grid-template-columns: minmax(220px, 300px) minmax(500px, 820px) 1fr;
-      }
-
-      .side-logo {
-        width: min(760px, 44vw);
+        grid-template-columns:
+          minmax(220px, 300px)
+          minmax(500px, 820px)
+          minmax(220px, 300px);
       }
     }
 
@@ -560,7 +546,10 @@
         margin-bottom: 34px;
       }
 
-      .side-logo { display: none; }
+      .summary-logo {
+        width: min(260px, 82vw);
+        margin-top: 24px;
+      }
 
       .image-card {
         position: relative;
@@ -639,11 +628,10 @@
         <h2 class="summary-title" data-title></h2>
         <p class="summary-desc" data-desc></p>
         <p class="summary-price" data-price></p>
+        <img class="summary-logo" src="Company Logo for Cover Page.png" alt="EdmundEducation company logo">
       </aside>
 
       <div class="gallery" data-gallery></div>
-
-      <img class="side-logo" src="Company Logo for Cover Page.png" alt="EdmundEducation company logo">
     </section>
 
     <section class="final-cta" id="final-cta">
