@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Edmund Flashcard 學習卡系統</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --ink: #172033;
+      --muted: #617089;
+      --blue: #2f80ed;
+      --blue-dark: #1559a8;
+      --paper: #fffdf8;
+      --line: rgba(47,128,237,0.28);
+      --red-line: rgba(239,68,68,0.62);
+      --shadow: rgba(17,43,85,0.16);
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    html, body, a, button, input, textarea { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 12% 10%, rgba(84,177,255,0.18), transparent 34%),
+        radial-gradient(circle at 82% 8%, rgba(255,196,87,0.22), transparent 32%),
+        linear-gradient(135deg, #f8fbff 0%, #eef6ff 46%, #fff8ea 100%);
+      color: var(--ink);
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 760;
+      overflow-x: hidden;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .flash-shell {
+      width: min(1480px, calc(100vw - 40px));
+      margin: 0 auto;
+      padding: 28px 0 64px;
+    }
+
+    .topbar {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 28px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .brand img {
+      width: min(360px, 46vw);
+      height: auto;
+      display: block;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .pill-button {
+      min-height: 46px;
+      border: 1px solid rgba(47,128,237,0.24);
+      border-radius: 999px;
+      padding: 0 18px;
+      background: rgba(255,255,255,0.82);
+      color: var(--blue-dark);
+      font: inherit;
+      font-weight: 900;
+      box-shadow: 0 12px 28px rgba(47,128,237,0.12);
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+
+    .pill-button:hover {
+      transform: translateY(-2px);
+      background: #fff;
+      box-shadow: 0 18px 34px rgba(47,128,237,0.18);
+    }
+
+    .pill-button.danger {
+      border-color: rgba(220,38,38,0.22);
+      color: #b91c1c;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 0.92fr) minmax(340px, 0.58fr);
+      gap: clamp(24px, 4vw, 64px);
+      align-items: center;
+      min-height: calc(100vh - 150px);
+    }
+
+    .hero-copy h1 {
+      margin: 0;
+      font-size: clamp(42px, 6vw, 86px);
+      line-height: 0.98;
+      font-weight: 900;
+      color: #0e2d55;
+      letter-spacing: 0;
+    }
+
+    .hero-copy p {
+      max-width: 720px;
+      margin: 22px 0 0;
+      color: var(--muted);
+      font-size: clamp(18px, 1.4vw, 24px);
+      line-height: 1.45;
+      font-weight: 820;
+    }
+
+    .login-card,
+    .panel-card,
+    .deck-card,
+    .flash-paper {
+      border: 1px solid rgba(47,128,237,0.22);
+      border-radius: 28px;
+      background:
+        linear-gradient(90deg, transparent 0 52px, var(--red-line) 53px, transparent 55px),
+        repeating-linear-gradient(180deg, var(--paper) 0 31px, var(--line) 32px, var(--paper) 34px);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.82),
+        0 12px 0 #bad7ff,
+        0 28px 52px var(--shadow);
+    }
+
+    .login-card {
+      position: relative;
+      padding: 38px;
+      isolation: isolate;
+    }
+
+    .login-card::after {
+      content: "";
+      position: absolute;
+      inset: 12px -12px -18px 14px;
+      z-index: -1;
+      border-radius: 28px;
+      border: 1px solid rgba(47,128,237,0.16);
+      background:
+        repeating-linear-gradient(180deg, #fafdff 0 31px, rgba(47,128,237,0.18) 32px, #fafdff 34px);
+      box-shadow: 0 16px 30px rgba(47,128,237,0.12);
+    }
+
+    .login-card h2,
+    .panel-card h2,
+    .deck-card h2 {
+      margin: 0 0 18px;
+      font-size: clamp(28px, 2.6vw, 42px);
+      line-height: 1.1;
+      font-weight: 900;
+      color: #0e2d55;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    label {
+      color: #1c3f6e;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: 1px solid rgba(47,128,237,0.22);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.92);
+      color: var(--ink);
+      font: inherit;
+      font-weight: 820;
+      outline: 0;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.84);
+    }
+
+    input {
+      min-height: 52px;
+      padding: 0 16px;
+    }
+
+    textarea {
+      min-height: 150px;
+      padding: 14px 16px;
+      resize: vertical;
+      line-height: 1.4;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 14px;
+    }
+
+    .primary-button {
+      min-height: 54px;
+      border: 0;
+      border-radius: 16px;
+      padding: 0 22px;
+      background: linear-gradient(135deg, #3b82f6, #1559a8);
+      color: #fff;
+      font: inherit;
+      font-weight: 900;
+      box-shadow: 0 10px 0 #0f4583, 0 24px 34px rgba(47,128,237,0.28);
+      transition: transform 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .primary-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 0 #0f4583, 0 30px 42px rgba(47,128,237,0.34);
+    }
+
+    .primary-button:active {
+      transform: translateY(5px);
+      box-shadow: 0 4px 0 #0f4583, 0 14px 26px rgba(47,128,237,0.26);
+    }
+
+    .secondary-button {
+      min-height: 48px;
+      border: 1px solid rgba(47,128,237,0.24);
+      border-radius: 14px;
+      padding: 0 16px;
+      background: rgba(255,255,255,0.92);
+      color: var(--blue-dark);
+      font: inherit;
+      font-weight: 900;
+    }
+
+    .status {
+      min-height: 24px;
+      margin: 16px 0 0;
+      color: #b42318;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .app-view {
+      display: grid;
+      gap: 26px;
+    }
+
+    .panel-card,
+    .deck-card {
+      padding: clamp(22px, 3vw, 36px);
+    }
+
+    .section-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .section-head p {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.38;
+      font-weight: 820;
+    }
+
+    .admin-grid {
+      display: grid;
+      grid-template-columns: minmax(300px, 0.8fr) minmax(0, 1.2fr);
+      gap: 18px;
+    }
+
+    .student-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .student-row {
+      min-height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 12px 10px 16px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.74);
+      color: #173153;
+      font-weight: 900;
+    }
+
+    .student-row button {
+      min-height: 38px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 14px;
+      background: #fee2e2;
+      color: #b91c1c;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(240px, 0.64fr) minmax(220px, 0.52fr);
+      gap: clamp(18px, 2.6vw, 36px);
+      align-items: center;
+    }
+
+    .exam-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .right-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .tile,
+    .custom-tile,
+    .thin-option {
+      border: 1px solid rgba(47,128,237,0.22);
+      border-radius: 18px;
+      background:
+        linear-gradient(90deg, transparent 0 30px, rgba(239,68,68,0.45) 31px, transparent 33px),
+        repeating-linear-gradient(180deg, #fff 0 24px, rgba(47,128,237,0.32) 25px, #fff 27px);
+      color: #0e2d55;
+      font: inherit;
+      font-weight: 900;
+      text-align: left;
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.80),
+        0 7px 0 #bedaff,
+        0 18px 28px rgba(47,128,237,0.14);
+      transition: transform 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .tile {
+      min-height: 112px;
+      padding: 18px;
+      display: flex;
+      align-items: flex-end;
+      font-size: clamp(20px, 1.8vw, 30px);
+      line-height: 1.05;
+    }
+
+    .custom-tile {
+      min-height: 270px;
+      padding: 24px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      font-size: clamp(28px, 2.8vw, 46px);
+      line-height: 1.05;
+    }
+
+    .thin-option {
+      min-height: 44px;
+      padding: 9px 16px 9px 42px;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+
+    .tile:not(:disabled):hover,
+    .custom-tile:not(:disabled):hover,
+    .thin-option:not(:disabled):hover {
+      transform: translateY(-2px);
+      box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.86),
+        0 9px 0 #bedaff,
+        0 24px 34px rgba(47,128,237,0.20);
+    }
+
+    .tile:disabled {
+      opacity: 0.46;
+      filter: grayscale(0.45);
+    }
+
+    .tile:disabled::after {
+      content: "Soon";
+      margin-left: auto;
+      color: #7c8797;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .skill-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .columns-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      align-items: start;
+    }
+
+    .columns-grid.two {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .columns-grid.one {
+      grid-template-columns: minmax(0, 520px);
+      justify-content: center;
+    }
+
+    .option-column {
+      display: grid;
+      gap: 10px;
+      padding: 14px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.56);
+      border: 1px solid rgba(47,128,237,0.14);
+    }
+
+    .option-column h3 {
+      margin: 0 0 4px;
+      color: #0e2d55;
+      font-size: 22px;
+      line-height: 1.12;
+      font-weight: 900;
+    }
+
+    .deck-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(320px, 0.62fr);
+      gap: 22px;
+      align-items: start;
+    }
+
+    .flash-paper {
+      min-height: 360px;
+      padding: 56px 34px 34px 74px;
+      display: grid;
+      align-items: center;
+      white-space: pre-wrap;
+      font-size: clamp(26px, 3vw, 48px);
+      line-height: 1.25;
+      font-weight: 900;
+      color: #0e2d55;
+    }
+
+    .card-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .card-count {
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .editor-panel {
+      display: grid;
+      gap: 14px;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .import-table {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      margin-top: 12px;
+    }
+
+    .import-table::before,
+    .import-table::after {
+      position: absolute;
+      top: 12px;
+      z-index: 1;
+      color: #1559a8;
+      font-size: 13px;
+      font-weight: 900;
+      pointer-events: none;
+    }
+
+    .import-table::before {
+      content: "Front";
+      left: 16px;
+    }
+
+    .import-table::after {
+      content: "Back";
+      left: calc(50% + 16px);
+    }
+
+    .import-table textarea {
+      min-height: 260px;
+      padding-top: 42px;
+      background:
+        linear-gradient(90deg, transparent 0 calc(50% - 1px), rgba(47,128,237,0.28) calc(50% - 1px) calc(50% + 1px), transparent calc(50% + 1px)),
+        repeating-linear-gradient(180deg, rgba(255,255,255,0.96) 0 34px, rgba(47,128,237,0.16) 35px, rgba(255,255,255,0.96) 36px);
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      white-space: pre;
+      overflow-x: auto;
+    }
+
+    .import-hint {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 820;
+    }
+
+    @media (max-width: 980px) {
+      html, body, a, button, input, textarea { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .hero,
+      .admin-grid,
+      .dashboard-grid,
+      .deck-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .exam-grid,
+      .skill-grid,
+      .columns-grid,
+      .columns-grid.two {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .custom-tile {
+        min-height: 180px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .flash-shell {
+        width: min(100% - 28px, 1480px);
+        padding-top: 18px;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .brand img {
+        width: min(300px, 84vw);
+      }
+
+      .login-card,
+      .panel-card,
+      .deck-card {
+        border-radius: 22px;
+        padding: 22px;
+      }
+
+      .form-row,
+      .exam-grid,
+      .skill-grid,
+      .columns-grid,
+      .columns-grid.two {
+        grid-template-columns: 1fr;
+      }
+
+      .tile {
+        min-height: 82px;
+      }
+
+      .flash-paper {
+        min-height: 280px;
+        padding: 42px 22px 28px 54px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+</head>
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <div class="flash-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="EdmundEducation">
+        <img src="Font Transparent.png" alt="EdmundEducation">
+      </a>
+      <div class="nav-actions">
+        <button class="pill-button hidden" type="button" data-back>Back</button>
+        <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" data-login-view>
+        <div class="hero-copy">
+          <h1>Flashcard<br>學習卡系統</h1>
+          <p>登入後可以按考試、技能、年份或自設分類溫習。Admin 可以新增學生帳戶，並為任何分類加入學習卡。</p>
+        </div>
+
+        <form class="login-card" data-login-form>
+          <h2>Login</h2>
+          <div class="field">
+            <label for="username">User name</label>
+            <input id="username" name="username" type="text" autocomplete="username" required>
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="current-password" required>
+          </div>
+          <div class="field">
+            <button class="primary-button" type="submit">Enter Flashcards</button>
+          </div>
+          <p class="status" data-login-status></p>
+        </form>
+      </section>
+
+      <section class="app-view hidden" data-app-view>
+        <section class="panel-card hidden" data-admin-panel>
+          <div class="section-head">
+            <div>
+              <h2>Admin 控制台</h2>
+              <p>Admin: Sam。你可以新增學生登入資料，也可以進入所有學習卡分類新增卡片。</p>
+            </div>
+            <button class="primary-button" type="button" data-open-dashboard>Enter Student View</button>
+          </div>
+
+          <div class="admin-grid">
+            <form data-student-form>
+              <div class="form-row">
+                <div class="field">
+                  <label for="new-student-name">Student user name</label>
+                  <input id="new-student-name" name="studentName" type="text" required>
+                </div>
+                <div class="field">
+                  <label for="new-student-password">Student password</label>
+                  <input id="new-student-password" name="studentPassword" type="text" required>
+                </div>
+              </div>
+              <div class="field">
+                <button class="primary-button" type="submit">Add Student</button>
+              </div>
+              <p class="status" data-admin-status></p>
+            </form>
+
+            <div>
+              <h2>Valid Students</h2>
+              <div class="student-list" data-student-list></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel-card hidden" data-dashboard>
+          <div class="section-head">
+            <div>
+              <h2>選擇學習範圍</h2>
+              <p data-user-label></p>
+            </div>
+          </div>
+
+          <div class="dashboard-grid">
+            <div class="exam-grid">
+              <button class="tile" type="button" data-route="dse-home">DSE</button>
+              <button class="tile" type="button" data-route="ielts-home">IELTS</button>
+              <button class="tile" type="button" disabled>Pearson Test of English (PTE)</button>
+              <button class="tile" type="button" disabled>TOEIC</button>
+              <button class="tile" type="button" disabled>TOEFL</button>
+              <button class="tile" type="button" disabled>Cambridge</button>
+              <button class="tile" type="button" disabled>SAT</button>
+              <button class="tile" type="button" disabled>CRE</button>
+            </div>
+
+            <button class="custom-tile" type="button" data-open-deck="custom/general">自設學習卡</button>
+
+            <div class="right-grid">
+              <button class="tile" type="button" data-open-deck="daily-english/general">日常英語</button>
+              <button class="tile" type="button" data-open-deck="pop-songs/general">英文流行曲</button>
+              <button class="tile" type="button" data-open-deck="news-analysis/general">新聞分析</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel-card hidden" data-dse-home>
+          <div class="section-head">
+            <div>
+              <h2>DSE 中學文憑試</h2>
+              <p>選擇卷別後，再選年份或細分部份。</p>
+            </div>
+          </div>
+          <div class="skill-grid">
+            <button class="tile" type="button" data-route="dse-reading">Reading</button>
+            <button class="tile" type="button" data-route="dse-writing">Writing</button>
+            <button class="tile" type="button" data-route="dse-listening">Listening</button>
+            <button class="tile" type="button" data-route="dse-speaking">Speaking</button>
+          </div>
+        </section>
+
+        <section class="panel-card hidden" data-ielts-home>
+          <div class="section-head">
+            <div>
+              <h2>IELTS</h2>
+              <p>目前先開放 Listening flashcards。</p>
+            </div>
+          </div>
+          <div class="skill-grid">
+            <button class="tile" type="button" disabled>Reading</button>
+            <button class="tile" type="button" disabled>Writing</button>
+            <button class="tile" type="button" data-route="ielts-listening">Listening</button>
+            <button class="tile" type="button" disabled>Speaking</button>
+          </div>
+        </section>
+
+        <section class="panel-card hidden" data-options-view>
+          <div class="section-head">
+            <div>
+              <h2 data-options-title></h2>
+              <p data-options-desc></p>
+            </div>
+          </div>
+          <div data-options-grid></div>
+        </section>
+
+        <section class="deck-card hidden" data-deck-view>
+          <div class="section-head">
+            <div>
+              <h2 data-deck-title>Flashcards</h2>
+              <p data-deck-path></p>
+            </div>
+            <button class="secondary-button hidden" type="button" data-toggle-editor>Add cards</button>
+          </div>
+
+          <div class="deck-layout">
+            <div>
+              <article class="flash-paper" data-card-face>No cards yet.</article>
+              <div class="card-toolbar">
+                <button class="secondary-button" type="button" data-prev-card>Previous</button>
+                <span class="card-count" data-card-count>0 / 0</span>
+                <button class="secondary-button" type="button" data-flip-card>Flip</button>
+                <button class="secondary-button" type="button" data-next-card>Next</button>
+              </div>
+            </div>
+
+            <div class="editor-panel hidden" data-editor-panel>
+              <form data-card-form>
+                <div class="field">
+                  <label for="card-front">Front</label>
+                  <textarea id="card-front" name="front" required></textarea>
+                </div>
+                <div class="field">
+                  <label for="card-back">Back</label>
+                  <textarea id="card-back" name="back" required></textarea>
+                </div>
+                <div class="field">
+                  <button class="primary-button" type="submit">Confirmed</button>
+                </div>
+              </form>
+
+              <button class="secondary-button" type="button" data-toggle-import>Mass import</button>
+              <div class="hidden" data-import-panel>
+                <p class="import-hint">Paste a two-column table directly from Google Sheets. Column 1 = Front, Column 2 = Back.</p>
+                <div class="import-table">
+                  <textarea data-import-table placeholder="vocabulary	中文解釋&#10;sample sentence	例句解釋"></textarea>
+                </div>
+                <div class="field">
+                  <button class="primary-button" type="button" data-import-cards>Import Cards</button>
+                </div>
+              </div>
+              <p class="status" data-card-status></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const ADMIN_NAME = "Sam";
+    const ADMIN_PASSWORD = "FlashCardEdmund";
+    const STUDENTS_KEY = "edmundFlashcardStudents";
+    const CARDS_KEY = "edmundFlashcardCards";
+    const SESSION_KEY = "edmundFlashcardSession";
+
+    const dseReadingYears = ["2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2012 Practice", "2012 Sample"];
+    const dseStandardYears = ["2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012"];
+    const ieltsTests = Array.from({ length: 30 }, (_, index) => `Test ${index + 1}`);
+
+    let currentUser = null;
+    let currentView = "login";
+    let viewStack = [];
+    let currentDeckId = "";
+    let currentDeckTitle = "";
+    let currentCardIndex = 0;
+    let showingBack = false;
+
+    const viewSelectors = [
+      "[data-admin-panel]",
+      "[data-dashboard]",
+      "[data-dse-home]",
+      "[data-ielts-home]",
+      "[data-options-view]",
+      "[data-deck-view]"
+    ];
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function getStudents() {
+      try {
+        return JSON.parse(localStorage.getItem(STUDENTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveStudents(students) {
+      localStorage.setItem(STUDENTS_KEY, JSON.stringify(students));
+    }
+
+    function getCardStore() {
+      try {
+        return JSON.parse(localStorage.getItem(CARDS_KEY) || "{}");
+      } catch {
+        return {};
+      }
+    }
+
+    function saveCardStore(store) {
+      localStorage.setItem(CARDS_KEY, JSON.stringify(store));
+    }
+
+    function getDeckCards(deckId = currentDeckId) {
+      const store = getCardStore();
+      return Array.isArray(store[deckId]) ? store[deckId] : [];
+    }
+
+    function saveDeckCards(deckId, cards) {
+      const store = getCardStore();
+      store[deckId] = cards;
+      saveCardStore(store);
+    }
+
+    function setSession(user) {
+      currentUser = user;
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
+    }
+
+    function clearSession() {
+      currentUser = null;
+      sessionStorage.removeItem(SESSION_KEY);
+    }
+
+    function restoreSession() {
+      try {
+        const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
+        if (saved && saved.name && saved.role) currentUser = saved;
+      } catch {
+        currentUser = null;
+      }
+    }
+
+    function isAdmin() {
+      return currentUser?.role === "admin";
+    }
+
+    function showLogin() {
+      currentView = "login";
+      viewStack = [];
+      document.querySelector("[data-login-view]")?.classList.remove("hidden");
+      document.querySelector("[data-app-view]")?.classList.add("hidden");
+      document.querySelector("[data-back]")?.classList.add("hidden");
+      document.querySelector("[data-logout]")?.classList.add("hidden");
+    }
+
+    function hideAllAppPanels() {
+      viewSelectors.forEach(selector => {
+        document.querySelector(selector)?.classList.add("hidden");
+      });
+    }
+
+    function showAppPanel(view, push = true) {
+      if (push && currentView && currentView !== "login" && currentView !== view) {
+        viewStack.push(currentView);
+      }
+
+      currentView = view;
+      document.querySelector("[data-login-view]")?.classList.add("hidden");
+      document.querySelector("[data-app-view]")?.classList.remove("hidden");
+      document.querySelector("[data-logout]")?.classList.remove("hidden");
+      document.querySelector("[data-back]")?.classList.toggle("hidden", viewStack.length === 0);
+      hideAllAppPanels();
+
+      const panel = document.querySelector(`[data-${view}]`);
+      if (panel) panel.classList.remove("hidden");
+
+      if (view === "admin-panel") renderStudents();
+      if (view === "dashboard") updateUserLabel();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function updateUserLabel() {
+      const label = document.querySelector("[data-user-label]");
+      if (label) label.textContent = `${currentUser?.name || "Student"}｜${isAdmin() ? "Admin mode" : "Student mode"}`;
+    }
+
+    function login(username, password) {
+      const trimmedName = username.trim();
+      if (trimmedName === ADMIN_NAME && password === ADMIN_PASSWORD) {
+        setSession({ name: ADMIN_NAME, role: "admin" });
+        showAppPanel("admin-panel", false);
+        return true;
+      }
+
+      const student = getStudents().find(item => item.name === trimmedName && item.password === password);
+      if (student) {
+        setSession({ name: student.name, role: "student" });
+        showAppPanel("dashboard", false);
+        return true;
+      }
+
+      return false;
+    }
+
+    function renderStudents() {
+      const list = document.querySelector("[data-student-list]");
+      if (!list) return;
+
+      const students = getStudents();
+      list.innerHTML = students.length
+        ? students.map(student => `
+          <div class="student-row">
+            <span>${escapeHtml(student.name)}</span>
+            <button type="button" data-remove-student="${escapeHtml(student.name)}">Remove</button>
+          </div>
+        `).join("")
+        : `<p class="import-hint">No student accounts yet.</p>`;
+    }
+
+    function optionButton(label, deckId, prefix = "") {
+      return `<button class="thin-option" type="button" data-open-deck="${escapeHtml(deckId)}">${escapeHtml(label)}</button>`;
+    }
+
+    function columnHtml(title, labels, deckPrefix) {
+      return `
+        <div class="option-column">
+          <h3>${escapeHtml(title)}</h3>
+          ${labels.map(label => optionButton(label, `${deckPrefix}/${label}`)).join("")}
+        </div>
+      `;
+    }
+
+    function showOptions(title, desc, html, columnsClass = "") {
+      document.querySelector("[data-options-title]").textContent = title;
+      document.querySelector("[data-options-desc]").textContent = desc;
+      const grid = document.querySelector("[data-options-grid]");
+      grid.className = columnsClass;
+      grid.innerHTML = html;
+      showAppPanel("options-view");
+    }
+
+    function showDseReading() {
+      showOptions(
+        "DSE Reading",
+        "Part A / Part B1 / Part B2",
+        columnHtml("Part A", dseReadingYears, "dse/reading/part-a") +
+          columnHtml("Part B1", dseReadingYears, "dse/reading/part-b1") +
+          columnHtml("Part B2", dseReadingYears, "dse/reading/part-b2"),
+        "columns-grid"
+      );
+    }
+
+    function showDseTwoColumn(title, prefix, leftTitle = "Part A", rightTitle = "Part B") {
+      showOptions(
+        title,
+        `${leftTitle} / ${rightTitle}`,
+        columnHtml(leftTitle, dseStandardYears, `${prefix}/${leftTitle.toLowerCase().replaceAll(" ", "-")}`) +
+          columnHtml(rightTitle, dseStandardYears, `${prefix}/${rightTitle.toLowerCase().replaceAll(" ", "-")}`),
+        "columns-grid two"
+      );
+    }
+
+    function showDseSpeaking() {
+      showOptions(
+        "DSE Speaking",
+        "Passage Vocabulary",
+        columnHtml("Passage Vocabulary", dseStandardYears, "dse/speaking/passage-vocabulary"),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsListening() {
+      showOptions(
+        "IELTS Listening",
+        "Test 1 - Test 30",
+        columnHtml("Listening Tests", ieltsTests, "ielts/listening"),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsParts(testLabel, deckPrefix) {
+      showOptions(
+        `IELTS Listening ${testLabel}`,
+        "Choose a part",
+        ["Part 1", "Part 2", "Part 3", "Part 4"]
+          .map(part => optionButton(part, `${deckPrefix}/${part.toLowerCase().replaceAll(" ", "-")}`))
+          .join(""),
+        "columns-grid one"
+      );
+    }
+
+    function deckTitleFromId(deckId) {
+      return deckId
+        .split("/")
+        .map(part => part.replaceAll("-", " "))
+        .join(" / ");
+    }
+
+    function openDeck(deckId) {
+      currentDeckId = deckId;
+      currentDeckTitle = deckTitleFromId(deckId);
+      currentCardIndex = 0;
+      showingBack = false;
+      document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
+      document.querySelector("[data-deck-path]").textContent = deckId;
+      document.querySelector("[data-toggle-editor]")?.classList.toggle("hidden", !isAdmin());
+      document.querySelector("[data-editor-panel]")?.classList.add("hidden");
+      renderCard();
+      showAppPanel("deck-view");
+    }
+
+    function renderCard() {
+      const cards = getDeckCards();
+      const face = document.querySelector("[data-card-face]");
+      const count = document.querySelector("[data-card-count]");
+
+      if (!cards.length) {
+        face.textContent = isAdmin() ? "No cards yet. Click Add cards to create the first card." : "No cards yet.";
+        count.textContent = "0 / 0";
+        return;
+      }
+
+      currentCardIndex = Math.max(0, Math.min(currentCardIndex, cards.length - 1));
+      const card = cards[currentCardIndex];
+      face.textContent = showingBack ? card.back : card.front;
+      count.textContent = `${currentCardIndex + 1} / ${cards.length}｜${showingBack ? "Back" : "Front"}`;
+    }
+
+    function addCard(front, back) {
+      const cards = getDeckCards();
+      cards.push({ front: front.trim(), back: back.trim(), createdAt: Date.now() });
+      saveDeckCards(currentDeckId, cards);
+      currentCardIndex = cards.length - 1;
+      showingBack = false;
+      renderCard();
+    }
+
+    function parseImportText(tableText) {
+      return tableText
+        .split(/\r?\n/)
+        .map(line => line.trim())
+        .filter(Boolean)
+        .map(line => {
+          const cells = line.includes("\t") ? line.split("\t") : line.split(/\s{2,}/);
+          return {
+            front: (cells[0] || "").trim(),
+            back: cells.slice(1).join(" ").trim(),
+            createdAt: Date.now()
+          };
+        })
+        .filter(card => card.front && card.back);
+    }
+
+    function setupEvents() {
+      document.querySelector("[data-login-form]")?.addEventListener("submit", event => {
+        event.preventDefault();
+        const status = document.querySelector("[data-login-status]");
+        const formData = new FormData(event.currentTarget);
+        const ok = login(String(formData.get("username") || ""), String(formData.get("password") || ""));
+        if (!ok && status) status.textContent = "Wrong user name or password.";
+      });
+
+      document.querySelector("[data-student-form]")?.addEventListener("submit", event => {
+        event.preventDefault();
+        const status = document.querySelector("[data-admin-status]");
+        const formData = new FormData(event.currentTarget);
+        const name = String(formData.get("studentName") || "").trim();
+        const password = String(formData.get("studentPassword") || "").trim();
+        if (!name || !password) return;
+
+        const students = getStudents().filter(student => student.name !== name);
+        students.push({ name, password, createdAt: Date.now() });
+        saveStudents(students);
+        event.currentTarget.reset();
+        if (status) status.textContent = `Added ${name}.`;
+        renderStudents();
+      });
+
+      document.addEventListener("click", event => {
+        const removeButton = event.target.closest("[data-remove-student]");
+        if (removeButton) {
+          const name = removeButton.getAttribute("data-remove-student");
+          saveStudents(getStudents().filter(student => student.name !== name));
+          renderStudents();
+          return;
+        }
+
+        const routeButton = event.target.closest("[data-route]");
+        if (routeButton) {
+          const route = routeButton.getAttribute("data-route");
+          if (route === "dse-home") showAppPanel("dse-home");
+          if (route === "ielts-home") showAppPanel("ielts-home");
+          if (route === "dse-reading") showDseReading();
+          if (route === "dse-writing") showDseTwoColumn("DSE Writing", "dse/writing");
+          if (route === "dse-listening") showDseTwoColumn("DSE Listening", "dse/listening");
+          if (route === "dse-speaking") showDseSpeaking();
+          if (route === "ielts-listening") showIeltsListening();
+          return;
+        }
+
+        const openDeckButton = event.target.closest("[data-open-deck]");
+        if (openDeckButton) {
+          const deckId = openDeckButton.getAttribute("data-open-deck");
+          if (deckId.startsWith("ielts/listening/Test ")) {
+            const testLabel = deckId.split("/").at(-1);
+            showIeltsParts(testLabel, deckId);
+          } else {
+            openDeck(deckId);
+          }
+          return;
+        }
+
+        if (event.target.closest("[data-open-dashboard]")) {
+          showAppPanel("dashboard");
+          return;
+        }
+
+        if (event.target.closest("[data-back]")) {
+          const previous = viewStack.pop();
+          if (previous) showAppPanel(previous, false);
+          return;
+        }
+
+        if (event.target.closest("[data-logout]")) {
+          clearSession();
+          showLogin();
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-editor]")) {
+          document.querySelector("[data-editor-panel]")?.classList.toggle("hidden");
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-import]")) {
+          document.querySelector("[data-import-panel]")?.classList.toggle("hidden");
+          return;
+        }
+
+        if (event.target.closest("[data-prev-card]")) {
+          const cards = getDeckCards();
+          if (cards.length) currentCardIndex = (currentCardIndex - 1 + cards.length) % cards.length;
+          showingBack = false;
+          renderCard();
+          return;
+        }
+
+        if (event.target.closest("[data-next-card]")) {
+          const cards = getDeckCards();
+          if (cards.length) currentCardIndex = (currentCardIndex + 1) % cards.length;
+          showingBack = false;
+          renderCard();
+          return;
+        }
+
+        if (event.target.closest("[data-flip-card]")) {
+          showingBack = !showingBack;
+          renderCard();
+        }
+      });
+
+      document.querySelector("[data-card-form]")?.addEventListener("submit", event => {
+        event.preventDefault();
+        if (!isAdmin()) return;
+        const formData = new FormData(event.currentTarget);
+        const front = String(formData.get("front") || "");
+        const back = String(formData.get("back") || "");
+        if (!front.trim() || !back.trim()) return;
+        addCard(front, back);
+        event.currentTarget.reset();
+        const status = document.querySelector("[data-card-status]");
+        if (status) status.textContent = "Card added.";
+      });
+
+      document.querySelector("[data-import-cards]")?.addEventListener("click", () => {
+        if (!isAdmin()) return;
+        const importField = document.querySelector("[data-import-table]");
+        const imported = parseImportText(importField?.value || "");
+        const status = document.querySelector("[data-card-status]");
+        if (!imported.length) {
+          if (status) status.textContent = "No complete front/back rows found.";
+          return;
+        }
+        const cards = [...getDeckCards(), ...imported];
+        saveDeckCards(currentDeckId, cards);
+        currentCardIndex = Math.max(0, cards.length - imported.length);
+        showingBack = false;
+        if (importField) importField.value = "";
+        if (status) status.textContent = `Imported ${imported.length} cards.`;
+        renderCard();
+      });
+
+      document.addEventListener("mousemove", event => {
+        const cursor = document.querySelector(".custom-cursor");
+        if (!cursor) return;
+        cursor.style.opacity = "1";
+        cursor.style.transform = `translate(${event.clientX - 21}px, ${event.clientY - 21}px)`;
+      });
+
+      document.addEventListener("mouseleave", () => {
+        const cursor = document.querySelector(".custom-cursor");
+        if (cursor) cursor.style.opacity = "0";
+      });
+    }
+
+    restoreSession();
+    setupEvents();
+    if (currentUser) {
+      showAppPanel(isAdmin() ? "admin-panel" : "dashboard", false);
+    } else {
+      showLogin();
+    }
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+</body>
+</html>
