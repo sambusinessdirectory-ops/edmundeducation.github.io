@@ -476,6 +476,16 @@
       color: rgba(203,213,225,0.76);
     }
 
+    .tile.completed,
+    .thin-option.completed,
+    .option-row.completed .thin-option {
+      background: #059669;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.22),
+        0 8px 0 #047857,
+        0 20px 30px rgba(5,150,105,0.20);
+    }
+
     .tile:not(.locked):hover,
     .thin-option:hover,
     .mode-card:hover {
@@ -511,11 +521,48 @@
       border: 1px solid rgba(47,128,237,0.14);
     }
 
+    .option-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 58px;
+      gap: 8px;
+      align-items: stretch;
+    }
+
     .thin-option {
-      min-height: 48px;
+      min-height: 56px;
+      width: 100%;
       padding: 10px 16px;
       font-size: 16px;
       line-height: 1.2;
+    }
+
+    .reset-square {
+      min-height: 56px;
+      border: 0;
+      border-radius: 16px;
+      background: #e0f2fe;
+      color: #1559a8;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1.1;
+      font-weight: 900;
+      box-shadow: inset 0 2px 0 rgba(255,255,255,0.42), 0 6px 0 #bae6fd;
+    }
+
+    .access-actions,
+    .card-nav {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .resume-panel {
+      margin-bottom: 18px;
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(219,234,254,0.72);
+      border: 1px solid rgba(47,128,237,0.18);
     }
 
     .mode-grid {
@@ -587,6 +634,14 @@
 
     .flash-frame.front {
       min-height: 380px;
+      align-items: start;
+      justify-items: stretch;
+    }
+
+    .front-card-content {
+      width: 100%;
+      display: grid;
+      gap: clamp(28px, 4vw, 54px);
     }
 
     .flash-frame.back {
@@ -616,15 +671,23 @@
       overflow-wrap: anywhere;
     }
 
-    .examples-list {
+    .examples-list,
+    .front-examples {
       width: 100%;
-      margin-top: 4.5rem;
       display: grid;
       gap: 18px;
       color: #172033;
       font-size: clamp(18px, 1.55vw, 26px);
       line-height: 1.46;
       font-weight: 820;
+    }
+
+    .examples-list {
+      margin-top: 4.5rem;
+    }
+
+    .front-examples {
+      margin-top: 0;
     }
 
     .example-line {
@@ -910,14 +973,22 @@
               <p data-start-path></p>
             </div>
           </div>
+          <div class="resume-panel hidden" data-resume-panel>
+            <h3>已有未完成進度</h3>
+            <p class="note-text" data-resume-text></p>
+            <div class="access-actions">
+              <button class="primary-button" type="button" data-resume-deck>繼續上次進度</button>
+              <button class="secondary-button" type="button" data-discard-progress>重新開始</button>
+            </div>
+          </div>
           <div class="mode-grid">
             <button class="mode-card" type="button" data-start-mode="order">
-              By Order
-              <span>Follow the deck's original order.</span>
+              依原定次序
+              <span>按照卡組原本排序溫習。</span>
             </button>
             <button class="mode-card" type="button" data-start-mode="random">
-              Random
-              <span>Shuffle the deck before this attempt starts.</span>
+              隨機排序
+              <span>開始前先打亂本次卡片次序。</span>
             </button>
           </div>
           <p class="status" data-start-status></p>
@@ -942,10 +1013,17 @@
           <div class="study-layout">
             <div class="study-main">
               <article class="flash-frame front" data-front-card>
-                <div class="front-term" data-front-term>No cards yet.</div>
+                <div class="front-card-content">
+                  <div class="front-term" data-front-term>No cards yet.</div>
+                  <div class="front-examples" data-front-examples></div>
+                </div>
               </article>
               <article class="flash-frame back hidden" data-back-card></article>
-              <p class="note-text" data-card-hint>Click the card to flip. Green and red unlock after flipping.</p>
+              <p class="note-text" data-card-hint>點擊卡片即可揭示答案。翻開後才可選擇綠勾或紅叉。</p>
+              <div class="card-nav">
+                <button class="secondary-button" type="button" data-prev-study-card>上一張</button>
+                <button class="secondary-button" type="button" data-next-study-card>下一張</button>
+              </div>
             </div>
 
             <div class="action-rail">
@@ -5120,6 +5198,8 @@ window.EDMUND_FLASHCARD_SEED = {
     const SESSION_KEY = "edmundFlashcardSession";
     const ATTEMPTS_KEY = "edmundFlashcardAttempts";
     const PASSWORD_LOG_KEY = "edmundFlashcardPasswordLogs";
+    const PROGRESS_KEY = "edmundFlashcardProgress";
+    const RESET_LOG_KEY = "edmundFlashcardResetLogs";
 
     const seedDecks = window.EDMUND_FLASHCARD_SEED || {};
     const dseReadingYears = ["2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2012 Practice", "2012 Sample"];
@@ -5160,6 +5240,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let currentDeckId = "";
     let currentDeckTitle = "";
     let studySession = null;
+    let lastOptions = null;
 
     function escapeHtml(value) {
       return String(value)
@@ -5171,12 +5252,12 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function todayText(value) {
-      if (!value) return "Never";
+      if (!value) return "未曾";
       return new Date(value).toLocaleDateString("en-HK", { year: "numeric", month: "short", day: "numeric" });
     }
 
     function exactDateTime(value) {
-      if (!value) return "Never";
+      if (!value) return "未曾";
       return new Date(value).toLocaleString("en-HK", {
         year: "numeric",
         month: "short",
@@ -5271,6 +5352,26 @@ window.EDMUND_FLASHCARD_SEED = {
       writeJson(PASSWORD_LOG_KEY, logs);
     }
 
+    function getResetLogs() {
+      return readJson(RESET_LOG_KEY, []);
+    }
+
+    function saveResetLogs(logs) {
+      writeJson(RESET_LOG_KEY, logs);
+    }
+
+    function getProgressStore() {
+      return readJson(PROGRESS_KEY, {});
+    }
+
+    function saveProgressStore(store) {
+      writeJson(PROGRESS_KEY, store);
+    }
+
+    function progressKey(deckId = currentDeckId, studentName = currentUser?.name) {
+      return `${studentName || ""}::${deckId}`;
+    }
+
     function setSession(user) {
       currentUser = user;
       sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
@@ -5358,30 +5459,81 @@ window.EDMUND_FLASHCARD_SEED = {
       return false;
     }
 
+    function getKnownDeckIds() {
+      const customIds = Object.keys(getCardStore());
+      return [...new Set([...Object.keys(seedDecks), ...customIds])];
+    }
+
+    function deckCardCount(prefix) {
+      const exact = getDeckCards(prefix).length;
+      if (exact) return exact;
+      return getKnownDeckIds()
+        .filter(deckId => deckId.startsWith(`${prefix}/`))
+        .reduce((sum, deckId) => sum + getDeckCards(deckId).length, 0);
+    }
+
+    function attemptMatchesPrefix(attempt, prefix) {
+      return attempt.deckId === prefix || String(attempt.deckId || "").startsWith(`${prefix}/`);
+    }
+
+    function latestResetForAttempt(deckId, studentName) {
+      return getResetLogs()
+        .filter(log => log.studentName === studentName)
+        .filter(log => deckId === log.deckId || String(deckId).startsWith(`${log.deckId}/`))
+        .reduce((latest, log) => Math.max(latest, log.resetAt || 0), 0);
+    }
+
+    function visibleAttemptsForPrefix(prefix, studentName = currentUser?.name) {
+      return getAttempts()
+        .filter(attempt => attempt.studentName === studentName && attemptMatchesPrefix(attempt, prefix))
+        .filter(attempt => (attempt.startedAt || 0) > latestResetForAttempt(attempt.deckId, studentName));
+    }
+
     function attemptStatsForPrefix(prefix, studentName = currentUser?.name) {
-      const rows = getAttempts().filter(attempt =>
-        attempt.studentName === studentName &&
-        (attempt.deckId === prefix || attempt.deckId.startsWith(`${prefix}/`))
-      );
+      const rows = visibleAttemptsForPrefix(prefix, studentName);
       const latest = rows.reduce((winner, row) => Math.max(winner, row.startedAt || 0, row.updatedAt || 0), 0);
       return { count: rows.length, latest };
     }
 
-    function metaHtml(prefix) {
-      if (isAdmin()) return "";
+    function ieltsPartIds(practicePrefix) {
+      return ["part-1", "part-2", "part-3", "part-4"].map(part => `${practicePrefix}/${part}`);
+    }
+
+    function isDeckCompleted(prefix, studentName = currentUser?.name) {
+      if (!studentName || isAdmin()) return false;
+      if (/^ielts\/listening\/Practice \d+$/.test(prefix)) {
+        return ieltsPartIds(prefix).every(partDeckId => isDeckCompleted(partDeckId, studentName));
+      }
+
+      const directCards = getDeckCards(prefix).length;
+      if (directCards > 0) {
+        return visibleAttemptsForPrefix(prefix, studentName)
+          .some(attempt => attempt.deckId === prefix && attempt.completed);
+      }
+
+      const childDecks = getKnownDeckIds().filter(deckId => deckId.startsWith(`${prefix}/`) && getDeckCards(deckId).length > 0);
+      return childDecks.length > 0 && childDecks.every(deckId => isDeckCompleted(deckId, studentName));
+    }
+
+    function deckMetaHtml(prefix) {
+      const cardCount = deckCardCount(prefix);
+      if (isAdmin()) return `<small>卡片：${cardCount}</small>`;
       const stats = attemptStatsForPrefix(prefix);
-      return `<small>Attempts: ${stats.count}<br>Last: ${todayText(stats.latest)}</small>`;
+      const doneText = isDeckCompleted(prefix) ? "<br>狀態：已完成" : "";
+      return `<small>卡片：${cardCount}<br>嘗試：${stats.count}<br>最近：${todayText(stats.latest)}${doneText}</small>`;
     }
 
     function tileHtml(section) {
       const locked = !canAccess(section.key);
+      const metaPrefix = section.kind === "route" ? section.key : section.target;
+      const completed = !locked && !isAdmin() && isDeckCompleted(metaPrefix);
       const attr = section.kind === "route"
         ? `data-route="${escapeHtml(section.target)}"`
         : `data-open-deck="${escapeHtml(section.target)}"`;
       return `
-        <button class="tile ${locked ? "locked" : ""}" type="button" data-section-key="${escapeHtml(section.key)}" ${attr}>
+        <button class="tile ${locked ? "locked" : ""} ${completed ? "completed" : ""}" type="button" data-section-key="${escapeHtml(section.key)}" ${attr}>
           <span>${escapeHtml(section.label)}</span>
-          ${locked ? "<small>Unavailable</small>" : metaHtml(section.target)}
+          ${locked ? "<small>尚未開放</small>" : deckMetaHtml(metaPrefix)}
         </button>
       `;
     }
@@ -5442,6 +5594,9 @@ window.EDMUND_FLASHCARD_SEED = {
       const logs = getPasswordLogs()
         .filter(log => log.studentName === student.name)
         .sort((a, b) => (b.changedAt || 0) - (a.changedAt || 0));
+      const resetLogs = getResetLogs()
+        .filter(log => log.studentName === student.name)
+        .sort((a, b) => (b.resetAt || 0) - (a.resetAt || 0));
 
       panel.innerHTML = `
         <h2>${escapeHtml(student.name)}</h2>
@@ -5465,6 +5620,10 @@ window.EDMUND_FLASHCARD_SEED = {
 
         <div>
           <h3>Access Control</h3>
+          <div class="access-actions">
+            <button class="secondary-button" type="button" data-set-all-access="true">全部開啟</button>
+            <button class="secondary-button" type="button" data-set-all-access="false">全部取消</button>
+          </div>
           <div class="access-grid">
             ${accessSections.map(section => `
               <label class="toggle-row">
@@ -5481,9 +5640,21 @@ window.EDMUND_FLASHCARD_SEED = {
             ${attempts.length ? attempts.map(attempt => `
               <div class="attempt-row">
                 <strong>${exactDateTime(attempt.startedAt)}</strong>
-                <span>${escapeHtml(attempt.deckTitle || attempt.deckId)}<br>Mode: ${escapeHtml(attempt.mode || "-")} | Total: ${attempt.totalCards || 0} | Green: ${attempt.green || 0} | Red: ${attempt.red || 0}</span>
+                <span>${escapeHtml(attempt.deckTitle || deckTitleFromId(attempt.deckId || ""))}<br>Mode: ${escapeHtml(attempt.mode || "-")} | Total: ${attempt.totalCards || 0} | Progress: ${attempt.answeredCount || 0}/${attempt.totalCards || 0} | Green: ${attempt.green || 0} | Red: ${attempt.red || 0} | Completed: ${attempt.completed ? "Yes" : "No"}</span>
               </div>
             `).join("") : `<p class="note-text">No attempts yet.</p>`}
+          </div>
+        </div>
+
+        <div>
+          <h3>學生重設紀錄</h3>
+          <div class="attempt-list">
+            ${resetLogs.length ? resetLogs.map(log => `
+              <div class="attempt-row">
+                <strong>${exactDateTime(log.resetAt)}</strong>
+                <span>${escapeHtml(log.deckTitle || deckTitleFromId(log.deckId || ""))}<br>學生畫面已由此時間重新計算；Admin 嘗試紀錄仍保留。</span>
+              </div>
+            `).join("") : `<p class="note-text">未有重設紀錄。</p>`}
           </div>
         </div>
 
@@ -5502,11 +5673,15 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function optionButton(label, deckId) {
+      const completed = !isAdmin() && isDeckCompleted(deckId);
       return `
-        <button class="thin-option" type="button" data-open-deck="${escapeHtml(deckId)}">
-          ${escapeHtml(label)}
-          ${metaHtml(deckId)}
-        </button>
+        <div class="option-row ${completed ? "completed" : ""}" data-option-row="${escapeHtml(deckId)}" data-option-label="${escapeHtml(label)}">
+          <button class="thin-option ${completed ? "completed" : ""}" type="button" data-open-deck="${escapeHtml(deckId)}">
+            <span>${escapeHtml(label)}</span>
+            ${deckMetaHtml(deckId)}
+          </button>
+          ${isAdmin() ? "" : `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(deckId)}">重設<br>紀錄</button>`}
+        </div>
       `;
     }
 
@@ -5519,12 +5694,18 @@ window.EDMUND_FLASHCARD_SEED = {
       `;
     }
 
-    function showOptions(title, desc, html, columnsClass = "") {
-      document.querySelector("[data-options-title]").textContent = title;
-      document.querySelector("[data-options-desc]").textContent = desc;
+    function renderOptionsContent() {
+      if (!lastOptions) return;
+      document.querySelector("[data-options-title]").textContent = lastOptions.title;
+      document.querySelector("[data-options-desc]").textContent = lastOptions.desc;
       const grid = document.querySelector("[data-options-grid]");
-      grid.className = columnsClass;
-      grid.innerHTML = html;
+      grid.className = lastOptions.columnsClass;
+      grid.innerHTML = lastOptions.htmlFactory();
+    }
+
+    function showOptions(title, desc, htmlFactory, columnsClass = "") {
+      lastOptions = { title, desc, htmlFactory, columnsClass };
+      renderOptionsContent();
       showAppPanel("options-view");
     }
 
@@ -5532,7 +5713,7 @@ window.EDMUND_FLASHCARD_SEED = {
       showOptions(
         "DSE Reading",
         "Part A / Part B1 / Part B2",
-        columnHtml("Part A", dseReadingYears, "dse/reading/part-a") +
+        () => columnHtml("Part A", dseReadingYears, "dse/reading/part-a") +
           columnHtml("Part B1", dseReadingYears, "dse/reading/part-b1") +
           columnHtml("Part B2", dseReadingYears, "dse/reading/part-b2"),
         "columns-grid"
@@ -5543,7 +5724,7 @@ window.EDMUND_FLASHCARD_SEED = {
       showOptions(
         title,
         `${leftTitle} / ${rightTitle}`,
-        columnHtml(leftTitle, dseStandardYears, `${prefix}/${leftTitle.toLowerCase().replaceAll(" ", "-")}`) +
+        () => columnHtml(leftTitle, dseStandardYears, `${prefix}/${leftTitle.toLowerCase().replaceAll(" ", "-")}`) +
           columnHtml(rightTitle, dseStandardYears, `${prefix}/${rightTitle.toLowerCase().replaceAll(" ", "-")}`),
         "columns-grid two"
       );
@@ -5553,7 +5734,7 @@ window.EDMUND_FLASHCARD_SEED = {
       showOptions(
         "DSE Speaking",
         "Passage Vocabulary",
-        columnHtml("Passage Vocabulary", dseStandardYears, "dse/speaking/passage-vocabulary"),
+        () => columnHtml("Passage Vocabulary", dseStandardYears, "dse/speaking/passage-vocabulary"),
         "columns-grid one"
       );
     }
@@ -5561,8 +5742,8 @@ window.EDMUND_FLASHCARD_SEED = {
     function showIeltsListening() {
       showOptions(
         "IELTS Listening",
-        "Practice 1 - Practice 30",
-        columnHtml("Listening Practice", ieltsPractices, "ielts/listening"),
+        "Practice 1 至 Practice 30",
+        () => columnHtml("Listening Practice", ieltsPractices, "ielts/listening"),
         "columns-grid one"
       );
     }
@@ -5570,25 +5751,92 @@ window.EDMUND_FLASHCARD_SEED = {
     function showIeltsParts(practiceLabel, deckPrefix) {
       showOptions(
         `IELTS Listening ${practiceLabel}`,
-        "Choose a part",
-        ["Part 1", "Part 2", "Part 3", "Part 4"]
+        "請選擇部分",
+        () => ["Part 1", "Part 2", "Part 3", "Part 4"]
           .map(part => optionButton(part, `${deckPrefix}/${part.toLowerCase().replaceAll(" ", "-")}`))
           .join(""),
         "columns-grid one"
       );
     }
 
-    function deckTitleFromId(deckId) {
-      return deckId.split("/").map(part => part.replaceAll("-", " ")).join(" / ");
+    function titlePart(part) {
+      const lower = String(part).toLowerCase();
+      const known = {
+        ielts: "IELTS",
+        dse: "DSE",
+        pte: "PTE",
+        toeic: "TOEIC",
+        toefl: "TOEFL",
+        sat: "SAT",
+        cre: "CRE",
+        listening: "Listening",
+        reading: "Reading",
+        writing: "Writing",
+        speaking: "Speaking",
+        general: "General",
+        "daily-english": "日常英語",
+        "pop-songs": "英文流行曲",
+        "news-analysis": "新聞分析",
+        "power-words": "Power Words",
+        idioms: "Idioms",
+        "phrasal-verbs": "Phrasal Verbs",
+        "part-a": "Part A",
+        "part-b": "Part B",
+        "part-b1": "Part B1",
+        "part-b2": "Part B2"
+      };
+      if (known[lower]) return known[lower];
+      if (/^part-\d+$/.test(lower)) return `Part ${lower.split("-")[1]}`;
+      if (/^practice \d+$/i.test(part)) return part.replace(/^practice/i, "Practice");
+      return String(part)
+        .replaceAll("-", " ")
+        .replace(/\b\w/g, letter => letter.toUpperCase());
     }
 
-    function openDeckStart(deckId) {
+    function deckTitleFromId(deckId) {
+      return String(deckId || "").split("/").filter(Boolean).map(titlePart).join(" / ");
+    }
+
+    function savedProgressForDeck(deckId) {
+      if (isAdmin() || !currentUser?.name) return null;
+      const saved = getProgressStore()[progressKey(deckId)];
+      if (!saved || saved.completed) return null;
+      return saved;
+    }
+
+    function clearSavedProgress(deckId = currentDeckId) {
+      if (!currentUser?.name) return;
+      const store = getProgressStore();
+      Object.keys(store).forEach(key => {
+        const target = `${currentUser.name}::`;
+        if (key.startsWith(target)) {
+          const storedDeck = key.slice(target.length);
+          if (storedDeck === deckId || storedDeck.startsWith(`${deckId}/`)) delete store[key];
+        }
+      });
+      saveProgressStore(store);
+    }
+
+    function openDeckStart(deckId, push = true) {
       currentDeckId = deckId;
       currentDeckTitle = deckTitleFromId(deckId);
+      const count = getDeckCards(deckId).length;
       document.querySelector("[data-start-title]").textContent = currentDeckTitle;
-      document.querySelector("[data-start-path]").textContent = `${deckId} | ${getDeckCards(deckId).length} cards`;
+      document.querySelector("[data-start-path]").textContent = `${currentDeckTitle}｜卡片：${count}`;
       document.querySelector("[data-start-status]").textContent = "";
-      showAppPanel("deck-start");
+
+      const saved = savedProgressForDeck(deckId);
+      const resumePanel = document.querySelector("[data-resume-panel]");
+      const resumeText = document.querySelector("[data-resume-text]");
+      if (saved && resumePanel && resumeText) {
+        const answered = Object.keys(saved.answers || {}).length;
+        resumeText.textContent = `目前進度：${answered}/${saved.totalCards || count}。你可以繼續上次進度，或重新開始。`;
+        resumePanel.classList.remove("hidden");
+      } else {
+        resumePanel?.classList.add("hidden");
+      }
+
+      showAppPanel("deck-start", push);
     }
 
     function shuffle(values) {
@@ -5611,8 +5859,10 @@ window.EDMUND_FLASHCARD_SEED = {
         deckTitle: currentDeckTitle,
         mode,
         totalCards,
+        answeredCount: 0,
         green: 0,
         red: 0,
+        completed: false,
         startedAt: Date.now(),
         updatedAt: Date.now()
       });
@@ -5620,25 +5870,77 @@ window.EDMUND_FLASHCARD_SEED = {
       return id;
     }
 
-    function updateAttemptProgress() {
+    function answerCounts() {
+      const values = Object.values(studySession?.answers || {});
+      return {
+        answered: values.length,
+        green: values.filter(value => value === "green").length,
+        red: values.filter(value => value === "red").length
+      };
+    }
+
+    function updateAttemptProgress(completed = false) {
       if (!studySession?.attemptId) return;
       const attempts = getAttempts();
       const target = attempts.find(attempt => attempt.id === studySession.attemptId);
       if (target) {
-        target.green = studySession.green;
-        target.red = studySession.red;
+        const counts = answerCounts();
+        target.green = counts.green;
+        target.red = counts.red;
+        target.answeredCount = counts.answered;
+        target.roundNumber = studySession.roundNumber;
+        target.currentPosition = studySession.currentPosition;
         target.updatedAt = Date.now();
+        if (completed) {
+          target.completed = true;
+          target.completedAt = Date.now();
+        }
         saveAttempts(attempts);
       }
     }
 
+    function saveCurrentProgress() {
+      if (isAdmin() || !currentUser?.name || !studySession || studySession.completed) return;
+      const store = getProgressStore();
+      store[progressKey(currentDeckId)] = {
+        deckId: currentDeckId,
+        deckTitle: currentDeckTitle,
+        mode: studySession.mode,
+        roundNumber: studySession.roundNumber,
+        roundQueue: studySession.roundQueue,
+        currentPosition: studySession.currentPosition,
+        answers: studySession.answers,
+        attemptId: studySession.attemptId,
+        totalCards: studySession.cards.length,
+        savedAt: Date.now()
+      };
+      saveProgressStore(store);
+    }
+
+    function isSessionInProgress() {
+      if (!studySession || studySession.completed || !studySession.cards.length) return false;
+      return answerCounts().answered < studySession.roundQueue.length;
+    }
+
+    function confirmLeaveInProgress() {
+      if (currentView !== "deck-view" || !isSessionInProgress()) return true;
+      saveCurrentProgress();
+      const confirmed = window.confirm("這個卡組尚未完成，進度已暫存。確定要離開嗎？");
+      if (confirmed) studySession = null;
+      return confirmed;
+    }
+
     function startDeckSession(mode) {
+      if (savedProgressForDeck(currentDeckId)) {
+        clearSavedProgress(currentDeckId);
+      }
+
       const cards = getDeckCards();
       const status = document.querySelector("[data-start-status]");
       if (!cards.length && status) {
         status.textContent = isAdmin()
-          ? "No cards yet. Start anyway to add cards manually."
-          : "No cards in this deck yet.";
+          ? "這個卡組暫時未有卡片。你仍可進入後手動新增。"
+          : "這個卡組暫時未有卡片。";
       }
 
       const order = mode === "random" ? shuffle(cards.map((_, index) => index)) : cards.map((_, index) => index);
@@ -5647,16 +5949,40 @@ window.EDMUND_FLASHCARD_SEED = {
         cards,
         roundNumber: 1,
         roundQueue: order,
-        roundIndex: 0,
-        redQueue: [],
-        green: 0,
-        red: 0,
+        currentPosition: 0,
+        answers: {},
         flipped: false,
+        completed: false,
         attemptId: logAttemptStart(mode, cards.length)
       };
 
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
-      document.querySelector("[data-deck-path]").textContent = `${currentDeckId} | ${cards.length} cards | ${mode === "random" ? "Random" : "By order"}`;
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜卡片：${cards.length}｜${mode === "random" ? "隨機排序" : "依原定次序"}`;
+      document.querySelector("[data-toggle-editor]")?.classList.toggle("hidden", !isAdmin());
+      document.querySelector("[data-editor-panel]")?.classList.add("hidden");
+      showAppPanel("deck-view");
+      saveCurrentProgress();
+      renderStudyCard();
+    }
+
+    function resumeDeckSession() {
+      const saved = savedProgressForDeck(currentDeckId);
+      if (!saved) return;
+      const cards = getDeckCards(currentDeckId);
+      studySession = {
+        mode: saved.mode || "order",
+        cards,
+        roundNumber: saved.roundNumber || 1,
+        roundQueue: Array.isArray(saved.roundQueue) ? saved.roundQueue.filter(index => cards[index]) : cards.map((_, index) => index),
+        currentPosition: Math.max(0, saved.currentPosition || 0),
+        answers: saved.answers || {},
+        flipped: false,
+        completed: false,
+        attemptId: saved.attemptId || ""
+      };
+      if (studySession.currentPosition >= studySession.roundQueue.length) studySession.currentPosition = 0;
+      document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜卡片：${cards.length}｜繼續上次進度`;
       document.querySelector("[data-toggle-editor]")?.classList.toggle("hidden", !isAdmin());
       document.querySelector("[data-editor-panel]")?.classList.add("hidden");
       showAppPanel("deck-view");
@@ -5665,33 +5991,47 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function currentCard() {
       if (!studySession?.cards.length) return null;
-      const cardIndex = studySession.roundQueue[studySession.roundIndex];
+      const cardIndex = studySession.roundQueue[studySession.currentPosition];
       return studySession.cards[cardIndex] || null;
     }
 
     function renderStudyCard() {
       const card = currentCard();
       const frontTerm = document.querySelector("[data-front-term]");
+      const frontExamples = document.querySelector("[data-front-examples]");
       const backCard = document.querySelector("[data-back-card]");
       const greenButton = document.querySelector("[data-mark-card='green']");
       const redButton = document.querySelector("[data-mark-card='red']");
-      const doneCount = studySession ? Math.min(studySession.roundIndex, studySession.roundQueue.length) : 0;
+      const prevButton = document.querySelector("[data-prev-study-card]");
+      const nextButton = document.querySelector("[data-next-study-card]");
+      const counts = answerCounts();
       const totalThisRound = studySession?.roundQueue.length || 0;
 
-      document.querySelector("[data-progress-count]").textContent = `${doneCount} / ${totalThisRound}`;
-      document.querySelector("[data-round-count]").textContent = `Round ${studySession?.roundNumber || 1}`;
-      document.querySelector("[data-green-count]").textContent = `Green: ${studySession?.green || 0}`;
-      document.querySelector("[data-red-count]").textContent = `Red: ${studySession?.red || 0}`;
+      document.querySelector("[data-progress-count]").textContent = `${counts.answered} / ${totalThisRound}`;
+      document.querySelector("[data-round-count]").textContent = `第 ${studySession?.roundNumber || 1} 輪`;
+      document.querySelector("[data-green-count]").textContent = `綠勾：${counts.green}`;
+      document.querySelector("[data-red-count]").textContent = `紅叉：${counts.red}`;
 
       if (!card) {
-        frontTerm.textContent = studySession?.cards.length ? "Round complete." : "No cards yet.";
+        frontTerm.textContent = studySession?.cards.length ? "本輪完成。" : "暫時未有卡片。";
+        if (frontExamples) frontExamples.innerHTML = "";
         backCard.classList.add("hidden");
         greenButton.disabled = true;
         redButton.disabled = true;
+        if (prevButton) prevButton.disabled = true;
+        if (nextButton) nextButton.disabled = true;
         return;
       }
 
+      const cardIndex = studySession.roundQueue[studySession.currentPosition];
       frontTerm.textContent = card.front;
+      if (frontExamples) {
+        frontExamples.innerHTML = card.examples.map((example, index) => `
+          <div class="example-line">
+            <div>${index + 1}. ${escapeHtml(example.en || "")}</div>
+          </div>
+        `).join("");
+      }
       backCard.innerHTML = `
         <div>
           <div class="back-term">${escapeHtml(card.front)}</div>
@@ -5709,55 +6049,84 @@ window.EDMUND_FLASHCARD_SEED = {
       backCard.classList.toggle("hidden", !studySession.flipped);
       greenButton.disabled = !studySession.flipped;
       redButton.disabled = !studySession.flipped;
+      if (prevButton) prevButton.disabled = studySession.currentPosition <= 0;
+      if (nextButton) nextButton.disabled = studySession.currentPosition >= studySession.roundQueue.length - 1;
+      greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
+      redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
     }
 
     function flipCurrentCard() {
       if (!studySession || !currentCard()) return;
       studySession.flipped = true;
+      saveCurrentProgress();
       renderStudyCard();
+    }
+
+    function moveStudyCard(delta) {
+      if (!studySession || !currentCard()) return;
+      const nextPosition = studySession.currentPosition + delta;
+      if (nextPosition < 0 || nextPosition >= studySession.roundQueue.length) return;
+      studySession.currentPosition = nextPosition;
+      studySession.flipped = false;
+      saveCurrentProgress();
+      renderStudyCard();
+    }
+
+    function findNextUnansweredPosition(startPosition) {
+      const total = studySession.roundQueue.length;
+      for (let offset = 1; offset <= total; offset += 1) {
+        const position = (startPosition + offset) % total;
+        const cardIndex = studySession.roundQueue[position];
+        if (!studySession.answers[cardIndex]) return position;
+      }
+      return startPosition;
     }
 
     function markCard(result) {
       if (!studySession || !studySession.flipped || !currentCard()) return;
-      const currentIndex = studySession.roundQueue[studySession.roundIndex];
-      if (result === "green") {
-        studySession.green += 1;
-      } else {
-        studySession.red += 1;
-        studySession.redQueue.push(currentIndex);
-      }
+      const currentIndex = studySession.roundQueue[studySession.currentPosition];
+      studySession.answers[currentIndex] = result;
+      updateAttemptProgress(false);
 
-      updateAttemptProgress();
-      studySession.roundIndex += 1;
-      studySession.flipped = false;
-
-      if (studySession.roundIndex >= studySession.roundQueue.length) {
+      if (answerCounts().answered >= studySession.roundQueue.length) {
         finishRound();
-      } else {
-        renderStudyCard();
+        return;
       }
+
+      studySession.currentPosition = findNextUnansweredPosition(studySession.currentPosition);
+      studySession.flipped = false;
+      saveCurrentProgress();
+      renderStudyCard();
     }
 
     function finishRound() {
       if (!studySession) return;
-      const reviewCount = studySession.redQueue.length;
-      if (reviewCount && window.confirm(`Round ${studySession.roundNumber} complete. Continue to round ${studySession.roundNumber + 1} with ${reviewCount} red cards?`)) {
+      const redIndexes = studySession.roundQueue.filter(cardIndex => studySession.answers[cardIndex] === "red");
+      if (redIndexes.length && window.confirm(`第 ${studySession.roundNumber} 輪完成。是否進入第 ${studySession.roundNumber + 1} 輪，只重溫 ${redIndexes.length} 張紅叉卡？`)) {
         studySession.roundNumber += 1;
-        studySession.roundQueue = [...studySession.redQueue];
-        studySession.redQueue = [];
-        studySession.roundIndex = 0;
+        studySession.roundQueue = [...redIndexes];
+        studySession.answers = {};
+        studySession.currentPosition = 0;
         studySession.flipped = false;
+        saveCurrentProgress();
         renderStudyCard();
         return;
       }
 
+      const completed = redIndexes.length === 0 && studySession.cards.length > 0;
+      studySession.completed = completed;
+      updateAttemptProgress(completed);
+      clearSavedProgress(currentDeckId);
       studySession.roundQueue = [];
-      studySession.roundIndex = 0;
-      studySession.redQueue = [];
+      studySession.currentPosition = 0;
+      studySession.answers = {};
       studySession.flipped = false;
       renderStudyCard();
       const frontTerm = document.querySelector("[data-front-term]");
-      if (frontTerm) frontTerm.textContent = "Attempt complete.";
+      const frontExamples = document.querySelector("[data-front-examples]");
+      if (frontTerm) frontTerm.textContent = completed ? "本卡組已完成。" : "本次溫習已結束。";
+      if (frontExamples) frontExamples.innerHTML = "";
+      if (lastOptions) renderOptionsContent();
     }
 
     function addCard(front, back) {
@@ -5771,6 +6140,37 @@ window.EDMUND_FLASHCARD_SEED = {
         studySession.cards = getDeckCards();
       }
       renderStudyCard();
+    }
+
+    function resetVisibleAttempts(deckId) {
+      if (isAdmin() || !currentUser?.name) return;
+      if (!window.confirm("確定要重設這個項目的嘗試紀錄嗎？學生畫面會重新計算，Admin 仍會保留重設前後的紀錄。")) return;
+      saveResetLogs([
+        ...getResetLogs(),
+        {
+          studentName: currentUser.name,
+          deckId,
+          deckTitle: deckTitleFromId(deckId),
+          resetAt: Date.now(),
+          resetBy: currentUser.name
+        }
+      ]);
+      clearSavedProgress(deckId);
+      if (currentView === "options-view") renderOptionsContent();
+      if (currentView === "dashboard") renderDashboard();
+    }
+
+    function setAllAccess(value) {
+      const student = getSelectedStudent();
+      if (!student) return;
+      const students = getStudents();
+      const target = students.find(item => item.name === student.name);
+      if (!target) return;
+      accessSections.forEach(section => {
+        target.access[section.key] = value;
+      });
+      saveStudents(students);
+      renderStudentProfile();
     }
 
     function setupEvents() {
@@ -5851,6 +6251,19 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const allAccessButton = event.target.closest("[data-set-all-access]");
+        if (allAccessButton) {
+          setAllAccess(allAccessButton.getAttribute("data-set-all-access") === "true");
+          return;
+        }
+
+        const resetButton = event.target.closest("[data-reset-attempt]");
+        if (resetButton) {
+          event.stopPropagation();
+          resetVisibleAttempts(resetButton.getAttribute("data-reset-attempt"));
+          return;
+        }
+
         const removeButton = event.target.closest("[data-remove-student]");
         if (removeButton) {
           const name = removeButton.getAttribute("data-remove-student");
@@ -5870,6 +6283,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
         const routeButton = event.target.closest("[data-route]");
         if (routeButton) {
+          if (!confirmLeaveInProgress()) return;
           const sectionKey = routeButton.getAttribute("data-section-key");
           if (sectionKey && !canAccess(sectionKey)) return;
           const route = routeButton.getAttribute("data-route");
@@ -5885,6 +6299,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
         const openDeckButton = event.target.closest("[data-open-deck]");
         if (openDeckButton) {
+          if (!confirmLeaveInProgress()) return;
           const deckId = openDeckButton.getAttribute("data-open-deck");
           const sectionKey = openDeckButton.getAttribute("data-section-key") || sectionKeyForDeck(deckId);
           if (sectionKey && !canAccess(sectionKey)) return;
@@ -5899,22 +6314,43 @@ window.EDMUND_FLASHCARD_SEED = {
 
         const modeButton = event.target.closest("[data-start-mode]");
         if (modeButton) {
+          if (savedProgressForDeck(currentDeckId) && !window.confirm("已有未完成進度。確定要重新開始嗎？")) return;
           startDeckSession(modeButton.getAttribute("data-start-mode"));
           return;
         }
 
+        if (event.target.closest("[data-resume-deck]")) {
+          resumeDeckSession();
+          return;
+        }
+
+        if (event.target.closest("[data-discard-progress]")) {
+          if (window.confirm("確定要放棄上次暫存進度並重新開始嗎？")) {
+            clearSavedProgress(currentDeckId);
+            openDeckStart(currentDeckId, false);
+          }
+          return;
+        }
+
         if (event.target.closest("[data-open-dashboard]")) {
+          if (!confirmLeaveInProgress()) return;
           showAppPanel("dashboard");
           return;
         }
 
         if (event.target.closest("[data-back]")) {
+          if (!confirmLeaveInProgress()) return;
           const previous = viewStack.pop();
-          if (previous) showAppPanel(previous, false);
+          if (previous === "deck-start" && currentDeckId) {
+            openDeckStart(currentDeckId, false);
+          } else if (previous) {
+            showAppPanel(previous, false);
+          }
           return;
         }
 
         if (event.target.closest("[data-logout]")) {
+          if (!confirmLeaveInProgress()) return;
           clearSession();
           studySession = null;
           showLogin();
@@ -5923,6 +6359,16 @@ window.EDMUND_FLASHCARD_SEED = {
 
         if (event.target.closest("[data-toggle-editor]")) {
           document.querySelector("[data-editor-panel]")?.classList.toggle("hidden");
+          return;
+        }
+
+        if (event.target.closest("[data-prev-study-card]")) {
+          moveStudyCard(-1);
+          return;
+        }
+
+        if (event.target.closest("[data-next-study-card]")) {
+          moveStudyCard(1);
           return;
         }
 
@@ -5946,6 +6392,13 @@ window.EDMUND_FLASHCARD_SEED = {
         event.currentTarget.reset();
         const status = document.querySelector("[data-card-status]");
         if (status) status.textContent = "Card added.";
+      });
+
+      window.addEventListener("beforeunload", event => {
+        if (!isSessionInProgress()) return;
+        saveCurrentProgress();
+        event.preventDefault();
+        event.returnValue = "";
       });
 
       document.addEventListener("mousemove", event => {
