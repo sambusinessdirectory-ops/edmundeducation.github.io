@@ -18,28 +18,27 @@
 
     :root {
       --ink: #172033;
-      --muted: #617089;
+      --muted: #627085;
       --blue: #2f80ed;
       --blue-dark: #1559a8;
-      --paper: #fffdf8;
-      --line: rgba(47,128,237,0.28);
-      --red-line: rgba(239,68,68,0.62);
-      --shadow: rgba(17,43,85,0.16);
+      --panel: rgba(255,255,255,0.92);
+      --panel-border: rgba(47,128,237,0.18);
+      --locked: #263142;
+      --green: #16a34a;
+      --red: #dc2626;
+      --shadow: rgba(17,43,85,0.14);
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
-
+    html { scroll-behavior: smooth; }
     html, body, a, button, input, textarea { cursor: none; }
 
     body {
       margin: 0;
       min-height: 100vh;
       background:
-        radial-gradient(circle at 12% 10%, rgba(84,177,255,0.18), transparent 34%),
-        radial-gradient(circle at 82% 8%, rgba(255,196,87,0.22), transparent 32%),
-        linear-gradient(135deg, #f8fbff 0%, #eef6ff 46%, #fff8ea 100%);
+        radial-gradient(circle at 10% 8%, rgba(80,166,255,0.20), transparent 36%),
+        radial-gradient(circle at 86% 12%, rgba(255,196,87,0.18), transparent 34%),
+        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
       color: var(--ink);
       font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
       font-weight: 760;
@@ -94,30 +93,6 @@
       justify-content: flex-end;
     }
 
-    .pill-button {
-      min-height: 46px;
-      border: 1px solid rgba(47,128,237,0.24);
-      border-radius: 999px;
-      padding: 0 18px;
-      background: rgba(255,255,255,0.82);
-      color: var(--blue-dark);
-      font: inherit;
-      font-weight: 900;
-      box-shadow: 0 12px 28px rgba(47,128,237,0.12);
-      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
-    }
-
-    .pill-button:hover {
-      transform: translateY(-2px);
-      background: #fff;
-      box-shadow: 0 18px 34px rgba(47,128,237,0.18);
-    }
-
-    .pill-button.danger {
-      border-color: rgba(220,38,38,0.22);
-      color: #b91c1c;
-    }
-
     .hero {
       display: grid;
       grid-template-columns: minmax(0, 0.92fr) minmax(340px, 0.58fr);
@@ -128,63 +103,65 @@
 
     .hero-copy h1 {
       margin: 0;
+      color: #0e2d55;
       font-size: clamp(42px, 6vw, 86px);
       line-height: 0.98;
       font-weight: 900;
-      color: #0e2d55;
       letter-spacing: 0;
+    }
+
+    .hero-copy p,
+    .section-head p,
+    .note-text {
+      color: var(--muted);
+      line-height: 1.45;
+      font-weight: 820;
     }
 
     .hero-copy p {
       max-width: 720px;
       margin: 22px 0 0;
-      color: var(--muted);
       font-size: clamp(18px, 1.4vw, 24px);
-      line-height: 1.45;
-      font-weight: 820;
     }
 
     .login-card,
     .panel-card,
-    .deck-card,
-    .flash-paper {
-      border: 1px solid rgba(47,128,237,0.22);
+    .deck-card {
+      border: 1px solid var(--panel-border);
       border-radius: 28px;
-      background:
-        linear-gradient(90deg, transparent 0 52px, var(--red-line) 53px, transparent 55px),
-        repeating-linear-gradient(180deg, var(--paper) 0 31px, var(--line) 32px, var(--paper) 34px);
+      background: var(--panel);
       box-shadow:
         inset 0 2px 0 rgba(255,255,255,0.82),
-        0 12px 0 #bad7ff,
         0 28px 52px var(--shadow);
+      backdrop-filter: blur(12px);
     }
 
     .login-card {
-      position: relative;
       padding: 38px;
-      isolation: isolate;
     }
 
-    .login-card::after {
-      content: "";
-      position: absolute;
-      inset: 12px -12px -18px 14px;
-      z-index: -1;
-      border-radius: 28px;
-      border: 1px solid rgba(47,128,237,0.16);
-      background:
-        repeating-linear-gradient(180deg, #fafdff 0 31px, rgba(47,128,237,0.18) 32px, #fafdff 34px);
-      box-shadow: 0 16px 30px rgba(47,128,237,0.12);
+    .panel-card,
+    .deck-card {
+      padding: clamp(22px, 3vw, 36px);
     }
 
+    h2,
     .login-card h2,
     .panel-card h2,
     .deck-card h2 {
       margin: 0 0 18px;
+      color: #0e2d55;
       font-size: clamp(28px, 2.6vw, 42px);
       line-height: 1.1;
       font-weight: 900;
+    }
+
+    h3 {
+      margin: 0 0 10px;
       color: #0e2d55;
+      font-size: 22px;
+      line-height: 1.12;
+      font-weight: 900;
     }
 
     .field {
@@ -205,7 +182,7 @@
       width: 100%;
       border: 1px solid rgba(47,128,237,0.22);
       border-radius: 16px;
-      background: rgba(255,255,255,0.92);
+      background: rgba(255,255,255,0.94);
       color: var(--ink);
       font: inherit;
       font-weight: 820;
@@ -225,44 +202,64 @@
       line-height: 1.4;
     }
 
+    .password-field {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .password-field input {
+      min-width: 0;
+    }
+
     .form-row {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 14px;
     }
 
-    .primary-button {
-      min-height: 54px;
-      border: 0;
-      border-radius: 16px;
-      padding: 0 22px;
-      background: linear-gradient(135deg, #3b82f6, #1559a8);
-      color: #fff;
-      font: inherit;
-      font-weight: 900;
-      box-shadow: 0 10px 0 #0f4583, 0 24px 34px rgba(47,128,237,0.28);
-      transition: transform 0.16s ease, box-shadow 0.16s ease;
-    }
-
-    .primary-button:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 12px 0 #0f4583, 0 30px 42px rgba(47,128,237,0.34);
-    }
-
-    .primary-button:active {
-      transform: translateY(5px);
-      box-shadow: 0 4px 0 #0f4583, 0 14px 26px rgba(47,128,237,0.26);
-    }
-
+    .pill-button,
+    .primary-button,
     .secondary-button {
       min-height: 48px;
-      border: 1px solid rgba(47,128,237,0.24);
-      border-radius: 14px;
-      padding: 0 16px;
-      background: rgba(255,255,255,0.92);
-      color: var(--blue-dark);
+      border-radius: 999px;
+      padding: 0 18px;
       font: inherit;
       font-weight: 900;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+    }
+
+    .pill-button,
+    .secondary-button {
+      border: 1px solid rgba(47,128,237,0.24);
+      background: rgba(255,255,255,0.92);
+      color: var(--blue-dark);
+      box-shadow: 0 12px 26px rgba(47,128,237,0.12);
+    }
+
+    .primary-button {
+      border: 0;
+      background: linear-gradient(135deg, #3b82f6, #1559a8);
+      color: #fff;
+      box-shadow: 0 8px 0 #0f4583, 0 22px 34px rgba(47,128,237,0.28);
+    }
+
+    .pill-button:hover,
+    .primary-button:hover,
+    .secondary-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .primary-button:active,
+    .secondary-button:active,
+    .pill-button:active {
+      transform: translateY(3px);
+    }
+
+    .pill-button.danger {
+      border-color: rgba(220,38,38,0.22);
+      color: #b91c1c;
     }
 
     .status {
@@ -279,11 +276,6 @@
       gap: 26px;
     }
 
-    .panel-card,
-    .deck-card {
-      padding: clamp(22px, 3vw, 36px);
-    }
-
     .section-head {
       display: flex;
       align-items: flex-start;
@@ -295,15 +287,12 @@
 
     .section-head p {
       margin: 8px 0 0;
-      color: var(--muted);
       font-size: 16px;
-      line-height: 1.38;
-      font-weight: 820;
     }
 
     .admin-grid {
       display: grid;
-      grid-template-columns: minmax(300px, 0.8fr) minmax(0, 1.2fr);
+      grid-template-columns: minmax(320px, 0.7fr) minmax(0, 1.3fr);
       gap: 18px;
     }
 
@@ -314,7 +303,7 @@
     }
 
     .student-row {
-      min-height: 56px;
+      min-height: 58px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -327,23 +316,92 @@
       font-weight: 900;
     }
 
-    .student-row button {
-      min-height: 38px;
+    .student-row-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .mini-button {
+      min-height: 36px;
       border: 0;
       border-radius: 999px;
-      padding: 0 14px;
-      background: #fee2e2;
-      color: #b91c1c;
+      padding: 0 12px;
+      background: #dbeafe;
+      color: #1559a8;
       font: inherit;
       font-size: 13px;
       font-weight: 900;
     }
 
+    .mini-button.danger {
+      background: #fee2e2;
+      color: #b91c1c;
+    }
+
+    .profile-card {
+      display: grid;
+      gap: 18px;
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.70);
+      border: 1px solid rgba(47,128,237,0.16);
+    }
+
+    .profile-facts,
+    .attempt-list,
+    .password-log {
+      display: grid;
+      gap: 10px;
+    }
+
+    .fact-row,
+    .attempt-row,
+    .log-row {
+      display: grid;
+      grid-template-columns: minmax(120px, 0.35fr) minmax(0, 1fr);
+      gap: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.78);
+      border: 1px solid rgba(47,128,237,0.12);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .access-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 48px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      background: rgba(255,255,255,0.78);
+      color: #173153;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .toggle-row input {
+      width: 22px;
+      min-height: 22px;
+      accent-color: var(--blue);
+    }
+
     .dashboard-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(240px, 0.64fr) minmax(220px, 0.52fr);
+      grid-template-columns: minmax(0, 1.1fr) minmax(310px, 0.68fr);
       gap: clamp(18px, 2.6vw, 36px);
-      align-items: center;
+      align-items: start;
     }
 
     .exam-grid {
@@ -352,83 +410,80 @@
       gap: 14px;
     }
 
-    .right-grid {
+    .resource-columns {
       display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 14px;
     }
 
-    .tile,
-    .custom-tile,
-    .thin-option {
-      border: 1px solid rgba(47,128,237,0.22);
-      border-radius: 18px;
-      background:
-        linear-gradient(90deg, transparent 0 30px, rgba(239,68,68,0.45) 31px, transparent 33px),
-        repeating-linear-gradient(180deg, #fff 0 24px, rgba(47,128,237,0.32) 25px, #fff 27px);
-      color: #0e2d55;
-      font: inherit;
-      font-weight: 900;
-      text-align: left;
-      box-shadow:
-        inset 0 1px 0 rgba(255,255,255,0.80),
-        0 7px 0 #bedaff,
-        0 18px 28px rgba(47,128,237,0.14);
-      transition: transform 0.16s ease, box-shadow 0.16s ease;
-    }
-
-    .tile {
-      min-height: 112px;
-      padding: 18px;
-      display: flex;
-      align-items: flex-end;
-      font-size: clamp(20px, 1.8vw, 30px);
-      line-height: 1.05;
-    }
-
-    .custom-tile {
-      min-height: 270px;
-      padding: 24px;
+    .resource-column {
       display: grid;
-      place-items: center;
-      text-align: center;
-      font-size: clamp(28px, 2.8vw, 46px);
-      line-height: 1.05;
-    }
-
-    .thin-option {
-      min-height: 44px;
-      padding: 9px 16px 9px 42px;
-      font-size: 16px;
-      line-height: 1.2;
-    }
-
-    .tile:not(:disabled):hover,
-    .custom-tile:not(:disabled):hover,
-    .thin-option:not(:disabled):hover {
-      transform: translateY(-2px);
-      box-shadow:
-        inset 0 1px 0 rgba(255,255,255,0.86),
-        0 9px 0 #bedaff,
-        0 24px 34px rgba(47,128,237,0.20);
-    }
-
-    .tile:disabled {
-      opacity: 0.46;
-      filter: grayscale(0.45);
-    }
-
-    .tile:disabled::after {
-      content: "Soon";
-      margin-left: auto;
-      color: #7c8797;
-      font-size: 13px;
-      font-weight: 900;
+      gap: 14px;
     }
 
     .skill-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 16px;
+    }
+
+    .tile,
+    .thin-option,
+    .mode-card {
+      border: 0;
+      border-radius: 18px;
+      background: #2f80ed;
+      color: #fff;
+      font: inherit;
+      font-weight: 900;
+      text-align: left;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.22),
+        0 8px 0 #1559a8,
+        0 20px 30px rgba(47,128,237,0.18);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, opacity 0.16s ease;
+    }
+
+    .tile {
+      min-height: 118px;
+      padding: 18px;
+      display: grid;
+      align-content: end;
+      gap: 8px;
+      font-size: clamp(20px, 1.8vw, 30px);
+      line-height: 1.05;
+    }
+
+    .tile small,
+    .thin-option small {
+      display: block;
+      color: rgba(255,255,255,0.82);
+      font-size: 12px;
+      line-height: 1.35;
+      font-weight: 850;
+    }
+
+    .tile.locked {
+      background: var(--locked);
+      color: #cbd5e1;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.08),
+        0 8px 0 #111827,
+        0 18px 28px rgba(17,24,39,0.20);
+    }
+
+    .tile.locked small {
+      color: rgba(203,213,225,0.76);
+    }
+
+    .tile:not(.locked):hover,
+    .thin-option:hover,
+    .mode-card:hover {
+      transform: translateY(-2px);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.25),
+        0 10px 0 #1559a8,
+        0 26px 36px rgba(47,128,237,0.24);
     }
 
     .columns-grid {
@@ -443,7 +498,7 @@
     }
 
     .columns-grid.one {
-      grid-template-columns: minmax(0, 520px);
+      grid-template-columns: minmax(0, 580px);
       justify-content: center;
     }
 
@@ -452,132 +507,212 @@
       gap: 10px;
       padding: 14px;
       border-radius: 22px;
-      background: rgba(255,255,255,0.56);
+      background: rgba(255,255,255,0.62);
       border: 1px solid rgba(47,128,237,0.14);
     }
 
-    .option-column h3 {
-      margin: 0 0 4px;
+    .thin-option {
+      min-height: 48px;
+      padding: 10px 16px;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+
+    .mode-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .mode-card {
+      min-height: 180px;
+      padding: 26px;
+      display: grid;
+      align-content: end;
+      gap: 10px;
+      font-size: clamp(28px, 3vw, 48px);
+      line-height: 1.05;
+    }
+
+    .mode-card span {
+      color: rgba(255,255,255,0.84);
+      font-size: 16px;
+      line-height: 1.4;
+    }
+
+    .study-top {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+
+    .stat-pill {
+      min-height: 58px;
+      padding: 10px 14px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+      border: 1px solid rgba(47,128,237,0.14);
       color: #0e2d55;
-      font-size: 22px;
-      line-height: 1.12;
+      font-size: 14px;
+      line-height: 1.3;
       font-weight: 900;
     }
 
-    .deck-layout {
+    .study-layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(320px, 0.62fr);
-      gap: 22px;
+      grid-template-columns: minmax(0, 1fr) 148px;
+      gap: 18px;
       align-items: start;
     }
 
-    .flash-paper {
-      min-height: 360px;
-      padding: 56px 34px 34px 74px;
+    .study-main {
+      display: grid;
+      gap: 16px;
+    }
+
+    .flash-frame {
+      min-height: 300px;
       display: grid;
       align-items: center;
-      white-space: pre-wrap;
-      font-size: clamp(26px, 3vw, 48px);
-      line-height: 1.25;
-      font-weight: 900;
+      justify-items: center;
+      padding: clamp(28px, 5vw, 58px);
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 28px;
+      background: #fff;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.88),
+        0 18px 38px rgba(17,43,85,0.12);
+    }
+
+    .flash-frame.front {
+      min-height: 380px;
+    }
+
+    .flash-frame.back {
+      align-items: start;
+      justify-items: stretch;
+    }
+
+    .front-term,
+    .back-term {
+      width: 100%;
+      text-align: center;
       color: #0e2d55;
-    }
-
-    .card-toolbar {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 18px;
-    }
-
-    .card-count {
-      color: var(--muted);
-      font-size: 15px;
+      font-size: clamp(42px, 6vw, 82px);
+      line-height: 1.08;
       font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .back-meaning {
+      width: 100%;
+      margin-top: 18px;
+      text-align: center;
+      color: #1559a8;
+      font-size: clamp(30px, 4.2vw, 58px);
+      line-height: 1.12;
+      font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .examples-list {
+      width: 100%;
+      margin-top: 4.5rem;
+      display: grid;
+      gap: 18px;
+      color: #172033;
+      font-size: clamp(18px, 1.55vw, 26px);
+      line-height: 1.46;
+      font-weight: 820;
+    }
+
+    .example-line {
+      display: grid;
+      gap: 6px;
+    }
+
+    .example-line .zh {
+      color: #5b6678;
+      font-size: 0.92em;
+    }
+
+    .action-rail {
+      display: grid;
+      gap: 18px;
+      justify-items: center;
+      padding-top: 12px;
+    }
+
+    .round-button {
+      width: 104px;
+      height: 104px;
+      border: 0;
+      border-radius: 50%;
+      color: #fff;
+      font: inherit;
+      font-size: 48px;
+      line-height: 1;
+      font-weight: 900;
+      display: grid;
+      place-items: center;
+      box-shadow: 0 12px 26px rgba(17,43,85,0.18);
+      transition: transform 0.16s ease, opacity 0.16s ease, filter 0.16s ease;
+    }
+
+    .round-button.green { background: var(--green); }
+    .round-button.red { background: var(--red); }
+
+    .round-button:disabled {
+      opacity: 0.35;
+      filter: grayscale(0.4);
+    }
+
+    .round-button:not(:disabled):hover {
+      transform: translateY(-3px) scale(1.02);
     }
 
     .editor-panel {
       display: grid;
       gap: 14px;
+      margin-top: 18px;
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(47,128,237,0.14);
     }
 
     .hidden {
       display: none !important;
     }
 
-    .import-table {
-      position: relative;
-      display: grid;
-      grid-template-columns: minmax(0, 1fr);
-      margin-top: 12px;
-    }
-
-    .import-table::before,
-    .import-table::after {
-      position: absolute;
-      top: 12px;
-      z-index: 1;
-      color: #1559a8;
-      font-size: 13px;
-      font-weight: 900;
-      pointer-events: none;
-    }
-
-    .import-table::before {
-      content: "Front";
-      left: 16px;
-    }
-
-    .import-table::after {
-      content: "Back";
-      left: calc(50% + 16px);
-    }
-
-    .import-table textarea {
-      min-height: 260px;
-      padding-top: 42px;
-      background:
-        linear-gradient(90deg, transparent 0 calc(50% - 1px), rgba(47,128,237,0.28) calc(50% - 1px) calc(50% + 1px), transparent calc(50% + 1px)),
-        repeating-linear-gradient(180deg, rgba(255,255,255,0.96) 0 34px, rgba(47,128,237,0.16) 35px, rgba(255,255,255,0.96) 36px);
-      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
-      white-space: pre;
-      overflow-x: auto;
-    }
-
-    .import-hint {
-      margin: 8px 0 0;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.35;
-      font-weight: 820;
-    }
-
-    @media (max-width: 980px) {
+    @media (max-width: 1080px) {
       html, body, a, button, input, textarea { cursor: auto; }
       .custom-cursor { display: none; }
 
       .hero,
       .admin-grid,
       .dashboard-grid,
-      .deck-layout {
+      .study-layout {
         grid-template-columns: 1fr;
       }
 
       .exam-grid,
       .skill-grid,
       .columns-grid,
-      .columns-grid.two {
+      .columns-grid.two,
+      .access-grid,
+      .study-top {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
-      .custom-tile {
-        min-height: 180px;
+      .action-rail {
+        grid-template-columns: repeat(2, 104px);
+        justify-content: center;
       }
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 680px) {
       .flash-shell {
         width: min(100% - 28px, 1480px);
         padding-top: 18px;
@@ -601,19 +736,27 @@
 
       .form-row,
       .exam-grid,
+      .resource-columns,
       .skill-grid,
       .columns-grid,
-      .columns-grid.two {
+      .columns-grid.two,
+      .access-grid,
+      .mode-grid,
+      .study-top {
         grid-template-columns: 1fr;
       }
 
       .tile {
-        min-height: 82px;
+        min-height: 92px;
       }
 
-      .flash-paper {
+      .flash-frame.front {
         min-height: 280px;
-        padding: 42px 22px 28px 54px;
+      }
+
+      .front-term,
+      .back-term {
+        font-size: clamp(34px, 12vw, 58px);
       }
     }
   </style>
@@ -640,7 +783,7 @@
       <section class="hero" data-login-view>
         <div class="hero-copy">
           <h1>Flashcard<br>學習卡系統</h1>
-          <p>登入後可以按考試、技能、年份或自設分類溫習。Admin 可以新增學生帳戶，並為任何分類加入學習卡。</p>
+          <p>登入後可以按考試、技能、年份或主題溫習。Admin 可以新增學生帳戶、控制可用分類、查看所有嘗試紀錄。</p>
         </div>
 
         <form class="login-card" data-login-form>
@@ -651,7 +794,10 @@
           </div>
           <div class="field">
             <label for="password">Password</label>
-            <input id="password" name="password" type="password" autocomplete="current-password" required>
+            <div class="password-field">
+              <input id="password" name="password" type="password" autocomplete="current-password" required>
+              <button class="secondary-button" type="button" data-toggle-password="#password">Open Eye</button>
+            </div>
           </div>
           <div class="field">
             <button class="primary-button" type="submit">Enter Flashcards</button>
@@ -665,32 +811,40 @@
           <div class="section-head">
             <div>
               <h2>Admin 控制台</h2>
-              <p>Admin: Sam。你可以新增學生登入資料，也可以進入所有學習卡分類新增卡片。</p>
+              <p>Admin: Sam。新增學生後，選擇學生 profile 即可開關各分類、改密碼、查閱所有嘗試紀錄。</p>
             </div>
             <button class="primary-button" type="button" data-open-dashboard>Enter Student View</button>
           </div>
 
           <div class="admin-grid">
-            <form data-student-form>
-              <div class="form-row">
-                <div class="field">
-                  <label for="new-student-name">Student user name</label>
-                  <input id="new-student-name" name="studentName" type="text" required>
-                </div>
-                <div class="field">
-                  <label for="new-student-password">Student password</label>
-                  <input id="new-student-password" name="studentPassword" type="text" required>
-                </div>
-              </div>
-              <div class="field">
-                <button class="primary-button" type="submit">Add Student</button>
-              </div>
-              <p class="status" data-admin-status></p>
-            </form>
-
             <div>
+              <form data-student-form>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="new-student-name">Student user name</label>
+                    <input id="new-student-name" name="studentName" type="text" required>
+                  </div>
+                  <div class="field">
+                    <label for="new-student-password">Student password</label>
+                    <div class="password-field">
+                      <input id="new-student-password" name="studentPassword" type="password" required>
+                      <button class="secondary-button" type="button" data-toggle-password="#new-student-password">Open Eye</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <button class="primary-button" type="submit">Add Student</button>
+                </div>
+                <p class="status" data-admin-status></p>
+              </form>
+
               <h2>Valid Students</h2>
               <div class="student-list" data-student-list></div>
+            </div>
+
+            <div class="profile-card" data-student-profile>
+              <h2>Student Profile</h2>
+              <p class="note-text">Choose a student account to manage access, password recovery, and attempts.</p>
             </div>
           </div>
         </section>
@@ -704,24 +858,8 @@
           </div>
 
           <div class="dashboard-grid">
-            <div class="exam-grid">
-              <button class="tile" type="button" data-route="dse-home">DSE</button>
-              <button class="tile" type="button" data-route="ielts-home">IELTS</button>
-              <button class="tile" type="button" disabled>Pearson Test of English (PTE)</button>
-              <button class="tile" type="button" disabled>TOEIC</button>
-              <button class="tile" type="button" disabled>TOEFL</button>
-              <button class="tile" type="button" disabled>Cambridge</button>
-              <button class="tile" type="button" disabled>SAT</button>
-              <button class="tile" type="button" disabled>CRE</button>
-            </div>
-
-            <button class="custom-tile" type="button" data-open-deck="custom/general">自設學習卡</button>
-
-            <div class="right-grid">
-              <button class="tile" type="button" data-open-deck="daily-english/general">日常英語</button>
-              <button class="tile" type="button" data-open-deck="pop-songs/general">英文流行曲</button>
-              <button class="tile" type="button" data-open-deck="news-analysis/general">新聞分析</button>
-            </div>
+            <div class="exam-grid" data-exam-grid></div>
+            <div class="resource-columns" data-resource-grid></div>
           </div>
         </section>
 
@@ -744,14 +882,14 @@
           <div class="section-head">
             <div>
               <h2>IELTS</h2>
-              <p>目前先開放 Listening flashcards。</p>
+              <p>Listening 已加入 Practice 1 Part 1 範例卡組。</p>
             </div>
           </div>
           <div class="skill-grid">
-            <button class="tile" type="button" disabled>Reading</button>
-            <button class="tile" type="button" disabled>Writing</button>
+            <button class="tile" type="button" data-open-deck="ielts/reading/general">Reading</button>
+            <button class="tile" type="button" data-open-deck="ielts/writing/general">Writing</button>
             <button class="tile" type="button" data-route="ielts-listening">Listening</button>
-            <button class="tile" type="button" disabled>Speaking</button>
+            <button class="tile" type="button" data-open-deck="ielts/speaking/general">Speaking</button>
           </div>
         </section>
 
@@ -765,6 +903,26 @@
           <div data-options-grid></div>
         </section>
 
+        <section class="deck-card hidden" data-deck-start>
+          <div class="section-head">
+            <div>
+              <h2 data-start-title>Deck</h2>
+              <p data-start-path></p>
+            </div>
+          </div>
+          <div class="mode-grid">
+            <button class="mode-card" type="button" data-start-mode="order">
+              By Order
+              <span>Follow the deck's original order.</span>
+            </button>
+            <button class="mode-card" type="button" data-start-mode="random">
+              Random
+              <span>Shuffle the deck before this attempt starts.</span>
+            </button>
+          </div>
+          <p class="status" data-start-status></p>
+        </section>
+
         <section class="deck-card hidden" data-deck-view>
           <div class="section-head">
             <div>
@@ -774,44 +932,43 @@
             <button class="secondary-button hidden" type="button" data-toggle-editor>Add cards</button>
           </div>
 
-          <div class="deck-layout">
-            <div>
-              <article class="flash-paper" data-card-face>No cards yet.</article>
-              <div class="card-toolbar">
-                <button class="secondary-button" type="button" data-prev-card>Previous</button>
-                <span class="card-count" data-card-count>0 / 0</span>
-                <button class="secondary-button" type="button" data-flip-card>Flip</button>
-                <button class="secondary-button" type="button" data-next-card>Next</button>
-              </div>
+          <div class="study-top">
+            <div class="stat-pill" data-progress-count>0 / 0</div>
+            <div class="stat-pill" data-round-count>Round 1</div>
+            <div class="stat-pill" data-green-count>Green: 0</div>
+            <div class="stat-pill" data-red-count>Red: 0</div>
+          </div>
+
+          <div class="study-layout">
+            <div class="study-main">
+              <article class="flash-frame front" data-front-card>
+                <div class="front-term" data-front-term>No cards yet.</div>
+              </article>
+              <article class="flash-frame back hidden" data-back-card></article>
+              <p class="note-text" data-card-hint>Click the card to flip. Green and red unlock after flipping.</p>
             </div>
 
-            <div class="editor-panel hidden" data-editor-panel>
-              <form data-card-form>
-                <div class="field">
-                  <label for="card-front">Front</label>
-                  <textarea id="card-front" name="front" required></textarea>
-                </div>
-                <div class="field">
-                  <label for="card-back">Back</label>
-                  <textarea id="card-back" name="back" required></textarea>
-                </div>
-                <div class="field">
-                  <button class="primary-button" type="submit">Confirmed</button>
-                </div>
-              </form>
-
-              <button class="secondary-button" type="button" data-toggle-import>Mass import</button>
-              <div class="hidden" data-import-panel>
-                <p class="import-hint">Paste a two-column table directly from Google Sheets. Column 1 = Front, Column 2 = Back.</p>
-                <div class="import-table">
-                  <textarea data-import-table placeholder="vocabulary	中文解釋&#10;sample sentence	例句解釋"></textarea>
-                </div>
-                <div class="field">
-                  <button class="primary-button" type="button" data-import-cards>Import Cards</button>
-                </div>
-              </div>
-              <p class="status" data-card-status></p>
+            <div class="action-rail">
+              <button class="round-button green" type="button" data-mark-card="green" disabled aria-label="I know this card">✓</button>
+              <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
             </div>
+          </div>
+
+          <div class="editor-panel hidden" data-editor-panel>
+            <form data-card-form>
+              <div class="field">
+                <label for="card-front">Front word / phrase</label>
+                <textarea id="card-front" name="front" required></textarea>
+              </div>
+              <div class="field">
+                <label for="card-back">Back meaning / answer</label>
+                <textarea id="card-back" name="back" required></textarea>
+              </div>
+              <div class="field">
+                <button class="primary-button" type="submit">Confirmed</button>
+              </div>
+            </form>
+            <p class="status" data-card-status></p>
           </div>
         </section>
       </section>
@@ -819,23 +976,4172 @@
   </div>
 
   <script>
+window.EDMUND_FLASHCARD_SEED = {
+  "ielts/listening/Practice 1/part-1": [
+    {
+      "front": "asking a friend for",
+      "meaning": "向朋友詢問／請朋友提供",
+      "examples": [
+        {
+          "en": "A woman asks a friend for restaurant recommendations.",
+          "zh": "一位女性向朋友詢問餐廳推薦。"
+        },
+        {
+          "en": "I’m asking a friend for a second opinion before I book the hotel.",
+          "zh": "我在訂飯店前，先請朋友給我第二個意見。"
+        },
+        {
+          "en": "He’s asking a friend for help with his résumé; two eyes are better than one.",
+          "zh": "他正在請朋友幫他看履歷；多一雙眼睛總是好的。"
+        },
+        {
+          "en": "She’s asking a friend for advice before she makes the leap.",
+          "zh": "她在做出重大決定前，先向朋友請教。"
+        },
+        {
+          "en": "They’re asking a friend for a ride because the last bus has already left.",
+          "zh": "他們正在請朋友載一程，因為末班公車已經開走了。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "restaurant recommendations",
+      "meaning": "餐廳推薦",
+      "examples": [
+        {
+          "en": "A woman asks a friend for restaurant recommendations.",
+          "zh": "一位女性向朋友詢問餐廳推薦。"
+        },
+        {
+          "en": "Do you have any restaurant recommendations near the station?",
+          "zh": "你有車站附近的餐廳推薦嗎？"
+        },
+        {
+          "en": "I’m looking for restaurant recommendations that are good but not too pricey.",
+          "zh": "我在找好吃但不要太貴的餐廳推薦。"
+        },
+        {
+          "en": "His restaurant recommendations never miss; the man has a map in his stomach.",
+          "zh": "他的餐廳推薦從不踩雷；他簡直像肚子裡有一張美食地圖。"
+        },
+        {
+          "en": "We need restaurant recommendations for Friday night — somewhere warm, lively, and not impossible to boo",
+          "zh": "我們需要星期五晚上的餐廳推薦——要溫馨、有氣氛，而且不要難訂到離譜。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "have some time to",
+      "meaning": "有一些時間去做某事",
+      "examples": [
+        {
+          "en": "First, you have some time to look at questions 1 to 4.",
+          "zh": "首先，你有一些時間可以看第 1 到第 4 題。"
+        },
+        {
+          "en": "I finally have some time to sit down and reply properly.",
+          "zh": "我終於有時間坐下來好好回覆了。"
+        },
+        {
+          "en": "We have some time to grab coffee before the meeting starts.",
+          "zh": "會議開始前，我們還有一點時間去買咖啡。"
+        },
+        {
+          "en": "You have some time to think it over; don’t rush into an answer.",
+          "zh": "你還有一些時間可以仔細想想；不用急著回答。"
+        },
+        {
+          "en": "After weeks of running in circles, I have some time to breathe.",
+          "zh": "忙了好幾週像原地打轉之後，我終於有點時間喘口氣了。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "I’ve been meaning to",
+      "meaning": "我一直想／我早就想",
+      "examples": [
+        {
+          "en": "I’ve been meaning to ask you for some advice about restaurants.",
+          "zh": "我一直想請你給我一些關於餐廳的建議。"
+        },
+        {
+          "en": "I’ve been meaning to call you, but this week swallowed me whole.",
+          "zh": "我一直想打給你，但這週忙得把我整個人都吞掉了。"
+        },
+        {
+          "en": "I’ve been meaning to clean my desk; it’s starting to look like a paper storm.",
+          "zh": "我一直想整理書桌；它看起來快像一場紙張風暴了。"
+        },
+        {
+          "en": "I’ve been meaning to tell you this: you handled that meeting really well.",
+          "zh": "我一直想跟你說這件事：你那場會議處理得很好。"
+        },
+        {
+          "en": "I’ve been meaning to try that new noodle place everyone keeps talking about.",
+          "zh": "我一直想試試那家大家一直在說的新麵店。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "ask you for some advice about",
+      "meaning": "問你一些關於……的建議",
+      "examples": [
+        {
+          "en": "I’ve been meaning to ask you for some advice about restaurants.",
+          "zh": "我一直想問你一些關於餐廳的建議。"
+        },
+        {
+          "en": "Can I ask you for some advice about choosing a place for dinner?",
+          "zh": "我可以問你一些關於挑晚餐地點的建議嗎？"
+        },
+        {
+          "en": "I wanted to ask you for some advice about booking a table for Saturday.",
+          "zh": "我想問你一些關於訂星期六餐位的建議。"
+        },
+        {
+          "en": "Could I ask you for some advice about what to order there?",
+          "zh": "我可以問你一些關於在那裡點什麼的建議嗎？"
+        },
+        {
+          "en": "I need to ask you for some advice about this plan; I’m going round in circles.",
+          "zh": "我需要問你一些關於這個計畫的建議；我一直在原地打轉。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "to book somewhere",
+      "meaning": "訂一個地方",
+      "examples": [
+        {
+          "en": "I need to book somewhere to celebrate my sister’s 30th birthday.",
+          "zh": "我需要訂一個地方來慶祝我妹妹的 30 歲生日。"
+        },
+        {
+          "en": "We need to book somewhere before all the good tables disappear.",
+          "zh": "我們需要訂一個地方，不然好位子都要沒了。"
+        },
+        {
+          "en": "I’ll book somewhere near the station so everyone can get there easily.",
+          "zh": "我會訂一個車站附近的地方，這樣大家都方便到。"
+        },
+        {
+          "en": "Have you booked somewhere for your anniversary yet?",
+          "zh": "你已經為你們的週年紀念日訂地方了嗎？"
+        },
+        {
+          "en": "Let’s book somewhere simple, warm, and not painfully expensive.",
+          "zh": "我們訂一個簡單、溫馨，而且不要貴得痛苦的地方吧。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "celebrate",
+      "meaning": "慶祝",
+      "examples": [
+        {
+          "en": "I need to book somewhere to celebrate my sister’s 30th birthday.",
+          "zh": "我需要訂一個地方來慶祝我妹妹的 30 歲生日。"
+        },
+        {
+          "en": "We’re going out tonight to celebrate her promotion.",
+          "zh": "我們今晚要出去慶祝她升職。"
+        },
+        {
+          "en": "They opened a bottle of wine to celebrate the good news.",
+          "zh": "他們開了一瓶酒來慶祝這個好消息。"
+        },
+        {
+          "en": "Let’s celebrate properly; this doesn’t happen every day.",
+          "zh": "我們好好慶祝吧；這種事不是每天都會發生。"
+        },
+        {
+          "en": "He prefers to celebrate quietly, with dinner and a few close friends.",
+          "zh": "他比較喜歡安靜地慶祝，吃頓飯，找幾個親近的朋友就好。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "liked the sound of",
+      "meaning": "覺得……聽起來不錯",
+      "examples": [
+        {
+          "en": "I liked the sound of that place you went to for your mum’s 50th.",
+          "zh": "我覺得你媽媽 50 歲生日時去的那個地方聽起來不錯。"
+        },
+        {
+          "en": "I liked the sound of the Italian place you mentioned.",
+          "zh": "我覺得你提到的那家義大利餐廳聽起來不錯。"
+        },
+        {
+          "en": "She liked the sound of the private room because it felt more personal.",
+          "zh": "她覺得包廂聽起來不錯，因為比較有私人感。"
+        },
+        {
+          "en": "We liked the sound of that hotel until the price brought us back to earth.",
+          "zh": "我們本來覺得那家飯店聽起來不錯，直到價格把我們拉回現實。"
+        },
+        {
+          "en": "I liked the sound of your plan: simple, clear, and easy to manage.",
+          "zh": "我覺得你的計畫聽起來不錯：簡單、清楚，也好處理。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "the place you went to",
+      "meaning": "你去過的那個地方",
+      "examples": [
+        {
+          "en": "I liked the sound of that place you went to for your mum’s 50th.",
+          "zh": "我覺得你媽媽 50 歲生日時去的那個地方聽起來不錯。"
+        },
+        {
+          "en": "What was the name of the place you went to last weekend?",
+          "zh": "你上週末去的那個地方叫什麼名字？"
+        },
+        {
+          "en": "Was the place you went to good for a birthday dinner?",
+          "zh": "你去過的那個地方適合生日晚餐嗎？"
+        },
+        {
+          "en": "The place you went to looks lovely in the photos.",
+          "zh": "你去過的那個地方在照片裡看起來很棒。"
+        },
+        {
+          "en": "I might try the place you went to; it sounds like a safe choice.",
+          "zh": "我可能會試試你去過的那個地方；聽起來是個穩妥的選擇。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "definitely recommend",
+      "meaning": "絕對推薦",
+      "examples": [
+        {
+          "en": "I’d definitely recommend that for a special occasion.",
+          "zh": "我絕對推薦那裡作為特別場合的選擇。"
+        },
+        {
+          "en": "I’d definitely recommend booking early.",
+          "zh": "我絕對建議早點訂。"
+        },
+        {
+          "en": "I’d definitely recommend the set menu if you’re going with a group.",
+          "zh": "如果你們是一群人去，我絕對推薦套餐。"
+        },
+        {
+          "en": "She would definitely recommend that hotel for a weekend trip.",
+          "zh": "如果是週末旅行，她絕對會推薦那家飯店。"
+        },
+        {
+          "en": "I’d definitely recommend taking the train; driving there is a headache.",
+          "zh": "我絕對推薦搭火車去；開車去很頭痛。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "special occasion",
+      "meaning": "特別場合",
+      "examples": [
+        {
+          "en": "I’d definitely recommend that for a special occasion.",
+          "zh": "我絕對推薦那裡作為特別場合的選擇。"
+        },
+        {
+          "en": "This restaurant is perfect for a special occasion.",
+          "zh": "這家餐廳很適合特別場合。"
+        },
+        {
+          "en": "We saved the champagne for a special occasion.",
+          "zh": "我們把香檳留到特別場合再開。"
+        },
+        {
+          "en": "They wanted somewhere elegant for a special occasion.",
+          "zh": "他們想找一個優雅的地方來辦特別場合。"
+        },
+        {
+          "en": "For a special occasion, it’s worth paying a little more.",
+          "zh": "如果是特別場合，多花一點錢是值得的。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "have a great time",
+      "meaning": "玩得很開心",
+      "examples": [
+        {
+          "en": "We had a great time there.",
+          "zh": "我們在那裡玩得很開心。"
+        },
+        {
+          "en": "I hope you have a great time at the party tonight.",
+          "zh": "希望你今晚在派對上玩得開心。"
+        },
+        {
+          "en": "The kids had a great time at the beach.",
+          "zh": "孩子們在海邊玩得很開心。"
+        },
+        {
+          "en": "We had a great time, even though the weather had other ideas.",
+          "zh": "我們玩得很開心，雖然天氣不太配合。"
+        },
+        {
+          "en": "You’ll have a great time with them; they’re easy to talk to.",
+          "zh": "你跟他們在一起會很開心；他們很好聊。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "really enjoyed it",
+      "meaning": "真的很喜歡",
+      "examples": [
+        {
+          "en": "Everyone really enjoyed it.",
+          "zh": "每個人都真的很喜歡。"
+        },
+        {
+          "en": "I wasn’t sure about the film at first, but I really enjoyed it.",
+          "zh": "我一開始不太確定那部電影怎麼樣，但後來我真的很喜歡。"
+        },
+        {
+          "en": "She really enjoyed it because the food felt homemade.",
+          "zh": "她真的很喜歡，因為那裡的食物有家常的感覺。"
+        },
+        {
+          "en": "We really enjoyed it; the evening flowed like a good song.",
+          "zh": "我們真的很享受；整個晚上像一首好歌一樣流暢。"
+        },
+        {
+          "en": "The kids really enjoyed it, which felt like a small miracle.",
+          "zh": "孩子們真的很喜歡，這感覺像一個小奇蹟。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "only about a two-minute walk from the station",
+      "meaning": "從車站走路大概只要兩分鐘",
+      "examples": [
+        {
+          "en": "It’s on Greyson Street, only about a two-minute walk from the station.",
+          "zh": "它在 Greyson Street，從車站走路大概只要兩分鐘。"
+        },
+        {
+          "en": "The café is only about a two-minute walk from the station.",
+          "zh": "那家咖啡店從車站走路大概只要兩分鐘。"
+        },
+        {
+          "en": "Don’t get a taxi; the hotel is only about a two-minute walk from the station.",
+          "zh": "不用搭計程車；那家飯店從車站走路大概只要兩分鐘。"
+        },
+        {
+          "en": "The restaurant is only about a two-minute walk from the station, so it’s easy for everyone.",
+          "zh": "那家餐廳從車站走路大概只要兩分鐘，所以大家都方便。"
+        },
+        {
+          "en": "It’s only about a two-minute walk from the station, which takes a lot of stress out of the evening.",
+          "zh": "它從車站走路大概只要兩分鐘，這樣整個晚上會輕鬆很多。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "I’d prefer not to",
+      "meaning": "我比較不想",
+      "examples": [
+        {
+          "en": "I’d prefer not to have to drive anywhere.",
+          "zh": "我比較不想還得開車去任何地方。"
+        },
+        {
+          "en": "I’d prefer not to spend too much on dinner.",
+          "zh": "我比較不想在晚餐上花太多錢。"
+        },
+        {
+          "en": "I’d prefer not to sit outside if it’s cold.",
+          "zh": "如果天氣冷，我比較不想坐戶外。"
+        },
+        {
+          "en": "I’d prefer not to make a big fuss; something simple is fine.",
+          "zh": "我比較不想太大張旗鼓；簡單一點就好。"
+        },
+        {
+          "en": "I’d prefer not to leave it until the last minute again.",
+          "zh": "我比較不想又拖到最後一刻才處理。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "have to",
+      "meaning": "必須；需要",
+      "examples": [
+        {
+          "en": "I’d prefer not to have to drive anywhere.",
+          "zh": "我比較不想還得開車去任何地方。"
+        },
+        {
+          "en": "We have to book soon, or we’ll lose the table.",
+          "zh": "我們必須快點訂，不然就會失去那個位子。"
+        },
+        {
+          "en": "You don’t have to dress up; it’s quite casual.",
+          "zh": "你不需要特別打扮；那裡蠻輕鬆的。"
+        },
+        {
+          "en": "I have to leave early tomorrow, so I can’t stay late tonight.",
+          "zh": "我明天必須早點出門，所以今晚不能待太晚。"
+        },
+        {
+          "en": "Sometimes you have to say no, even when it feels awkward.",
+          "zh": "有時候你必須說不，即使感覺有點尷尬。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "drive anywhere",
+      "meaning": "開車去任何地方",
+      "examples": [
+        {
+          "en": "I’d prefer not to have to drive anywhere.",
+          "zh": "我比較不想還得開車去任何地方。"
+        },
+        {
+          "en": "We don’t need to drive anywhere; the restaurant is near the station.",
+          "zh": "我們不用開車去任何地方；那家餐廳就在車站附近。"
+        },
+        {
+          "en": "I’m too tired to drive anywhere tonight.",
+          "zh": "我今晚太累了，不想開車去任何地方。"
+        },
+        {
+          "en": "She doesn’t like to drive anywhere after dark.",
+          "zh": "她不喜歡天黑後開車去任何地方。"
+        },
+        {
+          "en": "Let’s choose somewhere central so nobody has to drive anywhere.",
+          "zh": "我們選一個市中心的地方吧，這樣沒有人需要開車去任何地方。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "walk too far",
+      "meaning": "走太遠",
+      "examples": [
+        {
+          "en": "I don’t want to have to walk too far either.",
+          "zh": "我也不想還得走太遠。"
+        },
+        {
+          "en": "My grandmother is coming, so I don’t want her to walk too far.",
+          "zh": "我奶奶會來，所以我不想讓她走太遠。"
+        },
+        {
+          "en": "We shouldn’t have to walk too far from the station.",
+          "zh": "我們從車站出來應該不用走太遠。"
+        },
+        {
+          "en": "I wore the wrong shoes, so please don’t make me walk too far.",
+          "zh": "我穿錯鞋了，所以拜託不要讓我走太遠。"
+        },
+        {
+          "en": "The place is close enough; you won’t have to walk too far.",
+          "zh": "那個地方夠近；你不用走太遠。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "the location’s perfect",
+      "meaning": "地點很完美",
+      "examples": [
+        {
+          "en": "Yes, the location’s perfect.",
+          "zh": "對，地點很完美。"
+        },
+        {
+          "en": "The location’s perfect because it’s right between our two offices.",
+          "zh": "地點很完美，因為它剛好在我們兩間辦公室中間。"
+        },
+        {
+          "en": "For a group dinner, the location’s perfect.",
+          "zh": "如果是團體晚餐，這個地點很完美。"
+        },
+        {
+          "en": "The food is good, and the location’s perfect — that’s a rare double win.",
+          "zh": "食物好吃，地點也很完美——這種雙贏很少見。"
+        },
+        {
+          "en": "The location’s perfect if everyone is coming by train.",
+          "zh": "如果大家都搭火車來，這個地點很完美。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "not necessarily",
+      "meaning": "不一定",
+      "examples": [
+        {
+          "en": "That’s not necessarily why I’d recommend it.",
+          "zh": "那不一定是我推薦它的原因。"
+        },
+        {
+          "en": "Expensive doesn’t necessarily mean better.",
+          "zh": "貴不一定代表比較好。"
+        },
+        {
+          "en": "A quiet restaurant is not necessarily boring.",
+          "zh": "安靜的餐廳不一定無聊。"
+        },
+        {
+          "en": "The closest place isn’t necessarily the best choice.",
+          "zh": "最近的地方不一定是最好的選擇。"
+        },
+        {
+          "en": "It’s not necessarily cheap, but it’s worth it.",
+          "zh": "它不一定便宜，但很值得。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "why I’d recommend it",
+      "meaning": "我推薦它的原因",
+      "examples": [
+        {
+          "en": "That’s not necessarily why I’d recommend it.",
+          "zh": "那不一定是我推薦它的原因。"
+        },
+        {
+          "en": "The service is why I’d recommend it.",
+          "zh": "服務是我推薦它的原因。"
+        },
+        {
+          "en": "The view is nice, but the food is really why I’d recommend it.",
+          "zh": "景色不錯，但食物才是真正我推薦它的原因。"
+        },
+        {
+          "en": "The private room is why I’d recommend it for a birthday dinner.",
+          "zh": "包廂是我推薦它作為生日晚餐地點的原因。"
+        },
+        {
+          "en": "The whole place feels warm and easy; that’s why I’d recommend it.",
+          "zh": "整個地方感覺溫暖又輕鬆；那就是我推薦它的原因。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "the food’s amazing",
+      "meaning": "食物非常棒",
+      "examples": [
+        {
+          "en": "The food’s amazing.",
+          "zh": "食物非常棒。"
+        },
+        {
+          "en": "The food’s amazing, but the service can be slow.",
+          "zh": "食物非常棒，但服務有時會慢。"
+        },
+        {
+          "en": "I keep going back because the food’s amazing.",
+          "zh": "我一直回去，因為食物非常棒。"
+        },
+        {
+          "en": "The food’s amazing; every dish feels like it has a little story.",
+          "zh": "食物非常棒；每道菜都像有一個小故事。"
+        },
+        {
+          "en": "If the food’s amazing, people will forgive a small table and a noisy room.",
+          "zh": "如果食物非常棒，大家會原諒小桌子和吵鬧的環境。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "if you like fish",
+      "meaning": "如果你喜歡魚類料理",
+      "examples": [
+        {
+          "en": "If you like fish, it’s probably the best restaurant in town for that.",
+          "zh": "如果你喜歡魚類料理，那它可能是城裡這方面最好的餐廳。"
+        },
+        {
+          "en": "If you like fish, you should try their grilled sea bass.",
+          "zh": "如果你喜歡魚類料理，你應該試試他們的烤海鱸魚。"
+        },
+        {
+          "en": "This place is perfect if you like fish.",
+          "zh": "如果你喜歡魚類料理，這個地方很適合你。"
+        },
+        {
+          "en": "If you like fish, don’t miss the daily special.",
+          "zh": "如果你喜歡魚類料理，不要錯過每日特餐。"
+        },
+        {
+          "en": "If you like fish, this menu will feel like a small holiday.",
+          "zh": "如果你喜歡魚類料理，這份菜單會像一個小假期。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "probably",
+      "meaning": "可能",
+      "examples": [
+        {
+          "en": "It’s probably the best restaurant in town for that.",
+          "zh": "它可能是城裡這方面最好的餐廳。"
+        },
+        {
+          "en": "We should probably book a table now.",
+          "zh": "我們可能現在就該訂位了。"
+        },
+        {
+          "en": "It’s probably too late to get a table for tonight.",
+          "zh": "今晚要訂到位子可能太晚了。"
+        },
+        {
+          "en": "She’ll probably choose the pasta again.",
+          "zh": "她可能又會選義大利麵。"
+        },
+        {
+          "en": "That restaurant is probably safer than trying somewhere brand new.",
+          "zh": "那家餐廳可能比嘗試全新的地方更穩。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "the best restaurant in town",
+      "meaning": "城裡最好的餐廳",
+      "examples": [
+        {
+          "en": "It’s probably the best restaurant in town for that.",
+          "zh": "它可能是城裡這方面最好的餐廳。"
+        },
+        {
+          "en": "Many people say it’s the best restaurant in town.",
+          "zh": "很多人說它是城裡最好的餐廳。"
+        },
+        {
+          "en": "For seafood, this is the best restaurant in town.",
+          "zh": "如果是海鮮，這是城裡最好的餐廳。"
+        },
+        {
+          "en": "It may not look fancy, but it’s the best restaurant in town.",
+          "zh": "它看起來可能不華麗，但它是城裡最好的餐廳。"
+        },
+        {
+          "en": "If you ask the locals, half of them will point you to the best restaurant in town.",
+          "zh": "如果你問當地人，一半的人都會指你去城裡最好的餐廳。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "for that",
+      "meaning": "在那方面；就那一點來說",
+      "examples": [
+        {
+          "en": "It’s probably the best restaurant in town for that.",
+          "zh": "它可能是城裡在那方面最好的餐廳。"
+        },
+        {
+          "en": "If you want fresh fish, that place is great for that.",
+          "zh": "如果你想吃新鮮的魚，那個地方在那方面很棒。"
+        },
+        {
+          "en": "They’re known for seafood, and they’re excellent for that.",
+          "zh": "他們以海鮮出名，而且在那方面非常出色。"
+        },
+        {
+          "en": "I wouldn’t go there for steak, but it’s perfect for that kind of family dinner.",
+          "zh": "我不會為了牛排去那裡，但它很適合那種家庭晚餐。"
+        },
+        {
+          "en": "The room is quiet and private, so it works well for that.",
+          "zh": "那個房間安靜又有私人感，所以就那一點來說很合適。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "really fresh",
+      "meaning": "非常新鮮",
+      "examples": [
+        {
+          "en": "It’s always really fresh.",
+          "zh": "它一直都非常新鮮。"
+        },
+        {
+          "en": "The fish tastes really fresh.",
+          "zh": "那裡的魚吃起來非常新鮮。"
+        },
+        {
+          "en": "Their salads are simple but really fresh.",
+          "zh": "他們的沙拉很簡單，但非常新鮮。"
+        },
+        {
+          "en": "Everything there feels really fresh, from the bread to the seafood.",
+          "zh": "那裡的一切感覺都非常新鮮，從麵包到海鮮都是。"
+        },
+        {
+          "en": "The ingredients are really fresh; you can taste the morning in them.",
+          "zh": "食材非常新鮮；你能吃得出早晨的味道。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "interesting dishes to choose from",
+      "meaning": "很多有趣的菜色可以選",
+      "examples": [
+        {
+          "en": "There are lots of interesting dishes to choose from.",
+          "zh": "有很多有趣的菜色可以選。"
+        },
+        {
+          "en": "The menu has several interesting dishes to choose from.",
+          "zh": "菜單上有好幾道有趣的菜色可以選。"
+        },
+        {
+          "en": "I like restaurants with interesting dishes to choose from.",
+          "zh": "我喜歡有很多有趣菜色可以選的餐廳。"
+        },
+        {
+          "en": "There were so many interesting dishes to choose from that we ordered too much.",
+          "zh": "有太多有趣的菜色可以選，所以我們點太多了。"
+        },
+        {
+          "en": "If you’re tired of the usual pasta and steak, there are plenty of interesting dishes to choose from.",
+          "zh": "如果你吃膩了一般的義大利麵和牛排，那裡有很多有趣的菜色可以選。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "all the food is good there",
+      "meaning": "那裡所有食物都很好吃",
+      "examples": [
+        {
+          "en": "But all the food is good there.",
+          "zh": "但那裡所有食物都很好吃。"
+        },
+        {
+          "en": "Don’t worry too much about what to order; all the food is good there.",
+          "zh": "不用太擔心要點什麼；那裡所有食物都很好吃。"
+        },
+        {
+          "en": "I’ve tried five dishes, and all the food is good there.",
+          "zh": "我試過五道菜，那裡所有食物都很好吃。"
+        },
+        {
+          "en": "Even the simple stuff tastes great because all the food is good there.",
+          "zh": "連簡單的東西都很好吃，因為那裡所有食物都很好吃。"
+        },
+        {
+          "en": "The menu is big, but all the food is good there, so you’re safe.",
+          "zh": "菜單很大，但那裡所有食物都很好吃，所以你不用怕踩雷。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "certainly not cheap",
+      "meaning": "當然不便宜",
+      "examples": [
+        {
+          "en": "It’s certainly not cheap.",
+          "zh": "它當然不便宜。"
+        },
+        {
+          "en": "The hotel is certainly not cheap, but the location is excellent.",
+          "zh": "那家飯店當然不便宜，但地點非常好。"
+        },
+        {
+          "en": "Dinner there is certainly not cheap, so save it for a special occasion.",
+          "zh": "在那裡吃晚餐當然不便宜，所以留到特別場合比較好。"
+        },
+        {
+          "en": "It’s certainly not cheap, but you do get what you pay for.",
+          "zh": "它當然不便宜，但確實一分錢一分貨。"
+        },
+        {
+          "en": "The place is certainly not cheap; your wallet will feel it in the morning.",
+          "zh": "那個地方當然不便宜；你的錢包隔天早上會有感覺。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "I think it’s fine",
+      "meaning": "我覺得可以接受",
+      "examples": [
+        {
+          "en": "For a special occasion, I think it’s fine.",
+          "zh": "如果是特別場合，我覺得可以接受。"
+        },
+        {
+          "en": "It’s a little expensive, but I think it’s fine for one night.",
+          "zh": "它有點貴，但如果只住一晚，我覺得可以接受。"
+        },
+        {
+          "en": "The room is small, but I think it’s fine if we’re only staying there to sleep.",
+          "zh": "房間有點小，但如果我們只是睡覺用，我覺得可以接受。"
+        },
+        {
+          "en": "I think it’s fine to keep things simple; not every celebration needs fireworks.",
+          "zh": "我覺得簡單一點可以接受；不是每個慶祝都需要搞得很盛大。"
+        },
+        {
+          "en": "If everyone is comfortable with the price, I think it’s fine.",
+          "zh": "如果大家都能接受這個價格，我覺得可以接受。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "great atmosphere",
+      "meaning": "很棒的氣氛",
+      "examples": [
+        {
+          "en": "It’s got a great atmosphere.",
+          "zh": "那裡有很棒的氣氛。"
+        },
+        {
+          "en": "The restaurant has a great atmosphere, especially in the evening.",
+          "zh": "那家餐廳氣氛很棒，尤其是晚上。"
+        },
+        {
+          "en": "I like places with great atmosphere, not just pretty plates.",
+          "zh": "我喜歡氣氛很棒的地方，不只是擺盤漂亮而已。"
+        },
+        {
+          "en": "The food is good, but the great atmosphere is what makes people come back.",
+          "zh": "食物不錯，但很棒的氣氛才是讓人想再去的原因。"
+        },
+        {
+          "en": "It has a great atmosphere: warm lights, soft music, and a room that seems to smile.",
+          "zh": "那裡氣氛很棒：溫暖的燈光、柔和的音樂，整個空間像在微笑。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "before dinner",
+      "meaning": "晚餐前",
+      "examples": [
+        {
+          "en": "Before dinner, you can go up on the roof and have a drink.",
+          "zh": "晚餐前，你可以到屋頂上喝一杯。"
+        },
+        {
+          "en": "Let’s meet before dinner so we have time to catch up.",
+          "zh": "我們晚餐前碰面吧，這樣有時間聊聊近況。"
+        },
+        {
+          "en": "I usually check the menu before dinner because I hate panic-ordering.",
+          "zh": "我通常晚餐前會先看菜單，因為我討厭臨時慌張點餐。"
+        },
+        {
+          "en": "Before dinner, we walked around the old streets and let the evening slow us down.",
+          "zh": "晚餐前，我們在老街附近散步，讓夜晚慢慢放鬆下來。"
+        },
+        {
+          "en": "Please don’t eat too much before dinner; we’ve booked a huge meal.",
+          "zh": "晚餐前不要吃太多；我們已經訂了一頓很豐盛的餐。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "go up on the roof",
+      "meaning": "到屋頂上去",
+      "examples": [
+        {
+          "en": "You can go up on the roof and have a drink.",
+          "zh": "你可以到屋頂上去喝一杯。"
+        },
+        {
+          "en": "After we arrive, let’s go up on the roof and look at the view.",
+          "zh": "我們到達後，上屋頂看看景色吧。"
+        },
+        {
+          "en": "Guests can go up on the roof before dinner if the weather is good.",
+          "zh": "如果天氣好，客人可以在晚餐前到屋頂上去。"
+        },
+        {
+          "en": "We went up on the roof just as the city lights started to blink awake.",
+          "zh": "城市燈光剛開始亮起時，我們到屋頂上去了。"
+        },
+        {
+          "en": "If it gets too noisy downstairs, we can go up on the roof for some air.",
+          "zh": "如果樓下太吵，我們可以到屋頂上去透透氣。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "have a drink",
+      "meaning": "喝一杯",
+      "examples": [
+        {
+          "en": "You can go up on the roof and have a drink.",
+          "zh": "你可以到屋頂上去喝一杯。"
+        },
+        {
+          "en": "Let’s have a drink before we order dinner.",
+          "zh": "我們點晚餐前先喝一杯吧。"
+        },
+        {
+          "en": "We had a drink at the bar while we waited for our table.",
+          "zh": "我們等位子的時候，在吧台喝了一杯。"
+        },
+        {
+          "en": "I don’t want a big night out; I just want to have a drink and talk.",
+          "zh": "我不想搞得太盛大；我只是想喝一杯、聊聊天。"
+        },
+        {
+          "en": "After a long week, having a drink with a friend feels like opening a window.",
+          "zh": "忙了一整週後，和朋友喝一杯就像打開一扇窗。"
+        }
+      ],
+      "sourcePage": 5
+    },
+    {
+      "front": "need to book",
+      "meaning": "需要預訂",
+      "examples": [
+        {
+          "en": "It’s really nice up there, but you need to book.",
+          "zh": "上面真的很不錯，但你需要預訂。"
+        },
+        {
+          "en": "You need to book early if you want a table by the window.",
+          "zh": "如果你想要靠窗的位子，需要早點預訂。"
+        },
+        {
+          "en": "We need to book today, or the good times will be gone.",
+          "zh": "我們今天就需要預訂，不然好的時段就沒了。"
+        },
+        {
+          "en": "Do we need to book, or can we just walk in?",
+          "zh": "我們需要預訂嗎？還是可以直接進去？"
+        },
+        {
+          "en": "For a group that size, you definitely need to book.",
+          "zh": "如果是那麼多人，你絕對需要預訂。"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "very popular",
+      "meaning": "非常受歡迎",
+      "examples": [
+        {
+          "en": "It’s very popular as the views are spectacular.",
+          "zh": "那裡非常受歡迎，因為景色非常壯觀。"
+        },
+        {
+          "en": "That place is very popular, so don’t leave it too late.",
+          "zh": "那個地方非常受歡迎，所以不要拖太晚。"
+        },
+        {
+          "en": "The rooftop bar is very popular on weekends.",
+          "zh": "那家屋頂酒吧週末非常受歡迎。"
+        },
+        {
+          "en": "It’s very popular with families because the staff are so patient.",
+          "zh": "那裡很受家庭歡迎，因為員工非常有耐心。"
+        },
+        {
+          "en": "The restaurant is very popular; tables disappear like tickets to a big show.",
+          "zh": "那家餐廳非常受歡迎；位子像熱門演出的票一樣很快就沒了。"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "the views are spectacular",
+      "meaning": "景色非常壯觀",
+      "examples": [
+        {
+          "en": "The views are spectacular.",
+          "zh": "景色非常壯觀。"
+        },
+        {
+          "en": "The views are spectacular, especially at sunset.",
+          "zh": "景色非常壯觀，尤其是日落時。"
+        },
+        {
+          "en": "People go there because the views are spectacular.",
+          "zh": "大家去那裡是因為景色非常壯觀。"
+        },
+        {
+          "en": "The food is good, but the views are spectacular enough to steal the show.",
+          "zh": "食物很好，但景色壯觀到足以搶走焦點。"
+        },
+        {
+          "en": "From the roof, the views are spectacular; the whole city looks dressed for the evening.",
+          "zh": "從屋頂看出去，景色非常壯觀；整座城市像是為夜晚盛裝打扮。"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "definitely a possibility",
+      "meaning": "肯定可以考慮",
+      "examples": [
+        {
+          "en": "So that’s definitely a possibility then.",
+          "zh": "那這樣肯定可以考慮。"
+        },
+        {
+          "en": "If they still have a table, that’s definitely a possibility.",
+          "zh": "如果他們還有位子，那肯定可以考慮。"
+        },
+        {
+          "en": "A rooftop dinner is definitely a possibility, but we need to check the price.",
+          "zh": "屋頂晚餐肯定可以考慮，但我們需要先確認價格。"
+        },
+        {
+          "en": "Paloma is definitely a possibility if we want something less formal.",
+          "zh": "如果我們想要比較不正式一點，Paloma 肯定可以考慮。"
+        },
+        {
+          "en": "It’s not my first choice, but it’s definitely a possibility.",
+          "zh": "它不是我的第一選擇，但肯定可以考慮。"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "anywhere else you can think of",
+      "meaning": "你還能想到其他地方嗎",
+      "examples": [
+        {
+          "en": "Is there anywhere else you can think of?",
+          "zh": "你還能想到其他地方嗎？"
+        },
+        {
+          "en": "Is there anywhere else you can think of for a birthday dinner?",
+          "zh": "你還能想到其他適合生日晚餐的地方嗎？"
+        },
+        {
+          "en": "If that place is fully booked, is there anywhere else you can think of?",
+          "zh": "如果那個地方訂滿了，你還能想到其他地方嗎？"
+        },
+        {
+          "en": "We’ve tried the obvious choices; is there anywhere else you can think of?",
+          "zh": "我們已經試過那些明顯的選擇了；你還能想到其他地方嗎？"
+        },
+        {
+          "en": "Is there anywhere else you can think of that feels special but not stiff?",
+          "zh": "你還能想到其他感覺特別但不會太拘謹的地方嗎？"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "somewhere a bit less formal",
+      "meaning": "比較不正式一點的地方",
+      "examples": [
+        {
+          "en": "If you want somewhere a bit less formal, you could try Paloma.",
+          "zh": "如果你想要比較不正式一點的地方，可以試試 Paloma。"
+        },
+        {
+          "en": "I’d prefer somewhere a bit less formal for a family meal.",
+          "zh": "如果是家庭聚餐，我比較想找不那麼正式的地方。"
+        },
+        {
+          "en": "Let’s choose somewhere a bit less formal, so everyone can relax.",
+          "zh": "我們選一個比較不正式一點的地方吧，這樣大家都能放鬆。"
+        },
+        {
+          "en": "Somewhere a bit less formal might suit your sister better.",
+          "zh": "比較不正式一點的地方可能更適合你妹妹。"
+        },
+        {
+          "en": "For a 30th birthday, somewhere a bit less formal can feel warmer and more personal.",
+          "zh": "如果是 30 歲生日，比較不正式一點的地方會感覺更溫暖、更有個人味。"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "you could try",
+      "meaning": "你可以試試",
+      "examples": [
+        {
+          "en": "You could try Paloma.",
+          "zh": "你可以試試 Paloma。"
+        },
+        {
+          "en": "You could try calling them directly instead of booking online.",
+          "zh": "你可以試試直接打電話給他們，而不是線上訂位。"
+        },
+        {
+          "en": "You could try the seafood platter if you like sharing food.",
+          "zh": "如果你喜歡大家一起分食，你可以試試海鮮拼盤。"
+        },
+        {
+          "en": "If the rooftop is full, you could try the bar downstairs.",
+          "zh": "如果屋頂客滿，你可以試試樓下的酒吧。"
+        },
+        {
+          "en": "You could try something new; safe choices are comfortable, but they don’t always sing.",
+          "zh": "你可以試試新的東西；安全的選擇很舒服，但不一定有驚喜。"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "I haven’t heard of it",
+      "meaning": "我沒聽說過",
+      "examples": [
+        {
+          "en": "I haven’t heard of it.",
+          "zh": "我沒聽說過。"
+        },
+        {
+          "en": "I haven’t heard of it, but it sounds interesting.",
+          "zh": "我沒聽說過，但它聽起來很有趣。"
+        },
+        {
+          "en": "I haven’t heard of it before; is it new?",
+          "zh": "我以前沒聽說過；它是新的嗎？"
+        },
+        {
+          "en": "I haven’t heard of it, so tell me more.",
+          "zh": "我沒聽說過，所以多跟我說一點。"
+        },
+        {
+          "en": "I haven’t heard of it, which is rare because I usually know every restaurant rumour in town.",
+          "zh": "我沒聽說過，這很少見，因為我通常知道城裡所有餐廳的小道消息。"
+        }
+      ],
+      "sourcePage": 6
+    },
+    {
+      "front": "quite new",
+      "meaning": "蠻新的",
+      "examples": [
+        {
+          "en": "It’s quite new.",
+          "zh": "它蠻新的。"
+        },
+        {
+          "en": "The restaurant is quite new, so not many people know about it yet.",
+          "zh": "那家餐廳蠻新的，所以還沒有很多人知道。"
+        },
+        {
+          "en": "It’s quite new, but it’s already getting good reviews.",
+          "zh": "它蠻新的，但已經有不錯的評價了。"
+        },
+        {
+          "en": "The menu is quite new, and the chef is still testing a few ideas.",
+          "zh": "菜單蠻新的，主廚還在測試一些想法。"
+        },
+        {
+          "en": "It’s quite new, so it still has that fresh-paint feeling.",
+          "zh": "它蠻新的，所以還有那種剛開幕的新鮮感。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "only been open a few months",
+      "meaning": "才開業幾個月",
+      "examples": [
+        {
+          "en": "It’s only been open a few months.",
+          "zh": "它才開業幾個月。"
+        },
+        {
+          "en": "The new gym has only been open a few months, but it’s already packed after work.",
+          "zh": "那家新健身房才開業幾個月，但下班後已經擠滿人了。"
+        },
+        {
+          "en": "That coffee shop has only been open a few months, and people are already treating it like a landmark.",
+          "zh": "那家咖啡店才開業幾個月，大家已經把它當成地標了。"
+        },
+        {
+          "en": "The coworking space has only been open a few months, so everything still feels clean and fresh.",
+          "zh": "那個共享辦公空間才開業幾個月，所以一切還感覺很乾淨、很新。"
+        },
+        {
+          "en": "Their online store has only been open a few months, but orders are coming in fast.",
+          "zh": "他們的網店才開業幾個月，但訂單已經快速湧進來了。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "got a great reputation already",
+      "meaning": "已經有很好的名聲",
+      "examples": [
+        {
+          "en": "It’s got a great reputation already.",
+          "zh": "它已經有很好的名聲。"
+        },
+        {
+          "en": "The new dentist has got a great reputation already, mostly because she explains everything clearly.",
+          "zh": "那位新牙醫已經有很好的名聲，主要是因為她把每件事都解釋得很清楚。"
+        },
+        {
+          "en": "That coding course has got a great reputation already; people say it’s practical, clear, and tough in a good w",
+          "zh": ""
+        },
+        {
+          "en": "The bakery has got a great reputation already, and the smell alone does half the marketing.",
+          "zh": "那家麵包店已經有很好的名聲，光是香味就幫它做了一半的行銷。"
+        },
+        {
+          "en": "His small design studio has got a great reputation already, even without a flashy website.",
+          "zh": "他的小型設計工作室已經有很好的名聲，即使網站並不花俏。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "a beautiful old building",
+      "meaning": "一棟漂亮的老建築",
+      "examples": [
+        {
+          "en": "It’s in a really beautiful old building on Bow Street.",
+          "zh": "它在 Bow Street 上一棟很漂亮的老建築裡。"
+        },
+        {
+          "en": "The library is in a beautiful old building with high windows and quiet corners.",
+          "zh": "那間圖書館在一棟漂亮的老建築裡，有高高的窗戶和安靜的角落。"
+        },
+        {
+          "en": "They turned a beautiful old building into a small hotel.",
+          "zh": "他們把一棟漂亮的老建築改成了一家小飯店。"
+        },
+        {
+          "en": "Her office is in a beautiful old building, but the lift moves like it’s thinking about retirement.",
+          "zh": "她的辦公室在一棟漂亮的老建築裡，但電梯慢得像在考慮退休。"
+        },
+        {
+          "en": "The museum sits inside a beautiful old building that makes even Monday feel elegant.",
+          "zh": "那間博物館坐落在一棟漂亮的老建築裡，連星期一都變得優雅。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "I know where you mean",
+      "meaning": "我知道你說的是哪裡",
+      "examples": [
+        {
+          "en": "I think I know where you mean.",
+          "zh": "我想我知道你說的是哪裡。"
+        },
+        {
+          "en": "Oh, I know where you mean — near the bus stop, right?",
+          "zh": "喔，我知道你說的是哪裡——在公車站附近，對吧？"
+        },
+        {
+          "en": "I know where you mean; it’s the street with all the small bookshops.",
+          "zh": "我知道你說的是哪裡；就是有很多小書店的那條街。"
+        },
+        {
+          "en": "Wait, I know where you mean now. It’s opposite the pharmacy.",
+          "zh": "等一下，我現在知道你說的是哪裡了。就在藥局對面。"
+        },
+        {
+          "en": "I know where you mean, but I always forget the name of the place.",
+          "zh": "我知道你說的是哪裡，但我總是忘記那個地方的名字。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "right beside the cinema",
+      "meaning": "就在電影院旁邊",
+      "examples": [
+        {
+          "en": "Right beside the cinema?",
+          "zh": "就在電影院旁邊嗎？"
+        },
+        {
+          "en": "The new dessert shop is right beside the cinema.",
+          "zh": "那家新的甜點店就在電影院旁邊。"
+        },
+        {
+          "en": "Let’s meet right beside the cinema so nobody gets lost.",
+          "zh": "我們就在電影院旁邊碰面吧，這樣沒人會迷路。"
+        },
+        {
+          "en": "There’s a bike rack right beside the cinema if you’re cycling there.",
+          "zh": "如果你騎腳踏車去，電影院旁邊就有腳踏車架。"
+        },
+        {
+          "en": "The entrance is right beside the cinema, hidden in plain sight.",
+          "zh": "入口就在電影院旁邊，明明很近，卻很容易被忽略。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "that’s it",
+      "meaning": "就是那裡；沒錯",
+      "examples": [
+        {
+          "en": "Yes, that’s it.",
+          "zh": "對，就是那裡。"
+        },
+        {
+          "en": "That’s it — you’ve found the file I was talking about.",
+          "zh": "沒錯——你找到我說的那個檔案了。"
+        },
+        {
+          "en": "Add a little salt, stir it once, and that’s it.",
+          "zh": "加一點鹽、攪一下，就這樣。"
+        },
+        {
+          "en": "That’s it! That’s the song I couldn’t remember.",
+          "zh": "沒錯！就是那首我想不起來的歌。"
+        },
+        {
+          "en": "Keep the email short and polite. That’s it. No drama, no fireworks.",
+          "zh": "郵件保持簡短、有禮貌。就這樣。不用加戲，不用放煙火。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "a couple of times",
+      "meaning": "幾次",
+      "examples": [
+        {
+          "en": "I’ve only been there a couple of times.",
+          "zh": "我只去過那裡幾次。"
+        },
+        {
+          "en": "I’ve called him a couple of times, but he hasn’t picked up.",
+          "zh": "我打給他幾次了，但他都沒接。"
+        },
+        {
+          "en": "She’s tried yoga a couple of times and now wants to join a class.",
+          "zh": "她試過幾次瑜伽，現在想報名上課。"
+        },
+        {
+          "en": "We’ve had this problem a couple of times, so it’s not just bad luck.",
+          "zh": "這個問題我們遇過幾次了，所以不只是運氣不好。"
+        },
+        {
+          "en": "I’ve watched that film a couple of times, and it still hits hard.",
+          "zh": "那部電影我看過幾次了，但還是很有衝擊力。"
+        }
+      ],
+      "sourcePage": 7
+    },
+    {
+      "front": "really impressed",
+      "meaning": "印象非常深刻",
+      "examples": [
+        {
+          "en": "I was really impressed.",
+          "zh": "我印象非常深刻。"
+        },
+        {
+          "en": "I was really impressed by how calm she stayed during the meeting.",
+          "zh": "她在會議中一直保持冷靜，讓我印象非常深刻。"
+        },
+        {
+          "en": "They were really impressed with your presentation.",
+          "zh": "他們對你的簡報印象非常深刻。"
+        },
+        {
+          "en": "I’m really impressed that you fixed the bike yourself.",
+          "zh": "你自己修好了腳踏車，我真的印象很深刻。"
+        },
+        {
+          "en": "The hotel looked simple from outside, but once I walked in, I was really impressed.",
+          "zh": "那家飯店從外面看很簡單，但我一走進去，就印象非常深刻。"
+        }
+      ],
+      "sourcePage": 8
+    },
+    {
+      "front": "used to work at",
+      "meaning": "以前在……工作",
+      "examples": [
+        {
+          "en": "The chef used to work at Don Felipe’s.",
+          "zh": "那位主廚以前在 Don Felipe’s 工作。"
+        },
+        {
+          "en": "She used to work at a law firm before she became a teacher.",
+          "zh": "她以前在律師事務所工作，後來成為老師。"
+        },
+        {
+          "en": "He used to work at the airport, so he knows all the travel tricks.",
+          "zh": "他以前在機場工作，所以他知道很多旅行小技巧。"
+        },
+        {
+          "en": "My uncle used to work at that factory before it became apartments.",
+          "zh": "我叔叔以前在那間工廠工作，後來那裡變成公寓。"
+        },
+        {
+          "en": "The developer used to work at a big tech company, but now she runs her own studio.",
+          "zh": "那位開發者以前在一家大型科技公司工作，但現在經營自己的工作室。"
+        }
+      ],
+      "sourcePage": 8
+    },
+    {
+      "front": "apparently",
+      "meaning": "聽說；據說",
+      "examples": [
+        {
+          "en": "The chef used to work at Don Felipe’s, apparently.",
+          "zh": "聽說那位主廚以前在 Don Felipe’s 工作。"
+        },
+        {
+          "en": "Apparently, the train is delayed again.",
+          "zh": "聽說火車又誤點了。"
+        },
+        {
+          "en": "She’s moving to Berlin next month, apparently.",
+          "zh": "聽說她下個月要搬去柏林。"
+        },
+        {
+          "en": "Apparently, this tiny app is making a lot of money.",
+          "zh": "據說這個小小的 app 賺了很多錢。"
+        },
+        {
+          "en": "He didn’t say much, but apparently the interview went really well.",
+          "zh": "他沒說太多，但聽說面試非常順利。"
+        }
+      ],
+      "sourcePage": 8
+    },
+    {
+      "front": "closed down",
+      "meaning": "關門；停業",
+      "examples": [
+        {
+          "en": "I was really sorry when that closed down.",
+          "zh": "那裡關門時，我真的覺得很可惜。"
+        },
+        {
+          "en": "The old cinema closed down last year.",
+          "zh": "那間老電影院去年關門了。"
+        },
+        {
+          "en": "Their website closed down after the company ran out of money.",
+          "zh": "公司資金用完後，他們的網站就關閉了。"
+        },
+        {
+          "en": "That little music shop closed down, and the street feels quieter without it.",
+          "zh": "那家小唱片行關門了，少了它，那條街好像安靜了很多。"
+        },
+        {
+          "en": "The factory closed down years ago, but people still talk about it.",
+          "zh": "那間工廠多年前就停業了，但大家還是會談起它。"
+        }
+      ],
+      "sourcePage": 8
+    },
+    {
+      "front": "all the food they serve",
+      "meaning": "他們供應的所有食物",
+      "examples": [
+        {
+          "en": "So is all the food they serve Spanish, then?",
+          "zh": "所以他們供應的所有食物都是西班牙菜嗎？"
+        },
+        {
+          "en": "Is all the food they serve vegetarian?",
+          "zh": "他們供應的所有食物都是素食嗎？"
+        },
+        {
+          "en": "All the food they serve is made fresh each morning.",
+          "zh": "他們供應的所有食物都是每天早上新鮮製作的。"
+        },
+        {
+          "en": "I like that all the food they serve comes from local farms.",
+          "zh": "我喜歡他們供應的所有食物都來自本地農場。"
+        },
+        {
+          "en": "All the food they serve looks simple, but the flavours do the talking.",
+          "zh": "他們供應的所有食物看起來簡單，但味道自己會說話。"
+        }
+      ],
+      "sourcePage": 8
+    },
+    {
+      "front": "small dishes to share",
+      "meaning": "可以分享的小菜",
+      "examples": [
+        {
+          "en": "You can get lots of small dishes to share.",
+          "zh": "你可以點很多可以分享的小菜。"
+        },
+        {
+          "en": "We ordered a few small dishes to share before the main course.",
+          "zh": "我們在主餐前點了幾道可以分享的小菜。"
+        },
+        {
+          "en": "Small dishes to share are perfect when nobody can decide what they want.",
+          "zh": "當大家都決定不了想吃什麼時，可以分享的小菜最適合。"
+        },
+        {
+          "en": "The party menu is built around small dishes to share, so people can mix and try things.",
+          "zh": "派對菜單以可以分享的小菜為主，所以大家可以混著吃、試不同味道。"
+        },
+        {
+          "en": "I like small dishes to share because dinner feels more like a conversation.",
+          "zh": "我喜歡可以分享的小菜，因為晚餐感覺更像一場聊天。"
+        }
+      ],
+      "sourcePage": 8
+    },
+    {
+      "front": "works really well",
+      "meaning": "非常合適；效果很好",
+      "examples": [
+        {
+          "en": "That always works really well if you’re in a group.",
+          "zh": "如果你們是一群人一起去，那樣通常非常合適。"
+        },
+        {
+          "en": "This plan works really well if everyone arrives on time.",
+          "zh": "如果大家都準時到，這個計畫效果很好。"
+        },
+        {
+          "en": "The app works really well for tracking small daily habits.",
+          "zh": "這個 app 很適合用來追蹤日常小習慣。"
+        },
+        {
+          "en": "A short walk after lunch works really well when your brain feels foggy.",
+          "zh": "午餐後短短散步一下，對腦袋昏沉很有效。"
+        },
+        {
+          "en": "The colour scheme works really well; clean, calm, and easy on the eyes.",
+          "zh": "這個配色效果很好；乾淨、平靜，而且看起來舒服。"
+        }
+      ],
+      "sourcePage": 8
+    },
+    {
+      "front": "if you’re in a group",
+      "meaning": "如果你是一群人一起去",
+      "examples": [
+        {
+          "en": "That always works really well if you’re in a group.",
+          "zh": "如果你們是一群人一起去，那樣通常非常合適。"
+        },
+        {
+          "en": "If you’re in a group, it’s cheaper to split a taxi.",
+          "zh": "如果你們是一群人一起去，分攤計程車費會比較便宜。"
+        },
+        {
+          "en": "If you’re in a group, book ahead so you don’t get stuck waiting.",
+          "zh": "如果你們是一群人一起去，要提前預訂，才不會卡在那裡等。"
+        },
+        {
+          "en": "If you’re in a group, choose something flexible, not a plan made of glass.",
+          "zh": "如果你們是一群人一起去，選彈性一點的安排，不要選脆得像玻璃的計畫。"
+        },
+        {
+          "en": "It’s easier to try different activities if you’re in a group.",
+          "zh": "如果你們是一群人一起去，嘗試不同活動會比較容易。"
+        }
+      ],
+      "sourcePage": 9
+    },
+    {
+      "front": "worth thinking about",
+      "meaning": "值得考慮",
+      "examples": [
+        {
+          "en": "Worth thinking about.",
+          "zh": "值得考慮。"
+        },
+        {
+          "en": "Moving closer to work is worth thinking about if the commute is wearing you down.",
+          "zh": "如果通勤讓你很累，搬到離公司近一點的地方值得考慮。"
+        },
+        {
+          "en": "A shorter course might be worth thinking about before you commit to a full degree.",
+          "zh": "在你決定讀完整學位前，先上一個短期課程可能值得考慮。"
+        },
+        {
+          "en": "Renting first is worth thinking about; buying a house is not a small boat to turn around.",
+          "zh": "先租房值得考慮；買房可不是一艘容易調頭的小船。"
+        },
+        {
+          "en": "If the job gives you more time, more freedom, and more peace, it’s worth thinking about.",
+          "zh": "如果那份工作給你更多時間、更多自由、更多平靜，那就值得考慮。"
+        }
+      ],
+      "sourcePage": 9
+    },
+    {
+      "front": "lively atmosphere",
+      "meaning": "熱鬧的氣氛",
+      "examples": [
+        {
+          "en": "There’s a lively atmosphere.",
+          "zh": "那裡有熱鬧的氣氛。"
+        },
+        {
+          "en": "The market has a lively atmosphere, especially on Saturday mornings.",
+          "zh": "那個市場氣氛很熱鬧，尤其是星期六早上。"
+        },
+        {
+          "en": "I like working in cafés with a lively atmosphere; the noise keeps my brain awake.",
+          "zh": "我喜歡在氣氛熱鬧的咖啡店工作；那些聲音會讓我的腦袋保持清醒。"
+        },
+        {
+          "en": "The classroom had a lively atmosphere once everyone started asking questions.",
+          "zh": "一旦大家開始提問，教室裡就有了熱鬧的氣氛。"
+        },
+        {
+          "en": "The festival had a lively atmosphere, with music in the air and colour on every corner.",
+          "zh": "那個節慶氣氛熱鬧，空氣裡有音樂，每個角落都有色彩。"
+        }
+      ],
+      "sourcePage": 9
+    },
+    {
+      "front": "really friendly",
+      "meaning": "非常友善",
+      "examples": [
+        {
+          "en": "The waiters are really friendly.",
+          "zh": "服務生非常友善。"
+        },
+        {
+          "en": "Everyone at the front desk was really friendly.",
+          "zh": "櫃檯的人都非常友善。"
+        },
+        {
+          "en": "My neighbours are really friendly; they always stop to say hello.",
+          "zh": "我的鄰居非常友善；他們總是會停下來打招呼。"
+        },
+        {
+          "en": "The doctor was really friendly, which made the whole appointment less stressful.",
+          "zh": "那位醫生非常友善，讓整個看診過程沒那麼緊張。"
+        },
+        {
+          "en": "The team is really friendly, so even the first day didn’t feel like walking into a cold room.",
+          "zh": "那個團隊非常友善，所以連第一天都不像走進冰冷的房間。"
+        }
+      ],
+      "sourcePage": 9
+    },
+    {
+      "front": "the only thing is that",
+      "meaning": "唯一一點是",
+      "examples": [
+        {
+          "en": "The only thing is that you need to pay a £50 deposit.",
+          "zh": "唯一一點是你需要付 50 英鎊訂金。"
+        },
+        {
+          "en": "The only thing is that the train leaves very early.",
+          "zh": "唯一一點是火車很早就出發。"
+        },
+        {
+          "en": "I like the apartment. The only thing is that it doesn’t get much natural light.",
+          "zh": "我喜歡那間公寓。唯一一點是它自然光不多。"
+        },
+        {
+          "en": "The plan sounds good; the only thing is that we need more time.",
+          "zh": "這個計畫聽起來不錯；唯一一點是我們需要更多時間。"
+        },
+        {
+          "en": "The only thing is that he talks too much in meetings, and ten minutes becomes a novel.",
+          "zh": "唯一一點是他在會議裡講太多，十分鐘會變成一部小說。"
+        }
+      ],
+      "sourcePage": 9
+    },
+    {
+      "front": "pay a £50 deposit",
+      "meaning": "付 50 英鎊訂金",
+      "examples": [
+        {
+          "en": "You need to pay a £50 deposit to book a table.",
+          "zh": "你需要付 50 英鎊訂金才能訂位。"
+        },
+        {
+          "en": "We had to pay a £50 deposit before they would hold the room for us.",
+          "zh": "我們必須先付 50 英鎊訂金，他們才會替我們保留房間。"
+        },
+        {
+          "en": "If you want to join the course, you need to pay a £50 deposit first.",
+          "zh": "如果你想報名那門課，需要先付 50 英鎊訂金。"
+        },
+        {
+          "en": "They asked us to pay a £50 deposit for the equipment hire.",
+          "zh": "他們要求我們為器材租借付 50 英鎊訂金。"
+        },
+        {
+          "en": "I don’t mind paying a £50 deposit as long as the rules are clear.",
+          "zh": "只要規則清楚，我不介意付 50 英鎊訂金。"
+        }
+      ],
+      "sourcePage": 9
+    },
+    {
+      "front": "book a table",
+      "meaning": "訂位",
+      "examples": [
+        {
+          "en": "You need to pay a £50 deposit to book a table.",
+          "zh": "你需要付 50 英鎊訂金才能訂位。"
+        },
+        {
+          "en": "We should book a table before Friday disappears on us.",
+          "zh": "我們應該在星期五的位子被訂光前先訂位。"
+        },
+        {
+          "en": "Can you book a table for four at 7 o’clock?",
+          "zh": "你可以訂一張晚上七點四個人的桌嗎？"
+        },
+        {
+          "en": "I forgot to book a table, so now dinner is turning into a small crisis.",
+          "zh": "我忘了訂位，所以現在晚餐變成一場小危機。"
+        },
+        {
+          "en": "If the place is popular, book a table early and save yourself the headache.",
+          "zh": "如果那個地方很受歡迎，早點訂位，省得自己頭痛。"
+        }
+      ],
+      "sourcePage": 9
+    },
+    {
+      "front": "these days",
+      "meaning": "現在；如今",
+      "examples": [
+        {
+          "en": "A lot of restaurants are doing that these days.",
+          "zh": "現在很多餐廳都這樣做。"
+        },
+        {
+          "en": "People use their phones for almost everything these days.",
+          "zh": "現在人們幾乎什麼事都用手機處理。"
+        },
+        {
+          "en": "These days, even small businesses need a decent website.",
+          "zh": "如今，就連小企業也需要一個像樣的網站。"
+        },
+        {
+          "en": "It’s hard to find a quiet café these days; every laptop has moved in.",
+          "zh": "現在很難找到安靜的咖啡店；每台筆電都搬進去了。"
+        },
+        {
+          "en": "These days, everyone wants things fast, cheap, and perfect — a neat little impossibility.",
+          "zh": "如今，大家都想要東西又快、又便宜、又完美——一個漂亮的小不可能。"
+        }
+      ],
+      "sourcePage": 10
+    },
+    {
+      "front": "have a look at the menu",
+      "meaning": "看一下菜單",
+      "examples": [
+        {
+          "en": "I should have a look at the menu.",
+          "zh": "我應該看一下菜單。"
+        },
+        {
+          "en": "Let’s have a look at the menu before we decide.",
+          "zh": "我們決定前先看一下菜單吧。"
+        },
+        {
+          "en": "I had a look at the menu, and there are plenty of lighter options.",
+          "zh": "我看了一下菜單，上面有很多比較清淡的選擇。"
+        },
+        {
+          "en": "Could you have a look at the menu and see if there’s anything for kids?",
+          "zh": "你可以看一下菜單，看看有沒有適合小孩的東西嗎？"
+        },
+        {
+          "en": "Before we book, I want to have a look at the menu; surprises are nice, but not when I’m hungry.",
+          "zh": "在我們訂位前，我想先看一下菜單；驚喜很好，但肚子餓時不太需要。"
+        }
+      ],
+      "sourcePage": 10
+    },
+    {
+      "front": "check there’s a good choice of",
+      "meaning": "確認有不錯的選擇",
+      "examples": [
+        {
+          "en": "I should check there’s a good choice of vegetarian dishes.",
+          "zh": "我應該確認有不錯的素食菜色選擇。"
+        },
+        {
+          "en": "Before we book the hotel, check there’s a good choice of rooms available.",
+          "zh": "在我們訂飯店前，確認一下有不錯的房型選擇。"
+        },
+        {
+          "en": "You should check there’s a good choice of courses before paying the fee.",
+          "zh": "付費前，你應該確認有不錯的課程選擇。"
+        },
+        {
+          "en": "I’ll check there’s a good choice of activities for the kids.",
+          "zh": "我會確認一下有不錯的兒童活動選擇。"
+        },
+        {
+          "en": "Before buying the pass, check there’s a good choice of trains at the times you need.",
+          "zh": "買通行票前，確認一下你需要的時段有不錯的火車選擇。"
+        }
+      ],
+      "sourcePage": 10
+    },
+    {
+      "front": "vegetarian dishes",
+      "meaning": "素食菜色",
+      "examples": [
+        {
+          "en": "I should check there’s a good choice of vegetarian dishes.",
+          "zh": "我應該確認有不錯的素食菜色選擇。"
+        },
+        {
+          "en": "The café has several vegetarian dishes on the lunch menu.",
+          "zh": "那家咖啡店的午餐菜單上有幾道素食菜色。"
+        },
+        {
+          "en": "We ordered two vegetarian dishes to share.",
+          "zh": "我們點了兩道素食菜色一起分享。"
+        },
+        {
+          "en": "My brother isn’t vegetarian, but he still loves their vegetarian dishes.",
+          "zh": "我哥哥不是素食者，但他還是很喜歡他們的素食菜色。"
+        },
+        {
+          "en": "Good vegetarian dishes don’t feel like a backup plan; they stand on their own.",
+          "zh": "好的素食菜色不會像備用方案；它們本身就站得住腳。"
+        }
+      ],
+      "sourcePage": 10
+    },
+    {
+      "front": "a couple of my friends",
+      "meaning": "我有幾個朋友",
+      "examples": [
+        {
+          "en": "A couple of my friends have stopped eating meat.",
+          "zh": "我有幾個朋友已經不吃肉了。"
+        },
+        {
+          "en": "A couple of my friends are coming to visit next weekend.",
+          "zh": "我有幾個朋友下週末要來看我。"
+        },
+        {
+          "en": "A couple of my friends work in healthcare, so I asked them what they thought.",
+          "zh": "我有幾個朋友在醫療業工作，所以我問了他們的看法。"
+        },
+        {
+          "en": "A couple of my friends joined the gym with me, which makes it harder to quit.",
+          "zh": "我有幾個朋友跟我一起加入健身房，這讓我比較難放棄。"
+        },
+        {
+          "en": "A couple of my friends moved abroad, and suddenly the group chat became our living room.",
+          "zh": "我有幾個朋友搬到國外後，群組聊天突然變成了我們的客廳。"
+        }
+      ],
+      "sourcePage": 10
+    },
+    {
+      "front": "have stopped eating meat",
+      "meaning": "已經不吃肉了",
+      "examples": [
+        {
+          "en": "A couple of my friends have stopped eating meat.",
+          "zh": "我有幾個朋友已經不吃肉了。"
+        },
+        {
+          "en": "I’ve stopped eating meat during the week, but I’m not strict about it.",
+          "zh": "我平日已經不吃肉了，但我沒有很嚴格。"
+        },
+        {
+          "en": "They have stopped eating meat for health reasons.",
+          "zh": "他們因為健康原因已經不吃肉了。"
+        },
+        {
+          "en": "Since he stopped eating meat, he’s learned to cook properly.",
+          "zh": "他不吃肉之後，開始真正學會做飯。"
+        },
+        {
+          "en": "We’ve stopped eating meat at home, and the kitchen has had to learn new tricks.",
+          "zh": "我們在家已經不吃肉了，廚房也不得不學點新把戲。"
+        }
+      ],
+      "sourcePage": 10
+    },
+    {
+      "front": "not sure",
+      "meaning": "不太確定",
+      "examples": [
+        {
+          "en": "Not sure.",
+          "zh": "不太確定。"
+        },
+        {
+          "en": "I’m not sure whether this is the right time to move.",
+          "zh": "我不太確定現在是不是搬家的好時機。"
+        },
+        {
+          "en": "She’s not sure about the colour, but she likes the shape.",
+          "zh": "她不太確定那個顏色，但她喜歡它的形狀。"
+        },
+        {
+          "en": "I’m not sure how to explain it; something just feels off.",
+          "zh": "我不太確定該怎麼解釋；只是覺得有點不對勁。"
+        },
+        {
+          "en": "Not sure yet — the idea is still half-baked.",
+          "zh": "還不太確定——這個想法還沒完全成熟。"
+        }
+      ],
+      "sourcePage": 10
+    },
+    {
+      "front": "the selection of those",
+      "meaning": "那類選擇",
+      "examples": [
+        {
+          "en": "The selection of those would be quite limited.",
+          "zh": "那類選擇會相當有限。"
+        },
+        {
+          "en": "The selection of those shoes is better online than in store.",
+          "zh": "那類鞋子的選擇在線上比實體店更多。"
+        },
+        {
+          "en": "If you need gluten-free snacks, the selection of those is usually small.",
+          "zh": "如果你需要無麩質點心，那類選擇通常很少。"
+        },
+        {
+          "en": "The selection of those courses changes every term.",
+          "zh": "那類課程的選擇每學期都會變。"
+        },
+        {
+          "en": "The selection of those tickets was limited, so we grabbed what we could.",
+          "zh": "那類票的選擇有限，所以我們能買到什麼就先買了。"
+        }
+      ],
+      "sourcePage": 11
+    },
+    {
+      "front": "quite limited",
+      "meaning": "相當有限",
+      "examples": [
+        {
+          "en": "The selection of those would be quite limited.",
+          "zh": "那類選擇會相當有限。"
+        },
+        {
+          "en": "My budget is quite limited this month.",
+          "zh": "我這個月的預算相當有限。"
+        },
+        {
+          "en": "The parking near the office is quite limited.",
+          "zh": "辦公室附近的停車位相當有限。"
+        },
+        {
+          "en": "Her free time is quite limited, so keep the meeting short.",
+          "zh": "她的空閒時間相當有限，所以會議簡短一點。"
+        },
+        {
+          "en": "The options are quite limited, but limited doesn’t mean useless.",
+          "zh": "選項相當有限，但有限不代表沒用。"
+        }
+      ],
+      "sourcePage": 11
+    },
+    {
+      "front": "I’ve just thought of",
+      "meaning": "我剛想到",
+      "examples": [
+        {
+          "en": "I’ve just thought of another idea.",
+          "zh": "我剛想到另一個主意。"
+        },
+        {
+          "en": "I’ve just thought of a better way to explain it.",
+          "zh": "我剛想到一個更好的解釋方式。"
+        },
+        {
+          "en": "I’ve just thought of someone who might be able to help.",
+          "zh": "我剛想到一個可能幫得上忙的人。"
+        },
+        {
+          "en": "I’ve just thought of a problem with the plan.",
+          "zh": "我剛想到這個計畫的一個問題。"
+        },
+        {
+          "en": "I’ve just thought of a shortcut, and for once my brain has decided to be useful.",
+          "zh": "我剛想到一條捷徑，這次我的腦袋終於決定派上用場了。"
+        }
+      ],
+      "sourcePage": 11
+    },
+    {
+      "front": "another idea",
+      "meaning": "另一個主意",
+      "examples": [
+        {
+          "en": "I’ve just thought of another idea.",
+          "zh": "我剛想到另一個主意。"
+        },
+        {
+          "en": "Another idea is to meet halfway instead of making everyone travel across town.",
+          "zh": "另一個主意是約在中間地點，而不是讓大家穿越整個城市。"
+        },
+        {
+          "en": "If that doesn’t work, I have another idea.",
+          "zh": "如果那樣行不通，我還有另一個主意。"
+        },
+        {
+          "en": "Another idea would be to turn the spare room into a small office.",
+          "zh": "另一個主意是把空房間改成小辦公室。"
+        },
+        {
+          "en": "Here’s another idea: do less, but do it properly.",
+          "zh": "這裡有另一個主意：少做一點，但做好一點。"
+        }
+      ],
+      "sourcePage": 11
+    },
+    {
+      "front": "have you been to",
+      "meaning": "你去過……嗎",
+      "examples": [
+        {
+          "en": "Have you been to The Audley?",
+          "zh": "你去過 The Audley 嗎？"
+        },
+        {
+          "en": "Have you been to the new art gallery yet?",
+          "zh": "你去過那間新的美術館了嗎？"
+        },
+        {
+          "en": "Have you been to Japan in spring?",
+          "zh": "你春天去過日本嗎？"
+        },
+        {
+          "en": "Have you been to that doctor before, or would this be your first visit?",
+          "zh": "你以前去過那位醫生那裡嗎？還是這會是你第一次去？"
+        },
+        {
+          "en": "Have you been to the old theatre downtown? It feels like the walls remember every show.",
+          "zh": "你去過市中心那間老劇院嗎？它感覺像牆壁記得每一場演出。"
+        }
+      ],
+      "sourcePage": 11
+    },
+    {
+      "front": "don’t think I’ve heard of it",
+      "meaning": "我想我沒聽說過",
+      "examples": [
+        {
+          "en": "No, don’t think I’ve heard of it.",
+          "zh": "沒有，我想我沒聽說過。"
+        },
+        {
+          "en": "I don’t think I’ve heard of it before. Is it new?",
+          "zh": "我想我以前沒聽說過。它是新的嗎？"
+        },
+        {
+          "en": "Don’t think I’ve heard of it, but the name sounds familiar.",
+          "zh": "我想我沒聽說過，但名字聽起來有點熟。"
+        },
+        {
+          "en": "I don’t think I’ve heard of it; send me the link and I’ll check.",
+          "zh": "我想我沒聽說過；把連結傳給我，我看一下。"
+        },
+        {
+          "en": "Don’t think I’ve heard of it, which is rare because gossip usually reaches me before the news does.",
+          "zh": "我想我沒聽說過，這很少見，因為八卦通常比新聞還早傳到我耳裡。"
+        }
+      ],
+      "sourcePage": 11
+    },
+    {
+      "front": "how’s it spelt",
+      "meaning": "它怎麼拼",
+      "examples": [
+        {
+          "en": "How’s it spelt?",
+          "zh": "它怎麼拼？"
+        },
+        {
+          "en": "The street name sounds unusual. How’s it spelt?",
+          "zh": "那個街名聽起來很特別。它怎麼拼？"
+        },
+        {
+          "en": "I can’t find the company online. How’s it spelt?",
+          "zh": "我在網路上找不到那家公司。它怎麼拼？"
+        },
+        {
+          "en": "Her surname is beautiful, but how’s it spelt?",
+          "zh": "她的姓很好聽，但怎麼拼？"
+        },
+        {
+          "en": "Before I write it down wrong and create a tiny disaster, how’s it spelt?",
+          "zh": "在我寫錯、製造一場小災難之前，它怎麼拼？"
+        }
+      ],
+      "sourcePage": 11
+    },
+    {
+      "front": "you must have heard of it",
+      "meaning": "你一定聽說過",
+      "examples": [
+        {
+          "en": "You must have heard of it.",
+          "zh": "你一定聽說過。"
+        },
+        {
+          "en": "You must have heard of it; everyone at work is talking about it.",
+          "zh": "你一定聽說過；公司裡每個人都在談。"
+        },
+        {
+          "en": "It’s one of the biggest apps right now. You must have heard of it.",
+          "zh": "它是現在最大的 app 之一。你一定聽說過。"
+        },
+        {
+          "en": "You must have heard of it if you listen to that podcast.",
+          "zh": "如果你有聽那個 podcast，你一定聽說過。"
+        },
+        {
+          "en": "You must have heard of it — the name has been everywhere, like glitter you can’t clean up.",
+          "zh": "你一定聽說過——那個名字到處都是，像清不乾淨的亮粉。"
+        }
+      ],
+      "sourcePage": 12
+    },
+    {
+      "front": "there’s been a lot about it",
+      "meaning": "有很多關於它的報導／討論",
+      "examples": [
+        {
+          "en": "There’s been a lot about it in the press.",
+          "zh": "媒體上有很多關於它的報導。"
+        },
+        {
+          "en": "There’s been a lot about it online since the announcement.",
+          "zh": "自從宣布後，網路上有很多關於它的討論。"
+        },
+        {
+          "en": "There’s been a lot about it at work, but nobody seems to know the full story.",
+          "zh": "公司裡有很多關於它的討論，但似乎沒有人知道完整故事。"
+        },
+        {
+          "en": "There’s been a lot about it on social media this week.",
+          "zh": "這週社群媒體上有很多關於它的討論。"
+        },
+        {
+          "en": "There’s been a lot about it lately, but noise is not the same as truth.",
+          "zh": "最近有很多關於它的討論，但聲量不等於真相。"
+        }
+      ],
+      "sourcePage": 12
+    },
+    {
+      "front": "in the press",
+      "meaning": "在媒體上；在報章上",
+      "examples": [
+        {
+          "en": "There’s been a lot about it in the press.",
+          "zh": "媒體上有很多關於它的報導。"
+        },
+        {
+          "en": "The case has been widely covered in the press.",
+          "zh": "那個案件在媒體上被廣泛報導。"
+        },
+        {
+          "en": "Her new book got excellent reviews in the press.",
+          "zh": "她的新書在媒體上獲得很好的評價。"
+        },
+        {
+          "en": "The company looked confident in the press, but staff told a different story.",
+          "zh": "那家公司在媒體上看起來很有信心，但員工說的是另一個故事。"
+        },
+        {
+          "en": "In the press, the project sounded simple; in real life, it had teeth.",
+          "zh": "在媒體上，那個專案聽起來很簡單；在現實中，它可不是吃素的。"
+        }
+      ],
+      "sourcePage": 12
+    },
+    {
+      "front": "tend to",
+      "meaning": "通常會；傾向於",
+      "examples": [
+        {
+          "en": "I don’t tend to pay much attention to that kind of thing.",
+          "zh": "我通常不太會注意那種事。"
+        },
+        {
+          "en": "I tend to work better in the morning.",
+          "zh": "我通常早上工作效率比較好。"
+        },
+        {
+          "en": "People tend to spend more when they’re tired.",
+          "zh": "人累的時候通常會花更多錢。"
+        },
+        {
+          "en": "She tends to keep calm, even when everyone else is panicking.",
+          "zh": "她通常會保持冷靜，即使其他人都在慌。"
+        },
+        {
+          "en": "Small problems tend to grow teeth if you ignore them for too long.",
+          "zh": "小問題如果被忽略太久，通常會長出牙齒來咬人。"
+        }
+      ],
+      "sourcePage": 12
+    },
+    {
+      "front": "pay much attention to",
+      "meaning": "很注意；很關注",
+      "examples": [
+        {
+          "en": "I don’t tend to pay much attention to that kind of thing.",
+          "zh": "我通常不太會關注那類事情。"
+        },
+        {
+          "en": "You should pay much more attention to the small print before you sign anything.",
+          "zh": "在簽任何東西之前，你應該更注意那些細節條款。"
+        },
+        {
+          "en": "He doesn’t pay much attention to fashion, but he always looks comfortable.",
+          "zh": "他不太關注時尚，但他看起來總是很自在。"
+        },
+        {
+          "en": "I didn’t pay much attention to the warning signs, and the problem grew teeth.",
+          "zh": "我沒有太注意那些警訊，結果問題變得難處理了。"
+        },
+        {
+          "en": "She pays a lot of attention to detail, which is why her work feels so polished.",
+          "zh": "她非常注重細節，所以她的作品感覺很精緻。"
+        }
+      ],
+      "sourcePage": 12
+    },
+    {
+      "front": "that kind of thing",
+      "meaning": "那類事情",
+      "examples": [
+        {
+          "en": "I don’t tend to pay much attention to that kind of thing.",
+          "zh": "我通常不太會關注那類事情。"
+        },
+        {
+          "en": "I’m not very good at fixing phones and that kind of thing.",
+          "zh": "我不太擅長修手機之類的事情。"
+        },
+        {
+          "en": "She loves museums, old buildings, quiet streets, and that kind of thing.",
+          "zh": "她喜歡博物館、老建築、安靜的街道，那類東西。"
+        },
+        {
+          "en": "I don’t usually worry about office gossip and that kind of thing.",
+          "zh": "我通常不太擔心辦公室八卦那類事情。"
+        },
+        {
+          "en": "He’s into hiking, camping, sleeping under the stars — that kind of thing.",
+          "zh": "他喜歡健行、露營、睡在星空下，那類活動。"
+        }
+      ],
+      "sourcePage": 12
+    },
+    {
+      "front": "where is it exactly",
+      "meaning": "它到底在哪裡",
+      "examples": [
+        {
+          "en": "So where is it exactly?",
+          "zh": "所以它到底在哪裡？"
+        },
+        {
+          "en": "The meeting room sounds familiar, but where is it exactly?",
+          "zh": "那間會議室聽起來有點熟，但它到底在哪裡？"
+        },
+        {
+          "en": "I know the shop is near the station, but where is it exactly?",
+          "zh": "我知道那家店在車站附近，但它到底在哪裡？"
+        },
+        {
+          "en": "Where is it exactly? The map is acting like it’s had a long day.",
+          "zh": "它到底在哪裡？這地圖看起來像是累壞了。"
+        },
+        {
+          "en": "Before I walk in circles for twenty minutes, where is it exactly?",
+          "zh": "在我繞圈走二十分鐘之前，它到底在哪裡？"
+        }
+      ],
+      "sourcePage": 12
+    },
+    {
+      "front": "on the top floor",
+      "meaning": "在頂樓",
+      "examples": [
+        {
+          "en": "It’s in that hotel near Baxter Bridge, on the top floor.",
+          "zh": "它在 Baxter Bridge 附近那家飯店的頂樓。"
+        },
+        {
+          "en": "Her office is on the top floor, so the lift is her best friend.",
+          "zh": "她的辦公室在頂樓，所以電梯是她最好的朋友。"
+        },
+        {
+          "en": "The children’s section is on the top floor of the library.",
+          "zh": "兒童區在圖書館的頂樓。"
+        },
+        {
+          "en": "We rented a flat on the top floor because we wanted more light.",
+          "zh": "我們租了一間頂樓公寓，因為想要更多光線。"
+        },
+        {
+          "en": "The gym is on the top floor, which feels like a workout before the workout.",
+          "zh": "健身房在頂樓，感覺像正式運動前先來一場運動。"
+        }
+      ],
+      "sourcePage": 13
+    },
+    {
+      "front": "the views would be incredible",
+      "meaning": "景色一定很棒",
+      "examples": [
+        {
+          "en": "The views would be incredible from up there.",
+          "zh": "從那上面看出去，景色一定很棒。"
+        },
+        {
+          "en": "If we climbed to the old tower, the views would be incredible.",
+          "zh": "如果我們爬到那座老塔上，景色一定很棒。"
+        },
+        {
+          "en": "The views would be incredible from that apartment, especially at sunrise.",
+          "zh": "從那間公寓看出去，景色一定很棒，尤其是日出時。"
+        },
+        {
+          "en": "From the mountain road, the views would be incredible, like the whole valley opening its arms.",
+          "zh": "從那條山路看出去，景色一定很棒，像整個山谷張開雙臂。"
+        },
+        {
+          "en": "The views would be incredible, but I’m not sure my legs would forgive the climb.",
+          "zh": "景色一定很棒，但我不確定我的腿會不會原諒那段爬坡。"
+        }
+      ],
+      "sourcePage": 13
+    },
+    {
+      "front": "from up there",
+      "meaning": "從那上面",
+      "examples": [
+        {
+          "en": "The views would be incredible from up there.",
+          "zh": "從那上面看出去，景色一定很棒。"
+        },
+        {
+          "en": "From up there, you can see the whole city.",
+          "zh": "從那上面，你可以看到整座城市。"
+        },
+        {
+          "en": "The stage looks tiny from up there, but the sound is still great.",
+          "zh": "從那上面看，舞台很小，但聲音還是很棒。"
+        },
+        {
+          "en": "From up there, the traffic looks peaceful, almost innocent.",
+          "zh": "從那上面看，交通看起來很平靜，甚至有點無辜。"
+        },
+        {
+          "en": "I wouldn’t drop my phone from up there; gravity has no sense of humour.",
+          "zh": "我不會從那上面把手機掉下去；地心引力可沒有幽默感。"
+        }
+      ],
+      "sourcePage": 13
+    },
+    {
+      "front": "I’d love to go",
+      "meaning": "我很想去",
+      "examples": [
+        {
+          "en": "I’d love to go.",
+          "zh": "我很想去。"
+        },
+        {
+          "en": "I’d love to go to Japan in spring one day.",
+          "zh": "我很想有一天春天去日本。"
+        },
+        {
+          "en": "If you’re visiting the exhibition this weekend, I’d love to go.",
+          "zh": "如果你這週末要去看展，我很想去。"
+        },
+        {
+          "en": "I’d love to go, but I need to check my calendar first.",
+          "zh": "我很想去，但我需要先確認我的行程。"
+        },
+        {
+          "en": "I’d love to go somewhere quiet, where my phone can stop shouting at me.",
+          "zh": "我很想去一個安靜的地方，讓我的手機停止對我大喊。"
+        }
+      ],
+      "sourcePage": 13
+    },
+    {
+      "front": "I can’t think of",
+      "meaning": "我想不起",
+      "examples": [
+        {
+          "en": "I can’t think of the chef’s name.",
+          "zh": "我想不起那位主廚的名字。"
+        },
+        {
+          "en": "I can’t think of a better way to spend a rainy Sunday.",
+          "zh": "我想不出更好的方式來度過下雨的星期天。"
+        },
+        {
+          "en": "I can’t think of his address, but I know the street.",
+          "zh": "我想不起他的地址，但我知道那條街。"
+        },
+        {
+          "en": "I can’t think of the word in English; it’s sitting on the edge of my brain.",
+          "zh": "我想不起那個英文單字；它就卡在我腦邊。"
+        },
+        {
+          "en": "I can’t think of anyone better for the job.",
+          "zh": "我想不出有誰更適合這份工作。"
+        }
+      ],
+      "sourcePage": 13
+    },
+    {
+      "front": "the chef’s name",
+      "meaning": "主廚的名字",
+      "examples": [
+        {
+          "en": "I can’t think of the chef’s name.",
+          "zh": "我想不起那位主廚的名字。"
+        },
+        {
+          "en": "Do you remember the chef’s name from that cooking video?",
+          "zh": "你記得那支烹飪影片裡主廚的名字嗎？"
+        },
+        {
+          "en": "The chef’s name is on the cover of the cookbook.",
+          "zh": "主廚的名字在那本食譜封面上。"
+        },
+        {
+          "en": "I forgot the chef’s name, but I remember the food clearly.",
+          "zh": "我忘了主廚的名字，但我很清楚記得那些食物。"
+        },
+        {
+          "en": "The chef’s name was everywhere last year, like a tune you couldn’t escape.",
+          "zh": "去年那位主廚的名字到處都是，像一首躲不掉的歌。"
+        }
+      ],
+      "sourcePage": 13
+    },
+    {
+      "front": "a judge on that TV cookery show",
+      "meaning": "那個電視烹飪節目的評審",
+      "examples": [
+        {
+          "en": "She was a judge on that TV cookery show recently.",
+          "zh": "她最近是那個電視烹飪節目的評審。"
+        },
+        {
+          "en": "He became a judge on that TV cookery show after his restaurant won several awards.",
+          "zh": "他的餐廳得了幾個獎之後，他成為那個電視烹飪節目的評審。"
+        },
+        {
+          "en": "Wasn’t she a judge on that TV cookery show with the impossible desserts?",
+          "zh": "她不是那個做超高難度甜點的電視烹飪節目的評審嗎？"
+        },
+        {
+          "en": "My aunt loves the woman who was a judge on that TV cookery show.",
+          "zh": "我阿姨很喜歡那位曾經當過那個電視烹飪節目評審的女人。"
+        },
+        {
+          "en": "Being a judge on that TV cookery show made him famous almost overnight.",
+          "zh": "成為那個電視烹飪節目的評審後，他幾乎一夜成名。"
+        }
+      ],
+      "sourcePage": 13
+    },
+    {
+      "front": "recently",
+      "meaning": "最近",
+      "examples": [
+        {
+          "en": "She was a judge on that TV cookery show recently.",
+          "zh": "她最近是那個電視烹飪節目的評審。"
+        },
+        {
+          "en": "I recently started walking to work.",
+          "zh": "我最近開始走路上班。"
+        },
+        {
+          "en": "Have you spoken to Daniel recently?",
+          "zh": "你最近有跟 Daniel 說話嗎？"
+        },
+        {
+          "en": "Prices have gone up recently, and my wallet is quietly crying.",
+          "zh": "價格最近上漲了，我的錢包正在安靜地哭。"
+        },
+        {
+          "en": "Recently, I’ve been trying to sleep earlier, with mixed success.",
+          "zh": "最近我一直試著早點睡，成效有好有壞。"
+        }
+      ],
+      "sourcePage": 14
+    },
+    {
+      "front": "written a couple of cookery books",
+      "meaning": "寫過幾本烹飪書",
+      "examples": [
+        {
+          "en": "She’s written a couple of cookery books.",
+          "zh": "她寫過幾本烹飪書。"
+        },
+        {
+          "en": "He’s written a couple of cookery books about simple food for busy people.",
+          "zh": "他寫過幾本關於忙碌人士簡單料理的烹飪書。"
+        },
+        {
+          "en": "My neighbour has written a couple of cookery books, though she still burns toast sometimes.",
+          "zh": "我鄰居寫過幾本烹飪書，雖然她有時候還是會把吐司烤焦。"
+        },
+        {
+          "en": "She’s written a couple of cookery books and now teaches online classes.",
+          "zh": "她寫過幾本烹飪書，現在也教線上課。"
+        },
+        {
+          "en": "They’ve written a couple of cookery books focused on local, seasonal food.",
+          "zh": "他們寫過幾本以當地、當季食材為主的烹飪書。"
+        }
+      ],
+      "sourcePage": 14
+    },
+    {
+      "front": "that’s the one",
+      "meaning": "就是她；就是那個",
+      "examples": [
+        {
+          "en": "That’s the one.",
+          "zh": "就是她。"
+        },
+        {
+          "en": "Yes, that’s the one I was telling you about.",
+          "zh": "對，就是我跟你說的那個。"
+        },
+        {
+          "en": "The blue jacket? That’s the one I wanted.",
+          "zh": "那件藍色外套？就是我想要的那件。"
+        },
+        {
+          "en": "You found the report with the red cover — that’s the one.",
+          "zh": "你找到紅色封面的那份報告了——就是那個。"
+        },
+        {
+          "en": "That’s the one; the name finally clicked into place.",
+          "zh": "就是那個；那個名字終於對上了。"
+        }
+      ],
+      "sourcePage": 14
+    },
+    {
+      "front": "anyway",
+      "meaning": "不管怎樣",
+      "examples": [
+        {
+          "en": "Anyway, it’s had excellent reviews from all the newspapers.",
+          "zh": "不管怎樣，它得到了各家報紙很好的評論。"
+        },
+        {
+          "en": "Anyway, let’s get back to the main point.",
+          "zh": "不管怎樣，我們回到重點吧。"
+        },
+        {
+          "en": "I missed the first train. Anyway, I still arrived on time.",
+          "zh": "我錯過了第一班火車。不管怎樣，我還是準時到了。"
+        },
+        {
+          "en": "Anyway, the important thing is that everyone got home safely.",
+          "zh": "不管怎樣，重要的是大家都安全到家了。"
+        },
+        {
+          "en": "Anyway, enough drama — let’s solve the problem in front of us.",
+          "zh": "不管怎樣，戲夠多了——我們來解決眼前的問題。"
+        }
+      ],
+      "sourcePage": 14
+    },
+    {
+      "front": "excellent reviews",
+      "meaning": "很好的評論",
+      "examples": [
+        {
+          "en": "It’s had excellent reviews from all the newspapers.",
+          "zh": "它得到了各家報紙很好的評論。"
+        },
+        {
+          "en": "The hotel has excellent reviews, especially for its service.",
+          "zh": "那家飯店有很好的評論，尤其是服務方面。"
+        },
+        {
+          "en": "Her first novel got excellent reviews, but she stayed very modest.",
+          "zh": "她的第一本小說獲得很好的評論，但她仍然很謙虛。"
+        },
+        {
+          "en": "The new app has excellent reviews because it does one thing and does it well.",
+          "zh": "那個新的 app 評論很好，因為它只做一件事，而且做得很好。"
+        },
+        {
+          "en": "The course has excellent reviews: clear lessons, useful tasks, no wasted time.",
+          "zh": "那門課有很好的評論：課程清楚、任務實用、不浪費時間。"
+        }
+      ],
+      "sourcePage": 14
+    },
+    {
+      "front": "from all the newspapers",
+      "meaning": "來自各家報紙",
+      "examples": [
+        {
+          "en": "It’s had excellent reviews from all the newspapers.",
+          "zh": "它得到了各家報紙很好的評論。"
+        },
+        {
+          "en": "The play got praise from all the newspapers after opening night.",
+          "zh": "那齣戲在首演夜後獲得各家報紙的讚美。"
+        },
+        {
+          "en": "Her speech drew attention from all the newspapers.",
+          "zh": "她的演講吸引了各家報紙的注意。"
+        },
+        {
+          "en": "The scandal was splashed across all the newspapers by morning.",
+          "zh": "到了早上，那樁醜聞已經登上各家報紙。"
+        },
+        {
+          "en": "The team’s win was on the front page of all the newspapers.",
+          "zh": "那支球隊的勝利登上了各家報紙的頭版。"
+        }
+      ],
+      "sourcePage": 14
+    },
+    {
+      "front": "a memorable place",
+      "meaning": "令人難忘的地方",
+      "examples": [
+        {
+          "en": "That would be a memorable place for a celebration.",
+          "zh": "那會是一個適合慶祝的令人難忘的地方。"
+        },
+        {
+          "en": "The old theatre is a memorable place to see your first concert.",
+          "zh": "那間老劇院會是一個看第一場演唱會的難忘地方。"
+        },
+        {
+          "en": "A beach at sunset would be a memorable place to propose.",
+          "zh": "日落時的海灘會是一個求婚的難忘地方。"
+        },
+        {
+          "en": "The classroom where we first met is still a memorable place for me.",
+          "zh": "我們第一次見面的那間教室，對我來說仍是令人難忘的地方。"
+        },
+        {
+          "en": "It’s a memorable place, not because it’s perfect, but because it has a pulse.",
+          "zh": "那是一個令人難忘的地方，不是因為它完美，而是因為它有生命力。"
+        }
+      ],
+      "sourcePage": 14
+    },
+    {
+      "front": "for a celebration",
+      "meaning": "適合慶祝",
+      "examples": [
+        {
+          "en": "That would be a memorable place for a celebration.",
+          "zh": "那會是一個適合慶祝的令人難忘的地方。"
+        },
+        {
+          "en": "We need somewhere cheerful for a celebration.",
+          "zh": "我們需要一個氣氛愉快、適合慶祝的地方。"
+        },
+        {
+          "en": "A small garden party would be perfect for a celebration.",
+          "zh": "一個小型花園派對會很適合慶祝。"
+        },
+        {
+          "en": "For a celebration, I’d choose somewhere warm, relaxed, and easy to reach.",
+          "zh": "如果是慶祝，我會選一個溫暖、輕鬆、又方便到達的地方。"
+        },
+        {
+          "en": "This song is too sad for a celebration; it walks in wearing black.",
+          "zh": "這首歌太悲傷了，不適合慶祝；它像穿著黑衣服走進來。"
+        }
+      ],
+      "sourcePage": 15
+    },
+    {
+      "front": "worth going there",
+      "meaning": "值得去那裡",
+      "examples": [
+        {
+          "en": "It’s worth going there just for the view.",
+          "zh": "光是為了景色就值得去那裡。"
+        },
+        {
+          "en": "The museum is worth going there for the architecture alone.",
+          "zh": "光是為了那裡的建築，那間博物館就值得去。"
+        },
+        {
+          "en": "If you love live music, it’s worth going there at least once.",
+          "zh": "如果你喜歡現場音樂，至少值得去那裡一次。"
+        },
+        {
+          "en": "It’s worth going there early before the crowds arrive.",
+          "zh": "在人潮到達前早點去那裡是值得的。"
+        },
+        {
+          "en": "The market is worth going there hungry; every stall will try to seduce you.",
+          "zh": "那個市場值得餓著肚子去；每個攤位都會試著誘惑你。"
+        }
+      ],
+      "sourcePage": 15
+    },
+    {
+      "front": "just for the view",
+      "meaning": "光是為了景色",
+      "examples": [
+        {
+          "en": "It’s worth going there just for the view.",
+          "zh": "光是為了景色就值得去那裡。"
+        },
+        {
+          "en": "I’d climb those stairs just for the view.",
+          "zh": "光是為了景色，我就願意爬那些樓梯。"
+        },
+        {
+          "en": "People book that hotel just for the view from the rooms.",
+          "zh": "大家訂那家飯店，光是為了房間裡看到的景色。"
+        },
+        {
+          "en": "The coffee is average, but I’d still go back just for the view.",
+          "zh": "咖啡普通，但光是為了景色，我還是會再去。"
+        },
+        {
+          "en": "Just for the view, I’d forgive the long drive and the bad parking.",
+          "zh": "光是為了景色，我可以原諒那段長途車程和糟糕的停車。"
+        }
+      ],
+      "sourcePage": 15
+    },
+    {
+      "front": "is supposed to be",
+      "meaning": "據說是；應該是",
+      "examples": [
+        {
+          "en": "The food is supposed to be really special.",
+          "zh": "食物據說非常特別。"
+        },
+        {
+          "en": "The film is supposed to be excellent, but I haven’t seen it yet.",
+          "zh": "那部電影據說很棒，但我還沒看。"
+        },
+        {
+          "en": "This medicine is supposed to be taken after meals.",
+          "zh": "這個藥應該飯後服用。"
+        },
+        {
+          "en": "The new manager is supposed to be very fair.",
+          "zh": "新經理據說很公平。"
+        },
+        {
+          "en": "The shortcut is supposed to be faster, though shortcuts often have a wicked sense of humour.",
+          "zh": "這條捷徑應該比較快，雖然捷徑常常很會捉弄人。"
+        }
+      ],
+      "sourcePage": 15
+    },
+    {
+      "front": "really special",
+      "meaning": "非常特別",
+      "examples": [
+        {
+          "en": "The food is supposed to be really special.",
+          "zh": "食物據說非常特別。"
+        },
+        {
+          "en": "Her graduation day felt really special.",
+          "zh": "她的畢業日感覺非常特別。"
+        },
+        {
+          "en": "This necklace is really special because it belonged to my grandmother.",
+          "zh": "這條項鍊非常特別，因為它以前是我奶奶的。"
+        },
+        {
+          "en": "The concert was really special; the whole room seemed to breathe together.",
+          "zh": "那場演唱會非常特別；整個空間像一起呼吸。"
+        },
+        {
+          "en": "It doesn’t look expensive, but it’s really special to me.",
+          "zh": "它看起來不貴，但對我來說非常特別。"
+        }
+      ],
+      "sourcePage": 15
+    },
+    {
+      "front": "local products",
+      "meaning": "當地食材／當地產品",
+      "examples": [
+        {
+          "en": "She only likes cooking with local products.",
+          "zh": "她只喜歡用當地食材做菜。"
+        },
+        {
+          "en": "The shop sells local products made by small farms and family businesses.",
+          "zh": "那家店販售由小農場和家族企業製作的當地產品。"
+        },
+        {
+          "en": "Buying local products can support the community directly.",
+          "zh": "購買當地產品可以直接支持社區。"
+        },
+        {
+          "en": "The hotel uses local products in its breakfast menu.",
+          "zh": "那家飯店的早餐菜單使用當地食材。"
+        },
+        {
+          "en": "Local products often carry the place with them — the soil, the weather, the hands that made them.",
+          "zh": "當地產品常常帶著那個地方的氣息——土地、天氣，還有製作者的手。"
+        }
+      ],
+      "sourcePage": 15
+    },
+    {
+      "front": "has to be sourced",
+      "meaning": "必須採購自；必須取得自",
+      "examples": [
+        {
+          "en": "Everything at the restaurant has to be sourced within a short distance.",
+          "zh": "餐廳裡所有東西都必須採購自很短距離內的地方。"
+        },
+        {
+          "en": "The wood has to be sourced from certified forests.",
+          "zh": "這些木材必須取自經認證的森林。"
+        },
+        {
+          "en": "For this project, every image has to be sourced legally.",
+          "zh": "這個專案中的每張圖片都必須合法取得。"
+        },
+        {
+          "en": "The coffee has to be sourced from farms that pay workers fairly.",
+          "zh": "這些咖啡必須採購自公平對待工人的農場。"
+        },
+        {
+          "en": "Good information has to be sourced carefully; otherwise, rumour puts on a suit and calls itself fact.",
+          "zh": "好資訊必須謹慎取得；否則謠言會穿上西裝，自稱事實。"
+        }
+      ],
+      "sourcePage": 15
+    },
+    {
+      "front": "within a short distance",
+      "meaning": "在很短距離內",
+      "examples": [
+        {
+          "en": "Everything at the restaurant has to be sourced within a short distance.",
+          "zh": "餐廳裡所有東西都必須採購自很短距離內的地方。"
+        },
+        {
+          "en": "We found a school, a park, and a supermarket within a short distance of the flat.",
+          "zh": "我們在公寓附近很短距離內找到了學校、公園和超市。"
+        },
+        {
+          "en": "The hotel is within a short distance of the conference centre.",
+          "zh": "那家飯店距離會議中心很近。"
+        },
+        {
+          "en": "Keep emergency supplies within a short distance of the front door.",
+          "zh": "把緊急用品放在離前門很近的地方。"
+        },
+        {
+          "en": "I like living where everything is within a short distance; the city feels smaller and kinder.",
+          "zh": "我喜歡住在什麼都距離很近的地方；城市感覺更小，也更溫柔。"
+        }
+      ],
+      "sourcePage": 16
+    },
+    {
+      "front": "absolutely nothing",
+      "meaning": "絕對沒有任何東西；什麼都沒有",
+      "examples": [
+        {
+          "en": "Absolutely nothing is flown in from abroad.",
+          "zh": "絕對沒有任何東西是從國外空運進來的。"
+        },
+        {
+          "en": "I did absolutely nothing on Sunday, and it was glorious.",
+          "zh": "我星期天什麼都沒做，而且感覺棒極了。"
+        },
+        {
+          "en": "There is absolutely nothing wrong with asking for help.",
+          "zh": "尋求幫助絕對沒有任何問題。"
+        },
+        {
+          "en": "He said absolutely nothing during the meeting, which somehow said everything.",
+          "zh": "他在會議中一句話都沒說，但不知怎麼地，那反而說明了一切。"
+        },
+        {
+          "en": "Absolutely nothing in the room looked expensive, but everything felt carefully chosen.",
+          "zh": "房間裡絕對沒有任何東西看起來昂貴，但每樣東西都像是精心挑選的。"
+        }
+      ],
+      "sourcePage": 16
+    },
+    {
+      "front": "flown in from abroad",
+      "meaning": "從國外空運進來",
+      "examples": [
+        {
+          "en": "Absolutely nothing is flown in from abroad.",
+          "zh": "絕對沒有任何東西是從國外空運進來的。"
+        },
+        {
+          "en": "The flowers were flown in from abroad for the wedding.",
+          "zh": "婚禮用的花是從國外空運進來的。"
+        },
+        {
+          "en": "Some of the medical equipment had to be flown in from abroad.",
+          "zh": "有些醫療設備必須從國外空運進來。"
+        },
+        {
+          "en": "The fruit looks perfect because it’s flown in from abroad, but it doesn’t taste like much.",
+          "zh": "那些水果看起來很完美，因為是從國外空運進來的，但味道不怎麼樣。"
+        },
+        {
+          "en": "They avoid ingredients flown in from abroad to keep the menu more sustainable.",
+          "zh": "他們避免使用從國外空運進來的食材，讓菜單更永續。"
+        }
+      ],
+      "sourcePage": 16
+    },
+    {
+      "front": "I imagine",
+      "meaning": "我想；我猜",
+      "examples": [
+        {
+          "en": "I imagine it’s really expensive though.",
+          "zh": "不過我想它真的很貴。"
+        },
+        {
+          "en": "I imagine you’re tired after such a long flight.",
+          "zh": "我想你搭了那麼久的飛機應該很累。"
+        },
+        {
+          "en": "I imagine the meeting will take longer than planned.",
+          "zh": "我猜會議會比原本計畫的時間更久。"
+        },
+        {
+          "en": "I imagine she felt proud, nervous, and relieved all at once.",
+          "zh": "我想她當時應該同時感到驕傲、緊張和鬆了一口氣。"
+        },
+        {
+          "en": "I imagine moving house with two children is like trying to fold a storm.",
+          "zh": "我想帶著兩個孩子搬家，就像試著把暴風雨摺起來一樣。"
+        }
+      ],
+      "sourcePage": 16
+    },
+    {
+      "front": "really expensive though",
+      "meaning": "不過真的很貴",
+      "examples": [
+        {
+          "en": "I imagine it’s really expensive though.",
+          "zh": "不過我想它真的很貴。"
+        },
+        {
+          "en": "The apartment is beautiful, really expensive though.",
+          "zh": "那間公寓很漂亮，不過真的很貴。"
+        },
+        {
+          "en": "That laptop looks powerful, really expensive though.",
+          "zh": "那台筆電看起來很強，不過真的很貴。"
+        },
+        {
+          "en": "The wedding venue is stunning, really expensive though.",
+          "zh": "那個婚禮場地很美，不過真的很貴。"
+        },
+        {
+          "en": "Private lessons can be useful, really expensive though, so check your budget first.",
+          "zh": "私人課程可能很有用，不過真的很貴，所以先確認你的預算。"
+        }
+      ],
+      "sourcePage": 16
+    },
+    {
+      "front": "go for the set lunch",
+      "meaning": "選午間套餐",
+      "examples": [
+        {
+          "en": "You could go for the set lunch.",
+          "zh": "你可以選午間套餐。"
+        },
+        {
+          "en": "If you want to save money, go for the set lunch instead of dinner.",
+          "zh": "如果你想省錢，可以選午間套餐，不要選晚餐。"
+        },
+        {
+          "en": "We decided to go for the set lunch because it included three courses.",
+          "zh": "我們決定選午間套餐，因為它包含三道菜。"
+        },
+        {
+          "en": "At a fancy place like that, I’d go for the set lunch first.",
+          "zh": "像那樣高級的地方，我會先選午間套餐試試。"
+        },
+        {
+          "en": "Go for the set lunch; it gives you a taste of the place without emptying your wallet.",
+          "zh": "選午間套餐吧；你可以嘗到那家店的味道，又不會把錢包掏空。"
+        }
+      ],
+      "sourcePage": 16
+    },
+    {
+      "front": "quite reasonable",
+      "meaning": "相當合理",
+      "examples": [
+        {
+          "en": "That’s quite reasonable for a top-class restaurant.",
+          "zh": "以頂級餐廳來說，那相當合理。"
+        },
+        {
+          "en": "The rent is quite reasonable for such a central location.",
+          "zh": "以這麼市中心的位置來說，租金相當合理。"
+        },
+        {
+          "en": "Her hourly rate is quite reasonable, considering her experience.",
+          "zh": "考慮到她的經驗，她的時薪相當合理。"
+        },
+        {
+          "en": "The repair cost was quite reasonable, so I didn’t argue.",
+          "zh": "維修費用相當合理，所以我沒有爭論。"
+        },
+        {
+          "en": "For a full-day workshop with materials included, the price is quite reasonable.",
+          "zh": "以包含材料的全天工作坊來說，這個價格相當合理。"
+        }
+      ],
+      "sourcePage": 16
+    },
+    {
+      "front": "top-class restaurant",
+      "meaning": "頂級餐廳",
+      "examples": [
+        {
+          "en": "That’s quite reasonable for a top-class restaurant.",
+          "zh": "以頂級餐廳來說，那相當合理。"
+        },
+        {
+          "en": "They booked a top-class restaurant for their anniversary.",
+          "zh": "他們為週年紀念日訂了一家頂級餐廳。"
+        },
+        {
+          "en": "A top-class restaurant should offer great food, good service, and calm confidence.",
+          "zh": "一家頂級餐廳應該有好食物、好服務，以及從容的自信。"
+        },
+        {
+          "en": "He trained in a top-class restaurant before opening his own place.",
+          "zh": "他開自己的店之前，曾在一家頂級餐廳受訓。"
+        },
+        {
+          "en": "You don’t always need a top-class restaurant; sometimes a tiny local café has more soul.",
+          "zh": "你不一定總是需要頂級餐廳；有時候一間小小的在地咖啡店更有靈魂。"
+        }
+      ],
+      "sourcePage": 17
+    },
+    {
+      "front": "£30 a head",
+      "meaning": "每人 30 英鎊",
+      "examples": [
+        {
+          "en": "That’s quite reasonable for a top-class restaurant: £30 a head.",
+          "zh": "以頂級餐廳來說，那相當合理：每人 30 英鎊。"
+        },
+        {
+          "en": "The group dinner costs £30 a head, not including drinks.",
+          "zh": "團體晚餐每人 30 英鎊，不包含飲料。"
+        },
+        {
+          "en": "At £30 a head, the buffet is good value.",
+          "zh": "以每人 30 英鎊來說，那個自助餐很划算。"
+        },
+        {
+          "en": "We paid £30 a head for the tour, and it included transport.",
+          "zh": "我們那個導覽每人付了 30 英鎊，而且包含交通。"
+        },
+        {
+          "en": "If it’s £30 a head for food, music, and a welcome drink, that’s not bad.",
+          "zh": "如果食物、音樂和迎賓飲料每人 30 英鎊，那不算差。"
+        }
+      ],
+      "sourcePage": 17
+    },
+    {
+      "front": "in the evening",
+      "meaning": "晚上的話",
+      "examples": [
+        {
+          "en": "In the evening, I think it’d be more like £50.",
+          "zh": "晚上的話，我覺得會比較像是 50 英鎊左右。"
+        },
+        {
+          "en": "I usually study better in the evening, when the house goes quiet.",
+          "zh": "我通常晚上讀書效率比較好，因為家裡安靜下來了。"
+        },
+        {
+          "en": "The city feels different in the evening; softer, slower, less sharp around the edges.",
+          "zh": "晚上的城市感覺不一樣；更柔和、更慢，也沒那麼刺人。"
+        },
+        {
+          "en": "In the evening, the beach is less crowded.",
+          "zh": "晚上的話，海邊比較不擁擠。"
+        },
+        {
+          "en": "We’ll call them in the evening after everyone has finished work.",
+          "zh": "我們晚上再打給他們，等大家都下班後。"
+        }
+      ],
+      "sourcePage": 17
+    },
+    {
+      "front": "more like £50",
+      "meaning": "比較像是 50 英鎊左右",
+      "examples": [
+        {
+          "en": "I think it’d be more like £50.",
+          "zh": "我覺得會比較像是 50 英鎊左右。"
+        },
+        {
+          "en": "For a taxi that far, it’ll be more like £50.",
+          "zh": "坐計程車那麼遠的話，會比較像是 50 英鎊左右。"
+        },
+        {
+          "en": "The ticket isn’t £30 anymore; it’s more like £50 now.",
+          "zh": "那張票現在不是 30 英鎊了；比較像是 50 英鎊左右。"
+        },
+        {
+          "en": "If you add delivery and service fees, it’s more like £50.",
+          "zh": "如果加上外送費和服務費，就比較像是 50 英鎊左右。"
+        },
+        {
+          "en": "The basic plan looks cheap, but with extras it becomes more like £50.",
+          "zh": "基本方案看起來便宜，但加上額外項目後，就比較像是 50 英鎊左右。"
+        }
+      ],
+      "sourcePage": 17
+    },
+    {
+      "front": "at least that",
+      "meaning": "至少那個價錢／至少那樣",
+      "examples": [
+        {
+          "en": "At least that, I should think.",
+          "zh": "我想至少那個價錢。"
+        },
+        {
+          "en": "The repair will cost £200, at least that.",
+          "zh": "維修費會是 200 英鎊，至少那個價錢。"
+        },
+        {
+          "en": "You’ll need three hours for the journey, at least that.",
+          "zh": "這趟路程你會需要三個小時，至少那樣。"
+        },
+        {
+          "en": "The project will take two weeks, at least that if we want to do it properly.",
+          "zh": "這個專案會花兩週，如果我們想做好，至少要那樣。"
+        },
+        {
+          "en": "She reads a book a week, at least that; her bookshelf is basically a forest.",
+          "zh": "她一週讀一本書，至少那樣；她的書架簡直是一片森林。"
+        }
+      ],
+      "sourcePage": 17
+    },
+    {
+      "front": "I should think",
+      "meaning": "我想；我覺得",
+      "examples": [
+        {
+          "en": "At least that, I should think.",
+          "zh": "我想至少那個價錢。"
+        },
+        {
+          "en": "It’ll take about an hour, I should think.",
+          "zh": "我想大概要花一個小時。"
+        },
+        {
+          "en": "She’ll be happy with that, I should think.",
+          "zh": "我覺得她會對那樣滿意。"
+        },
+        {
+          "en": "The meeting will be finished by five, I should think.",
+          "zh": "我想會議五點前會結束。"
+        },
+        {
+          "en": "They’ll need more chairs, I should think; the guest list keeps growing like weeds.",
+          "zh": "我覺得他們會需要更多椅子；賓客名單像雜草一樣一直長。"
+        }
+      ],
+      "sourcePage": 17
+    },
+    {
+      "front": "I’m sure everyone would enjoy it",
+      "meaning": "我相信大家都會喜歡",
+      "examples": [
+        {
+          "en": "I’m sure everyone would enjoy it.",
+          "zh": "我相信大家都會喜歡。"
+        },
+        {
+          "en": "If we choose a simple outdoor picnic, I’m sure everyone would enjoy it.",
+          "zh": "如果我們選簡單的戶外野餐，我相信大家都會喜歡。"
+        },
+        {
+          "en": "The film is funny without being silly, so I’m sure everyone would enjoy it.",
+          "zh": "那部電影好笑但不低級，所以我相信大家都會喜歡。"
+        },
+        {
+          "en": "Let’s book the museum tour; I’m sure everyone would enjoy it.",
+          "zh": "我們訂博物館導覽吧；我相信大家都會喜歡。"
+        },
+        {
+          "en": "It’s relaxed, interesting, and easy to join in — I’m sure everyone would enjoy it.",
+          "zh": "它輕鬆、有趣，又容易參與——我相信大家都會喜歡。"
+        }
+      ],
+      "sourcePage": 17
+    },
+    {
+      "front": "the kind of place",
+      "meaning": "那種地方",
+      "examples": [
+        {
+          "en": "It’s not the kind of place you leave feeling hungry, is it?",
+          "zh": "它不是那種讓你離開時還覺得餓的地方，對吧？"
+        },
+        {
+          "en": "It’s the kind of place where people remember your name.",
+          "zh": "那是那種人們會記得你名字的地方。"
+        },
+        {
+          "en": "This is the kind of place you come to when you need quiet.",
+          "zh": "這是那種你需要安靜時會來的地方。"
+        },
+        {
+          "en": "That gym is the kind of place that makes beginners feel welcome.",
+          "zh": "那間健身房是那種讓初學者感到受歡迎的地方。"
+        },
+        {
+          "en": "It’s the kind of place that looks ordinary at first, then slowly wins you over.",
+          "zh": "那是那種一開始看起來普通，後來慢慢把你收服的地方。"
+        }
+      ],
+      "sourcePage": 18
+    },
+    {
+      "front": "leave feeling hungry",
+      "meaning": "離開時還覺得餓",
+      "examples": [
+        {
+          "en": "It’s not the kind of place you leave feeling hungry, is it?",
+          "zh": "它不是那種讓你離開時還覺得餓的地方，對吧？"
+        },
+        {
+          "en": "I hate paying a lot and still leaving feeling hungry.",
+          "zh": "我討厭花很多錢，結果離開時還覺得餓。"
+        },
+        {
+          "en": "After that tiny salad, I left feeling hungry and slightly betrayed.",
+          "zh": "吃完那份小沙拉後，我離開時還覺得餓，而且有點被背叛的感覺。"
+        },
+        {
+          "en": "The portions were generous, so nobody left feeling hungry.",
+          "zh": "分量很足，所以沒有人離開時還覺得餓。"
+        },
+        {
+          "en": "If students leave feeling hungry, the school lunch clearly isn’t doing its job.",
+          "zh": "如果學生離開時還覺得餓，那學校午餐顯然沒有做好本分。"
+        }
+      ],
+      "sourcePage": 18
+    },
+    {
+      "front": "tiny portions",
+      "meaning": "很小的分量",
+      "examples": [
+        {
+          "en": "With tiny portions?",
+          "zh": "分量很小的那種嗎？"
+        },
+        {
+          "en": "The food tasted good, but the portions were tiny.",
+          "zh": "食物味道不錯，但分量很小。"
+        },
+        {
+          "en": "I don’t mind fine dining, but tiny portions make me nervous.",
+          "zh": "我不介意高級餐飲，但很小的分量會讓我不安。"
+        },
+        {
+          "en": "Tiny portions are fine for tasting menus, not for people who skipped lunch.",
+          "zh": "很小的分量適合品嚐菜單，不適合沒吃午餐的人。"
+        },
+        {
+          "en": "The portions were so tiny that the plate looked like it was keeping a secret.",
+          "zh": "分量小到那個盤子看起來像在藏秘密。"
+        }
+      ],
+      "sourcePage": 18
+    },
+    {
+      "front": "the reviews I’ve read",
+      "meaning": "我看過的評論",
+      "examples": [
+        {
+          "en": "The reviews I’ve read didn’t mention that.",
+          "zh": "我看過的評論沒有提到那一點。"
+        },
+        {
+          "en": "The reviews I’ve read say the hotel is clean but noisy.",
+          "zh": "我看過的評論說那家飯店乾淨，但很吵。"
+        },
+        {
+          "en": "From the reviews I’ve read, the course is practical but quite demanding.",
+          "zh": "根據我看過的評論，那門課很實用，但要求相當高。"
+        },
+        {
+          "en": "The reviews I’ve read make the book sound sharp, funny, and painfully honest.",
+          "zh": "我看過的評論讓那本書聽起來犀利、有趣，而且誠實得有點痛。"
+        },
+        {
+          "en": "The reviews I’ve read are mixed, so I’d rather try it myself.",
+          "zh": "我看過的評論褒貶不一，所以我寧願自己試試。"
+        }
+      ],
+      "sourcePage": 18
+    },
+    {
+      "front": "didn’t mention that",
+      "meaning": "沒有提到那一點",
+      "examples": [
+        {
+          "en": "The reviews I’ve read didn’t mention that.",
+          "zh": "我看過的評論沒有提到那一點。"
+        },
+        {
+          "en": "You said parking was free, but you didn’t mention that it ends after two hours.",
+          "zh": "你說停車免費，但你沒有提到只有前兩個小時免費。"
+        },
+        {
+          "en": "The website didn’t mention that the pool was closed.",
+          "zh": "網站沒有提到游泳池關閉了。"
+        },
+        {
+          "en": "He told me the job was busy, but he didn’t mention that emails would follow me home.",
+          "zh": "他告訴我那份工作很忙，但沒有提到郵件會一路跟著我回家。"
+        },
+        {
+          "en": "The guidebook didn’t mention that the path gets very steep near the top.",
+          "zh": "旅遊指南沒有提到那條路接近山頂時會變得很陡。"
+        }
+      ],
+      "sourcePage": 18
+    },
+    {
+      "front": "I imagine they’d be average",
+      "meaning": "我想應該是正常大小／普通水準",
+      "examples": [
+        {
+          "en": "I imagine they’d be average.",
+          "zh": "我想應該是正常大小。"
+        },
+        {
+          "en": "The rooms look simple, so I imagine they’d be average.",
+          "zh": "房間看起來很簡單，所以我想應該是普通水準。"
+        },
+        {
+          "en": "The test results aren’t terrible; I imagine they’d be average.",
+          "zh": "測驗結果不算差；我想應該是普通水準。"
+        },
+        {
+          "en": "If the tickets are that cheap, I imagine they’d be average seats.",
+          "zh": "如果票那麼便宜，我想應該是普通座位。"
+        },
+        {
+          "en": "The shoes don’t look special, so I imagine they’d be average, not awful, not amazing.",
+          "zh": "那雙鞋看起來不特別，所以我想應該是普通水準，不糟，也不驚人。"
+        }
+      ],
+      "sourcePage": 18
+    },
+    {
+      "front": "that’s all great",
+      "meaning": "這些都很棒",
+      "examples": [
+        {
+          "en": "Well, that’s all great, thanks.",
+          "zh": "好，這些都很棒，謝謝。"
+        },
+        {
+          "en": "That’s all great, but we still need to choose a date.",
+          "zh": "這些都很棒，但我們還是需要選一個日期。"
+        },
+        {
+          "en": "The plan, the budget, the venue — that’s all great.",
+          "zh": "計畫、預算、場地——這些都很棒。"
+        },
+        {
+          "en": "That’s all great on paper, but real life has a habit of spilling coffee on the plan.",
+          "zh": "這些在紙面上都很棒，但現實生活總愛把咖啡灑在計畫上。"
+        },
+        {
+          "en": "That’s all great, and I really appreciate you explaining it so clearly.",
+          "zh": "這些都很棒，我也真的很感謝你解釋得這麼清楚。"
+        }
+      ],
+      "sourcePage": 18
+    },
+    {
+      "front": "reason for recommendation",
+      "meaning": "推薦原因",
+      "examples": [
+        {
+          "en": "The reason for recommendation is that the restaurant is good for people who are especially keen on fish.",
+          "zh": "推薦原因是那家餐廳適合特別喜歡魚類料理的人。"
+        },
+        {
+          "en": "The main reason for my recommendation is that the course is practical, clear, and easy to follow.",
+          "zh": "我推薦的主要原因是那門課實用、清楚，而且容易跟上。"
+        },
+        {
+          "en": "The reason for the recommendation was simple: the hotel was clean, central, and quiet.",
+          "zh": "推薦原因很簡單：那家飯店乾淨、位置中心，而且安靜。"
+        },
+        {
+          "en": "Her reason for recommendation was the teacher’s patience, not the school’s fancy website.",
+          "zh": "她的推薦原因是老師有耐心，而不是學校網站很漂亮。"
+        },
+        {
+          "en": "The reason for recommendation should be specific, not just “it’s good.”",
+          "zh": "推薦原因應該具體，不要只是說「它很好」。"
+        }
+      ],
+      "sourcePage": 19
+    },
+    {
+      "front": "other comments",
+      "meaning": "其他補充；其他評語",
+      "examples": [
+        {
+          "en": "Other comments include the price, the deposit, and the size of the portions.",
+          "zh": "其他補充包括價格、訂金和食物分量。"
+        },
+        {
+          "en": "Other comments from the students were mostly about the timetable.",
+          "zh": "學生的其他評語大多是關於時間表。"
+        },
+        {
+          "en": "Please add any other comments at the bottom of the form.",
+          "zh": "請在表格底部加入任何其他補充。"
+        },
+        {
+          "en": "The report is clear, but the other comments feel a bit rushed.",
+          "zh": "報告很清楚，但其他評語感覺有點匆忙。"
+        },
+        {
+          "en": "Other comments mentioned the noise, the parking, and the slow lift.",
+          "zh": "其他補充提到了噪音、停車和很慢的電梯。"
+        }
+      ],
+      "sourcePage": 19
+    },
+    {
+      "front": "near the station",
+      "meaning": "在車站附近",
+      "examples": [
+        {
+          "en": "The Junction is on Greyson Street, near the station.",
+          "zh": "The Junction 在 Greyson Street，靠近車站。"
+        },
+        {
+          "en": "Let’s meet near the station so nobody gets lost.",
+          "zh": "我們在車站附近碰面吧，這樣沒有人會迷路。"
+        },
+        {
+          "en": "I found a small hotel near the station for the weekend trip.",
+          "zh": "我為週末旅行找了一家車站附近的小飯店。"
+        },
+        {
+          "en": "The flat is near the station, which makes the morning commute less painful.",
+          "zh": "那間公寓在車站附近，讓早上通勤沒那麼痛苦。"
+        },
+        {
+          "en": "There’s a pharmacy near the station if you need anything.",
+          "zh": "如果你需要買東西，車站附近有一家藥局。"
+        }
+      ],
+      "sourcePage": 19
+    },
+    {
+      "front": "good for people who",
+      "meaning": "適合……的人",
+      "examples": [
+        {
+          "en": "The Junction is good for people who are especially keen on fish.",
+          "zh": "The Junction 適合特別喜歡魚類料理的人。"
+        },
+        {
+          "en": "This app is good for people who want to build small daily habits.",
+          "zh": "這個 app 適合想建立日常小習慣的人。"
+        },
+        {
+          "en": "The class is good for people who learn better by doing.",
+          "zh": "這門課適合透過實作學得比較好的人。"
+        },
+        {
+          "en": "That neighbourhood is good for people who like quiet streets and green spaces.",
+          "zh": "那個社區適合喜歡安靜街道和綠地的人。"
+        },
+        {
+          "en": "This book is good for people who want clear advice without motivational fireworks.",
+          "zh": "這本書適合想要清楚建議、不想要浮誇激勵話術的人。"
+        }
+      ],
+      "sourcePage": 19
+    },
+    {
+      "front": "especially keen on",
+      "meaning": "特別喜歡；對……特別感興趣",
+      "examples": [
+        {
+          "en": "It is good for people who are especially keen on fish.",
+          "zh": "它適合特別喜歡魚類料理的人。"
+        },
+        {
+          "en": "She’s especially keen on old films and quiet cinemas.",
+          "zh": "她特別喜歡老電影和安靜的電影院。"
+        },
+        {
+          "en": "He isn’t especially keen on working late on Fridays.",
+          "zh": "他不是特別喜歡星期五加班。"
+        },
+        {
+          "en": "My dad is especially keen on tools, even ones he will never use.",
+          "zh": "我爸爸特別喜歡工具，連永遠不會用到的也喜歡。"
+        },
+        {
+          "en": "If you’re especially keen on history, that museum will keep you busy for hours.",
+          "zh": "如果你對歷史特別感興趣，那間博物館會讓你逛上好幾個小時。"
+        }
+      ],
+      "sourcePage": 19
+    },
+    {
+      "front": "quite expensive",
+      "meaning": "相當昂貴",
+      "examples": [
+        {
+          "en": "The Junction is quite expensive.",
+          "zh": "The Junction 相當昂貴。"
+        },
+        {
+          "en": "The repair was quite expensive, but the car runs smoothly now.",
+          "zh": "維修費相當昂貴，但車子現在開起來很順。"
+        },
+        {
+          "en": "That area is quite expensive because it’s close to the river.",
+          "zh": "那個地區相當昂貴，因為靠近河邊。"
+        },
+        {
+          "en": "Private tutoring can be quite expensive, so compare a few options first.",
+          "zh": "私人補習可能相當昂貴，所以先比較幾個選項。"
+        },
+        {
+          "en": "The coat is quite expensive, but it looks like it could survive three winters and a small war.",
+          "zh": "那件外套相當昂貴，但看起來可以撐過三個冬天和一場小戰爭。"
+        }
+      ],
+      "sourcePage": 19
+    },
+    {
+      "front": "a good place for a drink",
+      "meaning": "適合喝一杯的地方",
+      "examples": [
+        {
+          "en": "The roof is a good place for a drink before dinner.",
+          "zh": "屋頂是晚餐前適合喝一杯的地方。"
+        },
+        {
+          "en": "That quiet bar is a good place for a drink after work.",
+          "zh": "那家安靜的酒吧是下班後適合喝一杯的地方。"
+        },
+        {
+          "en": "The hotel lobby is a good place for a drink if you want somewhere calm.",
+          "zh": "如果你想找安靜一點的地方，飯店大廳適合喝一杯。"
+        },
+        {
+          "en": "The garden is a good place for a drink when the weather behaves itself.",
+          "zh": "天氣配合的時候，花園是適合喝一杯的地方。"
+        },
+        {
+          "en": "This little café is a good place for a drink, a chat, and a slow hour.",
+          "zh": "這間小咖啡店適合喝一杯、聊聊天、慢慢待上一小時。"
+        }
+      ],
+      "sourcePage": 19
+    },
+    {
+      "front": "next to the cinema",
+      "meaning": "在戲院旁邊",
+      "examples": [
+        {
+          "en": "Paloma is in Bow Street next to the cinema.",
+          "zh": "Paloma 在 Bow Street，戲院旁邊。"
+        },
+        {
+          "en": "The bookshop next to the cinema stays open late.",
+          "zh": "戲院旁邊那家書店營業到很晚。"
+        },
+        {
+          "en": "I parked next to the cinema because the main car park was full.",
+          "zh": "因為主停車場滿了，我把車停在戲院旁邊。"
+        },
+        {
+          "en": "There’s a noodle place next to the cinema that students love.",
+          "zh": "戲院旁邊有一家學生很愛的麵店。"
+        },
+        {
+          "en": "Let’s meet next to the cinema, under the big blue sign.",
+          "zh": "我們在戲院旁邊碰面吧，在那個大藍色招牌下面。"
+        }
+      ],
+      "sourcePage": 20
+    },
+    {
+      "front": "Spanish food",
+      "meaning": "西班牙菜",
+      "examples": [
+        {
+          "en": "Paloma serves Spanish food, which is good for sharing.",
+          "zh": "Paloma 供應西班牙菜，很適合分享。"
+        },
+        {
+          "en": "I learned to cook Spanish food during lockdown.",
+          "zh": "我在封城期間學會做西班牙菜。"
+        },
+        {
+          "en": "Spanish food can be simple, bold, and full of sunshine.",
+          "zh": "西班牙菜可以簡單、大膽，而且充滿陽光感。"
+        },
+        {
+          "en": "My brother loves Spanish food, especially anything with seafood.",
+          "zh": "我哥哥很喜歡西班牙菜，尤其是任何有海鮮的料理。"
+        },
+        {
+          "en": "The festival had music, dancing, and Spanish food everywhere.",
+          "zh": "那個節慶到處都有音樂、舞蹈和西班牙菜。"
+        }
+      ],
+      "sourcePage": 20
+    },
+    {
+      "front": "good for sharing",
+      "meaning": "適合分享",
+      "examples": [
+        {
+          "en": "Spanish food is good for sharing.",
+          "zh": "西班牙菜適合分享。"
+        },
+        {
+          "en": "This dessert is good for sharing because it’s huge.",
+          "zh": "這份甜點很大，所以適合分享。"
+        },
+        {
+          "en": "The sofa is good for sharing, but only if nobody steals the blanket.",
+          "zh": "這張沙發適合分享，但前提是沒有人偷搶毯子。"
+        },
+        {
+          "en": "A big table in the middle is good for sharing ideas during workshops.",
+          "zh": "中間放一張大桌子，很適合在工作坊中分享想法。"
+        },
+        {
+          "en": "Short articles are good for sharing because people can read them quickly.",
+          "zh": "短文章適合分享，因為大家可以很快讀完。"
+        }
+      ],
+      "sourcePage": 20
+    },
+    {
+      "front": "staff are very friendly",
+      "meaning": "職員很友善",
+      "examples": [
+        {
+          "en": "The staff at Paloma are very friendly.",
+          "zh": "Paloma 的職員很友善。"
+        },
+        {
+          "en": "The staff are very friendly, even when the place is busy.",
+          "zh": "即使店裡很忙，職員也很友善。"
+        },
+        {
+          "en": "The staff are very friendly at my local gym.",
+          "zh": "我家附近健身房的職員很友善。"
+        },
+        {
+          "en": "The staff are very friendly, which makes new students feel less nervous.",
+          "zh": "職員很友善，讓新學生沒那麼緊張。"
+        },
+        {
+          "en": "The staff are very friendly; they treat questions like guests, not problems.",
+          "zh": "職員很友善；他們把問題當客人對待，而不是麻煩。"
+        }
+      ],
+      "sourcePage": 20
+    },
+    {
+      "front": "pay a deposit",
+      "meaning": "支付訂金",
+      "examples": [
+        {
+          "en": "You need to pay a £50 deposit to book a table.",
+          "zh": "你需要支付 50 英鎊訂金才能訂位。"
+        },
+        {
+          "en": "We had to pay a deposit before moving into the flat.",
+          "zh": "我們搬進那間公寓前必須支付訂金。"
+        },
+        {
+          "en": "You may need to pay a deposit when you rent a bike.",
+          "zh": "租腳踏車時，你可能需要支付訂金。"
+        },
+        {
+          "en": "They asked us to pay a deposit to reserve the room.",
+          "zh": "他們要求我們支付訂金來保留房間。"
+        },
+        {
+          "en": "Don’t pay a deposit until you’ve read the terms properly.",
+          "zh": "在你仔細讀完條款前，不要支付訂金。"
+        }
+      ],
+      "sourcePage": 20
+    },
+    {
+      "front": "a £50 deposit",
+      "meaning": "50 英鎊訂金",
+      "examples": [
+        {
+          "en": "You need to pay a £50 deposit.",
+          "zh": "你需要支付 50 英鎊訂金。"
+        },
+        {
+          "en": "The hotel asks for a £50 deposit when you check in.",
+          "zh": "那家飯店入住時要求支付 50 英鎊訂金。"
+        },
+        {
+          "en": "There’s a £50 deposit for the camera equipment.",
+          "zh": "相機器材需要 50 英鎊訂金。"
+        },
+        {
+          "en": "A £50 deposit is required to secure your place on the course.",
+          "zh": "需要支付 50 英鎊訂金才能保留你的課程名額。"
+        },
+        {
+          "en": "A £50 deposit sounds small until five different places ask for one.",
+          "zh": "50 英鎊訂金聽起來不多，直到五個不同地方都跟你要。"
+        }
+      ],
+      "sourcePage": 20
+    },
+    {
+      "front": "a limited selection of",
+      "meaning": "有限的……選擇",
+      "examples": [
+        {
+          "en": "There is a limited selection of vegetarian food on the menu.",
+          "zh": "菜單上有有限的素食選擇。"
+        },
+        {
+          "en": "The shop has a limited selection of winter coats this year.",
+          "zh": "那家店今年的冬季外套選擇有限。"
+        },
+        {
+          "en": "There’s a limited selection of courses available in the evening.",
+          "zh": "晚上可選的課程有限。"
+        },
+        {
+          "en": "The website offers a limited selection of free templates.",
+          "zh": "那個網站提供有限的免費模板選擇。"
+        },
+        {
+          "en": "We had a limited selection of tools, so creativity had to do the heavy lifting.",
+          "zh": "我們能用的工具選擇有限，所以只能靠創意撐場。"
+        }
+      ],
+      "sourcePage": 20
+    },
+    {
+      "front": "vegetarian food",
+      "meaning": "素食",
+      "examples": [
+        {
+          "en": "There is a limited selection of vegetarian food on the menu.",
+          "zh": "菜單上的素食選擇有限。"
+        },
+        {
+          "en": "Vegetarian food has become much easier to find these days.",
+          "zh": "現在素食已經容易找很多了。"
+        },
+        {
+          "en": "My sister prefers vegetarian food during the week.",
+          "zh": "我妹妹平日比較喜歡吃素食。"
+        },
+        {
+          "en": "Good vegetarian food can be rich, filling, and full of flavour.",
+          "zh": "好的素食可以很豐富、有飽足感，而且味道十足。"
+        },
+        {
+          "en": "The school is trying to offer more vegetarian food at lunch.",
+          "zh": "學校正在試著午餐提供更多素食。"
+        }
+      ],
+      "sourcePage": 21
+    },
+    {
+      "front": "on the menu",
+      "meaning": "在餐牌上／在菜單上",
+      "examples": [
+        {
+          "en": "There is a limited selection of vegetarian food on the menu.",
+          "zh": "菜單上的素食選擇有限。"
+        },
+        {
+          "en": "Is there anything spicy on the menu?",
+          "zh": "菜單上有辣的東西嗎？"
+        },
+        {
+          "en": "The cheapest thing on the menu is still expensive.",
+          "zh": "菜單上最便宜的東西還是很貴。"
+        },
+        {
+          "en": "Happiness wasn’t on the menu, but the cake came close.",
+          "zh": "幸福不在菜單上，但那塊蛋糕很接近。"
+        },
+        {
+          "en": "They put a few local dishes on the menu to support nearby farms.",
+          "zh": "他們把幾道本地菜放在菜單上，以支持附近農場。"
+        }
+      ],
+      "sourcePage": 21
+    },
+    {
+      "front": "at the top of",
+      "meaning": "在……頂層／頂端",
+      "examples": [
+        {
+          "en": "The Audley is at the top of a hotel.",
+          "zh": "The Audley 在一家飯店的頂層。"
+        },
+        {
+          "en": "Write your name at the top of the page.",
+          "zh": "把你的名字寫在頁面頂端。"
+        },
+        {
+          "en": "The village sits at the top of a steep hill.",
+          "zh": "那個村莊位於一座陡坡的頂端。"
+        },
+        {
+          "en": "She is at the top of her class in maths.",
+          "zh": "她的數學成績在班上名列前茅。"
+        },
+        {
+          "en": "At the top of the list, put the thing that cannot wait.",
+          "zh": "在清單最上面，放上不能等的那件事。"
+        }
+      ],
+      "sourcePage": 21
+    },
+    {
+      "front": "a famous chef",
+      "meaning": "一位著名廚師",
+      "examples": [
+        {
+          "en": "The Audley has a famous chef.",
+          "zh": "The Audley 有一位著名廚師。"
+        },
+        {
+          "en": "A famous chef opened a small bakery in our town.",
+          "zh": "一位著名廚師在我們鎮上開了一家小麵包店。"
+        },
+        {
+          "en": "They invited a famous chef to judge the competition.",
+          "zh": "他們邀請了一位著名廚師來評審比賽。"
+        },
+        {
+          "en": "A famous chef doesn’t always make a good teacher.",
+          "zh": "一位著名廚師不一定就是好老師。"
+        },
+        {
+          "en": "My uncle talks like a famous chef, but burns rice like a beginner.",
+          "zh": "我叔叔說話像著名廚師，但煮飯會煮焦，像個新手。"
+        }
+      ],
+      "sourcePage": 21
+    },
+    {
+      "front": "very good reviews",
+      "meaning": "很好的評價",
+      "examples": [
+        {
+          "en": "All the reviews are very good.",
+          "zh": "所有評論都很好。"
+        },
+        {
+          "en": "The new phone has very good reviews, especially for its battery life.",
+          "zh": "那支新手機有很好的評價，尤其是電池續航方面。"
+        },
+        {
+          "en": "Her book got very good reviews from teachers and parents.",
+          "zh": "她的書獲得老師和家長很好的評價。"
+        },
+        {
+          "en": "The hotel has very good reviews, but I still want to check the location.",
+          "zh": "那家飯店有很好的評價，但我還是想確認地點。"
+        },
+        {
+          "en": "The course has very good reviews because it teaches skills you can use the same day.",
+          "zh": "那門課評價很好，因為它教的是當天就能用上的技能。"
+        }
+      ],
+      "sourcePage": 21
+    },
+    {
+      "front": "local ingredients",
+      "meaning": "本地食材",
+      "examples": [
+        {
+          "en": "The restaurant only uses local ingredients.",
+          "zh": "那家餐廳只使用本地食材。"
+        },
+        {
+          "en": "The school café tries to cook with local ingredients.",
+          "zh": "學校咖啡廳試著用本地食材做料理。"
+        },
+        {
+          "en": "Local ingredients often taste fresher and support nearby farms.",
+          "zh": "本地食材通常味道更新鮮，也能支持附近農場。"
+        },
+        {
+          "en": "The chef built the whole menu around local ingredients.",
+          "zh": "主廚以本地食材設計了整份菜單。"
+        },
+        {
+          "en": "Using local ingredients makes the meal feel rooted in the place.",
+          "zh": "使用本地食材會讓那頓飯感覺扎根於當地。"
+        }
+      ],
+      "sourcePage": 21
+    },
+    {
+      "front": "set lunch",
+      "meaning": "午市套餐",
+      "examples": [
+        {
+          "en": "The set lunch costs £30 per person.",
+          "zh": "午市套餐每人 30 英鎊。"
+        },
+        {
+          "en": "The set lunch includes soup, a main course, and coffee.",
+          "zh": "午市套餐包含湯、主菜和咖啡。"
+        },
+        {
+          "en": "We chose the set lunch because it was cheaper than ordering separately.",
+          "zh": "我們選了午市套餐，因為比分開點便宜。"
+        },
+        {
+          "en": "Their set lunch changes every week, so regular customers don’t get bored.",
+          "zh": "他們的午市套餐每週更換，所以常客不會吃膩。"
+        },
+        {
+          "en": "A good set lunch is simple: fair price, decent choice, no nasty surprises.",
+          "zh": "好的午市套餐很簡單：價格合理、選擇不錯、沒有討厭的驚喜。"
+        }
+      ],
+      "sourcePage": 21
+    },
+    {
+      "front": "costs £30 per person",
+      "meaning": "每人 30 英鎊",
+      "examples": [
+        {
+          "en": "The set lunch costs £30 per person.",
+          "zh": "午市套餐每人 30 英鎊。"
+        },
+        {
+          "en": "The workshop costs £30 per person, including materials.",
+          "zh": "那個工作坊每人 30 英鎊，包含材料。"
+        },
+        {
+          "en": "The boat trip costs £30 per person if you book online.",
+          "zh": "如果線上預訂，船遊每人 30 英鎊。"
+        },
+        {
+          "en": "Dinner costs £30 per person before drinks and service charge.",
+          "zh": "晚餐在飲料和服務費之前每人 30 英鎊。"
+        },
+        {
+          "en": "The class costs £30 per person, which is fair if the teacher is good.",
+          "zh": "那堂課每人 30 英鎊，如果老師好，算合理。"
+        }
+      ],
+      "sourcePage": 22
+    },
+    {
+      "front": "per person",
+      "meaning": "每人",
+      "examples": [
+        {
+          "en": "The set lunch costs £30 per person.",
+          "zh": "午市套餐每人 30 英鎊。"
+        },
+        {
+          "en": "The tour is limited to ten people per person? No — ten people per group.",
+          "zh": "那個導覽是每人十個人？不對——是每組十個人。"
+        },
+        {
+          "en": "Tickets are £15 per person for adults.",
+          "zh": "成人票每人 15 英鎊。"
+        },
+        {
+          "en": "We need one towel per person for the swimming lesson.",
+          "zh": "游泳課每人需要一條毛巾。"
+        },
+        {
+          "en": "The budget is tight, so let’s keep it under £20 per person.",
+          "zh": "預算很緊，所以我們把它控制在每人 20 英鎊以下吧。"
+        }
+      ],
+      "sourcePage": 22
+    },
+    {
+      "front": "portions",
+      "meaning": "食物分量",
+      "examples": [
+        {
+          "en": "The portions are probably of average size.",
+          "zh": "食物分量可能是正常大小。"
+        },
+        {
+          "en": "The portions were huge, so we couldn’t finish everything.",
+          "zh": "食物分量很大，所以我們吃不完。"
+        },
+        {
+          "en": "Small portions are fine if the food is rich.",
+          "zh": "如果食物很濃郁，分量小一點也可以。"
+        },
+        {
+          "en": "The portions at that café are generous without being silly.",
+          "zh": "那家咖啡店的食物分量很足，但不誇張。"
+        },
+        {
+          "en": "Watch your portions if you’re trying to eat more slowly and feel better.",
+          "zh": "如果你想吃慢一點、感覺好一點，要注意食物分量。"
+        }
+      ],
+      "sourcePage": 22
+    },
+    {
+      "front": "average size",
+      "meaning": "正常大小",
+      "examples": [
+        {
+          "en": "The portions are probably of average size.",
+          "zh": "食物分量可能是正常大小。"
+        },
+        {
+          "en": "The room is average size, but the windows make it feel bigger.",
+          "zh": "房間是正常大小，但窗戶讓它感覺更大。"
+        },
+        {
+          "en": "He’s of average size for his age.",
+          "zh": "以他的年紀來說，他的身形是正常大小。"
+        },
+        {
+          "en": "The suitcase is average size, so it should fit in the car.",
+          "zh": "那個行李箱是正常大小，所以應該放得進車裡。"
+        },
+        {
+          "en": "The portions are average size: not tiny, not huge, just enough.",
+          "zh": "食物分量是正常大小：不小、不大，剛剛好。"
+        }
+      ],
+      "sourcePage": 22
+    }
+  ]
+};
+  </script>
+  <script>
     const ADMIN_NAME = "Sam";
     const ADMIN_PASSWORD = "FlashCardEdmund";
     const STUDENTS_KEY = "edmundFlashcardStudents";
     const CARDS_KEY = "edmundFlashcardCards";
     const SESSION_KEY = "edmundFlashcardSession";
+    const ATTEMPTS_KEY = "edmundFlashcardAttempts";
+    const PASSWORD_LOG_KEY = "edmundFlashcardPasswordLogs";
 
+    const seedDecks = window.EDMUND_FLASHCARD_SEED || {};
     const dseReadingYears = ["2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2012 Practice", "2012 Sample"];
     const dseStandardYears = ["2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012"];
-    const ieltsTests = Array.from({ length: 30 }, (_, index) => `Test ${index + 1}`);
+    const ieltsPractices = Array.from({ length: 30 }, (_, index) => `Practice ${index + 1}`);
 
-    let currentUser = null;
-    let currentView = "login";
-    let viewStack = [];
-    let currentDeckId = "";
-    let currentDeckTitle = "";
-    let currentCardIndex = 0;
-    let showingBack = false;
+    const accessSections = [
+      { key: "dse", label: "DSE", kind: "route", target: "dse-home" },
+      { key: "ielts", label: "IELTS", kind: "route", target: "ielts-home" },
+      { key: "pte", label: "Pearson Test of English (PTE)", kind: "deck", target: "pte/general" },
+      { key: "toeic", label: "TOEIC", kind: "deck", target: "toeic/general" },
+      { key: "toefl", label: "TOEFL", kind: "deck", target: "toefl/general" },
+      { key: "cambridge", label: "Cambridge", kind: "deck", target: "cambridge/general" },
+      { key: "sat", label: "SAT", kind: "deck", target: "sat/general" },
+      { key: "cre", label: "CRE", kind: "deck", target: "cre/general" },
+      { key: "daily-english", label: "日常英語", kind: "deck", target: "daily-english/general" },
+      { key: "pop-songs", label: "英文流行曲", kind: "deck", target: "pop-songs/general" },
+      { key: "news-analysis", label: "新聞分析", kind: "deck", target: "news-analysis/general" },
+      { key: "power-words", label: "Power Words", kind: "deck", target: "power-words/general" },
+      { key: "idioms", label: "Idioms", kind: "deck", target: "idioms/general" },
+      { key: "phrasal-verbs", label: "Phrasal Verbs", kind: "deck", target: "phrasal-verbs/general" }
+    ];
 
     const viewSelectors = [
       "[data-admin-panel]",
@@ -843,8 +5149,17 @@
       "[data-dse-home]",
       "[data-ielts-home]",
       "[data-options-view]",
+      "[data-deck-start]",
       "[data-deck-view]"
     ];
+
+    let currentUser = null;
+    let currentView = "login";
+    let viewStack = [];
+    let selectedStudentName = "";
+    let currentDeckId = "";
+    let currentDeckTitle = "";
+    let studySession = null;
 
     function escapeHtml(value) {
       return String(value)
@@ -855,39 +5170,105 @@
         .replaceAll("'", "&#039;");
     }
 
-    function getStudents() {
+    function todayText(value) {
+      if (!value) return "Never";
+      return new Date(value).toLocaleDateString("en-HK", { year: "numeric", month: "short", day: "numeric" });
+    }
+
+    function exactDateTime(value) {
+      if (!value) return "Never";
+      return new Date(value).toLocaleString("en-HK", {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+
+    function defaultAccess() {
+      return Object.fromEntries(accessSections.map(section => [section.key, false]));
+    }
+
+    function normalizeStudent(student) {
+      return {
+        name: String(student.name || "").trim(),
+        password: String(student.password || ""),
+        createdAt: student.createdAt || Date.now(),
+        access: { ...defaultAccess(), ...(student.access || {}) }
+      };
+    }
+
+    function readJson(key, fallback) {
       try {
-        return JSON.parse(localStorage.getItem(STUDENTS_KEY) || "[]");
+        return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback));
       } catch {
-        return [];
+        return fallback;
       }
+    }
+
+    function writeJson(key, value) {
+      localStorage.setItem(key, JSON.stringify(value));
+    }
+
+    function getStudents() {
+      return readJson(STUDENTS_KEY, []).map(normalizeStudent).filter(student => student.name);
     }
 
     function saveStudents(students) {
-      localStorage.setItem(STUDENTS_KEY, JSON.stringify(students));
+      writeJson(STUDENTS_KEY, students.map(normalizeStudent));
+    }
+
+    function getSelectedStudent() {
+      return getStudents().find(student => student.name === selectedStudentName) || null;
     }
 
     function getCardStore() {
-      try {
-        return JSON.parse(localStorage.getItem(CARDS_KEY) || "{}");
-      } catch {
-        return {};
-      }
+      return readJson(CARDS_KEY, {});
     }
 
     function saveCardStore(store) {
-      localStorage.setItem(CARDS_KEY, JSON.stringify(store));
+      writeJson(CARDS_KEY, store);
+    }
+
+    function normalizeCard(card) {
+      return {
+        front: String(card.front || card.term || ""),
+        meaning: String(card.meaning || card.back || ""),
+        examples: Array.isArray(card.examples) ? card.examples : [],
+        sourcePage: card.sourcePage || null
+      };
     }
 
     function getDeckCards(deckId = currentDeckId) {
-      const store = getCardStore();
-      return Array.isArray(store[deckId]) ? store[deckId] : [];
+      const customStore = getCardStore();
+      const seedCards = Array.isArray(seedDecks[deckId]) ? seedDecks[deckId] : [];
+      const customCards = Array.isArray(customStore[deckId]) ? customStore[deckId] : [];
+      return [...seedCards, ...customCards].map(normalizeCard).filter(card => card.front);
     }
 
-    function saveDeckCards(deckId, cards) {
+    function saveCustomCard(deckId, card) {
       const store = getCardStore();
+      const cards = Array.isArray(store[deckId]) ? store[deckId] : [];
+      cards.push(card);
       store[deckId] = cards;
       saveCardStore(store);
+    }
+
+    function getAttempts() {
+      return readJson(ATTEMPTS_KEY, []);
+    }
+
+    function saveAttempts(attempts) {
+      writeJson(ATTEMPTS_KEY, attempts);
+    }
+
+    function getPasswordLogs() {
+      return readJson(PASSWORD_LOG_KEY, []);
+    }
+
+    function savePasswordLogs(logs) {
+      writeJson(PASSWORD_LOG_KEY, logs);
     }
 
     function setSession(user) {
@@ -913,6 +5294,16 @@
       return currentUser?.role === "admin";
     }
 
+    function canAccess(key) {
+      if (isAdmin()) return true;
+      const student = getStudents().find(item => item.name === currentUser?.name);
+      return Boolean(student?.access?.[key]);
+    }
+
+    function sectionKeyForDeck(deckId) {
+      return accessSections.find(section => deckId === section.target || deckId.startsWith(`${section.key}/`))?.key || "";
+    }
+
     function showLogin() {
       currentView = "login";
       viewStack = [];
@@ -923,9 +5314,7 @@
     }
 
     function hideAllAppPanels() {
-      viewSelectors.forEach(selector => {
-        document.querySelector(selector)?.classList.add("hidden");
-      });
+      viewSelectors.forEach(selector => document.querySelector(selector)?.classList.add("hidden"));
     }
 
     function showAppPanel(view, push = true) {
@@ -943,14 +5332,12 @@
       const panel = document.querySelector(`[data-${view}]`);
       if (panel) panel.classList.remove("hidden");
 
-      if (view === "admin-panel") renderStudents();
-      if (view === "dashboard") updateUserLabel();
+      if (view === "admin-panel") {
+        renderStudents();
+        renderStudentProfile();
+      }
+      if (view === "dashboard") renderDashboard();
       window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-
-    function updateUserLabel() {
-      const label = document.querySelector("[data-user-label]");
-      if (label) label.textContent = `${currentUser?.name || "Student"}｜${isAdmin() ? "Admin mode" : "Student mode"}`;
     }
 
     function login(username, password) {
@@ -971,6 +5358,53 @@
       return false;
     }
 
+    function attemptStatsForPrefix(prefix, studentName = currentUser?.name) {
+      const rows = getAttempts().filter(attempt =>
+        attempt.studentName === studentName &&
+        (attempt.deckId === prefix || attempt.deckId.startsWith(`${prefix}/`))
+      );
+      const latest = rows.reduce((winner, row) => Math.max(winner, row.startedAt || 0, row.updatedAt || 0), 0);
+      return { count: rows.length, latest };
+    }
+
+    function metaHtml(prefix) {
+      if (isAdmin()) return "";
+      const stats = attemptStatsForPrefix(prefix);
+      return `<small>Attempts: ${stats.count}<br>Last: ${todayText(stats.latest)}</small>`;
+    }
+
+    function tileHtml(section) {
+      const locked = !canAccess(section.key);
+      const attr = section.kind === "route"
+        ? `data-route="${escapeHtml(section.target)}"`
+        : `data-open-deck="${escapeHtml(section.target)}"`;
+      return `
+        <button class="tile ${locked ? "locked" : ""}" type="button" data-section-key="${escapeHtml(section.key)}" ${attr}>
+          <span>${escapeHtml(section.label)}</span>
+          ${locked ? "<small>Unavailable</small>" : metaHtml(section.target)}
+        </button>
+      `;
+    }
+
+    function renderDashboard() {
+      const label = document.querySelector("[data-user-label]");
+      if (label) label.textContent = `${currentUser?.name || "Student"} | ${isAdmin() ? "Admin mode" : "Student mode"}`;
+
+      const examGrid = document.querySelector("[data-exam-grid]");
+      const resourceGrid = document.querySelector("[data-resource-grid]");
+      const examSections = accessSections.slice(0, 8);
+      const resourceLeft = accessSections.slice(8, 11);
+      const resourceRight = accessSections.slice(11, 14);
+
+      if (examGrid) examGrid.innerHTML = examSections.map(tileHtml).join("");
+      if (resourceGrid) {
+        resourceGrid.innerHTML = `
+          <div class="resource-column">${resourceLeft.map(tileHtml).join("")}</div>
+          <div class="resource-column">${resourceRight.map(tileHtml).join("")}</div>
+        `;
+      }
+    }
+
     function renderStudents() {
       const list = document.querySelector("[data-student-list]");
       if (!list) return;
@@ -980,14 +5414,100 @@
         ? students.map(student => `
           <div class="student-row">
             <span>${escapeHtml(student.name)}</span>
-            <button type="button" data-remove-student="${escapeHtml(student.name)}">Remove</button>
+            <div class="student-row-actions">
+              <button class="mini-button" type="button" data-select-student="${escapeHtml(student.name)}">Profile</button>
+              <button class="mini-button danger" type="button" data-remove-student="${escapeHtml(student.name)}">Remove</button>
+            </div>
           </div>
         `).join("")
-        : `<p class="import-hint">No student accounts yet.</p>`;
+        : `<p class="note-text">No student accounts yet.</p>`;
     }
 
-    function optionButton(label, deckId, prefix = "") {
-      return `<button class="thin-option" type="button" data-open-deck="${escapeHtml(deckId)}">${escapeHtml(label)}</button>`;
+    function renderStudentProfile() {
+      const panel = document.querySelector("[data-student-profile]");
+      if (!panel) return;
+
+      const student = getSelectedStudent();
+      if (!student) {
+        panel.innerHTML = `
+          <h2>Student Profile</h2>
+          <p class="note-text">Choose a student account to manage access, password recovery, and attempts.</p>
+        `;
+        return;
+      }
+
+      const attempts = getAttempts()
+        .filter(attempt => attempt.studentName === student.name)
+        .sort((a, b) => (b.startedAt || 0) - (a.startedAt || 0));
+      const logs = getPasswordLogs()
+        .filter(log => log.studentName === student.name)
+        .sort((a, b) => (b.changedAt || 0) - (a.changedAt || 0));
+
+      panel.innerHTML = `
+        <h2>${escapeHtml(student.name)}</h2>
+        <div class="profile-facts">
+          <div class="fact-row"><strong>Created</strong><span>${exactDateTime(student.createdAt)}</span></div>
+          <div class="fact-row"><strong>Password</strong><span>${escapeHtml(student.password)}</span></div>
+        </div>
+
+        <form data-password-form="${escapeHtml(student.name)}">
+          <div class="field">
+            <label for="change-password">Change password</label>
+            <div class="password-field">
+              <input id="change-password" name="newPassword" type="password" required>
+              <button class="secondary-button" type="button" data-toggle-password="#change-password">Open Eye</button>
+            </div>
+          </div>
+          <div class="field">
+            <button class="primary-button" type="submit">Change Password</button>
+          </div>
+        </form>
+
+        <div>
+          <h3>Access Control</h3>
+          <div class="access-grid">
+            ${accessSections.map(section => `
+              <label class="toggle-row">
+                <span>${escapeHtml(section.label)}</span>
+                <input type="checkbox" data-toggle-access="${escapeHtml(section.key)}" ${student.access[section.key] ? "checked" : ""}>
+              </label>
+            `).join("")}
+          </div>
+        </div>
+
+        <div>
+          <h3>Attempt Details</h3>
+          <div class="attempt-list">
+            ${attempts.length ? attempts.map(attempt => `
+              <div class="attempt-row">
+                <strong>${exactDateTime(attempt.startedAt)}</strong>
+                <span>${escapeHtml(attempt.deckTitle || attempt.deckId)}<br>Mode: ${escapeHtml(attempt.mode || "-")} | Total: ${attempt.totalCards || 0} | Green: ${attempt.green || 0} | Red: ${attempt.red || 0}</span>
+              </div>
+            `).join("") : `<p class="note-text">No attempts yet.</p>`}
+          </div>
+        </div>
+
+        <div>
+          <h3>Password Change Log</h3>
+          <div class="password-log">
+            ${logs.length ? logs.map(log => `
+              <div class="log-row">
+                <strong>${exactDateTime(log.changedAt)}</strong>
+                <span>Old: ${escapeHtml(log.oldPassword)}<br>New: ${escapeHtml(log.newPassword)}</span>
+              </div>
+            `).join("") : `<p class="note-text">No password changes yet.</p>`}
+          </div>
+        </div>
+      `;
+    }
+
+    function optionButton(label, deckId) {
+      return `
+        <button class="thin-option" type="button" data-open-deck="${escapeHtml(deckId)}">
+          ${escapeHtml(label)}
+          ${metaHtml(deckId)}
+        </button>
+      `;
     }
 
     function columnHtml(title, labels, deckPrefix) {
@@ -1041,15 +5561,15 @@
     function showIeltsListening() {
       showOptions(
         "IELTS Listening",
-        "Test 1 - Test 30",
-        columnHtml("Listening Tests", ieltsTests, "ielts/listening"),
+        "Practice 1 - Practice 30",
+        columnHtml("Listening Practice", ieltsPractices, "ielts/listening"),
         "columns-grid one"
       );
     }
 
-    function showIeltsParts(testLabel, deckPrefix) {
+    function showIeltsParts(practiceLabel, deckPrefix) {
       showOptions(
-        `IELTS Listening ${testLabel}`,
+        `IELTS Listening ${practiceLabel}`,
         "Choose a part",
         ["Part 1", "Part 2", "Part 3", "Part 4"]
           .map(part => optionButton(part, `${deckPrefix}/${part.toLowerCase().replaceAll(" ", "-")}`))
@@ -1059,65 +5579,198 @@
     }
 
     function deckTitleFromId(deckId) {
-      return deckId
-        .split("/")
-        .map(part => part.replaceAll("-", " "))
-        .join(" / ");
+      return deckId.split("/").map(part => part.replaceAll("-", " ")).join(" / ");
     }
 
-    function openDeck(deckId) {
+    function openDeckStart(deckId) {
       currentDeckId = deckId;
       currentDeckTitle = deckTitleFromId(deckId);
-      currentCardIndex = 0;
-      showingBack = false;
-      document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
-      document.querySelector("[data-deck-path]").textContent = deckId;
-      document.querySelector("[data-toggle-editor]")?.classList.toggle("hidden", !isAdmin());
-      document.querySelector("[data-editor-panel]")?.classList.add("hidden");
-      renderCard();
-      showAppPanel("deck-view");
+      document.querySelector("[data-start-title]").textContent = currentDeckTitle;
+      document.querySelector("[data-start-path]").textContent = `${deckId} | ${getDeckCards(deckId).length} cards`;
+      document.querySelector("[data-start-status]").textContent = "";
+      showAppPanel("deck-start");
     }
 
-    function renderCard() {
-      const cards = getDeckCards();
-      const face = document.querySelector("[data-card-face]");
-      const count = document.querySelector("[data-card-count]");
+    function shuffle(values) {
+      const result = [...values];
+      for (let index = result.length - 1; index > 0; index -= 1) {
+        const swapIndex = Math.floor(Math.random() * (index + 1));
+        [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
+      }
+      return result;
+    }
 
-      if (!cards.length) {
-        face.textContent = isAdmin() ? "No cards yet. Click Add cards to create the first card." : "No cards yet.";
-        count.textContent = "0 / 0";
+    function logAttemptStart(mode, totalCards) {
+      if (isAdmin()) return "";
+      const id = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+      const attempts = getAttempts();
+      attempts.push({
+        id,
+        studentName: currentUser.name,
+        deckId: currentDeckId,
+        deckTitle: currentDeckTitle,
+        mode,
+        totalCards,
+        green: 0,
+        red: 0,
+        startedAt: Date.now(),
+        updatedAt: Date.now()
+      });
+      saveAttempts(attempts);
+      return id;
+    }
+
+    function updateAttemptProgress() {
+      if (!studySession?.attemptId) return;
+      const attempts = getAttempts();
+      const target = attempts.find(attempt => attempt.id === studySession.attemptId);
+      if (target) {
+        target.green = studySession.green;
+        target.red = studySession.red;
+        target.updatedAt = Date.now();
+        saveAttempts(attempts);
+      }
+    }
+
+    function startDeckSession(mode) {
+      const cards = getDeckCards();
+      const status = document.querySelector("[data-start-status]");
+      if (!cards.length && status) {
+        status.textContent = isAdmin()
+          ? "No cards yet. Start anyway to add cards manually."
+          : "No cards in this deck yet.";
+      }
+
+      const order = mode === "random" ? shuffle(cards.map((_, index) => index)) : cards.map((_, index) => index);
+      studySession = {
+        mode,
+        cards,
+        roundNumber: 1,
+        roundQueue: order,
+        roundIndex: 0,
+        redQueue: [],
+        green: 0,
+        red: 0,
+        flipped: false,
+        attemptId: logAttemptStart(mode, cards.length)
+      };
+
+      document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckId} | ${cards.length} cards | ${mode === "random" ? "Random" : "By order"}`;
+      document.querySelector("[data-toggle-editor]")?.classList.toggle("hidden", !isAdmin());
+      document.querySelector("[data-editor-panel]")?.classList.add("hidden");
+      showAppPanel("deck-view");
+      renderStudyCard();
+    }
+
+    function currentCard() {
+      if (!studySession?.cards.length) return null;
+      const cardIndex = studySession.roundQueue[studySession.roundIndex];
+      return studySession.cards[cardIndex] || null;
+    }
+
+    function renderStudyCard() {
+      const card = currentCard();
+      const frontTerm = document.querySelector("[data-front-term]");
+      const backCard = document.querySelector("[data-back-card]");
+      const greenButton = document.querySelector("[data-mark-card='green']");
+      const redButton = document.querySelector("[data-mark-card='red']");
+      const doneCount = studySession ? Math.min(studySession.roundIndex, studySession.roundQueue.length) : 0;
+      const totalThisRound = studySession?.roundQueue.length || 0;
+
+      document.querySelector("[data-progress-count]").textContent = `${doneCount} / ${totalThisRound}`;
+      document.querySelector("[data-round-count]").textContent = `Round ${studySession?.roundNumber || 1}`;
+      document.querySelector("[data-green-count]").textContent = `Green: ${studySession?.green || 0}`;
+      document.querySelector("[data-red-count]").textContent = `Red: ${studySession?.red || 0}`;
+
+      if (!card) {
+        frontTerm.textContent = studySession?.cards.length ? "Round complete." : "No cards yet.";
+        backCard.classList.add("hidden");
+        greenButton.disabled = true;
+        redButton.disabled = true;
         return;
       }
 
-      currentCardIndex = Math.max(0, Math.min(currentCardIndex, cards.length - 1));
-      const card = cards[currentCardIndex];
-      face.textContent = showingBack ? card.back : card.front;
-      count.textContent = `${currentCardIndex + 1} / ${cards.length}｜${showingBack ? "Back" : "Front"}`;
+      frontTerm.textContent = card.front;
+      backCard.innerHTML = `
+        <div>
+          <div class="back-term">${escapeHtml(card.front)}</div>
+          <div class="back-meaning">${escapeHtml(card.meaning)}</div>
+          <div class="examples-list">
+            ${card.examples.map((example, index) => `
+              <div class="example-line">
+                <div>${index + 1}. ${escapeHtml(example.en || "")}</div>
+                <div class="zh">${index + 1}. ${escapeHtml(example.zh || "")}</div>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      `;
+      backCard.classList.toggle("hidden", !studySession.flipped);
+      greenButton.disabled = !studySession.flipped;
+      redButton.disabled = !studySession.flipped;
+    }
+
+    function flipCurrentCard() {
+      if (!studySession || !currentCard()) return;
+      studySession.flipped = true;
+      renderStudyCard();
+    }
+
+    function markCard(result) {
+      if (!studySession || !studySession.flipped || !currentCard()) return;
+      const currentIndex = studySession.roundQueue[studySession.roundIndex];
+      if (result === "green") {
+        studySession.green += 1;
+      } else {
+        studySession.red += 1;
+        studySession.redQueue.push(currentIndex);
+      }
+
+      updateAttemptProgress();
+      studySession.roundIndex += 1;
+      studySession.flipped = false;
+
+      if (studySession.roundIndex >= studySession.roundQueue.length) {
+        finishRound();
+      } else {
+        renderStudyCard();
+      }
+    }
+
+    function finishRound() {
+      if (!studySession) return;
+      const reviewCount = studySession.redQueue.length;
+      if (reviewCount && window.confirm(`Round ${studySession.roundNumber} complete. Continue to round ${studySession.roundNumber + 1} with ${reviewCount} red cards?`)) {
+        studySession.roundNumber += 1;
+        studySession.roundQueue = [...studySession.redQueue];
+        studySession.redQueue = [];
+        studySession.roundIndex = 0;
+        studySession.flipped = false;
+        renderStudyCard();
+        return;
+      }
+
+      studySession.roundQueue = [];
+      studySession.roundIndex = 0;
+      studySession.redQueue = [];
+      studySession.flipped = false;
+      renderStudyCard();
+      const frontTerm = document.querySelector("[data-front-term]");
+      if (frontTerm) frontTerm.textContent = "Attempt complete.";
     }
 
     function addCard(front, back) {
-      const cards = getDeckCards();
-      cards.push({ front: front.trim(), back: back.trim(), createdAt: Date.now() });
-      saveDeckCards(currentDeckId, cards);
-      currentCardIndex = cards.length - 1;
-      showingBack = false;
-      renderCard();
-    }
-
-    function parseImportText(tableText) {
-      return tableText
-        .split(/\r?\n/)
-        .map(line => line.trim())
-        .filter(Boolean)
-        .map(line => {
-          const cells = line.includes("\t") ? line.split("\t") : line.split(/\s{2,}/);
-          return {
-            front: (cells[0] || "").trim(),
-            back: cells.slice(1).join(" ").trim(),
-            createdAt: Date.now()
-          };
-        })
-        .filter(card => card.front && card.back);
+      saveCustomCard(currentDeckId, {
+        front: front.trim(),
+        meaning: back.trim(),
+        examples: [],
+        createdAt: Date.now()
+      });
+      if (studySession) {
+        studySession.cards = getDeckCards();
+      }
+      renderStudyCard();
     }
 
     function setupEvents() {
@@ -1138,24 +5791,87 @@
         if (!name || !password) return;
 
         const students = getStudents().filter(student => student.name !== name);
-        students.push({ name, password, createdAt: Date.now() });
+        students.push({ name, password, createdAt: Date.now(), access: defaultAccess() });
         saveStudents(students);
+        selectedStudentName = name;
         event.currentTarget.reset();
         if (status) status.textContent = `Added ${name}.`;
         renderStudents();
+        renderStudentProfile();
+      });
+
+      document.addEventListener("submit", event => {
+        const passwordForm = event.target.closest("[data-password-form]");
+        if (!passwordForm) return;
+        event.preventDefault();
+        const studentName = passwordForm.getAttribute("data-password-form");
+        const formData = new FormData(passwordForm);
+        const newPassword = String(formData.get("newPassword") || "").trim();
+        if (!newPassword) return;
+
+        const students = getStudents();
+        const target = students.find(student => student.name === studentName);
+        if (!target) return;
+        const oldPassword = target.password;
+        target.password = newPassword;
+        saveStudents(students);
+        savePasswordLogs([
+          ...getPasswordLogs(),
+          { studentName, oldPassword, newPassword, changedAt: Date.now(), changedBy: ADMIN_NAME }
+        ]);
+        passwordForm.reset();
+        renderStudentProfile();
+      });
+
+      document.addEventListener("change", event => {
+        const toggle = event.target.closest("[data-toggle-access]");
+        if (!toggle) return;
+        const student = getSelectedStudent();
+        if (!student) return;
+
+        const key = toggle.getAttribute("data-toggle-access");
+        const students = getStudents();
+        const target = students.find(item => item.name === student.name);
+        if (!target) return;
+        target.access[key] = toggle.checked;
+        saveStudents(students);
+        renderStudentProfile();
       });
 
       document.addEventListener("click", event => {
+        const passwordToggle = event.target.closest("[data-toggle-password]");
+        if (passwordToggle) {
+          const selector = passwordToggle.getAttribute("data-toggle-password");
+          const input = selector ? document.querySelector(selector) : null;
+          if (input) {
+            const open = input.type === "password";
+            input.type = open ? "text" : "password";
+            passwordToggle.textContent = open ? "Close Eye" : "Open Eye";
+          }
+          return;
+        }
+
         const removeButton = event.target.closest("[data-remove-student]");
         if (removeButton) {
           const name = removeButton.getAttribute("data-remove-student");
           saveStudents(getStudents().filter(student => student.name !== name));
+          if (selectedStudentName === name) selectedStudentName = "";
           renderStudents();
+          renderStudentProfile();
+          return;
+        }
+
+        const selectStudentButton = event.target.closest("[data-select-student]");
+        if (selectStudentButton) {
+          selectedStudentName = selectStudentButton.getAttribute("data-select-student");
+          renderStudentProfile();
           return;
         }
 
         const routeButton = event.target.closest("[data-route]");
         if (routeButton) {
+          const sectionKey = routeButton.getAttribute("data-section-key");
+          if (sectionKey && !canAccess(sectionKey)) return;
           const route = routeButton.getAttribute("data-route");
           if (route === "dse-home") showAppPanel("dse-home");
           if (route === "ielts-home") showAppPanel("ielts-home");
@@ -1170,12 +5886,20 @@
         const openDeckButton = event.target.closest("[data-open-deck]");
         if (openDeckButton) {
           const deckId = openDeckButton.getAttribute("data-open-deck");
-          if (deckId.startsWith("ielts/listening/Test ")) {
-            const testLabel = deckId.split("/").at(-1);
-            showIeltsParts(testLabel, deckId);
+          const sectionKey = openDeckButton.getAttribute("data-section-key") || sectionKeyForDeck(deckId);
+          if (sectionKey && !canAccess(sectionKey)) return;
+          if (/^ielts\/listening\/Practice \d+$/.test(deckId)) {
+            const practiceLabel = deckId.split("/").at(-1);
+            showIeltsParts(practiceLabel, deckId);
           } else {
-            openDeck(deckId);
+            openDeckStart(deckId);
           }
+          return;
+        }
+
+        const modeButton = event.target.closest("[data-start-mode]");
+        if (modeButton) {
+          startDeckSession(modeButton.getAttribute("data-start-mode"));
           return;
         }
 
@@ -1192,6 +5916,7 @@
 
         if (event.target.closest("[data-logout]")) {
           clearSession();
+          studySession = null;
           showLogin();
           return;
         }
@@ -1201,32 +5926,14 @@
           return;
         }
 
-        if (event.target.closest("[data-toggle-import]")) {
-          document.querySelector("[data-import-panel]")?.classList.toggle("hidden");
+        const markButton = event.target.closest("[data-mark-card]");
+        if (markButton) {
+          markCard(markButton.getAttribute("data-mark-card"));
           return;
-        }
-
-        if (event.target.closest("[data-prev-card]")) {
-          const cards = getDeckCards();
-          if (cards.length) currentCardIndex = (currentCardIndex - 1 + cards.length) % cards.length;
-          showingBack = false;
-          renderCard();
-          return;
-        }
-
-        if (event.target.closest("[data-next-card]")) {
-          const cards = getDeckCards();
-          if (cards.length) currentCardIndex = (currentCardIndex + 1) % cards.length;
-          showingBack = false;
-          renderCard();
-          return;
-        }
-
-        if (event.target.closest("[data-flip-card]")) {
-          showingBack = !showingBack;
-          renderCard();
         }
       });
+
+      document.querySelector("[data-front-card]")?.addEventListener("click", flipCurrentCard);
 
       document.querySelector("[data-card-form]")?.addEventListener("submit", event => {
         event.preventDefault();
@@ -1239,24 +5946,6 @@
         event.currentTarget.reset();
         const status = document.querySelector("[data-card-status]");
         if (status) status.textContent = "Card added.";
-      });
-
-      document.querySelector("[data-import-cards]")?.addEventListener("click", () => {
-        if (!isAdmin()) return;
-        const importField = document.querySelector("[data-import-table]");
-        const imported = parseImportText(importField?.value || "");
-        const status = document.querySelector("[data-card-status]");
-        if (!imported.length) {
-          if (status) status.textContent = "No complete front/back rows found.";
-          return;
-        }
-        const cards = [...getDeckCards(), ...imported];
-        saveDeckCards(currentDeckId, cards);
-        currentCardIndex = Math.max(0, cards.length - imported.length);
-        showingBack = false;
-        if (importField) importField.value = "";
-        if (status) status.textContent = `Imported ${imported.length} cards.`;
-        renderCard();
       });
 
       document.addEventListener("mousemove", event => {
