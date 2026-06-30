@@ -5390,10 +5390,10 @@ window.EDMUND_FLASHCARD_SEED = {
   </script>
   <script>
     const ADMIN_NAME = "Sam";
-    const ADMIN_PASSWORD = "FlashCardEdmund";
     const STUDENTS_KEY = "edmundFlashcardStudents";
     const CARDS_KEY = "edmundFlashcardCards";
     const SESSION_KEY = "edmundFlashcardSession";
+    const ADMIN_SESSION_PASSWORD_KEY = "edmundFlashcardAdminPassword";
     const ATTEMPTS_KEY = "edmundFlashcardAttempts";
     const PASSWORD_LOG_KEY = "edmundFlashcardPasswordLogs";
     const PROGRESS_KEY = "edmundFlashcardProgress";
@@ -5401,7 +5401,6 @@ window.EDMUND_FLASHCARD_SEED = {
     const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
     const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
-    const SUPABASE_STATE_TABLE = "flashcard_state_private";
     const SUPABASE_SYNC_KEYS = [
       CARDS_KEY,
       ATTEMPTS_KEY,
@@ -5524,6 +5523,11 @@ window.EDMUND_FLASHCARD_SEED = {
     let studySession = null;
     let lastOptions = null;
     let activeReviewStatus = "";
+    let studentsCache = [];
+    let studentsLoadedFromSupabase = false;
+    let adminPasswordForSession = "";
+    let studentSessionToken = "";
+    let studentPasswordLogsCache = {};
 
     function escapeHtml(value) {
       return String(value)
@@ -5563,8 +5567,9 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function normalizeStudent(student) {
       return {
+        id: student.id || "",
         name: String(student.name || "").trim(),
-        password: String(student.password || ""),
+        password: String(student.password || "Stored securely in Supabase"),
         createdAt: student.createdAt || Date.now(),
         access: { ...defaultAccess(), ...(student.access || {}) }
       };
@@ -5596,42 +5601,22 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     async function saveSupabaseState(key, value, options = {}) {
-      if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !supabaseState.userId) return;
+      if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !studentSessionToken) return;
       if (!options.silent) updateSupabaseStatus("Supabase: saving", "warning");
 
-      const { error } = await supabaseClient
-        .from(SUPABASE_STATE_TABLE)
-        .upsert({
-          user_id: supabaseState.userId,
-          key,
-          value,
-          updated_at: new Date().toISOString()
-        }, { onConflict: "user_id,key" });
+      const { data, error } = await supabaseClient.rpc("flashcard_student_upsert_state", {
+        p_token: studentSessionToken,
+        p_key: key,
+        p_value: value
+      });
 
-      if (error) {
+      if (error || data !== true) {
         console.warn("Supabase flashcard save failed:", error);
-        const missingTable = String(error.message || "").includes(SUPABASE_STATE_TABLE);
-        updateSupabaseStatus(missingTable ? "Supabase: run SQL first" : "Supabase: save failed", "error");
+        updateSupabaseStatus("Supabase: save failed", "error");
         return;
       }
 
       if (!options.silent) updateSupabaseStatus("Supabase: live", "live");
-    }
-
-    async function migrateLocalStateToSupabase(remoteKeys) {
-      for (const key of SUPABASE_SYNC_KEYS) {
-        if (remoteKeys.has(key)) continue;
-        const raw = localStorage.getItem(key);
-        if (!raw) continue;
-
-        try {
-          const value = JSON.parse(raw);
-          remoteStore[key] = value;
-          await saveSupabaseState(key, value, { silent: true });
-        } catch (error) {
-          console.warn(`Could not migrate local ${key} to Supabase:`, error);
-        }
-      }
     }
 
     function applyRemoteStateRow(row) {
@@ -5640,37 +5625,8 @@ window.EDMUND_FLASHCARD_SEED = {
       localStorage.setItem(row.key, JSON.stringify(row.value));
     }
 
-    function removeRemoteStateRow(row) {
-      if (!row?.key) return;
-      delete remoteStore[row.key];
-      localStorage.removeItem(row.key);
-    }
-
     function startSupabaseRealtime() {
-      if (!supabaseClient || supabaseState.channel || !supabaseState.userId) return;
-
-      supabaseState.channel = supabaseClient
-        .channel("flashcard-state-sync")
-        .on(
-          "postgres_changes",
-          {
-            event: "*",
-            schema: "public",
-            table: SUPABASE_STATE_TABLE,
-            filter: `user_id=eq.${supabaseState.userId}`
-          },
-          payload => {
-            if (payload.eventType === "DELETE") {
-              removeRemoteStateRow(payload.old);
-            } else {
-              applyRemoteStateRow(payload.new);
-            }
-            refreshCurrentView();
-          }
-        )
-        .subscribe(status => {
-          if (status === "SUBSCRIBED") updateSupabaseStatus("Supabase: live", "live");
-        });
+      updateSupabaseStatus("Supabase: live", "live");
     }
 
     async function ensureSupabaseSession() {
@@ -5701,36 +5657,138 @@ window.EDMUND_FLASHCARD_SEED = {
         return;
       }
 
-      const { data, error } = await supabaseClient
-        .from(SUPABASE_STATE_TABLE)
-        .select("key,value");
-
-      if (error) {
-        console.warn("Supabase flashcard load failed:", error);
-        const missingTable = String(error.message || "").includes(SUPABASE_STATE_TABLE);
-        updateSupabaseStatus(missingTable ? "Supabase: run SQL first" : "Supabase: local backup", missingTable ? "error" : "warning");
-        return;
-      }
-
-      const remoteKeys = new Set();
-      (data || []).forEach(row => {
-        remoteKeys.add(row.key);
-        applyRemoteStateRow(row);
-      });
-
       supabaseState.loaded = true;
       supabaseState.online = true;
-      await migrateLocalStateToSupabase(remoteKeys);
       updateSupabaseStatus("Supabase: live", "live");
-      startSupabaseRealtime();
+
+      if (currentUser?.role === "student" && currentUser.sessionToken) {
+        studentSessionToken = currentUser.sessionToken;
+        await loadStudentStateFromSupabase();
+      }
+
+      if (currentUser?.role === "admin" && adminPasswordForSession) {
+        await loadStudentsFromSupabase();
+      }
+
       refreshCurrentView();
     }
 
+    async function callSupabaseRpc(name, args = {}) {
+      if (!supabaseClient) throw new Error("Supabase client is not available.");
+      await ensureSupabaseSession();
+      supabaseState.loaded = true;
+      supabaseState.online = true;
+      const { data, error } = await supabaseClient.rpc(name, args);
+      if (error) throw error;
+      return data;
+    }
+
+    function studentFromSupabase(row) {
+      return normalizeStudent({
+        id: row.id,
+        name: row.name,
+        password: "Stored securely in Supabase",
+        createdAt: row.created_at ? new Date(row.created_at).getTime() : Date.now(),
+        access: row.access || defaultAccess()
+      });
+    }
+
+    async function loadStudentsFromSupabase() {
+      if (!adminPasswordForSession) return [];
+      try {
+        const rows = await callSupabaseRpc("flashcard_admin_list_students", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession
+        });
+        studentsCache = (rows || []).map(studentFromSupabase);
+        studentsLoadedFromSupabase = true;
+        renderStudents();
+        renderStudentProfile();
+        return studentsCache;
+      } catch (error) {
+        console.warn("Could not load Supabase students:", error);
+        updateSupabaseStatus("Supabase: account SQL needed", "error");
+        studentsLoadedFromSupabase = false;
+        return getStudents();
+      }
+    }
+
+    function defaultRemoteValueForKey(key) {
+      return [ATTEMPTS_KEY, PASSWORD_LOG_KEY, RESET_LOG_KEY].includes(key) ? [] : {};
+    }
+
+    async function loadStudentStateFromSupabase() {
+      if (!studentSessionToken) return;
+      try {
+        const rows = await callSupabaseRpc("flashcard_student_get_state", {
+          p_token: studentSessionToken
+        });
+        const remoteKeys = new Set();
+        (rows || []).forEach(row => {
+          remoteKeys.add(row.key);
+          applyRemoteStateRow(row);
+        });
+        SUPABASE_SYNC_KEYS.forEach(key => {
+          if (remoteKeys.has(key)) return;
+          const value = defaultRemoteValueForKey(key);
+          remoteStore[key] = value;
+          localStorage.setItem(key, JSON.stringify(value));
+        });
+        startSupabaseRealtime();
+      } catch (error) {
+        console.warn("Could not load Supabase student state:", error);
+        updateSupabaseStatus("Supabase: account SQL needed", "error");
+      }
+    }
+
+    async function saveStudentAccessToSupabase(student) {
+      if (!student || !adminPasswordForSession) return false;
+      try {
+        const rows = await callSupabaseRpc("flashcard_admin_set_student_access", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession,
+          p_student_name: student.name,
+          p_access: student.access
+        });
+        const updated = Array.isArray(rows) && rows[0] ? studentFromSupabase(rows[0]) : student;
+        studentsCache = getStudents().map(item => item.name === updated.name ? updated : item);
+        studentsLoadedFromSupabase = true;
+        return true;
+      } catch (error) {
+        console.warn("Could not save student access to Supabase:", error);
+        updateSupabaseStatus("Supabase: access save failed", "error");
+        return false;
+      }
+    }
+
+    async function loadPasswordLogsFromSupabase(studentName) {
+      if (!studentName || !adminPasswordForSession) return;
+      try {
+        const rows = await callSupabaseRpc("flashcard_admin_get_password_logs", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession,
+          p_student_name: studentName
+        });
+        studentPasswordLogsCache[studentName] = (rows || []).map(row => ({
+          studentName: row.student_name,
+          changedBy: row.changed_by,
+          changedAt: row.changed_at ? new Date(row.changed_at).getTime() : Date.now()
+        }));
+      } catch (error) {
+        console.warn("Could not load password logs:", error);
+      }
+    }
+
     function getStudents() {
+      if (studentsLoadedFromSupabase) return studentsCache.map(normalizeStudent);
       return readJson(STUDENTS_KEY, []).map(normalizeStudent).filter(student => student.name);
     }
 
     function saveStudents(students) {
+      if (studentsLoadedFromSupabase) {
+        studentsCache = students.map(normalizeStudent);
+        return;
+      }
       writeJson(STUDENTS_KEY, students.map(normalizeStudent));
     }
 
@@ -5767,6 +5825,9 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function getPasswordLogs() {
+      if (selectedStudentName && studentPasswordLogsCache[selectedStudentName]) {
+        return studentPasswordLogsCache[selectedStudentName];
+      }
       return readJson(PASSWORD_LOG_KEY, []);
     }
 
@@ -5847,17 +5908,31 @@ window.EDMUND_FLASHCARD_SEED = {
     function setSession(user) {
       currentUser = user;
       sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
+      if (user.role === "admin" && adminPasswordForSession) {
+        sessionStorage.setItem(ADMIN_SESSION_PASSWORD_KEY, adminPasswordForSession);
+      }
     }
 
     function clearSession() {
       currentUser = null;
+      adminPasswordForSession = "";
+      studentSessionToken = "";
       sessionStorage.removeItem(SESSION_KEY);
+      sessionStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
     }
 
     function restoreSession() {
       try {
         const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
-        if (saved && saved.name && saved.role) currentUser = saved;
+        if (saved && saved.name && saved.role) {
+          currentUser = saved;
+          if (saved.role === "admin") {
+            adminPasswordForSession = sessionStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
+          }
+          if (saved.role === "student") {
+            studentSessionToken = saved.sessionToken || "";
+          }
+        }
       } catch {
         currentUser = null;
       }
@@ -5869,8 +5944,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function canAccess(key) {
       if (isAdmin()) return true;
-      const student = getStudents().find(item => item.name === currentUser?.name);
-      return Boolean(student?.access?.[key]);
+      return Boolean(currentUser?.access?.[key]);
     }
 
     function sectionKeyForDeck(deckId) {
@@ -6008,17 +6082,55 @@ window.EDMUND_FLASHCARD_SEED = {
       renderBreadcrumbs();
     }
 
-    function login(username, password) {
+    async function login(username, password) {
       const trimmedName = username.trim();
-      if (trimmedName === ADMIN_NAME && password === ADMIN_PASSWORD) {
-        setSession({ name: ADMIN_NAME, role: "admin" });
-        showAppPanel("admin-panel", false);
-        return true;
+      if (supabaseClient) {
+        try {
+          if (trimmedName === ADMIN_NAME) {
+            const adminRows = await callSupabaseRpc("flashcard_admin_login", {
+              p_name: trimmedName,
+              p_password: password
+            });
+            if (Array.isArray(adminRows) && adminRows.length) {
+              adminPasswordForSession = password;
+              setSession({ name: ADMIN_NAME, role: "admin" });
+              await loadStudentsFromSupabase();
+              showAppPanel("admin-panel", false);
+              updateSupabaseStatus("Supabase: live", "live");
+              return true;
+            }
+          }
+
+          const studentRows = await callSupabaseRpc("flashcard_student_login", {
+            p_name: trimmedName,
+            p_password: password
+          });
+          if (Array.isArray(studentRows) && studentRows.length) {
+            const student = studentRows[0];
+            studentSessionToken = student.session_token;
+            currentUser = {
+              id: student.id,
+              name: student.name,
+              role: "student",
+              access: { ...defaultAccess(), ...(student.access || {}) },
+              createdAt: student.created_at ? new Date(student.created_at).getTime() : Date.now(),
+              sessionToken: studentSessionToken
+            };
+            setSession(currentUser);
+            await loadStudentStateFromSupabase();
+            showAppPanel("dashboard", false);
+            updateSupabaseStatus("Supabase: live", "live");
+            return true;
+          }
+        } catch (error) {
+          console.warn("Supabase login failed:", error);
+          updateSupabaseStatus("Supabase: account SQL needed", "error");
+        }
       }
 
       const student = getStudents().find(item => item.name === trimmedName && item.password === password);
       if (student) {
-        setSession({ name: student.name, role: "student" });
+        setSession({ name: student.name, role: "student", access: student.access });
         showAppPanel("dashboard", false);
         return true;
       }
@@ -6188,7 +6300,7 @@ window.EDMUND_FLASHCARD_SEED = {
         <h2>${escapeHtml(student.name)}</h2>
         <div class="profile-facts">
           <div class="fact-row"><strong>Created</strong><span>${exactDateTime(student.createdAt)}</span></div>
-          <div class="fact-row"><strong>Password</strong><span>${escapeHtml(student.password)}</span></div>
+          <div class="fact-row"><strong>Password</strong><span>Stored securely. Use Change Password to reset.</span></div>
         </div>
 
         <form data-password-form="${escapeHtml(student.name)}">
@@ -6250,7 +6362,7 @@ window.EDMUND_FLASHCARD_SEED = {
             ${logs.length ? logs.map(log => `
               <div class="log-row">
                 <strong>${exactDateTime(log.changedAt)}</strong>
-                <span>Old: ${escapeHtml(log.oldPassword)}<br>New: ${escapeHtml(log.newPassword)}</span>
+                <span>Changed by: ${escapeHtml(log.changedBy || ADMIN_NAME)}</span>
               </div>
             `).join("") : `<p class="note-text">No password changes yet.</p>`}
           </div>
@@ -7148,7 +7260,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (currentView === "deck-start") openDeckStart(deckId, false);
     }
 
-    function setAllAccess(value) {
+    async function setAllAccess(value) {
       const student = getSelectedStudent();
       if (!student) return;
       const students = getStudents();
@@ -7157,20 +7269,27 @@ window.EDMUND_FLASHCARD_SEED = {
       accessSections.forEach(section => {
         target.access[section.key] = value;
       });
-      saveStudents(students);
+      if (studentsLoadedFromSupabase) {
+        const ok = await saveStudentAccessToSupabase(target);
+        if (!ok) return;
+      } else {
+        saveStudents(students);
+      }
       renderStudentProfile();
     }
 
     function setupEvents() {
-      document.querySelector("[data-login-form]")?.addEventListener("submit", event => {
+      document.querySelector("[data-login-form]")?.addEventListener("submit", async event => {
         event.preventDefault();
         const status = document.querySelector("[data-login-status]");
         const formData = new FormData(event.currentTarget);
-        const ok = login(String(formData.get("username") || ""), String(formData.get("password") || ""));
+        if (status) status.textContent = "Checking login...";
+        const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
         if (!ok && status) status.textContent = "Wrong user name or password.";
+        if (ok && status) status.textContent = "";
       });
 
-      document.querySelector("[data-student-form]")?.addEventListener("submit", event => {
+      document.querySelector("[data-student-form]")?.addEventListener("submit", async event => {
         event.preventDefault();
         const status = document.querySelector("[data-admin-status]");
         const formData = new FormData(event.currentTarget);
@@ -7178,9 +7297,28 @@ window.EDMUND_FLASHCARD_SEED = {
         const password = String(formData.get("studentPassword") || "").trim();
         if (!name || !password) return;
 
-        const students = getStudents().filter(student => student.name !== name);
-        students.push({ name, password, createdAt: Date.now(), access: defaultAccess() });
-        saveStudents(students);
+        if (status) status.textContent = "Saving to Supabase...";
+        if (studentsLoadedFromSupabase) {
+          try {
+            await callSupabaseRpc("flashcard_admin_upsert_student", {
+              p_admin_name: ADMIN_NAME,
+              p_admin_password: adminPasswordForSession,
+              p_student_name: name,
+              p_student_password: password,
+              p_access: defaultAccess()
+            });
+            await loadStudentsFromSupabase();
+          } catch (error) {
+            console.warn("Could not add Supabase student:", error);
+            if (status) status.textContent = "Could not save this student to Supabase. Please run the account SQL.";
+            updateSupabaseStatus("Supabase: account save failed", "error");
+            return;
+          }
+        } else {
+          const students = getStudents().filter(student => student.name !== name);
+          students.push({ name, password, createdAt: Date.now(), access: defaultAccess() });
+          saveStudents(students);
+        }
         selectedStudentName = name;
         event.currentTarget.reset();
         if (status) status.textContent = `Added ${name}.`;
@@ -7188,7 +7326,7 @@ window.EDMUND_FLASHCARD_SEED = {
         renderStudentProfile();
       });
 
-      document.addEventListener("submit", event => {
+      document.addEventListener("submit", async event => {
         const passwordForm = event.target.closest("[data-password-form]");
         if (!passwordForm) return;
         event.preventDefault();
@@ -7196,6 +7334,26 @@ window.EDMUND_FLASHCARD_SEED = {
         const formData = new FormData(passwordForm);
         const newPassword = String(formData.get("newPassword") || "").trim();
         if (!newPassword) return;
+
+        if (studentsLoadedFromSupabase) {
+          try {
+            const changed = await callSupabaseRpc("flashcard_admin_change_student_password", {
+              p_admin_name: ADMIN_NAME,
+              p_admin_password: adminPasswordForSession,
+              p_student_name: studentName,
+              p_new_password: newPassword
+            });
+            if (!changed) throw new Error("Supabase did not change the password.");
+            await loadPasswordLogsFromSupabase(studentName);
+            passwordForm.reset();
+            renderStudentProfile();
+            return;
+          } catch (error) {
+            console.warn("Could not change Supabase student password:", error);
+            updateSupabaseStatus("Supabase: password save failed", "error");
+            return;
+          }
+        }
 
         const students = getStudents();
         const target = students.find(student => student.name === studentName);
@@ -7211,7 +7369,7 @@ window.EDMUND_FLASHCARD_SEED = {
         renderStudentProfile();
       });
 
-      document.addEventListener("change", event => {
+      document.addEventListener("change", async event => {
         const toggle = event.target.closest("[data-toggle-access]");
         if (!toggle) return;
         const student = getSelectedStudent();
@@ -7222,11 +7380,19 @@ window.EDMUND_FLASHCARD_SEED = {
         const target = students.find(item => item.name === student.name);
         if (!target) return;
         target.access[key] = toggle.checked;
-        saveStudents(students);
+        if (studentsLoadedFromSupabase) {
+          const ok = await saveStudentAccessToSupabase(target);
+          if (!ok) {
+            toggle.checked = !toggle.checked;
+            return;
+          }
+        } else {
+          saveStudents(students);
+        }
         renderStudentProfile();
       });
 
-      document.addEventListener("click", event => {
+      document.addEventListener("click", async event => {
         const passwordToggle = event.target.closest("[data-toggle-password]");
         if (passwordToggle) {
           const selector = passwordToggle.getAttribute("data-toggle-password");
@@ -7241,7 +7407,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
         const allAccessButton = event.target.closest("[data-set-all-access]");
         if (allAccessButton) {
-          setAllAccess(allAccessButton.getAttribute("data-set-all-access") === "true");
+          await setAllAccess(allAccessButton.getAttribute("data-set-all-access") === "true");
           return;
         }
 
@@ -7287,7 +7453,23 @@ window.EDMUND_FLASHCARD_SEED = {
         const removeButton = event.target.closest("[data-remove-student]");
         if (removeButton) {
           const name = removeButton.getAttribute("data-remove-student");
-          saveStudents(getStudents().filter(student => student.name !== name));
+          if (studentsLoadedFromSupabase) {
+            try {
+              const removed = await callSupabaseRpc("flashcard_admin_delete_student", {
+                p_admin_name: ADMIN_NAME,
+                p_admin_password: adminPasswordForSession,
+                p_student_name: name
+              });
+              if (!removed) throw new Error("Supabase did not remove this student.");
+              await loadStudentsFromSupabase();
+            } catch (error) {
+              console.warn("Could not remove Supabase student:", error);
+              updateSupabaseStatus("Supabase: remove failed", "error");
+              return;
+            }
+          } else {
+            saveStudents(getStudents().filter(student => student.name !== name));
+          }
           if (selectedStudentName === name) selectedStudentName = "";
           renderStudents();
           renderStudentProfile();
@@ -7297,6 +7479,7 @@ window.EDMUND_FLASHCARD_SEED = {
         const selectStudentButton = event.target.closest("[data-select-student]");
         if (selectStudentButton) {
           selectedStudentName = selectStudentButton.getAttribute("data-select-student");
+          if (studentsLoadedFromSupabase) await loadPasswordLogsFromSupabase(selectedStudentName);
           renderStudentProfile();
           return;
         }
