@@ -181,7 +181,7 @@ begin
 
   insert into public.flashcard_students (name, password_hash, access, deleted_at)
   values (v_name, extensions.crypt(p_student_password, extensions.gen_salt('bf')), coalesce(p_access, '{}'::jsonb), null)
-  on conflict (name) do update
+  on conflict on constraint flashcard_students_name_key do update
   set password_hash = excluded.password_hash,
       access = excluded.access,
       deleted_at = null,
