@@ -667,6 +667,29 @@
       border: 1px solid rgba(47,128,237,0.18);
     }
 
+    .mode-block {
+      display: grid;
+      gap: 16px;
+      margin-top: 18px;
+      padding: 18px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 24px;
+      background: rgba(255,255,255,0.76);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.72);
+    }
+
+    .mode-block:first-of-type {
+      margin-top: 0;
+    }
+
+    .mode-block h3 {
+      margin: 0;
+      color: #0e2d55;
+      font-size: 18px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
     .mode-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -687,6 +710,21 @@
       color: rgba(255,255,255,0.84);
       font-size: 16px;
       line-height: 1.4;
+    }
+
+    .mode-card.range-card {
+      background: #059669;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.22),
+        0 8px 0 #047857,
+        0 20px 30px rgba(5,150,105,0.20);
+    }
+
+    .mode-card.range-card:hover {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.25),
+        0 10px 0 #047857,
+        0 26px 36px rgba(5,150,105,0.24);
     }
 
     .study-top {
@@ -1165,31 +1203,65 @@
               <button class="secondary-button" type="button" data-discard-progress>重新開始</button>
             </div>
           </div>
-          <div class="mode-grid">
-            <button class="mode-card" type="button" data-start-mode="order">
-              依原定次序
-              <span>按照卡組原本排序溫習。</span>
-            </button>
-            <button class="mode-card" type="button" data-start-mode="random">
-              隨機排序
-              <span>開始前先打亂本次卡片次序。</span>
-            </button>
-            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="10">
-              10 卡
-              <span>隨機抽 10 張未綠勾卡；小卡組會自動用可用卡片。</span>
-            </button>
-            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="20">
-              20 卡
-              <span>隨機抽 20 張未綠勾卡；已掌握的卡不會再出現。</span>
-            </button>
-            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="30">
-              30 卡
-              <span>隨機抽 30 張未綠勾卡，適合中段溫習。</span>
-            </button>
-            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="40">
-              40 卡
-              <span>隨機抽 40 張未綠勾卡，適合長一點的練習。</span>
-            </button>
+          <div class="mode-block">
+            <div class="mode-grid">
+              <button class="mode-card" type="button" data-start-mode="order">
+                依原定次序
+                <span>按照卡組原本排序溫習。</span>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="random">
+                隨機排序
+                <span>開始前先打亂本次卡片次序。</span>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="random" data-card-limit="10">
+                10 卡
+                <span>隨機抽 10 張未綠勾卡；小卡組會自動用可用卡片。</span>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="random" data-card-limit="20">
+                20 卡
+                <span>隨機抽 20 張未綠勾卡；已掌握的卡不會再出現。</span>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="random" data-card-limit="30">
+                30 卡
+                <span>隨機抽 30 張未綠勾卡，適合中段溫習。</span>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="random" data-card-limit="40">
+                40 卡
+                <span>隨機抽 40 張未綠勾卡，適合長一點的練習。</span>
+              </button>
+            </div>
+          </div>
+          <div class="mode-block">
+            <div class="mode-grid">
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="1" data-range-end="30" data-range-label="1-30 張卡">
+                1-30 張卡
+                <span>按原定次序練習第 1 至 30 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="21" data-range-end="60" data-range-label="21-60 張卡">
+                21-60 張卡
+                <span>按原定次序練習第 21 至 60 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="61" data-range-end="90" data-range-label="61-90 張卡">
+                61-90 張卡
+                <span>按原定次序練習第 61 至 90 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="91" data-range-end="120" data-range-label="91-120 張卡">
+                91-120 張卡
+                <span>按原定次序練習第 91 至 120 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="121" data-range-end="150" data-range-label="121-150 張卡">
+                121-150 張卡
+                <span>按原定次序練習第 121 至 150 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="151" data-range-end="180" data-range-label="151-180 張卡">
+                151-180 張卡
+                <span>按原定次序練習第 151 至 180 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="181" data-range-label="餘下 Flash card">
+                餘下 Flash card
+                <span>練習第 181 張之後的所有卡。</span>
+              </button>
+            </div>
           </div>
           <p class="status" data-start-status></p>
         </section>
@@ -5385,7 +5457,4761 @@ window.EDMUND_FLASHCARD_SEED = {
       ],
       "sourcePage": 22
     }
-  ]
+  ],
+    "ielts/listening/Practice 1/part-2": [
+      {
+        "front": "a potter",
+        "meaning": "陶藝家",
+        "examples": [
+          {
+            "en": "You will hear a potter, Heather McCallum, speaking to a group of people.",
+            "zh": "你將會聽到一位陶藝家 Heather McCallum 對一群人說話。"
+          },
+          {
+            "en": "My aunt is a potter who makes simple bowls with quiet, beautiful colours.",
+            "zh": "我阿姨是一位陶藝家，她製作顏色安靜又漂亮的簡單碗盤。"
+          },
+          {
+            "en": "A good potter needs steady hands, patience, and a feel for the clay.",
+            "zh": "一位好的陶藝家需要穩定的雙手、耐心，以及對黏土的感覺。"
+          },
+          {
+            "en": "The potter shaped the cup as if the clay were listening.",
+            "zh": "那位陶藝家塑造杯子時，好像黏土正在聽她說話。"
+          },
+          {
+            "en": "He became a potter after leaving office work, trading spreadsheets for spinning wheels.",
+            "zh": "他離開辦公室工作後成為陶藝家，把試算表換成了旋轉的陶輪。"
+          }
+        ],
+        "sourcePage": 1
+      },
+      {
+        "front": "speaking to a group of people",
+        "meaning": "對一群人說話",
+        "examples": [
+          {
+            "en": "Heather McCallum speaks to a group of people who are visiting a pottery.",
+            "zh": "Heather McCallum 對一群正在參觀陶器工作坊的人說話。"
+          },
+          {
+            "en": "The guide was speaking to a group of people outside the museum.",
+            "zh": "那位導覽員在博物館外對一群人說話。"
+          },
+          {
+            "en": "She gets nervous when speaking to a group of people, but her ideas are strong.",
+            "zh": "她對一群人說話時會緊張，但她的想法很有力。"
+          },
+          {
+            "en": "Speaking to a group of people is easier when you know your first sentence.",
+            "zh": "當你知道第一句要說什麼時，對一群人說話會比較容易。"
+          },
+          {
+            "en": "The doctor was speaking to a group of people about sleep, stress, and small daily habits.",
+            "zh": "那位醫生正在對一群人談睡眠、壓力和日常小習慣。"
+          }
+        ],
+        "sourcePage": 1
+      },
+      {
+        "front": "visiting a pottery",
+        "meaning": "參觀陶器工作坊",
+        "examples": [
+          {
+            "en": "A group of people are visiting a pottery.",
+            "zh": "一群人正在參觀陶器工作坊。"
+          },
+          {
+            "en": "We’re visiting a pottery this afternoon to see how bowls are made.",
+            "zh": "我們今天下午要參觀陶器工作坊，看看碗是怎麼做出來的。"
+          },
+          {
+            "en": "The children loved visiting a pottery because they could touch the clay.",
+            "zh": "孩子們很喜歡參觀陶器工作坊，因為他們可以摸到黏土。"
+          },
+          {
+            "en": "Visiting a pottery is a good way to see how art begins as mud and ends as memory.",
+            "zh": "參觀陶器工作坊是了解藝術如何從泥土開始、最後變成記憶的好方法。"
+          },
+          {
+            "en": "Tourists visiting a pottery often buy small cups as gifts.",
+            "zh": "參觀陶器工作坊的遊客常常會買小杯子當禮物。"
+          }
+        ],
+        "sourcePage": 1
+      },
+      {
+        "front": "a place where people make pots",
+        "meaning": "人們製作陶罐的地方",
+        "examples": [
+          {
+            "en": "A pottery is a place where people make pots and other objects from clay.",
+            "zh": "陶器工作坊是人們用黏土製作陶罐和其他物品的地方。"
+          },
+          {
+            "en": "This old shed became a place where people make pots, teach classes, and sell local art.",
+            "zh": "這間老棚屋變成了人們製作陶罐、教課和販售本地藝術品的地方。"
+          },
+          {
+            "en": "The village is known for having a place where people make pots by hand.",
+            "zh": "那個村莊因為有一個人們手工製作陶罐的地方而聞名。"
+          },
+          {
+            "en": "A place where people make pots often smells of wet clay, warm kilns, and hard work.",
+            "zh": "人們製作陶罐的地方常常聞起來有濕黏土、溫熱窯爐和辛苦工作的味道。"
+          },
+          {
+            "en": "My first studio was just a place where people make pots, but it felt like a small world.",
+            "zh": "我的第一間工作室只是個人們製作陶罐的地方，但它像一個小世界。"
+          }
+        ],
+        "sourcePage": 1
+      },
+      {
+        "front": "objects from clay",
+        "meaning": "用黏土製成的物品",
+        "examples": [
+          {
+            "en": "People make pots and other objects from clay.",
+            "zh": "人們用黏土製作陶罐和其他物品。"
+          },
+          {
+            "en": "In art class, we made small animals and other objects from clay.",
+            "zh": "在美術課上，我們用黏土做了小動物和其他物品。"
+          },
+          {
+            "en": "Museums keep ancient objects from clay because they can tell us how people lived.",
+            "zh": "博物館保存古代用黏土製成的物品，因為它們能告訴我們過去人們如何生活。"
+          },
+          {
+            "en": "Some objects from clay look simple, but they carry fingerprints from hundreds of years ago.",
+            "zh": "有些用黏土製成的物品看起來簡單，卻帶著幾百年前的指紋。"
+          },
+          {
+            "en": "She sells lamps, plates, and tiny houses — all objects from clay.",
+            "zh": "她賣燈、盤子和小房子——全都是用黏土製成的物品。"
+          }
+        ],
+        "sourcePage": 1
+      },
+      {
+        "front": "have some time to",
+        "meaning": "有一些時間去做某事",
+        "examples": [
+          {
+            "en": "First, you have some time to look at questions 11 to 16.",
+            "zh": "首先，你有一些時間可以看第 11 到第 16 題。"
+          },
+          {
+            "en": "We have some time to grab coffee before the train arrives.",
+            "zh": "火車到之前，我們有一些時間可以買咖啡。"
+          },
+          {
+            "en": "You’ll have some time to ask questions at the end of the talk.",
+            "zh": "演講結束時，你會有一些時間可以提問。"
+          },
+          {
+            "en": "I finally have some time to clean my room before it becomes a museum of laundry.",
+            "zh": "我終於有一些時間可以整理房間，不然它快變成洗衣物博物館了。"
+          },
+          {
+            "en": "If we leave early, we’ll have some time to walk around the town.",
+            "zh": "如果我們早點出發，就會有一些時間在鎮上走走。"
+          }
+        ],
+        "sourcePage": 1
+      },
+      {
+        "front": "listen carefully",
+        "meaning": "仔細聆聽",
+        "examples": [
+          {
+            "en": "Now listen carefully and answer questions 11 to 16.",
+            "zh": "現在請仔細聆聽，並回答第 11 到第 16 題。"
+          },
+          {
+            "en": "Listen carefully, because the instructions will only be given once.",
+            "zh": "請仔細聆聽，因為指示只會說一次。"
+          },
+          {
+            "en": "If you listen carefully, you can hear the rain tapping on the roof.",
+            "zh": "如果你仔細聆聽，可以聽見雨水敲打屋頂的聲音。"
+          },
+          {
+            "en": "Good managers listen carefully before they speak.",
+            "zh": "好的主管在開口前會先仔細聆聽。"
+          },
+          {
+            "en": "Listen carefully to what people don’t say; silence can carry a suitcase full of meaning.",
+            "zh": "仔細聆聽人們沒說出口的話；沉默有時裝著滿滿一箱意思。"
+          }
+        ],
+        "sourcePage": 1
+      },
+      {
+        "front": "one of the potters who work here",
+        "meaning": "在這裏工作的陶藝家之一",
+        "examples": [
+          {
+            "en": "I’m one of the potters who work here at Edelman Pottery.",
+            "zh": "我是在 Edelman Pottery 這裡工作的陶藝家之一。"
+          },
+          {
+            "en": "Rachel is one of the potters who work here during the summer workshops.",
+            "zh": "Rachel 是暑期工作坊期間在這裡工作的陶藝家之一。"
+          },
+          {
+            "en": "One of the potters who work here will show you how to use the wheel.",
+            "zh": "在這裡工作的陶藝家之一會示範如何使用陶輪。"
+          },
+          {
+            "en": "I spoke to one of the potters who work here, and she explained the whole firing process.",
+            "zh": "我跟在這裡工作的陶藝家之一聊過，她解釋了整個燒製過程。"
+          },
+          {
+            "en": "One of the potters who work here makes cups so thin they look almost like paper.",
+            "zh": "在這裡工作的陶藝家之一會做很薄的杯子，看起來幾乎像紙一樣。"
+          }
+        ],
+        "sourcePage": 2
+      },
+      {
+        "front": "go into the workshop",
+        "meaning": "進入工作室",
+        "examples": [
+          {
+            "en": "Before we go into the workshop, I just want to say a bit about the craft of pottery.",
+            "zh": "在我們進入工作室之前，我想先簡單講一下陶藝這門工藝。"
+          },
+          {
+            "en": "Please put on your safety glasses before you go into the workshop.",
+            "zh": "進入工作室前，請先戴上安全眼鏡。"
+          },
+          {
+            "en": "We’ll go into the workshop after the short introduction.",
+            "zh": "簡短介紹後，我們會進入工作室。"
+          },
+          {
+            "en": "The students were excited to go into the workshop and try the tools for themselves.",
+            "zh": "學生們很興奮能進入工作室，親自試用工具。"
+          },
+          {
+            "en": "Don’t go into the workshop alone; machines have no patience for careless hands.",
+            "zh": "不要獨自進入工作室；機器對粗心的手可沒有耐心。"
+          }
+        ],
+        "sourcePage": 2
+      },
+      {
+        "front": "say a bit about",
+        "meaning": "簡單講一下",
+        "examples": [
+          {
+            "en": "I just want to say a bit about the craft of pottery.",
+            "zh": "我想簡單講一下陶藝這門工藝。"
+          },
+          {
+            "en": "Before we start, I’d like to say a bit about today’s plan.",
+            "zh": "在我們開始之前，我想簡單講一下今天的安排。"
+          },
+          {
+            "en": "Could you say a bit about your experience with children?",
+            "zh": "你可以簡單講一下你和孩子相處的經驗嗎？"
+          },
+          {
+            "en": "She said a bit about the project, but left the hard questions for later.",
+            "zh": "她簡單講了一下那個專案，但把難問題留到後面。"
+          },
+          {
+            "en": "Let me say a bit about the problem first: it is small, stubborn, and growing.",
+            "zh": "讓我先簡單講一下這個問題：它很小、很頑固，而且正在變大。"
+          }
+        ],
+        "sourcePage": 2
+      },
+      {
+        "front": "the craft of pottery",
+        "meaning": "陶藝這門工藝",
+        "examples": [
+          {
+            "en": "I just want to say a bit about the craft of pottery.",
+            "zh": "我想簡單講一下陶藝這門工藝。"
+          },
+          {
+            "en": "The craft of pottery takes time, heat, skill, and a lot of failed cups.",
+            "zh": "陶藝這門工藝需要時間、火候、技術，以及很多失敗的杯子。"
+          },
+          {
+            "en": "She learned the craft of pottery from her grandfather.",
+            "zh": "她從祖父那裡學會陶藝這門工藝。"
+          },
+          {
+            "en": "The craft of pottery is both practical and artistic: you can use the bowl, and you can love it.",
+            "zh": "陶藝這門工藝既實用又有藝術性：你可以使用那個碗，也可以喜歡它。"
+          },
+          {
+            "en": "A museum course introduced me to the craft of pottery, and I never looked at plates the same way again.",
+            "zh": "一門博物館課程讓我接觸到陶藝這門工藝，從此我再也不會用同樣的眼光看盤子。"
+          }
+        ],
+        "sourcePage": 2
+      },
+      {
+        "front": "have a look at",
+        "meaning": "看一看",
+        "examples": [
+          {
+            "en": "Then we’ll have a look at the equipment.",
+            "zh": "然後我們會看一看設備。"
+          },
+          {
+            "en": "Can you have a look at my email before I send it?",
+            "zh": "我寄出前，你可以幫我看一下那封電郵嗎？"
+          },
+          {
+            "en": "Let’s have a look at the map before we leave.",
+            "zh": "我們出發前先看一下地圖吧。"
+          },
+          {
+            "en": "I’ll have a look at the report after lunch.",
+            "zh": "午餐後我會看一下那份報告。"
+          },
+          {
+            "en": "Have a look at the sky; the clouds are gathering like they’re planning a meeting.",
+            "zh": "看一看天空；雲聚在一起，像是在開會。"
+          }
+        ],
+        "sourcePage": 2
+      },
+      {
+        "front": "the equipment",
+        "meaning": "設備",
+        "examples": [
+          {
+            "en": "Then we’ll have a look at the equipment.",
+            "zh": "然後我們會看一看設備。"
+          },
+          {
+            "en": "Please clean the equipment after you use it.",
+            "zh": "使用後請清潔設備。"
+          },
+          {
+            "en": "The school bought new equipment for the science lab.",
+            "zh": "學校為科學實驗室購買了新設備。"
+          },
+          {
+            "en": "Good equipment helps, but it doesn’t replace skill.",
+            "zh": "好設備有幫助，但不能取代技術。"
+          },
+          {
+            "en": "The camping trip was easy because we had the right equipment: tents, torches, and warm socks.",
+            "zh": "那次露營很順利，因為我們有合適的設備：帳篷、手電筒和保暖襪子。"
+          }
+        ],
+        "sourcePage": 2
+      },
+      {
+        "front": "try making",
+        "meaning": "嘗試製作",
+        "examples": [
+          {
+            "en": "You can try making a pot of your own.",
+            "zh": "你可以嘗試製作一個自己的陶罐。"
+          },
+          {
+            "en": "Try making a list before you start work.",
+            "zh": "開始工作前，試著列一張清單。"
+          },
+          {
+            "en": "We tried making bread at home, and the kitchen looked like a flour storm.",
+            "zh": "我們試著在家做麵包，結果廚房像一場麵粉風暴。"
+          },
+          {
+            "en": "If you’re bored of running, try making your walks longer and faster.",
+            "zh": "如果你跑步跑膩了，可以試著把散步時間拉長、速度加快。"
+          },
+          {
+            "en": "The children tried making paper boats and raced them in the sink.",
+            "zh": "孩子們嘗試製作紙船，然後在水槽裡比賽。"
+          }
+        ],
+        "sourcePage": 2
+      },
+      {
+        "front": "a pot of your own",
+        "meaning": "你自己的陶罐",
+        "examples": [
+          {
+            "en": "You can try making a pot of your own.",
+            "zh": "你可以嘗試製作一個自己的陶罐。"
+          },
+          {
+            "en": "By the end of the class, you’ll have a pot of your own to take home.",
+            "zh": "課程結束時，你會有一個自己的陶罐可以帶回家。"
+          },
+          {
+            "en": "Making a pot of your own feels better than buying one from a shop.",
+            "zh": "親手做一個自己的陶罐，比在店裡買一個更有感覺。"
+          },
+          {
+            "en": "A pot of your own may look uneven, but that’s part of its charm.",
+            "zh": "你自己的陶罐可能看起來不太平整，但那正是它的魅力。"
+          },
+          {
+            "en": "She kept a pot of her own on the windowsill, full of pens, brushes, and tiny memories.",
+            "zh": "她把自己做的陶罐放在窗台上，裡面裝著筆、畫筆和小小的回憶。"
+          }
+        ],
+        "sourcePage": 3
+      },
+      {
+        "front": "like many people",
+        "meaning": "和很多人一樣",
+        "examples": [
+          {
+            "en": "Like many people, I’m sure you know that pottery is very old.",
+            "zh": "和很多人一樣，我相信你知道陶器非常古老。"
+          },
+          {
+            "en": "Like many people, I check my phone before I’m fully awake.",
+            "zh": "和很多人一樣，我還沒完全清醒就會先看手機。"
+          },
+          {
+            "en": "Like many people, she wants a job that gives her money, meaning, and room to breathe.",
+            "zh": "和很多人一樣，她想要一份有收入、有意義、也有喘息空間的工作。"
+          },
+          {
+            "en": "Like many people, he learns better by doing than by just reading instructions.",
+            "zh": "和很多人一樣，他透過實作學得比只看說明更好。"
+          },
+          {
+            "en": "Like many people, I thought history was dry until one small object made the past feel alive.",
+            "zh": "和很多人一樣，我以前以為歷史很枯燥，直到一件小物品讓過去活了起來。"
+          }
+        ],
+        "sourcePage": 3
+      },
+      {
+        "front": "as an art form",
+        "meaning": "作為一種藝術形式",
+        "examples": [
+          {
+            "en": "Pottery as an art form is tens of thousands of years old.",
+            "zh": "陶器作為一種藝術形式已有數萬年歷史。"
+          },
+          {
+            "en": "Photography as an art form can turn an ordinary street into a quiet poem.",
+            "zh": "攝影作為一種藝術形式，可以把普通街道變成一首安靜的詩。"
+          },
+          {
+            "en": "Dance as an art form uses the body instead of a pen.",
+            "zh": "舞蹈作為一種藝術形式，用身體代替筆。"
+          },
+          {
+            "en": "Cooking as an art form is not just about taste; it is colour, timing, and care.",
+            "zh": "烹飪作為一種藝術形式，不只是味道；它也是色彩、時機和用心。"
+          },
+          {
+            "en": "Storytelling as an art form is ancient, but it still works because people still need meaning.",
+            "zh": "說故事作為一種藝術形式非常古老，但它依然有效，因為人仍然需要意義。"
+          }
+        ],
+        "sourcePage": 3
+      },
+      {
+        "front": "tens of thousands of years old",
+        "meaning": "有數萬年歷史",
+        "examples": [
+          {
+            "en": "Pottery as an art form is tens of thousands of years old.",
+            "zh": "陶器作為一種藝術形式已有數萬年歷史。"
+          },
+          {
+            "en": "Some cave paintings are tens of thousands of years old, yet the animals still seem to move on the walls.",
+            "zh": "有些洞穴壁畫已有數萬年歷史，但牆上的動物看起來仍像在移動。"
+          },
+          {
+            "en": "These stone tools are tens of thousands of years old.",
+            "zh": "這些石器已有數萬年歷史。"
+          },
+          {
+            "en": "The idea may feel modern, but human storytelling is tens of thousands of years old.",
+            "zh": "這個想法可能感覺很現代，但人類說故事已有數萬年歷史。"
+          },
+          {
+            "en": "A tiny clay figure can be tens of thousands of years old and still speak clearly across time.",
+            "zh": "一個小小的陶土人像可能已有數萬年歷史，卻仍能清楚地穿越時間說話。"
+          }
+        ],
+        "sourcePage": 3
+      },
+      {
+        "front": "stand the test of time",
+        "meaning": "經得起時間考驗",
+        "examples": [
+          {
+            "en": "We know this because it stands the test of time.",
+            "zh": "我們知道這一點，因為它經得起時間考驗。"
+          },
+          {
+            "en": "A good design should stand the test of time, not just look trendy this year.",
+            "zh": "好的設計應該經得起時間考驗，而不只是今年看起來流行。"
+          },
+          {
+            "en": "Some songs stand the test of time because they say something simple and true.",
+            "zh": "有些歌曲經得起時間考驗，因為它們說出了簡單而真實的東西。"
+          },
+          {
+            "en": "Strong friendships stand the test of time, distance, and bad Wi-Fi.",
+            "zh": "堅固的友誼經得起時間、距離和爛網路的考驗。"
+          },
+          {
+            "en": "Buildings that stand the test of time usually combine beauty, function, and stubborn bones.",
+            "zh": "經得起時間考驗的建築，通常結合了美感、功能和堅硬的骨架。"
+          }
+        ],
+        "sourcePage": 3
+      },
+      {
+        "front": "survive in the earth",
+        "meaning": "在泥土中保存下來",
+        "examples": [
+          {
+            "en": "Things like baskets and pictures don’t survive in the earth in the same way that pots do.",
+            "zh": "像籃子和圖畫這類東西，不會像陶罐那樣在泥土中保存下來。"
+          },
+          {
+            "en": "Bones, tools, and pottery can survive in the earth for a very long time.",
+            "zh": "骨頭、工具和陶器可以在泥土中保存很長時間。"
+          },
+          {
+            "en": "Soft materials do not usually survive in the earth unless the conditions are unusual.",
+            "zh": "柔軟材料通常不會在泥土中保存下來，除非條件很特殊。"
+          },
+          {
+            "en": "Seeds can sometimes survive in the earth and tell scientists what ancient people ate.",
+            "zh": "種子有時能在泥土中保存下來，並告訴科學家古代人吃什麼。"
+          },
+          {
+            "en": "Metal may rust, wood may rot, but fired clay can survive in the earth like a quiet witness.",
+            "zh": "金屬會生鏽，木頭會腐爛，但燒製過的陶土能像安靜的見證者一樣在泥土中保存下來。"
+          }
+        ],
+        "sourcePage": 3
+      },
+      {
+        "front": "in the same way that",
+        "meaning": "以同樣方式",
+        "examples": [
+          {
+            "en": "Baskets and pictures don’t survive in the earth in the same way that pots do.",
+            "zh": "籃子和圖畫不會以陶罐那樣的方式在泥土中保存下來。"
+          },
+          {
+            "en": "Children don’t all learn in the same way that adults do.",
+            "zh": "孩子不一定會以成年人那樣的方式學習。"
+          },
+          {
+            "en": "A text message doesn’t carry tone in the same way that a voice does.",
+            "zh": "簡訊不像聲音那樣能傳達語氣。"
+          },
+          {
+            "en": "A small town doesn’t move in the same way that a big city does.",
+            "zh": "小鎮不像大城市那樣運轉。"
+          },
+          {
+            "en": "Memory doesn’t work in the same way that a camera does; it edits, colours, and sometimes lies.",
+            "zh": "記憶不像相機那樣運作；它會剪輯、上色，有時還會說謊。"
+          }
+        ],
+        "sourcePage": 3
+      },
+      {
+        "front": "ancient pots",
+        "meaning": "古代陶罐",
+        "examples": [
+          {
+            "en": "Even if ancient pots are found in small pieces, they still provide a lot of information.",
+            "zh": "即使古代陶罐是以小碎片形式被發現，它們仍然能提供大量資料。"
+          },
+          {
+            "en": "Ancient pots can show what people cooked, stored, and valued.",
+            "zh": "古代陶罐可以顯示人們煮什麼、儲存什麼、重視什麼。"
+          },
+          {
+            "en": "Museums often display ancient pots because they are everyday objects with extraordinary stories.",
+            "zh": "博物館常展示古代陶罐，因為它們是帶有非凡故事的日常物品。"
+          },
+          {
+            "en": "Ancient pots may look plain, but their surfaces can hold fingerprints from another world.",
+            "zh": "古代陶罐可能看起來樸素，但表面可能留著另一個世界的指紋。"
+          },
+          {
+            "en": "By studying ancient pots, archaeologists can trace trade, taste, and technology.",
+            "zh": "透過研究古代陶罐，考古學家可以追蹤貿易、品味和技術。"
+          }
+        ],
+        "sourcePage": 4
+      },
+      {
+        "front": "in small pieces",
+        "meaning": "以小碎片的形式",
+        "examples": [
+          {
+            "en": "Ancient pots are sometimes found in small pieces.",
+            "zh": "古代陶罐有時會以小碎片的形式被發現。"
+          },
+          {
+            "en": "The vase broke in small pieces across the kitchen floor.",
+            "zh": "那個花瓶在廚房地板上碎成小碎片。"
+          },
+          {
+            "en": "Cut the vegetables in small pieces so they cook faster.",
+            "zh": "把蔬菜切成小塊，這樣會熟得比較快。"
+          },
+          {
+            "en": "The old letter arrived in small pieces, but the meaning was still there.",
+            "zh": "那封舊信以小碎片形式送來，但意思仍然存在。"
+          },
+          {
+            "en": "Big problems are easier to handle in small pieces; one bite, one step, one breath.",
+            "zh": "大問題切成小塊會比較容易處理；一口、一步、一口氣。"
+          }
+        ],
+        "sourcePage": 4
+      },
+      {
+        "front": "provide a lot of information about",
+        "meaning": "提供大量關於……的資料",
+        "examples": [
+          {
+            "en": "They still provide a lot of information about the past.",
+            "zh": "它們仍然能提供大量關於過去的資料。"
+          },
+          {
+            "en": "Old maps provide a lot of information about how cities grew.",
+            "zh": "舊地圖能提供大量關於城市如何發展的資料。"
+          },
+          {
+            "en": "Medical tests can provide a lot of information about your health.",
+            "zh": "醫學檢查可以提供大量關於你健康狀況的資料。"
+          },
+          {
+            "en": "Customer reviews provide a lot of information about what actually works and what only looks good online.",
+            "zh": "顧客評論能提供大量關於什麼真正有用、什麼只是網路上看起來好看的資料。"
+          },
+          {
+            "en": "A child’s drawing can provide a lot of information about how they see the world.",
+            "zh": "孩子的畫可以提供大量關於他們如何看世界的資料。"
+          }
+        ],
+        "sourcePage": 4
+      },
+      {
+        "front": "there’s no doubt that",
+        "meaning": "毫無疑問",
+        "examples": [
+          {
+            "en": "There’s no doubt that pottery has given archaeologists a fascinating insight.",
+            "zh": "毫無疑問，陶器讓考古學家獲得了有趣而深入的了解。"
+          },
+          {
+            "en": "There’s no doubt that sleep affects your mood, focus, and patience.",
+            "zh": "毫無疑問，睡眠會影響你的心情、專注力和耐心。"
+          },
+          {
+            "en": "There’s no doubt that the internet has changed how we learn.",
+            "zh": "毫無疑問，網路改變了我們學習的方式。"
+          },
+          {
+            "en": "There’s no doubt that she worked hard for this opportunity.",
+            "zh": "毫無疑問，她為這個機會付出了很多努力。"
+          },
+          {
+            "en": "There’s no doubt that small habits can build a life, brick by quiet brick.",
+            "zh": "毫無疑問，小習慣可以一塊安靜的磚、一塊安靜的磚地建立一種生活。"
+          }
+        ],
+        "sourcePage": 4
+      },
+      {
+        "front": "archaeologists",
+        "meaning": "考古學家",
+        "examples": [
+          {
+            "en": "Pottery has given archaeologists a fascinating insight into ancient life.",
+            "zh": "陶器讓考古學家對古代生活有了有趣而深入的了解。"
+          },
+          {
+            "en": "Archaeologists study objects, buildings, bones, and traces left by people.",
+            "zh": "考古學家研究人類留下的物品、建築、骨骼和痕跡。"
+          },
+          {
+            "en": "Archaeologists found pieces of pottery near the old riverbed.",
+            "zh": "考古學家在舊河床附近發現了陶器碎片。"
+          },
+          {
+            "en": "Archaeologists often learn from rubbish, which is humbling and slightly funny.",
+            "zh": "考古學家常常從垃圾中學習，這既讓人謙卑，也有點好笑。"
+          },
+          {
+            "en": "To archaeologists, a broken cup is not just rubbish; it can be a message from the past.",
+            "zh": "對考古學家來說，破杯子不只是垃圾；它可能是來自過去的訊息。"
+          }
+        ],
+        "sourcePage": 4
+      },
+      {
+        "front": "a fascinating insight into",
+        "meaning": "對……有有趣而深入的了解",
+        "examples": [
+          {
+            "en": "Pottery has given archaeologists a fascinating insight into how ancient humans lived.",
+            "zh": "陶器讓考古學家對古代人類如何生活有了有趣而深入的了解。"
+          },
+          {
+            "en": "Her diary gives us a fascinating insight into life during the war.",
+            "zh": "她的日記讓我們對戰爭期間的生活有了有趣而深入的了解。"
+          },
+          {
+            "en": "The documentary offers a fascinating insight into how bees organise their colonies.",
+            "zh": "那部紀錄片讓人對蜜蜂如何組織蜂群有有趣而深入的了解。"
+          },
+          {
+            "en": "Old shopping lists can give a fascinating insight into ordinary family life.",
+            "zh": "舊購物清單可以讓人對普通家庭生活有有趣而深入的了解。"
+          },
+          {
+            "en": "His mistakes gave me a fascinating insight into how pressure changes people.",
+            "zh": "他的錯誤讓我對壓力如何改變人有了有趣而深入的了解。"
+          }
+        ],
+        "sourcePage": 4
+      },
+      {
+        "front": "ancient humans",
+        "meaning": "古代人類",
+        "examples": [
+          {
+            "en": "Pottery shows how ancient humans lived.",
+            "zh": "陶器顯示了古代人類如何生活。"
+          },
+          {
+            "en": "Ancient humans made tools from stone, bone, wood, and clay.",
+            "zh": "古代人類用石頭、骨頭、木頭和黏土製作工具。"
+          },
+          {
+            "en": "Ancient humans watched the sky long before they had telescopes.",
+            "zh": "古代人類早在有望遠鏡之前就觀察天空。"
+          },
+          {
+            "en": "The food ancient humans ate can sometimes be studied from marks left on pots.",
+            "zh": "古代人類吃過的食物，有時可以透過陶罐上留下的痕跡來研究。"
+          },
+          {
+            "en": "Ancient humans were not simple; they planned, traded, created, and wondered.",
+            "zh": "古代人類並不簡單；他們計劃、交易、創造，也思考。"
+          }
+        ],
+        "sourcePage": 4
+      },
+      {
+        "front": "the shape of an artefact",
+        "meaning": "一件文物的形狀",
+        "examples": [
+          {
+            "en": "The shape of an artefact may have been lost.",
+            "zh": "一件文物的形狀可能已經消失。"
+          },
+          {
+            "en": "The shape of an artefact can tell experts how it was used.",
+            "zh": "一件文物的形狀可以告訴專家它過去如何被使用。"
+          },
+          {
+            "en": "Even when the colour has faded, the shape of an artefact may still be clear.",
+            "zh": "即使顏色已經褪去，一件文物的形狀可能仍然清楚。"
+          },
+          {
+            "en": "The shape of an artefact is like a shadow of its original purpose.",
+            "zh": "一件文物的形狀就像它原本用途留下的影子。"
+          },
+          {
+            "en": "By studying the shape of an artefact, researchers can sometimes rebuild the story around it.",
+            "zh": "透過研究一件文物的形狀，研究人員有時可以重建它背後的故事。"
+          }
+        ],
+        "sourcePage": 5
+      },
+      {
+        "front": "may have been lost",
+        "meaning": "可能已經失去；可能已無法辨認",
+        "examples": [
+          {
+            "en": "The shape of an artefact may have been lost.",
+            "zh": "一件文物的形狀可能已經無法辨認。"
+          },
+          {
+            "en": "The original file may have been lost when the old computer crashed.",
+            "zh": "原始檔案可能在舊電腦故障時遺失了。"
+          },
+          {
+            "en": "Some details may have been lost in translation.",
+            "zh": "有些細節可能在翻譯中失去了。"
+          },
+          {
+            "en": "The village name may have been lost, but the story still survived.",
+            "zh": "村莊的名字可能已經失傳，但故事仍然保存了下來。"
+          },
+          {
+            "en": "The photo may have been lost, but the memory stayed sharp as glass.",
+            "zh": "照片可能已經遺失，但記憶仍像玻璃一樣清晰。"
+          }
+        ],
+        "sourcePage": 5
+      },
+      {
+        "front": "can tell whether",
+        "meaning": "能判斷是否",
+        "examples": [
+          {
+            "en": "Archaeologists can tell whether the pots were for storage or cooking.",
+            "zh": "考古學家能判斷那些陶罐是否用作儲存或烹煮。"
+          },
+          {
+            "en": "Doctors can tell whether you need more tests from the first results.",
+            "zh": "醫生能從初步結果判斷你是否需要更多檢查。"
+          },
+          {
+            "en": "A good teacher can tell whether students are confused before they say a word.",
+            "zh": "好老師能在學生開口前判斷他們是否困惑。"
+          },
+          {
+            "en": "You can often tell whether fruit is ripe by its smell.",
+            "zh": "你通常可以透過氣味判斷水果是否成熟。"
+          },
+          {
+            "en": "Dogs can tell whether you’re nervous; they read people like open books.",
+            "zh": "狗能判斷你是否緊張；牠們像讀打開的書一樣讀懂人。"
+          }
+        ],
+        "sourcePage": 5
+      },
+      {
+        "front": "for storage or cooking",
+        "meaning": "用作儲存或烹煮",
+        "examples": [
+          {
+            "en": "Archaeologists can tell whether the pots were for storage or cooking.",
+            "zh": "考古學家能判斷那些陶罐是否用作儲存或烹煮。"
+          },
+          {
+            "en": "This clay jar was probably used for storage or cooking.",
+            "zh": "這個陶罐可能是用作儲存或烹煮的。"
+          },
+          {
+            "en": "In a small kitchen, every container seems to be for storage or cooking.",
+            "zh": "在小廚房裡，每個容器似乎都是用作儲存或烹煮。"
+          },
+          {
+            "en": "The old metal pot may have been for storage or cooking, depending on the marks inside.",
+            "zh": "那個舊金屬鍋可能是用作儲存或烹煮，要看裡面的痕跡。"
+          },
+          {
+            "en": "Some ancient vessels were not for decoration, but for storage or cooking — beauty with a job.",
+            "zh": "有些古代容器不是用來裝飾，而是用作儲存或烹煮——有工作的美。"
+          }
+        ],
+        "sourcePage": 5
+      },
+      {
+        "front": "by examining",
+        "meaning": "透過檢查；透過觀察",
+        "examples": [
+          {
+            "en": "They can tell this by examining the impressions on the clay.",
+            "zh": "他們可以透過檢查黏土上的壓痕來判斷這一點。"
+          },
+          {
+            "en": "You can learn a lot by examining your mistakes instead of hiding them.",
+            "zh": "你可以透過檢視自己的錯誤學到很多，而不是把它們藏起來。"
+          },
+          {
+            "en": "The mechanic found the problem by examining the engine closely.",
+            "zh": "技師透過仔細檢查引擎找出了問題。"
+          },
+          {
+            "en": "Scientists study old bones by examining tiny marks under a microscope.",
+            "zh": "科學家透過在顯微鏡下觀察細小痕跡來研究古骨。"
+          },
+          {
+            "en": "By examining how people spend their time, you can see what they truly value.",
+            "zh": "透過觀察人們如何花時間，你可以看出他們真正重視什麼。"
+          }
+        ],
+        "sourcePage": 5
+      },
+      {
+        "front": "impressions on the clay",
+        "meaning": "黏土上的壓痕",
+        "examples": [
+          {
+            "en": "They examine the impressions on the clay.",
+            "zh": "他們檢查黏土上的壓痕。"
+          },
+          {
+            "en": "The impressions on the clay show where fingers pressed into the surface.",
+            "zh": "黏土上的壓痕顯示手指曾按壓過表面的位置。"
+          },
+          {
+            "en": "Impressions on the clay can reveal the pattern of a basket or cloth.",
+            "zh": "黏土上的壓痕可以顯示籃子或布料的紋路。"
+          },
+          {
+            "en": "The child left tiny impressions on the clay with a shell.",
+            "zh": "那個孩子用貝殼在黏土上留下小小的壓痕。"
+          },
+          {
+            "en": "The impressions on the clay were like whispers from someone’s hands.",
+            "zh": "黏土上的壓痕像是某雙手留下的低語。"
+          }
+        ],
+        "sourcePage": 5
+      },
+      {
+        "front": "scratches from tools",
+        "meaning": "工具留下的刮痕",
+        "examples": [
+          {
+            "en": "They examine the scratches from tools.",
+            "zh": "他們檢查工具留下的刮痕。"
+          },
+          {
+            "en": "The scratches from tools helped experts understand how the bowl was shaped.",
+            "zh": "工具留下的刮痕幫助專家了解那個碗是如何成形的。"
+          },
+          {
+            "en": "You can still see scratches from tools on the old wooden table.",
+            "zh": "你仍然可以在那張舊木桌上看到工具留下的刮痕。"
+          },
+          {
+            "en": "Scratches from tools are not always damage; sometimes they are evidence.",
+            "zh": "工具留下的刮痕不一定是損壞；有時它們是證據。"
+          },
+          {
+            "en": "The scratches from tools told a quiet story of work, pressure, and patience.",
+            "zh": "工具留下的刮痕講述了一個關於工作、壓力和耐心的安靜故事。"
+          }
+        ],
+        "sourcePage": 5
+      },
+      {
+        "front": "the clay itself",
+        "meaning": "黏土本身",
+        "examples": [
+          {
+            "en": "The clay itself can reveal where the pots came from.",
+            "zh": "黏土本身可以顯示那些陶罐來自哪裡。"
+          },
+          {
+            "en": "The clay itself feels soft at first, but it becomes hard after firing.",
+            "zh": "黏土本身一開始摸起來很軟，但燒製後會變硬。"
+          },
+          {
+            "en": "The clay itself is cheap; the skill is what gives it value.",
+            "zh": "黏土本身很便宜；真正賦予它價值的是技術。"
+          },
+          {
+            "en": "Sometimes the clay itself decides the shape, and the potter simply listens.",
+            "zh": "有時黏土本身決定形狀，而陶藝家只是聆聽。"
+          },
+          {
+            "en": "The clay itself contains minerals that can help identify its source.",
+            "zh": "黏土本身含有礦物質，可以幫助判斷它的來源。"
+          }
+        ],
+        "sourcePage": 6
+      },
+      {
+        "front": "reveal where something came from",
+        "meaning": "顯示某物的來源",
+        "examples": [
+          {
+            "en": "The clay itself can reveal where the pots came from.",
+            "zh": "黏土本身可以顯示那些陶罐的來源。"
+          },
+          {
+            "en": "A person’s accent can sometimes reveal where they came from.",
+            "zh": "一個人的口音有時能顯示他來自哪裡。"
+          },
+          {
+            "en": "Labels on old boxes may reveal where something came from.",
+            "zh": "舊箱子上的標籤可能會顯示某物的來源。"
+          },
+          {
+            "en": "The soil on a shoe can reveal where someone has been.",
+            "zh": "鞋子上的泥土可以顯示某人去過哪裡。"
+          },
+          {
+            "en": "Tiny details often reveal where something came from; the small things carry the map.",
+            "zh": "細小的細節常常能顯示某物的來源；小東西身上帶著地圖。"
+          }
+        ],
+        "sourcePage": 6
+      },
+      {
+        "front": "take a pottery class",
+        "meaning": "上陶藝班",
+        "examples": [
+          {
+            "en": "People want to take a pottery class with me.",
+            "zh": "人們想跟我一起上陶藝班。"
+          },
+          {
+            "en": "I’d like to take a pottery class this summer.",
+            "zh": "我今年夏天想上陶藝班。"
+          },
+          {
+            "en": "My brother decided to take a pottery class to do something with his hands, not just his phone.",
+            "zh": "我哥哥決定上陶藝班，想用手做點事，而不是只滑手機。"
+          },
+          {
+            "en": "Couples often take a pottery class together for fun.",
+            "zh": "情侶常常一起上陶藝班，當作有趣的活動。"
+          },
+          {
+            "en": "If you take a pottery class, expect messy hands, slow progress, and small victories.",
+            "zh": "如果你上陶藝班，就要準備好弄髒雙手、慢慢進步，還有收穫小小的成就感。"
+          }
+        ],
+        "sourcePage": 6
+      },
+      {
+        "front": "like our ancestors",
+        "meaning": "像我們的祖先一樣",
+        "examples": [
+          {
+            "en": "Like our ancestors, they hope that something they create will last longer than they do.",
+            "zh": "像我們的祖先一樣，他們希望自己創作的東西能比自己存在得更久。"
+          },
+          {
+            "en": "Like our ancestors, we still gather around fire, food, and stories.",
+            "zh": "像我們的祖先一樣，我們仍然圍繞著火、食物和故事聚在一起。"
+          },
+          {
+            "en": "Like our ancestors, we use tools to solve problems and shape the world around us.",
+            "zh": "像我們的祖先一樣，我們用工具解決問題，塑造身邊的世界。"
+          },
+          {
+            "en": "Like our ancestors, children learn by watching, copying, and trying again.",
+            "zh": "像我們的祖先一樣，孩子透過觀察、模仿和再次嘗試來學習。"
+          },
+          {
+            "en": "Like our ancestors, we look at the sky and wonder what else is out there.",
+            "zh": "像我們的祖先一樣，我們望著天空，思考外面還有什麼。"
+          }
+        ],
+        "sourcePage": 6
+      },
+      {
+        "front": "something they create",
+        "meaning": "他們創作的東西",
+        "examples": [
+          {
+            "en": "They hope that something they create will last longer than they do.",
+            "zh": "他們希望自己創作的東西能比自己存在得更久。"
+          },
+          {
+            "en": "Artists often want something they create to speak for them.",
+            "zh": "藝術家常希望自己創作的東西能替他們說話。"
+          },
+          {
+            "en": "Students feel proud when something they create is displayed in the classroom.",
+            "zh": "當自己創作的東西被展示在教室裡時，學生會感到自豪。"
+          },
+          {
+            "en": "Parents love seeing something they create with their children become part of family life.",
+            "zh": "父母喜歡看到自己和孩子一起創作的東西成為家庭生活的一部分。"
+          },
+          {
+            "en": "Something they create may be small, but small things can leave long shadows.",
+            "zh": "他們創作的東西也許很小，但小東西也能留下長長的影子。"
+          }
+        ],
+        "sourcePage": 6
+      },
+      {
+        "front": "last longer than they do",
+        "meaning": "比他們自己存在得更久",
+        "examples": [
+          {
+            "en": "They hope that something they create will last longer than they do.",
+            "zh": "他們希望自己創作的東西能比自己存在得更久。"
+          },
+          {
+            "en": "Writers hope their books will last longer than they do.",
+            "zh": "作家希望自己的書能比自己存在得更久。"
+          },
+          {
+            "en": "A well-built house can last longer than the people who first lived in it.",
+            "zh": "一棟建得好的房子，可能比最早住在裡面的人存在得更久。"
+          },
+          {
+            "en": "Some friendships last longer than jobs, cities, and old versions of ourselves.",
+            "zh": "有些友誼比工作、城市，以及過去版本的自己都更長久。"
+          },
+          {
+            "en": "People plant trees knowing the shade may last longer than they do.",
+            "zh": "人們種樹時知道，那片樹蔭可能比自己存在得更久。"
+          }
+        ],
+        "sourcePage": 6
+      },
+      {
+        "front": "whether it is good or not",
+        "meaning": "不論好壞",
+        "examples": [
+          {
+            "en": "Their work, whether it is good or not, might say something about humanity.",
+            "zh": "他們的作品不論好壞，都可能傳達某些關於人類的訊息。"
+          },
+          {
+            "en": "Send me your first draft, whether it is good or not.",
+            "zh": "把你的初稿傳給我，不論好壞都可以。"
+          },
+          {
+            "en": "Whether it is good or not, the idea deserves a fair try.",
+            "zh": "不論好壞，這個想法都值得公平嘗試一下。"
+          },
+          {
+            "en": "A child’s drawing matters, whether it is good or not, because effort is part of the picture.",
+            "zh": "孩子的畫不論好壞都重要，因為努力也是畫面的一部分。"
+          },
+          {
+            "en": "Whether it is good or not, honest work always teaches you something.",
+            "zh": "不論好壞，誠實完成的作品總會教會你一些事。"
+          }
+        ],
+        "sourcePage": 6
+      },
+      {
+        "front": "say something about humanity",
+        "meaning": "傳達某些關於人類的訊息",
+        "examples": [
+          {
+            "en": "Their work might say something about humanity many years after their death.",
+            "zh": "他們的作品可能在他們去世多年後，仍傳達某些關於人類的訊息。"
+          },
+          {
+            "en": "How we treat strangers says something about humanity.",
+            "zh": "我們如何對待陌生人，傳達了某些關於人類的訊息。"
+          },
+          {
+            "en": "Ancient tools say something about humanity: we have always been problem-solvers.",
+            "zh": "古代工具傳達了某些關於人類的訊息：我們一直都是問題解決者。"
+          },
+          {
+            "en": "Music from every culture says something about humanity’s need to feel together.",
+            "zh": "每種文化的音樂都傳達了某些關於人類需要共同感受的訊息。"
+          },
+          {
+            "en": "A small handmade bowl can say something about humanity without using a single word.",
+            "zh": "一個小小的手工碗，不用任何文字，也能傳達某些關於人類的訊息。"
+          }
+        ],
+        "sourcePage": 7
+      },
+      {
+        "front": "many years after their death",
+        "meaning": "在他們去世多年後",
+        "examples": [
+          {
+            "en": "Their work might say something about humanity many years after their death.",
+            "zh": "他們的作品可能在他們去世多年後，仍傳達某些關於人類的訊息。"
+          },
+          {
+            "en": "Many artists become more famous many years after their death.",
+            "zh": "許多藝術家在去世多年後變得更有名。"
+          },
+          {
+            "en": "Her letters were published many years after her death.",
+            "zh": "她的信件在她去世多年後出版。"
+          },
+          {
+            "en": "The house became a museum many years after their death.",
+            "zh": "那棟房子在他們去世多年後成為博物館。"
+          },
+          {
+            "en": "Many years after their death, their ideas still walk around in other people’s minds.",
+            "zh": "在他們去世多年後，他們的想法仍在別人的腦海裡走動。"
+          }
+        ],
+        "sourcePage": 7
+      },
+      {
+        "front": "have your own reasons for",
+        "meaning": "有你們自己的理由",
+        "examples": [
+          {
+            "en": "You will all have your own reasons for coming here.",
+            "zh": "你們來這裡都會有自己的理由。"
+          },
+          {
+            "en": "You may have your own reasons for choosing this course.",
+            "zh": "你可能有自己選這門課的理由。"
+          },
+          {
+            "en": "Everyone has their own reasons for leaving a job.",
+            "zh": "每個人離職都有自己的理由。"
+          },
+          {
+            "en": "We all have our own reasons for keeping certain memories close.",
+            "zh": "我們保留某些回憶在心裡，都有自己的理由。"
+          },
+          {
+            "en": "You have your own reasons for learning English, and that reason is your engine.",
+            "zh": "你有自己學英文的理由，而那個理由就是你的引擎。"
+          }
+        ],
+        "sourcePage": 7
+      },
+      {
+        "front": "as far as I’m concerned",
+        "meaning": "就我而言",
+        "examples": [
+          {
+            "en": "As far as I’m concerned, what I love most is the concentration.",
+            "zh": "就我而言，我最喜歡的是那種專注。"
+          },
+          {
+            "en": "As far as I’m concerned, the plan is good enough to start.",
+            "zh": "就我而言，這個計畫已經夠好，可以開始了。"
+          },
+          {
+            "en": "As far as I’m concerned, kindness is not weakness.",
+            "zh": "就我而言，善良不是軟弱。"
+          },
+          {
+            "en": "As far as I’m concerned, a simple answer is better than a clever mess.",
+            "zh": "就我而言，簡單的答案比聰明但混亂的答案更好。"
+          },
+          {
+            "en": "As far as I’m concerned, a quiet morning and strong coffee can save a day.",
+            "zh": "就我而言，一個安靜的早晨和一杯濃咖啡可以拯救一天。"
+          }
+        ],
+        "sourcePage": 7
+      },
+      {
+        "front": "what I love most is",
+        "meaning": "我最喜歡的是",
+        "examples": [
+          {
+            "en": "What I love most is the concentration you need to make a good pot.",
+            "zh": "我最喜歡的是做出一個好陶罐所需要的專注力。"
+          },
+          {
+            "en": "What I love most is how the city changes at night.",
+            "zh": "我最喜歡的是城市在夜晚變化的樣子。"
+          },
+          {
+            "en": "What I love most is the moment when students suddenly understand.",
+            "zh": "我最喜歡的是學生突然明白的那一刻。"
+          },
+          {
+            "en": "What I love most is not the finished painting, but the messy process behind it.",
+            "zh": "我最喜歡的不是完成的畫，而是它背後混亂的過程。"
+          },
+          {
+            "en": "What I love most is the quiet after everyone has gone home.",
+            "zh": "我最喜歡的是大家回家後留下的安靜。"
+          }
+        ],
+        "sourcePage": 7
+      },
+      {
+        "front": "the concentration you need to",
+        "meaning": "你需要的專注力",
+        "examples": [
+          {
+            "en": "I love the concentration you need to make a good pot.",
+            "zh": "我喜歡做出一個好陶罐所需要的專注力。"
+          },
+          {
+            "en": "The concentration you need to play chess well can be exhausting.",
+            "zh": "下好棋所需要的專注力可能很耗人。"
+          },
+          {
+            "en": "The concentration you need to drive in heavy rain is no joke.",
+            "zh": "在大雨中開車所需要的專注力可不是開玩笑的。"
+          },
+          {
+            "en": "The concentration you need to write clearly is like holding a candle in the wind.",
+            "zh": "寫得清楚所需要的專注力，就像在風中握住一支蠟燭。"
+          },
+          {
+            "en": "The concentration you need to learn a language comes in small daily pieces.",
+            "zh": "學語言所需要的專注力，是由每天的小片段累積起來的。"
+          }
+        ],
+        "sourcePage": 7
+      },
+      {
+        "front": "make a good pot",
+        "meaning": "做出一個好的陶罐",
+        "examples": [
+          {
+            "en": "You need concentration to make a good pot.",
+            "zh": "你需要專注力才能做出一個好的陶罐。"
+          },
+          {
+            "en": "It takes practice to make a good pot on the wheel.",
+            "zh": "要在陶輪上做出一個好的陶罐，需要練習。"
+          },
+          {
+            "en": "To make a good pot, you need the right clay, steady hands, and patience.",
+            "zh": "要做出一個好的陶罐，你需要合適的黏土、穩定的雙手和耐心。"
+          },
+          {
+            "en": "Anyone can make a pot, but it takes time to make a good pot.",
+            "zh": "任何人都可以做陶罐，但要做出一個好的陶罐需要時間。"
+          },
+          {
+            "en": "To make a good pot, you have to listen to the clay before you force it into shape.",
+            "zh": "要做出一個好的陶罐，你必須先聽懂黏土，而不是硬把它塑形。"
+          }
+        ],
+        "sourcePage": 7
+      },
+      {
+        "front": "that focus",
+        "meaning": "那種專注",
+        "examples": [
+          {
+            "en": "That focus takes you away from the stresses of everyday life.",
+            "zh": "那種專注會讓你暫時遠離日常生活的壓力。"
+          },
+          {
+            "en": "That focus helped her finish the project before Friday.",
+            "zh": "那種專注幫助她在星期五前完成了專案。"
+          },
+          {
+            "en": "That focus is hard to keep when your phone keeps shouting for attention.",
+            "zh": "當手機一直大喊著要你注意時，那種專注很難維持。"
+          },
+          {
+            "en": "That focus can turn a messy idea into a clean plan.",
+            "zh": "那種專注可以把混亂的想法變成清楚的計畫。"
+          },
+          {
+            "en": "That focus feels like closing ten noisy doors and opening one quiet window.",
+            "zh": "那種專注像是關上十扇吵鬧的門，打開一扇安靜的窗。"
+          }
+        ],
+        "sourcePage": 8
+      },
+      {
+        "front": "take you away from",
+        "meaning": "讓你暫時遠離",
+        "examples": [
+          {
+            "en": "That focus takes you away from the stresses of everyday life.",
+            "zh": "那種專注會讓你暫時遠離日常生活的壓力。"
+          },
+          {
+            "en": "A long walk can take you away from your worries for a while.",
+            "zh": "長時間散步可以讓你暫時遠離煩惱。"
+          },
+          {
+            "en": "Reading fiction takes me away from my own problems and drops me into someone else’s world.",
+            "zh": "讀小說會讓我暫時遠離自己的問題，把我帶進別人的世界。"
+          },
+          {
+            "en": "Music can take you away from a bad mood before you even notice it working.",
+            "zh": "音樂能在你還沒察覺前，讓你暫時遠離壞心情。"
+          },
+          {
+            "en": "Painting takes her away from the noise of the week, like closing a door on traffic.",
+            "zh": "繪畫讓她暫時遠離一週的喧囂，就像把車流聲關在門外。"
+          }
+        ],
+        "sourcePage": 8
+      },
+      {
+        "front": "the stresses of everyday life",
+        "meaning": "日常生活的壓力",
+        "examples": [
+          {
+            "en": "That focus takes you away from the stresses of everyday life.",
+            "zh": "那種專注會讓你暫時遠離日常生活的壓力。"
+          },
+          {
+            "en": "Cooking helps him deal with the stresses of everyday life.",
+            "zh": "做飯幫助他應對日常生活的壓力。"
+          },
+          {
+            "en": "The stresses of everyday life can build up quietly if you never stop to breathe.",
+            "zh": "如果你從不停下來喘口氣，日常生活的壓力會安靜地累積。"
+          },
+          {
+            "en": "Yoga won’t fix everything, but it can soften the stresses of everyday life.",
+            "zh": "瑜伽不能解決所有問題，但可以緩和日常生活的壓力。"
+          },
+          {
+            "en": "Sometimes the stresses of everyday life are small stones in your shoe, not big storms.",
+            "zh": "有時日常生活的壓力不是大風暴，而是鞋子裡的小石子。"
+          }
+        ],
+        "sourcePage": 8
+      },
+      {
+        "front": "if you’re elderly",
+        "meaning": "如果你是年長人士",
+        "examples": [
+          {
+            "en": "If you’re elderly, it’s also good exercise for hands and wrists.",
+            "zh": "如果你是年長人士，這也是對手和手腕很好的鍛鍊。"
+          },
+          {
+            "en": "If you’re elderly, regular gentle movement can help you stay independent.",
+            "zh": "如果你是年長人士，規律而溫和的活動可以幫助你保持獨立。"
+          },
+          {
+            "en": "If you’re elderly, choose shoes that are comfortable, stable, and easy to put on.",
+            "zh": "如果你是年長人士，請選擇舒適、穩定、容易穿上的鞋子。"
+          },
+          {
+            "en": "If you’re elderly, learning new skills can keep the mind lively.",
+            "zh": "如果你是年長人士，學習新技能可以讓頭腦保持活躍。"
+          },
+          {
+            "en": "If you’re elderly, small safety changes at home can make a big difference.",
+            "zh": "如果你是年長人士，家中一些小小的安全改動可以帶來很大差別。"
+          }
+        ],
+        "sourcePage": 8
+      },
+      {
+        "front": "good exercise for hands and wrists",
+        "meaning": "對手和手腕很好的鍛鍊",
+        "examples": [
+          {
+            "en": "It’s good exercise for hands and wrists.",
+            "zh": "這對手和手腕是很好的鍛鍊。"
+          },
+          {
+            "en": "Playing the piano is good exercise for hands and wrists.",
+            "zh": "彈鋼琴對手和手腕是很好的鍛鍊。"
+          },
+          {
+            "en": "Kneading dough is good exercise for hands and wrists, though the bread gets the glory.",
+            "zh": "揉麵團對手和手腕是很好的鍛鍊，雖然最後出風頭的是麵包。"
+          },
+          {
+            "en": "Simple stretching can be good exercise for hands and wrists if you type all day.",
+            "zh": "如果你整天打字，簡單伸展對手和手腕可以是很好的鍛鍊。"
+          },
+          {
+            "en": "Pottery is good exercise for hands and wrists because it uses strength, control, and patience.",
+            "zh": "陶藝對手和手腕是很好的鍛鍊，因為它需要力量、控制和耐心。"
+          }
+        ],
+        "sourcePage": 8
+      },
+      {
+        "front": "helps with arthritis",
+        "meaning": "有助紓緩關節炎",
+        "examples": [
+          {
+            "en": "It helps with arthritis.",
+            "zh": "這有助紓緩關節炎。"
+          },
+          {
+            "en": "Gentle hand exercises may help with arthritis.",
+            "zh": "溫和的手部運動可能有助紓緩關節炎。"
+          },
+          {
+            "en": "Warm water can help with arthritis in the fingers.",
+            "zh": "溫水可以幫助紓緩手指關節炎。"
+          },
+          {
+            "en": "My grandmother says knitting helps with arthritis and keeps her hands busy.",
+            "zh": "我奶奶說織毛衣有助紓緩關節炎，也讓雙手有事可做。"
+          },
+          {
+            "en": "Regular movement helps with arthritis because joints, like doors, hate being left unused.",
+            "zh": "規律活動有助紓緩關節炎，因為關節就像門一樣，不喜歡長期不用。"
+          }
+        ],
+        "sourcePage": 8
+      },
+      {
+        "front": "a fun activity for children",
+        "meaning": "適合兒童的有趣活動",
+        "examples": [
+          {
+            "en": "It’s a fun activity for children because it’s so messy.",
+            "zh": "這是適合兒童的有趣活動，因為很容易弄得一團糟。"
+          },
+          {
+            "en": "Making paper masks is a fun activity for children on rainy days.",
+            "zh": "雨天做紙面具是適合兒童的有趣活動。"
+          },
+          {
+            "en": "A treasure hunt is a fun activity for children because it turns the house into a map.",
+            "zh": "尋寶遊戲是適合兒童的有趣活動，因為它把家變成了一張地圖。"
+          },
+          {
+            "en": "Baking cookies is a fun activity for children, especially when they can decorate them.",
+            "zh": "烤餅乾是適合兒童的有趣活動，尤其是他們可以自己裝飾時。"
+          },
+          {
+            "en": "Planting seeds is a fun activity for children and a quiet lesson in patience.",
+            "zh": "種種子是適合兒童的有趣活動，也是一堂安靜的耐心課。"
+          }
+        ],
+        "sourcePage": 8
+      },
+      {
+        "front": "so messy",
+        "meaning": "很容易弄得一團糟",
+        "examples": [
+          {
+            "en": "It’s a fun activity for children because it’s so messy.",
+            "zh": "這是適合兒童的有趣活動，因為很容易弄得一團糟。"
+          },
+          {
+            "en": "Finger painting is so messy, but children love it.",
+            "zh": "手指畫很容易弄得一團糟，但孩子們很喜歡。"
+          },
+          {
+            "en": "My desk is so messy that my notebook has gone into hiding.",
+            "zh": "我的書桌亂到我的筆記本都躲起來了。"
+          },
+          {
+            "en": "Cooking with kids is so messy, but the laughter is worth the flour storm.",
+            "zh": "跟孩子一起做飯很容易弄得一團糟，但那些笑聲值得那場麵粉風暴。"
+          },
+          {
+            "en": "The first draft was so messy, but at least the ideas were alive.",
+            "zh": "初稿很混亂，但至少那些想法是活的。"
+          }
+        ],
+        "sourcePage": 9
+      },
+      {
+        "front": "basic pottery techniques",
+        "meaning": "基本陶藝技巧",
+        "examples": [
+          {
+            "en": "We show you some of the basic pottery techniques.",
+            "zh": "我們會示範一些基本陶藝技巧。"
+          },
+          {
+            "en": "The class begins with basic pottery techniques like shaping, smoothing, and joining clay.",
+            "zh": "這門課從基本陶藝技巧開始，例如塑形、抹平和接合黏土。"
+          },
+          {
+            "en": "Once you learn basic pottery techniques, you can make simple bowls and cups.",
+            "zh": "一旦學會基本陶藝技巧，你就能做簡單的碗和杯子。"
+          },
+          {
+            "en": "Basic pottery techniques look easy until the clay starts arguing with your hands.",
+            "zh": "基本陶藝技巧看起來容易，直到黏土開始跟你的手吵架。"
+          },
+          {
+            "en": "The museum workshop teaches basic pottery techniques used by people thousands of years ago.",
+            "zh": "博物館工作坊教授幾千年前人們使用的基本陶藝技巧。"
+          }
+        ],
+        "sourcePage": 9
+      },
+      {
+        "front": "so that you can",
+        "meaning": "以便你可以",
+        "examples": [
+          {
+            "en": "We show you some techniques so that you can create whatever you wish.",
+            "zh": "我們會示範一些技巧，以便你可以創作任何你想做的東西。"
+          },
+          {
+            "en": "I’ll send you the address so that you can find the place easily.",
+            "zh": "我會把地址傳給你，以便你可以輕鬆找到那個地方。"
+          },
+          {
+            "en": "Write it down so that you can remember it later.",
+            "zh": "把它寫下來，以便你之後可以記得。"
+          },
+          {
+            "en": "We’ll practise slowly so that you can build confidence step by step.",
+            "zh": "我們會慢慢練習，以便你可以一步一步建立信心。"
+          },
+          {
+            "en": "Save a little money each month so that you can breathe when life gets expensive.",
+            "zh": "每個月存一點錢，以便生活變貴時你還能喘口氣。"
+          }
+        ],
+        "sourcePage": 9
+      },
+      {
+        "front": "create whatever you wish",
+        "meaning": "創作任何你想做的東西",
+        "examples": [
+          {
+            "en": "You can use these techniques to create whatever you wish.",
+            "zh": "你可以用這些技巧創作任何你想做的東西。"
+          },
+          {
+            "en": "With this software, you can create whatever you wish, from posters to short videos.",
+            "zh": "使用這個軟件，你可以創作任何你想做的東西，從海報到短片都可以。"
+          },
+          {
+            "en": "In the art room, students are free to create whatever they wish.",
+            "zh": "在美術室裡，學生可以自由創作任何他們想做的東西。"
+          },
+          {
+            "en": "Once you understand the basics, you can create whatever you wish; the tools become doors.",
+            "zh": "一旦你了解基礎，你就可以創作任何你想做的東西；工具會變成門。"
+          },
+          {
+            "en": "The garden gives you space to create whatever you wish, whether that’s flowers, vegetables, or a quiet corner.",
+            "zh": "花園給你空間創作任何你想做的東西，不論是花、蔬菜，還是一個安靜角落。"
+          }
+        ],
+        "sourcePage": 9
+      },
+      {
+        "front": "a gift for a friend",
+        "meaning": "送給朋友的禮物",
+        "examples": [
+          {
+            "en": "You can create whatever you wish — a gift for a friend, perhaps.",
+            "zh": "你可以創作任何你想做的東西——也許是送給朋友的禮物。"
+          },
+          {
+            "en": "I bought this book as a gift for a friend who loves history.",
+            "zh": "我買了這本書作為送給一位喜歡歷史的朋友的禮物。"
+          },
+          {
+            "en": "A handmade mug makes a lovely gift for a friend.",
+            "zh": "手工馬克杯是送給朋友的可愛禮物。"
+          },
+          {
+            "en": "She painted a small picture as a gift for a friend who was moving away.",
+            "zh": "她畫了一幅小畫，作為送給即將搬走的朋友的禮物。"
+          },
+          {
+            "en": "A gift for a friend doesn’t have to be expensive; sometimes thought is the real wrapping.",
+            "zh": "送給朋友的禮物不一定要昂貴；有時心意才是真正的包裝。"
+          }
+        ],
+        "sourcePage": 9
+      },
+      {
+        "front": "like nearly everyone who comes here",
+        "meaning": "像幾乎所有來這裏的人一樣",
+        "examples": [
+          {
+            "en": "Like nearly everyone who comes here, this is probably your first time.",
+            "zh": "像幾乎所有來這裡的人一樣，這可能是你的第一次。"
+          },
+          {
+            "en": "Like nearly everyone who comes here, you may feel nervous at first.",
+            "zh": "像幾乎所有來這裡的人一樣，你一開始可能會緊張。"
+          },
+          {
+            "en": "Like nearly everyone who comes here, she started with no experience.",
+            "zh": "像幾乎所有來這裡的人一樣，她一開始也沒有經驗。"
+          },
+          {
+            "en": "Like nearly everyone who comes here, you’ll probably make one messy pot and one proud smile.",
+            "zh": "像幾乎所有來這裡的人一樣，你大概會做出一個亂亂的陶罐，以及一個自豪的笑容。"
+          },
+          {
+            "en": "Like nearly everyone who comes here, he discovered that clay is less forgiving than it looks.",
+            "zh": "像幾乎所有來這裡的人一樣，他發現黏土沒有看起來那麼好商量。"
+          }
+        ],
+        "sourcePage": 9
+      },
+      {
+        "front": "the first time you have tried",
+        "meaning": "你第一次嘗試",
+        "examples": [
+          {
+            "en": "This is the first time you will have tried the art.",
+            "zh": "這會是你第一次嘗試這門藝術。"
+          },
+          {
+            "en": "Is this the first time you have tried skiing?",
+            "zh": "這是你第一次嘗試滑雪嗎？"
+          },
+          {
+            "en": "The first time you have tried public speaking, your voice may shake a little.",
+            "zh": "你第一次嘗試公開演講時，聲音可能會有點發抖。"
+          },
+          {
+            "en": "If this is the first time you have tried meditation, don’t expect your mind to behave like a trained dog.",
+            "zh": "如果這是你第一次嘗試冥想，不要期待你的腦袋像受過訓練的狗一樣聽話。"
+          },
+          {
+            "en": "The first time you have tried something new is rarely perfect, but it is always useful.",
+            "zh": "你第一次嘗試新事物時很少會完美，但總是有用。"
+          }
+        ],
+        "sourcePage": 9
+      },
+      {
+        "front": "keep things simple",
+        "meaning": "先保持簡單",
+        "examples": [
+          {
+            "en": "We’ll keep things simple today.",
+            "zh": "我們今天會先保持簡單。"
+          },
+          {
+            "en": "Keep things simple when you explain the rules.",
+            "zh": "解釋規則時，先保持簡單。"
+          },
+          {
+            "en": "For your first website, keep things simple: clear text, clean pages, easy buttons.",
+            "zh": "做你的第一個網站時，先保持簡單：文字清楚、頁面乾淨、按鈕易用。"
+          },
+          {
+            "en": "When life gets busy, keep things simple and do the next right thing.",
+            "zh": "生活忙起來時，先保持簡單，做下一件正確的事。"
+          },
+          {
+            "en": "Good teaching often means keeping things simple without making them childish.",
+            "zh": "好的教學通常是把事情保持簡單，但不把它講得幼稚。"
+          }
+        ],
+        "sourcePage": 10
+      },
+      {
+        "front": "before we move on",
+        "meaning": "在我們繼續之前",
+        "examples": [
+          {
+            "en": "Before we move on, can I just say a word about what you’re wearing?",
+            "zh": "在我們繼續之前，我可以簡單講一下你們的穿著嗎？"
+          },
+          {
+            "en": "Before we move on, does anyone have a question?",
+            "zh": "在我們繼續之前，有人有問題嗎？"
+          },
+          {
+            "en": "Before we move on, let’s quickly check the plan.",
+            "zh": "在我們繼續之前，我們快速確認一下計畫。"
+          },
+          {
+            "en": "Before we move on, I want to make sure everyone is clear.",
+            "zh": "在我們繼續之前，我想確保大家都清楚。"
+          },
+          {
+            "en": "Before we move on, let’s fix this small problem before it grows legs and runs around the room.",
+            "zh": "在我們繼續之前，先解決這個小問題，免得它長出腿在房間裡亂跑。"
+          }
+        ],
+        "sourcePage": 10
+      },
+      {
+        "front": "say a word about",
+        "meaning": "簡單講一下",
+        "examples": [
+          {
+            "en": "Can I just say a word about what you’re wearing?",
+            "zh": "我可以簡單講一下你們的穿著嗎？"
+          },
+          {
+            "en": "Before dinner, I want to say a word about tomorrow’s schedule.",
+            "zh": "晚餐前，我想簡單講一下明天的行程。"
+          },
+          {
+            "en": "The teacher said a word about safety before the experiment began.",
+            "zh": "實驗開始前，老師簡單講了一下安全事項。"
+          },
+          {
+            "en": "Could you say a word about your role in the project?",
+            "zh": "你可以簡單講一下你在專案中的角色嗎？"
+          },
+          {
+            "en": "Let me say a word about money: small leaks can sink big boats.",
+            "zh": "讓我簡單講一下錢：小小的漏洞也能讓大船沉下去。"
+          }
+        ],
+        "sourcePage": 10
+      },
+      {
+        "front": "what you’re wearing",
+        "meaning": "你們的穿着",
+        "examples": [
+          {
+            "en": "Can I just say a word about what you’re wearing?",
+            "zh": "我可以簡單講一下你們的穿著嗎？"
+          },
+          {
+            "en": "What you’re wearing is fine for the interview, but polish your shoes.",
+            "zh": "你穿的衣服適合面試，但鞋子要擦亮。"
+          },
+          {
+            "en": "Think about what you’re wearing if you’ll be standing outside for hours.",
+            "zh": "如果你要在外面站好幾個小時，要想一下你的穿著。"
+          },
+          {
+            "en": "What you’re wearing should be comfortable because the workshop gets warm.",
+            "zh": "你的穿著應該要舒服，因為工作坊裡會變熱。"
+          },
+          {
+            "en": "What you’re wearing says something, whether you mean it to or not.",
+            "zh": "你的穿著會傳達一些訊息，不論你是不是有意。"
+          }
+        ],
+        "sourcePage": 10
+      },
+      {
+        "front": "as we said in our email",
+        "meaning": "正如我們在電郵中所說",
+        "examples": [
+          {
+            "en": "As we said in our email, please remove any watches and necklaces.",
+            "zh": "正如我們在電郵中所說，請除下手錶和頸鏈。"
+          },
+          {
+            "en": "As we said in our email, the meeting will start at 9 sharp.",
+            "zh": "正如我們在電郵中所說，會議會在九點整開始。"
+          },
+          {
+            "en": "As we said in our email, bring comfortable shoes and a water bottle.",
+            "zh": "正如我們在電郵中所說，請帶舒適的鞋子和水瓶。"
+          },
+          {
+            "en": "As we said in our email, the deadline cannot be extended.",
+            "zh": "正如我們在電郵中所說，截止日期不能延長。"
+          },
+          {
+            "en": "As we said in our email, please arrive early; time has a habit of running faster at the door.",
+            "zh": "正如我們在電郵中所說，請早點到；時間在門口總是跑得特別快。"
+          }
+        ],
+        "sourcePage": 10
+      },
+      {
+        "front": "remove any watches, necklaces, etc.",
+        "meaning": "除下手錶、頸鏈等物品",
+        "examples": [
+          {
+            "en": "Please remove any watches, necklaces, etc.",
+            "zh": "請除下手錶、頸鏈等物品。"
+          },
+          {
+            "en": "Before the scan, remove any watches, necklaces, etc.",
+            "zh": "掃描前，請除下手錶、頸鏈等物品。"
+          },
+          {
+            "en": "Remove any watches, necklaces, etc. before working with the clay.",
+            "zh": "使用黏土前，請除下手錶、頸鏈等物品。"
+          },
+          {
+            "en": "For safety reasons, students must remove any watches, necklaces, etc. before using the machines.",
+            "zh": "基於安全原因，學生在使用機器前必須除下手錶、頸鏈等物品。"
+          },
+          {
+            "en": "Remove any watches, necklaces, etc.; jewellery and machinery are not good friends.",
+            "zh": "請除下手錶、頸鏈等物品；首飾和機器可不是好朋友。"
+          }
+        ],
+        "sourcePage": 10
+      },
+      {
+        "front": "put them somewhere safe",
+        "meaning": "把它們放在安全的地方",
+        "examples": [
+          {
+            "en": "Please put them somewhere safe.",
+            "zh": "請把它們放在安全的地方。"
+          },
+          {
+            "en": "Put your keys somewhere safe before you start swimming.",
+            "zh": "游泳前，把你的鑰匙放在安全的地方。"
+          },
+          {
+            "en": "I put the old letters somewhere safe, but now I can’t remember where.",
+            "zh": "我把那些舊信放在安全的地方，但現在不記得是哪裡了。"
+          },
+          {
+            "en": "Put the tickets somewhere safe, or tomorrow will begin with panic.",
+            "zh": "把票放在安全的地方，不然明天會從慌亂開始。"
+          },
+          {
+            "en": "If the documents are important, put them somewhere safe and tell one person where they are.",
+            "zh": "如果那些文件很重要，把它們放在安全的地方，並告訴一個人它們在哪裡。"
+          }
+        ],
+        "sourcePage": 10
+      },
+      {
+        "front": "tie it back",
+        "meaning": "把它綁起來",
+        "examples": [
+          {
+            "en": "If you have long hair, do tie it back now.",
+            "zh": "如果你有長頭髮，請現在把它綁起來。"
+          },
+          {
+            "en": "Tie it back before you start cooking.",
+            "zh": "開始做飯前，把頭髮綁起來。"
+          },
+          {
+            "en": "Her hair kept falling into her eyes, so she had to tie it back.",
+            "zh": "她的頭髮一直掉到眼前，所以她得把它綁起來。"
+          },
+          {
+            "en": "If you’re using tools, tie it back for safety.",
+            "zh": "如果你在使用工具，為了安全要把頭髮綁起來。"
+          },
+          {
+            "en": "Tie it back; loose hair near a machine is trouble looking for a chance.",
+            "zh": "把頭髮綁起來；鬆散的頭髮靠近機器，就是在等麻煩上門。"
+          }
+        ],
+        "sourcePage": 11
+      },
+      {
+        "front": "provide aprons",
+        "meaning": "提供圍裙",
+        "examples": [
+          {
+            "en": "We’ll provide aprons later.",
+            "zh": "我們稍後會提供圍裙。"
+          },
+          {
+            "en": "The cooking school will provide aprons, knives, and all the ingredients.",
+            "zh": "烹飪學校會提供圍裙、刀具和所有食材。"
+          },
+          {
+            "en": "Do we need to bring aprons, or will you provide aprons?",
+            "zh": "我們需要自己帶圍裙，還是你們會提供圍裙？"
+          },
+          {
+            "en": "The workshop provides aprons so your clothes don’t suffer for your creativity.",
+            "zh": "工作坊提供圍裙，這樣你的衣服就不用為你的創意受苦。"
+          },
+          {
+            "en": "We provide aprons for children because paint has a talent for travelling.",
+            "zh": "我們為孩子提供圍裙，因為顏料很會旅行。"
+          }
+        ],
+        "sourcePage": 11
+      },
+      {
+        "front": "I trust",
+        "meaning": "我相信；我希望",
+        "examples": [
+          {
+            "en": "I trust your clothes are old but comfortable.",
+            "zh": "我希望你們的衣服是舊但舒服的。"
+          },
+          {
+            "en": "I trust you all received the email yesterday.",
+            "zh": "我相信你們昨天都收到那封電郵了。"
+          },
+          {
+            "en": "I trust the instructions were clear.",
+            "zh": "我相信那些指示是清楚的。"
+          },
+          {
+            "en": "I trust you’ll tell me if anything changes.",
+            "zh": "我相信如果有任何變動，你會告訴我。"
+          },
+          {
+            "en": "I trust we can solve this calmly, without turning a small fire into a forest fire.",
+            "zh": "我相信我們可以冷靜地解決這件事，不把小火變成森林大火。"
+          }
+        ],
+        "sourcePage": 11
+      },
+      {
+        "front": "old but comfortable",
+        "meaning": "舊但舒服",
+        "examples": [
+          {
+            "en": "I trust your clothes are old but comfortable.",
+            "zh": "我希望你們的衣服是舊但舒服的。"
+          },
+          {
+            "en": "Wear shoes that are old but comfortable for the walking tour.",
+            "zh": "參加步行導覽時，請穿舊但舒服的鞋子。"
+          },
+          {
+            "en": "My sofa is old but comfortable, and I refuse to replace it.",
+            "zh": "我的沙發舊但舒服，我拒絕換掉它。"
+          },
+          {
+            "en": "Bring clothes that are old but comfortable because the workshop may get messy.",
+            "zh": "請帶舊但舒服的衣服，因為工作坊可能會弄得很髒。"
+          },
+          {
+            "en": "His jacket is old but comfortable, like a friend who never asks too many questions.",
+            "zh": "他的外套舊但舒服，像一個從不問太多問題的朋友。"
+          }
+        ],
+        "sourcePage": 11
+      },
+      {
+        "front": "the rest of the talk",
+        "meaning": "餘下的講話內容",
+        "examples": [
+          {
+            "en": "Before you hear the rest of the talk, you have some time to look at the questions.",
+            "zh": "在你聽餘下的講話內容之前，你有一些時間看問題。"
+          },
+          {
+            "en": "The rest of the talk will focus on how pottery is fired.",
+            "zh": "餘下的講話內容會集中在陶器如何燒製。"
+          },
+          {
+            "en": "I missed the rest of the talk because my phone died at the worst moment.",
+            "zh": "我錯過了餘下的講話內容，因為我的手機在最糟的時刻沒電了。"
+          },
+          {
+            "en": "The speaker used the rest of the talk to answer questions from the audience.",
+            "zh": "演講者用餘下的講話內容回答觀眾問題。"
+          },
+          {
+            "en": "The rest of the talk was short, clear, and surprisingly funny.",
+            "zh": "餘下的講話內容簡短、清楚，而且出乎意料地有趣。"
+          }
+        ],
+        "sourcePage": 11
+      },
+      {
+        "front": "have a look around",
+        "meaning": "環顧四周",
+        "examples": [
+          {
+            "en": "Have a look around — there’s a lot going on.",
+            "zh": "環顧四周吧——這裡有很多事情正在進行。"
+          },
+          {
+            "en": "Have a look around before you decide which room you like best.",
+            "zh": "在你決定最喜歡哪個房間之前，先環顧四周。"
+          },
+          {
+            "en": "When you arrive at the market, have a look around before buying anything.",
+            "zh": "到市場後，買東西前先環顧四周。"
+          },
+          {
+            "en": "Have a look around the website and see if the course suits you.",
+            "zh": "先瀏覽一下網站，看看那門課是否適合你。"
+          },
+          {
+            "en": "Have a look around; sometimes the best idea is hiding in the corner, waving quietly.",
+            "zh": "環顧四周吧；有時最好的想法正躲在角落裡，安靜地揮手。"
+          }
+        ],
+        "sourcePage": 11
+      },
+      {
+        "front": "have a look around",
+        "meaning": "環顧四周",
+        "examples": [
+          {
+            "en": "Have a look around — there’s a lot going on.",
+            "zh": "環顧四周吧——這裡有很多事情正在進行。"
+          },
+          {
+            "en": "Have a look around before you choose a desk.",
+            "zh": "選書桌前，先環顧四周看一下。"
+          },
+          {
+            "en": "When you arrive at the market, have a look around before buying anything.",
+            "zh": "到市場後，買東西前先環顧四周。"
+          },
+          {
+            "en": "Have a look around the website and see if the course suits you.",
+            "zh": "先瀏覽一下網站，看看那門課是否適合你。"
+          },
+          {
+            "en": "Have a look around; sometimes the best idea is hiding in plain sight.",
+            "zh": "環顧四周吧；有時最好的想法就藏在眼前。"
+          }
+        ],
+        "sourcePage": 11
+      },
+      {
+        "front": "there’s a lot going on",
+        "meaning": "這裏有很多事情正在進行",
+        "examples": [
+          {
+            "en": "Have a look around — there’s a lot going on.",
+            "zh": "環顧四周吧——這裡有很多事情正在進行。"
+          },
+          {
+            "en": "There’s a lot going on at work this week.",
+            "zh": "這週公司有很多事情正在進行。"
+          },
+          {
+            "en": "There’s a lot going on in the painting, but it still feels balanced.",
+            "zh": "那幅畫裡有很多元素，但仍然感覺平衡。"
+          },
+          {
+            "en": "There’s a lot going on in her life right now, so give her some space.",
+            "zh": "她現在生活中有很多事情，所以給她一點空間。"
+          },
+          {
+            "en": "There’s a lot going on in that tiny workshop: wheels turning, clay drying, ideas waking up.",
+            "zh": "那間小工作坊裡有很多事情正在進行：陶輪轉動、黏土變乾、想法醒來。"
+          }
+        ],
+        "sourcePage": 12
+      },
+      {
+        "front": "pottery that will last",
+        "meaning": "能保存長久的陶器",
+        "examples": [
+          {
+            "en": "To make pottery that will last, you need a potter’s wheel and a kiln.",
+            "zh": "要製作能保存長久的陶器，你需要陶輪和窯爐。"
+          },
+          {
+            "en": "Pottery that will last needs good clay, careful shaping, and proper firing.",
+            "zh": "能保存長久的陶器需要好的黏土、仔細塑形和適當燒製。"
+          },
+          {
+            "en": "Museums are full of pottery that will last longer than the names of its makers.",
+            "zh": "博物館裡滿是能保存長久的陶器，比製作者的名字存在得更久。"
+          },
+          {
+            "en": "If you want pottery that will last, don’t rush the drying stage.",
+            "zh": "如果你想做出能保存長久的陶器，不要急著跳過乾燥階段。"
+          },
+          {
+            "en": "Pottery that will last is like a quiet promise made in clay.",
+            "zh": "能保存長久的陶器像是用黏土做出的安靜承諾。"
+          }
+        ],
+        "sourcePage": 12
+      },
+      {
+        "front": "a potter’s wheel",
+        "meaning": "陶輪",
+        "examples": [
+          {
+            "en": "To make pottery that will last, you need a potter’s wheel.",
+            "zh": "要製作能保存長久的陶器，你需要陶輪。"
+          },
+          {
+            "en": "A potter’s wheel spins while the potter shapes the clay.",
+            "zh": "陶輪會旋轉，而陶藝家在上面塑造黏土。"
+          },
+          {
+            "en": "She bought a potter’s wheel after taking her first ceramics class.",
+            "zh": "她上完第一堂陶藝課後，買了一台陶輪。"
+          },
+          {
+            "en": "A potter’s wheel looks simple, but it demands steady hands and calm nerves.",
+            "zh": "陶輪看起來簡單，但它需要穩定的雙手和冷靜的心。"
+          },
+          {
+            "en": "Watching a potter’s wheel turn is strangely peaceful, like time moving in circles.",
+            "zh": "看陶輪轉動有種奇妙的平靜感，像時間在繞圈。"
+          }
+        ],
+        "sourcePage": 12
+      },
+      {
+        "front": "a kiln",
+        "meaning": "窯爐",
+        "examples": [
+          {
+            "en": "You need a potter’s wheel, a kiln, and some tools.",
+            "zh": "你需要陶輪、窯爐和一些工具。"
+          },
+          {
+            "en": "A kiln can reach much higher temperatures than a normal oven.",
+            "zh": "窯爐能達到比普通焗爐高得多的溫度。"
+          },
+          {
+            "en": "The school installed a kiln for its art department.",
+            "zh": "學校為美術部門安裝了一座窯爐。"
+          },
+          {
+            "en": "The kiln turns soft clay into something strong enough to survive years of use.",
+            "zh": "窯爐把柔軟的黏土變成足以使用多年的堅固物品。"
+          },
+          {
+            "en": "A kiln is the final test; the clay goes in fragile and comes out changed.",
+            "zh": "窯爐是最後的考驗；黏土脆弱地進去，改變後出來。"
+          }
+        ],
+        "sourcePage": 12
+      },
+      {
+        "front": "basically",
+        "meaning": "基本上",
+        "examples": [
+          {
+            "en": "A kiln is basically a very hot oven.",
+            "zh": "窯爐基本上是一個高溫焗爐。"
+          },
+          {
+            "en": "This app is basically a digital notebook.",
+            "zh": "這個 app 基本上是一本數碼筆記本。"
+          },
+          {
+            "en": "He’s basically finished the report; he just needs to check the figures.",
+            "zh": "他基本上完成了報告；只需要再檢查數字。"
+          },
+          {
+            "en": "The plan is basically simple: save more, spend less, panic never.",
+            "zh": "這個計畫基本上很簡單：多存、少花、永不慌。"
+          },
+          {
+            "en": "A budget is basically a map for your money.",
+            "zh": "預算基本上就是你金錢的地圖。"
+          }
+        ],
+        "sourcePage": 12
+      },
+      {
+        "front": "a very hot oven",
+        "meaning": "高溫焗爐",
+        "examples": [
+          {
+            "en": "A kiln is basically a very hot oven.",
+            "zh": "窯爐基本上是一個高溫焗爐。"
+          },
+          {
+            "en": "The kitchen felt like a very hot oven during the heatwave.",
+            "zh": "熱浪期間，廚房感覺像一個高溫焗爐。"
+          },
+          {
+            "en": "You don’t need a very hot oven for this cake.",
+            "zh": "做這個蛋糕不需要高溫焗爐。"
+          },
+          {
+            "en": "A very hot oven can turn simple dough into crisp, golden bread.",
+            "zh": "高溫焗爐可以把普通麵團變成香脆金黃的麵包。"
+          },
+          {
+            "en": "The desert at noon felt like a very hot oven with no door out.",
+            "zh": "正午的沙漠像一個沒有出口的高溫焗爐。"
+          }
+        ],
+        "sourcePage": 12
+      },
+      {
+        "front": "fire the pottery",
+        "meaning": "燒製陶器",
+        "examples": [
+          {
+            "en": "A kiln is where you fire the pottery.",
+            "zh": "窯爐就是你燒製陶器的地方。"
+          },
+          {
+            "en": "We’ll fire the pottery after it has dried completely.",
+            "zh": "陶器完全乾燥後，我們會燒製陶器。"
+          },
+          {
+            "en": "If you fire the pottery too soon, it may crack.",
+            "zh": "如果太早燒製陶器，它可能會裂開。"
+          },
+          {
+            "en": "The studio fires the pottery twice to make it stronger and smoother.",
+            "zh": "工作室會燒製陶器兩次，讓它更堅固、更光滑。"
+          },
+          {
+            "en": "To fire the pottery is to let heat do the final talking.",
+            "zh": "燒製陶器，就是讓高溫說最後一句話。"
+          }
+        ],
+        "sourcePage": 12
+      },
+      {
+        "front": "look over in the far corner",
+        "meaning": "看向遠處的角落",
+        "examples": [
+          {
+            "en": "If you look over in the far corner, you’ll see one of ours.",
+            "zh": "如果你看向遠處的角落，就會看到我們其中一個。"
+          },
+          {
+            "en": "Look over in the far corner and you’ll find the old wooden cabinet.",
+            "zh": "看向遠處的角落，你會找到那個舊木櫃。"
+          },
+          {
+            "en": "If you look over in the far corner of the room, you’ll see the emergency exit.",
+            "zh": "如果你看向房間遠處的角落，就會看到緊急出口。"
+          },
+          {
+            "en": "Look over in the far corner; that’s where we keep the finished pieces.",
+            "zh": "看向遠處的角落；那是我們放成品的地方。"
+          },
+          {
+            "en": "Look over in the far corner, where the quiet things usually wait.",
+            "zh": "看向遠處的角落，安靜的東西通常都在那裡等著。"
+          }
+        ],
+        "sourcePage": 13
+      },
+      {
+        "front": "one of ours",
+        "meaning": "我們其中一個",
+        "examples": [
+          {
+            "en": "You’ll see one of ours in the far corner.",
+            "zh": "你會在遠處的角落看到我們其中一個。"
+          },
+          {
+            "en": "That blue bicycle outside is one of ours.",
+            "zh": "外面那輛藍色單車是我們其中一輛。"
+          },
+          {
+            "en": "The broken cup on the shelf is one of ours from last year’s class.",
+            "zh": "架子上那個破杯子是我們去年課堂作品中的一個。"
+          },
+          {
+            "en": "If you need a charger, use one of ours.",
+            "zh": "如果你需要充電器，可以用我們其中一個。"
+          },
+          {
+            "en": "The small boat by the lake is one of ours, old but still loyal.",
+            "zh": "湖邊那艘小船是我們其中一艘，雖然老了，但仍然可靠。"
+          }
+        ],
+        "sourcePage": 13
+      },
+      {
+        "front": "since their invention",
+        "meaning": "自從它們被發明以來",
+        "examples": [
+          {
+            "en": "Since their invention, kilns have changed very little.",
+            "zh": "自從窯爐被發明以來，它們變化很少。"
+          },
+          {
+            "en": "Since their invention, bicycles have changed a lot, but the basic idea is still the same.",
+            "zh": "自從單車被發明以來，它們改變了很多，但基本概念仍然一樣。"
+          },
+          {
+            "en": "Since their invention, glasses have helped millions of people see the world clearly.",
+            "zh": "自從眼鏡被發明以來，它們幫助了數百萬人清楚看見世界。"
+          },
+          {
+            "en": "Since their invention, smartphones have changed how we work, travel, and waste time.",
+            "zh": "自從智能手機被發明以來，它們改變了我們工作、旅行和浪費時間的方式。"
+          },
+          {
+            "en": "Since their invention, books have carried voices across centuries.",
+            "zh": "自從書本被發明以來，它們承載聲音穿越幾個世紀。"
+          }
+        ],
+        "sourcePage": 13
+      },
+      {
+        "front": "have changed very little",
+        "meaning": "變化很少",
+        "examples": [
+          {
+            "en": "Kilns have changed very little.",
+            "zh": "窯爐變化很少。"
+          },
+          {
+            "en": "The rules of chess have changed very little over the centuries.",
+            "zh": "幾個世紀以來，國際象棋的規則變化很少。"
+          },
+          {
+            "en": "The streets in the old village have changed very little since my childhood.",
+            "zh": "自我童年以來，那個老村莊的街道變化很少。"
+          },
+          {
+            "en": "Some family recipes have changed very little, which is exactly why people love them.",
+            "zh": "有些家庭食譜變化很少，而這正是大家喜歡它們的原因。"
+          },
+          {
+            "en": "The tools have changed very little, but the hands using them still make all the difference.",
+            "zh": "工具變化很少，但使用它們的雙手仍然決定一切。"
+          }
+        ],
+        "sourcePage": 13
+      },
+      {
+        "front": "in the past 20 years",
+        "meaning": "在過去二十年",
+        "examples": [
+          {
+            "en": "In the past 20 years, a lot of progress has been made.",
+            "zh": "在過去二十年，已經有很大進展。"
+          },
+          {
+            "en": "In the past 20 years, online shopping has become completely normal.",
+            "zh": "在過去二十年，網上購物已經變得非常普遍。"
+          },
+          {
+            "en": "In the past 20 years, phones have gone from simple tools to tiny offices.",
+            "zh": "在過去二十年，手機從簡單工具變成了小型辦公室。"
+          },
+          {
+            "en": "In the past 20 years, the town has grown, spread, and lost some of its quiet.",
+            "zh": "在過去二十年，這個城鎮成長、擴張，也失去了一些安靜。"
+          },
+          {
+            "en": "In the past 20 years, medicine has made huge progress in treating many diseases.",
+            "zh": "在過去二十年，醫學在治療許多疾病方面取得了巨大進展。"
+          }
+        ],
+        "sourcePage": 13
+      },
+      {
+        "front": "a lot of progress has been made",
+        "meaning": "已有很大進展",
+        "examples": [
+          {
+            "en": "A lot of progress has been made in temperature control.",
+            "zh": "溫度控制方面已有很大進展。"
+          },
+          {
+            "en": "A lot of progress has been made in renewable energy.",
+            "zh": "可再生能源方面已有很大進展。"
+          },
+          {
+            "en": "A lot of progress has been made, but the project still needs time.",
+            "zh": "已經有很大進展，但這個專案仍然需要時間。"
+          },
+          {
+            "en": "A lot of progress has been made in language-learning apps.",
+            "zh": "語言學習 app 方面已有很大進展。"
+          },
+          {
+            "en": "A lot of progress has been made quietly, step by step, like a path appearing under your feet.",
+            "zh": "已經安靜地一步步取得很大進展，像腳下慢慢出現一條路。"
+          }
+        ],
+        "sourcePage": 13
+      },
+      {
+        "front": "temperature control",
+        "meaning": "溫度控制",
+        "examples": [
+          {
+            "en": "A lot of progress has been made in temperature control.",
+            "zh": "溫度控制方面已有很大進展。"
+          },
+          {
+            "en": "Temperature control is important when you bake bread.",
+            "zh": "烤麵包時，溫度控制很重要。"
+          },
+          {
+            "en": "Good temperature control can stop clay from cracking in the kiln.",
+            "zh": "良好的溫度控制可以防止黏土在窯爐中裂開。"
+          },
+          {
+            "en": "The lab uses strict temperature control to protect the samples.",
+            "zh": "實驗室使用嚴格的溫度控制來保護樣本。"
+          },
+          {
+            "en": "In cooking, temperature control is the difference between dinner and disaster.",
+            "zh": "在烹飪中，溫度控制就是晚餐和災難之間的差別。"
+          }
+        ],
+        "sourcePage": 13
+      },
+      {
+        "front": "removes the water from clay",
+        "meaning": "去除黏土中的水分",
+        "examples": [
+          {
+            "en": "A kiln removes the water from clay.",
+            "zh": "窯爐會去除黏土中的水分。"
+          },
+          {
+            "en": "Heat removes the water from clay and makes it harder.",
+            "zh": "高溫會去除黏土中的水分，讓它變得更硬。"
+          },
+          {
+            "en": "The first firing removes the water from clay before glazing.",
+            "zh": "第一次燒製會在上釉前去除黏土中的水分。"
+          },
+          {
+            "en": "A kiln slowly removes the water from clay, turning softness into strength.",
+            "zh": "窯爐慢慢去除黏土中的水分，把柔軟變成堅固。"
+          },
+          {
+            "en": "This process removes the water from clay so the piece can keep its shape.",
+            "zh": "這個過程會去除黏土中的水分，讓作品能保持形狀。"
+          }
+        ],
+        "sourcePage": 14
+      },
+      {
+        "front": "at temperatures of around",
+        "meaning": "在大約……的溫度下",
+        "examples": [
+          {
+            "en": "A kiln removes the water from clay at temperatures of around a thousand degrees Celsius.",
+            "zh": "窯爐會在大約攝氏一千度的溫度下去除黏土中的水分。"
+          },
+          {
+            "en": "Some bacteria die at temperatures of around 70 degrees Celsius.",
+            "zh": "有些細菌會在大約攝氏 70 度的溫度下死亡。"
+          },
+          {
+            "en": "Chocolate melts at temperatures of around 30 degrees Celsius, which is why warm hands can ruin everything.",
+            "zh": "朱古力會在大約攝氏 30 度的溫度下融化，所以溫暖的手能毀掉一切。"
+          },
+          {
+            "en": "The material becomes softer at temperatures of around 200 degrees Celsius.",
+            "zh": "這種材料會在大約攝氏 200 度的溫度下變軟。"
+          },
+          {
+            "en": "The oven should stay at temperatures of around 180 degrees Celsius for this cake.",
+            "zh": "做這個蛋糕時，焗爐應保持在大約攝氏 180 度的溫度下。"
+          }
+        ],
+        "sourcePage": 14
+      },
+      {
+        "front": "a thousand degrees Celsius",
+        "meaning": "攝氏一千度",
+        "examples": [
+          {
+            "en": "The kiln reaches around a thousand degrees Celsius.",
+            "zh": "窯爐會達到大約攝氏一千度。"
+          },
+          {
+            "en": "A thousand degrees Celsius is far hotter than any home oven.",
+            "zh": "攝氏一千度比任何家用焗爐都高得多。"
+          },
+          {
+            "en": "The clay changes completely at around a thousand degrees Celsius.",
+            "zh": "黏土在大約攝氏一千度時會完全改變。"
+          },
+          {
+            "en": "At a thousand degrees Celsius, the kiln is not cooking clay; it is transforming it.",
+            "zh": "在攝氏一千度時，窯爐不是在「煮」黏土，而是在改變它。"
+          },
+          {
+            "en": "A thousand degrees Celsius sounds extreme, but for pottery, it is part of the job.",
+            "zh": "攝氏一千度聽起來很極端，但對陶器來說，這只是工作的一部分。"
+          }
+        ],
+        "sourcePage": 14
+      },
+      {
+        "front": "allows something to",
+        "meaning": "使某物能夠",
+        "examples": [
+          {
+            "en": "This allows anything you’ve made to set permanently in shape.",
+            "zh": "這使你製作的任何東西能夠永久定型。"
+          },
+          {
+            "en": "A good schedule allows you to work without feeling trapped.",
+            "zh": "好的時間表能讓你工作時不覺得被困住。"
+          },
+          {
+            "en": "The new software allows users to edit videos on their phones.",
+            "zh": "這款新軟件讓用戶能夠在手機上剪片。"
+          },
+          {
+            "en": "Clear rules allow everyone to relax because nobody has to guess.",
+            "zh": "清楚的規則讓每個人都能放鬆，因為沒有人需要猜。"
+          },
+          {
+            "en": "Saving money allows small dreams to grow legs.",
+            "zh": "存錢能讓小夢想長出腿來。"
+          }
+        ],
+        "sourcePage": 14
+      },
+      {
+        "front": "set permanently in shape",
+        "meaning": "永久定型",
+        "examples": [
+          {
+            "en": "This allows anything you’ve made to set permanently in shape.",
+            "zh": "這使你製作的任何東西能夠永久定型。"
+          },
+          {
+            "en": "Once fired, the clay can set permanently in shape.",
+            "zh": "一旦燒製，黏土就能永久定型。"
+          },
+          {
+            "en": "The sculpture needs time to set permanently in shape before it is moved.",
+            "zh": "那件雕塑需要時間永久定型，之後才能移動。"
+          },
+          {
+            "en": "Heat helps the material set permanently in shape.",
+            "zh": "高溫幫助材料永久定型。"
+          },
+          {
+            "en": "Some choices, like fired clay, seem to set permanently in shape once you make them.",
+            "zh": "有些選擇就像燒過的黏土，一旦做了，似乎就永久定型。"
+          }
+        ],
+        "sourcePage": 14
+      },
+      {
+        "front": "a pretty ugly, heavy object",
+        "meaning": "相當難看又笨重的物件",
+        "examples": [
+          {
+            "en": "It’s a pretty ugly, heavy object.",
+            "zh": "它是一個相當難看又笨重的物件。"
+          },
+          {
+            "en": "The old printer is a pretty ugly, heavy object, but it still works.",
+            "zh": "那台舊打印機相當難看又笨重，但還能用。"
+          },
+          {
+            "en": "That safe is a pretty ugly, heavy object, so don’t try to move it alone.",
+            "zh": "那個保險箱相當難看又笨重，所以不要自己搬。"
+          },
+          {
+            "en": "The machine is a pretty ugly, heavy object, but it does a beautiful job.",
+            "zh": "那台機器相當難看又笨重，但工作做得很漂亮。"
+          },
+          {
+            "en": "My first sculpture was a pretty ugly, heavy object, though I loved it like a proud parent.",
+            "zh": "我的第一件雕塑相當難看又笨重，但我像驕傲的父母一樣愛它。"
+          }
+        ],
+        "sourcePage": 14
+      },
+      {
+        "front": "hard to keep in a house or flat",
+        "meaning": "很難放在住宅或單位裏",
+        "examples": [
+          {
+            "en": "It’s hard to keep in a house or flat.",
+            "zh": "它很難放在住宅或單位裡。"
+          },
+          {
+            "en": "A kiln is hard to keep in a house or flat because it needs space and safety controls.",
+            "zh": "窯爐很難放在住宅或單位裡，因為它需要空間和安全控制。"
+          },
+          {
+            "en": "Large exercise equipment is hard to keep in a house or flat.",
+            "zh": "大型健身器材很難放在住宅或單位裡。"
+          },
+          {
+            "en": "A big drum kit is hard to keep in a house or flat unless your neighbours are saints.",
+            "zh": "大型爵士鼓很難放在住宅或單位裡，除非你的鄰居像聖人一樣。"
+          },
+          {
+            "en": "Some hobbies are hard to keep in a house or flat, so shared studios make life easier.",
+            "zh": "有些興趣很難在住宅或單位裡進行，所以共享工作室會讓生活簡單很多。"
+          }
+        ],
+        "sourcePage": 14
+      },
+      {
+        "front": "most people don’t have one",
+        "meaning": "大部分人都沒有一個",
+        "examples": [
+          {
+            "en": "Most people don’t have one.",
+            "zh": "大部分人都沒有一個。"
+          },
+          {
+            "en": "Most people don’t have one at home, so they use a studio kiln.",
+            "zh": "大部分人家裡都沒有一個，所以會使用工作室的窯爐。"
+          },
+          {
+            "en": "A professional camera is useful, but most people don’t have one.",
+            "zh": "專業相機很有用，但大部分人都沒有一台。"
+          },
+          {
+            "en": "Most people don’t have one spare room just waiting to become an office.",
+            "zh": "大部分人都沒有一間空房剛好等著變成辦公室。"
+          },
+          {
+            "en": "A private driver sounds nice, but most people don’t have one, and real life walks.",
+            "zh": "私人司機聽起來不錯，但大部分人都沒有一個，而現實生活是要自己走的。"
+          }
+        ],
+        "sourcePage": 15
+      },
+      {
+        "front": "domestic ovens",
+        "meaning": "家用焗爐",
+        "examples": [
+          {
+            "en": "Domestic ovens don’t really get hot enough.",
+            "zh": "家用焗爐的溫度其實不夠高。"
+          },
+          {
+            "en": "Domestic ovens are fine for cakes, but not for firing pottery.",
+            "zh": "家用焗爐適合焗蛋糕，但不適合燒製陶器。"
+          },
+          {
+            "en": "Most domestic ovens have simple temperature settings.",
+            "zh": "大部分家用焗爐都有簡單的溫度設定。"
+          },
+          {
+            "en": "Domestic ovens can be surprisingly uneven, so rotate the tray halfway through.",
+            "zh": "家用焗爐的受熱可能出奇地不平均，所以中途要轉一下烤盤。"
+          },
+          {
+            "en": "Domestic ovens are kitchen horses, not industrial dragons.",
+            "zh": "家用焗爐是廚房裡的馬，不是工業用的龍。"
+          }
+        ],
+        "sourcePage": 15
+      },
+      {
+        "front": "don’t really get hot enough",
+        "meaning": "溫度其實不夠高",
+        "examples": [
+          {
+            "en": "Domestic ovens don’t really get hot enough.",
+            "zh": "家用焗爐的溫度其實不夠高。"
+          },
+          {
+            "en": "These hair straighteners don’t really get hot enough for thick hair.",
+            "zh": "這些直髮夾的溫度對厚頭髮來說其實不夠高。"
+          },
+          {
+            "en": "The pan doesn’t really get hot enough on that small camping stove.",
+            "zh": "在那個小露營爐上，平底鍋的溫度其實不夠高。"
+          },
+          {
+            "en": "The room doesn’t really get hot enough in winter, even with the heater on.",
+            "zh": "冬天即使開了暖氣，那個房間的溫度其實還是不夠高。"
+          },
+          {
+            "en": "The old oven doesn’t really get hot enough, so every cake comes out looking tired.",
+            "zh": "那台舊焗爐溫度其實不夠高，所以每個蛋糕出來都像累壞了。"
+          }
+        ],
+        "sourcePage": 15
+      },
+      {
+        "front": "eventually",
+        "meaning": "最終",
+        "examples": [
+          {
+            "en": "Eventually the clay will crack and fall apart.",
+            "zh": "最終黏土會裂開並散掉。"
+          },
+          {
+            "en": "Keep practising and eventually it will feel natural.",
+            "zh": "持續練習，最終它會變得自然。"
+          },
+          {
+            "en": "If you ignore the noise, the machine will eventually break.",
+            "zh": "如果你忽略那個聲音，機器最終會壞掉。"
+          },
+          {
+            "en": "We got lost twice, argued once, and eventually found the hotel.",
+            "zh": "我們迷路兩次、吵了一次，最終找到了飯店。"
+          },
+          {
+            "en": "Eventually, even the hardest week runs out of road.",
+            "zh": "最終，再艱難的一週也會走到盡頭。"
+          }
+        ],
+        "sourcePage": 15
+      },
+      {
+        "front": "crack and fall apart",
+        "meaning": "裂開並碎掉",
+        "examples": [
+          {
+            "en": "The clay will crack and fall apart.",
+            "zh": "黏土會裂開並碎掉。"
+          },
+          {
+            "en": "If the old leather dries out, it may crack and fall apart.",
+            "zh": "如果舊皮革變乾，它可能會裂開並碎掉。"
+          },
+          {
+            "en": "The biscuit was so dry it started to crack and fall apart in my hand.",
+            "zh": "那塊餅乾太乾了，在我手裡開始裂開並碎掉。"
+          },
+          {
+            "en": "Without proper support, the plan will crack and fall apart under pressure.",
+            "zh": "如果沒有適當支持，這個計畫會在壓力下裂開並崩掉。"
+          },
+          {
+            "en": "Their old friendship didn’t explode; it slowly began to crack and fall apart.",
+            "zh": "他們的老友情不是突然爆炸，而是慢慢裂開並瓦解。"
+          }
+        ],
+        "sourcePage": 15
+      },
+      {
+        "front": "fire pottery in a fire pit",
+        "meaning": "在火坑裏燒製陶器",
+        "examples": [
+          {
+            "en": "Some people fire pottery in a fire pit outside.",
+            "zh": "有些人在戶外火坑裏燒製陶器。"
+          },
+          {
+            "en": "In traditional workshops, artists may fire pottery in a fire pit.",
+            "zh": "在傳統工作坊中，藝術家可能會在火坑裏燒製陶器。"
+          },
+          {
+            "en": "You should not fire pottery in a fire pit unless you understand the risks.",
+            "zh": "除非你了解風險，否則不應該在火坑裏燒製陶器。"
+          },
+          {
+            "en": "They learned how to fire pottery in a fire pit during an outdoor craft course.",
+            "zh": "他們在戶外手工藝課程中學會如何在火坑裏燒製陶器。"
+          },
+          {
+            "en": "To fire pottery in a fire pit is to let earth, flame, and patience work together.",
+            "zh": "在火坑裏燒製陶器，就是讓泥土、火焰和耐心一起工作。"
+          }
+        ],
+        "sourcePage": 15
+      },
+      {
+        "front": "bear in mind that",
+        "meaning": "要記住；謹記",
+        "examples": [
+          {
+            "en": "Bear in mind that it can be dangerous.",
+            "zh": "要記住，這可能很危險。"
+          },
+          {
+            "en": "Bear in mind that the museum closes early on Sundays.",
+            "zh": "要記住，博物館星期日會提早關門。"
+          },
+          {
+            "en": "Bear in mind that children learn at different speeds.",
+            "zh": "要記住，孩子學習的速度各有不同。"
+          },
+          {
+            "en": "Bear in mind that cheap tools can become expensive if they break twice.",
+            "zh": "要記住，便宜工具如果壞兩次，最後可能反而很貴。"
+          },
+          {
+            "en": "Bear in mind that silence is not always agreement.",
+            "zh": "要記住，沉默不一定代表同意。"
+          }
+        ],
+        "sourcePage": 15
+      },
+      {
+        "front": "safety procedures",
+        "meaning": "安全程序",
+        "examples": [
+          {
+            "en": "You need to know about safety procedures for kilns.",
+            "zh": "你需要了解窯爐的安全程序。"
+          },
+          {
+            "en": "The lab has strict safety procedures for handling chemicals.",
+            "zh": "實驗室有處理化學品的嚴格安全程序。"
+          },
+          {
+            "en": "Before the flight, the crew explained the safety procedures.",
+            "zh": "飛行前，機組人員解釋了安全程序。"
+          },
+          {
+            "en": "Safety procedures may feel boring, but they are the fence between work and disaster.",
+            "zh": "安全程序可能感覺很無聊，但它們是工作和災難之間的圍欄。"
+          },
+          {
+            "en": "Every new employee must learn the safety procedures before using the machines.",
+            "zh": "每位新員工在使用機器前都必須學習安全程序。"
+          }
+        ],
+        "sourcePage": 16
+      },
+      {
+        "front": "release toxic compounds into the air",
+        "meaning": "向空氣釋放有毒化合物",
+        "examples": [
+          {
+            "en": "Kilns release toxic compounds into the air.",
+            "zh": "窯爐會向空氣釋放有毒化合物。"
+          },
+          {
+            "en": "Some paints can release toxic compounds into the air if they are heated.",
+            "zh": "有些油漆受熱時可能會向空氣釋放有毒化合物。"
+          },
+          {
+            "en": "Factories must follow rules so they do not release toxic compounds into the air.",
+            "zh": "工廠必須遵守規定，避免向空氣釋放有毒化合物。"
+          },
+          {
+            "en": "Burning certain plastics can release toxic compounds into the air.",
+            "zh": "燃燒某些塑膠可能會向空氣釋放有毒化合物。"
+          },
+          {
+            "en": "Good ventilation matters when materials may release toxic compounds into the air.",
+            "zh": "當材料可能向空氣釋放有毒化合物時，良好的通風很重要。"
+          }
+        ],
+        "sourcePage": 16
+      },
+      {
+        "front": "this machine is used to",
+        "meaning": "這部機器用來",
+        "examples": [
+          {
+            "en": "This machine is used to shape the clay into an object.",
+            "zh": "這部機器用來把黏土塑造成物件。"
+          },
+          {
+            "en": "This machine is used to cut metal sheets into smaller pieces.",
+            "zh": "這部機器用來把金屬片切成較小的部分。"
+          },
+          {
+            "en": "This machine is used to clean the floor after closing time.",
+            "zh": "這部機器用來在打烊後清潔地板。"
+          },
+          {
+            "en": "This machine is used to scan documents quickly and clearly.",
+            "zh": "這部機器用來快速而清楚地掃描文件。"
+          },
+          {
+            "en": "This machine is used to do one job well; no drama, no guessing, no wasted time.",
+            "zh": "這部機器用來把一件事做好；不誇張、不猜測、不浪費時間。"
+          }
+        ],
+        "sourcePage": 16
+      },
+      {
+        "front": "shape the clay into",
+        "meaning": "把黏土塑造成",
+        "examples": [
+          {
+            "en": "This machine is used to shape the clay into an object.",
+            "zh": "這部機器用來把黏土塑造成物件。"
+          },
+          {
+            "en": "The children shaped the clay into small animals.",
+            "zh": "孩子們把黏土塑造成小動物。"
+          },
+          {
+            "en": "She shaped the clay into a bowl with slow, careful movements.",
+            "zh": "她用緩慢而仔細的動作把黏土塑造成一個碗。"
+          },
+          {
+            "en": "The artist shaped the clay into a face that looked almost alive.",
+            "zh": "那位藝術家把黏土塑造成一張幾乎像活著的臉。"
+          },
+          {
+            "en": "With enough patience, you can shape the clay into something useful, beautiful, or strange.",
+            "zh": "只要有足夠耐心，你可以把黏土塑造成實用、美麗或奇特的東西。"
+          }
+        ],
+        "sourcePage": 16
+      },
+      {
+        "front": "circular walls or sides",
+        "meaning": "圓形壁面或邊緣",
+        "examples": [
+          {
+            "en": "The object has circular walls or sides, such as a bowl.",
+            "zh": "這個物件有圓形壁面或邊緣，例如碗。"
+          },
+          {
+            "en": "Cups usually have circular walls or sides so they are easy to hold.",
+            "zh": "杯子通常有圓形壁面或邊緣，所以容易拿。"
+          },
+          {
+            "en": "The vase had circular walls or sides that rose smoothly from the base.",
+            "zh": "那個花瓶有圓形壁面或邊緣，從底部平滑向上延伸。"
+          },
+          {
+            "en": "On a potter’s wheel, it is easier to make circular walls or sides than square corners.",
+            "zh": "在陶輪上，做出圓形壁面或邊緣比做方角容易。"
+          },
+          {
+            "en": "The circular walls or sides gave the pot a calm, balanced shape.",
+            "zh": "圓形壁面或邊緣讓那個陶罐有平靜而平衡的形狀。"
+          }
+        ],
+        "sourcePage": 16
+      },
+      {
+        "front": "such as a bowl",
+        "meaning": "例如碗",
+        "examples": [
+          {
+            "en": "The clay can become an object with circular sides, such as a bowl.",
+            "zh": "黏土可以變成有圓形邊緣的物件，例如碗。"
+          },
+          {
+            "en": "Start with something simple, such as a bowl.",
+            "zh": "從簡單的東西開始，例如碗。"
+          },
+          {
+            "en": "Choose a useful object, such as a bowl, a cup, or a small plate.",
+            "zh": "選一個實用的物件，例如碗、杯子或小碟。"
+          },
+          {
+            "en": "A simple object, such as a bowl, can still show real skill.",
+            "zh": "一件簡單物件，例如碗，仍然可以展現真正的技巧。"
+          },
+          {
+            "en": "Something ordinary, such as a bowl, can become special when it carries someone’s hands in its shape.",
+            "zh": "普通的東西，例如碗，如果形狀裡帶著某人的雙手，也能變得特別。"
+          }
+        ],
+        "sourcePage": 16
+      },
+      {
+        "front": "revolutionised the pottery industry",
+        "meaning": "徹底改變了陶器行業",
+        "examples": [
+          {
+            "en": "Its invention revolutionised the pottery industry.",
+            "zh": "它的發明徹底改變了陶器行業。"
+          },
+          {
+            "en": "The potter’s wheel revolutionised the pottery industry by making production faster.",
+            "zh": "陶輪透過提高生產速度，徹底改變了陶器行業。"
+          },
+          {
+            "en": "Better temperature control revolutionised the pottery industry in modern studios.",
+            "zh": "更好的溫度控制徹底改變了現代工作室中的陶器行業。"
+          },
+          {
+            "en": "Online selling has revolutionised the pottery industry for small independent artists.",
+            "zh": "網上銷售徹底改變了小型獨立藝術家的陶器行業。"
+          },
+          {
+            "en": "One simple tool revolutionised the pottery industry; sometimes a wheel can move a whole world.",
+            "zh": "一件簡單工具徹底改變了陶器行業；有時一個輪子能推動整個世界。"
+          }
+        ],
+        "sourcePage": 16
+      },
+      {
+        "front": "multiple items",
+        "meaning": "多件物品；多件作品",
+        "examples": [
+          {
+            "en": "The wheel allows multiple items to be produced in a day.",
+            "zh": "陶輪使多件作品能在一天內製作出來。"
+          },
+          {
+            "en": "You can order multiple items from the same shop to save on delivery.",
+            "zh": "你可以從同一家店訂購多件物品，以節省運費。"
+          },
+          {
+            "en": "The teacher asked us to compare multiple items on the list.",
+            "zh": "老師要求我們比較清單上的多件物品。"
+          },
+          {
+            "en": "The app lets you edit multiple items at the same time.",
+            "zh": "這個 app 讓你可以同時編輯多個項目。"
+          },
+          {
+            "en": "Making multiple items by hand takes rhythm, patience, and a table big enough for the mess.",
+            "zh": "手工製作多件作品需要節奏、耐心，以及一張夠大、能承受混亂的桌子。"
+          }
+        ],
+        "sourcePage": 17
+      },
+      {
+        "front": "to be produced in a day",
+        "meaning": "在一天內製作出來",
+        "examples": [
+          {
+            "en": "Multiple items can be produced in a day.",
+            "zh": "多件作品可以在一天內製作出來。"
+          },
+          {
+            "en": "With the new printer, hundreds of labels can be produced in a day.",
+            "zh": "使用新打印機，數百張標籤可以在一天內製作出來。"
+          },
+          {
+            "en": "Only a few handmade bowls can be produced in a day.",
+            "zh": "手工碗一天內只能製作出幾個。"
+          },
+          {
+            "en": "More videos can be produced in a day if the script is ready first.",
+            "zh": "如果劇本先準備好，一天內可以製作出更多影片。"
+          },
+          {
+            "en": "Quality work can be produced in a day, but only if yesterday did its homework.",
+            "zh": "高品質作品可以在一天內製作出來，但前提是昨天已經做好準備。"
+          }
+        ],
+        "sourcePage": 17
+      },
+      {
+        "front": "a number of different tools",
+        "meaning": "多種不同工具",
+        "examples": [
+          {
+            "en": "There are a number of different tools that potters use.",
+            "zh": "陶藝家會使用多種不同工具。"
+          },
+          {
+            "en": "You’ll need a number of different tools to repair the bike.",
+            "zh": "你需要多種不同工具來修理那輛單車。"
+          },
+          {
+            "en": "The website offers a number of different tools for editing photos.",
+            "zh": "這個網站提供多種不同工具來編輯照片。"
+          },
+          {
+            "en": "Teachers use a number of different tools to explain difficult ideas.",
+            "zh": "老師會使用多種不同工具來解釋困難概念。"
+          },
+          {
+            "en": "A number of different tools can help, but the best tool is still a clear mind.",
+            "zh": "多種不同工具可以幫忙，但最好的工具仍然是清楚的頭腦。"
+          }
+        ],
+        "sourcePage": 17
+      },
+      {
+        "front": "depending on what they want to make",
+        "meaning": "視乎他們想製作甚麼",
+        "examples": [
+          {
+            "en": "Potters use different tools depending on what they want to make.",
+            "zh": "陶藝家會視乎他們想製作甚麼而使用不同工具。"
+          },
+          {
+            "en": "Students choose different courses depending on what they want to make of their future.",
+            "zh": "學生會視乎他們想打造怎樣的未來而選擇不同課程。"
+          },
+          {
+            "en": "Designers choose materials depending on what they want to make.",
+            "zh": "設計師會視乎他們想製作甚麼而選擇材料。"
+          },
+          {
+            "en": "Cooks use different knives depending on what they want to make.",
+            "zh": "廚師會視乎他們想做甚麼菜而使用不同刀具。"
+          },
+          {
+            "en": "Artists may work fast or slowly, depending on what they want to make and what the material allows.",
+            "zh": "藝術家可能會快做或慢做，視乎他們想製作甚麼，以及材料允許甚麼。"
+          }
+        ],
+        "sourcePage": 17
+      },
+      {
+        "front": "all kinds of shapes and curves",
+        "meaning": "各種形狀和曲線",
+        "examples": [
+          {
+            "en": "Your hands can make all kinds of shapes and curves.",
+            "zh": "你的雙手可以做出各種形狀和曲線。"
+          },
+          {
+            "en": "Children draw all kinds of shapes and curves before they learn letters.",
+            "zh": "孩子在學字母前，會畫出各種形狀和曲線。"
+          },
+          {
+            "en": "The road through the mountains has all kinds of shapes and curves.",
+            "zh": "穿過山區的道路有各種形狀和曲線。"
+          },
+          {
+            "en": "With clay, you can create all kinds of shapes and curves, from clean lines to wild edges.",
+            "zh": "使用黏土時，你可以創作各種形狀和曲線，從乾淨線條到狂野邊緣都可以。"
+          },
+          {
+            "en": "Her handwriting has all kinds of shapes and curves, like little waves on paper.",
+            "zh": "她的字跡有各種形狀和曲線，像紙上的小波浪。"
+          }
+        ],
+        "sourcePage": 17
+      },
+      {
+        "front": "without relying on",
+        "meaning": "不依賴",
+        "examples": [
+          {
+            "en": "Your hands can make shapes without relying on a sculpting tool.",
+            "zh": "你的雙手可以不依賴雕塑工具做出形狀。"
+          },
+          {
+            "en": "She learned to cook without relying on ready-made sauces.",
+            "zh": "她學會不依賴現成醬料做飯。"
+          },
+          {
+            "en": "Try to explain the idea without relying on complicated words.",
+            "zh": "試著不依賴複雜詞語來解釋這個想法。"
+          },
+          {
+            "en": "He travelled across the city without relying on his phone.",
+            "zh": "他不依賴手機，穿越了整個城市。"
+          },
+          {
+            "en": "Real confidence means standing up without relying on applause.",
+            "zh": "真正的自信，是不依賴掌聲也能站穩。"
+          }
+        ],
+        "sourcePage": 17
+      },
+      {
+        "front": "a sculpting tool",
+        "meaning": "雕塑工具",
+        "examples": [
+          {
+            "en": "You can make shapes without relying on a sculpting tool.",
+            "zh": "你可以不依賴雕塑工具做出形狀。"
+          },
+          {
+            "en": "A sculpting tool helps you cut, smooth, and shape the clay.",
+            "zh": "雕塑工具可以幫你切割、抹平和塑造黏土。"
+          },
+          {
+            "en": "She used a small sculpting tool to add lines to the face.",
+            "zh": "她用一把小雕塑工具在臉上加上線條。"
+          },
+          {
+            "en": "Don’t press too hard with a sculpting tool, or you may damage the surface.",
+            "zh": "使用雕塑工具時不要壓太大力，否則可能會損壞表面。"
+          },
+          {
+            "en": "A sculpting tool is useful, but your hands still do the thinking.",
+            "zh": "雕塑工具很有用，但你的雙手仍然負責思考。"
+          }
+        ],
+        "sourcePage": 17
+      },
+      {
+        "front": "basic tools",
+        "meaning": "基本工具",
+        "examples": [
+          {
+            "en": "There are some basic tools that you will need.",
+            "zh": "你會需要一些基本工具。"
+          },
+          {
+            "en": "You only need basic tools to fix a loose handle.",
+            "zh": "你只需要基本工具就能修好鬆動的手柄。"
+          },
+          {
+            "en": "A notebook, a pen, and a calendar are basic tools for staying organised.",
+            "zh": "筆記本、筆和日曆是保持有條理的基本工具。"
+          },
+          {
+            "en": "Beginners should start with basic tools before buying expensive equipment.",
+            "zh": "初學者應該先從基本工具開始，再買昂貴設備。"
+          },
+          {
+            "en": "Basic tools are humble, but they can build beautiful things in patient hands.",
+            "zh": "基本工具很樸素，但在有耐心的手中能造出美麗的東西。"
+          }
+        ],
+        "sourcePage": 18
+      },
+      {
+        "front": "handle the clay",
+        "meaning": "處理黏土",
+        "examples": [
+          {
+            "en": "You will need some basic tools to handle the clay on the wheel.",
+            "zh": "你會需要一些基本工具在陶輪上處理黏土。"
+          },
+          {
+            "en": "Handle the clay gently, or it may lose its shape.",
+            "zh": "要輕柔地處理黏土，否則它可能會變形。"
+          },
+          {
+            "en": "Beginners often handle the clay too firmly at first.",
+            "zh": "初學者一開始常常太用力處理黏土。"
+          },
+          {
+            "en": "Learning to handle the clay is really learning to listen with your hands.",
+            "zh": "學會處理黏土，其實就是學會用雙手聆聽。"
+          },
+          {
+            "en": "If the clay is too wet, it becomes harder to handle the clay cleanly.",
+            "zh": "如果黏土太濕，就比較難乾淨俐落地處理黏土。"
+          }
+        ],
+        "sourcePage": 18
+      },
+      {
+        "front": "on the wheel",
+        "meaning": "在陶輪上",
+        "examples": [
+          {
+            "en": "You need tools to handle the clay on the wheel.",
+            "zh": "你需要工具在陶輪上處理黏土。"
+          },
+          {
+            "en": "The clay began to rise slowly on the wheel.",
+            "zh": "黏土在陶輪上慢慢升高成形。"
+          },
+          {
+            "en": "She shaped her first bowl on the wheel.",
+            "zh": "她在陶輪上做出了第一個碗。"
+          },
+          {
+            "en": "On the wheel, even a small mistake can turn into a dancing disaster.",
+            "zh": "在陶輪上，即使一個小錯誤也可能變成跳舞般的災難。"
+          },
+          {
+            "en": "Keep your hands steady on the wheel, and let the clay move with you.",
+            "zh": "在陶輪上保持雙手穩定，讓黏土跟著你移動。"
+          }
+        ],
+        "sourcePage": 18
+      },
+      {
+        "front": "look very strange",
+        "meaning": "看起來很奇怪",
+        "examples": [
+          {
+            "en": "Some tools look very strange.",
+            "zh": "有些工具看起來很奇怪。"
+          },
+          {
+            "en": "The instructions look very strange at first, but they make sense later.",
+            "zh": "這些說明一開始看起來很奇怪，但後來就說得通了。"
+          },
+          {
+            "en": "These mushrooms look very strange, so don’t eat them unless you’re sure.",
+            "zh": "這些蘑菇看起來很奇怪，所以除非你確定，否則不要吃。"
+          },
+          {
+            "en": "The new building may look very strange, but it uses space cleverly.",
+            "zh": "那棟新建築可能看起來很奇怪，但它很聰明地利用了空間。"
+          },
+          {
+            "en": "My first drawing looked very strange, like a cat designed by a committee.",
+            "zh": "我的第一幅畫看起來很奇怪，像一隻由委員會設計出來的貓。"
+          }
+        ],
+        "sourcePage": 18
+      },
+      {
+        "front": "have even odder names",
+        "meaning": "名稱甚至更古怪",
+        "examples": [
+          {
+            "en": "Some tools have even odder names.",
+            "zh": "有些工具的名稱甚至更古怪。"
+          },
+          {
+            "en": "Some old English villages have even odder names than you expect.",
+            "zh": "有些英國老村莊的名稱比你想像中更古怪。"
+          },
+          {
+            "en": "The dishes looked unusual and had even odder names.",
+            "zh": "那些菜看起來很特別，名稱甚至更古怪。"
+          },
+          {
+            "en": "The software tools have even odder names, but they do useful jobs.",
+            "zh": "那些軟件工具的名稱甚至更古怪，但功能很實用。"
+          },
+          {
+            "en": "The stars have beautiful names, but some insects have even odder names.",
+            "zh": "星星有美麗的名字，但有些昆蟲的名稱甚至更古怪。"
+          }
+        ],
+        "sourcePage": 18
+      },
+      {
+        "front": "find hard to remember",
+        "meaning": "覺得很難記住",
+        "examples": [
+          {
+            "en": "You may find the names hard to remember.",
+            "zh": "你可能會覺得那些名稱很難記住。"
+          },
+          {
+            "en": "I find people’s birthdays hard to remember unless I write them down.",
+            "zh": "如果我不寫下來，我會覺得別人的生日很難記住。"
+          },
+          {
+            "en": "Many students find irregular verbs hard to remember.",
+            "zh": "許多學生覺得不規則動詞很難記住。"
+          },
+          {
+            "en": "You might find the safety rules hard to remember at first.",
+            "zh": "一開始你可能會覺得安全規則很難記住。"
+          },
+          {
+            "en": "I find passwords hard to remember; they breed in the dark like tiny monsters.",
+            "zh": "我覺得密碼很難記住；它們像小怪物一樣在黑暗中繁殖。"
+          }
+        ],
+        "sourcePage": 18
+      },
+      {
+        "front": "rather than",
+        "meaning": "與其",
+        "examples": [
+          {
+            "en": "Rather than go through them all now, I’ll just name a few tools as we go along.",
+            "zh": "與其現在逐一講解全部工具，我會在過程中介紹幾個。"
+          },
+          {
+            "en": "Rather than argue, let’s look at the facts.",
+            "zh": "與其爭論，不如看看事實。"
+          },
+          {
+            "en": "I’d rather walk than wait twenty minutes for a bus.",
+            "zh": "與其等二十分鐘巴士，我寧願走路。"
+          },
+          {
+            "en": "Rather than buying more things, try using what you already have.",
+            "zh": "與其買更多東西，不如試著使用你已經有的東西。"
+          },
+          {
+            "en": "Rather than chase perfection, build something useful, honest, and alive.",
+            "zh": "與其追求完美，不如做出有用、真誠、有生命力的東西。"
+          }
+        ],
+        "sourcePage": 18
+      },
+      {
+        "front": "go through them all",
+        "meaning": "逐一講解／逐一查看",
+        "examples": [
+          {
+            "en": "I won’t go through them all now.",
+            "zh": "我現在不會逐一講解全部。"
+          },
+          {
+            "en": "There are too many emails, so I’ll go through them all after lunch.",
+            "zh": "電郵太多了，所以我午餐後會逐一查看。"
+          },
+          {
+            "en": "We don’t have time to go through them all in today’s meeting.",
+            "zh": "今天的會議沒有時間逐一討論全部內容。"
+          },
+          {
+            "en": "The teacher will go through them all before the exam.",
+            "zh": "老師會在考試前逐一講解全部內容。"
+          },
+          {
+            "en": "The photos are lovely, but I can’t go through them all tonight; there are hundreds.",
+            "zh": "這些照片很漂亮，但我今晚沒辦法逐一看完；有幾百張。"
+          }
+        ],
+        "sourcePage": 19
+      },
+      {
+        "front": "as we go along",
+        "meaning": "在過程中；一邊做一邊",
+        "examples": [
+          {
+            "en": "I’ll just name a few tools as we go along.",
+            "zh": "我會在過程中介紹幾個工具名稱。"
+          },
+          {
+            "en": "We can fix small problems as we go along.",
+            "zh": "我們可以在過程中解決小問題。"
+          },
+          {
+            "en": "Don’t worry about every detail now; we’ll explain things as we go along.",
+            "zh": "現在不用擔心每個細節；我們會一邊做一邊解釋。"
+          },
+          {
+            "en": "You’ll pick up the rhythm as we go along.",
+            "zh": "你會在過程中慢慢掌握節奏。"
+          },
+          {
+            "en": "Let’s start simple and adjust as we go along; good plans need room to breathe.",
+            "zh": "我們先簡單開始，再一邊做一邊調整；好的計畫需要呼吸空間。"
+          }
+        ],
+        "sourcePage": 19
+      },
+      {
+        "front": "provide these",
+        "meaning": "提供這些工具／提供這些",
+        "examples": [
+          {
+            "en": "We can provide these.",
+            "zh": "我們可以提供這些工具。"
+          },
+          {
+            "en": "You don’t need to bring gloves; we provide these at the entrance.",
+            "zh": "你不需要帶手套；我們會在入口處提供這些。"
+          },
+          {
+            "en": "The school can provide these books for students who need them.",
+            "zh": "學校可以為有需要的學生提供這些書。"
+          },
+          {
+            "en": "If you need extra forms, the office can provide these.",
+            "zh": "如果你需要額外表格，辦公室可以提供這些。"
+          },
+          {
+            "en": "We provide these tools so beginners can start without buying half the shop.",
+            "zh": "我們提供這些工具，讓初學者不用買下半間店就能開始。"
+          }
+        ],
+        "sourcePage": 19
+      },
+      {
+        "front": "wouldn’t recommend spending money on",
+        "meaning": "不建議花錢買",
+        "examples": [
+          {
+            "en": "I wouldn’t recommend spending money on them yet.",
+            "zh": "我暫時不建議花錢買它們。"
+          },
+          {
+            "en": "I wouldn’t recommend spending money on expensive shoes until you know you like running.",
+            "zh": "在你確定自己喜歡跑步前，我不建議花錢買昂貴跑鞋。"
+          },
+          {
+            "en": "I wouldn’t recommend spending money on that app when the free version works well.",
+            "zh": "如果免費版本已經很好用，我不建議花錢買那個 app。"
+          },
+          {
+            "en": "I wouldn’t recommend spending money on new equipment before you learn the basics.",
+            "zh": "在你學會基礎之前，我不建議花錢買新設備。"
+          },
+          {
+            "en": "I wouldn’t recommend spending money on a fancy planner if you never open the simple one.",
+            "zh": "如果你連簡單的記事本都不打開，我不建議花錢買高級手帳。"
+          }
+        ],
+        "sourcePage": 19
+      },
+      {
+        "front": "not yet",
+        "meaning": "暫時還不",
+        "examples": [
+          {
+            "en": "I wouldn’t recommend spending money on them yet.",
+            "zh": "我暫時還不建議花錢買它們。"
+          },
+          {
+            "en": "Are you ready to leave? Not yet.",
+            "zh": "你準備好離開了嗎？暫時還不。"
+          },
+          {
+            "en": "The cake isn’t ready yet; give it another ten minutes.",
+            "zh": "蛋糕暫時還沒好；再給它十分鐘。"
+          },
+          {
+            "en": "I haven’t decided yet, but I’m leaning towards yes.",
+            "zh": "我暫時還沒決定，但我比較傾向答應。"
+          },
+          {
+            "en": "Not yet doesn’t mean never; sometimes it just means the door is still warming up.",
+            "zh": "暫時還不，不代表永遠不；有時只是那扇門還在慢慢打開。"
+          }
+        ],
+        "sourcePage": 19
+      },
+      {
+        "front": "try making a pot of your own",
+        "meaning": "試着自己做一個陶罐",
+        "examples": [
+          {
+            "en": "So let’s try making a pot of your own.",
+            "zh": "那我們來試着自己做一個陶罐吧。"
+          },
+          {
+            "en": "In today’s workshop, you’ll try making a pot of your own.",
+            "zh": "在今天的工作坊裡，你會試着自己做一個陶罐。"
+          },
+          {
+            "en": "If you enjoy working with your hands, try making a pot of your own.",
+            "zh": "如果你喜歡用雙手做東西，可以試着自己做一個陶罐。"
+          },
+          {
+            "en": "You don’t need to be perfect; just try making a pot of your own and see what happens.",
+            "zh": "你不需要完美；只要試着自己做一個陶罐，看看會發生什麼。"
+          },
+          {
+            "en": "Try making a pot of your own — it may wobble, but it will be yours.",
+            "zh": "試着自己做一個陶罐吧——它可能會歪歪的，但它會是你的。"
+          }
+        ],
+        "sourcePage": 19
+      },
+      {
+        "front": "check your answers",
+        "meaning": "檢查答案",
+        "examples": [
+          {
+            "en": "You now have 30 seconds to check your answers to Part 2.",
+            "zh": "你現在有 30 秒時間檢查第二部分的答案。"
+          },
+          {
+            "en": "Please check your answers before you hand in the paper.",
+            "zh": "交卷前，請檢查答案。"
+          },
+          {
+            "en": "I always check my answers twice when the maths looks too easy.",
+            "zh": "當數學題看起來太容易時，我總會檢查答案兩次。"
+          },
+          {
+            "en": "After finishing the quiz, take a minute to check your answers.",
+            "zh": "完成小測後，花一分鐘檢查答案。"
+          },
+          {
+            "en": "Check your answers slowly; careless mistakes love rushing students.",
+            "zh": "慢慢檢查答案；粗心錯誤最愛趕時間的學生。"
+          }
+        ],
+        "sourcePage": 19
+      },
+      {
+        "front": "differs from",
+        "meaning": "與……不同",
+        "examples": [
+          {
+            "en": "Pottery differs from other art forms because it lasts longer in the ground.",
+            "zh": "陶器與其他藝術形式不同，因為它在泥土中保存得更久。"
+          },
+          {
+            "en": "Spoken English differs from written English in many small ways.",
+            "zh": "英語口語和書面英語在很多小地方不同。"
+          },
+          {
+            "en": "This phone differs from the older model mainly in its camera and battery life.",
+            "zh": "這部手機與舊型號主要在相機和電池續航方面不同。"
+          },
+          {
+            "en": "City life differs from village life in pace, noise, and price.",
+            "zh": "城市生活與鄉村生活在節奏、噪音和物價方面不同。"
+          },
+          {
+            "en": "A good idea differs from a dream because it has legs, tools, and a plan.",
+            "zh": "好點子與夢想不同，因為它有方向、有工具、有計畫。"
+          }
+        ],
+        "sourcePage": 20
+      },
+      {
+        "front": "other art forms",
+        "meaning": "其他藝術形式",
+        "examples": [
+          {
+            "en": "Pottery differs from other art forms.",
+            "zh": "陶器與其他藝術形式不同。"
+          },
+          {
+            "en": "Dance, music, and film are other art forms that can tell powerful stories.",
+            "zh": "舞蹈、音樂和電影是其他能講述有力故事的藝術形式。"
+          },
+          {
+            "en": "Compared with other art forms, pottery is both useful and beautiful.",
+            "zh": "與其他藝術形式相比，陶器既實用又美麗。"
+          },
+          {
+            "en": "Some students enjoy painting more than other art forms.",
+            "zh": "有些學生比起其他藝術形式，更喜歡繪畫。"
+          },
+          {
+            "en": "Other art forms may live on paper or screens, but pottery lives in the hand.",
+            "zh": "其他藝術形式可能存在於紙上或螢幕上，但陶器存在於手中。"
+          }
+        ],
+        "sourcePage": 20
+      },
+      {
+        "front": "lasts longer in the ground",
+        "meaning": "在泥土中保存得更久",
+        "examples": [
+          {
+            "en": "Pottery lasts longer in the ground than many other objects.",
+            "zh": "陶器比許多其他物品在泥土中保存得更久。"
+          },
+          {
+            "en": "Fired clay lasts longer in the ground than wood or cloth.",
+            "zh": "燒製過的黏土比木頭或布料在泥土中保存得更久。"
+          },
+          {
+            "en": "Bone sometimes lasts longer in the ground when conditions are dry.",
+            "zh": "在乾燥環境中，骨頭有時在泥土中保存得更久。"
+          },
+          {
+            "en": "Metal may rust, but pottery often lasts longer in the ground.",
+            "zh": "金屬可能會生鏽，但陶器通常在泥土中保存得更久。"
+          },
+          {
+            "en": "Pottery lasts longer in the ground, like a quiet note left for the future.",
+            "zh": "陶器在泥土中保存得更久，像留給未來的一張安靜字條。"
+          }
+        ],
+        "sourcePage": 20
+      },
+      {
+        "front": "is practised by",
+        "meaning": "被……從事；被……練習",
+        "examples": [
+          {
+            "en": "Pottery is practised by many people around the world.",
+            "zh": "陶藝被世界各地許多人從事。"
+          },
+          {
+            "en": "Yoga is practised by people of all ages.",
+            "zh": "瑜伽被各個年齡層的人練習。"
+          },
+          {
+            "en": "Calligraphy is practised by students who want patience as much as beauty.",
+            "zh": "書法被那些既想要耐心、也想要美感的學生練習。"
+          },
+          {
+            "en": "This tradition is practised by families every spring.",
+            "zh": "這項傳統每年春天被許多家庭實踐。"
+          },
+          {
+            "en": "Meditation is practised by many people because the mind, like a room, needs clearing.",
+            "zh": "冥想被許多人練習，因為心靈就像房間一樣，需要整理。"
+          }
+        ],
+        "sourcePage": 20
+      },
+      {
+        "front": "repaired more easily",
+        "meaning": "較容易修復",
+        "examples": [
+          {
+            "en": "Some objects can be repaired more easily than others.",
+            "zh": "有些物件比其他物件較容易修復。"
+          },
+          {
+            "en": "A wooden chair can often be repaired more easily than a plastic one.",
+            "zh": "木椅通常比塑膠椅較容易修復。"
+          },
+          {
+            "en": "Small software problems can usually be repaired more easily than hardware damage.",
+            "zh": "小型軟件問題通常比硬件損壞較容易修復。"
+          },
+          {
+            "en": "Clothes with simple stitching can be repaired more easily.",
+            "zh": "縫線簡單的衣服較容易修復。"
+          },
+          {
+            "en": "Trust is not like a broken cup; it cannot always be repaired more easily with glue.",
+            "zh": "信任不像破杯子；它不一定能靠膠水較容易修復。"
+          }
+        ],
+        "sourcePage": 20
+      },
+      {
+        "front": "archaeologists",
+        "meaning": "考古學家",
+        "examples": [
+          {
+            "en": "Archaeologists sometimes identify the use of ancient pottery.",
+            "zh": "考古學家有時會辨認古代陶器的用途。"
+          },
+          {
+            "en": "Archaeologists study objects left behind by earlier people.",
+            "zh": "考古學家研究早期人類留下的物件。"
+          },
+          {
+            "en": "Archaeologists found pieces of pottery near the river.",
+            "zh": "考古學家在河邊發現了陶器碎片。"
+          },
+          {
+            "en": "Archaeologists can learn a lot from rubbish, which is both funny and humbling.",
+            "zh": "考古學家能從垃圾中學到很多，這既有趣又讓人謙卑。"
+          },
+          {
+            "en": "To archaeologists, a broken bowl can be a small door into the past.",
+            "zh": "對考古學家來說，一個破碗可能是通往過去的小門。"
+          }
+        ],
+        "sourcePage": 20
+      },
+      {
+        "front": "identify the use of",
+        "meaning": "辨認……的用途",
+        "examples": [
+          {
+            "en": "Archaeologists can identify the use of ancient pottery from the marks on it.",
+            "zh": "考古學家可以從古代陶器上的痕跡辨認它的用途。"
+          },
+          {
+            "en": "Experts can identify the use of a tool by studying its worn edges.",
+            "zh": "專家可以透過研究工具磨損的邊緣來辨認它的用途。"
+          },
+          {
+            "en": "Doctors try to identify the use of each medicine before changing treatment.",
+            "zh": "醫生在改變治療前，會嘗試辨認每種藥的用途。"
+          },
+          {
+            "en": "Teachers can identify the use of a learning app by watching how students interact with it.",
+            "zh": "老師可以透過觀察學生如何使用學習 app，辨認它的用途。"
+          },
+          {
+            "en": "Sometimes one small scratch can help identify the use of an object.",
+            "zh": "有時一道小刮痕就能幫助辨認一件物品的用途。"
+          }
+        ],
+        "sourcePage": 20
+      },
+      {
+        "front": "ancient pottery",
+        "meaning": "古代陶器",
+        "examples": [
+          {
+            "en": "Archaeologists study ancient pottery.",
+            "zh": "考古學家研究古代陶器。"
+          },
+          {
+            "en": "Ancient pottery can show what people cooked, stored, and traded.",
+            "zh": "古代陶器可以顯示人們煮什麼、儲存什麼、交易什麼。"
+          },
+          {
+            "en": "The museum has a room full of ancient pottery.",
+            "zh": "那間博物館有一個房間滿是古代陶器。"
+          },
+          {
+            "en": "Ancient pottery may look simple, but it carries old hands and old habits.",
+            "zh": "古代陶器可能看起來簡單，但它帶著古人的手和生活習慣。"
+          },
+          {
+            "en": "By studying ancient pottery, we can hear daily life whispering through clay.",
+            "zh": "透過研究古代陶器，我們可以聽見日常生活透過黏土低語。"
+          }
+        ],
+        "sourcePage": 21
+      },
+      {
+        "front": "the clay it was made with",
+        "meaning": "它所用的黏土",
+        "examples": [
+          {
+            "en": "They looked at the clay it was made with.",
+            "zh": "他們查看了它所用的黏土。"
+          },
+          {
+            "en": "The clay it was made with came from a nearby riverbank.",
+            "zh": "它所用的黏土來自附近河岸。"
+          },
+          {
+            "en": "Experts tested the clay it was made with to find its origin.",
+            "zh": "專家測試它所用的黏土，以找出它的來源。"
+          },
+          {
+            "en": "The colour of the clay it was made with gave researchers a clue.",
+            "zh": "它所用的黏土顏色給了研究人員一個線索。"
+          },
+          {
+            "en": "The clay it was made with carried the place inside it, like soil with a memory.",
+            "zh": "它所用的黏土把那個地方帶在身上，像有記憶的泥土。"
+          }
+        ],
+        "sourcePage": 21
+      },
+      {
+        "front": "the marks that are on it",
+        "meaning": "上面的痕跡",
+        "examples": [
+          {
+            "en": "They identified the pot’s use from the marks that were on it.",
+            "zh": "他們從陶罐上面的痕跡辨認出它的用途。"
+          },
+          {
+            "en": "The marks that are on it may show how it was made.",
+            "zh": "上面的痕跡可能顯示它是如何製作的。"
+          },
+          {
+            "en": "Look closely at the marks that are on it before you clean it.",
+            "zh": "清潔它之前，先仔細看看上面的痕跡。"
+          },
+          {
+            "en": "The marks that are on it tell a story of tools, hands, and heat.",
+            "zh": "上面的痕跡講述了工具、雙手和高溫的故事。"
+          },
+          {
+            "en": "The marks that are on it may seem small, but small marks often open big doors.",
+            "zh": "上面的痕跡可能看起來很小，但小痕跡常常打開大門。"
+          }
+        ],
+        "sourcePage": 21
+      },
+      {
+        "front": "the basic shape of it",
+        "meaning": "它的基本形狀",
+        "examples": [
+          {
+            "en": "The basic shape of it can sometimes give clues.",
+            "zh": "它的基本形狀有時可以提供線索。"
+          },
+          {
+            "en": "The basic shape of it tells us whether it was a bowl or a jar.",
+            "zh": "它的基本形狀能告訴我們它是碗還是罐。"
+          },
+          {
+            "en": "I like the basic shape of it, but the colour feels too bright.",
+            "zh": "我喜歡它的基本形狀，但顏色感覺太亮。"
+          },
+          {
+            "en": "The basic shape of it stayed the same, though the details changed.",
+            "zh": "雖然細節改變了，但它的基本形狀保持不變。"
+          },
+          {
+            "en": "The basic shape of it is simple, and that simplicity does the talking.",
+            "zh": "它的基本形狀很簡單，而那份簡單自己會說話。"
+          }
+        ],
+        "sourcePage": 21
+      },
+      {
+        "front": "join a pottery class",
+        "meaning": "參加陶藝班",
+        "examples": [
+          {
+            "en": "Some people join Heather’s pottery class because they want to make something lasting.",
+            "zh": "有些人參加 Heather 的陶藝班，因為他們想做出能長久保存的東西。"
+          },
+          {
+            "en": "I want to join a pottery class this summer.",
+            "zh": "我今年夏天想參加陶藝班。"
+          },
+          {
+            "en": "She joined a pottery class to relax after work.",
+            "zh": "她參加陶藝班，是為了下班後放鬆。"
+          },
+          {
+            "en": "If you enjoy making things with your hands, join a pottery class.",
+            "zh": "如果你喜歡用手做東西，可以參加陶藝班。"
+          },
+          {
+            "en": "He joined a pottery class and discovered that clay has a stubborn little personality.",
+            "zh": "他參加陶藝班後發現，黏土有一點固執的小個性。"
+          }
+        ],
+        "sourcePage": 21
+      },
+      {
+        "front": "create an item",
+        "meaning": "創作一件物品",
+        "examples": [
+          {
+            "en": "They want to create an item that will outlive them.",
+            "zh": "他們想創作一件比自己存在得更久的物品。"
+          },
+          {
+            "en": "Each student will create an item to take home.",
+            "zh": "每位學生都會創作一件物品帶回家。"
+          },
+          {
+            "en": "The designer wanted to create an item that was useful, simple, and beautiful.",
+            "zh": "設計師想創作一件實用、簡單又美麗的物品。"
+          },
+          {
+            "en": "You don’t need expensive tools to create an item with meaning.",
+            "zh": "你不需要昂貴工具，也能創作一件有意義的物品。"
+          },
+          {
+            "en": "To create an item by hand is to leave a fingerprint on the world.",
+            "zh": "親手創作一件物品，就是在世界上留下指紋。"
+          }
+        ],
+        "sourcePage": 21
+      },
+      {
+        "front": "looks very old",
+        "meaning": "看起來很古老",
+        "examples": [
+          {
+            "en": "The pot looks very old, but it was made recently.",
+            "zh": "那個陶罐看起來很古老，但其實是最近製作的。"
+          },
+          {
+            "en": "This map looks very old, but it’s actually a modern copy.",
+            "zh": "這張地圖看起來很古老，但其實是現代複製品。"
+          },
+          {
+            "en": "The building looks very old from the outside.",
+            "zh": "那棟建築從外面看起來很古老。"
+          },
+          {
+            "en": "His jacket looks very old, but he refuses to throw it away.",
+            "zh": "他的外套看起來很舊，但他拒絕丟掉。"
+          },
+          {
+            "en": "The notebook looks very old, as if every page has been carrying rain.",
+            "zh": "那本筆記本看起來很古老，好像每一頁都背著雨水。"
+          }
+        ],
+        "sourcePage": 21
+      },
+      {
+        "front": "find something that they are good at",
+        "meaning": "找到自己擅長的事情",
+        "examples": [
+          {
+            "en": "Some people want to find something that they are good at.",
+            "zh": "有些人想找到自己擅長的事情。"
+          },
+          {
+            "en": "Many teenagers are trying to find something that they are good at.",
+            "zh": "許多青少年正在嘗試找到自己擅長的事情。"
+          },
+          {
+            "en": "Trying different hobbies can help you find something that you are good at.",
+            "zh": "嘗試不同興趣可以幫助你找到自己擅長的事情。"
+          },
+          {
+            "en": "She joined the club to find something that she was good at outside school.",
+            "zh": "她參加那個社團，是想在學校以外找到自己擅長的事情。"
+          },
+          {
+            "en": "Finding something that you are good at can feel like finding a room with your name on the door.",
+            "zh": "找到自己擅長的事情，感覺就像找到一個門上寫著你名字的房間。"
+          }
+        ],
+        "sourcePage": 22
+      },
+      {
+        "front": "make something that will outlive them",
+        "meaning": "做出比自己存在得更久的東西",
+        "examples": [
+          {
+            "en": "They want to make something that will outlive them.",
+            "zh": "他們想做出比自己存在得更久的東西。"
+          },
+          {
+            "en": "Many artists hope to make something that will outlive them.",
+            "zh": "許多藝術家希望做出比自己存在得更久的東西。"
+          },
+          {
+            "en": "He planted trees because he wanted to make something that would outlive him.",
+            "zh": "他種樹，因為他想做出比自己存在得更久的東西。"
+          },
+          {
+            "en": "Writers often dream of making something that will outlive them.",
+            "zh": "作家常夢想做出比自己存在得更久的東西。"
+          },
+          {
+            "en": "To make something that will outlive you is a quiet way of shaking hands with the future.",
+            "zh": "做出比自己存在得更久的東西，是一種與未來安靜握手的方式。"
+          }
+        ],
+        "sourcePage": 22
+      },
+      {
+        "front": "outlive them",
+        "meaning": "比他們活得更久；比他們存在得更久",
+        "examples": [
+          {
+            "en": "A well-made pot may outlive them.",
+            "zh": "一個製作良好的陶罐可能比他們存在得更久。"
+          },
+          {
+            "en": "A strong bridge can outlive the people who built it.",
+            "zh": "一座堅固的橋可以比建造它的人存在得更久。"
+          },
+          {
+            "en": "Some songs outlive their singers.",
+            "zh": "有些歌曲比演唱者存在得更久。"
+          },
+          {
+            "en": "A good idea can outlive the room where it was first spoken.",
+            "zh": "一個好想法可以比它第一次被說出的房間存在得更久。"
+          },
+          {
+            "en": "Trees often outlive us, which is why planting one feels generous.",
+            "zh": "樹常常比我們存在得更久，所以種樹感覺很慷慨。"
+          }
+        ],
+        "sourcePage": 22
+      },
+      {
+        "front": "value most about",
+        "meaning": "最重視……的哪一點",
+        "examples": [
+          {
+            "en": "What does Heather value most about being a potter?",
+            "zh": "Heather 最重視作為一名陶藝家的哪一點？"
+          },
+          {
+            "en": "What do you value most about your job?",
+            "zh": "你最重視你工作中的哪一點？"
+          },
+          {
+            "en": "She values most about teaching the moment when a student suddenly understands.",
+            "zh": "她最重視教學中的一點，是學生突然明白的那一刻。"
+          },
+          {
+            "en": "What I value most about this city is its mix of noise, history, and kindness.",
+            "zh": "我最重視這座城市的一點，是它混合了喧鬧、歷史和善意。"
+          },
+          {
+            "en": "He values most about friendship the fact that he can be quiet and still understood.",
+            "zh": "他最重視友誼的一點，是他可以安靜不說話，仍然被理解。"
+          }
+        ],
+        "sourcePage": 22
+      },
+      {
+        "front": "being a potter",
+        "meaning": "作為一名陶藝家",
+        "examples": [
+          {
+            "en": "Heather talks about being a potter.",
+            "zh": "Heather 談到作為一名陶藝家的經驗。"
+          },
+          {
+            "en": "Being a potter requires patience, practice, and strong hands.",
+            "zh": "作為一名陶藝家，需要耐心、練習和有力的雙手。"
+          },
+          {
+            "en": "She loves being a potter because every day starts with clay and possibility.",
+            "zh": "她喜歡作為一名陶藝家，因為每天都從黏土和可能性開始。"
+          },
+          {
+            "en": "Being a potter is not just making objects; it is learning how materials behave.",
+            "zh": "作為一名陶藝家，不只是製作物品，也是學習材料如何表現。"
+          },
+          {
+            "en": "He says being a potter has taught him to slow down.",
+            "zh": "他說作為一名陶藝家教會了他放慢腳步。"
+          }
+        ],
+        "sourcePage": 22
+      },
+      {
+        "front": "calming effect",
+        "meaning": "令人平靜的效果",
+        "examples": [
+          {
+            "en": "Heather values the calming effect of making pottery.",
+            "zh": "Heather 重視製作陶器那種令人平靜的效果。"
+          },
+          {
+            "en": "Walking by the sea has a calming effect on me.",
+            "zh": "在海邊散步對我有令人平靜的效果。"
+          },
+          {
+            "en": "Soft music can have a calming effect before sleep.",
+            "zh": "柔和的音樂在睡前可以有令人平靜的效果。"
+          },
+          {
+            "en": "The garden has a calming effect, even when the world feels loud.",
+            "zh": "即使世界感覺很吵，那座花園仍有令人平靜的效果。"
+          },
+          {
+            "en": "Repeating the same simple movement can have a calming effect on the mind.",
+            "zh": "重複同一個簡單動作，對心靈可能有令人平靜的效果。"
+          }
+        ],
+        "sourcePage": 22
+      },
+      {
+        "front": "messy nature",
+        "meaning": "容易弄得一團糟的特點",
+        "examples": [
+          {
+            "en": "Children often enjoy the messy nature of pottery.",
+            "zh": "孩子們常常喜歡陶藝容易弄得一團糟的特點。"
+          },
+          {
+            "en": "The messy nature of painting is part of the fun.",
+            "zh": "繪畫容易弄得一團糟的特點，是樂趣的一部分。"
+          },
+          {
+            "en": "Some parents dislike the messy nature of outdoor play, but children learn from it.",
+            "zh": "有些父母不喜歡戶外遊戲容易弄得一團糟的特點，但孩子能從中學習。"
+          },
+          {
+            "en": "The messy nature of cooking with kids means flour will travel everywhere.",
+            "zh": "跟孩子一起做飯容易弄得一團糟，代表麵粉會到處旅行。"
+          },
+          {
+            "en": "Creativity often has a messy nature; neat ideas rarely arrive wearing clean shoes.",
+            "zh": "創意常有容易弄得一團糟的特點；整潔的想法很少穿著乾淨鞋子出現。"
+          }
+        ],
+        "sourcePage": 22
+      },
+      {
+        "front": "physical benefits",
+        "meaning": "身體上的好處",
+        "examples": [
+          {
+            "en": "Pottery can have physical benefits for the hands and wrists.",
+            "zh": "陶藝可以對手和手腕有身體上的好處。"
+          },
+          {
+            "en": "Swimming has many physical benefits, especially for the back and shoulders.",
+            "zh": "游泳有很多身體上的好處，尤其是對背部和肩膀。"
+          },
+          {
+            "en": "Gardening offers physical benefits as well as mental peace.",
+            "zh": "園藝除了帶來心理平靜，也有身體上的好處。"
+          },
+          {
+            "en": "Stretching every morning can bring small physical benefits over time.",
+            "zh": "每天早上伸展，久而久之能帶來小小的身體好處。"
+          },
+          {
+            "en": "Walking gives quiet physical benefits: stronger legs, clearer lungs, a calmer day.",
+            "zh": "走路帶來安靜的身體好處：腿更有力、肺更清爽、一天更平靜。"
+          }
+        ],
+        "sourcePage": 23
+      },
+      {
+        "front": "visitors to Edelman Pottery",
+        "meaning": "到 Edelman Pottery 參觀的人",
+        "examples": [
+          {
+            "en": "Most of the visitors to Edelman Pottery have never made a pot before.",
+            "zh": "大多數到 Edelman Pottery 參觀的人以前從未做過陶罐。"
+          },
+          {
+            "en": "Visitors to Edelman Pottery can see the workshop before trying the wheel.",
+            "zh": "到 Edelman Pottery 參觀的人可以先看看工作坊，再嘗試陶輪。"
+          },
+          {
+            "en": "Visitors to Edelman Pottery are asked to remove jewellery for safety.",
+            "zh": "到 Edelman Pottery 參觀的人會被要求為安全除下首飾。"
+          },
+          {
+            "en": "Many visitors to Edelman Pottery come for a quiet break from busy life.",
+            "zh": "許多到 Edelman Pottery 參觀的人，是為了從忙碌生活中安靜休息一下。"
+          },
+          {
+            "en": "Visitors to Edelman Pottery often arrive curious and leave with clay on their sleeves.",
+            "zh": "到 Edelman Pottery 參觀的人常常帶著好奇而來，帶著袖子上的黏土離開。"
+          }
+        ],
+        "sourcePage": 23
+      },
+      {
+        "front": "bring friends to join courses",
+        "meaning": "帶朋友參加課程",
+        "examples": [
+          {
+            "en": "Some visitors bring friends to join courses.",
+            "zh": "有些參觀者會帶朋友參加課程。"
+          },
+          {
+            "en": "Many students bring friends to join courses because learning feels easier together.",
+            "zh": "許多學生會帶朋友參加課程，因為一起學感覺比較容易。"
+          },
+          {
+            "en": "You can bring friends to join courses if there are enough places.",
+            "zh": "如果名額足夠，你可以帶朋友參加課程。"
+          },
+          {
+            "en": "She likes to bring friends to join courses instead of going alone.",
+            "zh": "她喜歡帶朋友參加課程，而不是自己一個人去。"
+          },
+          {
+            "en": "People bring friends to join courses, and suddenly fear becomes a group project.",
+            "zh": "人們帶朋友參加課程，於是害怕突然變成了團體專案。"
+          }
+        ],
+        "sourcePage": 23
+      },
+      {
+        "front": "have never made a pot before",
+        "meaning": "以前從未做過陶罐",
+        "examples": [
+          {
+            "en": "Most visitors have never made a pot before.",
+            "zh": "大多數參觀者以前從未做過陶罐。"
+          },
+          {
+            "en": "Don’t worry if you have never made a pot before.",
+            "zh": "如果你以前從未做過陶罐，不用擔心。"
+          },
+          {
+            "en": "I had never made a pot before, so my first one looked like a tired mushroom.",
+            "zh": "我以前從未做過陶罐，所以第一個看起來像一顆累壞的蘑菇。"
+          },
+          {
+            "en": "People who have never made a pot before often enjoy the process most.",
+            "zh": "以前從未做過陶罐的人，常常最享受過程。"
+          },
+          {
+            "en": "If you have never made a pot before, start small and keep your hands steady.",
+            "zh": "如果你以前從未做過陶罐，先從小作品開始，保持雙手穩定。"
+          }
+        ],
+        "sourcePage": 23
+      },
+      {
+        "front": "learn techniques too quickly",
+        "meaning": "太急於學習技巧",
+        "examples": [
+          {
+            "en": "Some beginners try to learn techniques too quickly.",
+            "zh": "有些初學者太急於學習技巧。"
+          },
+          {
+            "en": "If you learn techniques too quickly, you may miss the basics.",
+            "zh": "如果你太急於學習技巧，可能會錯過基礎。"
+          },
+          {
+            "en": "He tried to learn techniques too quickly and forgot to practise properly.",
+            "zh": "他太急於學習技巧，結果忘了好好練習。"
+          },
+          {
+            "en": "Don’t learn techniques too quickly; slow hands often make better work.",
+            "zh": "不要太急於學習技巧；慢一點的雙手常常做出更好的作品。"
+          },
+          {
+            "en": "Students who learn techniques too quickly sometimes build a tall house on soft ground.",
+            "zh": "太急於學習技巧的學生，有時像在軟土地上蓋高樓。"
+          }
+        ],
+        "sourcePage": 23
+      },
+      {
+        "front": "reminds her visitors that",
+        "meaning": "提醒參觀者",
+        "examples": [
+          {
+            "en": "Heather reminds her visitors that they should take off their jewellery.",
+            "zh": "Heather 提醒參觀者應該除下首飾。"
+          },
+          {
+            "en": "The guide reminds her visitors that photos are not allowed inside.",
+            "zh": "導覽員提醒參觀者裡面不可以拍照。"
+          },
+          {
+            "en": "The teacher reminds her students that mistakes are part of learning.",
+            "zh": "老師提醒學生，錯誤是學習的一部分。"
+          },
+          {
+            "en": "She reminds her visitors that the workshop can get messy.",
+            "zh": "她提醒參觀者工作坊可能會弄得很髒。"
+          },
+          {
+            "en": "Heather reminds her visitors that safety rules are not decoration; they have a job to do.",
+            "zh": "Heather 提醒參觀者，安全規則不是裝飾；它們有自己的工作。"
+          }
+        ],
+        "sourcePage": 23
+      },
+      {
+        "front": "put on their aprons",
+        "meaning": "穿上圍裙",
+        "examples": [
+          {
+            "en": "The visitors will put on their aprons later.",
+            "zh": "參觀者稍後會穿上圍裙。"
+          },
+          {
+            "en": "The children put on their aprons before painting.",
+            "zh": "孩子們在畫畫前穿上圍裙。"
+          },
+          {
+            "en": "Please put on your aprons before we start cooking.",
+            "zh": "開始做飯前，請穿上圍裙。"
+          },
+          {
+            "en": "The students put on their aprons and suddenly looked like a team.",
+            "zh": "學生們穿上圍裙後，突然看起來像一個團隊。"
+          },
+          {
+            "en": "Once they put on their aprons, the clean shirts were officially safe.",
+            "zh": "他們一穿上圍裙，乾淨的上衣就正式安全了。"
+          }
+        ],
+        "sourcePage": 23
+      },
+      {
+        "front": "change their clothes",
+        "meaning": "換衣服",
+        "examples": [
+          {
+            "en": "The visitors do not need to change their clothes.",
+            "zh": "參觀者不需要換衣服。"
+          },
+          {
+            "en": "After football practice, the students need to change their clothes.",
+            "zh": "足球練習後，學生需要換衣服。"
+          },
+          {
+            "en": "You might want to change your clothes before the meeting.",
+            "zh": "開會前你可能想換衣服。"
+          },
+          {
+            "en": "The children had to change their clothes after playing in the mud.",
+            "zh": "孩子們玩泥巴後不得不換衣服。"
+          },
+          {
+            "en": "I didn’t change my clothes after painting, and my shirt became modern art.",
+            "zh": "我畫畫後沒有換衣服，結果我的襯衫變成了現代藝術。"
+          }
+        ],
+        "sourcePage": 24
+      },
+      {
+        "front": "take off their jewellery",
+        "meaning": "除下首飾",
+        "examples": [
+          {
+            "en": "Visitors should take off their jewellery before entering the workshop.",
+            "zh": "參觀者進入工作坊前應該除下首飾。"
+          },
+          {
+            "en": "Patients may need to take off their jewellery before an X-ray.",
+            "zh": "病人照 X 光前可能需要除下首飾。"
+          },
+          {
+            "en": "Please take off your jewellery before using the machines.",
+            "zh": "使用機器前，請除下首飾。"
+          },
+          {
+            "en": "She forgot to take off her jewellery before swimming.",
+            "zh": "她游泳前忘了除下首飾。"
+          },
+          {
+            "en": "Take off your jewellery before working with clay; rings and mud make a poor little marriage.",
+            "zh": "處理黏土前請除下首飾；戒指和泥土可不是好伴侶。"
+          }
+        ],
+        "sourcePage": 24
+      },
+      {
+        "front": "explain about kilns",
+        "meaning": "解釋有關窯爐的事情",
+        "examples": [
+          {
+            "en": "Heather explains about kilns in the workshop.",
+            "zh": "Heather 在工作坊裡解釋有關窯爐的事情。"
+          },
+          {
+            "en": "The teacher will explain about kilns before anyone touches the equipment.",
+            "zh": "在任何人接觸設備前，老師會解釋有關窯爐的事情。"
+          },
+          {
+            "en": "Can you explain about kilns in simple language?",
+            "zh": "你可以用簡單語言解釋有關窯爐的事情嗎？"
+          },
+          {
+            "en": "The guide explained about kilns and why they get so hot.",
+            "zh": "導覽員解釋了有關窯爐的事情，以及它們為什麼會那麼熱。"
+          },
+          {
+            "en": "When she explains about kilns, heat stops being scary and starts making sense.",
+            "zh": "當她解釋有關窯爐的事情時，高溫不再可怕，而開始有道理。"
+          }
+        ],
+        "sourcePage": 24
+      },
+      {
+        "front": "their function",
+        "meaning": "它們的功能",
+        "examples": [
+          {
+            "en": "Heather explains their function.",
+            "zh": "Heather 解釋它們的功能。"
+          },
+          {
+            "en": "The guide showed us the tools and explained their function.",
+            "zh": "導覽員向我們展示工具，並解釋它們的功能。"
+          },
+          {
+            "en": "Before using the buttons, learn their function.",
+            "zh": "使用按鈕前，先了解它們的功能。"
+          },
+          {
+            "en": "The organs are small, but their function is essential.",
+            "zh": "這些器官很小，但它們的功能很重要。"
+          },
+          {
+            "en": "Good design makes objects clear; you can almost guess their function by looking.",
+            "zh": "好設計會讓物件清楚；你幾乎可以一看就猜到它們的功能。"
+          }
+        ],
+        "sourcePage": 24
+      },
+      {
+        "front": "when they were invented",
+        "meaning": "它們是何時被發明的",
+        "examples": [
+          {
+            "en": "She does not say exactly when they were invented.",
+            "zh": "她沒有確切說明它們是何時被發明的。"
+          },
+          {
+            "en": "Do we know when they were invented?",
+            "zh": "我們知道它們是何時被發明的嗎？"
+          },
+          {
+            "en": "The museum label explains when they were invented and how they were used.",
+            "zh": "博物館標籤解釋了它們是何時被發明，以及如何被使用。"
+          },
+          {
+            "en": "Nobody is completely sure when they were invented.",
+            "zh": "沒有人完全確定它們是何時被發明的。"
+          },
+          {
+            "en": "When they were invented matters less than how much they changed daily life.",
+            "zh": "它們是何時被發明的，不如它們如何改變日常生活重要。"
+          }
+        ],
+        "sourcePage": 24
+      },
+      {
+        "front": "ways of keeping them safe",
+        "meaning": "保持它們安全的方法",
+        "examples": [
+          {
+            "en": "Visitors need to know ways of keeping kilns safe.",
+            "zh": "參觀者需要了解保持窯爐安全的方法。"
+          },
+          {
+            "en": "Parents look for ways of keeping children safe online.",
+            "zh": "父母會尋找讓孩子在網上保持安全的方法。"
+          },
+          {
+            "en": "The course teaches ways of keeping tools safe and clean.",
+            "zh": "這門課教授保持工具安全和清潔的方法。"
+          },
+          {
+            "en": "We discussed ways of keeping old documents safe from water and light.",
+            "zh": "我們討論了讓舊文件遠離水和光、保持安全的方法。"
+          },
+          {
+            "en": "Museums have careful ways of keeping fragile objects safe from time’s teeth.",
+            "zh": "博物館有細心的方法，讓脆弱物件遠離時間的牙齒。"
+          }
+        ],
+        "sourcePage": 24
+      },
+      {
+        "front": "put one in your home",
+        "meaning": "在家裏放一個",
+        "examples": [
+          {
+            "en": "It is hard to put one in your home because a kiln is large and heavy.",
+            "zh": "很難在家裏放一個，因為窯爐又大又重。"
+          },
+          {
+            "en": "You probably shouldn’t put one in your home without checking the safety rules.",
+            "zh": "沒有確認安全規則前，你大概不應該在家裏放一個。"
+          },
+          {
+            "en": "A piano is lovely, but it can be difficult to put one in your home.",
+            "zh": "鋼琴很美好，但要在家裏放一台可能很困難。"
+          },
+          {
+            "en": "If the machine is noisy, think twice before you put one in your home.",
+            "zh": "如果那部機器很吵，在家裏放一台前要三思。"
+          },
+          {
+            "en": "A kiln is not like a toaster; you cannot simply put one in your home and hope for the best.",
+            "zh": "窯爐不像多士爐；你不能隨便在家裏放一個，然後期待一切順利。"
+          }
+        ],
+        "sourcePage": 24
+      },
+      {
+        "front": "use instead of one",
+        "meaning": "用其他東西代替它",
+        "examples": [
+          {
+            "en": "Some people use an oven or a fire pit instead of one.",
+            "zh": "有些人會用焗爐或火坑代替它。"
+          },
+          {
+            "en": "If you don’t have a printer, you can use the library’s machine instead of one.",
+            "zh": "如果你沒有打印機，可以用圖書館的機器代替。"
+          },
+          {
+            "en": "Some people use a tablet instead of a laptop.",
+            "zh": "有些人用平板電腦代替手提電腦。"
+          },
+          {
+            "en": "You can use a strong box instead of one if you don’t have a safe.",
+            "zh": "如果你沒有保險箱，可以用堅固的盒子代替。"
+          },
+          {
+            "en": "When a proper tool is missing, people often use whatever is nearby instead of one.",
+            "zh": "當缺少合適工具時，人們常會用身邊的東西代替它。"
+          }
+        ],
+        "sourcePage": 25
+      },
+      {
+        "front": "make points about",
+        "meaning": "提出關於……的重點",
+        "examples": [
+          {
+            "en": "Heather makes two points about a potter’s tools.",
+            "zh": "Heather 提出兩個關於陶藝家工具的重點。"
+          },
+          {
+            "en": "The speaker made several points about climate change.",
+            "zh": "演講者提出了幾個關於氣候變化的重點。"
+          },
+          {
+            "en": "I want to make one point about the budget before we decide.",
+            "zh": "在我們決定前，我想提出一個關於預算的重點。"
+          },
+          {
+            "en": "The article makes useful points about studying at home.",
+            "zh": "那篇文章提出了關於在家學習的實用重點。"
+          },
+          {
+            "en": "Good teachers make points about difficult topics without building a wall of words.",
+            "zh": "好老師提出困難主題的重點時，不會築起一堵文字牆。"
+          }
+        ],
+        "sourcePage": 25
+      },
+      {
+        "front": "potter’s tools",
+        "meaning": "陶藝家的工具",
+        "examples": [
+          {
+            "en": "A potter’s tools help shape and handle the clay.",
+            "zh": "陶藝家的工具幫助塑形和處理黏土。"
+          },
+          {
+            "en": "Potter’s tools can look strange to beginners.",
+            "zh": "陶藝家的工具對初學者來說可能看起來很奇怪。"
+          },
+          {
+            "en": "The shelf was full of potter’s tools with odd names.",
+            "zh": "架子上滿是名稱古怪的陶藝家工具。"
+          },
+          {
+            "en": "Potter’s tools are useful, but hands are still the heart of the work.",
+            "zh": "陶藝家的工具很有用，但雙手仍是工作的核心。"
+          },
+          {
+            "en": "A potter’s tools may be small, but they can guide clay into almost anything.",
+            "zh": "陶藝家的工具可能很小，卻能引導黏土變成幾乎任何東西。"
+          }
+        ],
+        "sourcePage": 25
+      },
+      {
+        "front": "hard to hold",
+        "meaning": "難以握住",
+        "examples": [
+          {
+            "en": "Some tools may look strange, but they are not necessarily hard to hold.",
+            "zh": "有些工具可能看起來奇怪，但不一定難以握住。"
+          },
+          {
+            "en": "The mug is hard to hold because the handle is too small.",
+            "zh": "這個馬克杯難以握住，因為把手太小。"
+          },
+          {
+            "en": "This camera is hard to hold with one hand.",
+            "zh": "這台相機單手難以握住。"
+          },
+          {
+            "en": "The baby bird was so tiny it was hard to hold safely.",
+            "zh": "那隻小鳥太小了，很難安全握住。"
+          },
+          {
+            "en": "Big ideas can be hard to hold in your head until you write them down.",
+            "zh": "大想法在寫下來之前，常常很難在腦中抓住。"
+          }
+        ],
+        "sourcePage": 25
+      },
+      {
+        "front": "worth buying",
+        "meaning": "值得購買",
+        "examples": [
+          {
+            "en": "Heather does not think the tools are worth buying yet.",
+            "zh": "Heather 認為那些工具暫時還不值得購買。"
+          },
+          {
+            "en": "This jacket is expensive, but it’s worth buying if you wear it every day.",
+            "zh": "這件外套很貴，但如果你每天穿，就值得購買。"
+          },
+          {
+            "en": "The cheaper model is probably not worth buying.",
+            "zh": "較便宜的型號可能不值得購買。"
+          },
+          {
+            "en": "Before deciding whether it is worth buying, read a few reviews.",
+            "zh": "決定它是否值得購買前，先看幾篇評論。"
+          },
+          {
+            "en": "A good chair is worth buying; your back will send thank-you letters.",
+            "zh": "一張好椅子值得購買；你的背會寄感謝信給你。"
+          }
+        ],
+        "sourcePage": 25
+      },
+      {
+        "front": "essential items",
+        "meaning": "必需品",
+        "examples": [
+          {
+            "en": "Some tools are essential items for working on the wheel.",
+            "zh": "有些工具是在陶輪上工作的必需品。"
+          },
+          {
+            "en": "Water, a phone charger, and comfortable shoes are essential items for travel.",
+            "zh": "水、手機充電器和舒服的鞋子是旅行必需品。"
+          },
+          {
+            "en": "The first-aid kit contains essential items for small injuries.",
+            "zh": "急救箱裡有處理小傷口的必需品。"
+          },
+          {
+            "en": "A notebook is one of my essential items for work.",
+            "zh": "筆記本是我工作上的必需品之一。"
+          },
+          {
+            "en": "Essential items are the quiet heroes of a good plan.",
+            "zh": "必需品是好計畫裡安靜的英雄。"
+          }
+        ],
+        "sourcePage": 25
+      },
+      {
+        "front": "memorable names",
+        "meaning": "容易記住的名稱",
+        "examples": [
+          {
+            "en": "Some tools have odd names, but not very memorable names.",
+            "zh": "有些工具名稱古怪，但並不是很容易記住的名稱。"
+          },
+          {
+            "en": "Good products often have short, memorable names.",
+            "zh": "好產品常常有簡短、容易記住的名稱。"
+          },
+          {
+            "en": "The characters in the novel all have memorable names.",
+            "zh": "那本小說裡的人物都有容易記住的名字。"
+          },
+          {
+            "en": "Memorable names are easy to say, easy to spell, and hard to forget.",
+            "zh": "容易記住的名稱通常容易說、容易拼，也很難忘記。"
+          },
+          {
+            "en": "A memorable name can open the door before the idea even walks in.",
+            "zh": "一個容易記住的名稱，能在想法走進來之前先打開門。"
+          }
+        ],
+        "sourcePage": 25
+      },
+      {
+        "front": "available for use by participants",
+        "meaning": "可供參加者使用",
+        "examples": [
+          {
+            "en": "The tools are available for use by participants.",
+            "zh": "這些工具可供參加者使用。"
+          },
+          {
+            "en": "Laptops are available for use by participants during the training course.",
+            "zh": "培訓課程期間，手提電腦可供參加者使用。"
+          },
+          {
+            "en": "Safety glasses are available for use by participants at the entrance.",
+            "zh": "安全眼鏡在入口處可供參加者使用。"
+          },
+          {
+            "en": "The studio materials are available for use by participants, so beginners do not need to buy anything.",
+            "zh": "工作室材料可供參加者使用，所以初學者不需要購買任何東西。"
+          },
+          {
+            "en": "The equipment is available for use by participants, but it must be cleaned afterwards.",
+            "zh": "設備可供參加者使用，但之後必須清潔。"
+          }
+        ],
+        "sourcePage": 26
+      }
+    ]
 };
   </script>
   <script>
@@ -6824,7 +11650,8 @@ window.EDMUND_FLASHCARD_SEED = {
       return result;
     }
 
-    function modeLabel(mode, cardLimit = 0) {
+    function modeLabel(mode, cardLimit = 0, rangeLabel = "") {
+      if (mode === "range") return rangeLabel || "指定範圍";
       if (cardLimit) return `隨機 ${cardLimit} 卡`;
       return mode === "random" ? "隨機排序" : "依原定次序";
     }
@@ -6894,6 +11721,9 @@ window.EDMUND_FLASHCARD_SEED = {
         deckTitle: currentDeckTitle,
         mode: studySession.mode,
         cardLimit: studySession.cardLimit || 0,
+        rangeStart: studySession.rangeStart || 0,
+        rangeEnd: studySession.rangeEnd || 0,
+        rangeLabel: studySession.rangeLabel || "",
         roundNumber: studySession.roundNumber,
         roundQueue: studySession.roundQueue,
         currentPosition: studySession.currentPosition,
@@ -6918,7 +11748,7 @@ window.EDMUND_FLASHCARD_SEED = {
       return confirmed;
     }
 
-    function startDeckSession(mode, cardLimit = 0) {
+    function startDeckSession(mode, cardLimit = 0, rangeStart = 0, rangeEnd = 0, rangeLabel = "") {
       if (savedProgressForDeck(currentDeckId)) {
         clearSavedProgress(currentDeckId);
       }
@@ -6932,6 +11762,15 @@ window.EDMUND_FLASHCARD_SEED = {
 
       const allIndexes = cards.map((_, index) => index);
       let order = mode === "random" ? shuffle(allIndexes) : allIndexes;
+      if (mode === "range") {
+        const startIndex = Math.max(0, Number(rangeStart || 1) - 1);
+        const endIndex = rangeEnd ? Math.min(cards.length - 1, Number(rangeEnd) - 1) : cards.length - 1;
+        order = allIndexes.filter(index => index >= startIndex && index <= endIndex);
+        if (!order.length) {
+          if (status) status.textContent = "這個範圍暫時未有卡片。";
+          return;
+        }
+      }
       if (cardLimit) {
         const green = new Set(getDeckFamiliarity(currentDeckId).green);
         const availableIndexes = allIndexes.filter(index => !green.has(String(index)));
@@ -6945,6 +11784,9 @@ window.EDMUND_FLASHCARD_SEED = {
       studySession = {
         mode,
         cardLimit,
+        rangeStart,
+        rangeEnd,
+        rangeLabel,
         cards,
         roundNumber: 1,
         roundQueue: order,
@@ -6952,11 +11794,11 @@ window.EDMUND_FLASHCARD_SEED = {
         answers: {},
         flipped: false,
         completed: false,
-        attemptId: logAttemptStart(modeLabel(mode, cardLimit), order.length)
+        attemptId: logAttemptStart(modeLabel(mode, cardLimit, rangeLabel), order.length)
       };
 
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
-      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜本次：${order.length}/${cards.length}｜${modeLabel(mode, cardLimit)}`;
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜本次：${order.length}/${cards.length}｜${modeLabel(mode, cardLimit, rangeLabel)}`;
       hideReviewPanel();
       showAppPanel("deck-view");
       saveCurrentProgress();
@@ -6970,6 +11812,9 @@ window.EDMUND_FLASHCARD_SEED = {
       studySession = {
         mode: saved.mode || "order",
         cardLimit: saved.cardLimit || 0,
+        rangeStart: saved.rangeStart || 0,
+        rangeEnd: saved.rangeEnd || 0,
+        rangeLabel: saved.rangeLabel || "",
         cards,
         roundNumber: saved.roundNumber || 1,
         roundQueue: Array.isArray(saved.roundQueue) ? saved.roundQueue.filter(index => cards[index]) : cards.map((_, index) => index),
@@ -7546,7 +12391,10 @@ window.EDMUND_FLASHCARD_SEED = {
           if (savedProgressForDeck(currentDeckId) && !window.confirm("已有未完成進度。確定要重新開始嗎？")) return;
           startDeckSession(
             modeButton.getAttribute("data-start-mode"),
-            Number(modeButton.getAttribute("data-card-limit") || 0)
+            Number(modeButton.getAttribute("data-card-limit") || 0),
+            Number(modeButton.getAttribute("data-range-start") || 0),
+            Number(modeButton.getAttribute("data-range-end") || 0),
+            modeButton.getAttribute("data-range-label") || ""
           );
           return;
         }
