@@ -512,6 +512,21 @@
       justify-content: center;
     }
 
+    .columns-grid.wide-one {
+      grid-template-columns: minmax(0, 980px);
+      justify-content: center;
+    }
+
+    .columns-grid.question-list .thin-option {
+      font-size: 14px;
+      line-height: 1.32;
+      font-weight: 850;
+    }
+
+    .columns-grid.question-list .thin-option span {
+      overflow-wrap: anywhere;
+    }
+
     .option-column {
       display: grid;
       gap: 10px;
@@ -567,17 +582,17 @@
 
     .mode-grid {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 16px;
     }
 
     .mode-card {
-      min-height: 180px;
-      padding: 26px;
+      min-height: 142px;
+      padding: 22px;
       display: grid;
       align-content: end;
       gap: 10px;
-      font-size: clamp(28px, 3vw, 48px);
+      font-size: clamp(24px, 2.3vw, 38px);
       line-height: 1.05;
     }
 
@@ -604,6 +619,89 @@
       font-size: 14px;
       line-height: 1.3;
       font-weight: 900;
+    }
+
+    .stat-pill.review-trigger {
+      text-align: left;
+      transition: transform 0.16s ease, background 0.16s ease, color 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .stat-pill.review-trigger:hover {
+      transform: translateY(-2px);
+    }
+
+    .stat-pill.review-trigger.green-review:hover,
+    .stat-pill.review-trigger.green-review.active {
+      background: #dcfce7;
+      border-color: rgba(22,163,74,0.42);
+      color: #166534;
+      box-shadow: 0 14px 26px rgba(22,163,74,0.16);
+    }
+
+    .stat-pill.review-trigger.red-review:hover,
+    .stat-pill.review-trigger.red-review.active {
+      background: #fee2e2;
+      border-color: rgba(220,38,38,0.38);
+      color: #991b1b;
+      box-shadow: 0 14px 26px rgba(220,38,38,0.14);
+    }
+
+    .review-panel {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 18px;
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.76);
+      border: 1px solid rgba(47,128,237,0.14);
+    }
+
+    .review-panel.green-review {
+      border-color: rgba(22,163,74,0.28);
+      background: rgba(240,253,244,0.86);
+    }
+
+    .review-panel.red-review {
+      border-color: rgba(220,38,38,0.24);
+      background: rgba(254,242,242,0.86);
+    }
+
+    .review-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .review-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .review-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 12px;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.86);
+      border: 1px solid rgba(47,128,237,0.12);
+      color: #172033;
+      font-size: 15px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .review-row span:last-child {
+      color: #1559a8;
+    }
+
+    .review-empty {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
     }
 
     .study-layout {
@@ -733,16 +831,6 @@
 
     .round-button:not(:disabled):hover {
       transform: translateY(-3px) scale(1.02);
-    }
-
-    .editor-panel {
-      display: grid;
-      gap: 14px;
-      margin-top: 18px;
-      padding: 18px;
-      border-radius: 22px;
-      background: rgba(255,255,255,0.72);
-      border: 1px solid rgba(47,128,237,0.14);
     }
 
     .hidden {
@@ -936,7 +1024,7 @@
           <div class="skill-grid">
             <button class="tile" type="button" data-route="dse-reading">Reading</button>
             <button class="tile" type="button" data-route="dse-writing">Writing</button>
-            <button class="tile" type="button" data-route="dse-listening">Listening</button>
+            <button class="tile" type="button" data-route="dse-paper3">Paper 3</button>
             <button class="tile" type="button" data-route="dse-speaking">Speaking</button>
           </div>
         </section>
@@ -945,14 +1033,14 @@
           <div class="section-head">
             <div>
               <h2>IELTS</h2>
-              <p>Listening 已加入 Practice 1 Part 1 範例卡組。</p>
+              <p>選擇 Reading、Writing、Listening 或 Speaking，再進入指定練習卡組。</p>
             </div>
           </div>
           <div class="skill-grid">
-            <button class="tile" type="button" data-open-deck="ielts/reading/general">Reading</button>
-            <button class="tile" type="button" data-open-deck="ielts/writing/general">Writing</button>
+            <button class="tile" type="button" data-route="ielts-reading">Reading</button>
+            <button class="tile" type="button" data-route="ielts-writing">Writing</button>
             <button class="tile" type="button" data-route="ielts-listening">Listening</button>
-            <button class="tile" type="button" data-open-deck="ielts/speaking/general">Speaking</button>
+            <button class="tile" type="button" data-route="ielts-speaking">Speaking</button>
           </div>
         </section>
 
@@ -972,6 +1060,7 @@
               <h2 data-start-title>Deck</h2>
               <p data-start-path></p>
             </div>
+            <button class="reset-square hidden" type="button" data-reset-current-deck>重設<br>紀錄</button>
           </div>
           <div class="resume-panel hidden" data-resume-panel>
             <h3>已有未完成進度</h3>
@@ -990,6 +1079,22 @@
               隨機排序
               <span>開始前先打亂本次卡片次序。</span>
             </button>
+            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="10">
+              10 卡
+              <span>隨機抽 10 張未綠勾卡；小卡組會自動用可用卡片。</span>
+            </button>
+            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="20">
+              20 卡
+              <span>隨機抽 20 張未綠勾卡；已掌握的卡不會再出現。</span>
+            </button>
+            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="30">
+              30 卡
+              <span>隨機抽 30 張未綠勾卡，適合中段溫習。</span>
+            </button>
+            <button class="mode-card" type="button" data-start-mode="random" data-card-limit="40">
+              40 卡
+              <span>隨機抽 40 張未綠勾卡，適合長一點的練習。</span>
+            </button>
           </div>
           <p class="status" data-start-status></p>
         </section>
@@ -1000,14 +1105,27 @@
               <h2 data-deck-title>Flashcards</h2>
               <p data-deck-path></p>
             </div>
-            <button class="secondary-button hidden" type="button" data-toggle-editor>Add cards</button>
           </div>
 
           <div class="study-top">
             <div class="stat-pill" data-progress-count>0 / 0</div>
             <div class="stat-pill" data-round-count>Round 1</div>
-            <div class="stat-pill" data-green-count>Green: 0</div>
-            <div class="stat-pill" data-red-count>Red: 0</div>
+            <button class="stat-pill review-trigger green-review" type="button" data-review-status="green" data-green-count>Green: 0</button>
+            <button class="stat-pill review-trigger red-review" type="button" data-review-status="red" data-red-count>Red: 0</button>
+          </div>
+
+          <div class="review-panel hidden" data-review-panel>
+            <div class="review-head">
+              <div>
+                <h3 data-review-title>綠勾卡片</h3>
+                <p class="note-text" data-review-note></p>
+              </div>
+              <div class="access-actions">
+                <button class="secondary-button" type="button" data-reset-familiarity>重設</button>
+                <button class="secondary-button" type="button" data-close-review>關閉</button>
+              </div>
+            </div>
+            <div class="review-list" data-review-list></div>
           </div>
 
           <div class="study-layout">
@@ -1031,28 +1149,12 @@
               <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
             </div>
           </div>
-
-          <div class="editor-panel hidden" data-editor-panel>
-            <form data-card-form>
-              <div class="field">
-                <label for="card-front">Front word / phrase</label>
-                <textarea id="card-front" name="front" required></textarea>
-              </div>
-              <div class="field">
-                <label for="card-back">Back meaning / answer</label>
-                <textarea id="card-back" name="back" required></textarea>
-              </div>
-              <div class="field">
-                <button class="primary-button" type="submit">Confirmed</button>
-              </div>
-            </form>
-            <p class="status" data-card-status></p>
-          </div>
         </section>
       </section>
     </main>
   </div>
 
+  <script src="flashcards-ielts-writing-data.js"></script>
   <script>
 window.EDMUND_FLASHCARD_SEED = {
   "ielts/listening/Practice 1/part-1": [
@@ -5200,11 +5302,72 @@ window.EDMUND_FLASHCARD_SEED = {
     const PASSWORD_LOG_KEY = "edmundFlashcardPasswordLogs";
     const PROGRESS_KEY = "edmundFlashcardProgress";
     const RESET_LOG_KEY = "edmundFlashcardResetLogs";
+    const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
 
     const seedDecks = window.EDMUND_FLASHCARD_SEED || {};
-    const dseReadingYears = ["2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2012 Practice", "2012 Sample"];
-    const dseStandardYears = ["2026", "2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012"];
-    const ieltsPractices = Array.from({ length: 30 }, (_, index) => `Practice ${index + 1}`);
+    const ieltsWritingTask2Questions = window.EDMUND_IELTS_WRITING_TASK2 || {};
+    const deckTitleLabels = new Map();
+    const dseYears = ["2012 Sample", "2012 Practice", "2012 DSE", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"];
+    const ieltsListeningPractices = Array.from({ length: 30 }, (_, index) => `Practice ${index + 1}`);
+    const ieltsReadingPractices = Array.from({ length: 130 }, (_, index) => `Practice ${index + 1}`);
+    const ieltsWritingTask1Types = ["Tables", "Pie Charts", "Bar Charts", "Line Graphs", "Process Diagrams", "Maps", "Mixed Charts"];
+    const ieltsWritingTask2Types = [
+      { key: "opinions", label: "Opinions" },
+      { key: "discuss-both-views-your-opinion", label: "Discuss both views + Your opinion" },
+      { key: "problem-and-cause", label: "Problem and Cause" },
+      { key: "advantage-and-disadvantage", label: "Advantage and Disadvantage" },
+      { key: "direct-question", label: "Direct question" }
+    ];
+    const ieltsSpeakingPart1Themes = [
+      "Accommodation", "Advertisements", "Art & Photography", "Animals", "Bags", "Boat", "Birthdays", "Books", "Celebrity",
+      "Clothes and Fashion", "Photos", "Colours", "Computer", "Country", "Daily Routine", "Dictionaries", "Dreams", "Email",
+      "Exercise", "Flowers", "Friends", "Food", "Noise", "Gifts", "High School", "Home", "Hometown", "Humour", "Transportation",
+      "Indoor Activities", "Internet", "Lifestyle", "Major", "Mobile Phones", "Movies", "Museums", "Music", "Musical Instruments",
+      "Neighbours", "Newspapers and Magazines", "Outdoor Activities", "Patience and Politeness", "Public Transport", "Seasons",
+      "Sports", "The Sea", "Timing", "Travel", "Trees", "TV", "Volunteer Work", "Weather", "Work", "Writing", "Bicycles",
+      "Childhood", "Drinks", "Evenings", "Going Out", "Happiness", "Hobbies", "Languages", "Leisure Time", "Shopping", "Art",
+      "Clothes", "Family and Friends"
+    ];
+    const ieltsSpeakingPart2Books = [
+      { book: "Book 1", topics: ["Advertisements", "A Challenging Thing You Did", "A Person You Know (old person)", "A Person You Know (a child)", "Describe someone who has had an important influence on your life.", "Describe a person that you think is very interesting.", "Describe a (very) intelligent person you know.", "Describe your favourite teacher from school.", "Describe your favourite childhood friend.", "Describe a person you know who loves to grow plants (vegetables, fruits, flowers).", "Describe a present or gift you have given someone.", "Describe a present or gift someone gave you that you really liked.", "Describe a person who taught you something important."] },
+      { book: "Book 2", topics: ["Animal", "Art", "A Time When Someone Apologised To You", "Books", "Buildings"] },
+      { book: "Book 3", topics: ["Business", "Change", "Clothes", "City", "Company", "Daily Routine", "Decision", "Electronic Devices"] },
+      { book: "Book 4", topics: ["Entertainment", "Describe a TV show that you enjoy.", "Describe a performance you enjoyed watching.", "Environment", "Exercise", "Exciting Experience", "Family", "Describe a family member that you get on well with."] },
+      { book: "Book 5", topics: ["Describe one of your relatives.", "Describe a family member you spend a lot of time with.", "Food", "Describe a meal that you had that you remember well.", "Describe a meal that you ate out.", "Friends", "Describe a friend you had in primary school.", "Furniture", "Garden", "Gifts"] },
+      { book: "Book 6", topics: ["Health", "Describe something healthy you enjoy doing.", "Describe an article you read in a magazine or on the Internet that could help people improve their health.", "Help", "History", "Hobbies", "Holiday", "Talk about somewhere you went on holiday.", "Talk about your dream holiday.", "Talk about your plans for your next long vacation."] },
+      { book: "Book 7", topics: ["Home", "Hometown", "Describe a change that could improve your local area.", "Influence", "Internet", "Language", "Talk about an English language book you have read or used.", "Talk about a language test you have taken.", "Lake/River", "Late"] },
+      { book: "Book 8", topics: ["Machine", "Memory", "Memories", "Mobile phone", "Money", "Describe a special day out that cost you little money/did not cost you much.", "Describe something (special) that you saved money to buy.", "Music", "Describe your favourite song.", "News"] },
+      { book: "Book 9", topics: ["Describe some good news that you recently received.", "Describe a person who is often in the news and who you would like to meet.", "Parenting", "Party", "Talk about a birthday party you can remember well.", "Describe a typical festival or celebration in your country.", "Describe your favourite festival or celebration.", "Describe a crowded place you’ve been to.", "Plans", "Talk about one thing you are planning to do after you pass the IELTS test."] },
+      { book: "Book 10", topics: ["Talk about a goal or ambition you have.", "Presents or Gifts", "Products", "Reading", "Describe a website that you visit a lot.", "Restaurants", "Rules", "Describe a rule you had to obey when you were in school.", "School", "Talk about a subject you would like to study in the future."] },
+      { book: "Book 11", topics: ["Science", "Describe a scientific subject that you learned about in high school.", "Shopping", "Describe a shop in your hometown or the place you are living now.", "Social Problems", "Something Difficult To Use", "Sports", "Talk about a sport many people enjoy, but you have never tried.", "Talk about a sport that interests you, but you have never tried.", "Describe a sporting event you attended"] },
+      { book: "Book 12", topics: ["Describe a sport that you would like to try.", "Teachers", "Text message", "Things", "Traditional Product", "Transportation", "Talk about one means of transportation that you often use.", "Describe a trip you took by public transport.", "Travel", "Talk about something tourists like to do in your country."] },
+      { book: "Book 13", topics: ["Talk about a day trip you have been on.", "Talk about a part of your country you have never been to but would like to visit.", "Talk about a foreign country you have never been to but would like to visit.", "Describe a country you would like to visit in the future that you haven’t been to yet.", "Describe a lake, a river or a sea you have visited.", "Describe a holiday that you recently went on that you enjoyed.", "Traditional Product", "TV", "Vegetables", "Weather"] },
+      { book: "Book 14", topics: ["Work", "Describe your dream workplace.", "Talk about a job you have done or know about.", "Talk about a job someone in your family does.", "Describe a workplace you have worked in or know about.", "Describe a job you would like to do in the future.", "Communication (event/occasion)", "Embarrassment (event/occasion)", "Journey (event/occasion)", "Kindness (person)"] },
+      { book: "Book 15", topics: ["Law (object)", "Music (object)", "Peaceful Place (place)", "Relax (activity)", "Respect (person)", "Unexpected (event)", "Vocation (object)", "Water (place)", "Zoo (place)"] },
+      { book: "Book 16", topics: ["Describe a change that could improve your local area.", "Describe an article you read in a magazine or on the Internet that could help people improve their health.", "Describe a trip you took by public transport.", "Describe a member of a team that you know about.", "Describe a job you would not like to do."] }
+    ];
+    const ieltsSpeakingPart3Books = [
+      { book: "Book 1", topics: ["Challenge", "A Member of A Team", "Advertisements", "Animals"] },
+      { book: "Book 2", topics: ["Art", "Books", "Business", "Change"] },
+      { book: "Book 3", topics: ["City", "Clothes", "Company", "Daily Routine"] },
+      { book: "Book 4", topics: ["Decision", "Desired Change to Local Area", "Eating habits", "Education"] },
+      { book: "Book 5", topics: ["Electronic Devices", "Entertainment", "Environment", "Events"] },
+      { book: "Book 6", topics: ["Exciting Experience", "Family / Work (Study) / Potential", "Festival"] },
+      { book: "Book 7", topics: ["Food", "Friends", "Furniture", "Health"] },
+      { book: "Book 8", topics: ["Help", "History", "Holiday", "Home"] },
+      { book: "Book 9", topics: ["Influence", "Internet", "Job", "Leadership"] },
+      { book: "Book 10", topics: ["Late", "Leisure Activities", "Machine", "Memory"] },
+      { book: "Book 11", topics: ["Mobile Phone", "Money", "Music", "News"] },
+      { book: "Book 12", topics: ["Parenting", "Party", "Personal / Qualities", "Plans"] },
+      { book: "Book 13", topics: ["Products", "Restaurant", "Reading", "Rules"] },
+      { book: "Book 14", topics: ["Schools", "Science", "Shopping", "School Problems"] },
+      { book: "Book 15", topics: ["Something Difficult to Use", "Sports", "Shopping", "Study"] },
+      { book: "Book 16", topics: ["Teacher", "Technology", "Text Message", "Things"] }
+    ];
+    const dsePaper3Tasks = ["Task 1 (Transcript)", "Task 2 (Transcript)", "Task 3 (Transcript)", "Task 4 (Transcript)"];
+    const dseSpeakingSets = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3", "3.1", "3.2", "3.3", "4.1", "4.2", "4.3", "5.1", "5.2", "5.3", "6.1", "6.2", "6.3", "6.4", "6.5", "6.6", "7.1", "7.2", "7.3", "8.1", "8.2", "8.3", "9.1", "9.2", "9.3", "10.1", "10.2", "10.3"];
+    const dseWritingPartBQuestions = ["Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"];
+    const synonymTypes = ["Noun", "Verb", "Adjectives", "Adverbs"];
 
     const accessSections = [
       { key: "dse", label: "DSE", kind: "route", target: "dse-home" },
@@ -5220,7 +5383,8 @@ window.EDMUND_FLASHCARD_SEED = {
       { key: "news-analysis", label: "新聞分析", kind: "deck", target: "news-analysis/general" },
       { key: "power-words", label: "Power Words", kind: "deck", target: "power-words/general" },
       { key: "idioms", label: "Idioms", kind: "deck", target: "idioms/general" },
-      { key: "phrasal-verbs", label: "Phrasal Verbs", kind: "deck", target: "phrasal-verbs/general" }
+      { key: "phrasal-verbs", label: "Phrasal Verbs", kind: "deck", target: "phrasal-verbs/general" },
+      { key: "synonyms", label: "Synonyms 同義詞", kind: "route", target: "synonyms-home" }
     ];
 
     const viewSelectors = [
@@ -5241,6 +5405,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let currentDeckTitle = "";
     let studySession = null;
     let lastOptions = null;
+    let activeReviewStatus = "";
 
     function escapeHtml(value) {
       return String(value)
@@ -5308,10 +5473,6 @@ window.EDMUND_FLASHCARD_SEED = {
       return readJson(CARDS_KEY, {});
     }
 
-    function saveCardStore(store) {
-      writeJson(CARDS_KEY, store);
-    }
-
     function normalizeCard(card) {
       return {
         front: String(card.front || card.term || ""),
@@ -5326,14 +5487,6 @@ window.EDMUND_FLASHCARD_SEED = {
       const seedCards = Array.isArray(seedDecks[deckId]) ? seedDecks[deckId] : [];
       const customCards = Array.isArray(customStore[deckId]) ? customStore[deckId] : [];
       return [...seedCards, ...customCards].map(normalizeCard).filter(card => card.front);
-    }
-
-    function saveCustomCard(deckId, card) {
-      const store = getCardStore();
-      const cards = Array.isArray(store[deckId]) ? store[deckId] : [];
-      cards.push(card);
-      store[deckId] = cards;
-      saveCardStore(store);
     }
 
     function getAttempts() {
@@ -5368,8 +5521,58 @@ window.EDMUND_FLASHCARD_SEED = {
       writeJson(PROGRESS_KEY, store);
     }
 
+    function getFamiliarityStore() {
+      return readJson(FAMILIARITY_KEY, {});
+    }
+
+    function saveFamiliarityStore(store) {
+      writeJson(FAMILIARITY_KEY, store);
+    }
+
     function progressKey(deckId = currentDeckId, studentName = currentUser?.name) {
       return `${studentName || ""}::${deckId}`;
+    }
+
+    function familiarityKey(deckId = currentDeckId, studentName = currentUser?.name) {
+      return `${studentName || ""}::${deckId}`;
+    }
+
+    function normalizeFamiliarity(value) {
+      return {
+        green: [...new Set(Array.isArray(value?.green) ? value.green.map(String) : [])],
+        red: [...new Set(Array.isArray(value?.red) ? value.red.map(String) : [])]
+      };
+    }
+
+    function getDeckFamiliarity(deckId = currentDeckId, studentName = currentUser?.name) {
+      if (!studentName) return { green: [], red: [] };
+      return normalizeFamiliarity(getFamiliarityStore()[familiarityKey(deckId, studentName)]);
+    }
+
+    function saveDeckFamiliarity(deckId, familiarity, studentName = currentUser?.name) {
+      if (!studentName) return;
+      const store = getFamiliarityStore();
+      store[familiarityKey(deckId, studentName)] = normalizeFamiliarity(familiarity);
+      saveFamiliarityStore(store);
+    }
+
+    function setCardFamiliarity(cardIndex, status) {
+      if (!currentUser?.name || !["green", "red"].includes(status)) return;
+      const key = String(cardIndex);
+      const familiarity = getDeckFamiliarity();
+      familiarity.green = familiarity.green.filter(index => index !== key);
+      familiarity.red = familiarity.red.filter(index => index !== key);
+      familiarity[status].push(key);
+      saveDeckFamiliarity(currentDeckId, familiarity);
+    }
+
+    function isDeckFullyGreen(deckId, studentName = currentUser?.name) {
+      const cards = getDeckCards(deckId);
+      if (!studentName || !cards.length) return false;
+      const familiarity = getDeckFamiliarity(deckId, studentName);
+      const green = new Set(familiarity.green);
+      const red = new Set(familiarity.red);
+      return cards.every((_, index) => green.has(String(index)) && !red.has(String(index)));
     }
 
     function setSession(user) {
@@ -5418,9 +5621,17 @@ window.EDMUND_FLASHCARD_SEED = {
       viewSelectors.forEach(selector => document.querySelector(selector)?.classList.add("hidden"));
     }
 
+    function currentHistoryEntry() {
+      if (currentView === "options-view" && lastOptions) {
+        return { view: currentView, options: lastOptions };
+      }
+      return { view: currentView };
+    }
+
     function showAppPanel(view, push = true) {
-      if (push && currentView && currentView !== "login" && currentView !== view) {
-        viewStack.push(currentView);
+      if (push && currentView && currentView !== "login") {
+        const sameSimpleView = currentView === view && currentView !== "options-view";
+        if (!sameSimpleView) viewStack.push(currentHistoryEntry());
       }
 
       currentView = view;
@@ -5439,6 +5650,25 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       if (view === "dashboard") renderDashboard();
       window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function restoreHistoryEntry(entry) {
+      const normalized = typeof entry === "string" ? { view: entry } : entry;
+      if (!normalized?.view) return;
+
+      if (normalized.view === "options-view" && normalized.options) {
+        lastOptions = normalized.options;
+        renderOptionsContent();
+        showAppPanel("options-view", false);
+        return;
+      }
+
+      if (normalized.view === "deck-start" && currentDeckId) {
+        openDeckStart(currentDeckId, false);
+        return;
+      }
+
+      showAppPanel(normalized.view, false);
     }
 
     function login(username, password) {
@@ -5507,8 +5737,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
       const directCards = getDeckCards(prefix).length;
       if (directCards > 0) {
-        return visibleAttemptsForPrefix(prefix, studentName)
-          .some(attempt => attempt.deckId === prefix && attempt.completed);
+        return isDeckFullyGreen(prefix, studentName);
       }
 
       const childDecks = getKnownDeckIds().filter(deckId => deckId.startsWith(`${prefix}/`) && getDeckCards(deckId).length > 0);
@@ -5545,8 +5774,10 @@ window.EDMUND_FLASHCARD_SEED = {
       const examGrid = document.querySelector("[data-exam-grid]");
       const resourceGrid = document.querySelector("[data-resource-grid]");
       const examSections = accessSections.slice(0, 8);
-      const resourceLeft = accessSections.slice(8, 11);
-      const resourceRight = accessSections.slice(11, 14);
+      const resourceSections = accessSections.slice(8);
+      const splitPoint = Math.ceil(resourceSections.length / 2);
+      const resourceLeft = resourceSections.slice(0, splitPoint);
+      const resourceRight = resourceSections.slice(splitPoint);
 
       if (examGrid) examGrid.innerHTML = examSections.map(tileHtml).join("");
       if (resourceGrid) {
@@ -5672,11 +5903,27 @@ window.EDMUND_FLASHCARD_SEED = {
       `;
     }
 
-    function optionButton(label, deckId) {
+    function slugifyLabel(value) {
+      const slug = String(value)
+        .normalize("NFKD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/&/g, " and ")
+        .replace(/[^a-zA-Z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .toLowerCase();
+      return slug || Array.from(String(value)).map(character => character.charCodeAt(0).toString(36)).join("-");
+    }
+
+    function deckIdForLabel(prefix, label, useSlug = false) {
+      return `${prefix}/${useSlug ? slugifyLabel(label) : label}`;
+    }
+
+    function optionButton(label, deckId, titleOverride = "") {
+      if (titleOverride) deckTitleLabels.set(deckId, titleOverride);
       const completed = !isAdmin() && isDeckCompleted(deckId);
       return `
         <div class="option-row ${completed ? "completed" : ""}" data-option-row="${escapeHtml(deckId)}" data-option-label="${escapeHtml(label)}">
-          <button class="thin-option ${completed ? "completed" : ""}" type="button" data-open-deck="${escapeHtml(deckId)}">
+          <button class="thin-option ${completed ? "completed" : ""}" type="button" data-open-deck="${escapeHtml(deckId)}" ${titleOverride ? `data-deck-title="${escapeHtml(titleOverride)}"` : ""}>
             <span>${escapeHtml(label)}</span>
             ${deckMetaHtml(deckId)}
           </button>
@@ -5685,11 +5932,35 @@ window.EDMUND_FLASHCARD_SEED = {
       `;
     }
 
-    function columnHtml(title, labels, deckPrefix) {
+    function routeOptionButton(label, route, metaPrefix = "") {
+      if (metaPrefix) deckTitleLabels.set(metaPrefix, label);
+      const completed = metaPrefix && !isAdmin() && isDeckCompleted(metaPrefix);
+      return `
+        <div class="option-row ${completed ? "completed" : ""}" data-option-row="${escapeHtml(metaPrefix || route)}" data-option-label="${escapeHtml(label)}">
+          <button class="thin-option ${completed ? "completed" : ""}" type="button" data-route="${escapeHtml(route)}">
+            <span>${escapeHtml(label)}</span>
+            ${metaPrefix ? deckMetaHtml(metaPrefix) : ""}
+          </button>
+          ${isAdmin() || !metaPrefix ? "" : `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(metaPrefix)}">重設<br>紀錄</button>`}
+        </div>
+      `;
+    }
+
+    function columnHtml(title, labels, deckPrefix, options = {}) {
+      const useSlugs = Boolean(options.useSlugs);
       return `
         <div class="option-column">
           <h3>${escapeHtml(title)}</h3>
-          ${labels.map(label => optionButton(label, `${deckPrefix}/${label}`)).join("")}
+          ${labels.map(label => optionButton(label, deckIdForLabel(deckPrefix, label, useSlugs))).join("")}
+        </div>
+      `;
+    }
+
+    function routeColumnHtml(title, rows) {
+      return `
+        <div class="option-column">
+          <h3>${escapeHtml(title)}</h3>
+          ${rows.map(row => routeOptionButton(row.label, row.route, row.metaPrefix)).join("")}
         </div>
       `;
     }
@@ -5704,38 +5975,191 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function showOptions(title, desc, htmlFactory, columnsClass = "") {
+      showAppPanel("options-view");
       lastOptions = { title, desc, htmlFactory, columnsClass };
       renderOptionsContent();
-      showAppPanel("options-view");
     }
 
     function showDseReading() {
       showOptions(
         "DSE Reading",
         "Part A / Part B1 / Part B2",
-        () => columnHtml("Part A", dseReadingYears, "dse/reading/part-a") +
-          columnHtml("Part B1", dseReadingYears, "dse/reading/part-b1") +
-          columnHtml("Part B2", dseReadingYears, "dse/reading/part-b2"),
+        () => columnHtml("Part A", dseYears, "dse/reading/part-a") +
+          columnHtml("Part B1", dseYears, "dse/reading/part-b1") +
+          columnHtml("Part B2", dseYears, "dse/reading/part-b2"),
         "columns-grid"
       );
     }
 
-    function showDseTwoColumn(title, prefix, leftTitle = "Part A", rightTitle = "Part B") {
+    function showDseWriting() {
       showOptions(
-        title,
-        `${leftTitle} / ${rightTitle}`,
-        () => columnHtml(leftTitle, dseStandardYears, `${prefix}/${leftTitle.toLowerCase().replaceAll(" ", "-")}`) +
-          columnHtml(rightTitle, dseStandardYears, `${prefix}/${rightTitle.toLowerCase().replaceAll(" ", "-")}`),
+        "DSE Writing",
+        "Part A / Part B",
+        () => columnHtml("Part A", dseYears, "dse/writing/part-a") +
+          routeColumnHtml("Part B", dseYears.map(year => ({
+            label: year,
+            route: `dse-writing-part-b-year|${year}`,
+            metaPrefix: `dse/writing/part-b/${year}`
+          }))),
         "columns-grid two"
+      );
+    }
+
+    function showDseWritingPartBQuestions(year) {
+      showOptions(
+        `DSE Writing Part B ${year}`,
+        "選擇題號。",
+        () => columnHtml(year, dseWritingPartBQuestions, `dse/writing/part-b/${year}`),
+        "columns-grid one"
+      );
+    }
+
+    function showDsePaper3() {
+      showOptions(
+        "DSE Paper 3",
+        "先選擇 Listening 或 Data File 部分。",
+        () => routeColumnHtml("Paper 3", [
+          { label: "Part A (Listening)", route: "dse-paper3-part-a", metaPrefix: "dse/paper-3/part-a-listening" },
+          { label: "Part B (Data File) - B1", route: "dse-paper3-b1", metaPrefix: "dse/paper-3/part-b-data-file-b1" },
+          { label: "Part B (Data File) - B2", route: "dse-paper3-b2", metaPrefix: "dse/paper-3/part-b-data-file-b2" }
+        ]),
+        "columns-grid one"
+      );
+    }
+
+    function showDsePaper3Years(partKey) {
+      const configs = {
+        "part-a": { title: "Part A (Listening)", prefix: "dse/paper-3/part-a-listening" },
+        b1: { title: "Part B (Data File) - B1", prefix: "dse/paper-3/part-b-data-file-b1" },
+        b2: { title: "Part B (Data File) - B2", prefix: "dse/paper-3/part-b-data-file-b2" }
+      };
+      const config = configs[partKey];
+      if (!config) return;
+      showOptions(
+        `DSE Paper 3 ${config.title}`,
+        "選擇年份。",
+        () => partKey === "part-a"
+          ? routeColumnHtml(config.title, dseYears.map(year => ({
+            label: year,
+            route: `dse-paper3-tasks|${year}`,
+            metaPrefix: `${config.prefix}/${year}`
+          })))
+          : columnHtml(config.title, dseYears, config.prefix),
+        "columns-grid one"
+      );
+    }
+
+    function showDsePaper3Tasks(year) {
+      showOptions(
+        `DSE Paper 3 Part A (Listening) ${year}`,
+        "選擇 Transcript task。",
+        () => columnHtml(year, dsePaper3Tasks, `dse/paper-3/part-a-listening/${year}`),
+        "columns-grid one"
       );
     }
 
     function showDseSpeaking() {
       showOptions(
         "DSE Speaking",
-        "Passage Vocabulary",
-        () => columnHtml("Passage Vocabulary", dseStandardYears, "dse/speaking/passage-vocabulary"),
+        "先選年份，再選 Passage 或 Edmund's Notes。",
+        () => routeColumnHtml("Years", dseYears.map(year => ({
+          label: year,
+          route: `dse-speaking-year|${year}`,
+          metaPrefix: `dse/speaking/${year}`
+        }))),
         "columns-grid one"
+      );
+    }
+
+    function showDseSpeakingTypes(year) {
+      showOptions(
+        `DSE Speaking ${year}`,
+        "選擇 Passage 或 Edmund's Notes。",
+        () => routeColumnHtml(year, [
+          { label: "Passage", route: `dse-speaking-set|${year}|passage`, metaPrefix: `dse/speaking/${year}/passage` },
+          { label: "Edmund's Notes", route: `dse-speaking-set|${year}|edmunds-notes`, metaPrefix: `dse/speaking/${year}/edmunds-notes` }
+        ]),
+        "columns-grid one"
+      );
+    }
+
+    function showDseSpeakingSets(year, setKey) {
+      const label = setKey === "passage" ? "Passage" : "Edmund's Notes";
+      showOptions(
+        `DSE Speaking ${year} ${label}`,
+        "選擇題組。",
+        () => columnHtml(label, dseSpeakingSets, `dse/speaking/${year}/${setKey}`),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsReading() {
+      showOptions(
+        "IELTS Reading",
+        "Passage 1 / Passage 2 / Passage 3",
+        () => columnHtml("Passage 1", ieltsReadingPractices, "ielts/reading/passage-1") +
+          columnHtml("Passage 2", ieltsReadingPractices, "ielts/reading/passage-2") +
+          columnHtml("Passage 3", ieltsReadingPractices, "ielts/reading/passage-3"),
+        "columns-grid"
+      );
+    }
+
+    function showIeltsWriting() {
+      showOptions(
+        "IELTS Writing",
+        "Task 1 (Charts) / Task 2 (Essay)",
+        () => routeColumnHtml("Writing", [
+          { label: "Task 1 (Charts)", route: "ielts-writing-task1", metaPrefix: "ielts/writing/task-1" },
+          { label: "Task 2 (Essay)", route: "ielts-writing-task2", metaPrefix: "ielts/writing/task-2" }
+        ]),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsWritingTask1() {
+      showOptions(
+        "IELTS Writing Task 1 (Charts)",
+        "選擇圖表類型。",
+        () => columnHtml("Task 1 (Charts)", ieltsWritingTask1Types, "ielts/writing/task-1", { useSlugs: true }),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsWritingTask2() {
+      showOptions(
+        "IELTS Writing Task 2 (Essay)",
+        "選擇 essay type。",
+        () => routeColumnHtml("Task 2 Essay Types", ieltsWritingTask2Types.map(type => ({
+          label: type.label,
+          route: `ielts-writing-task2|${type.key}`,
+          metaPrefix: `ielts/writing/task-2/${type.key}`
+        }))),
+        "columns-grid one"
+      );
+    }
+
+    function ieltsWritingQuestionLabel(row) {
+      const questionNumber = String(row.ref || "").match(/Q\d+$/)?.[0] || "";
+      return `${questionNumber ? `${questionNumber} - ` : ""}${row.question}`;
+    }
+
+    function showIeltsWritingTask2Questions(typeKey) {
+      const type = ieltsWritingTask2Types.find(item => item.key === typeKey);
+      const rows = ieltsWritingTask2Questions[typeKey] || [];
+      if (!type) return;
+      showOptions(
+        `IELTS Writing Task 2 - ${type.label}`,
+        `${rows.length} questions from Edmund Sir - IELTS Writing - Band 9 Essay Inventory.`,
+        () => `
+          <div class="option-column">
+            <h3>${escapeHtml(type.label)}</h3>
+            ${rows.map(row => {
+              const label = ieltsWritingQuestionLabel(row);
+              return optionButton(label, `ielts/writing/task-2/${type.key}/${row.ref}`, label);
+            }).join("")}
+          </div>
+        `,
+        "columns-grid wide-one question-list"
       );
     }
 
@@ -5743,7 +6167,7 @@ window.EDMUND_FLASHCARD_SEED = {
       showOptions(
         "IELTS Listening",
         "Practice 1 至 Practice 30",
-        () => columnHtml("Listening Practice", ieltsPractices, "ielts/listening"),
+        () => columnHtml("Listening Practice", ieltsListeningPractices, "ielts/listening"),
         "columns-grid one"
       );
     }
@@ -5755,6 +6179,65 @@ window.EDMUND_FLASHCARD_SEED = {
         () => ["Part 1", "Part 2", "Part 3", "Part 4"]
           .map(part => optionButton(part, `${deckPrefix}/${part.toLowerCase().replaceAll(" ", "-")}`))
           .join(""),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsSpeaking() {
+      showOptions(
+        "IELTS Speaking",
+        "Part 1 / Part 2 / Part 3",
+        () => routeColumnHtml("Speaking", [
+          { label: "Part 1", route: "ielts-speaking-part1", metaPrefix: "ielts/speaking/part-1" },
+          { label: "Part 2", route: "ielts-speaking-part2", metaPrefix: "ielts/speaking/part-2" },
+          { label: "Part 3", route: "ielts-speaking-part3", metaPrefix: "ielts/speaking/part-3" }
+        ]),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsSpeakingPart1() {
+      showOptions(
+        "IELTS Speaking Part 1",
+        "選擇主題。",
+        () => columnHtml("Part 1 Themes", ieltsSpeakingPart1Themes, "ielts/speaking/part-1", { useSlugs: true }),
+        "columns-grid wide-one"
+      );
+    }
+
+    function showIeltsSpeakingBooks(partKey) {
+      const books = partKey === "part-2" ? ieltsSpeakingPart2Books : ieltsSpeakingPart3Books;
+      const partLabel = partKey === "part-2" ? "Part 2" : "Part 3";
+      showOptions(
+        `IELTS Speaking ${partLabel}`,
+        "選擇 Book。",
+        () => routeColumnHtml("Books", books.map(book => ({
+          label: book.book,
+          route: `ielts-speaking-book|${partKey}|${book.book}`,
+          metaPrefix: `ielts/speaking/${partKey}/${slugifyLabel(book.book)}`
+        }))),
+        "columns-grid one"
+      );
+    }
+
+    function showIeltsSpeakingTopics(partKey, bookLabel) {
+      const books = partKey === "part-2" ? ieltsSpeakingPart2Books : ieltsSpeakingPart3Books;
+      const book = books.find(item => item.book === bookLabel);
+      if (!book) return;
+      const partLabel = partKey === "part-2" ? "Part 2" : "Part 3";
+      showOptions(
+        `IELTS Speaking ${partLabel} ${book.book}`,
+        "選擇題目。",
+        () => columnHtml(book.book, book.topics, `ielts/speaking/${partKey}/${slugifyLabel(book.book)}`, { useSlugs: true }),
+        "columns-grid wide-one"
+      );
+    }
+
+    function showSynonyms() {
+      showOptions(
+        "Synonyms 同義詞",
+        "Noun / Verb / Adjectives / Adverbs",
+        () => columnHtml("Synonyms 同義詞", synonymTypes, "synonyms", { useSlugs: true }),
         "columns-grid one"
       );
     }
@@ -5783,7 +6266,20 @@ window.EDMUND_FLASHCARD_SEED = {
         "part-a": "Part A",
         "part-b": "Part B",
         "part-b1": "Part B1",
-        "part-b2": "Part B2"
+        "part-b2": "Part B2",
+        "paper-3": "Paper 3",
+        "part-a-listening": "Part A (Listening)",
+        "part-b-data-file-b1": "Part B (Data File) - B1",
+        "part-b-data-file-b2": "Part B (Data File) - B2",
+        "task-1": "Task 1",
+        "task-2": "Task 2",
+        "edmunds-notes": "Edmund's Notes",
+        opinions: "Opinions",
+        "discuss-both-views-your-opinion": "Discuss both views + Your opinion",
+        "problem-and-cause": "Problem and Cause",
+        "advantage-and-disadvantage": "Advantage and Disadvantage",
+        "direct-question": "Direct question",
+        synonyms: "Synonyms 同義詞"
       };
       if (known[lower]) return known[lower];
       if (/^part-\d+$/.test(lower)) return `Part ${lower.split("-")[1]}`;
@@ -5794,6 +6290,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function deckTitleFromId(deckId) {
+      if (deckTitleLabels.has(deckId)) return deckTitleLabels.get(deckId);
       return String(deckId || "").split("/").filter(Boolean).map(titlePart).join(" / ");
     }
 
@@ -5824,6 +6321,11 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelector("[data-start-title]").textContent = currentDeckTitle;
       document.querySelector("[data-start-path]").textContent = `${currentDeckTitle}｜卡片：${count}`;
       document.querySelector("[data-start-status]").textContent = "";
+      const resetCurrentDeckButton = document.querySelector("[data-reset-current-deck]");
+      if (resetCurrentDeckButton) {
+        resetCurrentDeckButton.classList.toggle("hidden", isAdmin());
+        resetCurrentDeckButton.setAttribute("data-reset-current-deck", deckId);
+      }
 
       const saved = savedProgressForDeck(deckId);
       const resumePanel = document.querySelector("[data-resume-panel]");
@@ -5846,6 +6348,17 @@ window.EDMUND_FLASHCARD_SEED = {
         [result[index], result[swapIndex]] = [result[swapIndex], result[index]];
       }
       return result;
+    }
+
+    function modeLabel(mode, cardLimit = 0) {
+      if (cardLimit) return `隨機 ${cardLimit} 卡`;
+      return mode === "random" ? "隨機排序" : "依原定次序";
+    }
+
+    function hideReviewPanel() {
+      activeReviewStatus = "";
+      document.querySelector("[data-review-panel]")?.classList.add("hidden");
+      document.querySelectorAll("[data-review-status]").forEach(button => button.classList.remove("active"));
     }
 
     function logAttemptStart(mode, totalCards) {
@@ -5906,12 +6419,13 @@ window.EDMUND_FLASHCARD_SEED = {
         deckId: currentDeckId,
         deckTitle: currentDeckTitle,
         mode: studySession.mode,
+        cardLimit: studySession.cardLimit || 0,
         roundNumber: studySession.roundNumber,
         roundQueue: studySession.roundQueue,
         currentPosition: studySession.currentPosition,
         answers: studySession.answers,
         attemptId: studySession.attemptId,
-        totalCards: studySession.cards.length,
+        totalCards: studySession.roundQueue.length,
         savedAt: Date.now()
       };
       saveProgressStore(store);
@@ -5930,22 +6444,33 @@ window.EDMUND_FLASHCARD_SEED = {
       return confirmed;
     }
 
-    function startDeckSession(mode) {
+    function startDeckSession(mode, cardLimit = 0) {
       if (savedProgressForDeck(currentDeckId)) {
         clearSavedProgress(currentDeckId);
       }
 
       const cards = getDeckCards();
       const status = document.querySelector("[data-start-status]");
-      if (!cards.length && status) {
-        status.textContent = isAdmin()
-          ? "這個卡組暫時未有卡片。你仍可進入後手動新增。"
-          : "這個卡組暫時未有卡片。";
+      if (!cards.length) {
+        if (status) status.textContent = "這個卡組暫時未有卡片。";
+        return;
       }
 
-      const order = mode === "random" ? shuffle(cards.map((_, index) => index)) : cards.map((_, index) => index);
+      const allIndexes = cards.map((_, index) => index);
+      let order = mode === "random" ? shuffle(allIndexes) : allIndexes;
+      if (cardLimit) {
+        const green = new Set(getDeckFamiliarity(currentDeckId).green);
+        const availableIndexes = allIndexes.filter(index => !green.has(String(index)));
+        if (!availableIndexes.length) {
+          if (status) status.textContent = "所有卡片都已經是綠勾。請到綠勾列表重設後再抽卡。";
+          return;
+        }
+        order = shuffle(availableIndexes).slice(0, Math.min(cardLimit, availableIndexes.length));
+      }
+
       studySession = {
         mode,
+        cardLimit,
         cards,
         roundNumber: 1,
         roundQueue: order,
@@ -5953,13 +6478,12 @@ window.EDMUND_FLASHCARD_SEED = {
         answers: {},
         flipped: false,
         completed: false,
-        attemptId: logAttemptStart(mode, cards.length)
+        attemptId: logAttemptStart(modeLabel(mode, cardLimit), order.length)
       };
 
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
-      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜卡片：${cards.length}｜${mode === "random" ? "隨機排序" : "依原定次序"}`;
-      document.querySelector("[data-toggle-editor]")?.classList.toggle("hidden", !isAdmin());
-      document.querySelector("[data-editor-panel]")?.classList.add("hidden");
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜本次：${order.length}/${cards.length}｜${modeLabel(mode, cardLimit)}`;
+      hideReviewPanel();
       showAppPanel("deck-view");
       saveCurrentProgress();
       renderStudyCard();
@@ -5971,6 +6495,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const cards = getDeckCards(currentDeckId);
       studySession = {
         mode: saved.mode || "order",
+        cardLimit: saved.cardLimit || 0,
         cards,
         roundNumber: saved.roundNumber || 1,
         roundQueue: Array.isArray(saved.roundQueue) ? saved.roundQueue.filter(index => cards[index]) : cards.map((_, index) => index),
@@ -5982,9 +6507,8 @@ window.EDMUND_FLASHCARD_SEED = {
       };
       if (studySession.currentPosition >= studySession.roundQueue.length) studySession.currentPosition = 0;
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
-      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜卡片：${cards.length}｜繼續上次進度`;
-      document.querySelector("[data-toggle-editor]")?.classList.toggle("hidden", !isAdmin());
-      document.querySelector("[data-editor-panel]")?.classList.add("hidden");
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜本次：${studySession.roundQueue.length}/${cards.length}｜繼續上次進度`;
+      hideReviewPanel();
       showAppPanel("deck-view");
       renderStudyCard();
     }
@@ -5993,6 +6517,77 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!studySession?.cards.length) return null;
       const cardIndex = studySession.roundQueue[studySession.currentPosition];
       return studySession.cards[cardIndex] || null;
+    }
+
+    function familiarityRows(status) {
+      const cards = getDeckCards(currentDeckId);
+      const indexes = getDeckFamiliarity(currentDeckId)[status] || [];
+      return indexes
+        .map(index => Number(index))
+        .filter(index => cards[index])
+        .sort((a, b) => a - b)
+        .map(index => ({ index, card: cards[index] }));
+    }
+
+    function renderReviewPanel(status = activeReviewStatus) {
+      const panel = document.querySelector("[data-review-panel]");
+      if (!panel || !status) return;
+
+      activeReviewStatus = status;
+      const isGreen = status === "green";
+      const rows = familiarityRows(status);
+      const title = isGreen ? `綠勾卡片（${rows.length}）` : `紅叉卡片（${rows.length}）`;
+      const note = isGreen
+        ? "這些卡片已被你標記為已掌握；10/20/30/40 卡模式不會再抽到它們。"
+        : "這些卡片是你標記為需要再溫習的項目。";
+
+      panel.classList.remove("hidden", "green-review", "red-review");
+      panel.classList.add(isGreen ? "green-review" : "red-review");
+      document.querySelector("[data-review-title]").textContent = title;
+      document.querySelector("[data-review-note]").textContent = note;
+
+      const resetButton = document.querySelector("[data-reset-familiarity]");
+      if (resetButton) {
+        resetButton.setAttribute("data-reset-familiarity", status);
+        resetButton.textContent = isGreen ? "重設綠勾" : "重設紅叉";
+      }
+
+      const list = document.querySelector("[data-review-list]");
+      if (!list) return;
+      list.innerHTML = rows.length
+        ? rows.map(({ card }) => `
+          <div class="review-row">
+            <span>${escapeHtml(card.front)}</span>
+            <span>${escapeHtml(card.meaning || "-")}</span>
+          </div>
+        `).join("")
+        : `<p class="review-empty">暫時未有${isGreen ? "綠勾" : "紅叉"}卡片。</p>`;
+
+      document.querySelector("[data-review-status='green']")?.classList.toggle("active", isGreen);
+      document.querySelector("[data-review-status='red']")?.classList.toggle("active", !isGreen);
+    }
+
+    function resetFamiliarityStatus(status) {
+      if (!currentUser?.name || !["green", "red"].includes(status)) return;
+      const label = status === "green" ? "綠勾" : "紅叉";
+      if (!window.confirm(`確定要重設本卡組所有${label}嗎？這會影響之後的抽卡結果，但不會刪除 Admin 看到的嘗試紀錄。`)) return;
+
+      const familiarity = getDeckFamiliarity(currentDeckId);
+      familiarity[status] = [];
+      saveDeckFamiliarity(currentDeckId, familiarity);
+
+      if (studySession?.answers) {
+        Object.keys(studySession.answers).forEach(index => {
+          if (studySession.answers[index] === status) delete studySession.answers[index];
+        });
+        updateAttemptProgress(false);
+        saveCurrentProgress();
+      }
+
+      renderStudyCard();
+      renderReviewPanel(status);
+      if (lastOptions) renderOptionsContent();
+      if (currentView === "dashboard") renderDashboard();
     }
 
     function renderStudyCard() {
@@ -6004,13 +6599,22 @@ window.EDMUND_FLASHCARD_SEED = {
       const redButton = document.querySelector("[data-mark-card='red']");
       const prevButton = document.querySelector("[data-prev-study-card]");
       const nextButton = document.querySelector("[data-next-study-card]");
+      const greenPill = document.querySelector("[data-green-count]");
+      const redPill = document.querySelector("[data-red-count]");
       const counts = answerCounts();
       const totalThisRound = studySession?.roundQueue.length || 0;
+      const familiarity = getDeckFamiliarity(currentDeckId);
 
       document.querySelector("[data-progress-count]").textContent = `${counts.answered} / ${totalThisRound}`;
       document.querySelector("[data-round-count]").textContent = `第 ${studySession?.roundNumber || 1} 輪`;
-      document.querySelector("[data-green-count]").textContent = `綠勾：${counts.green}`;
-      document.querySelector("[data-red-count]").textContent = `紅叉：${counts.red}`;
+      if (greenPill) {
+        greenPill.textContent = `綠勾：${counts.green}`;
+        greenPill.setAttribute("title", `點擊查看本卡組 ${familiarity.green.length} 張綠勾卡`);
+      }
+      if (redPill) {
+        redPill.textContent = `紅叉：${counts.red}`;
+        redPill.setAttribute("title", `點擊查看本卡組 ${familiarity.red.length} 張紅叉卡`);
+      }
 
       if (!card) {
         frontTerm.textContent = studySession?.cards.length ? "本輪完成。" : "暫時未有卡片。";
@@ -6020,6 +6624,7 @@ window.EDMUND_FLASHCARD_SEED = {
         redButton.disabled = true;
         if (prevButton) prevButton.disabled = true;
         if (nextButton) nextButton.disabled = true;
+        if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
         return;
       }
 
@@ -6053,6 +6658,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (nextButton) nextButton.disabled = studySession.currentPosition >= studySession.roundQueue.length - 1;
       greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
       redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
+      if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
     }
 
     function flipCurrentCard() {
@@ -6086,6 +6692,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!studySession || !studySession.flipped || !currentCard()) return;
       const currentIndex = studySession.roundQueue[studySession.currentPosition];
       studySession.answers[currentIndex] = result;
+      setCardFamiliarity(currentIndex, result);
       updateAttemptProgress(false);
 
       if (answerCounts().answered >= studySession.roundQueue.length) {
@@ -6113,7 +6720,7 @@ window.EDMUND_FLASHCARD_SEED = {
         return;
       }
 
-      const completed = redIndexes.length === 0 && studySession.cards.length > 0;
+      const completed = redIndexes.length === 0 && studySession.roundQueue.length > 0;
       studySession.completed = completed;
       updateAttemptProgress(completed);
       clearSavedProgress(currentDeckId);
@@ -6127,19 +6734,6 @@ window.EDMUND_FLASHCARD_SEED = {
       if (frontTerm) frontTerm.textContent = completed ? "本卡組已完成。" : "本次溫習已結束。";
       if (frontExamples) frontExamples.innerHTML = "";
       if (lastOptions) renderOptionsContent();
-    }
-
-    function addCard(front, back) {
-      saveCustomCard(currentDeckId, {
-        front: front.trim(),
-        meaning: back.trim(),
-        examples: [],
-        createdAt: Date.now()
-      });
-      if (studySession) {
-        studySession.cards = getDeckCards();
-      }
-      renderStudyCard();
     }
 
     function resetVisibleAttempts(deckId) {
@@ -6158,6 +6752,7 @@ window.EDMUND_FLASHCARD_SEED = {
       clearSavedProgress(deckId);
       if (currentView === "options-view") renderOptionsContent();
       if (currentView === "dashboard") renderDashboard();
+      if (currentView === "deck-start") openDeckStart(deckId, false);
     }
 
     function setAllAccess(value) {
@@ -6264,6 +6859,23 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const resetCurrentDeckButton = event.target.closest("[data-reset-current-deck]");
+        if (resetCurrentDeckButton) {
+          resetVisibleAttempts(resetCurrentDeckButton.getAttribute("data-reset-current-deck"));
+          return;
+        }
+
+        const resetFamiliarityButton = event.target.closest("[data-reset-familiarity]");
+        if (resetFamiliarityButton) {
+          resetFamiliarityStatus(resetFamiliarityButton.getAttribute("data-reset-familiarity"));
+          return;
+        }
+
+        if (event.target.closest("[data-close-review]")) {
+          hideReviewPanel();
+          return;
+        }
+
         const removeButton = event.target.closest("[data-remove-student]");
         if (removeButton) {
           const name = removeButton.getAttribute("data-remove-student");
@@ -6290,10 +6902,34 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route === "dse-home") showAppPanel("dse-home");
           if (route === "ielts-home") showAppPanel("ielts-home");
           if (route === "dse-reading") showDseReading();
-          if (route === "dse-writing") showDseTwoColumn("DSE Writing", "dse/writing");
-          if (route === "dse-listening") showDseTwoColumn("DSE Listening", "dse/listening");
+          if (route === "dse-writing") showDseWriting();
+          if (route.startsWith("dse-writing-part-b-year|")) showDseWritingPartBQuestions(route.split("|")[1]);
+          if (route === "dse-paper3") showDsePaper3();
+          if (route === "dse-paper3-part-a") showDsePaper3Years("part-a");
+          if (route === "dse-paper3-b1") showDsePaper3Years("b1");
+          if (route === "dse-paper3-b2") showDsePaper3Years("b2");
+          if (route.startsWith("dse-paper3-tasks|")) showDsePaper3Tasks(route.split("|")[1]);
           if (route === "dse-speaking") showDseSpeaking();
+          if (route.startsWith("dse-speaking-year|")) showDseSpeakingTypes(route.split("|")[1]);
+          if (route.startsWith("dse-speaking-set|")) {
+            const [, year, setKey] = route.split("|");
+            showDseSpeakingSets(year, setKey);
+          }
+          if (route === "ielts-reading") showIeltsReading();
+          if (route === "ielts-writing") showIeltsWriting();
+          if (route === "ielts-writing-task1") showIeltsWritingTask1();
+          if (route === "ielts-writing-task2") showIeltsWritingTask2();
+          if (route.startsWith("ielts-writing-task2|")) showIeltsWritingTask2Questions(route.split("|")[1]);
           if (route === "ielts-listening") showIeltsListening();
+          if (route === "ielts-speaking") showIeltsSpeaking();
+          if (route === "ielts-speaking-part1") showIeltsSpeakingPart1();
+          if (route === "ielts-speaking-part2") showIeltsSpeakingBooks("part-2");
+          if (route === "ielts-speaking-part3") showIeltsSpeakingBooks("part-3");
+          if (route.startsWith("ielts-speaking-book|")) {
+            const [, partKey, bookLabel] = route.split("|");
+            showIeltsSpeakingTopics(partKey, bookLabel);
+          }
+          if (route === "synonyms-home") showSynonyms();
           return;
         }
 
@@ -6301,6 +6937,8 @@ window.EDMUND_FLASHCARD_SEED = {
         if (openDeckButton) {
           if (!confirmLeaveInProgress()) return;
           const deckId = openDeckButton.getAttribute("data-open-deck");
+          const titleOverride = openDeckButton.getAttribute("data-deck-title");
+          if (titleOverride) deckTitleLabels.set(deckId, titleOverride);
           const sectionKey = openDeckButton.getAttribute("data-section-key") || sectionKeyForDeck(deckId);
           if (sectionKey && !canAccess(sectionKey)) return;
           if (/^ielts\/listening\/Practice \d+$/.test(deckId)) {
@@ -6315,7 +6953,10 @@ window.EDMUND_FLASHCARD_SEED = {
         const modeButton = event.target.closest("[data-start-mode]");
         if (modeButton) {
           if (savedProgressForDeck(currentDeckId) && !window.confirm("已有未完成進度。確定要重新開始嗎？")) return;
-          startDeckSession(modeButton.getAttribute("data-start-mode"));
+          startDeckSession(
+            modeButton.getAttribute("data-start-mode"),
+            Number(modeButton.getAttribute("data-card-limit") || 0)
+          );
           return;
         }
 
@@ -6341,11 +6982,7 @@ window.EDMUND_FLASHCARD_SEED = {
         if (event.target.closest("[data-back]")) {
           if (!confirmLeaveInProgress()) return;
           const previous = viewStack.pop();
-          if (previous === "deck-start" && currentDeckId) {
-            openDeckStart(currentDeckId, false);
-          } else if (previous) {
-            showAppPanel(previous, false);
-          }
+          restoreHistoryEntry(previous);
           return;
         }
 
@@ -6354,11 +6991,6 @@ window.EDMUND_FLASHCARD_SEED = {
           clearSession();
           studySession = null;
           showLogin();
-          return;
-        }
-
-        if (event.target.closest("[data-toggle-editor]")) {
-          document.querySelector("[data-editor-panel]")?.classList.toggle("hidden");
           return;
         }
 
@@ -6377,22 +7009,21 @@ window.EDMUND_FLASHCARD_SEED = {
           markCard(markButton.getAttribute("data-mark-card"));
           return;
         }
+
+        const reviewButton = event.target.closest("[data-review-status]");
+        if (reviewButton) {
+          const status = reviewButton.getAttribute("data-review-status");
+          const panelOpen = !document.querySelector("[data-review-panel]")?.classList.contains("hidden");
+          if (panelOpen && activeReviewStatus === status) {
+            hideReviewPanel();
+          } else {
+            renderReviewPanel(status);
+          }
+          return;
+        }
       });
 
       document.querySelector("[data-front-card]")?.addEventListener("click", flipCurrentCard);
-
-      document.querySelector("[data-card-form]")?.addEventListener("submit", event => {
-        event.preventDefault();
-        if (!isAdmin()) return;
-        const formData = new FormData(event.currentTarget);
-        const front = String(formData.get("front") || "");
-        const back = String(formData.get("back") || "");
-        if (!front.trim() || !back.trim()) return;
-        addCard(front, back);
-        event.currentTarget.reset();
-        const status = document.querySelector("[data-card-status]");
-        if (status) status.textContent = "Card added.";
-      });
 
       window.addEventListener("beforeunload", event => {
         if (!isSessionInProgress()) return;
