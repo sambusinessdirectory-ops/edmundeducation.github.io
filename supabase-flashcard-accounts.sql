@@ -214,7 +214,12 @@ begin
   where st.name = trim(p_student_name)
     and st.deleted_at is null;
 
-  return found;
+  return not exists (
+    select 1
+    from public.flashcard_students st
+    where st.name = trim(p_student_name)
+      and st.deleted_at is null
+  );
 end;
 $$;
 

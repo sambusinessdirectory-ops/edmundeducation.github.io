@@ -7455,13 +7455,13 @@ window.EDMUND_FLASHCARD_SEED = {
           const name = removeButton.getAttribute("data-remove-student");
           if (studentsLoadedFromSupabase) {
             try {
-              const removed = await callSupabaseRpc("flashcard_admin_delete_student", {
+              await callSupabaseRpc("flashcard_admin_delete_student", {
                 p_admin_name: ADMIN_NAME,
                 p_admin_password: adminPasswordForSession,
                 p_student_name: name
               });
-              if (!removed) throw new Error("Supabase did not remove this student.");
               await loadStudentsFromSupabase();
+              updateSupabaseStatus("Supabase: live", "live");
             } catch (error) {
               console.warn("Could not remove Supabase student:", error);
               updateSupabaseStatus("Supabase: remove failed", "error");
