@@ -1,4 +1,4 @@
-create extension if not exists pgcrypto;
+create extension if not exists pgcrypto with schema extensions;
 
 create table if not exists public.flashcard_admins (
   name text primary key,
@@ -62,7 +62,7 @@ for each row
 execute function public.flashcard_touch_updated_at();
 
 insert into public.flashcard_admins (name, password_hash)
-values ('Sam', crypt('FlashCardEdmund', gen_salt('bf')))
+values ('Sam', extensions.crypt('FlashCardEdmund', extensions.gen_salt('bf')))
 on conflict (name) do nothing;
 
 alter table public.flashcard_admins enable row level security;
@@ -87,7 +87,7 @@ as $$
     select 1
     from public.flashcard_admins a
     where a.name = trim(p_name)
-      and a.password_hash = crypt(p_password, a.password_hash)
+      and a.password_hash = extensions.crypt(p_password, a.password_hash)
   );
 $$;
 
@@ -121,7 +121,7 @@ begin
   from public.flashcard_students st
   where lower(st.name) = lower(trim(p_name))
     and st.deleted_at is null
-    and st.password_hash = crypt(p_password, st.password_hash)
+    and st.password_hash = extensions.crypt(p_password, st.password_hash)
   limit 1;
 
   if not found then
@@ -180,7 +180,7 @@ begin
   end if;
 
   insert into public.flashcard_students (name, password_hash, access, deleted_at)
-  values (v_name, crypt(p_student_password, gen_salt('bf')), coalesce(p_access, '{}'::jsonb), null)
+  values (v_name, extensions.crypt(p_student_password, extensions.gen_salt('bf')), coalesce(p_access, '{}'::jsonb), null)
   on conflict (name) do update
   set password_hash = excluded.password_hash,
       access = excluded.access,
@@ -281,7 +281,7 @@ begin
   end if;
 
   update public.flashcard_students st
-  set password_hash = crypt(p_new_password, gen_salt('bf'))
+  set password_hash = extensions.crypt(p_new_password, extensions.gen_salt('bf'))
   where st.id = v_student.id;
 
   insert into public.flashcard_student_password_logs (student_id, student_name, changed_by)
