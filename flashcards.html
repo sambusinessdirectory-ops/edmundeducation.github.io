@@ -93,6 +93,41 @@
       justify-content: flex-end;
     }
 
+    .sync-pill {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 999px;
+      padding: 0 14px;
+      background: rgba(255,255,255,0.78);
+      color: #2b425f;
+      box-shadow: 0 10px 20px rgba(17,43,85,0.08);
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .sync-pill.live {
+      border-color: rgba(22,163,74,0.26);
+      background: rgba(220,252,231,0.92);
+      color: #166534;
+    }
+
+    .sync-pill.warning {
+      border-color: rgba(245,158,11,0.30);
+      background: rgba(255,251,235,0.94);
+      color: #92400e;
+    }
+
+    .sync-pill.error {
+      border-color: rgba(220,38,38,0.22);
+      background: rgba(254,226,226,0.92);
+      color: #991b1b;
+    }
+
     .breadcrumbs {
       display: flex;
       align-items: center;
@@ -931,6 +966,10 @@
         width: min(300px, 84vw);
       }
 
+      .sync-pill {
+        width: 100%;
+      }
+
       .login-card,
       .panel-card,
       .deck-card {
@@ -978,6 +1017,7 @@
         <img src="Font Transparent.png" alt="EdmundEducation">
       </a>
       <div class="nav-actions">
+        <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
         <button class="pill-button hidden" type="button" data-back>Back</button>
         <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
       </div>
@@ -1209,6 +1249,7 @@
     </main>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="flashcards-ielts-writing-data.js"></script>
   <script>
 window.EDMUND_FLASHCARD_SEED = {
@@ -5358,6 +5399,28 @@ window.EDMUND_FLASHCARD_SEED = {
     const PROGRESS_KEY = "edmundFlashcardProgress";
     const RESET_LOG_KEY = "edmundFlashcardResetLogs";
     const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
+    const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
+    const SUPABASE_STATE_TABLE = "flashcard_state_private";
+    const SUPABASE_SYNC_KEYS = [
+      CARDS_KEY,
+      ATTEMPTS_KEY,
+      PROGRESS_KEY,
+      RESET_LOG_KEY,
+      FAMILIARITY_KEY
+    ];
+
+    const supabaseClient = window.supabase?.createClient
+      ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+      : null;
+    const remoteStore = {};
+    const supabaseSaveTimers = new Map();
+    const supabaseState = {
+      loaded: false,
+      online: false,
+      userId: "",
+      channel: null
+    };
 
     const seedDecks = window.EDMUND_FLASHCARD_SEED || {};
     const ieltsWritingTask2Questions = window.EDMUND_IELTS_WRITING_TASK2 || {};
@@ -5491,6 +5554,13 @@ window.EDMUND_FLASHCARD_SEED = {
       return Object.fromEntries(accessSections.map(section => [section.key, false]));
     }
 
+    function updateSupabaseStatus(message, tone = "") {
+      const status = document.querySelector("[data-sync-status]");
+      if (!status) return;
+      status.textContent = message;
+      status.className = `sync-pill ${tone}`.trim();
+    }
+
     function normalizeStudent(student) {
       return {
         name: String(student.name || "").trim(),
@@ -5501,6 +5571,9 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function readJson(key, fallback) {
+      if (Object.prototype.hasOwnProperty.call(remoteStore, key)) {
+        return remoteStore[key];
+      }
       try {
         return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback));
       } catch {
@@ -5509,7 +5582,148 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function writeJson(key, value) {
+      remoteStore[key] = value;
       localStorage.setItem(key, JSON.stringify(value));
+      queueSupabaseStateSave(key, value);
+    }
+
+    function queueSupabaseStateSave(key, value) {
+      if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !supabaseState.loaded) return;
+      window.clearTimeout(supabaseSaveTimers.get(key));
+      supabaseSaveTimers.set(key, window.setTimeout(() => {
+        saveSupabaseState(key, value);
+      }, 250));
+    }
+
+    async function saveSupabaseState(key, value, options = {}) {
+      if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !supabaseState.userId) return;
+      if (!options.silent) updateSupabaseStatus("Supabase: saving", "warning");
+
+      const { error } = await supabaseClient
+        .from(SUPABASE_STATE_TABLE)
+        .upsert({
+          user_id: supabaseState.userId,
+          key,
+          value,
+          updated_at: new Date().toISOString()
+        }, { onConflict: "user_id,key" });
+
+      if (error) {
+        console.warn("Supabase flashcard save failed:", error);
+        const missingTable = String(error.message || "").includes(SUPABASE_STATE_TABLE);
+        updateSupabaseStatus(missingTable ? "Supabase: run SQL first" : "Supabase: save failed", "error");
+        return;
+      }
+
+      if (!options.silent) updateSupabaseStatus("Supabase: live", "live");
+    }
+
+    async function migrateLocalStateToSupabase(remoteKeys) {
+      for (const key of SUPABASE_SYNC_KEYS) {
+        if (remoteKeys.has(key)) continue;
+        const raw = localStorage.getItem(key);
+        if (!raw) continue;
+
+        try {
+          const value = JSON.parse(raw);
+          remoteStore[key] = value;
+          await saveSupabaseState(key, value, { silent: true });
+        } catch (error) {
+          console.warn(`Could not migrate local ${key} to Supabase:`, error);
+        }
+      }
+    }
+
+    function applyRemoteStateRow(row) {
+      if (!row?.key) return;
+      remoteStore[row.key] = row.value;
+      localStorage.setItem(row.key, JSON.stringify(row.value));
+    }
+
+    function removeRemoteStateRow(row) {
+      if (!row?.key) return;
+      delete remoteStore[row.key];
+      localStorage.removeItem(row.key);
+    }
+
+    function startSupabaseRealtime() {
+      if (!supabaseClient || supabaseState.channel || !supabaseState.userId) return;
+
+      supabaseState.channel = supabaseClient
+        .channel("flashcard-state-sync")
+        .on(
+          "postgres_changes",
+          {
+            event: "*",
+            schema: "public",
+            table: SUPABASE_STATE_TABLE,
+            filter: `user_id=eq.${supabaseState.userId}`
+          },
+          payload => {
+            if (payload.eventType === "DELETE") {
+              removeRemoteStateRow(payload.old);
+            } else {
+              applyRemoteStateRow(payload.new);
+            }
+            refreshCurrentView();
+          }
+        )
+        .subscribe(status => {
+          if (status === "SUBSCRIBED") updateSupabaseStatus("Supabase: live", "live");
+        });
+    }
+
+    async function ensureSupabaseSession() {
+      const sessionResult = await supabaseClient.auth.getSession();
+      let session = sessionResult.data?.session || null;
+      if (!session) {
+        const signInResult = await supabaseClient.auth.signInAnonymously();
+        if (signInResult.error) throw signInResult.error;
+        session = signInResult.data?.session || null;
+      }
+
+      if (!session?.user?.id) throw new Error("No Supabase user session was created.");
+      supabaseState.userId = session.user.id;
+    }
+
+    async function initSupabaseState() {
+      if (!supabaseClient) {
+        updateSupabaseStatus("Supabase: local backup", "warning");
+        return;
+      }
+
+      updateSupabaseStatus("Supabase: connecting", "warning");
+      try {
+        await ensureSupabaseSession();
+      } catch (error) {
+        console.warn("Supabase anonymous session failed:", error);
+        updateSupabaseStatus("Supabase: enable Auth", "error");
+        return;
+      }
+
+      const { data, error } = await supabaseClient
+        .from(SUPABASE_STATE_TABLE)
+        .select("key,value");
+
+      if (error) {
+        console.warn("Supabase flashcard load failed:", error);
+        const missingTable = String(error.message || "").includes(SUPABASE_STATE_TABLE);
+        updateSupabaseStatus(missingTable ? "Supabase: run SQL first" : "Supabase: local backup", missingTable ? "error" : "warning");
+        return;
+      }
+
+      const remoteKeys = new Set();
+      (data || []).forEach(row => {
+        remoteKeys.add(row.key);
+        applyRemoteStateRow(row);
+      });
+
+      supabaseState.loaded = true;
+      supabaseState.online = true;
+      await migrateLocalStateToSupabase(remoteKeys);
+      updateSupabaseStatus("Supabase: live", "live");
+      startSupabaseRealtime();
+      refreshCurrentView();
     }
 
     function getStudents() {
@@ -5777,6 +5991,21 @@ window.EDMUND_FLASHCARD_SEED = {
       }
 
       showAppPanel(normalized.view, false);
+    }
+
+    function refreshCurrentView() {
+      if (!currentUser || currentView === "login") return;
+
+      if (currentView === "admin-panel") {
+        renderStudents();
+        renderStudentProfile();
+      }
+
+      if (currentView === "dashboard") renderDashboard();
+      if (currentView === "options-view") renderOptionsContent();
+      if (currentView === "deck-start") refreshDeckStartPanel();
+      if (currentView === "deck-view") renderStudyCard();
+      renderBreadcrumbs();
     }
 
     function login(username, password) {
@@ -6441,22 +6670,21 @@ window.EDMUND_FLASHCARD_SEED = {
       saveProgressStore(store);
     }
 
-    function openDeckStart(deckId, push = true) {
-      currentDeckId = deckId;
-      currentDeckTitle = deckTitleFromId(deckId);
-      const count = getDeckCards(deckId).length;
-      const stats = attemptStatsForPrefix(deckId);
-      const familiarity = familiarityStatsForPrefix(deckId);
+    function refreshDeckStartPanel() {
+      if (!currentDeckId) return;
+      const count = getDeckCards(currentDeckId).length;
+      const stats = attemptStatsForPrefix(currentDeckId);
+      const familiarity = familiarityStatsForPrefix(currentDeckId);
       document.querySelector("[data-start-title]").textContent = currentDeckTitle;
       document.querySelector("[data-start-path]").textContent = `${currentDeckTitle}｜卡片：${count}｜嘗試：${stats.count}｜最近：${todayText(stats.latest)}｜綠勾：${familiarity.green}｜紅叉：${familiarity.red}`;
       document.querySelector("[data-start-status]").textContent = "";
       const resetCurrentDeckButton = document.querySelector("[data-reset-current-deck]");
       if (resetCurrentDeckButton) {
         resetCurrentDeckButton.classList.toggle("hidden", !currentUser?.name);
-        resetCurrentDeckButton.setAttribute("data-reset-current-deck", deckId);
+        resetCurrentDeckButton.setAttribute("data-reset-current-deck", currentDeckId);
       }
 
-      const saved = savedProgressForDeck(deckId);
+      const saved = savedProgressForDeck(currentDeckId);
       const resumePanel = document.querySelector("[data-resume-panel]");
       const resumeText = document.querySelector("[data-resume-text]");
       if (saved && resumePanel && resumeText) {
@@ -6466,7 +6694,12 @@ window.EDMUND_FLASHCARD_SEED = {
       } else {
         resumePanel?.classList.add("hidden");
       }
+    }
 
+    function openDeckStart(deckId, push = true) {
+      currentDeckId = deckId;
+      currentDeckTitle = deckTitleFromId(deckId);
+      refreshDeckStartPanel();
       showAppPanel("deck-start", push);
     }
 
@@ -7238,6 +7471,7 @@ window.EDMUND_FLASHCARD_SEED = {
     } else {
       showLogin();
     }
+    initSupabaseState();
   </script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
 </body>
