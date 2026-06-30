@@ -93,6 +93,58 @@
       justify-content: flex-end;
     }
 
+    .breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin: -8px 0 22px;
+      padding: 12px 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.70);
+      box-shadow: 0 14px 28px rgba(17,43,85,0.08);
+    }
+
+    .crumb-button {
+      min-height: 34px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(219,234,254,0.86);
+      color: #1559a8;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+      transition: transform 0.16s ease, background 0.16s ease, color 0.16s ease;
+    }
+
+    .crumb-button:hover {
+      transform: translateY(-1px);
+      background: #2f80ed;
+      color: #fff;
+    }
+
+    .crumb-current {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: #0e2d55;
+      color: #fff;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .crumb-separator {
+      color: #5b6678;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
     .hero {
       display: grid;
       grid-template-columns: minmax(0, 0.92fr) minmax(340px, 0.58fr);
@@ -681,8 +733,9 @@
 
     .review-row {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
       gap: 12px;
+      align-items: center;
       padding: 12px 14px;
       border-radius: 14px;
       background: rgba(255,255,255,0.86);
@@ -958,6 +1011,8 @@
       </section>
 
       <section class="app-view hidden" data-app-view>
+        <nav class="breadcrumbs hidden" data-breadcrumbs aria-label="Flashcard pathway"></nav>
+
         <section class="panel-card hidden" data-admin-panel>
           <div class="section-head">
             <div>
@@ -1130,13 +1185,13 @@
 
           <div class="study-layout">
             <div class="study-main">
-              <article class="flash-frame front" data-front-card>
+              <article class="flash-frame front" data-front-card tabindex="0">
                 <div class="front-card-content">
                   <div class="front-term" data-front-term>No cards yet.</div>
                   <div class="front-examples" data-front-examples></div>
                 </div>
               </article>
-              <article class="flash-frame back hidden" data-back-card></article>
+              <article class="flash-frame back hidden" data-back-card tabindex="0"></article>
               <p class="note-text" data-card-hint>點擊卡片即可揭示答案。翻開後才可選擇綠勾或紅叉。</p>
               <div class="card-nav">
                 <button class="secondary-button" type="button" data-prev-study-card>上一張</button>
@@ -5621,11 +5676,63 @@ window.EDMUND_FLASHCARD_SEED = {
       viewSelectors.forEach(selector => document.querySelector(selector)?.classList.add("hidden"));
     }
 
+    function currentViewLabel() {
+      if (currentView === "dashboard") return "學習首頁";
+      if (currentView === "admin-panel") return "Admin 控制台";
+      if (currentView === "dse-home") return "DSE 中學文憑試";
+      if (currentView === "ielts-home") return "IELTS";
+      if (currentView === "options-view" && lastOptions) return lastOptions.title;
+      if (currentView === "deck-start") return currentDeckTitle || "Deck";
+      if (currentView === "deck-view") return currentDeckTitle || "Flashcards";
+      return "學習首頁";
+    }
+
     function currentHistoryEntry() {
       if (currentView === "options-view" && lastOptions) {
-        return { view: currentView, options: lastOptions };
+        return { view: currentView, options: lastOptions, label: currentViewLabel() };
       }
-      return { view: currentView };
+      if (["deck-start", "deck-view"].includes(currentView)) {
+        return { view: currentView, deckId: currentDeckId, label: currentViewLabel() };
+      }
+      return { view: currentView, label: currentViewLabel() };
+    }
+
+    function breadcrumbEntries() {
+      if (!currentUser || currentView === "login" || currentView === "admin-panel") return [];
+      const entries = [{ view: "dashboard", label: "學習首頁" }];
+      viewStack.forEach(entry => {
+        const normalized = typeof entry === "string" ? { view: entry } : entry;
+        if (!normalized?.view || ["login", "admin-panel", "dashboard"].includes(normalized.view)) return;
+        entries.push({ ...normalized, label: normalized.label || normalized.options?.title || normalized.view });
+      });
+      if (currentView !== "dashboard") {
+        entries.push(currentHistoryEntry());
+      }
+      return entries;
+    }
+
+    function renderBreadcrumbs() {
+      const nav = document.querySelector("[data-breadcrumbs]");
+      if (!nav) return;
+      const entries = breadcrumbEntries();
+      nav.classList.toggle("hidden", entries.length <= 1);
+      nav.innerHTML = entries.map((entry, index) => {
+        const label = escapeHtml(entry.label || "學習首頁");
+        const separator = index ? `<span class="crumb-separator">/</span>` : "";
+        if (index === entries.length - 1) {
+          return `${separator}<span class="crumb-current">${label}</span>`;
+        }
+        return `${separator}<button class="crumb-button" type="button" data-breadcrumb-index="${index}">${label}</button>`;
+      }).join("");
+    }
+
+    function navigateToBreadcrumb(index) {
+      const entries = breadcrumbEntries();
+      const target = entries[index];
+      if (!target || index === entries.length - 1) return;
+      if (!confirmLeaveInProgress()) return;
+      viewStack = index === 0 ? [] : entries.slice(0, index);
+      restoreHistoryEntry(target);
     }
 
     function showAppPanel(view, push = true) {
@@ -5649,6 +5756,7 @@ window.EDMUND_FLASHCARD_SEED = {
         renderStudentProfile();
       }
       if (view === "dashboard") renderDashboard();
+      renderBreadcrumbs();
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
 
@@ -5663,8 +5771,8 @@ window.EDMUND_FLASHCARD_SEED = {
         return;
       }
 
-      if (normalized.view === "deck-start" && currentDeckId) {
-        openDeckStart(currentDeckId, false);
+      if (normalized.view === "deck-start" && (normalized.deckId || currentDeckId)) {
+        openDeckStart(normalized.deckId || currentDeckId, false);
         return;
       }
 
@@ -5730,7 +5838,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function isDeckCompleted(prefix, studentName = currentUser?.name) {
-      if (!studentName || isAdmin()) return false;
+      if (!studentName) return false;
       if (/^ielts\/listening\/Practice \d+$/.test(prefix)) {
         return ieltsPartIds(prefix).every(partDeckId => isDeckCompleted(partDeckId, studentName));
       }
@@ -5744,18 +5852,36 @@ window.EDMUND_FLASHCARD_SEED = {
       return childDecks.length > 0 && childDecks.every(deckId => isDeckCompleted(deckId, studentName));
     }
 
+    function familiarityStatsForPrefix(prefix, studentName = currentUser?.name) {
+      if (!studentName) return { green: 0, red: 0 };
+      const directCards = getDeckCards(prefix).length;
+      if (directCards > 0) {
+        const familiarity = getDeckFamiliarity(prefix, studentName);
+        return { green: familiarity.green.length, red: familiarity.red.length };
+      }
+
+      return getKnownDeckIds()
+        .filter(deckId => deckId.startsWith(`${prefix}/`) && getDeckCards(deckId).length > 0)
+        .reduce((totals, deckId) => {
+          const familiarity = getDeckFamiliarity(deckId, studentName);
+          totals.green += familiarity.green.length;
+          totals.red += familiarity.red.length;
+          return totals;
+        }, { green: 0, red: 0 });
+    }
+
     function deckMetaHtml(prefix) {
       const cardCount = deckCardCount(prefix);
-      if (isAdmin()) return `<small>卡片：${cardCount}</small>`;
       const stats = attemptStatsForPrefix(prefix);
+      const familiarity = familiarityStatsForPrefix(prefix);
       const doneText = isDeckCompleted(prefix) ? "<br>狀態：已完成" : "";
-      return `<small>卡片：${cardCount}<br>嘗試：${stats.count}<br>最近：${todayText(stats.latest)}${doneText}</small>`;
+      return `<small>卡片：${cardCount}<br>嘗試：${stats.count}<br>最近：${todayText(stats.latest)}<br>綠勾：${familiarity.green}<br>紅叉：${familiarity.red}${doneText}</small>`;
     }
 
     function tileHtml(section) {
       const locked = !canAccess(section.key);
       const metaPrefix = section.kind === "route" ? section.key : section.target;
-      const completed = !locked && !isAdmin() && isDeckCompleted(metaPrefix);
+      const completed = !locked && isDeckCompleted(metaPrefix);
       const attr = section.kind === "route"
         ? `data-route="${escapeHtml(section.target)}"`
         : `data-open-deck="${escapeHtml(section.target)}"`;
@@ -5920,28 +6046,28 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function optionButton(label, deckId, titleOverride = "") {
       if (titleOverride) deckTitleLabels.set(deckId, titleOverride);
-      const completed = !isAdmin() && isDeckCompleted(deckId);
+      const completed = isDeckCompleted(deckId);
       return `
         <div class="option-row ${completed ? "completed" : ""}" data-option-row="${escapeHtml(deckId)}" data-option-label="${escapeHtml(label)}">
           <button class="thin-option ${completed ? "completed" : ""}" type="button" data-open-deck="${escapeHtml(deckId)}" ${titleOverride ? `data-deck-title="${escapeHtml(titleOverride)}"` : ""}>
             <span>${escapeHtml(label)}</span>
             ${deckMetaHtml(deckId)}
           </button>
-          ${isAdmin() ? "" : `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(deckId)}">重設<br>紀錄</button>`}
+          ${currentUser?.name ? `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(deckId)}">重設<br>紀錄</button>` : ""}
         </div>
       `;
     }
 
     function routeOptionButton(label, route, metaPrefix = "") {
       if (metaPrefix) deckTitleLabels.set(metaPrefix, label);
-      const completed = metaPrefix && !isAdmin() && isDeckCompleted(metaPrefix);
+      const completed = metaPrefix && isDeckCompleted(metaPrefix);
       return `
         <div class="option-row ${completed ? "completed" : ""}" data-option-row="${escapeHtml(metaPrefix || route)}" data-option-label="${escapeHtml(label)}">
           <button class="thin-option ${completed ? "completed" : ""}" type="button" data-route="${escapeHtml(route)}">
             <span>${escapeHtml(label)}</span>
             ${metaPrefix ? deckMetaHtml(metaPrefix) : ""}
           </button>
-          ${isAdmin() || !metaPrefix ? "" : `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(metaPrefix)}">重設<br>紀錄</button>`}
+          ${currentUser?.name && metaPrefix ? `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(metaPrefix)}">重設<br>紀錄</button>` : ""}
         </div>
       `;
     }
@@ -5972,6 +6098,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const grid = document.querySelector("[data-options-grid]");
       grid.className = lastOptions.columnsClass;
       grid.innerHTML = lastOptions.htmlFactory();
+      renderBreadcrumbs();
     }
 
     function showOptions(title, desc, htmlFactory, columnsClass = "") {
@@ -6295,7 +6422,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function savedProgressForDeck(deckId) {
-      if (isAdmin() || !currentUser?.name) return null;
+      if (!currentUser?.name) return null;
       const saved = getProgressStore()[progressKey(deckId)];
       if (!saved || saved.completed) return null;
       return saved;
@@ -6318,12 +6445,14 @@ window.EDMUND_FLASHCARD_SEED = {
       currentDeckId = deckId;
       currentDeckTitle = deckTitleFromId(deckId);
       const count = getDeckCards(deckId).length;
+      const stats = attemptStatsForPrefix(deckId);
+      const familiarity = familiarityStatsForPrefix(deckId);
       document.querySelector("[data-start-title]").textContent = currentDeckTitle;
-      document.querySelector("[data-start-path]").textContent = `${currentDeckTitle}｜卡片：${count}`;
+      document.querySelector("[data-start-path]").textContent = `${currentDeckTitle}｜卡片：${count}｜嘗試：${stats.count}｜最近：${todayText(stats.latest)}｜綠勾：${familiarity.green}｜紅叉：${familiarity.red}`;
       document.querySelector("[data-start-status]").textContent = "";
       const resetCurrentDeckButton = document.querySelector("[data-reset-current-deck]");
       if (resetCurrentDeckButton) {
-        resetCurrentDeckButton.classList.toggle("hidden", isAdmin());
+        resetCurrentDeckButton.classList.toggle("hidden", !currentUser?.name);
         resetCurrentDeckButton.setAttribute("data-reset-current-deck", deckId);
       }
 
@@ -6362,7 +6491,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function logAttemptStart(mode, totalCards) {
-      if (isAdmin()) return "";
+      if (!currentUser?.name) return "";
       const id = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
       const attempts = getAttempts();
       attempts.push({
@@ -6413,7 +6542,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function saveCurrentProgress() {
-      if (isAdmin() || !currentUser?.name || !studySession || studySession.completed) return;
+      if (!currentUser?.name || !studySession || studySession.completed) return;
       const store = getProgressStore();
       store[progressKey(currentDeckId)] = {
         deckId: currentDeckId,
@@ -6554,11 +6683,14 @@ window.EDMUND_FLASHCARD_SEED = {
 
       const list = document.querySelector("[data-review-list]");
       if (!list) return;
+      const targetStatus = isGreen ? "red" : "green";
+      const targetLabel = isGreen ? "轉紅叉" : "轉綠勾";
       list.innerHTML = rows.length
-        ? rows.map(({ card }) => `
-          <div class="review-row">
+        ? rows.map(({ index, card }) => `
+          <div class="review-row" data-review-card-index="${index}">
             <span>${escapeHtml(card.front)}</span>
             <span>${escapeHtml(card.meaning || "-")}</span>
+            <button class="mini-button" type="button" data-move-familiarity="${targetStatus}" data-card-index="${index}">${targetLabel}</button>
           </div>
         `).join("")
         : `<p class="review-empty">暫時未有${isGreen ? "綠勾" : "紅叉"}卡片。</p>`;
@@ -6586,6 +6718,15 @@ window.EDMUND_FLASHCARD_SEED = {
 
       renderStudyCard();
       renderReviewPanel(status);
+      if (lastOptions) renderOptionsContent();
+      if (currentView === "dashboard") renderDashboard();
+    }
+
+    function moveFamiliarityCard(cardIndex, targetStatus) {
+      if (!["green", "red"].includes(targetStatus)) return;
+      setCardFamiliarity(cardIndex, targetStatus);
+      renderStudyCard();
+      renderReviewPanel(activeReviewStatus || targetStatus);
       if (lastOptions) renderOptionsContent();
       if (currentView === "dashboard") renderDashboard();
     }
@@ -6706,6 +6847,25 @@ window.EDMUND_FLASHCARD_SEED = {
       renderStudyCard();
     }
 
+    function handleCardPrimaryAction() {
+      if (currentView !== "deck-view" || !studySession || !currentCard()) return;
+      if (!studySession.flipped) {
+        flipCurrentCard();
+        return;
+      }
+      markCard("green");
+    }
+
+    function handleCardSecondaryAction(event) {
+      if (currentView !== "deck-view" || !studySession || !currentCard()) return;
+      event.preventDefault();
+      if (!studySession.flipped) {
+        flipCurrentCard();
+        return;
+      }
+      markCard("red");
+    }
+
     function finishRound() {
       if (!studySession) return;
       const redIndexes = studySession.roundQueue.filter(cardIndex => studySession.answers[cardIndex] === "red");
@@ -6737,7 +6897,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function resetVisibleAttempts(deckId) {
-      if (isAdmin() || !currentUser?.name) return;
+      if (!currentUser?.name) return;
       if (!window.confirm("確定要重設這個項目的嘗試紀錄嗎？學生畫面會重新計算，Admin 仍會保留重設前後的紀錄。")) return;
       saveResetLogs([
         ...getResetLogs(),
@@ -6873,6 +7033,21 @@ window.EDMUND_FLASHCARD_SEED = {
 
         if (event.target.closest("[data-close-review]")) {
           hideReviewPanel();
+          return;
+        }
+
+        const moveFamiliarityButton = event.target.closest("[data-move-familiarity]");
+        if (moveFamiliarityButton) {
+          moveFamiliarityCard(
+            Number(moveFamiliarityButton.getAttribute("data-card-index")),
+            moveFamiliarityButton.getAttribute("data-move-familiarity")
+          );
+          return;
+        }
+
+        const breadcrumbButton = event.target.closest("[data-breadcrumb-index]");
+        if (breadcrumbButton) {
+          navigateToBreadcrumb(Number(breadcrumbButton.getAttribute("data-breadcrumb-index")));
           return;
         }
 
@@ -7023,7 +7198,18 @@ window.EDMUND_FLASHCARD_SEED = {
         }
       });
 
-      document.querySelector("[data-front-card]")?.addEventListener("click", flipCurrentCard);
+      document.querySelector("[data-front-card]")?.addEventListener("click", handleCardPrimaryAction);
+      document.querySelector("[data-back-card]")?.addEventListener("click", handleCardPrimaryAction);
+      document.querySelector("[data-front-card]")?.addEventListener("contextmenu", handleCardSecondaryAction);
+      document.querySelector("[data-back-card]")?.addEventListener("contextmenu", handleCardSecondaryAction);
+
+      document.addEventListener("keydown", event => {
+        if (event.key !== "Enter" || currentView !== "deck-view") return;
+        const tagName = event.target?.tagName?.toLowerCase();
+        if (["input", "textarea", "button", "select"].includes(tagName)) return;
+        event.preventDefault();
+        flipCurrentCard();
+      });
 
       window.addEventListener("beforeunload", event => {
         if (!isSessionInProgress()) return;
