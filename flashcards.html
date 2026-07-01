@@ -486,7 +486,7 @@
 
     .dashboard-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(310px, 0.68fr);
+      grid-template-columns: minmax(0, 1.22fr) minmax(320px, 0.58fr);
       gap: clamp(18px, 2.6vw, 36px);
       align-items: start;
     }
@@ -495,6 +495,7 @@
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 14px;
+      align-items: start;
     }
 
     .resource-columns {
@@ -506,6 +507,157 @@
     .resource-column {
       display: grid;
       gap: 14px;
+    }
+
+    .tile-label {
+      display: grid;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .tile-label .tile-line {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+
+    .tile-label .tile-subline {
+      font-size: 0.68em;
+      line-height: 1.12;
+      opacity: 0.95;
+    }
+
+    .tile.emerald-tile:not(.locked) {
+      background: #059669;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.22),
+        0 8px 0 #047857,
+        0 20px 30px rgba(5,150,105,0.20);
+    }
+
+    .tile.emerald-tile:not(.locked):hover {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.25),
+        0 10px 0 #047857,
+        0 26px 36px rgba(5,150,105,0.24);
+    }
+
+    .progress-section {
+      margin-top: 30px;
+      padding-top: 28px;
+      border-top: 1px solid rgba(47,128,237,0.14);
+    }
+
+    .progress-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    .progress-toolbar h3 {
+      margin: 0;
+      font-size: clamp(22px, 2vw, 32px);
+    }
+
+    .range-tabs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .range-tab {
+      min-height: 38px;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(255,255,255,0.78);
+      color: #516174;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1.1;
+      font-weight: 900;
+      transition: transform 0.16s ease, background 0.16s ease, color 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .range-tab:hover,
+    .range-tab.active {
+      transform: translateY(-1px);
+      background: #2f80ed;
+      color: #fff;
+      box-shadow: 0 12px 24px rgba(47,128,237,0.18);
+    }
+
+    .progress-chart-shell {
+      min-height: 310px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.76);
+      overflow: hidden;
+    }
+
+    .progress-chart-shell svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .progress-legend {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin: 12px 0 0;
+      color: #4b5f77;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .legend-dot {
+      width: 11px;
+      height: 11px;
+      display: inline-block;
+      border-radius: 50%;
+      margin-right: 6px;
+      vertical-align: -1px;
+    }
+
+    .legend-total { background: #2563eb; }
+    .legend-green { background: #16a34a; }
+    .legend-red { background: #dc2626; }
+
+    .progress-stat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .progress-stat {
+      min-height: 86px;
+      display: grid;
+      align-content: center;
+      gap: 4px;
+      padding: 14px 16px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.78);
+      color: #0e2d55;
+    }
+
+    .progress-stat strong {
+      font-size: clamp(24px, 2.6vw, 38px);
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .progress-stat span {
+      color: #627085;
+      font-size: 13px;
+      line-height: 1.25;
+      font-weight: 900;
     }
 
     .skill-grid {
@@ -532,12 +684,12 @@
     }
 
     .tile {
-      min-height: 118px;
+      min-height: 132px;
       padding: 18px;
       display: grid;
       align-content: end;
       gap: 8px;
-      font-size: clamp(20px, 1.8vw, 30px);
+      font-size: clamp(20px, 1.65vw, 29px);
       line-height: 1.05;
     }
 
@@ -979,7 +1131,8 @@
       .columns-grid,
       .columns-grid.two,
       .access-grid,
-      .study-top {
+      .study-top,
+      .progress-stat-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
@@ -1023,7 +1176,8 @@
       .columns-grid.two,
       .access-grid,
       .mode-grid,
-      .study-top {
+      .study-top,
+      .progress-stat-grid {
         grid-template-columns: 1fr;
       }
 
@@ -1145,6 +1299,33 @@
             <div class="exam-grid" data-exam-grid></div>
             <div class="resource-columns" data-resource-grid></div>
           </div>
+
+          <section class="progress-section" data-progress-dashboard>
+            <div class="progress-toolbar">
+              <h3>學習進度</h3>
+              <div class="range-tabs" data-progress-ranges>
+                <button class="range-tab" type="button" data-progress-range="week">Week</button>
+                <button class="range-tab" type="button" data-progress-range="month">Month</button>
+                <button class="range-tab" type="button" data-progress-range="half-year">Half a Year</button>
+                <button class="range-tab" type="button" data-progress-range="ytd">Year to Date</button>
+                <button class="range-tab" type="button" data-progress-range="year">1 Year</button>
+                <button class="range-tab" type="button" data-progress-range="all">All Time</button>
+              </div>
+            </div>
+            <div class="progress-chart-shell">
+              <svg data-progress-chart viewBox="0 0 900 340" role="img" aria-label="Flashcard progress chart"></svg>
+            </div>
+            <div class="progress-legend" aria-label="Chart legend">
+              <span><i class="legend-dot legend-total"></i>總完成卡片</span>
+              <span><i class="legend-dot legend-green"></i>綠勾卡片</span>
+              <span><i class="legend-dot legend-red"></i>紅叉卡片</span>
+            </div>
+            <div class="progress-stat-grid">
+              <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span></div>
+              <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span></div>
+              <div class="progress-stat"><strong data-progress-stat-red>0</strong><span>紅叉總數（全部時間）</span></div>
+            </div>
+          </section>
         </section>
 
         <section class="panel-card hidden" data-dse-home>
@@ -19657,23 +19838,28 @@ window.EDMUND_FLASHCARD_SEED = {
     const dseSpeakingSets = ["1.1", "1.2", "1.3", "2.1", "2.2", "2.3", "3.1", "3.2", "3.3", "4.1", "4.2", "4.3", "5.1", "5.2", "5.3", "6.1", "6.2", "6.3", "6.4", "6.5", "6.6", "7.1", "7.2", "7.3", "8.1", "8.2", "8.3", "9.1", "9.2", "9.3", "10.1", "10.2", "10.3"];
     const dseWritingPartBQuestions = ["Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10"];
     const synonymTypes = ["Noun", "Verb", "Adjectives", "Adverbs"];
+    const governmentTypes = ["HKFSD", "HKPF", "CSD", "C&ED", "ImmD"];
 
     const accessSections = [
-      { key: "dse", label: "DSE", kind: "route", target: "dse-home" },
-      { key: "ielts", label: "IELTS", kind: "route", target: "ielts-home" },
-      { key: "pte", label: "Pearson Test of English (PTE)", kind: "deck", target: "pte/general" },
-      { key: "toeic", label: "TOEIC", kind: "deck", target: "toeic/general" },
-      { key: "toefl", label: "TOEFL", kind: "deck", target: "toefl/general" },
-      { key: "cambridge", label: "Cambridge", kind: "deck", target: "cambridge/general" },
-      { key: "sat", label: "SAT", kind: "deck", target: "sat/general" },
-      { key: "cre", label: "CRE", kind: "deck", target: "cre/general" },
-      { key: "daily-english", label: "日常英語", kind: "deck", target: "daily-english/general" },
-      { key: "pop-songs", label: "英文流行曲", kind: "deck", target: "pop-songs/general" },
-      { key: "news-analysis", label: "新聞分析", kind: "deck", target: "news-analysis/general" },
-      { key: "power-words", label: "Power Words", kind: "deck", target: "power-words/general" },
-      { key: "idioms", label: "Idioms", kind: "deck", target: "idioms/general" },
-      { key: "phrasal-verbs", label: "Phrasal Verbs", kind: "deck", target: "phrasal-verbs/general" },
-      { key: "synonyms", label: "Synonyms 同義詞", kind: "route", target: "synonyms-home" }
+      { key: "dse", label: "DSE", group: "scope", kind: "route", target: "dse-home" },
+      { key: "ielts", label: "IELTS", group: "scope", kind: "route", target: "ielts-home" },
+      { key: "toeic", label: "TOEIC", group: "scope", kind: "deck", target: "toeic/general" },
+      { key: "toefl", label: "TOEFL", group: "scope", kind: "deck", target: "toefl/general" },
+      { key: "sat", label: "SAT", group: "scope", kind: "deck", target: "sat/general" },
+      { key: "cre", label: "CRE", group: "scope", kind: "deck", target: "cre/general" },
+      { key: "ap-english", label: "AP English 考試", labelLines: ["AP English", "考試"], group: "scope", kind: "deck", target: "ap-english/general" },
+      { key: "ib", label: "國際學校 IB 課程", labelLines: ["國際學校", "IB 課程"], group: "scope", kind: "deck", target: "ib/general" },
+      { key: "cambridge", label: "Cambridge IGCSE", labelLines: ["Cambridge", "IGCSE"], group: "scope", kind: "deck", target: "cambridge/general" },
+      { key: "pte", label: "Pearson Test of English (PTE)", labelLines: ["PTE", "Pearson Test of English"], group: "scope", kind: "deck", target: "pte/general" },
+      { key: "government", label: "Government", group: "scope", kind: "route", target: "government-home" },
+      { key: "custom-setup", label: "客製 Setup", group: "scope", kind: "deck", target: "custom-setup/general", tone: "emerald" },
+      { key: "daily-english", label: "日常英語", group: "resource", kind: "deck", target: "daily-english/general" },
+      { key: "pop-songs", label: "英文流行曲", group: "resource", kind: "deck", target: "pop-songs/general" },
+      { key: "news-analysis", label: "新聞分析", group: "resource", kind: "deck", target: "news-analysis/general" },
+      { key: "power-words", label: "Power Words", group: "resource", kind: "deck", target: "power-words/general" },
+      { key: "idioms", label: "Idioms", group: "resource", kind: "deck", target: "idioms/general" },
+      { key: "phrasal-verbs", label: "Phrasal Verbs", group: "resource", kind: "deck", target: "phrasal-verbs/general" },
+      { key: "synonyms", label: "Synonyms 同義詞", labelLines: ["Synonyms", "同義詞"], group: "resource", kind: "route", target: "synonyms-home" }
     ];
 
     const viewSelectors = [
@@ -19695,6 +19881,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let studySession = null;
     let lastOptions = null;
     let activeReviewStatus = "";
+    let selectedProgressRange = "month";
     let studentsCache = [];
     let studentsLoadedFromSupabase = false;
     let adminPasswordForSession = "";
@@ -20391,6 +20578,22 @@ window.EDMUND_FLASHCARD_SEED = {
       return `<small>卡片：${cardCount}<br>嘗試：${stats.count}<br>最近：${todayText(stats.latest)}<br>綠勾：${familiarity.green}<br>紅叉：${familiarity.red}${doneText}</small>`;
     }
 
+    function sectionLabelLines(section) {
+      const lines = Array.isArray(section.labelLines) ? section.labelLines : String(section.label || "").split("\n");
+      return lines.map(line => String(line).trim()).filter(Boolean);
+    }
+
+    function tileLabelHtml(section) {
+      const lines = sectionLabelLines(section);
+      return lines.map((line, index) => `
+        <span class="tile-line ${index ? "tile-subline" : ""}">${escapeHtml(line)}</span>
+      `).join("");
+    }
+
+    function sectionToggleLabelHtml(section) {
+      return sectionLabelLines(section).map(line => escapeHtml(line)).join("<br>");
+    }
+
     function tileHtml(section) {
       const locked = !canAccess(section.key);
       const metaPrefix = section.kind === "route" ? section.key : section.target;
@@ -20398,12 +20601,173 @@ window.EDMUND_FLASHCARD_SEED = {
       const attr = section.kind === "route"
         ? `data-route="${escapeHtml(section.target)}"`
         : `data-open-deck="${escapeHtml(section.target)}"`;
+      const classes = ["tile"];
+      if (locked) classes.push("locked");
+      if (completed) classes.push("completed");
+      if (section.tone === "emerald") classes.push("emerald-tile");
       return `
-        <button class="tile ${locked ? "locked" : ""} ${completed ? "completed" : ""}" type="button" data-section-key="${escapeHtml(section.key)}" ${attr}>
-          <span>${escapeHtml(section.label)}</span>
+        <button class="${classes.join(" ")}" type="button" data-section-key="${escapeHtml(section.key)}" ${attr}>
+          <span class="tile-label">${tileLabelHtml(section)}</span>
           ${locked ? "<small>尚未開放</small>" : deckMetaHtml(metaPrefix)}
         </button>
       `;
+    }
+
+    function progressRangeStart(rangeKey, rows) {
+      const today = new Date();
+      const end = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      const addDays = (date, days) => {
+        const copy = new Date(date);
+        copy.setDate(copy.getDate() + days);
+        return copy;
+      };
+      if (rangeKey === "week") return addDays(end, -6);
+      if (rangeKey === "month") return addDays(end, -29);
+      if (rangeKey === "half-year") return addDays(end, -181);
+      if (rangeKey === "ytd") return new Date(end.getFullYear(), 0, 1);
+      if (rangeKey === "year") return addDays(end, -364);
+      if (rangeKey === "all" && rows.length) {
+        const first = new Date(Math.min(...rows.map(row => row.time)));
+        return new Date(first.getFullYear(), first.getMonth(), first.getDate());
+      }
+      return addDays(end, -6);
+    }
+
+    function dayKey(value) {
+      const date = new Date(value);
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const day = String(date.getDate()).padStart(2, "0");
+      return `${year}-${month}-${day}`;
+    }
+
+    function progressRowsForStudent(studentName = currentUser?.name) {
+      if (!studentName) return [];
+      return getAttempts()
+        .filter(attempt => attempt.studentName === studentName)
+        .map(attempt => {
+          const green = Number(attempt.green || 0);
+          const red = Number(attempt.red || 0);
+          return {
+            time: Number(attempt.updatedAt || attempt.completedAt || attempt.startedAt || 0),
+            green,
+            red,
+            total: green + red
+          };
+        })
+        .filter(row => row.time && row.total > 0);
+    }
+
+    function buildProgressSeries(rangeKey = selectedProgressRange, studentName = currentUser?.name) {
+      const rows = progressRowsForStudent(studentName);
+      const start = progressRangeStart(rangeKey, rows);
+      const today = new Date();
+      const end = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      const dayMs = 24 * 60 * 60 * 1000;
+      const buckets = new Map();
+      const allTime = rows.reduce((totals, row) => {
+        totals.total += row.total;
+        totals.green += row.green;
+        totals.red += row.red;
+        return totals;
+      }, { total: 0, green: 0, red: 0 });
+
+      rows.forEach(row => {
+        const rowDay = new Date(row.time);
+        const rowDate = new Date(rowDay.getFullYear(), rowDay.getMonth(), rowDay.getDate());
+        if (rowDate < start || rowDate > end) return;
+        const key = dayKey(rowDate);
+        const current = buckets.get(key) || { total: 0, green: 0, red: 0 };
+        current.total += row.total;
+        current.green += row.green;
+        current.red += row.red;
+        buckets.set(key, current);
+      });
+
+      const points = [];
+      for (let cursor = new Date(start); cursor <= end; cursor = new Date(cursor.getTime() + dayMs)) {
+        const key = dayKey(cursor);
+        points.push({ date: new Date(cursor), key, ...(buckets.get(key) || { total: 0, green: 0, red: 0 }) });
+      }
+
+      return { points, allTime };
+    }
+
+    function compactDateLabel(date) {
+      return date.toLocaleDateString("en-HK", { month: "short", day: "numeric" });
+    }
+
+    function chartPolyline(points, key, dimensions, yMax) {
+      const { width, height, left, right, top, bottom } = dimensions;
+      const chartWidth = width - left - right;
+      const chartHeight = height - top - bottom;
+      const denominator = Math.max(points.length - 1, 1);
+      return points.map((point, index) => {
+        const x = left + (chartWidth * index / denominator);
+        const y = top + chartHeight - (chartHeight * (point[key] || 0) / yMax);
+        return `${x.toFixed(2)},${y.toFixed(2)}`;
+      }).join(" ");
+    }
+
+    function progressChartSvg(series) {
+      const points = series.points;
+      const width = 900;
+      const height = 340;
+      const dimensions = { width, height, left: 58, right: 26, top: 26, bottom: 54 };
+      const maxValue = Math.max(5, ...points.flatMap(point => [point.total, point.green, point.red]));
+      const yMax = Math.ceil(maxValue / 5) * 5;
+      const { left, right, top, bottom } = dimensions;
+      const chartWidth = width - left - right;
+      const chartHeight = height - top - bottom;
+      const hasData = points.some(point => point.total > 0);
+      const lastPoint = points[points.length - 1] || { total: 0, green: 0, red: 0 };
+      const xLabels = points.length
+        ? [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]]
+        : [];
+      const yLabels = [0, Math.round(yMax / 2), yMax];
+      const lastX = left + chartWidth;
+      const yFor = value => top + chartHeight - (chartHeight * value / yMax);
+      const gridLines = yLabels.map(value => `
+        <line x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(47,128,237,0.16)" stroke-width="1" />
+        <text x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="13" font-weight="900">${value}</text>
+      `).join("");
+      const axisLabels = xLabels.map((point, index) => {
+        const x = left + (chartWidth * index / Math.max(xLabels.length - 1, 1));
+        return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="900">${compactDateLabel(point.date)}</text>`;
+      }).join("");
+      const emptyMessage = hasData ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#627085" font-size="20" font-weight="900">暫時未有溫習紀錄</text>`;
+      return `
+        <rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,0.62)" />
+        ${gridLines}
+        <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
+        <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(23,32,51,0.14)" stroke-width="1.4" />
+        <polyline points="${chartPolyline(points, "total", dimensions, yMax)}" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="${chartPolyline(points, "green", dimensions, yMax)}" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <polyline points="${chartPolyline(points, "red", dimensions, yMax)}" fill="none" stroke="#dc2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        <circle cx="${lastX}" cy="${yFor(lastPoint.total).toFixed(2)}" r="5" fill="#2563eb" />
+        <circle cx="${lastX}" cy="${yFor(lastPoint.green).toFixed(2)}" r="5" fill="#16a34a" />
+        <circle cx="${lastX}" cy="${yFor(lastPoint.red).toFixed(2)}" r="5" fill="#dc2626" />
+        ${axisLabels}
+        <text x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">卡片數量</text>
+        <text x="${width - right}" y="${height - 18}" text-anchor="end" fill="#0e2d55" font-size="13" font-weight="900">日期</text>
+        ${emptyMessage}
+      `;
+    }
+
+    function renderProgressDashboard() {
+      document.querySelectorAll("[data-progress-range]").forEach(button => {
+        button.classList.toggle("active", button.getAttribute("data-progress-range") === selectedProgressRange);
+      });
+      const series = buildProgressSeries(selectedProgressRange);
+      const chart = document.querySelector("[data-progress-chart]");
+      if (chart) chart.innerHTML = progressChartSvg(series);
+      const allTime = series.allTime;
+      const totalStat = document.querySelector("[data-progress-stat-total]");
+      const greenStat = document.querySelector("[data-progress-stat-green]");
+      const redStat = document.querySelector("[data-progress-stat-red]");
+      if (totalStat) totalStat.textContent = allTime.total;
+      if (greenStat) greenStat.textContent = allTime.green;
+      if (redStat) redStat.textContent = allTime.red;
     }
 
     function renderDashboard() {
@@ -20412,8 +20776,8 @@ window.EDMUND_FLASHCARD_SEED = {
 
       const examGrid = document.querySelector("[data-exam-grid]");
       const resourceGrid = document.querySelector("[data-resource-grid]");
-      const examSections = accessSections.slice(0, 8);
-      const resourceSections = accessSections.slice(8);
+      const examSections = accessSections.filter(section => section.group === "scope");
+      const resourceSections = accessSections.filter(section => section.group === "resource");
       const splitPoint = Math.ceil(resourceSections.length / 2);
       const resourceLeft = resourceSections.slice(0, splitPoint);
       const resourceRight = resourceSections.slice(splitPoint);
@@ -20425,6 +20789,7 @@ window.EDMUND_FLASHCARD_SEED = {
           <div class="resource-column">${resourceRight.map(tileHtml).join("")}</div>
         `;
       }
+      renderProgressDashboard();
     }
 
     function renderStudents() {
@@ -20497,7 +20862,7 @@ window.EDMUND_FLASHCARD_SEED = {
           <div class="access-grid">
             ${accessSections.map(section => `
               <label class="toggle-row">
-                <span>${escapeHtml(section.label)}</span>
+                <span>${sectionToggleLabelHtml(section)}</span>
                 <input type="checkbox" data-toggle-access="${escapeHtml(section.key)}" ${student.access[section.key] ? "checked" : ""}>
               </label>
             `).join("")}
@@ -20882,6 +21247,15 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
+    function showGovernment() {
+      showOptions(
+        "Government",
+        "選擇政府部門分類。",
+        () => columnHtml("Government", governmentTypes, "government", { useSlugs: true }),
+        "columns-grid one"
+      );
+    }
+
     function titlePart(part) {
       const lower = String(part).toLowerCase();
       const known = {
@@ -20892,6 +21266,11 @@ window.EDMUND_FLASHCARD_SEED = {
         toefl: "TOEFL",
         sat: "SAT",
         cre: "CRE",
+        "ap-english": "AP English 考試",
+        ib: "國際學校 IB 課程",
+        cambridge: "Cambridge IGCSE",
+        government: "Government",
+        "custom-setup": "客製 Setup",
         listening: "Listening",
         reading: "Reading",
         writing: "Writing",
@@ -20919,7 +21298,12 @@ window.EDMUND_FLASHCARD_SEED = {
         "problem-and-cause": "Problem and Cause",
         "advantage-and-disadvantage": "Advantage and Disadvantage",
         "direct-question": "Direct question",
-        synonyms: "Synonyms 同義詞"
+        synonyms: "Synonyms 同義詞",
+        hkfsd: "HKFSD",
+        hkpf: "HKPF",
+        csd: "CSD",
+        "c-and-ed": "C&ED",
+        immd: "ImmD"
       };
       if (known[lower]) return known[lower];
       if (/^part-\d+$/.test(lower)) return `Part ${lower.split("-")[1]}`;
@@ -21602,6 +21986,13 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const progressRangeButton = event.target.closest("[data-progress-range]");
+        if (progressRangeButton) {
+          selectedProgressRange = progressRangeButton.getAttribute("data-progress-range") || "month";
+          renderProgressDashboard();
+          return;
+        }
+
         const resetButton = event.target.closest("[data-reset-attempt]");
         if (resetButton) {
           event.stopPropagation();
@@ -21712,6 +22103,7 @@ window.EDMUND_FLASHCARD_SEED = {
             showIeltsSpeakingTopics(partKey, bookLabel);
           }
           if (route === "synonyms-home") showSynonyms();
+          if (route === "government-home") showGovernment();
           return;
         }
 
