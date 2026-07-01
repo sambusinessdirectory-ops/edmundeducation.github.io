@@ -76,13 +76,24 @@
     .brand {
       display: inline-flex;
       align-items: center;
+      gap: clamp(12px, 2vw, 28px);
       text-decoration: none;
     }
 
-    .brand img {
-      width: min(360px, 46vw);
+    .brand-main,
+    .brand-learning {
       height: auto;
       display: block;
+      object-fit: contain;
+    }
+
+    .brand-main {
+      width: min(360px, 42vw);
+    }
+
+    .brand-learning {
+      width: min(220px, 22vw);
+      max-height: 78px;
     }
 
     .nav-actions {
@@ -186,6 +197,16 @@
       gap: clamp(24px, 4vw, 64px);
       align-items: center;
       min-height: calc(100vh - 150px);
+    }
+
+    .hero-learning-logo {
+      width: min(360px, 62vw);
+      height: auto;
+      display: block;
+      margin: 0 0 26px;
+      transform: rotate(-20deg);
+      transform-origin: 42% 52%;
+      filter: drop-shadow(0 18px 24px rgba(17,43,85,0.16));
     }
 
     .hero-copy h1 {
@@ -375,6 +396,24 @@
     .section-head p {
       margin: 8px 0 0;
       font-size: 16px;
+    }
+
+    .welcome-message {
+      align-self: center;
+      margin-left: auto;
+      padding: 12px 18px;
+      border: 1px solid rgba(5,150,105,0.18);
+      border-radius: 999px;
+      background: rgba(240,253,244,0.82);
+      color: #0e2d55;
+      font-size: clamp(17px, 1.5vw, 23px);
+      line-height: 1.2;
+      font-weight: 900;
+      box-shadow: 0 14px 26px rgba(5,150,105,0.10);
+    }
+
+    .welcome-message span {
+      color: #059669;
     }
 
     .admin-grid {
@@ -1153,8 +1192,18 @@
         flex-direction: column;
       }
 
-      .brand img {
+      .brand {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .brand-main {
         width: min(300px, 84vw);
+      }
+
+      .brand-learning {
+        width: min(190px, 58vw);
       }
 
       .sync-pill {
@@ -1205,8 +1254,9 @@
 
   <div class="flash-shell">
     <header class="topbar">
-      <a class="brand" href="index.html" aria-label="EdmundEducation">
-        <img src="Font Transparent.png" alt="EdmundEducation">
+      <a class="brand" href="index.html" aria-label="EdmundEducation E-Learning">
+        <img class="brand-main" src="Font Transparent.png" alt="EdmundEducation">
+        <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
       </a>
       <div class="nav-actions">
         <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
@@ -1218,6 +1268,7 @@
     <main>
       <section class="hero" data-login-view>
         <div class="hero-copy">
+          <img class="hero-learning-logo" src="E-Learning.png" alt="E-Learning">
           <h1>Flashcard<br>學習卡系統</h1>
           <p>登入後可以按考試、技能、年份或主題溫習。Admin 可以新增學生帳戶、控制可用分類、查看所有嘗試紀錄。</p>
         </div>
@@ -1293,6 +1344,7 @@
               <h2>選擇學習範圍</h2>
               <p data-user-label></p>
             </div>
+            <div class="welcome-message" data-welcome-message></div>
           </div>
 
           <div class="dashboard-grid">
@@ -19738,6 +19790,4627 @@ window.EDMUND_FLASHCARD_SEED = {
             ],
             "sourcePage": 26
       }
+],
+  "custom-setup/sprint-text-1": [
+    {
+        "front": "blog entry",
+        "meaning": "網誌文章",
+        "examples": [
+            {
+                "en": "The students read a blog entry about role models.",
+                "zh": "學生讀了一篇關於榜樣的網誌文章。"
+            },
+            {
+                "en": "I wrote a blog entry about my first month at university.",
+                "zh": "我寫了一篇關於大學第一個月生活的網誌文章。"
+            },
+            {
+                "en": "The blog entry gives useful advice for students choosing a career.",
+                "zh": "那篇網誌文章為正在選擇職業的學生提供實用建議。"
+            },
+            {
+                "en": "Her blog entry about moving abroad was honest, practical, and easy to relate to.",
+                "zh": "她那篇關於移居外國的網誌文章很坦誠、實用，而且容易有共鳴。"
+            },
+            {
+                "en": "A good blog entry feels like someone useful is talking to you over coffee.",
+                "zh": "好的網誌文章感覺像一個有用的人在跟你喝咖啡聊天。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "who do you admire",
+        "meaning": "你欣賞誰",
+        "examples": [
+            {
+                "en": "Who do you admire as a role model?",
+                "zh": "你欣賞誰作為榜樣？"
+            },
+            {
+                "en": "Who do you admire most in your family?",
+                "zh": "在你的家人中，你最欣賞誰？"
+            },
+            {
+                "en": "Who do you admire for their courage and honesty?",
+                "zh": "你欣賞誰的勇氣和誠實？"
+            },
+            {
+                "en": "In your field, who do you admire and why?",
+                "zh": "在你的領域裡，你欣賞誰？為甚麼？"
+            },
+            {
+                "en": "When choosing a role model, ask yourself: who do you admire when no one is watching?",
+                "zh": "選擇榜樣時，問問自己：即使沒有人看見，你仍然欣賞誰？"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "as we grow up",
+        "meaning": "隨着我們成長",
+        "examples": [
+            {
+                "en": "As we grow up, it’s natural for us to start exploring our identities.",
+                "zh": "隨着我們成長，開始探索自己的身份認同是很自然的。"
+            },
+            {
+                "en": "As we grow up, our friendships often change.",
+                "zh": "隨着我們成長，友誼常常會改變。"
+            },
+            {
+                "en": "As we grow up, we learn that confidence takes practice.",
+                "zh": "隨着我們成長，我們會明白自信需要練習。"
+            },
+            {
+                "en": "As we grow up, we start to understand our parents differently.",
+                "zh": "隨着我們成長，我們開始用不同方式理解父母。"
+            },
+            {
+                "en": "As we grow up, we collect habits, beliefs, and little pieces of other people.",
+                "zh": "隨着我們成長，我們會收集習慣、信念，以及別人身上的小碎片。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "it’s natural for us to",
+        "meaning": "對我們來說……是自然的",
+        "examples": [
+            {
+                "en": "It’s natural for us to start exploring our identities.",
+                "zh": "對我們來說，開始探索自己的身份認同是自然的。"
+            },
+            {
+                "en": "It’s natural for us to feel nervous before an interview.",
+                "zh": "對我們來說，面試前感到緊張是自然的。"
+            },
+            {
+                "en": "It’s natural for us to compare ourselves with others sometimes.",
+                "zh": "對我們來說，有時把自己和別人比較是自然的。"
+            },
+            {
+                "en": "It’s natural for us to need time before making a big decision.",
+                "zh": "對我們來說，在作重大決定前需要時間是自然的。"
+            },
+            {
+                "en": "It’s natural for us to want approval, but we shouldn’t live on it.",
+                "zh": "對我們來說，想得到認可是自然的，但我們不應靠它生活。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "exploring our identities",
+        "meaning": "探索自己的身份認同",
+        "examples": [
+            {
+                "en": "Young people start exploring their identities as they grow up.",
+                "zh": "年輕人隨着成長開始探索自己的身份認同。"
+            },
+            {
+                "en": "Teenagers are often exploring their identities through music, clothes, and friendship groups.",
+                "zh": "青少年常透過音樂、衣著和朋友圈探索自己的身份認同。"
+            },
+            {
+                "en": "Moving to a new city can make people start exploring their identities again.",
+                "zh": "搬到新城市可能會令人重新開始探索自己的身份認同。"
+            },
+            {
+                "en": "Social media gives young people more ways of exploring their identities.",
+                "zh": "社交媒體給年輕人更多方式探索自己的身份認同。"
+            },
+            {
+                "en": "Exploring our identities can be messy, but growing up is not a clean desk.",
+                "zh": "探索自己的身份認同可能很混亂，但成長本來就不是一張整齊的書桌。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "what kind of person",
+        "meaning": "怎樣的人",
+        "examples": [
+            {
+                "en": "We wonder what kind of person we would like to become.",
+                "zh": "我們會思考自己想成為怎樣的人。"
+            },
+            {
+                "en": "Think about what kind of person you want to work with.",
+                "zh": "想一想你想和怎樣的人一起工作。"
+            },
+            {
+                "en": "The way you treat waiters says a lot about what kind of person you are.",
+                "zh": "你怎樣對待服務員，很能反映你是怎樣的人。"
+            },
+            {
+                "en": "Before choosing a career, ask what kind of person the job will make you.",
+                "zh": "選擇職業前，問問自己這份工作會把你變成怎樣的人。"
+            },
+            {
+                "en": "A role model can show you what kind of person you might become.",
+                "zh": "榜樣可以讓你看見自己可能成為怎樣的人。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "what the future will hold for us",
+        "meaning": "未來會怎樣",
+        "examples": [
+            {
+                "en": "We wonder what the future will hold for us.",
+                "zh": "我們會思考未來會怎樣。"
+            },
+            {
+                "en": "No one knows exactly what the future will hold for us.",
+                "zh": "沒有人確切知道未來會怎樣。"
+            },
+            {
+                "en": "Students often worry about what the future will hold for them after graduation.",
+                "zh": "學生常擔心畢業後未來會怎樣。"
+            },
+            {
+                "en": "We can’t control what the future will hold for us, but we can prepare well.",
+                "zh": "我們無法控制未來會怎樣，但可以好好準備。"
+            },
+            {
+                "en": "Wondering what the future will hold for us is normal; living only in that worry is not.",
+                "zh": "思考未來會怎樣是正常的；但只活在那種擔憂裡就不好。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "more often than not",
+        "meaning": "通常；往往",
+        "examples": [
+            {
+                "en": "More often than not, we imitate the role models we look up to.",
+                "zh": "我們通常會模仿自己敬佩的榜樣。"
+            },
+            {
+                "en": "More often than not, students learn better from clear examples.",
+                "zh": "學生通常透過清楚例子學得更好。"
+            },
+            {
+                "en": "More often than not, people remember how you made them feel.",
+                "zh": "人們往往會記得你帶給他們的感受。"
+            },
+            {
+                "en": "More often than not, a simple plan works better than a clever but messy one.",
+                "zh": "通常簡單計畫比聰明但混亂的計畫更有效。"
+            },
+            {
+                "en": "More often than not, small daily habits decide the result.",
+                "zh": "往往是每天的小習慣決定結果。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "imitate the role models",
+        "meaning": "模仿榜樣",
+        "examples": [
+            {
+                "en": "We imitate the role models we look up to.",
+                "zh": "我們會模仿自己敬佩的榜樣。"
+            },
+            {
+                "en": "Children often imitate the role models they see at home.",
+                "zh": "孩子常會模仿在家中看到的榜樣。"
+            },
+            {
+                "en": "Young athletes imitate the role models they watch on TV.",
+                "zh": "年輕運動員會模仿在電視上看到的榜樣。"
+            },
+            {
+                "en": "Students may imitate the role models who speak confidently in class.",
+                "zh": "學生可能會模仿那些在課堂上有自信發言的榜樣。"
+            },
+            {
+                "en": "We should imitate the role models’ habits, not just their clothes or catchphrases.",
+                "zh": "我們應該模仿榜樣的習慣，而不只是他們的衣著或口頭禪。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "look up to",
+        "meaning": "敬佩；仰慕",
+        "examples": [
+            {
+                "en": "We look up to people who have admirable qualities.",
+                "zh": "我們敬佩那些有令人欣賞特質的人。"
+            },
+            {
+                "en": "I look up to my older sister because she works hard and stays kind.",
+                "zh": "我敬佩我的姐姐，因為她努力又善良。"
+            },
+            {
+                "en": "Many young players look up to professional athletes.",
+                "zh": "許多年輕球員仰慕職業運動員。"
+            },
+            {
+                "en": "Students often look up to teachers who are fair and patient.",
+                "zh": "學生常敬佩公平又有耐心的老師。"
+            },
+            {
+                "en": "Choose someone to look up to because of their character, not just their fame.",
+                "zh": "選擇敬佩一個人時，要看品格，而不只是名氣。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "acquire their admirable qualities",
+        "meaning": "培養他們令人欣賞的特質",
+        "examples": [
+            {
+                "en": "We hope to acquire their admirable qualities.",
+                "zh": "我們希望培養他們令人欣賞的特質。"
+            },
+            {
+                "en": "Students may try to acquire their admirable qualities by copying their study habits.",
+                "zh": "學生可能會透過模仿榜樣的學習習慣，培養他們令人欣賞的特質。"
+            },
+            {
+                "en": "If you admire someone’s discipline, try to acquire that quality slowly.",
+                "zh": "如果你欣賞某人的自律，就慢慢培養那種特質。 a4c.t i我ce們. 不會只靠盯著榜樣就變好；我們要透過練習培養他們令人欣賞的特質。"
+            },
+            {
+                "en": "We don’t become better by staring at role models; we acquire their admirable qualities through practice.",
+                "zh": "我們不會只靠盯著榜樣就變好；我們要透過練習培養他們令人欣賞的特質。"
+            },
+            {
+                "en": "To acquire their admirable qualities, notice what they do every day, not only what they say online.",
+                "zh": "要培養他們令人欣賞的特質，就留意他們每天做甚麼，而不只是他們在網上說甚麼。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "admirable qualities",
+        "meaning": "令人欣賞的特質",
+        "examples": [
+            {
+                "en": "Role models often have admirable qualities.",
+                "zh": "榜樣通常有令人欣賞的特質。"
+            },
+            {
+                "en": "Patience and honesty are admirable qualities in a leader.",
+                "zh": "耐心和誠實是領袖身上令人欣賞的特質。"
+            },
+            {
+                "en": "Her most admirable qualities are courage, kindness, and discipline.",
+                "zh": "她最令人欣賞的特質是勇氣、善良和自律。"
+            },
+            {
+                "en": "A person can be famous without having admirable qualities.",
+                "zh": "一個人可以很有名，但不一定有令人欣賞的特質。"
+            },
+            {
+                "en": "Admirable qualities show up in small actions, not just big speeches.",
+                "zh": "令人欣賞的特質會出現在小行動中，而不只是大演說裡。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "as great as they are",
+        "meaning": "像他們一樣出色",
+        "examples": [
+            {
+                "en": "We hope to become as great as they are.",
+                "zh": "我們希望變得像他們一樣出色。"
+            },
+            {
+                "en": "Young players train hard because they want to become as great as they are.",
+                "zh": "年輕球員努力訓練，因為他們想變得像那些榜樣一樣出色。"
+            },
+            {
+                "en": "Don’t just wish to be as great as they are; study how they work.",
+                "zh": "不要只是希望像他們一樣出色；要研究他們如何努力。"
+            },
+            {
+                "en": "I don’t need to be as great as they are, but I can learn from their habits.",
+                "zh": "我不需要像他們一樣出色，但我可以學習他們的習慣。"
+            },
+            {
+                "en": "Wanting to be as great as they are is fine, as long as you still become yourself.",
+                "zh": "想像他們一樣出色沒有問題，只要你仍然成為你自己。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "generally refers to",
+        "meaning": "一般指",
+        "examples": [
+            {
+                "en": "Generation Alpha generally refers to those born between 2010 and 2025.",
+                "zh": "Alpha 世代一般指出生於 2010 年至 2025 年之間的人。"
+            },
+            {
+                "en": "“Remote work” generally refers to work done away from the office.",
+                "zh": "「遙距工作」一般指不在辦公室進行的工作。"
+            },
+            {
+                "en": "“Public transport” generally refers to buses, trains, trams, and similar services.",
+                "zh": "「公共交通」一般指巴士、火車、電車和類似服務。"
+            },
+            {
+                "en": "“Screen time” generally refers to time spent using phones, computers, or tablets.",
+                "zh": "「螢幕時間」一般指使用手機、電腦或平板的時間。"
+            },
+            {
+                "en": "“Role model” generally refers to someone whose behaviour others may try to follow.",
+                "zh": "「榜樣」一般指其行為可能被他人仿效的人。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "born between",
+        "meaning": "出生於……至……之間",
+        "examples": [
+            {
+                "en": "Gen Alpha refers to those born between 2010 and 2025.",
+                "zh": "Alpha 世代指出生於 2010 年至 2025 年之間的人。"
+            },
+            {
+                "en": "The survey includes people born between 1990 and 2005.",
+                "zh": "這項調查包括出生於 1990 年至 2005 年之間的人。"
+            },
+            {
+                "en": "Students born between September and December start school the following year.",
+                "zh": "出生於九月至十二月之間的學生會在下一年入學。"
+            },
+            {
+                "en": "The competition is open to children born between 2012 and 2016.",
+                "zh": "這項比賽開放給出生於 2012 年至 2016 年之間的兒童參加。"
+            },
+            {
+                "en": "People born between two major technological shifts often understand both worlds.",
+                "zh": "出生於兩次重大科技轉變之間的人，常能理解兩個世界。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "traditionally",
+        "meaning": "傳統上",
+        "examples": [
+            {
+                "en": "Traditionally, young people tended to mirror carers and elders.",
+                "zh": "傳統上，年輕人往往會模仿照顧者和長輩。"
+            },
+            {
+                "en": "Traditionally, families ate dinner together at the end of the day.",
+                "zh": "傳統上，家庭會在一天結束時一起吃晚飯。"
+            },
+            {
+                "en": "Traditionally, apprentices learned by watching skilled workers.",
+                "zh": "傳統上，學徒透過觀察熟練工人來學習。"
+            },
+            {
+                "en": "Traditionally, letters took days or weeks to arrive.",
+                "zh": "傳統上，信件需要幾天或幾週才送達。"
+            },
+            {
+                "en": "Traditionally, rivers were used for trade, travel, and daily life.",
+                "zh": "傳統上，河流被用於貿易、出行和日常生活。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "tended to",
+        "meaning": "往往會；傾向於",
+        "examples": [
+            {
+                "en": "Young people tended to mirror people around them.",
+                "zh": "年輕人往往會模仿身邊的人。"
+            },
+            {
+                "en": "In the past, people tended to stay in the same job for longer.",
+                "zh": "過去，人們往往會在同一份工作待更久。"
+            },
+            {
+                "en": "She tended to avoid speaking in class when she was younger.",
+                "zh": "她年輕時傾向於避免在課堂上發言。"
+            },
+            {
+                "en": "Students tended to choose examples from their own lives.",
+                "zh": "學生往往會選擇來自自己生活的例子。"
+            },
+            {
+                "en": "Before smartphones, people tended to ask strangers for directions more often.",
+                "zh": "在智能手機出現之前，人們往往更常向陌生人問路。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "mirror carers and elders",
+        "meaning": "模仿照顧者和長輩",
+        "examples": [
+            {
+                "en": "Young people tended to mirror carers and elders.",
+                "zh": "年輕人往往會模仿照顧者和長輩。"
+            },
+            {
+                "en": "Children often mirror carers and elders in the way they speak.",
+                "zh": "孩子常會在說話方式上模仿照顧者和長輩。"
+            },
+            {
+                "en": "Young people may mirror carers and elders when learning how to handle stress.",
+                "zh": "年輕人學習如何處理壓力時，可能會模仿照顧者和長輩。"
+            },
+            {
+                "en": "Some children mirror carers and elders without realising it.",
+                "zh": "有些孩子會在不自覺中模仿照顧者和長輩。"
+            },
+            {
+                "en": "We mirror carers and elders first because they are the first examples life puts in front of us.",
+                "zh": "我們最先模仿照顧者和長輩，因為他們是人生最先放在我們面前的例子。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "carers and elders",
+        "meaning": "照顧者和長輩",
+        "examples": [
+            {
+                "en": "Children often learn from carers and elders.",
+                "zh": "孩子常向照顧者和長輩學習。"
+            },
+            {
+                "en": "Carers and elders can shape a child’s values.",
+                "zh": "照顧者和長輩可以塑造孩子的價值觀。"
+            },
+            {
+                "en": "Good carers and elders teach by example, not just by rules.",
+                "zh": "好的照顧者和長輩會以身作則，而不只是制定規矩。"
+            },
+            {
+                "en": "In many families, carers and elders pass down stories, skills, and habits.",
+                "zh": "在許多家庭裡，照顧者和長輩會傳承故事、技能和習慣。"
+            },
+            {
+                "en": "Carers and elders are often the first role models a child sees.",
+                "zh": "照顧者和長輩通常是孩子最先看到的榜樣。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "encountered through",
+        "meaning": "透過……接觸到",
+        "examples": [
+            {
+                "en": "They encountered these people through real-life interactions.",
+                "zh": "他們透過現實生活中的互動接觸到這些人。"
+            },
+            {
+                "en": "She encountered new ideas through books and podcasts.",
+                "zh": "她透過書本和 podcast 接觸到新想法。"
+            },
+            {
+                "en": "Many students encounter different cultures through travel.",
+                "zh": "許多學生透過旅行接觸到不同文化。"
+            },
+            {
+                "en": "Young people now encounter role models through videos, games, and social media.",
+                "zh": "年輕人現在透過影片、遊戲和社交媒體接觸到榜樣。"
+            },
+            {
+                "en": "We often encounter useful advice through ordinary conversations.",
+                "zh": "我們常透過普通對話接觸到有用建議。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "real-life interactions",
+        "meaning": "現實生活中的互動",
+        "examples": [
+            {
+                "en": "Young people learned from real-life interactions.",
+                "zh": "年輕人透過現實生活中的互動學習。"
+            },
+            {
+                "en": "Real-life interactions can teach confidence in a way videos cannot.",
+                "zh": "現實生活中的互動能用影片做不到的方式教人自信。"
+            },
+            {
+                "en": "Children learn manners through real-life interactions with adults.",
+                "zh": "孩子透過與成年人現實生活中的互動學習禮貌。"
+            },
+            {
+                "en": "Real-life interactions are important because tone, timing, and body language matter.",
+                "zh": "現實生活中的互動很重要，因為語氣、時機和肢體語言都重要。"
+            },
+            {
+                "en": "Online lessons are useful, but real-life interactions still build social skills.",
+                "zh": "網上課程有用，但現實生活中的互動仍能建立社交技巧。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "public figures",
+        "meaning": "公眾人物",
+        "examples": [
+            {
+                "en": "Popular public figures also carried a lot of weight.",
+                "zh": "受歡迎的公眾人物也有很大影響力。"
+            },
+            {
+                "en": "Public figures should be careful about what they say online.",
+                "zh": "公眾人物應該小心自己在網上說的話。"
+            },
+            {
+                "en": "Young people often follow public figures on social media.",
+                "zh": "年輕人常在社交媒體上追蹤公眾人物。"
+            },
+            {
+                "en": "Public figures can influence fashion, language, and social attitudes.",
+                "zh": "公眾人物可以影響時尚、語言和社會態度。"
+            },
+            {
+                "en": "Public figures are visible, but visibility is not the same as wisdom.",
+                "zh": "公眾人物很受注目，但受注目不等於有智慧。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "carried a lot of weight",
+        "meaning": "很有分量；有很大影響力",
+        "examples": [
+            {
+                "en": "The actions of public figures carried a lot of weight.",
+                "zh": "公眾人物的行為很有分量。"
+            },
+            {
+                "en": "Her opinion carried a lot of weight because she had years of experience.",
+                "zh": "她的意見很有分量，因為她有多年經驗。"
+            },
+            {
+                "en": "A recommendation from your teacher can carry a lot of weight.",
+                "zh": "老師的推薦可以很有分量。"
+            },
+            {
+                "en": "In that meeting, the manager’s words carried a lot of weight.",
+                "zh": "在那場會議中，經理的話很有影響力。"
+            },
+            {
+                "en": "A public apology carries a lot of weight only if behaviour changes afterwards.",
+                "zh": "公開道歉只有在之後行為改變時，才真正有分量。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "pondering",
+        "meaning": "思考；仔細想",
+        "examples": [
+            {
+                "en": "Perhaps you are pondering who Gen Alpha aspire to emulate.",
+                "zh": "也許你正在思考 Alpha 世代渴望仿效誰。"
+            },
+            {
+                "en": "I’m still pondering whether to change my course.",
+                "zh": "我仍在思考是否要轉課程。"
+            },
+            {
+                "en": "She sat by the window, pondering what to write in her personal statement.",
+                "zh": "她坐在窗邊，仔細想個人陳述要寫甚麼。"
+            },
+            {
+                "en": "The team is pondering how to make the app easier to use.",
+                "zh": "團隊正在思考如何讓這個 app 更容易使用。"
+            },
+            {
+                "en": "If you’re pondering a big decision, write down the facts before the feelings take over.",
+                "zh": "如果你正在思考重大決定，先寫下事實，免得情緒接管。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "aspire to emulate",
+        "meaning": "渴望仿效",
+        "examples": [
+            {
+                "en": "Members of Gen Alpha aspire to emulate certain influencers.",
+                "zh": "Alpha 世代成員渴望仿效某些網絡紅人。"
+            },
+            {
+                "en": "Young musicians often aspire to emulate their favourite singers.",
+                "zh": "年輕音樂人常渴望仿效自己喜歡的歌手。"
+            },
+            {
+                "en": "Some students aspire to emulate teachers who explain things clearly.",
+                "zh": "有些學生渴望仿效那些解釋清楚的老師。"
+            },
+            {
+                "en": "It is normal to aspire to emulate successful people, but choose carefully.",
+                "zh": "渴望仿效成功人士是正常的，但要小心選擇。"
+            },
+            {
+                "en": "Don’t just aspire to emulate someone’s success; look at their discipline behind it.",
+                "zh": "不要只渴望仿效某人的成功；也要看他背後的自律。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "influencers",
+        "meaning": "網絡紅人；KOL",
+        "examples": [
+            {
+                "en": "Influencers post online to a large audience.",
+                "zh": "網絡紅人會面向大量受眾在網上發布內容。"
+            },
+            {
+                "en": "Some influencers review products, restaurants, and travel destinations.",
+                "zh": "有些 KOL 會評論產品、餐廳和旅遊目的地。"
+            },
+            {
+                "en": "Influencers can affect what young people buy and believe.",
+                "zh": "網絡紅人可以影響年輕人購買甚麼和相信甚麼。"
+            },
+            {
+                "en": "Not all influencers are good role models.",
+                "zh": "不是所有網絡紅人都是好榜樣。"
+            },
+            {
+                "en": "Good influencers are useful when they are honest about both success and mistakes.",
+                "zh": "好的 KOL 會誠實談成功，也談錯誤，這樣才有用。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "social media in particular",
+        "meaning": "尤其是社交媒體",
+        "examples": [
+            {
+                "en": "Influencers post on the internet, social media in particular.",
+                "zh": "網絡紅人在互聯網上發布內容，尤其是在社交媒體上。"
+            },
+            {
+                "en": "Teenagers use many apps, social media in particular.",
+                "zh": "青少年使用很多 app，尤其是社交媒體。"
+            },
+            {
+                "en": "The campaign targets online platforms, social media in particular.",
+                "zh": "這個活動針對網上平台，尤其是社交媒體。"
+            },
+            {
+                "en": "Young people get news from several places, social media in particular.",
+                "zh": "年輕人從不同地方獲取新聞，尤其是社交媒體。"
+            },
+            {
+                "en": "Modern role models often appear first on screens, social media in particular.",
+                "zh": "現代榜樣常先出現在螢幕上，尤其是社交媒體上。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "to a large audience",
+        "meaning": "面向大量受眾",
+        "examples": [
+            {
+                "en": "Influencers post online to a large audience.",
+                "zh": "網絡紅人會面向大量受眾在網上發布內容。"
+            },
+            {
+                "en": "The speaker explained the idea to a large audience.",
+                "zh": "演講者向大量受眾解釋這個想法。"
+            },
+            {
+                "en": "Short videos can reach a large audience very quickly.",
+                "zh": "短片可以很快接觸到大量受眾。"
+            },
+            {
+                "en": "She writes about mental health to a large audience online.",
+                "zh": "她在網上面向大量受眾寫精神健康相關內容。"
+            },
+            {
+                "en": "Speaking to a large audience requires clear words, steady pace, and no hiding behind jargon.",
+                "zh": "面向大量受眾發言時，需要清楚用詞、穩定節奏，不要躲在術語後面。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "spend much of their free time online",
+        "meaning": "花很多空閒時間上網",
+        "examples": [
+            {
+                "en": "Young people spend much of their free time online.",
+                "zh": "年輕人花很多空閒時間上網。"
+            },
+            {
+                "en": "Many teenagers spend much of their free time online after school.",
+                "zh": "許多青少年放學後花很多空閒時間上網。 i3fe. 如on果es學. 生花很多空閒時間上網，他們可能會看到比現實生活中更多的網上榜樣。"
+            },
+            {
+                "en": "If students spend much of their free time online, they may see more online role models than real-life ones.",
+                "zh": "如果學生花很多空閒時間上網，他們可能會看到比現實生活中更多的網上榜樣。"
+            },
+            {
+                "en": "People who spend much of their free time online need to choose their content carefully.",
+                "zh": "花很多空閒時間上網的人，需要小心選擇自己看的內容。"
+            },
+            {
+                "en": "Spending much of your free time online is common, but breaks still matter.",
+                "zh": "花很多空閒時間上網很常見，但休息仍然重要。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "quite influential",
+        "meaning": "相當有影響力",
+        "examples": [
+            {
+                "en": "Successful influencers are indeed quite influential.",
+                "zh": "成功的網絡紅人確實相當有影響力。"
+            },
+            {
+                "en": "Her advice was quite influential among first-year students.",
+                "zh": "她的建議在一年級學生中相當有影響力。"
+            },
+            {
+                "en": "The video became quite influential in the debate about school lunches.",
+                "zh": "那段影片在關於學校午餐的討論中變得相當有影響力。"
+            },
+            {
+                "en": "A popular teacher can be quite influential without ever raising their voice.",
+                "zh": "一位受歡迎的老師即使從不提高聲音，也可以相當有影響力。"
+            },
+            {
+                "en": "Product reviews are quite influential when people are deciding what to buy.",
+                "zh": "當人們決定買甚麼時，產品評論相當有影響力。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "born into an environment of",
+        "meaning": "出生於……的環境",
+        "examples": [
+            {
+                "en": "Gen Alpha were born into an environment of smartphones and social media.",
+                "zh": "Alpha 世代出生於智能手機和社交媒體的環境。"
+            },
+            {
+                "en": "Many children today are born into an environment of constant digital connection.",
+                "zh": "今天許多孩子出生於持續數碼連接的環境。"
+            },
+            {
+                "en": "She was born into an environment of books, music, and lively dinner-table debate.",
+                "zh": "她出生於充滿書本、音樂和熱烈餐桌討論的環境。"
+            },
+            {
+                "en": "Children born into an environment of screens may learn to swipe before they can write.",
+                "zh": "出生於螢幕環境的孩子，可能在會寫字之前就學會滑動螢幕。 u5n.ic 出at生e.於科技環境會改變年輕人學習、玩樂和溝通的方式。"
+            },
+            {
+                "en": "Being born into an environment of technology changes how young people learn, play, and communicate.",
+                "zh": "出生於科技環境會改變年輕人學習、玩樂和溝通的方式。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "a different demographic",
+        "meaning": "不同群體",
+        "examples": [
+            {
+                "en": "They prefer learning online from a different demographic.",
+                "zh": "他們較喜歡在網上向不同群體學習。"
+            },
+            {
+                "en": "This product is aimed at a different demographic from our usual customers.",
+                "zh": "這個產品面向與我們平常顧客不同的群體。"
+            },
+            {
+                "en": "The survey needs to include a different demographic to be more balanced.",
+                "zh": "這項調查需要包括不同群體，才會更平衡。"
+            },
+            {
+                "en": "Older voters and younger voters can be a very different demographic.",
+                "zh": "年長選民和年輕選民可以是非常不同的群體。 n5g. u如ag果e你. 的訊息要傳達給不同群體，你可能需要更簡單的例子和更清楚的語言。"
+            },
+            {
+                "en": "If your message reaches a different demographic, you may need simpler examples and clearer language.",
+                "zh": "如果你的訊息要傳達給不同群體，你可能需要更簡單的例子和更清楚的語言。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "our peers",
+        "meaning": "我們的同輩",
+        "examples": [
+            {
+                "en": "Gen Alpha often learn from their peers.",
+                "zh": "Alpha 世代常向自己的同輩學習。"
+            },
+            {
+                "en": "We often compare ourselves with our peers at school.",
+                "zh": "我們在學校常會把自己和同輩比較。"
+            },
+            {
+                "en": "Our peers can influence our choices more than we realise.",
+                "zh": "我們的同輩對我們選擇的影響，可能比我們意識到的更大。"
+            },
+            {
+                "en": "Working with our peers helps us see different ways to solve a problem.",
+                "zh": "與同輩合作，能幫助我們看到解決問題的不同方法。"
+            },
+            {
+                "en": "Advice from our peers can feel more believable because they are going through similar things.",
+                "zh": "來自同輩的建議可能感覺更可信，因為他們正在經歷類似事情。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "in our own age group",
+        "meaning": "在我們同年齡層",
+        "examples": [
+            {
+                "en": "We admire influencers in our own age group.",
+                "zh": "我們欣賞與自己同年齡層的網絡紅人。"
+            },
+            {
+                "en": "It is easier to relate to people in our own age group.",
+                "zh": "我們較容易對同年齡層的人產生共鳴。"
+            },
+            {
+                "en": "Students often compare their progress with others in their own age group.",
+                "zh": "學生常會把自己的進步和同年齡層的人比較。"
+            },
+            {
+                "en": "We may feel more comfortable asking questions to someone in our own age group.",
+                "zh": "向同年齡層的人提問時，我們可能會感覺更自在。"
+            },
+            {
+                "en": "Role models in our own age group can make success feel closer and more realistic.",
+                "zh": "同年齡層的榜樣可以讓成功感覺更接近、更真實。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "relate to them",
+        "meaning": "對他們有共鳴",
+        "examples": [
+            {
+                "en": "We admire these influencers because we can relate to them.",
+                "zh": "我們欣賞這些網絡紅人，因為我們對他們有共鳴。"
+            },
+            {
+                "en": "Students often relate to teachers who explain their own mistakes.",
+                "zh": "學生常會對那些會解釋自己錯誤的老師有共鳴。"
+            },
+            {
+                "en": "I like her videos because I can relate to her study problems.",
+                "zh": "我喜歡她的影片，因為我對她的學習問題有共鳴。"
+            },
+            {
+                "en": "Teenagers may relate to role models who talk honestly about stress.",
+                "zh": "青少年可能會對那些誠實談壓力的榜樣有共鳴。"
+            },
+            {
+                "en": "If your audience can relate to your example, they will listen more closely.",
+                "zh": "如果觀眾對你的例子有共鳴，他們會更認真聽。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "achievements, fame and fortune",
+        "meaning": "成就、名氣和財富",
+        "examples": [
+            {
+                "en": "Their achievements, fame and fortune are not our main concern.",
+                "zh": "他們的成就、名氣和財富不是我們主要關心的事。"
+            },
+            {
+                "en": "His achievements, fame and fortune look impressive, but I’m more interested in his discipline.",
+                "zh": "他的成就、名氣和財富看起來很了不起，但我更關心他的自律。"
+            },
+            {
+                "en": "Achievements, fame and fortune can attract attention, but character keeps respect.",
+                "zh": "成就、名氣和財富可以吸引注意，但品格才能留下尊重。"
+            },
+            {
+                "en": "Some young people care less about achievements, fame and fortune than honesty and balance.",
+                "zh": "有些年輕人比起成就、名氣和財富，更重視誠實和平衡。"
+            },
+            {
+                "en": "A role model should be judged by more than achievements, fame and fortune.",
+                "zh": "評價一個榜樣，不應只看成就、名氣和財富。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "not our main concern",
+        "meaning": "不是我們主要關心的事",
+        "examples": [
+            {
+                "en": "Fame and fortune are not our main concern.",
+                "zh": "名氣和財富不是我們主要關心的事。"
+            },
+            {
+                "en": "The price is important, but it’s not our main concern right now.",
+                "zh": "價格很重要，但現在不是我們主要關心的事。"
+            },
+            {
+                "en": "Winning is not our main concern; learning from the project is.",
+                "zh": "勝出不是我們主要關心的事；從專案中學習才是。"
+            },
+            {
+                "en": "The number of followers is not our main concern when choosing a role model.",
+                "zh": "選擇榜樣時，追蹤人數不是我們主要關心的事。"
+            },
+            {
+                "en": "Speed is not our main concern here; accuracy matters more.",
+                "zh": "速度在這裡不是我們主要關心的事；準確更重要。"
+            }
+        ],
+        "sourcePage": 7
+    },
+    {
+        "front": "what’s significant is that",
+        "meaning": "重要的是",
+        "examples": [
+            {
+                "en": "What’s significant is that these influencers share similar struggles.",
+                "zh": "重要的是，這些網絡紅人有相似的掙扎。"
+            },
+            {
+                "en": "What’s significant is that students feel safer when teachers are approachable.",
+                "zh": "重要的是，當老師容易親近時，學生會感到更安全。"
+            },
+            {
+                "en": "What’s significant is that the number of young volunteers has increased.",
+                "zh": "重要的是，年輕義工的人數增加了。"
+            },
+            {
+                "en": "What’s significant is that people trust advice more when it feels honest.",
+                "zh": "重要的是，當建議感覺真誠時，人們會更相信它。"
+            },
+            {
+                "en": "What’s significant is that the survey shows a clear change in habits.",
+                "zh": "重要的是，調查顯示習慣有明顯改變。"
+            }
+        ],
+        "sourcePage": 7
+    },
+    {
+        "front": "going through",
+        "meaning": "正在經歷",
+        "examples": [
+            {
+                "en": "These influencers are going through many of the same struggles as we are.",
+                "zh": "這些網絡紅人正在經歷很多和我們相同的掙扎。"
+            },
+            {
+                "en": "She is going through a difficult time after changing schools.",
+                "zh": "她轉校後正在經歷一段困難時期。"
+            },
+            {
+                "en": "Many students are going through exam stress this month.",
+                "zh": "這個月很多學生正在經歷考試壓力。"
+            },
+            {
+                "en": "If you’re going through a hard period, talk to someone you trust.",
+                "zh": "如果你正在經歷困難時期，找你信任的人談談。"
+            },
+            {
+                "en": "He’s going through the same problem, so he understands how you feel.",
+                "zh": "他正在經歷同樣問題，所以明白你的感受。"
+            }
+        ],
+        "sourcePage": 7
+    },
+    {
+        "front": "the same struggles as",
+        "meaning": "與……相同的掙扎",
+        "examples": [
+            {
+                "en": "They are going through many of the same struggles as we are.",
+                "zh": "他們正在經歷很多與我們相同的掙扎。"
+            },
+            {
+                "en": "First-year students often face the same struggles as other young adults living away from home.",
+                "zh": "一年級學生常面對與其他離家生活的年輕成年人相同的掙扎。"
+            },
+            {
+                "en": "She talks about the same struggles as her followers: stress, money, and confidence.",
+                "zh": "她談論與追蹤者相同的掙扎：壓力、金錢和自信。"
+            },
+            {
+                "en": "Many young workers have the same struggles as students when it comes to time management.",
+                "zh": "說到時間管理，很多年輕上班族有與學生相同的掙扎。"
+            },
+            {
+                "en": "If a speaker has the same struggles as the audience, the message feels more real.",
+                "zh": "如果演講者有與觀眾相同的掙扎，訊息會感覺更真實。"
+            }
+        ],
+        "sourcePage": 7
+    },
+    {
+        "front": "resonate with us",
+        "meaning": "令我們產生共鳴",
+        "examples": [
+            {
+                "en": "Their vibes resonate with us.",
+                "zh": "他們的氣質令我們產生共鳴。"
+            },
+            {
+                "en": "Her honest posts resonate with us because they sound real.",
+                "zh": "她真誠的帖文令我們產生共鳴，因為它們聽起來很真實。"
+            },
+            {
+                "en": "Stories about failure often resonate with us more than perfect success stories.",
+                "zh": "關於失敗的故事，往往比完美成功故事更令我們產生共鳴。"
+            },
+            {
+                "en": "His advice may resonate with us because he speaks like a normal student.",
+                "zh": "他的建議可能令我們產生共鳴，因為他說話像普通學生。"
+            },
+            {
+                "en": "Simple examples resonate with us when they come from daily life.",
+                "zh": "當簡單例子來自日常生活時，會令我們產生共鳴。"
+            }
+        ],
+        "sourcePage": 7
+    },
+    {
+        "front": "willing to expose",
+        "meaning": "願意展露",
+        "examples": [
+            {
+                "en": "They are often willing to expose their vulnerabilities.",
+                "zh": "他們常願意展露自己的脆弱一面。"
+            },
+            {
+                "en": "Good leaders are willing to expose their mistakes when the team needs honesty.",
+                "zh": "好領袖在團隊需要坦誠時，願意展露自己的錯誤。"
+            },
+            {
+                "en": "Some influencers are willing to expose the hard parts of their lives, not just the highlights.",
+                "zh": "有些網絡紅人願意展露生活中困難的一面，而不只是精彩片段。"
+            },
+            {
+                "en": "She was willing to expose her doubts during the interview.",
+                "zh": "她在訪問中願意展露自己的疑慮。"
+            },
+            {
+                "en": "A role model who is willing to expose weakness can feel more human.",
+                "zh": "願意展露弱點的榜樣，會感覺更有人性。"
+            }
+        ],
+        "sourcePage": 7
+    },
+    {
+        "front": "expose their vulnerabilities",
+        "meaning": "展露自己的脆弱一面",
+        "examples": [
+            {
+                "en": "Role models are often willing to expose their vulnerabilities.",
+                "zh": "榜樣常願意展露自己的脆弱一面。"
+            },
+            {
+                "en": "It takes courage to expose your vulnerabilities in public.",
+                "zh": "在公開場合展露自己的脆弱一面需要勇氣。"
+            },
+            {
+                "en": "Influencers who expose their vulnerabilities can make followers feel less alone.",
+                "zh": "展露自己脆弱一面的網絡紅人，可以令追蹤者感到沒那麼孤單。"
+            },
+            {
+                "en": "Teachers do not need to expose all their vulnerabilities, but honesty helps.",
+                "zh": "老師不需要展露所有脆弱一面，但坦誠有幫助。"
+            },
+            {
+                "en": "When people expose their vulnerabilities carefully, trust can grow.",
+                "zh": "當人們謹慎地展露自己的脆弱一面時，信任可以增長。"
+            }
+        ],
+        "sourcePage": 8
+    },
+    {
+        "front": "try to be someone else",
+        "meaning": "試圖成為別人",
+        "examples": [
+            {
+                "en": "Our role models don’t try to be someone else.",
+                "zh": "我們的榜樣不會試圖成為別人。"
+            },
+            {
+                "en": "Don’t try to be someone else just because they get more likes.",
+                "zh": "不要只因為別人得到更多讚好，就試圖成為別人。"
+            },
+            {
+                "en": "She became more confident when she stopped trying to be someone else.",
+                "zh": "當她不再試圖成為別人時，她變得更有自信。"
+            },
+            {
+                "en": "A good personal statement should not try to be someone else’s story.",
+                "zh": "好的個人陳述不應試圖成為別人的故事。"
+            },
+            {
+                "en": "You can learn from others without trying to be someone else.",
+                "zh": "你可以向別人學習，而不必試圖成為別人。"
+            }
+        ],
+        "sourcePage": 8
+    },
+    {
+        "front": "hide who they are",
+        "meaning": "掩飾真實的自己",
+        "examples": [
+            {
+                "en": "They don’t hide who they are.",
+                "zh": "他們不會掩飾真實的自己。"
+            },
+            {
+                "en": "A trustworthy role model does not hide who they are.",
+                "zh": "可信的榜樣不會掩飾真實的自己。"
+            },
+            {
+                "en": "She used to hide who she was at school, but now she speaks more openly.",
+                "zh": "她以前在學校會掩飾真實的自己，但現在說話更坦誠。"
+            },
+            {
+                "en": "People feel safer around leaders who don’t hide who they are.",
+                "zh": "人們在不掩飾真實自己的領袖身邊，會感到更安全。"
+            },
+            {
+                "en": "If an influencer hides who they are, followers may lose trust later.",
+                "zh": "如果網絡紅人掩飾真實的自己，追蹤者之後可能會失去信任。"
+            }
+        ],
+        "sourcePage": 8
+    },
+    {
+        "front": "what they are like",
+        "meaning": "他們的為人；他們的性格",
+        "examples": [
+            {
+                "en": "They don’t hide what they are like.",
+                "zh": "他們不會掩飾自己的為人。"
+            },
+            {
+                "en": "You can tell what they are like from how they treat staff.",
+                "zh": "你可以從他們如何對待職員，看出他們的為人。"
+            },
+            {
+                "en": "Her videos show what she is really like, not just her polished side.",
+                "zh": "她的影片展示了她真正的性格，而不只是包裝好的一面。"
+            },
+            {
+                "en": "Before choosing a mentor, try to understand what they are like under pressure.",
+                "zh": "選擇導師前，試著了解他們在壓力下是怎樣的人。"
+            },
+            {
+                "en": "What people are like in small moments often matters more than what they say on stage.",
+                "zh": "一個人在小時刻的為人，往往比他在台上說甚麼更重要。"
+            }
+        ],
+        "sourcePage": 8
+    },
+    {
+        "front": "seem authentic and trustworthy",
+        "meaning": "顯得真誠可信",
+        "examples": [
+            {
+                "en": "This makes them seem authentic and trustworthy.",
+                "zh": "這令他們顯得真誠可信。"
+            },
+            {
+                "en": "Clear answers make a teacher seem authentic and trustworthy.",
+                "zh": "清楚回答會令老師顯得真誠可信。 rt3h.y 展. 示真實進步，而不只是完美成果，可以令網絡紅人顯得真誠可信。"
+            },
+            {
+                "en": "Showing real progress, not just perfect results, can make influencers seem authentic and trustworthy.",
+                "zh": "展示真實進步，而不只是完美成果，可以令網絡紅人顯得真誠可信。"
+            },
+            {
+                "en": "A company seems authentic and trustworthy when it admits problems quickly.",
+                "zh": "當公司快速承認問題時，會顯得真誠可信。"
+            },
+            {
+                "en": "Honest language makes a speaker seem authentic and trustworthy.",
+                "zh": "誠實的語言會令演講者顯得真誠可信。"
+            }
+        ],
+        "sourcePage": 8
+    },
+    {
+        "front": "this openness",
+        "meaning": "這種坦誠",
+        "examples": [
+            {
+                "en": "This openness is one of their most influential attributes.",
+                "zh": "這種坦誠是他們最有影響力的特質之一。"
+            },
+            {
+                "en": "This openness helps followers feel less alone.",
+                "zh": "這種坦誠幫助追蹤者感到沒那麼孤單。"
+            },
+            {
+                "en": "This openness makes the conversation more honest.",
+                "zh": "這種坦誠令對話更誠實。"
+            },
+            {
+                "en": "This openness is useful, but it still needs boundaries.",
+                "zh": "這種坦誠很有用，但仍需要界線。"
+            },
+            {
+                "en": "This openness can build trust faster than a perfect image.",
+                "zh": "這種坦誠比完美形象更快建立信任。"
+            }
+        ],
+        "sourcePage": 8
+    },
+    {
+        "front": "influential attributes",
+        "meaning": "有影響力的特質",
+        "examples": [
+            {
+                "en": "Openness is one of their most influential attributes.",
+                "zh": "坦誠是他們最有影響力的特質之一。"
+            },
+            {
+                "en": "Patience is one of her most influential attributes as a teacher.",
+                "zh": "耐心是她作為老師最有影響力的特質之一。"
+            },
+            {
+                "en": "Honesty and consistency are influential attributes in a role model.",
+                "zh": "誠實和穩定是榜樣身上有影響力的特質。"
+            },
+            {
+                "en": "A calm voice can be one of a leader’s most influential attributes.",
+                "zh": "冷靜的聲音可以是領袖最有影響力的特質之一。"
+            },
+            {
+                "en": "Influential attributes are often practical: reliability, kindness, and follow-through.",
+                "zh": "有影響力的特質往往很實際：可靠、善良和說到做到。"
+            }
+        ],
+        "sourcePage": 9
+    },
+    {
+        "front": "academic use of English",
+        "meaning": "學術英語用法",
+        "examples": [
+            {
+                "en": "The textbook includes an Academic Use of English section.",
+                "zh": "教科書包含一個學術英語用法部分。"
+            },
+            {
+                "en": "Academic use of English often requires clear links between ideas.",
+                "zh": "學術英語用法通常需要清楚連接不同想法。"
+            },
+            {
+                "en": "Students practise academic use of English by writing short essays.",
+                "zh": "學生透過寫短文練習學術英語用法。"
+            },
+            {
+                "en": "Academic use of English is not about fancy words; it is about clear thinking.",
+                "zh": "學術英語用法不是關於華麗詞語，而是關於清晰思考。"
+            },
+            {
+                "en": "Good academic use of English helps readers follow your argument without getting lost.",
+                "zh": "好的學術英語用法能幫助讀者跟上你的論點，而不會迷路。"
+            }
+        ],
+        "sourcePage": 9
+    },
+    {
+        "front": "cohesive devices",
+        "meaning": "銜接詞",
+        "examples": [
+            {
+                "en": "Indeed is an example of a cohesive device.",
+                "zh": "“Indeed” 是銜接詞的一個例子。"
+            },
+            {
+                "en": "Words like “however” and “therefore” are useful cohesive devices.",
+                "zh": "“however” 和 “therefore” 這類詞是有用的銜接詞。"
+            },
+            {
+                "en": "Cohesive devices help connect sentences smoothly.",
+                "zh": "銜接詞幫助句子順暢連接。"
+            },
+            {
+                "en": "Good cohesive devices guide the reader through an essay.",
+                "zh": "好的銜接詞會引導讀者讀完整篇文章。"
+            },
+            {
+                "en": "Don’t overuse cohesive devices; too many signposts can clutter the road.",
+                "zh": "不要過度使用銜接詞；太多路牌會令道路變亂。"
+            }
+        ],
+        "sourcePage": 9
+    },
+    {
+        "front": "put emphasis on",
+        "meaning": "強調",
+        "examples": [
+            {
+                "en": "The word “indeed” can be used to put emphasis on an idea.",
+                "zh": "“indeed” 這個詞可以用來強調一個想法。"
+            },
+            {
+                "en": "The teacher put emphasis on clear examples.",
+                "zh": "老師強調清楚例子。"
+            },
+            {
+                "en": "In your presentation, put emphasis on the main problem first.",
+                "zh": "在簡報中，先強調主要問題。"
+            },
+            {
+                "en": "The report puts emphasis on practical solutions, not just theory.",
+                "zh": "報告強調實際解決方法，而不只是理論。"
+            },
+            {
+                "en": "If everything is important, nothing is; put emphasis on the strongest point.",
+                "zh": "如果所有東西都重要，那就沒有重點；要強調最有力的一點。"
+            }
+        ],
+        "sourcePage": 9
+    },
+    {
+        "front": "in an appropriate place",
+        "meaning": "在合適的位置",
+        "examples": [
+            {
+                "en": "Students add “indeed” to the sentence in an appropriate place.",
+                "zh": "學生把 “indeed” 加在句子中合適的位置。"
+            },
+            {
+                "en": "Put the comma in an appropriate place.",
+                "zh": "把逗號放在合適的位置。"
+            },
+            {
+                "en": "The photo should be added in an appropriate place in the report.",
+                "zh": "照片應加在報告中合適的位置。"
+            },
+            {
+                "en": "In formal writing, use humour only in an appropriate place.",
+                "zh": "在正式寫作中，只應在合適的位置使用幽默。"
+            },
+            {
+                "en": "A good example in an appropriate place can make an argument much clearer.",
+                "zh": "在合適的位置加入好例子，可以令論點清楚得多。"
+            }
+        ],
+        "sourcePage": 9
+    },
+    {
+        "front": "sporting an image",
+        "meaning": "展現某種形象",
+        "examples": [
+            {
+                "en": "Idols in the past often sported squeaky-clean images.",
+                "zh": "過去的偶像常展現清白無瑕的形象。"
+            },
+            {
+                "en": "The singer appeared on stage sporting a new image.",
+                "zh": "那位歌手以全新形象登台。"
+            },
+            {
+                "en": "The brand is sporting a friendlier image after changing its adverts.",
+                "zh": "那個品牌換了廣告後，展現出更親民的形象。"
+            },
+            {
+                "en": "Some influencers are sporting a casual image to seem more relatable.",
+                "zh": "有些網絡紅人展現休閒形象，讓自己看起來更容易親近。"
+            },
+            {
+                "en": "A public figure sporting a perfect image may still have problems behind the scenes.",
+                "zh": "展現完美形象的公眾人物，幕後仍可能有問題。"
+            }
+        ],
+        "sourcePage": 9
+    },
+    {
+        "front": "squeaky-clean images",
+        "meaning": "清白無瑕的形象",
+        "examples": [
+            {
+                "en": "Idols in the past often had squeaky-clean images.",
+                "zh": "過去的偶像常有清白無瑕的形象。"
+            },
+            {
+                "en": "Some companies try to maintain squeaky-clean images online.",
+                "zh": "有些公司試圖在網上維持清白無瑕的形象。"
+            },
+            {
+                "en": "Squeaky-clean images can break quickly when old mistakes appear.",
+                "zh": "當舊錯誤出現時，清白無瑕的形象可能很快破裂。"
+            },
+            {
+                "en": "Young fans may feel cheated when squeaky-clean images turn out to be false.",
+                "zh": "當清白無瑕的形象原來是假的，年輕粉絲可能會覺得受騙。"
+            },
+            {
+                "en": "Squeaky-clean images are easy to sell, but hard to live up to.",
+                "zh": "清白無瑕的形象容易銷售，但很難真正做到。"
+            }
+        ],
+        "sourcePage": 10
+    },
+    {
+        "front": "put on pedestals",
+        "meaning": "被捧上神壇",
+        "examples": [
+            {
+                "en": "Idols in the past were put on pedestals.",
+                "zh": "過去的偶像被捧上神壇。"
+            },
+            {
+                "en": "Fans sometimes put celebrities on pedestals and forget they are human.",
+                "zh": "粉絲有時把名人捧上神壇，忘記他們也是人。"
+            },
+            {
+                "en": "Teachers should be respected, but not put on pedestals.",
+                "zh": "老師應該被尊重，但不應被捧上神壇。"
+            },
+            {
+                "en": "When leaders are put on pedestals, people stop questioning them.",
+                "zh": "當領袖被捧上神壇時，人們就不再質疑他們。"
+            },
+            {
+                "en": "Putting role models on pedestals makes disappointment almost inevitable.",
+                "zh": "把榜樣捧上神壇，幾乎注定會令人失望。"
+            }
+        ],
+        "sourcePage": 10
+    },
+    {
+        "front": "worshipped",
+        "meaning": "被崇拜",
+        "examples": [
+            {
+                "en": "Some idols were put on pedestals and worshipped.",
+                "zh": "有些偶像被捧上神壇並被崇拜。"
+            },
+            {
+                "en": "The footballer was worshipped by fans after winning the final.",
+                "zh": "那位足球員贏得決賽後受到粉絲崇拜。"
+            },
+            {
+                "en": "Some online personalities are almost worshipped by young followers.",
+                "zh": "有些網絡人物幾乎被年輕追蹤者崇拜。"
+            },
+            {
+                "en": "A role model can be respected without being worshipped.",
+                "zh": "榜樣可以被尊重，但不必被崇拜。"
+            },
+            {
+                "en": "When someone is worshipped, their mistakes can shock people more deeply.",
+                "zh": "當一個人被崇拜時，他的錯誤會更深地震撼人們。"
+            }
+        ],
+        "sourcePage": 10
+    },
+    {
+        "front": "flawless",
+        "meaning": "完美無瑕",
+        "examples": [
+            {
+                "en": "No role model is truly flawless.",
+                "zh": "沒有任何榜樣真正完美無瑕。"
+            },
+            {
+                "en": "Her performance was almost flawless, but she still wanted to improve.",
+                "zh": "她的表現幾乎完美無瑕，但她仍想進步。"
+            },
+            {
+                "en": "A flawless image can make people feel they must hide their mistakes.",
+                "zh": "完美無瑕的形象可能令人覺得必須隱藏錯誤。"
+            },
+            {
+                "en": "The plan looks flawless on paper, but real life may disagree.",
+                "zh": "這個計畫在紙面上看似完美無瑕，但現實未必同意。"
+            },
+            {
+                "en": "Don’t wait for a flawless first draft; write the messy one first.",
+                "zh": "不要等到完美無瑕的初稿才開始；先寫出混亂的版本。"
+            }
+        ],
+        "sourcePage": 10
+    },
+    {
+        "front": "the common practice back then",
+        "meaning": "當時常見的做法",
+        "examples": [
+            {
+                "en": "The common practice back then was to hide their flaws.",
+                "zh": "當時常見的做法是隱藏他們的缺點。"
+            },
+            {
+                "en": "The common practice back then was to avoid discussing mental health openly.",
+                "zh": "當時常見的做法是避免公開討論精神健康。"
+            },
+            {
+                "en": "The common practice back then was to control an idol’s public image tightly.",
+                "zh": "當時常見的做法是嚴格控制偶像的公眾形象。"
+            },
+            {
+                "en": "The common practice back then seems old-fashioned now.",
+                "zh": "當時常見的做法現在看來很過時。"
+            },
+            {
+                "en": "The common practice back then was simple: show the shine, hide the cracks.",
+                "zh": "當時常見的做法很簡單：展示光鮮，藏起裂縫。"
+            }
+        ],
+        "sourcePage": 10
+    },
+    {
+        "front": "keep their flaws well-hidden",
+        "meaning": "把缺點藏得很好",
+        "examples": [
+            {
+                "en": "Idols tried to keep their flaws well-hidden.",
+                "zh": "偶像試圖把自己的缺點藏得很好。"
+            },
+            {
+                "en": "Many public figures used to keep their flaws well-hidden from fans.",
+                "zh": "許多公眾人物以前會把自己的缺點藏得很好，不讓粉絲知道。"
+            },
+            {
+                "en": "Trying to keep your flaws well-hidden can be exhausting.",
+                "zh": "試圖把缺點藏得很好，會令人很疲累。"
+            },
+            {
+                "en": "Social media makes it harder to keep flaws well-hidden for long.",
+                "zh": "社交媒體讓人更難長時間把缺點藏得很好。"
+            },
+            {
+                "en": "If role models keep their flaws well-hidden, followers may believe perfection is normal.",
+                "zh": "如果榜樣把缺點藏得很好，追隨者可能會以為完美很正常。"
+            }
+        ],
+        "sourcePage": 10
+    },
+    {
+        "front": "phoney images",
+        "meaning": "虛假形象",
+        "examples": [
+            {
+                "en": "Their phoney images eventually got exposed.",
+                "zh": "他們的虛假形象最終被揭露。"
+            },
+            {
+                "en": "Fans are quicker now to notice phoney images online.",
+                "zh": "現在粉絲更快察覺網上的虛假形象。"
+            },
+            {
+                "en": "Phoney images can damage trust when the truth comes out.",
+                "zh": "當真相出現時，虛假形象會破壞信任。"
+            },
+            {
+                "en": "Some brands create phoney images to seem more caring than they are.",
+                "zh": "有些品牌塑造虛假形象，讓自己看起來比實際更關心人。"
+            },
+            {
+                "en": "Phoney images may look polished, but they often crack under pressure.",
+                "zh": "虛假形象可能看起來光鮮，但在壓力下常會裂開。"
+            }
+        ],
+        "sourcePage": 11
+    },
+    {
+        "front": "got exposed",
+        "meaning": "被揭露",
+        "examples": [
+            {
+                "en": "Their secrets got exposed.",
+                "zh": "他們的秘密被揭露。"
+            },
+            {
+                "en": "The fake reviews got exposed after customers complained.",
+                "zh": "顧客投訴後，虛假評論被揭露。"
+            },
+            {
+                "en": "His mistake got exposed during the meeting.",
+                "zh": "他的錯誤在會議中被揭露。"
+            },
+            {
+                "en": "The company’s poor working conditions got exposed by a news report.",
+                "zh": "那家公司的惡劣工作環境被新聞報導揭露。"
+            },
+            {
+                "en": "Once the edited photo got exposed, followers stopped trusting the account.",
+                "zh": "當修圖照片被揭露後，追蹤者不再信任那個帳號。"
+            }
+        ],
+        "sourcePage": 11
+    },
+    {
+        "front": "young admirers",
+        "meaning": "年輕崇拜者",
+        "examples": [
+            {
+                "en": "Their young admirers were shocked and disappointed.",
+                "zh": "他們的年輕崇拜者感到震驚和失望。"
+            },
+            {
+                "en": "Young admirers often copy the language and style of their role models.",
+                "zh": "年輕崇拜者常會模仿榜樣的語言和風格。"
+            },
+            {
+                "en": "Public figures should remember that young admirers are watching closely.",
+                "zh": "公眾人物應記得，年輕崇拜者正在仔細看著。"
+            },
+            {
+                "en": "Young admirers may feel confused when a role model behaves badly.",
+                "zh": "當榜樣行為惡劣時，年輕崇拜者可能會感到困惑。"
+            },
+            {
+                "en": "Good role models take their young admirers seriously, not as numbers, but as people.",
+                "zh": "好榜樣會認真看待年輕崇拜者，不是把他們當數字，而是當人。"
+            }
+        ],
+        "sourcePage": 11
+    },
+    {
+        "front": "left shocked and disappointed",
+        "meaning": "感到震驚和失望",
+        "examples": [
+            {
+                "en": "Their young admirers were left shocked and disappointed.",
+                "zh": "他們的年輕崇拜者感到震驚和失望。"
+            },
+            {
+                "en": "Fans were left shocked and disappointed after the truth came out.",
+                "zh": "真相出來後，粉絲感到震驚和失望。"
+            },
+            {
+                "en": "Students were left shocked and disappointed when the trip was cancelled.",
+                "zh": "旅行取消時，學生感到震驚和失望。"
+            },
+            {
+                "en": "Customers were left shocked and disappointed by the poor service.",
+                "zh": "糟糕的服務令顧客感到震驚和失望。"
+            },
+            {
+                "en": "Many followers were left shocked and disappointed because they had trusted the influencer.",
+                "zh": "很多追蹤者感到震驚和失望，因為他們曾經信任那位網絡紅人。"
+            }
+        ],
+        "sourcePage": 11
+    },
+    {
+        "front": "in contrast",
+        "meaning": "相反",
+        "examples": [
+            {
+                "en": "In contrast, most of Gen Alpha’s role models are more open.",
+                "zh": "相反，大多數 Alpha 世代的榜樣更開放。"
+            },
+            {
+                "en": "Older celebrities often looked distant. In contrast, today’s influencers feel more accessible.",
+                "zh": "以前的名人常看起來很遙遠。相反，今天的網絡紅人感覺更容易接近。"
+            },
+            {
+                "en": "The first article is very formal. In contrast, the second one is conversational.",
+                "zh": "第一篇文章很正式。相反，第二篇比較像對話。"
+            },
+            {
+                "en": "Some students prefer quiet study. In contrast, others learn better in groups.",
+                "zh": "有些學生喜歡安靜學習。相反，其他人在小組中學得更好。"
+            },
+            {
+                "en": "In contrast to perfect public images, honest mistakes can feel more believable.",
+                "zh": "與完美公眾形象相反，誠實的錯誤可能更可信。"
+            }
+        ],
+        "sourcePage": 11
+    },
+    {
+        "front": "deal with",
+        "meaning": "處理；應付",
+        "examples": [
+            {
+                "en": "Gen Alpha’s role models won’t have this problem to deal with.",
+                "zh": "Alpha 世代的榜樣不會有這個問題需要處理。"
+            },
+            {
+                "en": "Students need practical ways to deal with exam stress.",
+                "zh": "學生需要實用方法應付考試壓力。"
+            },
+            {
+                "en": "The manager dealt with the complaint quickly.",
+                "zh": "經理快速處理了投訴。"
+            },
+            {
+                "en": "If you deal with small problems early, they are easier to fix.",
+                "zh": "如果你早點處理小問題，它們會更容易解決。"
+            },
+            {
+                "en": "Learning to deal with criticism is part of becoming better at anything.",
+                "zh": "學會應付批評，是在任何事情上進步的一部分。"
+            }
+        ],
+        "sourcePage": 11
+    },
+    {
+        "front": "constant exposure to",
+        "meaning": "持續接觸",
+        "examples": [
+            {
+                "en": "Constant exposure to each other’s shortcomings may be harmful.",
+                "zh": "持續接觸彼此的缺點可能有害。"
+            },
+            {
+                "en": "Constant exposure to loud noise can affect sleep.",
+                "zh": "持續接觸巨大噪音可能影響睡眠。"
+            },
+            {
+                "en": "Constant exposure to perfect online images can damage confidence.",
+                "zh": "持續接觸網上完美形象可能損害自信。"
+            },
+            {
+                "en": "Constant exposure to negative comments can make people more anxious.",
+                "zh": "持續接觸負面留言可能令人更焦慮。"
+            },
+            {
+                "en": "Constant exposure to screens is common, but your eyes still need breaks.",
+                "zh": "持續接觸螢幕很常見，但你的眼睛仍需要休息。"
+            }
+        ],
+        "sourcePage": 12
+    },
+    {
+        "front": "shortcomings",
+        "meaning": "缺點；不足之處",
+        "examples": [
+            {
+                "en": "Everyone has shortcomings.",
+                "zh": "每個人都有缺點。"
+            },
+            {
+                "en": "A good leader knows their own shortcomings.",
+                "zh": "好領袖知道自己的不足之處。"
+            },
+            {
+                "en": "The report is useful, but it has a few shortcomings.",
+                "zh": "這份報告很有用，但有幾個不足之處。"
+            },
+            {
+                "en": "Role models with visible shortcomings can still teach valuable lessons.",
+                "zh": "有明顯缺點的榜樣仍然可以教人有價值的課。"
+            },
+            {
+                "en": "Admitting your shortcomings is not weakness; it is maintenance.",
+                "zh": "承認自己的不足不是軟弱；而是保養自己。"
+            }
+        ],
+        "sourcePage": 12
+    },
+    {
+        "front": "harmful in its own way",
+        "meaning": "以另一種方式有害",
+        "examples": [
+            {
+                "en": "This constant exposure may be harmful in its own way.",
+                "zh": "這種持續接觸可能以另一種方式有害。"
+            },
+            {
+                "en": "Too much praise can be harmful in its own way if it makes people afraid to fail.",
+                "zh": "太多讚美如果令人害怕失敗，也可能以另一種方式有害。"
+            },
+            {
+                "en": "Constant comparison is harmful in its own way.",
+                "zh": "持續比較以另一種方式有害。"
+            },
+            {
+                "en": "Avoiding every difficult conversation can be harmful in its own way.",
+                "zh": "避開每一場困難對話，也可能以另一種方式有害。"
+            },
+            {
+                "en": "Perfect images are harmful in their own way because they make normal life look broken.",
+                "zh": "完美形象以另一種方式有害，因為它讓正常生活看起來像壞掉了。"
+            }
+        ],
+        "sourcePage": 12
+    },
+    {
+        "front": "a process of trial and error",
+        "meaning": "反覆試錯的過程",
+        "examples": [
+            {
+                "en": "Life is a process of trial and error.",
+                "zh": "人生是一個反覆試錯的過程。"
+            },
+            {
+                "en": "Learning to cook is a process of trial and error.",
+                "zh": "學做飯是一個反覆試錯的過程。"
+            },
+            {
+                "en": "Finding your study method is often a process of trial and error.",
+                "zh": "找到適合自己的學習方法，往往是一個反覆試錯的過程。"
+            },
+            {
+                "en": "Building a career is a process of trial and error, not a straight road.",
+                "zh": "建立職業生涯是一個反覆試錯的過程，不是一條直路。"
+            },
+            {
+                "en": "Starting a business is usually a process of trial and error: test, fail, adjust, repeat.",
+                "zh": "創業通常是一個反覆試錯的過程：測試、失敗、調整、重複。"
+            }
+        ],
+        "sourcePage": 12
+    },
+    {
+        "front": "learn to walk by falling",
+        "meaning": "從跌倒中學會走路",
+        "examples": [
+            {
+                "en": "We all learn to walk by falling.",
+                "zh": "我們都是從跌倒中學會走路。"
+            },
+            {
+                "en": "Children learn to walk by falling, standing up, and trying again.",
+                "zh": "孩子從跌倒、站起來、再嘗試中學會走路。"
+            },
+            {
+                "en": "In the same way, students learn to write by making mistakes.",
+                "zh": "同樣地，學生透過犯錯學會寫作。"
+            },
+            {
+                "en": "We learn to speak a language by trying, stumbling, and trying again.",
+                "zh": "我們透過嘗試、跌跌撞撞、再嘗試來學會說一種語言。"
+            },
+            {
+                "en": "We learn to walk by falling, so it makes sense that we learn confidence through mistakes too.",
+                "zh": "我們從跌倒中學會走路，所以透過錯誤學會自信也很合理。"
+            }
+        ],
+        "sourcePage": 12
+    },
+    {
+        "front": "reflecting on others’ mistakes",
+        "meaning": "反思他人的錯誤",
+        "examples": [
+            {
+                "en": "We can grow by reflecting on others’ mistakes.",
+                "zh": "我們可以透過反思他人的錯誤而成長。"
+            },
+            {
+                "en": "Students can improve by reflecting on others’ mistakes in sample essays.",
+                "zh": "學生可以透過反思範文中他人的錯誤來進步。"
+            },
+            {
+                "en": "Managers can avoid problems by reflecting on others’ mistakes.",
+                "zh": "經理可以透過反思他人的錯誤來避免問題。"
+            },
+            {
+                "en": "Reflecting on others’ mistakes is useful, but we should not judge too quickly.",
+                "zh": "反思他人的錯誤很有用，但我們不應太快批判。"
+            },
+            {
+                "en": "Reflecting on others’ mistakes can save us time, money, and embarrassment.",
+                "zh": "反思他人的錯誤可以為我們節省時間、金錢和尷尬。"
+            }
+        ],
+        "sourcePage": 12
+    },
+    {
+        "front": "for instance",
+        "meaning": "例如",
+        "examples": [
+            {
+                "en": "For instance, an influencer’s bad behaviour can teach followers a lesson.",
+                "zh": "例如，網絡紅人的不良行為可以給追蹤者上一課。"
+            },
+            {
+                "en": "Some habits are easy to improve; for instance, you can put your phone away while studying.",
+                "zh": "有些習慣很容易改善；例如，你可以在學習時把手機收起來。"
+            },
+            {
+                "en": "There are many ways to reduce stress. For instance, short walks can help.",
+                "zh": "減壓有很多方法。例如，短暫散步可以有幫助。"
+            },
+            {
+                "en": "Role models can teach through action. For instance, admitting a mistake shows maturity.",
+                "zh": "榜樣可以透過行動教人。例如，承認錯誤顯示成熟。"
+            },
+            {
+                "en": "Small changes can make a big difference; for instance, sleeping earlier can improve focus.",
+                "zh": "小改變可以帶來大差別；例如，早點睡可以改善專注力。"
+            }
+        ],
+        "sourcePage": 13
+    },
+    {
+        "front": "throwing a temper tantrum",
+        "meaning": "大發脾氣",
+        "examples": [
+            {
+                "en": "An influencer threw a temper tantrum during a live stream.",
+                "zh": "一位網絡紅人在直播期間大發脾氣。"
+            },
+            {
+                "en": "The child started throwing a temper tantrum because he couldn’t have another sweet.",
+                "zh": "那個孩子因為不能再吃一顆糖而開始大發脾氣。"
+            },
+            {
+                "en": "The player was criticised for throwing a temper tantrum after the referee’s decision.",
+                "zh": "那名球員因裁判的決定後大發脾氣而受到批評。"
+            },
+            {
+                "en": "Throwing a temper tantrum in a meeting will not help your argument.",
+                "zh": "在會議中大發脾氣不會幫助你的論點。"
+            },
+            {
+                "en": "Instead of throwing a temper tantrum, take a breath and explain what went wrong.",
+                "zh": "與其大發脾氣，不如先深呼吸，再解釋出了甚麼問題。"
+            }
+        ],
+        "sourcePage": 13
+    },
+    {
+        "front": "during a live stream",
+        "meaning": "在直播期間",
+        "examples": [
+            {
+                "en": "The influencer lost control during a live stream.",
+                "zh": "那位網絡紅人在直播期間失控了。"
+            },
+            {
+                "en": "The singer answered fans’ questions during a live stream.",
+                "zh": "那位歌手在直播期間回答粉絲問題。"
+            },
+            {
+                "en": "The problem happened during a live stream, so everyone saw it immediately.",
+                "zh": "問題在直播期間發生，所以大家立刻看到了。"
+            },
+            {
+                "en": "During a live stream, small mistakes can spread very quickly.",
+                "zh": "在直播期間，小錯誤可能會很快傳開。"
+            },
+            {
+                "en": "She stayed calm during a live stream even when the sound stopped working.",
+                "zh": "即使聲音突然壞掉，她在直播期間仍保持冷靜。"
+            }
+        ],
+        "sourcePage": 13
+    },
+    {
+        "front": "serve as a cautionary reminder",
+        "meaning": "作為警示提醒",
+        "examples": [
+            {
+                "en": "The incident can serve as a cautionary reminder to followers.",
+                "zh": "這件事可以作為對追隨者的警示提醒。"
+            },
+            {
+                "en": "The accident should serve as a cautionary reminder to drive more slowly in rain.",
+                "zh": "那場事故應作為警示提醒：下雨時開車要更慢。"
+            },
+            {
+                "en": "His mistake can serve as a cautionary reminder about posting too quickly online.",
+                "zh": "他的錯誤可以作為警示提醒：不要太快在網上發文。"
+            },
+            {
+                "en": "The story serves as a cautionary reminder that passwords should be protected.",
+                "zh": "這個故事作為警示提醒：密碼應該受到保護。"
+            },
+            {
+                "en": "This case serves as a cautionary reminder: check the facts before sharing news.",
+                "zh": "這個案例作為警示提醒：分享新聞前要先查清楚事實。"
+            }
+        ],
+        "sourcePage": 13
+    },
+    {
+        "front": "followers",
+        "meaning": "追隨者；粉絲",
+        "examples": [
+            {
+                "en": "Followers may learn from an influencer’s mistake.",
+                "zh": "追隨者可能會從網絡紅人的錯誤中學習。"
+            },
+            {
+                "en": "Her followers asked honest questions in the comments.",
+                "zh": "她的粉絲在留言區提出坦誠問題。"
+            },
+            {
+                "en": "Influencers should remember that young followers may copy their behaviour.",
+                "zh": "網絡紅人應記得，年輕追隨者可能會模仿他們的行為。"
+            },
+            {
+                "en": "The account lost many followers after the fake story was exposed.",
+                "zh": "假故事被揭露後，該帳號失去了很多粉絲。"
+            },
+            {
+                "en": "Good followers do not just praise; they also think critically.",
+                "zh": "好的追隨者不只是讚美，也會批判思考。"
+            }
+        ],
+        "sourcePage": 13
+    },
+    {
+        "front": "act more maturely",
+        "meaning": "表現得更成熟",
+        "examples": [
+            {
+                "en": "The reminder encourages followers to act more maturely.",
+                "zh": "這個提醒鼓勵追隨者表現得更成熟。"
+            },
+            {
+                "en": "He needs to act more maturely when people disagree with him.",
+                "zh": "當別人不同意他時，他需要表現得更成熟。"
+            },
+            {
+                "en": "Students are expected to act more maturely during group projects.",
+                "zh": "學生在小組專案中應表現得更成熟。"
+            },
+            {
+                "en": "If you make a mistake, act more maturely and apologise properly.",
+                "zh": "如果你犯錯，就表現得更成熟，好好道歉。"
+            },
+            {
+                "en": "Acting more maturely does not mean being boring; it means taking responsibility.",
+                "zh": "表現得更成熟不代表無趣；而是代表負責任。"
+            }
+        ],
+        "sourcePage": 13
+    },
+    {
+        "front": "values and attitudes",
+        "meaning": "價值觀與態度",
+        "examples": [
+            {
+                "en": "The section asks students to think about values and attitudes.",
+                "zh": "這部分要求學生思考價值觀與態度。"
+            },
+            {
+                "en": "A good role model can shape young people’s values and attitudes.",
+                "zh": "好榜樣可以塑造年輕人的價值觀與態度。"
+            },
+            {
+                "en": "Parents and teachers often influence children’s values and attitudes.",
+                "zh": "父母和老師常會影響孩子的價值觀與態度。"
+            },
+            {
+                "en": "Social media can affect our values and attitudes without us noticing.",
+                "zh": "社交媒體可能在我們沒察覺時影響我們的價值觀與態度。"
+            },
+            {
+                "en": "Before choosing a role model, think about their values and attitudes, not just their success.",
+                "zh": "選擇榜樣前，要思考他們的價值觀與態度，而不只是成功。"
+            }
+        ],
+        "sourcePage": 14
+    },
+    {
+        "front": "perseverance",
+        "meaning": "堅毅；毅力",
+        "examples": [
+            {
+                "en": "Good role models often show perseverance.",
+                "zh": "好榜樣常常展現堅毅。"
+            },
+            {
+                "en": "Learning a language takes patience and perseverance.",
+                "zh": "學習一種語言需要耐心和毅力。"
+            },
+            {
+                "en": "She showed real perseverance after failing the driving test twice.",
+                "zh": "她兩次駕駛考試失敗後仍展現真正的堅毅。"
+            },
+            {
+                "en": "Perseverance matters when progress is slow and no one is clapping.",
+                "zh": "當進步很慢、沒有人鼓掌時，毅力就很重要。"
+            },
+            {
+                "en": "His perseverance helped him finish the course while working full-time.",
+                "zh": "他的毅力幫助他在全職工作同時完成課程。"
+            }
+        ],
+        "sourcePage": 14
+    },
+    {
+        "front": "shown perseverance",
+        "meaning": "展現堅毅",
+        "examples": [
+            {
+                "en": "Role models have shown perseverance in their lives.",
+                "zh": "榜樣在人生中展現了堅毅。"
+            },
+            {
+                "en": "She has shown perseverance by training every morning before school.",
+                "zh": "她每天上學前訓練，展現了堅毅。"
+            },
+            {
+                "en": "The team has shown perseverance despite losing the first three games.",
+                "zh": "儘管前三場比賽都輸了，團隊仍展現堅毅。"
+            },
+            {
+                "en": "He has shown perseverance by applying again after every rejection.",
+                "zh": "他每次被拒絕後都再次申請，展現了堅毅。"
+            },
+            {
+                "en": "Students who have shown perseverance should be praised, not only those with perfect marks.",
+                "zh": "展現堅毅的學生應該受到讚賞，不只是成績完美的學生。"
+            }
+        ],
+        "sourcePage": 14
+    },
+    {
+        "front": "self-reflection",
+        "meaning": "自我反思",
+        "examples": [
+            {
+                "en": "Self-reflection helps us understand our own behaviour.",
+                "zh": "自我反思幫助我們了解自己的行為。"
+            },
+            {
+                "en": "Self-reflection can help you notice why you reacted badly.",
+                "zh": "自我反思可以幫助你注意到自己為何反應不好。"
+            },
+            {
+                "en": "Good leaders make time for self-reflection after difficult decisions.",
+                "zh": "好領袖會在作出困難決定後留時間自我反思。"
+            },
+            {
+                "en": "Self-reflection is useful after an argument, before you blame everyone else.",
+                "zh": "爭吵後先自我反思很有用，不要急著怪所有人。"
+            },
+            {
+                "en": "A few minutes of self-reflection can turn a mistake into a lesson.",
+                "zh": "幾分鐘的自我反思，可以把錯誤變成教訓。"
+            }
+        ],
+        "sourcePage": 14
+    },
+    {
+        "front": "required perseverance",
+        "meaning": "需要堅毅",
+        "examples": [
+            {
+                "en": "The experience required perseverance.",
+                "zh": "這段經歷需要堅毅。"
+            },
+            {
+                "en": "Finishing the marathon required perseverance.",
+                "zh": "完成馬拉松需要堅毅。"
+            },
+            {
+                "en": "Starting again after failure required perseverance and courage.",
+                "zh": "失敗後重新開始需要堅毅和勇氣。"
+            },
+            {
+                "en": "Caring for a sick relative required perseverance every single day.",
+                "zh": "照顧生病的親人每天都需要堅毅。"
+            },
+            {
+                "en": "Learning to code required perseverance because the errors never arrived alone.",
+                "zh": "學寫程式需要堅毅，因為錯誤從來不是單獨出現。"
+            }
+        ],
+        "sourcePage": 14
+    },
+    {
+        "front": "picking up",
+        "meaning": "學習；吸收",
+        "examples": [
+            {
+                "en": "We can improve by picking up our role models’ positive virtues.",
+                "zh": "我們可以透過學習榜樣的正面美德來進步。"
+            },
+            {
+                "en": "Children are good at picking up new words from adults.",
+                "zh": "孩子很擅長從成年人身上學習新詞語。"
+            },
+            {
+                "en": "She started picking up good study habits from her older brother.",
+                "zh": "她開始從哥哥身上學習良好的學習習慣。"
+            },
+            {
+                "en": "I picked up a few useful tips from the training session.",
+                "zh": "我從培訓課中學到幾個實用技巧。"
+            },
+            {
+                "en": "Be careful what you watch online; you may be picking up habits without noticing.",
+                "zh": "小心你在網上看的內容；你可能在不知不覺中吸收習慣。"
+            }
+        ],
+        "sourcePage": 14
+    },
+    {
+        "front": "positive virtues",
+        "meaning": "正面美德",
+        "examples": [
+            {
+                "en": "We can pick up our role models’ positive virtues.",
+                "zh": "我們可以學習榜樣的正面美德。"
+            },
+            {
+                "en": "Patience and honesty are positive virtues worth learning.",
+                "zh": "耐心和誠實是值得學習的正面美德。"
+            },
+            {
+                "en": "Good role models show positive virtues through action, not slogans.",
+                "zh": "好榜樣透過行動展現正面美德，而不是靠口號。"
+            },
+            {
+                "en": "Positive virtues like diligence and empathy can shape daily behaviour.",
+                "zh": "勤奮和同理心等正面美德可以塑造日常行為。"
+            },
+            {
+                "en": "We should admire positive virtues more than expensive clothes or perfect photos.",
+                "zh": "我們應該更欣賞正面美德，而不是昂貴衣服或完美照片。"
+            }
+        ],
+        "sourcePage": 15
+    },
+    {
+        "front": "diligence",
+        "meaning": "勤奮",
+        "examples": [
+            {
+                "en": "Diligence is one quality of a good role model.",
+                "zh": "勤奮是好榜樣的一種特質。"
+            },
+            {
+                "en": "Her diligence helped her improve her English quickly.",
+                "zh": "她的勤奮幫助她很快提升英語。"
+            },
+            {
+                "en": "Diligence matters more than talent when practice is required every day.",
+                "zh": "當每天都需要練習時，勤奮比天分更重要。"
+            },
+            {
+                "en": "The coach praised his diligence after he trained through the whole winter.",
+                "zh": "他整個冬天都堅持訓練，教練稱讚他的勤奮。"
+            },
+            {
+                "en": "Diligence is not glamorous, but it pays the bills of progress.",
+                "zh": "勤奮不華麗，但它會替進步付帳。"
+            }
+        ],
+        "sourcePage": 15
+    },
+    {
+        "front": "empathy",
+        "meaning": "同理心",
+        "examples": [
+            {
+                "en": "Empathy helps us understand other people’s feelings.",
+                "zh": "同理心幫助我們理解他人的感受。"
+            },
+            {
+                "en": "A good nurse needs skill, patience and empathy.",
+                "zh": "好護士需要技術、耐心和同理心。"
+            },
+            {
+                "en": "Empathy can stop an argument from becoming a fight.",
+                "zh": "同理心可以防止爭論變成吵架。"
+            },
+            {
+                "en": "Teachers with empathy notice when students are struggling silently.",
+                "zh": "有同理心的老師會注意到學生默默掙扎。"
+            },
+            {
+                "en": "Empathy does not mean agreeing with everyone; it means trying to understand them.",
+                "zh": "同理心不代表同意每個人；而是嘗試理解他們。"
+            }
+        ],
+        "sourcePage": 15
+    },
+    {
+        "front": "turn into",
+        "meaning": "變成",
+        "examples": [
+            {
+                "en": "Positive virtues help us turn into better people.",
+                "zh": "正面美德幫助我們變成更好的人。"
+            },
+            {
+                "en": "A small problem can turn into a big one if you ignore it.",
+                "zh": "如果你忽視小問題，它可能會變成大問題。"
+            },
+            {
+                "en": "With practice, nervousness can turn into confidence.",
+                "zh": "透過練習，緊張可以變成自信。"
+            },
+            {
+                "en": "The old factory will turn into a community centre next year.",
+                "zh": "那座舊工廠明年會變成社區中心。"
+            },
+            {
+                "en": "A useful habit can turn into part of your identity over time.",
+                "zh": "有用的習慣久而久之可以變成你身份的一部分。"
+            }
+        ],
+        "sourcePage": 15
+    },
+    {
+        "front": "upstanding individuals",
+        "meaning": "正直的人",
+        "examples": [
+            {
+                "en": "We can turn into upstanding individuals.",
+                "zh": "我們可以變成正直的人。"
+            },
+            {
+                "en": "Schools should help students become upstanding individuals.",
+                "zh": "學校應幫助學生成為正直的人。"
+            },
+            {
+                "en": "Upstanding individuals keep their promises and admit their mistakes.",
+                "zh": "正直的人會信守承諾，也會承認錯誤。"
+            },
+            {
+                "en": "Society needs upstanding individuals who act with honesty and responsibility.",
+                "zh": "社會需要以誠實和責任感行事的正直的人。 c5o.s t成s 為yo正u.直的人不是要完美；而是在有代價時仍做正確的事。"
+            },
+            {
+                "en": "Being an upstanding individual is not about being perfect; it is about doing the right thing when it costs you.",
+                "zh": "成為正直的人不是要完美；而是在有代價時仍做正確的事。"
+            }
+        ],
+        "sourcePage": 15
+    },
+    {
+        "front": "play an important role in",
+        "meaning": "在……中扮演重要角色",
+        "examples": [
+            {
+                "en": "Role models play an important role in our lives.",
+                "zh": "榜樣在我們生活中扮演重要角色。"
+            },
+            {
+                "en": "Parents play an important role in children’s early learning.",
+                "zh": "父母在孩子早期學習中扮演重要角色。"
+            },
+            {
+                "en": "Sleep plays an important role in memory and concentration.",
+                "zh": "睡眠在記憶和專注力中扮演重要角色。"
+            },
+            {
+                "en": "Public transport plays an important role in city life.",
+                "zh": "公共交通在城市生活中扮演重要角色。"
+            },
+            {
+                "en": "Teachers play an important role in helping students believe they can improve.",
+                "zh": "老師在幫助學生相信自己能進步方面扮演重要角色。"
+            }
+        ],
+        "sourcePage": 15
+    },
+    {
+        "front": "inspiring us to",
+        "meaning": "激勵我們去",
+        "examples": [
+            {
+                "en": "Role models inspire us to become better versions of ourselves.",
+                "zh": "榜樣激勵我們成為更好的自己。"
+            },
+            {
+                "en": "Her story inspired us to volunteer at the local centre.",
+                "zh": "她的故事激勵我們去本地中心做義工。"
+            },
+            {
+                "en": "Good teachers inspire students to ask better questions.",
+                "zh": "好老師激勵學生提出更好的問題。"
+            },
+            {
+                "en": "The athlete’s recovery inspired many people to keep training.",
+                "zh": "那位運動員的康復激勵很多人繼續訓練。"
+            },
+            {
+                "en": "A practical role model inspires us to act, not just admire from a distance.",
+                "zh": "實際的榜樣會激勵我們去行動，而不是只遠遠仰慕。"
+            }
+        ],
+        "sourcePage": 16
+    },
+    {
+        "front": "better versions of ourselves",
+        "meaning": "更好的自己",
+        "examples": [
+            {
+                "en": "We want to become better versions of ourselves.",
+                "zh": "我們想成為更好的自己。"
+            },
+            {
+                "en": "Good habits help us become better versions of ourselves.",
+                "zh": "好習慣幫助我們成為更好的自己。"
+            },
+            {
+                "en": "Mistakes can help us become better versions of ourselves if we learn from them.",
+                "zh": "如果我們從錯誤中學習，錯誤可以幫助我們成為更好的自己。"
+            },
+            {
+                "en": "We do not become better versions of ourselves overnight.",
+                "zh": "我們不會一夜之間成為更好的自己。"
+            },
+            {
+                "en": "Better versions of ourselves are built slowly: one choice, one apology, one effort at a time.",
+                "zh": "更好的自己是慢慢建立出來的：一次選擇、一次道歉、一次努力。"
+            }
+        ],
+        "sourcePage": 16
+    },
+    {
+        "front": "identify with",
+        "meaning": "對……有認同感；有共鳴",
+        "examples": [
+            {
+                "en": "Which virtues do you identify with the most?",
+                "zh": "你最認同哪些美德？"
+            },
+            {
+                "en": "Many teenagers identify with influencers who talk about school pressure.",
+                "zh": "許多青少年對談論學業壓力的網絡紅人有共鳴。"
+            },
+            {
+                "en": "I identify with characters who make mistakes but keep trying.",
+                "zh": "我對那些會犯錯但繼續努力的角色有認同感。"
+            },
+            {
+                "en": "Students may identify with role models from their own age group.",
+                "zh": "學生可能會對同年齡層的榜樣有共鳴。"
+            },
+            {
+                "en": "It is easier to identify with someone who speaks honestly about real problems.",
+                "zh": "對誠實談真實問題的人，我們較容易產生認同感。"
+            }
+        ],
+        "sourcePage": 16
+    },
+    {
+        "front": "according to",
+        "meaning": "根據",
+        "examples": [
+            {
+                "en": "According to paragraph 1, young people imitate their role models.",
+                "zh": "根據第一段，年輕人會模仿自己的榜樣。"
+            },
+            {
+                "en": "According to the timetable, the train leaves at 8:15.",
+                "zh": "根據時間表，火車 8:15 開出。"
+            },
+            {
+                "en": "According to the teacher, the essay needs clearer examples.",
+                "zh": "根據老師的說法，這篇文章需要更清楚的例子。"
+            },
+            {
+                "en": "According to the report, online shopping has increased deliveries.",
+                "zh": "根據報告，網上購物增加了送貨量。"
+            },
+            {
+                "en": "According to the instructions, each answer should contain one word only.",
+                "zh": "根據指示，每個答案只應包含一個字。"
+            }
+        ],
+        "sourcePage": 16
+    },
+    {
+        "front": "self-improvement",
+        "meaning": "自我提升",
+        "examples": [
+            {
+                "en": "People imitate role models for self-improvement.",
+                "zh": "人們為了自我提升而模仿榜樣。"
+            },
+            {
+                "en": "Reading can be a simple tool for self-improvement.",
+                "zh": "閱讀可以是自我提升的簡單工具。"
+            },
+            {
+                "en": "Self-improvement starts with noticing what needs to change.",
+                "zh": "自我提升從注意到需要改變甚麼開始。"
+            },
+            {
+                "en": "Good feedback is useful for self-improvement.",
+                "zh": "好的回饋對自我提升很有用。"
+            },
+            {
+                "en": "Self-improvement is not a magic switch; it is a daily repair job.",
+                "zh": "自我提升不是魔法開關；它是每天的修補工作。"
+            }
+        ],
+        "sourcePage": 16
+    },
+    {
+        "front": "to look good",
+        "meaning": "看起來好；形象好",
+        "examples": [
+            {
+                "en": "Some people imitate others because they want to look good.",
+                "zh": "有些人模仿別人，因為他們想看起來形象好。"
+            },
+            {
+                "en": "He bought the jacket mainly to look good in photos.",
+                "zh": "他買那件外套主要是想在照片裡看起來好看。"
+            },
+            {
+                "en": "Don’t say yes just to look good in front of your friends.",
+                "zh": "不要只是為了在朋友面前形象好而答應。"
+            },
+            {
+                "en": "A role model should do good, not just try to look good.",
+                "zh": "榜樣應該做好事，而不只是試圖形象好。"
+            },
+            {
+                "en": "Trying to look good online can become exhausting if you forget real life.",
+                "zh": "如果你忘了現實生活，努力在網上看起來好會很累。"
+            }
+        ],
+        "sourcePage": 16
+    },
+    {
+        "front": "follow our parents’ footsteps",
+        "meaning": "追隨父母的腳步",
+        "examples": [
+            {
+                "en": "Some young people follow their parents’ footsteps.",
+                "zh": "有些年輕人會追隨父母的腳步。"
+            },
+            {
+                "en": "She decided to follow her parents’ footsteps and become a doctor.",
+                "zh": "她決定追隨父母的腳步，成為醫生。"
+            },
+            {
+                "en": "He did not want to follow his parents’ footsteps into the family business.",
+                "zh": "他不想追隨父母的腳步加入家族生意。"
+            },
+            {
+                "en": "Following your parents’ footsteps can feel safe, but it should still be your choice.",
+                "zh": "追隨父母的腳步可能感覺安全，但仍應是你自己的選擇。"
+            },
+            {
+                "en": "Many children follow their parents’ footsteps because they grow up seeing that work every day.",
+                "zh": "許多孩子會追隨父母的腳步，因為他們每天都看到那份工作。"
+            }
+        ],
+        "sourcePage": 17
+    },
+    {
+        "front": "age demographic",
+        "meaning": "年齡群體",
+        "examples": [
+            {
+                "en": "The question asks about the age demographic of the writer.",
+                "zh": "這題問的是作者所屬的年齡群體。"
+            },
+            {
+                "en": "The app is popular with a younger age demographic.",
+                "zh": "這個 app 在較年輕的年齡群體中很受歡迎。"
+            },
+            {
+                "en": "The survey compares spending habits across each age demographic.",
+                "zh": "這項調查比較不同年齡群體的消費習慣。"
+            },
+            {
+                "en": "Advertisers need to know the age demographic of their audience.",
+                "zh": "廣告商需要知道受眾的年齡群體。"
+            },
+            {
+                "en": "This course is aimed at an older age demographic than our usual students.",
+                "zh": "這門課面向的年齡群體比我們平常的學生更年長。"
+            }
+        ],
+        "sourcePage": 17
+    },
+    {
+        "front": "refer to",
+        "meaning": "指的是",
+        "examples": [
+            {
+                "en": "The phrase “this openness” refers to honesty about vulnerabilities.",
+                "zh": "“this openness” 這個短語指的是對脆弱一面的坦誠。"
+            },
+            {
+                "en": "What does the word “they” refer to in line 5?",
+                "zh": "第五行的 “they” 指的是甚麼？"
+            },
+            {
+                "en": "In this passage, “role models” refers to people young people admire.",
+                "zh": "在這篇文章中，“role models” 指的是年輕人欣賞的人。"
+            },
+            {
+                "en": "The term “Gen Alpha” refers to children born from 2010 onwards.",
+                "zh": "“Gen Alpha” 這個詞指的是 2010 年起出生的孩子。"
+            },
+            {
+                "en": "Always check what a pronoun refers to before choosing your answer.",
+                "zh": "選答案前，一定要確認代名詞指的是甚麼。"
+            }
+        ],
+        "sourcePage": 17
+    },
+    {
+        "front": "complete the sentence below",
+        "meaning": "完成以下句子",
+        "examples": [
+            {
+                "en": "Students complete the sentence below using words from the passage.",
+                "zh": "學生使用文章中的詞語完成以下句子。"
+            },
+            {
+                "en": "Complete the sentence below with one word only.",
+                "zh": "用一個字完成以下句子。"
+            },
+            {
+                "en": "Read paragraph 3, then complete the sentence below.",
+                "zh": "閱讀第三段，然後完成以下句子。"
+            },
+            {
+                "en": "To complete the sentence below, copy the exact word from the text.",
+                "zh": "要完成以下句子，請從文章中抄寫確切詞語。"
+            },
+            {
+                "en": "Do not change the form of the word when you complete the sentence below.",
+                "zh": "完成以下句子時，不要改變詞形。"
+            }
+        ],
+        "sourcePage": 17
+    },
+    {
+        "front": "using words from",
+        "meaning": "使用來自……的詞語",
+        "examples": [
+            {
+                "en": "Students answer the question using words from paragraph 4.",
+                "zh": "學生使用第四段中的詞語回答問題。"
+            },
+            {
+                "en": "Complete the summary using words from the passage.",
+                "zh": "使用文章中的詞語完成摘要。"
+            },
+            {
+                "en": "Answer using words from lines 10 to 15.",
+                "zh": "使用第 10 至 15 行中的詞語回答。"
+            },
+            {
+                "en": "The instruction says to answer using words from the text, not your own words.",
+                "zh": "指示說要使用文章中的詞語作答，不是用自己的話。"
+            },
+            {
+                "en": "When using words from the passage, check spelling carefully.",
+                "zh": "使用文章中的詞語時，要仔細檢查拼寫。"
+            }
+        ],
+        "sourcePage": 17
+    },
+    {
+        "front": "honest about",
+        "meaning": "對……坦誠",
+        "examples": [
+            {
+                "en": "Gen Alpha role models are honest about their vulnerabilities.",
+                "zh": "Alpha 世代的榜樣對自己的脆弱一面坦誠。"
+            },
+            {
+                "en": "Be honest about your mistakes if you want people to trust you.",
+                "zh": "如果你想讓人信任你，就要對自己的錯誤坦誠。"
+            },
+            {
+                "en": "The influencer was honest about struggling with exams.",
+                "zh": "那位網絡紅人坦誠談到自己在考試上的掙扎。"
+            },
+            {
+                "en": "A good review should be honest about both strengths and weaknesses.",
+                "zh": "好評論應該對優點和缺點都坦誠。"
+            },
+            {
+                "en": "She was honest about needing help, which made others feel safer to speak up.",
+                "zh": "她坦誠說自己需要幫助，這讓其他人更敢開口。"
+            }
+        ],
+        "sourcePage": 17
+    },
+    {
+        "front": "most affected by",
+        "meaning": "最受……影響",
+        "examples": [
+            {
+                "en": "Young admirers are most affected by the problem.",
+                "zh": "年輕崇拜者最受這個問題影響。"
+            },
+            {
+                "en": "Children are often most affected by sudden family changes.",
+                "zh": "孩子常常最受家庭突然變化影響。"
+            },
+            {
+                "en": "Small shops were most affected by the road closure.",
+                "zh": "小商店最受封路影響。"
+            },
+            {
+                "en": "Students without quiet study space are most affected by online learning problems.",
+                "zh": "沒有安靜學習空間的學生最受網上學習問題影響。"
+            },
+            {
+                "en": "The people most affected by a decision should be included in the conversation.",
+                "zh": "最受一個決定影響的人，應該被納入討論。"
+            }
+        ],
+        "sourcePage": 18
+    },
+    {
+        "front": "possible descriptions",
+        "meaning": "可能的描述",
+        "examples": [
+            {
+                "en": "The table gives possible descriptions of role models.",
+                "zh": "表格提供了對榜樣的可能描述。"
+            },
+            {
+                "en": "The worksheet lists possible descriptions of each character.",
+                "zh": "工作紙列出每個角色的可能描述。"
+            },
+            {
+                "en": "Students choose from possible descriptions in the box.",
+                "zh": "學生從方框中的可能描述中選擇。"
+            },
+            {
+                "en": "Before answering, read all the possible descriptions carefully.",
+                "zh": "作答前，仔細閱讀所有可能的描述。"
+            },
+            {
+                "en": "Some possible descriptions sound similar, so check the details in the paragraph.",
+                "zh": "有些可能的描述聽起來相似，所以要檢查段落中的細節。"
+            }
+        ],
+        "sourcePage": 18
+    },
+    {
+        "front": "mentioned or not mentioned",
+        "meaning": "有提及或沒有提及",
+        "examples": [
+            {
+                "en": "Students decide whether each description is mentioned or not mentioned.",
+                "zh": "學生判斷每個描述是有提及還是沒有提及。"
+            },
+            {
+                "en": "Check whether the detail is mentioned or not mentioned in the text.",
+                "zh": "檢查該細節在文章中有提及還是沒有提及。"
+            },
+            {
+                "en": "The question asks if the reason is mentioned or not mentioned.",
+                "zh": "題目問那個原因是否有提及。"
+            },
+            {
+                "en": "Don’t guess from general knowledge; decide whether it is mentioned or not mentioned.",
+                "zh": "不要靠常識猜；要判斷文章中有提及還是沒有提及。"
+            },
+            {
+                "en": "In reading exams, “mentioned or not mentioned” questions need careful scanning.",
+                "zh": "在閱讀考試中，「有提及或沒有提及」的題目需要仔細掃讀。"
+            }
+        ],
+        "sourcePage": 18
+    },
+    {
+        "front": "paragraphs specified",
+        "meaning": "指定段落",
+        "examples": [
+            {
+                "en": "Students check the paragraphs specified in the question.",
+                "zh": "學生檢查題目中指定的段落。"
+            },
+            {
+                "en": "Only use the paragraphs specified in the instructions.",
+                "zh": "只使用指示中指定的段落。"
+            },
+            {
+                "en": "The answers must come from the paragraphs specified.",
+                "zh": "答案必須來自指定段落。"
+            },
+            {
+                "en": "If you search outside the paragraphs specified, you may waste time.",
+                "zh": "如果你在指定段落以外尋找，可能會浪費時間。"
+            },
+            {
+                "en": "Read the paragraphs specified first, then choose the best answer.",
+                "zh": "先閱讀指定段落，再選擇最佳答案。"
+            }
+        ],
+        "sourcePage": 18
+    },
+    {
+        "front": "are flawed",
+        "meaning": "有缺點",
+        "examples": [
+            {
+                "en": "Role models are flawed, just like everyone else.",
+                "zh": "榜樣和所有人一樣都有缺點。"
+            },
+            {
+                "en": "All humans are flawed in some way.",
+                "zh": "所有人在某方面都有缺點。"
+            },
+            {
+                "en": "The plan is useful, but some parts are flawed.",
+                "zh": "這個計畫很有用，但部分內容有缺點。"
+            },
+            {
+                "en": "A leader can be respected and still be flawed.",
+                "zh": "一位領袖可以受到尊重，同時也有缺點。"
+            },
+            {
+                "en": "Recognising that role models are flawed helps us admire them more realistically.",
+                "zh": "認識到榜樣有缺點，可以幫助我們更現實地欣賞他們。"
+            }
+        ],
+        "sourcePage": 18
+    },
+    {
+        "front": "example of trial and error",
+        "meaning": "反覆試錯的例子",
+        "examples": [
+            {
+                "en": "Learning to walk by falling is an example of trial and error.",
+                "zh": "從跌倒中學會走路是反覆試錯的例子。"
+            },
+            {
+                "en": "Finding the right study method is an example of trial and error.",
+                "zh": "找到合適的學習方法是反覆試錯的例子。"
+            },
+            {
+                "en": "Testing different recipes is a simple example of trial and error.",
+                "zh": "測試不同食譜是反覆試錯的簡單例子。"
+            },
+            {
+                "en": "The first business failed, but it became an example of trial and error.",
+                "zh": "第一盤生意失敗了，但它成了反覆試錯的例子。"
+            },
+            {
+                "en": "Learning to ride a bike is a classic example of trial and error.",
+                "zh": "學踩單車是反覆試錯的經典例子。"
+            }
+        ],
+        "sourcePage": 18
+    },
+    {
+        "front": "name three qualities",
+        "meaning": "寫出三個特質",
+        "examples": [
+            {
+                "en": "Students name three qualities of a good role model.",
+                "zh": "學生寫出好榜樣的三個特質。"
+            },
+            {
+                "en": "Name three qualities you admire in a teacher.",
+                "zh": "寫出你欣賞老師的三個特質。"
+            },
+            {
+                "en": "The interview asks candidates to name three qualities they bring to the team.",
+                "zh": "面試要求應徵者說出自己帶給團隊的三個特質。"
+            },
+            {
+                "en": "Can you name three qualities of a responsible leader?",
+                "zh": "你可以寫出負責任領袖的三個特質嗎？"
+            },
+            {
+                "en": "Before choosing a role model, name three qualities you actually want to develop.",
+                "zh": "選擇榜樣前，先寫出你真正想培養的三個特質。"
+            }
+        ],
+        "sourcePage": 19
+    },
+    {
+        "front": "feel let down",
+        "meaning": "感到失望；覺得被辜負",
+        "examples": [
+            {
+                "en": "Young admirers may feel let down when idols’ flaws are exposed.",
+                "zh": "當偶像的缺點被揭露時，年輕崇拜者可能會覺得被辜負。"
+            },
+            {
+                "en": "Fans felt let down after the singer cancelled the concert without explanation.",
+                "zh": "那位歌手無解釋取消演唱會後，粉絲感到失望。"
+            },
+            {
+                "en": "Students feel let down when teachers promise feedback but never give it.",
+                "zh": "當老師承諾給回饋卻一直沒有給，學生會覺得被辜負。"
+            },
+            {
+                "en": "I felt let down when my friend didn’t show up.",
+                "zh": "朋友沒有出現時，我感到失望。"
+            },
+            {
+                "en": "People feel let down when someone they trusted turns out to be dishonest.",
+                "zh": "當他們信任的人原來不誠實時，人們會覺得被辜負。"
+            }
+        ],
+        "sourcePage": 19
+    },
+    {
+        "front": "find out about",
+        "meaning": "發現；得知",
+        "examples": [
+            {
+                "en": "Followers may find out about their influencers’ flaws.",
+                "zh": "追隨者可能會發現網絡紅人的缺點。"
+            },
+            {
+                "en": "I found out about the event through a friend.",
+                "zh": "我透過朋友得知那個活動。"
+            },
+            {
+                "en": "Students should find out about the course before applying.",
+                "zh": "學生申請前應了解那門課程。"
+            },
+            {
+                "en": "Parents want to find out about the school’s safety rules.",
+                "zh": "家長想了解學校的安全規則。"
+            },
+            {
+                "en": "It is better to find out about a problem early than to meet it as a surprise later.",
+                "zh": "早點發現問題，比之後突然遇上它更好。"
+            }
+        ],
+        "sourcePage": 19
+    },
+    {
+        "front": "based on the text",
+        "meaning": "根據文章",
+        "examples": [
+            {
+                "en": "Students explain their answer based on the text.",
+                "zh": "學生根據文章解釋自己的答案。"
+            },
+            {
+                "en": "Choose the best answer based on the text, not your opinion.",
+                "zh": "根據文章選出最佳答案，不要根據個人意見。"
+            },
+            {
+                "en": "Based on the text, the writer prefers honest role models.",
+                "zh": "根據文章，作者較喜歡誠實的榜樣。"
+            },
+            {
+                "en": "Your answer should be based on the text and supported with evidence.",
+                "zh": "你的答案應根據文章，並以證據支持。"
+            },
+            {
+                "en": "In reading questions, always answer based on the text first.",
+                "zh": "做閱讀題時，永遠先根據文章作答。"
+            }
+        ],
+        "sourcePage": 19
+    },
+    {
+        "front": "complete the short text",
+        "meaning": "完成短文",
+        "examples": [
+            {
+                "en": "Students complete the short text using words from the passage.",
+                "zh": "學生使用文章中的詞語完成短文。"
+            },
+            {
+                "en": "Complete the short text with words from paragraph 2.",
+                "zh": "使用第二段中的詞語完成短文。"
+            },
+            {
+                "en": "Read the passage first, then complete the short text below.",
+                "zh": "先閱讀文章，然後完成以下短文。"
+            },
+            {
+                "en": "To complete the short text, use one word for each blank.",
+                "zh": "完成短文時，每個空格使用一個字。"
+            },
+            {
+                "en": "Check grammar carefully when you complete the short text.",
+                "zh": "完成短文時，要仔細檢查文法。"
+            }
+        ],
+        "sourcePage": 19
+    },
+    {
+        "front": "fill in each blank",
+        "meaning": "填寫每個空格",
+        "examples": [
+            {
+                "en": "Students fill in each blank with one word only.",
+                "zh": "學生每個空格只填一個字。"
+            },
+            {
+                "en": "Fill in each blank using a word from the passage.",
+                "zh": "使用文章中的詞語填寫每個空格。"
+            },
+            {
+                "en": "Read the sentence carefully before you fill in each blank.",
+                "zh": "填寫每個空格前，仔細閱讀句子。"
+            },
+            {
+                "en": "You must fill in each blank correctly to complete the summary.",
+                "zh": "你必須正確填寫每個空格，才能完成摘要。"
+            },
+            {
+                "en": "If the grammar looks wrong, check the word before you fill in each blank.",
+                "zh": "如果文法看起來不對，填寫每個空格前要先檢查詞語。"
+            }
+        ],
+        "sourcePage": 19
+    },
+    {
+        "front": "one word only",
+        "meaning": "只限一個字",
+        "examples": [
+            {
+                "en": "Each answer should contain one word only.",
+                "zh": "每個答案只應包含一個字。"
+            },
+            {
+                "en": "Write one word only in each gap.",
+                "zh": "每個空格只寫一個字。"
+            },
+            {
+                "en": "The instruction says one word only, so don’t write a phrase.",
+                "zh": "指示說只限一個字，所以不要寫短語。"
+            },
+            {
+                "en": "If the answer needs one word only, spelling becomes very important.",
+                "zh": "如果答案只限一個字，拼寫就非常重要。"
+            },
+            {
+                "en": "In this exercise, numbers are not accepted; write one word only.",
+                "zh": "在這個練習中，不接受數字；只寫一個字。"
+            }
+        ],
+        "sourcePage": 20
+    },
+    {
+        "front": "worldly successes",
+        "meaning": "世俗成就",
+        "examples": [
+            {
+                "en": "Fame and fortune are examples of worldly successes.",
+                "zh": "名氣和財富是世俗成就的例子。"
+            },
+            {
+                "en": "Worldly successes can be impressive, but they do not always bring happiness.",
+                "zh": "世俗成就可以令人印象深刻，但不一定帶來快樂。"
+            },
+            {
+                "en": "Some role models are admired for kindness, not worldly successes.",
+                "zh": "有些榜樣因善良而被欣賞，而不是因世俗成就。"
+            },
+            {
+                "en": "Young people should not judge themselves only by worldly successes.",
+                "zh": "年輕人不應只用世俗成就來評價自己。"
+            },
+            {
+                "en": "Worldly successes may open doors, but character decides how you walk through them.",
+                "zh": "世俗成就可能打開門，但品格決定你如何走進去。"
+            }
+        ],
+        "sourcePage": 20
+    },
+    {
+        "front": "similar in age",
+        "meaning": "年齡相近",
+        "examples": [
+            {
+                "en": "Gen Alpha look to peers who are similar in age.",
+                "zh": "Alpha 世代會看向年齡相近的同輩。"
+            },
+            {
+                "en": "Students often feel more comfortable with people similar in age.",
+                "zh": "學生通常和年齡相近的人在一起會更自在。"
+            },
+            {
+                "en": "The two athletes are similar in age but have very different careers.",
+                "zh": "這兩位運動員年齡相近，但職業生涯很不同。"
+            },
+            {
+                "en": "Influencers similar in age can feel easier to relate to.",
+                "zh": "年齡相近的網絡紅人可能更容易令人產生共鳴。"
+            },
+            {
+                "en": "Children similar in age often copy each other’s language and habits.",
+                "zh": "年齡相近的孩子常會互相模仿語言和習慣。"
+            }
+        ],
+        "sourcePage": 20
+    },
+    {
+        "front": "life stories",
+        "meaning": "人生故事",
+        "examples": [
+            {
+                "en": "Their life stories resonate with young followers.",
+                "zh": "他們的人生故事令年輕追隨者產生共鳴。"
+            },
+            {
+                "en": "Students shared their life stories during the workshop.",
+                "zh": "學生在工作坊中分享自己的人生故事。"
+            },
+            {
+                "en": "Life stories can make a presentation feel more human.",
+                "zh": "人生故事可以讓簡報感覺更有人味。"
+            },
+            {
+                "en": "The book collects life stories from nurses, teachers and parents.",
+                "zh": "這本書收錄護士、老師和父母的人生故事。"
+            },
+            {
+                "en": "Honest life stories can teach more than perfect success stories.",
+                "zh": "真誠的人生故事比完美成功故事更能教人。"
+            }
+        ],
+        "sourcePage": 20
+    },
+    {
+        "front": "find the correct words",
+        "meaning": "找出正確詞語",
+        "examples": [
+            {
+                "en": "Students find the correct words in the specified paragraphs.",
+                "zh": "學生在指定段落中找出正確詞語。"
+            },
+            {
+                "en": "Read the question first, then find the correct words in the passage.",
+                "zh": "先讀題目，再在文章中找出正確詞語。"
+            },
+            {
+                "en": "To find the correct words, scan for the same meaning, not just the same spelling.",
+                "zh": "要找出正確詞語，要尋找相同意思，而不只是相同拼寫。"
+            },
+            {
+                "en": "The answer is short, but you still need to find the correct words carefully.",
+                "zh": "答案很短，但你仍需要仔細找出正確詞語。"
+            },
+            {
+                "en": "Underline the sentence first; it will help you find the correct words.",
+                "zh": "先畫出句子，這會幫你找出正確詞語。"
+            }
+        ],
+        "sourcePage": 20
+    },
+    {
+        "front": "specified paragraphs",
+        "meaning": "指定段落",
+        "examples": [
+            {
+                "en": "The answers must come from the specified paragraphs.",
+                "zh": "答案必須來自指定段落。"
+            },
+            {
+                "en": "Do not search the whole article if the question gives specified paragraphs.",
+                "zh": "如果題目給了指定段落，就不要搜尋整篇文章。"
+            },
+            {
+                "en": "The specified paragraphs contain all the information you need.",
+                "zh": "指定段落包含你需要的所有資料。"
+            },
+            {
+                "en": "Read the specified paragraphs twice before choosing your answer.",
+                "zh": "選答案前，把指定段落讀兩次。"
+            },
+            {
+                "en": "In exam tasks, specified paragraphs save time if you use them properly.",
+                "zh": "在考試題目中，如果使用得當，指定段落可以節省時間。"
+            }
+        ],
+        "sourcePage": 20
+    },
+    {
+        "front": "deserves praise for",
+        "meaning": "因……值得讚賞",
+        "examples": [
+            {
+                "en": "Christina deserves praise for her admirable act of bravery.",
+                "zh": "Christina 因她令人敬佩的英勇行為值得讚賞。"
+            },
+            {
+                "en": "The team deserves praise for finishing the project early.",
+                "zh": "團隊因提早完成專案值得讚賞。"
+            },
+            {
+                "en": "She deserves praise for admitting her mistake honestly.",
+                "zh": "她因誠實承認錯誤值得讚賞。"
+            },
+            {
+                "en": "The student deserves praise for helping a classmate who was struggling.",
+                "zh": "那位學生因幫助有困難的同學值得讚賞。"
+            },
+            {
+                "en": "He deserves praise for staying calm during a difficult situation.",
+                "zh": "他因在困難情況中保持冷靜值得讚賞。"
+            }
+        ],
+        "sourcePage": 21
+    },
+    {
+        "front": "act of bravery",
+        "meaning": "英勇行為",
+        "examples": [
+            {
+                "en": "Christina performed an admirable act of bravery.",
+                "zh": "Christina 做出了一個令人敬佩的英勇行為。"
+            },
+            {
+                "en": "Running into the burning house was an act of bravery.",
+                "zh": "跑進著火的房子是一種英勇行為。"
+            },
+            {
+                "en": "Speaking up against bullying can be an act of bravery.",
+                "zh": "站出來反對欺凌可以是一種英勇行為。"
+            },
+            {
+                "en": "The firefighter received an award for an act of bravery.",
+                "zh": "那位消防員因英勇行為獲獎。"
+            },
+            {
+                "en": "An act of bravery is not always loud; sometimes it is simply telling the truth.",
+                "zh": "英勇行為不一定轟烈；有時只是說出真相。"
+            }
+        ],
+        "sourcePage": 21
+    },
+    {
+        "front": "keeps his promises",
+        "meaning": "信守承諾",
+        "examples": [
+            {
+                "en": "Jacob always keeps his promises.",
+                "zh": "Jacob 總是信守承諾。"
+            },
+            {
+                "en": "A good friend keeps his promises, even when it is inconvenient.",
+                "zh": "好朋友會信守承諾，即使不方便也一樣。"
+            },
+            {
+                "en": "He keeps his promises, so people trust him.",
+                "zh": "他信守承諾，所以人們信任他。"
+            },
+            {
+                "en": "The coach respects any player who keeps his promises to train hard.",
+                "zh": "教練尊重任何信守努力訓練承諾的球員。"
+            },
+            {
+                "en": "A leader who keeps his promises earns respect slowly and keeps it longer.",
+                "zh": "信守承諾的領袖會慢慢贏得尊重，也能保留更久。"
+            }
+        ],
+        "sourcePage": 21
+    },
+    {
+        "front": "clear understanding of",
+        "meaning": "清楚了解",
+        "examples": [
+            {
+                "en": "A clear understanding of your shortcomings is key to self-improvement.",
+                "zh": "清楚了解自己的缺點是自我提升的關鍵。"
+            },
+            {
+                "en": "Students need a clear understanding of the task before they start writing.",
+                "zh": "學生開始寫作前，需要清楚了解任務。"
+            },
+            {
+                "en": "A clear understanding of the rules helps avoid mistakes.",
+                "zh": "清楚了解規則有助避免錯誤。"
+            },
+            {
+                "en": "Managers need a clear understanding of staff problems before making changes.",
+                "zh": "經理在作出改變前，需要清楚了解員工問題。"
+            },
+            {
+                "en": "A clear understanding of your goals makes daily choices easier.",
+                "zh": "清楚了解自己的目標，會讓每天的選擇更容易。"
+            }
+        ],
+        "sourcePage": 21
+    },
+    {
+        "front": "key to self-improvement",
+        "meaning": "自我提升的關鍵",
+        "examples": [
+            {
+                "en": "Understanding your shortcomings is key to self-improvement.",
+                "zh": "了解自己的缺點是自我提升的關鍵。"
+            },
+            {
+                "en": "Honest feedback is key to self-improvement.",
+                "zh": "誠實回饋是自我提升的關鍵。"
+            },
+            {
+                "en": "Regular practice is key to self-improvement in language learning.",
+                "zh": "規律練習是語言學習中自我提升的關鍵。"
+            },
+            {
+                "en": "Self-reflection is key to self-improvement because it shows what needs work.",
+                "zh": "自我反思是自我提升的關鍵，因為它顯示需要改善甚麼。"
+            },
+            {
+                "en": "Knowing what to change is key to self-improvement; effort needs direction.",
+                "zh": "知道要改變甚麼是自我提升的關鍵；努力需要方向。"
+            }
+        ],
+        "sourcePage": 21
+    },
+    {
+        "front": "reflecting on",
+        "meaning": "反思",
+        "examples": [
+            {
+                "en": "Reflecting on her conversation, Kate realised she had said hurtful words.",
+                "zh": "反思那次對話後，Kate 意識到自己說了傷人的話。"
+            },
+            {
+                "en": "Reflecting on the exam, I realised I had rushed the easy questions.",
+                "zh": "反思那次考試後，我發現自己太急著做簡單題。"
+            },
+            {
+                "en": "Reflecting on his mistake helped him apologise properly.",
+                "zh": "反思自己的錯誤幫助他好好道歉。"
+            },
+            {
+                "en": "After reflecting on the feedback, she rewrote the introduction.",
+                "zh": "反思回饋後，她重寫了引言。"
+            },
+            {
+                "en": "Reflecting on a bad day can stop you from repeating the same mistake tomorrow.",
+                "zh": "反思糟糕的一天，可以防止你明天重複同樣錯誤。"
+            }
+        ],
+        "sourcePage": 21
+    },
+    {
+        "front": "hurtful words",
+        "meaning": "傷人的說話",
+        "examples": [
+            {
+                "en": "Kate realised she had said hurtful words.",
+                "zh": "Kate 意識到自己說了傷人的話。"
+            },
+            {
+                "en": "Hurtful words can stay in someone’s mind for a long time.",
+                "zh": "傷人的說話可以在別人心裡停留很久。"
+            },
+            {
+                "en": "He apologised for the hurtful words he used during the argument.",
+                "zh": "他為爭吵時說出的傷人說話道歉。"
+            },
+            {
+                "en": "Try not to reply with hurtful words when you are angry.",
+                "zh": "生氣時，盡量不要用傷人的說話回應。"
+            },
+            {
+                "en": "Hurtful words are easy to throw and hard to take back.",
+                "zh": "傷人的說話很容易丟出去，卻很難收回。"
+            }
+        ],
+        "sourcePage": 22
+    },
+    {
+        "front": "decided to apologise",
+        "meaning": "決定道歉",
+        "examples": [
+            {
+                "en": "Kate decided to apologise to her mum.",
+                "zh": "Kate 決定向媽媽道歉。"
+            },
+            {
+                "en": "He decided to apologise after realising he had been unfair.",
+                "zh": "他意識到自己不公平後，決定道歉。"
+            },
+            {
+                "en": "She decided to apologise in person, not by text.",
+                "zh": "她決定親自道歉，而不是用短訊。"
+            },
+            {
+                "en": "The company decided to apologise after customers complained.",
+                "zh": "顧客投訴後，公司決定道歉。"
+            },
+            {
+                "en": "I decided to apologise because being right mattered less than repairing the relationship.",
+                "zh": "我決定道歉，因為比起證明自己對，修補關係更重要。"
+            }
+        ],
+        "sourcePage": 22
+    },
+    {
+        "front": "identity theft",
+        "meaning": "身份盜用",
+        "examples": [
+            {
+                "en": "The influencer shared a cautionary tale of identity theft.",
+                "zh": "那位網絡紅人分享了一個身份盜用的警示故事。"
+            },
+            {
+                "en": "Identity theft can happen when personal details are stolen online.",
+                "zh": "當個人資料在網上被偷取時，可能會發生身份盜用。"
+            },
+            {
+                "en": "Use strong passwords to reduce the risk of identity theft.",
+                "zh": "使用強密碼可以降低身份盜用的風險。"
+            },
+            {
+                "en": "The bank warned customers about identity theft scams.",
+                "zh": "銀行提醒顧客注意身份盜用騙案。"
+            },
+            {
+                "en": "Identity theft is not just losing data; it can mean someone using your name like a stolen key.",
+                "zh": "身份盜用不只是遺失資料；它可能代表有人像偷鑰匙一樣使用你的名字。"
+            }
+        ],
+        "sourcePage": 22
+    },
+    {
+        "front": "alerted followers to",
+        "meaning": "提醒追隨者注意",
+        "examples": [
+            {
+                "en": "The cautionary tale alerted followers to similar threats.",
+                "zh": "這個警示故事提醒追隨者注意類似威脅。"
+            },
+            {
+                "en": "The post alerted followers to a fake account using her name.",
+                "zh": "那個帖文提醒粉絲注意一個冒用她名字的假帳號。"
+            },
+            {
+                "en": "The video alerted followers to common online scams.",
+                "zh": "那段影片提醒追隨者注意常見網上騙案。"
+            },
+            {
+                "en": "The teacher alerted students to mistakes often made in the exam.",
+                "zh": "老師提醒學生注意考試中常犯的錯誤。"
+            },
+            {
+                "en": "The warning alerted residents to possible flooding after heavy rain.",
+                "zh": "警告提醒居民注意大雨後可能出現水浸。"
+            }
+        ],
+        "sourcePage": 22
+    },
+    {
+        "front": "similar threats",
+        "meaning": "類似威脅",
+        "examples": [
+            {
+                "en": "The story alerted followers to similar threats.",
+                "zh": "這個故事提醒追隨者注意類似威脅。"
+            },
+            {
+                "en": "Schools warned parents about similar threats online.",
+                "zh": "學校提醒家長注意網上的類似威脅。"
+            },
+            {
+                "en": "The company trained staff to recognise similar threats in emails.",
+                "zh": "公司培訓員工辨認電郵中的類似威脅。"
+            },
+            {
+                "en": "After the scam, customers became more careful about similar threats.",
+                "zh": "騙案發生後，顧客對類似威脅更加小心。"
+            },
+            {
+                "en": "Similar threats can look harmless at first, so details matter.",
+                "zh": "類似威脅一開始可能看起來無害，所以細節很重要。"
+            }
+        ],
+        "sourcePage": 22
+    }
+],
+  "ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q9": [
+    {
+        "front": "be very strict about",
+        "meaning": "對……非常嚴格",
+        "examples": [
+            {
+                "en": "Some schools are very strict about their school uniforms.",
+                "zh": "有些學校對校服非常嚴格。"
+            },
+            {
+                "en": "My teacher is very strict about homework deadlines.",
+                "zh": "我的老師對功課截止日期非常嚴格。"
+            },
+            {
+                "en": "The company is very strict about safety rules in the factory.",
+                "zh": "那家公司對工廠安全規則非常嚴格。"
+            },
+            {
+                "en": "Some parents are very strict about screen time during school nights.",
+                "zh": "有些父母對上學日晚上使用螢幕的時間非常嚴格。"
+            },
+            {
+                "en": "The airline is very strict about hand luggage size.",
+                "zh": "那間航空公司對手提行李尺寸非常嚴格。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "school uniforms",
+        "meaning": "校服",
+        "examples": [
+            {
+                "en": "School uniforms are treated as a basic part of discipline.",
+                "zh": "校服被視為紀律的基本部分。"
+            },
+            {
+                "en": "School uniforms can make mornings easier for parents and children.",
+                "zh": "校服可以讓父母和孩子早上準備得更輕鬆。"
+            },
+            {
+                "en": "Some students like school uniforms because they do not need to choose clothes every day.",
+                "zh": "有些學生喜歡校服，因為不用每天選衣服。"
+            },
+            {
+                "en": "School uniforms can reduce pressure to wear expensive brands.",
+                "zh": "校服可以減少穿昂貴品牌的壓力。"
+            },
+            {
+                "en": "School uniforms work best when they are affordable, comfortable, and practical.",
+                "zh": "校服如果價格合理、舒適又實用，效果最好。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "the appearance of their pupils",
+        "meaning": "學生的儀容",
+        "examples": [
+            {
+                "en": "Some schools are strict about the appearance of their pupils.",
+                "zh": "有些學校對學生的儀容很嚴格。"
+            },
+            {
+                "en": "The headteacher spoke about the appearance of their pupils during assembly.",
+                "zh": "校長在早會上談到學生的儀容。"
+            },
+            {
+                "en": "Schools may set rules about the appearance of their pupils, including hair and shoes.",
+                "zh": "學校可能會就學生的儀容制定規則，包括髮型和鞋子。"
+            },
+            {
+                "en": "Parents sometimes disagree with schools about the appearance of their pupils.",
+                "zh": "家長有時會就學生的儀容與學校意見不同。"
+            },
+            {
+                "en": "The appearance of their pupils should matter less than their safety, learning, and behaviour.",
+                "zh": "比起安全、學習和行為，學生的儀容不應被看得更重要。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "a relaxed dress code",
+        "meaning": "寬鬆的衣着規定",
+        "examples": [
+            {
+                "en": "Other schools have a very relaxed dress code.",
+                "zh": "其他學校有非常寬鬆的衣着規定。"
+            },
+            {
+                "en": "Our office has a relaxed dress code on Fridays.",
+                "zh": "我們公司星期五有寬鬆的衣着規定。"
+            },
+            {
+                "en": "A relaxed dress code can make students feel more comfortable.",
+                "zh": "寬鬆的衣着規定可以讓學生感到更舒服。"
+            },
+            {
+                "en": "The event has a relaxed dress code, so you don’t need a suit.",
+                "zh": "這個活動衣着規定寬鬆，所以你不用穿西裝。"
+            },
+            {
+                "en": "A relaxed dress code still needs clear limits, or confusion walks in wearing trainers.",
+                "zh": "寬鬆的衣着規定仍需要清楚界線，不然混亂會穿著運動鞋走進來。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "be treated as",
+        "meaning": "被視為；被當作",
+        "examples": [
+            {
+                "en": "Uniforms are treated as a basic part of discipline.",
+                "zh": "校服被視為紀律的基本部分。"
+            },
+            {
+                "en": "Attendance is treated as seriously as homework.",
+                "zh": "出席率被視為和功課一樣重要。"
+            },
+            {
+                "en": "The phone should be treated as a tool, not a toy, during lessons.",
+                "zh": "上課時，手機應被當作工具，而不是玩具。"
+            },
+            {
+                "en": "Mistakes should be treated as chances to learn.",
+                "zh": "錯誤應被視為學習的機會。"
+            },
+            {
+                "en": "Students should be treated as young people with opinions, not just rule-followers.",
+                "zh": "學生應被視為有想法的年輕人，而不只是遵守規則的人。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "a basic part of discipline",
+        "meaning": "紀律的基本部分",
+        "examples": [
+            {
+                "en": "Uniforms are treated as a basic part of discipline.",
+                "zh": "校服被視為紀律的基本部分。"
+            },
+            {
+                "en": "Arriving on time is a basic part of discipline.",
+                "zh": "準時到達是紀律的基本部分。"
+            },
+            {
+                "en": "Listening when others speak is a basic part of discipline in class.",
+                "zh": "別人說話時聆聽，是課堂紀律的基本部分。"
+            },
+            {
+                "en": "Keeping your workspace tidy can be a basic part of discipline at work.",
+                "zh": "保持工作空間整潔，可以是工作紀律的基本部分。"
+            },
+            {
+                "en": "For many schools, small daily habits are a basic part of discipline.",
+                "zh": "對許多學校來說，日常小習慣是紀律的基本部分。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "dress with far more freedom",
+        "meaning": "穿着有更大自由",
+        "examples": [
+            {
+                "en": "Some schools allow children to dress with far more freedom.",
+                "zh": "有些學校容許孩子穿着有更大自由。"
+            },
+            {
+                "en": "At university, students usually dress with far more freedom than at school.",
+                "zh": "在大學，學生通常比在中學時穿着有更大自由。"
+            },
+            {
+                "en": "Creative workplaces often let staff dress with far more freedom.",
+                "zh": "創意行業的工作場所常讓員工穿着有更大自由。"
+            },
+            {
+                "en": "Teenagers may feel happier if they can dress with far more freedom.",
+                "zh": "如果可以穿着有更大自由，青少年可能會更開心。"
+            },
+            {
+                "en": "Letting students dress with far more freedom can encourage responsibility, if the rules are clear.",
+                "zh": "如果規則清楚，讓學生穿着有更大自由可以培養責任感。"
+            }
+        ],
+        "sourcePage": 1
+    },
+    {
+        "front": "require pupils to",
+        "meaning": "要求學生去……",
+        "examples": [
+            {
+                "en": "Some schools require pupils to wear a uniform.",
+                "zh": "有些學校要求學生穿校服。"
+            },
+            {
+                "en": "The teacher requires pupils to hand in homework on Monday.",
+                "zh": "老師要求學生星期一交功課。"
+            },
+            {
+                "en": "The school requires pupils to bring their ID cards every day.",
+                "zh": "學校要求學生每天帶學生證。"
+            },
+            {
+                "en": "Science lessons require pupils to wear safety glasses.",
+                "zh": "科學課要求學生戴安全眼鏡。"
+            },
+            {
+                "en": "Some clubs require pupils to attend training twice a week.",
+                "zh": "有些社團要求學生每週參加兩次訓練。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "several clear benefits",
+        "meaning": "幾個明顯好處",
+        "examples": [
+            {
+                "en": "Requiring pupils to wear a uniform has several clear benefits.",
+                "zh": "要求學生穿校服有幾個明顯好處。"
+            },
+            {
+                "en": "Walking to school has several clear benefits for health and mood.",
+                "zh": "走路上學對健康和心情有幾個明顯好處。"
+            },
+            {
+                "en": "A simple timetable has several clear benefits for busy students.",
+                "zh": "簡單時間表對忙碌學生有幾個明顯好處。"
+            },
+            {
+                "en": "The new library system has several clear benefits for teachers.",
+                "zh": "新圖書館系統對老師有幾個明顯好處。"
+            },
+            {
+                "en": "Setting phone rules at home has several clear benefits, especially before bedtime.",
+                "zh": "在家設定手機規則有幾個明顯好處，尤其是睡前。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "in relation to",
+        "meaning": "關於；在……方面",
+        "examples": [
+            {
+                "en": "Uniforms have benefits in relation to equality and school identity.",
+                "zh": "校服在平等和學校身份認同方面有好處。"
+            },
+            {
+                "en": "The report discusses problems in relation to student stress.",
+                "zh": "報告討論了關於學生壓力的問題。"
+            },
+            {
+                "en": "Parents raised questions in relation to school meals.",
+                "zh": "家長提出了關於學校膳食的問題。"
+            },
+            {
+                "en": "The rule is useful in relation to safety, but not comfort.",
+                "zh": "這條規則在安全方面有用，但在舒適方面未必。"
+            },
+            {
+                "en": "In relation to money, uniforms can help some families and pressure others.",
+                "zh": "在金錢方面，校服可以幫助一些家庭，也可能給另一些家庭壓力。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "school identity",
+        "meaning": "學校身份認同",
+        "examples": [
+            {
+                "en": "Uniforms can strengthen school identity.",
+                "zh": "校服可以加強學校身份認同。"
+            },
+            {
+                "en": "The badge on the uniform is part of school identity.",
+                "zh": "校服上的校徽是學校身份認同的一部分。"
+            },
+            {
+                "en": "Sports teams often help build school identity.",
+                "zh": "運動隊常有助建立學校身份認同。"
+            },
+            {
+                "en": "School identity can make students feel proud of where they study.",
+                "zh": "學校身份認同可以讓學生為自己的學校感到自豪。"
+            },
+            {
+                "en": "School identity should come from shared values, not just matching clothes.",
+                "zh": "學校身份認同應來自共同價值，而不只是相同衣服。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "visible social differences",
+        "meaning": "明顯的社會差異",
+        "examples": [
+            {
+                "en": "A uniform reduces visible social differences among children.",
+                "zh": "校服可以減少孩子之間明顯的社會差異。"
+            },
+            {
+                "en": "Expensive shoes can create visible social differences in class.",
+                "zh": "昂貴鞋子可能在班上造成明顯的社會差異。"
+            },
+            {
+                "en": "Uniforms may hide some visible social differences, but not all of them.",
+                "zh": "校服可以隱藏一些明顯的社會差異，但不是全部。"
+            },
+            {
+                "en": "Schools often try to reduce visible social differences between pupils.",
+                "zh": "學校常試圖減少學生之間明顯的社會差異。"
+            },
+            {
+                "en": "Visible social differences can make some children feel left out.",
+                "zh": "明顯的社會差異可能讓一些孩子感到被排除。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "be less likely to",
+        "meaning": "較不可能",
+        "examples": [
+            {
+                "en": "Pupils from poorer families are less likely to feel embarrassed.",
+                "zh": "來自較貧困家庭的學生較不可能感到尷尬。"
+            },
+            {
+                "en": "Students are less likely to be late if the bus service is reliable.",
+                "zh": "如果巴士服務可靠，學生較不可能遲到。"
+            },
+            {
+                "en": "Children are less likely to lose things if everything has a clear label.",
+                "zh": "如果所有東西都有清楚標籤，孩子較不可能遺失物品。"
+            },
+            {
+                "en": "People are less likely to argue when the rules are clear.",
+                "zh": "如果規則清楚，人們較不可能爭吵。"
+            },
+            {
+                "en": "Pupils are less likely to compare clothes if everyone wears the same uniform.",
+                "zh": "如果大家穿同樣校服，學生較不可能比較衣服。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "feel embarrassed by",
+        "meaning": "因……而感到尷尬",
+        "examples": [
+            {
+                "en": "Pupils are less likely to feel embarrassed by cheap clothes.",
+                "zh": "學生較不可能因便宜衣服而感到尷尬。"
+            },
+            {
+                "en": "No student should feel embarrassed by their family’s income.",
+                "zh": "沒有學生應因家庭收入而感到尷尬。"
+            },
+            {
+                "en": "She felt embarrassed by her old shoes on the first day.",
+                "zh": "開學第一天，她因自己的舊鞋而感到尷尬。"
+            },
+            {
+                "en": "Children may feel embarrassed by clothes that look different from everyone else’s.",
+                "zh": "孩子可能因衣服看起來和別人不同而感到尷尬。"
+            },
+            {
+                "en": "A good school culture makes pupils less likely to feel embarrassed by what they wear.",
+                "zh": "良好的學校文化會讓學生較少因穿着而感到尷尬。"
+            }
+        ],
+        "sourcePage": 2
+    },
+    {
+        "front": "unfashionable outfits",
+        "meaning": "不時尚的衣服",
+        "examples": [
+            {
+                "en": "Children may feel embarrassed by cheap or unfashionable outfits.",
+                "zh": "孩子可能因便宜或不時尚的衣服而感到尷尬。"
+            },
+            {
+                "en": "Some teenagers worry about wearing unfashionable outfits to school events.",
+                "zh": "有些青少年擔心在學校活動中穿不時尚的衣服。"
+            },
+            {
+                "en": "Uniforms can reduce pressure to avoid unfashionable outfits.",
+                "zh": "校服可以減少避免穿不時尚衣服的壓力。"
+            },
+            {
+                "en": "What adults call practical clothes, teenagers may call unfashionable outfits.",
+                "zh": "成年人稱為實用衣服的東西，青少年可能會稱為不時尚的衣服。"
+            },
+            {
+                "en": "Nobody should be judged harshly for wearing unfashionable outfits.",
+                "zh": "沒有人應該因穿不時尚的衣服而被嚴厲評價。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "display expensive brands",
+        "meaning": "炫耀昂貴品牌",
+        "examples": [
+            {
+                "en": "Wealthier pupils have fewer chances to display expensive brands.",
+                "zh": "較富裕的學生較少有機會炫耀昂貴品牌。"
+            },
+            {
+                "en": "Some students use bags or trainers to display expensive brands.",
+                "zh": "有些學生會用書包或波鞋炫耀昂貴品牌。"
+            },
+            {
+                "en": "A uniform policy can limit the chance to display expensive brands.",
+                "zh": "校服政策可以限制炫耀昂貴品牌的機會。"
+            },
+            {
+                "en": "Schools should not become places where children display expensive brands like trophies.",
+                "zh": "學校不應變成孩子像展示獎盃一樣炫耀昂貴品牌的地方。"
+            },
+            {
+                "en": "When students display expensive brands, others may feel pressure to keep up.",
+                "zh": "當學生炫耀昂貴品牌時，其他人可能會感到追上的壓力。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "be judged more by",
+        "meaning": "更多按……來評價",
+        "examples": [
+            {
+                "en": "Children are judged more by their behaviour and effort than by what they wear.",
+                "zh": "孩子更多按行為和努力來評價，而不是按穿着。"
+            },
+            {
+                "en": "Students should be judged more by their progress than by one exam score.",
+                "zh": "學生應更多按進步來評價，而不是一次考試分數。"
+            },
+            {
+                "en": "A leader should be judged more by actions than by speeches.",
+                "zh": "領袖應更多按行動來評價，而不是按演說。"
+            },
+            {
+                "en": "Employees should be judged more by the quality of their work than by office politics.",
+                "zh": "員工應更多按工作質素來評價，而不是按辦公室政治。"
+            },
+            {
+                "en": "In a fair classroom, pupils are judged more by effort than by family background.",
+                "zh": "在公平課室裡，學生更多按努力來評價，而不是按家庭背景。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "strengthen a sense of belonging",
+        "meaning": "加強歸屬感",
+        "examples": [
+            {
+                "en": "Uniforms can strengthen a sense of belonging.",
+                "zh": "校服可以加強歸屬感。"
+            },
+            {
+                "en": "School trips can strengthen a sense of belonging among classmates.",
+                "zh": "學校旅行可以加強同學之間的歸屬感。"
+            },
+            {
+                "en": "Team shirts can strengthen a sense of belonging during competitions.",
+                "zh": "隊服可以在比賽期間加強歸屬感。"
+            },
+            {
+                "en": "A shared morning routine can strengthen a sense of belonging in a school.",
+                "zh": "共同的早晨常規可以加強學校的歸屬感。"
+            },
+            {
+                "en": "Small traditions can strengthen a sense of belonging without costing much.",
+                "zh": "小傳統可以加強歸屬感，而且不需要花很多錢。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "put on",
+        "meaning": "穿上",
+        "examples": [
+            {
+                "en": "A child puts on the same colours and badge as their classmates.",
+                "zh": "孩子穿上和同學相同顏色、相同徽章的衣服。"
+            },
+            {
+                "en": "Please put on your jacket before you go outside.",
+                "zh": "出門前請穿上外套。"
+            },
+            {
+                "en": "Students must put on safety glasses in the lab.",
+                "zh": "學生在實驗室必須戴上安全眼鏡。"
+            },
+            {
+                "en": "He put on his uniform and looked ready for the first day.",
+                "zh": "他穿上校服，看起來準備好迎接第一天。"
+            },
+            {
+                "en": "When children put on the same team shirt, they often feel part of something shared.",
+                "zh": "當孩子穿上同一件隊服時，常會覺得自己屬於某個共同群體。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "a shared community",
+        "meaning": "共同群體",
+        "examples": [
+            {
+                "en": "Children may feel that they are part of a shared community.",
+                "zh": "孩子可能會覺得自己是共同群體的一部分。"
+            },
+            {
+                "en": "A school can become a shared community when students support one another.",
+                "zh": "當學生互相支持時，學校可以成為共同群體。"
+            },
+            {
+                "en": "Clubs help pupils feel part of a shared community.",
+                "zh": "社團幫助學生感到自己屬於共同群體。"
+            },
+            {
+                "en": "A shared community is built through small habits, not just school slogans.",
+                "zh": "共同群體是透過小習慣建立的，而不只是靠學校口號。"
+            },
+            {
+                "en": "Wearing the same badge can remind students that they belong to a shared community.",
+                "zh": "穿戴相同校徽可以提醒學生，他們屬於一個共同群體。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "represent something larger than themselves",
+        "meaning": "代表比自己更大的整體",
+        "examples": [
+            {
+                "en": "A sports team represents something larger than themselves.",
+                "zh": "一支運動隊代表比自己更大的整體。"
+            },
+            {
+                "en": "Students in uniform may feel they represent something larger than themselves.",
+                "zh": "穿校服的學生可能會覺得自己代表比自己更大的整體。"
+            },
+            {
+                "en": "Volunteers often represent something larger than themselves when they serve the community.",
+                "zh": "義工服務社區時，常代表比自己更大的整體。"
+            },
+            {
+                "en": "A school choir represents something larger than themselves during a public performance.",
+                "zh": "學校合唱團公開演出時，代表比自己更大的整體。"
+            },
+            {
+                "en": "Wearing a team badge can remind players that they represent something larger than themselves.",
+                "zh": "戴上隊徽可以提醒球員，他們代表比自己更大的整體。"
+            }
+        ],
+        "sourcePage": 3
+    },
+    {
+        "front": "limit individuality",
+        "meaning": "限制個性",
+        "examples": [
+            {
+                "en": "School uniforms can limit individuality.",
+                "zh": "校服可能限制個性。"
+            },
+            {
+                "en": "Very strict dress rules may limit individuality among students.",
+                "zh": "非常嚴格的衣着規定可能限制學生個性。"
+            },
+            {
+                "en": "Some teenagers dislike uniforms because they limit individuality.",
+                "zh": "有些青少年不喜歡校服，因為校服限制個性。"
+            },
+            {
+                "en": "A uniform can create equality, but it may also limit individuality.",
+                "zh": "校服可以創造平等，但也可能限制個性。"
+            },
+            {
+                "en": "Schools should ask whether a rule protects pupils or simply limits individuality.",
+                "zh": "學校應該思考，一條規則是在保護學生，還是只是限制個性。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "use clothing to explore",
+        "meaning": "用衣着去探索……",
+        "examples": [
+            {
+                "en": "Teenagers often use clothing to explore their personality.",
+                "zh": "青少年常用衣着去探索自己的個性。"
+            },
+            {
+                "en": "Young people may use clothing to explore who they want to become.",
+                "zh": "年輕人可能用衣着去探索自己想成為怎樣的人。"
+            },
+            {
+                "en": "Some students use clothing to explore confidence and identity.",
+                "zh": "有些學生用衣着去探索自信和身份認同。"
+            },
+            {
+                "en": "Artists often use clothing to explore colour, culture, and mood.",
+                "zh": "藝術家常用衣着去探索色彩、文化和情緒。"
+            },
+            {
+                "en": "Teenagers use clothing to explore themselves because clothes are visible, personal, and easy to change.",
+                "zh": "青少年用衣着去探索自己，因為衣服看得見、很個人，也容易改變。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "personality, confidence, and taste",
+        "meaning": "個性、自信和品味",
+        "examples": [
+            {
+                "en": "Teenagers use clothing to explore their personality, confidence, and taste.",
+                "zh": "青少年用衣着去探索自己的個性、自信和品味。"
+            },
+            {
+                "en": "Personal style can show personality, confidence, and taste.",
+                "zh": "個人風格可以展現個性、自信和品味。"
+            },
+            {
+                "en": "Clothes often help teenagers express personality, confidence, and taste.",
+                "zh": "衣服常幫助青少年表達個性、自信和品味。"
+            },
+            {
+                "en": "School rules should leave some room for personality, confidence, and taste.",
+                "zh": "學校規則應留一些空間給個性、自信和品味。"
+            },
+            {
+                "en": "A simple outfit can still show personality, confidence, and taste.",
+                "zh": "簡單穿搭仍然可以展現個性、自信和品味。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "tightly controlled",
+        "meaning": "受到嚴格控制",
+        "examples": [
+            {
+                "en": "If every detail is tightly controlled, school may feel rigid.",
+                "zh": "如果每個細節都受到嚴格控制，學校可能會感覺僵化。"
+            },
+            {
+                "en": "The use of phones is tightly controlled during exams.",
+                "zh": "考試期間，手機使用受到嚴格控制。"
+            },
+            {
+                "en": "In some schools, hair, shoes, and jewellery are tightly controlled.",
+                "zh": "在有些學校，髮型、鞋子和首飾都受到嚴格控制。"
+            },
+            {
+                "en": "A classroom can feel tense when every small choice is tightly controlled.",
+                "zh": "當每個小選擇都受到嚴格控制時，課室可能會變得緊張。"
+            },
+            {
+                "en": "Rules should be clear, but not so tightly controlled that students stop thinking for themselves.",
+                "zh": "規則應該清楚，但不應嚴格控制到學生停止自己思考。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "unnecessarily rigid",
+        "meaning": "不必要地僵化",
+        "examples": [
+            {
+                "en": "School may start to feel unnecessarily rigid.",
+                "zh": "學校可能開始讓人感到不必要地僵化。"
+            },
+            {
+                "en": "The policy feels unnecessarily rigid for older students.",
+                "zh": "對年紀較大的學生來說，這項政策感覺不必要地僵化。"
+            },
+            {
+                "en": "A dress code can become unnecessarily rigid if it bans harmless choices.",
+                "zh": "如果衣着規定禁止無害選擇，就可能變得不必要地僵化。"
+            },
+            {
+                "en": "The timetable is unnecessarily rigid and leaves no time for discussion.",
+                "zh": "時間表不必要地僵化，沒有留下討論時間。"
+            },
+            {
+                "en": "Rules become unnecessarily rigid when they solve no real problem.",
+                "zh": "當規則沒有解決真正問題時，就會變得不必要地僵化。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "minor choices",
+        "meaning": "小選擇；細節上的選擇",
+        "examples": [
+            {
+                "en": "Minor choices such as hairstyles and shoes can become sources of conflict.",
+                "zh": "髮型和鞋子等小選擇可能成為衝突來源。"
+            },
+            {
+                "en": "Minor choices about socks or hairbands should not waste lesson time.",
+                "zh": "關於襪子或髮帶的小選擇，不應浪費上課時間。"
+            },
+            {
+                "en": "Students like having minor choices within a uniform policy.",
+                "zh": "學生喜歡在校服政策內仍有一些小選擇。"
+            },
+            {
+                "en": "Minor choices can help teenagers feel they still have some control.",
+                "zh": "小選擇可以幫助青少年感到自己仍有一點掌控感。"
+            },
+            {
+                "en": "If schools fight over every minor choice, the main purpose of learning gets pushed aside.",
+                "zh": "如果學校為每個小選擇爭執，學習的主要目的就會被推到一旁。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "sources of conflict",
+        "meaning": "衝突來源",
+        "examples": [
+            {
+                "en": "Hairstyles and accessories can become sources of conflict.",
+                "zh": "髮型和配飾可能成為衝突來源。"
+            },
+            {
+                "en": "Homework deadlines can become sources of conflict between students and teachers.",
+                "zh": "功課截止日期可能成為學生和老師之間的衝突來源。"
+            },
+            {
+                "en": "Uniform rules may become sources of conflict if they are unclear.",
+                "zh": "如果校服規則不清楚，可能會成為衝突來源。"
+            },
+            {
+                "en": "Money and screen time are common sources of conflict at home.",
+                "zh": "金錢和螢幕時間是家中常見的衝突來源。"
+            },
+            {
+                "en": "Small rules can become sources of conflict when nobody explains the reason behind them.",
+                "zh": "如果沒有人解釋背後原因，小規則也可能成為衝突來源。"
+            }
+        ],
+        "sourcePage": 4
+    },
+    {
+        "front": "simplify clothing",
+        "meaning": "簡化穿衣安排",
+        "examples": [
+            {
+                "en": "Uniforms are meant to simplify clothing.",
+                "zh": "校服本來是為了簡化穿衣安排。"
+            },
+            {
+                "en": "A basic dress code can simplify clothing choices in the morning.",
+                "zh": "基本衣着規定可以簡化早上的穿衣選擇。"
+            },
+            {
+                "en": "Parents like uniforms because they simplify clothing for school days.",
+                "zh": "家長喜歡校服，因為它們簡化上學日的穿衣安排。"
+            },
+            {
+                "en": "The policy was designed to simplify clothing, not to create new arguments.",
+                "zh": "這項政策原本是為了簡化穿衣安排，而不是製造新爭論。"
+            },
+            {
+                "en": "Uniforms can simplify clothing, but only if they are easy to buy and wash.",
+                "zh": "校服可以簡化穿衣安排，但前提是容易購買和清洗。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "surprisingly expensive",
+        "meaning": "出乎意料地昂貴",
+        "examples": [
+            {
+                "en": "Uniforms can be surprisingly expensive.",
+                "zh": "校服可能出乎意料地昂貴。"
+            },
+            {
+                "en": "School shoes are surprisingly expensive if they need to be replaced twice a year.",
+                "zh": "如果一年要換兩次，校鞋會出乎意料地昂貴。"
+            },
+            {
+                "en": "A simple sports kit can be surprisingly expensive.",
+                "zh": "一套簡單運動服也可能出乎意料地昂貴。"
+            },
+            {
+                "en": "The trip looked cheap at first, but the extra fees were surprisingly expensive.",
+                "zh": "那趟旅行一開始看起來便宜，但額外收費出乎意料地昂貴。"
+            },
+            {
+                "en": "Children’s clothes can be surprisingly expensive because they grow out of them so quickly.",
+                "zh": "童裝可能出乎意料地昂貴，因為孩子很快就穿不下。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "specific jackets",
+        "meaning": "指定外套",
+        "examples": [
+            {
+                "en": "Some schools require specific jackets from selected suppliers.",
+                "zh": "有些學校要求學生從指定供應商購買指定外套。"
+            },
+            {
+                "en": "The team must wear specific jackets during official events.",
+                "zh": "隊伍在正式活動中必須穿指定外套。"
+            },
+            {
+                "en": "Parents complained that the specific jackets were too expensive.",
+                "zh": "家長投訴指定外套太昂貴。"
+            },
+            {
+                "en": "If schools require specific jackets, they should offer affordable options.",
+                "zh": "如果學校要求指定外套，就應提供負擔得起的選擇。"
+            },
+            {
+                "en": "Specific jackets can make pupils look smart, but they can also stretch family budgets.",
+                "zh": "指定外套可以讓學生看起來整齊，但也可能拉緊家庭預算。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "selected suppliers",
+        "meaning": "指定供應商",
+        "examples": [
+            {
+                "en": "Schools may require items from selected suppliers.",
+                "zh": "學校可能要求用品來自指定供應商。"
+            },
+            {
+                "en": "Parents can only buy the blazer from selected suppliers.",
+                "zh": "家長只能從指定供應商購買西裝外套。"
+            },
+            {
+                "en": "Selected suppliers should keep prices fair and stock available.",
+                "zh": "指定供應商應保持價格合理和有足夠存貨。"
+            },
+            {
+                "en": "If there are too few selected suppliers, families may have fewer choices.",
+                "zh": "如果指定供應商太少，家庭可能會有較少選擇。"
+            },
+            {
+                "en": "Schools should review selected suppliers regularly to avoid unfair costs.",
+                "zh": "學校應定期檢視指定供應商，以避免不公平成本。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "seasonal items",
+        "meaning": "季節性用品",
+        "examples": [
+            {
+                "en": "Schools may require jackets, sportswear, or seasonal items.",
+                "zh": "學校可能要求外套、運動服或季節性用品。"
+            },
+            {
+                "en": "Winter coats and summer hats are common seasonal items.",
+                "zh": "冬季外套和夏季帽子是常見季節性用品。"
+            },
+            {
+                "en": "Seasonal items can add to the cost of a school uniform.",
+                "zh": "季節性用品可能增加校服成本。"
+            },
+            {
+                "en": "Parents need clear notice before buying seasonal items.",
+                "zh": "家長在購買季節性用品前需要清楚通知。"
+            },
+            {
+                "en": "Seasonal items should be practical, not just another way to charge families.",
+                "zh": "季節性用品應該實用，而不是另一種向家庭收費的方式。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "place a real strain on",
+        "meaning": "對……造成真正壓力",
+        "examples": [
+            {
+                "en": "Uniform costs can place a real strain on the household budget.",
+                "zh": "校服費用可能對家庭預算造成真正壓力。"
+            },
+            {
+                "en": "High rent can place a real strain on young workers.",
+                "zh": "高租金可能對年輕上班族造成真正壓力。"
+            },
+            {
+                "en": "Extra school fees can place a real strain on families.",
+                "zh": "額外學校費用可能對家庭造成真正壓力。"
+            },
+            {
+                "en": "Caring for an elderly parent can place a real strain on time and money.",
+                "zh": "照顧年長父母可能對時間和金錢造成真正壓力。"
+            },
+            {
+                "en": "Buying several new uniforms at once can place a real strain on parents.",
+                "zh": "一次過購買幾套新校服可能對父母造成真正壓力。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "household budget",
+        "meaning": "家庭預算",
+        "examples": [
+            {
+                "en": "Uniform costs can strain the household budget.",
+                "zh": "校服費用可能令家庭預算受壓。"
+            },
+            {
+                "en": "Food prices are putting pressure on the household budget.",
+                "zh": "食物價格正在給家庭預算帶來壓力。"
+            },
+            {
+                "en": "A clear household budget helps families plan for school costs.",
+                "zh": "清楚的家庭預算有助家庭規劃學校開支。"
+            },
+            {
+                "en": "Unexpected repairs can damage the household budget quickly.",
+                "zh": "意外維修費可能很快破壞家庭預算。"
+            },
+            {
+                "en": "If uniform prices rise every year, the household budget feels it first.",
+                "zh": "如果校服價格每年上升，家庭預算會最先感受到壓力。"
+            }
+        ],
+        "sourcePage": 5
+    },
+    {
+        "front": "promote equality",
+        "meaning": "促進平等",
+        "examples": [
+            {
+                "en": "School uniforms can promote equality.",
+                "zh": "校服可以促進平等。"
+            },
+            {
+                "en": "Free school meals can promote equality among pupils.",
+                "zh": "免費學校膳食可以促進學生之間的平等。"
+            },
+            {
+                "en": "A fair uniform policy should promote equality, not create extra costs.",
+                "zh": "公平的校服政策應促進平等，而不是製造額外成本。"
+            },
+            {
+                "en": "Public libraries promote equality by giving everyone access to books.",
+                "zh": "公共圖書館讓所有人都能接觸書本，從而促進平等。"
+            },
+            {
+                "en": "Rules promote equality when they help students feel included.",
+                "zh": "當規則幫助學生感到被接納時，它們就能促進平等。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "restrict personal expression",
+        "meaning": "限制個人表達",
+        "examples": [
+            {
+                "en": "Uniforms may restrict personal expression.",
+                "zh": "校服可能限制個人表達。"
+            },
+            {
+                "en": "Very strict hair rules can restrict personal expression.",
+                "zh": "非常嚴格的髮型規則可能限制個人表達。"
+            },
+            {
+                "en": "Some students feel that uniforms restrict personal expression too much.",
+                "zh": "有些學生覺得校服過度限制個人表達。"
+            },
+            {
+                "en": "A dress code should not restrict personal expression without a good reason.",
+                "zh": "衣着規定不應在沒有好理由下限制個人表達。"
+            },
+            {
+                "en": "Schools can allow small choices so uniforms do not completely restrict personal expression.",
+                "zh": "學校可以允許小選擇，讓校服不會完全限制個人表達。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "create financial pressure",
+        "meaning": "造成經濟壓力",
+        "examples": [
+            {
+                "en": "Uniforms may create financial pressure for families.",
+                "zh": "校服可能給家庭造成經濟壓力。"
+            },
+            {
+                "en": "Extra school trips can create financial pressure for parents.",
+                "zh": "額外學校旅行可能給家長造成經濟壓力。"
+            },
+            {
+                "en": "Buying branded items can create financial pressure for low-income families.",
+                "zh": "購買品牌用品可能給低收入家庭造成經濟壓力。"
+            },
+            {
+                "en": "A sudden change in uniform policy may create financial pressure.",
+                "zh": "校服政策突然改變可能造成經濟壓力。"
+            },
+            {
+                "en": "Schools should avoid rules that create financial pressure without clear benefits.",
+                "zh": "學校應避免沒有明顯好處卻造成經濟壓力的規則。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "clear social benefits",
+        "meaning": "明顯的社會好處",
+        "examples": [
+            {
+                "en": "Uniforms bring clear social benefits.",
+                "zh": "校服帶來明顯的社會好處。"
+            },
+            {
+                "en": "A shared school uniform can have clear social benefits.",
+                "zh": "共同校服可以有明顯的社會好處。"
+            },
+            {
+                "en": "Reducing brand competition among pupils is one of the clear social benefits.",
+                "zh": "減少學生之間的品牌競爭，是明顯的社會好處之一。"
+            },
+            {
+                "en": "Clear social benefits should be balanced against personal freedom.",
+                "zh": "明顯的社會好處應與個人自由取得平衡。"
+            },
+            {
+                "en": "Uniforms have clear social benefits when they make pupils feel included and equal.",
+                "zh": "當校服讓學生感到被接納和平等時，就有明顯的社會好處。"
+            }
+        ],
+        "sourcePage": 6
+    },
+    {
+        "front": "practical and personal drawbacks",
+        "meaning": "實際及個人方面的缺點",
+        "examples": [
+            {
+                "en": "Uniforms also create practical and personal drawbacks.",
+                "zh": "校服也帶來實際及個人方面的缺點。"
+            },
+            {
+                "en": "The policy has practical and personal drawbacks for some families.",
+                "zh": "這項政策對一些家庭有實際及個人方面的缺點。"
+            },
+            {
+                "en": "Expensive items and limited self-expression are practical and personal drawbacks.",
+                "zh": "昂貴用品和有限的自我表達，是實際及個人方面的缺點。"
+            },
+            {
+                "en": "Any uniform policy should consider both social benefits and practical and personal drawbacks.",
+                "zh": "任何校服政策都應考慮社會好處，以及實際及個人方面的缺點。"
+            },
+            {
+                "en": "A rule may look simple on paper, but still create practical and personal drawbacks in real life.",
+                "zh": "一條規則在紙面上可能看似簡單，但在現實中仍會帶來實際及個人方面的缺點。"
+            }
+        ],
+        "sourcePage": 6
+    }
 ]
 };
   </script>
@@ -19848,11 +24521,11 @@ window.EDMUND_FLASHCARD_SEED = {
       { key: "sat", label: "SAT", group: "scope", kind: "deck", target: "sat/general" },
       { key: "cre", label: "CRE", group: "scope", kind: "deck", target: "cre/general" },
       { key: "ap-english", label: "AP English 考試", labelLines: ["AP English", "考試"], group: "scope", kind: "deck", target: "ap-english/general" },
-      { key: "ib", label: "國際學校 IB 課程", labelLines: ["國際學校", "IB 課程"], group: "scope", kind: "deck", target: "ib/general" },
+      { key: "ib", label: "IB 課程 國際學校", labelLines: ["IB 課程", "國際學校"], group: "scope", kind: "deck", target: "ib/general" },
       { key: "cambridge", label: "Cambridge IGCSE", labelLines: ["Cambridge", "IGCSE"], group: "scope", kind: "deck", target: "cambridge/general" },
       { key: "pte", label: "Pearson Test of English (PTE)", labelLines: ["PTE", "Pearson Test of English"], group: "scope", kind: "deck", target: "pte/general" },
-      { key: "government", label: "Government", group: "scope", kind: "route", target: "government-home" },
-      { key: "custom-setup", label: "客製 Setup", group: "scope", kind: "deck", target: "custom-setup/general", tone: "emerald" },
+      { key: "government", label: "政府機構", group: "scope", kind: "route", target: "government-home" },
+      { key: "custom-setup", label: "客製 Setup", group: "scope", kind: "route", target: "custom-setup-home", tone: "emerald" },
       { key: "daily-english", label: "日常英語", group: "resource", kind: "deck", target: "daily-english/general" },
       { key: "pop-songs", label: "英文流行曲", group: "resource", kind: "deck", target: "pop-songs/general" },
       { key: "news-analysis", label: "新聞分析", group: "resource", kind: "deck", target: "news-analysis/general" },
@@ -20749,7 +25422,6 @@ window.EDMUND_FLASHCARD_SEED = {
         <circle cx="${lastX}" cy="${yFor(lastPoint.red).toFixed(2)}" r="5" fill="#dc2626" />
         ${axisLabels}
         <text x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">卡片數量</text>
-        <text x="${width - right}" y="${height - 18}" text-anchor="end" fill="#0e2d55" font-size="13" font-weight="900">日期</text>
         ${emptyMessage}
       `;
     }
@@ -20773,6 +25445,8 @@ window.EDMUND_FLASHCARD_SEED = {
     function renderDashboard() {
       const label = document.querySelector("[data-user-label]");
       if (label) label.textContent = `${currentUser?.name || "Student"} | ${isAdmin() ? "Admin mode" : "Student mode"}`;
+      const welcome = document.querySelector("[data-welcome-message]");
+      if (welcome) welcome.innerHTML = `Welcome back! <span>${escapeHtml(currentUser?.name || "Student")}</span>~`;
 
       const examGrid = document.querySelector("[data-exam-grid]");
       const resourceGrid = document.querySelector("[data-resource-grid]");
@@ -21249,9 +25923,23 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function showGovernment() {
       showOptions(
-        "Government",
+        "政府機構",
         "選擇政府部門分類。",
-        () => columnHtml("Government", governmentTypes, "government", { useSlugs: true }),
+        () => columnHtml("政府機構", governmentTypes, "government", { useSlugs: true }),
+        "columns-grid one"
+      );
+    }
+
+    function showCustomSetup() {
+      showOptions(
+        "客製 Setup",
+        "選擇你的專屬卡組。",
+        () => `
+          <div class="option-column">
+            <h3>Jayden</h3>
+            ${optionButton("Sprint - Text 1", "custom-setup/sprint-text-1", "Sprint - Text 1")}
+          </div>
+        `,
         "columns-grid one"
       );
     }
@@ -21267,9 +25955,9 @@ window.EDMUND_FLASHCARD_SEED = {
         sat: "SAT",
         cre: "CRE",
         "ap-english": "AP English 考試",
-        ib: "國際學校 IB 課程",
+        ib: "IB 課程 國際學校",
         cambridge: "Cambridge IGCSE",
-        government: "Government",
+        government: "政府機構",
         "custom-setup": "客製 Setup",
         listening: "Listening",
         reading: "Reading",
@@ -21303,7 +25991,8 @@ window.EDMUND_FLASHCARD_SEED = {
         hkpf: "HKPF",
         csd: "CSD",
         "c-and-ed": "C&ED",
-        immd: "ImmD"
+        immd: "ImmD",
+        "sprint-text-1": "Sprint - Text 1"
       };
       if (known[lower]) return known[lower];
       if (/^part-\d+$/.test(lower)) return `Part ${lower.split("-")[1]}`;
@@ -22104,6 +26793,7 @@ window.EDMUND_FLASHCARD_SEED = {
           }
           if (route === "synonyms-home") showSynonyms();
           if (route === "government-home") showGovernment();
+          if (route === "custom-setup-home") showCustomSetup();
           return;
         }
 
