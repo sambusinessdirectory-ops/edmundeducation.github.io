@@ -26,6 +26,8 @@
       --locked: #263142;
       --green: #16a34a;
       --red: #dc2626;
+      --orange: #f97316;
+      --orange-dark: #c2410c;
       --shadow: rgba(17,43,85,0.14);
     }
 
@@ -566,18 +568,41 @@
     }
 
     .tile.emerald-tile:not(.locked) {
-      background: #059669;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #10b981 0%, #059669 58%, #047857 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.22),
+        inset 0 2px 0 rgba(255,255,255,0.28),
+        inset 0 -10px 18px rgba(4,120,87,0.14),
         0 8px 0 #047857,
         0 20px 30px rgba(5,150,105,0.20);
     }
 
     .tile.emerald-tile:not(.locked):hover {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.25),
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(4,120,87,0.14),
         0 10px 0 #047857,
         0 26px 36px rgba(5,150,105,0.24);
+    }
+
+    .tile.orange-tile:not(.locked) {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.08) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #fb923c 0%, #f97316 58%, #ea580c 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(194,65,12,0.16),
+        0 8px 0 #c2410c,
+        0 20px 30px rgba(249,115,22,0.20);
+    }
+
+    .tile.orange-tile:not(.locked):hover {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.32),
+        inset 0 -10px 18px rgba(194,65,12,0.16),
+        0 10px 0 #c2410c,
+        0 26px 36px rgba(249,115,22,0.24);
     }
 
     .progress-section {
@@ -697,6 +722,71 @@
       font-size: 13px;
       line-height: 1.25;
       font-weight: 900;
+    }
+
+    button.progress-stat {
+      width: 100%;
+      border: 1px solid rgba(47,128,237,0.14);
+      text-align: left;
+      font: inherit;
+      cursor: none;
+    }
+
+    .progress-stat.actionable {
+      transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .progress-stat.actionable:hover,
+    .progress-stat.actionable.active {
+      transform: translateY(-2px);
+      border-color: rgba(220,38,38,0.24);
+      box-shadow: 0 18px 32px rgba(220,38,38,0.12);
+    }
+
+    .red-dashboard-panel {
+      display: grid;
+      gap: 14px;
+      margin-top: 16px;
+      padding: 16px;
+      border: 1px solid rgba(220,38,38,0.18);
+      border-radius: 20px;
+      background: rgba(254,242,242,0.78);
+    }
+
+    .red-dashboard-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .red-card-list {
+      display: grid;
+      gap: 10px;
+      max-height: 360px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .red-card-row {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1fr) minmax(160px, 0.7fr);
+      gap: 12px;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.88);
+      border: 1px solid rgba(220,38,38,0.12);
+      color: #172033;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .red-card-row span:nth-child(2),
+    .red-card-row span:nth-child(3) {
+      color: #627085;
     }
 
     .high-attempt-section {
@@ -826,16 +916,19 @@
     .mode-card {
       border: 0;
       border-radius: 18px;
-      background: #2f80ed;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #3f91f7 0%, #2f80ed 55%, #2472d8 100%);
       color: #fff;
       font: inherit;
       font-weight: 900;
       text-align: left;
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.22),
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(21,89,168,0.13),
         0 8px 0 #1559a8,
         0 20px 30px rgba(47,128,237,0.18);
-      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, opacity 0.16s ease;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, opacity 0.16s ease, filter 0.16s ease;
     }
 
     .tile {
@@ -873,9 +966,12 @@
     .tile.completed,
     .thin-option.completed,
     .option-row.completed .thin-option {
-      background: #059669;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.32) 0%, rgba(255,255,255,0.08) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #22c55e 0%, #16a34a 55%, #15803d 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.22),
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(21,128,61,0.13),
         0 8px 0 #047857,
         0 20px 30px rgba(5,150,105,0.20);
     }
@@ -1020,23 +1116,39 @@
     }
 
     .mode-card.range-card {
-      background: #059669;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #10b981 0%, #059669 58%, #047857 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.22),
+        inset 0 2px 0 rgba(255,255,255,0.26),
+        inset 0 -10px 18px rgba(4,120,87,0.14),
         0 8px 0 #047857,
         0 20px 30px rgba(5,150,105,0.20);
     }
 
+    .mode-card.range-card.range-completed {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.36) 0%, rgba(255,255,255,0.10) 38%, rgba(255,255,255,0) 39%),
+        linear-gradient(180deg, #34d399 0%, #10b981 52%, #059669 100%);
+      filter: saturate(1.18) brightness(1.05);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.34),
+        inset 0 -10px 18px rgba(4,120,87,0.10),
+        0 8px 0 #047857,
+        0 20px 34px rgba(16,185,129,0.24);
+    }
+
     .mode-card.range-card:hover {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.25),
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(4,120,87,0.14),
         0 10px 0 #047857,
         0 26px 36px rgba(5,150,105,0.24);
     }
 
     .study-top {
       display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-columns: repeat(5, minmax(0, 1fr));
       gap: 12px;
       margin-bottom: 18px;
     }
@@ -1114,6 +1226,22 @@
       box-shadow: 0 14px 26px rgba(220,38,38,0.14);
     }
 
+    .stat-pill.sound-trigger {
+      text-align: center;
+      color: #1559a8;
+      transition: transform 0.16s ease, background 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .stat-pill.sound-trigger:hover:not(:disabled) {
+      transform: translateY(-2px);
+      background: #eff6ff;
+      box-shadow: 0 14px 26px rgba(47,128,237,0.14);
+    }
+
+    .stat-pill.sound-trigger:disabled {
+      opacity: 0.45;
+    }
+
     .review-panel {
       display: grid;
       gap: 14px;
@@ -1175,7 +1303,7 @@
 
     .study-layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 148px;
+      grid-template-columns: minmax(0, 1fr) 230px;
       gap: 18px;
       align-items: start;
     }
@@ -1288,8 +1416,59 @@
     .action-rail {
       display: grid;
       gap: 18px;
-      justify-items: center;
+      justify-items: start;
       padding-top: 12px;
+    }
+
+    .action-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .mouse-click-icon {
+      position: relative;
+      width: 54px;
+      height: 78px;
+      border-radius: 26px 26px 30px 30px;
+      background: #3f3f3f;
+      box-shadow: inset 0 0 0 3px rgba(255,255,255,0.95), 0 10px 22px rgba(17,43,85,0.12);
+      overflow: hidden;
+      flex: 0 0 auto;
+    }
+
+    .mouse-click-icon::before {
+      content: "";
+      position: absolute;
+      top: 4px;
+      width: 22px;
+      height: 30px;
+      background: var(--red);
+    }
+
+    .mouse-click-icon.left::before {
+      left: 4px;
+      background: var(--green);
+      border-radius: 22px 4px 7px 4px;
+    }
+
+    .mouse-click-icon.right::before {
+      right: 4px;
+      background: var(--red);
+      border-radius: 4px 22px 4px 7px;
+    }
+
+    .mouse-click-icon::after {
+      content: "";
+      position: absolute;
+      top: 4px;
+      left: 50%;
+      width: 7px;
+      height: 36px;
+      border-radius: 999px;
+      background: #fff;
+      transform: translateX(-50%);
+      box-shadow: 0 0 0 2px #3f3f3f inset;
     }
 
     .round-button {
@@ -1351,8 +1530,9 @@
       }
 
       .action-rail {
-        grid-template-columns: repeat(2, 104px);
+        grid-template-columns: repeat(2, minmax(0, auto));
         justify-content: center;
+        justify-items: center;
       }
     }
 
@@ -1404,7 +1584,8 @@
       .progress-stat-grid,
       .high-attempt-list,
       .custom-deck-form,
-      .custom-deck-row {
+      .custom-deck-row,
+      .red-card-row {
         grid-template-columns: 1fr;
       }
 
@@ -1553,7 +1734,17 @@
             <div class="progress-stat-grid">
               <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span></div>
               <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span></div>
-              <div class="progress-stat"><strong data-progress-stat-red>0</strong><span>紅叉總數（全部時間）</span></div>
+              <button class="progress-stat actionable" type="button" data-red-dashboard-toggle><strong data-progress-stat-red>0</strong><span>目前紅叉總數</span></button>
+            </div>
+            <div class="red-dashboard-panel hidden" data-red-dashboard-panel>
+              <div class="red-dashboard-head">
+                <div>
+                  <h3>目前紅叉卡片</h3>
+                  <p class="note-text">所有仍然未解決的紅叉卡片都會集中在這裡。</p>
+                </div>
+                <button class="primary-button" type="button" data-start-red-review>重溫紅叉卡片</button>
+              </div>
+              <div class="red-card-list" data-red-dashboard-list></div>
             </div>
             <div class="high-attempt-section" data-high-attempt-section>
               <h3>高嘗試卡片</h3>
@@ -1694,6 +1885,7 @@
             <div class="stat-pill" data-round-count>Round 1</div>
             <button class="stat-pill review-trigger green-review" type="button" data-review-status="green" data-green-count>Green: 0</button>
             <button class="stat-pill review-trigger red-review" type="button" data-review-status="red" data-red-count>Red: 0</button>
+            <button class="stat-pill sound-trigger" type="button" data-speak-card>播放讀音</button>
           </div>
 
           <div class="review-panel hidden" data-review-panel>
@@ -1739,8 +1931,14 @@
             </div>
 
             <div class="action-rail">
-              <button class="round-button green" type="button" data-mark-card="green" disabled aria-label="I know this card">✓</button>
-              <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
+              <div class="action-row">
+                <button class="round-button green" type="button" data-mark-card="green" disabled aria-label="I know this card">✓</button>
+                <span class="mouse-click-icon left" aria-label="Left click for green tick" title="左鍵：綠勾"></span>
+              </div>
+              <div class="action-row">
+                <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
+                <span class="mouse-click-icon right" aria-label="Right click for red cross" title="右鍵：紅叉"></span>
+              </div>
             </div>
           </div>
         </section>
@@ -26584,7 +26782,7 @@ window.EDMUND_FLASHCARD_SEED = {
       { key: "cambridge", label: "Cambridge IGCSE", labelLines: ["Cambridge", "IGCSE"], group: "scope", kind: "deck", target: "cambridge/general" },
       { key: "pte", label: "Pearson Test of English (PTE)", labelLines: ["PTE", "Pearson Test of English"], group: "scope", kind: "deck", target: "pte/general" },
       { key: "government", label: "政府機構", group: "scope", kind: "route", target: "government-home" },
-      { key: "student-custom", label: "自製 Flashcards", labelLines: ["自製", "Flashcards"], group: "scope", kind: "route", target: "student-custom-home" },
+      { key: "student-custom", label: "自製 Flashcards", labelLines: ["自製", "Flashcards"], group: "scope", kind: "route", target: "student-custom-home", tone: "orange" },
       { key: "custom-setup", label: "客製 Setup", group: "scope", kind: "route", target: "custom-setup-home", tone: "emerald" },
       { key: "daily-english", label: "日常英語", group: "resource", kind: "deck", target: "daily-english/general" },
       { key: "pop-songs", label: "英文流行曲", group: "resource", kind: "deck", target: "pop-songs/general" },
@@ -26615,6 +26813,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let lastOptions = null;
     let activeReviewStatus = "";
     let selectedProgressRange = "month";
+    let redDashboardOpen = false;
     let studentsCache = [];
     let studentsLoadedFromSupabase = false;
     let adminPasswordForSession = "";
@@ -27055,14 +27254,14 @@ window.EDMUND_FLASHCARD_SEED = {
       saveFamiliarityStore(store);
     }
 
-    function setCardFamiliarity(cardIndex, status) {
+    function setCardFamiliarity(cardIndex, status, deckId = currentDeckId) {
       if (!currentUser?.name || !["green", "red"].includes(status)) return;
       const key = String(cardIndex);
-      const familiarity = getDeckFamiliarity();
+      const familiarity = getDeckFamiliarity(deckId);
       familiarity.green = familiarity.green.filter(index => index !== key);
       familiarity.red = familiarity.red.filter(index => index !== key);
       familiarity[status].push(key);
-      saveDeckFamiliarity(currentDeckId, familiarity);
+      saveDeckFamiliarity(deckId, familiarity);
     }
 
     function isDeckFullyGreen(deckId, studentName = currentUser?.name) {
@@ -27072,6 +27271,20 @@ window.EDMUND_FLASHCARD_SEED = {
       const green = new Set(familiarity.green);
       const red = new Set(familiarity.red);
       return cards.every((_, index) => green.has(String(index)) && !red.has(String(index)));
+    }
+
+
+    function isDeckRangeFullyGreen(deckId, rangeStart = 1, rangeEnd = 0, studentName = currentUser?.name) {
+      const cards = getDeckCards(deckId);
+      if (!studentName || !cards.length) return false;
+      const startIndex = Math.max(0, Number(rangeStart || 1) - 1);
+      const endIndex = rangeEnd ? Math.min(cards.length - 1, Number(rangeEnd) - 1) : cards.length - 1;
+      const indexes = cards.map((_, index) => index).filter(index => index >= startIndex && index <= endIndex);
+      if (!indexes.length) return false;
+      const familiarity = getDeckFamiliarity(deckId, studentName);
+      const green = new Set(familiarity.green);
+      const red = new Set(familiarity.red);
+      return indexes.every(index => green.has(String(index)) && !red.has(String(index)));
     }
 
     function setSession(user) {
@@ -27415,6 +27628,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (locked) classes.push("locked");
       if (completed) classes.push("completed");
       if (section.tone === "emerald") classes.push("emerald-tile");
+      if (section.tone === "orange") classes.push("orange-tile");
       return `
         <button class="${classes.join(" ")}" type="button" data-section-key="${escapeHtml(section.key)}" ${attr}>
           <span class="tile-label">${tileLabelHtml(section)}</span>
@@ -27551,6 +27765,46 @@ window.EDMUND_FLASHCARD_SEED = {
       `).join("")}</div>`;
     }
 
+
+    function currentRedCrossCards(studentName = currentUser?.name) {
+      if (!studentName) return [];
+      return getKnownDeckIds().flatMap(deckId => {
+        const cards = getDeckCards(deckId);
+        const familiarity = getDeckFamiliarity(deckId, studentName);
+        return (familiarity.red || [])
+          .map(index => Number(index))
+          .filter(index => cards[index])
+          .map(index => ({
+            ...cards[index],
+            sourceDeckId: deckId,
+            sourceCardIndex: index,
+            sourceDeckTitle: deckTitleFromId(deckId)
+          }));
+      });
+    }
+
+    function renderRedDashboardPanel() {
+      const panel = document.querySelector("[data-red-dashboard-panel]");
+      const list = document.querySelector("[data-red-dashboard-list]");
+      const toggle = document.querySelector("[data-red-dashboard-toggle]");
+      if (!panel || !list) return;
+      panel.classList.toggle("hidden", !redDashboardOpen);
+      toggle?.classList.toggle("active", redDashboardOpen);
+      if (!redDashboardOpen) return;
+      const rows = currentRedCrossCards();
+      const reviewButton = document.querySelector("[data-start-red-review]");
+      if (reviewButton) reviewButton.disabled = rows.length === 0;
+      list.innerHTML = rows.length
+        ? rows.map(card => `
+          <div class="red-card-row">
+            <span>${escapeHtml(card.front || "-")}</span>
+            <span>${escapeHtml(card.meaning || "-")}</span>
+            <span>${escapeHtml(card.sourceDeckTitle || "-")}</span>
+          </div>
+        `).join("")
+        : `<p class="note-text">目前沒有紅叉卡片。很好，清得很乾淨。</p>`;
+    }
+
     function buildProgressSeries(rangeKey = selectedProgressRange, studentName = currentUser?.name) {
       const rows = progressRowsForStudent(studentName);
       const start = progressRangeStart(rangeKey, rows);
@@ -27659,7 +27913,8 @@ window.EDMUND_FLASHCARD_SEED = {
       const redStat = document.querySelector("[data-progress-stat-red]");
       if (totalStat) totalStat.textContent = allTime.total;
       if (greenStat) greenStat.textContent = allTime.green;
-      if (redStat) redStat.textContent = allTime.red;
+      if (redStat) redStat.textContent = currentRedCrossCards().length;
+      renderRedDashboardPanel();
       renderHighAttemptCards();
     }
 
@@ -28343,6 +28598,15 @@ window.EDMUND_FLASHCARD_SEED = {
       } else {
         resumePanel?.classList.add("hidden");
       }
+
+      document.querySelectorAll("[data-deck-start] [data-start-mode='range']").forEach(button => {
+        const completed = isDeckRangeFullyGreen(
+          currentDeckId,
+          Number(button.getAttribute("data-range-start") || 1),
+          Number(button.getAttribute("data-range-end") || 0)
+        );
+        button.classList.toggle("range-completed", completed);
+      });
     }
 
     function openDeckStart(deckId, push = true) {
@@ -28418,13 +28682,17 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function sessionCardKey(cardIndex) {
       const card = studySession?.cards?.[Number(cardIndex)] || getDeckCards(currentDeckId)[Number(cardIndex)] || {};
-      return `${currentDeckId}::${cardIndex}::${normalizeCardText(card.front || "").toLowerCase()}`;
+      const sourceDeckId = card.sourceDeckId || currentDeckId;
+      const sourceIndex = card.sourceCardIndex ?? cardIndex;
+      return `${sourceDeckId}::${sourceIndex}::${normalizeCardText(card.front || "").toLowerCase()}`;
     }
 
     function sessionCardSnapshot(cardIndex) {
       const card = studySession?.cards?.[Number(cardIndex)] || getDeckCards(currentDeckId)[Number(cardIndex)] || {};
       return {
-        index: Number(cardIndex),
+        index: Number(card.sourceCardIndex ?? cardIndex),
+        deckId: card.sourceDeckId || currentDeckId,
+        deckTitle: card.sourceDeckTitle || currentDeckTitle,
         key: sessionCardKey(cardIndex),
         front: normalizeCardText(card.front || ""),
         meaning: normalizeCardText(card.meaning || "")
@@ -28562,6 +28830,43 @@ window.EDMUND_FLASHCARD_SEED = {
 
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
       document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜本次：${order.length}/${cards.length}｜${modeLabel(mode, cardLimit, rangeLabel)}`;
+      hideReviewPanel();
+      showAppPanel("deck-view");
+      saveCurrentProgress();
+      renderStudyCard();
+    }
+
+    function startRedCrossSession() {
+      const cards = currentRedCrossCards();
+      if (!cards.length) {
+        redDashboardOpen = true;
+        renderRedDashboardPanel();
+        return;
+      }
+      currentDeckId = "__all-red-cross-review__";
+      currentDeckTitle = "所有紅叉卡片";
+      const order = cards.map((_, index) => index);
+      studySession = {
+        mode: "red-review",
+        cardLimit: 0,
+        rangeStart: 0,
+        rangeEnd: 0,
+        rangeLabel: "目前紅叉卡片",
+        cards,
+        roundNumber: 1,
+        roundQueue: order,
+        initialQueue: [...order],
+        initialTotal: order.length,
+        currentPosition: 0,
+        answers: {},
+        outcomes: {},
+        cardAttemptCounts: {},
+        flipped: false,
+        completed: false,
+        attemptId: logAttemptStart("目前紅叉卡片", order.length)
+      };
+      document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜本次：${order.length}/${order.length}｜重新溫習目前紅叉`;
       hideReviewPanel();
       showAppPanel("deck-view");
       saveCurrentProgress();
@@ -28725,6 +29030,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const redButton = document.querySelector("[data-mark-card='red']");
       const prevButton = document.querySelector("[data-prev-study-card]");
       const nextButton = document.querySelector("[data-next-study-card]");
+      const speakButton = document.querySelector("[data-speak-card]");
       const greenPill = document.querySelector("[data-green-count]");
       const redPill = document.querySelector("[data-red-count]");
       const roundCounts = answerCounts();
@@ -28753,6 +29059,7 @@ window.EDMUND_FLASHCARD_SEED = {
         redButton.disabled = true;
         if (prevButton) prevButton.disabled = true;
         if (nextButton) nextButton.disabled = true;
+        if (speakButton) speakButton.disabled = true;
         if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
         return;
       }
@@ -28785,9 +29092,28 @@ window.EDMUND_FLASHCARD_SEED = {
       redButton.disabled = !studySession.flipped;
       if (prevButton) prevButton.disabled = studySession.currentPosition <= 0;
       if (nextButton) nextButton.disabled = studySession.currentPosition >= studySession.roundQueue.length - 1;
+      if (speakButton) speakButton.disabled = !canSpeakCard();
       greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
       redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
       if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
+    }
+
+    function canSpeakCard() {
+      return Boolean(currentCard()?.front) && "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
+    }
+
+    function speakCurrentCard() {
+      const card = currentCard();
+      if (!card?.front || !("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
+      const utterance = new SpeechSynthesisUtterance(card.front);
+      utterance.lang = "en-US";
+      utterance.rate = 0.82;
+      utterance.pitch = 1;
+      const voices = window.speechSynthesis.getVoices ? window.speechSynthesis.getVoices() : [];
+      const preferredVoice = voices.find(voice => /en-US/i.test(voice.lang)) || voices.find(voice => /^en/i.test(voice.lang));
+      if (preferredVoice) utterance.voice = preferredVoice;
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(utterance);
     }
 
     function flipCurrentCard() {
@@ -28820,6 +29146,9 @@ window.EDMUND_FLASHCARD_SEED = {
     function markCard(result) {
       if (!studySession || !studySession.flipped || !currentCard()) return;
       const currentIndex = studySession.roundQueue[studySession.currentPosition];
+      const card = currentCard();
+      const sourceDeckId = card?.sourceDeckId || currentDeckId;
+      const sourceIndex = card?.sourceCardIndex ?? currentIndex;
       const key = String(currentIndex);
       const wasAnsweredThisRound = Boolean(studySession.answers[key]);
       studySession.answers[key] = result;
@@ -28827,7 +29156,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!wasAnsweredThisRound) {
         studySession.cardAttemptCounts[key] = Number(studySession.cardAttemptCounts[key] || 0) + 1;
       }
-      setCardFamiliarity(currentIndex, result);
+      setCardFamiliarity(sourceIndex, result, sourceDeckId);
       updateAttemptProgress(false);
 
       if (answerCounts().answered >= studySession.roundQueue.length) {
@@ -29098,6 +29427,19 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const redDashboardToggle = event.target.closest("[data-red-dashboard-toggle]");
+        if (redDashboardToggle) {
+          redDashboardOpen = !redDashboardOpen;
+          renderRedDashboardPanel();
+          return;
+        }
+
+        if (event.target.closest("[data-start-red-review]")) {
+          if (!confirmLeaveInProgress()) return;
+          startRedCrossSession();
+          return;
+        }
+
         const resetButton = event.target.closest("[data-reset-attempt]");
         if (resetButton) {
           event.stopPropagation();
@@ -29276,6 +29618,11 @@ window.EDMUND_FLASHCARD_SEED = {
           clearSession();
           studySession = null;
           showLogin();
+          return;
+        }
+
+        if (event.target.closest("[data-speak-card]")) {
+          speakCurrentCard();
           return;
         }
 
