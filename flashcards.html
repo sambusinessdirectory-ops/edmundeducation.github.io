@@ -1148,7 +1148,7 @@
 
     .study-top {
       display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 12px;
       margin-bottom: 18px;
     }
@@ -1226,20 +1226,36 @@
       box-shadow: 0 14px 26px rgba(220,38,38,0.14);
     }
 
-    .stat-pill.sound-trigger {
-      text-align: center;
-      color: #1559a8;
-      transition: transform 0.16s ease, background 0.16s ease, box-shadow 0.16s ease;
+    .sound-card-button {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      width: clamp(58px, 5.1vw, 84px);
+      height: clamp(58px, 5.1vw, 84px);
+      padding: 9px;
+      border: 1px solid rgba(14,45,85,0.10);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.82);
+      box-shadow: 0 14px 28px rgba(17,43,85,0.12), inset 0 1px 0 rgba(255,255,255,0.72);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, opacity 0.16s ease;
+      z-index: 3;
     }
 
-    .stat-pill.sound-trigger:hover:not(:disabled) {
-      transform: translateY(-2px);
-      background: #eff6ff;
-      box-shadow: 0 14px 26px rgba(47,128,237,0.14);
+    .sound-card-button:hover:not(:disabled) {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 18px 34px rgba(17,43,85,0.16), inset 0 1px 0 rgba(255,255,255,0.84);
     }
 
-    .stat-pill.sound-trigger:disabled {
-      opacity: 0.45;
+    .sound-card-button:disabled {
+      opacity: 0.36;
+    }
+
+    .sound-card-button img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      pointer-events: none;
     }
 
     .review-panel {
@@ -1332,6 +1348,7 @@
     }
 
     .flash-frame {
+      position: relative;
       min-height: 300px;
       display: grid;
       align-items: center;
@@ -1355,6 +1372,7 @@
       width: 100%;
       display: grid;
       gap: clamp(28px, 4vw, 54px);
+      padding-right: clamp(18px, 5vw, 92px);
     }
 
     .flash-frame.back {
@@ -1885,7 +1903,6 @@
             <div class="stat-pill" data-round-count>Round 1</div>
             <button class="stat-pill review-trigger green-review" type="button" data-review-status="green" data-green-count>Green: 0</button>
             <button class="stat-pill review-trigger red-review" type="button" data-review-status="red" data-red-count>Red: 0</button>
-            <button class="stat-pill sound-trigger" type="button" data-speak-card>播放讀音</button>
           </div>
 
           <div class="review-panel hidden" data-review-panel>
@@ -1920,6 +1937,9 @@
                   <button class="secondary-button" type="button" data-next-study-card>下一張</button>
                 </div>
                 <article class="flash-frame front" data-front-card tabindex="0">
+                  <button class="sound-card-button" type="button" data-speak-card aria-label="播放讀音" title="播放讀音">
+                    <img src="Static Images/sound-button.png" alt="" aria-hidden="true">
+                  </button>
                   <div class="front-card-content">
                     <div class="front-term" data-front-term>No cards yet.</div>
                     <div class="front-examples" data-front-examples></div>
@@ -29201,7 +29221,8 @@ window.EDMUND_FLASHCARD_SEED = {
       renderStudyCard();
     }
 
-    function handleCardPrimaryAction() {
+    function handleCardPrimaryAction(event) {
+      if (event?.target?.closest?.("[data-speak-card]")) return;
       if (currentView !== "deck-view" || !studySession || !currentCard()) return;
       if (!studySession.flipped) {
         flipCurrentCard();
@@ -29211,6 +29232,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function handleCardSecondaryAction(event) {
+      if (event?.target?.closest?.("[data-speak-card]")) return;
       if (currentView !== "deck-view" || !studySession || !currentCard()) return;
       event.preventDefault();
       if (!studySession.flipped) {
