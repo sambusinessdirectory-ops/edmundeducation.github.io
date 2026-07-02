@@ -699,6 +699,122 @@
       font-weight: 900;
     }
 
+    .high-attempt-section {
+      margin-top: 20px;
+      padding: 18px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.76);
+    }
+
+    .high-attempt-section h3 {
+      margin: 0 0 12px;
+      color: #0e2d55;
+      font-size: clamp(20px, 1.8vw, 28px);
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .high-attempt-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .high-attempt-group {
+      display: grid;
+      gap: 8px;
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(239,246,255,0.72);
+      border: 1px solid rgba(47,128,237,0.12);
+    }
+
+    .high-attempt-group strong {
+      color: #1559a8;
+      font-size: 15px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .high-attempt-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .high-attempt-item {
+      display: grid;
+      gap: 2px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.88);
+      color: #172033;
+      font-size: 14px;
+      line-height: 1.3;
+      font-weight: 900;
+      border: 1px solid rgba(47,128,237,0.10);
+    }
+
+    .high-attempt-item span:last-child {
+      color: #627085;
+      font-size: 0.92em;
+    }
+
+    .custom-deck-manager,
+    .custom-card-form,
+    .custom-deck-panel {
+      display: grid;
+      gap: 14px;
+      padding: 16px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(47,128,237,0.14);
+    }
+
+    .custom-deck-form {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    .custom-deck-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .custom-deck-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto auto;
+      gap: 10px;
+      align-items: center;
+      padding: 12px;
+      border-radius: 16px;
+      background: rgba(255,255,255,0.86);
+      border: 1px solid rgba(47,128,237,0.12);
+    }
+
+    .custom-deck-title {
+      display: grid;
+      gap: 3px;
+      color: #0e2d55;
+      font-size: 17px;
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .custom-deck-title small {
+      color: #627085;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .custom-card-form textarea {
+      min-height: 120px;
+      resize: vertical;
+    }
+
     .skill-grid {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -925,6 +1041,42 @@
       margin-bottom: 18px;
     }
 
+    .session-progress {
+      display: grid;
+      gap: 8px;
+      margin: -4px 0 18px;
+      padding: 12px 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.82);
+    }
+
+    .session-progress-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      color: #0e2d55;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .session-progress-track {
+      height: 14px;
+      border-radius: 999px;
+      background: rgba(219,234,254,0.92);
+      overflow: hidden;
+      box-shadow: inset 0 1px 2px rgba(17,43,85,0.12);
+    }
+
+    .session-progress-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #2f80ed, #059669);
+      transition: width 0.22s ease;
+    }
+
     .stat-pill {
       min-height: 58px;
       padding: 10px 14px;
@@ -1031,6 +1183,24 @@
     .study-main {
       display: grid;
       gap: 16px;
+    }
+
+    .front-stage {
+      display: grid;
+      grid-template-columns: 124px minmax(0, 1fr);
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .front-stage .card-nav {
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+    }
+
+    .front-stage .card-nav .secondary-button {
+      min-width: 100%;
+      padding: 0 12px;
     }
 
     .flash-frame {
@@ -1161,7 +1331,8 @@
       .hero,
       .admin-grid,
       .dashboard-grid,
-      .study-layout {
+      .study-layout,
+      .front-stage {
         grid-template-columns: 1fr;
       }
 
@@ -1173,6 +1344,10 @@
       .study-top,
       .progress-stat-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .front-stage .card-nav {
+        flex-direction: row;
       }
 
       .action-rail {
@@ -1226,7 +1401,10 @@
       .access-grid,
       .mode-grid,
       .study-top,
-      .progress-stat-grid {
+      .progress-stat-grid,
+      .high-attempt-list,
+      .custom-deck-form,
+      .custom-deck-row {
         grid-template-columns: 1fr;
       }
 
@@ -1376,6 +1554,10 @@
               <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span></div>
               <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span></div>
               <div class="progress-stat"><strong data-progress-stat-red>0</strong><span>紅叉總數（全部時間）</span></div>
+            </div>
+            <div class="high-attempt-section" data-high-attempt-section>
+              <h3>高嘗試卡片</h3>
+              <div data-high-attempt-list></div>
             </div>
           </section>
         </section>
@@ -1528,20 +1710,32 @@
             <div class="review-list" data-review-list></div>
           </div>
 
+          <div class="session-progress" data-session-progress>
+            <div class="session-progress-line">
+              <span data-session-progress-count>0 / 0</span>
+              <span data-session-progress-percent>0%</span>
+            </div>
+            <div class="session-progress-track" aria-hidden="true">
+              <div class="session-progress-fill" data-session-progress-fill></div>
+            </div>
+          </div>
+
           <div class="study-layout">
             <div class="study-main">
-              <article class="flash-frame front" data-front-card tabindex="0">
-                <div class="front-card-content">
-                  <div class="front-term" data-front-term>No cards yet.</div>
-                  <div class="front-examples" data-front-examples></div>
+              <div class="front-stage">
+                <div class="card-nav">
+                  <button class="secondary-button" type="button" data-prev-study-card>上一張</button>
+                  <button class="secondary-button" type="button" data-next-study-card>下一張</button>
                 </div>
-              </article>
+                <article class="flash-frame front" data-front-card tabindex="0">
+                  <div class="front-card-content">
+                    <div class="front-term" data-front-term>No cards yet.</div>
+                    <div class="front-examples" data-front-examples></div>
+                  </div>
+                </article>
+              </div>
               <article class="flash-frame back hidden" data-back-card tabindex="0"></article>
               <p class="note-text" data-card-hint>點擊卡片即可揭示答案。翻開後才可選擇綠勾或紅叉。</p>
-              <div class="card-nav">
-                <button class="secondary-button" type="button" data-prev-study-card>上一張</button>
-                <button class="secondary-button" type="button" data-next-study-card>下一張</button>
-              </div>
             </div>
 
             <div class="action-rail">
@@ -26390,6 +26584,7 @@ window.EDMUND_FLASHCARD_SEED = {
       { key: "cambridge", label: "Cambridge IGCSE", labelLines: ["Cambridge", "IGCSE"], group: "scope", kind: "deck", target: "cambridge/general" },
       { key: "pte", label: "Pearson Test of English (PTE)", labelLines: ["PTE", "Pearson Test of English"], group: "scope", kind: "deck", target: "pte/general" },
       { key: "government", label: "政府機構", group: "scope", kind: "route", target: "government-home" },
+      { key: "student-custom", label: "自製 Flashcards", labelLines: ["自製", "Flashcards"], group: "scope", kind: "route", target: "student-custom-home" },
       { key: "custom-setup", label: "客製 Setup", group: "scope", kind: "route", target: "custom-setup-home", tone: "emerald" },
       { key: "daily-english", label: "日常英語", group: "resource", kind: "deck", target: "daily-english/general" },
       { key: "pop-songs", label: "英文流行曲", group: "resource", kind: "deck", target: "pop-songs/general" },
@@ -26452,7 +26647,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function defaultAccess() {
-      return Object.fromEntries(accessSections.map(section => [section.key, false]));
+      return Object.fromEntries(accessSections.map(section => [section.key, section.key === "student-custom"]));
     }
 
     function updateSupabaseStatus(message, tone = "") {
@@ -26728,6 +26923,66 @@ window.EDMUND_FLASHCARD_SEED = {
       const seedCards = Array.isArray(seedDecks[deckId]) ? seedDecks[deckId] : [];
       const customCards = Array.isArray(customStore[deckId]) ? customStore[deckId] : [];
       return [...seedCards, ...customCards].map(normalizeCard).filter(card => card.front);
+    }
+
+
+    function saveCardStore(store) {
+      writeJson(CARDS_KEY, store);
+    }
+
+    function studentDeckMetaKey() {
+      return "__studentCustomDecks";
+    }
+
+    function getStudentCustomDecks(studentName = currentUser?.name) {
+      if (!studentName) return [];
+      const store = getCardStore();
+      return (Array.isArray(store[studentDeckMetaKey()]) ? store[studentDeckMetaKey()] : [])
+        .filter(deck => deck.studentName === studentName)
+        .sort((a, b) => (b.updatedAt || b.createdAt || 0) - (a.updatedAt || a.createdAt || 0));
+    }
+
+    function createStudentCustomDeck(title) {
+      if (!currentUser?.name) return null;
+      const cleanTitle = String(title || "").trim();
+      if (!cleanTitle) return null;
+      const store = getCardStore();
+      const metaKey = studentDeckMetaKey();
+      const decks = Array.isArray(store[metaKey]) ? store[metaKey] : [];
+      const id = `student-custom/${slugifyLabel(currentUser.name)}/${slugifyLabel(cleanTitle)}-${Date.now().toString(36)}`;
+      const deck = { id, title: cleanTitle, studentName: currentUser.name, createdAt: Date.now(), updatedAt: Date.now() };
+      store[metaKey] = [...decks, deck];
+      store[id] = [];
+      deckTitleLabels.set(id, cleanTitle);
+      saveCardStore(store);
+      return deck;
+    }
+
+    function addStudentCustomCard(deckId, card) {
+      if (!currentUser?.name || !deckId) return false;
+      const store = getCardStore();
+      const cards = Array.isArray(store[deckId]) ? store[deckId] : [];
+      const normalized = normalizeCard({
+        front: card.front,
+        meaning: card.meaning,
+        examples: card.examples,
+        createdAt: Date.now()
+      });
+      if (!normalized.front) return false;
+      store[deckId] = [...cards, { ...normalized, createdAt: Date.now() }];
+      const metaKey = studentDeckMetaKey();
+      store[metaKey] = (Array.isArray(store[metaKey]) ? store[metaKey] : []).map(deck => (
+        deck.id === deckId ? { ...deck, updatedAt: Date.now() } : deck
+      ));
+      saveCardStore(store);
+      return true;
+    }
+
+    function parseCustomExamples(enText, zhText) {
+      const enRows = String(enText || "").split(/\n+/).map(row => row.trim()).filter(Boolean);
+      const zhRows = String(zhText || "").split(/\n+/).map(row => row.trim()).filter(Boolean);
+      const length = Math.max(enRows.length, zhRows.length);
+      return Array.from({ length }, (_, index) => ({ en: enRows[index] || "", zh: zhRows[index] || "" }));
     }
 
     function getAttempts() {
@@ -27053,7 +27308,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function getKnownDeckIds() {
-      const customIds = Object.keys(getCardStore());
+      const customIds = Object.keys(getCardStore()).filter(key => !key.startsWith("__"));
       return [...new Set([...Object.keys(seedDecks), ...customIds])];
     }
 
@@ -27196,9 +27451,21 @@ window.EDMUND_FLASHCARD_SEED = {
       return `${year}-${month}-${day}`;
     }
 
+    function familiarityTotalsForStudent(studentName = currentUser?.name) {
+      if (!studentName) return { green: 0, red: 0 };
+      return getKnownDeckIds()
+        .filter(deckId => getDeckCards(deckId).length > 0)
+        .reduce((totals, deckId) => {
+          const familiarity = getDeckFamiliarity(deckId, studentName);
+          totals.green += familiarity.green.length;
+          totals.red += familiarity.red.length;
+          return totals;
+        }, { green: 0, red: 0 });
+    }
+
     function progressRowsForStudent(studentName = currentUser?.name) {
       if (!studentName) return [];
-      return getAttempts()
+      const rows = getAttempts()
         .filter(attempt => attempt.studentName === studentName)
         .map(attempt => {
           const green = Number(attempt.green || 0);
@@ -27211,6 +27478,77 @@ window.EDMUND_FLASHCARD_SEED = {
           };
         })
         .filter(row => row.time && row.total > 0);
+
+      const attemptTotals = rows.reduce((totals, row) => {
+        totals.green += row.green;
+        totals.red += row.red;
+        return totals;
+      }, { green: 0, red: 0 });
+      const familiarityTotals = familiarityTotalsForStudent(studentName);
+      const missingGreen = Math.max(0, familiarityTotals.green - attemptTotals.green);
+      const missingRed = Math.max(0, familiarityTotals.red - attemptTotals.red);
+      if (missingGreen || missingRed) {
+        const latest = rows.reduce((time, row) => Math.max(time, row.time || 0), 0) || Date.now();
+        rows.push({ time: latest, green: missingGreen, red: missingRed, total: missingGreen + missingRed, reconciled: true });
+      }
+      return rows;
+    }
+
+    function highAttemptGroupsForStudent(studentName = currentUser?.name) {
+      if (!studentName) return new Map();
+      const byCard = new Map();
+      getAttempts()
+        .filter(attempt => attempt.studentName === studentName)
+        .forEach(attempt => {
+          const items = Array.isArray(attempt.cardAttempts) ? attempt.cardAttempts : [];
+          items.forEach(item => {
+            const count = Number(item.count || 0);
+            if (count < 2) return;
+            const key = item.key || `${attempt.deckId || ""}::${item.index ?? item.front}`;
+            const existing = byCard.get(key);
+            if (!existing || count > existing.count || (attempt.updatedAt || 0) > (existing.updatedAt || 0)) {
+              byCard.set(key, {
+                key,
+                count,
+                front: item.front || "",
+                meaning: item.meaning || "",
+                deckTitle: attempt.deckTitle || deckTitleFromId(attempt.deckId || ""),
+                updatedAt: attempt.updatedAt || attempt.completedAt || attempt.startedAt || 0
+              });
+            }
+          });
+        });
+
+      const groups = new Map();
+      [...byCard.values()].sort((a, b) => b.count - a.count || b.updatedAt - a.updatedAt).forEach(item => {
+        if (!groups.has(item.count)) groups.set(item.count, []);
+        groups.get(item.count).push(item);
+      });
+      return groups;
+    }
+
+    function renderHighAttemptCards() {
+      const list = document.querySelector("[data-high-attempt-list]");
+      if (!list) return;
+      const groups = highAttemptGroupsForStudent();
+      const counts = [...groups.keys()].sort((a, b) => a - b);
+      if (!counts.length) {
+        list.innerHTML = `<p class="note-text">暫時未有進入第二輪或以上的卡片。</p>`;
+        return;
+      }
+      list.innerHTML = `<div class="high-attempt-grid">${counts.map(count => `
+        <div class="high-attempt-group">
+          <strong>${count} 次嘗試</strong>
+          <div class="high-attempt-list">
+            ${groups.get(count).map(item => `
+              <div class="high-attempt-item">
+                <span>${escapeHtml(item.front || "-")}</span>
+                <span>${escapeHtml(item.meaning || "-")}</span>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      `).join("")}</div>`;
     }
 
     function buildProgressSeries(rangeKey = selectedProgressRange, studentName = currentUser?.name) {
@@ -27322,6 +27660,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (totalStat) totalStat.textContent = allTime.total;
       if (greenStat) greenStat.textContent = allTime.green;
       if (redStat) redStat.textContent = allTime.red;
+      renderHighAttemptCards();
     }
 
     function renderDashboard() {
@@ -27812,6 +28151,76 @@ window.EDMUND_FLASHCARD_SEED = {
       );
     }
 
+    function showStudentCustomHome() {
+      const decks = getStudentCustomDecks();
+      showOptions(
+        "自製 Flashcards",
+        "建立自己的卡組，並把新卡即時儲存到 Supabase。",
+        () => `
+          <div class="custom-deck-manager">
+            <form class="custom-deck-form" data-custom-deck-form>
+              <div class="field">
+                <label for="custom-deck-name">卡組名稱</label>
+                <input id="custom-deck-name" name="deckName" type="text" placeholder="例如：My school vocab" required>
+              </div>
+              <button class="primary-button" type="submit">建立卡組</button>
+            </form>
+            <div class="custom-deck-list">
+              ${decks.length ? decks.map(deck => `
+                <div class="custom-deck-row">
+                  <span class="custom-deck-title">
+                    ${escapeHtml(deck.title)}
+                    <small>${getDeckCards(deck.id).length} 張卡｜建立：${todayText(deck.createdAt)}</small>
+                  </span>
+                  <button class="secondary-button" type="button" data-open-deck="${escapeHtml(deck.id)}" data-deck-title="${escapeHtml(deck.title)}">練習</button>
+                  <button class="secondary-button" type="button" data-route="student-custom-add|${escapeHtml(deck.id)}">新增卡片</button>
+                </div>
+              `).join("") : `<p class="note-text">暫時未有自製卡組。</p>`}
+            </div>
+          </div>
+        `,
+        "columns-grid wide-one"
+      );
+    }
+
+    function showStudentCustomAdd(deckId) {
+      const deck = getStudentCustomDecks().find(item => item.id === deckId);
+      const title = deck?.title || deckTitleFromId(deckId);
+      deckTitleLabels.set(deckId, title);
+      showOptions(
+        `新增卡片 - ${title}`,
+        "輸入正面、背面及例句。例句每行一項，中英文會按行配對。",
+        () => `
+          <form class="custom-card-form" data-custom-card-form="${escapeHtml(deckId)}">
+            <div class="field">
+              <label for="custom-card-front">正面</label>
+              <input id="custom-card-front" name="front" type="text" required>
+            </div>
+            <div class="field">
+              <label for="custom-card-meaning">背面 / 解釋</label>
+              <input id="custom-card-meaning" name="meaning" type="text">
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="custom-card-en">英文例句（每行一句）</label>
+                <textarea id="custom-card-en" name="examplesEn"></textarea>
+              </div>
+              <div class="field">
+                <label for="custom-card-zh">中文例句（每行一句）</label>
+                <textarea id="custom-card-zh" name="examplesZh"></textarea>
+              </div>
+            </div>
+            <div class="access-actions">
+              <button class="primary-button" type="submit">新增卡片</button>
+              <button class="secondary-button" type="button" data-route="student-custom-home">返回自製卡組</button>
+            </div>
+            <p class="status" data-custom-card-status></p>
+          </form>
+        `,
+        "columns-grid wide-one"
+      );
+    }
+
     function showCustomSetup() {
       showOptions(
         "客製 Setup",
@@ -27840,6 +28249,7 @@ window.EDMUND_FLASHCARD_SEED = {
         ib: "IB 課程 國際學校",
         cambridge: "Cambridge IGCSE",
         government: "政府機構",
+        "student-custom": "自製 Flashcards",
         "custom-setup": "客製 Setup",
         listening: "Listening",
         reading: "Reading",
@@ -27978,6 +28388,9 @@ window.EDMUND_FLASHCARD_SEED = {
         green: 0,
         red: 0,
         completed: false,
+        roundNumber: 1,
+        cardAttempts: [],
+        cardOutcomes: [],
         startedAt: Date.now(),
         updatedAt: Date.now()
       });
@@ -27994,17 +28407,57 @@ window.EDMUND_FLASHCARD_SEED = {
       };
     }
 
+    function sessionOutcomeCounts() {
+      const values = Object.values(studySession?.outcomes || {});
+      return {
+        answered: values.length,
+        green: values.filter(value => value === "green").length,
+        red: values.filter(value => value === "red").length
+      };
+    }
+
+    function sessionCardKey(cardIndex) {
+      const card = studySession?.cards?.[Number(cardIndex)] || getDeckCards(currentDeckId)[Number(cardIndex)] || {};
+      return `${currentDeckId}::${cardIndex}::${normalizeCardText(card.front || "").toLowerCase()}`;
+    }
+
+    function sessionCardSnapshot(cardIndex) {
+      const card = studySession?.cards?.[Number(cardIndex)] || getDeckCards(currentDeckId)[Number(cardIndex)] || {};
+      return {
+        index: Number(cardIndex),
+        key: sessionCardKey(cardIndex),
+        front: normalizeCardText(card.front || ""),
+        meaning: normalizeCardText(card.meaning || "")
+      };
+    }
+
+    function sessionCardAttemptItems() {
+      return Object.entries(studySession?.cardAttemptCounts || {})
+        .map(([index, count]) => ({
+          ...sessionCardSnapshot(index),
+          count: Number(count || 0),
+          finalStatus: studySession?.outcomes?.[index] || ""
+        }))
+        .filter(item => item.count >= 2);
+    }
+
     function updateAttemptProgress(completed = false) {
       if (!studySession?.attemptId) return;
       const attempts = getAttempts();
       const target = attempts.find(attempt => attempt.id === studySession.attemptId);
       if (target) {
-        const counts = answerCounts();
+        const counts = sessionOutcomeCounts();
+        target.totalCards = Math.max(Number(studySession.initialTotal || 0), counts.answered);
         target.green = counts.green;
         target.red = counts.red;
         target.answeredCount = counts.answered;
         target.roundNumber = studySession.roundNumber;
         target.currentPosition = studySession.currentPosition;
+        target.cardAttempts = sessionCardAttemptItems();
+        target.cardOutcomes = Object.entries(studySession.outcomes || {}).map(([index, status]) => ({
+          ...sessionCardSnapshot(index),
+          status
+        }));
         target.updatedAt = Date.now();
         if (completed) {
           target.completed = true;
@@ -28016,6 +28469,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function saveCurrentProgress() {
       if (!currentUser?.name || !studySession || studySession.completed) return;
+      updateAttemptProgress(false);
       const store = getProgressStore();
       store[progressKey(currentDeckId)] = {
         deckId: currentDeckId,
@@ -28027,10 +28481,14 @@ window.EDMUND_FLASHCARD_SEED = {
         rangeLabel: studySession.rangeLabel || "",
         roundNumber: studySession.roundNumber,
         roundQueue: studySession.roundQueue,
+        initialQueue: studySession.initialQueue,
+        initialTotal: studySession.initialTotal,
         currentPosition: studySession.currentPosition,
         answers: studySession.answers,
+        outcomes: studySession.outcomes,
+        cardAttemptCounts: studySession.cardAttemptCounts,
         attemptId: studySession.attemptId,
-        totalCards: studySession.roundQueue.length,
+        totalCards: studySession.initialTotal || studySession.roundQueue.length,
         savedAt: Date.now()
       };
       saveProgressStore(store);
@@ -28091,8 +28549,12 @@ window.EDMUND_FLASHCARD_SEED = {
         cards,
         roundNumber: 1,
         roundQueue: order,
+        initialQueue: [...order],
+        initialTotal: order.length,
         currentPosition: 0,
         answers: {},
+        outcomes: {},
+        cardAttemptCounts: {},
         flipped: false,
         completed: false,
         attemptId: logAttemptStart(modeLabel(mode, cardLimit, rangeLabel), order.length)
@@ -28110,6 +28572,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const saved = savedProgressForDeck(currentDeckId);
       if (!saved) return;
       const cards = getDeckCards(currentDeckId);
+      const restoredQueue = Array.isArray(saved.roundQueue) ? saved.roundQueue.filter(index => cards[index]) : cards.map((_, index) => index);
       studySession = {
         mode: saved.mode || "order",
         cardLimit: saved.cardLimit || 0,
@@ -28118,9 +28581,13 @@ window.EDMUND_FLASHCARD_SEED = {
         rangeLabel: saved.rangeLabel || "",
         cards,
         roundNumber: saved.roundNumber || 1,
-        roundQueue: Array.isArray(saved.roundQueue) ? saved.roundQueue.filter(index => cards[index]) : cards.map((_, index) => index),
+        roundQueue: restoredQueue,
+        initialQueue: Array.isArray(saved.initialQueue) ? saved.initialQueue.filter(index => cards[index]) : restoredQueue,
+        initialTotal: saved.initialTotal || restoredQueue.length,
         currentPosition: Math.max(0, saved.currentPosition || 0),
         answers: saved.answers || {},
+        outcomes: saved.outcomes || {},
+        cardAttemptCounts: saved.cardAttemptCounts || {},
         flipped: false,
         completed: false,
         attemptId: saved.attemptId || ""
@@ -28203,6 +28670,9 @@ window.EDMUND_FLASHCARD_SEED = {
         Object.keys(studySession.answers).forEach(index => {
           if (studySession.answers[index] === status) delete studySession.answers[index];
         });
+        Object.keys(studySession.outcomes || {}).forEach(index => {
+          if (studySession.outcomes[index] === status) delete studySession.outcomes[index];
+        });
         updateAttemptProgress(false);
         saveCurrentProgress();
       }
@@ -28216,10 +28686,34 @@ window.EDMUND_FLASHCARD_SEED = {
     function moveFamiliarityCard(cardIndex, targetStatus) {
       if (!["green", "red"].includes(targetStatus)) return;
       setCardFamiliarity(cardIndex, targetStatus);
+      if (studySession?.cards?.[cardIndex]) {
+        const key = String(cardIndex);
+        studySession.outcomes[key] = targetStatus;
+        if (targetStatus === "red" && !studySession.roundQueue.includes(cardIndex)) {
+          studySession.roundQueue.push(cardIndex);
+        }
+        if (targetStatus === "green" && studySession.answers[key] === "red") {
+          studySession.answers[key] = "green";
+        }
+        updateAttemptProgress(false);
+        saveCurrentProgress();
+      }
       renderStudyCard();
       renderReviewPanel(activeReviewStatus || targetStatus);
       if (lastOptions) renderOptionsContent();
       if (currentView === "dashboard") renderDashboard();
+    }
+
+    function updateSessionProgressBar() {
+      const total = studySession?.roundQueue?.length || 0;
+      const position = total && currentCard() ? Math.min(total, studySession.currentPosition + 1) : total;
+      const percent = total ? Math.round((position / total) * 100) : 0;
+      const count = document.querySelector("[data-session-progress-count]");
+      const percentNode = document.querySelector("[data-session-progress-percent]");
+      const fill = document.querySelector("[data-session-progress-fill]");
+      if (count) count.textContent = `${position} / ${total}`;
+      if (percentNode) percentNode.textContent = `${percent}%`;
+      if (fill) fill.style.width = `${percent}%`;
     }
 
     function renderStudyCard() {
@@ -28233,18 +28727,21 @@ window.EDMUND_FLASHCARD_SEED = {
       const nextButton = document.querySelector("[data-next-study-card]");
       const greenPill = document.querySelector("[data-green-count]");
       const redPill = document.querySelector("[data-red-count]");
-      const counts = answerCounts();
+      const roundCounts = answerCounts();
+      const sessionCounts = sessionOutcomeCounts();
       const totalThisRound = studySession?.roundQueue.length || 0;
+      const positionThisRound = totalThisRound && card ? Math.min(totalThisRound, (studySession?.currentPosition || 0) + 1) : totalThisRound;
       const familiarity = getDeckFamiliarity(currentDeckId);
 
-      document.querySelector("[data-progress-count]").textContent = `${counts.answered} / ${totalThisRound}`;
+      document.querySelector("[data-progress-count]").textContent = `${positionThisRound} / ${totalThisRound}`;
       document.querySelector("[data-round-count]").textContent = `第 ${studySession?.roundNumber || 1} 輪`;
+      updateSessionProgressBar();
       if (greenPill) {
-        greenPill.textContent = `綠勾：${counts.green}`;
+        greenPill.textContent = `綠勾：${sessionCounts.green}`;
         greenPill.setAttribute("title", `點擊查看本卡組 ${familiarity.green.length} 張綠勾卡`);
       }
       if (redPill) {
-        redPill.textContent = `紅叉：${counts.red}`;
+        redPill.textContent = `紅叉：${sessionCounts.red}`;
         redPill.setAttribute("title", `點擊查看本卡組 ${familiarity.red.length} 張紅叉卡`);
       }
 
@@ -28323,7 +28820,13 @@ window.EDMUND_FLASHCARD_SEED = {
     function markCard(result) {
       if (!studySession || !studySession.flipped || !currentCard()) return;
       const currentIndex = studySession.roundQueue[studySession.currentPosition];
-      studySession.answers[currentIndex] = result;
+      const key = String(currentIndex);
+      const wasAnsweredThisRound = Boolean(studySession.answers[key]);
+      studySession.answers[key] = result;
+      studySession.outcomes[key] = result;
+      if (!wasAnsweredThisRound) {
+        studySession.cardAttemptCounts[key] = Number(studySession.cardAttemptCounts[key] || 0) + 1;
+      }
       setCardFamiliarity(currentIndex, result);
       updateAttemptProgress(false);
 
@@ -28515,6 +29018,37 @@ window.EDMUND_FLASHCARD_SEED = {
         renderStudentProfile();
       });
 
+      document.addEventListener("submit", event => {
+        const deckForm = event.target.closest("[data-custom-deck-form]");
+        if (!deckForm) return;
+        event.preventDefault();
+        const formData = new FormData(deckForm);
+        const deck = createStudentCustomDeck(String(formData.get("deckName") || ""));
+        if (deck) {
+          deckForm.reset();
+          showStudentCustomHome();
+        }
+      });
+
+      document.addEventListener("submit", event => {
+        const cardForm = event.target.closest("[data-custom-card-form]");
+        if (!cardForm) return;
+        event.preventDefault();
+        const deckId = cardForm.getAttribute("data-custom-card-form");
+        const formData = new FormData(cardForm);
+        const ok = addStudentCustomCard(deckId, {
+          front: String(formData.get("front") || ""),
+          meaning: String(formData.get("meaning") || ""),
+          examples: parseCustomExamples(formData.get("examplesEn"), formData.get("examplesZh"))
+        });
+        const status = cardForm.querySelector("[data-custom-card-status]");
+        if (status) status.textContent = ok ? "已新增，並正在同步到 Supabase。" : "請先輸入正面內容。";
+        if (ok) {
+          cardForm.reset();
+          refreshCurrentView();
+        }
+      });
+
       document.addEventListener("change", async event => {
         const toggle = event.target.closest("[data-toggle-access]");
         if (!toggle) return;
@@ -28675,6 +29209,8 @@ window.EDMUND_FLASHCARD_SEED = {
           }
           if (route === "synonyms-home") showSynonyms();
           if (route === "government-home") showGovernment();
+          if (route === "student-custom-home") showStudentCustomHome();
+          if (route.startsWith("student-custom-add|")) showStudentCustomAdd(route.split("|")[1]);
           if (route === "custom-setup-home") showCustomSetup();
           return;
         }
