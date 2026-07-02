@@ -223,6 +223,34 @@ begin
 end;
 $$;
 
+create or replace function public.flashcard_admin_delete_student_with_state(
+  p_admin_name text,
+  p_admin_password text,
+  p_student_name text
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_student_name text := trim(p_student_name);
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return false;
+  end if;
+
+  delete from public.flashcard_students st
+  where st.name = v_student_name;
+
+  return not exists (
+    select 1
+    from public.flashcard_students st
+    where st.name = v_student_name
+  );
+end;
+$$;
+
 create or replace function public.flashcard_admin_set_student_access(
   p_admin_name text,
   p_admin_password text,
@@ -428,6 +456,7 @@ grant execute on function public.flashcard_student_login(text, text) to authenti
 grant execute on function public.flashcard_admin_list_students(text, text) to authenticated;
 grant execute on function public.flashcard_admin_upsert_student(text, text, text, text, jsonb) to authenticated;
 grant execute on function public.flashcard_admin_delete_student(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_delete_student_with_state(text, text, text) to authenticated;
 grant execute on function public.flashcard_admin_set_student_access(text, text, text, jsonb) to authenticated;
 grant execute on function public.flashcard_admin_change_student_password(text, text, text, text) to authenticated;
 grant execute on function public.flashcard_admin_get_password_logs(text, text, text) to authenticated;

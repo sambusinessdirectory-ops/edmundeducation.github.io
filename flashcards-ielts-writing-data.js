@@ -414,6 +414,14 @@ window.EDMUND_IELTS_WRITING_TASK2 = {
     },
     {
       "ref": "EdmundBd9OP-Q104",
+      "question": "Bringing in foreign workers to fill positions that domestic workers are unwilling to do can cause problems in the local community and should therefore be stopped. To what extent do you agree with this?"
+    },
+    {
+      "ref": "EdmundBd9OP-Q105",
+      "question": "Some people think that employers should ensure a supportive and pleasant work environment where each employee is respected and valued equally, while others think employers should focus instead on providing better facilities and equipment. What is your opinion?"
+    },
+    {
+      "ref": "EdmundBd9OP-Q106",
       "question": "In many countries, it is common for families to own and run their own business. Some people think this is the best way to run a business, while others consider this a potential source of problems. What is your opinion? (2018, 2020, 2022)"
     }
   ],
