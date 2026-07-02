@@ -319,6 +319,31 @@ begin
 end;
 $$;
 
+create or replace function public.flashcard_admin_get_student_state(
+  p_admin_name text,
+  p_admin_password text,
+  p_student_name text
+)
+returns table(key text, value jsonb, updated_at timestamptz)
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return;
+  end if;
+
+  return query
+  select s.key, s.value, s.updated_at
+  from public.flashcard_student_state s
+  join public.flashcard_students st on st.id = s.student_id
+  where st.name = trim(p_student_name)
+    and st.deleted_at is null
+  order by s.updated_at desc;
+end;
+$$;
+
 create or replace function public.flashcard_session_student_id(p_token uuid)
 returns uuid
 language sql
@@ -406,6 +431,7 @@ grant execute on function public.flashcard_admin_delete_student(text, text, text
 grant execute on function public.flashcard_admin_set_student_access(text, text, text, jsonb) to authenticated;
 grant execute on function public.flashcard_admin_change_student_password(text, text, text, text) to authenticated;
 grant execute on function public.flashcard_admin_get_password_logs(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_get_student_state(text, text, text) to authenticated;
 grant execute on function public.flashcard_student_get_state(uuid) to authenticated;
 grant execute on function public.flashcard_student_upsert_state(uuid, text, jsonb) to authenticated;
 grant execute on function public.flashcard_student_delete_state(uuid, text) to authenticated;

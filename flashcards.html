@@ -498,6 +498,34 @@
       line-height: 1.35;
     }
 
+    .attempt-pagination {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      color: #627085;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .attempt-page-button {
+      min-height: 34px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(255,255,255,0.88);
+      color: #1559a8;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .attempt-page-button:disabled {
+      opacity: 0.45;
+    }
+
     .access-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -523,6 +551,90 @@
       width: 22px;
       min-height: 22px;
       accent-color: var(--blue);
+    }
+
+    .dashboard-side-tools {
+      min-width: min(420px, 100%);
+      display: grid;
+      gap: 12px;
+      justify-items: end;
+    }
+
+    .dashboard-search {
+      width: min(420px, 100%);
+      display: grid;
+      gap: 8px;
+      padding: 12px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.84);
+      box-shadow: 0 16px 30px rgba(17,43,85,0.08);
+    }
+
+    .dashboard-search label {
+      color: #0e2d55;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .dashboard-search input {
+      min-height: 44px;
+      width: 100%;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 14px;
+      padding: 0 14px;
+      color: #0e2d55;
+      background: #fff;
+      font: inherit;
+      font-size: 15px;
+      font-weight: 850;
+    }
+
+    .deck-search-results {
+      width: min(420px, 100%);
+      display: grid;
+      gap: 8px;
+      max-height: 300px;
+      overflow: auto;
+    }
+
+    .deck-search-result {
+      width: 100%;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px 12px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.92);
+      color: #0e2d55;
+      font: inherit;
+      text-align: left;
+      box-shadow: 0 10px 20px rgba(17,43,85,0.06);
+    }
+
+    .deck-search-result strong,
+    .deck-search-result small {
+      display: block;
+      overflow-wrap: anywhere;
+    }
+
+    .deck-search-result small {
+      margin-top: 3px;
+      color: #627085;
+      font-size: 12px;
+      line-height: 1.25;
+      font-weight: 850;
+    }
+
+    .deck-search-result em {
+      color: #1559a8;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 900;
+      white-space: nowrap;
     }
 
     .dashboard-grid {
@@ -668,6 +780,21 @@
       display: block;
     }
 
+    .chart-hover-target {
+      fill: transparent;
+    }
+
+    .chart-tooltip {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.12s ease;
+    }
+
+    .chart-hover-group:hover .chart-tooltip,
+    .chart-hover-group:focus .chart-tooltip {
+      opacity: 1;
+    }
+
     .progress-legend {
       display: flex;
       gap: 14px;
@@ -721,6 +848,18 @@
       color: #627085;
       font-size: 13px;
       line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .progress-stat .practice-chip {
+      justify-self: end;
+      margin-top: 4px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #fee2e2;
+      color: #b91c1c;
+      font-size: 12px;
+      line-height: 1.1;
       font-weight: 900;
     }
 
@@ -875,7 +1014,7 @@
 
     .custom-deck-row {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto auto;
+      grid-template-columns: minmax(0, 1fr) auto auto auto;
       gap: 10px;
       align-items: center;
       padding: 12px;
@@ -1721,7 +1860,14 @@
               <h2>選擇學習範圍</h2>
               <p data-user-label></p>
             </div>
-            <div class="welcome-message" data-welcome-message></div>
+            <div class="dashboard-side-tools">
+              <div class="welcome-message" data-welcome-message></div>
+              <form class="dashboard-search" data-deck-search-form>
+                <label for="deck-search-input">搜尋卡片 / 卡組</label>
+                <input id="deck-search-input" name="deckSearch" type="search" data-deck-search-input placeholder="輸入字眼，即可搜尋已開放卡組">
+              </form>
+              <div class="deck-search-results" data-deck-search-results></div>
+            </div>
           </div>
 
           <div class="dashboard-grid">
@@ -1752,7 +1898,7 @@
             <div class="progress-stat-grid">
               <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span></div>
               <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span></div>
-              <button class="progress-stat actionable" type="button" data-red-dashboard-toggle><strong data-progress-stat-red>0</strong><span>目前紅叉總數</span></button>
+              <button class="progress-stat actionable" type="button" data-red-dashboard-toggle><strong data-progress-stat-red>0</strong><span>目前紅叉總數</span><span class="practice-chip">Practice</span></button>
             </div>
             <div class="red-dashboard-panel hidden" data-red-dashboard-panel>
               <div class="red-dashboard-head">
@@ -26840,6 +26986,9 @@ window.EDMUND_FLASHCARD_SEED = {
     let studentSessionToken = "";
     let studentPasswordLogsCache = {};
     let cachedSpeechVoices = [];
+    let selectedAttemptPage = 1;
+    let adminStudentStateCache = {};
+    const ADMIN_ATTEMPTS_PAGE_SIZE = 8;
 
     function escapeHtml(value) {
       return String(value)
@@ -27091,6 +27240,43 @@ window.EDMUND_FLASHCARD_SEED = {
       }
     }
 
+    async function loadStudentStateForAdmin(studentName) {
+      if (!studentName || !adminPasswordForSession || !studentsLoadedFromSupabase) return;
+      try {
+        const rows = await callSupabaseRpc("flashcard_admin_get_student_state", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession,
+          p_student_name: studentName
+        });
+        const state = {};
+        SUPABASE_SYNC_KEYS.forEach(key => {
+          state[key] = defaultRemoteValueForKey(key);
+        });
+        (rows || []).forEach(row => {
+          if (row?.key) state[row.key] = row.value;
+        });
+        adminStudentStateCache[studentName] = state;
+      } catch (error) {
+        console.warn("Could not load selected student state:", error);
+        updateSupabaseStatus("Supabase: run state SQL", "warning");
+      }
+    }
+
+    function stateValueForStudent(studentName, key, fallback) {
+      if (currentUser?.name === studentName || !isAdmin() || !studentsLoadedFromSupabase) return readJson(key, fallback);
+      const state = adminStudentStateCache[studentName];
+      if (state && Object.prototype.hasOwnProperty.call(state, key)) return state[key];
+      return fallback;
+    }
+
+    function attemptsForStudent(studentName) {
+      return (stateValueForStudent(studentName, ATTEMPTS_KEY, []) || []).filter(attempt => attempt.studentName === studentName);
+    }
+
+    function resetLogsForStudent(studentName) {
+      return (stateValueForStudent(studentName, RESET_LOG_KEY, []) || []).filter(log => log.studentName === studentName);
+    }
+
     function getStudents() {
       if (studentsLoadedFromSupabase) return studentsCache.map(normalizeStudent);
       return readJson(STUDENTS_KEY, []).map(normalizeStudent).filter(student => student.name);
@@ -27195,6 +27381,22 @@ window.EDMUND_FLASHCARD_SEED = {
         deck.id === deckId ? { ...deck, updatedAt: Date.now() } : deck
       ));
       saveCardStore(store);
+      return true;
+    }
+
+    function deleteStudentCustomDeck(deckId) {
+      if (!currentUser?.name || !deckId || !deckId.startsWith("student-custom/")) return false;
+      const store = getCardStore();
+      const metaKey = studentDeckMetaKey();
+      delete store[deckId];
+      store[metaKey] = (Array.isArray(store[metaKey]) ? store[metaKey] : []).filter(deck => deck.id !== deckId);
+      saveCardStore(store);
+      clearSavedProgress(deckId);
+      const familiarityStore = getFamiliarityStore();
+      Object.keys(familiarityStore).forEach(key => {
+        if (key === familiarityKey(deckId) || key.endsWith(`::${deckId}`)) delete familiarityStore[key];
+      });
+      saveFamiliarityStore(familiarityStore);
       return true;
     }
 
@@ -27762,6 +27964,90 @@ window.EDMUND_FLASHCARD_SEED = {
       return groups;
     }
 
+    function deckIsSearchable(deckId) {
+      const sectionKey = sectionKeyForDeck(deckId);
+      return Boolean(sectionKey && canAccess(sectionKey));
+    }
+
+    function searchableCardRows() {
+      return getKnownDeckIds()
+        .filter(deckIsSearchable)
+        .flatMap(deckId => getDeckCards(deckId).map((card, index) => ({
+          deckId,
+          deckTitle: deckTitleFromId(deckId),
+          index,
+          card,
+          haystack: normalizeCardText([
+            card.front,
+            card.meaning,
+            ...(card.examples || []).flatMap(example => [example.en, example.zh])
+          ].filter(Boolean).join(" ")).toLowerCase()
+        })));
+    }
+
+    function renderDeckSearchResults(query = "") {
+      const list = document.querySelector("[data-deck-search-results]");
+      if (!list) return;
+      const clean = normalizeCardText(query).trim().toLowerCase();
+      if (!clean) {
+        list.innerHTML = "";
+        return;
+      }
+      const results = searchableCardRows()
+        .filter(row => row.haystack.includes(clean))
+        .slice(0, 18);
+      list.innerHTML = results.length
+        ? results.map(row => `
+          <button class="deck-search-result" type="button" data-search-card="${escapeHtml(row.deckId)}|${row.index}">
+            <span>
+              <strong>${escapeHtml(row.card.front || "-")}</strong>
+              <small>${escapeHtml(row.card.meaning || "-")}<br>${escapeHtml(row.deckTitle)}</small>
+            </span>
+            <em>練習</em>
+          </button>
+        `).join("")
+        : `<p class="note-text">找不到已開放卡組內的相關卡片。</p>`;
+    }
+
+    function startSearchCardSession(deckId, cardIndex) {
+      const sourceCards = getDeckCards(deckId);
+      const sourceCard = sourceCards[Number(cardIndex)];
+      if (!sourceCard || !deckIsSearchable(deckId)) return;
+      currentDeckId = deckId;
+      currentDeckTitle = deckTitleFromId(deckId);
+      const cards = [{
+        ...sourceCard,
+        sourceDeckId: deckId,
+        sourceDeckTitle: currentDeckTitle,
+        sourceCardIndex: Number(cardIndex)
+      }];
+      studySession = {
+        mode: "search-card",
+        cardLimit: 0,
+        rangeStart: 0,
+        rangeEnd: 0,
+        rangeLabel: "搜尋卡片",
+        cards,
+        roundNumber: 1,
+        roundQueue: [0],
+        initialQueue: [0],
+        initialTotal: 1,
+        currentPosition: 0,
+        answers: {},
+        outcomes: {},
+        cardAttemptCounts: {},
+        flipped: false,
+        completed: false,
+        attemptId: logAttemptStart("搜尋卡片", 1)
+      };
+      document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜搜尋結果｜1/1`;
+      hideReviewPanel();
+      showAppPanel("deck-view");
+      saveCurrentProgress();
+      renderStudyCard();
+    }
+
     function renderHighAttemptCards() {
       const list = document.querySelector("[data-high-attempt-list]");
       if (!list) return;
@@ -27877,6 +28163,19 @@ window.EDMUND_FLASHCARD_SEED = {
       }).join(" ");
     }
 
+    function chartPointCoords(points, key, dimensions, yMax) {
+      const { width, height, left, right, top, bottom } = dimensions;
+      const chartWidth = width - left - right;
+      const chartHeight = height - top - bottom;
+      const denominator = Math.max(points.length - 1, 1);
+      return points.map((point, index) => ({
+        point,
+        x: left + (chartWidth * index / denominator),
+        y: top + chartHeight - (chartHeight * (point[key] || 0) / yMax),
+        value: point[key] || 0
+      }));
+    }
+
     function progressChartSvg(series) {
       const points = series.points;
       const width = 900;
@@ -27903,6 +28202,27 @@ window.EDMUND_FLASHCARD_SEED = {
         const x = left + (chartWidth * index / Math.max(xLabels.length - 1, 1));
         return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="900">${compactDateLabel(point.date)}</text>`;
       }).join("");
+      const hoverSeries = [
+        { key: "total", label: "總完成", color: "#2563eb", offset: -42 },
+        { key: "green", label: "綠勾", color: "#16a34a", offset: 0 },
+        { key: "red", label: "紅叉", color: "#dc2626", offset: 42 }
+      ];
+      const hoverPoints = hoverSeries.flatMap(seriesItem => chartPointCoords(points, seriesItem.key, dimensions, yMax).map(item => {
+        const boxX = Math.min(Math.max(item.x - 58, left), width - right - 116);
+        const boxY = Math.max(top + 4, item.y + seriesItem.offset - 48);
+        return `
+          <g class="chart-hover-group" tabindex="0">
+            <circle class="chart-hover-target" cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="15" />
+            <circle cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="4" fill="${seriesItem.color}" />
+            <g class="chart-tooltip">
+              <line x1="${item.x.toFixed(2)}" y1="${top}" x2="${item.x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(23,32,51,0.22)" stroke-width="1" stroke-dasharray="4 5" />
+              <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="116" height="38" rx="8" fill="#172033" opacity="0.92" />
+              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 16).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">${escapeHtml(seriesItem.label)}：${item.value}</text>
+              <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 30).toFixed(2)}" fill="#cbd5e1" font-size="10" font-weight="800">${compactDateLabel(item.point.date)}</text>
+            </g>
+          </g>
+        `;
+      })).join("");
       const emptyMessage = hasData ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#627085" font-size="20" font-weight="900">暫時未有溫習紀錄</text>`;
       return `
         <rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,0.62)" />
@@ -27915,6 +28235,7 @@ window.EDMUND_FLASHCARD_SEED = {
         <circle cx="${lastX}" cy="${yFor(lastPoint.total).toFixed(2)}" r="5" fill="#2563eb" />
         <circle cx="${lastX}" cy="${yFor(lastPoint.green).toFixed(2)}" r="5" fill="#16a34a" />
         <circle cx="${lastX}" cy="${yFor(lastPoint.red).toFixed(2)}" r="5" fill="#dc2626" />
+        ${hoverPoints}
         ${axisLabels}
         <text x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">卡片數量</text>
         ${emptyMessage}
@@ -27961,6 +28282,8 @@ window.EDMUND_FLASHCARD_SEED = {
         `;
       }
       renderProgressDashboard();
+      const searchInput = document.querySelector("[data-deck-search-input]");
+      renderDeckSearchResults(searchInput?.value || "");
     }
 
     function renderStudents() {
@@ -27994,14 +28317,16 @@ window.EDMUND_FLASHCARD_SEED = {
         return;
       }
 
-      const attempts = getAttempts()
-        .filter(attempt => attempt.studentName === student.name)
+      const attempts = attemptsForStudent(student.name)
         .sort((a, b) => (b.startedAt || 0) - (a.startedAt || 0));
+      const totalAttemptPages = Math.max(1, Math.ceil(attempts.length / ADMIN_ATTEMPTS_PAGE_SIZE));
+      selectedAttemptPage = Math.min(Math.max(1, selectedAttemptPage), totalAttemptPages);
+      const attemptStart = (selectedAttemptPage - 1) * ADMIN_ATTEMPTS_PAGE_SIZE;
+      const visibleAttempts = attempts.slice(attemptStart, attemptStart + ADMIN_ATTEMPTS_PAGE_SIZE);
       const logs = getPasswordLogs()
         .filter(log => log.studentName === student.name)
         .sort((a, b) => (b.changedAt || 0) - (a.changedAt || 0));
-      const resetLogs = getResetLogs()
-        .filter(log => log.studentName === student.name)
+      const resetLogs = resetLogsForStudent(student.name)
         .sort((a, b) => (b.resetAt || 0) - (a.resetAt || 0));
 
       panel.innerHTML = `
@@ -28043,13 +28368,20 @@ window.EDMUND_FLASHCARD_SEED = {
         <div>
           <h3>Attempt Details</h3>
           <div class="attempt-list">
-            ${attempts.length ? attempts.map(attempt => `
+            ${visibleAttempts.length ? visibleAttempts.map(attempt => `
               <div class="attempt-row">
                 <strong>${exactDateTime(attempt.startedAt)}</strong>
                 <span>${escapeHtml(attempt.deckTitle || deckTitleFromId(attempt.deckId || ""))}<br>Mode: ${escapeHtml(attempt.mode || "-")} | Total: ${attempt.totalCards || 0} | Progress: ${attempt.answeredCount || 0}/${attempt.totalCards || 0} | Green: ${attempt.green || 0} | Red: ${attempt.red || 0} | Completed: ${attempt.completed ? "Yes" : "No"}</span>
               </div>
             `).join("") : `<p class="note-text">No attempts yet.</p>`}
           </div>
+          ${attempts.length > ADMIN_ATTEMPTS_PAGE_SIZE ? `
+            <div class="attempt-pagination">
+              <button class="attempt-page-button" type="button" data-attempt-page="${selectedAttemptPage - 1}" ${selectedAttemptPage <= 1 ? "disabled" : ""}>上一頁</button>
+              <span>第 ${selectedAttemptPage} / ${totalAttemptPages} 頁，共 ${attempts.length} 次</span>
+              <button class="attempt-page-button" type="button" data-attempt-page="${selectedAttemptPage + 1}" ${selectedAttemptPage >= totalAttemptPages ? "disabled" : ""}>下一頁</button>
+            </div>
+          ` : ""}
         </div>
 
         <div>
@@ -28450,6 +28782,7 @@ window.EDMUND_FLASHCARD_SEED = {
                   </span>
                   <button class="secondary-button" type="button" data-open-deck="${escapeHtml(deck.id)}" data-deck-title="${escapeHtml(deck.title)}">練習</button>
                   <button class="secondary-button" type="button" data-route="student-custom-add|${escapeHtml(deck.id)}">新增卡片</button>
+                  <button class="mini-button danger" type="button" data-delete-custom-deck="${escapeHtml(deck.id)}">Delete</button>
                 </div>
               `).join("") : `<p class="note-text">暫時未有自製卡組。</p>`}
             </div>
@@ -29431,6 +29764,18 @@ window.EDMUND_FLASHCARD_SEED = {
         }
       });
 
+      document.addEventListener("input", event => {
+        const searchInput = event.target.closest("[data-deck-search-input]");
+        if (!searchInput) return;
+        renderDeckSearchResults(searchInput.value);
+      });
+
+      document.querySelector("[data-deck-search-form]")?.addEventListener("submit", event => {
+        event.preventDefault();
+        const firstResult = document.querySelector("[data-search-card]");
+        firstResult?.click();
+      });
+
       document.addEventListener("change", async event => {
         const toggle = event.target.closest("[data-toggle-access]");
         if (!toggle) return;
@@ -29455,6 +29800,31 @@ window.EDMUND_FLASHCARD_SEED = {
       });
 
       document.addEventListener("click", async event => {
+        const attemptPageButton = event.target.closest("[data-attempt-page]");
+        if (attemptPageButton) {
+          selectedAttemptPage = Number(attemptPageButton.getAttribute("data-attempt-page") || 1);
+          renderStudentProfile();
+          return;
+        }
+
+        const deleteCustomDeckButton = event.target.closest("[data-delete-custom-deck]");
+        if (deleteCustomDeckButton) {
+          const deckId = deleteCustomDeckButton.getAttribute("data-delete-custom-deck");
+          if (window.confirm("確定要刪除這個自製卡組嗎？卡片會一併刪除。")) {
+            deleteStudentCustomDeck(deckId);
+            showStudentCustomHome();
+          }
+          return;
+        }
+
+        const searchCardButton = event.target.closest("[data-search-card]");
+        if (searchCardButton) {
+          if (!confirmLeaveInProgress()) return;
+          const [deckId, index] = searchCardButton.getAttribute("data-search-card").split("|");
+          startSearchCardSession(deckId, Number(index));
+          return;
+        }
+
         const passwordToggle = event.target.closest("[data-toggle-password]");
         if (passwordToggle) {
           const selector = passwordToggle.getAttribute("data-toggle-password");
@@ -29561,7 +29931,13 @@ window.EDMUND_FLASHCARD_SEED = {
         const selectStudentButton = event.target.closest("[data-select-student]");
         if (selectStudentButton) {
           selectedStudentName = selectStudentButton.getAttribute("data-select-student");
-          if (studentsLoadedFromSupabase) await loadPasswordLogsFromSupabase(selectedStudentName);
+          selectedAttemptPage = 1;
+          if (studentsLoadedFromSupabase) {
+            await Promise.all([
+              loadPasswordLogsFromSupabase(selectedStudentName),
+              loadStudentStateForAdmin(selectedStudentName)
+            ]);
+          }
           renderStudentProfile();
           return;
         }
