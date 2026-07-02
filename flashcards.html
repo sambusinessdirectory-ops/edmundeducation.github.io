@@ -637,6 +637,24 @@
       white-space: nowrap;
     }
 
+
+    .deck-search-result.deck-match {
+      border-color: rgba(5,150,105,0.20);
+      background: rgba(236,253,245,0.95);
+    }
+
+    .deck-search-result.deck-match em {
+      color: #047857;
+    }
+
+    .deck-search-section-label {
+      margin: 8px 0 2px;
+      color: #627085;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
     .dashboard-grid {
       display: grid;
       grid-template-columns: minmax(0, 1.22fr) minmax(320px, 0.58fr);
@@ -1191,6 +1209,38 @@
       line-height: 1.1;
       font-weight: 900;
       box-shadow: inset 0 2px 0 rgba(255,255,255,0.42), 0 6px 0 #bae6fd;
+    }
+
+    .deck-start-actions {
+      min-width: min(420px, 100%);
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .export-pdf-button {
+      min-height: 56px;
+      border: 0;
+      border-radius: 18px;
+      padding: 0 18px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.08) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #3f91f7 0%, #2f80ed 55%, #2472d8 100%);
+      color: #fff;
+      font: inherit;
+      font-size: 14px;
+      line-height: 1.15;
+      font-weight: 900;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        0 7px 0 #1559a8,
+        0 18px 28px rgba(47,128,237,0.18);
+    }
+
+    .export-pdf-button:disabled {
+      opacity: 0.45;
     }
 
     .access-actions,
@@ -1963,7 +2013,10 @@
               <h2 data-start-title>Deck</h2>
               <p data-start-path></p>
             </div>
-            <button class="reset-square hidden" type="button" data-reset-current-deck>重設<br>紀錄</button>
+            <div class="deck-start-actions">
+              <button class="export-pdf-button" type="button" data-export-deck-pdf>匯出卡片列表 (PDF)</button>
+              <button class="reset-square hidden" type="button" data-reset-current-deck>重設<br>紀錄</button>
+            </div>
           </div>
           <div class="resume-panel hidden" data-resume-panel>
             <h3>已有未完成進度</h3>
@@ -27969,6 +28022,23 @@ window.EDMUND_FLASHCARD_SEED = {
       return Boolean(sectionKey && canAccess(sectionKey));
     }
 
+    function normalizeSearchText(value) {
+      return normalizeCardText(value)
+        .toLowerCase()
+        .replace(/[^a-z0-9一-鿿]+/g, " ")
+        .trim();
+    }
+
+    function searchTokens(value) {
+      return normalizeSearchText(value).split(/\s+/).filter(Boolean);
+    }
+
+    function searchMatches(haystack, tokens) {
+      if (!tokens.length) return false;
+      const normalized = normalizeSearchText(haystack);
+      return tokens.every(token => normalized.includes(token));
+    }
+
     function searchableCardRows() {
       return getKnownDeckIds()
         .filter(deckIsSearchable)
@@ -27977,27 +28047,114 @@ window.EDMUND_FLASHCARD_SEED = {
           deckTitle: deckTitleFromId(deckId),
           index,
           card,
-          haystack: normalizeCardText([
-            card.front,
-            card.meaning,
-            ...(card.examples || []).flatMap(example => [example.en, example.zh])
-          ].filter(Boolean).join(" ")).toLowerCase()
+          haystack: [card.front, card.meaning].filter(Boolean).join(" ")
         })));
+    }
+
+    function aggregateDeckRows() {
+      const rows = new Map();
+      getKnownDeckIds().filter(deckIsSearchable).forEach(deckId => {
+        const parts = String(deckId).split("/").filter(Boolean);
+        parts.forEach((_, index) => {
+          if (index < 1 || index >= parts.length - 1) return;
+          const prefix = parts.slice(0, index + 1).join("/");
+          const sectionKey = sectionKeyForDeck(prefix) || sectionKeyForDeck(deckId);
+          if (!sectionKey || !canAccess(sectionKey)) return;
+          const existing = rows.get(prefix) || { deckId: prefix, deckTitle: deckTitleFromId(prefix), cardCount: 0, childCount: 0, aggregate: true };
+          existing.cardCount += getDeckCards(deckId).length;
+          existing.childCount += 1;
+          rows.set(prefix, existing);
+        });
+      });
+      return [...rows.values()];
+    }
+
+    function predefinedSearchDeckRows() {
+      const rows = [];
+      ieltsListeningPractices.forEach(practiceLabel => {
+        const practiceId = deckIdForLabel("ielts/listening", practiceLabel);
+        rows.push({
+          deckId: practiceId,
+          deckTitle: `IELTS / Listening / ${practiceLabel}`,
+          cardCount: deckCardCount(practiceId),
+          childCount: 4,
+          aggregate: true,
+          virtual: true
+        });
+        ["Part 1", "Part 2", "Part 3", "Part 4"].forEach(partLabel => {
+          const partId = `${practiceId}/${partLabel.toLowerCase().replaceAll(" ", "-")}`;
+          rows.push({
+            deckId: partId,
+            deckTitle: `IELTS / Listening / ${practiceLabel} / ${partLabel}`,
+            cardCount: getDeckCards(partId).length,
+            childCount: 0,
+            aggregate: false,
+            virtual: true
+          });
+        });
+      });
+      return rows.filter(row => deckIsSearchable(row.deckId));
+    }
+
+    function mergeSearchDeckRow(map, row) {
+      const existing = map.get(row.deckId);
+      if (!existing) {
+        map.set(row.deckId, row);
+        return;
+      }
+      map.set(row.deckId, {
+        ...existing,
+        ...row,
+        cardCount: Math.max(existing.cardCount || 0, row.cardCount || 0),
+        childCount: Math.max(existing.childCount || 0, row.childCount || 0),
+        aggregate: Boolean(existing.aggregate || row.aggregate)
+      });
+    }
+
+    function searchableDeckRows() {
+      const exactRows = getKnownDeckIds()
+        .filter(deckIsSearchable)
+        .map(deckId => ({
+          deckId,
+          deckTitle: deckTitleFromId(deckId),
+          cardCount: getDeckCards(deckId).length,
+          childCount: 0,
+          aggregate: false
+        }));
+      const byId = new Map();
+      [...aggregateDeckRows(), ...predefinedSearchDeckRows(), ...exactRows].forEach(row => mergeSearchDeckRow(byId, row));
+      return [...byId.values()];
     }
 
     function renderDeckSearchResults(query = "") {
       const list = document.querySelector("[data-deck-search-results]");
       if (!list) return;
-      const clean = normalizeCardText(query).trim().toLowerCase();
-      if (!clean) {
+      const tokens = searchTokens(query);
+      if (!tokens.length) {
         list.innerHTML = "";
         return;
       }
-      const results = searchableCardRows()
-        .filter(row => row.haystack.includes(clean))
-        .slice(0, 18);
-      list.innerHTML = results.length
-        ? results.map(row => `
+      const deckResults = searchableDeckRows()
+        .filter(row => searchMatches(`${row.deckTitle} ${row.deckId.replaceAll("/", " ")}`, tokens))
+        .slice(0, 8);
+      const cardResults = searchableCardRows()
+        .filter(row => searchMatches(row.haystack, tokens))
+        .slice(0, 14);
+      if (!deckResults.length && !cardResults.length) {
+        list.innerHTML = `<p class="note-text">找不到已開放卡組內的相關卡片或卡組。</p>`;
+        return;
+      }
+      list.innerHTML = `
+        ${deckResults.length ? `<div class="deck-search-section-label">卡組</div>${deckResults.map(row => `
+          <button class="deck-search-result deck-match" type="button" data-search-deck="${escapeHtml(row.deckId)}" data-search-aggregate="${row.aggregate ? "true" : "false"}">
+            <span>
+              <strong>${escapeHtml(row.deckTitle)}</strong>
+              <small>${row.aggregate ? `${row.childCount} 個子卡組` : "卡組"}｜${row.cardCount} 張卡</small>
+            </span>
+            <em>進入</em>
+          </button>
+        `).join("")}` : ""}
+        ${cardResults.length ? `<div class="deck-search-section-label">卡片</div>${cardResults.map(row => `
           <button class="deck-search-result" type="button" data-search-card="${escapeHtml(row.deckId)}|${row.index}">
             <span>
               <strong>${escapeHtml(row.card.front || "-")}</strong>
@@ -28005,8 +28162,8 @@ window.EDMUND_FLASHCARD_SEED = {
             </span>
             <em>練習</em>
           </button>
-        `).join("")
-        : `<p class="note-text">找不到已開放卡組內的相關卡片。</p>`;
+        `).join("")}` : ""}
+      `;
     }
 
     function startSearchCardSession(deckId, cardIndex) {
@@ -28046,6 +28203,36 @@ window.EDMUND_FLASHCARD_SEED = {
       showAppPanel("deck-view");
       saveCurrentProgress();
       renderStudyCard();
+    }
+
+    function openSearchDeckResult(deckId, aggregate = false) {
+      if (!deckId) return;
+      if (!aggregate && getDeckCards(deckId).length) {
+        openDeckStart(deckId);
+        return;
+      }
+      const childRows = searchableDeckRows()
+        .filter(row => row.deckId !== deckId && row.deckId.startsWith(`${deckId}/`) && !row.aggregate)
+        .sort((a, b) => a.deckTitle.localeCompare(b.deckTitle, "en-HK", { numeric: true }));
+      if (!childRows.length) {
+        openDeckStart(deckId);
+        return;
+      }
+      showOptions(
+        deckTitleFromId(deckId),
+        "搜尋到的子卡組",
+        () => `
+          <div class="option-column">
+            <h3>${escapeHtml(deckTitleFromId(deckId))}</h3>
+            ${childRows.map(row => {
+              const titleParts = row.deckTitle.split(" / ");
+              const label = titleParts[titleParts.length - 1] || row.deckTitle;
+              return optionButton(label, row.deckId, row.deckTitle);
+            }).join("")}
+          </div>
+        `,
+        "columns-grid one"
+      );
     }
 
     function renderHighAttemptCards() {
@@ -28908,6 +29095,98 @@ window.EDMUND_FLASHCARD_SEED = {
       return String(deckId || "").split("/").filter(Boolean).map(titlePart).join(" / ");
     }
 
+    function exportFilename(title) {
+      return `${String(title || "flashcards").replace(/[\/:*?"<>|]+/g, "-").replace(/\s+/g, " ").trim()} - Edmund Education Flashcards`;
+    }
+
+    function exportDeckPdf() {
+      if (!currentDeckId) return;
+      const cards = getDeckCards(currentDeckId);
+      if (!cards.length) {
+        window.alert("這個卡組暫時未有卡片可匯出。");
+        return;
+      }
+      const rows = cards.map((card, index) => `
+        <tr>
+          <td class="index">${index + 1}</td>
+          <td>${escapeHtml(card.front || "")}</td>
+          <td>${escapeHtml(card.meaning || "")}</td>
+        </tr>
+      `).join("");
+      const title = exportFilename(currentDeckTitle);
+      const printWindow = window.open("", "_blank");
+      if (!printWindow) {
+        window.alert("瀏覽器阻擋了匯出視窗，請允許 pop-up 後再試一次。");
+        return;
+      }
+      printWindow.document.open();
+      printWindow.document.write(`<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>${escapeHtml(title)}</title>
+  <style>
+    @page { size: A4; margin: 14mm 12mm; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #0e2d55;
+      background: linear-gradient(135deg, #dceeff 0%, #f8f4e8 100%);
+      font-family: Georgia, 'Times New Roman', serif;
+    }
+    .page-shell { min-height: 100vh; padding: 24px; }
+    .export-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 42px;
+      margin-bottom: 24px;
+      padding: 18px 20px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.74);
+      border: 1px solid rgba(47,128,237,0.14);
+    }
+    .brand { color: #050505; font-size: 34px; letter-spacing: 0.12em; font-weight: 500; }
+    .elearning { height: 42px; width: auto; object-fit: contain; }
+    h1 { margin: 0 0 6px; font-size: 30px; line-height: 1.16; }
+    .meta { margin: 0 0 18px; color: #627085; font-size: 14px; font-weight: 900; }
+    table { width: 100%; border-collapse: collapse; background: rgba(255,255,255,0.92); border-radius: 16px; overflow: hidden; }
+    thead { display: table-header-group; }
+    tr { break-inside: avoid; page-break-inside: avoid; }
+    th, td { border: 1px solid rgba(47,128,237,0.18); padding: 10px 12px; vertical-align: top; font-size: 13px; line-height: 1.35; }
+    th { background: #2f80ed; color: white; text-align: left; font-size: 14px; }
+    td.index { width: 42px; color: #627085; text-align: right; font-weight: 900; }
+    td:nth-child(2), td:nth-child(3) { width: 49%; }
+    @media print {
+      body { background: linear-gradient(135deg, #dceeff 0%, #f8f4e8 100%); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .page-shell { padding: 0; }
+      .export-header { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="export-header">
+      <div class="brand">EdmundEducation</div>
+      <img class="elearning" src="${new URL("E-Learning.png", window.location.href).href}" alt="E-Learning">
+    </header>
+    <h1>${escapeHtml(currentDeckTitle)}</h1>
+    <p class="meta">Edmund Education - E-learning｜${cards.length} 張卡｜English / 中文翻譯</p>
+    <table>
+      <thead><tr><th>#</th><th>English</th><th>中文翻譯</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </main>
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => window.print(), 250);
+    });
+  <\/script>
+</body>
+</html>`);
+      printWindow.document.close();
+    }
+
     function savedProgressForDeck(deckId) {
       if (!currentUser?.name) return null;
       const saved = getProgressStore()[progressKey(deckId)];
@@ -28941,6 +29220,8 @@ window.EDMUND_FLASHCARD_SEED = {
         resetCurrentDeckButton.classList.toggle("hidden", !currentUser?.name);
         resetCurrentDeckButton.setAttribute("data-reset-current-deck", currentDeckId);
       }
+      const exportButton = document.querySelector("[data-export-deck-pdf]");
+      if (exportButton) exportButton.disabled = count === 0;
 
       const saved = savedProgressForDeck(currentDeckId);
       const resumePanel = document.querySelector("[data-resume-panel]");
@@ -29825,6 +30106,22 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const searchDeckButton = event.target.closest("[data-search-deck]");
+        if (searchDeckButton) {
+          if (!confirmLeaveInProgress()) return;
+          openSearchDeckResult(
+            searchDeckButton.getAttribute("data-search-deck"),
+            searchDeckButton.getAttribute("data-search-aggregate") === "true"
+          );
+          return;
+        }
+
+        const exportDeckButton = event.target.closest("[data-export-deck-pdf]");
+        if (exportDeckButton) {
+          exportDeckPdf();
+          return;
+        }
+
         const passwordToggle = event.target.closest("[data-toggle-password]");
         if (passwordToggle) {
           const selector = passwordToggle.getAttribute("data-toggle-password");
@@ -29995,7 +30292,8 @@ window.EDMUND_FLASHCARD_SEED = {
           const sectionKey = openDeckButton.getAttribute("data-section-key") || sectionKeyForDeck(deckId);
           if (sectionKey && !canAccess(sectionKey)) return;
           if (/^ielts\/listening\/Practice \d+$/.test(deckId)) {
-            const practiceLabel = deckId.split("/").at(-1);
+            const deckParts = deckId.split("/");
+            const practiceLabel = deckParts[deckParts.length - 1];
             showIeltsParts(practiceLabel, deckId);
           } else {
             openDeckStart(deckId);
