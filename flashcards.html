@@ -26819,6 +26819,7 @@ window.EDMUND_FLASHCARD_SEED = {
     let adminPasswordForSession = "";
     let studentSessionToken = "";
     let studentPasswordLogsCache = {};
+    let cachedSpeechVoices = [];
 
     function escapeHtml(value) {
       return String(value)
@@ -29102,15 +29103,45 @@ window.EDMUND_FLASHCARD_SEED = {
       return Boolean(currentCard()?.front) && "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
     }
 
+    function refreshSpeechVoices() {
+      if (!("speechSynthesis" in window) || !window.speechSynthesis.getVoices) return [];
+      const voices = window.speechSynthesis.getVoices();
+      if (voices.length) cachedSpeechVoices = voices;
+      return cachedSpeechVoices;
+    }
+
+    function scoreSpeechVoice(voice) {
+      const name = `${voice.name || ""} ${voice.voiceURI || ""}`;
+      const lang = voice.lang || "";
+      let score = 0;
+      if (/^en-US$/i.test(lang)) score += 120;
+      else if (/^en[-_]?/i.test(lang)) score += 45;
+      if (/google.*(us|united states).*english|english.*(us|united states).*google/i.test(name)) score += 80;
+      if (/microsoft.*(david|guy|roger|brian)|(david|guy|alex|aaron|nathan|ryan|john|matthew|joey|justin|kevin)/i.test(name)) score += 90;
+      if (/natural|premium|enhanced/i.test(name)) score += 35;
+      if (voice.localService) score += 8;
+      if (/female|woman|samantha|victoria|karen|moira|tessa|zira|aria|jenny|susan|ava|allison/i.test(name)) score -= 70;
+      if (/compact|novelty|whisper|bad news|bells|boing|bubbles|cellos|deranged|hysterical|pipe organ|trinoids|zarvox/i.test(name)) score -= 150;
+      return score;
+    }
+
+    function preferredSpeechVoice() {
+      const voices = refreshSpeechVoices();
+      if (!voices.length) return null;
+      return [...voices]
+        .filter(voice => /^en[-_]?/i.test(voice.lang || ""))
+        .sort((a, b) => scoreSpeechVoice(b) - scoreSpeechVoice(a))[0] || null;
+    }
+
     function speakCurrentCard() {
       const card = currentCard();
       if (!card?.front || !("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) return;
       const utterance = new SpeechSynthesisUtterance(card.front);
-      utterance.lang = "en-US";
-      utterance.rate = 0.82;
-      utterance.pitch = 1;
-      const voices = window.speechSynthesis.getVoices ? window.speechSynthesis.getVoices() : [];
-      const preferredVoice = voices.find(voice => /en-US/i.test(voice.lang)) || voices.find(voice => /^en/i.test(voice.lang));
+      const preferredVoice = preferredSpeechVoice();
+      utterance.lang = preferredVoice?.lang || "en-US";
+      utterance.rate = 0.94;
+      utterance.pitch = 0.92;
+      utterance.volume = 1;
       if (preferredVoice) utterance.voice = preferredVoice;
       window.speechSynthesis.cancel();
       window.speechSynthesis.speak(utterance);
@@ -29688,6 +29719,10 @@ window.EDMUND_FLASHCARD_SEED = {
       });
     }
 
+    refreshSpeechVoices();
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.onvoiceschanged = refreshSpeechVoices;
+    }
     restoreSession();
     setupEvents();
     if (currentUser) {
