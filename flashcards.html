@@ -738,20 +738,20 @@
     .tile.red-tile:not(.locked) {
       background:
         linear-gradient(180deg, rgba(255,255,255,0.32) 0%, rgba(255,255,255,0.08) 36%, rgba(255,255,255,0) 37%),
-        linear-gradient(180deg, #ef4444 0%, #dc2626 58%, #b91c1c 100%);
+        linear-gradient(180deg, #9f1239 0%, #881337 58%, #6f102c 100%);
       box-shadow:
         inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -10px 18px rgba(127,29,29,0.16),
-        0 8px 0 #991b1b,
-        0 20px 30px rgba(220,38,38,0.20);
+        inset 0 -10px 18px rgba(76,5,25,0.18),
+        0 8px 0 #4c0519,
+        0 20px 30px rgba(136,19,55,0.22);
     }
 
     .tile.red-tile:not(.locked):hover {
       box-shadow:
         inset 0 2px 0 rgba(255,255,255,0.34),
-        inset 0 -10px 18px rgba(127,29,29,0.16),
-        0 10px 0 #991b1b,
-        0 26px 36px rgba(220,38,38,0.24);
+        inset 0 -10px 18px rgba(76,5,25,0.18),
+        0 10px 0 #4c0519,
+        0 26px 36px rgba(136,19,55,0.26);
     }
 
     .tile.wide-tile {
@@ -905,6 +905,27 @@
       font-weight: 900;
     }
 
+    .stat-export-button {
+      justify-self: start;
+      min-height: 34px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 14px;
+      background: #e0f2fe;
+      color: #1559a8;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 900;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.72), 0 5px 0 #bae6fd;
+      transition: transform 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .stat-export-button:hover {
+      transform: translateY(-1px);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.82), 0 6px 0 #bae6fd;
+    }
+
     button.progress-stat {
       width: 100%;
       border: 1px solid rgba(47,128,237,0.14);
@@ -939,6 +960,13 @@
       align-items: center;
       justify-content: space-between;
       gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .red-dashboard-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
       flex-wrap: wrap;
     }
 
@@ -984,6 +1012,19 @@
       font-size: clamp(20px, 1.8vw, 28px);
       line-height: 1.2;
       font-weight: 900;
+    }
+
+    .high-attempt-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .high-attempt-head h3 {
+      margin: 0;
     }
 
     .high-attempt-grid {
@@ -1532,7 +1573,7 @@
 
     .study-layout {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 230px;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
       gap: 18px;
       align-items: start;
     }
@@ -1649,6 +1690,65 @@
       gap: 18px;
       justify-items: start;
       padding-top: 12px;
+    }
+
+    .study-side {
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+
+    .card-note-panel {
+      display: grid;
+      gap: 10px;
+      padding: 16px;
+      border-radius: 22px;
+      border: 1px solid rgba(47,128,237,0.16);
+      background: rgba(255,255,255,0.78);
+      box-shadow: 0 18px 36px rgba(17,43,85,0.08);
+    }
+
+    .card-note-panel h3 {
+      margin: 0;
+      color: #0e2d55;
+      font-size: 19px;
+      line-height: 1.15;
+      font-weight: 900;
+    }
+
+    .card-note-panel p {
+      margin: 0;
+      color: #627085;
+      font-size: 13px;
+      line-height: 1.45;
+      font-weight: 850;
+    }
+
+    .card-note-panel textarea {
+      width: 100%;
+      min-height: 150px;
+      resize: vertical;
+      border-radius: 16px;
+      border: 1px solid rgba(47,128,237,0.18);
+      padding: 12px 13px;
+      color: #0e2d55;
+      background: rgba(255,255,255,0.92);
+      font: inherit;
+      font-size: 15px;
+      line-height: 1.4;
+      font-weight: 850;
+    }
+
+    .card-note-panel textarea:disabled {
+      opacity: 0.52;
+    }
+
+    .card-note-status {
+      min-height: 18px;
+      color: #047857;
+      font-size: 12px;
+      line-height: 1.3;
+      font-weight: 900;
     }
 
     .action-row {
@@ -1970,7 +2070,7 @@
               <span><i class="legend-dot legend-red"></i>紅叉卡片</span>
             </div>
             <div class="progress-stat-grid">
-              <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span></div>
+              <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span><button class="stat-export-button" type="button" data-export-dashboard-pdf="attempted">匯出總卡片列表 (PDF)</button></div>
               <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span></div>
               <button class="progress-stat actionable" type="button" data-red-dashboard-toggle><strong data-progress-stat-red>0</strong><span>目前紅叉總數</span><span class="practice-chip">Practice</span></button>
             </div>
@@ -1980,12 +2080,18 @@
                   <h3>目前紅叉卡片</h3>
                   <p class="note-text">所有仍然未解決的紅叉卡片都會集中在這裡。</p>
                 </div>
-                <button class="primary-button" type="button" data-start-red-review>重溫紅叉卡片</button>
+                <div class="red-dashboard-actions">
+                  <button class="export-pdf-button" type="button" data-export-dashboard-pdf="red">匯出紅叉卡片 (PDF)</button>
+                  <button class="primary-button" type="button" data-start-red-review>重溫紅叉卡片</button>
+                </div>
               </div>
               <div class="red-card-list" data-red-dashboard-list></div>
             </div>
             <div class="high-attempt-section" data-high-attempt-section>
-              <h3>高嘗試卡片</h3>
+              <div class="high-attempt-head">
+                <h3>高嘗試卡片</h3>
+                <button class="export-pdf-button" type="button" data-export-dashboard-pdf="high">匯出高嘗試卡片 (PDF)</button>
+              </div>
               <div data-high-attempt-list></div>
             </div>
           </section>
@@ -2173,16 +2279,25 @@
               <p class="note-text" data-card-hint>點擊卡片即可揭示答案。翻開後才可選擇綠勾或紅叉。</p>
             </div>
 
-            <div class="action-rail">
-              <div class="action-row">
-                <button class="round-button green" type="button" data-mark-card="green" disabled aria-label="I know this card">✓</button>
-                <span class="mouse-click-icon left" aria-label="Left click for green tick" title="左鍵：綠勾"></span>
+            <aside class="study-side">
+              <div class="action-rail">
+                <div class="action-row">
+                  <button class="round-button green" type="button" data-mark-card="green" disabled aria-label="I know this card">✓</button>
+                  <span class="mouse-click-icon left" aria-label="Left click for green tick" title="左鍵：綠勾"></span>
+                </div>
+                <div class="action-row">
+                  <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
+                  <span class="mouse-click-icon right" aria-label="Right click for red cross" title="右鍵：紅叉"></span>
+                </div>
               </div>
-              <div class="action-row">
-                <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
-                <span class="mouse-click-icon right" aria-label="Right click for red cross" title="右鍵：紅叉"></span>
-              </div>
-            </div>
+              <form class="card-note-panel" data-card-note-form>
+                <h3>私人備註</h3>
+                <p>You can add your comment on this card, such as "我總是搞錯這個字同 offer 的分別。"</p>
+                <textarea name="cardNote" data-card-note-text placeholder="寫低你對這張卡的私人備註"></textarea>
+                <button class="secondary-button" type="submit">儲存備註</button>
+                <span class="card-note-status" data-card-note-status></span>
+              </form>
+            </aside>
           </div>
         </section>
       </section>
@@ -37833,6 +37948,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const PROGRESS_KEY = "edmundFlashcardProgress";
     const RESET_LOG_KEY = "edmundFlashcardResetLogs";
     const FAMILIARITY_KEY = "edmundFlashcardFamiliarity";
+    const NOTES_KEY = "edmundFlashcardNotes";
     const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
     const SUPABASE_SYNC_KEYS = [
@@ -37840,7 +37956,8 @@ window.EDMUND_FLASHCARD_SEED = {
       ATTEMPTS_KEY,
       PROGRESS_KEY,
       RESET_LOG_KEY,
-      FAMILIARITY_KEY
+      FAMILIARITY_KEY,
+      NOTES_KEY
     ];
 
     const supabaseClient = window.supabase?.createClient
@@ -38439,6 +38556,14 @@ window.EDMUND_FLASHCARD_SEED = {
       writeJson(FAMILIARITY_KEY, store);
     }
 
+    function getCardNotesStore() {
+      return readJson(NOTES_KEY, {});
+    }
+
+    function saveCardNotesStore(store) {
+      writeJson(NOTES_KEY, store);
+    }
+
     function progressKey(deckId = currentDeckId, studentName = currentUser?.name) {
       return `${studentName || ""}::${deckId}`;
     }
@@ -38474,6 +38599,40 @@ window.EDMUND_FLASHCARD_SEED = {
       familiarity.red = familiarity.red.filter(index => index !== key);
       familiarity[status].push(key);
       saveDeckFamiliarity(deckId, familiarity);
+    }
+
+    function cardNoteStorageKey(deckId, index, front = "", studentName = currentUser?.name) {
+      return `${studentName || ""}::${cardStableKey(deckId, index, front)}`;
+    }
+
+    function currentCardNoteStorageKey() {
+      if (!currentUser?.name || !studySession?.roundQueue?.length) return "";
+      const sessionIndex = studySession.roundQueue[studySession.currentPosition];
+      const card = studySession.cards?.[Number(sessionIndex)] || getDeckCards(currentDeckId)[Number(sessionIndex)] || null;
+      if (!card) return "";
+      const sourceDeckId = card.sourceDeckId || currentDeckId;
+      const sourceIndex = card.sourceCardIndex ?? sessionIndex;
+      return cardNoteStorageKey(sourceDeckId, sourceIndex, card.front);
+    }
+
+    function getCurrentCardNote() {
+      const key = currentCardNoteStorageKey();
+      if (!key) return "";
+      return String(getCardNotesStore()[key] || "");
+    }
+
+    function saveCurrentCardNote(value) {
+      const key = currentCardNoteStorageKey();
+      if (!key) return false;
+      const store = getCardNotesStore();
+      const cleanValue = String(value || "").trim();
+      if (cleanValue) {
+        store[key] = cleanValue;
+      } else {
+        delete store[key];
+      }
+      saveCardNotesStore(store);
+      return true;
     }
 
     function isDeckFullyGreen(deckId, studentName = currentUser?.name) {
@@ -40344,21 +40503,18 @@ window.EDMUND_FLASHCARD_SEED = {
       return `${String(title || "flashcards").replace(/[\/:*?"<>|]+/g, "-").replace(/\s+/g, " ").trim()} - Edmund Education Flashcards`;
     }
 
-    function exportDeckPdf() {
-      if (!currentDeckId) return;
-      const cards = getDeckCards(currentDeckId);
-      if (!cards.length) {
-        window.alert("這個卡組暫時未有卡片可匯出。");
+    function exportRowsPdf({ title, meta, columns, rows, emptyMessage }) {
+      if (!rows.length) {
+        window.alert(emptyMessage || "暫時未有卡片可匯出。");
         return;
       }
-      const rows = cards.map((card, index) => `
+      const cleanTitle = exportFilename(title);
+      const headerHtml = columns.map(column => `<th>${escapeHtml(column.label)}</th>`).join("");
+      const rowsHtml = rows.map(row => `
         <tr>
-          <td class="index">${index + 1}</td>
-          <td>${escapeHtml(card.front || "")}</td>
-          <td>${escapeHtml(card.meaning || "")}</td>
+          ${columns.map(column => `<td class="${escapeHtml(column.className || "")}">${escapeHtml(row[column.key] ?? "")}</td>`).join("")}
         </tr>
       `).join("");
-      const title = exportFilename(currentDeckTitle);
       const printWindow = window.open("", "_blank");
       if (!printWindow) {
         window.alert("瀏覽器阻擋了匯出視窗，請允許 pop-up 後再試一次。");
@@ -40369,7 +40525,7 @@ window.EDMUND_FLASHCARD_SEED = {
 <html>
 <head>
   <meta charset="utf-8">
-  <title>${escapeHtml(title)}</title>
+  <title>${escapeHtml(cleanTitle)}</title>
   <style>
     @page { size: A4; margin: 14mm 12mm; }
     * { box-sizing: border-box; }
@@ -40400,8 +40556,9 @@ window.EDMUND_FLASHCARD_SEED = {
     tr { break-inside: avoid; page-break-inside: avoid; }
     th, td { border: 1px solid rgba(47,128,237,0.18); padding: 10px 12px; vertical-align: top; font-size: 13px; line-height: 1.35; }
     th { background: #2f80ed; color: white; text-align: left; font-size: 14px; }
-    td.index { width: 42px; color: #627085; text-align: right; font-weight: 900; }
-    td:nth-child(2), td:nth-child(3) { width: 49%; }
+    td.attempts { width: 88px; text-align: center; color: #9f1239; font-weight: 900; }
+    td.english, td.chinese { width: 50%; }
+    td.english-wide, td.chinese-wide { width: 45%; }
     @media print {
       body { background: linear-gradient(135deg, #dceeff 0%, #f8f4e8 100%); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
       .page-shell { padding: 0; }
@@ -40415,11 +40572,11 @@ window.EDMUND_FLASHCARD_SEED = {
       <div class="brand">EdmundEducation</div>
       <img class="elearning" src="${new URL("E-Learning.png", window.location.href).href}" alt="E-Learning">
     </header>
-    <h1>${escapeHtml(currentDeckTitle)}</h1>
-    <p class="meta">Edmund Education - E-learning｜${cards.length} 張卡｜English / 中文翻譯</p>
+    <h1>${escapeHtml(title)}</h1>
+    <p class="meta">${escapeHtml(meta || `Edmund Education - E-learning｜${rows.length} 張卡`)}</p>
     <table>
-      <thead><tr><th>#</th><th>English</th><th>中文翻譯</th></tr></thead>
-      <tbody>${rows}</tbody>
+      <thead><tr>${headerHtml}</tr></thead>
+      <tbody>${rowsHtml}</tbody>
     </table>
   </main>
   <script>
@@ -40430,6 +40587,85 @@ window.EDMUND_FLASHCARD_SEED = {
 </body>
 </html>`);
       printWindow.document.close();
+    }
+
+    function exportDeckPdf() {
+      if (!currentDeckId) return;
+      const cards = getDeckCards(currentDeckId);
+      exportRowsPdf({
+        title: currentDeckTitle,
+        meta: `Edmund Education - E-learning｜${cards.length} 張卡｜English / 中文翻譯`,
+        columns: [
+          { key: "english", label: "English", className: "english" },
+          { key: "chinese", label: "中文翻譯", className: "chinese" }
+        ],
+        rows: cards.map(card => ({ english: card.front || "", chinese: card.meaning || "" })),
+        emptyMessage: "這個卡組暫時未有卡片可匯出。"
+      });
+    }
+
+    function attemptedExportRows() {
+      return cardHistoryRowsForStudent()
+        .sort((a, b) => (b.lastAt || 0) - (a.lastAt || 0))
+        .map(row => ({ english: row.front || "", chinese: row.meaning || "" }));
+    }
+
+    function redExportRows() {
+      return cardHistoryRowsForStudent()
+        .filter(row => row.currentStatus === "red" && Number(row.redCount || 0) > 0)
+        .sort((a, b) => Number(b.attempts || 0) - Number(a.attempts || 0) || (b.lastAt || 0) - (a.lastAt || 0))
+        .map(row => ({ english: row.front || "", chinese: row.meaning || "", attempts: Number(row.attempts || 0) }));
+    }
+
+    function highAttemptExportRows() {
+      return cardHistoryRowsForStudent()
+        .filter(row => Number(row.attempts || 0) >= 2)
+        .sort((a, b) => Number(b.attempts || 0) - Number(a.attempts || 0) || (b.lastAt || 0) - (a.lastAt || 0))
+        .map(row => ({ english: row.front || "", chinese: row.meaning || "", attempts: Number(row.attempts || 0) }));
+    }
+
+    function exportDashboardPdf(kind) {
+      if (kind === "red") {
+        const rows = redExportRows();
+        exportRowsPdf({
+          title: "目前紅叉卡片",
+          meta: `Edmund Education - E-learning｜目前仍然紅叉｜${rows.length} 張卡`,
+          columns: [
+            { key: "english", label: "English", className: "english-wide" },
+            { key: "chinese", label: "中文翻譯", className: "chinese-wide" },
+            { key: "attempts", label: "嘗試", className: "attempts" }
+          ],
+          rows,
+          emptyMessage: "目前沒有紅叉卡片可匯出。"
+        });
+        return;
+      }
+      if (kind === "high") {
+        const rows = highAttemptExportRows();
+        exportRowsPdf({
+          title: "高嘗試卡片",
+          meta: `Edmund Education - E-learning｜嘗試 2 次或以上｜${rows.length} 張卡`,
+          columns: [
+            { key: "english", label: "English", className: "english-wide" },
+            { key: "chinese", label: "中文翻譯", className: "chinese-wide" },
+            { key: "attempts", label: "嘗試", className: "attempts" }
+          ],
+          rows,
+          emptyMessage: "暫時未有高嘗試卡片可匯出。"
+        });
+        return;
+      }
+      const rows = attemptedExportRows();
+      exportRowsPdf({
+        title: "總完成卡片列表",
+        meta: `Edmund Education - E-learning｜所有已嘗試卡片｜${rows.length} 張卡`,
+        columns: [
+          { key: "english", label: "English", className: "english" },
+          { key: "chinese", label: "中文翻譯", className: "chinese" }
+        ],
+        rows,
+        emptyMessage: "暫時未有已嘗試卡片可匯出。"
+      });
     }
 
     function savedProgressForDeck(deckId) {
@@ -40953,6 +41189,8 @@ window.EDMUND_FLASHCARD_SEED = {
       const prevButton = document.querySelector("[data-prev-study-card]");
       const nextButton = document.querySelector("[data-next-study-card]");
       const speakButton = document.querySelector("[data-speak-card]");
+      const noteTextarea = document.querySelector("[data-card-note-text]");
+      const noteStatus = document.querySelector("[data-card-note-status]");
       const greenPill = document.querySelector("[data-green-count]");
       const redPill = document.querySelector("[data-red-count]");
       const roundCounts = answerCounts();
@@ -40982,12 +41220,24 @@ window.EDMUND_FLASHCARD_SEED = {
         if (prevButton) prevButton.disabled = true;
         if (nextButton) nextButton.disabled = true;
         if (speakButton) speakButton.disabled = true;
+        if (noteTextarea) {
+          noteTextarea.value = "";
+          noteTextarea.disabled = true;
+        }
+        if (noteStatus) noteStatus.textContent = "";
         if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
         return;
       }
 
       const cardIndex = studySession.roundQueue[studySession.currentPosition];
       frontTerm.textContent = card.front;
+      if (noteTextarea && noteTextarea !== document.activeElement) {
+        noteTextarea.disabled = false;
+        noteTextarea.value = getCurrentCardNote();
+      } else if (noteTextarea) {
+        noteTextarea.disabled = false;
+      }
+      if (noteStatus) noteStatus.textContent = "";
       if (frontExamples) {
         frontExamples.innerHTML = card.examples.map((example, index) => `
           <div class="example-line">
@@ -41331,6 +41581,16 @@ window.EDMUND_FLASHCARD_SEED = {
           cardForm.reset();
           refreshCurrentView();
         }
+      });
+
+      document.addEventListener("submit", event => {
+        const noteForm = event.target.closest("[data-card-note-form]");
+        if (!noteForm) return;
+        event.preventDefault();
+        const formData = new FormData(noteForm);
+        const status = noteForm.querySelector("[data-card-note-status]");
+        const ok = saveCurrentCardNote(formData.get("cardNote"));
+        if (status) status.textContent = ok ? "已儲存，並正在同步到 Supabase。" : "暫時未有卡片可儲存備註。";
       });
 
       document.addEventListener("input", event => {
