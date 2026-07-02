@@ -27606,7 +27606,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function sectionKeyForDeck(deckId) {
-      return accessSections.find(section => deckId === section.target || deckId.startsWith(`${section.key}/`))?.key || "";
+      return accessSections.find(section => deckId === section.key || deckId === section.target || deckId.startsWith(`${section.key}/`))?.key || "";
     }
 
     function showLogin() {
@@ -28071,28 +28071,129 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function predefinedSearchDeckRows() {
       const rows = [];
-      ieltsListeningPractices.forEach(practiceLabel => {
-        const practiceId = deckIdForLabel("ielts/listening", practiceLabel);
+      const add = (deckId, deckTitle, options = {}) => {
+        if (!deckId || !deckTitle) return;
+        deckTitleLabels.set(deckId, deckTitle);
         rows.push({
-          deckId: practiceId,
-          deckTitle: `IELTS / Listening / ${practiceLabel}`,
-          cardCount: deckCardCount(practiceId),
-          childCount: 4,
-          aggregate: true,
+          deckId,
+          deckTitle,
+          cardCount: options.aggregate ? deckCardCount(deckId) : getDeckCards(deckId).length,
+          childCount: Number(options.childCount || 0),
+          aggregate: Boolean(options.aggregate),
           virtual: true
         });
-        ["Part 1", "Part 2", "Part 3", "Part 4"].forEach(partLabel => {
-          const partId = `${practiceId}/${partLabel.toLowerCase().replaceAll(" ", "-")}`;
-          rows.push({
-            deckId: partId,
-            deckTitle: `IELTS / Listening / ${practiceLabel} / ${partLabel}`,
-            cardCount: getDeckCards(partId).length,
-            childCount: 0,
-            aggregate: false,
-            virtual: true
-          });
+      };
+      const addAggregate = (deckId, deckTitle, childCount = 0) => add(deckId, deckTitle, { aggregate: true, childCount });
+      const addExact = (deckId, deckTitle) => add(deckId, deckTitle, { aggregate: false });
+
+      accessSections
+        .filter(section => section.kind === "deck")
+        .forEach(section => addExact(section.target, section.label));
+
+      addAggregate("dse/reading", "DSE / Reading", 3);
+      ["part-a", "part-b1", "part-b2"].forEach(partKey => {
+        const partTitle = titlePart(partKey);
+        const partId = `dse/reading/${partKey}`;
+        addAggregate(partId, `DSE / Reading / ${partTitle}`, dseYears.length);
+        dseYears.forEach(year => addExact(`${partId}/${year}`, `DSE / Reading / ${partTitle} / ${year}`));
+      });
+
+      addAggregate("dse/writing", "DSE / Writing", 2);
+      addAggregate("dse/writing/part-a", "DSE / Writing / Part A", dseYears.length);
+      dseYears.forEach(year => addExact(`dse/writing/part-a/${year}`, `DSE / Writing / Part A / ${year}`));
+      addAggregate("dse/writing/part-b", "DSE / Writing / Part B", dseYears.length);
+      dseYears.forEach(year => {
+        const yearId = `dse/writing/part-b/${year}`;
+        addAggregate(yearId, `DSE / Writing / Part B / ${year}`, dseWritingPartBQuestions.length);
+        dseWritingPartBQuestions.forEach(question => addExact(`${yearId}/${question}`, `DSE / Writing / Part B / ${year} / ${question}`));
+      });
+
+      addAggregate("dse/paper-3", "DSE / Paper 3", 3);
+      const paper3Sections = [
+        { id: "part-a-listening", label: "Part A (Listening)", taskMode: true },
+        { id: "part-b-data-file-b1", label: "Part B (Data File) - B1" },
+        { id: "part-b-data-file-b2", label: "Part B (Data File) - B2" }
+      ];
+      paper3Sections.forEach(section => {
+        const sectionId = `dse/paper-3/${section.id}`;
+        addAggregate(sectionId, `DSE / Paper 3 / ${section.label}`, dseYears.length);
+        dseYears.forEach(year => {
+          const yearId = `${sectionId}/${year}`;
+          if (section.taskMode) {
+            addAggregate(yearId, `DSE / Paper 3 / ${section.label} / ${year}`, dsePaper3Tasks.length);
+            dsePaper3Tasks.forEach(task => addExact(`${yearId}/${task}`, `DSE / Paper 3 / ${section.label} / ${year} / ${task}`));
+          } else {
+            addExact(yearId, `DSE / Paper 3 / ${section.label} / ${year}`);
+          }
         });
       });
+
+      addAggregate("dse/speaking", "DSE / Speaking", dseYears.length);
+      dseYears.forEach(year => {
+        const yearId = `dse/speaking/${year}`;
+        addAggregate(yearId, `DSE / Speaking / ${year}`, 2);
+        [
+          { id: "passage", label: "Passage" },
+          { id: "edmunds-notes", label: "Edmund's Notes" }
+        ].forEach(type => {
+          const typeId = `${yearId}/${type.id}`;
+          addAggregate(typeId, `DSE / Speaking / ${year} / ${type.label}`, dseSpeakingSets.length);
+          dseSpeakingSets.forEach(set => addExact(`${typeId}/${set}`, `DSE / Speaking / ${year} / ${type.label} / ${set}`));
+        });
+      });
+
+      addAggregate("ielts/reading", "IELTS / Reading", 3);
+      ["Passage 1", "Passage 2", "Passage 3"].forEach(passage => {
+        const passageId = deckIdForLabel("ielts/reading", passage, true);
+        addAggregate(passageId, `IELTS / Reading / ${passage}`, ieltsReadingPractices.length);
+        ieltsReadingPractices.forEach(practice => addExact(`${passageId}/${practice}`, `IELTS / Reading / ${passage} / ${practice}`));
+      });
+
+      addAggregate("ielts/writing", "IELTS / Writing", 2);
+      addAggregate("ielts/writing/task-1", "IELTS / Writing / Task 1 (Charts)", ieltsWritingTask1Types.length);
+      ieltsWritingTask1Types.forEach(type => addExact(deckIdForLabel("ielts/writing/task-1", type, true), `IELTS / Writing / Task 1 (Charts) / ${type}`));
+      addAggregate("ielts/writing/task-2", "IELTS / Writing / Task 2 (Essay)", ieltsWritingTask2Types.length);
+      ieltsWritingTask2Types.forEach(type => {
+        const typeId = `ielts/writing/task-2/${type.key}`;
+        const questions = ieltsWritingTask2Questions[type.key] || [];
+        addAggregate(typeId, `IELTS / Writing / Task 2 (Essay) / ${type.label}`, questions.length);
+        questions.forEach(row => addExact(`${typeId}/${row.ref}`, `IELTS / Writing / Task 2 (Essay) / ${type.label} / ${ieltsWritingQuestionLabel(row)}`));
+      });
+
+      addAggregate("ielts/listening", "IELTS / Listening", ieltsListeningPractices.length);
+      ieltsListeningPractices.forEach(practiceLabel => {
+        const practiceId = deckIdForLabel("ielts/listening", practiceLabel);
+        addAggregate(practiceId, `IELTS / Listening / ${practiceLabel}`, 4);
+        ["Part 1", "Part 2", "Part 3", "Part 4"].forEach(partLabel => {
+          const partId = `${practiceId}/${partLabel.toLowerCase().replaceAll(" ", "-")}`;
+          addExact(partId, `IELTS / Listening / ${practiceLabel} / ${partLabel}`);
+        });
+      });
+
+      addAggregate("ielts/speaking", "IELTS / Speaking", 3);
+      addAggregate("ielts/speaking/part-1", "IELTS / Speaking / Part 1", ieltsSpeakingPart1Themes.length);
+      ieltsSpeakingPart1Themes.forEach(theme => addExact(deckIdForLabel("ielts/speaking/part-1", theme, true), `IELTS / Speaking / Part 1 / ${theme}`));
+      [
+        { partKey: "part-2", partLabel: "Part 2", books: ieltsSpeakingPart2Books },
+        { partKey: "part-3", partLabel: "Part 3", books: ieltsSpeakingPart3Books }
+      ].forEach(section => {
+        const partId = `ielts/speaking/${section.partKey}`;
+        addAggregate(partId, `IELTS / Speaking / ${section.partLabel}`, section.books.length);
+        section.books.forEach(book => {
+          const bookId = `${partId}/${slugifyLabel(book.book)}`;
+          addAggregate(bookId, `IELTS / Speaking / ${section.partLabel} / ${book.book}`, book.topics.length);
+          book.topics.forEach(topic => addExact(deckIdForLabel(bookId, topic, true), `IELTS / Speaking / ${section.partLabel} / ${book.book} / ${topic}`));
+        });
+      });
+
+      addAggregate("synonyms", "Synonyms 同義詞", synonymTypes.length);
+      synonymTypes.forEach(type => addExact(deckIdForLabel("synonyms", type, true), `Synonyms 同義詞 / ${type}`));
+      addAggregate("government", "政府機構", governmentTypes.length);
+      governmentTypes.forEach(type => addExact(deckIdForLabel("government", type, true), `政府機構 / ${type}`));
+      addAggregate("custom-setup", "客製 Setup", 1);
+      addExact("custom-setup/sprint-text-1", "客製 Setup / Sprint - Text 1");
+      getStudentCustomDecks().forEach(deck => addExact(deck.id, `自製 Flashcards / ${deck.title}`));
+
       return rows.filter(row => deckIsSearchable(row.deckId));
     }
 
@@ -28105,9 +28206,11 @@ window.EDMUND_FLASHCARD_SEED = {
       map.set(row.deckId, {
         ...existing,
         ...row,
+        deckTitle: existing.virtual && !row.virtual ? existing.deckTitle : row.deckTitle,
         cardCount: Math.max(existing.cardCount || 0, row.cardCount || 0),
         childCount: Math.max(existing.childCount || 0, row.childCount || 0),
-        aggregate: Boolean(existing.aggregate || row.aggregate)
+        aggregate: Boolean(existing.aggregate || row.aggregate),
+        virtual: Boolean(existing.virtual || row.virtual)
       });
     }
 
@@ -28205,15 +28308,40 @@ window.EDMUND_FLASHCARD_SEED = {
       renderStudyCard();
     }
 
+    function searchResultOptionButton(row) {
+      const titleParts = row.deckTitle.split(" / ");
+      const label = titleParts[titleParts.length - 1] || row.deckTitle;
+      if (!row.aggregate) return optionButton(label, row.deckId, row.deckTitle);
+      const completed = isDeckCompleted(row.deckId);
+      return `
+        <div class="option-row ${completed ? "completed" : ""}" data-option-row="${escapeHtml(row.deckId)}" data-option-label="${escapeHtml(label)}">
+          <button class="thin-option ${completed ? "completed" : ""}" type="button" data-search-deck="${escapeHtml(row.deckId)}" data-search-aggregate="true">
+            <span>${escapeHtml(label)}</span>
+            ${deckMetaHtml(row.deckId)}
+          </button>
+          ${currentUser?.name ? `<button class="reset-square" type="button" data-reset-attempt="${escapeHtml(row.deckId)}">重設<br>紀錄</button>` : ""}
+        </div>
+      `;
+    }
+
     function openSearchDeckResult(deckId, aggregate = false) {
       if (!deckId) return;
+      const allRows = searchableDeckRows();
+      const matchedRow = allRows.find(row => row.deckId === deckId);
+      if (matchedRow?.deckTitle) deckTitleLabels.set(deckId, matchedRow.deckTitle);
       if (!aggregate && getDeckCards(deckId).length) {
         openDeckStart(deckId);
         return;
       }
-      const childRows = searchableDeckRows()
-        .filter(row => row.deckId !== deckId && row.deckId.startsWith(`${deckId}/`) && !row.aggregate)
+      const deckDepth = String(deckId).split("/").filter(Boolean).length;
+      let childRows = allRows
+        .filter(row => row.deckId !== deckId && row.deckId.startsWith(`${deckId}/`) && String(row.deckId).split("/").filter(Boolean).length === deckDepth + 1)
         .sort((a, b) => a.deckTitle.localeCompare(b.deckTitle, "en-HK", { numeric: true }));
+      if (!childRows.length) {
+        childRows = allRows
+          .filter(row => row.deckId !== deckId && row.deckId.startsWith(`${deckId}/`))
+          .sort((a, b) => a.deckTitle.localeCompare(b.deckTitle, "en-HK", { numeric: true }));
+      }
       if (!childRows.length) {
         openDeckStart(deckId);
         return;
@@ -28224,11 +28352,7 @@ window.EDMUND_FLASHCARD_SEED = {
         () => `
           <div class="option-column">
             <h3>${escapeHtml(deckTitleFromId(deckId))}</h3>
-            ${childRows.map(row => {
-              const titleParts = row.deckTitle.split(" / ");
-              const label = titleParts[titleParts.length - 1] || row.deckTitle;
-              return optionButton(label, row.deckId, row.deckTitle);
-            }).join("")}
+            ${childRows.map(row => searchResultOptionButton(row)).join("")}
           </div>
         `,
         "columns-grid one"
