@@ -372,6 +372,46 @@ begin
 end;
 $$;
 
+
+create or replace function public.flashcard_admin_upsert_student_state(
+  p_admin_name text,
+  p_admin_password text,
+  p_student_name text,
+  p_key text,
+  p_value jsonb
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_student_id uuid;
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return false;
+  end if;
+
+  select st.id into v_student_id
+  from public.flashcard_students st
+  where st.name = trim(p_student_name)
+    and st.deleted_at is null
+  limit 1;
+
+  if v_student_id is null or trim(p_key) = '' then
+    return false;
+  end if;
+
+  insert into public.flashcard_student_state (student_id, key, value)
+  values (v_student_id, trim(p_key), coalesce(p_value, '{}'::jsonb))
+  on conflict (student_id, key) do update
+  set value = excluded.value,
+      updated_at = now();
+
+  return true;
+end;
+$$;
+
 create or replace function public.flashcard_session_student_id(p_token uuid)
 returns uuid
 language sql
@@ -461,6 +501,7 @@ grant execute on function public.flashcard_admin_set_student_access(text, text, 
 grant execute on function public.flashcard_admin_change_student_password(text, text, text, text) to authenticated;
 grant execute on function public.flashcard_admin_get_password_logs(text, text, text) to authenticated;
 grant execute on function public.flashcard_admin_get_student_state(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_upsert_student_state(text, text, text, text, jsonb) to authenticated;
 grant execute on function public.flashcard_student_get_state(uuid) to authenticated;
 grant execute on function public.flashcard_student_upsert_state(uuid, text, jsonb) to authenticated;
 grant execute on function public.flashcard_student_delete_state(uuid, text) to authenticated;

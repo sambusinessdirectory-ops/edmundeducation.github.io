@@ -618,7 +618,10 @@
     .deck-search-result strong,
     .deck-search-result small {
       display: block;
-      overflow-wrap: anywhere;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+      text-wrap: balance;
     }
 
     .deck-search-result small {
@@ -688,7 +691,10 @@
 
     .tile-label .tile-line {
       display: block;
-      overflow-wrap: anywhere;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+      text-wrap: balance;
     }
 
     .tile-label .tile-subline {
@@ -897,12 +903,33 @@
       justify-self: end;
       margin-top: 4px;
       padding: 4px 10px;
+      border: 0;
       border-radius: 999px;
       background: #fee2e2;
       color: #b91c1c;
+      font: inherit;
       font-size: 12px;
       line-height: 1.1;
       font-weight: 900;
+      cursor: none;
+    }
+
+    .progress-stat .practice-chip.blue {
+      background: #dbeafe;
+      color: #1559a8;
+    }
+
+    .progress-stat .practice-chip.green {
+      background: #dcfce7;
+      color: #047857;
+    }
+
+    .stat-action-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 4px;
     }
 
     .stat-export-button {
@@ -1027,6 +1054,13 @@
       margin: 0;
     }
 
+    .high-attempt-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
     .high-attempt-grid {
       display: grid;
       gap: 12px;
@@ -1046,6 +1080,27 @@
       font-size: 15px;
       line-height: 1.2;
       font-weight: 900;
+    }
+
+    .high-attempt-group-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .high-attempt-toggle {
+      min-height: 32px;
+      border: 1px solid rgba(47,128,237,0.22);
+      border-radius: 999px;
+      padding: 0 12px;
+      background: #fff;
+      color: #1559a8;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+      cursor: none;
     }
 
     .high-attempt-list {
@@ -1070,6 +1125,121 @@
     .high-attempt-item span:last-child {
       color: #627085;
       font-size: 0.92em;
+    }
+
+    .completion-summary {
+      display: grid;
+      justify-items: center;
+      gap: 14px;
+      text-align: center;
+      color: #0e2d55;
+      font-size: clamp(18px, 1.45vw, 24px);
+      line-height: 1.45;
+      font-weight: 900;
+    }
+
+    .completion-summary .primary-button {
+      min-width: min(280px, 100%);
+    }
+
+    .session-timer-pill {
+      min-width: 180px;
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.82);
+      color: #0e2d55;
+      font-size: 18px;
+      line-height: 1;
+      font-weight: 900;
+      box-shadow: 0 12px 26px rgba(17,43,85,0.08);
+    }
+
+    .dashboard-title-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .compact-toggle {
+      min-height: 34px;
+      padding: 0 12px;
+      font-size: 12px;
+    }
+
+    .admin-switch-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 30;
+      display: grid;
+      place-items: start end;
+      padding: 92px 42px 24px;
+      background: rgba(14,45,85,0.18);
+      backdrop-filter: blur(6px);
+    }
+
+    .admin-switch-card {
+      width: min(420px, calc(100vw - 32px));
+      max-height: min(620px, calc(100vh - 120px));
+      overflow: auto;
+      display: grid;
+      gap: 14px;
+      padding: 18px;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.96);
+      box-shadow: 0 26px 60px rgba(17,43,85,0.22);
+    }
+
+    .admin-switch-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .admin-switch-head h2 {
+      margin: 0;
+      color: #0e2d55;
+      font-size: 28px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .admin-switch-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .admin-switch-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 16px;
+      background: rgba(239,246,255,0.72);
+      color: #0e2d55;
+      font-weight: 900;
+    }
+
+    .admin-switch-row button {
+      min-height: 34px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: #dbeafe;
+      color: #1559a8;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      cursor: none;
     }
 
     .custom-deck-manager,
@@ -1661,7 +1831,10 @@
       font-size: clamp(42px, 6vw, 82px);
       line-height: 1.08;
       font-weight: 900;
-      overflow-wrap: anywhere;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+      text-wrap: balance;
     }
 
     .back-meaning {
@@ -1968,11 +2141,23 @@
         <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
       </a>
       <div class="nav-actions">
+        <button class="pill-button hidden" type="button" data-admin-switch>切換學生</button>
         <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
         <button class="pill-button hidden" type="button" data-back>Back</button>
         <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
       </div>
     </header>
+
+    <div class="admin-switch-modal hidden" data-admin-switch-modal role="dialog" aria-modal="true" aria-label="Quick student switch">
+      <div class="admin-switch-card">
+        <div class="admin-switch-head">
+          <h2>快速切換學生</h2>
+          <button class="secondary-button" type="button" data-close-admin-switch>關閉</button>
+        </div>
+        <p class="note-text">Admin 可即時進入學生畫面，協助檢查進度或處理緊急修改。</p>
+        <div class="admin-switch-list" data-admin-switch-list></div>
+      </div>
+    </div>
 
     <main>
       <section class="hero" data-login-view>
@@ -2050,7 +2235,10 @@
         <section class="panel-card hidden" data-dashboard>
           <div class="section-head">
             <div>
-              <h2>選擇學習範圍</h2>
+              <div class="dashboard-title-row">
+                <h2>選擇學習範圍</h2>
+                <button class="secondary-button compact-toggle" type="button" data-toggle-locked-visibility>隱藏尚未開啟範圍</button>
+              </div>
               <p data-user-label></p>
             </div>
             <div class="dashboard-side-tools">
@@ -2089,8 +2277,8 @@
               <span><i class="legend-dot legend-red"></i>紅叉卡片</span>
             </div>
             <div class="progress-stat-grid">
-              <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span><button class="stat-export-button" type="button" data-export-dashboard-pdf="attempted">匯出總卡片列表 (PDF)</button></div>
-              <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span></div>
+              <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span><div class="stat-action-row"><button class="practice-chip blue" type="button" data-start-dashboard-review="attempted">Practice</button><button class="stat-export-button" type="button" data-export-dashboard-pdf="attempted">匯出總卡片列表 (PDF)</button></div></div>
+              <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span><button class="practice-chip green" type="button" data-start-dashboard-review="green">Practice</button></div>
               <button class="progress-stat actionable" type="button" data-red-dashboard-toggle><strong data-progress-stat-red>0</strong><span>目前紅叉總數</span><span class="practice-chip">Practice</span></button>
             </div>
             <div class="red-dashboard-panel hidden" data-red-dashboard-panel>
@@ -2109,7 +2297,10 @@
             <div class="high-attempt-section" data-high-attempt-section>
               <div class="high-attempt-head">
                 <h3>高嘗試卡片</h3>
-                <button class="export-pdf-button" type="button" data-export-dashboard-pdf="high">匯出高嘗試卡片 (PDF)</button>
+                <div class="high-attempt-actions">
+                  <button class="secondary-button compact-toggle" type="button" data-collapse-high-attempts>全部收起</button>
+                  <button class="export-pdf-button" type="button" data-export-dashboard-pdf="high">匯出高嘗試卡片 (PDF)</button>
+                </div>
               </div>
               <div data-high-attempt-list></div>
             </div>
@@ -2244,6 +2435,7 @@
               <h2 data-deck-title>Flashcards</h2>
               <p data-deck-path></p>
             </div>
+            <div class="session-timer-pill">時間：<span data-session-timer>00:00</span></div>
           </div>
 
           <div class="study-top">
@@ -2289,7 +2481,7 @@
                     <img src="Static Images/sound-button.png" alt="" aria-hidden="true">
                   </button>
                   <div class="front-card-content">
-                    <div class="front-term" data-front-term>No cards yet.</div>
+                    <div class="front-term" data-front-term data-fit-card-term>No cards yet.</div>
                     <div class="front-examples" data-front-examples></div>
                   </div>
                 </article>
@@ -77323,7 +77515,11 @@ window.EDMUND_FLASHCARD_SEED = {
       { key: "power-words", label: "Power Words", group: "resource", kind: "deck", target: "power-words/general" },
       { key: "idioms", label: "Idioms", group: "resource", kind: "deck", target: "idioms/general" },
       { key: "phrasal-verbs", label: "Phrasal Verbs", group: "resource", kind: "deck", target: "phrasal-verbs/general" },
-      { key: "synonyms", label: "Synonyms 同義詞", labelLines: ["Synonyms", "同義詞"], group: "resource", kind: "route", target: "synonyms-home" }
+      { key: "synonyms", label: "Synonyms 同義詞", labelLines: ["Synonyms", "同義詞"], group: "resource", kind: "route", target: "synonyms-home" },
+      { key: "movie-lines", label: "Movie Lines 電影對白分析", labelLines: ["Movie Lines", "電影對白分析"], group: "resource", kind: "deck", target: "movie-lines/general" },
+      { key: "speech", label: "Speech 偉人英文演講分析", labelLines: ["Speech", "偉人英文演講分析"], group: "resource", kind: "deck", target: "speech/general" },
+      { key: "ted-talk", label: "TED Talk 公開演講分析", labelLines: ["TED Talk", "公開演講分析"], group: "resource", kind: "deck", target: "ted-talk/general" },
+      { key: "poem", label: "Poem 英文詩句分析", labelLines: ["Poem", "英文詩句分析"], group: "resource", kind: "deck", target: "poem/general" }
     ];
 
     const viewSelectors = [
@@ -77355,6 +77551,9 @@ window.EDMUND_FLASHCARD_SEED = {
     let cachedSpeechVoices = [];
     let selectedAttemptPage = 1;
     let adminStudentStateCache = {};
+    let hideLockedSections = localStorage.getItem("edmund-hide-locked-sections") === "true";
+    let expandedHighAttemptGroups = new Set();
+    let studyTimerId = 0;
     const ADMIN_ATTEMPTS_PAGE_SIZE = 8;
 
     function escapeHtml(value) {
@@ -77380,6 +77579,15 @@ window.EDMUND_FLASHCARD_SEED = {
         hour: "2-digit",
         minute: "2-digit"
       });
+    }
+
+    function formatDuration(ms) {
+      const totalSeconds = Math.max(0, Math.round(Number(ms || 0) / 1000));
+      const hours = Math.floor(totalSeconds / 3600);
+      const minutes = Math.floor((totalSeconds % 3600) / 60);
+      const seconds = totalSeconds % 60;
+      if (hours) return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+      return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
     }
 
     function defaultAccess() {
@@ -77429,9 +77637,28 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     async function saveSupabaseState(key, value, options = {}) {
-      if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !studentSessionToken) return;
+      if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key)) return;
       if (!options.silent) updateSupabaseStatus("Supabase: saving", "warning");
 
+      if (currentUser?.impersonatedByAdmin && adminPasswordForSession) {
+        try {
+          const saved = await callSupabaseRpc("flashcard_admin_upsert_student_state", {
+            p_admin_name: ADMIN_NAME,
+            p_admin_password: adminPasswordForSession,
+            p_student_name: currentUser.name,
+            p_key: key,
+            p_value: value
+          });
+          if (saved !== true) throw new Error("Admin state save returned false.");
+          if (!options.silent) updateSupabaseStatus("Supabase: live", "live");
+        } catch (error) {
+          console.warn("Supabase admin flashcard save failed:", error);
+          updateSupabaseStatus("Supabase: admin state SQL needed", "error");
+        }
+        return;
+      }
+
+      if (!studentSessionToken) return;
       const { data, error } = await supabaseClient.rpc("flashcard_student_upsert_state", {
         p_token: studentSessionToken,
         p_key: key,
@@ -77489,7 +77716,10 @@ window.EDMUND_FLASHCARD_SEED = {
       supabaseState.online = true;
       updateSupabaseStatus("Supabase: live", "live");
 
-      if (currentUser?.role === "student" && currentUser.sessionToken) {
+      if (currentUser?.role === "student" && currentUser.impersonatedByAdmin && adminPasswordForSession) {
+        await loadStudentStateForAdmin(currentUser.name);
+        applyAdminStateToRemote(currentUser.name);
+      } else if (currentUser?.role === "student" && currentUser.sessionToken) {
         studentSessionToken = currentUser.sessionToken;
         await loadStudentStateFromSupabase();
       }
@@ -77608,7 +77838,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     async function loadStudentStateForAdmin(studentName) {
-      if (!studentName || !adminPasswordForSession || !studentsLoadedFromSupabase) return;
+      if (!studentName || !adminPasswordForSession) return;
       try {
         const rows = await callSupabaseRpc("flashcard_admin_get_student_state", {
           p_admin_name: ADMIN_NAME,
@@ -77627,6 +77857,16 @@ window.EDMUND_FLASHCARD_SEED = {
         console.warn("Could not load selected student state:", error);
         updateSupabaseStatus("Supabase: run state SQL", "warning");
       }
+    }
+
+    function applyAdminStateToRemote(studentName) {
+      const state = adminStudentStateCache[studentName];
+      if (!state) return;
+      SUPABASE_SYNC_KEYS.forEach(key => {
+        const value = Object.prototype.hasOwnProperty.call(state, key) ? state[key] : defaultRemoteValueForKey(key);
+        remoteStore[key] = value;
+        localStorage.setItem(key, JSON.stringify(value));
+      });
     }
 
     function stateValueForStudent(studentName, key, fallback) {
@@ -77959,7 +78199,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function setSession(user) {
       currentUser = user;
       sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
-      if (user.role === "admin" && adminPasswordForSession) {
+      if ((user.role === "admin" || user.impersonatedByAdmin) && adminPasswordForSession) {
         sessionStorage.setItem(ADMIN_SESSION_PASSWORD_KEY, adminPasswordForSession);
       }
     }
@@ -77982,6 +78222,9 @@ window.EDMUND_FLASHCARD_SEED = {
           }
           if (saved.role === "student") {
             studentSessionToken = saved.sessionToken || "";
+            if (saved.impersonatedByAdmin) {
+              adminPasswordForSession = sessionStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
+            }
           }
         }
       } catch {
@@ -78009,6 +78252,7 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelector("[data-app-view]")?.classList.add("hidden");
       document.querySelector("[data-back]")?.classList.add("hidden");
       document.querySelector("[data-logout]")?.classList.add("hidden");
+      document.querySelector("[data-admin-switch]")?.classList.add("hidden");
     }
 
     function hideAllAppPanels() {
@@ -78084,6 +78328,7 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelector("[data-login-view]")?.classList.add("hidden");
       document.querySelector("[data-app-view]")?.classList.remove("hidden");
       document.querySelector("[data-logout]")?.classList.remove("hidden");
+      document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !(isAdmin() || currentUser?.impersonatedByAdmin));
       document.querySelector("[data-back]")?.classList.toggle("hidden", viewStack.length === 0);
       hideAllAppPanels();
 
@@ -78095,6 +78340,8 @@ window.EDMUND_FLASHCARD_SEED = {
         renderStudentProfile();
       }
       if (view === "dashboard") renderDashboard();
+      if (view === "deck-view") startStudyTimer();
+      if (view !== "deck-view") stopStudyTimer();
       renderBreadcrumbs();
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
@@ -78854,6 +79101,9 @@ window.EDMUND_FLASHCARD_SEED = {
         cardAttemptCounts: {},
         flipped: false,
         completed: false,
+        startedAt: Date.now(),
+        elapsedMs: 0,
+        returnEntry: sessionReturnEntry(),
         attemptId: logAttemptStart("搜尋卡片", 1)
       };
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
@@ -78924,10 +79174,15 @@ window.EDMUND_FLASHCARD_SEED = {
         list.innerHTML = `<p class="note-text">暫時未有進入第二輪或以上的卡片。</p>`;
         return;
       }
-      list.innerHTML = `<div class="high-attempt-grid">${counts.map(count => `
+      list.innerHTML = `<div class="high-attempt-grid">${counts.map(count => {
+        const expanded = expandedHighAttemptGroups.has(String(count));
+        return `
         <div class="high-attempt-group">
-          <strong>${count} 次嘗試</strong>
-          <div class="high-attempt-list">
+          <div class="high-attempt-group-head">
+            <strong>${count} 次嘗試（${groups.get(count).length} 張）</strong>
+            <button class="high-attempt-toggle" type="button" data-toggle-high-attempt-group="${count}">${expanded ? "收起" : "展開"}</button>
+          </div>
+          <div class="high-attempt-list ${expanded ? "" : "hidden"}">
             ${groups.get(count).map(item => `
               <div class="high-attempt-item">
                 <span>${escapeHtml(item.front || "-")}</span>
@@ -78936,9 +79191,70 @@ window.EDMUND_FLASHCARD_SEED = {
             `).join("")}
           </div>
         </div>
-      `).join("")}</div>`;
+      `}).join("")}</div>`;
     }
 
+
+    function cardFromHistoryRow(row) {
+      const sourceCard = getDeckCards(row.deckId)[Number(row.index)] || {};
+      return {
+        ...sourceCard,
+        front: row.front || sourceCard.front || "",
+        meaning: row.meaning || sourceCard.meaning || "",
+        examples: Array.isArray(sourceCard.examples) ? sourceCard.examples : [],
+        sourceDeckId: row.deckId,
+        sourceCardIndex: Number(row.index),
+        sourceDeckTitle: row.deckTitle || deckTitleFromId(row.deckId)
+      };
+    }
+
+    function dashboardPracticeRows(filter = "attempted") {
+      return cardHistoryRowsForStudent()
+        .filter(row => row.index >= 0 && row.front)
+        .filter(row => filter === "green" ? row.currentStatus === "green" : true)
+        .sort((a, b) => (b.lastAt || 0) - (a.lastAt || 0));
+    }
+
+    function startDashboardPracticeSession(filter = "attempted") {
+      const rows = dashboardPracticeRows(filter);
+      if (!rows.length) {
+        window.alert(filter === "green" ? "暫時未有綠勾卡片可重溫。" : "暫時未有已完成卡片可重溫。");
+        return;
+      }
+      const cards = rows.map(cardFromHistoryRow);
+      currentDeckId = filter === "green" ? "__all-green-review__" : "__all-attempted-review__";
+      currentDeckTitle = filter === "green" ? "所有綠勾卡片" : "所有已見卡片";
+      const order = cards.map((_, index) => index);
+      studySession = {
+        mode: filter === "green" ? "green-review" : "attempted-review",
+        cardLimit: 0,
+        rangeStart: 0,
+        rangeEnd: 0,
+        rangeLabel: currentDeckTitle,
+        cards,
+        roundNumber: 1,
+        roundQueue: order,
+        initialQueue: [...order],
+        initialTotal: order.length,
+        currentPosition: 0,
+        answers: {},
+        outcomes: {},
+        outcomeTimes: {},
+        cardAttemptCounts: {},
+        flipped: false,
+        completed: false,
+        startedAt: Date.now(),
+        elapsedMs: 0,
+        returnEntry: { view: "dashboard", label: "學習首頁" },
+        attemptId: logAttemptStart(currentDeckTitle, order.length)
+      };
+      document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
+      document.querySelector("[data-deck-path]").textContent = `${currentDeckTitle}｜本次：${order.length}/${order.length}`;
+      hideReviewPanel();
+      showAppPanel("deck-view");
+      saveCurrentProgress();
+      renderStudyCard();
+    }
 
     function currentRedCrossCards(studentName = currentUser?.name) {
       if (!studentName) return [];
@@ -79135,8 +79451,11 @@ window.EDMUND_FLASHCARD_SEED = {
 
       const examGrid = document.querySelector("[data-exam-grid]");
       const resourceGrid = document.querySelector("[data-resource-grid]");
-      const examSections = accessSections.filter(section => section.group === "scope");
-      const resourceSections = accessSections.filter(section => section.group === "resource");
+      const toggleLocked = document.querySelector("[data-toggle-locked-visibility]");
+      if (toggleLocked) toggleLocked.textContent = hideLockedSections ? "顯示尚未開啟範圍" : "隱藏尚未開啟範圍";
+      const visibleByAccess = section => !hideLockedSections || canAccess(section.key);
+      const examSections = accessSections.filter(section => section.group === "scope").filter(visibleByAccess);
+      const resourceSections = accessSections.filter(section => section.group === "resource").filter(visibleByAccess);
       const splitPoint = Math.ceil(resourceSections.length / 2);
       const resourceLeft = resourceSections.slice(0, splitPoint);
       const resourceRight = resourceSections.slice(splitPoint);
@@ -79151,6 +79470,58 @@ window.EDMUND_FLASHCARD_SEED = {
       renderProgressDashboard();
       const searchInput = document.querySelector("[data-deck-search-input]");
       renderDeckSearchResults(searchInput?.value || "");
+    }
+
+    function renderAdminSwitchModal() {
+      const list = document.querySelector("[data-admin-switch-list]");
+      if (!list) return;
+      const students = getStudents();
+      list.innerHTML = students.length
+        ? students.map(student => `
+          <div class="admin-switch-row">
+            <span>${escapeHtml(student.name)}</span>
+            <button type="button" data-admin-switch-student="${escapeHtml(student.name)}">進入</button>
+          </div>
+        `).join("")
+        : `<p class="note-text">暫時未有學生帳戶。</p>`;
+    }
+
+    async function openAdminSwitchModal() {
+      if (adminPasswordForSession) {
+        try {
+          await loadStudentsFromSupabase();
+        } catch (error) {
+          console.warn("Could not refresh students for quick switch:", error);
+        }
+      }
+      renderAdminSwitchModal();
+      document.querySelector("[data-admin-switch-modal]")?.classList.remove("hidden");
+    }
+
+    function closeAdminSwitchModal() {
+      document.querySelector("[data-admin-switch-modal]")?.classList.add("hidden");
+    }
+
+    async function switchAdminToStudent(studentName) {
+      const student = getStudents().find(item => item.name === studentName);
+      if (!student) return;
+      if (studentsLoadedFromSupabase) {
+        await loadStudentStateForAdmin(student.name);
+        applyAdminStateToRemote(student.name);
+      }
+      studentSessionToken = "";
+      currentUser = {
+        id: student.id || "",
+        name: student.name,
+        role: "student",
+        access: student.access || defaultAccess(),
+        createdAt: student.createdAt || Date.now(),
+        impersonatedByAdmin: true
+      };
+      setSession(currentUser);
+      closeAdminSwitchModal();
+      showAppPanel("dashboard", false);
+      updateSupabaseStatus("Supabase: live", "live");
     }
 
     function renderStudents() {
@@ -80166,6 +80537,58 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelectorAll("[data-review-status]").forEach(button => button.classList.remove("active"));
     }
 
+    function sessionReturnEntry() {
+      for (let index = viewStack.length - 1; index >= 0; index -= 1) {
+        const entry = viewStack[index];
+        if (entry?.view === "options-view" && entry.options) return { ...entry, options: entry.options };
+      }
+      if (currentView === "options-view" && lastOptions) return { view: "options-view", options: lastOptions, label: lastOptions.title };
+      return { view: "dashboard", label: "學習首頁" };
+    }
+
+    function sessionElapsedMs() {
+      if (!studySession) return 0;
+      if (studySession.completed && studySession.elapsedMs) return Number(studySession.elapsedMs || 0);
+      return Math.max(0, Date.now() - Number(studySession.startedAt || Date.now()));
+    }
+
+    function updateSessionTimer() {
+      const timer = document.querySelector("[data-session-timer]");
+      if (timer) timer.textContent = formatDuration(sessionElapsedMs());
+    }
+
+    function startStudyTimer() {
+      window.clearInterval(studyTimerId);
+      updateSessionTimer();
+      if (!studySession || studySession.completed) return;
+      studyTimerId = window.setInterval(updateSessionTimer, 1000);
+    }
+
+    function stopStudyTimer() {
+      window.clearInterval(studyTimerId);
+      studyTimerId = 0;
+      updateSessionTimer();
+    }
+
+    function completionSummaryHtml() {
+      const elapsed = sessionElapsedMs();
+      const totalCards = Math.max(1, Number(studySession?.initialTotal || 0));
+      return `
+        <div class="completion-summary">
+          <div>總時間：${formatDuration(elapsed)}</div>
+          <div>平均每張：${formatDuration(elapsed / totalCards)}</div>
+          <button class="primary-button" type="button" data-return-to-deck-list>返回卡組</button>
+        </div>
+      `;
+    }
+
+    function returnToDeckList() {
+      const target = studySession?.returnEntry || { view: "dashboard", label: "學習首頁" };
+      studySession = null;
+      stopStudyTimer();
+      restoreHistoryEntry(target);
+    }
+
     function logAttemptStart(mode, totalCards) {
       if (!currentUser?.name) return "";
       const id = `${Date.now()}-${Math.random().toString(36).slice(2)}`;
@@ -80260,6 +80683,8 @@ window.EDMUND_FLASHCARD_SEED = {
         if (completed) {
           target.completed = true;
           target.completedAt = Date.now();
+          target.durationMs = sessionElapsedMs();
+          target.averageMsPerCard = target.totalCards ? Math.round(target.durationMs / target.totalCards) : 0;
         }
         saveAttempts(attempts);
       }
@@ -80267,6 +80692,8 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function saveCurrentProgress() {
       if (!currentUser?.name || !studySession || studySession.completed) return;
+      const elapsedMs = sessionElapsedMs();
+      studySession.elapsedMs = elapsedMs;
       updateAttemptProgress(false);
       const store = getProgressStore();
       store[progressKey(currentDeckId)] = {
@@ -80286,6 +80713,9 @@ window.EDMUND_FLASHCARD_SEED = {
         outcomes: studySession.outcomes,
         outcomeTimes: studySession.outcomeTimes || {},
         cardAttemptCounts: studySession.cardAttemptCounts,
+        startedAt: studySession.startedAt || Date.now(),
+        elapsedMs,
+        returnEntry: studySession.returnEntry || sessionReturnEntry(),
         attemptId: studySession.attemptId,
         totalCards: studySession.initialTotal || studySession.roundQueue.length,
         savedAt: Date.now()
@@ -80302,7 +80732,10 @@ window.EDMUND_FLASHCARD_SEED = {
       if (currentView !== "deck-view" || !isSessionInProgress()) return true;
       saveCurrentProgress();
       const confirmed = window.confirm("這個卡組尚未完成，進度已暫存。確定要離開嗎？");
-      if (confirmed) studySession = null;
+      if (confirmed) {
+        studySession = null;
+        stopStudyTimer();
+      }
       return confirmed;
     }
 
@@ -80357,6 +80790,9 @@ window.EDMUND_FLASHCARD_SEED = {
         cardAttemptCounts: {},
         flipped: false,
         completed: false,
+        startedAt: Date.now(),
+        elapsedMs: 0,
+        returnEntry: sessionReturnEntry(),
         attemptId: logAttemptStart(modeLabel(mode, cardLimit, rangeLabel), order.length)
       };
 
@@ -80396,6 +80832,9 @@ window.EDMUND_FLASHCARD_SEED = {
         cardAttemptCounts: {},
         flipped: false,
         completed: false,
+        startedAt: Date.now(),
+        elapsedMs: 0,
+        returnEntry: { view: "dashboard", label: "學習首頁" },
         attemptId: logAttemptStart("目前紅叉卡片", order.length)
       };
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
@@ -80433,6 +80872,9 @@ window.EDMUND_FLASHCARD_SEED = {
         cardAttemptCounts: {},
         flipped: false,
         completed: false,
+        startedAt: Date.now(),
+        elapsedMs: 0,
+        returnEntry: { view: "dashboard", label: "學習首頁" },
         attemptId: logAttemptStart(`間隔重複記憶法：${days} 天｜${spacedFilterLabel(filter)}`, order.length)
       };
       document.querySelector("[data-deck-title]").textContent = currentDeckTitle;
@@ -80466,6 +80908,9 @@ window.EDMUND_FLASHCARD_SEED = {
         cardAttemptCounts: saved.cardAttemptCounts || {},
         flipped: false,
         completed: false,
+        startedAt: Date.now() - Number(saved.elapsedMs || 0),
+        elapsedMs: Number(saved.elapsedMs || 0),
+        returnEntry: saved.returnEntry || sessionReturnEntry(),
         attemptId: saved.attemptId || ""
       };
       if (studySession.currentPosition >= studySession.roundQueue.length) studySession.currentPosition = 0;
@@ -80625,8 +81070,9 @@ window.EDMUND_FLASHCARD_SEED = {
       }
 
       if (!card) {
-        frontTerm.textContent = studySession?.cards.length ? "本輪完成。" : "暫時未有卡片。";
-        if (frontExamples) frontExamples.innerHTML = "";
+        const completed = Boolean(studySession?.completed);
+        frontTerm.textContent = completed ? "本卡組已完成。" : (studySession?.cards.length ? "本輪完成。" : "暫時未有卡片。");
+        if (frontExamples) frontExamples.innerHTML = completed ? completionSummaryHtml() : "";
         backCard.classList.add("hidden");
         greenButton.disabled = true;
         redButton.disabled = true;
@@ -80639,6 +81085,7 @@ window.EDMUND_FLASHCARD_SEED = {
         }
         if (noteStatus) noteStatus.textContent = "";
         if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
+        window.requestAnimationFrame(fitVisibleCardTerms);
         return;
       }
 
@@ -80660,7 +81107,7 @@ window.EDMUND_FLASHCARD_SEED = {
       }
       backCard.innerHTML = `
         <div>
-          <div class="back-term">${escapeHtml(card.front)}</div>
+          <div class="back-term" data-fit-card-term>${escapeHtml(card.front)}</div>
           <div class="back-meaning">${escapeHtml(card.meaning)}</div>
           <div class="examples-list">
             ${card.examples.map((example, index) => `
@@ -80681,6 +81128,26 @@ window.EDMUND_FLASHCARD_SEED = {
       greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
       redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
       if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
+      updateSessionTimer();
+      window.requestAnimationFrame(fitVisibleCardTerms);
+    }
+
+    function fitVisibleCardTerms() {
+      document.querySelectorAll("[data-fit-card-term]").forEach(element => {
+        element.style.fontSize = "";
+        const computed = window.getComputedStyle(element);
+        let size = Number.parseFloat(computed.fontSize || "72");
+        const minSize = window.matchMedia("(max-width: 760px)").matches ? 30 : 42;
+        const maxLines = 3;
+        const maxHeightFor = () => {
+          const lineHeight = Number.parseFloat(window.getComputedStyle(element).lineHeight || String(size * 1.08));
+          return lineHeight * maxLines + 3;
+        };
+        while (size > minSize && (element.scrollHeight > maxHeightFor() || element.scrollWidth > element.clientWidth + 2)) {
+          size -= 2;
+          element.style.fontSize = `${size}px`;
+        }
+      });
     }
 
     function canSpeakCard() {
@@ -80822,7 +81289,11 @@ window.EDMUND_FLASHCARD_SEED = {
       }
 
       const completed = redIndexes.length === 0 && studySession.roundQueue.length > 0;
+      const elapsedMs = sessionElapsedMs();
       studySession.completed = completed;
+      studySession.completedAt = Date.now();
+      studySession.elapsedMs = elapsedMs;
+      stopStudyTimer();
       updateAttemptProgress(completed);
       clearSavedProgress(currentDeckId);
       studySession.roundQueue = [];
@@ -80833,7 +81304,8 @@ window.EDMUND_FLASHCARD_SEED = {
       const frontTerm = document.querySelector("[data-front-term]");
       const frontExamples = document.querySelector("[data-front-examples]");
       if (frontTerm) frontTerm.textContent = completed ? "本卡組已完成。" : "本次溫習已結束。";
-      if (frontExamples) frontExamples.innerHTML = "";
+      if (frontExamples) frontExamples.innerHTML = completed ? completionSummaryHtml() : "";
+      window.requestAnimationFrame(fitVisibleCardTerms);
       if (lastOptions) renderOptionsContent();
     }
 
@@ -81083,9 +81555,37 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const dashboardPracticeButton = event.target.closest("[data-start-dashboard-review]");
+        if (dashboardPracticeButton) {
+          if (!confirmLeaveInProgress()) return;
+          startDashboardPracticeSession(dashboardPracticeButton.getAttribute("data-start-dashboard-review") || "attempted");
+          return;
+        }
+
         const exportDeckButton = event.target.closest("[data-export-deck-pdf]");
         if (exportDeckButton) {
           exportDeckPdf();
+          return;
+        }
+
+        if (event.target.closest("[data-admin-switch]")) {
+          await openAdminSwitchModal();
+          return;
+        }
+
+        if (event.target.closest("[data-close-admin-switch]")) {
+          closeAdminSwitchModal();
+          return;
+        }
+
+        if (event.target === document.querySelector("[data-admin-switch-modal]")) {
+          closeAdminSwitchModal();
+          return;
+        }
+
+        const adminSwitchStudentButton = event.target.closest("[data-admin-switch-student]");
+        if (adminSwitchStudentButton) {
+          await switchAdminToStudent(adminSwitchStudentButton.getAttribute("data-admin-switch-student"));
           return;
         }
 
@@ -81104,6 +81604,29 @@ window.EDMUND_FLASHCARD_SEED = {
         const allAccessButton = event.target.closest("[data-set-all-access]");
         if (allAccessButton) {
           await setAllAccess(allAccessButton.getAttribute("data-set-all-access") === "true");
+          return;
+        }
+
+        const toggleLockedButton = event.target.closest("[data-toggle-locked-visibility]");
+        if (toggleLockedButton) {
+          hideLockedSections = !hideLockedSections;
+          localStorage.setItem("edmund-hide-locked-sections", String(hideLockedSections));
+          renderDashboard();
+          return;
+        }
+
+        const highAttemptToggle = event.target.closest("[data-toggle-high-attempt-group]");
+        if (highAttemptToggle) {
+          const key = highAttemptToggle.getAttribute("data-toggle-high-attempt-group");
+          if (expandedHighAttemptGroups.has(key)) expandedHighAttemptGroups.delete(key);
+          else expandedHighAttemptGroups.add(key);
+          renderHighAttemptCards();
+          return;
+        }
+
+        if (event.target.closest("[data-collapse-high-attempts]")) {
+          expandedHighAttemptGroups.clear();
+          renderHighAttemptCards();
           return;
         }
 
@@ -81300,6 +81823,11 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        if (event.target.closest("[data-return-to-deck-list]")) {
+          returnToDeckList();
+          return;
+        }
+
         if (event.target.closest("[data-resume-deck]")) {
           resumeDeckSession();
           return;
@@ -81330,6 +81858,8 @@ window.EDMUND_FLASHCARD_SEED = {
           if (!confirmLeaveInProgress()) return;
           clearSession();
           studySession = null;
+          stopStudyTimer();
+          closeAdminSwitchModal();
           showLogin();
           return;
         }
