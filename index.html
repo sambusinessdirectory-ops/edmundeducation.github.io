@@ -1317,8 +1317,9 @@
 
   <script>
     const COURSE_IMAGE_BASE_URL = "https://pub-0ecb66b14a1c40b3a65cff0a724d162d.r2.dev/course-images/";
+    const VIDEO_BASE_URL = "https://pub-0ecb66b14a1c40b3a65cff0a724d162d.r2.dev/videos/";
 
-    function courseImageUrl(path) {
+    function assetUrl(baseUrl, path) {
       if (!path || /^https?:\/\//i.test(path)) return path;
       let cleanPath = String(path);
       try {
@@ -1328,10 +1329,18 @@
       }
       cleanPath = cleanPath.replace(/^\/+/, "");
 
-      return COURSE_IMAGE_BASE_URL + cleanPath
+      return baseUrl + cleanPath
         .split("/")
         .map(segment => encodeURIComponent(segment))
         .join("/");
+    }
+
+    function courseImageUrl(path) {
+      return assetUrl(COURSE_IMAGE_BASE_URL, path);
+    }
+
+    function videoUrl(path) {
+      return assetUrl(VIDEO_BASE_URL, path);
     }
 
     const offerings = [
@@ -1864,7 +1873,7 @@
       let hasRevealed = false;
 
       nextVideo.classList.remove("is-active");
-      nextVideo.src = src;
+      nextVideo.src = videoUrl(src);
       nextVideo.currentTime = 0;
       nextVideo.load();
 
