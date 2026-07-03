@@ -235,18 +235,31 @@ set search_path = public
 as $$
 declare
   v_student_name text := trim(p_student_name);
+  v_student_id uuid;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return false;
   end if;
 
-  delete from public.flashcard_students st
-  where st.name = v_student_name;
+  select st.id
+  into v_student_id
+  from public.flashcard_students st
+  where st.name = v_student_name
+  limit 1;
+
+  if v_student_id is null then
+    return true;
+  end if;
+
+  delete from public.flashcard_student_state s where s.student_id = v_student_id;
+  delete from public.flashcard_student_sessions s where s.student_id = v_student_id;
+  delete from public.flashcard_student_password_logs l where l.student_id = v_student_id;
+  delete from public.flashcard_students st where st.id = v_student_id;
 
   return not exists (
     select 1
     from public.flashcard_students st
-    where st.name = v_student_name
+    where st.id = v_student_id
   );
 end;
 $$;

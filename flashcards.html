@@ -431,12 +431,12 @@
     }
 
     .student-row {
-      min-height: 58px;
+      min-height: 68px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      padding: 10px 12px 10px 16px;
+      padding: 12px 14px 12px 18px;
       border: 1px solid rgba(47,128,237,0.16);
       border-radius: 16px;
       background: rgba(255,255,255,0.74);
@@ -446,26 +446,29 @@
 
     .student-row-actions {
       display: flex;
-      gap: 8px;
+      gap: 10px;
       flex-wrap: wrap;
       justify-content: flex-end;
     }
 
     .mini-button {
-      min-height: 36px;
+      min-height: 46px;
       border: 0;
       border-radius: 999px;
-      padding: 0 12px;
+      padding: 0 18px;
       background: #dbeafe;
       color: #1559a8;
       font: inherit;
-      font-size: 13px;
+      font-size: 15px;
+      line-height: 1;
       font-weight: 900;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #bfdbfe;
     }
 
     .mini-button.danger {
       background: #fee2e2;
       color: #b91c1c;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #fecaca;
     }
 
     .profile-card {
@@ -551,6 +554,53 @@
       width: 22px;
       min-height: 22px;
       accent-color: var(--blue);
+    }
+
+    .toggle-row.has-children {
+      align-items: stretch;
+      padding-right: 8px;
+    }
+
+    .toggle-row-label {
+      display: grid;
+      gap: 3px;
+      min-width: 0;
+    }
+
+    .access-child-button {
+      min-height: 36px;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 999px;
+      padding: 0 12px;
+      background: #fff;
+      color: #1559a8;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+      box-shadow: 0 6px 14px rgba(17,43,85,0.06);
+    }
+
+    .toggle-row.has-children:hover .access-child-button,
+    .access-child-button.active {
+      background: #dbeafe;
+      border-color: rgba(47,128,237,0.32);
+    }
+
+    .access-subpanel {
+      display: grid;
+      gap: 10px;
+      margin-top: 12px;
+      padding: 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 18px;
+      background: rgba(239,246,255,0.76);
+    }
+
+    .access-subgrid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
     }
 
     .dashboard-side-tools {
@@ -901,17 +951,19 @@
 
     .progress-stat .practice-chip {
       justify-self: end;
+      min-height: 38px;
       margin-top: 4px;
-      padding: 4px 10px;
+      padding: 0 16px;
       border: 0;
       border-radius: 999px;
       background: #fee2e2;
       color: #b91c1c;
       font: inherit;
-      font-size: 12px;
-      line-height: 1.1;
+      font-size: 14px;
+      line-height: 1;
       font-weight: 900;
       cursor: none;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #fecaca;
     }
 
     .progress-stat .practice-chip.blue {
@@ -961,6 +1013,10 @@
       cursor: none;
     }
 
+    div.progress-stat.actionable {
+      cursor: none;
+    }
+
     .progress-stat.actionable {
       transition: transform 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease;
     }
@@ -968,8 +1024,71 @@
     .progress-stat.actionable:hover,
     .progress-stat.actionable.active {
       transform: translateY(-2px);
+      border-color: rgba(47,128,237,0.26);
+      box-shadow: 0 18px 32px rgba(47,128,237,0.12);
+    }
+
+    .progress-stat.actionable.green-stat:hover,
+    .progress-stat.actionable.green-stat.active {
+      border-color: rgba(5,150,105,0.28);
+      box-shadow: 0 18px 32px rgba(5,150,105,0.12);
+    }
+
+    .progress-stat.actionable.red-stat:hover,
+    .progress-stat.actionable.red-stat.active {
       border-color: rgba(220,38,38,0.24);
       box-shadow: 0 18px 32px rgba(220,38,38,0.12);
+    }
+
+    .dashboard-card-panel {
+      display: grid;
+      gap: 14px;
+      margin-top: 16px;
+      padding: 16px;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 20px;
+      background: rgba(239,246,255,0.78);
+    }
+
+    .dashboard-card-panel.green-panel {
+      border-color: rgba(5,150,105,0.20);
+      background: rgba(236,253,245,0.78);
+    }
+
+    .dashboard-card-panel-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .dashboard-card-list {
+      display: grid;
+      gap: 10px;
+      max-height: 360px;
+      overflow: auto;
+      padding-right: 4px;
+    }
+
+    .dashboard-card-row {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1fr) minmax(160px, 0.7fr);
+      gap: 12px;
+      align-items: center;
+      padding: 12px 14px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.90);
+      border: 1px solid rgba(47,128,237,0.12);
+      color: #172033;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .dashboard-card-row span:nth-child(2),
+    .dashboard-card-row span:nth-child(3) {
+      color: #627085;
     }
 
     .red-dashboard-panel {
@@ -1089,18 +1208,25 @@
       gap: 10px;
     }
 
+    .high-attempt-total {
+      color: #627085;
+      font-size: 0.62em;
+      vertical-align: middle;
+    }
+
     .high-attempt-toggle {
-      min-height: 32px;
+      min-height: 46px;
       border: 1px solid rgba(47,128,237,0.22);
       border-radius: 999px;
-      padding: 0 12px;
+      padding: 0 18px;
       background: #fff;
       color: #1559a8;
       font: inherit;
-      font-size: 12px;
+      font-size: 15px;
       line-height: 1;
       font-weight: 900;
       cursor: none;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #dbeafe;
     }
 
     .high-attempt-list {
@@ -1167,9 +1293,11 @@
     }
 
     .compact-toggle {
-      min-height: 34px;
-      padding: 0 12px;
-      font-size: 12px;
+      min-height: 46px;
+      padding: 0 18px;
+      font-size: 14px;
+      line-height: 1;
+      font-weight: 900;
     }
 
     .admin-switch-modal {
@@ -2141,6 +2269,8 @@
         <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
       </a>
       <div class="nav-actions">
+        <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
+        <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
         <button class="pill-button hidden" type="button" data-admin-switch>切換學生</button>
         <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
         <button class="pill-button hidden" type="button" data-back>Back</button>
@@ -2277,9 +2407,29 @@
               <span><i class="legend-dot legend-red"></i>紅叉卡片</span>
             </div>
             <div class="progress-stat-grid">
-              <div class="progress-stat"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span><div class="stat-action-row"><button class="practice-chip blue" type="button" data-start-dashboard-review="attempted">Practice</button><button class="stat-export-button" type="button" data-export-dashboard-pdf="attempted">匯出總卡片列表 (PDF)</button></div></div>
-              <div class="progress-stat"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span><button class="practice-chip green" type="button" data-start-dashboard-review="green">Practice</button></div>
-              <button class="progress-stat actionable" type="button" data-red-dashboard-toggle><strong data-progress-stat-red>0</strong><span>目前紅叉總數</span><span class="practice-chip">Practice</span></button>
+              <div class="progress-stat actionable" role="button" tabindex="0" data-dashboard-toggle="attempted"><strong data-progress-stat-total>0</strong><span>總完成卡片（全部時間）</span><div class="stat-action-row"><button class="practice-chip blue" type="button" data-start-dashboard-review="attempted">練習</button><button class="stat-export-button" type="button" data-export-dashboard-pdf="attempted">匯出總卡片列表 (PDF)</button></div></div>
+              <div class="progress-stat actionable green-stat" role="button" tabindex="0" data-dashboard-toggle="green"><strong data-progress-stat-green>0</strong><span>綠勾總數（全部時間）</span><button class="practice-chip green" type="button" data-start-dashboard-review="green">練習</button></div>
+              <button class="progress-stat actionable red-stat" type="button" data-red-dashboard-toggle><strong data-progress-stat-red>0</strong><span>目前紅叉總數</span><span class="practice-chip">練習</span></button>
+            </div>
+            <div class="dashboard-card-panel hidden" data-dashboard-card-panel="attempted">
+              <div class="dashboard-card-panel-head">
+                <div>
+                  <h3>所有已完成卡片</h3>
+                  <p class="note-text">這裡列出學生曾經練習過的卡片，以及每張卡來自哪個卡組。</p>
+                </div>
+                <button class="secondary-button" type="button" data-close-dashboard-panel="attempted">關閉</button>
+              </div>
+              <div class="dashboard-card-list" data-dashboard-card-list="attempted"></div>
+            </div>
+            <div class="dashboard-card-panel green-panel hidden" data-dashboard-card-panel="green">
+              <div class="dashboard-card-panel-head">
+                <div>
+                  <h3>所有綠勾卡片</h3>
+                  <p class="note-text">這裡列出目前仍然屬於綠勾的卡片，方便學生重溫已掌握內容。</p>
+                </div>
+                <button class="secondary-button" type="button" data-close-dashboard-panel="green">關閉</button>
+              </div>
+              <div class="dashboard-card-list" data-dashboard-card-list="green"></div>
             </div>
             <div class="red-dashboard-panel hidden" data-red-dashboard-panel>
               <div class="red-dashboard-head">
@@ -2296,8 +2446,9 @@
             </div>
             <div class="high-attempt-section" data-high-attempt-section>
               <div class="high-attempt-head">
-                <h3>高嘗試卡片</h3>
+                <h3>高嘗試卡片 <span class="high-attempt-total" data-high-attempt-total></span></h3>
                 <div class="high-attempt-actions">
+                  <button class="secondary-button compact-toggle" type="button" data-expand-high-attempts>全部展開</button>
                   <button class="secondary-button compact-toggle" type="button" data-collapse-high-attempts>全部收起</button>
                   <button class="export-pdf-button" type="button" data-export-dashboard-pdf="high">匯出高嘗試卡片 (PDF)</button>
                 </div>
@@ -77522,6 +77673,46 @@ window.EDMUND_FLASHCARD_SEED = {
       { key: "poem", label: "Poem 英文詩句分析", labelLines: ["Poem", "英文詩句分析"], group: "resource", kind: "deck", target: "poem/general" }
     ];
 
+    const accessChildCatalog = {
+      dse: [
+        { key: "dse-reading", label: "Reading" },
+        { key: "dse-writing", label: "Writing" },
+        { key: "dse-paper3", label: "Paper 3" },
+        { key: "dse-speaking", label: "Speaking" }
+      ],
+      ielts: [
+        { key: "ielts-reading", label: "Reading" },
+        { key: "ielts-writing", label: "Writing" },
+        { key: "ielts-listening", label: "Listening" },
+        { key: "ielts-speaking", label: "Speaking" }
+      ],
+      government: [
+        { key: "government-hkfsd", label: "HKFSD" },
+        { key: "government-hkpf", label: "HKPF" },
+        { key: "government-csd", label: "CSD" },
+        { key: "government-c-and-ed", label: "C&ED" },
+        { key: "government-immd", label: "ImmD" }
+      ],
+      synonyms: [
+        { key: "synonyms/noun", label: "Noun" },
+        { key: "synonyms/verb", label: "Verb" },
+        { key: "synonyms/adjectives", label: "Adjectives" },
+        { key: "synonyms/adverbs", label: "Adverbs" }
+      ],
+      "spaced-repetition": [
+        { key: "spaced-repetition-days|3", label: "3 日後重溫" },
+        { key: "spaced-repetition-days|7", label: "7 日後重溫" },
+        { key: "spaced-repetition-days|14", label: "14 日後重溫" }
+      ]
+    };
+
+    function allAccessKeys() {
+      return [
+        ...accessSections.map(section => section.key),
+        ...Object.values(accessChildCatalog).flat().map(child => child.key)
+      ];
+    }
+
     const viewSelectors = [
       "[data-admin-panel]",
       "[data-dashboard]",
@@ -77553,6 +77744,8 @@ window.EDMUND_FLASHCARD_SEED = {
     let adminStudentStateCache = {};
     let hideLockedSections = localStorage.getItem("edmund-hide-locked-sections") === "true";
     let expandedHighAttemptGroups = new Set();
+    let dashboardPanelsOpen = new Set();
+    let selectedAccessParent = "";
     let studyTimerId = 0;
     const ADMIN_ATTEMPTS_PAGE_SIZE = 8;
 
@@ -77591,7 +77784,11 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function defaultAccess() {
-      return Object.fromEntries(accessSections.map(section => [section.key, section.key === "student-custom"]));
+      const access = Object.fromEntries(accessSections.map(section => [section.key, section.key === "student-custom"]));
+      Object.values(accessChildCatalog).flat().forEach(child => {
+        access[child.key] = true;
+      });
+      return access;
     }
 
     function updateSupabaseStatus(message, tone = "") {
@@ -77745,7 +77942,7 @@ window.EDMUND_FLASHCARD_SEED = {
       return normalizeStudent({
         id: row.id,
         name: row.name,
-        password: "Stored securely in Supabase",
+        password: "Protected - use Change Password to reset",
         createdAt: row.created_at ? new Date(row.created_at).getTime() : Date.now(),
         access: row.access || defaultAccess()
       });
@@ -78241,8 +78438,88 @@ window.EDMUND_FLASHCARD_SEED = {
       return Boolean(currentUser?.access?.[key]);
     }
 
+    function parentSectionForRoute(route) {
+      const value = String(route || "");
+      if (value.startsWith("dse-")) return "dse";
+      if (value.startsWith("ielts-")) return "ielts";
+      if (value.startsWith("government-")) return "government";
+      if (value.startsWith("synonyms")) return "synonyms";
+      if (value.startsWith("student-custom")) return "student-custom";
+      if (value.startsWith("custom-setup")) return "custom-setup";
+      if (value.startsWith("spaced-repetition")) return "spaced-repetition";
+      const section = accessSections.find(item => item.target === value || item.key === value);
+      return section?.key || "";
+    }
+
     function sectionKeyForDeck(deckId) {
-      return accessSections.find(section => deckId === section.key || deckId === section.target || deckId.startsWith(`${section.key}/`))?.key || "";
+      const value = String(deckId || "");
+      if (value.startsWith("ielts/")) return "ielts";
+      if (value.startsWith("dse/")) return "dse";
+      if (value.startsWith("government/")) return "government";
+      if (value.startsWith("synonyms/")) return "synonyms";
+      if (value.startsWith("student-custom/")) return "student-custom";
+      if (value.startsWith("custom-setup/")) return "custom-setup";
+      if (value.startsWith("spaced-repetition/")) return "spaced-repetition";
+      return accessSections.find(section => value === section.key || value === section.target || value.startsWith(`${section.key}/`))?.key || "";
+    }
+
+    function subAccessKeyForDeck(deckId) {
+      const id = String(deckId || "");
+      if (id.startsWith("ielts/reading")) return "ielts-reading";
+      if (id.startsWith("ielts/writing")) return "ielts-writing";
+      if (id.startsWith("ielts/listening")) return "ielts-listening";
+      if (id.startsWith("ielts/speaking")) return "ielts-speaking";
+      if (id.startsWith("dse/reading")) return "dse-reading";
+      if (id.startsWith("dse/writing")) return "dse-writing";
+      if (id.startsWith("dse/paper3") || id.startsWith("dse/paper-3")) return "dse-paper3";
+      if (id.startsWith("dse/speaking")) return "dse-speaking";
+      if (id.startsWith("government/hkpf")) return "government-hkpf";
+      if (id.startsWith("government/hkfsd")) return "government-hkfsd";
+      if (id.startsWith("government/csd")) return "government-csd";
+      if (id.startsWith("government/c-and-ed")) return "government-c-and-ed";
+      if (id.startsWith("government/immd")) return "government-immd";
+      if (id.startsWith("synonyms/noun")) return "synonyms/noun";
+      if (id.startsWith("synonyms/verb")) return "synonyms/verb";
+      if (id.startsWith("synonyms/adjectives")) return "synonyms/adjectives";
+      if (id.startsWith("synonyms/adverbs")) return "synonyms/adverbs";
+      return "";
+    }
+
+    function canAccessChild(parentKey, childKey) {
+      if (isAdmin()) return true;
+      if (!parentKey || !canAccess(parentKey)) return false;
+      if (!childKey) return true;
+      return currentUser?.access?.[childKey] !== false;
+    }
+
+    function subAccessKeyForRoute(route) {
+      const value = String(route || "");
+      if (value.startsWith("dse-reading")) return "dse-reading";
+      if (value.startsWith("dse-writing")) return "dse-writing";
+      if (value.startsWith("dse-paper3")) return "dse-paper3";
+      if (value.startsWith("dse-speaking")) return "dse-speaking";
+      if (value.startsWith("ielts-reading")) return "ielts-reading";
+      if (value.startsWith("ielts-writing")) return "ielts-writing";
+      if (value.startsWith("ielts-listening")) return "ielts-listening";
+      if (value.startsWith("ielts-speaking")) return "ielts-speaking";
+      if (value.startsWith("government-hkpf")) return "government-hkpf";
+      if (value.startsWith("government-hkfsd")) return "government-hkfsd";
+      if (value.startsWith("government-csd")) return "government-csd";
+      if (value.startsWith("government-c-and-ed")) return "government-c-and-ed";
+      if (value.startsWith("government-immd")) return "government-immd";
+      if (value.startsWith("synonyms")) return value;
+      if (value.startsWith("spaced-repetition-days")) return value;
+      return "";
+    }
+
+    function canAccessRoute(route) {
+      const parentKey = parentSectionForRoute(route);
+      return canAccessChild(parentKey, subAccessKeyForRoute(route));
+    }
+
+    function canAccessDeck(deckId) {
+      const parentKey = sectionKeyForDeck(deckId);
+      return canAccessChild(parentKey, subAccessKeyForDeck(deckId));
     }
 
     function showLogin() {
@@ -78253,6 +78530,8 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelector("[data-back]")?.classList.add("hidden");
       document.querySelector("[data-logout]")?.classList.add("hidden");
       document.querySelector("[data-admin-switch]")?.classList.add("hidden");
+      document.querySelector("[data-return-admin]")?.classList.add("hidden");
+      document.querySelector("[data-admin-panel-shortcut]")?.classList.add("hidden");
     }
 
     function hideAllAppPanels() {
@@ -78329,6 +78608,8 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelector("[data-app-view]")?.classList.remove("hidden");
       document.querySelector("[data-logout]")?.classList.remove("hidden");
       document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !(isAdmin() || currentUser?.impersonatedByAdmin));
+      document.querySelector("[data-return-admin]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
+      document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !(isAdmin() && view !== "admin-panel"));
       document.querySelector("[data-back]")?.classList.toggle("hidden", viewStack.length === 0);
       hideAllAppPanels();
 
@@ -78800,7 +79081,7 @@ window.EDMUND_FLASHCARD_SEED = {
     function deckIsSearchable(deckId) {
       if (isJaydenOnlyCustomDeck(deckId) && !currentUserIsJayden()) return false;
       const sectionKey = sectionKeyForDeck(deckId);
-      return Boolean(sectionKey && canAccess(sectionKey));
+      return Boolean(sectionKey && canAccessDeck(deckId));
     }
 
     function normalizeSearchText(value) {
@@ -78840,7 +79121,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (index < 1 || index >= parts.length - 1) return;
           const prefix = parts.slice(0, index + 1).join("/");
           const sectionKey = sectionKeyForDeck(prefix) || sectionKeyForDeck(deckId);
-          if (!sectionKey || !canAccess(sectionKey)) return;
+          if (!sectionKey || !canAccessDeck(deckId)) return;
           const existing = rows.get(prefix) || { deckId: prefix, deckTitle: deckTitleFromId(prefix), cardCount: 0, childCount: 0, aggregate: true };
           existing.cardCount += getDeckCards(deckId).length;
           existing.childCount += 1;
@@ -79170,6 +79451,9 @@ window.EDMUND_FLASHCARD_SEED = {
       if (!list) return;
       const groups = highAttemptGroupsForStudent();
       const counts = [...groups.keys()].sort((a, b) => a - b);
+      const totalNode = document.querySelector("[data-high-attempt-total]");
+      const total = counts.reduce((sum, count) => sum + groups.get(count).length, 0);
+      if (totalNode) totalNode.textContent = total ? `（共 ${total} 張）` : "";
       if (!counts.length) {
         list.innerHTML = `<p class="note-text">暫時未有進入第二輪或以上的卡片。</p>`;
         return;
@@ -79293,6 +79577,29 @@ window.EDMUND_FLASHCARD_SEED = {
           </div>
         `).join("")
         : `<p class="note-text">目前沒有紅叉卡片。很好，清得很乾淨。</p>`;
+    }
+
+    function renderDashboardCardPanels() {
+      ["attempted", "green"].forEach(filter => {
+        const panel = document.querySelector(`[data-dashboard-card-panel="${filter}"]`);
+        const list = document.querySelector(`[data-dashboard-card-list="${filter}"]`);
+        const toggle = document.querySelector(`[data-dashboard-toggle="${filter}"]`);
+        if (!panel || !list) return;
+        const open = dashboardPanelsOpen.has(filter);
+        panel.classList.toggle("hidden", !open);
+        toggle?.classList.toggle("active", open);
+        if (!open) return;
+        const rows = dashboardPracticeRows(filter);
+        list.innerHTML = rows.length
+          ? rows.map(row => `
+            <div class="dashboard-card-row">
+              <span>${escapeHtml(row.front || "-")}</span>
+              <span>${escapeHtml(row.meaning || "-")}</span>
+              <span>${escapeHtml(row.deckTitle || deckTitleFromId(row.deckId) || "-")}</span>
+            </div>
+          `).join("")
+          : `<p class="note-text">暫時沒有相關卡片。</p>`;
+      });
     }
 
     function buildProgressSeries(rangeKey = selectedProgressRange, studentName = currentUser?.name) {
@@ -79439,6 +79746,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (totalStat) totalStat.textContent = allTime.total;
       if (greenStat) greenStat.textContent = allTime.green;
       if (redStat) redStat.textContent = currentRedCrossCards().length;
+      renderDashboardCardPanels();
       renderRedDashboardPanel();
       renderHighAttemptCards();
     }
@@ -79524,6 +79832,22 @@ window.EDMUND_FLASHCARD_SEED = {
       updateSupabaseStatus("Supabase: live", "live");
     }
 
+    function returnToAdminAccount() {
+      if (!adminPasswordForSession) return;
+      currentUser = {
+        name: ADMIN_NAME,
+        role: "admin",
+        access: defaultAccess(),
+        createdAt: Date.now()
+      };
+      studentSessionToken = "";
+      selectedStudentName = "";
+      closeAdminSwitchModal();
+      setSession(currentUser);
+      showAppPanel("admin-panel", false);
+      updateSupabaseStatus("Supabase: live", "live");
+    }
+
     function renderStudents() {
       const list = document.querySelector("[data-student-list]");
       if (!list) return;
@@ -79540,6 +79864,28 @@ window.EDMUND_FLASHCARD_SEED = {
           </div>
         `).join("")
         : `<p class="note-text">No student accounts yet.</p>`;
+    }
+
+    function renderAccessChildrenPanel(student) {
+      const children = accessChildCatalog[selectedAccessParent] || [];
+      if (!children.length) return "";
+      const parent = accessSections.find(section => section.key === selectedAccessParent);
+      return `
+        <div class="access-subpanel">
+          <div class="access-subpanel-head">
+            <strong>${escapeHtml(parent?.label || "細項權限")}</strong>
+            <span>可逐項控制學生是否能進入下一層分類。</span>
+          </div>
+          <div class="access-subgrid">
+            ${children.map(child => `
+              <label class="toggle-row">
+                <span>${escapeHtml(child.label)}</span>
+                <input type="checkbox" data-toggle-sub-access="${escapeHtml(child.key)}" ${student.access[child.key] !== false ? "checked" : ""}>
+              </label>
+            `).join("")}
+          </div>
+        </div>
+      `;
     }
 
     function renderStudentProfile() {
@@ -79571,7 +79917,7 @@ window.EDMUND_FLASHCARD_SEED = {
         <h2>${escapeHtml(student.name)}</h2>
         <div class="profile-facts">
           <div class="fact-row"><strong>Created</strong><span>${exactDateTime(student.createdAt)}</span></div>
-          <div class="fact-row"><strong>Password</strong><span>Stored securely. Use Change Password to reset.</span></div>
+          <div class="fact-row"><strong>Password</strong><span>${escapeHtml(student.password || "Protected - use Change Password to reset")}</span></div>
         </div>
 
         <form data-password-form="${escapeHtml(student.name)}">
@@ -79594,17 +79940,21 @@ window.EDMUND_FLASHCARD_SEED = {
             <button class="secondary-button" type="button" data-set-all-access="false">全部取消</button>
           </div>
           <div class="access-grid">
-            ${accessSections.map(section => `
-              <label class="toggle-row">
-                <span>${sectionToggleLabelHtml(section)}</span>
-                <input type="checkbox" data-toggle-access="${escapeHtml(section.key)}" ${student.access[section.key] ? "checked" : ""}>
-              </label>
-            `).join("")}
+            ${accessSections.map(section => {
+              const children = accessChildCatalog[section.key] || [];
+              return `
+                <label class="toggle-row ${children.length ? "has-children" : ""}">
+                  <span class="toggle-row-label">${sectionToggleLabelHtml(section)}${children.length ? `<button class="access-child-button ${selectedAccessParent === section.key ? "active" : ""}" type="button" data-show-access-children="${escapeHtml(section.key)}">細項</button>` : ""}</span>
+                  <input type="checkbox" data-toggle-access="${escapeHtml(section.key)}" ${student.access[section.key] ? "checked" : ""}>
+                </label>
+              `;
+            }).join("")}
           </div>
+          ${renderAccessChildrenPanel(student)}
         </div>
 
         <div>
-          <h3>Attempt Details</h3>
+          <div class="profile-section-head"><h3>Attempt Details</h3><button class="secondary-button compact-toggle" type="button" data-refresh-attempts>刷新紀錄</button></div>
           <div class="attempt-list">
             ${visibleAttempts.length ? visibleAttempts.map(attempt => `
               <div class="attempt-row">
@@ -81334,8 +81684,8 @@ window.EDMUND_FLASHCARD_SEED = {
       const students = getStudents();
       const target = students.find(item => item.name === student.name);
       if (!target) return;
-      accessSections.forEach(section => {
-        target.access[section.key] = value;
+      allAccessKeys().forEach(key => {
+        target.access[key] = value;
       });
       if (studentsLoadedFromSupabase) {
         const ok = await saveStudentAccessToSupabase(target);
@@ -81555,6 +81905,22 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const dashboardToggle = event.target.closest("[data-dashboard-toggle]");
+        if (dashboardToggle && !event.target.closest("button")) {
+          const key = dashboardToggle.getAttribute("data-dashboard-toggle");
+          if (dashboardPanelsOpen.has(key)) dashboardPanelsOpen.delete(key);
+          else dashboardPanelsOpen.add(key);
+          renderProgressDashboard();
+          return;
+        }
+
+        const closeDashboardPanelButton = event.target.closest("[data-close-dashboard-panel]");
+        if (closeDashboardPanelButton) {
+          dashboardPanelsOpen.delete(closeDashboardPanelButton.getAttribute("data-close-dashboard-panel"));
+          renderProgressDashboard();
+          return;
+        }
+
         const dashboardPracticeButton = event.target.closest("[data-start-dashboard-review]");
         if (dashboardPracticeButton) {
           if (!confirmLeaveInProgress()) return;
@@ -81570,6 +81936,18 @@ window.EDMUND_FLASHCARD_SEED = {
 
         if (event.target.closest("[data-admin-switch]")) {
           await openAdminSwitchModal();
+          return;
+        }
+
+        if (event.target.closest("[data-return-admin]")) {
+          if (!confirmLeaveInProgress()) return;
+          returnToAdminAccount();
+          return;
+        }
+
+        if (event.target.closest("[data-admin-panel-shortcut]")) {
+          if (!confirmLeaveInProgress()) return;
+          showAppPanel("admin-panel", false);
           return;
         }
 
@@ -81601,9 +81979,47 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        const accessChildrenButton = event.target.closest("[data-show-access-children]");
+        if (accessChildrenButton) {
+          event.preventDefault();
+          selectedAccessParent = selectedAccessParent === accessChildrenButton.getAttribute("data-show-access-children") ? "" : accessChildrenButton.getAttribute("data-show-access-children");
+          renderStudentProfile();
+          return;
+        }
+
         const allAccessButton = event.target.closest("[data-set-all-access]");
         if (allAccessButton) {
           await setAllAccess(allAccessButton.getAttribute("data-set-all-access") === "true");
+          return;
+        }
+
+        const subAccessToggle = event.target.closest("[data-toggle-sub-access]");
+        if (subAccessToggle) {
+          const target = getSelectedStudent();
+          if (!target) return;
+          const key = subAccessToggle.getAttribute("data-toggle-sub-access");
+          target.access[key] = subAccessToggle.checked;
+          if (studentsLoadedFromSupabase) {
+            const ok = await saveStudentAccessToSupabase(target);
+            if (!ok) {
+              subAccessToggle.checked = !subAccessToggle.checked;
+              return;
+            }
+          } else {
+            saveStudents(getStudents().map(student => student.name === target.name ? target : student));
+          }
+          renderStudentProfile();
+          return;
+        }
+
+        const refreshAttemptsButton = event.target.closest("[data-refresh-attempts]");
+        if (refreshAttemptsButton && selectedStudentName) {
+          if (studentsLoadedFromSupabase) {
+            await loadStudentStateForAdmin(selectedStudentName);
+            await loadPasswordLogsFromSupabase(selectedStudentName);
+          }
+          renderStudentProfile();
+          updateSupabaseStatus("Supabase: live", "live");
           return;
         }
 
@@ -81620,6 +82036,13 @@ window.EDMUND_FLASHCARD_SEED = {
           const key = highAttemptToggle.getAttribute("data-toggle-high-attempt-group");
           if (expandedHighAttemptGroups.has(key)) expandedHighAttemptGroups.delete(key);
           else expandedHighAttemptGroups.add(key);
+          renderHighAttemptCards();
+          return;
+        }
+
+        if (event.target.closest("[data-expand-high-attempts]")) {
+          const groups = highAttemptGroupsForStudent();
+          expandedHighAttemptGroups = new Set([...groups.keys()].map(String));
           renderHighAttemptCards();
           return;
         }
@@ -81704,11 +82127,25 @@ window.EDMUND_FLASHCARD_SEED = {
           if (!window.confirm(`第二次確認：這會刪除「${name}」的帳戶及 Supabase 內已同步的學習紀錄，以節省儲存空間。刪除後不能復原。確定繼續？`)) return;
           if (studentsLoadedFromSupabase) {
             try {
-              await callSupabaseRpc("flashcard_admin_delete_student_with_state", {
-                p_admin_name: ADMIN_NAME,
-                p_admin_password: adminPasswordForSession,
-                p_student_name: name
-              });
+              let deleted = false;
+              try {
+                deleted = await callSupabaseRpc("flashcard_admin_delete_student_with_state", {
+                  p_admin_name: ADMIN_NAME,
+                  p_admin_password: adminPasswordForSession,
+                  p_student_name: name
+                });
+              } catch (hardDeleteError) {
+                console.warn("Hard delete failed, trying soft delete:", hardDeleteError);
+              }
+              if (deleted !== true) {
+                deleted = await callSupabaseRpc("flashcard_admin_delete_student", {
+                  p_admin_name: ADMIN_NAME,
+                  p_admin_password: adminPasswordForSession,
+                  p_student_name: name
+                });
+              }
+              if (deleted !== true) throw new Error("Supabase did not confirm delete.");
+              studentsCache = getStudents().filter(student => student.name !== name);
               await loadStudentsFromSupabase();
               updateSupabaseStatus("Supabase: live", "live");
             } catch (error) {
@@ -81746,6 +82183,7 @@ window.EDMUND_FLASHCARD_SEED = {
           const sectionKey = routeButton.getAttribute("data-section-key");
           if (sectionKey && !canAccess(sectionKey)) return;
           const route = routeButton.getAttribute("data-route");
+          if (!canAccessRoute(route)) return;
           if (route === "dse-home") showAppPanel("dse-home");
           if (route === "ielts-home") showAppPanel("ielts-home");
           if (route === "dse-reading") showDseReading();
@@ -81800,6 +82238,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (titleOverride) deckTitleLabels.set(deckId, titleOverride);
           const sectionKey = openDeckButton.getAttribute("data-section-key") || sectionKeyForDeck(deckId);
           if (sectionKey && !canAccess(sectionKey)) return;
+          if (!canAccessDeck(deckId)) return;
           if (/^ielts\/listening\/Practice \d+$/.test(deckId)) {
             const deckParts = deckId.split("/");
             const practiceLabel = deckParts[deckParts.length - 1];
