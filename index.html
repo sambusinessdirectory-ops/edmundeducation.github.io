@@ -1316,6 +1316,24 @@
   </main>
 
   <script>
+    const COURSE_IMAGE_BASE_URL = "https://pub-0ecb66b14a1c40b3a65cff0a724d162d.r2.dev/course-images/";
+
+    function courseImageUrl(path) {
+      if (!path || /^https?:\/\//i.test(path)) return path;
+      let cleanPath = String(path);
+      try {
+        cleanPath = decodeURIComponent(cleanPath);
+      } catch (error) {
+        cleanPath = String(path);
+      }
+      cleanPath = cleanPath.replace(/^\/+/, "");
+
+      return COURSE_IMAGE_BASE_URL + cleanPath
+        .split("/")
+        .map(segment => encodeURIComponent(segment))
+        .join("/");
+    }
+
     const offerings = [
       { id: "ielts-two", group: ["ielts"], title: "#救得一個得一個！二人同行優惠｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$310", type: "IELTS", image: "IELTS 2 People/1.jpg", videoSet: "ieltsTwoPeople" },
       { id: "ielts-three", group: ["ielts"], title: "#救得一個得一個！三人同行超減班｜IELTS 緊急補底班", desc: "IELTS 緊急補底班", price: "$290", type: "IELTS", image: "IELTS 3 People/1.jpg", videoSet: "ieltsThreePeople" },
@@ -1567,7 +1585,7 @@
       const videoAttribute = item.videoSet ? ` data-video-set="${item.videoSet}"` : "";
       const cardClass = item.id === "adult-english" ? "offer-card is-gold-chrome" : "offer-card";
       const art = item.image
-        ? `<div class="offer-art has-image"><img src="${item.image}" alt="${item.title}"></div>`
+        ? `<div class="offer-art has-image"><img src="${courseImageUrl(item.image)}" alt="${item.title}"></div>`
         : `<div class="offer-art">${item.type}</div>`;
 
       return `

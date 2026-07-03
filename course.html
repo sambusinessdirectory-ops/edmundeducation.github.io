@@ -655,6 +655,24 @@
   </main>
 
   <script>
+    const COURSE_IMAGE_BASE_URL = "https://pub-0ecb66b14a1c40b3a65cff0a724d162d.r2.dev/course-images/";
+
+    function courseImageUrl(path) {
+      if (!path || /^https?:\/\//i.test(path)) return path;
+      let cleanPath = String(path);
+      try {
+        cleanPath = decodeURIComponent(cleanPath);
+      } catch (error) {
+        cleanPath = String(path);
+      }
+      cleanPath = cleanPath.replace(/^\/+/, "");
+
+      return COURSE_IMAGE_BASE_URL + cleanPath
+        .split("/")
+        .map(segment => encodeURIComponent(segment))
+        .join("/");
+    }
+
     function imageSet(folder, count) {
       return Array.from({ length: count }, (_, index) => `${folder}/${index + 1}.jpg`);
     }
@@ -941,7 +959,7 @@
     }
 
     function createRecommendationCard(item) {
-      const image = recommendationImage(item.course);
+      const image = courseImageUrl(recommendationImage(item.course));
       const cardClass = item.id === "adult-english" ? "recommendation-card is-gold-chrome" : "recommendation-card";
       const art = image
         ? `<span class="recommendation-art"><img src="${escapeHtml(image)}" alt="${escapeHtml(item.course.title)}"></span>`
@@ -1026,7 +1044,7 @@
       if (course.images && course.images.length) {
         gallery.innerHTML = course.images.map((src, index) => `
           <figure class="image-card" style="--tilt: ${tilts[index % tilts.length]}; --tilt-active: ${activeTilts[index % activeTilts.length]};">
-            <img src="${src}" alt="${course.title} image ${index + 1}">
+            <img src="${courseImageUrl(src)}" alt="${course.title} image ${index + 1}">
           </figure>
         `).join("");
       } else {
