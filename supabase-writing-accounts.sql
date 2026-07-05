@@ -1,7 +1,7 @@
 -- EdmundEducation Writing Practice account layer
 -- Run this before supabase-writing-state.sql.
 
-create extension if not exists pgcrypto;
+create extension if not exists pgcrypto with schema extensions;
 
 create table if not exists public.writing_admin_accounts (
   id uuid primary key default gen_random_uuid(),
@@ -76,7 +76,7 @@ before update on public.writing_student_accounts
 for each row execute function public.writing_touch_updated_at();
 
 insert into public.writing_admin_accounts (name, password_hash)
-values ('Sam Admin', crypt('EdmundWritingAdmin', gen_salt('bf')))
+values ('Sam Admin', extensions.crypt('EdmundWritingAdmin', extensions.gen_salt('bf')))
 on conflict (name) do update
 set password_hash = excluded.password_hash,
     updated_at = now();
@@ -92,7 +92,7 @@ as $$
     select 1
     from public.writing_admin_accounts admin_account
     where admin_account.name = p_name
-      and admin_account.password_hash = crypt(p_password, admin_account.password_hash)
+      and admin_account.password_hash = extensions.crypt(p_password, admin_account.password_hash)
   );
 $$;
 
@@ -112,7 +112,7 @@ as $$
   select admin_account.id, admin_account.name, admin_account.created_at
   from public.writing_admin_accounts admin_account
   where admin_account.name = p_name
-    and admin_account.password_hash = crypt(p_password, admin_account.password_hash);
+    and admin_account.password_hash = extensions.crypt(p_password, admin_account.password_hash);
 $$;
 
 create or replace function public.writing_admin_list_students(p_admin_name text, p_admin_password text)
@@ -169,7 +169,7 @@ begin
   insert into public.writing_student_accounts (name, password_hash, access, session_token)
   values (
     trim(p_student_name),
-    crypt(p_student_password, gen_salt('bf')),
+    extensions.crypt(p_student_password, extensions.gen_salt('bf')),
     coalesce(p_access, public.writing_default_access()),
     gen_random_uuid()
   )
@@ -218,7 +218,7 @@ begin
   end if;
 
   update public.writing_student_accounts student
-  set password_hash = crypt(p_new_password, gen_salt('bf')),
+  set password_hash = extensions.crypt(p_new_password, extensions.gen_salt('bf')),
       session_token = gen_random_uuid(),
       updated_at = now()
   where student.id = v_student_id;
@@ -333,7 +333,7 @@ begin
   into v_student
   from public.writing_student_accounts student
   where student.name = trim(p_name)
-    and student.password_hash = crypt(p_password, student.password_hash);
+    and student.password_hash = extensions.crypt(p_password, student.password_hash);
 
   if not found then
     return;
