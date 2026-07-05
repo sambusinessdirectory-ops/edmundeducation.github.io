@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>Edmund 學生考試寫作練習系統</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0">
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --ink: #172033;
+      --muted: #627085;
+      --blue: #2f80ed;
+      --blue-dark: #1559a8;
+      --panel: rgba(255,255,255,0.92);
+      --panel-border: rgba(47,128,237,0.18);
+      --locked: #263142;
+      --green: #16a34a;
+      --red: #dc2626;
+      --orange: #f97316;
+      --orange-dark: #c2410c;
+      --shadow: rgba(17,43,85,0.14);
+    }
+
+    html { scroll-behavior: smooth; }
+    html, body, a, button, input, textarea { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 10% 8%, rgba(80,166,255,0.20), transparent 36%),
+        radial-gradient(circle at 86% 12%, rgba(255,196,87,0.18), transparent 34%),
+        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+      color: var(--ink);
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 760;
+      overflow-x: hidden;
+    }
+
+    body.admin-background-active {
+      background:
+        url("assets/flashcards/admin-control-left.jpg") left center / 50% 100vh no-repeat,
+        url("assets/flashcards/admin-control-right.jpg") right center / 50% 100vh no-repeat,
+        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+      background-attachment: fixed, fixed, scroll;
+    }
+
+    body.dashboard-background-active {
+      background:
+        url("assets/flashcards/enter-student-view.jpg") center center / cover fixed no-repeat,
+        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+    }
+
+    body.dashboard-background-active .flash-shell {
+      background: transparent;
+    }
+
+    body.dashboard-background-active .panel-card {
+      background: rgba(255,255,255,0.20);
+      border-color: rgba(255,255,255,0.26);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.22),
+        0 28px 52px rgba(17,43,85,0.16);
+      backdrop-filter: none;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .flash-shell {
+      width: min(1480px, calc(100vw - 40px));
+      margin: 0 auto;
+      padding: 28px 0 64px;
+    }
+
+    .topbar {
+      position: relative;
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 28px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: clamp(12px, 2vw, 28px);
+      text-decoration: none;
+    }
+
+    .brand-main,
+    .brand-learning {
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+
+    .brand-main {
+      width: min(360px, 42vw);
+    }
+
+    .brand-learning {
+      width: min(220px, 22vw);
+      max-height: 78px;
+    }
+
+    .topbar-mascot {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: min(270px, 18vw);
+      max-height: 142px;
+      display: none;
+      object-fit: contain;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(0 16px 24px rgba(17,43,85,0.16));
+      z-index: 1;
+    }
+
+    body.app-active .topbar-mascot {
+      display: block;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .sync-pill {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 999px;
+      padding: 0 14px;
+      background: rgba(255,255,255,0.78);
+      color: #2b425f;
+      box-shadow: 0 10px 20px rgba(17,43,85,0.08);
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .sync-pill.live {
+      border-color: rgba(22,163,74,0.26);
+      background: rgba(220,252,231,0.92);
+      color: #166534;
+    }
+
+    .sync-pill.warning {
+      border-color: rgba(245,158,11,0.30);
+      background: rgba(255,251,235,0.94);
+      color: #92400e;
+    }
+
+    .sync-pill.error {
+      border-color: rgba(220,38,38,0.22);
+      background: rgba(254,226,226,0.92);
+      color: #991b1b;
+    }
+
+    .hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 0.92fr) minmax(340px, 0.58fr);
+      gap: clamp(24px, 4vw, 64px);
+      align-items: center;
+      min-height: calc(100vh - 150px);
+    }
+
+    .hero-learning-logo {
+      width: min(360px, 62vw);
+      height: auto;
+      display: block;
+      margin: 0 0 26px;
+      transform: rotate(-20deg);
+      transform-origin: 42% 52%;
+      filter: drop-shadow(0 18px 24px rgba(17,43,85,0.16));
+    }
+
+    .hero-mascot {
+      position: absolute;
+      left: 50%;
+      top: 10%;
+      width: min(430px, 30vw);
+      max-height: 420px;
+      object-fit: contain;
+      pointer-events: none;
+      transform: translateX(-50%);
+      filter: drop-shadow(0 24px 34px rgba(17,43,85,0.18));
+      z-index: 1;
+    }
+
+    .hero-copy h1 {
+      margin: 0;
+      color: #0e2d55;
+      font-size: clamp(42px, 6vw, 86px);
+      line-height: 0.98;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .hero-copy p,
+    .section-head p,
+    .note-text {
+      color: var(--muted);
+      line-height: 1.45;
+      font-weight: 820;
+    }
+
+    .hero-copy p {
+      max-width: 720px;
+      margin: 22px 0 0;
+      font-size: clamp(18px, 1.4vw, 24px);
+    }
+
+    .login-card,
+    .panel-card {
+      border: 1px solid var(--panel-border);
+      border-radius: 28px;
+      background: var(--panel);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.82),
+        0 28px 52px var(--shadow);
+      backdrop-filter: blur(12px);
+    }
+
+    .login-card {
+      position: relative;
+      z-index: 2;
+      padding: 38px;
+    }
+
+    .panel-card {
+      padding: clamp(22px, 3vw, 36px);
+    }
+
+    .app-view.admin-page-bg {
+      position: relative;
+      min-height: calc(100vh - 138px);
+      padding: clamp(18px, 2.2vw, 32px);
+      border-radius: 0;
+      overflow: visible;
+    }
+
+    .app-view.admin-page-bg .admin-control-card {
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+      backdrop-filter: none;
+    }
+
+    h2,
+    .login-card h2,
+    .panel-card h2 {
+      margin: 0 0 18px;
+      color: #0e2d55;
+      font-size: clamp(28px, 2.6vw, 42px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      color: #0e2d55;
+      font-size: 22px;
+      line-height: 1.12;
+      font-weight: 900;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    label {
+      color: #1c3f6e;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    input {
+      width: 100%;
+      min-height: 52px;
+      border: 1px solid rgba(47,128,237,0.22);
+      border-radius: 16px;
+      padding: 0 16px;
+      background: rgba(255,255,255,0.94);
+      color: var(--ink);
+      font: inherit;
+      font-weight: 820;
+      outline: 0;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.84);
+    }
+
+    .password-field {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .password-field input {
+      min-width: 0;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .pill-button,
+    .primary-button,
+    .secondary-button {
+      min-height: 48px;
+      border-radius: 999px;
+      padding: 0 18px;
+      font: inherit;
+      font-weight: 900;
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+    }
+
+    .pill-button,
+    .secondary-button {
+      border: 1px solid rgba(47,128,237,0.24);
+      background: rgba(255,255,255,0.92);
+      color: var(--blue-dark);
+      box-shadow: 0 12px 26px rgba(47,128,237,0.12);
+    }
+
+    .primary-button {
+      border: 0;
+      background: linear-gradient(135deg, #3b82f6, #1559a8);
+      color: #fff;
+      box-shadow: 0 8px 0 #0f4583, 0 22px 34px rgba(47,128,237,0.28);
+    }
+
+    .pill-button:hover,
+    .primary-button:hover,
+    .secondary-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .primary-button:active,
+    .secondary-button:active,
+    .pill-button:active {
+      transform: translateY(3px);
+    }
+
+    .pill-button.danger,
+    .mini-button.danger {
+      border-color: rgba(220,38,38,0.22);
+      color: #b91c1c;
+    }
+
+    .status {
+      min-height: 24px;
+      margin: 16px 0 0;
+      color: #b42318;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .app-view {
+      display: grid;
+      gap: 26px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 22px;
+    }
+
+    .section-head p {
+      margin: 8px 0 0;
+      font-size: 16px;
+    }
+
+    .welcome-message {
+      align-self: center;
+      margin-left: auto;
+      padding: 12px 18px;
+      border: 1px solid rgba(5,150,105,0.18);
+      border-radius: 999px;
+      background: rgba(240,253,244,0.82);
+      color: #0e2d55;
+      font-size: clamp(17px, 1.5vw, 23px);
+      line-height: 1.2;
+      font-weight: 900;
+      box-shadow: 0 14px 26px rgba(5,150,105,0.10);
+    }
+
+    .welcome-message span {
+      color: #059669;
+    }
+
+    .admin-grid {
+      display: grid;
+      grid-template-columns: minmax(320px, 0.7fr) minmax(0, 1.3fr);
+      gap: 18px;
+    }
+
+    .student-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .student-row {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 14px 12px 18px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.74);
+      color: #173153;
+      font-weight: 900;
+    }
+
+    .student-row-actions,
+    .access-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .mini-button {
+      min-height: 46px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 18px;
+      background: #dbeafe;
+      color: #1559a8;
+      font: inherit;
+      font-size: 15px;
+      line-height: 1;
+      font-weight: 900;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #bfdbfe;
+    }
+
+    .mini-button.danger {
+      background: #fee2e2;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78), 0 6px 0 #fecaca;
+    }
+
+    .profile-card {
+      display: grid;
+      gap: 18px;
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.70);
+      border: 1px solid rgba(47,128,237,0.16);
+    }
+
+    .profile-facts,
+    .password-log {
+      display: grid;
+      gap: 10px;
+    }
+
+    .fact-row,
+    .log-row {
+      display: grid;
+      grid-template-columns: minmax(120px, 0.35fr) minmax(0, 1fr);
+      gap: 12px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(255,255,255,0.78);
+      border: 1px solid rgba(47,128,237,0.12);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .access-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 48px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      background: rgba(255,255,255,0.78);
+      color: #173153;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .toggle-row input {
+      width: 22px;
+      min-height: 22px;
+      accent-color: var(--blue);
+    }
+
+    .admin-control-card {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .admin-control-card > :not(.admin-bg) {
+      position: relative;
+      z-index: 1;
+    }
+
+    .admin-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.18;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .admin-bg-left {
+      clip-path: polygon(0 0, 50% 0, 44% 100%, 0 100%);
+      background-image: url("assets/flashcards/admin-control-left.jpg");
+    }
+
+    .admin-bg-right {
+      clip-path: polygon(56% 0, 100% 0, 100% 100%, 50% 100%);
+      background-image: url("assets/flashcards/admin-control-right.jpg");
+    }
+
+    .enter-student-view-button {
+      min-width: min(270px, 100%);
+      min-height: 120px;
+      border: 0;
+      border-radius: 26px;
+      overflow: hidden;
+      background: url("assets/flashcards/enter-student-view.jpg") center / cover no-repeat;
+      color: #fff;
+      font: inherit;
+      font-size: clamp(22px, 2.2vw, 34px);
+      font-weight: 900;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.42);
+      box-shadow: 0 18px 36px rgba(17,43,85,0.18);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .enter-student-view-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 24px 44px rgba(17,43,85,0.24);
+    }
+
+    .admin-switch-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: rgba(15,23,42,0.38);
+    }
+
+    .admin-switch-card {
+      width: min(620px, 100%);
+      max-height: min(760px, calc(100vh - 48px));
+      overflow: auto;
+      border: 1px solid rgba(47,128,237,0.22);
+      border-radius: 28px;
+      padding: 24px;
+      background: rgba(255,255,255,0.96);
+      box-shadow: 0 28px 62px rgba(17,43,85,0.26);
+    }
+
+    .admin-switch-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .admin-switch-list {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .admin-switch-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 16px;
+      background: rgba(239,246,255,0.82);
+      color: #0e2d55;
+      font-weight: 900;
+    }
+
+    .admin-switch-row button {
+      min-height: 40px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 16px;
+      background: #2f80ed;
+      color: #fff;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .dashboard-title-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .writing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .tile {
+      min-height: 150px;
+      border: 0;
+      border-radius: 18px;
+      padding: 18px;
+      display: grid;
+      align-content: end;
+      gap: 8px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #3f91f7 0%, #2f80ed 55%, #2472d8 100%);
+      color: #fff;
+      font: inherit;
+      font-size: clamp(22px, 2vw, 34px);
+      line-height: 1.05;
+      font-weight: 900;
+      text-align: left;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(21,89,168,0.13),
+        0 8px 0 #1559a8,
+        0 20px 30px rgba(47,128,237,0.18);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease, opacity 0.16s ease;
+    }
+
+    .tile small {
+      display: block;
+      color: rgba(255,255,255,0.82);
+      font-size: 12px;
+      line-height: 1.35;
+      font-weight: 850;
+    }
+
+    .tile.locked {
+      background: var(--locked);
+      color: #cbd5e1;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.08),
+        0 8px 0 #111827,
+        0 18px 28px rgba(17,24,39,0.20);
+    }
+
+    .tile:not(.locked):hover {
+      transform: translateY(-2px);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.25),
+        0 10px 0 #1559a8,
+        0 26px 36px rgba(47,128,237,0.24);
+    }
+
+    .tile.emerald-tile:not(.locked) {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #10b981 0%, #059669 58%, #047857 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.28),
+        inset 0 -10px 18px rgba(4,120,87,0.14),
+        0 8px 0 #047857,
+        0 20px 30px rgba(5,150,105,0.20);
+    }
+
+    .tile.orange-tile:not(.locked) {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.08) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #fb923c 0%, #f97316 58%, #ea580c 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(194,65,12,0.16),
+        0 8px 0 #c2410c,
+        0 20px 30px rgba(249,115,22,0.20);
+    }
+
+    .tile.red-tile:not(.locked) {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.32) 0%, rgba(255,255,255,0.08) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(180deg, #9f1239 0%, #881337 58%, #6f102c 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(76,5,25,0.18),
+        0 8px 0 #4c0519,
+        0 20px 30px rgba(136,19,55,0.22);
+    }
+
+    .tile-label {
+      display: grid;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .tile-line {
+      display: block;
+      overflow-wrap: normal;
+      word-break: normal;
+      hyphens: none;
+      text-wrap: balance;
+    }
+
+    .tile-subline {
+      font-size: 0.68em;
+      line-height: 1.12;
+      opacity: 0.95;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .admin-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-mascot {
+        display: none;
+      }
+
+      .writing-grid,
+      .access-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .topbar {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .topbar-mascot {
+        display: none !important;
+      }
+    }
+
+    @media (max-width: 680px) {
+      html, body, a, button, input, textarea { cursor: auto; }
+
+      .custom-cursor {
+        display: none;
+      }
+
+      .flash-shell {
+        width: min(100%, calc(100vw - 24px));
+        padding-top: 16px;
+      }
+
+      .brand-main {
+        width: min(300px, 62vw);
+      }
+
+      .brand-learning {
+        width: min(170px, 32vw);
+      }
+
+      .hero {
+        min-height: auto;
+        padding-bottom: 36px;
+      }
+
+      .hero-copy h1 {
+        font-size: clamp(38px, 14vw, 58px);
+      }
+
+      .login-card {
+        padding: 24px;
+      }
+
+      .form-row,
+      .password-field,
+      .writing-grid,
+      .access-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .student-row,
+      .admin-switch-row,
+      .section-head {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .student-row-actions,
+      .access-actions {
+        justify-content: stretch;
+      }
+
+      .mini-button,
+      .secondary-button,
+      .primary-button,
+      .pill-button {
+        width: 100%;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+</head>
+<body>
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
+
+  <div class="flash-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="EdmundEducation E-Learning">
+        <img class="brand-main" src="Font Transparent.png" alt="EdmundEducation">
+        <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
+      </a>
+      <img class="topbar-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+      <div class="nav-actions">
+        <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
+        <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
+        <button class="pill-button hidden" type="button" data-admin-switch>切換學生</button>
+        <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
+        <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
+      </div>
+    </header>
+
+    <div class="admin-switch-modal hidden" data-admin-switch-modal role="dialog" aria-modal="true" aria-label="Quick student switch">
+      <div class="admin-switch-card">
+        <div class="admin-switch-head">
+          <h2>快速切換學生</h2>
+          <button class="secondary-button" type="button" data-close-admin-switch>關閉</button>
+        </div>
+        <p class="note-text">Admin 可即時進入學生畫面，協助檢查進度或處理緊急修改。</p>
+        <div class="admin-switch-list" data-admin-switch-list></div>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero" data-login-view>
+        <div class="hero-copy">
+          <img class="hero-learning-logo" src="E-Learning.png" alt="E-Learning">
+          <h1>學生考試<br>寫作練習系統</h1>
+          <p>DSE、IELTS、TOEIC、TOEFL、PTE 及政府公務員英文寫作練習。</p>
+        </div>
+
+        <img class="hero-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+
+        <form class="login-card" data-login-form>
+          <h2>Login</h2>
+          <div class="field">
+            <label for="username">User name</label>
+            <input id="username" name="username" type="text" autocomplete="username" required>
+          </div>
+          <div class="field">
+            <label for="password">Password</label>
+            <div class="password-field">
+              <input id="password" name="password" type="password" autocomplete="current-password" required>
+              <button class="secondary-button" type="button" data-toggle-password="#password">Open Eye</button>
+            </div>
+          </div>
+          <div class="field">
+            <button class="primary-button" type="submit">Enter Writing Practice</button>
+          </div>
+          <p class="status" data-login-status></p>
+        </form>
+      </section>
+
+      <section class="app-view hidden" data-app-view>
+        <section class="panel-card admin-control-card hidden" data-admin-panel>
+          <div class="admin-bg admin-bg-left" aria-hidden="true"></div>
+          <div class="admin-bg admin-bg-right" aria-hidden="true"></div>
+          <div class="section-head">
+            <div>
+              <h2>Admin 控制台</h2>
+              <p>Admin: Sam Admin。新增學生後，選擇學生 profile 即可開關寫作範圍及改密碼。</p>
+            </div>
+            <button class="enter-student-view-button" type="button" data-open-dashboard aria-label="Enter Student View">
+              <span>Enter Student View</span>
+            </button>
+          </div>
+
+          <div class="admin-grid">
+            <div>
+              <form data-student-form>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="new-student-name">Student user name</label>
+                    <input id="new-student-name" name="studentName" type="text" required>
+                  </div>
+                  <div class="field">
+                    <label for="new-student-password">Student password</label>
+                    <div class="password-field">
+                      <input id="new-student-password" name="studentPassword" type="password" required>
+                      <button class="secondary-button" type="button" data-toggle-password="#new-student-password">Open Eye</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <button class="primary-button" type="submit">Add Student</button>
+                </div>
+                <p class="status" data-admin-status></p>
+              </form>
+
+              <h2>Valid Students</h2>
+              <div class="student-list" data-student-list></div>
+            </div>
+
+            <div class="profile-card" data-student-profile>
+              <h2>Student Profile</h2>
+              <p class="note-text">Choose a student account to manage access and password recovery.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel-card hidden" data-dashboard>
+          <div class="section-head">
+            <div>
+              <div class="dashboard-title-row">
+                <h2>選擇寫作練習</h2>
+              </div>
+              <p data-user-label></p>
+            </div>
+            <div class="welcome-message" data-welcome-message></div>
+          </div>
+
+          <div class="writing-grid" data-writing-grid></div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    const ADMIN_NAME = "Sam Admin";
+    const STUDENTS_KEY = "edmundWritingStudents";
+    const SESSION_KEY = "edmundWritingSession";
+    const ADMIN_SESSION_PASSWORD_KEY = "edmundWritingAdminPassword";
+    const PASSWORD_LOG_KEY = "edmundWritingPasswordLogs";
+    const WRITING_STATE_KEY = "edmundWritingState";
+    const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
+    const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
+
+    const writingSections = [
+      { key: "dse-writing", label: "DSE", subline: "英文寫作" },
+      { key: "ielts-writing", label: "IELTS", subline: "英文寫作", tone: "emerald" },
+      { key: "toeic-writing", label: "TOEIC", subline: "英文寫作", tone: "orange" },
+      { key: "toefl-writing", label: "TOEFL", subline: "英文寫作" },
+      { key: "pte-writing", label: "PTE", subline: "英文寫作", tone: "emerald" },
+      { key: "government-writing", label: "政府公務員", subline: "英文寫作", tone: "red" }
+    ];
+
+    const supabaseClient = window.supabase?.createClient
+      ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+      : null;
+
+    let currentUser = null;
+    let currentView = "login";
+    let studentsCache = [];
+    let studentsLoadedFromSupabase = false;
+    let selectedStudentName = "";
+    let adminPasswordForSession = "";
+    let studentSessionToken = "";
+    let studentPasswordLogsCache = {};
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function exactDateTime(value) {
+      if (!value) return "未曾";
+      return new Date(value).toLocaleString("en-HK", {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    }
+
+    function defaultAccess() {
+      return Object.fromEntries(writingSections.map(section => [section.key, true]));
+    }
+
+    function normalizeStudent(student) {
+      return {
+        id: student.id || "",
+        name: String(student.name || "").trim(),
+        password: String(student.password || "Protected - use Change Password to reset"),
+        createdAt: student.createdAt || Date.now(),
+        access: { ...defaultAccess(), ...(student.access || {}) }
+      };
+    }
+
+    function readJson(key, fallback) {
+      try {
+        return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback));
+      } catch {
+        return fallback;
+      }
+    }
+
+    function writeJson(key, value) {
+      localStorage.setItem(key, JSON.stringify(value));
+    }
+
+    function updateSupabaseStatus(message, tone = "") {
+      const status = document.querySelector("[data-sync-status]");
+      if (!status) return;
+      status.textContent = message;
+      status.className = `sync-pill ${tone}`.trim();
+    }
+
+    async function ensureSupabaseSession() {
+      const sessionResult = await supabaseClient.auth.getSession();
+      let session = sessionResult.data?.session || null;
+      if (!session) {
+        const signInResult = await supabaseClient.auth.signInAnonymously();
+        if (signInResult.error) throw signInResult.error;
+        session = signInResult.data?.session || null;
+      }
+      if (!session?.user?.id) throw new Error("No Supabase user session was created.");
+    }
+
+    async function callSupabaseRpc(name, args = {}) {
+      if (!supabaseClient) throw new Error("Supabase client is not available.");
+      await ensureSupabaseSession();
+      const { data, error } = await supabaseClient.rpc(name, args);
+      if (error) throw error;
+      return data;
+    }
+
+    function studentFromSupabase(row) {
+      return normalizeStudent({
+        id: row.id,
+        name: row.name,
+        password: "Protected - use Change Password to reset",
+        createdAt: row.created_at ? new Date(row.created_at).getTime() : Date.now(),
+        access: row.access || defaultAccess()
+      });
+    }
+
+    async function initSupabaseState() {
+      if (!supabaseClient) {
+        updateSupabaseStatus("Supabase: local backup", "warning");
+        return;
+      }
+
+      updateSupabaseStatus("Supabase: connecting", "warning");
+      try {
+        await ensureSupabaseSession();
+        updateSupabaseStatus("Supabase: live", "live");
+        if (currentUser?.role === "admin" && adminPasswordForSession) {
+          await loadStudentsFromSupabase();
+        }
+      } catch (error) {
+        console.warn("Supabase anonymous session failed:", error);
+        updateSupabaseStatus("Supabase: enable Auth", "error");
+      }
+    }
+
+    async function loadStudentsFromSupabase() {
+      if (!adminPasswordForSession) return [];
+      try {
+        const rows = await callSupabaseRpc("writing_admin_list_students", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession
+        });
+        studentsCache = (rows || []).map(studentFromSupabase);
+        studentsLoadedFromSupabase = true;
+        renderStudents();
+        renderStudentProfile();
+        return studentsCache;
+      } catch (error) {
+        console.warn("Could not load Supabase writing students:", error);
+        updateSupabaseStatus("Supabase: writing SQL needed", "error");
+        studentsLoadedFromSupabase = false;
+        return getStudents();
+      }
+    }
+
+    async function loadPasswordLogsFromSupabase(studentName) {
+      if (!studentName || !adminPasswordForSession) return;
+      try {
+        const rows = await callSupabaseRpc("writing_admin_get_password_logs", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession,
+          p_student_name: studentName
+        });
+        studentPasswordLogsCache[studentName] = (rows || []).map(row => ({
+          studentName: row.student_name,
+          changedBy: row.changed_by,
+          changedAt: row.changed_at ? new Date(row.changed_at).getTime() : Date.now()
+        }));
+      } catch (error) {
+        console.warn("Could not load writing password logs:", error);
+      }
+    }
+
+    function getStudents() {
+      if (studentsLoadedFromSupabase) return studentsCache.map(normalizeStudent);
+      return readJson(STUDENTS_KEY, []).map(normalizeStudent).filter(student => student.name);
+    }
+
+    function saveStudents(students) {
+      if (studentsLoadedFromSupabase) {
+        studentsCache = students.map(normalizeStudent);
+        return;
+      }
+      writeJson(STUDENTS_KEY, students.map(normalizeStudent));
+    }
+
+    function getSelectedStudent() {
+      return getStudents().find(student => student.name === selectedStudentName) || null;
+    }
+
+    function getPasswordLogs() {
+      if (selectedStudentName && studentPasswordLogsCache[selectedStudentName]) {
+        return studentPasswordLogsCache[selectedStudentName];
+      }
+      return readJson(PASSWORD_LOG_KEY, []);
+    }
+
+    function savePasswordLogs(logs) {
+      writeJson(PASSWORD_LOG_KEY, logs);
+    }
+
+    function setSession(user) {
+      currentUser = user;
+      writeJson(SESSION_KEY, user);
+      if (user?.role === "admin" && adminPasswordForSession) {
+        localStorage.setItem(ADMIN_SESSION_PASSWORD_KEY, adminPasswordForSession);
+      }
+    }
+
+    function restoreSession() {
+      const session = readJson(SESSION_KEY, null);
+      if (!session?.name || !session?.role) return false;
+      currentUser = session;
+      if (session.role === "admin") {
+        adminPasswordForSession = localStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
+      }
+      if (session.role === "student") {
+        studentSessionToken = session.sessionToken || "";
+      }
+      return true;
+    }
+
+    function isAdmin() {
+      return currentUser?.role === "admin";
+    }
+
+    function canAccess(sectionKey) {
+      if (isAdmin()) return true;
+      return currentUser?.access?.[sectionKey] !== false;
+    }
+
+    function updateNavActions() {
+      document.querySelector("[data-logout]")?.classList.toggle("hidden", !currentUser);
+      document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
+      document.querySelector("[data-return-admin]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
+      document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !isAdmin());
+    }
+
+    function showLogin() {
+      currentUser = null;
+      currentView = "login";
+      studentSessionToken = "";
+      selectedStudentName = "";
+      localStorage.removeItem(SESSION_KEY);
+      localStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
+      document.body.classList.remove("app-active", "admin-background-active", "dashboard-background-active");
+      document.querySelector("[data-login-view]")?.classList.remove("hidden");
+      document.querySelector("[data-app-view]")?.classList.add("hidden");
+      document.querySelector("[data-admin-panel]")?.classList.add("hidden");
+      document.querySelector("[data-dashboard]")?.classList.add("hidden");
+      closeAdminSwitchModal();
+      updateNavActions();
+    }
+
+    function showAppPanel(view) {
+      currentView = view;
+      document.querySelector("[data-login-view]")?.classList.add("hidden");
+      document.querySelector("[data-app-view]")?.classList.remove("hidden");
+      document.querySelector("[data-admin-panel]")?.classList.toggle("hidden", view !== "admin-panel");
+      document.querySelector("[data-dashboard]")?.classList.toggle("hidden", view !== "dashboard");
+      document.body.classList.add("app-active");
+      document.body.classList.toggle("admin-background-active", view === "admin-panel");
+      document.body.classList.toggle("dashboard-background-active", view === "dashboard" && currentUser?.impersonatedByAdmin);
+      updateNavActions();
+
+      if (view === "admin-panel") {
+        renderStudents();
+        renderStudentProfile();
+      }
+      if (view === "dashboard") renderDashboard();
+    }
+
+    async function login(username, password) {
+      const trimmedName = username.trim();
+      if (supabaseClient) {
+        try {
+          if (trimmedName === ADMIN_NAME) {
+            const adminRows = await callSupabaseRpc("writing_admin_login", {
+              p_name: trimmedName,
+              p_password: password
+            });
+            if (Array.isArray(adminRows) && adminRows.length) {
+              adminPasswordForSession = password;
+              setSession({ name: ADMIN_NAME, role: "admin", access: defaultAccess(), createdAt: Date.now() });
+              await loadStudentsFromSupabase();
+              showAppPanel("admin-panel");
+              updateSupabaseStatus("Supabase: live", "live");
+              return true;
+            }
+          }
+
+          const studentRows = await callSupabaseRpc("writing_student_login", {
+            p_name: trimmedName,
+            p_password: password
+          });
+          if (Array.isArray(studentRows) && studentRows.length) {
+            const student = studentRows[0];
+            studentSessionToken = student.session_token;
+            currentUser = {
+              id: student.id,
+              name: student.name,
+              role: "student",
+              access: { ...defaultAccess(), ...(student.access || {}) },
+              createdAt: student.created_at ? new Date(student.created_at).getTime() : Date.now(),
+              sessionToken: studentSessionToken
+            };
+            setSession(currentUser);
+            showAppPanel("dashboard");
+            updateSupabaseStatus("Supabase: live", "live");
+            return true;
+          }
+        } catch (error) {
+          console.warn("Supabase writing login failed:", error);
+          updateSupabaseStatus("Supabase: writing SQL needed", "error");
+        }
+      }
+
+      const student = getStudents().find(item => item.name === trimmedName && item.password === password);
+      if (student) {
+        setSession({ name: student.name, role: "student", access: student.access, createdAt: student.createdAt });
+        showAppPanel("dashboard");
+        return true;
+      }
+
+      return false;
+    }
+
+    function sectionToggleLabelHtml(section) {
+      return `<span>${escapeHtml(section.label)}<br>${escapeHtml(section.subline)}</span>`;
+    }
+
+    function tileHtml(section) {
+      const locked = !canAccess(section.key);
+      const classes = ["tile"];
+      if (locked) classes.push("locked");
+      if (section.tone === "emerald") classes.push("emerald-tile");
+      if (section.tone === "orange") classes.push("orange-tile");
+      if (section.tone === "red") classes.push("red-tile");
+      return `
+        <button class="${classes.join(" ")}" type="button" data-writing-section="${escapeHtml(section.key)}" ${locked ? "aria-disabled=\"true\"" : ""}>
+          <span class="tile-label">
+            <span class="tile-line">${escapeHtml(section.label)}</span>
+            <span class="tile-line tile-subline">${escapeHtml(section.subline)}</span>
+          </span>
+          ${locked ? "<small>尚未開放</small>" : ""}
+        </button>
+      `;
+    }
+
+    function renderDashboard() {
+      const label = document.querySelector("[data-user-label]");
+      if (label) label.textContent = `${currentUser?.name || "Student"} | ${isAdmin() ? "Admin mode" : "Student mode"}`;
+      const welcome = document.querySelector("[data-welcome-message]");
+      if (welcome) welcome.innerHTML = `Welcome back! <span>${escapeHtml(currentUser?.name || "Student")}</span>~`;
+      const grid = document.querySelector("[data-writing-grid]");
+      if (grid) grid.innerHTML = writingSections.map(tileHtml).join("");
+    }
+
+    function renderStudents() {
+      const list = document.querySelector("[data-student-list]");
+      if (!list) return;
+
+      const students = getStudents();
+      list.innerHTML = students.length
+        ? students.map(student => `
+          <div class="student-row">
+            <span>${escapeHtml(student.name)}</span>
+            <div class="student-row-actions">
+              <button class="mini-button" type="button" data-select-student="${escapeHtml(student.name)}">Profile</button>
+              <button class="mini-button danger" type="button" data-remove-student="${escapeHtml(student.name)}">Remove</button>
+            </div>
+          </div>
+        `).join("")
+        : `<p class="note-text">No student accounts yet.</p>`;
+    }
+
+    function renderStudentProfile() {
+      const panel = document.querySelector("[data-student-profile]");
+      if (!panel) return;
+
+      const student = getSelectedStudent();
+      if (!student) {
+        panel.innerHTML = `
+          <h2>Student Profile</h2>
+          <p class="note-text">Choose a student account to manage access and password recovery.</p>
+        `;
+        return;
+      }
+
+      const logs = getPasswordLogs()
+        .filter(log => log.studentName === student.name)
+        .sort((a, b) => (b.changedAt || 0) - (a.changedAt || 0));
+
+      panel.innerHTML = `
+        <h2>${escapeHtml(student.name)}</h2>
+        <div class="profile-facts">
+          <div class="fact-row"><strong>Created</strong><span>${exactDateTime(student.createdAt)}</span></div>
+          <div class="fact-row"><strong>Password</strong><span>${escapeHtml(student.password || "Protected - use Change Password to reset")}</span></div>
+        </div>
+
+        <form data-password-form="${escapeHtml(student.name)}">
+          <div class="field">
+            <label for="change-password">Change password</label>
+            <div class="password-field">
+              <input id="change-password" name="newPassword" type="password" required>
+              <button class="secondary-button" type="button" data-toggle-password="#change-password">Open Eye</button>
+            </div>
+          </div>
+          <div class="field">
+            <button class="primary-button" type="submit">Change Password</button>
+          </div>
+        </form>
+
+        <div>
+          <h3>Access Control</h3>
+          <div class="access-actions">
+            <button class="secondary-button" type="button" data-set-all-access="true">全部開啟</button>
+            <button class="secondary-button" type="button" data-set-all-access="false">全部取消</button>
+          </div>
+          <div class="access-grid">
+            ${writingSections.map(section => `
+              <label class="toggle-row">
+                ${sectionToggleLabelHtml(section)}
+                <input type="checkbox" data-toggle-access="${escapeHtml(section.key)}" ${student.access[section.key] !== false ? "checked" : ""}>
+              </label>
+            `).join("")}
+          </div>
+        </div>
+
+        <div>
+          <h3>Password Change Log</h3>
+          <div class="password-log">
+            ${logs.length ? logs.map(log => `
+              <div class="log-row">
+                <strong>${exactDateTime(log.changedAt)}</strong>
+                <span>Changed by: ${escapeHtml(log.changedBy || ADMIN_NAME)}</span>
+              </div>
+            `).join("") : `<p class="note-text">No password changes yet.</p>`}
+          </div>
+        </div>
+      `;
+    }
+
+    async function saveStudentAccessToSupabase(student) {
+      if (!student || !adminPasswordForSession) return false;
+      try {
+        const rows = await callSupabaseRpc("writing_admin_set_student_access", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: adminPasswordForSession,
+          p_student_name: student.name,
+          p_access: student.access
+        });
+        const updated = Array.isArray(rows) && rows[0] ? studentFromSupabase(rows[0]) : student;
+        studentsCache = getStudents().map(item => item.name === updated.name ? updated : item);
+        studentsLoadedFromSupabase = true;
+        updateSupabaseStatus("Supabase: live", "live");
+        return true;
+      } catch (error) {
+        console.warn("Could not save writing student access:", error);
+        updateSupabaseStatus("Supabase: access save failed", "error");
+        return false;
+      }
+    }
+
+    async function setAllAccess(value) {
+      const student = getSelectedStudent();
+      if (!student) return;
+      const students = getStudents();
+      const target = students.find(item => item.name === student.name);
+      if (!target) return;
+      writingSections.forEach(section => {
+        target.access[section.key] = value;
+      });
+      if (studentsLoadedFromSupabase) {
+        const ok = await saveStudentAccessToSupabase(target);
+        if (!ok) return;
+      } else {
+        saveStudents(students);
+      }
+      renderStudentProfile();
+    }
+
+    async function saveAccessChange(sectionKey, checked) {
+      const student = getSelectedStudent();
+      if (!student) return;
+      const students = getStudents();
+      const target = students.find(item => item.name === student.name);
+      if (!target) return;
+      target.access[sectionKey] = checked;
+      if (studentsLoadedFromSupabase) {
+        const ok = await saveStudentAccessToSupabase(target);
+        if (!ok) return;
+      } else {
+        saveStudents(students);
+      }
+      renderStudentProfile();
+    }
+
+    function renderAdminSwitchModal() {
+      const list = document.querySelector("[data-admin-switch-list]");
+      if (!list) return;
+      const students = getStudents();
+      list.innerHTML = students.length
+        ? students.map(student => `
+          <div class="admin-switch-row">
+            <span>${escapeHtml(student.name)}</span>
+            <button type="button" data-admin-switch-student="${escapeHtml(student.name)}">進入</button>
+          </div>
+        `).join("")
+        : `<p class="note-text">暫時未有學生帳戶。</p>`;
+    }
+
+    async function openAdminSwitchModal() {
+      if (adminPasswordForSession) {
+        try {
+          await loadStudentsFromSupabase();
+        } catch (error) {
+          console.warn("Could not refresh writing students:", error);
+        }
+      }
+      renderAdminSwitchModal();
+      document.querySelector("[data-admin-switch-modal]")?.classList.remove("hidden");
+    }
+
+    function closeAdminSwitchModal() {
+      document.querySelector("[data-admin-switch-modal]")?.classList.add("hidden");
+    }
+
+    async function switchAdminToStudent(studentName) {
+      const student = getStudents().find(item => item.name === studentName);
+      if (!student) return;
+      studentSessionToken = "";
+      currentUser = {
+        id: student.id || "",
+        name: student.name,
+        role: "student",
+        access: student.access || defaultAccess(),
+        createdAt: student.createdAt || Date.now(),
+        impersonatedByAdmin: true
+      };
+      setSession(currentUser);
+      closeAdminSwitchModal();
+      showAppPanel("dashboard");
+    }
+
+    function returnToAdminAccount() {
+      if (!adminPasswordForSession) return;
+      currentUser = {
+        name: ADMIN_NAME,
+        role: "admin",
+        access: defaultAccess(),
+        createdAt: Date.now()
+      };
+      studentSessionToken = "";
+      selectedStudentName = "";
+      closeAdminSwitchModal();
+      setSession(currentUser);
+      showAppPanel("admin-panel");
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    function setupEvents() {
+      document.querySelector("[data-login-form]")?.addEventListener("submit", async event => {
+        event.preventDefault();
+        const status = document.querySelector("[data-login-status]");
+        const formData = new FormData(event.currentTarget);
+        if (status) status.textContent = "Checking login...";
+        const ok = await login(String(formData.get("username") || ""), String(formData.get("password") || ""));
+        if (!ok && status) status.textContent = "Wrong user name or password.";
+        if (ok && status) status.textContent = "";
+      });
+
+      document.querySelector("[data-student-form]")?.addEventListener("submit", async event => {
+        event.preventDefault();
+        const status = document.querySelector("[data-admin-status]");
+        const formData = new FormData(event.currentTarget);
+        const name = String(formData.get("studentName") || "").trim();
+        const password = String(formData.get("studentPassword") || "").trim();
+        if (!name || !password) return;
+
+        if (status) status.textContent = "Saving to Supabase...";
+        if (studentsLoadedFromSupabase) {
+          try {
+            await callSupabaseRpc("writing_admin_upsert_student", {
+              p_admin_name: ADMIN_NAME,
+              p_admin_password: adminPasswordForSession,
+              p_student_name: name,
+              p_student_password: password,
+              p_access: defaultAccess()
+            });
+            await loadStudentsFromSupabase();
+          } catch (error) {
+            console.warn("Could not add writing student:", error);
+            if (status) status.textContent = "Could not save this student to Supabase. Please run the writing SQL.";
+            updateSupabaseStatus("Supabase: account save failed", "error");
+            return;
+          }
+        } else {
+          const students = getStudents().filter(student => student.name !== name);
+          students.push({ name, password, createdAt: Date.now(), access: defaultAccess() });
+          saveStudents(students);
+        }
+        selectedStudentName = name;
+        event.currentTarget.reset();
+        if (status) status.textContent = `Added ${name}.`;
+        renderStudents();
+        renderStudentProfile();
+      });
+
+      document.addEventListener("submit", async event => {
+        const passwordForm = event.target.closest("[data-password-form]");
+        if (!passwordForm) return;
+        event.preventDefault();
+        const studentName = passwordForm.getAttribute("data-password-form");
+        const formData = new FormData(passwordForm);
+        const newPassword = String(formData.get("newPassword") || "").trim();
+        if (!newPassword) return;
+
+        if (studentsLoadedFromSupabase) {
+          try {
+            const changed = await callSupabaseRpc("writing_admin_change_student_password", {
+              p_admin_name: ADMIN_NAME,
+              p_admin_password: adminPasswordForSession,
+              p_student_name: studentName,
+              p_new_password: newPassword
+            });
+            if (!changed) throw new Error("Supabase did not change the password.");
+            await loadPasswordLogsFromSupabase(studentName);
+            passwordForm.reset();
+            renderStudentProfile();
+            return;
+          } catch (error) {
+            console.warn("Could not change writing student password:", error);
+            updateSupabaseStatus("Supabase: password save failed", "error");
+            return;
+          }
+        }
+
+        const students = getStudents();
+        const target = students.find(student => student.name === studentName);
+        if (!target) return;
+        const oldPassword = target.password;
+        target.password = newPassword;
+        saveStudents(students);
+        savePasswordLogs([
+          ...getPasswordLogs(),
+          { studentName, oldPassword, newPassword, changedAt: Date.now(), changedBy: ADMIN_NAME }
+        ]);
+        passwordForm.reset();
+        renderStudentProfile();
+      });
+
+      document.addEventListener("click", async event => {
+        const togglePassword = event.target.closest("[data-toggle-password]");
+        if (togglePassword) {
+          const input = document.querySelector(togglePassword.getAttribute("data-toggle-password"));
+          if (input) input.type = input.type === "password" ? "text" : "password";
+        }
+
+        if (event.target.closest("[data-logout]")) {
+          showLogin();
+        }
+
+        if (event.target.closest("[data-open-dashboard]")) {
+          showAppPanel("dashboard");
+        }
+
+        if (event.target.closest("[data-admin-panel-shortcut]")) {
+          showAppPanel("admin-panel");
+        }
+
+        if (event.target.closest("[data-return-admin]")) {
+          returnToAdminAccount();
+        }
+
+        if (event.target.closest("[data-admin-switch]")) {
+          await openAdminSwitchModal();
+        }
+
+        if (event.target.closest("[data-close-admin-switch]")) {
+          closeAdminSwitchModal();
+        }
+
+        if (event.target === document.querySelector("[data-admin-switch-modal]")) {
+          closeAdminSwitchModal();
+        }
+
+        const adminSwitchStudentButton = event.target.closest("[data-admin-switch-student]");
+        if (adminSwitchStudentButton) {
+          await switchAdminToStudent(adminSwitchStudentButton.getAttribute("data-admin-switch-student"));
+        }
+
+        const selectButton = event.target.closest("[data-select-student]");
+        if (selectButton) {
+          selectedStudentName = selectButton.getAttribute("data-select-student");
+          if (studentsLoadedFromSupabase) await loadPasswordLogsFromSupabase(selectedStudentName);
+          renderStudentProfile();
+        }
+
+        const removeButton = event.target.closest("[data-remove-student]");
+        if (removeButton) {
+          const name = removeButton.getAttribute("data-remove-student");
+          if (!window.confirm(`確定要移除學生帳戶「${name}」嗎？`)) return;
+          if (studentsLoadedFromSupabase) {
+            try {
+              const deleted = await callSupabaseRpc("writing_admin_delete_student", {
+                p_admin_name: ADMIN_NAME,
+                p_admin_password: adminPasswordForSession,
+                p_student_name: name
+              });
+              if (!deleted) throw new Error("Supabase did not delete the student.");
+              await loadStudentsFromSupabase();
+            } catch (error) {
+              console.warn("Could not remove writing student:", error);
+              updateSupabaseStatus("Supabase: delete failed", "error");
+              return;
+            }
+          } else {
+            saveStudents(getStudents().filter(student => student.name !== name));
+          }
+          if (selectedStudentName === name) selectedStudentName = "";
+          renderStudents();
+          renderStudentProfile();
+        }
+
+        const setAllButton = event.target.closest("[data-set-all-access]");
+        if (setAllButton) {
+          await setAllAccess(setAllButton.getAttribute("data-set-all-access") === "true");
+        }
+      });
+
+      document.addEventListener("change", async event => {
+        const accessToggle = event.target.closest("[data-toggle-access]");
+        if (accessToggle) {
+          await saveAccessChange(accessToggle.getAttribute("data-toggle-access"), accessToggle.checked);
+        }
+      });
+    }
+
+    async function init() {
+      setupCustomCursor();
+      setupEvents();
+      const restored = restoreSession();
+      await initSupabaseState();
+      if (restored && currentUser) {
+        showAppPanel(currentUser.role === "admin" ? "admin-panel" : "dashboard");
+      } else {
+        showLogin();
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
