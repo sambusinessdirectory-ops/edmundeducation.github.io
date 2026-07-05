@@ -29,6 +29,8 @@
       --orange: #f97316;
       --orange-dark: #c2410c;
       --shadow: rgba(17,43,85,0.14);
+      --writing-bg-start: #a96f44;
+      --writing-bg-end: #f2ecb6;
     }
 
     html { scroll-behavior: smooth; }
@@ -38,9 +40,8 @@
       margin: 0;
       min-height: 100vh;
       background:
-        radial-gradient(circle at 10% 8%, rgba(80,166,255,0.20), transparent 36%),
-        radial-gradient(circle at 86% 12%, rgba(255,196,87,0.18), transparent 34%),
-        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+        linear-gradient(135deg, rgba(255,255,255,0.56) 0%, rgba(255,255,255,0.34) 44%, rgba(255,255,255,0.18) 100%),
+        linear-gradient(135deg, var(--writing-bg-start) 0%, #d1ad75 46%, var(--writing-bg-end) 100%);
       color: var(--ink);
       font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
       font-weight: 760;
@@ -51,14 +52,14 @@
       background:
         url("assets/flashcards/admin-control-left.jpg") left center / 50% 100vh no-repeat,
         url("assets/flashcards/admin-control-right.jpg") right center / 50% 100vh no-repeat,
-        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+        linear-gradient(135deg, var(--writing-bg-start) 0%, #d1ad75 46%, var(--writing-bg-end) 100%);
       background-attachment: fixed, fixed, scroll;
     }
 
     body.dashboard-background-active {
       background:
         url("assets/flashcards/enter-student-view.jpg") center center / cover fixed no-repeat,
-        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+        linear-gradient(135deg, var(--writing-bg-start) 0%, #d1ad75 46%, var(--writing-bg-end) 100%);
     }
 
     body.dashboard-background-active .flash-shell {
