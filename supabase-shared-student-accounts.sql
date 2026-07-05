@@ -1,22 +1,51 @@
--- EdmundEducation shared student account migration
+-- EdmundEducation shared Flashcard/Writing login repair
 -- Run this after the Flashcard SQL and Writing Practice SQL have both been run successfully.
--- It keeps each system's own access/progress tables, but moves student passwords into one shared account table.
+--
+-- This file intentionally restores the original Flashcard RPCs first, then adds
+-- a safer Writing-side bridge. Flashcard remains the master account system.
 
 create extension if not exists pgcrypto with schema extensions;
 
-create table if not exists public.student_accounts (
+create table if not exists public.flashcard_admins (
+  name text primary key,
+  password_hash text not null,
+  created_at timestamptz not null default now()
+);
+
+create table if not exists public.flashcard_students (
   id uuid primary key default gen_random_uuid(),
   name text not null unique,
   password_hash text not null,
+  access jsonb not null default '{}'::jsonb,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   deleted_at timestamptz
 );
 
-alter table public.student_accounts enable row level security;
-revoke all on public.student_accounts from anon, authenticated;
+create table if not exists public.flashcard_student_sessions (
+  token uuid primary key default gen_random_uuid(),
+  student_id uuid not null references public.flashcard_students(id) on delete cascade,
+  created_at timestamptz not null default now(),
+  expires_at timestamptz not null default now() + interval '30 days'
+);
 
-create or replace function public.student_accounts_touch_updated_at()
+create table if not exists public.flashcard_student_state (
+  student_id uuid not null references public.flashcard_students(id) on delete cascade,
+  key text not null,
+  value jsonb not null default '{}'::jsonb,
+  updated_at timestamptz not null default now(),
+  primary key (student_id, key)
+);
+
+create table if not exists public.flashcard_student_password_logs (
+  id uuid primary key default gen_random_uuid(),
+  student_id uuid not null references public.flashcard_students(id) on delete cascade,
+  student_name text not null,
+  changed_by text not null default 'Sam',
+  changed_at timestamptz not null default now()
+);
+
+create or replace function public.flashcard_touch_updated_at()
 returns trigger
 language plpgsql
 as $$
@@ -26,262 +55,80 @@ begin
 end;
 $$;
 
-drop trigger if exists student_accounts_touch_updated_at on public.student_accounts;
-create trigger student_accounts_touch_updated_at
-before update on public.student_accounts
-for each row execute function public.student_accounts_touch_updated_at();
+drop trigger if exists flashcard_students_touch_updated_at on public.flashcard_students;
+create trigger flashcard_students_touch_updated_at
+before update on public.flashcard_students
+for each row
+execute function public.flashcard_touch_updated_at();
 
-alter table public.flashcard_students
-add column if not exists shared_account_id uuid references public.student_accounts(id) on delete set null;
+drop trigger if exists flashcard_student_state_touch_updated_at on public.flashcard_student_state;
+create trigger flashcard_student_state_touch_updated_at
+before update on public.flashcard_student_state
+for each row
+execute function public.flashcard_touch_updated_at();
 
-alter table public.writing_student_accounts
-add column if not exists shared_account_id uuid references public.student_accounts(id) on delete set null;
-
-create index if not exists flashcard_students_shared_account_id_idx
-on public.flashcard_students(shared_account_id);
-
-create index if not exists writing_student_accounts_shared_account_id_idx
-on public.writing_student_accounts(shared_account_id);
-
-insert into public.student_accounts (name, password_hash, created_at, updated_at, deleted_at)
-select source.name, source.password_hash, source.created_at, source.updated_at, source.deleted_at
-from (
-  select distinct on (lower(trim(source_rows.name)))
-    trim(source_rows.name) as name,
-    source_rows.password_hash,
-    source_rows.created_at,
-    coalesce(source_rows.updated_at, source_rows.created_at) as updated_at,
-    source_rows.deleted_at
-  from (
-    select name, password_hash, created_at, updated_at, deleted_at, 1 as source_order
-    from public.flashcard_students
-    where nullif(trim(name), '') is not null
-
-    union all
-
-    select name, password_hash, created_at, updated_at, null::timestamptz as deleted_at, 2 as source_order
-    from public.writing_student_accounts
-    where nullif(trim(name), '') is not null
-  ) source_rows
-  order by
-    lower(trim(source_rows.name)),
-    (source_rows.deleted_at is not null),
-    source_rows.source_order,
-    coalesce(source_rows.updated_at, source_rows.created_at) desc
-) source
+insert into public.flashcard_admins (name, password_hash)
+values ('Sam', extensions.crypt('FlashCardEdmund', extensions.gen_salt('bf')))
 on conflict (name) do nothing;
 
-update public.flashcard_students student
-set shared_account_id = account.id
-from public.student_accounts account
-where student.shared_account_id is null
-  and lower(student.name) = lower(account.name);
+alter table public.flashcard_admins enable row level security;
+alter table public.flashcard_students enable row level security;
+alter table public.flashcard_student_sessions enable row level security;
+alter table public.flashcard_student_state enable row level security;
+alter table public.flashcard_student_password_logs enable row level security;
 
-update public.writing_student_accounts student
-set shared_account_id = account.id
-from public.student_accounts account
-where student.shared_account_id is null
-  and lower(student.name) = lower(account.name);
+revoke all on public.flashcard_admins from anon, authenticated;
+revoke all on public.flashcard_students from anon, authenticated;
+revoke all on public.flashcard_student_sessions from anon, authenticated;
+revoke all on public.flashcard_student_state from anon, authenticated;
+revoke all on public.flashcard_student_password_logs from anon, authenticated;
 
-update public.flashcard_students student
-set password_hash = account.password_hash
-from public.student_accounts account
-where student.shared_account_id = account.id
-  and student.password_hash is distinct from account.password_hash;
-
-update public.writing_student_accounts student
-set password_hash = account.password_hash
-from public.student_accounts account
-where student.shared_account_id = account.id
-  and student.password_hash is distinct from account.password_hash;
-
-create or replace function public.shared_student_account_login_id(p_name text, p_password text)
-returns uuid
+create or replace function public.flashcard_admin_ok(p_name text, p_password text)
+returns boolean
 language sql
-stable
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
-  select account.id
-  from public.student_accounts account
-  where lower(account.name) = lower(trim(p_name))
-    and account.deleted_at is null
-    and account.password_hash = extensions.crypt(p_password, account.password_hash)
-  limit 1;
+  select exists (
+    select 1
+    from public.flashcard_admins a
+    where a.name = trim(p_name)
+      and a.password_hash = extensions.crypt(p_password, a.password_hash)
+  );
 $$;
 
-revoke all on function public.shared_student_account_login_id(text, text) from public;
-
-create or replace function public.shared_student_account_id_by_name(p_name text, p_include_deleted boolean default false)
-returns uuid
-language sql
-stable
-security definer
-set search_path = public, pg_temp
-as $$
-  select account.id
-  from public.student_accounts account
-  where lower(account.name) = lower(trim(p_name))
-    and (p_include_deleted or account.deleted_at is null)
-  order by account.deleted_at nulls first, account.updated_at desc
-  limit 1;
-$$;
-
-revoke all on function public.shared_student_account_id_by_name(text, boolean) from public;
-
-create or replace function public.shared_flashcard_ensure_profile(p_account_id uuid, p_access jsonb default null)
-returns uuid
+create or replace function public.flashcard_admin_login(p_name text, p_password text)
+returns table(name text, role text)
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
-declare
-  v_account public.student_accounts%rowtype;
-  v_student_id uuid;
-  v_target_access jsonb;
 begin
-  select *
-  into v_account
-  from public.student_accounts account
-  where account.id = p_account_id
-    and account.deleted_at is null;
-
-  if not found then
-    return null;
+  if not public.flashcard_admin_ok(p_name, p_password) then
+    return;
   end if;
 
-  select student.id
-  into v_student_id
-  from public.flashcard_students student
-  where student.shared_account_id = v_account.id
-     or lower(student.name) = lower(v_account.name)
-  order by (student.deleted_at is null) desc, student.updated_at desc
-  limit 1;
-
-  if v_student_id is null then
-    insert into public.flashcard_students (name, password_hash, access, deleted_at, shared_account_id)
-    values (v_account.name, v_account.password_hash, coalesce(p_access, '{}'::jsonb), null, v_account.id)
-    returning flashcard_students.id into v_student_id;
-  else
-    select coalesce(p_access, student.access, '{}'::jsonb)
-    into v_target_access
-    from public.flashcard_students student
-    where student.id = v_student_id;
-
-    update public.flashcard_students student
-    set name = v_account.name,
-        password_hash = v_account.password_hash,
-        access = v_target_access,
-        deleted_at = null,
-        shared_account_id = v_account.id
-    where student.id = v_student_id
-      and (
-        student.name is distinct from v_account.name
-        or student.password_hash is distinct from v_account.password_hash
-        or student.access is distinct from v_target_access
-        or student.deleted_at is not null
-        or student.shared_account_id is distinct from v_account.id
-      );
-  end if;
-
-  return v_student_id;
+  return query select trim(p_name), 'admin'::text;
 end;
 $$;
-
-revoke all on function public.shared_flashcard_ensure_profile(uuid, jsonb) from public;
-
-create or replace function public.shared_writing_ensure_profile(p_account_id uuid, p_access jsonb default null)
-returns uuid
-language plpgsql
-security definer
-set search_path = public, pg_temp
-as $$
-declare
-  v_account public.student_accounts%rowtype;
-  v_student_id uuid;
-  v_target_access jsonb;
-begin
-  select *
-  into v_account
-  from public.student_accounts account
-  where account.id = p_account_id
-    and account.deleted_at is null;
-
-  if not found then
-    return null;
-  end if;
-
-  select student.id
-  into v_student_id
-  from public.writing_student_accounts student
-  where student.shared_account_id = v_account.id
-     or lower(student.name) = lower(v_account.name)
-  order by student.updated_at desc
-  limit 1;
-
-  if v_student_id is null then
-    insert into public.writing_student_accounts (name, password_hash, access, session_token, shared_account_id)
-    values (
-      v_account.name,
-      v_account.password_hash,
-      coalesce(p_access, public.writing_default_access()),
-      gen_random_uuid(),
-      v_account.id
-    )
-    returning writing_student_accounts.id into v_student_id;
-  else
-    select coalesce(p_access, student.access, public.writing_default_access())
-    into v_target_access
-    from public.writing_student_accounts student
-    where student.id = v_student_id;
-
-    update public.writing_student_accounts student
-    set name = v_account.name,
-        password_hash = v_account.password_hash,
-        access = v_target_access,
-        shared_account_id = v_account.id
-    where student.id = v_student_id
-      and (
-        student.name is distinct from v_account.name
-        or student.password_hash is distinct from v_account.password_hash
-        or student.access is distinct from v_target_access
-        or student.shared_account_id is distinct from v_account.id
-      );
-  end if;
-
-  return v_student_id;
-end;
-$$;
-
-revoke all on function public.shared_writing_ensure_profile(uuid, jsonb) from public;
 
 create or replace function public.flashcard_student_login(p_name text, p_password text)
 returns table(id uuid, name text, role text, access jsonb, created_at timestamptz, session_token uuid)
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
 declare
-  v_account_id uuid;
-  v_student_id uuid;
   v_student public.flashcard_students%rowtype;
   v_token uuid;
 begin
-  v_account_id := public.shared_student_account_login_id(p_name, p_password);
-
-  if v_account_id is null then
-    return;
-  end if;
-
-  v_student_id := public.shared_flashcard_ensure_profile(v_account_id);
-  if v_student_id is null then
-    return;
-  end if;
-
   select *
   into v_student
-  from public.flashcard_students student
-  where student.id = v_student_id;
+  from public.flashcard_students st
+  where lower(st.name) = lower(trim(p_name))
+    and st.deleted_at is null
+    and st.password_hash = extensions.crypt(p_password, st.password_hash)
+  limit 1;
 
   if not found then
     return;
@@ -292,9 +139,7 @@ begin
   returning token into v_token;
 
   return query
-  select v_student.id, account.name, 'student'::text, v_student.access, account.created_at, v_token
-  from public.student_accounts account
-  where account.id = v_account_id;
+  select v_student.id, v_student.name, 'student'::text, v_student.access, v_student.created_at, v_token;
 end;
 $$;
 
@@ -302,24 +147,18 @@ create or replace function public.flashcard_admin_list_students(p_admin_name tex
 returns table(id uuid, name text, access jsonb, created_at timestamptz, updated_at timestamptz)
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return;
   end if;
 
-  perform public.shared_flashcard_ensure_profile(account.id)
-  from public.student_accounts account
-  where account.deleted_at is null;
-
   return query
-  select student.id, account.name, student.access, account.created_at, greatest(student.updated_at, account.updated_at)
-  from public.student_accounts account
-  join public.flashcard_students student on student.shared_account_id = account.id
-  where account.deleted_at is null
-    and student.deleted_at is null
-  order by account.created_at desc, account.name asc;
+  select s.id, s.name, s.access, s.created_at, s.updated_at
+  from public.flashcard_students s
+  where s.deleted_at is null
+  order by s.created_at desc;
 end;
 $$;
 
@@ -333,13 +172,10 @@ create or replace function public.flashcard_admin_upsert_student(
 returns table(id uuid, name text, access jsonb, created_at timestamptz, updated_at timestamptz)
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
 declare
   v_name text := trim(p_student_name);
-  v_hash text;
-  v_account_id uuid;
-  v_student_id uuid;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return;
@@ -349,29 +185,88 @@ begin
     raise exception 'Student name and password are required.';
   end if;
 
-  v_hash := extensions.crypt(p_student_password, extensions.gen_salt('bf'));
-
-  insert into public.student_accounts (name, password_hash, deleted_at)
-  values (v_name, v_hash, null)
-  on conflict (name) do update
+  insert into public.flashcard_students (name, password_hash, access, deleted_at)
+  values (v_name, extensions.crypt(p_student_password, extensions.gen_salt('bf')), coalesce(p_access, '{}'::jsonb), null)
+  on conflict on constraint flashcard_students_name_key do update
   set password_hash = excluded.password_hash,
+      access = excluded.access,
       deleted_at = null,
-      updated_at = now()
-  returning student_accounts.id into v_account_id;
-
-  v_student_id := public.shared_flashcard_ensure_profile(v_account_id, coalesce(p_access, '{}'::jsonb));
-
-  update public.writing_student_accounts student
-  set password_hash = v_hash,
-      session_token = gen_random_uuid()
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(v_name);
+      updated_at = now();
 
   return query
-  select student.id, account.name, student.access, account.created_at, greatest(student.updated_at, account.updated_at)
-  from public.flashcard_students student
-  join public.student_accounts account on account.id = student.shared_account_id
-  where student.id = v_student_id;
+  select s.id, s.name, s.access, s.created_at, s.updated_at
+  from public.flashcard_students s
+  where s.name = v_name;
+end;
+$$;
+
+create or replace function public.flashcard_admin_delete_student(
+  p_admin_name text,
+  p_admin_password text,
+  p_student_name text
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return false;
+  end if;
+
+  update public.flashcard_students st
+  set deleted_at = now()
+  where st.name = trim(p_student_name)
+    and st.deleted_at is null;
+
+  return not exists (
+    select 1
+    from public.flashcard_students st
+    where st.name = trim(p_student_name)
+      and st.deleted_at is null
+  );
+end;
+$$;
+
+create or replace function public.flashcard_admin_delete_student_with_state(
+  p_admin_name text,
+  p_admin_password text,
+  p_student_name text
+)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_student_name text := trim(p_student_name);
+  v_student_id uuid;
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return false;
+  end if;
+
+  select st.id
+  into v_student_id
+  from public.flashcard_students st
+  where st.name = v_student_name
+  limit 1;
+
+  if v_student_id is null then
+    return true;
+  end if;
+
+  delete from public.flashcard_student_state s where s.student_id = v_student_id;
+  delete from public.flashcard_student_sessions s where s.student_id = v_student_id;
+  delete from public.flashcard_student_password_logs l where l.student_id = v_student_id;
+  delete from public.flashcard_students st where st.id = v_student_id;
+
+  return not exists (
+    select 1
+    from public.flashcard_students st
+    where st.id = v_student_id
+  );
 end;
 $$;
 
@@ -384,28 +279,23 @@ create or replace function public.flashcard_admin_set_student_access(
 returns table(id uuid, name text, access jsonb, created_at timestamptz, updated_at timestamptz)
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
-declare
-  v_account_id uuid;
-  v_student_id uuid;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return;
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return;
-  end if;
-
-  v_student_id := public.shared_flashcard_ensure_profile(v_account_id, coalesce(p_access, '{}'::jsonb));
+  update public.flashcard_students st
+  set access = coalesce(p_access, '{}'::jsonb)
+  where st.name = trim(p_student_name)
+    and st.deleted_at is null;
 
   return query
-  select student.id, account.name, student.access, account.created_at, greatest(student.updated_at, account.updated_at)
-  from public.flashcard_students student
-  join public.student_accounts account on account.id = student.shared_account_id
-  where student.id = v_student_id;
+  select s.id, s.name, s.access, s.created_at, s.updated_at
+  from public.flashcard_students s
+  where s.name = trim(p_student_name)
+    and s.deleted_at is null;
 end;
 $$;
 
@@ -418,13 +308,10 @@ create or replace function public.flashcard_admin_change_student_password(
 returns boolean
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
 declare
-  v_account_id uuid;
-  v_student_id uuid;
-  v_hash text;
-  v_account_name text;
+  v_student public.flashcard_students%rowtype;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return false;
@@ -434,123 +321,48 @@ begin
     raise exception 'New password is required.';
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return false;
-  end if;
-
-  v_hash := extensions.crypt(p_new_password, extensions.gen_salt('bf'));
-
-  update public.student_accounts account
-  set password_hash = v_hash
-  where account.id = v_account_id
-  returning account.name into v_account_name;
-
-  v_student_id := public.shared_flashcard_ensure_profile(v_account_id);
-
-  update public.flashcard_students student
-  set password_hash = v_hash
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(v_account_name);
-
-  update public.writing_student_accounts student
-  set password_hash = v_hash,
-      session_token = gen_random_uuid()
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(v_account_name);
-
-  if v_student_id is not null then
-    insert into public.flashcard_student_password_logs (student_id, student_name, changed_by)
-    values (v_student_id, v_account_name, trim(p_admin_name));
-  end if;
-
-  return true;
-end;
-$$;
-
-create or replace function public.flashcard_admin_delete_student(
-  p_admin_name text,
-  p_admin_password text,
-  p_student_name text
-)
-returns boolean
-language plpgsql
-security definer
-set search_path = public, pg_temp
-as $$
-declare
-  v_account_id uuid;
-begin
-  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
-    return false;
-  end if;
-
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return false;
-  end if;
-
-  update public.student_accounts account
-  set deleted_at = now()
-  where account.id = v_account_id;
-
-  update public.flashcard_students student
-  set deleted_at = now()
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(trim(p_student_name));
-
-  return true;
-end;
-$$;
-
-create or replace function public.flashcard_admin_delete_student_with_state(
-  p_admin_name text,
-  p_admin_password text,
-  p_student_name text
-)
-returns boolean
-language plpgsql
-security definer
-set search_path = public, pg_temp
-as $$
-declare
-  v_account_id uuid;
-  v_student_id uuid;
-begin
-  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
-    return false;
-  end if;
-
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, true);
-
-  select student.id
-  into v_student_id
-  from public.flashcard_students student
-  where (v_account_id is not null and student.shared_account_id = v_account_id)
-     or lower(student.name) = lower(trim(p_student_name))
-  order by (student.deleted_at is null) desc, student.updated_at desc
+  select *
+  into v_student
+  from public.flashcard_students st
+  where st.name = trim(p_student_name)
+    and st.deleted_at is null
   limit 1;
 
-  if v_account_id is not null then
-    update public.student_accounts account
-    set deleted_at = now()
-    where account.id = v_account_id;
+  if not found then
+    return false;
   end if;
 
-  if v_student_id is null then
-    return true;
+  update public.flashcard_students st
+  set password_hash = extensions.crypt(p_new_password, extensions.gen_salt('bf'))
+  where st.id = v_student.id;
+
+  insert into public.flashcard_student_password_logs (student_id, student_name, changed_by)
+  values (v_student.id, v_student.name, trim(p_admin_name));
+
+  return true;
+end;
+$$;
+
+create or replace function public.flashcard_admin_get_password_logs(
+  p_admin_name text,
+  p_admin_password text,
+  p_student_name text
+)
+returns table(student_name text, changed_by text, changed_at timestamptz)
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
+    return;
   end if;
 
-  delete from public.flashcard_student_state state where state.student_id = v_student_id;
-  delete from public.flashcard_student_sessions session where session.student_id = v_student_id;
-  delete from public.flashcard_student_password_logs log where log.student_id = v_student_id;
-  delete from public.flashcard_students student where student.id = v_student_id;
-
-  return not exists (
-    select 1
-    from public.flashcard_students student
-    where student.id = v_student_id
-  );
+  return query
+  select l.student_name, l.changed_by, l.changed_at
+  from public.flashcard_student_password_logs l
+  where l.student_name = trim(p_student_name)
+  order by l.changed_at desc;
 end;
 $$;
 
@@ -562,30 +374,23 @@ create or replace function public.flashcard_admin_get_student_state(
 returns table(key text, value jsonb, updated_at timestamptz)
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
-declare
-  v_account_id uuid;
-  v_student_id uuid;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return;
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return;
-  end if;
-
-  v_student_id := public.shared_flashcard_ensure_profile(v_account_id);
-
   return query
-  select state.key, state.value, state.updated_at
-  from public.flashcard_student_state state
-  where state.student_id = v_student_id
-  order by state.updated_at desc;
+  select s.key, s.value, s.updated_at
+  from public.flashcard_student_state s
+  join public.flashcard_students st on st.id = s.student_id
+  where st.name = trim(p_student_name)
+    and st.deleted_at is null
+  order by s.updated_at desc;
 end;
 $$;
+
 
 create or replace function public.flashcard_admin_upsert_student_state(
   p_admin_name text,
@@ -597,22 +402,21 @@ create or replace function public.flashcard_admin_upsert_student_state(
 returns boolean
 language plpgsql
 security definer
-set search_path = public, pg_temp
+set search_path = public
 as $$
 declare
-  v_account_id uuid;
   v_student_id uuid;
 begin
   if not public.flashcard_admin_ok(p_admin_name, p_admin_password) then
     return false;
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return false;
-  end if;
+  select st.id into v_student_id
+  from public.flashcard_students st
+  where st.name = trim(p_student_name)
+    and st.deleted_at is null
+  limit 1;
 
-  v_student_id := public.shared_flashcard_ensure_profile(v_account_id);
   if v_student_id is null or trim(p_key) = '' then
     return false;
   end if;
@@ -631,17 +435,244 @@ create or replace function public.flashcard_session_student_id(p_token uuid)
 returns uuid
 language sql
 security definer
+set search_path = public
+as $$
+  select s.student_id
+  from public.flashcard_student_sessions s
+  join public.flashcard_students st on st.id = s.student_id
+  where s.token = p_token
+    and s.expires_at > now()
+    and st.deleted_at is null
+  limit 1;
+$$;
+
+create or replace function public.flashcard_student_get_state(p_token uuid)
+returns table(key text, value jsonb)
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then
+    return;
+  end if;
+
+  return query
+  select s.key, s.value
+  from public.flashcard_student_state s
+  where s.student_id = v_student_id;
+end;
+$$;
+
+create or replace function public.flashcard_student_upsert_state(p_token uuid, p_key text, p_value jsonb)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null or trim(p_key) = '' then
+    return false;
+  end if;
+
+  insert into public.flashcard_student_state (student_id, key, value)
+  values (v_student_id, trim(p_key), coalesce(p_value, '{}'::jsonb))
+  on conflict (student_id, key) do update
+  set value = excluded.value,
+      updated_at = now();
+
+  return true;
+end;
+$$;
+
+create or replace function public.flashcard_student_delete_state(p_token uuid, p_key text)
+returns boolean
+language plpgsql
+security definer
+set search_path = public
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then
+    return false;
+  end if;
+
+  delete from public.flashcard_student_state s
+  where s.student_id = v_student_id
+    and s.key = trim(p_key);
+
+  return true;
+end;
+$$;
+
+grant execute on function public.flashcard_admin_login(text, text) to authenticated;
+grant execute on function public.flashcard_student_login(text, text) to authenticated;
+grant execute on function public.flashcard_admin_list_students(text, text) to authenticated;
+grant execute on function public.flashcard_admin_upsert_student(text, text, text, text, jsonb) to authenticated;
+grant execute on function public.flashcard_admin_delete_student(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_delete_student_with_state(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_set_student_access(text, text, text, jsonb) to authenticated;
+grant execute on function public.flashcard_admin_change_student_password(text, text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_get_password_logs(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_get_student_state(text, text, text) to authenticated;
+grant execute on function public.flashcard_admin_upsert_student_state(text, text, text, text, jsonb) to authenticated;
+grant execute on function public.flashcard_student_get_state(uuid) to authenticated;
+grant execute on function public.flashcard_student_upsert_state(uuid, text, jsonb) to authenticated;
+grant execute on function public.flashcard_student_delete_state(uuid, text) to authenticated;
+
+-- Writing bridge
+-- Flashcard remains the source of truth for shared student accounts. These RPCs let
+-- Writing accept Flashcard student logins and keep Writing profiles in sync without
+-- changing the original Flashcard write path.
+
+create or replace function public.writing_sync_flashcard_student(p_flashcard_student_id uuid)
+returns uuid
+language plpgsql
+security definer
 set search_path = public, pg_temp
 as $$
-  select session.student_id
-  from public.flashcard_student_sessions session
-  join public.flashcard_students student on student.id = session.student_id
-  left join public.student_accounts account on account.id = student.shared_account_id
-  where session.token = p_token
-    and session.expires_at > now()
-    and student.deleted_at is null
-    and (student.shared_account_id is null or account.deleted_at is null)
+declare
+  v_writing_student_id uuid;
+begin
+  insert into public.writing_student_accounts (name, password_hash, access, session_token)
+  select
+    flashcard_student.name,
+    flashcard_student.password_hash,
+    public.writing_default_access(),
+    gen_random_uuid()
+  from public.flashcard_students flashcard_student
+  where flashcard_student.id = p_flashcard_student_id
+    and flashcard_student.deleted_at is null
+  on conflict (name) do update
+  set password_hash = excluded.password_hash,
+      access = coalesce(public.writing_student_accounts.access, public.writing_default_access()),
+      updated_at = now()
+  returning writing_student_accounts.id into v_writing_student_id;
+
+  return v_writing_student_id;
+end;
+$$;
+
+create or replace function public.writing_sync_all_flashcard_students()
+returns integer
+language plpgsql
+security definer
+set search_path = public, pg_temp
+as $$
+declare
+  v_synced_count integer := 0;
+begin
+  with synced as (
+    insert into public.writing_student_accounts (name, password_hash, access, session_token)
+    select
+      flashcard_student.name,
+      flashcard_student.password_hash,
+      public.writing_default_access(),
+      gen_random_uuid()
+    from public.flashcard_students flashcard_student
+    where flashcard_student.deleted_at is null
+    on conflict (name) do update
+    set password_hash = excluded.password_hash,
+        access = coalesce(public.writing_student_accounts.access, public.writing_default_access()),
+        updated_at = now()
+    returning 1
+  )
+  select count(*) into v_synced_count from synced;
+
+  return v_synced_count;
+end;
+$$;
+
+create or replace function public.writing_student_login(p_name text, p_password text)
+returns table (
+  id uuid,
+  name text,
+  access jsonb,
+  created_at timestamptz,
+  session_token uuid
+)
+language plpgsql
+security definer
+set search_path = public, pg_temp
+as $$
+declare
+  v_flashcard_student public.flashcard_students%rowtype;
+  v_writing_student public.writing_student_accounts%rowtype;
+  v_writing_student_id uuid;
+  v_token uuid := gen_random_uuid();
+begin
+  select *
+  into v_flashcard_student
+  from public.flashcard_students flashcard_student
+  where lower(flashcard_student.name) = lower(trim(p_name))
+    and flashcard_student.deleted_at is null
+    and flashcard_student.password_hash = extensions.crypt(p_password, flashcard_student.password_hash)
   limit 1;
+
+  if found then
+    v_writing_student_id := public.writing_sync_flashcard_student(v_flashcard_student.id);
+
+    select *
+    into v_writing_student
+    from public.writing_student_accounts writing_student
+    where writing_student.id = v_writing_student_id;
+
+    if not found then
+      return;
+    end if;
+
+    update public.writing_student_accounts writing_student
+    set session_token = v_token,
+        updated_at = now()
+    where writing_student.id = v_writing_student.id;
+
+    return query
+    select
+      v_writing_student.id,
+      v_flashcard_student.name,
+      coalesce(v_writing_student.access, public.writing_default_access()),
+      coalesce(v_writing_student.created_at, v_flashcard_student.created_at),
+      v_token;
+    return;
+  end if;
+
+  if exists (
+    select 1
+    from public.flashcard_students flashcard_student
+    where lower(flashcard_student.name) = lower(trim(p_name))
+      and flashcard_student.deleted_at is null
+  ) then
+    return;
+  end if;
+
+  select *
+  into v_writing_student
+  from public.writing_student_accounts writing_student
+  where writing_student.name = trim(p_name)
+    and writing_student.password_hash = extensions.crypt(p_password, writing_student.password_hash);
+
+  if not found then
+    return;
+  end if;
+
+  update public.writing_student_accounts writing_student
+  set session_token = v_token,
+      updated_at = now()
+  where writing_student.id = v_writing_student.id;
+
+  return query
+  select
+    v_writing_student.id,
+    v_writing_student.name,
+    coalesce(v_writing_student.access, public.writing_default_access()),
+    v_writing_student.created_at,
+    v_token;
+end;
 $$;
 
 create or replace function public.writing_admin_list_students(p_admin_name text, p_admin_password text)
@@ -660,16 +691,12 @@ begin
     raise exception 'Invalid admin credentials';
   end if;
 
-  perform public.shared_writing_ensure_profile(account.id)
-  from public.student_accounts account
-  where account.deleted_at is null;
+  perform public.writing_sync_all_flashcard_students();
 
   return query
-  select student.id, account.name, student.access, account.created_at
-  from public.student_accounts account
-  join public.writing_student_accounts student on student.shared_account_id = account.id
-  where account.deleted_at is null
-  order by account.created_at desc, account.name asc;
+  select writing_student.id, writing_student.name, writing_student.access, writing_student.created_at
+  from public.writing_student_accounts writing_student
+  order by writing_student.created_at desc, writing_student.name asc;
 end;
 $$;
 
@@ -692,9 +719,7 @@ set search_path = public, pg_temp
 as $$
 declare
   v_name text := trim(p_student_name);
-  v_hash text;
-  v_account_id uuid;
-  v_student_id uuid;
+  v_password_hash text;
 begin
   if not public._writing_admin_ok(p_admin_name, p_admin_password) then
     raise exception 'Invalid admin credentials';
@@ -704,28 +729,33 @@ begin
     raise exception 'Student name and password are required';
   end if;
 
-  v_hash := extensions.crypt(p_student_password, extensions.gen_salt('bf'));
+  v_password_hash := extensions.crypt(p_student_password, extensions.gen_salt('bf'));
 
-  insert into public.student_accounts (name, password_hash, deleted_at)
-  values (v_name, v_hash, null)
-  on conflict (name) do update
+  insert into public.flashcard_students (name, password_hash, access, deleted_at)
+  values (v_name, v_password_hash, '{}'::jsonb, null)
+  on conflict on constraint flashcard_students_name_key do update
   set password_hash = excluded.password_hash,
       deleted_at = null,
-      updated_at = now()
-  returning student_accounts.id into v_account_id;
-
-  v_student_id := public.shared_writing_ensure_profile(v_account_id, coalesce(p_access, public.writing_default_access()));
-
-  update public.flashcard_students student
-  set password_hash = v_hash
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(v_name);
+      updated_at = now();
 
   return query
-  select student.id, account.name, student.access, account.created_at
-  from public.writing_student_accounts student
-  join public.student_accounts account on account.id = student.shared_account_id
-  where student.id = v_student_id;
+  insert into public.writing_student_accounts (name, password_hash, access, session_token)
+  values (
+    v_name,
+    v_password_hash,
+    coalesce(p_access, public.writing_default_access()),
+    gen_random_uuid()
+  )
+  on conflict (name) do update
+  set password_hash = excluded.password_hash,
+      access = coalesce(p_access, public.writing_student_accounts.access, public.writing_default_access()),
+      session_token = gen_random_uuid(),
+      updated_at = now()
+  returning
+    writing_student_accounts.id,
+    writing_student_accounts.name,
+    writing_student_accounts.access,
+    writing_student_accounts.created_at;
 end;
 $$;
 
@@ -741,10 +771,9 @@ security definer
 set search_path = public, pg_temp
 as $$
 declare
-  v_account_id uuid;
   v_student_id uuid;
-  v_hash text;
-  v_account_name text;
+  v_flashcard_student_id uuid;
+  v_password_hash text;
 begin
   if not public._writing_admin_ok(p_admin_name, p_admin_password) then
     raise exception 'Invalid admin credentials';
@@ -754,35 +783,45 @@ begin
     raise exception 'New password is required';
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
+  select flashcard_student.id
+  into v_flashcard_student_id
+  from public.flashcard_students flashcard_student
+  where lower(flashcard_student.name) = lower(trim(p_student_name))
+    and flashcard_student.deleted_at is null
+  limit 1;
+
+  v_password_hash := extensions.crypt(p_new_password, extensions.gen_salt('bf'));
+
+  if v_flashcard_student_id is not null then
+    update public.flashcard_students flashcard_student
+    set password_hash = v_password_hash,
+        updated_at = now()
+    where flashcard_student.id = v_flashcard_student_id;
+
+    v_student_id := public.writing_sync_flashcard_student(v_flashcard_student_id);
+  else
+    select writing_student.id
+    into v_student_id
+    from public.writing_student_accounts writing_student
+    where writing_student.name = trim(p_student_name);
+
+    if v_student_id is null then
+      return false;
+    end if;
+
+    update public.writing_student_accounts writing_student
+    set password_hash = v_password_hash,
+        session_token = gen_random_uuid(),
+        updated_at = now()
+    where writing_student.id = v_student_id;
+  end if;
+
+  if v_student_id is null then
     return false;
   end if;
 
-  v_hash := extensions.crypt(p_new_password, extensions.gen_salt('bf'));
-
-  update public.student_accounts account
-  set password_hash = v_hash
-  where account.id = v_account_id
-  returning account.name into v_account_name;
-
-  v_student_id := public.shared_writing_ensure_profile(v_account_id);
-
-  update public.writing_student_accounts student
-  set password_hash = v_hash,
-      session_token = gen_random_uuid()
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(v_account_name);
-
-  update public.flashcard_students student
-  set password_hash = v_hash
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(v_account_name);
-
-  if v_student_id is not null then
-    insert into public.writing_password_logs (student_id, student_name, changed_by)
-    values (v_student_id, v_account_name, p_admin_name);
-  end if;
+  insert into public.writing_password_logs (student_id, student_name, changed_by)
+  values (v_student_id, trim(p_student_name), p_admin_name);
 
   return true;
 end;
@@ -805,25 +844,29 @@ security definer
 set search_path = public, pg_temp
 as $$
 declare
-  v_account_id uuid;
-  v_student_id uuid;
+  v_flashcard_student_id uuid;
 begin
   if not public._writing_admin_ok(p_admin_name, p_admin_password) then
     raise exception 'Invalid admin credentials';
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return;
+  select flashcard_student.id
+  into v_flashcard_student_id
+  from public.flashcard_students flashcard_student
+  where lower(flashcard_student.name) = lower(trim(p_student_name))
+    and flashcard_student.deleted_at is null
+  limit 1;
+
+  if v_flashcard_student_id is not null then
+    perform public.writing_sync_flashcard_student(v_flashcard_student_id);
   end if;
 
-  v_student_id := public.shared_writing_ensure_profile(v_account_id, coalesce(p_access, public.writing_default_access()));
-
   return query
-  select student.id, account.name, student.access, account.created_at
-  from public.writing_student_accounts student
-  join public.student_accounts account on account.id = student.shared_account_id
-  where student.id = v_student_id;
+  update public.writing_student_accounts writing_student
+  set access = coalesce(p_access, public.writing_default_access()),
+      updated_at = now()
+  where writing_student.name = trim(p_student_name)
+  returning writing_student.id, writing_student.name, writing_student.access, writing_student.created_at;
 end;
 $$;
 
@@ -838,80 +881,17 @@ security definer
 set search_path = public, pg_temp
 as $$
 declare
-  v_account_id uuid;
+  v_deleted_count integer;
 begin
   if not public._writing_admin_ok(p_admin_name, p_admin_password) then
     raise exception 'Invalid admin credentials';
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return false;
-  end if;
+  delete from public.writing_student_accounts writing_student
+  where writing_student.name = trim(p_student_name);
 
-  update public.student_accounts account
-  set deleted_at = now()
-  where account.id = v_account_id;
-
-  update public.flashcard_students student
-  set deleted_at = now()
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(trim(p_student_name));
-
-  delete from public.writing_student_accounts student
-  where student.shared_account_id = v_account_id
-     or lower(student.name) = lower(trim(p_student_name));
-
-  return true;
-end;
-$$;
-
-create or replace function public.writing_student_login(p_name text, p_password text)
-returns table (
-  id uuid,
-  name text,
-  access jsonb,
-  created_at timestamptz,
-  session_token uuid
-)
-language plpgsql
-security definer
-set search_path = public, pg_temp
-as $$
-declare
-  v_account_id uuid;
-  v_student_id uuid;
-  v_student public.writing_student_accounts%rowtype;
-  v_token uuid := gen_random_uuid();
-begin
-  v_account_id := public.shared_student_account_login_id(p_name, p_password);
-
-  if v_account_id is null then
-    return;
-  end if;
-
-  v_student_id := public.shared_writing_ensure_profile(v_account_id);
-  if v_student_id is null then
-    return;
-  end if;
-
-  select *
-  into v_student
-  from public.writing_student_accounts student
-  where student.id = v_student_id;
-
-  if not found then
-    return;
-  end if;
-
-  update public.writing_student_accounts student
-  set session_token = v_token
-  where student.id = v_student.id;
-
-  return query
-  select v_student.id, account.name, v_student.access, account.created_at, v_token
-  from public.student_accounts account
-  where account.id = v_account_id;
+  get diagnostics v_deleted_count = row_count;
+  return v_deleted_count > 0;
 end;
 $$;
 
@@ -922,18 +902,17 @@ returns table (
   updated_at timestamptz
 )
 language plpgsql
+stable
 security definer
 set search_path = public, pg_temp
 as $$
 declare
   v_student_id uuid;
 begin
-  select student.id
+  select writing_student.id
   into v_student_id
-  from public.writing_student_accounts student
-  left join public.student_accounts account on account.id = student.shared_account_id
-  where student.session_token = p_token
-    and (student.shared_account_id is null or account.deleted_at is null);
+  from public.writing_student_accounts writing_student
+  where writing_student.session_token = p_token;
 
   if v_student_id is null then
     return;
@@ -960,12 +939,10 @@ as $$
 declare
   v_student_id uuid;
 begin
-  select student.id
+  select writing_student.id
   into v_student_id
-  from public.writing_student_accounts student
-  left join public.student_accounts account on account.id = student.shared_account_id
-  where student.session_token = p_token
-    and (student.shared_account_id is null or account.deleted_at is null);
+  from public.writing_student_accounts writing_student
+  where writing_student.session_token = p_token;
 
   if v_student_id is null or nullif(trim(p_key), '') is null then
     return false;
@@ -992,23 +969,25 @@ returns table (
   updated_at timestamptz
 )
 language plpgsql
+stable
 security definer
 set search_path = public, pg_temp
 as $$
 declare
-  v_account_id uuid;
   v_student_id uuid;
 begin
   if not public._writing_admin_ok(p_admin_name, p_admin_password) then
     raise exception 'Invalid admin credentials';
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
+  select writing_student.id
+  into v_student_id
+  from public.writing_student_accounts writing_student
+  where writing_student.name = trim(p_student_name);
+
+  if v_student_id is null then
     return;
   end if;
-
-  v_student_id := public.shared_writing_ensure_profile(v_account_id);
 
   return query
   select state.key, state.value, state.updated_at
@@ -1031,19 +1010,17 @@ security definer
 set search_path = public, pg_temp
 as $$
 declare
-  v_account_id uuid;
   v_student_id uuid;
 begin
   if not public._writing_admin_ok(p_admin_name, p_admin_password) then
     raise exception 'Invalid admin credentials';
   end if;
 
-  v_account_id := public.shared_student_account_id_by_name(p_student_name, false);
-  if v_account_id is null then
-    return false;
-  end if;
+  select writing_student.id
+  into v_student_id
+  from public.writing_student_accounts writing_student
+  where writing_student.name = trim(p_student_name);
 
-  v_student_id := public.shared_writing_ensure_profile(v_account_id);
   if v_student_id is null or nullif(trim(p_key), '') is null then
     return false;
   end if;
@@ -1058,23 +1035,14 @@ begin
 end;
 $$;
 
-grant execute on function public.flashcard_student_login(text, text) to anon, authenticated;
-grant execute on function public.flashcard_admin_list_students(text, text) to anon, authenticated;
-grant execute on function public.flashcard_admin_upsert_student(text, text, text, text, jsonb) to anon, authenticated;
-grant execute on function public.flashcard_admin_set_student_access(text, text, text, jsonb) to anon, authenticated;
-grant execute on function public.flashcard_admin_change_student_password(text, text, text, text) to anon, authenticated;
-grant execute on function public.flashcard_admin_delete_student(text, text, text) to anon, authenticated;
-grant execute on function public.flashcard_admin_delete_student_with_state(text, text, text) to anon, authenticated;
-grant execute on function public.flashcard_admin_get_student_state(text, text, text) to anon, authenticated;
-grant execute on function public.flashcard_admin_upsert_student_state(text, text, text, text, jsonb) to anon, authenticated;
-grant execute on function public.flashcard_session_student_id(uuid) to anon, authenticated;
-
+revoke all on function public.writing_sync_flashcard_student(uuid) from public;
+revoke all on function public.writing_sync_all_flashcard_students() from public;
+grant execute on function public.writing_student_login(text, text) to anon, authenticated;
 grant execute on function public.writing_admin_list_students(text, text) to anon, authenticated;
 grant execute on function public.writing_admin_upsert_student(text, text, text, text, jsonb) to anon, authenticated;
 grant execute on function public.writing_admin_change_student_password(text, text, text, text) to anon, authenticated;
 grant execute on function public.writing_admin_set_student_access(text, text, text, jsonb) to anon, authenticated;
 grant execute on function public.writing_admin_delete_student(text, text, text) to anon, authenticated;
-grant execute on function public.writing_student_login(text, text) to anon, authenticated;
 grant execute on function public.writing_student_get_state(uuid) to anon, authenticated;
 grant execute on function public.writing_student_upsert_state(uuid, text, jsonb) to anon, authenticated;
 grant execute on function public.writing_admin_get_student_state(text, text, text) to anon, authenticated;
