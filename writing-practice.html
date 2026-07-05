@@ -49,11 +49,11 @@
     }
 
     body.admin-background-active {
-      background:
-        url("assets/flashcards/admin-control-left.jpg") left center / 50% 100vh no-repeat,
-        url("assets/flashcards/admin-control-right.jpg") right center / 50% 100vh no-repeat,
-        linear-gradient(135deg, var(--writing-bg-start) 0%, #d1ad75 46%, var(--writing-bg-end) 100%);
-      background-attachment: fixed, fixed, scroll;
+      background: url("assets/writing-practice/control-panel.jpg") center center / cover no-repeat fixed;
+    }
+
+    body.dashboard-background-active {
+      background: url("assets/writing-practice/front-page.jpg") center center / cover no-repeat fixed;
     }
 
     .custom-cursor {
@@ -112,8 +112,8 @@
       position: absolute;
       left: 50%;
       top: 50%;
-      width: min(270px, 18vw);
-      max-height: 142px;
+      width: min(260px, 18vw);
+      max-height: 150px;
       display: none;
       object-fit: contain;
       pointer-events: none;
@@ -192,8 +192,8 @@
       position: absolute;
       left: 50%;
       top: 10%;
-      width: min(430px, 30vw);
-      max-height: 420px;
+      width: min(520px, 34vw);
+      max-height: 500px;
       object-fit: contain;
       pointer-events: none;
       transform: translateX(-50%);
@@ -534,8 +534,9 @@
     .admin-bg {
       position: absolute;
       inset: 0;
+      display: none;
       pointer-events: none;
-      opacity: 0.18;
+      opacity: 1;
       background-size: cover;
       background-position: center;
     }
@@ -841,7 +842,7 @@
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
-    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+    <img src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
   </div>
   <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
 
@@ -851,7 +852,7 @@
         <img class="brand-main" src="Font Transparent.png" alt="EdmundEducation">
         <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
       </a>
-      <img class="topbar-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+      <img class="topbar-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
       <div class="nav-actions">
         <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
         <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
@@ -880,7 +881,7 @@
           <p>DSE、IELTS、TOEIC、TOEFL、PTE 及政府公務員英文寫作練習。</p>
         </div>
 
-        <img class="hero-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+        <img class="hero-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
 
         <form class="login-card" data-login-form>
           <h2>Login</h2>
@@ -1181,6 +1182,9 @@
       if (session.role === "admin") {
         adminPasswordForSession = localStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
       }
+      if (session.impersonatedByAdmin) {
+        adminPasswordForSession = localStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
+      }
       if (session.role === "student") {
         studentSessionToken = session.sessionToken || "";
       }
@@ -1198,9 +1202,9 @@
 
     function updateNavActions() {
       document.querySelector("[data-logout]")?.classList.toggle("hidden", !currentUser);
-      document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
+      document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !(isAdmin() && currentView !== "admin-panel"));
       document.querySelector("[data-return-admin]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
-      document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !isAdmin());
+      document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !(isAdmin() || currentUser?.impersonatedByAdmin));
     }
 
     function showLogin() {
@@ -1227,7 +1231,7 @@
       document.querySelector("[data-dashboard]")?.classList.toggle("hidden", view !== "dashboard");
       document.body.classList.add("app-active");
       document.body.classList.toggle("admin-background-active", view === "admin-panel");
-      document.body.classList.remove("dashboard-background-active");
+      document.body.classList.toggle("dashboard-background-active", view === "dashboard" && (isAdmin() || currentUser?.impersonatedByAdmin));
       updateNavActions();
 
       if (view === "admin-panel") {
