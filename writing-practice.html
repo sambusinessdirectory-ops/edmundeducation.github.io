@@ -29,6 +29,8 @@
       --orange: #f97316;
       --orange-dark: #c2410c;
       --shadow: rgba(17,43,85,0.14);
+      --writing-bg-start: #a96f44;
+      --writing-bg-end: #f2ecb6;
     }
 
     html { scroll-behavior: smooth; }
@@ -38,9 +40,8 @@
       margin: 0;
       min-height: 100vh;
       background:
-        radial-gradient(circle at 10% 8%, rgba(80,166,255,0.20), transparent 36%),
-        radial-gradient(circle at 86% 12%, rgba(255,196,87,0.18), transparent 34%),
-        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+        linear-gradient(135deg, rgba(255,255,255,0.56) 0%, rgba(255,255,255,0.34) 44%, rgba(255,255,255,0.18) 100%),
+        linear-gradient(135deg, var(--writing-bg-start) 0%, #d1ad75 46%, var(--writing-bg-end) 100%);
       color: var(--ink);
       font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
       font-weight: 760;
@@ -48,30 +49,11 @@
     }
 
     body.admin-background-active {
-      background:
-        url("assets/flashcards/admin-control-left.jpg") left center / 50% 100vh no-repeat,
-        url("assets/flashcards/admin-control-right.jpg") right center / 50% 100vh no-repeat,
-        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
-      background-attachment: fixed, fixed, scroll;
+      background: url("assets/writing-practice/control-panel.jpg") center center / cover no-repeat fixed;
     }
 
     body.dashboard-background-active {
-      background:
-        url("assets/flashcards/enter-student-view.jpg") center center / cover fixed no-repeat,
-        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
-    }
-
-    body.dashboard-background-active .flash-shell {
-      background: transparent;
-    }
-
-    body.dashboard-background-active .panel-card {
-      background: rgba(255,255,255,0.20);
-      border-color: rgba(255,255,255,0.26);
-      box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.22),
-        0 28px 52px rgba(17,43,85,0.16);
-      backdrop-filter: none;
+      background: url("assets/writing-practice/front-page.jpg") center center / cover no-repeat fixed;
     }
 
     .custom-cursor {
@@ -130,8 +112,8 @@
       position: absolute;
       left: 50%;
       top: 50%;
-      width: min(270px, 18vw);
-      max-height: 142px;
+      width: min(260px, 18vw);
+      max-height: 150px;
       display: none;
       object-fit: contain;
       pointer-events: none;
@@ -190,8 +172,8 @@
     .hero {
       position: relative;
       display: grid;
-      grid-template-columns: minmax(0, 0.92fr) minmax(340px, 0.58fr);
-      gap: clamp(24px, 4vw, 64px);
+      grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.50fr);
+      gap: clamp(36px, 6vw, 96px);
       align-items: center;
       min-height: calc(100vh - 150px);
     }
@@ -208,10 +190,10 @@
 
     .hero-mascot {
       position: absolute;
-      left: 50%;
-      top: 10%;
-      width: min(430px, 30vw);
-      max-height: 420px;
+      left: 45%;
+      top: 8%;
+      width: min(460px, 28vw);
+      max-height: 450px;
       object-fit: contain;
       pointer-events: none;
       transform: translateX(-50%);
@@ -237,9 +219,10 @@
     }
 
     .hero-copy p {
-      max-width: 720px;
+      max-width: none;
       margin: 22px 0 0;
       font-size: clamp(18px, 1.4vw, 24px);
+      white-space: nowrap;
     }
 
     .login-card,
@@ -1092,6 +1075,17 @@
       font-weight: 900;
     }
 
+    .blank-number {
+      display: inline-flex;
+      align-items: center;
+      margin: 0 3px 0 5px;
+      color: #1559a8;
+      font-size: 0.86em;
+      line-height: 1;
+      font-weight: 900;
+      vertical-align: middle;
+    }
+
     .inline-answer:focus {
       border-color: rgba(21,89,168,0.60);
       box-shadow: 0 0 0 3px rgba(47,128,237,0.16);
@@ -1289,6 +1283,10 @@
         font-size: clamp(38px, 14vw, 58px);
       }
 
+      .hero-copy p {
+        white-space: normal;
+      }
+
       .login-card {
         padding: 24px;
       }
@@ -1328,7 +1326,7 @@
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
-    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+    <img src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
   </div>
   <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
 
@@ -1338,7 +1336,7 @@
         <img class="brand-main" src="Font Transparent.png" alt="EdmundEducation">
         <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
       </a>
-      <img class="topbar-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+      <img class="topbar-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
       <div class="nav-actions">
         <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
         <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
@@ -1364,10 +1362,10 @@
         <div class="hero-copy">
           <img class="hero-learning-logo" src="E-Learning.png" alt="E-Learning">
           <h1>學生考試<br>寫作練習系統</h1>
-          <p>DSE、IELTS、TOEIC、TOEFL、PTE 及政府公務員英文寫作練習。</p>
+          <p>DSE、IELTS、TOEIC、TOEFL、PTE 及政府公務員英文寫作練習</p>
         </div>
 
-        <img class="hero-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
+        <img class="hero-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
 
         <form class="login-card" data-login-form>
           <h2>Login</h2>
@@ -1503,9 +1501,7 @@
                   { answer: "treated" },
                   " as a basic part of ",
                   { answer: "discipline" },
-                  ", while others allow children to dress with ",
-                  { answer: "far" },
-                  " more freedom."
+                  ", while others allow children to dress with far more freedom."
                 ]
               },
               {
@@ -1516,8 +1512,8 @@
                   { answer: "benefits" },
                   ", especially in relation to ",
                   { answer: "equality" },
-                  " and ",
-                  { answer: "school identity" },
+                  " and school ",
+                  { answer: "identity" },
                   ", but it can also create problems for ",
                   { answer: "self-expression" },
                   " and family finances."
@@ -1532,22 +1528,18 @@
                 parts: [
                   "One major ",
                   { answer: "advantage" },
-                  " is that a uniform reduces visible ",
-                  { answer: "social differences" },
-                  " among children."
+                  " is that a uniform reduces ",
+                  { answer: "visible" },
+                  " social differences among children."
                 ]
               },
               {
                 parts: [
                   "If everyone wears ",
                   { answer: "similar" },
-                  " clothes, pupils from poorer families are less ",
-                  { answer: "likely" },
-                  " to feel ",
+                  " clothes, pupils from poorer families are less likely to feel ",
                   { answer: "embarrassed" },
-                  " by cheap or unfashionable ",
-                  { answer: "outfits" },
-                  ", and wealthier pupils have fewer chances to ",
+                  " by cheap or unfashionable outfits, and wealthier pupils have fewer chances to ",
                   { answer: "display" },
                   " expensive brands."
                 ]
@@ -1558,13 +1550,7 @@
                   { answer: "equal" },
                   " place, ",
                   { answer: "where" },
-                  " children are judged more by their ",
-                  { answer: "behaviour" },
-                  " and ",
-                  { answer: "effort" },
-                  " than by ",
-                  { answer: "what" },
-                  " they wear."
+                  " children are judged more by their behaviour and effort than by what they wear."
                 ]
               },
               {
@@ -1576,15 +1562,11 @@
               },
               {
                 parts: [
-                  "A child who puts on the same colours and ",
-                  { answer: "badge" },
-                  " as their classmates may feel that they are part of a ",
+                  "A child who puts on the same colours and badge as their classmates may feel that they are part of a ",
                   { answer: "shared" },
-                  " community, much like a sports team whose ",
-                  { answer: "kit" },
-                  " quietly reminds its members that they represent something ",
-                  { answer: "larger than" },
-                  " themselves."
+                  " community, much like a sports team whose kit quietly reminds its members that they represent something ",
+                  { answer: "larger" },
+                  " than themselves."
                 ]
               }
             ]
@@ -1610,9 +1592,7 @@
                 parts: [
                   "Children, especially teenagers, often use clothing to explore their ",
                   { answer: "personality" },
-                  ", ",
-                  { answer: "confidence" },
-                  ", and taste."
+                  ", confidence, and taste."
                 ]
               },
               {
@@ -1621,7 +1601,9 @@
                   { answer: "controlled" },
                   ", school may start to feel unnecessarily ",
                   { answer: "rigid" },
-                  ", and minor choices such as hairstyles, shoes, or accessories can become sources of conflict rather than learning."
+                  ", and minor choices such as hairstyles, shoes, or accessories can become sources of conflict ",
+                  { answer: "rather than" },
+                  " learning."
                 ]
               },
               {
@@ -1633,9 +1615,8 @@
               },
               {
                 parts: [
-                  "Although uniforms are meant to ",
-                  { answer: "simplify" },
-                  " clothing, they can be surprisingly expensive when schools require specific jackets, shoes, sportswear, or seasonal items from selected ",
+                  { answer: "Although" },
+                  " uniforms are meant to simplify clothing, they can be surprisingly expensive when schools require specific jackets, shoes, sportswear, or seasonal items from selected ",
                   { answer: "suppliers" },
                   "."
                 ]
@@ -1644,9 +1625,9 @@
                 parts: [
                   "For families with several children, these costs can place a real ",
                   { answer: "strain" },
-                  " on the ",
-                  { answer: "household" },
-                  " budget."
+                  " on the household ",
+                  { answer: "budget" },
+                  "."
                 ]
               }
             ]
@@ -1656,8 +1637,9 @@
             sentences: [
               {
                 parts: [
-                  "In conclusion, school uniforms can promote equality, discipline, and a stronger school ",
-                  { answer: "identity" },
+                  "In conclusion, school uniforms can ",
+                  { answer: "promote" },
+                  " equality, discipline, and a stronger school identity",
                   ", but they may also restrict ",
                   { answer: "personal" },
                   " expression and create ",
@@ -1669,9 +1651,9 @@
                 parts: [
                   "Overall, they bring clear social benefits, ",
                   { answer: "while" },
-                  " also creating practical and ",
-                  { answer: "personal" },
-                  " drawbacks."
+                  " also creating practical and personal ",
+                  { answer: "drawbacks" },
+                  "."
                 ]
               }
             ]
@@ -2038,7 +2020,7 @@
 
     function modeLabel(mode) {
       return {
-        blank: "Totally blank",
+        blank: "Standard mode",
         start: "Reveal starting letter",
         end: "Reveal ending letter",
         both: "Reveal both letters",
@@ -2046,13 +2028,26 @@
       }[mode] || "Practice";
     }
 
+    function maskWord(word, mode) {
+      const letters = [...String(word || "")];
+      if (!letters.length) return "";
+      if (mode === "start") return `${letters[0]}${"_".repeat(Math.max(0, letters.length - 1))}`;
+      if (mode === "end") return `${"_".repeat(Math.max(0, letters.length - 1))}${letters[letters.length - 1]}`;
+      if (mode === "both") {
+        if (letters.length === 1) return letters[0];
+        return `${letters[0]}${"_".repeat(Math.max(0, letters.length - 2))}${letters[letters.length - 1]}`;
+      }
+      return "_____________";
+    }
+
     function answerHint(answer, mode) {
       const clean = String(answer || "").trim();
-      if (!clean) return "Type answer";
-      if (mode === "start") return `${clean[0]}...`;
-      if (mode === "end") return `...${clean[clean.length - 1]}`;
-      if (mode === "both") return clean.length > 1 ? `${clean[0]}...${clean[clean.length - 1]}` : clean;
-      return "Type answer";
+      if (!clean) return "_____________";
+      if (!["start", "end", "both"].includes(mode)) return "_____________";
+      return clean
+        .split(/([\s-])/)
+        .map(part => part === " " || part === "-" ? part : maskWord(part, mode))
+        .join("");
     }
 
     function blankInputWidth(answer) {
@@ -2182,8 +2177,8 @@
 
           <div class="practice-mode-grid">
             <button class="mode-button" type="button" data-start-practice-mode="blank">
-              <strong>Totally blank</strong>
-              <span>Blank parts stay fully empty.</span>
+              <strong>Standard mode</strong>
+              <span>Numbered blanks with no letter hints.</span>
             </button>
             <button class="mode-button" type="button" data-start-practice-mode="start">
               <strong>Reveal starting letter</strong>
@@ -2220,7 +2215,7 @@
         ? `<span class="inline-result">${escapeHtml(mistake.label)} | ${escapeHtml(part.answer)}</span>`
         : "";
 
-      return `<input class="${classes.join(" ")}" style="width:${blankInputWidth(part.answer)}px" type="text" data-answer-id="${escapeHtml(part.id)}" value="${escapeHtml(value)}" placeholder="${escapeHtml(answerHint(part.answer, practiceState?.mode))}" autocomplete="off" ${disabled}>${resultLabel}`;
+      return `<span class="blank-number">(${escapeHtml(part.number)})</span><input class="${classes.join(" ")}" style="width:${blankInputWidth(part.answer)}px" type="text" data-answer-id="${escapeHtml(part.id)}" value="${escapeHtml(value)}" placeholder="${escapeHtml(answerHint(part.answer, practiceState?.mode))}" autocomplete="off" ${disabled}>${resultLabel}`;
     }
 
     function renderPracticeSentence(sentence, targetIds, heading = "") {
