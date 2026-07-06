@@ -1020,6 +1020,14 @@
       font-weight: 760;
     }
 
+    .learning-highlight {
+      border-radius: 6px;
+      padding: 0 3px;
+      background: rgba(254,226,226,0.78);
+      color: #dc2626;
+      font-weight: 950;
+    }
+
     .learning-line.term {
       display: flex;
       flex-wrap: wrap;
@@ -1053,6 +1061,54 @@
       font-size: 14px;
       line-height: 1.2;
       font-weight: 850;
+    }
+
+    .learning-chip-link {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.16s ease, transform 0.16s ease, background 0.16s ease;
+    }
+
+    .learning-chip-link:hover,
+    .term-link:hover {
+      transform: translateY(-1px);
+      background: rgba(254,226,226,0.78);
+      color: #dc2626;
+    }
+
+    .term-link {
+      display: inline-flex;
+      width: fit-content;
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.16s ease, transform 0.16s ease;
+    }
+
+    .essay-toolbar {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pdf-export-button {
+      min-height: 44px;
+      border: 1px solid rgba(220,38,38,0.18);
+      border-radius: 999px;
+      padding: 0 16px;
+      background: #dc2626;
+      color: #fff;
+      font: inherit;
+      font-size: 14px;
+      line-height: 1.15;
+      font-weight: 950;
+      box-shadow: 0 8px 0 #991b1b, 0 16px 26px rgba(220,38,38,0.18);
+      transition: transform 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .pdf-export-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 9px 0 #991b1b, 0 20px 30px rgba(220,38,38,0.22);
     }
 
     .tone-blue { --block-accent: #2563eb; --block-bg: rgba(239,246,255,0.88); }
@@ -3643,72 +3699,230 @@ Student example: Every school policy can have practical and personal drawbacks.`
       `;
     }
 
+    function stripLearningPrefix(text) {
+      return String(text || "").trim().replace(/^(Example|Excerpt):\s*/i, "").replace(/^節錄：\s*/, "");
+    }
+
+    function learningAnchorKey(line) {
+      let key = stripLearningPrefix(line)
+        .replace(/^\d+\.\s+/, "")
+        .replace(/^Collocation:\s*/i, "")
+        .replace(/^Structure:\s*/i, "")
+        .trim();
+      if (/\s=\s/.test(key)) key = key.split(/\s=\s/)[0].trim();
+      return key;
+    }
+
+    function learningSlug(value) {
+      return String(value || "")
+        .toLowerCase()
+        .replace(/&/g, " and ")
+        .replace(/[^a-z0-9\u3400-\u9fff]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+    }
+
+    function learningAnchorId(tabKey, key) {
+      return `learn-${learningSlug(tabKey)}-${learningSlug(key)}`;
+    }
+
+    function collectLearningTargets(blocks = [], tabKey = "") {
+      const targets = new Map();
+      blocks.forEach((block, blockIndex) => {
+        if (blockIndex === 0) return;
+        String(block.text || "").split(/\n\s*\n/g).forEach(group => {
+          const visibleLines = group.split("\n").map(line => line.trim()).filter(Boolean);
+          if (!visibleLines.length) return;
+          const key = learningAnchorKey(visibleLines[0]);
+          if (!key) return;
+          targets.set(learningSlug(key), learningAnchorId(tabKey, key));
+        });
+      });
+      return targets;
+    }
+
+    function regexEscape(value) {
+      return String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    }
+
+    function grammarHighlightSpecs(key) {
+      const lower = key.toLowerCase();
+      const specs = [];
+      if (lower.includes("feel + adjective + by")) specs.push(/\bfeel\s+[\w-]+\s+by\b/gi);
+      if (lower.includes("more by a than by b")) specs.push("more by", "than by");
+      if (lower.includes("allow + object + to")) specs.push(/\ballow\s+[\w-]+\s+to\b/gi);
+      if (lower.includes("less likely to")) specs.push("less likely to");
+      if (lower.includes("have fewer chances to")) specs.push("have fewer chances to");
+      if (lower.includes("make + object")) specs.push(/\bmake\s+.+?\s+feel\b/gi);
+      if (lower.includes("where relative")) specs.push("where");
+      if (lower.includes("be judged by")) specs.push(/\b(?:are|is|be)\s+judged(?:\s+\w+)?\s+by\b/gi);
+      if (lower.includes("who relative")) specs.push(/\bwho\s+\w+\b/gi);
+      if (lower.includes("the same + noun + as")) specs.push(/\bthe same\b/gi, /\bas\b/gi);
+      if (lower.includes("may feel that")) specs.push("may feel that");
+      if (lower.includes("much like")) specs.push("much like");
+      if (lower.includes("whose + noun")) specs.push(/\bwhose\s+\w+\b/gi);
+      if (lower.includes("remind + object + that")) specs.push(/\breminds?\s+.+?\s+that\b/gi);
+      if (lower.includes("something + comparative")) specs.push(/\bsomething\s+\w+\s+than\b/gi);
+      if (lower.includes("the most obvious one is that")) specs.push("The most obvious one is that");
+      if (lower.includes("use + noun + to")) specs.push(/\buse\s+\w+\s+to\b/gi);
+      if (lower.includes("if + passive")) specs.push(/^If\b.+?\bcontrolled\b/gi);
+      if (lower.includes("such as")) specs.push("such as");
+      if (lower.includes("rather than")) specs.push("rather than");
+      if (lower.includes("although")) specs.push("Although");
+      if (lower.includes("be meant to")) specs.push(/\b(?:are|is|be)\s+meant\s+to\b/gi);
+      if (lower.includes("when + clause")) specs.push("when");
+      if (lower.includes("for + noun phrase")) specs.push(/^For\b.+?,/gi);
+      if (lower.includes("parallel verbs")) specs.push("restrict personal expression", "create financial pressure");
+      if (lower.includes("while also")) specs.push("while also");
+      if (lower.includes("one major advantage is that")) specs.push("One major advantage is that");
+      return specs;
+    }
+
+    function unitHighlightSpecs(visibleLines) {
+      const specs = [];
+      const firstKey = learningAnchorKey(visibleLines[0] || "");
+      const collocationLine = visibleLines.find(line => /^Collocation:\s*/i.test(line));
+      if (collocationLine) specs.push(learningAnchorKey(collocationLine));
+
+      if (firstKey) {
+        specs.push(firstKey);
+        specs.push(...grammarHighlightSpecs(firstKey));
+        const trimmedPattern = firstKey
+          .replace(/\s*\+\s*(V1|V3|noun phrase|noun|clause|object|adjective|list|base verb|person\/object|someone|subject|verb|modal verb|V-ing|comparative adjective)\b/gi, "")
+          .replace(/\s{2,}/g, " ")
+          .trim();
+        if (trimmedPattern && trimmedPattern !== firstKey) specs.push(trimmedPattern);
+      }
+
+      return specs.filter(Boolean);
+    }
+
+    function highlightedTextHtml(text, specs = []) {
+      const source = String(text || "");
+      const ranges = [];
+      const addRange = (start, end) => {
+        if (start < 0 || end <= start) return;
+        if (ranges.some(range => Math.max(start, range.start) < Math.min(end, range.end))) return;
+        ranges.push({ start, end });
+      };
+
+      specs.forEach(spec => {
+        if (typeof spec === "string") {
+          const needle = spec.trim();
+          if (!needle || needle.length < 2) return;
+          const regex = new RegExp(regexEscape(needle), "gi");
+          let match;
+          while ((match = regex.exec(source))) addRange(match.index, match.index + match[0].length);
+          return;
+        }
+        if (spec instanceof RegExp) {
+          const flags = spec.flags.includes("g") ? spec.flags : `${spec.flags}g`;
+          const regex = new RegExp(spec.source, flags);
+          let match;
+          while ((match = regex.exec(source))) addRange(match.index, match.index + match[0].length);
+        }
+      });
+
+      if (!ranges.length) return escapeHtml(source);
+      ranges.sort((a, b) => a.start - b.start);
+      let cursor = 0;
+      return ranges.map(range => {
+        const before = escapeHtml(source.slice(cursor, range.start));
+        const marked = `<mark class="learning-highlight">${escapeHtml(source.slice(range.start, range.end))}</mark>`;
+        cursor = range.end;
+        return before + marked;
+      }).join("") + escapeHtml(source.slice(cursor));
+    }
+
     function learningLineKind(line) {
       const text = line.trim();
       if (!text) return "empty";
       if (/^\d+\.\s+/.test(text)) return "numbered";
       if (/^(Background|Thesis Statement|Topic Sentence|Supporting Detail|Logic Chain|Conclusion|Reiterating Arguments|Final Summary|Adjectives|Adverbs|Grammar involved|Detailed Grammar Analysis|School Rules|Equality|School Identity|Individuality|Cost|Argument|Collocation Overview|Detailed Collocation Analysis)\b/i.test(text)) return "label";
       if (/^Example:/i.test(text)) return "example";
-      if (/^Excerpt:/i.test(text)) return "excerpt";
+      if (/^Excerpt:/i.test(text) || /^節錄：/.test(text)) return "excerpt";
       if (/^(Structure|Explanation|Meaning|Function|Student imitation|Student example|Common mistake|Pedagogical note|Other examples|Related patterns|Opposite structure|Note):/i.test(text)) return "meta";
       if (/^（.*）$/.test(text) || (/[\u3400-\u9FFF]/.test(text) && !/[A-Za-z]{3,}/.test(text))) return "chinese";
       if (/\s=\s/.test(text)) return "term";
       return "english";
     }
 
-    function renderLearningLine(line) {
+    function linkedTermHtml(key, context = {}) {
+      const target = context.targets?.get(learningSlug(key));
+      const label = escapeHtml(key);
+      if (!target) return `<span class="term-key">${label}</span>`;
+      return `<a class="term-key term-link" href="#${escapeHtml(target)}">${label}</a>`;
+    }
+
+    function renderLearningLine(line, context = {}) {
       const kind = learningLineKind(line);
-      const text = line.trim();
+      const text = stripLearningPrefix(line);
       if (!text) return "";
 
       if (kind === "term") {
         const [key, ...meaningParts] = text.split(/\s=\s/);
         return `
           <div class="learning-line term">
-            <span class="term-key">${escapeHtml(key)}</span>
+            ${linkedTermHtml(key, context)}
             <span class="term-meaning">= ${escapeHtml(meaningParts.join(" = "))}</span>
           </div>
         `;
       }
 
-      return `<div class="learning-line ${escapeHtml(kind)}">${escapeHtml(text)}</div>`;
+      const html = (kind === "example" || kind === "excerpt")
+        ? highlightedTextHtml(text, context.highlightSpecs || [])
+        : escapeHtml(text);
+      return `<div class="learning-line ${escapeHtml(kind)}">${html}</div>`;
     }
 
-    function renderLearningUnit(lines) {
+    function renderLearningUnit(lines, context = {}) {
       const visibleLines = lines.map(line => line.trim()).filter(Boolean);
       if (!visibleLines.length) return "";
 
       const firstKind = learningLineKind(visibleLines[0]);
       const allShort = visibleLines.every(line => line.length <= 34 && !/\s=\s/.test(line));
       if (visibleLines.length > 7 && allShort) {
+        const hasChipLabel = firstKind === "label";
+        const chipLines = hasChipLabel ? visibleLines.slice(1) : visibleLines;
         return `
           <div class="learning-unit">
-            <div class="learning-line label">${escapeHtml(visibleLines[0])}</div>
+            ${hasChipLabel ? `<div class="learning-line label">${escapeHtml(visibleLines[0])}</div>` : ""}
             <div class="learning-chip-grid">
-              ${visibleLines.slice(1).map(line => `<span class="learning-chip">${escapeHtml(line)}</span>`).join("")}
+              ${chipLines.map(line => {
+                const target = context.targets?.get(learningSlug(line));
+                const chip = `<span class="learning-chip">${escapeHtml(line)}</span>`;
+                return target ? `<a class="learning-chip-link" href="#${escapeHtml(target)}">${chip}</a>` : chip;
+              }).join("")}
             </div>
           </div>
         `;
       }
 
       const compact = visibleLines.length <= 3 && (firstKind === "term" || firstKind === "numbered") ? " compact" : "";
-      return `<div class="learning-unit${compact}">${visibleLines.map(renderLearningLine).join("")}</div>`;
+      const key = learningAnchorKey(visibleLines[0]);
+      const shouldAnchor = context.blockIndex > 0 && key;
+      const id = shouldAnchor ? ` id="${escapeHtml(learningAnchorId(context.tabKey || currentEssayTab, key))}"` : "";
+      const lineContext = {
+        ...context,
+        highlightSpecs: unitHighlightSpecs(visibleLines)
+      };
+      return `<div class="learning-unit${compact}"${id}>${visibleLines.map(line => renderLearningLine(line, lineContext)).join("")}</div>`;
     }
 
-    function renderLearningText(text = "") {
+    function renderLearningText(text = "", context = {}) {
       return String(text)
         .split(/\n\s*\n/g)
-        .map(group => renderLearningUnit(group.split("\n")))
+        .map(group => renderLearningUnit(group.split("\n"), context))
         .join("");
     }
 
-    function renderLearningBlocks(blocks = []) {
+    function renderLearningBlocks(blocks = [], tabKey = currentEssayTab) {
+      const targets = collectLearningTargets(blocks, tabKey);
       return `
         <div class="learning-blocks">
-          ${blocks.map(block => `
+          ${blocks.map((block, blockIndex) => `
             <section class="learning-block tone-${escapeHtml(block.tone || "blue")}">
               <h3>${escapeHtml(block.title)}${block.subtitle ? `<span>${escapeHtml(block.subtitle)}</span>` : ""}</h3>
-              <div class="learning-block-content">${renderLearningText(block.text || "")}</div>
+              <div class="learning-block-content">${renderLearningText(block.text || "", { tabKey, blockIndex, targets })}</div>
             </section>
           `).join("")}
         </div>
@@ -3747,7 +3961,7 @@ Student example: Every school policy can have practical and personal drawbacks.`
 
       const learningBlocks = exercise.learningContent?.[currentEssayTab];
       if (learningBlocks) {
-        return renderLearningBlocks(learningBlocks);
+        return renderLearningBlocks(learningBlocks, currentEssayTab);
       }
 
       if (currentEssayTab === "translation") {
@@ -3775,6 +3989,19 @@ Student example: Every school policy can have practical and personal drawbacks.`
       `;
     }
 
+    function currentEssayTabLabel() {
+      const tab = essayTabOrder.find(item => item.key === currentEssayTab) || essayTabOrder[0];
+      return `${tab.zh} / ${tab.en}`;
+    }
+
+    function renderEssayToolbar() {
+      return `
+        <div class="essay-toolbar">
+          <button class="pdf-export-button" type="button" data-export-study-pdf>匯出本頁 PDF</button>
+        </div>
+      `;
+    }
+
     function renderExerciseContent(exercise) {
       return `
         ${renderExerciseHeader(exercise)}
@@ -3786,6 +4013,7 @@ Student example: Every school policy can have practical and personal drawbacks.`
           </div>
           <button class="primary-button" type="button" data-open-practice>開始練習</button>
         </div>
+        ${renderEssayToolbar()}
         <div class="essay-content">${renderTabContent(exercise)}</div>
         ${renderResultHistory(exercise)}
       `;
@@ -3992,6 +4220,125 @@ Student example: Every school policy can have practical and personal drawbacks.`
       }
 
       panel.innerHTML = renderExerciseContent(exercise);
+    }
+
+    function exportCurrentStudyPdf() {
+      const exercise = currentExercise();
+      if (!exercise) return;
+
+      const printWindow = window.open("", "_blank");
+      if (!printWindow) {
+        window.alert("瀏覽器阻擋了匯出視窗，請允許 pop-up 後再試一次。");
+        return;
+      }
+
+      const styleText = [...document.querySelectorAll("style")]
+        .map(style => style.textContent || "")
+        .join("\n");
+      const tabLabel = currentEssayTabLabel();
+      const title = `${exercise.title} - ${tabLabel}`;
+      const contentHtml = renderTabContent(exercise);
+
+      printWindow.document.open();
+      printWindow.document.write(`<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base href="${escapeHtml(window.location.href)}">
+  <title>${escapeHtml(title)}</title>
+  <style>
+    ${styleText}
+    @page { size: A4; margin: 13mm 11mm; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f8fbff;
+      color: #0e2d55;
+      font-family: Georgia, 'Times New Roman', serif;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .pdf-shell {
+      width: min(100%, 1040px);
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .pdf-header {
+      margin-bottom: 18px;
+      padding: 18px 20px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.82);
+    }
+    .pdf-header span {
+      display: inline-flex;
+      margin-bottom: 8px;
+      border: 1px solid rgba(5,150,105,0.22);
+      border-radius: 999px;
+      padding: 6px 10px;
+      background: rgba(220,252,231,0.86);
+      color: #047857;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 950;
+    }
+    .pdf-header h1 {
+      margin: 0 0 6px;
+      color: #0e2d55;
+      font-size: 30px;
+      line-height: 1.15;
+    }
+    .pdf-header p {
+      margin: 0;
+      color: #46576d;
+      font-size: 15px;
+      font-weight: 850;
+    }
+    .essay-content {
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      background: transparent;
+      box-shadow: none;
+    }
+    .learning-blocks {
+      max-width: none;
+      margin: 0;
+    }
+    .learning-block,
+    .learning-unit,
+    .synonym-row {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .learning-chip-link,
+    .term-link {
+      text-decoration: none;
+    }
+    @media print {
+      .pdf-shell { padding: 0; }
+      .learning-block { box-shadow: none; }
+      .learning-unit { background: rgba(255,255,255,0.72); }
+    }
+  </style>
+</head>
+<body>
+  <main class="pdf-shell">
+    <header class="pdf-header">
+      <span>${escapeHtml(exercise.exam)} | ${escapeHtml(exercise.taskType)}</span>
+      <h1>${escapeHtml(exercise.title)}</h1>
+      <p>${escapeHtml(tabLabel)}</p>
+    </header>
+    <section class="essay-content">${contentHtml}</section>
+  </main>
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => window.print(), 250);
+    });
+  <\/script>
+</body>
+</html>`);
+      printWindow.document.close();
     }
 
     function showExercise(sectionKey) {
@@ -4760,6 +5107,11 @@ Student example: Every school policy can have practical and personal drawbacks.`
 
         if (event.target.closest("[data-open-practice]")) {
           startPracticeSetup();
+          return;
+        }
+
+        if (event.target.closest("[data-export-study-pdf]")) {
+          exportCurrentStudyPdf();
           return;
         }
 
