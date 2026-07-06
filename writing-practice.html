@@ -29,8 +29,6 @@
       --orange: #f97316;
       --orange-dark: #c2410c;
       --shadow: rgba(17,43,85,0.14);
-      --writing-bg-start: #a96f44;
-      --writing-bg-end: #f2ecb6;
     }
 
     html { scroll-behavior: smooth; }
@@ -40,8 +38,9 @@
       margin: 0;
       min-height: 100vh;
       background:
-        linear-gradient(135deg, rgba(255,255,255,0.56) 0%, rgba(255,255,255,0.34) 44%, rgba(255,255,255,0.18) 100%),
-        linear-gradient(135deg, var(--writing-bg-start) 0%, #d1ad75 46%, var(--writing-bg-end) 100%);
+        radial-gradient(circle at 10% 8%, rgba(80,166,255,0.20), transparent 36%),
+        radial-gradient(circle at 86% 12%, rgba(255,196,87,0.18), transparent 34%),
+        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
       color: var(--ink);
       font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
       font-weight: 760;
@@ -49,11 +48,30 @@
     }
 
     body.admin-background-active {
-      background: url("assets/writing-practice/control-panel.jpg") center center / cover no-repeat fixed;
+      background:
+        url("assets/flashcards/admin-control-left.jpg") left center / 50% 100vh no-repeat,
+        url("assets/flashcards/admin-control-right.jpg") right center / 50% 100vh no-repeat,
+        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+      background-attachment: fixed, fixed, scroll;
     }
 
     body.dashboard-background-active {
-      background: url("assets/writing-practice/front-page.jpg") center center / cover no-repeat fixed;
+      background:
+        url("assets/flashcards/enter-student-view.jpg") center center / cover fixed no-repeat,
+        linear-gradient(135deg, #f7fbff 0%, #edf6ff 48%, #fff8eb 100%);
+    }
+
+    body.dashboard-background-active .flash-shell {
+      background: transparent;
+    }
+
+    body.dashboard-background-active .panel-card {
+      background: rgba(255,255,255,0.20);
+      border-color: rgba(255,255,255,0.26);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.22),
+        0 28px 52px rgba(17,43,85,0.16);
+      backdrop-filter: none;
     }
 
     .custom-cursor {
@@ -112,8 +130,8 @@
       position: absolute;
       left: 50%;
       top: 50%;
-      width: min(260px, 18vw);
-      max-height: 150px;
+      width: min(270px, 18vw);
+      max-height: 142px;
       display: none;
       object-fit: contain;
       pointer-events: none;
@@ -172,8 +190,8 @@
     .hero {
       position: relative;
       display: grid;
-      grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.50fr);
-      gap: clamp(36px, 6vw, 96px);
+      grid-template-columns: minmax(0, 0.92fr) minmax(340px, 0.58fr);
+      gap: clamp(24px, 4vw, 64px);
       align-items: center;
       min-height: calc(100vh - 150px);
     }
@@ -190,10 +208,10 @@
 
     .hero-mascot {
       position: absolute;
-      left: 45%;
-      top: 8%;
-      width: min(460px, 28vw);
-      max-height: 450px;
+      left: 50%;
+      top: 10%;
+      width: min(430px, 30vw);
+      max-height: 420px;
       object-fit: contain;
       pointer-events: none;
       transform: translateX(-50%);
@@ -219,10 +237,9 @@
     }
 
     .hero-copy p {
-      max-width: none;
+      max-width: 720px;
       margin: 22px 0 0;
-      font-size: clamp(17px, 1.24vw, 22px);
-      white-space: nowrap;
+      font-size: clamp(18px, 1.4vw, 24px);
     }
 
     .login-card,
@@ -535,9 +552,8 @@
     .admin-bg {
       position: absolute;
       inset: 0;
-      display: none;
       pointer-events: none;
-      opacity: 1;
+      opacity: 0.18;
       background-size: cover;
       background-position: center;
     }
@@ -571,97 +587,6 @@
     .enter-student-view-button:hover {
       transform: translateY(-3px);
       box-shadow: 0 24px 44px rgba(17,43,85,0.24);
-    }
-
-    body.admin-background-active .admin-control-card,
-    body.admin-background-active .profile-card,
-    body.admin-background-active .student-row,
-    body.admin-background-active .fact-row,
-    body.admin-background-active .log-row,
-    body.admin-background-active .toggle-row,
-    body.admin-background-active input {
-      background: rgba(255,255,255,0.20);
-      border-color: rgba(255,255,255,0.34);
-      backdrop-filter: blur(3px);
-    }
-
-    body.admin-background-active .student-row,
-    body.admin-background-active .fact-row,
-    body.admin-background-active .log-row,
-    body.admin-background-active .toggle-row {
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.28);
-    }
-
-    body.dashboard-background-active [data-dashboard] {
-      background: rgba(255,255,255,0.20);
-      border-color: rgba(255,255,255,0.34);
-      backdrop-filter: blur(3px);
-    }
-
-    body.dashboard-background-active .welcome-message {
-      background: rgba(240,253,244,0.20);
-      border-color: rgba(255,255,255,0.34);
-    }
-
-    body.dashboard-background-active .tile {
-      text-shadow: 0 2px 8px rgba(0,0,0,0.28);
-      background:
-        linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.04) 36%, rgba(255,255,255,0) 37%),
-        linear-gradient(180deg, rgba(63,145,247,0.22) 0%, rgba(47,128,237,0.22) 55%, rgba(36,114,216,0.22) 100%);
-      box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.24),
-        inset 0 -10px 18px rgba(21,89,168,0.10),
-        0 8px 0 rgba(21,89,168,0.52),
-        0 20px 30px rgba(47,128,237,0.15);
-    }
-
-    body.dashboard-background-active .tile:not(.locked):hover {
-      box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.24),
-        inset 0 -10px 18px rgba(21,89,168,0.10),
-        0 10px 0 rgba(21,89,168,0.52),
-        0 26px 36px rgba(47,128,237,0.16);
-    }
-
-    body.dashboard-background-active .tile.locked {
-      background: rgba(38,49,66,0.22);
-      box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.10),
-        0 8px 0 rgba(17,24,39,0.48),
-        0 18px 28px rgba(17,24,39,0.16);
-    }
-
-    body.dashboard-background-active .tile.emerald-tile:not(.locked) {
-      background:
-        linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.04) 36%, rgba(255,255,255,0) 37%),
-        linear-gradient(180deg, rgba(16,185,129,0.22) 0%, rgba(5,150,105,0.22) 58%, rgba(4,120,87,0.22) 100%);
-      box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.24),
-        inset 0 -10px 18px rgba(4,120,87,0.10),
-        0 8px 0 rgba(4,120,87,0.52),
-        0 20px 30px rgba(5,150,105,0.15);
-    }
-
-    body.dashboard-background-active .tile.orange-tile:not(.locked) {
-      background:
-        linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.04) 36%, rgba(255,255,255,0) 37%),
-        linear-gradient(180deg, rgba(251,146,60,0.22) 0%, rgba(249,115,22,0.22) 58%, rgba(234,88,12,0.22) 100%);
-      box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.24),
-        inset 0 -10px 18px rgba(194,65,12,0.10),
-        0 8px 0 rgba(194,65,12,0.52),
-        0 20px 30px rgba(249,115,22,0.15);
-    }
-
-    body.dashboard-background-active .tile.red-tile:not(.locked) {
-      background:
-        linear-gradient(180deg, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.04) 36%, rgba(255,255,255,0) 37%),
-        linear-gradient(180deg, rgba(159,18,57,0.22) 0%, rgba(136,19,55,0.22) 58%, rgba(111,16,44,0.22) 100%);
-      box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.24),
-        inset 0 -10px 18px rgba(76,5,25,0.10),
-        0 8px 0 rgba(76,5,25,0.52),
-        0 20px 30px rgba(136,19,55,0.15);
     }
 
     .admin-switch-modal {
@@ -841,6 +766,467 @@
       opacity: 0.95;
     }
 
+    .exercise-panel {
+      display: grid;
+      gap: 18px;
+    }
+
+    .exercise-kicker {
+      display: inline-flex;
+      width: fit-content;
+      min-height: 34px;
+      align-items: center;
+      border: 1px solid rgba(5,150,105,0.22);
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(220,252,231,0.86);
+      color: #047857;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .exercise-title-block {
+      display: grid;
+      gap: 10px;
+    }
+
+    .essay-tabs,
+    .practice-mode-grid,
+    .practice-actions,
+    .paragraph-actions,
+    .mistake-legend,
+    .review-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .essay-tab {
+      min-height: 44px;
+      border: 1px solid rgba(47,128,237,0.18);
+      border-radius: 999px;
+      padding: 0 14px;
+      background: rgba(255,255,255,0.82);
+      color: #1559a8;
+      font: inherit;
+      font-size: 14px;
+      line-height: 1.15;
+      font-weight: 900;
+      box-shadow: 0 10px 20px rgba(47,128,237,0.08);
+      transition: transform 0.16s ease, background 0.16s ease, color 0.16s ease;
+    }
+
+    .essay-tab.active,
+    .essay-tab:hover {
+      transform: translateY(-1px);
+      background: #1559a8;
+      color: #fff;
+    }
+
+    .practice-strip {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      padding: 14px;
+      border: 1px solid rgba(5,150,105,0.16);
+      border-radius: 18px;
+      background: rgba(240,253,244,0.80);
+    }
+
+    .practice-strip strong,
+    .mode-summary strong,
+    .result-stat strong {
+      color: #0e2d55;
+      font-weight: 900;
+    }
+
+    .essay-content,
+    .practice-card,
+    .mode-page,
+    .result-history {
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.76);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.86), 0 14px 28px rgba(17,43,85,0.08);
+    }
+
+    .essay-content {
+      padding: clamp(18px, 2.4vw, 28px);
+    }
+
+    .essay-content p,
+    .practice-text p,
+    .translation-paragraph {
+      margin: 0 0 18px;
+      color: #172033;
+      font-size: clamp(17px, 1.25vw, 20px);
+      line-height: 1.72;
+      font-weight: 760;
+    }
+
+    .essay-content p:last-child,
+    .practice-text p:last-child,
+    .translation-paragraph:last-child {
+      margin-bottom: 0;
+    }
+
+    .study-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .study-item {
+      min-height: 82px;
+      padding: 14px;
+      border: 1px solid rgba(47,128,237,0.13);
+      border-radius: 16px;
+      background: rgba(239,246,255,0.76);
+    }
+
+    .study-item strong {
+      display: block;
+      margin-bottom: 6px;
+      color: #0e2d55;
+      font-weight: 900;
+    }
+
+    .study-item span {
+      display: block;
+      color: #46576d;
+      font-size: 14px;
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .mode-page {
+      display: grid;
+      gap: 18px;
+      padding: clamp(18px, 2.4vw, 28px);
+    }
+
+    .mode-summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .mode-summary > div,
+    .result-stat {
+      min-height: 78px;
+      display: grid;
+      align-content: center;
+      gap: 4px;
+      border: 1px solid rgba(47,128,237,0.12);
+      border-radius: 16px;
+      padding: 12px;
+      background: rgba(255,255,255,0.82);
+      color: #53657b;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 850;
+    }
+
+    .mode-summary span,
+    .result-stat span {
+      color: #0e2d55;
+      font-size: 24px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .practice-mode-grid {
+      align-items: stretch;
+    }
+
+    .mode-button {
+      flex: 1 1 210px;
+      min-height: 110px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 18px;
+      padding: 16px;
+      background: rgba(255,255,255,0.88);
+      color: #0e2d55;
+      font: inherit;
+      text-align: left;
+      box-shadow: 0 8px 0 #dbeafe, 0 18px 28px rgba(47,128,237,0.10);
+      transition: transform 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .mode-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 0 #bfdbfe, 0 24px 34px rgba(47,128,237,0.14);
+    }
+
+    .mode-button strong,
+    .sentence-card strong {
+      display: block;
+      color: #0e2d55;
+      font-size: 18px;
+      line-height: 1.15;
+      font-weight: 900;
+    }
+
+    .mode-button span,
+    .sentence-card small {
+      display: block;
+      margin-top: 8px;
+      color: #64748b;
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 820;
+    }
+
+    .sentence-card p {
+      margin: 10px 0 0;
+      color: #172033;
+      font-size: clamp(17px, 1.25vw, 20px);
+      line-height: 1.72;
+      font-weight: 760;
+    }
+
+    .paragraph-selector {
+      display: grid;
+      gap: 12px;
+      border: 1px solid rgba(47,128,237,0.12);
+      border-radius: 18px;
+      padding: 14px;
+      background: rgba(239,246,255,0.70);
+    }
+
+    .paragraph-checkboxes {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .paragraph-checkbox {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 48px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 14px;
+      padding: 8px 10px;
+      background: rgba(255,255,255,0.86);
+      color: #173153;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .paragraph-checkbox input {
+      width: 22px;
+      min-height: 22px;
+      accent-color: var(--green);
+    }
+
+    .practice-card {
+      display: grid;
+      gap: 18px;
+      padding: clamp(18px, 2.4vw, 28px);
+    }
+
+    .practice-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    .practice-round-pill {
+      min-height: 40px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 0 14px;
+      background: #dbeafe;
+      color: #1559a8;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .practice-text {
+      display: grid;
+      gap: 10px;
+    }
+
+    .practice-paragraph {
+      border-radius: 16px;
+      padding: 16px;
+      background: rgba(255,255,255,0.72);
+      border: 1px solid rgba(47,128,237,0.10);
+    }
+
+    .sentence-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .sentence-card {
+      padding: 16px;
+      border: 1px solid rgba(5,150,105,0.16);
+      border-radius: 18px;
+      background: rgba(240,253,244,0.74);
+    }
+
+    .inline-answer {
+      width: min(220px, 100%);
+      min-height: 38px;
+      margin: 0 4px;
+      border-radius: 10px;
+      padding: 0 10px;
+      vertical-align: baseline;
+      color: #0e2d55;
+      font-size: 16px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .inline-answer:focus {
+      border-color: rgba(21,89,168,0.60);
+      box-shadow: 0 0 0 3px rgba(47,128,237,0.16);
+    }
+
+    .inline-answer.mistake-missing {
+      border-color: #dc2626;
+      background: #fee2e2;
+    }
+
+    .inline-answer.mistake-wrong {
+      border-color: #f97316;
+      background: #ffedd5;
+    }
+
+    .inline-answer.mistake-spelling {
+      border-color: #eab308;
+      background: #fef9c3;
+    }
+
+    .inline-answer.mistake-article {
+      border-color: #7c3aed;
+      background: #ede9fe;
+    }
+
+    .inline-answer.mistake-plural {
+      border-color: #0891b2;
+      background: #cffafe;
+    }
+
+    .inline-result {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      margin: 0 5px 4px;
+      border-radius: 999px;
+      padding: 0 8px;
+      background: rgba(219,234,254,0.92);
+      color: #1559a8;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 900;
+      vertical-align: middle;
+    }
+
+    .result-panel {
+      display: grid;
+      gap: 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 18px;
+      padding: 16px;
+      background: rgba(255,255,255,0.84);
+    }
+
+    .result-stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .mistake-legend span,
+    .mistake-chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      border-radius: 999px;
+      padding: 0 10px;
+      color: #172033;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .mistake-chip.missing,
+    .mistake-legend .missing {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .mistake-chip.wrong,
+    .mistake-legend .wrong {
+      background: #ffedd5;
+      color: #9a3412;
+    }
+
+    .mistake-chip.spelling,
+    .mistake-legend .spelling {
+      background: #fef9c3;
+      color: #854d0e;
+    }
+
+    .mistake-chip.article,
+    .mistake-legend .article {
+      background: #ede9fe;
+      color: #5b21b6;
+    }
+
+    .mistake-chip.plural,
+    .mistake-legend .plural {
+      background: #cffafe;
+      color: #155e75;
+    }
+
+    .mistake-list,
+    .history-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .mistake-row,
+    .history-row {
+      display: grid;
+      gap: 6px;
+      padding: 12px;
+      border: 1px solid rgba(47,128,237,0.12);
+      border-radius: 14px;
+      background: rgba(239,246,255,0.72);
+      color: #405168;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 820;
+    }
+
+    .mistake-row strong,
+    .history-row strong {
+      color: #0e2d55;
+      font-weight: 900;
+    }
+
+    .result-history {
+      display: grid;
+      gap: 12px;
+      padding: 16px;
+    }
+
     .hidden {
       display: none !important;
     }
@@ -856,7 +1242,11 @@
       }
 
       .writing-grid,
-      .access-grid {
+      .access-grid,
+      .study-list,
+      .paragraph-checkboxes,
+      .mode-summary,
+      .result-stats {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
@@ -906,7 +1296,11 @@
       .form-row,
       .password-field,
       .writing-grid,
-      .access-grid {
+      .access-grid,
+      .study-list,
+      .paragraph-checkboxes,
+      .mode-summary,
+      .result-stats {
         grid-template-columns: 1fr;
       }
 
@@ -934,7 +1328,7 @@
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
-    <img src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
   </div>
   <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
 
@@ -944,7 +1338,7 @@
         <img class="brand-main" src="Font Transparent.png" alt="EdmundEducation">
         <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
       </a>
-      <img class="topbar-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
+      <img class="topbar-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
       <div class="nav-actions">
         <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
         <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
@@ -970,10 +1364,10 @@
         <div class="hero-copy">
           <img class="hero-learning-logo" src="E-Learning.png" alt="E-Learning">
           <h1>學生考試<br>寫作練習系統</h1>
-          <p>DSE、IELTS、TOEIC、TOEFL、PTE 及政府公務員英文寫作練習</p>
+          <p>DSE、IELTS、TOEIC、TOEFL、PTE 及政府公務員英文寫作練習。</p>
         </div>
 
-        <img class="hero-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
+        <img class="hero-mascot" src="assets/flashcards/mascot-flashcard.png" alt="" aria-hidden="true">
 
         <form class="login-card" data-login-form>
           <h2>Login</h2>
@@ -1055,6 +1449,8 @@
 
           <div class="writing-grid" data-writing-grid></div>
         </section>
+
+        <section class="panel-card exercise-panel hidden" data-exercise-view></section>
       </section>
     </main>
   </div>
@@ -1067,6 +1463,7 @@
     const ADMIN_SESSION_PASSWORD_KEY = "edmundWritingAdminPassword";
     const PASSWORD_LOG_KEY = "edmundWritingPasswordLogs";
     const WRITING_STATE_KEY = "edmundWritingState";
+    const PRACTICE_RESULTS_KEY = "edmundWritingPracticeResults";
     const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
 
@@ -1078,6 +1475,270 @@
       { key: "pte-writing", label: "PTE", subline: "英文寫作", tone: "emerald" },
       { key: "government-writing", label: "政府公務員", subline: "英文寫作", tone: "red" }
     ];
+
+    const essayTabOrder = [
+      { key: "essay", label: "Essay" },
+      { key: "translation", label: "Translation" },
+      { key: "thematicVocabulary", label: "Thematic vocabulary" },
+      { key: "verbs", label: "Verbs" },
+      { key: "modifiers", label: "Adjectives and adverbs" },
+      { key: "collocations", label: "Collocations" },
+      { key: "grammar", label: "Grammar" },
+      { key: "literaryDevices", label: "Literary devices" }
+    ];
+
+    const writingExercises = {
+      "ielts-writing": {
+        id: "model-essay-9-ielts-advantage-disadvantage",
+        title: "Model Essay 9 - IELTS - Advantage / Disadvantage",
+        exam: "IELTS Writing Task 2",
+        taskType: "Advantage / Disadvantage",
+        paragraphs: [
+          {
+            label: "Intro",
+            sentences: [
+              {
+                parts: [
+                  "In many schools, uniforms are ",
+                  { answer: "treated" },
+                  " as a basic part of ",
+                  { answer: "discipline" },
+                  ", while others allow children to dress with ",
+                  { answer: "far" },
+                  " more freedom."
+                ]
+              },
+              {
+                parts: [
+                  "Requiring ",
+                  { answer: "pupils" },
+                  " to wear a uniform has several clear ",
+                  { answer: "benefits" },
+                  ", especially in relation to ",
+                  { answer: "equality" },
+                  " and ",
+                  { answer: "school identity" },
+                  ", but it can also create problems for ",
+                  { answer: "self-expression" },
+                  " and family finances."
+                ]
+              }
+            ]
+          },
+          {
+            label: "Para 2",
+            sentences: [
+              {
+                parts: [
+                  "One major ",
+                  { answer: "advantage" },
+                  " is that a uniform reduces visible ",
+                  { answer: "social differences" },
+                  " among children."
+                ]
+              },
+              {
+                parts: [
+                  "If everyone wears ",
+                  { answer: "similar" },
+                  " clothes, pupils from poorer families are less ",
+                  { answer: "likely" },
+                  " to feel ",
+                  { answer: "embarrassed" },
+                  " by cheap or unfashionable ",
+                  { answer: "outfits" },
+                  ", and wealthier pupils have fewer chances to ",
+                  { answer: "display" },
+                  " expensive brands."
+                ]
+              },
+              {
+                parts: [
+                  "This can make the classroom feel like a more ",
+                  { answer: "equal" },
+                  " place, ",
+                  { answer: "where" },
+                  " children are judged more by their ",
+                  { answer: "behaviour" },
+                  " and ",
+                  { answer: "effort" },
+                  " than by ",
+                  { answer: "what" },
+                  " they wear."
+                ]
+              },
+              {
+                parts: [
+                  "Uniforms can also strengthen a sense of ",
+                  { answer: "belonging" },
+                  "."
+                ]
+              },
+              {
+                parts: [
+                  "A child who puts on the same colours and ",
+                  { answer: "badge" },
+                  " as their classmates may feel that they are part of a ",
+                  { answer: "shared" },
+                  " community, much like a sports team whose ",
+                  { answer: "kit" },
+                  " quietly reminds its members that they represent something ",
+                  { answer: "larger than" },
+                  " themselves."
+                ]
+              }
+            ]
+          },
+          {
+            label: "Para 3",
+            sentences: [
+              {
+                parts: [
+                  "However, school uniforms also have ",
+                  { answer: "disadvantages" },
+                  "."
+                ]
+              },
+              {
+                parts: [
+                  "The most obvious one is that they limit ",
+                  { answer: "individuality" },
+                  "."
+                ]
+              },
+              {
+                parts: [
+                  "Children, especially teenagers, often use clothing to explore their ",
+                  { answer: "personality" },
+                  ", ",
+                  { answer: "confidence" },
+                  ", and taste."
+                ]
+              },
+              {
+                parts: [
+                  "If every detail is tightly ",
+                  { answer: "controlled" },
+                  ", school may start to feel unnecessarily ",
+                  { answer: "rigid" },
+                  ", and minor choices such as hairstyles, shoes, or accessories can become sources of conflict rather than learning."
+                ]
+              },
+              {
+                parts: [
+                  "Another ",
+                  { answer: "drawback" },
+                  " is cost."
+                ]
+              },
+              {
+                parts: [
+                  "Although uniforms are meant to ",
+                  { answer: "simplify" },
+                  " clothing, they can be surprisingly expensive when schools require specific jackets, shoes, sportswear, or seasonal items from selected ",
+                  { answer: "suppliers" },
+                  "."
+                ]
+              },
+              {
+                parts: [
+                  "For families with several children, these costs can place a real ",
+                  { answer: "strain" },
+                  " on the ",
+                  { answer: "household" },
+                  " budget."
+                ]
+              }
+            ]
+          },
+          {
+            label: "Conclusion",
+            sentences: [
+              {
+                parts: [
+                  "In conclusion, school uniforms can promote equality, discipline, and a stronger school ",
+                  { answer: "identity" },
+                  ", but they may also restrict ",
+                  { answer: "personal" },
+                  " expression and create ",
+                  { answer: "financial" },
+                  " pressure."
+                ]
+              },
+              {
+                parts: [
+                  "Overall, they bring clear social benefits, ",
+                  { answer: "while" },
+                  " also creating practical and ",
+                  { answer: "personal" },
+                  " drawbacks."
+                ]
+              }
+            ]
+          }
+        ],
+        translation: [
+          "在許多學校，校服被視為紀律的基本部分，而其他學校則容許孩子有更多衣著自由。要求學生穿校服有幾個明顯好處，尤其在平等和學校身份認同方面，但也可能為自我表達和家庭財政帶來問題。",
+          "一個主要優點是校服能減少孩子之間可見的社會差異。如果每個人都穿相似的衣服，來自較貧困家庭的學生較不容易因便宜或不時尚的服裝而感到尷尬，而較富裕的學生也較少機會展示昂貴品牌。這能令課室感覺更平等，孩子更多是因行為和努力而被評價，而不是因穿著而被評價。校服也能加強歸屬感。當孩子穿上與同學相同的顏色和校章時，可能會覺得自己是共同社群的一部分，就像運動隊的隊服默默提醒成員，他們代表著比自己更大的整體。",
+          "然而，校服也有缺點。最明顯的是它們限制個性。孩子，尤其是青少年，經常透過衣著探索自己的性格、自信和品味。如果每個細節都被嚴格控制，學校可能開始顯得不必要地僵化，而髮型、鞋或配飾等小選擇也可能變成衝突來源，而不是學習的一部分。另一個缺點是成本。雖然校服本意是簡化衣著，但如果學校要求學生向指定供應商購買特定外套、鞋、運動服或季節性用品，費用可能相當高。對有幾個孩子的家庭而言，這些開支會為家庭預算帶來真正壓力。",
+          "總括而言，校服能促進平等、紀律和更強的學校身份認同，但也可能限制個人表達並造成經濟壓力。整體來說，校服帶來明顯的社會好處，同時也造成實際和個人層面的缺點。"
+        ],
+        studyTabs: {
+          thematicVocabulary: [
+            { term: "Equality", note: "equality, equal place, social benefits" },
+            { term: "School identity", note: "school identity, sense of belonging, shared community" },
+            { term: "Social differences", note: "visible social differences, poorer families, wealthier pupils" },
+            { term: "Self-expression", note: "individuality, personality, confidence, personal expression" },
+            { term: "Financial pressure", note: "family finances, cost, selected suppliers, household budget" }
+          ],
+          verbs: [
+            { term: "are treated as", note: "used to show how something is regarded by others" },
+            { term: "requiring", note: "introduces a rule or obligation" },
+            { term: "reduces", note: "shows a decrease in a problem" },
+            { term: "display", note: "means show something publicly" },
+            { term: "strengthen", note: "means make something stronger" },
+            { term: "limit / restrict", note: "useful verbs for disadvantages" },
+            { term: "promote", note: "means support or encourage a positive result" },
+            { term: "create", note: "works for problems, pressure, conflict, and drawbacks" }
+          ],
+          modifiers: [
+            { term: "visible", note: "visible social differences" },
+            { term: "similar", note: "similar clothes" },
+            { term: "poorer / wealthier", note: "comparative adjectives for social contrast" },
+            { term: "tightly", note: "tightly controlled" },
+            { term: "unnecessarily", note: "unnecessarily rigid" },
+            { term: "surprisingly", note: "surprisingly expensive" },
+            { term: "specific / selected", note: "specific jackets, selected suppliers" },
+            { term: "practical and personal", note: "balanced adjective pair in the conclusion" }
+          ],
+          collocations: [
+            { term: "a basic part of discipline", note: "describes the role of uniforms in schools" },
+            { term: "visible social differences", note: "a precise phrase for class or wealth gaps" },
+            { term: "feel embarrassed by", note: "useful pattern for emotional effect" },
+            { term: "a sense of belonging", note: "common IELTS phrase for community identity" },
+            { term: "a shared community", note: "shows collective identity" },
+            { term: "sources of conflict", note: "formal phrase for causes of disagreement" },
+            { term: "place a real strain on", note: "strong phrase for pressure on money or time" },
+            { term: "household budget", note: "specific phrase for family finances" }
+          ],
+          grammar: [
+            { term: "while for contrast", note: "uniforms are treated as discipline, while others allow freedom" },
+            { term: "If clause", note: "If everyone wears similar clothes, pupils are less likely to..." },
+            { term: "relative clause", note: "a more equal place, where children are judged..." },
+            { term: "much like", note: "comparison structure: much like a sports team" },
+            { term: "Although clause", note: "Although uniforms are meant to simplify clothing..." },
+            { term: "balanced concession", note: "can promote..., but they may also..." }
+          ],
+          literaryDevices: [
+            { term: "Contrast", note: "freedom versus discipline, equality versus individuality" },
+            { term: "Comparison", note: "uniforms are compared with a sports team's kit" },
+            { term: "Parallel structure", note: "equality, discipline, and a stronger school identity" },
+            { term: "Concrete imagery", note: "colours, badge, jackets, shoes, sportswear" },
+            { term: "Balanced judgement", note: "the conclusion weighs benefits against drawbacks" }
+          ]
+        }
+      }
+    };
 
     const supabaseClient = window.supabase?.createClient
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
@@ -1091,6 +1752,9 @@
     let adminPasswordForSession = "";
     let studentSessionToken = "";
     let studentPasswordLogsCache = {};
+    let currentExerciseSectionKey = "";
+    let currentEssayTab = "essay";
+    let practiceState = null;
 
     function escapeHtml(value) {
       return String(value)
@@ -1136,6 +1800,682 @@
 
     function writeJson(key, value) {
       localStorage.setItem(key, JSON.stringify(value));
+    }
+
+    function isBlankPart(part) {
+      return Boolean(part && typeof part === "object" && part.answer);
+    }
+
+    function prepareWritingExercises() {
+      Object.values(writingExercises).forEach(exercise => {
+        let blankNumber = 0;
+        exercise.paragraphs.forEach((paragraph, paragraphIndex) => {
+          paragraph.sentences.forEach((sentence, sentenceIndex) => {
+            sentence.key = `${paragraphIndex}-${sentenceIndex}`;
+            sentence.paragraphIndex = paragraphIndex;
+            sentence.sentenceIndex = sentenceIndex;
+            sentence.parts.forEach(part => {
+              if (!isBlankPart(part)) return;
+              blankNumber += 1;
+              part.id = `${exercise.id}-q${blankNumber}`;
+              part.number = blankNumber;
+              part.paragraphIndex = paragraphIndex;
+              part.sentenceIndex = sentenceIndex;
+              part.sentenceKey = sentence.key;
+              part.paragraphLabel = paragraph.label;
+            });
+          });
+        });
+        exercise.questionCount = blankNumber;
+      });
+    }
+
+    function plainSentence(sentence) {
+      return sentence.parts.map(part => isBlankPart(part) ? part.answer : part).join("");
+    }
+
+    function plainParagraph(paragraph) {
+      return paragraph.sentences.map(plainSentence).join(" ");
+    }
+
+    function exerciseBySection(sectionKey) {
+      return writingExercises[sectionKey] || null;
+    }
+
+    function currentExercise() {
+      return exerciseBySection(currentExerciseSectionKey);
+    }
+
+    function allParagraphIndexes(exercise) {
+      return exercise.paragraphs.map((_, index) => index);
+    }
+
+    function normalizeSelectedParagraphs(exercise, selectedParagraphs) {
+      const valid = new Set(allParagraphIndexes(exercise));
+      const selected = (selectedParagraphs || [])
+        .map(Number)
+        .filter(index => valid.has(index));
+      return selected.length ? [...new Set(selected)] : allParagraphIndexes(exercise);
+    }
+
+    function getExerciseBlanks(exercise, options = {}) {
+      const selectedParagraphs = options.selectedParagraphs
+        ? new Set(normalizeSelectedParagraphs(exercise, options.selectedParagraphs))
+        : null;
+      const sentenceKeys = options.sentenceKeys ? new Set(options.sentenceKeys) : null;
+      const blanks = [];
+
+      exercise.paragraphs.forEach((paragraph, paragraphIndex) => {
+        if (selectedParagraphs && !selectedParagraphs.has(paragraphIndex)) return;
+        paragraph.sentences.forEach(sentence => {
+          if (sentenceKeys && !sentenceKeys.has(sentence.key)) return;
+          sentence.parts.forEach(part => {
+            if (!isBlankPart(part)) return;
+            blanks.push({
+              ...part,
+              paragraphLabel: paragraph.label,
+              sentenceText: plainSentence(sentence)
+            });
+          });
+        });
+      });
+
+      return blanks;
+    }
+
+    function getPracticeTargets(exercise) {
+      if (!practiceState) return [];
+      return getExerciseBlanks(exercise, {
+        selectedParagraphs: practiceState.selectedParagraphs,
+        sentenceKeys: practiceState.sentenceKeys || null
+      });
+    }
+
+    function getPracticeSentenceKeys(exercise) {
+      if (!practiceState) return [];
+      if (practiceState.sentenceKeys?.length) return practiceState.sentenceKeys;
+      const selected = new Set(normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs));
+      return exercise.paragraphs.flatMap((paragraph, paragraphIndex) => {
+        if (!selected.has(paragraphIndex)) return [];
+        return paragraph.sentences
+          .filter(sentence => sentence.parts.some(isBlankPart))
+          .map(sentence => sentence.key);
+      });
+    }
+
+    function defaultPracticeState(exercise) {
+      return {
+        screen: "mode",
+        selectorOpen: true,
+        selectedParagraphs: allParagraphIndexes(exercise),
+        mode: "",
+        round: 1,
+        sentenceKeys: null,
+        answers: {},
+        submitted: false,
+        lastResult: null
+      };
+    }
+
+    function getSavedPracticeResults(exerciseId) {
+      const allResults = readJson(PRACTICE_RESULTS_KEY, []);
+      return allResults
+        .filter(result => result.exerciseId === exerciseId && result.studentName === (currentUser?.name || "Guest"))
+        .sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
+    }
+
+    function savePracticeResult(result) {
+      const allResults = readJson(PRACTICE_RESULTS_KEY, []);
+      allResults.push(result);
+      writeJson(PRACTICE_RESULTS_KEY, allResults.slice(-300));
+    }
+
+    function normalizeAnswer(value) {
+      return String(value || "")
+        .replaceAll("’", "'")
+        .replaceAll("‘", "'")
+        .replaceAll("“", '"')
+        .replaceAll("”", '"')
+        .replace(/[.,!?;:]+$/g, "")
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLowerCase();
+    }
+
+    function answerKey(value) {
+      return normalizeAnswer(value).replace(/[-–—]/g, " ");
+    }
+
+    function withoutLeadingArticle(value) {
+      return normalizeAnswer(value).replace(/^(a|an|the)\s+/i, "");
+    }
+
+    function isMissingArticle(userAnswer, correctAnswer) {
+      const correct = normalizeAnswer(correctAnswer);
+      const user = normalizeAnswer(userAnswer);
+      const match = correct.match(/^(a|an|the)\s+(.+)$/);
+      return Boolean(match && user === match[2]);
+    }
+
+    function isMissingPluralS(userAnswer, correctAnswer) {
+      const correct = answerKey(correctAnswer);
+      const user = answerKey(userAnswer);
+      if (!user || !correct.endsWith("s")) return false;
+      if (`${user}s` === correct) return true;
+
+      const words = user.split(" ");
+      if (!words.length) return false;
+      words[words.length - 1] = `${words[words.length - 1]}s`;
+      return words.join(" ") === correct;
+    }
+
+    function levenshteinDistance(a, b) {
+      const left = String(a || "");
+      const right = String(b || "");
+      const matrix = Array.from({ length: left.length + 1 }, () => Array(right.length + 1).fill(0));
+
+      for (let i = 0; i <= left.length; i += 1) matrix[i][0] = i;
+      for (let j = 0; j <= right.length; j += 1) matrix[0][j] = j;
+
+      for (let i = 1; i <= left.length; i += 1) {
+        for (let j = 1; j <= right.length; j += 1) {
+          const cost = left[i - 1] === right[j - 1] ? 0 : 1;
+          matrix[i][j] = Math.min(
+            matrix[i - 1][j] + 1,
+            matrix[i][j - 1] + 1,
+            matrix[i - 1][j - 1] + cost
+          );
+        }
+      }
+
+      return matrix[left.length][right.length];
+    }
+
+    function isLikelySpellingMistake(userAnswer, correctAnswer) {
+      const user = answerKey(userAnswer);
+      const correct = answerKey(correctAnswer);
+      if (!user || !correct) return false;
+      if (Math.abs(user.length - correct.length) > 3) return false;
+
+      const userWords = user.split(" ");
+      const correctWords = correct.split(" ");
+      if (userWords.length === correctWords.length) {
+        const closeWords = userWords.filter((word, index) => {
+          const expected = correctWords[index];
+          const distance = levenshteinDistance(word, expected);
+          return distance <= (expected.length <= 5 ? 1 : 2);
+        });
+        if (closeWords.length === correctWords.length) return true;
+      }
+
+      const distance = levenshteinDistance(user, correct);
+      return distance <= (correct.length <= 6 ? 1 : 2);
+    }
+
+    function classifyAnswer(userAnswer, correctAnswer) {
+      const user = normalizeAnswer(userAnswer);
+      const correct = normalizeAnswer(correctAnswer);
+      if (!user) return { ok: false, type: "missing", label: "Missing answer" };
+      if (user === correct || answerKey(user) === answerKey(correct)) return { ok: true, type: "correct", label: "Correct" };
+      if (isMissingArticle(userAnswer, correctAnswer)) return { ok: false, type: "article", label: "Missing article" };
+      if (isMissingPluralS(userAnswer, correctAnswer)) return { ok: false, type: "plural", label: "Missing s for plural" };
+      if (withoutLeadingArticle(userAnswer) === withoutLeadingArticle(correctAnswer) && normalizeAnswer(userAnswer) !== normalizeAnswer(correctAnswer)) {
+        return { ok: false, type: "article", label: "Missing article" };
+      }
+      if (isLikelySpellingMistake(userAnswer, correctAnswer)) return { ok: false, type: "spelling", label: "Wrong spelling" };
+      return { ok: false, type: "wrong", label: "Wrong word" };
+    }
+
+    function mistakeClass(type) {
+      return {
+        missing: "mistake-missing",
+        wrong: "mistake-wrong",
+        spelling: "mistake-spelling",
+        article: "mistake-article",
+        plural: "mistake-plural"
+      }[type] || "";
+    }
+
+    function modeLabel(mode) {
+      return {
+        blank: "Totally blank",
+        start: "Reveal starting letter",
+        end: "Reveal ending letter",
+        both: "Reveal both letters",
+        sentence: "Fill in sentence mode"
+      }[mode] || "Practice";
+    }
+
+    function answerHint(answer, mode) {
+      const clean = String(answer || "").trim();
+      if (!clean) return "Type answer";
+      if (mode === "start") return `${clean[0]}...`;
+      if (mode === "end") return `...${clean[clean.length - 1]}`;
+      if (mode === "both") return clean.length > 1 ? `${clean[0]}...${clean[clean.length - 1]}` : clean;
+      return "Type answer";
+    }
+
+    function blankInputWidth(answer) {
+      const length = String(answer || "").length;
+      return Math.min(260, Math.max(118, length * 13 + 48));
+    }
+
+    function resultByBlankId() {
+      const result = practiceState?.lastResult;
+      if (!result?.mistakes) return new Map();
+      return new Map(result.mistakes.map(mistake => [mistake.blankId, mistake]));
+    }
+
+    function renderExerciseHeader(exercise, subtitle = "") {
+      return `
+        <div class="section-head">
+          <div class="exercise-title-block">
+            <span class="exercise-kicker">${escapeHtml(exercise.exam)} | ${escapeHtml(exercise.taskType)}</span>
+            <h2>${escapeHtml(exercise.title)}</h2>
+            ${subtitle ? `<p>${escapeHtml(subtitle)}</p>` : ""}
+          </div>
+          <div class="practice-actions">
+            ${practiceState ? `<button class="secondary-button" type="button" data-back-essay>Essay</button>` : ""}
+            <button class="secondary-button" type="button" data-back-dashboard>Writing Selection</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderEssayTabs() {
+      return `
+        <div class="essay-tabs" role="tablist" aria-label="Essay sections">
+          ${essayTabOrder.map(tab => `
+            <button class="essay-tab ${currentEssayTab === tab.key ? "active" : ""}" type="button" role="tab" data-essay-tab="${escapeHtml(tab.key)}">
+              ${escapeHtml(tab.label)}
+            </button>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    function renderStudyList(items) {
+      return `
+        <ul class="study-list">
+          ${items.map(item => `
+            <li class="study-item">
+              <strong>${escapeHtml(item.term)}</strong>
+              <span>${escapeHtml(item.note)}</span>
+            </li>
+          `).join("")}
+        </ul>
+      `;
+    }
+
+    function renderTabContent(exercise) {
+      if (currentEssayTab === "essay") {
+        return exercise.paragraphs.map(paragraph => `<p>${escapeHtml(plainParagraph(paragraph))}</p>`).join("");
+      }
+
+      if (currentEssayTab === "translation") {
+        return exercise.translation.map(paragraph => `<p class="translation-paragraph">${escapeHtml(paragraph)}</p>`).join("");
+      }
+
+      const items = exercise.studyTabs[currentEssayTab] || [];
+      return renderStudyList(items);
+    }
+
+    function renderResultHistory(exercise) {
+      const results = getSavedPracticeResults(exercise.id).slice(0, 8);
+      return `
+        <div class="result-history">
+          <h3>Saved Results</h3>
+          <div class="history-list">
+            ${results.length ? results.map(result => `
+              <div class="history-row">
+                <strong>${escapeHtml(exactDateTime(result.createdAt))} | Round ${escapeHtml(result.round)} | ${escapeHtml(result.modeLabel)}</strong>
+                <span>${escapeHtml(result.mistakes)} mistakes / ${escapeHtml(result.total)} questions | Mistake percentage: ${escapeHtml(result.mistakeRate)}% | ${result.completed ? "Completed" : "Needs review"}</span>
+              </div>
+            `).join("") : `<p class="note-text">No saved practice results yet.</p>`}
+          </div>
+        </div>
+      `;
+    }
+
+    function renderExerciseContent(exercise) {
+      return `
+        ${renderExerciseHeader(exercise)}
+        ${renderEssayTabs()}
+        <div class="practice-strip">
+          <div>
+            <strong>Practice system</strong>
+            <span class="note-text">This exercise has ${escapeHtml(exercise.questionCount)} fill-in questions.</span>
+          </div>
+          <button class="primary-button" type="button" data-open-practice>Practice</button>
+        </div>
+        <div class="essay-content">${renderTabContent(exercise)}</div>
+        ${renderResultHistory(exercise)}
+      `;
+    }
+
+    function renderModePage(exercise) {
+      const selectedParagraphs = normalizeSelectedParagraphs(exercise, practiceState?.selectedParagraphs);
+      const questionCount = getExerciseBlanks(exercise, { selectedParagraphs }).length;
+      return `
+        ${renderExerciseHeader(exercise, "Choose a practice mode and paragraph range. Unchecked paragraphs are hidden from this round.")}
+        <div class="mode-page">
+          <div class="mode-summary">
+            <div><span>${escapeHtml(questionCount)}</span><strong>Questions</strong></div>
+            <div><span>${escapeHtml(selectedParagraphs.length)}</span><strong>Paragraphs shown</strong></div>
+            <div><span>${escapeHtml(exercise.questionCount)}</span><strong>Full essay blanks</strong></div>
+          </div>
+
+          <div class="paragraph-selector">
+            <div class="paragraph-actions">
+              <button class="secondary-button" type="button" data-select-full-essay>Full essay</button>
+              <button class="secondary-button" type="button" data-toggle-paragraph-selector>Toggle system</button>
+            </div>
+            <div class="paragraph-checkboxes ${practiceState?.selectorOpen ? "" : "hidden"}">
+              ${exercise.paragraphs.map((paragraph, index) => `
+                <label class="paragraph-checkbox">
+                  <span>${escapeHtml(paragraph.label)}</span>
+                  <input type="checkbox" data-practice-paragraph="${index}" ${selectedParagraphs.includes(index) ? "checked" : ""}>
+                </label>
+              `).join("")}
+            </div>
+          </div>
+
+          <div class="practice-mode-grid">
+            <button class="mode-button" type="button" data-start-practice-mode="blank">
+              <strong>Totally blank</strong>
+              <span>Blank parts stay fully empty.</span>
+            </button>
+            <button class="mode-button" type="button" data-start-practice-mode="start">
+              <strong>Reveal starting letter</strong>
+              <span>Each blank shows the first letter.</span>
+            </button>
+            <button class="mode-button" type="button" data-start-practice-mode="end">
+              <strong>Reveal ending letter</strong>
+              <span>Each blank shows the final letter.</span>
+            </button>
+            <button class="mode-button" type="button" data-start-practice-mode="both">
+              <strong>Reveal both letters</strong>
+              <span>Each blank shows the first and final letter.</span>
+            </button>
+            <button class="mode-button" type="button" data-start-practice-mode="sentence">
+              <strong>Fill in sentence mode</strong>
+              <span>Practice sentence cards instead of the full article layout.</span>
+            </button>
+          </div>
+        </div>
+        ${renderResultHistory(exercise)}
+      `;
+    }
+
+    function renderPracticeInput(part, targetIds) {
+      if (!targetIds.has(part.id)) return escapeHtml(part.answer);
+
+      const mistakeMap = resultByBlankId();
+      const mistake = mistakeMap.get(part.id);
+      const value = practiceState?.answers?.[part.id] || "";
+      const disabled = practiceState?.submitted ? "disabled" : "";
+      const classes = ["inline-answer"];
+      if (mistake) classes.push(mistakeClass(mistake.type));
+      const resultLabel = mistake
+        ? `<span class="inline-result">${escapeHtml(mistake.label)} | ${escapeHtml(part.answer)}</span>`
+        : "";
+
+      return `<input class="${classes.join(" ")}" style="width:${blankInputWidth(part.answer)}px" type="text" data-answer-id="${escapeHtml(part.id)}" value="${escapeHtml(value)}" placeholder="${escapeHtml(answerHint(part.answer, practiceState?.mode))}" autocomplete="off" ${disabled}>${resultLabel}`;
+    }
+
+    function renderPracticeSentence(sentence, targetIds, heading = "") {
+      const sentenceHtml = sentence.parts.map(part => {
+        if (isBlankPart(part)) return renderPracticeInput(part, targetIds);
+        return escapeHtml(part);
+      }).join("");
+
+      return `
+        <div class="sentence-card">
+          ${heading ? `<strong>${escapeHtml(heading)}</strong>` : ""}
+          <p>${sentenceHtml}</p>
+        </div>
+      `;
+    }
+
+    function renderPracticeBody(exercise, targets) {
+      const targetIds = new Set(targets.map(target => target.id));
+      const selectedParagraphs = new Set(normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs));
+      const sentenceMode = practiceState.round > 1 || practiceState.mode === "sentence";
+
+      if (sentenceMode) {
+        const sentenceKeys = new Set(getPracticeSentenceKeys(exercise));
+        const cards = [];
+        exercise.paragraphs.forEach(paragraph => {
+          paragraph.sentences.forEach(sentence => {
+            if (!sentenceKeys.has(sentence.key)) return;
+            cards.push(renderPracticeSentence(sentence, targetIds, `${paragraph.label} | Sentence ${sentence.sentenceIndex + 1}`));
+          });
+        });
+        return `<div class="sentence-grid">${cards.join("")}</div>`;
+      }
+
+      return `
+        <div class="practice-text">
+          ${exercise.paragraphs.map((paragraph, paragraphIndex) => {
+            if (!selectedParagraphs.has(paragraphIndex)) return "";
+            const paragraphHtml = paragraph.sentences.map(sentence => sentence.parts.map(part => {
+              if (isBlankPart(part)) return renderPracticeInput(part, targetIds);
+              return escapeHtml(part);
+            }).join("")).join(" ");
+            return `<div class="practice-paragraph"><p>${paragraphHtml}</p></div>`;
+          }).join("")}
+        </div>
+      `;
+    }
+
+    function renderResultPanel(result) {
+      if (!result) return "";
+      return `
+        <div class="result-panel">
+          <div class="result-stats">
+            <div class="result-stat"><span>${escapeHtml(result.total)}</span><strong>Questions</strong></div>
+            <div class="result-stat"><span>${escapeHtml(result.correct)}</span><strong>Correct</strong></div>
+            <div class="result-stat"><span>${escapeHtml(result.mistakes.length)}</span><strong>Mistakes</strong></div>
+            <div class="result-stat"><span>${escapeHtml(result.mistakeRate)}%</span><strong>Mistake percentage</strong></div>
+          </div>
+          <div class="mistake-legend">
+            <span class="missing">Missing answer</span>
+            <span class="wrong">Wrong word</span>
+            <span class="spelling">Wrong spelling</span>
+            <span class="article">Missing article</span>
+            <span class="plural">Missing s for plural</span>
+          </div>
+          <div class="mistake-list">
+            ${result.mistakes.length ? result.mistakes.map(mistake => `
+              <div class="mistake-row">
+                <div><span class="mistake-chip ${escapeHtml(mistake.type)}">${escapeHtml(mistake.label)}</span></div>
+                <strong>Q${escapeHtml(mistake.number)} | ${escapeHtml(mistake.paragraphLabel)}</strong>
+                <span>Your answer: ${escapeHtml(mistake.userAnswer || "(blank)")}</span>
+                <span>Correct answer: ${escapeHtml(mistake.correctAnswer)}</span>
+                <span>Sentence: ${escapeHtml(mistake.sentenceText)}</span>
+              </div>
+            `).join("") : `<p class="note-text">All correct. This exercise is complete.</p>`}
+          </div>
+          <div class="review-actions">
+            ${result.mistakes.length ? `<button class="primary-button" type="button" data-next-practice-round>Start Round ${escapeHtml(practiceState.round + 1)}</button>` : ""}
+            <button class="secondary-button" type="button" data-restart-practice>Try Again</button>
+            <button class="secondary-button" type="button" data-back-essay>Back to Essay</button>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderPracticeRound(exercise) {
+      const targets = getPracticeTargets(exercise);
+      return `
+        ${renderExerciseHeader(exercise, practiceState.round > 1 ? "Only sentences containing previous mistakes are drawn for this round." : modeLabel(practiceState.mode))}
+        <form class="practice-card" data-practice-form>
+          <div class="practice-head">
+            <div>
+              <span class="practice-round-pill">Round ${escapeHtml(practiceState.round)} | ${escapeHtml(modeLabel(practiceState.mode))}</span>
+              <p class="note-text">${escapeHtml(targets.length)} questions in this round. Click each blank space and type your answer.</p>
+            </div>
+            <button class="secondary-button" type="button" data-back-practice-mode>Change Mode</button>
+          </div>
+          ${practiceState.submitted ? renderResultPanel(practiceState.lastResult) : ""}
+          ${renderPracticeBody(exercise, targets)}
+          ${practiceState.submitted ? "" : `<button class="primary-button" type="submit">Submit</button>`}
+        </form>
+        ${renderResultHistory(exercise)}
+      `;
+    }
+
+    function renderExerciseView() {
+      const panel = document.querySelector("[data-exercise-view]");
+      if (!panel) return;
+      const exercise = currentExercise();
+
+      if (!exercise) {
+        panel.innerHTML = `
+          <div class="section-head">
+            <div>
+              <h2>Coming Soon</h2>
+              <p>This writing section has not been added yet.</p>
+            </div>
+            <button class="secondary-button" type="button" data-back-dashboard>Writing Selection</button>
+          </div>
+        `;
+        return;
+      }
+
+      if (practiceState?.screen === "mode") {
+        panel.innerHTML = renderModePage(exercise);
+        return;
+      }
+
+      if (practiceState?.screen === "practice") {
+        panel.innerHTML = renderPracticeRound(exercise);
+        return;
+      }
+
+      panel.innerHTML = renderExerciseContent(exercise);
+    }
+
+    function showExercise(sectionKey) {
+      currentExerciseSectionKey = sectionKey;
+      currentEssayTab = "essay";
+      practiceState = null;
+      showAppPanel("exercise");
+    }
+
+    function startPracticeSetup() {
+      const exercise = currentExercise();
+      if (!exercise) return;
+      practiceState = defaultPracticeState(exercise);
+      renderExerciseView();
+    }
+
+    function startPracticeMode(mode) {
+      const exercise = currentExercise();
+      if (!exercise || !practiceState) return;
+      const selectedParagraphs = normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs);
+      const targets = getExerciseBlanks(exercise, { selectedParagraphs });
+      if (!targets.length) return;
+      practiceState = {
+        ...practiceState,
+        screen: "practice",
+        mode,
+        round: 1,
+        selectedParagraphs,
+        sentenceKeys: null,
+        answers: {},
+        submitted: false,
+        lastResult: null
+      };
+      renderExerciseView();
+    }
+
+    function submitPracticeRound() {
+      const exercise = currentExercise();
+      if (!exercise || !practiceState) return;
+      const targets = getPracticeTargets(exercise);
+      const answers = {};
+      document.querySelectorAll("[data-answer-id]").forEach(input => {
+        answers[input.getAttribute("data-answer-id")] = input.value;
+      });
+
+      const mistakes = [];
+      targets.forEach(target => {
+        const userAnswer = answers[target.id] || "";
+        const classification = classifyAnswer(userAnswer, target.answer);
+        if (!classification.ok) {
+          mistakes.push({
+            blankId: target.id,
+            number: target.number,
+            type: classification.type,
+            label: classification.label,
+            userAnswer,
+            correctAnswer: target.answer,
+            paragraphLabel: target.paragraphLabel,
+            sentenceKey: target.sentenceKey,
+            sentenceText: target.sentenceText
+          });
+        }
+      });
+
+      const result = {
+        id: `${exercise.id}-${Date.now()}-${practiceState.round}`,
+        exerciseId: exercise.id,
+        exerciseTitle: exercise.title,
+        studentName: currentUser?.name || "Guest",
+        round: practiceState.round,
+        mode: practiceState.mode,
+        modeLabel: modeLabel(practiceState.mode),
+        total: targets.length,
+        correct: Math.max(0, targets.length - mistakes.length),
+        mistakes,
+        mistakeRate: targets.length ? Math.round((mistakes.length / targets.length) * 100) : 0,
+        completed: mistakes.length === 0,
+        createdAt: Date.now()
+      };
+
+      savePracticeResult({
+        ...result,
+        mistakes: mistakes.length,
+        mistakeDetails: mistakes
+      });
+
+      practiceState = {
+        ...practiceState,
+        answers,
+        submitted: true,
+        lastResult: result
+      };
+      renderExerciseView();
+    }
+
+    function startNextPracticeRound() {
+      const exercise = currentExercise();
+      const mistakes = practiceState?.lastResult?.mistakes || [];
+      if (!exercise || !mistakes.length) return;
+      const sentenceKeys = [...new Set(mistakes.map(mistake => mistake.sentenceKey))];
+      practiceState = {
+        ...practiceState,
+        screen: "practice",
+        round: practiceState.round + 1,
+        mode: "sentence",
+        sentenceKeys,
+        answers: {},
+        submitted: false,
+        lastResult: null
+      };
+      renderExerciseView();
+    }
+
+    function updatePracticeParagraph(index, checked) {
+      const exercise = currentExercise();
+      if (!exercise || !practiceState) return;
+      const selected = new Set(normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs));
+      if (checked) selected.add(index);
+      else selected.delete(index);
+      if (!selected.size) selected.add(index);
+      practiceState.selectedParagraphs = [...selected].sort((a, b) => a - b);
+      renderExerciseView();
     }
 
     function updateSupabaseStatus(message, tone = "") {
@@ -1274,9 +2614,6 @@
       if (session.role === "admin") {
         adminPasswordForSession = localStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
       }
-      if (session.impersonatedByAdmin) {
-        adminPasswordForSession = localStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
-      }
       if (session.role === "student") {
         studentSessionToken = session.sessionToken || "";
       }
@@ -1294,9 +2631,9 @@
 
     function updateNavActions() {
       document.querySelector("[data-logout]")?.classList.toggle("hidden", !currentUser);
-      document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !(isAdmin() && currentView !== "admin-panel"));
+      document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
       document.querySelector("[data-return-admin]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
-      document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !(isAdmin() || currentUser?.impersonatedByAdmin));
+      document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !isAdmin());
     }
 
     function showLogin() {
@@ -1304,6 +2641,8 @@
       currentView = "login";
       studentSessionToken = "";
       selectedStudentName = "";
+      currentExerciseSectionKey = "";
+      practiceState = null;
       localStorage.removeItem(SESSION_KEY);
       localStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
       document.body.classList.remove("app-active", "admin-background-active", "dashboard-background-active");
@@ -1311,6 +2650,7 @@
       document.querySelector("[data-app-view]")?.classList.add("hidden");
       document.querySelector("[data-admin-panel]")?.classList.add("hidden");
       document.querySelector("[data-dashboard]")?.classList.add("hidden");
+      document.querySelector("[data-exercise-view]")?.classList.add("hidden");
       closeAdminSwitchModal();
       updateNavActions();
     }
@@ -1321,9 +2661,10 @@
       document.querySelector("[data-app-view]")?.classList.remove("hidden");
       document.querySelector("[data-admin-panel]")?.classList.toggle("hidden", view !== "admin-panel");
       document.querySelector("[data-dashboard]")?.classList.toggle("hidden", view !== "dashboard");
+      document.querySelector("[data-exercise-view]")?.classList.toggle("hidden", view !== "exercise");
       document.body.classList.add("app-active");
       document.body.classList.toggle("admin-background-active", view === "admin-panel");
-      document.body.classList.toggle("dashboard-background-active", view === "dashboard" && (isAdmin() || currentUser?.impersonatedByAdmin));
+      document.body.classList.toggle("dashboard-background-active", view === "dashboard" && currentUser?.impersonatedByAdmin);
       updateNavActions();
 
       if (view === "admin-panel") {
@@ -1331,6 +2672,7 @@
         renderStudentProfile();
       }
       if (view === "dashboard") renderDashboard();
+      if (view === "exercise") renderExerciseView();
     }
 
     async function login(username, password) {
@@ -1727,6 +3069,13 @@
         renderStudentProfile();
       });
 
+      document.addEventListener("submit", event => {
+        const practiceForm = event.target.closest("[data-practice-form]");
+        if (!practiceForm) return;
+        event.preventDefault();
+        submitPracticeRound();
+      });
+
       document.addEventListener("click", async event => {
         const togglePassword = event.target.closest("[data-toggle-password]");
         if (togglePassword) {
@@ -1740,6 +3089,86 @@
 
         if (event.target.closest("[data-open-dashboard]")) {
           showAppPanel("dashboard");
+        }
+
+        const writingSectionButton = event.target.closest("[data-writing-section]");
+        if (writingSectionButton) {
+          const sectionKey = writingSectionButton.getAttribute("data-writing-section");
+          if (writingSectionButton.getAttribute("aria-disabled") === "true" || !canAccess(sectionKey)) return;
+          showExercise(sectionKey);
+          return;
+        }
+
+        if (event.target.closest("[data-back-dashboard]")) {
+          currentExerciseSectionKey = "";
+          practiceState = null;
+          showAppPanel("dashboard");
+          return;
+        }
+
+        if (event.target.closest("[data-back-essay]")) {
+          practiceState = null;
+          currentEssayTab = "essay";
+          renderExerciseView();
+          return;
+        }
+
+        if (event.target.closest("[data-open-practice]")) {
+          startPracticeSetup();
+          return;
+        }
+
+        if (event.target.closest("[data-select-full-essay]")) {
+          const exercise = currentExercise();
+          if (exercise && practiceState) {
+            practiceState.selectedParagraphs = allParagraphIndexes(exercise);
+            renderExerciseView();
+          }
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-paragraph-selector]")) {
+          if (practiceState) {
+            practiceState.selectorOpen = !practiceState.selectorOpen;
+            renderExerciseView();
+          }
+          return;
+        }
+
+        const essayTabButton = event.target.closest("[data-essay-tab]");
+        if (essayTabButton) {
+          currentEssayTab = essayTabButton.getAttribute("data-essay-tab") || "essay";
+          renderExerciseView();
+          return;
+        }
+
+        const modeButton = event.target.closest("[data-start-practice-mode]");
+        if (modeButton) {
+          startPracticeMode(modeButton.getAttribute("data-start-practice-mode") || "blank");
+          return;
+        }
+
+        if (event.target.closest("[data-back-practice-mode]")) {
+          const exercise = currentExercise();
+          if (exercise && practiceState) {
+            practiceState = {
+              ...defaultPracticeState(exercise),
+              selectedParagraphs: normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs),
+              selectorOpen: practiceState.selectorOpen
+            };
+            renderExerciseView();
+          }
+          return;
+        }
+
+        if (event.target.closest("[data-next-practice-round]")) {
+          startNextPracticeRound();
+          return;
+        }
+
+        if (event.target.closest("[data-restart-practice]")) {
+          startPracticeSetup();
+          return;
         }
 
         if (event.target.closest("[data-admin-panel-shortcut]")) {
@@ -1811,10 +3240,16 @@
         if (accessToggle) {
           await saveAccessChange(accessToggle.getAttribute("data-toggle-access"), accessToggle.checked);
         }
+
+        const paragraphToggle = event.target.closest("[data-practice-paragraph]");
+        if (paragraphToggle) {
+          updatePracticeParagraph(Number(paragraphToggle.getAttribute("data-practice-paragraph")), paragraphToggle.checked);
+        }
       });
     }
 
     async function init() {
+      prepareWritingExercises();
       setupCustomCursor();
       setupEvents();
       const restored = restoreSession();
