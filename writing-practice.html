@@ -904,6 +904,94 @@
       font-weight: 800;
     }
 
+    .learning-blocks {
+      display: grid;
+      gap: 16px;
+    }
+
+    .learning-block {
+      --block-accent: #2f80ed;
+      --block-bg: rgba(239,246,255,0.78);
+      display: grid;
+      gap: 10px;
+      padding: clamp(16px, 2vw, 22px);
+      border: 1px solid rgba(47,128,237,0.14);
+      border-left: 8px solid var(--block-accent);
+      border-radius: 18px;
+      background: var(--block-bg);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.78);
+    }
+
+    .learning-block h3 {
+      margin: 0;
+      color: #0e2d55;
+      font-size: clamp(19px, 1.6vw, 26px);
+      line-height: 1.18;
+      font-weight: 950;
+    }
+
+    .learning-block h3 span {
+      display: block;
+      margin-top: 3px;
+      color: #46576d;
+      font-size: 0.68em;
+      line-height: 1.25;
+      font-weight: 850;
+    }
+
+    .learning-block pre {
+      margin: 0;
+      white-space: pre-wrap;
+      color: #172033;
+      font: inherit;
+      font-size: clamp(15px, 1.05vw, 18px);
+      line-height: 1.68;
+      font-weight: 760;
+    }
+
+    .tone-blue { --block-accent: #2563eb; --block-bg: rgba(239,246,255,0.88); }
+    .tone-green { --block-accent: #059669; --block-bg: rgba(236,253,245,0.88); }
+    .tone-orange { --block-accent: #ea580c; --block-bg: rgba(255,247,237,0.90); }
+    .tone-purple { --block-accent: #7c3aed; --block-bg: rgba(245,243,255,0.88); }
+    .tone-red { --block-accent: #dc2626; --block-bg: rgba(254,242,242,0.90); }
+    .tone-cyan { --block-accent: #0891b2; --block-bg: rgba(236,254,255,0.88); }
+    .tone-gold { --block-accent: #ca8a04; --block-bg: rgba(254,252,232,0.92); }
+
+    .synonym-guide {
+      display: grid;
+      gap: 12px;
+    }
+
+    .synonym-row {
+      display: grid;
+      grid-template-columns: minmax(64px, 0.28fr) minmax(150px, 0.75fr) minmax(220px, 1.5fr) minmax(180px, 1fr);
+      gap: 12px;
+      align-items: start;
+      padding: 14px;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 16px;
+      background: rgba(239,246,255,0.78);
+      color: #172033;
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 780;
+    }
+
+    .synonym-row.header {
+      background: #1559a8;
+      color: #fff;
+      font-weight: 950;
+    }
+
+    .synonym-row strong {
+      color: #0e2d55;
+      font-weight: 950;
+    }
+
+    .synonym-row.header strong {
+      color: #fff;
+    }
+
     .mode-page {
       display: grid;
       gap: 18px;
@@ -1257,6 +1345,7 @@
       .writing-grid,
       .access-grid,
       .study-list,
+      .synonym-row,
       .paragraph-checkboxes,
       .mode-summary,
       .result-stats {
@@ -1315,6 +1404,7 @@
       .writing-grid,
       .access-grid,
       .study-list,
+      .synonym-row,
       .paragraph-checkboxes,
       .mode-summary,
       .result-stats {
@@ -1496,11 +1586,12 @@
     const essayTabOrder = [
       { key: "essay", zh: "文章", en: "Essay" },
       { key: "translation", zh: "中文翻譯", en: "Translation" },
+      { key: "synonyms", zh: "同義詞", en: "Synonyms" },
       { key: "thematicVocabulary", zh: "主題詞彙", en: "Thematic vocabulary" },
       { key: "verbs", zh: "動詞", en: "Verbs" },
       { key: "modifiers", zh: "形容詞及副詞", en: "Adjectives and adverbs" },
       { key: "collocations", zh: "配搭詞", en: "Collocations" },
-      { key: "grammar", zh: "文法", en: "Grammar" },
+      { key: "grammar", zh: "語法與句式", en: "Grammar and Sentence Structures" },
       { key: "literaryDevices", zh: "修辭手法", en: "Literary devices" }
     ];
 
@@ -1741,6 +1832,1250 @@
       }
     };
 
+    const synonymAcceptanceGuide = [
+      { number: 1, original: "treated", strong: ["regarded", "viewed", "seen", "considered", "recognised", "accepted"], caution: ["understood"] },
+      { number: 2, original: "discipline", strong: ["order", "school discipline", "student discipline", "behaviour management", "control"], caution: ["rules", "strictness"] },
+      { number: 3, original: "pupils", strong: ["students", "children", "schoolchildren", "learners"], caution: ["kids", "young people"] },
+      { number: 4, original: "benefits", strong: ["advantages", "positive effects", "merits", "upsides", "strengths"], caution: ["good points"] },
+      { number: 5, original: "equality", strong: ["fairness", "equal treatment", "social equality", "equity"], caution: ["inclusion"] },
+      { number: 6, original: "identity", strong: ["spirit", "school spirit", "culture", "unity", "pride", "image"], caution: ["community", "belonging"] },
+      { number: 7, original: "self-expression", strong: ["personal expression", "individual expression", "individuality", "freedom of expression", "personal style", "personal choice"], caution: ["creativity", "self-identity"] },
+      { number: 8, original: "advantage", strong: ["benefit", "positive point", "strength", "merit", "upside"], caution: ["good point"] },
+      { number: 9, original: "visible", strong: ["noticeable", "obvious", "apparent", "clear", "outward", "external"], caution: ["marked"] },
+      { number: 10, original: "similar", strong: ["the same", "matching", "identical", "standardised", "standardized", "uniform"], caution: ["alike"] },
+      { number: 11, original: "embarrassed", strong: ["ashamed", "humiliated"], caution: ["uncomfortable", "self-conscious"] },
+      { number: 12, original: "display", strong: ["show", "show off", "flaunt", "exhibit", "advertise", "parade"], caution: ["wear"] },
+      { number: 13, original: "equal", strong: ["equitable", "fair", "inclusive", "egalitarian"], caution: ["balanced", "level"] },
+      { number: 14, original: "where", strong: ["in which"], caution: ["so that"] },
+      { number: 15, original: "belonging", strong: ["community", "inclusion", "connection", "unity", "togetherness", "membership"], caution: ["identity", "school spirit"] },
+      { number: 16, original: "shared", strong: ["common", "collective", "united", "close-knit"], caution: ["wider", "school"] },
+      { number: 17, original: "larger", strong: ["greater", "bigger", "wider", "broader"], caution: ["more important"] },
+      { number: 18, original: "disadvantages", strong: ["drawbacks", "downsides", "problems", "limitations", "weaknesses", "negative effects", "negative aspects"], caution: ["issues"] },
+      { number: 19, original: "individuality", strong: ["self-expression", "personal expression", "individual expression", "uniqueness", "personal freedom", "individual choice"], caution: ["creativity", "independence", "personality"] },
+      { number: 20, original: "personality", strong: ["identity", "character", "individuality", "personal style", "style", "self-image"], caution: ["creativity"] },
+      { number: 21, original: "controlled", strong: ["regulated", "restricted", "limited", "managed", "dictated", "prescribed", "governed"], caution: ["monitored", "enforced"] },
+      { number: 22, original: "rigid", strong: ["strict", "inflexible", "restrictive", "harsh", "authoritarian", "limiting"], caution: ["controlled", "oppressive"] },
+      { number: 23, original: "rather than", strong: ["instead of", "as opposed to"], caution: ["and not"] },
+      { number: 24, original: "drawback", strong: ["disadvantage", "downside", "problem", "issue", "concern", "limitation", "negative point"], caution: ["weakness"] },
+      { number: 25, original: "Although", strong: ["Even though", "Though", "While", "Despite the fact that", "In spite of the fact that"], caution: ["Whereas"] },
+      { number: 26, original: "suppliers", strong: ["providers", "vendors", "retailers", "shops", "stores", "companies", "sellers"], caution: ["manufacturers", "outlets"] },
+      { number: 27, original: "strain", strong: ["burden", "pressure", "stress", "load"], caution: ["hardship"] },
+      { number: 28, original: "budget", strong: ["finances", "resources", "income", "funds"], caution: ["spending", "expenses"] },
+      { number: 29, original: "promote", strong: ["encourage", "support", "foster", "advance", "strengthen", "build", "develop", "improve"], caution: ["create", "increase"] },
+      { number: 30, original: "personal", strong: ["individual", "private", "creative"], caution: ["self", "free"] },
+      { number: 31, original: "financial", strong: ["economic", "monetary", "budgetary", "money-related"], caution: ["family", "material"] },
+      { number: 32, original: "while", strong: ["whilst", "even while"], caution: ["although", "at the same time"] },
+      { number: 33, original: "drawbacks", strong: ["disadvantages", "downsides", "problems", "limitations", "weaknesses", "negative effects", "negative aspects", "issues"], caution: ["costs", "consequences"] }
+    ];
+
+    const modelEssay9LearningContent = {
+      translation: [
+        {
+          title: "Introduction（引言）",
+          tone: "blue",
+          text: `Background（背景）
+In many schools, uniforms are treated as a basic part of discipline, while others allow children to dress with far more freedom.
+在許多學校中，校服被視為紀律的基本部分，而另一些學校則容許學生在衣著上有更多自由。
+
+Thesis Statement and Stance（論點及立場）
+Requiring pupils to wear a uniform has several clear benefits, especially in relation to equality and school identity, but it can also create problems for self-expression and family finances.
+要求學生穿校服有幾個明顯好處，尤其是在平等和學校身份認同方面；但它也可能在自我表達和家庭財政方面帶來問題。`
+        },
+        {
+          title: "Body Paragraph 1（正文第一段）",
+          tone: "green",
+          text: `Topic Sentence（主題句）
+One major advantage is that a uniform reduces visible social differences among children.
+其中一個主要優點是，校服可以減少孩子之間外在可見的社會差異。
+
+Supporting Detail 1（支持細節一）
+If everyone wears similar clothes, pupils from poorer families are less likely to feel embarrassed by cheap or unfashionable outfits, and wealthier pupils have fewer chances to display expensive brands.
+如果每個人都穿著相似的衣服，來自較貧困家庭的學生便較不容易因為衣服便宜或不時尚而感到尷尬，而較富裕的學生也較少機會展示昂貴品牌。
+
+Logic Chain（邏輯鏈）
+This can make the classroom feel like a more equal place, where children are judged more by their behaviour and effort than by what they wear.
+這可以令課室感覺上更平等，孩子受到評價時，更多是基於他們的行為和努力，而不是他們穿甚麼。
+
+Supporting Detail 2（支持細節二）
+Uniforms can also strengthen a sense of belonging.
+校服也可以加強學生的歸屬感。
+
+Logic Chain（邏輯鏈）
+A child who puts on the same colours and badge as their classmates may feel that they are part of a shared community, much like a sports team whose kit quietly reminds its members that they represent something larger than themselves.
+一個孩子穿上與同學相同顏色和校徽的校服時，可能會感到自己是共同群體的一部分，就像一支運動隊伍的隊服，會默默提醒隊員他們代表著比個人更大的整體。
+
+Conclusion（段落總結）
+For these reasons, uniforms can promote equality and create a stronger collective identity within a school.
+基於這些原因，校服可以促進平等，並在學校內建立更強的集體身份認同。`
+        },
+        {
+          title: "Body Paragraph 2（正文第二段）",
+          tone: "orange",
+          text: `Topic Sentence（主題句）
+However, school uniforms also have disadvantages.
+然而，校服也有缺點。
+
+Supporting Detail 1（支持細節一）
+The most obvious one is that they limit individuality.
+最明顯的一點是，校服限制了個人特色。
+
+Logic Chain（邏輯鏈）
+Children, especially teenagers, often use clothing to explore their personality, confidence, and taste.
+孩子，尤其是青少年，往往會透過衣著探索自己的個性、自信和品味。
+
+Example（例子）
+If every detail is tightly controlled, school may start to feel unnecessarily rigid, and minor choices such as hairstyles, shoes, or accessories can become sources of conflict rather than learning.
+如果每一個細節都受到嚴格控制，學校便可能開始令人覺得不必要地僵化，而髮型、鞋子或飾物這些小選擇，也可能變成衝突來源，而不是學習的一部分。
+
+Supporting Detail 2（支持細節二）
+Another drawback is cost.
+另一個缺點是成本。
+
+Logic Chain（邏輯鏈）
+Although uniforms are meant to simplify clothing, they can be surprisingly expensive when schools require specific jackets, shoes, sportswear, or seasonal items from selected suppliers.
+雖然校服本意是簡化學生的衣著安排，但當學校要求學生購買特定外套、鞋子、運動服或指定供應商提供的季節性服裝時，校服的費用可能會出乎意料地高。
+
+Example（例子）
+For families with several children, these costs can place a real strain on the household budget.
+對於有幾個孩子的家庭來說，這些開支可能會對家庭預算造成實際壓力。
+
+Conclusion（段落總結）
+Therefore, uniforms may solve some social problems at school, but they can also create personal and financial difficulties for pupils and parents.
+因此，校服或許能解決學校中的一些社會問題，但也可能為學生和家長帶來個人及財政上的困難。`
+        },
+        {
+          title: "Conclusion（結論）",
+          tone: "purple",
+          text: `Reiterating Arguments（重申論點）
+In conclusion, school uniforms can promote equality, discipline, and a stronger school identity, but they may also restrict personal expression and create financial pressure.
+總結來說，校服可以促進平等、紀律和更強的學校身份認同，但它們也可能限制個人表達，並造成財政壓力。
+
+Final Summary（最終總結）
+Overall, they bring clear social benefits, while also creating practical and personal drawbacks.
+整體而言，校服帶來明顯的社會好處，但同時也會造成實際和個人層面的缺點。`
+        }
+      ],
+      thematicVocabulary: [
+        {
+          title: "School Rules / Discipline",
+          subtitle: "學校規則 / 紀律",
+          tone: "blue",
+          text: `uniforms = 校服
+Example: Many schools require students to wear uniforms.
+（很多學校要求學生穿校服。）
+
+be treated as a basic part of discipline = 被視為紀律的基本部分
+Example: In some schools, uniforms are treated as a basic part of discipline.
+（在一些學校，校服被視為紀律的基本部分。）
+
+pupils = 學生；小學生或中學生
+Example: Pupils are expected to follow school rules.
+（學生被期望遵守校規。）
+
+requiring pupils to wear a uniform = 要求學生穿校服
+Example: Requiring pupils to wear a uniform can make school rules clearer.
+（要求學生穿校服可以令校規更清晰。）
+
+tightly controlled = 被嚴格控制
+Example: If every detail is tightly controlled, students may feel frustrated.
+（如果每個細節都被嚴格控制，學生可能會感到沮喪。）
+
+sources of conflict = 衝突的來源
+Example: Small choices about shoes or hairstyles can become sources of conflict.
+（關於鞋子或髮型的小選擇可能會變成衝突的來源。）`
+        },
+        {
+          title: "Equality / Social Differences",
+          subtitle: "平等 / 社會差異",
+          tone: "green",
+          text: `equality = 平等
+Example: Uniforms can promote equality among students.
+（校服可以促進學生之間的平等。）
+
+visible social differences = 明顯可見的社會差異
+Example: Uniforms may reduce visible social differences in the classroom.
+（校服可能減少課室中明顯可見的社會差異。）
+
+poorer families = 較貧窮的家庭
+Example: Pupils from poorer families may feel less pressure to buy fashionable clothes.
+（來自較貧窮家庭的學生可能較少感到購買時髦衣服的壓力。）
+
+wealthier pupils = 較富裕的學生
+Example: Wealthier pupils have fewer chances to show expensive brands if everyone wears the same uniform.
+（如果每個人都穿同樣的校服，較富裕的學生就較少機會展示昂貴品牌。）
+
+cheap or unfashionable outfits = 便宜或不時髦的服裝
+Example: Some students may feel embarrassed by cheap or unfashionable outfits.
+（有些學生可能會因為便宜或不時髦的服裝而感到尷尬。）
+
+expensive brands = 昂貴品牌
+Example: Uniforms reduce the chance for students to display expensive brands.
+（校服減少了學生展示昂貴品牌的機會。）
+
+a more equal place = 一個更平等的地方
+Example: A classroom can feel like a more equal place when clothes matter less.
+（當衣著變得不那麼重要時，課室可以感覺像一個更平等的地方。）
+
+be judged by behaviour and effort = 根據行為和努力被評價
+Example: Students should be judged by behaviour and effort, not by what they wear.
+（學生應該根據行為和努力被評價，而不是根據他們穿甚麼。）`
+        },
+        {
+          title: "School Identity / Belonging",
+          subtitle: "學校身份認同 / 歸屬感",
+          tone: "cyan",
+          text: `school identity = 學校身份認同；學校形象
+Example: Uniforms can strengthen school identity.
+（校服可以加強學校身份認同。）
+
+a sense of belonging = 歸屬感
+Example: Wearing the same uniform may give students a sense of belonging.
+（穿同樣的校服可能會給學生一種歸屬感。）
+
+colours and badge = 顏色和徽章
+Example: The colours and badge of a uniform can represent the school.
+（校服的顏色和徽章可以代表學校。）
+
+classmates = 同班同學
+Example: Students may feel connected to their classmates through a shared uniform.
+（學生可能透過共同的校服感到與同班同學有聯繫。）
+
+shared community = 共同的群體；共享的社群
+Example: A uniform can remind students that they belong to a shared community.
+（校服可以提醒學生他們屬於一個共同的群體。）
+
+sports team = 運動隊
+Example: A school uniform can work like a sports team’s kit.
+（校服可以像運動隊的隊服一樣發揮作用。）
+
+represent something larger than themselves = 代表比自己更大的整體
+Example: Students may feel that they represent something larger than themselves.
+（學生可能會覺得自己代表著比個人更大的整體。）`
+        },
+        {
+          title: "Individuality / Self-Expression",
+          subtitle: "個性 / 自我表達",
+          tone: "purple",
+          text: `self-expression = 自我表達
+Example: Uniforms may create problems for self-expression.
+（校服可能會對自我表達造成問題。）
+
+individuality = 個性；個人特色
+Example: One disadvantage of uniforms is that they limit individuality.
+（校服的一個缺點是它們限制個性。）
+
+personality = 個性；性格
+Example: Teenagers often use clothing to explore their personality.
+（青少年常常用衣著來探索自己的個性。）
+
+confidence = 自信
+Example: Clothing can affect a teenager’s confidence.
+（衣著可以影響青少年的自信。）
+
+taste = 品味
+Example: Students may want to show their taste through clothes.
+（學生可能想透過衣服展示自己的品味。）
+
+hairstyles, shoes, or accessories = 髮型、鞋子或配飾
+Example: Small choices such as hairstyles, shoes, or accessories can express individuality.
+（髮型、鞋子或配飾等小選擇可以表達個性。）
+
+personal expression = 個人表達
+Example: Strict uniform rules may restrict personal expression.
+（嚴格的校服規則可能會限制個人表達。）`
+        },
+        {
+          title: "Cost / Family Finances",
+          subtitle: "費用 / 家庭財政",
+          tone: "orange",
+          text: `family finances = 家庭財政
+Example: Uniforms can create problems for family finances.
+（校服可能會對家庭財政造成問題。）
+
+cost = 費用；成本
+Example: Another drawback of school uniforms is cost.
+（校服的另一個缺點是費用。）
+
+specific jackets, shoes, sportswear, or seasonal items = 指定外套、鞋子、運動服或季節性物品
+Example: Some schools require specific jackets, shoes, sportswear, or seasonal items.
+（一些學校要求指定外套、鞋子、運動服或季節性物品。）
+
+selected suppliers = 指定供應商
+Example: Uniforms can be expensive when parents must buy them from selected suppliers.
+（如果家長必須從指定供應商購買校服，校服可能會很昂貴。）
+
+place a real strain on the household budget = 對家庭預算造成真正壓力
+Example: Uniform costs can place a real strain on the household budget.
+（校服費用可以對家庭預算造成真正壓力。）
+
+financial pressure = 財政壓力
+Example: School uniforms may create financial pressure for some families.
+（校服可能會為一些家庭帶來財政壓力。）`
+        },
+        {
+          title: "Argument / Essay Vocabulary",
+          subtitle: "議論文詞彙",
+          tone: "gold",
+          text: `benefits = 好處；益處
+Example: School uniforms have several clear benefits.
+（校服有幾個明顯的好處。）
+
+advantage = 優點
+Example: One major advantage is that uniforms reduce social differences.
+（一個主要優點是校服減少社會差異。）
+
+disadvantages = 缺點
+Example: However, school uniforms also have disadvantages.
+（然而，校服也有缺點。）
+
+drawback = 缺點；弊端
+Example: Another drawback is cost.
+（另一個缺點是費用。）
+
+social benefits = 社會好處
+Example: Uniforms bring clear social benefits.
+（校服帶來明顯的社會好處。）
+
+practical and personal drawbacks = 實際和個人方面的缺點
+Example: Uniforms can create practical and personal drawbacks.
+（校服可能造成實際和個人方面的缺點。）`
+        }
+      ],
+      verbs: [
+        {
+          title: "Verbs Overview",
+          subtitle: "動詞概覽",
+          tone: "green",
+          text: `are treated as
+allow children to dress
+requiring pupils to wear
+has several clear benefits
+can create problems
+reduces visible social differences
+wears similar clothes
+feel embarrassed
+display expensive brands
+make the classroom feel
+are judged by
+strengthen a sense of belonging
+puts on
+may feel
+are part of
+reminds
+represent
+have disadvantages
+limit individuality
+use clothing to explore
+is tightly controlled
+start to feel
+become sources of conflict
+are meant to simplify
+require specific items
+place a real strain on
+promote equality
+restrict personal expression
+create financial pressure
+bring clear social benefits`
+        },
+        {
+          title: "Verbs and Verb Phrases",
+          subtitle: "動詞和動詞短語",
+          tone: "blue",
+          text: `are treated as = 被視為；被當作
+Excerpt: uniforms are treated as a basic part of discipline
+（校服被視為紀律的基本部分。）
+
+allow children to dress = 允許孩子穿著
+Excerpt: others allow children to dress with far more freedom
+（其他學校允許孩子有更多穿衣自由。）
+
+requiring pupils to wear = 要求學生穿
+Excerpt: Requiring pupils to wear a uniform
+（要求學生穿校服。）
+
+has several clear benefits = 有幾個明顯好處
+Excerpt: has several clear benefits
+（有幾個明顯好處。）
+
+can create problems = 可能造成問題
+Excerpt: it can also create problems for self-expression and family finances
+（它也可能對自我表達和家庭財政造成問題。）
+
+reduces visible social differences = 減少明顯可見的社會差異
+Excerpt: a uniform reduces visible social differences
+（校服減少明顯可見的社會差異。）
+
+wears similar clothes = 穿相似的衣服
+Excerpt: If everyone wears similar clothes
+（如果每個人都穿相似的衣服。）
+
+feel embarrassed by = 因……感到尷尬
+Excerpt: feel embarrassed by cheap or unfashionable outfits
+（因便宜或不時髦的服裝感到尷尬。）
+
+display expensive brands = 展示昂貴品牌
+Excerpt: display expensive brands
+（展示昂貴品牌。）
+
+make the classroom feel like = 令課室感覺像
+Excerpt: This can make the classroom feel like a more equal place
+（這可以令課室感覺像一個更平等的地方。）
+
+are judged by = 根據……被評價
+Excerpt: children are judged more by their behaviour and effort
+（孩子更多是根據行為和努力被評價。）
+
+strengthen a sense of belonging = 加強歸屬感
+Excerpt: Uniforms can also strengthen a sense of belonging
+（校服也可以加強歸屬感。）
+
+puts on = 穿上
+Excerpt: A child who puts on the same colours and badge
+（一個穿上相同顏色和徽章的孩子。）
+
+may feel that = 可能會覺得
+Excerpt: may feel that they are part of a shared community
+（可能會覺得自己是共同群體的一部分。）
+
+are part of = 是……的一部分
+Excerpt: they are part of a shared community
+（他們是共同群體的一部分。）
+
+reminds its members = 提醒其成員
+Excerpt: whose kit quietly reminds its members
+（其隊服默默地提醒成員。）
+
+represent something larger than themselves = 代表比自己更大的整體
+Excerpt: they represent something larger than themselves
+（他們代表比自己更大的整體。）
+
+have disadvantages = 有缺點
+Excerpt: school uniforms also have disadvantages
+（校服也有缺點。）
+
+limit individuality = 限制個性
+Excerpt: they limit individuality
+（它們限制個性。）
+
+use clothing to explore = 用衣著去探索
+Excerpt: teenagers often use clothing to explore their personality
+（青少年經常用衣著去探索自己的個性。）
+
+is tightly controlled = 被嚴格控制
+Excerpt: every detail is tightly controlled
+（每個細節都被嚴格控制。）
+
+start to feel = 開始感覺
+Excerpt: school may start to feel unnecessarily rigid
+（學校可能開始令人覺得不必要地死板。）
+
+become sources of conflict = 變成衝突的來源
+Excerpt: minor choices can become sources of conflict
+（小選擇可能變成衝突的來源。）
+
+are meant to simplify = 原意是為了簡化
+Excerpt: uniforms are meant to simplify clothing
+（校服原意是為了簡化衣著。）
+
+can be surprisingly expensive = 可能出乎意料地昂貴
+Excerpt: they can be surprisingly expensive
+（它們可能出乎意料地昂貴。）
+
+require specific items = 要求指定物品
+Excerpt: schools require specific jackets, shoes, sportswear, or seasonal items
+（學校要求指定外套、鞋子、運動服或季節性物品。）
+
+place a real strain on = 對……造成真正壓力
+Excerpt: these costs can place a real strain on the household budget
+（這些費用可以對家庭預算造成真正壓力。）
+
+promote equality = 促進平等
+Excerpt: school uniforms can promote equality
+（校服可以促進平等。）
+
+restrict personal expression = 限制個人表達
+Excerpt: they may also restrict personal expression
+（它們也可能限制個人表達。）
+
+create financial pressure = 造成財政壓力
+Excerpt: create financial pressure
+（造成財政壓力。）
+
+bring clear social benefits = 帶來明顯的社會好處
+Excerpt: they bring clear social benefits
+（它們帶來明顯的社會好處。）`
+        }
+      ],
+      modifiers: [
+        {
+          title: "Adjectives and Adverbs Overview",
+          subtitle: "形容詞和副詞概覽",
+          tone: "purple",
+          text: `Adjectives 形容詞
+basic
+far more
+clear
+visible
+poorer
+cheap
+unfashionable
+wealthier
+expensive
+equal
+same
+shared
+larger
+obvious
+tightly controlled
+rigid
+minor
+specific
+seasonal
+selected
+real
+household
+stronger
+personal
+financial
+social
+practical
+
+Adverbs 副詞
+far
+especially
+more
+less
+also
+quietly
+tightly
+unnecessarily
+surprisingly
+overall`
+        },
+        {
+          title: "Adjectives and Adverbs",
+          subtitle: "形容詞和副詞",
+          tone: "cyan",
+          text: `basic = 基本的
+Example: Uniforms are treated as a basic part of discipline.
+（校服被視為紀律的基本部分。）
+
+far more = 多得多；更加
+Example: Some schools allow children to dress with far more freedom.
+（一些學校讓孩子有多得多的穿衣自由。）
+
+clear = 明顯的；清楚的
+Example: Uniforms have several clear benefits.
+（校服有幾個明顯的好處。）
+
+visible = 可見的；明顯的
+Example: Uniforms can reduce visible social differences.
+（校服可以減少可見的社會差異。）
+
+poorer = 較貧窮的
+Example: Pupils from poorer families may feel less embarrassed.
+（來自較貧窮家庭的學生可能會較少感到尷尬。）
+
+cheap = 便宜的
+Example: Some students may worry about wearing cheap clothes.
+（有些學生可能會擔心穿便宜的衣服。）
+
+unfashionable = 不時髦的；不流行的
+Example: Students may feel embarrassed by unfashionable outfits.
+（學生可能會因為不時髦的服裝而感到尷尬。）
+
+wealthier = 較富裕的
+Example: Wealthier pupils may have more chances to buy expensive brands.
+（較富裕的學生可能有更多機會購買昂貴品牌。）
+
+expensive = 昂貴的
+Example: Uniforms can prevent students from showing expensive brands.
+（校服可以防止學生展示昂貴品牌。）
+
+equal = 平等的
+Example: A classroom can feel like a more equal place.
+（課室可以感覺像一個更平等的地方。）
+
+same = 相同的
+Example: Students wear the same colours and badge.
+（學生穿著相同顏色和徽章的校服。）
+
+shared = 共同的；共享的
+Example: Uniforms can make students feel part of a shared community.
+（校服可以讓學生覺得自己是共同群體的一部分。）
+
+larger = 更大的
+Example: Students may feel that they represent something larger than themselves.
+（學生可能會覺得自己代表著比自己更大的整體。）
+
+obvious = 明顯的
+Example: The most obvious disadvantage is that uniforms limit individuality.
+（最明顯的缺點是校服限制個性。）
+
+tightly = 嚴格地；緊緊地
+Example: If every detail is tightly controlled, students may feel restricted.
+（如果每個細節都被嚴格控制，學生可能會感到受限制。）
+
+controlled = 受控制的
+Example: A tightly controlled dress code may feel too strict.
+（一套被嚴格控制的服裝規定可能會令人覺得太嚴格。）
+
+rigid = 僵硬的；死板的；嚴格得不靈活的
+Example: School may start to feel unnecessarily rigid.
+（學校可能開始令人覺得不必要地死板。）
+
+minor = 較小的；次要的
+Example: Minor choices can become sources of conflict.
+（小選擇可能會變成衝突的來源。）
+
+specific = 特定的；指定的
+Example: Some schools require specific jackets or shoes.
+（一些學校要求指定外套或鞋子。）
+
+seasonal = 季節性的
+Example: Seasonal items can make uniforms more expensive.
+（季節性物品可能令校服更昂貴。）
+
+selected = 指定的；被選定的
+Example: Parents may have to buy uniforms from selected suppliers.
+（家長可能要從指定供應商購買校服。）
+
+real = 真正的
+Example: Uniform costs can place a real strain on families.
+（校服費用可以對家庭造成真正壓力。）
+
+household = 家庭的
+Example: Uniforms can affect the household budget.
+（校服可能影響家庭預算。）
+
+stronger = 更強的
+Example: Uniforms may create a stronger school identity.
+（校服可能創造更強的學校身份認同。）
+
+personal = 個人的
+Example: Uniforms may restrict personal expression.
+（校服可能限制個人表達。）
+
+financial = 財政的；金錢上的
+Example: Uniforms can create financial pressure.
+（校服可能造成財政壓力。）
+
+social = 社會的
+Example: Uniforms can bring clear social benefits.
+（校服可以帶來明顯的社會好處。）
+
+practical = 實際的
+Example: Uniforms may create practical drawbacks for families.
+（校服可能為家庭帶來實際困難。）
+
+especially = 尤其；特別是
+Example: Uniforms have benefits, especially in relation to equality.
+（校服有好處，尤其是在平等方面。）
+
+less = 較少；不那麼
+Example: Pupils may be less likely to feel embarrassed.
+（學生可能較少感到尷尬。）
+
+also = 也；同時
+Example: Uniforms can also strengthen a sense of belonging.
+（校服也可以加強歸屬感。）
+
+quietly = 悄悄地；默默地
+Example: A sports team’s kit quietly reminds members that they belong to a group.
+（運動隊的隊服默默地提醒成員他們屬於一個團體。）
+
+unnecessarily = 不必要地
+Example: Strict rules may make school feel unnecessarily rigid.
+（嚴格規則可能令學校感覺不必要地死板。）
+
+surprisingly = 令人意外地
+Example: Uniforms can be surprisingly expensive.
+（校服可能出乎意料地昂貴。）
+
+overall = 總體而言
+Example: Overall, uniforms bring both benefits and drawbacks.
+（總體而言，校服既帶來好處，也帶來缺點。）`
+        }
+      ],
+      grammar: [
+        {
+          title: "Grammar and Sentence Structures",
+          subtitle: "語法與句式分析",
+          tone: "blue",
+          text: `V1 = base verb 原形動詞
+V3 = past participle 過去分詞
+V-ing = -ing form 動名詞 / 現在分詞
+
+Grammar involved 概覽
+被動句 Passive voice
+節錄：uniforms are treated as a basic part of discipline
+（校服被視為紀律的基本部分。）
+
+be treated as + noun phrase
+節錄：uniforms are treated as a basic part of discipline
+（校服被視為紀律的基本部分。）
+
+while + clause 表示對比
+節錄：while others allow children to dress with far more freedom
+（而其他學校則容許孩子有更多穿衣自由。）
+
+allow + object + to + V1
+節錄：allow children to dress with far more freedom
+（容許孩子有更多穿衣自由。）
+
+V-ing phrase as subject 動名詞片語作主語
+節錄：Requiring pupils to wear a uniform has several clear benefits
+（要求學生穿校服有幾個明顯好處。）
+
+especially in relation to + noun
+節錄：especially in relation to equality and school identity
+（尤其是在平等和學校身份認同方面。）
+
+can + V1 / may + V1 情態動詞
+節錄：it can also create problems
+（它也可能造成問題。）
+
+One major advantage is that + clause
+節錄：One major advantage is that a uniform reduces visible social differences
+（一個主要優點是校服減少可見的社會差異。）
+
+If + present simple, present simple / modal verb
+節錄：If everyone wears similar clothes, pupils from poorer families are less likely to feel embarrassed
+（如果每個人都穿相似的衣服，來自較貧窮家庭的學生較不容易感到尷尬。）
+
+less likely to + V1
+節錄：less likely to feel embarrassed
+（較不可能感到尷尬。）
+
+feel + adjective + by
+節錄：feel embarrassed by cheap or unfashionable outfits
+（因便宜或不時髦的衣服而感到尷尬。）
+
+have fewer chances to + V1
+節錄：have fewer chances to display expensive brands
+（較少機會展示昂貴品牌。）
+
+make + object + V1
+節錄：This can make the classroom feel like a more equal place
+（這可以令課室感覺像一個更平等的地方。）
+
+where relative clause 關係副詞 where
+節錄：a more equal place, where children are judged more by their behaviour and effort
+（一個更平等的地方，在那裡孩子更多是根據行為和努力被評價。）
+
+be judged by + noun
+節錄：children are judged more by their behaviour and effort than by what they wear
+（孩子更多是根據行為和努力被評價，而不是根據他們穿甚麼。）
+
+more by A than by B
+節錄：more by their behaviour and effort than by what they wear
+（更多是根據行為和努力，而不是根據他們穿甚麼。）
+
+who relative clause 關係代詞 who
+節錄：A child who puts on the same colours and badge
+（一個穿上相同顏色和徽章的孩子。）
+
+the same + noun + as
+節錄：the same colours and badge as their classmates
+（和同學一樣的顏色和徽章。）
+
+may feel that + clause
+節錄：may feel that they are part of a shared community
+（可能會覺得自己是共同群體的一部分。）
+
+much like + noun phrase 比喻 / 類比
+節錄：much like a sports team
+（很像一支運動隊。）
+
+whose + noun 關係代詞 whose
+節錄：a sports team whose kit quietly reminds its members
+（一支運動隊，其隊服默默提醒成員。）
+
+remind + object + that + clause
+節錄：reminds its members that they represent something larger than themselves
+（提醒成員他們代表著比自己更大的整體。）
+
+something + comparative adjective + than
+節錄：something larger than themselves
+（比自己更大的東西。）
+
+The most obvious one is that + clause
+節錄：The most obvious one is that they limit individuality
+（最明顯的一點是它們限制個性。）
+
+use + noun + to + V1
+節錄：use clothing to explore their personality
+（用衣著去探索自己的個性。）
+
+If + passive clause, subject + may start to + V1
+節錄：If every detail is tightly controlled, school may start to feel unnecessarily rigid
+（如果每個細節都被嚴格控制，學校可能開始令人覺得不必要地死板。）
+
+such as + list
+節錄：such as hairstyles, shoes, or accessories
+（例如髮型、鞋子或配飾。）
+
+rather than + noun / V-ing
+節錄：sources of conflict rather than learning
+（成為衝突的來源，而不是學習。）
+
+Although + clause, main clause
+節錄：Although uniforms are meant to simplify clothing, they can be surprisingly expensive
+（雖然校服原意是簡化衣著，但它們可能出乎意料地昂貴。）
+
+be meant to + V1
+節錄：uniforms are meant to simplify clothing
+（校服原意是為了簡化衣著。）
+
+when + clause
+節錄：when schools require specific jackets, shoes, sportswear, or seasonal items
+（當學校要求指定外套、鞋子、運動服或季節性物品時。）
+
+For + noun phrase, main clause
+節錄：For families with several children, these costs can place a real strain on the household budget
+（對於有幾個孩子的家庭來說，這些費用可能對家庭預算造成真正壓力。）
+
+parallel verbs 動詞排比
+節錄：restrict personal expression and create financial pressure
+（限制個人表達並造成財政壓力。）
+
+while also + V-ing
+節錄：while also creating practical and personal drawbacks
+（同時也造成實際和個人方面的缺點。）`
+        },
+        {
+          title: "Detailed Grammar Analysis",
+          subtitle: "詳細語法分析",
+          tone: "green",
+          text: `1. Passive voice 被動句
+Structure: be + V3
+Excerpt: uniforms are treated as a basic part of discipline
+Explanation: The passive voice is useful when the writer wants to focus on the thing being discussed, not the person doing the action.
+Student imitation: Mobile phones are seen as a distraction in many classrooms.
+
+2. be treated as + noun phrase 被視為……
+Structure: be treated as + noun / noun phrase
+Meaning: This structure means “people consider something to be something.”
+Student imitation: Homework is often treated as a necessary part of learning.
+
+3. while + clause 表示對比
+Structure: Clause A, while Clause B
+Function: while shows contrast between two different situations.
+Student imitation: Some parents support strict school rules, while others prefer more freedom.
+
+4. allow + object + to + V1 允許某人做某事
+Structure: allow + person/object + to + base verb
+Common mistake: Do not write “allow children dress”. Correct: allow children to dress.
+
+5. V-ing phrase as subject 動名詞片語作主語
+Structure: V-ing phrase + singular verb
+Explanation: The whole phrase “Requiring pupils to wear a uniform” acts like a noun, so the verb is singular: has.
+
+6. especially in relation to + noun 尤其是在……方面
+Function: This phrase narrows the focus and tells the reader exactly which aspects are being discussed.
+
+7. can / may + V1 情態動詞 + 原形動詞
+Function: can often suggests possibility or ability; may is slightly more formal or cautious.
+
+8. One major advantage is that + clause 一個主要優點是……
+Function: This is a useful topic sentence for an argumentative paragraph.
+
+9. If + present simple, present simple / modal 條件句
+Function: This structure explains a general result or possible result.
+
+10. less likely to + V1 較不可能……
+Opposite structure: more likely to + V1 更有可能……
+
+11. feel + adjective + by 因……感到……
+Note: Not all adjectives use by. For example: worried about, proud of, interested in, embarrassed by/about.
+
+12. have fewer chances to + V1 較少機會做某事
+Student imitation: Students have fewer chances to show off expensive clothes.
+
+13. make + object + V1 令某物 / 某人……
+After make + object, use the base verb: make students feel, make school seem, make rules appear.
+
+14. where relative clause where 引導的關係從句
+Structure: place + where + subject + verb
+Student imitation: A school should be a place where students feel safe and respected.
+
+15. be judged by + noun 根據……被評價
+Student imitation: Students should be judged by their effort, not by their background.
+
+16. more by A than by B 更多根據 A，而不是根據 B
+Function: This structure compares two standards or reasons.
+
+17. who relative clause who 引導的關係從句
+Structure: person + who + verb
+
+18. the same + noun + as 和……一樣的……
+Structure: the same + noun + as + noun/person
+
+19. may feel that + clause 可能會覺得……
+Student imitation: Students may feel that they belong to the school.
+
+20. much like + noun phrase 很像……
+Function: This introduces a comparison or analogy.
+
+21. whose + noun whose 表示所屬關係
+Function: whose means “belonging to that person/group/thing.”
+
+22. remind + object + that + clause 提醒某人……
+Student imitation: A school badge reminds students that they belong to a community.
+
+23. something + comparative adjective + than 比……更……的東西
+Student imitation: Education should prepare students for something bigger than exams.
+
+24. The most obvious one is that + clause 最明顯的一點是……
+Function: Useful after mentioning a general category such as disadvantages.
+
+25. use + noun + to + V1 用……去做……
+Student imitation: Students use fashion to express their identity.
+
+26. If + passive clause, subject + may start to + V1
+Structure: If + subject + be + V3, subject + may start to + V1
+
+27. start to feel + adjective 開始感覺……
+Student imitation: Strict rules may start to feel unfair.
+
+28. such as + list 例如……
+Structure: such as + noun 1, noun 2, or noun 3
+
+29. become sources of + noun 成為……的來源
+Student imitation: Strict rules can become sources of stress.
+
+30. rather than + noun / V-ing 而不是……
+Function: rather than shows contrast between what happens and what should happen.
+
+31. Another drawback is + noun 另一個缺點是……
+Student imitation: Another drawback is the lack of personal choice.
+
+32. Although + clause, main clause 雖然……但是……
+Common mistake: Do not write “Although uniforms are useful, but they are expensive.”
+
+33. be meant to + V1 原意是為了……
+Student imitation: School rules are meant to protect students.
+
+34. when + clause 當……時
+Student imitation: Uniforms become expensive when schools require special items.
+
+35. For + noun phrase, main clause 對於……來說，……
+Student imitation: For low-income families, uniform costs can be a serious problem.
+
+36. place a strain on + noun 對……造成壓力
+Student imitation: Extra school fees can place a strain on parents.
+
+37. can promote A, B, and C 可以促進 A、B 和 C
+Function: This is parallel noun listing.
+
+38. may also restrict A and create B 也可能限制 A 並造成 B
+Function: This is parallel verb structure.
+
+39. while also + V-ing 同時也……
+Function: Useful for balanced conclusions because it shows two things are true at the same time.`
+        }
+      ],
+      collocations: [
+        {
+          title: "Collocation Overview",
+          subtitle: "配搭詞概覽",
+          tone: "orange",
+          text: `School Rules / Uniform Policy 學校規則 / 校服政策
+Uniforms 配 Treat as = treat uniforms as / uniforms are treated as（把校服視為 / 校服被視為）
+Discipline 配 Basic part of = a basic part of discipline（紀律的基本部分）
+Children 配 Allow ... to dress = allow children to dress（容許孩子穿著）
+Freedom 配 Far more = far more freedom（多得多的自由）
+Pupils 配 Require ... to wear = require pupils to wear a uniform（要求學生穿校服）
+Uniform 配 Wear = wear a uniform（穿校服）
+Detail 配 Tightly controlled = every detail is tightly controlled（每個細節都被嚴格控制）
+School 配 Feel rigid = school may feel rigid（學校可能令人覺得死板）
+Rules / Choices 配 Sources of conflict = become sources of conflict（成為衝突的來源）
+
+Equality / Social Differences 平等 / 社會差異
+Benefits 配 Clear = clear benefits（明顯的好處）
+Equality 配 In relation to = in relation to equality（在平等方面）
+Differences 配 Visible social = visible social differences（明顯可見的社會差異）
+Families 配 Poorer = poorer families（較貧窮的家庭）
+Pupils 配 Wealthier = wealthier pupils（較富裕的學生）
+Clothes 配 Similar = similar clothes（相似的衣服）
+Outfits 配 Cheap / unfashionable = cheap or unfashionable outfits（便宜或不時髦的服裝）
+Brands 配 Expensive = expensive brands（昂貴品牌）
+Brands 配 Display = display expensive brands（展示昂貴品牌）
+Place 配 More equal = a more equal place（一個更平等的地方）
+Children 配 Be judged by = children are judged by their behaviour and effort（孩子根據行為和努力被評價）
+Behaviour / Effort 配 Judged by = judged by behaviour and effort（根據行為和努力被評價）
+
+School Identity / Belonging 學校身份認同 / 歸屬感
+Identity 配 School = school identity（學校身份認同；學校形象）
+Belonging 配 Sense of = a sense of belonging（歸屬感）
+Belonging 配 Strengthen = strengthen a sense of belonging（加強歸屬感）
+Colours / Badge 配 Same = the same colours and badge（相同的顏色和徽章）
+Classmates 配 Same as = the same ... as their classmates（和同學一樣的……）
+Community 配 Shared = a shared community（共同的群體；共享的社群）
+Community 配 Be part of = be part of a shared community（成為共同群體的一部分）
+Team 配 Sports = a sports team（一支運動隊）
+Kit 配 Remind members = a kit reminds its members（隊服提醒成員）
+Members 配 Represent = members represent something larger than themselves（成員代表比自己更大的整體）
+Something 配 Larger than themselves = something larger than themselves（比自己更大的東西 / 整體）
+
+Individuality / Self-Expression 個性 / 自我表達
+Expression 配 Self = self-expression（自我表達）
+Expression 配 Personal = personal expression（個人表達）
+Individuality 配 Limit = limit individuality（限制個性）
+Clothing 配 Use ... to explore = use clothing to explore personality（用衣著探索個性）
+Personality 配 Explore = explore personality（探索個性）
+Confidence / Taste 配 Explore = explore personality, confidence, and taste（探索個性、自信和品味）
+Choices 配 Minor = minor choices（小選擇；次要選擇）
+Hairstyles / Shoes / Accessories 配 Such as = such as hairstyles, shoes, or accessories（例如髮型、鞋子或配飾）
+Conflict 配 Rather than learning = conflict rather than learning（衝突而不是學習）
+
+Cost / Family Finances 費用 / 家庭財政
+Finances 配 Family = family finances（家庭財政）
+Drawback 配 Cost = Another drawback is cost（另一個缺點是費用）
+Clothing 配 Simplify = simplify clothing（簡化衣著）
+Uniforms 配 Be meant to simplify = uniforms are meant to simplify clothing（校服原意是為了簡化衣著）
+Uniforms 配 Surprisingly expensive = uniforms can be surprisingly expensive（校服可能出乎意料地昂貴）
+Jackets / Shoes / Sportswear 配 Specific = specific jackets, shoes, sportswear（指定外套、鞋子、運動服）
+Items 配 Seasonal = seasonal items（季節性物品）
+Suppliers 配 Selected = selected suppliers（指定供應商）
+Costs 配 Place a strain on = costs can place a real strain on the household budget（費用可能對家庭預算造成真正壓力）
+Strain 配 Real = a real strain（真正的壓力）
+Budget 配 Household = household budget（家庭預算）
+Pressure 配 Financial = financial pressure（財政壓力）
+Pressure 配 Create = create financial pressure（造成財政壓力）
+
+Argument / Essay Writing 議論文寫作
+Advantage 配 Major = one major advantage（一個主要優點）
+Benefits 配 Several clear = several clear benefits（幾個明顯好處）
+Disadvantages 配 Have = have disadvantages（有缺點）
+Drawback 配 Another = another drawback（另一個缺點）
+Equality 配 Promote = promote equality（促進平等）
+Expression 配 Restrict = restrict personal expression（限制個人表達）
+Benefits 配 Bring = bring clear social benefits（帶來明顯的社會好處）
+Benefits 配 Social = social benefits（社會好處）
+Drawbacks 配 Practical and personal = practical and personal drawbacks（實際和個人方面的缺點）
+Benefits 配 While also creating drawbacks = bring benefits, while also creating drawbacks（帶來好處，同時也造成缺點）`
+        },
+        {
+          title: "Detailed Collocation Analysis",
+          subtitle: "詳細配搭詞分析",
+          tone: "gold",
+          text: `1. Uniforms 配 Treat as
+Collocation: uniforms are treated as
+Meaning: 校服被視為……
+Excerpt: In many schools, uniforms are treated as a basic part of discipline.
+Student example: In some families, homework is treated as a daily responsibility.
+
+2. Discipline 配 Basic part of
+Collocation: a basic part of discipline
+Meaning: 紀律的基本部分
+Student example: Respect is a basic part of school discipline.
+
+3. Children 配 Allow ... to dress
+Collocation: allow children to dress
+Meaning: 容許孩子穿著
+Student example: Some schools allow students to dress casually on special days.
+
+4. Freedom 配 Far more
+Collocation: far more freedom
+Meaning: 多得多的自由
+Student example: Older students often want far more freedom in choosing their clothes.
+
+5. Pupils 配 Require ... to wear
+Collocation: require pupils to wear
+Meaning: 要求學生穿……
+Student example: Some schools require pupils to wear black shoes.
+
+6. Benefits 配 Clear
+Collocation: clear benefits
+Meaning: 明顯的好處
+Student example: Regular reading has clear benefits for language learning.
+
+7. Equality 配 In relation to
+Collocation: in relation to equality
+Meaning: 在平等方面
+Student example: This policy is important in relation to student safety.
+
+8. Identity 配 School
+Collocation: school identity
+Meaning: 學校身份認同；學校形象
+Student example: School identity can be strengthened through shared traditions.
+
+9. Problems 配 Create
+Collocation: create problems
+Meaning: 造成問題
+Student example: Too many rules can create problems for students.
+
+10. Differences 配 Visible social
+Collocation: visible social differences
+Meaning: 明顯可見的社會差異
+Student example: Expensive clothing can make visible social differences more obvious.
+
+11. Differences 配 Reduce
+Collocation: reduce social differences
+Meaning: 減少社會差異
+Student example: Shared school activities can reduce social differences.
+
+12. Clothes 配 Similar
+Collocation: similar clothes
+Meaning: 相似的衣服
+Student example: When students wear similar clothes, fashion becomes less important.
+
+13. Families 配 Poorer
+Collocation: poorer families
+Meaning: 較貧窮的家庭
+Student example: School costs can be difficult for poorer families.
+
+14. Pupils 配 Wealthier
+Collocation: wealthier pupils
+Meaning: 較富裕的學生
+Student example: Wealthier pupils may have access to more resources.
+
+15. Outfits 配 Cheap / Unfashionable
+Collocation: cheap or unfashionable outfits
+Meaning: 便宜或不時髦的服裝
+Student example: Teenagers may worry about cheap or unfashionable outfits.
+
+16. Embarrassed 配 Feel / By
+Collocation: feel embarrassed by
+Meaning: 因……感到尷尬
+Student example: Some students feel embarrassed by old uniforms.
+
+17. Brands 配 Expensive
+Collocation: expensive brands
+Meaning: 昂貴品牌
+Student example: Some students use expensive brands to show status.
+
+18. Brands 配 Display
+Collocation: display expensive brands
+Meaning: 展示昂貴品牌
+Student example: Uniforms reduce the chance to display expensive brands.
+
+19. Place 配 More equal
+Collocation: a more equal place
+Meaning: 一個更平等的地方
+Student example: A school should be a more equal place for all students.
+
+20. Behaviour / Effort 配 Judged by
+Collocation: judged by behaviour and effort
+Meaning: 根據行為和努力被評價
+Student example: Students should be judged by their effort, not by their clothes.
+
+21. Belonging 配 Sense of
+Collocation: a sense of belonging
+Meaning: 歸屬感
+Student example: School events can create a sense of belonging.
+
+22. Belonging 配 Strengthen
+Collocation: strengthen a sense of belonging
+Meaning: 加強歸屬感
+Student example: Team activities can strengthen a sense of belonging.
+
+23. Community 配 Shared
+Collocation: shared community
+Meaning: 共同的群體；共享的社群
+Student example: A uniform can make students feel part of a shared community.
+
+24. Community 配 Be part of
+Collocation: be part of a community
+Meaning: 是一個群體的一部分
+Student example: Students want to feel that they are part of a school community.
+
+25. Something 配 Larger than oneself
+Collocation: something larger than themselves
+Meaning: 比自己更大的整體
+Student example: A team shirt reminds players that they represent something larger than themselves.
+
+26. Individuality 配 Limit
+Collocation: limit individuality
+Meaning: 限制個性
+Student example: Strict rules may limit individuality.
+
+27. Clothing 配 Use ... to explore
+Collocation: use clothing to explore
+Meaning: 用衣著去探索……
+Student example: Young people use fashion to explore their identity.
+
+28. Personality 配 Explore
+Collocation: explore personality
+Meaning: 探索個性
+Student example: Teenagers often explore their personality through clothes.
+
+29. Detail 配 Tightly controlled
+Collocation: tightly controlled
+Meaning: 被嚴格控制
+Student example: If every choice is tightly controlled, students may feel restricted.
+
+30. School 配 Feel rigid
+Collocation: feel rigid
+Meaning: 感覺死板；感覺僵化
+Student example: Too many rules can make school feel rigid.
+
+31. Choices 配 Minor
+Collocation: minor choices
+Meaning: 小選擇；次要選擇
+Student example: Students often express themselves through minor choices.
+
+32. Conflict 配 Sources of
+Collocation: sources of conflict
+Meaning: 衝突的來源
+Student example: Strict uniform rules can become sources of conflict.
+
+33. Clothing 配 Simplify
+Collocation: simplify clothing
+Meaning: 簡化衣著
+Student example: Uniforms can simplify clothing choices in the morning.
+
+34. Uniforms 配 Surprisingly expensive
+Collocation: surprisingly expensive
+Meaning: 出乎意料地昂貴
+Student example: School uniforms can be surprisingly expensive for large families.
+
+35. Suppliers 配 Selected
+Collocation: selected suppliers
+Meaning: 指定供應商
+Student example: Parents may have to buy uniforms from selected suppliers.
+
+36. Costs 配 Place a strain on
+Collocation: place a strain on
+Meaning: 對……造成壓力
+Student example: Extra school fees can place a strain on families.
+
+37. Budget 配 Household
+Collocation: household budget
+Meaning: 家庭預算
+Student example: Uniform costs can affect the household budget.
+
+38. Equality 配 Promote
+Collocation: promote equality
+Meaning: 促進平等
+Student example: Fair school policies can promote equality.
+
+39. Expression 配 Restrict
+Collocation: restrict personal expression
+Meaning: 限制個人表達
+Student example: Strict dress codes may restrict personal expression.
+
+40. Pressure 配 Financial
+Collocation: financial pressure
+Meaning: 財政壓力
+Student example: Buying uniforms can create financial pressure for some families.
+
+41. Benefits 配 Social
+Collocation: social benefits
+Meaning: 社會好處
+Student example: Uniforms may bring social benefits by reducing comparison.
+
+42. Drawbacks 配 Practical and personal
+Collocation: practical and personal drawbacks
+Meaning: 實際和個人方面的缺點
+Student example: Every school policy can have practical and personal drawbacks.`
+        }
+      ]
+    };
+
+    writingExercises["ielts-writing"].learningContent = modelEssay9LearningContent;
+
     const supabaseClient = window.supabase?.createClient
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
       : null;
@@ -1824,6 +3159,11 @@
               part.sentenceIndex = sentenceIndex;
               part.sentenceKey = sentence.key;
               part.paragraphLabel = paragraph.label;
+              const synonymGuide = synonymAcceptanceGuide.find(row => row.number === blankNumber);
+              if (synonymGuide) {
+                part.strongSynonyms = synonymGuide.strong || [];
+                part.cautionSynonyms = synonymGuide.caution || [];
+              }
             });
           });
         });
@@ -2035,11 +3375,18 @@
       return distance <= (correct.length <= 6 ? 1 : 2);
     }
 
-    function classifyAnswer(userAnswer, correctAnswer) {
+    function isAcceptedSynonym(userAnswer, acceptedAnswers = []) {
+      const user = answerKey(userAnswer);
+      if (!user) return false;
+      return acceptedAnswers.some(answer => answerKey(answer) === user);
+    }
+
+    function classifyAnswer(userAnswer, correctAnswer, acceptedAnswers = []) {
       const user = normalizeAnswer(userAnswer);
       const correct = normalizeAnswer(correctAnswer);
       if (!user) return { ok: false, type: "missing", label: "未填答案" };
       if (user === correct || answerKey(user) === answerKey(correct)) return { ok: true, type: "correct", label: "正確" };
+      if (isAcceptedSynonym(userAnswer, acceptedAnswers)) return { ok: true, type: "synonym", label: "同義詞正確" };
       if (isMissingArticle(userAnswer, correctAnswer)) return { ok: false, type: "article", label: "遺漏冠詞" };
       if (isMissingPluralS(userAnswer, correctAnswer)) return { ok: false, type: "plural", label: "遺漏複數 s" };
       if (withoutLeadingArticle(userAnswer) === withoutLeadingArticle(correctAnswer) && normalizeAnswer(userAnswer) !== normalizeAnswer(correctAnswer)) {
@@ -2186,9 +3533,52 @@
       `;
     }
 
+    function renderLearningBlocks(blocks = []) {
+      return `
+        <div class="learning-blocks">
+          ${blocks.map(block => `
+            <section class="learning-block tone-${escapeHtml(block.tone || "blue")}">
+              <h3>${escapeHtml(block.title)}${block.subtitle ? `<span>${escapeHtml(block.subtitle)}</span>` : ""}</h3>
+              <pre>${escapeHtml(block.text || "")}</pre>
+            </section>
+          `).join("")}
+        </div>
+      `;
+    }
+
+    function renderSynonymGuide() {
+      return `
+        <div class="synonym-guide">
+          <div class="synonym-row header">
+            <strong>題號</strong>
+            <strong>原答案</strong>
+            <strong>可接受同義詞</strong>
+            <strong>謹慎接受</strong>
+          </div>
+          ${synonymAcceptanceGuide.map(row => `
+            <div class="synonym-row">
+              <strong>${escapeHtml(row.number)}</strong>
+              <strong>${escapeHtml(row.original)}</strong>
+              <span>${escapeHtml(row.strong.join(", "))}</span>
+              <span>${escapeHtml(row.caution.join(", "))}</span>
+            </div>
+          `).join("")}
+        </div>
+      `;
+    }
+
     function renderTabContent(exercise) {
       if (currentEssayTab === "essay") {
         return exercise.paragraphs.map(paragraph => `<p>${escapeHtml(plainParagraph(paragraph))}</p>`).join("");
+      }
+
+      if (currentEssayTab === "synonyms") {
+        return renderSynonymGuide();
+      }
+
+      const learningBlocks = exercise.learningContent?.[currentEssayTab];
+      if (learningBlocks) {
+        return renderLearningBlocks(learningBlocks);
       }
 
       if (currentEssayTab === "translation") {
@@ -2480,7 +3870,11 @@
       const mistakes = [];
       targets.forEach(target => {
         const userAnswer = answers[target.id] || "";
-        const classification = classifyAnswer(userAnswer, target.answer);
+        const acceptedAnswers = [
+          ...(target.strongSynonyms || []),
+          ...(target.cautionSynonyms || [])
+        ];
+        const classification = classifyAnswer(userAnswer, target.answer, acceptedAnswers);
         if (!classification.ok) {
           mistakes.push({
             blankId: target.id,
