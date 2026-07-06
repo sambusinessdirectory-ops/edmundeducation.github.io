@@ -52,10 +52,6 @@
       background: url("assets/writing-practice/control-panel.jpg") center center / cover no-repeat fixed;
     }
 
-    body.dashboard-background-active {
-      background: url("assets/writing-practice/front-page.jpg") center center / cover no-repeat fixed;
-    }
-
     .custom-cursor {
       position: fixed;
       top: 0;
@@ -2659,7 +2655,7 @@
       document.querySelector("[data-exercise-view]")?.classList.toggle("hidden", view !== "exercise");
       document.body.classList.add("app-active");
       document.body.classList.toggle("admin-background-active", view === "admin-panel");
-      document.body.classList.toggle("dashboard-background-active", view === "dashboard" && currentUser?.impersonatedByAdmin);
+      document.body.classList.remove("dashboard-background-active");
       updateNavActions();
 
       if (view === "admin-panel") {
