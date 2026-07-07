@@ -1788,7 +1788,7 @@
       { key: "modifiers", zh: "形容詞及副詞", en: "Adjectives and adverbs" },
       { key: "collocations", zh: "配搭詞", en: "Collocations" },
       { key: "grammar", zh: "語法與句式", en: "Grammar and Sentence Structures" },
-      { key: "literaryDevices", zh: "Literary / Rhetorical Devices Analysis", en: "文學及修辭手法分析" }
+      { key: "literaryDevices", zh: "文學及修辭手法分析", en: "Literary / Rhetorical Devices Analysis" }
     ];
 
     const writingExercises = {
@@ -4690,10 +4690,73 @@ Device: concession 讓步
       background: transparent;
       box-shadow: none;
     }
+    .essay-content p,
+    .translation-paragraph {
+      margin: 0 0 8px !important;
+      padding: 10px 12px !important;
+      border: 1px solid #d8e6f8 !important;
+      border-radius: 12px !important;
+      background: #ffffff !important;
+      color: #172033 !important;
+      font-size: 13px !important;
+      line-height: 1.46 !important;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
     .learning-blocks {
       display: block !important;
       max-width: none;
       margin: 0;
+    }
+    .study-list,
+    .synonym-guide {
+      display: block !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      list-style: none !important;
+    }
+    .study-item,
+    .synonym-row {
+      display: block !important;
+      margin: 0 0 8px !important;
+      padding: 10px 12px !important;
+      border: 1px solid #d8e6f8 !important;
+      border-radius: 12px !important;
+      background: #ffffff !important;
+      color: #172033 !important;
+      box-shadow: none !important;
+    }
+    .synonym-row {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .synonym-row.header {
+      display: none !important;
+    }
+    .synonym-row strong,
+    .synonym-row span {
+      display: block !important;
+      margin: 0 0 4px !important;
+      color: #172033 !important;
+      font-size: 12px !important;
+      line-height: 1.32 !important;
+    }
+    .synonym-row strong:first-child::before {
+      content: "No. ";
+      color: #64748b;
+    }
+    .study-item strong {
+      display: block !important;
+      margin-bottom: 4px !important;
+      color: #0e2d55 !important;
+      font-size: 14px !important;
+      line-height: 1.25 !important;
+    }
+    .study-item span {
+      display: block !important;
+      color: #40506a !important;
+      font-size: 12px !important;
+      line-height: 1.38 !important;
     }
     .learning-unit,
     .synonym-row {
@@ -4708,6 +4771,7 @@ Device: concession 讓步
       border: 1px solid #cfe0ff !important;
       border-left: 6px solid #2563eb !important;
       box-shadow: none !important;
+      margin-bottom: 10px !important;
     }
     .learning-block h3 {
       break-after: avoid;
@@ -4715,6 +4779,11 @@ Device: concession 讓步
       padding: 12px 16px 10px 20px !important;
       background: #f4f8ff !important;
       border-bottom: 1px solid #d8e6f8 !important;
+    }
+    .learning-block h3 span {
+      margin-top: 2px !important;
+      color: #46576d !important;
+      font-size: 0.66em !important;
     }
     .learning-block-content {
       display: block !important;
@@ -4742,6 +4811,9 @@ Device: concession 讓步
       font-size: 16px !important;
       line-height: 1.28 !important;
     }
+    .learning-line.chinese {
+      border-left: 2px solid #bfdbfe !important;
+    }
     .learning-line.example,
     .learning-line.excerpt,
     .learning-line.meta {
@@ -4755,6 +4827,31 @@ Device: concession 讓步
     .learning-highlight {
       background: #fee2e2 !important;
       color: #dc2626 !important;
+    }
+    .grammar-pattern {
+      background: #dcfce7 !important;
+      color: #047857 !important;
+    }
+    .grammar-meaning {
+      color: #0e2d55 !important;
+    }
+    .verb-form-label,
+    .verb-form-example {
+      background: #fee2e2 !important;
+      color: #dc2626 !important;
+    }
+    .learning-chip-grid {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      gap: 5px !important;
+    }
+    .learning-chip {
+      display: inline-flex !important;
+      margin: 0 !important;
+      padding: 4px 8px !important;
+      font-size: 11px !important;
+      line-height: 1.15 !important;
+      box-shadow: none !important;
     }
     .learning-chip-link,
     .term-link {
