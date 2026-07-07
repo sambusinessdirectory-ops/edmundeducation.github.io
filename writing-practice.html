@@ -1009,6 +1009,38 @@
       font-weight: 760;
     }
 
+    .learning-line.logic-step {
+      display: grid;
+      grid-template-columns: 28px minmax(0, 1fr);
+      gap: 8px;
+      align-items: start;
+      border-radius: 12px;
+      padding: 8px 10px;
+      background: rgba(255,255,255,0.62);
+      color: #17385f;
+      font-weight: 830;
+    }
+
+    .learning-line.logic-step.chinese-step {
+      background: color-mix(in srgb, var(--block-accent) 7%, white);
+      color: #40506a;
+      font-size: clamp(14px, 0.96vw, 16px);
+      font-weight: 760;
+    }
+
+    .logic-arrow {
+      display: inline-flex;
+      width: 24px;
+      height: 24px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--block-accent) 14%, white);
+      color: color-mix(in srgb, var(--block-accent) 82%, #0e2d55);
+      font-weight: 950;
+      line-height: 1;
+    }
+
     .learning-line.example,
     .learning-line.excerpt,
     .learning-line.meta {
@@ -1788,6 +1820,7 @@
       { key: "modifiers", zh: "形容詞及副詞", en: "Adjectives and adverbs" },
       { key: "collocations", zh: "配搭詞", en: "Collocations" },
       { key: "grammar", zh: "語法與句式", en: "Grammar and Sentence Structures" },
+      { key: "logicalReasoning", zh: "邏輯推理", en: "Logical Reasoning" },
       { key: "literaryDevices", zh: "文學及修辭手法分析", en: "Literary / Rhetorical Devices Analysis" }
     ];
 
@@ -2859,6 +2892,102 @@ Grammar involved 概覽
 39. while also + V-ing 同時也……
 節錄：while also creating practical and personal drawbacks
 （同時也造成實際和個人方面的缺點。）`
+        }
+      ],
+      logicalReasoning: [
+        {
+          title: "引言",
+          subtitle: "Introduction",
+          tone: "blue",
+          text: `推理路線
+
+Some schools see uniforms as discipline
+有些學校把校服視為紀律
+→ other schools allow more clothing freedom
+→ 另一些學校給學生更多穿衣自由
+→ so the essay discusses both benefits and problems
+→ 所以文章討論校服的好處和壞處
+
+核心概念 = discipline, freedom, benefits, equality, school identity, self-expression, family finances
+中文提示 = 紀律、自由、好處、平等、學校身份認同、自我表達、家庭財政`
+        },
+        {
+          title: "正文第一段：好處",
+          subtitle: "Body Paragraph 1: Benefits",
+          tone: "green",
+          text: `邏輯鏈一：平等
+
+Everyone wears similar clothes
+每個人穿相似衣服
+→ rich and poor students look less different
+→ 貧富學生看起來差異較少
+→ poorer students feel less embarrassed
+→ 較貧窮學生較少感到尷尬
+→ wealthier students cannot easily show expensive brands
+→ 較富裕學生較難展示昂貴品牌
+→ students are judged more by behaviour and effort
+→ 學生更多根據行為和努力被評價
+→ the classroom feels more equal
+→ 課室感覺更平等
+
+使用例子 = similar clothes, poorer families, cheap outfits, wealthier pupils, expensive brands, behaviour and effort`
+        },
+        {
+          title: "邏輯鏈二：歸屬感",
+          subtitle: "Belonging",
+          tone: "cyan",
+          text: `Students wear the same colours and badge
+學生穿上相同顏色和徽章
+→ they feel connected to classmates
+→ 他們感到與同學有連繫
+→ they feel part of a shared community
+→ 他們覺得自己屬於共同群體
+→ like a sports team wearing the same kit
+→ 就像運動隊穿同一隊服
+→ school identity becomes stronger
+→ 學校身份認同變得更強
+
+使用例子 = same colours and badge, classmates, shared community, sports team, kit`
+        },
+        {
+          title: "正文第二段：缺點",
+          subtitle: "Body Paragraph 2: Disadvantages",
+          tone: "orange",
+          text: `邏輯鏈一：個性
+
+Teenagers use clothing to express themselves
+青少年用衣著表達自己
+→ uniforms reduce personal choice
+→ 校服減少個人選擇
+→ students have fewer ways to show personality, confidence, and taste
+→ 學生較少方式展示個性、自信和品味
+→ strict rules can make school feel rigid
+→ 嚴格規則令學校感覺死板
+→ small things like shoes or hairstyles become conflicts
+→ 鞋子、髮型等小事變成衝突
+→ uniforms may limit individuality
+→ 校服可能限制個性
+
+使用例子 = personality, confidence, taste, tightly controlled, rigid, hairstyles, shoes, accessories`
+        },
+        {
+          title: "邏輯鏈二：費用",
+          subtitle: "Cost",
+          tone: "red",
+          text: `Uniforms are supposed to simplify clothing
+校服原意是簡化衣著
+→ but schools may require specific items
+→ 但學校可能要求指定物品
+→ parents may need to buy from selected suppliers
+→ 家長可能要向指定供應商購買
+→ uniforms become expensive
+→ 校服變得昂貴
+→ families with several children pay more
+→ 有幾個孩子的家庭要付更多
+→ this creates pressure on the household budget
+→ 這對家庭預算造成壓力
+
+使用例子 = jackets, shoes, sportswear, seasonal items, selected suppliers, household budget`
         }
       ],
       collocations: [
@@ -4171,7 +4300,9 @@ Device: concession 讓步
     function learningLineKind(line) {
       const text = line.trim();
       if (!text) return "empty";
+      if (/^→\s*/.test(text)) return "logic-step";
       if (/^\d+\.\s+/.test(text)) return "numbered";
+      if (/^(推理路線|核心概念|使用例子|邏輯鏈[一二三四]：)/.test(text)) return "label";
       if (/^(Background|Thesis Statement|Topic Sentence|Supporting Detail|Logic Chain|Conclusion|Reiterating Arguments|Final Summary|Adjectives|Adverbs|Grammar involved|School Rules|Equality|School Identity|Individuality|Cost|Argument|Collocation Overview|Detailed Collocation Analysis)\b/i.test(text)) return "label";
       if (/^Example:/i.test(text)) return "example";
       if (/^Excerpt:/i.test(text) || /^節錄：/.test(text)) return "excerpt";
@@ -4229,6 +4360,17 @@ Device: concession 讓步
 
       if (context.tabKey === "grammar" && kind === "numbered") {
         return `<div class="learning-line numbered">${grammarHeadingHtml(text)}</div>`;
+      }
+
+      if (kind === "logic-step") {
+        const stepText = text.replace(/^→\s*/, "");
+        const chineseStep = /[\u3400-\u9FFF]/.test(stepText) && !/[A-Za-z]{3,}/.test(stepText);
+        return `
+          <div class="learning-line logic-step${chineseStep ? " chinese-step" : ""}">
+            <span class="logic-arrow">→</span>
+            <span>${escapeHtml(stepText)}</span>
+          </div>
+        `;
       }
 
       const shouldHighlight = kind === "example" || kind === "excerpt" || (context.tabKey === "literaryDevices" && kind === "english");
@@ -4813,6 +4955,28 @@ Device: concession 讓步
     }
     .learning-line.chinese {
       border-left: 2px solid #bfdbfe !important;
+    }
+    .learning-line.logic-step {
+      display: grid !important;
+      grid-template-columns: 20px minmax(0, 1fr) !important;
+      gap: 6px !important;
+      padding: 6px 8px !important;
+      background: #ffffff !important;
+      border: 1px solid #e5eefb !important;
+      border-radius: 9px !important;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .learning-line.logic-step.chinese-step {
+      background: #f8fbff !important;
+      color: #40506a !important;
+    }
+    .logic-arrow {
+      width: 18px !important;
+      height: 18px !important;
+      background: #eef5ff !important;
+      color: #1559a8 !important;
+      font-size: 11px !important;
     }
     .learning-line.example,
     .learning-line.excerpt,
