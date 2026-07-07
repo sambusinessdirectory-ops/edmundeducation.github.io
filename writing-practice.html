@@ -1028,6 +1028,36 @@
       font-weight: 950;
     }
 
+    .grammar-pattern {
+      display: inline-block;
+      width: fit-content;
+      max-width: 100%;
+      margin-bottom: 5px;
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: rgba(220,252,231,0.90);
+      color: #047857;
+      line-height: 1.22;
+      font-weight: 950;
+    }
+
+    .grammar-meaning {
+      display: block;
+      color: #0e2d55;
+      line-height: 1.26;
+      font-size: 0.95em;
+      font-weight: 900;
+    }
+
+    .verb-form-label,
+    .verb-form-example {
+      border-radius: 6px;
+      padding: 0 3px;
+      background: rgba(254,226,226,0.78);
+      color: #dc2626;
+      font-weight: 950;
+    }
+
     .learning-line.term {
       display: flex;
       flex-wrap: wrap;
@@ -4159,10 +4189,33 @@ Device: concession 讓步
       return `<a class="term-key term-link" href="#${escapeHtml(target)}">${label}</a>`;
     }
 
+    function verbFormHtml(text) {
+      return escapeHtml(text)
+        .replace(/\b(base verb|past tense|past participle|-ing form)\b/g, '<span class="verb-form-label">$1</span>')
+        .replace(/\b(Do|Did|Done|Doing)\b/g, '<span class="verb-form-example">$1</span>');
+    }
+
+    function grammarHeadingHtml(text) {
+      const match = text.match(/^(\d+\.\s+)(.+?)(?:\s+([\u3400-\u9fff].*))?$/);
+      if (!match) return escapeHtml(text);
+      const [, numberPrefix, englishPattern, chineseMeaning = ""] = match;
+      return `${escapeHtml(numberPrefix)}<span class="grammar-pattern">${escapeHtml(englishPattern.trim())}</span>${chineseMeaning ? `<span class="grammar-meaning">${escapeHtml(chineseMeaning.trim())}</span>` : ""}`;
+    }
+
     function renderLearningLine(line, context = {}) {
       const kind = learningLineKind(line);
       const text = stripLearningPrefix(line);
       if (!text) return "";
+
+      if (context.tabKey === "grammar" && kind === "term" && /^[Vv][\w-]*$/.test(text.split(/\s=\s/)[0].trim())) {
+        const [key, ...meaningParts] = text.split(/\s=\s/);
+        return `
+          <div class="learning-line term">
+            <span class="term-key">${escapeHtml(key)}</span>
+            <span class="term-meaning">= ${verbFormHtml(meaningParts.join(" = "))}</span>
+          </div>
+        `;
+      }
 
       if (kind === "term") {
         const [key, ...meaningParts] = text.split(/\s=\s/);
@@ -4172,6 +4225,10 @@ Device: concession 讓步
             <span class="term-meaning">= ${escapeHtml(meaningParts.join(" = "))}</span>
           </div>
         `;
+      }
+
+      if (context.tabKey === "grammar" && kind === "numbered") {
+        return `<div class="learning-line numbered">${grammarHeadingHtml(text)}</div>`;
       }
 
       const shouldHighlight = kind === "example" || kind === "excerpt" || (context.tabKey === "literaryDevices" && kind === "english");
@@ -4204,7 +4261,7 @@ Device: concession 讓步
         `;
       }
 
-      const compact = visibleLines.length <= 3 && (firstKind === "term" || firstKind === "numbered") ? " compact" : "";
+      const compact = visibleLines.length <= 3 && (firstKind === "term" || (firstKind === "numbered" && context.tabKey !== "grammar")) ? " compact" : "";
       const key = learningAnchorKey(visibleLines[0]);
       const shouldAnchor = context.blockIndex > 0 && key;
       const id = shouldAnchor ? ` id="${escapeHtml(learningAnchorId(context.tabKey || currentEssayTab, key))}"` : "";
@@ -4578,7 +4635,7 @@ Device: concession 讓步
   <title>${escapeHtml(title)}</title>
   <style>
     ${styleText}
-    @page { size: A4; margin: 13mm 11mm; }
+    @page { size: A4; margin: 10mm 9mm; }
     * { box-sizing: border-box; }
     body {
       margin: 0;
@@ -4591,11 +4648,13 @@ Device: concession 讓步
     .pdf-shell {
       width: min(100%, 1040px);
       margin: 0 auto;
-      padding: 24px;
+      padding: 18px;
     }
     .pdf-header {
-      margin-bottom: 18px;
-      padding: 18px 20px;
+      break-after: avoid;
+      page-break-after: avoid;
+      margin-bottom: 12px;
+      padding: 14px 16px;
       border: 1px solid rgba(47,128,237,0.16);
       border-radius: 18px;
       background: rgba(255,255,255,0.82);
@@ -4615,7 +4674,7 @@ Device: concession 讓步
     .pdf-header h1 {
       margin: 0 0 6px;
       color: #0e2d55;
-      font-size: 30px;
+      font-size: 24px;
       line-height: 1.15;
     }
     .pdf-header p {
@@ -4632,6 +4691,7 @@ Device: concession 讓步
       box-shadow: none;
     }
     .learning-blocks {
+      display: block !important;
       max-width: none;
       margin: 0;
     }
@@ -4641,6 +4701,7 @@ Device: concession 讓步
       page-break-inside: avoid;
     }
     .learning-block {
+      display: block !important;
       break-inside: auto;
       page-break-inside: auto;
       background: #f8fbff !important;
@@ -4649,16 +4710,37 @@ Device: concession 讓步
       box-shadow: none !important;
     }
     .learning-block h3 {
+      break-after: avoid;
+      page-break-after: avoid;
+      padding: 12px 16px 10px 20px !important;
       background: #f4f8ff !important;
       border-bottom: 1px solid #d8e6f8 !important;
     }
     .learning-block-content {
+      display: block !important;
+      padding: 12px 14px 14px 18px !important;
       background: #f8fbff !important;
     }
     .learning-unit {
+      display: block !important;
+      margin: 0 0 8px !important;
+      padding: 10px 12px !important;
       background: #ffffff !important;
       border: 1px solid #d8e6f8 !important;
       box-shadow: none !important;
+      orphans: 3;
+      widows: 3;
+    }
+    .learning-unit.compact {
+      display: block !important;
+    }
+    .learning-line {
+      font-size: 13px !important;
+      line-height: 1.42 !important;
+    }
+    .learning-line.numbered {
+      font-size: 16px !important;
+      line-height: 1.28 !important;
     }
     .learning-line.example,
     .learning-line.excerpt,
