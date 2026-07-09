@@ -725,6 +725,135 @@
         0 20px 30px rgba(136,19,55,0.22);
     }
 
+    .pathway-card {
+      display: grid;
+      gap: 14px;
+      padding: clamp(16px, 2vw, 24px);
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.78);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.86), 0 14px 28px rgba(17,43,85,0.08);
+    }
+
+    .pathway-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .pathway-head h2 {
+      margin: 0;
+      color: #0e2d55;
+      font-size: clamp(26px, 2.3vw, 38px);
+      line-height: 1.1;
+    }
+
+    .pathway-head p {
+      margin: 6px 0 0;
+      color: #506076;
+      font-size: 15px;
+      line-height: 1.4;
+      font-weight: 800;
+    }
+
+    .pathway-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .pathway-row-wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 74px;
+      gap: 10px;
+      align-items: stretch;
+    }
+
+    .pathway-row {
+      min-height: 128px;
+      border: 0;
+      border-radius: 18px;
+      padding: 16px 20px;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 38%, rgba(255,255,255,0) 39%),
+        linear-gradient(180deg, #60a5fa 0%, #2f80ed 60%, #2472d8 100%);
+      color: #fff;
+      font: inherit;
+      text-align: left;
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(21,89,168,0.13),
+        0 8px 0 #1559a8,
+        0 18px 26px rgba(47,128,237,0.18);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, opacity 0.16s ease;
+    }
+
+    .pathway-row:not(.locked):hover {
+      transform: translateY(-1px);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.26),
+        0 9px 0 #1559a8,
+        0 22px 30px rgba(47,128,237,0.24);
+    }
+
+    .pathway-row.locked {
+      opacity: 0.55;
+      filter: grayscale(0.25);
+    }
+
+    .pathway-row-title {
+      display: block;
+      font-size: clamp(20px, 1.5vw, 27px);
+      line-height: 1.1;
+      font-weight: 950;
+    }
+
+    .pathway-row-subtitle {
+      display: block;
+      margin-top: 2px;
+      color: rgba(255,255,255,0.84);
+      font-size: 13px;
+      line-height: 1.25;
+      font-weight: 850;
+    }
+
+    .pathway-stats {
+      display: grid;
+      gap: 1px;
+      margin-top: 8px;
+      color: rgba(255,255,255,0.95);
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: 880;
+    }
+
+    .pathway-reset {
+      border: 0;
+      border-radius: 18px;
+      padding: 10px 8px;
+      background: #e0f2fe;
+      color: #1559a8;
+      font: inherit;
+      font-size: 15px;
+      line-height: 1.12;
+      font-weight: 950;
+      box-shadow: 0 6px 0 #bae6fd;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+    }
+
+    .pathway-empty {
+      border: 1px dashed rgba(47,128,237,0.24);
+      border-radius: 16px;
+      padding: 18px;
+      background: rgba(239,246,255,0.72);
+      color: #46576d;
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 820;
+    }
+
     .tile-label {
       display: grid;
       gap: 2px;
@@ -1597,6 +1726,7 @@
       .access-grid,
       .study-list,
       .synonym-row,
+      .pathway-row-wrap,
       .paragraph-checkboxes,
       .mode-summary,
       .result-stats {
@@ -1660,10 +1790,17 @@
       .access-grid,
       .study-list,
       .synonym-row,
+      .pathway-row-wrap,
       .paragraph-checkboxes,
       .mode-summary,
       .result-stats {
         grid-template-columns: 1fr;
+      }
+
+      .pathway-reset {
+        min-height: 48px;
+        writing-mode: horizontal-tb;
+        text-orientation: mixed;
       }
 
       .student-row,
@@ -1837,6 +1974,32 @@
       { key: "pte-writing", label: "PTE", subline: "英文寫作", tone: "emerald" },
       { key: "government-writing", label: "政府公務員", subline: "英文寫作", tone: "red" }
     ];
+
+    const writingPathways = {
+      "ielts-writing": {
+        title: "IELTS Writing",
+        tasks: [
+          {
+            key: "task-1",
+            label: "Task 1 (Charts)",
+            subline: "圖表寫作",
+            essayTypes: []
+          },
+          {
+            key: "task-2",
+            label: "Task 2 (Essay)",
+            subline: "議論文寫作",
+            essayTypes: [
+              { key: "opinions", label: "Opinions", subline: "立場題", deckIds: [] },
+              { key: "discuss-both-views", label: "Discuss both views + Your opinion", subline: "雙邊討論及個人意見", deckIds: [] },
+              { key: "cause-solution", label: "Cause and Solution", subline: "原因及解決方法", deckIds: ["model-essay-19-ielts-cause-solution"] },
+              { key: "advantage-disadvantage", label: "Advantage and Disadvantage", subline: "利弊題", deckIds: ["ielts-writing"] },
+              { key: "direct-question", label: "Direct question", subline: "直接問題", deckIds: [] }
+            ]
+          }
+        ]
+      }
+    };
 
     const essayTabOrder = [
       { key: "essay", zh: "文章", en: "Essay" },
@@ -2085,6 +2248,182 @@
             { term: "Balanced judgement", note: "the conclusion weighs benefits against drawbacks" }
           ]
         }
+      },
+      "model-essay-19-ielts-cause-solution": {
+        id: "model-essay-19-ielts-cause-solution",
+        title: "Model Essay 19 - IELTS - Cause / Solution",
+        exam: "IELTS Writing Task 2",
+        taskType: "Cause / Solution",
+        synonymGuide: [],
+        paragraphs: [
+          {
+            label: "Intro",
+            sentences: [
+              {
+                parts: [
+                  "In many modern societies, work has expanded beyond the office and begun to ",
+                  { answer: "crowd out" },
+                  " family, rest and personal growth."
+                ]
+              },
+              {
+                parts: [
+                  "This problem is usually caused by ",
+                  { answer: "unrealistic" },
+                  " workplace expectations and weakened ",
+                  { answer: "boundaries" },
+                  " between professional and private life."
+                ]
+              },
+              {
+                parts: [
+                  "It can be reduced if employers design healthier systems and individuals learn to ",
+                  { answer: "protect" },
+                  " their time deliberately."
+                ]
+              }
+            ]
+          },
+          {
+            label: "Body 1",
+            sentences: [
+              {
+                parts: [
+                  "One major reason is that many employees are expected to be constantly ",
+                  { answer: "available" },
+                  "."
+                ]
+              },
+              {
+                parts: [
+                  "Emails, messaging apps and online meetings allow work to follow people home, so the end of the working day ",
+                  { answer: "no longer" },
+                  " feels like a real end."
+                ]
+              },
+              {
+                parts: [
+                  { answer: "As a result" },
+                  ", a person may be physically with their family but mentally still at their desk."
+                ]
+              },
+              {
+                parts: [
+                  "Another cause is ",
+                  { answer: "financial" },
+                  " pressure."
+                ]
+              },
+              {
+                parts: [
+                  "When housing, childcare and daily expenses are high, people often accept ",
+                  { answer: "overtime" },
+                  ", second jobs or heavier ",
+                  { answer: "workloads" },
+                  ", even when these choices damage their health."
+                ]
+              },
+              {
+                parts: [
+                  "Over time, this creates a ",
+                  { answer: "cycle" },
+                  " in which tired workers perform less ",
+                  { answer: "efficiently" },
+                  ", need more time to finish tasks, and lose even more of their personal lives."
+                ]
+              }
+            ]
+          },
+          {
+            label: "Body 2",
+            sentences: [
+              {
+                parts: [
+                  "The most effective ",
+                  { answer: "solution" },
+                  " is for employers to set clearer ",
+                  { answer: "limits" },
+                  " on work."
+                ]
+              },
+              {
+                parts: [
+                  "For instance, companies can ",
+                  { answer: "discourage" },
+                  " non-urgent messages after office hours, monitor ",
+                  { answer: "excessive" },
+                  " overtime and give staff more ",
+                  { answer: "control" },
+                  " over when and where they work."
+                ]
+              },
+              {
+                parts: [
+                  "These measures do not simply make employees happier; they also help them return to work with sharper ",
+                  { answer: "concentration" },
+                  " and better ",
+                  { answer: "judgement" },
+                  "."
+                ]
+              },
+              {
+                parts: [
+                  "At the same time, individuals need to manage their own ",
+                  { answer: "routines" },
+                  " more firmly."
+                ]
+              },
+              {
+                parts: [
+                  "This may mean setting fixed times for exercise, family meals or sleep, and treating these ",
+                  { answer: "commitments" },
+                  " as seriously as meetings with clients."
+                ]
+              },
+              {
+                parts: [
+                  { answer: "Without" },
+                  " such boundaries, personal life becomes the first thing to be ",
+                  { answer: "sacrificed" },
+                  "."
+                ]
+              }
+            ]
+          },
+          {
+            label: "Conclusion",
+            sentences: [
+              {
+                parts: [
+                  "In conclusion, poor work-life balance is mainly the result of constant ",
+                  { answer: "connectivity" },
+                  ", high workplace ",
+                  { answer: "demands" },
+                  " and financial pressure."
+                ]
+              },
+              {
+                parts: [
+                  { answer: "However" },
+                  ", it can be ",
+                  { answer: "overcome" },
+                  " when organisations create more ",
+                  { answer: "humane" },
+                  " working conditions and individuals ",
+                  { answer: "draw" },
+                  " a clearer line between their jobs and the rest of their lives."
+                ]
+              }
+            ]
+          }
+        ],
+        translation: [
+          "在許多現代社會中，工作已經擴展到辦公室之外，並開始擠走家庭、休息和個人成長。這個問題通常由不切實際的職場期望，以及職業生活與私人生活之間被削弱的界線造成。如果僱主設計更健康的制度，而個人學會有意識地保護自己的時間，這個問題便可以減少。",
+          "其中一個主要原因是，許多員工被期望隨時候命。電郵、即時通訊應用程式和網上會議讓工作跟著人回家，因此工作日的結束不再感覺像真正的結束。結果，一個人可能身體和家人在一起，但精神仍然留在辦公桌前。另一個原因是財政壓力。當住房、育兒和日常開支高昂時，人們往往接受加班、第二份工作或更重的工作量，即使這些選擇會損害他們的健康。久而久之，這形成一個循環：疲倦的員工效率較低，需要更多時間完成任務，並失去更多個人生活。",
+          "最有效的解決方法是僱主為工作設定更清晰的限制。例如，公司可以不鼓勵辦公時間後發送非緊急訊息、監察過度加班，並讓員工對工作時間和地點有更多控制權。這些措施不只是令員工更快樂；它們也幫助員工帶著更敏銳的專注力和更好的判斷力回到工作。同時，個人需要更堅定地管理自己的日常安排。這可能意味著為運動、家庭用餐或睡眠設定固定時間，並像對待客戶會議一樣認真對待這些承諾。沒有這些界線，個人生活便會成為第一個被犧牲的東西。",
+          "總括而言，差劣的工作與生活平衡主要是持續連接、高工作要求和財政壓力造成的結果。然而，當組織創造更人性化的工作條件，而個人在工作與生活其他部分之間劃出更清晰的界線時，這個問題是可以被克服的。"
+        ],
+        studyTabs: {}
       }
     };
 
@@ -3722,7 +4061,421 @@ Device: concession 讓步
       ]
     };
 
+    const modelEssay19LearningContent = {
+      thematicVocabulary: [
+        {
+          title: "Work-Life Balance / Personal Life",
+          subtitle: "工作與生活平衡 / 私人生活",
+          tone: "blue",
+          text: `work-life balance = 工作與生活平衡
+Poor work-life balance can damage both health and family relationships.
+（差劣的工作與生活平衡可能損害健康和家庭關係。）
+
+family, rest and personal growth = 家庭、休息和個人成長
+Work should not crowd out family, rest and personal growth.
+（工作不應擠走家庭、休息和個人成長。）
+
+private life = 私人生活
+Technology has made it harder to separate work from private life.
+（科技令工作和私人生活更難分開。）
+
+draw a clearer line = 劃出更清晰的界線
+Workers should draw a clearer line between work time and family time.
+（員工應該在工作時間和家庭時間之間劃出更清晰的界線。）`
+        },
+        {
+          title: "Workplace Expectations / Boundaries",
+          subtitle: "職場期望 / 界線",
+          tone: "green",
+          text: `unrealistic workplace expectations = 不切實際的職場期望
+Unrealistic workplace expectations often make employees feel they must always be available.
+（不切實際的職場期望常令員工覺得自己必須隨時候命。）
+
+weakened boundaries = 被削弱的界線
+Weakened boundaries between work and home life are a major cause of stress.
+（工作與家庭生活之間被削弱的界線是壓力的主要來源。）
+
+be expected to be constantly available = 被期望隨時候命
+Many employees are expected to be constantly available, even after office hours.
+（許多員工即使在辦公時間後仍被期望隨時候命。）
+
+non-urgent messages = 非緊急訊息
+Non-urgent messages after work can disturb employees' rest.
+（下班後的非緊急訊息可能打擾員工休息。）`
+        },
+        {
+          title: "Financial Pressure / Solutions",
+          subtitle: "財政壓力 / 解決方法",
+          tone: "orange",
+          text: `financial pressure = 財政壓力
+Financial pressure often forces people to accept more work than they can manage.
+（財政壓力常迫使人接受超出自己能負荷的工作。）
+
+housing, childcare and daily expenses = 住房、育兒和日常開支
+Housing, childcare and daily expenses can make workers depend on overtime.
+（住房、育兒和日常開支可能令員工依賴加班。）
+
+excessive overtime = 過度加班
+Employers should monitor excessive overtime before it becomes normal.
+（僱主應該監察過度加班，以免它變成常態。）
+
+humane working conditions = 更人性化的工作條件
+Humane working conditions help people remain productive without losing their health.
+（人性化的工作條件幫助人保持生產力，同時不失去健康。）`
+        }
+      ],
+      verbs: [
+        {
+          title: "Verbs Overview",
+          subtitle: "動詞概覽",
+          tone: "blue",
+          text: `has expanded
+begun to crowd out
+is caused by
+can be reduced
+design
+protect
+are expected to be
+allow
+follow
+accept
+damage
+creates
+perform
+discourage
+monitor
+give
+manage
+sacrificed
+overcome
+draw`
+        },
+        {
+          title: "Verbs and Verb Phrases",
+          subtitle: "動詞和動詞短語",
+          tone: "cyan",
+          text: `has expanded = 已經擴展
+In the essay: Work has expanded beyond the office.
+Student example: Online learning has expanded beyond traditional classrooms.
+（網上學習已經擴展到傳統課室之外。）
+
+begun to crowd out = 已經開始擠走
+In the essay: Work has begun to crowd out family, rest and personal growth.
+Student example: Social media has begun to crowd out face-to-face communication.
+（社交媒體已經開始擠走面對面交流。）
+
+are expected to be = 被期望成為 / 處於
+In the essay: Many employees are expected to be constantly available.
+Student example: Young workers are often expected to be flexible.
+（年輕員工常被期望保持彈性。）
+
+discourage non-urgent messages = 不鼓勵非緊急訊息
+In the essay: Companies can discourage non-urgent messages after office hours.
+Student example: Schools can discourage unnecessary messages late at night.
+（學校可以不鼓勵深夜發送不必要訊息。）
+
+draw a clearer line = 劃出更清晰的界線
+In the essay: Individuals draw a clearer line between their jobs and the rest of their lives.
+Student example: Students should draw a clearer line between study time and leisure time.
+（學生應該在學習時間和休閒時間之間劃出更清晰的界線。）`
+        }
+      ],
+      modifiers: [
+        {
+          title: "Adjectives and Adverbs Overview",
+          subtitle: "形容詞和副詞概覽",
+          tone: "purple",
+          text: `Adjectives 形容詞
+modern, unrealistic, weakened, professional, private, major, real, financial, high, daily, second, heavier, tired, effective, clearer, non-urgent, excessive, happier, sharper, better, fixed, poor, humane
+
+Adverbs 副詞
+usually, constantly, physically, mentally, still, often, less, more, even, simply, deliberately, firmly, seriously, mainly`
+        },
+        {
+          title: "Adjectives and Adverbs",
+          subtitle: "形容詞和副詞",
+          tone: "cyan",
+          text: `unrealistic = 不切實際的
+Unrealistic workplace expectations can make employees feel guilty for resting.
+（不切實際的職場期望可能令員工因休息而感到內疚。）
+
+weakened = 被削弱的
+Weakened boundaries allow work to enter private life.
+（被削弱的界線讓工作進入私人生活。）
+
+financial = 財政的；金錢上的
+Financial pressure can push people into overtime.
+（財政壓力可能迫使人加班。）
+
+excessive = 過度的
+Excessive overtime can become a sign of poor management.
+（過度加班可能成為管理不善的標誌。）
+
+deliberately = 有意識地；刻意地
+Individuals need to protect their time deliberately.
+（個人需要有意識地保護自己的時間。）
+
+firmly = 堅定地
+Workers should manage their routines more firmly.
+（員工應該更堅定地管理自己的日常安排。）`
+        }
+      ],
+      grammar: [
+        {
+          title: "Grammar and Sentence Structures",
+          subtitle: "語法與句式分析",
+          tone: "blue",
+          text: `V1 = base verb 原形動詞 (e.g., protect, set, give)
+V2 = past tense 過去式 (e.g., expanded, caused, weakened)
+V3 = past participle 過去分詞 (e.g., caused, reduced, sacrificed)
+V-ing = -ing form 動名詞 / 現在分詞 (e.g., working, setting, treating)
+
+Grammar involved 概覽
+1. Present perfect: has + V3 現在完成式
+節錄：work has expanded beyond the office
+（工作已經擴展到辦公室之外。）
+
+2. begin to + V1 開始做某事
+節錄：begun to crowd out family, rest and personal growth
+（開始擠走家庭、休息和個人成長。）
+
+3. be caused by + noun phrase 由……造成
+節錄：is usually caused by unrealistic workplace expectations
+（通常由不切實際的職場期望造成。）
+
+4. One major reason is that + clause 一個主要原因是……
+節錄：One major reason is that many employees are expected to be constantly available
+（一個主要原因是許多員工被期望隨時候命。）
+
+5. allow + object + to + V1 允許某物 / 某人做某事
+節錄：allow work to follow people home
+（讓工作跟著人回家。）
+
+6. As a result, + clause 因此，……
+節錄：As a result, a person may be physically with their family
+（因此，一個人可能身體和家人在一起。）
+
+7. The most effective solution is for + noun + to + V1 最有效的解決方法是讓……做某事
+節錄：The most effective solution is for employers to set clearer limits on work
+（最有效的解決方法是讓僱主為工作設定更清晰的限制。）
+
+8. Without + noun, clause 沒有……，……
+節錄：Without such boundaries, personal life becomes the first thing to be sacrificed
+（沒有這樣的界線，個人生活就成為第一個被犧牲的東西。）
+
+9. draw a line between A and B 在 A 和 B 之間劃出界線
+節錄：draw a clearer line between their jobs and the rest of their lives
+（在工作和生活其他部分之間劃出更清晰的界線。）`
+        }
+      ],
+      collocations: [
+        {
+          title: "Collocation Overview",
+          subtitle: "配搭詞概覽",
+          tone: "orange",
+          text: `Work 配 Expand beyond = work has expanded beyond the office（工作擴展到辦公室之外）
+Work 配 Crowd out = work crowds out family, rest and personal growth（工作擠走家庭、休息和個人成長）
+Expectations 配 Unrealistic workplace = unrealistic workplace expectations（不切實際的職場期望）
+Boundaries 配 Weakened = weakened boundaries（被削弱的界線）
+Employees 配 Expected to be constantly available = employees are expected to be constantly available（員工被期望隨時候命）
+Pressure 配 Financial = financial pressure（財政壓力）
+Overtime 配 Excessive = excessive overtime（過度加班）
+Limits 配 Set clearer = set clearer limits on work（為工作設定更清晰限制）
+Conditions 配 Humane working = humane working conditions（人性化工作條件）
+Line 配 Draw a clearer = draw a clearer line（劃出更清晰界線）`
+        },
+        {
+          title: "Detailed Collocation Analysis",
+          subtitle: "詳細配搭詞分析",
+          tone: "gold",
+          text: `1. Work 配 Crowd out
+Collocation: crowd out family, rest and personal growth
+Meaning: 擠走家庭、休息和個人成長
+Student example: Excessive homework can crowd out sleep and exercise.
+
+2. Boundaries 配 Weakened
+Collocation: weakened boundaries
+Meaning: 被削弱的界線
+Student example: Smartphones can create weakened boundaries between study and rest.
+
+3. Overtime 配 Excessive
+Collocation: excessive overtime
+Meaning: 過度加班
+Student example: Excessive overtime can damage long-term productivity.
+
+4. Line 配 Draw a clearer
+Collocation: draw a clearer line
+Meaning: 劃出更清晰界線
+Student example: Remote workers need to draw a clearer line between work and home life.`
+        }
+      ],
+      logicalReasoning: [
+        {
+          title: "引言",
+          subtitle: "Introduction",
+          tone: "blue",
+          text: `推理路線
+
+In many modern societies, work has expanded beyond the office
+在許多現代社會中，工作已經擴展到辦公室之外
+→ work crowds out family, rest and personal growth
+→ 工作擠走家庭、休息和個人成長
+→ the causes are unrealistic workplace expectations and weakened boundaries
+→ 原因是不切實際的職場期望和被削弱的界線
+→ the solutions are healthier employer systems and deliberate individual time protection
+→ 解決方法是僱主建立更健康制度，個人有意識地保護時間
+
+核心概念 = work-life balance, constant availability, workplace expectations, professional life, private life, family, rest, personal growth, boundaries`
+        },
+        {
+          title: "正文第一段：原因",
+          subtitle: "Body Paragraph 1: Causes",
+          tone: "orange",
+          text: `邏輯鏈一：持續候命
+
+Employees are expected to be constantly available
+員工被期望隨時候命
+→ emails, messaging apps and online meetings allow work to follow people home
+→ 電郵、通訊軟件和網上會議讓工作跟著人回家
+→ the end of the working day no longer feels like a real end
+→ 工作日的結束不再像真正的結束
+→ family time becomes lower-quality
+→ 家庭時間質素下降
+→ work-life balance becomes worse
+→ 工作與生活平衡惡化
+
+使用例子 = emails, messaging apps, online meetings, working day, family, mentally still at their desk`
+        },
+        {
+          title: "邏輯鏈二：財政壓力",
+          subtitle: "Financial Pressure",
+          tone: "red",
+          text: `Housing, childcare and daily expenses are high
+住房、育兒和日常開支高昂
+→ people accept overtime, second jobs or heavier workloads
+→ 人們接受加班、第二份工作或更重的工作量
+→ these choices damage their health
+→ 這些選擇損害健康
+→ tired workers perform less efficiently
+→ 疲倦的員工工作效率較低
+→ they lose even more of their personal lives
+→ 他們失去更多個人生活
+→ a negative cycle is created
+→ 形成惡性循環
+
+使用例子 = housing, childcare, daily expenses, overtime, second jobs, heavier workloads, tired workers`
+        },
+        {
+          title: "正文第二段：解決方法",
+          subtitle: "Body Paragraph 2: Solutions",
+          tone: "green",
+          text: `邏輯鏈一：僱主層面的解決方法
+
+Employers set clearer limits on work
+僱主為工作設定更清晰的限制
+→ companies discourage non-urgent messages after office hours
+→ 公司不鼓勵辦公時間後發送非緊急訊息
+→ companies monitor excessive overtime
+→ 公司監察過度加班
+→ staff gain more control over when and where they work
+→ 員工對工作時間和地點有更多控制權
+→ employees return with sharper concentration and better judgement
+→ 員工帶著更敏銳的專注力和更好的判斷力回到工作
+
+使用例子 = clearer limits, non-urgent messages, office hours, excessive overtime, control, sharper concentration, better judgement`
+        },
+        {
+          title: "邏輯鏈二：個人層面的解決方法",
+          subtitle: "Individual-Level Solutions",
+          tone: "cyan",
+          text: `Individuals manage their routines more firmly
+個人更堅定地管理自己的日常安排
+→ they set fixed times for exercise, family meals or sleep
+→ 他們為運動、家庭用餐或睡眠設定固定時間
+→ they treat these commitments as seriously as client meetings
+→ 他們像對待客戶會議一樣認真對待這些承諾
+→ boundaries become stronger
+→ 界線變得更強
+→ personal life is not automatically sacrificed
+→ 個人生活不會自動被犧牲
+
+使用例子 = exercise, family meals, sleep, commitments, meetings with clients, boundaries, personal life`
+        }
+      ],
+      literaryDevices: [
+        {
+          title: "Figurative Language",
+          subtitle: "比喻性語言",
+          tone: "purple",
+          text: `metaphor 隱喻
+
+work has expanded beyond the office
+（工作已經擴展到辦公室之外。）
+
+Device: metaphor 隱喻
+原因：
+Work is described almost like a physical substance that can expand beyond a place.
+（作者把 work 寫得像一種可以向外擴張的實體。）
+
+metaphor 隱喻
+
+crowd out family, rest and personal growth
+（擠走家庭、休息和個人成長。）
+
+Device: metaphor 隱喻
+用途：
+It shows that work does not merely take time; it actively displaces important parts of life.
+（它表明工作不只是佔用時間，而是主動取代生活中重要的部分。）
+
+personification 擬人法
+
+work to follow people home
+（工作跟著人回家。）
+
+Device: personification 擬人法
+原因：
+Work cannot literally follow someone. The sentence gives work human-like movement.
+（工作不會真正跟著人走。作者把工作寫成有行動能力的東西。）`
+        },
+        {
+          title: "Rhetorical and Persuasive Devices",
+          subtitle: "修辭及說服手法",
+          tone: "gold",
+          text: `antithesis 對照法
+
+physically with their family but mentally still at their desk
+（身體和家人在一起，但精神仍然在辦公桌前。）
+
+Device: antithesis 對照法
+用途：
+The contrast shows that true family time requires mental attention, not only physical presence.
+（這個對比說明真正的家庭時間不只是身體在場，也需要精神投入。）
+
+parallelism 平行結構
+
+family, rest and personal growth
+（家庭、休息和個人成長。）
+
+Device: parallelism 平行結構
+用途：
+Three noun phrases are placed together to show the different areas of life affected by work.
+（三個名詞短語並列，顯示工作影響生活中的不同範疇。）
+
+cause-and-effect reasoning 因果推理
+
+tired workers perform less efficiently, need more time to finish tasks, and lose even more of their personal lives
+（疲倦的員工效率較低，需要更多時間完成任務，並失去更多個人生活。）
+
+Device: cause-and-effect reasoning 因果推理
+用途：
+The writer explains why overwork becomes self-defeating.
+（作者解釋為甚麼過度工作最終會適得其反。）`
+        }
+      ]
+    };
+
     writingExercises["ielts-writing"].learningContent = modelEssay9LearningContent;
+    writingExercises["model-essay-19-ielts-cause-solution"].learningContent = modelEssay19LearningContent;
 
     const supabaseClient = window.supabase?.createClient
       ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
@@ -3737,6 +4490,9 @@ Device: concession 讓步
     let studentSessionToken = "";
     let studentPasswordLogsCache = {};
     let currentExerciseSectionKey = "";
+    let currentPathwayLevel = "";
+    let currentEssayTypeKey = "";
+    let currentExerciseId = "";
     let currentEssayTab = "essay";
     let practiceState = null;
 
@@ -3807,7 +4563,8 @@ Device: concession 讓步
               part.sentenceIndex = sentenceIndex;
               part.sentenceKey = sentence.key;
               part.paragraphLabel = paragraph.label;
-              const synonymGuide = synonymAcceptanceGuide.find(row => row.number === blankNumber);
+              const synonymSource = Array.isArray(exercise.synonymGuide) ? exercise.synonymGuide : synonymAcceptanceGuide;
+              const synonymGuide = synonymSource.find(row => row.number === blankNumber);
               if (synonymGuide) {
                 part.strongSynonyms = synonymGuide.strong || [];
                 part.cautionSynonyms = synonymGuide.caution || [];
@@ -3827,12 +4584,153 @@ Device: concession 讓步
       return paragraph.sentences.map(plainSentence).join(" ");
     }
 
+    function hasWritingPathway(sectionKey) {
+      return Boolean(writingPathways[sectionKey]);
+    }
+
+    function exerciseById(exerciseId) {
+      return writingExercises[exerciseId] || null;
+    }
+
     function exerciseBySection(sectionKey) {
+      if (hasWritingPathway(sectionKey)) return currentExerciseId ? exerciseById(currentExerciseId) : null;
       return writingExercises[sectionKey] || null;
     }
 
     function currentExercise() {
       return exerciseBySection(currentExerciseSectionKey);
+    }
+
+    function getPathwayTask(pathway, taskKey) {
+      return pathway?.tasks?.find(task => task.key === taskKey) || null;
+    }
+
+    function getPathwayEssayType(pathway, essayTypeKey) {
+      return pathway?.tasks
+        ?.flatMap(task => task.essayTypes || [])
+        .find(type => type.key === essayTypeKey) || null;
+    }
+
+    function exerciseIdsForPathwayItem(item) {
+      if (!item) return [];
+      if (Array.isArray(item.deckIds)) return item.deckIds;
+      if (Array.isArray(item.essayTypes)) return item.essayTypes.flatMap(type => type.deckIds || []);
+      return [];
+    }
+
+    function pathwayStats(exerciseIds = []) {
+      const exercises = exerciseIds.map(exerciseById).filter(Boolean);
+      const results = exercises.flatMap(exercise => getSavedPracticeResults(exercise.id));
+      const latest = results.reduce((max, result) => Math.max(max, result.createdAt || 0), 0);
+      const latestMistakes = exercises.reduce((total, exercise) => {
+        const latestResult = getSavedPracticeResults(exercise.id)[0];
+        return total + Number(latestResult?.mistakes || 0);
+      }, 0);
+      return {
+        cards: exercises.reduce((total, exercise) => total + Number(exercise.questionCount || 0), 0),
+        attempts: results.length,
+        latest,
+        red: latestMistakes
+      };
+    }
+
+    function pathwayStatsHtml(stats) {
+      return `
+        <span>卡片：${escapeHtml(stats.cards)}</span>
+        <span>嘗試：${escapeHtml(stats.attempts)}</span>
+        <span>最近：${stats.latest ? escapeHtml(exactDateTime(stats.latest)) : "未曾"}</span>
+        <span>練勻：0</span>
+        <span>紅叉：${escapeHtml(stats.red)}</span>
+      `;
+    }
+
+    function pathwayRowHtml({ label, subline = "", exerciseIds = [], action = "", locked = false }) {
+      const stats = pathwayStats(exerciseIds);
+      const disabled = locked || !exerciseIds.length && action.includes("deck");
+      return `
+        <div class="pathway-row-wrap">
+          <button class="pathway-row ${disabled ? "locked" : ""}" type="button" ${action} ${disabled ? "aria-disabled=\"true\"" : ""}>
+            <span class="pathway-row-title">${escapeHtml(label)}</span>
+            ${subline ? `<span class="pathway-row-subtitle">${escapeHtml(subline)}</span>` : ""}
+            <span class="pathway-stats">${pathwayStatsHtml(stats)}</span>
+          </button>
+          <button class="pathway-reset" type="button" data-reset-writing-path="${escapeHtml(exerciseIds.join(","))}" ${exerciseIds.length ? "" : "disabled"}>重設紀錄</button>
+        </div>
+      `;
+    }
+
+    function renderWritingPathwayView() {
+      const pathway = writingPathways[currentExerciseSectionKey];
+      if (!pathway) return "";
+
+      if (currentPathwayLevel === "task-2") {
+        const task = getPathwayTask(pathway, "task-2");
+        return `
+          <div class="pathway-card">
+            <div class="pathway-head">
+              <div>
+                <h2>Task 2 Essay Types</h2>
+                <p>選擇 IELTS Task 2 題型，再進入指定文章練習。</p>
+              </div>
+              <button class="secondary-button" type="button" data-pathway-back>返回 Writing</button>
+            </div>
+            <div class="pathway-list">
+              ${(task?.essayTypes || []).map(type => pathwayRowHtml({
+                label: type.label,
+                subline: type.subline,
+                exerciseIds: type.deckIds || [],
+                action: `data-open-essay-type="${escapeHtml(type.key)}"`,
+                locked: !(type.deckIds || []).length
+              })).join("")}
+            </div>
+          </div>
+        `;
+      }
+
+      if (currentPathwayLevel === "category") {
+        const essayType = getPathwayEssayType(pathway, currentEssayTypeKey);
+        const decks = (essayType?.deckIds || []).map(exerciseById).filter(Boolean);
+        return `
+          <div class="pathway-card">
+            <div class="pathway-head">
+              <div>
+                <h2>${escapeHtml(essayType?.label || "Essay Decks")}</h2>
+                <p>${escapeHtml(essayType?.subline || "請選擇文章。")}</p>
+              </div>
+              <button class="secondary-button" type="button" data-pathway-back>返回 Task 2</button>
+            </div>
+            <div class="pathway-list">
+              ${decks.length ? decks.map(exercise => pathwayRowHtml({
+                label: exercise.title,
+                subline: `${exercise.exam} | ${exercise.taskType}`,
+                exerciseIds: [Object.keys(writingExercises).find(key => writingExercises[key] === exercise) || exercise.id],
+                action: `data-open-writing-deck="${escapeHtml(Object.keys(writingExercises).find(key => writingExercises[key] === exercise) || "")}"`
+              })).join("") : `<div class="pathway-empty">這個題型暫時未有文章。</div>`}
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="pathway-card">
+          <div class="pathway-head">
+            <div>
+              <h2>Writing</h2>
+              <p>${escapeHtml(pathway.title)} pathway</p>
+            </div>
+            <button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>
+          </div>
+          <div class="pathway-list">
+            ${pathway.tasks.map(task => pathwayRowHtml({
+              label: task.label,
+              subline: task.subline,
+              exerciseIds: exerciseIdsForPathwayItem(task),
+              action: `data-open-pathway-task="${escapeHtml(task.key)}"`,
+              locked: task.key !== "task-2" && !exerciseIdsForPathwayItem(task).length
+            })).join("")}
+          </div>
+        </div>
+      `;
     }
 
     function allParagraphIndexes(exercise) {
@@ -3939,6 +4837,18 @@ Device: concession 讓步
       const allResults = readJson(PRACTICE_RESULTS_KEY, []);
       allResults.push(result);
       writeJson(PRACTICE_RESULTS_KEY, allResults.slice(-300));
+    }
+
+    function clearPracticeResultsForExerciseIds(exerciseIds = []) {
+      const targetExerciseIds = new Set(
+        exerciseIds
+          .map(exerciseById)
+          .filter(Boolean)
+          .map(exercise => exercise.id)
+      );
+      if (!targetExerciseIds.size) return;
+      const allResults = readJson(PRACTICE_RESULTS_KEY, []);
+      writeJson(PRACTICE_RESULTS_KEY, allResults.filter(result => !targetExerciseIds.has(result.exerciseId)));
     }
 
     function normalizeAnswer(value) {
@@ -4138,6 +5048,9 @@ Device: concession 讓步
     }
 
     function renderExerciseHeader(exercise, subtitle = "") {
+      const backButton = hasWritingPathway(currentExerciseSectionKey) && currentExerciseId && !practiceState
+        ? `<button class="secondary-button" type="button" data-back-writing-pathway>返回 IELTS 路徑</button>`
+        : `<button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>`;
       return `
         <div class="section-head">
           <div class="exercise-title-block">
@@ -4147,7 +5060,7 @@ Device: concession 讓步
           </div>
           <div class="practice-actions">
             ${practiceState ? `<button class="secondary-button" type="button" data-back-essay>返回文章</button>` : ""}
-            <button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>
+            ${backButton}
           </div>
         </div>
       `;
@@ -4453,7 +5366,7 @@ Device: concession 讓步
     }
 
     function isLiteraryDeviceHeading(line) {
-      return /^(analogy|simile-like comparison|personification|symbolism|dead metaphor|metaphorical phrasing|visual imagery|visual contrast|image-based explanation|contrastive phrasing|antithesis|contrast pair|rather than|juxtaposition|parallelism|parallel verbs|the rule of three|repetition|cumulative sentence|hedging language|softeners|intensifier|intensifiers|tonal modifier|balanced tone|balanced argument|cause-and-effect reasoning|practical consequence|concession)\b/i.test(line.trim());
+      return /^(analogy|simile-like comparison|metaphor|conceptual metaphor|idiomatic metaphor|image-based metaphor|personification|symbolism|dead metaphor|metaphorical phrasing|visual imagery|visual contrast|image-based explanation|contrastive phrasing|antithesis|contrast pair|rather than|juxtaposition|parallelism|parallel verbs|the rule of three|repetition|cumulative sentence|hedging language|softeners|intensifier|intensifiers|tonal modifier|balanced tone|balanced argument|cause-and-effect reasoning|practical consequence|concession)\b/i.test(line.trim());
     }
 
     function splitLearningGroups(text = "", context = {}) {
@@ -4496,7 +5409,11 @@ Device: concession 讓步
       `;
     }
 
-    function renderSynonymGuide() {
+    function renderSynonymGuide(exercise) {
+      const guide = Array.isArray(exercise?.synonymGuide) ? exercise.synonymGuide : synonymAcceptanceGuide;
+      if (!guide.length) {
+        return `<p class="note-text">本篇文章暫時未設定同義詞接受表。</p>`;
+      }
       return `
         <div class="synonym-guide">
           <div class="synonym-row header">
@@ -4505,7 +5422,7 @@ Device: concession 讓步
             <strong>可接受同義詞</strong>
             <strong>謹慎接受</strong>
           </div>
-          ${synonymAcceptanceGuide.map(row => `
+          ${guide.map(row => `
             <div class="synonym-row">
               <strong>${escapeHtml(row.number)}</strong>
               <strong>${escapeHtml(row.original)}</strong>
@@ -4523,7 +5440,7 @@ Device: concession 讓步
       }
 
       if (currentEssayTab === "synonyms") {
-        return renderSynonymGuide();
+        return renderSynonymGuide(exercise);
       }
 
       const learningBlocks = exercise.learningContent?.[currentEssayTab];
@@ -4761,6 +5678,12 @@ Device: concession 讓步
     function renderExerciseView() {
       const panel = document.querySelector("[data-exercise-view]");
       if (!panel) return;
+
+      if (hasWritingPathway(currentExerciseSectionKey) && !currentExerciseId) {
+        panel.innerHTML = renderWritingPathwayView();
+        return;
+      }
+
       const exercise = currentExercise();
 
       if (!exercise) {
@@ -5108,6 +6031,9 @@ Device: concession 讓步
 
     function showExercise(sectionKey) {
       currentExerciseSectionKey = sectionKey;
+      currentPathwayLevel = hasWritingPathway(sectionKey) ? "" : "exercise";
+      currentEssayTypeKey = "";
+      currentExerciseId = "";
       currentEssayTab = "essay";
       practiceState = null;
       showAppPanel("exercise");
@@ -5858,8 +6784,76 @@ Device: concession 讓步
 
         if (event.target.closest("[data-back-dashboard]")) {
           currentExerciseSectionKey = "";
+          currentPathwayLevel = "";
+          currentEssayTypeKey = "";
+          currentExerciseId = "";
           practiceState = null;
           showAppPanel("dashboard");
+          return;
+        }
+
+        if (event.target.closest("[data-back-writing-pathway]")) {
+          currentExerciseId = "";
+          currentEssayTab = "essay";
+          practiceState = null;
+          currentPathwayLevel = currentEssayTypeKey ? "category" : "task-2";
+          renderExerciseView();
+          return;
+        }
+
+        const pathwayTaskButton = event.target.closest("[data-open-pathway-task]");
+        if (pathwayTaskButton) {
+          if (pathwayTaskButton.getAttribute("aria-disabled") === "true") return;
+          const taskKey = pathwayTaskButton.getAttribute("data-open-pathway-task") || "";
+          currentPathwayLevel = taskKey === "task-2" ? "task-2" : "";
+          currentEssayTypeKey = "";
+          currentExerciseId = "";
+          renderExerciseView();
+          return;
+        }
+
+        const essayTypeButton = event.target.closest("[data-open-essay-type]");
+        if (essayTypeButton) {
+          if (essayTypeButton.getAttribute("aria-disabled") === "true") return;
+          currentEssayTypeKey = essayTypeButton.getAttribute("data-open-essay-type") || "";
+          currentPathwayLevel = "category";
+          currentExerciseId = "";
+          renderExerciseView();
+          return;
+        }
+
+        const writingDeckButton = event.target.closest("[data-open-writing-deck]");
+        if (writingDeckButton) {
+          const deckId = writingDeckButton.getAttribute("data-open-writing-deck") || "";
+          if (!exerciseById(deckId)) return;
+          currentExerciseId = deckId;
+          currentEssayTab = "essay";
+          practiceState = null;
+          renderExerciseView();
+          return;
+        }
+
+        if (event.target.closest("[data-pathway-back]")) {
+          if (currentPathwayLevel === "category") {
+            currentPathwayLevel = "task-2";
+            currentEssayTypeKey = "";
+          } else {
+            currentPathwayLevel = "";
+          }
+          currentExerciseId = "";
+          practiceState = null;
+          renderExerciseView();
+          return;
+        }
+
+        const resetWritingPathButton = event.target.closest("[data-reset-writing-path]");
+        if (resetWritingPathButton) {
+          const exerciseIds = String(resetWritingPathButton.getAttribute("data-reset-writing-path") || "")
+            .split(",")
+            .map(item => item.trim())
+            .filter(Boolean);
+          clearPracticeResultsForExerciseIds(exerciseIds);
+          renderExerciseView();
           return;
         }
 
