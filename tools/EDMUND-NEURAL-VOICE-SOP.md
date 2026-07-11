@@ -134,9 +134,12 @@ Before committing:
 4. Test the sound button, hover/focus popover, Space-bar pause/resume, all six
    playback rates, the highlight ON/OFF control, word-click seeking and green
    word highlighting on a narrow mobile viewport and desktop.
-5. Confirm navigation, logout and backgrounding stop active audio.
-6. Run `git diff --check` and inspect `git status --short`.
-7. Do not commit `.venv-tts`, ONNX/BIN models, shard manifests, failure logs,
+5. Confirm writing manifests report `faster-whisper-base.en-audio-v1` word
+   timing. These timestamps are measured from each generated sentence, so the
+   0.45-second sentence gaps are included without cumulative highlight drift.
+6. Confirm navigation, logout and backgrounding stop active audio.
+7. Run `git diff --check` and inspect `git status --short`.
+8. Do not commit `.venv-tts`, ONNX/BIN models, shard manifests, failure logs,
    temporary files or Python cache directories.
 
 When asking Codex to import cards, use: **“Import these cards and rebuild Edmund

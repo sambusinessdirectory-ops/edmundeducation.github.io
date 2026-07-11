@@ -2172,7 +2172,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v4"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v5"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -5852,7 +5852,11 @@ The writer explains why overwork becomes self-defeating.
           high = middle - 1;
         }
       }
-      return result;
+      if (result < 0) return -1;
+      const wordEnd = Number(words[result]?.[2]);
+      // Do not leave the previous word glowing through a real sentence pause.
+      // A tiny grace period prevents flicker in natural gaps between words.
+      return Number.isFinite(wordEnd) && currentTime > wordEnd + 0.08 ? -1 : result;
     }
 
     function updateEssayHighlightNow() {

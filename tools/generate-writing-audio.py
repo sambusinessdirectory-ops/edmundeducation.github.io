@@ -8,6 +8,7 @@ so the displayed text remains the single source of truth.
 from __future__ import annotations
 
 import argparse
+import difflib
 import hashlib
 import json
 import os
@@ -17,9 +18,10 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 from kokoro_onnx import Kokoro
+from faster_whisper import WhisperModel
 
 
-AUDIO_BUILD_VERSION = "v4"
+AUDIO_BUILD_VERSION = "v5"
 STATIC_AUDIO_ROOT = f"assets/writing-practice/audio/edmund-neural/{AUDIO_BUILD_VERSION}"
 DEFAULT_VOICE = "af_heart"
 DEFAULT_LANGUAGE = "en-us"
@@ -27,6 +29,8 @@ DEFAULT_SPEED = 0.96
 PARAGRAPH_PAUSE_SECONDS = 0.72
 SENTENCE_PAUSE_SECONDS = 0.45
 WORD_PATTERN = re.compile(r"[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*(?:-[A-Za-z0-9]+)*")
+DEFAULT_ALIGNMENT_MODEL = "base.en"
+WORD_TIMING_VERSION = "faster-whisper-base.en-audio-v1"
 
 
 def matching_end(source: str, start: int, opener: str, closer: str) -> int:
@@ -152,48 +156,119 @@ def display_words(value: str) -> list[tuple[str, str]]:
     ]
 
 
-def syllable_weight(word: str) -> float:
-    letters = re.sub(r"[^a-z]", "", word.casefold())
-    if not letters:
-        return 1.0
-    groups = len(re.findall(r"[aeiouy]+", letters))
-    if letters.endswith("e") and groups > 1 and not letters.endswith(("le", "ye")):
-        groups -= 1
-    return 0.75 + max(1, groups) * 0.72 + min(len(letters), 12) * 0.025
+def normalized_chars(value: str) -> str:
+    return "".join(char for char in value.casefold() if char.isalnum())
 
 
-def punctuation_weight(separator: str, *, final_word: bool) -> float:
-    if final_word:
-        return 0.0
-    if any(mark in separator for mark in (";", ":")):
-        return 0.55
-    if any(mark in separator for mark in (",", "—", "–")):
-        return 0.34
-    if any(mark in separator for mark in (".", "!", "?")):
-        return 0.65
-    return 0.08
+def resample_for_alignment(audio: np.ndarray, sample_rate: int) -> np.ndarray:
+    """Return a mono 16 kHz waveform, the native input rate for Whisper."""
+    if sample_rate == 16000:
+        return np.asarray(audio, dtype=np.float32)
+    source = np.asarray(audio, dtype=np.float32)
+    target_length = max(1, round(len(source) * 16000 / sample_rate))
+    source_positions = np.arange(len(source), dtype=np.float64)
+    target_positions = np.arange(target_length, dtype=np.float64) * sample_rate / 16000
+    return np.interp(target_positions, source_positions, source).astype(np.float32)
 
 
-def align_sentence_words(sentence: str, start_seconds: float, duration_seconds: float) -> list[list[object]]:
-    words = display_words(sentence)
-    if not words:
+def align_sentence_words(
+    sentence: str,
+    audio: np.ndarray,
+    sample_rate: int,
+    start_seconds: float,
+    aligner: WhisperModel,
+) -> list[list[object]]:
+    """Derive visible-word timings from the generated sentence audio itself."""
+    visible = display_words(sentence)
+    if not visible:
         return []
-    lead = min(0.075, duration_seconds * 0.025)
-    tail = min(0.09, duration_seconds * 0.035)
-    weights = [syllable_weight(word) for word, _ in words]
-    pauses = [
-        punctuation_weight(separator, final_word=index == len(words) - 1)
-        for index, (_, separator) in enumerate(words)
-    ]
-    usable = max(0.01, duration_seconds - lead - tail)
-    unit = usable / max(0.01, sum(weights) + sum(pauses))
-    cursor = start_seconds + lead
+    segments, _ = aligner.transcribe(
+        resample_for_alignment(audio, sample_rate),
+        language="en",
+        task="transcribe",
+        beam_size=5,
+        word_timestamps=True,
+        vad_filter=False,
+        condition_on_previous_text=False,
+        initial_prompt=spoken_text(sentence),
+    )
+    recognized: list[tuple[str, float, float]] = []
+    for segment in segments:
+        for word in segment.words or []:
+            token = normalized_chars(word.word)
+            if token and word.start is not None and word.end is not None:
+                recognized.append((token, float(word.start), float(word.end)))
+    if not recognized:
+        raise ValueError(f"Speech alignment returned no words for: {sentence!r}")
+
+    expected_text = "".join(normalized_chars(word) for word, _ in visible)
+    recognized_text = "".join(token for token, _, _ in recognized)
+    matcher = difflib.SequenceMatcher(None, expected_text, recognized_text, autojunk=False)
+    char_map: dict[int, int] = {}
+    matched_chars = 0
+    for expected_start, recognized_start, size in matcher.get_matching_blocks():
+        for offset in range(size):
+            char_map[expected_start + offset] = recognized_start + offset
+        matched_chars += size
+    confidence = matched_chars / max(1, len(expected_text))
+    if confidence < 0.82:
+        raise ValueError(
+            f"Low-confidence speech alignment ({confidence:.1%}) for: {sentence!r}"
+        )
+
+    recognized_char_times: list[tuple[float, float]] = []
+    for token, token_start, token_end in recognized:
+        duration = max(0.01, token_end - token_start)
+        for index in range(len(token)):
+            recognized_char_times.append((
+                token_start + duration * index / len(token),
+                token_start + duration * (index + 1) / len(token),
+            ))
+
+    raw: list[tuple[float, float] | None] = []
+    cursor = 0
+    for word, _ in visible:
+        length = len(normalized_chars(word))
+        mapped = [char_map[index] for index in range(cursor, cursor + length) if index in char_map]
+        if mapped:
+            raw.append((
+                recognized_char_times[min(mapped)][0],
+                recognized_char_times[max(mapped)][1],
+            ))
+        else:
+            raw.append(None)
+        cursor += length
+
+    # Rare ASR substitutions are filled only inside their immediate neighbours;
+    # every following sentence starts from a fresh audio-derived alignment.
+    duration_seconds = len(audio) / sample_rate
+    for index, timing in enumerate(raw):
+        if timing is not None:
+            continue
+        previous_end = raw[index - 1][1] if index and raw[index - 1] else 0.0
+        next_start = next(
+            (candidate[0] for candidate in raw[index + 1 :] if candidate is not None),
+            duration_seconds,
+        )
+        missing_end = index + 1
+        while missing_end < len(raw) and raw[missing_end] is None:
+            missing_end += 1
+        missing_start = index
+        while missing_start and raw[missing_start - 1] is None:
+            missing_start -= 1
+        slot_count = missing_end - missing_start
+        slot_index = index - missing_start
+        slot = max(0.01, next_start - previous_end) / slot_count
+        raw[index] = (previous_end + slot * slot_index, previous_end + slot * (slot_index + 1))
+
     timings: list[list[object]] = []
-    for (word, _), weight, pause in zip(words, weights, pauses):
-        word_start = cursor
-        word_end = min(start_seconds + duration_seconds, word_start + weight * unit)
+    previous_start = start_seconds
+    for (word, _), timing in zip(visible, raw):
+        assert timing is not None
+        word_start = max(previous_start, start_seconds + timing[0])
+        word_end = max(word_start, min(start_seconds + duration_seconds, start_seconds + timing[1]))
         timings.append([word, round(word_start, 3), round(word_end, 3)])
-        cursor = word_end + pause * unit
+        previous_start = word_start
     return timings
 
 
@@ -280,7 +355,7 @@ def write_manifest(
         "corpusSha256": corpus_hash,
         "sampleRate": 24000,
         "format": "audio/mpeg",
-        "wordTiming": "sentence-weighted-v1",
+        "wordTiming": WORD_TIMING_VERSION,
     }
     content = (
         "/* Generated by tools/generate-writing-audio.py. */\n"
@@ -311,6 +386,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--voice", default=DEFAULT_VOICE)
     parser.add_argument("--lang", default=DEFAULT_LANGUAGE)
     parser.add_argument("--speed", type=float, default=DEFAULT_SPEED)
+    parser.add_argument("--alignment-model", default=DEFAULT_ALIGNMENT_MODEL)
+    parser.add_argument("--alignment-cache", type=Path)
     parser.add_argument("--manifest-only", action="store_true")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--prune-orphans", action="store_true")
@@ -343,6 +420,12 @@ def main() -> int:
 
     if pending:
         kokoro = Kokoro(str(args.model.resolve()), str(args.voices.resolve()))
+        aligner = WhisperModel(
+            args.alignment_model,
+            device="cpu",
+            compute_type="int8",
+            download_root=str(args.alignment_cache.resolve()) if args.alignment_cache else None,
+        )
         for index, (exercise_id, essay, output_path) in enumerate(pending, start=1):
             chunks: list[np.ndarray] = []
             word_timings: list[list[object]] = []
@@ -363,8 +446,10 @@ def main() -> int:
                     chunk = np.asarray(audio, dtype=np.float32)
                     word_timings.extend(align_sentence_words(
                         str(sentence),
+                        chunk,
+                        sample_rate,
                         elapsed_samples / sample_rate,
-                        len(chunk) / sample_rate,
+                        aligner,
                     ))
                     chunks.append(chunk)
                     elapsed_samples += len(chunk)
