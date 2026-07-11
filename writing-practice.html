@@ -1311,9 +1311,10 @@
     }
 
     .essay-audio-control-stack {
-      display: grid;
-      gap: 10px;
-      justify-items: center;
+      position: relative;
+      display: inline-flex;
+      justify-content: center;
+      z-index: 30;
     }
 
     .essay-audio-button {
@@ -1355,7 +1356,9 @@
 
     .essay-rate-selector {
       display: grid;
-      width: min(300px, 100%);
+      box-sizing: border-box;
+      flex: 1 1 280px;
+      width: auto;
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 6px;
       padding: 8px;
@@ -1367,10 +1370,55 @@
 
     .essay-audio-options-row {
       display: flex;
+      position: absolute;
+      top: calc(100% + 10px);
+      right: 0;
+      z-index: 40;
+      box-sizing: border-box;
+      width: min(450px, calc(100vw - 32px));
       align-items: stretch;
       justify-content: center;
       gap: 8px;
       flex-wrap: wrap;
+      padding: 10px;
+      border: 1px solid rgba(5,150,105,0.22);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.97);
+      box-shadow: 0 24px 54px rgba(17,43,85,0.18);
+      backdrop-filter: blur(14px);
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateY(-8px);
+      transition: opacity 0.16s ease, transform 0.16s ease, visibility 0s linear 0.16s;
+    }
+
+    .essay-audio-options-row::before {
+      content: "";
+      position: absolute;
+      top: -10px;
+      left: 0;
+      width: 100%;
+      height: 10px;
+    }
+
+    .essay-audio-control-stack:hover .essay-audio-options-row,
+    .essay-audio-control-stack:has(:focus-visible) .essay-audio-options-row {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+      transform: translateY(0);
+      transition-delay: 0s;
+    }
+
+    @media (hover: none) {
+      .essay-audio-control-stack:focus-within .essay-audio-options-row {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateY(0);
+        transition-delay: 0s;
+      }
     }
 
     .essay-rate-button {
@@ -1395,6 +1443,8 @@
 
     .essay-highlight-toggle {
       display: grid;
+      box-sizing: border-box;
+      flex: 0 0 116px;
       min-width: 116px;
       align-content: center;
       justify-items: center;
@@ -1448,7 +1498,7 @@
       }
 
       .essay-audio-control-stack {
-        width: 100%;
+        width: min(100%, 280px);
       }
 
       .essay-audio-button {
@@ -1461,8 +1511,17 @@
 
       .essay-audio-options-row {
         display: grid;
-        width: 100%;
+        left: 50%;
+        right: auto;
+        width: min(450px, calc(100vw - 24px));
         grid-template-columns: minmax(0, 1fr) 110px;
+        transform: translate(-50%, -8px);
+      }
+
+      .essay-audio-control-stack:hover .essay-audio-options-row,
+      .essay-audio-control-stack:has(:focus-visible) .essay-audio-options-row,
+      .essay-audio-control-stack:focus-within .essay-audio-options-row {
+        transform: translate(-50%, 0);
       }
     }
 
@@ -2113,7 +2172,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v3"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v4"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -5837,7 +5896,7 @@ The writer explains why overwork becomes self-defeating.
       button.classList.toggle("is-playing", playing);
       button.setAttribute("aria-pressed", String(playing));
       button.setAttribute("aria-label", `${text} · Edmund Neural`);
-      button.setAttribute("title", `${text} · Edmund Neural`);
+      button.setAttribute("title", `${text} · 播放後可按空白鍵暫停或繼續`);
       syncEssayAudioRateButtons();
       syncEssayHighlightToggle();
     }
@@ -5957,7 +6016,7 @@ The writer explains why overwork becomes self-defeating.
       const audioButton = currentEssayTab === "essay" && essayAudioEntry(exercise)
         ? `
           <div class="essay-audio-control-stack">
-            <button class="essay-audio-button" type="button" data-play-essay-audio aria-pressed="false" aria-label="朗讀文章 · Edmund Neural">
+            <button class="essay-audio-button" type="button" data-play-essay-audio aria-pressed="false" aria-label="朗讀文章 · Edmund Neural" title="朗讀文章 · 播放後可按空白鍵暫停或繼續">
               <img src="Static Images/sound-button.png" alt="" aria-hidden="true">
               <span data-essay-audio-label>朗讀文章</span>
             </button>
@@ -7546,6 +7605,14 @@ The writer explains why overwork becomes self-defeating.
           ...(practiceState.answers || {}),
           [answerInput.getAttribute("data-answer-id")]: answerInput.value
         };
+      });
+
+      document.addEventListener("keydown", event => {
+        if (event.code !== "Space" || event.repeat || !activeEssayAudio) return;
+        const target = event.target;
+        if (target?.closest?.("input, textarea, select, button, a, [contenteditable='true']")) return;
+        event.preventDefault();
+        playOrToggleEssayAudio();
       });
 
       window.addEventListener("pagehide", stopEssayAudio);

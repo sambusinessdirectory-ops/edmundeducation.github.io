@@ -19,13 +19,13 @@ import soundfile as sf
 from kokoro_onnx import Kokoro
 
 
-AUDIO_BUILD_VERSION = "v3"
+AUDIO_BUILD_VERSION = "v4"
 STATIC_AUDIO_ROOT = f"assets/writing-practice/audio/edmund-neural/{AUDIO_BUILD_VERSION}"
 DEFAULT_VOICE = "af_heart"
 DEFAULT_LANGUAGE = "en-us"
 DEFAULT_SPEED = 0.96
 PARAGRAPH_PAUSE_SECONDS = 0.72
-SENTENCE_PAUSE_SECONDS = 0.34
+SENTENCE_PAUSE_SECONDS = 0.45
 WORD_PATTERN = re.compile(r"[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*(?:-[A-Za-z0-9]+)*")
 
 

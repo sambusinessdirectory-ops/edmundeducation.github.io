@@ -14,10 +14,10 @@ files, so iPhone, Android and desktop users hear the same voice.
 | Speed | `0.96` |
 | Output | Mono MP3, 24 kHz, variable bitrate |
 | MP3 compression level | `0.55` |
-| Writing sentence pause | `0.34` seconds |
+| Writing sentence pause | `0.45` seconds |
 | Writing paragraph pause | `0.72` seconds |
 | Word timing | Sentence-boundary weighted alignment (`sentence-weighted-v1`) |
-| Audio build version | Flashcards `v1`; writing essays `v3` |
+| Audio build version | Flashcards `v1`; writing essays `v4` |
 | Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0` |
 
 Reference model checksums:
@@ -119,6 +119,10 @@ follow-along highlight. Playback speed choices (`0.25X`, `0.5X`, `0.75X`, `1X`,
 different MP3 files and do not alter the voice recipe. The highlight starts
 enabled but can be turned off beside the rate selector. Every timed essay word
 is also a seek target: clicking a word starts or moves playback to that word.
+On pointer devices, the rate and highlight controls open as a hover/focus
+popover beneath the sound button and do not reserve page height. While audio is
+active, the Space bar pauses or resumes playback unless the user is typing or
+has focused another interactive control.
 
 ## Listening and release checklist
 
@@ -127,9 +131,9 @@ Before committing:
 1. Listen to every newly generated essay and a targeted sample of new cards.
 2. Check names, abbreviations, currency, numbers and unusual punctuation.
 3. Confirm each manifest reports `complete: true` and the expected item count.
-4. Test the sound button, all six playback rates, the highlight ON/OFF control,
-   word-click seeking and green word highlighting on a narrow mobile viewport
-   and desktop.
+4. Test the sound button, hover/focus popover, Space-bar pause/resume, all six
+   playback rates, the highlight ON/OFF control, word-click seeking and green
+   word highlighting on a narrow mobile viewport and desktop.
 5. Confirm navigation, logout and backgrounding stop active audio.
 6. Run `git diff --check` and inspect `git status --short`.
 7. Do not commit `.venv-tts`, ONNX/BIN models, shard manifests, failure logs,
