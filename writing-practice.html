@@ -1365,6 +1365,14 @@
       box-shadow: 0 10px 22px rgba(5,150,105,0.08);
     }
 
+    .essay-audio-options-row {
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
     .essay-rate-button {
       min-height: 34px;
       border: 1px solid rgba(5,150,105,0.20);
@@ -1385,9 +1393,47 @@
       color: #fff;
     }
 
+    .essay-highlight-toggle {
+      display: grid;
+      min-width: 116px;
+      align-content: center;
+      justify-items: center;
+      gap: 2px;
+      border: 1px solid rgba(21,89,168,0.20);
+      border-radius: 16px;
+      padding: 8px 12px;
+      background: rgba(239,246,255,0.92);
+      color: #1559a8;
+      font: inherit;
+      font-size: 12px;
+      line-height: 1.15;
+      font-weight: 900;
+      box-shadow: 0 10px 22px rgba(21,89,168,0.08);
+    }
+
+    .essay-highlight-toggle strong {
+      font-size: 14px;
+      letter-spacing: 0.04em;
+    }
+
+    .essay-highlight-toggle.active {
+      border-color: rgba(5,150,105,0.30);
+      background: #047857;
+      color: #fff;
+    }
+
     .essay-word {
       border-radius: 4px;
+      cursor: pointer;
+      outline: none;
       transition: background 0.08s linear, color 0.08s linear, box-shadow 0.08s linear;
+    }
+
+    .essay-word:hover,
+    .essay-word:focus-visible {
+      background: #dbeafe;
+      color: #1559a8;
+      box-shadow: 0 0 0 3px #dbeafe;
     }
 
     .essay-word.is-spoken {
@@ -1411,6 +1457,12 @@
 
       .essay-rate-selector {
         width: 100%;
+      }
+
+      .essay-audio-options-row {
+        display: grid;
+        width: 100%;
+        grid-template-columns: minmax(0, 1fr) 110px;
       }
     }
 
@@ -2061,7 +2113,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v2"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v3"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -4608,6 +4660,7 @@ The writer explains why overwork becomes self-defeating.
     let activeEssayWordIndex = -1;
     const ESSAY_AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
     const ESSAY_AUDIO_RATE_KEY = "edmundWritingAudioRate";
+    const ESSAY_AUDIO_HIGHLIGHT_KEY = "edmundWritingAudioHighlight";
     const ESSAY_WORD_PATTERN = /^[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*(?:-[A-Za-z0-9]+)*$/;
     let selectedEssayAudioRate = (() => {
       try {
@@ -4615,6 +4668,14 @@ The writer explains why overwork becomes self-defeating.
         return ESSAY_AUDIO_RATES.includes(storedRate) ? storedRate : 1;
       } catch (error) {
         return 1;
+      }
+    })();
+    let essayHighlightEnabled = (() => {
+      try {
+        const storedHighlight = localStorage.getItem(ESSAY_AUDIO_HIGHLIGHT_KEY);
+        return storedHighlight === null ? true : storedHighlight !== "false";
+      } catch (error) {
+        return true;
       }
     })();
 
@@ -5580,7 +5641,7 @@ The writer explains why overwork becomes self-defeating.
           if (!ESSAY_WORD_PATTERN.test(token)) return escapeHtml(token);
           const index = wordIndex;
           wordIndex += 1;
-          return `<span class="essay-word" data-essay-word-index="${index}">${escapeHtml(token)}</span>`;
+          return `<span class="essay-word" data-essay-word-index="${index}" title="由此字開始播放">${escapeHtml(token)}</span>`;
         }).join("");
         return `<p>${html}</p>`;
       }).join("");
@@ -5666,6 +5727,32 @@ The writer explains why overwork becomes self-defeating.
       return true;
     }
 
+    function syncEssayHighlightToggle() {
+      const button = document.querySelector("[data-toggle-essay-highlight]");
+      if (!button) return;
+      button.classList.toggle("active", essayHighlightEnabled);
+      button.setAttribute("aria-pressed", String(essayHighlightEnabled));
+      const state = button.querySelector("[data-essay-highlight-state]");
+      if (state) state.textContent = essayHighlightEnabled ? "ON" : "OFF";
+    }
+
+    function setEssayHighlightEnabled(enabled) {
+      essayHighlightEnabled = Boolean(enabled);
+      try {
+        localStorage.setItem(ESSAY_AUDIO_HIGHLIGHT_KEY, String(essayHighlightEnabled));
+      } catch (error) {
+        console.warn("Could not save the essay highlight setting:", error);
+      }
+      syncEssayHighlightToggle();
+      if (!essayHighlightEnabled) {
+        stopEssayHighlightLoop({ clear: true });
+      } else if (activeEssayAudio && !activeEssayAudio.paused && !activeEssayAudio.ended) {
+        startEssayHighlightLoop();
+      } else {
+        updateEssayHighlightNow();
+      }
+    }
+
     function stopEssayHighlightLoop({ clear = false } = {}) {
       if (activeEssayHighlightFrame) cancelAnimationFrame(activeEssayHighlightFrame);
       activeEssayHighlightFrame = 0;
@@ -5676,6 +5763,10 @@ The writer explains why overwork becomes self-defeating.
     }
 
     function setEssayWordHighlight(index) {
+      if (!essayHighlightEnabled) {
+        stopEssayHighlightLoop({ clear: true });
+        return;
+      }
       if (index === activeEssayWordIndex) return;
       document.querySelector(".essay-word.is-spoken")?.classList.remove("is-spoken");
       activeEssayWordIndex = index;
@@ -5705,17 +5796,29 @@ The writer explains why overwork becomes self-defeating.
       return result;
     }
 
+    function updateEssayHighlightNow() {
+      if (!essayHighlightEnabled || !activeEssayAudio) {
+        stopEssayHighlightLoop({ clear: true });
+        return;
+      }
+      const words = essayAudioEntry()?.words;
+      if (Array.isArray(words) && words.length) {
+        setEssayWordHighlight(essayWordIndexAtTime(words, activeEssayAudio.currentTime));
+      }
+    }
+
     function startEssayHighlightLoop() {
       stopEssayHighlightLoop();
+      if (!essayHighlightEnabled) {
+        stopEssayHighlightLoop({ clear: true });
+        return;
+      }
       const tick = () => {
         if (!activeEssayAudio || activeEssayAudio.paused || activeEssayAudio.ended) {
           activeEssayHighlightFrame = 0;
           return;
         }
-        const words = essayAudioEntry()?.words;
-        if (Array.isArray(words) && words.length) {
-          setEssayWordHighlight(essayWordIndexAtTime(words, activeEssayAudio.currentTime));
-        }
+        updateEssayHighlightNow();
         activeEssayHighlightFrame = requestAnimationFrame(tick);
       };
       tick();
@@ -5736,6 +5839,7 @@ The writer explains why overwork becomes self-defeating.
       button.setAttribute("aria-label", `${text} · Edmund Neural`);
       button.setAttribute("title", `${text} · Edmund Neural`);
       syncEssayAudioRateButtons();
+      syncEssayHighlightToggle();
     }
 
     function stopEssayAudio() {
@@ -5754,25 +5858,8 @@ The writer explains why overwork becomes self-defeating.
       syncEssayAudioButton();
     }
 
-    function playOrToggleEssayAudio() {
-      const exercise = currentExercise();
-      const entry = essayAudioEntry(exercise);
+    function startEssayAudioAt(exercise, entry, startTime = 0) {
       if (!exercise || !entry) return false;
-
-      if (activeEssayAudio && activeEssayAudioExerciseId === exercise.id) {
-        if (!activeEssayAudio.paused && !activeEssayAudio.ended) {
-          activeEssayAudio.pause();
-          return true;
-        }
-        if (!activeEssayAudio.ended && activeEssayAudio.currentTime > 0) {
-          const resumeResult = activeEssayAudio.play();
-          if (resumeResult && typeof resumeResult.catch === "function") {
-            resumeResult.catch(error => console.warn("Essay audio resume failed:", error));
-          }
-          return true;
-        }
-      }
-
       stopEssayAudio();
       const audio = new Audio();
       activeEssayAudio = audio;
@@ -5780,7 +5867,7 @@ The writer explains why overwork becomes self-defeating.
       audio.preload = "metadata";
       const path = String(entry.path);
       audio.src = window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path;
-      audio.currentTime = 0;
+      audio.currentTime = Math.max(0, Number(startTime) || 0);
       audio.defaultPlaybackRate = selectedEssayAudioRate;
       audio.playbackRate = selectedEssayAudioRate;
       audio.preservesPitch = true;
@@ -5818,6 +5905,54 @@ The writer explains why overwork becomes self-defeating.
       }
     }
 
+    function playEssayAudioFromWord(index) {
+      const exercise = currentExercise();
+      const entry = essayAudioEntry(exercise);
+      const timing = entry?.words?.[Number(index)];
+      if (!exercise || !entry || !Array.isArray(timing)) return false;
+      const startTime = Math.max(0, Number(timing[1]) || 0);
+
+      if (activeEssayAudio && activeEssayAudioExerciseId === exercise.id) {
+        activeEssayAudio.currentTime = startTime;
+        updateEssayHighlightNow();
+        if (!activeEssayAudio.paused && !activeEssayAudio.ended) return true;
+        try {
+          const playResult = activeEssayAudio.play();
+          if (playResult && typeof playResult.catch === "function") {
+            playResult.catch(error => console.warn("Essay audio seek playback failed:", error));
+          }
+          return true;
+        } catch (error) {
+          console.warn("Essay audio seek playback failed:", error);
+          return false;
+        }
+      }
+
+      return startEssayAudioAt(exercise, entry, startTime);
+    }
+
+    function playOrToggleEssayAudio() {
+      const exercise = currentExercise();
+      const entry = essayAudioEntry(exercise);
+      if (!exercise || !entry) return false;
+
+      if (activeEssayAudio && activeEssayAudioExerciseId === exercise.id) {
+        if (!activeEssayAudio.paused && !activeEssayAudio.ended) {
+          activeEssayAudio.pause();
+          return true;
+        }
+        if (!activeEssayAudio.ended && activeEssayAudio.currentTime > 0) {
+          const resumeResult = activeEssayAudio.play();
+          if (resumeResult && typeof resumeResult.catch === "function") {
+            resumeResult.catch(error => console.warn("Essay audio resume failed:", error));
+          }
+          return true;
+        }
+      }
+
+      return startEssayAudioAt(exercise, entry, 0);
+    }
+
     function renderEssayToolbar(exercise) {
       const audioButton = currentEssayTab === "essay" && essayAudioEntry(exercise)
         ? `
@@ -5826,10 +5961,16 @@ The writer explains why overwork becomes self-defeating.
               <img src="Static Images/sound-button.png" alt="" aria-hidden="true">
               <span data-essay-audio-label>朗讀文章</span>
             </button>
-            <div class="essay-rate-selector" role="group" aria-label="朗讀速度">
-              ${ESSAY_AUDIO_RATES.map(rate => `
-                <button class="essay-rate-button ${rate === selectedEssayAudioRate ? "active" : ""}" type="button" data-essay-audio-rate="${rate}" aria-pressed="${rate === selectedEssayAudioRate}">${essayAudioRateLabel(rate)}</button>
-              `).join("")}
+            <div class="essay-audio-options-row">
+              <div class="essay-rate-selector" role="group" aria-label="朗讀速度">
+                ${ESSAY_AUDIO_RATES.map(rate => `
+                  <button class="essay-rate-button ${rate === selectedEssayAudioRate ? "active" : ""}" type="button" data-essay-audio-rate="${rate}" aria-pressed="${rate === selectedEssayAudioRate}">${essayAudioRateLabel(rate)}</button>
+                `).join("")}
+              </div>
+              <button class="essay-highlight-toggle ${essayHighlightEnabled ? "active" : ""}" type="button" data-toggle-essay-highlight aria-pressed="${essayHighlightEnabled}">
+                <span>同步標示</span>
+                <strong data-essay-highlight-state>${essayHighlightEnabled ? "ON" : "OFF"}</strong>
+              </button>
             </div>
           </div>
         `
@@ -7234,6 +7375,17 @@ The writer explains why overwork becomes self-defeating.
 
         if (event.target.closest("[data-open-practice]")) {
           startPracticeSetup();
+          return;
+        }
+
+        const essayWord = event.target.closest("[data-essay-word-index]");
+        if (essayWord) {
+          playEssayAudioFromWord(essayWord.getAttribute("data-essay-word-index"));
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-essay-highlight]")) {
+          setEssayHighlightEnabled(!essayHighlightEnabled);
           return;
         }
 
