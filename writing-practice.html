@@ -1307,6 +1307,44 @@
       justify-content: flex-end;
       align-items: center;
       gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .essay-audio-button {
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      border: 1px solid rgba(5,150,105,0.22);
+      border-radius: 999px;
+      padding: 0 16px;
+      background: #059669;
+      color: #fff;
+      font: inherit;
+      font-size: 14px;
+      line-height: 1.15;
+      font-weight: 950;
+      box-shadow: 0 8px 0 #047857, 0 16px 26px rgba(5,150,105,0.18);
+      transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+    }
+
+    .essay-audio-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 9px 0 #047857, 0 20px 30px rgba(5,150,105,0.22);
+    }
+
+    .essay-audio-button.is-playing {
+      background: #1559a8;
+      box-shadow: 0 8px 0 #0e3f7d, 0 16px 26px rgba(21,89,168,0.20);
+    }
+
+    .essay-audio-button img {
+      width: 24px;
+      height: 24px;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      pointer-events: none;
     }
 
     .pdf-export-button {
@@ -1955,6 +1993,8 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="edmund-audio-config.js?v=1"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -4495,6 +4535,8 @@ The writer explains why overwork becomes self-defeating.
     let currentExerciseId = "";
     let currentEssayTab = "essay";
     let practiceState = null;
+    let activeEssayAudio = null;
+    let activeEssayAudioExerciseId = "";
 
     function escapeHtml(value) {
       return String(value)
@@ -5478,9 +5520,110 @@ The writer explains why overwork becomes self-defeating.
       return `${tab.zh} / ${tab.en}`;
     }
 
-    function renderEssayToolbar() {
+    function essayAudioEntry(exercise = currentExercise()) {
+      const manifest = window.EDMUND_WRITING_AUDIO || {};
+      if (!exercise?.id || !Object.prototype.hasOwnProperty.call(manifest, exercise.id)) return null;
+      const entry = manifest[exercise.id];
+      return entry && typeof entry === "object" && entry.path ? entry : null;
+    }
+
+    function syncEssayAudioButton() {
+      const button = document.querySelector("[data-play-essay-audio]");
+      if (!button) return;
+      const label = button.querySelector("[data-essay-audio-label]");
+      const exercise = currentExercise();
+      const isCurrent = Boolean(exercise?.id && activeEssayAudioExerciseId === exercise.id);
+      const playing = Boolean(isCurrent && activeEssayAudio && !activeEssayAudio.paused && !activeEssayAudio.ended);
+      const resumable = Boolean(isCurrent && activeEssayAudio && activeEssayAudio.paused && activeEssayAudio.currentTime > 0 && !activeEssayAudio.ended);
+      const text = playing ? "暫停朗讀" : resumable ? "繼續朗讀" : "朗讀文章";
+      if (label) label.textContent = text;
+      button.classList.toggle("is-playing", playing);
+      button.setAttribute("aria-pressed", String(playing));
+      button.setAttribute("aria-label", `${text} · Edmund Neural`);
+      button.setAttribute("title", `${text} · Edmund Neural`);
+    }
+
+    function stopEssayAudio() {
+      if (activeEssayAudio) {
+        activeEssayAudio.onplay = null;
+        activeEssayAudio.onpause = null;
+        activeEssayAudio.onended = null;
+        activeEssayAudio.onerror = null;
+        activeEssayAudio.pause();
+        activeEssayAudio.removeAttribute("src");
+        activeEssayAudio.load();
+      }
+      activeEssayAudio = null;
+      activeEssayAudioExerciseId = "";
+      syncEssayAudioButton();
+    }
+
+    function playOrToggleEssayAudio() {
+      const exercise = currentExercise();
+      const entry = essayAudioEntry(exercise);
+      if (!exercise || !entry) return false;
+
+      if (activeEssayAudio && activeEssayAudioExerciseId === exercise.id) {
+        if (!activeEssayAudio.paused && !activeEssayAudio.ended) {
+          activeEssayAudio.pause();
+          return true;
+        }
+        if (!activeEssayAudio.ended && activeEssayAudio.currentTime > 0) {
+          const resumeResult = activeEssayAudio.play();
+          if (resumeResult && typeof resumeResult.catch === "function") {
+            resumeResult.catch(error => console.warn("Essay audio resume failed:", error));
+          }
+          return true;
+        }
+      }
+
+      stopEssayAudio();
+      const audio = new Audio();
+      activeEssayAudio = audio;
+      activeEssayAudioExerciseId = exercise.id;
+      audio.preload = "metadata";
+      const path = String(entry.path);
+      audio.src = window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path;
+      audio.currentTime = 0;
+      audio.onplay = syncEssayAudioButton;
+      audio.onpause = syncEssayAudioButton;
+      audio.onended = () => {
+        activeEssayAudio = null;
+        activeEssayAudioExerciseId = "";
+        syncEssayAudioButton();
+      };
+      audio.onerror = () => {
+        console.warn("Edmund Neural essay audio could not be loaded:", audio.error);
+        stopEssayAudio();
+      };
+      try {
+        const playResult = audio.play();
+        if (playResult && typeof playResult.catch === "function") {
+          playResult.catch(error => {
+            console.warn("Essay audio playback failed:", error);
+            syncEssayAudioButton();
+          });
+        }
+        return true;
+      } catch (error) {
+        console.warn("Essay audio playback failed:", error);
+        stopEssayAudio();
+        return false;
+      }
+    }
+
+    function renderEssayToolbar(exercise) {
+      const audioButton = currentEssayTab === "essay" && essayAudioEntry(exercise)
+        ? `
+          <button class="essay-audio-button" type="button" data-play-essay-audio aria-pressed="false" aria-label="朗讀文章 · Edmund Neural">
+            <img src="Static Images/sound-button.png" alt="" aria-hidden="true">
+            <span data-essay-audio-label>朗讀文章</span>
+          </button>
+        `
+        : "";
       return `
         <div class="essay-toolbar">
+          ${audioButton}
           <button class="pdf-export-button" type="button" data-export-study-pdf>匯出本頁 PDF</button>
         </div>
       `;
@@ -5497,7 +5640,7 @@ The writer explains why overwork becomes self-defeating.
           </div>
           <button class="primary-button" type="button" data-open-practice>開始練習</button>
         </div>
-        ${renderEssayToolbar()}
+        ${renderEssayToolbar(exercise)}
         <div class="essay-content">${renderTabContent(exercise)}</div>
         ${renderResultHistory(exercise)}
       `;
@@ -5679,12 +5822,21 @@ The writer explains why overwork becomes self-defeating.
       const panel = document.querySelector("[data-exercise-view]");
       if (!panel) return;
 
+      const selectedExercise = currentExercise();
+      const keepEssayAudio = Boolean(
+        selectedExercise?.id
+        && selectedExercise.id === activeEssayAudioExerciseId
+        && currentEssayTab === "essay"
+        && !practiceState
+      );
+      if (activeEssayAudio && !keepEssayAudio) stopEssayAudio();
+
       if (hasWritingPathway(currentExerciseSectionKey) && !currentExerciseId) {
         panel.innerHTML = renderWritingPathwayView();
         return;
       }
 
-      const exercise = currentExercise();
+      const exercise = selectedExercise;
 
       if (!exercise) {
         panel.innerHTML = `
@@ -5710,6 +5862,7 @@ The writer explains why overwork becomes self-defeating.
       }
 
       panel.innerHTML = renderExerciseContent(exercise);
+      syncEssayAudioButton();
     }
 
     function exportCurrentStudyPdf() {
@@ -6320,6 +6473,7 @@ The writer explains why overwork becomes self-defeating.
     }
 
     function showLogin() {
+      stopEssayAudio();
       currentUser = null;
       currentView = "login";
       studentSessionToken = "";
@@ -6339,6 +6493,7 @@ The writer explains why overwork becomes self-defeating.
     }
 
     function showAppPanel(view) {
+      if (view !== "exercise") stopEssayAudio();
       currentView = view;
       document.querySelector("[data-login-view]")?.classList.add("hidden");
       document.querySelector("[data-app-view]")?.classList.remove("hidden");
@@ -6869,6 +7024,11 @@ The writer explains why overwork becomes self-defeating.
           return;
         }
 
+        if (event.target.closest("[data-play-essay-audio]")) {
+          playOrToggleEssayAudio();
+          return;
+        }
+
         if (event.target.closest("[data-export-study-pdf]")) {
           exportCurrentStudyPdf();
           return;
@@ -7015,6 +7175,11 @@ The writer explains why overwork becomes self-defeating.
           ...(practiceState.answers || {}),
           [answerInput.getAttribute("data-answer-id")]: answerInput.value
         };
+      });
+
+      window.addEventListener("pagehide", stopEssayAudio);
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "hidden") stopEssayAudio();
       });
     }
 

@@ -1,0 +1,176 @@
+# Edmund Neural Voice — permanent SOP
+
+This is the canonical recipe for every pre-generated voice file used by Edmund
+Education. The browser never synthesizes speech. It only plays versioned MP3
+files, so iPhone, Android and desktop users hear the same voice.
+
+## The recipe — do not change silently
+
+| Setting | Permanent value |
+| --- | --- |
+| Model | Kokoro-82M v1.0 (`kokoro-v1.0.onnx`) |
+| Voice | `af_heart` |
+| Language | `en-us` |
+| Speed | `0.96` |
+| Output | Mono MP3, 24 kHz, variable bitrate |
+| MP3 compression level | `0.55` |
+| Writing paragraph pause | `0.72` seconds |
+| Audio build version | `v1` |
+| Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0` |
+
+Reference model checksums:
+
+- `kokoro-v1.0.onnx`: `7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5`
+- `voices-v1.0.bin`: `bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d`
+
+The model and voice files are local build dependencies. Never commit them to
+the website repository.
+
+## First-time setup
+
+From the repository root:
+
+```sh
+python3 -m venv .venv-tts
+.venv-tts/bin/python -m pip install -r tools/requirements-tts.txt
+```
+
+Download `kokoro-v1.0.onnx` and `voices-v1.0.bin` from the
+[`kokoro-onnx` model-files-v1.0 release](https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0)
+to a directory outside the repository. Verify them before use:
+
+```sh
+shasum -a 256 /path/to/kokoro-v1.0.onnx
+shasum -a 256 /path/to/voices-v1.0.bin
+```
+
+## SOP A — importing or editing flashcards
+
+Yes: every new **unique English card front** needs a generated MP3. Two cards
+with the identical normalized front share one file. Meanings, translations and
+examples do not need separate audio because the sound button reads the front.
+
+1. Import or edit the cards in their normal source file.
+2. Check the English fronts for spelling and pronunciation-sensitive items.
+3. Add only necessary exceptions to `SPOKEN_OVERRIDES` in
+   `tools/generate-flashcard-audio.py`. The displayed card text must not be
+   changed merely to guide pronunciation.
+4. Generate or resume the audio build:
+
+```sh
+.venv-tts/bin/python tools/generate-flashcard-audio.py \
+  --source-root . \
+  --output-root . \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin
+```
+
+5. Validate the complete library without synthesizing anything:
+
+```sh
+.venv-tts/bin/python tools/generate-flashcard-audio.py \
+  --source-root . \
+  --output-root . \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin \
+  --manifest-only
+```
+
+The generator skips valid existing MP3s. Normally it creates sound only for new
+or renamed fronts and refreshes `flashcards-audio-manifest.js`. User-created
+cards made inside a student's browser are not in the repository corpus and
+therefore cannot receive static audio until they are imported into the source.
+
+## SOP B — adding or editing writing-practice essays
+
+The writing generator reads the English `paragraphs` directly from
+`writing-practice.html`; do not maintain a second transcript.
+
+1. Add or edit the essay in `writing-practice.html`.
+2. Run:
+
+```sh
+.venv-tts/bin/python tools/generate-writing-audio.py \
+  --source-root . \
+  --output-root . \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin \
+  --prune-orphans
+```
+
+3. Validate without regenerating:
+
+```sh
+.venv-tts/bin/python tools/generate-writing-audio.py \
+  --source-root . \
+  --output-root . \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin \
+  --manifest-only
+```
+
+Each essay receives one continuous MP3. Paragraphs are synthesized separately
+and joined with the fixed pause so long essays remain reliable and natural.
+
+## Listening and release checklist
+
+Before committing:
+
+1. Listen to every newly generated essay and a targeted sample of new cards.
+2. Check names, abbreviations, currency, numbers and unusual punctuation.
+3. Confirm each manifest reports `complete: true` and the expected item count.
+4. Test the sound button on a narrow mobile viewport and desktop.
+5. Confirm navigation, logout and backgrounding stop active audio.
+6. Run `git diff --check` and inspect `git status --short`.
+7. Do not commit `.venv-tts`, ONNX/BIN models, shard manifests, failure logs,
+   temporary files or Python cache directories.
+
+When asking Codex to import cards, use: **“Import these cards and rebuild Edmund
+Neural audio according to `tools/EDMUND-NEURAL-VOICE-SOP.md`.”** This explicitly
+includes sound generation and validation in the task.
+
+## Changing the voice recipe
+
+Do not overwrite `v1` audio after changing the model, voice, language, speed,
+compression, pauses or pronunciation rules. Instead:
+
+1. Bump `AUDIO_BUILD_VERSION` in both generators, for example from `v1` to
+   `v2`.
+2. Update the cache tags in `flashcards.html` and `writing-practice.html`.
+3. Generate the complete new version and test it.
+4. Keep the old version until the deployment is verified; remove it later in a
+   separate cleanup.
+
+This prevents browsers and CDNs from mixing old and new recordings.
+
+## Future Cloudflare R2 storage
+
+Moving audio to R2 is feasible and does not require changing the UI or
+manifests. The site currently serves local repository paths because
+`window.EDMUND_AUDIO_BASE_URL` is blank in `edmund-audio-config.js`.
+
+When a move is needed:
+
+1. Upload the `assets/flashcards/audio/` and
+   `assets/writing-practice/audio/` directory trees to matching R2 object keys.
+2. Connect a production custom domain such as `audio.edmundeducation.com` to
+   the bucket. Do not rely on the rate-limited `r2.dev` development URL for the
+   live study system.
+3. Serve MP3s as `audio/mpeg` with a long immutable cache policy because every
+   changed recording receives a versioned/hash-based path.
+4. Set `window.EDMUND_AUDIO_BASE_URL` in `edmund-audio-config.js` to the custom
+   domain root, with no trailing slash.
+5. Test representative card and essay audio, including iPhone Safari, before
+   deleting local copies from the repository.
+
+Cloudflare's current R2 Standard free tier includes 10 GB-month storage, one
+million Class A operations and ten million Class B operations per month, with
+free direct egress. Confirm the current limits before migrating:
+
+- https://developers.cloudflare.com/r2/pricing/
+- https://developers.cloudflare.com/r2/buckets/public-buckets/
+- https://developers.cloudflare.com/cache/interaction-cloudflare-products/r2/
+
+The current flashcard corpus is only about 58 MB, so storage capacity is not a
+near-term concern. Object-read counts, caching and production-domain setup are
+more important than raw storage size.

@@ -1,5 +1,9 @@
 # Rebuilding Edmund Neural audio
 
+The canonical cross-system recipe and release checklist are in
+`tools/EDMUND-NEURAL-VOICE-SOP.md`. This file retains flashcard-specific build
+details.
+
 The website does not synthesize speech in the browser. Official flashcard fronts
 are rendered once with Kokoro-82M, compressed to MP3, and looked up through
 `flashcards-audio-manifest.js`.
