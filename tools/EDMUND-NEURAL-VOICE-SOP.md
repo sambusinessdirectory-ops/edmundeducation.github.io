@@ -14,8 +14,10 @@ files, so iPhone, Android and desktop users hear the same voice.
 | Speed | `0.96` |
 | Output | Mono MP3, 24 kHz, variable bitrate |
 | MP3 compression level | `0.55` |
+| Writing sentence pause | `0.14` seconds |
 | Writing paragraph pause | `0.72` seconds |
-| Audio build version | `v1` |
+| Word timing | Sentence-boundary weighted alignment (`sentence-weighted-v1`) |
+| Audio build version | Flashcards `v1`; writing essays `v2` |
 | Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0` |
 
 Reference model checksums:
@@ -109,8 +111,12 @@ The writing generator reads the English `paragraphs` directly from
   --manifest-only
 ```
 
-Each essay receives one continuous MP3. Paragraphs are synthesized separately
-and joined with the fixed pause so long essays remain reliable and natural.
+Each essay receives one continuous MP3. Sentences are synthesized separately,
+joined with fixed sentence and paragraph pauses, and recorded in the manifest
+with word-level timing data. The writing page uses these timings for its green
+follow-along highlight. Playback speed choices (`0.25X`, `0.5X`, `0.75X`, `1X`,
+`1.25X`, and `1.5X`) are browser playback rates, so they do not require six
+different MP3 files and do not alter the voice recipe.
 
 ## Listening and release checklist
 
@@ -119,7 +125,8 @@ Before committing:
 1. Listen to every newly generated essay and a targeted sample of new cards.
 2. Check names, abbreviations, currency, numbers and unusual punctuation.
 3. Confirm each manifest reports `complete: true` and the expected item count.
-4. Test the sound button on a narrow mobile viewport and desktop.
+4. Test the sound button, all six playback rates and green word highlighting on
+   a narrow mobile viewport and desktop.
 5. Confirm navigation, logout and backgrounding stop active audio.
 6. Run `git diff --check` and inspect `git status --short`.
 7. Do not commit `.venv-tts`, ONNX/BIN models, shard manifests, failure logs,
@@ -134,8 +141,8 @@ includes sound generation and validation in the task.
 Do not overwrite `v1` audio after changing the model, voice, language, speed,
 compression, pauses or pronunciation rules. Instead:
 
-1. Bump `AUDIO_BUILD_VERSION` in both generators, for example from `v1` to
-   `v2`.
+1. Bump `AUDIO_BUILD_VERSION` in the affected generator. Flashcard and writing
+   audio may use different version numbers.
 2. Update the cache tags in `flashcards.html` and `writing-practice.html`.
 3. Generate the complete new version and test it.
 4. Keep the old version until the deployment is verified; remove it later in a
