@@ -22,9 +22,31 @@ from kokoro_onnx import Kokoro
 
 PREVIEW_TEXT = "Welcome to Edmund Education. Let's practise English together."
 INLINE_ASSIGNMENT = "window.EDMUND_FLASHCARD_SEED = "
+EXTERNAL_SEED_ASSIGNMENTS = (
+    (
+        "flashcards-dse-writing-2025-data.js",
+        'window.EDMUND_FLASHCARD_SEED["dse/writing/part-a/2025"] = ',
+    ),
+    (
+        "flashcards-dse-listening-data.js",
+        "window.EDMUND_DSE_LISTENING_SEED = ",
+    ),
+)
 AUDIO_BUILD_VERSION = "v1"
 STATIC_AUDIO_ROOT = f"assets/flashcards/audio/edmund-neural/{AUDIO_BUILD_VERSION}"
 SPOKEN_OVERRIDES = {
+    "AR": "A R",
+    "IT department": "I T department",
+    "MTR station": "M T R station",
+    "NGO": "N G O",
+    "officers from the AFCD": "officers from the A F C D",
+    "QR codes": "Q R codes",
+    "start at A5": "start at A five",
+    "start on A4": "start on A four",
+    "Study at AC": "Study at A C",
+    "three-day AR training programme": "three-day A R training programme",
+    "TNR": "T N R",
+    "World War II": "World War Two",
     "a £50 deposit": "a fifty-pound deposit",
     "pay a £50 deposit": "pay a fifty-pound deposit",
     "extremely high IQs": "extremely high I Q scores",
@@ -50,12 +72,15 @@ def extract_static_fronts(source_root: Path) -> list[str]:
     end = html.index("</script>", start)
     inline_seed = json.loads(html[start:end].strip().removesuffix(";"))
 
-    external_source = (source_root / "flashcards-dse-writing-2025-data.js").read_text(encoding="utf-8")
-    external_start = external_source.index("= [") + 2
-    external_seed = json.loads(external_source[external_start:].strip().removesuffix(";"))
-
     rows = [card for deck in inline_seed.values() for card in deck]
-    rows.extend(external_seed)
+    for filename, assignment in EXTERNAL_SEED_ASSIGNMENTS:
+        external_source = (source_root / filename).read_text(encoding="utf-8")
+        external_start = external_source.index(assignment) + len(assignment)
+        external_seed, _ = json.JSONDecoder().raw_decode(external_source[external_start:])
+        if isinstance(external_seed, list):
+            rows.extend(external_seed)
+        else:
+            rows.extend(card for deck in external_seed.values() for card in deck)
     texts = {normalize_card_text(card.get("front", card.get("term", ""))) for card in rows}
     texts.discard("")
     texts.add(PREVIEW_TEXT)

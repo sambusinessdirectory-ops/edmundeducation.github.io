@@ -8,6 +8,12 @@ The website does not synthesize speech in the browser. Official flashcard fronts
 are rendered once with Kokoro-82M, compressed to MP3, and looked up through
 `flashcards-audio-manifest.js`.
 
+The generator reads the inline seed in `flashcards.html` plus the maintained
+external seeds `flashcards-dse-writing-2025-data.js` and
+`flashcards-dse-listening-data.js`. If another external seed is introduced, add
+its filename and assignment marker to `EXTERNAL_SEED_ASSIGNMENTS` before
+building audio.
+
 ## Local setup
 
 ```sh

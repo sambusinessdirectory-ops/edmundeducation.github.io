@@ -56,7 +56,10 @@ examples do not need separate audio because the sound button reads the front.
 2. Check the English fronts for spelling and pronunciation-sensitive items.
 3. Add only necessary exceptions to `SPOKEN_OVERRIDES` in
    `tools/generate-flashcard-audio.py`. The displayed card text must not be
-   changed merely to guide pronunciation.
+   changed merely to guide pronunciation. An exact override for a brand-new,
+   never-published front may be added before that front's first release without
+   changing the audio build version. If a staged file for that front was
+   already rendered, force-regenerate that exact front before publishing.
 4. Generate or resume the audio build:
 
 ```sh
@@ -148,8 +151,9 @@ includes sound generation and validation in the task.
 
 ## Changing the voice recipe
 
-Do not overwrite `v1` audio after changing the model, voice, language, speed,
-compression, pauses or pronunciation rules. Instead:
+Do not overwrite published `v1` audio after changing the model, voice, language,
+speed, compression, pauses, or the pronunciation of an already-published
+front. Instead:
 
 1. Bump `AUDIO_BUILD_VERSION` in the affected generator. Flashcard and writing
    audio may use different version numbers.
@@ -188,6 +192,7 @@ free direct egress. Confirm the current limits before migrating:
 - https://developers.cloudflare.com/r2/buckets/public-buckets/
 - https://developers.cloudflare.com/cache/interaction-cloudflare-products/r2/
 
-The current flashcard corpus is only about 58 MB, so storage capacity is not a
-near-term concern. Object-read counts, caching and production-domain setup are
-more important than raw storage size.
+The flashcard corpus after the July 2026 DSE Listening import is about 94 MB of
+referenced MP3s, so storage capacity is not a near-term concern. Object-read
+counts, caching and production-domain setup are more important than raw storage
+size.
