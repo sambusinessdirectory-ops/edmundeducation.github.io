@@ -877,6 +877,8 @@
     .exercise-panel {
       display: grid;
       gap: 18px;
+      width: 100%;
+      min-width: 0;
     }
 
     .exercise-kicker {
@@ -999,6 +1001,169 @@
     .practice-text p:last-child,
     .translation-paragraph:last-child {
       margin-bottom: 0;
+    }
+
+    .essay-content .essay-letter-title {
+      margin-bottom: 10px;
+      color: #0e2d55;
+      font-size: clamp(23px, 1.8vw, 30px);
+      line-height: 1.24;
+      font-weight: 950;
+      text-align: center;
+      text-wrap: balance;
+    }
+
+    .essay-content .essay-letter-salutation {
+      margin-bottom: 12px;
+      color: #173153;
+      font-weight: 900;
+    }
+
+    .essay-content .essay-letter-closing {
+      margin: 0 0 3px;
+      color: #173153;
+      font-weight: 850;
+    }
+
+    .essay-content .essay-letter-signature {
+      margin-bottom: 0;
+      color: #0e2d55;
+      font-weight: 950;
+    }
+
+    .translation-sections .translation-section-content {
+      gap: 14px;
+    }
+
+    .translation-unit {
+      gap: 9px;
+      padding: 15px 17px;
+    }
+
+    .translation-role {
+      display: inline-flex;
+      width: fit-content;
+      min-height: 28px;
+      align-items: center;
+      border: 1px solid color-mix(in srgb, var(--block-accent) 18%, transparent);
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: color-mix(in srgb, var(--block-accent) 12%, white);
+      color: color-mix(in srgb, var(--block-accent) 78%, #0e2d55);
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 950;
+    }
+
+    .translation-unit .translation-english,
+    .translation-unit .translation-chinese {
+      margin: 0;
+    }
+
+    .translation-unit .translation-english {
+      color: #13253d;
+      font-size: clamp(16px, 1.08vw, 19px);
+      line-height: 1.62;
+      font-weight: 820;
+    }
+
+    .translation-unit .translation-chinese {
+      border-left: 3px solid color-mix(in srgb, var(--block-accent) 34%, transparent);
+      padding-left: 11px;
+      color: #40506a;
+      font-size: clamp(15px, 1vw, 17px);
+      line-height: 1.58;
+      font-weight: 760;
+    }
+
+    .writing-question-prompt {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(37, 99, 235, .16);
+      border-left: 7px solid #2563eb;
+      border-radius: 16px;
+      padding: clamp(16px, 2vw, 22px);
+      background: linear-gradient(135deg, rgba(239, 246, 255, .94), rgba(255, 255, 255, .9));
+      box-shadow: 0 12px 24px rgba(17, 43, 85, .06);
+    }
+
+    .writing-question-prompt strong {
+      width: fit-content;
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: #1559a8;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 950;
+    }
+
+    .writing-question-prompt p {
+      margin: 0;
+      color: #173153;
+      font-size: clamp(15px, 1.08vw, 18px);
+      line-height: 1.62;
+      font-weight: 760;
+    }
+
+    .practice-word-bank {
+      display: grid;
+      gap: 13px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(202, 138, 4, .2);
+      border-left: 7px solid #ca8a04;
+      border-radius: 16px;
+      padding: clamp(15px, 2vw, 21px);
+      background: rgba(254, 252, 232, .9);
+      box-shadow: 0 12px 24px rgba(113, 63, 18, .07);
+    }
+
+    .practice-word-bank > h3 {
+      margin: 0;
+      font-size: clamp(19px, 1.4vw, 24px);
+    }
+
+    .practice-word-bank-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .practice-word-bank-group {
+      display: grid;
+      gap: 9px;
+      border: 1px solid rgba(202, 138, 4, .13);
+      border-radius: 13px;
+      padding: 12px;
+      background: rgba(255, 255, 255, .72);
+    }
+
+    .practice-word-bank-group strong {
+      color: #854d0e;
+      font-size: 14px;
+      line-height: 1.3;
+      font-weight: 950;
+    }
+
+    .practice-word-bank-items {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      align-items: flex-start;
+    }
+
+    .practice-word-bank-chip {
+      display: inline-flex;
+      height: fit-content;
+      border: 1px solid rgba(202, 138, 4, .14);
+      border-radius: 999px;
+      padding: 5px 9px;
+      background: #fff;
+      color: #713f12;
+      font-size: 13px;
+      line-height: 1.25;
+      font-weight: 820;
     }
 
     .study-list {
@@ -1975,12 +2140,17 @@
         padding-top: 16px;
       }
 
+      .brand {
+        width: 100%;
+        gap: 8px;
+      }
+
       .brand-main {
-        width: min(300px, 62vw);
+        width: min(220px, 58vw);
       }
 
       .brand-learning {
-        width: min(170px, 32vw);
+        width: min(112px, 28vw);
       }
 
       .hero {
@@ -2005,6 +2175,7 @@
       .writing-grid,
       .access-grid,
       .study-list,
+      .practice-word-bank-grid,
       .synonym-row,
       .pathway-row-wrap,
       .paragraph-checkboxes,
@@ -2172,7 +2343,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v5"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260712-1"></script>
+  <script src="writing-practice-dse-2025-q3-data.js?v=20260712"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -2194,6 +2366,10 @@
     ];
 
     const writingPathways = {
+      "dse-writing": {
+        title: "DSE Writing",
+        kind: "dse"
+      },
       "ielts-writing": {
         title: "IELTS Writing",
         tasks: [
@@ -2219,6 +2395,20 @@
       }
     };
 
+    const dseWritingYears = Array.from({ length: 15 }, (_, index) => String(2012 + index));
+    const dseWritingParts = [
+      { key: "part-a", label: "Part A", subline: "短文寫作" },
+      { key: "part-b", label: "Part B", subline: "長文寫作" }
+    ];
+    const dseWritingQuestionsByYear = {
+      "2025": [
+        { key: "Q2", label: "Q2", exerciseId: "" },
+        { key: "Q3", label: "Q3", exerciseId: "dse-writing-2025-part-b-q3" },
+        { key: "Q4", label: "Q4", exerciseId: "" },
+        { key: "Q5", label: "Q5", exerciseId: "" }
+      ]
+    };
+
     const essayTabOrder = [
       { key: "essay", zh: "文章", en: "Essay" },
       { key: "translation", zh: "中文翻譯", en: "Translation" },
@@ -2230,6 +2420,14 @@
       { key: "grammar", zh: "語法與句式", en: "Grammar and Sentence Structures" },
       { key: "logicalReasoning", zh: "邏輯推理", en: "Logical Reasoning" },
       { key: "literaryDevices", zh: "文學及修辭手法分析", en: "Literary / Rhetorical Devices Analysis" }
+    ];
+
+    const practiceModeDefinitions = [
+      { key: "blank", title: "標準模式", description: "只有編號空格，不顯示字母提示。" },
+      { key: "start", title: "顯示開首字母", description: "每格顯示答案的第一個字母。" },
+      { key: "end", title: "顯示結尾字母", description: "每格顯示答案的最後一個字母。" },
+      { key: "both", title: "顯示開首及結尾字母", description: "每格顯示答案的第一及最後一個字母。" },
+      { key: "sentence", title: "句子填充模式", description: "以句子卡形式練習，而不是全篇文章版面。" }
     ];
 
     const writingExercises = {
@@ -2644,6 +2842,11 @@
         studyTabs: {}
       }
     };
+
+    const externalDseWritingExercises = window.EDMUND_DSE_WRITING_EXERCISES;
+    if (externalDseWritingExercises && typeof externalDseWritingExercises === "object" && !Array.isArray(externalDseWritingExercises)) {
+      Object.assign(writingExercises, externalDseWritingExercises);
+    }
 
     const synonymAcceptanceGuide = [
       { number: 1, original: "treated", strong: ["regarded", "viewed", "seen", "considered", "recognised", "accepted"], caution: ["understood"] },
@@ -4508,6 +4711,8 @@ Device: concession 讓步
     let currentExerciseSectionKey = "";
     let currentPathwayLevel = "";
     let currentEssayTypeKey = "";
+    let currentDseWritingPart = "";
+    let currentDseWritingYear = "";
     let currentExerciseId = "";
     let currentEssayTab = "essay";
     let practiceState = null;
@@ -4518,7 +4723,7 @@ Device: concession 讓步
     const ESSAY_AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
     const ESSAY_AUDIO_RATE_KEY = "edmundWritingAudioRate";
     const ESSAY_AUDIO_HIGHLIGHT_KEY = "edmundWritingAudioHighlight";
-    const ESSAY_WORD_PATTERN = /^[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*(?:-[A-Za-z0-9]+)*$/;
+    const ESSAY_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
     let selectedEssayAudioRate = (() => {
       try {
         const storedRate = Number(localStorage.getItem(ESSAY_AUDIO_RATE_KEY));
@@ -4641,6 +4846,44 @@ Device: concession 讓步
       return exerciseBySection(currentExerciseSectionKey);
     }
 
+    function resetDseWritingPathwayState() {
+      currentDseWritingPart = "";
+      currentDseWritingYear = "";
+    }
+
+    function practiceModesForExercise(exercise = currentExercise()) {
+      const configured = Array.isArray(exercise?.practiceModes)
+        ? new Set(exercise.practiceModes.map(mode => String(mode)))
+        : null;
+      const modes = configured
+        ? practiceModeDefinitions.filter(mode => configured.has(mode.key))
+        : practiceModeDefinitions;
+      const availableModes = modes.length ? modes : practiceModeDefinitions;
+      const details = exercise?.practiceModeDetails && typeof exercise.practiceModeDetails === "object"
+        ? exercise.practiceModeDetails
+        : {};
+      return availableModes.map(mode => ({ ...mode, ...(details[mode.key] || {}) }));
+    }
+
+    function dseWritingQuestions(partKey, year) {
+      if (partKey !== "part-b") return [];
+      return dseWritingQuestionsByYear[String(year)] || [];
+    }
+
+    function dseWritingExerciseIdsForYear(partKey, year) {
+      return dseWritingQuestions(partKey, year)
+        .map(question => question.exerciseId)
+        .filter(exerciseId => Boolean(exerciseId && exerciseById(exerciseId)));
+    }
+
+    function dseWritingExerciseIdsForPart(partKey) {
+      return dseWritingYears.flatMap(year => dseWritingExerciseIdsForYear(partKey, year));
+    }
+
+    function currentDseWritingPartLabel() {
+      return dseWritingParts.find(part => part.key === currentDseWritingPart)?.label || "DSE Writing";
+    }
+
     function getPathwayTask(pathway, taskKey) {
       return pathway?.tasks?.find(task => task.key === taskKey) || null;
     }
@@ -4699,9 +4942,88 @@ Device: concession 讓步
       `;
     }
 
+    function renderDseWritingPathwayView(pathway) {
+      if (currentPathwayLevel === "dse-questions") {
+        const questions = dseWritingQuestions(currentDseWritingPart, currentDseWritingYear);
+        return `
+          <div class="pathway-card">
+            <div class="pathway-head">
+              <div>
+                <h2>DSE Writing ${escapeHtml(currentDseWritingPartLabel())} ${escapeHtml(currentDseWritingYear)}</h2>
+                <p>選擇題目，再進入文章及填充練習。</p>
+              </div>
+              <button class="secondary-button" type="button" data-pathway-back>返回年份</button>
+            </div>
+            <div class="pathway-list">
+              ${questions.map(question => {
+                const exercise = question.exerciseId ? exerciseById(question.exerciseId) : null;
+                const exerciseIds = exercise ? [question.exerciseId] : [];
+                return pathwayRowHtml({
+                  label: exercise?.title || question.label,
+                  subline: exercise ? `${exercise.exam} | ${exercise.taskType}` : "即將推出",
+                  exerciseIds,
+                  action: exercise ? `data-open-writing-deck="${escapeHtml(question.exerciseId)}"` : "",
+                  locked: !exercise
+                });
+              }).join("") || `<div class="pathway-empty">這個年份暫時未有題目。</div>`}
+            </div>
+          </div>
+        `;
+      }
+
+      if (currentPathwayLevel === "dse-years") {
+        return `
+          <div class="pathway-card">
+            <div class="pathway-head">
+              <div>
+                <h2>DSE Writing ${escapeHtml(currentDseWritingPartLabel())}</h2>
+                <p>選擇年份；暫未加入文章的年份會顯示「即將推出」。</p>
+              </div>
+              <button class="secondary-button" type="button" data-pathway-back>返回 Part A / Part B</button>
+            </div>
+            <div class="pathway-list">
+              ${dseWritingYears.map(year => {
+                const exerciseIds = dseWritingExerciseIdsForYear(currentDseWritingPart, year);
+                return pathwayRowHtml({
+                  label: year,
+                  subline: `${currentDseWritingPartLabel()} | ${exerciseIds.length ? "已有文章" : "即將推出"}`,
+                  exerciseIds,
+                  action: `data-open-dse-writing-year="${escapeHtml(year)}"`
+                });
+              }).join("")}
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="pathway-card">
+          <div class="pathway-head">
+            <div>
+              <h2>Writing</h2>
+              <p>${escapeHtml(pathway.title)} | 選擇 Part A 或 Part B。</p>
+            </div>
+            <button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>
+          </div>
+          <div class="pathway-list">
+            ${dseWritingParts.map(part => pathwayRowHtml({
+              label: part.label,
+              subline: part.subline,
+              exerciseIds: dseWritingExerciseIdsForPart(part.key),
+              action: `data-open-dse-writing-part="${escapeHtml(part.key)}"`
+            })).join("")}
+          </div>
+        </div>
+      `;
+    }
+
     function renderWritingPathwayView() {
       const pathway = writingPathways[currentExerciseSectionKey];
       if (!pathway) return "";
+
+      if (pathway.kind === "dse") {
+        return renderDseWritingPathwayView(pathway);
+      }
 
       if (currentPathwayLevel === "task-2") {
         const task = getPathwayTask(pathway, "task-2");
@@ -5087,9 +5409,18 @@ Device: concession 讓步
       return new Map(result.mistakes.map(mistake => [mistake.blankId, mistake]));
     }
 
+    function writingPathwayDeckBackLabel() {
+      if (currentExerciseSectionKey === "dse-writing") {
+        return currentDseWritingYear ? `返回 ${currentDseWritingYear} 題目` : "返回 DSE Writing";
+      }
+      const pathway = writingPathways[currentExerciseSectionKey];
+      const essayType = getPathwayEssayType(pathway, currentEssayTypeKey);
+      return essayType?.label ? `返回 ${essayType.label}` : "返回 IELTS 路徑";
+    }
+
     function renderExerciseHeader(exercise, subtitle = "") {
       const backButton = hasWritingPathway(currentExerciseSectionKey) && currentExerciseId && !practiceState
-        ? `<button class="secondary-button" type="button" data-back-writing-pathway>返回 IELTS 路徑</button>`
+        ? `<button class="secondary-button" type="button" data-back-writing-pathway>${escapeHtml(writingPathwayDeckBackLabel())}</button>`
         : `<button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>`;
       return `
         <div class="section-head">
@@ -5103,6 +5434,19 @@ Device: concession 讓步
             ${backButton}
           </div>
         </div>
+      `;
+    }
+
+    function renderQuestionPrompt(exercise) {
+      const promptLines = Array.isArray(exercise?.questionPrompt)
+        ? exercise.questionPrompt.map(line => String(line || "").trim()).filter(Boolean)
+        : [];
+      if (!promptLines.length) return "";
+      return `
+        <section class="writing-question-prompt" aria-label="Writing question">
+          <strong>2025 Q3 · Writing Task</strong>
+          ${promptLines.map(line => `<p>${escapeHtml(line)}</p>`).join("")}
+        </section>
       `;
     }
 
@@ -5423,7 +5767,7 @@ Device: concession 讓步
     }
 
     function isLiteraryDeviceHeading(line) {
-      return /^(analogy|simile-like comparison|metaphor|conceptual metaphor|idiomatic metaphor|image-based metaphor|personification|symbolism|dead metaphor|metaphorical phrasing|visual imagery|visual contrast|image-based explanation|contrastive phrasing|antithesis|contrast pair|rather than|juxtaposition|parallelism|parallel verbs|the rule of three|repetition|cumulative sentence|hedging language|softeners|intensifier|intensifiers|tonal modifier|balanced tone|balanced argument|cause-and-effect reasoning|practical consequence|concession)\b/i.test(line.trim());
+      return /^(analogy|simile-like comparison|metaphor|conceptual metaphor|idiomatic metaphor|image-based metaphor|personification|symbolism|dead metaphor|metaphorical phrasing|situational imagery|visual imagery|auditory imagery|concrete examples|visual contrast|image-based explanation|contrastive phrasing|contrastive structure|contrastive ending|antithesis|contrast pair|rather than|juxtaposition|parallelism|parallel verbs|the rule of three|repetition|lexical repetition|rhetorical concession|cumulative sentence|hedging language|softeners|intensifier|intensifiers|tonal modifier|balanced tone|balanced argument|balanced concession|formal argumentative tone|evaluative language|persuasive maxim|cause-and-effect reasoning|practical consequence|concession)\b/i.test(line.trim());
     }
 
     function splitLearningGroups(text = "", context = {}) {
@@ -5492,33 +5836,101 @@ Device: concession 讓步
     }
 
     function essayTextTokens(value) {
-      return String(value || "").match(/[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*(?:-[A-Za-z0-9]+)*|[^A-Za-z0-9]+/g) || [];
+      return String(value || "").match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*|[^\p{L}\p{N}]+/gu) || [];
+    }
+
+    function essayDisplayLineText(line) {
+      if (line && typeof line === "object") return String(line.text || "").trim();
+      return String(line || "").trim();
+    }
+
+    function essayDisplayBlocks(exercise) {
+      const leadLines = Array.isArray(exercise?.essayLeadLines)
+        ? exercise.essayLeadLines.map(essayDisplayLineText).filter(Boolean)
+        : [];
+      const closingLines = Array.isArray(exercise?.essayClosingLines)
+        ? exercise.essayClosingLines.map(essayDisplayLineText).filter(Boolean)
+        : [];
+      return [
+        ...leadLines.map((text, index) => ({
+          text,
+          className: index === 0 ? "essay-letter-title" : "essay-letter-salutation"
+        })),
+        ...exercise.paragraphs.map(paragraph => ({ text: plainParagraph(paragraph), className: "" })),
+        ...closingLines.map((text, index) => ({
+          text,
+          className: `essay-letter-closing${index === closingLines.length - 1 ? " essay-letter-signature" : ""}`
+        }))
+      ];
+    }
+
+    function essayDisplayParagraphHtml(className, html) {
+      return `<p${className ? ` class="${escapeHtml(className)}"` : ""}>${html}</p>`;
     }
 
     function renderTimedEssay(exercise) {
-      const paragraphTexts = exercise.paragraphs.map(plainParagraph);
+      const displayBlocks = essayDisplayBlocks(exercise);
       const entry = essayAudioEntry(exercise);
       const timingWords = Array.isArray(entry?.words) ? entry.words : [];
-      const displayWords = paragraphTexts
-        .flatMap(essayTextTokens)
+      const displayWords = displayBlocks
+        .flatMap(block => essayTextTokens(block.text))
         .filter(token => ESSAY_WORD_PATTERN.test(token));
       const timingsMatch = timingWords.length === displayWords.length
         && timingWords.every((row, index) => Array.isArray(row) && row[0] === displayWords[index]);
 
       if (!timingsMatch) {
-        return paragraphTexts.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("");
+        return displayBlocks
+          .map(block => essayDisplayParagraphHtml(block.className, escapeHtml(block.text)))
+          .join("");
       }
 
       let wordIndex = 0;
-      return paragraphTexts.map(paragraph => {
-        const html = essayTextTokens(paragraph).map(token => {
+      return displayBlocks.map(block => {
+        const html = essayTextTokens(block.text).map(token => {
           if (!ESSAY_WORD_PATTERN.test(token)) return escapeHtml(token);
           const index = wordIndex;
           wordIndex += 1;
           return `<span class="essay-word" data-essay-word-index="${index}" title="由此字開始播放">${escapeHtml(token)}</span>`;
         }).join("");
-        return `<p>${html}</p>`;
+        return essayDisplayParagraphHtml(block.className, html);
       }).join("");
+    }
+
+    function renderTranslationSections(sections = []) {
+      const allowedTones = new Set(["blue", "green", "cyan", "purple", "orange", "red", "gold"]);
+      return `
+        <div class="learning-blocks translation-sections">
+          ${sections.map(section => {
+            const tone = allowedTones.has(section?.tone) ? section.tone : "blue";
+            const units = Array.isArray(section?.units)
+              ? section.units
+              : Array.isArray(section?.items)
+                ? section.items
+                : Array.isArray(section?.sentences)
+                  ? section.sentences
+                  : [];
+            return `
+              <section class="learning-block translation-section tone-${escapeHtml(tone)}">
+                <h3>${escapeHtml(section?.title || "Translation")}${section?.subtitle ? `<span>${escapeHtml(section.subtitle)}</span>` : ""}</h3>
+                <div class="learning-block-content translation-section-content">
+                  ${units.map(unit => {
+                    const label = Array.isArray(unit) ? unit[0] : unit?.label || unit?.role || unit?.heading || "";
+                    const english = Array.isArray(unit) ? unit[1] : unit?.english || unit?.en || unit?.text || "";
+                    const chinese = Array.isArray(unit) ? unit[2] : unit?.chinese || unit?.zh || unit?.translation || "";
+                    return `
+                      <article class="learning-unit translation-unit">
+                        ${label ? `<div class="translation-role">${escapeHtml(label)}</div>` : ""}
+                        ${english ? `<p class="translation-english" lang="en">${escapeHtml(english)}</p>` : ""}
+                        ${chinese ? `<p class="translation-chinese" lang="zh-Hant">${escapeHtml(chinese)}</p>` : ""}
+                      </article>
+                    `;
+                  }).join("")}
+                </div>
+              </section>
+            `;
+          }).join("")}
+        </div>
+      `;
     }
 
     function renderTabContent(exercise) {
@@ -5530,16 +5942,20 @@ Device: concession 讓步
         return renderSynonymGuide(exercise);
       }
 
+      if (currentEssayTab === "translation" && Array.isArray(exercise.translationSections) && exercise.translationSections.length) {
+        return renderTranslationSections(exercise.translationSections);
+      }
+
       const learningBlocks = exercise.learningContent?.[currentEssayTab];
       if (learningBlocks) {
         return renderLearningBlocks(learningBlocks, currentEssayTab);
       }
 
       if (currentEssayTab === "translation") {
-        return exercise.translation.map(paragraph => `<p class="translation-paragraph">${escapeHtml(paragraph)}</p>`).join("");
+        return (exercise.translation || []).map(paragraph => `<p class="translation-paragraph">${escapeHtml(paragraph)}</p>`).join("");
       }
 
-      const items = exercise.studyTabs[currentEssayTab] || [];
+      const items = exercise.studyTabs?.[currentEssayTab] || [];
       return renderStudyList(items);
     }
 
@@ -5864,6 +6280,7 @@ Device: concession 讓步
     function renderExerciseContent(exercise) {
       return `
         ${renderExerciseHeader(exercise)}
+        ${renderQuestionPrompt(exercise)}
         ${renderEssayTabs()}
         <div class="practice-strip">
           <div>
@@ -5906,26 +6323,12 @@ Device: concession 讓步
           </div>
 
           <div class="practice-mode-grid">
-            <button class="mode-button" type="button" data-start-practice-mode="blank">
-              <strong>標準模式</strong>
-              <span>只有編號空格，不顯示字母提示。</span>
-            </button>
-            <button class="mode-button" type="button" data-start-practice-mode="start">
-              <strong>顯示開首字母</strong>
-              <span>每格顯示答案的第一個字母。</span>
-            </button>
-            <button class="mode-button" type="button" data-start-practice-mode="end">
-              <strong>顯示結尾字母</strong>
-              <span>每格顯示答案的最後一個字母。</span>
-            </button>
-            <button class="mode-button" type="button" data-start-practice-mode="both">
-              <strong>顯示開首及結尾字母</strong>
-              <span>每格顯示答案的第一及最後一個字母。</span>
-            </button>
-            <button class="mode-button" type="button" data-start-practice-mode="sentence">
-              <strong>句子填充模式</strong>
-              <span>以句子卡形式練習，而不是全篇文章版面。</span>
-            </button>
+            ${practiceModesForExercise(exercise).map(mode => `
+              <button class="mode-button" type="button" data-start-practice-mode="${escapeHtml(mode.key)}">
+                <strong>${escapeHtml(mode.title)}</strong>
+                <span>${escapeHtml(mode.description)}</span>
+              </button>
+            `).join("")}
           </div>
         </div>
         ${renderResultHistory(exercise)}
@@ -5993,6 +6396,26 @@ Device: concession 讓步
       `;
     }
 
+    function renderPracticeWordBank(exercise) {
+      const groups = Array.isArray(exercise?.wordBankGroups) ? exercise.wordBankGroups : [];
+      if (practiceState?.mode !== "blank" || practiceState?.round !== 1 || !groups.length) return "";
+      return `
+        <section class="practice-word-bank" aria-label="Categorised word bank">
+          <h3>分類詞庫 <span lang="en">Categorised Word Bank</span></h3>
+          <div class="practice-word-bank-grid">
+            ${groups.map(group => `
+              <div class="practice-word-bank-group">
+                <strong>${escapeHtml(group.title || "Word bank")}</strong>
+                <div class="practice-word-bank-items">
+                  ${(Array.isArray(group.items) ? group.items : []).map(item => `<span class="practice-word-bank-chip">${escapeHtml(item)}</span>`).join("")}
+                </div>
+              </div>
+            `).join("")}
+          </div>
+        </section>
+      `;
+    }
+
     function renderResultPanel(result, exercise) {
       if (!result) return "";
       return `
@@ -6043,6 +6466,7 @@ Device: concession 讓步
             <button class="secondary-button" type="button" data-back-practice-mode>更改模式</button>
           </div>
           ${practiceState.submitted ? renderResultPanel(practiceState.lastResult, exercise) : ""}
+          ${renderPracticeWordBank(exercise)}
           ${renderPracticeBody(exercise, targets)}
           ${practiceState.submitted ? "" : `<button class="primary-button" type="submit">提交答案</button>`}
         </form>
@@ -6418,6 +6842,7 @@ Device: concession 讓步
       currentExerciseSectionKey = sectionKey;
       currentPathwayLevel = hasWritingPathway(sectionKey) ? "" : "exercise";
       currentEssayTypeKey = "";
+      resetDseWritingPathwayState();
       currentExerciseId = "";
       currentEssayTab = "essay";
       practiceState = null;
@@ -6434,6 +6859,7 @@ Device: concession 讓步
     function startPracticeMode(mode) {
       const exercise = currentExercise();
       if (!exercise || !practiceState) return;
+      if (!practiceModesForExercise(exercise).some(option => option.key === mode)) return;
       const savedAnswers = syncPracticeAnswersFromDom();
       const selectedParagraphs = normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs);
       const targets = getExerciseBlanks(exercise, { selectedParagraphs });
@@ -7158,6 +7584,12 @@ Device: concession 讓步
         }
 
         if (event.target.closest("[data-open-dashboard]")) {
+          currentExerciseSectionKey = "";
+          currentPathwayLevel = "";
+          currentEssayTypeKey = "";
+          resetDseWritingPathwayState();
+          currentExerciseId = "";
+          practiceState = null;
           showAppPanel("dashboard");
         }
 
@@ -7173,6 +7605,7 @@ Device: concession 讓步
           currentExerciseSectionKey = "";
           currentPathwayLevel = "";
           currentEssayTypeKey = "";
+          resetDseWritingPathwayState();
           currentExerciseId = "";
           practiceState = null;
           showAppPanel("dashboard");
@@ -7183,7 +7616,34 @@ Device: concession 讓步
           currentExerciseId = "";
           currentEssayTab = "essay";
           practiceState = null;
-          currentPathwayLevel = currentEssayTypeKey ? "category" : "task-2";
+          if (currentExerciseSectionKey === "dse-writing") {
+            currentPathwayLevel = currentDseWritingYear ? "dse-questions" : currentDseWritingPart ? "dse-years" : "";
+          } else {
+            currentPathwayLevel = currentEssayTypeKey ? "category" : "task-2";
+          }
+          renderExerciseView();
+          return;
+        }
+
+        const dseWritingPartButton = event.target.closest("[data-open-dse-writing-part]");
+        if (dseWritingPartButton) {
+          if (dseWritingPartButton.getAttribute("aria-disabled") === "true") return;
+          currentDseWritingPart = dseWritingPartButton.getAttribute("data-open-dse-writing-part") || "";
+          currentDseWritingYear = "";
+          currentPathwayLevel = "dse-years";
+          currentExerciseId = "";
+          practiceState = null;
+          renderExerciseView();
+          return;
+        }
+
+        const dseWritingYearButton = event.target.closest("[data-open-dse-writing-year]");
+        if (dseWritingYearButton) {
+          if (dseWritingYearButton.getAttribute("aria-disabled") === "true") return;
+          currentDseWritingYear = dseWritingYearButton.getAttribute("data-open-dse-writing-year") || "";
+          currentPathwayLevel = "dse-questions";
+          currentExerciseId = "";
+          practiceState = null;
           renderExerciseView();
           return;
         }
@@ -7221,7 +7681,17 @@ Device: concession 讓步
         }
 
         if (event.target.closest("[data-pathway-back]")) {
-          if (currentPathwayLevel === "category") {
+          if (currentExerciseSectionKey === "dse-writing") {
+            if (currentPathwayLevel === "dse-questions") {
+              currentPathwayLevel = "dse-years";
+              currentDseWritingYear = "";
+            } else if (currentPathwayLevel === "dse-years") {
+              currentPathwayLevel = "";
+              resetDseWritingPathwayState();
+            } else {
+              currentPathwayLevel = "";
+            }
+          } else if (currentPathwayLevel === "category") {
             currentPathwayLevel = "task-2";
             currentEssayTypeKey = "";
           } else {

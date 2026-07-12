@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Generate one static Edmund Neural MP3 for every writing-practice essay.
 
-The script reads the English essay paragraphs directly from writing-practice.html,
-so the displayed text remains the single source of truth.
+The script reads the displayed essay data from writing-practice.html and its
+small, page-specific data file, so the browser text remains the source of truth.
 """
 
 from __future__ import annotations
@@ -28,7 +28,7 @@ DEFAULT_LANGUAGE = "en-us"
 DEFAULT_SPEED = 0.96
 PARAGRAPH_PAUSE_SECONDS = 0.72
 SENTENCE_PAUSE_SECONDS = 0.45
-WORD_PATTERN = re.compile(r"[A-Za-z0-9]+(?:[’'][A-Za-z0-9]+)*(?:-[A-Za-z0-9]+)*")
+WORD_PATTERN = re.compile(r"[^\W_]+(?:[’'][^\W_]+)*(?:-[^\W_]+)*", re.UNICODE)
 DEFAULT_ALIGNMENT_MODEL = "base.en"
 WORD_TIMING_VERSION = "faster-whisper-base.en-audio-v1"
 
@@ -77,6 +77,69 @@ def top_level_objects(array_source: str) -> list[str]:
 def decode_js_strings(array_source: str) -> str:
     tokens = re.findall(r'"(?:\\.|[^"\\])*"', array_source)
     return "".join(json.loads(token) for token in tokens)
+
+
+def essay_from_json(exercise_id: str, exercise: dict[str, object]) -> dict[str, object]:
+    """Normalize one JSON-backed exercise into audio paragraphs and sentences."""
+    paragraphs: list[str] = []
+    sentence_groups: list[list[str]] = []
+
+    for line in exercise.get("essayLeadLines", []) or []:
+        clean = str(line).strip()
+        if clean:
+            paragraphs.append(clean)
+            sentence_groups.append([clean])
+
+    for paragraph in exercise.get("paragraphs", []) or []:
+        if not isinstance(paragraph, dict):
+            continue
+        sentences: list[str] = []
+        for sentence in paragraph.get("sentences", []) or []:
+            if not isinstance(sentence, dict):
+                continue
+            parts = sentence.get("parts", []) or []
+            text = "".join(
+                str(part.get("answer", "")) if isinstance(part, dict) else str(part)
+                for part in parts
+            ).strip()
+            if text:
+                sentences.append(text)
+        paragraph_text = " ".join(sentences).strip()
+        if paragraph_text:
+            paragraphs.append(paragraph_text)
+            sentence_groups.append(sentences)
+
+    for line in exercise.get("essayClosingLines", []) or []:
+        clean = str(line).strip()
+        if clean:
+            paragraphs.append(clean)
+            sentence_groups.append([clean])
+
+    if not paragraphs:
+        raise ValueError(f"No English essay paragraphs found for {exercise_id}")
+    return {
+        "title": str(exercise.get("title") or exercise_id),
+        "paragraphs": paragraphs,
+        "sentences": sentence_groups,
+        "text": "\n\n".join(paragraphs),
+    }
+
+
+def extract_external_essays(source_root: Path) -> dict[str, dict[str, object]]:
+    """Read optional JSON-compatible writing exercise data files."""
+    essays: dict[str, dict[str, object]] = {}
+    for path in sorted(source_root.glob("writing-practice-*-data.js")):
+        source = path.read_text(encoding="utf-8")
+        match = re.search(r"window\.[A-Z0-9_]+\s*=\s*(\{.*\});\s*$", source, re.S)
+        if not match:
+            continue
+        payload = json.loads(match.group(1))
+        if not isinstance(payload, dict):
+            continue
+        for exercise_id, exercise in payload.items():
+            if isinstance(exercise, dict):
+                essays[str(exercise_id)] = essay_from_json(str(exercise_id), exercise)
+    return essays
 
 
 def extract_essays(source_root: Path) -> dict[str, dict[str, object]]:
@@ -130,6 +193,12 @@ def extract_essays(source_root: Path) -> dict[str, dict[str, object]]:
             "sentences": sentence_groups,
             "text": full_text,
         }
+
+    external_essays = extract_external_essays(source_root)
+    duplicate_ids = sorted(set(essays) & set(external_essays))
+    if duplicate_ids:
+        raise ValueError(f"Duplicate writing exercise id(s): {', '.join(duplicate_ids)}")
+    essays.update(external_essays)
 
     if not essays:
         raise ValueError("No writing-practice essays found")
