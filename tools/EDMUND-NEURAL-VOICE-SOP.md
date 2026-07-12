@@ -184,6 +184,18 @@ When a move is needed:
 5. Test representative card and essay audio, including iPhone Safari, before
    deleting local copies from the repository.
 
+The first migration uploads the complete directory trees once. After that,
+normal deck imports are incremental: upload only the newly generated hash-named
+MP3 objects and deploy the updated website manifest. Do not delete and re-upload
+unchanged objects. When a front is removed, its old object may remain harmlessly
+until a deliberate cleanup.
+
+Do not use SoundCloud as the object store for this system. SoundCloud manages
+uploads as tracks, transcodes them for streaming, and exposes track/API stream
+URLs rather than stable object keys. The flashcard site instead needs thousands
+of directly addressable, immutable MP3 objects. Use R2 or another S3-compatible
+object store.
+
 Cloudflare's current R2 Standard free tier includes 10 GB-month storage, one
 million Class A operations and ten million Class B operations per month, with
 free direct egress. Confirm the current limits before migrating:
@@ -192,7 +204,7 @@ free direct egress. Confirm the current limits before migrating:
 - https://developers.cloudflare.com/r2/buckets/public-buckets/
 - https://developers.cloudflare.com/cache/interaction-cloudflare-products/r2/
 
-The flashcard corpus after the July 2026 DSE Listening import is about 94 MB of
-referenced MP3s, so storage capacity is not a near-term concern. Object-read
-counts, caching and production-domain setup are more important than raw storage
-size.
+The flashcard corpus after the 2025 DSE Listening import is about 97 MB of
+referenced MP3s (a little over four hours of speech), so storage capacity is not
+a near-term concern. Object-read counts, caching and production-domain setup
+are more important than raw storage size.

@@ -14,6 +14,21 @@ external seeds `flashcards-dse-writing-2025-data.js` and
 its filename and assignment marker to `EXTERNAL_SEED_ASSIGNMENTS` before
 building audio.
 
+## Deployment layout
+
+There is no single combined flashcard-audio file. The live library is:
+
+- `assets/flashcards/audio/edmund-neural/v1/`: one hash-named MP3 per unique
+  normalized English front, distributed across `00` through `ff` subfolders;
+- `flashcards-audio-manifest.js`: the front-text-to-MP3 lookup table;
+- `edmund-audio-config.js`: the optional external audio base URL.
+
+For an initial object-storage migration, upload the audio directory with every
+relative object key preserved. For later card imports, upload only the newly
+created hash-named MP3s and deploy the refreshed manifest; unchanged MP3s do not
+need to be deleted or uploaded again. A ZIP is useful only for transfer or
+backup—the live site cannot play MP3s from inside a ZIP.
+
 ## Local setup
 
 ```sh
