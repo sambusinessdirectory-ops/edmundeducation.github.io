@@ -655,10 +655,11 @@ window.EDMUND_DSE_WRITING_EXERCISES = {
       "end",
       "both"
     ],
+    "showWordBank": false,
     "practiceModeDetails": {
       "blank": {
         "title": "標準模式 / Standard Mode",
-        "description": "Complete the essay using the categorised word bank. Use each item once. Multi-word expressions count as one item."
+        "description": "Complete the essay without a word bank. Multi-word expressions count as one item."
       },
       "start": {
         "title": "開首字母 / First-Letter Mode",
@@ -940,7 +941,7 @@ window.EDMUND_DSE_WRITING_EXERCISES = {
           "title": "Verbs Overview",
           "subtitle": "動詞概覽",
           "tone": "green",
-          "text": "have taken on\nserving\nare being used\nmay appear\nhas led\nask\nshould be allowed\noccupy\nshould not be accepted\nplaces\ninconveniences\nconceals\naddress\ncontinue treating\nsolve\nshift\nexists\nserve\nfunction\noccupy\nordering\nloses\nmanage\nleave\ndevelops\nattracts\nbegins\nbecome\nearn\nabsorb\ndamages\npromotes\ncultivate\nteaches\npay\nprivatise\nbear\nstruggle\nsqueezed out\ncarry\nturned into\ncovered\ncomplete\nabsorbing\nnormalize\ndefend\narguing\ndismissed\nbecome\nfill\nrent\nopen\nexpand\nexternalise\navoiding\nrelieves\nentrenches\ntreated\nintroduce\nact\ncare\npretending"
+          "text": "have taken on\nserving meals\nare being used\nmay appear\nhas led\nshould be allowed to occupy\nshould not be accepted\nplaces an unfair burden\ninconveniences the public\nconceals a deeper problem\naddress properly\ncontinue treating\nsolve\nshift its cost\nexists to serve\nfunction as\noccupy\nordering the bare minimum\nloses turnover\nmanage lingering customers\nmay leave\ndevelops a reputation\nattracts\nbegins as\nbecome\nearn private income\nabsorb the hidden overhead\ndamages\npromotes\ncultivate\nteaches the opposite lesson\npay for a drink\nprivatise shared space\nbear the consequences\nstruggle to find seats\nare squeezed out\ncarry trays around\nhave been turned into\ncovered in\ncomplete exercises\nabsorb a message\nnormalize behaviour\nerodes everyday courtesy\ndefend this practice\nshould not be dismissed\nbecome justification\nfill the gap\nrent appropriate premises\nopen more classrooms\nexpand accessible study areas\nexternalise operating costs\navoiding responsibility\nrelieves pressure\nentrenches the problem\nshould not be treated as\nintroduce clearer seating policies\nact more responsibly\nexpand affordable study spaces\ninconveniencing the public\ncare about\nstop pretending\nsubstitute for"
         },
         {
           "title": "Verbs and Verb Phrases",

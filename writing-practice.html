@@ -1003,7 +1003,8 @@
       margin-bottom: 0;
     }
 
-    .essay-content .essay-letter-title {
+    .essay-content .essay-letter-title,
+    .practice-text .essay-letter-title {
       margin-bottom: 10px;
       color: #0e2d55;
       font-size: clamp(23px, 1.8vw, 30px);
@@ -1013,19 +1014,22 @@
       text-wrap: balance;
     }
 
-    .essay-content .essay-letter-salutation {
+    .essay-content .essay-letter-salutation,
+    .practice-text .essay-letter-salutation {
       margin-bottom: 12px;
       color: #173153;
       font-weight: 900;
     }
 
-    .essay-content .essay-letter-closing {
+    .essay-content .essay-letter-closing,
+    .practice-text .essay-letter-closing {
       margin: 0 0 3px;
       color: #173153;
       font-weight: 850;
     }
 
-    .essay-content .essay-letter-signature {
+    .essay-content .essay-letter-signature,
+    .practice-text .essay-letter-signature {
       margin-bottom: 0;
       color: #0e2d55;
       font-weight: 950;
@@ -2343,8 +2347,10 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260712-1"></script>
-  <script src="writing-practice-dse-2025-q3-data.js?v=20260712"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260712-2"></script>
+  <script src="writing-practice-dse-2025-q3-data.js?v=20260712-2"></script>
+  <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
+  <script src="writing-practice-dse-2024-q5-data.js?v=20260712-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -2401,6 +2407,18 @@
       { key: "part-b", label: "Part B", subline: "長文寫作" }
     ];
     const dseWritingQuestionsByYear = {
+      "2022": [
+        { key: "Q2", label: "Q2", exerciseId: "" },
+        { key: "Q3", label: "Q3", exerciseId: "dse-writing-2022-part-b-q3" },
+        { key: "Q4", label: "Q4", exerciseId: "" },
+        { key: "Q5", label: "Q5", exerciseId: "" }
+      ],
+      "2024": [
+        { key: "Q2", label: "Q2", exerciseId: "" },
+        { key: "Q3", label: "Q3", exerciseId: "" },
+        { key: "Q4", label: "Q4", exerciseId: "" },
+        { key: "Q5", label: "Q5", exerciseId: "dse-writing-2024-part-b-q5" }
+      ],
       "2025": [
         { key: "Q2", label: "Q2", exerciseId: "" },
         { key: "Q3", label: "Q3", exerciseId: "dse-writing-2025-part-b-q3" },
@@ -2843,10 +2861,15 @@
       }
     };
 
-    const externalDseWritingExercises = window.EDMUND_DSE_WRITING_EXERCISES;
-    if (externalDseWritingExercises && typeof externalDseWritingExercises === "object" && !Array.isArray(externalDseWritingExercises)) {
-      Object.assign(writingExercises, externalDseWritingExercises);
-    }
+    [
+      window.EDMUND_DSE_WRITING_EXERCISES,
+      window.EDMUND_DSE_WRITING_2022_EXERCISES,
+      window.EDMUND_DSE_WRITING_2024_EXERCISES
+    ].forEach(externalDseWritingExercises => {
+      if (externalDseWritingExercises && typeof externalDseWritingExercises === "object" && !Array.isArray(externalDseWritingExercises)) {
+        Object.assign(writingExercises, externalDseWritingExercises);
+      }
+    });
 
     const synonymAcceptanceGuide = [
       { number: 1, original: "treated", strong: ["regarded", "viewed", "seen", "considered", "recognised", "accepted"], caution: ["understood"] },
@@ -4808,7 +4831,11 @@ Device: concession 讓步
               part.sentenceIndex = sentenceIndex;
               part.sentenceKey = sentence.key;
               part.paragraphLabel = paragraph.label;
-              const synonymSource = Array.isArray(exercise.synonymGuide) ? exercise.synonymGuide : synonymAcceptanceGuide;
+              const synonymSource = Array.isArray(exercise.synonymGuide)
+                ? exercise.synonymGuide
+                : exercise.id === "model-essay-9-ielts-advantage-disadvantage"
+                  ? synonymAcceptanceGuide
+                  : [];
               const synonymGuide = synonymSource.find(row => row.number === blankNumber);
               if (synonymGuide) {
                 part.strongSynonyms = synonymGuide.strong || [];
@@ -5442,9 +5469,12 @@ Device: concession 讓步
         ? exercise.questionPrompt.map(line => String(line || "").trim()).filter(Boolean)
         : [];
       if (!promptLines.length) return "";
+      const year = String(exercise?.exam || "").match(/\b(20\d{2})\b/)?.[1] || "";
+      const question = String(exercise?.title || "").match(/^Q\d+/i)?.[0]?.toUpperCase() || "";
+      const taskLabel = [year, question].filter(Boolean).join(" ") || "Writing";
       return `
         <section class="writing-question-prompt" aria-label="Writing question">
-          <strong>2025 Q3 · Writing Task</strong>
+          <strong>${escapeHtml(taskLabel)} · Writing Task</strong>
           ${promptLines.map(line => `<p>${escapeHtml(line)}</p>`).join("")}
         </section>
       `;
@@ -5637,11 +5667,12 @@ Device: concession 讓步
       if (/^使用例子\s*=/.test(text)) return "logic-examples";
       if (/^\d+\.\s+/.test(text)) return "numbered";
       if (/^(推理路線|核心概念|使用例子|邏輯鏈[一二三四]：)/.test(text)) return "label";
-      if (/^(Function 功能：|Key sentence:|Why it works:|Cause [12]:|Solution [12]:)/i.test(text)) return "label";
+      if (/^(Function 功能|Key sentence|Why it works|Main ideas?|Supporting details?|Examples Used|Reasoning Chain|Core Concepts)(?:\s*[:：])?/i.test(text)) return "label";
+      if (/^(Cause [12]|Solution [12])[:：]/i.test(text)) return "label";
       if (/^(Background|Thesis Statement|Topic Sentence|Supporting Detail|Logic Chain|Conclusion|Reiterating Arguments|Final Summary|Adjectives|Adverbs|Grammar involved|School Rules|Equality|School Identity|Individuality|Cost|Argument|Collocation Overview|Detailed Collocation Analysis)\b/i.test(text)) return "label";
       if (/^Example:/i.test(text)) return "example";
       if (/^(?:Excerpt|In the essay):/i.test(text) || /^節錄：/.test(text)) return "excerpt";
-      if (/^(Structure|Explanation|Meaning|Function|Student imitation|Student example|Common mistake|Pedagogical note|Other examples|Related patterns|Opposite structure|Note|Device):/i.test(text)) return "meta";
+      if (/^(Structure|Explanation|Meaning|Function|Analysis|Reason|Use|Effect|Student imitation|Student example|Common mistake|Pedagogical note|Other examples|Related patterns|Opposite structure|Note|Device):/i.test(text)) return "meta";
       if (/^(用途|效果|原因|象徵內容|對照雙方|重複詞語|結構)：/.test(text)) return "meta";
       if (/^（.*）$/.test(text) || (/[\u3400-\u9FFF]/.test(text) && !/[A-Za-z]{3,}/.test(text))) return "chinese";
       if (/\s=\s/.test(text)) return "term";
@@ -5774,6 +5805,12 @@ Device: concession 讓步
       if (context.tabKey !== "literaryDevices") {
         return String(text).split(/\n\s*\n/g).map(group => group.split("\n"));
       }
+      if (context.atomicGroups) {
+        return String(text)
+          .split(/\n\s*\n/g)
+          .map(group => group.split("\n"))
+          .filter(group => group.some(line => line.trim()));
+      }
 
       const groups = [];
       let current = [];
@@ -5796,14 +5833,14 @@ Device: concession 讓步
         .join("");
     }
 
-    function renderLearningBlocks(blocks = [], tabKey = currentEssayTab) {
+    function renderLearningBlocks(blocks = [], tabKey = currentEssayTab, options = {}) {
       const targets = collectLearningTargets(blocks, tabKey);
       return `
         <div class="learning-blocks">
           ${blocks.map((block, blockIndex) => `
             <section class="learning-block tone-${escapeHtml(block.tone || "blue")}">
               <h3>${escapeHtml(block.title)}${block.subtitle ? `<span>${escapeHtml(block.subtitle)}</span>` : ""}</h3>
-              <div class="learning-block-content">${renderLearningText(block.text || "", { tabKey, blockIndex, targets })}</div>
+              <div class="learning-block-content">${renderLearningText(block.text || "", { tabKey, blockIndex, targets, ...options })}</div>
             </section>
           `).join("")}
         </div>
@@ -5811,7 +5848,11 @@ Device: concession 讓步
     }
 
     function renderSynonymGuide(exercise) {
-      const guide = Array.isArray(exercise?.synonymGuide) ? exercise.synonymGuide : synonymAcceptanceGuide;
+      const guide = Array.isArray(exercise?.synonymGuide)
+        ? exercise.synonymGuide
+        : exercise?.id === "model-essay-9-ielts-advantage-disadvantage"
+          ? synonymAcceptanceGuide
+          : [];
       if (!guide.length) {
         return `<p class="note-text">本篇文章暫時未設定同義詞接受表。</p>`;
       }
@@ -5948,7 +5989,9 @@ Device: concession 讓步
 
       const learningBlocks = exercise.learningContent?.[currentEssayTab];
       if (learningBlocks) {
-        return renderLearningBlocks(learningBlocks, currentEssayTab);
+        return renderLearningBlocks(learningBlocks, currentEssayTab, {
+          atomicGroups: exercise.learningContentAtomicGroups === true
+        });
       }
 
       if (currentEssayTab === "translation") {
@@ -6382,8 +6425,19 @@ Device: concession 讓步
         return `<div class="sentence-grid">${cards.join("")}</div>`;
       }
 
+      const leadLines = Array.isArray(exercise?.essayLeadLines)
+        ? exercise.essayLeadLines.map(essayDisplayLineText).filter(Boolean)
+        : [];
+      const closingLines = Array.isArray(exercise?.essayClosingLines)
+        ? exercise.essayClosingLines.map(essayDisplayLineText).filter(Boolean)
+        : [];
       return `
         <div class="practice-text">
+          ${leadLines.map((line, index) => `
+            <div class="practice-paragraph practice-fixed-line">
+              <p class="${index === 0 ? "essay-letter-title" : "essay-letter-salutation"}">${escapeHtml(line)}</p>
+            </div>
+          `).join("")}
           ${exercise.paragraphs.map((paragraph, paragraphIndex) => {
             if (!selectedParagraphs.has(paragraphIndex)) return "";
             const paragraphHtml = paragraph.sentences.map(sentence => sentence.parts.map(part => {
@@ -6392,11 +6446,17 @@ Device: concession 讓步
             }).join("")).join(" ");
             return `<div class="practice-paragraph"><p>${paragraphHtml}</p></div>`;
           }).join("")}
+          ${closingLines.map((line, index) => `
+            <div class="practice-paragraph practice-fixed-line">
+              <p class="essay-letter-closing${index === closingLines.length - 1 ? " essay-letter-signature" : ""}">${escapeHtml(line)}</p>
+            </div>
+          `).join("")}
         </div>
       `;
     }
 
     function renderPracticeWordBank(exercise) {
+      if (exercise?.showWordBank === false) return "";
       const groups = Array.isArray(exercise?.wordBankGroups) ? exercise.wordBankGroups : [];
       if (practiceState?.mode !== "blank" || practiceState?.round !== 1 || !groups.length) return "";
       return `
