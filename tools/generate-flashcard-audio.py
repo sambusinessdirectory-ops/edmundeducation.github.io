@@ -24,6 +24,11 @@ PREVIEW_TEXT = "Welcome to Edmund Education. Let's practise English together."
 INLINE_ASSIGNMENT = "window.EDMUND_FLASHCARD_SEED = "
 EXTERNAL_SEED_ASSIGNMENTS = (
     (
+        "flashcards-ielts-writing-opinions-3-38-express-32-43-data.js",
+        "window.EDMUND_IELTS_WRITING_OPINIONS_3_38_EXPRESS_32_43_SEED = ",
+        None,
+    ),
+    (
         "flashcards-ielts-writing-opinions-39-82-data.js",
         "window.EDMUND_IELTS_WRITING_OPINIONS_39_82_SEED = ",
         None,
@@ -205,7 +210,7 @@ def spoken_text(display_text: str) -> str:
     text = re.sub(r"\bCOVID-19\b", "COVID nineteen", text, flags=re.IGNORECASE)
     text = re.sub(r"\bIELTS\b", "eye elts", text)
     text = re.sub(r"\bS1\b", "S one", text)
-    for initialism in ("DNA", "AQ", "TVB", "TV", "CV", "PE", "QR", "IT", "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK"):
+    for initialism in ("CCTV", "GPS", "DNA", "IP", "AQ", "TVB", "TV", "CV", "PE", "QR", "IT", "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK"):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
     text = re.sub(r"£\s*([\d,]+)", r"\1 pounds", text)
     text = re.sub(r"\bH K\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
