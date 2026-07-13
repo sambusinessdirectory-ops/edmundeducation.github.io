@@ -34,6 +34,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-dse-speaking-2012-data.js",
+        "window.EDMUND_DSE_SPEAKING_2012_SEED = ",
+        None,
+    ),
+    (
         "flashcards-dse-speaking-2013-data.js",
         "window.EDMUND_DSE_SPEAKING_2013_SEED = ",
         None,
@@ -146,6 +151,9 @@ SPOKEN_OVERRIDES = {
     "in St Louis": "in Saint Louis",
     "avoid Chunyun altogether": "avoid Choon-yoon altogether",
     "OmniSeafood series": "Omni Seafood series",
+    "swim 1,500 metres": "swim one thousand five hundred metres",
+    "more than 4,000 students": "more than four thousand students",
+    "since 1997": "since nineteen ninety-seven",
 }
 
 
