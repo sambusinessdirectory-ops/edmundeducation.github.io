@@ -26,10 +26,17 @@ EXTERNAL_SEED_ASSIGNMENTS = (
     (
         "flashcards-dse-writing-2025-data.js",
         'window.EDMUND_FLASHCARD_SEED["dse/writing/part-a/2025"] = ',
+        "dse/writing/part-a/2025",
     ),
     (
         "flashcards-dse-listening-data.js",
         "window.EDMUND_DSE_LISTENING_SEED = ",
+        None,
+    ),
+    (
+        "flashcards-dse-speaking-2019-data.js",
+        "window.EDMUND_DSE_SPEAKING_2019_SEED = ",
+        None,
     ),
 )
 AUDIO_BUILD_VERSION = "v1"
@@ -80,15 +87,21 @@ def extract_static_fronts(source_root: Path) -> list[str]:
     end = html.index("</script>", start)
     inline_seed = json.loads(html[start:end].strip().removesuffix(";"))
 
-    rows = [card for deck in inline_seed.values() for card in deck]
-    for filename, assignment in EXTERNAL_SEED_ASSIGNMENTS:
+    # Merge decks exactly as the browser does.  A later external seed replaces a
+    # deck with the same ID instead of leaving superseded card fronts in the
+    # audio corpus.
+    merged_seed = dict(inline_seed)
+    for filename, assignment, deck_id in EXTERNAL_SEED_ASSIGNMENTS:
         external_source = (source_root / filename).read_text(encoding="utf-8")
         external_start = external_source.index(assignment) + len(assignment)
         external_seed, _ = json.JSONDecoder().raw_decode(external_source[external_start:])
         if isinstance(external_seed, list):
-            rows.extend(external_seed)
+            if not deck_id:
+                raise ValueError(f"Missing deck ID for list seed in {filename}")
+            merged_seed[deck_id] = external_seed
         else:
-            rows.extend(card for deck in external_seed.values() for card in deck)
+            merged_seed.update(external_seed)
+    rows = [card for deck in merged_seed.values() for card in deck]
     texts = {normalize_card_text(card.get("front", card.get("term", ""))) for card in rows}
     texts.discard("")
     texts.add(PREVIEW_TEXT)
@@ -261,6 +274,9 @@ def main() -> int:
             print(f"Pruned {removed} orphan audio files.", flush=True)
         return 0
     if not pending:
+        if initial_complete and args.prune_orphans:
+            removed = prune_orphan_audio(output_root, set(expected.values()))
+            print(f"Pruned {removed} orphan audio files.", flush=True)
         return 0
 
     model_started = time.perf_counter()
