@@ -34,6 +34,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
+        "flashcards-dse-speaking-2018-data.js",
+        "window.EDMUND_DSE_SPEAKING_2018_SEED = ",
+        None,
+    ),
+    (
         "flashcards-dse-speaking-2019-data.js",
         "window.EDMUND_DSE_SPEAKING_2019_SEED = ",
         None,
@@ -115,9 +120,12 @@ def spoken_text(display_text: str) -> str:
     text = re.sub(r"\b24/7\b", "twenty-four seven", text)
     text = re.sub(r"\bCOVID-19\b", "COVID nineteen", text, flags=re.IGNORECASE)
     text = re.sub(r"\bIELTS\b", "eye elts", text)
-    for initialism in ("DNA", "AQ", "TV", "CV", "PE", "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK"):
+    text = re.sub(r"\bS1\b", "S one", text)
+    for initialism in ("DNA", "AQ", "TVB", "TV", "CV", "PE", "QR", "IT", "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK"):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
     text = re.sub(r"£\s*([\d,]+)", r"\1 pounds", text)
+    text = re.sub(r"\bH K\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
+    text = re.sub(r"\bHK\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
     text = re.sub(r"\$\s*([\d,]+)", r"\1 dollars", text)
     text = re.sub(r"\b(\d+)\s*km\b", r"\1 kilometres", text, flags=re.IGNORECASE)
     text = re.sub(r"\b(\d+)\s+am\b", r"\1 a.m.", text, flags=re.IGNORECASE)
