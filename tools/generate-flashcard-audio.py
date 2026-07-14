@@ -24,6 +24,11 @@ PREVIEW_TEXT = "Welcome to Edmund Education. Let's practise English together."
 INLINE_ASSIGNMENT = "window.EDMUND_FLASHCARD_SEED = "
 EXTERNAL_SEED_ASSIGNMENTS = (
     (
+        "flashcards-ielts-writing-advantage-cause-direct-data.js",
+        "window.EDMUND_IELTS_WRITING_ADVANTAGE_CAUSE_DIRECT_SEED = ",
+        None,
+    ),
+    (
         "flashcards-ielts-writing-express-4-31-data.js",
         "window.EDMUND_IELTS_WRITING_EXPRESS_4_31_SEED = ",
         None,
