@@ -199,7 +199,8 @@ assert.match(scheduleSql, /p_expected_version is null or p_expected_version < 0/
 assert.match(scheduleSql, /v_capacity\.version <> p_expected_version/);
 assert.match(scheduleSql, /entry\.slot_index > v_target/);
 assert.match(scheduleSql, /version = capacity\.version \+ 1/);
-assert.match(scheduleSql, /is_completed = false,[\s\S]*?completed_at = null,[\s\S]*?completion_source = null/);
+assert.match(scheduleSql, /v_reopens_completion := v_existing\.message is distinct from v_message/);
+assert.match(scheduleSql, /is_completed = case when v_reopens_completion then false else v_existing\.is_completed end/);
 assert.doesNotMatch(scheduleSql, /create or replace function public\.schedule_(?:student|admin)_add_slots\b/);
 assert.match(
   scheduleSql,

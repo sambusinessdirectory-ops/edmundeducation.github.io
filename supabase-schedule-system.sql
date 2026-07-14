@@ -372,6 +372,7 @@ declare
   v_entry public.schedule_entries%rowtype;
   v_existing public.schedule_entries%rowtype;
   v_message text := btrim(coalesce(p_message, ''));
+  v_reopens_completion boolean := false;
 begin
   if not exists (
     select 1
@@ -439,14 +440,17 @@ begin
       raise exception 'Teacher assignments can only be changed by an administrator';
     end if;
 
+    v_reopens_completion := v_existing.message is distinct from v_message
+      or v_existing.source is distinct from p_source;
+
     update public.schedule_entries entry
     set message = v_message,
         source = p_source,
         created_by_admin = case when p_source = 'admin' then p_admin_id else null end,
-        is_completed = false,
-        completed_at = null,
-        completion_source = null,
-        completed_by_admin = null,
+        is_completed = case when v_reopens_completion then false else v_existing.is_completed end,
+        completed_at = case when v_reopens_completion then null else v_existing.completed_at end,
+        completion_source = case when v_reopens_completion then null else v_existing.completion_source end,
+        completed_by_admin = case when v_reopens_completion then null else v_existing.completed_by_admin end,
         updated_at = now()
     where entry.id = v_existing.id
       and entry.updated_at = p_expected_updated_at
