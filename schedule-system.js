@@ -19,6 +19,15 @@ const SESSION_KEY = "edmund-schedule-session-v1";
 const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
 const UNUSED_HIDDEN_KEY = "edmund-schedule-unused-hidden-v1";
 const MAX_SLOTS_PER_DAY = 100;
+const WEEKDAY_MASCOTS = [
+  "assets/schedule/weekdays/monday-walking-to-school.webp",
+  "assets/schedule/weekdays/tuesday-basketball.webp",
+  "assets/schedule/weekdays/wednesday-piano.webp",
+  "assets/schedule/weekdays/thursday-reading.webp",
+  "assets/schedule/weekdays/friday-pizza.webp",
+  "assets/schedule/weekdays/saturday-sleeping.webp",
+  "assets/schedule/weekdays/sunday-side-sleeping.webp"
+];
 
 const supabaseSettings = window.EDMUND_SUPABASE || {};
 const scheduleSettings = window.EDMUND_SCHEDULE_CONFIG || {};
@@ -50,6 +59,13 @@ const elements = {
   exportPdf: document.querySelector("[data-export-pdf]"),
   toggleTable: document.querySelector("[data-toggle-table]"),
   toggleUnused: document.querySelector("[data-toggle-unused]"),
+  toggleSelection: document.querySelector("[data-toggle-selection]"),
+  selectionActions: document.querySelector("[data-selection-actions]"),
+  selectionCount: document.querySelector("[data-selection-count]"),
+  batchComplete: document.querySelector("[data-batch-complete]"),
+  moveSelected: document.querySelector("[data-move-selected]"),
+  batchDelete: document.querySelector("[data-batch-delete]"),
+  cancelSelection: document.querySelector("[data-cancel-selection]"),
   tableRegion: document.querySelector("[data-table-region]"),
   weekGrid: document.querySelector("[data-week-grid]"),
   calendarStatus: document.querySelector("[data-calendar-status]"),
@@ -75,8 +91,7 @@ const elements = {
   printSheet: document.querySelector("[data-print-sheet]"),
   printRange: document.querySelector("[data-print-range]"),
   printStudent: document.querySelector("[data-print-student]"),
-  printHead: document.querySelector("[data-print-head]"),
-  printBody: document.querySelector("[data-print-body]")
+  printGrid: document.querySelector("[data-print-grid]")
 };
 
 const state = {
@@ -89,7 +104,13 @@ const state = {
   weekRequestId: 0,
   toastTimer: null,
   tableHidden: readDisplayPreference(TABLE_HIDDEN_KEY),
-  hideUnused: readDisplayPreference(UNUSED_HIDDEN_KEY)
+  hideUnused: readDisplayPreference(UNUSED_HIDDEN_KEY),
+  selectionMode: false,
+  selectedEntryIds: new Set(),
+  moveEntryId: null,
+  draggingEntryId: null,
+  mutationInFlight: false,
+  suppressClickUntil: 0
 };
 
 function emptyWeekPayload() {
@@ -164,6 +185,7 @@ function clearRenderedSchedule() {
   state.weekRequestId += 1;
   state.weekPayload = emptyWeekPayload();
   state.editing = null;
+  resetSelectionMode();
   elements.weekGrid.replaceChildren();
   elements.exportPdf.disabled = true;
   if (elements.deleteDialog.open) elements.deleteDialog.close();
@@ -188,6 +210,57 @@ function applyDisplayPreferences() {
   elements.toggleTable.setAttribute("aria-expanded", String(!state.tableHidden));
   elements.toggleUnused.textContent = state.hideUnused ? "顯示所有格" : "隱藏未使用格";
   elements.toggleUnused.setAttribute("aria-pressed", String(state.hideUnused));
+  updateSelectionControls();
+}
+
+function selectedEntries() {
+  return state.weekPayload.entries.filter((entry) => state.selectedEntryIds.has(entry.id));
+}
+
+function canMoveEntry(entry) {
+  return Boolean(entry) && !(
+    state.currentUser?.role === "student" && entry.source === "admin"
+  );
+}
+
+function resetSelectionMode() {
+  state.selectionMode = false;
+  state.selectedEntryIds.clear();
+  state.moveEntryId = null;
+  state.draggingEntryId = null;
+  updateSelectionControls();
+}
+
+function updateSelectionControls() {
+  if (!elements.toggleSelection) return;
+  const entries = selectedEntries();
+  const protectedCount = entries.filter((entry) => !canMoveEntry(entry)).length;
+  const moving = Boolean(state.moveEntryId);
+  elements.toggleSelection.setAttribute("aria-pressed", String(state.selectionMode));
+  elements.toggleSelection.textContent = state.selectionMode ? "退出選取" : "select multiple";
+  elements.selectionActions.hidden = !state.selectionMode;
+  elements.selectionCount.textContent = moving
+    ? "請按一下要移到的空白格"
+    : `已選取 ${entries.length} 項`;
+  elements.batchComplete.disabled = state.mutationInFlight || moving || entries.length === 0;
+  elements.batchComplete.textContent = entries.length && entries.every((entry) => entry.isCompleted)
+    ? "取消完成"
+    : "標記完成";
+  elements.moveSelected.disabled = state.mutationInFlight || moving || entries.length !== 1 || !canMoveEntry(entries[0]);
+  elements.moveSelected.textContent = moving ? "請選擇空白格" : "移動所選";
+  elements.batchDelete.disabled = state.mutationInFlight || moving || entries.length === 0 || protectedCount > 0;
+  elements.batchDelete.title = protectedCount > 0
+    ? "老師安排只可由管理員刪除。"
+    : "刪除所有已選取安排";
+  elements.cancelSelection.disabled = state.mutationInFlight;
+  elements.toggleUnused.disabled = state.mutationInFlight || moving;
+}
+
+function setMutationInFlight(busy) {
+  state.mutationInFlight = Boolean(busy);
+  elements.toggleUnused.disabled = busy;
+  elements.toggleSelection.disabled = busy;
+  updateSelectionControls();
 }
 
 function toggleTableVisibility() {
@@ -485,6 +558,7 @@ function activeStudent() {
 async function loadWeek(focusTarget = null) {
   const student = activeStudent();
   if (!student) return;
+  resetSelectionMode();
   const requestedWeek = state.weekStart;
   const requestId = state.weekRequestId + 1;
   state.weekRequestId = requestId;
@@ -604,12 +678,17 @@ function renderWeek() {
 
     const header = document.createElement("header");
     header.className = "day-header";
+    const mascot = document.createElement("img");
+    mascot.className = "day-mascot";
+    mascot.src = WEEKDAY_MASCOTS[dayIndex];
+    mascot.alt = "";
+    mascot.setAttribute("aria-hidden", "true");
     const weekday = document.createElement("h2");
     weekday.id = `schedule-day-${date}`;
     weekday.textContent = WEEKDAY_LABELS[dayIndex];
     const dateLabel = document.createElement("span");
     dateLabel.textContent = active ? formatDayDate(date) : `${formatDayDate(date)} · 範圍外`;
-    header.append(weekday, dateLabel);
+    header.append(mascot, weekday, dateLabel);
 
     const slots = document.createElement("div");
     slots.className = "day-slots";
@@ -624,7 +703,7 @@ function renderWeek() {
       if (state.hideUnused && visibleSlots === 0) {
         const note = document.createElement("p");
         note.className = "unused-day-note";
-        note.textContent = "本日未有安排；未使用格已隱藏。";
+        note.textContent = "本日未有安排；\n未使用格已隱藏。";
         slots.append(note);
       }
     } else {
@@ -659,6 +738,7 @@ function renderWeek() {
     }
     elements.weekGrid.append(column);
   });
+  updateSelectionControls();
 }
 
 function createSlotButton(date, dayIndex, slotIndex, entry) {
@@ -689,6 +769,15 @@ function createSlotButton(date, dayIndex, slotIndex, entry) {
 
   if (entry) {
     button.classList.add("has-entry");
+    button.dataset.entryId = entry.id;
+    button.draggable = canMoveEntry(entry);
+    if (state.selectedEntryIds.has(entry.id)) {
+      button.classList.add("is-selected");
+      button.setAttribute("aria-pressed", "true");
+    } else if (state.selectionMode) {
+      button.setAttribute("aria-pressed", "false");
+    }
+    if (state.moveEntryId && state.moveEntryId !== entry.id) button.classList.add("is-move-blocked");
     if (entry.source === "admin") button.classList.add("is-admin-entry");
     const source = document.createElement("span");
     source.className = `entry-source ${entry.source === "admin" ? "admin" : "student"}`;
@@ -698,6 +787,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry) {
     message.textContent = entry.message;
     button.append(source, message);
   } else {
+    if (state.moveEntryId) button.classList.add("is-move-target");
     const placeholder = document.createElement("span");
     placeholder.className = "slot-placeholder";
     placeholder.textContent = "按此新增安排";
@@ -710,6 +800,196 @@ function findEntry(date, slotIndex) {
   return state.weekPayload.entries.find((entry) => (
     entry.scheduleDate === date && Number(entry.slotIndex) === Number(slotIndex)
   )) || null;
+}
+
+function findEntryById(entryId) {
+  return state.weekPayload.entries.find((entry) => entry.id === entryId) || null;
+}
+
+function toggleSelectionMode() {
+  if (state.mutationInFlight) return;
+  if (state.selectionMode) {
+    resetSelectionMode();
+  } else {
+    state.selectionMode = true;
+  }
+  renderWeek();
+}
+
+function cancelSelectionMode() {
+  if (state.mutationInFlight) return;
+  resetSelectionMode();
+  renderWeek();
+}
+
+function toggleEntrySelection(entry) {
+  if (!entry || state.mutationInFlight) return;
+  if (state.selectedEntryIds.has(entry.id)) state.selectedEntryIds.delete(entry.id);
+  else state.selectedEntryIds.add(entry.id);
+  state.moveEntryId = null;
+  renderWeek();
+}
+
+function batchItems(entries) {
+  return entries.map((entry) => ({
+    entry_id: entry.id,
+    expected_updated_at: entry.updatedAt
+  }));
+}
+
+async function batchSetCompletion() {
+  const entries = selectedEntries();
+  if (!entries.length || state.mutationInFlight) return;
+  const completed = entries.some((entry) => !entry.isCompleted);
+  setMutationInFlight(true);
+  setStatus(elements.calendarStatus, completed ? "正在標記所選安排為完成…" : "正在取消所選安排的完成標記…");
+  try {
+    const common = {
+      p_items: batchItems(entries),
+      p_completed: completed
+    };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_batch_set_entries_completed", {
+        ...common,
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id
+      });
+    } else {
+      await callRpc("schedule_student_batch_set_entries_completed", {
+        ...common,
+        p_token: state.currentUser.studentToken
+      });
+    }
+    showToast(completed ? `已完成 ${entries.length} 項安排。` : `已取消 ${entries.length} 項安排的完成標記。`);
+    await loadWeek();
+  } catch (error) {
+    console.warn("Schedule batch completion failed", error);
+    if (isConcurrencyError(error)) {
+      showToast("部分安排已在另一個頁面更新；日程已重新載入。", "error");
+      await loadWeek();
+    } else {
+      setStatus(elements.calendarStatus, error.message || "未能更新所選安排。", "error");
+      if (isExpiredSessionError(error)) await logout();
+    }
+  } finally {
+    setMutationInFlight(false);
+  }
+}
+
+async function batchDeleteEntries() {
+  const entries = selectedEntries();
+  if (!entries.length || state.mutationInFlight) return;
+  if (state.currentUser.role === "student" && entries.some((entry) => entry.source === "admin")) {
+    showToast("老師安排只可由管理員刪除。", "error");
+    return;
+  }
+  const confirmed = window.confirm(`確定要刪除所選的 ${entries.length} 項安排嗎？\n刪除後無法復原。`);
+  if (!confirmed) return;
+
+  setMutationInFlight(true);
+  setStatus(elements.calendarStatus, "正在刪除所選安排…");
+  try {
+    const common = { p_items: batchItems(entries) };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_batch_delete_entries", {
+        ...common,
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id
+      });
+    } else {
+      await callRpc("schedule_student_batch_delete_entries", {
+        ...common,
+        p_token: state.currentUser.studentToken
+      });
+    }
+    showToast(`已刪除 ${entries.length} 項安排。`);
+    await loadWeek();
+  } catch (error) {
+    console.warn("Schedule batch delete failed", error);
+    if (isConcurrencyError(error)) {
+      showToast("部分安排已在另一個頁面更新；日程已重新載入。", "error");
+      await loadWeek();
+    } else {
+      setStatus(elements.calendarStatus, error.message || "未能刪除所選安排。", "error");
+      if (isExpiredSessionError(error)) await logout();
+    }
+  } finally {
+    setMutationInFlight(false);
+  }
+}
+
+function beginMoveSelected() {
+  const entries = selectedEntries();
+  if (entries.length !== 1 || !canMoveEntry(entries[0]) || state.mutationInFlight) return;
+  state.moveEntryId = entries[0].id;
+  if (state.hideUnused) {
+    state.hideUnused = false;
+    saveDisplayPreference(UNUSED_HIDDEN_KEY, false);
+    applyDisplayPreferences();
+  }
+  renderWeek();
+  showToast("請按一下要移到的空白格；也可按取消結束。", "success");
+}
+
+async function moveEntryTo(entry, targetDate, targetSlotIndex) {
+  if (!entry || state.mutationInFlight || !canMoveEntry(entry)) return;
+  const targetSlot = Number(targetSlotIndex);
+  if (entry.scheduleDate === targetDate && Number(entry.slotIndex) === targetSlot) {
+    showToast("安排已在這一格。", "error");
+    return;
+  }
+  if (findEntry(targetDate, targetSlot)) {
+    showToast("目標格已有安排，請選擇另一個空白格。", "error");
+    return;
+  }
+
+  const sourceVersion = Math.max(0, Number(state.weekPayload.capacityVersions[entry.scheduleDate]) || 0);
+  const targetVersion = Math.max(0, Number(state.weekPayload.capacityVersions[targetDate]) || 0);
+  setMutationInFlight(true);
+  setStatus(elements.calendarStatus, "正在移動安排…");
+  try {
+    const common = {
+      p_entry_id: entry.id,
+      p_expected_updated_at: entry.updatedAt,
+      p_source_date: entry.scheduleDate,
+      p_source_slot_index: Number(entry.slotIndex),
+      p_target_date: targetDate,
+      p_target_slot_index: targetSlot,
+      p_source_capacity_version: sourceVersion,
+      p_target_capacity_version: targetVersion
+    };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_move_entry", {
+        ...common,
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id
+      });
+    } else {
+      await callRpc("schedule_student_move_entry", {
+        ...common,
+        p_token: state.currentUser.studentToken
+      });
+    }
+    state.suppressClickUntil = Date.now() + 400;
+    showToast(`安排已移到 ${formatDayDate(targetDate)} 第 ${targetSlot} 格。`);
+    await loadWeek({ date: targetDate, slotIndex: targetSlot });
+  } catch (error) {
+    console.warn("Schedule move failed", error);
+    const message = String(error?.message || "");
+    if (/occupied|already contains|target slot/i.test(message)) {
+      showToast("目標格已有安排，請選擇另一個空白格。", "error");
+      await loadWeek();
+    } else if (isConcurrencyError(error)) {
+      showToast("日程已在另一個頁面更新；已重新載入。", "error");
+      await loadWeek();
+    } else {
+      setStatus(elements.calendarStatus, message || "未能移動安排。", "error");
+      if (isExpiredSessionError(error)) await logout();
+    }
+  } finally {
+    state.draggingEntryId = null;
+    setMutationInFlight(false);
+  }
 }
 
 function openEntryDialog(date, slotIndex) {
@@ -884,7 +1164,7 @@ async function toggleEntryCompletion() {
 }
 
 async function changeCapacity(date, delta, button) {
-  if (![5, -5].includes(delta)) return;
+  if (state.mutationInFlight || ![5, -5].includes(delta)) return;
   button.disabled = true;
   const previousCapacity = Math.max(10, Number(state.weekPayload.capacities[date]) || 10);
   const expectedVersion = Math.max(0, Number(state.weekPayload.capacityVersions[date]) || 0);
@@ -942,6 +1222,7 @@ async function changeCapacity(date, delta, button) {
 }
 
 async function changeWeek(amount) {
+  if (state.mutationInFlight) return;
   const next = addDays(parseISODate(state.weekStart), amount);
   const first = firstWeekStart();
   const last = lastWeekStart();
@@ -954,52 +1235,53 @@ async function changeWeek(amount) {
 
 function preparePrintSheet() {
   const dates = weekDates(state.weekStart);
-  const entries = entryMap();
-  const capacities = dates.map((date) => (
-    isDateInScheduleRange(date) ? Math.max(10, Number(state.weekPayload.capacities[date]) || 10) : 0
-  ));
-  const maxSlots = Math.max(10, ...capacities);
-
   elements.printStudent.textContent = activeStudent()?.name || "學生";
   elements.printRange.textContent = formatWeekRange(state.weekStart);
-  elements.printHead.replaceChildren();
-  elements.printBody.replaceChildren();
+  elements.printGrid.replaceChildren();
 
-  const headRow = document.createElement("tr");
-  dates.forEach((date, index) => {
-    const cell = document.createElement("th");
-    cell.scope = "col";
-    cell.textContent = `${WEEKDAY_LABELS[index]}\n${formatDayDate(date)}`;
-    headRow.append(cell);
+  dates.forEach((date, dayIndex) => {
+    const day = document.createElement("section");
+    day.className = "print-day";
+
+    const heading = document.createElement("header");
+    heading.className = "print-day-heading";
+    const weekday = document.createElement("strong");
+    weekday.textContent = WEEKDAY_LABELS[dayIndex];
+    const dateLabel = document.createElement("span");
+    dateLabel.textContent = formatDayDate(date);
+    heading.append(weekday, dateLabel);
+
+    const list = document.createElement("div");
+    list.className = "print-day-entries";
+    const dayEntries = state.weekPayload.entries
+      .filter((entry) => entry.scheduleDate === date)
+      .sort((left, right) => Number(left.slotIndex) - Number(right.slotIndex));
+
+    if (!dayEntries.length) {
+      const empty = document.createElement("p");
+      empty.className = "print-empty-day";
+      empty.textContent = "本日未有安排";
+      list.append(empty);
+    } else {
+      dayEntries.forEach((entry) => {
+        const card = document.createElement("article");
+        card.className = `print-entry-card ${entry.source === "admin" ? "print-entry-admin" : "print-entry-student"}`;
+        if (entry.isCompleted) card.classList.add("print-entry-completed");
+        const label = document.createElement("span");
+        label.className = "print-slot-label";
+        label.textContent = `第 ${entry.slotIndex} 格`;
+        const source = document.createElement("span");
+        source.className = "print-source";
+        source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : ""}`;
+        const message = document.createElement("p");
+        message.textContent = entry.message;
+        card.append(label, source, message);
+        list.append(card);
+      });
+    }
+    day.append(heading, list);
+    elements.printGrid.append(day);
   });
-  elements.printHead.append(headRow);
-
-  for (let slotIndex = 1; slotIndex <= maxSlots; slotIndex += 1) {
-    const row = document.createElement("tr");
-    dates.forEach((date, dayIndex) => {
-      const cell = document.createElement("td");
-      const label = document.createElement("span");
-      label.className = "print-slot-label";
-      label.textContent = `第 ${slotIndex} 格`;
-      cell.append(label);
-      if (slotIndex <= capacities[dayIndex]) {
-        const entry = entries.get(`${date}:${slotIndex}`);
-        if (entry) {
-          if (entry.source === "admin") cell.classList.add("print-entry-admin");
-          if (entry.isCompleted) cell.classList.add("print-entry-completed");
-          const source = document.createElement("span");
-          source.className = "print-source";
-          source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : ""}`;
-          const message = document.createTextNode(entry.message);
-          cell.append(source, message);
-        }
-      } else {
-        cell.append(document.createTextNode("—"));
-      }
-      row.append(cell);
-    });
-    elements.printBody.append(row);
-  }
 }
 
 function exportPdf() {
@@ -1047,8 +1329,24 @@ elements.passwordToggle.addEventListener("click", () => {
 });
 
 elements.weekGrid.addEventListener("click", (event) => {
+  if (state.mutationInFlight) return;
   const slot = event.target.closest("[data-slot-date]");
   if (slot) {
+    if (Date.now() < state.suppressClickUntil || state.mutationInFlight) return;
+    const entry = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+    if (state.moveEntryId) {
+      if (entry) {
+        showToast(entry.id === state.moveEntryId ? "請選擇另一個空白格。" : "目標格已有安排，請選擇空白格。", "error");
+      } else {
+        moveEntryTo(findEntryById(state.moveEntryId), slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+      }
+      return;
+    }
+    if (state.selectionMode) {
+      if (entry) toggleEntrySelection(entry);
+      else showToast("只可選取已有安排的格。", "error");
+      return;
+    }
     openEntryDialog(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
     return;
   }
@@ -1059,6 +1357,64 @@ elements.weekGrid.addEventListener("click", (event) => {
   }
   const removeButton = event.target.closest("[data-remove-slots-date]");
   if (removeButton) changeCapacity(removeButton.dataset.removeSlotsDate, -5, removeButton);
+});
+
+elements.weekGrid.addEventListener("dragstart", (event) => {
+  const slot = event.target.closest("[data-entry-id]");
+  if (!slot) return;
+  const entry = findEntryById(slot.dataset.entryId);
+  if (!canMoveEntry(entry) || state.mutationInFlight) {
+    event.preventDefault();
+    return;
+  }
+  if (state.hideUnused) {
+    event.preventDefault();
+    state.hideUnused = false;
+    saveDisplayPreference(UNUSED_HIDDEN_KEY, false);
+    applyDisplayPreferences();
+    renderWeek();
+    showToast("已顯示所有格，請再拖曳一次。", "success");
+    return;
+  }
+  state.draggingEntryId = entry.id;
+  slot.classList.add("is-dragging");
+  event.dataTransfer.effectAllowed = "move";
+  event.dataTransfer.setData("text/plain", entry.id);
+});
+
+elements.weekGrid.addEventListener("dragover", (event) => {
+  if (!state.draggingEntryId || state.mutationInFlight) return;
+  const slot = event.target.closest("[data-slot-date]");
+  if (!slot) return;
+  event.preventDefault();
+  const occupied = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+  event.dataTransfer.dropEffect = occupied ? "none" : "move";
+  slot.classList.toggle("is-drop-target", !occupied);
+});
+
+elements.weekGrid.addEventListener("dragleave", (event) => {
+  const slot = event.target.closest("[data-slot-date]");
+  if (slot && !slot.contains(event.relatedTarget)) slot.classList.remove("is-drop-target");
+});
+
+elements.weekGrid.addEventListener("drop", (event) => {
+  const slot = event.target.closest("[data-slot-date]");
+  if (!slot || !state.draggingEntryId) return;
+  event.preventDefault();
+  elements.weekGrid.querySelectorAll(".is-drop-target").forEach((item) => item.classList.remove("is-drop-target"));
+  const entry = findEntryById(state.draggingEntryId);
+  if (findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex))) {
+    showToast("目標格已有安排，請選擇另一個空白格。", "error");
+    return;
+  }
+  moveEntryTo(entry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+});
+
+elements.weekGrid.addEventListener("dragend", () => {
+  state.draggingEntryId = null;
+  elements.weekGrid.querySelectorAll(".is-dragging, .is-drop-target").forEach((item) => {
+    item.classList.remove("is-dragging", "is-drop-target");
+  });
 });
 
 elements.entryForm.addEventListener("submit", saveEntry);
@@ -1076,12 +1432,24 @@ elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
 elements.currentWeek.addEventListener("click", async () => {
+  if (state.mutationInFlight) return;
   state.weekStart = defaultWeekStart();
   await loadWeek();
 });
 elements.exportPdf.addEventListener("click", exportPdf);
 elements.toggleTable.addEventListener("click", toggleTableVisibility);
 elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
+elements.toggleSelection?.addEventListener("click", toggleSelectionMode);
+elements.batchComplete?.addEventListener("click", batchSetCompletion);
+elements.moveSelected?.addEventListener("click", beginMoveSelected);
+elements.batchDelete?.addEventListener("click", batchDeleteEntries);
+elements.cancelSelection?.addEventListener("click", cancelSelectionMode);
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && state.selectionMode && !elements.entryDialog.open && !elements.deleteDialog.open) {
+    cancelSelectionMode();
+  }
+});
 
 elements.entryDialog.addEventListener("close", () => {
   if (!elements.deleteDialog.open) state.editing = null;

@@ -190,7 +190,7 @@
 
     .login-intro {
       position: relative;
-      min-height: 560px;
+      min-height: 650px;
       padding: clamp(36px, 6vw, 88px);
       overflow: hidden;
       display: flex;
@@ -218,6 +218,12 @@
       letter-spacing: .18em;
     }
 
+    .login-intro .eyebrow,
+    .login-intro h1 {
+      position: relative;
+      z-index: 2;
+    }
+
     .login-intro h1 {
       max-width: 760px;
       margin: 0;
@@ -229,21 +235,32 @@
     .login-intro h1 span { display: block; }
     .login-intro h1 .soft-line { color: var(--amber-dark); font-size: .68em; margin-top: 12px; }
 
+    .schedule-login-hero {
+      position: absolute;
+      top: 34px;
+      left: clamp(34px, 5vw, 78px);
+      z-index: 1;
+      width: min(67%, 630px);
+      height: 340px;
+      object-fit: contain;
+      object-position: left center;
+      filter: drop-shadow(0 20px 28px rgba(72, 43, 25, .16));
+      pointer-events: none;
+      user-select: none;
+    }
+
     .planner-motif {
       position: absolute;
-      top: 62px;
-      right: 62px;
-      width: 180px;
-      aspect-ratio: 1;
-      border: 1px solid rgba(106, 65, 37, .16);
-      border-radius: 26px;
-      background:
-        linear-gradient(rgba(111, 70, 39, .13) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(111, 70, 39, .13) 1px, transparent 1px),
-        rgba(255, 255, 255, .42);
-      background-size: 25% 25%;
-      transform: rotate(4deg);
-      box-shadow: 18px 20px 0 rgba(151, 91, 48, .1);
+      top: 28px;
+      right: 28px;
+      z-index: 2;
+      width: clamp(72px, 9vw, 108px);
+      height: auto;
+      object-fit: contain;
+      filter: drop-shadow(0 13px 18px rgba(72, 43, 25, .2));
+      transform: rotate(3deg);
+      pointer-events: none;
+      user-select: none;
     }
 
     .login-panel {
@@ -440,6 +457,7 @@
       font-size: 13.2px;
     }
 
+    .legend-controls { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
     .legend-items { display: flex; gap: 10px; flex-wrap: wrap; }
     .legend-badge, .entry-source {
       display: inline-flex;
@@ -452,6 +470,42 @@
     }
     .legend-badge.admin, .entry-source.admin { color: #70411f; background: #f6dec0; }
     .legend-badge.student, .entry-source.student { color: #334d84; background: var(--blue-soft); }
+
+    .selection-toggle { min-width: 118px; }
+    .selection-actions {
+      position: sticky;
+      top: 88px;
+      z-index: 15;
+      margin: 0 0 12px;
+      border: 1px solid rgba(64, 82, 132, .2);
+      border-radius: 16px;
+      padding: 10px 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      color: #263558;
+      background: rgba(248, 250, 255, .94);
+      box-shadow: 0 10px 28px rgba(38, 53, 88, .13);
+      backdrop-filter: blur(14px);
+    }
+
+    .selection-actions strong { white-space: nowrap; font-size: 14px; }
+    .selection-action-buttons { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
+    .selection-action-button {
+      min-height: 38px;
+      border: 1px solid rgba(64, 82, 132, .2);
+      border-radius: 11px;
+      padding: 8px 12px;
+      color: #314777;
+      background: #fff;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 850;
+    }
+    .selection-action-button:hover,
+    .selection-action-button:focus-visible { border-color: #405c97; box-shadow: 0 6px 15px rgba(49, 71, 119, .12); }
+    .selection-action-button.danger { color: #9c2d25; border-color: rgba(180, 35, 24, .24); background: #fff8f7; }
 
     #schedule-export-help {
       display: inline-block;
@@ -508,11 +562,24 @@
       position: relative;
       top: auto;
       z-index: 3;
-      min-height: 82px;
-      padding: 15px 14px;
+      min-height: 190px;
+      padding: 132px 14px 15px;
       border-bottom: 1px solid var(--line);
       background: rgba(255, 250, 241, .96);
       backdrop-filter: blur(10px);
+    }
+
+    .day-mascot {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: calc(100% - 20px);
+      height: 112px;
+      border-radius: 11px;
+      object-fit: contain;
+      object-position: center;
+      pointer-events: none;
+      user-select: none;
     }
 
     .day-header h2 { display: block; margin: 0; font-size: 19px; }
@@ -562,6 +629,31 @@
       box-shadow: inset 0 0 0 1px rgba(39, 126, 71, .08);
     }
 
+    .schedule-slot.is-selected,
+    .schedule-slot[aria-pressed="true"] {
+      border-style: solid;
+      outline: 3px solid rgba(64, 92, 151, .52);
+      outline-offset: -3px;
+      box-shadow: 0 10px 24px rgba(64, 92, 151, .16);
+    }
+
+    .schedule-slot.is-drop-target,
+    .schedule-slot[data-drop-target="true"] {
+      border-color: #2e7749;
+      outline: 3px dashed rgba(46, 119, 73, .68);
+      outline-offset: 3px;
+      background: rgba(230, 247, 235, .94);
+    }
+
+    .schedule-slot.is-move-target {
+      border-color: rgba(46, 119, 73, .52);
+      background: rgba(239, 250, 242, .82);
+    }
+
+    .schedule-slot.is-move-blocked { opacity: .62; }
+
+    .schedule-slot.is-dragging { opacity: .58; cursor: grabbing; }
+
     .slot-topline { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
     .slot-number { display: block; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
     .completion-badge { border-radius: 999px; padding: 2px 7px; color: #1d6d3a; background: rgba(220, 245, 226, .96); font-size: 10px; font-weight: 900; letter-spacing: .04em; }
@@ -582,7 +674,7 @@
     .add-slots-button, .remove-slots-button { min-height: 44px; border: 1px solid rgba(155, 94, 49, .25); }
     .add-slots-button { color: var(--amber-dark); background: rgba(246, 222, 192, .82); }
     .remove-slots-button { color: #51453e; background: rgba(255, 253, 248, .82); }
-    .unused-day-note { margin: 8px 10px 12px; border: 1px dashed rgba(82, 55, 40, .22); border-radius: 13px; padding: 20px 10px; color: #5a463c; background: rgba(255, 253, 248, .58); text-align: center; font-size: 13px; font-weight: 700; }
+    .unused-day-note { margin: 8px 10px 12px; border: 1px dashed rgba(82, 55, 40, .22); border-radius: 13px; padding: 20px 10px; color: #5a463c; background: rgba(255, 253, 248, .58); text-align: center; white-space: pre-line; font-size: 13px; font-weight: 700; }
 
     .calendar-status { min-height: 26px; margin: 12px 4px 0; color: var(--muted); font-size: 13px; }
     .calendar-status:not(:empty) { width: max-content; max-width: calc(100% - 8px); border: 1px solid rgba(82, 55, 40, .14); border-radius: 10px; padding: 5px 9px; background: rgba(255, 253, 248, .9); font-weight: 750; }
@@ -640,8 +732,9 @@
 
     @media (max-width: 980px) {
       .login-layout { grid-template-columns: 1fr; }
-      .login-intro { min-height: 390px; }
-      .planner-motif { width: 130px; top: 42px; right: 42px; }
+      .login-intro { min-height: 590px; }
+      .schedule-login-hero { width: min(70%, 560px); height: 310px; }
+      .planner-motif { width: 88px; top: 34px; right: 34px; }
       .calendar-toolbar { grid-template-columns: 1fr; }
       .viewing-student, .toolbar-actions { text-align: center; justify-content: center; }
       .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -655,8 +748,10 @@
       .connection-pill, .user-pill, .header-button { min-height: 34px; padding: 7px 10px; font-size: 11px; }
       .shell { width: min(100% - 20px, 1540px); padding-top: 24px; }
       .login-intro, .login-panel, .admin-hero, .student-list-panel, .calendar-toolbar { padding: 24px; }
+      .login-intro { min-height: 540px; }
       .login-intro h1 { font-size: 44px; }
-      .planner-motif { opacity: .5; }
+      .schedule-login-hero { top: 26px; left: 20px; width: min(82%, 440px); height: 270px; }
+      .planner-motif { top: 22px; right: 18px; width: 66px; }
       .admin-hero { align-items: stretch; flex-direction: column; }
       .student-search { max-width: none; }
       .week-navigation { grid-template-columns: 42px minmax(0, 1fr) 42px; gap: 7px; }
@@ -664,6 +759,9 @@
       .calendar-panel.glass-card { padding: 8px; }
       .week-grid { min-width: 1260px; }
       .legend { align-items: flex-start; flex-direction: column; }
+      .legend-controls { width: 100%; justify-content: space-between; }
+      .selection-actions { position: static; align-items: flex-start; flex-direction: column; }
+      .selection-action-buttons { width: 100%; justify-content: flex-start; }
       .dialog-card { padding: 22px; }
     }
 
@@ -680,19 +778,22 @@
       @page { size: A4 landscape; margin: 9mm; }
       html, body { min-height: 0; background: #fff !important; }
       body::before, body::after, .site-header, .shell, dialog, .toast { display: none !important; }
-      .print-sheet { display: block !important; color: #111; font-family: "Edmund Serif TC", "PingFang TC", serif; }
+      .print-sheet { display: block !important; color: #111; font-family: "Edmund Serif TC", "PingFang TC", serif; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
       .print-heading { margin-bottom: 5mm; display: flex; align-items: flex-end; justify-content: space-between; gap: 8mm; }
       .print-heading h1 { margin: 0; font-size: 18pt; }
       .print-heading p { margin: 1mm 0 0; font-size: 9pt; }
       .print-heading strong { font-size: 11pt; }
-      .print-week-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 7.6pt; }
-      .print-week-table th, .print-week-table td { border: .25mm solid #777; vertical-align: top; }
-      .print-week-table th { padding: 2.2mm 1.5mm; background: #eee8df !important; text-align: center; font-size: 8.5pt; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-      .print-week-table td { height: 13mm; padding: 1.5mm; white-space: pre-wrap; overflow-wrap: anywhere; }
-      .print-week-table tr { break-inside: avoid; page-break-inside: avoid; }
+      .print-week-grid { width: 100%; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 1.6mm; align-items: start; font-size: 7.4pt; }
+      .print-day { min-width: 0; border: .25mm solid #777; border-radius: 1.8mm; overflow: hidden; background: #fff !important; }
+      .print-day-heading { min-height: 12mm; padding: 2.2mm 1.2mm; display: grid; place-content: center; background: #eee8df !important; text-align: center; font-size: 8.4pt; font-weight: 850; line-height: 1.35; }
+      .print-day-entries { display: grid; gap: 1.2mm; padding: 1.4mm; }
+      .print-entry-card { min-width: 0; border: .25mm solid #aaa; border-radius: 1.4mm; padding: 1.5mm; white-space: pre-wrap; overflow-wrap: anywhere; break-inside: avoid; page-break-inside: avoid; line-height: 1.4; }
+      .print-entry-card p { margin: 0; }
+      .print-entry-admin { border-color: #c79a64; background: #f4dfc2 !important; }
+      .print-entry-student { border-color: #91a9dc; background: #dfe9ff !important; }
+      .print-entry-completed { border-color: #397d50 !important; box-shadow: inset 0 0 0 .35mm #397d50; }
+      .print-empty-day { margin: 0; padding: 4mm 1.5mm; color: #777; text-align: center; font-size: 7pt; line-height: 1.45; }
       .print-slot-label { display: block; margin-bottom: .7mm; color: #666; font-size: 6.5pt; }
-      .print-entry-admin { background: #fff2df !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-      .print-entry-completed { background: #e8f5e9 !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
       .print-source { display: block; margin-bottom: .8mm; font-weight: 800; font-size: 6.5pt; }
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
@@ -723,7 +824,8 @@
     <section data-view="login">
       <div class="login-layout">
         <div class="login-intro glass-card">
-          <div class="planner-motif" aria-hidden="true"></div>
+          <img class="schedule-login-hero" src="assets/schedule/mascot-timetable-planning.webp" alt="" aria-hidden="true">
+          <img class="planner-motif" src="assets/schedule/day-week-post-it.webp" alt="" aria-hidden="true">
           <p class="eyebrow">EDMUND STUDENT PLANNER</p>
           <h1>
             <span>學生使用</span>
@@ -798,11 +900,24 @@
 
       <div id="schedule-table-region" data-table-region>
         <div class="legend">
-          <div class="legend-items">
-            <span class="legend-badge admin">老師安排</span>
-            <span class="legend-badge student">學生安排</span>
+          <div class="legend-controls">
+            <div class="legend-items">
+              <span class="legend-badge admin">老師安排</span>
+              <span class="legend-badge student">學生安排</span>
+            </div>
+            <button class="subtle-toggle selection-toggle" type="button" data-toggle-selection aria-pressed="false">select multiple</button>
           </div>
           <span id="schedule-export-help">每一天預設 10 格；按該日底部的「＋5 格」即可繼續增加，也可按「－5 格」收起空白格。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
+        </div>
+
+        <div class="selection-actions" data-selection-actions role="region" aria-label="多項選擇操作" hidden>
+          <strong data-selection-count aria-live="polite">已選 0 項</strong>
+          <div class="selection-action-buttons">
+            <button class="selection-action-button" type="button" data-batch-complete>標記已完成</button>
+            <button class="selection-action-button" type="button" data-move-selected>移動所選</button>
+            <button class="selection-action-button danger" type="button" data-batch-delete>刪除所選</button>
+            <button class="selection-action-button" type="button" data-cancel-selection>取消選擇</button>
+          </div>
         </div>
 
         <div class="calendar-panel glass-card">
@@ -880,10 +995,7 @@
       </div>
       <strong data-print-student></strong>
     </div>
-    <table class="print-week-table">
-      <thead data-print-head></thead>
-      <tbody data-print-body></tbody>
-    </table>
+    <div class="print-week-grid" data-print-grid role="table" aria-label="每週功課及溫習安排"></div>
     <p class="print-footer">EdmundEducation · Schedule System</p>
   </section>
 

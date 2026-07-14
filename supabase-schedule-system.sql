@@ -643,6 +643,499 @@ $$;
 revoke all on function public._schedule_set_entry_completed(uuid, uuid, timestamptz, boolean, text, uuid)
   from public, anon, authenticated;
 
+create or replace function public._schedule_batch_delete_entries(
+  p_student_id uuid,
+  p_items jsonb,
+  p_actor_source text
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_item_count integer;
+  v_distinct_count integer;
+  v_null_count integer;
+  v_locked_count integer := 0;
+  v_deleted_count integer;
+  v_deleted_ids jsonb;
+  v_row record;
+begin
+  if p_actor_source is null or p_actor_source not in ('student', 'admin') then
+    raise exception 'Invalid batch-delete actor' using errcode = '22023';
+  end if;
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    raise exception 'Student not found';
+  end if;
+  if p_items is null or pg_catalog.jsonb_typeof(p_items) <> 'array' then
+    raise exception 'Batch request must be a JSON array' using errcode = '22023';
+  end if;
+  if pg_catalog.jsonb_array_length(p_items) not between 1 and 700 then
+    raise exception 'Batch request must contain between 1 and 700 entries'
+      using errcode = '22023';
+  end if;
+  if exists (
+    select 1
+    from pg_catalog.jsonb_array_elements(p_items) item(value)
+    where pg_catalog.jsonb_typeof(item.value) <> 'object'
+  ) then
+    raise exception 'Batch request items must be objects' using errcode = '22023';
+  end if;
+
+  select
+    count(*)::integer,
+    count(distinct requested.entry_id)::integer,
+    count(*) filter (
+      where requested.entry_id is null
+        or requested.expected_updated_at is null
+    )::integer
+  into v_item_count, v_distinct_count, v_null_count
+  from pg_catalog.jsonb_to_recordset(p_items) as requested(
+    entry_id uuid,
+    expected_updated_at timestamptz
+  );
+
+  if v_item_count <> v_distinct_count or v_null_count <> 0 then
+    raise exception 'Batch request contains duplicate or incomplete entries'
+      using errcode = '22023';
+  end if;
+
+  for v_row in
+    select
+      schedule_entry.*,
+      requested.expected_updated_at as requested_updated_at
+    from public.schedule_entries schedule_entry
+    join pg_catalog.jsonb_to_recordset(p_items) as requested(
+      entry_id uuid,
+      expected_updated_at timestamptz
+    ) on requested.entry_id = schedule_entry.id
+    where schedule_entry.student_id = p_student_id
+    order by schedule_entry.id
+    for update of schedule_entry
+  loop
+    v_locked_count := v_locked_count + 1;
+    if v_row.updated_at <> v_row.requested_updated_at then
+      raise exception 'Schedule entry changed in another session; reload and try again'
+        using errcode = '40001';
+    end if;
+    if p_actor_source = 'student' and v_row.source = 'admin' then
+      raise exception 'Teacher assignments can only be deleted by an administrator'
+        using errcode = '42501';
+    end if;
+  end loop;
+
+  if v_locked_count <> v_item_count then
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+
+  with requested as (
+    select request.entry_id
+    from pg_catalog.jsonb_to_recordset(p_items) as request(
+      entry_id uuid,
+      expected_updated_at timestamptz
+    )
+  ), deleted as (
+    delete from public.schedule_entries schedule_entry
+    using requested
+    where schedule_entry.student_id = p_student_id
+      and schedule_entry.id = requested.entry_id
+    returning schedule_entry.id
+  )
+  select
+    count(*)::integer,
+    coalesce(
+      pg_catalog.jsonb_agg(deleted.id order by deleted.id),
+      '[]'::jsonb
+    )
+  into v_deleted_count, v_deleted_ids
+  from deleted;
+
+  if v_deleted_count <> v_item_count then
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+
+  return pg_catalog.jsonb_build_object(
+    'deletedCount', v_deleted_count,
+    'deletedIds', v_deleted_ids
+  );
+end;
+$$;
+
+revoke all on function public._schedule_batch_delete_entries(uuid, jsonb, text)
+  from public, anon, authenticated;
+
+create or replace function public._schedule_batch_set_entries_completed(
+  p_student_id uuid,
+  p_items jsonb,
+  p_completed boolean,
+  p_actor_source text,
+  p_admin_id uuid
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_item_count integer;
+  v_distinct_count integer;
+  v_null_count integer;
+  v_locked_count integer := 0;
+  v_changed_count integer := 0;
+  v_entries jsonb;
+  v_row record;
+begin
+  if p_completed is null
+    or p_actor_source is null
+    or p_actor_source not in ('student', 'admin')
+    or (p_actor_source = 'student' and p_admin_id is not null)
+    or (p_actor_source = 'admin' and p_admin_id is null)
+  then
+    raise exception 'Invalid batch-completion request' using errcode = '22023';
+  end if;
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    raise exception 'Student not found';
+  end if;
+  if p_items is null or pg_catalog.jsonb_typeof(p_items) <> 'array' then
+    raise exception 'Batch request must be a JSON array' using errcode = '22023';
+  end if;
+  if pg_catalog.jsonb_array_length(p_items) not between 1 and 700 then
+    raise exception 'Batch request must contain between 1 and 700 entries'
+      using errcode = '22023';
+  end if;
+  if exists (
+    select 1
+    from pg_catalog.jsonb_array_elements(p_items) item(value)
+    where pg_catalog.jsonb_typeof(item.value) <> 'object'
+  ) then
+    raise exception 'Batch request items must be objects' using errcode = '22023';
+  end if;
+
+  select
+    count(*)::integer,
+    count(distinct requested.entry_id)::integer,
+    count(*) filter (
+      where requested.entry_id is null
+        or requested.expected_updated_at is null
+    )::integer
+  into v_item_count, v_distinct_count, v_null_count
+  from pg_catalog.jsonb_to_recordset(p_items) as requested(
+    entry_id uuid,
+    expected_updated_at timestamptz
+  );
+
+  if v_item_count <> v_distinct_count or v_null_count <> 0 then
+    raise exception 'Batch request contains duplicate or incomplete entries'
+      using errcode = '22023';
+  end if;
+
+  for v_row in
+    select
+      schedule_entry.*,
+      requested.expected_updated_at as requested_updated_at
+    from public.schedule_entries schedule_entry
+    join pg_catalog.jsonb_to_recordset(p_items) as requested(
+      entry_id uuid,
+      expected_updated_at timestamptz
+    ) on requested.entry_id = schedule_entry.id
+    where schedule_entry.student_id = p_student_id
+    order by schedule_entry.id
+    for update of schedule_entry
+  loop
+    v_locked_count := v_locked_count + 1;
+    if v_row.updated_at <> v_row.requested_updated_at then
+      raise exception 'Schedule entry changed in another session; reload and try again'
+        using errcode = '40001';
+    end if;
+  end loop;
+
+  if v_locked_count <> v_item_count then
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+
+  with requested as (
+    select request.entry_id, request.expected_updated_at
+    from pg_catalog.jsonb_to_recordset(p_items) as request(
+      entry_id uuid,
+      expected_updated_at timestamptz
+    )
+  )
+  update public.schedule_entries schedule_entry
+  set is_completed = p_completed,
+      completed_at = case when p_completed then now() else null end,
+      completion_source = case when p_completed then p_actor_source else null end,
+      completed_by_admin = case
+        when p_completed and p_actor_source = 'admin' then p_admin_id
+        else null
+      end,
+      updated_at = now()
+  from requested
+  where schedule_entry.student_id = p_student_id
+    and schedule_entry.id = requested.entry_id
+    and schedule_entry.updated_at = requested.expected_updated_at
+    and schedule_entry.is_completed is distinct from p_completed;
+
+  get diagnostics v_changed_count = row_count;
+
+  select coalesce(
+    pg_catalog.jsonb_agg(
+      pg_catalog.jsonb_build_object(
+        'id', schedule_entry.id,
+        'scheduleDate', pg_catalog.to_char(schedule_entry.schedule_date, 'YYYY-MM-DD'),
+        'slotIndex', schedule_entry.slot_index,
+        'message', schedule_entry.message,
+        'source', schedule_entry.source,
+        'isCompleted', schedule_entry.is_completed,
+        'completedAt', schedule_entry.completed_at,
+        'completionSource', schedule_entry.completion_source,
+        'updatedAt', schedule_entry.updated_at
+      ) order by schedule_entry.schedule_date, schedule_entry.slot_index, schedule_entry.id
+    ),
+    '[]'::jsonb
+  )
+  into v_entries
+  from public.schedule_entries schedule_entry
+  join pg_catalog.jsonb_to_recordset(p_items) as requested(
+    entry_id uuid,
+    expected_updated_at timestamptz
+  ) on requested.entry_id = schedule_entry.id
+  where schedule_entry.student_id = p_student_id;
+
+  return pg_catalog.jsonb_build_object(
+    'requestedCount', v_item_count,
+    'changedCount', v_changed_count,
+    'entries', v_entries
+  );
+end;
+$$;
+
+revoke all on function public._schedule_batch_set_entries_completed(uuid, jsonb, boolean, text, uuid)
+  from public, anon, authenticated;
+
+create or replace function public._schedule_move_entry(
+  p_student_id uuid,
+  p_entry_id uuid,
+  p_expected_updated_at timestamptz,
+  p_source_date date,
+  p_source_slot_index integer,
+  p_target_date date,
+  p_target_slot_index integer,
+  p_source_capacity_version bigint,
+  p_target_capacity_version bigint,
+  p_actor_source text
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_capacity record;
+  v_capacity_count integer := 0;
+  v_expected_capacity_count integer;
+  v_source_capacity integer;
+  v_target_capacity integer;
+  v_locked_entry_id uuid;
+  v_target_occupied boolean := false;
+  v_entry public.schedule_entries%rowtype;
+begin
+  if p_actor_source is null or p_actor_source not in ('student', 'admin') then
+    raise exception 'Invalid move actor' using errcode = '22023';
+  end if;
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    raise exception 'Student not found';
+  end if;
+  if p_entry_id is null or p_expected_updated_at is null then
+    raise exception 'Move source is incomplete' using errcode = '22023';
+  end if;
+  if p_source_date is null
+    or p_target_date is null
+    or p_source_date not between date '2026-01-01' and date '2050-12-31'
+    or p_target_date not between date '2026-01-01' and date '2050-12-31'
+  then
+    raise exception 'Schedule date is outside the supported range'
+      using errcode = '22023';
+  end if;
+  if p_source_slot_index is null
+    or p_target_slot_index is null
+    or p_source_slot_index not between 1 and 100
+    or p_target_slot_index not between 1 and 100
+  then
+    raise exception 'Invalid schedule slot' using errcode = '22023';
+  end if;
+  if p_source_capacity_version is null
+    or p_target_capacity_version is null
+    or p_source_capacity_version < 0
+    or p_target_capacity_version < 0
+  then
+    raise exception 'Invalid capacity version' using errcode = '22023';
+  end if;
+  if p_source_date = p_target_date
+    and p_source_capacity_version <> p_target_capacity_version
+  then
+    raise exception 'Capacity versions for the same day must match'
+      using errcode = '22023';
+  end if;
+
+  insert into public.schedule_day_capacity (
+    student_id,
+    schedule_date,
+    slot_count,
+    version
+  )
+  select
+    p_student_id,
+    requested.schedule_date,
+    10,
+    0
+  from (
+    select distinct candidate.schedule_date
+    from (values (p_source_date), (p_target_date)) as candidate(schedule_date)
+  ) requested
+  order by requested.schedule_date
+  on conflict (student_id, schedule_date) do nothing;
+
+  v_expected_capacity_count := case when p_source_date = p_target_date then 1 else 2 end;
+  for v_capacity in
+    select capacity.*
+    from public.schedule_day_capacity capacity
+    where capacity.student_id = p_student_id
+      and capacity.schedule_date in (p_source_date, p_target_date)
+    order by capacity.schedule_date
+    for update
+  loop
+    v_capacity_count := v_capacity_count + 1;
+    if v_capacity.schedule_date = p_source_date then
+      v_source_capacity := v_capacity.slot_count;
+      if v_capacity.version <> p_source_capacity_version then
+        raise exception 'Schedule capacity changed in another session; reload and try again'
+          using errcode = '40001';
+      end if;
+    end if;
+    if v_capacity.schedule_date = p_target_date then
+      v_target_capacity := v_capacity.slot_count;
+      if v_capacity.version <> p_target_capacity_version then
+        raise exception 'Schedule capacity changed in another session; reload and try again'
+          using errcode = '40001';
+      end if;
+    end if;
+  end loop;
+
+  if v_capacity_count <> v_expected_capacity_count then
+    raise exception 'Schedule capacity changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+  if p_source_slot_index > v_source_capacity or p_target_slot_index > v_target_capacity then
+    raise exception 'Target slot is outside the current daily capacity'
+      using errcode = '40001';
+  end if;
+
+  for v_locked_entry_id in
+    select schedule_entry.id
+    from public.schedule_entries schedule_entry
+    where schedule_entry.student_id = p_student_id
+      and (
+        schedule_entry.id = p_entry_id
+        or (
+          schedule_entry.schedule_date = p_target_date
+          and schedule_entry.slot_index = p_target_slot_index
+        )
+      )
+    order by schedule_entry.id
+    for update
+  loop
+    if v_locked_entry_id <> p_entry_id then
+      v_target_occupied := true;
+    end if;
+  end loop;
+
+  select *
+  into v_entry
+  from public.schedule_entries schedule_entry
+  where schedule_entry.student_id = p_student_id
+    and schedule_entry.id = p_entry_id;
+
+  if not found
+    or v_entry.updated_at <> p_expected_updated_at
+    or v_entry.schedule_date <> p_source_date
+    or v_entry.slot_index <> p_source_slot_index
+  then
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+  if p_actor_source = 'student' and v_entry.source = 'admin' then
+    raise exception 'Teacher assignments can only be moved by an administrator'
+      using errcode = '42501';
+  end if;
+
+  if p_source_date = p_target_date and p_source_slot_index = p_target_slot_index then
+    return pg_catalog.jsonb_build_object(
+      'id', v_entry.id,
+      'scheduleDate', pg_catalog.to_char(v_entry.schedule_date, 'YYYY-MM-DD'),
+      'slotIndex', v_entry.slot_index,
+      'message', v_entry.message,
+      'source', v_entry.source,
+      'isCompleted', v_entry.is_completed,
+      'completedAt', v_entry.completed_at,
+      'completionSource', v_entry.completion_source,
+      'updatedAt', v_entry.updated_at
+    );
+  end if;
+  if v_target_occupied then
+    raise exception 'Target slot is occupied; reload and choose an empty slot'
+      using errcode = '40001';
+  end if;
+
+  update public.schedule_entries schedule_entry
+  set schedule_date = p_target_date,
+      slot_index = p_target_slot_index,
+      updated_at = now()
+  where schedule_entry.id = v_entry.id
+    and schedule_entry.updated_at = p_expected_updated_at
+  returning * into v_entry;
+
+  if v_entry.id is null then
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+
+  return pg_catalog.jsonb_build_object(
+    'id', v_entry.id,
+    'scheduleDate', pg_catalog.to_char(v_entry.schedule_date, 'YYYY-MM-DD'),
+    'slotIndex', v_entry.slot_index,
+    'message', v_entry.message,
+    'source', v_entry.source,
+    'isCompleted', v_entry.is_completed,
+    'completedAt', v_entry.completed_at,
+    'completionSource', v_entry.completion_source,
+    'updatedAt', v_entry.updated_at
+  );
+end;
+$$;
+
+revoke all on function public._schedule_move_entry(
+  uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint, text
+) from public, anon, authenticated;
+
 create or replace function public._schedule_change_capacity(
   p_student_id uuid,
   p_schedule_date date,
@@ -985,6 +1478,92 @@ begin
 end;
 $$;
 
+create or replace function public.schedule_student_batch_delete_entries(
+  p_token uuid,
+  p_items jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then
+    raise exception 'Invalid or expired student session';
+  end if;
+  return public._schedule_batch_delete_entries(
+    v_student_id,
+    p_items,
+    'student'
+  );
+end;
+$$;
+
+create or replace function public.schedule_student_batch_set_entries_completed(
+  p_token uuid,
+  p_items jsonb,
+  p_completed boolean
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then
+    raise exception 'Invalid or expired student session';
+  end if;
+  return public._schedule_batch_set_entries_completed(
+    v_student_id,
+    p_items,
+    p_completed,
+    'student',
+    null
+  );
+end;
+$$;
+
+create or replace function public.schedule_student_move_entry(
+  p_token uuid,
+  p_entry_id uuid,
+  p_expected_updated_at timestamptz,
+  p_source_date date,
+  p_source_slot_index integer,
+  p_target_date date,
+  p_target_slot_index integer,
+  p_source_capacity_version bigint,
+  p_target_capacity_version bigint
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then
+    raise exception 'Invalid or expired student session';
+  end if;
+  return public._schedule_move_entry(
+    v_student_id,
+    p_entry_id,
+    p_expected_updated_at,
+    p_source_date,
+    p_source_slot_index,
+    p_target_date,
+    p_target_slot_index,
+    p_source_capacity_version,
+    p_target_capacity_version,
+    'student'
+  );
+end;
+$$;
+
 create or replace function public.schedule_admin_list_students(p_admin_token uuid)
 returns table (id uuid, name text, created_at timestamptz)
 language plpgsql
@@ -1150,6 +1729,91 @@ begin
 end;
 $$;
 
+create or replace function public.schedule_admin_batch_delete_entries(
+  p_admin_token uuid,
+  p_student_id uuid,
+  p_items jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  if public._schedule_admin_id(p_admin_token) is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+  return public._schedule_batch_delete_entries(
+    p_student_id,
+    p_items,
+    'admin'
+  );
+end;
+$$;
+
+create or replace function public.schedule_admin_batch_set_entries_completed(
+  p_admin_token uuid,
+  p_student_id uuid,
+  p_items jsonb,
+  p_completed boolean
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_admin_id uuid := public._schedule_admin_id(p_admin_token);
+begin
+  if v_admin_id is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+  return public._schedule_batch_set_entries_completed(
+    p_student_id,
+    p_items,
+    p_completed,
+    'admin',
+    v_admin_id
+  );
+end;
+$$;
+
+create or replace function public.schedule_admin_move_entry(
+  p_admin_token uuid,
+  p_student_id uuid,
+  p_entry_id uuid,
+  p_expected_updated_at timestamptz,
+  p_source_date date,
+  p_source_slot_index integer,
+  p_target_date date,
+  p_target_slot_index integer,
+  p_source_capacity_version bigint,
+  p_target_capacity_version bigint
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  if public._schedule_admin_id(p_admin_token) is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+  return public._schedule_move_entry(
+    p_student_id,
+    p_entry_id,
+    p_expected_updated_at,
+    p_source_date,
+    p_source_slot_index,
+    p_target_date,
+    p_target_slot_index,
+    p_source_capacity_version,
+    p_target_capacity_version,
+    'admin'
+  );
+end;
+$$;
+
 revoke all on function public.schedule_admin_login(text, text, text) from public, anon, authenticated;
 revoke all on function public.schedule_admin_me(uuid) from public, anon, authenticated;
 revoke all on function public.schedule_admin_logout(uuid) from public, anon, authenticated;
@@ -1160,12 +1824,18 @@ revoke all on function public.schedule_student_upsert_entry(uuid, date, integer,
 revoke all on function public.schedule_student_delete_entry(uuid, date, integer, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_student_change_capacity(uuid, date, bigint, integer) from public, anon, authenticated;
 revoke all on function public.schedule_student_set_entry_completed(uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
+revoke all on function public.schedule_student_batch_delete_entries(uuid, jsonb) from public, anon, authenticated;
+revoke all on function public.schedule_student_batch_set_entries_completed(uuid, jsonb, boolean) from public, anon, authenticated;
+revoke all on function public.schedule_student_move_entry(uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) from public, anon, authenticated;
 revoke all on function public.schedule_admin_list_students(uuid) from public, anon, authenticated;
 revoke all on function public.schedule_admin_get_week(uuid, uuid, date) from public, anon, authenticated;
 revoke all on function public.schedule_admin_upsert_entry(uuid, uuid, date, integer, text, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_admin_delete_entry(uuid, uuid, date, integer, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_admin_change_capacity(uuid, uuid, date, bigint, integer) from public, anon, authenticated;
 revoke all on function public.schedule_admin_set_entry_completed(uuid, uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
+revoke all on function public.schedule_admin_batch_delete_entries(uuid, uuid, jsonb) from public, anon, authenticated;
+revoke all on function public.schedule_admin_batch_set_entries_completed(uuid, uuid, jsonb, boolean) from public, anon, authenticated;
+revoke all on function public.schedule_admin_move_entry(uuid, uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) from public, anon, authenticated;
 
 -- The rate-limited Worker supplies the private service secret.
 grant execute on function public.schedule_admin_login(text, text, text) to anon;
@@ -1178,6 +1848,9 @@ grant execute on function public.schedule_admin_upsert_entry(uuid, uuid, date, i
 grant execute on function public.schedule_admin_delete_entry(uuid, uuid, date, integer, timestamptz) to authenticated;
 grant execute on function public.schedule_admin_change_capacity(uuid, uuid, date, bigint, integer) to authenticated;
 grant execute on function public.schedule_admin_set_entry_completed(uuid, uuid, uuid, timestamptz, boolean) to authenticated;
+grant execute on function public.schedule_admin_batch_delete_entries(uuid, uuid, jsonb) to authenticated;
+grant execute on function public.schedule_admin_batch_set_entries_completed(uuid, uuid, jsonb, boolean) to authenticated;
+grant execute on function public.schedule_admin_move_entry(uuid, uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) to authenticated;
 
 grant execute on function public.schedule_student_profile(uuid) to authenticated;
 grant execute on function public.schedule_student_logout(uuid) to authenticated;
@@ -1186,6 +1859,9 @@ grant execute on function public.schedule_student_upsert_entry(uuid, date, integ
 grant execute on function public.schedule_student_delete_entry(uuid, date, integer, timestamptz) to authenticated;
 grant execute on function public.schedule_student_change_capacity(uuid, date, bigint, integer) to authenticated;
 grant execute on function public.schedule_student_set_entry_completed(uuid, uuid, timestamptz, boolean) to authenticated;
+grant execute on function public.schedule_student_batch_delete_entries(uuid, jsonb) to authenticated;
+grant execute on function public.schedule_student_batch_set_entries_completed(uuid, jsonb, boolean) to authenticated;
+grant execute on function public.schedule_student_move_entry(uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) to authenticated;
 
 notify pgrst, 'reload schema';
 

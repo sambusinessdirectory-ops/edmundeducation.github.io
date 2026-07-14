@@ -194,7 +194,7 @@
 
     .login-intro {
       position: relative;
-      min-height: 560px;
+      min-height: 680px;
       padding: clamp(36px, 6vw, 76px);
       overflow: hidden;
       display: flex;
@@ -274,28 +274,18 @@
       font-weight: 750;
     }
 
-    .paper-stack {
-      position: absolute;
-      right: clamp(25px, 5vw, 68px);
-      bottom: clamp(24px, 4vw, 52px);
-      width: 120px;
-      height: 148px;
-      z-index: 0;
-      opacity: .30;
-      transform: rotate(8deg);
+    .login-cover-art {
+      position: relative;
+      z-index: 1;
+      width: min(72%, 430px);
+      max-height: 330px;
+      margin: 0 auto 24px;
+      align-self: center;
+      object-fit: contain;
+      filter: drop-shadow(0 24px 38px rgba(22, 32, 94, .28));
+      pointer-events: none;
+      user-select: none;
     }
-
-    .paper-stack span {
-      position: absolute;
-      inset: 0;
-      border: 2px solid rgba(255,255,255,.62);
-      border-radius: 13px;
-      background: rgba(255,255,255,.13);
-      box-shadow: 0 16px 34px rgba(24,35,94,.18);
-    }
-
-    .paper-stack span:nth-child(2) { transform: translate(-14px, 12px) rotate(-8deg); }
-    .paper-stack span:nth-child(3) { transform: translate(-27px, 25px) rotate(-15deg); }
 
     .login-panel {
       padding: clamp(30px, 4vw, 48px);
@@ -304,7 +294,17 @@
       justify-content: center;
     }
 
-    .login-panel img { width: 168px; margin-bottom: 32px; }
+    .login-panel .login-logo { width: 168px; margin-bottom: 32px; }
+    .login-reading-mascot {
+      width: min(88%, 340px);
+      max-height: 230px;
+      margin: -10px auto 20px;
+      align-self: center;
+      object-fit: contain;
+      filter: drop-shadow(0 15px 23px rgba(49, 57, 111, .16));
+      pointer-events: none;
+      user-select: none;
+    }
     .login-panel h2 { margin: 0; font-size: clamp(28px, 3vw, 39px); letter-spacing: -.03em; }
     .login-panel > p { margin: 12px 0 28px; color: var(--muted); line-height: 1.7; }
 
@@ -852,7 +852,8 @@
 
     @media (max-width: 960px) {
       .login-layout { grid-template-columns: 1fr; }
-      .login-intro { min-height: 480px; }
+      .login-intro { min-height: 620px; }
+      .login-cover-art { width: min(62%, 360px); max-height: 285px; }
       .login-panel { min-height: 520px; }
       .exam-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .catalog-tools { grid-template-columns: 1fr 200px; }
@@ -869,9 +870,15 @@
       .connection-pill { display: none; }
       .user-pill { max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
       .shell { width: min(100% - 20px, 1180px); padding-top: 20px; }
-      .login-intro { min-height: 430px; padding: 32px 25px; }
+      .login-intro { min-height: 560px; padding: 32px 25px; }
+      .login-cover-art {
+        width: min(280px, 82%);
+        max-height: 250px;
+        margin-bottom: 20px;
+      }
       .login-panel { min-height: 0; padding: 31px 24px; }
-      .login-panel img { width: 138px; margin-bottom: 24px; }
+      .login-panel .login-logo { width: 138px; margin-bottom: 24px; }
+      .login-reading-mascot { width: min(90%, 280px); max-height: 190px; margin: -6px auto 18px; }
       .section-hero { padding: 25px 22px; display: block; }
       .section-hero .hero-note { margin-top: 13px; text-align: left; }
       .exam-grid,
@@ -932,16 +939,17 @@
     <section data-view="login">
       <div class="login-layout">
         <div class="login-intro glass-card">
+          <img class="login-cover-art" src="assets/model-essays/essay-cover.webp" alt="" aria-hidden="true">
           <p class="eyebrow">EDMUND STUDENT LIBRARY</p>
           <h1>
             <span>學生使用</span>
             <span class="soft-line">DSE / IELTS 其他範文下載區</span>
           </h1>
-          <div class="paper-stack" aria-hidden="true"><span></span><span></span><span></span></div>
         </div>
 
         <div class="login-panel glass-card">
-          <img src="E-Learning.png" alt="EdmundEducation E-Learning">
+          <img class="login-logo" src="E-Learning.png" alt="EdmundEducation E-Learning">
+          <img class="login-reading-mascot" src="assets/model-essays/mascot-reading-essays.webp" alt="" aria-hidden="true">
           <h2>學生 / 管理員登入</h2>
           <p>您的 Flashcard / 寫作練習帳戶可直接使用。</p>
           <form data-login-form novalidate>
