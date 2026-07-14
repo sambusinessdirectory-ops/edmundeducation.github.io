@@ -195,6 +195,7 @@ assert.match(
 );
 assert.match(scheduleSql, /create or replace function public\._schedule_change_capacity\b/);
 assert.match(scheduleSql, /p_delta is null or p_delta not in \(-5, 5\)/);
+assert.match(scheduleSql, /p_expected_version is null or p_expected_version < 0/);
 assert.match(scheduleSql, /v_capacity\.version <> p_expected_version/);
 assert.match(scheduleSql, /entry\.slot_index > v_target/);
 assert.match(scheduleSql, /version = capacity\.version \+ 1/);

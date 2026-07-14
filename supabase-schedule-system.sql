@@ -671,7 +671,7 @@ begin
   if p_delta is null or p_delta not in (-5, 5) then
     raise exception 'Capacity can only change by five slots';
   end if;
-  if p_expected_version is not null and p_expected_version < 0 then
+  if p_expected_version is null or p_expected_version < 0 then
     raise exception 'Invalid capacity version';
   end if;
 
@@ -691,7 +691,7 @@ begin
     and capacity.schedule_date = p_schedule_date
   for update;
 
-  if p_expected_version is not null and v_capacity.version <> p_expected_version then
+  if v_capacity.version <> p_expected_version then
     raise exception 'Schedule capacity changed in another session; reload and try again'
       using errcode = '40001';
   end if;
