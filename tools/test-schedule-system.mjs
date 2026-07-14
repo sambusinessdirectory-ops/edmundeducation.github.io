@@ -64,6 +64,47 @@ assert.match(scheduleHtml, /刪除後無法復原/);
 assert.match(scheduleHtml, /按 Enter 儲存/);
 assert.match(scheduleHtml, /@media print/);
 assert.match(scheduleHtml, /<thead data-print-head>/);
+assert.match(
+  scheduleHtml,
+  /\.calendar-panel\.glass-card\s*\{[^}]*background:\s*rgba\(\s*255\s*,\s*252\s*,\s*245\s*,\s*\.05\s*\)[^}]*backdrop-filter:\s*none/s,
+  "calendar panel must use the requested 5% opaque background without blur"
+);
+assert.match(
+  scheduleHtml,
+  /\.day-column\s*\{[^}]*background:\s*rgba\(\s*255\s*,\s*253\s*,\s*248\s*,\s*\.8\s*\)/s,
+  "weekday columns must use the requested 80% alpha"
+);
+assert.match(
+  scheduleHtml,
+  /\.day-column\.is-weekend\s*\{[^}]*background:\s*rgba\(\s*249\s*,\s*243\s*,\s*234\s*,\s*\.8\s*\)/s,
+  "weekend columns must use the requested 80% alpha"
+);
+assert.match(scheduleHtml, /\.day-header\s*\{[^}]*position:\s*(?:relative|static)\s*;/s);
+assert.doesNotMatch(scheduleHtml, /\.day-header\s*\{[^}]*position:\s*sticky\b/s);
+assert.match(scheduleHtml, /\.legend-badge,\s*\.entry-source\s*\{[^}]*font-size:\s*13\.2px/s);
+assert.match(scheduleHtml, /#schedule-export-help\s*\{[^}]*background:\s*rgba\([^)]*,\s*\.9\)/s);
+assert.match(scheduleHtml, /\.entry-message\s*\{[^}]*font-size:\s*17px/s);
+assert.match(scheduleHtml, /data-toggle-table/);
+assert.match(scheduleHtml, /aria-controls="schedule-table-region"/);
+assert.match(scheduleHtml, /data-toggle-unused/);
+assert.match(scheduleHtml, /data-toggle-unused[^>]*aria-pressed="false"/);
+assert.match(scheduleHtml, /remove-slots-button/);
+assert.match(scheduleHtml, /－5 格/);
+assert.match(scheduleHtml, /data-toggle-complete/);
+assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-completed/);
+assert.match(scheduleHtml, /\.completion-badge/);
+assert.match(scheduleHtml, />標記完成</);
+
+const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
+assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
+for (const metric of [
+  "week-goals",
+  "total-goals",
+  "week-completed",
+  "total-completed"
+]) {
+  assert.match(scheduleHtml, new RegExp(`data-metric-${metric}\\b`), `missing ${metric} metric card`);
+}
 
 assert.match(scheduleJs, /Math\.max\(10/);
 assert.match(scheduleJs, /＋5 格/);
@@ -73,6 +114,29 @@ assert.match(scheduleJs, /schedule_admin_get_week/);
 assert.match(scheduleJs, /schedule_student_upsert_entry/);
 assert.match(scheduleJs, /p_expected_updated_at/);
 assert.match(scheduleJs, /restoreCalendarFocus/);
+assert.match(scheduleJs, /state\.tableHidden/);
+assert.match(scheduleJs, /state\.hideUnused/);
+assert.match(scheduleJs, /function toggleTableVisibility\(/);
+assert.match(scheduleJs, /function toggleUnusedSlots\(/);
+assert.match(scheduleJs, /function renderMetrics\(/);
+assert.match(scheduleJs, /capacityVersions/);
+assert.match(scheduleJs, /if\s*\(state\.hideUnused\s*&&\s*!entry\)\s*continue/);
+assert.match(scheduleJs, /unused-day-note/);
+assert.match(scheduleJs, /data\.removeSlotsDate|dataset\.removeSlotsDate/);
+assert.match(scheduleJs, /schedule_admin_change_capacity/);
+assert.match(scheduleJs, /schedule_student_change_capacity/);
+assert.match(scheduleJs, /schedule_admin_set_entry_completed/);
+assert.match(scheduleJs, /schedule_student_set_entry_completed/);
+assert.match(scheduleJs, /p_expected_version/);
+assert.match(scheduleJs, /p_delta/);
+assert.match(scheduleJs, /classList\.add\("is-completed"\)/);
+assert.match(scheduleJs, /completion-badge/);
+assert.match(scheduleJs, /textContent\s*=\s*"已完成"/);
+assert.match(scheduleJs, /elements\.toggleTable\.addEventListener\(/);
+assert.match(scheduleJs, /elements\.toggleUnused\.addEventListener\(/);
+assert.match(scheduleJs, /elements\.toggleComplete\.addEventListener\(/);
+assert.match(scheduleJs, /changeCapacity\([^,]+,\s*-5\s*,/);
+assert.doesNotMatch(scheduleJs, /\baddSlots\(/, "legacy addSlots handler must be replaced by versioned capacity changes");
 
 const rpcNames = [
   "schedule_admin_login",
@@ -82,13 +146,15 @@ const rpcNames = [
   "schedule_admin_get_week",
   "schedule_admin_upsert_entry",
   "schedule_admin_delete_entry",
-  "schedule_admin_add_slots",
+  "schedule_admin_change_capacity",
+  "schedule_admin_set_entry_completed",
   "schedule_student_profile",
   "schedule_student_logout",
   "schedule_student_get_week",
   "schedule_student_upsert_entry",
   "schedule_student_delete_entry",
-  "schedule_student_add_slots"
+  "schedule_student_change_capacity",
+  "schedule_student_set_entry_completed"
 ];
 for (const name of rpcNames) {
   assert.match(scheduleSql, new RegExp(`function public\\.${name}\\b`), `missing SQL RPC ${name}`);
@@ -103,8 +169,42 @@ assert.match(scheduleSql, /enable row level security/g);
 assert.match(scheduleSql, /revoke all on table public\.schedule_entries/);
 assert.match(scheduleSql, /schedule_date between date '2026-01-01' and date '2050-12-31'/);
 assert.match(scheduleSql, /slot_count between 10 and 100/);
-assert.match(scheduleSql, /least\(100, public\.schedule_day_capacity\.slot_count \+ 5\)/);
 assert.match(scheduleSql, /for update/);
+assert.match(scheduleSql, /version bigint not null default 0/);
+assert.match(scheduleSql, /add column if not exists version bigint not null default 0/);
+assert.match(scheduleSql, /is_completed boolean not null default false/);
+assert.match(scheduleSql, /completed_at timestamptz/);
+assert.match(scheduleSql, /completion_source text/);
+assert.match(scheduleSql, /completed_by_admin uuid/);
+assert.match(scheduleSql, /schedule_entries_completed_by_admin_fkey[\s\S]*?on delete restrict/);
+assert.match(scheduleSql, /'isCompleted',\s*entry\.is_completed/);
+assert.match(scheduleSql, /'completedAt',\s*entry\.completed_at/);
+assert.match(scheduleSql, /'completionSource',\s*entry\.completion_source/);
+assert.match(scheduleSql, /'metrics',\s*pg_catalog\.jsonb_build_object/);
+assert.match(scheduleSql, /'weekGoals'/);
+assert.match(scheduleSql, /'totalGoals'/);
+assert.match(scheduleSql, /'weekCompleted'/);
+assert.match(scheduleSql, /'totalCompleted'/);
+assert.match(scheduleSql, /'capacityVersions'/);
+assert.match(scheduleSql, /create or replace function public\._schedule_set_entry_completed\b/);
+assert.match(scheduleSql, /set is_completed = p_completed/);
+assert.match(
+  scheduleSql,
+  /create or replace function public\._schedule_set_entry_completed\b[\s\S]*?from public\.schedule_entries entry[\s\S]*?for update;[\s\S]*?set is_completed = p_completed/,
+  "completion changes must lock the current entry before updating it"
+);
+assert.match(scheduleSql, /create or replace function public\._schedule_change_capacity\b/);
+assert.match(scheduleSql, /p_delta is null or p_delta not in \(-5, 5\)/);
+assert.match(scheduleSql, /v_capacity\.version <> p_expected_version/);
+assert.match(scheduleSql, /entry\.slot_index > v_target/);
+assert.match(scheduleSql, /version = capacity\.version \+ 1/);
+assert.match(scheduleSql, /is_completed = false,[\s\S]*?completed_at = null,[\s\S]*?completion_source = null/);
+assert.doesNotMatch(scheduleSql, /create or replace function public\.schedule_(?:student|admin)_add_slots\b/);
+assert.match(
+  scheduleSql,
+  /create or replace function public\._schedule_change_capacity\b[\s\S]*?from public\.schedule_day_capacity capacity[\s\S]*?where capacity\.student_id = p_student_id[\s\S]*?for update;/,
+  "capacity changes must lock the current day-capacity row"
+);
 assert.match(scheduleSql, /Schedule entry changed in another session/);
 assert.match(scheduleSql, /Teacher assignments can only be changed by an administrator/);
 assert.match(scheduleSql, /Teacher assignments can only be deleted by an administrator/);

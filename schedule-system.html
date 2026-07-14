@@ -36,7 +36,7 @@
     * { box-sizing: border-box; }
     [hidden] { display: none !important; }
 
-    html { min-height: 100%; scroll-behavior: smooth; }
+    html { min-height: 100%; overflow-y: auto; scroll-behavior: smooth; }
 
     body {
       position: relative;
@@ -47,6 +47,7 @@
       background: #d6c3ad;
       font-family: "Edmund Serif TC", "Noto Serif TC", "PingFang TC", "Microsoft JhengHei", serif;
       line-height: 1.55;
+      overflow-y: auto;
     }
 
     body::before {
@@ -306,7 +307,8 @@
     .danger-button,
     .icon-button,
     .student-open-button,
-    .add-slots-button {
+    .add-slots-button,
+    .remove-slots-button {
       border: 0;
       border-radius: 14px;
       cursor: pointer;
@@ -328,7 +330,8 @@
     .danger-button:hover, .danger-button:focus-visible,
     .icon-button:hover, .icon-button:focus-visible,
     .student-open-button:hover, .student-open-button:focus-visible,
-    .add-slots-button:hover, .add-slots-button:focus-visible { transform: translateY(-2px); }
+    .add-slots-button:hover, .add-slots-button:focus-visible,
+    .remove-slots-button:hover, .remove-slots-button:focus-visible { transform: translateY(-2px); }
 
     button:disabled { cursor: not-allowed; opacity: .48; transform: none !important; }
 
@@ -413,6 +416,19 @@
     .toolbar-actions { display: flex; justify-content: flex-end; gap: 9px; flex-wrap: wrap; }
     .secondary-button { min-height: 42px; padding: 10px 14px; color: var(--ink); border: 1px solid var(--line); background: rgba(255, 255, 255, .78); }
     .danger-button { min-height: 42px; padding: 10px 14px; color: #fff; background: var(--danger); }
+    .subtle-toggle {
+      min-height: 36px;
+      border: 1px solid rgba(82, 55, 40, .2);
+      border-radius: 11px;
+      padding: 7px 11px;
+      color: #4b372e;
+      background: rgba(255, 252, 245, .78);
+      box-shadow: 0 5px 14px rgba(54, 31, 18, .06);
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 850;
+    }
+    .subtle-toggle[aria-pressed="true"] { color: #fff; background: #6d594e; }
 
     .legend {
       margin: 0 0 12px;
@@ -420,8 +436,8 @@
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      color: var(--muted);
-      font-size: 13px;
+      color: #3f2d25;
+      font-size: 13.2px;
     }
 
     .legend-items { display: flex; gap: 10px; flex-wrap: wrap; }
@@ -430,17 +446,40 @@
       align-items: center;
       gap: 6px;
       border-radius: 999px;
-      padding: 4px 8px;
-      font-size: 11px;
+      padding: 5px 10px;
+      font-size: 13.2px;
       font-weight: 850;
     }
     .legend-badge.admin, .entry-source.admin { color: #70411f; background: #f6dec0; }
     .legend-badge.student, .entry-source.student { color: #334d84; background: var(--blue-soft); }
 
-    .calendar-panel { padding: 16px; }
+    #schedule-export-help {
+      display: inline-block;
+      max-width: 820px;
+      border: 1px solid rgba(86, 52, 34, .2);
+      border-radius: 12px;
+      padding: 7px 11px;
+      color: #35251e;
+      background: rgba(255, 253, 248, .9);
+      box-shadow: 0 5px 14px rgba(54, 31, 18, .09);
+      font-weight: 750;
+      line-height: 1.5;
+    }
+
+    .calendar-panel.glass-card {
+      padding: 16px;
+      border-color: rgba(255, 255, 255, .44);
+      background: rgba(255, 252, 245, .05);
+      box-shadow: 0 14px 42px rgba(47, 28, 18, .12);
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+    }
     .calendar-scroll {
       overflow-x: auto;
+      overflow-y: hidden;
       overscroll-behavior-inline: contain;
+      overscroll-behavior-block: auto;
+      touch-action: pan-x pan-y;
       -webkit-overflow-scrolling: touch;
       padding: 3px 3px 15px;
       scrollbar-color: rgba(111, 67, 39, .5) rgba(255, 255, 255, .45);
@@ -457,17 +496,17 @@
     .day-column {
       border: 1px solid rgba(90, 55, 34, .16);
       border-radius: 19px;
-      background: rgba(255, 253, 248, .9);
-      overflow: clip;
+      background: rgba(255, 253, 248, .8);
+      overflow: hidden;
       box-shadow: 0 12px 30px rgba(54, 31, 18, .09);
     }
 
-    .day-column.is-weekend { background: rgba(249, 243, 234, .94); }
+    .day-column.is-weekend { background: rgba(249, 243, 234, .8); }
     .day-column.is-outside-range { opacity: .58; }
 
     .day-header {
-      position: sticky;
-      top: 88px;
+      position: relative;
+      top: auto;
       z-index: 3;
       min-height: 82px;
       padding: 15px 14px;
@@ -517,24 +556,36 @@
       background: linear-gradient(145deg, #fffdf9, #f8e8d3);
     }
 
-    .slot-number { display: block; margin-bottom: 4px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
+    .schedule-slot.has-entry.is-completed {
+      border-color: rgba(39, 126, 71, .48);
+      background: linear-gradient(145deg, rgba(250, 255, 251, .96), rgba(207, 238, 215, .95));
+      box-shadow: inset 0 0 0 1px rgba(39, 126, 71, .08);
+    }
+
+    .slot-topline { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
+    .slot-number { display: block; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
+    .completion-badge { border-radius: 999px; padding: 2px 7px; color: #1d6d3a; background: rgba(220, 245, 226, .96); font-size: 10px; font-weight: 900; letter-spacing: .04em; }
     .slot-placeholder { color: #6f5a4e; font-size: 13px; }
     .entry-message {
-      margin: 7px 0 0;
+      margin: 6px 0 0;
       display: -webkit-box;
       overflow: hidden;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       white-space: pre-wrap;
-      font-size: 13px;
-      font-weight: 700;
-      line-height: 1.42;
+      font-size: 17px;
+      font-weight: 760;
+      line-height: 1.38;
     }
 
-    .add-slots-wrap { padding: 2px 10px 12px; }
-    .add-slots-button { width: 100%; min-height: 44px; color: var(--amber-dark); border: 1px solid rgba(155, 94, 49, .25); background: rgba(246, 222, 192, .74); }
+    .capacity-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; padding: 2px 10px 12px; }
+    .add-slots-button, .remove-slots-button { min-height: 44px; border: 1px solid rgba(155, 94, 49, .25); }
+    .add-slots-button { color: var(--amber-dark); background: rgba(246, 222, 192, .82); }
+    .remove-slots-button { color: #51453e; background: rgba(255, 253, 248, .82); }
+    .unused-day-note { margin: 8px 10px 12px; border: 1px dashed rgba(82, 55, 40, .22); border-radius: 13px; padding: 20px 10px; color: #5a463c; background: rgba(255, 253, 248, .58); text-align: center; font-size: 13px; font-weight: 700; }
 
     .calendar-status { min-height: 26px; margin: 12px 4px 0; color: var(--muted); font-size: 13px; }
+    .calendar-status:not(:empty) { width: max-content; max-width: calc(100% - 8px); border: 1px solid rgba(82, 55, 40, .14); border-radius: 10px; padding: 5px 9px; background: rgba(255, 253, 248, .9); font-weight: 750; }
     .calendar-status[data-state="error"] { color: var(--danger); }
 
     dialog {
@@ -556,6 +607,18 @@
     .dialog-actions { display: flex; align-items: center; justify-content: flex-end; gap: 9px; flex-wrap: wrap; }
     .dialog-actions .danger-button { margin-right: auto; }
     .dialog-actions .primary-button { width: auto; min-height: 42px; padding: 10px 18px; }
+    .complete-button { min-height: 42px; border: 1px solid rgba(39, 126, 71, .3); border-radius: 14px; padding: 10px 14px; color: #1f6b3a; background: #e4f5e8; cursor: pointer; font-weight: 850; }
+    .complete-button[data-completed="true"] { color: #fff; background: #397d50; }
+
+    .progress-dashboard { margin-top: 20px; padding: clamp(22px, 3vw, 34px); }
+    .progress-heading { margin-bottom: 16px; }
+    .progress-heading p { margin: 0 0 4px; color: var(--amber-dark); font-size: 12px; font-weight: 900; letter-spacing: .13em; }
+    .progress-heading h2 { margin: 0; font-size: clamp(24px, 3vw, 36px); }
+    .metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+    .metric-card { min-height: 132px; border: 1px solid rgba(82, 55, 40, .15); border-radius: 18px; padding: 18px; background: rgba(255, 253, 248, .84); box-shadow: 0 10px 24px rgba(54, 31, 18, .07); }
+    .metric-card span { display: block; color: #5f4b41; font-size: 13px; font-weight: 800; }
+    .metric-card strong { display: block; margin-top: 10px; color: var(--amber-dark); font-size: clamp(34px, 4vw, 50px); line-height: 1; }
+    .metric-card.completed strong { color: #2e7749; }
 
     .toast {
       position: fixed;
@@ -581,6 +644,7 @@
       .planner-motif { width: 130px; top: 42px; right: 42px; }
       .calendar-toolbar { grid-template-columns: 1fr; }
       .viewing-student, .toolbar-actions { text-align: center; justify-content: center; }
+      .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     }
 
     @media (max-width: 680px) {
@@ -597,11 +661,15 @@
       .student-search { max-width: none; }
       .week-navigation { grid-template-columns: 42px minmax(0, 1fr) 42px; gap: 7px; }
       .icon-button { width: 42px; height: 42px; }
-      .calendar-panel { padding: 8px; }
+      .calendar-panel.glass-card { padding: 8px; }
       .week-grid { min-width: 1260px; }
-      .day-header { top: 0; }
       .legend { align-items: flex-start; flex-direction: column; }
       .dialog-card { padding: 22px; }
+    }
+
+    @media (max-width: 520px) {
+      .metric-grid { grid-template-columns: 1fr; }
+      .metric-card { min-height: 112px; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -624,6 +692,7 @@
       .print-week-table tr { break-inside: avoid; page-break-inside: avoid; }
       .print-slot-label { display: block; margin-bottom: .7mm; color: #666; font-size: 6.5pt; }
       .print-entry-admin { background: #fff2df !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .print-entry-completed { background: #e8f5e9 !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
       .print-source { display: block; margin-bottom: .8mm; font-weight: 800; font-size: 6.5pt; }
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
@@ -722,23 +791,52 @@
         <div class="toolbar-actions">
           <button class="secondary-button" type="button" data-current-week>本星期</button>
           <button class="secondary-button" type="button" data-export-pdf aria-describedby="schedule-export-help">匯出 / 列印 PDF</button>
+          <button class="subtle-toggle" type="button" data-toggle-unused aria-pressed="false">隱藏未使用格</button>
+          <button class="subtle-toggle" type="button" data-toggle-table aria-controls="schedule-table-region" aria-expanded="true">隱藏日程表</button>
         </div>
       </div>
 
-      <div class="legend">
-        <div class="legend-items">
-          <span class="legend-badge admin">老師安排</span>
-          <span class="legend-badge student">學生安排</span>
+      <div id="schedule-table-region" data-table-region>
+        <div class="legend">
+          <div class="legend-items">
+            <span class="legend-badge admin">老師安排</span>
+            <span class="legend-badge student">學生安排</span>
+          </div>
+          <span id="schedule-export-help">每一天預設 10 格；按該日底部的「＋5 格」即可繼續增加，也可按「－5 格」收起空白格。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
         </div>
-        <span id="schedule-export-help">每一天預設 10 格；按該日底部的「＋5 格」即可繼續增加。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
-      </div>
 
-      <div class="calendar-panel glass-card">
-        <div class="calendar-scroll" data-calendar-scroll tabindex="0" aria-label="每週功課及溫習安排表，可左右捲動">
-          <div class="week-grid" data-week-grid></div>
+        <div class="calendar-panel glass-card">
+          <div class="calendar-scroll" data-calendar-scroll tabindex="0" aria-label="每週功課及溫習安排表，可左右捲動">
+            <div class="week-grid" data-week-grid></div>
+          </div>
         </div>
-        <p class="calendar-status" data-calendar-status role="status" aria-live="polite"></p>
       </div>
+      <p class="calendar-status" data-calendar-status role="status" aria-live="polite"></p>
+
+      <section class="progress-dashboard glass-card" aria-labelledby="schedule-progress-heading">
+        <div class="progress-heading">
+          <p>GOAL PROGRESS</p>
+          <h2 id="schedule-progress-heading">目標進度</h2>
+        </div>
+        <div class="metric-grid">
+          <article class="metric-card">
+            <span>本週已設定目標</span>
+            <strong data-metric-week-goals>—</strong>
+          </article>
+          <article class="metric-card">
+            <span>累計目標總數</span>
+            <strong data-metric-total-goals>—</strong>
+          </article>
+          <article class="metric-card completed">
+            <span>本週已完成目標</span>
+            <strong data-metric-week-completed>—</strong>
+          </article>
+          <article class="metric-card completed">
+            <span>累計已完成目標</span>
+            <strong data-metric-total-completed>—</strong>
+          </article>
+        </div>
+      </section>
     </section>
   </main>
 
@@ -754,6 +852,7 @@
       <p class="form-status" data-entry-status role="status" aria-live="polite"></p>
       <div class="dialog-actions">
         <button class="danger-button" type="button" data-delete-entry hidden>刪除</button>
+        <button class="complete-button" type="button" data-toggle-complete hidden data-completed="false" aria-pressed="false">標記完成</button>
         <button class="secondary-button" type="button" data-close-entry>取消</button>
         <button class="primary-button" type="submit" data-save-entry>儲存</button>
       </div>

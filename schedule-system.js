@@ -16,6 +16,8 @@ import {
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
+const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
+const UNUSED_HIDDEN_KEY = "edmund-schedule-unused-hidden-v1";
 const MAX_SLOTS_PER_DAY = 100;
 
 const supabaseSettings = window.EDMUND_SUPABASE || {};
@@ -46,8 +48,15 @@ const elements = {
   nextWeek: document.querySelector("[data-next-week]"),
   currentWeek: document.querySelector("[data-current-week]"),
   exportPdf: document.querySelector("[data-export-pdf]"),
+  toggleTable: document.querySelector("[data-toggle-table]"),
+  toggleUnused: document.querySelector("[data-toggle-unused]"),
+  tableRegion: document.querySelector("[data-table-region]"),
   weekGrid: document.querySelector("[data-week-grid]"),
   calendarStatus: document.querySelector("[data-calendar-status]"),
+  metricWeekGoals: document.querySelector("[data-metric-week-goals]"),
+  metricTotalGoals: document.querySelector("[data-metric-total-goals]"),
+  metricWeekCompleted: document.querySelector("[data-metric-week-completed]"),
+  metricTotalCompleted: document.querySelector("[data-metric-total-completed]"),
   entryDialog: document.querySelector("[data-entry-dialog]"),
   entryForm: document.querySelector("[data-entry-form]"),
   entryTitle: document.querySelector("[data-entry-title]"),
@@ -57,6 +66,7 @@ const elements = {
   entryStatus: document.querySelector("[data-entry-status]"),
   closeEntry: document.querySelector("[data-close-entry]"),
   deleteEntry: document.querySelector("[data-delete-entry]"),
+  toggleComplete: document.querySelector("[data-toggle-complete]"),
   saveEntry: document.querySelector("[data-save-entry]"),
   deleteDialog: document.querySelector("[data-delete-dialog]"),
   cancelDelete: document.querySelector("[data-cancel-delete]"),
@@ -74,11 +84,43 @@ const state = {
   selectedStudent: null,
   adminStudents: [],
   weekStart: defaultWeekStart(),
-  weekPayload: { capacities: {}, entries: [] },
+  weekPayload: emptyWeekPayload(),
   editing: null,
   weekRequestId: 0,
-  toastTimer: null
+  toastTimer: null,
+  tableHidden: readDisplayPreference(TABLE_HIDDEN_KEY),
+  hideUnused: readDisplayPreference(UNUSED_HIDDEN_KEY)
 };
+
+function emptyWeekPayload() {
+  return {
+    capacities: {},
+    capacityVersions: {},
+    entries: [],
+    metrics: {
+      weekGoals: 0,
+      totalGoals: 0,
+      weekCompleted: 0,
+      totalCompleted: 0
+    }
+  };
+}
+
+function readDisplayPreference(key) {
+  try {
+    return localStorage.getItem(key) === "true";
+  } catch {
+    return false;
+  }
+}
+
+function saveDisplayPreference(key, value) {
+  try {
+    localStorage.setItem(key, String(Boolean(value)));
+  } catch {
+    // Display preferences can remain in memory when storage is unavailable.
+  }
+}
 
 function setConnection(text, status = "online") {
   elements.connection.textContent = text;
@@ -114,12 +156,13 @@ function showView(name) {
       ? `${state.currentUser.name} · 管理員`
       : state.currentUser.name;
   }
+  if (name === "calendar") applyDisplayPreferences();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function clearRenderedSchedule() {
   state.weekRequestId += 1;
-  state.weekPayload = { capacities: {}, entries: [] };
+  state.weekPayload = emptyWeekPayload();
   state.editing = null;
   elements.weekGrid.replaceChildren();
   elements.exportPdf.disabled = true;
@@ -129,8 +172,54 @@ function clearRenderedSchedule() {
   elements.entryMessage.readOnly = false;
   elements.saveEntry.hidden = false;
   elements.deleteEntry.hidden = true;
+  elements.toggleComplete.hidden = true;
+  elements.toggleComplete.dataset.completed = "false";
+  elements.toggleComplete.setAttribute("aria-pressed", "false");
+  elements.toggleComplete.textContent = "標記完成";
+  setMetricsUnavailable();
+  applyDisplayPreferences();
   setStatus(elements.entryStatus, "");
   setStatus(elements.calendarStatus, "");
+}
+
+function applyDisplayPreferences() {
+  elements.tableRegion.hidden = state.tableHidden;
+  elements.toggleTable.textContent = state.tableHidden ? "顯示日程表" : "隱藏日程表";
+  elements.toggleTable.setAttribute("aria-expanded", String(!state.tableHidden));
+  elements.toggleUnused.textContent = state.hideUnused ? "顯示所有格" : "隱藏未使用格";
+  elements.toggleUnused.setAttribute("aria-pressed", String(state.hideUnused));
+}
+
+function toggleTableVisibility() {
+  state.tableHidden = !state.tableHidden;
+  saveDisplayPreference(TABLE_HIDDEN_KEY, state.tableHidden);
+  applyDisplayPreferences();
+}
+
+function toggleUnusedSlots() {
+  state.hideUnused = !state.hideUnused;
+  saveDisplayPreference(UNUSED_HIDDEN_KEY, state.hideUnused);
+  applyDisplayPreferences();
+  if (activeStudent()) renderWeek();
+}
+
+function renderMetrics() {
+  if (!activeStudent()) {
+    setMetricsUnavailable();
+    return;
+  }
+  const metrics = state.weekPayload?.metrics || emptyWeekPayload().metrics;
+  elements.metricWeekGoals.textContent = String(Number(metrics.weekGoals) || 0);
+  elements.metricTotalGoals.textContent = String(Number(metrics.totalGoals) || 0);
+  elements.metricWeekCompleted.textContent = String(Number(metrics.weekCompleted) || 0);
+  elements.metricTotalCompleted.textContent = String(Number(metrics.totalCompleted) || 0);
+}
+
+function setMetricsUnavailable() {
+  elements.metricWeekGoals.textContent = "—";
+  elements.metricTotalGoals.textContent = "—";
+  elements.metricWeekCompleted.textContent = "—";
+  elements.metricTotalCompleted.textContent = "—";
 }
 
 function saveSession() {
@@ -399,8 +488,9 @@ async function loadWeek(focusTarget = null) {
   const requestedWeek = state.weekStart;
   const requestId = state.weekRequestId + 1;
   state.weekRequestId = requestId;
-  state.weekPayload = { capacities: {}, entries: [] };
+  state.weekPayload = emptyWeekPayload();
   elements.weekGrid.replaceChildren();
+  setMetricsUnavailable();
   elements.exportPdf.disabled = true;
   setStatus(elements.calendarStatus, "正在載入本星期安排…");
   elements.weekGrid.setAttribute("aria-busy", "true");
@@ -424,9 +514,21 @@ async function loadWeek(focusTarget = null) {
     }
     state.weekPayload = {
       capacities: payload.capacities && typeof payload.capacities === "object" ? payload.capacities : {},
-      entries: Array.isArray(payload.entries) ? payload.entries : []
+      capacityVersions: payload.capacityVersions && typeof payload.capacityVersions === "object"
+        ? payload.capacityVersions
+        : {},
+      entries: Array.isArray(payload.entries) ? payload.entries : [],
+      metrics: payload.metrics && typeof payload.metrics === "object"
+        ? {
+            weekGoals: Number(payload.metrics.weekGoals) || 0,
+            totalGoals: Number(payload.metrics.totalGoals) || 0,
+            weekCompleted: Number(payload.metrics.weekCompleted) || 0,
+            totalCompleted: Number(payload.metrics.totalCompleted) || 0
+          }
+        : emptyWeekPayload().metrics
     };
     renderWeek();
+    renderMetrics();
     restoreCalendarFocus(focusTarget);
     elements.exportPdf.disabled = false;
     setStatus(elements.calendarStatus, `已儲存於雲端 · ${state.weekPayload.entries.length} 項安排`);
@@ -444,10 +546,21 @@ async function loadWeek(focusTarget = null) {
 
 function restoreCalendarFocus(target) {
   if (!target?.date) return;
-  const selector = target.slotIndex
+  const primarySelector = target.slotIndex
     ? `[data-slot-date="${target.date}"][data-slot-index="${Number(target.slotIndex)}"]`
-    : `[data-add-slots-date="${target.date}"]`;
-  window.requestAnimationFrame(() => elements.weekGrid.querySelector(selector)?.focus());
+    : `[data-${target.control === "remove" ? "remove" : "add"}-slots-date="${target.date}"]`;
+  window.requestAnimationFrame(() => {
+    const selectors = [
+      primarySelector,
+      `[data-add-slots-date="${target.date}"]`,
+      `[data-remove-slots-date="${target.date}"]`
+    ];
+    const focusable = selectors
+      .map((selector) => elements.weekGrid.querySelector(selector))
+      .find((candidate) => candidate && !candidate.disabled && candidate.getClientRects().length > 0);
+    if (focusable) focusable.focus();
+    else if (state.tableHidden) elements.toggleTable.focus();
+  });
 }
 
 function updateCalendarHeading() {
@@ -501,9 +614,18 @@ function renderWeek() {
     const slots = document.createElement("div");
     slots.className = "day-slots";
     if (active) {
+      let visibleSlots = 0;
       for (let slotIndex = 1; slotIndex <= capacity; slotIndex += 1) {
         const entry = entries.get(`${date}:${slotIndex}`);
+        if (state.hideUnused && !entry) continue;
         slots.append(createSlotButton(date, dayIndex, slotIndex, entry));
+        visibleSlots += 1;
+      }
+      if (state.hideUnused && visibleSlots === 0) {
+        const note = document.createElement("p");
+        note.className = "unused-day-note";
+        note.textContent = "本日未有安排；未使用格已隱藏。";
+        slots.append(note);
       }
     } else {
       const note = document.createElement("p");
@@ -514,8 +636,17 @@ function renderWeek() {
 
     column.append(header, slots);
     if (active) {
-      const addWrap = document.createElement("div");
-      addWrap.className = "add-slots-wrap";
+      const controls = document.createElement("div");
+      controls.className = "capacity-controls";
+
+      const removeButton = document.createElement("button");
+      removeButton.type = "button";
+      removeButton.className = "remove-slots-button";
+      removeButton.dataset.removeSlotsDate = date;
+      removeButton.textContent = capacity <= 10 ? "最少 10 格" : "－5 格";
+      removeButton.disabled = capacity <= 10;
+      removeButton.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}收起 5 個空白安排格`);
+
       const addButton = document.createElement("button");
       addButton.type = "button";
       addButton.className = "add-slots-button";
@@ -523,8 +654,8 @@ function renderWeek() {
       addButton.textContent = capacity >= MAX_SLOTS_PER_DAY ? "已達每日上限" : "＋5 格";
       addButton.disabled = capacity >= MAX_SLOTS_PER_DAY;
       addButton.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}增加 5 個安排格`);
-      addWrap.append(addButton);
-      column.append(addWrap);
+      controls.append(removeButton, addButton);
+      column.append(controls);
     }
     elements.weekGrid.append(column);
   });
@@ -538,13 +669,23 @@ function createSlotButton(date, dayIndex, slotIndex, entry) {
   button.dataset.slotIndex = String(slotIndex);
   button.setAttribute(
     "aria-label",
-    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${entry.message}` : "，新增安排"}`
+    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${entry.message}${entry.isCompleted ? "，已完成" : ""}` : "，新增安排"}`
   );
 
+  const topLine = document.createElement("span");
+  topLine.className = "slot-topline";
   const number = document.createElement("span");
   number.className = "slot-number";
   number.textContent = `SLOT ${String(slotIndex).padStart(2, "0")}`;
-  button.append(number);
+  topLine.append(number);
+  if (entry?.isCompleted) {
+    button.classList.add("is-completed");
+    const completion = document.createElement("span");
+    completion.className = "completion-badge";
+    completion.textContent = "已完成";
+    topLine.append(completion);
+  }
+  button.append(topLine);
 
   if (entry) {
     button.classList.add("has-entry");
@@ -583,13 +724,20 @@ function openEntryDialog(date, slotIndex) {
   elements.entryMessage.value = entry?.message || "";
   elements.entryMessage.readOnly = protectedTeacherEntry;
   elements.entryHint.textContent = protectedTeacherEntry
-    ? "老師安排只可由管理員修改或刪除。"
+    ? "老師安排只可由管理員修改或刪除；您仍可標記完成。"
     : "按 Enter 儲存；如要換行請按 Shift + Enter。";
   elements.deleteEntry.hidden = !entry || protectedTeacherEntry;
   elements.saveEntry.hidden = protectedTeacherEntry;
+  elements.toggleComplete.hidden = !entry;
+  elements.toggleComplete.dataset.completed = String(Boolean(entry?.isCompleted));
+  elements.toggleComplete.setAttribute("aria-pressed", String(Boolean(entry?.isCompleted)));
+  elements.toggleComplete.textContent = entry?.isCompleted ? "取消完成" : "標記完成";
   setStatus(elements.entryStatus, "");
   elements.entryDialog.showModal();
-  window.setTimeout(() => elements.entryMessage.focus(), 40);
+  window.setTimeout(() => {
+    if (protectedTeacherEntry) elements.toggleComplete.focus();
+    else elements.entryMessage.focus();
+  }, 40);
 }
 
 async function saveEntry(event) {
@@ -690,28 +838,104 @@ async function deleteEntry() {
   }
 }
 
-async function addSlots(date, button) {
-  button.disabled = true;
-  const previousCapacity = Math.max(10, Number(state.weekPayload.capacities[date]) || 10);
-  setStatus(elements.calendarStatus, "正在增加 5 個安排格…");
+async function toggleEntryCompletion() {
+  if (!state.editing?.entry) return;
+  const entry = state.editing.entry;
+  const completed = !Boolean(entry.isCompleted);
+  const focusTarget = {
+    date: state.editing.date,
+    slotIndex: state.editing.slotIndex
+  };
+  elements.toggleComplete.disabled = true;
+  setStatus(elements.entryStatus, completed ? "正在標記完成…" : "正在取消完成標記…");
   try {
     if (state.currentUser.role === "admin") {
-      await callRpc("schedule_admin_add_slots", {
+      await callRpc("schedule_admin_set_entry_completed", {
         p_admin_token: state.currentUser.adminToken,
         p_student_id: activeStudent().id,
-        p_schedule_date: date
+        p_entry_id: entry.id,
+        p_expected_updated_at: entry.updatedAt,
+        p_completed: completed
       });
     } else {
-      await callRpc("schedule_student_add_slots", {
+      await callRpc("schedule_student_set_entry_completed", {
         p_token: state.currentUser.studentToken,
-        p_schedule_date: date
+        p_entry_id: entry.id,
+        p_expected_updated_at: entry.updatedAt,
+        p_completed: completed
       });
     }
-    showToast(`${formatDayDate(date)} 已增加 5 格。`);
-    await loadWeek({ date, slotIndex: Math.min(previousCapacity + 1, MAX_SLOTS_PER_DAY) });
+    elements.entryDialog.close();
+    showToast(completed ? "這項安排已標記為完成。" : "已取消完成標記。");
+    await loadWeek(focusTarget);
+  } catch (error) {
+    console.warn("Schedule completion update failed", error);
+    if (isConcurrencyError(error)) {
+      elements.entryDialog.close();
+      showToast("這一格已在另一個頁面更新；日程已重新載入。", "error");
+      await loadWeek(focusTarget);
+      return;
+    }
+    setStatus(elements.entryStatus, error.message || "未能更新完成狀態，請再試一次。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    elements.toggleComplete.disabled = false;
+  }
+}
+
+async function changeCapacity(date, delta, button) {
+  if (![5, -5].includes(delta)) return;
+  button.disabled = true;
+  const previousCapacity = Math.max(10, Number(state.weekPayload.capacities[date]) || 10);
+  const expectedVersion = Math.max(0, Number(state.weekPayload.capacityVersions[date]) || 0);
+  const shrinking = delta < 0;
+  const targetCapacity = previousCapacity + delta;
+  if (shrinking && state.weekPayload.entries.some((entry) => (
+    entry.scheduleDate === date && Number(entry.slotIndex) > targetCapacity
+  ))) {
+    setStatus(elements.calendarStatus, "最後 5 格仍有安排，請先移動或刪除當中的內容。", "error");
+    button.disabled = false;
+    return;
+  }
+  setStatus(elements.calendarStatus, shrinking ? "正在收起 5 個空白格…" : "正在增加 5 個安排格…");
+  try {
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_change_capacity", {
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id,
+        p_schedule_date: date,
+        p_expected_version: expectedVersion,
+        p_delta: delta
+      });
+    } else {
+      await callRpc("schedule_student_change_capacity", {
+        p_token: state.currentUser.studentToken,
+        p_schedule_date: date,
+        p_expected_version: expectedVersion,
+        p_delta: delta
+      });
+    }
+    showToast(`${formatDayDate(date)} 已${shrinking ? "收起" : "增加"} 5 格。`);
+    if (!shrinking && state.hideUnused) {
+      state.hideUnused = false;
+      saveDisplayPreference(UNUSED_HIDDEN_KEY, false);
+      applyDisplayPreferences();
+    }
+    await loadWeek(shrinking
+      ? { date, control: "remove" }
+      : { date, slotIndex: Math.min(previousCapacity + 1, MAX_SLOTS_PER_DAY) });
   } catch (error) {
     console.warn("Schedule capacity update failed", error);
-    setStatus(elements.calendarStatus, error.message || "未能增加格數。", "error");
+    const message = String(error?.message || "");
+    if (isConcurrencyError(error)) {
+      showToast("格數已在另一個頁面更新；日程已重新載入。", "error");
+      await loadWeek({ date, control: shrinking ? "remove" : "add" });
+      return;
+    }
+    const friendlyMessage = shrinking && /contain (?:entries|assignments)|occupied|entry|assignment/i.test(message)
+      ? "最後 5 格仍有安排，請先移動或刪除當中的內容。"
+      : message || (shrinking ? "未能收起格數。" : "未能增加格數。");
+    setStatus(elements.calendarStatus, friendlyMessage, "error");
     button.disabled = false;
     if (isExpiredSessionError(error)) await logout();
   }
@@ -762,9 +986,10 @@ function preparePrintSheet() {
         const entry = entries.get(`${date}:${slotIndex}`);
         if (entry) {
           if (entry.source === "admin") cell.classList.add("print-entry-admin");
+          if (entry.isCompleted) cell.classList.add("print-entry-completed");
           const source = document.createElement("span");
           source.className = "print-source";
-          source.textContent = entry.source === "admin" ? "老師安排" : "學生安排";
+          source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : ""}`;
           const message = document.createTextNode(entry.message);
           cell.append(source, message);
         }
@@ -801,7 +1026,8 @@ function isExpiredSessionError(error) {
 }
 
 function isConcurrencyError(error) {
-  return String(error?.message || "").toLocaleLowerCase().includes("another session");
+  return error?.code === "40001"
+    || String(error?.message || "").toLocaleLowerCase().includes("another session");
 }
 
 elements.loginForm.addEventListener("submit", login);
@@ -827,7 +1053,12 @@ elements.weekGrid.addEventListener("click", (event) => {
     return;
   }
   const addButton = event.target.closest("[data-add-slots-date]");
-  if (addButton) addSlots(addButton.dataset.addSlotsDate, addButton);
+  if (addButton) {
+    changeCapacity(addButton.dataset.addSlotsDate, 5, addButton);
+    return;
+  }
+  const removeButton = event.target.closest("[data-remove-slots-date]");
+  if (removeButton) changeCapacity(removeButton.dataset.removeSlotsDate, -5, removeButton);
 });
 
 elements.entryForm.addEventListener("submit", saveEntry);
@@ -839,6 +1070,7 @@ elements.entryMessage.addEventListener("keydown", (event) => {
 });
 elements.closeEntry.addEventListener("click", () => elements.entryDialog.close());
 elements.deleteEntry.addEventListener("click", () => elements.deleteDialog.showModal());
+elements.toggleComplete.addEventListener("click", toggleEntryCompletion);
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
@@ -848,6 +1080,8 @@ elements.currentWeek.addEventListener("click", async () => {
   await loadWeek();
 });
 elements.exportPdf.addEventListener("click", exportPdf);
+elements.toggleTable.addEventListener("click", toggleTableVisibility);
+elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
 
 elements.entryDialog.addEventListener("close", () => {
   if (!elements.deleteDialog.open) state.editing = null;

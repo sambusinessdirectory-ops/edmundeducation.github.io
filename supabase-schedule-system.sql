@@ -60,11 +60,13 @@ create table if not exists public.schedule_day_capacity (
   student_id uuid not null references public.flashcard_students(id) on delete cascade,
   schedule_date date not null,
   slot_count smallint not null default 10,
+  version bigint not null default 0,
   updated_at timestamptz not null default now(),
   primary key (student_id, schedule_date),
   check (schedule_date between date '2026-01-01' and date '2050-12-31'),
   check (slot_count between 10 and 100),
-  check (mod(slot_count, 5) = 0)
+  check (mod(slot_count, 5) = 0),
+  check (version >= 0)
 );
 
 create table if not exists public.schedule_entries (
@@ -75,6 +77,10 @@ create table if not exists public.schedule_entries (
   message text not null,
   source text not null default 'student',
   created_by_admin uuid references public.schedule_admin_accounts(id) on delete set null,
+  is_completed boolean not null default false,
+  completed_at timestamptz,
+  completion_source text,
+  completed_by_admin uuid,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   unique (student_id, schedule_date, slot_index),
@@ -84,8 +90,74 @@ create table if not exists public.schedule_entries (
   check (char_length(btrim(message)) between 1 and 2000)
 );
 
+alter table public.schedule_day_capacity
+  add column if not exists version bigint not null default 0;
+
+alter table public.schedule_entries
+  add column if not exists is_completed boolean not null default false;
+alter table public.schedule_entries
+  add column if not exists completed_at timestamptz;
+alter table public.schedule_entries
+  add column if not exists completion_source text;
+alter table public.schedule_entries
+  add column if not exists completed_by_admin uuid;
+
+alter table public.schedule_entries
+  drop constraint if exists schedule_entries_completed_by_admin_fkey;
+alter table public.schedule_entries
+  add constraint schedule_entries_completed_by_admin_fkey
+  foreign key (completed_by_admin)
+  references public.schedule_admin_accounts(id)
+  on delete restrict;
+
+do $$
+begin
+  if not exists (
+    select 1
+    from pg_catalog.pg_constraint constraint_row
+    where constraint_row.conrelid = 'public.schedule_day_capacity'::regclass
+      and constraint_row.conname = 'schedule_day_capacity_version_check'
+  ) then
+    alter table public.schedule_day_capacity
+      add constraint schedule_day_capacity_version_check check (version >= 0);
+  end if;
+
+  if not exists (
+    select 1
+    from pg_catalog.pg_constraint constraint_row
+    where constraint_row.conrelid = 'public.schedule_entries'::regclass
+      and constraint_row.conname = 'schedule_entries_completion_state_check'
+  ) then
+    alter table public.schedule_entries
+      add constraint schedule_entries_completion_state_check check (
+        (
+          not is_completed
+          and completed_at is null
+          and completion_source is null
+          and completed_by_admin is null
+        )
+        or
+        (
+          is_completed
+          and completed_at is not null
+          and completion_source is not null
+          and (
+            (completion_source = 'student' and completed_by_admin is null)
+            or
+            (completion_source = 'admin' and completed_by_admin is not null)
+          )
+        )
+      );
+  end if;
+end;
+$$;
+
 create index if not exists schedule_entries_student_week_idx
   on public.schedule_entries (student_id, schedule_date, slot_index);
+
+create index if not exists schedule_entries_student_completed_idx
+  on public.schedule_entries (student_id, schedule_date)
+  where is_completed;
 
 alter table public.schedule_admin_accounts enable row level security;
 alter table public.schedule_admin_sessions enable row level security;
@@ -98,6 +170,12 @@ revoke all on table public.schedule_admin_sessions from public, anon, authentica
 revoke all on table public.schedule_worker_secrets from public, anon, authenticated;
 revoke all on table public.schedule_day_capacity from public, anon, authenticated;
 revoke all on table public.schedule_entries from public, anon, authenticated;
+
+-- Retire the pre-versioning capacity endpoints. The current page uses the
+-- compare-and-swap change-capacity RPCs below.
+drop function if exists public.schedule_student_add_slots(uuid, date);
+drop function if exists public.schedule_admin_add_slots(uuid, uuid, date);
+drop function if exists public._schedule_add_slots(uuid, date);
 
 -- Provision the first administrator bcrypt and the Worker-secret SHA-256
 -- separately during deployment. Credentials intentionally do not live here.
@@ -212,6 +290,12 @@ as $$
     from public.schedule_entries entry
     where entry.student_id = p_student_id
       and entry.schedule_date between p_week_start and p_week_start + 6
+  ), all_metrics as (
+    select
+      count(*)::integer as total_goals,
+      count(*) filter (where entry.is_completed)::integer as total_completed
+    from public.schedule_entries entry
+    where entry.student_id = p_student_id
   )
   select pg_catalog.jsonb_build_object(
     'weekStart', p_week_start,
@@ -231,12 +315,36 @@ as $$
           'slotIndex', entry.slot_index,
           'message', entry.message,
           'source', entry.source,
+          'isCompleted', entry.is_completed,
+          'completedAt', entry.completed_at,
+          'completionSource', entry.completion_source,
           'updatedAt', entry.updated_at
         )
         order by entry.schedule_date, entry.slot_index
       )
       from week_entries entry
-    ), '[]'::jsonb)
+    ), '[]'::jsonb),
+    'metrics', pg_catalog.jsonb_build_object(
+      'weekGoals', (select count(*)::integer from week_entries),
+      'totalGoals', (select metric.total_goals from all_metrics metric),
+      'weekCompleted', (
+        select count(*)::integer
+        from week_entries entry
+        where entry.is_completed
+      ),
+      'totalCompleted', (select metric.total_completed from all_metrics metric)
+    ),
+    'capacityVersions', (
+      select pg_catalog.jsonb_object_agg(
+        pg_catalog.to_char(day.schedule_date, 'YYYY-MM-DD'),
+        coalesce(capacity.version, 0)
+        order by day.schedule_date
+      )
+      from days day
+      left join public.schedule_day_capacity capacity
+        on capacity.student_id = p_student_id
+       and capacity.schedule_date = day.schedule_date
+    )
   );
 $$;
 
@@ -294,12 +402,21 @@ begin
     raise exception 'Invalid schedule source';
   end if;
 
-  select coalesce(capacity.slot_count, 10)
+  insert into public.schedule_day_capacity (
+    student_id,
+    schedule_date,
+    slot_count,
+    version
+  )
+  values (p_student_id, p_schedule_date, 10, 0)
+  on conflict (student_id, schedule_date) do nothing;
+
+  select capacity.slot_count
   into v_capacity
-  from (select 1) seed
-  left join public.schedule_day_capacity capacity
-    on capacity.student_id = p_student_id
-   and capacity.schedule_date = p_schedule_date;
+  from public.schedule_day_capacity capacity
+  where capacity.student_id = p_student_id
+    and capacity.schedule_date = p_schedule_date
+  for update;
 
   if p_slot_index > v_capacity then
     raise exception 'Add more slots before saving in this position';
@@ -315,7 +432,8 @@ begin
 
   if found then
     if p_expected_updated_at is null or v_existing.updated_at <> p_expected_updated_at then
-      raise exception 'Schedule entry changed in another session; reload and try again';
+      raise exception 'Schedule entry changed in another session; reload and try again'
+        using errcode = '40001';
     end if;
     if p_source = 'student' and v_existing.source = 'admin' then
       raise exception 'Teacher assignments can only be changed by an administrator';
@@ -325,13 +443,18 @@ begin
     set message = v_message,
         source = p_source,
         created_by_admin = case when p_source = 'admin' then p_admin_id else null end,
+        is_completed = false,
+        completed_at = null,
+        completion_source = null,
+        completed_by_admin = null,
         updated_at = now()
     where entry.id = v_existing.id
       and entry.updated_at = p_expected_updated_at
     returning * into v_entry;
   else
     if p_expected_updated_at is not null then
-      raise exception 'Schedule entry changed in another session; reload and try again';
+      raise exception 'Schedule entry changed in another session; reload and try again'
+        using errcode = '40001';
     end if;
 
     insert into public.schedule_entries (
@@ -355,7 +478,8 @@ begin
   end if;
 
   if v_entry.id is null then
-    raise exception 'Schedule entry changed in another session; reload and try again';
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
   end if;
 
   return pg_catalog.jsonb_build_object(
@@ -364,6 +488,9 @@ begin
     'slotIndex', v_entry.slot_index,
     'message', v_entry.message,
     'source', v_entry.source,
+    'isCompleted', v_entry.is_completed,
+    'completedAt', v_entry.completed_at,
+    'completionSource', v_entry.completion_source,
     'updatedAt', v_entry.updated_at
   );
 end;
@@ -410,7 +537,8 @@ begin
     return false;
   end if;
   if p_expected_updated_at is null or v_entry.updated_at <> p_expected_updated_at then
-    raise exception 'Schedule entry changed in another session; reload and try again';
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
   end if;
   if p_actor_source = 'student' and v_entry.source = 'admin' then
     raise exception 'Teacher assignments can only be deleted by an administrator';
@@ -427,17 +555,104 @@ $$;
 revoke all on function public._schedule_delete_entry(uuid, date, integer, timestamptz, text)
   from public, anon, authenticated;
 
-create or replace function public._schedule_add_slots(
+create or replace function public._schedule_set_entry_completed(
   p_student_id uuid,
-  p_schedule_date date
+  p_entry_id uuid,
+  p_expected_updated_at timestamptz,
+  p_completed boolean,
+  p_actor_source text,
+  p_admin_id uuid
 )
-returns integer
+returns jsonb
 language plpgsql
 security definer
 set search_path = ''
 as $$
 declare
-  v_slot_count integer;
+  v_entry public.schedule_entries%rowtype;
+begin
+  if p_completed is null
+    or p_actor_source is null
+    or p_actor_source not in ('student', 'admin')
+    or (p_actor_source = 'student' and p_admin_id is not null)
+    or (p_actor_source = 'admin' and p_admin_id is null)
+  then
+    raise exception 'Invalid completion request';
+  end if;
+
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    raise exception 'Student not found';
+  end if;
+
+  select *
+  into v_entry
+  from public.schedule_entries entry
+  where entry.id = p_entry_id
+    and entry.student_id = p_student_id
+  for update;
+
+  if not found then
+    raise exception 'Schedule entry not found';
+  end if;
+  if p_expected_updated_at is null or v_entry.updated_at <> p_expected_updated_at then
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+
+  update public.schedule_entries entry
+  set is_completed = p_completed,
+      completed_at = case when p_completed then now() else null end,
+      completion_source = case when p_completed then p_actor_source else null end,
+      completed_by_admin = case
+        when p_completed and p_actor_source = 'admin' then p_admin_id
+        else null
+      end,
+      updated_at = now()
+  where entry.id = v_entry.id
+    and entry.updated_at = p_expected_updated_at
+  returning * into v_entry;
+
+  if v_entry.id is null then
+    raise exception 'Schedule entry changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+
+  return pg_catalog.jsonb_build_object(
+    'id', v_entry.id,
+    'scheduleDate', pg_catalog.to_char(v_entry.schedule_date, 'YYYY-MM-DD'),
+    'slotIndex', v_entry.slot_index,
+    'message', v_entry.message,
+    'source', v_entry.source,
+    'isCompleted', v_entry.is_completed,
+    'completedAt', v_entry.completed_at,
+    'completionSource', v_entry.completion_source,
+    'updatedAt', v_entry.updated_at
+  );
+end;
+$$;
+
+revoke all on function public._schedule_set_entry_completed(uuid, uuid, timestamptz, boolean, text, uuid)
+  from public, anon, authenticated;
+
+create or replace function public._schedule_change_capacity(
+  p_student_id uuid,
+  p_schedule_date date,
+  p_expected_version bigint,
+  p_delta integer
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_capacity public.schedule_day_capacity%rowtype;
+  v_target integer;
 begin
   if not exists (
     select 1
@@ -453,19 +668,69 @@ begin
   then
     raise exception 'Schedule date is outside the supported range';
   end if;
+  if p_delta is null or p_delta not in (-5, 5) then
+    raise exception 'Capacity can only change by five slots';
+  end if;
+  if p_expected_version is not null and p_expected_version < 0 then
+    raise exception 'Invalid capacity version';
+  end if;
 
-  insert into public.schedule_day_capacity (student_id, schedule_date, slot_count)
-  values (p_student_id, p_schedule_date, 15)
-  on conflict (student_id, schedule_date) do update
-  set slot_count = least(100, public.schedule_day_capacity.slot_count + 5),
+  insert into public.schedule_day_capacity (
+    student_id,
+    schedule_date,
+    slot_count,
+    version
+  )
+  values (p_student_id, p_schedule_date, 10, 0)
+  on conflict (student_id, schedule_date) do nothing;
+
+  select *
+  into v_capacity
+  from public.schedule_day_capacity capacity
+  where capacity.student_id = p_student_id
+    and capacity.schedule_date = p_schedule_date
+  for update;
+
+  if p_expected_version is not null and v_capacity.version <> p_expected_version then
+    raise exception 'Schedule capacity changed in another session; reload and try again'
+      using errcode = '40001';
+  end if;
+
+  v_target := v_capacity.slot_count + p_delta;
+  if v_target < 10 then
+    raise exception 'Daily schedule already has the minimum 10 slots';
+  end if;
+  if v_target > 100 then
+    raise exception 'Daily schedule already has the maximum 100 slots';
+  end if;
+
+  if p_delta < 0 and exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = p_student_id
+      and entry.schedule_date = p_schedule_date
+      and entry.slot_index > v_target
+  ) then
+    raise exception 'Last five slots contain assignments; clear them before reducing capacity';
+  end if;
+
+  update public.schedule_day_capacity capacity
+  set slot_count = v_target,
+      version = capacity.version + 1,
       updated_at = now()
-  returning slot_count into v_slot_count;
+  where capacity.student_id = p_student_id
+    and capacity.schedule_date = p_schedule_date
+  returning * into v_capacity;
 
-  return v_slot_count;
+  return pg_catalog.jsonb_build_object(
+    'slotCount', v_capacity.slot_count,
+    'version', v_capacity.version,
+    'updatedAt', v_capacity.updated_at
+  );
 end;
 $$;
 
-revoke all on function public._schedule_add_slots(uuid, date)
+revoke all on function public._schedule_change_capacity(uuid, date, bigint, integer)
   from public, anon, authenticated;
 
 create or replace function public.schedule_admin_login(
@@ -662,11 +927,13 @@ begin
 end;
 $$;
 
-create or replace function public.schedule_student_add_slots(
+create or replace function public.schedule_student_change_capacity(
   p_token uuid,
-  p_schedule_date date
+  p_schedule_date date,
+  p_expected_version bigint,
+  p_delta integer
 )
-returns integer
+returns jsonb
 language plpgsql
 security definer
 set search_path = ''
@@ -677,7 +944,40 @@ begin
   if v_student_id is null then
     raise exception 'Invalid or expired student session';
   end if;
-  return public._schedule_add_slots(v_student_id, p_schedule_date);
+  return public._schedule_change_capacity(
+    v_student_id,
+    p_schedule_date,
+    p_expected_version,
+    p_delta
+  );
+end;
+$$;
+
+create or replace function public.schedule_student_set_entry_completed(
+  p_token uuid,
+  p_entry_id uuid,
+  p_expected_updated_at timestamptz,
+  p_completed boolean
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then
+    raise exception 'Invalid or expired student session';
+  end if;
+  return public._schedule_set_entry_completed(
+    v_student_id,
+    p_entry_id,
+    p_expected_updated_at,
+    p_completed,
+    'student',
+    null
+  );
 end;
 $$;
 
@@ -792,12 +1092,14 @@ begin
 end;
 $$;
 
-create or replace function public.schedule_admin_add_slots(
+create or replace function public.schedule_admin_change_capacity(
   p_admin_token uuid,
   p_student_id uuid,
-  p_schedule_date date
+  p_schedule_date date,
+  p_expected_version bigint,
+  p_delta integer
 )
-returns integer
+returns jsonb
 language plpgsql
 security definer
 set search_path = ''
@@ -806,7 +1108,41 @@ begin
   if public._schedule_admin_id(p_admin_token) is null then
     raise exception 'Invalid or expired admin session';
   end if;
-  return public._schedule_add_slots(p_student_id, p_schedule_date);
+  return public._schedule_change_capacity(
+    p_student_id,
+    p_schedule_date,
+    p_expected_version,
+    p_delta
+  );
+end;
+$$;
+
+create or replace function public.schedule_admin_set_entry_completed(
+  p_admin_token uuid,
+  p_student_id uuid,
+  p_entry_id uuid,
+  p_expected_updated_at timestamptz,
+  p_completed boolean
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_admin_id uuid := public._schedule_admin_id(p_admin_token);
+begin
+  if v_admin_id is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+  return public._schedule_set_entry_completed(
+    p_student_id,
+    p_entry_id,
+    p_expected_updated_at,
+    p_completed,
+    'admin',
+    v_admin_id
+  );
 end;
 $$;
 
@@ -818,12 +1154,14 @@ revoke all on function public.schedule_student_logout(uuid) from public, anon, a
 revoke all on function public.schedule_student_get_week(uuid, date) from public, anon, authenticated;
 revoke all on function public.schedule_student_upsert_entry(uuid, date, integer, text, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_student_delete_entry(uuid, date, integer, timestamptz) from public, anon, authenticated;
-revoke all on function public.schedule_student_add_slots(uuid, date) from public, anon, authenticated;
+revoke all on function public.schedule_student_change_capacity(uuid, date, bigint, integer) from public, anon, authenticated;
+revoke all on function public.schedule_student_set_entry_completed(uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
 revoke all on function public.schedule_admin_list_students(uuid) from public, anon, authenticated;
 revoke all on function public.schedule_admin_get_week(uuid, uuid, date) from public, anon, authenticated;
 revoke all on function public.schedule_admin_upsert_entry(uuid, uuid, date, integer, text, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_admin_delete_entry(uuid, uuid, date, integer, timestamptz) from public, anon, authenticated;
-revoke all on function public.schedule_admin_add_slots(uuid, uuid, date) from public, anon, authenticated;
+revoke all on function public.schedule_admin_change_capacity(uuid, uuid, date, bigint, integer) from public, anon, authenticated;
+revoke all on function public.schedule_admin_set_entry_completed(uuid, uuid, uuid, timestamptz, boolean) from public, anon, authenticated;
 
 -- The rate-limited Worker supplies the private service secret.
 grant execute on function public.schedule_admin_login(text, text, text) to anon;
@@ -834,14 +1172,16 @@ grant execute on function public.schedule_admin_list_students(uuid) to authentic
 grant execute on function public.schedule_admin_get_week(uuid, uuid, date) to authenticated;
 grant execute on function public.schedule_admin_upsert_entry(uuid, uuid, date, integer, text, timestamptz) to authenticated;
 grant execute on function public.schedule_admin_delete_entry(uuid, uuid, date, integer, timestamptz) to authenticated;
-grant execute on function public.schedule_admin_add_slots(uuid, uuid, date) to authenticated;
+grant execute on function public.schedule_admin_change_capacity(uuid, uuid, date, bigint, integer) to authenticated;
+grant execute on function public.schedule_admin_set_entry_completed(uuid, uuid, uuid, timestamptz, boolean) to authenticated;
 
 grant execute on function public.schedule_student_profile(uuid) to authenticated;
 grant execute on function public.schedule_student_logout(uuid) to authenticated;
 grant execute on function public.schedule_student_get_week(uuid, date) to authenticated;
 grant execute on function public.schedule_student_upsert_entry(uuid, date, integer, text, timestamptz) to authenticated;
 grant execute on function public.schedule_student_delete_entry(uuid, date, integer, timestamptz) to authenticated;
-grant execute on function public.schedule_student_add_slots(uuid, date) to authenticated;
+grant execute on function public.schedule_student_change_capacity(uuid, date, bigint, integer) to authenticated;
+grant execute on function public.schedule_student_set_entry_completed(uuid, uuid, timestamptz, boolean) to authenticated;
 
 notify pgrst, 'reload schema';
 
