@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edmund-model-essay-downloads",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-14",
+  "workers_dev": true,
+  "preview_urls": false,
+  "r2_buckets": [
+    {
+      "binding": "ESSAYS",
+      "bucket_name": "edmund-model-essays-private"
+    }
+  ],
+  "vars": {
+    "ALLOWED_ORIGIN": "https://edmundeducation.com",
+    "SUPABASE_URL": "https://ookkxzgpdclzrrhfmvqx.supabase.co",
+    "SUPABASE_ANON_KEY": "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x"
+  }
+}
