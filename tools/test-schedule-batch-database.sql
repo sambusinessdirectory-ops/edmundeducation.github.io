@@ -219,4 +219,168 @@ begin
 end;
 $schedule_batch_test$;
 
+do $schedule_preferences_test$
+declare
+  v_marker text := 'codex-schedule-preferences-' || gen_random_uuid()::text;
+  v_student_a uuid;
+  v_student_b uuid;
+  v_student_token uuid := gen_random_uuid();
+  v_admin_id uuid;
+  v_admin_token uuid := gen_random_uuid();
+  v_result jsonb;
+  v_stored jsonb;
+  v_payload jsonb;
+begin
+  insert into public.flashcard_students (name, password_hash, access)
+  values (v_marker || '-student-a', 'rollback-test-only', '{}'::jsonb)
+  returning id into v_student_a;
+
+  insert into public.flashcard_students (name, password_hash, access)
+  values (v_marker || '-student-b', 'rollback-test-only', '{}'::jsonb)
+  returning id into v_student_b;
+
+  insert into public.flashcard_student_sessions (token, student_id, expires_at)
+  values (v_student_token, v_student_a, now() + interval '1 hour');
+
+  insert into public.schedule_admin_accounts (name, password_hash)
+  values (v_marker || '-admin', 'rollback-test-only')
+  returning id into v_admin_id;
+
+  insert into public.schedule_admin_sessions (token_hash, admin_id, expires_at)
+  values (
+    extensions.digest(v_admin_token::text, 'sha256'),
+    v_admin_id,
+    now() + interval '1 hour'
+  );
+
+  -- Students with no state row receive stable false/false defaults.
+  v_result := public._schedule_display_preferences(v_student_a);
+  if v_result <> '{"hideUnused": false, "hideMascots": false}'::jsonb then
+    raise exception 'Unexpected default display preferences: %', v_result;
+  end if;
+
+  insert into public.flashcard_student_state (student_id, key, value)
+  values (
+    v_student_a,
+    'edmundStudentDisplayPreferences',
+    pg_catalog.jsonb_build_object(
+      'flashcardHideLockedSections', true,
+      'nestedFlashcardState', pg_catalog.jsonb_build_object('level', 7),
+      'scheduleHideUnused', false
+    )
+  );
+
+  -- Each one-field patch preserves the other preference and unrelated state.
+  v_result := public.schedule_student_set_display_preferences(
+    v_student_token,
+    pg_catalog.jsonb_build_object('hideUnused', true)
+  );
+  if v_result <> '{"hideUnused": true, "hideMascots": false}'::jsonb then
+    raise exception 'Student hide-unused patch returned unexpected preferences: %', v_result;
+  end if;
+
+  v_result := public._schedule_set_display_preferences(
+    v_student_a,
+    pg_catalog.jsonb_build_object('hideMascots', true)
+  );
+  if v_result <> '{"hideUnused": true, "hideMascots": true}'::jsonb then
+    raise exception 'Student hide-mascots patch did not preserve hide-unused: %', v_result;
+  end if;
+
+  select student_state.value
+  into v_stored
+  from public.flashcard_student_state student_state
+  where student_state.student_id = v_student_a
+    and student_state.key = 'edmundStudentDisplayPreferences';
+
+  if v_stored -> 'flashcardHideLockedSections' <> 'true'::jsonb
+    or v_stored -> 'nestedFlashcardState' <> '{"level": 7}'::jsonb
+    or v_stored -> 'scheduleHideUnused' <> 'true'::jsonb
+    or v_stored -> 'scheduleHideMascots' <> 'true'::jsonb
+  then
+    raise exception 'Schedule patches damaged unrelated flashcard state: %', v_stored;
+  end if;
+
+  -- Student B remains isolated from student A's settings.
+  v_result := public._schedule_display_preferences(v_student_b);
+  if v_result <> '{"hideUnused": false, "hideMascots": false}'::jsonb then
+    raise exception 'Display preferences leaked between students: %', v_result;
+  end if;
+
+  insert into public.flashcard_student_state (student_id, key, value)
+  values (
+    v_student_b,
+    'edmundStudentDisplayPreferences',
+    pg_catalog.jsonb_build_object('flashcardHideLockedSections', false)
+  );
+
+  -- The authenticated admin wrapper targets only the selected student.
+  v_result := public.schedule_admin_set_display_preferences(
+    v_admin_token,
+    v_student_b,
+    pg_catalog.jsonb_build_object('hideMascots', true)
+  );
+  if v_result <> '{"hideUnused": false, "hideMascots": true}'::jsonb then
+    raise exception 'Admin preference patch returned an unexpected result: %', v_result;
+  end if;
+
+  select student_state.value
+  into v_stored
+  from public.flashcard_student_state student_state
+  where student_state.student_id = v_student_b
+    and student_state.key = 'edmundStudentDisplayPreferences';
+  if v_stored -> 'flashcardHideLockedSections' <> 'false'::jsonb
+    or v_stored -> 'scheduleHideMascots' <> 'true'::jsonb
+  then
+    raise exception 'Admin preference patch damaged the target state: %', v_stored;
+  end if;
+
+  -- Schedule preference isolation: an admin target patch cannot alter student A.
+  if public._schedule_display_preferences(v_student_a)
+    <> '{"hideUnused": true, "hideMascots": true}'::jsonb
+  then
+    raise exception 'Admin target patch changed another student';
+  end if;
+
+  v_payload := public._schedule_week_payload(v_student_b, date '2049-01-04');
+  if v_payload -> 'displayPreferences'
+    <> '{"hideUnused": false, "hideMascots": true}'::jsonb
+  then
+    raise exception 'Week payload omitted persisted display preferences: %', v_payload;
+  end if;
+
+  -- Unknown keys and non-boolean values are rejected before any merge.
+  begin
+    perform public.schedule_student_set_display_preferences(
+      v_student_token,
+      pg_catalog.jsonb_build_object('hideUnused', 'yes')
+    );
+    raise exception 'Expected a non-boolean preference patch failure';
+  exception when sqlstate '22023' then
+    null;
+  end;
+
+  begin
+    perform public.schedule_admin_set_display_preferences(
+      v_admin_token,
+      v_student_b,
+      pg_catalog.jsonb_build_object('unrelatedSetting', true)
+    );
+    raise exception 'Expected an unsupported preference property failure';
+  exception when sqlstate '22023' then
+    null;
+  end;
+
+  if public._schedule_display_preferences(v_student_a)
+      <> '{"hideUnused": true, "hideMascots": true}'::jsonb
+    or public._schedule_display_preferences(v_student_b)
+      <> '{"hideUnused": false, "hideMascots": true}'::jsonb
+  then
+    raise exception 'Invalid preference patches changed persisted state';
+  end if;
+
+  raise notice 'Schedule display-preference database smoke test passed';
+end;
+$schedule_preferences_test$;
+
 rollback;

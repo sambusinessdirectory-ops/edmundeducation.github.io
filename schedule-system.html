@@ -582,6 +582,13 @@
       user-select: none;
     }
 
+    .week-grid.mascots-hidden .day-header {
+      min-height: 78px;
+      padding: 18px 14px 15px;
+    }
+
+    .week-grid.mascots-hidden .day-mascot { display: none; }
+
     .day-header h2 { display: block; margin: 0; font-size: 19px; }
     .day-header span { color: var(--muted); font-size: 13px; }
     .day-column.is-today .day-header { color: #fff; background: linear-gradient(135deg, var(--amber-dark), #a66739); }
@@ -894,6 +901,7 @@
           <button class="secondary-button" type="button" data-current-week>本星期</button>
           <button class="secondary-button" type="button" data-export-pdf aria-describedby="schedule-export-help">匯出 / 列印 PDF</button>
           <button class="subtle-toggle" type="button" data-toggle-unused aria-pressed="false">隱藏未使用格</button>
+          <button class="subtle-toggle" type="button" data-toggle-mascots aria-controls="schedule-week-grid" aria-pressed="false">隱藏吉祥物</button>
           <button class="subtle-toggle" type="button" data-toggle-table aria-controls="schedule-table-region" aria-expanded="true">隱藏日程表</button>
         </div>
       </div>
@@ -922,7 +930,7 @@
 
         <div class="calendar-panel glass-card">
           <div class="calendar-scroll" data-calendar-scroll tabindex="0" aria-label="每週功課及溫習安排表，可左右捲動">
-            <div class="week-grid" data-week-grid></div>
+            <div class="week-grid" id="schedule-week-grid" data-week-grid></div>
           </div>
         </div>
       </div>

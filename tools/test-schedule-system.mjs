@@ -114,6 +114,10 @@ assert.match(scheduleHtml, /data-toggle-table/);
 assert.match(scheduleHtml, /aria-controls="schedule-table-region"/);
 assert.match(scheduleHtml, /data-toggle-unused/);
 assert.match(scheduleHtml, /data-toggle-unused[^>]*aria-pressed="false"/);
+assert.match(scheduleHtml, /data-toggle-mascots/);
+assert.match(scheduleHtml, /data-toggle-mascots[^>]*aria-controls="schedule-week-grid"[^>]*aria-pressed="false"/);
+assert.match(scheduleHtml, /\.week-grid\.mascots-hidden \.day-header\s*\{[^}]*min-height:\s*78px[^}]*padding:\s*18px/s);
+assert.match(scheduleHtml, /\.week-grid\.mascots-hidden \.day-mascot\s*\{[^}]*display:\s*none/s);
 assert.match(scheduleHtml, /remove-slots-button/);
 assert.match(scheduleHtml, /－5 格/);
 assert.match(scheduleHtml, /data-toggle-complete/);
@@ -155,11 +159,25 @@ assert.match(scheduleJs, /p_expected_updated_at/);
 assert.match(scheduleJs, /restoreCalendarFocus/);
 assert.match(scheduleJs, /state\.tableHidden/);
 assert.match(scheduleJs, /state\.hideUnused/);
+assert.match(scheduleJs, /state\.hideMascots/);
+assert.match(scheduleJs, /state\.showUnusedTemporarily/);
+assert.match(scheduleJs, /displayPreferenceRequestId/);
+assert.match(scheduleJs, /function displayPreferenceOwner\(/);
+assert.match(scheduleJs, /const isCurrentRequest = \(\) =>/);
+assert.match(scheduleJs, /if \(!isCurrentRequest\(\)\) return;/);
+assert.match(scheduleJs, /if \(isCurrentRequest\(\)\) setMutationInFlight\(false\)/);
 assert.match(scheduleJs, /function toggleTableVisibility\(/);
 assert.match(scheduleJs, /function toggleUnusedSlots\(/);
+assert.match(scheduleJs, /function toggleMascots\(/);
+assert.match(scheduleJs, /function unusedSlotsAreHidden\(/);
+assert.match(scheduleJs, /schedule_student_set_display_preferences/);
+assert.match(scheduleJs, /schedule_admin_set_display_preferences/);
+assert.match(scheduleJs, /payload\.displayPreferences/);
 assert.match(scheduleJs, /function renderMetrics\(/);
 assert.match(scheduleJs, /capacityVersions/);
-assert.match(scheduleJs, /if\s*\(state\.hideUnused\s*&&\s*!entry\)\s*continue/);
+assert.match(scheduleJs, /if\s*\(hideUnusedNow\s*&&\s*!entry\)\s*continue/);
+assert.doesNotMatch(scheduleJs, /UNUSED_HIDDEN_KEY|edmund-schedule-unused-hidden-v1/);
+assert.doesNotMatch(scheduleJs, /saveDisplayPreference\([^\n]*hideUnused/);
 assert.match(scheduleJs, /unused-day-note/);
 assert.match(scheduleJs, /data\.removeSlotsDate|dataset\.removeSlotsDate/);
 assert.match(scheduleJs, /schedule_admin_change_capacity/);
@@ -216,6 +234,7 @@ const rpcNames = [
   "schedule_admin_batch_delete_entries",
   "schedule_admin_batch_set_entries_completed",
   "schedule_admin_move_entry",
+  "schedule_admin_set_display_preferences",
   "schedule_student_profile",
   "schedule_student_logout",
   "schedule_student_get_week",
@@ -225,7 +244,8 @@ const rpcNames = [
   "schedule_student_set_entry_completed",
   "schedule_student_batch_delete_entries",
   "schedule_student_batch_set_entries_completed",
-  "schedule_student_move_entry"
+  "schedule_student_move_entry",
+  "schedule_student_set_display_preferences"
 ];
 for (const name of rpcNames) {
   assert.match(scheduleSql, new RegExp(`function public\\.${name}\\b`), `missing SQL RPC ${name}`);
@@ -257,6 +277,13 @@ assert.match(scheduleSql, /'totalGoals'/);
 assert.match(scheduleSql, /'weekCompleted'/);
 assert.match(scheduleSql, /'totalCompleted'/);
 assert.match(scheduleSql, /'capacityVersions'/);
+assert.match(scheduleSql, /'displayPreferences'/);
+assert.match(scheduleSql, /edmundStudentDisplayPreferences/);
+assert.match(scheduleSql, /scheduleHideUnused/);
+assert.match(scheduleSql, /scheduleHideMascots/);
+assert.match(scheduleSql, /create or replace function public\._schedule_display_preferences\b/);
+assert.match(scheduleSql, /create or replace function public\._schedule_set_display_preferences\b/);
+assert.match(scheduleSql, /state\.value \|\| excluded\.value|existing\.value \|\| excluded\.value/);
 assert.match(scheduleSql, /create or replace function public\._schedule_set_entry_completed\b/);
 assert.match(scheduleSql, /set is_completed = p_completed/);
 assert.match(
@@ -293,6 +320,11 @@ assert.match(databaseSmokeTest, /^rollback;/m);
 assert.match(databaseSmokeTest, /_schedule_batch_set_entries_completed/);
 assert.match(databaseSmokeTest, /_schedule_batch_delete_entries/);
 assert.match(databaseSmokeTest, /_schedule_move_entry/);
+assert.match(databaseSmokeTest, /_schedule_set_display_preferences/);
+assert.match(databaseSmokeTest, /schedule_student_set_display_preferences/);
+assert.match(databaseSmokeTest, /schedule_admin_set_display_preferences/);
+assert.match(databaseSmokeTest, /flashcardHideLockedSections/);
+assert.match(databaseSmokeTest, /schedule preference isolation/i);
 assert.match(databaseSmokeTest, /when sqlstate '40001'/);
 assert.match(databaseSmokeTest, /when sqlstate '42501'/);
 assert.match(

@@ -13,6 +13,9 @@ begin
   if to_regclass('public.flashcard_student_sessions') is null then
     raise exception 'Missing dependency: public.flashcard_student_sessions';
   end if;
+  if to_regclass('public.flashcard_student_state') is null then
+    raise exception 'Missing dependency: public.flashcard_student_state';
+  end if;
   if to_regprocedure('public.flashcard_session_student_id(uuid)') is null then
     raise exception 'Missing dependency: public.flashcard_session_student_id(uuid)';
   end if;
@@ -256,6 +259,143 @@ $$;
 
 revoke all on function public._schedule_week_start_valid(date) from public, anon, authenticated;
 
+-- Schedule-only properties share the Flashcard display-preference document.
+-- The reader tolerates missing or malformed properties and exposes safe defaults.
+create or replace function public._schedule_display_preferences(p_student_id uuid)
+returns jsonb
+language sql
+stable
+security definer
+set search_path = ''
+as $$
+  select pg_catalog.jsonb_build_object(
+    'hideUnused', coalesce(
+      case
+        when pg_catalog.jsonb_typeof(student_state.value -> 'scheduleHideUnused') = 'boolean'
+          then (student_state.value ->> 'scheduleHideUnused')::boolean
+        else false
+      end,
+      false
+    ),
+    'hideMascots', coalesce(
+      case
+        when pg_catalog.jsonb_typeof(student_state.value -> 'scheduleHideMascots') = 'boolean'
+          then (student_state.value ->> 'scheduleHideMascots')::boolean
+        else false
+      end,
+      false
+    )
+  )
+  from (select 1) seed
+  left join public.flashcard_student_state student_state
+    on student_state.student_id = p_student_id
+   and student_state.key = 'edmundStudentDisplayPreferences';
+$$;
+
+revoke all on function public._schedule_display_preferences(uuid)
+  from public, anon, authenticated;
+
+-- A row-level UPSERT merges only validated schedule properties into the latest
+-- JSON document, so concurrent one-property patches retain unrelated settings.
+create or replace function public._schedule_set_display_preferences(
+  p_student_id uuid,
+  p_patch jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_storage_patch jsonb := '{}'::jsonb;
+  v_merged_value jsonb;
+begin
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    raise exception 'Student not found';
+  end if;
+
+  if p_patch is null
+    or pg_catalog.jsonb_typeof(p_patch) <> 'object'
+    or p_patch = '{}'::jsonb
+  then
+    raise exception 'Display-preference patch must be a non-empty JSON object'
+      using errcode = '22023';
+  end if;
+
+  if exists (
+    select 1
+    from pg_catalog.jsonb_object_keys(p_patch) patch_key(key)
+    where patch_key.key not in ('hideUnused', 'hideMascots')
+  ) then
+    raise exception 'Display-preference patch contains an unsupported property'
+      using errcode = '22023';
+  end if;
+
+  if (p_patch ? 'hideUnused'
+      and pg_catalog.jsonb_typeof(p_patch -> 'hideUnused') <> 'boolean')
+    or (p_patch ? 'hideMascots'
+      and pg_catalog.jsonb_typeof(p_patch -> 'hideMascots') <> 'boolean')
+  then
+    raise exception 'Display-preference values must be boolean'
+      using errcode = '22023';
+  end if;
+
+  if p_patch ? 'hideUnused' then
+    v_storage_patch := v_storage_patch || pg_catalog.jsonb_build_object(
+      'scheduleHideUnused',
+      p_patch -> 'hideUnused'
+    );
+  end if;
+  if p_patch ? 'hideMascots' then
+    v_storage_patch := v_storage_patch || pg_catalog.jsonb_build_object(
+      'scheduleHideMascots',
+      p_patch -> 'hideMascots'
+    );
+  end if;
+
+  insert into public.flashcard_student_state as state (student_id, key, value)
+  values (
+    p_student_id,
+    'edmundStudentDisplayPreferences',
+    v_storage_patch
+  )
+  on conflict (student_id, key) do update
+  set value = case
+    when pg_catalog.jsonb_typeof(state.value) = 'object'
+      then state.value || excluded.value
+    else excluded.value
+  end
+  returning value into v_merged_value;
+
+  return pg_catalog.jsonb_build_object(
+    'hideUnused', coalesce(
+      case
+        when pg_catalog.jsonb_typeof(v_merged_value -> 'scheduleHideUnused') = 'boolean'
+          then (v_merged_value ->> 'scheduleHideUnused')::boolean
+        else false
+      end,
+      false
+    ),
+    'hideMascots', coalesce(
+      case
+        when pg_catalog.jsonb_typeof(v_merged_value -> 'scheduleHideMascots') = 'boolean'
+          then (v_merged_value ->> 'scheduleHideMascots')::boolean
+        else false
+      end,
+      false
+    )
+  );
+end;
+$$;
+
+revoke all on function public._schedule_set_display_preferences(uuid, jsonb)
+  from public, anon, authenticated;
+
 create or replace function public._schedule_week_payload(
   p_student_id uuid,
   p_week_start date
@@ -299,6 +439,7 @@ as $$
   )
   select pg_catalog.jsonb_build_object(
     'weekStart', p_week_start,
+    'displayPreferences', public._schedule_display_preferences(p_student_id),
     'capacities', (
       select pg_catalog.jsonb_object_agg(
         pg_catalog.to_char(capacity.schedule_date, 'YYYY-MM-DD'),
@@ -1363,6 +1504,25 @@ begin
 end;
 $$;
 
+create or replace function public.schedule_student_set_display_preferences(
+  p_token uuid,
+  p_patch jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_student_id uuid := public.flashcard_session_student_id(p_token);
+begin
+  if v_student_id is null then
+    raise exception 'Invalid or expired student session';
+  end if;
+  return public._schedule_set_display_preferences(v_student_id, p_patch);
+end;
+$$;
+
 drop function if exists public.schedule_student_upsert_entry(uuid, date, integer, text);
 
 create or replace function public.schedule_student_upsert_entry(
@@ -1614,6 +1774,32 @@ begin
 end;
 $$;
 
+create or replace function public.schedule_admin_set_display_preferences(
+  p_admin_token uuid,
+  p_student_id uuid,
+  p_patch jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+begin
+  if public._schedule_admin_id(p_admin_token) is null then
+    raise exception 'Invalid or expired admin session';
+  end if;
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    raise exception 'Student not found';
+  end if;
+  return public._schedule_set_display_preferences(p_student_id, p_patch);
+end;
+$$;
+
 drop function if exists public.schedule_admin_upsert_entry(uuid, uuid, date, integer, text);
 
 create or replace function public.schedule_admin_upsert_entry(
@@ -1820,6 +2006,7 @@ revoke all on function public.schedule_admin_logout(uuid) from public, anon, aut
 revoke all on function public.schedule_student_profile(uuid) from public, anon, authenticated;
 revoke all on function public.schedule_student_logout(uuid) from public, anon, authenticated;
 revoke all on function public.schedule_student_get_week(uuid, date) from public, anon, authenticated;
+revoke all on function public.schedule_student_set_display_preferences(uuid, jsonb) from public, anon, authenticated;
 revoke all on function public.schedule_student_upsert_entry(uuid, date, integer, text, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_student_delete_entry(uuid, date, integer, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_student_change_capacity(uuid, date, bigint, integer) from public, anon, authenticated;
@@ -1829,6 +2016,7 @@ revoke all on function public.schedule_student_batch_set_entries_completed(uuid,
 revoke all on function public.schedule_student_move_entry(uuid, uuid, timestamptz, date, integer, date, integer, bigint, bigint) from public, anon, authenticated;
 revoke all on function public.schedule_admin_list_students(uuid) from public, anon, authenticated;
 revoke all on function public.schedule_admin_get_week(uuid, uuid, date) from public, anon, authenticated;
+revoke all on function public.schedule_admin_set_display_preferences(uuid, uuid, jsonb) from public, anon, authenticated;
 revoke all on function public.schedule_admin_upsert_entry(uuid, uuid, date, integer, text, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_admin_delete_entry(uuid, uuid, date, integer, timestamptz) from public, anon, authenticated;
 revoke all on function public.schedule_admin_change_capacity(uuid, uuid, date, bigint, integer) from public, anon, authenticated;
@@ -1844,6 +2032,7 @@ grant execute on function public.schedule_admin_me(uuid) to authenticated;
 grant execute on function public.schedule_admin_logout(uuid) to authenticated;
 grant execute on function public.schedule_admin_list_students(uuid) to authenticated;
 grant execute on function public.schedule_admin_get_week(uuid, uuid, date) to authenticated;
+grant execute on function public.schedule_admin_set_display_preferences(uuid, uuid, jsonb) to authenticated;
 grant execute on function public.schedule_admin_upsert_entry(uuid, uuid, date, integer, text, timestamptz) to authenticated;
 grant execute on function public.schedule_admin_delete_entry(uuid, uuid, date, integer, timestamptz) to authenticated;
 grant execute on function public.schedule_admin_change_capacity(uuid, uuid, date, bigint, integer) to authenticated;
@@ -1855,6 +2044,7 @@ grant execute on function public.schedule_admin_move_entry(uuid, uuid, uuid, tim
 grant execute on function public.schedule_student_profile(uuid) to authenticated;
 grant execute on function public.schedule_student_logout(uuid) to authenticated;
 grant execute on function public.schedule_student_get_week(uuid, date) to authenticated;
+grant execute on function public.schedule_student_set_display_preferences(uuid, jsonb) to authenticated;
 grant execute on function public.schedule_student_upsert_entry(uuid, date, integer, text, timestamptz) to authenticated;
 grant execute on function public.schedule_student_delete_entry(uuid, date, integer, timestamptz) to authenticated;
 grant execute on function public.schedule_student_change_capacity(uuid, date, bigint, integer) to authenticated;

@@ -17,7 +17,6 @@ import {
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
 const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
-const UNUSED_HIDDEN_KEY = "edmund-schedule-unused-hidden-v1";
 const MAX_SLOTS_PER_DAY = 100;
 const WEEKDAY_MASCOTS = [
   "assets/schedule/weekdays/monday-walking-to-school.webp",
@@ -59,6 +58,7 @@ const elements = {
   exportPdf: document.querySelector("[data-export-pdf]"),
   toggleTable: document.querySelector("[data-toggle-table]"),
   toggleUnused: document.querySelector("[data-toggle-unused]"),
+  toggleMascots: document.querySelector("[data-toggle-mascots]"),
   toggleSelection: document.querySelector("[data-toggle-selection]"),
   selectionActions: document.querySelector("[data-selection-actions]"),
   selectionCount: document.querySelector("[data-selection-count]"),
@@ -104,12 +104,15 @@ const state = {
   weekRequestId: 0,
   toastTimer: null,
   tableHidden: readDisplayPreference(TABLE_HIDDEN_KEY),
-  hideUnused: readDisplayPreference(UNUSED_HIDDEN_KEY),
+  hideUnused: false,
+  hideMascots: false,
+  showUnusedTemporarily: false,
   selectionMode: false,
   selectedEntryIds: new Set(),
   moveEntryId: null,
   draggingEntryId: null,
   mutationInFlight: false,
+  displayPreferenceRequestId: 0,
   suppressClickUntil: 0
 };
 
@@ -183,7 +186,12 @@ function showView(name) {
 
 function clearRenderedSchedule() {
   state.weekRequestId += 1;
+  state.displayPreferenceRequestId += 1;
+  state.mutationInFlight = false;
   state.weekPayload = emptyWeekPayload();
+  state.hideUnused = false;
+  state.hideMascots = false;
+  state.showUnusedTemporarily = false;
   state.editing = null;
   resetSelectionMode();
   elements.weekGrid.replaceChildren();
@@ -205,12 +213,42 @@ function clearRenderedSchedule() {
 }
 
 function applyDisplayPreferences() {
+  const hideUnusedNow = unusedSlotsAreHidden();
   elements.tableRegion.hidden = state.tableHidden;
   elements.toggleTable.textContent = state.tableHidden ? "顯示日程表" : "隱藏日程表";
   elements.toggleTable.setAttribute("aria-expanded", String(!state.tableHidden));
-  elements.toggleUnused.textContent = state.hideUnused ? "顯示所有格" : "隱藏未使用格";
-  elements.toggleUnused.setAttribute("aria-pressed", String(state.hideUnused));
+  elements.toggleUnused.textContent = hideUnusedNow ? "顯示所有格" : "隱藏未使用格";
+  elements.toggleUnused.setAttribute("aria-pressed", String(hideUnusedNow));
+  elements.toggleMascots.textContent = state.hideMascots ? "顯示吉祥物" : "隱藏吉祥物";
+  elements.toggleMascots.setAttribute("aria-pressed", String(state.hideMascots));
+  elements.weekGrid.classList.toggle("mascots-hidden", state.hideMascots);
   updateSelectionControls();
+}
+
+function unusedSlotsAreHidden() {
+  return state.hideUnused && !state.showUnusedTemporarily;
+}
+
+function normalizeDisplayPreferences(value) {
+  return {
+    hideUnused: value?.hideUnused === true,
+    hideMascots: value?.hideMascots === true
+  };
+}
+
+function displayPreferenceOwner() {
+  const student = activeStudent();
+  if (!student || !state.currentUser) return "";
+  return state.currentUser.role === "admin"
+    ? `admin:${state.currentUser.adminToken || ""}:${student.id}`
+    : `student:${state.currentUser.studentToken || ""}:${student.id}`;
+}
+
+function applySavedDisplayPreferences(value) {
+  const preferences = normalizeDisplayPreferences(value);
+  state.hideUnused = preferences.hideUnused;
+  state.hideMascots = preferences.hideMascots;
+  applyDisplayPreferences();
 }
 
 function selectedEntries() {
@@ -254,11 +292,13 @@ function updateSelectionControls() {
     : "刪除所有已選取安排";
   elements.cancelSelection.disabled = state.mutationInFlight;
   elements.toggleUnused.disabled = state.mutationInFlight || moving;
+  elements.toggleMascots.disabled = state.mutationInFlight;
 }
 
 function setMutationInFlight(busy) {
   state.mutationInFlight = Boolean(busy);
   elements.toggleUnused.disabled = busy;
+  elements.toggleMascots.disabled = busy;
   elements.toggleSelection.disabled = busy;
   updateSelectionControls();
 }
@@ -269,11 +309,88 @@ function toggleTableVisibility() {
   applyDisplayPreferences();
 }
 
-function toggleUnusedSlots() {
-  state.hideUnused = !state.hideUnused;
-  saveDisplayPreference(UNUSED_HIDDEN_KEY, state.hideUnused);
+async function saveDisplayPreferences(patch) {
+  const student = activeStudent();
+  if (!student || !state.currentUser) throw new Error("請先登入學生帳戶。");
+  const result = state.currentUser.role === "admin"
+    ? await callRpc("schedule_admin_set_display_preferences", {
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: student.id,
+        p_patch: patch
+      })
+    : await callRpc("schedule_student_set_display_preferences", {
+        p_token: state.currentUser.studentToken,
+        p_patch: patch
+      });
+  if (!result || typeof result !== "object") throw new Error("未能儲存顯示設定。");
+  return result;
+}
+
+async function toggleUnusedSlots() {
+  if (state.mutationInFlight || !activeStudent()) return;
+  const owner = displayPreferenceOwner();
+  const requestId = state.displayPreferenceRequestId + 1;
+  state.displayPreferenceRequestId = requestId;
+  const isCurrentRequest = () => (
+    state.displayPreferenceRequestId === requestId && displayPreferenceOwner() === owner
+  );
+  const previous = normalizeDisplayPreferences(state);
+  const next = !unusedSlotsAreHidden();
+  state.hideUnused = next;
+  state.showUnusedTemporarily = false;
   applyDisplayPreferences();
-  if (activeStudent()) renderWeek();
+  renderWeek();
+  setMutationInFlight(true);
+  try {
+    const saved = await saveDisplayPreferences({ hideUnused: next });
+    if (!isCurrentRequest()) return;
+    applySavedDisplayPreferences(saved);
+    renderWeek();
+    showToast(next ? "已記住：登入後隱藏未使用格。" : "已記住：登入後顯示所有格。");
+  } catch (error) {
+    if (!isCurrentRequest()) return;
+    console.warn("Schedule display preference save failed", error);
+    state.hideUnused = previous.hideUnused;
+    state.hideMascots = previous.hideMascots;
+    state.showUnusedTemporarily = false;
+    applyDisplayPreferences();
+    renderWeek();
+    setStatus(elements.calendarStatus, error.message || "未能儲存顯示設定。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    if (isCurrentRequest()) setMutationInFlight(false);
+  }
+}
+
+async function toggleMascots() {
+  if (state.mutationInFlight || !activeStudent()) return;
+  const owner = displayPreferenceOwner();
+  const requestId = state.displayPreferenceRequestId + 1;
+  state.displayPreferenceRequestId = requestId;
+  const isCurrentRequest = () => (
+    state.displayPreferenceRequestId === requestId && displayPreferenceOwner() === owner
+  );
+  const previous = normalizeDisplayPreferences(state);
+  const next = !state.hideMascots;
+  state.hideMascots = next;
+  applyDisplayPreferences();
+  setMutationInFlight(true);
+  try {
+    const saved = await saveDisplayPreferences({ hideMascots: next });
+    if (!isCurrentRequest()) return;
+    applySavedDisplayPreferences(saved);
+    showToast(next ? "已隱藏吉祥物並收起日期標題。" : "已顯示吉祥物。");
+  } catch (error) {
+    if (!isCurrentRequest()) return;
+    console.warn("Schedule mascot preference save failed", error);
+    state.hideUnused = previous.hideUnused;
+    state.hideMascots = previous.hideMascots;
+    applyDisplayPreferences();
+    setStatus(elements.calendarStatus, error.message || "未能儲存吉祥物設定。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    if (isCurrentRequest()) setMutationInFlight(false);
+  }
 }
 
 function renderMetrics() {
@@ -586,6 +703,7 @@ async function loadWeek(focusTarget = null) {
     if (!payload || typeof payload !== "object") {
       throw new Error("登入已失效，請重新登入。");
     }
+    applySavedDisplayPreferences(payload.displayPreferences);
     state.weekPayload = {
       capacities: payload.capacities && typeof payload.capacities === "object" ? payload.capacities : {},
       capacityVersions: payload.capacityVersions && typeof payload.capacityVersions === "object"
@@ -660,6 +778,7 @@ function renderWeek() {
   const entries = entryMap();
   const dates = weekDates(state.weekStart);
   const today = toISODate(new Date());
+  const hideUnusedNow = unusedSlotsAreHidden();
   elements.weekGrid.replaceChildren();
 
   dates.forEach((date, dayIndex) => {
@@ -696,11 +815,11 @@ function renderWeek() {
       let visibleSlots = 0;
       for (let slotIndex = 1; slotIndex <= capacity; slotIndex += 1) {
         const entry = entries.get(`${date}:${slotIndex}`);
-        if (state.hideUnused && !entry) continue;
+        if (hideUnusedNow && !entry) continue;
         slots.append(createSlotButton(date, dayIndex, slotIndex, entry));
         visibleSlots += 1;
       }
-      if (state.hideUnused && visibleSlots === 0) {
+      if (hideUnusedNow && visibleSlots === 0) {
         const note = document.createElement("p");
         note.className = "unused-day-note";
         note.textContent = "本日未有安排；\n未使用格已隱藏。";
@@ -809,6 +928,7 @@ function findEntryById(entryId) {
 function toggleSelectionMode() {
   if (state.mutationInFlight) return;
   if (state.selectionMode) {
+    if (state.moveEntryId) state.showUnusedTemporarily = false;
     resetSelectionMode();
   } else {
     state.selectionMode = true;
@@ -818,6 +938,7 @@ function toggleSelectionMode() {
 
 function cancelSelectionMode() {
   if (state.mutationInFlight) return;
+  if (state.moveEntryId) state.showUnusedTemporarily = false;
   resetSelectionMode();
   renderWeek();
 }
@@ -922,9 +1043,8 @@ function beginMoveSelected() {
   const entries = selectedEntries();
   if (entries.length !== 1 || !canMoveEntry(entries[0]) || state.mutationInFlight) return;
   state.moveEntryId = entries[0].id;
-  if (state.hideUnused) {
-    state.hideUnused = false;
-    saveDisplayPreference(UNUSED_HIDDEN_KEY, false);
+  if (unusedSlotsAreHidden()) {
+    state.showUnusedTemporarily = true;
     applyDisplayPreferences();
   }
   renderWeek();
@@ -971,6 +1091,7 @@ async function moveEntryTo(entry, targetDate, targetSlotIndex) {
       });
     }
     state.suppressClickUntil = Date.now() + 400;
+    state.showUnusedTemporarily = false;
     showToast(`安排已移到 ${formatDayDate(targetDate)} 第 ${targetSlot} 格。`);
     await loadWeek({ date: targetDate, slotIndex: targetSlot });
   } catch (error) {
@@ -1196,9 +1317,8 @@ async function changeCapacity(date, delta, button) {
       });
     }
     showToast(`${formatDayDate(date)} 已${shrinking ? "收起" : "增加"} 5 格。`);
-    if (!shrinking && state.hideUnused) {
-      state.hideUnused = false;
-      saveDisplayPreference(UNUSED_HIDDEN_KEY, false);
+    if (!shrinking && unusedSlotsAreHidden()) {
+      state.showUnusedTemporarily = true;
       applyDisplayPreferences();
     }
     await loadWeek(shrinking
@@ -1229,6 +1349,7 @@ async function changeWeek(amount) {
   const clamped = next < first ? first : next > last ? last : next;
   const nextValue = toISODate(clamped);
   if (nextValue === state.weekStart) return;
+  state.showUnusedTemporarily = false;
   state.weekStart = nextValue;
   await loadWeek();
 }
@@ -1367,10 +1488,9 @@ elements.weekGrid.addEventListener("dragstart", (event) => {
     event.preventDefault();
     return;
   }
-  if (state.hideUnused) {
+  if (unusedSlotsAreHidden()) {
     event.preventDefault();
-    state.hideUnused = false;
-    saveDisplayPreference(UNUSED_HIDDEN_KEY, false);
+    state.showUnusedTemporarily = true;
     applyDisplayPreferences();
     renderWeek();
     showToast("已顯示所有格，請再拖曳一次。", "success");
@@ -1433,12 +1553,14 @@ elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
 elements.currentWeek.addEventListener("click", async () => {
   if (state.mutationInFlight) return;
+  state.showUnusedTemporarily = false;
   state.weekStart = defaultWeekStart();
   await loadWeek();
 });
 elements.exportPdf.addEventListener("click", exportPdf);
 elements.toggleTable.addEventListener("click", toggleTableVisibility);
 elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
+elements.toggleMascots.addEventListener("click", toggleMascots);
 elements.toggleSelection?.addEventListener("click", toggleSelectionMode);
 elements.batchComplete?.addEventListener("click", batchSetCompletion);
 elements.moveSelected?.addEventListener("click", beginMoveSelected);
