@@ -43,20 +43,27 @@ async function route(request, env, ctx) {
     return new Response(null, { status: 204, headers });
   }
 
-  const student = await authenticateRequest(request, env);
-  if (!student) return json({ error: "Authentication required" }, 401, request, env);
+  if (url.pathname === "/v1/admin/login" && request.method === "POST") {
+    return adminLogin(request, env);
+  }
 
-  if (url.pathname.startsWith("/v1/files/") && (request.method === "GET" || request.method === "HEAD" || request.method === "POST")) {
-    if (request.method === "POST" && !isAllowedOrigin(origin, env)) {
-      return json({ error: "Origin not allowed" }, 403, request, env);
-    }
+  if (url.pathname.startsWith("/v1/files/") && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
     const id = decodeURIComponent(url.pathname.slice("/v1/files/".length));
-    return downloadFile(request, env, id);
+    return downloadFile(request, env, ctx, student, id);
   }
 
   if (url.pathname === "/v1/zip" && request.method === "POST") {
     if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
-    return downloadZip(request, env, ctx);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    return downloadZip(request, env, ctx, student, form);
   }
 
   return json({ error: "Not found" }, 404, request, env);
@@ -70,7 +77,7 @@ function corsHeaders(origin, env) {
   const headers = new Headers({
     "Access-Control-Allow-Credentials": "true",
     "Access-Control-Allow-Headers": "Content-Type",
-    "Access-Control-Allow-Methods": "GET, HEAD, POST, DELETE, OPTIONS",
+    "Access-Control-Allow-Methods": "GET, POST, DELETE, OPTIONS",
     "Access-Control-Expose-Headers": "Content-Disposition, Content-Length, ETag",
     "Vary": "Origin"
   });
@@ -86,6 +93,105 @@ function json(value, status, request, env) {
   return new Response(JSON.stringify(value), { status, headers });
 }
 
+async function readLimitedText(request, maxBytes) {
+  const declaredLength = Number(request.headers.get("Content-Length") || 0);
+  if (Number.isFinite(declaredLength) && declaredLength > maxBytes) {
+    throw new Error("BODY_TOO_LARGE");
+  }
+  if (!request.body) return "";
+
+  const reader = request.body.getReader();
+  const chunks = [];
+  let total = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > maxBytes) {
+      await reader.cancel("Request body is too large");
+      throw new Error("BODY_TOO_LARGE");
+    }
+    chunks.push(value);
+  }
+
+  const bytes = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) {
+    bytes.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+  return new TextDecoder().decode(bytes);
+}
+
+async function parseDownloadForm(request, env) {
+  const contentType = request.headers.get("Content-Type") || "";
+  if (!contentType.toLowerCase().startsWith("application/x-www-form-urlencoded")) {
+    return json({ error: "Invalid archive request" }, 400, request, env);
+  }
+  try {
+    return new URLSearchParams(await readLimitedText(request, 32 * 1024));
+  } catch (error) {
+    return json(
+      { error: error?.message === "BODY_TOO_LARGE" ? "Download request is too large" : "Invalid archive request" },
+      error?.message === "BODY_TOO_LARGE" ? 413 : 400,
+      request,
+      env
+    );
+  }
+}
+
+async function adminLogin(request, env) {
+  const origin = request.headers.get("Origin") || "";
+  if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+  if (!env.ADMIN_LOGIN_RATE_LIMITER || !env.MODEL_ESSAY_SERVICE_SECRET) {
+    return json({ error: "Admin login is not configured" }, 503, request, env);
+  }
+
+  const actor = request.headers.get("CF-Connecting-IP") || "missing-client-ip";
+  const rateLimit = await env.ADMIN_LOGIN_RATE_LIMITER.limit({ key: `model-essay-admin:${actor}` });
+  if (!rateLimit.success) return json({ error: "Too many login attempts" }, 429, request, env);
+
+  let payload;
+  try {
+    payload = JSON.parse(await readLimitedText(request, 4096));
+  } catch (error) {
+    if (error?.message === "BODY_TOO_LARGE") return json({ error: "Login request is too large" }, 413, request, env);
+    return json({ error: "Invalid login request" }, 400, request, env);
+  }
+
+  const name = String(payload?.name || "").trim();
+  const password = String(payload?.password || "");
+  if (!name || name.length > 100 || !password || password.length > 200) {
+    return json({ error: "Invalid login request" }, 400, request, env);
+  }
+
+  const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/model_essay_admin_login`;
+  if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY) {
+    return json({ error: "Admin login is not configured" }, 503, request, env);
+  }
+
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: {
+        "apikey": env.SUPABASE_ANON_KEY,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        p_service_secret: env.MODEL_ESSAY_SERVICE_SECRET,
+        p_name: name,
+        p_password: password
+      })
+    });
+    if (!response.ok) return json({ error: "Admin login is temporarily unavailable" }, 502, request, env);
+    const rows = await response.json();
+    const admin = Array.isArray(rows) && rows.length ? rows[0] : null;
+    return json({ admin }, 200, request, env);
+  } catch (error) {
+    return json({ error: "Admin login is temporarily unavailable" }, 502, request, env);
+  }
+}
+
 async function createDownloadSession(request, env) {
   const origin = request.headers.get("Origin") || "";
   if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
@@ -93,8 +199,9 @@ async function createDownloadSession(request, env) {
 
   let payload;
   try {
-    payload = await request.json();
+    payload = JSON.parse(await readLimitedText(request, 8192));
   } catch (error) {
+    if (error?.message === "BODY_TOO_LARGE") return json({ error: "Session request is too large" }, 413, request, env);
     return json({ error: "Invalid request" }, 400, request, env);
   }
 
@@ -107,6 +214,7 @@ async function createDownloadSession(request, env) {
 
   const student = await validateStudentSession(token, accessToken, env);
   if (!student) return json({ error: "Invalid or expired student session" }, 401, request, env);
+  if (!student.ielts) return json({ error: "IELTS access is not enabled for this account" }, 403, request, env);
 
   const expiresAt = Math.floor(Date.now() / 1000) + SESSION_TTL_SECONDS;
   const cookieValue = await signCookie({ sub: student.id, exp: expiresAt }, env.SESSION_SIGNING_KEY);
@@ -118,7 +226,7 @@ async function createDownloadSession(request, env) {
 }
 
 async function validateStudentSession(token, accessToken, env) {
-  const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/flashcard_session_student_id`;
+  const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/model_essay_student_profile`;
   if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY) return null;
 
   try {
@@ -132,27 +240,24 @@ async function validateStudentSession(token, accessToken, env) {
       body: JSON.stringify({ p_token: token })
     });
     if (!response.ok) return null;
-    const studentId = await response.json();
-    return typeof studentId === "string" && /^[0-9a-f-]{36}$/i.test(studentId) ? { id: studentId } : null;
+    const rows = await response.json();
+    if (!Array.isArray(rows) || !rows.length) return null;
+    const profile = rows[0];
+    return typeof profile.id === "string" && /^[0-9a-f-]{36}$/i.test(profile.id)
+      ? { id: profile.id, ielts: profile.ielts === true }
+      : null;
   } catch (error) {
     return null;
   }
 }
 
-async function authenticateRequest(request, env) {
+async function authenticateRequest(request, env, form = null) {
   if (!env.SESSION_SIGNING_KEY) return null;
   const rawCookie = request.headers.get("Cookie") || "";
   let value = rawCookie.split(";").map(item => item.trim()).find(item => item.startsWith(`${COOKIE_NAME}=`))?.slice(COOKIE_NAME.length + 1);
   const authorization = request.headers.get("Authorization") || "";
   if (!value && authorization.startsWith("Bearer ")) value = authorization.slice(7).trim();
-  if (!value && request.method === "POST") {
-    try {
-      const form = await request.clone().formData();
-      value = String(form.get("downloadToken") || "");
-    } catch (error) {
-      value = "";
-    }
-  }
+  if (!value && form) value = String(form.get("downloadToken") || "");
   if (!value) return null;
   return verifyCookie(value, env.SESSION_SIGNING_KEY);
 }
@@ -204,12 +309,45 @@ function base64UrlDecode(value) {
   return bytes;
 }
 
-async function downloadFile(request, env, id) {
+async function downloadFile(request, env, ctx, student, id) {
   const item = catalogById.get(id);
   if (!item) return json({ error: "File not found" }, 404, request, env);
 
-  const object = request.method === "HEAD" ? await env.ESSAYS.head(item.key) : await env.ESSAYS.get(item.key);
-  if (!object || object.size !== item.bytes) return json({ error: "File is temporarily unavailable" }, 503, request, env);
+  const requestId = await recordDownload(env, student, [item], "single_pdf");
+  if (!requestId) return json({ error: "Download access could not be verified" }, 403, request, env);
+  let object;
+  try {
+    object = await env.ESSAYS.get(item.key);
+  } catch (error) {
+    await finishDownload(env, requestId, "failed");
+    return json({ error: "File is temporarily unavailable" }, 503, request, env);
+  }
+  if (!object || object.size !== item.bytes) {
+    await finishDownload(env, requestId, "failed");
+    return json({ error: "File is temporarily unavailable" }, 503, request, env);
+  }
+
+  const { readable, writable } = new FixedLengthStream(item.bytes);
+  const pump = (async () => {
+    try {
+      await object.body.pipeTo(writable, { preventClose: true });
+      const closingWriter = writable.getWriter();
+      await closingWriter.close();
+      if (!(await finishDownload(env, requestId, "completed"))) {
+        console.error("Single-file completion audit failed", requestId);
+      }
+    } catch (error) {
+      try {
+        const abortingWriter = writable.getWriter();
+        await abortingWriter.abort(error);
+      } catch (abortError) {
+        // The response stream may already be closed or aborted.
+      }
+      await finishDownload(env, requestId, "failed");
+      throw error;
+    }
+  })();
+  ctx.waitUntil(pump.catch(error => console.error("Single-file stream failed", error)));
 
   const headers = corsHeaders(request.headers.get("Origin") || "", env);
   headers.set("Content-Type", "application/pdf");
@@ -218,7 +356,7 @@ async function downloadFile(request, env, id) {
   headers.set("Cache-Control", "private, no-store");
   headers.set("X-Content-Type-Options", "nosniff");
   if (object.httpEtag) headers.set("ETag", object.httpEtag);
-  return new Response(request.method === "HEAD" ? null : object.body, { status: 200, headers });
+  return new Response(readable, { status: 200, headers });
 }
 
 function contentDisposition(filename) {
@@ -230,14 +368,7 @@ function contentDisposition(filename) {
   return `attachment; filename="${ascii}"; filename*=UTF-8''${encodeURIComponent(filename)}`;
 }
 
-async function downloadZip(request, env, ctx) {
-  let form;
-  try {
-    form = await request.formData();
-  } catch (error) {
-    return json({ error: "Invalid archive request" }, 400, request, env);
-  }
-
+async function downloadZip(request, env, ctx, student, form) {
   const all = form.get("all") === "1";
   if (all && form.get("confirmAll") !== "1") return json({ error: "Download-all confirmation required" }, 400, request, env);
 
@@ -257,10 +388,16 @@ async function downloadZip(request, env, ctx) {
     const uniqueIds = [...new Set(ids.map(value => String(value)))];
     items = uniqueIds.map(id => catalogById.get(id));
     if (items.some(item => !item)) return json({ error: "Unknown file selection" }, 400, request, env);
+    if (items.length <= 10) return json({ error: "ZIP downloads require more than 10 files" }, 400, request, env);
+    if (items.length === CATALOG.length) {
+      return json({ error: "Use the confirmed download-all request for the full catalog" }, 400, request, env);
+    }
   }
 
   const zip = prepareZip(items);
   if (zip.totalLength >= 0xFFFFFFFF) return json({ error: "Archive is too large for ZIP32" }, 413, request, env);
+  const requestId = await recordDownload(env, student, items, all ? "all_bundle" : "selected_zip");
+  if (!requestId) return json({ error: "Download access could not be verified" }, 403, request, env);
 
   const requestedName = String(form.get("filename") || "Edmund-IELTS-Task-2-Model-Essays.zip");
   const zipName = requestedName.replace(/[^A-Za-z0-9._-]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 100) || "model-essays.zip";
@@ -281,6 +418,9 @@ async function downloadZip(request, env, ctx) {
       await writeStreamChunk(writable, makeEndOfCentralDirectory(zip.entries.length, zip.centralSize, zip.centralOffset));
       const closingWriter = writable.getWriter();
       await closingWriter.close();
+      if (!(await finishDownload(env, requestId, "completed"))) {
+        console.error("ZIP completion audit failed", requestId);
+      }
     } catch (error) {
       try {
         const abortingWriter = writable.getWriter();
@@ -288,6 +428,7 @@ async function downloadZip(request, env, ctx) {
       } catch (abortError) {
         // The stream may already be aborted by the runtime.
       }
+      await finishDownload(env, requestId, "failed");
       throw error;
     }
   })();
@@ -300,6 +441,72 @@ async function downloadZip(request, env, ctx) {
   headers.set("Cache-Control", "private, no-store");
   headers.set("X-Content-Type-Options", "nosniff");
   return new Response(readable, { status: 200, headers });
+}
+
+async function recordDownload(env, student, items, eventType) {
+  const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/model_essay_record_download`;
+  if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY || !env.MODEL_ESSAY_SERVICE_SECRET) return null;
+  const requestId = crypto.randomUUID();
+  const payload = JSON.stringify({
+    p_service_secret: env.MODEL_ESSAY_SERVICE_SECRET,
+    p_request_id: requestId,
+    p_student_id: student.sub,
+    p_section: "ielts",
+    p_task: "task-2",
+    p_event_type: eventType,
+    p_essay_ids: items.map(item => item.id),
+    p_total_bytes: items.reduce((sum, item) => sum + item.bytes, 0)
+  });
+
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "apikey": env.SUPABASE_ANON_KEY,
+          "Content-Type": "application/json"
+        },
+        body: payload
+      });
+      if (response.ok) return (await response.json()) === requestId ? requestId : null;
+      const message = await response.text();
+      console.error("Download audit RPC failed", response.status, message);
+      if (response.status < 500) return null;
+    } catch (error) {
+      console.error("Download audit request failed", error);
+    }
+  }
+  return null;
+}
+
+async function finishDownload(env, requestId, status) {
+  const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/model_essay_finish_download`;
+  if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY || !env.MODEL_ESSAY_SERVICE_SECRET) return false;
+  const payload = JSON.stringify({
+    p_service_secret: env.MODEL_ESSAY_SERVICE_SECRET,
+    p_request_id: requestId,
+    p_status: status
+  });
+
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+          "apikey": env.SUPABASE_ANON_KEY,
+          "Content-Type": "application/json"
+        },
+        body: payload
+      });
+      if (response.ok) return (await response.json()) === true;
+      const message = await response.text();
+      console.error("Download completion RPC failed", response.status, message);
+      if (response.status < 500) return false;
+    } catch (error) {
+      console.error("Download completion request failed", error);
+    }
+  }
+  return false;
 }
 
 async function writeStreamChunk(writable, bytes) {

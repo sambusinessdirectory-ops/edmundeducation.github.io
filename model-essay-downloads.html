@@ -618,6 +618,7 @@
       background: rgba(255,255,255,.90);
       box-shadow: 0 10px 26px rgba(53,68,118,.08);
       transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      cursor: pointer;
     }
 
     .essay-row:hover { transform: translateY(-2px); border-color: rgba(67,94,194,.26); box-shadow: 0 15px 34px rgba(53,68,118,.13); }
@@ -637,12 +638,18 @@
     .essay-kicker { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; margin-bottom: 8px; }
     .essay-number { color: #4460b3; font-size: 12px; font-weight: 900; letter-spacing: .04em; }
     .problem-badge { padding: 3px 7px; border-radius: 7px; background: #ffe1e8; color: #b82f52; font-size: 10px; font-weight: 900; }
+    .topic-tag { padding: 3px 7px; border-radius: 999px; background: #eef1fa; color: #596683; font-size: 10px; font-weight: 850; letter-spacing: 0; }
 
-    .essay-title-link {
+    .essay-title-button {
       display: -webkit-box;
+      width: 100%;
+      padding: 0;
+      border: 0;
       overflow: hidden;
+      background: transparent;
       color: #243157;
-      text-decoration: none;
+      text-align: left;
+      cursor: pointer;
       font-size: 15px;
       font-weight: 850;
       line-height: 1.55;
@@ -650,7 +657,8 @@
       -webkit-line-clamp: 2;
     }
 
-    .essay-title-link:hover { color: #405fca; text-decoration: underline; text-underline-offset: 3px; }
+    .essay-title-button:hover,
+    .essay-title-button:focus-visible { color: #405fca; text-decoration: underline; text-underline-offset: 3px; }
     .essay-detail { margin-top: 8px; color: #7a8198; font-size: 11px; font-weight: 700; }
 
     .category-pill {
@@ -720,6 +728,87 @@
     .modal-actions button { min-height: 46px; border-radius: 13px; cursor: pointer; font-weight: 900; }
     .modal-cancel { border: 1px solid rgba(69,84,139,.17); background: #f6f7fb; color: #53607d; }
     .modal-confirm { border: 0; background: linear-gradient(105deg, #4666ce, #df5094); color: #fff; box-shadow: 0 10px 24px rgba(94,83,189,.22); }
+
+    .detail-modal-card {
+      position: relative;
+      width: min(940px, 100%);
+      max-height: min(820px, calc(100vh - 36px));
+      overflow: auto;
+      padding: clamp(24px, 4vw, 42px);
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 2;
+      width: 42px;
+      height: 42px;
+      border: 1px solid rgba(66,82,137,.15);
+      border-radius: 50%;
+      background: #f5f7ff;
+      color: #495678;
+      cursor: pointer;
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .detail-modal-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(250px, .85fr);
+      gap: clamp(24px, 4vw, 44px);
+      align-items: start;
+    }
+
+    .detail-eyebrow { margin: 0 0 10px !important; color: #4862b5 !important; font-size: 12px !important; font-weight: 900 !important; letter-spacing: .06em; }
+    .detail-tags { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 18px; padding-right: 44px; }
+    .detail-modal-card h2 { margin: 0 0 14px; padding-right: 42px; font-size: clamp(24px, 3vw, 34px); line-height: 1.25; }
+    .detail-question { color: #323e62 !important; font-size: clamp(16px, 1.8vw, 19px); font-weight: 650; line-height: 1.85 !important; }
+    .detail-meta { margin-top: 18px; color: #737c96; font-size: 12px; font-weight: 750; }
+    .detail-download { width: auto; min-width: 180px; margin-top: 22px; padding: 0 22px; }
+    .detail-cover { margin: 0; padding: 16px; border: 1px solid rgba(68,84,140,.13); border-radius: 18px; background: #f4f6fb; text-align: center; }
+    .detail-cover img { width: min(100%, 340px); max-height: 590px; border: 1px solid rgba(45,58,102,.12); border-radius: 10px; object-fit: contain; background: #fff; box-shadow: 0 14px 35px rgba(45,57,101,.16); }
+    .detail-cover figcaption { margin-top: 10px; color: #707996; font-size: 11px; font-weight: 750; }
+
+    .admin-hero {
+      padding: clamp(26px, 4vw, 42px);
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 20px;
+      background: linear-gradient(125deg, rgba(40,62,131,.96), rgba(79,75,167,.93) 54%, rgba(177,60,132,.90));
+      color: #fff;
+    }
+
+    .admin-hero p { margin: 0 0 8px; color: rgba(255,255,255,.76); font-size: 12px; font-weight: 850; letter-spacing: .08em; }
+    .admin-hero h1 { margin: 0; font-size: clamp(30px, 4vw, 48px); line-height: 1.1; }
+    .admin-refresh { border-color: rgba(255,255,255,.24); background: rgba(255,255,255,.14); color: #fff; }
+    .admin-panel { margin-top: 22px; padding: clamp(20px, 3vw, 30px); }
+    .admin-section + .admin-section { margin-top: 34px; padding-top: 30px; border-top: 1px solid var(--line); }
+    .admin-section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 14px; }
+    .admin-section-heading h2 { margin: 0; font-size: clamp(22px, 2.5vw, 30px); }
+    .admin-section-heading p { margin: 5px 0 0; color: var(--muted); font-size: 13px; line-height: 1.6; }
+    .admin-status { min-height: 22px; margin: 0 0 12px; color: #596581; font-size: 12px; font-weight: 800; }
+    .admin-status.error { color: #b23857; }
+    .admin-table-wrap { width: 100%; overflow-x: auto; border: 1px solid var(--line); border-radius: 15px; background: rgba(255,255,255,.76); }
+    .admin-table { width: 100%; min-width: 900px; border-collapse: collapse; }
+    .admin-table th,
+    .admin-table td { padding: 13px 12px; border-bottom: 1px solid rgba(54,72,128,.10); text-align: left; vertical-align: middle; font-size: 12px; }
+    .admin-table th { background: #f4f6fd; color: #536080; font-weight: 900; white-space: nowrap; }
+    .admin-table tbody tr:last-child td { border-bottom: 0; }
+    .admin-table .student-name { color: #26345b; font-size: 13px; font-weight: 900; }
+    .access-toggle { display: inline-grid; place-items: center; width: 32px; height: 28px; border-radius: 8px; background: #f3f5fb; }
+    .access-toggle input { width: 18px; height: 18px; accent-color: var(--blue); cursor: pointer; }
+    .access-toggle input:disabled { cursor: wait; opacity: .55; }
+    .download-total { color: #3553b6; font-size: 14px; font-weight: 900; }
+    .admin-empty { padding: 30px !important; color: #707a96; text-align: center !important; }
+    .admin-log-controls { display: flex; align-items: center; gap: 10px; }
+    .admin-log-controls select { min-height: 42px; max-width: 230px; padding: 8px 34px 8px 12px; border: 1px solid var(--line); border-radius: 11px; background: #fff; color: #3d496c; font-weight: 750; }
+    .admin-pagination { margin-top: 14px; }
+    .log-kind { padding: 4px 7px; border-radius: 7px; background: #eef1fb; color: #546383; font-size: 10px; font-weight: 900; white-space: nowrap; }
+    .log-status { display: inline-flex; align-items: center; gap: 5px; padding: 4px 8px; border-radius: 999px; background: #fff1d8; color: #875914; font-size: 10px; font-weight: 900; white-space: nowrap; }
+    .log-status.completed { background: #e4f7ec; color: #237246; }
+    .log-status.failed { background: #ffe8eb; color: #a23848; }
 
     .toast-region {
       position: fixed;
@@ -799,12 +888,19 @@
       .selection-actions { justify-content: flex-end; }
       .essay-row { min-height: 112px; padding: 10px; grid-template-columns: 24px 66px minmax(0, 1fr); gap: 10px; }
       .essay-thumb { width: 66px; height: 86px; }
-      .essay-title-link { font-size: 13px; -webkit-line-clamp: 3; }
+      .essay-title-button { font-size: 13px; -webkit-line-clamp: 3; }
       .essay-kicker { margin-bottom: 5px; }
       .essay-action { grid-column: 3; }
       .row-download { width: 100%; min-height: 36px; }
       .pagination { align-items: flex-start; }
       .modal-card { padding: 24px; }
+      .detail-modal-grid { grid-template-columns: 1fr; }
+      .detail-cover { order: -1; }
+      .detail-cover img { max-height: 380px; }
+      .admin-hero,
+      .admin-section-heading { align-items: flex-start; flex-direction: column; }
+      .admin-log-controls { width: 100%; }
+      .admin-log-controls select { width: 100%; max-width: none; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -841,19 +937,13 @@
             <span>學生使用</span>
             <span class="soft-line">DSE / IELTS 其他範文下載區</span>
           </h1>
-          <p class="login-copy">使用你在 Flashcard 學習卡系統或寫作練習系統的相同帳戶登入，快速搜尋及下載 Band 9 範文。</p>
-          <div class="intro-stats" aria-label="下載區資料摘要">
-            <span class="intro-stat">238 份 IELTS Task 2 範文</span>
-            <span class="intro-stat">5 大題型篩選</span>
-            <span class="intro-stat">支援批量 ZIP</span>
-          </div>
           <div class="paper-stack" aria-hidden="true"><span></span><span></span><span></span></div>
         </div>
 
         <div class="login-panel glass-card">
           <img src="E-Learning.png" alt="EdmundEducation E-Learning">
-          <h2>學生登入</h2>
-          <p>你的 Flashcard / 寫作練習帳戶可直接使用。</p>
+          <h2>學生 / 管理員登入</h2>
+          <p>您的 Flashcard / 寫作練習帳戶可直接使用。</p>
           <form data-login-form novalidate>
             <div class="field">
               <label for="student-name">用戶名稱</label>
@@ -880,11 +970,93 @@
       <div class="section-hero glass-card">
         <div>
           <p>WELCOME BACK</p>
-          <h1>你好，<span data-welcome-name>同學</span>！<br>想下載哪一類範文？</h1>
+          <h1>您好，<span data-welcome-name>同學</span>！<br>您想下載哪一類範文？</h1>
         </div>
-        <p class="hero-note">IELTS 已率先開放。其他考試範文會在內容整理完成後陸續加入。</p>
       </div>
       <div class="exam-grid" data-exam-grid></div>
+    </section>
+
+    <section data-view="admin" hidden>
+      <nav class="breadcrumb" aria-label="目前位置">
+        <span>管理員控制台</span>
+      </nav>
+      <div class="admin-hero glass-card">
+        <div>
+          <p>MODEL ESSAY ADMIN</p>
+          <h1>學生權限與下載紀錄</h1>
+        </div>
+        <button class="header-button admin-refresh" type="button" data-admin-refresh>重新整理</button>
+      </div>
+
+      <div class="admin-panel glass-card">
+        <section class="admin-section" aria-labelledby="student-access-title">
+          <div class="admin-section-heading">
+            <div>
+              <h2 id="student-access-title">學生範文權限</h2>
+              <p>每個考試範文區可獨立開啟或關閉；設定會即時套用至共用學生帳戶。</p>
+            </div>
+          </div>
+          <p class="admin-status" data-admin-status role="status" aria-live="polite"></p>
+          <div class="admin-table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th scope="col">學生</th>
+                  <th scope="col">DSE</th>
+                  <th scope="col">IELTS</th>
+                  <th scope="col">TOEIC</th>
+                  <th scope="col">TOEFL</th>
+                  <th scope="col">PTE</th>
+                  <th scope="col">公務員寫作</th>
+                  <th scope="col">累計下載範文</th>
+                </tr>
+              </thead>
+              <tbody data-admin-students>
+                <tr><td class="admin-empty" colspan="8">正在載入學生帳戶…</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="admin-section" aria-labelledby="download-log-title">
+          <div class="admin-section-heading">
+            <div>
+              <h2 id="download-log-title">下載紀錄</h2>
+              <p>顯示下載學生、範文、數量、完成狀態與時間；「All essay bundle」代表一鍵下載全部。</p>
+            </div>
+            <label class="admin-log-controls">
+              <span class="sr-only">按學生篩選下載紀錄</span>
+              <select data-admin-log-filter>
+                <option value="">所有學生</option>
+              </select>
+            </label>
+          </div>
+          <div class="admin-table-wrap">
+            <table class="admin-table">
+              <thead>
+                <tr>
+                  <th scope="col">下載時間</th>
+                  <th scope="col">學生</th>
+                  <th scope="col">範文</th>
+                  <th scope="col">方式</th>
+                  <th scope="col">範文數量</th>
+                  <th scope="col">狀態</th>
+                </tr>
+              </thead>
+              <tbody data-admin-logs>
+                <tr><td class="admin-empty" colspan="6">尚未載入下載紀錄。</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="pagination admin-pagination">
+            <span data-admin-log-page-summary></span>
+            <div class="page-buttons">
+              <button class="compact-button" type="button" data-admin-log-prev>上一頁</button>
+              <button class="compact-button" type="button" data-admin-log-next>下一頁</button>
+            </div>
+          </div>
+        </section>
+      </div>
     </section>
 
     <section data-view="ielts" hidden>
@@ -898,14 +1070,12 @@
           <p>IELTS WRITING</p>
           <h1>選擇寫作部分</h1>
         </div>
-        <p class="hero-note">Task 2 範文庫現已開放；Task 1 圖表範文正在整理中。</p>
       </div>
       <div class="task-grid">
         <button class="task-card" type="button" disabled>
           <strong class="task-number">01</strong>
           <strong>Task 1</strong>
           <span>Charts / 圖表寫作</span>
-          <span class="card-tag">即將推出</span>
         </button>
         <button class="task-card featured" type="button" data-open-catalog>
           <strong class="task-number">02</strong>
@@ -998,6 +1168,26 @@
     </section>
   </div>
 
+  <div class="modal-backdrop" data-detail-modal hidden>
+    <section class="modal-card detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="essay-detail-title" aria-describedby="essay-detail-question">
+      <button class="modal-close" type="button" data-detail-close aria-label="關閉範文資料">×</button>
+      <div class="detail-modal-grid">
+        <div>
+          <p class="detail-eyebrow" data-detail-number>MODEL ESSAY</p>
+          <div class="detail-tags" data-detail-tags></div>
+          <h2 id="essay-detail-title" data-detail-title>IELTS Writing Task 2</h2>
+          <p class="detail-question" id="essay-detail-question" data-detail-question></p>
+          <div class="detail-meta" data-detail-meta></div>
+          <button class="primary-button detail-download" type="button" data-detail-download>下載 PDF</button>
+        </div>
+        <figure class="detail-cover">
+          <img data-detail-thumbnail src="" alt="">
+          <figcaption>PDF 第一頁預覽</figcaption>
+        </figure>
+      </div>
+    </section>
+  </div>
+
   <div class="toast-region" data-toast-region aria-live="polite" aria-atomic="false"></div>
   <iframe class="sr-only" name="edmund-download-frame" title="下載檔案" data-download-frame></iframe>
 
@@ -1005,6 +1195,7 @@
   <script src="supabase-config.js"></script>
   <script src="model-essay-download-config.js"></script>
   <script src="ielts-task2-model-essays.js"></script>
+  <script src="ielts-task2-question-data.js"></script>
   <script src="model-essay-downloads.js"></script>
   <script src="page-loader.js"></script>
 </body>

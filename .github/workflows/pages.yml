@@ -37,6 +37,9 @@ jobs:
             --exclude='.github' \
             --exclude='.DS_Store' \
             --exclude='_site' \
+            --exclude='*.sql' \
+            --exclude='tools' \
+            --exclude='workers' \
             ./ _site/
 
       - name: Show Pages artifact size

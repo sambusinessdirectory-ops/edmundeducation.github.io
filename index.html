@@ -487,6 +487,13 @@
       display: block;
     }
 
+    .review-card {
+      --category-gradient: linear-gradient(135deg, #c83273 0%, #9c3ea8 52%, #55318f 100%);
+      --category-gradient-hover: linear-gradient(135deg, #b82a69 0%, #8f359c 52%, #47277e 100%);
+      --category-key-lip: #4a246f;
+      --category-key-shadow: rgba(91,46,124,0.32);
+    }
+
     .review-card::after {
       content: "❤️";
       position: absolute;
@@ -511,6 +518,13 @@
     .review-card:focus-visible::after {
       transform: scale(1.08);
       background: rgba(255,255,255,0.42);
+    }
+
+    .exam-resources-card {
+      --category-gradient: linear-gradient(135deg, #28351f 0%, #4b6132 52%, #657337 100%);
+      --category-gradient-hover: linear-gradient(135deg, #222e1a 0%, #40542a 52%, #59652e 100%);
+      --category-key-lip: #263218;
+      --category-key-shadow: rgba(49,65,31,0.32);
     }
 
     .flashcard-card {
@@ -1341,7 +1355,7 @@
           <span class="category-name">用家實證！<br>學生主動寫給<br>Edmund Sir<br>的評價</span>
         </a>
 
-        <a class="category" href="exam-resources.html">
+        <a class="category exam-resources-card" href="exam-resources.html">
           <span class="category-name">IELTS (雅思),<br>DSE 英文文憑試,<br>CRE 公務員英考<br>備試資源站！</span>
         </a>
 

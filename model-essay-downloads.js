@@ -3,7 +3,9 @@
 
   const SESSION_KEY = "edmundModelEssayDownloadSession";
   const PAGE_SIZE = 20;
+  const ADMIN_PAGE_SIZE = 20;
   const essays = Array.isArray(window.EDMUND_MODEL_ESSAYS) ? window.EDMUND_MODEL_ESSAYS : [];
+  const questionData = window.EDMUND_MODEL_ESSAY_QUESTION_DATA || {};
   const meta = window.EDMUND_MODEL_ESSAY_META || {};
   const supabaseConfig = window.EDMUND_SUPABASE || {};
   const apiBase = String(window.EDMUND_DOWNLOAD_API_BASE || "").replace(/\/+$/, "");
@@ -21,13 +23,22 @@
   ];
 
   const exams = [
-    { key: "dse", label: "DSE", subline: "英文文憑試範文", enabled: false },
-    { key: "ielts", label: "IELTS", subline: "雅思寫作範文", enabled: true, featured: true },
-    { key: "toeic", label: "TOEIC", subline: "職場英語寫作範文", enabled: false },
-    { key: "toefl", label: "TOEFL", subline: "托福寫作範文", enabled: false },
-    { key: "pte", label: "PTE", subline: "培生英語寫作範文", enabled: false },
-    { key: "government", label: "公務員寫作", subline: "政府職位英文寫作", enabled: false }
+    { key: "dse", label: "DSE", subline: "英文文憑試範文", contentAvailable: false },
+    { key: "ielts", label: "IELTS", subline: "雅思寫作範文", contentAvailable: true, featured: true },
+    { key: "toeic", label: "TOEIC", subline: "職場英語寫作範文", contentAvailable: false },
+    { key: "toefl", label: "TOEFL", subline: "托福寫作範文", contentAvailable: false },
+    { key: "pte", label: "PTE", subline: "培生英語寫作範文", contentAvailable: false },
+    { key: "government", label: "公務員寫作", subline: "政府職位英文寫作", contentAvailable: false }
   ];
+
+  const defaultAccess = () => ({
+    dse: false,
+    ielts: true,
+    toeic: false,
+    toefl: false,
+    pte: false,
+    government: false
+  });
 
   const state = {
     currentUser: null,
@@ -39,7 +50,15 @@
     apiHealthy: false,
     downloadToken: "",
     downloadTokenExpiresAt: 0,
-    modalReturnFocus: null
+    modalReturnFocus: null,
+    detailReturnFocus: null,
+    detailEssay: null,
+    adminPage: 1,
+    adminPageCount: 1,
+    adminStudentFilter: "",
+    adminStudents: [],
+    adminTotals: new Map(),
+    adminLoading: false
   };
 
   const byId = new Map(essays.map(essay => [essay.id, essay]));
@@ -64,7 +83,26 @@
   const clearSelectionButton = document.querySelector("[data-clear-selection]");
   const downloadSelectedButton = document.querySelector("[data-download-selected]");
   const downloadAllModal = document.querySelector("[data-download-all-modal]");
+  const detailModal = document.querySelector("[data-detail-modal]");
+  const adminStudentsBody = document.querySelector("[data-admin-students]");
+  const adminLogsBody = document.querySelector("[data-admin-logs]");
+  const adminStatus = document.querySelector("[data-admin-status]");
+  const adminLogFilter = document.querySelector("[data-admin-log-filter]");
+  const adminLogPageSummary = document.querySelector("[data-admin-log-page-summary]");
+  const adminLogPrev = document.querySelector("[data-admin-log-prev]");
+  const adminLogNext = document.querySelector("[data-admin-log-next]");
   const toastRegion = document.querySelector("[data-toast-region]");
+
+  function essayQuestion(essay) {
+    return questionData[essay?.category + ":" + essay?.number] || { question: "", tags: [] };
+  }
+
+  function normalizeAccess(access) {
+    const defaults = defaultAccess();
+    if (!access || typeof access !== "object") return defaults;
+    for (const exam of exams) defaults[exam.key] = access[exam.key] === true;
+    return defaults;
+  }
 
   function escapeHtml(value) {
     return String(value)
@@ -113,20 +151,30 @@
     state.currentUser = user;
     sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
     updateAccountUi();
+    renderExamGrid();
   }
 
   function clearSession() {
     state.currentUser = null;
     state.downloadToken = "";
     state.downloadTokenExpiresAt = 0;
+    state.detailEssay = null;
+    state.adminStudents = [];
+    state.adminTotals = new Map();
     sessionStorage.removeItem(SESSION_KEY);
     updateAccountUi();
+    renderExamGrid();
   }
 
   function restoreSession() {
     try {
       const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
-      if (saved?.id && saved?.name && saved?.sessionToken) state.currentUser = saved;
+      if (saved?.role === "admin" && saved?.name && saved?.adminToken) {
+        state.currentUser = saved;
+      } else if (saved?.id && saved?.name && saved?.sessionToken) {
+        saved.access = normalizeAccess(saved.access);
+        state.currentUser = saved;
+      }
     } catch (error) {
       sessionStorage.removeItem(SESSION_KEY);
     }
@@ -137,7 +185,7 @@
     const signedIn = Boolean(state.currentUser);
     if (userPill) {
       userPill.hidden = !signedIn;
-      userPill.textContent = signedIn ? `${state.currentUser.name} · 學生` : "";
+      userPill.textContent = signedIn ? `${state.currentUser.name} · ${state.currentUser.role === "admin" ? "管理員" : "學生"}` : "";
     }
     if (logoutButton) logoutButton.hidden = !signedIn;
     document.querySelectorAll("[data-welcome-name]").forEach(node => {
@@ -147,9 +195,13 @@
 
   function showView(name, options = {}) {
     if (name !== "login" && !state.currentUser) name = "login";
+    if (state.currentUser?.role === "admin" && name !== "login" && name !== "admin") name = "admin";
+    if (name === "admin" && state.currentUser?.role !== "admin") name = state.currentUser ? "dashboard" : "login";
+    if ((name === "ielts" || name === "catalog") && state.currentUser?.access?.ielts !== true) name = "dashboard";
     views.forEach(view => { view.hidden = view.dataset.view !== name; });
     document.body.dataset.currentView = name;
     if (name === "catalog") renderCatalog();
+    if (name === "admin") void loadAdminConsole();
     if (options.scroll !== false) window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -164,24 +216,95 @@
     return created.data.session;
   }
 
+  async function callRpc(name, args) {
+    if (!supabaseClient) throw new Error("Supabase client is unavailable.");
+    const { data, error } = await supabaseClient.rpc(name, args);
+    if (error) throw error;
+    return data;
+  }
+
+  async function callAdminLogin(name, password) {
+    if (!apiBase || !/^https:\/\//i.test(apiBase)) throw new Error("MODEL_ADMIN_LOGIN_UNAVAILABLE");
+    const response = await fetch(`${apiBase}/v1/admin/login`, {
+      method: "POST",
+      mode: "cors",
+      credentials: "omit",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, password })
+    });
+    if (response.status === 429) throw new Error("MODEL_ADMIN_RATE_LIMITED");
+    if (!response.ok) throw new Error("MODEL_ADMIN_LOGIN_UNAVAILABLE");
+    const payload = await response.json();
+    return payload?.admin || null;
+  }
+
   async function login(username, password) {
     const authSession = await ensureSupabaseSession();
-    const { data: rows, error } = await supabaseClient.rpc("flashcard_student_login", {
+    const trimmedName = username.trim();
+    if (trimmedName.toLocaleLowerCase() === "sam admin") {
+      const admin = await callAdminLogin(trimmedName, password);
+      if (!admin) return null;
+      return {
+        id: "model-essay-admin",
+        name: admin.name || "Sam Admin",
+        role: "admin",
+        adminToken: admin.admin_token,
+        expiresAt: admin.expires_at || null
+      };
+    }
+
+    const rows = await callRpc("flashcard_student_login", {
       p_name: username.trim(),
       p_password: password
     });
-    if (error) throw error;
     if (!Array.isArray(rows) || !rows.length) return null;
     const student = rows[0];
+    const profiles = await callRpc("model_essay_student_profile", {
+      p_token: student.session_token
+    });
+    if (!Array.isArray(profiles) || !profiles.length) return null;
+    const profile = profiles[0];
     return {
       id: student.id,
       name: student.name,
       role: "student",
-      access: student.access || {},
+      access: normalizeAccess(profile),
       createdAt: student.created_at || null,
       sessionToken: student.session_token,
       authAccessToken: authSession.access_token
     };
+  }
+
+  let lastPermissionRefreshAt = 0;
+  let permissionRefreshPromise = null;
+
+  async function refreshStudentProfile(options = {}) {
+    if (state.currentUser?.role !== "student" || !state.currentUser.sessionToken) return;
+    const now = Date.now();
+    if (!options.force && now - lastPermissionRefreshAt < 15000) return;
+    if (permissionRefreshPromise) return permissionRefreshPromise;
+    permissionRefreshPromise = (async () => {
+      const profiles = await callRpc("model_essay_student_profile", {
+        p_token: state.currentUser.sessionToken
+      });
+      if (!Array.isArray(profiles) || !profiles.length) {
+        clearSession();
+        showView("login", { scroll: false });
+        setLoginStatus("登入時限已過，請重新登入。", "error");
+        return;
+      }
+      const previousIelts = state.currentUser.access?.ielts === true;
+      state.currentUser.access = normalizeAccess(profiles[0]);
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify(state.currentUser));
+      renderExamGrid();
+      lastPermissionRefreshAt = Date.now();
+      if (previousIelts && !state.currentUser.access.ielts
+        && ["ielts", "catalog"].includes(document.body.dataset.currentView)) {
+        showView("dashboard", { scroll: false });
+        showToast("IELTS 範文權限已更新。", "default", 4500);
+      }
+    })().finally(() => { permissionRefreshPromise = null; });
+    return permissionRefreshPromise;
   }
 
   function healthUrl() {
@@ -212,7 +335,7 @@
 
   async function openDownloadSession() {
     if (state.downloadToken && Date.now() < state.downloadTokenExpiresAt - 30_000) return true;
-    if (!state.currentUser?.sessionToken || !apiBase) return false;
+    if (state.currentUser?.role !== "student" || !state.currentUser?.sessionToken || !apiBase) return false;
     if (!state.apiHealthy && !(await checkDownloadApi())) return false;
 
     try {
@@ -233,6 +356,12 @@
         clearSession();
         showView("login");
         setLoginStatus("登入時限已過，請重新登入。", "error");
+        return false;
+      }
+      if (response.status === 403) {
+        state.downloadToken = "";
+        state.downloadTokenExpiresAt = 0;
+        showToast("此帳戶未獲授權下載 IELTS 範文。", "error", 5600);
         return false;
       }
       if (!response.ok) return false;
@@ -263,14 +392,19 @@
 
   function renderExamGrid() {
     if (!examGrid) return;
-    examGrid.innerHTML = exams.map(exam => `
-      <button class="exam-card${exam.featured ? " featured" : ""}" type="button"
-        data-exam-key="${escapeHtml(exam.key)}" ${exam.enabled ? "" : "disabled"}>
+    const access = normalizeAccess(state.currentUser?.access);
+    examGrid.innerHTML = exams.map(exam => {
+      const allowed = access[exam.key] === true;
+      const tag = !allowed ? "未獲授權" : exam.contentAvailable ? "進入下載區" : "已獲授權";
+      return `
+      <button class="exam-card${exam.featured && allowed ? " featured" : ""}" type="button"
+        data-exam-key="${escapeHtml(exam.key)}" ${allowed ? "" : "disabled"}>
         <strong>${escapeHtml(exam.label)}</strong>
         <span>${escapeHtml(exam.subline)}</span>
-        <span class="card-tag">${exam.enabled ? "進入下載區" : "即將推出"}</span>
+        <span class="card-tag">${tag}</span>
       </button>
-    `).join("");
+    `;
+    }).join("");
   }
 
   function categoryCount(key) {
@@ -293,8 +427,11 @@
     const rows = essays.filter(essay => {
       if (state.filter !== "all" && essay.category !== state.filter) return false;
       if (!query) return true;
+      const detail = essayQuestion(essay);
       return essay.filename.toLocaleLowerCase().includes(query)
         || essay.categoryLabel.toLocaleLowerCase().includes(query)
+        || detail.question.toLocaleLowerCase().includes(query)
+        || detail.tags.some(tag => tag.toLocaleLowerCase().includes(query))
         || String(essay.number).includes(query);
     });
 
@@ -318,12 +455,10 @@
     return { rows: rows.slice(start, start + PAGE_SIZE), pageCount, start };
   }
 
-  function fileDownloadUrl(essay) {
-    return `#download-${encodeURIComponent(essay.id)}`;
-  }
-
   function rowHtml(essay) {
     const selected = state.selected.has(essay.id);
+    const detail = essayQuestion(essay);
+    const tags = detail.tags.map(tag => `<span class="topic-tag">${escapeHtml(tag)}</span>`).join("");
     return `
       <article class="essay-row${selected ? " selected" : ""}" data-essay-row="${escapeHtml(essay.id)}">
         <input class="row-checkbox" type="checkbox" data-select-id="${escapeHtml(essay.id)}"
@@ -332,9 +467,10 @@
         <div class="essay-main">
           <div class="essay-kicker">
             <span class="essay-number">MODEL ESSAY ${essay.number}</span>
+            ${tags}
             ${essay.problem ? '<span class="problem-badge">需留意</span>' : ""}
           </div>
-          <a class="essay-title-link" href="${escapeHtml(fileDownloadUrl(essay))}" data-download-id="${escapeHtml(essay.id)}">${escapeHtml(essay.filename)}</a>
+          <button class="essay-title-button" type="button" data-open-detail-id="${escapeHtml(essay.id)}">${escapeHtml(essay.filename)}</button>
           <div class="essay-detail">PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
         </div>
         <div class="essay-category">
@@ -460,6 +596,10 @@
   async function downloadSelected() {
     const items = [...state.selected].map(id => byId.get(id)).filter(Boolean);
     if (!items.length) return;
+    if (items.length === essays.length) {
+      openDownloadAllModal(downloadSelectedButton);
+      return;
+    }
     if (items.length > 10) {
       await downloadZip(items, { filename: `Edmund-IELTS-Task-2-Selected-${items.length}.zip` });
       return;
@@ -492,6 +632,206 @@
     await downloadZip(essays, { all: true, filename: "Edmund-IELTS-Task-2-All-Model-Essays.zip" });
   }
 
+  function openDetailModal(essay, trigger) {
+    if (!detailModal || !essay) return;
+    const detail = essayQuestion(essay);
+    state.detailEssay = essay;
+    state.detailReturnFocus = trigger || document.activeElement;
+    detailModal.querySelector("[data-detail-number]").textContent = `MODEL ESSAY ${essay.number} · ${essay.categoryLabel}`;
+    detailModal.querySelector("[data-detail-tags]").innerHTML = detail.tags
+      .map(tag => `<span class="topic-tag">${escapeHtml(tag)}</span>`)
+      .join("");
+    detailModal.querySelector("[data-detail-title]").textContent = essay.filename;
+    detailModal.querySelector("[data-detail-question]").textContent = detail.question || "題目資料暫時未能顯示。";
+    detailModal.querySelector("[data-detail-meta]").textContent = `PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}`;
+    const thumbnail = detailModal.querySelector("[data-detail-thumbnail]");
+    thumbnail.src = essay.thumbnail;
+    thumbnail.alt = `${essay.filename} 第一頁縮圖`;
+    detailModal.hidden = false;
+    detailModal.querySelector("[data-detail-close]")?.focus();
+  }
+
+  function closeDetailModal() {
+    if (!detailModal) return;
+    detailModal.hidden = true;
+    state.detailEssay = null;
+    state.detailReturnFocus?.focus?.();
+    state.detailReturnFocus = null;
+  }
+
+  function setAdminStatus(message = "", tone = "default") {
+    if (!adminStatus) return;
+    adminStatus.textContent = message;
+    adminStatus.classList.toggle("error", tone === "error");
+  }
+
+  function formatDateTime(value) {
+    if (!value) return "—";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "—";
+    return new Intl.DateTimeFormat("zh-HK", {
+      dateStyle: "medium",
+      timeStyle: "short",
+      timeZone: "Asia/Hong_Kong"
+    }).format(date);
+  }
+
+  function adminToken() {
+    return state.currentUser?.role === "admin" ? state.currentUser.adminToken : "";
+  }
+
+  function renderAdminStudents() {
+    if (!adminStudentsBody) return;
+    if (!state.adminStudents.length) {
+      adminStudentsBody.innerHTML = '<tr><td class="admin-empty" colspan="8">沒有可顯示的學生帳戶。</td></tr>';
+      return;
+    }
+    adminStudentsBody.innerHTML = state.adminStudents.map(student => {
+      const access = normalizeAccess(student);
+      const total = state.adminTotals.get(student.id)?.essayCount || 0;
+      const toggles = exams.map(exam => `
+        <td>
+          <label class="access-toggle" title="${escapeHtml(exam.label)}">
+            <input type="checkbox" data-admin-access-student="${escapeHtml(student.id)}"
+              data-admin-access-key="${escapeHtml(exam.key)}" ${access[exam.key] ? "checked" : ""}
+              aria-label="${escapeHtml(student.name)}：${escapeHtml(exam.label)}">
+          </label>
+        </td>
+      `).join("");
+      return `
+        <tr data-admin-student-row="${escapeHtml(student.id)}">
+          <td class="student-name">${escapeHtml(student.name)}</td>
+          ${toggles}
+          <td><span class="download-total">${Number(total).toLocaleString("en-HK")}</span> 份</td>
+        </tr>
+      `;
+    }).join("");
+  }
+
+  function updateAdminFilterOptions() {
+    if (!adminLogFilter) return;
+    const selected = state.adminStudentFilter;
+    adminLogFilter.innerHTML = [
+      '<option value="">所有學生</option>',
+      ...state.adminStudents.map(student => `<option value="${escapeHtml(student.id)}">${escapeHtml(student.name)}</option>`)
+    ].join("");
+    adminLogFilter.value = selected;
+  }
+
+  function logEssayLabel(event) {
+    const ids = Array.isArray(event.essay_ids) ? event.essay_ids : [];
+    if (event.event_type === "all_bundle") return "<strong>All essay bundle</strong>";
+    const names = ids.map(id => byId.get(id)?.filename || id);
+    if (event.event_type === "single_pdf") return escapeHtml(names[0] || "Model essay");
+    const items = names.map(name => `<li>${escapeHtml(name)}</li>`).join("");
+    return `<details><summary>${names.length} 份已選範文</summary><ul>${items}</ul></details>`;
+  }
+
+  function renderAdminLogs(rows, totalCount) {
+    if (!adminLogsBody) return;
+    if (!rows.length) {
+      adminLogsBody.innerHTML = '<tr><td class="admin-empty" colspan="6">尚未有下載紀錄。</td></tr>';
+    } else {
+      const kindLabels = {
+        single_pdf: "單份 PDF",
+        selected_zip: "已選 ZIP",
+        all_bundle: "全部 ZIP"
+      };
+      const statusLabels = {
+        started: "處理中",
+        completed: "已完成",
+        failed: "未完成"
+      };
+      adminLogsBody.innerHTML = rows.map(event => `
+        <tr>
+          <td>${escapeHtml(formatDateTime(event.completed_at || event.requested_at))}</td>
+          <td class="student-name">${escapeHtml(event.student_name)}</td>
+          <td>${logEssayLabel(event)}</td>
+          <td><span class="log-kind">${escapeHtml(kindLabels[event.event_type] || event.event_type)}</span></td>
+          <td><span class="download-total">${Number(event.file_count || 0).toLocaleString("en-HK")}</span> 份</td>
+          <td><span class="log-status ${event.status === "completed" ? "completed" : event.status === "failed" ? "failed" : ""}">${escapeHtml(statusLabels[event.status] || "處理中")}</span></td>
+        </tr>
+      `).join("");
+    }
+
+    state.adminPageCount = Math.max(1, Math.ceil(totalCount / ADMIN_PAGE_SIZE));
+    state.adminPage = Math.min(state.adminPage, state.adminPageCount);
+    const first = totalCount ? (state.adminPage - 1) * ADMIN_PAGE_SIZE + 1 : 0;
+    const last = Math.min(state.adminPage * ADMIN_PAGE_SIZE, totalCount);
+    if (adminLogPageSummary) {
+      adminLogPageSummary.textContent = `${first}–${last} / ${totalCount} · 第 ${state.adminPage} / ${state.adminPageCount} 頁`;
+    }
+    if (adminLogPrev) adminLogPrev.disabled = state.adminPage <= 1;
+    if (adminLogNext) adminLogNext.disabled = state.adminPage >= state.adminPageCount;
+  }
+
+  async function loadAdminLogs() {
+    if (!adminToken()) return;
+    const rows = await callRpc("model_essay_admin_list_download_events", {
+      p_admin_token: adminToken(),
+      p_page: state.adminPage,
+      p_page_size: ADMIN_PAGE_SIZE,
+      p_student_id: state.adminStudentFilter || null
+    });
+    const safeRows = Array.isArray(rows) ? rows : [];
+    const total = safeRows.length ? Number(safeRows[0].total_count) || 0 : 0;
+    renderAdminLogs(safeRows, total);
+  }
+
+  async function loadAdminConsole(options = {}) {
+    if (!adminToken() || state.adminLoading) return;
+    state.adminLoading = true;
+    setAdminStatus("正在載入學生權限及下載紀錄…");
+    try {
+      if (options.force || !state.adminStudents.length) {
+        const [students, totals] = await Promise.all([
+          callRpc("model_essay_admin_list_students", { p_admin_token: adminToken() }),
+          callRpc("model_essay_admin_student_download_totals", { p_admin_token: adminToken() })
+        ]);
+        state.adminStudents = Array.isArray(students) ? students : [];
+        state.adminTotals = new Map((Array.isArray(totals) ? totals : []).map(row => [
+          row.student_id,
+          { essayCount: Number(row.essay_count) || 0, lastDownloadAt: row.last_download_at || null }
+        ]));
+        renderAdminStudents();
+        updateAdminFilterOptions();
+      }
+      await loadAdminLogs();
+      setAdminStatus(`已載入 ${state.adminStudents.length} 個學生帳戶。`);
+    } catch (error) {
+      console.warn("Could not load model essay admin console:", error);
+      setAdminStatus("管理員登入時限可能已過，請登出後重新登入。", "error");
+    } finally {
+      state.adminLoading = false;
+    }
+  }
+
+  async function saveStudentAccess(studentId, key, checked) {
+    const student = state.adminStudents.find(item => item.id === studentId);
+    if (!student || !exams.some(exam => exam.key === key) || !adminToken()) return;
+    const previous = student[key] === true;
+    student[key] = checked;
+    const row = adminStudentsBody?.querySelector(`[data-admin-student-row="${CSS.escape(studentId)}"]`);
+    row?.querySelectorAll("input").forEach(input => { input.disabled = true; });
+    setAdminStatus(`正在儲存 ${student.name} 的權限…`);
+    try {
+      const rows = await callRpc("model_essay_admin_set_student_access", {
+        p_admin_token: adminToken(),
+        p_student_id: studentId,
+        p_access: normalizeAccess(student)
+      });
+      if (!Array.isArray(rows) || !rows.length) throw new Error("Permission update was not returned.");
+      Object.assign(student, rows[0]);
+      renderAdminStudents();
+      setAdminStatus(`${student.name} 的權限已更新。`);
+    } catch (error) {
+      student[key] = previous;
+      renderAdminStudents();
+      console.warn("Could not save model essay access:", error);
+      setAdminStatus("權限未能儲存，請重新登入後再試。", "error");
+    }
+  }
+
   loginForm?.addEventListener("submit", async event => {
     event.preventDefault();
     const formData = new FormData(loginForm);
@@ -515,12 +855,20 @@
       setConnection("帳戶已連線", "live");
       setLoginStatus("登入成功。", "success");
       loginForm.reset();
-      showView("dashboard");
-      void openDownloadSession();
+      if (user.role === "admin") {
+        showView("admin");
+      } else {
+        showView("dashboard");
+        void openDownloadSession();
+      }
     } catch (error) {
       console.warn("Download library login failed:", error);
-      setConnection("登入服務離線", "offline");
-      setLoginStatus("登入服務暫時未能連線，請稍後再試。", "error");
+      if (error?.message === "MODEL_ADMIN_RATE_LIMITED") {
+        setLoginStatus("登入嘗試次數過多，請於一分鐘後再試。", "error");
+      } else {
+        setConnection("登入服務離線", "offline");
+        setLoginStatus("登入服務暫時未能連線，請稍後再試。", "error");
+      }
     } finally {
       loginButton.disabled = false;
       loginButton.textContent = "進入範文下載區";
@@ -537,7 +885,15 @@
   });
 
   logoutButton?.addEventListener("click", async () => {
-    await closeDownloadSession();
+    if (state.currentUser?.role === "admin" && adminToken()) {
+      try {
+        await callRpc("model_essay_admin_logout", { p_admin_token: adminToken() });
+      } catch (error) {
+        // Local logout still completes if the remote admin session is already gone.
+      }
+    } else {
+      await closeDownloadSession();
+    }
     clearSession();
     state.selected.clear();
     setLoginStatus("");
@@ -546,7 +902,12 @@
 
   examGrid?.addEventListener("click", event => {
     const button = event.target.closest("[data-exam-key]");
-    if (button?.dataset.examKey === "ielts") showView("ielts");
+    if (!button || button.disabled) return;
+    if (button.dataset.examKey === "ielts") {
+      showView("ielts");
+    } else {
+      showToast("此範文區暫未有可下載內容。", "default", 4200);
+    }
   });
 
   document.querySelector("[data-open-catalog]")?.addEventListener("click", () => showView("catalog"));
@@ -599,9 +960,16 @@
 
   catalogList?.addEventListener("click", event => {
     const download = event.target.closest("[data-download-id]");
-    if (!download) return;
-    event.preventDefault();
-    void downloadOne(byId.get(download.dataset.downloadId));
+    if (download) {
+      event.preventDefault();
+      void downloadOne(byId.get(download.dataset.downloadId));
+      return;
+    }
+    if (event.target.closest("[data-select-id]")) return;
+    const detailTrigger = event.target.closest("[data-open-detail-id]");
+    const row = event.target.closest("[data-essay-row]");
+    const id = detailTrigger?.dataset.openDetailId || row?.dataset.essayRow;
+    if (id) openDetailModal(byId.get(id), detailTrigger || row);
   });
 
   selectVisible?.addEventListener("change", () => {
@@ -622,14 +990,59 @@
   document.querySelector("[data-download-all]")?.addEventListener("click", event => openDownloadAllModal(event.currentTarget));
   document.querySelector("[data-modal-cancel]")?.addEventListener("click", closeDownloadAllModal);
   document.querySelector("[data-modal-confirm]")?.addEventListener("click", () => { void confirmDownloadAll(); });
+  document.querySelector("[data-detail-close]")?.addEventListener("click", closeDetailModal);
+  document.querySelector("[data-detail-download]")?.addEventListener("click", () => {
+    if (state.detailEssay) void downloadOne(state.detailEssay);
+  });
+  document.querySelector("[data-admin-refresh]")?.addEventListener("click", () => { void loadAdminConsole({ force: true }); });
+
+  adminStudentsBody?.addEventListener("change", event => {
+    const toggle = event.target.closest("[data-admin-access-student]");
+    if (!toggle) return;
+    void saveStudentAccess(toggle.dataset.adminAccessStudent, toggle.dataset.adminAccessKey, toggle.checked);
+  });
+
+  adminLogFilter?.addEventListener("change", event => {
+    state.adminStudentFilter = event.target.value;
+    state.adminPage = 1;
+    void loadAdminLogs().catch(error => {
+      console.warn("Could not filter model essay download logs:", error);
+      setAdminStatus("下載紀錄未能載入。", "error");
+    });
+  });
+
+  adminLogPrev?.addEventListener("click", () => {
+    state.adminPage = Math.max(1, state.adminPage - 1);
+    void loadAdminLogs();
+  });
+
+  adminLogNext?.addEventListener("click", () => {
+    state.adminPage = Math.min(state.adminPageCount, state.adminPage + 1);
+    void loadAdminLogs();
+  });
 
   downloadAllModal?.addEventListener("click", event => {
     if (event.target === downloadAllModal) closeDownloadAllModal();
   });
 
+  detailModal?.addEventListener("click", event => {
+    if (event.target === detailModal) closeDetailModal();
+  });
+
   document.addEventListener("keydown", event => {
     if (event.key === "Escape" && downloadAllModal && !downloadAllModal.hidden) closeDownloadAllModal();
+    if (event.key === "Escape" && detailModal && !detailModal.hidden) closeDetailModal();
   });
+
+  window.addEventListener("focus", () => {
+    void refreshStudentProfile().catch(() => {});
+  });
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") void refreshStudentProfile().catch(() => {});
+  });
+  window.setInterval(() => {
+    void refreshStudentProfile({ force: true }).catch(() => {});
+  }, 60000);
 
   async function initialize() {
     renderExamGrid();
@@ -645,7 +1058,23 @@
       setConnection("帳戶服務離線", "offline");
     }
     await checkDownloadApi();
-    if (state.currentUser) {
+    if (state.currentUser?.role === "admin") {
+      try {
+        const rows = await callRpc("model_essay_admin_me", { p_admin_token: adminToken() });
+        if (!Array.isArray(rows) || !rows.length) throw new Error("Expired admin session");
+        showView("admin", { scroll: false });
+      } catch (error) {
+        clearSession();
+        showView("login", { scroll: false });
+        setLoginStatus("管理員登入時限已過，請重新登入。", "error");
+      }
+    } else if (state.currentUser) {
+      try {
+        await refreshStudentProfile({ force: true });
+      } catch (error) {
+        console.warn("Could not refresh model essay permissions:", error);
+      }
+      if (!state.currentUser) return;
       showView("dashboard", { scroll: false });
       void openDownloadSession();
     } else {

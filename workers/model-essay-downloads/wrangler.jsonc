@@ -11,6 +11,16 @@
       "bucket_name": "edmund-model-essays-private"
     }
   ],
+  "ratelimits": [
+    {
+      "name": "ADMIN_LOGIN_RATE_LIMITER",
+      "namespace_id": "914072026",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    }
+  ],
   "vars": {
     "ALLOWED_ORIGIN": "https://edmundeducation.com",
     "SUPABASE_URL": "https://ookkxzgpdclzrrhfmvqx.supabase.co",
