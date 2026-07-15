@@ -2418,11 +2418,12 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260715-1"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260715-3"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260712-2"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20260712-1"></script>
   <script src="writing-practice-model-essay-106-data.js?v=20260715-1"></script>
+  <script src="writing-practice-model-essays-88-105-data.js?v=20260715-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -2462,7 +2463,30 @@
             label: "Task 2 (Essay)",
             subline: "議論文寫作",
             essayTypes: [
-              { key: "opinions", label: "Opinions", subline: "立場題", deckIds: ["model-essay-106-ielts-opinion"] },
+              {
+                key: "opinions",
+                label: "Opinions",
+                subline: "立場題",
+                deckIds: [
+                  "model-essay-88-ielts-opinion",
+                  "model-essay-89-ielts-opinion",
+                  "model-essay-90-ielts-opinion",
+                  "model-essay-91-ielts-opinion",
+                  "model-essay-92-ielts-opinion",
+                  "model-essay-93-ielts-opinion",
+                  "model-essay-94-ielts-opinion",
+                  "model-essay-95-ielts-opinion",
+                  "model-essay-97-ielts-opinion",
+                  "model-essay-98-ielts-opinion",
+                  "model-essay-99-ielts-opinion",
+                  "model-essay-100-ielts-opinion",
+                  "model-essay-101-ielts-opinion",
+                  "model-essay-103-ielts-opinion",
+                  "model-essay-104-ielts-opinion",
+                  "model-essay-105-ielts-opinion",
+                  "model-essay-106-ielts-opinion"
+                ]
+              },
               { key: "discuss-both-views", label: "Discuss both views + Your opinion", subline: "雙邊討論及個人意見", deckIds: [] },
               { key: "cause-solution", label: "Cause and Solution", subline: "原因及解決方法", deckIds: ["model-essay-19-ielts-cause-solution"] },
               { key: "advantage-disadvantage", label: "Advantage and Disadvantage", subline: "利弊題", deckIds: ["ielts-writing"] },
@@ -2937,7 +2961,8 @@
       window.EDMUND_DSE_WRITING_EXERCISES,
       window.EDMUND_DSE_WRITING_2022_EXERCISES,
       window.EDMUND_DSE_WRITING_2024_EXERCISES,
-      window.EDMUND_IELTS_WRITING_EXERCISES
+      window.EDMUND_IELTS_WRITING_EXERCISES,
+      window.EDMUND_IELTS_WRITING_88_105_EXERCISES
     ].forEach(externalWritingExercises => {
       if (externalWritingExercises && typeof externalWritingExercises === "object" && !Array.isArray(externalWritingExercises)) {
         Object.assign(writingExercises, externalWritingExercises);
