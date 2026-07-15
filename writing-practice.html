@@ -2418,14 +2418,18 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260715-6"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260715-7"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260712-2"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20260712-1"></script>
   <script src="writing-practice-model-essay-106-data.js?v=20260715-1"></script>
+  <script src="writing-practice-model-essays-opinion-3-16-data.js?v=20260715-1"></script>
   <script src="writing-practice-model-essays-17-52-data.js?v=20260715-1"></script>
   <script src="writing-practice-model-essays-53-96-data.js?v=20260715-1"></script>
   <script src="writing-practice-model-essays-88-105-data.js?v=20260715-1"></script>
+  <script src="writing-practice-model-essays-discuss-4-23-data.js?v=20260715-1"></script>
+  <script src="writing-practice-model-essays-discuss-24-43-data.js?v=20260715-1"></script>
+  <script src="writing-practice-model-essays-direct-39-48-data.js?v=20260715-1"></script>
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
@@ -2471,6 +2475,20 @@
                 label: "Opinions",
                 subline: "立場題",
                 deckIds: [
+                  "model-essay-3-ielts-opinion",
+                  "model-essay-4-ielts-opinion",
+                  "model-essay-5-ielts-opinion",
+                  "model-essay-6-ielts-opinion",
+                  "model-essay-7-ielts-opinion",
+                  "model-essay-8-ielts-opinion",
+                  "model-essay-9-ielts-opinion",
+                  "model-essay-10-ielts-opinion",
+                  "model-essay-11-ielts-opinion",
+                  "model-essay-12-ielts-opinion",
+                  "model-essay-13-ielts-opinion",
+                  "model-essay-14-ielts-opinion",
+                  "model-essay-15-ielts-opinion",
+                  "model-essay-16-ielts-opinion",
                   "model-essay-17-ielts-opinion",
                   "model-essay-18-ielts-opinion",
                   "model-essay-19-ielts-opinion",
@@ -2562,10 +2580,71 @@
                   "model-essay-106-ielts-opinion"
                 ]
               },
-              { key: "discuss-both-views", label: "Discuss both views + Your opinion", subline: "雙邊討論及個人意見", deckIds: [] },
+              {
+                key: "discuss-both-views",
+                label: "Discuss both views + Your opinion",
+                subline: "雙邊討論及個人意見",
+                deckIds: [
+                  "model-essay-4-ielts-discuss-both-views",
+                  "model-essay-5-ielts-discuss-both-views",
+                  "model-essay-6-ielts-discuss-both-views",
+                  "model-essay-7-ielts-discuss-both-views",
+                  "model-essay-8-ielts-discuss-both-views",
+                  "model-essay-9-ielts-discuss-both-views",
+                  "model-essay-10-ielts-discuss-both-views",
+                  "model-essay-11-ielts-discuss-both-views",
+                  "model-essay-12-ielts-discuss-both-views",
+                  "model-essay-13-ielts-discuss-both-views",
+                  "model-essay-14-ielts-discuss-both-views",
+                  "model-essay-15-ielts-discuss-both-views",
+                  "model-essay-16-ielts-discuss-both-views",
+                  "model-essay-17-ielts-discuss-both-views",
+                  "model-essay-18-ielts-discuss-both-views",
+                  "model-essay-19-ielts-discuss-both-views",
+                  "model-essay-20-ielts-discuss-both-views",
+                  "model-essay-21-ielts-discuss-both-views",
+                  "model-essay-22-ielts-discuss-both-views",
+                  "model-essay-23-ielts-discuss-both-views",
+                  "model-essay-24-ielts-discuss-both-views",
+                  "model-essay-25-ielts-discuss-both-views",
+                  "model-essay-26-ielts-discuss-both-views",
+                  "model-essay-27-ielts-discuss-both-views",
+                  "model-essay-28-ielts-discuss-both-views",
+                  "model-essay-29-ielts-discuss-both-views",
+                  "model-essay-30-ielts-discuss-both-views",
+                  "model-essay-31-ielts-discuss-both-views",
+                  "model-essay-32-ielts-discuss-both-views",
+                  "model-essay-33-ielts-discuss-both-views",
+                  "model-essay-34-ielts-discuss-both-views",
+                  "model-essay-35-ielts-discuss-both-views",
+                  "model-essay-36-ielts-discuss-both-views",
+                  "model-essay-37-ielts-discuss-both-views",
+                  "model-essay-39-ielts-discuss-both-views",
+                  "model-essay-40-ielts-discuss-both-views",
+                  "model-essay-41-ielts-discuss-both-views",
+                  "model-essay-42-ielts-discuss-both-views",
+                  "model-essay-43-ielts-discuss-both-views"
+                ]
+              },
               { key: "cause-solution", label: "Cause and Solution", subline: "原因及解決方法", deckIds: ["model-essay-19-ielts-cause-solution"] },
               { key: "advantage-disadvantage", label: "Advantage and Disadvantage", subline: "利弊題", deckIds: ["ielts-writing"] },
-              { key: "direct-question", label: "Direct question", subline: "直接問題", deckIds: [] }
+              {
+                key: "direct-question",
+                label: "Direct question",
+                subline: "直接問題",
+                deckIds: [
+                  "model-essay-39-ielts-direct-question",
+                  "model-essay-40-ielts-direct-question",
+                  "model-essay-41-ielts-direct-question",
+                  "model-essay-42-ielts-direct-question",
+                  "model-essay-43-ielts-direct-question",
+                  "model-essay-44-ielts-direct-question",
+                  "model-essay-45-ielts-direct-question",
+                  "model-essay-46-ielts-direct-question",
+                  "model-essay-47-ielts-direct-question",
+                  "model-essay-48-ielts-direct-question"
+                ]
+              }
             ]
           }
         ]
@@ -3058,9 +3137,13 @@
       window.EDMUND_DSE_WRITING_2022_EXERCISES,
       window.EDMUND_DSE_WRITING_2024_EXERCISES,
       window.EDMUND_IELTS_WRITING_EXERCISES,
+      window.EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES,
       window.EDMUND_IELTS_WRITING_17_52_EXERCISES,
       window.EDMUND_IELTS_WRITING_53_96_EXERCISES,
       window.EDMUND_IELTS_WRITING_88_105_EXERCISES,
+      window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES,
+      window.EDMUND_IELTS_WRITING_DISCUSS_24_43_EXERCISES,
+      window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES,
       window.EDMUND_HKPF_WRITING_EXERCISES
     ].forEach(externalWritingExercises => {
       if (externalWritingExercises && typeof externalWritingExercises === "object" && !Array.isArray(externalWritingExercises)) {
@@ -5062,8 +5145,7 @@ Device: concession 讓步
       return parts.length ? parts : [sentenceText];
     }
 
-    function buildPracticeDifficultyParagraphs(exercise, difficulty) {
-      const answers = Array.isArray(difficulty?.answers) ? difficulty.answers : [];
+    function buildSentenceScopedDifficultyParagraphs(exercise, answers) {
       const answerState = { index: 0 };
       const paragraphs = exercise.paragraphs.map(paragraph => ({
         label: paragraph.label,
@@ -5072,6 +5154,34 @@ Device: concession 讓步
           return { parts: splitSentenceByDifficultyAnswers(text, answers, answerState) };
         })
       }));
+      return { paragraphs, answerState };
+    }
+
+    function buildParagraphScopedDifficultyParagraphs(exercise, answers) {
+      const answerState = { index: 0 };
+      const paragraphs = exercise.paragraphs.map(paragraph => {
+        const text = plainParagraph(paragraph);
+        return {
+          label: paragraph.label,
+          sentences: [{ parts: splitSentenceByDifficultyAnswers(text, answers, answerState) }]
+        };
+      });
+      return { paragraphs, answerState };
+    }
+
+    function buildPracticeDifficultyParagraphs(exercise, difficulty) {
+      const answers = Array.isArray(difficulty?.answers) ? difficulty.answers : [];
+      let prepared = buildSentenceScopedDifficultyParagraphs(exercise, answers);
+
+      // Some source worksheets intentionally make a single blank span two or
+      // more complete sentences. Keep that grouping intact. Existing essays
+      // remain sentence-scoped; only an affected difficulty falls back to one
+      // prepared sentence container per source paragraph.
+      if (prepared.answerState.index !== answers.length) {
+        prepared = buildParagraphScopedDifficultyParagraphs(exercise, answers);
+      }
+
+      const { paragraphs, answerState } = prepared;
       if (answerState.index !== answers.length) {
         const missing = answers.slice(answerState.index, answerState.index + 3).join(" | ");
         throw new Error(`${exercise.id} ${difficulty.key}: ${answers.length - answerState.index} unmatched difficulty answer(s): ${missing}`);
