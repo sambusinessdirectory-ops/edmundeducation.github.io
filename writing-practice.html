@@ -1797,6 +1797,77 @@
       align-items: stretch;
     }
 
+    .practice-mode-groups {
+      display: grid;
+      gap: 18px;
+    }
+
+    .practice-mode-group {
+      --difficulty-accent: #2f80ed;
+      --difficulty-soft: #dbeafe;
+      display: grid;
+      gap: 14px;
+      border: 1px solid color-mix(in srgb, var(--difficulty-accent) 20%, transparent);
+      border-radius: 20px;
+      padding: 16px;
+      background: color-mix(in srgb, var(--difficulty-soft) 35%, rgba(255,255,255,0.88));
+    }
+
+    .practice-mode-group[data-difficulty="medium"] {
+      --difficulty-accent: #059669;
+      --difficulty-soft: #d1fae5;
+    }
+
+    .practice-mode-group[data-difficulty="hard"] {
+      --difficulty-accent: #d97706;
+      --difficulty-soft: #ffedd5;
+    }
+
+    .practice-mode-group[data-difficulty="hell"] {
+      --difficulty-accent: #dc2626;
+      --difficulty-soft: #fee2e2;
+    }
+
+    .practice-mode-group-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .practice-mode-group-head h3 {
+      margin: 0;
+      color: color-mix(in srgb, var(--difficulty-accent) 82%, #0e2d55);
+      font-size: clamp(20px, 1.5vw, 25px);
+      line-height: 1.18;
+      font-weight: 950;
+    }
+
+    .practice-mode-group-head h3 span,
+    .practice-mode-group-head p {
+      display: block;
+      margin: 3px 0 0;
+      color: #64748b;
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 820;
+    }
+
+    .practice-mode-group .mode-button {
+      border-color: color-mix(in srgb, var(--difficulty-accent) 22%, transparent);
+      box-shadow: 0 8px 0 color-mix(in srgb, var(--difficulty-soft) 86%, white), 0 18px 28px rgba(47,128,237,0.08);
+    }
+
+    .practice-mode-group .mode-button:hover {
+      box-shadow: 0 10px 0 color-mix(in srgb, var(--difficulty-soft) 72%, white), 0 24px 34px rgba(47,128,237,0.12);
+    }
+
+    .mode-question-count {
+      color: color-mix(in srgb, var(--difficulty-accent) 76%, #0e2d55) !important;
+      font-weight: 950 !important;
+    }
+
     .mode-button {
       flex: 1 1 210px;
       min-height: 110px;
@@ -2347,10 +2418,11 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260712-2"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260715-1"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260712-2"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20260712-1"></script>
+  <script src="writing-practice-model-essay-106-data.js?v=20260715-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -2390,7 +2462,7 @@
             label: "Task 2 (Essay)",
             subline: "議論文寫作",
             essayTypes: [
-              { key: "opinions", label: "Opinions", subline: "立場題", deckIds: [] },
+              { key: "opinions", label: "Opinions", subline: "立場題", deckIds: ["model-essay-106-ielts-opinion"] },
               { key: "discuss-both-views", label: "Discuss both views + Your opinion", subline: "雙邊討論及個人意見", deckIds: [] },
               { key: "cause-solution", label: "Cause and Solution", subline: "原因及解決方法", deckIds: ["model-essay-19-ielts-cause-solution"] },
               { key: "advantage-disadvantage", label: "Advantage and Disadvantage", subline: "利弊題", deckIds: ["ielts-writing"] },
@@ -2864,10 +2936,11 @@
     [
       window.EDMUND_DSE_WRITING_EXERCISES,
       window.EDMUND_DSE_WRITING_2022_EXERCISES,
-      window.EDMUND_DSE_WRITING_2024_EXERCISES
-    ].forEach(externalDseWritingExercises => {
-      if (externalDseWritingExercises && typeof externalDseWritingExercises === "object" && !Array.isArray(externalDseWritingExercises)) {
-        Object.assign(writingExercises, externalDseWritingExercises);
+      window.EDMUND_DSE_WRITING_2024_EXERCISES,
+      window.EDMUND_IELTS_WRITING_EXERCISES
+    ].forEach(externalWritingExercises => {
+      if (externalWritingExercises && typeof externalWritingExercises === "object" && !Array.isArray(externalWritingExercises)) {
+        Object.assign(writingExercises, externalWritingExercises);
       }
     });
 
@@ -4814,37 +4887,127 @@ Device: concession 讓步
       return Boolean(part && typeof part === "object" && part.answer);
     }
 
-    function prepareWritingExercises() {
-      Object.values(writingExercises).forEach(exercise => {
-        let blankNumber = 0;
-        exercise.paragraphs.forEach((paragraph, paragraphIndex) => {
-          paragraph.sentences.forEach((sentence, sentenceIndex) => {
-            sentence.key = `${paragraphIndex}-${sentenceIndex}`;
-            sentence.paragraphIndex = paragraphIndex;
-            sentence.sentenceIndex = sentenceIndex;
-            sentence.parts.forEach(part => {
-              if (!isBlankPart(part)) return;
-              blankNumber += 1;
-              part.id = `${exercise.id}-q${blankNumber}`;
-              part.number = blankNumber;
-              part.paragraphIndex = paragraphIndex;
-              part.sentenceIndex = sentenceIndex;
-              part.sentenceKey = sentence.key;
-              part.paragraphLabel = paragraph.label;
-              const synonymSource = Array.isArray(exercise.synonymGuide)
-                ? exercise.synonymGuide
-                : exercise.id === "model-essay-9-ielts-advantage-disadvantage"
-                  ? synonymAcceptanceGuide
-                  : [];
-              const synonymGuide = synonymSource.find(row => row.number === blankNumber);
-              if (synonymGuide) {
-                part.strongSynonyms = synonymGuide.strong || [];
-                part.cautionSynonyms = synonymGuide.caution || [];
-              }
-            });
+    function practiceDifficultySetsForExercise(exercise = currentExercise()) {
+      if (!Array.isArray(exercise?.practiceDifficultySets)) return [];
+      return exercise.practiceDifficultySets.filter(set => set && typeof set === "object" && String(set.key || "").trim());
+    }
+
+    function hasPracticeDifficultySets(exercise = currentExercise()) {
+      return practiceDifficultySetsForExercise(exercise).length > 0;
+    }
+
+    function practiceDifficultyForExercise(exercise, difficultyKey = "") {
+      const sets = practiceDifficultySetsForExercise(exercise);
+      return sets.find(set => set.key === difficultyKey) || sets[0] || null;
+    }
+
+    function practiceParagraphsForExercise(exercise, difficultyKey = "") {
+      const difficulty = practiceDifficultyForExercise(exercise, difficultyKey);
+      return difficulty?.preparedParagraphs || exercise.paragraphs;
+    }
+
+    function practiceDifficultyLabel(exercise, difficultyKey = "") {
+      const difficulty = practiceDifficultyForExercise(exercise, difficultyKey);
+      return difficulty?.titleZh || difficulty?.title || "";
+    }
+
+    function practiceStyleLabel(exercise, state = practiceState) {
+      const cueLabel = practiceModesForExercise(exercise)
+        .find(mode => mode.key === state?.mode)?.title || modeLabel(state?.mode || "");
+      const difficultyLabel = hasPracticeDifficultySets(exercise)
+        ? practiceDifficultyLabel(exercise, state?.difficultyKey || "")
+        : "";
+      return [difficultyLabel, cueLabel].filter(Boolean).join(" · ") || "練習";
+    }
+
+    function splitSentenceByDifficultyAnswers(sentenceText, answers, answerState) {
+      const parts = [];
+      let textCursor = 0;
+      while (answerState.index < answers.length) {
+        const answer = String(answers[answerState.index] || "");
+        if (!answer) throw new Error(`Empty difficulty answer at index ${answerState.index}`);
+        const matchIndex = sentenceText.indexOf(answer, textCursor);
+        if (matchIndex < 0) break;
+        if (matchIndex > textCursor) parts.push(sentenceText.slice(textCursor, matchIndex));
+        parts.push({ answer });
+        textCursor = matchIndex + answer.length;
+        answerState.index += 1;
+      }
+      if (textCursor < sentenceText.length) parts.push(sentenceText.slice(textCursor));
+      return parts.length ? parts : [sentenceText];
+    }
+
+    function buildPracticeDifficultyParagraphs(exercise, difficulty) {
+      const answers = Array.isArray(difficulty?.answers) ? difficulty.answers : [];
+      const answerState = { index: 0 };
+      const paragraphs = exercise.paragraphs.map(paragraph => ({
+        label: paragraph.label,
+        sentences: paragraph.sentences.map(sentence => {
+          const text = plainSentence(sentence);
+          return { parts: splitSentenceByDifficultyAnswers(text, answers, answerState) };
+        })
+      }));
+      if (answerState.index !== answers.length) {
+        const missing = answers.slice(answerState.index, answerState.index + 3).join(" | ");
+        throw new Error(`${exercise.id} ${difficulty.key}: ${answers.length - answerState.index} unmatched difficulty answer(s): ${missing}`);
+      }
+      const canonical = exercise.paragraphs.map(plainParagraph);
+      const reconstructed = paragraphs.map(plainParagraph);
+      if (JSON.stringify(canonical) !== JSON.stringify(reconstructed)) {
+        throw new Error(`${exercise.id} ${difficulty.key}: difficulty text does not reconstruct the canonical essay`);
+      }
+      return paragraphs;
+    }
+
+    function annotatePracticeParagraphs(exercise, paragraphs, difficultyKey = "") {
+      let blankNumber = 0;
+      paragraphs.forEach((paragraph, paragraphIndex) => {
+        paragraph.sentences.forEach((sentence, sentenceIndex) => {
+          sentence.key = difficultyKey
+            ? `${difficultyKey}-${paragraphIndex}-${sentenceIndex}`
+            : `${paragraphIndex}-${sentenceIndex}`;
+          sentence.paragraphIndex = paragraphIndex;
+          sentence.sentenceIndex = sentenceIndex;
+          sentence.parts.forEach(part => {
+            if (!isBlankPart(part)) return;
+            blankNumber += 1;
+            part.id = difficultyKey
+              ? `${exercise.id}-${difficultyKey}-q${blankNumber}`
+              : `${exercise.id}-q${blankNumber}`;
+            part.number = blankNumber;
+            part.paragraphIndex = paragraphIndex;
+            part.sentenceIndex = sentenceIndex;
+            part.sentenceKey = sentence.key;
+            part.paragraphLabel = paragraph.label;
+            const synonymSource = Array.isArray(exercise.synonymGuide)
+              ? exercise.synonymGuide
+              : exercise.id === "model-essay-9-ielts-advantage-disadvantage"
+                ? synonymAcceptanceGuide
+                : [];
+            const synonymGuide = synonymSource.find(row => row.number === blankNumber);
+            if (synonymGuide) {
+              part.strongSynonyms = synonymGuide.strong || [];
+              part.cautionSynonyms = synonymGuide.caution || [];
+            }
           });
         });
-        exercise.questionCount = blankNumber;
+      });
+      return blankNumber;
+    }
+
+    function prepareWritingExercises() {
+      Object.values(writingExercises).forEach(exercise => {
+        const difficultySets = practiceDifficultySetsForExercise(exercise);
+        if (difficultySets.length) {
+          difficultySets.forEach(difficulty => {
+            difficulty.preparedParagraphs = buildPracticeDifficultyParagraphs(exercise, difficulty);
+            difficulty.questionCount = annotatePracticeParagraphs(exercise, difficulty.preparedParagraphs, difficulty.key);
+          });
+          exercise.questionCount = difficultySets[0].questionCount;
+          exercise.maximumQuestionCount = Math.max(...difficultySets.map(difficulty => difficulty.questionCount));
+          return;
+        }
+        exercise.questionCount = annotatePracticeParagraphs(exercise, exercise.paragraphs);
       });
     }
 
@@ -5139,9 +5302,10 @@ Device: concession 讓步
         ? new Set(normalizeSelectedParagraphs(exercise, options.selectedParagraphs))
         : null;
       const sentenceKeys = options.sentenceKeys ? new Set(options.sentenceKeys) : null;
+      const paragraphs = practiceParagraphsForExercise(exercise, options.difficultyKey || "");
       const blanks = [];
 
-      exercise.paragraphs.forEach((paragraph, paragraphIndex) => {
+      paragraphs.forEach((paragraph, paragraphIndex) => {
         if (selectedParagraphs && !selectedParagraphs.has(paragraphIndex)) return;
         paragraph.sentences.forEach(sentence => {
           if (sentenceKeys && !sentenceKeys.has(sentence.key)) return;
@@ -5163,7 +5327,8 @@ Device: concession 讓步
       if (!practiceState) return [];
       const targets = getExerciseBlanks(exercise, {
         selectedParagraphs: practiceState.selectedParagraphs,
-        sentenceKeys: practiceState.sentenceKeys || null
+        sentenceKeys: practiceState.sentenceKeys || null,
+        difficultyKey: practiceState.difficultyKey || ""
       });
       if (!practiceState.targetBlankIds?.length) return targets;
       const targetIds = new Set(practiceState.targetBlankIds);
@@ -5174,7 +5339,8 @@ Device: concession 讓步
       if (!practiceState) return [];
       if (practiceState.sentenceKeys?.length) return practiceState.sentenceKeys;
       const selected = new Set(normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs));
-      return exercise.paragraphs.flatMap((paragraph, paragraphIndex) => {
+      const paragraphs = practiceParagraphsForExercise(exercise, practiceState.difficultyKey || "");
+      return paragraphs.flatMap((paragraph, paragraphIndex) => {
         if (!selected.has(paragraphIndex)) return [];
         return paragraph.sentences
           .filter(sentence => sentence.parts.some(isBlankPart))
@@ -5183,10 +5349,12 @@ Device: concession 讓步
     }
 
     function defaultPracticeState(exercise) {
+      const defaultDifficulty = practiceDifficultyForExercise(exercise);
       return {
         screen: "mode",
         selectorOpen: true,
         selectedParagraphs: allParagraphIndexes(exercise),
+        difficultyKey: defaultDifficulty?.key || "",
         mode: "",
         round: 1,
         sentenceKeys: null,
@@ -5419,10 +5587,7 @@ Device: concession 讓步
       const clean = String(answer || "").trim();
       if (!clean) return "_____________";
       if (!["start", "end", "both"].includes(mode)) return "_____________";
-      return clean
-        .split(/([\s-])/)
-        .map(part => part === " " || part === "-" ? part : maskWord(part, mode))
-        .join("");
+      return clean.replace(/[\p{L}\p{N}]+/gu, word => maskWord(word, mode));
     }
 
     function blankInputWidth(answer) {
@@ -6010,7 +6175,7 @@ Device: concession 讓步
           <div class="history-list">
             ${results.length ? results.map(result => `
               <div class="history-row">
-                <strong>${escapeHtml(exactDateTime(result.createdAt))} | 第 ${escapeHtml(result.round)} 輪 | ${escapeHtml(result.mode ? modeLabel(result.mode) : result.modeLabel)}</strong>
+                <strong>${escapeHtml(exactDateTime(result.createdAt))} | 第 ${escapeHtml(result.round)} 輪 | ${escapeHtml(result.styleLabel || [result.difficultyLabel, result.mode ? modeLabel(result.mode) : result.modeLabel].filter(Boolean).join(" · "))}</strong>
                 <span>${escapeHtml(result.mistakes)} 個錯誤 / ${escapeHtml(result.total)} 題 | 錯誤率：${escapeHtml(result.mistakeRate)}% | ${result.completed ? "已完成" : "需要重溫"}</span>
               </div>
             `).join("") : `<p class="note-text">暫時未有已儲存成績。</p>`}
@@ -6338,17 +6503,60 @@ Device: concession 讓步
       `;
     }
 
+    function renderPracticeDifficultyGroups(exercise, selectedParagraphs) {
+      const modes = practiceModesForExercise(exercise);
+      return `
+        <div class="practice-mode-groups">
+          ${practiceDifficultySetsForExercise(exercise).map(difficulty => {
+            const questionCount = getExerciseBlanks(exercise, {
+              selectedParagraphs,
+              difficultyKey: difficulty.key
+            }).length;
+            return `
+              <section class="practice-mode-group" data-difficulty="${escapeHtml(difficulty.key)}">
+                <div class="practice-mode-group-head">
+                  <h3>${escapeHtml(difficulty.titleZh || difficulty.title)}<span>${escapeHtml(difficulty.title || "Difficulty mode")}</span></h3>
+                  <p>${escapeHtml(questionCount)} 題填充${difficulty.description ? ` · ${escapeHtml(difficulty.description)}` : ""}</p>
+                </div>
+                <div class="practice-mode-grid">
+                  ${modes.map(mode => `
+                    <button class="mode-button" type="button" data-start-practice-mode="${escapeHtml(mode.key)}" data-practice-difficulty="${escapeHtml(difficulty.key)}">
+                      <strong>${escapeHtml(mode.title)}</strong>
+                      <span>${escapeHtml(mode.description)}</span>
+                      <span class="mode-question-count">${escapeHtml(questionCount)} 題</span>
+                    </button>
+                  `).join("")}
+                </div>
+              </section>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+
     function renderModePage(exercise) {
       const selectedParagraphs = normalizeSelectedParagraphs(exercise, practiceState?.selectedParagraphs);
       const questionCount = getExerciseBlanks(exercise, { selectedParagraphs }).length;
-      return `
-        ${renderExerciseHeader(exercise, "請選擇練習模式及段落範圍；未勾選的段落會在本輪隱藏。")}
-        <div class="mode-page">
+      const difficultySets = practiceDifficultySetsForExercise(exercise);
+      const modeSummary = difficultySets.length
+        ? `
+          <div class="mode-summary">
+            <div><span>${escapeHtml(difficultySets.length * practiceModesForExercise(exercise).length)}</span><strong>練習樣式</strong></div>
+            <div><span>${escapeHtml(selectedParagraphs.length)}</span><strong>顯示段落</strong></div>
+            <div><span>${escapeHtml(difficultySets.length)}</span><strong>難度模式</strong></div>
+          </div>
+        `
+        : `
           <div class="mode-summary">
             <div><span>${escapeHtml(questionCount)}</span><strong>題目數量</strong></div>
             <div><span>${escapeHtml(selectedParagraphs.length)}</span><strong>顯示段落</strong></div>
             <div><span>${escapeHtml(exercise.questionCount)}</span><strong>全篇填充</strong></div>
           </div>
+        `;
+      return `
+        ${renderExerciseHeader(exercise, "請選擇練習模式及段落範圍；未勾選的段落會在本輪隱藏。")}
+        <div class="mode-page">
+          ${modeSummary}
 
           <div class="paragraph-selector">
             <div class="paragraph-actions">
@@ -6365,14 +6573,16 @@ Device: concession 讓步
             </div>
           </div>
 
-          <div class="practice-mode-grid">
-            ${practiceModesForExercise(exercise).map(mode => `
-              <button class="mode-button" type="button" data-start-practice-mode="${escapeHtml(mode.key)}">
-                <strong>${escapeHtml(mode.title)}</strong>
-                <span>${escapeHtml(mode.description)}</span>
-              </button>
-            `).join("")}
-          </div>
+          ${difficultySets.length ? renderPracticeDifficultyGroups(exercise, selectedParagraphs) : `
+            <div class="practice-mode-grid">
+              ${practiceModesForExercise(exercise).map(mode => `
+                <button class="mode-button" type="button" data-start-practice-mode="${escapeHtml(mode.key)}">
+                  <strong>${escapeHtml(mode.title)}</strong>
+                  <span>${escapeHtml(mode.description)}</span>
+                </button>
+              `).join("")}
+            </div>
+          `}
         </div>
         ${renderResultHistory(exercise)}
       `;
@@ -6411,12 +6621,13 @@ Device: concession 讓步
     function renderPracticeBody(exercise, targets) {
       const targetIds = new Set(targets.map(target => target.id));
       const selectedParagraphs = new Set(normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs));
+      const paragraphs = practiceParagraphsForExercise(exercise, practiceState.difficultyKey || "");
       const sentenceMode = practiceState.round > 1 || practiceState.mode === "sentence";
 
       if (sentenceMode) {
         const sentenceKeys = new Set(getPracticeSentenceKeys(exercise));
         const cards = [];
-        exercise.paragraphs.forEach((paragraph, paragraphIndex) => {
+        paragraphs.forEach((paragraph, paragraphIndex) => {
           paragraph.sentences.forEach(sentence => {
             if (!sentenceKeys.has(sentence.key)) return;
             cards.push(renderPracticeSentence(sentence, targetIds, `${paragraphPlainLabel(exercise, paragraphIndex)} | 第 ${sentence.sentenceIndex + 1} 句`));
@@ -6438,7 +6649,7 @@ Device: concession 讓步
               <p class="${index === 0 ? "essay-letter-title" : "essay-letter-salutation"}">${escapeHtml(line)}</p>
             </div>
           `).join("")}
-          ${exercise.paragraphs.map((paragraph, paragraphIndex) => {
+          ${paragraphs.map((paragraph, paragraphIndex) => {
             if (!selectedParagraphs.has(paragraphIndex)) return "";
             const paragraphHtml = paragraph.sentences.map(sentence => sentence.parts.map(part => {
               if (isBlankPart(part)) return renderPracticeInput(part, targetIds);
@@ -6515,12 +6726,13 @@ Device: concession 讓步
 
     function renderPracticeRound(exercise) {
       const targets = getPracticeTargets(exercise);
+      const styleLabel = practiceStyleLabel(exercise);
       return `
-        ${renderExerciseHeader(exercise, practiceState.round > 1 ? "本輪只抽出上一輪有錯誤的句子；已答對的空格會直接顯示答案。" : modeLabel(practiceState.mode))}
+        ${renderExerciseHeader(exercise, practiceState.round > 1 ? "本輪只抽出上一輪有錯誤的句子；已答對的空格會直接顯示答案。" : styleLabel)}
         <form class="practice-card" data-practice-form>
           <div class="practice-head">
             <div>
-              <span class="practice-round-pill">第 ${escapeHtml(practiceState.round)} 輪 | ${escapeHtml(modeLabel(practiceState.mode))}</span>
+              <span class="practice-round-pill">第 ${escapeHtml(practiceState.round)} 輪 | ${escapeHtml(styleLabel)}</span>
               <p class="note-text">本輪共有 ${escapeHtml(targets.length)} 題。請點擊空格並輸入答案。</p>
             </div>
             <button class="secondary-button" type="button" data-back-practice-mode>更改模式</button>
@@ -6916,22 +7128,29 @@ Device: concession 讓步
       renderExerciseView();
     }
 
-    function startPracticeMode(mode) {
+    function startPracticeMode(mode, difficultyKey = "") {
       const exercise = currentExercise();
       if (!exercise || !practiceState) return;
       if (!practiceModesForExercise(exercise).some(option => option.key === mode)) return;
+      const difficulty = practiceDifficultyForExercise(exercise, difficultyKey || practiceState.difficultyKey || "");
+      if (hasPracticeDifficultySets(exercise) && !difficulty) return;
       const savedAnswers = syncPracticeAnswersFromDom();
       const selectedParagraphs = normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs);
-      const targets = getExerciseBlanks(exercise, { selectedParagraphs });
+      const activeDifficultyKey = difficulty?.key || "";
+      const targets = getExerciseBlanks(exercise, {
+        selectedParagraphs,
+        difficultyKey: activeDifficultyKey
+      });
       if (!targets.length) return;
       practiceState = {
         ...practiceState,
         screen: "practice",
         mode,
-        round: practiceState.round || 1,
+        difficultyKey: activeDifficultyKey,
+        round: 1,
         selectedParagraphs,
-        sentenceKeys: practiceState.sentenceKeys || null,
-        targetBlankIds: practiceState.targetBlankIds || null,
+        sentenceKeys: null,
+        targetBlankIds: null,
         answers: savedAnswers,
         submitted: false,
         lastResult: null
@@ -6977,6 +7196,9 @@ Device: concession 讓步
         round: practiceState.round,
         mode: practiceState.mode,
         modeLabel: modeLabel(practiceState.mode),
+        difficultyKey: practiceState.difficultyKey || "",
+        difficultyLabel: practiceDifficultyLabel(exercise, practiceState.difficultyKey || ""),
+        styleLabel: practiceStyleLabel(exercise),
         total: targets.length,
         correct: Math.max(0, targets.length - mistakes.length),
         mistakes,
@@ -7839,7 +8061,10 @@ Device: concession 讓步
 
         const modeButton = event.target.closest("[data-start-practice-mode]");
         if (modeButton) {
-          startPracticeMode(modeButton.getAttribute("data-start-practice-mode") || "blank");
+          startPracticeMode(
+            modeButton.getAttribute("data-start-practice-mode") || "blank",
+            modeButton.getAttribute("data-practice-difficulty") || ""
+          );
           return;
         }
 
