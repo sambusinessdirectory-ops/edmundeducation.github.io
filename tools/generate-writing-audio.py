@@ -208,7 +208,7 @@ def extract_essays(source_root: Path) -> dict[str, dict[str, object]]:
 def spoken_text(value: str) -> str:
     text = re.sub(r"(?:\.{3}|…+)", ", ", value)
     text = re.sub(r"\bIELTS\b", "eye elts", text)
-    for initialism in ("DNA", "DSE", "UK", "US", "HK"):
+    for initialism in ("DNA", "DSE", "QR", "UK", "US", "HK"):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
     return re.sub(r"\s+", " ", text).strip()
 
@@ -331,13 +331,15 @@ def align_sentence_words(
         raw[index] = (previous_end + slot * slot_index, previous_end + slot * (slot_index + 1))
 
     timings: list[list[object]] = []
-    previous_start = start_seconds
+    previous_end = round(start_seconds, 3)
     for (word, _), timing in zip(visible, raw):
         assert timing is not None
-        word_start = max(previous_start, start_seconds + timing[0])
+        word_start = max(previous_end, start_seconds + timing[0])
         word_end = max(word_start, min(start_seconds + duration_seconds, start_seconds + timing[1]))
-        timings.append([word, round(word_start, 3), round(word_end, 3)])
-        previous_start = word_start
+        rounded_start = max(previous_end, round(word_start, 3))
+        rounded_end = max(rounded_start, round(word_end, 3))
+        timings.append([word, rounded_start, rounded_end])
+        previous_end = rounded_end
     return timings
 
 

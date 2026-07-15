@@ -2418,7 +2418,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260715-5"></script>
+  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260715-6"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260712-2"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20260712-1"></script>
@@ -2426,6 +2426,7 @@
   <script src="writing-practice-model-essays-17-52-data.js?v=20260715-1"></script>
   <script src="writing-practice-model-essays-53-96-data.js?v=20260715-1"></script>
   <script src="writing-practice-model-essays-88-105-data.js?v=20260715-1"></script>
+  <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -2567,6 +2568,27 @@
               { key: "direct-question", label: "Direct question", subline: "直接問題", deckIds: [] }
             ]
           }
+        ]
+      },
+      "government-writing": {
+        title: "政府公務員英文寫作",
+        kind: "government",
+        departments: [
+          {
+            key: "hkpf",
+            label: "HKPF",
+            subline: "Hong Kong Police Force",
+            deckIds: [
+              "hkpf-civic-composition-4",
+              "hkpf-civic-composition-5",
+              "hkpf-civic-composition-6",
+              "hkpf-civic-composition-7"
+            ]
+          },
+          { key: "hkfsd", label: "HKFSD", subline: "Hong Kong Fire Services Department", deckIds: [] },
+          { key: "csd", label: "CSD", subline: "Correctional Services Department", deckIds: [] },
+          { key: "immd", label: "ImmD", subline: "Immigration Department", deckIds: [] },
+          { key: "ced", label: "C&ED", subline: "Customs and Excise Department", deckIds: [] }
         ]
       }
     };
@@ -3038,7 +3060,8 @@
       window.EDMUND_IELTS_WRITING_EXERCISES,
       window.EDMUND_IELTS_WRITING_17_52_EXERCISES,
       window.EDMUND_IELTS_WRITING_53_96_EXERCISES,
-      window.EDMUND_IELTS_WRITING_88_105_EXERCISES
+      window.EDMUND_IELTS_WRITING_88_105_EXERCISES,
+      window.EDMUND_HKPF_WRITING_EXERCISES
     ].forEach(externalWritingExercises => {
       if (externalWritingExercises && typeof externalWritingExercises === "object" && !Array.isArray(externalWritingExercises)) {
         Object.assign(writingExercises, externalWritingExercises);
@@ -4910,6 +4933,7 @@ Device: concession 讓步
     let currentEssayTypeKey = "";
     let currentDseWritingPart = "";
     let currentDseWritingYear = "";
+    let currentGovernmentDepartmentKey = "";
     let currentExerciseId = "";
     let currentEssayTab = "essay";
     let practiceState = null;
@@ -5142,6 +5166,10 @@ Device: concession 讓步
       currentDseWritingYear = "";
     }
 
+    function resetGovernmentWritingPathwayState() {
+      currentGovernmentDepartmentKey = "";
+    }
+
     function practiceModesForExercise(exercise = currentExercise()) {
       const configured = Array.isArray(exercise?.practiceModes)
         ? new Set(exercise.practiceModes.map(mode => String(mode)))
@@ -5190,6 +5218,10 @@ Device: concession 讓步
       if (Array.isArray(item.deckIds)) return item.deckIds;
       if (Array.isArray(item.essayTypes)) return item.essayTypes.flatMap(type => type.deckIds || []);
       return [];
+    }
+
+    function getGovernmentDepartment(pathway, departmentKey) {
+      return pathway?.departments?.find(department => department.key === departmentKey) || null;
     }
 
     function pathwayStats(exerciseIds = []) {
@@ -5308,12 +5340,63 @@ Device: concession 讓步
       `;
     }
 
+    function renderGovernmentWritingPathwayView(pathway) {
+      if (currentPathwayLevel === "government-department") {
+        const department = getGovernmentDepartment(pathway, currentGovernmentDepartmentKey);
+        const decks = (department?.deckIds || []).map(exerciseById).filter(Boolean);
+        return `
+          <div class="pathway-card">
+            <div class="pathway-head">
+              <div>
+                <h2>${escapeHtml(department?.label || "政府部門")}</h2>
+                <p>${escapeHtml(department?.subline || "英文寫作練習")}</p>
+              </div>
+              <button class="secondary-button" type="button" data-pathway-back>返回政府部門</button>
+            </div>
+            <div class="pathway-list">
+              ${decks.length ? decks.map(exercise => pathwayRowHtml({
+                label: exercise.title,
+                subline: `${exercise.exam} | ${exercise.taskType}`,
+                exerciseIds: [exercise.id],
+                action: `data-open-writing-deck="${escapeHtml(exercise.id)}"`
+              })).join("") : `<div class="pathway-empty">這個部門暫時未有練習。</div>`}
+            </div>
+          </div>
+        `;
+      }
+
+      return `
+        <div class="pathway-card">
+          <div class="pathway-head">
+            <div>
+              <h2>政府公務員英文寫作</h2>
+              <p>選擇政府部門，再進入指定文章及填充練習。</p>
+            </div>
+            <button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>
+          </div>
+          <div class="pathway-list">
+            ${(pathway.departments || []).map(department => pathwayRowHtml({
+              label: department.label,
+              subline: department.deckIds.length ? department.subline : `${department.subline} | 即將推出`,
+              exerciseIds: department.deckIds,
+              action: `data-open-government-department="${escapeHtml(department.key)}"`,
+              locked: !department.deckIds.length
+            })).join("")}
+          </div>
+        </div>
+      `;
+    }
+
     function renderWritingPathwayView() {
       const pathway = writingPathways[currentExerciseSectionKey];
       if (!pathway) return "";
 
       if (pathway.kind === "dse") {
         return renderDseWritingPathwayView(pathway);
+      }
+
+      if (pathway.kind === "government") {
+        return renderGovernmentWritingPathwayView(pathway);
       }
 
       if (currentPathwayLevel === "task-2") {
@@ -5705,6 +5788,11 @@ Device: concession 讓步
     function writingPathwayDeckBackLabel() {
       if (currentExerciseSectionKey === "dse-writing") {
         return currentDseWritingYear ? `返回 ${currentDseWritingYear} 題目` : "返回 DSE Writing";
+      }
+      if (currentExerciseSectionKey === "government-writing") {
+        const pathway = writingPathways[currentExerciseSectionKey];
+        const department = getGovernmentDepartment(pathway, currentGovernmentDepartmentKey);
+        return department?.label ? `返回 ${department.label}` : "返回政府部門";
       }
       const pathway = writingPathways[currentExerciseSectionKey];
       const essayType = getPathwayEssayType(pathway, currentEssayTypeKey);
@@ -7216,6 +7304,7 @@ Device: concession 讓步
       currentPathwayLevel = hasWritingPathway(sectionKey) ? "" : "exercise";
       currentEssayTypeKey = "";
       resetDseWritingPathwayState();
+      resetGovernmentWritingPathwayState();
       currentExerciseId = "";
       currentEssayTab = "essay";
       practiceState = null;
@@ -7971,6 +8060,7 @@ Device: concession 讓步
           currentPathwayLevel = "";
           currentEssayTypeKey = "";
           resetDseWritingPathwayState();
+          resetGovernmentWritingPathwayState();
           currentExerciseId = "";
           practiceState = null;
           showAppPanel("dashboard");
@@ -7989,6 +8079,7 @@ Device: concession 讓步
           currentPathwayLevel = "";
           currentEssayTypeKey = "";
           resetDseWritingPathwayState();
+          resetGovernmentWritingPathwayState();
           currentExerciseId = "";
           practiceState = null;
           showAppPanel("dashboard");
@@ -8001,6 +8092,8 @@ Device: concession 讓步
           practiceState = null;
           if (currentExerciseSectionKey === "dse-writing") {
             currentPathwayLevel = currentDseWritingYear ? "dse-questions" : currentDseWritingPart ? "dse-years" : "";
+          } else if (currentExerciseSectionKey === "government-writing") {
+            currentPathwayLevel = currentGovernmentDepartmentKey ? "government-department" : "";
           } else {
             currentPathwayLevel = currentEssayTypeKey ? "category" : "task-2";
           }
@@ -8052,6 +8145,20 @@ Device: concession 讓步
           return;
         }
 
+        const governmentDepartmentButton = event.target.closest("[data-open-government-department]");
+        if (governmentDepartmentButton) {
+          if (governmentDepartmentButton.getAttribute("aria-disabled") === "true") return;
+          const departmentKey = governmentDepartmentButton.getAttribute("data-open-government-department") || "";
+          const pathway = writingPathways[currentExerciseSectionKey];
+          if (!getGovernmentDepartment(pathway, departmentKey)) return;
+          currentGovernmentDepartmentKey = departmentKey;
+          currentPathwayLevel = "government-department";
+          currentExerciseId = "";
+          practiceState = null;
+          renderExerciseView();
+          return;
+        }
+
         const writingDeckButton = event.target.closest("[data-open-writing-deck]");
         if (writingDeckButton) {
           const deckId = writingDeckButton.getAttribute("data-open-writing-deck") || "";
@@ -8071,9 +8178,13 @@ Device: concession 讓步
             } else if (currentPathwayLevel === "dse-years") {
               currentPathwayLevel = "";
               resetDseWritingPathwayState();
+              resetGovernmentWritingPathwayState();
             } else {
               currentPathwayLevel = "";
             }
+          } else if (currentExerciseSectionKey === "government-writing") {
+            currentPathwayLevel = "";
+            resetGovernmentWritingPathwayState();
           } else if (currentPathwayLevel === "category") {
             currentPathwayLevel = "task-2";
             currentEssayTypeKey = "";

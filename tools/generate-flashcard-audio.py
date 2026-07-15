@@ -93,6 +93,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         "window.EDMUND_DSE_SPEAKING_2019_SEED = ",
         None,
     ),
+    (
+        "flashcards-hkpf-data.js",
+        "window.EDMUND_HKPF_SEED = ",
+        None,
+    ),
 )
 AUDIO_BUILD_VERSION = "v1"
 STATIC_AUDIO_ROOT = f"assets/flashcards/audio/edmund-neural/{AUDIO_BUILD_VERSION}"
