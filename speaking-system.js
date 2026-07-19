@@ -6,6 +6,7 @@
   const SESSION_KEY = "edmundSpeakingSessionV1";
   const RATE_KEY = "edmundSpeakingAudioRateV1";
   const HIGHLIGHT_KEY = "edmundSpeakingHighlightV1";
+  const SEARCH_RESULT_LIMITS = { sections: 8, exercises: 14 };
   const AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
   const WORD_PATTERN = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*|[^\p{L}\p{N}]+/gu;
   const IS_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
@@ -18,6 +19,34 @@
     { id: "civil-service", title: "公務員說話面試", description: "公務員面試表達訓練" }
   ];
 
+  const EXAM_ACCESS_KEYS = {
+    dse: "exam.dse",
+    ielts: "exam.ielts",
+    business: "exam.business",
+    interview: "exam.interview",
+    "civil-service": "exam.civil-service"
+  };
+
+  const ACCESS_SECTIONS = [
+    { key: "exam.dse", label: "DSE 說話考試" },
+    {
+      key: "exam.ielts",
+      label: "IELTS 說話考試",
+      children: [1, 2, 3].map(part => ({
+        key: `ielts.part.${part}`,
+        label: `Part ${part}`,
+        children: Array.from({ length: 16 }, (_, index) => ({
+          key: `ielts.part.${part}.book.${index + 1}`,
+          label: `Book ${index + 1}`
+        }))
+      }))
+    },
+    { key: "exam.business", label: "商務英語會話" },
+    { key: "exam.interview", label: "升學／見工面試" },
+    { key: "exam.civil-service", label: "公務員說話面試" },
+    { key: "bookmarks", label: "書簽" }
+  ];
+
   const dom = {
     loginView: document.querySelector('[data-view="login"]'),
     portalView: document.querySelector('[data-view="portal"]'),
@@ -28,6 +57,8 @@
     authActions: document.querySelector("[data-auth-actions]"),
     connectionPill: document.querySelector("[data-connection-pill]"),
     backButton: document.querySelector("[data-back]"),
+    headerBookmarkButton: document.querySelector("[data-toggle-route-bookmark]"),
+    adminButton: document.querySelector('[data-go="admin"]'),
     toastRegion: document.querySelector("[data-toast-region]"),
     loadingTemplate: document.querySelector("#loading-template")
   };
@@ -35,6 +66,17 @@
   const state = {
     user: null,
     authToken: "",
+    access: {},
+    bookmarks: [],
+    bookmarksLoaded: false,
+    bookmarksSaving: false,
+    adminStudents: [],
+    adminStudentsLoaded: false,
+    adminStudentsLoading: false,
+    adminAccessSaving: false,
+    adminStudentQuery: "",
+    selectedAdminStudentId: "",
+    adminRequestGeneration: 0,
     supabase: null,
     supabaseReady: false,
     route: { view: "exams" },
@@ -50,7 +92,11 @@
     mediaRecorder: null,
     mediaStream: null,
     recordingChunks: [],
-    recordingStartedAt: 0,
+    recordingActiveStartedAt: 0,
+    recordingElapsedMs: 0,
+    recordingTransition: "",
+    recordingPauseSupported: false,
+    recordingBackgroundPaused: false,
     recordingTimer: 0,
     recordingGeneration: 0,
     recordingPermissionPending: false,
@@ -92,6 +138,47 @@
 
   function pad(value, length = 2) {
     return String(value).padStart(length, "0");
+  }
+
+  function normalizeAccess(value) {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+    const allowed = new Set(ACCESS_SECTIONS.flatMap(section => [
+      section.key,
+      ...(section.children || []).flatMap(child => [child.key, ...(child.children || []).map(item => item.key)])
+    ]));
+    return Object.fromEntries(Object.entries(value)
+      .filter(([key, enabled]) => allowed.has(key) && typeof enabled === "boolean"));
+  }
+
+  function accessKeysForRoute(route) {
+    if (!route || state.user?.role === "admin") return [];
+    if (route.view === "bookmarks") return ["bookmarks"];
+    if (["exams", "attempts", "admin"].includes(route.view)) return [];
+    const exam = String(route.exam || (["parts", "books", "exercises", "exercise"].includes(route.view) ? "ielts" : ""));
+    const keys = exam && EXAM_ACCESS_KEYS[exam] ? [EXAM_ACCESS_KEYS[exam]] : [];
+    const part = Number(route.part || 0);
+    const book = Number(route.book || 0);
+    if (exam === "ielts" && part >= 1 && part <= 3) keys.push(`ielts.part.${part}`);
+    if (exam === "ielts" && part >= 1 && part <= 3 && book >= 1 && book <= 16) {
+      keys.push(`ielts.part.${part}.book.${book}`);
+    }
+    return keys;
+  }
+
+  function hasAccess(keys) {
+    return state.user?.role === "admin" || keys.every(key => state.access[key] !== false);
+  }
+
+  function routeAllowed(route) {
+    return hasAccess(accessKeysForRoute(route));
+  }
+
+  function examAvailable(examId) {
+    return examId === "ielts";
+  }
+
+  function bookAvailable(part, book) {
+    return Number(part) === 2 && Number(book) === 1;
   }
 
   function preferredScrollBehavior() {
@@ -252,6 +339,7 @@
     const row = data[0];
     return {
       token: String(row.session_token),
+      access: normalizeAccess(row.access),
       user: {
         id: String(row.id || ""),
         name: String(row.name || username),
@@ -363,6 +451,7 @@
       name: String(profile.name),
       role: isAdmin ? "admin" : "student"
     };
+    state.access = isAdmin ? {} : normalizeAccess(payload?.access || profile?.access);
     saveSession();
   }
 
@@ -393,11 +482,17 @@
       state.authGeneration += 1;
       state.user = result.user;
       state.authToken = result.token;
+      state.access = normalizeAccess(result.access);
+      if (!isAdmin) {
+        await validateRestoredSession();
+        await loadBookmarks({ quiet: true });
+        if (!state.user) return;
+      }
       saveSession();
       form.reset();
       showPortal();
       setConnection(isAdmin ? "Admin 已連接" : "Supabase 已連接", "live");
-      navigate({ view: "exams" }, { reset: true });
+      navigate({ view: isAdmin ? "admin" : "exams" }, { reset: true });
     } catch (error) {
       console.warn("Speaking System login failed:", error);
       const message = /Failed to fetch|NetworkError/i.test(String(error?.message))
@@ -431,6 +526,7 @@
     dom.loginView.hidden = true;
     dom.portalView.hidden = false;
     dom.authActions.hidden = false;
+    if (dom.adminButton) dom.adminButton.hidden = state.user?.role !== "admin";
     document.body.classList.add("portal-active");
   }
 
@@ -441,6 +537,16 @@
     state.attempts = [];
     state.attemptTotal = 0;
     state.attemptsById.clear();
+    state.access = {};
+    state.bookmarks = [];
+    state.bookmarksLoaded = false;
+    state.bookmarksSaving = false;
+    state.adminStudents = [];
+    state.adminStudentsLoaded = false;
+    state.adminStudentsLoading = false;
+    state.adminAccessSaving = false;
+    state.adminStudentQuery = "";
+    state.selectedAdminStudentId = "";
     showLogin();
     state.attemptBlobCache.clear();
     if (dom.content) dom.content.replaceChildren();
@@ -491,6 +597,8 @@
       case "exercises": return `Book ${route.book}`;
       case "exercise": return `Exercise ${route.exerciseIndex}`;
       case "attempts": return state.user?.role === "admin" ? "所有錄音" : "我的錄音";
+      case "bookmarks": return "書簽";
+      case "admin": return "Admin 控制台";
       default: return "選擇考試";
     }
   }
@@ -501,7 +609,7 @@
 
   function navigationHasUnsavedRecording() {
     return Boolean(
-      state.mediaRecorder?.state === "recording"
+      ["recording", "paused"].includes(state.mediaRecorder?.state)
       || state.recordingProcessing
       || (state.recordedMp3 && !state.recordingSaved)
     );
@@ -514,6 +622,10 @@
 
   function navigate(route, options = {}) {
     if (!state.user) return;
+    if (!routeAllowed(route)) {
+      toast("你的帳戶尚未開放這個練習範圍。", "error");
+      return;
+    }
     if (!options.skipGuard && !routesEqual(route, state.route) && !confirmRecordingAbandonment()) return;
     stopModelAudio();
     cleanupAttemptAudio();
@@ -562,6 +674,8 @@
     if (route.view === "attempts") {
       crumbs.push({ label: state.user?.role === "admin" ? "所有錄音" : "我的錄音", route: null });
     }
+    if (route.view === "bookmarks") crumbs.push({ label: "書簽", route: null });
+    if (route.view === "admin") crumbs.push({ label: "Admin 控制台", route: null });
 
     dom.breadcrumbs.innerHTML = crumbs.map((crumb, index) => {
       const isLast = index === crumbs.length - 1;
@@ -572,6 +686,7 @@
     }).join("");
     dom.breadcrumbs._routes = crumbs.map(item => item.route);
     dom.backButton.hidden = state.routeHistory.length === 0 && state.route.view === "exams";
+    syncHeaderBookmark();
   }
 
   function renderRoute() {
@@ -592,6 +707,12 @@
       case "attempts":
         renderAttemptsPage();
         break;
+      case "bookmarks":
+        renderBookmarks();
+        break;
+      case "admin":
+        renderAdminPanel();
+        break;
       default:
         renderExams();
     }
@@ -609,6 +730,251 @@
     `;
   }
 
+  function normalizeSearchText(value) {
+    return String(value || "")
+      .normalize("NFKC")
+      .replace(/[’]/g, "'")
+      .toLocaleLowerCase("en")
+      .replace(/[^a-z0-9一-鿿]+/g, " ")
+      .trim();
+  }
+
+  function searchTokens(value) {
+    return normalizeSearchText(value).split(/\s+/).filter(Boolean);
+  }
+
+  function searchMatches(haystack, tokens) {
+    if (!tokens.length) return false;
+    const normalized = normalizeSearchText(haystack);
+    return tokens.every(token => normalized.includes(token));
+  }
+
+  function bookmarkKey(bookmark) {
+    if (!bookmark || typeof bookmark !== "object") return "";
+    return [bookmark.kind, bookmark.exam, bookmark.part || "", bookmark.book || "", bookmark.exerciseId || ""].join("|");
+  }
+
+  function normalizeBookmarks(value) {
+    if (!Array.isArray(value)) return [];
+    const seen = new Set();
+    return value.filter(item => {
+      const key = bookmarkKey(item);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).slice(0, 200);
+  }
+
+  function isBookmarked(bookmark) {
+    const key = bookmarkKey(bookmark);
+    return Boolean(key && state.bookmarks.some(item => bookmarkKey(item) === key));
+  }
+
+  function currentRouteBookmark() {
+    const route = state.route;
+    if (route.view === "parts") return { kind: "exam", exam: "ielts" };
+    if (route.view === "books") return { kind: "part", exam: "ielts", part: Number(route.part) };
+    if (route.view === "exercises") {
+      return { kind: "book", exam: "ielts", part: Number(route.part), book: Number(route.book) };
+    }
+    if (route.view === "exercise") {
+      const exercise = currentExercise();
+      if (!exercise) return null;
+      return {
+        kind: "exercise",
+        exam: "ielts",
+        part: Number(route.part),
+        book: Number(route.book),
+        exerciseId: exercise.id
+      };
+    }
+    return null;
+  }
+
+  function bookmarkTitle(bookmark) {
+    if (bookmark?.kind === "exam") return EXAMS.find(exam => exam.id === bookmark.exam)?.title || bookmark.exam;
+    if (bookmark?.kind === "part") return `IELTS 說話考試 · Part ${bookmark.part}`;
+    if (bookmark?.kind === "book") return `IELTS Part ${bookmark.part} · Book ${bookmark.book}`;
+    if (bookmark?.kind === "exercise") {
+      const exercise = speakingExercises().find(item => item.id === bookmark.exerciseId);
+      return exercise?.title || "Speaking exercise";
+    }
+    return "Speaking 書簽";
+  }
+
+  function bookmarkSubtitle(bookmark) {
+    if (bookmark?.kind === "exercise") {
+      const exercise = speakingExercises().find(item => item.id === bookmark.exerciseId);
+      return exercise?.titleZh || `IELTS Part ${bookmark.part} · Book ${bookmark.book}`;
+    }
+    if (bookmark?.kind === "book") return "練習冊";
+    if (bookmark?.kind === "part") return "IELTS Speaking";
+    return "練習範疇";
+  }
+
+  function routeForBookmark(bookmark) {
+    if (bookmark?.kind === "exam" && bookmark.exam === "ielts") return { view: "parts", exam: "ielts" };
+    if (bookmark?.kind === "part") return { view: "books", exam: "ielts", part: Number(bookmark.part) };
+    if (bookmark?.kind === "book") {
+      return { view: "exercises", exam: "ielts", part: Number(bookmark.part), book: Number(bookmark.book) };
+    }
+    if (bookmark?.kind === "exercise") {
+      const exercise = speakingExercises().find(item => item.id === bookmark.exerciseId);
+      return exercise ? {
+        view: "exercise",
+        exam: "ielts",
+        part: Number(bookmark.part),
+        book: Number(bookmark.book),
+        exerciseIndex: exercise.index
+      } : null;
+    }
+    return null;
+  }
+
+  function bookmarkButtonHtml(bookmark, extraClass = "") {
+    if (state.user?.role === "admin" || !hasAccess(["bookmarks"])) return "";
+    const active = isBookmarked(bookmark);
+    const encoded = encodeURIComponent(JSON.stringify(bookmark));
+    return `
+      <button class="selection-bookmark-button${extraClass ? ` ${extraClass}` : ""}${active ? " active" : ""}" type="button"
+        data-bookmark="${escapeHtml(encoded)}" aria-pressed="${active}" aria-label="${active ? "移除書簽" : "加入書簽"}" title="${active ? "移除書簽" : "加入書簽"}">
+        <span aria-hidden="true">${active ? "★" : "☆"}</span>
+      </button>
+    `;
+  }
+
+  function bookmarkFromElement(element) {
+    try {
+      return JSON.parse(decodeURIComponent(element?.dataset?.bookmark || ""));
+    } catch {
+      return null;
+    }
+  }
+
+  function syncBookmarkButtons() {
+    document.querySelectorAll("[data-bookmark]").forEach(button => {
+      const active = isBookmarked(bookmarkFromElement(button));
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+      button.setAttribute("aria-label", active ? "移除書簽" : "加入書簽");
+      button.setAttribute("title", active ? "移除書簽" : "加入書簽");
+      const icon = button.querySelector("span");
+      if (icon) icon.textContent = active ? "★" : "☆";
+      button.disabled = state.bookmarksSaving;
+    });
+    syncHeaderBookmark();
+  }
+
+  function syncHeaderBookmark() {
+    const button = dom.headerBookmarkButton;
+    if (!button) return;
+    const bookmark = currentRouteBookmark();
+    const visible = state.user?.role === "student" && hasAccess(["bookmarks"]) && Boolean(bookmark);
+    button.hidden = !visible;
+    button.disabled = state.bookmarksSaving;
+    if (!visible) return;
+    const active = isBookmarked(bookmark);
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+    button.querySelector("span:first-child").textContent = active ? "★" : "☆";
+    const label = button.querySelector("[data-header-bookmark-label]");
+    if (label) label.textContent = active ? "已加入書簽" : "加入書簽";
+  }
+
+  async function loadBookmarks(options = {}) {
+    if (state.user?.role !== "student" || !hasAccess(["bookmarks"])) {
+      state.bookmarks = [];
+      state.bookmarksLoaded = true;
+      return;
+    }
+    try {
+      const payload = await apiJson(CONFIG.endpoints?.bookmarks || "/v1/bookmarks");
+      state.bookmarks = normalizeBookmarks(payload?.bookmarks);
+      state.bookmarksLoaded = true;
+      syncBookmarkButtons();
+    } catch (error) {
+      if (options.quiet) {
+        state.bookmarks = [];
+        state.bookmarksLoaded = false;
+        return;
+      }
+      toast(String(error?.message || "未能載入書簽。"), "error");
+      throw error;
+    }
+  }
+
+  async function toggleBookmark(bookmark) {
+    if (!bookmark || state.user?.role !== "student" || state.bookmarksSaving || !hasAccess(["bookmarks"])) return;
+    if (!state.bookmarksLoaded) {
+      state.bookmarksSaving = true;
+      syncBookmarkButtons();
+      try {
+        await loadBookmarks();
+      } catch {
+        return;
+      } finally {
+        state.bookmarksSaving = false;
+        syncBookmarkButtons();
+      }
+    }
+    const previous = [...state.bookmarks];
+    const key = bookmarkKey(bookmark);
+    state.bookmarks = isBookmarked(bookmark)
+      ? state.bookmarks.filter(item => bookmarkKey(item) !== key)
+      : [...state.bookmarks, bookmark];
+    state.bookmarksSaving = true;
+    syncBookmarkButtons();
+    try {
+      const payload = await apiJson(CONFIG.endpoints?.bookmarks || "/v1/bookmarks", {
+        method: "PUT",
+        body: JSON.stringify({ bookmarks: state.bookmarks })
+      });
+      state.bookmarks = normalizeBookmarks(payload?.bookmarks);
+      if (state.route.view === "bookmarks") renderBookmarks();
+      toast(isBookmarked(bookmark) ? "已加入書簽。" : "已移除書簽。", "info");
+    } catch (error) {
+      state.bookmarks = previous;
+      toast(String(error?.message || "未能儲存書簽。"), "error");
+    } finally {
+      state.bookmarksSaving = false;
+      syncBookmarkButtons();
+    }
+  }
+
+  function renderSpeakingSearchResults(query = "") {
+    const list = document.querySelector("[data-speaking-search-results]");
+    if (!list) return;
+    const tokens = searchTokens(query);
+    if (!tokens.length) {
+      list.innerHTML = "";
+      return;
+    }
+    const sections = EXAMS
+      .filter(exam => examAvailable(exam.id) && hasAccess([EXAM_ACCESS_KEYS[exam.id]]))
+      .filter(exam => searchMatches(`${exam.title} ${exam.description} ${exam.id}`, tokens))
+      .slice(0, SEARCH_RESULT_LIMITS.sections);
+    const exercises = routeAllowed({ view: "exercise", exam: "ielts", part: 2, book: 1 })
+      ? speakingExercises()
+        .filter(exercise => !exercise.unavailable)
+        .filter(exercise => searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText}`, tokens))
+        .slice(0, SEARCH_RESULT_LIMITS.exercises)
+      : [];
+    if (!sections.length && !exercises.length) {
+      list.innerHTML = '<p class="search-empty">找不到已開放練習內的相關範疇或題目。</p>';
+      return;
+    }
+    list.innerHTML = `
+      ${sections.length ? `<div class="search-section-label">練習範疇</div>${sections.map(exam => `
+        <button class="speaking-search-result" type="button" data-search-exam="${escapeHtml(exam.id)}">
+          <span><strong>${escapeHtml(exam.title)}</strong><small>${escapeHtml(exam.description)}</small></span><em>進入</em>
+        </button>`).join("")}` : ""}
+      ${exercises.length ? `<div class="search-section-label">題目</div>${exercises.map(exercise => `
+        <button class="speaking-search-result" type="button" data-search-exercise="${exercise.index}">
+          <span><strong>${escapeHtml(exercise.title)}</strong><small>${escapeHtml(exercise.titleZh || "IELTS Part 2 · Book 1")}</small></span><em>練習</em>
+        </button>`).join("")}` : ""}
+    `;
+  }
+
   function renderExams() {
     const chip = state.user?.role === "admin"
       ? `Admin · ${state.user.name}`
@@ -616,18 +982,41 @@
     dom.content.innerHTML = `
       <section class="content-panel">
         ${sectionHeader("選擇練習範疇", "先選擇你想訓練的考試或說話情境。IELTS 說話考試現已開放。", chip)}
+        <div class="portal-search-area">
+          <form class="portal-search" data-speaking-search-form>
+            <label for="speaking-search-input">搜尋練習 / 題目</label>
+            <input id="speaking-search-input" type="search" data-speaking-search-input placeholder="輸入字眼，即可搜尋已開放練習">
+          </form>
+          <div class="speaking-search-results" data-speaking-search-results></div>
+        </div>
         <div class="choice-grid">
-          ${EXAMS.map((exam, index) => `
-            <button class="choice-card${exam.id === "ielts" ? "" : " coming-soon"}" type="button" data-exam="${escapeHtml(exam.id)}">
-              <span class="card-number">0${index + 1} · SPEAKING</span>
-              <strong>${escapeHtml(exam.title)}</strong>
-              <small>${escapeHtml(exam.description)}</small>
-              ${exam.id === "ielts" ? "" : '<span class="availability">即將推出</span>'}
-            </button>
-          `).join("")}
+          ${EXAMS.map((exam, index) => {
+            const available = examAvailable(exam.id);
+            const allowed = hasAccess([EXAM_ACCESS_KEYS[exam.id]]);
+            const bookmark = { kind: "exam", exam: exam.id };
+            return `
+              <div class="selection-card-wrap choice-card-wrap">
+                <button class="choice-card${available ? "" : " coming-soon"}${allowed ? "" : " access-locked"}" type="button" data-exam="${escapeHtml(exam.id)}" ${allowed ? "" : 'aria-disabled="true"'}>
+                  <span class="card-number">0${index + 1} · SPEAKING</span>
+                  <strong>${escapeHtml(exam.title)}</strong>
+                  <small>${escapeHtml(exam.description)}</small>
+                  ${allowed ? "" : '<span class="availability">尚未開放</span>'}
+                </button>
+                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+              </div>`;
+          }).join("")}
+          ${hasAccess(["bookmarks"]) && state.user?.role === "student" ? `
+            <div class="selection-card-wrap choice-card-wrap">
+              <button class="choice-card bookmarks-choice-card" type="button" data-go="bookmarks">
+                <span class="card-number">06 · SPEAKING</span>
+                <strong>書簽</strong>
+                <small>已收藏的練習範疇、練習冊及題目</small>
+              </button>
+            </div>` : ""}
         </div>
       </section>
     `;
+    renderSpeakingSearchResults("");
   }
 
   function renderParts() {
@@ -635,13 +1024,20 @@
       <section class="content-panel">
         ${sectionHeader("IELTS 說話考試", "選擇 Part 1、Part 2 或 Part 3。每個部分均設有 16 本練習冊。")}
         <div class="choice-grid parts-grid">
-          ${[1, 2, 3].map(part => `
-            <button class="choice-card" type="button" data-part="${part}">
-              <span class="card-number">IELTS SPEAKING</span>
-              <strong>Part ${part}</strong>
-              <small>${part === 2 ? "Cue card 長答示範與錄音練習" : part === 1 ? "日常主題短答練習" : "延伸討論及分析練習"}</small>
-            </button>
-          `).join("")}
+          ${[1, 2, 3].map(part => {
+            const allowed = hasAccess(["exam.ielts", `ielts.part.${part}`]);
+            const bookmark = { kind: "part", exam: "ielts", part };
+            return `
+              <div class="selection-card-wrap choice-card-wrap">
+                <button class="choice-card${allowed ? "" : " access-locked"}" type="button" data-part="${part}" ${allowed ? "" : 'aria-disabled="true"'}>
+                  <span class="card-number">IELTS SPEAKING</span>
+                  <strong>Part ${part}</strong>
+                  <small>${part === 2 ? "Cue card 長答示範與錄音練習" : part === 1 ? "日常主題短答練習" : "延伸討論及分析練習"}</small>
+                  ${allowed ? "" : '<span class="availability">尚未開放</span>'}
+                </button>
+                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+              </div>`;
+          }).join("")}
         </div>
       </section>
     `;
@@ -655,12 +1051,17 @@
         <div class="book-grid">
           ${Array.from({ length: 16 }, (_, index) => {
             const book = index + 1;
-            const available = validPart === 2 && book === 1;
+            const available = bookAvailable(validPart, book);
+            const allowed = hasAccess(["exam.ielts", `ielts.part.${validPart}`, `ielts.part.${validPart}.book.${book}`]);
+            const bookmark = { kind: "book", exam: "ielts", part: validPart, book };
             return `
-              <button class="book-card${available ? " available" : ""}" type="button" data-book="${book}" data-part="${validPart}">
-                <strong>Book ${book}</strong>
-                <span>${available ? "Book 1 of Part 2 · 10 exercises" : "Coming soon · 即將推出"}</span>
-              </button>
+              <div class="selection-card-wrap book-card-wrap">
+                <button class="book-card${available ? " available" : ""}${allowed ? "" : " access-locked"}" type="button" data-book="${book}" data-part="${validPart}" ${allowed ? "" : 'aria-disabled="true"'}>
+                  <strong>Book ${book}</strong>
+                  <span>${available ? "Book 1 of Part 2 · 10 exercises" : allowed ? "內容準備中" : "尚未開放"}</span>
+                </button>
+                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+              </div>
             `;
           }).join("")}
         </div>
@@ -755,19 +1156,199 @@
       <section class="content-panel">
         ${sectionHeader("Book 1 of Part 2", "選擇題目，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。")}
         <div class="exercise-grid">
-          ${exercises.map(exercise => `
-            <button class="exercise-card" type="button" data-exercise-index="${exercise.index}"${exercise.unavailable ? " disabled" : ""}>
-              <span class="exercise-index">${pad(exercise.index)}</span>
-              <span>
-                <strong>${escapeHtml(exercise.title)}</strong>
-                <small>${exercise.titleZh ? escapeHtml(exercise.titleZh) : exercise.unavailable ? "資料準備中" : "Cue card · Band 9 sample"}</small>
-              </span>
-              <span class="arrow" aria-hidden="true">→</span>
-            </button>
-          `).join("")}
+          ${exercises.map(exercise => {
+            const allowed = routeAllowed({ view: "exercise", exam: "ielts", part: 2, book: 1 });
+            const bookmark = { kind: "exercise", exam: "ielts", part: 2, book: 1, exerciseId: exercise.id };
+            return `
+              <div class="selection-card-wrap exercise-card-wrap">
+                <button class="exercise-card${allowed ? "" : " access-locked"}" type="button" data-exercise-index="${exercise.index}"${exercise.unavailable || !allowed ? " disabled" : ""}>
+                  <span class="exercise-index">${pad(exercise.index)}</span>
+                  <span>
+                    <strong>${escapeHtml(exercise.title)}</strong>
+                    <small>${exercise.titleZh ? escapeHtml(exercise.titleZh) : exercise.unavailable ? "資料準備中" : "Cue card · Band 9 sample"}</small>
+                  </span>
+                  <span class="arrow" aria-hidden="true">→</span>
+                </button>
+                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+              </div>`;
+          }).join("")}
         </div>
       </section>
     `;
+  }
+
+  function renderBookmarks() {
+    if (state.user?.role !== "student" || !hasAccess(["bookmarks"])) {
+      dom.content.innerHTML = '<section class="notice-card"><h2>書簽尚未開放</h2><p>請聯絡管理員開放這個範圍。</p></section>';
+      return;
+    }
+    if (!state.bookmarksLoaded) {
+      dom.content.innerHTML = `<section class="content-panel">${sectionHeader("書簽", "正在同步你的 Speaking 書簽。")}${dom.loadingTemplate?.innerHTML || '<div class="loading-state">載入中…</div>'}</section>`;
+      loadBookmarks().then(() => {
+        if (state.route.view === "bookmarks") renderBookmarks();
+      }).catch(() => {
+        if (state.route.view !== "bookmarks") return;
+        dom.content.innerHTML = '<section class="notice-card"><h2>未能載入書簽</h2><p>請檢查網絡後再試。</p><button class="secondary-button" type="button" data-retry-bookmarks>重新載入</button></section>';
+      });
+      return;
+    }
+    dom.content.innerHTML = `
+      <section class="content-panel">
+        ${sectionHeader("書簽", "你收藏的練習範疇、Part、Book 及題目會跟隨帳戶同步。", `${state.bookmarks.length} 個書簽`)}
+        ${state.bookmarks.length ? `
+          <div class="bookmark-list">
+            ${state.bookmarks.map(bookmark => {
+              const route = routeForBookmark(bookmark);
+              const available = Boolean(route) && routeAllowed(route)
+                && (bookmark.kind !== "book" || bookAvailable(bookmark.part, bookmark.book));
+              const encoded = encodeURIComponent(JSON.stringify(bookmark));
+              return `
+                <div class="bookmark-list-row">
+                  <button class="bookmark-open-button" type="button" data-open-saved-bookmark="${escapeHtml(encoded)}" ${available ? "" : "disabled"}>
+                    <span><strong>${escapeHtml(bookmarkTitle(bookmark))}</strong><small>${escapeHtml(bookmarkSubtitle(bookmark))}</small></span>
+                    <em>${available ? "進入" : "內容準備中"}</em>
+                  </button>
+                  ${bookmarkButtonHtml(bookmark, "bookmark-list-remove")}
+                </div>`;
+            }).join("")}
+          </div>` : `
+          <div class="empty-state">
+            <span class="empty-icon" aria-hidden="true">☆</span>
+            <h2>暫時未有書簽</h2>
+            <p>在任何選擇方塊右邊或練習頁首按 ☆，便可把它收藏到這裡。</p>
+          </div>`}
+      </section>
+    `;
+    syncBookmarkButtons();
+  }
+
+  function allAccessKeys() {
+    return ACCESS_SECTIONS.flatMap(section => [
+      section.key,
+      ...(section.children || []).flatMap(child => [child.key, ...(child.children || []).map(item => item.key)])
+    ]);
+  }
+
+  function adminAccessBranchHtml(item, depth = 0) {
+    const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+    const checked = student?.access?.[item.key] !== false;
+    const children = item.children || [];
+    return `
+      <div class="admin-access-branch depth-${depth}">
+        <label class="admin-access-toggle">
+          <span>${escapeHtml(item.label)}</span>
+          <input type="checkbox" data-admin-access-key="${escapeHtml(item.key)}" ${checked ? "checked" : ""} ${state.adminAccessSaving ? "disabled" : ""}>
+        </label>
+        ${children.length ? `<details class="admin-access-children" ${depth === 0 && item.key === "exam.ielts" ? "open" : ""}>
+          <summary>細項（${children.length}）</summary>
+          <div>${children.map(child => adminAccessBranchHtml(child, depth + 1)).join("")}</div>
+        </details>` : ""}
+      </div>
+    `;
+  }
+
+  function filteredAdminStudents() {
+    const tokens = searchTokens(state.adminStudentQuery);
+    if (!tokens.length) return state.adminStudents;
+    return state.adminStudents.filter(student => searchMatches(student.name, tokens));
+  }
+
+  function renderAdminPanel() {
+    if (state.user?.role !== "admin") {
+      dom.content.innerHTML = '<section class="notice-card"><h2>管理員登入所需</h2></section>';
+      return;
+    }
+    if (!state.adminStudentsLoaded) {
+      dom.content.innerHTML = `<section class="content-panel">${sectionHeader("Admin 控制台", "讀取學生帳戶及 Speaking 權限。", "ADMIN")}${dom.loadingTemplate?.innerHTML || '<div class="loading-state">載入中…</div>'}</section>`;
+      if (!state.adminStudentsLoading) loadAdminStudents();
+      return;
+    }
+    const students = filteredAdminStudents();
+    const selected = state.adminStudents.find(student => student.id === state.selectedAdminStudentId) || null;
+    dom.content.innerHTML = `
+      <section class="content-panel admin-panel">
+        ${sectionHeader("Admin 控制台", "按學生開關 Speaking 範疇、IELTS Part 及每一本練習冊。帳戶及密碼繼續與其他 Edmund 系統共用。", "ADMIN · ACCESS")}
+        <div class="admin-layout">
+          <aside class="admin-student-panel">
+            <label class="admin-student-search">
+              <span>搜尋學生</span>
+              <input type="search" data-admin-student-search value="${escapeHtml(state.adminStudentQuery)}" placeholder="輸入學生名稱">
+            </label>
+            <div class="admin-student-list">
+              ${students.length ? students.map(student => `
+                <button class="admin-student-row${student.id === state.selectedAdminStudentId ? " active" : ""}" type="button" data-admin-student-id="${escapeHtml(student.id)}">
+                  <strong>${escapeHtml(student.name)}</strong><small>${escapeHtml(formatDate(student.updatedAt || student.createdAt))}</small>
+                </button>`).join("") : '<p class="search-empty">找不到學生帳戶。</p>'}
+            </div>
+          </aside>
+          <div class="admin-access-panel">
+            ${selected ? `
+              <div class="admin-access-heading">
+                <div><h2>${escapeHtml(selected.name)}</h2><p>父層關閉後，其下所有 Part／Book 都會停止開放。</p></div>
+                <div class="admin-access-actions">
+                  <button class="secondary-button" type="button" data-admin-set-all="true" ${state.adminAccessSaving ? "disabled" : ""}>全部開啟</button>
+                  <button class="secondary-button" type="button" data-admin-set-all="false" ${state.adminAccessSaving ? "disabled" : ""}>全部關閉</button>
+                </div>
+              </div>
+              <div class="admin-access-tree">${ACCESS_SECTIONS.map(item => adminAccessBranchHtml(item)).join("")}</div>
+              <p class="admin-save-status" role="status" aria-live="polite">${state.adminAccessSaving ? "正在儲存權限…" : "所有改動會即時儲存至學生帳戶。"}</p>
+            ` : '<div class="empty-state"><h2>請選擇學生</h2><p>從左邊選擇帳戶以管理 Speaking 權限。</p></div>'}
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  async function loadAdminStudents() {
+    if (state.user?.role !== "admin" || state.adminStudentsLoading) return;
+    const generation = ++state.adminRequestGeneration;
+    state.adminStudentsLoading = true;
+    try {
+      const payload = await apiJson(CONFIG.endpoints?.adminStudents || "/v1/admin/students");
+      if (generation !== state.adminRequestGeneration || state.user?.role !== "admin") return;
+      state.adminStudents = (Array.isArray(payload?.students) ? payload.students : []).map(student => ({
+        id: String(student.id || ""),
+        name: String(student.name || "Student"),
+        createdAt: String(student.createdAt || ""),
+        updatedAt: String(student.updatedAt || student.accessUpdatedAt || ""),
+        access: normalizeAccess(student.access)
+      })).filter(student => student.id);
+      state.adminStudentsLoaded = true;
+      if (!state.adminStudents.some(student => student.id === state.selectedAdminStudentId)) {
+        state.selectedAdminStudentId = state.adminStudents[0]?.id || "";
+      }
+      if (state.route.view === "admin") renderAdminPanel();
+    } catch (error) {
+      if (generation !== state.adminRequestGeneration) return;
+      console.warn("Could not load Speaking students:", error);
+      dom.content.innerHTML = `<section class="notice-card"><h2>未能載入學生</h2><p>${escapeHtml(error?.message || "請檢查網絡後再試。")}</p><button class="secondary-button" type="button" data-retry-admin-students>重新載入</button></section>`;
+    } finally {
+      if (generation === state.adminRequestGeneration) state.adminStudentsLoading = false;
+    }
+  }
+
+  async function saveAdminStudentAccess(nextAccess) {
+    const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+    if (!student || state.adminAccessSaving) return;
+    const previous = student.access;
+    student.access = normalizeAccess(nextAccess);
+    state.adminAccessSaving = true;
+    renderAdminPanel();
+    try {
+      const base = String(CONFIG.endpoints?.adminStudents || "/v1/admin/students").replace(/\/+$/, "");
+      const payload = await apiJson(`${base}/${encodeURIComponent(student.id)}/access`, {
+        method: "PUT",
+        body: JSON.stringify({ access: student.access })
+      });
+      student.access = normalizeAccess(payload?.student?.access || payload?.access || student.access);
+      toast("學生 Speaking 權限已儲存。", "info");
+    } catch (error) {
+      student.access = previous;
+      toast(String(error?.message || "未能儲存學生權限。"), "error");
+    } finally {
+      state.adminAccessSaving = false;
+      if (state.route.view === "admin") renderAdminPanel();
+    }
   }
 
   function audioManifestCandidates() {
@@ -887,7 +1468,10 @@
           <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。IELTS Part 2 每次最多錄音 2 分 30 秒。</p>
           <div class="recording-status" data-recording-status><span role="status" aria-live="polite">準備好便按「開始錄音」。</span></div>
         </div>
-        <button class="record-button" type="button" data-record-toggle>● 開始錄音</button>
+        <div class="recorder-controls">
+          <button class="record-button" type="button" data-record-toggle>● 開始錄音</button>
+          <button class="secondary-button finish-recording-button" type="button" data-finish-recording hidden>■ 完成並製作 MP3</button>
+        </div>
         <div class="recording-preview" data-recording-preview hidden></div>
       </section>
     `;
@@ -983,10 +1567,6 @@
     const word = document.querySelector(`[data-timing-index="${index}"]`);
     if (!word) return;
     word.classList.add("is-spoken");
-    const bounds = word.getBoundingClientRect();
-    if (bounds.top < 125 || bounds.bottom > window.innerHeight - 60) {
-      word.scrollIntoView({ block: "center", behavior: preferredScrollBehavior() });
-    }
   }
 
   function startHighlightLoop() {
@@ -1099,8 +1679,8 @@
   }
 
   function toggleModelAudio() {
-    if (state.recordingPermissionPending || state.mediaRecorder?.state === "recording") {
-      toast("請先停止錄音，才播放示範音訊。", "error");
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才播放示範音訊。", "error");
       return;
     }
     const { exercise, entry } = currentAudioContext();
@@ -1118,8 +1698,8 @@
   }
 
   function playFromTiming(index) {
-    if (state.recordingPermissionPending || state.mediaRecorder?.state === "recording") {
-      toast("請先停止錄音，才從指定文字播放。", "error");
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才從指定文字播放。", "error");
       return;
     }
     const { exercise, entry } = currentAudioContext();
@@ -1222,13 +1802,15 @@
     state.recordingTimer = 0;
   }
 
-  function recordingStatus(message, recording = false) {
+  function recordingStatus(message, mode = "") {
     const status = document.querySelector("[data-recording-status]");
     if (!status) return;
+    const recording = mode === true || mode === "recording";
+    const paused = mode === "paused";
     status.innerHTML = `
-      ${recording ? '<span class="recording-dot" aria-hidden="true"></span>' : ""}
+      ${recording || paused ? `<span class="recording-dot${paused ? " paused" : ""}" aria-hidden="true"></span>` : ""}
       <span role="status" aria-live="polite">${escapeHtml(message)}</span>
-      ${recording ? '<span class="recording-clock" aria-hidden="true" data-recording-clock></span>' : ""}
+      ${recording || paused ? '<span class="recording-clock" aria-hidden="true" data-recording-clock></span>' : ""}
     `;
   }
 
@@ -1238,13 +1820,57 @@
     return `${minutes}:${pad(seconds % 60)}`;
   }
 
+  function recordingNow() {
+    return typeof window.performance?.now === "function" ? window.performance.now() : Date.now();
+  }
+
+  function activeRecordingDuration() {
+    const activeSegment = state.mediaRecorder?.state === "recording" && state.recordingActiveStartedAt
+      ? Math.max(0, recordingNow() - state.recordingActiveStartedAt)
+      : 0;
+    return Math.max(0, state.recordingElapsedMs + activeSegment);
+  }
+
+  function commitActiveRecordingDuration() {
+    const activeSegment = state.recordingActiveStartedAt
+      ? Math.max(0, recordingNow() - state.recordingActiveStartedAt)
+      : 0;
+    state.recordingElapsedMs = Math.max(0, state.recordingElapsedMs + activeSegment);
+    state.recordingActiveStartedAt = 0;
+    return state.recordingElapsedMs;
+  }
+
   function updateRecordingClock() {
-    if (!state.recordingStartedAt) return;
-    const elapsed = Date.now() - state.recordingStartedAt;
+    if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state)) return;
+    const elapsed = activeRecordingDuration();
     const maxSeconds = Math.max(30, Number(CONFIG.maxRecordingSeconds || 600));
     const clock = document.querySelector("[data-recording-clock]");
     if (clock) clock.textContent = `${formatDuration(elapsed)} / ${formatDuration(maxSeconds * 1000)}`;
-    if (elapsed >= maxSeconds * 1000) stopRecording();
+    if (state.mediaRecorder.state === "recording" && elapsed >= maxSeconds * 1000) finishRecording();
+  }
+
+  function syncRecorderControls() {
+    const button = document.querySelector("[data-record-toggle]");
+    const finish = document.querySelector("[data-finish-recording]");
+    if (!button) return;
+    const recorderState = state.mediaRecorder?.state || "inactive";
+    const busy = Boolean(state.recordingTransition || state.recordingPermissionPending || state.recordingProcessing);
+    button.disabled = busy;
+    button.classList.toggle("is-recording", recorderState === "recording");
+    button.classList.toggle("is-paused", recorderState === "paused");
+    if (state.recordingPermissionPending) button.textContent = "正在連接咪高峰…";
+    else if (state.recordingProcessing) button.textContent = "正在製作 MP3…";
+    else if (state.recordingTransition === "pausing") button.textContent = "正在暫停…";
+    else if (state.recordingTransition === "resuming") button.textContent = "正在繼續…";
+    else if (state.recordingTransition === "stopping") button.textContent = "正在完成…";
+    else if (recorderState === "paused") button.textContent = "● 繼續錄音";
+    else if (recorderState === "recording" && state.recordingPauseSupported) button.textContent = "❚❚ 暫停錄音";
+    else if (recorderState === "recording") button.textContent = "■ 完成錄音";
+    else button.textContent = state.recordedMp3 ? "● 重新錄音" : "● 開始錄音";
+    if (finish) {
+      finish.hidden = !state.recordingPauseSupported || !["recording", "paused"].includes(recorderState);
+      finish.disabled = busy;
+    }
   }
 
   async function startRecording() {
@@ -1263,8 +1889,7 @@
     state.recordingProcessing = false;
     const authGeneration = state.authGeneration;
     const requestedExerciseId = currentExercise()?.id || "";
-    const button = document.querySelector("[data-record-toggle]");
-    if (button) button.disabled = true;
+    syncRecorderControls();
     recordingStatus("正在請求咪高峰權限…");
     let stream;
     try {
@@ -1277,8 +1902,9 @@
       clearRecordingTimer();
       stopMediaTracks();
       state.mediaRecorder = null;
-      state.recordingStartedAt = 0;
-      if (button) button.disabled = false;
+      state.recordingActiveStartedAt = 0;
+      state.recordingElapsedMs = 0;
+      syncRecorderControls();
       return;
     }
     if (
@@ -1297,7 +1923,11 @@
       const recorder = createMediaRecorder(stream);
       state.mediaRecorder = recorder;
       state.recordingChunks = [];
-      state.recordingStartedAt = Date.now();
+      state.recordingElapsedMs = 0;
+      state.recordingActiveStartedAt = recordingNow();
+      state.recordingTransition = "";
+      state.recordingPauseSupported = typeof recorder.pause === "function" && typeof recorder.resume === "function";
+      state.recordingBackgroundPaused = false;
       const generation = requestGeneration;
       recorder.ondataavailable = event => {
         if (event.data?.size) state.recordingChunks.push(event.data);
@@ -1318,22 +1948,43 @@
         stopMediaTracks();
         state.mediaRecorder = null;
         state.recordingChunks = [];
-        state.recordingStartedAt = 0;
+        state.recordingActiveStartedAt = 0;
+        state.recordingElapsedMs = 0;
+        state.recordingTransition = "";
         state.recordedDurationMs = 0;
         state.recordingProcessing = false;
         resetRecordButton();
       };
+      recorder.onpause = () => {
+        if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder) return;
+        commitActiveRecordingDuration();
+        state.recordingTransition = "";
+        clearRecordingTimer();
+        state.mediaStream?.getAudioTracks().forEach(track => { track.enabled = false; });
+        recordingStatus("錄音已暫停；現在可播放示範或按文字重聽，準備好後按「繼續錄音」。", "paused");
+        updateRecordingClock();
+        syncRecorderControls();
+      };
+      recorder.onresume = () => {
+        if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder) return;
+        state.recordingActiveStartedAt = recordingNow();
+        state.recordingTransition = "";
+        state.recordingBackgroundPaused = false;
+        recordingStatus("錄音已繼續，完成後請按「完成並製作 MP3」。", "recording");
+        clearRecordingTimer();
+        state.recordingTimer = window.setInterval(updateRecordingClock, 500);
+        updateRecordingClock();
+        syncRecorderControls();
+      };
       recorder.onstop = () => finaliseRecording(generation, recorder.mimeType || "audio/webm");
       recorder.start(1000);
       clearRecordingTimer();
-      recordingStatus("錄音已開始，完成後請按停止。", true);
-      state.recordingTimer = window.setInterval(updateRecordingClock, 1000);
+      recordingStatus(state.recordingPauseSupported
+        ? "錄音已開始；需要重聽示範時可先暫停，完成後按「完成並製作 MP3」。"
+        : "錄音已開始；此瀏覽器不支援中途暫停，完成後請按停止。", true);
+      state.recordingTimer = window.setInterval(updateRecordingClock, 500);
       updateRecordingClock();
-      if (button) {
-        button.disabled = false;
-        button.classList.add("is-recording");
-        button.textContent = "■ 停止錄音";
-      }
+      syncRecorderControls();
     } catch (error) {
       if (requestGeneration !== state.recordingGeneration) return;
       console.warn("MediaRecorder startup failed:", error);
@@ -1342,24 +1993,61 @@
       stopMediaTracks();
       state.mediaRecorder = null;
       state.recordingChunks = [];
-      state.recordingStartedAt = 0;
-      if (button) button.disabled = false;
+      state.recordingActiveStartedAt = 0;
+      state.recordingElapsedMs = 0;
+      state.recordingTransition = "";
+      syncRecorderControls();
     }
   }
 
-  function stopRecording() {
-    if (!state.mediaRecorder || state.mediaRecorder.state !== "recording") return;
-    state.recordedDurationMs = Date.now() - state.recordingStartedAt;
+  function pauseRecording(options = {}) {
+    const recorder = state.mediaRecorder;
+    if (!recorder || recorder.state !== "recording" || state.recordingTransition) return;
+    if (!state.recordingPauseSupported) {
+      finishRecording();
+      return;
+    }
+    state.recordingTransition = "pausing";
+    state.recordingBackgroundPaused = Boolean(options.background);
+    syncRecorderControls();
+    try {
+      recorder.pause();
+    } catch (error) {
+      state.recordingTransition = "";
+      state.recordingBackgroundPaused = false;
+      syncRecorderControls();
+      toast("瀏覽器未能暫停錄音，請按完成後重新嘗試。", "error");
+    }
+  }
+
+  function resumeRecording() {
+    const recorder = state.mediaRecorder;
+    if (!recorder || recorder.state !== "paused" || state.recordingTransition) return;
+    stopModelAudio();
+    state.recordingTransition = "resuming";
+    state.mediaStream?.getAudioTracks().forEach(track => { track.enabled = true; });
+    syncRecorderControls();
+    try {
+      recorder.resume();
+    } catch (error) {
+      state.recordingTransition = "";
+      state.mediaStream?.getAudioTracks().forEach(track => { track.enabled = false; });
+      syncRecorderControls();
+      toast("瀏覽器未能繼續錄音，請先完成並保留現有內容。", "error");
+    }
+  }
+
+  function finishRecording() {
+    if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state) || state.recordingTransition) return;
+    if (state.mediaRecorder.state === "recording") commitActiveRecordingDuration();
+    state.recordedDurationMs = state.recordingElapsedMs;
     state.recordingProcessing = true;
+    state.recordingTransition = "stopping";
     clearRecordingTimer();
+    stopModelAudio();
     state.mediaRecorder.stop();
     stopMediaTracks();
-    const button = document.querySelector("[data-record-toggle]");
-    if (button) {
-      button.disabled = true;
-      button.classList.remove("is-recording");
-      button.textContent = "正在製作 MP3…";
-    }
+    syncRecorderControls();
     recordingStatus("錄音完成，正在轉換成真正的單聲道 MP3…");
   }
 
@@ -1412,7 +2100,10 @@
     if (flushed.length) blocks.push(new Uint8Array(flushed));
     const mp3 = new Blob(blocks, { type: "audio/mpeg" });
     if (!mp3.size) throw new Error("The MP3 encoder produced an empty file.");
-    return mp3;
+    return {
+      mp3,
+      durationMs: Math.max(1, Math.round(audioBuffer.duration * 1000))
+    };
   }
 
   async function finaliseRecording(generation, sourceMime) {
@@ -1420,7 +2111,8 @@
     const source = new Blob(state.recordingChunks, { type: sourceMime });
     state.recordingChunks = [];
     state.mediaRecorder = null;
-    state.recordingStartedAt = 0;
+    state.recordingActiveStartedAt = 0;
+    state.recordingTransition = "";
     if (!source.size) {
       state.recordingProcessing = false;
       recordingStatus("未有錄到聲音，請重新嘗試。");
@@ -1429,8 +2121,10 @@
     }
     state.recordingProcessing = true;
     try {
-      const mp3 = await encodeGenuineMonoMp3(source);
+      const encoded = await encodeGenuineMonoMp3(source);
       if (generation !== state.recordingGeneration) return;
+      const mp3 = encoded.mp3;
+      state.recordedDurationMs = encoded.durationMs;
       state.recordedMp3 = mp3;
       state.recordedMp3Url = URL.createObjectURL(mp3);
       state.recordingSaved = false;
@@ -1452,9 +2146,13 @@
   function resetRecordButton(label = "● 重新錄音") {
     const button = document.querySelector("[data-record-toggle]");
     if (!button) return;
+    state.recordingTransition = "";
+    state.recordingPermissionPending = false;
     button.disabled = false;
-    button.classList.remove("is-recording");
+    button.classList.remove("is-recording", "is-paused");
     button.textContent = label;
+    const finish = document.querySelector("[data-finish-recording]");
+    if (finish) finish.hidden = true;
   }
 
   function renderRecordingPreview() {
@@ -1491,15 +2189,19 @@
     state.recordingGeneration += 1;
     state.recordingPermissionPending = false;
     state.recordingProcessing = false;
+    state.recordingTransition = "";
     clearRecordingTimer();
-    if (state.mediaRecorder && state.mediaRecorder.state === "recording") {
+    if (state.mediaRecorder && ["recording", "paused"].includes(state.mediaRecorder.state)) {
       state.mediaRecorder.ondataavailable = null;
       state.mediaRecorder.onstop = null;
       try { state.mediaRecorder.stop(); } catch { /* Recorder already stopped. */ }
     }
     state.mediaRecorder = null;
     state.recordingChunks = [];
-    state.recordingStartedAt = 0;
+    state.recordingActiveStartedAt = 0;
+    state.recordingElapsedMs = 0;
+    state.recordingPauseSupported = false;
+    state.recordingBackgroundPaused = false;
     stopMediaTracks();
     discardRecording(false);
     if (document.querySelector("[data-record-toggle]")) {
@@ -2087,6 +2789,46 @@
         navigate({ view: "attempts" });
         return;
       }
+      if (go?.dataset.go === "bookmarks") {
+        navigate({ view: "bookmarks" });
+        return;
+      }
+      if (go?.dataset.go === "admin" && state.user?.role === "admin") {
+        navigate({ view: "admin" });
+        return;
+      }
+
+      const bookmarkButton = event.target.closest("[data-bookmark]");
+      if (bookmarkButton) {
+        toggleBookmark(bookmarkFromElement(bookmarkButton));
+        return;
+      }
+
+      if (event.target.closest("[data-toggle-route-bookmark]")) {
+        toggleBookmark(currentRouteBookmark());
+        return;
+      }
+
+      const savedBookmark = event.target.closest("[data-open-saved-bookmark]");
+      if (savedBookmark) {
+        let bookmark = null;
+        try { bookmark = JSON.parse(decodeURIComponent(savedBookmark.dataset.openSavedBookmark || "")); } catch { /* Ignore malformed DOM data. */ }
+        const route = routeForBookmark(bookmark);
+        if (route) navigate(route);
+        return;
+      }
+
+      const searchExam = event.target.closest("[data-search-exam]");
+      if (searchExam) {
+        navigate({ view: "parts", exam: searchExam.dataset.searchExam });
+        return;
+      }
+
+      const searchExercise = event.target.closest("[data-search-exercise]");
+      if (searchExercise) {
+        navigate({ view: "exercise", exam: "ielts", part: 2, book: 1, exerciseIndex: Number(searchExercise.dataset.searchExercise) });
+        return;
+      }
 
       const crumb = event.target.closest("[data-breadcrumb-index]");
       if (crumb) {
@@ -2097,13 +2839,20 @@
 
       const exam = event.target.closest("[data-exam]");
       if (exam) {
-        if (exam.dataset.exam !== "ielts") toast("這個練習範疇即將推出，敬請期待。", "info");
-        else navigate({ view: "parts", exam: "ielts" });
+        if (exam.getAttribute("aria-disabled") === "true") {
+          toast("你的帳戶尚未開放這個練習範圍。", "error");
+        } else if (!examAvailable(exam.dataset.exam)) {
+          toast("這個練習範疇正在準備中。", "info");
+        } else navigate({ view: "parts", exam: "ielts" });
         return;
       }
 
       const part = event.target.closest("[data-part]:not([data-book])");
       if (part) {
+        if (part.getAttribute("aria-disabled") === "true") {
+          toast("你的帳戶尚未開放這個 IELTS Part。", "error");
+          return;
+        }
         navigate({ view: "books", exam: "ielts", part: Number(part.dataset.part) });
         return;
       }
@@ -2112,8 +2861,12 @@
       if (book) {
         const partNumber = Number(book.dataset.part);
         const bookNumber = Number(book.dataset.book);
-        if (partNumber !== 2 || bookNumber !== 1) {
-          toast(`Part ${partNumber} · Book ${bookNumber} 即將推出。`, "info");
+        if (book.getAttribute("aria-disabled") === "true") {
+          toast("你的帳戶尚未開放這本練習冊。", "error");
+          return;
+        }
+        if (!bookAvailable(partNumber, bookNumber)) {
+          toast(`Part ${partNumber} · Book ${bookNumber} 的內容正在準備中。`, "info");
           return;
         }
         navigate({ view: "exercises", exam: "ielts", part: 2, book: 1 });
@@ -2149,8 +2902,14 @@
       }
 
       if (event.target.closest("[data-record-toggle]")) {
-        if (state.mediaRecorder?.state === "recording") stopRecording();
+        if (state.mediaRecorder?.state === "recording") pauseRecording();
+        else if (state.mediaRecorder?.state === "paused") resumeRecording();
         else startRecording();
+        return;
+      }
+
+      if (event.target.closest("[data-finish-recording]")) {
+        finishRecording();
         return;
       }
 
@@ -2198,7 +2957,70 @@
 
       if (event.target.closest("[data-retry-attempts]")) {
         renderAttemptsPage();
+        return;
       }
+
+      if (event.target.closest("[data-retry-bookmarks]")) {
+        state.bookmarksLoaded = false;
+        renderBookmarks();
+        return;
+      }
+
+      if (event.target.closest("[data-retry-admin-students]")) {
+        state.adminStudentsLoaded = false;
+        state.adminStudentsLoading = false;
+        renderAdminPanel();
+        return;
+      }
+
+      const adminStudent = event.target.closest("[data-admin-student-id]");
+      if (adminStudent) {
+        state.selectedAdminStudentId = adminStudent.dataset.adminStudentId;
+        renderAdminPanel();
+        return;
+      }
+
+      const setAllAccess = event.target.closest("[data-admin-set-all]");
+      if (setAllAccess) {
+        const enabled = setAllAccess.dataset.adminSetAll === "true";
+        saveAdminStudentAccess(enabled ? {} : Object.fromEntries(allAccessKeys().map(key => [key, false])));
+      }
+    });
+
+    document.addEventListener("submit", event => {
+      const searchForm = event.target.closest("[data-speaking-search-form]");
+      if (!searchForm) return;
+      event.preventDefault();
+      document.querySelector("[data-speaking-search-results] button")?.click();
+    });
+
+    document.addEventListener("input", event => {
+      const speakingSearch = event.target.closest("[data-speaking-search-input]");
+      if (speakingSearch) {
+        renderSpeakingSearchResults(speakingSearch.value);
+        return;
+      }
+      const adminSearch = event.target.closest("[data-admin-student-search]");
+      if (adminSearch) {
+        state.adminStudentQuery = adminSearch.value;
+        renderAdminPanel();
+        const replacement = document.querySelector("[data-admin-student-search]");
+        if (replacement) {
+          replacement.focus({ preventScroll: true });
+          replacement.setSelectionRange(replacement.value.length, replacement.value.length);
+        }
+      }
+    });
+
+    document.addEventListener("change", event => {
+      const accessToggle = event.target.closest("[data-admin-access-key]");
+      if (!accessToggle) return;
+      const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+      if (!student) return;
+      const next = { ...student.access };
+      if (accessToggle.checked) delete next[accessToggle.dataset.adminAccessKey];
+      else next[accessToggle.dataset.adminAccessKey] = false;
+      saveAdminStudentAccess(next);
     });
 
     document.addEventListener("keydown", event => {
@@ -2225,7 +3047,7 @@
       stopModelAudio();
       stopAttemptPlayback();
       if (state.recordingPermissionPending) cancelRecorder();
-      else if (state.mediaRecorder?.state === "recording") stopRecording();
+      else if (state.mediaRecorder?.state === "recording") pauseRecording({ background: true });
     });
   }
 
@@ -2239,9 +3061,11 @@
       try {
         await validateRestoredSession();
         if (!state.user) return;
+        if (state.user.role === "student") await loadBookmarks({ quiet: true });
+        if (!state.user) return;
         showPortal();
         setConnection("Session 已恢復", "live");
-        navigate({ view: "exams" }, { reset: true, skipGuard: true });
+        navigate({ view: state.user.role === "admin" ? "admin" : "exams" }, { reset: true, skipGuard: true });
       } catch (error) {
         if (state.user) resetAuthenticatedState("未能驗證登入時段，請重新登入。");
         console.warn("Speaking session restoration failed:", error);

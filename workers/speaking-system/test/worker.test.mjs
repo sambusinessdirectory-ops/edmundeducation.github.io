@@ -75,6 +75,13 @@ function jsonResponse(value, init = {}) {
   return new Response(JSON.stringify(value), { ...init, headers });
 }
 
+function authorizedRequest(path, token, init = {}) {
+  const headers = new Headers(init.headers);
+  headers.set("Authorization", `Bearer ${token}`);
+  headers.set("Origin", "https://edmundeducation.github.io");
+  return new Request(`https://worker.example${path}`, { ...init, headers });
+}
+
 function slowCrc32(bytes) {
   let value = 0xFFFFFFFF;
   for (const byte of bytes) {
@@ -158,6 +165,282 @@ test("health reports limiter readiness and the effective safety caps", async () 
   assert.deepEqual(health.rateLimiters, { adminLogin: true, upload: true });
 });
 
+test("student profile requires a token and returns only whitelisted speaking access", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const unauthenticated = await worker.default.fetch(
+    new Request("https://worker.example/v1/student/me", {
+      headers: { Origin: "https://edmundeducation.github.io" }
+    }),
+    configuredEnv(),
+    {}
+  );
+  assert.equal(unauthenticated.status, 401);
+
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    assert.equal(options.redirect, "manual");
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_student_state")) {
+      calls.push("access");
+      assert.equal(parsed.searchParams.get("student_id"), `eq.${studentId}`);
+      assert.equal(parsed.searchParams.get("key"), "eq.speaking-access-v1");
+      return jsonResponse([{
+        value: {
+          "exam.ielts": false,
+          "ielts.part.2.book.1": true,
+          unknown: false,
+          "ielts.part.2": "not-boolean"
+        },
+        updated_at: "2026-07-20T00:00:00Z"
+      }]);
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/student/me", studentToken),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(body.student.id, studentId);
+    assert.equal(body.student.name, "Alice");
+    assert.deepEqual(body.access, {
+      "exam.ielts": false,
+      "ielts.part.2.book.1": true
+    });
+    assert.deepEqual(calls, ["profile", "access"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("bookmark writes are scoped to the authenticated student and validated routes", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const otherStudentId = "75212ac4-6c53-48f9-b293-4c462e01741e";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const originalFetch = globalThis.fetch;
+  let writes = 0;
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_student_state") && (options.method || "GET") === "GET") {
+      assert.equal(parsed.searchParams.get("student_id"), `eq.${studentId}`);
+      assert.equal(parsed.searchParams.get("key"), "eq.speaking-access-v1");
+      return jsonResponse([]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_student_state") && options.method === "POST") {
+      writes += 1;
+      assert.equal(parsed.searchParams.get("on_conflict"), "student_id,key");
+      assert.match(options.headers.get("Prefer"), /resolution=merge-duplicates/);
+      const payload = JSON.parse(String(options.body));
+      assert.equal(payload.student_id, studentId);
+      assert.notEqual(payload.student_id, otherStudentId);
+      assert.equal(payload.key, "speaking-bookmarks-v1");
+      assert.deepEqual(payload.value, [
+        { kind: "exam", exam: "ielts" },
+        { kind: "book", exam: "ielts", part: 2, book: 1 },
+        { kind: "exercise", exam: "ielts", part: 2, book: 1, exerciseId: "ielts-part2-book1-question1" }
+      ]);
+      return jsonResponse([{ ...payload, updated_at: "2026-07-20T00:00:00Z" }], { status: 201 });
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+
+  try {
+    const bookmarks = [
+      { kind: "exam", exam: "ielts" },
+      { kind: "book", exam: "ielts", part: 2, book: 1 },
+      { kind: "book", exam: "ielts", part: 2, book: 1 },
+      { kind: "exercise", exam: "ielts", part: 2, book: 1, exerciseId: "ielts-part2-book1-question1" }
+    ];
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/bookmarks", studentToken, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ bookmarks })
+      }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 200);
+    assert.equal((await response.json()).bookmarks.length, 3);
+    assert.equal(writes, 1);
+
+    const injected = await worker.default.fetch(
+      authorizedRequest("/v1/bookmarks", studentToken, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ studentId: otherStudentId, bookmarks: [] })
+      }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(injected.status, 400);
+    assert.equal((await injected.json()).code, "INVALID_BOOKMARKS");
+    assert.equal(writes, 1);
+
+    const invalidRoute = await worker.default.fetch(
+      authorizedRequest("/v1/bookmarks", studentToken, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ bookmarks: [{ kind: "book", exam: "ielts", part: 2, book: 17 }] })
+      }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(invalidRoute.status, 400);
+    assert.equal((await invalidRoute.json()).code, "INVALID_BOOKMARKS");
+    assert.equal(writes, 1);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("admin can list active shared students and replace only valid speaking access", async () => {
+  const adminToken = "efc88f7c-e74d-4e82-896e-08f365072180";
+  const adminId = "e5e5099e-8c98-4f90-a8ae-0e39b10fdc98";
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const originalFetch = globalThis.fetch;
+  let savedAccess = null;
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_admin_me")) {
+      return jsonResponse([{ id: adminId, name: "Sam Admin Speaking", expires_at: "2026-07-21T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_students")) {
+      assert.equal(parsed.searchParams.get("deleted_at"), "is.null");
+      if (parsed.searchParams.has("id")) assert.equal(parsed.searchParams.get("id"), `eq.${studentId}`);
+      return jsonResponse([{
+        id: studentId,
+        name: "Alice",
+        created_at: "2026-01-01T00:00:00Z",
+        updated_at: "2026-07-01T00:00:00Z"
+      }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_student_state") && (options.method || "GET") === "GET") {
+      assert.equal(parsed.searchParams.get("key"), "eq.speaking-access-v1");
+      return jsonResponse([{
+        student_id: studentId,
+        value: { "exam.ielts": false },
+        updated_at: "2026-07-19T00:00:00Z"
+      }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_student_state") && options.method === "POST") {
+      savedAccess = JSON.parse(String(options.body));
+      assert.equal(savedAccess.student_id, studentId);
+      assert.equal(savedAccess.key, "speaking-access-v1");
+      return jsonResponse([{ ...savedAccess, updated_at: "2026-07-20T00:00:00Z" }], { status: 201 });
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+
+  try {
+    const listResponse = await worker.default.fetch(
+      authorizedRequest("/v1/admin/students", adminToken),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(listResponse.status, 200);
+    const listed = await listResponse.json();
+    assert.equal(listed.students.length, 1);
+    assert.equal(listed.students[0].id, studentId);
+    assert.deepEqual(listed.students[0].access, { "exam.ielts": false });
+
+    const access = {
+      "exam.ielts": true,
+      "ielts.part.2": true,
+      "ielts.part.2.book.1": false,
+      bookmarks: true
+    };
+    const saveResponse = await worker.default.fetch(
+      authorizedRequest(`/v1/admin/students/${studentId}/access`, adminToken, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ access })
+      }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(saveResponse.status, 200);
+    assert.deepEqual((await saveResponse.json()).access, access);
+    assert.deepEqual(savedAccess.value, access);
+
+    savedAccess = null;
+    const invalidResponse = await worker.default.fetch(
+      authorizedRequest(`/v1/admin/students/${studentId}/access`, adminToken, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ access: { "exam.ielts": false, superuser: true } })
+      }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(invalidResponse.status, 400);
+    assert.equal((await invalidResponse.json()).code, "INVALID_ACCESS");
+    assert.equal(savedAccess, null);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("recording upload is forbidden before reservation when its speaking section is blocked", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_student_state")) {
+      calls.push("access-get");
+      return jsonResponse([{
+        value: {
+          "exam.ielts": true,
+          "ielts.part.2": true,
+          "ielts.part.2.book.1": false
+        },
+        updated_at: "2026-07-20T00:00:00Z"
+      }]);
+    }
+    assert.fail(`Upload must not reach reservation or storage: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+
+  try {
+    const form = new FormData();
+    form.append("file", new Blob([repeatFrame(40)], { type: "audio/mpeg" }), "attempt.mp3");
+    form.append("exerciseId", "ielts-part2-book1-question1");
+    form.append("exerciseTitle", "A useful advertisement");
+    form.append("exam", "IELTS");
+    form.append("part", "2");
+    form.append("book", "1");
+    form.append("durationMs", "1045");
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/recordings", studentToken, { method: "POST", body: form }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 403);
+    assert.equal((await response.json()).code, "SECTION_ACCESS_DENIED");
+    assert.deepEqual(calls, ["student-profile", "access-get"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("upload reserves quota, writes the private object, then marks metadata ready", async () => {
   const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
   const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
@@ -172,6 +455,12 @@ test("upload reserves quota, writes the private object, then marks metadata read
     if (path.endsWith("/rpc/speaking_student_profile")) {
       calls.push("student-profile");
       return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-07-20T00:00:00Z" }]);
+    }
+    if (path.endsWith("/rest/v1/flashcard_student_state")) {
+      calls.push("access-get");
+      assert.equal(parsed.searchParams.get("student_id"), `eq.${studentId}`);
+      assert.equal(parsed.searchParams.get("key"), "eq.speaking-access-v1");
+      return jsonResponse([]);
     }
     if (path.endsWith("/rpc/speaking_reserve_recording_attempt")) {
       calls.push("reserve");
@@ -246,7 +535,7 @@ test("upload reserves quota, writes the private object, then marks metadata read
     );
 
     assert.equal(response.status, 201);
-    assert.deepEqual(calls, ["student-profile", "reserve", "storage-put", "mark-ready"]);
+    assert.deepEqual(calls, ["student-profile", "access-get", "reserve", "storage-put", "mark-ready"]);
     assert.equal(limiterCalls, 1);
     assert.equal(reservationPayload.p_object_path, `students/${studentId}/${reservationPayload.p_id}.mp3`);
     assert.match(reservationPayload.p_sha256_hex, /^[0-9a-f]{64}$/);

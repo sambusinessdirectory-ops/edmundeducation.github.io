@@ -17,10 +17,28 @@ const MIN_MP3_DURATION_MS = 1000;
 const MAX_TRAILING_PADDING_BYTES = 1024;
 const RECONCILE_MAX_ITEMS = 10;
 const RECONCILE_UPLOAD_GRACE_MS = 10 * 60 * 1000;
+const SPEAKING_ACCESS_STATE_KEY = "speaking-access-v1";
+const SPEAKING_BOOKMARKS_STATE_KEY = "speaking-bookmarks-v1";
+const MAX_BOOKMARKS = 200;
+const MAX_ADMIN_STUDENTS = 2000;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const EXERCISE_ID_RE = /^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$/;
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
+
+const SPEAKING_EXAMS = new Set(["dse", "ielts", "business", "interview", "civil-service"]);
+const SPEAKING_ACCESS_KEYS = new Set([
+  "exam.dse",
+  "exam.ielts",
+  "exam.business",
+  "exam.interview",
+  "exam.civil-service",
+  "bookmarks",
+  ...[1, 2, 3].map(part => `ielts.part.${part}`),
+  ...[1, 2, 3].flatMap(part => (
+    Array.from({ length: 16 }, (_, index) => `ielts.part.${part}.book.${index + 1}`)
+  ))
+]);
 
 const RECORDING_PUBLIC_FIELDS = [
   "id",
@@ -114,6 +132,20 @@ async function route(request, env, ctx) {
   if (url.pathname === "/v1/student/me" && request.method === "GET") {
     return studentMe(request, env);
   }
+  if (url.pathname === "/v1/bookmarks" && request.method === "GET") {
+    return getBookmarks(request, env);
+  }
+  if (url.pathname === "/v1/bookmarks" && request.method === "PUT") {
+    return putBookmarks(request, env);
+  }
+
+  if (url.pathname === "/v1/admin/students" && request.method === "GET") {
+    return listAdminStudents(request, env);
+  }
+  const adminStudentAccessMatch = url.pathname.match(/^\/v1\/admin\/students\/([0-9a-f-]{36})\/access$/i);
+  if (adminStudentAccessMatch && request.method === "PUT") {
+    return putAdminStudentAccess(request, env, adminStudentAccessMatch[1]);
+  }
 
   if (url.pathname === "/v1/admin/recordings" && request.method === "GET") {
     return listRecordings(request, env, { forceAdmin: true });
@@ -201,7 +233,7 @@ function isAllowedOrigin(origin, env) {
 function corsHeaders(origin, env) {
   const headers = securityHeaders();
   headers.set("Access-Control-Allow-Headers", "Authorization, Content-Type");
-  headers.set("Access-Control-Allow-Methods", "GET, POST, DELETE, OPTIONS");
+  headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
   headers.set(
     "Access-Control-Expose-Headers",
     [
@@ -562,8 +594,347 @@ async function adminLogout(request, env) {
 async function studentMe(request, env) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const access = await studentSpeakingAccess(env, student.id);
   return json(
-    { student: { id: student.id, name: student.name, expiresAt: student.expiresAt } },
+    {
+      student: { id: student.id, name: student.name, expiresAt: student.expiresAt },
+      access
+    },
+    200,
+    request,
+    env
+  );
+}
+
+function isJsonObject(value) {
+  return Boolean(value && typeof value === "object" && !Array.isArray(value));
+}
+
+function hasExactKeys(value, expected) {
+  if (!isJsonObject(value)) return false;
+  const actual = Object.keys(value).sort();
+  const wanted = [...expected].sort();
+  return actual.length === wanted.length && actual.every((key, index) => key === wanted[index]);
+}
+
+function normalizeSpeakingAccess(value, strict = false) {
+  if (!isJsonObject(value)) {
+    if (strict) throw new HttpError(400, "INVALID_ACCESS", "access must be an object");
+    return {};
+  }
+
+  const normalized = {};
+  for (const [key, allowed] of Object.entries(value)) {
+    if (!SPEAKING_ACCESS_KEYS.has(key) || typeof allowed !== "boolean") {
+      if (strict) {
+        throw new HttpError(400, "INVALID_ACCESS", "access contains an unknown key or non-boolean value");
+      }
+      continue;
+    }
+    normalized[key] = allowed;
+  }
+  return normalized;
+}
+
+function normalizeBookmark(bookmark, strict = false) {
+  const invalid = () => {
+    if (strict) throw new HttpError(400, "INVALID_BOOKMARKS", "bookmarks contains an invalid route");
+    return null;
+  };
+  if (!isJsonObject(bookmark) || typeof bookmark.kind !== "string") return invalid();
+
+  if (bookmark.kind === "exam") {
+    if (!hasExactKeys(bookmark, ["kind", "exam"]) || !SPEAKING_EXAMS.has(bookmark.exam)) return invalid();
+    return { kind: "exam", exam: bookmark.exam };
+  }
+
+  if (bookmark.kind === "part") {
+    if (
+      !hasExactKeys(bookmark, ["kind", "exam", "part"])
+      || bookmark.exam !== "ielts"
+      || !Number.isInteger(bookmark.part)
+      || bookmark.part < 1
+      || bookmark.part > 3
+    ) return invalid();
+    return { kind: "part", exam: "ielts", part: bookmark.part };
+  }
+
+  if (bookmark.kind === "book") {
+    if (
+      !hasExactKeys(bookmark, ["kind", "exam", "part", "book"])
+      || bookmark.exam !== "ielts"
+      || !Number.isInteger(bookmark.part)
+      || bookmark.part < 1
+      || bookmark.part > 3
+      || !Number.isInteger(bookmark.book)
+      || bookmark.book < 1
+      || bookmark.book > 16
+    ) return invalid();
+    return { kind: "book", exam: "ielts", part: bookmark.part, book: bookmark.book };
+  }
+
+  if (bookmark.kind === "exercise") {
+    if (
+      !hasExactKeys(bookmark, ["kind", "exam", "part", "book", "exerciseId"])
+      || bookmark.exam !== "ielts"
+      || !Number.isInteger(bookmark.part)
+      || bookmark.part < 1
+      || bookmark.part > 3
+      || !Number.isInteger(bookmark.book)
+      || bookmark.book < 1
+      || bookmark.book > 16
+      || typeof bookmark.exerciseId !== "string"
+      || !EXERCISE_ID_RE.test(bookmark.exerciseId)
+    ) return invalid();
+    return {
+      kind: "exercise",
+      exam: "ielts",
+      part: bookmark.part,
+      book: bookmark.book,
+      exerciseId: bookmark.exerciseId
+    };
+  }
+
+  return invalid();
+}
+
+function normalizeBookmarks(value, strict = false) {
+  if (!Array.isArray(value)) {
+    if (strict) throw new HttpError(400, "INVALID_BOOKMARKS", "bookmarks must be an array");
+    return [];
+  }
+  if (strict && value.length > MAX_BOOKMARKS) {
+    throw new HttpError(400, "TOO_MANY_BOOKMARKS", `A student may save at most ${MAX_BOOKMARKS} bookmarks`);
+  }
+
+  const normalized = [];
+  const seen = new Set();
+  for (const rawBookmark of value.slice(0, MAX_BOOKMARKS)) {
+    const bookmark = normalizeBookmark(rawBookmark, strict);
+    if (!bookmark) continue;
+    const stableKey = JSON.stringify(bookmark);
+    if (seen.has(stableKey)) continue;
+    seen.add(stableKey);
+    normalized.push(bookmark);
+  }
+  return normalized;
+}
+
+async function getStudentState(env, studentId, key) {
+  const params = new URLSearchParams({
+    select: "value,updated_at",
+    student_id: `eq.${studentId}`,
+    key: `eq.${key}`,
+    limit: "1"
+  });
+  let response;
+  try {
+    response = await supabaseFetch(env, `/rest/v1/flashcard_student_state?${params}`, { method: "GET" });
+  } catch (error) {
+    throw new HttpError(502, "STATE_UNAVAILABLE", "Student settings are temporarily unavailable");
+  }
+  if (!response.ok) {
+    await discardResponse(response);
+    throw new HttpError(502, "STATE_UNAVAILABLE", "Student settings are temporarily unavailable");
+  }
+  let rows;
+  try {
+    rows = await response.json();
+  } catch (error) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Student settings returned an invalid response");
+  }
+  if (!Array.isArray(rows) || rows.length > 1) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Student settings returned an invalid response");
+  }
+  return rows[0] || null;
+}
+
+async function upsertStudentState(env, studentId, key, value) {
+  const params = new URLSearchParams({ on_conflict: "student_id,key" });
+  let response;
+  try {
+    response = await supabaseFetch(
+      env,
+      `/rest/v1/flashcard_student_state?${params}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Prefer: "resolution=merge-duplicates,return=representation"
+        },
+        body: JSON.stringify({ student_id: studentId, key, value })
+      }
+    );
+  } catch (error) {
+    throw new HttpError(502, "STATE_UNAVAILABLE", "Student settings are temporarily unavailable");
+  }
+  if (!response.ok) {
+    await discardResponse(response);
+    throw new HttpError(502, "STATE_SAVE_FAILED", "Student settings could not be saved");
+  }
+  let rows;
+  try {
+    rows = await response.json();
+  } catch (error) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Student settings returned an invalid response");
+  }
+  if (!Array.isArray(rows) || rows.length !== 1) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Student settings returned an invalid response");
+  }
+  return rows[0];
+}
+
+async function studentSpeakingAccess(env, studentId) {
+  const row = await getStudentState(env, studentId, SPEAKING_ACCESS_STATE_KEY);
+  return normalizeSpeakingAccess(row?.value);
+}
+
+async function getBookmarks(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const access = await studentSpeakingAccess(env, student.id);
+  if (access.bookmarks === false) {
+    throw new HttpError(403, "SECTION_ACCESS_DENIED", "Your account does not have access to bookmarks");
+  }
+  const row = await getStudentState(env, student.id, SPEAKING_BOOKMARKS_STATE_KEY);
+  return json({ bookmarks: normalizeBookmarks(row?.value) }, 200, request, env);
+}
+
+async function putBookmarks(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const access = await studentSpeakingAccess(env, student.id);
+  if (access.bookmarks === false) {
+    throw new HttpError(403, "SECTION_ACCESS_DENIED", "Your account does not have access to bookmarks");
+  }
+  const payload = await readLimitedJson(request, 32768);
+  if (!hasExactKeys(payload, ["bookmarks"])) {
+    throw new HttpError(400, "INVALID_BOOKMARKS", "Request body must contain only bookmarks");
+  }
+  const bookmarks = normalizeBookmarks(payload.bookmarks, true);
+  await upsertStudentState(env, student.id, SPEAKING_BOOKMARKS_STATE_KEY, bookmarks);
+  return json({ bookmarks }, 200, request, env);
+}
+
+async function fetchPostgrestRows(env, table, baseParams, maximumRows, errorCode, errorMessage) {
+  const rows = [];
+  const pageSize = 1000;
+  while (rows.length < maximumRows) {
+    const params = new URLSearchParams(baseParams);
+    params.set("limit", String(Math.min(pageSize, maximumRows - rows.length)));
+    params.set("offset", String(rows.length));
+    let response;
+    try {
+      response = await supabaseFetch(env, `/rest/v1/${table}?${params}`, { method: "GET" });
+    } catch (error) {
+      throw new HttpError(502, errorCode, errorMessage);
+    }
+    if (!response.ok) {
+      await discardResponse(response);
+      throw new HttpError(502, errorCode, errorMessage);
+    }
+    let page;
+    try {
+      page = await response.json();
+    } catch (error) {
+      throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", `${errorMessage} returned an invalid response`);
+    }
+    if (!Array.isArray(page)) {
+      throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", `${errorMessage} returned an invalid response`);
+    }
+    rows.push(...page);
+    if (page.length < pageSize) break;
+  }
+  return rows.slice(0, maximumRows);
+}
+
+async function listAdminStudents(request, env) {
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+
+  const students = await fetchPostgrestRows(
+    env,
+    "flashcard_students",
+    new URLSearchParams({
+      select: "id,name,created_at,updated_at",
+      deleted_at: "is.null",
+      order: "name.asc,id.asc"
+    }),
+    MAX_ADMIN_STUDENTS,
+    "STUDENTS_UNAVAILABLE",
+    "Student accounts are temporarily unavailable"
+  );
+  const stateRows = await fetchPostgrestRows(
+    env,
+    "flashcard_student_state",
+    new URLSearchParams({
+      select: "student_id,value,updated_at",
+      key: `eq.${SPEAKING_ACCESS_STATE_KEY}`,
+      order: "student_id.asc"
+    }),
+    MAX_ADMIN_STUDENTS,
+    "STATE_UNAVAILABLE",
+    "Student settings are temporarily unavailable"
+  );
+  const accessByStudent = new Map(stateRows.map(row => [String(row.student_id || "").toLowerCase(), row]));
+  return json(
+    {
+      students: students.map(student => {
+        const id = String(student.id || "").toLowerCase();
+        const state = accessByStudent.get(id);
+        return {
+          id,
+          name: String(student.name || ""),
+          createdAt: String(student.created_at || ""),
+          updatedAt: String(student.updated_at || ""),
+          access: normalizeSpeakingAccess(state?.value),
+          accessUpdatedAt: state ? String(state.updated_at || "") : null
+        };
+      })
+    },
+    200,
+    request,
+    env
+  );
+}
+
+async function findActiveStudent(env, studentId) {
+  const rows = await fetchPostgrestRows(
+    env,
+    "flashcard_students",
+    new URLSearchParams({
+      select: "id,name,created_at,updated_at",
+      id: `eq.${studentId}`,
+      deleted_at: "is.null"
+    }),
+    1,
+    "STUDENTS_UNAVAILABLE",
+    "Student accounts are temporarily unavailable"
+  );
+  return rows[0] || null;
+}
+
+async function putAdminStudentAccess(request, env, studentId) {
+  if (!UUID_RE.test(studentId)) throw new HttpError(404, "STUDENT_NOT_FOUND", "Student not found");
+  const admin = await authenticateAdmin(request, env);
+  if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
+  const payload = await readLimitedJson(request, 16384);
+  if (!hasExactKeys(payload, ["access"])) {
+    throw new HttpError(400, "INVALID_ACCESS", "Request body must contain only access");
+  }
+  const access = normalizeSpeakingAccess(payload.access, true);
+  const student = await findActiveStudent(env, studentId.toLowerCase());
+  if (!student) throw new HttpError(404, "STUDENT_NOT_FOUND", "Student not found");
+  const row = await upsertStudentState(env, studentId.toLowerCase(), SPEAKING_ACCESS_STATE_KEY, access);
+  return json(
+    {
+      student: {
+        id: String(student.id || "").toLowerCase(),
+        name: String(student.name || "")
+      },
+      access,
+      updatedAt: String(row.updated_at || "")
+    },
     200,
     request,
     env
@@ -817,6 +1188,7 @@ async function uploadRecording(request, env) {
   await enforceUploadRateLimit(env, student.id);
 
   const upload = await parseMultipartUpload(request, env);
+  await enforceRecordingAccess(env, student.id, upload);
   const attemptId = crypto.randomUUID();
   const objectPath = `students/${student.id}/${attemptId}.mp3`;
   const digest = await crypto.subtle.digest("SHA-256", upload.bytes);
@@ -876,6 +1248,25 @@ async function uploadRecording(request, env) {
   );
   response.headers.set("Location", new URL(`/v1/recordings/${attemptId}`, request.url).toString());
   return response;
+}
+
+async function enforceRecordingAccess(env, studentId, upload) {
+  const access = await studentSpeakingAccess(env, studentId);
+  const examAccessKeys = {
+    dse: "exam.dse",
+    ielts: "exam.ielts",
+    "business-english": "exam.business",
+    "school-job-interview": "exam.interview",
+    "civil-service-interview": "exam.civil-service"
+  };
+  const keys = [examAccessKeys[upload.exam]];
+  if (upload.exam === "ielts") {
+    keys.push(`ielts.part.${upload.partNumber}`);
+    keys.push(`ielts.part.${upload.partNumber}.book.${upload.bookNumber}`);
+  }
+  if (keys.some(key => !key || access[key] === false)) {
+    throw new HttpError(403, "SECTION_ACCESS_DENIED", "Your account does not have access to this speaking section");
+  }
 }
 
 async function enforceUploadRateLimit(env, studentId) {

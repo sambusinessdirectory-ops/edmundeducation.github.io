@@ -635,6 +635,75 @@
       flex-wrap: wrap;
     }
 
+    .writing-search-area {
+      max-width: 900px;
+      margin: 0 0 24px;
+    }
+
+    .writing-dashboard-search {
+      display: grid;
+      gap: 8px;
+    }
+
+    .writing-dashboard-search input {
+      min-height: 52px;
+    }
+
+    .writing-search-results {
+      display: grid;
+      gap: 7px;
+      margin-top: 10px;
+    }
+
+    .writing-search-section-label {
+      margin-top: 5px;
+      color: #1559a8;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+    }
+
+    .writing-search-result {
+      width: 100%;
+      min-height: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 16px;
+      padding: 12px 15px;
+      color: var(--ink);
+      text-align: left;
+      background: rgba(255,255,255,0.86);
+      font: inherit;
+      cursor: pointer;
+      box-shadow: 0 9px 20px rgba(17,43,85,0.06);
+    }
+
+    .writing-search-result > span {
+      display: grid;
+      min-width: 0;
+    }
+
+    .writing-search-result strong {
+      color: var(--blue-dark);
+    }
+
+    .writing-search-result small,
+    .writing-search-empty {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .writing-search-result em {
+      flex: 0 0 auto;
+      color: #047857;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 900;
+    }
+
     .writing-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2406,6 +2475,14 @@
               <p data-user-label></p>
             </div>
             <div class="welcome-message" data-welcome-message></div>
+          </div>
+
+          <div class="writing-search-area">
+            <form class="writing-dashboard-search" data-writing-search-form>
+              <label for="writing-search-input">搜尋寫作範疇 / 文章</label>
+              <input id="writing-search-input" type="search" data-writing-search-input placeholder="輸入字眼，即可搜尋已開放寫作練習">
+            </form>
+            <div class="writing-search-results" data-writing-search-results></div>
           </div>
 
           <div class="writing-grid" data-writing-grid></div>
@@ -5073,7 +5150,7 @@ Device: concession 讓步
                 const exerciseIds = exercise ? [question.exerciseId] : [];
                 return pathwayRowHtml({
                   label: exercise?.title || question.label,
-                  subline: exercise ? `${exercise.exam} | ${exercise.taskType}` : "即將推出",
+                  subline: exercise ? `${exercise.exam} | ${exercise.taskType}` : "暫未加入練習",
                   exerciseIds,
                   action: exercise ? `data-open-writing-deck="${escapeHtml(question.exerciseId)}"` : "",
                   locked: !exercise
@@ -5090,7 +5167,7 @@ Device: concession 讓步
             <div class="pathway-head">
               <div>
                 <h2>DSE Writing ${escapeHtml(currentDseWritingPartLabel())}</h2>
-                <p>選擇年份；暫未加入文章的年份會顯示「即將推出」。</p>
+                <p>選擇年份；暫未加入文章的年份會標示為內容準備中。</p>
               </div>
               <button class="secondary-button" type="button" data-pathway-back>返回 Part A / Part B</button>
             </div>
@@ -5099,7 +5176,7 @@ Device: concession 讓步
                 const exerciseIds = dseWritingExerciseIdsForYear(currentDseWritingPart, year);
                 return pathwayRowHtml({
                   label: year,
-                  subline: `${currentDseWritingPartLabel()} | ${exerciseIds.length ? "已有文章" : "即將推出"}`,
+                  subline: `${currentDseWritingPartLabel()} | ${exerciseIds.length ? "已有文章" : "內容準備中"}`,
                   exerciseIds,
                   action: `data-open-dse-writing-year="${escapeHtml(year)}"`
                 });
@@ -5167,7 +5244,7 @@ Device: concession 讓步
           <div class="pathway-list">
             ${(pathway.departments || []).map(department => pathwayRowHtml({
               label: department.label,
-              subline: department.deckIds.length ? department.subline : `${department.subline} | 即將推出`,
+              subline: department.deckIds.length ? department.subline : `${department.subline} | 內容準備中`,
               exerciseIds: department.deckIds,
               action: `data-open-government-department="${escapeHtml(department.key)}"`,
               locked: !department.deckIds.length
@@ -6247,10 +6324,6 @@ Device: concession 讓步
       const word = document.querySelector(`[data-essay-word-index="${index}"]`);
       if (!word) return;
       word.classList.add("is-spoken");
-      const bounds = word.getBoundingClientRect();
-      if (bounds.top < 130 || bounds.bottom > window.innerHeight - 80) {
-        word.scrollIntoView({ block: "center", behavior: "smooth" });
-      }
     }
 
     function essayWordIndexAtTime(words, currentTime) {
@@ -6745,7 +6818,7 @@ Device: concession 讓步
         panel.innerHTML = `
           <div class="section-head">
             <div>
-              <h2>即將推出</h2>
+              <h2>內容準備中</h2>
               <p>這個寫作範圍暫時未加入練習。</p>
             </div>
             <button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>
@@ -7381,6 +7454,97 @@ Device: concession 讓步
       return currentUser?.access?.[sectionKey] !== false;
     }
 
+    function normalizeWritingSearchText(value) {
+      return String(value || "")
+        .normalize("NFKC")
+        .replace(/[’]/g, "'")
+        .toLowerCase()
+        .replace(/[^a-z0-9一-鿿]+/g, " ")
+        .trim();
+    }
+
+    function writingSearchTokens(value) {
+      return normalizeWritingSearchText(value).split(/\s+/).filter(Boolean);
+    }
+
+    function writingSearchMatches(haystack, tokens) {
+      if (!tokens.length) return false;
+      const normalized = normalizeWritingSearchText(haystack);
+      return tokens.every(token => normalized.includes(token));
+    }
+
+    function sectionKeyForWritingExercise(exerciseId) {
+      const id = String(exerciseId || "");
+      if (!id) return "";
+      const dseIds = Object.values(dseWritingQuestionsByYear)
+        .flat()
+        .map(question => question.exerciseId)
+        .filter(Boolean);
+      if (dseIds.includes(id)) return "dse-writing";
+      for (const [sectionKey, pathway] of Object.entries(writingPathways)) {
+        if ((pathway.departments || []).some(department => (department.deckIds || []).includes(id))) return sectionKey;
+        if ((pathway.tasks || []).some(task => {
+          if ((task.deckIds || []).includes(id)) return true;
+          return (task.essayTypes || []).some(type => (type.deckIds || []).includes(id));
+        })) return sectionKey;
+      }
+      return writingSections.some(section => section.key === id) ? id : "";
+    }
+
+    function searchableWritingExercises() {
+      return Object.entries(writingExercises).map(([exerciseId, exercise]) => {
+        const sectionKey = sectionKeyForWritingExercise(exerciseId);
+        const prompt = Array.isArray(exercise?.questionPrompt)
+          ? exercise.questionPrompt.join(" ")
+          : String(exercise?.questionPrompt || "");
+        return { exerciseId, exercise, sectionKey, haystack: `${exercise?.title || ""} ${prompt}` };
+      }).filter(row => row.sectionKey && canAccess(row.sectionKey));
+    }
+
+    function renderWritingSearchResults(query = "") {
+      const list = document.querySelector("[data-writing-search-results]");
+      if (!list) return;
+      const tokens = writingSearchTokens(query);
+      if (!tokens.length) {
+        list.innerHTML = "";
+        return;
+      }
+      const sectionResults = writingSections
+        .filter(section => canAccess(section.key))
+        .filter(section => writingSearchMatches(`${section.label} ${section.subline} ${section.key}`, tokens))
+        .slice(0, 8);
+      const exerciseResults = searchableWritingExercises()
+        .filter(row => writingSearchMatches(row.haystack, tokens))
+        .slice(0, 14);
+      if (!sectionResults.length && !exerciseResults.length) {
+        list.innerHTML = '<p class="writing-search-empty">找不到已開放寫作練習內的相關範疇或文章。</p>';
+        return;
+      }
+      list.innerHTML = `
+        ${sectionResults.length ? `<div class="writing-search-section-label">寫作範疇</div>${sectionResults.map(section => `
+          <button class="writing-search-result" type="button" data-writing-search-section="${escapeHtml(section.key)}">
+            <span><strong>${escapeHtml(section.label)} ${escapeHtml(section.subline)}</strong><small>${escapeHtml(section.key)}</small></span><em>進入</em>
+          </button>`).join("")}` : ""}
+        ${exerciseResults.length ? `<div class="writing-search-section-label">文章</div>${exerciseResults.map(row => `
+          <button class="writing-search-result" type="button" data-writing-search-exercise="${escapeHtml(row.exerciseId)}" data-writing-search-section="${escapeHtml(row.sectionKey)}">
+            <span><strong>${escapeHtml(row.exercise.title || row.exerciseId)}</strong><small>${escapeHtml(row.exercise.exam || "Writing")} | ${escapeHtml(row.exercise.taskType || "文章練習")}</small></span><em>練習</em>
+          </button>`).join("")}` : ""}
+      `;
+    }
+
+    function openWritingExerciseFromSearch(sectionKey, exerciseId) {
+      if (!canAccess(sectionKey) || !exerciseById(exerciseId)) return;
+      currentExerciseSectionKey = sectionKey;
+      currentPathwayLevel = "";
+      currentEssayTypeKey = "";
+      resetDseWritingPathwayState();
+      resetGovernmentWritingPathwayState();
+      currentExerciseId = exerciseId;
+      currentEssayTab = "essay";
+      practiceState = null;
+      showAppPanel("exercise");
+    }
+
     function updateNavActions() {
       document.querySelector("[data-logout]")?.classList.toggle("hidden", !currentUser);
       document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
@@ -7513,6 +7677,8 @@ Device: concession 讓步
       if (welcome) welcome.innerHTML = `歡迎回來！<span>${escapeHtml(currentUser?.name || "學生")}</span>~`;
       const grid = document.querySelector("[data-writing-grid]");
       if (grid) grid.innerHTML = writingSections.map(tileHtml).join("");
+      const searchInput = document.querySelector("[data-writing-search-input]");
+      renderWritingSearchResults(searchInput?.value || "");
     }
 
     function renderStudents() {
@@ -7824,6 +7990,12 @@ Device: concession 讓步
       });
 
       document.addEventListener("submit", event => {
+        const searchForm = event.target.closest("[data-writing-search-form]");
+        if (searchForm) {
+          event.preventDefault();
+          document.querySelector("[data-writing-search-results] button")?.click();
+          return;
+        }
         const practiceForm = event.target.closest("[data-practice-form]");
         if (!practiceForm) return;
         event.preventDefault();
@@ -7850,6 +8022,22 @@ Device: concession 讓步
           currentExerciseId = "";
           practiceState = null;
           showAppPanel("dashboard");
+        }
+
+        const searchExerciseButton = event.target.closest("[data-writing-search-exercise]");
+        if (searchExerciseButton) {
+          openWritingExerciseFromSearch(
+            searchExerciseButton.getAttribute("data-writing-search-section") || "",
+            searchExerciseButton.getAttribute("data-writing-search-exercise") || ""
+          );
+          return;
+        }
+
+        const searchSectionButton = event.target.closest("[data-writing-search-section]");
+        if (searchSectionButton) {
+          const sectionKey = searchSectionButton.getAttribute("data-writing-search-section") || "";
+          if (canAccess(sectionKey)) showExercise(sectionKey);
+          return;
         }
 
         const writingSectionButton = event.target.closest("[data-writing-section]");
@@ -8171,6 +8359,11 @@ Device: concession 讓步
       });
 
       document.addEventListener("input", event => {
+        const searchInput = event.target.closest("[data-writing-search-input]");
+        if (searchInput) {
+          renderWritingSearchResults(searchInput.value);
+          return;
+        }
         const answerInput = event.target.closest("[data-answer-id]");
         if (!answerInput || !practiceState) return;
         practiceState.answers = {
