@@ -180,10 +180,10 @@ input:focus-visible,
   position: absolute;
   top: 4px;
   left: 50%;
-  width: min(172px, 14vw);
-  height: 104px;
-  border-radius: 22px;
-  object-fit: cover;
+  width: min(190px, 15vw);
+  height: auto;
+  max-height: 104px;
+  object-fit: contain;
   filter: drop-shadow(0 15px 18px rgba(22, 60, 85, .16));
   transform: translateX(-50%);
   pointer-events: none;
@@ -304,10 +304,11 @@ input:focus-visible,
 
 .login-story {
   position: relative;
-  min-height: 610px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  min-height: 700px;
+  display: grid;
+  grid-template-rows: auto minmax(260px, 1fr) auto;
+  align-items: center;
+  gap: clamp(18px, 2.4vw, 32px);
   padding: clamp(30px, 5vw, 70px);
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, .56);
@@ -337,15 +338,24 @@ input:focus-visible,
 }
 
 .login-mascot {
-  position: absolute;
-  top: 4%;
-  right: 3%;
-  width: min(430px, 50%);
-  height: 62%;
-  border-radius: 34px;
-  object-fit: cover;
+  position: static;
+  grid-row: 2;
+  justify-self: end;
+  align-self: center;
+  display: block;
+  width: min(460px, 62%);
+  height: auto;
+  max-height: 360px;
+  object-fit: contain;
   filter: drop-shadow(0 24px 34px rgba(21, 67, 90, .17));
   pointer-events: none;
+}
+
+.login-story > div {
+  position: relative;
+  z-index: 1;
+  grid-row: 3;
+  min-width: 0;
 }
 
 .login-story h1 {
@@ -1725,12 +1735,14 @@ button:disabled {
   }
 
   .login-story {
-    min-height: 490px;
+    min-height: auto;
+    grid-template-rows: auto auto auto;
+    gap: 18px;
   }
 
   .login-mascot {
-    width: 50%;
-    height: 48%;
+    width: min(420px, 64%);
+    max-height: 340px;
   }
 
   .choice-grid,
@@ -1827,7 +1839,7 @@ button:disabled {
   }
 
   .login-story {
-    min-height: 420px;
+    min-height: auto;
     padding: 25px;
     border-radius: 27px;
   }
@@ -1842,10 +1854,8 @@ button:disabled {
   }
 
   .login-mascot {
-    top: 12%;
-    right: 0;
-    width: 56%;
-    height: 42%;
+    width: min(330px, 82%);
+    max-height: 300px;
   }
 
   .login-card,
