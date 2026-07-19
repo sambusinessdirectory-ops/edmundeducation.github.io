@@ -1,7 +1,23 @@
 import { CATALOG } from "./catalog.js";
+import { SPEAKING_CATALOG } from "./speaking-catalog.js";
 
 const encoder = new TextEncoder();
-const catalogById = new Map(CATALOG.map(item => [item.id, item]));
+const COLLECTIONS = Object.freeze({
+  task2: Object.freeze({
+    catalog: CATALOG,
+    byId: new Map(CATALOG.map(item => [item.id, item])),
+    bucketBinding: "ESSAYS",
+    auditTask: "task-2",
+    defaultZipName: "Edmund-IELTS-Task-2-Model-Essays.zip"
+  }),
+  speaking: Object.freeze({
+    catalog: SPEAKING_CATALOG,
+    byId: new Map(SPEAKING_CATALOG.map(item => [item.id, item])),
+    bucketBinding: "SPEAKING_ASSETS",
+    auditTask: "speaking",
+    defaultZipName: "Edmund-IELTS-Speaking-All-Parts.zip"
+  })
+});
 const COOKIE_NAME = "__Host-edmund_dl";
 const SESSION_TTL_SECONDS = 15 * 60;
 const ZIP_UTF8_FLAG = 0x0800;
@@ -28,7 +44,12 @@ async function route(request, env, ctx) {
   }
 
   if (url.pathname === "/v1/health" && request.method === "GET") {
-    return json({ ok: true, files: CATALOG.length, service: "edmund-model-essay-downloads" }, 200, request, env);
+    return json({
+      ok: true,
+      files: CATALOG.length + SPEAKING_CATALOG.length,
+      collections: { task2: CATALOG.length, speaking: SPEAKING_CATALOG.length },
+      service: "edmund-model-essay-downloads"
+    }, 200, request, env);
   }
 
   if (url.pathname === "/v1/session" && request.method === "POST") {
@@ -54,7 +75,7 @@ async function route(request, env, ctx) {
     const student = await authenticateRequest(request, env, form);
     if (!student) return json({ error: "Authentication required" }, 401, request, env);
     const id = decodeURIComponent(url.pathname.slice("/v1/files/".length));
-    return downloadFile(request, env, ctx, student, id);
+    return downloadFile(request, env, ctx, student, id, COLLECTIONS.task2);
   }
 
   if (url.pathname === "/v1/zip" && request.method === "POST") {
@@ -63,7 +84,26 @@ async function route(request, env, ctx) {
     if (form instanceof Response) return form;
     const student = await authenticateRequest(request, env, form);
     if (!student) return json({ error: "Authentication required" }, 401, request, env);
-    return downloadZip(request, env, ctx, student, form);
+    return downloadZip(request, env, ctx, student, form, COLLECTIONS.task2);
+  }
+
+  if (url.pathname.startsWith("/v1/speaking/files/") && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    const id = decodeURIComponent(url.pathname.slice("/v1/speaking/files/".length));
+    return downloadFile(request, env, ctx, student, id, COLLECTIONS.speaking);
+  }
+
+  if (url.pathname === "/v1/speaking/zip" && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    return downloadZip(request, env, ctx, student, form, COLLECTIONS.speaking);
   }
 
   return json({ error: "Not found" }, 404, request, env);
@@ -309,15 +349,15 @@ function base64UrlDecode(value) {
   return bytes;
 }
 
-async function downloadFile(request, env, ctx, student, id) {
-  const item = catalogById.get(id);
+async function downloadFile(request, env, ctx, student, id, collection) {
+  const item = collection.byId.get(id);
   if (!item) return json({ error: "File not found" }, 404, request, env);
 
-  const requestId = await recordDownload(env, student, [item], "single_pdf");
+  const requestId = await recordDownload(env, student, [item], "single_pdf", collection.auditTask);
   if (!requestId) return json({ error: "Download access could not be verified" }, 403, request, env);
   let object;
   try {
-    object = await env.ESSAYS.get(item.key);
+    object = await env[collection.bucketBinding]?.get(item.key);
   } catch (error) {
     await finishDownload(env, requestId, "failed");
     return json({ error: "File is temporarily unavailable" }, 503, request, env);
@@ -368,13 +408,14 @@ function contentDisposition(filename) {
   return `attachment; filename="${ascii}"; filename*=UTF-8''${encodeURIComponent(filename)}`;
 }
 
-async function downloadZip(request, env, ctx, student, form) {
+async function downloadZip(request, env, ctx, student, form, collection) {
+  const { catalog, byId } = collection;
   const all = form.get("all") === "1";
   if (all && form.get("confirmAll") !== "1") return json({ error: "Download-all confirmation required" }, 400, request, env);
 
   let items;
   if (all) {
-    items = [...CATALOG];
+    items = [...catalog];
   } else {
     let ids;
     try {
@@ -382,24 +423,24 @@ async function downloadZip(request, env, ctx, student, form) {
     } catch (error) {
       return json({ error: "Invalid file selection" }, 400, request, env);
     }
-    if (!Array.isArray(ids) || ids.length < 1 || ids.length > CATALOG.length) {
-      return json({ error: "Select between 1 and 238 files" }, 400, request, env);
+    if (!Array.isArray(ids) || ids.length < 1 || ids.length > catalog.length) {
+      return json({ error: `Select between 1 and ${catalog.length} files` }, 400, request, env);
     }
     const uniqueIds = [...new Set(ids.map(value => String(value)))];
-    items = uniqueIds.map(id => catalogById.get(id));
+    items = uniqueIds.map(id => byId.get(id));
     if (items.some(item => !item)) return json({ error: "Unknown file selection" }, 400, request, env);
     if (items.length <= 10) return json({ error: "ZIP downloads require more than 10 files" }, 400, request, env);
-    if (items.length === CATALOG.length) {
+    if (items.length === catalog.length) {
       return json({ error: "Use the confirmed download-all request for the full catalog" }, 400, request, env);
     }
   }
 
   const zip = prepareZip(items);
   if (zip.totalLength >= 0xFFFFFFFF) return json({ error: "Archive is too large for ZIP32" }, 413, request, env);
-  const requestId = await recordDownload(env, student, items, all ? "all_bundle" : "selected_zip");
+  const requestId = await recordDownload(env, student, items, all ? "all_bundle" : "selected_zip", collection.auditTask);
   if (!requestId) return json({ error: "Download access could not be verified" }, 403, request, env);
 
-  const requestedName = String(form.get("filename") || "Edmund-IELTS-Task-2-Model-Essays.zip");
+  const requestedName = String(form.get("filename") || collection.defaultZipName);
   const zipName = requestedName.replace(/[^A-Za-z0-9._-]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 100) || "model-essays.zip";
   const { readable, writable } = new FixedLengthStream(zip.totalLength);
 
@@ -407,7 +448,7 @@ async function downloadZip(request, env, ctx, student, form) {
     try {
       for (const entry of zip.entries) {
         await writeStreamChunk(writable, makeLocalHeader(entry));
-        const object = await env.ESSAYS.get(entry.key);
+        const object = await env[collection.bucketBinding]?.get(entry.key);
         if (!object || object.size !== entry.bytes) throw new Error(`R2 catalog mismatch: ${entry.id}`);
         await object.body.pipeTo(writable, { preventClose: true, preventAbort: true });
       }
@@ -443,7 +484,7 @@ async function downloadZip(request, env, ctx, student, form) {
   return new Response(readable, { status: 200, headers });
 }
 
-async function recordDownload(env, student, items, eventType) {
+async function recordDownload(env, student, items, eventType, auditTask) {
   const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/model_essay_record_download`;
   if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY || !env.MODEL_ESSAY_SERVICE_SECRET) return null;
   const requestId = crypto.randomUUID();
@@ -452,7 +493,7 @@ async function recordDownload(env, student, items, eventType) {
     p_request_id: requestId,
     p_student_id: student.sub,
     p_section: "ielts",
-    p_task: "task-2",
+    p_task: auditTask,
     p_event_type: eventType,
     p_essay_ids: items.map(item => item.id),
     p_total_bytes: items.reduce((sum, item) => sum + item.bytes, 0)

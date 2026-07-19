@@ -4,16 +4,20 @@
   const SESSION_KEY = "edmundModelEssayDownloadSession";
   const PAGE_SIZE = 20;
   const ADMIN_PAGE_SIZE = 20;
-  const essays = Array.isArray(window.EDMUND_MODEL_ESSAYS) ? window.EDMUND_MODEL_ESSAYS : [];
+  const task2Essays = Array.isArray(window.EDMUND_MODEL_ESSAYS) ? window.EDMUND_MODEL_ESSAYS : [];
+  const speakingFiles = Array.isArray(window.EDMUND_IELTS_SPEAKING_DOWNLOADS)
+    ? window.EDMUND_IELTS_SPEAKING_DOWNLOADS
+    : [];
   const questionData = window.EDMUND_MODEL_ESSAY_QUESTION_DATA || {};
-  const meta = window.EDMUND_MODEL_ESSAY_META || {};
+  const task2Meta = window.EDMUND_MODEL_ESSAY_META || {};
+  const speakingMeta = window.EDMUND_IELTS_SPEAKING_META || {};
   const supabaseConfig = window.EDMUND_SUPABASE || {};
   const apiBase = String(window.EDMUND_DOWNLOAD_API_BASE || "").replace(/\/+$/, "");
   const supabaseClient = window.supabase?.createClient && supabaseConfig.url && supabaseConfig.anonKey
     ? window.supabase.createClient(supabaseConfig.url, supabaseConfig.anonKey)
     : null;
 
-  const filters = [
+  const task2Filters = [
     { key: "all", label: "全部" },
     { key: "advantage-disadvantage", label: "Advantage and Disadvantage" },
     { key: "opinion", label: "Opinions" },
@@ -22,9 +26,76 @@
     { key: "direct-question", label: "Direct Question" }
   ];
 
+  const speakingFilters = [
+    { key: "all", label: "全部" },
+    { key: "part-1", label: "Speaking Part 1" },
+    { key: "part-2", label: "Speaking Part 2" },
+    { key: "part-3", label: "Speaking Part 3" }
+  ];
+
+  const catalogs = Object.freeze({
+    task2: Object.freeze({
+      key: "task2",
+      items: task2Essays,
+      meta: task2Meta,
+      filters: task2Filters,
+      initialSort: "number-asc",
+      endpointPrefix: "",
+      breadcrumb: "Task 2",
+      eyebrow: "IELTS WRITING TASK 2",
+      titleHtml: "Band 9 Model Essays<br>範文下載庫",
+      totalUnit: "份 PDF 範文",
+      itemNoun: "範文",
+      filterLabel: "題型篩選",
+      searchLabel: "搜尋檔案名稱或 Model Essay 編號",
+      searchPlaceholder: "搜尋檔案名稱或 Model Essay 編號...",
+      categorySortLabel: "按題型分類",
+      emptyTitle: "找不到符合條件的範文",
+      emptyCopy: "請嘗試另一個關鍵字或題型篩選。",
+      allTitle: "確定下載全部範文？",
+      allCopy: "系統會把全部 IELTS Task 2 範文整理成一個 ZIP 檔案。檔案較大，下載可能需要一些時間。",
+      allZipName: "Edmund-IELTS-Task-2-All-Model-Essays.zip",
+      selectedZipPrefix: "Edmund-IELTS-Task-2-Selected",
+      kicker: item => `MODEL ESSAY ${item.number}`,
+      detailFallback: "題目資料暫時未能顯示。"
+    }),
+    speaking: Object.freeze({
+      key: "speaking",
+      items: speakingFiles,
+      meta: speakingMeta,
+      filters: speakingFilters,
+      initialSort: "category",
+      endpointPrefix: "/speaking",
+      breadcrumb: "Speaking",
+      eyebrow: "IELTS SPEAKING · PART 1 / 2 / 3",
+      titleHtml: "Band 9 Speaking Samples<br>口試教材下載庫",
+      totalUnit: "份 PDF 教材",
+      itemNoun: "教材",
+      filterLabel: "Speaking Part 篩選",
+      searchLabel: "搜尋 Book 編號或檔案名稱",
+      searchPlaceholder: "搜尋 Book 編號或檔案名稱...",
+      categorySortLabel: "按 Speaking Part 分類",
+      emptyTitle: "找不到符合條件的 Speaking 教材",
+      emptyCopy: "請嘗試另一個 Book 編號、關鍵字或 Part 篩選。",
+      allTitle: "確定下載全部 Speaking 教材？",
+      allCopy: "系統會把 IELTS Speaking Part 1、Part 2 及 Part 3 的全部 46 份教材整理成一個 ZIP 檔案。檔案約 101 MB，下載可能需要一些時間。",
+      allZipName: "Edmund-IELTS-Speaking-All-Parts.zip",
+      selectedZipPrefix: "Edmund-IELTS-Speaking-Selected",
+      kicker: item => `SPEAKING PART ${item.part} · BOOK ${item.book}`,
+      detailFallback: "IELTS Speaking Band 9 sample PDF。"
+    })
+  });
+
+  let activeCatalog = catalogs.task2;
+  let essays = activeCatalog.items;
+  let meta = activeCatalog.meta;
+  let filters = activeCatalog.filters;
+  let byId = new Map(essays.map(item => [item.id, item]));
+  const allItemsById = new Map([...task2Essays, ...speakingFiles].map(item => [item.id, item]));
+
   const exams = [
     { key: "dse", label: "DSE", subline: "英文文憑試範文", contentAvailable: false },
-    { key: "ielts", label: "IELTS", subline: "雅思寫作範文", contentAvailable: true, featured: true },
+    { key: "ielts", label: "IELTS", subline: "雅思寫作及口試教材", contentAvailable: true, featured: true },
     { key: "toeic", label: "TOEIC", subline: "職場英語寫作範文", contentAvailable: false },
     { key: "toefl", label: "TOEFL", subline: "托福寫作範文", contentAvailable: false },
     { key: "pte", label: "PTE", subline: "培生英語寫作範文", contentAvailable: false },
@@ -42,6 +113,7 @@
 
   const state = {
     currentUser: null,
+    catalogKey: "task2",
     filter: "all",
     query: "",
     sort: "number-asc",
@@ -61,7 +133,6 @@
     adminLoading: false
   };
 
-  const byId = new Map(essays.map(essay => [essay.id, essay]));
   const views = [...document.querySelectorAll("[data-view]")];
   const connectionStatus = document.querySelector("[data-connection-status]");
   const loginForm = document.querySelector("[data-login-form]");
@@ -92,9 +163,60 @@
   const adminLogPrev = document.querySelector("[data-admin-log-prev]");
   const adminLogNext = document.querySelector("[data-admin-log-next]");
   const toastRegion = document.querySelector("[data-toast-region]");
+  const catalogBreadcrumb = document.querySelector("[data-catalog-breadcrumb]");
+  const catalogEyebrow = document.querySelector("[data-catalog-eyebrow]");
+  const catalogTitle = document.querySelector("[data-catalog-title]");
+  const totalCount = document.querySelector("[data-total-count]");
+  const totalUnit = document.querySelector("[data-total-unit]");
+  const searchLabel = document.querySelector("[data-search-label]");
+  const categorySortOption = document.querySelector("[data-category-sort-option]");
+  const allDownloadTitle = document.querySelector("[data-all-download-title]");
+  const allDownloadCopy = document.querySelector("[data-all-download-copy]");
 
   function essayQuestion(essay) {
+    if (state.catalogKey === "speaking") {
+      return {
+        question: `IELTS Speaking Part ${essay?.part} · Book ${essay?.book}，Band 9 sample PDF。`,
+        tags: []
+      };
+    }
     return questionData[essay?.category + ":" + essay?.number] || { question: "", tags: [] };
+  }
+
+  function configureCatalogUi() {
+    if (catalogBreadcrumb) catalogBreadcrumb.textContent = activeCatalog.breadcrumb;
+    if (catalogEyebrow) catalogEyebrow.textContent = activeCatalog.eyebrow;
+    if (catalogTitle) catalogTitle.innerHTML = activeCatalog.titleHtml;
+    if (totalCount) totalCount.textContent = String(essays.length);
+    if (totalUnit) totalUnit.textContent = activeCatalog.totalUnit;
+    if (searchLabel) searchLabel.textContent = activeCatalog.searchLabel;
+    if (searchInput) {
+      searchInput.value = state.query;
+      searchInput.placeholder = activeCatalog.searchPlaceholder;
+    }
+    if (sortSelect) sortSelect.value = state.sort;
+    if (categorySortOption) categorySortOption.textContent = activeCatalog.categorySortLabel;
+    if (filterChips) filterChips.setAttribute("aria-label", activeCatalog.filterLabel);
+    if (allDownloadTitle) allDownloadTitle.textContent = activeCatalog.allTitle;
+    if (allDownloadCopy) allDownloadCopy.textContent = activeCatalog.allCopy;
+  }
+
+  function activateCatalog(key) {
+    const next = catalogs[key];
+    if (!next) return;
+    activeCatalog = next;
+    essays = next.items;
+    meta = next.meta;
+    filters = next.filters;
+    byId = new Map(essays.map(item => [item.id, item]));
+    state.catalogKey = next.key;
+    state.filter = "all";
+    state.query = "";
+    state.sort = next.initialSort;
+    state.page = 1;
+    state.selected.clear();
+    configureCatalogUi();
+    showView("catalog");
   }
 
   function normalizeAccess(access) {
@@ -301,7 +423,7 @@
       if (previousIelts && !state.currentUser.access.ielts
         && ["ielts", "catalog"].includes(document.body.dataset.currentView)) {
         showView("dashboard", { scroll: false });
-        showToast("IELTS 範文權限已更新。", "default", 4500);
+        showToast("IELTS 教材權限已更新。", "default", 4500);
       }
     })().finally(() => { permissionRefreshPromise = null; });
     return permissionRefreshPromise;
@@ -361,7 +483,7 @@
       if (response.status === 403) {
         state.downloadToken = "";
         state.downloadTokenExpiresAt = 0;
-        showToast("此帳戶未獲授權下載 IELTS 範文。", "error", 5600);
+        showToast("此帳戶未獲授權下載 IELTS 教材。", "error", 5600);
         return false;
       }
       if (!response.ok) return false;
@@ -466,7 +588,7 @@
         <img class="essay-thumb" src="${escapeHtml(essay.thumbnail)}" alt="${escapeHtml(essay.filename)} 第一頁縮圖" loading="lazy" width="84" height="109">
         <div class="essay-main">
           <div class="essay-kicker">
-            <span class="essay-number">MODEL ESSAY ${essay.number}</span>
+            <span class="essay-number">${escapeHtml(activeCatalog.kicker(essay))}</span>
             ${tags}
             ${essay.problem ? '<span class="problem-badge">需留意</span>' : ""}
           </div>
@@ -506,13 +628,13 @@
 
     if (resultSummary) {
       const filterLabel = filters.find(filter => filter.key === state.filter)?.label || "全部";
-      resultSummary.textContent = `顯示 ${rows.length} 份範文 · ${filterLabel}${state.query ? ` · 搜尋「${state.query}」` : ""}`;
+      resultSummary.textContent = `顯示 ${rows.length} 份${activeCatalog.itemNoun} · ${filterLabel}${state.query ? ` · 搜尋「${state.query}」` : ""}`;
     }
 
     if (catalogList) {
       catalogList.innerHTML = page.rows.length
         ? page.rows.map(rowHtml).join("")
-        : '<div class="empty-state"><strong>找不到符合條件的範文</strong><span>請嘗試另一個關鍵字或題型篩選。</span></div>';
+        : `<div class="empty-state"><strong>${escapeHtml(activeCatalog.emptyTitle)}</strong><span>${escapeHtml(activeCatalog.emptyCopy)}</span></div>`;
     }
 
     if (pageSummary) {
@@ -527,6 +649,7 @@
 
   async function downloadOne(essay) {
     if (!essay) return;
+    const catalog = activeCatalog;
     const ready = await openDownloadSession();
     if (!ready) {
       showToast("下載服務暫時未能連線，請稍後再試。", "error", 5200);
@@ -541,7 +664,7 @@
 
     const form = document.createElement("form");
     form.method = "post";
-    form.action = `${apiBase}/v1/files/${encodeURIComponent(essay.id)}`;
+    form.action = `${apiBase}/v1${catalog.endpointPrefix}/files/${encodeURIComponent(essay.id)}`;
     form.target = frame.name;
     form.hidden = true;
     const token = document.createElement("input");
@@ -556,15 +679,16 @@
   }
 
   function submitZip(items, options = {}) {
+    const catalog = options.catalog || activeCatalog;
     const form = document.createElement("form");
     form.method = "post";
-    form.action = `${apiBase}/v1/zip`;
+    form.action = `${apiBase}/v1${catalog.endpointPrefix}/zip`;
     form.target = "edmund-download-frame";
     form.hidden = true;
 
     const fields = {
       ids: JSON.stringify(items.map(item => item.id)),
-      filename: options.filename || "Edmund-IELTS-Task-2-Model-Essays.zip",
+      filename: options.filename || catalog.allZipName,
       all: options.all ? "1" : "0",
       confirmAll: options.all ? "1" : "0",
       downloadToken: state.downloadToken
@@ -584,12 +708,13 @@
   }
 
   async function downloadZip(items, options = {}) {
+    const catalog = activeCatalog;
     if (!(await openDownloadSession())) {
       showToast("ZIP 下載服務暫時未能連線，請稍後再試。", "error", 6500);
       return false;
     }
-    submitZip(items, options);
-    showToast(`正在準備 ${items.length} 份範文的 ZIP 下載…`, "success", 6500);
+    submitZip(items, { ...options, catalog });
+    showToast(`正在準備 ${items.length} 份${catalog.itemNoun}的 ZIP 下載…`, "success", 6500);
     return true;
   }
 
@@ -601,7 +726,7 @@
       return;
     }
     if (items.length > 10) {
-      await downloadZip(items, { filename: `Edmund-IELTS-Task-2-Selected-${items.length}.zip` });
+      await downloadZip(items, { filename: `${activeCatalog.selectedZipPrefix}-${items.length}.zip` });
       return;
     }
 
@@ -629,7 +754,7 @@
 
   async function confirmDownloadAll() {
     closeDownloadAllModal();
-    await downloadZip(essays, { all: true, filename: "Edmund-IELTS-Task-2-All-Model-Essays.zip" });
+    await downloadZip(essays, { all: true, filename: activeCatalog.allZipName });
   }
 
   function openDetailModal(essay, trigger) {
@@ -637,12 +762,12 @@
     const detail = essayQuestion(essay);
     state.detailEssay = essay;
     state.detailReturnFocus = trigger || document.activeElement;
-    detailModal.querySelector("[data-detail-number]").textContent = `MODEL ESSAY ${essay.number} · ${essay.categoryLabel}`;
+    detailModal.querySelector("[data-detail-number]").textContent = `${activeCatalog.kicker(essay)} · ${essay.categoryLabel}`;
     detailModal.querySelector("[data-detail-tags]").innerHTML = detail.tags
       .map(tag => `<span class="topic-tag">${escapeHtml(tag)}</span>`)
       .join("");
     detailModal.querySelector("[data-detail-title]").textContent = essay.filename;
-    detailModal.querySelector("[data-detail-question]").textContent = detail.question || "題目資料暫時未能顯示。";
+    detailModal.querySelector("[data-detail-question]").textContent = detail.question || activeCatalog.detailFallback;
     detailModal.querySelector("[data-detail-meta]").textContent = `PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}`;
     const thumbnail = detailModal.querySelector("[data-detail-thumbnail]");
     thumbnail.src = essay.thumbnail;
@@ -720,11 +845,14 @@
 
   function logEssayLabel(event) {
     const ids = Array.isArray(event.essay_ids) ? event.essay_ids : [];
-    if (event.event_type === "all_bundle") return "<strong>All essay bundle</strong>";
-    const names = ids.map(id => byId.get(id)?.filename || id);
-    if (event.event_type === "single_pdf") return escapeHtml(names[0] || "Model essay");
+    const isSpeaking = event.task === "speaking";
+    if (event.event_type === "all_bundle") {
+      return `<strong>${isSpeaking ? "All IELTS Speaking bundle" : "All Task 2 essay bundle"}</strong>`;
+    }
+    const names = ids.map(id => allItemsById.get(id)?.filename || id);
+    if (event.event_type === "single_pdf") return escapeHtml(names[0] || "PDF");
     const items = names.map(name => `<li>${escapeHtml(name)}</li>`).join("");
-    return `<details><summary>${names.length} 份已選範文</summary><ul>${items}</ul></details>`;
+    return `<details><summary>${names.length} 份已選${isSpeaking ? "Speaking 教材" : "範文"}</summary><ul>${items}</ul></details>`;
   }
 
   function renderAdminLogs(rows, totalCount) {
@@ -871,7 +999,7 @@
       }
     } finally {
       loginButton.disabled = false;
-      loginButton.textContent = "進入範文下載區";
+      loginButton.textContent = "進入教材下載區";
     }
   });
 
@@ -906,11 +1034,13 @@
     if (button.dataset.examKey === "ielts") {
       showView("ielts");
     } else {
-      showToast("此範文區暫未有可下載內容。", "default", 4200);
+      showToast("此教材區暫未有可下載內容。", "default", 4200);
     }
   });
 
-  document.querySelector("[data-open-catalog]")?.addEventListener("click", () => showView("catalog"));
+  document.querySelectorAll("[data-open-catalog]").forEach(button => {
+    button.addEventListener("click", () => activateCatalog(button.dataset.openCatalog || "task2"));
+  });
 
   document.addEventListener("click", event => {
     const go = event.target.closest("[data-go]");
@@ -1046,8 +1176,8 @@
 
   async function initialize() {
     renderExamGrid();
+    configureCatalogUi();
     renderFilterChips();
-    document.querySelector("[data-total-count]").textContent = String(essays.length);
     restoreSession();
     setConnection("正在連接", "connecting");
     try {

@@ -7,6 +7,7 @@ import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import worker from "../workers/model-essay-downloads/src/index.js";
 import { CATALOG } from "../workers/model-essay-downloads/src/catalog.js";
+import { SPEAKING_CATALOG } from "../workers/model-essay-downloads/src/speaking-catalog.js";
 
 globalThis.FixedLengthStream ||= class FixedLengthStream {
   constructor() {
@@ -19,11 +20,19 @@ globalThis.FixedLengthStream ||= class FixedLengthStream {
 const source = process.argv[2];
 const output = process.argv[3];
 const testAll = process.argv.includes("--all");
+const speakingSourceFlag = process.argv.indexOf("--speaking-source");
+const speakingOutputFlag = process.argv.indexOf("--speaking-output");
+const speakingSource = speakingSourceFlag >= 0 ? process.argv[speakingSourceFlag + 1] : "";
+const speakingOutput = speakingOutputFlag >= 0 ? process.argv[speakingOutputFlag + 1] : "";
 if (!source || !output) {
-  throw new Error("Usage: test-model-essay-download-worker.mjs <PDF folder> <ZIP output>");
+  throw new Error("Usage: test-model-essay-download-worker.mjs <Task 2 PDF folder> <Task 2 ZIP output> [--all] [--speaking-source <folder> --speaking-output <ZIP output>]");
+}
+if (Boolean(speakingSource) !== Boolean(speakingOutput)) {
+  throw new Error("--speaking-source and --speaking-output must be supplied together");
 }
 
 const completionStatuses = [];
+const recordedAuditTasks = [];
 const originalFetch = globalThis.fetch;
 globalThis.fetch = async (url, options = {}) => {
   if (String(url).includes("model_essay_admin_login")) {
@@ -46,6 +55,7 @@ globalThis.fetch = async (url, options = {}) => {
   if (String(url).includes("model_essay_record_download")) {
     const body = JSON.parse(String(options.body || "{}"));
     if (!body.p_request_id || !Array.isArray(body.p_essay_ids)) return Response.json(null);
+    recordedAuditTasks.push(body.p_task);
     return Response.json(body.p_request_id);
   }
   if (String(url).includes("model_essay_finish_download")) {
@@ -57,6 +67,23 @@ globalThis.fetch = async (url, options = {}) => {
   return originalFetch(url, options);
 };
 
+function localBucket(folder) {
+  return {
+    async head(key) {
+      const bytes = await fs.readFile(path.join(folder, path.basename(key)));
+      return { size: bytes.length, httpEtag: '"test-etag"' };
+    },
+    async get(key) {
+      const bytes = await fs.readFile(path.join(folder, path.basename(key)));
+      return {
+        size: bytes.length,
+        httpEtag: '"test-etag"',
+        body: Readable.toWeb(Readable.from(bytes))
+      };
+    }
+  };
+}
+
 const env = {
   ALLOWED_ORIGIN: "https://edmundeducation.com",
   SUPABASE_URL: "https://example.supabase.co",
@@ -66,20 +93,8 @@ const env = {
   ADMIN_LOGIN_RATE_LIMITER: {
     async limit() { return { success: true }; }
   },
-  ESSAYS: {
-    async head(key) {
-      const bytes = await fs.readFile(path.join(source, path.basename(key)));
-      return { size: bytes.length, httpEtag: '"test-etag"' };
-    },
-    async get(key) {
-      const bytes = await fs.readFile(path.join(source, path.basename(key)));
-      return {
-        size: bytes.length,
-        httpEtag: '"test-etag"',
-        body: Readable.toWeb(Readable.from(bytes))
-      };
-    }
-  }
+  ESSAYS: localBucket(source),
+  SPEAKING_ASSETS: speakingSource ? localBucket(speakingSource) : null
 };
 
 const background = [];
@@ -195,6 +210,113 @@ if (completionStatuses.filter(status => status === "completed").length < 2) {
   throw new Error("ZIP and single-file completion events were not recorded");
 }
 
+let speakingResult = null;
+if (speakingSource) {
+  const unconfirmedSpeakingRequest = new Request("https://downloads.edmundeducation.com/v1/speaking/zip", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Origin": env.ALLOWED_ORIGIN
+    },
+    body: new URLSearchParams({
+      ids: JSON.stringify(SPEAKING_CATALOG.map(item => item.id)),
+      all: "0",
+      confirmAll: "0",
+      downloadToken
+    })
+  });
+  const unconfirmedSpeakingResponse = await worker.fetch(unconfirmedSpeakingRequest, env, ctx);
+  if (unconfirmedSpeakingResponse.status !== 400) {
+    throw new Error(`Unconfirmed full Speaking catalog was not rejected: ${unconfirmedSpeakingResponse.status}`);
+  }
+
+  const speakingSelected = SPEAKING_CATALOG.slice(0, 11);
+  const selectedSpeakingOutput = speakingOutput.replace(/\.zip$/i, "-selected.zip");
+  const selectedSpeakingRequest = new Request("https://downloads.edmundeducation.com/v1/speaking/zip", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Origin": env.ALLOWED_ORIGIN
+    },
+    body: new URLSearchParams({
+      ids: JSON.stringify(speakingSelected.map(item => item.id)),
+      filename: "speaking-selected-test.zip",
+      all: "0",
+      confirmAll: "0",
+      downloadToken
+    })
+  });
+  const selectedSpeakingResponse = await worker.fetch(selectedSpeakingRequest, env, ctx);
+  if (selectedSpeakingResponse.status !== 200) {
+    throw new Error(`Selected Speaking ZIP failed: ${selectedSpeakingResponse.status}`);
+  }
+  await pipeline(Readable.fromWeb(selectedSpeakingResponse.body), createWriteStream(selectedSpeakingOutput));
+  await Promise.all(background);
+
+  const allSpeakingRequest = new Request("https://downloads.edmundeducation.com/v1/speaking/zip", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Origin": env.ALLOWED_ORIGIN
+    },
+    body: new URLSearchParams({
+      ids: JSON.stringify(SPEAKING_CATALOG.map(item => item.id)),
+      filename: "Edmund-IELTS-Speaking-All-Parts.zip",
+      all: "1",
+      confirmAll: "1",
+      downloadToken
+    })
+  });
+  const allSpeakingResponse = await worker.fetch(allSpeakingRequest, env, ctx);
+  if (allSpeakingResponse.status !== 200) {
+    throw new Error(`All Speaking ZIP failed: ${allSpeakingResponse.status}`);
+  }
+  await pipeline(Readable.fromWeb(allSpeakingResponse.body), createWriteStream(speakingOutput));
+  await Promise.all(background);
+  const allSpeakingStat = await fs.stat(speakingOutput);
+  if (Number(allSpeakingResponse.headers.get("content-length")) !== allSpeakingStat.size) {
+    throw new Error("Speaking ZIP Content-Length did not match streamed bytes");
+  }
+
+  const speakingFileRequest = new Request(`https://downloads.edmundeducation.com/v1/speaking/files/${SPEAKING_CATALOG[0].id}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      "Origin": env.ALLOWED_ORIGIN
+    },
+    body: new URLSearchParams({ downloadToken })
+  });
+  const speakingFileResponse = await worker.fetch(speakingFileRequest, env, ctx);
+  if (speakingFileResponse.status !== 200) {
+    throw new Error(`Speaking single file failed: ${speakingFileResponse.status}`);
+  }
+  const speakingFileBytes = new Uint8Array(await speakingFileResponse.arrayBuffer());
+  if (speakingFileBytes.length !== SPEAKING_CATALOG[0].bytes) {
+    throw new Error("Speaking single-file byte count did not match catalog");
+  }
+  await Promise.all(background);
+
+  if (!recordedAuditTasks.includes("speaking")) {
+    throw new Error("Speaking downloads were not recorded with the speaking audit task");
+  }
+  speakingResult = {
+    selectedZipStatus: selectedSpeakingResponse.status,
+    selectedZipFiles: speakingSelected.length,
+    selectedZipOutput: selectedSpeakingOutput,
+    allZipStatus: allSpeakingResponse.status,
+    allZipFiles: SPEAKING_CATALOG.length,
+    allZipBytes: allSpeakingStat.size,
+    allZipOutput: speakingOutput,
+    fileStatus: speakingFileResponse.status,
+    fileBytes: speakingFileBytes.length,
+    unconfirmedAllStatus: unconfirmedSpeakingResponse.status
+  };
+}
+
+if (!recordedAuditTasks.includes("task-2")) {
+  throw new Error("Task 2 downloads were not recorded with the task-2 audit task");
+}
+
 console.log(JSON.stringify({
   adminStatus: adminResponse.status,
   oversizedSessionStatus: oversizedSessionResponse.status,
@@ -207,5 +329,7 @@ console.log(JSON.stringify({
   fileStatus: fileResponse.status,
   fileBytes: fileBytes.length,
   completedAudits: completionStatuses.filter(status => status === "completed").length,
-  output
+  output,
+  auditTasks: [...new Set(recordedAuditTasks)],
+  speaking: speakingResult
 }, null, 2));

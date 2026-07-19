@@ -9,6 +9,10 @@
     {
       "binding": "ESSAYS",
       "bucket_name": "edmund-model-essays-private"
+    },
+    {
+      "binding": "SPEAKING_ASSETS",
+      "bucket_name": "edmund-assets"
     }
   ],
   "ratelimits": [

@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="EdmundEducation 學生範文下載區：IELTS Task 2 Band 9 範文搜尋、篩選及批量下載。">
+  <meta name="description" content="EdmundEducation IELTS 下載區：Writing Task 2 Band 9 範文及 Speaking Part 1、2、3 教材，支援搜尋、篩選及批量下載。">
   <meta name="theme-color" content="#4f75e8">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="學生範文下載區 | EdmundEducation">
-  <meta property="og:description" content="238 份 IELTS Writing Task 2 Band 9 範文，支援搜尋、題型篩選及批量下載。">
+  <meta property="og:title" content="學生教材下載區 | EdmundEducation">
+  <meta property="og:description" content="IELTS Writing Task 2 Band 9 範文及 46 份 Speaking Part 1、2、3 教材，支援搜尋、分類篩選及批量下載。">
   <meta property="og:url" content="https://edmundeducation.com/model-essay-downloads.html">
   <meta property="og:image" content="https://edmundeducation.com/assets/model-essays/og.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="學生範文下載區 | EdmundEducation">
-  <meta name="twitter:description" content="238 份 IELTS Writing Task 2 Band 9 範文。">
+  <meta name="twitter:title" content="學生教材下載區 | EdmundEducation">
+  <meta name="twitter:description" content="IELTS Writing Task 2 Band 9 範文及 Speaking Part 1、2、3 教材。">
   <meta name="twitter:image" content="https://edmundeducation.com/assets/model-essays/og.png">
-  <title>學生範文下載區 | EdmundEducation</title>
+  <title>學生教材下載區 | EdmundEducation</title>
   <link rel="icon" href="Company Logo for Cover Page.png">
   <link rel="stylesheet" href="page-loader.css">
   <style>
@@ -453,7 +453,7 @@
     .exam-card:disabled,
     .task-card:disabled { cursor: not-allowed; opacity: .68; filter: saturate(.62); }
 
-    .task-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .task-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     .task-card { min-height: 245px; padding: clamp(28px, 4vw, 48px); }
     .task-number { font-size: 58px !important; line-height: .9 !important; opacity: .20; }
     .task-card strong:not(.task-number) { margin-top: 28px; font-size: clamp(26px, 3vw, 38px); }
@@ -678,6 +678,9 @@
     .category-pill[data-category="cause-solution"] { background: #f4e8ff; color: #7d45a6; }
     .category-pill[data-category="direct-question"] { background: #e5f7f0; color: #197859; }
     .category-pill[data-category="discuss-both-views"] { background: #fff0dc; color: #9b5b16; }
+    .category-pill[data-category="part-1"] { background: #e7eeff; color: #365bb9; }
+    .category-pill[data-category="part-2"] { background: #f4e8ff; color: #7d45a6; }
+    .category-pill[data-category="part-3"] { background: #ffe8ef; color: #b43766; }
 
     .row-download {
       min-height: 42px;
@@ -856,6 +859,7 @@
       .login-cover-art { width: min(86%, 560px); max-height: 480px; }
       .login-panel { min-height: 520px; }
       .exam-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .task-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .catalog-tools { grid-template-columns: 1fr 200px; }
       .download-all-button { grid-column: 1 / -1; }
       .essay-row { grid-template-columns: 28px 78px minmax(0, 1fr) 118px; }
@@ -943,7 +947,7 @@
           <p class="eyebrow">EDMUND STUDENT LIBRARY</p>
           <h1>
             <span>學生使用</span>
-            <span class="soft-line">DSE / IELTS 其他範文下載區</span>
+            <span class="soft-line">DSE / IELTS 教材及範文下載區</span>
           </h1>
         </div>
 
@@ -964,7 +968,7 @@
                 <button class="password-toggle" type="button" data-password-toggle aria-pressed="false">顯示</button>
               </div>
             </div>
-            <button class="primary-button" type="submit" data-login-button>進入範文下載區</button>
+            <button class="primary-button" type="submit" data-login-button>進入教材下載區</button>
             <p class="form-status" data-login-status role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -973,12 +977,12 @@
 
     <section data-view="dashboard" hidden>
       <nav class="breadcrumb" aria-label="目前位置">
-        <button class="crumb-button" type="button" data-go="dashboard">範文下載區</button>
+        <button class="crumb-button" type="button" data-go="dashboard">教材下載區</button>
       </nav>
       <div class="section-hero glass-card">
         <div>
           <p>WELCOME BACK</p>
-          <h1>您好，<span data-welcome-name>同學</span>！<br>您想下載哪一類範文？</h1>
+          <h1>您好，<span data-welcome-name>同學</span>！<br>您想下載哪一類教材？</h1>
         </div>
       </div>
       <div class="exam-grid" data-exam-grid></div>
@@ -1000,8 +1004,8 @@
         <section class="admin-section" aria-labelledby="student-access-title">
           <div class="admin-section-heading">
             <div>
-              <h2 id="student-access-title">學生範文權限</h2>
-              <p>每個考試範文區可獨立開啟或關閉；設定會即時套用至共用學生帳戶。</p>
+              <h2 id="student-access-title">學生教材權限</h2>
+              <p>每個考試教材區可獨立開啟或關閉；設定會即時套用至共用學生帳戶。</p>
             </div>
           </div>
           <p class="admin-status" data-admin-status role="status" aria-live="polite"></p>
@@ -1016,7 +1020,7 @@
                   <th scope="col">TOEFL</th>
                   <th scope="col">PTE</th>
                   <th scope="col">公務員寫作</th>
-                  <th scope="col">累計下載範文</th>
+                  <th scope="col">累計下載檔案</th>
                 </tr>
               </thead>
               <tbody data-admin-students>
@@ -1030,7 +1034,7 @@
           <div class="admin-section-heading">
             <div>
               <h2 id="download-log-title">下載紀錄</h2>
-              <p>顯示下載學生、範文、數量、完成狀態與時間；「All essay bundle」代表一鍵下載全部。</p>
+              <p>顯示下載學生、檔案、數量、完成狀態與時間；全部 ZIP 代表一鍵下載整個資料庫。</p>
             </div>
             <label class="admin-log-controls">
               <span class="sr-only">按學生篩選下載紀錄</span>
@@ -1045,9 +1049,9 @@
                 <tr>
                   <th scope="col">下載時間</th>
                   <th scope="col">學生</th>
-                  <th scope="col">範文</th>
+                  <th scope="col">檔案</th>
                   <th scope="col">方式</th>
-                  <th scope="col">範文數量</th>
+                  <th scope="col">檔案數量</th>
                   <th scope="col">狀態</th>
                 </tr>
               </thead>
@@ -1069,14 +1073,14 @@
 
     <section data-view="ielts" hidden>
       <nav class="breadcrumb" aria-label="目前位置">
-        <button class="crumb-button" type="button" data-go="dashboard">範文下載區</button>
+        <button class="crumb-button" type="button" data-go="dashboard">教材下載區</button>
         <span aria-hidden="true">/</span>
         <span>IELTS</span>
       </nav>
       <div class="section-hero glass-card">
         <div>
-          <p>IELTS WRITING</p>
-          <h1>選擇寫作部分</h1>
+          <p>IELTS DOWNLOADS</p>
+          <h1>選擇 IELTS 部分</h1>
         </div>
       </div>
       <div class="task-grid">
@@ -1085,33 +1089,39 @@
           <strong>Task 1</strong>
           <span>Charts / 圖表寫作</span>
         </button>
-        <button class="task-card featured" type="button" data-open-catalog>
+        <button class="task-card featured" type="button" data-open-catalog="task2">
           <strong class="task-number">02</strong>
           <strong>Task 2</strong>
           <span>Essay / 議論文寫作</span>
           <span class="card-tag">238 份 Band 9 範文</span>
+        </button>
+        <button class="task-card featured" type="button" data-open-catalog="speaking">
+          <strong class="task-number">03</strong>
+          <strong>Speaking</strong>
+          <span>Part 1 / Part 2 / Part 3</span>
+          <span class="card-tag">46 份 Band 9 Samples</span>
         </button>
       </div>
     </section>
 
     <section data-view="catalog" hidden>
       <nav class="breadcrumb" aria-label="目前位置">
-        <button class="crumb-button" type="button" data-go="dashboard">範文下載區</button>
+        <button class="crumb-button" type="button" data-go="dashboard">教材下載區</button>
         <span aria-hidden="true">/</span>
         <button class="crumb-button" type="button" data-go="ielts">IELTS</button>
         <span aria-hidden="true">/</span>
-        <span>Task 2</span>
+        <span data-catalog-breadcrumb>Task 2</span>
       </nav>
 
       <div class="catalog-hero glass-card">
         <div class="catalog-hero-grid">
           <div>
-            <p>IELTS WRITING TASK 2</p>
-            <h1>Band 9 Model Essays<br>範文下載庫</h1>
+            <p data-catalog-eyebrow>IELTS WRITING TASK 2</p>
+            <h1 data-catalog-title>Band 9 Model Essays<br>範文下載庫</h1>
           </div>
           <div class="catalog-stat">
             <strong data-total-count>238</strong>
-            <span>份 PDF 範文</span>
+            <span data-total-unit>份 PDF 範文</span>
           </div>
         </div>
       </div>
@@ -1119,7 +1129,7 @@
       <div class="catalog-panel glass-card">
         <div class="catalog-tools">
           <label class="search-wrap">
-            <span class="sr-only">搜尋檔案名稱或編號</span>
+            <span class="sr-only" data-search-label>搜尋檔案名稱或編號</span>
             <input type="search" data-search placeholder="搜尋檔案名稱或 Model Essay 編號..." autocomplete="off">
           </label>
           <label>
@@ -1128,13 +1138,13 @@
               <option value="number-asc">編號：由小至大</option>
               <option value="number-desc">編號：由大至小</option>
               <option value="name-asc">檔案名稱：A–Z</option>
-              <option value="category">按題型分類</option>
+              <option value="category" data-category-sort-option>按題型分類</option>
             </select>
           </label>
           <button class="download-all-button" type="button" data-download-all>下載全部（ZIP）</button>
         </div>
 
-        <div class="filter-chips" data-filter-chips aria-label="題型篩選"></div>
+        <div class="filter-chips" data-filter-chips aria-label="題型篩選" data-filter-label></div>
 
         <div class="selection-bar">
           <div class="selection-left">
@@ -1166,8 +1176,8 @@
   <div class="modal-backdrop" data-download-all-modal hidden>
     <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="download-all-title" aria-describedby="download-all-copy">
       <div class="modal-icon" aria-hidden="true">↓</div>
-      <h2 id="download-all-title">確定下載全部範文？</h2>
-      <p id="download-all-copy">系統會把全部 IELTS Task 2 範文整理成一個 ZIP 檔案。檔案較大，下載可能需要一些時間。</p>
+      <h2 id="download-all-title" data-all-download-title>確定下載全部範文？</h2>
+      <p id="download-all-copy" data-all-download-copy>系統會把全部 IELTS Task 2 範文整理成一個 ZIP 檔案。檔案較大，下載可能需要一些時間。</p>
       <div class="modal-summary" data-all-download-summary>238 份 PDF</div>
       <div class="modal-actions">
         <button class="modal-cancel" type="button" data-modal-cancel>再想一想</button>
@@ -1178,7 +1188,7 @@
 
   <div class="modal-backdrop" data-detail-modal hidden>
     <section class="modal-card detail-modal-card" role="dialog" aria-modal="true" aria-labelledby="essay-detail-title" aria-describedby="essay-detail-question">
-      <button class="modal-close" type="button" data-detail-close aria-label="關閉範文資料">×</button>
+      <button class="modal-close" type="button" data-detail-close aria-label="關閉檔案資料">×</button>
       <div class="detail-modal-grid">
         <div>
           <p class="detail-eyebrow" data-detail-number>MODEL ESSAY</p>
@@ -1204,6 +1214,7 @@
   <script src="model-essay-download-config.js"></script>
   <script src="ielts-task2-model-essays.js"></script>
   <script src="ielts-task2-question-data.js"></script>
+  <script src="ielts-speaking-downloads.js"></script>
   <script src="model-essay-downloads.js"></script>
   <script src="page-loader.js"></script>
 </body>
