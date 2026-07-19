@@ -1,0 +1,36 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edmund-speaking-system",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-19",
+  "workers_dev": true,
+  "preview_urls": false,
+  "ratelimits": [
+    {
+      "name": "ADMIN_LOGIN_RATE_LIMITER",
+      "namespace_id": "914072028",
+      "simple": {
+        "limit": 5,
+        "period": 60
+      }
+    },
+    {
+      "name": "UPLOAD_RATE_LIMITER",
+      "namespace_id": "914072029",
+      "simple": {
+        "limit": 12,
+        "period": 60
+      }
+    }
+  ],
+  "vars": {
+    "ALLOWED_ORIGINS": "https://edmundeducation.com,https://www.edmundeducation.com,https://edmundeducation.github.io",
+    "SUPABASE_URL": "https://ookkxzgpdclzrrhfmvqx.supabase.co",
+    "MAX_UPLOAD_BYTES": "3145728",
+    "MAX_DURATION_MS": "150000",
+    "MAX_ID3_BYTES": "65536",
+    "MAX_EXPORT_BATCH_BYTES": "67108864",
+    "MAX_EXPORT_FILES_PER_BATCH": "40",
+    "DEFAULT_EXPORT_PAGE_SIZE": "10"
+  }
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co wss://ookkxzgpdclzrrhfmvqx.supabase.co https://*.workers.dev; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="description" content="EdmundEducation Speaking 說話練習系統">
+  <meta name="theme-color" content="#efe3d4">
+  <meta property="og:title" content="Speaking 說話練習系統｜EdmundEducation">
+  <meta property="og:description" content="IELTS 說話練習：聆聽高分示範、逐字跟讀，並錄下及保存自己的答案。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://edmundeducation.com/speaking-system.html">
+  <meta property="og:image" content="https://edmundeducation.com/assets/speaking-system/og-speaking.png">
+  <meta property="og:image:width" content="1734">
+  <meta property="og:image:height" content="907">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Speaking 說話練習系統｜EdmundEducation">
+  <meta name="twitter:description" content="IELTS 說話練習：聆聽高分示範、逐字跟讀，並錄下及保存自己的答案。">
+  <meta name="twitter:image" content="https://edmundeducation.com/assets/speaking-system/og-speaking.png">
+  <title>Speaking 說話練習系統｜EdmundEducation</title>
+  <link rel="stylesheet" href="speaking-system.css?v=20260719-1">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要內容</a>
+
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <div class="site-shell">
+    <header class="site-header" data-site-header>
+      <a class="brand" href="index.html" aria-label="返回 EdmundEducation 首頁">
+        <img class="brand-main" src="Font Transparent.png" alt="EdmundEducation">
+        <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
+      </a>
+
+      <img class="header-mascot" src="assets/speaking-system/mascot-speaking.png" alt="" aria-hidden="true">
+
+      <div class="header-actions" data-auth-actions hidden>
+        <span class="connection-pill" data-connection-state="connecting" data-connection-pill>連接中</span>
+        <button class="header-button recordings-button" type="button" data-go="attempts">
+          <span aria-hidden="true">🎙</span>
+          <span>my recording attempt</span>
+        </button>
+        <button class="header-button" type="button" data-back hidden>返回</button>
+        <button class="header-button danger" type="button" data-logout>登出</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-shell" tabindex="-1">
+      <section class="login-view" data-view="login">
+        <div class="login-story">
+          <p class="eyebrow">EDMUND EDUCATION · SPEAK WITH CONFIDENCE</p>
+          <img class="login-mascot" src="assets/speaking-system/mascot-speaking.png" alt="Edmund Speaking 練習夥伴">
+          <div>
+            <h1>Speaking<br><span>說話練習系統</span></h1>
+            <p>聆聽高分示範、逐字跟讀，再錄下自己的答案。每一次開口，都離流利自信更近一步。</p>
+          </div>
+        </div>
+
+        <form class="login-card glass-card" data-login-form novalidate>
+          <div class="login-card-heading">
+            <p class="mini-kicker">學生及管理員登入</p>
+            <h2>Welcome back</h2>
+            <p>使用你現有的 Edmund 學生帳戶登入。</p>
+          </div>
+
+          <label class="field">
+            <span>User name</span>
+            <input name="username" type="text" autocomplete="username" required aria-describedby="login-status">
+          </label>
+
+          <label class="field">
+            <span>Password</span>
+            <span class="password-field">
+              <input name="password" type="password" autocomplete="current-password" required aria-describedby="login-status">
+              <button class="text-button" type="button" data-toggle-password aria-label="顯示密碼">Open Eye</button>
+            </span>
+          </label>
+
+          <button class="primary-button login-submit" type="submit">
+            <span>Enter Speaking System</span>
+            <span aria-hidden="true">→</span>
+          </button>
+          <p id="login-status" class="status" role="status" aria-live="polite" data-login-status></p>
+        </form>
+      </section>
+
+      <section class="portal-view" data-view="portal" hidden>
+        <nav class="breadcrumbs" aria-label="目前位置" data-breadcrumbs></nav>
+        <div data-view-content></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast-region" aria-live="polite" aria-atomic="true" data-toast-region></div>
+
+  <template id="loading-template">
+    <div class="loading-state" role="status">
+      <span class="spinner" aria-hidden="true"></span>
+      <span>載入中…</span>
+    </div>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js" integrity="sha384-xuasJXVcyv3hZq0eYpelEkBC8l4yufatZXDsKuyCU2rqfhDCb+ftuE/mSfZAteiK" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js" integrity="sha384-+mbV2IY1Zk/X1p/nWllGySJSUN8uMs+gUAN10Or95UBH0fpj6GfKgPmgC5EXieXG" crossorigin="anonymous"></script>
+  <script src="supabase-config.js?v=20260719-1"></script>
+  <script src="speaking-system-config.js?v=20260719-1"></script>
+  <script src="speaking-system-data.js?v=20260719-1"></script>
+  <script src="edmund-audio-config.js?v=1"></script>
+  <script src="speaking-audio-manifest.js?v=20260719-1"></script>
+  <script src="speaking-system.js?v=20260719-1"></script>
+</body>
+</html>
