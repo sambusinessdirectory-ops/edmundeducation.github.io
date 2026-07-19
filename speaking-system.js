@@ -295,11 +295,20 @@
   async function apiRaw(path, options = {}, includeAuth = true) {
     const headers = new Headers(options.headers || {});
     if (includeAuth && state.authToken) headers.set("Authorization", `Bearer ${state.authToken}`);
-    const response = await fetch(workerEndpoint(path), {
-      ...options,
-      headers,
-      credentials: "omit"
-    });
+    let response;
+    try {
+      response = await fetch(workerEndpoint(path), {
+        ...options,
+        headers,
+        credentials: "omit"
+      });
+    } catch (error) {
+      if (error?.name === "AbortError") throw error;
+      const connectionError = new Error("暫時未能連接錄音服務。請檢查網絡後再試。");
+      connectionError.code = "RECORDING_SERVICE_UNREACHABLE";
+      connectionError.cause = error;
+      throw connectionError;
+    }
     if (!response.ok) {
       const error = await parseApiError(response);
       if (includeAuth && response.status === 401) handleSessionExpired();
@@ -1128,7 +1137,7 @@
     startModelAudio(exercise, entry, row.start);
   }
 
-  function recorderMimeType() {
+  function recorderMimeTypes() {
     const choices = [
       "audio/webm;codecs=opus",
       "audio/mp4;codecs=mp4a.40.2",
@@ -1136,7 +1145,71 @@
       "audio/webm",
       "audio/ogg;codecs=opus"
     ];
-    return choices.find(type => window.MediaRecorder?.isTypeSupported?.(type)) || "";
+    return choices.filter(type => window.MediaRecorder?.isTypeSupported?.(type));
+  }
+
+  function createMediaRecorder(stream) {
+    let lastError = null;
+    for (const mimeType of recorderMimeTypes()) {
+      try {
+        return new MediaRecorder(stream, { mimeType });
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    try {
+      return new MediaRecorder(stream);
+    } catch (error) {
+      throw lastError || error;
+    }
+  }
+
+  async function requestMicrophoneStream() {
+    try {
+      return await navigator.mediaDevices.getUserMedia({
+        audio: {
+          channelCount: { ideal: 1 },
+          echoCancellation: { ideal: true },
+          noiseSuppression: { ideal: true },
+          autoGainControl: { ideal: true }
+        },
+        video: false
+      });
+    } catch (error) {
+      const name = String(error?.name || "");
+      if (name !== "OverconstrainedError" && name !== "ConstraintNotSatisfiedError") throw error;
+      return navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+    }
+  }
+
+  function microphoneErrorMessage(error) {
+    const name = String(error?.name || "");
+    const firefox = /Firefox\//i.test(navigator.userAgent || "");
+    const macFirefoxHelp = "請在 Firefox 網址列左邊的權限圖示清除已封鎖設定，再到 macOS「系統設定 → 私隱與保安 → 咪高峰」開啟 Firefox，然後重新啟動 Firefox。";
+    if (name === "NotAllowedError" || name === "SecurityError" || name === "PermissionDeniedError") {
+      return firefox
+        ? `Firefox 未允許使用咪高峰。${macFirefoxHelp}`
+        : "咪高峰權限被拒絕。請在瀏覽器及裝置設定允許咪高峰，再重新嘗試。";
+    }
+    if (name === "NotFoundError" || name === "DevicesNotFoundError") {
+      return firefox
+        ? `找不到可用咪高峰。請確認 Mac 已連接或啟用輸入裝置。${macFirefoxHelp}`
+        : "找不到可用咪高峰。請接駁或啟用咪高峰，再重新嘗試。";
+    }
+    if (name === "NotReadableError" || name === "AbortError" || name === "TrackStartError") {
+      return firefox
+        ? `Firefox 暫時無法讀取咪高峰。請關閉其他正在使用咪高峰的程式。${macFirefoxHelp}`
+        : "咪高峰正被其他程式使用或暫時無法讀取。請關閉其他錄音程式，再重新嘗試。";
+    }
+    if (name === "OverconstrainedError" || name === "ConstraintNotSatisfiedError") {
+      return "目前的咪高峰不支援所需錄音設定。請改用另一個輸入裝置，再重新嘗試。";
+    }
+    if (name === "InvalidStateError") {
+      return "網頁目前未能啟動咪高峰。請重新載入此頁，再按「開始錄音」。";
+    }
+    return firefox
+      ? `未能啟動咪高峰。${macFirefoxHelp}`
+      : "未能啟動咪高峰，請檢查裝置及瀏覽器權限後再試。";
   }
 
   function stopMediaTracks() {
@@ -1176,7 +1249,7 @@
 
   async function startRecording() {
     if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
-      recordingStatus("這個瀏覽器不支援咪高峰錄音。請使用最新版本 Safari、Chrome 或 Edge。");
+      recordingStatus("這個瀏覽器不支援咪高峰錄音。請使用最新版本 Safari、Chrome、Firefox 或 Edge。");
       return;
     }
     if (!window.isSecureContext && location.hostname !== "localhost") {
@@ -1193,30 +1266,35 @@
     const button = document.querySelector("[data-record-toggle]");
     if (button) button.disabled = true;
     recordingStatus("正在請求咪高峰權限…");
+    let stream;
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({
-        audio: {
-          channelCount: 1,
-          echoCancellation: true,
-          noiseSuppression: true,
-          autoGainControl: true
-        },
-        video: false
-      });
-      if (
-        requestGeneration !== state.recordingGeneration
-        || authGeneration !== state.authGeneration
-        || !state.user
-        || state.route.view !== "exercise"
-        || currentExercise()?.id !== requestedExerciseId
-      ) {
-        stream.getTracks().forEach(track => track.stop());
-        return;
-      }
+      stream = await requestMicrophoneStream();
+    } catch (error) {
+      if (requestGeneration !== state.recordingGeneration) return;
       state.recordingPermissionPending = false;
-      const mimeType = recorderMimeType();
-      const recorder = mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
-      state.mediaStream = stream;
+      console.warn("Microphone permission failed:", error);
+      recordingStatus(microphoneErrorMessage(error));
+      clearRecordingTimer();
+      stopMediaTracks();
+      state.mediaRecorder = null;
+      state.recordingStartedAt = 0;
+      if (button) button.disabled = false;
+      return;
+    }
+    if (
+      requestGeneration !== state.recordingGeneration
+      || authGeneration !== state.authGeneration
+      || !state.user
+      || state.route.view !== "exercise"
+      || currentExercise()?.id !== requestedExerciseId
+    ) {
+      stream.getTracks().forEach(track => track.stop());
+      return;
+    }
+    state.recordingPermissionPending = false;
+    state.mediaStream = stream;
+    try {
+      const recorder = createMediaRecorder(stream);
       state.mediaRecorder = recorder;
       state.recordingChunks = [];
       state.recordingStartedAt = Date.now();
@@ -1245,7 +1323,7 @@
         state.recordingProcessing = false;
         resetRecordButton();
       };
-      recorder.onstop = () => finaliseRecording(generation, recorder.mimeType || mimeType || "audio/webm");
+      recorder.onstop = () => finaliseRecording(generation, recorder.mimeType || "audio/webm");
       recorder.start(1000);
       clearRecordingTimer();
       recordingStatus("錄音已開始，完成後請按停止。", true);
@@ -1258,13 +1336,12 @@
       }
     } catch (error) {
       if (requestGeneration !== state.recordingGeneration) return;
-      state.recordingPermissionPending = false;
-      console.warn("Microphone permission failed:", error);
-      const denied = error?.name === "NotAllowedError" || error?.name === "SecurityError";
-      recordingStatus(denied ? "咪高峰權限被拒絕。請在瀏覽器設定允許咪高峰，再重新嘗試。" : "未能啟動咪高峰，請檢查裝置後再試。");
+      console.warn("MediaRecorder startup failed:", error);
+      recordingStatus("咪高峰已連接，但瀏覽器未能開始錄音。請更新瀏覽器或改用另一個瀏覽器後再試。");
       clearRecordingTimer();
       stopMediaTracks();
       state.mediaRecorder = null;
+      state.recordingChunks = [];
       state.recordingStartedAt = 0;
       if (button) button.disabled = false;
     }
@@ -1489,8 +1566,13 @@
       toast("錄音已安全儲存。", "info");
     } catch (error) {
       console.warn("Recording upload failed:", error);
-      recordingStatus(String(error?.message || "錄音上載失敗，請稍後再試。"));
-      toast(String(error?.message || "錄音上載失敗。"), "error");
+      const unavailable = error?.code === "RECORDING_SERVICE_UNREACHABLE"
+        || /(?:load failed|failed to fetch|networkerror|error code:\s*1042)/i.test(String(error?.message || ""));
+      const message = unavailable
+        ? "未能連接錄音儲存服務。這次錄音仍保留在此頁；請先按「下載這次 MP3」備份，再稍後重新儲存。"
+        : String(error?.message || "錄音上載失敗，請稍後再試。");
+      recordingStatus(message);
+      toast(message, "error");
       if (button) button.disabled = false;
     }
   }
