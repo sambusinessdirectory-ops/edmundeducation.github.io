@@ -407,7 +407,10 @@ async function supabaseFetch(env, path, options = {}, timeoutMs = 20000) {
     return await fetch(`${supabaseOrigin(env)}${path}`, {
       ...options,
       headers,
-      redirect: "error",
+      // Cloudflare Workers supports "follow" and "manual", not the browser-only
+      // "error" mode. Manual keeps credentials on the configured Supabase
+      // origin and lets every caller reject a 3xx as a non-success response.
+      redirect: "manual",
       signal: controller.signal
     });
   } finally {
@@ -428,9 +431,11 @@ async function rpc(env, functionName, payload) {
       }
     );
   } catch (error) {
+    console.error("Supabase RPC transport failed", functionName, safeErrorMessage(error));
     throw new HttpError(502, "SUPABASE_UNAVAILABLE", "Speaking data service is temporarily unavailable");
   }
   if (!response.ok) {
+    console.error("Supabase RPC rejected", functionName, response.status);
     await discardResponse(response);
     throw new HttpError(502, "SUPABASE_UNAVAILABLE", "Speaking data service is temporarily unavailable");
   }

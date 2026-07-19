@@ -166,6 +166,7 @@ test("upload reserves quota, writes the private object, then marks metadata read
   let limiterCalls = 0;
   const originalFetch = globalThis.fetch;
   globalThis.fetch = async (url, options = {}) => {
+    assert.equal(options.redirect, "manual");
     const parsed = new URL(String(url));
     const path = parsed.pathname;
     if (path.endsWith("/rpc/speaking_student_profile")) {
