@@ -20,9 +20,9 @@ TOOLS_DIR = Path(__file__).resolve().parent
 SHARED_GENERATOR_PATH = TOOLS_DIR / "generate-speaking-audio.py"
 DATA_BUILDER_PATH = TOOLS_DIR / "build-speaking-part1-data.py"
 
-AUDIO_BUILD_VERSION = "v4"
-STATIC_AUDIO_ROOT = "assets/speaking-system/audio/edmund-neural/part1/v4"
-SOURCE_DATA_PATH = "tools/ielts-speaking-part1-book1-structured.json"
+AUDIO_BUILD_VERSION = "v5"
+STATIC_AUDIO_ROOT = "assets/speaking-system/audio/edmund-neural/part1/v5"
+SOURCE_DATA_PATH = "tools/ielts-speaking-part1-books1-14-structured.json"
 MANIFEST_NAME = "speaking-part1-audio-manifest.js"
 
 QUESTION_VOICE = "af_heart"
@@ -37,14 +37,38 @@ SENTENCE_PAUSE_SECONDS = 0.45
 TURN_GAP_SECONDS = 0.44
 MESSAGE_LEAD_SECONDS = 0.28
 INITIAL_MESSAGE_LEAD_SECONDS = 0.87
+# Kokoro occasionally emits a short natural onset silence before the first
+# aligned word. The visible-message lead remains a strict minimum; this bounded
+# allowance prevents valid speech from being rejected merely because its first
+# phoneme starts a few frames later.
+MAX_SPEECH_ONSET_SLACK_SECONDS = 0.35
 ALIGNMENT_MODEL = "base.en"
 WORD_TIMING_VERSION = "faster-whisper-base.en-audio-v1"
 RECIPE_SCHEMA_VERSION = 1
+SUPPORTED_BOOKS = tuple(range(1, 15))
+SELECTED_BOOKS = SUPPORTED_BOOKS
 EXPECTED_RUNTIME_VERSIONS = {
     "kokoro-onnx": "0.5.0",
     "numpy": "2.5.1",
     "soundfile": "0.14.0",
     "faster-whisper": "1.2.1",
+}
+# These overrides existed before the v5 release and are part of its permanent
+# recipe fingerprint. Displayed lesson text remains unchanged.
+RECIPE_SEED_SPOKEN_OVERRIDES: dict[str, str] = {
+    "Do you think that electronic books / eReaders are better than real books?":
+        "Do you think that electronic books, or e-readers, are better than real books?",
+}
+# A narrowly scoped repair for another never-published sentence may be added
+# here during the first v5 build. Each exercise pins its effective spoken text
+# in both its immutable path and manifest entry, while the complete active map
+# is pinned independently in manifest metadata and upload validation.
+PART1_SPOKEN_OVERRIDES: dict[str, str] = {
+    **RECIPE_SEED_SPOKEN_OVERRIDES,
+    "Probably quite a lot, especially on weekdays.":
+        "Probably, quite a lot, especially on weekdays.",
+    "What do you think is the best exercise to keep fit?":
+        "What do you think, is the best exercise to keep fit?",
 }
 ENTRIES_GLOBAL = "EDMUND_SPEAKING_PART1_AUDIO"
 META_GLOBAL = "EDMUND_SPEAKING_PART1_AUDIO_META"
@@ -63,47 +87,48 @@ def load_python_file(path: Path, module_name: str) -> ModuleType:
 
 shared = load_python_file(SHARED_GENERATOR_PATH, "edmund_speaking_audio_shared_part1")
 part1_data = load_python_file(DATA_BUILDER_PATH, "edmund_speaking_part1_data")
-
-
-def stable_module_id() -> str:
-    return "ielts-part-1-book-1-accommodation"
+base_spoken_text = shared.spoken_text
 
 
 def load_exercises(source_root: Path) -> dict[str, dict[str, Any]]:
     source_path = source_root / SOURCE_DATA_PATH
     payload = part1_data.load_payload(source_path)
-    source_module = payload["books"][0]["exercises"][0]
-    turns: list[dict[str, Any]] = []
-    for question in source_module["questions"]:
-        number = int(question["number"])
-        for role, text_key, speaker, voice, language, speed in (
-            ("question", "questionEn", "examiner", QUESTION_VOICE, QUESTION_LANGUAGE, QUESTION_SPEED),
-            ("answer", "answerEn", "student", ANSWER_VOICE, ANSWER_LANGUAGE, ANSWER_SPEED),
-        ):
-            text = str(question[text_key])
-            turns.append({
-                "number": len(turns) + 1,
-                "questionNumber": number,
-                "role": role,
-                "speaker": speaker,
-                "voice": voice,
-                "language": language,
-                "speed": speed,
-                "text": text,
-                "sentences": shared.split_sentences(text),
-            })
-    full_text = "\n\n".join(str(turn["text"]) for turn in turns)
-    return {
-        stable_module_id(): {
-            "part": 1,
-            "book": 1,
-            "index": 1,
-            "title": "Accommodation",
-            "questions": source_module["questions"],
-            "turns": turns,
-            "text": full_text,
-        }
-    }
+    exercises: dict[str, dict[str, Any]] = {}
+    for source_book in payload["books"]:
+        book = int(source_book["book"])
+        if book not in SELECTED_BOOKS:
+            continue
+        for source_module in source_book["exercises"]:
+            turns: list[dict[str, Any]] = []
+            for question in source_module["questions"]:
+                number = int(question["number"])
+                for role, text_key, speaker, voice, language, speed in (
+                    ("question", "questionEn", "examiner", QUESTION_VOICE, QUESTION_LANGUAGE, QUESTION_SPEED),
+                    ("answer", "answerEn", "student", ANSWER_VOICE, ANSWER_LANGUAGE, ANSWER_SPEED),
+                ):
+                    text = str(question[text_key])
+                    turns.append({
+                        "number": len(turns) + 1,
+                        "questionNumber": number,
+                        "role": role,
+                        "speaker": speaker,
+                        "voice": voice,
+                        "language": language,
+                        "speed": speed,
+                        "text": text,
+                        "sentences": shared.split_sentences(text),
+                    })
+            exercise_id = str(source_module["id"])
+            exercises[exercise_id] = {
+                "part": 1,
+                "book": book,
+                "index": int(source_module["index"]),
+                "title": str(source_module["title"]),
+                "questions": source_module["questions"],
+                "turns": turns,
+                "text": "\n\n".join(str(turn["text"]) for turn in turns),
+            }
+    return exercises
 
 
 def source_english_word_count(exercises: dict[str, dict[str, Any]]) -> int:
@@ -114,9 +139,62 @@ def source_english_word_count(exercises: dict[str, dict[str, Any]]) -> int:
     )
 
 
-def audio_relative_path(exercise_id: str, text: str) -> str:
-    source_hash = hashlib.sha256(text.encode("utf-8")).hexdigest()
-    digest = source_hash[:24]
+def spoken_text(value: str) -> str:
+    return base_spoken_text(PART1_SPOKEN_OVERRIDES.get(value, value))
+
+
+# Keep synthesis and the alignment prompt on the same audio-only text.
+shared.spoken_text = spoken_text
+
+
+def validate_spoken_overrides(source_root: Path) -> None:
+    if any(PART1_SPOKEN_OVERRIDES.get(key) != value for key, value in RECIPE_SEED_SPOKEN_OVERRIDES.items()):
+        raise SystemExit("Part 1 recipe-seed spoken overrides must not be removed or changed")
+    payload = part1_data.load_payload(source_root / SOURCE_DATA_PATH)
+    sentences = {
+        str(sentence)
+        for book in payload["books"]
+        for module in book["exercises"]
+        for question in module["questions"]
+        for text in (question["questionEn"], question["answerEn"])
+        for sentence in shared.split_sentences(str(text))
+    }
+    for source, replacement in PART1_SPOKEN_OVERRIDES.items():
+        if source not in sentences:
+            raise SystemExit(f"Part 1 spoken override does not match an exact source sentence: {source!r}")
+        if not isinstance(replacement, str) or not replacement.strip() or replacement != replacement.strip():
+            raise SystemExit(f"Part 1 spoken override has an invalid replacement: {source!r}")
+
+
+def spoken_overrides_sha256(overrides: dict[str, str] = PART1_SPOKEN_OVERRIDES) -> str:
+    return hashlib.sha256(json.dumps(
+        overrides,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")).hexdigest()
+
+
+def exercise_spoken_source(exercise: dict[str, Any]) -> str:
+    return json.dumps([
+        {
+            "number": int(turn["number"]),
+            "role": str(turn["role"]),
+            "sentences": [spoken_text(str(sentence)) for sentence in turn["sentences"]],
+        }
+        for turn in exercise["turns"]
+    ], ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+
+
+def exercise_spoken_source_sha256(exercise: dict[str, Any]) -> str:
+    return hashlib.sha256(exercise_spoken_source(exercise).encode("utf-8")).hexdigest()
+
+
+def audio_relative_path(exercise_id: str, exercise: dict[str, Any]) -> str:
+    immutable_source = (
+        f"{exercise['text']}\0{exercise_spoken_source_sha256(exercise)}"
+    )
+    digest = hashlib.sha256(immutable_source.encode("utf-8")).hexdigest()[:24]
     safe_id = re.sub(r"[^a-z0-9-]+", "-", exercise_id.casefold()).strip("-")
     return f"{STATIC_AUDIO_ROOT}/{digest[:2]}/{safe_id}-{digest}.mp3"
 
@@ -149,7 +227,7 @@ def recipe_payload() -> dict[str, Any]:
             "turnGap": TURN_GAP_SECONDS,
             "messageLead": MESSAGE_LEAD_SECONDS,
             "initialMessageLead": INITIAL_MESSAGE_LEAD_SECONDS,
-            "layout": "question-answer-alternating-18-turn-v1",
+            "layout": "question-answer-alternating-variable-turn-v1",
             "speakers": {
                 "question": {
                     "voice": QUESTION_VOICE,
@@ -172,6 +250,7 @@ def recipe_payload() -> dict[str, Any]:
             "minimumWordDuration": shared.MINIMUM_WORD_DURATION_SECONDS,
             "wordTiming": WORD_TIMING_VERSION,
         },
+        "recipeSeedSpokenOverrides": RECIPE_SEED_SPOKEN_OVERRIDES,
         "runtime": EXPECTED_RUNTIME_VERSIONS,
     }
 
@@ -272,10 +351,12 @@ def entry_validation_error(entry: object, exercise_id: str, exercise: dict[str, 
     words = entry.get("words")
     duration = entry.get("duration")
     ranges = entry.get("turnWordRanges")
-    if entry.get("path") != audio_relative_path(exercise_id, text):
+    if entry.get("path") != audio_relative_path(exercise_id, exercise):
         return "audio path does not match the immutable source path"
     if entry.get("sourceSha256") != hashlib.sha256(text.encode("utf-8")).hexdigest():
         return "source SHA-256 does not match"
+    if entry.get("spokenSourceSha256") != exercise_spoken_source_sha256(exercise):
+        return "spoken-source SHA-256 does not match"
     if not is_finite_number(duration) or not 1 <= float(duration) <= 900:
         return "duration is missing, non-finite, or out of range"
     if not isinstance(words, list) or len(words) != len(expected_words):
@@ -283,7 +364,7 @@ def entry_validation_error(entry: object, exercise_id: str, exercise: dict[str, 
     if entry.get("wordCount") != len(expected_words):
         return "wordCount does not match the timed-word array"
     if not isinstance(ranges, list) or len(ranges) != len(exercise["turns"]):
-        return "turnWordRanges must contain all 18 conversation turns"
+        return "turnWordRanges must contain every conversation turn"
 
     previous_end = 0.0
     for index, row in enumerate(words):
@@ -330,8 +411,12 @@ def entry_validation_error(entry: object, exercise_id: str, exercise: dict[str, 
         if float(audio_start) != float(words[word_start][1]):
             return f"turn range {index} audioStart does not match its first word"
         expected_lead = INITIAL_MESSAGE_LEAD_SECONDS if index == 0 else MESSAGE_LEAD_SECONDS
-        if abs(float(audio_start) - float(reveal_at) - expected_lead) > 0.002:
-            return f"turn range {index} does not use the expected message lead"
+        actual_lead = float(audio_start) - float(reveal_at)
+        if (
+            actual_lead < expected_lead - 0.002
+            or actual_lead > expected_lead + MAX_SPEECH_ONSET_SLACK_SECONDS
+        ):
+            return f"turn range {index} does not preserve the bounded message lead"
         if float(audio_end) != float(words[word_end - 1][2]):
             return f"turn range {index} audioEnd does not match its last word"
         previous_playback_end = float(playback_end)
@@ -365,10 +450,17 @@ def manifest_meta(
         "turnGap": TURN_GAP_SECONDS,
         "messageLead": MESSAGE_LEAD_SECONDS,
         "initialMessageLead": INITIAL_MESSAGE_LEAD_SECONDS,
+        "bookCount": len({int(exercise["book"]) for exercise in exercises.values()}),
+        "books": sorted({int(exercise["book"]) for exercise in exercises.values()}),
         "questionCount": sum(len(exercise["questions"]) for exercise in exercises.values()),
         "turnCount": sum(len(exercise["turns"]) for exercise in exercises.values()),
         "sourceEnglishWordCount": source_english_word_count(exercises),
         "timedWordCount": sum(int(entry.get("wordCount", 0)) for entry in entries.values()),
+        "spokenOverrideCount": len(PART1_SPOKEN_OVERRIDES),
+        "spokenOverridesSha256": spoken_overrides_sha256(),
+        "recipeSeedSpokenOverridesSha256": spoken_overrides_sha256(
+            RECIPE_SEED_SPOKEN_OVERRIDES
+        ),
         "wordTiming": WORD_TIMING_VERSION,
     }
 
@@ -426,6 +518,33 @@ def prune_orphans(output_root: Path, expected_paths: set[str]) -> int:
     return removed
 
 
+def parse_book_selection(value: str) -> tuple[int, ...]:
+    selected: set[int] = set()
+    for raw_part in str(value).split(","):
+        part = raw_part.strip()
+        if not part:
+            continue
+        if "-" in part:
+            raw_start, raw_end = part.split("-", 1)
+            try:
+                start = int(raw_start)
+                end = int(raw_end)
+            except ValueError as error:
+                raise argparse.ArgumentTypeError(f"Invalid book range {part!r}") from error
+            if start > end:
+                raise argparse.ArgumentTypeError(f"Invalid descending book range {part!r}")
+            selected.update(range(start, end + 1))
+        else:
+            try:
+                selected.add(int(part))
+            except ValueError as error:
+                raise argparse.ArgumentTypeError(f"Invalid book number {part!r}") from error
+    books = tuple(sorted(selected))
+    if not books or any(book not in SUPPORTED_BOOKS for book in books):
+        raise argparse.ArgumentTypeError("Books must be a non-empty subset of 1-14")
+    return books
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-root", type=Path, required=True)
@@ -433,18 +552,30 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model", type=Path)
     parser.add_argument("--voices", type=Path)
     parser.add_argument("--alignment-cache", type=Path)
+    parser.add_argument(
+        "--books",
+        type=parse_book_selection,
+        default=SUPPORTED_BOOKS,
+        help="Books to process, for example 1-5 or 1,3,5 (default: 1-14)",
+    )
     parser.add_argument("--validate-source", action="store_true")
     parser.add_argument("--write-placeholder", action="store_true")
     parser.add_argument("--manifest-only", action="store_true")
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--prune-orphans", action="store_true")
-    return parser.parse_args()
+    args = parser.parse_args()
+    if args.prune_orphans and tuple(args.books) != SUPPORTED_BOOKS:
+        parser.error("--prune-orphans requires the complete 1-14 book selection")
+    return args
 
 
 def main() -> int:
+    global SELECTED_BOOKS
     args = parse_args()
+    SELECTED_BOOKS = tuple(args.books)
     source_root = args.source_root.resolve()
     output_root = args.output_root.resolve()
+    validate_spoken_overrides(source_root)
     exercises = load_exercises(source_root)
     manifest_path = output_root / MANIFEST_NAME
 
@@ -481,7 +612,7 @@ def main() -> int:
     pending: list[tuple[str, dict[str, Any], Path, str]] = []
     expected_paths: set[str] = set()
     for exercise_id, exercise in exercises.items():
-        relative = audio_relative_path(exercise_id, str(exercise["text"]))
+        relative = audio_relative_path(exercise_id, exercise)
         expected_paths.add(relative)
         path = output_root / relative
         entry = existing_entries.get(exercise_id)
@@ -546,7 +677,7 @@ def main() -> int:
                 word_start = len(words)
                 for sentence_index, sentence in enumerate(turn["sentences"]):
                     audio, chunk_rate = kokoro.create(
-                        shared.spoken_text(str(sentence)),
+                        spoken_text(str(sentence)),
                         voice=str(turn["voice"]),
                         speed=float(turn["speed"]),
                         lang=str(turn["language"]),
@@ -597,8 +728,9 @@ def main() -> int:
             temporary.replace(output_path)
             text = str(exercise["text"])
             entry: dict[str, object] = {
-                "path": audio_relative_path(exercise_id, text),
+                "path": audio_relative_path(exercise_id, exercise),
                 "sourceSha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+                "spokenSourceSha256": exercise_spoken_source_sha256(exercise),
                 "wordCount": len(words),
                 "duration": round(elapsed_samples / SAMPLE_RATE, 3),
                 "turnWordRanges": turn_ranges,

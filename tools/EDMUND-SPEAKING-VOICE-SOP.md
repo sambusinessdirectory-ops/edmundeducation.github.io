@@ -45,6 +45,12 @@ browser never synthesizes either voice. Each module receives one uninterrupted
 MP3 so iPhone and iPad can play the complete question-and-answer sequence after
 one user action without browser autoplay interruptions.
 
+The Books 1–14 release contains 70 complete modules. Book 1 has four unique
+populated modules because its source PDF repeats Art & Photography and supplies
+no Animals lesson; Book 5 has six because its source PDF includes a complete
+Noise lesson beyond the five-item contents list. The release follows the
+populated source material and must not invent an empty lesson.
+
 | Setting | Permanent Part 1 value |
 | --- | --- |
 | Model | Kokoro-82M v1.0 (`kokoro-v1.0.onnx`) |
@@ -53,18 +59,18 @@ one user action without browser autoplay interruptions.
 | Output | Mono MP3, 24 kHz, variable bitrate |
 | MP3 compression level | `0.55` |
 | Answer sentence pause | `0.45` seconds |
-| Turn gap | `0.44` seconds plus a `0.28`-second visible-message lead; the opening question uses `0.87` seconds so its entrance completes before speech even at `1.5X` |
+| Turn gap | `0.44` seconds plus a `0.28`-second minimum visible-message lead; the opening question uses `0.87` seconds so its entrance completes before speech even at `1.5X`; up to `0.35` seconds of measured natural first-phoneme onset silence is valid |
 | Audio unit | One continuous mixed-voice MP3 per Part 1 module |
-| Turn layout | Question 1 → Answer 1 through Question 9 → Answer 9 |
+| Turn layout | Alternating Question N → Answer N for every question in the module |
 | Word timing | Faster Whisper `base.en`, measured per rendered sentence (`faster-whisper-base.en-audio-v1`) |
-| Audio build version | Part 1 `v4` |
-| Static path | `assets/speaking-system/audio/edmund-neural/part1/v4/` |
-| Source | `tools/ielts-speaking-part1-book1-structured.json` |
+| Audio build version | Part 1 `v5` |
+| Static path | `assets/speaking-system/audio/edmund-neural/part1/v5/` |
+| Source | `tools/ielts-speaking-part1-books1-14-structured.json` |
 | Browser data | `speaking-system-part1-data.js` / `window.EDMUND_SPEAKING_PART1_DATA` |
 | Audio manifest | `speaking-part1-audio-manifest.js` |
 
-The manifest exposes distinct Part 1 globals and 18 ordered
-`turnWordRanges`. Each range pins its question number, role, speaker, reveal
+The manifest exposes distinct Part 1 globals and an ordered `turnWordRanges`
+pair for every question. Each range pins its question number, role, speaker, reveal
 time, exact synthesized `playbackEnd`, and visible-word range. Individual-turn
 playback must pass `playbackEnd` by a 0.20-second silent safety tail, capped at
 least 0.08 seconds before the next turn's reveal; the final turn ends naturally.
@@ -73,6 +79,18 @@ may reveal a bubble before its voice begins, but it must never force-scroll the
 page. The opening pause is part of the versioned MP3 rather than a delayed
 browser `play()` call, preserving one-tap playback authorization on iPhone and
 iPad.
+
+Exact, audio-only entries in `PART1_SPOKEN_OVERRIDES` may clarify punctuation
+or pronunciation in a never-published sentence without changing its displayed
+lesson text. Recipe-defining proactive overrides are frozen in
+`RECIPE_SEED_SPOKEN_OVERRIDES` and therefore in the recipe fingerprint. A
+minimal repair discovered while rendering a brand-new, never-published module
+may remain in the active map. Every exercise independently hashes its effective
+spoken source; that hash is part of both its manifest entry and immutable object
+path. The complete active mapping is separately pinned by
+`spokenOverridesSha256` in every shard, the merged manifest, and the R2
+uploader. Never use this exception to replace an already-published Part 1
+recording; bump the Part 1 audio build version for any published-audio change.
 
 Build and validate the browser data:
 
@@ -95,6 +113,24 @@ Generate and strictly validate the mixed-voice audio:
   --source-root . --output-root . --manifest-only
 ```
 
+For a large first-time build, render disjoint book shards into separate output
+roots and merge them only after every shard validates. Never point concurrent
+generators at the same output root:
+
+```sh
+.venv-tts/bin/python tools/generate-speaking-part1-audio.py \
+  --source-root . --output-root /tmp/part1-books-01-05 --books 1-5 \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin \
+  --alignment-cache /path/outside/repository/faster-whisper-cache
+
+.venv-tts/bin/python tools/merge-speaking-part1-audio-shards.py \
+  --source-root . --output-root . \
+  --shard-root /tmp/part1-books-01-05 \
+  --shard-root /tmp/part1-books-06-10 \
+  --shard-root /tmp/part1-books-11-14
+```
+
 Part 1 audio is stored in the existing `edmund-assets` R2 bucket and served by
 the read-only Edmund Neural Audio Worker. Validate and upload only the
 manifest-referenced immutable MP3:
@@ -108,12 +144,17 @@ manifest-referenced immutable MP3:
   --checkpoint /path/outside/repository/part1-r2-upload-checkpoint.json
 ```
 
-Listen to every newly generated module. Confirm that all nine questions use the
-female voice, all nine answers use the British-boy voice, the hand-offs are in
+Listen to every newly generated module. Confirm that every question uses the
+female voice, every answer uses the British-boy voice, the hand-offs are in
 order, every English word highlights, and replaying an individual bubble stops
 after its capped silent safety tail without entering the next bubble. Any change
 to either voice, language, speed, pause, layout, encoder or alignment recipe
 requires a Part 1 build-version bump.
+
+Both shard merging and R2 upload validation must decode every referenced file
+as mono 24 kHz MP3, compare its decoded duration with the manifest, and verify
+its SHA-256. A matching filename or hash alone is not sufficient release
+validation.
 
 ## Part 3 Books 1-16 — approved British-boy voice
 

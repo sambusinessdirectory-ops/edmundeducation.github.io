@@ -4,20 +4,20 @@ window.EDMUND_SPEAKING_PART1_DATA = Object.freeze({
     "schemaVersion": 1,
     "exam": "IELTS",
     "part": 1,
-    "bookCount": 1,
-    "moduleCount": 1,
-    "questionCount": 9,
-    "turnCount": 18,
-    "englishWordCount": 436,
-    "audioBuildVersion": "v1",
-    "sourceSha256": "009d39344faef9be8db166c9acd27169f6a7cc89948c1a340f6ceb388ee8ac86"
+    "bookCount": 14,
+    "moduleCount": 70,
+    "questionCount": 828,
+    "turnCount": 1656,
+    "englishWordCount": 43945,
+    "audioBuildVersion": "v5",
+    "sourceSha256": "5cb1a36b6e886ac456e71aed0d7fce3a65018cba546e754a4b92b996217b9200"
   },
   "books": [
     {
       "part": 1,
       "book": 1,
       "displayTitle": "Book 1 of Part 1",
-      "exerciseCount": 1,
+      "exerciseCount": 4,
       "exercises": [
         {
           "id": "ielts-part-1-book-1-accommodation",
@@ -88,6 +88,6464 @@ window.EDMUND_SPEAKING_PART1_DATA = Object.freeze({
               "questionZh": "你住的地方有花園嗎？",
               "answerEn": "No, there is not a private garden, which is quite normal for flats in big cities. Still, there is a small communal green space downstairs, and there is also a park nearby, so I do not really feel I am missing out.",
               "answerZh": "沒有私人花園，而這在大城市的單位裡其實很正常。不過，樓下有一個小型公共綠化空間，附近也有公園，所以我並不覺得自己少了甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-1-advertisements",
+          "index": 2,
+          "title": "Advertisements",
+          "titleZh": "廣告",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like watching advertisements?",
+              "questionZh": "你喜歡看廣告嗎？",
+              "answerEn": "Not particularly, although I do not mind them when they are creative or genuinely informative. Most advertisements are just background noise to me, but every now and then one really catches my eye because it is clever, well made, or emotionally engaging.",
+              "answerZh": "不算特別喜歡，不過如果廣告有創意，或者真的有資訊價值，我也不介意。大部分廣告對我來說都只是背景噪音，但偶爾也會有一些真正吸引到我，因為它很聰明、拍得很好，或者很有感染力。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Where do you usually see advertisements these days?",
+              "questionZh": "你現在通常在哪裡看到廣告？",
+              "answerEn": "These days, I mostly see advertisements on social media, video platforms, and shopping apps. To be honest, they are everywhere online, so sometimes it feels as though they follow you around from one page to the next.",
+              "answerZh": "現在我大多數是在社交媒體、影片平台，以及購物應用程式上看到廣告。老實說，網上的廣告真的無處不在，所以有時候感覺就像你從一個頁面轉到另一個頁面時，它們也一路跟著你。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kinds of advertisements usually catch your attention?",
+              "questionZh": "哪一類廣告通常會吸引你的注意？",
+              "answerEn": "Advertisements that tell a short story or solve a real problem usually catch my attention. I am much more likely to notice an ad that feels polished and relatable than one that simply shouts at me and tries to make a hard sell.",
+              "answerZh": "通常能吸引我注意的，是那些會講一個小故事，或者能解決真實問題的廣告。比起那些只是對著我大聲推銷的廣告，我更容易留意到那些感覺精緻又有共鳴的廣告。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Will you buy something because of an advertisement?",
+              "questionZh": "你會因為一則廣告而去買東西嗎？",
+              "answerEn": "Sometimes, yes, but not blindly. An advertisement may spark my interest, but I would still compare prices, read reviews, and think about whether I actually need the product before spending money on it.",
+              "answerZh": "有時候會，但不會盲目地買。廣告可能會引起我的興趣，不過在花錢之前，我還是會比較價錢、看評價，以及想清楚自己是否真的需要那件產品。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Have you ever bought something after seeing it advertised?",
+              "questionZh": "你有沒有試過在看完廣告之後買東西？",
+              "answerEn": "Yes, I have. I once bought a pair of noise-cancelling headphones after seeing them advertised online, because the ad highlighted a problem I actually had, which was dealing with noisy public transport, and the product turned out to be genuinely useful.",
+              "answerZh": "有，我試過。我有一次在網上看完一則廣告之後，買了一副降噪耳機，因為那則廣告正好提到我真實面對的問題，就是公共交通太嘈吵，而那件產品最後也的確很好用。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How do you feel when you see pop-up ads on the internet?",
+              "questionZh": "當你在網上看到彈出式廣告時，你有甚麼感覺？",
+              "answerEn": "Honestly, I find them quite irritating because they interrupt whatever I am doing. It feels a bit like someone cutting into a conversation halfway through, so unless the ad is relevant, my first reaction is usually to close it immediately.",
+              "answerZh": "老實說，我覺得它們挺煩人的，因為它們會打斷我正在做的事情。那感覺有點像有人在談話說到一半時突然插嘴，所以除非那個廣告和我有關，否則我的第一反應通常就是立刻把它關掉。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you think there are too many advertisements on the internet nowadays?",
+              "questionZh": "你覺得現今互聯網上的廣告是不是太多了？",
+              "answerEn": "Yes, definitely. There is so much sponsored content, so many banners, and so many promotional videos that people become numb to them, and when advertising is everywhere, a lot of it simply stops being effective.",
+              "answerZh": "是的，絕對是。現在有太多贊助內容、太多橫幅廣告，也有太多宣傳影片，結果人們會對它們變得麻木，而當廣告無處不在時，其中很多其實就不再有效了。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you like funny or serious advertisements?",
+              "questionZh": "你喜歡搞笑的還是嚴肅的廣告？",
+              "answerEn": "In general, I prefer funny advertisements because humour makes them more memorable and enjoyable to watch. That said, it really depends on the product, because for something like medicine, insurance, or education, a more serious tone may hit the mark better.",
+              "answerZh": "一般來說，我比較喜歡搞笑的廣告，因為幽默會令它們更容易令人記得，也更有觀看樂趣。不過，這還是要看產品本身，因為如果是藥物、保險或教育這類產品，較嚴肅的語氣可能會更合適。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What kind of advertisements do you dislike?",
+              "questionZh": "你不喜歡哪一類廣告？",
+              "answerEn": "I dislike advertisements that are misleading, overly aggressive, or clearly manipulative. For example, I really do not like ads that create false urgency, make exaggerated promises, or try to pressure people into buying something they probably do not need.",
+              "answerZh": "我不喜歡那些誤導性強、過分進取，或者明顯帶有操控意味的廣告。舉例來說，我真的很不喜歡那些製造虛假緊迫感、作出誇大承諾，或者試圖逼人去買一些其實未必需要的東西的廣告。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think advertisements are useful?",
+              "questionZh": "你覺得廣告有用嗎？",
+              "answerEn": "Yes, I do, at least to some extent. A good advertisement can help people discover useful products, compare options, or learn about services they might otherwise miss, although its value depends heavily on whether it is honest and relevant.",
+              "answerZh": "我覺得有用，至少在某程度上是這樣。一則好的廣告可以幫助人們發現有用的產品、比較不同選擇，或者知道一些原本可能會忽略的服務，不過它是否有價值，很大程度上取決於它是否誠實以及是否與人相關。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you prefer advertisements on TV or on social media?",
+              "questionZh": "你較喜歡電視廣告還是社交媒體廣告？",
+              "answerEn": "I would probably choose social media advertisements, mainly because they are shorter, more targeted, and easier to skip. TV advertisements can be more polished and cinematic, but social media ads usually feel more relevant to my interests and daily habits.",
+              "answerZh": "我大概會選擇社交媒體廣告，主要因為它們較短、更有針對性，而且更容易跳過。電視廣告可以拍得更精緻、更有電影感，但社交媒體廣告通常會讓我覺得更貼近我的興趣和日常習慣。"
+            },
+            {
+              "number": 12,
+              "questionEn": "What makes a good advertisement?",
+              "questionZh": "甚麼元素會令一則廣告成為好的廣告？",
+              "answerEn": "I think a good advertisement needs a clear message, a strong visual identity, and a reason people should care. The best ones do not just sell a product; they sell a feeling, a solution, or a lifestyle, while still staying believable. In other words, a good ad should catch your attention, hold it, and leave a lasting impression without trying too hard.",
+              "answerZh": "我認為，一則好的廣告需要有清晰的信息、鮮明的視覺形象，以及一個讓人會在意的理由。最好的廣告不只是推銷一件產品；它們推銷的其實是一種感覺、一個解決方法，或者一種生活方式，同時仍然要讓人覺得可信。換句話說，一則好的廣告應該要先吸引你的注意、再留住你的注意，最後在不過分用力的情況下留下深刻印象。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-1-art-and-photography",
+          "index": 3,
+          "title": "Art & Photography",
+          "titleZh": "藝術與攝影",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like art?",
+              "questionZh": "你喜歡藝術嗎？",
+              "answerEn": "Yes, I do, especially art that feels emotionally honest rather than overly technical. A good painting or installation can say a lot without saying a word, and I find that really powerful. Even when I do not fully understand a piece, I still enjoy the way it makes me pause and think.",
+              "answerZh": "是的，我喜歡，尤其是那些在情感上很真誠，而不是過度賣弄技巧的藝術作品。一幅好的畫作或一個裝置作品，即使一句話也不說，也可以傳達很多東西，而我覺得這種力量很強。即使我未必完全看得懂一件作品，我仍然會享受它令我停下來思考的感覺。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you think art classes are necessary?",
+              "questionZh": "你認為藝術課是必要的嗎？",
+              "answerEn": "I would say yes, especially for children. Art classes are not only about learning how to draw; they also teach observation, patience, and self-expression. Not every child will become an artist, of course, but that is not really the point.",
+              "answerZh": "我會說是的，尤其對小朋友來說更是如此。藝術課不只是教人怎樣畫畫；它同時也訓練觀察力、耐性，以及表達自己的能力。當然，不是每個孩子都會成為藝術家，但那其實並不是重點。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How do you think art classes affect children’s development?",
+              "questionZh": "你認為藝術課會怎樣影響孩子的發展？",
+              "answerEn": "I think they affect children’s development in subtle but important ways. When children draw, paint, or make things by hand, they learn to focus, make decisions, and express feelings that they may not yet have the words for. On top of that, art teaches them that there is more than one way to solve a problem, which is a valuable lesson in life.",
+              "answerZh": "我認為它們會以細微但重要的方式影響孩子的發展。當孩子畫畫、上色，或親手做東西時，他們會學習專注、作出決定，以及表達那些他們可能還未能用言語清楚說出的感受。除此之外，藝術也教會他們一個問題不只得一種解法，而這是人生中很有價值的一課。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What benefits can you get from painting as a hobby?",
+              "questionZh": "把繪畫當成興趣可以帶來甚麼好處？",
+              "answerEn": "Painting can be surprisingly therapeutic. It helps people slow down, switch off, and pay attention to colour, shape, and detail, so it is both creative and calming. For some people, it is also a quiet way to process emotions when words fall short.",
+              "answerZh": "繪畫其實可以很有療癒作用。它能幫助人放慢節奏、放鬆下來，並留意顏色、形狀和細節，所以它既有創造性，也有鎮靜作用。對某些人來說，當言語不足以表達感受時，繪畫也是一種安靜地整理情緒的方法。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you like to take photographs?",
+              "questionZh": "你喜歡拍照嗎？",
+              "answerEn": "Yes, quite a lot, although I would not call myself a serious photographer. I like taking photographs because they allow me to capture small moments that might otherwise slip away, such as a family dinner, an interesting street scene, or a beautiful sunset. In that sense, photos help me hold on to memories a little longer.",
+              "answerZh": "是的，我相當喜歡，雖然我不會說自己是個很專業的攝影愛好者。我喜歡拍照，因為照片能讓我捕捉那些本來可能會悄悄溜走的小瞬間，例如一頓家庭晚餐、一個有趣的街頭畫面，或是一個很美的日落。從這個角度來看，照片能幫我把回憶多留住一會兒。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you prefer to take photos yourself or to have other people take photos?",
+              "questionZh": "你比較喜歡自己拍照，還是讓別人替你拍？",
+              "answerEn": "I usually prefer to take photos myself because I am quite particular about framing and timing. When I take the picture, I can decide what deserves to be in the shot and what does not. That said, when I travel, I do ask other people to take a few photos of me; otherwise, it can look as though I was never there.",
+              "answerZh": "我通常比較喜歡自己拍，因為我對構圖和時機都比較講究。由我自己拍的時候，我可以決定甚麼值得放進畫面裡，甚麼不需要。不過，去旅行的時候，我的確也會請別人替我拍幾張，否則看起來就好像我根本沒有去過一樣。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How often do you take photographs?",
+              "questionZh": "你多常拍照？",
+              "answerEn": "Fairly often, probably a few times a week. I do not photograph absolutely everything, but whenever I see something visually striking or emotionally meaningful, I tend to reach for my phone. It has become a natural habit rather than a planned activity.",
+              "answerZh": "都算幾常，大概每星期幾次吧。我不會把所有東西都拍下來，但每當我看到一些在視覺上很吸引，或者在情感上對我有意義的東西時，我通常都會拿起手機拍一下。這已經變成了一種很自然的習慣，而不是刻意安排的活動。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you prefer to take pictures of people or of scenery?",
+              "questionZh": "你比較喜歡拍人，還是拍風景？",
+              "answerEn": "On balance, I prefer scenery. Landscapes and city views are easier to capture naturally, and they never complain about bad angles, which helps. I also like the way scenery can create a mood, although candid photos of people can be even more meaningful when the moment is genuine.",
+              "answerZh": "整體來說，我比較喜歡拍風景。自然景色和城市景觀通常更容易拍得自然，而且它們永遠不會抱怨角度不好，這一點也挺方便。我也很喜歡風景照片營造氣氛的能力，不過如果是一個很真實的瞬間，隨手拍下來的人像其實可以更有意義。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you prefer to take photos with a phone or with a camera?",
+              "questionZh": "你比較喜歡用手機還是相機拍照？",
+              "answerEn": "For everyday use, definitely a phone. It is lighter, quicker, and always within reach, so I am much more likely to capture a moment before it disappears. A proper camera can produce better quality, of course, but in daily life convenience usually wins.",
+              "answerZh": "如果是日常使用，我一定會選手機。它更輕、更快，而且永遠都在手邊，所以我更有機會在瞬間消失之前把它拍下來。當然，真正的相機可以拍出更高質素的照片，但在日常生活裡，方便通常還是最重要的。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you take many photographs when you travel?",
+              "questionZh": "你旅行時會拍很多照片嗎？",
+              "answerEn": "Yes, usually quite a lot. When I travel, I tend to notice details more sharply, so I naturally want to record them, whether it is architecture, local food, street life, or small unexpected moments. At the same time, I try not to spend the whole trip behind a lens, because I still want to experience the place directly.",
+              "answerZh": "會，通常都拍不少。旅行的時候，我往往會更敏銳地留意各種細節，所以我自然會想把它們記錄下來，不論是建築、本地食物、街頭生活，還是一些細小而意外的瞬間。不過同時，我也會盡量不讓自己整趟旅程都躲在鏡頭後面，因為我還是想直接去感受那個地方。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you like looking at photographs of yourself?",
+              "questionZh": "你喜歡看自己的照片嗎？",
+              "answerEn": "In moderation, yes. A good photo can bring back a memory in an instant, so I appreciate it more as a record of a moment than as a judgment of my appearance. Having said that, I can still be a bit critical of myself in pictures, which I think is true for a lot of people.",
+              "answerZh": "適量的話，我是喜歡的。一張好的照片可以在一瞬間把回憶帶回來，所以我更把它看成某個時刻的紀錄，而不是對外表的評價。不過話說回來，我看自己的照片時還是會有點挑剔，而我覺得很多人其實都是這樣。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Have you put any photographs you have taken on the walls in your house?",
+              "questionZh": "你有沒有把自己拍的照片掛在家裡的牆上？",
+              "answerEn": "Yes, I have, although only a few. Most of them are travel photographs, especially landscape shots, because they make the space feel more personal and lived-in. In a way, they are like small windows back into places I have loved.",
+              "answerZh": "有，不過只掛了幾張而已。大部分都是旅行時拍的照片，尤其是風景照，因為它們會令整個空間更有個人感，也更有生活氣息。某程度上，它們就像一扇扇小小的窗，讓我重新回到那些我很喜歡的地方。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-1-boat",
+          "index": 4,
+          "title": "Boat",
+          "titleZh": "船隻",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Have you ever taken a ride on a boat?",
+              "questionZh": "你有沒有坐過船？",
+              "answerEn": "Yes, I have, quite a few times actually. Most of those trips were short ferry rides rather than anything adventurous, but I still found them enjoyable because being out on the water feels refreshing and slightly freeing. Even a brief boat ride can make an ordinary journey feel a bit more memorable.",
+              "answerZh": "有，其實都有好幾次。我大多數坐的是短程渡輪，而不是甚麼刺激的航程，但我仍然覺得很享受，因為置身水上會讓人覺得很清新，也有一點自由的感覺。即使只是很短的船程，也可以令一段普通的旅程變得更值得記住。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you like travelling by boat?",
+              "questionZh": "你喜歡乘船旅行嗎？",
+              "answerEn": "Yes, I do, at least when the weather is good and the sea is calm. Travelling by boat usually feels slower and more scenic than other forms of transport, so it can be quite relaxing. It gives you time to look around, breathe a little, and enjoy the journey instead of just rushing from one place to another.",
+              "answerZh": "喜歡，至少在天氣好、海面平靜的時候我很喜歡。乘船通常比其他交通工具更慢，也更有風景可看，所以可以令人很放鬆。它會給你時間看看四周、喘一口氣，享受旅程本身，而不是只是急急忙忙由一個地方趕去另一個地方。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How often do people travel by boat in your country?",
+              "questionZh": "你國家的人多常坐船出行？",
+              "answerEn": "It really depends on where they live. In coastal areas or places with nearby islands, people may take ferries quite regularly, sometimes even as part of their daily routine. By contrast, people who live inland probably do it far less often, unless they are travelling for leisure.",
+              "answerZh": "這很視乎他們住在哪裡而定。在沿海地區，或者附近有島嶼的地方，人們可能相當經常坐渡輪，有時甚至是日常生活的一部分。相對地，住在內陸地區的人大概就少得多，除非他們是為了消閒而乘船。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is travelling by boat common where you live?",
+              "questionZh": "你住的地方乘船出行普遍嗎？",
+              "answerEn": "Yes, to some extent it is. It is not the main way people get around, but ferries are still a familiar part of the transport system, especially for reaching certain districts or outlying areas. So I would not say it is rare; it is just more situational than everyday transport like buses or trains.",
+              "answerZh": "是的，在某程度上算普遍。它不是人們最主要的出行方式，但渡輪仍然是交通系統裡很熟悉的一部分，尤其是去某些地區或離島的時候。所以我不會說它罕見，只是它比起巴士或火車這類日常交通工具，更視乎情況而定。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What are the advantages of travelling by boat?",
+              "questionZh": "乘船旅行有甚麼好處？",
+              "answerEn": "One obvious advantage is the view. On a boat, you can see the coastline, the skyline, or the open sea, and that can make the journey much more enjoyable. Another benefit is that it often feels less claustrophobic than crowded land transport, so for some people it is a breath of fresh air, quite literally.",
+              "answerZh": "其中一個很明顯的好處就是風景。坐在船上，你可以看到海岸線、城市天際線，或者一望無際的海面，而這會令整段旅程更好享受。另一個好處是，它通常沒有擠迫陸上交通那麼令人侷促，所以對某些人來說，那真的是一口新鮮空氣，某程度上甚至是字面上的意思。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Are there any disadvantages of travelling by boat?",
+              "questionZh": "乘船旅行有沒有甚麼壞處？",
+              "answerEn": "Yes, definitely. The biggest drawback is probably seasickness, because once that kicks in, the whole experience can go downhill very quickly. Boats can also be slower, more weather-dependent, and sometimes less convenient if the timetable is limited.",
+              "answerZh": "有，當然有。最大缺點大概就是暈船，因為一旦開始暈，整個體驗很快就會急轉直下。船程也可以比較慢、更加受天氣影響，而且如果班次不多的話，有時也沒有那麼方便。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Would you like to go on a long boat trip?",
+              "questionZh": "你想不想參加一次長途船旅？",
+              "answerEn": "Yes, I think I would, provided that the boat was comfortable and the trip was well planned. A long boat journey sounds appealing because it feels a bit like stepping out of fast-forward mode and letting the world slow down. That said, I would probably prefer it as a leisure trip rather than as a necessary way to get somewhere.",
+              "answerZh": "想，我覺得我會想去，前提是那艘船夠舒適，而且整趟旅程安排得好。一次長途船旅聽起來很吸引，因為那感覺有點像走出快轉模式，讓整個世界慢下來。不過話說回來，我大概會比較希望它是一種休閒旅程，而不是一種非得這樣去某地不可的交通方式。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you prefer travelling by boat or by plane?",
+              "questionZh": "你比較喜歡坐船還是坐飛機？",
+              "answerEn": "For practicality, I definitely prefer travelling by plane, especially for long distances. It is far faster and usually much more efficient, which matters when time is tight. However, if the distance is short and the scenery is beautiful, travelling by boat can be far more enjoyable.",
+              "answerZh": "如果講求實際，我一定比較喜歡坐飛機，尤其是長途旅程。它快得多，而且通常高效得多，當時間很緊的時候這一點很重要。不過，如果距離不遠，而且沿途風景很美，那麼坐船其實可以愉快得多。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What kinds of boats are common in your country?",
+              "questionZh": "你國家常見的是甚麼種類的船？",
+              "answerEn": "The most common ones are probably ferries, fishing boats, and small leisure boats. In some areas, you also see speedboats and tourist boats, especially where there are islands or waterfront attractions. So there is quite a range, from very practical working boats to boats used mainly for recreation.",
+              "answerZh": "最常見的大概是渡輪、漁船，以及一些小型休閒船。在某些地方，你也會看到快艇和觀光船，尤其是在有島嶼或者海濱景點的地區。所以其實種類很多，從很實用的工作船，到主要用來休閒的船都有。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do people in your country like to travel by boat?",
+              "questionZh": "你國家的人喜歡乘船旅行嗎？",
+              "answerEn": "Yes, many people do, though not everyone likes it for the same reason. Some people enjoy the views and the more relaxed pace, while others simply use boats because they are convenient in certain locations. So I would say people generally like it, but often in a practical, down-to-earth way rather than in a romantic one.",
+              "answerZh": "是的，很多人都喜歡，不過每個人喜歡的原因未必一樣。有些人喜歡沿途風景和較慢較放鬆的節奏，另一些人則只是因為在某些地方坐船確實方便。所以我會說人們普遍是喜歡的，只不過很多時候是一種很務實、很貼地的喜歡，而不一定是很浪漫的那一種。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Why do some people enjoy boat trips?",
+              "questionZh": "為甚麼有些人喜歡坐船旅行？",
+              "answerEn": "I think it is because boat trips can feel calm, scenic, and slightly removed from everyday life. There is something about being surrounded by water that clears the mind and softens the noise of the city. For some people, it is not just transport; it is part of the experience.",
+              "answerZh": "我覺得那是因為船旅可以給人一種平靜、有風景，而且稍微脫離日常生活的感覺。被水包圍這件事本身，似乎就能令人頭腦更清晰，也把城市的喧囂減弱一點。對某些人來說，那不只是一種交通方式，而是整個體驗的一部分。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Will travelling by boat get more popular in the future?",
+              "questionZh": "未來乘船旅行會不會變得更受歡迎？",
+              "answerEn": "Possibly, yes, especially for tourism and short-distance leisure travel. As people become more interested in experiences rather than just efficiency, boat trips may appeal to those who want something slower, more atmospheric, and more memorable. Still, I do not think boats will replace other forms of transport; they will probably remain a niche that becomes more attractive in the right context.",
+              "answerZh": "有可能，尤其是在旅遊和短途休閒出行方面。隨著人們越來越重視體驗，而不只是效率，船旅對那些想要更慢、更有氣氛、更值得回味的人來說，可能會更有吸引力。不過，我不認為船會取代其他交通工具；它大概仍然會是一種較小眾，但在合適情況下更有吸引力的選擇。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 2,
+      "displayTitle": "Book 2 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-2-bags",
+          "index": 1,
+          "title": "Bags",
+          "titleZh": "袋",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you usually carry a bag with you?",
+              "questionZh": "你平時會隨身帶袋嗎？",
+              "answerEn": "Yes, I usually do, especially on weekdays. I tend to carry quite a few essentials with me, so having a bag just makes life easier and helps me stay organized.",
+              "answerZh": "會，尤其是在平日。我通常都會隨身帶幾樣必需品，所以帶個袋會令生活方便得多，也能讓我保持有條理。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kind of bag do you usually use?",
+              "questionZh": "你通常會用哪一種袋？",
+              "answerEn": "I normally use a backpack because it is the most practical option for me. It is comfortable to carry, and it gives me enough space for things like my wallet, charger, umbrella, and sometimes even a laptop.",
+              "answerZh": "我通常會用背包，因為對我來說那是最實用的選擇。它背起來很舒服，而且有足夠空間放銀包、充電器、雨傘，有時甚至連手提電腦也放得下。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you prefer big bags or small bags?",
+              "questionZh": "你較喜歡大袋還是小袋？",
+              "answerEn": "I would say I prefer medium-sized or bigger bags. Small bags may look neat and stylish, but they can be a bit limiting when you need to carry more than just the bare essentials.",
+              "answerZh": "我會說我比較喜歡中型或較大的袋。小袋可能看起來整齊又時尚，但當你需要帶的東西不只最基本那些時，它們就會有點不夠用。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What do you usually keep in your bag?",
+              "questionZh": "你通常會在袋裡放些甚麼？",
+              "answerEn": "I usually keep the usual things in my bag, like my phone, keys, wallet, earphones, and a power bank. On top of that, I often carry a bottle of water and a small umbrella, because it is better to be safe than sorry.",
+              "answerZh": "我通常會在袋裡放一些常見的東西，例如手機、鎖匙、銀包、耳機和充電寶。除此之外，我也經常帶一支水和一把小雨傘，因為有備無患總比臨時手忙腳亂好。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Have you ever lost a bag?",
+              "questionZh": "你有沒有試過弄丟袋？",
+              "answerEn": "Yes, once, and it was a nightmare at the time. I accidentally left my bag somewhere in public, and even though I found it later, the whole experience taught me to keep a closer eye on my belongings.",
+              "answerZh": "有，一次，而且當時真的很可怕。我不小心把袋遺留在公共地方，雖然後來找回來了，但整個經歷令我學會以後一定要更小心看管自己的物品。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you think bags are important in daily life?",
+              "questionZh": "你覺得袋在日常生活中重要嗎？",
+              "answerEn": "Yes, absolutely. A bag is one of those everyday items that people almost take for granted, but it plays a really important role in helping us carry what we need efficiently and comfortably.",
+              "answerZh": "是的，絕對重要。袋是那種人們幾乎習以為常的日用品，但它在幫助我們有效率而且舒適地攜帶所需物品方面，其實扮演著很重要的角色。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you often buy new bags?",
+              "questionZh": "你經常買新袋嗎？",
+              "answerEn": "Not very often. I am not the kind of person who buys bags on impulse, so I usually replace one only when the old one is worn out or no longer fits my needs.",
+              "answerZh": "不算很常。我不是那種會衝動買袋的人，所以我通常都是在舊的已經磨損，或者不再適合我的需要時，才會換新的。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What kinds of bags are popular in your country?",
+              "questionZh": "在你的國家，哪一類袋比較流行？",
+              "answerEn": "In my country, backpacks, tote bags, and crossbody bags are all quite popular. People seem to like bags that are easy to carry around and versatile enough to suit work, study, or casual outings.",
+              "answerZh": "在我的國家，背包、帆布手提袋和斜孭袋都很受歡迎。人們似乎喜歡那些容易攜帶，而且足夠百搭、可以應付上班、上學或日常外出的袋。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do men and women usually use different kinds of bags?",
+              "questionZh": "男性和女性通常會用不同類型的袋嗎？",
+              "answerEn": "To a certain extent, yes, but I think the line has become much blurrier than before. These days, practicality and personal taste matter more than old-fashioned ideas about what men or women are supposed to use.",
+              "answerZh": "在某程度上是的，但我覺得那條界線已經比以前模糊得多。如今，實用性和個人口味往往比那些傳統觀念更重要，不再只是看男性或女性「應該」用甚麼袋。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you prefer bags that are practical or fashionable?",
+              "questionZh": "你較喜歡實用的袋還是時尚的袋？",
+              "answerEn": "I definitely lean towards practical bags. A fashionable bag may look good at first glance, but if it is awkward to carry or cannot hold much, the shine wears off pretty quickly.",
+              "answerZh": "我肯定比較偏向實用的袋。時尚的袋第一眼看上去也許很好看，但如果它難帶又裝不了多少東西，那種吸引力很快就會消失。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Have the types of bags people use changed over time?",
+              "questionZh": "人們使用的袋的種類有沒有隨時間改變？",
+              "answerEn": "Yes, I think so. In the past, bags were often more formal and purpose-specific, whereas nowadays people tend to look for something lighter, more flexible, and better suited to a fast-moving lifestyle.",
+              "answerZh": "有，我認為有。以前的袋往往比較正式，而且用途分得很清楚；相反，現在人們通常更想要一些更輕便、更靈活，也更適合快節奏生活方式的款式。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think people will use bags differently in the future?",
+              "questionZh": "你覺得未來人們會以不同方式使用袋嗎？",
+              "answerEn": "Yes, probably, because the things people carry are changing. As daily life becomes more digital, bags may become smarter and more compact, but at the same time they may also become more personalized, almost like an extension of someone’s identity.",
+              "answerZh": "會的，很有可能，因為人們隨身攜帶的東西正在改變。隨著日常生活愈來愈數碼化，未來的袋可能會變得更智能、更輕巧；但同時，它們也可能變得更個人化，幾乎像是一個人身份的一部分延伸。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-2-birthdays",
+          "index": 2,
+          "title": "Birthdays",
+          "titleZh": "生日",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you usually celebrate your birthday every year?",
+              "questionZh": "你每年通常都會慶祝生日嗎？",
+              "answerEn": "Yes, I usually do, although I do not always make a big fuss about it. These days, I tend to celebrate in a fairly simple way, usually with a good meal, a cake, and some time with people I care about. For me, a birthday does not have to be extravagant to feel meaningful.",
+              "answerZh": "有，我通常都會慶祝，不過我未必每次都會大事鋪張。這些年我傾向用比較簡單的方式去過，通常就是吃一頓好的、吃個蛋糕，和我在乎的人一起過一點時間。對我來說，生日不一定要很隆重，才會有意義。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What did you usually do on your birthday when you were a child?",
+              "questionZh": "你小時候通常會怎樣過生日？",
+              "answerEn": "When I was a child, my birthday was usually a much livelier occasion. My family would buy a cake, prepare a special meal, and sometimes invite relatives over, so the whole day felt a bit more festive than usual. I also remember looking forward to small things, like blowing out the candles and opening presents.",
+              "answerZh": "我小時候的生日通常熱鬧得多。我家人會買蛋糕、準備一頓特別的飯，有時還會邀請親戚過來，所以整天都比平時更有節日氣氛。我也記得自己會很期待一些小事，例如吹蠟燭和拆禮物。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you enjoy birthdays more when you were younger?",
+              "questionZh": "你年紀較小的時候是不是更享受生日？",
+              "answerEn": "Yes, probably, because birthdays felt almost magical when I was a child. At that age, everything revolved around excitement, surprises, and being the centre of attention for a day. Now I still enjoy birthdays, but in a quieter way, so the feeling is warmer and calmer rather than thrilling.",
+              "answerZh": "是的，大概是，因為我小時候的生日幾乎有一種很神奇的感覺。在那個年紀，生日就代表興奮、驚喜，以及有一天成為全場焦點。現在我仍然喜歡生日，不過方式比較安靜，所以那種感覺更溫暖、更平和，而不是那麼刺激。"
+            },
+            {
+              "number": 4,
+              "questionEn": "How do you normally celebrate your birthday now?",
+              "questionZh": "你現在通常怎樣慶祝生日？",
+              "answerEn": "Nowadays, I usually keep it low-key. I might go out for dinner with my family or a few close friends, and if I have time, I may do something I genuinely enjoy, such as watching a film or having a relaxed day out. To be honest, I value good company more than a packed schedule.",
+              "answerZh": "現在我通常都會低調地過。我可能會和家人或幾個好朋友出去吃飯，如果我有時間，我也可能會做一些自己真心喜歡的事，例如看一部電影，或者輕鬆地外出一天。老實說，比起行程排得滿滿的，我更重視陪伴我的人。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer to celebrate your birthday with family or friends?",
+              "questionZh": "你比較喜歡和家人還是和朋友慶祝生日？",
+              "answerEn": "If I had to choose, I would probably say family. There is something comforting about spending that day with the people who have known you the longest, because the atmosphere tends to feel more genuine and less performative. That said, if I am very close to a group of friends, I would also be happy to celebrate with them.",
+              "answerZh": "如果一定要選，我大概會說是家人。和那些認識你最久的人一起過那一天，總有一種令人安心的感覺，因為整體氣氛通常更真實，也沒有那麼表面化。不過，如果我和一班朋友真的很親近，我也會很樂意和他們一起慶祝。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What kind of birthday gifts do you like to receive?",
+              "questionZh": "你喜歡收到甚麼類型的生日禮物？",
+              "answerEn": "I prefer gifts that feel thoughtful rather than expensive. For example, I would be happy to receive books, something practical I can use every day, or even a handwritten note if it feels sincere. To me, the best gifts are the ones that show the other person actually knows you.",
+              "answerZh": "我比較喜歡那些有心思，而不是很昂貴的禮物。例如，我會很高興收到書、一些我每天都用得到的實用東西，甚至是一張手寫卡，只要它是真誠的就很好。對我來說，最好的禮物是那些能顯示對方真的了解你的人送出的東西。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you usually give birthday gifts to other people?",
+              "questionZh": "你通常會送生日禮物給別人嗎？",
+              "answerEn": "Yes, I usually do, especially for people I am close to. I think giving a birthday gift is a simple but meaningful way to show appreciation, and I try to choose something that matches the person’s personality or interests. Even a small gift can go a long way if it is chosen with care.",
+              "answerZh": "會，我通常都會送，尤其是對我親近的人來說。我覺得送生日禮物是一種簡單但有意義的方式去表達重視，而我通常都會盡量選一些符合對方性格或興趣的東西。即使只是一份小禮物，只要是用心挑選的，也可以很有份量。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Is your birthday now still as important to you as when you were a child?",
+              "questionZh": "你現在的生日還像小時候那樣重要嗎？",
+              "answerEn": "Not in quite the same way. When I was younger, my birthday felt like one of the biggest days of the year, whereas now it is more of a personal milestone than a major event. I still care about it, but I see it less as a celebration of attention and more as a moment to reflect.",
+              "answerZh": "不完全是同一種重要。當我年紀較小的時候，生日像是一年裡最重要的日子之一；但現在，它比較像一個個人的里程碑，而不是一場重大活動。我仍然在意它，只是我現在比較少把它看成一種被關注的慶祝，而更像是一個反思的時刻。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think it’s important to celebrate birthdays?",
+              "questionZh": "你認為慶祝生日重要嗎？",
+              "answerEn": "Yes, in most cases I do. I think birthdays give people a natural reason to pause, feel appreciated, and mark the passage of time, which matters more than we sometimes admit. Having said that, I do not think everyone has to celebrate in the same way, because some people prefer something private and understated.",
+              "answerZh": "是的，在大多數情況下我覺得是重要的。我認為生日給了人一個很自然的理由去停一停、感受到被重視，以及標記時間的流逝，而這件事其實比我們有時願意承認的更重要。不過話說回來，我不認為每個人都一定要用同一種方式去慶祝，因為有些人會比較喜歡私下、低調一點。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think it’s important to give someone a card on their birthday?",
+              "questionZh": "你認為在別人生日的時候送一張卡重要嗎？",
+              "answerEn": "I would not say it is essential, but it can be a lovely gesture. A card, especially one with a personal message inside, can feel more lasting than a quick text message, because it shows that someone made a little extra effort. In that sense, it is a small thing that can carry quite a lot of warmth.",
+              "answerZh": "我不會說那是必不可少的，但它可以是一個很可愛的心意。卡片，尤其是裡面有個人化訊息的卡片，往往比一則很快發出去的短訊更有保留價值，因為它顯示了對方多花了一點心思。從這個角度來看，這是一件很小的事，但卻可以承載很多溫度。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think the price of gifts is important?",
+              "questionZh": "你認為禮物的價錢重要嗎？",
+              "answerEn": "Not really, or at least not to me. Of course, an expensive gift can be generous, but price and thoughtfulness are not the same thing, and people sometimes confuse the two. I would take a modest but meaningful gift over an expensive but impersonal one any day.",
+              "answerZh": "不太重要，至少對我來說不是。當然，昂貴的禮物可以顯得很大方，但價錢和心意其實不是同一回事，而人們有時會把兩者混為一談。對我來說，一份不算昂貴但很有意思的禮物，任何時候都比一份昂貴卻沒有個人感的禮物更好。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do people in your country usually have birthday parties?",
+              "questionZh": "你國家的人通常會辦生日派對嗎？",
+              "answerEn": "Yes, many people do, especially children and young adults. For children, birthday parties are often quite common because they are fun, social, and full of energy, while adults may celebrate in a more restrained way, such as having dinner with family or close friends. So yes, birthday gatherings are common, but the style usually changes with age.",
+              "answerZh": "會，很多人都會，尤其是小朋友和年輕人。對小朋友來說，生日派對很常見，因為它們既好玩，又有社交性，而且充滿活力；至於成年人，慶祝方式通常會比較克制，例如和家人或幾個親密朋友吃飯。所以答案是會，生日聚會很常見，只是形式通常會隨著年齡而改變。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-2-books",
+          "index": 3,
+          "title": "Books",
+          "titleZh": "書籍",
+          "questionCount": 13,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like reading books? Why?",
+              "questionZh": "你喜歡看書嗎？為甚麼？",
+              "answerEn": "Yes, I do, especially when I want to slow down and clear my head. Reading gives me a kind of quiet focus that other forms of entertainment rarely provide, and a really good book can open a door into another person’s world.",
+              "answerZh": "是的，我喜歡，尤其是在我想放慢節奏、整理思緒的時候。閱讀能給我一種其他娛樂方式很少真正提供的安靜專注感，而一本真正好的書，往往能替我打開通往另一個人世界的大門。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you read?",
+              "questionZh": "你多常閱讀？",
+              "answerEn": "Pretty regularly, usually a little every day. I often read before bed or while commuting, even if it is only for twenty or thirty minutes, because that small pocket of time helps me unwind.",
+              "answerZh": "都算幾有規律，通常每天都會看一點。我常常會在睡前或者通勤時看書，即使只有二十分鐘或三十分鐘也好，因為那一小段時間能幫我放鬆下來。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you have many books at home?",
+              "questionZh": "你家裡有很多書嗎？",
+              "answerEn": "Yes, I do, although not all of them are neatly organised. I have a mixture of novels, non-fiction, and a few books I keep going back to, so my shelves are a bit of a snapshot of my interests. Some of them are well loved, and others are honestly just gathering dust.",
+              "answerZh": "有，雖然它們不是全部都整理得很整齊。我家裡有小說、非小說類書籍，還有幾本我會一看再看的書，所以我的書架某程度上就像我興趣的一個縮影。有些書我看得很多次了，也有些老實說只是在積塵。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you prefer to buy books or borrow them?",
+              "questionZh": "你比較喜歡買書還是借書？",
+              "answerEn": "I do both, but I lean towards buying books that I genuinely care about. If I think I will reread a book, underline parts of it, or keep it for reference, I would rather own it; but if I am just curious, borrowing makes more sense.",
+              "answerZh": "兩樣我都會，不過如果是我真正重視的書，我會比較傾向買下來。如果我覺得自己會重看、會在裡面畫線，或者想把它留作參考，我就寧願擁有它；但如果我只是有點好奇，那借來看會更合理。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What are the benefits of reading?",
+              "questionZh": "閱讀有甚麼好處？",
+              "answerEn": "Reading broadens your horizons, sharpens your language, and helps you think with a bit more depth. It also builds empathy, because when you spend time inside other people’s stories, you start to see the world through more than one lens.",
+              "answerZh": "閱讀能開闊眼界、提升語言能力，也能讓人思考得更深入一些。它同時也能培養同理心，因為當你長時間走進別人的故事裡，你就會開始從不只一個角度去看世界。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What book would you take on a long journey?",
+              "questionZh": "如果要去長途旅程，你會帶哪一本書？",
+              "answerEn": "I would probably take a Sherlock Holmes collection. On a long journey, I like having something engaging but flexible, and short detective stories are perfect because I can read one at a time without losing the thread. A good mystery makes the hours slip by.",
+              "answerZh": "我大概會帶一本《福爾摩斯探案集》。在長途旅程中，我喜歡帶一些既吸引人又有彈性的書，而短篇偵探故事就很適合，因為我可以一次看一篇，也不會失去整體脈絡。一個精彩的懸疑故事，會讓時間不知不覺地過去。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How easy is it for you to read books in English?",
+              "questionZh": "對你來說，用英文看書容易嗎？",
+              "answerEn": "It is fairly easy for me now, although it still depends on the book. If the language is clear and contemporary, I can read quite smoothly, but if it is older or more literary, I slow down and pay closer attention.",
+              "answerZh": "對我來說，現在算是相當容易，不過仍然要看是甚麼書。如果語言清楚而且比較現代，我可以看得很順；但如果是較舊或者文學性較強的作品，我就會放慢速度，看得更仔細。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Have you given up reading a book recently?",
+              "questionZh": "你最近有放棄看一本書嗎？",
+              "answerEn": "Yes, I have. I recently put down a self-help book because it felt repetitive and a bit padded, and after a while I felt it was going round in circles. These days, if a book is not giving me anything, whether that is enjoyment or insight, I do not force myself to finish it.",
+              "answerZh": "有。我最近放下了一本勵志書，因為它讓我覺得內容很重複，而且有點拖長來寫，看了一陣子之後，我覺得它只是在兜圈子。現在如果一本書不能帶給我一些東西，不管是樂趣還是啟發，我都不會勉強自己把它看完。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What kind of people like reading and what kind of people don’t like reading very much?",
+              "questionZh": "甚麼樣的人喜歡閱讀，而甚麼樣的人不太喜歡閱讀？",
+              "answerEn": "In general, people who enjoy reflection, imagination, or quiet hobbies tend to like reading more. By contrast, people who prefer fast-moving, highly visual entertainment may find books too slow, not because they lack ability, but because they enjoy a different kind of stimulation.",
+              "answerZh": "一般來說，喜歡思考、想像，或者安靜興趣的人，通常會比較喜歡閱讀。相反，較喜歡節奏快、視覺刺激強的娛樂的人，可能會覺得書太慢了；這並不是因為他們能力不足，而是因為他們喜歡的是另一種刺激方式。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What kinds of books do you like to read?",
+              "questionZh": "你喜歡看哪一類書？",
+              "answerEn": "I tend to gravitate towards literary fiction, memoirs, and the occasional psychology book. I like books that are beautifully written but still emotionally grounded, because the best ones do more than tell a story; they leave you with something to think about.",
+              "answerZh": "我通常比較傾向看文學小說、回憶錄，以及偶爾看一些心理學的書。我喜歡那些文字寫得很美、但情感上仍然很真實的書，因為最好的作品不只是講一個故事；它們還會留下一些值得你慢慢思考的東西。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What is the best book you’ve ever read?",
+              "questionZh": "你讀過最好的一本書是甚麼？",
+              "answerEn": "One of the best books I have ever read is To Kill a Mockingbird. What I love about it is that it feels simple on the surface, but it says a great deal about justice, prejudice, and moral courage. It is one of those books that lingers in your mind long after you have turned the last page.",
+              "answerZh": "我讀過其中一本最好的書是《殺死一隻知更鳥》。我最喜歡它的一點，是它表面上看起來很簡單，但其實對正義、偏見，以及道德勇氣都說了很多。那是一種即使你翻過最後一頁之後，仍然會長久留在腦海裡的書。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Is reading books a popular activity in your country?",
+              "questionZh": "在你的國家，閱讀是受歡迎的活動嗎？",
+              "answerEn": "I would say it still is, although not in quite the same way as before. A lot of people still read for study, self-improvement, or pleasure, but phones and short-form content have clearly chipped away at people’s attention spans. Even so, there is still a solid reading culture, especially among students and people who enjoy quieter hobbies.",
+              "answerZh": "我會說仍然算是，不過形式已經和以前不太一樣了。很多人仍然會為了學習、自我提升，或者單純的樂趣而閱讀，但手機和短篇內容確實已經明顯蠶食了人們的專注力。即使如此，閱讀文化仍然相當穩固，尤其是在學生和喜歡較安靜興趣的人之中。"
+            },
+            {
+              "number": 13,
+              "questionEn": "Do you think that electronic books / eReaders are better than real books?",
+              "questionZh": "你認為電子書／電子閱讀器比實體書更好嗎？",
+              "answerEn": "In practical terms, yes, because they are light, portable, and convenient, especially for travel. That said, real books still have a charm of their own: they are easier on the eyes, more tactile, and somehow more memorable. So I would say eReaders win on convenience, while printed books win on experience.",
+              "answerZh": "如果從實際角度來看，是的，因為它們輕便、容易攜帶，而且很方便，特別適合旅行。不過，實體書仍然有它們獨特的魅力：它們對眼睛較舒服、更有觸感，而且不知為何也更令人印象深刻。所以我會說，電子閱讀器贏在方便，而印刷書則贏在閱讀體驗。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-2-celebrity",
+          "index": 4,
+          "title": "Celebrity",
+          "titleZh": "名人",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Who is your favourite celebrity?",
+              "questionZh": "你最喜歡的名人是誰？",
+              "answerEn": "One of my favourite celebrities is Keanu Reeves. He first caught my attention as an actor, but what made him stay in my mind was his calm and humble public image. He comes across as thoughtful, down-to-earth, and far more interested in staying genuine than in chasing attention.",
+              "answerZh": "我最喜歡的名人之一是奇洛・李維斯。他最初是以演員的身份吸引了我的注意，但真正令我一直記住他的，是他平靜而謙遜的公眾形象。他給人的感覺很有想法、很踏實，而且比起追逐關注，更重視保持真誠。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kind of celebrity do you usually admire?",
+              "questionZh": "你通常欣賞哪一類名人？",
+              "answerEn": "I usually admire celebrities who have both talent and character. Being famous is one thing, but staying thoughtful and respectful under the spotlight is quite another. In other words, I am drawn less to hype and more to people who seem genuine.",
+              "answerZh": "我通常會欣賞那些既有才華，也有品格的名人。成名是一回事，但能夠在聚光燈下依然保持成熟、尊重和分寸，又是另一回事。換句話說，比起炒作，我更容易被那些看起來真誠的人吸引。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you like any foreign celebrities?",
+              "questionZh": "你喜歡任何外國名人嗎？",
+              "answerEn": "Yes, absolutely. Because films, music, and interviews travel so easily nowadays, foreign celebrities no longer feel far away; they are almost part of our daily media diet. I especially like public figures who can connect with people across cultures without sounding fake.",
+              "answerZh": "是的，我很喜歡一些外國名人。因為電影、音樂和訪談如今傳播得非常快，外國名人已經不再讓人覺得遙不可及；某程度上，他們幾乎已成為我們日常媒體生活的一部分。我尤其喜歡那些能跨越文化與人連結、同時又不顯得做作的公眾人物。"
+            },
+            {
+              "number": 4,
+              "questionEn": "How do you usually find out about celebrities?",
+              "questionZh": "你通常怎樣得知名人的消息？",
+              "answerEn": "Mostly through social media, online interviews, and short video clips, although I also come across them through films or documentaries. These days celebrity news spreads like wildfire, so even if I am not looking for it, it still finds its way to me.",
+              "answerZh": "我主要是透過社交媒體、網上訪談和短片去認識名人，不過我也會透過電影或紀錄片接觸到他們。現在名人消息傳得很快，就像野火一樣，所以即使我不是刻意去找，它也總會自己跑到我眼前。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Why do people become interested in celebrities?",
+              "questionZh": "為甚麼人們會對名人感興趣？",
+              "answerEn": "I think people become interested in celebrities because fame blends talent, storytelling, and aspiration in one package. For some people, celebrities are simply entertaining, while for others they become symbols of success, beauty, or confidence. In a way, they are both mirrors and dreams: people see either what they are or what they want to be.",
+              "answerZh": "我覺得人們會對名人感興趣，是因為名氣把才華、故事性和憧憬混合在同一個人身上。對某些人來說，名人純粹是一種娛樂；但對另一些人來說，他們會變成成功、美貌或自信的象徵。某程度上，名人既像鏡子，也像夢想，因為人們會在他們身上看見自己，或者看見自己想成為的樣子。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Are celebrities important in your country?",
+              "questionZh": "名人在你的國家重要嗎？",
+              "answerEn": "Yes, to a certain extent, they are. Celebrities often shape trends in fashion, advertising, and even public discussion, so they are not just decorative faces on a screen. That said, their importance can be exaggerated when serious issues are pushed into the shadows.",
+              "answerZh": "是的，在某種程度上很重要。名人往往會影響時尚潮流、廣告走向，甚至公共討論，所以他們不只是螢幕上好看的臉孔而已。不過，他們的重要性有時也會被過度放大，尤其當更嚴肅的議題因此被擠到陰影裡的時候。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Would you like to meet a celebrity one day?",
+              "questionZh": "你將來想見到名人嗎？",
+              "answerEn": "Yes, I would, provided that it happened naturally rather than in a chaotic fan moment. I would be more interested in having a brief but genuine conversation than asking for a photo, because a public image and a real personality are not always the same thing.",
+              "answerZh": "會，我是想的，不過前提是那應該是一個自然的情況，而不是一個混亂的追星場面。比起要求合照，我其實更想要一段短暫但真誠的對話，因為一個人的公眾形象和真實個性未必完全一樣。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Would you want to be a celebrity in the future?",
+              "questionZh": "你將來想成為名人嗎？",
+              "answerEn": "Probably not. It may look glamorous from a distance, but I think being recognised everywhere would become exhausting very quickly. I would rather do meaningful work and keep my private life intact.",
+              "answerZh": "大概不會。從遠處看，名氣也許很光鮮，但我覺得無論走到哪裡都被認出來，很快就會讓人感到疲憊。我寧願做有意義的工作，同時把自己的私人生活保留下來。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think being a celebrity is easy or difficult?",
+              "questionZh": "你認為當名人是容易還是困難？",
+              "answerEn": "Overall, I think it is much more difficult than people assume. The lifestyle may look shiny on the surface, but constant attention can turn even a small mistake into a headline. In that sense, fame can feel like a golden cage.",
+              "answerZh": "整體來說，我覺得這遠比人們想像中困難。這種生活表面上看起來很亮麗，但持續不斷的關注，往往會把一個小錯誤都放大成新聞標題。從這個角度來看，名氣有時就像一個金色的牢籠。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think we should protect famous people’s privacy?",
+              "questionZh": "你認為我們應該保護名人的私隱嗎？",
+              "answerEn": "Yes, absolutely. Famous people may live in the public eye, but that does not mean every corner of their lives should be open for inspection. Being well known should never cancel out the basic right to dignity and personal space.",
+              "answerZh": "是的，絕對應該。名人也許活在公眾視線之中，但那並不代表他們生活裡的每一個角落都應該被拿來檢視。知名度再高，也不應該抹去一個人對尊嚴和私人空間的基本權利。"
+            },
+            {
+              "number": 11,
+              "questionEn": "How do celebrities influence their fans in your country?",
+              "questionZh": "名人在你的國家會怎樣影響他們的粉絲？",
+              "answerEn": "They influence their fans in all sorts of ways, from fashion choices and buying habits to attitudes, language, and even social values. Young people in particular can be quite impressionable, so a celebrity’s words can ripple outward far beyond a single post or interview. That is why influence is never as light as it looks.",
+              "answerZh": "他們會從很多方面影響粉絲，從穿衣風格和消費習慣，到態度、說話方式，甚至社會價值觀都可能受到影響。尤其是年輕人，往往比較容易受影響，所以名人說過的一句話，帶來的影響可能會遠遠超過一則貼文或一次訪問本身。正因如此，影響力從來沒有表面看起來那麼輕。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think celebrities have a responsibility to set a good example?",
+              "questionZh": "你認為名人有責任樹立好榜樣嗎？",
+              "answerEn": "Yes, to some extent, I do. I do not think celebrities need to be perfect, because nobody is, but once someone has a huge platform, their behaviour carries weight whether they like it or not. Fair or unfair, influence and responsibility tend to go hand in hand.",
+              "answerZh": "是的，在某種程度上我覺得有。我並不認為名人必須完美，因為沒有人是完美的；但當一個人擁有很大的平台時，他的一言一行無論願不願意都會帶有分量。不論這樣公不公平，影響力和責任往往是並行的。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-2-clothes-fashion",
+          "index": 5,
+          "title": "Clothes, Fashion",
+          "titleZh": "衣服與時尚",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What is your favourite item of clothing?",
+              "questionZh": "你最喜歡的衣物是甚麼？",
+              "answerEn": "My favourite item of clothing is probably a well-cut denim jacket. It is one of those pieces that goes with almost anything, whether I am dressed casually or trying to look a bit more put together. More importantly, it feels like me, so I keep reaching for it.",
+              "answerZh": "我最喜歡的衣物大概是一件剪裁合身的牛仔外套。它算是那種幾乎甚麼都能配的單品，不論我是穿得比較休閒，還是想讓自己看起來更整齊一點，都很合適。更重要的是，它很有我的風格，所以我總是會不自覺地拿來穿。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kind of clothes do you usually like to wear?",
+              "questionZh": "你通常喜歡穿甚麼類型的衣服？",
+              "answerEn": "I usually go for simple, clean, and comfortable clothes, such as plain T-shirts, loose trousers, and light jackets. I like pieces that are easy to mix and match, because that makes getting dressed much less of a hassle. For me, a good outfit should look neat without trying too hard.",
+              "answerZh": "我通常會選擇簡單、乾淨而且舒服的衣服，例如純色 T 恤、寬鬆長褲和輕便外套。我喜歡那些容易配搭的單品，因為那樣穿衣服時會省事很多。對我來說，一套好的穿搭應該看起來整齊，但又不會顯得太刻意。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you prefer comfortable clothes or fashionable clothes?",
+              "questionZh": "你比較喜歡舒服的衣服還是時尚的衣服？",
+              "answerEn": "If I had to choose, I would go for comfortable clothes, but ideally I like clothes that tick both boxes. There is no point wearing something stylish if I cannot move freely or feel at ease in it. Fashion matters, but comfort is what carries you through the day.",
+              "answerZh": "如果一定要二選一，我會選舒服的衣服，不過最理想的情況當然是兩者兼備。要是衣服看起來很時尚，但穿上去不能自在活動、也不舒服，其實就沒有太大意思。時尚固然重要，但真正陪你過完整天的，始終是舒適感。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Where do you usually purchase your clothes?",
+              "questionZh": "你通常在哪裡買衣服？",
+              "answerEn": "Most of the time, I buy clothes from shopping centres or from online stores run by brands I already trust. I still like trying things on in person, because the fit can make or break an outfit. That said, if I already know the brand and my size, I am perfectly happy to shop online.",
+              "answerZh": "大部分時候，我會在商場買衣服，或者在一些我本來就信得過的品牌網店購買。我仍然很喜歡親身試穿，因為合不合身往往會直接影響整套穿搭的效果。不過，如果我本身已經熟悉那個品牌，也知道自己的尺寸，我也很樂意在網上買。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Have you ever bought clothes online?",
+              "questionZh": "你曾經在網上買過衣服嗎？",
+              "answerEn": "Yes, many times. It is very convenient, especially when I am busy, and the range online is often much wider than in physical shops. The only downside is that sizing can be all over the place, so it is always a bit of a gamble.",
+              "answerZh": "有，而且很多次。網購真的很方便，尤其是在我忙的時候，而且網上的選擇通常也比實體店多得多。唯一的缺點就是尺寸有時候會很不一致，所以每次買其實都有點像碰運氣。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How often do you buy new clothes?",
+              "questionZh": "你多常買新衣服？",
+              "answerEn": "Not that often, probably every couple of months rather than every few weeks. These days I try to buy more selectively, because I would rather own a few good pieces than a wardrobe full of impulse buys. In other words, I lean much more towards quality over quantity now.",
+              "answerZh": "不算很頻密，大概每幾個月才買一次，而不是每幾個星期就買。現在我會更有選擇性地購買，因為我寧願擁有幾件質素好的衣服，也不想衣櫃裡塞滿衝動消費買回來的東西。換句話說，我現在明顯更傾向重質不重量。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Were you interested in fashion when you were a child?",
+              "questionZh": "你小時候對時尚有興趣嗎？",
+              "answerEn": "Not really. When I was a child, I cared far more about whether my clothes were comfortable than whether they were fashionable. As long as I could run around in them and not feel restricted, I was perfectly happy.",
+              "answerZh": "其實沒有。小時候我更在意的是衣服舒不舒服，而不是它們時不時尚。只要那些衣服讓我可以自在地跑來跑去，不會覺得被束縛，我就已經很滿足了。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Is fashion important to you now?",
+              "questionZh": "時尚現在對你來說重要嗎？",
+              "answerEn": "Yes, to some extent. I would not say fashion is the centre of my life, but the way you dress does shape first impressions and sometimes even your confidence. For me, it is less about chasing trends and more about presenting myself well.",
+              "answerZh": "某程度上算重要。我不會說時尚是我生活的核心，但一個人的穿著方式的確會影響別人對你的第一印象，有時甚至會影響你自己的自信。對我來說，重點不在於追逐潮流，而在於把自己呈現得得體一點。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Are there any traditional clothes in your country?",
+              "questionZh": "你國家有沒有一些傳統服飾？",
+              "answerEn": "Yes, there are. In my country, traditional clothes such as the qipao are still associated with special occasions like weddings, festivals, or formal photo shoots. They carry a real sense of history and elegance, even if people do not wear them on a day-to-day basis.",
+              "answerZh": "有的。在我的國家，像旗袍這類傳統服飾，通常仍然會出現在婚禮、節日，或者正式拍照這些特別場合。它們本身帶有一種很鮮明的歷史感和優雅氣質，雖然人們平日並不會經常穿。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What types of clothes are fashionable for young people in your country these days?",
+              "questionZh": "你國家現在年輕人流行穿甚麼類型的衣服？",
+              "answerEn": "These days, many young people seem to like relaxed, street-inspired fashion, such as oversized T-shirts, loose jeans, trainers, and layered outfits. At the same time, minimalist styles in neutral colours are also very popular, so the overall look is often casual but carefully put together. In a way, people want to look effortless, even when the outfit has clearly been thought through.",
+              "answerZh": "現在很多年輕人似乎都喜歡比較輕鬆、帶點街頭風格的穿搭，例如寬鬆 T 恤、鬆身牛仔褲、球鞋和有層次感的配搭。同時，簡約風和中性色系也很受歡迎，所以整體造型通常看起來很隨性，但其實又是有經過細心搭配的。某程度上，大家都想看起來毫不費力，即使那套穿搭其實明顯是有認真想過的。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Does fashion change for people as they get older?",
+              "questionZh": "隨著年紀增長，人們的時尚風格會改變嗎？",
+              "answerEn": "Definitely. As people get older, they often become more aware of fit, fabric, and practicality, rather than just whatever happens to be trendy. Younger people are usually more willing to experiment, whereas older adults tend to dress in a way that reflects their lifestyle, comfort, and confidence.",
+              "answerZh": "一定會。隨著年紀漸長，人們通常會更重視剪裁、布料和實用性，而不只是盲目跟隨當下流行甚麼。年輕人一般會比較願意嘗試不同風格；相反，年紀較大的人往往會選擇更能反映自己生活方式、舒適感和自信的穿著。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Have your tastes in clothes changed over time?",
+              "questionZh": "你對衣服的品味有隨著時間改變嗎？",
+              "answerEn": "Yes, quite a lot. I used to be more drawn to eye-catching styles, but now I gravitate towards clothes that are timeless, well made, and easy to wear. The older I get, the more I realise that personal style is not about wearing more; it is about choosing better.",
+              "answerZh": "有，而且改變得挺明顯。我以前比較容易被搶眼的款式吸引，但現在我更傾向選擇那些耐看、做工好、而且容易穿的衣服。年紀越大，我就越明白，個人風格其實不是穿得越多越好，而是要選得更好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 3,
+      "displayTitle": "Book 3 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-3-colours",
+          "index": 1,
+          "title": "Colours",
+          "titleZh": "顏色",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What colours do you like?",
+              "questionZh": "你喜歡甚麼顏色？",
+              "answerEn": "I am especially fond of blue and green, mainly because they feel calm, fresh, and easy on the eyes. Blue gives me a sense of peace, while green always reminds me of nature and balance.",
+              "answerZh": "我特別喜歡藍色和綠色，主要因為它們給人一種平靜、清新，而且看起來很舒服的感覺。藍色給我一種安穩感，而綠色總會令我想起大自然和一種平衡感。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Are there any colours you dislike?",
+              "questionZh": "你有沒有不喜歡的顏色？",
+              "answerEn": "I would not say I truly dislike any colour in itself, but I am not a big fan of very harsh neon colours. They can feel a bit too loud and overwhelming, especially when they are used too heavily.",
+              "answerZh": "我不會說我真的討厭哪一種顏色本身，不過我不太喜歡那些很刺眼的螢光色。它們有時會讓人覺得太張揚、太過強烈，尤其是當它們被大量使用的時候。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you like the same colours when you were a child?",
+              "questionZh": "你小時候也喜歡同樣的顏色嗎？",
+              "answerEn": "Not really. When I was a child, I was much more drawn to bright and playful colours, such as yellow or red, because they felt energetic and fun. As I have grown older, though, my taste has become a little more subdued.",
+              "answerZh": "不算是。我小時候比較容易被鮮艷又活潑的顏色吸引，例如黃色或紅色，因為它們感覺很有活力，也很有趣。不過隨著年紀漸長，我的品味就變得比較內斂一點了。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What colours do you usually wear?",
+              "questionZh": "你平時通常會穿甚麼顏色？",
+              "answerEn": "I usually wear neutral colours like black, white, grey, and navy. They are timeless, easy to match, and practical for everyday life, so I do not have to overthink what to wear.",
+              "answerZh": "我平時通常會穿一些中性色，例如黑色、白色、灰色和深藍色。它們很經典、容易配搭，而且對日常生活來說很實用，所以我不用花太多心思去想今天要穿甚麼。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you like to wear dark or bright colours?",
+              "questionZh": "你喜歡穿深色還是鮮色？",
+              "answerEn": "I definitely lean towards darker colours, or at least softer tones. Bright colours can look great in small doses, but dark colours tend to feel more elegant and easier to wear on a daily basis.",
+              "answerZh": "我肯定比較偏向深色，或者至少是較柔和的色調。鮮色少量點綴其實可以很好看，但深色通常會給人一種更優雅、也更適合日常穿著的感覺。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Are there any colours you would never wear?",
+              "questionZh": "有沒有甚麼顏色是你絕對不會穿的？",
+              "answerEn": "I would not say never, because it really depends on the design and the occasion, but I would probably avoid very fluorescent colours. They are a bit outside my comfort zone, and I do not think they suit my style particularly well.",
+              "answerZh": "我不會說絕對不會，因為這真的要看設計和場合，不過我大概會避免那些很螢光的顏色。它們有點超出我的舒適圈，而且我也不覺得它們特別適合我的風格。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What’s the most popular colour in your country?",
+              "questionZh": "在你的國家，最受歡迎的顏色是甚麼？",
+              "answerEn": "I would say black is probably one of the most popular colours, especially in clothing. It is simple, versatile, and flattering, so it never really goes out of style.",
+              "answerZh": "我會說黑色大概是我國其中一種最受歡迎的顏色，尤其是在服裝方面。它簡單、百搭，而且很修飾身形，所以基本上從來都不會過時。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What colours are commonly used in homes in your country?",
+              "questionZh": "在你的國家，家居通常會用甚麼顏色？",
+              "answerEn": "In general, neutral colours are very common in homes, especially white, beige, and light grey. They make a place look cleaner, brighter, and more spacious, which is particularly important in smaller living spaces.",
+              "answerZh": "一般來說，中性色在家居裡非常常見，尤其是白色、米色和淺灰色。它們會令一個地方看起來更整潔、更明亮，也更寬敞，而這在較小的居住空間裡尤其重要。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What’s the difference between men’s and women’s preferences for colours?",
+              "questionZh": "男性和女性在顏色喜好方面有甚麼分別？",
+              "answerEn": "Traditionally, people tend to assume that men prefer darker or more muted colours, while women are more open to a wider range, including softer or brighter shades. That said, I think those lines are becoming much blurrier nowadays, because personal taste matters more than old stereotypes.",
+              "answerZh": "傳統上，人們通常會認為男性較喜歡深色或較低調的顏色，而女性則更願意接受較廣泛的選擇，包括較柔和或較鮮明的色調。不過，我覺得現在這些界線已經變得模糊得多，因為個人口味其實比舊有刻板印象更重要。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do colours affect your mood?",
+              "questionZh": "顏色會影響你的心情嗎？",
+              "answerEn": "Yes, I think they do, sometimes more than people realize. Soft colours can make me feel calm and settled, whereas very intense colours can raise the energy level of a space and make it feel more stimulating.",
+              "answerZh": "會，我覺得會，而且有時候比人們想像中更明顯。柔和的顏色會令我覺得平靜和安穩，而很強烈的顏色則可以提升一個空間的能量感，令它顯得更刺激、更有活力。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think colours can influence people’s decisions?",
+              "questionZh": "你覺得顏色會影響人們的決定嗎？",
+              "answerEn": "Yes, absolutely, especially in areas like marketing, design, and branding. Colour can quietly shape first impressions, and in some cases it can nudge people towards seeing something as more trustworthy, luxurious, or exciting.",
+              "answerZh": "會，絕對會，尤其是在市場推廣、設計和品牌塑造這些範疇。顏色可以悄悄地影響第一印象，而在某些情況下，它甚至可以引導人們把某樣東西看成更值得信賴、更高級，或者更令人興奮。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do colours have special meanings in your culture?",
+              "questionZh": "在你的文化裡，顏色有沒有特別的含義？",
+              "answerEn": "Yes, many colours carry cultural meaning. For example, red is often associated with happiness, celebration, and good fortune, while white can sometimes be linked with mourning or more solemn occasions. In that sense, colours are not just visual choices; they can speak a cultural language of their own.",
+              "answerZh": "有，很多顏色都帶有文化含義。舉例來說，紅色通常和快樂、喜慶以及好運有關，而白色有時則會和喪禮或較莊重的場合聯繫在一起。從這個角度來看，顏色不只是視覺選擇；它們其實也在說一種屬於文化的語言。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-3-computer",
+          "index": 2,
+          "title": "Computer",
+          "titleZh": "電腦",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you use computers?",
+              "questionZh": "你有使用電腦嗎？",
+              "answerEn": "Yes, I do, and I use them on a very regular basis. A computer is still one of the most efficient tools for studying, working, and organising information, so it plays quite a central role in my daily life.",
+              "answerZh": "有，而且我用得相當頻繁。電腦仍然是學習、工作和整理資訊最有效率的工具之一，所以它在我的日常生活中佔有相當核心的位置。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you use a computer?",
+              "questionZh": "你多常使用電腦？",
+              "answerEn": "Almost every day, to be honest. Even if I do not use it for hours, I usually switch it on at least once a day to type something properly, search for information, or deal with tasks that are easier on a larger screen.",
+              "answerZh": "老實說，幾乎每天都會用。即使我未必一用就是幾個小時，我通常每天至少都會開一次，用來正式打字、搜尋資料，或者處理一些在大螢幕上更容易完成的事情。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you usually use a computer for?",
+              "questionZh": "你通常用電腦來做甚麼？",
+              "answerEn": "I mostly use a computer for writing, research, and watching online content. It is especially useful when I need to read longer articles, compare information side by side, or work on documents that require more attention to detail.",
+              "answerZh": "我主要用電腦來寫作、做資料搜尋，以及看網上內容。尤其當我需要閱讀較長的文章、把不同資料放在一起比較，或者處理一些需要更仔細留意細節的文件時，電腦就特別有用。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you use a computer for work or study?",
+              "questionZh": "你會用電腦來工作或學習嗎？",
+              "answerEn": "Yes, absolutely. For work or study, a computer is much more practical because it allows me to type faster, manage files more easily, and stay organised. In that sense, it is not just a device; it is almost an extension of the way I think and work.",
+              "answerZh": "會，當然會。對工作或學習來說，電腦實用得多，因為它可以讓我打字更快、更容易管理檔案，也更容易保持條理。從這個角度來說，它不只是一部裝置；它幾乎像是我思考和工作的延伸。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer using a computer or a phone?",
+              "questionZh": "你比較喜歡用電腦還是手機？",
+              "answerEn": "For serious tasks, I definitely prefer a computer, whereas for convenience, a phone is hard to beat. A phone is perfect when I am on the go, but if I need to concentrate, write clearly, or do anything complex, I would choose a computer without hesitation.",
+              "answerZh": "如果是處理認真的事情，我一定比較喜歡用電腦；但如果講求方便，手機確實很難被取代。當我在外面的時候，手機非常方便，但如果我需要專心、清楚地寫作，或者做任何較複雜的事情，我會毫不猶豫地選電腦。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Are you good at using computers?",
+              "questionZh": "你擅長使用電腦嗎？",
+              "answerEn": "I would say I am fairly competent, although I am not an expert by any means. I can handle everyday tasks confidently, solve minor problems on my own, and learn new functions quite quickly, which is usually enough for practical purposes.",
+              "answerZh": "我會說自己算是頗熟練，不過絕對談不上專家。我可以很有信心地處理日常操作、自己解決一些小問題，而且學新功能也算快，而這對實際用途來說通常已經足夠。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did you use computers when you were little?",
+              "questionZh": "你小時候有用電腦嗎？",
+              "answerEn": "Yes, I did, although not in the same way people do now. When I was little, computers felt a bit more special and less constant, so I usually used them for simple games, basic learning programs, or very occasional internet use.",
+              "answerZh": "有，不過和現在人們使用電腦的方式不太一樣。我小時候，電腦給人的感覺比較特別，也沒有現在那麼無時無刻都在用，所以我通常只是拿來玩一些簡單遊戲、用基礎學習程式，或者偶爾上網。"
+            },
+            {
+              "number": 8,
+              "questionEn": "When did you first start using a computer?",
+              "questionZh": "你是甚麼時候開始用電腦的？",
+              "answerEn": "I first started using a computer when I was in primary school. At the beginning, I was just curious about it, but before long it became part of ordinary life, especially once schoolwork and online resources began to move onto screens.",
+              "answerZh": "我第一次開始用電腦，大概是在小學的時候。一開始我只是對它感到好奇，但沒過多久，它就變成了日常生活的一部分，尤其是當學校功課和網上資源逐漸轉移到螢幕上的時候。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do people often use computers these days?",
+              "questionZh": "現在人們常常使用電腦嗎？",
+              "answerEn": "Yes, very often, although the exact pattern depends on age and lifestyle. Some people rely more on phones for quick tasks, but computers are still widely used for office work, studying, design, research, and anything that requires more precision or screen space.",
+              "answerZh": "會，非常常用，不過具體模式還是取決於年齡和生活方式。有些人比較依賴手機去處理快速的小事，但電腦仍然被廣泛用於辦公、學習、設計、研究，以及任何需要更高精確度或更大螢幕空間的事情。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think computers are important in everyday life?",
+              "questionZh": "你認為電腦在日常生活中重要嗎？",
+              "answerEn": "Yes, I do, because they have become woven into the fabric of modern life. From communication and education to banking and creative work, computers make a huge range of daily activities faster, easier, and more connected. Without them, a lot of basic tasks would suddenly feel far more time-consuming.",
+              "answerZh": "我認為很重要，因為它們已經融入了現代生活的結構之中。從溝通、教育，到銀行服務和創意工作，電腦令大量日常活動變得更快、更方便，也更互相連結。沒有它們的話，很多基本事情都會突然變得更花時間。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Are there any things you prefer not to do on a computer?",
+              "questionZh": "有沒有一些事情是你比較不喜歡在電腦上做的？",
+              "answerEn": "Yes, there are. I would rather not spend too much time on a computer for entertainment that could be enjoyed more naturally elsewhere, such as casual chatting or watching very short videos. Sometimes a computer can make simple things feel oddly formal, so for lighter activities I usually prefer my phone.",
+              "answerZh": "有。我比較不想把一些其實可以用更自然方式享受的娛樂活動都放到電腦上做，例如隨便聊天，或者看很短的影片。有時候電腦會把一些很簡單的事情弄得有點過分正式，所以如果是較輕鬆的活動，我通常會比較喜歡用手機。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Will people continue to use computers in the future?",
+              "questionZh": "人們未來還會繼續使用電腦嗎？",
+              "answerEn": "Yes, definitely, although the form may continue to evolve. Phones, tablets, and newer technologies may take over some functions, but computers will still matter because certain tasks demand power, precision, and a proper workspace. In other words, the tools may change shape, but the need behind them is not going away anytime soon.",
+              "answerZh": "會，當然會，不過它的形式可能會繼續演變。手機、平板和更新的科技也許會取代某些功能，但電腦仍然重要，因為有些工作就是需要更高效能、更高精準度，以及一個真正合適的工作空間。換句話說，工具的外形可能會改變，但背後的需要短期內並不會消失。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-3-country",
+          "index": 3,
+          "title": "Country",
+          "titleZh": "國家",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What is your country famous for?",
+              "questionZh": "你的國家以甚麼聞名？",
+              "answerEn": "Hong Kong is probably most famous for its skyline, its fast-paced lifestyle, and its role as a place where East meets West. It is also well known for its food culture, efficient public transport, and the fact that it manages to feel both intensely urban and surprisingly close to nature at the same time.",
+              "answerZh": "香港大概最有名的是它的天際線、快節奏的生活方式，以及它作為中西文化交匯之地的角色。它也以飲食文化、高效率的公共交通，以及同時既高度城市化又意外地接近大自然而聞名。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What do you like most about your country?",
+              "questionZh": "你最喜歡你的國家的甚麼地方？",
+              "answerEn": "What I like most is its energy. Hong Kong has a kind of restless momentum: the streets are lively, the city rarely seems to stand still, and there is always something happening. At the same time, beneath all that movement, there is a very strong sense of character and identity.",
+              "answerZh": "我最喜歡的是它的活力。香港有一種停不下來的動能：街道很熱鬧，整座城市好像很少真正靜止下來，而且總有事情在發生。不過，在這一切流動感之下，它同時也有一種很鮮明的個性和身份感。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Are there any places in your country that you would like to visit?",
+              "questionZh": "你的國家有沒有甚麼地方是你想去的？",
+              "answerEn": "Yes, definitely. I would like to explore more of the outlying islands and some of the quieter hiking areas, because they show a softer side of Hong Kong that many people overlook. The city gets all the attention, but sometimes the places off the beaten track are where the real charm lies.",
+              "answerZh": "有，當然有。我很想多去一些離島和較安靜的遠足地方，因為那些地方展現了很多人容易忽略的香港另一面。城市通常最受注目，但有時真正的魅力反而藏在那些比較少人走的地方。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Where do you live in your country?",
+              "questionZh": "你在你的國家住在哪裡？",
+              "answerEn": "I live in Hong Kong itself, in a fairly built-up urban area. It is the kind of place where everything is close at hand, so daily life is convenient, even though it can feel crowded from time to time.",
+              "answerZh": "我就住在香港，一個相當發展成熟的市區地帶。那是一種很多東西都近在手邊的地方，所以日常生活很方便，雖然有時候難免會覺得有點擠迫。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What is that part of your country like?",
+              "questionZh": "你住的那一部分地方是怎樣的？",
+              "answerEn": "It is busy, compact, and well connected. There are shops, restaurants, and transport links almost everywhere, which makes life run smoothly; but because space is limited, it can also feel a bit intense. In a way, it captures the heartbeat of Hong Kong quite well.",
+              "answerZh": "那裡很繁忙、很緊密，而且交通連接非常方便。幾乎到處都有商店、餐廳和交通網絡，所以生活運作得很順；但由於空間有限，它同時也會讓人覺得有點壓迫。某程度上，它其實很能反映香港的脈搏。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Is it an interesting place to live?",
+              "questionZh": "那是一個有趣的地方住嗎？",
+              "answerEn": "Yes, I would say so. It may not be peaceful all the time, but it is rarely dull, and that is part of its appeal. You can step outside and immediately find good food, different kinds of people, and a constant sense of movement.",
+              "answerZh": "是的，我會說是。那裡未必總是寧靜，但它很少會讓人覺得沉悶，而那正正就是它吸引人的地方之一。你只要一走出門口，很快就能找到好吃的食物、不同類型的人，以及一種不停流動的城市感。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What do people from other countries usually know about your country?",
+              "questionZh": "其他國家的人通常對你的國家有甚麼認識？",
+              "answerEn": "Most people seem to know Hong Kong for its skyline, shopping, dim sum, and dense city life. Some also associate it with finance and international business, while others simply think of it as a place full of neon lights, tall buildings, and amazing food.",
+              "answerZh": "大多數人似乎會因為香港的天際線、購物、點心，以及密集的城市生活而認識它。有些人也會把它和金融及國際商業聯繫起來，而另一些人則單純會把它想成一個充滿霓虹燈、高樓大廈和美食的地方。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What kind of food is your country known for?",
+              "questionZh": "你的國家以甚麼食物聞名？",
+              "answerEn": "Hong Kong is especially known for Cantonese food, and dim sum is probably the first thing that comes to mind. Beyond that, it is also famous for roast meats, seafood, milk tea, and a wide mix of local and international cuisine. It is the kind of place where food is not just nourishment; it is almost a language of its own.",
+              "answerZh": "香港特別以粵菜聞名，而點心大概是很多人第一時間想到的東西。除此之外，它也以燒味、海鮮、奶茶，以及本地和國際菜式交融的飲食文化而出名。那是一個食物不只是用來填飽肚子的地方；某程度上，它幾乎像是一種獨立的語言。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do many tourists visit your country?",
+              "questionZh": "你的國家有很多遊客來訪嗎？",
+              "answerEn": "Yes, usually quite a lot. Hong Kong has long been a popular destination because it is convenient, energetic, and easy for visitors to enjoy, whether they are interested in food, shopping, sightseeing, or just soaking up the atmosphere. It is a city that tends to leave a strong first impression.",
+              "answerZh": "有，通常都不少。香港一直都是一個受歡迎的旅遊目的地，因為它方便、有活力，而且很容易讓旅客玩得盡興，不論他們對美食、購物、觀光，還是單純感受氣氛有興趣也好。這是一座往往會給人留下強烈第一印象的城市。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What do you think is the best thing about living in your country?",
+              "questionZh": "你認為住在你的國家最好的一點是甚麼？",
+              "answerEn": "For me, the best thing is convenience. In Hong Kong, things move quickly, public transport is reliable, and many everyday needs can be met without too much effort. That kind of efficiency really takes the friction out of daily life.",
+              "answerZh": "對我來說，最好的一點是方便。在香港，很多事情都運作得很快，公共交通可靠，而很多日常需要也可以不用花太多力氣就解決。這種效率確實能大大減少日常生活中的阻力。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Has your country changed much in recent years?",
+              "questionZh": "你的國家近年改變大嗎？",
+              "answerEn": "Yes, I think so. Hong Kong has changed in visible ways, from new infrastructure and technology to shifts in lifestyle and how people use the city. Some changes have made life more efficient, although many people would probably say the city has also become even faster and more demanding than before.",
+              "answerZh": "有，我覺得有。香港近年有不少很明顯的改變，從新的基建和科技，到生活方式以及人們使用這座城市的方式，都有變化。有些改變令生活變得更有效率，不過很多人可能也會說，這座城市比以前更快節奏，也更令人感到吃力。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Are you planning to live there in the future?",
+              "questionZh": "你將來打算住在那裡嗎？",
+              "answerEn": "At the moment, yes, I think so. Hong Kong still offers a lot in terms of convenience, opportunity, and familiarity, so it feels like the right place for me for now. That said, I would not rule out living somewhere quieter one day, because as people grow older, their priorities sometimes shift.",
+              "answerZh": "現階段來說，會，我想是的。香港在方便、機會，以及熟悉感方面仍然提供了很多東西，所以目前對我來說，它仍然是最適合的地方。不過，我也不會完全排除將來住在一個更安靜地方的可能，因為人隨著年紀漸長，優先考慮的事情有時也會改變。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-3-daily-routine",
+          "index": 4,
+          "title": "Daily Routine",
+          "titleZh": "日常作息",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Tell me about your daily routine.",
+              "questionZh": "請你講一下你的日常作息。",
+              "answerEn": "My daily routine is fairly structured, especially on weekdays. I usually wake up at a set time, get ready, deal with my main responsibilities during the day, and then slow down in the evening. It is not exciting every single day, but it keeps my life organised and manageable.",
+              "answerZh": "我的日常作息相當有規律，尤其是在平日。我通常會在固定時間起床、準備出門、處理白天最主要的事情，然後在晚上慢慢放鬆下來。它未必每天都很精彩，但它能令我的生活保持有條理，也比較容易應付。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What do you usually do in the morning?",
+              "questionZh": "你早上通常會做甚麼？",
+              "answerEn": "In the morning, I like to keep things simple and predictable. I usually get up, wash up, have a light breakfast, and spend a little time checking my schedule for the day. If I start the day calmly, everything else tends to run more smoothly.",
+              "answerZh": "早上的時候，我喜歡把事情保持得簡單而有規律。我通常會起床、梳洗、吃一個簡單的早餐，然後花一點時間看看當天的安排。只要我能平靜地開始一天，之後的事情通常都會順利得多。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you usually do in the evening?",
+              "questionZh": "你晚上通常會做甚麼？",
+              "answerEn": "In the evening, I normally try to wind down rather than do anything too demanding. I might have dinner, take a short break, and then spend some time reading, watching videos, or just clearing my mind. To be honest, that part of the day feels like a small breathing space.",
+              "answerZh": "到了晚上，我通常會盡量讓自己放鬆，而不是做太費神的事情。我可能會吃晚飯、休息一下，然後花點時間看書、看影片，或者單純讓腦袋放空。老實說，那段時間對我來說就像一天裡一個小小的喘息空間。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is your daily routine usually busy?",
+              "questionZh": "你的日常作息通常忙碌嗎？",
+              "answerEn": "Yes, most of the time it is quite busy. Some days feel a bit packed, especially when several things pile up at once, but I try not to let the day run away with me. I think a routine helps me stay on top of things instead of constantly playing catch-up.",
+              "answerZh": "是的，大部分時候都算忙。有些日子會特別滿，尤其當幾件事情同時堆在一起的時候，不過我會盡量不讓整天失去控制。我覺得有作息安排能幫助我掌握事情，而不是一直在後面追趕。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Is your daily routine different at the weekend from during the week?",
+              "questionZh": "你的週末作息和星期中的作息有分別嗎？",
+              "answerEn": "Yes, there is definitely a difference. On weekdays, my routine is much tighter and more task-based, whereas at the weekend I leave more room for rest, family time, or whatever I feel like doing. In other words, the week is driven by responsibility, while the weekend is guided more by choice.",
+              "answerZh": "有，當然有分別。平日的作息通常更緊密，也更以完成事情為主；相反，週末我會留更多空間給休息、陪家人，或者做一些自己想做的事。換句話說，平日主要是被責任推著走，而週末則更多是由自己的選擇來決定。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What part of your daily routine do you enjoy the most?",
+              "questionZh": "你最喜歡日常作息中的哪一部分？",
+              "answerEn": "The part I enjoy most is probably the evening, when I finally have a chance to switch off. After a long day, even a quiet hour can feel surprisingly valuable. It is the one part of the day that really belongs to me.",
+              "answerZh": "我最喜歡的部分大概是晚上，因為那時我終於可以真正放鬆下來。經過漫長的一天之後，哪怕只是安靜的一個小時，都會顯得特別珍貴。那也是一天之中最真正屬於我自己的時段。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Has your daily routine changed since you were a child?",
+              "questionZh": "你的日常作息自小時候以來有改變嗎？",
+              "answerEn": "Yes, quite a lot. When I was a child, my routine was much more carefree and was largely shaped by school and my parents, whereas now I have far more responsibility and have to manage my own time. As you grow older, your schedule stops being handed to you and starts becoming something you have to build for yourself.",
+              "answerZh": "有，改變了很多。我小時候的作息輕鬆得多，而且大多是由學校和父母安排的；但現在我有更多責任，也必須自己管理時間。人長大之後，時間表就不再是別人交到你手上，而是你要自己建立起來的。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you prefer a fixed routine or a flexible one?",
+              "questionZh": "你比較喜歡固定的作息，還是彈性的作息？",
+              "answerEn": "I prefer a routine that is basically fixed but still has some flexibility built into it. If everything is too rigid, life starts to feel mechanical, but if everything is too loose, it is easy to waste time. For me, the best routine is one that provides structure without becoming a cage.",
+              "answerZh": "我比較喜歡大致固定、但仍然保留一些彈性的作息。如果一切都太死板，生活就會開始變得很機械化；但如果一切都太鬆散，時間又很容易被浪費掉。對我來說，最好的作息就是既有框架，又不會變成牢籠。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What would you like to change about your daily routine?",
+              "questionZh": "你想改變你的日常作息中的甚麼？",
+              "answerEn": "If I could change one thing, I would probably make more room for exercise and proper rest. It is easy to tell yourself you will do it later, but later has a way of disappearing. I think my routine would be healthier if it included more balance and a little less rushing.",
+              "answerZh": "如果我可以改變一件事，我大概會為運動和真正的休息騰出更多空間。人很容易對自己說之後再做，但“之後”往往一下子就消失了。我覺得如果我的作息能多一點平衡、少一點趕急，會健康得多。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think it’s important to have a daily routine?",
+              "questionZh": "你認為有日常作息重要嗎？",
+              "answerEn": "Yes, I do, because a good routine creates order out of chaos. It helps people use their time more wisely, reduce stress, and keep important habits from slipping through the cracks. Of course, it does not have to be perfect, but having some rhythm in life makes a real difference.",
+              "answerZh": "是的，我覺得很重要，因為好的作息能夠在混亂之中建立秩序。它能幫助人更明智地運用時間、減少壓力，也能避免一些重要習慣悄悄流失。當然，作息不一定要完美，但生活裡有一點節奏感，確實會帶來很大分別。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do people in your country usually have regular daily routines?",
+              "questionZh": "你國家的人通常有規律的日常作息嗎？",
+              "answerEn": "I would say many people do, especially those who work full-time or have children. Daily life in my country can be quite fast-paced, so routine often becomes a practical necessity rather than a personal preference. That said, younger people or people with more flexible jobs may live by a looser schedule.",
+              "answerZh": "我會說很多人都有，尤其是那些全職工作的人，或者有孩子的人。我國家的日常生活節奏可以相當快，所以作息很多時候不是個人偏好，而是一種很實際的需要。不過，年輕人或工作時間較有彈性的人，生活安排可能就會比較鬆動一些。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think your daily routine will change in the future?",
+              "questionZh": "你覺得你未來的日常作息會改變嗎？",
+              "answerEn": "Yes, almost certainly. As my responsibilities, priorities, and stage of life change, my routine will probably shift with them. Life rarely stands still, so it makes sense that the way we organise our days changes as well.",
+              "answerZh": "會，幾乎一定會。隨著我的責任、重心和人生階段改變，我的作息大概也會跟著調整。人生很少會一直停在原地，所以我們安排每天生活的方式也自然會隨之改變。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-3-dictionaries",
+          "index": 5,
+          "title": "Dictionaries",
+          "titleZh": "字典",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you ever use a dictionary?",
+              "questionZh": "你有沒有用字典的習慣？",
+              "answerEn": "Yes, I do, although not every single day. I mainly use a dictionary when I come across a word that I only half understand, because I do not like guessing if precision matters. In that sense, a dictionary helps me clear the fog rather than just fill a gap.",
+              "answerZh": "有的，不過不是每一天都用。我主要是在遇到一些只是一知半解的詞時才會查字典，因為如果準確性很重要，我不喜歡靠猜。從這個角度來說，字典對我來說更像是幫我把模糊的地方釐清，而不只是隨便補上一個空缺。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you use a dictionary?",
+              "questionZh": "你多常使用字典？",
+              "answerEn": "Probably a few times a week rather than constantly. It really depends on what I am doing, because if I am reading something academic or writing carefully, I tend to look words up more often. In everyday life, though, I usually only use one when something genuinely catches me out.",
+              "answerZh": "大概每星期會用幾次，而不是不停地用。其實這很視乎我當時在做甚麼；如果我正在讀一些學術內容，或者很仔細地寫作，我通常就會更常查字。至於日常生活裡，我多半只有在某個字真的把我難倒時才會去查。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you usually use a dictionary for?",
+              "questionZh": "你通常會用字典來做甚麼？",
+              "answerEn": "I usually use a dictionary to check meanings, spelling, pronunciation, and sometimes collocations. Quite often, I already know the rough meaning of a word, but I want to make sure I am using it in the right way. A word may look simple on the surface, but the devil is in the details.",
+              "answerZh": "我通常會用字典來查意思、拼寫、發音，有時也會查固定搭配。很多時候，我其實已經大概知道一個字的意思，但我想確認自己是否真的用得對。有些字表面看起來很簡單，但真正關鍵往往藏在細節裡。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you prefer paper or electronic dictionaries?",
+              "questionZh": "你比較喜歡紙本字典還是電子字典？",
+              "answerEn": "I definitely prefer electronic dictionaries. They are quicker, easier to carry around, and much more convenient when I need an answer on the spot. A paper dictionary has its charm, but in practical terms, electronic ones win hands down for me.",
+              "answerZh": "我一定比較喜歡電子字典。它們更快、更方便攜帶，而且當我需要即時找到答案時，也方便得多。紙本字典當然有它的魅力，不過如果純粹講實用性，電子字典對我來說明顯更有優勢。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Why do you prefer that kind of dictionary?",
+              "questionZh": "你為甚麼比較喜歡那一種字典？",
+              "answerEn": "The main reason is efficiency. With an electronic dictionary, I can find the meaning, listen to the pronunciation, and sometimes even check example sentences within seconds, so it saves a lot of time. When I am studying or working, that kind of speed is worth its weight in gold.",
+              "answerZh": "最主要的原因是效率。用電子字典，我可以在幾秒鐘之內查到意思、聽發音，有時甚至連例句也能一起看到，所以真的節省很多時間。當我在學習或者工作時，這種速度可以說非常有價值。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Did you use dictionaries more when you were younger?",
+              "questionZh": "你年紀較小的時候是不是更常用字典？",
+              "answerEn": "Yes, definitely. When I was younger, I relied on dictionaries much more because I was still building up my vocabulary and came across unfamiliar words all the time. These days I still use them, but now it is more for fine distinctions than basic understanding.",
+              "answerZh": "是的，的確比較常用。年紀小的時候，我更依賴字典，因為當時我還在慢慢建立詞彙量，也經常遇到不認識的字。現在我當然也會用，不過更多時候是為了分辨細微差別，而不是為了最基本的理解。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did your teachers encourage you to use dictionaries at school?",
+              "questionZh": "你以前在學校時，老師有鼓勵你用字典嗎？",
+              "answerEn": "Yes, they did, especially in language classes. My teachers often told us not to translate everything mechanically, but to use dictionaries to understand meaning, usage, and context more accurately. Looking back, that was good advice, because it taught us to be more independent learners.",
+              "answerZh": "有，尤其是在語文課上。我的老師常常跟我們說，不要把所有東西都機械式地翻譯，而是要利用字典去更準確地理解字義、用法和語境。回頭看，那其實是很好的建議，因為它教會了我們成為更獨立的學習者。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Are dictionaries used a lot in schools in your country?",
+              "questionZh": "你國家的學校裡會很常用字典嗎？",
+              "answerEn": "Yes, I would say so, although the form has changed. In the past, students were more likely to carry paper dictionaries, whereas now many of them use online dictionaries or dictionary apps instead. So the habit is still there, but it has gone digital.",
+              "answerZh": "有，我會說是的，不過形式已經改變了。以前學生比較可能會帶紙本字典回學校，但現在很多人會改用網上字典或者字典應用程式。所以這個習慣依然存在，只是已經數碼化了。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think dictionaries are useful for learning a language?",
+              "questionZh": "你認為字典對學語言有用嗎？",
+              "answerEn": "Yes, absolutely. A good dictionary does more than tell you what a word means; it also shows you how the word behaves in real life, which is just as important. In a way, it is like having a quiet teacher on the page or on the screen.",
+              "answerZh": "有用，絕對有用。一本好的字典不只是告訴你一個字是甚麼意思；它還會告訴你那個字在真實語言中是怎樣運作的，而這同樣重要。某程度上，它就像是一位安靜地待在頁面上，或者螢幕裡的老師。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do people still need dictionaries now that they can search online?",
+              "questionZh": "既然現在大家都可以上網搜尋，你覺得人們還需要字典嗎？",
+              "answerEn": "Yes, I think so. Searching online can be useful, but the internet can also be a mixed bag, and not every result is reliable or well explained. A proper dictionary usually gives you a cleaner, more trustworthy answer, especially when nuance matters.",
+              "answerZh": "我認為還是需要的。上網搜尋當然有幫助，但網上的資訊有時良莠不齊，不是每一個結果都可靠，也不一定解釋得清楚。相反，一本正式的字典通常能提供更乾淨、更可信的答案，尤其是在細微意思很重要的時候。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What kind of information do you usually look up in a dictionary?",
+              "questionZh": "你通常會在字典裡查哪一類資料？",
+              "answerEn": "Most often, I look up definitions, pronunciation, and example sentences. I also pay attention to whether a word sounds formal, informal, old-fashioned, or natural in everyday conversation, because that can make all the difference. Sometimes the meaning is easy; the tone is the tricky part.",
+              "answerZh": "我最常查的是定義、發音和例句。我也會留意某個字聽起來是正式、非正式、過時，還是適合日常對話，因為這些差別往往很關鍵。有時候字面意思並不難，真正麻煩的是語氣和語感。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think people will use dictionaries in the future?",
+              "questionZh": "你覺得將來人們還會使用字典嗎？",
+              "answerEn": "Yes, I do, although they may not look the same as they do now. I think dictionaries will become more integrated into apps, search tools, and learning platforms, rather than existing only as standalone books or websites. The format may change, but the need for clear and reliable word knowledge is not going away anytime soon.",
+              "answerZh": "會的，不過它們未來的樣子可能不會和現在一樣。我覺得字典將來會更加融入各種應用程式、搜尋工具和學習平台，而不再只是獨立存在的書本或網站。形式也許會改變，但人們對清晰而可靠的詞語知識的需要，短時間內是不會消失的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 4,
+      "displayTitle": "Book 4 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-4-dreams",
+          "index": 1,
+          "title": "Dreams",
+          "titleZh": "夢境",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you dream much at night?",
+              "questionZh": "你晚上常常做夢嗎？",
+              "answerEn": "Yes, I think I do. I do not wake up remembering a dream every single morning, but I often get the sense that my mind stays active while I am asleep. Some nights, it feels like a quiet film playing in the background.",
+              "answerZh": "是的，我想我算是會的。我不是每天早上醒來都會記得夢境，但我常常有一種感覺，就是睡著之後腦袋其實仍然很活躍。有些晚上，那感覺就像背景裡正播放著一部安靜的小電影。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you often remember your dreams?",
+              "questionZh": "你常常記得自己的夢嗎？",
+              "answerEn": "Not very often, to be honest. Most dreams fade within minutes of waking up, like writing on wet glass, but every now and then one sticks with me if it is especially vivid or strange.",
+              "answerZh": "老實說，不算很常。大部分夢在醒來幾分鐘內就會慢慢消失，就像寫在濕玻璃上的字一樣；不過，偶爾如果某個夢特別鮮明或奇怪，它就會在我腦海裡停留久一點。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kind of dreams do you usually have?",
+              "questionZh": "你通常會做甚麼樣的夢？",
+              "answerEn": "My dreams are usually quite ordinary, just slightly surreal. They often involve familiar people, places, or situations, but with one or two odd twists that make no logical sense. So they are not dramatic; they are just a little off-kilter in that typically dreamlike way.",
+              "answerZh": "我做的夢通常都很日常，只是帶一點超現實感。裡面常常會出現熟悉的人、地方或情境，只不過會加上一兩個完全不合邏輯的小轉折。所以它們不算很戲劇化；只是帶著那種典型夢境才有的微妙失衡感。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you usually have pleasant dreams or bad dreams?",
+              "questionZh": "你通常做的是好夢還是惡夢？",
+              "answerEn": "Mostly pleasant or neutral ones. Even when a dream is a bit strange, it is usually more puzzling than frightening, so I rarely wake up feeling shaken. I am quite grateful for that, because nightmares can really cast a shadow over the next day.",
+              "answerZh": "大多數都是好夢，或者至少是中性的夢。即使一個夢有點奇怪，它通常也只是比較令人困惑，而不是可怕，所以我很少會醒來時覺得心有餘悸。這一點我其實很感恩，因為惡夢真的可能會令第二天都蒙上一層陰影。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Have you ever had the same dream more than once?",
+              "questionZh": "你有沒有做過同一個夢超過一次？",
+              "answerEn": "Yes, I have, especially during stressful periods. Sometimes the details change, but the core feeling stays the same, almost as if my mind is circling around the same unfinished thought. That is why recurring dreams can be quite interesting to me.",
+              "answerZh": "有，尤其是在壓力比較大的時候。有時細節會改變，但那個核心感受卻是一樣的，幾乎像是我的腦袋一直繞著同一個還未處理完的念頭打轉。所以我會覺得重複出現的夢其實挺有意思。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Have you ever had a dream that felt very real?",
+              "questionZh": "你有沒有做過一個感覺非常真實的夢？",
+              "answerEn": "Yes, definitely. I have had dreams that felt so real that, for a few seconds after waking up, I had to remind myself they had not actually happened. That blurred line between sleep and reality can be quite unsettling.",
+              "answerZh": "有，當然有。我做過一些夢真實得不得了，以至於剛醒來的那幾秒，我還要提醒自己那些事情其實沒有真的發生過。那種睡眠與現實之間界線變得模糊的感覺，其實挺令人不安的。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you ever talk to other people about your dreams?",
+              "questionZh": "你會跟別人談起你的夢嗎？",
+              "answerEn": "Only occasionally. If a dream is funny, bizarre, or unusually vivid, I might mention it to a friend or a family member, but I do not make a habit of discussing dreams in detail. Most of them are interesting for a moment and then drift away.",
+              "answerZh": "只是偶爾而已。如果一個夢很好笑、很古怪，或者特別鮮明，我可能會跟朋友或家人提一下，但我不會習慣性地把夢講得很仔細。大多數夢都只是有趣一陣子，然後就慢慢飄走了。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you think we can learn anything from dreams?",
+              "questionZh": "你覺得我們能從夢裡學到甚麼嗎？",
+              "answerEn": "To some extent, yes. I would not treat dreams as predictions, but they can sometimes reflect your worries, hopes, or emotional state, so in that sense they can act like a mirror, though not always a perfectly clear one.",
+              "answerZh": "某程度上，我覺得可以。我不會把夢當成預言，但它們有時的確會反映一個人的憂慮、希望，或者情緒狀態，所以從這個角度來說，它們可以像一面鏡子，只不過未必永遠都照得那麼清楚。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do people in your country talk about their dreams?",
+              "questionZh": "你國家的人會談論自己的夢嗎？",
+              "answerEn": "In Hong Kong, people do talk about dreams from time to time, especially if one was funny, lucky, or unsettling. Some older people may attach symbolic meanings to dreams, whereas younger people are more likely to treat them as casual conversation. So yes, but usually in a fairly light-hearted way.",
+              "answerZh": "在香港，人們偶爾的確會談到夢，尤其是當那個夢很好笑、感覺很吉利，或者令人不安的時候。有些年紀較大的人可能會替夢附加一些象徵意義；相反，年輕人通常比較傾向把它當成輕鬆聊天的話題。所以會談，但大多數時候氣氛都比較輕鬆。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think dreams are related to what happens in daily life?",
+              "questionZh": "你覺得夢和日常生活發生的事情有關嗎？",
+              "answerEn": "Yes, very often. I think the mind carries pieces of the day into sleep, so stress, conversations, and even random images can resurface in unusual forms. Dreams may not replay life exactly, but they often echo it.",
+              "answerZh": "有，而且很多時候都是有關的。我覺得人的腦袋會把白天的一些碎片帶進睡眠裡，所以壓力、對話，甚至一些隨機畫面，都可能以奇怪的形式再次浮現。夢未必會原封不動重播生活，但它們常常會成為生活的回音。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think some people care more about dreams than others?",
+              "questionZh": "你覺得有些人會比其他人更在意夢嗎？",
+              "answerEn": "Definitely. People who are more imaginative, introspective, or spiritually minded tend to read more into dreams, while others just shrug them off and move on with their day. I think it depends largely on personality and worldview.",
+              "answerZh": "一定會。比較有想像力、較愛反思，或者精神層面比較強的人，通常會從夢裡讀出更多意思；而另一些人則只是聳聳肩，然後照常過自己的一天。我覺得這很大程度上取決於一個人的性格和看世界的方式。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think that dreams can come true?",
+              "questionZh": "你覺得夢想可以成真嗎？",
+              "answerEn": "Yes, but not in a magical sense. I think dreams can come true when people treat them as ambitions rather than fantasies, because once you put in the work, a dream starts to take on solid form. In other words, some dreams do come true, but usually through effort, not luck alone.",
+              "answerZh": "可以，但不是那種神奇預言式的意思。我覺得，當一個人把夢想當成目標，而不是空想時，夢想就有可能成真，因為一旦你真的付出努力，一個夢就會開始慢慢變得具體。換句話說，有些夢確實會成真，但通常靠的是努力，而不只是運氣。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-4-email",
+          "index": 2,
+          "title": "Email",
+          "titleZh": "電郵",
+          "questionCount": 9,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What kinds of emails do you receive about your work or studies?",
+              "questionZh": "你會收到哪些與工作或學業有關的電郵？",
+              "answerEn": "Most of the emails I receive are fairly practical, such as class updates, deadline reminders, meeting arrangements, or information about upcoming events. From time to time, I also get longer emails with documents attached, especially when something needs to be explained clearly and in detail. In that sense, email is less about small talk and more about keeping everything organised and on record.",
+              "answerZh": "我收到的大部分電郵都相當實際，例如課堂更新、截止日期提醒、會議安排，或者有關即將舉行活動的資訊。有時候我也會收到一些較長的電郵，附有文件，尤其是當某件事情需要被清楚而詳細地說明時。從這個角度來看，電郵與其說是用來閒聊，不如說是用來把事情整理好並留下紀錄。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you prefer to email, phone, or text your friends?",
+              "questionZh": "你比較喜歡用電郵、打電話，還是發訊息給朋友？",
+              "answerEn": "For friends, I definitely prefer texting, because it is quick, casual, and easy to fit into daily life. Email feels a bit too formal for that, while phone calls can sometimes catch people at the wrong moment. Texting just strikes the right balance between convenience and connection.",
+              "answerZh": "對朋友來說，我一定比較喜歡發訊息，因為那樣又快、又隨意，而且很容易融入日常生活。電郵對這種情況來說有點太正式，而電話有時又可能在別人不方便的時候打擾到對方。發訊息正好在方便和聯繫感之間取得了平衡。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you reply to emails as soon as you receive them?",
+              "questionZh": "你會一收到電郵就馬上回覆嗎？",
+              "answerEn": "If the email is important, I usually reply quite quickly, or at least acknowledge it so the other person knows I have seen it. That said, I do not answer every message on the spot, because some emails need a proper response rather than a rushed one. I would rather take a little time and reply well than fire off something careless.",
+              "answerZh": "如果那封電郵很重要，我通常都會很快回覆，或者至少先確認一下，讓對方知道我已經看到了。不過，我並不會每一封都立刻回，因為有些電郵需要一個較完整的回應，而不是草草了事。我寧願多花一點時間，好好回覆，也不想匆忙丟出一個不夠仔細的答案。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Are you happy to receive emails that are advertising things?",
+              "questionZh": "你喜歡收到宣傳產品或服務的廣告電郵嗎？",
+              "answerEn": "Not really, to be honest, because most advertising emails clutter up my inbox more than they help me. Every now and then, one of them is actually useful, especially if it is about a genuine discount or something I was already planning to buy. Still, most of the time they are just background noise.",
+              "answerZh": "老實說，我不太喜歡，因為大部分廣告電郵帶來的麻煩，比實際幫助還要多，常常只是把我的收件箱弄得更亂而已。偶爾也會有一些真的有用，尤其是當它剛好是關於真正的折扣，或者是我本來就打算買的東西。不過，大多數時候，它們都只是背景噪音。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you email people often?",
+              "questionZh": "你會經常發電郵給別人嗎？",
+              "answerEn": "I would say I use email regularly, but not constantly. I tend to use it when the message needs to be clear, professional, or easy to refer back to later. For anything urgent or informal, I would probably choose messaging instead.",
+              "answerZh": "我會說我用電郵算是頗頻繁，但也不是無時無刻都在用。我通常會在訊息需要清楚、正式，或者之後方便再翻查的時候使用電郵。至於那些緊急或較隨意的事情，我大概就會改用即時訊息了。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you chat with friends or family more with email?",
+              "questionZh": "你會比較常用電郵和朋友或家人聊天嗎？",
+              "answerEn": "No, not really. I hardly ever chat with friends or family by email, because it feels too slow and a little distant for everyday conversation. We usually text instead, since that makes the exchange feel much more natural and immediate.",
+              "answerZh": "不會，真的很少。我幾乎不會用電郵和朋友或家人聊天，因為對日常對話來說，它感覺太慢，而且有點疏離。我們通常都會發訊息，因為那樣的交流自然得多，也即時得多。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you think people prefer to receive an email or a letter?",
+              "questionZh": "你認為人們比較喜歡收到電郵還是信件？",
+              "answerEn": "In most situations, I think people prefer email simply because it is faster and more convenient. However, a letter still carries a certain warmth that email cannot fully replace, especially when it is personal or handwritten. So for efficiency, email wins, but for emotional value, letters still have a place.",
+              "answerZh": "在大多數情況下，我認為人們會比較喜歡收到電郵，因為它更快，也更方便。不過，信件仍然帶有一種電郵無法完全取代的溫度，尤其當它是私人性的，或者是親手寫的時候。所以如果講求效率，電郵會勝出；但如果講感情價值，信件仍然有它的位置。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you think it’s easier to write an email or a letter?",
+              "questionZh": "你認為寫電郵還是寫信比較容易？",
+              "answerEn": "An email is definitely easier to write, mainly because it is quicker and more flexible. You can keep it short, edit it easily, and send it within seconds, so the whole process is much less demanding. Writing a letter, by contrast, takes more effort and usually feels more deliberate.",
+              "answerZh": "寫電郵肯定比較容易，主要是因為它更快，而且更有彈性。你可以把內容寫得很簡短，也可以很容易修改，幾秒鐘內就能寄出，所以整個過程輕鬆得多。相比之下，寫信需要更多工夫，而且通常也會讓人覺得更慎重。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think email will eventually replace letter writing?",
+              "questionZh": "你認為電郵最終會取代寫信嗎？",
+              "answerEn": "I think it will replace letter writing in most practical situations, and to a large extent it already has. That said, I do not think letters will disappear completely, because some things are too personal, too heartfelt, or too memorable to be reduced to a screen. Letters may become rarer, but rarity can make them even more meaningful.",
+              "answerZh": "我認為在大多數實際情況下，電郵會取代寫信，而某程度上它其實已經做到了。不過，我不覺得信件會徹底消失，因為有些事情太私人、太真摯，或者太值得紀念，不能只是被簡化成一個螢幕上的訊息。信件也許會變得更少見，但正正因為少見，反而可能令它更有意義。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-4-exercise",
+          "index": 3,
+          "title": "Exercise",
+          "titleZh": "運動",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you do much exercise?",
+              "questionZh": "你平時做很多運動嗎？",
+              "answerEn": "Yes, I would say I exercise fairly regularly, although I am not an extreme fitness person by any means. I try to stay active because exercise helps me clear my head, manage stress, and feel more energetic throughout the day.",
+              "answerZh": "有，我會說我做運動算是頗有規律，不過我絕對不是那種非常狂熱的健身人士。我會盡量保持活動量，因為運動可以幫助我清理思緒、管理壓力，而且讓我整天都更有精神。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you exercise?",
+              "questionZh": "你多久做一次運動？",
+              "answerEn": "I usually exercise three or four times a week, depending on how busy I am. On a good week, I manage to keep a steady routine, but when life gets hectic, I at least try to fit in a walk or some light stretching.",
+              "answerZh": "我通常每星期做三至四次運動，要視乎我有多忙而定。在狀態比較好的星期，我可以維持穩定的習慣；但當生活變得很忙亂時，我至少也會盡量抽時間散步或者做一些簡單伸展。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kind of exercise do you usually do?",
+              "questionZh": "你通常做哪一類運動？",
+              "answerEn": "I mostly do simple forms of exercise, such as jogging, brisk walking, and some basic strength training. I like activities that are easy to fit into daily life, because if something is too complicated, it is much harder to stick to in the long run.",
+              "answerZh": "我大多數做一些比較簡單的運動，例如慢跑、快步行，以及一些基本力量訓練。我喜歡那些容易融入日常生活的活動，因為如果一件事太複雜，長遠來說就很難堅持下去。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you prefer exercising alone or with other people?",
+              "questionZh": "你較喜歡自己運動，還是和別人一起運動？",
+              "answerEn": "I generally prefer exercising alone, because it gives me more freedom and makes it easier to go at my own pace. That said, exercising with other people can also be motivating, especially on days when I feel a bit lazy and need a push.",
+              "answerZh": "我一般比較喜歡自己運動，因為那樣給我更多自由，也更容易按自己的節奏來。不過，和別人一起運動也可以很有推動力，尤其是在我有點懶、需要有人帶動我的日子。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Where do you usually go to exercise?",
+              "questionZh": "你通常去哪裡做運動？",
+              "answerEn": "I usually exercise in a nearby park, on quiet streets around my neighbourhood, or sometimes at home. To be honest, convenience is half the battle, so if a place is easy to access, I am far more likely to keep going consistently.",
+              "answerZh": "我通常會在附近的公園、住處周圍比較安靜的街道，或者有時候在家裡做運動。老實說，方便與否往往已經決定了一半，所以如果一個地方很容易去到，我就更有可能持續做下去。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What do you usually do to keep fit?",
+              "questionZh": "你通常做些甚麼來保持健康？",
+              "answerEn": "To keep fit, I try to combine regular exercise with decent sleep and a reasonably balanced diet. I do not think fitness comes from one magic solution; rather, it is built through small habits that work hand in hand over time.",
+              "answerZh": "為了保持健康，我會盡量把規律運動、充足睡眠，以及相對均衡的飲食結合起來。我不覺得健康來自某一個神奇方法；更準確地說，它是透過一些彼此配合、長期累積的小習慣建立起來的。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did you do more exercise when you were a child?",
+              "questionZh": "你小時候做的運動有沒有更多？",
+              "answerEn": "Yes, definitely. When I was a child, I was naturally more active because I spent more time running around, playing outdoors, and joining games without even thinking of it as exercise. Back then, movement was just part of daily life.",
+              "answerZh": "有，絕對更多。我小時候自然比較活躍，因為我花更多時間跑來跑去、在戶外玩，以及參加各種遊戲，甚至根本不會把那些事情當成「運動」。那時候，活動本身就是日常生活的一部分。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you think you get enough exercise?",
+              "questionZh": "你覺得自己有做足夠的運動嗎？",
+              "answerEn": "I would say I get a reasonable amount, but there is still room for improvement. I am active enough to feel healthy, but ideally I would like to be a bit more consistent, especially when work or study starts to pile up.",
+              "answerZh": "我會說我做的運動量算合理，不過仍然有進步空間。我現在的活動量已經足以讓我感到健康，但理想來說，我希望自己可以再穩定一點，特別是當工作或學業開始堆積起來的時候。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do people in your country do a lot of exercise?",
+              "questionZh": "你國家的人做很多運動嗎？",
+              "answerEn": "It really depends on the person and the age group. Some people are very health-conscious and exercise regularly, while others lead rather sedentary lives because of long working hours and busy schedules. So I would say awareness is growing, even if habits do not always follow.",
+              "answerZh": "這真的要看個人以及年齡層。有些人很重視健康，也會定期運動；但也有些人因為工時長、生活忙碌，而過著比較久坐的生活。所以我會說，健康意識是在提高的，只是習慣未必總能跟上。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What do you think is the best exercise to keep fit?",
+              "questionZh": "你認為保持健康最好的運動是甚麼？",
+              "answerEn": "I think the best exercise is the one you can do consistently, because consistency matters more than perfection. Having said that, if I had to choose one, I would probably say brisk walking, since it is simple, low-risk, and accessible to almost everyone.",
+              "answerZh": "我認為，最好的運動就是你能夠持之以恆去做的那一種，因為持續性比完美更重要。不過，如果一定要選一種，我大概會說是快步行，因為它簡單、風險低，而且幾乎任何人都能做到。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Have the types of exercise people like to do changed since you were a child?",
+              "questionZh": "自從你小時候以來，人們喜歡做的運動種類有改變嗎？",
+              "answerEn": "Yes, I think they have changed quite a lot. When I was younger, people seemed to focus more on traditional activities like running, cycling, or team sports, whereas nowadays there is much more interest in gym culture, fitness apps, home workouts, and highly personalized routines.",
+              "answerZh": "有，我覺得改變了不少。我年紀比較小的時候，人們似乎比較著重傳統活動，例如跑步、踩單車或團體運動；相反，現在大家對健身文化、健身應用程式、居家運動，以及高度個人化的訓練方式都更有興趣。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think people will exercise more in the future?",
+              "questionZh": "你覺得未來人們會做更多運動嗎？",
+              "answerEn": "I think many people probably will, mainly because health is becoming a bigger priority and information about fitness is easier to access than ever. That said, modern life also keeps people glued to screens, so the real issue may not be awareness but whether people can turn good intentions into lasting habits.",
+              "answerZh": "我覺得很多人未來大概會做更多運動，主要因為健康正變得愈來愈重要，而有關健身的資訊也比以往任何時候都更容易取得。不過，現代生活同時也讓人們長時間黏在螢幕前，所以真正的問題也許不是意識，而是人們能否把好的想法變成長久的習慣。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-4-family-and-housework",
+          "index": 4,
+          "title": "Family & Housework",
+          "titleZh": "家庭與家務",
+          "questionCount": 15,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "How many people are there in your immediate family?",
+              "questionZh": "你的直系家人有多少人？",
+              "answerEn": "There are four people in my immediate family: my parents, my younger sister, and me. So it is not a big family, but it is close-knit, and we see quite a lot of one another.",
+              "answerZh": "我的直系家人有四個人：我的父母、我的妹妹和我。所以這不算一個大家庭，但我們關係很緊密，而且彼此相處的時間也很多。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Who do you get on best within your family?",
+              "questionZh": "在家人之中，你和誰最合得來？",
+              "answerEn": "I probably get on best with my sister because we are quite close in age and we share a similar sense of humour. We can talk about almost anything, from trivial daily things to more personal worries, so the relationship feels very easy and natural.",
+              "answerZh": "我大概和我妹妹最合得來，因為我們年齡相差不大，而且幽默感也很相似。我們幾乎甚麼都可以聊，從日常瑣事到比較私人的煩惱都可以，所以這段關係讓人覺得很輕鬆，也很自然。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you have a large extended family?",
+              "questionZh": "你有一個龐大的大家族嗎？",
+              "answerEn": "I would say it is moderately large rather than huge. I have quite a few cousins, aunts, and uncles, so family gatherings can get fairly lively, especially during festivals or birthdays.",
+              "answerZh": "我會說算是中等偏大，而不是非常龐大。我有不少表兄弟姊妹、姨媽、叔伯之類的親戚，所以家庭聚會通常都挺熱鬧的，尤其是在節日或者生日的時候。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What do you do together with your family?",
+              "questionZh": "你會和家人一起做些甚麼？",
+              "answerEn": "We usually do fairly ordinary things together, such as having dinner, watching films, or going out at the weekend. Nothing dramatic, really, but those small routines are often what keep a family close.",
+              "answerZh": "我們通常一起做一些很日常的事情，例如吃晚飯、看電影，或者在週末外出。其實沒有甚麼很特別的活動，不過正正是這些小小的日常習慣，往往最能維繫一家人的親密感。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Why is family important to you?",
+              "questionZh": "為甚麼家人對你來說很重要？",
+              "answerEn": "Family is important to me because it is the one circle of people I can usually rely on when life becomes messy. They know me behind the polished version I show the outside world, and that kind of support is hard to replace.",
+              "answerZh": "家人對我來說很重要，因為當生活變得混亂的時候，他們通常是我最可以依靠的一群人。他們認識的是我在外人面前光鮮形象背後真正的那個我，而那種支持是很難被取代的。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you do housework at home?",
+              "questionZh": "你在家會做家務嗎？",
+              "answerEn": "Yes, I do my share, because a home does not run itself. I think it is only fair that everyone contributes in small ways rather than leaving everything to one person.",
+              "answerZh": "會，我會做自己應做的那一份，因為一個家不會自己運作起來。我覺得每個人都出一點力才算公平，而不是把所有事情都留給一個人去做。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What kind of housework do you often do?",
+              "questionZh": "你經常做哪一類家務？",
+              "answerEn": "The chores I do most often are washing the dishes, vacuuming the floor, doing the laundry, and tidying my room. They are not exactly exciting, but they keep the place clean and make everyday life run more smoothly.",
+              "answerZh": "我最常做的家務包括洗碗、吸地、洗衣服，以及整理自己的房間。它們當然算不上有趣，不過它們能讓家裡保持整潔，也令日常生活運作得更順暢。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Did you do housework when you were a child?",
+              "questionZh": "你小時候有做家務嗎？",
+              "answerEn": "Yes, though only simple tasks at first. I used to set the table, put away my own things, and sometimes take out the rubbish, so I learned quite early that chores were just part of ordinary family life.",
+              "answerZh": "有，不過一開始只做一些簡單的事情。我以前會幫忙擺餐具、收拾自己的東西，有時也會拿垃圾出去，所以我很早就知道，做家務本來就是家庭生活的一部分。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think that children should do housework?",
+              "questionZh": "你認為小朋友應該做家務嗎？",
+              "answerEn": "Yes, to a reasonable extent. I do not think children should be overloaded, but giving them age-appropriate chores teaches responsibility, independence, and consideration for other people.",
+              "answerZh": "我認為應該，在合理的程度之內。我不覺得小朋友應該被過量的家務壓得喘不過氣，但給他們一些符合年齡的家務，能教會他們責任感、獨立性，以及替別人著想。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you all live in the same house?",
+              "questionZh": "你們是否全部住在同一間屋裡？",
+              "answerEn": "Yes, at the moment we do. That means we see each other quite often, although with everyone’s schedules, it is not as though we are constantly sitting together in one room.",
+              "answerZh": "是的，目前我們是住在同一個家裡。那表示我們彼此經常見面，不過因為每個人的時間表都不同，所以也不是說我們一直都坐在同一個房間裡。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Who is your favourite family member?",
+              "questionZh": "你最喜歡的家庭成員是誰？",
+              "answerEn": "That is a slightly dangerous question, but if I had to choose, I would probably say my mother. She is the emotional anchor of the family, and she has a calm way of putting things into perspective when the rest of us get carried away.",
+              "answerZh": "這是一條有點危險的問題，不過如果我一定要選，我大概會說是我媽媽。她像是整個家庭的情感支點，而且當我們其他人太激動或想太多的時候，她總能很冷靜地把事情放回正確的角度去看。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you have a large family or a small family?",
+              "questionZh": "你有一個大家庭還是一個小家庭？",
+              "answerEn": "I would say I have a relatively small family. There are only four of us in the immediate family, which means the house is not too chaotic, but it is still lively enough that it never feels empty.",
+              "answerZh": "我會說我有一個相對較小的家庭。直系家人只有四個，所以家裡不會太混亂，但同時也夠熱鬧，不會讓人覺得冷清。"
+            },
+            {
+              "number": 13,
+              "questionEn": "Can you tell me something about your family members?",
+              "questionZh": "你可以講一點關於你家人的事情嗎？",
+              "answerEn": "Sure. My father is practical and hardworking, my mother is warm and organised, and my sister is cheerful, outspoken, and full of energy. We are quite different in temperament, but somehow the differences fit together.",
+              "answerZh": "可以。我爸爸很務實，也很勤力；我媽媽很溫暖，而且很有條理；我妹妹則開朗、直率，又充滿活力。我們的性格其實很不同，但不知怎的，這些差異放在一起反而很合拍。"
+            },
+            {
+              "number": 14,
+              "questionEn": "How much time do you manage to spend with members of your family?",
+              "questionZh": "你大概能花多少時間和家人在一起？",
+              "answerEn": "On weekdays, not that much beyond dinner or short conversations in the evening, because everyone tends to be busy. At weekends, though, we usually spend more time together, so that is when we properly catch up.",
+              "answerZh": "平日的話，其實不算很多，通常只是一起吃晚飯，或者晚上簡單聊幾句，因為大家都比較忙。不過到週末，我們通常會有更多時間一起相處，所以那時候才會真正好好地聊一下近況。"
+            },
+            {
+              "number": 15,
+              "questionEn": "Do you get on well with your family? Why?",
+              "questionZh": "你和家人相處得好嗎？為甚麼？",
+              "answerEn": "Yes, overall I do. We are not perfect, and we do disagree from time to time, but there is mutual respect underneath it all, and that makes a big difference. In my experience, getting on well does not mean never arguing; it means knowing how to come back to the table afterward.",
+              "answerZh": "整體來說，是的，我和家人相處得不錯。我們並不完美，也的確會時不時有不同意見，但在這一切底下，我們彼此之間是有互相尊重的，而這一點帶來很大的分別。以我的經驗來說，相處得好並不代表從來不吵架，而是代表吵完之後仍然知道怎樣回到同一張桌子前，好好相處。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-4-flowers",
+          "index": 5,
+          "title": "Flowers",
+          "titleZh": "花卉",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like flowers?",
+              "questionZh": "你喜歡花嗎？",
+              "answerEn": "Yes, I do. Flowers can brighten up a space almost instantly, and they make ordinary places feel warmer and more alive. Even a small bouquet on a table can soften the mood of a room.",
+              "answerZh": "是的，我喜歡。花幾乎可以立刻令一個空間明亮起來，也會讓本來普通的地方變得更溫暖、更有生氣。即使只是一小束花放在桌上，也能令整個房間的氣氛柔和下來。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kinds of flowers do you like?",
+              "questionZh": "你喜歡哪一種花？",
+              "answerEn": "I especially like sunflowers, tulips, and roses. Sunflowers feel cheerful and full of energy, whereas tulips and roses have a quieter kind of elegance. It really depends on the mood and the occasion.",
+              "answerZh": "我尤其喜歡向日葵、鬱金香和玫瑰。向日葵給人一種開朗而充滿活力的感覺，而鬱金香和玫瑰則有一種比較安靜、含蓄的優雅。其實這很視乎當時的心情和場合。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Are flowers important in your country?",
+              "questionZh": "花在你的國家重要嗎？",
+              "answerEn": "Yes, they are quite important in Hong Kong, especially on special occasions and during festivals. People buy flowers to celebrate, decorate their homes, and show respect, so flowers are woven into both joyful and formal moments. In that sense, they are more than decoration; they carry feeling and meaning.",
+              "answerZh": "是的，花在香港相當重要，尤其是在特別場合和節日期間。人們會買花來慶祝、裝飾家居，以及表達敬意，所以花同時存在於歡樂和正式的場合之中。從這個角度來看，花不只是裝飾品，它們也承載著感情和意義。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Have you ever given anybody flowers?",
+              "questionZh": "你有沒有送過花給別人？",
+              "answerEn": "Yes, I have. I have given flowers on birthdays and once as a thank-you gift, because they can say something kind without needing many words. Sometimes a small bouquet feels more thoughtful than an expensive present.",
+              "answerZh": "有，我送過。我曾經在生日的時候送花，也試過把花當作感謝禮物，因為花有時可以在不需要太多言語的情況下表達一份心意。有時候，一小束花反而比一份昂貴的禮物更顯得有心思。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Is it popular to give flowers to people in your country?",
+              "questionZh": "在你的國家，送花給別人受歡迎嗎？",
+              "answerEn": "Yes, it is fairly popular in Hong Kong. People often give flowers on birthdays, graduations, weddings, and even business openings, so it is a well-established gesture here. In particular, flower stands are quite common at opening ceremonies because they are associated with good wishes and prosperity.",
+              "answerZh": "是的，在香港這是相當普遍的。人們經常會在生日、畢業、婚禮，甚至新店開張的時候送花，所以這在香港已經是一種很成熟、很常見的表達方式。尤其是在開幕典禮上，花牌很常見，因為它們通常和祝福以及興旺的寓意有關。"
+            },
+            {
+              "number": 6,
+              "questionEn": "On what special occasions do people give flowers in your country?",
+              "questionZh": "在你的國家，人們通常會在甚麼特別場合送花？",
+              "answerEn": "People in Hong Kong usually give flowers on occasions like birthdays, Valentine’s Day, Mother’s Day, graduations, weddings, and performances. They are also commonly given when someone opens a shop or hosts a formal event. Flowers help mark the moment, almost like putting a frame around it.",
+              "answerZh": "香港人通常會在生日、情人節、母親節、畢業、婚禮和表演活動等場合送花。當有人新店開張，或者舉辦一些正式活動時，人們也經常會送花。花有一種把一個時刻特別標記出來的作用，幾乎就像替那個時刻加上一個框架一樣。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Have you ever received flowers from someone?",
+              "questionZh": "你有沒有收過別人送的花？",
+              "answerEn": "Yes, I have, although not very often. The most memorable time was on a special occasion, and what stayed with me was not just the bouquet itself but the thought behind it. Flowers may fade, but the gesture tends to linger.",
+              "answerZh": "有，不過不算很多次。最難忘的一次是在一個特別場合收到花，而真正留在我心裡的，不只是那束花本身，更是背後的心意。花也許會凋謝，但那份表示往往會留得更久。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What kinds of flowers would you like to receive as a present?",
+              "questionZh": "你想收到甚麼種類的花作為禮物？",
+              "answerEn": "I would probably like to receive something simple and tasteful, such as tulips or roses in soft colours. I would not want anything too flashy, because I prefer flowers that look elegant rather than overdone. For me, understated beauty is often the most memorable.",
+              "answerZh": "我大概會想收到一些簡單而有品味的花，例如柔和色調的鬱金香或玫瑰。我不太想要那些太浮誇的款式，因為我比較喜歡看起來優雅而不過火的花。對我來說，低調的美往往最令人難忘。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you prefer to give flowers or other kinds of gifts?",
+              "questionZh": "你比較喜歡送花，還是送其他種類的禮物？",
+              "answerEn": "In general, I prefer to give other kinds of gifts because they can be more practical and more personal. That said, flowers have a charm of their own, especially when I simply want to show appreciation or celebrate a moment. They are not always the main gift, but they are often the finishing touch.",
+              "answerZh": "整體來說，我比較喜歡送其他種類的禮物，因為那些禮物可以更實用，也更有個人化的感覺。不過，花也有它獨特的魅力，尤其當我只是想表達感謝，或者為某個時刻增添氣氛的時候。花未必總是主禮物，但它們往往是最後那個點睛之筆。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do people in your country keep flowers at home?",
+              "questionZh": "你國家的人會在家裡放花嗎？",
+              "answerEn": "Some do, yes, especially people who want to make their homes feel warmer or more inviting. In Hong Kong, space can be quite limited, so not everyone keeps large floral arrangements at home, but small bouquets or a few fresh flowers are fairly common. They can brighten up even a compact flat.",
+              "answerZh": "有些人會，尤其是那些想讓家裡感覺更溫暖、更有迎賓感的人。在香港，居住空間可以相當有限，所以不是每個人都會在家裡放很大型的花藝擺設，但小花束或幾枝鮮花其實都很常見。它們即使在一個不大的單位裡，也能帶來明亮生動的感覺。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Have you ever grown flowers yourself?",
+              "questionZh": "你有沒有自己種過花？",
+              "answerEn": "Not seriously, no, although I have tried it before. I realised quite quickly that flowers need more patience and consistency than people assume. Keeping them alive is one thing; helping them thrive is another.",
+              "answerZh": "沒有很認真地種過，不過我以前的確試過。我很快就發現，種花其實比很多人想像中更需要耐性和持續的照顧。讓它們活著是一回事，讓它們真正長得好又是另一回事。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you prefer real flowers or artificial flowers?",
+              "questionZh": "你比較喜歡真花還是假花？",
+              "answerEn": "I definitely prefer real flowers. Artificial flowers may last longer, but real ones have natural colour, texture, and fragrance, which make them feel alive rather than merely decorative. They bring a freshness into a space that fake flowers rarely capture.",
+              "answerZh": "我一定比較喜歡真花。假花也許能保存得更久，但真花有自然的顏色、質感和香氣，這些都令它們感覺是活的，而不只是裝飾品。它們能為一個空間帶來一種清新的生命感，而這往往是假花很難真正做到的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 5,
+      "displayTitle": "Book 5 of Part 1",
+      "exerciseCount": 6,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-5-friends",
+          "index": 1,
+          "title": "Friends",
+          "titleZh": "朋友",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you have a lot of friends?",
+              "questionZh": "你有很多朋友嗎？",
+              "answerEn": "I would not say I have a huge circle, but I do have a solid group of close friends. I have never been the type to collect acquaintances for the sake of it; I value depth over numbers. For me, a few trustworthy friends are worth far more than a crowd of casual ones.",
+              "answerZh": "我不會說自己有一個很龐大的朋友圈，但我確實有一群很穩固、很親近的朋友。我一向不是那種為了看起來人脈很廣而到處結交泛泛之交的人；比起數量，我更重視關係的深度。對我來說，幾個值得信任的朋友，遠比一大群點頭之交更有價值。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you see your friends?",
+              "questionZh": "你多常見朋友？",
+              "answerEn": "I see them fairly regularly, probably once a week or at least every couple of weeks, depending on everyone’s schedule. In Hong Kong, life can be pretty hectic, so we do not always meet as often as we would like. Even so, good friendships do not fade just because life gets busy.",
+              "answerZh": "我見朋友都算頗定期，大概一星期一次，或者至少每隔一兩個星期見一次，視乎大家的時間而定。在香港，生活節奏可以很快，所以我們未必總能像自己希望的那樣常常見面。即使如此，真正的友誼也不會因為生活忙碌就輕易淡掉。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you usually do when you meet your friends?",
+              "questionZh": "你和朋友見面時通常會做甚麼？",
+              "answerEn": "Most of the time, we keep it simple: we have a meal, walk around, and talk for hours. Sometimes we watch a film or try a new café, but conversation is really the heart of it. To be honest, the activity matters less than the company.",
+              "answerZh": "大多數時候，我們的活動都很簡單，例如一起吃飯、四處走走，然後聊很久。有時候我們也會看電影，或者去試一間新的咖啡店，但真正核心其實還是聊天。老實說，做甚麼沒有那麼重要，重要的是和誰一起做。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you prefer spending time with one friend or with a group of friends?",
+              "questionZh": "你比較喜歡和一位朋友相處，還是一群朋友一起？",
+              "answerEn": "I generally prefer spending time with one friend, or maybe two, rather than a large group. Smaller settings make it easier to have proper conversations instead of talking over one another. That said, a lively group can be great when the mood is right.",
+              "answerZh": "我通常比較喜歡和一位朋友，或者最多兩位朋友一起相處，而不是一大班人。人少一點的時候，更容易真正深入地聊天，而不是大家互相打斷、輪流搶著說話。不過，如果氣氛對了，熱鬧的群體聚會也可以很好玩。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Who is your best friend and why?",
+              "questionZh": "你最好的朋友是誰？為甚麼？",
+              "answerEn": "My best friend is one of my closest school friends, because with that person I never feel the need to put on an act. They are thoughtful, level-headed, and the kind of person who listens between the lines, not just to the words. That kind of quiet loyalty is hard to come by.",
+              "answerZh": "我最好的朋友是我一位從學生時代就認識的摯友，因為和對方相處時，我從來不需要裝模作樣。對方很細心、很冷靜，也是那種不只是聽你說了甚麼，而是真的聽得懂你話外之音的人。這種安靜而穩定的忠誠，其實很難得。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How did you become friends with your best friend?",
+              "questionZh": "你和你最好的朋友是怎樣成為朋友的？",
+              "answerEn": "We became friends quite naturally. We started off as classmates, then ended up working on the same assignments and spending more time together after school. Over time, casual conversation turned into real trust, which is usually how the strongest friendships are built.",
+              "answerZh": "我們成為朋友的方式其實很自然。我們一開始只是同學，後來常常一起做功課，放學後也會花更多時間相處。久而久之，原本隨意的聊天慢慢變成了真正的信任，而最牢固的友誼通常就是這樣建立起來的。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What kind of person can you make friends with easily?",
+              "questionZh": "你比較容易和甚麼樣的人做朋友？",
+              "answerEn": "I tend to get along easily with people who are warm, open-minded, and easy to talk to. If someone has a good sense of humour and does not try too hard to impress others, that usually puts me at ease straight away. In my experience, the most likable people are often the most down-to-earth ones.",
+              "answerZh": "我通常比較容易和溫和、思想開放，而且容易聊天的人做朋友。如果一個人有幽默感，又不會太刻意去表現自己，我通常很快就會放鬆下來。以我的經驗來說，最討人喜歡的人，往往也是最踏實、最真誠的人。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What qualities do you look for in a friend?",
+              "questionZh": "你會在朋友身上看重哪些特質？",
+              "answerEn": "The qualities I value most are honesty, kindness, and reliability. A good friend does not have to agree with me all the time, but they should be genuine and consistent, especially when life is not going smoothly. For me, trust is the backbone of any lasting friendship.",
+              "answerZh": "我最看重的特質是誠實、善良和可靠。好朋友不一定要每件事都跟我意見一致，但他們應該要真誠，而且在你不順利的時候仍然靠得住。對我來說，信任是任何長久友誼的骨幹。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Is it easy for you to make new friends?",
+              "questionZh": "對你來說，結交新朋友容易嗎？",
+              "answerEn": "I would say it is moderately easy. I can be friendly and sociable, but I do not open up fully right away, so building a real friendship still takes time. Meeting people is easy; letting them into your life is the harder part.",
+              "answerZh": "我會說算是中等容易吧。我可以很友善，也可以很願意社交，但我不會一開始就完全打開自己，所以要建立真正的友誼還是需要時間。認識一個人不難，真正讓對方走進你的生活才比較難。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you still keep in touch with your childhood friends?",
+              "questionZh": "你現在還有和童年朋友保持聯絡嗎？",
+              "answerEn": "Yes, with a few of them. We may not talk every week, but there is still a sense of familiarity there, as if no time has really passed. I think some childhood friendships stay with you for years, even if life pulls you in different directions.",
+              "answerZh": "有，和其中幾個還有聯絡。我們未必每個星期都會聊天，但那份熟悉感仍然還在，感覺就好像時間並沒有真的流走。我覺得有些童年友誼即使被生活帶往不同方向，也還是會在你心裡留很多年。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Who would you most like to be friends with and why?",
+              "questionZh": "你最想和誰做朋友？為甚麼？",
+              "answerEn": "If I could choose anyone, I would probably say Stephen Chow. He strikes me as incredibly creative, sharp, and observant, so I imagine talking to him would never be dull. I also think people who can make others laugh often understand life more deeply than they let on.",
+              "answerZh": "如果可以任我選，我大概會說周星馳。因為他給人的感覺非常有創意、頭腦很快，而且很會觀察人，所以我覺得跟他聊天應該絕對不會無聊。我也覺得，能讓別人發笑的人，往往比表面看起來更懂人生。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Which is more important to you, friends or family?",
+              "questionZh": "對你來說，朋友和家人哪一樣更重要？",
+              "answerEn": "If I had to choose, I would say family comes first. Friends are incredibly important and can feel like the family you choose, but family is usually the people who stand by you at every stage of life. Still, the ideal situation is not to rank them too harshly, because both shape who you become.",
+              "answerZh": "如果一定要選，我會說家人比較重要。朋友當然非常重要，有時甚至像是你自己選擇的家人，但家人通常是那些在人生每個階段都陪在你身邊的人。不過，最理想的情況其實不是把兩者分得太絕，因為朋友和家人都會塑造你成為怎樣的人。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-5-food",
+          "index": 2,
+          "title": "Food",
+          "titleZh": "食物",
+          "questionCount": 10,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you enjoy cooking?",
+              "questionZh": "你喜歡煮食嗎？",
+              "answerEn": "Yes, I do, although I would not call myself an amazing cook. I enjoy cooking because it helps me unwind, and there is something satisfying about turning simple ingredients into a proper meal.",
+              "answerZh": "喜歡，不過我不會說自己是甚麼很厲害的廚師。我喜歡煮食，因為它可以讓我放鬆下來，而且把簡單的食材變成一餐像樣的飯，會給人一種很滿足的感覺。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What type of things can you cook?",
+              "questionZh": "你會煮哪一類食物？",
+              "answerEn": "I can cook fairly simple dishes, such as pasta, fried rice, stir-fried vegetables, and basic soups. Nothing too fancy, but enough to feed myself well and not rely on takeaway all the time.",
+              "answerZh": "我會煮一些相當簡單的菜式，例如意粉、炒飯、炒菜和基本的湯品。算不上很花巧，但已經足夠讓我把自己照顧好，而不用經常依賴外賣。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kinds of food are popular in your country?",
+              "questionZh": "在你的國家，哪一類食物比較受歡迎？",
+              "answerEn": "In my country, a wide range of food is popular, from rice and noodle dishes to hotpot, grilled food, and street snacks. People also tend to love food that is comforting, flavourful, and easy to share, because meals are often seen as a social experience rather than just a way to fill your stomach.",
+              "answerZh": "在我的國家，很多類型的食物都很受歡迎，從飯類、麵類，到火鍋、燒烤和街頭小食都很常見。人們也通常很喜歡那些有安慰感、味道濃郁，而且方便分享的食物，因為吃飯常常不只是為了填飽肚子，而是一種社交體驗。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is it an important part of your culture to have dinner parties?",
+              "questionZh": "在你的文化裡，舉行晚餐聚會是不是很重要的一部分？",
+              "answerEn": "Yes, I would say it is quite important, especially during festivals, family occasions, or special celebrations. Sharing food is one of the easiest ways to bring people together, so dinner gatherings often play a meaningful role in maintaining relationships.",
+              "answerZh": "是的，我會說這是相當重要的一部分，尤其是在節日、家庭場合，或者特別慶祝的時候。分享食物是最容易把人拉近的方法之一，所以晚餐聚會往往在維繫關係方面扮演著很有意義的角色。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer to eat with other people or on your own?",
+              "questionZh": "你較喜歡和別人一起吃，還是自己一個人吃？",
+              "answerEn": "Most of the time, I prefer to eat with other people because meals feel warmer and more lively that way. That said, I do not mind eating alone either, especially when I am busy and just want a quiet moment to recharge.",
+              "answerZh": "大多數時候，我比較喜歡和別人一起吃，因為那樣吃飯會感覺更有溫度，也更熱鬧。不過，我也不介意自己一個人吃，尤其是當我很忙，只想安靜一下、給自己充充電的時候。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you have a healthy diet?",
+              "questionZh": "你的飲食健康嗎？",
+              "answerEn": "I would say my diet is reasonably healthy, though not perfect. I try to eat balanced meals and include enough vegetables and protein, but every now and then I still give in to snacks or desserts, because life would be a bit dull without them.",
+              "answerZh": "我會說我的飲食算是相當健康，不過也不算完美。我會盡量吃得均衡，也會攝取足夠的蔬菜和蛋白質，但偶爾我還是會向零食或甜品投降，因為如果完全沒有它們，生活好像也會少了一點樂趣。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you prefer eating at home or eating out?",
+              "questionZh": "你較喜歡在家吃還是外出吃？",
+              "answerEn": "If I had to choose, I would probably say eating at home, because it is usually healthier, cheaper, and more relaxing. Eating out is nice for a change of scene, but home-cooked food often hits the spot in a way restaurant food cannot.",
+              "answerZh": "如果一定要選，我大概會選在家吃，因為通常會更健康、更便宜，而且也更放鬆。外出吃飯固然可以換個環境，不過家常菜帶來的那種滿足感，往往是餐廳食物難以完全取代的。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you like ordering food to be delivered?",
+              "questionZh": "你喜歡叫外賣送上門嗎？",
+              "answerEn": "Yes, I do, especially on days when I am tired or short on time. It is incredibly convenient, and sometimes having food arrive at your door feels like a small luxury after a long day.",
+              "answerZh": "喜歡，尤其是在我很累或者時間很趕的日子裡。那真的非常方便，而有時候在漫長的一天之後，食物直接送到門口，會讓人覺得像是一種小小的享受。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Who do you get food delivered with?",
+              "questionZh": "你通常和誰一起叫外賣？",
+              "answerEn": "I usually order food with my family or with friends when we are spending time together at home. Ordering together makes more sense, because we can share different dishes and turn an ordinary meal into something a bit more enjoyable.",
+              "answerZh": "我通常會和家人，或者和朋友在家聚在一起的時候一起叫外賣。大家一起叫會更合理，因為我們可以分享不同菜式，也可以把一頓普通的飯變得更有趣一點。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you eat meals differently now compared to when you were little?",
+              "questionZh": "你現在吃飯的方式，和你小時候相比有不同嗎？",
+              "answerEn": "Yes, quite a lot, actually. When I was little, I was more of a picky eater and cared mostly about taste, whereas now I pay much more attention to nutrition, balance, and portion size. In other words, I still want food to taste good, but I also think more carefully about what it is doing for my health.",
+              "answerZh": "有，實際上差別挺大的。我小時候比較挑食，而且主要只在意味道；相反，現在我會更注意營養、均衡，以及份量。換句話說，我現在仍然希望食物好吃，但我也會更仔細地想一想它對我的健康有甚麼影響。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-5-gifts",
+          "index": 3,
+          "title": "Gifts",
+          "titleZh": "禮物",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you enjoy giving gifts to other people?",
+              "questionZh": "你喜歡送禮物給別人嗎？",
+              "answerEn": "Yes, I do, because a well-chosen gift can say a lot without being overly dramatic. It is a simple way to show care, attention, and gratitude, and I like the fact that even a small gift can make someone’s day.",
+              "answerZh": "是的，我喜歡，因為一份選得好的禮物，即使不用太誇張，也能傳達很多心意。這是一種很簡單的方法去表達關心、在意和感激，而我也很喜歡就算是一份小禮物，也能令別人的一天變得更好。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you prefer giving gifts or receiving them?",
+              "questionZh": "你比較喜歡送禮物還是收禮物？",
+              "answerEn": "I probably prefer giving them. Receiving gifts is lovely, of course, but there is something especially satisfying about finding something that fits a person just right. When that happens, it feels as though you have struck exactly the right note.",
+              "answerZh": "我大概比較喜歡送禮物。當然，收到禮物也很好，但找到一份真正適合某個人的東西，會有一種特別滿足的感覺。當那種情況出現時，就好像你一下子挑中了最對的音一樣。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kinds of gifts do you usually give?",
+              "questionZh": "你通常會送甚麼類型的禮物？",
+              "answerEn": "I usually go for practical but thoughtful gifts, such as books, skincare products, snacks, or something related to the person’s hobbies. I tend to avoid flashy presents, because to me the best gifts feel personal rather than expensive.",
+              "answerZh": "我通常會選一些實用但有心思的禮物，例如書、護膚品、小食，或者一些跟對方興趣有關的東西。我通常會避免太浮誇的禮物，因為對我來說，最好的禮物重點在於有個人特色，而不是有多貴。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you usually buy gifts in advance or at the last minute?",
+              "questionZh": "你通常會提早買禮物還是最後一刻才買？",
+              "answerEn": "Ideally, I buy them in advance, because that gives me time to think things through. That said, real life is not always that tidy, so I have occasionally had to shop at the eleventh hour. Whenever that happens, I try not to panic and just focus on choosing something sincere.",
+              "answerZh": "理想情況下，我會提早買，因為那樣我就有時間好好想清楚。不過，現實生活未必總是那麼整齊，所以我偶爾也試過在最後關頭才去買。每當那樣的時候，我都會提醒自己不要慌，只要專心選一份真誠的禮物就好。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you think handmade gifts are a good idea?",
+              "questionZh": "你覺得手作禮物是一個好主意嗎？",
+              "answerEn": "Yes, provided that they are made with genuine care and suit the person receiving them. Handmade gifts often carry a warmth that shop-bought ones cannot quite replicate, because they show time, effort, and intention. In that sense, they can feel more heartfelt than something expensive.",
+              "answerZh": "是的，只要它們是真心製作，而且適合收到禮物的人。手作禮物通常帶有一種商店裡買回來的東西不太能完全複製的溫度，因為它們展現了時間、心力和用心。從這個角度來看，它們有時甚至比昂貴的東西更有心意。"
+            },
+            {
+              "number": 6,
+              "questionEn": "When do you send gifts?",
+              "questionZh": "你通常會在甚麼時候送禮？",
+              "answerEn": "Mostly on special occasions, such as birthdays, graduations, holidays, or family celebrations. Sometimes, though, I think the nicest gifts are the unexpected ones, because they arrive out of the blue and feel even more genuine.",
+              "answerZh": "大多數時候是在特別日子，例如生日、畢業、節日，或者家庭聚會的時候。不過，有時我覺得最好的禮物反而是那些沒有預警的禮物，因為它們來得很突然，也因此顯得更真心。"
+            },
+            {
+              "number": 7,
+              "questionEn": "When was the last time you received a gift?",
+              "questionZh": "你上一次收到禮物是甚麼時候？",
+              "answerEn": "The last time I received a gift was on my birthday. A friend gave me a book along with a short handwritten note, and I liked it not only because of the gift itself but also because it felt personal and well thought out.",
+              "answerZh": "我上一次收到禮物是在我生日時。一位朋友送了我一本書，還附上了一張手寫小卡，而我喜歡它，不只是因為禮物本身，也因為整件事都讓人覺得很個人化，而且很用心。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Have you received a gift you didn’t like?",
+              "questionZh": "你有沒有收過自己不喜歡的禮物？",
+              "answerEn": "Yes, I have, although I still appreciated the thought behind it. Sometimes a gift simply misses the mark, but I think intention matters more than perfection. After all, it is the gesture that counts.",
+              "answerZh": "有，不過我仍然會感激對方背後的心意。有時候，一份禮物的確未必選得很準，但我覺得心意比完美更重要。畢竟，真正重要的是那份表示。"
+            },
+            {
+              "number": 9,
+              "questionEn": "How do you feel when you receive a gift?",
+              "questionZh": "當你收到禮物時，你會有甚麼感覺？",
+              "answerEn": "I usually feel touched and grateful, especially if it is clear that the person knows me well. A meaningful gift can feel like a small reminder that you are seen and valued, which is a lovely feeling.",
+              "answerZh": "我通常會覺得很感動，也很感激，尤其是當那份禮物明顯看得出對方很了解我的時候。一份有意思的禮物，會像是一個小小提醒，告訴你自己是被看見、被珍惜的，而那種感覺其實很美好。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What kinds of gifts do you like to receive?",
+              "questionZh": "你喜歡收到甚麼類型的禮物？",
+              "answerEn": "I like gifts that are either useful or personal. For example, I would be happy to receive books, stationery, good food, or something small that reflects a shared memory, because those kinds of gifts tend to stay with you a little longer.",
+              "answerZh": "我喜歡那些要不實用、要不很有個人意味的禮物。比如說，我會很高興收到書、本子文具、好吃的東西，或者一些能反映共同回憶的小物件，因為這類禮物往往會在你心裡停留久一點。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do people in your country send gifts to show their generosity?",
+              "questionZh": "你國家的人會透過送禮來表達他們的慷慨嗎？",
+              "answerEn": "Yes, in Hong Kong, gift-giving is definitely one way people show generosity, respect, and goodwill. It is quite common during festivals, family visits, and important occasions, and the gift is often symbolic as well as practical. In many cases, it is less about the object itself and more about the relationship behind it.",
+              "answerZh": "會，在香港，送禮的確是人們表達慷慨、尊重和善意的一種方式。在節日、探訪家人，以及一些重要場合裡，送禮都很常見，而禮物本身往往既有象徵意義，也有實際用途。在很多情況下，重點其實不只是那份東西本身，而是它背後代表的人際關係。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Is it important to choose the right gift for someone?",
+              "questionZh": "為別人選對禮物重要嗎？",
+              "answerEn": "Yes, I think it is, because the right gift shows that you have paid attention to who the person is, not just what is available in the shops. You do not need to break the bank, but you do need to get the tone right. A thoughtful gift lands softly and stays warmly in the memory.",
+              "answerZh": "是的，我覺得很重要，因為一份對的禮物能顯示你留意的是那個人本身，而不只是商店裡有甚麼可以買。你不一定要花很多錢，但你需要拿捏對那種分寸。一份有心思的禮物，會很自然地送到對方心裡，也會很溫暖地留在記憶之中。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-5-high-school",
+          "index": 4,
+          "title": "High School",
+          "titleZh": "高中",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Did you enjoy your life in high school?",
+              "questionZh": "你享受你的高中生活嗎？",
+              "answerEn": "Yes, I did, for the most part. It was not perfect, of course, because there was a lot of pressure and quite a heavy workload, but it was still a meaningful period of my life. Looking back, it was a time when I learned not only academic knowledge but also how to deal with people and manage myself.",
+              "answerZh": "是的，大致上我很享受。當然，那段日子並不完美，因為壓力很大，功課也相當多，但它仍然是我人生中很有意義的一段時期。回頭看，那不只是學習書本知識的時候，也是我學會如何與人相處和管理自己的階段。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What was your high school like?",
+              "questionZh": "你的高中是怎樣的？",
+              "answerEn": "My high school was quite structured and academically focused. The teachers took discipline seriously, and the school expected students to work hard, so the atmosphere was fairly demanding but also quite supportive. In a way, it was the kind of place that pushed you to grow up a little faster.",
+              "answerZh": "我的高中相當有規律，而且很重視學業。老師很看重紀律，學校也期望學生努力讀書，所以整體氣氛算是要求很高，但同時也頗有支持性。某程度上，那是一個會推着你早一點成熟起來的地方。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you go to a big high school or a small one?",
+              "questionZh": "你讀的是一間大型高中還是一間小型高中？",
+              "answerEn": "I would say it was medium-sized rather than extremely big or very small. It was large enough for there to be different kinds of people and activities, but not so big that you felt completely lost in the crowd. I think that balance suited me quite well.",
+              "answerZh": "我會說那是一間中等規模的學校，而不是非常大或非常小。它大到足以讓你接觸不同類型的人和活動，但又沒有大到令你完全淹沒在人群裡。我覺得那種平衡其實很適合我。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Who was your favourite teacher in high school?",
+              "questionZh": "你高中時最喜歡的老師是誰？",
+              "answerEn": "My favourite teacher was probably my English teacher. She was the kind of teacher who could be strict without being cold, and she always pushed us to think more clearly and express ourselves more precisely. What made her memorable was that she did not just teach a subject; she taught confidence as well.",
+              "answerZh": "我最喜歡的老師大概是我的英文老師。她是一種可以很嚴格但又不會讓人覺得冷漠的老師，而且她總是推動我們想得更清楚、表達得更準確。她之所以令人難忘，是因為她教的不只是一門科目，某程度上她也在教我們自信。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What was your favourite subject in high school?",
+              "questionZh": "你高中時最喜歡的科目是甚麼？",
+              "answerEn": "My favourite subject was English. I liked it because it was not only practical but also quite open-ended, which meant there was room for creativity as well as accuracy. I especially enjoyed reading, discussion, and learning how language can shape the way people think.",
+              "answerZh": "我最喜歡的科目是英文。我喜歡它，因為它不但實用，而且相當開放，意思是它既講求準確，也容許創意。我尤其喜歡閱讀、討論，以及學習語言如何影響人們的思考方式。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Was there any subject you did not like in high school?",
+              "questionZh": "你高中時有沒有甚麼不喜歡的科目？",
+              "answerEn": "Yes, there was. I was not particularly fond of mathematics, not because it was unimportant, but because it did not come naturally to me. To be honest, I could appreciate its logic, but I sometimes felt as though I had to wrestle with it just to keep up.",
+              "answerZh": "有。我不算特別喜歡數學，不是因為它不重要，而是因為它對我來說並不算自然。老實說，我可以欣賞它的邏輯性，但有時我真的覺得自己像是在和它角力，才勉強跟得上。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you still remember what happened on your first day of high school?",
+              "questionZh": "你還記得高中第一天發生了甚麼嗎？",
+              "answerEn": "Yes, I do, at least in broad strokes. I remember feeling a mixture of curiosity and nervousness, because everything felt new, from the classrooms to the teachers to the people around me. It was one of those days that seemed ordinary on the surface but important underneath.",
+              "answerZh": "記得，至少大致上還記得。我記得自己當時既好奇又緊張，因為一切都很新鮮，從課室到老師，再到身邊的人都是如此。那是一種表面上看似普通，但其實內裡很重要的日子。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Did you take part in any clubs or activities in high school?",
+              "questionZh": "你高中時有參加任何學會或活動嗎？",
+              "answerEn": "Yes, I took part in a few activities, although I was not the most outgoing student in the world. I joined clubs that allowed me to meet people outside my class and step out of my comfort zone a little. Looking back, those activities added colour to school life and kept it from becoming all work and no life.",
+              "answerZh": "有，我參加過幾項活動，雖然我並不是那種非常外向的學生。我加入了一些可以讓我認識班外同學、也讓我稍微走出舒適圈的學會。現在回頭看，那些活動替校園生活加添了色彩，也避免了它變成只有讀書、沒有生活。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Did you wear a school uniform in high school?",
+              "questionZh": "你高中時有穿校服嗎？",
+              "answerEn": "Yes, I did, and that was completely normal. At the time, I did not think much of it, although I would be lying if I said I found it exciting. Still, uniforms can create a sense of order and identity, even if students sometimes dream of having more freedom.",
+              "answerZh": "有，而且那是很正常的事。當時我其實沒有特別多想，雖然如果我說自己覺得它很有趣，那就未免不太真實了。不過，校服的確可以帶來一種秩序感和身份認同，即使學生有時會希望自己能有更多自由。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you still keep in touch with your friends from high school?",
+              "questionZh": "你現在還有和高中朋友保持聯絡嗎？",
+              "answerEn": "Yes, with some of them, though naturally not with everyone. Life pulls people in different directions, so it is not always easy to stay close, but a few friendships have stood the test of time. I think that says a lot about how formative those years were.",
+              "answerZh": "有，和其中一些還有聯絡，不過當然不可能和每一個人都保持很緊密的關係。人生會把人帶往不同方向，所以要一直保持親近並不容易，但有幾段友誼確實經得起時間考驗。我覺得這其實很能說明那些年對人有多深的影響。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think high school is an important stage in a person’s life?",
+              "questionZh": "你認為高中是不是人生中一個重要階段？",
+              "answerEn": "Yes, absolutely. High school is not just about exams or grades; it is also a period when people begin to form their identity, their habits, and their sense of direction. In many cases, it is the bridge between childhood and adulthood, so it can leave a lasting mark on a person.",
+              "answerZh": "是的，絕對是。高中不只是關於考試或成績，它同時也是一個人開始建立自我認同、生活習慣和人生方向的時期。在很多情況下，它就像童年與成年之間的一道橋，所以往往會在一個人身上留下長久的印記。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you miss your life in high school?",
+              "questionZh": "你懷念你的高中生活嗎？",
+              "answerEn": "In some ways, yes. I do not miss the stress or the deadlines, but I do miss the sense of closeness, routine, and shared experience that came with that stage of life. It is strange, really: at the time you are busy trying to get through it, and later you realise it quietly became part of who you are.",
+              "answerZh": "某程度上，是的。我並不懷念那些壓力或截止日期，但我確實會懷念那個人生階段裡的親近感、規律感，以及大家一起經歷事情的感覺。其實這很奇妙：當時你只顧着努力撐過去，後來才發現，那段時光已經悄悄成為你的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-5-hometown",
+          "index": 5,
+          "title": "Hometown",
+          "titleZh": "家鄉",
+          "questionCount": 13,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Where is your hometown?",
+              "questionZh": "你的家鄉在哪裡？",
+              "answerEn": "My hometown is Hong Kong, which is a densely populated and highly international city on the south coast of China. I was born and raised there, so even though it can be hectic at times, it is still the place that feels most naturally like home to me.",
+              "answerZh": "我的家鄉是香港，它是一個位於中國南岸、人口密集而且非常國際化的城市。我在那裡出生和長大，所以即使它有時節奏很急、讓人透不過氣，它仍然是最自然讓我感到像家的地方。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What do you like about it?",
+              "questionZh": "你喜歡它的甚麼地方？",
+              "answerEn": "What I like most is the energy of the city and the sheer convenience of daily life. You can find excellent food, efficient public transport, and people from very different backgrounds all in one place, so it rarely feels dull. At the same time, if you know where to look, there are still quieter corners where you can slow down and breathe.",
+              "answerZh": "我最喜歡的是這座城市的活力，以及日常生活那種實實在在的方便。你可以在同一個地方找到很好的食物、高效率的公共交通，還有來自不同背景的人，所以它幾乎不會讓人覺得沉悶。與此同時，只要你知道去哪裡找，仍然有一些比較安靜的角落，讓你可以慢下來，喘一口氣。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you not like about it?",
+              "questionZh": "你不喜歡它的甚麼地方？",
+              "answerEn": "If I am being honest, the biggest downside is the pressure that comes with living in a fast-paced city. Property is expensive, the streets can be crowded, and even a short commute can feel like a battle during rush hour. It is exciting, but it can also wear people down over time.",
+              "answerZh": "如果說得坦白一點，它最大的缺點就是快節奏城市生活所帶來的壓力。樓價很高，街道常常很擠，就連短短的通勤在繁忙時間也像一場戰鬥。它的確很刺激，但久而久之也會把人磨得很累。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is there any way your hometown could be made better?",
+              "questionZh": "你的家鄉有甚麼方法可以變得更好嗎？",
+              "answerEn": "Yes, definitely. I think it would be better if there were more affordable housing, more public space, and a healthier work-life balance. A city should not only help people make a living; it should also give them room to live well.",
+              "answerZh": "有，當然有。我認為如果有更多可負擔的住房、更多公共空間，以及更健康的工作與生活平衡，它會變得更好。一座城市不應只幫助人謀生，也應該給人好好生活的空間。"
+            },
+            {
+              "number": 5,
+              "questionEn": "How important is your hometown to you?",
+              "questionZh": "你的家鄉對你有多重要？",
+              "answerEn": "It is extremely important to me because it has shaped my habits, my outlook, and even the way I speak. My memories, friendships, and sense of identity are deeply tied to it, so in a way it forms part of my emotional backbone. Even when I am away, I still feel connected to it.",
+              "answerZh": "它對我非常重要，因為它塑造了我的習慣、我的眼界，甚至是我說話的方式。我的回憶、友情，以及身份認同都和它緊緊相連，所以某程度上，它就像我情感上的脊樑。即使我離開了，我仍然會感覺自己和它有很深的連結。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Can you tell me about your hometown?",
+              "questionZh": "你可以介紹一下你的家鄉嗎？",
+              "answerEn": "Certainly. Hong Kong is a compact and energetic city that is known for its skyline, its food culture, and its fast-moving lifestyle. What makes it especially distinctive, in my view, is that you can move from glass towers to old markets, and from crowded streets to green hiking trails, in a surprisingly short time.",
+              "answerZh": "當然可以。香港是一個緊湊而充滿活力的城市，它以天際線、飲食文化，以及節奏明快的生活方式而聞名。在我看來，它最特別的地方是，你可以在很短時間內，從玻璃高樓走到老市場，從擠擁街道走到綠色遠足徑，轉換得非常自然。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How has your hometown changed over the years?",
+              "questionZh": "你的家鄉這些年來有甚麼改變？",
+              "answerEn": "It has changed quite a lot over the years. Some districts have become much more modern and commercial, while many older local businesses have gradually disappeared, which is a bit of a double-edged sword. The city is more polished now, but in some places it has lost a little of its old character.",
+              "answerZh": "這些年來它改變了很多。有些地區變得更加現代化和商業化，而不少舊式本地小店也逐漸消失了，這其實有點像一把雙刃劍。這座城市現在看起來更光鮮了，但某些地方也的確失去了一點舊日的味道。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you think you will continue to live in your hometown?",
+              "questionZh": "你覺得你會繼續住在你的家鄉嗎？",
+              "answerEn": "Possibly, yes, at least for the foreseeable future. It still offers a lot in terms of convenience, career opportunities, and familiarity, so it ticks many of the boxes for me. That said, I would not rule out moving somewhere quieter later in life.",
+              "answerZh": "有可能會，至少在可預見的將來是這樣。它在便利、工作機會，以及熟悉感方面仍然提供了很多，所以它依然很符合我的需要。不過，我也不會完全排除在人生較後階段搬到一個更安靜地方的可能。"
+            },
+            {
+              "number": 9,
+              "questionEn": "How often do you visit your hometown?",
+              "questionZh": "你多常回家鄉？",
+              "answerEn": "Since I still spend most of my time there, I do not really think of it as “visiting” in the normal sense. However, if I am away for travel, study, or work, I usually try to come back whenever I have a long break or a major holiday. Coming back always feels familiar in the best possible way.",
+              "answerZh": "由於我現在大部分時間仍然待在那裡，所以我不太會把它當成一般意義上的「回去探訪」。不過，如果我因為旅行、讀書或工作而離開，我通常都會在有長假或重要節日的時候盡量回去。每次回去，都會有一種很熟悉、很踏實的感覺。"
+            },
+            {
+              "number": 10,
+              "questionEn": "How many people live in your hometown?",
+              "questionZh": "你的家鄉有多少人居住？",
+              "answerEn": "Millions of people live there, so it is definitely not the kind of place where everyone knows everyone else. It is dense, busy, and constantly in motion, which gives the city its energy but also creates a certain level of pressure. In other words, it is lively almost all the time.",
+              "answerZh": "那裡住著數以百萬計的人，所以它絕對不是那種人人彼此都認識的地方。它人口密集、節奏繁忙，而且幾乎時刻都在運轉，這一方面帶來城市的活力，另一方面也造成一定程度的壓力。換句話說，它幾乎無時無刻都很熱鬧。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What kind of jobs do the people in your hometown do?",
+              "questionZh": "你家鄉的人通常從事甚麼工作？",
+              "answerEn": "There is quite a wide range, but many people work in finance, retail, education, logistics, hospitality, or public services. Because it is such a commercially driven city, a lot of jobs are connected in one way or another to business, communication, or customer service. People there tend to work hard and move fast.",
+              "answerZh": "那裡的工作種類相當多，不過很多人都從事金融、零售、教育、物流、酒店業或公共服務。由於它是一個非常受商業帶動的城市，所以很多工作多多少少都和商業、溝通，或者顧客服務有關。那裡的人通常工作很努力，做事也很快。"
+            },
+            {
+              "number": 12,
+              "questionEn": "What is your hometown famous for?",
+              "questionZh": "你的家鄉以甚麼聞名？",
+              "answerEn": "It is probably best known for its skyline, its food scene, and its fast-paced lifestyle. People also associate it with efficiency and the feeling that the city never really stands still. It is relatively small in size, but huge in energy.",
+              "answerZh": "它最有名的大概就是天際線、美食文化，以及節奏飛快的生活方式。人們也常常把它和高效率，以及這座城市似乎從來不會真正停下來的感覺聯繫在一起。它的面積相對不算很大，但能量卻非常驚人。"
+            },
+            {
+              "number": 13,
+              "questionEn": "What’s the oldest part of your hometown?",
+              "questionZh": "你家鄉最古老的部分是哪裡？",
+              "answerEn": "One of the oldest parts of Hong Kong is Sheung Wan, where you can still find temples, older shopfronts, and narrow streets that feel very different from the glossy business districts. I like that area because it reminds you that beneath the glass and steel, the city still has older layers. It is where the past quietly keeps its footing.",
+              "answerZh": "香港其中一個最古老的地方是上環，在那裡你仍然可以看到廟宇、較舊的店舖門面，以及狹窄的小街，感覺和那些光鮮亮麗的商業區很不一樣。我喜歡那一帶，因為它提醒人們，在玻璃與鋼鐵之下，這座城市仍然保留著更早的層次。那是一個讓過去安靜地站穩腳步的地方。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-5-noise",
+          "index": 6,
+          "title": "Noise",
+          "titleZh": "噪音",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you mind noise?",
+              "questionZh": "你介意噪音嗎？",
+              "answerEn": "It depends on the kind of noise, to be honest. I do not mind a gentle background hum, but harsh or sudden noise gets on my nerves quite quickly, especially if I am trying to concentrate or relax.",
+              "answerZh": "老實說，這要看是哪一種噪音。我不介意一些柔和的背景聲，不過刺耳或突然的噪音很快就會令我心煩，尤其是當我正想專心或者放鬆的時候。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What types of noise do you come across in your daily life?",
+              "questionZh": "你在日常生活中會遇到哪些類型的噪音？",
+              "answerEn": "In daily life, I mostly come across traffic noise, construction work, phone notifications, and general street noise. If I am in a crowded area, there is also the constant buzz of people talking, vehicles moving, and shops playing music.",
+              "answerZh": "日常生活中，我最常遇到的主要是交通噪音、工程聲、手機通知聲，以及一般街道上的聲音。如果我身處較繁忙的地方，還會有一種持續不斷的嘈雜感，包括人們說話、車輛移動，以及商店播放音樂的聲音。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Are there any sounds that you like?",
+              "questionZh": "你有沒有一些喜歡的聲音？",
+              "answerEn": "Yes, definitely. I really like natural sounds, such as rain tapping against the window, birds singing in the morning, or waves rolling onto the shore, because they make the mind settle down. Those sounds feel soft, steady, and strangely comforting.",
+              "answerZh": "有，當然有。我很喜歡一些自然的聲音，例如雨點敲打窗戶的聲音、早上的鳥鳴，或者海浪拍岸的聲音，因為它們會讓人心情安定下來。那些聲音給人的感覺很柔和、很穩定，而且有一種說不出的安慰感。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Are there any sounds that you dislike?",
+              "questionZh": "你有沒有一些不喜歡的聲音？",
+              "answerEn": "Yes, quite a few, actually. I particularly dislike drilling, car horns, and people playing videos out loud in public, because those sounds feel intrusive and impossible to ignore. They do not just fill the air; they hijack your attention.",
+              "answerZh": "有，其實還不少。我尤其不喜歡鑽地聲、汽車響號，以及別人在公共場所大聲播放影片，因為那些聲音很有侵入性，而且幾乎無法忽視。它們不只是充斥在空氣裡，而是直接劫走你的注意力。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer quiet places or noisy places?",
+              "questionZh": "你比較喜歡安靜的地方還是嘈吵的地方？",
+              "answerEn": "Overall, I prefer quiet places, especially when I need to think clearly or recharge. That said, I do not mind a place with a bit of life in it, like a café with low conversation in the background, because complete silence can sometimes feel a little too stark.",
+              "answerZh": "整體來說，我比較喜歡安靜的地方，尤其是當我需要清晰思考或者恢復精神的時候。不過，我也不介意一個帶點生活氣息的地方，例如有低聲交談作背景的咖啡店，因為完全的寂靜有時反而會讓人覺得有點過於空蕩。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you think you are sensitive to noise?",
+              "questionZh": "你覺得自己對噪音敏感嗎？",
+              "answerEn": "I would say I am moderately sensitive to it. I can tune out a low, steady sound if I have to, but sharp or repetitive noise really throws me off, so in that sense I am probably more sensitive than some people.",
+              "answerZh": "我會說自己對噪音算是中度敏感。如果有需要的話，我可以忽略一些低沉而穩定的聲音，但尖銳或重複性的噪音真的很容易打亂我，所以從這個角度來看，我大概比某些人更敏感一點。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Where can you hear loud noises?",
+              "questionZh": "你可以在哪些地方聽到很大的噪音？",
+              "answerEn": "You can hear loud noises in a lot of places, but especially near construction sites, major roads, train stations, airports, and busy markets. Some entertainment areas can also get extremely loud at night, to the point where you almost have to raise your voice just to be heard.",
+              "answerZh": "其實很多地方都可以聽到很大的噪音，不過尤其是在建築工地附近、主要道路、火車站、機場，以及繁忙市場裡。有些娛樂區在晚上的聲音也會非常大，大到你幾乎必須提高聲量，別人才聽得見你說話。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Is your home usually quiet or noisy?",
+              "questionZh": "你家通常是安靜還是嘈吵的？",
+              "answerEn": "Most of the time, my home is fairly quiet, which I really appreciate. There is the occasional sound of traffic or neighbours, of course, but it is usually calm enough for me to read, work, or rest without too much disturbance.",
+              "answerZh": "大部分時間，我家都算相當安靜，而這一點我很珍惜。當然，偶爾還是會有交通聲或者鄰居發出的聲音，不過通常都夠安靜，讓我可以在不受太多干擾的情況下看書、工作或休息。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Did you live in a noisy place when you were a child?",
+              "questionZh": "你小時候住的地方嘈吵嗎？",
+              "answerEn": "Not extremely, but it was not silent either. I remember hearing traffic from the road and the general sounds of neighbourhood life, so there was always some noise in the background, although I was probably less aware of it back then.",
+              "answerZh": "不算非常嘈，但也絕對不是完全安靜。我記得那時候會聽到馬路上的車聲，以及社區日常生活的聲音，所以背景裡一直都有一些聲音，只不過我那時候大概沒有現在那麼在意。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think there’s too much noise in modern society?",
+              "questionZh": "你覺得現代社會裡的噪音是不是太多了？",
+              "answerEn": "Yes, I do. Modern life often feels as though it comes with a nonstop soundtrack, from traffic and machinery to phones and media, and people rarely get a real break from it. The problem is not only volume, but also the fact that noise now follows us almost everywhere.",
+              "answerZh": "是的，我覺得是。現代生活常常給人一種像是自帶不停播放的背景音軌的感覺，從交通、機械，到手機和媒體聲音都有，而人們幾乎很少能真正從中抽離。問題不只是聲量，而是噪音現在幾乎無處不在地跟著我們。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Are cities becoming noisier?",
+              "questionZh": "城市是不是正在變得更嘈吵？",
+              "answerEn": "Yes, I think so. As cities grow denser and busier, there is more traffic, more construction, more nightlife, and simply more human activity packed into the same space, so the sound level naturally rises. In many cities, quiet has become a luxury rather than the default.",
+              "answerZh": "是的，我認為是這樣。隨著城市變得更密集、更繁忙，交通更多、工程更多、夜生活更多，而且更多人類活動被擠進同一個空間裡，所以整體聲量自然會上升。在很多城市裡，安靜已經變成一種奢侈，而不是理所當然的狀態。"
+            },
+            {
+              "number": 12,
+              "questionEn": "What can people do to reduce noise in cities?",
+              "questionZh": "人們可以做些甚麼來減少城市噪音？",
+              "answerEn": "There are quite a few practical steps people can take. Governments can enforce stricter noise regulations, improve urban planning, and create more green spaces, while individuals can do simple things like avoiding unnecessary honking, lowering device volume, and being more considerate in shared spaces. Small changes may sound minor, but together they can turn the volume down on city life.",
+              "answerZh": "其實有不少實際方法可以做。政府可以更嚴格執行噪音管制、改善城市規劃，並增加更多綠化空間，而個人也可以做一些簡單的事，例如避免不必要地響號、調低電子設備的音量，以及在共享空間裡更顧及他人。這些小改變聽起來也許不大，但加起來卻可以把城市生活的音量慢慢調低。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 6,
+      "displayTitle": "Book 6 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-6-home",
+          "index": 1,
+          "title": "Home",
+          "titleZh": "家居",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Who do you live with?",
+              "questionZh": "你和誰一起住？",
+              "answerEn": "I live with my parents and my younger sister. We have lived together for quite a long time, so the place feels full of familiar routines and shared memories. It is not just where we stay; it is really the centre of our daily life.",
+              "answerZh": "我和父母以及妹妹一起住。我們已經一起住了很長一段時間，所以這個地方充滿了熟悉的生活節奏和共同回憶。它不只是我們住的地方；它其實真的是我們日常生活的中心。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you live in a house or a flat?",
+              "questionZh": "你住的是房子還是單位？",
+              "answerEn": "I live in a flat rather than a house. In a city like Hong Kong, that is by far the more common and practical option, especially if you want to stay reasonably close to transport, shops, and everything else you need.",
+              "answerZh": "我住的是單位，而不是獨立屋。在像香港這樣的城市裡，這明顯是更普遍也更實際的選擇，尤其是如果你想住得靠近交通、商店和其他日常所需設施的話。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How long have you lived there?",
+              "questionZh": "你在那裡住了多久？",
+              "answerEn": "I have lived there for about eight years. After that much time, a place begins to feel less like an address and more like a part of you. I know every corner of it almost by heart.",
+              "answerZh": "我在那裡住了大約八年。住了這麼久之後，一個地方會慢慢不再只是一個地址，而更像是你的一部分。我幾乎對那裡的每一個角落都熟得不能再熟了。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is your home big or small?",
+              "questionZh": "你的家大還是小？",
+              "answerEn": "I would say it is medium-sized rather than big. It is not especially spacious, but it is well laid out, so it does not feel cramped either. In Hong Kong, that already counts as quite comfortable.",
+              "answerZh": "我會說它算是中等大小，而不是很大。它不算特別寬敞，但因為佈局不錯，所以也不會讓人覺得擠。在香港，這其實已經算是挺舒服的了。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What is your favourite room in your home?",
+              "questionZh": "你家裡最喜歡哪一個房間？",
+              "answerEn": "My favourite room is definitely my bedroom. It is the one space in the flat that feels completely my own, so I naturally gravitate towards it when I need peace and quiet. It is where I can shut the door on the outside world for a while.",
+              "answerZh": "我最喜歡的房間肯定是我的睡房。那是整個家裡最屬於我自己的空間，所以當我想要安靜一下的時候，我自然就會走進去。那是一個我可以暫時把外面的世界關在門外的地方。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What do you usually do in that room?",
+              "questionZh": "你通常會在那個房間裡做甚麼？",
+              "answerEn": "I do quite a lot in there, to be honest. I usually read, study, listen to music, and sometimes just lie on the bed and unwind after a long day. It is both my working space and my breathing space.",
+              "answerZh": "老實說，我在那個房間裡會做很多事情。我通常會在那裡看書、溫習、聽音樂，有時也只是躺在床上，在忙完一整天之後放鬆一下。它既是我的工作空間，也是我喘一口氣的空間。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How is your home decorated?",
+              "questionZh": "你的家是怎樣裝飾的？",
+              "answerEn": "It is decorated in a fairly simple and modern way. The overall style is quite clean, with light colours, practical furniture, a few framed pictures, and some small decorative touches like plants and soft lighting. Nothing is overly flashy, which is exactly how I like it.",
+              "answerZh": "它的裝飾風格相當簡單而現代。整體感覺很乾淨，用了比較淺色的色調、實用的家具、幾幅裝框照片，以及一些像植物和柔和燈光這類小裝飾。沒有甚麼特別浮誇的東西，而那正正就是我喜歡的樣子。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What do you like most about your home?",
+              "questionZh": "你最喜歡你家的甚麼地方？",
+              "answerEn": "What I like most is the sense of comfort it gives me. It is not luxurious in any way, but it feels warm, familiar, and easy to live in, which matters far more to me. At the end of the day, home should feel like a soft landing, not a showroom.",
+              "answerZh": "我最喜歡的是它帶給我的那種舒適感。它絕對算不上豪華，但它給人的感覺很溫暖、很熟悉，而且住起來很自在，而這對我來說重要得多。說到底，家應該像一個柔軟的落腳點，而不是一個只用來展示的樣板房。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Is there anything you would like to change about your home?",
+              "questionZh": "你會想改變家裡的任何地方嗎？",
+              "answerEn": "Yes, if I could change one thing, I would probably make the kitchen a little bigger and add more storage space. At the moment, it works perfectly well, but it can feel slightly tight when everyone is moving around at the same time. A bit more breathing room would make a real difference.",
+              "answerZh": "有，如果我可以改一樣東西，我大概會把廚房弄大一點，並增加更多收納空間。現在它其實已經夠用，但當大家同時在裡面走來走去的時候，就會覺得有點擠。如果能多一點空間，感覺就會差很遠。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you like visitors coming to your home?",
+              "questionZh": "你喜歡有客人來你家嗎？",
+              "answerEn": "Yes, I do, as long as it is not too frequent or too chaotic. It can be lovely to have friends or relatives over, especially when the atmosphere is relaxed and unforced. That said, I also value home as a private retreat, so I would not want it to feel like a revolving door.",
+              "answerZh": "喜歡，只要不是太頻密或者太混亂就可以。有朋友或親戚來家裡，其實可以很愉快，尤其是當氣氛很輕鬆、很自然的時候。不過，我也很重視家作為私人休息空間的感覺，所以我不會希望它變得像一個人來人往不停轉的門口一樣。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think you will live there for a long time?",
+              "questionZh": "你覺得你會在那裡住很長時間嗎？",
+              "answerEn": "For the time being, yes, I think so. It still suits my current lifestyle, and there is something reassuring about staying in a place that already feels rooted in your life. Of course, if my work or family situation changes, I might move eventually.",
+              "answerZh": "在可見的將來，我想應該會。它目前仍然很適合我的生活方式，而且住在一個已經深深融入你生活的地方，本身就有一種讓人安心的感覺。當然，如果將來我的工作或家庭狀況有變，我最後也可能會搬走。"
+            },
+            {
+              "number": 12,
+              "questionEn": "What kind of home would you like to have in the future?",
+              "questionZh": "你未來想擁有一個怎樣的家？",
+              "answerEn": "In the future, I would love to have a home that is bright, calm, and thoughtfully designed. I do not dream of anything extravagant; I would much rather have a place with plenty of natural light, good storage, and a comfortable corner for reading and relaxing. For me, the ideal home is one that feels peaceful the moment you walk in.",
+              "answerZh": "將來的話，我很希望可以擁有一個明亮、平靜，而且設計得很用心的家。我並不嚮往甚麼特別奢華的地方；比起那些，我更想要一個有充足自然光、有足夠收納空間，並且有一個舒服角落可以看書和放鬆的家。對我來說，理想的家，就是你一走進去就能感到平靜的地方。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-6-humour",
+          "index": 2,
+          "title": "Humour",
+          "titleZh": "幽默",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you have a good sense of humour?",
+              "questionZh": "你有幽默感嗎？",
+              "answerEn": "I would say I do, although my sense of humour is probably a bit dry rather than loud or dramatic. I tend to enjoy quick wit, playful comments, and small moments of irony more than obvious jokes.",
+              "answerZh": "我會說有，不過我的幽默感大概比較偏冷面，而不是那種很外放、很誇張的類型。我通常比較欣賞機智的反應、帶點玩味的說話，以及一些細微的反諷，而不是很直接的笑話。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kind of things make you laugh?",
+              "questionZh": "甚麼類型的事情會令你發笑？",
+              "answerEn": "I usually laugh at things that feel spontaneous and natural, such as clever wordplay, funny observations, or people saying something unexpectedly accurate. For me, the best humour often comes out of nowhere and catches you off guard.",
+              "answerZh": "通常會令我發笑的，是那些感覺自然又即興的東西，例如巧妙的文字遊戲、有趣的觀察，或者有人突然說出一句非常準確又好笑的話。對我來說，最好的幽默往往是突然出現，讓人毫無防備地被逗笑。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you like watching funny programmes on TV?",
+              "questionZh": "你喜歡看電視上的搞笑節目嗎？",
+              "answerEn": "Yes, I do, especially when I want to switch off and relax after a long day. Funny programmes can be a welcome break from stress, and sometimes laughter is exactly what you need to reset your mood.",
+              "answerZh": "喜歡，尤其是在我想在漫長一天之後放空和放鬆的時候。搞笑節目可以成為壓力中的一個很好的喘息空間，而有時候，笑一笑正正就是你調整心情最需要的東西。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What type of programmes do you find funny on TV?",
+              "questionZh": "你覺得哪一類電視節目最好笑？",
+              "answerEn": "I usually find panel shows, sitcoms, and programmes with sharp dialogue the funniest. I enjoy humour that feels intelligent and well timed, rather than something that relies too heavily on noise or exaggeration.",
+              "answerZh": "我通常覺得清談式綜藝、情境喜劇，以及那些對白很精準的節目最好笑。我喜歡那種聰明、節奏拿捏得好的幽默，而不是太依賴吵鬧效果或過度誇張的類型。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Which types of programmes are most popular in your country?",
+              "questionZh": "在你的國家，哪一類節目最受歡迎？",
+              "answerEn": "In my country, a mix of dramas, variety shows, reality programmes, and talent competitions tends to be very popular. People generally like programmes that are entertaining and easy to follow, especially ones they can talk about with family or friends afterwards.",
+              "answerZh": "在我的國家，劇集、綜藝節目、真人騷，以及才藝比賽通常都很受歡迎。人們普遍喜歡那些有娛樂性、又容易看的節目，尤其是那些看完之後還可以和家人或朋友一起討論的。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do people in your country enjoy comedy programmes?",
+              "questionZh": "你國家的人喜歡喜劇節目嗎？",
+              "answerEn": "Yes, definitely, because comedy is one of the easiest forms of entertainment to enjoy collectively. When a joke lands well, it brings people together almost instantly, so comedy programmes often have quite broad appeal.",
+              "answerZh": "是的，絕對喜歡，因為喜劇是最容易讓大家一起享受的娛樂形式之一。當一個笑點成功擊中大家時，它幾乎會立刻把人拉近，所以喜劇節目通常都有相當廣泛的吸引力。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you like to make people laugh?",
+              "questionZh": "你喜歡逗人笑嗎？",
+              "answerEn": "Yes, I do, because it makes conversations feel warmer and more human. I do not try to be the centre of attention, but if I can lighten the mood or make someone smile, I usually see that as a good thing.",
+              "answerZh": "喜歡，因為那會令對話感覺更有溫度，也更有人情味。我不會刻意想成為全場焦點，不過如果我能讓氣氛輕鬆一點，或者讓別人笑一笑，我通常都會覺得那是一件好事。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Are you good at telling jokes?",
+              "questionZh": "你擅長講笑話嗎？",
+              "answerEn": "Not really, to be honest. I am probably better at making funny remarks in the moment than telling full jokes with a proper setup and punchline.",
+              "answerZh": "老實說，不算很擅長。我大概比較擅長在當下說出一些好笑的反應，而不是完整地講一個有鋪陳、有笑點的笑話。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Who is the funniest person you know?",
+              "questionZh": "你認識的人裡，誰是最有趣的人？",
+              "answerEn": "One of the funniest people I know is a close friend of mine who has a very quick mind and a great sense of timing. He can say something completely ordinary in a way that makes everyone burst out laughing, which is a rare gift.",
+              "answerZh": "我認識的人之中，最有趣的其中一位是一個和我很親近的朋友，他反應很快，而且節奏感很好。他可以把很普通的一句話說得令所有人都突然笑出來，這其實是一種很難得的天分。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think humour is important in daily life?",
+              "questionZh": "你覺得幽默在日常生活中重要嗎？",
+              "answerEn": "Yes, absolutely. Humour takes the edge off difficult moments, makes relationships easier, and reminds people not to take everything so seriously all the time. In many ways, it is the social glue that helps everyday life feel lighter.",
+              "answerZh": "是的，絕對重要。幽默可以削弱困難時刻的尖銳感，令人際關係更容易相處，也提醒人們不要凡事都過分嚴肅。從很多方面來說，它就像一種社交上的黏合劑，令日常生活變得更輕鬆。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Can humour help people relax?",
+              "questionZh": "幽默可以幫助人放鬆嗎？",
+              "answerEn": "Yes, I think it can, and sometimes very effectively. A good laugh can break tension in seconds, and even a small joke can make a stressful situation feel more manageable.",
+              "answerZh": "可以，我覺得可以，而且有時候效果非常明顯。一陣真心的笑聲可以在幾秒之內打破緊張感，甚至一個小小的玩笑，都能令原本充滿壓力的情況變得比較容易承受。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Has your sense of humour changed as you have got older?",
+              "questionZh": "隨著年紀增長，你的幽默感有改變嗎？",
+              "answerEn": "Yes, quite a bit. When I was younger, I laughed more at obvious or silly things, whereas now I appreciate subtler humour, like irony, understatement, or clever observation. I suppose my sense of humour has grown up with me.",
+              "answerZh": "有，改變了不少。我年紀比較小的時候，會比較容易被那些很直接、很傻氣的東西逗笑；相反，現在我更欣賞細膩一點的幽默，例如反諷、保留式表達，或者很聰明的觀察。我想，我的幽默感也是跟著我一起長大的。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-6-transportation",
+          "index": 3,
+          "title": "Transportation",
+          "titleZh": "交通",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you prefer public transportation or private transportation?",
+              "questionZh": "你比較喜歡公共交通還是私人交通？",
+              "answerEn": "I generally prefer public transportation for everyday travel because it is cheaper, greener, and usually less stressful than driving. Private transportation does offer more freedom, of course, but in a busy city that convenience can disappear the moment you get stuck in traffic.",
+              "answerZh": "我一般來說比較喜歡日常使用公共交通，因為它比較便宜、比較環保，而且通常也比自己開車壓力小。當然，私人交通的確提供更多自由，不過在繁忙城市裡，一旦塞車，那種方便感往往就會立刻消失。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How do you usually get around your city?",
+              "questionZh": "你通常怎樣在你的城市裡出行？",
+              "answerEn": "I usually get around by a mix of the metro, buses, and walking. If I need to get somewhere quickly, I normally take the train, but for shorter local trips I often just walk or hop on a bus.",
+              "answerZh": "我通常會混合使用地鐵、巴士和步行來出行。如果我需要快點到某個地方，我一般會坐火車或地鐵；但如果只是較短的本地行程，我很多時候就會直接走路，或者隨手坐一班巴士。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kind of public transportation do you use most often?",
+              "questionZh": "你最常用哪一種公共交通工具？",
+              "answerEn": "The kind of public transportation I use most often is the train or metro. It is fast, reliable, and not affected by traffic in the same way buses or cars are, so it tends to be the most efficient option.",
+              "answerZh": "我最常用的公共交通工具是火車或地鐵。它速度快、可靠，而且不像巴士或私家車那樣容易受到交通影響，所以它通常是最有效率的選擇。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What’re the most popular means of transportation in your hometown?",
+              "questionZh": "在你的家鄉，最受歡迎的交通方式是甚麼？",
+              "answerEn": "In my hometown, the most popular means of transportation are probably buses, trains, and private cars. Public transport is widely used, but many people still rely on cars for convenience, especially if they live farther from the city centre.",
+              "answerZh": "在我的家鄉，最受歡迎的交通方式大概是巴士、火車，以及私家車。公共交通的使用率很高，但很多人仍然會因為方便而依賴私家車，尤其是那些住得離市中心比較遠的人。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you often use public transportation?",
+              "questionZh": "你常常使用公共交通嗎？",
+              "answerEn": "Yes, quite often. For daily journeys, it is usually the easiest option, and it saves me the trouble of driving, parking, and dealing with congestion.",
+              "answerZh": "會，還挺常用的。對於日常出行來說，它通常是最容易的選擇，而且可以省去我自己開車、找泊車位，以及應付擠塞的麻煩。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Is public transportation convenient where you live?",
+              "questionZh": "你住的地方公共交通方便嗎？",
+              "answerEn": "Yes, it is fairly convenient where I live. The network is quite well developed, and there are usually several ways to get from one place to another, which makes daily life much smoother.",
+              "answerZh": "是的，我住的地方公共交通相當方便。整個交通網絡發展得不錯，而且通常都有幾種方式可以從一個地方去到另一個地方，所以日常生活也順暢得多。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Is it easy to catch a bus in your country?",
+              "questionZh": "在你的國家，坐巴士容易嗎？",
+              "answerEn": "In most urban areas, yes, it is fairly easy to catch a bus because routes are frequent and bus stops are easy to find. In more remote places, though, the service can be less regular, so it really depends on where you are.",
+              "answerZh": "在大多數城市地區，是的，坐巴士算是相當容易，因為路線很多，而且巴士站也容易找到。不過在較偏遠的地方，班次可能沒有那麼頻密，所以其實很視乎你身處哪裡。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you prefer travelling by bus or by train?",
+              "questionZh": "你比較喜歡坐巴士還是坐火車？",
+              "answerEn": "I generally prefer travelling by train because it is faster, smoother, and more predictable. Buses are useful for shorter or more local routes, but trains usually make the whole journey feel more efficient and less tiring.",
+              "answerZh": "我一般比較喜歡坐火車，因為它更快、更平穩，而且時間更容易預計。巴士對較短程或者較本地化的路線很有用，但火車通常會令整段旅程感覺更有效率，也沒有那麼累。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Is driving to work popular in your country?",
+              "questionZh": "在你的國家，開車上班普遍嗎？",
+              "answerEn": "Yes, it is quite popular, especially among people who live in suburban areas or have to commute long distances. That said, in crowded cities many people still avoid driving because traffic and parking can turn the daily commute into a real headache.",
+              "answerZh": "是的，這是相當普遍的，尤其是對那些住在郊區，或者需要長途通勤的人來說。不過，在擠迫的城市裡，很多人仍然會避免自己開車，因為塞車和泊車問題很容易令每天的通勤變成一件很頭痛的事。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think traffic is a problem where you live?",
+              "questionZh": "你覺得你住的地方交通擠塞是一個問題嗎？",
+              "answerEn": "Yes, traffic is definitely a problem where I live, particularly during rush hour. A journey that should take twenty minutes can easily take twice as long, so traffic has a way of stealing both time and energy.",
+              "answerZh": "是的，我住的地方交通擠塞絕對是一個問題，尤其是在繁忙時間。一段本來二十分鐘就可以完成的路程，很容易會花上雙倍時間，所以交通擠塞總是會悄悄偷走人的時間和精力。"
+            },
+            {
+              "number": 11,
+              "questionEn": "How has transportation changed in your country in recent years?",
+              "questionZh": "你國家的交通在近年有甚麼變化？",
+              "answerEn": "Transportation has become more modern, more connected, and in some cases more environmentally friendly. There are better digital payment systems, more ride-hailing services, and stronger links between different forms of transport than before, so getting around is often easier than it used to be.",
+              "answerZh": "近年的交通變得更現代化、更互相連接，而且在某些方面也更環保了。現在有更好的電子付款系統、更多網約車服務，以及比以前更強的不同交通工具之間的接駁，所以整體來說，出行通常比以前容易得多。"
+            },
+            {
+              "number": 12,
+              "questionEn": "What do you think will become the most popular means of transportation in your country?",
+              "questionZh": "你認為未來在你的國家，最受歡迎的交通方式會是甚麼？",
+              "answerEn": "I think rail-based public transportation, especially metro systems and fast trains, will become even more popular in the future. As cities grow and roads become more crowded, people are likely to choose options that are quicker, more reliable, and less vulnerable to traffic, so rail transport may well remain the backbone of daily travel.",
+              "answerZh": "我認為以鐵路為主的公共交通，尤其是地鐵系統和高速列車，在未來會變得更加受歡迎。隨著城市擴張，以及道路變得更加擠迫，人們很可能會選擇那些更快、更可靠，而且較不受交通影響的方式，所以鐵路交通很可能仍然會是日常出行的骨幹。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-6-indoor-activities",
+          "index": 4,
+          "title": "Indoor Activities",
+          "titleZh": "室內活動",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like indoor activities?",
+              "questionZh": "你喜歡室內活動嗎？",
+              "answerEn": "Yes, I do, especially when I want to unwind or take a break from the heat and noise outside. Indoor activities can be relaxing, convenient, and surprisingly varied, so they suit both busy days and quieter moods.",
+              "answerZh": "是的，我喜歡，尤其是當我想放鬆一下，或者想暫時避開外面的炎熱和喧鬧時。室內活動可以很放鬆、很方便，而且其實種類很多，所以不論是忙碌的日子還是想安靜一點的時候，都很適合。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What indoor activities do you like?",
+              "questionZh": "你喜歡哪些室內活動？",
+              "answerEn": "I enjoy fairly calm indoor activities, such as reading, watching films, working out indoors, and sometimes cooking. They help me recharge, and I like the fact that they can be either social or solitary, depending on what I need that day.",
+              "answerZh": "我喜歡一些比較平靜的室內活動，例如看書、看電影、做室內運動，有時也會下廚。這些活動能讓我重新充電，而且我很喜歡它們既可以是社交性的，也可以是自己一個人做，視乎我那天的需要而定。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How much time do you spend indoors every week?",
+              "questionZh": "你每星期有多少時間待在室內？",
+              "answerEn": "Probably quite a lot, especially on weekdays. Between studying, resting, and doing everyday tasks, I would say I spend most of my time indoors, although I still try to get outside whenever I can so life does not start to feel too boxed in.",
+              "answerZh": "大概很多，尤其是在平日。讀書、休息，再加上處理日常事情之間，我會說自己大部分時間都待在室內，不過我仍然會盡量找機會出去走走，免得生活開始讓人覺得太侷促。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What types of indoor activities are popular in your country?",
+              "questionZh": "你國家有哪些室內活動很受歡迎？",
+              "answerEn": "In Hong Kong, shopping, eating out, going to the cinema, karaoke, and indoor exercise are all quite popular. Because the city can be hot, humid, and crowded, people often gravitate towards air-conditioned places where they can relax, socialise, and escape the weather for a while.",
+              "answerZh": "在香港，購物、外出吃飯、看電影、唱卡拉 OK，以及做室內運動都很受歡迎。因為這座城市有時又熱、又潮濕、又擠迫，所以人們常常會自然地走向有冷氣的地方，在那裡放鬆、社交，順便暫時躲開天氣。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Did you prefer indoor or outdoor activities when you were a child?",
+              "questionZh": "你小時候比較喜歡室內活動還是戶外活動？",
+              "answerEn": "When I was a child, I probably preferred outdoor activities. I had more energy then, so running around, playing games, and being outside felt much more exciting. These days, though, I appreciate the quieter appeal of indoor activities a lot more.",
+              "answerZh": "我小時候大概比較喜歡戶外活動。那時候精力比較多，所以到處跑、玩遊戲，以及待在外面都會讓我覺得更刺激。不過現在，我反而更懂得欣賞室內活動那種安靜的吸引力。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you prefer doing indoor activities alone or with other people?",
+              "questionZh": "你比較喜歡自己做室內活動，還是和別人一起做？",
+              "answerEn": "It depends on the activity. If I am reading or watching something, I would rather do it alone, but if it is something like board games, cooking, or going to a café, then doing it with other people can be much more enjoyable. In other words, I like a balance between solitude and company.",
+              "answerZh": "那要看是甚麼活動。如果我是看書或者看影片，我會比較喜歡自己一個人做；但如果是桌遊、下廚，或者去咖啡店，那和別人一起通常會更有樂趣。換句話說，我喜歡在獨處和陪伴之間取得平衡。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What do you usually do indoors when the weather is bad?",
+              "questionZh": "當天氣不好時，你通常會在室內做甚麼？",
+              "answerEn": "I usually stay in and do something low-key, such as reading, watching a film, tidying my room, or listening to music. When the rain is hammering against the windows, I actually do not mind being indoors at all; it can make the whole space feel oddly cosy.",
+              "answerZh": "我通常會留在室內，做一些比較低調的事情，例如看書、看電影、整理房間，或者聽音樂。當雨一直重重打在窗上時，我其實一點也不介意待在裡面；那種時候，整個空間反而會有一種奇妙的舒服感。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Are indoor activities more popular now than in the past?",
+              "questionZh": "現在的室內活動是否比以前更受歡迎？",
+              "answerEn": "Yes, I think so. With technology, streaming platforms, gaming, and increasingly busy lifestyles, people now have far more reasons to stay indoors than they used to. In a fast-moving place like Hong Kong, convenience often wins, so indoor activities naturally become more appealing.",
+              "answerZh": "是的，我覺得是。隨著科技、串流平台、遊戲，以及越來越忙碌的生活方式出現，人們現在比以前有更多理由留在室內。在像香港這樣節奏很快的地方，方便往往會勝出，所以室內活動自然會變得更吸引。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think indoor activities are good for children?",
+              "questionZh": "你覺得室內活動對小朋友有好處嗎？",
+              "answerEn": "Yes, as long as there is balance. Indoor activities can help children develop concentration, creativity, and certain practical skills, especially through reading, drawing, building things, or playing structured games. That said, children still need outdoor time, because they should not grow up living under a roof alone.",
+              "answerZh": "是的，只要有平衡就好。室內活動可以幫助小朋友培養專注力、創造力，以及某些實際技能，尤其是透過閱讀、畫畫、砌東西，或者玩一些有規則的遊戲。不過，小朋友仍然需要戶外時間，因為他們不應該只是活在屋簷之下。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What are the advantages of indoor activities?",
+              "questionZh": "室內活動有甚麼好處？",
+              "answerEn": "One obvious advantage is convenience, because you are not at the mercy of the weather. Indoor activities can also be more comfortable, easier to plan, and sometimes more accessible for people who need a controlled environment. On top of that, they often create a calmer rhythm, which can be a real blessing after a hectic day.",
+              "answerZh": "其中一個很明顯的好處就是方便，因為你不會受天氣擺佈。室內活動通常也比較舒服、比較容易安排，而且對一些需要穩定環境的人來說，有時也更容易參與。除此之外，它們往往能帶來一種較平靜的節奏，而這在忙碌的一天之後，真的可以說是一種福氣。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Are there any indoor activities you would like to try?",
+              "questionZh": "有沒有甚麼室內活動是你想嘗試的？",
+              "answerEn": "Yes, I would like to try pottery. There is something appealing about shaping clay with your hands and slowly turning a lump of earth into something useful or beautiful. It seems both creative and grounding, which is a combination I really like.",
+              "answerZh": "有，我想試試陶藝。用雙手去塑造泥土，然後慢慢把一團泥變成一件有用或漂亮的東西，這件事本身就很吸引我。它看起來既有創意，又能讓人沉澱下來，而這種結合正是我很喜歡的。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think people spend too much time indoors these days?",
+              "questionZh": "你覺得現代人現在是否花太多時間待在室內？",
+              "answerEn": "Yes, I think many people probably do. Modern life pulls people indoors through work, study, screens, and convenience, so before they know it, whole days can pass without much fresh air or sunlight. Indoor life has its comforts, of course, but too much of it can make people feel disconnected from the world beyond their walls.",
+              "answerZh": "是的，我覺得很多人大概真的會。現代生活透過工作、學習、螢幕，以及方便性，把人不斷拉回室內，所以在他們還沒察覺之前，一整天就可能過去了，卻沒有接觸到多少新鮮空氣或陽光。當然，室內生活有它舒服的一面，但如果太多，也可能令人和牆外的世界慢慢失去連結。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-6-internet",
+          "index": 5,
+          "title": "Internet",
+          "titleZh": "互聯網",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you use the Internet every day?",
+              "questionZh": "你每天都會使用互聯網嗎？",
+              "answerEn": "Yes, absolutely. I use it every day for all sorts of things, from communication and information to entertainment and daily tasks. At this point, it is so woven into my routine that going without it would feel quite inconvenient.",
+              "answerZh": "是的，當然會。我每天都會用它來做各種事情，從溝通和獲取資訊，到娛樂和處理日常事務都有。到了現在，它已經如此融入我的生活節奏，以至於如果沒有它，我會覺得相當不方便。"
+            },
+            {
+              "number": 2,
+              "questionEn": "When did you first start using the Internet?",
+              "questionZh": "你最初是甚麼時候開始使用互聯網的？",
+              "answerEn": "I first started using the Internet when I was in primary school. At that stage, I mainly used it for very simple things, like searching for information, watching videos, and playing basic games. Looking back, it felt quite limited compared with what the Internet offers now.",
+              "answerZh": "我最初是在小學的時候開始使用互聯網的。那個階段，我主要是用它來做一些很基本的事情，例如搜尋資料、看影片，以及玩一些簡單的遊戲。現在回頭看，當時的網絡世界和今天相比，感覺其實很有限。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you usually use the Internet for?",
+              "questionZh": "你通常會用互聯網來做甚麼？",
+              "answerEn": "I usually use it for a mix of practical and personal purposes. For example, I go online to read the news, look up information, send messages, watch videos, and sometimes shop or manage small everyday tasks. In a way, it has become a tool, a library, and a form of entertainment all at once.",
+              "answerZh": "我通常會把它用於實際用途和個人用途兩方面。例如，我會上網看新聞、查資料、發訊息、看影片，有時也會購物或處理一些日常小事。某程度上，它同時變成了一個工具、一座圖書館，以及一種娛樂方式。"
+            },
+            {
+              "number": 4,
+              "questionEn": "How important is the Internet to you?",
+              "questionZh": "互聯網對你來說有多重要？",
+              "answerEn": "It is extremely important to me. It helps me stay informed, connected, and organised, so it plays a major role in both my work and my personal life. I would not say it is the centre of my life, but it is definitely one of the main systems that keeps modern life running smoothly.",
+              "answerZh": "它對我來說非常重要。它幫助我保持資訊更新、與人聯繫，以及讓生活更有條理，所以它在我的工作和個人生活裡都扮演着很重要的角色。我不會說它是我人生的中心，但它絕對是讓現代生活順利運作的主要系統之一。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you use the Internet more for work or in your free time?",
+              "questionZh": "你使用互聯網比較多是為了工作，還是為了休閒時間？",
+              "answerEn": "Probably more in my free time, if I am being honest. Even when I go online for something practical, it can easily spill over into watching videos, reading articles, or chatting with people. That is the thing about the Internet: it rarely stays in just one lane.",
+              "answerZh": "如果老實說，大概還是在休閒時間用得比較多。即使我一開始是為了做一些實際的事情而上網，它也很容易慢慢延伸成看影片、讀文章，或者和別人聊天。互聯網就是這樣，它很少會只停留在單一用途上。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What are your favourite websites?",
+              "questionZh": "你最喜歡哪些網站？",
+              "answerEn": "I tend to like websites that are either informative or genuinely useful. I often use YouTube, Wikipedia, and a few reliable news sites, because they help me learn something new or keep up with what is happening. I would rather spend time on websites that give me value than ones that just fill time.",
+              "answerZh": "我通常比較喜歡那些有資訊性，或者真的有實際用途的網站。我經常會用 YouTube、Wikipedia，以及一些可靠的新聞網站，因為它們可以幫我學到新東西，或者了解正在發生的事情。比起單純消磨時間的網站，我更願意把時間花在能帶來價值的平台上。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you think you use the Internet too much?",
+              "questionZh": "你覺得自己使用互聯網太多嗎？",
+              "answerEn": "Yes, probably a little too much. It is very easy to go online for five minutes and then realise half an hour has disappeared. So although the Internet is useful, it can also quietly eat into your time if you are not careful.",
+              "answerZh": "是的，大概有一點太多。人很容易本來只是想上網五分鐘，結果一回神，半小時已經不見了。所以，雖然互聯網很有用，但如果不小心，它也會悄悄侵蝕你的時間。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you prefer using the Internet on your phone or on a computer?",
+              "questionZh": "你比較喜歡用手機還是電腦上網？",
+              "answerEn": "For convenience, I prefer my phone, but for serious tasks, I definitely prefer a computer. A phone is quick and always within reach, whereas a computer is better for focused reading, writing, or doing anything that requires concentration. So I would say each has its place.",
+              "answerZh": "如果是講求方便，我會比較喜歡用手機；但如果是比較認真的事情，我一定更喜歡用電腦。手機很方便，而且隨手可得；相反，電腦則更適合專心閱讀、寫作，或者做任何需要集中精神的事情。所以我會說兩者各有各的位置。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Are there any things you prefer not to do online?",
+              "questionZh": "有沒有甚麼事情是你比較不喜歡在網上做的？",
+              "answerEn": "Yes, there are. I would rather not deal with very personal conversations or important decisions entirely online, because some things still feel better face to face. Also, for matters involving trust or emotion, a screen can sometimes flatten the human side of the interaction.",
+              "answerZh": "有的。我比較不想把很私人的談話，或者一些重要決定，完全放在網上處理，因為有些事情始終還是面對面比較好。另外，對於那些牽涉信任或情感的事情來說，隔着螢幕有時會把人與人之間那一面變得太扁平。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do people in your country rely a lot on the Internet?",
+              "questionZh": "你國家的人很依賴互聯網嗎？",
+              "answerEn": "Yes, very much so, especially in Hong Kong. People use the Internet for work, study, transport, shopping, communication, banking, and even ordering food, so it is deeply built into everyday life. In a fast-paced city like Hong Kong, being offline can feel like falling behind.",
+              "answerZh": "是的，非常依賴，尤其是在香港。人們會用互聯網來工作、學習、交通出行、購物、溝通、處理銀行事務，甚至叫外賣，所以它已經深深嵌入日常生活之中。在像香港這樣節奏很快的城市裡，離線有時會讓人感覺自己正在落後。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What are the positive and negative things about the Internet?",
+              "questionZh": "互聯網有甚麼正面和負面的地方？",
+              "answerEn": "The positive side is that it gives people instant access to information, connection, and opportunity. It can open doors to learning, business, and communication in ways that were unimaginable before. The negative side, however, is that it can also spread misinformation, shorten people’s attention spans, and create problems related to privacy, scams, and unhealthy dependence.",
+              "answerZh": "正面的一面是，它讓人可以即時接觸資訊、連結他人，以及接觸各種機會。它能以從前難以想像的方式，為學習、商業和溝通打開大門。然而，負面的一面則是，它同時也可能散播錯誤資訊、縮短人們的專注力，並帶來私隱、詐騙和過度依賴等問題。"
+            },
+            {
+              "number": 12,
+              "questionEn": "How will the Internet develop in the future?",
+              "questionZh": "互聯網未來會怎樣發展？",
+              "answerEn": "I think it will become faster, more personalised, and more deeply integrated into daily life. We will probably see the Internet working more seamlessly with artificial intelligence, smart devices, and services that anticipate what people need before they even ask. That sounds exciting, but it also means issues like privacy, control, and digital overload will matter even more.",
+              "answerZh": "我覺得它會變得更快、更個人化，也會更深地融入日常生活。我們大概會看到互聯網更無縫地和人工智能、智能裝置，以及那些能在使用者開口之前就預判需求的服務結合起來。這聽起來很令人期待，但同時也表示私隱、控制權，以及數碼過載等問題將會變得更加重要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 7,
+      "displayTitle": "Book 7 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-7-lifestyle",
+          "index": 1,
+          "title": "Lifestyle",
+          "titleZh": "生活方式",
+          "questionCount": 9,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What do you do in your free time?",
+              "questionZh": "你空閒時間會做甚麼？",
+              "answerEn": "In my free time, I usually do fairly relaxing things, such as reading, listening to music, going for a walk, or watching a film. After a busy day, I tend to choose activities that help me slow down and clear my head. For me, free time is less about constant excitement and more about recharging.",
+              "answerZh": "在空閒時間，我通常會做一些比較放鬆的事情，例如看書、聽音樂、散步，或者看電影。忙完一天之後，我通常會選一些能讓自己慢下來、整理思緒的活動。對我來說，空閒時間與其說是要不斷尋找刺激，不如說是讓自己重新充電。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you have a busy social life?",
+              "questionZh": "你的社交生活忙嗎？",
+              "answerEn": "I would say it is moderately busy rather than extremely active. I do meet friends quite regularly, but I am not the kind of person who needs a packed social calendar to feel fulfilled. I prefer meaningful catch-ups to constant socialising.",
+              "answerZh": "我會說算是中等忙碌，而不是非常活躍。我確實會頗定期地見朋友，但我不是那種一定要把社交行程排得滿滿才會覺得充實的人。比起不停地社交，我更喜歡有質素、有內容的相聚。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you lead an active life?",
+              "questionZh": "你的生活算活躍嗎？",
+              "answerEn": "Yes, fairly active, although I am not an especially sporty person. I walk a lot, try to stay physically mobile, and make a conscious effort not to spend all day sitting still. I think an active life does not have to be dramatic; sometimes it is just about staying consistent.",
+              "answerZh": "算是頗活躍的，雖然我並不是特別熱愛運動的人。我平時走很多路，也會盡量讓自己保持身體上的活動，不讓自己整天都坐著不動。我覺得活躍的生活不一定要很誇張；很多時候，重點只是持之以恆。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Has your life changed much in the last year?",
+              "questionZh": "你過去一年裡的生活有很大改變嗎？",
+              "answerEn": "Yes, I think it has changed quite a bit. Over the last year, I have become more aware of how I spend my time, so my routine is a little more structured and intentional than it used to be. In a way, my life feels less scattered and more grounded now.",
+              "answerZh": "有，我覺得改變了不少。過去一年裡，我更留意自己怎樣分配時間，所以我的生活節奏比以前更有規律，也更有意識。某程度上，我現在的生活沒有以前那麼散亂，反而更踏實了。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What would you like to change about your lifestyle?",
+              "questionZh": "你想改變自己生活方式的哪一方面？",
+              "answerEn": "If I could change one thing, I would probably improve my sleep routine and reduce my screen time. Like many people, I sometimes stay up later than I should, which can throw the whole next day off balance. I would also like to make exercise a more fixed part of my week rather than something I do only when I have spare energy.",
+              "answerZh": "如果可以改變一樣東西，我大概會改善自己的作息，並減少看螢幕的時間。像很多人一樣，我有時會比應該睡覺的時間還晚睡，而那樣很容易令第二天整天都失去平衡。我也希望可以把運動變成每星期固定的一部分，而不是只在我剛好有多餘精力的時候才做。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What type of activities do you like to do in your free time?",
+              "questionZh": "你空閒時喜歡做哪一類活動？",
+              "answerEn": "I am mostly drawn to activities that are calm, flexible, and mentally refreshing. For example, I enjoy reading, exploring new cafés, taking photographs, and sometimes just wandering around without a strict plan. Those kinds of activities give me room to breathe.",
+              "answerZh": "我大多數時候都比較喜歡那些安靜、彈性高，而且能令精神放鬆的活動。例如，我喜歡看書、去探索新的咖啡店、拍照，有時甚至只是沒有明確計劃地到處走走。這些活動會讓我有一種可以喘一口氣的感覺。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How long have you been interested in these activities?",
+              "questionZh": "你對這些活動有興趣多久了？",
+              "answerEn": "I have been interested in them for quite a long time, probably since my early teenage years. Some of them, like reading and walking around on my own, gradually became habits rather than just hobbies. Over time, they have become part of my lifestyle rather than occasional pastimes.",
+              "answerZh": "我對這些活動有興趣已經很久了，大概從我十幾歲早期開始就是這樣。其中有一些活動，例如看書和自己到處走走，慢慢地已經從興趣變成了習慣。隨著時間過去，它們已經成為我生活方式的一部分，而不只是偶爾才做的消遣。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you like to do these activities alone or with other people? Why?",
+              "questionZh": "你喜歡自己做這些活動，還是和其他人一起做？為甚麼？",
+              "answerEn": "It really depends on the activity. I usually prefer reading, walking, or listening to music alone, because those are more personal and help me switch off. On the other hand, things like trying new cafés or going out to eat are often more enjoyable with friends, because good company adds another layer to the experience.",
+              "answerZh": "這其實很視乎是甚麼活動。我通常比較喜歡自己看書、散步或者聽音樂，因為這些活動比較個人化，也能讓我真正放鬆。不過，像試新的咖啡店或者外出吃飯這類事情，通常和朋友一起會更好，因為有好的陪伴，整個體驗會更豐富。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think people have enough free time?",
+              "questionZh": "你覺得人們有足夠的空閒時間嗎？",
+              "answerEn": "In many cases, no, I do not think they do, especially in fast-paced places like Hong Kong. Work, study, commuting, and family responsibilities can eat into the day before people even realise it. The problem is not only a lack of time, but also a lack of unpressured time that people can truly enjoy.",
+              "answerZh": "很多時候其實沒有，我不覺得人們真的有足夠的空閒時間，尤其是在像香港這種生活節奏很快的地方。工作、讀書、通勤以及家庭責任，往往在人們還未察覺之前就已經把一天的大部分時間吞掉了。問題不只是時間不夠，更是缺少那種沒有壓力、可以真正享受的空閒時間。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-7-major",
+          "index": 2,
+          "title": "Major",
+          "titleZh": "主修科目",
+          "questionCount": 9,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you work or study?",
+              "questionZh": "你工作還是讀書？",
+              "answerEn": "At the moment, I’m a student rather than a full-time worker. I’m focusing on my studies right now because I want to build a solid foundation before I move into a professional role.",
+              "answerZh": "目前我是一名學生，而不是全職工作人士。我現在主要專注於學業，因為我想在真正進入專業工作之前，先打好穩固的基礎。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What is your major? Or what was your major?",
+              "questionZh": "你的主修是甚麼？或者你以前主修甚麼？",
+              "answerEn": "My major is pharmacy. It is a field that sits at the crossroads of science and healthcare, so it feels both intellectually demanding and practically useful.",
+              "answerZh": "我的主修是藥劑學。這是一個位於科學與醫療交界的領域，所以它既有很高的知識要求，也很有實際用途。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you or do you like it?",
+              "questionZh": "你喜歡這個主修嗎？",
+              "answerEn": "Yes, I do, although I would not pretend it is easy. What I like about it is that it is not just theoretical; what I learn could eventually help real people in real situations, and that gives the subject a sense of purpose.",
+              "answerZh": "是的，我喜歡，雖然我不會假裝它很容易。我喜歡它的一點是，它不只是理論上的東西；我所學的知識將來有機會真正幫助到真實的人，而這令這個學科很有意義。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is it a popular major at your university?",
+              "questionZh": "這在你的大學裡是受歡迎的主修嗎？",
+              "answerEn": "Yes, it is fairly popular, especially among students who are strong in science and want a stable professional path. It is also quite competitive, because many people see it as a respected field with clear career prospects.",
+              "answerZh": "是的，它算是相當受歡迎，尤其是在那些理科成績較好，而且希望走上一條穩定專業道路的學生之中。它同時也頗具競爭性，因為很多人都把它視為一個有地位而且出路清晰的領域。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Why did you choose that major?",
+              "questionZh": "你為甚麼選這個主修？",
+              "answerEn": "I chose it mainly because I have always been interested in biology and chemistry, and pharmacy allows me to apply both in a meaningful way. On top of that, I like the idea of working in a profession where precision really matters and where even small decisions can make a genuine difference.",
+              "answerZh": "我選它主要是因為我一直都對生物和化學很有興趣，而藥劑學讓我可以以一種有意義的方式把兩者結合起來。除此之外，我也很喜歡這種工作理念：它是一個非常講求準確的專業，而一些看似細小的決定，也可能真正帶來改變。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What is the most difficult part of studying that subject?",
+              "questionZh": "讀這個學科最困難的部分是甚麼？",
+              "answerEn": "The most difficult part is probably the amount of detail you have to master without losing sight of the bigger picture. There is a heavy workload, a lot to memorise, and very little room for careless mistakes, so it keeps you on your toes.",
+              "answerZh": "最困難的部分，大概就是你要掌握大量細節，同時又不能失去整體觀。課業負擔很重，要記的東西很多，而且幾乎沒有犯粗心錯誤的空間，所以整個學習過程都會讓你時刻保持警覺。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you plan to use the subject you are studying in the future?",
+              "questionZh": "你打算將來運用你現在所學的學科嗎？",
+              "answerEn": "Yes, definitely. I did not choose this subject on a whim, so I would like to use it in my future career, ideally in a role where I can combine scientific knowledge with direct service to people.",
+              "answerZh": "會，當然會。我並不是一時衝動才選這個學科的，所以我希望將來能在事業上真正運用它，最好是在一個可以把科學知識與直接服務他人結合起來的崗位上。"
+            },
+            {
+              "number": 8,
+              "questionEn": "If you could change to another major, what would it be?",
+              "questionZh": "如果你可以轉去另一個主修，會是甚麼？",
+              "answerEn": "If I had to choose another one, I would probably pick psychology. I find the way people think, behave, and respond to stress genuinely fascinating, and I think it would also complement healthcare in a different but meaningful way.",
+              "answerZh": "如果我一定要選另一個，我大概會選心理學。我一直都很著迷於人們如何思考、如何行為，以及如何面對壓力，而我也覺得它能以另一種不同但同樣有意義的方式，和醫療領域互相呼應。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Would you change it if you had the chance?",
+              "questionZh": "如果你有機會，你會改變它嗎？",
+              "answerEn": "No, I probably would not. The grass can look greener on the other side, but I am genuinely happy with what I am studying, and I think it suits both my strengths and my long-term goals.",
+              "answerZh": "不，我大概不會。別的路有時看起來好像更吸引，但我是真的滿意自己現在讀的東西，而且我覺得它既適合我的能力，也符合我長遠的目標。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-7-mobile-phones",
+          "index": 3,
+          "title": "Mobile Phones",
+          "titleZh": "手提電話",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you have a mobile phone?",
+              "questionZh": "你有手機嗎？",
+              "answerEn": "Yes, I do, and to be honest, it would be quite hard to manage daily life without one now. It is no longer just a device for communication; it is also a camera, a map, a planner, and sometimes even a wallet.",
+              "answerZh": "有，而且老實說，現在如果沒有手機，日常生活會變得相當難安排。它已經不只是用來溝通的工具了；它同時也是相機、地圖、行事曆，有時甚至還像一個錢包。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you use your mobile phone?",
+              "questionZh": "你多常用手機？",
+              "answerEn": "Very often, probably dozens of times a day without even thinking about it. Some of that use is practical, like checking messages or directions, but some of it is simply habitual.",
+              "answerZh": "非常常用，可能一天會用上幾十次，而且很多時候幾乎是不自覺的。有一部分用途很實際，例如查看訊息或路線，但也有一部分純粹是習慣使然。"
+            },
+            {
+              "number": 3,
+              "questionEn": "At what age did you first get a mobile phone?",
+              "questionZh": "你幾歲時第一次有手機？",
+              "answerEn": "I got my first mobile phone when I was around twelve or thirteen. At the time, it was mainly for safety and convenience, so my parents could reach me easily when I was out or coming home from school.",
+              "answerZh": "我大概在十二、十三歲左右第一次擁有手機。那時它主要是為了安全和方便，這樣我父母在我外出或放學回家的時候都可以比較容易聯絡到我。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What do you most use it for?",
+              "questionZh": "你最常用手機來做甚麼？",
+              "answerEn": "I mostly use it for messaging, looking things up, and keeping track of my schedule. It is also very useful for everyday tasks like online payments, maps, and reading short documents on the go.",
+              "answerZh": "我最常用它來發訊息、查資料，以及管理自己的行程。它對日常事情也很有幫助，例如網上付款、看地圖，以及在外面快速閱讀一些短文件。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer making calls or sending messages?",
+              "questionZh": "你比較喜歡打電話還是發訊息？",
+              "answerEn": "I generally prefer sending messages, because they are less intrusive and give people time to reply when it suits them. Calls are still useful, of course, but I usually save them for urgent matters or situations that would take too long to explain in text.",
+              "answerZh": "我通常比較喜歡發訊息，因為那樣比較不會打擾別人，也能讓對方在合適的時候再回覆。當然，電話仍然很有用，但我通常會把它留給比較緊急的事情，或者那些用文字解釋起來太費時的情況。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you use your mobile phone for work or study?",
+              "questionZh": "你會用手機來工作或讀書嗎？",
+              "answerEn": "Yes, quite a lot. I use it to check emails, read notices, look up terms quickly, and stay in touch with classmates, so in that sense it is a study tool as much as a personal device.",
+              "answerZh": "會，而且用得不少。我會用它查看電郵、閱讀通知、快速查找資料，還有和同學保持聯絡，所以從這個角度來看，它既是私人裝置，也是一個學習工具。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Have mobile phones changed the way people communicate?",
+              "questionZh": "手機有改變人們溝通的方式嗎？",
+              "answerEn": "Yes, enormously. Communication has become faster, more immediate, and more constant, which can be helpful, but it has also made some conversations shorter and less thoughtful. In a way, mobile phones have brought people closer while also making some interactions feel thinner.",
+              "answerZh": "有，而且改變得非常大。溝通變得更快、更即時，也更持續，這當然有它的好處，但同時也令一些對話變得更短、更缺乏思考。某程度上，手機一方面拉近了人與人之間的距離，另一方面也讓某些互動顯得更薄弱了。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you think you spend too much time on your phone?",
+              "questionZh": "你覺得自己花太多時間在手機上嗎？",
+              "answerEn": "Sometimes, yes. I try to be sensible about it, but it is very easy for a few minutes of checking messages to turn into much longer than I intended. That is the trap with phones: they save time in one moment and steal it in the next.",
+              "answerZh": "有時候，是的。我會盡量保持節制，但很多時候原本只是想花幾分鐘看看訊息，結果卻比自己預期中花得久得多。手機的陷阱就在這裡：它上一秒好像替你省了時間，下一秒又把時間悄悄偷走。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do young people in your country use mobile phones a lot?",
+              "questionZh": "你國家的年輕人常用手機嗎？",
+              "answerEn": "Yes, absolutely. In Hong Kong, most young people use their phones constantly, whether for messaging, entertainment, study, shopping, or social media. For many of them, the phone is almost like an extra limb.",
+              "answerZh": "是的，當然。在香港，大部分年輕人幾乎時時刻刻都在用手機，不論是發訊息、娛樂、學習、購物，還是使用社交媒體。對很多人來說，手機幾乎就像身體多出來的一部分。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Is it a nuisance if people use mobiles in public places such as trains and buses?",
+              "questionZh": "如果人們在火車或巴士這些公共場所使用手機，會不會很擾人？",
+              "answerEn": "It depends on how they use them. If someone is quietly reading or texting, I do not think it matters at all, but loud phone calls or videos played on speaker can really get on people’s nerves. Public space works better when people show a bit of consideration.",
+              "answerZh": "這要看他們怎樣用。如果只是安靜地看內容或發訊息，我覺得完全沒問題；但如果有人大聲講電話，或者開揚聲器播影片，就真的很容易令人心煩。公共空間要運作得更好，始終還是要靠大家多一點體諒。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think people rely too much on mobile phones?",
+              "questionZh": "你覺得人們是否太依賴手機？",
+              "answerEn": "Yes, to some extent, I do. They are incredibly useful, but people now rely on them for everything from navigation to memory to social contact, so when the battery dies, it can feel as if the floor has disappeared beneath them. It is a bit of a double-edged sword.",
+              "answerZh": "我覺得某程度上是的。手機確實非常有用，但現在人們幾乎所有事情都依賴它，從導航到記憶，再到社交聯繫都離不開它，所以當手機沒電時，有些人會感覺像腳下的地板突然消失了一樣。這其實有點像一把雙刃劍。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Will mobile phones become even more important in the future?",
+              "questionZh": "手機在未來會變得更加重要嗎？",
+              "answerEn": "Most likely, yes. They are already woven into daily life, and I can easily imagine them becoming even more central through digital payments, identification, healthcare, and education. That said, I hope people will still protect some space for face-to-face conversation, because not everything meaningful should live on a screen.",
+              "answerZh": "很可能會。它們現在已經深深融入日常生活，而我也很容易想像它們未來會在電子支付、身份認證、醫療和教育方面變得更加核心。不過，我仍然希望人們會保留一些面對面交流的空間，因為不是所有有意義的東西都應該只存在於螢幕上。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-7-movies",
+          "index": 4,
+          "title": "Movies",
+          "titleZh": "電影",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you enjoy watching movies?",
+              "questionZh": "你喜歡看電影嗎？",
+              "answerEn": "Yes, definitely. I really enjoy watching movies because they help me switch off for a while and step into a different world. After a busy day, a good film can feel like a mental reset.",
+              "answerZh": "喜歡，當然喜歡。我真的很喜歡看電影，因為電影可以讓我暫時放空一下，走進另一個世界。在忙碌的一天之後，一部好電影有時就像替大腦重新開機一樣。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kinds of films do you like?",
+              "questionZh": "你喜歡哪一類電影？",
+              "answerEn": "I am especially drawn to thrillers, dramas, and the occasional comedy. I like films that have emotional depth or a clever storyline, because those are usually the ones that stay with me long after the credits roll.",
+              "answerZh": "我特別喜歡驚悚片、劇情片，還有偶爾看一些喜劇。我喜歡那些有情感深度，或者故事線很聰明的電影，因為這類電影通常在散場之後還會在我心裡停留很久。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How often do you go to the cinema?",
+              "questionZh": "你多久去一次戲院？",
+              "answerEn": "These days, not very often, probably once every couple of months. I usually only go when there is a film that feels worth the big-screen experience, rather than just watching it casually at home.",
+              "answerZh": "近年我不算很常去，大概每幾個月一次吧。我通常只有在遇到一部真的值得用大銀幕去看的電影時才會去，而不是隨便在家裡看一看就算。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Did you often watch films when you were a child?",
+              "questionZh": "你小時候常常看電影嗎？",
+              "answerEn": "Yes, I did. When I was little, I watched films much more casually, especially animated films and family movies, because they were fun, colourful, and easy to enjoy without thinking too much.",
+              "answerZh": "有，常常看。我小時候看電影其實看得更隨意，尤其是動畫片和合家歡電影，因為它們有趣、色彩豐富，而且不需要想太多就可以看得很開心。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer watching films at home or at the cinema?",
+              "questionZh": "你較喜歡在家看電影還是在戲院看？",
+              "answerEn": "To be honest, it depends on the film, but overall I probably prefer watching at home. It is more comfortable, more affordable, and easier to fit into daily life, although the cinema still wins when it comes to atmosphere.",
+              "answerZh": "老實說，這要看電影本身，不過整體而言，我大概比較喜歡在家看。因為在家看更舒服、更便宜，也更容易融入日常生活，不過如果說到氣氛，戲院還是更勝一籌。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Are cinema tickets expensive in your country?",
+              "questionZh": "在你的國家，戲院門票貴嗎？",
+              "answerEn": "Yes, I would say they are fairly expensive, especially if you go regularly or buy snacks as well. A single trip to the cinema can add up quite quickly, so for many people it feels more like an occasional treat than an everyday habit.",
+              "answerZh": "是的，我會說算是頗貴，尤其是如果你經常去，或者還會順便買小食的話。去一次戲院的花費其實很快就會累積起來，所以對很多人來說，那比較像是一種偶爾的享受，而不是日常習慣。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What are the advantages of seeing a film at the cinema?",
+              "questionZh": "在戲院看電影有甚麼好處？",
+              "answerEn": "The biggest advantage is the immersive experience. The huge screen, the surround sound, and the darkened room make it much easier to lose yourself in the story, so when a film is really well made, the cinema brings it to life in a way a small screen simply cannot.",
+              "answerZh": "最大的好處就是那種很有沉浸感的體驗。巨大的銀幕、環繞音響，以及昏暗的環境，都會讓人更容易完全投入故事之中，所以當一部電影拍得真的很好時，戲院能把它呈現得活靈活現，而這是小螢幕難以完全做到的。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you usually watch films alone or with others?",
+              "questionZh": "你通常自己一個人看電影，還是和別人一起看？",
+              "answerEn": "I do both, but I probably watch films with other people more often. Watching with friends or family makes the experience feel more shared, and it is always nice to talk about the film afterwards and compare reactions.",
+              "answerZh": "兩種都有，不過我大概比較常和別人一起看。和朋友或家人一起看會令整個體驗更有共同感，而且看完之後大家可以一起聊聊那部電影、比較一下彼此的感受，這也是很有趣的一部分。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Have your taste in films changed over time?",
+              "questionZh": "你對電影的口味有隨時間改變嗎？",
+              "answerEn": "Yes, quite a lot. When I was younger, I mainly cared about whether a film was exciting or funny, whereas now I pay much more attention to acting, pacing, and emotional complexity. In a way, I think my taste has become a little more patient and a little more demanding.",
+              "answerZh": "有，改變了不少。我年紀比較小的時候，主要只在意一部電影夠不夠刺激、夠不夠好笑；相反，現在我會更留意演技、節奏，以及情感層次。某程度上，我覺得自己的口味變得更有耐性，也更有要求了。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do people in your country like watching films?",
+              "questionZh": "你國家的人喜歡看電影嗎？",
+              "answerEn": "Yes, very much so. Films are a popular form of entertainment in my country, partly because they are easy to enjoy with other people and partly because they offer a quick escape from the pressures of daily life.",
+              "answerZh": "是的，很喜歡。電影在我的國家是一種很受歡迎的娛樂方式，一方面因為它很適合和別人一起享受，另一方面也因為它能讓人暫時從日常生活的壓力中抽離出來。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think people will go to the cinema less in the future?",
+              "questionZh": "你覺得未來人們會較少去戲院嗎？",
+              "answerEn": "Yes, I think many people probably will, mainly because streaming is so convenient and affordable. That said, I do not think cinemas will disappear altogether, because there will always be certain films that people want to experience on the big screen rather than in their living room.",
+              "answerZh": "會，我覺得很多人未來大概會較少去，主要因為串流平台實在太方便，也相對便宜。不過，我不覺得戲院會完全消失，因為始終有一些電影，人們還是會想在大銀幕上看，而不是在家裡客廳裡看。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Which actor would you like to play you in a film?",
+              "questionZh": "如果有一部關於你的電影，你希望由哪位演員飾演你？",
+              "answerEn": "That is a fun question. I would probably choose an actor who can come across as thoughtful and slightly understated, rather than someone overly dramatic, because I think that would reflect my personality more accurately.",
+              "answerZh": "這是一個很有趣的問題。我大概會選一位能演出那種有想法、而且有點內斂感覺的演員，而不是太戲劇化的人，因為我覺得那樣會比較準確地反映我的個性。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-7-museums",
+          "index": 5,
+          "title": "Museums",
+          "titleZh": "博物館",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Are museums popular in your country?",
+              "questionZh": "博物館在你的國家受歡迎嗎？",
+              "answerEn": "Yes, I would say they are fairly popular, especially among students, families, and tourists. They may not be part of everyone’s weekly routine, but they still attract a steady flow of visitors because they offer a mix of education, culture, and entertainment.",
+              "answerZh": "是的，我會說它們算是相當受歡迎，尤其是在學生、家庭和遊客之中。它們未必是每個人每星期都會去的地方，但仍然持續吸引不少參觀者，因為它們同時提供教育、文化，以及娛樂價值。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you often visit museums?",
+              "questionZh": "你常去博物館嗎？",
+              "answerEn": "Not very often, to be honest, but I do go from time to time. I am more likely to visit one when there is a special exhibition or when I am travelling, because that is when museums tend to feel most memorable and worth setting time aside for.",
+              "answerZh": "老實說，不算很常，不過我偶爾還是會去。我通常比較會在有特別展覽，或者去旅行的時候參觀博物館，因為那種時候的博物館往往最令人印象深刻，也最值得特地抽時間去看。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you visit museums when you were a child?",
+              "questionZh": "你小時候有去過博物館嗎？",
+              "answerEn": "Yes, I did, mainly on school trips and occasionally with my family. At that age, I did not always appreciate them fully, but I still remember the sense that they were places where the past had somehow been kept alive.",
+              "answerZh": "有，主要是在學校旅行的時候去，偶爾也會和家人一起去。那個年紀的我未必每次都能真正欣賞博物館，不過我仍然記得那種感覺，好像歷史 somehow 被保存下來，還在裡面活著一樣。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What kinds of museums did you visit when you were younger?",
+              "questionZh": "你年紀較小的時候去過哪一類博物館？",
+              "answerEn": "When I was younger, I mostly visited science museums, history museums, and sometimes children’s museums with interactive displays. Those places were easier for young visitors to engage with because they were more hands-on and less like simply walking past rows of glass cases.",
+              "answerZh": "我年紀較小的時候，主要去的是科學博物館、歷史博物館，有時也會去一些設有互動展品的兒童博物館。那些地方對小朋友來說通常更容易投入，因為它們比較有參與感，而不只是單純走過一排排玻璃展示櫃。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you like to visit museums nowadays?",
+              "questionZh": "你現在喜歡參觀博物館嗎？",
+              "answerEn": "Yes, I do, probably more than I did when I was younger. Now I have more patience for detail, and I enjoy the way a good museum can open a window onto a different time, place, or way of thinking.",
+              "answerZh": "是的，我喜歡，而且大概比我年紀小的時候更喜歡。現在的我對細節更有耐性，也更欣賞一間好的博物館怎樣像打開一扇窗，讓人看到另一個時代、另一個地方，或者另一種思考方式。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What type of museums do you enjoy visiting most?",
+              "questionZh": "你最喜歡參觀哪一類博物館？",
+              "answerEn": "I probably enjoy art museums and history museums the most. Art museums can be quietly powerful, while history museums help you see how the present has been shaped by everything that came before it.",
+              "answerZh": "我大概最喜歡藝術博物館和歷史博物館。藝術博物館的感染力常常是安靜但深刻的，而歷史博物館則能幫助你看清楚，現在的世界其實是怎樣被過去一步一步塑造出來的。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you prefer visiting museums alone or with other people?",
+              "questionZh": "你比較喜歡自己一個人去博物館，還是和別人一起去？",
+              "answerEn": "I prefer going with one other person rather than in a big group. That way, I can still move at my own pace, but I also have someone to exchange thoughts with, which often makes the visit richer and more enjoyable.",
+              "answerZh": "我比較喜歡和一個人一起去，而不是一大群人。那樣的話，我仍然可以按照自己的節奏參觀，同時又有人可以一起交流想法，而這通常會令整個參觀過程更豐富，也更有樂趣。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What can people learn from visiting museums?",
+              "questionZh": "人們從參觀博物館中可以學到甚麼？",
+              "answerEn": "People can learn a great deal, from historical facts and scientific ideas to social values and cultural identity. A good museum does more than display objects; it tells stories, and those stories help people connect knowledge with human experience.",
+              "answerZh": "人們其實可以學到很多，從歷史事實、科學概念，到社會價值和文化身份認同都包括在內。一間好的博物館不只是展示物件；它其實是在講故事，而那些故事能幫助人們把知識和人類經驗連結起來。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think museums are useful for children?",
+              "questionZh": "你認為博物館對小朋友有用嗎？",
+              "answerEn": "Yes, absolutely, provided that the museum is presented in a child-friendly way. Museums can spark curiosity, bring abstract ideas to life, and show children that learning does not have to stay trapped in a textbook.",
+              "answerZh": "是的，絕對有用，前提是博物館的呈現方式對小朋友來說是友善的。博物館可以激發好奇心，把抽象的概念變得具體，也能讓小朋友明白，學習不一定只能被困在課本裡。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Are there many museums where you live?",
+              "questionZh": "你住的地方有很多博物館嗎？",
+              "answerEn": "Yes, there are quite a few, especially if you include art spaces, cultural centres, and more specialised museums. So there is a reasonable variety, although some are naturally more well known and better visited than others.",
+              "answerZh": "有，數量都不少，尤其如果把藝術空間、文化中心，以及一些較專門的博物館都算進去的話。所以整體來說種類算是相當多元，不過有些地方自然會比其他地方更有名，也更常有人去。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think people should pay to visit museums?",
+              "questionZh": "你認為人們應該付費參觀博物館嗎？",
+              "answerEn": "I think it depends on the museum. Charging a small fee can be reasonable because museums need funding to preserve collections and run exhibitions, but at the same time, at least some museums should be free so that culture and knowledge are not only for people who can afford them.",
+              "answerZh": "我覺得這要視乎是哪一類博物館。收取少量費用其實是合理的，因為博物館需要資金去保存館藏和舉辦展覽，但同時，我也認為至少應該有一些博物館是免費的，這樣文化和知識才不會只屬於負擔得起的人。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think museums will still be popular in the future?",
+              "questionZh": "你認為博物館在未來仍然會受歡迎嗎？",
+              "answerEn": "Yes, I do, although they may evolve in how they present themselves. Digital technology will probably play a bigger role, but I do not think it will replace the experience of standing in front of a real object that has survived time. In that sense, museums still have something screens alone cannot fully reproduce.",
+              "answerZh": "是的，我認為會，不過它們呈現自己的方式可能會繼續演變。數碼科技大概會扮演更大的角色，但我不認為它能取代人真正站在一件穿越時間保存下來的實物面前的那種感受。從這個意義上來說，博物館仍然擁有一些單靠螢幕無法完全複製的東西。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 8,
+      "displayTitle": "Book 8 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-8-museum",
+          "index": 1,
+          "title": "Museum",
+          "titleZh": "博物館",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Are museums popular in your country?",
+              "questionZh": "博物館在你的國家受歡迎嗎？",
+              "answerEn": "Yes, I would say they are fairly popular, especially among students, families, and tourists. They may not be part of everyone’s weekly routine, but they still attract a steady flow of visitors because they offer a mix of education, culture, and entertainment.",
+              "answerZh": "是的，我會說它們算是相當受歡迎，尤其是在學生、家庭和遊客之中。它們未必是每個人每星期都會去的地方，但仍然持續吸引不少參觀者，因為它們同時提供教育、文化，以及娛樂價值。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you often visit museums?",
+              "questionZh": "你常去博物館嗎？",
+              "answerEn": "Not very often, to be honest, but I do go from time to time. I am more likely to visit one when there is a special exhibition or when I am travelling, because that is when museums tend to feel most memorable and worth setting time aside for.",
+              "answerZh": "老實說，不算很常，不過我偶爾還是會去。我通常比較會在有特別展覽，或者去旅行的時候參觀博物館，因為那種時候的博物館往往最令人印象深刻，也最值得特地抽時間去看。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you visit museums when you were a child?",
+              "questionZh": "你小時候有去過博物館嗎？",
+              "answerEn": "Yes, I did, mainly on school trips and occasionally with my family. At that age, I did not always appreciate them fully, but I still remember the sense that they were places where the past had somehow been kept alive.",
+              "answerZh": "有，主要是在學校旅行的時候去，偶爾也會和家人一起去。那個年紀的我未必每次都能真正欣賞博物館，不過我仍然記得那種感覺，好像歷史 somehow 被保存下來，還在裡面活著一樣。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What kinds of museums did you visit when you were younger?",
+              "questionZh": "你年紀較小的時候去過哪一類博物館？",
+              "answerEn": "When I was younger, I mostly visited science museums, history museums, and sometimes children’s museums with interactive displays. Those places were easier for young visitors to engage with because they were more hands-on and less like simply walking past rows of glass cases.",
+              "answerZh": "我年紀較小的時候，主要去的是科學博物館、歷史博物館，有時也會去一些設有互動展品的兒童博物館。那些地方對小朋友來說通常更容易投入，因為它們比較有參與感，而不只是單純走過一排排玻璃展示櫃。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you like to visit museums nowadays?",
+              "questionZh": "你現在喜歡參觀博物館嗎？",
+              "answerEn": "Yes, I do, probably more than I did when I was younger. Now I have more patience for detail, and I enjoy the way a good museum can open a window onto a different time, place, or way of thinking.",
+              "answerZh": "是的，我喜歡，而且大概比我年紀小的時候更喜歡。現在的我對細節更有耐性，也更欣賞一間好的博物館怎樣像打開一扇窗，讓人看到另一個時代、另一個地方，或者另一種思考方式。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What type of museums do you enjoy visiting most?",
+              "questionZh": "你最喜歡參觀哪一類博物館？",
+              "answerEn": "I probably enjoy art museums and history museums the most. Art museums can be quietly powerful, while history museums help you see how the present has been shaped by everything that came before it.",
+              "answerZh": "我大概最喜歡藝術博物館和歷史博物館。藝術博物館的感染力常常是安靜但深刻的，而歷史博物館則能幫助你看清楚，現在的世界其實是怎樣被過去一步一步塑造出來的。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you prefer visiting museums alone or with other people?",
+              "questionZh": "你比較喜歡自己一個人去博物館，還是和別人一起去？",
+              "answerEn": "I prefer going with one other person rather than in a big group. That way, I can still move at my own pace, but I also have someone to exchange thoughts with, which often makes the visit richer and more enjoyable.",
+              "answerZh": "我比較喜歡和一個人一起去，而不是一大群人。那樣的話，我仍然可以按照自己的節奏參觀，同時又有人可以一起交流想法，而這通常會令整個參觀過程更豐富，也更有樂趣。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What can people learn from visiting museums?",
+              "questionZh": "人們從參觀博物館中可以學到甚麼？",
+              "answerEn": "People can learn a great deal, from historical facts and scientific ideas to social values and cultural identity. A good museum does more than display objects; it tells stories, and those stories help people connect knowledge with human experience.",
+              "answerZh": "人們其實可以學到很多，從歷史事實、科學概念，到社會價值和文化身份認同都包括在內。一間好的博物館不只是展示物件；它其實是在講故事，而那些故事能幫助人們把知識和人類經驗連結起來。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think museums are useful for children?",
+              "questionZh": "你認為博物館對小朋友有用嗎？",
+              "answerEn": "Yes, absolutely, provided that the museum is presented in a child-friendly way. Museums can spark curiosity, bring abstract ideas to life, and show children that learning does not have to stay trapped in a textbook.",
+              "answerZh": "是的，絕對有用，前提是博物館的呈現方式對小朋友來說是友善的。博物館可以激發好奇心，把抽象的概念變得具體，也能讓小朋友明白，學習不一定只能被困在課本裡。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Are there many museums where you live?",
+              "questionZh": "你住的地方有很多博物館嗎？",
+              "answerEn": "Yes, there are quite a few, especially if you include art spaces, cultural centres, and more specialised museums. So there is a reasonable variety, although some are naturally more well known and better visited than others.",
+              "answerZh": "有，數量都不少，尤其如果把藝術空間、文化中心，以及一些較專門的博物館都算進去的話。所以整體來說種類算是相當多元，不過有些地方自然會比其他地方更有名，也更常有人去。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think people should pay to visit museums?",
+              "questionZh": "你認為人們應該付費參觀博物館嗎？",
+              "answerEn": "I think it depends on the museum. Charging a small fee can be reasonable because museums need funding to preserve collections and run exhibitions, but at the same time, at least some museums should be free so that culture and knowledge are not only for people who can afford them.",
+              "answerZh": "我覺得這要視乎是哪一類博物館。收取少量費用其實是合理的，因為博物館需要資金去保存館藏和舉辦展覽，但同時，我也認為至少應該有一些博物館是免費的，這樣文化和知識才不會只屬於負擔得起的人。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think museums will still be popular in the future?",
+              "questionZh": "你認為博物館在未來仍然會受歡迎嗎？",
+              "answerEn": "Yes, I do, although they may evolve in how they present themselves. Digital technology will probably play a bigger role, but I do not think it will replace the experience of standing in front of a real object that has survived time. In that sense, museums still have something screens alone cannot fully reproduce.",
+              "answerZh": "是的，我認為會，不過它們呈現自己的方式可能會繼續演變。數碼科技大概會扮演更大的角色，但我不認為它能取代人真正站在一件穿越時間保存下來的實物面前的那種感受。從這個意義上來說，博物館仍然擁有一些單靠螢幕無法完全複製的東西。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-8-music",
+          "index": 2,
+          "title": "Music",
+          "titleZh": "音樂",
+          "questionCount": 13,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "How do you listen to music?",
+              "questionZh": "你通常怎樣聽音樂？",
+              "answerEn": "Most of the time, I listen to music on my phone through streaming apps, usually with wireless earphones. It is quick, convenient, and always within reach, which means music can slip quite naturally into my day.",
+              "answerZh": "大部分時候，我都是用手機透過串流平台聽音樂，通常會配無線耳機。那樣很快、很方便，而且隨手可得，所以音樂很自然就能融入我的日常生活。"
+            },
+            {
+              "number": 2,
+              "questionEn": "When do you listen to music?",
+              "questionZh": "你通常在甚麼時候聽音樂？",
+              "answerEn": "I usually listen to music when I am commuting, studying, tidying my room, or just trying to unwind. Different moments call for different sounds, so music often becomes the background rhythm of my day.",
+              "answerZh": "我通常會在通勤、溫習、整理房間，或者單純想放鬆的時候聽音樂。不同時刻會需要不同的聲音，所以音樂常常會變成我一天裡的背景節奏。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What’s your favourite kind of music?",
+              "questionZh": "你最喜歡哪一種音樂？",
+              "answerEn": "I would say my favourite kind of music is probably pop, especially songs that are melodic and emotionally expressive. I like music that is easy to connect with but still has some depth to it, rather than something catchy and empty.",
+              "answerZh": "我會說我最喜歡的大概是流行音樂，尤其是那些旋律感強，而且情感表達豐富的歌曲。我喜歡那種容易產生共鳴，但同時又有一點深度的音樂，而不只是好聽卻空洞的旋律。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is music an important subject at school in your country?",
+              "questionZh": "在你的國家，音樂在學校裡是一個重要科目嗎？",
+              "answerEn": "In Hong Kong, it is important, but probably not as central as subjects like maths, science, or languages. It still plays a valuable role, though, because it gives students a creative outlet and reminds them that education is not only about exams and results.",
+              "answerZh": "在香港，它是重要的，但大概沒有數學、科學或語文那些科目那麼核心。不過，它仍然有很重要的價值，因為它為學生提供了一個創意出口，也提醒大家教育不只是關於考試和成績。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What kinds of music are most popular in your country?",
+              "questionZh": "在你的國家，哪一類音樂最受歡迎？",
+              "answerEn": "Pop music is definitely one of the most popular genres in Hong Kong, including both Cantopop and international pop. On top of that, Korean pop, film soundtracks, and softer acoustic music also have a strong following, especially among younger listeners.",
+              "answerZh": "流行音樂一定是香港最受歡迎的類型之一，包括廣東流行曲和國際流行音樂。除此之外，韓國流行音樂、電影原聲，以及較柔和的木結他音樂也有不少支持者，尤其是在年輕聽眾之中。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you like to listen to live music?",
+              "questionZh": "你喜歡聽現場音樂嗎？",
+              "answerEn": "Yes, I do, because live music has a different kind of energy. Even if the song is one I already know well, hearing it performed in real time can make it feel fresher, warmer, and more alive.",
+              "answerZh": "是的，我喜歡，因為現場音樂有一種不一樣的能量。即使那首歌我早就很熟悉了，但當它被即場演出時，仍然會讓人覺得更新鮮、更有溫度，也更有生命力。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Is live music popular in your country?",
+              "questionZh": "在你的國家，現場音樂受歡迎嗎？",
+              "answerEn": "Yes, I would say so, especially in a city like Hong Kong where people enjoy concerts, small gigs, and large-scale performances. Live music may not be part of everyone’s daily life, but when a well-known singer or group comes to town, tickets can sell like hot cakes.",
+              "answerZh": "是的，我會說很受歡迎，尤其是在香港這樣的城市裡，人們很喜歡演唱會、小型現場表演，以及大型演出。現場音樂未必是每個人日常生活的一部分，但當有知名歌手或組合來演出時，門票往往很快就被搶購一空。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Have you ever been to a concert before? Or Have you ever been to a musical performance?",
+              "questionZh": "你以前有去過演唱會嗎？或者你有看過音樂表演嗎？",
+              "answerEn": "Yes, I have been to a concert before, and I really enjoyed the atmosphere. There is something special about being in a crowd where everyone knows the songs and feels the same wave of excitement at the same time.",
+              "answerZh": "有，我以前去過演唱會，而且我很享受那種氣氛。當你身處一群人之中，而大家都熟悉那些歌，也在同一刻感受到同樣的興奮時，那種感覺真的很特別。"
+            },
+            {
+              "number": 9,
+              "questionEn": "How much time do you spend listening to music every day?",
+              "questionZh": "你每天大概花多少時間聽音樂？",
+              "answerEn": "Probably around one to two hours in total, although it varies from day to day. On busier days, music comes in short bursts, but on calmer days, I can let it run in the background for much longer.",
+              "answerZh": "大概加起來一至兩個小時左右，不過每天都不太一樣。在比較忙的日子裡，我聽音樂通常是一小段一小段的；但在比較平靜的日子裡，我就可能會讓音樂在背景裡播放更久。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Are your music tastes varied?",
+              "questionZh": "你的音樂口味多元嗎？",
+              "answerEn": "Yes, fairly varied, I would say. Although I naturally gravitate towards pop and softer emotional songs, I also listen to instrumental music, film scores, and the occasional indie track when the mood is right.",
+              "answerZh": "是的，我會說算是挺多元的。雖然我自然會比較偏向流行音樂和一些較柔和、情感豐富的歌曲，但如果當下心情合適，我也會聽純音樂、電影配樂，以及偶爾聽一些獨立音樂。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What is your favourite song?",
+              "questionZh": "你最喜歡的一首歌是甚麼？",
+              "answerEn": "One of my favourite songs is Fix You by Coldplay. I like it because it starts gently and then builds in a way that feels both intimate and uplifting, almost like a small light slowly brightening in the dark. It is the kind of song that can meet you where you are emotionally.",
+              "answerZh": "我其中一首最喜歡的歌是 Coldplay 的 Fix You。我喜歡它，因為它一開始很溫柔，之後又慢慢推進，給人一種既親密又振奮的感覺，幾乎像黑暗中有一道小光慢慢亮起來。那是一首能在情感上與你相遇的歌。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you like to sing along to your favourite songs?",
+              "questionZh": "你喜歡跟著你最喜歡的歌一起唱嗎？",
+              "answerEn": "Yes, especially when I am alone. I would not say I have an amazing voice, but singing along can be really freeing, and sometimes it is the best way to enjoy a song rather than just listening to it passively.",
+              "answerZh": "是的，尤其是當我自己一個人的時候。我不會說自己的聲音有多好，但跟著唱其實會讓人覺得很放鬆，而且有時那是享受一首歌最好的方式，而不只是被動地聽它播放而已。"
+            },
+            {
+              "number": 13,
+              "questionEn": "Are you learning to play a musical instrument at the moment?",
+              "questionZh": "你現在有在學樂器嗎？",
+              "answerEn": "Not at the moment, although I have thought about it before. If I had more time, I would quite like to learn the piano, because it is both expressive and versatile, and it seems to open the door to so many different styles of music.",
+              "answerZh": "現在沒有，不過我以前的確想過。如果我有更多時間，我其實很想學鋼琴，因為它既有表現力，也很靈活，而且它好像能打開通往很多不同音樂風格的大門。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-8-musical-instruments",
+          "index": 3,
+          "title": "Musical Instruments",
+          "titleZh": "樂器",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you play a musical instrument?",
+              "questionZh": "你會演奏樂器嗎？",
+              "answerEn": "Not at the moment, no. I enjoy music a lot, but I do not currently play any instrument well enough to say I am a real player. Still, I have always admired people who can make an instrument speak, because it feels both technical and deeply expressive.",
+              "answerZh": "現在沒有。我很喜歡音樂，但我目前並沒有把任何樂器學到可以說自己是真正會演奏的程度。不過，我一直都很欣賞那些能把樂器“說出聲音”的人，因為那種能力既講技巧，也很有表達性。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Have you ever learned to play a musical instrument?",
+              "questionZh": "你曾經學過演奏樂器嗎？",
+              "answerEn": "Yes, I learned a little when I was younger, mainly the basics of the piano. I would not pretend I became particularly good at it, but it did give me some idea of how much patience and repetition music requires. In a way, it was my first real lesson in disciplined practice.",
+              "answerZh": "有，我小時候學過一點，主要是鋼琴的基本功。我不會假裝自己學得特別好，但那段經歷確實讓我明白音樂需要多少耐性和重複練習。某程度上，那算是我第一次真正學到甚麼叫有紀律地練習。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Would you like to learn to play a musical instrument?",
+              "questionZh": "你想學演奏樂器嗎？",
+              "answerEn": "Yes, I would. I think learning an instrument would be both relaxing and challenging, which is quite a rare combination. It seems to engage the mind, the ear, and the emotions all at once, so it is not just a hobby; it is almost a different language.",
+              "answerZh": "是的，我想。我覺得學樂器會同時帶來放鬆和挑戰，而這種組合其實很難得。它似乎會同時調動思考、聽覺和情感，所以它不只是一種興趣，幾乎像是在學另一種語言。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you think it’s important for children to learn to play a musical instrument?",
+              "questionZh": "你認為小朋友學演奏樂器重要嗎？",
+              "answerEn": "Yes, I think it can be very valuable for children. Learning an instrument can teach patience, concentration, and the ability to listen carefully, which are useful far beyond music itself. That said, I do not think every child has to become highly skilled, because the real value often lies in the process rather than the performance.",
+              "answerZh": "是的，我覺得這對小朋友可以很有價值。學樂器能教會他們耐性、專注力，以及仔細聆聽的能力，而這些能力都不只在音樂上有用。不過，我也不認為每個孩子都一定要學到很高水平，因為真正的價值往往在於過程，而不只是表演本身。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do children have to learn to play a musical instrument at school in your country?",
+              "questionZh": "在你的國家，小朋友在學校一定要學演奏樂器嗎？",
+              "answerEn": "In Hong Kong, children usually have music lessons at school, but they do not always have to learn an instrument in a serious or formal way. In many cases, whether they take up an instrument depends more on the school, the family, and the child’s own interest. So music education is common, but instrument training is not equally intensive for everyone.",
+              "answerZh": "在香港，小朋友通常都會在學校上音樂課，但他們未必一定要以很正式或很認真的方式學習某一種樂器。很多時候，會不會真正學一種樂器，更取決於學校、家庭，以及孩子本身的興趣。所以音樂教育很普遍，但樂器訓練的強度並不是每個人都一樣。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What kind of musical instrument would you like to learn?",
+              "questionZh": "你想學哪一種樂器？",
+              "answerEn": "I would most like to learn the piano. One reason is that it is versatile, so it can be used for many different styles of music, from classical pieces to modern songs. Another reason is that the piano seems to combine structure and emotion beautifully, almost like logic with a heartbeat.",
+              "answerZh": "我最想學的是鋼琴。其中一個原因是它很多變，所以可以用來演奏很多不同風格的音樂，從古典作品到現代歌曲都可以。另一個原因是，鋼琴似乎把結構和情感結合得很美，幾乎像是把理性和心跳放在一起。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What do you think is the best age to start learning to play a musical instrument?",
+              "questionZh": "你認為幾歲開始學樂器最好？",
+              "answerEn": "I think the best age is probably somewhere in childhood, perhaps around six to eight years old. At that stage, children are usually still open to learning new habits, and they can build technique quite naturally over time. Even so, motivation matters more than the calendar, because a willing learner often goes further than a reluctant one.",
+              "answerZh": "我覺得最好的年齡大概是在童年時期，也許六至八歲左右。那個階段的小朋友通常仍然很容易接受新的習慣，而且可以隨着時間很自然地建立技巧。即使如此，學習動機其實比年齡更重要，因為一個願意學的人，往往會比一個勉強學的人走得更遠。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Is it easier for children or adults to learn a musical instrument?",
+              "questionZh": "小朋友還是成年人比較容易學樂器？",
+              "answerEn": "Overall, I think it is easier for children in the long run. They tend to absorb patterns more naturally, and they often have more time to build strong foundations. Adults, however, may learn more consciously and with clearer goals, so they are not at a disadvantage in every respect.",
+              "answerZh": "整體來說，我覺得從長遠看，小朋友會比較容易。他們通常更自然地吸收模式，而且往往有更多時間去打好基礎。不過，成年人學習時可能會更有意識，也有更清楚的目標，所以他們並不是在每一方面都處於劣勢。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do many people in your country play musical instruments?",
+              "questionZh": "在你的國家，很多人會演奏樂器嗎？",
+              "answerEn": "Quite a lot of people in Hong Kong learn an instrument at some stage, especially when they are children. The piano and violin are particularly common, partly because they are seen as traditional choices for music education. However, not everyone continues into adulthood, so for many people it is more a chapter than a lifelong habit.",
+              "answerZh": "在香港，很多人都會在人生某個階段學過樂器，尤其是在小時候。鋼琴和小提琴特別常見，部分原因是它們常被視為音樂教育中較傳統的選擇。不過，不是每個人都會一直學到成年，所以對很多人來說，那比較像人生中的一個階段，而不是終身習慣。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you enjoy listening to live music?",
+              "questionZh": "你喜歡聽現場音樂嗎？",
+              "answerEn": "Yes, very much. Live music has an energy that recorded music cannot fully reproduce, because you can feel the atmosphere building in real time. Even a small performance can be electric when the audience and the musicians are in sync.",
+              "answerZh": "是的，我很喜歡。現場音樂有一種錄音很難完全複製的能量，因為你可以真切感受到現場氣氛是如何一步一步累積起來的。即使只是小型演出，只要觀眾和音樂人進入同一個節奏，整個場面都可以很有感染力。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What do you think would be the most difficult musical instrument to learn to play?",
+              "questionZh": "你認為最難學的樂器是甚麼？",
+              "answerEn": "I would say the violin is one of the most difficult instruments to learn. Unlike some instruments, it does not really hide your mistakes, so even slight problems with pitch or control can sound painfully obvious. It seems to demand precision, sensitivity, and years of patient refinement.",
+              "answerZh": "我會說小提琴是最難學的樂器之一。和某些樂器不同，它幾乎不會替你掩飾錯誤，所以即使只是音準或控制上很輕微的問題，也可能會變得非常明顯。它似乎要求極高的準確度、敏感度，以及多年耐心的打磨。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think learning a musical instrument is useful in other ways besides music?",
+              "questionZh": "你認為學樂器除了音樂本身之外，還有其他用處嗎？",
+              "answerEn": "Yes, definitely. Learning an instrument can strengthen focus, self-discipline, memory, and even emotional awareness, so its benefits often spill over into other areas of life. In that sense, music does not just train the hands; it also trains the mind and shapes the person.",
+              "answerZh": "是的，絕對有。學樂器可以加強專注力、自律、記憶力，甚至情感上的感受力，所以它的好處往往會延伸到人生其他層面。從這個角度來看，音樂訓練的不只是手，也在訓練頭腦，並塑造一個人。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-8-neighbours",
+          "index": 4,
+          "title": "Neighbours",
+          "titleZh": "鄰居",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you know the people who live next door to you?",
+              "questionZh": "你認識住在你隔壁的人嗎？",
+              "answerEn": "Yes, I do, at least to a certain extent. We are not extremely close, but we know each other well enough to exchange greetings and have the occasional short conversation. In a city, that already feels like a good starting point.",
+              "answerZh": "是的，我算是認識，至少有一定程度的了解。我們不是非常熟，但彼此也算熟到會互相打招呼，偶爾也會聊幾句。對一個城市來說，這其實已經算是一個不錯的開始了。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you see each other?",
+              "questionZh": "你們多常見到對方？",
+              "answerEn": "I see them fairly often, probably several times a week, mainly in the corridor or when we are using the lift. The meetings are usually brief, but they are regular enough for us to stay familiar with one another.",
+              "answerZh": "我都算幾常見到他們，大概一星期會見好幾次，主要是在走廊上，或者一起搭升降機的時候。見面的時間通常都很短，不過也夠讓我們彼此保持熟悉。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kind of relationship do you have?",
+              "questionZh": "你們的關係是怎樣的？",
+              "answerEn": "I would describe it as friendly but respectful. We are polite, we greet each other, and we are willing to help in small ways, but we also respect each other’s privacy. To be honest, I think that balance is ideal for neighbours.",
+              "answerZh": "我會形容我們的關係是友善而且有分寸的。我們會有禮貌地相處、互相打招呼，也願意在一些小事情上幫忙，但同時也會尊重彼此的私人空間。老實說，我覺得這種平衡對鄰居來說是最理想的。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Would you like to know your neighbours better?",
+              "questionZh": "你會想更了解你的鄰居嗎？",
+              "answerEn": "Yes, I would, but only naturally rather than by forcing the connection. It would be nice to have a slightly stronger sense of community in the building, especially in case anyone ever needed help. That said, I would still want to keep some boundaries in place.",
+              "answerZh": "會，我是想的，不過我希望那是很自然地發生，而不是刻意去拉近關係。如果大廈裡能多一點社區感，其實是挺好的，尤其是萬一有人需要幫忙的時候。不過，即使如此，我還是會希望保留一些界線。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Would you ask a neighbour for help if you needed it?",
+              "questionZh": "如果你有需要，你會向鄰居求助嗎？",
+              "answerEn": "Yes, I would, provided that it was something reasonable. For example, if I needed help with a small emergency, receiving a delivery, or borrowing something simple, I would not hesitate too much. Sometimes neighbours are the nearest safety net you have.",
+              "answerZh": "會，只要那是合理的事情，我會的。舉例來說，如果我遇到一些小緊急情況、需要人幫忙收快遞，或者借一些簡單的東西，我都不會太猶豫。有時候，鄰居其實就是你最近的一張安全網。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How can neighbours be helpful?",
+              "questionZh": "鄰居可以怎樣幫到人？",
+              "answerEn": "Neighbours can be helpful in very practical ways. They can keep an eye on your home when you are away, let you know if something seems wrong, or help out in small day-to-day situations. Even a simple act of checking in can make a real difference.",
+              "answerZh": "鄰居可以用很多很實際的方式幫到人。他們可以在你不在家的時候幫你留意一下屋企，提醒你有沒有甚麼不對勁，或者在日常小事情上伸出援手。即使只是簡單地關心一下，有時都可以帶來很大的幫助。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did you often talk to your neighbours when you were a child?",
+              "questionZh": "你小時候常常和鄰居聊天嗎？",
+              "answerEn": "Yes, more than I do now. When I was a child, people seemed to interact more casually, and there was often a stronger sense that neighbours were part of everyday life. As children, we were usually more open as well, so conversations happened more easily.",
+              "answerZh": "有，而且比我現在多。小時候，人與人之間好像更自然地會互動，鄰居也更像是日常生活的一部分。再加上小朋友本身通常比較容易打開自己，所以聊天也會自然得多。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do people in your country usually know their neighbours well?",
+              "questionZh": "你地方的人通常會很了解自己的鄰居嗎？",
+              "answerEn": "In Hong Kong, I would say it depends a lot on the area and the building. In some older neighbourhoods, people may know one another quite well, whereas in newer or busier areas, people often keep more to themselves. City life can bring people physically close but socially far apart.",
+              "answerZh": "在香港，我會說這很視乎地區和大廈類型。在一些較舊的社區裡，人們可能彼此都相當熟悉；但在一些較新的或者較繁忙的地方，人們往往會比較各自過自己的生活。城市生活有時會讓人住得很近，卻在社交上離得很遠。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What qualities make a good neighbour?",
+              "questionZh": "甚麼特質會令一個人變成好鄰居？",
+              "answerEn": "I think a good neighbour should be considerate, respectful, and reliable. They do not need to be overly involved in your life, but they should be polite, keep noise to a reasonable level, and be willing to help when necessary. In short, a good neighbour makes life easier, not harder.",
+              "answerZh": "我覺得一個好鄰居應該要體貼、懂得尊重別人，而且可靠。他們不需要過分介入你的生活，但應該有禮貌、把聲浪控制在合理範圍內，並且在有需要時願意幫忙。簡單來說，好鄰居會令生活更輕鬆，而不是更麻煩。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think neighbours are important?",
+              "questionZh": "你覺得鄰居重要嗎？",
+              "answerEn": "Yes, definitely. Even if you are not close friends, neighbours shape your daily environment more than you realise, because they affect the atmosphere, the sense of safety, and the overall comfort of where you live. Good neighbours can make a place feel like home.",
+              "answerZh": "是的，當然重要。即使你和鄰居不是很親近的朋友，他們其實都比你想像中更影響你的日常生活，因為他們會影響居住環境的氣氛、安全感，以及整體的舒適度。好的鄰居，真的可以令一個地方更有家的感覺。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Have relationships between neighbours changed over time?",
+              "questionZh": "鄰居之間的關係有隨時間改變嗎？",
+              "answerEn": "Yes, I think they have changed quite a lot. In the past, neighbours were often more involved in one another’s lives, whereas now people tend to be busier, more private, and sometimes more distant. Modern life has made communication easier in some ways, but not always warmer.",
+              "answerZh": "有，我覺得改變了不少。以前，鄰居之間通常會更參與彼此的生活；但現在，人們往往更忙、更重視私隱，有時也更疏離。現代生活在某些方面令溝通變得更方便，但不一定令關係更有溫度。"
+            },
+            {
+              "number": 12,
+              "questionEn": "What kind of problems can people have with their neighbours in a big city?",
+              "questionZh": "在大城市裡，人們和鄰居之間可能會有甚麼問題？",
+              "answerEn": "In a big city, the most common problems are probably noise, lack of privacy, hygiene issues, and disputes over shared spaces. In places where people live so close together, even small habits can become big irritations over time. When boundaries are not respected, tension can build up very quickly.",
+              "answerZh": "在大城市裡，最常見的問題大概就是噪音、私隱不足、衛生問題，以及共用空間上的糾紛。在人們住得這麼近的地方，即使只是一些很小的生活習慣，久而久之都可能變成很大的煩擾。當彼此不尊重界線時，緊張氣氛很快就會累積起來。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-8-newspapers-and-magazines",
+          "index": 5,
+          "title": "Newspapers and Magazines",
+          "titleZh": "報紙與雜誌",
+          "questionCount": 10,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Which do you prefer reading, newspapers or magazines?",
+              "questionZh": "你比較喜歡看報紙還是雜誌？",
+              "answerEn": "I generally prefer magazines, because they tend to go deeper into a topic instead of just reporting the headlines. A good magazine article feels more polished and reflective, so it is easier to settle into and enjoy. That said, newspapers are still useful when I want quick updates on what is happening.",
+              "answerZh": "我一般比較喜歡看雜誌，因為它們通常會更深入地探討一個題目，而不只是報道標題新聞。一篇好的雜誌文章往往感覺更精緻、更有思考性，所以更容易讓人靜下來慢慢讀。不過，如果我只是想快速了解正在發生的事情，報紙仍然很有用。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What type of stories do you like to read about?",
+              "questionZh": "你喜歡看哪一類型的報道或故事？",
+              "answerEn": "I am especially drawn to stories about culture, science, and people’s everyday lives. I like articles that do more than give facts; I prefer pieces that explain why something matters and how it affects ordinary people. Those stories usually stay with me longer.",
+              "answerZh": "我特別喜歡看關於文化、科學，以及人們日常生活的報道。我喜歡那些不只是提供事實的文章；我更偏好那些會解釋一件事為甚麼重要，以及它如何影響普通人的內容。那類故事通常會在我心裡留得更久。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you think reading a magazine or a newspaper can help you learn a language?",
+              "questionZh": "你覺得看雜誌或報紙能幫助學習語言嗎？",
+              "answerEn": "Yes, definitely. They expose readers to natural vocabulary, strong collocations, and real-world sentence patterns, which is extremely useful if you want to move beyond textbook English. Newspapers are especially good for current affairs language, while magazines can be better for tone, style, and more descriptive writing.",
+              "answerZh": "會，當然會。它們能讓讀者接觸到自然的詞彙、強而常用的搭配，以及真實世界中的句式，如果你想超越課本英語，這是非常有幫助的。報紙特別適合學習時事語言，而雜誌則更適合接觸語氣、風格，以及較具描述性的寫作。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Why do you think some people prefer magazines to newspapers?",
+              "questionZh": "你認為為甚麼有些人比較喜歡雜誌而不是報紙？",
+              "answerEn": "I think one reason is that magazines often feel less rushed and more visually appealing. They usually have stronger design, better photography, and longer features, so the reading experience can feel more relaxed and enjoyable. In other words, newspapers inform you, whereas magazines often invite you in.",
+              "answerZh": "我想其中一個原因是，雜誌通常感覺沒有那麼匆忙，而且在視覺上更吸引。它們往往有更好的設計、更出色的照片，以及更長篇的專題，所以整個閱讀體驗會更輕鬆、更愉快。換句話說，報紙是在給你資訊，而雜誌很多時候更像是在邀請你走進一個題目。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you often read newspapers?",
+              "questionZh": "你常看報紙嗎？",
+              "answerEn": "Not in printed form, to be honest, but I do read newspaper content online quite regularly. These days, I am much more likely to check news on my phone than to sit down with a physical paper. So the habit is still there, but the format has changed.",
+              "answerZh": "老實說，我不常看實體報紙，不過我確實會相當規律地在網上看報章內容。現在的我更有可能用手機看看新聞，而不是坐下來讀一份真正的報紙。所以這個習慣其實還在，只是形式改變了。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you prefer to read local news or international news?",
+              "questionZh": "你比較喜歡看本地新聞還是國際新聞？",
+              "answerEn": "I try to read both, but if I had to choose, I would probably say international news. Local news affects my daily life more directly, of course, but international news helps me see the bigger picture and understand how connected the world really is. I think both matter, just in different ways.",
+              "answerZh": "我會盡量兩種都看，但如果一定要選，我大概會說是國際新聞。當然，本地新聞對我的日常生活影響更直接，但國際新聞能幫我看見更大的圖景，也讓我明白這個世界其實彼此聯繫得有多緊密。我覺得兩者都重要，只是重要的方式不同。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Which is more popular where you live, newspapers or magazines?",
+              "questionZh": "在你住的地方，報紙還是雜誌比較受歡迎？",
+              "answerEn": "Where I live, I would say newspapers are probably more influential in terms of public information, but magazines are still popular for lifestyle, fashion, and entertainment. That said, both have lost ground to digital media, which is now where most people get their content.",
+              "answerZh": "在我住的地方，我會說報紙在公共資訊方面可能更有影響力，但雜誌在生活風格、時尚，以及娛樂方面仍然很受歡迎。不過，兩者其實都被數碼媒體搶走了不少位置，因為現在大部分人都是從網上獲取內容。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do many people today read newspapers?",
+              "questionZh": "現在還有很多人看報紙嗎？",
+              "answerEn": "Yes, but not always in the traditional sense. Many people still read newspapers through apps or websites, even if they rarely buy a printed copy. So I would say newspaper reading has not disappeared; it has simply moved to a different platform.",
+              "answerZh": "有，不過不一定是傳統意義上的看報紙。很多人仍然會透過應用程式或網站閱讀報章內容，即使他們很少真的去買一份紙本報紙。所以我會說，閱讀報紙這件事並沒有消失；它只是搬到了另一個平台上。"
+            },
+            {
+              "number": 9,
+              "questionEn": "In the future, do you think more people than today will read magazines or fewer people?",
+              "questionZh": "在未來，你覺得看雜誌的人會比現在更多還是更少？",
+              "answerEn": "I suspect fewer people will read traditional magazines, especially in print, because attention spans are shorter now and digital content is faster and easier to access. However, I do think high-quality magazines could still keep a loyal audience if they offer depth, strong writing, and something people cannot get from a quick scroll online.",
+              "answerZh": "我猜未來看傳統雜誌的人會更少，尤其是紙本雜誌，因為現在人們的注意力持續時間較短，而數碼內容又更快、更容易取得。不過，我仍然覺得高質素的雜誌如果能提供深度、好的寫作，以及一些人們無法從快速滑手機中得到的內容，它們仍然可以保有一批忠實讀者。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think newspapers will be very important to you in the future?",
+              "questionZh": "你覺得報紙在未來對你會很重要嗎？",
+              "answerEn": "Yes, I think they will still be important, although probably more in digital form than on paper. I want to stay informed, and reliable newspaper journalism still plays an important role in that. The medium may evolve, but the need for credible reporting will not go out of date.",
+              "answerZh": "會，我覺得它們未來仍然會很重要，只不過大概會更多以數碼形式出現，而不是紙本。我希望自己能保持消息靈通，而可靠的報章新聞在這方面仍然扮演很重要的角色。媒介或許會改變，但對可信報道的需要並不會過時。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 9,
+      "displayTitle": "Book 9 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-9-outdoor-activities",
+          "index": 1,
+          "title": "Outdoor Activities",
+          "titleZh": "戶外活動",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like outdoor activities?",
+              "questionZh": "你喜歡戶外活動嗎？",
+              "answerEn": "Yes, I do, mainly because they help me clear my head and break away from screens for a while. Fresh air and a change of scenery can do wonders for my mood, especially after a long day indoors.",
+              "answerZh": "喜歡，主要因為戶外活動可以幫我整理思緒，也讓我暫時離開電子螢幕。新鮮空氣和環境上的轉換，對我的心情很有幫助，尤其是在室內待了一整天之後。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you do outdoor activities?",
+              "questionZh": "你多久做一次戶外活動？",
+              "answerEn": "I try to do some kind of outdoor activity at least a few times a week. It does not always have to be anything ambitious, because even a simple walk can make a real difference.",
+              "answerZh": "我會盡量每星期至少做幾次戶外活動。那不一定要是甚麼很大型的活動，因為即使只是簡單散步，也真的可以帶來很大分別。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What outdoor sports do you like?",
+              "questionZh": "你喜歡甚麼戶外運動？",
+              "answerEn": "I quite like cycling and badminton, because they are active without being too overwhelming. They give me a chance to move my body, enjoy the outdoors, and have a bit of fun at the same time.",
+              "answerZh": "我挺喜歡踩單車和羽毛球，因為它們有活動量，但又不會太吃力。它們讓我可以活動身體、享受戶外環境，同時也帶來一些樂趣。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What kind of outdoor activities do you usually do?",
+              "questionZh": "你通常會做哪一類戶外活動？",
+              "answerEn": "Most of the time, I do fairly simple things like walking in the park, going for short hikes, or just spending time outside with friends. I tend to prefer low-pressure activities that fit easily into everyday life.",
+              "answerZh": "大多數時候，我會做一些比較簡單的事情，例如在公園散步、行短途山路，或者只是和朋友在戶外待一下。我通常比較喜歡那些沒有太大壓力，而且很容易融入日常生活的活動。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer outdoor activities or indoor activities?",
+              "questionZh": "你較喜歡戶外活動還是室內活動？",
+              "answerEn": "If I had to choose, I would probably say outdoor activities, because they feel more refreshing and less repetitive. Indoor activities are convenient, of course, but being outside gives me a stronger sense of freedom.",
+              "answerZh": "如果一定要選，我大概會選戶外活動，因為它們感覺更清新，也沒那麼重複。室內活動當然很方便，不過在戶外會讓我更有自由感。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How much time do you spend outdoors every week?",
+              "questionZh": "你每星期會花多少時間在戶外？",
+              "answerEn": "It varies, but I would say I probably spend around five to seven hours outdoors in a typical week. Some weeks are busier than others, but I still try not to let the whole week slip by without getting outside.",
+              "answerZh": "這會有些浮動，不過我會說一般一星期大概有五到七小時是在戶外度過的。有些星期會比其他時候忙，但我還是會盡量不讓整個星期都在沒怎麼出門的情況下過去。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did you spend a lot of time outdoors when you were a child?",
+              "questionZh": "你小時候花很多時間在戶外嗎？",
+              "answerEn": "Yes, definitely more than I do now. When I was a child, I spent a lot of time running around, playing games, and being outside without really planning it, whereas now outdoor time has to be fitted more carefully around work or study.",
+              "answerZh": "有，肯定比現在多。我小時候會花很多時間跑來跑去、玩遊戲，以及待在外面，而且根本不用特別計劃；相反，現在的戶外時間就要更小心地配合工作或學業安排。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What types of outdoor activities are popular in your country?",
+              "questionZh": "在你的國家，哪一類戶外活動比較受歡迎？",
+              "answerEn": "In my country, activities like hiking, jogging, cycling, and outdoor ball games are quite popular. People also enjoy going to parks, waterfront areas, or barbecue sites, especially on weekends and public holidays.",
+              "answerZh": "在我的國家，像行山、慢跑、踩單車，以及戶外球類活動都相當受歡迎。人們也喜歡去公園、海濱地區，或者燒烤場，尤其是在周末和公眾假期的時候。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do people in your country spend enough time outdoors?",
+              "questionZh": "你國家的人有花足夠時間在戶外嗎？",
+              "answerEn": "Honestly, I do not think so, at least not always. Many people are tied up with work, study, or screens, so although they know being outdoors is good for them, daily life often gets in the way.",
+              "answerZh": "老實說，我不太覺得，至少不總是如此。很多人都被工作、學業，或者電子螢幕綁住了，所以儘管他們知道去戶外對自己有好處，日常生活往往還是會成為阻礙。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What are the benefits of outdoor activities?",
+              "questionZh": "戶外活動有甚麼好處？",
+              "answerEn": "There are quite a few benefits. They improve physical health, reduce stress, and give people a mental breather, and on top of that, they can also strengthen relationships when people do them together.",
+              "answerZh": "好處其實有不少。戶外活動可以改善身體健康、減輕壓力，也讓人得到精神上的喘息；除此之外，當人們一起參與時，它們還可以拉近彼此的關係。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Would you like to try a new outdoor activity in the future?",
+              "questionZh": "你將來會想試一項新的戶外活動嗎？",
+              "answerEn": "Yes, I would. I would quite like to try kayaking one day, because it seems both peaceful and physically engaging, and I think being out on the water would be a completely different experience from the activities I usually do.",
+              "answerZh": "會，我會想。我挺想有一天試試划獨木舟，因為它看起來既平靜又有運動量，而且我覺得在水上活動，會和我平時做的那些活動是完全不同的體驗。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think outdoor activities are important for children?",
+              "questionZh": "你覺得戶外活動對小朋友重要嗎？",
+              "answerEn": "Yes, absolutely. Outdoor activities are important for children because they help them build physical confidence, social skills, and a stronger connection with the world around them. Childhood should not be lived entirely through a screen.",
+              "answerZh": "是的，絕對重要。戶外活動對小朋友很重要，因為它們可以幫助孩子建立身體上的自信、社交能力，以及和周圍世界更強的連結。童年不應該完全透過螢幕來度過。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-9-patience-and-politeness",
+          "index": 2,
+          "title": "Patience & Politeness",
+          "titleZh": "耐性與禮貌",
+          "questionCount": 8,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What do you think patience is?",
+              "questionZh": "你認為耐心是甚麼？",
+              "answerEn": "To me, patience is the ability to stay calm and measured when things do not happen as quickly or as smoothly as you would like. It is not just about waiting; it is about waiting without letting frustration take the wheel. For example, a patient person can deal with delays or repeated problems without immediately snapping.",
+              "answerZh": "對我來說，耐心就是當事情沒有如自己所希望那樣快或那樣順利發生時，仍然能保持冷靜和克制的能力。它不只是等待，而是在等待的過程中，不讓煩躁接管自己。舉個例子，一個有耐心的人即使面對延誤或重複出現的問題，也不會立刻發脾氣。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you think patience is important?",
+              "questionZh": "你認為耐心重要嗎？",
+              "answerEn": "Yes, very much so. Patience makes relationships smoother, decisions wiser, and daily life less exhausting, because not everything moves at the speed we want. Without it, even small inconveniences can snowball into unnecessary conflict.",
+              "answerZh": "是的，我覺得非常重要。耐心能令人際關係更順暢、決定更明智，也令日常生活沒有那麼令人疲憊，因為並不是所有事情都會按照我們想要的速度發展。沒有耐心的話，即使只是小小的不便，也可能滾成不必要的衝突。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you think you are a patient person?",
+              "questionZh": "你覺得自己是一個有耐心的人嗎？",
+              "answerEn": "I would say I am fairly patient, though not endlessly so. I can usually stay calm in slow or repetitive situations, especially when I know the problem cannot be solved instantly. That said, if I am tired or under pressure, my patience can wear thin.",
+              "answerZh": "我會說自己算是頗有耐心，不過也不是無止境地有耐性。在一些進展緩慢或重複性的情況下，我通常都能保持冷靜，尤其是當我知道問題不可能立刻被解決的時候。不過，如果我很累，或者正處於壓力之下，我的耐性也會慢慢被磨掉。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Have you ever lost your patience?",
+              "questionZh": "你曾經失去耐性嗎？",
+              "answerEn": "Yes, of course. I have lost my patience before, especially when someone kept making the same careless mistake after it had already been explained clearly. Even then, though, I try to take a breath and respond properly rather than let the moment get the better of me.",
+              "answerZh": "有，當然有。我以前也試過失去耐性，尤其是當某個人明明已經被清楚解釋過，卻仍然一再犯同一個粗心的錯誤。不過即使如此，我還是會盡量先深呼吸，再好好回應，而不是讓當下情緒把我控制住。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Are you a polite person?",
+              "questionZh": "你是一個有禮貌的人嗎？",
+              "answerEn": "Yes, I think so. I try to speak respectfully, listen properly, and be mindful of how my words come across, because basic courtesy makes everyday interactions much easier. To me, politeness is not about sounding formal; it is about showing consideration.",
+              "answerZh": "是的，我想我是。我會盡量有禮貌地說話、認真地聆聽，並留意自己的說話方式會給人甚麼感覺，因為基本禮貌能令日常互動順暢得多。對我來說，禮貌並不是刻意把話說得很正式，而是表達對別人的體諒。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Who taught you to be polite?",
+              "questionZh": "是誰教你要有禮貌的？",
+              "answerEn": "Mainly my parents, although school also played a part. At home, I was taught to say please and thank you, not to interrupt, and to think about other people’s feelings before I spoke. Over time, those habits stopped feeling like rules and became second nature.",
+              "answerZh": "主要是我的父母教我的，不過學校也有一定影響。在家裡，我從小就被教導要說請和謝謝、不要打斷別人說話，並且在開口之前先想想別人的感受。久而久之，那些習慣就不再像規則，而變成了一種很自然的本能。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Is it important to be polite?",
+              "questionZh": "有禮貌重要嗎？",
+              "answerEn": "Yes, absolutely. Politeness oils the wheels of social life: it reduces friction, shows respect, and helps people disagree without turning every conversation into a battle. Of course, politeness alone is not enough if it is insincere, but it is still a very important starting point.",
+              "answerZh": "是的，絕對重要。禮貌就像社交生活裡的潤滑劑：它能減少摩擦、表達尊重，也能幫助人們即使意見不同，也不至於把每一次對話都變成一場戰鬥。當然，如果禮貌只是表面工夫而不是真心的，那也不夠，不過它仍然是一個非常重要的起點。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What do you do if others are not polite to you?",
+              "questionZh": "如果別人對你沒有禮貌，你會怎樣做？",
+              "answerEn": "I usually try not to mirror their behaviour straight away. If the situation is minor, I let it go and keep my tone calm, but if someone crosses a line, I respond firmly and respectfully. In my experience, staying composed often says more than snapping back ever could.",
+              "answerZh": "我通常都會盡量不立刻照樣回應對方。如果情況不算嚴重，我會選擇算了，並保持語氣冷靜；但如果對方真的越界，我就會堅定而有禮地回應。以我的經驗來說，保持鎮定，往往比立刻回嘴更能說明一個人的分寸和修養。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-9-public-transport",
+          "index": 3,
+          "title": "Public Transport",
+          "titleZh": "公共交通",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you often use public transport?",
+              "questionZh": "你常常乘搭公共交通嗎？",
+              "answerEn": "Yes, I do, almost every day. In Hong Kong, public transport is such a normal part of daily life because it is fast, reliable, and usually far more practical than driving.",
+              "answerZh": "是的，我幾乎每天都會乘搭。在香港，公共交通根本就是日常生活的一部分，因為它快捷、可靠，而且通常比自己開車實際得多。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kinds of public transport do you have in your country?",
+              "questionZh": "你的國家有哪幾種公共交通工具？",
+              "answerEn": "In Hong Kong, we have quite a wide range, including the MTR, buses, minibuses, trams, ferries, and taxis. That mix makes the system feel very well connected, because different forms of transport cover different parts of the city.",
+              "answerZh": "在香港，我們有相當多種類的交通工具，包括港鐵、巴士、小巴、電車、渡輪，以及的士。這種組合令整個系統感覺上非常連貫，因為不同交通工具各自覆蓋城市不同的部分。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kinds of public transport do most people use?",
+              "questionZh": "大多數人通常乘搭哪一種公共交通工具？",
+              "answerEn": "I would say the MTR and buses are the ones most people rely on. The MTR is the backbone of the city for speed, while buses are useful because they reach areas that the railway does not cover as directly.",
+              "answerZh": "我會說港鐵和巴士是最多人依賴的。港鐵在速度方面可說是整個城市的骨幹，而巴士則很有用，因為它能到達一些鐵路未必那麼直接覆蓋到的地方。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is public transport popular where you live?",
+              "questionZh": "你住的地方公共交通受歡迎嗎？",
+              "answerEn": "Yes, very much so. Where I live, it would actually be harder not to use public transport, because the network is dense, parking is limited, and most people are used to getting around that way.",
+              "answerZh": "是的，非常受歡迎。在我住的地方，其實反而是不使用公共交通會更困難，因為交通網絡很密集、泊車位有限，而且大多數人早就習慣了這種出行方式。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you usually prefer public transport or private transport?",
+              "questionZh": "你通常比較喜歡公共交通還是私人交通？",
+              "answerEn": "I usually prefer public transport. It saves me the trouble of driving, parking, and sitting in traffic, and it also allows me to read, listen to music, or just switch off for a while during the journey.",
+              "answerZh": "我通常比較喜歡公共交通。它省去了我開車、找車位，以及困在車龍裡的麻煩，同時也讓我在路途中可以看書、聽音樂，或者單純放空一下。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What is your favourite type of public transport?",
+              "questionZh": "你最喜歡哪一種公共交通工具？",
+              "answerEn": "For daily use, the MTR is probably my favourite because it is efficient and easy to rely on. That said, I also have a soft spot for the tram, because it moves at a gentler pace and lets you see the city unfold outside the window.",
+              "answerZh": "如果是日常使用，我最喜歡的大概是港鐵，因為它有效率，而且很容易依賴。不過，我對電車也有一份特別的喜愛，因為它的節奏比較慢，也能讓你從窗外慢慢看著城市展開。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How often do you use public transport?",
+              "questionZh": "你多常乘搭公共交通？",
+              "answerEn": "Very frequently, usually several times a day on weekdays. Even on weekends, I still tend to use it if I am going out, so it is woven quite naturally into my routine.",
+              "answerZh": "非常頻密，通常平日一天會搭幾次。即使到了週末，只要我要出門，我通常還是會乘搭，所以它已經很自然地融入了我的生活規律裡。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What do you do when you are travelling on public transport?",
+              "questionZh": "你乘搭公共交通時通常會做甚麼？",
+              "answerEn": "It depends on the length of the journey. If it is a short trip, I might just look out of the window or think about what I need to do that day, but on longer journeys I usually listen to music, reply to messages, or read something on my phone.",
+              "answerZh": "那要看路程有多長。如果只是短途，我可能只是看看窗外，或者想一想那天要做甚麼；但如果路程較長，我通常會聽音樂、回覆訊息，或者在手機上看點東西。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Are there any problems with public transport in your area?",
+              "questionZh": "你那區的公共交通有甚麼問題嗎？",
+              "answerEn": "The main problem is probably overcrowding during rush hour. The system is generally very efficient, but when trains and buses are packed to the brim, the journey can feel more stressful than it should.",
+              "answerZh": "最大的問題大概就是繁忙時段太擠迫。整個系統整體來說其實很有效率，但當列車和巴士都擠得水洩不通時，整段旅程就會比它本來應有的樣子更令人有壓力。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do people in your country often use public transport to go to work or school?",
+              "questionZh": "你國家的人常常乘搭公共交通去上班或上學嗎？",
+              "answerEn": "Yes, absolutely. In Hong Kong, huge numbers of people commute by MTR, bus, or minibus every day, because for many people it is simply the most efficient and affordable option.",
+              "answerZh": "是的，當然會。在香港，每天都有大量人乘搭港鐵、巴士或小巴去上班或上學，因為對很多人來說，那根本就是最高效率、也最負擔得起的選擇。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think public transport is important for a city?",
+              "questionZh": "你覺得公共交通對一座城市重要嗎？",
+              "answerEn": "Yes, it is absolutely essential. Public transport is almost like the bloodstream of a city: it keeps people moving, connects them to work and school, and stops the whole place from grinding to a halt under traffic and pollution.",
+              "answerZh": "是的，它絕對非常重要。公共交通幾乎就像一座城市的血液循環系統：它讓人們持續流動，把大家連接到工作和學校，也防止整個地方因交通擠塞和污染而陷入停頓。"
+            },
+            {
+              "number": 12,
+              "questionEn": "How could public transport in your country be improved?",
+              "questionZh": "你國家的公共交通可以怎樣改善？",
+              "answerEn": "Even though Hong Kong already has a strong system, there is still room for improvement. I think better crowd management, more frequent services at peak hours, and smoother late-night connections would make a noticeable difference, especially for people who commute long distances.",
+              "answerZh": "雖然香港的公共交通系統已經很不錯，但仍然有進步空間。我覺得如果能有更好的繁忙時段人流管理、更頻密的班次，以及更順暢的深夜接駁服務，應該會帶來很明顯的改善，尤其是對那些需要長途通勤的人來說。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-9-seasons",
+          "index": 4,
+          "title": "Seasons",
+          "titleZh": "季節",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What is your favourite season?",
+              "questionZh": "你最喜歡哪一個季節？",
+              "answerEn": "My favourite season is autumn. It has a calm, balanced feel to it, because the weather is usually neither too hot nor too cold. In a place like Hong Kong, that kind of relief feels almost golden.",
+              "answerZh": "我最喜歡的季節是秋天。它給人一種平靜而平衡的感覺，因為天氣通常不會太熱，也不會太冷。在香港這樣的地方，那種舒服的感覺幾乎像黃金一樣珍貴。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Why do you like that season?",
+              "questionZh": "你為甚麼喜歡那個季節？",
+              "answerEn": "I like it because the air feels lighter, the sky often looks clearer, and daily life becomes much more comfortable. It is easier to go out, concentrate, and enjoy simple things without feeling drained by the weather. To be honest, autumn makes life feel more breathable.",
+              "answerZh": "我喜歡它，因為空氣感覺比較清爽，天空通常也更清朗，而日常生活會變得舒服得多。那個時候更容易外出、專心，以及享受一些簡單的事情，而不會被天氣消耗得太厲害。老實說，秋天會讓生活感覺更能讓人喘口氣。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Is there any season you dislike?",
+              "questionZh": "你有沒有不喜歡的季節？",
+              "answerEn": "Yes, I would say summer is my least favourite season. In Hong Kong, it can be intensely hot, humid, and exhausting, so even short trips outdoors can feel like walking into a wall of heat. After a while, that kind of weather really wears you down.",
+              "answerZh": "有，我會說夏天是我最不喜歡的季節。在香港，夏天可以非常炎熱、潮濕，而且讓人很疲累，所以即使只是短暫外出，也會像一下子撞進一堵熱牆裡。時間一久，那種天氣真的很容易把人磨得沒精神。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Did you like the same season when you were a child?",
+              "questionZh": "你小時候也喜歡同一個季節嗎？",
+              "answerEn": "Not really. When I was a child, I probably liked summer more because it meant holidays, freedom, and more time to play. Now, however, I value comfort and peace of mind more, so my preference has shifted quite naturally.",
+              "answerZh": "不算是。我小時候大概比較喜歡夏天，因為那代表假期、自由，以及更多玩樂時間。不過現在，我更重視舒適感和心情上的輕鬆，所以我的偏好也很自然地改變了。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Tell me about the different seasons in your country.",
+              "questionZh": "請你講一下你國家的不同季節。",
+              "answerEn": "In Hong Kong, we do have four seasons, although they are not always equally strong. Spring is often humid and a bit unpredictable, summer is long, hot, and rainy, autumn is milder and more pleasant, and winter is cooler and drier but not usually severe. So the seasons are real, though some arrive more softly than others.",
+              "answerZh": "在香港，我們的確有四季，不過它們未必每一個都同樣明顯。春天通常很潮濕，而且天氣有點反覆；夏天很長、很熱，也很多雨；秋天比較溫和、舒服；冬天則較涼和乾燥，但一般不算非常嚴寒。所以四季是存在的，只是有些來得比較溫柔，有些比較明顯。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Are the seasons very different where you live?",
+              "questionZh": "你住的地方四季分別很大嗎？",
+              "answerEn": "Yes, to some extent, but not in an extreme way. In Hong Kong, the contrast between summer and winter is fairly noticeable, whereas spring and autumn are usually shorter and more subtle. So the difference is clear enough to feel, even if it is not dramatic.",
+              "answerZh": "是的，在某程度上分別是明顯的，不過不算非常極端。在香港，夏天和冬天之間的對比相當清楚，而春天和秋天通常比較短，也比較細膩一些。所以那種差別是足以讓人感受到的，只是不算戲劇化而已。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How do the clothes people wear in your country change with the seasons?",
+              "questionZh": "在你的國家，人們穿的衣服會怎樣隨季節改變？",
+              "answerEn": "They change in quite practical ways. In summer, people usually wear lighter and more breathable clothes, whereas in winter they tend to put on layers, jackets, or slightly thicker fabrics. In Hong Kong, the shift is more about comfort than heavy seasonal fashion.",
+              "answerZh": "它們的改變主要是很實際的。夏天時，人們通常會穿得比較輕薄、透氣；相反，冬天時則比較傾向多穿幾層、外套，或者一些稍厚的布料。在香港，這種轉變更多是為了舒適，而不一定是很厚重的季節時尚。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do any types of jobs people do in your country change with the seasons?",
+              "questionZh": "在你的國家，有些工作會隨季節而改變嗎？",
+              "answerEn": "Yes, some do, especially outdoor jobs. For example, construction work, delivery work, tourism-related jobs, and certain event-based roles can all be affected by heat, rain, or seasonal demand. When the weather shifts, the rhythm of work often shifts with it.",
+              "answerZh": "有些會，尤其是戶外工作。舉例來說，建築工作、送貨工作、和旅遊相關的工作，以及某些活動性質較強的職位，都可能受到炎熱、下雨，或者季節性需求的影響。當天氣轉變時，工作的節奏往往也會跟着改變。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What do people usually do in different seasons in your country?",
+              "questionZh": "在你的國家，人們通常在不同季節會做些甚麼？",
+              "answerEn": "People’s activities often follow the weather quite closely. In summer, many people prefer indoor activities, shopping centres, or places with strong air-conditioning, whereas in cooler seasons they are more likely to go hiking, walk outdoors, or spend time at open-air events. In other words, the weather quietly shapes the social life of the city.",
+              "answerZh": "人們的活動通常都會很明顯地跟着天氣走。夏天時，很多人比較喜歡室內活動、去商場，或者去一些冷氣很足的地方；相反，在較涼的季節裡，人們就更可能去行山、在戶外散步，或者參加露天活動。換句話說，天氣其實會靜靜地塑造整個城市的社交生活。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Is tourism popular in a particular season in your country?",
+              "questionZh": "在你的國家，旅遊在某個季節特別受歡迎嗎？",
+              "answerEn": "Yes, tourism is usually more pleasant in the cooler months, especially in autumn and winter. That is when the weather is more comfortable for walking around, sightseeing, and spending time outdoors. Hong Kong is easier to enjoy when the heat is not stealing the show.",
+              "answerZh": "是的，旅遊通常在較涼的月份會更受歡迎，尤其是秋天和冬天。因為那時的天氣更適合四處走走、觀光，以及待在戶外。當炎熱不再搶走整個體驗的焦點時，香港其實是更容易被享受的。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What season or weather do you think is most suitable for work or study?",
+              "questionZh": "你認為哪一種季節或天氣最適合工作或讀書？",
+              "answerEn": "I think cool, dry weather is the most suitable for work or study. When the temperature is comfortable, it is much easier to stay focused and mentally sharp, whereas extreme heat or heavy rain can make people feel sluggish. A clear mind often begins with a comfortable environment.",
+              "answerZh": "我覺得涼爽而乾燥的天氣最適合工作或讀書。當氣溫舒服時，人會更容易保持專注，思路也會比較清晰；相反，太熱或下很大的雨都很容易令人變得遲鈍。很多時候，清醒的頭腦其實是從舒適的環境開始的。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do people’s lifestyles change with the seasons in your country?",
+              "questionZh": "在你的國家，人們的生活方式會隨季節改變嗎？",
+              "answerEn": "Yes, I think they do, although perhaps not in a dramatic, all-or-nothing way. In Hong Kong, people adjust their routines, clothing, food choices, and social activities depending on the weather, especially when summer becomes oppressive or when cooler weather finally arrives. The seasons may not rewrite life completely, but they definitely edit its rhythm.",
+              "answerZh": "是的，我覺得會，不過可能不是那種非常戲劇化、完全翻天覆地的改變。在香港，人們會按照天氣去調整作息、穿著、飲食選擇，以及社交活動，尤其當夏天熱得令人難受，或者終於迎來較涼天氣的時候。季節未必會把生活完全重寫，但它們的確會改動生活的節奏。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-9-sports",
+          "index": 5,
+          "title": "Sports",
+          "titleZh": "運動",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you play any sports?",
+              "questionZh": "你有做任何運動嗎？",
+              "answerEn": "Yes, I do, although not in a very serious way. I mainly play sports to stay healthy and to clear my head after a long day. For me, it is more about feeling good than competing.",
+              "answerZh": "有，不過不是很認真或者很專業那種。我主要做運動是為了保持健康，也讓自己在忙完一天之後放鬆一下。對我來說，運動更重要的是讓自己狀態好，而不是比賽。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What sports do you enjoy playing?",
+              "questionZh": "你喜歡玩甚麼運動？",
+              "answerEn": "I quite enjoy badminton and swimming. Badminton is fun because it is fast-paced and keeps you on your toes, while swimming is much more calming. So one gives me energy, and the other helps me unwind.",
+              "answerZh": "我很喜歡羽毛球和游泳。羽毛球很好玩，因為節奏快，會令人一直保持警覺；而游泳就平靜得多。所以一種運動會帶給我活力，另一種則幫我放鬆。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How often do you play sports?",
+              "questionZh": "你多常做運動？",
+              "answerEn": "Usually a couple of times a week, depending on how busy I am. I try to keep it fairly regular, because once you stop, it is very easy to get lazy.",
+              "answerZh": "通常一星期幾次，視乎我有多忙。我會盡量保持規律，因為一旦停下來，人就很容易變懶。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you prefer team sports or individual sports?",
+              "questionZh": "你比較喜歡團隊運動還是個人運動？",
+              "answerEn": "I probably prefer individual sports. I like being able to go at my own pace without having to rely too much on other people. That said, team sports can be great because they bring more energy and interaction.",
+              "answerZh": "我大概比較喜歡個人運動。我喜歡可以按照自己的節奏去做，而不用太依賴別人。不過，團隊運動也很好，因為它會帶來更多活力和互動。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you watch sports on TV?",
+              "questionZh": "你會在電視上看運動嗎？",
+              "answerEn": "Yes, sometimes, especially when there is a big match or a major event. I wouldn’t say I am a huge sports fan, but I do enjoy the atmosphere of important games. Even if you do not follow sport closely, big moments can still pull you in.",
+              "answerZh": "會，有時會，尤其是有大型比賽或者重要賽事的時候。我不會說自己是很狂熱的球迷，但我確實很享受重要比賽那種氣氛。即使你平時不是很常追看體育，遇到大場面時也還是會被吸引。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Is there a lot of sports on television in your country?",
+              "questionZh": "你地方的電視上有很多體育節目嗎？",
+              "answerEn": "Yes, I would say so. In Hong Kong, you can usually find football, basketball, tennis, and sometimes big international events quite easily. So if someone is into sport, there is normally something to watch.",
+              "answerZh": "有，我會說算多。在香港，通常都不難找到足球、籃球、網球，有時也會有大型國際賽事。所以如果一個人喜歡體育，通常都總會有些東西可以看。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What is the most popular sport in your country?",
+              "questionZh": "你地方最受歡迎的運動是甚麼？",
+              "answerEn": "I’d probably say football. A lot of people follow it, even if they do not play it themselves, and big matches always seem to attract attention. It has that kind of broad appeal that cuts across age groups.",
+              "answerZh": "我大概會說是足球。很多人都會關注它，即使他們自己未必有踢，而一些大型比賽也總是很容易吸引關注。它有一種很廣泛的吸引力，不同年齡層的人都會留意。"
+            },
+            {
+              "number": 8,
+              "questionEn": "How do people in your country stay fit?",
+              "questionZh": "你地方的人通常怎樣保持健康？",
+              "answerEn": "In Hong Kong, I think people usually stay fit in quite practical ways, like going to the gym, running, hiking, or simply walking more. A lot of people have busy lives, so they tend to choose things that fit easily into their routine.",
+              "answerZh": "在香港，我覺得人們通常會用一些很實際的方法去保持健康，例如去健身室、跑步、行山，或者乾脆多走路。很多人的生活都很忙，所以他們往往會選那些比較容易融入日常生活的方式。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What sports do children normally do at school?",
+              "questionZh": "小朋友在學校通常會做甚麼運動？",
+              "answerEn": "At school, children usually do things like running, basketball, football, badminton, and sometimes swimming. It depends on the school, of course, but those are probably the most common ones.",
+              "answerZh": "在學校裡，小朋友通常會做一些例如跑步、籃球、足球、羽毛球，有時也會游泳。當然，這會視乎學校而定，不過這些大概算是最常見的幾種。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Is it important for children to play sports?",
+              "questionZh": "小朋友參與運動重要嗎？",
+              "answerEn": "Yes, definitely. Sport helps children stay healthy, but it also teaches them how to work with other people, follow rules, and deal with winning and losing. I think those lessons stay with you long after the game is over.",
+              "answerZh": "是的，當然重要。運動能幫助小朋友保持健康，同時也會教他們怎樣和別人合作、遵守規則，以及面對輸贏。我覺得這些學到的東西，在比賽結束之後很久都仍然會留在一個人身上。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Did you play more sports when you were younger?",
+              "questionZh": "你年紀較小的時候有沒有做更多運動？",
+              "answerEn": "Yes, definitely. When I was younger, I had more free time and more energy, so being active came more naturally. As you get older, life gets busier, and exercise sometimes gets pushed to the side.",
+              "answerZh": "有，當然有。年紀小的時候，我有更多空閒時間，也有更多精力，所以保持活躍是更自然的事。隨著年紀增長，生活會變得更忙，而運動有時就會被擠到一邊去。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think people do enough sport these days?",
+              "questionZh": "你覺得現代人有做足夠的運動嗎？",
+              "answerEn": "Honestly, I do not think so. A lot of people spend most of their day sitting, whether at work, at school, or on public transport, so exercise is often the first thing to be cut. People know it matters, but knowing and doing are not always the same thing.",
+              "answerZh": "老實說，我不覺得有。很多人一天裡大部分時間都在坐著，不論是在工作、上學，還是乘搭公共交通，所以運動往往是第一樣被犧牲掉的東西。大家都知道運動重要，但知道和真正做到，始終不是一回事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 10,
+      "displayTitle": "Book 10 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-10-the-internet",
+          "index": 1,
+          "title": "The Internet",
+          "titleZh": "互聯網",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you use the Internet?",
+              "questionZh": "你有使用互聯網嗎？",
+              "answerEn": "Yes, absolutely. The Internet is such an integral part of modern life that it would be difficult to study, communicate, or even handle everyday tasks without it. For better or worse, it is woven into almost everything we do now.",
+              "answerZh": "有，當然有。互聯網已經成為現代生活中不可分割的一部分，如果沒有它，無論是學習、溝通，甚至處理日常事情都會變得很困難。無論好壞，它現在幾乎已經滲透到我們做的每一件事之中。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you use the Internet?",
+              "questionZh": "你多常使用互聯網？",
+              "answerEn": "Very frequently, probably many times throughout the day. I use it so naturally that I sometimes do not even notice it, whether I am checking messages, looking up information, or using maps. In a sense, it has become part of the background of daily life.",
+              "answerZh": "非常頻繁，可能一整天都會用很多次。我用得太自然了，有時甚至不會特別意識到自己正在用，不論是查看訊息、查資料，還是使用地圖。某程度上，它已經成為日常生活的背景之一。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you usually use the Internet for?",
+              "questionZh": "你通常用互聯網來做甚麼？",
+              "answerEn": "I mainly use it for study, communication, and finding information quickly. On top of that, I also use it for entertainment, such as watching videos, listening to music, or reading articles when I want to unwind. So for me, it is both a practical tool and a form of leisure.",
+              "answerZh": "我主要用它來學習、溝通，以及快速查找資料。除此之外，我也會用它來娛樂，例如看影片、聽音樂，或者在想放鬆的時候讀一些文章。所以對我來說，它既是一個實用工具，也是一種消閒方式。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you prefer using the Internet on your phone or on a computer?",
+              "questionZh": "你比較喜歡用手機還是電腦上網？",
+              "answerEn": "It depends on what I need to do. If I just want to check something quickly, I prefer my phone because it is fast and convenient, but for studying, writing, or doing anything that requires concentration, I would definitely choose a computer. A bigger screen simply makes life easier.",
+              "answerZh": "這要看我要做甚麼。如果我只是想快速查點東西，我會比較喜歡用手機，因為它快又方便；但如果是學習、寫作，或者做任何需要專注的事情，我一定會選電腦。大一點的螢幕確實會令事情容易得多。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Are children allowed to use the Internet at school in your country?",
+              "questionZh": "在你的國家，小朋友可以在學校使用互聯網嗎？",
+              "answerEn": "Yes, in Hong Kong they generally are, especially under supervision. The Internet can be a very useful learning tool in the classroom, provided that it is used with clear guidance and sensible limits. Children need access, but they also need digital discipline.",
+              "answerZh": "可以，在香港一般是可以的，尤其是在有監管的情況下。互聯網在課堂裡可以是一個非常有用的學習工具，前提是它要在清晰指導和合理限制下被使用。孩子需要接觸它，但同時也需要數碼紀律。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you think that the Internet is useful for study?",
+              "questionZh": "你覺得互聯網對學習有用嗎？",
+              "answerEn": "Yes, enormously. It puts a world of information at your fingertips, which means students can learn far beyond the limits of a single textbook. That said, access alone is not enough; students also need to know how to judge sources and separate solid information from rubbish.",
+              "answerZh": "有，而且非常有用。它把整個知識世界都帶到你的指尖之上，這代表學生可以學到遠遠超出單一本課本範圍的內容。不過，單有接觸途徑還不夠；學生也需要懂得判斷資訊來源，分辨甚麼是可靠資訊，甚麼只是垃圾內容。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Have you ever used the Internet to buy something?",
+              "questionZh": "你曾經用互聯網買過東西嗎？",
+              "answerEn": "Yes, many times. I have bought things like books, clothes, and small electronic items online because it is convenient and usually gives you more choice. Sometimes it feels as though an entire shopping centre has been compressed into a single screen.",
+              "answerZh": "有，而且很多次。我曾經在網上買過書、衣服，以及一些小型電子產品，因為這樣很方便，而且通常選擇也更多。有時候它給人的感覺，就像把整個商場都壓縮進了一個螢幕裡一樣。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Are there any dangers in buying things online?",
+              "questionZh": "在網上買東西有甚麼風險嗎？",
+              "answerEn": "Yes, definitely. There is always the risk of scams, poor-quality products, or sellers who make something look much better online than it is in real life. You can save time and money with a few clicks, but you can also walk straight into a trap if you are careless.",
+              "answerZh": "有，當然有。始終都會有騙案、貨品質素差，或者賣家把商品拍得比實物好看得多的風險。你只需按幾下就可以省下時間和金錢，但如果不小心，也可能一腳踏進陷阱。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do people in your country rely a lot on the Internet?",
+              "questionZh": "你國家的人是否很依賴互聯網？",
+              "answerEn": "Yes, very much so. In Hong Kong, people rely on it for communication, banking, shopping, transport, work, and entertainment, so it has become part of the basic infrastructure of daily life. In many ways, daily routines now run on invisible digital rails.",
+              "answerZh": "是，非常依賴。在香港，人們會用它來溝通、做銀行服務、購物、交通安排、工作，以及娛樂，所以它已經成為日常生活基本基建的一部分。很多日常生活流程，某程度上都像是行駛在看不見的數碼軌道上。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think you spend too much time on the Internet?",
+              "questionZh": "你覺得自己花太多時間在互聯網上嗎？",
+              "answerEn": "Sometimes, yes. It is very easy to go online for one useful reason and then get sidetracked by something completely unimportant, so time can slip through your fingers before you realise it. I try to keep it under control, but I would be lying if I said I always succeed.",
+              "answerZh": "有時候會。很多時候你原本只是因為一個有用的原因上網，結果卻被一些完全不重要的東西分散了注意力，於是時間就在你還沒察覺前從指縫間溜走了。我會盡量控制，但如果我說自己每次都做得到，那就不太誠實了。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What are the advantages of the Internet?",
+              "questionZh": "互聯網有甚麼好處？",
+              "answerEn": "Its biggest advantage is probably access. It gives people instant access to information, services, education, and communication, which can save an enormous amount of time and open doors that used to be closed. At its best, the Internet can level the playing field and bring the wider world within reach.",
+              "answerZh": "它最大的優點，大概就是接觸的可能性。它讓人能即時接觸到資訊、服務、教育，以及溝通渠道，這可以節省大量時間，也能打開一些以前關上的門。在最理想的情況下，互聯網可以拉平機會差距，並把更廣闊的世界帶到人們觸手可及的地方。"
+            },
+            {
+              "number": 12,
+              "questionEn": "How do you think the Internet will change in the future?",
+              "questionZh": "你覺得互聯網未來會怎樣改變？",
+              "answerEn": "I think it will become even faster, more personalised, and more deeply embedded in everyday life. We will probably see smarter systems, more automation, and a tighter link between the Internet and things like healthcare, education, and public services. However, as it grows more powerful, questions about privacy, trust, and control will become even more important.",
+              "answerZh": "我認為它將會變得更快、更個人化，而且更深地融入日常生活。我們大概會看到更智能的系統、更多自動化功能，以及互聯網和醫療、教育、公共服務之間更緊密的連結。不過，隨著它變得更強大，關於私隱、信任和控制的問題也會變得更加重要。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-10-the-sea",
+          "index": 2,
+          "title": "The Sea",
+          "titleZh": "大海",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like going to the sea?",
+              "questionZh": "你喜歡去海邊嗎？",
+              "answerEn": "Yes, I do. There is something deeply calming about being near the sea, because the sound of the waves and the open view make it easier to slow down and breathe. After a hectic week, even a short visit to the seaside can feel like a reset.",
+              "answerZh": "是的，我喜歡。待在海邊總有一種很能令人平靜下來的感覺，因為海浪的聲音和遼闊的景色，會令人更容易放慢節奏、好好呼吸。經過忙碌的一星期後，就算只是短短去一趟海邊，也會像讓自己重新調整過一樣。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you go to the sea?",
+              "questionZh": "你多久去一次海邊？",
+              "answerEn": "Not as often as I would ideally like, probably once every month or two. Even though Hong Kong is surrounded by water in many ways, daily life can still get in the way, so going to the sea often takes a bit of planning.",
+              "answerZh": "沒有我理想中那麼頻密，大概每一兩個月一次吧。雖然香港某程度上算是四面環海，但日常生活還是常常會成為阻礙，所以去海邊很多時都需要稍微計劃一下。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you go to the sea when you were a child?",
+              "questionZh": "你小時候有去海邊嗎？",
+              "answerEn": "Yes, quite a lot. When I was a child, going to the beach felt like a small adventure, and I mainly remember building sandcastles, paddling in the water, and eating snacks under the sun.",
+              "answerZh": "有，而且都去過不少次。我小時候去海灘總有一種小冒險的感覺，而我最記得的就是堆沙堡、在水邊玩水，以及在陽光下吃小食。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you like to go on holiday by the sea?",
+              "questionZh": "你喜歡去海邊度假嗎？",
+              "answerEn": "Yes, very much so. A seaside holiday usually feels more relaxed than a city break, because the pace is slower, the air feels fresher, and the whole atmosphere is lighter.",
+              "answerZh": "是的，我很喜歡。海邊假期通常比城市假期更放鬆，因為節奏比較慢，空氣感覺更清新，整體氣氛也更輕鬆。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What do you usually do when you go to the sea?",
+              "questionZh": "你去海邊時通常會做甚麼？",
+              "answerEn": "I usually walk along the shore, sit and chat, take photographs, or simply watch the water for a while. I do not always need to do anything dramatic, because sometimes the whole point is just to unwind and let my mind settle.",
+              "answerZh": "我通常會沿著海邊散步、坐下來聊天、拍照，或者只是看著海水發呆一會兒。我不一定每次都要做些很刺激的事，因為有時候重點其實只是放鬆一下，讓自己的思緒慢慢沉澱下來。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What kind of activities can people do by the sea?",
+              "questionZh": "人們在海邊可以做甚麼活動？",
+              "answerEn": "People can do all sorts of things by the sea, such as swimming, surfing, kayaking, sunbathing, or playing beach games. At the same time, quieter activities like walking, reading, or having a picnic are just as enjoyable, so the sea has something for almost everyone.",
+              "answerZh": "人們在海邊可以做各式各樣的活動，例如游泳、衝浪、划獨木舟、曬太陽，或者玩沙灘遊戲。同時，像散步、看書，或者野餐這些比較安靜的活動也同樣令人享受，所以海邊幾乎對每一類人都有吸引力。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you prefer spending time by the sea or in the mountains?",
+              "questionZh": "你較喜歡在海邊還是在山上度過時間？",
+              "answerEn": "On balance, I prefer the sea. The mountains are beautiful too, of course, but the sea feels more open and soothing to me, almost as if it gives your mind more room to breathe.",
+              "answerZh": "整體來說，我比較喜歡海邊。當然，山也很美，不過海對我來說感覺更開闊，也更有安撫作用，幾乎像是它能給人的思緒多一點呼吸空間一樣。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Are there many hotels by the sea in your country?",
+              "questionZh": "你的國家有很多海邊酒店嗎？",
+              "answerEn": "Yes, there are quite a few, especially in coastal areas and on islands that attract visitors. In Hong Kong, seaside hotels are particularly appealing for short breaks, because people can enjoy a holiday atmosphere without travelling very far.",
+              "answerZh": "有，數量算不少，尤其是在沿海地區和一些吸引遊客的島嶼上。在香港，海邊酒店對短途休息特別有吸引力，因為人們不用去得很遠，也可以享受到度假的氣氛。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do many people in your country like going to the sea?",
+              "questionZh": "你國家很多人喜歡去海邊嗎？",
+              "answerEn": "Yes, many people do, especially in the hotter months. Given how busy and crowded life in Hong Kong can be, the sea offers an easy escape and a welcome change of rhythm.",
+              "answerZh": "是的，很多人都喜歡，尤其是在較熱的月份。考慮到香港的生活節奏可以很忙、很擠迫，海邊正好提供了一個容易到達的喘息空間，也帶來一種節奏上的轉換。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Is the sea a popular holiday destination in your country?",
+              "questionZh": "海邊在你的國家是受歡迎的度假地點嗎？",
+              "answerEn": "Yes, very much so. In Hong Kong, beaches and seaside areas are popular for weekend trips, family outings, and staycations, especially when people want a quick escape from the pace of city life.",
+              "answerZh": "是的，非常受歡迎。在香港，海灘和海邊地區很常被用作周末短遊、家庭外出，以及本地度假，尤其是當人們想暫時逃離城市生活的急速節奏時。"
+            },
+            {
+              "number": 11,
+              "questionEn": "How long do people normally stay by the sea when they go on holiday?",
+              "questionZh": "人們去海邊度假時通常會待多久？",
+              "answerEn": "For a local trip, I would say many people stay for a weekend or a few days. For a longer overseas holiday, they may stay by the sea for a week or more, depending on the purpose of the trip and how much time they have.",
+              "answerZh": "如果是本地短途旅行，我會說很多人通常會待一個周末，或者幾天。如果是較長的海外假期，他們可能會在海邊待一星期或更久，這要視乎旅行目的，以及他們有多少時間而定。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Would you like to live near the sea?",
+              "questionZh": "你會想住在海邊附近嗎？",
+              "answerEn": "Yes, I think I would. Living near the sea would probably make life feel calmer and less boxed in, although I would still want to be reasonably close to the city so that daily life remained practical.",
+              "answerZh": "會，我想我會。住在海邊附近大概會令生活感覺更平靜，也沒那麼侷促，不過我仍然會希望自己和市區保持相對合理的距離，這樣日常生活才仍然實際方便。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-10-timing",
+          "index": 3,
+          "title": "Timing",
+          "titleZh": "守時",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Are you usually on time?",
+              "questionZh": "你通常準時嗎？",
+              "answerEn": "Yes, I usually am. I do not like keeping people waiting, and I think arriving on time is one of the simplest ways to show respect. Unless something genuinely unexpected happens, I try to be punctual.",
+              "answerZh": "是的，我通常都很準時。我不喜歡讓別人等，而我也覺得準時到達是表達尊重最簡單的方法之一。除非真的發生一些意料之外的事情，否則我都會盡量守時。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you think it is important to be punctual?",
+              "questionZh": "你覺得守時重要嗎？",
+              "answerEn": "Yes, very much so. Punctuality keeps things running smoothly and shows that you take other people’s time seriously, which matters in both work and daily life. In a way, being on time is not just about clocks; it is about consideration.",
+              "answerZh": "是的，我覺得非常重要。守時能令事情運作得更順暢，也表示你認真看待別人的時間，而這在工作和日常生活中都很重要。某程度上，準時不只是關於時鐘，而是關於體諒。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you prefer to arrive early or exactly on time?",
+              "questionZh": "你比較喜歡早到還是剛剛好準時到？",
+              "answerEn": "I would rather arrive a little early than exactly on time. Being slightly early gives me breathing room and helps me avoid the stress of rushing in at the last second. Of course, I would not arrive far too early and inconvenience the other person, but a small buffer usually helps.",
+              "answerZh": "我比較喜歡早一點到，而不是剛剛好踩點到。稍微早一點到可以讓我有一點餘裕，也能避免最後一秒衝進去的壓力。當然，我也不會早到太多而令對方不方便，不過留一點緩衝時間通常是有幫助的。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What kinds of occasions are people expected to be on time for in your country?",
+              "questionZh": "在你的國家，哪些場合人們通常會被期望準時？",
+              "answerEn": "In Hong Kong, people are generally expected to be on time for work, school, interviews, medical appointments, and formal meetings. For those occasions, lateness is usually seen as unprofessional or inconsiderate. Social events are a little more flexible, but even then, it depends on the situation.",
+              "answerZh": "在香港，人們通常會被期望在上班、上學、面試、看醫生，以及正式會議這些場合準時到達。對這些場合來說，遲到通常會被視為不夠專業，或者不夠體諒別人。至於社交活動，彈性會大一點，不過即使如此，也還是要看具體情況。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Is being late acceptable in your culture?",
+              "questionZh": "在你的文化裡，遲到可以接受嗎？",
+              "answerEn": "Only to a limited extent, I would say. In Hong Kong, being a few minutes late for an informal gathering is usually tolerated, but for anything important or structured, it is not looked on very kindly. Time is often treated as something quite practical and valuable here.",
+              "answerZh": "我會說只是在有限的程度內可以接受。在香港，如果是比較隨意的聚會，遲幾分鐘通常還可以被接受；但如果是任何重要或有明確安排的事情，遲到 generally 不太被看好。這裡的人通常都把時間看成一種相當實際而且寶貴的資源。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Are you ever late for appointments?",
+              "questionZh": "你有沒有試過約會或約定遲到？",
+              "answerEn": "Yes, occasionally, because no one is perfectly punctual all the time. Most of the time, if I am late, it is because of traffic, transport delays, or poor time management on a particularly busy day. Still, I try not to make a habit of it.",
+              "answerZh": "有，偶爾會，因為沒有人能夠每一次都完全準時。大多數時候，如果我遲到，通常是因為交通、公共交通延誤，或者在特別忙的一天裡時間安排得不夠好。不過，我還是會盡量不讓這件事變成習慣。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What type of excuses do you think are alright for lateness?",
+              "questionZh": "你覺得甚麼類型的遲到理由是可以接受的？",
+              "answerEn": "I think genuine and unavoidable reasons are fair enough, such as a transport breakdown, an emergency, or a sudden health issue. What matters is whether the reason is real and whether the person communicates honestly instead of making something up on the spot. A good excuse should explain the delay, not simply decorate it.",
+              "answerZh": "我覺得真實而且無法避免的理由是可以接受的，例如交通工具故障、緊急事故，或者突然身體不適。關鍵在於那個理由是不是真的存在，以及那個人有沒有誠實地提前告知，而不是臨時編一個藉口。好的理由應該是解釋遲到，而不是替遲到作表面包裝。"
+            },
+            {
+              "number": 8,
+              "questionEn": "How do you feel when someone is late for an appointment with you?",
+              "questionZh": "當別人和你約了卻遲到時，你會有甚麼感覺？",
+              "answerEn": "It depends on how late they are and how they handle it. If it is only a few minutes and they let me know, I do not mind much, but if they are very late without any message, I find it quite irritating because it feels as though my time does not count.",
+              "answerZh": "這要看他遲了多久，以及他怎樣處理這件事。如果只是遲幾分鐘，而且有先通知我，我其實不太介意；但如果他遲了很多，又完全沒有發訊息，我就會覺得挺煩，因為那感覺就像我的時間根本不算數一樣。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What do you usually do if you know you are going to be late?",
+              "questionZh": "如果你知道自己快要遲到了，你通常會怎樣做？",
+              "answerEn": "I usually send a message as soon as I realise it and give a realistic estimate of when I will arrive. I would rather be upfront than leave the other person guessing, because uncertainty often annoys people more than the delay itself. If possible, I also apologise briefly and explain the reason.",
+              "answerZh": "如果我一知道自己快要遲到，我通常就會立刻發訊息，並且給對方一個比較實際的到達時間。我寧願坦白一點，也不想讓對方一直猜，因為很多時候，不確定感比遲到本身更令人不滿。如果可以的話，我也會簡單道歉，並解釋一下原因。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think some people are naturally less punctual than others?",
+              "questionZh": "你覺得有些人天生就比較不守時嗎？",
+              "answerEn": "Yes, I think so, at least to some extent. Some people seem to have a looser sense of time, while others are naturally more structured and alert to schedules. That said, even if punctuality is partly linked to personality, it is still something people can improve with effort.",
+              "answerZh": "是的，我覺得某程度上是這樣。有些人似乎天生對時間的感覺比較鬆，而另一些人則天生更有條理，也更在意時間表。不過，即使守時這件事部分和性格有關，它始終還是一種可以透過努力改善的能力。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do young people and older people think differently about being on time?",
+              "questionZh": "年輕人和年長者對守時這件事的看法會不同嗎？",
+              "answerEn": "Yes, I think there can be a difference. In Hong Kong, older people often tend to see punctuality as a sign of discipline and respect, whereas some younger people may be slightly more relaxed about timing, especially in social settings. Even so, that is only a general pattern, not a hard rule.",
+              "answerZh": "是的，我覺得的確可能有分別。在香港，年長一輩通常更傾向把守時看成紀律和尊重的表現；相對地，有些年輕人對時間可能會稍微放鬆一點，尤其是在社交場合。不過，即使如此，這也只是一種大致上的傾向，而不是絕對規律。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Why are some people always late?",
+              "questionZh": "為甚麼有些人總是遲到？",
+              "answerEn": "There are different reasons. Some people underestimate how long things take, some overpack their schedule, and others are simply poor at planning ahead, so they are always racing the clock and usually losing. In some cases, it is not laziness at all; it is just a chronic mismatch between intention and organisation.",
+              "answerZh": "原因其實有很多。有些人會低估每件事需要花多少時間，有些人把自己的行程排得太滿，還有些人純粹是不太懂得提早規劃，所以他們總是在和時間賽跑，而且通常都跑輸。某些情況下，那甚至不一定是懶惰，而是他們的意願和組織能力之間長期存在落差。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-10-travel",
+          "index": 4,
+          "title": "Travel",
+          "titleZh": "旅遊",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like travelling?",
+              "questionZh": "你喜歡旅行嗎？",
+              "answerEn": "Yes, I do, very much. Travelling gives me a break from routine and brings me into contact with different places, people, and ways of life, which I find both refreshing and eye-opening. Even a short trip can make life feel a little bigger.",
+              "answerZh": "是的，我很喜歡。旅行能讓我暫時離開日常規律，也能讓我接觸到不同的地方、不同的人，以及不同的生活方式，而我覺得這既令人放鬆，也很開闊眼界。即使只是一次短途旅行，也能讓生活感覺上變得更遼闊一點。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you travel?",
+              "questionZh": "你多常旅行？",
+              "answerEn": "Not very often, to be honest, probably just a few times a year. It usually depends on my schedule and budget, but I do try to go somewhere whenever I get the chance, even if it is only a short break.",
+              "answerZh": "老實說，不算很常，大概一年幾次而已。通常還是要看我的時間表和預算，不過只要有機會，我都會盡量去某個地方走走，即使只是一次短短的休息也好。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Where was the last place you visited on holiday?",
+              "questionZh": "你上一次放假去的地方是哪裡？",
+              "answerEn": "The last place I visited on holiday was Japan. What I liked about it was the balance between order and beauty: everything felt clean, efficient, and well thought out, but at the same time there was a quiet charm in the streets, shops, and everyday details.",
+              "answerZh": "我上一次去旅行的地方是日本。我最喜歡它的一點，是它在秩序和美感之間取得了很好的平衡：一切都讓人覺得乾淨、有效率，而且安排得很周到，但同時街道、店舖，以及很多日常細節又帶著一種安靜的魅力。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Who do you usually travel with?",
+              "questionZh": "你通常和誰一起旅行？",
+              "answerEn": "I usually travel with family or close friends. Travelling with the right people makes a big difference, because the journey tends to feel smoother, funnier, and more memorable when everyone is on the same wavelength.",
+              "answerZh": "我通常會和家人或者很親近的朋友一起旅行。和對的人一起旅行真的差很遠，因為當大家節奏一致的時候，整段旅程通常會更順利、更有趣，也更令人難忘。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer short trips or long holidays?",
+              "questionZh": "你比較喜歡短途旅行還是長假期？",
+              "answerEn": "I like both for different reasons, but if I had to choose, I would probably go for a longer holiday. A short trip is nice for a quick reset, but a longer one gives you time to settle in, explore properly, and let the place sink in rather than just rush past you.",
+              "answerZh": "兩種我都喜歡，只是原因不同；不過如果一定要選，我大概會選較長的假期。短途旅行很適合快速充電，但較長的旅程能讓你慢慢安頓下來、真正深入地探索，也能讓那個地方慢慢滲進你的感受裡，而不是只是在你眼前匆匆掠過。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What kind of tourist destinations do you usually prefer?",
+              "questionZh": "你通常喜歡哪一類旅遊目的地？",
+              "answerEn": "I tend to prefer places with a mix of culture, good food, and walkable streets. I like destinations where I can wander a bit, try local dishes, and get a feel for everyday life, rather than places that are all spectacle and no substance.",
+              "answerZh": "我通常比較喜歡那些同時有文化、美食，以及適合步行探索的地方。我喜歡那種可以隨意走走、試本地食物，並且感受到當地日常生活氣息的目的地，而不是那種只有表面熱鬧、卻缺乏內涵的地方。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you prefer travelling in your own country or abroad?",
+              "questionZh": "你比較喜歡在自己國家旅行，還是去外地旅行？",
+              "answerEn": "I would say abroad, although I do think travelling within Hong Kong has its own appeal. Going overseas feels more immersive because the language, customs, and atmosphere can all shift at once, so it pushes me a little further out of my comfort zone.",
+              "answerZh": "我會說我比較喜歡去外地旅行，雖然我也覺得在香港本地旅行有它自己的吸引力。去海外的感覺會更有投入感，因為語言、習俗，以及整體氣氛都可能一下子改變，所以它能把我再多推離舒適圈一點。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Would you like to go back there again?",
+              "questionZh": "你會想再去那裡一次嗎？",
+              "answerEn": "Yes, definitely. I feel that one trip is rarely enough to understand a place properly, and I would love to go back with more time, a looser schedule, and a better sense of what I want to explore next.",
+              "answerZh": "會，當然會。我覺得一次旅行其實很少真的足夠讓人好好理解一個地方，而我很想在有更多時間、行程更鬆動，並且更清楚自己下一次想探索甚麼的情況下再去一次。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What do you usually do when you are on holiday?",
+              "questionZh": "你放假旅行時通常會做甚麼？",
+              "answerEn": "I usually walk around a lot, visit local cafés or restaurants, take photographs, and see a few major sights without trying to do everything. I like holidays that have some structure but still leave room for small surprises, because those unplanned moments are often the ones that stay with you.",
+              "answerZh": "我旅行放假的時候，通常會走很多路、去本地的咖啡店或餐廳、拍照，然後看幾個主要景點，但不會逼自己把所有事情都做完。我喜歡那種有一點規劃，但同時仍然留有空間給小驚喜的假期，因為那些沒有預計到的片刻，往往才是最留得住的。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Has a foreign visitor ever stayed at your home?",
+              "questionZh": "有沒有外國訪客曾經住過你家？",
+              "answerEn": "Yes, once, a family friend from overseas stayed with us for a short time. It was actually a nice experience because it turned home into a small point of cultural exchange, and even ordinary things like meals or directions became part of the conversation.",
+              "answerZh": "有，曾經有一位來自海外的家庭朋友在我們家短住過。那其實是一個挺好的經驗，因為它讓家裡變成了一個小小的文化交流點，連吃飯或者指路這些平常事，也變成了交流的一部分。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What’s the best way to save money while travelling?",
+              "questionZh": "旅行時最好的省錢方法是甚麼？",
+              "answerEn": "I think the best way is to plan the big expenses early, especially transport and accommodation. On top of that, eating where locals eat, using public transport, and not trying to cram too much into one trip can save quite a lot without ruining the experience.",
+              "answerZh": "我覺得最好的方法，是先提早安排那些最大的開支，尤其是交通和住宿。除此之外，去本地人會去的地方吃飯、使用公共交通，以及不要把太多行程硬塞進一次旅程裡，也能省下不少錢，而且不會破壞整體體驗。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think you will travel more in the future?",
+              "questionZh": "你覺得你將來會去更多旅行嗎？",
+              "answerEn": "Yes, I think so. As I get older, I have become more aware that travelling is not just about seeing new places; it is also a way to widen your perspective and collect experiences that stay with you long after the trip is over. If time and money allow, I would definitely like to travel more.",
+              "answerZh": "是的，我想會。隨著年紀漸長，我越來越覺得旅行不只是看新的地方；它同時也是一種擴闊視野，以及累積那些在旅程結束之後仍然會留在你心裡的經歷的方法。如果時間和金錢都允許，我一定會想去更多旅行。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-10-trees",
+          "index": 5,
+          "title": "Trees",
+          "titleZh": "樹木",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like trees?",
+              "questionZh": "你喜歡樹嗎？",
+              "answerEn": "Yes, I do. I like trees because they make a place feel calmer, fresher, and more alive, even if they are just part of the background. In a city, they can soften the hard edges of everyday life.",
+              "answerZh": "是的，我喜歡。我喜歡樹，因為它們會令一個地方感覺更平靜、更清新，也更有生命力，即使它們只是背景的一部分也一樣。在城市裡，樹木能柔化日常生活那些冰冷而堅硬的邊角。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kinds of trees do you like?",
+              "questionZh": "你喜歡哪一種樹？",
+              "answerEn": "I especially like large trees with wide branches, such as banyan trees, because they look strong, grounded, and full of character. I also like trees that give a lot of shade, since they make outdoor spaces much more pleasant. To me, a good tree is not just beautiful; it is quietly generous.",
+              "answerZh": "我尤其喜歡那些枝幹寬大、樹冠開展的樹，例如榕樹，因為它們看起來很有力量、很穩重，而且很有個性。我也喜歡那些能提供很多樹蔭的樹，因為它們會令戶外空間舒服得多。對我來說，一棵好的樹不只是漂亮，它也在安靜地給予。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Are there many trees in your hometown?",
+              "questionZh": "你的家鄉有很多樹嗎？",
+              "answerEn": "Yes, there are quite a lot in Hong Kong, although it depends on the area. In more urban districts, trees are often found along roads or in parks, whereas greener areas naturally have far more of them. So the city is not short of trees, but their presence is uneven.",
+              "answerZh": "有的，香港其實有不少樹，不過這很視乎地區而定。在較市區化的地方，樹通常會出現在路邊或公園裡；相反，在較多自然環境的地區，樹木自然就會多得多。所以香港並不是沒有樹，只是分布並不平均。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Where do you usually see trees where you live?",
+              "questionZh": "你住的地方通常在哪裡會看到樹？",
+              "answerEn": "I usually see them in parks, near housing estates, along pavements, and on hiking trails. In Hong Kong, trees often appear in pockets rather than in endless stretches, so you notice them in specific spaces. Even so, those pockets can make a real difference to the atmosphere of a neighbourhood.",
+              "answerZh": "我通常會在公園、屋苑附近、行人路旁，以及行山徑上看到樹。在香港，樹木很多時不是一大片一大片地出現，而是像一個個小區塊那樣存在，所以你通常會在某些特定空間注意到它們。即使如此，這些小片綠意也足以大大改變一個社區的感覺。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Have you ever planted a tree?",
+              "questionZh": "你有沒有種過樹？",
+              "answerEn": "Yes, I have, although only once or twice in a simple activity rather than as a serious long-term project. What stayed with me was the feeling that planting a tree is a small act with a long future attached to it. You put something into the ground, but in a way you are also planting time and hope.",
+              "answerZh": "有，不過只是參加過一兩次比較簡單的活動，而不是那種長期而認真的種植計劃。令我印象最深的是，種樹是一個很小的行動，卻連着一個很長遠的未來。你表面上是在把東西種進泥土裡，但某程度上，你其實也是在種下時間和希望。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Did you often climb trees when you were a child?",
+              "questionZh": "你小時候常常爬樹嗎？",
+              "answerEn": "Not really. I grew up in a fairly urban environment, so climbing trees was not a big part of my childhood. I probably spent more time indoors or in structured play areas than scrambling up branches.",
+              "answerZh": "不算是。我是在一個相當城市化的環境中長大的，所以爬樹並不是我童年裡很重要的一部分。比起爬上樹枝，我大概更多時間是在室內，或者在一些規劃好的遊樂空間裡度過。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do people in your country like planting trees?",
+              "questionZh": "你國家的人喜歡種樹嗎？",
+              "answerEn": "Yes, I think many people in Hong Kong do, especially when it is linked to schools, communities, or environmental campaigns. Not everyone plants trees personally, of course, but most people can see the value in it. In that sense, support for trees is often stronger than direct involvement.",
+              "answerZh": "是的，我覺得香港很多人都喜歡，尤其當種樹和學校、社區，或者環保活動有關的時候。當然，不是每個人都會親自去種樹，但大多數人都能看見它的價值。從這個角度來說，人們對樹木的支持，往往會比他們實際參與的程度更高。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Are trees important in your country?",
+              "questionZh": "樹木在你的國家重要嗎？",
+              "answerEn": "Yes, absolutely. In Hong Kong, trees play an important role in improving air quality, reducing heat, and making dense urban areas more livable. They are not just decoration; they are part of the city’s breathing space.",
+              "answerZh": "是的，絕對重要。在香港，樹木在改善空氣質素、降低熱力，以及令高密度城市空間更宜居方面都扮演着重要角色。它們不只是裝飾，它們是這座城市呼吸空間的一部分。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think there are enough trees in most cities?",
+              "questionZh": "你認為大多數城市有足夠的樹嗎？",
+              "answerEn": "In many cases, no, I do not think so. A lot of cities are built for speed, traffic, and concrete rather than shade, comfort, and green balance. As a result, some urban spaces can feel efficient on paper but harsh in real life.",
+              "answerZh": "很多情況下，沒有，我不這樣認為。很多城市的規劃更偏向速度、交通和混凝土，而不是樹蔭、舒適感和綠化平衡。結果就是，有些城市空間在規劃圖上看起來很有效率，但在真實生活裡卻顯得相當生硬和嚴酷。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Would you like to live in a place with more trees?",
+              "questionZh": "你想住在一個有更多樹的地方嗎？",
+              "answerEn": "Yes, definitely. I think living in a greener place would make daily life feel less crowded and less mentally draining. A street lined with trees can feel completely different from one surrounded only by glass and concrete.",
+              "answerZh": "會，當然想。我覺得住在一個更有綠意的地方，會令日常生活感覺沒那麼擠迫，也沒那麼耗神。一條兩旁有樹的街道，和一條只有玻璃與混凝土包圍的街道，感覺可以完全不同。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What are the benefits of planting more trees?",
+              "questionZh": "種更多樹有甚麼好處？",
+              "answerEn": "There are many benefits. Trees can improve air quality, provide shade, cool down urban areas, reduce noise a little, and make places look more welcoming. On top of that, they can also improve people’s mood, which is harder to measure but no less real.",
+              "answerZh": "好處有很多。樹木可以改善空氣質素、提供樹蔭、降低城市溫度、稍微減少噪音，並且令一個地方看起來更宜人。除此之外，它們也可以改善人們的心情，而這種好處雖然比較難量化，卻同樣真實。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think children should learn about the importance of trees?",
+              "questionZh": "你認為小朋友應該學習樹木的重要性嗎？",
+              "answerEn": "Yes, without question. If children understand early on that trees support both the environment and the quality of everyday life, they are more likely to respect and protect them later. In the end, teaching children about trees is really another way of teaching them how to live responsibly in the world.",
+              "answerZh": "是的，毫無疑問。如果小朋友從小就明白樹木同時支持環境和日常生活質素的重要性，他們將來就更有可能去珍惜和保護它們。說到底，教孩子認識樹木，其實也是在教他們如何更負責任地活在這個世界裡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 11,
+      "displayTitle": "Book 11 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-11-tv",
+          "index": 1,
+          "title": "TV",
+          "titleZh": "電視",
+          "questionCount": 11,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like watching TV?",
+              "questionZh": "你喜歡看電視嗎？",
+              "answerEn": "Yes, I do, although I’m a bit more selective than I used to be. I usually watch it when I want to switch off in the evening and give my brain a rest. A good programme can be a very simple way to relax.",
+              "answerZh": "是的，我喜歡，不過我現在比以前更有選擇性。我通常會在晚上想放鬆一下、讓腦袋休息時看電視。一個好的節目其實可以是一種很簡單的放鬆方式。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you watch TV?",
+              "questionZh": "你多常看電視？",
+              "answerEn": "These days, probably a few times a week rather than every day. It really depends on how busy I am, because some weeks I barely watch anything, while other weeks I get hooked on a series and watch several episodes in one go.",
+              "answerZh": "最近的話，大概是一星期看幾次，而不是每天都看。其實很視乎我有多忙，因為有些星期我幾乎完全不看，但有些星期如果追到一套劇，就可能一次看好幾集。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kind of TV programmes do you like to watch?",
+              "questionZh": "你喜歡看哪一類電視節目？",
+              "answerEn": "I usually gravitate towards documentaries, light dramas, talk shows, and the occasional cooking or travel programme. I like shows that either teach me something or help me unwind without demanding too much mental energy.",
+              "answerZh": "我通常比較喜歡紀錄片、輕鬆的劇集、清談節目，以及偶爾看一些煮食或旅遊節目。我喜歡那些不是可以讓我學到一些東西，就是能讓我放鬆，而又不會太消耗腦力的節目。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What is your favourite TV show now?",
+              "questionZh": "你現在最喜歡的電視節目是甚麼？",
+              "answerEn": "At the moment, one of my favourite shows is The Great British Bake Off. It’s warm, funny, and low-stress, which is probably why I keep going back to it. In a world full of noisy content, it feels like comfort viewing.",
+              "answerZh": "目前我其中一個最喜歡的節目是《The Great British Bake Off》。它很溫暖、很有趣，而且不會讓人有壓力，所以我才會一直想看下去。在這個充滿吵雜內容的世界裡，它有一種很療癒、很舒服的感覺。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What was your favourite show when you were a child?",
+              "questionZh": "你小時候最喜歡的節目是甚麼？",
+              "answerEn": "When I was a child, I loved cartoons more than anything else, especially Tom and Jerry. It was simple, fast, and funny, and I never seemed to get tired of it. Looking back, it was exactly the kind of show I could watch on repeat without getting bored.",
+              "answerZh": "我小時候最喜歡的一定是卡通片，尤其是《Tom and Jerry》。它很簡單、節奏很快，而且很好笑，我那時怎樣看都不會膩。回頭看，那正正就是我可以不停重看也不會覺得無聊的那種節目。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What are the most popular TV shows in your country?",
+              "questionZh": "你地方最受歡迎的電視節目是甚麼？",
+              "answerEn": "In Hong Kong, drama series are usually very popular, and reality or variety shows also attract a lot of attention. Imported Asian dramas do well too, especially when a show creates a lot of buzz online.",
+              "answerZh": "在香港，劇集通常都很受歡迎，而真人騷或綜藝節目也很容易吸引很多關注。外地亞洲劇集同樣很受歡迎，尤其是當某套劇在網上引起很多話題的時候。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you like watching TV shows from other countries?",
+              "questionZh": "你喜歡看其他國家的電視節目嗎？",
+              "answerEn": "Yes, definitely. I enjoy them because they expose me to different humour, storytelling styles, and ways of life. Sometimes a foreign show feels fresher simply because it is not built on the same formula.",
+              "answerZh": "是的，當然喜歡。我喜歡看外國節目，因為它們會讓我接觸到不同的幽默感、敘事方式，以及生活文化。有時候，外國節目會讓人覺得更有新鮮感，單純就是因為它不是按照同一套模式製作出來的。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Has the internet affected your viewing habits?",
+              "questionZh": "互聯網有影響你的觀看習慣嗎？",
+              "answerEn": "Yes, massively. I used to watch whatever happened to be on, but now I almost always choose what I want and watch it when it suits me. The internet has made my viewing habits much more flexible and far less tied to a timetable.",
+              "answerZh": "有，而且影響非常大。我以前通常是電視播甚麼就看甚麼，但現在我幾乎都會主動選自己想看的東西，並在自己方便的時間看。互聯網令我的觀看習慣變得更有彈性，也不再那麼受固定時間表限制。"
+            },
+            {
+              "number": 9,
+              "questionEn": "How many hours a day do you spend watching television?",
+              "questionZh": "你每天花多少時間看電視？",
+              "answerEn": "Not that much, probably around an hour a day on average, and some days none at all. I tend to watch in short bursts rather than sit in front of the screen for a whole evening.",
+              "answerZh": "不算很多，平均大概一天一小時左右，而且有些日子甚至完全不看。我通常是分開幾段短時間去看，而不是整個晚上都坐在螢幕前。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think children in your country watch too much television?",
+              "questionZh": "你覺得你地方的小朋友看太多電視嗎？",
+              "answerEn": "Strictly speaking, I think the bigger issue now is screens in general rather than television alone. In Hong Kong, I do think many children spend too much time in front of some kind of screen, whether that is TV, tablets, or phones, and health officials have repeatedly raised concerns about excessive recreational screen time among students.",
+              "answerZh": "嚴格來說，我覺得現在更大的問題其實是整體螢幕時間，而不只是電視本身。在香港，我的確覺得很多小朋友花太多時間在各種螢幕前，不論是電視、平板還是手機，而衛生相關部門也一再對學生過多的娛樂性螢幕時間表示關注。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think television is useful for education in schools?",
+              "questionZh": "你覺得電視對學校教育有用嗎？",
+              "answerEn": "Yes, I think it can be very useful if it is used properly. Documentaries, interviews, and short educational clips can bring a topic to life in a way a textbook sometimes cannot. The key is that TV should support learning, not replace it.",
+              "answerZh": "是的，我覺得如果運用得當，它會很有用。紀錄片、訪談節目，以及一些短小的教育片段，都可以把一個主題變得更生動，這一點有時是課本做不到的。關鍵在於，電視應該是輔助學習，而不是取代學習。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-11-work-and-volunteer-work",
+          "index": 2,
+          "title": "Work and Volunteer Work",
+          "titleZh": "工作與義工服務",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Have you ever worked before?",
+              "questionZh": "你曾經工作過嗎？",
+              "answerEn": "Yes, I have, although only in part-time and short-term roles so far. Since I’m still a student, my work experience is not especially extensive, but it has taught me a lot about responsibility, punctuality, and dealing with people.",
+              "answerZh": "有，不過到目前為止主要只是兼職和短期工作。由於我現在仍然是學生，我的工作經驗不算特別多，但它的確讓我學到很多關於責任感、守時，以及如何和人打交道的事情。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you have a job now?",
+              "questionZh": "你現在有工作嗎？",
+              "answerEn": "Not at the moment. I’m focusing mainly on my studies right now, and I’d rather do that properly than spread myself too thin.",
+              "answerZh": "目前沒有。我現在主要把重心放在學業上，而且我寧願把這件事做好，也不想把自己分得太散。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kind of work would you like to do in the future?",
+              "questionZh": "你將來想做甚麼類型的工作？",
+              "answerEn": "Ideally, I’d like to work in healthcare, particularly in pharmacy. It appeals to me because it combines scientific knowledge with direct service, so the work would feel both practical and meaningful.",
+              "answerZh": "理想上，我想從事醫療相關的工作，尤其是藥劑方面。它吸引我的原因在於，它把科學知識和直接服務他人結合起來，所以那份工作會同時讓人覺得既實際又有意義。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What was your first day at work like?",
+              "questionZh": "你第一天上班是怎樣的？",
+              "answerEn": "My first day at work was quite nerve-racking, to be honest. I was trying to learn the routine, remember people’s names, and avoid silly mistakes all at once, so I felt a little overwhelmed at first. Once I found my footing, though, it became much easier.",
+              "answerZh": "老實說，我第一天上班時相當緊張。我當時一邊要熟習流程，一邊要記住別人的名字，還要盡量避免犯一些很蠢的小錯，所以一開始我真的有點手忙腳亂。不過，當我慢慢站穩陣腳之後，一切就容易得多了。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Did you enjoy your first job?",
+              "questionZh": "你喜歡你的第一份工作嗎？",
+              "answerEn": "On balance, yes, I did. It was not my dream job by any means, but it helped me grow up a little and gave me a more realistic picture of how working life actually functions.",
+              "answerZh": "整體來說，是的，我是喜歡的。它絕對不是我夢想中的工作，但它的確令我成熟了一點，也讓我對真正的工作世界如何運作有了更實際的了解。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Have you participated in any volunteer work?",
+              "questionZh": "你有參與過任何義工工作嗎？",
+              "answerEn": "Yes, I have. I’ve taken part in a few community-based volunteer activities in Hong Kong, although nothing on a huge scale. Even so, those experiences were genuinely meaningful to me.",
+              "answerZh": "有。我曾經在香港參與過一些以社區為本的義工活動，雖然規模都不算很大。即使如此，那些經歷對我來說仍然是真正有意義的。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What kind of volunteer work have you done?",
+              "questionZh": "你做過哪些類型的義工工作？",
+              "answerEn": "I’ve helped with things like tutoring younger students, assisting at community events, and helping to sort or distribute supplies for people in need. None of it was glamorous, but that was never the point; the point was simply to be useful.",
+              "answerZh": "我做過的包括幫年紀較小的學生補習、協助社區活動，以及幫忙整理或派發物資給有需要的人。這些工作都談不上光鮮亮麗，但那從來不是重點；真正的重點只是盡自己所能去幫上忙。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Why did you do the volunteer work?",
+              "questionZh": "你為甚麼去做義工工作？",
+              "answerEn": "I did it partly because I wanted to help, and partly because it gave me a wider perspective. It is very easy to move through life with your eyes fixed only on your own routine, but volunteer work reminds you that other people may be carrying burdens you never see.",
+              "answerZh": "我去做，一部分是因為我想幫人，另一部分則是因為它能讓我有更廣闊的視野。人很容易只盯著自己的生活節奏往前走，但義工工作會提醒你，其他人可能正承受著一些你從來看不見的重擔。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you know any volunteers?",
+              "questionZh": "你認識任何義工嗎？",
+              "answerEn": "Yes, I do. I know a few people who volunteer regularly, and I genuinely admire them because they give their time and energy without expecting praise in return.",
+              "answerZh": "有，我認識幾位會定期做義工的人，而我也真心很佩服他們，因為他們願意付出自己的時間和精力，卻不期待別人的讚賞作回報。"
+            },
+            {
+              "number": 10,
+              "questionEn": "How do you define volunteer work?",
+              "questionZh": "你怎樣定義義工工作？",
+              "answerEn": "I would define volunteer work as work that people choose to do freely, without being motivated mainly by money, in order to support others or contribute to a community. The key idea is that it is willingly given rather than commercially exchanged.",
+              "answerZh": "我會把義工工作定義為：人們出於自願而選擇去做、主要不是因為金錢驅動、而是為了幫助別人或貢獻社區的工作。它的關鍵在於，這是一種自願付出，而不是商業交換。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think volunteer work is important?",
+              "questionZh": "你覺得義工工作重要嗎？",
+              "answerEn": "Yes, definitely. I think volunteer work is a bit like the quiet glue that holds a community together, especially when formal systems cannot do everything on their own. It fills gaps, builds trust, and makes society feel more humane.",
+              "answerZh": "重要，當然重要。我覺得義工工作有點像把社區黏合在一起的那層安靜的黏合劑，尤其是在正式制度無法單靠自己做到所有事情的時候。它能補上缺口、建立信任，也令整個社會更有人情味。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think more people should do volunteer work?",
+              "questionZh": "你覺得應該有更多人做義工嗎？",
+              "answerEn": "Yes, I do, although I don’t think it has to be dramatic or time-consuming. Even small acts, if they are done sincerely and consistently, can make a real difference, so I think more people should contribute in whatever way they realistically can.",
+              "answerZh": "我覺得應該，不過我並不認為那一定要做得很轟轟烈烈，或者花很多很多時間。即使只是一些小小的行動，只要是真誠而持續地去做，也可以帶來真正的改變，所以我認為更多人都應該在自己現實可行的範圍內作出貢獻。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-11-weather",
+          "index": 3,
+          "title": "Weather",
+          "titleZh": "天氣",
+          "questionCount": 18,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "How is the weather today?",
+              "questionZh": "今天天氣怎樣？",
+              "answerEn": "Today, it is fairly warm and a little humid, which feels quite typical of Hong Kong. It is not unbearable, but you can definitely feel a bit of heaviness in the air.",
+              "answerZh": "今天的天氣算是頗溫暖，而且有一點潮濕，這其實很有香港的典型感覺。雖然還不到難以忍受的程度，但空氣裡確實帶著一點悶重感。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What’s your favourite kind of weather?",
+              "questionZh": "你最喜歡哪一種天氣？",
+              "answerEn": "My favourite kind of weather is probably a cool, sunny autumn day. It feels crisp, comfortable, and clear, so it is perfect for going out without feeling either drained by the heat or trapped by the rain.",
+              "answerZh": "我最喜歡的天氣，大概是涼爽而有陽光的秋天。那種天氣感覺清爽、舒服，而且天空很清朗，所以非常適合外出，不會被炎熱消耗，也不會被雨困住。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Is there any type of weather you really don’t like?",
+              "questionZh": "有沒有哪一種天氣是你真的不喜歡的？",
+              "answerEn": "Yes, I really do not like extremely hot and humid weather. It can make even simple things feel exhausting, and after a while it feels as though the air itself is weighing you down.",
+              "answerZh": "有，我真的不太喜歡極度炎熱而潮濕的天氣。那種天氣會令連很簡單的事情都變得很累，而過一段時間之後，甚至會讓人覺得好像連空氣本身都在把你往下壓。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What is the climate like in your country?",
+              "questionZh": "你國家的氣候是怎樣的？",
+              "answerEn": "In Hong Kong, the climate is generally subtropical, so it is warm and humid for a large part of the year. Summers are long, hot, and often stormy, while winters are usually mild, although they can feel surprisingly chilly on certain days.",
+              "answerZh": "在香港，氣候大致上屬於亞熱帶，所以一年中有很大一部分時間都是溫暖而潮濕的。夏天漫長、炎熱，而且經常有風暴；冬天通常算溫和，不過某些日子也會冷得比想像中厲害。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Does the weather affect people’s lives in your country?",
+              "questionZh": "天氣會影響你國家人們的生活嗎？",
+              "answerEn": "Yes, definitely. In Hong Kong, the weather affects what people wear, how they travel, what they do at weekends, and even how much energy they have during the day. When the heat or rain is intense, the whole rhythm of life can shift a little.",
+              "answerZh": "會，絕對會。在香港，天氣會影響人們穿甚麼、怎樣出行、周末做些甚麼，甚至連整天的精力都會受到影響。當炎熱或雨勢很強的時候，整個生活節奏都可能會稍微改變。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do people change in the summer?",
+              "questionZh": "人們在夏天會有改變嗎？",
+              "answerEn": "Yes, I think they do, at least to some extent. People tend to dress more casually, go out later in the day, and look for ways to stay cool, and in a place like Hong Kong, the heat can also make people a little less patient and a little more tired.",
+              "answerZh": "會，我覺得會，至少在某程度上是這樣。人們通常會穿得更隨意、在一天較後的時間才外出，而且會想盡辦法保持涼快；而在像香港這樣的地方，炎熱也可能令人變得稍微沒那麼有耐性，也更容易疲倦。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Does bad weather ever affect transport in your country?",
+              "questionZh": "壞天氣會影響你國家的交通嗎？",
+              "answerEn": "Yes, especially when there is heavy rain or a typhoon. In Hong Kong, severe weather can disrupt ferries, delay flights, and slow down road traffic quite badly, so transport is one of the first things people worry about when conditions turn rough.",
+              "answerZh": "會，尤其是在大雨或者颱風的時候。在香港，惡劣天氣可能會影響渡輪服務、令航班延誤，並且嚴重拖慢道路交通，所以當天氣一轉差，交通往往就是人們最先擔心的事情之一。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Tell me about the weather in your country at different times of the year.",
+              "questionZh": "請你講一下你國家一年不同時間的天氣。",
+              "answerEn": "In Hong Kong, spring is often warm, humid, and a bit misty, while summer is hot, wet, and sometimes stormy. Autumn is usually the most pleasant season because it is sunny and dry, whereas winter is cooler and less humid, although it is not freezing most of the time.",
+              "answerZh": "在香港，春天通常是溫暖、潮濕，而且有點霧氣的；夏天則炎熱、多雨，而且有時會有風暴。秋天一般是最舒服的季節，因為有陽光又乾爽；相反，冬天會較涼，也沒那麼潮濕，不過大部分時間都不至於寒冷刺骨。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Which time of the year did you enjoy the most when you were a child?",
+              "questionZh": "你小時候最喜歡一年中的哪個時候？",
+              "answerEn": "When I was a child, I probably enjoyed autumn the most. The weather was more comfortable for playing outside, and there was something cheerful about the clear skies and lighter air.",
+              "answerZh": "我小時候大概最喜歡秋天。那時候的天氣更適合在外面玩，而且那種晴朗的天空和較輕盈的空氣，總帶著一種令人開心的感覺。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you usually pay attention to weather forecasts?",
+              "questionZh": "你平時會留意天氣預報嗎？",
+              "answerEn": "Yes, fairly often. In Hong Kong, it is practical to check the forecast, especially during the rainy season or when there might be a typhoon, because the weather can change quickly and affect your plans quite easily.",
+              "answerZh": "會，而且算是頗常留意。在香港，查看天氣預報是很實際的，尤其是在雨季或者可能有颱風的時候，因為天氣可以變得很快，而且很容易打亂你的安排。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Has the weather changed much in your country in recent years?",
+              "questionZh": "近年來你國家的天氣有很大改變嗎？",
+              "answerEn": "Yes, I would say it feels more extreme and less predictable than before. Summers seem hotter, heavy rain seems more intense, and people often have the impression that the old seasonal patterns are becoming less reliable.",
+              "answerZh": "有，我會說現在的天氣感覺比以前更極端，也更難預測。夏天似乎更熱，暴雨似乎更猛烈，而且人們常常會覺得，過去那種固定的季節規律已經沒有以前那麼可靠了。"
+            },
+            {
+              "number": 12,
+              "questionEn": "What’s the weather usually like in your country or your hometown?",
+              "questionZh": "你的國家或家鄉通常的天氣是怎樣的？",
+              "answerEn": "In my hometown, which is Hong Kong, the weather is usually warm and humid for much of the year. Summer can be long and sticky, but the cooler months, especially autumn, are generally very pleasant and easy to enjoy.",
+              "answerZh": "我的家鄉是香港，那裡一年中有很長一段時間的天氣通常都是溫暖而潮濕的。夏天可以很漫長，而且悶熱黏膩，不過較涼的月份，尤其是秋天，一般都非常舒服，也很容易讓人享受。"
+            },
+            {
+              "number": 13,
+              "questionEn": "How is the weather here different from the weather in your home country?",
+              "questionZh": "這裡的天氣和你祖國的天氣有甚麼不同？",
+              "answerEn": "Compared with Hong Kong, the weather here feels drier and a little easier to handle. In Hong Kong, the humidity is often the real challenge, because even when the temperature is similar, the air can feel much heavier there.",
+              "answerZh": "和香港相比，這裡的天氣感覺較乾爽，也較容易適應。在香港，真正的挑戰往往是濕度，因為即使氣溫相近，那裡的空氣也常常會讓人覺得沉重得多。"
+            },
+            {
+              "number": 14,
+              "questionEn": "Would you say the weather in your hometown is suitable for working or studying?",
+              "questionZh": "你會說你家鄉的天氣適合工作或讀書嗎？",
+              "answerEn": "Overall, yes, I would. Hong Kong’s weather is manageable for most of the year, although the peak of summer can be draining, especially when the heat and humidity combine. So I would say it is suitable on the whole, but not always comfortable.",
+              "answerZh": "整體來說，我會說是適合的。香港大部分時間的天氣都算可應付，不過盛夏的時候確實會令人消耗很大，尤其是當炎熱和濕氣疊加在一起的時候。所以我會說，總體上它是適合的，只是不一定總是舒服。"
+            },
+            {
+              "number": 15,
+              "questionEn": "Would you like to move to a place with different weather?",
+              "questionZh": "你會想搬去一個天氣不同的地方嗎？",
+              "answerEn": "Yes, I think I might, especially to somewhere cooler and less humid. As much as I am used to Hong Kong, I do think living in a place with clearer seasons and fresher air would be quite appealing.",
+              "answerZh": "會，我想我可能會，尤其是搬去一個更涼爽、沒那麼潮濕的地方。雖然我已經很習慣香港，但我確實覺得，住在一個四季更分明、空氣更清新的地方，會是很有吸引力的。"
+            },
+            {
+              "number": 16,
+              "questionEn": "Does the weather affect the way that you feel?",
+              "questionZh": "天氣會影響你的心情嗎？",
+              "answerEn": "Yes, quite a lot, actually. Bright, cool weather tends to lift my mood, whereas grey, humid, or stormy weather can make me feel a bit sluggish and mentally heavy.",
+              "answerZh": "會，而且實際上影響挺大的。明亮而清爽的天氣通常會令我的心情變好；相反，灰暗、潮濕，或者有風暴的天氣則可能會令我覺得有點遲鈍，連精神都變得沉重。"
+            },
+            {
+              "number": 17,
+              "questionEn": "Do people like the weather in your country?",
+              "questionZh": "你國家的人喜歡那裡的天氣嗎？",
+              "answerEn": "I think people have mixed feelings about it. On the one hand, many people appreciate the mild winters in Hong Kong, but on the other hand, the long, humid summers can really wear people down.",
+              "answerZh": "我覺得人們對那裡的天氣感受是有點矛盾的。一方面，很多人很欣賞香港溫和的冬天；但另一方面，那種漫長而潮濕的夏天也確實會把人磨得很累。"
+            },
+            {
+              "number": 18,
+              "questionEn": "Do the kinds of outside activities people do in your country change when the weather changes?",
+              "questionZh": "你國家的人做的戶外活動，會因天氣改變而改變嗎？",
+              "answerEn": "Yes, definitely. In Hong Kong, people are more likely to go to the beach or do water-based activities in hot weather, whereas during cooler and drier months, hiking, running, and long walks become much more popular.",
+              "answerZh": "會，絕對會。在香港，天氣熱的時候，人們更可能去海灘，或者做一些和水有關的活動；相反，在較涼爽、較乾燥的月份，行山、跑步，以及長時間散步都會變得更受歡迎。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-11-work",
+          "index": 4,
+          "title": "Work",
+          "titleZh": "工作",
+          "questionCount": 9,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you have a job right now?",
+              "questionZh": "你現在有工作嗎？",
+              "answerEn": "Yes, I do. I currently work in a junior marketing role, mainly helping with content, coordination, and day-to-day campaign tasks. It is not glamorous every single day, but it is fast-paced, practical, and a very good place to learn.",
+              "answerZh": "是的，我有。我目前從事一份初級市場推廣工作，主要負責內容、協調，以及日常宣傳活動相關的工作。它不是每一天都很光鮮亮麗，但節奏很快、很實際，而且是一個很適合學習的地方。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you enjoy your job?",
+              "questionZh": "你喜歡你的工作嗎？",
+              "answerEn": "Yes, overall I do. What I enjoy most is that the work is varied, so no two days feel exactly the same, and that keeps things fresh. Of course, some parts are repetitive, but that comes with the territory in almost any job.",
+              "answerZh": "是的，整體來說我喜歡。我最享受的是這份工作的內容很多樣，所以幾乎沒有兩天是完全一樣的，這會令事情保持新鮮感。當然，有些部分也會重複，不過幾乎任何工作都難免會有這一面。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What responsibilities do you have at work?",
+              "questionZh": "你在工作上有甚麼職責？",
+              "answerEn": "My responsibilities include preparing content, helping to organise campaigns, communicating with different team members, and keeping track of deadlines. In simple terms, I help make sure that ideas do not just stay on paper but actually move forward.",
+              "answerZh": "我的職責包括準備內容、協助安排宣傳活動、和不同團隊成員溝通，以及跟進截止日期。簡單來說，我的工作就是幫助確保一些想法不只是停留在紙上，而是真的能夠向前推進。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What is your typical day like at work?",
+              "questionZh": "你平時在工作中的一天通常是怎樣的？",
+              "answerEn": "A typical day usually begins with checking emails and reviewing what needs to be done first. After that, I might spend time writing, attending short meetings, revising materials, or dealing with small last-minute issues, because work has a way of changing shape as the day goes on. By the end of the day, I normally try to clear the urgent tasks and line up the next day properly.",
+              "answerZh": "我平常的一天通常會先從查看電郵和整理最先要處理的事情開始。之後，我可能會花時間寫內容、參加簡短會議、修改材料，或者處理一些臨時冒出來的小問題，因為工作常常會在一天之中慢慢變形。到了下班前，我通常會盡量先完成緊急事項，並把第二天的工作安排好。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What would you change about your job?",
+              "questionZh": "如果可以的話，你會改變你工作的哪一部分？",
+              "answerEn": "If I could change one thing, I would probably want a little more creative freedom and slightly less routine admin work. The practical side is necessary, of course, but too much paperwork can sometimes drain the energy out of the more interesting parts of the job. A better balance would make the role even more rewarding.",
+              "answerZh": "如果我可以改變一樣東西，我大概會想要多一點創作空間，以及少一點例行的行政工作。當然，實務部分是必要的，但太多文書工作有時的確會把工作中較有趣的部分的活力抽走。如果兩者之間能有更好的平衡，這份工作會更加有滿足感。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What job do you think you will be doing in five years?",
+              "questionZh": "你覺得五年後你會從事甚麼工作？",
+              "answerEn": "In five years, I imagine I will still be in the same broad field, but in a more senior role, perhaps as a marketing strategist or project lead. I would like to have more responsibility, not just for individual tasks, but for the bigger picture as well. Ideally, I want to be in a position where I am not only doing the work, but also shaping it.",
+              "answerZh": "我想五年後，我大概仍然會留在同一個大範圍領域，不過職位會更高一些，也許會是市場策略方面的工作，或者項目主管之類的角色。我希望自己到時候會有更多責任，不只是負責個別工作，而是能夠看到更大的整體方向。理想上，我希望自己不只是執行工作，而是也能參與塑造工作本身。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What skills and qualifications are required for this job?",
+              "questionZh": "這份工作需要甚麼技能和資歷？",
+              "answerEn": "For this kind of job, good communication skills are essential, because you have to explain ideas clearly and work with different people. On top of that, organisation, time management, and a decent grasp of digital tools are all important. In terms of qualifications, a relevant degree can help open the door, but in many cases practical ability and consistency matter just as much.",
+              "answerZh": "對這一類工作來說，良好的溝通能力是必需的，因為你需要清楚表達想法，並和不同的人合作。除此之外，組織能力、時間管理，以及對數碼工具有不錯的掌握，也都很重要。至於資歷方面，相關學位確實有助於打開大門，但在很多情況下，實際能力和穩定表現同樣重要。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you get on well with your co-workers?",
+              "questionZh": "你和同事相處得好嗎？",
+              "answerEn": "Yes, I do, and I think that makes a bigger difference than people sometimes realise. I would not say we are all best friends, but we work well together, communicate quite openly, and help one another when things get busy. A good team can make even a stressful day feel manageable.",
+              "answerZh": "是的，我和同事相處得不錯，而我覺得這件事的重要性其實比很多人以為的還要大。我不會說我們每一個人都是最好的朋友，但我們合作得不錯，溝通也算開放，而且忙起來的時候也會彼此幫忙。一個好的團隊，甚至可以令原本壓力很大的日子都變得較容易應付。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Are there good work opportunities in your home country?",
+              "questionZh": "你的國家有好的工作機會嗎？",
+              "answerEn": "In Hong Kong, yes, I think there are still good work opportunities, especially in fields like finance, technology, logistics, education, and professional services. That said, the market can be very competitive, so opportunities do exist, but people often have to work hard, stay adaptable, and keep building their skills in order to make the most of them. In other words, the doors are there, but they do not open by themselves.",
+              "answerZh": "在香港，我認為仍然是有不錯的工作機會的，尤其是在金融、科技、物流、教育，以及專業服務等領域。不過，市場競爭也的確很激烈，所以機會雖然存在，但人們通常都需要很努力、保持適應力，並且持續提升自己的能力，才能真正把握到它們。換句話說，門是有的，只是它們不會自己打開。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-11-writing",
+          "index": 5,
+          "title": "Writing",
+          "titleZh": "寫作",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you enjoy writing?",
+              "questionZh": "你喜歡寫作嗎？",
+              "answerEn": "Yes, I do, especially when I need to organise my thoughts. Writing helps me turn vague ideas into something clearer, so in a way it feels like giving shape to fog. I would not say I write for pleasure every day, but I do find it satisfying.",
+              "answerZh": "是的，我喜歡，尤其是當我需要整理思緒的時候。寫作能幫助我把模糊的想法變得更清晰，所以某程度上，它就像把霧氣慢慢塑造成形一樣。我不會說自己每天都為了享受而寫，但我確實覺得它很有滿足感。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kinds of things do you usually write?",
+              "questionZh": "你通常會寫些甚麼？",
+              "answerEn": "I usually write practical things, such as messages, notes, to-do lists, emails, and occasional reflections in a journal. So most of my writing is functional rather than literary, but I still like making it clear and well phrased.",
+              "answerZh": "我通常寫的都是比較實際的東西，例如訊息、筆記、待辦清單、電郵，以及偶爾在日記裡寫一些感想。所以我大部分的寫作都偏向功能性，而不是文學性的，不過我仍然會想把它寫得清楚、寫得順。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How often do you write by hand?",
+              "questionZh": "你多常用手寫？",
+              "answerEn": "Fairly often, though not as much as I used to. I still write by hand when I take quick notes, make reminders, or jot something down on the spot, because sometimes a pen and paper are simply the quickest option.",
+              "answerZh": "都算幾常，不過沒有以前那麼多。我現在仍然會在做快速筆記、寫提醒，或者即場記下一些東西時用手寫，因為有時候紙和筆其實就是最快的方法。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What age do children normally learn to write in your country?",
+              "questionZh": "在你的國家，小朋友通常幾歲開始學寫字？",
+              "answerEn": "In Hong Kong, children usually begin learning to write at a fairly young age, often in kindergarten or the early years of primary school. So I would say many of them start around the age of four or five, at least with very basic letters, characters, and simple words.",
+              "answerZh": "在香港，小朋友通常很早就開始學寫字，很多時候在幼稚園，或者小學初期就已經開始了。所以我會說，不少孩子大概四、五歲左右就會開始接觸最基本的字母、中文字，以及簡單詞語了。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Did you write a lot when you were a child?",
+              "questionZh": "你小時候寫得多嗎？",
+              "answerEn": "Yes, quite a lot, mainly because of schoolwork. Between homework, composition exercises, and note-taking, writing was a regular part of daily life, so I got used to it from a young age.",
+              "answerZh": "有，算是挺多的，主要是因為功課。從家課、作文練習，到抄寫筆記，寫字本來就是日常生活中很固定的一部分，所以我很小就已經習慣了。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you think writing is important for children?",
+              "questionZh": "你覺得寫作對小朋友重要嗎？",
+              "answerEn": "Yes, absolutely. Writing is not only a technical skill; it also teaches children how to organise ideas, express themselves, and think more carefully. In that sense, it helps build both language and judgment.",
+              "answerZh": "是的，絕對重要。寫作不只是一種技術能力；它同時也教小朋友如何整理想法、表達自己，以及更仔細地思考。從這個角度來看，它其實同時在建立語言能力和判斷力。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you prefer writing by hand or typing on a computer?",
+              "questionZh": "你比較喜歡手寫還是用電腦打字？",
+              "answerEn": "For serious writing, I definitely prefer typing on a computer. It is faster, cleaner, and much easier to edit, whereas handwriting feels better for short notes or moments when I want to think a little more slowly.",
+              "answerZh": "如果是比較正式的寫作，我一定比較喜歡用電腦打字。那樣更快、更整齊，也更容易修改；相反，手寫則比較適合短筆記，或者一些我想讓自己思考得慢一點的時刻。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Do you ever write letters?",
+              "questionZh": "你會寫信嗎？",
+              "answerEn": "Very rarely these days. Most communication has moved online, so I almost never write traditional letters unless there is a special reason, but I do think letters have a warmth that digital messages often lack.",
+              "answerZh": "現在很少了。大部分溝通都已經轉到網上，所以除非有特別原因，否則我幾乎不會寫傳統書信；不過我確實覺得，信件有一種數碼訊息常常欠缺的溫度。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you prefer writing letters or sending emails?",
+              "questionZh": "你比較喜歡寫信還是發電郵？",
+              "answerEn": "In practical terms, I prefer sending emails because they are quicker and more convenient. That said, letters feel more personal, so if I wanted to leave a lasting impression, I would probably choose a handwritten note over a routine email.",
+              "answerZh": "如果從實際角度來說，我比較喜歡發電郵，因為它更快，也更方便。不過，信件會顯得更有個人感，所以如果我想留下比較深刻的印象，我大概會選擇手寫便條，而不是一般的電郵。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think people write less than in the past?",
+              "questionZh": "你覺得現在的人比以前寫得少嗎？",
+              "answerEn": "Yes, I think so, especially when it comes to handwriting. People probably still write all the time through texts, emails, and social media, but the pen has gradually given way to the keyboard. So the amount of writing may not have disappeared; it has simply changed form.",
+              "answerZh": "是的，我覺得是，尤其是說到手寫的時候。現在的人大概仍然透過短訊、電郵，以及社交媒體不停在寫，只不過筆漸漸讓位給鍵盤了。所以寫作的總量未必真的消失了；它只是換了一種形式。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What are the benefits of writing things down by hand?",
+              "questionZh": "把東西用手寫下來有甚麼好處？",
+              "answerEn": "Writing by hand can help people remember things better, partly because it slows the mind down and makes you process the information more actively. It also feels more personal and tactile, as if the thought has passed through your hand rather than merely across a screen.",
+              "answerZh": "用手把東西寫下來，可以幫助人更好地記住內容，部分原因是它會讓思緒放慢，並令你更主動地處理資訊。它同時也會讓事情顯得更有個人感、更有觸感，幾乎像那個想法是經過你的手流出來的，而不只是從螢幕上滑過而已。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think writing will still be important in the future?",
+              "questionZh": "你覺得寫作在未來仍然會重要嗎？",
+              "answerEn": "Yes, without question. The tools may change, from pens to keyboards to voice technology, but the ability to express ideas clearly will remain essential. As long as people need to explain, persuade, record, and connect, writing will still matter.",
+              "answerZh": "會，毫無疑問。工具也許會改變，從筆到鍵盤，再到語音科技都可能，但清楚表達想法的能力仍然會是不可或缺的。只要人們仍然需要解釋、說服、記錄，以及建立連結，寫作就依然重要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 12,
+      "displayTitle": "Book 12 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-12-bicycles",
+          "index": 1,
+          "title": "Bicycles",
+          "titleZh": "單車",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you have a bicycle?",
+              "questionZh": "你有單車嗎？",
+              "answerEn": "Not at the moment, no. I used to have one when I was younger, but I do not own one now because I mostly rely on public transport. In a city like Hong Kong, that usually feels more practical day to day.",
+              "answerZh": "現在沒有。我年紀比較小的時候曾經有一輛，不過現在沒有了，因為我平時主要依賴公共交通。在像香港這樣的城市裡，這通常會顯得更切合日常需要。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you use it?",
+              "questionZh": "你多常使用它？",
+              "answerEn": "Since I do not own one now, I only ride occasionally, usually if I rent one or borrow one for a short trip. So it is not part of my daily routine, but I still get on a bike from time to time.",
+              "answerZh": "因為我現在沒有自己的單車，所以我只是偶爾會騎，通常是租一輛，或者借一輛來作短途使用。所以它並不是我日常作息的一部分，不過我還是會不時騎一下。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you enjoy riding a bicycle?",
+              "questionZh": "你喜歡踩單車嗎？",
+              "answerEn": "Yes, I do. There is something very freeing about cycling, because it is simple, active, and pleasantly unhurried. It gives you a sense of movement without the stress that often comes with traffic or crowded transport.",
+              "answerZh": "是的，我喜歡。踩單車有一種很自由的感覺，因為它很簡單、很有活動感，而且節奏也令人舒服，不會太急。它會帶來一種前進的感覺，卻沒有交通擠塞或擁擠公共交通常帶來的壓力。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What do you usually use a bicycle for?",
+              "questionZh": "你通常會用單車來做甚麼？",
+              "answerEn": "When I do use a bicycle, it is usually for leisure, light exercise, or short rides in quieter areas. I see it more as a way to unwind than as a serious mode of transport. In that sense, it feels less like a vehicle and more like a small escape.",
+              "answerZh": "當我真的會用單車時，通常是用來休閒、做一些輕度運動，或者在比較安靜的地方短途騎行。我比較把它看成一種放鬆的方法，而不是很正式的交通工具。從這個角度來說，它與其說是一種交通工具，倒不如說是一個小小的逃離出口。"
+            },
+            {
+              "number": 5,
+              "questionEn": "How old were you when you learned to ride a bike?",
+              "questionZh": "你幾歲學會踩單車？",
+              "answerEn": "I think I was around seven or eight years old. That seems to be quite a common age, because children at that stage are usually adventurous enough to try and persistent enough to keep going after a few wobbly attempts.",
+              "answerZh": "我想我大概是七、八歲左右學會的。這似乎是很常見的年齡，因為那個階段的小朋友通常既有足夠的好奇心去嘗試，也有足夠的耐性在搖搖晃晃試過幾次之後繼續學下去。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Who taught you to ride a bicycle?",
+              "questionZh": "是誰教你踩單車的？",
+              "answerEn": "My father taught me, if I remember correctly. He stayed beside me at first, kept the bike steady, and then gradually let go when I was ready. It was one of those small childhood moments that stays with you.",
+              "answerZh": "如果我沒有記錯的話，是我爸爸教我的。一開始他會在我旁邊扶着我，幫我把單車穩住，然後等我準備好了，就慢慢放手。那是一種童年裡很小，但會一直留在記憶裡的時刻。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did you use a bicycle more when you were a child?",
+              "questionZh": "你小時候是不是更常用單車？",
+              "answerEn": "Yes, definitely. When I was a child, riding a bicycle felt like both play and freedom, so I used it much more often than I do now. As people grow older, convenience tends to take over, and bicycles sometimes get pushed to the sidelines.",
+              "answerZh": "是的，當然是。我小時候，踩單車既像玩樂，也像自由，所以我用它的次數遠比現在多。人長大之後，方便往往會變成最重要的考量，而單車有時就會慢慢被擠到生活邊緣。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Are bicycles popular where you live?",
+              "questionZh": "你住的地方單車受歡迎嗎？",
+              "answerEn": "They are somewhat popular, but not everywhere. In Hong Kong, bicycles are more common in certain areas with better cycling paths, whereas in dense urban districts they are less practical because of traffic, space, and road conditions. So their popularity depends heavily on the location.",
+              "answerZh": "算是有一定程度的受歡迎，但不是每個地方都一樣。在香港，單車在一些有較好單車徑的地區會比較常見；相反，在高密度市區裡，由於交通、空間和路面環境的關係，它們就沒有那麼實用。所以它受不受歡迎，很大程度上取決於地點。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do many people in your country use bicycles?",
+              "questionZh": "你國家有很多人使用單車嗎？",
+              "answerEn": "In Hong Kong, some people do, but I would not say bicycles are a dominant part of daily transport for the whole population. They are much more visible in certain districts or recreational areas than in the city centre. In other words, bicycles are present, but they are not exactly everywhere.",
+              "answerZh": "在香港，有些人會用，但我不會說單車是全體市民日常交通中的主流。它們在某些地區或休閒地方會更常見，而在市中心則沒那麼普遍。換句話說，單車是存在的，但也談不上無處不在。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do people in your country use bicycles for work or just for leisure?",
+              "questionZh": "你國家的人使用單車是為了工作，還是純粹休閒？",
+              "answerEn": "I think in Hong Kong it is more common for people to use bicycles for leisure, exercise, or short local trips. Some people may use them for work, especially for delivery or practical commuting in certain areas, but that is probably less common overall. So leisure still seems to lead the way.",
+              "answerZh": "我覺得在香港，人們更常把單車用於休閒、運動，或者一些短途的本地出行。當然，也有些人會用它來工作，尤其是送遞服務，或者在某些地區作實際通勤之用，但整體來說這大概比較少見。所以大致上還是以休閒用途為主。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What are the advantages of using bicycles?",
+              "questionZh": "使用單車有甚麼好處？",
+              "answerEn": "There are quite a few advantages. Bicycles are affordable, environmentally friendly, and good for people’s health, and they can also be very convenient for short distances. On top of that, cycling gives people a slower and more direct connection to their surroundings, which cars often take away.",
+              "answerZh": "好處其實有不少。單車價格相對負擔得起、環保，而且對健康有益；對於短距離出行來說，它也可以很方便。除此之外，踩單車還能讓人以一種更慢、更直接的方式接觸周圍環境，而這種感覺往往是汽車帶不來的。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think using bicycles should be encouraged?",
+              "questionZh": "你認為應該鼓勵人們使用單車嗎？",
+              "answerEn": "Yes, I do, provided that the city has safe infrastructure to support it. Encouraging cycling without proper paths, clear rules, and good planning would be putting the cart before the horse. But if the system is built well, bicycles can make a city healthier, greener, and more human in scale.",
+              "answerZh": "是的，我認為應該，不過前提是城市本身要有安全的配套去支持這件事。如果沒有合適的單車徑、清晰的規則，以及良好的規劃，就先去鼓勵人們踩單車，那就有點本末倒置了。但如果整個系統建設得好，單車的確可以令一座城市變得更健康、更環保，也更有人性的尺度。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-12-childhood",
+          "index": 2,
+          "title": "Childhood",
+          "titleZh": "童年",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Did you enjoy your childhood?",
+              "questionZh": "你喜歡你的童年嗎？",
+              "answerEn": "Yes, overall I did. It was not perfect, of course, but it felt simpler, lighter, and far more carefree than adult life, and I have a lot of warm memories from that time. Looking back, it feels like a chapter filled with small joys rather than big worries.",
+              "answerZh": "是的，整體來說我很享受我的童年。當然，它並不完美，但它比成年生活簡單、輕鬆，也自由得多，而且我對那段時間有很多溫暖的回憶。現在回頭看，那就像人生中一個充滿小小快樂，而不是沉重大憂慮的篇章。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What is your first memory of your childhood?",
+              "questionZh": "你對童年的第一個記憶是甚麼？",
+              "answerEn": "My first memory is probably sitting on the living-room floor and playing with colourful building blocks while my mother was nearby. I do not remember every detail clearly, but I can still picture the colours and that quiet sense of safety. It is only a small memory, but it has stayed with me.",
+              "answerZh": "我對童年的第一個記憶，大概是坐在客廳地板上玩彩色積木，而我媽媽就在旁邊。我未必記得每一個細節，但我仍然能想起那些顏色，以及那種安靜而有安全感的感覺。那只是一個很小的回憶，但它一直留在我心裡。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Did you have a lot of friends when you were a child?",
+              "questionZh": "你小時候有很多朋友嗎？",
+              "answerEn": "I had quite a few, although I would not say I was friends with everyone. I usually had a small, steady circle of classmates and neighbourhood friends that I spent most of my time with. I think I preferred close friendships even then.",
+              "answerZh": "我那時候有幾個朋友，不過我不會說自己和每一個人都很熟。我通常有一小群比較固定的同學和鄰居朋友，而我大部分時間都是和他們一起度過的。我想，即使在那個年紀，我也已經比較偏向重視親近而穩定的友誼。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What did you enjoy doing as a child?",
+              "questionZh": "你小時候喜歡做甚麼？",
+              "answerEn": "As a child, I loved fairly simple things, like reading storybooks, watching cartoons, drawing, and going to the playground. I also enjoyed making up little imaginary worlds in my head, so I could keep myself entertained quite easily. Children do not need much when their imagination is doing the heavy lifting.",
+              "answerZh": "我小時候很喜歡一些很簡單的事情，例如看故事書、看卡通、畫畫，以及去遊樂場。我也很喜歡在腦海裡想像一些小小的世界，所以我其實很容易就能讓自己玩得很開心。當小朋友的想像力夠活躍時，其實不需要太多東西也能過得很快樂。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Did you prefer playing indoors or outdoors when you were young?",
+              "questionZh": "你年輕的時候比較喜歡在室內還是室外玩？",
+              "answerEn": "I probably preferred playing outdoors. There was something freeing about running around, getting a bit sweaty, and feeling as though the whole afternoon was yours. That said, on quiet or rainy days, I was perfectly happy staying indoors as well.",
+              "answerZh": "我大概比較喜歡在室外玩。可以到處跑、流一點汗，然後感覺整個下午都屬於自己，那種感覺很自由。不過，如果是安靜的日子或者下雨天，我待在室內也一樣會很開心。"
+            },
+            {
+              "number": 6,
+              "questionEn": "What kinds of games did you like playing as a child?",
+              "questionZh": "你小時候喜歡玩甚麼類型的遊戲？",
+              "answerEn": "I liked playground games such as hide-and-seek and tag, and I also enjoyed simple card games and pretend play. Looking back, the games were not complicated at all, but that was part of the charm. A lot of fun came from making something out of almost nothing.",
+              "answerZh": "我喜歡玩一些遊樂場的遊戲，例如捉迷藏和追逐遊戲，我也很喜歡一些簡單的卡牌遊戲和角色扮演。現在回頭看，那些遊戲其實一點也不複雜，但那正正是它吸引人的地方。很多快樂，都是從幾乎甚麼都沒有的情況下創造出來的。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did you spend more time with your family or with your friends when you were a child?",
+              "questionZh": "你小時候花比較多時間和家人在一起，還是和朋友在一起？",
+              "answerEn": "I think I spent more time with my family, especially when I was very young. At that stage, family was really the centre of my world, and most of my routines naturally revolved around home. As I got older, I started spending more time with friends, but family still came first.",
+              "answerZh": "我想我小時候是和家人相處得比較多，尤其是在很年幼的時候。在那個階段，家人基本上就是我世界的中心，而我大部分的生活節奏也自然是圍繞著家裡打轉。隨著年紀漸長，我才開始花更多時間和朋友一起，但家人始終還是排在最前面。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Were you happier as a child than you are now?",
+              "questionZh": "你小時候比現在更快樂嗎？",
+              "answerEn": "I was probably happier in a simpler way, because I had fewer responsibilities and fewer things weighing on my mind. However, I would not say life is worse now; it is just more layered and more demanding. Childhood was lighter, but adulthood is deeper.",
+              "answerZh": "我小時候大概是以一種比較單純的方式更快樂，因為那時責任比較少，心裡也沒有那麼多事情要承擔。不過，我也不會說現在的人生比較差；只是它更有層次，也更有壓力。童年比較輕盈，而成年則更深刻。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do children today have a different childhood from the one you had?",
+              "questionZh": "現在的小朋友和你當年的童年有不同嗎？",
+              "answerEn": "Yes, I think so, especially in Hong Kong. Children today seem to spend much more time on screens and follow more structured schedules, whereas my childhood felt a bit freer and less tightly managed. In some ways they have more opportunities, but perhaps less breathing room.",
+              "answerZh": "有，我覺得有，尤其是在香港。現在的小朋友似乎花更多時間在各種螢幕上，而且生活安排也更有規劃；相比之下，我的童年感覺比較自由，也沒有被安排得那麼緊密。某程度上，他們的機會更多了，但可能也少了一點喘息空間。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Did you have a favourite toy when you were a child?",
+              "questionZh": "你小時候有沒有最喜歡的玩具？",
+              "answerEn": "Yes, I did. I had a small stuffed bear that I was very attached to, and I used to carry it around far more often than I’d probably admit now. It was nothing special in itself, but to me it felt like a tiny source of comfort.",
+              "answerZh": "有。我那時有一隻小小的毛公仔熊，我非常喜歡它，而且我以前幾乎去到哪裡都會帶著它，雖然現在說起來可能有點不好意思。它本身並不是甚麼特別的東西，但對我來說，它就像一個小小的安慰來源。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think it is important for children to have a happy childhood?",
+              "questionZh": "你覺得小朋友擁有快樂的童年重要嗎？",
+              "answerEn": "Yes, absolutely. A happy childhood gives children a sense of security, confidence, and emotional stability, which can shape the way they see themselves and the world later on. It does not mean life should be problem-free, but it should give them a steady base to grow from.",
+              "answerZh": "是的，絕對重要。快樂的童年能給小朋友安全感、自信，以及情緒上的穩定，而這些都會影響他們日後如何看待自己和這個世界。這並不代表人生一定要完全沒有問題，但童年應該給他們一個穩固的基礎去成長。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think it is better for children to grow up in the city or in the countryside?",
+              "questionZh": "你覺得小朋友在城市還是鄉村長大比較好？",
+              "answerEn": "If I had to choose, I would probably say the city, especially in a place like Hong Kong, because children usually have better access to schools, healthcare, and different activities. However, the countryside offers something the city often cannot, namely space, peace, and a slower pace of life. So ideally, children would have the advantages of the city without losing the freedom to explore.",
+              "answerZh": "如果一定要選，我大概會說城市，尤其是在像香港這樣的地方，因為小朋友通常會有更好的學校、醫療，以及各種活動資源。不過，鄉村也有城市常常給不到的東西，那就是空間、寧靜，以及較慢的生活節奏。所以最理想的情況，是小朋友既能享有城市的優勢，同時又不失去自由探索的空間。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-12-drinks",
+          "index": 3,
+          "title": "Drinks",
+          "titleZh": "飲品",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What is your favourite drink?",
+              "questionZh": "你最喜歡的飲品是甚麼？",
+              "answerEn": "My favourite drink is probably iced lemon tea. It is refreshing, slightly sharp, and not too heavy, so it works especially well in hot weather. In a way, it is the kind of drink that wakes you up without making a big fuss about it.",
+              "answerZh": "我最喜歡的飲品大概是凍檸茶。它很清爽，帶一點酸勁，而且不會太膩，所以在炎熱天氣特別適合。某程度上，它是一種可以讓人提起精神，但又不會太張揚的飲品。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Do you prefer hot drinks or cold drinks?",
+              "questionZh": "你比較喜歡熱飲還是冷飲？",
+              "answerEn": "On balance, I prefer cold drinks, especially in Hong Kong, where the weather can be hot and humid for a large part of the year. A cold drink feels more instantly satisfying, almost like a small reset button on a tiring day. That said, I still enjoy hot drinks when the weather turns cooler.",
+              "answerZh": "整體來說，我比較喜歡冷飲，尤其是在香港這種一年有很長時間都又熱又潮濕的地方。冷飲會讓人有一種立刻被滿足的感覺，幾乎像是在疲累的一天裡按下了一個小小的重設鍵。不過，天氣轉涼的時候，我還是會喜歡熱飲。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you usually drink in the morning?",
+              "questionZh": "你早上通常喝甚麼？",
+              "answerEn": "In the morning, I usually drink water first, and then I may have tea or coffee depending on how awake I feel. I try not to start the day with something too sugary, because that can feel good for a moment but leave me feeling flat later on.",
+              "answerZh": "早上我通常會先喝水，之後再看自己精神如何，可能會喝茶或咖啡。我會盡量避免用太甜的飲品開始一天，因為那樣也許一開始感覺不錯，但之後反而容易讓人沒精神。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you often buy drinks when you go out?",
+              "questionZh": "你外出時常常會買飲品嗎？",
+              "answerEn": "Yes, fairly often, especially if I know I will be out for a while. Sometimes it is just out of convenience, but sometimes it is also a small pleasure that breaks up the day. Even a simple drink can feel like a little pause in the middle of a busy schedule.",
+              "answerZh": "會，算是挺常的，尤其是如果我知道自己會在外面待一段時間。有時那只是因為方便，但有時也是一種小小的享受，能讓一天有點喘息的空間。即使只是一杯很普通的飲品，也可以像是在忙碌日程中出現的一個小停頓。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you like trying new drinks?",
+              "questionZh": "你喜歡嘗試新的飲品嗎？",
+              "answerEn": "Yes, I do, as long as they sound genuinely interesting and not just strange for the sake of being strange. I like discovering new flavours, especially when they are well balanced rather than overly sweet. Sometimes one sip is enough to tell you whether something is memorable or just a passing novelty.",
+              "answerZh": "喜歡，只要它們是真的有趣，而不是單純為了怪而怪。我喜歡發掘新的味道，尤其是那些味道平衡、而不是甜得過火的飲品。有時候只要一口，你就已經知道它到底是令人難忘，還是只是一時的新奇而已。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Is it common for people to drink tea and coffee in your country?",
+              "questionZh": "在你的國家，人們常喝茶和咖啡嗎？",
+              "answerEn": "Yes, very much so. In Hong Kong, tea has deep cultural roots, while coffee has become an established part of modern city life, so both are common in different settings. You could say tea belongs to tradition, while coffee often belongs to pace.",
+              "answerZh": "是的，非常普遍。在香港，茶有很深的文化根基，而咖啡則已經成為現代城市生活固定的一部分，所以兩者都在不同場合很常見。你可以說，茶屬於傳統，而咖啡往往屬於節奏。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Did you prefer different drinks as a child?",
+              "questionZh": "你小時候喜歡的飲品和現在不同嗎？",
+              "answerEn": "Yes, definitely. As a child, I was far more drawn to sweet drinks because they were fun and immediately appealing, whereas now I prefer drinks that are lighter, less sugary, and a bit more refreshing. Tastes change, and in my case they have become a little more sensible with age.",
+              "answerZh": "是的，當然不同。小時候我比較容易被甜飲吸引，因為它們有趣，而且很容易令人喜歡；但現在我更喜歡比較清淡、沒那麼甜、而且更清爽的飲品。口味是會改變的，而我的口味大概就是隨著年紀漸長，變得比較理性一點。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What did you usually drink when you were a child?",
+              "questionZh": "你小時候通常喝甚麼？",
+              "answerEn": "When I was a child, I usually drank milk, juice, and the occasional soft drink as a treat. Juice felt bright and cheerful at the time, although looking back, it was probably sweeter than I realised.",
+              "answerZh": "我小時候通常會喝牛奶、果汁，還有偶爾當作獎勵的汽水。那時候果汁給人的感覺很鮮明、很開心，不過現在回頭看，它大概比我當時意識到的還要甜。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think it is important to drink lots of water?",
+              "questionZh": "你覺得多喝水重要嗎？",
+              "answerEn": "Yes, absolutely. It is one of those basic habits that sounds almost too simple to matter, and yet it affects your energy, concentration, and general health more than people sometimes realise. In hot places like Hong Kong, staying hydrated is not just good advice; it is common sense.",
+              "answerZh": "是的，當然重要。這是一種聽起來簡單得幾乎像不值一提的基本習慣，但它對你的精神、專注力，以及整體健康的影響，其實比很多人想像中更大。在像香港這種炎熱的地方，保持充足水分不只是好建議，而是基本常識。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What do people in your country usually drink with meals?",
+              "questionZh": "你國家的人吃飯時通常喝甚麼？",
+              "answerEn": "In Hong Kong, it really depends on the setting. At home, many people drink water, soup, or tea, while in restaurants it is also common to have milk tea, lemon tea, soft drinks, or other cold beverages. There is quite a mix, which reflects how traditional and modern habits often sit side by side here.",
+              "answerZh": "在香港，其實很視乎場合而定。在家裡，很多人會喝水、湯，或者茶；而在餐廳裡，奶茶、檸茶、汽水，或者其他凍飲也很常見。選擇相當多元，而這也反映出香港傳統與現代習慣經常並存的特色。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What is a traditional drink in your country for celebrating?",
+              "questionZh": "在你的國家，慶祝時有甚麼傳統飲品？",
+              "answerEn": "Hong Kong does not really have one single celebratory drink that fits every occasion, but in more traditional family settings, tea still plays an important role, especially at banquets or festivals. In more modern celebrations, people often drink wine or champagne instead. So the drink may change, but the spirit of gathering together remains the same.",
+              "answerZh": "香港其實沒有一種能適用於所有慶祝場合的單一傳統飲品，不過在較傳統的家庭場合裡，茶仍然扮演很重要的角色，尤其是在宴席或節日時。而在較現代的慶祝場合中，人們則常常會喝紅酒或香檳。所以飲品也許會變，但大家聚在一起的那種心意其實是一樣的。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Have drinking habits changed in your country over time?",
+              "questionZh": "你國家的飲品習慣隨時間有改變嗎？",
+              "answerEn": "Yes, quite noticeably. People in Hong Kong still drink traditional beverages, but there is now much more interest in specialty coffee, bubble tea, health drinks, and all sorts of trendy options, especially among younger people. In other words, drinking habits have become more varied, more global, and perhaps a little more image-conscious as well.",
+              "answerZh": "有，而且改變得挺明顯。香港人仍然會喝傳統飲品，但現在大家對精品咖啡、珍珠奶茶、健康飲品，以及各種流行選擇都更有興趣，尤其是年輕人。換句話說，飲品習慣已經變得更多元、更全球化，也可能多了一點形象意識。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-12-evenings",
+          "index": 4,
+          "title": "Evenings",
+          "titleZh": "晚上",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like the evenings?",
+              "questionZh": "你喜歡晚上的時間嗎？",
+              "answerEn": "Yes, I do. I find evenings especially pleasant because the busiest part of the day is usually over, so I can slow down, clear my head, and do things at a more relaxed pace. In a way, evenings feel like a soft landing after a long day.",
+              "answerZh": "是的，我喜歡。我覺得晚上特別令人舒服，因為一天裡最忙的部分通常已經過去了，所以我可以放慢節奏、整理思緒，並以較輕鬆的步調去做事情。某程度上，晚上就像是在漫長一天之後的一次溫和著陸。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What do you often do in the evenings?",
+              "questionZh": "你晚上通常會做甚麼？",
+              "answerEn": "I usually do fairly simple things in the evenings, such as having dinner, taking a short break, watching something online, or reading for a while. If I still have energy left, I might also do a bit of work or prepare for the next day.",
+              "answerZh": "我晚上通常會做一些比較簡單的事情，例如吃晚飯、休息一下、看網上影片，或者讀一會兒書。如果我還有剩下的精力，我也可能會做一點工作，或者為第二天作一些準備。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you do the same thing every evening?",
+              "questionZh": "你每天晚上都做同樣的事情嗎？",
+              "answerEn": "Not exactly. There is a general pattern to my evenings, but it is not set in stone. Some nights are quiet and routine, while others are busier, especially if I have work to finish, friends to meet, or somewhere to go.",
+              "answerZh": "不完全是。我的晚上大致上有一個固定模式，但並不是一成不變。有些晚上很安靜，也很日常；但有些晚上會比較忙，尤其是如果我有工作要完成、有朋友要見，或者有地方要去的時候。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do you prefer to spend your evenings with family or friends?",
+              "questionZh": "你較喜歡和家人還是朋友一起度過晚上？",
+              "answerEn": "If I had to choose, I would probably say family, because evenings often feel more restful and natural at home. That said, spending time with friends can also be really enjoyable, especially when I want a change of scene or a more lively atmosphere.",
+              "answerZh": "如果一定要選，我大概會選家人，因為晚上的時間在家裡通常會感覺更放鬆，也更自然。不過，和朋友一起度過晚上其實也很愉快，尤其是當我想轉換一下環境，或者想要一點更熱鬧的氣氛的時候。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you ever work or study in the evenings?",
+              "questionZh": "你會在晚上工作或讀書嗎？",
+              "answerEn": "Yes, quite often, actually. Evenings can be a productive time for me because there are usually fewer interruptions, and the quieter atmosphere makes it easier to focus. Still, I try not to let work take over every evening, because that can become draining quite quickly.",
+              "answerZh": "會，而且其實都算經常。晚上對我來說可以是一段很有生產力的時間，因為通常干擾比較少，而較安靜的氣氛也更容易令人集中。不過，我也會盡量不讓工作霸佔每一個晚上，因為那樣很快就會讓人感到消耗。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you usually stay at home or go out in the evenings?",
+              "questionZh": "你晚上通常會留在家裡還是外出？",
+              "answerEn": "Most of the time, I stay at home. After a long day, home tends to feel more appealing because it is comfortable, familiar, and easier to relax in. Of course, I do go out sometimes, but only when there is a good reason to.",
+              "answerZh": "大多數時候，我會留在家裡。經過漫長的一天之後，家通常會顯得更有吸引力，因為它舒服、熟悉，而且更容易讓人放鬆。當然，我有時也會外出，不過通常都是在有充分理由的情況下。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What do people in your country usually do in the evenings?",
+              "questionZh": "你國家的人晚上通常會做甚麼？",
+              "answerEn": "In Hong Kong, people often have dinner with family, meet friends, shop, exercise, or simply unwind at home after work. Since life in Hong Kong can be quite fast-paced, many people see the evening as their chance to switch off and reclaim a bit of personal time.",
+              "answerZh": "在香港，人們晚上通常會和家人吃晚飯、見朋友、逛街、做運動，或者在下班後留在家裡放鬆一下。由於香港的生活節奏可以相當快，所以很多人都把晚上視為放空一下、重新拿回一點屬於自己時間的機會。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What is a popular activity for young people in your country in the evenings?",
+              "questionZh": "在你的國家，年輕人晚上最常做的活動是甚麼？",
+              "answerEn": "In Hong Kong, going out to eat, shopping, watching films, and spending time in cafés are all very popular evening activities for young people. A lot of them also like wandering around lively areas simply to chat, relax, and enjoy the atmosphere.",
+              "answerZh": "在香港，外出吃飯、逛街、看電影，以及去咖啡店坐坐，都是年輕人很受歡迎的晚間活動。很多年輕人也喜歡在一些熱鬧的地方隨意走走，只是為了聊天、放鬆，以及享受那種氣氛。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think evenings are a good time to relax?",
+              "questionZh": "你覺得晚上是放鬆的好時間嗎？",
+              "answerEn": "Yes, definitely. For most people, evenings come after the main demands of the day, so they naturally create space for rest and reflection. Even a quiet hour in the evening can take the edge off a stressful day.",
+              "answerZh": "是的，絕對是。對大多數人來說，晚上是在一天主要事情都完成之後出現的，所以它很自然地提供了休息和沉澱的空間。即使只是晚上安靜地度過一小時，也可以削弱壓力很大的那一天所帶來的緊繃感。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you prefer evenings or mornings?",
+              "questionZh": "你較喜歡晚上還是早上？",
+              "answerEn": "On balance, I prefer evenings. Mornings can feel rushed and demanding, whereas evenings usually have a gentler rhythm. I like the sense that the day is winding down rather than just beginning.",
+              "answerZh": "整體來說，我比較喜歡晚上。早上有時會讓人感到匆忙而且充滿要求；相反，晚上通常有一種較溫和的節奏。我很喜歡那種一天正在慢慢收起來的感覺，而不是才剛剛開始。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Has your evening routine changed over time?",
+              "questionZh": "你的晚間習慣有隨時間改變嗎？",
+              "answerEn": "Yes, quite a lot. When I was younger, my evenings were usually more casual and unstructured, but now I tend to be more intentional about how I use that time. These days, I try to strike a balance between being productive and giving myself enough room to rest.",
+              "answerZh": "有，而且改變了不少。我年紀比較小的時候，晚上的時間通常比較隨意，也沒有甚麼固定安排；但現在我會更有意識地使用那段時間。這些日子，我會盡量在效率和休息之間取得平衡。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you do the same thing in the evenings as you did when you were a child?",
+              "questionZh": "你現在晚上做的事情，和你小時候一樣嗎？",
+              "answerEn": "Not really. When I was a child, evenings were much simpler, and I mostly spent them doing homework, watching television, or getting ready for bed. Now my evenings are more varied, because I have more independence and more choices about how I spend my time.",
+              "answerZh": "不太一樣。我小時候的晚上簡單得多，通常主要就是做功課、看電視，或者準備睡覺。現在我的晚上活動更多樣化，因為我有更多自主性，也有更多選擇去決定怎樣使用自己的時間。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-12-going-out",
+          "index": 5,
+          "title": "Going Out",
+          "titleZh": "外出",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you often go out in the evenings?",
+              "questionZh": "你晚上常常外出嗎？",
+              "answerEn": "Yes, fairly often, though not every night. I like going out in the evening because it helps me unwind after a long day, whether that means meeting friends, having dinner outside, or simply taking a walk. That said, if I am tired or busy, I am just as happy to stay in.",
+              "answerZh": "是的，都算幾常，不過不是每一晚都會。 我喜歡晚上外出，因為這能讓我在漫長的一天之後放鬆下來，不論是和朋友見面、在外面吃飯，還是單純散步都好。 不過，如果我很累或者很忙，我也一樣會很樂意留在家裡。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you go out in a week?",
+              "questionZh": "你一星期大概外出多少次？",
+              "answerEn": "I would say I go out socially about two or three times a week. On weekdays, it is usually something simple, like dinner or coffee, while weekends leave more room for longer outings. So it is regular, but not excessive.",
+              "answerZh": "我會說，如果是社交性質的外出，我大概一星期會出去兩至三次。 平日通常都只是比較簡單的活動，例如吃飯或者喝咖啡，而週末就比較有空做長一點的行程。 所以算是穩定，但不算過多。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What do you like to do when you go out?",
+              "questionZh": "你外出的時候喜歡做些甚麼？",
+              "answerEn": "I usually like doing fairly relaxed things, such as trying a new restaurant, watching a film, browsing in bookshops, or walking around an interesting neighbourhood. I do not always need something spectacular; sometimes a simple outing can still hit the spot.",
+              "answerZh": "我外出的時候通常比較喜歡做一些輕鬆的事情，例如試一間新餐廳、看電影、逛書店，或者在有趣的社區裡四處走走。 我不一定每次都需要很精彩的大活動；有時候，一次簡單的外出其實也已經很滿足。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Who do you usually go out with?",
+              "questionZh": "你通常和誰一起外出？",
+              "answerEn": "Most of the time, I go out with friends or family, depending on the occasion. If it is something casual, like coffee or a meal, I usually go with close friends, but for weekend outings or celebrations, family is often part of the picture as well.",
+              "answerZh": "大多數時候，我會和朋友或者家人一起外出，視乎是甚麼場合而定。 如果是比較隨意的活動，例如喝咖啡或者吃飯，我通常會和好朋友一起去；但如果是週末外出或者慶祝活動，家人很多時候也會一起參與。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer going out on your own or with friends?",
+              "questionZh": "你比較喜歡自己外出，還是和朋友一起外出？",
+              "answerEn": "On balance, I prefer going out with friends because good company can make an ordinary outing feel much more lively. We can talk, laugh, and bounce ideas off each other, which makes the experience richer. Still, I also enjoy going out alone from time to time, especially when I want a bit of peace.",
+              "answerZh": "整體來說，我比較喜歡和朋友一起外出，因為有好的陪伴，連很普通的外出都會變得更有生氣。 我們可以聊天、說笑，也可以互相交流想法，這會令整個體驗更豐富。 不過，我偶爾也很享受自己一個人出去，尤其是當我想要一點安靜的時候。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you prefer going out in the daytime or in the evening?",
+              "questionZh": "你比較喜歡白天外出還是晚上外出？",
+              "answerEn": "I probably prefer the evening. There is something about the city lights, the slower pace after work, and the sense that the day is opening into leisure rather than duty. Daytime outings are nice too, especially for museums or cafés, but evenings usually feel more atmospheric to me.",
+              "answerZh": "我大概比較喜歡晚上。 城市的燈光、下班後較慢的節奏，以及那種一天從責任轉入休閒的感覺，都很吸引我。 白天外出當然也不錯，尤其是去博物館或者咖啡店的時候，不過對我來說，晚上通常更有氣氛。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Where do you usually go when you go out?",
+              "questionZh": "你外出的時候通常會去哪些地方？",
+              "answerEn": "I usually go to restaurants, cafés, shopping areas, cinemas, or waterfront places where I can walk around. In Hong Kong, it is quite easy to find lively districts with plenty to do, so I tend to choose places where I can either relax or wander a little.",
+              "answerZh": "我外出的時候通常會去餐廳、咖啡店、購物區、戲院，或者一些可以散步的海旁地方。 在香港，要找到熱鬧又有很多活動可以做的地區其實很容易，所以我通常都會選一些可以放鬆，或者可以隨意走走的地方。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Did you go out a lot when you were a child?",
+              "questionZh": "你小時候常常外出嗎？",
+              "answerEn": "Yes, I think so, although the outings were obviously different from the ones I have now. When I was a child, going out usually meant visiting parks, playgrounds, shopping centres, or relatives’ homes, so it was less about independence and more about family routine.",
+              "answerZh": "是的，我想都算常，不過那時候外出的形式當然和我現在很不同。 我小時候，外出通常是去公園、遊樂場、商場，或者親戚家裡，所以那時候比較不是關於自主，而是家庭生活的一部分。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you enjoy going out at weekends?",
+              "questionZh": "你喜歡在週末外出嗎？",
+              "answerEn": "Yes, I do, because weekends give me the mental space to enjoy it properly. On weekdays, going out can feel squeezed in between responsibilities, whereas at weekends I can take my time and enjoy the day without watching the clock too closely.",
+              "answerZh": "是的，我喜歡，因為週末讓我有足夠的心理空間去真正享受外出。 平日外出的感覺有時像是在一堆責任中硬擠出來的；相反，在週末，我可以慢慢來，也不用一直太在意時間。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Where do most young people like to go out in your country?",
+              "questionZh": "在你的國家，大多數年輕人喜歡去哪些地方外出？",
+              "answerEn": "In Hong Kong, many young people like to go to shopping districts, cafés, restaurants, cinemas, karaoke places, and waterfront areas. Some also enjoy going to night markets or creative neighbourhoods with small shops and photo-worthy corners. In short, they tend to look for places that are social, convenient, and visually interesting.",
+              "answerZh": "在香港，很多年輕人喜歡去購物區、咖啡店、餐廳、戲院、唱卡拉 OK 的地方，以及海旁地區。 有些人也喜歡去夜市，或者一些有小店和適合拍照角落的文青社區。 簡單來說，他們通常會找一些既有社交氣氛、又方便，而且在視覺上也有吸引力的地方。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Has the way people go out changed in recent years?",
+              "questionZh": "近年來，人們外出的方式有改變嗎？",
+              "answerEn": "Yes, definitely. People now seem more influenced by convenience, social media, and lifestyle trends, so going out is often shaped as much by atmosphere as by activity. For example, some people choose places not only to eat or relax, but also because they are aesthetically pleasing or easy to share online.",
+              "answerZh": "有，絕對有。 現在的人似乎更受方便程度、社交媒體，以及生活潮流影響，所以外出的安排很多時候不只是看活動本身，也很看重整體氣氛。 例如，有些人選擇去某些地方，不只是為了吃飯或者放鬆，也因為那些地方好看、適合拍照，或者方便分享到網上。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think you will go out more or less in the future?",
+              "questionZh": "你覺得你將來會外出得更多還是更少？",
+              "answerEn": "I think I will probably go out a little less often, but more intentionally. As people get older, they often stop going out just for the sake of it and start choosing outings that genuinely add something to their life. So perhaps less in quantity, but better in quality.",
+              "answerZh": "我覺得我將來大概會外出得少一點，不過會更有目的。 隨著年紀漸長，人很多時候不再只是為了出去而出去，而是會開始挑選那些真正能為生活帶來一些價值的外出。 所以可能在次數上會少一點，但在質素上會更好。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 13,
+      "displayTitle": "Book 13 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-13-happiness",
+          "index": 1,
+          "title": "Happiness",
+          "titleZh": "快樂",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Are you a happy person?",
+              "questionZh": "你是一個快樂的人嗎？",
+              "answerEn": "I would say yes, in a fairly grounded way. I am not cheerful every minute of the day, of course, but I generally feel content with my life, and that kind of quiet happiness matters more to me than constant excitement.",
+              "answerZh": "我會說是，而且是一種比較踏實的快樂。當然，我不可能一天到晚都很開心，但整體來說，我對自己的生活是感到滿足的，而對我來說，那種安靜而穩定的快樂，比持續不斷的興奮更重要。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What usually makes you happy or unhappy?",
+              "questionZh": "通常甚麼會令你快樂，或者不快樂？",
+              "answerEn": "What usually makes me happy is having peace of mind, spending time with people I care about, and feeling that my day has some purpose. By contrast, stress, misunderstandings, and the feeling of being emotionally drained can make me quite unhappy.",
+              "answerZh": "通常令我快樂的，是內心平靜、和我在乎的人相處，以及覺得自己的一天是有意義的。相反，壓力、誤會，以及那種情緒上被掏空的感覺，就會令我相當不快樂。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What makes you smile?",
+              "questionZh": "甚麼會令你微笑？",
+              "answerEn": "Usually small, genuine things. A funny remark, a kind message, an unexpectedly good meal, or even seeing someone be thoughtful in an ordinary moment can make me smile. Sometimes it is the little things that land the deepest.",
+              "answerZh": "通常都是一些細小而真實的事情。一句好笑的話、一個貼心的訊息、一頓意想不到地好吃的飯，甚至只是看到別人在平凡時刻裡流露出體貼，都會令我微笑。有時候，最小的事情反而最容易打動人。"
+            },
+            {
+              "number": 4,
+              "questionEn": "When do you usually feel happiest?",
+              "questionZh": "你通常在甚麼時候覺得自己最快樂？",
+              "answerEn": "I usually feel happiest when I am fully present and not rushing from one thing to another. For example, when I am sharing a relaxed meal with family or friends, or when I have finished something meaningful and can finally breathe out, that is when happiness tends to feel most real to me.",
+              "answerZh": "我通常在自己真正活在當下，而不是不停趕來趕去的時候，會覺得最快樂。比如說，當我和家人或朋友輕鬆地一起吃一頓飯，或者當我完成了一件有意義的事情，終於能鬆一口氣時，那種時候的快樂對我來說最真實。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What kinds of things make people happy in your country?",
+              "questionZh": "在你的國家，甚麼樣的事情會令人快樂？",
+              "answerEn": "In Hong Kong, I think many people find happiness in fairly simple but meaningful things, such as good food, family gatherings, financial stability, and small breaks from a fast-paced life. The city can be quite intense, so people often treasure moments that bring comfort, connection, and a sense of release.",
+              "answerZh": "在香港，我覺得很多人會從一些看似簡單、但很有分量的事情裡得到快樂，例如美食、家庭聚會、經濟穩定，以及從快節奏生活中偷來的一點喘息空間。這座城市可以很緊繃，所以人們往往會特別珍惜那些能帶來安慰、連結，以及放鬆感的時刻。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you think money can make people happy?",
+              "questionZh": "你覺得金錢可以令人快樂嗎？",
+              "answerEn": "To some extent, yes. Money can buy security, comfort, and freedom from certain worries, and that can definitely make life easier; however, it cannot guarantee deep happiness by itself. It can fill your house, but it cannot always quiet your mind.",
+              "answerZh": "某程度上，我覺得可以。金錢能買來安全感、舒適感，以及免去某些憂慮的自由，而這些的確能令生活更輕鬆；不過，它本身並不能保證深層的快樂。它可以填滿你的房子，卻未必能安靜你的內心。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Is happiness more important than success?",
+              "questionZh": "快樂比成功更重要嗎？",
+              "answerEn": "If I had to choose, I would say yes. Success can look impressive on paper, but if it comes at the cost of your peace, health, or relationships, it can start to feel strangely hollow. To me, success is best when it supports happiness rather than replaces it.",
+              "answerZh": "如果一定要選，我會說是。成功在紙面上看起來可以很亮眼，但如果它是以你的平靜、健康，或者人際關係為代價換來的，它就會開始顯得有點空。對我來說，最理想的情況是成功能支撐快樂，而不是取代快樂。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Were you happier when you were a child?",
+              "questionZh": "你小時候比較快樂嗎？",
+              "answerEn": "In some ways, yes, because life was simpler and I had fewer responsibilities. That said, I would not say I was automatically happier, because childhood happiness is lighter and more carefree, whereas adult happiness can be deeper and more meaningful.",
+              "answerZh": "某些方面來說，是的，因為那時生活比較簡單，而且責任也少得多。不過，我不會說自己那時就一定比較快樂，因為童年的快樂比較輕盈、比較無憂無慮，而成年後的快樂則可能更深，也更有意義。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think people in your country are generally happy people?",
+              "questionZh": "你覺得你國家的人整體來說算是快樂嗎？",
+              "answerEn": "I think it is mixed. In Hong Kong, many people live under quite a lot of pressure, so happiness is not always written on their faces; however, that does not mean they lack it altogether. I think people here are resilient, and they often carve out moments of joy even in a demanding environment.",
+              "answerZh": "我覺得是比較複雜的。在香港，很多人都承受著相當大的壓力，所以快樂未必總是直接寫在臉上；不過，那也不代表他們完全沒有快樂。我覺得這裡的人很有韌性，而且即使身處高壓環境，他們仍然常常會替自己劃出一些快樂的小空間。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What do people usually do when they feel unhappy?",
+              "questionZh": "當人們感到不快樂時，通常會做甚麼？",
+              "answerEn": "It depends on the person, but many people talk to someone they trust, listen to music, rest, or try to distract themselves for a while. Others may go for a walk, exercise, or simply give themselves some quiet time, because sometimes what the mind needs most is not noise but space.",
+              "answerZh": "那要看是甚麼人，但很多人會找一個信任的人傾訴、聽音樂、休息，或者暫時讓自己分心一下。也有人會去散步、做運動，或者單純給自己一點安靜的時間，因為有時心最需要的不是更多聲音，而是空間。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Can people learn to be happier?",
+              "questionZh": "人可以學會讓自己更快樂嗎？",
+              "answerEn": "Yes, I believe they can, at least to some extent. People may not be able to control every circumstance, but they can often learn healthier habits, set better boundaries, and pay more attention to what genuinely nourishes them. Happiness is not always something that arrives; sometimes it is something you practise.",
+              "answerZh": "可以，我相信可以，至少某程度上是這樣。人未必能控制所有處境，但他們往往可以學會更健康的習慣、設立更好的界線，並且更留意那些真正滋養自己的東西。快樂不一定總是自己降臨；有時它其實是一種需要練習的能力。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think happiness means the same thing to everyone?",
+              "questionZh": "你覺得快樂對每個人來說都代表同一樣東西嗎？",
+              "answerEn": "No, not at all. For some people, happiness means excitement and adventure, while for others it means stability, family, or inner calm. The word is the same, but the shape it takes can be completely different from one person to another.",
+              "answerZh": "不，我完全不這樣認為。對一些人來說，快樂意味著刺激和冒險；而對另一些人來說，它意味著穩定、家庭，或者內心的平靜。那個字是一樣的，但它呈現出來的樣子，卻可能因人而異，完全不同。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-13-hobbies",
+          "index": 2,
+          "title": "Hobbies",
+          "titleZh": "興趣愛好",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you have a hobby?",
+              "questionZh": "你有興趣愛好嗎？",
+              "answerEn": "Yes, I do. I think having a hobby is important because it gives life a bit of texture beyond work or study. Without that kind of personal space, daily life can start to feel a little flat.",
+              "answerZh": "有的。我覺得有一個興趣很重要，因為它會讓生活在工作或讀書以外多一點層次。如果沒有那種屬於自己的空間，日常生活有時就會開始變得有點單調。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What is your main hobby?",
+              "questionZh": "你主要的興趣是甚麼？",
+              "answerEn": "My main hobby is reading. I enjoy it because it is both relaxing and mentally engaging, which is quite a rare combination. A good book can quiet the mind and widen it at the same time.",
+              "answerZh": "我主要的興趣是閱讀。我喜歡它，因為它同時令人放鬆，又能刺激思考，而這種組合其實很難得。一本好書可以一邊讓人安靜下來，一邊把人的視野打開。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How often do you spend time on your hobby?",
+              "questionZh": "你多常花時間在你的興趣上？",
+              "answerEn": "Quite often, actually, probably a few times a week, and sometimes every day if I have the time. Even if I only read for twenty or thirty minutes, it still feels worthwhile. For me, it is less about quantity than about consistency.",
+              "answerZh": "其實都算幾常，大概每星期幾次，如果我有時間的話，有時甚至每天都會看。即使我只看二十分鐘或半小時，我仍然會覺得很值得。對我來說，重點不只是時間長短，而是能否持之以恆。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What equipment do you need for it?",
+              "questionZh": "你需要甚麼工具去做這個興趣？",
+              "answerEn": "The good thing about reading is that it does not require much. All I really need is a book or an e-reader, decent lighting, and a quiet corner. In that sense, it is a simple hobby with surprisingly rich rewards.",
+              "answerZh": "閱讀的好處之一，就是它其實不需要很多工具。我真正需要的，大概只是一本文字書或電子書閱讀器、足夠的光線，以及一個安靜的角落。從這個角度來說，它是一個很簡單的興趣，卻能帶來相當豐富的回報。"
+            },
+            {
+              "number": 5,
+              "questionEn": "How did you become interested in that hobby?",
+              "questionZh": "你是怎樣開始對這個興趣產生興趣的？",
+              "answerEn": "I became interested in reading quite naturally when I was younger. I think it began with school libraries and a few teachers who made books feel less like homework and more like discovery. Once I realised that books could take me into other lives and other ways of thinking, I was hooked.",
+              "answerZh": "我對閱讀的興趣是在年紀較小的時候很自然地形成的。我想，那是從學校圖書館開始的，也和幾位老師有關，因為他們讓書本感覺不像功課，反而更像探索。當我意識到書可以帶我走進別人的人生，以及不同的思考方式時，我就真的喜歡上了。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you prefer hobbies you can do alone or with other people?",
+              "questionZh": "你比較喜歡可以自己做的興趣，還是和別人一起做的？",
+              "answerEn": "On balance, I prefer hobbies I can do alone, because they give me space to slow down and think. That said, I can also see the appeal of shared hobbies, since they bring energy and connection. So I would say I lean towards solitary hobbies, but I am not completely closed off to the other kind.",
+              "answerZh": "整體來說，我比較喜歡可以自己做的興趣，因為它們能給我空間放慢節奏和思考。不過，我也明白和別人一起做興趣的吸引力，因為那會帶來活力和連結。所以我會說，我比較偏向獨自進行的興趣，但並不是完全排斥另一種。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you think hobbies should be shared with other people?",
+              "questionZh": "你認為興趣應該和別人分享嗎？",
+              "answerEn": "They can be shared, but I do not think they have to be. Some hobbies become richer when people exchange ideas or enjoy them together, whereas others work best as private forms of rest or reflection. The point of a hobby is not performance; it is personal meaning.",
+              "answerZh": "可以分享，但我不覺得一定要。某些興趣在和別人交流想法、一起享受時會變得更有意思；相反，另一些則更適合作為私人休息或反思的方式。興趣的重點並不是表演給別人看，而是它對自己有沒有意義。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Did you have a hobby as a child?",
+              "questionZh": "你小時候有興趣嗎？",
+              "answerEn": "Yes, I did. When I was a child, I enjoyed reading as well, although I also spent more time on simple hobbies like drawing and casual games. At that age, hobbies felt less structured and more spontaneous.",
+              "answerZh": "有的。我小時候也喜歡閱讀，不過那時我也會花更多時間在一些比較簡單的興趣上，例如畫畫和一些輕鬆的遊戲。那個年紀的興趣通常沒有那麼有系統，反而更自然、更即興。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Have your hobbies changed since you were younger?",
+              "questionZh": "你的興趣自從年輕時到現在有改變嗎？",
+              "answerEn": "Yes, they have changed quite a bit. When I was younger, I was drawn more to hobbies that were playful and immediate, whereas now I value hobbies that help me think, recharge, or learn something. In other words, my hobbies have grown up with me.",
+              "answerZh": "有，改變了不少。我小時候比較容易被那些好玩、即時帶來樂趣的興趣吸引；但現在，我更重視那些能讓我思考、恢復精神，或者學到一些東西的興趣。換句話說，我的興趣也跟着我一起長大了。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What hobbies are popular in your country?",
+              "questionZh": "在你的國家，甚麼興趣很受歡迎？",
+              "answerEn": "In Hong Kong, quite a wide range of hobbies is popular. Many people enjoy hiking, going to the gym, photography, gaming, watching films, or playing sports, partly because people want a break from the pace of city life. In a fast-moving place, hobbies often become a form of release.",
+              "answerZh": "在香港，受歡迎的興趣其實相當多元。很多人喜歡行山、健身、攝影、打機、看電影，或者做運動，部分原因是大家都想從城市生活的節奏裡抽一口氣。在一個節奏很快的地方，興趣很多時就變成一種釋放方式。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Why do you think people have hobbies?",
+              "questionZh": "你覺得人們為甚麼會有興趣愛好？",
+              "answerEn": "I think people have hobbies because they need something that belongs entirely to them. A hobby can bring pleasure, relieve stress, build skill, and sometimes even give people a sense of identity. It is not just a way to pass the time; it is often a way to protect part of yourself from becoming swallowed up by routine.",
+              "answerZh": "我覺得人們會有興趣，是因為他們需要一些完全屬於自己的東西。興趣可以帶來快樂、紓解壓力、培養技能，有時甚至會給人一種身份感。它不只是一種消磨時間的方法；很多時候，它其實是在保護自己的一部分，不被日常規律完全吞沒。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think hobbies are important in life?",
+              "questionZh": "你認為興趣在人生中重要嗎？",
+              "answerEn": "Yes, absolutely. Hobbies make life feel more balanced, more human, and sometimes even more hopeful, because they remind people that life is not only about duty. Work may pay the bills, but hobbies often feed the spirit.",
+              "answerZh": "是的，絕對重要。興趣會令生活感覺更平衡、更有人味，有時甚至更有希望，因為它提醒人，人生並不只是責任而已。工作也許是用來支付生活開支的，但興趣很多時候是在滋養人的內在。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-13-languages",
+          "index": 3,
+          "title": "Languages",
+          "titleZh": "語言",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "How many foreign languages do you speak?",
+              "questionZh": "你會說多少種外語？",
+              "answerEn": "I’d say two to some extent: English quite confidently, and a little Japanese. English is the one I can actually use with ease, whereas my Japanese is still very much a work in progress.",
+              "answerZh": "我會說某程度上算是兩種：英文我相當有信心，而日文則只懂一點。英文是我真正能夠比較自如使用的語言，而我的日文則仍然很明顯是在學習當中。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What foreign language are you learning now?",
+              "questionZh": "你現在正在學甚麼外語？",
+              "answerEn": "At the moment, I’m learning Japanese. I started because I enjoy Japanese films and travel, but over time I became interested in the language itself rather than just the culture around it.",
+              "answerZh": "目前我正在學日文。我一開始是因為喜歡日本電影和旅行而開始學，不過久而久之，我對這門語言本身也產生了興趣，而不只是它背後的文化。"
+            },
+            {
+              "number": 3,
+              "questionEn": "When did you start learning your first foreign language?",
+              "questionZh": "你甚麼時候開始學第一種外語？",
+              "answerEn": "I started learning my first foreign language, English, when I was very young, probably in primary school, or even earlier than that. In Hong Kong, English comes into your life quite early, so it has always felt like a familiar part of my education.",
+              "answerZh": "我開始學第一種外語，也就是英文的時候，其實已經很小了，大概是在小學，甚至可能更早。在香港，英文很早就會進入一個人的生活，所以它一直都像是我教育裡很熟悉的一部分。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Why did you start learning that language?",
+              "questionZh": "你為甚麼開始學那種語言？",
+              "answerEn": "At first, I learned it simply because it was a core subject at school. Later on, though, I realised it opened a lot of doors academically and professionally, so it became much more than just another school subject.",
+              "answerZh": "最初，我學它其實只是因為它是學校的核心科目。不過後來我慢慢發現，它在學業和工作上都能打開很多機會，所以它就不再只是另一科普通的學校科目了。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you enjoy learning languages?",
+              "questionZh": "你喜歡學語言嗎？",
+              "answerEn": "Yes, I do. It can be frustrating at times, of course, but I still find it deeply rewarding because learning a language feels like gaining another way of seeing the world.",
+              "answerZh": "是的，我喜歡。當然，有時候學語言也會讓人覺得挫折，不過我仍然覺得它很有回報，因為學一門語言就像是多得到了一種看世界的方式。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Is it difficult for you to learn a new language?",
+              "questionZh": "對你來說，學一門新語言困難嗎？",
+              "answerEn": "Yes, especially at the beginning. The early stage can feel quite uncomfortable because you suddenly become very aware of how little you can say, but once you get over that hump, it becomes much more enjoyable.",
+              "answerZh": "會，尤其是在一開始的時候。最初的階段可能會令人有點不自在，因為你會突然很清楚地感覺到自己能說的東西其實很少，但一旦過了那個關口，就會變得愈來愈有趣。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How many foreign languages do children in your country learn at school?",
+              "questionZh": "你地方的小朋友在學校會學多少種外語？",
+              "answerEn": "In Hong Kong, most children learn English at school, and many also study Putonghua as an additional language. So from quite an early age, they are usually exposed to more than one language beyond the one they use at home.",
+              "answerZh": "在香港，大部分小朋友都會在學校學英文，而很多人也會學普通話作為另一種附加語言。所以他們從很小的時候開始，通常就已經接觸到不只一種家庭語言以外的語言。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What foreign language is most commonly learned in your country?",
+              "questionZh": "你地方最常學的外語是甚麼？",
+              "answerEn": "That would definitely be English. It plays such an important role in education, work, and international communication that almost everyone studies it at some point.",
+              "answerZh": "那肯定是英文。它在教育、工作和國際溝通中都扮演很重要的角色，所以幾乎每個人在人生某個階段都會學它。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you think it is important to learn a foreign language?",
+              "questionZh": "你覺得學外語重要嗎？",
+              "answerEn": "Yes, absolutely. A foreign language can broaden your opportunities, but just as importantly, it can broaden your mind, because it allows you to connect with people and ideas outside your own linguistic bubble.",
+              "answerZh": "是的，絕對重要。外語可以擴闊一個人的機會，而同樣重要的是，它也可以擴闊一個人的思維，因為它讓你能夠接觸自己語言圈子以外的人和想法。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What is the best way to learn a foreign language?",
+              "questionZh": "學外語最好的方法是甚麼？",
+              "answerEn": "I think the best way is to combine structure with real exposure. Classes can give you a solid foundation, but you only really start owning a language when you hear it often, use it naturally, and live with it a little.",
+              "answerZh": "我覺得最好的方法，是把有系統的學習和真實接觸結合起來。課堂可以給你一個穩固的基礎，但你真正開始掌握一門語言，往往是在你經常聽到它、自然地使用它，並讓它成為你生活一部分的時候。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you prefer learning languages in a class or by yourself?",
+              "questionZh": "你比較喜歡在課堂裡學語言，還是自己學？",
+              "answerEn": "I prefer learning in a class at the beginning and by myself later on. A class gives you guidance and discipline, whereas self-study gives you the freedom to go at your own pace and focus on the areas you personally need most.",
+              "answerZh": "我比較喜歡一開始在課堂裡學，之後再自己學。課堂能給你指引和規律，而自學則讓你可以按照自己的節奏前進，並把重點放在自己最需要的地方。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think you will learn another foreign language in the future?",
+              "questionZh": "你覺得你將來還會再學另一種外語嗎？",
+              "answerEn": "Yes, I think so. If I had the time, I’d love to improve my Japanese further, or perhaps even pick up Korean one day, simply because I enjoy the process of learning how other languages work.",
+              "answerZh": "會，我覺得會。如果我有時間的話，我很想把日文再進一步學好一點，或者將來也想學韓文，單純因為我很享受理解其他語言是怎樣運作的那個過程。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-13-leisure-time",
+          "index": 4,
+          "title": "Leisure Time",
+          "titleZh": "休閒時間",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What is your favourite leisure activity?",
+              "questionZh": "你最喜歡的休閒活動是甚麼？",
+              "answerEn": "My favourite leisure activity is probably reading. I like it because it helps me slow down and step outside my own routine for a while. A good book can feel like a quiet doorway into another world, which is something I find both relaxing and enriching.",
+              "answerZh": "我最喜歡的休閒活動大概是閱讀。我喜歡它，因為它能讓我慢下來，暫時走出自己日常生活的節奏。一本好書有時就像通往另一個世界的一道安靜門口一樣，而我覺得這既令人放鬆，也很有收穫。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What do you usually do in your free time?",
+              "questionZh": "你平時在空閒時間通常會做甚麼？",
+              "answerEn": "In my free time, I usually do fairly simple things, such as reading, listening to music, watching films, or going for a walk. I do not always need something exciting; sometimes the best kind of free time is the kind that lets your mind breathe.",
+              "answerZh": "在空閒時間裡，我通常會做一些相當簡單的事情，例如閱讀、聽音樂、看電影，或者散步。我不一定每次都需要很刺激的活動；有時最好的休閒時間，反而是那種能讓腦袋喘一口氣的時間。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How much leisure time do you usually have?",
+              "questionZh": "你通常有多少休閒時間？",
+              "answerEn": "It varies quite a bit depending on how busy my schedule is. On weekdays, I usually only have a limited amount of free time, but at weekends I can relax a little more. So I would say I have enough to recharge, though not always as much as I would like.",
+              "answerZh": "這很視乎我的日程有多忙。平日我通常只有比較有限的空閒時間，但到了週末，我就可以多放鬆一點。所以我會說，我有足夠的時間讓自己恢復精神，只是不一定有我想像中那麼多。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What did you enjoy doing in your free time as a child?",
+              "questionZh": "你小時候在空閒時間喜歡做甚麼？",
+              "answerEn": "As a child, I enjoyed playing outside, watching cartoons, and spending time with my friends. Back then, leisure felt much more spontaneous, and fun came in very simple forms. It did not take much to make a day feel exciting.",
+              "answerZh": "我小時候喜歡到外面玩、看卡通片，以及和朋友一起消磨時間。那時候的休閒感覺上自然得多，而快樂也往往來自很簡單的事情。要讓一天變得很有趣，其實不需要太多東西。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer to spend your free time with other people or alone?",
+              "questionZh": "你比較喜歡和別人一起度過空閒時間，還是自己一個人？",
+              "answerEn": "That depends on my mood, but on balance I probably prefer a mix of both. Spending time with other people can be lively and refreshing, whereas being alone gives me space to reset and think clearly. In a way, one gives me energy and the other gives me peace.",
+              "answerZh": "這要看我的心情，不過整體來說，我大概比較喜歡兩者都有。和別人一起相處可以很熱鬧，也很令人精神一振；而自己一個人則能給我重整狀態和清晰思考的空間。某程度上，一種給我能量，另一種給我平靜。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you prefer indoor or outdoor leisure activities?",
+              "questionZh": "你比較喜歡室內還是戶外休閒活動？",
+              "answerEn": "I would say I lean slightly towards indoor activities, mainly because they are easier to fit into daily life and less affected by the weather. That said, outdoor activities have a freshness that indoor ones sometimes lack, so I can really enjoy them when the conditions are right.",
+              "answerZh": "我會說自己稍微偏向室內活動，主要是因為它們比較容易融入日常生活，而且不太受天氣影響。不過，戶外活動有一種室內活動有時候欠缺的新鮮感，所以只要條件合適，我也會很享受。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What do you usually do at weekends?",
+              "questionZh": "你週末通常會做甚麼？",
+              "answerEn": "At weekends, I usually try to strike a balance between rest and catching up on things I could not do during the week. I might meet friends, spend some time with family, read, or simply stay in and recharge. I do not believe every weekend has to be packed from morning to night.",
+              "answerZh": "到了週末，我通常會盡量在休息和處理平日沒空做的事情之間取得平衡。我可能會見朋友、陪陪家人、閱讀，或者乾脆留在家裡讓自己充電。我並不認為每個週末都一定要從早到晚排得滿滿的。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Has the way you spend your free time changed over time?",
+              "questionZh": "你使用空閒時間的方式隨時間有改變嗎？",
+              "answerEn": "Yes, quite noticeably. When I was younger, I was more drawn to playful and social activities, but now I value activities that help me relax, reflect, or recover from a busy schedule. In other words, my free time has become a little quieter and a little more intentional.",
+              "answerZh": "有，而且改變得挺明顯。年紀較小的時候，我比較容易被好玩和社交性的活動吸引；但現在，我更重視那些能讓我放鬆、思考，或者從繁忙生活中恢復過來的活動。換句話說，我的休閒時間變得比較安靜，也比較有意識了。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What is a common leisure activity in your country?",
+              "questionZh": "在你的國家，常見的休閒活動是甚麼？",
+              "answerEn": "In Hong Kong, eating out is definitely one of the most common leisure activities. People often meet friends or family over a meal, not just because the food is good, but because sharing food is also a way of sharing time. Shopping and watching films are also very common.",
+              "answerZh": "在香港，外出吃飯絕對是其中一種最常見的休閒活動。人們常常和朋友或家人一起吃飯，不只是因為食物好吃，也因為一起吃東西本身就是一起分享時間的一種方式。購物和看電影也同樣很普遍。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do most people in your country get two days off a week?",
+              "questionZh": "你國家大多數人每星期都有兩天假期嗎？",
+              "answerEn": "Many people do, especially those in office-based jobs, but not everyone does. In Hong Kong, people working in retail, hospitality, or shift-based roles often have less predictable schedules, so two clear days off are not always guaranteed. It really depends on the industry.",
+              "answerZh": "很多人都有，尤其是那些從事辦公室工作的人，但並不是每個人都如此。在香港，從事零售、酒店業，或者輪班工作的人，時間表往往沒有那麼固定，所以每星期有清楚的兩天假期並不一定有保證。這真的很視乎行業。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you think leisure time is important?",
+              "questionZh": "你覺得休閒時間重要嗎？",
+              "answerEn": "Yes, absolutely. Leisure time is not a luxury; it is part of a healthy life, because people cannot run at full speed forever without burning out. It gives people room to rest, reconnect, and return to work or study with a clearer mind.",
+              "answerZh": "是的，當然重要。休閒時間並不是奢侈品，而是健康生活的一部分，因為人不可能永遠以全速運作而不筋疲力盡。它給人空間去休息、重新連結自己，也讓人能以更清晰的頭腦回到工作或學習之中。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think people have more or less leisure time than in the past?",
+              "questionZh": "你覺得現在的人比以前有更多還是更少休閒時間？",
+              "answerEn": "I think, in practice, many people have less meaningful leisure time than in the past, even if technology has made some tasks quicker. The problem is that free time is often broken into small fragments, and those fragments are easily swallowed by screens, notifications, and work that follows people home. So people may have moments to spare, but not always real time to unwind.",
+              "answerZh": "我覺得從實際角度來看，很多人現在擁有的「有意義的休閒時間」比以前更少了，即使科技確實令一些事情變得更快。問題在於，空閒時間常常被切成很多零碎的小片段，而這些片段又很容易被螢幕、通知，以及跟著人回家的工作吞掉。所以，人們也許有一些零散時間可用，但不一定真正有時間去放鬆。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-13-shopping",
+          "index": 5,
+          "title": "Shopping",
+          "titleZh": "購物",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like shopping?",
+              "questionZh": "你喜歡購物嗎？",
+              "answerEn": "Yes, I do, although it depends a lot on what I am shopping for. If I am buying something I genuinely need or something I am excited about, I enjoy it quite a bit, but if it is crowded or I am just browsing without a purpose, it can become tiring quite quickly.",
+              "answerZh": "是的，我喜歡，不過這很取決於我是去買甚麼。如果我是去買真正需要的東西，或者是我本身就很期待的東西，我會挺享受；但如果地方太擠，或者我只是漫無目的地逛，那就很快會讓人覺得累。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What’s your favourite shop?",
+              "questionZh": "你最喜歡的店舖是甚麼？",
+              "answerEn": "One of my favourite shops is a good bookstore, especially one that is quiet, well laid out, and easy to browse in. I like shops that invite you to slow down rather than rush, and a bookstore usually gives me exactly that feeling.",
+              "answerZh": "我最喜歡的其中一種店舖是好的書店，尤其是那種安靜、佈局清晰，而且很容易慢慢逛的書店。我喜歡那種會讓人放慢腳步，而不是催促你快快買完離開的店，而書店通常正正會帶給我這種感覺。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you prefer shopping alone or with others?",
+              "questionZh": "你比較喜歡自己購物還是和別人一起購物？",
+              "answerEn": "Most of the time, I prefer shopping alone because it lets me move at my own pace and make decisions more easily. That said, if I am buying clothes or choosing a gift, having someone with me can be helpful because a second opinion sometimes saves you from making a bad choice.",
+              "answerZh": "大多數時候，我比較喜歡自己購物，因為那樣我可以按自己的節奏走，也更容易作決定。不過，如果我是買衣服或者挑選禮物，有人陪我其實會很有幫助，因為第二個意見有時真的可以避免你買錯東西。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What kinds of shops are there where you live?",
+              "questionZh": "你住的地方有哪一類店舖？",
+              "answerEn": "Where I live, there is a pretty wide range of shops, from supermarkets and convenience stores to pharmacies, clothing shops, cafés, and small local businesses. In Hong Kong, it is quite common to have everyday essentials right on your doorstep, which makes daily life very convenient.",
+              "answerZh": "我住的地方有相當多種類的店舖，從超級市場、便利店，到藥房、服裝店、咖啡店，以及一些小型本地商舖都有。在香港，日常所需通常都可以在家附近找到，這會令生活非常方便。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Have you ever bought anything online?",
+              "questionZh": "你有沒有試過網上購物？",
+              "answerEn": "Yes, many times. Online shopping is incredibly convenient, especially when you already know what you want, and it saves a lot of time compared with going from shop to shop. Still, for some things, like clothes or shoes, I sometimes prefer to see them in person before buying them.",
+              "answerZh": "有，而且很多次。網上購物非常方便，尤其是當你已經知道自己想買甚麼的時候，而且和一間店一間店去逛相比，它真的可以節省很多時間。不過，有些東西，例如衣服或鞋子，我有時還是比較想親眼看過之後才買。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you think men and women have different opinions about shopping?",
+              "questionZh": "你覺得男性和女性對購物有不同看法嗎？",
+              "answerEn": "To some extent, perhaps, but I think the difference is often exaggerated. Shopping habits usually depend more on personality, needs, and interests than on gender alone, so while some people enjoy shopping as a leisure activity, others simply see it as a practical task to get done efficiently.",
+              "answerZh": "在某程度上也許有，不過我覺得這種差異很多時被誇大了。購物習慣通常更多取決於個性、需要，以及興趣，而不只是性別，所以有些人會把購物當成一種消閒活動，但另一些人則只是把它視為一項要有效率地完成的實際任務。"
+            },
+            {
+              "number": 7,
+              "questionEn": "How often do you go shopping?",
+              "questionZh": "你多常去購物？",
+              "answerEn": "I go shopping fairly regularly, probably a few times a week if you include daily essentials. For bigger or non-essential purchases, though, I shop much less often because I usually prefer to think things through rather than buy on impulse.",
+              "answerZh": "如果把買日常用品也算進去的話，我購物算是頗頻密，大概每星期幾次。不過，如果是比較大或者不屬於必需的消費，我就沒有那麼常買，因為我通常比較喜歡想清楚，而不是衝動消費。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What do you usually buy when you go shopping?",
+              "questionZh": "你去購物時通常會買甚麼？",
+              "answerEn": "Most of the time, I buy practical things, such as groceries, toiletries, stationery, or household items. Every now and then, I might pick up something less necessary, like a book, a snack, or a small item of clothing, but I am generally quite practical with my spending.",
+              "answerZh": "大多數時候，我買的都是一些很實際的東西，例如食物雜貨、日用品、文具，或者家居用品。偶爾我也可能會順手買一些沒那麼必要的東西，例如一本書、一點零食，或者一件小衣物，但整體來說，我花錢還是相當務實的。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you prefer shopping in big malls or small local shops?",
+              "questionZh": "你比較喜歡在大型商場購物還是小型本地店舖？",
+              "answerEn": "If I had to choose, I would probably say small local shops, because they often feel more personal and less generic. Big malls are convenient, of course, and they do have everything under one roof, but smaller shops sometimes have more character and a stronger sense of place.",
+              "answerZh": "如果一定要選，我大概會選小型本地店舖，因為它們通常更有人情味，也沒那麼千篇一律。大型商場當然很方便，而且的確甚麼都可以在同一個地方找到，不過小店有時更有個性，也更有地方特色。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Did you enjoy shopping when you were a child?",
+              "questionZh": "你小時候喜歡購物嗎？",
+              "answerEn": "Yes, but for very different reasons. When I was a child, shopping felt more exciting because everything seemed colourful and new, and even a simple trip to a toy shop or snack shop could feel like a small event.",
+              "answerZh": "喜歡，不過原因很不一樣。我小時候會覺得購物很有趣，因為所有東西看起來都很新鮮，也很多彩多姿，甚至就算只是去一趟玩具店或者零食店，也會像是一件小事情、一個小節目一樣。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Is shopping a popular activity in your country?",
+              "questionZh": "購物在你的國家是一種受歡迎的活動嗎？",
+              "answerEn": "Yes, it is, especially in Hong Kong. Shopping has long been a big part of city life here, partly because there are so many malls, markets, and shopping streets, and partly because people often combine shopping with dining or meeting friends.",
+              "answerZh": "是的，尤其在香港更是如此。購物長久以來都是這裡城市生活中很重要的一部分，一方面是因為這裡有很多商場、市集和購物街，另一方面也是因為人們常常會把購物和吃飯或者和朋友見面結合在一起。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think shopping habits will change in the future?",
+              "questionZh": "你覺得未來的購物習慣會改變嗎？",
+              "answerEn": "Yes, I think they already are. People are becoming more used to online shopping, quicker delivery, and more personalized recommendations, so convenience will probably matter even more in the future. That said, I do not think physical shops will disappear completely, because many people still value the experience of seeing and choosing things in real life.",
+              "answerZh": "會，我覺得其實已經在改變了。人們愈來愈習慣網上購物、更快的送貨服務，以及更個人化的推薦，所以方便程度在未來大概會變得更重要。不過，我不覺得實體店會完全消失，因為很多人仍然很重視親眼看到、親手挑選東西的那種體驗。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "part": 1,
+      "book": 14,
+      "displayTitle": "Book 14 of Part 1",
+      "exerciseCount": 5,
+      "exercises": [
+        {
+          "id": "ielts-part-1-book-14-work",
+          "index": 1,
+          "title": "Work",
+          "titleZh": "工作",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "What is your job?",
+              "questionZh": "你的工作是甚麼？",
+              "answerEn": "I work as a junior marketing executive. My role mainly involves content planning, campaign support, and day-to-day coordination, so it sits somewhere between creativity and organisation.",
+              "answerZh": "我是一名初級市場推廣行政人員。我的工作主要包括內容策劃、活動支援，以及日常協調，所以它某程度上介乎創意和組織之間。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Where do you work?",
+              "questionZh": "你在哪裡工作？",
+              "answerEn": "I work for a medium-sized company in Hong Kong. The office is in a fairly busy commercial district, which is convenient in practical terms, although the pace there can be quite intense.",
+              "answerZh": "我在香港一間中型公司工作。辦公室位於一個相當繁忙的商業區，從實際角度來說很方便，不過那裡的節奏也的確可以相當緊湊。"
+            },
+            {
+              "number": 3,
+              "questionEn": "How long have you been doing this job?",
+              "questionZh": "你做這份工作多久了？",
+              "answerEn": "I have been doing this job for about two years. That is long enough for me to feel confident in the role, but still short enough that I am learning something new on a regular basis.",
+              "answerZh": "我做這份工作大約兩年了。這段時間已經足夠讓我對自己的職位有信心，但同時也還沒有長到失去新鮮感，所以我仍然經常學到新東西。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What do you usually do at work?",
+              "questionZh": "你平時工作時通常做些甚麼？",
+              "answerEn": "I usually spend my time writing or revising content, helping to organise campaigns, speaking with team members, and keeping an eye on deadlines. In simple terms, I help turn ideas into things that can actually be delivered.",
+              "answerZh": "我平時主要會花時間去寫或修改內容、協助安排宣傳活動、和團隊成員溝通，以及留意各項截止日期。簡單來說，我的工作就是幫助把一些想法變成真正可以落實的成果。"
+            },
+            {
+              "number": 5,
+              "questionEn": "What do you like most about your job?",
+              "questionZh": "你最喜歡你工作的哪一部分？",
+              "answerEn": "What I like most is the variety. No two days are exactly the same, and that keeps the work from going stale. I also enjoy the feeling that a good idea can start as a rough sketch and gradually take shape through teamwork.",
+              "answerZh": "我最喜歡的是它的多樣性。幾乎沒有哪兩天是完全一樣的，而這會令工作不會變得沉悶。我也很喜歡那種感覺：一個好的想法可以從一個粗略雛形開始，然後透過團隊合作慢慢成形。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Is there anything you dislike about your job?",
+              "questionZh": "你的工作有沒有甚麼你不喜歡的地方？",
+              "answerEn": "Yes, there is one part I find less enjoyable, and that is the more repetitive administrative work. It is necessary, of course, but too much of it can drain the colour out of the more creative side of the job. So I do not hate it, but I would not say it is my favourite part either.",
+              "answerZh": "有，有一部分我比較不享受，那就是較重複性的行政工作。它當然是必要的，但如果太多，的確會把工作中較有創意的部分的色彩抽走。所以我不至於討厭它，但我也不會說那是我最喜歡的部分。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you work full-time or part-time?",
+              "questionZh": "你是全職還是兼職工作？",
+              "answerEn": "I work full-time. That means my schedule is fairly structured, and most of my weekdays revolve around work, although I still try to keep a reasonable balance between my job and the rest of my life.",
+              "answerZh": "我是全職工作。這代表我的時間表相當固定，而且我大部分平日的生活都圍繞著工作，不過我仍然會盡量在工作和生活其他部分之間保持合理平衡。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Why did you choose this job?",
+              "questionZh": "你為甚麼選擇這份工作？",
+              "answerEn": "I chose this job because it seemed to match both my strengths and my interests. I have always liked language, communication, and the process of shaping ideas clearly, so marketing felt like a field where those abilities could be put to good use. On top of that, it offers room to grow.",
+              "answerZh": "我選擇這份工作，是因為它看起來很符合我的強項和興趣。我一直都很喜歡語言、溝通，以及把想法整理清楚的過程，所以市場推廣看起來像是一個可以好好發揮這些能力的領域。除此之外，它也提供了成長空間。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Is it a popular job in your country?",
+              "questionZh": "這在你的國家是一份受歡迎的工作嗎？",
+              "answerEn": "In Hong Kong, I would say it is quite a common job, especially among younger professionals. It may not carry the same prestige as fields like finance or law, but it is still a popular option because many businesses need people who can communicate, promote, and position their brand effectively.",
+              "answerZh": "在香港，我會說這是一份相當常見的工作，尤其是在年輕專業人士之中。它或許不像金融或法律等行業那樣帶有同樣的光環，但它仍然是一個受歡迎的選擇，因為很多企業都需要能夠有效溝通、推廣，以及建立品牌定位的人。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you get along well with the people you work with?",
+              "questionZh": "你和一起工作的人相處得好嗎？",
+              "answerEn": "Yes, I do, and I think that matters more than people sometimes realise. My co-workers are generally cooperative, approachable, and professional, so even when work gets hectic, the atmosphere remains manageable. A good team does not remove pressure, but it definitely softens the edges of it.",
+              "answerZh": "是的，我和同事相處得不錯，而我覺得這件事的重要性其實比很多人想像中更大。我的同事普遍都很合作、容易相處，而且很專業，所以即使工作變得很忙，整體氣氛仍然是可以應付的。一個好的團隊未必能完全消除壓力，但它的確能把壓力磨得沒有那麼尖銳。"
+            },
+            {
+              "number": 11,
+              "questionEn": "If you had the chance, would you change your job?",
+              "questionZh": "如果有機會，你會轉工嗎？",
+              "answerEn": "I might, but probably not immediately. I would only change jobs if the new role offered clearer growth, more meaningful responsibility, or a better balance between creativity and routine. In other words, I would not leave just to move; I would leave to move forward.",
+              "answerZh": "我有可能會，不過大概不會立刻。如果有新職位能提供更清晰的成長路線、更有意義的責任，或者在創意和例行工作之間有更好的平衡，我才會考慮轉工。換句話說，我不會只是為了變動而離開；我會是為了向前走而離開。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you plan to continue with your job in the future?",
+              "questionZh": "你打算將來繼續做這份工作嗎？",
+              "answerEn": "Yes, in the broad sense, I do. I can see myself staying in the same field, although perhaps in a more senior or more strategic role over time. So I may not keep exactly the same title forever, but I do think this line of work is one I would like to build on in the future.",
+              "answerZh": "是的，從大方向來說，我是有這樣打算的。我可以想像自己會繼續留在同一個領域，只是隨著時間過去，職位可能會變得更高級，或者更偏向策略層面。所以我未必會永遠保持完全一樣的職銜，但我確實覺得這是一條我想在未來繼續發展下去的路。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-14-photos",
+          "index": 2,
+          "title": "Photos",
+          "titleZh": "照片",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you like taking photos?",
+              "questionZh": "你喜歡拍照嗎？",
+              "answerEn": "Yes, I do, quite a lot. I like taking photos because they let me hold on to moments that might otherwise fade into the background of daily life. I’m not a professional by any means, but I do enjoy capturing things that feel meaningful, atmospheric, or visually striking.",
+              "answerZh": "是的，我很喜歡拍照。我喜歡拍照，因為照片能讓我留住那些本來可能會慢慢淡出日常生活背景的瞬間。我當然算不上專業，但我確實很喜歡捕捉那些有意義、有氛圍，或者在視覺上很吸引人的畫面。"
+            },
+            {
+              "number": 2,
+              "questionEn": "How often do you take photos?",
+              "questionZh": "你多常拍照？",
+              "answerEn": "Fairly often, probably a few times a week, and sometimes more if I’m out with friends or visiting somewhere interesting. I don’t photograph absolutely everything, but whenever something catches my eye, I tend to reach for my phone almost automatically.",
+              "answerZh": "都算幾常，大概每星期幾次，有時如果我和朋友外出，或者去了有趣的地方，拍得還會更多。我不會把所有東西都拍下來，但每當有甚麼東西吸引到我的目光時，我通常都會幾乎不自覺地拿起手機。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Who do you usually take photos of?",
+              "questionZh": "你通常拍誰？",
+              "answerEn": "Most of the time, I take photos of my friends, family, and occasionally myself when I’m travelling. I also like candid photos, because they often feel more natural and less staged. In my view, the best pictures are usually the ones where people have forgotten the camera is even there.",
+              "answerZh": "大多數時候，我會拍我的朋友、家人，偶爾在旅行時也會拍一下自己。我也很喜歡抓拍，因為那類照片通常感覺更自然，也沒有那麼刻意。在我看來，最好的照片往往就是那些人們已經忘了鏡頭存在的時候拍下來的照片。"
+            },
+            {
+              "number": 4,
+              "questionEn": "What kinds of photos do you like taking?",
+              "questionZh": "你喜歡拍哪一類型的照片？",
+              "answerEn": "I especially like taking landscapes, street scenes, and small everyday details that people might easily overlook. Sometimes a patch of evening light, a quiet café corner, or a rainy street can say more than a perfectly posed picture. I’m drawn to photos that have a mood rather than just a subject.",
+              "answerZh": "我特別喜歡拍風景、街景，還有那些人們很容易忽略的日常小細節。有時候，一片傍晚的光、一個安靜的咖啡店角落，或者一條下雨的街道，可能比一張擺拍得很完美的照片更有味道。我比較容易被那些有氛圍，而不只是有主體的照片吸引。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you usually take photos with your phone or with a camera?",
+              "questionZh": "你通常用手機還是相機拍照？",
+              "answerEn": "Usually with my phone, without question. It’s lighter, quicker, and always within arm’s reach, so it makes it much easier to catch a moment before it slips away. A camera can produce better quality, of course, but in everyday life convenience usually wins.",
+              "answerZh": "通常是用手機，這幾乎不用想。它更輕、更快，而且永遠都在手邊，所以要在某個瞬間溜走之前把它抓住，會容易得多。當然，相機可以拍出更好的畫質，但在日常生活裡，方便通常還是最重要的。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How do you keep your photos?",
+              "questionZh": "你怎樣保存照片？",
+              "answerEn": "I keep most of them digitally, usually sorted into albums by date, event, or trip. I like having some kind of system, because otherwise photos pile up very quickly and turn into a digital jungle. A little organisation makes them much easier to go back to later.",
+              "answerZh": "我大部分都是以數碼方式保存，通常會按日期、活動，或者旅行分類成不同相簿。我喜歡有一點整理系統，因為不然照片很快就會越積越多，最後變成一片數碼叢林。稍微整理一下，之後想回去翻看時也容易得多。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you keep your photographs on your computer?",
+              "questionZh": "你會把照片存在電腦裡嗎？",
+              "answerEn": "Yes, I do, at least the ones I really want to keep safely. I usually back them up on my computer as well as on cloud storage, because I’d rather be safe than sorry. Losing photos can feel like losing small pieces of your own timeline.",
+              "answerZh": "會，至少那些我真的想好好保存的照片，我會這樣做。我通常會把它們備份在電腦裡，也會放在雲端儲存，因為我寧願小心一點，也不想之後後悔。失去照片有時會讓人感覺像是失去了自己時間線上的一些小片段。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Have you framed any of your photos?",
+              "questionZh": "你有沒有把自己的照片裱起來？",
+              "answerEn": "Yes, a few. They are mostly travel photos or pictures that carry strong personal memories, so framing them gives them a more lasting place in my life. Once a photo is framed, it feels less like a file and more like a keepsake.",
+              "answerZh": "有，幾張而已。它們大多是旅行照片，或者一些帶有強烈個人回憶的照片，所以把它們裱起來，會讓它們在我的生活裡有一個更長久的位置。一旦一張照片被裱起來，它就不再只像一個檔案，而更像是一件紀念品。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Are there any photos on the walls of your home?",
+              "questionZh": "你家裡的牆上有照片嗎？",
+              "answerEn": "Yes, there are a few, although not too many. Most of them are family photos or scenic shots from trips, because they make the space feel warmer and more personal. In a way, they give the walls a memory of their own.",
+              "answerZh": "有，有幾張，不過不算很多。大部分都是家庭照，或者旅行時拍的風景照，因為它們會令整個空間感覺更溫暖，也更有個人味道。某程度上，它們好像讓牆壁本身也有了自己的記憶一樣。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you like looking at old photos?",
+              "questionZh": "你喜歡看舊照片嗎？",
+              "answerEn": "Yes, very much. Old photos can open a door back to a particular time, and sometimes they bring back details you didn’t even realise you had forgotten. They can be nostalgic, comforting, and occasionally a little bittersweet as well.",
+              "answerZh": "喜歡，而且很喜歡。舊照片可以打開一扇回到某個時刻的門，有時還會把一些你自己都沒發現早已遺忘的細節帶回來。它們可以很懷舊、很安慰人，有時也會帶一點淡淡的苦甜感。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do you prefer to send postcards to people or to send photos that you took yourself?",
+              "questionZh": "你比較喜歡寄明信片給別人，還是寄自己拍的照片？",
+              "answerEn": "I’d probably prefer to send photos that I took myself, because they feel more personal and more specific to my own experience. A postcard is nice, of course, but a photo you took yourself carries your own eye, your own moment, and your own story. It feels a little more alive.",
+              "answerZh": "我大概會比較喜歡寄自己拍的照片，因為那樣感覺更個人化，也更貼近我自己的經歷。明信片當然也很好，但自己拍的照片承載的是你自己的眼光、你自己的瞬間，以及你自己的故事。它會讓人覺得更有生命力一點。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you take many photos when you travel?",
+              "questionZh": "你旅行時會拍很多照片嗎？",
+              "answerEn": "Yes, usually quite a lot. When I travel, I tend to notice things more sharply, from architecture and food to street life and tiny unexpected details, so I naturally want to record them. That said, I try not to spend the whole trip behind a screen, because I still want to be present in the moment rather than just collect evidence that I was there.",
+              "answerZh": "會，通常都拍不少。旅行的時候，我往往會更敏銳地留意很多事情，從建築、食物，到街頭生活和一些細小而意外的細節，所以我自然會想把它們記錄下來。不過，我也會盡量不讓自己整趟旅程都躲在螢幕後面，因為我還是想真正活在那個當下，而不只是蒐集自己曾經去過那裡的證據。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-14-art",
+          "index": 3,
+          "title": "Art",
+          "titleZh": "藝術",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Are you good at art?",
+              "questionZh": "你擅長藝術嗎？",
+              "answerEn": "I would not say I am especially talented at it, but I do have an appreciation for it. I can be creative when I take my time, although I am probably better at responding to art than producing it myself.",
+              "answerZh": "我不會說自己特別有藝術天分，但我確實懂得欣賞藝術。如果我願意慢慢來，我也可以有創意，不過我大概更擅長回應藝術，而不是親自創作藝術。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Did you learn art at school when you were a child?",
+              "questionZh": "你小時候在學校有學過藝術嗎？",
+              "answerEn": "Yes, I did. We had basic art lessons at school, and they usually involved drawing, colouring, and making simple craft projects. Looking back, those classes were a nice break from more academic subjects.",
+              "answerZh": "有。我們學校有一些基礎藝術課，通常會畫畫、上色，以及做一些簡單的手工。現在回想起來，那些課其實是從比較學術性的科目裡抽身出來的一段很好的喘息時間。"
+            },
+            {
+              "number": 3,
+              "questionEn": "What kind of art do you like?",
+              "questionZh": "你喜歡哪一種藝術？",
+              "answerEn": "I am especially drawn to visual art that feels emotionally honest, such as painting, photography, and certain installations. I like art that does more than look impressive; I like art that leaves an echo in the mind.",
+              "answerZh": "我特別容易被那些在情感上很真實的視覺藝術吸引，例如繪畫、攝影，以及某些裝置藝術。我喜歡的藝術不只是看起來厲害而已；我喜歡那種會在腦海裡留下回音的藝術。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Is art popular in your country?",
+              "questionZh": "藝術在你的國家受歡迎嗎？",
+              "answerEn": "Yes, I think it is, although interest varies from person to person. In Hong Kong, people often engage with art through exhibitions, design, film, photography, and public cultural events, so art is definitely present even if not everyone talks about it in the same way.",
+              "answerZh": "是的，我覺得算受歡迎，不過不同人投入的程度會不一樣。在香港，人們常常透過展覽、設計、電影、攝影，以及公共文化活動接觸藝術，所以藝術其實一直都在，只是未必每個人都會用同一種方式去談論它。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Have you ever been to an art gallery?",
+              "questionZh": "你有沒有去過藝術館或畫廊？",
+              "answerEn": "Yes, I have, a few times. I usually enjoy the atmosphere because galleries create a slower, quieter space, and that makes it easier to look carefully rather than just glance and move on.",
+              "answerZh": "有，我去過幾次。我通常都很喜歡那種氣氛，因為畫廊會營造出一種比較慢、比較安靜的空間，讓人更容易仔細去看，而不是只看一眼就走過去。"
+            },
+            {
+              "number": 6,
+              "questionEn": "Do you think children can benefit from going to art galleries?",
+              "questionZh": "你覺得小朋友去藝術館或畫廊會有好處嗎？",
+              "answerEn": "Yes, definitely. Art galleries can broaden children’s imagination and teach them that there is more than one way to see the world. Even if they do not understand every piece, simply being exposed to different forms of creativity can open doors in the mind.",
+              "answerZh": "會，當然會。藝術館和畫廊能擴闊小朋友的想像力，也能教他們明白，看世界其實不只得一種方式。即使他們未必看得懂每一件作品，只是接觸不同形式的創意，本身就能為他們的思維打開很多門。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you enjoy drawing or painting?",
+              "questionZh": "你喜歡畫畫或繪畫嗎？",
+              "answerEn": "Yes, but in a relaxed way rather than a serious one. I find it enjoyable when there is no pressure to make it perfect, because then it becomes more about expression than performance.",
+              "answerZh": "喜歡，不過是比較放鬆的那種喜歡，而不是很認真的投入。當沒有壓力要把作品做到完美時，我會更享受，因為那樣它就比較像是在表達自己，而不是在表現自己。"
+            },
+            {
+              "number": 8,
+              "questionEn": "How often do you do anything creative?",
+              "questionZh": "你多常做一些有創意的事情？",
+              "answerEn": "Fairly often, although not always in an obvious artistic way. Sometimes it is writing, sometimes it is taking photographs, and sometimes it is simply finding a more original way to express an idea, so creativity tends to slip into everyday life more than people realise.",
+              "answerZh": "都算幾常，不過未必每次都以很明顯的藝術形式出現。有時是寫作，有時是拍照，也有時只是用一種比較有新意的方式去表達一個想法，所以創意其實比很多人想像中更常滲進日常生活。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Do you prefer modern art or traditional art?",
+              "questionZh": "你比較喜歡現代藝術還是傳統藝術？",
+              "answerEn": "If I had to choose, I would probably say traditional art, because I often find it easier to connect with at first glance. That said, modern art can be very powerful when it is done well, especially when it challenges you rather than merely trying to shock you.",
+              "answerZh": "如果一定要選，我大概會說傳統藝術，因為我往往比較容易在第一眼就和它建立連結。不過，現代藝術如果做得好，也可以非常有力量，尤其是當它是在挑戰你思考，而不只是想嚇你一跳的時候。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you think art classes are important at school?",
+              "questionZh": "你覺得藝術課在學校裡重要嗎？",
+              "answerEn": "Yes, I do. Art classes are important because they give children room to imagine, experiment, and express themselves, which are things that cannot always be measured by a test. Education should shape the mind, not just fill it.",
+              "answerZh": "是的，我覺得很重要。藝術課之所以重要，是因為它能給小朋友空間去想像、去嘗試，以及去表達自己，而這些東西未必能用考試分數量度。教育應該塑造人的心智，而不只是把知識塞進去。"
+            },
+            {
+              "number": 11,
+              "questionEn": "What kind of art is most popular in your country?",
+              "questionZh": "在你的國家，哪一類藝術最受歡迎？",
+              "answerEn": "In Hong Kong, I think visual art and design-related art are especially visible, and film also plays a huge role in the cultural landscape. Photography, street art, and digital art are popular as well, particularly among younger people who engage with images every day.",
+              "answerZh": "在香港，我覺得視覺藝術和與設計相關的藝術特別顯眼，而電影在文化版圖裡也佔了很重要的位置。攝影、街頭藝術，以及數碼藝術也很受歡迎，尤其是在那些每天都和影像接觸的年輕人之中。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Would you like to learn more about art in the future?",
+              "questionZh": "你將來會想更深入了解藝術嗎？",
+              "answerEn": "Yes, I would. I would like to understand more about how to look at art properly, including its context, symbolism, and emotional language, because the more you understand it, the more it seems to give back.",
+              "answerZh": "會，我想會。我很想更了解應該怎樣真正去看藝術，包括它的背景、象徵意義，以及情感語言，因為你越懂它，它好像就越會回饋你。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-14-clothes",
+          "index": 4,
+          "title": "Clothes",
+          "titleZh": "衣服",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Are clothes important to you?",
+              "questionZh": "衣服對你來說重要嗎？",
+              "answerEn": "Yes, they are important to me, although not in an overly dramatic way. Clothes affect comfort, confidence, and first impressions, so they do matter in everyday life. In a quiet way, they are also a form of self-expression.",
+              "answerZh": "是的，衣服對我來說是重要的，不過也不是那種非常誇張的程度。衣服會影響舒適感、自信，以及別人對你的第一印象，所以它們在日常生活裡的確有分量。從某種低調的角度來看，它們同時也是一種自我表達方式。"
+            },
+            {
+              "number": 2,
+              "questionEn": "What kind of clothes do you usually wear?",
+              "questionZh": "你通常穿甚麼類型的衣服？",
+              "answerEn": "I usually wear simple, neat, casual clothes, such as T-shirts, plain shirts, jeans, or comfortable trousers. I tend to prefer pieces that are easy to mix and match rather than anything too flashy. For me, clean and practical usually beats loud and complicated.",
+              "answerZh": "我通常會穿一些簡單、整齊、休閒的衣服，例如 T 恤、素色襯衫、牛仔褲，或者舒服的長褲。我通常比較喜歡那些容易配搭的衣物，而不是太浮誇的款式。對我來說，乾淨俐落和實用，通常都比誇張複雜更好。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Have you ever worn a uniform?",
+              "questionZh": "你曾經穿過制服嗎？",
+              "answerEn": "Yes, of course. I wore a school uniform for years, so I became very used to it. On the one hand, it created a sense of order and equality; on the other hand, it did not leave much room for personal style.",
+              "answerZh": "有，當然有。我以前很多年都要穿校服，所以我對制服非常習慣。一方面，它會帶來一種秩序感和平等感；但另一方面，它也幾乎沒有留下甚麼個人風格的空間。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Do most people in your country follow fashion?",
+              "questionZh": "你國家大多數人會追隨時尚嗎？",
+              "answerEn": "In Hong Kong, I would say many people do, at least to some extent. People are often quite image-conscious, especially in business districts and shopping areas, so appearance tends to matter. That said, not everyone chases trends; many people simply want to look put-together and appropriate.",
+              "answerZh": "在香港，我會說很多人都會在某程度上追隨時尚。人們通常都頗重視外表，尤其是在商業區和購物區，所以外觀往往是重要的。不過，也不是每個人都在追潮流；很多人其實只是想看起來整齊得體、符合場合而已。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Do you prefer comfortable clothes or fashionable clothes?",
+              "questionZh": "你比較喜歡舒服的衣服還是時尚的衣服？",
+              "answerEn": "If I had to choose, I would definitely say comfortable clothes. Fashion matters, but comfort is the foundation, because even the best-looking outfit loses its charm if you feel restricted in it. Ideally, though, I like clothes that strike a balance between the two.",
+              "answerZh": "如果一定要二選一，我一定會選舒服的衣服。時尚固然重要，但舒適才是基礎，因為再好看的穿搭，如果穿上去讓人覺得受束縛，它的吸引力也會大打折扣。不過，理想情況下，我還是喜歡那些能在兩者之間取得平衡的衣服。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How often do you buy new clothes?",
+              "questionZh": "你多常買新衣服？",
+              "answerEn": "Not very often, to be honest. I usually buy new clothes only when I genuinely need them or when I feel something is missing from my wardrobe. I would rather buy fewer pieces and choose them carefully than shop just for the sake of it.",
+              "answerZh": "老實說，不算很常。我通常只會在真正有需要，或者覺得衣櫃裡缺了某些東西的時候，才會買新衣服。比起為買而買，我更傾向買少一點，但選得更仔細。"
+            },
+            {
+              "number": 7,
+              "questionEn": "Do you like shopping for clothes?",
+              "questionZh": "你喜歡買衣服嗎？",
+              "answerEn": "It depends on the situation. I enjoy it when I know what I am looking for and can find it without too much fuss, but I do not enjoy aimless shopping for hours on end. For me, clothes shopping is best when it feels efficient rather than exhausting.",
+              "answerZh": "這要看情況而定。當我清楚知道自己在找甚麼，而且能夠不太費勁就找到時，我其實是喜歡的；但如果要漫無目的地逛好幾個小時，我就不太享受了。對我來說，買衣服最好是有效率，而不是讓人筋疲力盡。"
+            },
+            {
+              "number": 8,
+              "questionEn": "Did you care about clothes when you were a child?",
+              "questionZh": "你小時候在意衣服嗎？",
+              "answerEn": "Not very much. When I was a child, comfort mattered more to me than style, and I probably paid more attention to whether I could play freely than to how I looked. At that age, clothes were just clothes, not really a statement.",
+              "answerZh": "不算很在意。我小時候，比起款式，我更在乎穿得舒不舒服，而我大概也更在意自己能不能自在地玩，而不是自己看起來如何。在那個年紀，衣服就只是衣服，並不是甚麼個人表態。"
+            },
+            {
+              "number": 9,
+              "questionEn": "What colours do you usually choose for your clothes?",
+              "questionZh": "你通常會選擇甚麼顏色的衣服？",
+              "answerEn": "I usually go for neutral colours, such as black, white, grey, navy, or beige. They are easy to wear, easy to combine, and unlikely to go out of style. I do not mind a stronger colour now and then, but most of the time I keep things fairly understated.",
+              "answerZh": "我通常會選中性色，例如黑色、白色、灰色、深藍色，或者米色。這些顏色容易穿、容易配搭，而且不太容易過時。我並不介意偶爾穿一點比較鮮明的顏色，但大多數時候，我還是會把整體風格保持得比較低調。"
+            },
+            {
+              "number": 10,
+              "questionEn": "Do you prefer wearing formal or casual clothes?",
+              "questionZh": "你比較喜歡穿正式服裝還是休閒服裝？",
+              "answerEn": "I definitely prefer casual clothes in daily life. They feel more natural, more flexible, and much easier to move around in. Formal clothes can look sharp and polished, of course, but for everyday comfort, casual wear wins quite easily.",
+              "answerZh": "我在日常生活裡一定比較喜歡休閒服裝。它們感覺更自然、更靈活，也更容易活動。當然，正式服裝可以看起來很俐落、很有精神，但如果說到每天的舒適感，休閒服真的很容易勝出。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Do people dress differently at work and in their free time in your country?",
+              "questionZh": "在你的國家，人們工作時和休閒時穿得不一樣嗎？",
+              "answerEn": "Yes, very much so, especially in Hong Kong. At work, many people dress in a more polished and professional way, whereas in their free time they tend to switch to something looser and more relaxed. In a sense, clothes mark the shift from duty to freedom.",
+              "answerZh": "是的，差別很明顯，尤其是在香港。工作時，很多人會穿得比較整齊、專業；相反，在休閒時間，他們通常會換上較寬鬆、較放鬆的衣服。某程度上，衣服本身就像是在標記一個人從責任走向自由的轉換。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do you think your taste in clothes will change in the future?",
+              "questionZh": "你覺得自己未來對衣服的品味會改變嗎？",
+              "answerEn": "Yes, I think it probably will, although perhaps not overnight. As people grow older, their priorities often shift, so they may care less about novelty and more about quality, fit, and timelessness. If my taste changes, I think it will become simpler, sharper, and a little more refined.",
+              "answerZh": "會，我覺得大概會改變，不過應該不會是一夜之間就完全不同。隨著年紀增長，人重視的東西往往會轉變，所以他們可能會沒那麼在意新奇感，反而更重視質素、剪裁，以及是否耐看。如果我的品味真的改變了，我想它大概會變得更簡潔、更利落，也更成熟一點。"
+            }
+          ]
+        },
+        {
+          "id": "ielts-part-1-book-14-family-and-friends",
+          "index": 5,
+          "title": "Family & Friends",
+          "titleZh": "家人與朋友",
+          "questionCount": 12,
+          "questions": [
+            {
+              "number": 1,
+              "questionEn": "Do you spend much time with your family?",
+              "questionZh": "你會花很多時間和家人在一起嗎？",
+              "answerEn": "Yes, I do, quite a lot. Because we see each other regularly at home, even small things like having dinner together or chatting in the evening become part of our daily routine. To me, those ordinary moments are often more meaningful than big family occasions.",
+              "answerZh": "是的，我會，而且算是挺多的。因為我們平時在家裡經常見面，所以即使只是一起吃晚飯，或者晚上聊幾句，也會變成日常生活的一部分。對我來說，這些看似平凡的時刻，往往比大型家庭聚會更有意義。"
+            },
+            {
+              "number": 2,
+              "questionEn": "Who are you closest to in your family?",
+              "questionZh": "你在家裡和誰最親近？",
+              "answerEn": "I’m probably closest to my mother. She is the person I can talk to most easily, because she tends to listen calmly and never overreact. If something is on my mind, she is usually the first person I turn to.",
+              "answerZh": "我大概和我媽媽最親近。她是我最容易開口聊天的人，因為她通常都會很冷靜地聆聽，也不會反應過大。如果我心裡有甚麼事，她通常都是我第一個會找的人。"
+            },
+            {
+              "number": 3,
+              "questionEn": "Do you prefer spending time with your family or friends?",
+              "questionZh": "你比較喜歡和家人一起，還是和朋友一起？",
+              "answerEn": "If I had to choose, I’d probably say family. With family, I can completely let my guard down and just be myself, which is very comforting. That said, friends give me a different kind of support, so I wouldn’t want to do without either.",
+              "answerZh": "如果一定要選，我大概會說是家人。和家人在一起時，我可以完全放下心防，做最自然的自己，而這種感覺很令人安心。不過，朋友也會帶來另一種支持，所以其實兩者我都不想缺少。"
+            },
+            {
+              "number": 4,
+              "questionEn": "Are you still friends with people from your childhood?",
+              "questionZh": "你現在還和童年時的朋友保持友誼嗎？",
+              "answerEn": "Yes, with a few of them. We do not talk all the time, but when we do, the conversation still feels easy and familiar, which I think says a lot. Some friendships may go quiet for a while, but they do not always disappear.",
+              "answerZh": "有，和其中幾位還有聯絡。我們不會一直不停聊天，但每次再聊起來時，感覺仍然很自然、很熟悉，而我覺得這已經很能說明問題。有些友誼也許會沉寂一段時間，但不一定真的消失。"
+            },
+            {
+              "number": 5,
+              "questionEn": "Is family important in your country?",
+              "questionZh": "在你的地方，家庭重要嗎？",
+              "answerEn": "Yes, very much so, especially in Hong Kong. Even though people are busier now and modern life can be quite fast-paced, family still plays a central role in most people’s lives. In many cases, it is still the first place people go for support, advice, or a sense of belonging.",
+              "answerZh": "是的，非常重要，尤其是在香港。即使現在人們比以前更忙，而現代生活節奏也很快，家庭在大多數人的生活裡仍然佔據很核心的位置。很多時候，家庭依然是人們尋求支持、意見和歸屬感的第一個地方。"
+            },
+            {
+              "number": 6,
+              "questionEn": "How often do you usually see your friends?",
+              "questionZh": "你通常多常見朋友？",
+              "answerEn": "Usually about once a week, or at least every couple of weeks. It depends on everyone’s schedule, of course, because once people get older, finding a time that suits everyone can be harder than it sounds. Even so, I try to stay in regular touch with the people I care about.",
+              "answerZh": "通常大概一星期一次，或者至少每一兩個星期見一次。當然，這要視乎大家的時間安排，因為人長大之後，要找到一個所有人都合適的時間，往往比想像中更難。即使如此，我還是會盡量和我在乎的人保持聯絡。"
+            },
+            {
+              "number": 7,
+              "questionEn": "What do you usually do when you spend time with your family?",
+              "questionZh": "你和家人一起時通常會做甚麼？",
+              "answerEn": "Most of the time, we do fairly simple things, like having meals together, talking about our day, watching something on TV, or going out for errands. Nothing dramatic, really, but that is exactly why it feels natural. Family time does not always have to be exciting to be valuable.",
+              "answerZh": "大部分時候，我們做的都是很簡單的事情，例如一起吃飯、聊聊當天發生的事、一起看電視，或者出去辦點事情。其實沒有甚麼特別戲劇化的活動，但也正因如此，它才顯得很自然。家庭時光不一定要很精彩，才算有價值。"
+            },
+            {
+              "number": 8,
+              "questionEn": "What do you usually do when you meet your friends?",
+              "questionZh": "你和朋友見面時通常會做甚麼？",
+              "answerEn": "We usually go for coffee, have dinner, or just walk around and talk for ages. Sometimes we watch a film or explore a new place, but conversation is normally the heart of it. To be honest, with good friends, even doing very little can still feel enjoyable.",
+              "answerZh": "我們通常會去喝咖啡、吃晚飯，或者四處走走，然後聊很久。有時候我們也會看電影，或者去探索一個新的地方，但真正的重點通常還是聊天。老實說，和好朋友在一起時，即使沒有做很多事情，也一樣可以很開心。"
+            },
+            {
+              "number": 9,
+              "questionEn": "Is it easy for you to make new friends?",
+              "questionZh": "對你來說，結交新朋友容易嗎？",
+              "answerEn": "I’d say it is reasonably easy at the surface level. I can usually get along with new people quite well, but building a real friendship takes much longer because trust does not appear overnight. Meeting people is easy enough; opening up properly is the harder part.",
+              "answerZh": "我會說，在表面層次上算是挺容易的。我通常都能和新認識的人相處得不錯，不過要建立真正的友誼就需要更長時間，因為信任不是一夜之間就會出現的。認識一個人不算太難，真正打開自己反而比較難。"
+            },
+            {
+              "number": 10,
+              "questionEn": "What qualities do you think make someone a good friend?",
+              "questionZh": "你覺得甚麼特質會令一個人成為好朋友？",
+              "answerEn": "For me, the most important qualities are honesty, reliability, and kindness. A good friend should be someone who listens well, respects your boundaries, and shows up when it really matters. In short, they should make your life steadier, not more complicated.",
+              "answerZh": "對我來說，最重要的特質是誠實、可靠和善良。好朋友應該是那種會好好聆聽你、尊重你的界線，而且在真正重要的時候會出現的人。簡單來說，他們應該令你的人生更穩定，而不是更複雜。"
+            },
+            {
+              "number": 11,
+              "questionEn": "Have your friendships changed as you have got older?",
+              "questionZh": "隨著你長大，你的友誼有改變嗎？",
+              "answerEn": "Yes, definitely. When I was younger, friendships were often built on proximity, because you simply spent a lot of time in the same place. Now they are much more about shared values, mutual effort, and emotional trust. In a way, my circle has become smaller, but much stronger.",
+              "answerZh": "有，當然有。年紀較小的時候，友誼很多時是建立在距離和相處時間上，因為大家只是剛好長時間待在同一個地方。現在的友誼則更關乎共同價值觀、彼此付出，以及情感上的信任。某程度上，我的朋友圈雖然變小了，但也變得更穩固了。"
+            },
+            {
+              "number": 12,
+              "questionEn": "Do families in your country usually live close to each other?",
+              "questionZh": "在你的地方，家人通常會住得很近嗎？",
+              "answerEn": "Quite often, yes, especially in Hong Kong. Not every family lives under the same roof, of course, but many still prefer to stay in the same district or at least within a manageable distance. That way, it is easier to see one another regularly and help out when needed.",
+              "answerZh": "很多時候是的，尤其是在香港。當然，不是每個家庭都會住在同一個屋簷下，但很多人仍然會傾向住在同一區，或者至少保持在一個方便來往的距離。這樣一來，大家就比較容易經常見面，也能在有需要時互相照應。"
             }
           ]
         }

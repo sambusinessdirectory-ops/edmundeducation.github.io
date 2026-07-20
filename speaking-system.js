@@ -1587,27 +1587,30 @@
     }
   }
 
-  function audioManifestCandidates() {
-    const manifests = [
-      window.EDMUND_SPEAKING_PART1_AUDIO || {},
-      window.EDMUND_SPEAKING_AUDIO || {},
-      window.EDMUND_SPEAKING_PART3_AUDIO || {}
-    ];
-    const candidates = manifests.flatMap(manifest => [manifest, manifest.exercises, manifest.entries, manifest.items]);
+  function audioManifestCandidates(part) {
+    const manifests = {
+      1: window.EDMUND_SPEAKING_PART1_AUDIO || {},
+      2: window.EDMUND_SPEAKING_AUDIO || {},
+      3: window.EDMUND_SPEAKING_PART3_AUDIO || {}
+    };
+    const manifest = manifests[Number(part)] || {};
+    const candidates = [manifest, manifest.exercises, manifest.entries, manifest.items];
     return candidates.filter(Boolean);
   }
 
   function resolveAudioEntry(exercise) {
     if (!exercise) return null;
-    const keys = [
-      exercise.id,
+    const part = Number(exercise.part);
+    const keys = [exercise.id];
+    if (part === 2) keys.push(
       `ielts-part2-book${exercise.book}-exercise-${pad(exercise.index)}`,
-      `ielts-part${exercise.part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
-      `part${exercise.part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
+      `ielts-part-${part}-book-${exercise.book}-exercise-${pad(exercise.index)}`,
+      `ielts-part${part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
+      `part${part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
       `exercise-${pad(exercise.index)}`,
       String(exercise.index)
-    ];
-    for (const candidate of audioManifestCandidates()) {
+    );
+    for (const candidate of audioManifestCandidates(part)) {
       if (Array.isArray(candidate)) {
         const match = candidate.find(entry => keys.includes(String(entry?.id || entry?.exerciseId || entry?.index)));
         if (match && audioPath(match)) return match;
@@ -1951,7 +1954,7 @@
     cleanupPart1Reveal();
     dom.content.innerHTML = `
       <article class="exercise-view part1-exercise">
-        <header class="exercise-hero part1-exercise-hero" data-exercise-number="01">
+        <header class="exercise-hero part1-exercise-hero" data-exercise-number="${pad(exercise.index)}">
           <div class="part1-hero-meta">
             <p class="eyebrow">IELTS SPEAKING · PART 1 · BOOK ${exercise.book}</p>
             <span>${questions.length} QUESTIONS · Q&amp;A</span>

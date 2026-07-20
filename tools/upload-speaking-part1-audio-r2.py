@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import importlib.util
 import json
 import re
@@ -15,9 +14,9 @@ from types import ModuleType
 
 TOOLS_DIR = Path(__file__).resolve().parent
 GENERATOR_PATH = TOOLS_DIR / "generate-speaking-part1-audio.py"
-EXPECTED_PREFIX = "assets/speaking-system/audio/edmund-neural/part1/"
 IMMUTABLE_CACHE = "public, max-age=31536000, immutable"
-APPROVED_RECIPE_SHA256 = "683ba2bb6e32f680cb9d2f55f7e4b86cba3f35bfe515f25f8a18c142cb18a011"
+APPROVED_RECIPE_SHA256 = "e8c367d9e0b4ae6bc8d19a1090ab4b708fe2febdd3f3753a95efadb193734fa0"
+APPROVED_SPOKEN_OVERRIDES_SHA256 = "041c464ef8da23f3f3f06efa700c48199393455c5a3effe2fe3d40a3e640c194"
 
 
 def load_python_file(path: Path, module_name: str) -> ModuleType:
@@ -30,14 +29,6 @@ def load_python_file(path: Path, module_name: str) -> ModuleType:
 
 
 generator = load_python_file(GENERATOR_PATH, "edmund_part1_audio_r2_upload")
-
-
-def sha256_file(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as handle:
-        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
 
 
 def load_checkpoint(path: Path | None) -> dict[str, str]:
@@ -71,19 +62,52 @@ def validate_manifest(source_root: Path) -> list[tuple[str, Path, str]]:
         raise SystemExit("Part 1 generator recipe has changed; approve and pin the new release first")
     if manifest["recipeSha256"] != APPROVED_RECIPE_SHA256:
         raise SystemExit("Part 1 audio recipe SHA-256 is not approved")
+    if generator.spoken_overrides_sha256() != APPROVED_SPOKEN_OVERRIDES_SHA256:
+        raise SystemExit("Part 1 spoken-override map has changed; approve and pin it first")
+    if (
+        manifest["meta"].get("spokenOverrideCount") != len(generator.PART1_SPOKEN_OVERRIDES)
+        or manifest["meta"].get("spokenOverridesSha256") != APPROVED_SPOKEN_OVERRIDES_SHA256
+    ):
+        raise SystemExit("Part 1 manifest does not use the approved spoken-override map")
     entries = manifest["entries"]
     hashes = manifest["audioSha256"]
-    if set(entries) != set(hashes) or set(entries) != {generator.stable_module_id()}:
-        raise SystemExit("Part 1 manifest does not contain exactly the Accommodation module")
+    exercises = generator.load_exercises(source_root)
+    expected_ids = set(exercises)
+    if set(entries) != set(hashes) or set(entries) != expected_ids:
+        missing = sorted(expected_ids - set(entries))
+        extra = sorted(set(entries) - expected_ids)
+        raise SystemExit(
+            f"Part 1 manifest does not cover the complete corpus; "
+            f"missing={missing[:5]}, extra={extra[:5]}"
+        )
+    expected_manifest = generator.manifest_content(
+        exercises,
+        entries,
+        hashes,
+        complete=True,
+    )
+    if manifest["source"] != expected_manifest:
+        raise SystemExit("Part 1 audio manifest metadata or serialization is stale")
     validated: list[tuple[str, Path, str]] = []
+    expected_prefix = f"{generator.STATIC_AUDIO_ROOT}/"
+    sf = generator.shared.load_soundfile_dependency()
     for exercise_id, entry in entries.items():
+        entry_error = generator.entry_validation_error(entry, exercise_id, exercises[exercise_id])
+        if entry_error:
+            raise SystemExit(f"Invalid Part 1 manifest entry {exercise_id}: {entry_error}")
         relative = str(entry.get("path", ""))
-        if not relative.startswith(EXPECTED_PREFIX) or not relative.endswith(".mp3") or ".." in Path(relative).parts:
+        if not relative.startswith(expected_prefix) or not relative.endswith(".mp3") or ".." in Path(relative).parts:
             raise SystemExit(f"Unsafe Part 1 MP3 path: {relative!r}")
         local_path = source_root / relative
         expected_hash = hashes[exercise_id]
-        if not local_path.is_file() or sha256_file(local_path) != expected_hash:
-            raise SystemExit(f"Part 1 MP3 SHA-256 mismatch: {exercise_id}")
+        audio_error = generator.shared.audio_validation_error(
+            local_path,
+            sf,
+            expected_sha256=expected_hash,
+            expected_duration=entry.get("duration"),
+        )
+        if audio_error:
+            raise SystemExit(f"Invalid Part 1 MP3 {exercise_id}: {audio_error}")
         validated.append((relative, local_path, expected_hash))
     return validated
 
