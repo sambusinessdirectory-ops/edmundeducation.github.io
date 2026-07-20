@@ -92,6 +92,12 @@
     highlightFrame: 0,
     activeWordIndex: -1,
     modelAudioGeneration: 0,
+    part1RevealMessages: [],
+    part1RevealNextIndex: 0,
+    part1RevealFrame: 0,
+    part1RevealScrollHandler: null,
+    part1RevealResizeHandler: null,
+    part1RevealAll: false,
     authGeneration: 0,
     mediaRecorder: null,
     mediaStream: null,
@@ -252,6 +258,9 @@
     }
     if (!state.highlightEnabled) {
       clearHighlight();
+      if (Number(currentExercise()?.part) === 1 && state.modelAudio && !state.modelAudio.paused && !state.modelAudio.ended) {
+        startHighlightLoop();
+      }
     } else if (state.modelAudio && !state.modelAudio.paused && !state.modelAudio.ended) {
       updateHighlight();
       startHighlightLoop();
@@ -535,6 +544,7 @@
   }
 
   function resetAuthenticatedState(message) {
+    cleanupPart1Reveal();
     clearSession();
     state.route = { view: "exams" };
     state.routeHistory = [];
@@ -634,6 +644,7 @@
     }
     if (!options.skipGuard && !routesEqual(route, state.route) && !confirmRecordingAbandonment()) return;
     stopModelAudio();
+    cleanupPart1Reveal();
     cleanupAttemptAudio();
     if (!routesEqual(route, state.route)) cancelRecorder();
 
@@ -969,7 +980,10 @@
         const part2Text = (exercise.responses || []).flatMap(response => (
           [response.headingEn, response.headingZh, response.textEn, response.textZh]
         )).join(" ");
-        return searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText} ${exercise.themeTitle || ""} ${part3Text} ${part2Text} IELTS Part ${exercise.part} Book ${exercise.book}`, tokens);
+        const part1Text = (exercise.questions || []).flatMap(question => (
+          [question.questionEn, question.questionZh, question.answerEn, question.answerZh]
+        )).join(" ");
+        return searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText} ${exercise.themeTitle || ""} ${part1Text} ${part3Text} ${part2Text} IELTS Part ${exercise.part} Book ${exercise.book}`, tokens);
       })
       .slice(0, SEARCH_RESULT_LIMITS.exercises);
     if (!sections.length && !exercises.length) {
@@ -1100,6 +1114,7 @@
 
   function speakingBooks() {
     const books = [
+      ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_PART1_DATA || {}),
       ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_DATA || {}),
       ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_PART3_DATA || {})
     ];
@@ -1159,6 +1174,17 @@
     };
   }
 
+  function normalizePart1Question(question, index) {
+    const source = question || {};
+    return {
+      number: Number(source.number || index + 1),
+      questionEn: String(source.questionEn || source.question_en || source.english || ""),
+      questionZh: String(source.questionZh || source.question_zh || source.chinese || ""),
+      answerEn: String(source.answerEn || source.answer_en || source.responseEn || source.response_en || ""),
+      answerZh: String(source.answerZh || source.answer_zh || source.responseZh || source.response_zh || "")
+    };
+  }
+
   function cueObjectText(cue, exercise) {
     if (!cue || typeof cue !== "object") return "";
     const lines = [];
@@ -1188,6 +1214,26 @@
   function normalizeExercise(raw, fallbackIndex, part = 2, book = 1) {
     const source = raw || {};
     const index = Number(source.index || source.number || fallbackIndex);
+    if (Number(part) === 1) {
+      const questionSource = source.questions || source.items || [];
+      const questions = Array.isArray(questionSource)
+        ? questionSource.map(normalizePart1Question).filter(question => question.questionEn && question.answerEn)
+        : [];
+      return {
+        id: String(source.id || source.slug || `ielts-part-1-book-${book}-module-${pad(index)}`),
+        part: 1,
+        book: Number(book),
+        index,
+        title: String(source.title || source.topic || source.name || `Module ${index}`),
+        titleZh: String(source.titleZh || source.title_zh || source.topicZh || source.topic_zh || ""),
+        cueText: "",
+        questions,
+        questionCount: questions.length,
+        responseModels: [],
+        responses: [],
+        unavailable: !raw || !questions.length
+      };
+    }
     if (Number(part) === 3) {
       const question = source.question && typeof source.question === "object" ? source.question : {};
       const modelSource = source.responseModels || source.response_models || source.responsePaths || source.models || [];
@@ -1247,9 +1293,11 @@
     const allowed = routeAllowed({ view: "exercise", exam: "ielts", part, book });
     const bookmark = { kind: "exercise", exam: "ielts", part, book, exerciseId: exercise.id };
     const subtitle = exercise.titleZh
-      ? escapeHtml(exercise.titleZh)
+      ? escapeHtml(part === 1 ? `${exercise.titleZh} · ${exercise.questionCount || exercise.questions?.length || 0} questions` : exercise.titleZh)
       : exercise.unavailable
         ? "資料準備中"
+        : part === 1
+          ? `${exercise.questionCount || exercise.questions?.length || 0} question conversation`
         : part === 3
           ? "Two Band 9 response routes"
           : "Cue card · Band 9 sample";
@@ -1274,7 +1322,9 @@
     const book = Number(state.route.book || 1);
     const description = part === 3
       ? `選擇 ${exercises.length} 條討論題。每題以兩條清晰的 Idea → Explanation → Example → Conclusion 路線呈現。`
-      : `選擇 ${exercises.length} 個題目之一，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。`;
+      : part === 1
+        ? `選擇對話主題。每組以 Examiner 問題與 Band 9 答案交替呈現，並提供雙語字幕及錄音練習。`
+        : `選擇 ${exercises.length} 個題目之一，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。`;
     const exerciseContent = part === 3
       ? [...new Map(exercises.map(exercise => [exercise.themeId, exercise.themeTitle || "Discussion"])).entries()].map(([themeId, themeTitle]) => `
           <section class="part3-theme-group" aria-labelledby="theme-${escapeHtml(themeId)}">
@@ -1534,6 +1584,7 @@
 
   function audioManifestCandidates() {
     const manifests = [
+      window.EDMUND_SPEAKING_PART1_AUDIO || {},
       window.EDMUND_SPEAKING_AUDIO || {},
       window.EDMUND_SPEAKING_PART3_AUDIO || {}
     ];
@@ -1666,6 +1717,201 @@
     `;
   }
 
+  function part1TurnRanges(entry) {
+    return Array.isArray(entry?.turnWordRanges) ? entry.turnWordRanges : [];
+  }
+
+  function renderPart1AudioPanel(entry) {
+    const available = Boolean(entry && audioPath(entry));
+    return `
+      <section class="audio-panel part1-audio-panel" aria-label="Part 1 對話錄音控制">
+        <div class="audio-main-controls">
+          <button class="audio-button part1-play-all" type="button" data-model-audio-toggle${available ? "" : " disabled"} aria-pressed="false">
+            <span data-audio-button-label>${available ? "▶ 播放完整 Q&A" : "音訊準備中"}</span>
+          </button>
+          <span class="audio-note">Examiner：Edmund Neural 女聲 · Answer：Edmund Neural British boy</span>
+        </div>
+        <div class="audio-options">
+          <div class="rate-selector" role="group" aria-label="播放速度">
+            ${AUDIO_RATES.map(rate => `<button class="rate-button${rate === state.selectedRate ? " active" : ""}" type="button" data-audio-rate="${rate}" aria-pressed="${rate === state.selectedRate}">${rate}X</button>`).join("")}
+          </div>
+          <button class="highlight-toggle${state.highlightEnabled ? " active" : ""}" type="button" data-highlight-toggle aria-pressed="${state.highlightEnabled}">
+            同步標示 <strong data-highlight-state>${state.highlightEnabled ? "ON" : "OFF"}</strong>
+          </button>
+        </div>
+      </section>`;
+  }
+
+  function renderPart1Message(question, role, turnIndex, matcher, available) {
+    const isQuestion = role === "question";
+    const number = Number(question.number || Math.floor(turnIndex / 2) + 1);
+    const english = isQuestion ? question.questionEn : question.answerEn;
+    const chinese = isQuestion ? question.questionZh : question.answerZh;
+    const speaker = isQuestion ? "EXAMINER QUESTION" : "BAND 9 ANSWER";
+    const label = isQuestion ? `Q${number}` : `A${number}`;
+    return `
+      <li class="part1-row ${isQuestion ? "part1-question-row" : "part1-answer-row"}" id="part1-${isQuestion ? "question" : "answer"}-${pad(number)}" data-part1-turn="${turnIndex}" tabindex="-1">
+        <article class="part1-message ${isQuestion ? "part1-question-message" : "part1-answer-message"}" aria-label="${escapeHtml(`${label} ${speaker}`)}">
+          <header class="part1-message-header">
+            <span>${escapeHtml(label)} · ${escapeHtml(speaker)}</span>
+            <button class="part1-message-audio" type="button" data-part1-turn-play="${turnIndex}" data-audio-available="${available}" ${available ? "" : "disabled"} aria-label="播放 ${escapeHtml(label)}">
+              <span data-part1-turn-label>▶ 聆聽</span>
+            </button>
+          </header>
+          <p class="part1-message-en" lang="en">${renderTimedEnglish(english, matcher)}</p>
+          <p class="part1-message-zh" lang="zh-Hant">${escapeHtml(chinese)}</p>
+        </article>
+      </li>`;
+  }
+
+  function stopPart1RevealListeners() {
+    if (state.part1RevealFrame) cancelAnimationFrame(state.part1RevealFrame);
+    state.part1RevealFrame = 0;
+    if (state.part1RevealScrollHandler) window.removeEventListener("scroll", state.part1RevealScrollHandler);
+    if (state.part1RevealResizeHandler) window.removeEventListener("resize", state.part1RevealResizeHandler);
+    state.part1RevealScrollHandler = null;
+    state.part1RevealResizeHandler = null;
+  }
+
+  function cleanupPart1Reveal() {
+    stopPart1RevealListeners();
+    state.part1RevealMessages = [];
+    state.part1RevealNextIndex = 0;
+    state.part1RevealAll = false;
+  }
+
+  function setPart1MessageRevealed(message) {
+    if (!message || message.classList.contains("is-revealed")) return;
+    message.classList.add("is-revealed");
+    message.inert = false;
+    message.removeAttribute("inert");
+    const listen = message.querySelector("[data-part1-turn-play]");
+    if (listen) listen.disabled = listen.dataset.audioAvailable !== "true";
+    const words = [...message.querySelectorAll("[data-timing-index]")];
+    words.forEach((word, index) => { word.tabIndex = index === 0 ? 0 : -1; });
+  }
+
+  function revealPart1Through(turnIndex) {
+    const messages = state.part1RevealMessages.length
+      ? state.part1RevealMessages
+      : [...document.querySelectorAll("[data-part1-turn]")];
+    const targetIndex = Math.min(messages.length - 1, Math.max(0, Number(turnIndex) || 0));
+    for (let index = state.part1RevealNextIndex; index <= targetIndex; index += 1) {
+      setPart1MessageRevealed(messages[index]);
+    }
+    state.part1RevealNextIndex = Math.max(state.part1RevealNextIndex, targetIndex + 1);
+    if (state.part1RevealNextIndex >= messages.length) stopPart1RevealListeners();
+  }
+
+  function revealAllPart1Messages() {
+    const messages = state.part1RevealMessages.length
+      ? state.part1RevealMessages
+      : [...document.querySelectorAll("[data-part1-turn]")];
+    messages.forEach(setPart1MessageRevealed);
+    state.part1RevealNextIndex = messages.length;
+    state.part1RevealAll = true;
+    stopPart1RevealListeners();
+    const button = document.querySelector("[data-part1-reveal-all]");
+    if (button) {
+      button.setAttribute("aria-pressed", "true");
+      button.innerHTML = "✓ 已顯示全部 <span>All revealed</span>";
+    }
+  }
+
+  function checkPart1RevealPosition() {
+    state.part1RevealFrame = 0;
+    const messages = state.part1RevealMessages;
+    const revealLine = window.innerHeight * .82;
+    while (
+      state.part1RevealNextIndex < messages.length
+      && messages[state.part1RevealNextIndex].getBoundingClientRect().top <= revealLine
+    ) {
+      revealPart1Through(state.part1RevealNextIndex);
+    }
+  }
+
+  function schedulePart1RevealCheck() {
+    if (state.part1RevealFrame || state.part1RevealAll) return;
+    state.part1RevealFrame = requestAnimationFrame(checkPart1RevealPosition);
+  }
+
+  function setupPart1Reveal() {
+    stopPart1RevealListeners();
+    state.part1RevealMessages = [...document.querySelectorAll("[data-part1-turn]")];
+    state.part1RevealNextIndex = 0;
+    state.part1RevealAll = false;
+    const conversation = document.querySelector("[data-part1-conversation]");
+    if (!conversation || !state.part1RevealMessages.length) return;
+    conversation.classList.add("part1-reveal-ready");
+    state.part1RevealMessages.forEach(message => {
+      message.classList.remove("is-revealed");
+      message.inert = true;
+      message.setAttribute("inert", "");
+      message.querySelectorAll("[data-timing-index]").forEach(word => { word.tabIndex = -1; });
+      const listen = message.querySelector("[data-part1-turn-play]");
+      if (listen) listen.disabled = true;
+    });
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      revealAllPart1Messages();
+      return;
+    }
+    state.part1RevealScrollHandler = schedulePart1RevealCheck;
+    state.part1RevealResizeHandler = schedulePart1RevealCheck;
+    window.addEventListener("scroll", state.part1RevealScrollHandler, { passive: true });
+    window.addEventListener("resize", state.part1RevealResizeHandler, { passive: true });
+    schedulePart1RevealCheck();
+  }
+
+  function renderPart1Exercise(exercise, entry) {
+    const matcher = { rows: timingRows(entry), cursor: 0 };
+    const available = Boolean(entry && audioPath(entry));
+    const questions = exercise.questions || [];
+    cleanupPart1Reveal();
+    dom.content.innerHTML = `
+      <article class="exercise-view part1-exercise">
+        <header class="exercise-hero part1-exercise-hero" data-exercise-number="01">
+          <div class="part1-hero-meta">
+            <p class="eyebrow">IELTS SPEAKING · PART 1 · BOOK ${exercise.book}</p>
+            <span>${questions.length} QUESTIONS · Q&amp;A</span>
+          </div>
+          <h1>${escapeHtml(exercise.title)}</h1>
+          ${exercise.titleZh ? `<p>${escapeHtml(exercise.titleZh)}</p>` : ""}
+        </header>
+
+        <section class="part1-directory" aria-labelledby="part1-directory-heading">
+          <div class="part1-directory-heading">
+            <div><span class="cue-label">QUESTION DIRECTORY · 題目目錄</span><h2 id="part1-directory-heading">先看本組全部問題</h2></div>
+            <button class="part1-reveal-all" type="button" data-part1-reveal-all aria-pressed="false">顯示全部 <span>Reveal all</span></button>
+          </div>
+          <ol class="part1-question-index">
+            ${questions.map((question, index) => `
+              <li><a href="#part1-question-${pad(question.number)}" data-part1-question-link="${index * 2}"><span>Q${pad(question.number)}</span>${escapeHtml(question.questionEn)}</a></li>
+            `).join("")}
+          </ol>
+        </section>
+
+        ${renderPart1AudioPanel(entry)}
+
+        <section class="part1-dialogue-stage" aria-labelledby="part1-dialogue-heading">
+          <header class="part1-dialogue-heading">
+            <div><span class="cue-label">SCROLL TO REVEAL · 向下捲動</span><h2 id="part1-dialogue-heading">Examiner 與你的 Band 9 對話</h2></div>
+            <p>問題在右，答案在左。捲動越快，對話便揭示得越快；文字只會解除模糊，不會被推離畫面。</p>
+          </header>
+          <ol class="part1-conversation" data-part1-conversation>
+            ${questions.map((question, index) => (
+              renderPart1Message(question, "question", index * 2, matcher, available)
+              + renderPart1Message(question, "answer", index * 2 + 1, matcher, available)
+            )).join("")}
+          </ol>
+        </section>
+
+        ${renderRecorderCard(exercise)}
+      </article>
+    `;
+    setupPart1Reveal();
+    syncAudioControls();
+  }
+
   function renderPart3Model(model, index, matcher, entry) {
     const letter = String.fromCharCode(65 + index);
     const firstIdea = model.steps.find(step => step.stage === "idea") || model.steps[0];
@@ -1768,6 +2014,10 @@
       return;
     }
     const entry = resolveAudioEntry(exercise);
+    if (exercise.part === 1) {
+      renderPart1Exercise(exercise, entry);
+      return;
+    }
     if (exercise.part === 3) {
       renderPart3Exercise(exercise, entry);
       return;
@@ -1850,17 +2100,24 @@
     const word = document.querySelector(`[data-timing-index="${index}"]`);
     if (!word) return;
     word.classList.add("is-spoken");
+    const part1Turn = word.closest("[data-part1-turn]");
+    if (part1Turn) revealPart1Through(Number(part1Turn.dataset.part1Turn));
   }
 
   function startHighlightLoop() {
     if (state.highlightFrame) cancelAnimationFrame(state.highlightFrame);
-    if (!state.highlightEnabled) return;
+    const part1AudioActive = Number(currentExercise()?.part) === 1;
+    if (!state.highlightEnabled && !part1AudioActive) return;
     const tick = () => {
       if (!state.modelAudio || state.modelAudio.paused || state.modelAudio.ended) {
         state.highlightFrame = 0;
         return;
       }
-      updateHighlight();
+      if (Number(currentExercise()?.part) === 1) {
+        const { entry } = currentAudioContext();
+        revealPart1AudioTime(entry, state.modelAudio.currentTime);
+      }
+      if (state.highlightEnabled) updateHighlight();
       state.highlightFrame = requestAnimationFrame(tick);
     };
     tick();
@@ -1885,17 +2142,32 @@
     const resumable = Boolean(isCurrent && state.modelAudio && state.modelAudio.paused && state.modelAudio.currentTime > 0 && !state.modelAudio.ended);
     const button = document.querySelector("[data-model-audio-toggle]");
     if (button) {
+      const isPart1 = Number(exercise?.part) === 1;
       const isPart3 = Number(exercise?.part) === 3;
-      const text = playing
-        ? isPart3 ? "❚❚ 暫停目前路線" : "❚❚ 暫停示範"
-        : resumable
-          ? isPart3 ? "▶ 繼續目前路線" : "▶ 繼續示範"
-          : isPart3 ? "▶ 播放目前路線" : "▶ 播放示範";
+      const wholePart1 = isPart1 && state.modelAudioSegmentIndex < 0;
+      const buttonPlaying = isPart1 ? playing && wholePart1 : playing;
+      const buttonResumable = isPart1 ? resumable && wholePart1 : resumable;
+      const text = buttonPlaying
+        ? isPart1 ? "❚❚ 暫停完整 Q&A" : isPart3 ? "❚❚ 暫停目前路線" : "❚❚ 暫停示範"
+        : buttonResumable
+          ? isPart1 ? "▶ 繼續完整 Q&A" : isPart3 ? "▶ 繼續目前路線" : "▶ 繼續示範"
+          : isPart1 ? "▶ 播放完整 Q&A" : isPart3 ? "▶ 播放目前路線" : "▶ 播放示範";
       const label = button.querySelector("[data-audio-button-label]");
       if (label && !button.disabled) label.textContent = text;
-      button.classList.toggle("is-playing", playing);
-      button.setAttribute("aria-pressed", String(playing));
+      button.classList.toggle("is-playing", buttonPlaying);
+      button.setAttribute("aria-pressed", String(buttonPlaying));
     }
+    document.querySelectorAll("[data-part1-turn-play]").forEach(turnButton => {
+      const index = Number(turnButton.dataset.part1TurnPlay);
+      const active = Number(exercise?.part) === 1 && isCurrent && state.modelAudioSegmentIndex === index;
+      const activePlaying = active && playing;
+      const label = turnButton.querySelector("[data-part1-turn-label]");
+      if (label && turnButton.dataset.audioAvailable === "true") {
+        label.textContent = activePlaying ? "❚❚ 暫停" : active && resumable ? "▶ 繼續" : "▶ 聆聽";
+      }
+      turnButton.classList.toggle("is-playing", activePlaying);
+      turnButton.setAttribute("aria-pressed", String(activePlaying));
+    });
     document.querySelectorAll("[data-part3-model-play]").forEach(modelButton => {
       const index = Number(modelButton.dataset.part3ModelPlay);
       const active = isCurrent && state.modelAudioSegmentIndex === index;
@@ -1961,10 +2233,12 @@
     };
     audio.onended = () => {
       clearHighlight();
+      if (Number(exercise.part) === 1 && state.modelAudioSegmentIndex < 0) revealAllPart1Messages();
       audio.currentTime = 0;
       syncAudioControls();
     };
     audio.ontimeupdate = () => {
+      if (Number(exercise.part) === 1) revealPart1AudioTime(entry, audio.currentTime);
       if (!state.modelAudioSegmentEnd || audio.currentTime < state.modelAudioSegmentEnd) return;
       stopModelAudio();
     };
@@ -1974,6 +2248,7 @@
     };
     const begin = () => {
       if (generation !== state.modelAudioGeneration || state.modelAudio !== audio || !state.user) return;
+      if (Number(exercise.part) === 1) revealPart1Through(state.modelAudioSegmentIndex >= 0 ? state.modelAudioSegmentIndex : 0);
       try {
         audio.currentTime = Math.max(0, Number(startAt) || 0);
       } catch {
@@ -1999,6 +2274,19 @@
     }
     const { exercise, entry } = currentAudioContext();
     if (!exercise || !entry) return;
+    if (Number(exercise.part) === 1) {
+      if (state.modelAudio && state.modelAudioExerciseId === exercise.id && state.modelAudioSegmentIndex < 0) {
+        if (!state.modelAudio.paused && !state.modelAudio.ended) state.modelAudio.pause();
+        else {
+          const result = state.modelAudio.play();
+          if (result?.catch) result.catch(error => console.warn("Part 1 conversation resume failed:", error));
+        }
+        return;
+      }
+      revealPart1Through(0);
+      startModelAudio(exercise, entry, 0, 0, -1);
+      return;
+    }
     if (Number(exercise.part) === 3) {
       const openModel = document.querySelector("[data-part3-model].is-open");
       playPart3Model(Number(openModel?.dataset.part3Model || 0));
@@ -2014,6 +2302,48 @@
       return;
     }
     startModelAudio(exercise, entry, 0, 0, -1);
+  }
+
+  function part1TurnAudioRange(entry, turnIndex) {
+    const range = part1TurnRanges(entry)[Number(turnIndex)];
+    if (!range) return null;
+    const audioStart = Number(range.audioStart);
+    const revealAt = Number(range.revealAt);
+    const end = Number(range.playbackEnd);
+    if (!Number.isFinite(audioStart) || !Number.isFinite(end) || end <= audioStart) return null;
+    const start = Number.isFinite(revealAt) && revealAt <= audioStart
+      ? Math.max(0, revealAt)
+      : Math.max(0, audioStart - .28);
+    return { start, end };
+  }
+
+  function revealPart1AudioTime(entry, currentTime) {
+    const ranges = part1TurnRanges(entry);
+    for (let index = state.part1RevealNextIndex; index < ranges.length; index += 1) {
+      if (Number(ranges[index]?.revealAt) > Number(currentTime) + .03) break;
+      revealPart1Through(index);
+    }
+  }
+
+  function playPart1Turn(turnIndex) {
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才播放示範音訊。", "error");
+      return;
+    }
+    const { exercise, entry } = currentAudioContext();
+    const index = Number(turnIndex);
+    const range = part1TurnAudioRange(entry, index);
+    if (!exercise || Number(exercise.part) !== 1 || !entry || !range) return;
+    revealPart1Through(index);
+    if (state.modelAudio && state.modelAudioExerciseId === exercise.id && state.modelAudioSegmentIndex === index) {
+      if (!state.modelAudio.paused) state.modelAudio.pause();
+      else {
+        const result = state.modelAudio.play();
+        if (result?.catch) result.catch(error => console.warn("Part 1 turn resume failed:", error));
+      }
+      return;
+    }
+    startModelAudio(exercise, entry, range.start, range.end, index);
   }
 
   function part3ModelAudioRange(exercise, entry, modelIndex) {
@@ -2085,14 +2415,18 @@
     const row = timingRows(entry)[Number(index)];
     if (!exercise || !entry || !row) return;
     const timedElement = document.querySelector(`[data-timing-index="${Number(index)}"]`);
+    const part1TurnElement = Number(exercise.part) === 1 ? timedElement?.closest("[data-part1-turn]") : null;
+    const part1Turn = part1TurnElement ? Number(part1TurnElement.dataset.part1Turn) : -1;
+    const part1Range = part1Turn >= 0 ? part1TurnAudioRange(entry, part1Turn) : null;
     const part3Model = Number(exercise.part) === 3
       ? Number(timedElement?.closest("[data-part3-model]")?.dataset.part3Model)
       : -1;
     const part3Range = part3Model >= 0 ? part3ModelAudioRange(exercise, entry, part3Model) : null;
     if (state.modelAudio && state.modelAudioExerciseId === exercise.id) {
-      state.modelAudioSegmentStart = part3Range?.start || 0;
-      state.modelAudioSegmentEnd = part3Range?.end || 0;
-      state.modelAudioSegmentIndex = part3Range ? part3Model : -1;
+      state.modelAudioSegmentStart = part1Range?.start || part3Range?.start || 0;
+      state.modelAudioSegmentEnd = part1Range?.end || part3Range?.end || 0;
+      state.modelAudioSegmentIndex = part1Range ? part1Turn : part3Range ? part3Model : -1;
+      if (part1Range) revealPart1Through(part1Turn);
       state.modelAudio.currentTime = Math.max(0, row.start);
       updateHighlight();
       if (state.modelAudio.paused) {
@@ -2105,8 +2439,8 @@
       exercise,
       entry,
       row.start,
-      part3Range?.end || 0,
-      part3Range ? part3Model : -1
+      part1Range?.end || part3Range?.end || 0,
+      part1Range ? part1Turn : part3Range ? part3Model : -1
     );
   }
 
@@ -3301,6 +3635,32 @@
         return;
       }
 
+      if (event.target.closest("[data-part1-reveal-all]")) {
+        revealAllPart1Messages();
+        return;
+      }
+
+      const part1QuestionLink = event.target.closest("[data-part1-question-link]");
+      if (part1QuestionLink) {
+        event.preventDefault();
+        const turnIndex = Number(part1QuestionLink.dataset.part1QuestionLink);
+        revealPart1Through(turnIndex);
+        const href = part1QuestionLink.getAttribute("href");
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: "auto", block: "start" });
+          target.focus({ preventScroll: true });
+          window.history.replaceState(window.history.state, "", href);
+        }
+        return;
+      }
+
+      const part1TurnPlay = event.target.closest("[data-part1-turn-play]");
+      if (part1TurnPlay) {
+        playPart1Turn(Number(part1TurnPlay.dataset.part1TurnPlay));
+        return;
+      }
+
       if (event.target.closest("[data-model-audio-toggle]")) {
         toggleModelAudio();
         return;
@@ -3467,7 +3827,7 @@
       const timedWord = event.target.closest?.("[data-timing-index]");
       if (timedWord && (event.key === "ArrowLeft" || event.key === "ArrowRight")) {
         event.preventDefault();
-        const paragraph = timedWord.closest(".response-en, .part3-step-en");
+        const paragraph = timedWord.closest(".response-en, .part3-step-en, .part1-message-en");
         const words = [...(paragraph?.querySelectorAll("[data-timing-index]") || [])];
         const currentIndex = words.indexOf(timedWord);
         const direction = event.key === "ArrowRight" ? 1 : -1;
@@ -3487,7 +3847,9 @@
       if (event.code !== "Space" || event.repeat || !state.modelAudio) return;
       if (event.target.closest?.("input, textarea, select, button, a, [contenteditable='true'], audio")) return;
       event.preventDefault();
-      toggleModelAudio();
+      if (Number(currentExercise()?.part) === 1 && state.modelAudioSegmentIndex >= 0) {
+        playPart1Turn(state.modelAudioSegmentIndex);
+      } else toggleModelAudio();
     });
 
     window.addEventListener("beforeunload", event => {
@@ -3498,6 +3860,7 @@
 
     window.addEventListener("pagehide", () => {
       stopModelAudio();
+      cleanupPart1Reveal();
       cancelRecorder();
       cleanupAttemptAudio();
     });

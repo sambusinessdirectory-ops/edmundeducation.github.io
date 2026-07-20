@@ -1,4 +1,7 @@
-const AUDIO_PREFIX = "assets/speaking-system/audio/edmund-neural/part3/";
+const AUDIO_PREFIXES = [
+  "assets/speaking-system/audio/edmund-neural/part1/",
+  "assets/speaking-system/audio/edmund-neural/part3/"
+];
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 
 function responseHeaders() {
@@ -33,7 +36,7 @@ function objectKey(url) {
     return "";
   }
   if (
-    !key.startsWith(AUDIO_PREFIX)
+    !AUDIO_PREFIXES.some(prefix => key.startsWith(prefix))
     || !key.endsWith(".mp3")
     || key.includes("..")
     || key.includes("\\")
@@ -71,7 +74,7 @@ export default {
 
     const url = new URL(request.url);
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio" }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",
@@ -98,10 +101,9 @@ export default {
 
     let object;
     try {
-      object = await env.EDMUND_ASSETS.get(key, {
-        onlyIf: request.headers,
-        range: request.headers
-      });
+      const options = { onlyIf: request.headers };
+      if (request.headers.has("Range")) options.range = request.headers;
+      object = await env.EDMUND_ASSETS.get(key, options);
     } catch {
       return plainResponse("Requested Range Not Satisfiable", 416, {
         "Accept-Ranges": "bytes"
@@ -123,7 +125,7 @@ export default {
       });
     }
 
-    if (object.range) {
+    if (request.headers.has("Range") && object.range) {
       const start = Number(object.range.offset);
       const length = Number(object.range.length);
       headers.set("Content-Length", String(length));

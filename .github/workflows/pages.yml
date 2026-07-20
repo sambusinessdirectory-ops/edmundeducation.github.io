@@ -40,6 +40,7 @@ jobs:
             --exclude='*.sql' \
             --exclude='tools' \
             --exclude='workers' \
+            --exclude='assets/speaking-system/audio/edmund-neural/part1/' \
             --exclude='assets/speaking-system/audio/edmund-neural/part3/' \
             ./ _site/
 

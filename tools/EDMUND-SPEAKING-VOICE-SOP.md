@@ -38,6 +38,78 @@ Reference model checksums:
 The model, voices bundle, and Faster Whisper cache are local build
 dependencies. Never commit them to the website repository.
 
+## Part 1 — alternating examiner and student voices
+
+IELTS Speaking Part 1 is an independently versioned, dual-speaker product. The
+browser never synthesizes either voice. Each module receives one uninterrupted
+MP3 so iPhone and iPad can play the complete question-and-answer sequence after
+one user action without browser autoplay interruptions.
+
+| Setting | Permanent Part 1 value |
+| --- | --- |
+| Model | Kokoro-82M v1.0 (`kokoro-v1.0.onnx`) |
+| Examiner question | `af_heart`, `en-us`, speed `0.96` — the established flashcard/writing female voice |
+| Band 9 answer | `bm_fable`, `en-gb`, speed `0.98` — the approved Part 2/3 British-boy voice |
+| Output | Mono MP3, 24 kHz, variable bitrate |
+| MP3 compression level | `0.55` |
+| Answer sentence pause | `0.45` seconds |
+| Turn gap | `0.44` seconds plus a `0.28`-second visible-message lead |
+| Audio unit | One continuous mixed-voice MP3 per Part 1 module |
+| Turn layout | Question 1 → Answer 1 through Question 9 → Answer 9 |
+| Word timing | Faster Whisper `base.en`, measured per rendered sentence (`faster-whisper-base.en-audio-v1`) |
+| Audio build version | Part 1 `v1` |
+| Static path | `assets/speaking-system/audio/edmund-neural/part1/v1/` |
+| Source | `tools/ielts-speaking-part1-book1-structured.json` |
+| Browser data | `speaking-system-part1-data.js` / `window.EDMUND_SPEAKING_PART1_DATA` |
+| Audio manifest | `speaking-part1-audio-manifest.js` |
+
+The manifest exposes distinct Part 1 globals and 18 ordered
+`turnWordRanges`. Each range pins its question number, role, speaker, reveal
+time, exact synthesized `playbackEnd`, and visible-word range. Individual-turn
+playback must stop at `playbackEnd`, never at the earlier final aligned-word
+timestamp. Audio playback may remove a bubble's blur before its voice begins,
+but it must never force-scroll the page.
+
+Build and validate the browser data:
+
+```sh
+python3 tools/build-speaking-part1-data.py
+python3 tools/build-speaking-part1-data.py --check
+```
+
+Generate and strictly validate the mixed-voice audio:
+
+```sh
+.venv-tts/bin/python tools/generate-speaking-part1-audio.py \
+  --source-root . --output-root . \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin \
+  --alignment-cache /path/outside/repository/faster-whisper-cache \
+  --prune-orphans
+
+.venv-tts/bin/python tools/generate-speaking-part1-audio.py \
+  --source-root . --output-root . --manifest-only
+```
+
+Part 1 audio is stored in the existing `edmund-assets` R2 bucket and served by
+the read-only Edmund Neural Audio Worker. Validate and upload only the
+manifest-referenced immutable MP3:
+
+```sh
+.venv-tts/bin/python tools/upload-speaking-part1-audio-r2.py \
+  --source-root . --check
+
+.venv-tts/bin/python tools/upload-speaking-part1-audio-r2.py \
+  --source-root . \
+  --checkpoint /path/outside/repository/part1-r2-upload-checkpoint.json
+```
+
+Listen to every newly generated module. Confirm that all nine questions use the
+female voice, all nine answers use the British-boy voice, the hand-offs are in
+order, every English word highlights, and replaying an individual bubble stops
+at that bubble's boundary. Any change to either voice, language, speed, pause,
+layout, encoder or alignment recipe requires a Part 1 build-version bump.
+
 ## Part 3 Books 1-16 — approved British-boy voice
 
 IELTS Speaking Part 3 is a separate, independently versioned speaking-audio

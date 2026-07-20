@@ -1,9 +1,10 @@
 # Edmund Neural Audio Worker
 
-This read-only Worker serves versioned IELTS Speaking Part 3 MP3 objects from
-the existing `edmund-assets` R2 bucket. It intentionally exposes only
-`assets/speaking-system/audio/edmund-neural/part3/*.mp3`, supports browser byte
-range requests, and applies immutable one-year caching metadata.
+This read-only Worker serves versioned IELTS Speaking Part 1 and Part 3 MP3
+objects from the existing `edmund-assets` R2 bucket. It intentionally exposes
+only the `assets/speaking-system/audio/edmund-neural/part1/` and `part3/`
+prefixes, supports browser byte-range requests, and applies immutable one-year
+caching metadata.
 
 Deploy from this directory with the pinned Wrangler installation in the
 neighbouring `speaking-system` Worker project:
