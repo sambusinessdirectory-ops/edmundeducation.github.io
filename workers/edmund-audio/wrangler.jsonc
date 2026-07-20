@@ -1,0 +1,14 @@
+{
+  "$schema": "../speaking-system/node_modules/wrangler/config-schema.json",
+  "name": "edmund-neural-audio",
+  "main": "src/index.js",
+  "compatibility_date": "2026-07-20",
+  "workers_dev": true,
+  "preview_urls": false,
+  "r2_buckets": [
+    {
+      "binding": "EDMUND_ASSETS",
+      "bucket_name": "edmund-assets"
+    }
+  ]
+}

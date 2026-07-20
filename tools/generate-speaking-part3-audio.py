@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate immutable British-boy MP3s for IELTS Speaking Part 3, Book 1.
+"""Generate immutable British-boy MP3s for IELTS Speaking Part 3, Books 1-16.
 
 This is a deliberately thin Part 3 adapter around the proven Part 2 rendering,
 alignment, hashing, checkpoint, and validation helpers.  It does not modify the
@@ -11,6 +11,7 @@ steps, producing eight ordered timing ranges per exercise.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import importlib.metadata
 import importlib.util
 import json
@@ -28,14 +29,20 @@ AUDIO_BUILD_VERSION = "v2"
 STATIC_AUDIO_ROOT = (
     f"assets/speaking-system/audio/edmund-neural/part3/{AUDIO_BUILD_VERSION}"
 )
-SOURCE_DATA_PATH = "tools/ielts-speaking-part3-book1-structured.json"
+SOURCE_DATA_PATH = "tools"
 MANIFEST_NAME = "speaking-part3-audio-manifest.js"
 
 # Keep Part 3 on the same approved British-boy performance used by Part 2.
 VOICE = "bm_fable"
 LANGUAGE = "en-gb"
 SPEED = 0.98
-EXPECTED_EXERCISES = 23
+SUPPORTED_BOOKS = tuple(range(1, 17))
+SELECTED_BOOKS = SUPPORTED_BOOKS
+# Preserve the already-published v2 recipe fingerprint. Corpus membership is
+# validated separately by the pinned structured-source hashes and manifest
+# corpus hash, so adding new exercises with the same voice does not rewrite
+# Book 1's immutable v2 files.
+RECIPE_SEED_EXERCISES = 23
 EXPECTED_MODELS_PER_EXERCISE = 2
 EXPECTED_SECTIONS_PER_MODEL = 4
 EXPECTED_SECTIONS_PER_EXERCISE = 8
@@ -47,7 +54,10 @@ EXPECTED_RUNTIME_VERSIONS = {
     "soundfile": "0.14.0",
     "faster-whisper": "1.2.1",
 }
-PART3_SPOKEN_OVERRIDES = {
+# These two Book 1 fixes were present when the published v2 recipe was sealed.
+# Keep that seed immutable so adding an exact spoken-only fix for a brand-new,
+# never-published exercise does not invalidate Book 1's existing v2 files.
+RECIPE_SEED_SPOKEN_OVERRIDES = {
     # Kokoro drops the clause before the colon for this exact sentence.  The
     # spoken-only conjunction keeps every displayed word audible and gives
     # Whisper a stable alignment without changing the lesson transcript.
@@ -58,6 +68,82 @@ PART3_SPOKEN_OVERRIDES = {
     # every visible word while allowing the final clause to render.
     "I think the first thing we should do is protect animals’ natural habitats and enforce stronger laws against hunting and illegal trade.":
         "I think the first thing we should do is protect animals' natural habitats, and enforce stronger laws against hunting and illegal trade.",
+}
+
+PART3_SPOKEN_OVERRIDES = {
+    **RECIPE_SEED_SPOKEN_OVERRIDES,
+    # Kokoro truncates immediately after "which" when this compound adjective
+    # is hyphenated. Removing only the spoken hyphen renders the complete
+    # sentence while preserving every displayed word and its timing target.
+    "So, one major type of food people eat in Hong Kong is traditional Cantonese-style food, which is still very much the backbone of local eating habits.":
+        "So, one major type of food people eat in Hong Kong is traditional Cantonese style food, which is still very much the backbone of local eating habits.",
+    # Kokoro stops after "when" unless the final coordinated clause receives a
+    # spoken pause. The added comma keeps all displayed tokens and allows the
+    # complete sentence to align deterministically.
+    "So yes, I would say a lot of people do like expressing political opinions, particularly when the topic strikes a nerve or feels personally relevant.":
+        "So yes, I would say a lot of people do like expressing political opinions, particularly when the topic strikes a nerve, or feels personally relevant.",
+    # This hyphen makes Kokoro truncate after "does" in the following clause.
+    # Removing it only from the spoken form produces the complete sentence and
+    # preserves every displayed word for timing and highlighting.
+    "So, overall, I would say future generations may become more health-conscious, but that does not necessarily mean they will all live more healthily in practice.":
+        "So, overall, I would say future generations may become more health conscious, but that does not necessarily mean they will all live more healthily in practice.",
+    # The comma immediately before the closing curly quote makes the engine
+    # skip the opening words and hallucinate an ending. Removing that spoken
+    # comma yields the complete quotation while retaining all display tokens.
+    "It tells people, “This should be good,” even before they try it.":
+        "It tells people, “This should be good” even before they try it.",
+    # A short spoken pause between the coordinated conditions prevents Kokoro
+    # from truncating after "style". The comma is audio-only and preserves the
+    # complete visible wording and order.
+    "So, one major factor is practicality, because if clothes do not feel right or last well, the style alone usually will not carry the day.":
+        "So, one major factor is practicality, because if clothes do not feel right, or last well, the style alone usually will not carry the day.",
+    # A spoken pause after "I think" keeps the final judgement from being
+    # truncated. This punctuation-only override retains every display token.
+    "So, in daily face-to-face situations, people may seem less willing to help than before, but I think that impression can be a little misleading.":
+        "So, in daily face-to-face situations, people may seem less willing to help than before, but I think, that impression can be a little misleading.",
+    # The pause after this compound adjective makes the voice stop at "rather".
+    # Removing only that spoken comma retains every visible word and produces
+    # the complete sentence deterministically.
+    "So, one very obvious change is that shopping has become far more online and on-demand, rather than mainly based on visiting physical shops.":
+        "So, one very obvious change is that shopping has become far more online and on-demand rather than mainly based on visiting physical shops.",
+    # A full spoken pause between the two coordinated thoughts prevents the
+    # engine from stopping at "waterways". The display sentence and its word
+    # sequence remain unchanged.
+    "Cities and towns produce huge amounts of waste, and if that waste is not managed properly, waterways often end up paying the price.":
+        "Cities and towns produce huge amounts of waste. And if that waste is not managed properly, waterways often end up paying the price.",
+    # The opening discourse-marker pause causes the engine to stop after "and".
+    # Removing that spoken comma preserves all displayed words and completes
+    # the sentence reliably.
+    "So, one major reason people move to cities is that city life promises upward mobility and a stronger sense of possibility.":
+        "So one major reason people move to cities is that city life promises upward mobility and a stronger sense of possibility.",
+    # A full spoken pause between the contrasted kinds of work prevents the
+    # engine from stopping at "mental". The displayed sentence is untouched.
+    "So, broadly speaking, physical work is often paid for visible labour and endurance, while mental work is more often paid for knowledge, judgment, and responsibility.":
+        "So, broadly speaking, physical work is often paid for visible labour and endurance. While mental work is more often paid for knowledge, judgment, and responsibility.",
+    # The pause after this discourse marker makes the audio stop at "sounds".
+    # Removing the spoken comma preserves every displayed word and completes
+    # the example reliably.
+    "For example, two friends may argue over a text message simply because one sentence sounds colder or harsher than it was meant to.":
+        "For example two friends may argue over a text message simply because one sentence sounds colder or harsher than it was meant to.",
+    # Kokoro truncates after "especially" when this final adjective is
+    # hyphenated. Removing only the spoken hyphen preserves the UI wording and
+    # yields the complete sentence.
+    "I think people usually share good news when it feels both real and emotionally fresh, especially right after something happy, meaningful, or hard-earned has happened.":
+        "I think people usually share good news when it feels both real and emotionally fresh, especially right after something happy, meaningful, or hard earned has happened.",
+    # The pause before the reason clause makes the voice stop at "because".
+    # Removing only that spoken comma keeps all display tokens and completes
+    # the sentence without an ASR hallucination.
+    "So, generally speaking, people should apologise when they have caused real harm or discomfort, because saying sorry is often the first step towards putting things right.":
+        "So, generally speaking, people should apologise when they have caused real harm or discomfort because saying sorry is often the first step towards putting things right.",
+    # A stronger spoken break after the first clause prevents truncation after
+    # "meaningful". The semicolon is audio-only; display text stays unchanged.
+    "Small happy moments may fly through messages and social media, while bigger and more meaningful ones are often shared more personally, because joy is sweetest when it is truly felt, not just announced.":
+        "Small happy moments may fly through messages and social media; while bigger and more meaningful ones are often shared more personally, because joy is sweetest when it is truly felt, not just announced.",
+    # Curly quote marks make this sentence produce empty or garbled speech.
+    # Straightening only the spoken quotes preserves all visible words and
+    # yields a complete, stable reading.
+    "It may feel as though they would rather dig their heels in than simply admit, “Yes, that was my fault.”":
+        'It may feel as though they would rather dig their heels in than simply admit, "Yes, that was my fault."',
 }
 
 ENTRIES_GLOBAL = "EDMUND_SPEAKING_PART3_AUDIO"
@@ -88,8 +174,8 @@ base_load_soundfile_dependency = shared.load_soundfile_dependency
 base_load_generation_dependencies = shared.load_generation_dependencies
 
 
-def stable_exercise_id(index: int) -> str:
-    return f"ielts-part-3-book-1-exercise-{index:02d}"
+def stable_exercise_id(book: int, index: int) -> str:
+    return f"ielts-part-3-book-{book}-exercise-{index:02d}"
 
 
 def spoken_text(value: str) -> str:
@@ -98,82 +184,82 @@ def spoken_text(value: str) -> str:
 
 
 def load_exercises(source_root: Path) -> dict[str, dict[str, Any]]:
-    source_path = source_root / SOURCE_DATA_PATH
-    if shared.sha256_file(source_path) != part3_data.EXPECTED_STRUCTURED_JSON_SHA256:
-        raise ValueError(
-            "Part 3 structured source SHA-256 changed; re-audit the PDF extraction "
-            "before generating audio"
-        )
-    payload = part3_data.validate_source(
-        json.loads(source_path.read_text(encoding="utf-8"))
-    )
-
     exercises: dict[str, dict[str, Any]] = {}
-    for expected_index, source_exercise in enumerate(payload["exercises"], start=1):
-        section_texts: list[str] = []
-        sentence_groups: list[list[str]] = []
-        section_metadata: list[dict[str, object]] = []
-        models = source_exercise["response_models"]
-        if len(models) != EXPECTED_MODELS_PER_EXERCISE:
-            raise ValueError(f"Part 3 exercise {expected_index} does not contain two models")
-
-        for expected_model, model in enumerate(models, start=1):
-            if model["model_number"] != expected_model:
-                raise ValueError(f"Part 3 exercise {expected_index} models are out of order")
-            components = model["components"]
-            if len(components) != EXPECTED_SECTIONS_PER_MODEL:
+    sources = part3_data.load_sources(
+        source_root / SOURCE_DATA_PATH,
+        tuple(SELECTED_BOOKS),
+    )
+    for payload in sources:
+        book = int(payload["book"])
+        for expected_index, source_exercise in enumerate(payload["exercises"], start=1):
+            section_texts: list[str] = []
+            sentence_groups: list[list[str]] = []
+            section_metadata: list[dict[str, object]] = []
+            models = source_exercise["response_models"]
+            if len(models) != EXPECTED_MODELS_PER_EXERCISE:
                 raise ValueError(
-                    f"Part 3 exercise {expected_index}, model {expected_model} "
-                    "does not contain four IEEC steps"
+                    f"Part 3 Book {book}, exercise {expected_index} does not contain two models"
                 )
-            for model_step, (component, expected_stage) in enumerate(
-                zip(components, EXPECTED_STAGES), start=1
-            ):
-                source_number = (expected_model - 1) * EXPECTED_SECTIONS_PER_MODEL + model_step
-                if (
-                    component["source_number"] != source_number
-                    or component["stage"] != expected_stage
+
+            for expected_model, model in enumerate(models, start=1):
+                if model["model_number"] != expected_model:
+                    raise ValueError(
+                        f"Part 3 Book {book}, exercise {expected_index} models are out of order"
+                    )
+                components = model["components"]
+                if len(components) != EXPECTED_SECTIONS_PER_MODEL:
+                    raise ValueError(
+                        f"Part 3 Book {book}, exercise {expected_index}, model {expected_model} "
+                        "does not contain four IEEC steps"
+                    )
+                for model_step, (component, expected_stage) in enumerate(
+                    zip(components, EXPECTED_STAGES), start=1
                 ):
-                    raise ValueError(
-                        f"Part 3 exercise {expected_index}, model {expected_model}, "
-                        f"step {model_step} is out of IEEC order"
+                    source_number = (
+                        (expected_model - 1) * EXPECTED_SECTIONS_PER_MODEL + model_step
                     )
-                english = str(component["english"])
-                if english != english.strip() or re.search(r"\s{2,}", english):
-                    raise ValueError(
-                        f"Part 3 exercise {expected_index}, source component "
-                        f"{source_number} has unexpected whitespace"
-                    )
-                section_texts.append(english)
-                sentence_groups.append(shared.split_sentences(english))
-                section_metadata.append({
-                    "number": source_number,
-                    "modelNumber": expected_model,
-                    "modelStep": model_step,
-                    "sourceNumber": source_number,
-                    "stage": expected_stage,
-                })
+                    if (
+                        component["source_number"] != source_number
+                        or component["stage"] != expected_stage
+                    ):
+                        raise ValueError(
+                            f"Part 3 Book {book}, exercise {expected_index}, "
+                            f"model {expected_model}, step {model_step} is out of IEEC order"
+                        )
+                    english = str(component["english"])
+                    if english != english.strip() or re.search(r"\s{2,}", english):
+                        raise ValueError(
+                            f"Part 3 Book {book}, exercise {expected_index}, "
+                            f"source component {source_number} has unexpected whitespace"
+                        )
+                    section_texts.append(english)
+                    sentence_groups.append(shared.split_sentences(english))
+                    section_metadata.append({
+                        "number": source_number,
+                        "modelNumber": expected_model,
+                        "modelStep": model_step,
+                        "sourceNumber": source_number,
+                        "stage": expected_stage,
+                    })
 
-        if len(section_texts) != EXPECTED_SECTIONS_PER_EXERCISE:
-            raise ValueError(f"Part 3 exercise {expected_index} does not contain eight sections")
-        exercise_id = stable_exercise_id(expected_index)
-        full_text = "\n\n".join(section_texts)
-        exercises[exercise_id] = {
-            "part": 3,
-            "book": 1,
-            "index": expected_index,
-            "title": source_exercise["question"]["english"],
-            "sections": section_texts,
-            "sectionMetadata": section_metadata,
-            "sentences": sentence_groups,
-            "text": full_text,
-        }
-
-    if len(exercises) != EXPECTED_EXERCISES:
-        raise ValueError(
-            f"Part 3 source produced {len(exercises)} exercises; "
-            f"expected {EXPECTED_EXERCISES}"
-        )
+            if len(section_texts) != EXPECTED_SECTIONS_PER_EXERCISE:
+                raise ValueError(
+                    f"Part 3 Book {book}, exercise {expected_index} does not contain eight sections"
+                )
+            exercise_id = stable_exercise_id(book, expected_index)
+            if exercise_id in exercises:
+                raise ValueError(f"Duplicate Part 3 exercise id {exercise_id}")
+            full_text = "\n\n".join(section_texts)
+            exercises[exercise_id] = {
+                "part": 3,
+                "book": book,
+                "index": expected_index,
+                "title": source_exercise["question"]["english"],
+                "sections": section_texts,
+                "sectionMetadata": section_metadata,
+                "sentences": sentence_groups,
+                "text": full_text,
+            }
     return exercises
 
 
@@ -218,13 +304,13 @@ def recipe_payload() -> dict[str, Any]:
         "exam": "IELTS",
         "part": 3,
         "book": 1,
-        "expectedExercises": EXPECTED_EXERCISES,
+        "expectedExercises": RECIPE_SEED_EXERCISES,
         "modelsPerExercise": EXPECTED_MODELS_PER_EXERCISE,
         "sectionsPerModel": EXPECTED_SECTIONS_PER_MODEL,
         "sectionsPerExercise": EXPECTED_SECTIONS_PER_EXERCISE,
         "sectionLayout": SECTION_LAYOUT,
-        "structuredSourceSha256": part3_data.EXPECTED_STRUCTURED_JSON_SHA256,
-        "spokenOverrides": PART3_SPOKEN_OVERRIDES,
+        "structuredSourceSha256": part3_data.EXPECTED_STRUCTURED_JSON_SHA256_BY_BOOK[1],
+        "spokenOverrides": RECIPE_SEED_SPOKEN_OVERRIDES,
     }
     payload["runtime"] = dict(EXPECTED_RUNTIME_VERSIONS)
     return payload
@@ -237,20 +323,29 @@ def manifest_meta(
     complete: bool,
 ) -> dict[str, object]:
     meta = base_manifest_meta(exercises, entries, complete=complete)
+    books = sorted({int(exercise["book"]) for exercise in exercises.values()})
     meta.update({
         "name": "Edmund Speaking Part 3 Neural",
         "part": 3,
-        "book": 1,
+        "bookCount": len(books),
+        "books": books,
         "responseModelsPerExercise": EXPECTED_MODELS_PER_EXERCISE,
         "sectionsPerModel": EXPECTED_SECTIONS_PER_MODEL,
         "sectionsPerExercise": EXPECTED_SECTIONS_PER_EXERCISE,
         "sectionLayout": SECTION_LAYOUT,
-        "sourceComponentCount": EXPECTED_EXERCISES * EXPECTED_SECTIONS_PER_EXERCISE,
+        "sourceComponentCount": len(exercises) * EXPECTED_SECTIONS_PER_EXERCISE,
         "sourceDisplayWordCount": sum(
             len(shared.display_words(str(section)))
             for exercise in exercises.values()
             for section in exercise["sections"]
         ),
+        "spokenOverrideCount": len(PART3_SPOKEN_OVERRIDES),
+        "spokenOverridesSha256": hashlib.sha256(json.dumps(
+            PART3_SPOKEN_OVERRIDES,
+            ensure_ascii=False,
+            sort_keys=True,
+            separators=(",", ":"),
+        ).encode("utf-8")).hexdigest(),
     })
     return meta
 
@@ -302,6 +397,33 @@ def load_generation_dependencies() -> tuple[Any, Any, Any]:
     return base_load_generation_dependencies()
 
 
+def parse_book_selection(value: str) -> tuple[int, ...]:
+    selected: set[int] = set()
+    for raw_part in str(value).split(","):
+        part = raw_part.strip()
+        if not part:
+            continue
+        if "-" in part:
+            raw_start, raw_end = part.split("-", 1)
+            try:
+                start = int(raw_start)
+                end = int(raw_end)
+            except ValueError as error:
+                raise argparse.ArgumentTypeError(f"Invalid book range {part!r}") from error
+            if start > end:
+                raise argparse.ArgumentTypeError(f"Invalid descending book range {part!r}")
+            selected.update(range(start, end + 1))
+        else:
+            try:
+                selected.add(int(part))
+            except ValueError as error:
+                raise argparse.ArgumentTypeError(f"Invalid book number {part!r}") from error
+    books = tuple(sorted(selected))
+    if not books or any(book not in SUPPORTED_BOOKS for book in books):
+        raise argparse.ArgumentTypeError("Books must be a non-empty subset of 1-16")
+    return books
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source-root", type=Path, required=True)
@@ -309,6 +431,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--model", type=Path)
     parser.add_argument("--voices", type=Path)
     parser.add_argument("--alignment-cache", type=Path)
+    parser.add_argument(
+        "--books",
+        type=parse_book_selection,
+        default=SUPPORTED_BOOKS,
+        help="Books to process, for example 2-6 or 2,4,6 (default: 1-16)",
+    )
     parser.add_argument(
         "--validate-source",
         action="store_true",
@@ -338,6 +466,8 @@ def parse_args() -> argparse.Namespace:
         )
     if args.write_placeholder and args.prune_orphans:
         parser.error("--write-placeholder cannot be combined with --prune-orphans")
+    if args.prune_orphans and tuple(args.books) != SUPPORTED_BOOKS:
+        parser.error("--prune-orphans requires the complete 1-16 book selection")
     return args
 
 
@@ -350,7 +480,7 @@ def install_part3_configuration() -> None:
     shared.VOICE = VOICE
     shared.LANGUAGE = LANGUAGE
     shared.SPEED = SPEED
-    shared.EXPECTED_BOOKS = (1,)
+    shared.EXPECTED_BOOKS = SUPPORTED_BOOKS
     shared.EXPECTED_SECTIONS_PER_EXERCISE = EXPECTED_SECTIONS_PER_EXERCISE
     shared.load_exercises = load_exercises
     shared.spoken_text = spoken_text
@@ -365,8 +495,10 @@ def install_part3_configuration() -> None:
 
 
 def main() -> int:
+    global SELECTED_BOOKS
     install_part3_configuration()
     args = parse_args()
+    SELECTED_BOOKS = tuple(args.books)
     if args.manifest_only:
         # Validate the immutable source before inspecting the manifest.  An
         # explicit placeholder can then fail clearly as incomplete even on a
@@ -380,7 +512,7 @@ def main() -> int:
         if meta.get("complete") is not True:
             raise SystemExit(
                 "Part 3 audio is incomplete: manifest is an explicit placeholder "
-                f"with {len(manifest['entries'])}/{EXPECTED_EXERCISES} entries"
+                f"with {len(manifest['entries'])}/{len(load_exercises(args.source_root.resolve()))} entries"
             )
     # The proven shared main owns all subsequent validation/generation logic.
     # Supplying the already-validated namespace avoids parsing command-line

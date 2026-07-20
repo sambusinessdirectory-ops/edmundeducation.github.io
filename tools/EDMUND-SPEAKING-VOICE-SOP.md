@@ -38,7 +38,7 @@ Reference model checksums:
 The model, voices bundle, and Faster Whisper cache are local build
 dependencies. Never commit them to the website repository.
 
-## Part 3 Book 1 — approved British-boy voice
+## Part 3 Books 1-16 — approved British-boy voice
 
 IELTS Speaking Part 3 is a separate, independently versioned speaking-audio
 product. Its paths, manifest, and browser globals must never replace or modify
@@ -61,7 +61,7 @@ voice recipe as Part 2 so students hear one consistent performance.
 | Word timing | Faster Whisper `base.en`, measured per rendered sentence (`faster-whisper-base.en-audio-v1`) |
 | Audio build version | Part 3 `v2` |
 | Static path | `assets/speaking-system/audio/edmund-neural/part3/v2/` |
-| Source | `tools/ielts-speaking-part3-book1-structured.json` |
+| Source | `tools/ielts-speaking-part3-book{1..16}-structured.json` |
 | Browser data | `speaking-system-part3-data.js` / `window.EDMUND_SPEAKING_PART3_DATA` |
 | Audio manifest | `speaking-part3-audio-manifest.js` |
 | Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0`, `faster-whisper==1.2.1` |
@@ -75,25 +75,31 @@ using distinct settings and globals:
 - `window.EDMUND_SPEAKING_PART3_AUDIO_RECIPE_SHA256`
 - `window.EDMUND_SPEAKING_PART3_AUDIO_SHA256`
 
-Stable Part 3 ids are `ielts-part-3-book-1-exercise-01` through
-`ielts-part-3-book-1-exercise-23`. Each MP3 contains the two response models in
-display order, with four Idea → Explanation → Example → Conclusion sections
-per model. The manifest therefore records eight ordered `sectionWordRanges`
-for every completed exercise.
+Stable Part 3 ids follow
+`ielts-part-3-book-{book}-exercise-{two-digit exercise}`. Each MP3 contains the
+two response models in display order, with four Idea → Explanation → Example →
+Conclusion sections per model. The manifest therefore records eight ordered
+`sectionWordRanges` for every completed exercise.
 
 Pronunciation-only overrides may repair a rendering defect without changing
 the displayed lesson text. They must be exact-sentence mappings in
-`PART3_SPOKEN_OVERRIDES`, included in the recipe fingerprint, and verified by
-listening plus strict word alignment before release.
+`PART3_SPOKEN_OVERRIDES` and must be verified by listening plus strict word
+alignment before release. The two corrections that existed when Book 1 `v2`
+was published are frozen in `RECIPE_SEED_SPOKEN_OVERRIDES` and remain part of
+the published recipe fingerprint. A minimal correction for a brand-new,
+never-published exercise may join `PART3_SPOKEN_OVERRIDES` without changing
+that Book 1 fingerprint; the complete active mapping is independently pinned
+by `spokenOverridesSha256` in every newly written manifest. Never use this
+exception to alter an already-published recording.
 
-Build and check Part 3 browser data independently:
+Build and check the combined 16-book Part 3 browser data independently:
 
 ```sh
 python3 tools/build-speaking-part3-data.py
 python3 tools/build-speaking-part3-data.py --check
 ```
 
-Validate the 23-exercise, 46-model, 184-step source without audio dependencies:
+Validate the complete source corpus without audio dependencies:
 
 ```sh
 python3 tools/generate-speaking-part3-audio.py \
@@ -123,7 +129,39 @@ Generate Part 3 audio without touching the Part 2 tree:
   --prune-orphans
 ```
 
-After all 23 MP3s exist, validate the complete manifest and decoded files with
+For a large first-time build, three disjoint book shards may be rendered in
+parallel. Every process must use its own output root; never let two generators
+write the same checkpoint manifest:
+
+```sh
+.venv-tts/bin/python tools/generate-speaking-part3-audio.py \
+  --source-root . --output-root /tmp/part3-02-06 --books 2-6 \
+  --model /path/to/kokoro-v1.0.onnx --voices /path/to/voices-v1.0.bin
+
+.venv-tts/bin/python tools/generate-speaking-part3-audio.py \
+  --source-root . --output-root /tmp/part3-07-11 --books 7-11 \
+  --model /path/to/kokoro-v1.0.onnx --voices /path/to/voices-v1.0.bin
+
+.venv-tts/bin/python tools/generate-speaking-part3-audio.py \
+  --source-root . --output-root /tmp/part3-12-16 --books 12-16 \
+  --model /path/to/kokoro-v1.0.onnx --voices /path/to/voices-v1.0.bin
+```
+
+After each shard passes `--manifest-only`, merge it with the published Book 1
+library, then validate the merged result:
+
+```sh
+.venv-tts/bin/python tools/merge-speaking-part3-audio-shards.py \
+  --source-root . --output-root . \
+  --shard-root /tmp/part3-02-06 \
+  --shard-root /tmp/part3-07-11 \
+  --shard-root /tmp/part3-12-16
+
+.venv-tts/bin/python tools/merge-speaking-part3-audio-shards.py \
+  --source-root . --output-root . --check
+```
+
+After every MP3 exists, validate the complete manifest and decoded files with
 either equivalent read-only form:
 
 ```sh
@@ -139,11 +177,40 @@ either equivalent read-only form:
 ```
 
 The Part 3 recipe fingerprint includes its voice, language, speed, immutable
-root, 2×4 layout, source JSON hash, pauses, encoding, alignment settings, and
-pinned runtime versions. Recipe drift at the same Part 3 build version is a
-hard failure even with `--force`. Any future Part 3 recipe change requires a
-Part 3 `AUDIO_BUILD_VERSION` bump and a new immutable directory; it never
-requires changing the Part 2 build version.
+root, 2×4 layout, published override seed, pauses, encoding, alignment settings,
+and pinned runtime versions. Corpus membership is independently pinned by all
+16 structured-source hashes, the manifest corpus hash, and the active-override
+hash, so a new unpublished exercise may join the same voice build without
+rewriting existing immutable MP3s. Recipe drift at the same Part 3 build
+version is a hard failure even with `--force`. Any future Part 3 voice-recipe
+change requires a Part 3 `AUDIO_BUILD_VERSION` bump and a new immutable
+directory; it never requires changing the Part 2 build version.
+
+### Part 3 production storage
+
+The complete 16-book Part 3 library is stored in the existing Cloudflare R2
+bucket `edmund-assets`; it is deliberately not committed to GitHub because the
+resulting Pages artifact would exceed GitHub's 1 GB limit. Browser manifests
+retain the repository-style immutable object keys. `edmund-audio-config.js`
+routes only the Part 3 prefix through the read-only
+`edmund-neural-audio.edmundeducation.workers.dev` Worker, so Part 2,
+flashcards, and writing audio continue to use their existing locations.
+
+Validate and upload only manifest-referenced MP3s with immutable metadata:
+
+```sh
+.venv-tts/bin/python tools/upload-speaking-part3-audio-r2.py \
+  --source-root . --check
+
+.venv-tts/bin/python tools/upload-speaking-part3-audio-r2.py \
+  --source-root . \
+  --checkpoint /path/outside/repository/part3-r2-upload-checkpoint.json
+```
+
+The Worker accepts only `GET`, `HEAD`, and `OPTIONS` for Part 3 MP3 keys,
+supports byte-range playback, serves `audio/mpeg`, and applies
+`public, max-age=31536000, immutable`. Verify a representative first, middle,
+and final MP3 through the Worker before publishing the matching manifest.
 
 ## First-time setup
 

@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build strict browser data for IELTS Speaking Part 3, Book 1.
+"""Build strict browser data for IELTS Speaking Part 3, Books 1-16.
 
-The validated PDF extraction is the only content source.  This builder keeps
-the four source categories, all 23 exercises, both response models per
-exercise, and each model's Idea → Explanation → Example → Conclusion steps.
+Each committed structured JSON is an audited extraction of one source PDF.
+The builder validates every question, both response models, all eight ordered
+Idea -> Explanation -> Example -> Conclusion components, and their page/line
+provenance before emitting the browser payload.
 """
 
 from __future__ import annotations
@@ -17,15 +18,9 @@ from pathlib import Path
 from typing import Any
 
 
-SOURCE_NAME = "ielts-speaking-part3-book1-structured.json"
+SOURCE_PATTERN = "ielts-speaking-part3-book{book}-structured.json"
 OUTPUT_NAME = "speaking-system-part3-data.js"
-EXPECTED_CATEGORY_SPECS = (
-    ("challenge", "Challenge", 1, 4, 3, 10),
-    ("team", "A Member of A Team", 5, 8, 11, 20),
-    ("advertisements", "Advertisements", 9, 14, 21, 35),
-    ("animals", "Animals", 15, 23, 36, 56),
-)
-EXPECTED_EXERCISES = 23
+EXPECTED_BOOKS = tuple(range(1, 17))
 EXPECTED_MODELS_PER_EXERCISE = 2
 EXPECTED_STEPS_PER_MODEL = 4
 EXPECTED_STAGES = ("idea", "explanation", "example", "conclusion")
@@ -40,12 +35,6 @@ EXPECTED_SOURCE_LABELS = {
     7: "Example 2",
     8: "Conclusion 2",
 }
-EXPECTED_LABEL_VARIATIONS = {
-    (15, 7, "Example", "Example 2", 37),
-    (21, 7, "Example", "Example 2", 50),
-    (22, 7, "Example", "Example 2", 52),
-    (23, 7, "Example", "Example 2", 56),
-}
 STAGE_LABELS_ZH = {
     "idea": "主旨",
     "explanation": "解釋",
@@ -56,18 +45,35 @@ ENGLISH_WORD_PATTERN = re.compile(
     r"\b[A-Za-z]+(?:[’'][A-Za-z]+)*(?:-[A-Za-z]+)*\b"
 )
 SHA256_PATTERN = re.compile(r"[0-9a-f]{64}")
-EXPECTED_SOURCE_FILE = "Book 1 - Band 9 IELTS Speaking - Part 3.pdf"
-EXPECTED_SOURCE_PDF_SHA256 = (
-    "2baede46ae168fe7897783f59646c25e00e6bf29aafec5cf6b9f3b20f50e90d3"
-)
-EXPECTED_STRUCTURED_JSON_SHA256 = (
-    "9c4d08451d285274e901b47d3ee95d85fe3c07fd163f81f486d81e8528ff383e"
-)
-EXPECTED_PROVENANCE_ROWS = 1277
-# The PDF visibly contains one duplicated/mismatched wrapper around Exercise 4,
-# Sample 1's Example translation: "([…] (".  Keep the source value in
-# sourceTextZh while removing only those wrappers from the browser display.
-KNOWN_CHINESE_DISPLAY_REPAIR = (4, 1, 3)
+CJK_PATTERN = re.compile(r"[\u3400-\u9fff]")
+ZERO_WIDTH_PATTERN = re.compile(r"[\u200b-\u200f\u2060\ufeff]")
+AUDIO_BUILD_VERSION = "v2"
+
+# Every source JSON is pinned after PDF extraction and independent review.
+# Books 2-16 are populated by the 15-book import before release.
+EXPECTED_STRUCTURED_JSON_SHA256_BY_BOOK = {
+    1: "9c4d08451d285274e901b47d3ee95d85fe3c07fd163f81f486d81e8528ff383e",
+    2: "f18cade1abae3974d8f7604537c04d66f87202a99449d887f26f24ffe0a5364f",
+    3: "de445aa68ca2babebe3a59bdb0a0e846486c316ce5d3e3352744fac41d2b5806",
+    4: "78124c96ca89fe192e69aada64a8dad7c5e67fe190eb9f4501fea1f2dbb05486",
+    5: "ac4a73b303ea1350436a0dcbc0a48a3f7adef80b67e6703f3e48db2b6b5ce0b9",
+    6: "24e69be1fc84f56968d379d4d1a1846c3bb2f62f81add779065964520a02a667",
+    7: "2fa160d5ef814e467e15ea6a8581dc024c197df3bf7b080484a15e14ed5ba8b2",
+    8: "0d9c29b0e01280fdc9a7d7300b6790d8a0c4f4ddd15aa63282c85407b5aa0aa2",
+    9: "e2b8a6beb6b366deb32b9730cb3b0b3c9bab7182ecdc2a981289ca98890686aa",
+    10: "5a7f9b21d259ab24acc2b1b16c590296c73e786e85c508316a71501340cd799b",
+    11: "7fa3b705ce04a4bb9d48cf8e1701fe806beebf55ac3409927a8f631ee111828b",
+    12: "7cf5688e29f88f97e8fc62df2fb7a299cb6862cf22dfa3b58948983f3343c254",
+    13: "25c6e37cbe72c25e012957f9ea61fe1b978dd46afdc39b91ee5cfc26d917ba3a",
+    14: "c3f1be8b96f40d3cc61718195b4a860cbec2661adc440854ad2a628286012314",
+    15: "bed47ab9cae81f5a3856790671d1a6706b34b1cdfe55b238ade9d5d2eb896b90",
+    16: "83b7fc06aeff5af63e47dccd8290f46e1ff06c4126e713dd69bca248d8312ca2",
+}
+
+# Book 1 visibly contains one duplicated/mismatched wrapper around Exercise 4,
+# Sample 1's Example translation: "([…] (". Preserve the source value while
+# removing only those wrappers in the browser display.
+KNOWN_CHINESE_DISPLAY_REPAIRS = {(1, 4, 1, 3)}
 
 
 def require_mapping(value: Any, where: str) -> dict[str, Any]:
@@ -86,10 +92,29 @@ def require_string(container: dict[str, Any], key: str, where: str) -> str:
     value = container.get(key)
     if not isinstance(value, str) or not value.strip() or value != value.strip():
         raise ValueError(f"{where} has an empty, invalid, or padded {key!r}")
+    if ZERO_WIDTH_PATTERN.search(value):
+        raise ValueError(f"{where} contains a zero-width character in {key!r}")
     return value
 
 
-def validate_page_range(value: Any, where: str) -> tuple[int, int]:
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def stable_exercise_id(book: int, index: int) -> str:
+    return f"ielts-part-3-book-{book}-exercise-{index:02d}"
+
+
+def validate_page_range(
+    value: Any,
+    where: str,
+    *,
+    page_count: int,
+) -> tuple[int, int]:
     page_range = require_mapping(value, f"{where} page_range")
     start = page_range.get("start")
     end = page_range.get("end")
@@ -100,6 +125,7 @@ def validate_page_range(value: Any, where: str) -> tuple[int, int]:
         or isinstance(end, bool)
         or start < 1
         or start > end
+        or end > page_count
     ):
         raise ValueError(f"{where} has an invalid page_range")
     return start, end
@@ -118,23 +144,13 @@ def validate_pages(value: Any, page_range: tuple[int, int], where: str) -> list[
     return pages
 
 
-def stable_exercise_id(index: int) -> str:
-    return f"ielts-part-3-book-1-exercise-{index:02d}"
-
-
-def sha256_file(path: Path) -> str:
-    digest = hashlib.sha256()
-    with path.open("rb") as handle:
-        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
-
-
 def validate_source_lines(
     value: Any,
     expected_pages: list[int],
     where: str,
     seen_provenance: set[tuple[int, int]],
+    *,
+    page_count: int,
 ) -> set[int]:
     lines = require_list(value, f"{where} source_lines")
     if not lines:
@@ -147,8 +163,8 @@ def validate_source_lines(
         if (
             not isinstance(page, int)
             or isinstance(page, bool)
-            or page < 3
-            or page > 56
+            or page < 1
+            or page > page_count
             or not isinstance(line_number, int)
             or isinstance(line_number, bool)
             or line_number < 1
@@ -157,7 +173,7 @@ def validate_source_lines(
         require_string(row, "text", f"{where} source line {row_number}")
         key = (page, line_number)
         if key in seen_provenance:
-            raise ValueError(f"duplicate source provenance row {key}")
+            raise ValueError(f"duplicate source provenance row {key} in {where}")
         seen_provenance.add(key)
         pages.add(page)
     if pages != set(expected_pages):
@@ -165,104 +181,142 @@ def validate_source_lines(
     return pages
 
 
-def validate_source(payload: Any) -> dict[str, Any]:
+def validate_source(payload: Any, *, expected_book: int | None = None) -> dict[str, Any]:
     source = require_mapping(payload, "Part 3 source")
+    book = source.get("book")
+    if not isinstance(book, int) or isinstance(book, bool) or book not in EXPECTED_BOOKS:
+        raise ValueError("Part 3 source has an invalid book number")
+    if expected_book is not None and book != expected_book:
+        raise ValueError(f"Expected Book {expected_book}, found Book {book}")
+    exercise_count = source.get("exercise_count")
+    if not isinstance(exercise_count, int) or isinstance(exercise_count, bool) or exercise_count < 1:
+        raise ValueError(f"Book {book} has an invalid exercise_count")
     expected_header = {
         "schema_version": "1.0.0",
         "part": 3,
-        "book": 1,
-        "exercise_count": EXPECTED_EXERCISES,
-        "response_model_count": EXPECTED_EXERCISES * EXPECTED_MODELS_PER_EXERCISE,
+        "response_model_count": exercise_count * EXPECTED_MODELS_PER_EXERCISE,
         "component_count": (
-            EXPECTED_EXERCISES
+            exercise_count
             * EXPECTED_MODELS_PER_EXERCISE
             * EXPECTED_STEPS_PER_MODEL
         ),
     }
     for key, expected in expected_header.items():
         if source.get(key) != expected:
-            raise ValueError(f"Part 3 source {key} must be {expected!r}")
+            raise ValueError(f"Book {book} source {key} must be {expected!r}")
+    if source.get("language_pair") != ["en", "zh-Hant"]:
+        raise ValueError(f"Book {book} has an unexpected language_pair")
 
-    source_meta = require_mapping(source.get("source"), "Part 3 source metadata")
-    if require_string(source_meta, "file_name", "Part 3 source metadata") != EXPECTED_SOURCE_FILE:
-        raise ValueError("Part 3 source metadata has an unexpected PDF file name")
-    source_hash = require_string(source_meta, "sha256", "Part 3 source metadata")
-    if SHA256_PATTERN.fullmatch(source_hash) is None or source_hash != EXPECTED_SOURCE_PDF_SHA256:
-        raise ValueError("Part 3 source metadata has an unexpected PDF SHA-256")
-    if source_meta.get("page_count") != 56:
-        raise ValueError("Part 3 source PDF page count must be 56")
+    source_meta = require_mapping(source.get("source"), f"Book {book} source metadata")
+    expected_file = f"Book {book} - Band 9 IELTS Speaking - Part 3.pdf"
+    if require_string(source_meta, "file_name", f"Book {book} source metadata") != expected_file:
+        raise ValueError(f"Book {book} source metadata has an unexpected PDF file name")
+    source_hash = require_string(source_meta, "sha256", f"Book {book} source metadata")
+    if SHA256_PATTERN.fullmatch(source_hash) is None:
+        raise ValueError(f"Book {book} source metadata has an invalid PDF SHA-256")
+    page_count = source_meta.get("page_count")
+    if not isinstance(page_count, int) or isinstance(page_count, bool) or page_count < 2:
+        raise ValueError(f"Book {book} source metadata has an invalid page_count")
 
-    categories = require_list(source.get("categories"), "Part 3 categories")
-    if len(categories) != len(EXPECTED_CATEGORY_SPECS):
-        raise ValueError("Part 3 source must contain exactly four categories")
+    categories = require_list(source.get("categories"), f"Book {book} categories")
+    if not categories:
+        raise ValueError(f"Book {book} must contain at least one category")
     category_by_exercise: dict[int, tuple[str, str]] = {}
-    for order, (category, expected) in enumerate(
-        zip(categories, EXPECTED_CATEGORY_SPECS), start=1
-    ):
-        item = require_mapping(category, f"category {order}")
-        expected_id, expected_title, first, last, first_page, last_page = expected
-        if item.get("contents_order") != order:
-            raise ValueError(f"category {order} has an invalid contents_order")
-        if item.get("id") != expected_id or item.get("title") != expected_title:
-            raise ValueError(f"category {order} does not match the PDF contents")
-        expected_numbers = list(range(first, last + 1))
-        if item.get("exercise_numbers") != expected_numbers:
-            raise ValueError(f"category {expected_title} has incorrect exercise numbers")
-        if item.get("exercise_count") != len(expected_numbers):
-            raise ValueError(f"category {expected_title} has an incorrect exercise_count")
-        if validate_page_range(
-            item.get("page_range"), f"category {expected_title}"
-        ) != (first_page, last_page):
-            raise ValueError(f"category {expected_title} has an incorrect page range")
-        for number in expected_numbers:
-            category_by_exercise[number] = (expected_id, expected_title)
+    seen_category_ids: set[str] = set()
+    flattened_category_numbers: list[int] = []
+    for order, category_value in enumerate(categories, start=1):
+        where = f"Book {book}, category {order}"
+        category = require_mapping(category_value, where)
+        if category.get("contents_order") != order:
+            raise ValueError(f"{where} has an invalid contents_order")
+        category_id = require_string(category, "id", where)
+        category_title = require_string(category, "title", where)
+        if category_id in seen_category_ids:
+            raise ValueError(f"Book {book} has a duplicate category id {category_id!r}")
+        seen_category_ids.add(category_id)
+        exercise_numbers = require_list(category.get("exercise_numbers"), where)
+        if (
+            not exercise_numbers
+            or any(not isinstance(number, int) or isinstance(number, bool) for number in exercise_numbers)
+            or exercise_numbers != sorted(set(exercise_numbers))
+        ):
+            raise ValueError(f"{where} has invalid exercise_numbers")
+        if category.get("exercise_count") != len(exercise_numbers):
+            raise ValueError(f"{where} has an incorrect exercise_count")
+        validate_page_range(category.get("page_range"), where, page_count=page_count)
+        for number in exercise_numbers:
+            if number in category_by_exercise:
+                raise ValueError(f"Book {book} exercise {number} appears in two categories")
+            category_by_exercise[number] = (category_id, category_title)
+        flattened_category_numbers.extend(exercise_numbers)
+    if flattened_category_numbers != list(range(1, exercise_count + 1)):
+        raise ValueError(f"Book {book} categories do not partition all exercises in order")
 
-    exercises = require_list(source.get("exercises"), "Part 3 exercises")
-    if len(exercises) != EXPECTED_EXERCISES:
-        raise ValueError(f"Part 3 source must contain {EXPECTED_EXERCISES} exercises")
+    anomalies = require_list(source.get("source_anomalies"), f"Book {book} source anomalies")
+    declared_label_variations: set[tuple[int, int, str, str, int]] = set()
+    for anomaly_number, anomaly_value in enumerate(anomalies, start=1):
+        anomaly = require_mapping(anomaly_value, f"Book {book} source anomaly {anomaly_number}")
+        anomaly_type = require_string(
+            anomaly, "type", f"Book {book} source anomaly {anomaly_number}"
+        )
+        if anomaly_type == "source_label_variation":
+            declared_label_variations.add((
+                anomaly.get("exercise_number"),
+                anomaly.get("source_number"),
+                anomaly.get("found"),
+                anomaly.get("expected"),
+                anomaly.get("page"),
+            ))
 
+    exercises = require_list(source.get("exercises"), f"Book {book} exercises")
+    if len(exercises) != exercise_count:
+        raise ValueError(f"Book {book} exercise_count does not match its exercises array")
     seen_ids: set[str] = set()
     seen_provenance: set[tuple[int, int]] = set()
+    observed_label_variations: set[tuple[int, int, str, str, int]] = set()
     source_word_count = 0
     for expected_index, exercise_value in enumerate(exercises, start=1):
-        where = f"exercise {expected_index}"
+        where = f"Book {book}, exercise {expected_index}"
         exercise = require_mapping(exercise_value, where)
         if exercise.get("exercise_number") != expected_index:
             raise ValueError(f"{where} is missing or out of order")
         source_id = require_string(exercise, "id", where)
-        if source_id != f"part3-book1-exercise-{expected_index:02d}":
-            raise ValueError(f"{where} has an unexpected source id")
-        if source_id in seen_ids:
-            raise ValueError(f"{where} has a duplicate source id")
+        expected_source_id = f"part3-book{book}-exercise-{expected_index:02d}"
+        if source_id != expected_source_id or source_id in seen_ids:
+            raise ValueError(f"{where} has an unexpected or duplicate source id")
         seen_ids.add(source_id)
-        expected_category = category_by_exercise[expected_index]
         if (
             exercise.get("category_id"),
             exercise.get("category_title"),
-        ) != expected_category:
+        ) != category_by_exercise[expected_index]:
             raise ValueError(f"{where} has incorrect category metadata")
-        exercise_range = validate_page_range(exercise.get("page_range"), where)
-        validate_pages(exercise.get("pages"), exercise_range, where)
+        exercise_range = validate_page_range(
+            exercise.get("page_range"), where, page_count=page_count
+        )
+        exercise_pages = validate_pages(exercise.get("pages"), exercise_range, where)
 
         question = require_mapping(exercise.get("question"), f"{where} question")
-        require_string(question, "english", f"{where} question")
-        require_string(question, "chinese", f"{where} question")
+        question_english = require_string(question, "english", f"{where} question")
+        question_chinese = require_string(question, "chinese", f"{where} question")
+        if CJK_PATTERN.search(question_english) or not CJK_PATTERN.search(question_chinese):
+            raise ValueError(f"{where} question has mixed or missing language content")
         question_range = validate_page_range(
-            question.get("page_range"), f"{where} question"
+            question.get("page_range"), f"{where} question", page_count=page_count
         )
-        validate_pages(question.get("pages"), question_range, f"{where} question")
+        question_pages = validate_pages(
+            question.get("pages"), question_range, f"{where} question"
+        )
         exercise_provenance_pages = validate_source_lines(
             question.get("source_lines"),
-            list(question["pages"]),
+            question_pages,
             f"{where} question",
             seen_provenance,
+            page_count=page_count,
         )
 
         models = require_list(exercise.get("response_models"), f"{where} models")
         if len(models) != EXPECTED_MODELS_PER_EXERCISE:
-            raise ValueError(
-                f"{where} must contain exactly {EXPECTED_MODELS_PER_EXERCISE} models"
-            )
+            raise ValueError(f"{where} must contain exactly two response models")
         flattened_source_numbers: list[int] = []
         for expected_model, model_value in enumerate(models, start=1):
             model_where = f"{where}, model {expected_model}"
@@ -273,13 +327,8 @@ def validate_source(payload: Any) -> dict[str, Any]:
                 raise ValueError(f"{model_where} does not preserve IEEC order")
             steps = require_list(model.get("components"), f"{model_where} components")
             if len(steps) != EXPECTED_STEPS_PER_MODEL:
-                raise ValueError(
-                    f"{model_where} must contain {EXPECTED_STEPS_PER_MODEL} steps"
-                )
-            expected_numbers = list(
-                range((expected_model - 1) * EXPECTED_STEPS_PER_MODEL + 1,
-                      expected_model * EXPECTED_STEPS_PER_MODEL + 1)
-            )
+                raise ValueError(f"{model_where} must contain four steps")
+            expected_numbers = list(range((expected_model - 1) * 4 + 1, expected_model * 4 + 1))
             for model_step, (step_value, expected_number, expected_stage) in enumerate(
                 zip(steps, expected_numbers, EXPECTED_STAGES), start=1
             ):
@@ -292,95 +341,112 @@ def validate_source(payload: Any) -> dict[str, Any]:
                 source_label = require_string(step, "source_label", step_where)
                 expected_label = EXPECTED_SOURCE_LABELS[expected_number]
                 english = require_string(step, "english", step_where)
-                require_string(step, "chinese", step_where)
-                step_range = validate_page_range(step.get("page_range"), step_where)
-                step_pages = validate_pages(step.get("pages"), step_range, step_where)
-                allowed_variation = (
-                    expected_index,
-                    expected_number,
-                    source_label,
-                    expected_label,
-                    step_range[0],
+                chinese = require_string(step, "chinese", step_where)
+                if CJK_PATTERN.search(english) or not CJK_PATTERN.search(chinese):
+                    raise ValueError(f"{step_where} has mixed or missing language content")
+                step_range = validate_page_range(
+                    step.get("page_range"), step_where, page_count=page_count
                 )
-                if source_label != expected_label and allowed_variation not in EXPECTED_LABEL_VARIATIONS:
-                    raise ValueError(f"{step_where} has an unexpected source label")
+                step_pages = validate_pages(step.get("pages"), step_range, step_where)
+                if source_label != expected_label:
+                    observed_label_variations.add((
+                        expected_index,
+                        expected_number,
+                        source_label,
+                        expected_label,
+                        step_range[0],
+                    ))
                 exercise_provenance_pages.update(validate_source_lines(
                     step.get("source_lines"),
                     step_pages,
                     step_where,
                     seen_provenance,
+                    page_count=page_count,
                 ))
                 source_word_count += len(ENGLISH_WORD_PATTERN.findall(english))
                 flattened_source_numbers.append(expected_number)
         if flattened_source_numbers != list(EXPECTED_SOURCE_NUMBERS):
             raise ValueError(f"{where} does not contain source components 1 through 8")
-        if exercise_provenance_pages != set(exercise["pages"]):
+        if exercise_provenance_pages != set(exercise_pages):
             raise ValueError(f"{where} provenance pages do not match its declared pages")
 
-    anomalies = require_list(source.get("source_anomalies"), "source anomalies")
-    anomaly_tuples: set[tuple[int, int, str, str, int]] = set()
-    for anomaly_number, anomaly_value in enumerate(anomalies, start=1):
-        anomaly = require_mapping(anomaly_value, f"source anomaly {anomaly_number}")
-        if anomaly.get("type") != "source_label_variation":
-            raise ValueError(f"source anomaly {anomaly_number} has an unexpected type")
-        anomaly_tuples.add((
-            anomaly.get("exercise_number"),
-            anomaly.get("source_number"),
-            anomaly.get("found"),
-            anomaly.get("expected"),
-            anomaly.get("page"),
-        ))
-    if anomaly_tuples != EXPECTED_LABEL_VARIATIONS or len(anomalies) != len(EXPECTED_LABEL_VARIATIONS):
-        raise ValueError("Part 3 source label anomalies do not match the validated PDF")
-    if len(seen_provenance) != EXPECTED_PROVENANCE_ROWS:
+    if observed_label_variations != declared_label_variations:
         raise ValueError(
-            f"Part 3 source has {len(seen_provenance)} provenance rows; "
-            f"expected {EXPECTED_PROVENANCE_ROWS}"
+            f"Book {book} source label anomalies do not match the extracted components"
         )
-
     source["_validated_english_word_count"] = source_word_count
+    source["_validated_provenance_row_count"] = len(seen_provenance)
     return source
+
+
+def load_sources(
+    source_root: Path,
+    books: tuple[int, ...] = EXPECTED_BOOKS,
+) -> list[dict[str, Any]]:
+    sources: list[dict[str, Any]] = []
+    for book in books:
+        if book not in EXPECTED_BOOKS:
+            raise ValueError(f"Part 3 Book {book} is outside the supported range")
+        path = source_root / SOURCE_PATTERN.format(book=book)
+        if not path.is_file():
+            raise ValueError(f"Part 3 Book {book} structured source is missing")
+        expected_hash = EXPECTED_STRUCTURED_JSON_SHA256_BY_BOOK.get(book)
+        if expected_hash is None:
+            raise ValueError(f"Part 3 Book {book} structured source has not been pinned")
+        actual_hash = sha256_file(path)
+        if actual_hash != expected_hash:
+            raise ValueError(
+                f"Part 3 Book {book} structured source SHA-256 changed; "
+                "re-audit the PDF extraction before rebuilding"
+            )
+        sources.append(validate_source(
+            json.loads(path.read_text(encoding="utf-8")), expected_book=book
+        ))
+    return sources
 
 
 def source_lines_raw(lines: Any, where: str) -> str:
     source_lines = require_list(lines, f"{where} source_lines")
-    text_lines: list[str] = []
-    for index, value in enumerate(source_lines, start=1):
-        line = require_mapping(value, f"{where} source line {index}")
-        text_lines.append(require_string(line, "text", f"{where} source line {index}"))
-    return "\n".join(text_lines)
+    return "\n".join(
+        require_string(
+            require_mapping(value, f"{where} source line {index}"),
+            "text",
+            f"{where} source line {index}",
+        )
+        for index, value in enumerate(source_lines, start=1)
+    )
 
 
 def display_chinese_text(
     value: str,
     *,
+    book: int,
     exercise_number: int,
     model_number: int,
     model_step: int,
 ) -> tuple[str, str | None]:
-    if (exercise_number, model_number, model_step) != KNOWN_CHINESE_DISPLAY_REPAIR:
+    key = (book, exercise_number, model_number, model_step)
+    if key not in KNOWN_CHINESE_DISPLAY_REPAIRS:
         return value, None
     if not value.startswith("([") or not value.endswith("] ("):
-        raise ValueError(
-            "Known Exercise 4 Chinese wrapper artifact changed; review the source explicitly"
-        )
+        raise ValueError(f"Known Chinese wrapper artifact changed at {key}")
     repaired = value[2:-3].strip()
     if not repaired:
-        raise ValueError("Known Exercise 4 Chinese wrapper repair produced empty text")
+        raise ValueError(f"Known Chinese wrapper repair produced empty text at {key}")
     return repaired, value
 
 
-def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
+def browser_book_payload(source: dict[str, Any]) -> tuple[dict[str, Any], dict[str, int], list[dict[str, Any]]]:
+    book = int(source["book"])
     exercises: list[dict[str, Any]] = []
-    exercise_ids_by_category: dict[str, list[str]] = {
-        category_id: [] for category_id, _, _, _, _, _ in EXPECTED_CATEGORY_SPECS
-    }
+    exercise_ids_by_category = {str(category["id"]): [] for category in source["categories"]}
     model_count = 0
     step_count = 0
+    display_normalization_count = 0
 
     for exercise in source["exercises"]:
         index = int(exercise["exercise_number"])
-        exercise_id = stable_exercise_id(index)
+        exercise_id = stable_exercise_id(book, index)
         question = exercise["question"]
         response_models: list[dict[str, Any]] = []
         for model in exercise["response_models"]:
@@ -390,6 +456,7 @@ def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
                 stage = str(component["stage"])
                 text_zh, source_text_zh = display_chinese_text(
                     str(component["chinese"]),
+                    book=book,
                     exercise_number=index,
                     model_number=model_number,
                     model_step=model_step,
@@ -411,6 +478,7 @@ def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
                 }
                 if source_text_zh is not None:
                     step_payload["sourceTextZh"] = source_text_zh
+                    display_normalization_count += 1
                 steps.append(step_payload)
             response_models.append({
                 "number": model_number,
@@ -432,10 +500,7 @@ def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
             "title": question_en,
             "titleZh": question_zh,
             "cueText": f"{question_en}\n{question_zh}",
-            "question": {
-                "english": question_en,
-                "chinese": question_zh,
-            },
+            "question": {"english": question_en, "chinese": question_zh},
             "categoryId": category_id,
             "categoryTitle": exercise["category_title"],
             "pages": exercise["pages"],
@@ -446,7 +511,9 @@ def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
             "cue": {
                 "questionEn": question_en,
                 "questionZh": question_zh,
-                "raw": source_lines_raw(question["source_lines"], f"exercise {index} question"),
+                "raw": source_lines_raw(
+                    question["source_lines"], f"Book {book}, exercise {index} question"
+                ),
             },
             "responseModels": response_models,
         })
@@ -467,40 +534,76 @@ def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
             ],
         })
 
-    expected_model_count = EXPECTED_EXERCISES * EXPECTED_MODELS_PER_EXERCISE
-    expected_step_count = expected_model_count * EXPECTED_STEPS_PER_MODEL
-    if model_count != expected_model_count or step_count != expected_step_count:
-        raise ValueError("Browser conversion lost Part 3 response models or IEEC steps")
+    anomalies = [{"book": book, **anomaly} for anomaly in source["source_anomalies"]]
+    stats = {
+        "categories": len(categories),
+        "exercises": len(exercises),
+        "models": model_count,
+        "steps": step_count,
+        "words": int(source["_validated_english_word_count"]),
+        "provenanceRows": int(source["_validated_provenance_row_count"]),
+        "displayNormalizations": display_normalization_count,
+    }
+    return ({
+        "part": 3,
+        "book": book,
+        "displayTitle": f"Book {book} of Part 3",
+        "sourceFile": source["source"]["file_name"],
+        "exerciseCount": len(exercises),
+        "responseModelCount": model_count,
+        "stepCount": step_count,
+        "categories": categories,
+        "exercises": exercises,
+    }, stats, anomalies)
 
-    source_meta = source["source"]
+
+def browser_payload(sources: list[dict[str, Any]]) -> dict[str, Any]:
+    books: list[dict[str, Any]] = []
+    anomalies: list[dict[str, Any]] = []
+    totals = {
+        "categories": 0,
+        "exercises": 0,
+        "models": 0,
+        "steps": 0,
+        "words": 0,
+        "provenanceRows": 0,
+        "displayNormalizations": 0,
+    }
+    for source in sources:
+        book_payload, stats, book_anomalies = browser_book_payload(source)
+        books.append(book_payload)
+        anomalies.extend(book_anomalies)
+        for key in totals:
+            totals[key] += stats[key]
+
+    source_hashes = {str(source["book"]): source["source"]["sha256"] for source in sources}
+    structured_hashes = {
+        str(book): EXPECTED_STRUCTURED_JSON_SHA256_BY_BOOK[book] for book in EXPECTED_BOOKS
+    }
+    corpus_hash = hashlib.sha256(
+        json.dumps(structured_hashes, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    ).hexdigest()
     return {
         "metadata": {
             "schemaVersion": 1,
             "exam": "IELTS",
             "part": 3,
-            "bookCount": 1,
-            "categoryCount": len(categories),
-            "exerciseCount": len(exercises),
-            "responseModelCount": model_count,
+            "bookCount": len(books),
+            "categoryCount": totals["categories"],
+            "exerciseCount": totals["exercises"],
+            "responseModelCount": totals["models"],
             "stepsPerModel": EXPECTED_STEPS_PER_MODEL,
-            "stepCount": step_count,
-            "englishWordCount": source["_validated_english_word_count"],
-            "displayNormalizationCount": 1,
-            "audioBuildVersion": "v2",
-            "sourceSha256": source_meta["sha256"],
+            "stepCount": totals["steps"],
+            "englishWordCount": totals["words"],
+            "provenanceRowCount": totals["provenanceRows"],
+            "displayNormalizationCount": totals["displayNormalizations"],
+            "audioBuildVersion": AUDIO_BUILD_VERSION,
+            "sourceSha256": corpus_hash,
+            "sourcePdfSha256ByBook": source_hashes,
+            "structuredSourceSha256ByBook": structured_hashes,
         },
-        "books": [{
-            "part": 3,
-            "book": 1,
-            "displayTitle": "Book 1 of Part 3",
-            "sourceFile": source_meta["file_name"],
-            "exerciseCount": len(exercises),
-            "responseModelCount": model_count,
-            "stepCount": step_count,
-            "categories": categories,
-            "exercises": exercises,
-        }],
-        "sourceAnomalies": source["source_anomalies"],
+        "books": books,
+        "sourceAnomalies": anomalies,
     }
 
 
@@ -523,10 +626,10 @@ def parse_args() -> argparse.Namespace:
     repository_root = Path(__file__).resolve().parents[1]
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "--source",
+        "--source-root",
         type=Path,
-        default=repository_root / "tools" / SOURCE_NAME,
-        help="Validated structured JSON extracted from the Part 3 PDF",
+        default=repository_root / "tools",
+        help="Directory containing all 16 validated Part 3 structured JSON files",
     )
     parser.add_argument(
         "--output",
@@ -544,19 +647,16 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    source_path = args.source.resolve()
-    if sha256_file(source_path) != EXPECTED_STRUCTURED_JSON_SHA256:
-        raise SystemExit(
-            "Part 3 structured source SHA-256 changed; re-audit the PDF extraction "
-            "before rebuilding browser data"
-        )
-    source = validate_source(json.loads(source_path.read_text(encoding="utf-8")))
-    payload = browser_payload(source)
+    try:
+        sources = load_sources(args.source_root.resolve())
+        payload = browser_payload(sources)
+    except (OSError, ValueError, json.JSONDecodeError) as error:
+        raise SystemExit(str(error)) from error
     content = javascript_content(payload)
     output_path = args.output.resolve()
     metadata = payload["metadata"]
-
     summary = (
+        f"{metadata['bookCount']} books, "
         f"{metadata['categoryCount']} categories, "
         f"{metadata['exerciseCount']} exercises, "
         f"{metadata['responseModelCount']} response models, "
@@ -568,7 +668,6 @@ def main() -> int:
             raise SystemExit(f"Part 3 speaking data is stale: run {Path(__file__).name}")
         print(f"Part 3 speaking data valid: {summary}.")
         return 0
-
     write_atomic(output_path, content)
     print(f"Wrote {output_path}: {summary}.")
     return 0
