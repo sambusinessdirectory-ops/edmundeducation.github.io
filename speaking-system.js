@@ -1620,9 +1620,7 @@
 
   function renderAudioPanel(entry, exercise = currentExercise()) {
     const available = Boolean(entry && audioPath(entry));
-    const voiceLabel = Number(exercise?.part) === 3
-      ? "Edmund Deep RP · 原創英式男聲 · 可按空白鍵暫停／繼續"
-      : "Edmund Neural · 可按空白鍵暫停／繼續";
+    const voiceLabel = "Edmund Neural · 可按空白鍵暫停／繼續";
     return `
       <section class="audio-panel" aria-label="示範錄音控制">
         <div class="audio-main-controls">

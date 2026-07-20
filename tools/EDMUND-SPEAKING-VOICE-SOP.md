@@ -38,21 +38,20 @@ Reference model checksums:
 The model, voices bundle, and Faster Whisper cache are local build
 dependencies. Never commit them to the website repository.
 
-## Part 3 Book 1 — distinct original voice recipe
+## Part 3 Book 1 — approved British-boy voice
 
 IELTS Speaking Part 3 is a separate, independently versioned speaking-audio
-product. Its settings, paths, manifest, and browser globals must never replace
-or modify the Part 2 `bm_fable` audio above. The Part 3 performance is an
-original Edmund configuration of a stock Kokoro voice; it does not reference,
-clone, or imitate any real person.
+product. Its paths, manifest, and browser globals must never replace or modify
+the Part 2 audio tree. Part 3 deliberately uses the same approved British-boy
+voice recipe as Part 2 so students hear one consistent performance.
 
 | Setting | Permanent Part 3 value |
 | --- | --- |
 | Model | Kokoro-82M v1.0 (`kokoro-v1.0.onnx`) |
-| Voice | `bm_george` |
-| Vocal direction | Original contemporary-RP British baritone; deep, resonant, crisp, deliberate, warm, and confident |
+| Voice | `bm_fable` |
+| Vocal direction | Standard British male; youthful, bright, energetic, attractive, and confident—the same approved performance as Part 2 |
 | Language | `en-gb` |
-| Speed | `0.92` |
+| Speed | `0.98` |
 | Output | Mono MP3, 24 kHz, variable bitrate |
 | MP3 compression level | `0.55` |
 | Sentence pause | `0.45` seconds |
@@ -60,8 +59,8 @@ clone, or imitate any real person.
 | Audio unit | One continuous MP3 per exercise |
 | Section layout | Sample 1 IEEC steps 1–4, then Sample 2 IEEC steps 5–8 (`model-major-2x4-v1`) |
 | Word timing | Faster Whisper `base.en`, measured per rendered sentence (`faster-whisper-base.en-audio-v1`) |
-| Audio build version | Part 3 `v1` |
-| Static path | `assets/speaking-system/audio/edmund-neural/part3/v1/` |
+| Audio build version | Part 3 `v2` |
+| Static path | `assets/speaking-system/audio/edmund-neural/part3/v2/` |
 | Source | `tools/ielts-speaking-part3-book1-structured.json` |
 | Browser data | `speaking-system-part3-data.js` / `window.EDMUND_SPEAKING_PART3_DATA` |
 | Audio manifest | `speaking-part3-audio-manifest.js` |

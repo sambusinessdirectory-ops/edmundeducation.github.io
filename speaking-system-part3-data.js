@@ -12,7 +12,7 @@ window.EDMUND_SPEAKING_PART3_DATA = Object.freeze({
     "stepCount": 184,
     "englishWordCount": 7991,
     "displayNormalizationCount": 1,
-    "audioBuildVersion": "v1",
+    "audioBuildVersion": "v2",
     "sourceSha256": "2baede46ae168fe7897783f59646c25e00e6bf29aafec5cf6b9f3b20f50e90d3"
   },
   "books": [

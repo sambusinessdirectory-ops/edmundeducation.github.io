@@ -486,7 +486,7 @@ def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
             "stepCount": step_count,
             "englishWordCount": source["_validated_english_word_count"],
             "displayNormalizationCount": 1,
-            "audioBuildVersion": "v1",
+            "audioBuildVersion": "v2",
             "sourceSha256": source_meta["sha256"],
         },
         "books": [{

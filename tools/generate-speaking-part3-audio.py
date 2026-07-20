@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate immutable British-male MP3s for IELTS Speaking Part 3, Book 1.
+"""Generate immutable British-boy MP3s for IELTS Speaking Part 3, Book 1.
 
 This is a deliberately thin Part 3 adapter around the proven Part 2 rendering,
 alignment, hashing, checkpoint, and validation helpers.  It does not modify the
@@ -24,18 +24,17 @@ TOOLS_DIR = Path(__file__).resolve().parent
 PART2_GENERATOR_PATH = TOOLS_DIR / "generate-speaking-audio.py"
 PART3_BUILDER_PATH = TOOLS_DIR / "build-speaking-part3-data.py"
 
-AUDIO_BUILD_VERSION = "v1"
+AUDIO_BUILD_VERSION = "v2"
 STATIC_AUDIO_ROOT = (
     f"assets/speaking-system/audio/edmund-neural/part3/{AUDIO_BUILD_VERSION}"
 )
 SOURCE_DATA_PATH = "tools/ielts-speaking-part3-book1-structured.json"
 MANIFEST_NAME = "speaking-part3-audio-manifest.js"
 
-# This is an original Edmund configuration using a stock Kokoro voice.  It is
-# not intended to reference, clone, or imitate any real person.
-VOICE = "bm_george"
+# Keep Part 3 on the same approved British-boy performance used by Part 2.
+VOICE = "bm_fable"
 LANGUAGE = "en-gb"
-SPEED = 0.92
+SPEED = 0.98
 EXPECTED_EXERCISES = 23
 EXPECTED_MODELS_PER_EXERCISE = 2
 EXPECTED_SECTIONS_PER_MODEL = 4
