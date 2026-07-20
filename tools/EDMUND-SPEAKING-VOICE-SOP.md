@@ -38,6 +38,114 @@ Reference model checksums:
 The model, voices bundle, and Faster Whisper cache are local build
 dependencies. Never commit them to the website repository.
 
+## Part 3 Book 1 — distinct original voice recipe
+
+IELTS Speaking Part 3 is a separate, independently versioned speaking-audio
+product. Its settings, paths, manifest, and browser globals must never replace
+or modify the Part 2 `bm_fable` audio above. The Part 3 performance is an
+original Edmund configuration of a stock Kokoro voice; it does not reference,
+clone, or imitate any real person.
+
+| Setting | Permanent Part 3 value |
+| --- | --- |
+| Model | Kokoro-82M v1.0 (`kokoro-v1.0.onnx`) |
+| Voice | `bm_george` |
+| Vocal direction | Original contemporary-RP British baritone; deep, resonant, crisp, deliberate, warm, and confident |
+| Language | `en-gb` |
+| Speed | `0.92` |
+| Output | Mono MP3, 24 kHz, variable bitrate |
+| MP3 compression level | `0.55` |
+| Sentence pause | `0.45` seconds |
+| Section pause | `0.72` seconds |
+| Audio unit | One continuous MP3 per exercise |
+| Section layout | Sample 1 IEEC steps 1–4, then Sample 2 IEEC steps 5–8 (`model-major-2x4-v1`) |
+| Word timing | Faster Whisper `base.en`, measured per rendered sentence (`faster-whisper-base.en-audio-v1`) |
+| Audio build version | Part 3 `v1` |
+| Static path | `assets/speaking-system/audio/edmund-neural/part3/v1/` |
+| Source | `tools/ielts-speaking-part3-book1-structured.json` |
+| Browser data | `speaking-system-part3-data.js` / `window.EDMUND_SPEAKING_PART3_DATA` |
+| Audio manifest | `speaking-part3-audio-manifest.js` |
+| Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0`, `faster-whisper==1.2.1` |
+
+The Part 3 generator is `tools/generate-speaking-part3-audio.py`. It reuses the
+validated Part 2 rendering and timing helpers through an isolated adapter while
+using distinct settings and globals:
+
+- `window.EDMUND_SPEAKING_PART3_AUDIO`
+- `window.EDMUND_SPEAKING_PART3_AUDIO_META`
+- `window.EDMUND_SPEAKING_PART3_AUDIO_RECIPE_SHA256`
+- `window.EDMUND_SPEAKING_PART3_AUDIO_SHA256`
+
+Stable Part 3 ids are `ielts-part-3-book-1-exercise-01` through
+`ielts-part-3-book-1-exercise-23`. Each MP3 contains the two response models in
+display order, with four Idea → Explanation → Example → Conclusion sections
+per model. The manifest therefore records eight ordered `sectionWordRanges`
+for every completed exercise.
+
+Pronunciation-only overrides may repair a rendering defect without changing
+the displayed lesson text. They must be exact-sentence mappings in
+`PART3_SPOKEN_OVERRIDES`, included in the recipe fingerprint, and verified by
+listening plus strict word alignment before release.
+
+Build and check Part 3 browser data independently:
+
+```sh
+python3 tools/build-speaking-part3-data.py
+python3 tools/build-speaking-part3-data.py --check
+```
+
+Validate the 23-exercise, 46-model, 184-step source without audio dependencies:
+
+```sh
+python3 tools/generate-speaking-part3-audio.py \
+  --source-root . \
+  --output-root . \
+  --validate-source
+```
+
+Before synthesis, create only the explicit incomplete Part 3 placeholder:
+
+```sh
+python3 tools/generate-speaking-part3-audio.py \
+  --source-root . \
+  --output-root . \
+  --write-placeholder
+```
+
+Generate Part 3 audio without touching the Part 2 tree:
+
+```sh
+.venv-tts/bin/python tools/generate-speaking-part3-audio.py \
+  --source-root . \
+  --output-root . \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin \
+  --alignment-cache /path/outside/repository/faster-whisper-cache \
+  --prune-orphans
+```
+
+After all 23 MP3s exist, validate the complete manifest and decoded files with
+either equivalent read-only form:
+
+```sh
+.venv-tts/bin/python tools/generate-speaking-part3-audio.py \
+  --source-root . \
+  --output-root . \
+  --manifest-only
+
+.venv-tts/bin/python tools/generate-speaking-part3-audio.py \
+  --source-root . \
+  --output-root . \
+  --check
+```
+
+The Part 3 recipe fingerprint includes its voice, language, speed, immutable
+root, 2×4 layout, source JSON hash, pauses, encoding, alignment settings, and
+pinned runtime versions. Recipe drift at the same Part 3 build version is a
+hard failure even with `--force`. Any future Part 3 recipe change requires a
+Part 3 `AUDIO_BUILD_VERSION` bump and a new immutable directory; it never
+requires changing the Part 2 build version.
+
 ## First-time setup
 
 Use the repository's existing TTS environment and requirements:

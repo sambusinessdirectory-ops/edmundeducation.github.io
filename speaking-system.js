@@ -74,6 +74,7 @@
     adminStudentsLoaded: false,
     adminStudentsLoading: false,
     adminAccessSaving: false,
+    adminAccessDrafts: new Map(),
     adminStudentQuery: "",
     selectedAdminStudentId: "",
     adminRequestGeneration: 0,
@@ -85,6 +86,9 @@
     highlightEnabled: restoreHighlight(),
     modelAudio: null,
     modelAudioExerciseId: "",
+    modelAudioSegmentStart: 0,
+    modelAudioSegmentEnd: 0,
+    modelAudioSegmentIndex: -1,
     highlightFrame: 0,
     activeWordIndex: -1,
     modelAudioGeneration: 0,
@@ -545,6 +549,7 @@
     state.adminStudentsLoaded = false;
     state.adminStudentsLoading = false;
     state.adminAccessSaving = false;
+    state.adminAccessDrafts.clear();
     state.adminStudentQuery = "";
     state.selectedAdminStudentId = "";
     showLogin();
@@ -562,6 +567,7 @@
 
   async function handleLogout() {
     if (!confirmRecordingAbandonment()) return;
+    if (state.adminAccessDrafts.size && !window.confirm("尚有未儲存的學生權限改動。登出會捨棄這些改動，確定繼續嗎？")) return;
     const role = state.user?.role;
     const token = state.authToken;
     let revokePromise = null;
@@ -956,7 +962,15 @@
     const exercises = allSpeakingExercises()
       .filter(exercise => routeAllowed({ view: "exercise", exam: "ielts", part: exercise.part, book: exercise.book }))
       .filter(exercise => !exercise.unavailable)
-      .filter(exercise => searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText} IELTS Part ${exercise.part} Book ${exercise.book}`, tokens))
+      .filter(exercise => {
+        const part3Text = (exercise.responseModels || []).flatMap(model => (
+          model.steps.flatMap(step => [step.labelEn, step.labelZh, step.textEn, step.textZh])
+        )).join(" ");
+        const part2Text = (exercise.responses || []).flatMap(response => (
+          [response.headingEn, response.headingZh, response.textEn, response.textZh]
+        )).join(" ");
+        return searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText} ${exercise.themeTitle || ""} ${part3Text} ${part2Text} IELTS Part ${exercise.part} Book ${exercise.book}`, tokens);
+      })
       .slice(0, SEARCH_RESULT_LIMITS.exercises);
     if (!sections.length && !exercises.length) {
       list.innerHTML = '<p class="search-empty">找不到已開放練習內的相關範疇或題目。</p>';
@@ -1070,8 +1084,8 @@
     `;
   }
 
-  function speakingBooks() {
-    const data = window.EDMUND_SPEAKING_DATA || {};
+  function booksFromSpeakingPayload(data) {
+    if (!data) return [];
     if (Array.isArray(data.books)) return data.books;
     if (Array.isArray(data)) return [{ part: 2, book: 1, exerciseCount: data.length, exercises: data }];
     if (Array.isArray(data.exercises)) {
@@ -1082,6 +1096,18 @@
       || data.part2?.book1
       || data.book1;
     return Array.isArray(nested?.exercises) ? [{ part: 2, book: 1, exerciseCount: nested.exercises.length, exercises: nested.exercises }] : [];
+  }
+
+  function speakingBooks() {
+    const books = [
+      ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_DATA || {}),
+      ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_PART3_DATA || {})
+    ];
+    const unique = new Map();
+    books.forEach(book => unique.set(`${Number(book?.part)}:${Number(book?.book)}`, book));
+    return [...unique.values()].sort((left, right) => (
+      Number(left?.part) - Number(right?.part) || Number(left?.book) - Number(right?.book)
+    ));
   }
 
   function speakingBook(part = state.route.part, book = state.route.book) {
@@ -1101,6 +1127,35 @@
       headingZh: String(source.heading_zh || source.headingZh || source.title_zh || source.subtitle || ""),
       textEn: String(source.english_text || source.text_en || source.textEn || source.english || source.en || source.response_en || ""),
       textZh: String(source.chinese_text || source.text_zh || source.textZh || source.chinese || source.zh || source.response_zh || "")
+    };
+  }
+
+  function normalizePart3Step(step, index) {
+    const source = step || {};
+    const fallbackStages = ["idea", "explanation", "example", "conclusion"];
+    const stage = String(source.stage || fallbackStages[index] || `step-${index + 1}`).toLocaleLowerCase("en");
+    const stageLabels = {
+      idea: ["Idea", "觀點"],
+      explanation: ["Explanation", "解釋"],
+      example: ["Example", "例子"],
+      conclusion: ["Conclusion", "總結"]
+    };
+    const labels = stageLabels[stage] || [`Step ${index + 1}`, `步驟 ${index + 1}`];
+    return {
+      stage,
+      labelEn: String(source.labelEn || source.label_en || source.sourceLabel || source.source_label || source.label || labels[0]).replace(/\s+2$/, ""),
+      labelZh: String(source.labelZh || source.label_zh || labels[1]),
+      textEn: String(source.textEn || source.text_en || source.english || source.english_text || source.response_en || ""),
+      textZh: String(source.textZh || source.text_zh || source.chinese || source.chinese_text || source.response_zh || "")
+    };
+  }
+
+  function normalizePart3Model(model, index) {
+    const source = model || {};
+    const steps = source.steps || source.components || source.sections || [];
+    return {
+      number: Number(source.number || source.modelNumber || source.model_number || index + 1),
+      steps: Array.isArray(steps) ? steps.map(normalizePart3Step) : []
     };
   }
 
@@ -1133,13 +1188,36 @@
   function normalizeExercise(raw, fallbackIndex, part = 2, book = 1) {
     const source = raw || {};
     const index = Number(source.index || source.number || fallbackIndex);
+    if (Number(part) === 3) {
+      const question = source.question && typeof source.question === "object" ? source.question : {};
+      const modelSource = source.responseModels || source.response_models || source.responsePaths || source.models || [];
+      const responseModels = Array.isArray(modelSource)
+        ? modelSource.map(normalizePart3Model).filter(model => model.steps.length)
+        : [];
+      const title = String(source.title || source.topic || question.english || question.en || source.question_en || `Exercise ${index}`);
+      const titleZh = String(source.titleZh || source.title_zh || question.chinese || question.zh || source.question_zh || "");
+      return {
+        id: String(source.id || source.slug || `ielts-part-3-book-${book}-exercise-${pad(index)}`),
+        part: 3,
+        book: Number(book),
+        index,
+        title,
+        titleZh,
+        cueText: String(source.cueText || source.cue_text || `${title}${titleZh ? `\n${titleZh}` : ""}`),
+        themeId: String(source.themeId || source.theme_id || source.categoryId || source.category_id || "discussion"),
+        themeTitle: String(source.themeTitle || source.theme_title || source.categoryTitle || source.category_title || "Discussion"),
+        responseModels,
+        responses: [],
+        unavailable: !raw || !responseModels.length
+      };
+    }
     const sections = source.sections || source.responses || source.responseCards || source.answers || [];
     const responses = Array.isArray(sections)
       ? sections.slice(0, 4).map(normalizeResponse)
       : [];
     while (responses.length < 4) responses.push(normalizeResponse(null, responses.length));
     return {
-      id: String(source.id || source.slug || `ielts-part-2-book-${book}-exercise-${pad(index)}`),
+      id: String(source.id || source.slug || `ielts-part-${part}-book-${book}-exercise-${pad(index)}`),
       part: Number(part),
       book: Number(book),
       index,
@@ -1165,31 +1243,54 @@
     return speakingExercises().find(item => item.index === index) || speakingExercises()[index - 1] || null;
   }
 
+  function exerciseCardHtml(exercise, part, book) {
+    const allowed = routeAllowed({ view: "exercise", exam: "ielts", part, book });
+    const bookmark = { kind: "exercise", exam: "ielts", part, book, exerciseId: exercise.id };
+    const subtitle = exercise.titleZh
+      ? escapeHtml(exercise.titleZh)
+      : exercise.unavailable
+        ? "資料準備中"
+        : part === 3
+          ? "Two Band 9 response routes"
+          : "Cue card · Band 9 sample";
+    return `
+      <div class="selection-card-wrap exercise-card-wrap">
+        <button class="exercise-card${allowed ? "" : " access-locked"}" type="button" data-exercise-index="${exercise.index}"${exercise.unavailable || !allowed ? " disabled" : ""}>
+          <span class="exercise-index">${pad(exercise.index)}</span>
+          <span>
+            ${part === 3 ? `<em class="exercise-theme">${escapeHtml(exercise.themeTitle || "Discussion")}</em>` : ""}
+            <strong>${escapeHtml(exercise.title)}</strong>
+            <small>${subtitle}</small>
+          </span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </button>
+        ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+      </div>`;
+  }
+
   function renderExercises() {
     const exercises = speakingExercises();
     const part = Number(state.route.part || 2);
     const book = Number(state.route.book || 1);
+    const description = part === 3
+      ? `選擇 ${exercises.length} 條討論題。每題以兩條清晰的 Idea → Explanation → Example → Conclusion 路線呈現。`
+      : `選擇 ${exercises.length} 個題目之一，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。`;
+    const exerciseContent = part === 3
+      ? [...new Map(exercises.map(exercise => [exercise.themeId, exercise.themeTitle || "Discussion"])).entries()].map(([themeId, themeTitle]) => `
+          <section class="part3-theme-group" aria-labelledby="theme-${escapeHtml(themeId)}">
+            <div class="part3-theme-heading" id="theme-${escapeHtml(themeId)}">
+              <span>${escapeHtml(themeTitle)}</span>
+              <small>${exercises.filter(exercise => exercise.themeId === themeId).length} questions</small>
+            </div>
+            <div class="exercise-grid">
+              ${exercises.filter(exercise => exercise.themeId === themeId).map(exercise => exerciseCardHtml(exercise, part, book)).join("")}
+            </div>
+          </section>`).join("")
+      : `<div class="exercise-grid">${exercises.map(exercise => exerciseCardHtml(exercise, part, book)).join("")}</div>`;
     dom.content.innerHTML = `
       <section class="content-panel">
-        ${sectionHeader(`Book ${book} of Part ${part}`, `選擇 ${exercises.length} 個題目之一，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。`)}
-        <div class="exercise-grid">
-          ${exercises.map(exercise => {
-            const allowed = routeAllowed({ view: "exercise", exam: "ielts", part, book });
-            const bookmark = { kind: "exercise", exam: "ielts", part, book, exerciseId: exercise.id };
-            return `
-              <div class="selection-card-wrap exercise-card-wrap">
-                <button class="exercise-card${allowed ? "" : " access-locked"}" type="button" data-exercise-index="${exercise.index}"${exercise.unavailable || !allowed ? " disabled" : ""}>
-                  <span class="exercise-index">${pad(exercise.index)}</span>
-                  <span>
-                    <strong>${escapeHtml(exercise.title)}</strong>
-                    <small>${exercise.titleZh ? escapeHtml(exercise.titleZh) : exercise.unavailable ? "資料準備中" : "Cue card · Band 9 sample"}</small>
-                  </span>
-                  <span class="arrow" aria-hidden="true">→</span>
-                </button>
-                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
-              </div>`;
-          }).join("")}
-        </div>
+        ${sectionHeader(`Book ${book} of Part ${part}`, description)}
+        ${exerciseContent}
       </section>
     `;
   }
@@ -1246,9 +1347,57 @@
     ]);
   }
 
+  function canonicalAccess(value) {
+    const normalized = normalizeAccess(value);
+    return Object.fromEntries(allAccessKeys()
+      .filter(key => normalized[key] === false)
+      .map(key => [key, false]));
+  }
+
+  function accessValuesEqual(left, right) {
+    const leftValue = canonicalAccess(left);
+    const rightValue = canonicalAccess(right);
+    return allAccessKeys().every(key => leftValue[key] === rightValue[key]);
+  }
+
+  function effectiveAdminAccess(student) {
+    if (!student) return {};
+    return state.adminAccessDrafts.get(student.id) || student.access || {};
+  }
+
+  function setAdminAccessDraft(student, nextAccess) {
+    if (!student) return;
+    const draft = canonicalAccess(nextAccess);
+    if (accessValuesEqual(draft, student.access)) state.adminAccessDrafts.delete(student.id);
+    else state.adminAccessDrafts.set(student.id, draft);
+  }
+
+  function syncAdminDraftControls() {
+    const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+    const dirty = Boolean(student && state.adminAccessDrafts.has(student.id));
+    const save = document.querySelector("[data-admin-save-access]");
+    const discard = document.querySelector("[data-admin-discard-access]");
+    if (save) save.disabled = state.adminAccessSaving || !dirty;
+    if (discard) discard.disabled = state.adminAccessSaving || !dirty;
+    const saveBar = document.querySelector(".admin-save-bar");
+    if (saveBar) saveBar.classList.toggle("is-dirty", dirty && !state.adminAccessSaving);
+    const status = document.querySelector("[data-admin-save-status]");
+    if (status) {
+      status.textContent = state.adminAccessSaving
+        ? "正在一次過儲存這位學生的全部權限改動…"
+        : dirty
+          ? "改動只保存在這個畫面，尚未寫入資料庫。確認後請按「儲存全部改動」。"
+          : "目前沒有未儲存的改動。開關不會自動寫入資料庫。";
+      status.classList.toggle("is-dirty", dirty && !state.adminAccessSaving);
+    }
+    document.querySelectorAll("[data-admin-unsaved-student]").forEach(badge => {
+      badge.hidden = !state.adminAccessDrafts.has(badge.dataset.adminUnsavedStudent);
+    });
+  }
+
   function adminAccessBranchHtml(item, depth = 0) {
     const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
-    const checked = student?.access?.[item.key] !== false;
+    const checked = effectiveAdminAccess(student)?.[item.key] !== false;
     const children = item.children || [];
     return `
       <div class="admin-access-branch depth-${depth}">
@@ -1282,6 +1431,7 @@
     }
     const students = filteredAdminStudents();
     const selected = state.adminStudents.find(student => student.id === state.selectedAdminStudentId) || null;
+    const selectedDirty = Boolean(selected && state.adminAccessDrafts.has(selected.id));
     dom.content.innerHTML = `
       <section class="content-panel admin-panel">
         ${sectionHeader("Admin 控制台", "按學生開關 Speaking 範疇、IELTS Part 及每一本練習冊。帳戶及密碼繼續與其他 Edmund 系統共用。", "ADMIN · ACCESS")}
@@ -1294,7 +1444,9 @@
             <div class="admin-student-list">
               ${students.length ? students.map(student => `
                 <button class="admin-student-row${student.id === state.selectedAdminStudentId ? " active" : ""}" type="button" data-admin-student-id="${escapeHtml(student.id)}">
-                  <strong>${escapeHtml(student.name)}</strong><small>${escapeHtml(formatDate(student.updatedAt || student.createdAt))}</small>
+                  <strong>${escapeHtml(student.name)}</strong>
+                  <small>${student.accessUpdatedAt ? `權限更新：${escapeHtml(formatDate(student.accessUpdatedAt))}` : escapeHtml(formatDate(student.accountUpdatedAt || student.createdAt))}</small>
+                  <em class="admin-unsaved-badge" data-admin-unsaved-student="${escapeHtml(student.id)}" ${state.adminAccessDrafts.has(student.id) ? "" : "hidden"}>未儲存</em>
                 </button>`).join("") : '<p class="search-empty">找不到學生帳戶。</p>'}
             </div>
           </aside>
@@ -1308,7 +1460,13 @@
                 </div>
               </div>
               <div class="admin-access-tree">${ACCESS_SECTIONS.map(item => adminAccessBranchHtml(item)).join("")}</div>
-              <p class="admin-save-status" role="status" aria-live="polite">${state.adminAccessSaving ? "正在儲存權限…" : "所有改動會即時儲存至學生帳戶。"}</p>
+              <div class="admin-save-bar${selectedDirty ? " is-dirty" : ""}">
+                <p class="admin-save-status${selectedDirty ? " is-dirty" : ""}" data-admin-save-status role="status" aria-live="polite">${state.adminAccessSaving ? "正在一次過儲存這位學生的全部權限改動…" : selectedDirty ? "改動只保存在這個畫面，尚未寫入資料庫。確認後請按「儲存全部改動」。" : "目前沒有未儲存的改動。開關不會自動寫入資料庫。"}</p>
+                <div class="admin-save-actions">
+                  <button class="secondary-button" type="button" data-admin-discard-access ${state.adminAccessSaving || !selectedDirty ? "disabled" : ""}>取消改動</button>
+                  <button class="primary-button admin-save-button" type="button" data-admin-save-access ${state.adminAccessSaving || !selectedDirty ? "disabled" : ""}>${state.adminAccessSaving ? "正在儲存…" : "儲存全部改動"}</button>
+                </div>
+              </div>
             ` : '<div class="empty-state"><h2>請選擇學生</h2><p>從左邊選擇帳戶以管理 Speaking 權限。</p></div>'}
           </div>
         </div>
@@ -1327,7 +1485,8 @@
         id: String(student.id || ""),
         name: String(student.name || "Student"),
         createdAt: String(student.createdAt || ""),
-        updatedAt: String(student.updatedAt || student.accessUpdatedAt || ""),
+        accountUpdatedAt: String(student.updatedAt || ""),
+        accessUpdatedAt: String(student.accessUpdatedAt || ""),
         access: normalizeAccess(student.access)
       })).filter(student => student.id);
       state.adminStudentsLoaded = true;
@@ -1344,24 +1503,29 @@
     }
   }
 
-  async function saveAdminStudentAccess(nextAccess) {
+  async function saveAdminStudentAccess() {
     const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
-    if (!student || state.adminAccessSaving) return;
-    const previous = student.access;
-    student.access = normalizeAccess(nextAccess);
+    const draft = student ? state.adminAccessDrafts.get(student.id) : null;
+    if (!student || !draft || state.adminAccessSaving) return;
+    const studentId = student.id;
+    const snapshot = canonicalAccess(draft);
     state.adminAccessSaving = true;
     renderAdminPanel();
     try {
       const base = String(CONFIG.endpoints?.adminStudents || "/v1/admin/students").replace(/\/+$/, "");
-      const payload = await apiJson(`${base}/${encodeURIComponent(student.id)}/access`, {
+      const payload = await apiJson(`${base}/${encodeURIComponent(studentId)}/access`, {
         method: "PUT",
-        body: JSON.stringify({ access: student.access })
+        body: JSON.stringify({ access: snapshot })
       });
-      student.access = normalizeAccess(payload?.student?.access || payload?.access || student.access);
-      toast("學生 Speaking 權限已儲存。", "info");
+      const savedStudent = state.adminStudents.find(row => row.id === studentId);
+      if (savedStudent) {
+        savedStudent.access = normalizeAccess(payload?.student?.access || payload?.access || snapshot);
+        savedStudent.accessUpdatedAt = String(payload?.updatedAt || new Date().toISOString());
+      }
+      if (accessValuesEqual(state.adminAccessDrafts.get(studentId), snapshot)) state.adminAccessDrafts.delete(studentId);
+      toast("學生 Speaking 權限已一次過儲存。", "info");
     } catch (error) {
-      student.access = previous;
-      toast(String(error?.message || "未能儲存學生權限。"), "error");
+      toast(String(error?.message || "未能儲存學生權限；你的改動仍保留在畫面內。"), "error");
     } finally {
       state.adminAccessSaving = false;
       if (state.route.view === "admin") renderAdminPanel();
@@ -1369,8 +1533,11 @@
   }
 
   function audioManifestCandidates() {
-    const manifest = window.EDMUND_SPEAKING_AUDIO || {};
-    const candidates = [manifest, manifest.exercises, manifest.entries, manifest.items];
+    const manifests = [
+      window.EDMUND_SPEAKING_AUDIO || {},
+      window.EDMUND_SPEAKING_PART3_AUDIO || {}
+    ];
+    const candidates = manifests.flatMap(manifest => [manifest, manifest.exercises, manifest.entries, manifest.items]);
     return candidates.filter(Boolean);
   }
 
@@ -1379,6 +1546,7 @@
     const keys = [
       exercise.id,
       `ielts-part2-book${exercise.book}-exercise-${pad(exercise.index)}`,
+      `ielts-part${exercise.part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
       `part${exercise.part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
       `exercise-${pad(exercise.index)}`,
       String(exercise.index)
@@ -1431,6 +1599,7 @@
 
   function renderTimedEnglish(text, matcher) {
     const tokens = String(text || "").match(WORD_PATTERN) || [];
+    let firstFocusableWord = true;
     return tokens.map(token => {
       if (!IS_WORD_PATTERN.test(token) || !matcher.rows.length) return escapeHtml(token);
       const wanted = normalizeWord(token);
@@ -1443,19 +1612,24 @@
       }
       if (matchedIndex < 0) return escapeHtml(token);
       matcher.cursor = matchedIndex + 1;
-      return `<span class="timed-word" data-timing-index="${matchedIndex}" title="按此字開始播放">${escapeHtml(token)}</span>`;
+      const tabIndex = firstFocusableWord ? 0 : -1;
+      firstFocusableWord = false;
+      return `<span class="timed-word" role="button" tabindex="${tabIndex}" data-timing-index="${matchedIndex}" title="Enter／空白鍵播放；左右鍵選字">${escapeHtml(token)}</span>`;
     }).join("");
   }
 
-  function renderAudioPanel(entry) {
+  function renderAudioPanel(entry, exercise = currentExercise()) {
     const available = Boolean(entry && audioPath(entry));
+    const voiceLabel = Number(exercise?.part) === 3
+      ? "Edmund Deep RP · 原創英式男聲 · 可按空白鍵暫停／繼續"
+      : "Edmund Neural · 可按空白鍵暫停／繼續";
     return `
       <section class="audio-panel" aria-label="示範錄音控制">
         <div class="audio-main-controls">
           <button class="audio-button" type="button" data-model-audio-toggle${available ? "" : " disabled"} aria-pressed="false">
-            <span data-audio-button-label>${available ? "▶ 播放示範" : "音訊準備中"}</span>
+            <span data-audio-button-label>${available ? Number(exercise?.part) === 3 ? "▶ 播放目前路線" : "▶ 播放示範" : "音訊準備中"}</span>
           </button>
-          <span class="audio-note">Edmund Neural · 可按空白鍵暫停／繼續</span>
+          <span class="audio-note">${voiceLabel}</span>
         </div>
         <div class="audio-options">
           <div class="rate-selector" role="group" aria-label="播放速度">
@@ -1482,7 +1656,7 @@
       <section class="recorder-card" aria-labelledby="recording-heading">
         <div>
           <h2 id="recording-heading">輪到你練習</h2>
-          <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。IELTS Part 2 每次最多錄音 2 分 30 秒。</p>
+          <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。IELTS Part ${Number(exercise?.part || 2)} 每次最多錄音 2 分 30 秒。</p>
           <div class="recording-status" data-recording-status><span role="status" aria-live="polite">準備好便按「開始錄音」。</span></div>
         </div>
         <div class="recorder-controls">
@@ -1492,6 +1666,96 @@
         <div class="recording-preview" data-recording-preview hidden></div>
       </section>
     `;
+  }
+
+  function renderPart3Model(model, index, matcher, entry) {
+    const letter = String.fromCharCode(65 + index);
+    const firstIdea = model.steps.find(step => step.stage === "idea") || model.steps[0];
+    const available = Boolean(entry && audioPath(entry));
+    return `
+      <section class="part3-model-card${index === 0 ? " is-open" : ""}" data-part3-model="${index}">
+        <button class="part3-model-toggle" type="button" data-part3-model-toggle="${index}" aria-expanded="${index === 0}" aria-controls="part3-model-panel-${index}">
+          <span class="part3-model-letter">${letter}</span>
+          <span class="part3-model-title">
+            <small>RESPONSE ROUTE ${letter} · 回答路線 ${index + 1}</small>
+            <strong>${escapeHtml(firstIdea?.textEn || `Band 9 response ${index + 1}`)}</strong>
+            <em>${model.steps.length} steps · Idea → Explanation → Example → Conclusion</em>
+          </span>
+          <span class="part3-model-chevron" aria-hidden="true">⌄</span>
+        </button>
+        <div class="part3-model-panel" id="part3-model-panel-${index}" ${index === 0 ? "" : "hidden"}>
+          <div class="part3-model-toolbar">
+            <button class="part3-listen-button" type="button" data-part3-model-play="${index}" ${available ? "" : "disabled"}>
+              <span data-part3-model-play-label>${available ? `▶ 聆聽路線 ${letter}` : "音訊準備中"}</span>
+            </button>
+            <span>每一步逐層建立論點；按任何英文字可從該處播放。</span>
+          </div>
+          <ol class="part3-step-list">
+            ${model.steps.map((step, stepIndex) => {
+              const stageClass = String(step.stage || "step").replace(/[^a-z0-9-]/g, "");
+              return `
+                <li class="part3-step stage-${stageClass}">
+                  <div class="part3-step-marker"><span>${stepIndex + 1}</span></div>
+                  <div class="part3-step-copy">
+                    <div class="part3-step-heading"><strong>${escapeHtml(step.labelEn)}</strong><span>${escapeHtml(step.labelZh)}</span></div>
+                    <p class="part3-step-en" lang="en">${renderTimedEnglish(step.textEn, matcher)}</p>
+                    <details class="part3-translation">
+                      <summary>查看中文翻譯</summary>
+                      <p lang="zh-Hant">${escapeHtml(step.textZh)}</p>
+                    </details>
+                  </div>
+                </li>`;
+            }).join("")}
+          </ol>
+        </div>
+      </section>`;
+  }
+
+  function renderPart3Exercise(exercise, entry) {
+    const matcher = { rows: timingRows(entry), cursor: 0 };
+    const exercises = speakingExercises(exercise.part, exercise.book);
+    const position = exercises.findIndex(item => item.id === exercise.id);
+    const previous = position > 0 ? exercises[position - 1] : null;
+    const next = position >= 0 && position < exercises.length - 1 ? exercises[position + 1] : null;
+    dom.content.innerHTML = `
+      <article class="exercise-view part3-exercise">
+        <header class="exercise-hero part3-exercise-hero" data-exercise-number="${pad(exercise.index)}">
+          <div class="part3-hero-meta">
+            <p class="eyebrow">IELTS SPEAKING · PART 3 · BOOK ${exercise.book}</p>
+            <span>${escapeHtml(exercise.themeTitle || "Discussion")}</span>
+          </div>
+          <h1>${escapeHtml(exercise.title)}</h1>
+          ${exercise.titleZh ? `<p>${escapeHtml(exercise.titleZh)}</p>` : ""}
+        </header>
+
+        <section class="part3-reading-guide" aria-label="練習方法">
+          <div><span>01</span><p><strong>Choose a route</strong>先比較兩個 Idea，選一條適合自己的論點。</p></div>
+          <div><span>02</span><p><strong>Follow the logic</strong>沿著解釋、例子及總結逐步建立完整答案。</p></div>
+          <div><span>03</span><p><strong>Listen and speak</strong>聆聽示範後，錄下自己的 Part 3 回答。</p></div>
+        </section>
+
+        ${renderAudioPanel(entry, exercise)}
+
+        <section class="part3-response-section" aria-labelledby="part3-response-heading">
+          <div class="part3-response-heading">
+            <div><span class="cue-label">BAND 9 ANSWER MAP</span><h2 id="part3-response-heading">兩條回答路線，逐步閱讀</h2></div>
+            <p>一次只展開一條長答，減少視覺疲勞。中文翻譯亦可按需要逐段開啟。</p>
+          </div>
+          <div class="part3-model-list">
+            ${exercise.responseModels.map((model, index) => renderPart3Model(model, index, matcher, entry)).join("")}
+          </div>
+        </section>
+
+        ${renderRecorderCard(exercise)}
+
+        <nav class="part3-exercise-nav" aria-label="Part 3 題目導覽">
+          <button class="secondary-button" type="button" data-part3-previous ${previous ? "" : "disabled"}>← 上一題</button>
+          <button class="secondary-button" type="button" data-part3-book>返回 Book ${exercise.book}</button>
+          <button class="primary-button" type="button" data-part3-next ${next ? "" : "disabled"}>下一題 →</button>
+        </nav>
+      </article>
+    `;
+    syncAudioControls();
   }
 
   function renderExercise() {
@@ -1506,6 +1770,10 @@
       return;
     }
     const entry = resolveAudioEntry(exercise);
+    if (exercise.part === 3) {
+      renderPart3Exercise(exercise, entry);
+      return;
+    }
     const matcher = { rows: timingRows(entry), cursor: 0 };
     dom.content.innerHTML = `
       <article class="exercise-view">
@@ -1520,7 +1788,7 @@
           <p class="cue-copy">${escapeHtml(exercise.cueText || "題目內容準備中")}</p>
         </section>
 
-        ${renderAudioPanel(entry)}
+        ${renderAudioPanel(entry, exercise)}
 
         <div class="response-grid" aria-label="Band 9 四部分示範答案">
           ${exercise.responses.slice(0, 4).map((response, index) => `
@@ -1613,17 +1881,37 @@
       const label = toggle.querySelector("[data-highlight-state]");
       if (label) label.textContent = state.highlightEnabled ? "ON" : "OFF";
     }
-    const button = document.querySelector("[data-model-audio-toggle]");
-    if (!button) return;
     const exercise = currentExercise();
     const isCurrent = state.modelAudioExerciseId === exercise?.id;
     const playing = Boolean(isCurrent && state.modelAudio && !state.modelAudio.paused && !state.modelAudio.ended);
     const resumable = Boolean(isCurrent && state.modelAudio && state.modelAudio.paused && state.modelAudio.currentTime > 0 && !state.modelAudio.ended);
-    const text = playing ? "❚❚ 暫停示範" : resumable ? "▶ 繼續示範" : "▶ 播放示範";
-    const label = button.querySelector("[data-audio-button-label]");
-    if (label && !button.disabled) label.textContent = text;
-    button.classList.toggle("is-playing", playing);
-    button.setAttribute("aria-pressed", String(playing));
+    const button = document.querySelector("[data-model-audio-toggle]");
+    if (button) {
+      const isPart3 = Number(exercise?.part) === 3;
+      const text = playing
+        ? isPart3 ? "❚❚ 暫停目前路線" : "❚❚ 暫停示範"
+        : resumable
+          ? isPart3 ? "▶ 繼續目前路線" : "▶ 繼續示範"
+          : isPart3 ? "▶ 播放目前路線" : "▶ 播放示範";
+      const label = button.querySelector("[data-audio-button-label]");
+      if (label && !button.disabled) label.textContent = text;
+      button.classList.toggle("is-playing", playing);
+      button.setAttribute("aria-pressed", String(playing));
+    }
+    document.querySelectorAll("[data-part3-model-play]").forEach(modelButton => {
+      const index = Number(modelButton.dataset.part3ModelPlay);
+      const active = isCurrent && state.modelAudioSegmentIndex === index;
+      const activePlaying = active && playing;
+      const label = modelButton.querySelector("[data-part3-model-play-label]");
+      const letter = String.fromCharCode(65 + index);
+      if (label && !modelButton.disabled) label.textContent = activePlaying
+        ? `❚❚ 暫停路線 ${letter}`
+        : active && resumable
+          ? `▶ 繼續路線 ${letter}`
+          : `▶ 聆聽路線 ${letter}`;
+      modelButton.classList.toggle("is-playing", activePlaying);
+      modelButton.setAttribute("aria-pressed", String(activePlaying));
+    });
   }
 
   function stopModelAudio() {
@@ -1634,6 +1922,7 @@
       state.modelAudio.onplay = null;
       state.modelAudio.onpause = null;
       state.modelAudio.onended = null;
+      state.modelAudio.ontimeupdate = null;
       state.modelAudio.onerror = null;
       state.modelAudio.pause();
       state.modelAudio.removeAttribute("src");
@@ -1641,10 +1930,13 @@
     }
     state.modelAudio = null;
     state.modelAudioExerciseId = "";
+    state.modelAudioSegmentStart = 0;
+    state.modelAudioSegmentEnd = 0;
+    state.modelAudioSegmentIndex = -1;
     syncAudioControls();
   }
 
-  function startModelAudio(exercise, entry, startAt = 0) {
+  function startModelAudio(exercise, entry, startAt = 0, stopAt = 0, segmentIndex = -1) {
     if (!exercise || !entry || !audioPath(entry)) return;
     stopAttemptPlayback();
     stopModelAudio();
@@ -1652,6 +1944,9 @@
     const audio = new Audio();
     state.modelAudio = audio;
     state.modelAudioExerciseId = exercise.id;
+    state.modelAudioSegmentStart = Math.max(0, Number(startAt) || 0);
+    state.modelAudioSegmentEnd = Math.max(0, Number(stopAt) || 0);
+    state.modelAudioSegmentIndex = Number.isInteger(segmentIndex) ? segmentIndex : -1;
     audio.preload = "metadata";
     audio.src = audioUrl(entry);
     audio.defaultPlaybackRate = state.selectedRate;
@@ -1670,6 +1965,10 @@
       clearHighlight();
       audio.currentTime = 0;
       syncAudioControls();
+    };
+    audio.ontimeupdate = () => {
+      if (!state.modelAudioSegmentEnd || audio.currentTime < state.modelAudioSegmentEnd) return;
+      stopModelAudio();
     };
     audio.onerror = () => {
       toast("示範音訊未能載入，請檢查連線後再試。", "error");
@@ -1702,6 +2001,11 @@
     }
     const { exercise, entry } = currentAudioContext();
     if (!exercise || !entry) return;
+    if (Number(exercise.part) === 3) {
+      const openModel = document.querySelector("[data-part3-model].is-open");
+      playPart3Model(Number(openModel?.dataset.part3Model || 0));
+      return;
+    }
     if (state.modelAudio && state.modelAudioExerciseId === exercise.id) {
       if (!state.modelAudio.paused && !state.modelAudio.ended) {
         state.modelAudio.pause();
@@ -1711,7 +2015,67 @@
       if (result?.catch) result.catch(error => console.warn("Speaking sample resume failed:", error));
       return;
     }
-    startModelAudio(exercise, entry, 0);
+    startModelAudio(exercise, entry, 0, 0, -1);
+  }
+
+  function part3ModelAudioRange(exercise, entry, modelIndex) {
+    const ranges = Array.isArray(entry?.sectionWordRanges) ? entry.sectionWordRanges : [];
+    const rows = timingRows(entry);
+    const models = exercise?.responseModels || [];
+    const startSection = models.slice(0, modelIndex).reduce((count, model) => count + model.steps.length, 0);
+    const sectionCount = models[modelIndex]?.steps?.length || 0;
+    const first = ranges[startSection];
+    const last = ranges[startSection + sectionCount - 1];
+    if (!first || !last || !sectionCount) return null;
+    const firstWord = rows[Number(first.wordStart)];
+    const lastWord = rows[Math.max(0, Number(last.wordEnd) - 1)];
+    if (!firstWord || !lastWord) return null;
+    return { start: firstWord.start, end: lastWord.end + 0.08 };
+  }
+
+  function openPart3Model(modelIndex) {
+    document.querySelectorAll("[data-part3-model]").forEach(card => {
+      const open = Number(card.dataset.part3Model) === Number(modelIndex);
+      card.classList.toggle("is-open", open);
+      const toggle = card.querySelector("[data-part3-model-toggle]");
+      const panel = card.querySelector(".part3-model-panel");
+      if (toggle) toggle.setAttribute("aria-expanded", String(open));
+      if (panel) panel.hidden = !open;
+    });
+  }
+
+  function togglePart3Model(modelIndex) {
+    const card = document.querySelector(`[data-part3-model="${Number(modelIndex)}"]`);
+    if (!card) return;
+    const opening = !card.classList.contains("is-open");
+    if (state.modelAudio && state.modelAudioSegmentIndex >= 0) stopModelAudio();
+    if (opening) openPart3Model(modelIndex);
+    else {
+      card.classList.remove("is-open");
+      card.querySelector("[data-part3-model-toggle]")?.setAttribute("aria-expanded", "false");
+      const panel = card.querySelector(".part3-model-panel");
+      if (panel) panel.hidden = true;
+    }
+  }
+
+  function playPart3Model(modelIndex) {
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才播放示範音訊。", "error");
+      return;
+    }
+    const { exercise, entry } = currentAudioContext();
+    const range = part3ModelAudioRange(exercise, entry, Number(modelIndex));
+    if (!exercise || !entry || !range) return;
+    openPart3Model(modelIndex);
+    if (state.modelAudio && state.modelAudioExerciseId === exercise.id && state.modelAudioSegmentIndex === Number(modelIndex)) {
+      if (!state.modelAudio.paused) state.modelAudio.pause();
+      else {
+        const result = state.modelAudio.play();
+        if (result?.catch) result.catch(error => console.warn("Part 3 response playback failed:", error));
+      }
+      return;
+    }
+    startModelAudio(exercise, entry, range.start, range.end, Number(modelIndex));
   }
 
   function playFromTiming(index) {
@@ -1722,7 +2086,15 @@
     const { exercise, entry } = currentAudioContext();
     const row = timingRows(entry)[Number(index)];
     if (!exercise || !entry || !row) return;
+    const timedElement = document.querySelector(`[data-timing-index="${Number(index)}"]`);
+    const part3Model = Number(exercise.part) === 3
+      ? Number(timedElement?.closest("[data-part3-model]")?.dataset.part3Model)
+      : -1;
+    const part3Range = part3Model >= 0 ? part3ModelAudioRange(exercise, entry, part3Model) : null;
     if (state.modelAudio && state.modelAudioExerciseId === exercise.id) {
+      state.modelAudioSegmentStart = part3Range?.start || 0;
+      state.modelAudioSegmentEnd = part3Range?.end || 0;
+      state.modelAudioSegmentIndex = part3Range ? part3Model : -1;
       state.modelAudio.currentTime = Math.max(0, row.start);
       updateHighlight();
       if (state.modelAudio.paused) {
@@ -1731,7 +2103,13 @@
       }
       return;
     }
-    startModelAudio(exercise, entry, row.start);
+    startModelAudio(
+      exercise,
+      entry,
+      row.start,
+      part3Range?.end || 0,
+      part3Range ? part3Model : -1
+    );
   }
 
   function recorderMimeTypes() {
@@ -2899,6 +3277,32 @@
         return;
       }
 
+      const part3ModelToggle = event.target.closest("[data-part3-model-toggle]");
+      if (part3ModelToggle) {
+        togglePart3Model(Number(part3ModelToggle.dataset.part3ModelToggle));
+        return;
+      }
+
+      const part3ModelPlay = event.target.closest("[data-part3-model-play]");
+      if (part3ModelPlay) {
+        playPart3Model(Number(part3ModelPlay.dataset.part3ModelPlay));
+        return;
+      }
+
+      if (event.target.closest("[data-part3-book]")) {
+        navigate({ view: "exercises", exam: "ielts", part: 3, book: Number(state.route.book || 1) });
+        return;
+      }
+
+      if (event.target.closest("[data-part3-previous], [data-part3-next]")) {
+        const direction = event.target.closest("[data-part3-previous]") ? -1 : 1;
+        const exercises = speakingExercises();
+        const currentIndex = exercises.findIndex(item => item.id === currentExercise()?.id);
+        const target = exercises[currentIndex + direction];
+        if (target) navigate({ view: "exercise", exam: "ielts", part: 3, book: Number(state.route.book || 1), exerciseIndex: target.index });
+        return;
+      }
+
       if (event.target.closest("[data-model-audio-toggle]")) {
         toggleModelAudio();
         return;
@@ -3002,8 +3406,25 @@
 
       const setAllAccess = event.target.closest("[data-admin-set-all]");
       if (setAllAccess) {
+        const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+        if (!student) return;
         const enabled = setAllAccess.dataset.adminSetAll === "true";
-        saveAdminStudentAccess(enabled ? {} : Object.fromEntries(allAccessKeys().map(key => [key, false])));
+        const next = enabled ? {} : Object.fromEntries(allAccessKeys().map(key => [key, false]));
+        setAdminAccessDraft(student, next);
+        document.querySelectorAll("[data-admin-access-key]").forEach(input => { input.checked = enabled; });
+        syncAdminDraftControls();
+        return;
+      }
+
+      if (event.target.closest("[data-admin-save-access]")) {
+        saveAdminStudentAccess();
+        return;
+      }
+
+      if (event.target.closest("[data-admin-discard-access]")) {
+        state.adminAccessDrafts.delete(state.selectedAdminStudentId);
+        renderAdminPanel();
+        return;
       }
     });
 
@@ -3037,13 +3458,34 @@
       if (!accessToggle) return;
       const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
       if (!student) return;
-      const next = { ...student.access };
+      const next = { ...effectiveAdminAccess(student) };
       if (accessToggle.checked) delete next[accessToggle.dataset.adminAccessKey];
       else next[accessToggle.dataset.adminAccessKey] = false;
-      saveAdminStudentAccess(next);
+      setAdminAccessDraft(student, next);
+      syncAdminDraftControls();
     });
 
     document.addEventListener("keydown", event => {
+      const timedWord = event.target.closest?.("[data-timing-index]");
+      if (timedWord && (event.key === "ArrowLeft" || event.key === "ArrowRight")) {
+        event.preventDefault();
+        const paragraph = timedWord.closest(".response-en, .part3-step-en");
+        const words = [...(paragraph?.querySelectorAll("[data-timing-index]") || [])];
+        const currentIndex = words.indexOf(timedWord);
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        const target = words[currentIndex + direction];
+        if (target) {
+          timedWord.tabIndex = -1;
+          target.tabIndex = 0;
+          target.focus();
+        }
+        return;
+      }
+      if (timedWord && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        playFromTiming(timedWord.dataset.timingIndex);
+        return;
+      }
       if (event.code !== "Space" || event.repeat || !state.modelAudio) return;
       if (event.target.closest?.("input, textarea, select, button, a, [contenteditable='true'], audio")) return;
       event.preventDefault();
@@ -3051,7 +3493,7 @@
     });
 
     window.addEventListener("beforeunload", event => {
-      if (!navigationHasUnsavedRecording()) return;
+      if (!navigationHasUnsavedRecording() && !state.adminAccessDrafts.size) return;
       event.preventDefault();
       event.returnValue = "";
     });
