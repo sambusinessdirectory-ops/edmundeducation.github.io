@@ -178,7 +178,7 @@
   }
 
   function bookAvailable(part, book) {
-    return Number(part) === 2 && Number(book) === 1;
+    return Boolean(speakingBook(Number(part), Number(book))?.exercises?.length);
   }
 
   function preferredScrollBehavior() {
@@ -796,7 +796,7 @@
     if (bookmark?.kind === "part") return `IELTS 說話考試 · Part ${bookmark.part}`;
     if (bookmark?.kind === "book") return `IELTS Part ${bookmark.part} · Book ${bookmark.book}`;
     if (bookmark?.kind === "exercise") {
-      const exercise = speakingExercises().find(item => item.id === bookmark.exerciseId);
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
       return exercise?.title || "Speaking exercise";
     }
     return "Speaking 書簽";
@@ -804,7 +804,7 @@
 
   function bookmarkSubtitle(bookmark) {
     if (bookmark?.kind === "exercise") {
-      const exercise = speakingExercises().find(item => item.id === bookmark.exerciseId);
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
       return exercise?.titleZh || `IELTS Part ${bookmark.part} · Book ${bookmark.book}`;
     }
     if (bookmark?.kind === "book") return "練習冊";
@@ -819,7 +819,7 @@
       return { view: "exercises", exam: "ielts", part: Number(bookmark.part), book: Number(bookmark.book) };
     }
     if (bookmark?.kind === "exercise") {
-      const exercise = speakingExercises().find(item => item.id === bookmark.exerciseId);
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
       return exercise ? {
         view: "exercise",
         exam: "ielts",
@@ -953,12 +953,11 @@
       .filter(exam => examAvailable(exam.id) && hasAccess([EXAM_ACCESS_KEYS[exam.id]]))
       .filter(exam => searchMatches(`${exam.title} ${exam.description} ${exam.id}`, tokens))
       .slice(0, SEARCH_RESULT_LIMITS.sections);
-    const exercises = routeAllowed({ view: "exercise", exam: "ielts", part: 2, book: 1 })
-      ? speakingExercises()
-        .filter(exercise => !exercise.unavailable)
-        .filter(exercise => searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText}`, tokens))
-        .slice(0, SEARCH_RESULT_LIMITS.exercises)
-      : [];
+    const exercises = allSpeakingExercises()
+      .filter(exercise => routeAllowed({ view: "exercise", exam: "ielts", part: exercise.part, book: exercise.book }))
+      .filter(exercise => !exercise.unavailable)
+      .filter(exercise => searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText} IELTS Part ${exercise.part} Book ${exercise.book}`, tokens))
+      .slice(0, SEARCH_RESULT_LIMITS.exercises);
     if (!sections.length && !exercises.length) {
       list.innerHTML = '<p class="search-empty">找不到已開放練習內的相關範疇或題目。</p>';
       return;
@@ -969,8 +968,8 @@
           <span><strong>${escapeHtml(exam.title)}</strong><small>${escapeHtml(exam.description)}</small></span><em>進入</em>
         </button>`).join("")}` : ""}
       ${exercises.length ? `<div class="search-section-label">題目</div>${exercises.map(exercise => `
-        <button class="speaking-search-result" type="button" data-search-exercise="${exercise.index}">
-          <span><strong>${escapeHtml(exercise.title)}</strong><small>${escapeHtml(exercise.titleZh || "IELTS Part 2 · Book 1")}</small></span><em>練習</em>
+        <button class="speaking-search-result" type="button" data-search-exercise="${exercise.index}" data-search-part="${exercise.part}" data-search-book="${exercise.book}">
+          <span><strong>${escapeHtml(exercise.title)}</strong><small>${escapeHtml(exercise.titleZh ? `${exercise.titleZh} · IELTS Part ${exercise.part} · Book ${exercise.book}` : `IELTS Part ${exercise.part} · Book ${exercise.book}`)}</small></span><em>練習</em>
         </button>`).join("")}` : ""}
     `;
   }
@@ -1045,9 +1044,11 @@
 
   function renderBooks(part) {
     const validPart = [1, 2, 3].includes(Number(part)) ? Number(part) : 1;
+    const availableBooks = speakingBooks().filter(item => Number(item?.part) === validPart);
+    const availableExercises = availableBooks.reduce((count, item) => count + Number(item?.exerciseCount || item?.exercises?.length || 0), 0);
     dom.content.innerHTML = `
       <section class="content-panel">
-        ${sectionHeader(`IELTS Speaking · Part ${validPart}`, `選擇練習冊。Part 2 的 Book 1 已加入 10 個完整 Band 9 示範。`)}
+        ${sectionHeader(`IELTS Speaking · Part ${validPart}`, availableBooks.length ? `選擇練習冊。${availableBooks.length} 本練習冊共有 ${availableExercises} 個完整 Band 9 示範。` : "選擇練習冊。")}
         <div class="book-grid">
           ${Array.from({ length: 16 }, (_, index) => {
             const book = index + 1;
@@ -1058,7 +1059,7 @@
               <div class="selection-card-wrap book-card-wrap">
                 <button class="book-card${available ? " available" : ""}${allowed ? "" : " access-locked"}" type="button" data-book="${book}" data-part="${validPart}" ${allowed ? "" : 'aria-disabled="true"'}>
                   <strong>Book ${book}</strong>
-                  <span>${available ? "Book 1 of Part 2 · 10 exercises" : allowed ? "內容準備中" : "尚未開放"}</span>
+                  <span>${available ? `Book ${book} of Part ${validPart} · ${speakingBook(validPart, book)?.exerciseCount || speakingBook(validPart, book)?.exercises?.length || 0} exercises` : allowed ? "內容準備中" : "尚未開放"}</span>
                 </button>
                 ${allowed ? bookmarkButtonHtml(bookmark) : ""}
               </div>
@@ -1069,19 +1070,27 @@
     `;
   }
 
-  function rawSpeakingExercises() {
+  function speakingBooks() {
     const data = window.EDMUND_SPEAKING_DATA || {};
-    if (Array.isArray(data)) return data;
-    if (Array.isArray(data.exercises)) return data.exercises;
-    if (Array.isArray(data.books)) {
-      const book = data.books.find(item => Number(item?.part) === 2 && Number(item?.book) === 1);
-      if (Array.isArray(book?.exercises)) return book.exercises;
+    if (Array.isArray(data.books)) return data.books;
+    if (Array.isArray(data)) return [{ part: 2, book: 1, exerciseCount: data.length, exercises: data }];
+    if (Array.isArray(data.exercises)) {
+      return [{ part: Number(data.metadata?.part || 2), book: Number(data.metadata?.book || 1), exerciseCount: data.exercises.length, exercises: data.exercises }];
     }
     const nested = data.ielts?.parts?.[2]?.books?.[1]
       || data.ielts?.part2?.book1
       || data.part2?.book1
       || data.book1;
-    return Array.isArray(nested?.exercises) ? nested.exercises : [];
+    return Array.isArray(nested?.exercises) ? [{ part: 2, book: 1, exerciseCount: nested.exercises.length, exercises: nested.exercises }] : [];
+  }
+
+  function speakingBook(part = state.route.part, book = state.route.book) {
+    return speakingBooks().find(item => Number(item?.part) === Number(part) && Number(item?.book) === Number(book)) || null;
+  }
+
+  function rawSpeakingExercises(part = state.route.part, book = state.route.book) {
+    const selected = speakingBook(part, book);
+    return Array.isArray(selected?.exercises) ? selected.exercises : [];
   }
 
   function normalizeResponse(section, index) {
@@ -1121,7 +1130,7 @@
     return lines.filter(Boolean).join("\n");
   }
 
-  function normalizeExercise(raw, fallbackIndex) {
+  function normalizeExercise(raw, fallbackIndex, part = 2, book = 1) {
     const source = raw || {};
     const index = Number(source.index || source.number || fallbackIndex);
     const sections = source.sections || source.responses || source.responseCards || source.answers || [];
@@ -1130,7 +1139,9 @@
       : [];
     while (responses.length < 4) responses.push(normalizeResponse(null, responses.length));
     return {
-      id: String(source.id || source.slug || `ielts-part2-book1-exercise-${pad(index)}`),
+      id: String(source.id || source.slug || `ielts-part-2-book-${book}-exercise-${pad(index)}`),
+      part: Number(part),
+      book: Number(book),
       index,
       title: String(source.title || source.topic || source.name || `Exercise ${index}`),
       titleZh: String(source.title_zh || source.titleZh || source.topic_zh || source.cue?.titleZh || source.cue?.title_zh || ""),
@@ -1140,9 +1151,13 @@
     };
   }
 
-  function speakingExercises() {
-    const source = rawSpeakingExercises();
-    return Array.from({ length: 10 }, (_, index) => normalizeExercise(source[index], index + 1));
+  function speakingExercises(part = state.route.part, book = state.route.book) {
+    const source = rawSpeakingExercises(part, book);
+    return source.map((exercise, index) => normalizeExercise(exercise, index + 1, part, book));
+  }
+
+  function allSpeakingExercises() {
+    return speakingBooks().flatMap(book => speakingExercises(book.part, book.book));
   }
 
   function currentExercise() {
@@ -1152,13 +1167,15 @@
 
   function renderExercises() {
     const exercises = speakingExercises();
+    const part = Number(state.route.part || 2);
+    const book = Number(state.route.book || 1);
     dom.content.innerHTML = `
       <section class="content-panel">
-        ${sectionHeader("Book 1 of Part 2", "選擇題目，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。")}
+        ${sectionHeader(`Book ${book} of Part ${part}`, `選擇 ${exercises.length} 個題目之一，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。`)}
         <div class="exercise-grid">
           ${exercises.map(exercise => {
-            const allowed = routeAllowed({ view: "exercise", exam: "ielts", part: 2, book: 1 });
-            const bookmark = { kind: "exercise", exam: "ielts", part: 2, book: 1, exerciseId: exercise.id };
+            const allowed = routeAllowed({ view: "exercise", exam: "ielts", part, book });
+            const bookmark = { kind: "exercise", exam: "ielts", part, book, exerciseId: exercise.id };
             return `
               <div class="selection-card-wrap exercise-card-wrap">
                 <button class="exercise-card${allowed ? "" : " access-locked"}" type="button" data-exercise-index="${exercise.index}"${exercise.unavailable || !allowed ? " disabled" : ""}>
@@ -1361,8 +1378,8 @@
     if (!exercise) return null;
     const keys = [
       exercise.id,
-      `ielts-part2-book1-exercise-${pad(exercise.index)}`,
-      `part2-book1-exercise-${pad(exercise.index)}`,
+      `ielts-part2-book${exercise.book}-exercise-${pad(exercise.index)}`,
+      `part${exercise.part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
       `exercise-${pad(exercise.index)}`,
       String(exercise.index)
     ];
@@ -1493,7 +1510,7 @@
     dom.content.innerHTML = `
       <article class="exercise-view">
         <header class="exercise-hero" data-exercise-number="${pad(exercise.index)}">
-          <p class="eyebrow">IELTS SPEAKING · PART 2 · BOOK 1</p>
+          <p class="eyebrow">IELTS SPEAKING · PART ${exercise.part} · BOOK ${exercise.book}</p>
           <h1>${escapeHtml(exercise.title)}</h1>
           ${exercise.titleZh ? `<p>${escapeHtml(exercise.titleZh)}</p>` : ""}
         </header>
@@ -2238,14 +2255,14 @@
     recordingStatus("正在安全上載 MP3…");
     try {
       const now = new Date();
-      const filename = `${safeFilePart(state.user.name, "student")}-${pad(exercise.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`;
+      const filename = `${safeFilePart(state.user.name, "student")}-book-${exercise.book}-exercise-${pad(exercise.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`;
       const metadata = {
         exerciseId: exercise.id,
         exerciseIndex: exercise.index,
         exerciseTitle: exercise.title,
         exam: "IELTS",
-        part: 2,
-        book: 1,
+        part: Number(state.route.part || exercise.part || 2),
+        book: Number(state.route.book || exercise.book || 1),
         durationMs: state.recordedDurationMs,
         mimeType: "audio/mpeg"
       };
@@ -2287,6 +2304,8 @@
       exerciseId: String(item.exerciseId || item.exercise_id || item.metadata?.exerciseId || ""),
       exerciseTitle: String(item.exerciseTitle || item.exercise_title || item.metadata?.exerciseTitle || item.title || "Speaking attempt"),
       exerciseIndex: Number(item.exerciseIndex || item.exercise_index || item.metadata?.exerciseIndex || 0),
+      part: Number(item.part || item.metadata?.part || 2),
+      book: Number(item.book || item.metadata?.book || 1),
       createdAt: String(item.createdAt || item.created_at || item.uploadedAt || item.uploaded_at || ""),
       durationMs: Number(item.durationMs || item.duration_ms || item.metadata?.durationMs || 0),
       size: Number(item.size || item.sizeBytes || item.size_bytes || 0),
@@ -2389,6 +2408,7 @@
           <h3>${escapeHtml(attempt.exerciseTitle)}</h3>
           <div class="attempt-meta">
             ${state.user?.role === "admin" ? `<strong>${escapeHtml(attempt.studentName)}</strong>` : ""}
+            <span>IELTS Part ${attempt.part} · Book ${attempt.book} · Exercise ${attempt.exerciseIndex}</span>
             <span>${escapeHtml(formatDate(attempt.createdAt))}</span>
             ${attempt.durationMs ? `<span>${escapeHtml(formatDuration(attempt.durationMs))}</span>` : ""}
             ${attempt.size ? `<span>${escapeHtml(formatBytes(attempt.size))}</span>` : ""}
@@ -2826,7 +2846,7 @@
 
       const searchExercise = event.target.closest("[data-search-exercise]");
       if (searchExercise) {
-        navigate({ view: "exercise", exam: "ielts", part: 2, book: 1, exerciseIndex: Number(searchExercise.dataset.searchExercise) });
+        navigate({ view: "exercise", exam: "ielts", part: Number(searchExercise.dataset.searchPart || 2), book: Number(searchExercise.dataset.searchBook || 1), exerciseIndex: Number(searchExercise.dataset.searchExercise) });
         return;
       }
 
@@ -2869,13 +2889,13 @@
           toast(`Part ${partNumber} · Book ${bookNumber} 的內容正在準備中。`, "info");
           return;
         }
-        navigate({ view: "exercises", exam: "ielts", part: 2, book: 1 });
+        navigate({ view: "exercises", exam: "ielts", part: partNumber, book: bookNumber });
         return;
       }
 
       const exercise = event.target.closest("[data-exercise-index]");
       if (exercise && !exercise.disabled) {
-        navigate({ view: "exercise", exam: "ielts", part: 2, book: 1, exerciseIndex: Number(exercise.dataset.exerciseIndex) });
+        navigate({ view: "exercise", exam: "ielts", part: Number(state.route.part || 2), book: Number(state.route.book || 1), exerciseIndex: Number(exercise.dataset.exerciseIndex) });
         return;
       }
 

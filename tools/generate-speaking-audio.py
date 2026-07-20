@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate immutable British-voice MP3s for IELTS Speaking Part 2, Book 1.
+"""Generate immutable British-voice MP3s for IELTS Speaking Part 2, Books 1–16.
 
 Each exercise receives one continuous MP3. The four English response sections
 are the source of truth; sentences are rendered separately and joined with the
@@ -22,7 +22,7 @@ from typing import Any
 
 AUDIO_BUILD_VERSION = "v1"
 STATIC_AUDIO_ROOT = f"assets/speaking-system/audio/edmund-neural/{AUDIO_BUILD_VERSION}"
-SOURCE_DATA_PATH = "tools/book1-ielts-speaking-part2-structured.json"
+SOURCE_DATA_PATH = "tools/ielts-speaking-part2-structured.json"
 MANIFEST_NAME = "speaking-audio-manifest.js"
 
 VOICE = "bm_fable"
@@ -39,9 +39,8 @@ AUDIO_DURATION_TOLERANCE_SECONDS = 0.01
 MINIMUM_WORD_DURATION_SECONDS = 0.001
 INITIALISM_OVERRIDES = ("DSE", "QR", "UK", "US", "HK")
 
-EXPECTED_EXERCISES = 10
+EXPECTED_BOOKS = tuple(range(1, 17))
 EXPECTED_SECTIONS_PER_EXERCISE = 4
-EXPECTED_SOURCE_ENGLISH_WORDS = 3854
 MODEL_SHA256 = "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5"
 VOICES_SHA256 = "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
 
@@ -58,8 +57,8 @@ ABBREVIATION_PATTERN = re.compile(
 )
 
 
-def stable_exercise_id(index: int) -> str:
-    return f"ielts-part-2-book-1-exercise-{index:02d}"
+def stable_exercise_id(book: int, index: int) -> str:
+    return f"ielts-part-2-book-{book}-exercise-{index:02d}"
 
 
 def split_sentences(text: str) -> list[str]:
@@ -85,65 +84,88 @@ def split_sentences(text: str) -> list[str]:
 def load_exercises(source_root: Path) -> dict[str, dict[str, Any]]:
     source_path = source_root / SOURCE_DATA_PATH
     payload = json.loads(source_path.read_text(encoding="utf-8"))
-    if not isinstance(payload, dict) or not isinstance(payload.get("exercises"), list):
-        raise ValueError("Speaking source must contain an exercises array")
-    source_exercises = payload["exercises"]
-    if payload.get("exercise_count") != len(source_exercises):
-        raise ValueError("Source exercise_count does not match its exercises array")
-    if len(source_exercises) != EXPECTED_EXERCISES:
-        raise ValueError(
-            f"Source has {len(source_exercises)} exercises; expected {EXPECTED_EXERCISES}"
-        )
+    if not isinstance(payload, dict) or not isinstance(payload.get("books"), list):
+        raise ValueError("Speaking source must contain a books array")
+    expected_header = {
+        "schema_version": 2,
+        "exam": "IELTS",
+        "part": 2,
+        "book_count": len(EXPECTED_BOOKS),
+    }
+    for key, expected in expected_header.items():
+        if payload.get(key) != expected:
+            raise ValueError(f"Speaking source {key} must be {expected!r}")
+    source_books = payload["books"]
+    if [book.get("book") if isinstance(book, dict) else None for book in source_books] != list(EXPECTED_BOOKS):
+        raise ValueError("Speaking source books must be ordered from Book 1 through Book 16")
 
     exercises: dict[str, dict[str, Any]] = {}
     source_word_count = 0
-    for expected_index, source_exercise in enumerate(source_exercises, start=1):
-        if not isinstance(source_exercise, dict) or source_exercise.get("index") != expected_index:
-            raise ValueError(f"Exercise {expected_index} is invalid or out of order")
-        sections = source_exercise.get("sections")
-        if not isinstance(sections, list) or len(sections) != EXPECTED_SECTIONS_PER_EXERCISE:
-            count = len(sections) if isinstance(sections, list) else 0
-            raise ValueError(
-                f"Exercise {expected_index} has {count} sections; "
-                f"expected {EXPECTED_SECTIONS_PER_EXERCISE}"
-            )
+    for expected_book, source_book in zip(EXPECTED_BOOKS, source_books):
+        if not isinstance(source_book, dict) or source_book.get("part") != 2:
+            raise ValueError(f"Book {expected_book} is invalid")
+        source_exercises = source_book.get("exercises")
+        if not isinstance(source_exercises, list) or not source_exercises:
+            raise ValueError(f"Book {expected_book} has no exercises")
+        if source_book.get("exercise_count") != len(source_exercises):
+            raise ValueError(f"Book {expected_book} exercise_count does not match its exercises array")
 
-        section_texts: list[str] = []
-        sentence_groups: list[list[str]] = []
-        for expected_number, section in enumerate(sections, start=1):
-            if not isinstance(section, dict) or section.get("number") != expected_number:
+        for expected_index, source_exercise in enumerate(source_exercises, start=1):
+            where = f"Book {expected_book}, exercise {expected_index}"
+            if not isinstance(source_exercise, dict) or source_exercise.get("index") != expected_index:
+                raise ValueError(f"{where} is invalid or out of order")
+            sections = source_exercise.get("sections")
+            if not isinstance(sections, list) or len(sections) != EXPECTED_SECTIONS_PER_EXERCISE:
+                count = len(sections) if isinstance(sections, list) else 0
                 raise ValueError(
-                    f"Exercise {expected_index}, section {expected_number} is invalid or out of order"
+                    f"{where} has {count} sections; expected {EXPECTED_SECTIONS_PER_EXERCISE}"
                 )
-            english_text = section.get("english_text")
-            if not isinstance(english_text, str) or not english_text.strip():
-                raise ValueError(
-                    f"Exercise {expected_index}, section {expected_number} has no English text"
-                )
-            if english_text != english_text.strip() or re.search(r"\s{2,}", english_text):
-                raise ValueError(
-                    f"Exercise {expected_index}, section {expected_number} has unexpected whitespace"
-                )
-            section_texts.append(english_text)
-            sentence_groups.append(split_sentences(english_text))
-            source_word_count += len(SOURCE_ENGLISH_WORD_PATTERN.findall(english_text))
 
-        exercise_id = stable_exercise_id(expected_index)
-        full_text = "\n\n".join(section_texts)
-        exercises[exercise_id] = {
-            "index": expected_index,
-            "title": str(source_exercise.get("title") or exercise_id),
-            "sections": section_texts,
-            "sentences": sentence_groups,
-            "text": full_text,
-        }
+            section_texts: list[str] = []
+            sentence_groups: list[list[str]] = []
+            for expected_number, section in enumerate(sections, start=1):
+                if not isinstance(section, dict) or section.get("number") != expected_number:
+                    raise ValueError(
+                        f"{where}, section {expected_number} is invalid or out of order"
+                    )
+                english_text = section.get("english_text")
+                if not isinstance(english_text, str) or not english_text.strip():
+                    raise ValueError(f"{where}, section {expected_number} has no English text")
+                if english_text != english_text.strip() or re.search(r"\s{2,}", english_text):
+                    raise ValueError(
+                        f"{where}, section {expected_number} has unexpected whitespace"
+                    )
+                section_texts.append(english_text)
+                sentence_groups.append(split_sentences(english_text))
+                source_word_count += len(SOURCE_ENGLISH_WORD_PATTERN.findall(english_text))
 
-    if source_word_count != EXPECTED_SOURCE_ENGLISH_WORDS:
-        raise ValueError(
-            f"Source has {source_word_count:,} English words; "
-            f"expected {EXPECTED_SOURCE_ENGLISH_WORDS:,}"
-        )
+            exercise_id = stable_exercise_id(expected_book, expected_index)
+            full_text = "\n\n".join(section_texts)
+            exercises[exercise_id] = {
+                "part": 2,
+                "book": expected_book,
+                "index": expected_index,
+                "title": str(source_exercise.get("title") or exercise_id),
+                "sections": section_texts,
+                "sentences": sentence_groups,
+                "text": full_text,
+            }
+
+    if payload.get("exercise_count") != len(exercises):
+        raise ValueError("Source exercise_count does not match the validated corpus")
+    if payload.get("section_count") != len(exercises) * EXPECTED_SECTIONS_PER_EXERCISE:
+        raise ValueError("Source section_count does not match the validated corpus")
+    if payload.get("english_word_count") != source_word_count:
+        raise ValueError("Source english_word_count does not match the validated corpus")
     return exercises
+
+
+def source_english_word_count(exercises: dict[str, dict[str, Any]]) -> int:
+    return sum(
+        len(SOURCE_ENGLISH_WORD_PATTERN.findall(str(section)))
+        for exercise in exercises.values()
+        for section in exercise["sections"]
+    )
 
 
 def spoken_text(value: str) -> str:
@@ -558,7 +580,7 @@ def manifest_meta(
         "compressionLevel": MP3_COMPRESSION_LEVEL,
         "sentencePause": SENTENCE_PAUSE_SECONDS,
         "sectionPause": SECTION_PAUSE_SECONDS,
-        "sourceEnglishWordCount": EXPECTED_SOURCE_ENGLISH_WORDS,
+        "sourceEnglishWordCount": source_english_word_count(exercises),
         "timedWordCount": sum(int(entry.get("wordCount", 0)) for entry in entries.values()),
         "wordTiming": WORD_TIMING_VERSION,
     }
@@ -681,7 +703,7 @@ def main() -> int:
         print(
             f"Speaking source valid: {len(exercises)} exercises, "
             f"{len(exercises) * EXPECTED_SECTIONS_PER_EXERCISE} sections, "
-            f"{EXPECTED_SOURCE_ENGLISH_WORDS:,} English words."
+            f"{source_english_word_count(exercises):,} English words."
         )
         return 0
 

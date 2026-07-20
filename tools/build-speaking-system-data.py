@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build the browser data file for IELTS Speaking Part 2, Book 1.
+"""Build the browser data file for IELTS Speaking Part 2, Books 1–16.
 
-The structured JSON extracted from the source PDF is the only content source.
-This builder validates that corpus, gives each exercise a stable audio id, and
-reshapes it into the small view model used by speaking-system.html.
+The structured JSON extracted from the source PDFs is the only content source.
+This builder validates the complete corpus, gives each exercise a stable audio
+id, and reshapes it into the view model used by speaking-system.html.
 """
 
 from __future__ import annotations
@@ -16,10 +16,9 @@ from pathlib import Path
 from typing import Any
 
 
-EXPECTED_EXERCISES = 10
+EXPECTED_BOOKS = tuple(range(1, 17))
 EXPECTED_SECTIONS_PER_EXERCISE = 4
-EXPECTED_ENGLISH_WORDS = 3854
-SOURCE_NAME = "book1-ielts-speaking-part2-structured.json"
+SOURCE_NAME = "ielts-speaking-part2-structured.json"
 OUTPUT_NAME = "speaking-system-data.js"
 
 # This intentionally follows the acceptance count used for the source import:
@@ -161,7 +160,7 @@ def parse_cue(exercise: dict[str, Any]) -> dict[str, Any]:
     for english_raw, chinese_raw in chunks:
         english = without_list_prefix(english_raw)
         chinese = without_list_prefix(without_outer_parentheses(chinese_raw))
-        label_match = re.match(r"^You\s+should\s+say\s*:\s*(.*)$", english, re.I)
+        label_match = re.match(r"^You\s+should\s+(?:say|mention)\s*:\s*(.*)$", english, re.I)
         if label_match:
             english = label_match.group(1).strip()
             if not english:
@@ -179,9 +178,9 @@ def parse_cue(exercise: dict[str, Any]) -> dict[str, Any]:
         # English title + prompt. Reuse that source translation in the prompt
         # field rather than leaving the bilingual cue visually incomplete.
         prompt_zh = title_zh
-    if len(hints) != 4:
+    if not 3 <= len(hints) <= 6:
         raise ValueError(
-            f"Exercise {exercise.get('index')} has {len(hints)} hints; expected 4"
+            f"Exercise {exercise.get('index')} has {len(hints)} hints; expected 3 to 6"
         )
 
     return {
@@ -205,97 +204,148 @@ def require_string(container: dict[str, Any], key: str, where: str) -> str:
 def validate_source(payload: Any) -> dict[str, Any]:
     if not isinstance(payload, dict):
         raise ValueError("Speaking source must be a JSON object")
-    exercises = payload.get("exercises")
-    if not isinstance(exercises, list):
-        raise ValueError("Speaking source has no exercises array")
-    if payload.get("exercise_count") != len(exercises):
-        raise ValueError("Source exercise_count does not match its exercises array")
-    if len(exercises) != EXPECTED_EXERCISES:
-        raise ValueError(
-            f"Source has {len(exercises)} exercises; expected {EXPECTED_EXERCISES}"
-        )
+    expected_header = {
+        "schema_version": 2,
+        "exam": "IELTS",
+        "part": 2,
+        "book_count": len(EXPECTED_BOOKS),
+    }
+    for key, expected in expected_header.items():
+        if payload.get(key) != expected:
+            raise ValueError(f"Speaking source {key} must be {expected!r}")
+    books = payload.get("books")
+    if not isinstance(books, list):
+        raise ValueError("Speaking source has no books array")
+    if [book.get("book") if isinstance(book, dict) else None for book in books] != list(EXPECTED_BOOKS):
+        raise ValueError("Speaking source books must be ordered from Book 1 through Book 16")
 
+    total_exercises = 0
     total_words = 0
-    for expected_index, exercise in enumerate(exercises, start=1):
-        where = f"exercise {expected_index}"
-        if not isinstance(exercise, dict):
-            raise ValueError(f"{where} is not an object")
-        if exercise.get("index") != expected_index:
-            raise ValueError(f"{where} has an unexpected index")
-        require_string(exercise, "title", where)
-        require_string(exercise, "cue_raw", where)
-        page_range = exercise.get("page_range")
-        if (
-            not isinstance(page_range, list)
-            or len(page_range) != 2
-            or not all(isinstance(value, int) for value in page_range)
-        ):
-            raise ValueError(f"{where} has an invalid page_range")
-        sections = exercise.get("sections")
-        if not isinstance(sections, list) or len(sections) != EXPECTED_SECTIONS_PER_EXERCISE:
-            count = len(sections) if isinstance(sections, list) else 0
-            raise ValueError(
-                f"{where} has {count} sections; expected {EXPECTED_SECTIONS_PER_EXERCISE}"
-            )
-        for expected_number, section in enumerate(sections, start=1):
-            section_where = f"{where}, section {expected_number}"
-            if not isinstance(section, dict) or section.get("number") != expected_number:
-                raise ValueError(f"{section_where} is invalid or out of order")
-            for key in ("heading", "english_text", "chinese_text", "raw"):
-                require_string(section, key, section_where)
-            if not isinstance(section.get("heading_zh"), str):
-                raise ValueError(f"{section_where} has an invalid 'heading_zh'")
-            total_words += len(ENGLISH_WORD_PATTERN.findall(str(section["english_text"])))
+    for expected_book, book in zip(EXPECTED_BOOKS, books):
+        if not isinstance(book, dict):
+            raise ValueError(f"Book {expected_book} is not an object")
+        if book.get("part") != 2:
+            raise ValueError(f"Book {expected_book} does not belong to IELTS Part 2")
+        require_string(book, "source", f"Book {expected_book}")
+        exercises = book.get("exercises")
+        if not isinstance(exercises, list) or not exercises:
+            raise ValueError(f"Book {expected_book} has no exercises array")
+        if book.get("exercise_count") != len(exercises):
+            raise ValueError(f"Book {expected_book} exercise_count does not match its exercises array")
 
-    if total_words != EXPECTED_ENGLISH_WORDS:
-        raise ValueError(
-            f"Source has {total_words:,} English words; expected {EXPECTED_ENGLISH_WORDS:,}"
-        )
+        book_words = 0
+        for expected_index, exercise in enumerate(exercises, start=1):
+            where = f"Book {expected_book}, exercise {expected_index}"
+            if not isinstance(exercise, dict):
+                raise ValueError(f"{where} is not an object")
+            if exercise.get("index") != expected_index:
+                raise ValueError(f"{where} has an unexpected index")
+            require_string(exercise, "title", where)
+            require_string(exercise, "cue_raw", where)
+            page_range = exercise.get("page_range")
+            if (
+                not isinstance(page_range, list)
+                or len(page_range) != 2
+                or not all(isinstance(value, int) for value in page_range)
+                or page_range[0] > page_range[1]
+            ):
+                raise ValueError(f"{where} has an invalid page_range")
+            sections = exercise.get("sections")
+            if not isinstance(sections, list) or len(sections) != EXPECTED_SECTIONS_PER_EXERCISE:
+                count = len(sections) if isinstance(sections, list) else 0
+                raise ValueError(
+                    f"{where} has {count} sections; expected {EXPECTED_SECTIONS_PER_EXERCISE}"
+                )
+            for expected_number, section in enumerate(sections, start=1):
+                section_where = f"{where}, section {expected_number}"
+                if not isinstance(section, dict) or section.get("number") != expected_number:
+                    raise ValueError(f"{section_where} is invalid or out of order")
+                for key in ("heading", "english_text", "chinese_text", "raw"):
+                    require_string(section, key, section_where)
+                if not isinstance(section.get("heading_zh"), str):
+                    raise ValueError(f"{section_where} has an invalid 'heading_zh'")
+                book_words += len(ENGLISH_WORD_PATTERN.findall(str(section["english_text"])))
+
+        if "english_word_count" in book and book.get("english_word_count") != book_words:
+            raise ValueError(f"Book {expected_book} english_word_count does not match its response text")
+        total_exercises += len(exercises)
+        total_words += book_words
+
+    integrity_values = {
+        "book_count": len(books),
+        "exercise_count": total_exercises,
+        "section_count": total_exercises * EXPECTED_SECTIONS_PER_EXERCISE,
+        "english_word_count": total_words,
+    }
+    for key, actual in integrity_values.items():
+        if payload.get(key) != actual:
+            raise ValueError(f"Source {key} does not match the validated corpus")
     return payload
 
 
-def stable_exercise_id(index: int) -> str:
-    return f"ielts-part-2-book-1-exercise-{index:02d}"
+def stable_exercise_id(book: int, index: int) -> str:
+    return f"ielts-part-2-book-{book}-exercise-{index:02d}"
 
 
 def browser_payload(source: dict[str, Any]) -> dict[str, Any]:
-    exercises: list[dict[str, Any]] = []
-    for exercise in source["exercises"]:
-        index = int(exercise["index"])
-        responses = [
-            {
-                "number": int(section["number"]),
-                "headingEn": section["heading"],
-                "headingZh": section["heading_zh"],
-                "textEn": section["english_text"],
-                "textZh": section["chinese_text"],
-            }
-            for section in exercise["sections"]
-        ]
-        exercises.append({
-            "id": stable_exercise_id(index),
-            "index": index,
-            "title": exercise["title"],
-            "pageRange": exercise["page_range"],
-            "cue": parse_cue(exercise),
-            "responses": responses,
+    books: list[dict[str, Any]] = []
+    total_exercises = 0
+    total_words = 0
+    for source_book in source["books"]:
+        book_number = int(source_book["book"])
+        exercises: list[dict[str, Any]] = []
+        book_words = 0
+        for exercise in source_book["exercises"]:
+            index = int(exercise["index"])
+            responses = [
+                {
+                    "number": int(section["number"]),
+                    "headingEn": section["heading"],
+                    "headingZh": section["heading_zh"],
+                    "textEn": section["english_text"],
+                    "textZh": section["chinese_text"],
+                }
+                for section in exercise["sections"]
+            ]
+            book_words += sum(
+                len(ENGLISH_WORD_PATTERN.findall(str(section["english_text"])))
+                for section in exercise["sections"]
+            )
+            exercises.append({
+                "id": stable_exercise_id(book_number, index),
+                "index": index,
+                "title": exercise["title"],
+                "pageRange": exercise["page_range"],
+                "cue": parse_cue(exercise),
+                "responses": responses,
+            })
+
+        total_exercises += len(exercises)
+        total_words += book_words
+        source_path = Path(str(source_book.get("source", "")))
+        books.append({
+            "part": 2,
+            "book": book_number,
+            "displayTitle": f"Book {book_number} of Part 2",
+            "sourceFile": source_path.name,
+            "exerciseCount": len(exercises),
+            "sectionCount": len(exercises) * EXPECTED_SECTIONS_PER_EXERCISE,
+            "englishWordCount": book_words,
+            "exercises": exercises,
         })
 
-    source_path = Path(str(source.get("source", "")))
     return {
         "metadata": {
-            "schemaVersion": 1,
+            "schemaVersion": 2,
             "exam": "IELTS",
             "part": 2,
-            "book": 1,
-            "displayTitle": "Book 1 of Part 2",
-            "sourceFile": source_path.name or "Book 1 - IELTS Speaking Part 2 - Band 9 Samples.pdf",
-            "exerciseCount": EXPECTED_EXERCISES,
-            "sectionCount": EXPECTED_EXERCISES * EXPECTED_SECTIONS_PER_EXERCISE,
-            "englishWordCount": EXPECTED_ENGLISH_WORDS,
+            "bookCount": len(books),
+            "exerciseCount": total_exercises,
+            "sectionCount": total_exercises * EXPECTED_SECTIONS_PER_EXERCISE,
+            "englishWordCount": total_words,
             "audioBuildVersion": "v1",
         },
-        "exercises": exercises,
+        "books": books,
     }
 
 
@@ -342,23 +392,26 @@ def main() -> int:
     source_path = args.source.resolve()
     output_path = args.output.resolve()
     source = validate_source(json.loads(source_path.read_text(encoding="utf-8")))
-    content = javascript_content(browser_payload(source))
+    payload = browser_payload(source)
+    content = javascript_content(payload)
 
     if args.check:
         if not output_path.exists() or output_path.read_text(encoding="utf-8") != content:
             raise SystemExit(f"Speaking data is stale: run {Path(__file__).name}")
         print(
-            f"Speaking data valid: {EXPECTED_EXERCISES} exercises, "
-            f"{EXPECTED_EXERCISES * EXPECTED_SECTIONS_PER_EXERCISE} sections, "
-            f"{EXPECTED_ENGLISH_WORDS:,} English words."
+            f"Speaking data valid: {payload['metadata']['bookCount']} books, "
+            f"{payload['metadata']['exerciseCount']} exercises, "
+            f"{payload['metadata']['sectionCount']} sections, "
+            f"{payload['metadata']['englishWordCount']:,} English words."
         )
         return 0
 
     write_atomic(output_path, content)
     print(
-        f"Wrote {output_path}: {EXPECTED_EXERCISES} exercises, "
-        f"{EXPECTED_EXERCISES * EXPECTED_SECTIONS_PER_EXERCISE} sections, "
-        f"{EXPECTED_ENGLISH_WORDS:,} English words."
+        f"Wrote {output_path}: {payload['metadata']['bookCount']} books, "
+        f"{payload['metadata']['exerciseCount']} exercises, "
+        f"{payload['metadata']['sectionCount']} sections, "
+        f"{payload['metadata']['englishWordCount']:,} English words."
     )
     return 0
 
