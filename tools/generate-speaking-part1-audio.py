@@ -20,14 +20,14 @@ TOOLS_DIR = Path(__file__).resolve().parent
 SHARED_GENERATOR_PATH = TOOLS_DIR / "generate-speaking-audio.py"
 DATA_BUILDER_PATH = TOOLS_DIR / "build-speaking-part1-data.py"
 
-AUDIO_BUILD_VERSION = "v1"
-STATIC_AUDIO_ROOT = "assets/speaking-system/audio/edmund-neural/part1/v1"
+AUDIO_BUILD_VERSION = "v4"
+STATIC_AUDIO_ROOT = "assets/speaking-system/audio/edmund-neural/part1/v4"
 SOURCE_DATA_PATH = "tools/ielts-speaking-part1-book1-structured.json"
 MANIFEST_NAME = "speaking-part1-audio-manifest.js"
 
 QUESTION_VOICE = "af_heart"
 QUESTION_LANGUAGE = "en-us"
-QUESTION_SPEED = 0.96
+QUESTION_SPEED = 0.74
 ANSWER_VOICE = "bm_fable"
 ANSWER_LANGUAGE = "en-gb"
 ANSWER_SPEED = 0.98
@@ -36,6 +36,7 @@ MP3_COMPRESSION_LEVEL = 0.55
 SENTENCE_PAUSE_SECONDS = 0.45
 TURN_GAP_SECONDS = 0.44
 MESSAGE_LEAD_SECONDS = 0.28
+INITIAL_MESSAGE_LEAD_SECONDS = 0.87
 ALIGNMENT_MODEL = "base.en"
 WORD_TIMING_VERSION = "faster-whisper-base.en-audio-v1"
 RECIPE_SCHEMA_VERSION = 1
@@ -147,6 +148,7 @@ def recipe_payload() -> dict[str, Any]:
             "sentencePause": SENTENCE_PAUSE_SECONDS,
             "turnGap": TURN_GAP_SECONDS,
             "messageLead": MESSAGE_LEAD_SECONDS,
+            "initialMessageLead": INITIAL_MESSAGE_LEAD_SECONDS,
             "layout": "question-answer-alternating-18-turn-v1",
             "speakers": {
                 "question": {
@@ -327,6 +329,9 @@ def entry_validation_error(entry: object, exercise_id: str, exercise: dict[str, 
             return f"turn range {index} does not follow the exact inter-turn gap"
         if float(audio_start) != float(words[word_start][1]):
             return f"turn range {index} audioStart does not match its first word"
+        expected_lead = INITIAL_MESSAGE_LEAD_SECONDS if index == 0 else MESSAGE_LEAD_SECONDS
+        if abs(float(audio_start) - float(reveal_at) - expected_lead) > 0.002:
+            return f"turn range {index} does not use the expected message lead"
         if float(audio_end) != float(words[word_end - 1][2]):
             return f"turn range {index} audioEnd does not match its last word"
         previous_playback_end = float(playback_end)
@@ -359,6 +364,7 @@ def manifest_meta(
         "sentencePause": SENTENCE_PAUSE_SECONDS,
         "turnGap": TURN_GAP_SECONDS,
         "messageLead": MESSAGE_LEAD_SECONDS,
+        "initialMessageLead": INITIAL_MESSAGE_LEAD_SECONDS,
         "questionCount": sum(len(exercise["questions"]) for exercise in exercises.values()),
         "turnCount": sum(len(exercise["turns"]) for exercise in exercises.values()),
         "sourceEnglishWordCount": source_english_word_count(exercises),
@@ -533,7 +539,8 @@ def main() -> int:
                     chunks.append(gap)
                     elapsed_samples += len(gap)
                 reveal_at = round(elapsed_samples / SAMPLE_RATE, 3)
-                lead = np.zeros(round(SAMPLE_RATE * MESSAGE_LEAD_SECONDS), dtype=np.float32)
+                lead_seconds = INITIAL_MESSAGE_LEAD_SECONDS if turn_index == 0 else MESSAGE_LEAD_SECONDS
+                lead = np.zeros(round(SAMPLE_RATE * lead_seconds), dtype=np.float32)
                 chunks.append(lead)
                 elapsed_samples += len(lead)
                 word_start = len(words)

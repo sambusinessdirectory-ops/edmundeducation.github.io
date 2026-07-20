@@ -17,7 +17,7 @@ TOOLS_DIR = Path(__file__).resolve().parent
 GENERATOR_PATH = TOOLS_DIR / "generate-speaking-part1-audio.py"
 EXPECTED_PREFIX = "assets/speaking-system/audio/edmund-neural/part1/"
 IMMUTABLE_CACHE = "public, max-age=31536000, immutable"
-APPROVED_RECIPE_SHA256 = "8f2cc5e88efba92b66365f1461719a48df69e5ecc268c5e97039a81d976748be"
+APPROVED_RECIPE_SHA256 = "683ba2bb6e32f680cb9d2f55f7e4b86cba3f35bfe515f25f8a18c142cb18a011"
 
 
 def load_python_file(path: Path, module_name: str) -> ModuleType:
