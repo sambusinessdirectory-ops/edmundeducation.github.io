@@ -98,6 +98,7 @@
     part1RevealScrollHandler: null,
     part1RevealResizeHandler: null,
     part1RevealAll: false,
+    part1AnimationDisabled: false,
     authGeneration: 0,
     mediaRecorder: null,
     mediaStream: null,
@@ -1778,6 +1779,7 @@
     state.part1RevealMessages = [];
     state.part1RevealNextIndex = 0;
     state.part1RevealAll = false;
+    state.part1AnimationDisabled = false;
   }
 
   function setPart1MessageRevealed(message) {
@@ -1811,11 +1813,27 @@
     state.part1RevealNextIndex = messages.length;
     state.part1RevealAll = true;
     stopPart1RevealListeners();
-    const button = document.querySelector("[data-part1-reveal-all]");
-    if (button) {
-      button.setAttribute("aria-pressed", "true");
-      button.innerHTML = "✓ 已顯示全部 <span>All revealed</span>";
-    }
+  }
+
+  function syncPart1AnimationControl() {
+    const button = document.querySelector("[data-part1-disable-animation]");
+    if (!button) return;
+    const disabled = state.part1AnimationDisabled;
+    button.setAttribute("aria-pressed", String(disabled));
+    button.setAttribute("aria-disabled", String(disabled));
+    button.innerHTML = disabled
+      ? "✓ 動畫已關閉 <span>All messages shown</span>"
+      : "關閉動畫 <span>Disable animation</span>";
+  }
+
+  function disablePart1Animation({ announce = true } = {}) {
+    if (state.part1AnimationDisabled) return;
+    state.part1AnimationDisabled = true;
+    const conversation = document.querySelector("[data-part1-conversation]");
+    conversation?.classList.add("part1-animation-disabled");
+    revealAllPart1Messages();
+    syncPart1AnimationControl();
+    if (announce) toast(`動畫已關閉；全部 ${state.part1RevealMessages.length} 則訊息已顯示。`, "info");
   }
 
   function checkPart1RevealPosition() {
@@ -1852,13 +1870,14 @@
       if (listen) listen.disabled = true;
     });
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
-      revealAllPart1Messages();
+      disablePart1Animation({ announce: false });
       return;
     }
     state.part1RevealScrollHandler = schedulePart1RevealCheck;
     state.part1RevealResizeHandler = schedulePart1RevealCheck;
     window.addEventListener("scroll", state.part1RevealScrollHandler, { passive: true });
     window.addEventListener("resize", state.part1RevealResizeHandler, { passive: true });
+    syncPart1AnimationControl();
     schedulePart1RevealCheck();
   }
 
@@ -1881,7 +1900,7 @@
         <section class="part1-directory" aria-labelledby="part1-directory-heading">
           <div class="part1-directory-heading">
             <div><span class="cue-label">QUESTION DIRECTORY · 題目目錄</span><h2 id="part1-directory-heading">先看本組全部問題</h2></div>
-            <button class="part1-reveal-all" type="button" data-part1-reveal-all aria-pressed="false">顯示全部 <span>Reveal all</span></button>
+            <button class="part1-animation-toggle" type="button" data-part1-disable-animation aria-controls="part1-conversation" aria-pressed="false" aria-disabled="false">關閉動畫 <span>Disable animation</span></button>
           </div>
           <ol class="part1-question-index">
             ${questions.map((question, index) => `
@@ -1894,10 +1913,10 @@
 
         <section class="part1-dialogue-stage" aria-labelledby="part1-dialogue-heading">
           <header class="part1-dialogue-heading">
-            <div><span class="cue-label">SCROLL TO REVEAL · 向下捲動</span><h2 id="part1-dialogue-heading">Examiner 與你的 Band 9 對話</h2></div>
-            <p>問題在右，答案在左。捲動越快，對話便揭示得越快；文字只會解除模糊，不會被推離畫面。</p>
+            <div><span class="cue-label">SCROLL TO POP · 向下捲動</span><h2 id="part1-dialogue-heading">Examiner 與你的 Band 9 對話</h2></div>
+            <p>問題從右、答案從左輕輕彈出；如想立即閱讀全部內容，可關閉動畫。</p>
           </header>
-          <ol class="part1-conversation" data-part1-conversation>
+          <ol class="part1-conversation" id="part1-conversation" data-part1-conversation>
             ${questions.map((question, index) => (
               renderPart1Message(question, "question", index * 2, matcher, available)
               + renderPart1Message(question, "answer", index * 2 + 1, matcher, available)
@@ -3635,8 +3654,8 @@
         return;
       }
 
-      if (event.target.closest("[data-part1-reveal-all]")) {
-        revealAllPart1Messages();
+      if (event.target.closest("[data-part1-disable-animation]")) {
+        disablePart1Animation();
         return;
       }
 
