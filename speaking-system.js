@@ -7,7 +7,7 @@
   const RATE_KEY = "edmundSpeakingAudioRateV1";
   const HIGHLIGHT_KEY = "edmundSpeakingHighlightV1";
   const SEARCH_RESULT_LIMITS = { sections: 8, exercises: 14 };
-  const VISIBLE_BOOK_LIMIT = 14;
+  const VISIBLE_BOOK_LIMITS = { 1: 14, 2: 16, 3: 16 };
   const AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
   const PART1_POP_DURATION_SECONDS = 0.5;
   const PART1_POP_SAFETY_SECONDS = 0.08;
@@ -185,14 +185,18 @@
     return state.user?.role === "admin" || keys.every(key => state.access[key] !== false);
   }
 
-  function bookIsVisible(book) {
+  function visibleBookLimit(part) {
+    return VISIBLE_BOOK_LIMITS[Number(part)] || 16;
+  }
+
+  function bookIsVisible(book, part) {
     const number = Number(book);
-    return Number.isInteger(number) && number >= 1 && number <= VISIBLE_BOOK_LIMIT;
+    return Number.isInteger(number) && number >= 1 && number <= visibleBookLimit(part);
   }
 
   function routeIsVisible(route) {
     if (!route || !["exercises", "exercise"].includes(route.view)) return true;
-    return bookIsVisible(route.book);
+    return bookIsVisible(route.book, route.part);
   }
 
   function routeAllowed(route) {
@@ -204,7 +208,7 @@
   }
 
   function bookAvailable(part, book) {
-    return bookIsVisible(book) && Boolean(speakingBook(Number(part), Number(book))?.exercises?.length);
+    return bookIsVisible(book, part) && Boolean(speakingBook(Number(part), Number(book))?.exercises?.length);
   }
 
   function preferredScrollBehavior() {
@@ -799,7 +803,7 @@
   }
 
   function bookmarkIsVisible(bookmark) {
-    return !["book", "exercise"].includes(bookmark?.kind) || bookIsVisible(bookmark.book);
+    return !["book", "exercise"].includes(bookmark?.kind) || bookIsVisible(bookmark.book, bookmark.part);
   }
 
   function isBookmarked(bookmark) {
@@ -1094,14 +1098,14 @@
   function renderBooks(part) {
     const validPart = [1, 2, 3].includes(Number(part)) ? Number(part) : 1;
     const availableBooks = speakingBooks().filter(item => (
-      Number(item?.part) === validPart && bookIsVisible(item?.book)
+      Number(item?.part) === validPart && bookIsVisible(item?.book, item?.part)
     ));
     const availableExercises = availableBooks.reduce((count, item) => count + Number(item?.exerciseCount || item?.exercises?.length || 0), 0);
     dom.content.innerHTML = `
       <section class="content-panel">
         ${sectionHeader(`IELTS Speaking · Part ${validPart}`, availableBooks.length ? `選擇練習冊。${availableBooks.length} 本練習冊共有 ${availableExercises} 個完整 Band 9 示範。` : "選擇練習冊。")}
         <div class="book-grid">
-          ${Array.from({ length: VISIBLE_BOOK_LIMIT }, (_, index) => {
+          ${Array.from({ length: visibleBookLimit(validPart) }, (_, index) => {
             const book = index + 1;
             const available = bookAvailable(validPart, book);
             const allowed = hasAccess(["exam.ielts", `ielts.part.${validPart}`, `ielts.part.${validPart}.book.${book}`]);
@@ -1305,7 +1309,7 @@
 
   function allSpeakingExercises() {
     return speakingBooks()
-      .filter(book => bookIsVisible(book?.book))
+      .filter(book => bookIsVisible(book?.book, book?.part))
       .flatMap(book => speakingExercises(book.part, book.book));
   }
 
