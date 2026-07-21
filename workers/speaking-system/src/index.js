@@ -3,7 +3,8 @@ const SERVICE_NAME = "edmund-speaking-system";
 const SQL_MAX_UPLOAD_BYTES = 20 * 1024 * 1024;
 const SQL_MAX_DURATION_MS = 30 * 60 * 1000;
 const DEFAULT_MAX_UPLOAD_BYTES = 3 * 1024 * 1024;
-const DEFAULT_MAX_DURATION_MS = 150 * 1000;
+const DEFAULT_MAX_DURATION_MS = 300 * 1000;
+const MP3_ENCODER_PADDING_TOLERANCE_MS = 1000;
 const DEFAULT_MAX_EXPORT_BATCH_BYTES = 64 * 1024 * 1024;
 const DEFAULT_EXPORT_PAGE_SIZE = 10;
 const DEFAULT_MAX_EXPORT_FILES_PER_BATCH = 40;
@@ -332,7 +333,12 @@ function maxUploadBytes(env) {
 }
 
 function maxDurationMs(env) {
-  return configuredInteger(env.MAX_DURATION_MS, DEFAULT_MAX_DURATION_MS, 1000, SQL_MAX_DURATION_MS);
+  return configuredInteger(
+    env.MAX_DURATION_MS,
+    DEFAULT_MAX_DURATION_MS,
+    1000,
+    SQL_MAX_DURATION_MS - MP3_ENCODER_PADDING_TOLERANCE_MS
+  );
 }
 
 function maxExportBytes(env) {
@@ -1107,7 +1113,7 @@ async function parseMultipartUpload(request, env) {
   if (!mp3) {
     throw new HttpError(415, "INVALID_MP3", "The uploaded file is not a valid MPEG Layer III recording");
   }
-  if (mp3.durationMs > maxDurationMs(env)) {
+  if (mp3.durationMs > maxDurationMs(env) + MP3_ENCODER_PADDING_TOLERANCE_MS) {
     throw new HttpError(413, "RECORDING_TOO_LONG", "The MP3 recording is too long");
   }
 
@@ -1211,6 +1217,22 @@ async function uploadRecording(request, env) {
   };
 
   const reservation = await reserveRecordingMetadata(env, metadata);
+  if (reservation.idempotent === true && reservation.recording?.storage_state === "ready") {
+    const existingId = String(reservation.recording.id || "");
+    const response = json(
+      {
+        recording: publicRecording(reservation.recording, request),
+        quota: reservation.quota || null,
+        usage: reservation.usage || null,
+        idempotent: true
+      },
+      200,
+      request,
+      env
+    );
+    response.headers.set("Location", new URL(`/v1/recordings/${existingId}`, request.url).toString());
+    return response;
+  }
   try {
     await putStorageObject(env, objectPath, upload.bytes);
   } catch (error) {
@@ -1376,6 +1398,9 @@ async function reserveRecordingMetadata(env, metadata) {
     }
     if (value.code === "STUDENT_NOT_FOUND") {
       throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+    }
+    if (value.code === "RECORDING_UPLOAD_IN_PROGRESS") {
+      throw new HttpError(409, value.code, "This exam answer is already being saved; retry shortly");
     }
     throw new HttpError(409, "RECORDING_RESERVATION_REJECTED", "The recording could not be reserved");
   }

@@ -16,7 +16,7 @@
     workerBaseUrl: "https://edmund-speaking-system.edmundeducation.workers.dev",
     adminUsername: "Sam Admin Speaking",
     studentLoginRpc: "flashcard_student_login",
-    maxRecordingSeconds: 150,
+    maxRecordingSeconds: 300,
     maxUploadBytes: 3 * 1024 * 1024,
     clientZipMaxFiles: 40,
     clientZipMaxBytes: 32 * 1024 * 1024,

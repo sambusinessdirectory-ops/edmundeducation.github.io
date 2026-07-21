@@ -3,6 +3,7 @@
 
   const CONFIG = window.EDMUND_SPEAKING_CONFIG || {};
   const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
+  const EXAM_MODE = window.EDMUND_SPEAKING_EXAM || {};
   const SESSION_KEY = "edmundSpeakingSessionV1";
   const RATE_KEY = "edmundSpeakingAudioRateV1";
   const HIGHLIGHT_KEY = "edmundSpeakingHighlightV1";
@@ -12,6 +13,9 @@
   const PART1_POP_DURATION_SECONDS = 0.5;
   const PART1_POP_SAFETY_SECONDS = 0.08;
   const PART1_SEGMENT_TAIL_SECONDS = 0.2;
+  const EXAM_PART2_SETTLE_MS = 3000;
+  const EXAM_PART2_PREP_MS = 60 * 1000;
+  const EXAM_PART2_RECORDING_SECONDS = 120;
   const WORD_PATTERN = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*|[^\p{L}\p{N}]+/gu;
   const IS_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
 
@@ -114,6 +118,7 @@
     recordingPauseSupported: false,
     recordingBackgroundPaused: false,
     recordingTimer: 0,
+    recordingDeadlineTimer: 0,
     recordingGeneration: 0,
     recordingPermissionPending: false,
     recordingProcessing: false,
@@ -121,6 +126,10 @@
     recordedMp3Url: "",
     recordedDurationMs: 0,
     recordingSaved: false,
+    recordingContextKey: "",
+    examSession: null,
+    examPhaseTimer: 0,
+    examSaving: false,
     attempts: [],
     attemptsById: new Map(),
     attemptBlobCache: new Map(),
@@ -166,12 +175,22 @@
       .filter(([key, enabled]) => allowed.has(key) && typeof enabled === "boolean"));
   }
 
+  function examModeDefinition(modeId) {
+    return typeof EXAM_MODE.modeForId === "function" ? EXAM_MODE.modeForId(modeId) : null;
+  }
+
   function accessKeysForRoute(route) {
     if (!route || state.user?.role === "admin") return [];
     if (route.view === "bookmarks") return ["bookmarks"];
     if (["exams", "attempts", "admin"].includes(route.view)) return [];
-    const exam = String(route.exam || (["parts", "books", "exercises", "exercise"].includes(route.view) ? "ielts" : ""));
+    const ieltsViews = ["parts", "books", "exercises", "exercise", "exam-modes", "exam-practice"];
+    const exam = String(route.exam || (ieltsViews.includes(route.view) ? "ielts" : ""));
     const keys = exam && EXAM_ACCESS_KEYS[exam] ? [EXAM_ACCESS_KEYS[exam]] : [];
+    if (route.view === "exam-practice") {
+      const mode = examModeDefinition(route.modeId);
+      mode?.parts?.forEach(part => keys.push(`ielts.part.${part}`));
+      return keys;
+    }
     const part = Number(route.part || 0);
     const book = Number(route.book || 0);
     if (exam === "ielts" && part >= 1 && part <= 3) keys.push(`ielts.part.${part}`);
@@ -397,9 +416,11 @@
 
   async function parseApiError(response) {
     let message = `服務回應錯誤（${response.status}）`;
+    let code = "";
     try {
       const payload = await response.clone().json();
       message = payload?.error?.message || payload?.error || payload?.message || message;
+      code = String(payload?.code || payload?.error?.code || "");
     } catch {
       try {
         const text = await response.text();
@@ -410,6 +431,7 @@
     }
     const error = new Error(message);
     error.status = response.status;
+    if (code) error.code = code;
     return error;
   }
 
@@ -544,6 +566,7 @@
 
   function showLogin() {
     stopModelAudio();
+    clearExamSession();
     cancelRecorder();
     cleanupAttemptAudio();
     dom.loginView.hidden = false;
@@ -629,6 +652,8 @@
   function routeLabel(route) {
     switch (route?.view) {
       case "parts": return "IELTS 說話考試";
+      case "exam-modes": return "考試練習模式";
+      case "exam-practice": return examModeDefinition(route.modeId)?.shortLabel || "考試練習";
       case "books": return `Part ${route.part}`;
       case "exercises": return `Book ${route.book}`;
       case "exercise": return `Exercise ${route.exerciseIndex}`;
@@ -648,11 +673,22 @@
       ["recording", "paused"].includes(state.mediaRecorder?.state)
       || state.recordingProcessing
       || (state.recordedMp3 && !state.recordingSaved)
+      || (state.route.view === "exam-practice" && state.examSession && !state.examSession.completed)
     );
   }
 
   function confirmRecordingAbandonment() {
     if (!navigationHasUnsavedRecording()) return true;
+    if (
+      !["recording", "paused"].includes(state.mediaRecorder?.state)
+      && !state.recordingProcessing
+      && !(state.recordedMp3 && !state.recordingSaved)
+      && state.route.view === "exam-practice"
+      && state.examSession
+      && !state.examSession.completed
+    ) {
+      return window.confirm("考試練習仍在進行中。離開後不能繼續本次進度；已儲存的錄音仍會保留在錄音庫。確定離開嗎？");
+    }
     return window.confirm("這次錄音尚未儲存。離開後將會捨棄錄音，確定繼續嗎？");
   }
 
@@ -662,11 +698,21 @@
       toast("你的帳戶尚未開放這個練習範圍。", "error");
       return;
     }
+    if (!routesEqual(route, state.route) && (state.examSaving || state.recordingProcessing)) {
+      toast("錄音正在處理或上載，完成後才可離開。", "info");
+      return;
+    }
     if (!options.skipGuard && !routesEqual(route, state.route) && !confirmRecordingAbandonment()) return;
+    const abandoningExam = !routesEqual(route, state.route)
+      && state.route.view === "exam-practice"
+      && state.examSession
+      && !state.examSession.completed;
     stopModelAudio();
+    clearExamPhaseTimer();
     cleanupPart1Reveal();
     cleanupAttemptAudio();
     if (!routesEqual(route, state.route)) cancelRecorder();
+    if (abandoningExam) clearExamSession();
 
     if (options.reset) {
       state.routeHistory = [];
@@ -680,6 +726,10 @@
   }
 
   function goBack() {
+    if (state.examSaving || state.recordingProcessing) {
+      toast("錄音正在處理或上載，完成後才可離開。", "info");
+      return;
+    }
     if (!confirmRecordingAbandonment()) return;
     const previous = state.routeHistory.pop();
     if (previous) {
@@ -696,8 +746,14 @@
   function renderBreadcrumbs() {
     const route = state.route;
     const crumbs = [{ label: "Speaking System", route: { view: "exams" } }];
-    if (["parts", "books", "exercises", "exercise"].includes(route.view)) {
+    if (["parts", "books", "exercises", "exercise", "exam-modes", "exam-practice"].includes(route.view)) {
       crumbs.push({ label: "IELTS", route: { view: "parts", exam: "ielts" } });
+    }
+    if (["exam-modes", "exam-practice"].includes(route.view)) {
+      crumbs.push({ label: "考試練習模式", route: route.view === "exam-modes" ? null : { view: "exam-modes", exam: "ielts" } });
+    }
+    if (route.view === "exam-practice") {
+      crumbs.push({ label: examModeDefinition(route.modeId)?.shortLabel || "考試練習", route: null });
     }
     if (["books", "exercises", "exercise"].includes(route.view)) {
       crumbs.push({ label: `Part ${route.part}`, route: { view: "books", exam: "ielts", part: route.part } });
@@ -740,6 +796,12 @@
         break;
       case "exercise":
         renderExercise();
+        break;
+      case "exam-modes":
+        renderExamModes();
+        break;
+      case "exam-practice":
+        renderExamPractice();
         break;
       case "attempts":
         renderAttemptsPage();
@@ -1090,9 +1152,362 @@
                 ${allowed ? bookmarkButtonHtml(bookmark) : ""}
               </div>`;
           }).join("")}
+          <div class="selection-card-wrap choice-card-wrap exam-practice-card-wrap">
+            <button class="choice-card exam-practice-choice${hasAccess(["exam.ielts"]) ? "" : " access-locked"}" type="button" data-exam-practice-modes ${hasAccess(["exam.ielts"]) ? "" : 'aria-disabled="true"'}>
+              <span class="card-number">IELTS SPEAKING · EXAM MODE</span>
+              <strong>考試練習模式</strong>
+              <small>隨機抽題、限時準備及完整錄音流程</small>
+              ${hasAccess(["exam.ielts"]) ? "" : '<span class="availability">尚未開放</span>'}
+            </button>
+          </div>
         </div>
       </section>
     `;
+  }
+
+  function clearExamPhaseTimer() {
+    if (state.examPhaseTimer) window.clearInterval(state.examPhaseTimer);
+    state.examPhaseTimer = 0;
+  }
+
+  function clearExamSession() {
+    clearExamPhaseTimer();
+    state.examSession = null;
+    state.examSaving = false;
+  }
+
+  function uniqueExamExercises(exercises, part) {
+    const seenTitles = new Set();
+    const seenQuestionSets = new Set();
+    return exercises.filter(exercise => {
+      const titleKey = normalizeSearchText(exercise.title);
+      const questionSetKey = Number(part) === 1
+        ? (exercise.questions || []).map(question => normalizeSearchText(question.questionEn)).join("|")
+        : "";
+      if (seenTitles.has(titleKey) || (questionSetKey && seenQuestionSets.has(questionSetKey))) return false;
+      seenTitles.add(titleKey);
+      if (questionSetKey) seenQuestionSets.add(questionSetKey);
+      return true;
+    });
+  }
+
+  function examQuestionPools() {
+    const pools = { 1: [], 2: [], 3: [] };
+    speakingBooks().forEach(book => {
+      const part = Number(book?.part || 0);
+      const bookNumber = Number(book?.book || 0);
+      if (![1, 2, 3].includes(part) || !bookIsVisible(bookNumber, part)) return;
+      if (!hasAccess(["exam.ielts", `ielts.part.${part}`, `ielts.part.${part}.book.${bookNumber}`])) return;
+      pools[part].push(...speakingExercises(part, bookNumber).filter(exercise => !exercise.unavailable));
+    });
+    pools[1] = uniqueExamExercises(pools[1], 1);
+    pools[3] = uniqueExamExercises(pools[3], 3);
+    return pools;
+  }
+
+  function examCoverHtml() {
+    return `
+      <figure class="exam-practice-cover">
+        <img src="assets/speaking-system/ielts-exam-practice-mode.png" width="1672" height="941" alt="IELTS Exam Mode Speaking：戴著耳機在咪高峰前練習的 Edmund 馬仔">
+      </figure>`;
+  }
+
+  function renderExamModes() {
+    const pools = examQuestionPools();
+    const modes = Array.isArray(EXAM_MODE.modes) ? EXAM_MODE.modes : [];
+    dom.content.innerHTML = `
+      <section class="content-panel exam-mode-panel">
+        ${sectionHeader("考試練習模式", "選擇要模擬的 IELTS Speaking 部分。每次開始都會從已開放的題庫重新隨機抽題。", "7 種模式")}
+        ${examCoverHtml()}
+        <div class="exam-mode-grid">
+          ${modes.map((mode, index) => {
+            const available = typeof EXAM_MODE.modeIsFeasible === "function" && EXAM_MODE.modeIsFeasible(mode.id, pools);
+            const count = mode.parts.reduce((total, part) => total + (part === 1 ? 12 : part === 2 ? 1 : 6), 0);
+            return `
+              <button class="exam-mode-card${available ? "" : " access-locked"}" type="button" data-exam-mode="${escapeHtml(mode.id)}" ${available ? "" : 'aria-disabled="true"'}>
+                <span>${pad(index + 1)} · EXAM PRACTICE</span>
+                <strong>${escapeHtml(mode.label)}</strong>
+                <small>${available ? `${count} 條錄音 · 雙語題目` : "可用題目或帳戶權限不足"}</small>
+              </button>`;
+          }).join("")}
+        </div>
+      </section>`;
+  }
+
+  function startExamPractice(modeId) {
+    if (state.user?.role === "admin") {
+      toast("考試錄音流程只供學生帳戶使用。", "error");
+      return;
+    }
+    const mode = examModeDefinition(modeId);
+    if (!mode || typeof EXAM_MODE.buildExamItems !== "function" || typeof EXAM_MODE.createAttemptId !== "function") {
+      toast("考試練習模組未能載入，請重新整理後再試。", "error");
+      return;
+    }
+    const pools = examQuestionPools();
+    try {
+      const items = EXAM_MODE.buildExamItems(modeId, pools);
+      state.examSession = {
+        id: EXAM_MODE.createAttemptId(),
+        modeId: mode.id,
+        mode,
+        items,
+        currentIndex: 0,
+        completed: false,
+        startedAt: new Date().toISOString()
+      };
+      state.examSaving = false;
+      navigate({ view: "exam-practice", exam: "ielts", modeId: mode.id });
+    } catch (error) {
+      console.warn("Could not create speaking exam:", error);
+      toast(String(error?.message || "未能建立考試練習。"), "error");
+    }
+  }
+
+  function currentExamItem() {
+    const session = state.examSession;
+    if (!session || session.completed) return null;
+    return session.items[Number(session.currentIndex || 0)] || null;
+  }
+
+  function examItemKey(item = currentExamItem()) {
+    return item && state.examSession ? `${state.examSession.id}:${item.globalOrder}` : "";
+  }
+
+  function examPartPosition(item) {
+    const samePart = state.examSession?.items?.filter(entry => entry.part === item.part) || [];
+    return {
+      position: samePart.findIndex(entry => entry.globalOrder === item.globalOrder) + 1,
+      total: samePart.length
+    };
+  }
+
+  function renderExamProgress(item) {
+    const session = state.examSession;
+    const complete = Math.max(0, Number(session?.currentIndex || 0));
+    const total = session?.items?.length || 1;
+    const part = examPartPosition(item);
+    return `
+      <header class="exam-progress-card">
+        <div>
+          <span>${escapeHtml(session?.mode?.label || "考試練習")}</span>
+          <strong>Part ${item.part} · 第 ${part.position} / ${part.total} 題</strong>
+        </div>
+        <progress class="exam-progress-meter" max="${total}" value="${complete}" aria-label="考試整體進度">${complete} / ${total}</progress>
+        <small>整體 ${complete} / ${total}</small>
+      </header>`;
+  }
+
+  function renderExamRecorder(item, ready = true) {
+    if (item.saved) {
+      return `
+        <section class="exam-answer-recorder is-saved">
+          <div><span class="cue-label">ANSWER SAVED · 答案已儲存</span><p>本題 MP3 已加入這次考試練習錄音。</p></div>
+          <div data-exam-proceed-slot>${examProceedButtonHtml()}</div>
+        </section>`;
+    }
+    return `
+      <section class="exam-answer-recorder" aria-labelledby="exam-recording-heading">
+        <div>
+          <span class="cue-label" id="exam-recording-heading">YOUR ANSWER · 你的回答</span>
+          <p>${item.part === 2 ? "錄音開始後有 2 分鐘；時間到會自動停止並儲存。" : "按開始回答後錄音；每題最長 5 分鐘，完成後按停止。"}</p>
+          <div class="recording-status" data-recording-status><span role="status" aria-live="polite">${ready ? "準備好便按「開始回答」。" : "完成 1 分鐘準備後才可開始錄音。"}</span></div>
+        </div>
+        <div class="recorder-controls">
+          <button class="record-button exam-record-button" type="button" data-record-toggle ${ready ? "" : "hidden disabled"}>● 開始回答</button>
+          <button class="secondary-button finish-recording-button" type="button" data-finish-recording hidden>■ 完成回答</button>
+        </div>
+        <div class="recording-preview" data-recording-preview hidden></div>
+        <div data-exam-proceed-slot></div>
+      </section>`;
+  }
+
+  function renderExamPart1(item) {
+    return `
+      <section class="exam-question-card exam-part1-question is-entering">
+        <div class="exam-question-meta">
+          <span>THEME ${item.themeSlot} · ${escapeHtml(item.themeTitle)}</span>
+          <small>題庫原題 Q${item.questionInTheme} · Book ${item.sourceBook}</small>
+        </div>
+        <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
+        <p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
+      </section>
+      ${renderExamRecorder(item)}`;
+  }
+
+  function renderExamPart2(item) {
+    const ready = item.prepPhase === "ready";
+    return `
+      <section class="exam-prep-timer" data-exam-prep-timer>
+        <span data-exam-prep-label>${ready ? "準備時間完成" : "題目已顯示 · 倒數即將開始"}</span>
+        <strong data-exam-prep-clock role="timer" aria-live="off">${ready ? "0:00" : "0:03"}</strong>
+        <span class="visually-hidden" role="status" aria-live="polite" data-exam-phase-status></span>
+      </section>
+      <section class="exam-question-card exam-cue-card is-entering">
+        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 2</span><small>Book ${item.sourceBook}</small></div>
+        ${item.cueTitle ? `<p class="exam-cue-topic">${escapeHtml(item.cueTitle)}${item.cueTitleZh ? `<span>${escapeHtml(item.cueTitleZh)}</span>` : ""}</p>` : ""}
+        <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
+        <p class="exam-cue-prompt-zh" lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
+        <div class="exam-cue-hints">
+          <strong>You should say: <span>你應該說明：</span></strong>
+          <ul>${item.hints.map(hint => `<li><span lang="en">${escapeHtml(hint.en)}</span>${hint.zh ? `<small lang="zh-Hant">${escapeHtml(hint.zh)}</small>` : ""}</li>`).join("")}</ul>
+        </div>
+        ${item.ppf ? `
+          <aside class="exam-ppf-hint">
+            <strong>PPF IDEA · 過去／現在／未來提示</strong>
+            ${item.ppf.en ? `<p>${escapeHtml(item.ppf.en)}</p>` : ""}
+            ${item.ppf.zh ? `<p lang="zh-Hant">${escapeHtml(item.ppf.zh)}</p>` : ""}
+          </aside>` : ""}
+      </section>
+      ${renderExamRecorder(item, ready)}`;
+  }
+
+  function renderExamPart3(item) {
+    return `
+      <section class="exam-question-card exam-part3-question is-entering">
+        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 3</span><small>${escapeHtml(item.themeTitle)} · Book ${item.sourceBook}</small></div>
+        <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
+        <p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
+      </section>
+      ${renderExamRecorder(item)}`;
+  }
+
+  function renderExamCompletion() {
+    const session = state.examSession;
+    dom.content.innerHTML = `
+      <article class="exam-practice-view">
+        ${examCoverHtml()}
+        <section class="exam-complete-card">
+          <span aria-hidden="true">✓</span>
+          <p class="eyebrow">IELTS SPEAKING · EXAM COMPLETE</p>
+          <h1 tabindex="-1" data-exam-focus>考試練習完成</h1>
+          <p>${escapeHtml(session?.mode?.label || "考試練習")} 的 ${session?.items?.length || 0} 段錄音已逐題安全儲存。</p>
+          <div class="exam-complete-actions">
+            <button class="primary-button" type="button" data-go="attempts">查看考試練習錄音</button>
+            <button class="secondary-button" type="button" data-new-exam>再做一次</button>
+          </div>
+        </section>
+      </article>`;
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  function renderExamPractice() {
+    const modeId = state.route.modeId;
+    const session = state.examSession;
+    if (!session || session.modeId !== modeId) {
+      dom.content.innerHTML = `
+        <section class="notice-card">
+          <h2>這次考試尚未開始</h2>
+          <p>返回考試練習模式，選擇一個模式後便會重新隨機抽題。</p>
+          <button class="primary-button" type="button" data-open-exam-modes>選擇考試模式</button>
+        </section>`;
+      return;
+    }
+    if (session.completed) {
+      renderExamCompletion();
+      return;
+    }
+    const item = currentExamItem();
+    if (!item) {
+      session.completed = true;
+      renderExamCompletion();
+      return;
+    }
+    if (item.part === 2 && !item.prepPhase) {
+      const now = Date.now();
+      item.prepPhase = "settling";
+      item.settleEndsAt = now + EXAM_PART2_SETTLE_MS;
+      item.prepEndsAt = item.settleEndsAt + EXAM_PART2_PREP_MS;
+    }
+    dom.content.innerHTML = `
+      <article class="exam-practice-view">
+        ${examCoverHtml()}
+        ${renderExamProgress(item)}
+        <div class="exam-question-stage">
+          ${item.part === 1 ? renderExamPart1(item) : item.part === 2 ? renderExamPart2(item) : renderExamPart3(item)}
+        </div>
+      </article>`;
+    if (item.part === 2 && item.prepPhase !== "ready") startExamPart2Timer(item);
+    syncRecorderControls();
+    renderExamProceedAction();
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  function startExamPart2Timer(item) {
+    clearExamPhaseTimer();
+    const key = examItemKey(item);
+    const update = () => {
+      if (state.route.view !== "exam-practice" || examItemKey() !== key) {
+        clearExamPhaseTimer();
+        return;
+      }
+      const now = Date.now();
+      const label = document.querySelector("[data-exam-prep-label]");
+      const clock = document.querySelector("[data-exam-prep-clock]");
+      const phaseStatus = document.querySelector("[data-exam-phase-status]");
+      if (now < item.settleEndsAt) {
+        const seconds = Math.max(1, Math.ceil((item.settleEndsAt - now) / 1000));
+        if (label) label.textContent = "題目已顯示 · 準備倒數即將開始";
+        if (clock) clock.textContent = `0:0${seconds}`;
+        return;
+      }
+      if (now < item.prepEndsAt) {
+        item.prepPhase = "preparing";
+        if (item.announcedPrepPhase !== "preparing") {
+          item.announcedPrepPhase = "preparing";
+          if (phaseStatus) phaseStatus.textContent = "一分鐘準備時間已開始。";
+        }
+        const seconds = Math.max(0, Math.ceil((item.prepEndsAt - now) / 1000));
+        if (label) label.textContent = "準備時間 · PREPARATION";
+        if (clock) clock.textContent = `${Math.floor(seconds / 60)}:${pad(seconds % 60)}`;
+        return;
+      }
+      item.prepPhase = "ready";
+      item.announcedPrepPhase = "ready";
+      clearExamPhaseTimer();
+      if (label) label.textContent = "準備時間完成 · 可以開始回答";
+      if (clock) clock.textContent = "0:00";
+      if (phaseStatus) phaseStatus.textContent = "準備時間完成，可以開始回答。";
+      const button = document.querySelector("[data-record-toggle]");
+      if (button) {
+        button.hidden = false;
+        button.disabled = false;
+        button.textContent = "● 開始回答";
+      }
+      recordingStatus("準備時間完成，請按「開始回答」。");
+    };
+    update();
+    if (item.prepPhase !== "ready") state.examPhaseTimer = window.setInterval(update, 250);
+  }
+
+  function examProceedButtonHtml() {
+    const session = state.examSession;
+    const item = currentExamItem();
+    if (!session || !item?.saved) return "";
+    const next = session.items[session.currentIndex + 1] || null;
+    const label = !next ? "完成考試 →" : next.part !== item.part ? `前往 Part ${next.part} →` : "下一題 →";
+    return `<button class="primary-button exam-proceed-button" type="button" data-exam-proceed>${label}</button>`;
+  }
+
+  function renderExamProceedAction() {
+    const slot = document.querySelector("[data-exam-proceed-slot]");
+    if (slot) slot.innerHTML = examProceedButtonHtml();
+  }
+
+  function advanceExamItem() {
+    const session = state.examSession;
+    const item = currentExamItem();
+    if (!session || !item?.saved || state.examSaving) return;
+    cancelRecorder();
+    clearExamPhaseTimer();
+    if (session.currentIndex >= session.items.length - 1) {
+      session.completed = true;
+      renderExamCompletion();
+    } else {
+      session.currentIndex += 1;
+      renderExamPractice();
+      window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
+    }
   }
 
   function renderBooks(part) {
@@ -1238,6 +1653,45 @@
     return lines.filter(Boolean).join("\n");
   }
 
+  function normalizeCueCard(source) {
+    const cue = source?.cue && typeof source.cue === "object" ? source.cue : {};
+    let cueTitle = String(cue.titleEn || cue.title_en || source?.title || "").trim();
+    let cueTitleZh = String(cue.titleZh || cue.title_zh || source?.titleZh || source?.title_zh || "").trim();
+    let promptEn = String(cue.promptEn || cue.prompt_en || cue.questionEn || cue.question_en || source?.title || "").trim();
+    let promptZh = String(cue.promptZh || cue.prompt_zh || cue.questionZh || cue.question_zh || source?.titleZh || source?.title_zh || "").trim();
+    let hints = Array.isArray(cue.hints) ? cue.hints.map(hint => ({
+      en: String(hint?.en || hint?.english || hint?.textEn || "").trim(),
+      zh: String(hint?.zh || hint?.chinese || hint?.textZh || "").trim()
+    })) : [];
+    const labelOnly = /^(?:please\s+(?:say|tell me)|you should\s+(?:say|mention))\s*:?[\s.]*$/i;
+    hints = hints.filter(hint => (hint.en || hint.zh) && !labelOnly.test(hint.en));
+
+    if (/^(?:describe|talk about|tell me about)\b/i.test(cueTitle) && !/^(?:describe|talk about|tell me about)\b/i.test(promptEn)) {
+      if (promptEn || promptZh) hints.unshift({ en: promptEn, zh: promptZh });
+      promptEn = cueTitle;
+      promptZh = cueTitleZh || promptZh;
+      cueTitle = "";
+      cueTitleZh = "";
+    } else if (normalizeSearchText(cueTitle) === normalizeSearchText(promptEn)) {
+      cueTitle = "";
+      cueTitleZh = "";
+    }
+
+    const ppfSource = cue.ppf && typeof cue.ppf === "object" ? cue.ppf : null;
+    const ppf = ppfSource ? {
+      en: String(ppfSource.en || ppfSource.english || "").trim(),
+      zh: String(ppfSource.zh || ppfSource.chinese || "").trim()
+    } : null;
+    return {
+      titleEn: cueTitle,
+      titleZh: cueTitleZh,
+      promptEn,
+      promptZh,
+      hints,
+      ppf: ppf?.en || ppf?.zh ? ppf : null
+    };
+  }
+
   function normalizeExercise(raw, fallbackIndex, part = 2, book = 1) {
     const source = raw || {};
     const index = Number(source.index || source.number || fallbackIndex);
@@ -1289,6 +1743,7 @@
       ? sections.slice(0, 4).map(normalizeResponse)
       : [];
     while (responses.length < 4) responses.push(normalizeResponse(null, responses.length));
+    const cueCard = normalizeCueCard(source);
     return {
       id: String(source.id || source.slug || `ielts-part-${part}-book-${book}-exercise-${pad(index)}`),
       part: Number(part),
@@ -1297,6 +1752,7 @@
       title: String(source.title || source.topic || source.name || `Exercise ${index}`),
       titleZh: String(source.title_zh || source.titleZh || source.topic_zh || source.cue?.titleZh || source.cue?.title_zh || ""),
       cueText: String(source.cue_raw || source.cueRaw || source.question_raw || source.question || source.cue?.raw || cueObjectText(source.cue, source) || ""),
+      cueCard,
       responses,
       unavailable: !raw
     };
@@ -1725,6 +2181,45 @@
     `;
   }
 
+  function currentRecordingContext() {
+    if (state.route.view === "exam-practice") {
+      const item = currentExamItem();
+      const session = state.examSession;
+      if (!item || !session || typeof EXAM_MODE.recordingExerciseId !== "function") return null;
+      return {
+        key: examItemKey(item),
+        isExam: true,
+        item,
+        id: EXAM_MODE.recordingExerciseId(session.modeId, session.id, item.part, item.globalOrder),
+        title: String(item.title || `IELTS Part ${item.part} question`).slice(0, 240),
+        part: Number(item.part),
+        book: Number(item.sourceBook || 1),
+        index: Number(item.sourceIndex || item.globalOrder || 1),
+        globalOrder: Number(item.globalOrder),
+        modeId: session.modeId,
+        attemptId: session.id
+      };
+    }
+    const exercise = currentExercise();
+    if (!exercise || state.route.view !== "exercise") return null;
+    return {
+      key: `exercise:${exercise.id}`,
+      isExam: false,
+      item: exercise,
+      id: exercise.id,
+      title: exercise.title,
+      part: Number(state.route.part || exercise.part || 2),
+      book: Number(state.route.book || exercise.book || 1),
+      index: Number(exercise.index || 1)
+    };
+  }
+
+  function activeRecordingLimitSeconds() {
+    const context = currentRecordingContext();
+    if (context?.isExam && context.part === 2) return EXAM_PART2_RECORDING_SECONDS;
+    return Math.min(300, Math.max(30, Number(CONFIG.maxRecordingSeconds || 300)));
+  }
+
   function renderRecorderCard(exercise) {
     if (state.user?.role === "admin") {
       return `
@@ -1738,7 +2233,7 @@
       <section class="recorder-card" aria-labelledby="recording-heading">
         <div>
           <h2 id="recording-heading">輪到你練習</h2>
-          <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。IELTS Part ${Number(exercise?.part || 2)} 每次最多錄音 2 分 30 秒。</p>
+          <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。IELTS Part ${Number(exercise?.part || 2)} 每次最多錄音 5 分鐘。</p>
           <div class="recording-status" data-recording-status><span role="status" aria-live="polite">準備好便按「開始錄音」。</span></div>
         </div>
         <div class="recorder-controls">
@@ -2734,7 +3229,34 @@
 
   function clearRecordingTimer() {
     if (state.recordingTimer) window.clearInterval(state.recordingTimer);
+    if (state.recordingDeadlineTimer) window.clearTimeout(state.recordingDeadlineTimer);
     state.recordingTimer = 0;
+    state.recordingDeadlineTimer = 0;
+  }
+
+  function scheduleRecordingTimers() {
+    clearRecordingTimer();
+    const recorder = state.mediaRecorder;
+    const generation = state.recordingGeneration;
+    const remaining = Math.max(0, activeRecordingLimitSeconds() * 1000 - activeRecordingDuration());
+    const deadline = recordingNow() + remaining;
+    let deadlineTimer = 0;
+    const stopAtDeadline = () => {
+      if (state.recordingDeadlineTimer !== deadlineTimer) return;
+      if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder || recorder?.state !== "recording") return;
+      const retryIn = Math.ceil(deadline - recordingNow());
+      if (retryIn > 0) {
+        deadlineTimer = window.setTimeout(stopAtDeadline, retryIn);
+        state.recordingDeadlineTimer = deadlineTimer;
+        return;
+      }
+      state.recordingDeadlineTimer = 0;
+      finishRecording();
+    };
+    state.recordingTimer = window.setInterval(updateRecordingClock, 500);
+    deadlineTimer = window.setTimeout(stopAtDeadline, remaining);
+    state.recordingDeadlineTimer = deadlineTimer;
+    updateRecordingClock();
   }
 
   function recordingStatus(message, mode = "") {
@@ -2778,9 +3300,19 @@
   function updateRecordingClock() {
     if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state)) return;
     const elapsed = activeRecordingDuration();
-    const maxSeconds = Math.max(30, Number(CONFIG.maxRecordingSeconds || 600));
+    const maxSeconds = activeRecordingLimitSeconds();
     const clock = document.querySelector("[data-recording-clock]");
-    if (clock) clock.textContent = `${formatDuration(elapsed)} / ${formatDuration(maxSeconds * 1000)}`;
+    const context = currentRecordingContext();
+    const remaining = Math.max(0, maxSeconds * 1000 - elapsed);
+    if (clock) clock.textContent = context?.isExam && context.part === 2
+      ? `剩餘 ${formatDuration(remaining)}`
+      : `${formatDuration(elapsed)} / ${formatDuration(maxSeconds * 1000)}`;
+    if (context?.isExam && context.part === 2) {
+      const examClock = document.querySelector("[data-exam-prep-clock]");
+      const examLabel = document.querySelector("[data-exam-prep-label]");
+      if (examClock) examClock.textContent = formatDuration(remaining);
+      if (examLabel) examLabel.textContent = "回答時間 · SPEAKING TIME";
+    }
     if (state.mediaRecorder.state === "recording" && elapsed >= maxSeconds * 1000) finishRecording();
   }
 
@@ -2789,6 +3321,7 @@
     const finish = document.querySelector("[data-finish-recording]");
     if (!button) return;
     const recorderState = state.mediaRecorder?.state || "inactive";
+    const examRecording = Boolean(currentRecordingContext()?.isExam);
     const busy = Boolean(state.recordingTransition || state.recordingPermissionPending || state.recordingProcessing);
     button.disabled = busy;
     button.classList.toggle("is-recording", recorderState === "recording");
@@ -2798,12 +3331,15 @@
     else if (state.recordingTransition === "pausing") button.textContent = "正在暫停…";
     else if (state.recordingTransition === "resuming") button.textContent = "正在繼續…";
     else if (state.recordingTransition === "stopping") button.textContent = "正在完成…";
+    else if (recorderState === "paused" && examRecording) button.textContent = "■ 完成回答";
     else if (recorderState === "paused") button.textContent = "● 繼續錄音";
+    else if (recorderState === "recording" && examRecording) button.textContent = "■ 完成回答";
     else if (recorderState === "recording" && state.recordingPauseSupported) button.textContent = "❚❚ 暫停錄音";
     else if (recorderState === "recording") button.textContent = "■ 完成錄音";
+    else if (examRecording) button.textContent = state.recordedMp3 ? "● 重新回答" : "● 開始回答";
     else button.textContent = state.recordedMp3 ? "● 重新錄音" : "● 開始錄音";
     if (finish) {
-      finish.hidden = !state.recordingPauseSupported || !["recording", "paused"].includes(recorderState);
+      finish.hidden = examRecording || !state.recordingPauseSupported || !["recording", "paused"].includes(recorderState);
       finish.disabled = busy;
     }
   }
@@ -2819,11 +3355,17 @@
     }
     stopModelAudio();
     discardRecording(false);
+    const requestedContext = currentRecordingContext();
+    if (!requestedContext) {
+      recordingStatus("未能辨認目前的錄音題目，請重新載入後再試。");
+      return;
+    }
     const requestGeneration = ++state.recordingGeneration;
     state.recordingPermissionPending = true;
     state.recordingProcessing = false;
     const authGeneration = state.authGeneration;
-    const requestedExerciseId = currentExercise()?.id || "";
+    const requestedContextKey = requestedContext.key;
+    state.recordingContextKey = requestedContextKey;
     syncRecorderControls();
     recordingStatus("正在請求咪高峰權限…");
     let stream;
@@ -2846,8 +3388,7 @@
       requestGeneration !== state.recordingGeneration
       || authGeneration !== state.authGeneration
       || !state.user
-      || state.route.view !== "exercise"
-      || currentExercise()?.id !== requestedExerciseId
+      || currentRecordingContext()?.key !== requestedContextKey
     ) {
       stream.getTracks().forEach(track => track.stop());
       return;
@@ -2859,7 +3400,7 @@
       state.mediaRecorder = recorder;
       state.recordingChunks = [];
       state.recordingElapsedMs = 0;
-      state.recordingActiveStartedAt = recordingNow();
+      state.recordingActiveStartedAt = 0;
       state.recordingTransition = "";
       state.recordingPauseSupported = typeof recorder.pause === "function" && typeof recorder.resume === "function";
       state.recordingBackgroundPaused = false;
@@ -2906,19 +3447,16 @@
         state.recordingTransition = "";
         state.recordingBackgroundPaused = false;
         recordingStatus("錄音已繼續，完成後請按「完成並製作 MP3」。", "recording");
-        clearRecordingTimer();
-        state.recordingTimer = window.setInterval(updateRecordingClock, 500);
-        updateRecordingClock();
+        scheduleRecordingTimers();
         syncRecorderControls();
       };
       recorder.onstop = () => finaliseRecording(generation, recorder.mimeType || "audio/webm");
       recorder.start(1000);
-      clearRecordingTimer();
+      state.recordingActiveStartedAt = recordingNow();
       recordingStatus(state.recordingPauseSupported
-        ? "錄音已開始；需要重聽示範時可先暫停，完成後按「完成並製作 MP3」。"
+        ? (requestedContext.isExam ? "錄音已開始；完成回答後請按「完成回答」。" : "錄音已開始；需要重聽示範時可先暫停，完成後按「完成並製作 MP3」。")
         : "錄音已開始；此瀏覽器不支援中途暫停，完成後請按停止。", true);
-      state.recordingTimer = window.setInterval(updateRecordingClock, 500);
-      updateRecordingClock();
+      scheduleRecordingTimers();
       syncRecorderControls();
     } catch (error) {
       if (requestGeneration !== state.recordingGeneration) return;
@@ -2975,7 +3513,7 @@
   function finishRecording() {
     if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state) || state.recordingTransition) return;
     if (state.mediaRecorder.state === "recording") commitActiveRecordingDuration();
-    state.recordedDurationMs = state.recordingElapsedMs;
+    state.recordedDurationMs = Math.min(state.recordingElapsedMs, activeRecordingLimitSeconds() * 1000);
     state.recordingProcessing = true;
     state.recordingTransition = "stopping";
     clearRecordingTimer();
@@ -2986,13 +3524,9 @@
     recordingStatus("錄音完成，正在轉換成真正的單聲道 MP3…");
   }
 
-  function floatToInt16(float32) {
-    const output = new Int16Array(float32.length);
-    for (let index = 0; index < float32.length; index += 1) {
-      const sample = Math.max(-1, Math.min(1, float32[index]));
-      output[index] = sample < 0 ? sample * 32768 : sample * 32767;
-    }
-    return output;
+  function sampleToInt16(value) {
+    const sample = Math.max(-1, Math.min(1, value));
+    return sample < 0 ? sample * 32768 : sample * 32767;
   }
 
   async function decodeAudioBlob(blob) {
@@ -3002,32 +3536,32 @@
     try {
       const bytes = await blob.arrayBuffer();
       return await new Promise((resolve, reject) => {
-        context.decodeAudioData(bytes.slice(0), resolve, reject);
+        context.decodeAudioData(bytes, resolve, reject);
       });
     } finally {
       context.close().catch(() => {});
     }
   }
 
-  function downmixToMono(audioBuffer) {
-    const mono = new Float32Array(audioBuffer.length);
-    for (let channel = 0; channel < audioBuffer.numberOfChannels; channel += 1) {
-      const samples = audioBuffer.getChannelData(channel);
-      for (let index = 0; index < samples.length; index += 1) mono[index] += samples[index] / audioBuffer.numberOfChannels;
-    }
-    return mono;
-  }
-
-  async function encodeGenuineMonoMp3(sourceBlob) {
+  async function encodeGenuineMonoMp3(sourceBlob, maxDurationMs) {
     if (!window.lamejs?.Mp3Encoder) throw new Error("MP3 encoder did not load.");
     const audioBuffer = await decodeAudioBlob(sourceBlob);
     const sampleRate = audioBuffer.sampleRate;
-    const pcm = floatToInt16(downmixToMono(audioBuffer));
-    const encoder = new window.lamejs.Mp3Encoder(1, sampleRate, 128);
+    const durationLimitMs = Math.max(1, Number(maxDurationMs || 300000));
+    const sampleLimit = Math.min(audioBuffer.length, Math.floor(sampleRate * durationLimitMs / 1000));
+    const channels = Array.from({ length: audioBuffer.numberOfChannels }, (_, channel) => audioBuffer.getChannelData(channel));
+    const encoder = new window.lamejs.Mp3Encoder(1, sampleRate, 64);
     const blocks = [];
     const frameSize = 1152;
-    for (let offset = 0; offset < pcm.length; offset += frameSize) {
-      const encoded = encoder.encodeBuffer(pcm.subarray(offset, Math.min(offset + frameSize, pcm.length)));
+    const pcm = new Int16Array(frameSize);
+    for (let offset = 0; offset < sampleLimit; offset += frameSize) {
+      const blockLength = Math.min(frameSize, sampleLimit - offset);
+      for (let index = 0; index < blockLength; index += 1) {
+        let sample = 0;
+        for (const channel of channels) sample = Math.fround(sample + channel[offset + index] / channels.length);
+        pcm[index] = sampleToInt16(sample);
+      }
+      const encoded = encoder.encodeBuffer(blockLength === frameSize ? pcm : pcm.subarray(0, blockLength));
       if (encoded.length) blocks.push(new Uint8Array(encoded));
       if (offset && offset % (frameSize * 200) === 0) await new Promise(resolve => window.setTimeout(resolve, 0));
     }
@@ -3037,12 +3571,13 @@
     if (!mp3.size) throw new Error("The MP3 encoder produced an empty file.");
     return {
       mp3,
-      durationMs: Math.max(1, Math.round(audioBuffer.duration * 1000))
+      durationMs: Math.max(1, Math.min(durationLimitMs, Math.round(sampleLimit / sampleRate * 1000)))
     };
   }
 
   async function finaliseRecording(generation, sourceMime) {
     if (generation !== state.recordingGeneration) return;
+    const durationLimitMs = activeRecordingLimitSeconds() * 1000;
     const source = new Blob(state.recordingChunks, { type: sourceMime });
     state.recordingChunks = [];
     state.mediaRecorder = null;
@@ -3056,7 +3591,7 @@
     }
     state.recordingProcessing = true;
     try {
-      const encoded = await encodeGenuineMonoMp3(source);
+      const encoded = await encodeGenuineMonoMp3(source, durationLimitMs);
       if (generation !== state.recordingGeneration) return;
       const mp3 = encoded.mp3;
       state.recordedDurationMs = encoded.durationMs;
@@ -3065,6 +3600,7 @@
       state.recordingSaved = false;
       renderRecordingPreview();
       recordingStatus(`MP3 已準備完成（${formatBytes(mp3.size)}，${formatDuration(state.recordedDurationMs)}）。`, false);
+      if (currentRecordingContext()?.isExam) await saveRecording({ automatic: true });
     } catch (error) {
       if (generation !== state.recordingGeneration) return;
       console.warn("MP3 conversion failed:", error);
@@ -3081,11 +3617,13 @@
   function resetRecordButton(label = "● 重新錄音") {
     const button = document.querySelector("[data-record-toggle]");
     if (!button) return;
+    const context = currentRecordingContext();
     state.recordingTransition = "";
     state.recordingPermissionPending = false;
-    button.disabled = false;
+    button.disabled = Boolean(context?.isExam && context.item?.saved);
+    button.hidden = Boolean(context?.isExam && context.item?.saved);
     button.classList.remove("is-recording", "is-paused");
-    button.textContent = label;
+    button.textContent = context?.isExam ? "● 重新回答" : label;
     const finish = document.querySelector("[data-finish-recording]");
     if (finish) finish.hidden = true;
   }
@@ -3093,8 +3631,16 @@
   function renderRecordingPreview() {
     const preview = document.querySelector("[data-recording-preview]");
     if (!preview || !state.recordedMp3Url) return;
+    const context = currentRecordingContext();
     preview.hidden = false;
-    preview.innerHTML = `
+    preview.innerHTML = context?.isExam ? `
+      <audio controls preload="metadata" src="${escapeHtml(state.recordedMp3Url)}">你的瀏覽器不支援音訊預覽。</audio>
+      <div class="recorder-actions">
+        <button class="primary-button" type="button" data-save-recording disabled>正在儲存本題…</button>
+        <button class="secondary-button" type="button" data-download-current>下載這次 MP3</button>
+      </div>
+      <p class="save-note">本題儲存完成後才可前往下一題，避免遺失考試錄音。</p>
+    ` : `
       <audio controls preload="metadata" src="${escapeHtml(state.recordedMp3Url)}">你的瀏覽器不支援音訊預覽。</audio>
       <div class="recorder-actions">
         <button class="primary-button" type="button" data-save-recording>save the attempt</button>
@@ -3137,6 +3683,7 @@
     state.recordingElapsedMs = 0;
     state.recordingPauseSupported = false;
     state.recordingBackgroundPaused = false;
+    state.recordingContextKey = "";
     stopMediaTracks();
     discardRecording(false);
     if (document.querySelector("[data-record-toggle]")) {
@@ -3164,23 +3711,58 @@
     window.setTimeout(() => URL.revokeObjectURL(url), 2000);
   }
 
-  async function saveRecording() {
-    if (!state.recordedMp3 || !state.user) return;
-    const exercise = currentExercise();
-    if (!exercise) return;
+  function markExamItemSaved(context, recording = null) {
+    if (!context?.isExam || currentRecordingContext()?.key !== context.key) return false;
+    context.item.saved = true;
+    context.item.uploadAttempted = false;
+    context.item.recordingId = String(recording?.id || "");
+    state.recordingSaved = true;
+    renderExamProceedAction();
+    return true;
+  }
+
+  async function findExistingExamRecording(exerciseId) {
+    const result = await listAttempts();
+    return result.attempts.find(attempt => attempt.exerciseId === exerciseId) || null;
+  }
+
+  async function saveRecording(options = {}) {
+    if (!state.recordedMp3 || !state.user) return false;
+    const context = currentRecordingContext();
+    if (!context) return false;
+    if (context.isExam && state.examSaving) return false;
+    const contextKey = context.key;
     const button = document.querySelector("[data-save-recording]");
     if (button) button.disabled = true;
+    if (context.isExam) state.examSaving = true;
     recordingStatus("正在安全上載 MP3…");
     try {
+      if (context.isExam && context.item.uploadAttempted) {
+        recordingStatus("正在確認本題是否已經儲存…");
+        const existing = await findExistingExamRecording(context.id);
+        if (currentRecordingContext()?.key !== contextKey) return false;
+        if (existing) {
+          markExamItemSaved(context, existing);
+          recordingStatus("已確認本題早前已成功儲存。", false);
+          if (button) {
+            button.textContent = "✓ 本題已儲存";
+            button.disabled = true;
+          }
+          toast("本題錄音已在錄音庫中確認。", "info");
+          return true;
+        }
+      }
       const now = new Date();
-      const filename = `${safeFilePart(state.user.name, "student")}-book-${exercise.book}-exercise-${pad(exercise.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`;
+      const filename = context.isExam
+        ? `${safeFilePart(state.user.name, "student")}-exam-${context.modeId}-part-${context.part}-question-${pad(context.globalOrder)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`
+        : `${safeFilePart(state.user.name, "student")}-book-${context.book}-exercise-${pad(context.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`;
       const metadata = {
-        exerciseId: exercise.id,
-        exerciseIndex: exercise.index,
-        exerciseTitle: exercise.title,
+        exerciseId: context.id,
+        exerciseIndex: context.index,
+        exerciseTitle: context.title,
         exam: "IELTS",
-        part: Number(state.route.part || exercise.part || 2),
-        book: Number(state.route.book || exercise.book || 1),
+        part: context.part,
+        book: context.book,
         durationMs: state.recordedDurationMs,
         mimeType: "audio/mpeg"
       };
@@ -3190,39 +3772,58 @@
       form.append("metadata", JSON.stringify(metadata));
       const maxUploadBytes = Math.max(512, Number(CONFIG.maxUploadBytes || 3 * 1024 * 1024));
       if (state.recordedMp3.size > maxUploadBytes) {
-        throw new Error(`錄音超過 ${formatBytes(maxUploadBytes)} 上載上限。IELTS 答案請控制在 2 分 30 秒內，再重新錄音。`);
+        throw new Error(`錄音超過 ${formatBytes(maxUploadBytes)} 上載上限。答案請控制在 ${formatDuration(activeRecordingLimitSeconds() * 1000)} 內，再重新錄音。`);
       }
       const endpoint = CONFIG.endpoints?.recordings || "/v1/recordings";
-      await apiJson(endpoint, { method: "POST", body: form });
+      if (context.isExam) context.item.uploadAttempted = true;
+      const response = await apiJson(endpoint, { method: "POST", body: form });
+      if (!state.user || currentRecordingContext()?.key !== contextKey) return false;
       state.recordingSaved = true;
-      recordingStatus("已儲存！可在「我的錄音」隨時取回。", false);
+      if (context.isExam) markExamItemSaved(context, response?.recording);
+      recordingStatus(context.isExam ? "本題已儲存，可以前往下一題。" : "已儲存！可在「我的錄音」隨時取回。", false);
       if (button) {
-        button.textContent = "✓ 已儲存";
+        button.textContent = context.isExam ? "✓ 本題已儲存" : "✓ 已儲存";
         button.disabled = true;
       }
-      toast("錄音已安全儲存。", "info");
+      toast(context.isExam ? "本題已加入考試練習錄音。" : "錄音已安全儲存。", "info");
+      return true;
     } catch (error) {
       console.warn("Recording upload failed:", error);
       const unavailable = error?.code === "RECORDING_SERVICE_UNREACHABLE"
         || /(?:load failed|failed to fetch|networkerror|error code:\s*1042)/i.test(String(error?.message || ""));
-      const message = unavailable
+      const message = error?.code === "RECORDING_UPLOAD_IN_PROGRESS"
+        ? "本題前一次上載仍在處理中，請稍後按「重新檢查並儲存本題」。若 10 分鐘後仍未完成，請聯絡管理員整理錄音狀態。"
+        : unavailable
         ? "未能連接錄音儲存服務。這次錄音仍保留在此頁；請先按「下載這次 MP3」備份，再稍後重新儲存。"
         : String(error?.message || "錄音上載失敗，請稍後再試。");
       recordingStatus(message);
       toast(message, "error");
-      if (button) button.disabled = false;
+      if (button) {
+        button.disabled = false;
+        if (context.isExam) button.textContent = "重新檢查並儲存本題";
+      }
+      return false;
+    } finally {
+      if (context.isExam) state.examSaving = false;
     }
   }
 
   function normaliseAttempt(raw, index) {
     const item = raw || {};
+    const exerciseId = String(item.exerciseId || item.exercise_id || item.metadata?.exerciseId || "");
+    const part = Number(item.part || item.metadata?.part || 2);
+    const parsedExamRecording = typeof EXAM_MODE.parseRecordingExerciseId === "function"
+      ? EXAM_MODE.parseRecordingExerciseId(exerciseId)
+      : null;
     return {
       id: String(item.id || item.recordingId || item.key || index),
+      studentId: String(item.studentId || item.student_id || ""),
       studentName: String(item.studentName || item.student_name || item.ownerName || item.owner_name || state.user?.name || "Student"),
-      exerciseId: String(item.exerciseId || item.exercise_id || item.metadata?.exerciseId || ""),
+      exerciseId,
+      examRecording: parsedExamRecording?.part === part ? parsedExamRecording : null,
       exerciseTitle: String(item.exerciseTitle || item.exercise_title || item.metadata?.exerciseTitle || item.title || "Speaking attempt"),
       exerciseIndex: Number(item.exerciseIndex || item.exercise_index || item.metadata?.exerciseIndex || 0),
-      part: Number(item.part || item.metadata?.part || 2),
+      part,
       book: Number(item.book || item.metadata?.book || 1),
       createdAt: String(item.createdAt || item.created_at || item.uploadedAt || item.uploaded_at || ""),
       durationMs: Number(item.durationMs || item.duration_ms || item.metadata?.durationMs || 0),
@@ -3305,28 +3906,30 @@
     }).format(date);
   }
 
-  function renderAttemptList() {
-    const container = document.querySelector("[data-attempt-list]");
-    const summary = document.querySelector("[data-attempts-summary]");
-    if (!container) return;
-    if (summary) summary.textContent = `共 ${state.attemptTotal || state.attempts.length} 次錄音`;
-    if (!state.attempts.length) {
-      container.innerHTML = `
-        <div class="empty-state">
-          <span class="empty-icon" aria-hidden="true">🎙</span>
-          <h2>暫時未有錄音</h2>
-          <p>${state.user?.role === "admin" ? "學生儲存錄音後，便會在這裡顯示。" : "完成一個 Speaking 練習並按「save the attempt」，錄音便會在這裡顯示。"}</p>
-        </div>
-      `;
-      return;
+  function formatExamAttemptDate(value) {
+    if (!value) return "日期未提供";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "日期未提供";
+    return `${pad(date.getDate())}-${pad(date.getMonth() + 1)}-${date.getFullYear()}`;
+  }
+
+  function expectedExamRecordingCount(modeId) {
+    if (typeof EXAM_MODE.expectedRecordingCount === "function") {
+      return EXAM_MODE.expectedRecordingCount(modeId);
     }
-    container.innerHTML = state.attempts.map(attempt => `
-      <article class="attempt-card" data-attempt-card="${escapeHtml(attempt.id)}">
+    const mode = examModeDefinition(modeId);
+    return mode?.parts?.reduce((total, part) => total + (part === 1 ? 12 : part === 2 ? 1 : 6), 0) || 0;
+  }
+
+  function renderAttemptCard(attempt) {
+    const exam = attempt.examRecording;
+    return `
+      <article class="attempt-card${exam ? " exam-recording-card" : ""}" data-attempt-card="${escapeHtml(attempt.id)}">
         <div>
           <h3>${escapeHtml(attempt.exerciseTitle)}</h3>
           <div class="attempt-meta">
             ${state.user?.role === "admin" ? `<strong>${escapeHtml(attempt.studentName)}</strong>` : ""}
-            <span>IELTS Part ${attempt.part} · Book ${attempt.book} · Exercise ${attempt.exerciseIndex}</span>
+            <span>${exam ? `IELTS Part ${attempt.part} · Book ${attempt.book} · 第 ${exam.globalOrder} 段` : `IELTS Part ${attempt.part} · Book ${attempt.book}${attempt.exerciseIndex ? ` · Exercise ${attempt.exerciseIndex}` : ""}`}</span>
             <span>${escapeHtml(formatDate(attempt.createdAt))}</span>
             ${attempt.durationMs ? `<span>${escapeHtml(formatDuration(attempt.durationMs))}</span>` : ""}
             ${attempt.size ? `<span>${escapeHtml(formatBytes(attempt.size))}</span>` : ""}
@@ -3338,8 +3941,83 @@
           <button class="attempt-action danger" type="button" data-attempt-delete="${escapeHtml(attempt.id)}">刪除</button>
         </div>
         <div data-attempt-audio-slot></div>
-      </article>
-    `).join("");
+      </article>`;
+  }
+
+  function examAttemptGroups(attempts) {
+    const groups = new Map();
+    attempts.forEach(attempt => {
+      const exam = attempt.examRecording;
+      if (!exam) return;
+      const owner = state.user?.role === "admin" ? (attempt.studentId || attempt.studentName) : "mine";
+      const key = `${owner}:${exam.modeId}:${exam.attemptId}`;
+      if (!groups.has(key)) groups.set(key, { key, modeId: exam.modeId, owner, attempts: [] });
+      groups.get(key).attempts.push(attempt);
+    });
+    return [...groups.values()].map(group => {
+      group.attempts.sort((left, right) => (
+        Number(left.examRecording?.globalOrder || 0) - Number(right.examRecording?.globalOrder || 0)
+        || new Date(left.createdAt || 0) - new Date(right.createdAt || 0)
+      ));
+      group.startedAt = group.attempts.reduce((earliest, attempt) => {
+        const time = Date.parse(attempt.createdAt || "");
+        return !Number.isFinite(time) ? earliest : Math.min(earliest, time);
+      }, Number.POSITIVE_INFINITY);
+      group.expected = expectedExamRecordingCount(group.modeId);
+      const slots = new Set(group.attempts
+        .map(attempt => attempt.examRecording?.globalOrder)
+        .filter(order => Number.isInteger(order) && order >= 1 && order <= group.expected));
+      group.saved = slots.size;
+      group.duplicateCount = Math.max(0, group.attempts.length - slots.size);
+      return group;
+    }).sort((left, right) => right.startedAt - left.startedAt);
+  }
+
+  function renderExamRecordingBox(groups) {
+    return `
+      <section class="recording-library-box exam-recording-library" aria-labelledby="exam-recordings-heading">
+        <div class="recording-library-heading">
+          <div><span class="cue-label">EXAM PRACTICE RECORDINGS</span><h2 id="exam-recordings-heading">考試練習錄音</h2></div>
+          <span>${groups.length} 次考試練習</span>
+        </div>
+        ${groups.length ? `<div class="exam-attempt-groups">${groups.map(group => {
+          const mode = examModeDefinition(group.modeId);
+          const dateValue = Number.isFinite(group.startedAt) ? group.startedAt : "";
+          const complete = group.expected > 0 && group.saved >= group.expected;
+          const first = group.attempts[0];
+          return `
+            <details class="exam-attempt-group">
+              <summary>
+                <span><strong>${escapeHtml(formatExamAttemptDate(dateValue))} · ${escapeHtml(mode?.label || "考試練習")}</strong><small>${state.user?.role === "admin" ? `${escapeHtml(first?.studentName || "Student")} · ` : ""}${complete ? "完整" : "進行中"} · ${group.saved}/${group.expected || group.saved} 段${group.duplicateCount ? ` · ${group.duplicateCount} 個重複上載` : ""}</small></span>
+                <em>查看錄音</em>
+              </summary>
+              <div class="exam-attempt-recordings">${group.attempts.map(renderAttemptCard).join("")}</div>
+            </details>`;
+        }).join("")}</div>` : `
+          <div class="recording-library-empty"><span aria-hidden="true">🎧</span><p>完成考試練習後，整套錄音會按日期及模式顯示在這裡。</p></div>`}
+      </section>`;
+  }
+
+  function renderRegularRecordingBox(attempts) {
+    return `
+      <section class="recording-library-box" aria-labelledby="regular-recordings-heading">
+        <div class="recording-library-heading">
+          <div><span class="cue-label">REGULAR PRACTICE RECORDINGS</span><h2 id="regular-recordings-heading">一般練習錄音</h2></div>
+          <span>${attempts.length} 段錄音</span>
+        </div>
+        ${attempts.length ? `<div class="regular-attempt-list">${attempts.map(renderAttemptCard).join("")}</div>` : `
+          <div class="recording-library-empty"><span aria-hidden="true">🎙</span><p>Part 1、2 或 3 的一般練習錄音會顯示在這裡。</p></div>`}
+      </section>`;
+  }
+
+  function renderAttemptList() {
+    const container = document.querySelector("[data-attempt-list]");
+    const summary = document.querySelector("[data-attempts-summary]");
+    if (!container) return;
+    if (summary) summary.textContent = `共 ${state.attemptTotal || state.attempts.length} 次錄音`;
+    const groups = examAttemptGroups(state.attempts);
+    const regular = state.attempts.filter(attempt => !attempt.examRecording);
+    container.innerHTML = `${renderExamRecordingBox(groups)}${renderRegularRecordingBox(regular)}`;
   }
 
   async function renderAttemptsPage() {
@@ -3785,6 +4463,27 @@
         return;
       }
 
+      if (event.target.closest("[data-exam-practice-modes], [data-open-exam-modes], [data-new-exam]")) {
+        if (!hasAccess(["exam.ielts"])) toast("你的帳戶尚未開放 IELTS 考試練習。", "error");
+        else {
+          if (event.target.closest("[data-new-exam]")) clearExamSession();
+          navigate({ view: "exam-modes", exam: "ielts" });
+        }
+        return;
+      }
+
+      const examMode = event.target.closest("[data-exam-mode]");
+      if (examMode) {
+        if (examMode.getAttribute("aria-disabled") === "true") toast("這個模式目前沒有足夠已開放題目。", "error");
+        else startExamPractice(examMode.dataset.examMode);
+        return;
+      }
+
+      if (event.target.closest("[data-exam-proceed]")) {
+        advanceExamItem();
+        return;
+      }
+
       const part = event.target.closest("[data-part]:not([data-book])");
       if (part) {
         if (part.getAttribute("aria-disabled") === "true") {
@@ -3892,7 +4591,9 @@
       }
 
       if (event.target.closest("[data-record-toggle]")) {
-        if (state.mediaRecorder?.state === "recording") pauseRecording();
+        const examRecording = Boolean(currentRecordingContext()?.isExam);
+        if (examRecording && ["recording", "paused"].includes(state.mediaRecorder?.state)) finishRecording();
+        else if (state.mediaRecorder?.state === "recording") pauseRecording();
         else if (state.mediaRecorder?.state === "paused") resumeRecording();
         else startRecording();
         return;
@@ -3911,8 +4612,8 @@
 
       if (event.target.closest("[data-download-current]")) {
         if (state.recordedMp3) {
-          const exerciseNow = currentExercise();
-          downloadBlob(state.recordedMp3, `${safeFilePart(state.user?.name, "student")}-${safeFilePart(exerciseNow?.title, "speaking-attempt")}.mp3`);
+          const context = currentRecordingContext();
+          downloadBlob(state.recordedMp3, `${safeFilePart(state.user?.name, "student")}-${safeFilePart(context?.title, "speaking-attempt")}.mp3`);
         }
         return;
       }
@@ -4068,6 +4769,7 @@
 
     window.addEventListener("pagehide", () => {
       stopModelAudio();
+      clearExamPhaseTimer();
       cleanupPart1Reveal();
       cancelRecorder();
       cleanupAttemptAudio();
@@ -4078,6 +4780,7 @@
       stopModelAudio();
       stopAttemptPlayback();
       if (state.recordingPermissionPending) cancelRecorder();
+      else if (state.mediaRecorder?.state === "recording" && currentRecordingContext()?.isExam) finishRecording();
       else if (state.mediaRecorder?.state === "recording") pauseRecording({ background: true });
     });
   }

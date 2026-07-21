@@ -572,6 +572,42 @@ begin
   from public.speaking_recording_attempts attempt
   where attempt.student_id = p_student_id;
 
+  -- Exam slots carry a unique attempt/question identifier in exercise_id.
+  -- The per-student advisory lock makes this check and the later insert atomic,
+  -- while ordinary non-exam practice remains repeatable.
+  if p_exercise_id like 'exam:%' then
+    select attempt.*
+    into v_recording
+    from public.speaking_recording_attempts attempt
+    where attempt.student_id = p_student_id
+      and attempt.exercise_id = p_exercise_id
+      and attempt.storage_state in ('uploading', 'ready')
+    order by (attempt.storage_state = 'ready') desc, attempt.created_at desc
+    limit 1;
+
+    if found then
+      if v_recording.storage_state = 'ready' then
+        return jsonb_build_object(
+          'ok', true,
+          'idempotent', true,
+          'recording', to_jsonb(v_recording),
+          'usage', jsonb_build_object(
+            'fileCount', v_file_count,
+            'storageBytes', v_total_bytes
+          ),
+          'quota', jsonb_build_object(
+            'maxFiles', v_settings.max_recordings_per_student,
+            'maxBytes', v_settings.max_storage_bytes_per_student
+          )
+        );
+      end if;
+      return jsonb_build_object(
+        'ok', false,
+        'code', 'RECORDING_UPLOAD_IN_PROGRESS'
+      );
+    end if;
+  end if;
+
   if v_file_count >= v_settings.max_recordings_per_student then
     return jsonb_build_object(
       'ok', false,

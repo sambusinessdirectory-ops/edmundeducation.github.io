@@ -13,6 +13,7 @@ export {
   makeLocalHeader,
   maxDurationMs,
   maxUploadBytes,
+  parseMultipartUpload,
   parseExportPage,
   prepareZip
 };
@@ -35,8 +36,8 @@ function mpeg1Layer3Frame({ bitrateIndex = 9, sampleRateIndex = 0, padding = 0 }
   return frame;
 }
 
-function repeatFrame(count) {
-  const frame = mpeg1Layer3Frame();
+function repeatFrame(count, options = {}) {
+  const frame = mpeg1Layer3Frame(options);
   const bytes = new Uint8Array(frame.length * count);
   for (let index = 0; index < count; index += 1) bytes.set(frame, index * frame.length);
   return bytes;
@@ -102,6 +103,25 @@ test("MP3 inspection accepts a plausible one-second MPEG Layer III stream", () =
   assert.equal(result.paddingBytes, 0);
 });
 
+test("upload accepts one MP3 frame of encoder padding beyond the 300-second content cap", async () => {
+  const audio = repeatFrame(11485, { bitrateIndex: 5 });
+  const inspected = worker.inspectMp3(audio);
+  assert.ok(inspected);
+  assert.equal(inspected.durationMs, 300016);
+  const form = new FormData();
+  form.append("file", new Blob([audio], { type: "audio/mpeg" }), "boundary.mp3");
+  form.append("exerciseId", "ielts-part1-boundary");
+  form.append("exerciseTitle", "Five-minute boundary");
+  form.append("exam", "IELTS");
+  form.append("part", "1");
+  form.append("book", "1");
+  form.append("durationMs", "300000");
+  const request = new Request("https://worker.example/v1/recordings", { method: "POST", body: form });
+  const parsed = await worker.parseMultipartUpload(request, {});
+  assert.equal(parsed.clientDurationMs, 300000);
+  assert.equal(parsed.durationMs, 300016);
+});
+
 test("MP3 inspection accepts a small valid ID3v2 tag and bounded zero padding", () => {
   const audio = repeatFrame(40);
   const tagged = prependId3(audio, 32);
@@ -138,9 +158,11 @@ test("CRC-32 matches the standard check vector", () => {
 
 test("missing or invalid upload settings fail safely to Free-plan defaults", () => {
   assert.equal(worker.maxUploadBytes({}), 3 * 1024 * 1024);
-  assert.equal(worker.maxDurationMs({}), 150000);
+  assert.equal(worker.maxDurationMs({}), 300000);
   assert.equal(worker.maxUploadBytes({ MAX_UPLOAD_BYTES: "not-a-number" }), 3 * 1024 * 1024);
-  assert.equal(worker.maxDurationMs({ MAX_DURATION_MS: "999999999" }), 150000);
+  assert.equal(worker.maxDurationMs({ MAX_DURATION_MS: "999999999" }), 300000);
+  assert.equal(worker.maxDurationMs({ MAX_DURATION_MS: "1799000" }), 1799000);
+  assert.equal(worker.maxDurationMs({ MAX_DURATION_MS: "1800000" }), 300000);
 });
 
 test("health reports limiter readiness and the effective safety caps", async () => {
@@ -161,7 +183,7 @@ test("health reports limiter readiness and the effective safety caps", async () 
   const health = await readyResponse.json();
   assert.equal(health.ok, true);
   assert.equal(health.maxUploadBytes, 3 * 1024 * 1024);
-  assert.equal(health.maxDurationMs, 150000);
+  assert.equal(health.maxDurationMs, 300000);
   assert.deepEqual(health.rateLimiters, { adminLogin: true, upload: true });
 });
 
@@ -546,6 +568,74 @@ test("upload reserves quota, writes the private object, then marks metadata read
   }
 });
 
+test("an exam-slot retry returns its ready recording without a duplicate Storage write", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const existingId = "75f32715-93c1-4a21-b35f-65bd72c7d26d";
+  const exerciseId = "exam:p2:d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a:p2:q01";
+  const calls = [];
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async (url, options = {}) => {
+    const path = new URL(String(url)).pathname;
+    if (path.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-07-20T00:00:00Z" }]);
+    }
+    if (path.endsWith("/rest/v1/flashcard_student_state")) {
+      calls.push("access-get");
+      return jsonResponse([]);
+    }
+    if (path.endsWith("/rpc/speaking_reserve_recording_attempt")) {
+      calls.push("reserve-idempotent");
+      return jsonResponse({
+        ok: true,
+        idempotent: true,
+        quota: { maxFiles: 500, maxBytes: 1073741824 },
+        usage: { fileCount: 1, storageBytes: 16680 },
+        recording: {
+          id: existingId,
+          student_id: studentId,
+          exercise_id: exerciseId,
+          exercise_title: "A useful advertisement",
+          exam: "ielts",
+          part_number: 2,
+          book_number: 1,
+          original_filename: "attempt.mp3",
+          size_bytes: 16680,
+          duration_ms: 1045,
+          client_duration_ms: 1045,
+          storage_state: "ready",
+          created_at: "2026-07-19T12:34:56Z"
+        }
+      });
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${path}`);
+  };
+  try {
+    const form = new FormData();
+    form.append("file", new Blob([repeatFrame(40)], { type: "audio/mpeg" }), "attempt.mp3");
+    form.append("exerciseId", exerciseId);
+    form.append("exerciseTitle", "A useful advertisement");
+    form.append("exam", "IELTS");
+    form.append("part", "2");
+    form.append("book", "1");
+    form.append("durationMs", "1045");
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/recordings", studentToken, { method: "POST", body: form }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 200);
+    assert.equal(response.headers.get("Location"), `https://worker.example/v1/recordings/${existingId}`);
+    const body = await response.json();
+    assert.equal(body.idempotent, true);
+    assert.equal(body.recording.id, existingId);
+    assert.deepEqual(calls, ["student-profile", "access-get", "reserve-idempotent"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("export pagination is bounded for the Cloudflare Free subrequest budget", () => {
   const env = {
     DEFAULT_EXPORT_PAGE_SIZE: "10",
@@ -596,6 +686,7 @@ test("database migration keeps quota and lifecycle mutations behind locked RPCs"
   assert.match(sql, /pg_advisory_xact_lock\s*\(/i);
   assert.match(sql, /storage_state in \('uploading', 'ready', 'deleting'\)/i);
   assert.match(sql, /create or replace function public\.speaking_reserve_recording_attempt/i);
+  assert.match(sql, /p_exercise_id like 'exam:%'[\s\S]+?RECORDING_UPLOAD_IN_PROGRESS/i);
   assert.match(sql, /create or replace function public\.speaking_finalize_recording_delete/i);
   assert.match(sql, /revoke insert, update, delete on table public\.speaking_recording_attempts\s+from service_role/i);
   assert.match(sql, /grant execute on function public\.speaking_reserve_recording_attempt[\s\S]+?to service_role/i);

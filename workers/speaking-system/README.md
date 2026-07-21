@@ -19,6 +19,14 @@ The Worker provides:
 
 ## Secure deployment
 
+For an **existing production installation**, deploy this Worker version while
+the old RPC is still active, then apply `../../supabase-speaking-system.sql`,
+and publish the frontend last. The new Worker accepts both the old reservation
+response and the new idempotent exam-slot response; an old Worker does not.
+If rollback is necessary, restore the old SQL function before rolling the
+Worker back. A brand-new installation with no live traffic may follow the
+numbered bootstrap order below.
+
 ### 1. Apply the database migration
 
 Run `../../supabase-speaking-system.sql` in the same Supabase project that
@@ -106,25 +114,28 @@ if either checked-in ID is already allocated in the account. `/v1/health`
 reports both binding states as well as the effective upload, duration and export
 caps.
 
-This deployment is intentionally sized for the Cloudflare Workers Free plan:
-uploads default to 3 MiB and 150 seconds, while exports are limited to 40 files
-and 64 MiB of audio per batch. Missing or invalid upload settings fall back to
-those safe values, not to the database ceilings. The Supabase table and bucket
-retain 20 MiB/30-minute ceilings so a later paid deployment can raise Worker
-limits without another storage migration. Do not raise the checked-in Worker
-caps until the upload inspection/hash benchmark and Cloudflare CPU/subrequest
-budgets have been reviewed for the target plan.
+This deployment keeps uploads at 3 MiB and allows up to 300 seconds of recorded
+content, while exports are limited to 40 files and 64 MiB of audio per batch.
+The browser
+encodes mono voice recordings at 64 kbps, keeping a five-minute answer at
+roughly 2.4 MB. The Worker permits up to 1,000 ms of parsed MP3 frame padding
+beyond the configured content limit; the client timing field remains capped at
+300 seconds. Missing or invalid upload settings fall back to these values,
+not to the database ceilings. The Supabase table and bucket retain 20 MiB/
+30-minute ceilings. The Worker reserves the final second of that duration for
+codec-frame padding, so a later paid deployment can raise the content limit to
+1,799,000 ms without another storage migration.
 
 The reference local Node benchmark used a real ffmpeg-encoded, 149.943-second
 MP3 of 2,998,901 bytes. Across 100 warmed runs, frame inspection plus the
 slicing-by-eight CRC-32 averaged 3.56 ms with a 3.65 ms p95. A broader local
 pass including multipart parsing and SHA-256 averaged about 9 ms of CPU. This
-is evidence for the checked-in boundary, not a guarantee of Cloudflare
-production CPU time. Workers Free currently allows 10 ms of CPU per HTTP
-request (with limited flexibility for infrequent overruns) and 50 external
-subrequests; see the [official limits](https://developers.cloudflare.com/workers/platform/limits/).
-Raising either cap may therefore require Workers Paid and a new
-production-like benchmark.
+confirms the validation path but does not benchmark the new five-minute
+boundary. Run a real 300-second, 64 kbps production-like upload benchmark
+before deploying the higher duration cap. Workers Free currently allows 10 ms
+of CPU per HTTP request (with limited flexibility for infrequent overruns) and
+50 external subrequests; see the [official limits](https://developers.cloudflare.com/workers/platform/limits/).
+A paid Worker plan may be required if that benchmark exceeds the budget.
 
 After deployment, put the Worker base URL in the Speaking frontend's public
 configuration. Do not put any secret beside it.
@@ -158,6 +169,10 @@ routes use the separate `adminToken` returned by Speaking admin login.
 
 `POST /v1/recordings` accepts `multipart/form-data` with exactly these fields:
 
+Exam-mode `exerciseId` values identify one question slot. Their reservation is
+idempotent under the database's per-student lock: retrying a completed slot
+returns the existing recording without writing a duplicate Storage object.
+
 | Field | Required | Rules |
 | --- | --- | --- |
 | `file` | yes | One real MP3; MIME `audio/mpeg`, `audio/mp3` or `audio/x-mp3`; 512 bytes to 3 MiB with the checked-in configuration |
@@ -166,7 +181,7 @@ routes use the separate `adminToken` returned by Speaking admin login.
 | `exam` | yes | `IELTS`/`ielts` for the current release |
 | `part` | for IELTS | `1`-`3`, `Part 1`-`Part 3`, or equivalent hyphenated form |
 | `book` | for IELTS | `1`-`16`, `Book 1`-`Book 16`, or equivalent hyphenated form |
-| `durationMs` | no | Non-negative client timing hint up to 150 seconds; the Worker independently derives the authoritative duration from MP3 frames |
+| `durationMs` | no | Non-negative client timing hint up to 300 seconds; the Worker independently derives the authoritative duration from MP3 frames |
 
 Example (placeholder tokens only):
 
@@ -229,6 +244,11 @@ Never expose this settings table or its mutation to a browser role.
 - `POST /v1/admin/reconcile` — admin-only cleanup of at most 10 `deleting` or
   stale `uploading` rows. Optional JSON: `{ "limit": 10 }`. Upload reservations
   are not considered stale until ten minutes have elapsed.
+
+If a student sees `RECORDING_UPLOAD_IN_PROGRESS` for the same exam question
+after ten minutes, an administrator must call this reconciliation endpoint and
+then ask the student to retry. Include that check in normal release/support
+operations; no scheduled reconciliation trigger is configured by default.
 
 Every successful export response exposes `X-Export-Page`,
 `X-Export-Page-Size`, `X-Export-File-Count`, `X-Export-Total-Files`,

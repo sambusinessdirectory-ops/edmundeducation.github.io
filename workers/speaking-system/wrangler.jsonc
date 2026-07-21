@@ -27,7 +27,7 @@
     "ALLOWED_ORIGINS": "https://edmundeducation.com,https://www.edmundeducation.com,https://edmundeducation.github.io",
     "SUPABASE_URL": "https://ookkxzgpdclzrrhfmvqx.supabase.co",
     "MAX_UPLOAD_BYTES": "3145728",
-    "MAX_DURATION_MS": "150000",
+    "MAX_DURATION_MS": "300000",
     "MAX_ID3_BYTES": "65536",
     "MAX_EXPORT_BATCH_BYTES": "67108864",
     "MAX_EXPORT_FILES_PER_BATCH": "40",
