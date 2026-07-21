@@ -7,6 +7,7 @@ import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import worker from "../workers/model-essay-downloads/src/index.js";
 import { CATALOG } from "../workers/model-essay-downloads/src/catalog.js";
+import { READING_CATALOG } from "../workers/model-essay-downloads/src/reading-catalog.js";
 import { SPEAKING_CATALOG } from "../workers/model-essay-downloads/src/speaking-catalog.js";
 
 globalThis.FixedLengthStream ||= class FixedLengthStream {
@@ -24,11 +25,18 @@ const speakingSourceFlag = process.argv.indexOf("--speaking-source");
 const speakingOutputFlag = process.argv.indexOf("--speaking-output");
 const speakingSource = speakingSourceFlag >= 0 ? process.argv[speakingSourceFlag + 1] : "";
 const speakingOutput = speakingOutputFlag >= 0 ? process.argv[speakingOutputFlag + 1] : "";
+const readingSourceFlag = process.argv.indexOf("--reading-source");
+const readingOutputFlag = process.argv.indexOf("--reading-output");
+const readingSource = readingSourceFlag >= 0 ? process.argv[readingSourceFlag + 1] : "";
+const readingOutput = readingOutputFlag >= 0 ? process.argv[readingOutputFlag + 1] : "";
 if (!source || !output) {
-  throw new Error("Usage: test-model-essay-download-worker.mjs <Task 2 PDF folder> <Task 2 ZIP output> [--all] [--speaking-source <folder> --speaking-output <ZIP output>]");
+  throw new Error("Usage: test-model-essay-download-worker.mjs <Task 2 PDF folder> <Task 2 ZIP output> [--all] [--speaking-source <folder> --speaking-output <ZIP output>] [--reading-source <folder> --reading-output <ZIP base output>]");
 }
 if (Boolean(speakingSource) !== Boolean(speakingOutput)) {
   throw new Error("--speaking-source and --speaking-output must be supplied together");
+}
+if (Boolean(readingSource) !== Boolean(readingOutput)) {
+  throw new Error("--reading-source and --reading-output must be supplied together");
 }
 
 const completionStatuses = [];
@@ -84,6 +92,30 @@ function localBucket(folder) {
   };
 }
 
+function sharedAssetBucket() {
+  return {
+    async head(key) {
+      const object = await this.get(key);
+      return object ? { size: object.size, httpEtag: object.httpEtag } : null;
+    },
+    async get(key) {
+      const value = String(key);
+      const folder = value.startsWith("IELTS Speaking All Parts/")
+        ? speakingSource
+        : value.startsWith("IELTS Reading/")
+          ? readingSource
+          : "";
+      if (!folder) return null;
+      const bytes = await fs.readFile(path.join(folder, path.basename(value)));
+      return {
+        size: bytes.length,
+        httpEtag: '"test-etag"',
+        body: Readable.toWeb(Readable.from(bytes))
+      };
+    }
+  };
+}
+
 const env = {
   ALLOWED_ORIGIN: "https://edmundeducation.com",
   SUPABASE_URL: "https://example.supabase.co",
@@ -94,11 +126,28 @@ const env = {
     async limit() { return { success: true }; }
   },
   ESSAYS: localBucket(source),
-  SPEAKING_ASSETS: speakingSource ? localBucket(speakingSource) : null
+  SPEAKING_ASSETS: speakingSource || readingSource ? sharedAssetBucket() : null
 };
 
 const background = [];
 const ctx = { waitUntil(promise) { background.push(promise); } };
+
+const expectedReadingCounts = Object.fromEntries(
+  [1, 2, 3].map(passage => [`reading-passage-${passage}`, READING_CATALOG[`passage-${passage}`].length])
+);
+const healthResponse = await worker.fetch(
+  new Request("https://downloads.edmundeducation.com/v1/health"),
+  env,
+  ctx
+);
+const health = await healthResponse.json();
+const expectedFileCount = CATALOG.length + SPEAKING_CATALOG.length
+  + Object.values(expectedReadingCounts).reduce((sum, count) => sum + count, 0);
+if (healthResponse.status !== 200
+  || health.files !== expectedFileCount
+  || Object.entries(expectedReadingCounts).some(([key, count]) => health.collections?.[key] !== count)) {
+  throw new Error(`Health catalog counts are incorrect: ${JSON.stringify(health)}`);
+}
 
 const oversizedSessionResponse = await worker.fetch(new Request("https://downloads.edmundeducation.com/v1/session", {
   method: "POST",
@@ -313,11 +362,127 @@ if (speakingSource) {
   };
 }
 
+let readingResult = null;
+if (readingSource) {
+  readingResult = {};
+  for (const passage of [1, 2, 3]) {
+    const key = `passage-${passage}`;
+    const auditTask = `reading-${key}`;
+    const catalog = READING_CATALOG[key];
+    const endpoint = `/v1/reading/${key}`;
+    if (!Array.isArray(catalog) || catalog.length <= 11) {
+      throw new Error(`Reading ${key} catalog is too small for ZIP route testing`);
+    }
+
+    const unconfirmedRequest = new Request(`https://downloads.edmundeducation.com${endpoint}/zip`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Origin": env.ALLOWED_ORIGIN
+      },
+      body: new URLSearchParams({
+        ids: JSON.stringify(catalog.map(item => item.id)),
+        all: "0",
+        confirmAll: "0",
+        downloadToken
+      })
+    });
+    const unconfirmedResponse = await worker.fetch(unconfirmedRequest, env, ctx);
+    if (unconfirmedResponse.status !== 400) {
+      throw new Error(`Unconfirmed full Reading ${key} catalog was not rejected: ${unconfirmedResponse.status}`);
+    }
+
+    const otherPassage = passage === 3 ? 1 : passage + 1;
+    const crossPassageItem = READING_CATALOG[`passage-${otherPassage}`][0];
+    const crossPassageResponse = await worker.fetch(new Request(
+      `https://downloads.edmundeducation.com${endpoint}/files/${crossPassageItem.id}`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Origin": env.ALLOWED_ORIGIN
+        },
+        body: new URLSearchParams({ downloadToken })
+      }
+    ), env, ctx);
+    if (crossPassageResponse.status !== 404) {
+      throw new Error(`Reading ${key} accepted an ID from passage ${otherPassage}: ${crossPassageResponse.status}`);
+    }
+
+    const selected = catalog.slice(0, 11);
+    const selectedRequest = new Request(`https://downloads.edmundeducation.com${endpoint}/zip`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Origin": env.ALLOWED_ORIGIN
+      },
+      body: new URLSearchParams({
+        ids: JSON.stringify(selected.map(item => item.id)),
+        all: "0",
+        confirmAll: "0",
+        downloadToken
+      })
+    });
+    const selectedResponse = await worker.fetch(selectedRequest, env, ctx);
+    if (selectedResponse.status !== 200) {
+      throw new Error(`Selected Reading ${key} ZIP failed: ${selectedResponse.status}`);
+    }
+    const expectedZipName = `Edmund-IELTS-Reading-Passage-${passage}.zip`;
+    if (!String(selectedResponse.headers.get("content-disposition") || "").includes(expectedZipName)) {
+      throw new Error(`Reading ${key} default ZIP name is incorrect`);
+    }
+    const selectedOutput = /\.zip$/i.test(readingOutput)
+      ? readingOutput.replace(/\.zip$/i, `-${key}-selected.zip`)
+      : `${readingOutput}-${key}-selected.zip`;
+    await pipeline(Readable.fromWeb(selectedResponse.body), createWriteStream(selectedOutput));
+    await Promise.all(background);
+    const selectedStat = await fs.stat(selectedOutput);
+    if (Number(selectedResponse.headers.get("content-length")) !== selectedStat.size) {
+      throw new Error(`Reading ${key} ZIP Content-Length did not match streamed bytes`);
+    }
+
+    const fileRequest = new Request(`https://downloads.edmundeducation.com${endpoint}/files/${catalog[0].id}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Origin": env.ALLOWED_ORIGIN
+      },
+      body: new URLSearchParams({ downloadToken })
+    });
+    const fileResponse = await worker.fetch(fileRequest, env, ctx);
+    if (fileResponse.status !== 200) {
+      throw new Error(`Reading ${key} single file failed: ${fileResponse.status}`);
+    }
+    const fileBytes = new Uint8Array(await fileResponse.arrayBuffer());
+    if (fileBytes.length !== catalog[0].bytes) {
+      throw new Error(`Reading ${key} single-file byte count did not match catalog`);
+    }
+    await Promise.all(background);
+
+    if (!recordedAuditTasks.includes(auditTask)) {
+      throw new Error(`Reading ${key} downloads were not recorded with the ${auditTask} audit task`);
+    }
+    readingResult[key] = {
+      selectedZipStatus: selectedResponse.status,
+      selectedZipFiles: selected.length,
+      selectedZipBytes: selectedStat.size,
+      selectedZipOutput: selectedOutput,
+      fileStatus: fileResponse.status,
+      fileBytes: fileBytes.length,
+      unconfirmedAllStatus: unconfirmedResponse.status,
+      crossPassageStatus: crossPassageResponse.status
+    };
+  }
+}
+
 if (!recordedAuditTasks.includes("task-2")) {
   throw new Error("Task 2 downloads were not recorded with the task-2 audit task");
 }
 
 console.log(JSON.stringify({
+  healthStatus: healthResponse.status,
+  healthFiles: health.files,
+  healthCollections: health.collections,
   adminStatus: adminResponse.status,
   oversizedSessionStatus: oversizedSessionResponse.status,
   sessionStatus: sessionResponse.status,
@@ -331,5 +496,6 @@ console.log(JSON.stringify({
   completedAudits: completionStatuses.filter(status => status === "completed").length,
   output,
   auditTasks: [...new Set(recordedAuditTasks)],
-  speaking: speakingResult
+  speaking: speakingResult,
+  reading: readingResult
 }, null, 2));

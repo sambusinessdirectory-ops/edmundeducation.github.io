@@ -8,9 +8,13 @@
   const speakingFiles = Array.isArray(window.EDMUND_IELTS_SPEAKING_DOWNLOADS)
     ? window.EDMUND_IELTS_SPEAKING_DOWNLOADS
     : [];
+  const readingFiles = Array.isArray(window.EDMUND_IELTS_READING_DOWNLOADS)
+    ? window.EDMUND_IELTS_READING_DOWNLOADS
+    : [];
   const questionData = window.EDMUND_MODEL_ESSAY_QUESTION_DATA || {};
   const task2Meta = window.EDMUND_MODEL_ESSAY_META || {};
   const speakingMeta = window.EDMUND_IELTS_SPEAKING_META || {};
+  const readingMeta = window.EDMUND_IELTS_READING_META || {};
   const supabaseConfig = window.EDMUND_SUPABASE || {};
   const apiBase = String(window.EDMUND_DOWNLOAD_API_BASE || "").replace(/\/+$/, "");
   const supabaseClient = window.supabase?.createClient && supabaseConfig.url && supabaseConfig.anonKey
@@ -32,6 +36,18 @@
     { key: "part-2", label: "Speaking Part 2" },
     { key: "part-3", label: "Speaking Part 3" }
   ];
+
+  const readingFilters = [{ key: "all", label: "全部" }];
+  const readingItems = passage => readingFiles.filter(item => item.passage === passage);
+  const readingCatalogMeta = passage => {
+    const category = `passage-${passage}`;
+    return Object.freeze({
+      total: Number(readingMeta.categoryCounts?.[category]) || readingItems(passage).length,
+      totalBytes: Number(readingMeta.passageBytes?.[category]) || 0,
+      totalPages: Number(readingMeta.passagePages?.[category]) || 0,
+      categoryCounts: { [category]: Number(readingMeta.categoryCounts?.[category]) || 0 }
+    });
+  };
 
   const catalogs = Object.freeze({
     task2: Object.freeze({
@@ -83,6 +99,84 @@
       selectedZipPrefix: "Edmund-IELTS-Speaking-Selected",
       kicker: item => `SPEAKING PART ${item.part} · BOOK ${item.book}`,
       detailFallback: "IELTS Speaking Band 9 sample PDF。"
+    }),
+    "reading-passage-1": Object.freeze({
+      key: "reading-passage-1",
+      isReading: true,
+      items: readingItems(1),
+      meta: readingCatalogMeta(1),
+      filters: readingFilters,
+      initialSort: "number-asc",
+      endpointPrefix: "/reading/passage-1",
+      breadcrumb: "閱讀 Passage 1",
+      eyebrow: "IELTS READING · PASSAGE 1",
+      titleHtml: "IELTS Reading Passage 1<br>閱讀練習下載庫",
+      totalUnit: "份 PDF 閱讀練習",
+      itemNoun: "閱讀練習",
+      filterLabel: "Reading Passage 篩選",
+      searchLabel: "搜尋篇章標題或 Practice 編號",
+      searchPlaceholder: "搜尋篇章標題或 Practice 編號...",
+      categorySortLabel: "按 Passage 分類",
+      emptyTitle: "找不到符合條件的 Passage 1 練習",
+      emptyCopy: "請嘗試另一個篇章標題或 Practice 編號。",
+      allTitle: "確定下載全部 Passage 1 練習？",
+      allCopy: "系統會把 163 份 IELTS Reading Passage 1 練習整理成一個 ZIP 檔案。檔案較大，下載可能需要一些時間。",
+      allZipName: "Edmund-IELTS-Reading-Passage-1.zip",
+      selectedZipPrefix: "Edmund-IELTS-Reading-Passage-1-Selected",
+      kicker: item => `PRACTICE ${item.number} · PASSAGE ${item.passage}`,
+      detailFallback: "IELTS Reading Passage 1 練習 PDF。"
+    }),
+    "reading-passage-2": Object.freeze({
+      key: "reading-passage-2",
+      isReading: true,
+      items: readingItems(2),
+      meta: readingCatalogMeta(2),
+      filters: readingFilters,
+      initialSort: "number-asc",
+      endpointPrefix: "/reading/passage-2",
+      breadcrumb: "閱讀 Passage 2",
+      eyebrow: "IELTS READING · PASSAGE 2",
+      titleHtml: "IELTS Reading Passage 2<br>閱讀練習下載庫",
+      totalUnit: "份 PDF 閱讀練習",
+      itemNoun: "閱讀練習",
+      filterLabel: "Reading Passage 篩選",
+      searchLabel: "搜尋篇章標題或 Practice 編號",
+      searchPlaceholder: "搜尋篇章標題或 Practice 編號...",
+      categorySortLabel: "按 Passage 分類",
+      emptyTitle: "找不到符合條件的 Passage 2 練習",
+      emptyCopy: "請嘗試另一個篇章標題或 Practice 編號。",
+      allTitle: "確定下載全部 Passage 2 練習？",
+      allCopy: "系統會把 149 份 IELTS Reading Passage 2 練習整理成一個 ZIP 檔案。檔案較大，下載可能需要一些時間。",
+      allZipName: "Edmund-IELTS-Reading-Passage-2.zip",
+      selectedZipPrefix: "Edmund-IELTS-Reading-Passage-2-Selected",
+      kicker: item => `PRACTICE ${item.number} · PASSAGE ${item.passage}`,
+      detailFallback: "IELTS Reading Passage 2 練習 PDF。"
+    }),
+    "reading-passage-3": Object.freeze({
+      key: "reading-passage-3",
+      isReading: true,
+      items: readingItems(3),
+      meta: readingCatalogMeta(3),
+      filters: readingFilters,
+      initialSort: "number-asc",
+      endpointPrefix: "/reading/passage-3",
+      breadcrumb: "閱讀 Passage 3",
+      eyebrow: "IELTS READING · PASSAGE 3",
+      titleHtml: "IELTS Reading Passage 3<br>閱讀練習下載庫",
+      totalUnit: "份 PDF 閱讀練習",
+      itemNoun: "閱讀練習",
+      filterLabel: "Reading Passage 篩選",
+      searchLabel: "搜尋篇章標題或 Practice 編號",
+      searchPlaceholder: "搜尋篇章標題或 Practice 編號...",
+      categorySortLabel: "按 Passage 分類",
+      emptyTitle: "找不到符合條件的 Passage 3 練習",
+      emptyCopy: "請嘗試另一個篇章標題或 Practice 編號。",
+      allTitle: "確定下載全部 Passage 3 練習？",
+      allCopy: "系統會把 165 份 IELTS Reading Passage 3 練習整理成一個 ZIP 檔案。檔案較大，下載可能需要一些時間。",
+      allZipName: "Edmund-IELTS-Reading-Passage-3.zip",
+      selectedZipPrefix: "Edmund-IELTS-Reading-Passage-3-Selected",
+      kicker: item => `PRACTICE ${item.number} · PASSAGE ${item.passage}`,
+      detailFallback: "IELTS Reading Passage 3 練習 PDF。"
     })
   });
 
@@ -91,7 +185,7 @@
   let meta = activeCatalog.meta;
   let filters = activeCatalog.filters;
   let byId = new Map(essays.map(item => [item.id, item]));
-  const allItemsById = new Map([...task2Essays, ...speakingFiles].map(item => [item.id, item]));
+  const allItemsById = new Map([...task2Essays, ...speakingFiles, ...readingFiles].map(item => [item.id, item]));
 
   const exams = [
     { key: "dse", label: "DSE", subline: "英文文憑試範文", contentAvailable: false },
@@ -174,6 +268,12 @@
   const allDownloadCopy = document.querySelector("[data-all-download-copy]");
 
   function essayQuestion(essay) {
+    if (activeCatalog.isReading) {
+      return {
+        question: `IELTS Reading Passage ${essay?.passage} · Practice ${essay?.number} · 檔案：${essay?.filename}`,
+        tags: []
+      };
+    }
     if (state.catalogKey === "speaking") {
       return {
         question: `IELTS Speaking Part ${essay?.part} · Book ${essay?.book}，Band 9 sample PDF。`,
@@ -181,6 +281,10 @@
       };
     }
     return questionData[essay?.category + ":" + essay?.number] || { question: "", tags: [] };
+  }
+
+  function itemDisplayTitle(item) {
+    return activeCatalog.isReading && item?.title ? item.title : item?.filename || "PDF";
   }
 
   function configureCatalogUi() {
@@ -551,6 +655,7 @@
       if (!query) return true;
       const detail = essayQuestion(essay);
       return essay.filename.toLocaleLowerCase().includes(query)
+        || String(essay.title || "").toLocaleLowerCase().includes(query)
         || essay.categoryLabel.toLocaleLowerCase().includes(query)
         || detail.question.toLocaleLowerCase().includes(query)
         || detail.tags.some(tag => tag.toLocaleLowerCase().includes(query))
@@ -592,8 +697,8 @@
             ${tags}
             ${essay.problem ? '<span class="problem-badge">需留意</span>' : ""}
           </div>
-          <button class="essay-title-button" type="button" data-open-detail-id="${escapeHtml(essay.id)}">${escapeHtml(essay.filename)}</button>
-          <div class="essay-detail">PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
+          <button class="essay-title-button" type="button" data-open-detail-id="${escapeHtml(essay.id)}">${escapeHtml(itemDisplayTitle(essay))}</button>
+          <div class="essay-detail">${activeCatalog.isReading ? `Practice ${essay.number} · ` : ""}PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}</div>
         </div>
         <div class="essay-category">
           <span class="category-pill" data-category="${escapeHtml(essay.category)}">${escapeHtml(essay.categoryLabel)}</span>
@@ -766,7 +871,7 @@
     detailModal.querySelector("[data-detail-tags]").innerHTML = detail.tags
       .map(tag => `<span class="topic-tag">${escapeHtml(tag)}</span>`)
       .join("");
-    detailModal.querySelector("[data-detail-title]").textContent = essay.filename;
+    detailModal.querySelector("[data-detail-title]").textContent = itemDisplayTitle(essay);
     detailModal.querySelector("[data-detail-question]").textContent = detail.question || activeCatalog.detailFallback;
     detailModal.querySelector("[data-detail-meta]").textContent = `PDF · ${essay.pages} 頁 · ${formatBytes(essay.bytes)}`;
     const thumbnail = detailModal.querySelector("[data-detail-thumbnail]");
@@ -846,13 +951,23 @@
   function logEssayLabel(event) {
     const ids = Array.isArray(event.essay_ids) ? event.essay_ids : [];
     const isSpeaking = event.task === "speaking";
+    const isReading = String(event.task || "").startsWith("reading-passage-");
     if (event.event_type === "all_bundle") {
-      return `<strong>${isSpeaking ? "All IELTS Speaking bundle" : "All Task 2 essay bundle"}</strong>`;
+      const label = isSpeaking
+        ? "All IELTS Speaking bundle"
+        : isReading
+          ? `All IELTS Reading Passage ${String(event.task).slice(-1)} bundle`
+          : "All Task 2 essay bundle";
+      return `<strong>${label}</strong>`;
     }
-    const names = ids.map(id => allItemsById.get(id)?.filename || id);
+    const names = ids.map(id => {
+      const item = allItemsById.get(id);
+      return item?.title || item?.filename || id;
+    });
     if (event.event_type === "single_pdf") return escapeHtml(names[0] || "PDF");
     const items = names.map(name => `<li>${escapeHtml(name)}</li>`).join("");
-    return `<details><summary>${names.length} 份已選${isSpeaking ? "Speaking 教材" : "範文"}</summary><ul>${items}</ul></details>`;
+    const noun = isSpeaking ? "Speaking 教材" : isReading ? "閱讀練習" : "範文";
+    return `<details><summary>${names.length} 份已選${noun}</summary><ul>${items}</ul></details>`;
   }
 
   function renderAdminLogs(rows, totalCount) {

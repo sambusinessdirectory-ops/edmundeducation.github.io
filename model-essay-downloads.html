@@ -681,6 +681,9 @@
     .category-pill[data-category="part-1"] { background: #e7eeff; color: #365bb9; }
     .category-pill[data-category="part-2"] { background: #f4e8ff; color: #7d45a6; }
     .category-pill[data-category="part-3"] { background: #ffe8ef; color: #b43766; }
+    .category-pill[data-category="passage-1"] { background: #e5f7f0; color: #197859; }
+    .category-pill[data-category="passage-2"] { background: #fff0dc; color: #9b5b16; }
+    .category-pill[data-category="passage-3"] { background: #f4e8ff; color: #7d45a6; }
 
     .row-download {
       min-height: 42px;
@@ -872,7 +875,7 @@
       .brand-mark { width: 40px; height: 40px; }
       .brand-text span { display: none; }
       .connection-pill { display: none; }
-      .user-pill { max-width: 120px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+      .user-pill { display: none; }
       .shell { width: min(100% - 20px, 1180px); padding-top: 20px; }
       .login-intro { min-height: 560px; padding: 32px 25px; }
       .login-cover-art {
@@ -1101,6 +1104,24 @@
           <span>Part 1 / Part 2 / Part 3</span>
           <span class="card-tag">46 份 Band 9 Samples</span>
         </button>
+        <button class="task-card featured" type="button" data-open-catalog="reading-passage-1">
+          <strong class="task-number">04</strong>
+          <strong>IELTS 閱讀 Passage 1</strong>
+          <span>Reading Practice / 閱讀練習</span>
+          <span class="card-tag">163 份 PDF 練習</span>
+        </button>
+        <button class="task-card featured" type="button" data-open-catalog="reading-passage-2">
+          <strong class="task-number">05</strong>
+          <strong>IELTS 閱讀 Passage 2</strong>
+          <span>Reading Practice / 閱讀練習</span>
+          <span class="card-tag">149 份 PDF 練習</span>
+        </button>
+        <button class="task-card featured" type="button" data-open-catalog="reading-passage-3">
+          <strong class="task-number">06</strong>
+          <strong>IELTS 閱讀 Passage 3</strong>
+          <span>Reading Practice / 閱讀練習</span>
+          <span class="card-tag">165 份 PDF 練習</span>
+        </button>
       </div>
     </section>
 
@@ -1215,6 +1236,7 @@
   <script src="ielts-task2-model-essays.js"></script>
   <script src="ielts-task2-question-data.js"></script>
   <script src="ielts-speaking-downloads.js"></script>
+  <script src="ielts-reading-downloads.js"></script>
   <script src="model-essay-downloads.js"></script>
   <script src="page-loader.js"></script>
 </body>

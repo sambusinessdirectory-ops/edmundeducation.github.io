@@ -1,4 +1,5 @@
 import { CATALOG } from "./catalog.js";
+import { READING_CATALOG } from "./reading-catalog.js";
 import { SPEAKING_CATALOG } from "./speaking-catalog.js";
 
 const encoder = new TextEncoder();
@@ -16,6 +17,27 @@ const COLLECTIONS = Object.freeze({
     bucketBinding: "SPEAKING_ASSETS",
     auditTask: "speaking",
     defaultZipName: "Edmund-IELTS-Speaking-All-Parts.zip"
+  }),
+  "reading-passage-1": Object.freeze({
+    catalog: READING_CATALOG["passage-1"],
+    byId: new Map(READING_CATALOG["passage-1"].map(item => [item.id, item])),
+    bucketBinding: "SPEAKING_ASSETS",
+    auditTask: "reading-passage-1",
+    defaultZipName: "Edmund-IELTS-Reading-Passage-1.zip"
+  }),
+  "reading-passage-2": Object.freeze({
+    catalog: READING_CATALOG["passage-2"],
+    byId: new Map(READING_CATALOG["passage-2"].map(item => [item.id, item])),
+    bucketBinding: "SPEAKING_ASSETS",
+    auditTask: "reading-passage-2",
+    defaultZipName: "Edmund-IELTS-Reading-Passage-2.zip"
+  }),
+  "reading-passage-3": Object.freeze({
+    catalog: READING_CATALOG["passage-3"],
+    byId: new Map(READING_CATALOG["passage-3"].map(item => [item.id, item])),
+    bucketBinding: "SPEAKING_ASSETS",
+    auditTask: "reading-passage-3",
+    defaultZipName: "Edmund-IELTS-Reading-Passage-3.zip"
   })
 });
 const COOKIE_NAME = "__Host-edmund_dl";
@@ -44,10 +66,17 @@ async function route(request, env, ctx) {
   }
 
   if (url.pathname === "/v1/health" && request.method === "GET") {
+    const readingCounts = Object.fromEntries(
+      [1, 2, 3].map(passage => [
+        `reading-passage-${passage}`,
+        COLLECTIONS[`reading-passage-${passage}`].catalog.length
+      ])
+    );
     return json({
       ok: true,
-      files: CATALOG.length + SPEAKING_CATALOG.length,
-      collections: { task2: CATALOG.length, speaking: SPEAKING_CATALOG.length },
+      files: CATALOG.length + SPEAKING_CATALOG.length
+        + Object.values(readingCounts).reduce((sum, count) => sum + count, 0),
+      collections: { task2: CATALOG.length, speaking: SPEAKING_CATALOG.length, ...readingCounts },
       service: "edmund-model-essay-downloads"
     }, 200, request, env);
   }
@@ -104,6 +133,27 @@ async function route(request, env, ctx) {
     const student = await authenticateRequest(request, env, form);
     if (!student) return json({ error: "Authentication required" }, 401, request, env);
     return downloadZip(request, env, ctx, student, form, COLLECTIONS.speaking);
+  }
+
+  const readingFileMatch = url.pathname.match(/^\/v1\/reading\/(passage-[123])\/files\/([^/]+)$/);
+  if (readingFileMatch && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    const id = decodeURIComponent(readingFileMatch[2]);
+    return downloadFile(request, env, ctx, student, id, COLLECTIONS[`reading-${readingFileMatch[1]}`]);
+  }
+
+  const readingZipMatch = url.pathname.match(/^\/v1\/reading\/(passage-[123])\/zip$/);
+  if (readingZipMatch && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    return downloadZip(request, env, ctx, student, form, COLLECTIONS[`reading-${readingZipMatch[1]}`]);
   }
 
   return json({ error: "Not found" }, 404, request, env);
