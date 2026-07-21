@@ -165,6 +165,74 @@
       color: #991b1b;
     }
 
+    .breadcrumbs {
+      width: 100%;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: nowrap;
+      margin: -8px 0 -4px;
+      padding: 12px 14px;
+      overflow-x: auto;
+      border: 1px solid rgba(47,128,237,0.14);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.70);
+      box-shadow: 0 14px 28px rgba(17,43,85,0.08);
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .breadcrumbs::-webkit-scrollbar {
+      display: none;
+    }
+
+    .crumb-button,
+    .crumb-current,
+    .crumb-separator {
+      flex: 0 0 auto;
+    }
+
+    .crumb-button {
+      min-height: 34px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: rgba(219,234,254,0.86);
+      color: #1559a8;
+      font: inherit;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+      transition: transform 0.16s ease, background 0.16s ease, color 0.16s ease;
+    }
+
+    .crumb-button:hover,
+    .crumb-button:focus-visible {
+      transform: translateY(-1px);
+      background: #2f80ed;
+      color: #fff;
+    }
+
+    .crumb-current {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 0 12px;
+      background: #0e2d55;
+      color: #fff;
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .crumb-separator {
+      color: #5b6678;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
     .hero {
       position: relative;
       display: grid;
@@ -2420,6 +2488,8 @@
       </section>
 
       <section class="app-view hidden" data-app-view>
+        <nav class="breadcrumbs hidden" data-writing-breadcrumbs aria-label="寫作練習路徑"></nav>
+
         <section class="panel-card admin-control-card hidden" data-admin-panel>
           <div class="admin-bg admin-bg-left" aria-hidden="true"></div>
           <div class="admin-bg admin-bg-right" aria-hidden="true"></div>
@@ -2495,7 +2565,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=2"></script>
-  <script src="writing-audio-manifest.js?v=edmund-neural-v5-20260716-1"></script>
+  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260716-1"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260712-2"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20260712-1"></script>
@@ -5091,6 +5161,226 @@ Device: concession 讓步
       return pathway?.departments?.find(department => department.key === departmentKey) || null;
     }
 
+    function writingExerciseAncestry(sectionKey, exerciseId) {
+      const id = String(exerciseId || "");
+      if (!id) return {};
+
+      if (sectionKey === "dse-writing") {
+        for (const [year, questions] of Object.entries(dseWritingQuestionsByYear)) {
+          if ((questions || []).some(question => question.exerciseId === id)) {
+            return { partKey: "part-b", year };
+          }
+        }
+        return {};
+      }
+
+      const pathway = writingPathways[sectionKey];
+      for (const task of pathway?.tasks || []) {
+        if ((task.deckIds || []).includes(id)) return { taskKey: task.key };
+        const essayType = (task.essayTypes || []).find(type => (type.deckIds || []).includes(id));
+        if (essayType) return { taskKey: task.key, essayTypeKey: essayType.key };
+      }
+
+      const department = (pathway?.departments || []).find(item => (item.deckIds || []).includes(id));
+      return department ? { departmentKey: department.key } : {};
+    }
+
+    function setWritingPathForExercise(sectionKey, exerciseId) {
+      const ancestry = writingExerciseAncestry(sectionKey, exerciseId);
+      currentPathwayLevel = hasWritingPathway(sectionKey) ? "" : "exercise";
+      currentEssayTypeKey = "";
+      resetDseWritingPathwayState();
+      resetGovernmentWritingPathwayState();
+
+      if (sectionKey === "dse-writing" && ancestry.partKey) {
+        currentDseWritingPart = ancestry.partKey;
+        currentDseWritingYear = ancestry.year || "";
+        currentPathwayLevel = currentDseWritingYear ? "dse-questions" : "dse-years";
+      } else if (sectionKey === "government-writing" && ancestry.departmentKey) {
+        currentGovernmentDepartmentKey = ancestry.departmentKey;
+        currentPathwayLevel = "government-department";
+      } else if (ancestry.taskKey) {
+        currentEssayTypeKey = ancestry.essayTypeKey || "";
+        currentPathwayLevel = currentEssayTypeKey ? "category" : ancestry.taskKey;
+      }
+    }
+
+    function writingBreadcrumbEntries() {
+      if (currentView !== "exercise" || !currentExerciseSectionKey) return [];
+
+      const section = writingSections.find(item => item.key === currentExerciseSectionKey);
+      if (!section) return [];
+      const pathway = writingPathways[currentExerciseSectionKey];
+      const ancestry = currentExerciseId
+        ? writingExerciseAncestry(currentExerciseSectionKey, currentExerciseId)
+        : {};
+      const entries = [
+        { label: "寫作首頁", route: { view: "dashboard" } },
+        {
+          label: pathway?.title || `${section.label} ${section.subline}`,
+          route: { view: "section", sectionKey: currentExerciseSectionKey }
+        }
+      ];
+
+      if (currentExerciseSectionKey === "dse-writing") {
+        const partKey = currentDseWritingPart || ancestry.partKey || "";
+        const year = currentDseWritingYear || ancestry.year || "";
+        const part = dseWritingParts.find(item => item.key === partKey);
+        if (part) {
+          entries.push({
+            label: part.label,
+            route: { view: "dse-part", sectionKey: currentExerciseSectionKey, partKey }
+          });
+        }
+        if (year) {
+          entries.push({
+            label: year,
+            route: { view: "dse-year", sectionKey: currentExerciseSectionKey, partKey, year }
+          });
+        }
+      } else if (currentExerciseSectionKey === "government-writing") {
+        const departmentKey = currentGovernmentDepartmentKey || ancestry.departmentKey || "";
+        const department = getGovernmentDepartment(pathway, departmentKey);
+        if (department) {
+          entries.push({
+            label: department.label,
+            route: { view: "government-department", sectionKey: currentExerciseSectionKey, departmentKey }
+          });
+        }
+      } else if (pathway?.tasks) {
+        const taskKey = ancestry.taskKey
+          || (["task-2", "category"].includes(currentPathwayLevel) || currentEssayTypeKey ? "task-2" : "");
+        const task = getPathwayTask(pathway, taskKey);
+        if (task) {
+          entries.push({
+            label: task.label,
+            route: { view: "writing-task", sectionKey: currentExerciseSectionKey, taskKey }
+          });
+        }
+        const essayTypeKey = currentEssayTypeKey || ancestry.essayTypeKey || "";
+        const essayType = getPathwayEssayType(pathway, essayTypeKey);
+        if (essayType) {
+          entries.push({
+            label: essayType.label,
+            route: {
+              view: "essay-type",
+              sectionKey: currentExerciseSectionKey,
+              taskKey: taskKey || "task-2",
+              essayTypeKey
+            }
+          });
+        }
+      }
+
+      const exercise = currentExercise();
+      if (exercise) {
+        entries.push({
+          label: exercise.title || "文章",
+          route: {
+            view: "essay",
+            sectionKey: currentExerciseSectionKey,
+            exerciseId: currentExerciseId || ""
+          }
+        });
+      }
+
+      if (practiceState) {
+        entries.push({
+          label: practiceState.screen === "practice"
+            ? `第 ${practiceState.round || 1} 輪練習`
+            : "練習模式",
+          route: null
+        });
+      }
+      return entries;
+    }
+
+    function renderWritingBreadcrumbs() {
+      const nav = document.querySelector("[data-writing-breadcrumbs]");
+      if (!nav) return;
+      const entries = writingBreadcrumbEntries();
+      nav.classList.toggle("hidden", entries.length === 0);
+      nav.innerHTML = entries.map((entry, index) => {
+        const separator = index ? `<span class="crumb-separator" aria-hidden="true">/</span>` : "";
+        const label = escapeHtml(entry.label || "寫作首頁");
+        if (index === entries.length - 1 || !entry.route) {
+          return `${separator}<span class="crumb-current" aria-current="page">${label}</span>`;
+        }
+        return `${separator}<button class="crumb-button" type="button" data-writing-breadcrumb-index="${index}">${label}</button>`;
+      }).join("");
+      nav._routes = entries.map(entry => entry.route);
+      if (entries.length) requestAnimationFrame(() => { nav.scrollLeft = nav.scrollWidth; });
+    }
+
+    function navigateWritingBreadcrumb(index) {
+      const nav = document.querySelector("[data-writing-breadcrumbs]");
+      const route = nav?._routes?.[Number(index)];
+      if (!route) return;
+
+      stopEssayAudio();
+      currentEssayTab = "essay";
+      practiceState = null;
+
+      if (route.view === "dashboard") {
+        currentExerciseSectionKey = "";
+        currentPathwayLevel = "";
+        currentEssayTypeKey = "";
+        resetDseWritingPathwayState();
+        resetGovernmentWritingPathwayState();
+        currentExerciseId = "";
+        showAppPanel("dashboard");
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+
+      currentExerciseSectionKey = route.sectionKey || currentExerciseSectionKey;
+      if (route.view === "section") {
+        currentPathwayLevel = hasWritingPathway(currentExerciseSectionKey) ? "" : "exercise";
+        currentEssayTypeKey = "";
+        resetDseWritingPathwayState();
+        resetGovernmentWritingPathwayState();
+        currentExerciseId = "";
+      } else if (route.view === "dse-part") {
+        currentDseWritingPart = route.partKey || "";
+        currentDseWritingYear = "";
+        currentGovernmentDepartmentKey = "";
+        currentEssayTypeKey = "";
+        currentPathwayLevel = "dse-years";
+        currentExerciseId = "";
+      } else if (route.view === "dse-year") {
+        currentDseWritingPart = route.partKey || "";
+        currentDseWritingYear = route.year || "";
+        currentGovernmentDepartmentKey = "";
+        currentEssayTypeKey = "";
+        currentPathwayLevel = "dse-questions";
+        currentExerciseId = "";
+      } else if (route.view === "government-department") {
+        resetDseWritingPathwayState();
+        currentEssayTypeKey = "";
+        currentGovernmentDepartmentKey = route.departmentKey || "";
+        currentPathwayLevel = "government-department";
+        currentExerciseId = "";
+      } else if (route.view === "writing-task") {
+        resetDseWritingPathwayState();
+        resetGovernmentWritingPathwayState();
+        currentEssayTypeKey = "";
+        currentPathwayLevel = route.taskKey === "task-2" ? "task-2" : "";
+        currentExerciseId = "";
+      } else if (route.view === "essay-type") {
+        resetDseWritingPathwayState();
+        resetGovernmentWritingPathwayState();
+        currentEssayTypeKey = route.essayTypeKey || "";
+        currentPathwayLevel = "category";
+        currentExerciseId = "";
+      } else if (route.view === "essay") {
+        setWritingPathForExercise(currentExerciseSectionKey, route.exerciseId || "");
+        currentExerciseId = route.exerciseId || "";
+      }
+
+      renderExerciseView();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
     function pathwayStats(exerciseIds = []) {
       const exercises = exerciseIds.map(exerciseById).filter(Boolean);
       const results = exercises.flatMap(exercise => getSavedPracticeResults(exercise.id));
@@ -6386,7 +6676,7 @@ Device: concession 讓步
       if (label) label.textContent = text;
       button.classList.toggle("is-playing", playing);
       button.setAttribute("aria-pressed", String(playing));
-      button.setAttribute("aria-label", `${text} · Edmund Neural`);
+      button.setAttribute("aria-label", text);
       button.setAttribute("title", `${text} · 播放後可按空白鍵暫停或繼續`);
       syncEssayAudioRateButtons();
       syncEssayHighlightToggle();
@@ -6436,7 +6726,7 @@ Device: concession 讓步
         syncEssayAudioButton();
       };
       audio.onerror = () => {
-        console.warn("Edmund Neural essay audio could not be loaded:", audio.error);
+        console.warn("Essay audio could not be loaded:", audio.error);
         stopEssayAudio();
       };
       try {
@@ -6507,7 +6797,7 @@ Device: concession 讓步
       const audioButton = currentEssayTab === "essay" && essayAudioEntry(exercise)
         ? `
           <div class="essay-audio-control-stack">
-            <button class="essay-audio-button" type="button" data-play-essay-audio aria-pressed="false" aria-label="朗讀文章 · Edmund Neural" title="朗讀文章 · 播放後可按空白鍵暫停或繼續">
+            <button class="essay-audio-button" type="button" data-play-essay-audio aria-pressed="false" aria-label="朗讀文章" title="朗讀文章 · 播放後可按空白鍵暫停或繼續">
               <img src="Static Images/sound-button.png" alt="" aria-hidden="true">
               <span data-essay-audio-label>朗讀文章</span>
             </button>
@@ -6797,6 +7087,7 @@ Device: concession 讓步
     function renderExerciseView() {
       const panel = document.querySelector("[data-exercise-view]");
       if (!panel) return;
+      renderWritingBreadcrumbs();
 
       const selectedExercise = currentExercise();
       const keepEssayAudio = Boolean(
@@ -7535,10 +7826,7 @@ Device: concession 讓步
     function openWritingExerciseFromSearch(sectionKey, exerciseId) {
       if (!canAccess(sectionKey) || !exerciseById(exerciseId)) return;
       currentExerciseSectionKey = sectionKey;
-      currentPathwayLevel = "";
-      currentEssayTypeKey = "";
-      resetDseWritingPathwayState();
-      resetGovernmentWritingPathwayState();
+      setWritingPathForExercise(sectionKey, exerciseId);
       currentExerciseId = exerciseId;
       currentEssayTab = "essay";
       practiceState = null;
@@ -7568,6 +7856,9 @@ Device: concession 讓步
       document.querySelector("[data-admin-panel]")?.classList.add("hidden");
       document.querySelector("[data-dashboard]")?.classList.add("hidden");
       document.querySelector("[data-exercise-view]")?.classList.add("hidden");
+      const breadcrumbs = document.querySelector("[data-writing-breadcrumbs]");
+      breadcrumbs?.classList.add("hidden");
+      breadcrumbs?.replaceChildren();
       closeAdminSwitchModal();
       updateNavActions();
     }
@@ -7591,6 +7882,7 @@ Device: concession 讓步
       }
       if (view === "dashboard") renderDashboard();
       if (view === "exercise") renderExerciseView();
+      renderWritingBreadcrumbs();
     }
 
     async function login(username, password) {
@@ -8022,6 +8314,12 @@ Device: concession 讓步
           currentExerciseId = "";
           practiceState = null;
           showAppPanel("dashboard");
+        }
+
+        const breadcrumbButton = event.target.closest("[data-writing-breadcrumb-index]");
+        if (breadcrumbButton) {
+          navigateWritingBreadcrumb(breadcrumbButton.getAttribute("data-writing-breadcrumb-index"));
+          return;
         }
 
         const searchExerciseButton = event.target.closest("[data-writing-search-exercise]");

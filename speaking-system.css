@@ -935,11 +935,24 @@ button:disabled {
 }
 
 .book-card.available {
+  --book-cover-image: url("assets/speaking-system/book-1-part-2.webp");
   color: #fff;
   border-color: rgba(7, 95, 91, .25);
   background:
     linear-gradient(145deg, rgba(8, 85, 104, .76), rgba(19, 130, 126, .78)),
-    url("assets/speaking-system/book-1-part-2.webp") center / cover;
+    var(--book-cover-image) center / cover;
+}
+
+.book-card.available[data-part="1"] {
+  --book-cover-image: url("assets/speaking-system/book-1-part-1.webp");
+}
+
+.book-card.available[data-part="2"] {
+  --book-cover-image: url("assets/speaking-system/book-1-part-2.webp");
+}
+
+.book-card.available[data-part="3"] {
+  --book-cover-image: url("assets/speaking-system/book-1-part-3.webp");
 }
 
 .book-card.available::before {

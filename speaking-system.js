@@ -740,12 +740,12 @@
     }
   }
 
-  function sectionHeader(title, description, chip = "") {
+  function sectionHeader(title, description = "", chip = "") {
     return `
       <div class="section-heading">
         <div>
           <h1>${escapeHtml(title)}</h1>
-          <p>${escapeHtml(description)}</p>
+          ${description ? `<p>${escapeHtml(description)}</p>` : ""}
         </div>
         ${chip ? `<span class="${state.user?.role === "admin" ? "admin-chip" : "welcome-chip"}">${escapeHtml(chip)}</span>` : ""}
       </div>
@@ -1013,7 +1013,7 @@
       : `Welcome, ${state.user?.name || "Student"}`;
     dom.content.innerHTML = `
       <section class="content-panel">
-        ${sectionHeader("選擇練習範疇", "先選擇你想訓練的考試或說話情境。IELTS 說話考試現已開放。", chip)}
+        ${sectionHeader("選擇練習範疇", "先選擇你想訓練的考試或說話情境。", chip)}
         <div class="portal-search-area">
           <form class="portal-search" data-speaking-search-form>
             <label for="speaking-search-input">搜尋練習 / 題目</label>
@@ -1054,7 +1054,7 @@
   function renderParts() {
     dom.content.innerHTML = `
       <section class="content-panel">
-        ${sectionHeader("IELTS 說話考試", "選擇 Part 1、Part 2 或 Part 3。每個部分均設有 16 本練習冊。")}
+        ${sectionHeader("IELTS 說話考試")}
         <div class="choice-grid parts-grid">
           ${[1, 2, 3].map(part => {
             const allowed = hasAccess(["exam.ielts", `ielts.part.${part}`]);
@@ -1679,7 +1679,7 @@
 
   function renderAudioPanel(entry, exercise = currentExercise()) {
     const available = Boolean(entry && audioPath(entry));
-    const voiceLabel = "Edmund Neural · 可按空白鍵暫停／繼續";
+    const voiceLabel = "可按空白鍵暫停／繼續";
     return `
       <section class="audio-panel" aria-label="示範錄音控制">
         <div class="audio-main-controls">
@@ -1705,7 +1705,7 @@
       return `
         <section class="notice-card admin-recorder-notice">
           <h2>管理員模式</h2>
-          <p>學生錄音及儲存功能只供學生帳戶使用。管理員可從頁首的「my recording attempt」管理所有學生錄音。</p>
+          <p>學生錄音及儲存功能只供學生帳戶使用。管理員可從頁首的「我的錄音」管理所有學生錄音。</p>
         </section>
       `;
     }
@@ -1737,7 +1737,7 @@
           <button class="audio-button part1-play-all" type="button" data-model-audio-toggle${available ? "" : " disabled"} aria-pressed="false">
             <span data-audio-button-label>${available ? "▶ 播放完整 Q&A" : "音訊準備中"}</span>
           </button>
-          <span class="audio-note">Examiner：Edmund Neural 女聲 · Answer：Edmund Neural British boy</span>
+          <span class="audio-note">Examiner：女聲 · Answer：British boy</span>
         </div>
         <div class="audio-options">
           <div class="rate-selector" role="group" aria-label="播放速度">
@@ -2058,7 +2058,7 @@
         </header>
 
         <section class="part3-reading-guide" aria-label="練習方法">
-          <div><span>01</span><p><strong>Choose a route</strong>先比較兩個 Idea，選一條適合自己的論點。</p></div>
+          <div><span>01</span><p><strong>Compare both ideas</strong>先比較兩個 Idea。</p></div>
           <div><span>02</span><p><strong>Follow the logic</strong>沿著解釋、例子及總結逐步建立完整答案。</p></div>
           <div><span>03</span><p><strong>Listen and speak</strong>聆聽示範後，錄下自己的 Part 3 回答。</p></div>
         </section>
@@ -3076,7 +3076,7 @@
         <button class="secondary-button" type="button" data-download-current>下載這次 MP3</button>
         <button class="danger-button" type="button" data-discard-recording>捨棄並重錄</button>
       </div>
-      <p class="save-note">儲存後可從頁首的「my recording attempt」隨時播放、下載、刪除或匯出全部 MP3 ZIP。</p>
+      <p class="save-note">儲存後可從頁首的「我的錄音」隨時播放、下載、刪除或匯出全部 MP3 ZIP。</p>
     `;
   }
 
@@ -3170,7 +3170,7 @@
       const endpoint = CONFIG.endpoints?.recordings || "/v1/recordings";
       await apiJson(endpoint, { method: "POST", body: form });
       state.recordingSaved = true;
-      recordingStatus("已儲存！可在「my recording attempt」隨時取回。", false);
+      recordingStatus("已儲存！可在「我的錄音」隨時取回。", false);
       if (button) {
         button.textContent = "✓ 已儲存";
         button.disabled = true;
@@ -3327,7 +3327,7 @@
     const controller = createAttemptController();
     dom.content.innerHTML = `
       <section class="content-panel">
-        ${sectionHeader(state.user?.role === "admin" ? "所有錄音嘗試" : "my recording attempt", state.user?.role === "admin" ? "管理、播放、逐一下載或刪除所有學生的 Speaking 錄音。" : "你的錄音會安全同步至帳戶，可隨時播放、下載、匯出或刪除。", state.user?.role === "admin" ? "ADMIN · ALL STUDENTS" : "你的私人錄音庫")}
+        ${sectionHeader(state.user?.role === "admin" ? "所有錄音嘗試" : "我的錄音", state.user?.role === "admin" ? "管理、播放、逐一下載或刪除所有學生的 Speaking 錄音。" : "你的錄音會安全同步至帳戶，可隨時播放、下載、匯出或刪除。", state.user?.role === "admin" ? "ADMIN · ALL STUDENTS" : "你的私人錄音庫")}
         <div class="attempts-toolbar">
           <span class="attempts-summary" data-attempts-summary>正在讀取錄音…</span>
           ${state.user?.role === "admin" ? "" : '<button class="primary-button" type="button" data-export-zip>匯出全部 MP3（ZIP）</button>'}
@@ -4070,7 +4070,7 @@
         if (state.user.role === "student") await loadBookmarks({ quiet: true });
         if (!state.user) return;
         showPortal();
-        setConnection("Session 已恢復", "live");
+        setConnection(state.user.role === "admin" ? "Admin 已連接" : "Supabase 已連接", "live");
         navigate({ view: state.user.role === "admin" ? "admin" : "exams" }, { reset: true, skipGuard: true });
       } catch (error) {
         if (state.user) resetAuthenticatedState("未能驗證登入時段，請重新登入。");
