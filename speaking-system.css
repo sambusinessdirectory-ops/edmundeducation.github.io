@@ -953,6 +953,7 @@ button:disabled {
 
 .book-card.available[data-part="3"] {
   --book-cover-image: url("assets/speaking-system/book-1-part-3.webp");
+  background-position: center, center 20%;
 }
 
 .book-card.available::before {

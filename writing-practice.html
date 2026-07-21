@@ -723,6 +723,13 @@
       margin-top: 10px;
     }
 
+    .writing-search-result-wrap {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 54px;
+      gap: 9px;
+      align-items: stretch;
+    }
+
     .writing-search-section-label {
       margin-top: 5px;
       color: #1559a8;
@@ -862,6 +869,28 @@
         0 20px 30px rgba(136,19,55,0.22);
     }
 
+    .tile.bookmark-tile {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.07) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(135deg, #312e81 0%, #6d28d9 58%, #7e22ce 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(49,46,129,0.18),
+        0 8px 0 #4c1d95,
+        0 20px 30px rgba(109,40,217,0.22);
+    }
+
+    .tile.progression-tile {
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.08) 36%, rgba(255,255,255,0) 37%),
+        linear-gradient(135deg, #0f766e 0%, #0d9488 52%, #d97706 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -10px 18px rgba(15,118,110,0.17),
+        0 8px 0 #115e59,
+        0 20px 30px rgba(13,148,136,0.22);
+    }
+
     .pathway-card {
       display: grid;
       gap: 14px;
@@ -978,6 +1007,180 @@
       box-shadow: 0 6px 0 #bae6fd;
       writing-mode: vertical-rl;
       text-orientation: upright;
+    }
+
+    .pathway-side-actions {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      gap: 9px;
+    }
+
+    .pathway-side-actions .pathway-reset:only-child {
+      grid-row: 1 / -1;
+    }
+
+    .writing-bookmark-button {
+      min-width: 50px;
+      min-height: 50px;
+      border: 1px solid rgba(14,45,85,0.13);
+      border-radius: 16px;
+      padding: 8px;
+      background: rgba(255,255,255,0.94);
+      color: #1559a8;
+      font: inherit;
+      font-size: 28px;
+      line-height: 1;
+      font-weight: 900;
+      box-shadow: 0 6px 0 #dbeafe;
+      cursor: pointer;
+      transition: transform 0.16s ease, color 0.16s ease, background 0.16s ease, box-shadow 0.16s ease;
+    }
+
+    .writing-bookmark-button:hover {
+      transform: translateY(-1px);
+    }
+
+    .writing-bookmark-button.active,
+    .writing-header-bookmark.active {
+      border-color: rgba(217,119,6,0.30);
+      background: #fff7d6;
+      color: #d97706;
+      box-shadow: 0 6px 0 #fde68a;
+    }
+
+    .writing-header-bookmark {
+      gap: 6px;
+    }
+
+    .writing-header-bookmark [data-writing-header-bookmark-icon] {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .writing-utility-page {
+      display: grid;
+      gap: 18px;
+    }
+
+    .writing-bookmarks-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    .writing-bookmark-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 58px;
+      gap: 10px;
+      align-items: stretch;
+    }
+
+    .writing-bookmark-open {
+      min-height: 92px;
+      display: grid;
+      align-content: center;
+      gap: 4px;
+      border: 1px solid rgba(47,128,237,0.16);
+      border-radius: 18px;
+      padding: 16px 18px;
+      background: rgba(255,255,255,0.88);
+      color: #0e2d55;
+      text-align: left;
+      font: inherit;
+      cursor: pointer;
+      box-shadow: 0 10px 24px rgba(17,43,85,0.08);
+    }
+
+    .writing-bookmark-open strong {
+      font-size: 19px;
+      line-height: 1.2;
+    }
+
+    .writing-bookmark-open small {
+      color: #64748b;
+      font-weight: 800;
+    }
+
+    .progression-table-shell {
+      overflow-x: auto;
+      border: 1px solid rgba(47,128,237,0.15);
+      border-radius: 18px;
+      background: rgba(255,255,255,0.86);
+      box-shadow: 0 14px 28px rgba(17,43,85,0.08);
+    }
+
+    .progression-table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      color: #173153;
+    }
+
+    .progression-table th,
+    .progression-table td {
+      padding: 16px 18px;
+      border-bottom: 1px solid rgba(47,128,237,0.12);
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    .progression-table th {
+      background: linear-gradient(135deg, #0e2d55, #1559a8);
+      color: #fff;
+      font-size: 14px;
+      letter-spacing: 0.05em;
+    }
+
+    .progression-table tbody tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .progression-table td:first-child {
+      width: 78px;
+      color: #047857;
+      font-size: 22px;
+      font-weight: 950;
+    }
+
+    .progression-table td:nth-child(2) {
+      width: 42%;
+      font-weight: 900;
+    }
+
+    .progression-open {
+      width: 100%;
+      border: 0;
+      padding: 0;
+      background: transparent;
+      color: #1559a8;
+      text-align: left;
+      font: inherit;
+      font-weight: 850;
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 4px;
+    }
+
+    .progression-topic-actions {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 48px;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .progression-topic-actions .writing-bookmark-button {
+      min-width: 46px;
+      min-height: 46px;
+      border-radius: 14px;
+      font-size: 24px;
+    }
+
+    .progression-pending {
+      display: block;
+      margin-top: 5px;
+      color: #b45309;
+      font-size: 12px;
+      font-weight: 900;
     }
 
     .pathway-empty {
@@ -2092,6 +2295,30 @@
       accent-color: var(--green);
     }
 
+    .paragraph-checkbox.is-mastered {
+      border-color: rgba(5,150,105,0.38);
+      background: linear-gradient(135deg, rgba(220,252,231,0.98), rgba(187,247,208,0.88));
+      color: #065f46;
+      box-shadow: inset 0 0 0 1px rgba(5,150,105,0.08), 0 8px 18px rgba(5,150,105,0.10);
+    }
+
+    .paragraph-label-stack {
+      display: grid;
+      gap: 4px;
+      min-width: 0;
+    }
+
+    .paragraph-mastered-badge {
+      width: fit-content;
+      border-radius: 999px;
+      padding: 3px 7px;
+      background: #059669;
+      color: #fff;
+      font-size: 10px;
+      line-height: 1;
+      font-weight: 950;
+    }
+
     .practice-card {
       display: grid;
       gap: 18px;
@@ -2402,6 +2629,16 @@
         text-orientation: mixed;
       }
 
+      .pathway-side-actions {
+        grid-template-columns: 58px minmax(0, 1fr);
+        grid-template-rows: 1fr;
+      }
+
+      .writing-search-result-wrap,
+      .writing-bookmark-row {
+        grid-template-columns: minmax(0, 1fr) 52px;
+      }
+
       .student-row,
       .admin-switch-row,
       .section-head {
@@ -2441,6 +2678,9 @@
         <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
         <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
         <button class="pill-button hidden" type="button" data-admin-switch>切換學生</button>
+        <button class="pill-button writing-header-bookmark hidden" type="button" data-toggle-current-writing-bookmark aria-pressed="false">
+          <span data-writing-header-bookmark-icon aria-hidden="true">☆</span><span>書簽</span>
+        </button>
         <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
         <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
       </div>
@@ -2590,6 +2830,9 @@
     const PASSWORD_LOG_KEY = "edmundWritingPasswordLogs";
     const WRITING_STATE_KEY = "edmundWritingState";
     const PRACTICE_RESULTS_KEY = "edmundWritingPracticeResults";
+    const WRITING_BOOKMARKS_STATE_KEY = "writing-bookmarks-v1";
+    const WRITING_PARAGRAPH_MASTERY_STATE_KEY = "writing-paragraph-mastery-v1";
+    const MAX_WRITING_BOOKMARKS = 200;
     const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
 
@@ -2600,6 +2843,14 @@
       { key: "toefl-writing", label: "TOEFL", subline: "英文寫作" },
       { key: "pte-writing", label: "PTE", subline: "英文寫作", tone: "emerald" },
       { key: "government-writing", label: "政府公務員", subline: "英文寫作", tone: "red" }
+    ];
+
+    const writingProgressionRows = [
+      { number: 1, type: "Opinion - Q56", topic: "Health funding: prevention versus treatment", exerciseId: "model-essay-56-ielts-opinion" },
+      { number: 2, type: "Discuss Both Views and Give Your Opinion - Q22", topic: "Environmental action: governments or individuals?", exerciseId: "model-essay-22-ielts-discuss-both-views" },
+      { number: 3, type: "Cause and Solution - Q5", topic: "Why released prisoners reoffend, and how to reduce it", exerciseId: "" },
+      { number: 4, type: "Advantages and Disadvantages - Q2", topic: "Online shopping for consumers and companies", exerciseId: "model-essay-2-ielts-advantage-disadvantage" },
+      { number: 5, type: "Direct Questions - Q32", topic: "Truth in news and the function of newspapers", exerciseId: "model-essay-32-ielts-direct-question" }
     ];
 
     const writingPathways = {
@@ -4850,7 +5101,12 @@ Device: concession 讓步
     let currentGovernmentDepartmentKey = "";
     let currentExerciseId = "";
     let currentEssayTab = "essay";
+    let currentWritingUtilityView = "";
     let practiceState = null;
+    let writingBookmarks = [];
+    let writingParagraphMastery = {};
+    let writingStudentStateLoaded = false;
+    let writingStateSaveChain = Promise.resolve();
     let activeEssayAudio = null;
     let activeEssayAudioExerciseId = "";
     let activeEssayHighlightFrame = 0;
@@ -4920,6 +5176,288 @@ Device: concession 讓步
 
     function writeJson(key, value) {
       localStorage.setItem(key, JSON.stringify(value));
+    }
+
+    function writingStateAccountKey(user = currentUser) {
+      if (!user?.name || user.role !== "student") return "";
+      if (user.id) return `id:${String(user.id)}`;
+      return `name:${String(user.name).normalize("NFKC").trim().toLowerCase()}`;
+    }
+
+    function writingLocalStateRoot() {
+      const stored = readJson(WRITING_STATE_KEY, {});
+      return {
+        version: 1,
+        accounts: stored?.accounts && typeof stored.accounts === "object" ? stored.accounts : {}
+      };
+    }
+
+    function getWritingLocalAccountState(accountKey = writingStateAccountKey()) {
+      const account = writingLocalStateRoot().accounts?.[accountKey] || {};
+      return {
+        bookmarks: Array.isArray(account.bookmarks) ? account.bookmarks : [],
+        paragraphMastery: account.paragraphMastery && typeof account.paragraphMastery === "object"
+          ? account.paragraphMastery
+          : {},
+        pendingBookmarks: Boolean(account.pendingBookmarks),
+        pendingMastery: Boolean(account.pendingMastery)
+      };
+    }
+
+    function saveWritingLocalAccountState(accountKey, accountState) {
+      if (!accountKey) return;
+      const root = writingLocalStateRoot();
+      root.accounts[accountKey] = {
+        bookmarks: accountState.bookmarks || [],
+        paragraphMastery: accountState.paragraphMastery || {},
+        pendingBookmarks: Boolean(accountState.pendingBookmarks),
+        pendingMastery: Boolean(accountState.pendingMastery)
+      };
+      writeJson(WRITING_STATE_KEY, root);
+    }
+
+    function normalizeWritingBookmarks(value) {
+      const raw = Array.isArray(value) ? value : value?.exerciseIds;
+      if (!Array.isArray(raw)) return [];
+      return [...new Set(raw.map(id => String(id || "").trim()).filter(id => id && exerciseById(id)))]
+        .slice(0, MAX_WRITING_BOOKMARKS);
+    }
+
+    function normalizeWritingParagraphMastery(value) {
+      const raw = value?.exercises && typeof value.exercises === "object" ? value.exercises : value;
+      if (!raw || typeof raw !== "object" || Array.isArray(raw)) return {};
+      const normalized = {};
+      Object.entries(raw).forEach(([exerciseId, indexes]) => {
+        const exercise = exerciseById(exerciseId);
+        if (!exercise || !Array.isArray(indexes)) return;
+        const valid = [...new Set(indexes.map(Number).filter(index => Number.isInteger(index) && index >= 0 && index < exercise.paragraphs.length))]
+          .sort((a, b) => a - b);
+        if (valid.length) normalized[exerciseId] = valid;
+      });
+      return normalized;
+    }
+
+    function mergeWritingParagraphMastery(...maps) {
+      const merged = {};
+      maps.forEach(map => {
+        Object.entries(normalizeWritingParagraphMastery(map)).forEach(([exerciseId, indexes]) => {
+          merged[exerciseId] = [...new Set([...(merged[exerciseId] || []), ...indexes])].sort((a, b) => a - b);
+        });
+      });
+      return merged;
+    }
+
+    function writingStateContext() {
+      const accountKey = writingStateAccountKey();
+      if (!accountKey) return null;
+      if (currentUser?.impersonatedByAdmin && adminPasswordForSession) {
+        return {
+          type: "admin",
+          accountKey,
+          studentName: currentUser.name,
+          adminPassword: adminPasswordForSession
+        };
+      }
+      const token = studentSessionToken || currentUser?.sessionToken || "";
+      if (currentUser?.role === "student" && token) {
+        return { type: "student", accountKey, token };
+      }
+      return null;
+    }
+
+    async function fetchWritingStudentState(context) {
+      if (context.type === "admin") {
+        return callSupabaseRpc("writing_admin_get_student_state", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: context.adminPassword,
+          p_student_name: context.studentName
+        });
+      }
+      return callSupabaseRpc("writing_student_get_state", { p_token: context.token });
+    }
+
+    async function upsertWritingStudentState(context, key, value) {
+      if (context.type === "admin") {
+        return callSupabaseRpc("writing_admin_upsert_student_state", {
+          p_admin_name: ADMIN_NAME,
+          p_admin_password: context.adminPassword,
+          p_student_name: context.studentName,
+          p_key: key,
+          p_value: value
+        });
+      }
+      return callSupabaseRpc("writing_student_upsert_state", {
+        p_token: context.token,
+        p_key: key,
+        p_value: value
+      });
+    }
+
+    function writingStatePayload(key) {
+      if (key === WRITING_BOOKMARKS_STATE_KEY) return { exerciseIds: [...writingBookmarks] };
+      if (key === WRITING_PARAGRAPH_MASTERY_STATE_KEY) return { exercises: { ...writingParagraphMastery } };
+      return {};
+    }
+
+    function saveWritingRuntimeLocally({ pendingBookmarks, pendingMastery } = {}) {
+      const accountKey = writingStateAccountKey();
+      if (!accountKey) return;
+      const previous = getWritingLocalAccountState(accountKey);
+      saveWritingLocalAccountState(accountKey, {
+        bookmarks: [...writingBookmarks],
+        paragraphMastery: { ...writingParagraphMastery },
+        pendingBookmarks: pendingBookmarks ?? previous.pendingBookmarks,
+        pendingMastery: pendingMastery ?? previous.pendingMastery
+      });
+    }
+
+    function queueWritingStateSave(key) {
+      const context = writingStateContext();
+      const payload = writingStatePayload(key);
+      const pendingName = key === WRITING_BOOKMARKS_STATE_KEY ? "pendingBookmarks" : "pendingMastery";
+      if (!context || !supabaseClient) {
+        updateSupabaseStatus("Supabase: local backup", "warning");
+        return Promise.resolve(false);
+      }
+
+      writingStateSaveChain = writingStateSaveChain
+        .catch(() => false)
+        .then(async () => {
+          const saved = await upsertWritingStudentState(context, key, payload);
+          if (saved !== true) throw new Error(`Writing state save rejected for ${key}`);
+          const localState = getWritingLocalAccountState(context.accountKey);
+          const currentPayload = context.accountKey === writingStateAccountKey() ? writingStatePayload(key) : null;
+          const stillCurrent = currentPayload && JSON.stringify(currentPayload) === JSON.stringify(payload);
+          saveWritingLocalAccountState(context.accountKey, {
+            ...localState,
+            [pendingName]: stillCurrent ? false : localState[pendingName]
+          });
+          if (context.accountKey === writingStateAccountKey()) updateSupabaseStatus("Supabase: live", "live");
+          return true;
+        })
+        .catch(error => {
+          console.warn("Could not save writing student state:", error);
+          if (context.accountKey === writingStateAccountKey()) updateSupabaseStatus("Supabase: saved on this device", "warning");
+          return false;
+        });
+      return writingStateSaveChain;
+    }
+
+    function resetWritingPersonalState() {
+      writingBookmarks = [];
+      writingParagraphMastery = {};
+      writingStudentStateLoaded = false;
+      syncWritingBookmarkButtons();
+    }
+
+    async function loadWritingStudentState() {
+      resetWritingPersonalState();
+      const accountKey = writingStateAccountKey();
+      if (!accountKey) return;
+
+      const localState = getWritingLocalAccountState(accountKey);
+      writingBookmarks = normalizeWritingBookmarks(localState.bookmarks);
+      writingParagraphMastery = normalizeWritingParagraphMastery(localState.paragraphMastery);
+      const context = writingStateContext();
+      if (!context || !supabaseClient) {
+        writingStudentStateLoaded = true;
+        syncWritingBookmarkButtons();
+        return;
+      }
+
+      let retryBookmarks = localState.pendingBookmarks;
+      let retryMastery = localState.pendingMastery;
+      try {
+        const rows = await fetchWritingStudentState(context);
+        const remote = new Map((rows || []).map(row => [row.key, row.value]));
+        if (!localState.pendingBookmarks && remote.has(WRITING_BOOKMARKS_STATE_KEY)) {
+          writingBookmarks = normalizeWritingBookmarks(remote.get(WRITING_BOOKMARKS_STATE_KEY));
+        } else if (!remote.has(WRITING_BOOKMARKS_STATE_KEY) && writingBookmarks.length) {
+          retryBookmarks = true;
+        }
+
+        const remoteMastery = normalizeWritingParagraphMastery(remote.get(WRITING_PARAGRAPH_MASTERY_STATE_KEY));
+        const mergedMastery = mergeWritingParagraphMastery(writingParagraphMastery, remoteMastery);
+        retryMastery = retryMastery
+          || !remote.has(WRITING_PARAGRAPH_MASTERY_STATE_KEY) && Object.keys(mergedMastery).length > 0
+          || JSON.stringify(mergedMastery) !== JSON.stringify(remoteMastery);
+        writingParagraphMastery = mergedMastery;
+      } catch (error) {
+        console.warn("Could not load writing student state:", error);
+        updateSupabaseStatus("Supabase: using device backup", "warning");
+      }
+
+      saveWritingLocalAccountState(accountKey, {
+        bookmarks: writingBookmarks,
+        paragraphMastery: writingParagraphMastery,
+        pendingBookmarks: retryBookmarks,
+        pendingMastery: retryMastery
+      });
+      writingStudentStateLoaded = true;
+      syncWritingBookmarkButtons();
+      if (retryBookmarks) queueWritingStateSave(WRITING_BOOKMARKS_STATE_KEY);
+      if (retryMastery) queueWritingStateSave(WRITING_PARAGRAPH_MASTERY_STATE_KEY);
+    }
+
+    function isWritingBookmarked(exerciseId) {
+      return writingBookmarks.includes(String(exerciseId || ""));
+    }
+
+    function isWritingParagraphMastered(exerciseId, paragraphIndex) {
+      return (writingParagraphMastery[String(exerciseId || "")] || []).includes(Number(paragraphIndex));
+    }
+
+    function syncWritingBookmarkButtons() {
+      document.querySelectorAll("[data-writing-bookmark]").forEach(button => {
+        const exerciseId = button.getAttribute("data-writing-bookmark") || "";
+        const active = isWritingBookmarked(exerciseId);
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+        button.setAttribute("aria-label", active ? "移除書簽" : "加入書簽");
+        const star = button.querySelector("[data-writing-bookmark-star]");
+        if (star) star.textContent = active ? "★" : "☆";
+      });
+
+      const headerButton = document.querySelector("[data-toggle-current-writing-bookmark]");
+      const showHeaderButton = Boolean(currentView === "exercise" && currentExerciseId && exerciseById(currentExerciseId));
+      headerButton?.classList.toggle("hidden", !showHeaderButton);
+      if (headerButton) {
+        const active = showHeaderButton && isWritingBookmarked(currentExerciseId);
+        headerButton.classList.toggle("active", active);
+        headerButton.setAttribute("aria-pressed", String(active));
+        headerButton.setAttribute("aria-label", active ? "從書簽移除這篇文章" : "將這篇文章加入書簽");
+        const icon = headerButton.querySelector("[data-writing-header-bookmark-icon]");
+        if (icon) icon.textContent = active ? "★" : "☆";
+      }
+    }
+
+    function toggleWritingBookmark(exerciseId) {
+      const id = String(exerciseId || "");
+      if (!exerciseById(id)) return;
+      if (isWritingBookmarked(id)) {
+        writingBookmarks = writingBookmarks.filter(item => item !== id);
+      } else {
+        writingBookmarks = [id, ...writingBookmarks.filter(item => item !== id)].slice(0, MAX_WRITING_BOOKMARKS);
+      }
+      saveWritingRuntimeLocally({ pendingBookmarks: true });
+      syncWritingBookmarkButtons();
+      queueWritingStateSave(WRITING_BOOKMARKS_STATE_KEY);
+      if (currentWritingUtilityView === "bookmarks") renderExerciseView();
+    }
+
+    function markWritingParagraphsMastered(exerciseId, paragraphIndexes) {
+      const id = String(exerciseId || "");
+      const exercise = exerciseById(id);
+      if (!exercise) return;
+      const existing = writingParagraphMastery[id] || [];
+      const valid = paragraphIndexes
+        .map(Number)
+        .filter(index => Number.isInteger(index) && index >= 0 && index < exercise.paragraphs.length);
+      const next = [...new Set([...existing, ...valid])].sort((a, b) => a - b);
+      if (next.length === existing.length && next.every((value, index) => value === existing[index])) return;
+      writingParagraphMastery = { ...writingParagraphMastery, [id]: next };
+      saveWritingRuntimeLocally({ pendingMastery: true });
+      queueWritingStateSave(WRITING_PARAGRAPH_MASTERY_STATE_KEY);
     }
 
     function isBlankPart(part) {
@@ -5206,7 +5744,14 @@ Device: concession 讓步
     }
 
     function writingBreadcrumbEntries() {
-      if (currentView !== "exercise" || !currentExerciseSectionKey) return [];
+      if (currentView !== "exercise") return [];
+      if (currentWritingUtilityView) {
+        return [
+          { label: "寫作首頁", route: { view: "dashboard" } },
+          { label: currentWritingUtilityView === "bookmarks" ? "書簽" : "Edmund's Progression", route: null }
+        ];
+      }
+      if (!currentExerciseSectionKey) return [];
 
       const section = writingSections.find(item => item.key === currentExerciseSectionKey);
       if (!section) return [];
@@ -5322,6 +5867,7 @@ Device: concession 讓步
       practiceState = null;
 
       if (route.view === "dashboard") {
+        currentWritingUtilityView = "";
         currentExerciseSectionKey = "";
         currentPathwayLevel = "";
         currentEssayTypeKey = "";
@@ -5407,7 +5953,7 @@ Device: concession 讓步
       `;
     }
 
-    function pathwayRowHtml({ label, subline = "", exerciseIds = [], action = "", locked = false }) {
+    function pathwayRowHtml({ label, subline = "", exerciseIds = [], action = "", locked = false, bookmarkExerciseId = "" }) {
       const stats = pathwayStats(exerciseIds);
       const disabled = locked || !exerciseIds.length && action.includes("deck");
       return `
@@ -5417,7 +5963,14 @@ Device: concession 讓步
             ${subline ? `<span class="pathway-row-subtitle">${escapeHtml(subline)}</span>` : ""}
             <span class="pathway-stats">${pathwayStatsHtml(stats)}</span>
           </button>
-          <button class="pathway-reset" type="button" data-reset-writing-path="${escapeHtml(exerciseIds.join(","))}" ${exerciseIds.length ? "" : "disabled"}>重設紀錄</button>
+          <div class="pathway-side-actions">
+            ${bookmarkExerciseId ? `
+              <button class="writing-bookmark-button ${isWritingBookmarked(bookmarkExerciseId) ? "active" : ""}" type="button" data-writing-bookmark="${escapeHtml(bookmarkExerciseId)}" aria-pressed="${isWritingBookmarked(bookmarkExerciseId)}" aria-label="${isWritingBookmarked(bookmarkExerciseId) ? "移除書簽" : "加入書簽"}">
+                <span data-writing-bookmark-star aria-hidden="true">${isWritingBookmarked(bookmarkExerciseId) ? "★" : "☆"}</span>
+              </button>
+            ` : ""}
+            <button class="pathway-reset" type="button" data-reset-writing-path="${escapeHtml(exerciseIds.join(","))}" ${exerciseIds.length ? "" : "disabled"}>重設紀錄</button>
+          </div>
         </div>
       `;
     }
@@ -5443,7 +5996,8 @@ Device: concession 讓步
                   subline: exercise ? `${exercise.exam} | ${exercise.taskType}` : "暫未加入練習",
                   exerciseIds,
                   action: exercise ? `data-open-writing-deck="${escapeHtml(question.exerciseId)}"` : "",
-                  locked: !exercise
+                  locked: !exercise,
+                  bookmarkExerciseId: exercise ? question.exerciseId : ""
                 });
               }).join("") || `<div class="pathway-empty">這個年份暫時未有題目。</div>`}
             </div>
@@ -5515,7 +6069,8 @@ Device: concession 讓步
                 label: exercise.title,
                 subline: `${exercise.exam} | ${exercise.taskType}`,
                 exerciseIds: [exercise.id],
-                action: `data-open-writing-deck="${escapeHtml(exercise.id)}"`
+                action: `data-open-writing-deck="${escapeHtml(exercise.id)}"`,
+                bookmarkExerciseId: exercise.id
               })).join("") : `<div class="pathway-empty">這個部門暫時未有練習。</div>`}
             </div>
           </div>
@@ -5593,12 +6148,16 @@ Device: concession 讓步
               <button class="secondary-button" type="button" data-pathway-back>返回 Task 2</button>
             </div>
             <div class="pathway-list">
-              ${decks.length ? decks.map(exercise => pathwayRowHtml({
-                label: exercise.title,
-                subline: `${exercise.exam} | ${exercise.taskType}`,
-                exerciseIds: [Object.keys(writingExercises).find(key => writingExercises[key] === exercise) || exercise.id],
-                action: `data-open-writing-deck="${escapeHtml(Object.keys(writingExercises).find(key => writingExercises[key] === exercise) || "")}"`
-              })).join("") : `<div class="pathway-empty">這個題型暫時未有文章。</div>`}
+              ${decks.length ? decks.map(exercise => {
+                const exerciseId = Object.keys(writingExercises).find(key => writingExercises[key] === exercise) || exercise.id;
+                return pathwayRowHtml({
+                  label: exercise.title,
+                  subline: `${exercise.exam} | ${exercise.taskType}`,
+                  exerciseIds: [exerciseId],
+                  action: `data-open-writing-deck="${escapeHtml(exerciseId)}"`,
+                  bookmarkExerciseId: exerciseId
+                });
+              }).join("") : `<div class="pathway-empty">這個題型暫時未有文章。</div>`}
             </div>
           </div>
         `;
@@ -5655,6 +6214,7 @@ Device: concession 讓步
             blanks.push({
               ...part,
               paragraphLabel: paragraph.label,
+              paragraphIndex,
               sentenceText: plainSentence(sentence)
             });
           });
@@ -6903,8 +7463,11 @@ Device: concession 讓步
             </div>
             <div class="paragraph-checkboxes ${practiceState?.selectorOpen ? "" : "hidden"}">
               ${exercise.paragraphs.map((paragraph, index) => `
-                <label class="paragraph-checkbox">
-                  ${paragraphLabelHtml(exercise, index)}
+                <label class="paragraph-checkbox ${isWritingParagraphMastered(exercise.id, index) ? "is-mastered" : ""}">
+                  <span class="paragraph-label-stack">
+                    ${paragraphLabelHtml(exercise, index)}
+                    ${isWritingParagraphMastered(exercise.id, index) ? `<span class="paragraph-mastered-badge">✓ 已完成</span>` : ""}
+                  </span>
                   <input type="checkbox" data-practice-paragraph="${index}" ${selectedParagraphs.includes(index) ? "checked" : ""}>
                 </label>
               `).join("")}
@@ -7084,10 +7647,96 @@ Device: concession 讓步
       `;
     }
 
+    function renderWritingUtilityHeader(title, subtitle) {
+      return `
+        <div class="section-head">
+          <div class="exercise-title-block">
+            <span class="exercise-kicker">Writing Practice</span>
+            <h2>${escapeHtml(title)}</h2>
+            <p>${escapeHtml(subtitle)}</p>
+          </div>
+          <button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>
+        </div>
+      `;
+    }
+
+    function renderWritingBookmarksView() {
+      const rows = writingBookmarks
+        .map(exerciseId => {
+          const exercise = exerciseById(exerciseId);
+          const sectionKey = sectionKeyForWritingExercise(exerciseId);
+          return exercise && sectionKey && canAccess(sectionKey) ? { exerciseId, exercise, sectionKey } : null;
+        })
+        .filter(Boolean);
+      return `
+        <section class="writing-utility-page">
+          ${renderWritingUtilityHeader("書簽", "你已收藏的寫作文章會在這裡集中顯示。")}
+          <div class="writing-bookmarks-list">
+            ${rows.length ? rows.map(row => `
+              <div class="writing-bookmark-row">
+                <button class="writing-bookmark-open" type="button" data-open-writing-bookmark="${escapeHtml(row.exerciseId)}">
+                  <strong>${escapeHtml(row.exercise.title || row.exerciseId)}</strong>
+                  <small>${escapeHtml(row.exercise.exam || "Writing")} | ${escapeHtml(row.exercise.taskType || "文章練習")}</small>
+                </button>
+                <button class="writing-bookmark-button active" type="button" data-writing-bookmark="${escapeHtml(row.exerciseId)}" aria-pressed="true" aria-label="移除書簽">
+                  <span data-writing-bookmark-star aria-hidden="true">★</span>
+                </button>
+              </div>
+            `).join("") : `<div class="pathway-empty">你暫時未有書簽。請在文章選擇列或文章頁頂部點擊星號收藏。</div>`}
+          </div>
+        </section>
+      `;
+    }
+
+    function renderWritingProgressionView() {
+      return `
+        <section class="writing-utility-page">
+          ${renderWritingUtilityHeader("Edmund's Progression", "依照 Edmund 建議的次序完成五種 IELTS Task 2 題型。")}
+          <div class="progression-table-shell">
+            <table class="progression-table">
+              <thead>
+                <tr><th>次序</th><th>題型及題號</th><th>主題</th></tr>
+              </thead>
+              <tbody>
+                ${writingProgressionRows.map(row => {
+                  const available = Boolean(row.exerciseId && exerciseById(row.exerciseId));
+                  return `
+                    <tr>
+                      <td>${escapeHtml(row.number)}</td>
+                      <td>${escapeHtml(row.type)}</td>
+                      <td>
+                        ${available
+                          ? `<div class="progression-topic-actions">
+                              <button class="progression-open" type="button" data-open-writing-progression="${escapeHtml(row.exerciseId)}">${escapeHtml(row.topic)}</button>
+                              <button class="writing-bookmark-button ${isWritingBookmarked(row.exerciseId) ? "active" : ""}" type="button" data-writing-bookmark="${escapeHtml(row.exerciseId)}" aria-pressed="${isWritingBookmarked(row.exerciseId)}" aria-label="${isWritingBookmarked(row.exerciseId) ? "移除書簽" : "加入書簽"}">
+                                <span data-writing-bookmark-star aria-hidden="true">${isWritingBookmarked(row.exerciseId) ? "★" : "☆"}</span>
+                              </button>
+                            </div>`
+                          : `${escapeHtml(row.topic)}<span class="progression-pending">內容準備中</span>`}
+                      </td>
+                    </tr>
+                  `;
+                }).join("")}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      `;
+    }
+
     function renderExerciseView() {
       const panel = document.querySelector("[data-exercise-view]");
       if (!panel) return;
       renderWritingBreadcrumbs();
+
+      if (currentWritingUtilityView) {
+        stopEssayAudio();
+        panel.innerHTML = currentWritingUtilityView === "bookmarks"
+          ? renderWritingBookmarksView()
+          : renderWritingProgressionView();
+        syncWritingBookmarkButtons();
+        return;
+      }
 
       const selectedExercise = currentExercise();
       const keepEssayAudio = Boolean(
@@ -7100,6 +7749,7 @@ Device: concession 讓步
 
       if (hasWritingPathway(currentExerciseSectionKey) && !currentExerciseId) {
         panel.innerHTML = renderWritingPathwayView();
+        syncWritingBookmarkButtons();
         return;
       }
 
@@ -7115,21 +7765,25 @@ Device: concession 讓步
             <button class="secondary-button" type="button" data-back-dashboard>返回寫作選單</button>
           </div>
         `;
+        syncWritingBookmarkButtons();
         return;
       }
 
       if (practiceState?.screen === "mode") {
         panel.innerHTML = renderModePage(exercise);
+        syncWritingBookmarkButtons();
         return;
       }
 
       if (practiceState?.screen === "practice") {
         panel.innerHTML = renderPracticeRound(exercise);
+        syncWritingBookmarkButtons();
         return;
       }
 
       panel.innerHTML = renderExerciseContent(exercise);
       syncEssayAudioButton();
+      syncWritingBookmarkButtons();
     }
 
     function exportCurrentStudyPdf() {
@@ -7450,6 +8104,7 @@ Device: concession 讓步
     }
 
     function showExercise(sectionKey) {
+      currentWritingUtilityView = "";
       currentExerciseSectionKey = sectionKey;
       currentPathwayLevel = hasWritingPathway(sectionKey) ? "" : "exercise";
       currentEssayTypeKey = "";
@@ -7528,7 +8183,24 @@ Device: concession 讓步
         }
       });
 
+      const selectedParagraphs = normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs);
+      const hasFullParagraphCoverage = practiceState.round === 1
+        && !practiceState.sentenceKeys?.length
+        && !practiceState.targetBlankIds?.length;
+      const paragraphIndexesInThisRound = hasFullParagraphCoverage
+        ? selectedParagraphs
+        : [...new Set(targets.map(target => target.paragraphIndex).filter(Number.isInteger))];
+      const perfectParagraphIndexes = paragraphIndexesInThisRound.filter(paragraphIndex => {
+        const paragraphTargets = targets.filter(target => target.paragraphIndex === paragraphIndex);
+        return paragraphTargets.length > 0
+          && !mistakes.some(mistake => mistake.paragraphIndex === paragraphIndex);
+      });
+      if (perfectParagraphIndexes.length) {
+        markWritingParagraphsMastered(exercise.id, perfectParagraphIndexes);
+      }
+
       const result = {
+        schemaVersion: 2,
         id: `${exercise.id}-${Date.now()}-${practiceState.round}`,
         exerciseId: exercise.id,
         exerciseTitle: exercise.title,
@@ -7539,6 +8211,9 @@ Device: concession 讓步
         difficultyKey: practiceState.difficultyKey || "",
         difficultyLabel: practiceDifficultyLabel(exercise, practiceState.difficultyKey || ""),
         styleLabel: practiceStyleLabel(exercise),
+        selectedParagraphs,
+        perfectParagraphIndexes,
+        coverage: hasFullParagraphCoverage ? "full-paragraph" : "remedial-completion",
         total: targets.length,
         correct: Math.max(0, targets.length - mistakes.length),
         mistakes,
@@ -7727,7 +8402,7 @@ Device: concession 讓步
       const session = readJson(SESSION_KEY, null);
       if (!session?.name || !session?.role) return false;
       currentUser = session;
-      if (session.role === "admin") {
+      if (session.role === "admin" || session.impersonatedByAdmin) {
         adminPasswordForSession = localStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
       }
       if (session.role === "student") {
@@ -7817,14 +8492,22 @@ Device: concession 讓步
             <span><strong>${escapeHtml(section.label)} ${escapeHtml(section.subline)}</strong><small>${escapeHtml(section.key)}</small></span><em>進入</em>
           </button>`).join("")}` : ""}
         ${exerciseResults.length ? `<div class="writing-search-section-label">文章</div>${exerciseResults.map(row => `
-          <button class="writing-search-result" type="button" data-writing-search-exercise="${escapeHtml(row.exerciseId)}" data-writing-search-section="${escapeHtml(row.sectionKey)}">
-            <span><strong>${escapeHtml(row.exercise.title || row.exerciseId)}</strong><small>${escapeHtml(row.exercise.exam || "Writing")} | ${escapeHtml(row.exercise.taskType || "文章練習")}</small></span><em>練習</em>
-          </button>`).join("")}` : ""}
+          <div class="writing-search-result-wrap">
+            <button class="writing-search-result" type="button" data-writing-search-exercise="${escapeHtml(row.exerciseId)}" data-writing-search-section="${escapeHtml(row.sectionKey)}">
+              <span><strong>${escapeHtml(row.exercise.title || row.exerciseId)}</strong><small>${escapeHtml(row.exercise.exam || "Writing")} | ${escapeHtml(row.exercise.taskType || "文章練習")}</small></span><em>練習</em>
+            </button>
+            <button class="writing-bookmark-button ${isWritingBookmarked(row.exerciseId) ? "active" : ""}" type="button" data-writing-bookmark="${escapeHtml(row.exerciseId)}" aria-pressed="${isWritingBookmarked(row.exerciseId)}" aria-label="${isWritingBookmarked(row.exerciseId) ? "移除書簽" : "加入書簽"}">
+              <span data-writing-bookmark-star aria-hidden="true">${isWritingBookmarked(row.exerciseId) ? "★" : "☆"}</span>
+            </button>
+          </div>`).join("")}` : ""}
       `;
+      syncWritingBookmarkButtons();
     }
 
-    function openWritingExerciseFromSearch(sectionKey, exerciseId) {
-      if (!canAccess(sectionKey) || !exerciseById(exerciseId)) return;
+    function openWritingExerciseById(exerciseId) {
+      const sectionKey = sectionKeyForWritingExercise(exerciseId);
+      if (!sectionKey || !canAccess(sectionKey) || !exerciseById(exerciseId)) return;
+      currentWritingUtilityView = "";
       currentExerciseSectionKey = sectionKey;
       setWritingPathForExercise(sectionKey, exerciseId);
       currentExerciseId = exerciseId;
@@ -7833,20 +8516,28 @@ Device: concession 讓步
       showAppPanel("exercise");
     }
 
+    function openWritingExerciseFromSearch(sectionKey, exerciseId) {
+      if (sectionKey !== sectionKeyForWritingExercise(exerciseId)) return;
+      openWritingExerciseById(exerciseId);
+    }
+
     function updateNavActions() {
       document.querySelector("[data-logout]")?.classList.toggle("hidden", !currentUser);
       document.querySelector("[data-admin-panel-shortcut]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
       document.querySelector("[data-return-admin]")?.classList.toggle("hidden", !currentUser?.impersonatedByAdmin);
       document.querySelector("[data-admin-switch]")?.classList.toggle("hidden", !isAdmin());
+      syncWritingBookmarkButtons();
     }
 
     function showLogin() {
       stopEssayAudio();
+      resetWritingPersonalState();
       currentUser = null;
       currentView = "login";
       studentSessionToken = "";
       selectedStudentName = "";
       currentExerciseSectionKey = "";
+      currentWritingUtilityView = "";
       practiceState = null;
       localStorage.removeItem(SESSION_KEY);
       localStorage.removeItem(ADMIN_SESSION_PASSWORD_KEY);
@@ -7896,6 +8587,7 @@ Device: concession 讓步
             });
             if (Array.isArray(adminRows) && adminRows.length) {
               adminPasswordForSession = password;
+              resetWritingPersonalState();
               setSession({ name: ADMIN_NAME, role: "admin", access: defaultAccess(), createdAt: Date.now() });
               await loadStudentsFromSupabase();
               showAppPanel("admin-panel");
@@ -7920,6 +8612,7 @@ Device: concession 讓步
               sessionToken: studentSessionToken
             };
             setSession(currentUser);
+            await loadWritingStudentState();
             showAppPanel("dashboard");
             updateSupabaseStatus("Supabase: live", "live");
             return true;
@@ -7933,6 +8626,7 @@ Device: concession 讓步
       const student = getStudents().find(item => item.name === trimmedName && item.password === password);
       if (student) {
         setSession({ name: student.name, role: "student", access: student.access, createdAt: student.createdAt });
+        await loadWritingStudentState();
         showAppPanel("dashboard");
         return true;
       }
@@ -7962,15 +8656,31 @@ Device: concession 讓步
       `;
     }
 
+    function writingUtilityTileHtml({ key, label, subline, className }) {
+      return `
+        <button class="tile ${escapeHtml(className)}" type="button" data-writing-utility="${escapeHtml(key)}">
+          <span class="tile-label">
+            <span class="tile-line">${escapeHtml(label)}</span>
+            <span class="tile-line tile-subline">${escapeHtml(subline)}</span>
+          </span>
+        </button>
+      `;
+    }
+
     function renderDashboard() {
       const label = document.querySelector("[data-user-label]");
       if (label) label.textContent = `${currentUser?.name || "學生"} | ${isAdmin() ? "管理員模式" : "學生模式"}`;
       const welcome = document.querySelector("[data-welcome-message]");
       if (welcome) welcome.innerHTML = `歡迎回來！<span>${escapeHtml(currentUser?.name || "學生")}</span>~`;
       const grid = document.querySelector("[data-writing-grid]");
-      if (grid) grid.innerHTML = writingSections.map(tileHtml).join("");
+      if (grid) grid.innerHTML = `
+        ${writingSections.map(tileHtml).join("")}
+        ${writingUtilityTileHtml({ key: "bookmarks", label: "book mark", subline: "書簽", className: "bookmark-tile" })}
+        ${writingUtilityTileHtml({ key: "progression", label: "Edmund's Progression", subline: "學習進程", className: "progression-tile" })}
+      `;
       const searchInput = document.querySelector("[data-writing-search-input]");
       renderWritingSearchResults(searchInput?.value || "");
+      syncWritingBookmarkButtons();
     }
 
     function renderStudents() {
@@ -8156,12 +8866,14 @@ Device: concession 讓步
         impersonatedByAdmin: true
       };
       setSession(currentUser);
+      await loadWritingStudentState();
       closeAdminSwitchModal();
       showAppPanel("dashboard");
     }
 
     function returnToAdminAccount() {
       if (!adminPasswordForSession) return;
+      resetWritingPersonalState();
       currentUser = {
         name: ADMIN_NAME,
         role: "admin",
@@ -8303,9 +9015,48 @@ Device: concession 讓步
 
         if (event.target.closest("[data-logout]")) {
           showLogin();
+          return;
+        }
+
+        const bookmarkButton = event.target.closest("[data-writing-bookmark]");
+        if (bookmarkButton) {
+          toggleWritingBookmark(bookmarkButton.getAttribute("data-writing-bookmark") || "");
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-current-writing-bookmark]")) {
+          toggleWritingBookmark(currentExerciseId);
+          return;
+        }
+
+        const utilityButton = event.target.closest("[data-writing-utility]");
+        if (utilityButton) {
+          currentWritingUtilityView = utilityButton.getAttribute("data-writing-utility") || "";
+          currentExerciseSectionKey = "";
+          currentPathwayLevel = "";
+          currentEssayTypeKey = "";
+          resetDseWritingPathwayState();
+          resetGovernmentWritingPathwayState();
+          currentExerciseId = "";
+          practiceState = null;
+          showAppPanel("exercise");
+          return;
+        }
+
+        const bookmarkedExerciseButton = event.target.closest("[data-open-writing-bookmark]");
+        if (bookmarkedExerciseButton) {
+          openWritingExerciseById(bookmarkedExerciseButton.getAttribute("data-open-writing-bookmark") || "");
+          return;
+        }
+
+        const progressionExerciseButton = event.target.closest("[data-open-writing-progression]");
+        if (progressionExerciseButton) {
+          openWritingExerciseById(progressionExerciseButton.getAttribute("data-open-writing-progression") || "");
+          return;
         }
 
         if (event.target.closest("[data-open-dashboard]")) {
+          currentWritingUtilityView = "";
           currentExerciseSectionKey = "";
           currentPathwayLevel = "";
           currentEssayTypeKey = "";
@@ -8347,6 +9098,7 @@ Device: concession 讓步
         }
 
         if (event.target.closest("[data-back-dashboard]")) {
+          currentWritingUtilityView = "";
           currentExerciseSectionKey = "";
           currentPathwayLevel = "";
           currentEssayTypeKey = "";
@@ -8691,6 +9443,7 @@ Device: concession 讓步
       const restored = restoreSession();
       await initSupabaseState();
       if (restored && currentUser) {
+        if (currentUser.role === "student") await loadWritingStudentState();
         showAppPanel(currentUser.role === "admin" ? "admin-panel" : "dashboard");
       } else {
         showLogin();
