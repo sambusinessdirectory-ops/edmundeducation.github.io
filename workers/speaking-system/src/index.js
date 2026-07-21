@@ -22,12 +22,24 @@ const SPEAKING_ACCESS_STATE_KEY = "speaking-access-v1";
 const SPEAKING_BOOKMARKS_STATE_KEY = "speaking-bookmarks-v1";
 const MAX_BOOKMARKS = 200;
 const MAX_ADMIN_STUDENTS = 2000;
+const MAX_EXAM_ATTEMPT_PAGES = 100;
+const MAX_EXAM_PROMPT_LENGTH = 800;
+const MAX_EXAM_SOURCE_ID_LENGTH = 120;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const EXERCISE_ID_RE = /^[A-Za-z0-9][A-Za-z0-9._:-]{0,119}$/;
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 
 const SPEAKING_EXAMS = new Set(["dse", "ielts", "business", "interview", "civil-service"]);
+const EXAM_MODE_PARTS = new Map([
+  ["full", [1, 2, 3]],
+  ["p1", [1]],
+  ["p2", [2]],
+  ["p3", [3]],
+  ["p1-p2", [1, 2]],
+  ["p1-p3", [1, 3]],
+  ["p2-p3", [2, 3]]
+]);
 const SPEAKING_ACCESS_KEYS = new Set([
   "exam.dse",
   "exam.ielts",
@@ -64,6 +76,20 @@ const RECORDING_PRIVATE_FIELDS = [
   "storage_state",
   "delete_requested_at",
   "last_storage_error",
+  "updated_at"
+].join(",");
+
+const EXAM_ATTEMPT_PUBLIC_FIELDS = [
+  "id",
+  "attempt_number",
+  "mode_id",
+  "natural_exchange",
+  "manifest_version",
+  "question_manifest",
+  "nervousness_rating",
+  "rated_at",
+  "started_at",
+  "completed_at",
   "updated_at"
 ].join(",");
 
@@ -138,6 +164,19 @@ async function route(request, env, ctx) {
   }
   if (url.pathname === "/v1/bookmarks" && request.method === "PUT") {
     return putBookmarks(request, env);
+  }
+  if (url.pathname === "/v1/exam-attempts/latest" && request.method === "GET") {
+    return getLatestExamAttempt(request, env);
+  }
+  if (url.pathname === "/v1/exam-attempts" && request.method === "GET") {
+    return listExamAttempts(request, env);
+  }
+  const examAttemptMatch = url.pathname.match(/^\/v1\/exam-attempts\/([0-9a-f-]{36})$/i);
+  if (examAttemptMatch && request.method === "PUT") {
+    return putExamAttempt(request, env, examAttemptMatch[1]);
+  }
+  if (examAttemptMatch && request.method === "PATCH") {
+    return completeExamAttempt(request, env, examAttemptMatch[1]);
   }
 
   if (url.pathname === "/v1/admin/students" && request.method === "GET") {
@@ -234,7 +273,7 @@ function isAllowedOrigin(origin, env) {
 function corsHeaders(origin, env) {
   const headers = securityHeaders();
   headers.set("Access-Control-Allow-Headers", "Authorization, Content-Type");
-  headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, PATCH, DELETE, OPTIONS");
   headers.set(
     "Access-Control-Expose-Headers",
     [
@@ -492,6 +531,19 @@ async function discardResponse(response) {
   }
 }
 
+async function parseUpstreamArray(response, resourceLabel) {
+  let value;
+  try {
+    value = await response.json();
+  } catch (error) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", `${resourceLabel} returned an invalid response`);
+  }
+  if (!Array.isArray(value)) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", `${resourceLabel} returned an invalid response`);
+  }
+  return value;
+}
+
 async function authenticateStudent(request, env) {
   const token = bearerToken(request);
   if (!token) return null;
@@ -674,7 +726,7 @@ function normalizeBookmark(bookmark, strict = false) {
       || bookmark.part > 3
       || !Number.isInteger(bookmark.book)
       || bookmark.book < 1
-      || bookmark.book > 16
+      || bookmark.book > (bookmark.part === 1 ? 14 : 16)
     ) return invalid();
     return { kind: "book", exam: "ielts", part: bookmark.part, book: bookmark.book };
   }
@@ -688,7 +740,7 @@ function normalizeBookmark(bookmark, strict = false) {
       || bookmark.part > 3
       || !Number.isInteger(bookmark.book)
       || bookmark.book < 1
-      || bookmark.book > 16
+      || bookmark.book > (bookmark.part === 1 ? 14 : 16)
       || typeof bookmark.exerciseId !== "string"
       || !EXERCISE_ID_RE.test(bookmark.exerciseId)
     ) return invalid();
@@ -698,6 +750,33 @@ function normalizeBookmark(bookmark, strict = false) {
       part: bookmark.part,
       book: bookmark.book,
       exerciseId: bookmark.exerciseId
+    };
+  }
+
+  if (bookmark.kind === "question") {
+    if (
+      !hasExactKeys(bookmark, ["kind", "exam", "part", "book", "exerciseId", "questionNumber"])
+      || bookmark.exam !== "ielts"
+      || !Number.isInteger(bookmark.part)
+      || bookmark.part < 1
+      || bookmark.part > 3
+      || !Number.isInteger(bookmark.book)
+      || bookmark.book < 1
+      || bookmark.book > (bookmark.part === 1 ? 14 : 16)
+      || typeof bookmark.exerciseId !== "string"
+      || !EXERCISE_ID_RE.test(bookmark.exerciseId)
+      || !Number.isInteger(bookmark.questionNumber)
+      || bookmark.questionNumber < 1
+      || bookmark.questionNumber > 99
+      || (bookmark.part !== 1 && bookmark.questionNumber !== 1)
+    ) return invalid();
+    return {
+      kind: "question",
+      exam: "ielts",
+      part: bookmark.part,
+      book: bookmark.book,
+      exerciseId: bookmark.exerciseId,
+      questionNumber: bookmark.questionNumber
     };
   }
 
@@ -820,6 +899,297 @@ async function putBookmarks(request, env) {
   const bookmarks = normalizeBookmarks(payload.bookmarks, true);
   await upsertStudentState(env, student.id, SPEAKING_BOOKMARKS_STATE_KEY, bookmarks);
   return json({ bookmarks }, 200, request, env);
+}
+
+function expectedExamQuestionCount(modeId) {
+  const parts = EXAM_MODE_PARTS.get(String(modeId || ""));
+  return parts?.reduce((total, part) => total + (part === 1 ? 12 : part === 2 ? 1 : 6), 0) || 0;
+}
+
+function expectedExamPartForOrder(modeId, order) {
+  const parts = EXAM_MODE_PARTS.get(String(modeId || ""));
+  const wanted = Number(order);
+  if (!parts || !Number.isInteger(wanted) || wanted < 1) return null;
+  let cursor = 0;
+  for (const part of parts) {
+    const count = part === 1 ? 12 : part === 2 ? 1 : 6;
+    if (wanted <= cursor + count) return part;
+    cursor += count;
+  }
+  return null;
+}
+
+function normalizeExamContentKey(value) {
+  return String(value || "")
+    .normalize("NFKC")
+    .toLocaleLowerCase("en")
+    .replace(/[’]/g, "'")
+    .replace(/[^\p{L}\p{N}']+/gu, " ")
+    .trim();
+}
+
+function examSourceKey(part, sourceId, questionNumber) {
+  return Number(part) === 1
+    ? `p1:${sourceId}:q${questionNumber}`
+    : `p${part}:${sourceId}`;
+}
+
+function normalizeExamQuestionManifest(modeId, value) {
+  const expected = expectedExamQuestionCount(modeId);
+  if (!expected || !Array.isArray(value) || value.length !== expected) {
+    throw new HttpError(400, "INVALID_EXAM_MANIFEST", "questions does not match the selected exam mode");
+  }
+  const sourceKeys = new Set();
+  const contentKeys = new Set();
+  return value.map((raw, index) => {
+    if (!hasExactKeys(raw, [
+      "order",
+      "part",
+      "sourceId",
+      "sourceBook",
+      "sourceIndex",
+      "questionNumber",
+      "promptEn",
+      "promptZh"
+    ])) {
+      throw new HttpError(400, "INVALID_EXAM_MANIFEST", "questions contains an invalid item shape");
+    }
+    if (
+      !Number.isInteger(raw.order)
+      || !Number.isInteger(raw.part)
+      || typeof raw.sourceId !== "string"
+      || !Number.isInteger(raw.sourceBook)
+      || !Number.isInteger(raw.sourceIndex)
+      || (raw.questionNumber !== null && !Number.isInteger(raw.questionNumber))
+      || typeof raw.promptEn !== "string"
+      || typeof raw.promptZh !== "string"
+    ) {
+      throw new HttpError(400, "INVALID_EXAM_MANIFEST", "questions contains invalid field types");
+    }
+    const order = raw.order;
+    const part = raw.part;
+    const sourceId = raw.sourceId.trim();
+    const sourceBook = raw.sourceBook;
+    const sourceIndex = raw.sourceIndex;
+    const questionNumber = raw.questionNumber;
+    const promptEn = raw.promptEn.normalize("NFKC").trim();
+    const promptZh = raw.promptZh.normalize("NFKC").trim();
+    if (
+      order !== index + 1
+      || expectedExamPartForOrder(modeId, order) !== part
+      || !EXERCISE_ID_RE.test(sourceId)
+      || sourceId.length > MAX_EXAM_SOURCE_ID_LENGTH
+      || !Number.isInteger(sourceBook)
+      || sourceBook < 1
+      || sourceBook > (part === 1 ? 14 : 16)
+      || !Number.isInteger(sourceIndex)
+      || sourceIndex < 1
+      || sourceIndex > 9999
+      || (part === 1 && (!Number.isInteger(questionNumber) || questionNumber < 1 || questionNumber > 99))
+      || (part !== 1 && questionNumber !== null)
+      || !promptEn
+      || !promptZh
+      || promptEn.length > MAX_EXAM_PROMPT_LENGTH
+      || promptZh.length > MAX_EXAM_PROMPT_LENGTH
+      || /[\u0000-\u001f\u007f]/.test(`${promptEn}${promptZh}`)
+    ) {
+      throw new HttpError(400, "INVALID_EXAM_MANIFEST", "questions contains invalid source or prompt data");
+    }
+    const sourceKey = examSourceKey(part, sourceId, questionNumber);
+    const contentKey = normalizeExamContentKey(promptEn || promptZh);
+    if (!contentKey || sourceKeys.has(sourceKey) || contentKeys.has(contentKey)) {
+      throw new HttpError(400, "INVALID_EXAM_MANIFEST", "questions contains a duplicate or empty question");
+    }
+    sourceKeys.add(sourceKey);
+    contentKeys.add(contentKey);
+    return {
+      order,
+      part,
+      sourceKey,
+      contentKey,
+      sourceId,
+      sourceBook,
+      sourceIndex,
+      questionNumber,
+      promptEn,
+      promptZh
+    };
+  });
+}
+
+async function enforceExamManifestAccess(env, studentId, manifest) {
+  const access = await studentSpeakingAccess(env, studentId);
+  const required = new Set(["exam.ielts"]);
+  for (const question of manifest) {
+    required.add(`ielts.part.${question.part}`);
+    required.add(`ielts.part.${question.part}.book.${question.sourceBook}`);
+  }
+  if ([...required].some(key => access[key] === false)) {
+    throw new HttpError(403, "SECTION_ACCESS_DENIED", "Your account does not have access to every selected exam question");
+  }
+}
+
+function publicExamAttempt(row) {
+  if (!row || typeof row !== "object") return null;
+  return {
+    id: String(row.id || "").toLowerCase(),
+    attemptNumber: Number(row.attempt_number || 0),
+    modeId: String(row.mode_id || ""),
+    naturalExchange: row.natural_exchange === true,
+    manifestVersion: Number(row.manifest_version || 1),
+    questions: Array.isArray(row.question_manifest) ? row.question_manifest : [],
+    nervousness: row.nervousness_rating === null || row.nervousness_rating === undefined
+      ? null
+      : Number(row.nervousness_rating),
+    ratedAt: row.rated_at ? String(row.rated_at) : null,
+    startedAt: String(row.started_at || ""),
+    completedAt: row.completed_at ? String(row.completed_at) : null,
+    updatedAt: String(row.updated_at || "")
+  };
+}
+
+async function queryLatestExamAttempt(env, studentId) {
+  const params = new URLSearchParams({
+    select: EXAM_ATTEMPT_PUBLIC_FIELDS,
+    student_id: `eq.${studentId}`,
+    order: "attempt_number.desc",
+    limit: "1"
+  });
+  let response;
+  try {
+    response = await supabaseFetch(env, `/rest/v1/speaking_exam_attempts?${params}`, { method: "GET" });
+  } catch (error) {
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+  if (!response.ok) {
+    await discardResponse(response);
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+  const rows = await parseUpstreamArray(response, "Exam attempts");
+  if (!Array.isArray(rows) || rows.length > 1) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam attempts returned an invalid response");
+  }
+  return rows[0] || null;
+}
+
+async function getLatestExamAttempt(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const row = await queryLatestExamAttempt(env, student.id);
+  return json({ attempt: publicExamAttempt(row) }, 200, request, env);
+}
+
+async function putExamAttempt(request, env, attemptId) {
+  if (!UUID_RE.test(attemptId)) throw new HttpError(404, "EXAM_ATTEMPT_NOT_FOUND", "Exam attempt not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  await enforceExamStartRateLimit(env, student.id);
+  const payload = await readLimitedJson(request, 65536);
+  if (!hasExactKeys(payload, ["modeId", "naturalExchange", "questions"])) {
+    throw new HttpError(400, "INVALID_EXAM_ATTEMPT", "Request body must contain modeId, naturalExchange and questions");
+  }
+  const modeId = String(payload.modeId || "");
+  if (!EXAM_MODE_PARTS.has(modeId) || typeof payload.naturalExchange !== "boolean") {
+    throw new HttpError(400, "INVALID_EXAM_ATTEMPT", "Invalid exam mode or naturalExchange value");
+  }
+  const manifest = normalizeExamQuestionManifest(modeId, payload.questions);
+  await enforceExamManifestAccess(env, student.id, manifest);
+  const value = rpcObject(await rpc(env, "speaking_create_exam_attempt", {
+    p_id: attemptId.toLowerCase(),
+    p_student_id: student.id,
+    p_mode_id: modeId,
+    p_natural_exchange: payload.naturalExchange,
+    p_question_manifest: manifest
+  }));
+  if (!value) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam attempt service returned an invalid response");
+  if (value.ok !== true) {
+    if (value.code === "STUDENT_NOT_FOUND") throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+    if (value.code === "EXAM_COOLDOWN_CONFLICT") {
+      throw new HttpError(409, value.code, "The latest attempt changed; rebuild without its questions");
+    }
+    throw new HttpError(409, "EXAM_ATTEMPT_CONFLICT", "This exam attempt identifier is already in use");
+  }
+  const response = json({ attempt: publicExamAttempt(value.attempt), idempotent: value.idempotent === true }, value.idempotent ? 200 : 201, request, env);
+  response.headers.set("Location", new URL(`/v1/exam-attempts/${attemptId.toLowerCase()}`, request.url).toString());
+  return response;
+}
+
+function expectedExamExerciseIds(attempt) {
+  const modeId = String(attempt?.mode_id || "");
+  const id = String(attempt?.id || "").toLowerCase();
+  const parts = EXAM_MODE_PARTS.get(modeId) || [];
+  const ids = [];
+  if (attempt?.natural_exchange === true && parts.length) ids.push(`exam:${modeId}:${id}:p${parts[0]}:intro`);
+  const count = expectedExamQuestionCount(modeId);
+  for (let order = 1; order <= count; order += 1) {
+    ids.push(`exam:${modeId}:${id}:p${expectedExamPartForOrder(modeId, order)}:q${String(order).padStart(2, "0")}`);
+  }
+  return ids;
+}
+
+async function completeExamAttempt(request, env, attemptId) {
+  if (!UUID_RE.test(attemptId)) throw new HttpError(404, "EXAM_ATTEMPT_NOT_FOUND", "Exam attempt not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const payload = await readLimitedJson(request, 2048);
+  if (!hasExactKeys(payload, ["nervousness"]) || !Number.isInteger(payload.nervousness) || payload.nervousness < 1 || payload.nervousness > 7) {
+    throw new HttpError(400, "INVALID_NERVOUSNESS_RATING", "nervousness must be an integer from 1 to 7");
+  }
+  const value = rpcObject(await rpc(env, "speaking_complete_exam_attempt", {
+    p_id: attemptId.toLowerCase(),
+    p_student_id: student.id,
+    p_nervousness_rating: payload.nervousness
+  }));
+  if (!value || value.ok !== true || !value.attempt) {
+    if (value?.code === "EXAM_ATTEMPT_NOT_FOUND") throw new HttpError(404, value.code, "Exam attempt not found");
+    if (value?.code === "EXAM_RECORDINGS_INCOMPLETE") {
+      throw new HttpError(409, value.code, "All exam recordings must be saved before self-evaluation");
+    }
+    if (value?.code === "EXAM_ATTEMPT_ALREADY_COMPLETED") {
+      throw new HttpError(409, value.code, "This exam attempt already has a different self-evaluation");
+    }
+    throw new HttpError(502, "EXAM_ATTEMPT_SAVE_FAILED", "The self-evaluation could not be saved");
+  }
+  return json({ attempt: publicExamAttempt(value.attempt), idempotent: value.idempotent === true }, 200, request, env);
+}
+
+async function listExamAttempts(request, env) {
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const url = new URL(request.url);
+  const { page, pageSize } = parsePage(url);
+  if (page > MAX_EXAM_ATTEMPT_PAGES) {
+    throw new HttpError(400, "INVALID_PAGINATION", "Exam-attempt page is too large");
+  }
+  const params = new URLSearchParams({
+    select: EXAM_ATTEMPT_PUBLIC_FIELDS,
+    student_id: `eq.${student.id}`,
+    order: "attempt_number.desc",
+    limit: String(pageSize),
+    offset: String((page - 1) * pageSize)
+  });
+  let response;
+  try {
+    response = await supabaseFetch(env, `/rest/v1/speaking_exam_attempts?${params}`, {
+      method: "GET",
+      headers: { Prefer: "count=exact" }
+    });
+  } catch (error) {
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+  if (!response.ok) {
+    await discardResponse(response);
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+  const rows = await parseUpstreamArray(response, "Exam attempts");
+  const contentRange = response.headers.get("Content-Range") || "";
+  const totalMatch = contentRange.match(/\/(\d+)$/);
+  return json({
+    attempts: rows.map(publicExamAttempt).filter(Boolean),
+    page,
+    pageSize,
+    total: totalMatch ? Number(totalMatch[1]) : null
+  }, 200, request, env);
 }
 
 async function fetchPostgrestRows(env, table, baseParams, maximumRows, errorCode, errorMessage) {
@@ -1303,6 +1673,21 @@ async function enforceUploadRateLimit(env, studentId) {
   }
   if (!result.success) {
     throw new HttpError(429, "UPLOAD_RATE_LIMITED", "Too many recording uploads; wait one minute and try again");
+  }
+}
+
+async function enforceExamStartRateLimit(env, studentId) {
+  if (!env.UPLOAD_RATE_LIMITER || typeof env.UPLOAD_RATE_LIMITER.limit !== "function") {
+    throw new HttpError(503, "EXAM_START_RATE_LIMIT_NOT_CONFIGURED", "Exam practice is not configured");
+  }
+  let result;
+  try {
+    result = await env.UPLOAD_RATE_LIMITER.limit({ key: `speaking-exam-start:${studentId}` });
+  } catch (error) {
+    throw new HttpError(503, "EXAM_START_RATE_LIMIT_UNAVAILABLE", "Exam practice is temporarily unavailable");
+  }
+  if (!result.success) {
+    throw new HttpError(429, "EXAM_START_RATE_LIMITED", "Too many exam attempts were started; wait one minute and try again");
   }
 }
 

@@ -42,6 +42,8 @@ for (const mode of exam.modes) {
   assert.equal(items.length, expectedCounts[mode.id], `${mode.id} item count`);
   assert.deepEqual([...new Set(Array.from(items, item => item.part))], Array.from(mode.parts), `${mode.id} part order`);
   assert.deepEqual(Array.from(items, item => item.globalOrder), Array.from({ length: items.length }, (_, index) => index + 1));
+  assert.equal(new Set(items.map(item => item.sourceKey)).size, items.length, `${mode.id} source identities`);
+  assert.equal(new Set(items.map(item => item.contentKey)).size, items.length, `${mode.id} content identities`);
 }
 
 const part1Items = exam.buildExamItems("p1", pools, { randomIndex: () => 0 });
@@ -55,6 +57,35 @@ for (let slot = 1; slot <= 4; slot += 1) {
 
 const part3Items = exam.buildExamItems("p3", pools, { randomIndex: () => 0 });
 assert.equal(new Set(part3Items.map(item => item.sourceId)).size, 6, "Part 3 must draw six unique records");
+assert.equal(new Set(part3Items.map(item => item.contentKey)).size, 6, "Part 3 must not draw duplicate wording");
+
+const cooldownAttemptA = exam.buildExamItems("p1", pools, { randomIndex: () => 0 });
+const cooldownAttemptB = exam.buildExamItems("p1", pools, {
+  randomIndex: () => 0,
+  excludedSourceKeys: cooldownAttemptA.map(item => item.sourceKey),
+  excludedContentKeys: cooldownAttemptA.map(item => item.contentKey)
+});
+assert.equal(
+  cooldownAttemptB.some(item => cooldownAttemptA.some(previous => previous.sourceKey === item.sourceKey || previous.contentKey === item.contentKey)),
+  false,
+  "the immediately previous attempt must be fully excluded"
+);
+const cooldownAttemptC = exam.buildExamItems("p1", pools, {
+  randomIndex: () => 0,
+  excludedSourceKeys: cooldownAttemptB.map(item => item.sourceKey),
+  excludedContentKeys: cooldownAttemptB.map(item => item.contentKey)
+});
+assert.equal(
+  cooldownAttemptC.some(item => cooldownAttemptA.some(previous => previous.sourceKey === item.sourceKey)),
+  true,
+  "questions from attempt X may return in X+2 once only X+1 is frozen"
+);
+
+const blockedPart2 = exam.buildExamItems("p2", pools, { randomIndex: () => 0 });
+assert.equal(exam.modeIsFeasible("p2", pools, {
+  excludedSourceKeys: part2.map(item => `p2:${item.id}`),
+  excludedContentKeys: part2.map(item => exam.normalizeContentKey(item.cueCard?.promptEn || item.title || ""))
+}), false, "cooldown-aware feasibility must not silently reuse a blocked Part 2 card");
 
 const fixedAttempt = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
 const recordingId = exam.recordingExerciseId("p1-p3", fixedAttempt, 3, 18);
@@ -68,8 +99,33 @@ assert.equal(exam.parseRecordingExerciseId(`exam:full:${fixedAttempt}:p3:q01`), 
 assert.equal(exam.parseRecordingExerciseId(`exam:p1:${fixedAttempt}:p1:q13`), null, "Order must stay within the mode");
 assert.equal(exam.parseRecordingExerciseId(`exam:p2:${fixedAttempt}:p2:q00`), null, "Order zero is invalid");
 assert.throws(() => exam.recordingExerciseId("full", fixedAttempt, 3, 1), /Invalid exam recording identifier/);
+const introRecordingId = exam.recordingIntroId("p2-p3", fixedAttempt, 2);
+assert.equal(introRecordingId, `exam:p2-p3:${fixedAttempt}:p2:intro`);
+assert.deepEqual(
+  { ...exam.parseRecordingExerciseId(introRecordingId) },
+  { modeId: "p2-p3", attemptId: fixedAttempt, part: 2, globalOrder: 0, intro: true }
+);
+assert.equal(exam.expectedStoredRecordingCount("full", true), 20);
+assert.throws(() => exam.recordingIntroId("p2-p3", fixedAttempt, 3), /Invalid exam introduction/);
+
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("full", 1, 2)), [
+  "Perfect. All right, that will do for Part 1. We'll go on to Part 2 now."
+]);
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("full", 2, 3)), [
+  "Great. Really nice.",
+  "Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question."
+]);
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("p2-p3", 2, 3)), [
+  "Great. Really nice.",
+  "Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.",
+  "Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question."
+]);
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("p1-p3", 1, 3)), [
+  "Perfect. All right, that will do for Part 1. We'll go on to Part 3 now."
+]);
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("p3", 3, null)), []);
 
 const impossiblePools = { 1: part1.filter(theme => theme.questions.length < 12).slice(0, 4), 2: part2, 3: part3 };
 assert.equal(exam.modeIsFeasible("p1", impossiblePools), false, "Part 1 needs a theme with Q10-Q12");
 
-console.log("Speaking exam mode tests passed: 7 modes, 19-question full flow, random selection and recording grouping IDs.");
+console.log("Speaking exam mode tests passed: 7 modes, cooldown rotation, unique wording, intro IDs and 19-question full flow.");

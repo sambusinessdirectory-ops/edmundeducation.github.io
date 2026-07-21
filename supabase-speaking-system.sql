@@ -161,8 +161,95 @@ create table if not exists public.speaking_recording_attempts (
         char_length(last_storage_error) between 1 and 500
         and last_storage_error !~ '[[:cntrl:]]'
       )
-    )
+  )
 );
+
+-- One parent row records the randomly selected questions and the student's
+-- final self-evaluation. The UUID is the same attempt UUID embedded in each
+-- exam recording exercise_id, so existing recording rows need no migration.
+create table if not exists public.speaking_exam_attempts (
+  id uuid primary key,
+  student_id uuid not null
+    references public.flashcard_students(id) on delete cascade,
+  attempt_number bigint not null,
+  exam text not null default 'ielts'
+    check (exam = 'ielts'),
+  mode_id text not null
+    check (mode_id in ('full', 'p1', 'p2', 'p3', 'p1-p2', 'p1-p3', 'p2-p3')),
+  natural_exchange boolean not null default true,
+  manifest_version smallint not null default 1
+    check (manifest_version = 1),
+  question_manifest jsonb not null,
+  nervousness_rating smallint
+    check (nervousness_rating between 1 and 7),
+  rated_at timestamptz,
+  started_at timestamptz not null default now(),
+  completed_at timestamptz,
+  updated_at timestamptz not null default now(),
+  constraint speaking_exam_attempt_number_positive
+    check (attempt_number > 0),
+  check (jsonb_typeof(question_manifest) = 'array'),
+  check (
+    jsonb_array_length(question_manifest) = case mode_id
+      when 'full' then 19
+      when 'p1' then 12
+      when 'p2' then 1
+      when 'p3' then 6
+      when 'p1-p2' then 13
+      when 'p1-p3' then 18
+      when 'p2-p3' then 7
+    end
+  ),
+  check (octet_length(question_manifest::text) between 2 and 65536),
+  check (
+    (nervousness_rating is null and rated_at is null and completed_at is null)
+    or (
+      nervousness_rating is not null
+      and rated_at is not null
+      and completed_at is not null
+      and rated_at >= started_at
+      and completed_at >= started_at
+    )
+  )
+);
+
+-- `attempt_number` is the authoritative per-student order for the X -> X+1
+-- cooldown. Backfill it when upgrading an installation that briefly received
+-- an earlier draft of this table before the ordinal was introduced.
+alter table public.speaking_exam_attempts
+  add column if not exists attempt_number bigint;
+
+with ranked_attempts as (
+  select id,
+         row_number() over (
+           partition by student_id
+           order by started_at, id
+         ) as ordinal
+  from public.speaking_exam_attempts
+)
+update public.speaking_exam_attempts attempt
+set attempt_number = ranked.ordinal
+from ranked_attempts ranked
+where attempt.id = ranked.id
+  and attempt.attempt_number is null;
+
+alter table public.speaking_exam_attempts
+  alter column attempt_number set not null;
+
+do $$
+begin
+  if not exists (
+    select 1
+    from pg_catalog.pg_constraint
+    where conrelid = 'public.speaking_exam_attempts'::regclass
+      and conname = 'speaking_exam_attempt_number_positive'
+  ) then
+    alter table public.speaking_exam_attempts
+      add constraint speaking_exam_attempt_number_positive
+      check (attempt_number > 0);
+  end if;
+end;
+$$;
 
 -- Upgrade a pre-lifecycle installation without treating existing valid rows as
 -- incomplete uploads. Fresh installations already have these columns.
@@ -230,10 +317,17 @@ create index if not exists speaking_recordings_created_idx
 create index if not exists speaking_recordings_state_updated_idx
   on public.speaking_recording_attempts (storage_state, updated_at, id);
 
+create index if not exists speaking_exam_attempts_student_started_idx
+  on public.speaking_exam_attempts (student_id, started_at desc, id desc);
+
+create unique index if not exists speaking_exam_attempts_student_number_uidx
+  on public.speaking_exam_attempts (student_id, attempt_number);
+
 alter table public.speaking_admin_accounts enable row level security;
 alter table public.speaking_admin_sessions enable row level security;
 alter table public.speaking_system_settings enable row level security;
 alter table public.speaking_recording_attempts enable row level security;
+alter table public.speaking_exam_attempts enable row level security;
 
 revoke all on table public.speaking_admin_accounts
   from public, anon, authenticated;
@@ -243,6 +337,8 @@ revoke all on table public.speaking_system_settings
   from public, anon, authenticated, service_role;
 revoke all on table public.speaking_recording_attempts
   from public, anon, authenticated;
+revoke all on table public.speaking_exam_attempts
+  from public, anon, authenticated;
 
 -- The Worker may read metadata directly, but every mutation goes through a
 -- transaction-locked SECURITY DEFINER function below. This prevents a race
@@ -250,6 +346,9 @@ revoke all on table public.speaking_recording_attempts
 revoke insert, update, delete on table public.speaking_recording_attempts
   from service_role;
 grant select on table public.speaking_recording_attempts to service_role;
+revoke insert, update, delete on table public.speaking_exam_attempts
+  from service_role;
+grant select on table public.speaking_exam_attempts to service_role;
 
 -- Keep the recording objects private. There are intentionally no anon or
 -- authenticated storage.objects policies for this bucket: all object access
@@ -304,6 +403,12 @@ drop trigger if exists speaking_recordings_touch_updated_at
   on public.speaking_recording_attempts;
 create trigger speaking_recordings_touch_updated_at
 before update on public.speaking_recording_attempts
+for each row execute function public.speaking_touch_updated_at();
+
+drop trigger if exists speaking_exam_attempts_touch_updated_at
+  on public.speaking_exam_attempts;
+create trigger speaking_exam_attempts_touch_updated_at
+before update on public.speaking_exam_attempts
 for each row execute function public.speaking_touch_updated_at();
 
 create or replace function public.speaking_revoke_admin_sessions_on_password_change()
@@ -884,6 +989,220 @@ begin
 end;
 $$;
 
+-- Atomically creates an exam attempt and enforces the one-attempt cooldown.
+-- Only the immediately preceding attempt is compared, so questions from X are
+-- automatically eligible again after X+1 has been created.
+create or replace function public.speaking_create_exam_attempt(
+  p_id uuid,
+  p_student_id uuid,
+  p_mode_id text,
+  p_natural_exchange boolean,
+  p_question_manifest jsonb
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_existing public.speaking_exam_attempts%rowtype;
+  v_latest public.speaking_exam_attempts%rowtype;
+  v_attempt public.speaking_exam_attempts%rowtype;
+  v_attempt_number bigint;
+begin
+  if not exists (
+    select 1
+    from public.flashcard_students student
+    where student.id = p_student_id
+      and student.deleted_at is null
+  ) then
+    return jsonb_build_object('ok', false, 'code', 'STUDENT_NOT_FOUND');
+  end if;
+
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874314)
+  );
+
+  select attempt.*
+  into v_existing
+  from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+  limit 1;
+
+  if found then
+    if v_existing.student_id = p_student_id
+      and v_existing.mode_id = p_mode_id
+      and v_existing.natural_exchange = p_natural_exchange
+      and v_existing.question_manifest = p_question_manifest
+    then
+      return jsonb_build_object(
+        'ok', true,
+        'idempotent', true,
+        'attempt', to_jsonb(v_existing)
+      );
+    end if;
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_CONFLICT');
+  end if;
+
+  select attempt.*
+  into v_latest
+  from public.speaking_exam_attempts attempt
+  where attempt.student_id = p_student_id
+  order by attempt.attempt_number desc
+  limit 1;
+
+  if v_latest.id is not null and exists (
+    select 1
+    from jsonb_array_elements(v_latest.question_manifest) previous_item
+    cross join jsonb_array_elements(p_question_manifest) proposed_item
+    where (
+      previous_item ->> 'sourceKey' <> ''
+      and previous_item ->> 'sourceKey' = proposed_item ->> 'sourceKey'
+    ) or (
+      previous_item ->> 'contentKey' <> ''
+      and previous_item ->> 'contentKey' = proposed_item ->> 'contentKey'
+    )
+  ) then
+    return jsonb_build_object(
+      'ok', false,
+      'code', 'EXAM_COOLDOWN_CONFLICT',
+      'latestAttemptId', v_latest.id
+    );
+  end if;
+
+  v_attempt_number := coalesce(v_latest.attempt_number, 0) + 1;
+
+  insert into public.speaking_exam_attempts (
+    id,
+    student_id,
+    attempt_number,
+    mode_id,
+    natural_exchange,
+    manifest_version,
+    question_manifest,
+    started_at,
+    updated_at
+  )
+  values (
+    p_id,
+    p_student_id,
+    v_attempt_number,
+    p_mode_id,
+    p_natural_exchange,
+    1,
+    p_question_manifest,
+    clock_timestamp(),
+    clock_timestamp()
+  )
+  returning * into v_attempt;
+
+  return jsonb_build_object(
+    'ok', true,
+    'attempt', to_jsonb(v_attempt)
+  );
+end;
+$$;
+
+create or replace function public.speaking_complete_exam_attempt(
+  p_id uuid,
+  p_student_id uuid,
+  p_nervousness_rating integer
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_attempt public.speaking_exam_attempts%rowtype;
+  v_completed_at timestamptz;
+begin
+  if p_nervousness_rating < 1 or p_nervousness_rating > 7 then
+    return jsonb_build_object('ok', false, 'code', 'INVALID_NERVOUSNESS_RATING');
+  end if;
+
+  -- Use the same recording lock before the exam lock so deletion, readiness
+  -- transitions and the completeness check are one atomic decision.
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874312)
+  );
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874314)
+  );
+
+  select attempt.*
+  into v_attempt
+  from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+  for update;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+  end if;
+
+  if v_attempt.completed_at is not null then
+    if v_attempt.nervousness_rating = p_nervousness_rating then
+      return jsonb_build_object(
+        'ok', true,
+        'idempotent', true,
+        'attempt', to_jsonb(v_attempt)
+      );
+    end if;
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_ALREADY_COMPLETED');
+  end if;
+
+  if exists (
+    select 1
+    from jsonb_array_elements(v_attempt.question_manifest) question
+    where not exists (
+      select 1
+      from public.speaking_recording_attempts recording
+      where recording.student_id = p_student_id
+        and recording.storage_state = 'ready'
+        and recording.exercise_id = format(
+          'exam:%s:%s:p%s:q%s',
+          v_attempt.mode_id,
+          v_attempt.id::text,
+          question ->> 'part',
+          lpad(question ->> 'order', 2, '0')
+        )
+    )
+  ) or (
+    v_attempt.natural_exchange
+    and not exists (
+      select 1
+      from public.speaking_recording_attempts recording
+      where recording.student_id = p_student_id
+        and recording.storage_state = 'ready'
+        and recording.exercise_id = format(
+          'exam:%s:%s:p%s:intro',
+          v_attempt.mode_id,
+          v_attempt.id::text,
+          v_attempt.question_manifest -> 0 ->> 'part'
+        )
+    )
+  ) then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_RECORDINGS_INCOMPLETE');
+  end if;
+
+  v_completed_at := clock_timestamp();
+  update public.speaking_exam_attempts attempt
+  set nervousness_rating = p_nervousness_rating,
+      rated_at = v_completed_at,
+      completed_at = v_completed_at,
+      updated_at = v_completed_at
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+  returning * into v_attempt;
+
+  return jsonb_build_object(
+    'ok', true,
+    'attempt', to_jsonb(v_attempt)
+  );
+end;
+$$;
+
 revoke all on function public.speaking_admin_login(text, text)
   from public, anon, authenticated;
 revoke all on function public.speaking_admin_me(uuid)
@@ -908,6 +1227,10 @@ revoke all on function public.speaking_claim_stale_recording_upload(uuid, timest
 revoke all on function public.speaking_finalize_recording_delete(uuid)
   from public, anon, authenticated;
 revoke all on function public.speaking_cancel_recording_upload(uuid)
+  from public, anon, authenticated;
+revoke all on function public.speaking_create_exam_attempt(uuid, uuid, text, boolean, jsonb)
+  from public, anon, authenticated;
+revoke all on function public.speaking_complete_exam_attempt(uuid, uuid, integer)
   from public, anon, authenticated;
 
 grant execute on function public.speaking_admin_login(text, text)
@@ -934,6 +1257,10 @@ grant execute on function public.speaking_claim_stale_recording_upload(uuid, tim
 grant execute on function public.speaking_finalize_recording_delete(uuid)
   to service_role;
 grant execute on function public.speaking_cancel_recording_upload(uuid)
+  to service_role;
+grant execute on function public.speaking_create_exam_attempt(uuid, uuid, text, boolean, jsonb)
+  to service_role;
+grant execute on function public.speaking_complete_exam_attempt(uuid, uuid, integer)
   to service_role;
 
 notify pgrst, 'reload schema';

@@ -14,6 +14,8 @@ The Worker provides:
 - owner-only list, playback/download, deletion and ZIP export;
 - rate-limited Speaking-admin login with eight-hour, hash-only sessions;
 - recoverable object/metadata deletion with admin reconciliation;
+- durable exam-attempt manifests, immediate-previous-attempt question cooldown,
+  exact-question bookmarks and nervousness self-evaluation;
 - admin list/download/delete access to every student's attempts; and
 - exact-origin CORS for the custom site and GitHub Pages host.
 
@@ -34,7 +36,8 @@ already contains the Flashcard account/session tables. The migration:
 
 - creates the private `speaking-recordings` bucket with a 20 MiB object limit;
 - creates `speaking_recording_attempts`, `speaking_system_settings`,
-  `speaking_admin_accounts` and `speaking_admin_sessions`;
+  `speaking_exam_attempts`, `speaking_admin_accounts` and
+  `speaking_admin_sessions`;
 - enables RLS and gives `anon` and `authenticated` no direct table access; and
 - grants `service_role` read-only attempt metadata plus narrowly scoped,
   transaction-safe mutation and authentication RPCs.
@@ -224,6 +227,33 @@ where singleton;
 
 Never expose this settings table or its mutation to a browser role.
 
+### Exam practice attempts and self-evaluation
+
+- `GET /v1/exam-attempts/latest` returns the authenticated student's latest
+  exam manifest. The next selection excludes both its exact source keys and
+  normalized question wording.
+- `PUT /v1/exam-attempts/<attempt-uuid>` accepts only `{ "modeId",
+  "naturalExchange", "questions" }`. It validates the 7 supported modes,
+  exact item order, bilingual prompts, Part/Book access and stable source
+  pointers, then creates the parent row before Question 1 is displayed.
+- `PATCH /v1/exam-attempts/<attempt-uuid>` accepts `{ "nervousness": 1..7 }`.
+  The database atomically verifies every required ready recording (including
+  the name introduction when natural exchange is on), then stores the rating
+  and completion timestamp. A same-rating retry is idempotent.
+- `GET /v1/exam-attempts?page=1&pageSize=100` returns the student's parent rows
+  for recording-history grouping, question review, source links and ratings.
+
+Each student receives a monotonic `attempt_number` under a transaction-level
+advisory lock. Cooldown compares only the immediately preceding ordinal, so
+attempt X questions are unavailable in X+1 and automatically eligible again
+from X+2. There is no lifetime attempt cap; the Worker rate-limits rapid starts
+with the existing student rate-limit binding to prevent write abuse.
+
+Exam-attempt history remains readable if a teacher later revokes a source
+book, but the source button is disabled by the frontend. A new attempt may use
+only sources currently available to the student. This preserves a student's
+own historical reflection without reopening restricted study content.
+
 ### List, play, delete and export
 
 - `GET /v1/recordings?scope=mine&page=1&pageSize=100` — owner list. Each row has
@@ -325,6 +355,14 @@ Run these checks against a staging deployment before publishing:
    `uploading` reservation is not claimed before ten minutes.
 9. Rotate the admin bcrypt and confirm old admin tokens stop working. Rotate
    the Worker service-role secret in a controlled staging exercise.
+10. Start all seven exam modes with natural exchange both on and off. Confirm
+    exact recording-slot counts, a `PATCH` preflight containing `PATCH` in
+    `Access-Control-Allow-Methods`, incomplete-attempt rejection, idempotent
+    same-rating retry, and green 1-7 rating/history display.
+11. Start two attempts concurrently for one student. Confirm their
+    `attempt_number` values are consecutive and the later ordinal contains no
+    source/content key from the immediately preceding ordinal; confirm the
+    following attempt may reuse questions from two attempts earlier.
 
 Finally run `npm run check`, inspect `wrangler deploy --dry-run`, and verify the
 dry-run bundle contains neither the service-role key nor any plaintext

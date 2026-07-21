@@ -19,7 +19,9 @@
   ]);
 
   const MODE_BY_ID = new Map(MODES.map(mode => [mode.id, mode]));
-  const EXAM_RECORDING_ID_RE = /^exam:([a-z0-9-]+):([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}):p([123]):q(\d{2})$/i;
+  const ATTEMPT_ID_PATTERN = "([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})";
+  const EXAM_RECORDING_ID_RE = new RegExp(`^exam:([a-z0-9-]+):${ATTEMPT_ID_PATTERN}:p([123]):q(\\d{2})$`, "i");
+  const EXAM_INTRO_RECORDING_ID_RE = new RegExp(`^exam:([a-z0-9-]+):${ATTEMPT_ID_PATTERN}:p([123]):intro$`, "i");
 
   function modeForId(modeId) {
     return MODE_BY_ID.get(String(modeId || "")) || null;
@@ -28,6 +30,11 @@
   function expectedRecordingCount(modeId) {
     const mode = modeForId(modeId);
     return mode?.parts?.reduce((total, part) => total + (part === 1 ? 12 : part === 2 ? 1 : 6), 0) || 0;
+  }
+
+  function expectedStoredRecordingCount(modeId, naturalExchange = false) {
+    const count = expectedRecordingCount(modeId);
+    return count ? count + (naturalExchange ? 1 : 0) : 0;
   }
 
   function expectedPartForOrder(modeId, globalOrder) {
@@ -41,6 +48,75 @@
       cursor += count;
     }
     return null;
+  }
+
+  function naturalTransitionMessages(modeId, currentPart, nextPart = null) {
+    const mode = modeForId(modeId);
+    const current = Number(currentPart);
+    const next = nextPart === null ? null : Number(nextPart);
+    if (!mode || !mode.parts.includes(current)) return [];
+    if (current === 1 && next === 2) {
+      return ["Perfect. All right, that will do for Part 1. We'll go on to Part 2 now."];
+    }
+    if (current === 1 && next === 3) {
+      return ["Perfect. All right, that will do for Part 1. We'll go on to Part 3 now."];
+    }
+    if (current === 2) {
+      const messages = ["Great. Really nice."];
+      if (next === 3) {
+        if (mode.id === "p2-p3") {
+          messages.push("Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.");
+        }
+        messages.push("Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question.");
+      }
+      return messages;
+    }
+    return [];
+  }
+
+  function normalizeContentKey(value) {
+    return String(value || "")
+      .normalize("NFKC")
+      .toLocaleLowerCase("en")
+      .replace(/[’]/g, "'")
+      .replace(/[^\p{L}\p{N}']+/gu, " ")
+      .trim();
+  }
+
+  function sourceKeyForValues(part, sourceId, questionNumber = null) {
+    const validPart = Number(part);
+    const id = String(sourceId || "").trim();
+    if (![1, 2, 3].includes(validPart) || !id) return "";
+    if (validPart === 1) {
+      const number = Number(questionNumber);
+      if (!Number.isInteger(number) || number < 1) return "";
+      return `p1:${id}:q${number}`;
+    }
+    return `p${validPart}:${id}`;
+  }
+
+  function sourceKeyForItem(item) {
+    return sourceKeyForValues(item?.part, item?.sourceId, item?.questionNumber);
+  }
+
+  function contentKeyForItem(item) {
+    return normalizeContentKey(item?.title || item?.titleZh || "");
+  }
+
+  function exclusionSets(options = {}) {
+    return {
+      source: new Set(Array.isArray(options.excludedSourceKeys) ? options.excludedSourceKeys.map(String) : []),
+      content: new Set(Array.isArray(options.excludedContentKeys) ? options.excludedContentKeys.map(String) : [])
+    };
+  }
+
+  function itemIsExcluded(item, exclusions) {
+    const sourceKey = sourceKeyForItem(item);
+    const contentKey = contentKeyForItem(item);
+    return Boolean(
+      (sourceKey && exclusions.source.has(sourceKey))
+      || (contentKey && exclusions.content.has(contentKey))
+    );
   }
 
   function defaultRandomIndex(length) {
@@ -76,69 +152,91 @@
     return picked;
   }
 
-  function part1ThemesAreFeasible(themes) {
-    const lengths = (Array.isArray(themes) ? themes : [])
-      .map(theme => Array.isArray(theme?.questions) ? theme.questions.length : 0);
-    for (const group of [...PART1_GROUPS].reverse()) {
-      const match = lengths.findIndex(length => length >= group.start + group.count);
-      if (match < 0) return false;
-      lengths.splice(match, 1);
-    }
-    return true;
+  function part1SliceItems(theme, group) {
+    return theme.questions.slice(group.start, group.start + group.count).map((question, questionIndex) => ({
+      kind: "part1",
+      part: 1,
+      sourceId: String(theme.id || ""),
+      sourceBook: Number(theme.book || 1),
+      sourceIndex: Number(theme.index || 0),
+      themeSlot: group.slot,
+      themeTitle: String(theme.title || "Part 1 topic"),
+      themeTitleZh: String(theme.titleZh || ""),
+      questionInTheme: group.start + questionIndex + 1,
+      questionNumber: Number(question?.number || group.start + questionIndex + 1),
+      title: String(question?.questionEn || ""),
+      titleZh: String(question?.questionZh || "")
+    }));
   }
 
-  function modeIsFeasible(modeId, pools) {
-    const mode = modeForId(modeId);
-    if (!mode) return false;
-    if (mode.parts.includes(1) && !part1ThemesAreFeasible(pools?.[1])) return false;
-    if (mode.parts.includes(2) && (!Array.isArray(pools?.[2]) || pools[2].length < 1)) return false;
-    if (mode.parts.includes(3) && (!Array.isArray(pools?.[3]) || pools[3].length < 6)) return false;
-    return true;
-  }
-
-  function buildPart1Items(themes, randomIndex) {
+  function assignPart1Themes(themes, exclusions, randomIndex = null) {
     const selected = new Map();
     const constrainedGroups = [...PART1_GROUPS].reverse();
-    const questionKey = value => String(value || "").normalize("NFKC").toLocaleLowerCase("en").replace(/\s+/g, " ").trim();
-    const assign = (groupIndex, remaining, usedQuestions) => {
+    const assign = (groupIndex, remaining, usedContentKeys) => {
       if (groupIndex >= constrainedGroups.length) return true;
       const group = constrainedGroups[groupIndex];
-      const candidates = takeRandom(remaining.filter(theme => (
+      const eligible = remaining.filter(theme => (
         Array.isArray(theme?.questions) && theme.questions.length >= group.start + group.count
-      )), remaining.length, randomIndex);
+      ));
+      const candidates = randomIndex ? takeRandom(eligible, eligible.length, randomIndex) : eligible;
       for (const theme of candidates) {
-        const slice = theme.questions.slice(group.start, group.start + group.count);
-        const keys = slice.map(question => questionKey(question?.questionEn));
-        if (keys.some((key, index) => !key || usedQuestions.has(key) || keys.indexOf(key) !== index)) continue;
+        const slice = part1SliceItems(theme, group);
+        const contentKeys = slice.map(contentKeyForItem);
+        if (slice.some(item => itemIsExcluded(item, exclusions))) continue;
+        if (contentKeys.some((key, index) => !key || usedContentKeys.has(key) || contentKeys.indexOf(key) !== index)) continue;
         selected.set(group.slot, theme);
         const nextRemaining = remaining.filter(candidate => candidate !== theme);
-        const nextUsed = new Set([...usedQuestions, ...keys]);
+        const nextUsed = new Set([...usedContentKeys, ...contentKeys]);
         if (assign(groupIndex + 1, nextRemaining, nextUsed)) return true;
         selected.delete(group.slot);
       }
       return false;
     };
-    if (!assign(0, [...themes], new Set())) {
-      throw new Error("可用的 Part 1 主題不足，未能建立四組不重複的漸進題目。");
-    }
+    return assign(0, Array.isArray(themes) ? [...themes] : [], new Set()) ? selected : null;
+  }
 
-    return PART1_GROUPS.flatMap(group => {
-      const theme = selected.get(group.slot);
-      return theme.questions.slice(group.start, group.start + group.count).map((question, questionIndex) => ({
-        kind: "part1",
-        part: 1,
-        sourceId: String(theme.id || ""),
-        sourceBook: Number(theme.book || 1),
-        sourceIndex: Number(theme.index || 0),
-        themeSlot: group.slot,
-        themeTitle: String(theme.title || "Part 1 topic"),
-        themeTitleZh: String(theme.titleZh || ""),
-        questionInTheme: group.start + questionIndex + 1,
-        questionNumber: Number(question?.number || group.start + questionIndex + 1),
-        title: String(question?.questionEn || ""),
-        titleZh: String(question?.questionZh || "")
-      }));
-    });
+  function eligiblePart2Items(exercises, exclusions) {
+    return (Array.isArray(exercises) ? exercises : [])
+      .map(buildPart2Item)
+      .filter(item => !itemIsExcluded(item, exclusions));
+  }
+
+  function eligiblePart3Items(exercises, exclusions) {
+    const seenSources = new Set();
+    const seenContent = new Set();
+    return (Array.isArray(exercises) ? exercises : [])
+      .map(buildPart3Item)
+      .filter(item => {
+        const sourceKey = sourceKeyForItem(item);
+        const contentKey = contentKeyForItem(item);
+        if (!sourceKey || !contentKey || itemIsExcluded(item, exclusions)) return false;
+        if (seenSources.has(sourceKey) || seenContent.has(contentKey)) return false;
+        seenSources.add(sourceKey);
+        seenContent.add(contentKey);
+        return true;
+      });
+  }
+
+  function part1ThemesAreFeasible(themes, options = {}) {
+    return Boolean(assignPart1Themes(themes, exclusionSets(options)));
+  }
+
+  function modeIsFeasible(modeId, pools, options = {}) {
+    const mode = modeForId(modeId);
+    if (!mode) return false;
+    const exclusions = exclusionSets(options);
+    if (mode.parts.includes(1) && !assignPart1Themes(pools?.[1], exclusions)) return false;
+    if (mode.parts.includes(2) && eligiblePart2Items(pools?.[2], exclusions).length < 1) return false;
+    if (mode.parts.includes(3) && eligiblePart3Items(pools?.[3], exclusions).length < 6) return false;
+    return true;
+  }
+
+  function buildPart1Items(themes, randomIndex, exclusions) {
+    const selected = assignPart1Themes(themes, exclusions, randomIndex);
+    if (!selected) {
+      throw new Error("可用的 Part 1 題目不足；上一回合的原題會在今次暫時停用，請開放更多題目後再試。");
+    }
+    return PART1_GROUPS.flatMap(group => part1SliceItems(selected.get(group.slot), group));
   }
 
   function buildPart2Item(exercise) {
@@ -150,6 +248,7 @@
       sourceId: String(exercise?.id || ""),
       sourceBook: Number(exercise?.book || 1),
       sourceIndex: Number(exercise?.index || 0),
+      questionNumber: null,
       title: String(cue.promptEn || exercise?.title || ""),
       titleZh: String(cue.promptZh || exercise?.titleZh || ""),
       cueTitle: String(normalizedCue ? cue.titleEn || "" : cue.titleEn || exercise?.title || ""),
@@ -172,6 +271,7 @@
       sourceId: String(exercise?.id || ""),
       sourceBook: Number(exercise?.book || 1),
       sourceIndex: Number(exercise?.index || 0),
+      questionNumber: null,
       themeTitle: String(exercise?.themeTitle || "Discussion"),
       title: String(exercise?.title || ""),
       titleZh: String(exercise?.titleZh || "")
@@ -181,15 +281,21 @@
   function buildExamItems(modeId, pools, options = {}) {
     const mode = modeForId(modeId);
     if (!mode) throw new Error("未能辨認考試練習模式。");
-    if (!modeIsFeasible(modeId, pools)) throw new Error("你的帳戶目前沒有足夠已開放題目建立這個考試模式。");
-    const randomIndex = typeof options.randomIndex === "function" ? options.randomIndex : defaultRandomIndex;
-    const items = [];
-    if (mode.parts.includes(1)) items.push(...buildPart1Items(pools[1], randomIndex));
-    if (mode.parts.includes(2)) items.push(buildPart2Item(chooseOne(pools[2], randomIndex)));
-    if (mode.parts.includes(3)) {
-      items.push(...takeRandom(pools[3], 6, randomIndex).map(buildPart3Item));
+    if (!modeIsFeasible(modeId, pools, options)) {
+      throw new Error("可用題目不足以避開上一回合的原題。請開放更多題目後再試。");
     }
-    return items.map((item, index) => ({ ...item, globalOrder: index + 1 }));
+    const randomIndex = typeof options.randomIndex === "function" ? options.randomIndex : defaultRandomIndex;
+    const exclusions = exclusionSets(options);
+    const items = [];
+    if (mode.parts.includes(1)) items.push(...buildPart1Items(pools[1], randomIndex, exclusions));
+    if (mode.parts.includes(2)) items.push(chooseOne(eligiblePart2Items(pools[2], exclusions), randomIndex));
+    if (mode.parts.includes(3)) items.push(...takeRandom(eligiblePart3Items(pools[3], exclusions), 6, randomIndex));
+    return items.map((item, index) => ({
+      ...item,
+      globalOrder: index + 1,
+      sourceKey: sourceKeyForItem(item),
+      contentKey: contentKeyForItem(item)
+    }));
   }
 
   function createAttemptId() {
@@ -215,7 +321,30 @@
     return value;
   }
 
+  function recordingIntroId(modeId, attemptId, part) {
+    const mode = modeForId(modeId);
+    const normalizedAttempt = String(attemptId || "").toLowerCase();
+    const value = `exam:${modeId}:${normalizedAttempt}:p${Number(part)}:intro`;
+    if (!mode || mode.parts[0] !== Number(part) || !EXAM_INTRO_RECORDING_ID_RE.test(value)) {
+      throw new Error("Invalid exam introduction recording identifier.");
+    }
+    return value;
+  }
+
   function parseRecordingExerciseId(value) {
+    const introMatch = String(value || "").match(EXAM_INTRO_RECORDING_ID_RE);
+    if (introMatch) {
+      const mode = modeForId(introMatch[1]);
+      const part = Number(introMatch[3]);
+      if (!mode || mode.parts[0] !== part) return null;
+      return {
+        modeId: introMatch[1],
+        attemptId: introMatch[2].toLowerCase(),
+        part,
+        globalOrder: 0,
+        intro: true
+      };
+    }
     const match = String(value || "").match(EXAM_RECORDING_ID_RE);
     if (!match || !modeForId(match[1])) return null;
     const part = Number(match[3]);
@@ -233,11 +362,18 @@
     modes: MODES,
     modeForId,
     expectedRecordingCount,
+    expectedStoredRecordingCount,
     expectedPartForOrder,
+    naturalTransitionMessages,
+    normalizeContentKey,
+    sourceKeyForItem,
+    contentKeyForItem,
+    part1ThemesAreFeasible,
     modeIsFeasible,
     buildExamItems,
     createAttemptId,
     recordingExerciseId,
+    recordingIntroId,
     parseRecordingExerciseId
   });
 })();

@@ -13,8 +13,11 @@ export {
   makeLocalHeader,
   maxDurationMs,
   maxUploadBytes,
+  normalizeBookmark,
+  normalizeExamQuestionManifest,
   parseMultipartUpload,
   parseExportPage,
+  expectedExamExerciseIds,
   prepareZip
 };
 `;
@@ -187,6 +190,23 @@ test("health reports limiter readiness and the effective safety caps", async () 
   assert.deepEqual(health.rateLimiters, { adminLogin: true, upload: true });
 });
 
+test("CORS preflight allows the exam self-evaluation PATCH request", async () => {
+  const response = await worker.default.fetch(
+    new Request("https://worker.example/v1/exam-attempts/d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a", {
+      method: "OPTIONS",
+      headers: {
+        Origin: "https://edmundeducation.github.io",
+        "Access-Control-Request-Method": "PATCH",
+        "Access-Control-Request-Headers": "authorization,content-type"
+      }
+    }),
+    configuredEnv(),
+    {}
+  );
+  assert.equal(response.status, 204);
+  assert.match(response.headers.get("Access-Control-Allow-Methods") || "", /(?:^|,\s*)PATCH(?:,|$)/);
+});
+
 test("student profile requires a token and returns only whitelisted speaking access", async () => {
   const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
   const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
@@ -324,6 +344,242 @@ test("bookmark writes are scoped to the authenticated student and validated rout
     assert.equal(invalidRoute.status, 400);
     assert.equal((await invalidRoute.json()).code, "INVALID_BOOKMARKS");
     assert.equal(writes, 1);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("exam manifests derive stable exact-question keys and question bookmarks stay typed", () => {
+  const questions = Array.from({ length: 12 }, (_, index) => ({
+    order: index + 1,
+    part: 1,
+    sourceId: `ielts-p1-b1-theme-${index + 1}`,
+    sourceBook: 1,
+    sourceIndex: index + 1,
+    questionNumber: index + 1,
+    promptEn: `Question number ${index + 1}?`,
+    promptZh: `第 ${index + 1} 題？`
+  }));
+  const manifest = worker.normalizeExamQuestionManifest("p1", questions);
+  assert.equal(manifest.length, 12);
+  assert.equal(manifest[0].sourceKey, "p1:ielts-p1-b1-theme-1:q1");
+  assert.equal(manifest[0].contentKey, "question number 1");
+  assert.throws(
+    () => worker.normalizeExamQuestionManifest("p1", questions.map((item, index) => (
+      index === 1 ? { ...item, promptEn: questions[0].promptEn } : item
+    ))),
+    /duplicate or empty question/
+  );
+  assert.throws(
+    () => worker.normalizeExamQuestionManifest("p1", questions.map((item, index) => (
+      index === 0 ? { ...item, order: "1" } : item
+    ))),
+    /invalid field types/
+  );
+  assert.throws(
+    () => worker.normalizeExamQuestionManifest("p1", questions.map((item, index) => (
+      index === 0 ? { ...item, promptZh: "" } : item
+    ))),
+    /invalid source or prompt data/
+  );
+  assert.throws(
+    () => worker.normalizeExamQuestionManifest("p1", questions.map((item, index) => (
+      index === 0 ? { ...item, sourceBook: 15 } : item
+    ))),
+    /invalid source or prompt data/
+  );
+
+  assert.deepEqual(worker.normalizeBookmark({
+    kind: "question",
+    exam: "ielts",
+    part: 1,
+    book: 1,
+    exerciseId: "ielts-p1-b1-theme-1",
+    questionNumber: 1
+  }, true), {
+    kind: "question",
+    exam: "ielts",
+    part: 1,
+    book: 1,
+    exerciseId: "ielts-p1-b1-theme-1",
+    questionNumber: 1
+  });
+  assert.throws(() => worker.normalizeBookmark({
+    kind: "question",
+    exam: "ielts",
+    part: 1,
+    book: 1,
+    exerciseId: "ielts-p1-b1-theme-1",
+    questionNumber: 0
+  }, true), /invalid route/);
+
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const expectedIds = worker.expectedExamExerciseIds({
+    id: attemptId,
+    mode_id: "p1-p3",
+    natural_exchange: true
+  });
+  assert.equal(expectedIds.length, 19);
+  assert.equal(expectedIds[0], `exam:p1-p3:${attemptId}:p1:intro`);
+  assert.equal(expectedIds[1], `exam:p1-p3:${attemptId}:p1:q01`);
+  assert.equal(expectedIds.at(-1), `exam:p1-p3:${attemptId}:p3:q18`);
+});
+
+test("student creates an authenticated exam parent row before questions are shown", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  let limiterKey = "";
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/flashcard_student_state")) {
+      calls.push("access-get");
+      assert.equal(parsed.searchParams.get("student_id"), `eq.${studentId}`);
+      assert.equal(parsed.searchParams.get("key"), "eq.speaking-access-v1");
+      return jsonResponse([]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_create_exam_attempt")) {
+      calls.push("create-attempt");
+      const body = JSON.parse(options.body);
+      assert.equal(body.p_id, attemptId);
+      assert.equal(body.p_student_id, studentId);
+      assert.equal(body.p_mode_id, "p2");
+      assert.equal(body.p_natural_exchange, true);
+      assert.equal(body.p_question_manifest[0].sourceKey, "p2:ielts-p2-b1-e1");
+      return jsonResponse({
+        ok: true,
+        attempt: {
+          id: attemptId,
+          mode_id: "p2",
+          natural_exchange: true,
+          manifest_version: 1,
+          question_manifest: body.p_question_manifest,
+          nervousness_rating: null,
+          rated_at: null,
+          started_at: "2026-07-22T00:00:00Z",
+          completed_at: null,
+          updated_at: "2026-07-22T00:00:00Z"
+        }
+      });
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          modeId: "p2",
+          naturalExchange: true,
+          questions: [{
+            order: 1,
+            part: 2,
+            sourceId: "ielts-p2-b1-e1",
+            sourceBook: 1,
+            sourceIndex: 1,
+            questionNumber: null,
+            promptEn: "Describe a useful advertisement.",
+            promptZh: "描述一個有用的廣告。"
+          }]
+        })
+      }),
+      configuredEnv({
+        UPLOAD_RATE_LIMITER: {
+          limit: async ({ key }) => {
+            limiterKey = key;
+            return { success: true };
+          }
+        }
+      }),
+      {}
+    );
+    assert.equal(response.status, 201);
+    const body = await response.json();
+    assert.equal(body.attempt.id, attemptId);
+    assert.equal(body.attempt.questions[0].contentKey, "describe a useful advertisement");
+    assert.equal(limiterKey, `speaking-exam-start:${studentId}`);
+    assert.deepEqual(calls, ["student-profile", "access-get", "create-attempt"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("exam self-evaluation delegates atomic recording checks to the locked completion RPC", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_complete_exam_attempt")) {
+      calls.push("complete-rpc");
+      const body = JSON.parse(String(options.body));
+      assert.equal(body.p_id, attemptId);
+      assert.equal(body.p_student_id, studentId);
+      if (body.p_nervousness_rating === 5) {
+        return jsonResponse({ ok: false, code: "EXAM_RECORDINGS_INCOMPLETE" });
+      }
+      assert.equal(body.p_nervousness_rating, 4);
+      return jsonResponse({
+        ok: true,
+        idempotent: true,
+        attempt: {
+          id: attemptId,
+          attempt_number: 23,
+          mode_id: "p2",
+          natural_exchange: false,
+          manifest_version: 1,
+          question_manifest: [],
+          nervousness_rating: 4,
+          rated_at: "2026-07-22T01:00:00Z",
+          started_at: "2026-07-22T00:00:00Z",
+          completed_at: "2026-07-22T01:00:00Z",
+          updated_at: "2026-07-22T01:00:00Z"
+        }
+      });
+    }
+    assert.fail(`Completion must not perform a separate recording query: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const completed = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nervousness: 4 })
+      }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(completed.status, 200);
+    const completedBody = await completed.json();
+    assert.equal(completedBody.idempotent, true);
+    assert.equal(completedBody.attempt.attemptNumber, 23);
+    assert.equal(completedBody.attempt.nervousness, 4);
+
+    const incomplete = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ nervousness: 5 })
+      }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(incomplete.status, 409);
+    assert.equal((await incomplete.json()).code, "EXAM_RECORDINGS_INCOMPLETE");
+    assert.deepEqual(calls, ["student-profile", "complete-rpc", "student-profile", "complete-rpc"]);
   } finally {
     globalThis.fetch = originalFetch;
   }
@@ -690,4 +946,17 @@ test("database migration keeps quota and lifecycle mutations behind locked RPCs"
   assert.match(sql, /create or replace function public\.speaking_finalize_recording_delete/i);
   assert.match(sql, /revoke insert, update, delete on table public\.speaking_recording_attempts\s+from service_role/i);
   assert.match(sql, /grant execute on function public\.speaking_reserve_recording_attempt[\s\S]+?to service_role/i);
+  assert.match(sql, /create table if not exists public\.speaking_exam_attempts/i);
+  assert.match(sql, /attempt_number bigint not null/i);
+  assert.match(sql, /speaking_exam_attempts_student_number_uidx/i);
+  assert.match(sql, /order by attempt\.attempt_number desc/i);
+  assert.match(sql, /nervousness_rating smallint[\s\S]+?between 1 and 7/i);
+  assert.match(sql, /create or replace function public\.speaking_create_exam_attempt/i);
+  assert.match(sql, /previous_item ->> 'sourceKey'[\s\S]+?previous_item ->> 'contentKey'/i);
+  assert.match(sql, /EXAM_COOLDOWN_CONFLICT/i);
+  assert.match(sql, /create or replace function public\.speaking_complete_exam_attempt/i);
+  assert.match(sql, /EXAM_ATTEMPT_ALREADY_COMPLETED/i);
+  assert.match(sql, /EXAM_RECORDINGS_INCOMPLETE/i);
+  assert.match(sql, /from public\.speaking_recording_attempts recording[\s\S]+?recording\.storage_state = 'ready'/i);
+  assert.match(sql, /revoke insert, update, delete on table public\.speaking_exam_attempts\s+from service_role/i);
 });
