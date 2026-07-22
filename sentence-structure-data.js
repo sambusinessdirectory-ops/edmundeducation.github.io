@@ -9,6 +9,13 @@
     },
     ss2: {
       starterPage: { 3: 3, 9: 4, 15: 5, 21: 6, 27: 7, 33: 8, 39: 9, 45: 10 }
+    },
+    ss3: {
+      numberPage: { 6: 3, 19: 5, 32: 7, 45: 9 }
+    },
+    ss4: {
+      numberPage: { 6: 2, 19: 4, 32: 6, 45: 8 },
+      answerNumberPage: { 9: 10, 18: 11, 27: 12, 36: 13 }
     }
   };
 
@@ -371,8 +378,375 @@
     questions: adjectiveNounQuestions
   };
 
+  const adjectiveInfinitiveQuestions = makeQuestions("ss3", [
+    [1, 3, 11, "It is easy to understand this story.", "要理解這個故事很容易。", "This", "This story is easy to understand.", "這個故事很容易理解。", "easy to understand"],
+    [2, 3, 11, "It is difficult to lift the box.", "要搬起這個箱子很困難。", "The", "The box is difficult to lift.", "這個箱子很難搬起來。", "difficult to lift"],
+    [3, 3, 11, "Using this app is simple.", "使用這個應用程式很簡單。", "This", "This app is simple to use.", "這個應用程式操作簡單。", "simple to use"],
+    [4, 3, 11, "It is safe to eat the soup.", "吃這碗湯是安全的。", "The", "The soup is safe to eat.", "這碗湯可以安全食用。", "safe to eat"],
+    [5, 3, 11, "Pronouncing this name is hard.", "要讀出這個名字很困難。", "This", "This name is hard to pronounce.", "這個名字很難讀。", "hard to pronounce"],
+    [6, 4, 11, "What activity is fun for children? Playing this game.", "甚麼活動對孩子們來說很有趣？玩這個遊戲。", "This", "This game is fun for children to play.", "這個遊戲讓孩子們玩起來很有趣。", "fun for children to play"],
+    [7, 4, 11, "It is quick to prepare this snack.", "準備這份小食很快捷。", "This", "This snack is quick to prepare.", "這份小食很快便能準備好。", "quick to prepare"],
+    [8, 4, 11, "Following the instructions is easy.", "按照這些指示去做很容易。", "The", "The instructions are easy to follow.", "這些指示很容易跟從。", "easy to follow"],
+    [9, 4, 11, "What is convenient for travellers? Keeping this travel card in a wallet.", "甚麼東西方便旅客放在銀包裏？這張旅遊卡。", "This", "This travel card is convenient for travellers to keep in a wallet.", "這張旅遊卡方便旅客放在銀包裏。", "convenient for travellers to keep in a wallet"],
+    [10, 4, 12, "Finding the answer is difficult.", "找出答案很困難。", "The", "The answer is difficult to find.", "這個答案很難找出來。", "difficult to find"],
+    [11, 4, 12, "People do not find it difficult to prepare this meal.", "人們不覺得準備這頓飯很困難。", "This", "This meal is not difficult to prepare.", "這頓飯不難準備。", "not difficult to prepare"],
+    [12, 4, 12, "Wearing these shoes all day is comfortable.", "整天穿着這雙鞋也很舒適。", "These", "These shoes are comfortable to wear all day.", "這雙鞋整天穿着也很舒適。", "comfortable to wear all day"],
+    [13, 5, 12, "Beginners find it easy to use the website.", "初學者覺得這個網站很容易使用。", "The", "The website is easy for beginners to use.", "這個網站對初學者來說很容易使用。", "easy for beginners to use"],
+    [14, 5, 12, "Crossing the road at night is dangerous.", "晚上橫過這條馬路很危險。", "The", "The road is dangerous to cross at night.", "這條馬路在晚上橫過時很危險。", "dangerous to cross at night"],
+    [15, 5, 12, "It is pleasant to listen to this song.", "聆聽這首歌令人感到愉快。", "This", "This song is pleasant to listen to.", "這首歌聽起來令人愉快。", "pleasant to listen to"],
+    [16, 5, 12, "Most people find it difficult to turn the old lock.", "大多數人都覺得這把舊鎖很難扭動。", "The", "The old lock is difficult for most people to turn.", "這把舊鎖對大多數人來說都很難扭動。", "difficult for most people to turn"],
+    [17, 5, 12, "Operating the machine is simple.", "操作這部機器很簡單。", "The", "The machine is simple to operate.", "這部機器操作簡單。", "simple to operate"],
+    [18, 5, 12, "What was this film like? Watching it was interesting.", "這部電影怎麼樣？看這部電影很有趣。", "This", "This film was interesting to watch.", "這部電影觀看起來很有趣。", "interesting to watch"],
+    [19, 6, 13, "The desk can be cleaned easily.", "這張書桌可以很容易地清潔。", "The", "The desk is easy to clean.", "這張書桌很容易清潔。", "easy to clean"],
+    [20, 6, 13, "Most learners do not find it easy to remember this word.", "大多數學習者都不覺得這個字容易記住。", "This", "This word is not easy for most learners to remember.", "這個字對大多數學習者來說並不容易記住。", "not easy for most learners to remember"],
+    [21, 6, 13, "You cannot safely drink the water without boiling it.", "這些水未經煮沸便不能安全飲用。", "The", "The water is not safe to drink without boiling it.", "這些水未經煮沸便不宜飲用。", "not safe to drink without boiling it"],
+    [22, 6, 13, "Maintaining the new printer is cheaper than maintaining the old one.", "保養新打印機比保養舊打印機便宜。", "The", "The new printer is cheaper to maintain than the old one.", "新打印機的保養成本比舊打印機低。", "cheaper to maintain than the old one"],
+    [23, 6, 13, "Visitors find it difficult to reach the village by public transport.", "訪客覺得乘搭公共交通工具前往這條村很困難。", "This", "This village is difficult for visitors to reach by public transport.", "這條村對訪客來說很難乘搭公共交通工具到達。", "difficult for visitors to reach by public transport"],
+    [24, 6, 13, "It is comfortable to sit on this chair.", "坐在這張椅子上很舒適。", "This", "This chair is comfortable to sit on.", "這張椅子坐起來很舒適。", "comfortable to sit on"],
+    [25, 6, 13, "What is the online form like? It can be completed easily.", "這份網上表格怎麼樣？它可以很容易地填妥。", "The", "The online form is easy to complete.", "這份網上表格很容易填妥。", "easy to complete"],
+    [26, 7, 13, "Young children find it hard to open the medicine bottle.", "年幼兒童覺得這個藥瓶很難打開。", "This", "This medicine bottle is hard for young children to open.", "這個藥瓶對年幼兒童來說很難打開。", "hard for young children to open"],
+    [27, 7, 13, "Carrying the suitcase up narrow stairs is awkward.", "沿狹窄樓梯搬運這個行李箱很不方便。", "The", "The suitcase is awkward to carry up narrow stairs.", "這個行李箱很難沿狹窄樓梯搬運。", "awkward to carry up narrow stairs"],
+    [28, 7, 14, "Students find it useful to read the article before the lesson.", "學生覺得在上課前閱讀這篇文章很有用。", "This", "This article is useful for students to read before the lesson.", "學生在上課前閱讀這篇文章會很有用。", "useful for students to read before the lesson"],
+    [29, 7, 14, "Nobody can climb the wall without special equipment.", "沒有特殊裝備，任何人都無法爬上這道牆。", "The", "The wall is impossible to climb without special equipment.", "沒有特殊裝備，這道牆是不可能爬上去的。", "impossible to climb without special equipment"],
+    [30, 7, 14, "It is comfortable to work in these gloves for long periods.", "長時間戴着這雙手套工作也很舒適。", "These", "These gloves are comfortable to work in for long periods.", "長時間戴着這雙手套工作也很舒適。", "comfortable to work in for long periods"],
+    [31, 7, 14, "Customers can understand the menu easily even without pictures.", "即使沒有圖片，顧客也能輕易看懂餐牌。", "The", "The menu is easy for customers to understand even without pictures.", "即使沒有圖片，這份餐牌對顧客來說也很容易看懂。", "easy for customers to understand even without pictures"],
+    [32, 8, 14, "Exploring the museum with a guide is enjoyable.", "在導遊帶領下參觀博物館很有樂趣。", "The", "The museum is enjoyable to explore with a guide.", "在導遊帶領下參觀這間博物館很有樂趣。", "enjoyable to explore with a guide"],
+    [33, 8, 14, "Most users find it difficult to hold this camera steady in one hand.", "大多數使用者都覺得很難單手穩定地拿着這部相機。", "This", "This camera is difficult for most users to hold steady in one hand.", "這部相機對大多數使用者來說都很難單手拿穩。", "difficult for most users to hold steady in one hand"],
+    [34, 8, 14, "The software can be installed quickly on most computers.", "這個軟件可以在大多數電腦上快速安裝。", "The", "The software is quick to install on most computers.", "這個軟件可以在大多數電腦上快速完成安裝。", "quick to install on most computers"],
+    [35, 8, 14, "Drivers can no longer drive across the old bridge safely.", "駕駛者已不能再安全地駛過這座舊橋。", "The", "The old bridge is no longer safe to drive across.", "這座舊橋已不能再安全駕車駛過。", "no longer safe to drive across"],
+    [36, 8, 14, "New staff often find it difficult to understand the report.", "新員工經常覺得這份報告很難理解。", "This", "This report is difficult for new staff to understand.", "這份報告對新員工來說很難理解。", "difficult for new staff to understand"],
+    [37, 8, 15, "Parents find it convenient to check the new timetable online.", "家長覺得在網上查看新時間表很方便。", "The", "The new timetable is convenient for parents to check online.", "這份新時間表方便家長在網上查看。", "convenient for parents to check online"],
+    [38, 8, 15, "Nobody can ignore the alarm once it starts ringing.", "警報一旦響起，任何人都無法忽視。", "The", "The alarm is impossible to ignore once it starts ringing.", "警報一旦響起，便不可能被忽視。", "impossible to ignore once it starts ringing"],
+    [39, 9, 15, "Living in this flat during the summer is pleasant.", "夏天住在這個單位很舒適愉快。", "This", "This flat is pleasant to live in during the summer.", "這個單位在夏天住起來很舒適愉快。", "pleasant to live in during the summer"],
+    [40, 9, 15, "What problem does this button have? People can easily press it by accident.", "這個按鈕有甚麼問題？人們很容易意外按下它。", "The", "The button is easy to press by accident.", "這個按鈕很容易被意外按下。", "easy to press by accident"],
+    [41, 9, 15, "It is difficult to explain the new policy in a few words.", "要用幾句話解釋這項新政策很困難。", "The", "The new policy is difficult to explain in a few words.", "這項新政策很難用幾句話解釋。", "difficult to explain in a few words"],
+    [42, 9, 15, "With adult supervision, this device can be used safely by older children.", "在成人看管下，年紀較大的兒童可以安全使用這部裝置。", "This", "This device is safe for older children to use with adult supervision.", "在成人看管下，這部裝置可供年紀較大的兒童安全使用。", "safe for older children to use with adult supervision"],
+    [43, 9, 15, "The customer survey can be completed easily on a mobile phone.", "顧客可以用手提電話輕易完成這份問卷。", "The", "The customer survey is easy to complete on a mobile phone.", "這份顧客問卷很容易用手提電話完成。", "easy to complete on a mobile phone"],
+    [44, 9, 15, "Walking along the mountain path after heavy rain is dangerous.", "大雨過後沿着這條山徑步行很危險。", "The", "The mountain path is dangerous to walk along after heavy rain.", "大雨過後，沿着這條山徑步行很危險。", "dangerous to walk along after heavy rain"],
+    [45, 10, 15, "When the information is organised clearly, solving the problem becomes easier.", "資料整理清楚後，解決這個問題會變得較容易。", "This", "This problem is easier to solve when the information is organised clearly.", "資料整理清楚後，這個問題會較容易解決。", "easier to solve when the information is organised clearly"],
+    [46, 10, 16, "Heating the old building during winter is expensive.", "冬天為這座舊建築物供暖的成本很高。", "The", "The old building is expensive to heat during winter.", "冬天為這座舊建築物供暖很昂貴。", "expensive to heat during winter"],
+    [47, 10, 16, "Full-time workers find it easy to fit the online course around their jobs.", "全職工作者覺得很容易把這個網上課程安排在工作以外的時間。", "The", "The online course is easy for full-time workers to fit around their jobs.", "這個網上課程很容易讓全職工作者配合自己的工作時間安排。", "easy for full-time workers to fit around their jobs"],
+    [48, 10, 16, "The public notice is across the road. People find it hard to read from there.", "這張公眾告示在馬路對面。人們從這裏很難看清楚。", "This", "This public notice is hard to read from across the road.", "這張公眾告示從馬路對面很難看清楚。", "hard to read from across the road"],
+    [49, 10, 16, "Walking around the village market on a quiet morning is pleasant.", "在寧靜的早上逛逛村內市集令人愉快。", "The", "The village market is pleasant to walk around on a quiet morning.", "在寧靜的早上逛逛這個村內市集令人愉快。", "pleasant to walk around on a quiet morning"],
+    [50, 10, 16, "Even under pressure, passengers can follow the emergency instructions easily.", "即使在壓力下，乘客也能輕易依照緊急指示行動。", "The", "The emergency instructions are easy for passengers to follow even under pressure.", "即使在壓力下，這些緊急指示對乘客來說也很容易跟從。", "easy for passengers to follow even under pressure"]
+  ]);
+
+  const adjectiveInfinitiveLesson = {
+    id: "ss3",
+    order: 3,
+    slug: "adjective-to-infinitive",
+    title: "「形容詞 + to-infinitive 句」句型",
+    titleZh: "「形容詞 + to-infinitive 句」",
+    titleEn: "Adjective + to-infinitive",
+    titleEnSource: "editorial-translation",
+    source: {
+      file: "Sentence Structure 3.pdf",
+      pageCount: 16,
+      lessonPages: [1, 2],
+      exercisePages: [3, 4, 5, 6, 7, 8, 9, 10],
+      answerPages: [11, 12, 13, 14, 15, 16]
+    },
+    formula: "Thing + be + adjective + to + base verb + other information",
+    formulas: [
+      {
+        id: "ss3-formula-positive",
+        labelEn: "Positive Form",
+        labelZh: "肯定式",
+        formula: "Thing + be + adjective + to + base verb + other information"
+      },
+      {
+        id: "ss3-formula-person",
+        labelEn: "With a Person",
+        labelZh: "加上動作執行者",
+        formula: "Thing + be + adjective + for someone + to + base verb"
+      },
+      {
+        id: "ss3-formula-negative",
+        labelEn: "Negative Form",
+        labelZh: "否定式",
+        formula: "Thing + be + not + adjective + to + base verb"
+      }
+    ],
+    example: "English is expensive to learn.",
+    exampleZh: "學英文的成本很高。",
+    examples: [
+      {
+        id: "ss3-example-positive",
+        scope: "positive",
+        labelEn: "Positive Form",
+        labelZh: "肯定式",
+        en: "This story is easy to understand.",
+        zh: "這個故事很容易理解。",
+        highlight: "easy to understand"
+      },
+      {
+        id: "ss3-example-person",
+        scope: "person",
+        labelEn: "With a Person",
+        labelZh: "加上動作執行者",
+        en: "The website is easy for beginners to use.",
+        zh: "這個網站對初學者來說很容易使用。",
+        highlight: "easy for beginners to use"
+      },
+      {
+        id: "ss3-example-negative",
+        scope: "negative",
+        labelEn: "Negative Form",
+        labelZh: "否定式",
+        en: "This word is not easy to remember.",
+        zh: "這個字並不容易記住。",
+        highlight: "not easy to remember"
+      },
+      {
+        id: "ss3-example-original",
+        scope: "from",
+        labelEn: "Original sentence",
+        labelZh: "原句",
+        en: "It is expensive to learn English.",
+        zh: "學英文的成本很高。",
+        highlight: "to learn English"
+      },
+      {
+        id: "ss3-example-target",
+        scope: "to",
+        labelEn: "Target sentence",
+        labelZh: "目標句",
+        en: "English is expensive to learn.",
+        zh: "學英文的成本很高。",
+        highlight: "expensive to learn"
+      }
+    ],
+    rules: [
+      {
+        id: "ss3-rule-01",
+        en: "Place the thing receiving the action at the beginning of the sentence.",
+        zh: "把接受動作的事物放在句首。",
+        examples: ["It is easy to read this book. → This book is easy to read."]
+      },
+      {
+        id: "ss3-rule-02",
+        en: "Do not repeat an object pronoun after the to-infinitive.",
+        zh: "不要在 to-infinitive 後重複加入代名詞。",
+        examples: ["Correct: This book is easy to read.", "Incorrect: This book is easy to read it."]
+      },
+      {
+        id: "ss3-rule-03",
+        en: "If the verb requires a preposition, keep the preposition.",
+        zh: "如動詞需要介詞，必須保留介詞。",
+        examples: ["It is comfortable to sit on this chair. → This chair is comfortable to sit on."]
+      },
+      {
+        id: "ss3-rule-04",
+        en: "To identify who performs the action, use for + someone.",
+        zh: "如需指出誰執行動作，可使用 for + someone。",
+        examples: ["This bottle is hard for young children to open."]
+      },
+      {
+        id: "ss3-rule-05",
+        en: "This exercise focuses on saying that something is easy, difficult, safe, expensive or interesting to do. It does not cover other grammatical functions of to-infinitives.",
+        zh: "本練習集中訓練「某件事物做起來是容易、困難、安全、昂貴或有趣的」這種用法，不包括其他 to-infinitive 文法功能。",
+        examples: ["She is eager to learn.", "The box is too heavy to lift.", "I went outside to get some air."]
+      }
+    ],
+    benefits: [
+      {
+        id: "ss3-benefit-01",
+        en: "This structure lets the listener know immediately what you are talking about. Put this book, the machine or the road first, then describe what it is like to use or do something with it; the focus becomes clearer.",
+        zh: "讓別人立即知道你在談甚麼。先說 this book、the machine 或 the road，再描述它做起來如何，重點會更加清楚。"
+      },
+      {
+        id: "ss3-benefit-02",
+        en: "It turns a longer idea into one natural English sentence. The sentence ‘It is difficult to understand the report.’ can be rewritten concisely as ‘The report is difficult to understand.’",
+        zh: "把較長的意思變成一句自然的英文。It is difficult to understand the report. 可以簡潔地改成：The report is difficult to understand."
+      },
+      {
+        id: "ss3-benefit-03",
+        en: "It is useful for describing difficulty, price, safety and the experience of using something, such as easy to use, expensive to repair, safe to drink and comfortable to wear.",
+        zh: "方便描述難度、價錢、安全性和使用感受。例如 easy to use、expensive to repair、safe to drink 和 comfortable to wear。"
+      },
+      {
+        id: "ss3-benefit-04",
+        en: "It is very practical in daily life. You can use it to review products, compare services, give safety advice, or describe study and work tasks.",
+        zh: "在日常生活中非常實用。你可以用它評論產品、比較服務、提供安全提示，或描述學習及工作任務。"
+      },
+      {
+        id: "ss3-benefit-05",
+        en: "It makes your English sound more fluent. Once you master this structure, you do not need to begin every sentence with ‘It is...’.",
+        zh: "令英文聽起來更流暢。掌握這個句型後，便不需要每次都以 It is... 開始句子。"
+      }
+    ],
+    sourceOmissions: [
+      "The PDF supplies the Benefits and Important Rules content in Chinese with English examples, but not full English translations; the stored English explanations are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ],
+    instructions: {
+      en: [
+        "Rewrite each sentence using: Thing + be + adjective + to-infinitive.",
+        "Preserve the original meaning.",
+        "The first word of each answer has been provided."
+      ],
+      zh: [
+        "使用以下句型改寫每句：事物／活動 + be + 形容詞 + to 不定詞。",
+        "改寫時必須保留原意。",
+        "每題已提供答案的第一個字。"
+      ]
+    },
+    questions: adjectiveInfinitiveQuestions
+  };
+
+  const althoughQuestions = makeQuestions("ss4", [
+    [1, 2, 10, "It was raining, but Mia walked to school.", "當時正在下雨，但米婭仍然步行上學。", "Although", "Although it was raining, Mia walked to school.", "雖然當時正在下雨，但米婭仍然步行上學。", "Although it was raining, Mia walked to school."],
+    [2, 2, 10, "Ben was tired. However, he finished his homework.", "本很疲倦。不過，他仍然完成了家課。", "Although", "Although Ben was tired, he finished his homework.", "雖然本很疲倦，但他仍然完成了家課。", "Although Ben was tired, he finished his homework."],
+    [3, 2, 10, "The bag was heavy, but Lily carried it upstairs.", "那個袋子很重，但莉莉仍把它搬到樓上。", "Although", "Although the bag was heavy, Lily carried it upstairs.", "雖然那個袋子很重，但莉莉仍把它搬到樓上。", "Although the bag was heavy, Lily carried it upstairs."],
+    [4, 2, 10, "The soup was hot. Even so, Tom began eating it immediately.", "那碗湯很熱。即使如此，湯姆仍立即開始喝湯。", "Although", "Although the soup was hot, Tom began eating it immediately.", "雖然那碗湯很熱，但湯姆仍立即開始喝湯。", "Although the soup was hot, Tom began eating it immediately."],
+    [5, 2, 10, "The shop was small, yet it sold many useful items.", "那間店舖很小，卻售賣很多實用物品。", "Although", "Although the shop was small, it sold many useful items.", "雖然那間店舖很小，但它售賣很多實用物品。", "Although the shop was small, it sold many useful items."],
+    [6, 3, 10, "Amy was nervous, but she gave her presentation clearly.", "艾米很緊張，但她仍清楚地作出匯報。", "Although", "Although Amy was nervous, she gave her presentation clearly.", "雖然艾米很緊張，但她仍清楚地作出匯報。", "Although Amy was nervous, she gave her presentation clearly."],
+    [7, 3, 10, "The bus was crowded. However, we found two seats.", "巴士很擠迫。不過，我們找到了兩個座位。", "Although", "Although the bus was crowded, we found two seats.", "雖然巴士很擠迫，但我們找到了兩個座位。", "Although the bus was crowded, we found two seats."],
+    [8, 3, 10, "The film was long but interesting.", "這部電影很長，但很有趣。", "Although", "Although the film was long, it was interesting.", "雖然這部電影很長，但很有趣。", "Although the film was long, it was interesting."],
+    [9, 3, 11, "Jack had little money, but he bought his mother a gift.", "傑克沒有太多錢，但他仍買了一份禮物給母親。", "Although", "Although Jack had little money, he bought his mother a gift.", "雖然傑克沒有太多錢，但他仍買了一份禮物給母親。", "Although Jack had little money, he bought his mother a gift."],
+    [10, 3, 11, "The question looked easy. Nevertheless, many students answered it incorrectly.", "這條題目看起來很容易。儘管如此，很多學生仍答錯了。", "Although", "Although the question looked easy, many students answered it incorrectly.", "雖然這條題目看起來很容易，但很多學生仍答錯了。", "Although the question looked easy, many students answered it incorrectly."],
+    [11, 3, 11, "Despite the cold weather, the children played outside.", "儘管天氣寒冷，孩子們仍在戶外玩耍。", "Although", "Although the weather was cold, the children played outside.", "雖然天氣寒冷，但孩子們仍在戶外玩耍。", "Although the weather was cold, the children played outside."],
+    [12, 3, 11, "Sarah practised every day. Even so, she did not win the competition.", "莎拉每天練習。即使如此，她仍沒有在比賽中勝出。", "Although", "Although Sarah practised every day, she did not win the competition.", "雖然莎拉每天練習，但她仍沒有在比賽中勝出。", "Although Sarah practised every day, she did not win the competition."],
+    [13, 4, 11, "Despite the heavy traffic, the ambulance reached the hospital on time.", "儘管交通繁忙，救護車仍準時到達醫院。", "Although", "Although the traffic was heavy, the ambulance reached the hospital on time.", "雖然交通繁忙，但救護車仍準時到達醫院。", "Although the traffic was heavy, the ambulance reached the hospital on time."],
+    [14, 4, 11, "David does not like vegetables. However, he eats them for his health.", "大衛不喜歡蔬菜。不過，他為了健康仍會吃蔬菜。", "Although", "Although David does not like vegetables, he eats them for his health.", "雖然大衛不喜歡蔬菜，但他為了健康仍會吃蔬菜。", "Although David does not like vegetables, he eats them for his health."],
+    [15, 4, 11, "Despite being old, the laptop still works well.", "儘管這部手提電腦很舊，它仍然運作良好。", "Although", "Although the laptop is old, it still works well.", "雖然這部手提電腦很舊，但它仍然運作良好。", "Although the laptop is old, it still works well."],
+    [16, 4, 11, "Chloe woke up late, but she caught the train.", "克洛伊很晚才起床，但她仍趕上了火車。", "Although", "Although Chloe woke up late, she caught the train.", "雖然克洛伊很晚才起床，但她仍趕上了火車。", "Although Chloe woke up late, she caught the train."],
+    [17, 4, 11, "In spite of being far from the city centre, the hotel attracted many tourists.", "儘管酒店遠離市中心，它仍吸引了很多遊客。", "Although", "Although the hotel was far from the city centre, it attracted many tourists.", "雖然酒店遠離市中心，但它仍吸引了很多遊客。", "Although the hotel was far from the city centre, it attracted many tourists."],
+    [18, 4, 12, "The instructions were simple. Nevertheless, Kevin made several mistakes.", "指示很簡單。儘管如此，凱文仍犯了幾個錯誤。", "Although", "Although the instructions were simple, Kevin made several mistakes.", "雖然指示很簡單，但凱文仍犯了幾個錯誤。", "Although the instructions were simple, Kevin made several mistakes."],
+    [19, 5, 12, "Despite the high price of the dress, Olivia decided to buy it.", "儘管那條連身裙價格昂貴，奧莉花仍決定購買。", "Although", "Although the dress was expensive, Olivia decided to buy it.", "雖然那條連身裙很昂貴，但奧莉花仍決定購買。", "Although the dress was expensive, Olivia decided to buy it."],
+    [20, 5, 12, "The team lost the match, yet the coach praised the players.", "球隊輸了比賽，但教練仍讚賞球員。", "Although", "Although the team lost the match, the coach praised the players.", "雖然球隊輸了比賽，但教練仍讚賞球員。", "Although the team lost the match, the coach praised the players."],
+    [21, 5, 12, "In spite of her headache, Grace continued working.", "儘管格蕾絲頭痛，她仍繼續工作。", "Although", "Although Grace had a headache, she continued working.", "雖然格蕾絲頭痛，但她仍繼續工作。", "Although Grace had a headache, she continued working."],
+    [22, 5, 12, "The museum was crowded, but we saw every exhibition.", "博物館很擠迫，但我們仍參觀了每個展覽。", "Although", "Although the museum was crowded, we saw every exhibition.", "雖然博物館很擠迫，但我們仍參觀了每個展覽。", "Although the museum was crowded, we saw every exhibition."],
+    [23, 5, 12, "Despite its cracked screen, the phone was still usable.", "儘管手機螢幕破裂，它仍然可以使用。", "Although", "Although the phone had a cracked screen, it was still usable.", "雖然手機的螢幕破裂，但它仍然可以使用。", "Although the phone had a cracked screen, it was still usable."],
+    [24, 5, 12, "Noah had never cooked before. Even so, he made a good meal.", "諾亞以前從未下廚。即使如此，他仍煮出了一頓美味的飯菜。", "Although", "Although Noah had never cooked before, he made a good meal.", "雖然諾亞以前從未下廚，但他仍煮出了一頓美味的飯菜。", "Although Noah had never cooked before, he made a good meal."],
+    [25, 5, 12, "In spite of the cold water, the swimmers entered the sea.", "儘管海水冰冷，游泳者仍走進海中。", "Although", "Although the water was cold, the swimmers entered the sea.", "雖然海水冰冷，但游泳者仍走進海中。", "Although the water was cold, the swimmers entered the sea."],
+    [26, 6, 12, "Emma was afraid of heights, but she climbed to the top of the tower.", "艾瑪畏高，但她仍爬到塔頂。", "Although", "Although Emma was afraid of heights, she climbed to the top of the tower.", "雖然艾瑪畏高，但她仍爬到塔頂。", "Although Emma was afraid of heights, she climbed to the top of the tower."],
+    [27, 6, 13, "The company made a profit. However, it did not hire more staff.", "公司錄得盈利。不過，它沒有增聘員工。", "Although", "Although the company made a profit, it did not hire more staff.", "雖然公司錄得盈利，但它沒有增聘員工。", "Although the company made a profit, it did not hire more staff."],
+    [28, 6, 13, "Despite the medicine’s unpleasant taste, the child took it without complaining.", "儘管藥物味道難聞，那個孩子仍毫無怨言地服下。", "Although", "Although the medicine tasted unpleasant, the child took it without complaining.", "雖然藥物味道難聞，但那個孩子仍毫無怨言地服下。", "Although the medicine tasted unpleasant, the child took it without complaining."],
+    [29, 6, 13, "The library was about to close, yet the staff helped us find the book.", "圖書館快要關門，但職員仍協助我們找到那本書。", "Although", "Although the library was about to close, the staff helped us find the book.", "雖然圖書館快要關門，但職員仍協助我們找到那本書。", "Although the library was about to close, the staff helped us find the book."],
+    [30, 6, 13, "The flat has no balcony, but it receives plenty of natural light.", "這個單位沒有露台，但有充足的天然光。", "Although", "Although the flat has no balcony, it receives plenty of natural light.", "雖然這個單位沒有露台，但有充足的天然光。", "Although the flat has no balcony, it receives plenty of natural light."],
+    [31, 6, 13, "Despite the flight being delayed by two hours, the passengers remained calm.", "儘管航班延誤了兩小時，乘客仍保持冷靜。", "Although", "Although the flight was delayed by two hours, the passengers remained calm.", "雖然航班延誤了兩小時，但乘客仍保持冷靜。", "Although the flight was delayed by two hours, the passengers remained calm."],
+    [32, 7, 13, "Maya had carefully checked the report. Nevertheless, she found another error.", "瑪雅已仔細檢查報告。儘管如此，她仍發現另一個錯誤。", "Although", "Although Maya had carefully checked the report, she found another error.", "雖然瑪雅已仔細檢查報告，但她仍發現另一個錯誤。", "Although Maya had carefully checked the report, she found another error."],
+    [33, 7, 13, "The village is difficult to reach. Even so, it attracts many visitors.", "這條村落很難到達。即使如此，它仍吸引很多遊客。", "Although", "Although the village is difficult to reach, it attracts many visitors.", "雖然這條村落很難到達，但它仍吸引很多遊客。", "Although the village is difficult to reach, it attracts many visitors."],
+    [34, 7, 13, "The school had limited space, but it created a quiet reading area.", "學校空間有限，但仍設立了一個安靜的閱讀區。", "Although", "Although the school had limited space, it created a quiet reading area.", "雖然學校空間有限，但仍設立了一個安靜的閱讀區。", "Although the school had limited space, it created a quiet reading area."],
+    [35, 7, 13, "Despite the restaurant being full, the staff found us a table.", "儘管餐廳已滿座，職員仍為我們找到一張桌子。", "Although", "Although the restaurant was full, the staff found us a table.", "雖然餐廳已滿座，但職員仍為我們找到一張桌子。", "Although the restaurant was full, the staff found us a table."],
+    [36, 7, 14, "Leo had been warned about the strong wind, but he went sailing.", "里奧已獲提醒風勢強勁，但他仍出海航行。", "Although", "Although Leo had been warned about the strong wind, he went sailing.", "雖然里奧已獲提醒風勢強勁，但他仍出海航行。", "Although Leo had been warned about the strong wind, he went sailing."],
+    [37, 7, 14, "The printer had just been repaired. However, it stopped working again.", "打印機剛剛修理好。不過，它又停止運作。", "Although", "Although the printer had just been repaired, it stopped working again.", "雖然打印機剛剛修理好，但它又停止運作。", "Although the printer had just been repaired, it stopped working again."],
+    [38, 7, 14, "Aisha speaks softly, yet everyone listens carefully to her.", "艾莎說話聲音輕柔，但每個人都仔細聆聽她說話。", "Although", "Although Aisha speaks softly, everyone listens carefully to her.", "雖然艾莎說話聲音輕柔，但每個人都仔細聆聽她說話。", "Although Aisha speaks softly, everyone listens carefully to her."],
+    [39, 8, 14, "Despite the amount of time required by the task, the volunteers completed it before sunset.", "儘管這項任務需要很多時間，義工仍在日落前完成了。", "Although", "Although the task required a lot of time, the volunteers completed it before sunset.", "雖然這項任務需要很多時間，但義工仍在日落前完成了。", "Although the task required a lot of time, the volunteers completed it before sunset."],
+    [40, 8, 14, "The path was covered with wet leaves, but the hikers reached the campsite safely.", "小徑鋪滿濕滑的樹葉，但遠足者仍安全抵達營地。", "Although", "Although the path was covered with wet leaves, the hikers reached the campsite safely.", "雖然小徑鋪滿濕滑的樹葉，但遠足者仍安全抵達營地。", "Although the path was covered with wet leaves, the hikers reached the campsite safely."],
+    [41, 8, 14, "Despite being short of staff, the hospital ensured that every patient received proper care.", "儘管人手短缺，醫院仍確保每名病人獲得適當照顧。", "Although", "Although the hospital was short of staff, it ensured that every patient received proper care.", "雖然醫院人手短缺，但仍確保每名病人獲得適當照顧。", "Although the hospital was short of staff, it ensured that every patient received proper care."],
+    [42, 8, 14, "The new system is more expensive. Even so, it can save the company money over time.", "新系統較昂貴。即使如此，長遠而言它可以為公司節省金錢。", "Although", "Although the new system is more expensive, it can save the company money over time.", "雖然新系統較昂貴，但長遠而言它可以為公司節省金錢。", "Although the new system is more expensive, it can save the company money over time."],
+    [43, 8, 14, "In spite of being new to the team, Daniel offered a useful solution.", "儘管丹尼爾剛加入團隊，他仍提出了一個有用的解決方法。", "Although", "Although Daniel was new to the team, he offered a useful solution.", "雖然丹尼爾剛加入團隊，但他仍提出了一個有用的解決方法。", "Although Daniel was new to the team, he offered a useful solution."],
+    [44, 8, 14, "The town had experienced heavy rain all week, but the outdoor festival went ahead as planned.", "這個城鎮整個星期都下大雨，但戶外節慶活動仍按計劃舉行。", "Although", "Although the town had experienced heavy rain all week, the outdoor festival went ahead as planned.", "雖然這個城鎮整個星期都下大雨，但戶外節慶活動仍按計劃舉行。", "Although the town had experienced heavy rain all week, the outdoor festival went ahead as planned."],
+    [45, 9, 15, "The guide explained the route twice. Nevertheless, some visitors still went the wrong way.", "導遊解釋了路線兩次。儘管如此，一些訪客仍走錯路。", "Although", "Although the guide explained the route twice, some visitors still went the wrong way.", "雖然導遊解釋了路線兩次，但一些訪客仍走錯路。", "Although the guide explained the route twice, some visitors still went the wrong way."],
+    [46, 9, 15, "The device is designed for beginners. However, experienced users can also benefit from it.", "這部裝置是為初學者而設。不過，有經驗的用戶也能從中受益。", "Although", "Although the device is designed for beginners, experienced users can also benefit from it.", "雖然這部裝置是為初學者而設，但有經驗的用戶也能從中受益。", "Although the device is designed for beginners, experienced users can also benefit from it."],
+    [47, 9, 15, "Despite being under pressure to finish quickly, the workers followed every safety rule.", "儘管工人承受着要盡快完成工作的壓力，他們仍遵守每項安全規則。", "Although", "Although the workers were under pressure to finish quickly, they followed every safety rule.", "雖然工人承受着要盡快完成工作的壓力，但他們仍遵守每項安全規則。", "Although the workers were under pressure to finish quickly, they followed every safety rule."],
+    [48, 9, 15, "Sofia had not slept well the night before. Nevertheless, she remained focused throughout the interview.", "蘇菲亞前一晚睡得不好。儘管如此，她在整個面試期間仍保持專注。", "Although", "Although Sofia had not slept well the night before, she remained focused throughout the interview.", "雖然蘇菲亞前一晚睡得不好，但她在整個面試期間仍保持專注。", "Although Sofia had not slept well the night before, she remained focused throughout the interview."],
+    [49, 9, 15, "Despite its small budget, the community centre provides a wide range of activities for local families.", "儘管社區中心預算不多，它仍為區內家庭提供多種活動。", "Although", "Although the community centre has a small budget, it provides a wide range of activities for local families.", "雖然社區中心預算不多，但它仍為區內家庭提供多種活動。", "Although the community centre has a small budget, it provides a wide range of activities for local families."],
+    [50, 9, 15, "The proposal could improve public transport. However, some residents oppose it because they are worried about construction noise.", "這項建議可以改善公共交通。不過，一些居民因擔心施工噪音而反對。", "Although", "Although the proposal could improve public transport, some residents oppose it because they are worried about construction noise.", "雖然這項建議可以改善公共交通，但一些居民因擔心施工噪音而反對。", "Although the proposal could improve public transport, some residents oppose it because they are worried about construction noise."]
+  ]);
+
+  const althoughLesson = {
+    id: "ss4",
+    order: 4,
+    slug: "although-concession-contrast",
+    title: "「Although 句」句型",
+    titleZh: "「Although 句」表達讓步與對比",
+    titleEn: "Using Although to express concession and contrast",
+    titleEnSource: "editorial-translation",
+    source: {
+      file: "Sentence Structure 4.pdf",
+      pageCount: 15,
+      lessonPages: [1],
+      exercisePages: [2, 3, 4, 5, 6, 7, 8, 9],
+      answerPages: [10, 11, 12, 13, 14, 15]
+    },
+    formula: "Although + subject + verb + other information, subject + verb + other information",
+    formulas: [
+      {
+        id: "ss4-formula-although",
+        labelEn: "Target Structure",
+        labelZh: "目標句型",
+        formula: "Although + subject + verb + other information, subject + verb + other information"
+      }
+    ],
+    example: "Although the idea sounds simple, the execution is highly demanding.",
+    exampleZh: "雖然這個想法聽起來很簡單，但執行起來要求很高。",
+    examples: [
+      {
+        id: "ss4-example-01",
+        en: "Although the idea sounds simple, the execution is highly demanding.",
+        zh: "雖然這個想法聽起來很簡單，但執行起來要求很高。",
+        highlight: "Although the idea sounds simple, the execution is highly demanding."
+      }
+    ],
+    meaning: {
+      zh: [
+        "Although 用來連接兩項真實但帶有意外對比的資料。",
+        "第一部分說明一個情況，第二部分則說明一個在該情況下仍然成立、甚至有點出乎意料的結果。"
+      ]
+    },
+    rules: [
+      {
+        id: "ss4-rule-01",
+        en: "Although must be followed by a complete clause.",
+        zh: "Although 後面必須接完整子句。",
+        examples: ["Although the idea sounds simple, …"]
+      },
+      {
+        id: "ss4-rule-02",
+        en: "When an Although clause comes at the beginning of a sentence, add a comma after it.",
+        zh: "Although 子句放在句首時，後面要加逗號。",
+        examples: ["Although it was raining, we went outside."]
+      },
+      {
+        id: "ss4-rule-03",
+        en: "Do not use although and but together in the same sentence.",
+        zh: "同一句中不要同時使用 although 和 but。",
+        examples: [
+          "Incorrect: Although it was raining, but we went outside.",
+          "Correct: Although it was raining, we went outside."
+        ]
+      }
+    ],
+    sourceOmissions: [
+      "The PDF gives the Important Rules explanations in Chinese only; the English rule fields and lesson titleEn are editorial translations."
+    ],
+    benefits: [
+      {
+        id: "ss4-benefit-01",
+        en: "It connects two contrasting facts clearly.",
+        zh: "它能把兩項看似相反或出乎意料的事實清楚地連接起來。"
+      },
+      {
+        id: "ss4-benefit-02",
+        en: "It makes your English sound smoother.",
+        zh: "它能避免使用太多零碎短句，令英語表達更加流暢。"
+      },
+      {
+        id: "ss4-benefit-03",
+        en: "It helps you explain balanced ideas.",
+        zh: "它能幫助你同時考慮兩方面，特別適合日常解釋、意見寫作、DSE及IELTS。"
+      }
+    ],
+    instructions: {
+      en: [
+        "Rewrite each sentence using Although to express contrast.",
+        "Begin each answer with Although.",
+        "The first word of each answer has been provided."
+      ],
+      zh: [
+        "使用 Although 改寫以下句子，以表達讓步或對比。",
+        "每個答案須以 Although 開始。",
+        "每題已提供答案的第一個字。"
+      ]
+    },
+    questions: althoughQuestions
+  };
+
   window.EDMUND_SENTENCE_STRUCTURE_DATA = Object.freeze({
     version: 1,
-    lessons: [purposeLesson, adjectiveNounLesson]
+    lessons: [purposeLesson, adjectiveNounLesson, adjectiveInfinitiveLesson, althoughLesson]
   });
 })();

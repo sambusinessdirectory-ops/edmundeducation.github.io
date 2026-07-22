@@ -721,6 +721,9 @@ summary:focus-visible {
 .example-block strong { display: block; color: var(--coral); font-size: 11px; letter-spacing: .1em; }
 .example-block p { margin: 7px 0 0; color: var(--ink); font-size: clamp(18px, 2.4vw, 27px); font-weight: 750; }
 .example-block p:last-child { color: var(--muted); font-size: 15px; font-weight: 600; }
+.meaning-block { margin-top: 24px; border: 1px solid rgba(74, 55, 172, .18); border-radius: 16px; padding: 18px 20px; background: rgba(244, 241, 255, .82); }
+.meaning-block strong { display: block; color: var(--violet); font-size: 11px; letter-spacing: .1em; }
+.meaning-block p { margin: 8px 0 0; color: var(--ink); font-size: 15px; font-weight: 650; line-height: 1.7; }
 
 .benefit-list,
 .rule-list { margin: 30px 0 0; padding: 0; display: grid; gap: 13px; list-style: none; }

@@ -21,7 +21,7 @@ declare
   v_key_count integer;
   v_has_correction_state boolean;
 begin
-  if p_lesson_id not in ('ss1', 'ss2')
+  if p_lesson_id not in ('ss1', 'ss2', 'ss3', 'ss4')
     or p_result is null
     or jsonb_typeof(p_result) <> 'object'
     or octet_length(p_result::text) > 98304

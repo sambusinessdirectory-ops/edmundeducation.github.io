@@ -9,7 +9,7 @@ import vm from "node:vm";
 const root = new URL("../", import.meta.url);
 const read = (name) => readFile(new URL(name, root), "utf8");
 
-const [dataSource, frontendSource, html, css, indexHtml, workerSource, supabaseSchema, correctionMigration] = await Promise.all([
+const [dataSource, frontendSource, html, css, indexHtml, workerSource, supabaseSchema, correctionMigration, lessonMigration] = await Promise.all([
   read("sentence-structure-data.js"),
   read("sentence-structure.js"),
   read("sentence-structure.html"),
@@ -17,7 +17,8 @@ const [dataSource, frontendSource, html, css, indexHtml, workerSource, supabaseS
   read("index.html"),
   read("workers/sentence-structure/src/index.js"),
   read("supabase-sentence-structure.sql"),
-  read("supabase-sentence-structure-correction-state.sql")
+  read("supabase-sentence-structure-correction-state.sql"),
+  read("supabase-sentence-structure-lessons-3-4.sql")
 ]);
 
 const tests = [];
@@ -233,14 +234,20 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   };
 }
 
-test("data contract contains two complete 50-question lessons", () => {
+test("data contract contains four complete 50-question lessons", () => {
   assert.ok(Object.isFrozen(content), "top-level content should be immutable");
   assert.equal(content.version, 1);
-  assert.equal(lessons.length, 2);
-  assert.deepEqual(Array.from(lessons, (lesson) => lesson.id), ["ss1", "ss2"]);
-  assert.deepEqual(Array.from(lessons, (lesson) => lesson.questions.length), [50, 50]);
-  assert.equal(allQuestions.length, 100);
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 100);
+  assert.equal(lessons.length, 4);
+  assert.deepEqual(Array.from(lessons, (lesson) => lesson.id), ["ss1", "ss2", "ss3", "ss4"]);
+  assert.deepEqual(Array.from(lessons, (lesson) => lesson.questions.length), [50, 50, 50, 50]);
+  assert.equal(allQuestions.length, 200);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 200);
+  assert.deepEqual(Array.from(lessons, (lesson) => lesson.source.file), [
+    "Sentence Structure 1 - 「to + 動詞」表達目的.pdf",
+    "Sentence Structure 2 - Adjective to Adjective+Noun.pdf",
+    "Sentence Structure 3.pdf",
+    "Sentence Structure 4.pdf"
+  ]);
 });
 
 test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () => {
@@ -257,15 +264,32 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   assert.match(frontendSource, /rounds: state\.exercise\.rounds\.slice\(-250\)/, "client history must respect the server round limit");
   assert.match(frontendSource, /maxlength="1000"[^>]+data-answer-input=/, "answer inputs must respect the server answer limit");
 
-  const functionMarker = "create or replace function public._sentence_structure_result_valid(";
-  const functionSql = (source) => {
+  const functionSql = (source, functionName) => {
+    const functionMarker = `create or replace function public.${functionName}(`;
     const start = source.indexOf(functionMarker);
-    assert.ok(start >= 0, "result validator function is missing");
+    assert.ok(start >= 0, `${functionName} is missing`);
     const end = source.indexOf("\n$$;", start);
-    assert.ok(end > start, "result validator function is incomplete");
+    assert.ok(end > start, `${functionName} is incomplete`);
     return source.slice(start, end + 4).trim();
   };
-  assert.equal(functionSql(correctionMigration), functionSql(supabaseSchema), "standalone migration must match the base schema validator");
+  assert.equal(
+    functionSql(correctionMigration, "_sentence_structure_result_valid"),
+    functionSql(supabaseSchema, "_sentence_structure_result_valid"),
+    "correction-state migration must match the base schema validator"
+  );
+  for (const functionName of [
+    "_sentence_structure_result_valid",
+    "_sentence_structure_bookmark_payload_valid",
+    "sentence_structure_upsert_attempt"
+  ]) {
+    assert.equal(
+      functionSql(lessonMigration, functionName),
+      functionSql(supabaseSchema, functionName),
+      `${functionName} lesson migration must match the base schema`
+    );
+  }
+  assert.match(lessonMigration, /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id in \('ss1', 'ss2', 'ss3', 'ss4'\)\)/);
+  assert.match(lessonMigration, /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id in \('ss1', 'ss2', 'ss3', 'ss4'\)\)/);
 });
 
 test("every question preserves the bilingual exercise and answer contract", () => {
@@ -323,7 +347,7 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
   const configAt = html.indexOf('src="sentence-structure-config.js"');
-  const dataAt = html.indexOf('src="sentence-structure-data.js"');
+  const dataAt = html.indexOf('src="sentence-structure-data.js');
   const appAt = html.indexOf('type="module" src="sentence-structure.js');
   assert.ok(configAt >= 0 && configAt < dataAt && dataAt < appAt, "config, data, and module scripts must load in order");
   assert.match(css, /\.target-highlight\s*\{[^}]*color:\s*#d32727/i);
@@ -400,6 +424,19 @@ test("four lesson pages render in order and answers stay secret before submit", 
   assert.ok(!exerciseHtml.includes(lessons[0].questions[49].answer), "model answers must not be rendered before checking");
   assert.equal(sut.LESSON_PAGES, 4);
   assert.equal(harness.steps.filter((step) => step.getAttribute("aria-current") === "step").length, 1);
+
+  const althoughLesson = lessons[3];
+  sut.openLesson("ss4", {
+    page: 1,
+    attempt: {
+      ...attempt,
+      id: "14444444-4444-4444-8444-444444444444",
+      lessonId: "ss4"
+    }
+  });
+  assert.match(sut.elements.lessonContent.innerHTML, /MEANING · 句型意思/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(althoughLesson.meaning.zh[0]));
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(althoughLesson.examples[0].highlight));
 });
 
 test("partial submit checks only filled answers, reveals targets, and preserves the next round", async () => {

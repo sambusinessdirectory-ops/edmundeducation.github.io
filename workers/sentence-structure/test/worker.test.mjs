@@ -48,7 +48,7 @@ test("the Worker answer catalog exactly matches the published lesson data", () =
       expected[question.id] = [question.answer, ...Array.from(question.acceptedAnswers || [])];
     }
   }
-  assert.equal(Object.keys(expected).length, 100);
+  assert.equal(Object.keys(expected).length, 200);
   assert.deepEqual(ACCEPTED_ANSWERS, expected);
 });
 
@@ -79,7 +79,7 @@ test("Supabase server credentials are trimmed before becoming HTTP headers", asy
   assert.equal((await response.json()).code, "STUDENT_AUTH_REQUIRED");
 });
 
-test("a valid non-empty correctIds array reaches the attempt RPC unchanged", async t => {
+test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
 
@@ -126,7 +126,7 @@ test("a valid non-empty correctIds array reaches the attempt RPC unchanged", asy
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      lessonId: "ss1",
+      lessonId: "ss4",
       lessonVersion: "1",
       status: "in_progress",
       roundNumber: 1,
@@ -137,26 +137,26 @@ test("a valid non-empty correctIds array reaches the attempt RPC unchanged", asy
       completedAt: null,
       result: {
         round: 1,
-        correctIds: ["ss1-q01"],
+        correctIds: ["ss4-q01"],
         questionState: {
-          "ss1-q01": {
+          "ss4-q01": {
             status: "correct",
-            lastAnswer: "I went to the library to borrow a book.",
+            lastAnswer: "Although it was raining, Mia walked to school.",
             reveal: true
           }
         },
         rounds: [{
           round: 1,
           kind: "partial",
-          checkedIds: ["ss1-q01"],
-          correctIds: ["ss1-q01"],
+          checkedIds: ["ss4-q01"],
+          correctIds: ["ss4-q01"],
           incorrectIds: [],
           submittedAt: startedAt
         }],
         awaitingNextRound: false,
         correctionMode: false,
         correctionIds: [],
-        collapsedCorrectIds: ["ss1-q01"],
+        collapsedCorrectIds: ["ss4-q01"],
         contentVersion: "1"
       }
     })
@@ -164,11 +164,11 @@ test("a valid non-empty correctIds array reaches the attempt RPC unchanged", asy
 
   const response = await worker.fetch(request, environment());
   assert.equal(response.status, 200);
-  assert.deepEqual(upsertPayload.p_result.correctIds, ["ss1-q01"]);
+  assert.deepEqual(upsertPayload.p_result.correctIds, ["ss4-q01"]);
   assert.equal(upsertPayload.p_result.correctIds.length, 1);
-  assert.deepEqual(upsertPayload.p_result.collapsedCorrectIds, ["ss1-q01"]);
+  assert.deepEqual(upsertPayload.p_result.collapsedCorrectIds, ["ss4-q01"]);
   const responseBody = await response.json();
-  assert.deepEqual(responseBody.attempt.result.correctIds, ["ss1-q01"]);
+  assert.deepEqual(responseBody.attempt.result.correctIds, ["ss4-q01"]);
 });
 
 test("an out-of-catalog question ID is rejected before the attempt RPC", async t => {

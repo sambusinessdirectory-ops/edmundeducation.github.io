@@ -604,6 +604,9 @@ function renderFormulaPage(lesson) {
   const examples = Array.isArray(lesson.examples) && lesson.examples.length
     ? lesson.examples
     : [{ english: lesson.example, chinese: lesson.exampleZh }];
+  const meaningLines = Array.isArray(lesson.meaning?.zh)
+    ? lesson.meaning.zh.filter((line) => String(line || "").trim())
+    : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
     ${infoPageHeader(1, "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
     <section class="formula-card">
@@ -615,10 +618,14 @@ function renderFormulaPage(lesson) {
       }).join("")}</div>
       ${examples.filter((example) => example?.english || example?.en || example?.answer).map((example) => `
         <div class="example-block">
-          <strong>EXAMPLE · 例句</strong>
+          <strong>${escapeHtml(example.labelEn || "EXAMPLE")} · ${escapeHtml(example.labelZh || "例句")}</strong>
           <p>${highlightedAnswerHtml(example.english || example.en || example.answer, example.highlight)}</p>
           <p>${escapeHtml(example.chinese || example.zh || example.answerZh || "")}</p>
         </div>`).join("")}
+      ${meaningLines.length ? `<aside class="meaning-block">
+        <strong>MEANING · 句型意思</strong>
+        ${meaningLines.map((line) => `<p>${escapeHtml(line)}</p>`).join("")}
+      </aside>` : ""}
     </section>
     ${navHtml(1)}
   </article>`;

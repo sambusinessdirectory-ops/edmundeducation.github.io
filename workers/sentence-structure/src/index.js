@@ -2,7 +2,7 @@ import { ACCEPTED_ANSWERS } from "./catalog.js";
 
 const SERVICE_NAME = "edmund-sentence-structure";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const LESSON_IDS = new Set(["ss1", "ss2"]);
+const LESSON_IDS = new Set(["ss1", "ss2", "ss3", "ss4"]);
 const CONTENT_VERSION = "1";
 const QUESTIONS_PER_LESSON = 50;
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
@@ -500,7 +500,7 @@ function hasOnlyKeys(value, allowed) {
 
 function validQuestionId(lessonId, questionId) {
   if (!LESSON_IDS.has(lessonId) || typeof questionId !== "string") return false;
-  const match = questionId.match(/^(ss[12])-q(\d{2})$/);
+  const match = questionId.match(/^(ss[1-4])-q(\d{2})$/);
   if (!match || match[1] !== lessonId) return false;
   const number = Number(match[2]);
   return number >= 1 && number <= QUESTIONS_PER_LESSON;

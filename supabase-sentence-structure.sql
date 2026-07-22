@@ -50,7 +50,7 @@ declare
   v_key_count integer;
   v_has_correction_state boolean;
 begin
-  if p_lesson_id not in ('ss1', 'ss2')
+  if p_lesson_id not in ('ss1', 'ss2', 'ss3', 'ss4')
     or p_result is null
     or jsonb_typeof(p_result) <> 'object'
     or octet_length(p_result::text) > 98304
@@ -257,7 +257,7 @@ begin
         where key_name not in ('lessonId', 'questionId', 'includeAnswer')
       )
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
-      or coalesce(v_item ->> 'lessonId', '') not in ('ss1', 'ss2')
+      or coalesce(v_item ->> 'lessonId', '') not in ('ss1', 'ss2', 'ss3', 'ss4')
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
       or coalesce(v_item ->> 'questionId', '') !~ (
         '^' || (v_item ->> 'lessonId') || '-q(0[1-9]|[1-4][0-9]|50)$'
@@ -327,7 +327,8 @@ create table if not exists public.sentence_structure_attempts (
   completed_at timestamptz,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
-  check (lesson_id in ('ss1', 'ss2')),
+  constraint sentence_structure_attempts_lesson_id_check
+    check (lesson_id in ('ss1', 'ss2', 'ss3', 'ss4')),
   check (lesson_version = '1'),
   check (status in ('in_progress', 'completed')),
   check (round_number between 1 and 1000),
@@ -361,7 +362,8 @@ create table if not exists public.sentence_structure_bookmarks (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   primary key (student_id, lesson_id, question_id),
-  check (lesson_id in ('ss1', 'ss2')),
+  constraint sentence_structure_bookmarks_lesson_id_check
+    check (lesson_id in ('ss1', 'ss2', 'ss3', 'ss4')),
   check (question_id ~ ('^' || lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$'))
 );
 
@@ -651,7 +653,7 @@ begin
   end if;
 
   if p_id is null
-    or p_lesson_id not in ('ss1', 'ss2')
+    or p_lesson_id not in ('ss1', 'ss2', 'ss3', 'ss4')
     or p_lesson_version <> '1'
     or p_status not in ('in_progress', 'completed')
     or p_round_number not between 1 and 1000

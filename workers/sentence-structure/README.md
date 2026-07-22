@@ -138,8 +138,8 @@ The `PUT` body is the exact frontend shape:
 ```
 
 Attempt UUIDs are client-generated but the student owner always comes from the
-validated bearer token. Only catalog version `1`, lessons `ss1`/`ss2`, their
-exact 50 question IDs, and answers accepted by the published catalog can be
+validated bearer token. Only catalog version `1`, lessons `ss1`–`ss4`, their
+exact 50 question IDs per lesson, and answers accepted by the published catalog can be
 credited as correct. Progress cannot lose previously correct IDs and completed
 attempts are immutable, making a retry after a lost response safe. Result JSON
 is capped at 96 KiB and 250 round summaries, writes are rate limited, and the
