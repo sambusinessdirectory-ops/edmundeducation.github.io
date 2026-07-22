@@ -205,7 +205,9 @@ function rateLimiterConfigured(binding) {
 }
 
 function supabaseServerKey(env) {
-  return String(env.SUPABASE_SECRET_KEY || env.SUPABASE_SERVICE_ROLE_KEY || "");
+  // Wrangler's stdin-based secret upload can preserve a trailing line break.
+  // Header values must never contain surrounding whitespace or newlines.
+  return String(env.SUPABASE_SECRET_KEY || env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
 }
 
 function supabaseOrigin(env) {
@@ -552,14 +554,24 @@ function normalizeIdentifierArray(value, label, maximum, lessonId) {
 }
 
 function normalizeAttemptResult(value, context) {
-  if (!hasExactKeys(value, [
+  const requiredKeys = [
     "round",
     "correctIds",
     "questionState",
     "rounds",
     "awaitingNextRound",
     "contentVersion"
-  ])) {
+  ];
+  const allowedKeys = new Set([
+    ...requiredKeys,
+    "correctionMode",
+    "correctionIds",
+    "collapsedCorrectIds"
+  ]);
+  if (
+    !hasOnlyKeys(value, allowedKeys)
+    || !requiredKeys.every(key => Object.prototype.hasOwnProperty.call(value, key))
+  ) {
     throw new HttpError(400, "INVALID_ATTEMPT", "result has an invalid shape");
   }
 
@@ -678,6 +690,24 @@ function normalizeAttemptResult(value, context) {
   if (typeof value.awaitingNextRound !== "boolean") {
     throw new HttpError(400, "INVALID_ATTEMPT", "result.awaitingNextRound must be boolean");
   }
+  if (value.correctionMode !== undefined && typeof value.correctionMode !== "boolean") {
+    throw new HttpError(400, "INVALID_ATTEMPT", "result.correctionMode must be boolean");
+  }
+  const correctionMode = value.correctionMode === true;
+  const correctionIds = value.correctionIds === undefined
+    ? []
+    : normalizeIdentifierArray(value.correctionIds, "result.correctionIds", context.totalCount, context.lessonId);
+  const collapsedCorrectIds = value.collapsedCorrectIds === undefined
+    ? []
+    : normalizeIdentifierArray(value.collapsedCorrectIds, "result.collapsedCorrectIds", context.totalCount, context.lessonId);
+  if (
+    (correctionMode && (!correctionIds.length || value.awaitingNextRound))
+    || (!correctionMode && correctionIds.length)
+    || correctionIds.some(id => !questionState[id] || questionState[id].status === "pending")
+    || collapsedCorrectIds.some(id => !correctSet.has(id))
+  ) {
+    throw new HttpError(400, "INVALID_ATTEMPT", "result correction state is inconsistent");
+  }
   if (
     value.contentVersion !== CONTENT_VERSION
   ) {
@@ -690,6 +720,9 @@ function normalizeAttemptResult(value, context) {
     questionState,
     rounds,
     awaitingNextRound: value.awaitingNextRound,
+    correctionMode,
+    correctionIds,
+    collapsedCorrectIds,
     contentVersion: value.contentVersion
   };
   if (encoder.encode(JSON.stringify(normalized)).byteLength > MAX_ATTEMPT_RESULT_BYTES) {

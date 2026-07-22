@@ -450,6 +450,7 @@
     return {
       token: String(row.session_token),
       access: normalizeAccess(row.access),
+      sharedAccess: row.access && typeof row.access === "object" && !Array.isArray(row.access) ? row.access : undefined,
       user: {
         id: String(row.id || ""),
         name: String(row.name || username),
@@ -597,6 +598,13 @@
       state.authToken = result.token;
       state.access = normalizeAccess(result.access);
       if (!isAdmin) {
+        window.EdmundSystemNav?.rememberStudentSession({
+          token: result.token,
+          id: result.user.id,
+          name: result.user.name,
+          role: "student",
+          access: result.sharedAccess
+        });
         await validateRestoredSession();
         await loadBookmarks({ quiet: true });
         if (!state.user) return;
@@ -675,6 +683,7 @@
 
   function handleSessionExpired() {
     if (!state.user) return;
+    if (state.user.role === "student") window.EdmundSystemNav?.forgetStudentSession();
     resetAuthenticatedState("登入時段已過期，請重新登入。");
     setConnection("登入時段已過期", "error");
   }
@@ -685,6 +694,7 @@
     if (state.adminAccessDrafts.size && !window.confirm("尚有未儲存的學生權限改動。登出會捨棄這些改動，確定繼續嗎？")) return;
     const role = state.user?.role;
     const token = state.authToken;
+    if (role === "student") window.EdmundSystemNav?.forgetStudentSession();
     let revokePromise = null;
     if (role === "admin" && token) {
       try {

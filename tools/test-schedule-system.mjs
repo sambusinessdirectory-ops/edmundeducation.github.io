@@ -53,13 +53,13 @@ for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 
 }
 
 const homepageCards = [...homepage.matchAll(/<a class="category(?:\s[^"]*)?"/g)];
-assert.equal(homepageCards.length, 13, "homepage must contain 13 numbered category cards");
+assert.equal(homepageCards.length, 15, "homepage must contain 15 numbered category cards");
 assert.match(homepage, /schedule-system-card/);
 assert.match(homepage, /href="schedule-system\.html"/);
 assert.match(homepage, /功課及溫習安排系統/);
 assert.match(
   homepage,
-  /href="model-essay-downloads\.html"[\s\S]*?<span class="category-name">學生使用<br>DSE \/ IELTS<br>其他範文<br>下載區<\/span>/,
+  /href="model-essay-downloads\.html"[\s\S]*?<span class="category-name">學生使用<br>DSE \/ IELTS<br>教材及範文<br>下載區<\/span>/,
   "model-essay homepage card must use the requested four lines"
 );
 assert.match(
@@ -357,4 +357,4 @@ for (const asset of [
   assert.ok(file.size > 10_000, `${asset} must be a non-empty optimized image`);
 }
 
-console.log(`Schedule checks passed: ${supportedDays.toLocaleString()} supported dates, 13 homepage cards, ${rpcNames.length} secured RPCs.`);
+console.log(`Schedule checks passed: ${supportedDays.toLocaleString()} supported dates, ${homepageCards.length} homepage cards, ${rpcNames.length} secured RPCs.`);

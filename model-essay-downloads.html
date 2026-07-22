@@ -921,20 +921,24 @@
       *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
     }
   </style>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="返回 EdmundEducation 首頁">
-        <img class="brand-mark" src="Company Logo for Cover Page.png" alt="">
-        <span class="brand-text">
-          <strong>EdmundEducation</strong>
-          <span>Student Model Essay Library</span>
-        </span>
-      </a>
-      <div class="header-actions">
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="downloads">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
+            <strong>EdmundEducation</strong>
+            <small>Student Model Essay Library</small>
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions edmund-system-header__actions">
         <span class="connection-pill" data-connection-status data-state="connecting">正在連接</span>
         <span class="user-pill" data-user-pill hidden></span>
         <button class="header-button" type="button" data-logout hidden>登出</button>
@@ -1237,7 +1241,8 @@
   <script src="ielts-task2-question-data.js"></script>
   <script src="ielts-speaking-downloads.js"></script>
   <script src="ielts-reading-downloads.js"></script>
-  <script src="model-essay-downloads.js"></script>
+  <script src="shared-system-nav.js?v=20260722-1"></script>
+  <script src="model-essay-downloads.js?v=20260722-2"></script>
   <script src="page-loader.js"></script>
 </body>
 </html>

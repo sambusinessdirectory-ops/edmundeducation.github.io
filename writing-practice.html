@@ -2696,6 +2696,7 @@
     }
   </style>
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -2704,21 +2705,29 @@
   <img class="custom-cursor" src="Cursor Change.png" alt="" aria-hidden="true">
 
   <div class="flash-shell">
-    <header class="topbar">
-      <a class="brand" href="index.html" aria-label="EdmundEducation E-Learning">
-        <img class="brand-main" src="Font Transparent.png" alt="EdmundEducation">
-        <img class="brand-learning" src="E-Learning.png" alt="E-Learning">
-      </a>
-      <img class="topbar-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
-      <div class="nav-actions">
-        <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
-        <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
-        <button class="pill-button hidden" type="button" data-admin-switch>切換學生</button>
-        <button class="pill-button writing-header-bookmark hidden" type="button" data-toggle-current-writing-bookmark aria-pressed="false">
-          <span data-writing-header-bookmark-icon aria-hidden="true">☆</span><span>書簽</span>
-        </button>
-        <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
-        <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
+    <header class="topbar edmund-system-header">
+      <div class="edmund-system-header__inner">
+        <div class="edmund-system-switcher" data-edmund-system-switcher data-system="writing">
+          <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+            <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+            <span class="edmund-system-switcher__copy">
+              <strong>EdmundEducation</strong>
+              <small>Writing Practice System</small>
+            </span>
+            <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+          </button>
+        </div>
+        <img class="topbar-mascot" src="assets/writing-practice/mascot-writing.png" alt="" aria-hidden="true">
+        <div class="nav-actions edmund-system-header__actions">
+          <button class="pill-button hidden" type="button" data-admin-panel-shortcut>Admin 控制台</button>
+          <button class="pill-button hidden" type="button" data-return-admin>返回 Admin</button>
+          <button class="pill-button hidden" type="button" data-admin-switch>切換學生</button>
+          <button class="pill-button writing-header-bookmark hidden" type="button" data-toggle-current-writing-bookmark aria-pressed="false">
+            <span data-writing-header-bookmark-icon aria-hidden="true">☆</span><span>書簽</span>
+          </button>
+          <span class="sync-pill warning" data-sync-status>Supabase: connecting</span>
+          <button class="pill-button danger hidden" type="button" data-logout>Log Out</button>
+        </div>
       </div>
     </header>
 
@@ -2858,6 +2867,7 @@
   <script src="writing-practice-model-essays-direct-20-38-data.js?v=20260716-1"></script>
   <script src="writing-practice-model-essays-direct-39-48-data.js?v=20260715-1"></script>
   <script src="writing-practice-hkpf-compositions-data.js?v=20260715-1"></script>
+  <script src="shared-system-nav.js?v=20260722-1"></script>
   <script>
     const ADMIN_NAME = "Sam Admin";
     const STUDENTS_KEY = "edmundWritingStudents";
@@ -8575,6 +8585,58 @@ Device: concession 讓步
       return true;
     }
 
+    async function restoreUniversalStudentSession(shared = window.EdmundSystemNav?.getStudentSession?.()) {
+      if (!shared?.token || shared.role !== "student") return false;
+      try {
+        const rows = await callSupabaseRpc("writing_student_session_from_flashcard", {
+          p_token: shared.token
+        });
+        const student = Array.isArray(rows) ? rows[0] : null;
+        if (!student?.session_token) return false;
+        studentSessionToken = student.session_token;
+        currentUser = {
+          id: student.id,
+          name: student.name,
+          role: "student",
+          access: { ...defaultAccess(), ...(student.access || {}) },
+          createdAt: student.created_at ? new Date(student.created_at).getTime() : Date.now(),
+          sessionToken: studentSessionToken
+        };
+        setSession(currentUser);
+        return true;
+      } catch (error) {
+        console.warn("Writing Practice universal session exchange failed:", error);
+        return null;
+      }
+    }
+
+    function restoredWritingStudentMatches(shared) {
+      if (!shared?.token || currentUser?.role !== "student" || currentUser.impersonatedByAdmin) return true;
+      return String(shared.name || "").normalize("NFKC").trim().toLocaleLowerCase()
+        === String(currentUser.name || "").normalize("NFKC").trim().toLocaleLowerCase();
+    }
+
+    async function rememberUniversalStudentLogin(username, password) {
+      if (!window.EdmundSystemNav?.rememberStudentSession) return;
+      try {
+        const rows = await callSupabaseRpc("flashcard_student_login", {
+          p_name: username,
+          p_password: password
+        });
+        const student = Array.isArray(rows) ? rows[0] : null;
+        if (!student?.session_token) return;
+        window.EdmundSystemNav.rememberStudentSession({
+          token: student.session_token,
+          id: student.id || "",
+          name: student.name || username,
+          role: "student",
+          access: student.access
+        });
+      } catch (error) {
+        console.warn("Writing Practice shared session creation failed:", error);
+      }
+    }
+
     function isAdmin() {
       return currentUser?.role === "admin";
     }
@@ -8696,6 +8758,9 @@ Device: concession 讓步
     function showLogin() {
       stopEssayAudio();
       resetWritingPersonalState();
+      if (currentUser?.role === "student" && !currentUser.impersonatedByAdmin) {
+        window.EdmundSystemNav?.forgetStudentSession();
+      }
       currentUser = null;
       currentView = "login";
       studentSessionToken = "";
@@ -8776,6 +8841,7 @@ Device: concession 讓步
               sessionToken: studentSessionToken
             };
             setSession(currentUser);
+            await rememberUniversalStudentLogin(trimmedName, password);
             await loadWritingStudentState();
             showAppPanel("dashboard");
             updateSupabaseStatus("Supabase: live", "live");
@@ -9613,8 +9679,32 @@ Device: concession 讓步
       prepareWritingExercises();
       setupCustomCursor();
       setupEvents();
-      const restored = restoreSession();
+      let restored = restoreSession();
+      const shared = window.EdmundSystemNav?.getStudentSession?.();
+      if (restored && !restoredWritingStudentMatches(shared)) {
+        resetWritingPersonalState();
+        currentUser = null;
+        studentSessionToken = "";
+        localStorage.removeItem(SESSION_KEY);
+        restored = false;
+      }
       await initSupabaseState();
+      const canRefreshFromUniversal = shared?.token
+        && shared.role === "student"
+        && (!restored || (currentUser?.role === "student" && !currentUser.impersonatedByAdmin));
+      if (canRefreshFromUniversal) {
+        const refreshed = await restoreUniversalStudentSession(shared);
+        if (refreshed === true) {
+          restored = true;
+        } else if (refreshed === false) {
+          resetWritingPersonalState();
+          currentUser = null;
+          studentSessionToken = "";
+          localStorage.removeItem(SESSION_KEY);
+          window.EdmundSystemNav?.forgetStudentSession();
+          restored = false;
+        }
+      }
       if (restored && currentUser) {
         if (currentUser.role === "student") await loadWritingStudentState();
         showAppPanel(currentUser.role === "admin" ? "admin-panel" : "dashboard");

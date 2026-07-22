@@ -52,6 +52,33 @@ test("the Worker answer catalog exactly matches the published lesson data", () =
   assert.deepEqual(ACCEPTED_ANSWERS, expected);
 });
 
+test("Supabase server credentials are trimmed before becoming HTTP headers", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+
+  const key = "s".repeat(64);
+  const env = environment();
+  delete env.SUPABASE_SERVICE_ROLE_KEY;
+  env.SUPABASE_SECRET_KEY = `  ${key}\n`;
+
+  globalThis.fetch = async (_input, init = {}) => {
+    const headers = new Headers(init.headers);
+    assert.equal(headers.get("apikey"), key);
+    assert.equal(headers.get("Authorization"), `Bearer ${key}`);
+    return jsonResponse([]);
+  };
+
+  const request = new Request("https://worker.example/v1/student/me", {
+    headers: {
+      Origin: ORIGIN,
+      Authorization: `Bearer ${STUDENT_TOKEN}`
+    }
+  });
+  const response = await worker.fetch(request, env);
+  assert.equal(response.status, 401);
+  assert.equal((await response.json()).code, "STUDENT_AUTH_REQUIRED");
+});
+
 test("a valid non-empty correctIds array reaches the attempt RPC unchanged", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -127,6 +154,9 @@ test("a valid non-empty correctIds array reaches the attempt RPC unchanged", asy
           submittedAt: startedAt
         }],
         awaitingNextRound: false,
+        correctionMode: false,
+        correctionIds: [],
+        collapsedCorrectIds: ["ss1-q01"],
         contentVersion: "1"
       }
     })
@@ -136,6 +166,7 @@ test("a valid non-empty correctIds array reaches the attempt RPC unchanged", asy
   assert.equal(response.status, 200);
   assert.deepEqual(upsertPayload.p_result.correctIds, ["ss1-q01"]);
   assert.equal(upsertPayload.p_result.correctIds.length, 1);
+  assert.deepEqual(upsertPayload.p_result.collapsedCorrectIds, ["ss1-q01"]);
   const responseBody = await response.json();
   assert.deepEqual(responseBody.attempt.result.correctIds, ["ss1-q01"]);
 });

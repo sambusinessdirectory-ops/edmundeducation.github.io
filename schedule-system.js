@@ -555,6 +555,13 @@ async function login(event) {
       name: student.name,
       studentToken: student.session_token
     };
+    window.EdmundSystemNav?.rememberStudentSession({
+      token: student.session_token,
+      id: student.id,
+      name: student.name,
+      role: "student",
+      access: student.access
+    });
     clearRenderedSchedule();
     state.selectedStudent = { id: student.id, name: student.name };
     state.weekStart = defaultWeekStart();
@@ -573,6 +580,7 @@ async function login(event) {
 
 async function logout() {
   const user = state.currentUser;
+  if (user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
   state.currentUser = null;
   state.selectedStudent = null;
   state.adminStudents = [];

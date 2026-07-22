@@ -376,11 +376,21 @@
   function setSession(user) {
     state.currentUser = user;
     sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
+    if (user?.role === "student" && user.sessionToken) {
+      window.EdmundSystemNav?.rememberStudentSession({
+        token: user.sessionToken,
+        id: user.id || "",
+        name: user.name,
+        role: "student",
+        access: user.sharedAccess
+      });
+    }
     updateAccountUi();
     renderExamGrid();
   }
 
   function clearSession() {
+    if (state.currentUser?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
     state.currentUser = null;
     state.downloadToken = "";
     state.downloadTokenExpiresAt = 0;
@@ -495,6 +505,7 @@
       name: student.name,
       role: "student",
       access: normalizeAccess(profile),
+      sharedAccess: student.access && typeof student.access === "object" ? student.access : undefined,
       createdAt: student.created_at || null,
       sessionToken: student.session_token,
       authAccessToken: authSession.access_token

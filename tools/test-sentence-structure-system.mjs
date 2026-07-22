@@ -208,6 +208,8 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   studentLogin, openLesson, setLessonPage, renderLessonPage, renderExercisePage,
   syncExerciseButtons, submitExercise, startNextRound,
+  startCorrectionRound, exitCorrectionRound, toggleCorrectCard,
+  wrongQuestionIds, correctionQuestions, submissionQuestions,
   highlightedAnswerHtml, normalizeAnswer, answersMatch,
   normalizeBookmark, normalizeAttempt, attemptHistoryHtml,
   renderBookmarks, toggleBookmark, renderAdminStudents, openAdminStudent,
@@ -294,10 +296,14 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /data-admin-detail/);
   const configAt = html.indexOf('src="sentence-structure-config.js"');
   const dataAt = html.indexOf('src="sentence-structure-data.js"');
-  const appAt = html.indexOf('type="module" src="sentence-structure.js"');
+  const appAt = html.indexOf('type="module" src="sentence-structure.js');
   assert.ok(configAt >= 0 && configAt < dataAt && dataAt < appAt, "config, data, and module scripts must load in order");
   assert.match(css, /\.target-highlight\s*\{[^}]*color:\s*#d32727/i);
   assert.match(css, /\.target-highlight\s*\{[^}]*font-weight:\s*900/i);
+  assert.match(css, /\.login-hero \.eyebrow\s*\{[^}]*font-size:\s*clamp\(18px,[^}]*22px\)/i);
+  assert.doesNotMatch(frontendSource, /choice-icon/);
+  assert.doesNotMatch(frontendSource, /題練習<\/span>/);
+  assert.doesNotMatch(frontendSource, /由公式開始/);
   assert.equal((indexHtml.match(/href=["']sentence-structure\.html["']/g) || []).length, 1, "homepage must link to Sentence Structure exactly once");
 });
 
@@ -353,6 +359,7 @@ test("four lesson pages render in order and answers stay secret before submit", 
   };
   sut.openLesson("ss1", { page: 1, attempt });
   assert.match(sut.elements.lessonContent.innerHTML, /FORMULA \+ EXAMPLE/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(`<span class="target-highlight">${lessons[0].examples[0].highlight}</span>`));
   sut.setLessonPage(2);
   assert.match(sut.elements.lessonContent.innerHTML, /WHY THIS STRUCTURE HELPS/);
   sut.setLessonPage(3);
@@ -408,6 +415,16 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.ok(sut.elements.lessonContent.innerHTML.includes(`<span class="target-highlight">${q2.highlight}</span>`));
   assert.ok(sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(q3.answer));
+  assert.match(sut.elements.lessonContent.innerHTML, /question-card is-correct/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(`data-toggle-correct-card="${q1.id}"`));
+  assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50, "correct cards stay visible after checking");
+
+  await sut.toggleCorrectCard(q1.id);
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), [q1.id]);
+  assert.match(sut.elements.lessonContent.innerHTML, /is-collapsed/);
+  assert.match(sut.elements.lessonContent.innerHTML, /顯示已完成題目/);
+  await sut.toggleCorrectCard(q1.id);
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), []);
 
   const attemptPut = apiCalls.find((call) => new URL(call.url).pathname.startsWith("/v1/attempts/"));
   assert.ok(attemptPut, "partial result must be persisted");
@@ -428,7 +445,74 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.equal(sut.state.exercise.questionState[q2.id].status, "pending");
   assert.equal(sut.state.exercise.questionState[q2.id].reveal, false);
   assert.deepEqual(Array.from(sut.state.exercise.correctIds), [q1.id], "correct answers must not return next round");
-  assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 49);
+  assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50, "completed cards remain available for reference in later rounds");
+});
+
+test("wrong answers can enter an immediate correction round and return to the unfinished set", async () => {
+  const harness = createFrontendHarness();
+  const { sut, answerInputs } = harness;
+  const lesson = sut.getLesson("ss1");
+  const [q1, q2] = lesson.questions;
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
+  sut.state.authToken = "student-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "33333333-3333-4333-8333-333333333333",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: {}
+  });
+  answerInputs.push(
+    makeElement({ dataset: { answerInput: q1.id }, value: q1.answer }),
+    makeElement({ dataset: { answerInput: q2.id }, value: "wrong answer" })
+  );
+
+  await sut.submitExercise("partial");
+  assert.match(sut.elements.lessonContent.innerHTML, /data-start-correction/);
+  assert.deepEqual(Array.from(sut.wrongQuestionIds()), [q2.id]);
+
+  await sut.startCorrectionRound();
+  assert.equal(sut.state.exercise.round, 2);
+  assert.equal(sut.state.exercise.correctionMode, true);
+  assert.deepEqual(Array.from(sut.state.exercise.correctionIds), [q2.id]);
+  assert.deepEqual(Array.from(sut.submissionQuestions(), (question) => question.id), [q2.id]);
+  assert.equal((sut.elements.lessonContent.innerHTML.match(/data-question-id=/g) || []).length, 1);
+  assert.match(sut.elements.lessonContent.innerHTML, /Correction Round · 改正輪/);
+
+  const correctionSnapshot = sut.serializeExerciseResult();
+  assert.equal(correctionSnapshot.correctionMode, true);
+  assert.deepEqual(Array.from(correctionSnapshot.correctionIds), [q2.id]);
+  const resumedCorrection = sut.exerciseFromAttempt({
+    id: sut.state.exercise.id,
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: sut.state.exercise.round,
+    totalCount: 50,
+    result: correctionSnapshot
+  });
+  assert.equal(resumedCorrection.correctionMode, true);
+  assert.deepEqual(Array.from(resumedCorrection.correctionIds), [q2.id]);
+
+  answerInputs.find((input) => input.dataset.answerInput === q2.id).value = q2.answer;
+  await sut.submitExercise("all");
+  assert.ok(sut.state.exercise.correctIds.includes(q2.id));
+  assert.equal(sut.state.exercise.correctionMode, true, "completed correction cards stay visible until the student returns");
+  assert.match(sut.elements.lessonContent.innerHTML, /本次錯題已全部改正/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(`data-toggle-correct-card="${q2.id}"`));
+
+  await sut.exitCorrectionRound();
+  assert.equal(sut.state.exercise.correctionMode, false);
+  assert.deepEqual(Array.from(sut.state.exercise.correctionIds), []);
+  assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50);
+  const persisted = sut.serializeExerciseResult();
+  assert.deepEqual(Array.from(Object.keys(persisted)).sort(), [
+    "awaitingNextRound", "collapsedCorrectIds", "contentVersion", "correctIds", "correctionIds",
+    "correctionMode", "questionState", "round", "rounds"
+  ], "the Worker/database result contract preserves correction and manual-collapse state");
 });
 
 test("bookmark normalization, secrecy, reveal, synchronization, and limit all hold", async () => {

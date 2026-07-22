@@ -7,21 +7,25 @@
   <meta name="theme-color" content="#233a78">
   <title>句子結構學習系統｜EdmundEducation</title>
   <link rel="icon" href="Company Logo for Cover Page.png">
-  <link rel="stylesheet" href="sentence-structure.css">
+  <link rel="stylesheet" href="sentence-structure.css?v=20260722-2">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
   <a class="skip-link" href="#sentence-structure-main">跳至主要內容</a>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="返回 EdmundEducation 首頁">
-        <img class="brand-mark" src="Company Logo for Cover Page.png" alt="">
-        <span class="brand-copy">
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="sentence">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
           <strong>EdmundEducation</strong>
           <small>Sentence Structure System</small>
-        </span>
-      </a>
-      <div class="header-actions">
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions edmund-system-header__actions">
         <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
         <span class="user-pill" data-user-pill hidden></span>
         <button class="header-button" type="button" data-dashboard-button hidden>學習首頁</button>
@@ -189,6 +193,7 @@
   <script src="supabase-config.js"></script>
   <script src="sentence-structure-config.js"></script>
   <script src="sentence-structure-data.js"></script>
-  <script type="module" src="sentence-structure.js"></script>
+  <script src="shared-system-nav.js?v=20260722-1"></script>
+  <script type="module" src="sentence-structure.js?v=20260722-2"></script>
 </body>
 </html>

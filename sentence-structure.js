@@ -237,6 +237,7 @@ async function apiJson(path, options = {}, includeAuth = true) {
   if (!response.ok) {
     const error = await parseApiError(response);
     if (includeAuth && response.status === 401) {
+      if (state.user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
       clearSession();
       setStatus(elements.loginStatus, "登入時段已結束，請重新登入。", "error");
       showView("login");
@@ -295,6 +296,7 @@ async function studentLogin(username, password) {
   if (!row?.session_token) return null;
   return {
     token: String(row.session_token),
+    sharedAccess: row.access && typeof row.access === "object" && !Array.isArray(row.access) ? row.access : undefined,
     user: {
       id: String(row.id || ""),
       name: String(row.name || username),
@@ -362,6 +364,15 @@ async function handleLogin(event) {
     if (!result) throw new Error("用戶名稱或密碼不正確。");
     state.authToken = result.token;
     state.user = result.user;
+    if (!isAdmin) {
+      window.EdmundSystemNav?.rememberStudentSession({
+        token: result.token,
+        id: result.user.id,
+        name: result.user.name,
+        role: "student",
+        access: result.sharedAccess
+      });
+    }
     saveSession();
     elements.loginForm.reset();
     setStatus(elements.loginStatus, "");
@@ -383,6 +394,7 @@ async function handleLogin(event) {
 
 async function logout() {
   const role = state.user?.role;
+  if (role === "student") window.EdmundSystemNav?.forgetStudentSession();
   try {
     if (role === "admin" && state.authToken) {
       await apiJson("/v1/admin/logout", { method: "POST" });
@@ -465,22 +477,14 @@ async function openDashboard({ force = false } = {}) {
 
 function renderLessonChoices() {
   const cards = lessonList().map((lesson, index) => {
-    const completed = state.attempts.filter((attempt) => attempt.lessonId === lesson.id && attempt.status === "completed").length;
-    const inProgress = state.attempts.find((attempt) => attempt.lessonId === lesson.id && attempt.status !== "completed");
     return `
       <button class="lesson-choice" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${index % 2 ? "violet" : "blue"}">
-        <span class="choice-icon" aria-hidden="true">${index === 0 ? "to" : "A＋N"}</span>
         <h2>${escapeHtml(lessonTitle(lesson))}<span>${escapeHtml(lessonEnglishTitle(lesson))}</span></h2>
-        <span class="choice-meta">
-          <span>${escapeHtml(lesson.questions?.length || 0)} 題練習</span>
-          <span>${inProgress ? `進行中 · 第 ${escapeHtml(inProgress.roundNumber)} 輪` : completed ? `已完成 ${completed} 次` : "由公式開始"}</span>
-        </span>
       </button>
     `;
   }).join("");
   elements.lessonChoiceGrid.innerHTML = `${cards}
     <button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
-      <span class="choice-icon" aria-hidden="true">★</span>
       <h2>書簽<span>Bookmarks</span></h2>
       <span class="choice-meta"><span>${escapeHtml(state.bookmarks.length)} 個收藏題目</span><span>跟隨帳戶同步</span></span>
     </button>`;
@@ -612,7 +616,7 @@ function renderFormulaPage(lesson) {
       ${examples.filter((example) => example?.english || example?.en || example?.answer).map((example) => `
         <div class="example-block">
           <strong>EXAMPLE · 例句</strong>
-          <p>${escapeHtml(example.english || example.en || example.answer)}</p>
+          <p>${highlightedAnswerHtml(example.english || example.en || example.answer, example.highlight)}</p>
           <p>${escapeHtml(example.chinese || example.zh || example.answerZh || "")}</p>
         </div>`).join("")}
     </section>
@@ -674,6 +678,9 @@ function createExercise(lesson) {
     drafts: {},
     rounds: [],
     awaitingNextRound: false,
+    correctionMode: false,
+    correctionIds: [],
+    collapsedCorrectIds: [],
     durationMs: 0,
     startedAt,
     completedAt: ""
@@ -686,6 +693,12 @@ function exerciseFromAttempt(attempt) {
   const validQuestionIds = new Set((lesson?.questions || []).map((question) => String(question.id)));
   const correctIds = Array.isArray(result.correctIds)
     ? result.correctIds.map(String).filter((id) => validQuestionIds.has(id))
+    : [];
+  const correctionIds = Array.isArray(result.correctionIds)
+    ? result.correctionIds.map(String).filter((id) => validQuestionIds.has(id))
+    : [];
+  const collapsedCorrectIds = Array.isArray(result.collapsedCorrectIds)
+    ? result.collapsedCorrectIds.map(String).filter((id) => correctIds.includes(id))
     : [];
   const questionState = {};
   if (isPlainObject(result.questionState)) {
@@ -708,6 +721,9 @@ function exerciseFromAttempt(attempt) {
     drafts: {},
     rounds: Array.isArray(result.rounds) ? result.rounds.slice(0, 1000) : [],
     awaitingNextRound: result.awaitingNextRound === true,
+    correctionMode: result.correctionMode === true && correctionIds.length > 0,
+    correctionIds,
+    collapsedCorrectIds,
     durationMs: Math.max(0, attempt.durationMs),
     startedAt: attempt.startedAt || new Date().toISOString(),
     completedAt: attempt.completedAt || ""
@@ -743,26 +759,48 @@ function questionHtml(question) {
   const qState = questionState(question.id);
   const correct = state.exercise.correctIds.includes(question.id) || qState.status === "correct";
   const wrong = qState.status === "wrong";
+  const collapsed = correct && state.exercise.collapsedCorrectIds.includes(question.id);
   const value = state.exercise.drafts[question.id] ?? qState.lastAnswer ?? "";
   const bookmarked = isBookmarked(state.lessonId, question.id);
-  return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""}" data-question-id="${escapeHtml(question.id)}">
+  return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}">
     <div class="question-card-top">
       <span class="question-number">QUESTION ${escapeHtml(question.number || "")}</span>
-      <button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>
+      <div class="question-card-actions">
+        ${correct ? `<button class="question-visibility-button" type="button" data-toggle-correct-card="${escapeHtml(question.id)}" aria-expanded="${!collapsed}">${collapsed ? "顯示已完成題目" : "隱藏已完成題目"}</button>` : ""}
+        <button class="question-bookmark-button" type="button" data-toggle-question-bookmark="${escapeHtml(question.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除書簽" : "加入書簽"}">${bookmarked ? "★" : "☆"}</button>
+      </div>
     </div>
-    <div class="question-prompt">
-      <p class="english">${escapeHtml(question.prompt || question.english || "")}</p>
-      <p class="chinese">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
-      ${question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
+    <div class="question-card-content" ${collapsed ? "hidden" : ""}>
+      <div class="question-prompt">
+        <p class="english">${escapeHtml(question.prompt || question.english || "")}</p>
+        <p class="chinese">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
+        ${question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
+      </div>
+      <input class="answer-input" type="text" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">
+      <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? "答案未完全符合句型；請參考答案並修改。" : ""}</p>
+      ${qState.reveal ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span><p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p></div>` : ""}
     </div>
-    <input class="answer-input" type="text" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">
-    <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? "答案未完全符合句型；請參考答案，下一輪再試。" : ""}</p>
-    ${qState.reveal ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span><p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p></div>` : ""}
   </article>`;
 }
 
 function activeQuestions(lesson = getLesson()) {
   return (lesson?.questions || []).filter((question) => !state.exercise.correctIds.includes(question.id));
+}
+
+function wrongQuestionIds(lesson = getLesson()) {
+  return (lesson?.questions || [])
+    .filter((question) => !state.exercise.correctIds.includes(question.id) && questionState(question.id).status === "wrong")
+    .map((question) => question.id);
+}
+
+function correctionQuestions(lesson = getLesson()) {
+  const correctionIds = new Set(state.exercise.correctionIds || []);
+  return (lesson?.questions || []).filter((question) => correctionIds.has(question.id));
+}
+
+function submissionQuestions(lesson = getLesson()) {
+  const scoped = state.exercise.correctionMode ? correctionQuestions(lesson) : activeQuestions(lesson);
+  return scoped.filter((question) => !state.exercise.correctIds.includes(question.id));
 }
 
 function renderExercisePage(lesson, { preserveScroll = false } = {}) {
@@ -773,7 +811,14 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const percentage = total ? Math.round((correct / total) * 100) : 0;
   const remaining = total - correct;
   const completed = Boolean(state.exercise.completedAt || remaining === 0);
-  const active = activeQuestions(lesson);
+  const wrongIds = wrongQuestionIds(lesson);
+  const correctionScope = state.exercise.correctionMode ? correctionQuestions(lesson) : [];
+  const correctionRemaining = correctionScope.filter((question) => !state.exercise.correctIds.includes(question.id));
+  const displayQuestions = completed
+    ? lesson.questions
+    : state.exercise.correctionMode
+      ? correctionScope
+      : lesson.questions;
 
   elements.lessonContent.innerHTML = `<section class="exercise-page">
     <header class="exercise-header">
@@ -789,22 +834,34 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
       <div class="completion-mark" aria-hidden="true">✓</div>
       <h3>恭喜，全部題目已完成！</h3>
       <p>你用了 <strong>${escapeHtml(state.exercise.round)} 輪</strong> 完成這組 ${escapeHtml(total)} 題句子結構練習。</p>
-      <div class="round-summary-actions"><button class="secondary-button" type="button" data-review-completed>查看本次答案</button><button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
+      <div class="round-summary-actions"><button class="primary-button" type="button" data-finish-exercise>返回學習首頁</button></div>
     </section>` : state.exercise.awaitingNextRound ? `<section class="round-summary">
       <h3>第 ${escapeHtml(state.exercise.round)} 輪已提交</h3>
       <p>目前已答對 <strong>${escapeHtml(correct)}</strong> 題；尚有 <strong>${escapeHtml(remaining)}</strong> 題會在下一輪再練習。</p>
-      <div class="round-summary-actions"><button class="primary-button" type="button" data-next-round>開始第 ${escapeHtml(state.exercise.round + 1)} 輪</button></div>
+      <div class="round-summary-actions">
+        ${wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
+        <button class="primary-button" type="button" data-next-round>開始第 ${escapeHtml(state.exercise.round + 1)} 輪</button>
+      </div>
     </section>` : ""}
 
-    <div class="question-list" data-question-list ${completed && !state.exercise.reviewCompleted ? "hidden" : ""}>
-      ${(completed ? lesson.questions : active).map(questionHtml).join("")}
+    ${!completed && state.exercise.correctionMode ? `<section class="correction-round-banner">
+      <div>
+        <h3>${correctionRemaining.length ? "Correction Round · 改正輪" : "本次錯題已全部改正"}</h3>
+        <p>${correctionRemaining.length ? `集中修正 ${escapeHtml(correctionRemaining.length)} 題；答對後題卡會保留為淡綠色，方便核對。` : "你可以查看已完成的綠色題卡，或返回其餘題目繼續練習。"}</p>
+      </div>
+      <button class="secondary-button" type="button" data-exit-correction>返回其餘題目</button>
+    </section>` : ""}
+
+    <div class="question-list" data-question-list>
+      ${displayQuestions.map(questionHtml).join("")}
     </div>
 
-    ${!completed && !state.exercise.awaitingNextRound ? `<div class="exercise-actions">
-      <span class="exercise-action-copy" data-exercise-action-copy>可提交全部答案，或只檢查已輸入的題目。</span>
+    ${!completed && !state.exercise.awaitingNextRound && (!state.exercise.correctionMode || correctionRemaining.length) ? `<div class="exercise-actions">
+      <span class="exercise-action-copy" data-exercise-action-copy>${state.exercise.correctionMode ? "修改錯題後提交；答對的題卡會留在本輪供你核對。" : "可提交全部答案，或只檢查已輸入的題目。"}</span>
       <div class="exercise-action-buttons">
+        ${!state.exercise.correctionMode && wrongIds.length ? `<button class="correction-button" type="button" data-start-correction>立即改正錯題（${escapeHtml(wrongIds.length)}）</button>` : ""}
         <button class="partial-button" type="button" data-submit-partial hidden>提交部分答案</button>
-        <button class="primary-button" type="button" data-submit-all>提交答案</button>
+        <button class="primary-button" type="button" data-submit-all>${state.exercise.correctionMode ? "提交改正答案" : "提交答案"}</button>
       </div>
     </div>` : ""}
   </section>`;
@@ -837,14 +894,16 @@ function syncExerciseButtons() {
   const copy = document.querySelector("[data-exercise-action-copy]");
   if (!partialButton || !allButton || !state.exercise) return;
   readExerciseDrafts();
-  const active = activeQuestions();
-  const filled = active.filter((question) => String(state.exercise.drafts[question.id] || "").trim()).length;
-  partialButton.hidden = !(filled > 0 && filled < active.length);
-  allButton.textContent = filled === active.length && active.length ? "提交答案" : "提交全部答案";
+  const targets = submissionQuestions();
+  const filled = targets.filter((question) => String(state.exercise.drafts[question.id] || "").trim()).length;
+  partialButton.hidden = !(filled > 0 && filled < targets.length);
+  allButton.textContent = state.exercise.correctionMode
+    ? filled === targets.length && targets.length ? "提交改正答案" : "提交全部改正答案"
+    : filled === targets.length && targets.length ? "提交答案" : "提交全部答案";
   if (copy) {
-    copy.textContent = filled > 0 && filled < active.length
-      ? `已輸入 ${filled} / ${active.length} 題；可先檢查這 ${filled} 題。`
-      : filled === active.length && active.length
+    copy.textContent = filled > 0 && filled < targets.length
+      ? `已輸入 ${filled} / ${targets.length} 題；可先檢查這 ${filled} 題。`
+      : filled === targets.length && targets.length
         ? "所有答案已填寫，現在可以提交。"
         : "尚未輸入答案；提交全部會把空白題目留待下一輪。";
   }
@@ -876,6 +935,9 @@ function serializeExerciseResult() {
     questionState: { ...state.exercise.questionState },
     rounds: state.exercise.rounds.slice(-1000),
     awaitingNextRound: state.exercise.awaitingNextRound,
+    correctionMode: state.exercise.correctionMode === true,
+    correctionIds: [...state.exercise.correctionIds],
+    collapsedCorrectIds: [...state.exercise.collapsedCorrectIds],
     contentVersion: String(CONTENT.version || "1")
   };
 }
@@ -914,9 +976,9 @@ async function submitExercise(kind) {
   if (state.saveInFlight || !state.exercise || state.exercise.awaitingNextRound) return;
   readExerciseDrafts();
   const lesson = getLesson();
-  const active = activeQuestions(lesson);
-  const filled = active.filter((question) => String(state.exercise.drafts[question.id] || "").trim());
-  const targets = kind === "partial" ? filled : active;
+  const available = submissionQuestions(lesson);
+  const filled = available.filter((question) => String(state.exercise.drafts[question.id] || "").trim());
+  const targets = kind === "partial" ? filled : available;
   if (kind === "partial" && !targets.length) {
     showToast("請先輸入至少一題答案。", "error");
     return;
@@ -959,7 +1021,9 @@ async function submitExercise(kind) {
     pauseExerciseClock();
     state.exercise.completedAt = checkedAt;
     state.exercise.awaitingNextRound = false;
-  } else if (kind === "all") {
+    state.exercise.correctionMode = false;
+    state.exercise.correctionIds = [];
+  } else if (kind === "all" && !state.exercise.correctionMode) {
     state.exercise.awaitingNextRound = true;
   }
 
@@ -979,11 +1043,55 @@ async function submitExercise(kind) {
   }
 }
 
+async function startCorrectionRound() {
+  if (state.saveInFlight || !state.exercise) return;
+  readExerciseDrafts();
+  const lesson = getLesson();
+  const ids = wrongQuestionIds(lesson);
+  if (!ids.length) {
+    showToast("目前沒有需要改正的題目。", "error");
+    return;
+  }
+  state.exercise.round += 1;
+  state.exercise.awaitingNextRound = false;
+  state.exercise.correctionMode = true;
+  state.exercise.correctionIds = ids;
+  state.exercise.collapsedCorrectIds = state.exercise.collapsedCorrectIds.filter((id) => !ids.includes(id));
+  renderExercisePage(lesson);
+  try {
+    await persistExercise();
+  } catch (error) {
+    console.warn("Correction round save failed", error);
+    showToast("已進入改正輪，但暫時未能同步記錄。", "error");
+  }
+  document.querySelector(".exercise-header")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+async function exitCorrectionRound() {
+  if (!state.exercise?.correctionMode) return;
+  readExerciseDrafts();
+  state.exercise.correctionMode = false;
+  state.exercise.correctionIds = [];
+  renderExercisePage(getLesson(), { preserveScroll: true });
+}
+
+async function toggleCorrectCard(questionId) {
+  if (!state.exercise?.correctIds.includes(questionId)) return;
+  readExerciseDrafts();
+  const hidden = state.exercise.collapsedCorrectIds;
+  const index = hidden.indexOf(questionId);
+  if (index >= 0) hidden.splice(index, 1);
+  else hidden.push(questionId);
+  renderExercisePage(getLesson(), { preserveScroll: true });
+}
+
 async function startNextRound() {
   if (!state.exercise?.awaitingNextRound) return;
   const lesson = getLesson();
   state.exercise.round += 1;
   state.exercise.awaitingNextRound = false;
+  state.exercise.correctionMode = false;
+  state.exercise.correctionIds = [];
   for (const question of activeQuestions(lesson)) {
     state.exercise.questionState[question.id] = { status: "pending", lastAnswer: "", reveal: false };
     state.exercise.drafts[question.id] = "";
@@ -1139,11 +1247,12 @@ function handleClick(event) {
   if (event.target.closest("[data-lesson-next]")) return setLessonPage(state.lessonPage + 1);
   if (event.target.closest("[data-submit-partial]")) return submitExercise("partial");
   if (event.target.closest("[data-submit-all]")) return submitExercise("all");
+  if (event.target.closest("[data-start-correction]")) return startCorrectionRound();
+  if (event.target.closest("[data-exit-correction]")) return exitCorrectionRound();
   if (event.target.closest("[data-next-round]")) return startNextRound();
-  if (event.target.closest("[data-review-completed]")) {
-    state.exercise.reviewCompleted = !state.exercise.reviewCompleted;
-    return renderExercisePage(getLesson(), { preserveScroll: true });
-  }
+
+  const correctCardButton = event.target.closest("[data-toggle-correct-card]");
+  if (correctCardButton) return toggleCorrectCard(correctCardButton.dataset.toggleCorrectCard);
 
   const bookmarkButton = event.target.closest("[data-toggle-question-bookmark]");
   if (bookmarkButton) {
