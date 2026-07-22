@@ -47,6 +47,8 @@ declare
   v_item jsonb;
   v_round jsonb;
   v_array_name text;
+  v_key_count integer;
+  v_has_correction_state boolean;
 begin
   if p_lesson_id not in ('ss1', 'ss2')
     or p_result is null
@@ -57,8 +59,20 @@ begin
   end if;
 
   v_question_pattern := '^' || p_lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$';
+  select count(*) into v_key_count from jsonb_object_keys(p_result);
+  v_has_correction_state := p_result ? 'correctionMode'
+    or p_result ? 'correctionIds'
+    or p_result ? 'collapsedCorrectIds';
 
-  if (select count(*) from jsonb_object_keys(p_result)) <> 6
+  if v_key_count not in (6, 9)
+    or not (p_result ?& array[
+      'round',
+      'correctIds',
+      'questionState',
+      'rounds',
+      'awaitingNextRound',
+      'contentVersion'
+    ])
     or exists (
       select 1
       from jsonb_object_keys(p_result) as key_row(key_name)
@@ -68,8 +82,15 @@ begin
         'questionState',
         'rounds',
         'awaitingNextRound',
+        'correctionMode',
+        'correctionIds',
+        'collapsedCorrectIds',
         'contentVersion'
       )
+    )
+    or (
+      v_has_correction_state
+      and not (p_result ?& array['correctionMode', 'correctionIds', 'collapsedCorrectIds'])
     )
   then
     return false;
@@ -88,6 +109,59 @@ begin
     or p_result ->> 'contentVersion' <> '1'
   then
     return false;
+  end if;
+
+  if v_has_correction_state then
+    if jsonb_typeof(p_result -> 'correctionMode') <> 'boolean'
+      or jsonb_typeof(p_result -> 'correctionIds') <> 'array'
+      or jsonb_array_length(p_result -> 'correctionIds') > 50
+      or jsonb_typeof(p_result -> 'collapsedCorrectIds') <> 'array'
+      or jsonb_array_length(p_result -> 'collapsedCorrectIds') > 50
+    then
+      return false;
+    end if;
+
+    foreach v_array_name in array array['correctionIds', 'collapsedCorrectIds']
+    loop
+      for v_item in
+        select value
+        from jsonb_array_elements(p_result -> v_array_name)
+      loop
+        if jsonb_typeof(v_item) <> 'string'
+          or coalesce(v_item #>> '{}', '') !~ v_question_pattern
+        then
+          return false;
+        end if;
+      end loop;
+
+      if (
+        select count(*)
+        from jsonb_array_elements(p_result -> v_array_name)
+      ) <> (
+        select count(distinct value #>> '{}')
+        from jsonb_array_elements(p_result -> v_array_name)
+      ) then
+        return false;
+      end if;
+    end loop;
+
+    if ((p_result ->> 'correctionMode')::boolean and jsonb_array_length(p_result -> 'correctionIds') = 0)
+      or (not (p_result ->> 'correctionMode')::boolean and jsonb_array_length(p_result -> 'correctionIds') <> 0)
+      or ((p_result ->> 'correctionMode')::boolean and (p_result ->> 'awaitingNextRound')::boolean)
+      or exists (
+        select 1
+        from jsonb_array_elements_text(p_result -> 'correctionIds') as correction_id(question_id)
+        where not (p_result -> 'questionState' ? correction_id.question_id)
+          or coalesce(p_result -> 'questionState' -> correction_id.question_id ->> 'status', '') not in ('wrong', 'correct')
+      )
+      or exists (
+        select 1
+        from jsonb_array_elements_text(p_result -> 'collapsedCorrectIds') as collapsed_id(question_id)
+        where not (p_result -> 'correctIds' ? collapsed_id.question_id)
+      )
+    then
+      return false;
+    end if;
   end if;
 
   for v_item in

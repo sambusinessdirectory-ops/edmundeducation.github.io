@@ -9,12 +9,15 @@ import vm from "node:vm";
 const root = new URL("../", import.meta.url);
 const read = (name) => readFile(new URL(name, root), "utf8");
 
-const [dataSource, frontendSource, html, css, indexHtml] = await Promise.all([
+const [dataSource, frontendSource, html, css, indexHtml, workerSource, supabaseSchema, correctionMigration] = await Promise.all([
   read("sentence-structure-data.js"),
   read("sentence-structure.js"),
   read("sentence-structure.html"),
   read("sentence-structure.css"),
-  read("index.html")
+  read("index.html"),
+  read("workers/sentence-structure/src/index.js"),
+  read("supabase-sentence-structure.sql"),
+  read("supabase-sentence-structure-correction-state.sql")
 ]);
 
 const tests = [];
@@ -238,6 +241,31 @@ test("data contract contains two complete 50-question lessons", () => {
   assert.deepEqual(Array.from(lessons, (lesson) => lesson.questions.length), [50, 50]);
   assert.equal(allQuestions.length, 100);
   assert.equal(new Set(allQuestions.map((question) => question.id)).size, 100);
+});
+
+test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () => {
+  const resultKeys = [
+    "round", "correctIds", "questionState", "rounds", "awaitingNextRound",
+    "correctionMode", "correctionIds", "collapsedCorrectIds", "contentVersion"
+  ];
+  for (const key of resultKeys) {
+    assert.ok(frontendSource.includes(key), `frontend result contract is missing ${key}`);
+    assert.ok(workerSource.includes(`\"${key}\"`), `Worker result contract is missing ${key}`);
+    assert.ok(supabaseSchema.includes(`'${key}'`), `Supabase result contract is missing ${key}`);
+  }
+  assert.match(supabaseSchema, /v_key_count not in \(6, 9\)/, "Supabase must accept legacy and correction-state results");
+  assert.match(frontendSource, /rounds: state\.exercise\.rounds\.slice\(-250\)/, "client history must respect the server round limit");
+  assert.match(frontendSource, /maxlength="1000"[^>]+data-answer-input=/, "answer inputs must respect the server answer limit");
+
+  const functionMarker = "create or replace function public._sentence_structure_result_valid(";
+  const functionSql = (source) => {
+    const start = source.indexOf(functionMarker);
+    assert.ok(start >= 0, "result validator function is missing");
+    const end = source.indexOf("\n$$;", start);
+    assert.ok(end > start, "result validator function is incomplete");
+    return source.slice(start, end + 4).trim();
+  };
+  assert.equal(functionSql(correctionMigration), functionSql(supabaseSchema), "standalone migration must match the base schema validator");
 });
 
 test("every question preserves the bilingual exercise and answer contract", () => {

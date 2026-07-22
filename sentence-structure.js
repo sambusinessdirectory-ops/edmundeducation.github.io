@@ -719,7 +719,7 @@ function exerciseFromAttempt(attempt) {
     correctIds,
     questionState,
     drafts: {},
-    rounds: Array.isArray(result.rounds) ? result.rounds.slice(0, 1000) : [],
+    rounds: Array.isArray(result.rounds) ? result.rounds.slice(-250) : [],
     awaitingNextRound: result.awaitingNextRound === true,
     correctionMode: result.correctionMode === true && correctionIds.length > 0,
     correctionIds,
@@ -776,7 +776,7 @@ function questionHtml(question) {
         <p class="chinese">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
         ${question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
       </div>
-      <input class="answer-input" type="text" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">
+      <input class="answer-input" type="text" maxlength="1000" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">
       <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? "答案未完全符合句型；請參考答案並修改。" : ""}</p>
       ${qState.reveal ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span><p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p></div>` : ""}
     </div>
@@ -933,7 +933,7 @@ function serializeExerciseResult() {
     round: state.exercise.round,
     correctIds: [...state.exercise.correctIds],
     questionState: { ...state.exercise.questionState },
-    rounds: state.exercise.rounds.slice(-1000),
+    rounds: state.exercise.rounds.slice(-250),
     awaitingNextRound: state.exercise.awaitingNextRound,
     correctionMode: state.exercise.correctionMode === true,
     correctionIds: [...state.exercise.correctionIds],
