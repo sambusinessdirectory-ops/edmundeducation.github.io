@@ -424,6 +424,30 @@ window.EDMUND_DSE_WRITING_EXERCISES = {
     ],
     "translationSections": [
       {
+        "title": "Title",
+        "subtitle": "標題",
+        "tone": "gold",
+        "items": [
+          {
+            "label": "Title",
+            "english": "When Eateries Become Classrooms",
+            "chinese": "當食肆變成課室"
+          }
+        ]
+      },
+      {
+        "title": "Salutation",
+        "subtitle": "稱呼",
+        "tone": "green",
+        "items": [
+          {
+            "label": "Salutation",
+            "english": "Dear Editor,",
+            "chinese": "尊敬的編輯："
+          }
+        ]
+      },
+      {
         "title": "Intro",
         "subtitle": "引言",
         "tone": "blue",
@@ -645,6 +669,23 @@ window.EDMUND_DSE_WRITING_EXERCISES = {
             "label": "Conclusion / Implications",
             "english": "If we truly care about both education and civic responsibility, we must stop pretending that a corner table and a cheap drink are an acceptable substitute for a real classroom.",
             "chinese": "如果我們真的同時重視教育與公民責任，我們就必須停止假裝角落裡的一張桌子和一杯便宜飲料，可以成為真正教室的合理替代品。"
+          }
+        ]
+      },
+      {
+        "title": "Closing",
+        "subtitle": "結語及署名",
+        "tone": "green",
+        "items": [
+          {
+            "label": "Sign-off",
+            "english": "Yours faithfully,",
+            "chinese": "此致敬禮，"
+          },
+          {
+            "label": "Signature",
+            "english": "Chris Wong",
+            "chinese": "Chris Wong"
           }
         ]
       }

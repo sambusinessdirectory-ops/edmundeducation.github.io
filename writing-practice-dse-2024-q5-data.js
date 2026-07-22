@@ -528,6 +528,18 @@ window.EDMUND_DSE_WRITING_2024_EXERCISES = {
     ],
     "translationSections": [
       {
+        "title": "Title",
+        "subtitle": "標題",
+        "tone": "gold",
+        "items": [
+          {
+            "label": "Title",
+            "english": "One Night, 100,000 Likes, and a Lesson I Never Expected",
+            "chinese": "一夜之間，十萬個讚，以及一個我從未預料到的教訓"
+          }
+        ]
+      },
+      {
         "title": "Intro",
         "subtitle": "引言",
         "tone": "blue",

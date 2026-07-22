@@ -2333,6 +2333,21 @@
       align-items: flex-start;
     }
 
+    .practice-head-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-left: auto;
+    }
+
+    .practice-translation-toggle.is-active {
+      border-color: rgba(79,70,229,0.52);
+      background: linear-gradient(135deg, #4338ca, #7c3aed);
+      color: #fff;
+      box-shadow: 0 12px 26px rgba(79,70,229,0.24);
+    }
+
     .practice-round-pill {
       min-height: 40px;
       display: inline-flex;
@@ -2355,6 +2370,22 @@
       padding: 16px;
       background: rgba(255,255,255,0.72);
       border: 1px solid rgba(47,128,237,0.10);
+    }
+
+    .practice-translation {
+      display: grid;
+      gap: 7px;
+      margin-top: 12px;
+      border-top: 1px dashed rgba(79,70,229,0.24);
+      padding-top: 12px;
+      color: #51459a;
+      font-size: 0.88em;
+      line-height: 1.72;
+      font-weight: 760;
+    }
+
+    .practice-translation p {
+      margin: 0;
     }
 
     .sentence-grid {
@@ -2651,6 +2682,11 @@
         justify-content: stretch;
       }
 
+      .practice-head-actions {
+        width: 100%;
+        justify-content: stretch;
+      }
+
       .mini-button,
       .secondary-button,
       .primary-button,
@@ -2806,9 +2842,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=2"></script>
   <script src="writing-audio-manifest.js?v=writing-audio-v5-20260716-1"></script>
-  <script src="writing-practice-dse-2025-q3-data.js?v=20260712-2"></script>
+  <script src="writing-practice-dse-2025-q3-data.js?v=20260722-1"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
-  <script src="writing-practice-dse-2024-q5-data.js?v=20260712-1"></script>
+  <script src="writing-practice-dse-2024-q5-data.js?v=20260722-1"></script>
   <script src="writing-practice-model-essay-106-data.js?v=20260715-1"></script>
   <script src="writing-practice-model-essays-opinion-3-16-data.js?v=20260715-1"></script>
   <script src="writing-practice-model-essays-17-52-data.js?v=20260715-1"></script>
@@ -5619,6 +5655,116 @@ Device: concession 讓步
       return paragraph.sentences.map(plainSentence).join(" ");
     }
 
+    function normalizePracticeTranslationText(value) {
+      return String(value || "")
+        .normalize("NFKC")
+        .replace(/[“”]/g, '"')
+        .replace(/[‘’]/g, "'")
+        .replace(/[–—]/g, "-")
+        .replace(/\s+/g, " ")
+        .trim()
+        .toLowerCase();
+    }
+
+    function practiceTranslationUnitEnglish(unit) {
+      if (Array.isArray(unit)) return unit[1] || "";
+      return unit?.english || unit?.en || unit?.source || "";
+    }
+
+    function practiceTranslationUnitChinese(unit) {
+      if (Array.isArray(unit)) return unit[2] || "";
+      return unit?.chinese || unit?.zh || unit?.translation || "";
+    }
+
+    function practiceTranslationSections(exercise) {
+      return Array.isArray(exercise?.translationSections)
+        ? exercise.translationSections.filter(section => Array.isArray(section?.items) && section.items.length)
+        : [];
+    }
+
+    function practiceTranslationSectionForParagraph(exercise, paragraphIndex) {
+      const sourceParagraph = exercise?.paragraphs?.[paragraphIndex];
+      if (!sourceParagraph) return null;
+      const sections = practiceTranslationSections(exercise);
+      if (!sections.length) return null;
+
+      const paragraphText = normalizePracticeTranslationText(plainParagraph(sourceParagraph));
+      const exactTextMatch = sections.find(section => normalizePracticeTranslationText(
+        section.items.map(practiceTranslationUnitEnglish).filter(Boolean).join(" ")
+      ) === paragraphText);
+      if (exactTextMatch) return exactTextMatch;
+
+      const paragraphLabel = normalizePracticeTranslationText(sourceParagraph.label || "");
+      const labelMatch = paragraphLabel
+        ? sections.find(section => normalizePracticeTranslationText(section.title || "") === paragraphLabel)
+        : null;
+      if (labelMatch) return labelMatch;
+
+      return sections.length === exercise.paragraphs.length ? sections[paragraphIndex] || null : null;
+    }
+
+    function cleanPracticeTranslationLines(lines) {
+      return (Array.isArray(lines) ? lines : [lines])
+        .map(line => String(line || "").trim())
+        .filter(Boolean);
+    }
+
+    function practiceTranslationLinesForParagraph(exercise, paragraphIndex) {
+      const section = practiceTranslationSectionForParagraph(exercise, paragraphIndex);
+      const sectionLines = cleanPracticeTranslationLines(
+        section?.items?.map(practiceTranslationUnitChinese) || []
+      );
+      if (sectionLines.length) return sectionLines;
+      return cleanPracticeTranslationLines(exercise?.translation?.[paragraphIndex] || "");
+    }
+
+    function practiceTranslationLinesForSentence(exercise, paragraphIndex, sentence) {
+      const section = practiceTranslationSectionForParagraph(exercise, paragraphIndex);
+      const items = Array.isArray(section?.items) ? section.items : [];
+      const sentenceText = normalizePracticeTranslationText(plainSentence(sentence));
+      const exactMatch = items.find(unit => normalizePracticeTranslationText(practiceTranslationUnitEnglish(unit)) === sentenceText);
+      if (exactMatch) return cleanPracticeTranslationLines(practiceTranslationUnitChinese(exactMatch));
+
+      const sectionText = normalizePracticeTranslationText(
+        items.map(practiceTranslationUnitEnglish).filter(Boolean).join(" ")
+      );
+      if (sectionText && sectionText === sentenceText) {
+        return cleanPracticeTranslationLines(items.map(practiceTranslationUnitChinese));
+      }
+
+      return practiceTranslationLinesForParagraph(exercise, paragraphIndex);
+    }
+
+    function practiceTranslationLinesForEnglish(exercise, englishText) {
+      const normalizedEnglish = normalizePracticeTranslationText(englishText);
+      if (!normalizedEnglish) return [];
+      const exactMatch = practiceTranslationSections(exercise)
+        .flatMap(section => section.items)
+        .find(unit => normalizePracticeTranslationText(practiceTranslationUnitEnglish(unit)) === normalizedEnglish);
+      return exactMatch ? cleanPracticeTranslationLines(practiceTranslationUnitChinese(exactMatch)) : [];
+    }
+
+    function renderPracticeTranslation(lines) {
+      if (!practiceState?.showTranslation) return "";
+      const cleanLines = cleanPracticeTranslationLines(lines);
+      if (!cleanLines.length) return "";
+      return `
+        <div class="practice-translation" data-practice-translation lang="zh-Hant">
+          ${cleanLines.map(line => `<p>${escapeHtml(line)}</p>`).join("")}
+        </div>
+      `;
+    }
+
+    function renderPracticeTranslationToggle() {
+      const visible = Boolean(practiceState?.showTranslation);
+      const label = visible ? "隱藏中文翻譯" : "顯示中文翻譯";
+      return `
+        <button class="secondary-button practice-translation-toggle ${visible ? "is-active" : ""}" type="button" data-toggle-practice-translation aria-pressed="${visible}" aria-label="${label}">
+          ${label}
+        </button>
+      `;
+    }
+
     function hasWritingPathway(sectionKey) {
       return Boolean(writingPathways[sectionKey]);
     }
@@ -6254,6 +6400,7 @@ Device: concession 讓步
       return {
         screen: "mode",
         selectorOpen: true,
+        showTranslation: false,
         selectedParagraphs: allParagraphIndexes(exercise),
         difficultyKey: defaultDifficulty?.key || "",
         mode: "",
@@ -7460,6 +7607,7 @@ Device: concession 讓步
             <div class="paragraph-actions">
               <button class="secondary-button" type="button" data-select-full-essay>全篇文章</button>
               <button class="secondary-button" type="button" data-toggle-paragraph-selector>段落選擇系統</button>
+              ${renderPracticeTranslationToggle()}
             </div>
             <div class="paragraph-checkboxes ${practiceState?.selectorOpen ? "" : "hidden"}">
               ${exercise.paragraphs.map((paragraph, index) => `
@@ -7505,7 +7653,7 @@ Device: concession 讓步
       return `<span class="blank-number">(${escapeHtml(part.number)})</span><input class="${classes.join(" ")}" style="width:${blankInputWidth(part.answer)}px" type="text" data-answer-id="${escapeHtml(part.id)}" value="${escapeHtml(value)}" placeholder="${escapeHtml(answerHint(part.answer, practiceState?.mode))}" autocomplete="off" ${disabled}>${resultLabel}`;
     }
 
-    function renderPracticeSentence(sentence, targetIds, heading = "") {
+    function renderPracticeSentence(sentence, targetIds, heading = "", translationLines = []) {
       const sentenceHtml = sentence.parts.map(part => {
         if (isBlankPart(part)) return renderPracticeInput(part, targetIds);
         return escapeHtml(part);
@@ -7515,6 +7663,7 @@ Device: concession 讓步
         <div class="sentence-card">
           ${heading ? `<strong>${escapeHtml(heading)}</strong>` : ""}
           <p>${sentenceHtml}</p>
+          ${renderPracticeTranslation(translationLines)}
         </div>
       `;
     }
@@ -7531,7 +7680,12 @@ Device: concession 讓步
         paragraphs.forEach((paragraph, paragraphIndex) => {
           paragraph.sentences.forEach(sentence => {
             if (!sentenceKeys.has(sentence.key)) return;
-            cards.push(renderPracticeSentence(sentence, targetIds, `${paragraphPlainLabel(exercise, paragraphIndex)} | 第 ${sentence.sentenceIndex + 1} 句`));
+            cards.push(renderPracticeSentence(
+              sentence,
+              targetIds,
+              `${paragraphPlainLabel(exercise, paragraphIndex)} | 第 ${sentence.sentenceIndex + 1} 句`,
+              practiceTranslationLinesForSentence(exercise, paragraphIndex, sentence)
+            ));
           });
         });
         return `<div class="sentence-grid">${cards.join("")}</div>`;
@@ -7548,6 +7702,7 @@ Device: concession 讓步
           ${leadLines.map((line, index) => `
             <div class="practice-paragraph practice-fixed-line">
               <p class="${index === 0 ? "essay-letter-title" : "essay-letter-salutation"}">${escapeHtml(line)}</p>
+              ${renderPracticeTranslation(practiceTranslationLinesForEnglish(exercise, line))}
             </div>
           `).join("")}
           ${paragraphs.map((paragraph, paragraphIndex) => {
@@ -7556,11 +7711,17 @@ Device: concession 讓步
               if (isBlankPart(part)) return renderPracticeInput(part, targetIds);
               return escapeHtml(part);
             }).join("")).join(" ");
-            return `<div class="practice-paragraph"><p>${paragraphHtml}</p></div>`;
+            return `
+              <div class="practice-paragraph">
+                <p>${paragraphHtml}</p>
+                ${renderPracticeTranslation(practiceTranslationLinesForParagraph(exercise, paragraphIndex))}
+              </div>
+            `;
           }).join("")}
           ${closingLines.map((line, index) => `
             <div class="practice-paragraph practice-fixed-line">
               <p class="essay-letter-closing${index === closingLines.length - 1 ? " essay-letter-signature" : ""}">${escapeHtml(line)}</p>
+              ${renderPracticeTranslation(practiceTranslationLinesForEnglish(exercise, line))}
             </div>
           `).join("")}
         </div>
@@ -7636,7 +7797,10 @@ Device: concession 讓步
               <span class="practice-round-pill">第 ${escapeHtml(practiceState.round)} 輪 | ${escapeHtml(styleLabel)}</span>
               <p class="note-text">本輪共有 ${escapeHtml(targets.length)} 題。請點擊空格並輸入答案。</p>
             </div>
-            <button class="secondary-button" type="button" data-back-practice-mode>更改模式</button>
+            <div class="practice-head-actions">
+              ${renderPracticeTranslationToggle()}
+              <button class="secondary-button" type="button" data-back-practice-mode>更改模式</button>
+            </div>
           </div>
           ${practiceState.submitted ? renderResultPanel(practiceState.lastResult, exercise) : ""}
           ${renderPracticeWordBank(exercise)}
@@ -9268,6 +9432,15 @@ Device: concession 讓步
 
         if (event.target.closest("[data-export-study-pdf]")) {
           exportCurrentStudyPdf();
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-practice-translation]")) {
+          if (practiceState) {
+            syncPracticeAnswersFromDom();
+            practiceState.showTranslation = !practiceState.showTranslation;
+            renderExerciseView();
+          }
           return;
         }
 
