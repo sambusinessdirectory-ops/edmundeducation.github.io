@@ -201,6 +201,7 @@ function topLevelFunctionSource(source, name) {
 
 function createOpeningFlowHarness(source) {
   const content = { innerHTML: "" };
+  const scrollCalls = [];
   const documentListeners = new Map();
   const windowListeners = new Map();
   const document = {
@@ -279,7 +280,7 @@ function createOpeningFlowHarness(source) {
     clearInterval,
     requestAnimationFrame: () => 0,
     cancelAnimationFrame() {},
-    scrollTo() {},
+    scrollTo(...args) { scrollCalls.push(args); },
     fetch: unexpectedFetch
   };
   const instrumented = source.replace(/\n  init\(\);\n\}\)\(\);\s*$/, `
@@ -288,6 +289,21 @@ function createOpeningFlowHarness(source) {
     setupEvents: () => setupEvents(),
     runOpeningSequence: () => startExamOpeningSequence(),
     renderOpening: () => renderExamOpening(),
+    renderPractice: () => renderExamPractice(),
+    renderCompletion: () => renderExamCompletion(),
+    renderPart1: item => renderExamPart1(item),
+    renderPart2: item => renderExamPart2(item),
+    renderPart3: item => renderExamPart3(item),
+    renderProgress: item => renderExamProgress(item),
+    renderReviewQuestion: item => renderExamReviewQuestion(item),
+    renderSavedReflection: attempt => renderSavedExamReflection(attempt),
+    renderExamRecordingBox: groups => renderExamRecordingBox(groups),
+    normaliseExamAttempt: attempt => normaliseExamAttempt(attempt),
+    advanceItem: () => advanceExamItem(),
+    submitRating: () => submitExamRating(),
+    startPart2Timer: item => startExamPart2Timer(item),
+    clearExamTimer: () => clearExamPhaseTimer(),
+    clearExamSession: () => clearExamSession(),
     skipIntroduction: () => skipExamIntroduction(),
     currentRecordingItem: () => currentExamRecordingItem(),
     replaceStartExamPractice: replacement => { startExamPractice = replacement; },
@@ -330,6 +346,7 @@ function createOpeningFlowHarness(source) {
   return {
     hooks: window.__EDMUND_SPEAKING_OPENING_TEST__,
     content,
+    scrollCalls,
     audioActions,
     documentListeners,
     setUserGesture(active) { userGestureActive = Boolean(active); },
@@ -340,10 +357,15 @@ function createOpeningFlowHarness(source) {
 const speakingSystemSource = readFileSync(`${repository}/speaking-system.js`, "utf8");
 const openingSource = topLevelFunctionSource(speakingSystemSource, "renderExamOpening");
 const openingSequenceSource = topLevelFunctionSource(speakingSystemSource, "startExamOpeningSequence");
+const introSkipControlSource = topLevelFunctionSource(speakingSystemSource, "examIntroductionSkipHtml");
+const speakExamTextSource = topLevelFunctionSource(speakingSystemSource, "speakExamText");
+const speakQuestionSource = topLevelFunctionSource(speakingSystemSource, "speakCurrentExamQuestion");
 const skipIntroductionSource = topLevelFunctionSource(speakingSystemSource, "skipExamIntroduction");
 const setupEventsSource = topLevelFunctionSource(speakingSystemSource, "setupEvents");
 
-assert.match(openingSource, /examVoiceControlHtml\(\{ allowIntroSkip: true \}\)/, "the opening panel must render an always-available introduction skip control");
+assert.match(openingSource, /examIntroductionSkipHtml\(\)/, "the opening panel must render the dedicated introduction skip control");
+assert.match(introSkipControlSource, /data-exam-skip-intro/, "the dedicated introduction skip control needs a stable DOM hook");
+assert.doesNotMatch(introSkipControlSource, /data-stop-exam-voice|略過語音/, "the starter skip helper must not recreate the removed voice-skip control");
 assert.match(speakingSystemSource, /data-exam-skip-intro/, "the introduction skip control needs a stable DOM hook");
 assert.match(setupEventsSource, /data-exam-skip-intro[\s\S]*?skipExamIntroduction\(\)/, "the introduction skip control must call skipExamIntroduction");
 assert.match(skipIntroductionSource, /\["opening", "intro-answer"\]\.includes\(session\.phase\)/, "introduction skip must work while either opening message is active");
@@ -351,6 +373,8 @@ assert.match(skipIntroductionSource, /introduction\/skip/, "introduction skip mu
 assert.doesNotMatch(skipIntroductionSource, /recordingIntroId|startRecording|saveRecording|FormData|method:\s*["']POST["']/, "introduction skip must never create or upload a recording");
 assert.match(openingSequenceSource, /await speakExamText\("Okay, let's begin\."\)/, "opening voice must start with the examiner greeting");
 assert.match(openingSequenceSource, /await speakExamText\("Could you tell me your full name please\?"\)/, "opening voice must ask the name starter once");
+assert.match(speakQuestionSource, /risingInflection:\s*true/, "live examiner questions must request a stronger rising inflection");
+assert.match(speakExamTextSource, /playbackRate\.linearRampToValueAtTime/, "examiner playback must shape the final syllables with a controlled pitch rise");
 const unlockIndex = setupEventsSource.indexOf("unlockExamAudio();");
 const startIndex = setupEventsSource.indexOf("startExamPractice(examMode.dataset.examMode);");
 assert.ok(unlockIndex >= 0 && startIndex > unlockIndex, "the click gesture must unlock examiner audio before asynchronous exam creation starts");
@@ -502,4 +526,302 @@ for (const phase of ["opening", "intro-answer"]) {
 }
 assert.equal(openingHarness.unexpectedNetworkCalls(), 0, "opening-flow tests must not fall through to real network access");
 
-console.log("Speaking exam mode tests passed: 7 mode boundaries, skipped-question cooldown/review semantics, natural transitions, user-gesture opening audio, skippable name starter and 19-question full flow.");
+const speakingSystemHtmlSource = readFileSync(`${repository}/speaking-system.html`, "utf8");
+const examAudioManifestSource = readFileSync(`${repository}/speaking-exam-audio-manifest.js`, "utf8");
+const productionExamUiSource = `${speakingSystemSource}\n${speakingSystemHtmlSource}`;
+for (const removedCopy of [
+  "略過語音",
+  "考官已讀完題目，請按「開始回答」。",
+  "考官正在讀出題目…",
+  "按「開始回答」錄音，完成後按「完成回答」。"
+]) {
+  assert.equal(productionExamUiSource.includes(removedCopy), false, `removed exam copy must stay absent: ${removedCopy}`);
+}
+assert.equal(productionExamUiSource.includes("data-stop-exam-voice"), false, "the duplicate voice-skip control must be removed from every exam view");
+assert.equal(productionExamUiSource.includes("data-exam-skip-intro"), true, "the distinct name-starter skip control must remain available");
+for (const repairedOkayKey of [
+  "fixed:opening-begin-v2",
+  "fixed:part2-instructions-v2",
+  "fixed:part2-ready-v2",
+  "fixed:part3-opening-v2"
+]) {
+  assert.equal(examAudioManifestSource.includes(`\"${repairedOkayKey}\"`), true, `${repairedOkayKey} must have a generated neural-audio asset`);
+  assert.equal(speakingSystemSource.includes(`\"${repairedOkayKey}\"`), true, `${repairedOkayKey} must be selected by the live examiner flow`);
+}
+
+const noScrollHarness = createOpeningFlowHarness(speakingSystemSource);
+const noScrollHooks = noScrollHarness.hooks;
+const answeredQuestion = { kind: "question", part: 1, globalOrder: 1, title: "Answered", saved: true };
+const followingQuestion = { kind: "question", part: 1, globalOrder: 2, title: "Following", saved: false };
+let nextQuestionRenderCount = 0;
+noScrollHooks.state.user = { id: fixedAttempt, role: "student", name: "Test Student" };
+noScrollHooks.state.route = { view: "exam-practice", exam: "ielts", modeId: "p1" };
+noScrollHooks.state.examSession = {
+  id: fixedAttempt,
+  modeId: "p1",
+  phase: "question",
+  naturalExchange: false,
+  items: [answeredQuestion, followingQuestion],
+  currentIndex: 0
+};
+noScrollHooks.replaceRenderExamPractice(() => { nextQuestionRenderCount += 1; });
+noScrollHooks.advanceItem();
+assert.equal(noScrollHooks.state.examSession.currentIndex, 1, "next question should still advance normally");
+assert.equal(noScrollHooks.state.examSession.phase, "question");
+assert.equal(nextQuestionRenderCount, 1, "next question should render exactly once");
+assert.equal(noScrollHarness.scrollCalls.length, 0, "advancing to the next question must not force the page back to the top");
+
+function part2TestItem() {
+  return {
+    kind: "question",
+    part: 2,
+    globalOrder: 1,
+    sourceBook: 7,
+    sourceIndex: 4,
+    sourceId: "part2-source-record",
+    sourceKey: "p2:part2-source-record",
+    contentKey: "silent-part-2-cue",
+    cueTitle: "A useful object",
+    cueTitleZh: "一件有用的物件",
+    title: "Describe a useful object you own.",
+    titleZh: "描述一件你擁有的有用物件。",
+    hints: [{ en: "what it is", zh: "它是甚麼" }],
+    ppf: null,
+    saved: false,
+    skipped: false,
+    prepPhase: "waiting",
+    questionSpeechStarted: false,
+    questionSpeechDone: false
+  };
+}
+
+async function waitForExamUi(predicate, message) {
+  for (let turn = 0; turn < 20; turn += 1) {
+    if (predicate()) return;
+    await new Promise(resolve => setImmediate(resolve));
+  }
+  assert.ok(predicate(), message);
+}
+
+async function assertSilentPart2Start(naturalExchange) {
+  const harness = createOpeningFlowHarness(speakingSystemSource);
+  const hooks = harness.hooks;
+  const item = part2TestItem();
+  const spoken = [];
+  hooks.state.user = { id: fixedAttempt, role: "student", name: "Test Student" };
+  hooks.state.access = {};
+  hooks.state.route = { view: "exam-practice", exam: "ielts", modeId: "p2" };
+  hooks.state.examSession = {
+    id: fixedAttempt,
+    modeId: "p2",
+    mode: exam.modeForId("p2"),
+    phase: "question",
+    naturalExchange,
+    startedAt: new Date().toISOString(),
+    items: [item],
+    currentIndex: 0
+  };
+  hooks.replaceSpeakExamText(async (message, audioKey) => {
+    spoken.push({ message: String(message), audioKey: String(audioKey || "") });
+    return true;
+  });
+
+  hooks.renderPractice();
+  if (naturalExchange) {
+    assert.equal(harness.content.innerHTML.includes(item.title), false, "natural mode must finish the fixed handout instruction before revealing the cue card");
+  }
+  await waitForExamUi(
+    () => harness.content.innerHTML.includes(item.title),
+    "Part 2 cue card should become visible after the handout step"
+  );
+
+  assert.equal(spoken.some(call => call.message.includes(item.title) || call.audioKey === item.sourceKey), false, "Part 2 prompt and hints must never be spoken or fetched as question audio");
+  assert.equal(item.questionSpeechDone, true, "silent Part 2 handout should be marked ready without question TTS");
+  assert.ok(Number.isFinite(item.cueDisplayedAt), "cue display time should be captured once the card becomes visible");
+  assert.equal(item.settleEndsAt - item.cueDisplayedAt, 2000, "silent cue card must settle for exactly two seconds");
+  assert.equal(item.prepEndsAt - item.settleEndsAt, 60000, "the automatic preparation timer must run for exactly sixty seconds after settling");
+  assert.match(harness.content.innerHTML, /0:02/, "the initial silent cue-card state should show the two-second settle countdown");
+  assert.equal(harness.content.innerHTML.includes("Book 7"), false, "live Part 2 must not reveal its source book");
+
+  if (naturalExchange) {
+    assert.deepEqual(spoken.map(call => call.message), [
+      "So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?"
+    ], "natural Part 2 should speak only the fixed handout instruction before preparation");
+    item.prepPhase = "preparing";
+    item.settleEndsAt = Date.now() - 61000;
+    item.prepEndsAt = Date.now() - 1;
+    hooks.startPart2Timer(item);
+    await waitForExamUi(
+      () => spoken.some(call => call.message === "Okay, you can begin."),
+      "natural Part 2 should speak the fixed ready prompt after preparation"
+    );
+    assert.deepEqual(spoken.map(call => call.message), [
+      "So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?",
+      "Okay, you can begin."
+    ], "only the fixed ready prompt may be spoken when preparation finishes");
+  } else {
+    assert.deepEqual(spoken, [], "natural-exchange-off Part 2 must reveal the cue silently and immediately");
+  }
+  hooks.clearExamSession();
+}
+
+await assertSilentPart2Start(false);
+await assertSilentPart2Start(true);
+
+const sourceVisibilityHarness = createOpeningFlowHarness(speakingSystemSource);
+const sourceVisibilityHooks = sourceVisibilityHarness.hooks;
+sourceVisibilityHooks.state.user = { id: fixedAttempt, role: "student", name: "Test Student" };
+sourceVisibilityHooks.state.access = {};
+sourceVisibilityHooks.state.bookmarks = [];
+sourceVisibilityHooks.state.examSession = { naturalExchange: false };
+const liveSourceItems = [
+  {
+    kind: "question",
+    part: 1,
+    globalOrder: 1,
+    themeSlot: 1,
+    themeTitle: "Home",
+    questionInTheme: 3,
+    questionNumber: 3,
+    sourceBook: 7,
+    sourceIndex: 2,
+    sourceId: "part1-source-record",
+    title: "Where do you live?",
+    titleZh: "你住在哪裏？",
+    questionSpeechDone: true
+  },
+  {
+    ...part2TestItem(),
+    prepPhase: "settling",
+    questionSpeechDone: true,
+    settleEndsAt: Date.now() + 2000,
+    prepEndsAt: Date.now() + 62000
+  },
+  {
+    kind: "question",
+    part: 3,
+    globalOrder: 3,
+    themeTitle: "Private source discussion heading",
+    sourceBook: 7,
+    sourceIndex: 9,
+    sourceId: "part3-source-record",
+    title: "Why are useful objects important?",
+    titleZh: "為甚麼有用的物件很重要？",
+    questionSpeechDone: true
+  }
+];
+const livePartHtml = [
+  sourceVisibilityHooks.renderPart1(liveSourceItems[0]),
+  sourceVisibilityHooks.renderPart2(liveSourceItems[1]),
+  sourceVisibilityHooks.renderPart3(liveSourceItems[2])
+];
+livePartHtml.forEach((html, index) => {
+  assert.equal(html.includes("Book 7"), false, `live Part ${index + 1} must hide its source book`);
+  assert.equal(html.includes("data-open-exam-source"), false, `live Part ${index + 1} must not expose a source link`);
+});
+assert.equal(livePartHtml[0].includes("題庫原題"), false, "live Part 1 must hide its original question-bank label");
+assert.equal(livePartHtml[2].includes("Private source discussion heading"), false, "live Part 3 must hide its source theme/book subtitle");
+
+function elapsedSecondsFromHtml(html, attribute) {
+  const element = html.match(new RegExp(`<[^>]+${attribute}[^>]*>([\\s\\S]*?)<\\/[^>]+>`));
+  assert.ok(element, `${attribute} should be rendered`);
+  const text = element[1].replace(/<[^>]*>/g, " ");
+  const clock = text.match(/(\d+):(\d{2})/);
+  assert.ok(clock, `${attribute} should contain a minutes:seconds value`);
+  return Number(clock[1]) * 60 + Number(clock[2]);
+}
+
+const stopwatchHarness = createOpeningFlowHarness(speakingSystemSource);
+const stopwatchHooks = stopwatchHarness.hooks;
+const stopwatchStartedMs = Date.now() - 125000;
+const stopwatchStartedAt = new Date(stopwatchStartedMs).toISOString();
+const stopwatchCompletedAt = new Date(stopwatchStartedMs + 125000).toISOString();
+const stopwatchQuestions = [
+  { ...liveSourceItems[0], globalOrder: 1 },
+  { ...liveSourceItems[0], globalOrder: 2, title: "Second question", questionNumber: 4 }
+];
+stopwatchHooks.state.user = { id: fixedAttempt, role: "student", name: "Test Student" };
+stopwatchHooks.state.access = {};
+stopwatchHooks.state.bookmarks = [];
+stopwatchHooks.state.examSession = {
+  id: fixedAttempt,
+  modeId: "p1",
+  mode: exam.modeForId("p1"),
+  phase: "question",
+  naturalExchange: false,
+  startedAt: stopwatchStartedAt,
+  completedAt: "",
+  items: stopwatchQuestions,
+  currentIndex: 0
+};
+const firstStopwatchSeconds = elapsedSecondsFromHtml(stopwatchHooks.renderProgress(stopwatchQuestions[0]), "data-exam-elapsed-clock");
+stopwatchHooks.state.examSession.currentIndex = 1;
+const secondStopwatchSeconds = elapsedSecondsFromHtml(stopwatchHooks.renderProgress(stopwatchQuestions[1]), "data-exam-elapsed-clock");
+assert.ok(firstStopwatchSeconds >= 123, "live stopwatch must derive from the persisted attempt start instead of resetting per question");
+assert.ok(secondStopwatchSeconds >= firstStopwatchSeconds, "live stopwatch must persist when the current question changes");
+
+const reviewItems = [liveSourceItems[0], liveSourceItems[1], liveSourceItems[2]];
+stopwatchHooks.state.examSession = {
+  id: fixedAttempt,
+  modeId: "full",
+  mode: exam.modeForId("full"),
+  phase: "rating",
+  naturalExchange: false,
+  startedAt: stopwatchStartedAt,
+  completedAt: "",
+  selectedNervousness: 4,
+  nervousness: null,
+  completed: false,
+  items: reviewItems,
+  currentIndex: reviewItems.length - 1
+};
+stopwatchHooks.replaceApiJson(async () => ({
+  attempt: { nervousness: 4, completedAt: stopwatchCompletedAt }
+}));
+await stopwatchHooks.submitRating();
+assert.equal(stopwatchHooks.state.examSession.completedAt, stopwatchCompletedAt, "completion must freeze the stopwatch at the canonical completedAt returned by PATCH");
+assert.equal(elapsedSecondsFromHtml(stopwatchHarness.content.innerHTML, "data-exam-total-duration"), 125, "completion screen must show the frozen total duration");
+assert.equal(stopwatchHarness.content.innerHTML.includes("Book 7"), true, "completion review must retain each random question's source book");
+assert.equal(stopwatchHarness.content.innerHTML.includes("data-open-exam-source"), true, "completion review must retain source links");
+
+const normalisedHistoryAttempt = stopwatchHooks.normaliseExamAttempt({
+  id: fixedAttempt,
+  modeId: "p1",
+  attemptNumber: 9,
+  naturalExchange: false,
+  nervousness: 4,
+  startedAt: stopwatchStartedAt,
+  completedAt: stopwatchCompletedAt,
+  questions: [{
+    order: 1,
+    part: 1,
+    sourceKey: "p1:part1-source-record:q3",
+    contentKey: "where-do-you-live",
+    sourceId: "part1-source-record",
+    sourceBook: 7,
+    sourceIndex: 2,
+    questionNumber: 3,
+    promptEn: "Where do you live?",
+    promptZh: "你住在哪裏？"
+  }]
+});
+const historyGroup = {
+  modeId: "p1",
+  owner: "mine",
+  examAttempt: normalisedHistoryAttempt,
+  attempts: [],
+  startedAt: Date.parse(stopwatchStartedAt),
+  expected: 12,
+  introSaved: false,
+  saved: 0,
+  skipped: 12,
+  covered: 12,
+  duplicateCount: 0
+};
+const historyHtml = `${stopwatchHooks.renderSavedReflection(normalisedHistoryAttempt)}${stopwatchHooks.renderExamRecordingBox([historyGroup])}`;
+assert.equal(elapsedSecondsFromHtml(historyHtml, "data-exam-total-duration"), 125, "recording history must preserve the same frozen exam duration");
+assert.equal(historyHtml.includes("Book 7"), true, "history review must retain source books after live labels are hidden");
+assert.equal(historyHtml.includes("data-open-exam-source"), true, "history review must retain clickable source routes");
+stopwatchHooks.clearExamSession();
+
+console.log("Speaking exam mode tests passed: mode boundaries, cooldowns, natural exchanges, gesture audio, intro/question skips, silent Part 2 timing, persistent stopwatch, source visibility and no-scroll progression.");

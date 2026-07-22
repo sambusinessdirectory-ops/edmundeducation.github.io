@@ -61,10 +61,11 @@ EXPECTED_BOOK_COUNTS = {1: 14, 2: 16, 3: 16}
 EXPECTED_ITEM_COUNTS = {1: 828, 2: 153, 3: 564}
 EXPECTED_PART1_MODULE_COUNT = 70
 
-# These strings are the exact English strings used by the current Exam Mode
-# opening, transitions, and Part 2 exchange.
+# These are the spoken scripts for the current Exam Mode opening, transitions,
+# and Part 2 exchange.  The v2 fixed keys keep short "Okay" tokens attached to
+# their surrounding phrase so Kokoro does not synthesize them in isolation.
 FIXED_MESSAGES: tuple[tuple[str, str], ...] = (
-    ("fixed:opening-begin", "Okay, let's begin."),
+    ("fixed:opening-begin-v2", "Okay — let's begin."),
     ("fixed:opening-full-name", "Could you tell me your full name please?"),
     (
         "fixed:part1-to-part2",
@@ -75,20 +76,20 @@ FIXED_MESSAGES: tuple[tuple[str, str], ...] = (
         "Perfect. All right, that will do for Part 1. We'll go on to Part 3 now.",
     ),
     (
-        "fixed:part2-instructions",
+        "fixed:part2-instructions-v2",
         "So here is your question. I'll give you a pencil there as well. "
-        "I'll give you one minute to take some notes. Okay?",
+        "I'll give you one minute to take some notes, okay?",
     ),
-    ("fixed:part2-ready", "Okay, you can begin."),
+    ("fixed:part2-ready-v2", "Okay — you can begin."),
     ("fixed:part2-finished", "Great. Really nice."),
     (
         "fixed:part2-to-part3",
         "Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.",
     ),
     (
-        "fixed:part3-opening",
-        "Okay, so now we'll go on to Part 3 of the test. Okay? Okay. "
-        "So, the first question.",
+        "fixed:part3-opening-v2",
+        "Okay, so now we'll go on to Part 3 of the test, okay? Okay, "
+        "so, the first question.",
     ),
 )
 

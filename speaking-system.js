@@ -19,18 +19,20 @@
   const EXAM_PART2_RECORDING_SECONDS = 120;
   const EXAM_MESSAGE_GAP_MS = 900;
   const EXAM_OPENING_GAP_MS = 2000;
+  const EXAM_RISING_INFLECTION_RATE = 1.1;
+  const EXAM_RISING_INFLECTION_TAIL_SECONDS = 0.7;
   const EXAM_AUDIO_MAX_BYTES = 2 * 1024 * 1024;
   const EXAM_AUDIO_CACHE_LIMIT = 16;
   const EXAM_FIXED_AUDIO_KEYS = new Map([
-    ["Okay, let's begin.", "fixed:opening-begin"],
+    ["Okay, let's begin.", "fixed:opening-begin-v2"],
     ["Could you tell me your full name please?", "fixed:opening-full-name"],
     ["Perfect. All right, that will do for Part 1. We'll go on to Part 2 now.", "fixed:part1-to-part2"],
     ["Perfect. All right, that will do for Part 1. We'll go on to Part 3 now.", "fixed:part1-to-part3"],
     ["Great. Really nice.", "fixed:part2-finished"],
     ["Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.", "fixed:part2-to-part3"],
-    ["Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question.", "fixed:part3-opening"],
-    ["So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?", "fixed:part2-instructions"],
-    ["Okay, you can begin.", "fixed:part2-ready"]
+    ["Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question.", "fixed:part3-opening-v2"],
+    ["So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?", "fixed:part2-instructions-v2"],
+    ["Okay, you can begin.", "fixed:part2-ready-v2"]
   ]);
   const WORD_PATTERN = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*|[^\p{L}\p{N}]+/gu;
   const IS_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
@@ -147,6 +149,7 @@
     recordingContextKey: "",
     examSession: null,
     examPhaseTimer: 0,
+    examElapsedTimer: 0,
     examMessageTimer: 0,
     examMessageFinish: null,
     examFlowGeneration: 0,
@@ -838,11 +841,15 @@
       const content = isLast || !crumb.route
         ? `<span class="breadcrumb-current" aria-current="page">${escapeHtml(crumb.label)}</span>`
         : `<button class="breadcrumb-button" type="button" data-breadcrumb-index="${index}">${escapeHtml(crumb.label)}</button>`;
-      return `${index ? '<span class="breadcrumb-separator" aria-hidden="true">/</span>' : ""}${content}`;
+      const stopwatch = isLast && route.view === "exam-practice" && state.examSession
+        ? `<span class="exam-breadcrumb-stopwatch" aria-label="考試練習已用時間">時間 <strong data-exam-elapsed-clock>${formatStopwatchDuration(examElapsedMilliseconds())}</strong></span>`
+        : "";
+      return `${index ? '<span class="breadcrumb-separator" aria-hidden="true">/</span>' : ""}${content}${stopwatch}`;
     }).join("");
     dom.breadcrumbs._routes = crumbs.map(item => item.route);
     dom.backButton.hidden = state.routeHistory.length === 0 && state.route.view === "exams";
     syncHeaderBookmark();
+    syncExamElapsedTimer();
   }
 
   function renderRoute() {
@@ -1265,8 +1272,51 @@
     if (typeof finish === "function") finish(false);
   }
 
+  function clearExamElapsedTimer() {
+    if (state.examElapsedTimer) window.clearInterval(state.examElapsedTimer);
+    state.examElapsedTimer = 0;
+  }
+
+  function examElapsedMilliseconds(session = state.examSession, now = Date.now()) {
+    const startedAt = Date.parse(String(session?.startedAt || ""));
+    if (!Number.isFinite(startedAt)) return 0;
+    const completedAt = Date.parse(String(session?.completedAt || ""));
+    const endpoint = Number.isFinite(completedAt) ? completedAt : Number(now);
+    return Math.max(0, endpoint - startedAt);
+  }
+
+  function formatStopwatchDuration(milliseconds) {
+    const totalSeconds = Math.max(0, Math.floor(Number(milliseconds || 0) / 1000));
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+    return hours
+      ? `${hours}:${pad(minutes)}:${pad(seconds)}`
+      : `${pad(minutes)}:${pad(seconds)}`;
+  }
+
+  function updateExamElapsedClock() {
+    const value = formatStopwatchDuration(examElapsedMilliseconds());
+    document.querySelectorAll("[data-exam-elapsed-clock]").forEach(clock => {
+      clock.textContent = value;
+    });
+  }
+
+  function syncExamElapsedTimer() {
+    clearExamElapsedTimer();
+    updateExamElapsedClock();
+    if (
+      state.route.view === "exam-practice"
+      && state.examSession
+      && !state.examSession.completedAt
+    ) {
+      state.examElapsedTimer = window.setInterval(updateExamElapsedClock, 1000);
+    }
+  }
+
   function clearExamSession() {
     clearExamPhaseTimer();
+    clearExamElapsedTimer();
     cancelExamSpeech();
     state.examFlowGeneration += 1;
     state.examSession = null;
@@ -1494,7 +1544,7 @@
     return `
       <header class="exam-progress-card">
         <div>
-          <span>${escapeHtml(session?.mode?.label || "考試練習")}</span>
+          <span>${escapeHtml(session?.mode?.label || "考試練習")} · 時間 <time data-exam-elapsed-clock>${formatStopwatchDuration(examElapsedMilliseconds(session))}</time></span>
           <strong>Part ${item.part} · 第 ${part.position} / ${part.total} 題</strong>
         </div>
         <progress class="exam-progress-meter" max="${total}" value="${complete}" aria-label="考試整體進度">${complete} / ${total}</progress>
@@ -1657,7 +1707,7 @@
     finish(true);
   }
 
-  function speakExamText(text, requestedKey = "") {
+  function speakExamText(text, requestedKey = "", options = {}) {
     cancelExamSpeech();
     const value = String(text || "").trim();
     const key = String(requestedKey || examAudioKeyForText(value));
@@ -1713,6 +1763,26 @@
           const source = context.createBufferSource();
           source.buffer = buffer;
           source.connect(context.destination);
+          const risingInflection = options.risingInflection === true || /[?？][\s”"’')\]]*$/.test(value);
+          if (
+            risingInflection
+            && source.playbackRate?.setValueAtTime
+            && source.playbackRate?.linearRampToValueAtTime
+            && Number.isFinite(context.currentTime)
+          ) {
+            const tail = Math.min(
+              EXAM_RISING_INFLECTION_TAIL_SECONDS,
+              Math.max(0.35, buffer.duration * 0.28)
+            );
+            const riseStart = Math.max(0, buffer.duration - tail);
+            const now = context.currentTime;
+            source.playbackRate.setValueAtTime(1, now);
+            source.playbackRate.setValueAtTime(1, now + riseStart);
+            source.playbackRate.linearRampToValueAtTime(
+              EXAM_RISING_INFLECTION_RATE,
+              now + riseStart + (tail / ((1 + EXAM_RISING_INFLECTION_RATE) / 2))
+            );
+          }
           source.onended = () => finish(true);
           state.examAudioSource = source;
           state.examSpeechTimeout = window.setTimeout(() => {
@@ -1740,29 +1810,26 @@
       </article>`;
   }
 
-  function examVoiceControlHtml({ allowIntroSkip = false } = {}) {
+  function examIntroductionSkipHtml() {
     return `
-      <div class="exam-voice-status">
-        <button type="button" data-stop-exam-voice aria-label="略過正在播放的考官語音">略過語音</button>
-        ${allowIntroSkip ? '<button type="button" data-exam-skip-intro>跳過姓名問題，開始正式考試 →</button>' : ""}
+      <div class="exam-intro-skip-control">
+        <button type="button" data-exam-skip-intro>跳過姓名問題，開始正式考試 →</button>
       </div>`;
   }
 
-  function enableCurrentExamRecorder(message = "考官已讀完題目，請按「開始回答」。") {
+  function enableCurrentExamRecorder(message = "") {
     const button = document.querySelector("[data-record-toggle]");
     if (button) {
       button.hidden = false;
       button.disabled = Boolean(state.examSaving || state.examSkipSaving);
       button.textContent = "● 開始回答";
     }
-    recordingStatus(message, false);
+    if (message) recordingStatus(message, false);
     syncRecorderControls();
   }
 
   function examQuestionSpeechText(item) {
-    if (Number(item?.part) !== 2) return String(item?.title || "");
-    const hints = Array.isArray(item?.hints) ? item.hints.map(hint => String(hint?.en || "").trim()).filter(Boolean) : [];
-    return [String(item?.title || ""), hints.length ? `You should say: ${hints.join(". ")}.` : ""].filter(Boolean).join(". ");
+    return String(item?.title || "");
   }
 
   async function speakCurrentExamQuestion(item) {
@@ -1773,22 +1840,28 @@
     const sessionId = session.id;
     const itemKey = examItemKey(item);
     const generation = state.examFlowGeneration;
-    recordingStatus("考官正在讀出題目…");
-    await speakExamText(examQuestionSpeechText(item), examAudioKeyForItem(item));
+    await speakExamText(
+      examQuestionSpeechText(item),
+      examAudioKeyForItem(item),
+      { risingInflection: true }
+    );
     if (!examFlowIsCurrent(sessionId, generation) || examItemKey() !== itemKey) return;
     if (item.prepBypassed || item.skipped) return;
     item.questionSpeechDone = true;
-    if (item.part === 2) {
-      if (!item.settleEndsAt || !item.prepEndsAt) {
-        const now = Date.now();
-        item.prepPhase = "settling";
-        item.settleEndsAt = now + EXAM_PART2_SETTLE_MS;
-        item.prepEndsAt = item.settleEndsAt + EXAM_PART2_PREP_MS;
-      }
-      startExamPart2Timer(item);
-      return;
-    }
     enableCurrentExamRecorder();
+  }
+
+  function beginExamPart2Preparation(item) {
+    if (!item || item.part !== 2 || item.prepBypassed || item.skipped) return;
+    item.questionSpeechStarted = true;
+    item.questionSpeechDone = true;
+    if (!item.settleEndsAt || !item.prepEndsAt) {
+      const now = Date.now();
+      item.cueDisplayedAt = now;
+      item.prepPhase = "settling";
+      item.settleEndsAt = now + EXAM_PART2_SETTLE_MS;
+      item.prepEndsAt = item.settleEndsAt + EXAM_PART2_PREP_MS;
+    }
   }
 
   async function startExamOpeningSequence() {
@@ -1809,7 +1882,7 @@
     session.phase = "intro-answer";
     const answer = document.querySelector("[data-exam-intro-answer]");
     if (answer) answer.hidden = false;
-    enableCurrentExamRecorder("考官已問完姓名，請錄下你的回答。");
+    enableCurrentExamRecorder();
   }
 
   async function runExamExchange() {
@@ -1838,7 +1911,6 @@
       session.phase = "question";
     }
     renderExamPractice();
-    window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
   }
 
   async function startExamPart2Opening(item) {
@@ -1861,17 +1933,12 @@
           <div data-exam-proceed-slot>${examProceedButtonHtml()}</div>
         </section>`;
     }
-    const waitingMessage = item.kind === "intro"
-      ? "考官問完姓名後便可開始錄音。"
-      : item.part === 2
-        ? "完成 1 分鐘準備並聽到「Okay, you can begin」後才可開始。"
-        : "考官讀完題目後便可開始錄音。";
     return `
       <section class="exam-answer-recorder" aria-labelledby="exam-recording-heading">
         <div>
           <span class="cue-label" id="exam-recording-heading">YOUR ANSWER · 你的回答</span>
-          <p>${item.part === 2 && item.kind !== "intro" ? "錄音開始後有 2 分鐘；時間到會自動停止並儲存。" : "按「開始回答」錄音，完成後按「完成回答」。"}</p>
-          <div class="recording-status" data-recording-status><span role="status" aria-live="polite">${ready ? "準備好便按「開始回答」。" : waitingMessage}</span></div>
+          ${item.part === 2 && item.kind !== "intro" ? "<p>錄音開始後有 2 分鐘；時間到會自動停止並儲存。</p>" : ""}
+          <div class="recording-status" data-recording-status><span role="status" aria-live="polite"></span></div>
         </div>
         <div class="recorder-controls">
           <button class="record-button exam-record-button" type="button" data-record-toggle ${ready ? "" : "hidden disabled"}>● 開始回答</button>
@@ -1888,7 +1955,6 @@
       <section class="exam-question-card exam-part1-question is-entering">
         <div class="exam-question-meta">
           <span>THEME ${item.themeSlot} · ${escapeHtml(item.themeTitle)}</span>
-          <small>題庫原題 Q${item.questionInTheme} · Book ${item.sourceBook}</small>
         </div>
         <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
         <p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
@@ -1898,20 +1964,16 @@
 
   function renderExamPart2(item) {
     const ready = item.prepPhase === "ready" && (!state.examSession?.naturalExchange || item.readyPromptSpoken);
-    const timerLabel = !item.questionSpeechDone
-      ? "考官正在讀題 · EXAMINER READING"
-      : item.prepPhase === "ready"
-        ? ready ? "準備時間完成" : "考官正在提示開始"
-        : item.prepPhase === "preparing"
-          ? "準備時間 · PREPARATION"
-          : "題目已顯示 · 倒數即將開始";
-    const timerClock = !item.questionSpeechDone
-      ? "--:--"
-      : item.prepPhase === "ready"
-        ? "0:00"
-        : item.prepPhase === "preparing"
-          ? "1:00"
-          : "0:02";
+    const timerLabel = item.prepPhase === "ready"
+      ? ready ? "準備時間完成" : "考官正在提示開始"
+      : item.prepPhase === "preparing"
+        ? "準備時間 · PREPARATION"
+        : "題目已顯示 · 倒數即將開始";
+    const timerClock = item.prepPhase === "ready"
+      ? "0:00"
+      : item.prepPhase === "preparing"
+        ? "1:00"
+        : "0:02";
     return `
       <section class="exam-prep-timer" data-exam-prep-timer>
         <span data-exam-prep-label>${timerLabel}</span>
@@ -1920,7 +1982,7 @@
         <span class="visually-hidden" role="status" aria-live="polite" data-exam-phase-status></span>
       </section>
       <section class="exam-question-card exam-cue-card is-entering">
-        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 2</span><small>Book ${item.sourceBook}</small></div>
+        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 2</span><img class="exam-cue-edmund-logo" src="Font%20Transparent.png" alt="Edmund Education"></div>
         ${item.cueTitle ? `<p class="exam-cue-topic">${escapeHtml(item.cueTitle)}${item.cueTitleZh ? `<span>${escapeHtml(item.cueTitleZh)}</span>` : ""}</p>` : ""}
         <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
         <p class="exam-cue-prompt-zh" lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
@@ -1944,7 +2006,7 @@
   function renderExamPart3(item) {
     return `
       <section class="exam-question-card exam-part3-question is-entering">
-        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 3</span><small>${escapeHtml(item.themeTitle)} · Book ${item.sourceBook}</small></div>
+        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 3</span></div>
         <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
         <p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
       </section>
@@ -1967,12 +2029,12 @@
               <p lang="en"><strong>Could you tell me your full name please?</strong></p>
             </article>
           </div>
-          ${examVoiceControlHtml({ allowIntroSkip: true })}
+          ${examIntroductionSkipHtml()}
         </section>
         <section class="exam-intro-answer" data-exam-intro-answer ${ready ? "" : "hidden"}>
           <div class="exam-candidate-tip">
             <span>回答提示 · ANSWER TIP</span>
-            <strong lang="en">My full name is XXX.</strong>
+            <strong lang="en">My full name is XXX, but you can call me (English Name)</strong>
             <p lang="zh-Hant">練習時毋須使用真實姓名。</p>
           </div>
           ${renderExamRecorder(intro, ready)}
@@ -1999,7 +2061,6 @@
               <div data-exam-exchange-message="${index}" hidden>${examinerBubbleHtml(message)}</div>
             `).join("")}
           </div>
-          ${examVoiceControlHtml()}
         </section>
       </article>`;
     runExamExchange();
@@ -2017,7 +2078,6 @@
           <div class="examiner-conversation">
             ${examinerBubbleHtml("So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?", "is-entering")}
           </div>
-          ${examVoiceControlHtml()}
         </section>
       </article>`;
     startExamPart2Opening(item);
@@ -2124,6 +2184,7 @@
           <p class="eyebrow">IELTS SPEAKING · EXAM COMPLETE</p>
           <h1 tabindex="-1" data-exam-focus>考試練習完成</h1>
           <p>${escapeHtml(session?.mode?.label || "考試練習")} 已完成。你的緊張程度自評是 <strong>${Number(session?.nervousness || 0)} / 7</strong>。</p>
+          <p class="exam-total-duration">總練習時間：<strong data-exam-total-duration>${formatStopwatchDuration(examElapsedMilliseconds(session))}</strong></p>
         </section>
         <section class="exam-review-list" aria-labelledby="exam-review-list-heading">
           <div class="exam-review-list-heading">
@@ -2159,8 +2220,12 @@
       });
       if (state.examSession?.id !== session.id) return;
       session.nervousness = Number(payload?.attempt?.nervousness || rating);
+      session.startedAt = String(payload?.attempt?.startedAt || session.startedAt || "");
+      session.completedAt = String(payload?.attempt?.completedAt || new Date().toISOString());
       session.phase = "review";
       session.completed = true;
+      clearExamElapsedTimer();
+      updateExamElapsedClock();
       renderExamCompletion();
       toast("自我評估已儲存。", "info");
     } catch (error) {
@@ -2211,24 +2276,17 @@
       renderExamPart2Opening(item);
       return;
     }
-    if (item.part === 2 && item.questionSpeechDone && item.prepPhase !== "ready" && !item.prepBypassed && (!item.settleEndsAt || !item.prepEndsAt)) {
-      const now = Date.now();
-      item.cueDisplayedAt = now;
-      item.prepPhase = "settling";
-      item.settleEndsAt = now + EXAM_PART2_SETTLE_MS;
-      item.prepEndsAt = item.settleEndsAt + EXAM_PART2_PREP_MS;
-    }
+    if (item.part === 2) beginExamPart2Preparation(item);
     dom.content.innerHTML = `
       <article class="exam-practice-view">
         ${examCoverHtml()}
         ${renderExamProgress(item)}
         <div class="exam-question-stage">
-          ${examVoiceControlHtml()}
           ${item.part === 1 ? renderExamPart1(item) : item.part === 2 ? renderExamPart2(item) : renderExamPart3(item)}
         </div>
       </article>`;
-    if (item.part === 2 && item.questionSpeechDone && item.prepPhase !== "ready" && !item.prepBypassed) startExamPart2Timer(item);
-    if (!item.questionSpeechStarted) speakCurrentExamQuestion(item);
+    if (item.part === 2 && item.prepPhase !== "ready" && !item.prepBypassed) startExamPart2Timer(item);
+    if (item.part !== 2 && !item.questionSpeechStarted) speakCurrentExamQuestion(item);
     syncRecorderControls();
     renderExamProceedAction();
     window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
@@ -2275,7 +2333,7 @@
       if (clock) clock.textContent = "0:00";
       if (phaseStatus) phaseStatus.textContent = "準備時間完成。";
       if (state.examSession?.naturalExchange) announceExamPart2Ready(item);
-      else enableCurrentExamRecorder("準備時間完成，請按「開始回答」。");
+      else enableCurrentExamRecorder();
     };
     update();
     if (item.prepPhase !== "ready") state.examPhaseTimer = window.setInterval(update, 250);
@@ -2298,7 +2356,7 @@
     item.readyPromptSpoken = true;
     const label = document.querySelector("[data-exam-prep-label]");
     if (label) label.textContent = "準備時間完成 · 可以開始回答";
-    enableCurrentExamRecorder("考官已提示開始，請按「開始回答」。");
+    enableCurrentExamRecorder();
   }
 
   function examAnswerInteractionBusy() {
@@ -2356,7 +2414,6 @@
       session.phase = "question";
       session.currentIndex = 0;
       renderExamPractice();
-      window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
       toast("已跳過姓名問題，現在開始正式考試。", "info");
     } catch (error) {
       if (state.examSession?.id !== sessionId) return;
@@ -2388,7 +2445,7 @@
     clearExamPhaseTimer();
     cancelExamSpeech();
     renderExamPractice();
-    enableCurrentExamRecorder("已略過準備時間，請按「開始回答」。");
+    enableCurrentExamRecorder();
     syncExamBypassControls();
   }
 
@@ -2460,7 +2517,6 @@
       session.phase = "question";
       session.currentIndex = 0;
       renderExamPractice();
-      window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
       return;
     }
     const nextIndex = session.currentIndex + 1;
@@ -2475,7 +2531,6 @@
         started: false
       };
       renderExamPractice();
-      window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
       return;
     }
     if (!next) session.phase = "rating";
@@ -2484,7 +2539,6 @@
       session.phase = "question";
     }
     renderExamPractice();
-    window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
   }
 
   function renderBooks(part) {
@@ -5030,6 +5084,13 @@
     return `${pad(date.getDate())}-${pad(date.getMonth() + 1)}-${date.getFullYear()}`;
   }
 
+  function examAttemptElapsedMilliseconds(attempt) {
+    const startedAt = Date.parse(String(attempt?.startedAt || ""));
+    const completedAt = Date.parse(String(attempt?.completedAt || ""));
+    if (!Number.isFinite(startedAt) || !Number.isFinite(completedAt)) return null;
+    return Math.max(0, completedAt - startedAt);
+  }
+
   function expectedExamRecordingCount(modeId) {
     if (typeof EXAM_MODE.expectedRecordingCount === "function") {
       return EXAM_MODE.expectedRecordingCount(modeId);
@@ -5143,12 +5204,13 @@
           const mode = examModeDefinition(group.modeId);
           const dateValue = Number.isFinite(group.startedAt) ? group.startedAt : "";
           const complete = Boolean(group.examAttempt?.completedAt) || (group.expected > 0 && group.covered >= group.expected);
+          const elapsedMs = examAttemptElapsedMilliseconds(group.examAttempt);
           const first = group.attempts[0];
           const attemptNumber = Number(group.examAttempt?.attemptNumber || 0);
           return `
             <details class="exam-attempt-group">
               <summary>
-                <span><strong>${attemptNumber ? `第 ${attemptNumber} 次 · ` : ""}${escapeHtml(formatExamAttemptDate(dateValue))} · ${escapeHtml(mode?.label || "考試練習")}</strong><small>${state.user?.role === "admin" ? `${escapeHtml(first?.studentName || "Student")} · ` : ""}${complete ? "完整" : "進行中"} · 錄音 ${group.saved} 段${group.skipped ? ` · 跳過 ${group.skipped} 題` : ""} · 已處理 ${group.covered}/${group.expected || group.covered}${group.examAttempt?.nervousness ? ` · 緊張程度 ${group.examAttempt.nervousness}/7` : ""}${group.duplicateCount ? ` · ${group.duplicateCount} 個重複上載` : ""}</small></span>
+                <span><strong>${attemptNumber ? `第 ${attemptNumber} 次 · ` : ""}${escapeHtml(formatExamAttemptDate(dateValue))} · ${escapeHtml(mode?.label || "考試練習")}</strong><small>${state.user?.role === "admin" ? `${escapeHtml(first?.studentName || "Student")} · ` : ""}${complete ? "完整" : "進行中"} · 用時 <span data-exam-total-duration>${elapsedMs === null ? "尚未完成" : formatStopwatchDuration(elapsedMs)}</span> · 錄音 ${group.saved} 段${group.skipped ? ` · 跳過 ${group.skipped} 題` : ""} · 已處理 ${group.covered}/${group.expected || group.covered}${group.examAttempt?.nervousness ? ` · 緊張程度 ${group.examAttempt.nervousness}/7` : ""}${group.duplicateCount ? ` · ${group.duplicateCount} 個重複上載` : ""}</small></span>
                 <em>查看錄音</em>
               </summary>
               ${renderSavedExamReflection(group.examAttempt)}
@@ -5728,11 +5790,6 @@
         return;
       }
 
-      if (event.target.closest("[data-stop-exam-voice]")) {
-        finishExamSpeechNow();
-        return;
-      }
-
       const examMode = event.target.closest("[data-exam-mode]");
       if (examMode) {
         if (examMode.getAttribute("aria-disabled") === "true") toast("這個模式目前沒有足夠已開放題目。", "error");
@@ -6087,6 +6144,7 @@
     window.addEventListener("pagehide", () => {
       stopModelAudio();
       clearExamPhaseTimer();
+      clearExamElapsedTimer();
       cancelExamSpeech();
       cleanupPart1Reveal();
       cancelRecorder();
