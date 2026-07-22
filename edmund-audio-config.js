@@ -15,7 +15,8 @@ window.EDMUND_AUDIO_URL = function edmundAudioUrl(path) {
   if (!value || /^(?:https?:)?\/\//i.test(value)) return value;
   const speakingBase = String(window.EDMUND_SPEAKING_CLOUD_AUDIO_BASE_URL || window.EDMUND_SPEAKING_PART3_AUDIO_BASE_URL || "").replace(/\/+$/, "");
   const cloudSpeakingPath = value.startsWith("assets/speaking-system/audio/edmund-neural/part1/")
-    || value.startsWith("assets/speaking-system/audio/edmund-neural/part3/");
+    || value.startsWith("assets/speaking-system/audio/edmund-neural/part3/")
+    || value.startsWith("assets/speaking-system/audio/edmund-neural/exam/");
   const base = cloudSpeakingPath && speakingBase
     ? speakingBase
     : String(window.EDMUND_AUDIO_BASE_URL || "").replace(/\/+$/, "");

@@ -178,12 +178,12 @@
 }
 
 .exam-natural-toggle.is-on {
-  border-color: rgba(24, 131, 90, .38);
-  background: linear-gradient(135deg, #f7fff9, #e8f7ee);
+  border-color: rgba(86, 83, 166, .42);
+  background: linear-gradient(135deg, #f8f8ff, #ecebff);
 }
 
 .exam-natural-toggle.is-on > strong {
-  background: #16835a;
+  background: #5853a6;
 }
 
 .exam-natural-toggle:disabled {
@@ -315,6 +315,7 @@
 
 .exam-prep-timer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
@@ -324,6 +325,25 @@
   color: #6d3119;
   background: linear-gradient(135deg, #fff8eb, #f5dbc0);
   box-shadow: 0 16px 36px rgba(102, 55, 25, .1);
+}
+
+.exam-prep-skip-button {
+  flex: 0 0 100%;
+  border: 0;
+  border-top: 1px solid rgba(109, 49, 25, .14);
+  padding: 13px 0 0;
+  color: #5d3d8d;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: right;
+  background: transparent;
+  cursor: pointer;
+}
+
+.exam-prep-skip-button:hover:not(:disabled) {
+  color: #38215f;
+  text-decoration: underline;
 }
 
 .exam-prep-timer span {
@@ -531,10 +551,7 @@
 
 .examiner-message {
   --part1-pop-offset: 64px;
-  display: grid;
-  grid-template-columns: 44px minmax(0, 1fr);
-  align-items: start;
-  gap: 14px;
+  display: block;
   max-width: 880px;
   margin-left: auto;
   border-radius: 26px 26px 7px 26px;
@@ -549,21 +566,8 @@
   animation: part1-pop-from-right .86s cubic-bezier(.16, .74, .2, 1) both;
 }
 
-.examiner-avatar {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  border: 2px solid rgba(255, 255, 255, .54);
-  border-radius: 50%;
-  font-family: Georgia, serif;
-  font-size: 19px;
-  font-weight: 900;
-  background: rgba(255, 255, 255, .14);
-}
-
 .examiner-message p {
-  margin: 4px 0 0;
+  margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(20px, 2.6vw, 30px);
   font-weight: 600;
@@ -574,7 +578,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 12px;
   margin-top: 20px;
   border-top: 1px solid rgba(45, 69, 101, .12);
@@ -793,6 +797,15 @@
   letter-spacing: .05em;
 }
 
+.exam-skipped-badge {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 3px 7px;
+  color: #68469b;
+  background: #eee8fb;
+  font-size: 10px;
+}
+
 .exam-review-copy h3 {
   margin: 5px 0;
   color: #23364f;
@@ -978,6 +991,18 @@
   display: grid;
   gap: 12px;
   padding: 16px;
+}
+
+.exam-attempt-group-tools {
+  display: flex;
+  justify-content: flex-end;
+  padding: 14px 16px 0;
+}
+
+.exam-skip-question-button {
+  color: #5d3d8d;
+  border-color: rgba(93, 61, 141, .25);
+  background: #faf7ff;
 }
 
 @media (max-width: 820px) {
@@ -2835,7 +2860,8 @@ button:disabled {
 
   .recorder-controls,
   .record-button,
-  .finish-recording-button {
+  .finish-recording-button,
+  .exam-skip-question-button {
     width: 100%;
     justify-self: stretch;
   }

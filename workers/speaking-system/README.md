@@ -14,8 +14,9 @@ The Worker provides:
 - owner-only list, playback/download, deletion and ZIP export;
 - rate-limited Speaking-admin login with eight-hour, hash-only sessions;
 - recoverable object/metadata deletion with admin reconciliation;
-- durable exam-attempt manifests, immediate-previous-attempt question cooldown,
-  exact-question bookmarks and nervousness self-evaluation;
+- durable exam-attempt manifests, intentional-question skips, retained
+  immediate-previous-attempt cooldown state, exact-question bookmarks and
+  nervousness self-evaluation;
 - admin list/download/delete access to every student's attempts; and
 - exact-origin CORS for the custom site and GitHub Pages host.
 
@@ -36,8 +37,8 @@ already contains the Flashcard account/session tables. The migration:
 
 - creates the private `speaking-recordings` bucket with a 20 MiB object limit;
 - creates `speaking_recording_attempts`, `speaking_system_settings`,
-  `speaking_exam_attempts`, `speaking_admin_accounts` and
-  `speaking_admin_sessions`;
+  `speaking_exam_attempts`, private `speaking_exam_student_state`,
+  `speaking_admin_accounts` and `speaking_admin_sessions`;
 - enables RLS and gives `anon` and `authenticated` no direct table access; and
 - grants `service_role` read-only attempt metadata plus narrowly scoped,
   transaction-safe mutation and authentication RPCs.
@@ -230,23 +231,43 @@ Never expose this settings table or its mutation to a browser role.
 ### Exam practice attempts and self-evaluation
 
 - `GET /v1/exam-attempts/latest` returns the authenticated student's latest
-  exam manifest. The next selection excludes both its exact source keys and
-  normalized question wording.
+  cooldown identity set: only `id`, `attemptNumber`, and `questions` containing
+  `sourceKey`/`contentKey` pairs. It comes from private
+  `speaking_exam_student_state`, so the next selection remains safe after the
+  visible history parent is deleted without retaining prompts or reflection
+  data.
 - `PUT /v1/exam-attempts/<attempt-uuid>` accepts only `{ "modeId",
   "naturalExchange", "questions" }`. It validates the 7 supported modes,
   exact item order, bilingual prompts, Part/Book access and stable source
   pointers, then creates the parent row before Question 1 is displayed.
 - `PATCH /v1/exam-attempts/<attempt-uuid>` accepts `{ "nervousness": 1..7 }`.
-  The database atomically verifies every required ready recording (including
-  the name introduction when natural exchange is on), then stores the rating
-  and completion timestamp. A same-rating retry is idempotent.
+  The database atomically verifies that every question has either a ready
+  recording or a persisted skip. The name introduction is never skippable when
+  natural exchange is on. It then stores the rating and completion timestamp;
+  a same-rating retry is idempotent.
+- `PUT /v1/exam-attempts/<attempt-uuid>/questions/<order>/skip` persists an
+  intentional unanswered question. It is idempotent, but rejects invalid
+  orders, completed attempts, and slots with an uploading or ready recording.
 - `GET /v1/exam-attempts?page=1&pageSize=100` returns the student's parent rows
   for recording-history grouping, question review, source links and ratings.
+  Every public attempt includes sorted `skippedOrders`.
+- `DELETE /v1/exam-attempts/<attempt-uuid>` hard-deletes only the visible parent
+  after every recording metadata row under the exact exam prefix has gone.
+  Delete the individual recordings first. Only the minimized latest ordinal,
+  UUID and cooldown identities remain; mode, prompts, skips, rating and all
+  attempt timestamps are deleted with the parent.
+  If an earlier child DELETE removed or attempted Storage cleanup but left an
+  owned `deleting` tombstone, this route bulk-retries those exact objects,
+  batch-finalizes at most 20 tombstones, and retries the parent once. It never
+  removes `ready` or `uploading` rows on the student's behalf.
 
 Each student receives a monotonic `attempt_number` under a transaction-level
 advisory lock. Cooldown compares only the immediately preceding ordinal, so
 attempt X questions are unavailable in X+1 and automatically eligible again
-from X+2. There is no lifetime attempt cap; the Worker rate-limits rapid starts
+from X+2. Deleting attempt X does not reset its ordinal or unlock it early:
+creation reads and atomically replaces the private, minimized per-student state.
+The migration also converts and drops every field from the earlier full-state
+draft. There is no lifetime attempt cap; the Worker rate-limits rapid starts
 with the existing student rate-limit binding to prevent write abuse.
 
 Exam-attempt history remains readable if a teacher later revokes a source
@@ -264,7 +285,8 @@ own historical reflection without reopening restricted study content.
 - `DELETE /v1/recordings/<attempt-uuid>` — students may delete only their own;
   an admin bearer token may delete any. The row is hidden as `deleting` before
   Storage removal and finalized afterward. A `202` response means the safe
-  tombstone remains for reconciliation.
+  tombstone remains for reconciliation. An active `uploading` row returns
+  `409 RECORDING_UPLOAD_IN_PROGRESS` instead of racing the upload.
 - `GET /v1/recordings/export?page=1&pageSize=10` (or the `.zip` alias) — streams
   one authenticated-student batch as an uncompressed ZIP. `pageSize` may not
   exceed 40, and a batch may not exceed 64 MiB of MP3 data by default.
@@ -316,10 +338,15 @@ large exports.
 - **Retention/deletion:** a three-state `uploading`/`ready`/`deleting` lifecycle
   prevents ordinary list/download/export calls from exposing incomplete work.
   Storage failure leaves a recoverable tombstone rather than inconsistent
-  visible metadata. The student foreign key uses `ON DELETE RESTRICT` so a hard
-  account deletion cannot silently strand private objects; export or delete
-  attempts first. Soft-deleted students cannot log in, but admins can reconcile
-  or remove their attempts.
+  visible metadata. An exam parent can be hard-deleted only after all matching
+  lifecycle rows have been finalized. Parent deletion can safely reconcile
+  already-hidden `deleting` tombstones after a reload, but cannot promote a
+  ready/uploading child into deletion. Its private latest state retains only the
+  ordinal, UUID, and source/content cooldown keys—never prompts, mode, rating or
+  timestamps. The student foreign key uses
+  `ON DELETE RESTRICT` so a hard account deletion cannot silently strand private
+  objects; export or delete attempts first. Soft-deleted students cannot log in,
+  but admins can reconcile or remove their attempts.
 - **Cross-service key impact:** a Supabase service-role key is powerful. Limit
   Worker account access, rotate on suspected exposure, keep Cloudflare logs
   free of request headers, and audit deployments for source-map/secret leaks.
@@ -358,11 +385,20 @@ Run these checks against a staging deployment before publishing:
 10. Start all seven exam modes with natural exchange both on and off. Confirm
     exact recording-slot counts, a `PATCH` preflight containing `PATCH` in
     `Access-Control-Allow-Methods`, incomplete-attempt rejection, idempotent
-    same-rating retry, and green 1-7 rating/history display.
+    same-rating retry, persisted question skips, mandatory natural-exchange
+    introduction, and green 1-7 rating/history display.
 11. Start two attempts concurrently for one student. Confirm their
     `attempt_number` values are consecutive and the later ordinal contains no
     source/content key from the immediately preceding ordinal; confirm the
     following attempt may reuse questions from two attempts earlier.
+12. Delete every child recording in one completed exam, then delete its parent.
+    Confirm the history row disappears, `latest` returns only its retained
+    ordinal/UUID and source/content keys, and the next attempt advances the
+    ordinal and excludes those questions. Confirm parent deletion is rejected
+    while any uploading, ready
+    child remains. Simulate a child DELETE returning `202`, reload, and confirm
+    parent deletion reconciles its `deleting` tombstone; force the Storage retry
+    to fail and confirm metadata remains for the next idempotent retry.
 
 Finally run `npm run check`, inspect `wrangler deploy --dry-run`, and verify the
 dry-run bundle contains neither the service-role key nor any plaintext

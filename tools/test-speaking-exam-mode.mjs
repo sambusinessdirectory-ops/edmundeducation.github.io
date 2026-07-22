@@ -34,6 +34,15 @@ const part3 = context.window.EDMUND_SPEAKING_PART3_DATA.books.flatMap(book => (
 ));
 const pools = { 1: part1, 2: part2, 3: part3 };
 const expectedCounts = { full: 19, p1: 12, p2: 1, p3: 6, "p1-p2": 13, "p1-p3": 18, "p2-p3": 7 };
+const expectedPartOrders = {
+  full: [...Array(12).fill(1), 2, ...Array(6).fill(3)],
+  p1: Array(12).fill(1),
+  p2: [2],
+  p3: Array(6).fill(3),
+  "p1-p2": [...Array(12).fill(1), 2],
+  "p1-p3": [...Array(12).fill(1), ...Array(6).fill(3)],
+  "p2-p3": [2, ...Array(6).fill(3)]
+};
 
 for (const mode of exam.modes) {
   assert.equal(exam.expectedRecordingCount(mode.id), expectedCounts[mode.id]);
@@ -41,9 +50,52 @@ for (const mode of exam.modes) {
   const items = exam.buildExamItems(mode.id, pools, { randomIndex: length => length - 1 });
   assert.equal(items.length, expectedCounts[mode.id], `${mode.id} item count`);
   assert.deepEqual([...new Set(Array.from(items, item => item.part))], Array.from(mode.parts), `${mode.id} part order`);
+  assert.deepEqual(Array.from(items, item => item.part), expectedPartOrders[mode.id], `${mode.id} exact part boundaries`);
   assert.deepEqual(Array.from(items, item => item.globalOrder), Array.from({ length: items.length }, (_, index) => index + 1));
+  expectedPartOrders[mode.id].forEach((part, index) => {
+    assert.equal(exam.expectedPartForOrder(mode.id, index + 1), part, `${mode.id} order ${index + 1} part`);
+  });
+  assert.equal(exam.expectedPartForOrder(mode.id, items.length + 1), null, `${mode.id} rejects an order after its final question`);
   assert.equal(new Set(items.map(item => item.sourceKey)).size, items.length, `${mode.id} source identities`);
   assert.equal(new Set(items.map(item => item.contentKey)).size, items.length, `${mode.id} content identities`);
+}
+
+for (const mode of exam.modes) {
+  const items = exam.buildExamItems(mode.id, pools, { randomIndex: () => 0 });
+  const partOrder = expectedPartOrders[mode.id];
+  const skippedOrders = new Set([1, items.length]);
+  for (let index = 0; index < partOrder.length - 1; index += 1) {
+    if (partOrder[index] !== partOrder[index + 1]) {
+      skippedOrders.add(index + 1);
+      skippedOrders.add(index + 2);
+    }
+  }
+  const outcomeManifest = items.map(item => ({
+    ...item,
+    skipped: skippedOrders.has(item.globalOrder)
+  }));
+  assert.equal(outcomeManifest.length, items.length, `${mode.id} skips must not remove review questions`);
+  assert.deepEqual(
+    outcomeManifest.map(item => item.globalOrder),
+    items.map(item => item.globalOrder),
+    `${mode.id} skips must not renumber the manifest`
+  );
+  outcomeManifest.filter(item => item.skipped).forEach(item => {
+    assert.ok(item.title && item.sourceId && item.sourceKey && item.contentKey, `${mode.id} skipped Q${item.globalOrder} remains reviewable`);
+  });
+
+  const nextAttempt = exam.buildExamItems(mode.id, pools, {
+    randomIndex: () => 0,
+    excludedSourceKeys: outcomeManifest.map(item => item.sourceKey),
+    excludedContentKeys: outcomeManifest.map(item => item.contentKey)
+  });
+  assert.equal(
+    nextAttempt.some(item => outcomeManifest.some(previous => (
+      previous.sourceKey === item.sourceKey || previous.contentKey === item.contentKey
+    ))),
+    false,
+    `${mode.id} cooldown includes questions marked skipped`
+  );
 }
 
 const part1Items = exam.buildExamItems("p1", pools, { randomIndex: () => 0 });
@@ -108,24 +160,34 @@ assert.deepEqual(
 assert.equal(exam.expectedStoredRecordingCount("full", true), 20);
 assert.throws(() => exam.recordingIntroId("p2-p3", fixedAttempt, 3), /Invalid exam introduction/);
 
-assert.deepEqual(Array.from(exam.naturalTransitionMessages("full", 1, 2)), [
-  "Perfect. All right, that will do for Part 1. We'll go on to Part 2 now."
-]);
-assert.deepEqual(Array.from(exam.naturalTransitionMessages("full", 2, 3)), [
-  "Great. Really nice.",
-  "Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question."
-]);
-assert.deepEqual(Array.from(exam.naturalTransitionMessages("p2-p3", 2, 3)), [
-  "Great. Really nice.",
-  "Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.",
-  "Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question."
-]);
-assert.deepEqual(Array.from(exam.naturalTransitionMessages("p1-p3", 1, 3)), [
-  "Perfect. All right, that will do for Part 1. We'll go on to Part 3 now."
-]);
-assert.deepEqual(Array.from(exam.naturalTransitionMessages("p3", 3, null)), []);
+const great = "Great. Really nice.";
+const part1To2 = "Perfect. All right, that will do for Part 1. We'll go on to Part 2 now.";
+const part1To3 = "Perfect. All right, that will do for Part 1. We'll go on to Part 3 now.";
+const part2To3 = "Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.";
+const introducePart3 = "Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question.";
+const transitionMatrix = {
+  full: [[1, 2, [part1To2]], [2, 3, [great, introducePart3]], [3, null, []]],
+  p1: [[1, null, []]],
+  p2: [[2, null, [great]]],
+  p3: [[3, null, []]],
+  "p1-p2": [[1, 2, [part1To2]], [2, null, [great]]],
+  "p1-p3": [[1, 3, [part1To3]], [3, null, []]],
+  "p2-p3": [[2, 3, [great, part2To3, introducePart3]], [3, null, []]]
+};
+for (const [modeId, transitions] of Object.entries(transitionMatrix)) {
+  transitions.forEach(([currentPart, nextPart, messages]) => {
+    assert.deepEqual(
+      Array.from(exam.naturalTransitionMessages(modeId, currentPart, nextPart)),
+      messages,
+      `${modeId} natural transition Part ${currentPart} to ${nextPart ?? "end"}`
+    );
+  });
+}
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("full", 2, 3, { answered: false })), [introducePart3]);
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("p2-p3", 2, 3, { answered: false })), [part2To3, introducePart3]);
+assert.deepEqual(Array.from(exam.naturalTransitionMessages("p2", 2, null, { answered: false })), []);
 
 const impossiblePools = { 1: part1.filter(theme => theme.questions.length < 12).slice(0, 4), 2: part2, 3: part3 };
 assert.equal(exam.modeIsFeasible("p1", impossiblePools), false, "Part 1 needs a theme with Q10-Q12");
 
-console.log("Speaking exam mode tests passed: 7 modes, cooldown rotation, unique wording, intro IDs and 19-question full flow.");
+console.log("Speaking exam mode tests passed: 7 mode boundaries, skipped-question cooldown/review semantics, natural transitions and 19-question full flow.");

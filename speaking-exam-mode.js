@@ -50,10 +50,11 @@
     return null;
   }
 
-  function naturalTransitionMessages(modeId, currentPart, nextPart = null) {
+  function naturalTransitionMessages(modeId, currentPart, nextPart = null, options = {}) {
     const mode = modeForId(modeId);
     const current = Number(currentPart);
     const next = nextPart === null ? null : Number(nextPart);
+    const answered = options?.answered !== false;
     if (!mode || !mode.parts.includes(current)) return [];
     if (current === 1 && next === 2) {
       return ["Perfect. All right, that will do for Part 1. We'll go on to Part 2 now."];
@@ -62,7 +63,7 @@
       return ["Perfect. All right, that will do for Part 1. We'll go on to Part 3 now."];
     }
     if (current === 2) {
-      const messages = ["Great. Really nice."];
+      const messages = answered ? ["Great. Really nice."] : [];
       if (next === 3) {
         if (mode.id === "p2-p3") {
           messages.push("Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.");

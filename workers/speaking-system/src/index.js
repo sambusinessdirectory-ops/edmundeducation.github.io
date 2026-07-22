@@ -23,6 +23,7 @@ const SPEAKING_BOOKMARKS_STATE_KEY = "speaking-bookmarks-v1";
 const MAX_BOOKMARKS = 200;
 const MAX_ADMIN_STUDENTS = 2000;
 const MAX_EXAM_ATTEMPT_PAGES = 100;
+const MAX_EXAM_RECORDING_SLOTS = 20;
 const MAX_EXAM_PROMPT_LENGTH = 800;
 const MAX_EXAM_SOURCE_ID_LENGTH = 120;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
@@ -86,11 +87,18 @@ const EXAM_ATTEMPT_PUBLIC_FIELDS = [
   "natural_exchange",
   "manifest_version",
   "question_manifest",
+  "skipped_question_orders",
   "nervousness_rating",
   "rated_at",
   "started_at",
   "completed_at",
   "updated_at"
+].join(",");
+
+const EXAM_STUDENT_STATE_PUBLIC_FIELDS = [
+  "attempt_id",
+  "attempt_number",
+  "cooldown_manifest"
 ].join(",");
 
 const CRC32_TABLES = buildCrc32Tables();
@@ -171,12 +179,21 @@ async function route(request, env, ctx) {
   if (url.pathname === "/v1/exam-attempts" && request.method === "GET") {
     return listExamAttempts(request, env);
   }
+  const examQuestionSkipMatch = url.pathname.match(
+    /^\/v1\/exam-attempts\/([0-9a-f-]{36})\/questions\/([^/]+)\/skip$/i
+  );
+  if (examQuestionSkipMatch && request.method === "PUT") {
+    return skipExamQuestion(request, env, examQuestionSkipMatch[1], examQuestionSkipMatch[2]);
+  }
   const examAttemptMatch = url.pathname.match(/^\/v1\/exam-attempts\/([0-9a-f-]{36})$/i);
   if (examAttemptMatch && request.method === "PUT") {
     return putExamAttempt(request, env, examAttemptMatch[1]);
   }
   if (examAttemptMatch && request.method === "PATCH") {
     return completeExamAttempt(request, env, examAttemptMatch[1]);
+  }
+  if (examAttemptMatch && request.method === "DELETE") {
+    return deleteExamAttempt(request, env, examAttemptMatch[1]);
   }
 
   if (url.pathname === "/v1/admin/students" && request.method === "GET") {
@@ -1031,6 +1048,12 @@ async function enforceExamManifestAccess(env, studentId, manifest) {
 
 function publicExamAttempt(row) {
   if (!row || typeof row !== "object") return null;
+  const skippedOrders = Array.isArray(row.skipped_question_orders)
+    ? [...new Set(row.skipped_question_orders
+      .map(value => Number(value))
+      .filter(value => Number.isInteger(value) && value >= 1 && value <= 19))]
+      .sort((left, right) => left - right)
+    : [];
   return {
     id: String(row.id || "").toLowerCase(),
     attemptNumber: Number(row.attempt_number || 0),
@@ -1038,6 +1061,7 @@ function publicExamAttempt(row) {
     naturalExchange: row.natural_exchange === true,
     manifestVersion: Number(row.manifest_version || 1),
     questions: Array.isArray(row.question_manifest) ? row.question_manifest : [],
+    skippedOrders,
     nervousness: row.nervousness_rating === null || row.nervousness_rating === undefined
       ? null
       : Number(row.nervousness_rating),
@@ -1048,21 +1072,37 @@ function publicExamAttempt(row) {
   };
 }
 
+function publicExamCooldownState(row) {
+  if (!row || typeof row !== "object") return null;
+  const questions = Array.isArray(row.cooldown_manifest)
+    ? row.cooldown_manifest.map(item => ({
+      sourceKey: String(item?.sourceKey || ""),
+      contentKey: String(item?.contentKey || "")
+    })).filter(item => item.sourceKey && item.contentKey)
+    : [];
+  return {
+    id: String(row.attempt_id || "").toLowerCase(),
+    attemptNumber: Number(row.attempt_number || 0),
+    questions
+  };
+}
+
 async function queryLatestExamAttempt(env, studentId) {
   const params = new URLSearchParams({
-    select: EXAM_ATTEMPT_PUBLIC_FIELDS,
+    select: EXAM_STUDENT_STATE_PUBLIC_FIELDS,
     student_id: `eq.${studentId}`,
-    order: "attempt_number.desc",
     limit: "1"
   });
   let response;
   try {
-    response = await supabaseFetch(env, `/rest/v1/speaking_exam_attempts?${params}`, { method: "GET" });
+    response = await supabaseFetch(env, `/rest/v1/speaking_exam_student_state?${params}`, { method: "GET" });
   } catch (error) {
     throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
   }
   if (!response.ok) {
+    const status = response.status;
     await discardResponse(response);
+    if (status === 400 || status === 404) return queryLegacyLatestExamCooldown(env, studentId);
     throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
   }
   const rows = await parseUpstreamArray(response, "Exam attempts");
@@ -1072,11 +1112,66 @@ async function queryLatestExamAttempt(env, studentId) {
   return rows[0] || null;
 }
 
+async function queryLegacyLatestExamCooldown(env, studentId) {
+  const stateParams = new URLSearchParams({
+    select: "attempt_id,attempt_number,question_manifest",
+    student_id: `eq.${studentId}`,
+    limit: "1"
+  });
+  let response;
+  try {
+    response = await supabaseFetch(env, `/rest/v1/speaking_exam_student_state?${stateParams}`, { method: "GET" });
+  } catch (error) {
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+  if (response.ok) {
+    const rows = await parseUpstreamArray(response, "Exam attempts");
+    if (rows.length > 1) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam attempts returned an invalid response");
+    return legacyExamCooldownRow(rows[0] || null, "attempt_id");
+  }
+  const status = response.status;
+  await discardResponse(response);
+  if (status !== 400 && status !== 404) {
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+
+  const parentParams = new URLSearchParams({
+    select: "id,attempt_number,question_manifest",
+    student_id: `eq.${studentId}`,
+    order: "attempt_number.desc",
+    limit: "1"
+  });
+  try {
+    response = await supabaseFetch(env, `/rest/v1/speaking_exam_attempts?${parentParams}`, { method: "GET" });
+  } catch (error) {
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+  if (!response.ok) {
+    await discardResponse(response);
+    throw new HttpError(502, "EXAM_ATTEMPTS_UNAVAILABLE", "Exam attempts are temporarily unavailable");
+  }
+  const rows = await parseUpstreamArray(response, "Exam attempts");
+  if (rows.length > 1) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam attempts returned an invalid response");
+  return legacyExamCooldownRow(rows[0] || null, "id");
+}
+
+function legacyExamCooldownRow(row, idField) {
+  if (!row || typeof row !== "object") return null;
+  return {
+    attempt_id: row[idField],
+    attempt_number: row.attempt_number,
+    cooldown_manifest: (Array.isArray(row.question_manifest) ? row.question_manifest : []).map(item => ({
+      sourceKey: String(item?.sourceKey || ""),
+      contentKey: String(item?.contentKey || "")
+    })).filter(item => item.sourceKey && item.contentKey)
+  };
+}
+
 async function getLatestExamAttempt(request, env) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const row = await queryLatestExamAttempt(env, student.id);
-  return json({ attempt: publicExamAttempt(row) }, 200, request, env);
+  return json({ attempt: publicExamCooldownState(row) }, 200, request, env);
 }
 
 async function putExamAttempt(request, env, attemptId) {
@@ -1143,7 +1238,7 @@ async function completeExamAttempt(request, env, attemptId) {
   if (!value || value.ok !== true || !value.attempt) {
     if (value?.code === "EXAM_ATTEMPT_NOT_FOUND") throw new HttpError(404, value.code, "Exam attempt not found");
     if (value?.code === "EXAM_RECORDINGS_INCOMPLETE") {
-      throw new HttpError(409, value.code, "All exam recordings must be saved before self-evaluation");
+      throw new HttpError(409, value.code, "Record any required introduction, then record or skip every exam question before self-evaluation");
     }
     if (value?.code === "EXAM_ATTEMPT_ALREADY_COMPLETED") {
       throw new HttpError(409, value.code, "This exam attempt already has a different self-evaluation");
@@ -1151,6 +1246,127 @@ async function completeExamAttempt(request, env, attemptId) {
     throw new HttpError(502, "EXAM_ATTEMPT_SAVE_FAILED", "The self-evaluation could not be saved");
   }
   return json({ attempt: publicExamAttempt(value.attempt), idempotent: value.idempotent === true }, 200, request, env);
+}
+
+async function skipExamQuestion(request, env, attemptId, orderText) {
+  if (!UUID_RE.test(attemptId)) throw new HttpError(404, "EXAM_ATTEMPT_NOT_FOUND", "Exam attempt not found");
+  if (!/^\d{1,3}$/.test(orderText)) {
+    throw new HttpError(400, "INVALID_EXAM_QUESTION_ORDER", "Question order must be an integer from 1 to 19");
+  }
+  const questionOrder = Number(orderText);
+  if (!Number.isInteger(questionOrder) || questionOrder < 1 || questionOrder > 19) {
+    throw new HttpError(400, "INVALID_EXAM_QUESTION_ORDER", "Question order must be an integer from 1 to 19");
+  }
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const value = rpcObject(await rpc(env, "speaking_skip_exam_question", {
+    p_id: attemptId.toLowerCase(),
+    p_student_id: student.id,
+    p_question_order: questionOrder
+  }));
+  if (!value || value.ok !== true || !value.attempt) {
+    if (value?.code === "INVALID_EXAM_QUESTION_ORDER") {
+      throw new HttpError(400, value.code, "Question order is not part of this exam attempt");
+    }
+    if (value?.code === "EXAM_ATTEMPT_NOT_FOUND") {
+      throw new HttpError(404, value.code, "Exam attempt not found");
+    }
+    if (value?.code === "EXAM_ATTEMPT_ALREADY_COMPLETED") {
+      throw new HttpError(409, value.code, "A completed exam attempt cannot be changed");
+    }
+    if (value?.code === "EXAM_QUESTION_HAS_RECORDING") {
+      throw new HttpError(409, value.code, "Delete the saved or uploading answer before skipping this question");
+    }
+    throw new HttpError(502, "EXAM_QUESTION_SKIP_FAILED", "The question could not be skipped");
+  }
+  return json({
+    attempt: publicExamAttempt(value.attempt),
+    idempotent: value.idempotent === true
+  }, 200, request, env);
+}
+
+async function deleteExamAttempt(request, env, attemptId) {
+  if (!UUID_RE.test(attemptId)) throw new HttpError(404, "EXAM_ATTEMPT_NOT_FOUND", "Exam attempt not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const normalizedAttemptId = attemptId.toLowerCase();
+  const first = await deleteExamAttemptRpc(env, normalizedAttemptId, student.id);
+  if (first?.ok === true) return emptyResponse(204, request, env);
+  if (first?.code === "EXAM_ATTEMPT_NOT_FOUND") {
+    throw new HttpError(404, first.code, "Exam attempt not found");
+  }
+  if (first?.code !== "EXAM_RECORDINGS_REMAIN") {
+    throw new HttpError(502, "EXAM_ATTEMPT_DELETE_FAILED", "The exam attempt could not be deleted");
+  }
+
+  const deletingRecordings = normalizeExamDeletingRecordings(first, student.id);
+  if (!deletingRecordings.length) throwExamRecordingsRemain();
+  const attemptNumber = Number(first.attemptNumber);
+  if (!Number.isSafeInteger(attemptNumber) || attemptNumber < 1) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam recording reconciliation returned an invalid attempt");
+  }
+
+  await removeStorageObjects(env, deletingRecordings.map(recording => recording.objectPath));
+  const finalized = rpcObject(await rpc(env, "speaking_finalize_exam_recording_deletes", {
+    p_attempt_id: normalizedAttemptId,
+    p_student_id: student.id,
+    p_attempt_number: attemptNumber,
+    p_recording_ids: deletingRecordings.map(recording => recording.id)
+  }));
+  if (finalized?.code === "EXAM_ATTEMPT_CHANGED") {
+    throw new HttpError(409, finalized.code, "This exam attempt changed during deletion; refresh and try again");
+  }
+  if (!finalized || (finalized.ok !== true && finalized.code !== "EXAM_ATTEMPT_NOT_FOUND")) {
+    throw new HttpError(502, "EXAM_RECORDING_RECONCILIATION_FAILED", "Deleted recording metadata could not be reconciled");
+  }
+
+  const retry = rpcObject(await rpc(env, "speaking_delete_exam_attempt_if_number", {
+    p_id: normalizedAttemptId,
+    p_student_id: student.id,
+    p_attempt_number: attemptNumber
+  }));
+  if (retry?.ok === true || retry?.code === "EXAM_ATTEMPT_NOT_FOUND") {
+    return emptyResponse(204, request, env);
+  }
+  if (retry?.code === "EXAM_ATTEMPT_CHANGED") {
+    throw new HttpError(409, retry.code, "This exam attempt changed during deletion; refresh and try again");
+  }
+  if (retry?.code === "EXAM_RECORDINGS_REMAIN") throwExamRecordingsRemain();
+  throw new HttpError(502, "EXAM_ATTEMPT_DELETE_FAILED", "The exam attempt could not be deleted");
+}
+
+async function deleteExamAttemptRpc(env, attemptId, studentId) {
+  return rpcObject(await rpc(env, "speaking_delete_exam_attempt", {
+    p_id: attemptId,
+    p_student_id: studentId
+  }));
+}
+
+function normalizeExamDeletingRecordings(value, studentId) {
+  if (value.deletingRecordings === undefined) return [];
+  if (!Array.isArray(value.deletingRecordings) || value.deletingRecordings.length > MAX_EXAM_RECORDING_SLOTS) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam recording reconciliation returned invalid rows");
+  }
+  const seenIds = new Set();
+  const seenPaths = new Set();
+  return value.deletingRecordings.map(row => {
+    if (!row || typeof row !== "object" || !hasExactKeys(row, ["id", "objectPath"])) {
+      throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam recording reconciliation returned invalid rows");
+    }
+    const id = typeof row.id === "string" ? row.id.toLowerCase() : "";
+    const objectPath = typeof row.objectPath === "string" ? row.objectPath : "";
+    const expectedPath = `students/${studentId}/${id}.mp3`;
+    if (!UUID_RE.test(id) || objectPath !== expectedPath || seenIds.has(id) || seenPaths.has(objectPath)) {
+      throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Exam recording reconciliation returned invalid rows");
+    }
+    seenIds.add(id);
+    seenPaths.add(objectPath);
+    return { id, objectPath };
+  });
+}
+
+function throwExamRecordingsRemain() {
+  throw new HttpError(409, "EXAM_RECORDINGS_REMAIN", "Finish deleting every recording in this exam attempt before deleting its history");
 }
 
 async function listExamAttempts(request, env) {
@@ -1720,6 +1936,19 @@ async function putStorageObject(env, objectPath, bytes) {
 }
 
 async function removeStorageObject(env, objectPath) {
+  return removeStorageObjects(env, [objectPath]);
+}
+
+async function removeStorageObjects(env, objectPaths) {
+  if (
+    !Array.isArray(objectPaths)
+    || objectPaths.length < 1
+    || objectPaths.length > MAX_EXAM_RECORDING_SLOTS
+    || objectPaths.some(path => typeof path !== "string" || !path)
+    || new Set(objectPaths).size !== objectPaths.length
+  ) {
+    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Recording storage paths were invalid");
+  }
   let response;
   try {
     response = await supabaseFetch(
@@ -1728,7 +1957,7 @@ async function removeStorageObject(env, objectPath) {
       {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prefixes: [objectPath] })
+        body: JSON.stringify({ prefixes: objectPaths })
       },
       30000
     );
@@ -1786,6 +2015,18 @@ async function reserveRecordingMetadata(env, metadata) {
     }
     if (value.code === "RECORDING_UPLOAD_IN_PROGRESS") {
       throw new HttpError(409, value.code, "This exam answer is already being saved; retry shortly");
+    }
+    if (value.code === "EXAM_ATTEMPT_NOT_FOUND") {
+      throw new HttpError(409, value.code, "This exam attempt no longer accepts recordings");
+    }
+    if (value.code === "EXAM_ATTEMPT_ALREADY_COMPLETED") {
+      throw new HttpError(409, value.code, "This exam attempt is already completed");
+    }
+    if (value.code === "EXAM_QUESTION_SKIPPED") {
+      throw new HttpError(409, value.code, "This exam question was skipped and no longer accepts a recording");
+    }
+    if (value.code === "INVALID_EXAM_RECORDING_SLOT") {
+      throw new HttpError(400, value.code, "The recording does not match a question in this exam attempt");
     }
     throw new HttpError(409, "RECORDING_RESERVATION_REJECTED", "The recording could not be reserved");
   }
@@ -1983,6 +2224,9 @@ async function deleteRecording(request, env, id, options = {}) {
   if (!value || value.ok !== true || !value.recording) {
     if (value?.code === "RECORDING_NOT_FOUND") {
       throw new HttpError(404, "RECORDING_NOT_FOUND", "Recording not found");
+    }
+    if (value?.code === "RECORDING_UPLOAD_IN_PROGRESS") {
+      throw new HttpError(409, value.code, "This recording is still being uploaded; retry shortly");
     }
     throw new HttpError(502, "DELETE_STATE_FAILED", "Recording deletion could not be started");
   }

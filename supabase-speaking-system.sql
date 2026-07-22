@@ -180,6 +180,7 @@ create table if not exists public.speaking_exam_attempts (
   manifest_version smallint not null default 1
     check (manifest_version = 1),
   question_manifest jsonb not null,
+  skipped_question_orders smallint[] not null default '{}'::smallint[],
   nervousness_rating smallint
     check (nervousness_rating between 1 and 7),
   rated_at timestamptz,
@@ -236,6 +237,10 @@ where attempt.id = ranked.id
 alter table public.speaking_exam_attempts
   alter column attempt_number set not null;
 
+alter table public.speaking_exam_attempts
+  add column if not exists skipped_question_orders smallint[]
+    not null default '{}'::smallint[];
+
 do $$
 begin
   if not exists (
@@ -250,6 +255,133 @@ begin
   end if;
 end;
 $$;
+
+-- This private state is deliberately independent from the history parent, but
+-- is data-minimized at write time. It retains only the monotonic ordinal/UUID
+-- and the exact identities needed for the one-attempt cooldown. Prompts, mode,
+-- ratings and timestamps remain solely in the deletable history parent.
+create table if not exists public.speaking_exam_student_state (
+  student_id uuid primary key
+    references public.flashcard_students(id) on delete cascade,
+  attempt_id uuid not null,
+  attempt_number bigint not null
+    check (attempt_number > 0),
+  cooldown_manifest jsonb not null,
+  constraint speaking_exam_state_cooldown_shape_check
+    check (
+      jsonb_typeof(cooldown_manifest) = 'array'
+      and jsonb_array_length(cooldown_manifest) between 1 and 19
+    ),
+  constraint speaking_exam_state_cooldown_size_check
+    check (octet_length(cooldown_manifest::text) between 2 and 65536)
+);
+
+-- Upgrade and immediately scrub the earlier full-snapshot draft without losing
+-- cooldown after its parent has already been deleted.
+alter table public.speaking_exam_student_state
+  add column if not exists cooldown_manifest jsonb;
+
+do $migration$
+begin
+  if exists (
+    select 1
+    from information_schema.columns
+    where table_schema = 'public'
+      and table_name = 'speaking_exam_student_state'
+      and column_name = 'question_manifest'
+  ) then
+    execute $sql$
+      update public.speaking_exam_student_state state_row
+      set cooldown_manifest = (
+        select coalesce(
+          jsonb_agg(
+            jsonb_build_object(
+              'sourceKey', question.item ->> 'sourceKey',
+              'contentKey', question.item ->> 'contentKey'
+            )
+            order by question.ordinality
+          ),
+          '[]'::jsonb
+        )
+        from jsonb_array_elements(state_row.question_manifest)
+          with ordinality as question(item, ordinality)
+      )
+      where state_row.cooldown_manifest is null
+    $sql$;
+  end if;
+end;
+$migration$;
+
+-- Preserve an existing state row on reruns: it may intentionally point at a
+-- latest parent that the student has since hard-deleted. Missing rows are
+-- backfilled from the latest remaining visible parent.
+insert into public.speaking_exam_student_state (
+  student_id,
+  attempt_id,
+  attempt_number,
+  cooldown_manifest
+)
+select distinct on (attempt.student_id)
+  attempt.student_id,
+  attempt.id,
+  attempt.attempt_number,
+  (
+    select jsonb_agg(
+      jsonb_build_object(
+        'sourceKey', question.item ->> 'sourceKey',
+        'contentKey', question.item ->> 'contentKey'
+      )
+      order by question.ordinality
+    )
+    from jsonb_array_elements(attempt.question_manifest)
+      with ordinality as question(item, ordinality)
+  )
+from public.speaking_exam_attempts attempt
+order by attempt.student_id, attempt.attempt_number desc
+on conflict (student_id) do nothing;
+
+alter table public.speaking_exam_student_state
+  alter column cooldown_manifest set not null;
+
+do $$
+begin
+  if not exists (
+    select 1 from pg_catalog.pg_constraint
+    where conrelid = 'public.speaking_exam_student_state'::regclass
+      and conname = 'speaking_exam_state_cooldown_shape_check'
+  ) then
+    alter table public.speaking_exam_student_state
+      add constraint speaking_exam_state_cooldown_shape_check
+      check (
+        jsonb_typeof(cooldown_manifest) = 'array'
+        and jsonb_array_length(cooldown_manifest) between 1 and 19
+      );
+  end if;
+  if not exists (
+    select 1 from pg_catalog.pg_constraint
+    where conrelid = 'public.speaking_exam_student_state'::regclass
+      and conname = 'speaking_exam_state_cooldown_size_check'
+  ) then
+    alter table public.speaking_exam_student_state
+      add constraint speaking_exam_state_cooldown_size_check
+      check (octet_length(cooldown_manifest::text) between 2 and 65536);
+  end if;
+end;
+$$;
+
+-- DROP COLUMN removes the superseded same-table checks as well. No full prompt,
+-- mode, self-rating or timestamp copy remains after this migration commits.
+alter table public.speaking_exam_student_state
+  drop column if exists mode_id,
+  drop column if exists natural_exchange,
+  drop column if exists manifest_version,
+  drop column if exists question_manifest,
+  drop column if exists skipped_question_orders,
+  drop column if exists nervousness_rating,
+  drop column if exists rated_at,
+  drop column if exists started_at,
+  drop column if exists completed_at,
+  drop column if exists updated_at;
 
 -- Upgrade a pre-lifecycle installation without treating existing valid rows as
 -- incomplete uploads. Fresh installations already have these columns.
@@ -328,6 +460,7 @@ alter table public.speaking_admin_sessions enable row level security;
 alter table public.speaking_system_settings enable row level security;
 alter table public.speaking_recording_attempts enable row level security;
 alter table public.speaking_exam_attempts enable row level security;
+alter table public.speaking_exam_student_state enable row level security;
 
 revoke all on table public.speaking_admin_accounts
   from public, anon, authenticated;
@@ -339,6 +472,8 @@ revoke all on table public.speaking_recording_attempts
   from public, anon, authenticated;
 revoke all on table public.speaking_exam_attempts
   from public, anon, authenticated;
+revoke all on table public.speaking_exam_student_state
+  from public, anon, authenticated;
 
 -- The Worker may read metadata directly, but every mutation goes through a
 -- transaction-locked SECURITY DEFINER function below. This prevents a race
@@ -349,6 +484,9 @@ grant select on table public.speaking_recording_attempts to service_role;
 revoke insert, update, delete on table public.speaking_exam_attempts
   from service_role;
 grant select on table public.speaking_exam_attempts to service_role;
+revoke insert, update, delete on table public.speaking_exam_student_state
+  from service_role;
+grant select on table public.speaking_exam_student_state to service_role;
 
 -- Keep the recording objects private. There are intentionally no anon or
 -- authenticated storage.objects policies for this bucket: all object access
@@ -652,6 +790,7 @@ declare
   v_file_count integer;
   v_total_bytes bigint;
   v_recording public.speaking_recording_attempts%rowtype;
+  v_exam_attempt public.speaking_exam_attempts%rowtype;
 begin
   if not exists (
     select 1
@@ -678,9 +817,28 @@ begin
   where attempt.student_id = p_student_id;
 
   -- Exam slots carry a unique attempt/question identifier in exercise_id.
-  -- The per-student advisory lock makes this check and the later insert atomic,
-  -- while ordinary non-exam practice remains repeatable.
+  -- Take the exam lock after the recording lock so a parent cannot be deleted
+  -- between validation and insertion. Ordinary non-exam practice is repeatable.
   if p_exercise_id like 'exam:%' then
+    perform pg_catalog.pg_advisory_xact_lock(
+      pg_catalog.hashtextextended(p_student_id::text, 874314)
+    );
+
+    select attempt.*
+    into v_exam_attempt
+    from public.speaking_exam_attempts attempt
+    where attempt.student_id = p_student_id
+      and left(
+        p_exercise_id,
+        char_length(format('exam:%s:%s:', attempt.mode_id, attempt.id::text))
+      ) = format('exam:%s:%s:', attempt.mode_id, attempt.id::text)
+    limit 1
+    for share;
+
+    if not found then
+      return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+    end if;
+
     select attempt.*
     into v_recording
     from public.speaking_recording_attempts attempt
@@ -710,6 +868,50 @@ begin
         'ok', false,
         'code', 'RECORDING_UPLOAD_IN_PROGRESS'
       );
+    end if;
+
+    if not (
+      (
+        v_exam_attempt.natural_exchange
+        and p_exercise_id = format(
+          'exam:%s:%s:p%s:intro',
+          v_exam_attempt.mode_id,
+          v_exam_attempt.id::text,
+          v_exam_attempt.question_manifest -> 0 ->> 'part'
+        )
+      )
+      or exists (
+        select 1
+        from jsonb_array_elements(v_exam_attempt.question_manifest) question
+        where p_exercise_id = format(
+          'exam:%s:%s:p%s:q%s',
+          v_exam_attempt.mode_id,
+          v_exam_attempt.id::text,
+          question ->> 'part',
+          lpad(question ->> 'order', 2, '0')
+        )
+      )
+    ) then
+      return jsonb_build_object('ok', false, 'code', 'INVALID_EXAM_RECORDING_SLOT');
+    end if;
+
+    if v_exam_attempt.completed_at is not null then
+      return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_ALREADY_COMPLETED');
+    end if;
+
+    if exists (
+      select 1
+      from jsonb_array_elements(v_exam_attempt.question_manifest) question
+      where (question ->> 'order')::smallint = any(v_exam_attempt.skipped_question_orders)
+        and p_exercise_id = format(
+          'exam:%s:%s:p%s:q%s',
+          v_exam_attempt.mode_id,
+          v_exam_attempt.id::text,
+          question ->> 'part',
+          lpad(question ->> 'order', 2, '0')
+        )
+    ) then
+      return jsonb_build_object('ok', false, 'code', 'EXAM_QUESTION_SKIPPED');
     end if;
   end if;
 
@@ -847,12 +1049,32 @@ security definer
 set search_path = ''
 as $$
 declare
+  v_student_id uuid;
   v_recording public.speaking_recording_attempts%rowtype;
 begin
+  -- Resolve ownership before taking a row lock, then use the same per-student
+  -- advisory lock as upload reservation and final deletion. This lock ordering
+  -- avoids deadlocks with exam completion/deletion (recording lock first).
+  select attempt.student_id
+  into v_student_id
+  from public.speaking_recording_attempts attempt
+  where attempt.id = p_id
+    and (p_student_id is null or attempt.student_id = p_student_id)
+  limit 1;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'RECORDING_NOT_FOUND');
+  end if;
+
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(v_student_id::text, 874312)
+  );
+
   select attempt.*
   into v_recording
   from public.speaking_recording_attempts attempt
   where attempt.id = p_id
+    and attempt.student_id = v_student_id
     and (p_student_id is null or attempt.student_id = p_student_id)
   limit 1
   for update;
@@ -861,13 +1083,19 @@ begin
     return jsonb_build_object('ok', false, 'code', 'RECORDING_NOT_FOUND');
   end if;
 
-  if v_recording.storage_state <> 'deleting' then
+  if v_recording.storage_state = 'uploading' then
+    return jsonb_build_object('ok', false, 'code', 'RECORDING_UPLOAD_IN_PROGRESS');
+  end if;
+
+  if v_recording.storage_state = 'ready' then
     update public.speaking_recording_attempts attempt
     set storage_state = 'deleting',
         delete_requested_at = clock_timestamp(),
         last_storage_error = null
     where attempt.id = v_recording.id
     returning attempt.* into v_recording;
+  elsif v_recording.storage_state <> 'deleting' then
+    return jsonb_build_object('ok', false, 'code', 'RECORDING_STATE_CONFLICT');
   end if;
 
   return jsonb_build_object('ok', true, 'recording', to_jsonb(v_recording));
@@ -1006,9 +1234,11 @@ set search_path = ''
 as $$
 declare
   v_existing public.speaking_exam_attempts%rowtype;
-  v_latest public.speaking_exam_attempts%rowtype;
+  v_state public.speaking_exam_student_state%rowtype;
   v_attempt public.speaking_exam_attempts%rowtype;
   v_attempt_number bigint;
+  v_cooldown_manifest jsonb;
+  v_started_at timestamptz;
 begin
   if not exists (
     select 1
@@ -1044,16 +1274,15 @@ begin
     return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_CONFLICT');
   end if;
 
-  select attempt.*
-  into v_latest
-  from public.speaking_exam_attempts attempt
-  where attempt.student_id = p_student_id
-  order by attempt.attempt_number desc
-  limit 1;
+  select state_row.*
+  into v_state
+  from public.speaking_exam_student_state state_row
+  where state_row.student_id = p_student_id
+  for update;
 
-  if v_latest.id is not null and exists (
+  if v_state.attempt_id is not null and exists (
     select 1
-    from jsonb_array_elements(v_latest.question_manifest) previous_item
+    from jsonb_array_elements(v_state.cooldown_manifest) previous_item
     cross join jsonb_array_elements(p_question_manifest) proposed_item
     where (
       previous_item ->> 'sourceKey' <> ''
@@ -1066,11 +1295,22 @@ begin
     return jsonb_build_object(
       'ok', false,
       'code', 'EXAM_COOLDOWN_CONFLICT',
-      'latestAttemptId', v_latest.id
+      'latestAttemptId', v_state.attempt_id
     );
   end if;
 
-  v_attempt_number := coalesce(v_latest.attempt_number, 0) + 1;
+  v_attempt_number := coalesce(v_state.attempt_number, 0) + 1;
+  v_started_at := clock_timestamp();
+  select jsonb_agg(
+    jsonb_build_object(
+      'sourceKey', question.item ->> 'sourceKey',
+      'contentKey', question.item ->> 'contentKey'
+    )
+    order by question.ordinality
+  )
+  into v_cooldown_manifest
+  from jsonb_array_elements(p_question_manifest)
+    with ordinality as question(item, ordinality);
 
   insert into public.speaking_exam_attempts (
     id,
@@ -1091,9 +1331,128 @@ begin
     p_natural_exchange,
     1,
     p_question_manifest,
-    clock_timestamp(),
-    clock_timestamp()
+    v_started_at,
+    v_started_at
   )
+  returning * into v_attempt;
+
+  insert into public.speaking_exam_student_state (
+    student_id,
+    attempt_id,
+    attempt_number,
+    cooldown_manifest
+  )
+  values (
+    v_attempt.student_id,
+    v_attempt.id,
+    v_attempt.attempt_number,
+    v_cooldown_manifest
+  )
+  on conflict (student_id) do update
+  set attempt_id = excluded.attempt_id,
+      attempt_number = excluded.attempt_number,
+      cooldown_manifest = excluded.cooldown_manifest;
+
+  return jsonb_build_object(
+    'ok', true,
+    'attempt', to_jsonb(v_attempt)
+  );
+end;
+$$;
+
+-- Persist an intentional unanswered question. Recording and exam locks make
+-- the decision atomic with upload reservation, readiness, deletion and final
+-- completion. A saved or currently-uploading answer must be deleted first.
+create or replace function public.speaking_skip_exam_question(
+  p_id uuid,
+  p_student_id uuid,
+  p_question_order integer
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_attempt public.speaking_exam_attempts%rowtype;
+  v_question jsonb;
+  v_skipped_orders smallint[];
+begin
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874312)
+  );
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874314)
+  );
+
+  select attempt.*
+  into v_attempt
+  from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+  for update;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+  end if;
+
+  if p_question_order is null
+    or p_question_order < 1
+    or p_question_order > jsonb_array_length(v_attempt.question_manifest)
+  then
+    return jsonb_build_object('ok', false, 'code', 'INVALID_EXAM_QUESTION_ORDER');
+  end if;
+
+  v_question := v_attempt.question_manifest -> (p_question_order - 1);
+  if jsonb_typeof(v_question) <> 'object'
+    or v_question ->> 'order' <> p_question_order::text
+    or (v_question ->> 'part') not in ('1', '2', '3')
+  then
+    return jsonb_build_object('ok', false, 'code', 'INVALID_EXAM_QUESTION_ORDER');
+  end if;
+
+  if v_attempt.completed_at is not null then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_ALREADY_COMPLETED');
+  end if;
+
+  if exists (
+    select 1
+    from public.speaking_recording_attempts recording
+    where recording.student_id = p_student_id
+      and recording.storage_state in ('uploading', 'ready')
+      and recording.exercise_id = format(
+        'exam:%s:%s:p%s:q%s',
+        v_attempt.mode_id,
+        v_attempt.id::text,
+        v_question ->> 'part',
+        lpad(p_question_order::text, 2, '0')
+      )
+  ) then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_QUESTION_HAS_RECORDING');
+  end if;
+
+  if p_question_order::smallint = any(v_attempt.skipped_question_orders) then
+    return jsonb_build_object(
+      'ok', true,
+      'idempotent', true,
+      'attempt', to_jsonb(v_attempt)
+    );
+  end if;
+
+  select coalesce(array_agg(item.order_value order by item.order_value), '{}'::smallint[])
+  into v_skipped_orders
+  from (
+    select distinct skipped.order_value
+    from unnest(
+      array_append(v_attempt.skipped_question_orders, p_question_order::smallint)
+    ) as skipped(order_value)
+  ) item;
+
+  update public.speaking_exam_attempts attempt
+  set skipped_question_orders = v_skipped_orders,
+      updated_at = clock_timestamp()
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
   returning * into v_attempt;
 
   return jsonb_build_object(
@@ -1155,18 +1514,21 @@ begin
   if exists (
     select 1
     from jsonb_array_elements(v_attempt.question_manifest) question
-    where not exists (
-      select 1
-      from public.speaking_recording_attempts recording
-      where recording.student_id = p_student_id
-        and recording.storage_state = 'ready'
-        and recording.exercise_id = format(
-          'exam:%s:%s:p%s:q%s',
-          v_attempt.mode_id,
-          v_attempt.id::text,
-          question ->> 'part',
-          lpad(question ->> 'order', 2, '0')
-        )
+    where not (
+      (question ->> 'order')::smallint = any(v_attempt.skipped_question_orders)
+      or exists (
+        select 1
+        from public.speaking_recording_attempts recording
+        where recording.student_id = p_student_id
+          and recording.storage_state = 'ready'
+          and recording.exercise_id = format(
+            'exam:%s:%s:p%s:q%s',
+            v_attempt.mode_id,
+            v_attempt.id::text,
+            question ->> 'part',
+            lpad(question ->> 'order', 2, '0')
+          )
+      )
     )
   ) or (
     v_attempt.natural_exchange
@@ -1203,6 +1565,257 @@ begin
 end;
 $$;
 
+-- Hard-delete the complete history parent. Only the separately minimized
+-- ordinal/UUID and cooldown identity pairs survive history cleanup.
+-- Every physical object must first be removed through the recording deletion
+-- saga, which finalizes its metadata row only after Storage confirms removal.
+create or replace function public.speaking_delete_exam_attempt(
+  p_id uuid,
+  p_student_id uuid
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_attempt public.speaking_exam_attempts%rowtype;
+  v_recording_prefix text;
+  v_recording_count bigint;
+  v_deleting_count bigint;
+  v_deleting_recordings jsonb;
+begin
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874312)
+  );
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874314)
+  );
+
+  select attempt.*
+  into v_attempt
+  from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+  for update;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+  end if;
+
+  v_recording_prefix := format(
+    'exam:%s:%s:',
+    v_attempt.mode_id,
+    v_attempt.id::text
+  );
+
+  select count(*),
+         count(*) filter (where recording.storage_state = 'deleting')
+  into v_recording_count, v_deleting_count
+  from public.speaking_recording_attempts recording
+  where recording.student_id = p_student_id
+    and left(recording.exercise_id, char_length(v_recording_prefix)) = v_recording_prefix;
+
+  if v_recording_count <> 0 then
+    select coalesce(
+      jsonb_agg(
+        jsonb_build_object(
+          'id', tombstone.id,
+          'objectPath', tombstone.object_path
+        )
+        order by tombstone.created_at, tombstone.id
+      ),
+      '[]'::jsonb
+    )
+    into v_deleting_recordings
+    from (
+      select recording.id, recording.object_path, recording.created_at
+      from public.speaking_recording_attempts recording
+      where recording.student_id = p_student_id
+        and recording.storage_state = 'deleting'
+        and left(recording.exercise_id, char_length(v_recording_prefix)) = v_recording_prefix
+      order by recording.created_at, recording.id
+      limit 20
+    ) tombstone;
+
+    return jsonb_build_object(
+      'ok', false,
+      'code', 'EXAM_RECORDINGS_REMAIN',
+      'attemptNumber', v_attempt.attempt_number,
+      'recordingCount', v_recording_count,
+      'deletingCount', v_deleting_count,
+      'deletingRecordings', v_deleting_recordings
+    );
+  end if;
+
+  delete from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id;
+
+  return jsonb_build_object('ok', true, 'id', p_id);
+end;
+$$;
+
+-- Storage is removed before this batch finalizer is called. Missing IDs are
+-- accepted for idempotency with concurrent/retried deletion, but any supplied
+-- ID that still exists must be an owned `deleting` row under the exact parent
+-- prefix. The 20-row ceiling matches the largest legitimate exam slot count.
+create or replace function public.speaking_finalize_exam_recording_deletes(
+  p_attempt_id uuid,
+  p_student_id uuid,
+  p_attempt_number bigint,
+  p_recording_ids uuid[]
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_attempt public.speaking_exam_attempts%rowtype;
+  v_recording_prefix text;
+  v_distinct_count integer;
+  v_deleted_count integer;
+begin
+  if p_recording_ids is null
+    or cardinality(p_recording_ids) < 1
+    or cardinality(p_recording_ids) > 20
+    or array_position(p_recording_ids, null) is not null
+  then
+    return jsonb_build_object('ok', false, 'code', 'INVALID_RECORDING_IDS');
+  end if;
+
+  select count(distinct supplied.recording_id)::integer
+  into v_distinct_count
+  from unnest(p_recording_ids) as supplied(recording_id);
+
+  if v_distinct_count <> cardinality(p_recording_ids) then
+    return jsonb_build_object('ok', false, 'code', 'INVALID_RECORDING_IDS');
+  end if;
+
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874312)
+  );
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874314)
+  );
+
+  select attempt.*
+  into v_attempt
+  from public.speaking_exam_attempts attempt
+  where attempt.id = p_attempt_id
+    and attempt.student_id = p_student_id
+  for share;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+  end if;
+
+  if p_attempt_number is null or v_attempt.attempt_number <> p_attempt_number then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_CHANGED');
+  end if;
+
+  v_recording_prefix := format(
+    'exam:%s:%s:',
+    v_attempt.mode_id,
+    v_attempt.id::text
+  );
+
+  if exists (
+    select 1
+    from public.speaking_recording_attempts recording
+    where recording.id = any(p_recording_ids)
+      and (
+        recording.student_id <> p_student_id
+        or recording.storage_state <> 'deleting'
+        or left(recording.exercise_id, char_length(v_recording_prefix)) <> v_recording_prefix
+      )
+  ) then
+    return jsonb_build_object('ok', false, 'code', 'RECORDING_STATE_CONFLICT');
+  end if;
+
+  delete from public.speaking_recording_attempts recording
+  where recording.id = any(p_recording_ids)
+    and recording.student_id = p_student_id
+    and recording.storage_state = 'deleting'
+    and left(recording.exercise_id, char_length(v_recording_prefix)) = v_recording_prefix;
+  get diagnostics v_deleted_count = row_count;
+
+  return jsonb_build_object(
+    'ok', true,
+    'deletedCount', v_deleted_count
+  );
+end;
+$$;
+
+-- The retry is version-guarded so a concurrently deleted UUID can never cause
+-- a newly-created parent that reused that UUID to be removed accidentally.
+create or replace function public.speaking_delete_exam_attempt_if_number(
+  p_id uuid,
+  p_student_id uuid,
+  p_attempt_number bigint
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_attempt public.speaking_exam_attempts%rowtype;
+  v_recording_prefix text;
+  v_recording_count bigint;
+begin
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874312)
+  );
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874314)
+  );
+
+  select attempt.*
+  into v_attempt
+  from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+  for update;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+  end if;
+
+  if p_attempt_number is null or v_attempt.attempt_number <> p_attempt_number then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_CHANGED');
+  end if;
+
+  v_recording_prefix := format(
+    'exam:%s:%s:',
+    v_attempt.mode_id,
+    v_attempt.id::text
+  );
+
+  select count(*)
+  into v_recording_count
+  from public.speaking_recording_attempts recording
+  where recording.student_id = p_student_id
+    and left(recording.exercise_id, char_length(v_recording_prefix)) = v_recording_prefix;
+
+  if v_recording_count <> 0 then
+    return jsonb_build_object(
+      'ok', false,
+      'code', 'EXAM_RECORDINGS_REMAIN',
+      'recordingCount', v_recording_count
+    );
+  end if;
+
+  delete from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+    and attempt.attempt_number = p_attempt_number;
+
+  return jsonb_build_object('ok', true, 'id', p_id);
+end;
+$$;
+
 revoke all on function public.speaking_admin_login(text, text)
   from public, anon, authenticated;
 revoke all on function public.speaking_admin_me(uuid)
@@ -1230,7 +1843,15 @@ revoke all on function public.speaking_cancel_recording_upload(uuid)
   from public, anon, authenticated;
 revoke all on function public.speaking_create_exam_attempt(uuid, uuid, text, boolean, jsonb)
   from public, anon, authenticated;
+revoke all on function public.speaking_skip_exam_question(uuid, uuid, integer)
+  from public, anon, authenticated;
 revoke all on function public.speaking_complete_exam_attempt(uuid, uuid, integer)
+  from public, anon, authenticated;
+revoke all on function public.speaking_delete_exam_attempt(uuid, uuid)
+  from public, anon, authenticated;
+revoke all on function public.speaking_finalize_exam_recording_deletes(uuid, uuid, bigint, uuid[])
+  from public, anon, authenticated;
+revoke all on function public.speaking_delete_exam_attempt_if_number(uuid, uuid, bigint)
   from public, anon, authenticated;
 
 grant execute on function public.speaking_admin_login(text, text)
@@ -1260,7 +1881,15 @@ grant execute on function public.speaking_cancel_recording_upload(uuid)
   to service_role;
 grant execute on function public.speaking_create_exam_attempt(uuid, uuid, text, boolean, jsonb)
   to service_role;
+grant execute on function public.speaking_skip_exam_question(uuid, uuid, integer)
+  to service_role;
 grant execute on function public.speaking_complete_exam_attempt(uuid, uuid, integer)
+  to service_role;
+grant execute on function public.speaking_delete_exam_attempt(uuid, uuid)
+  to service_role;
+grant execute on function public.speaking_finalize_exam_recording_deletes(uuid, uuid, bigint, uuid[])
+  to service_role;
+grant execute on function public.speaking_delete_exam_attempt_if_number(uuid, uuid, bigint)
   to service_role;
 
 notify pgrst, 'reload schema';

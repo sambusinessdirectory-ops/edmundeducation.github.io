@@ -17,6 +17,8 @@ export {
   normalizeExamQuestionManifest,
   parseMultipartUpload,
   parseExportPage,
+  publicExamAttempt,
+  publicExamCooldownState,
   expectedExamExerciseIds,
   prepareZip
 };
@@ -423,6 +425,388 @@ test("exam manifests derive stable exact-question keys and question bookmarks st
   assert.equal(expectedIds[0], `exam:p1-p3:${attemptId}:p1:intro`);
   assert.equal(expectedIds[1], `exam:p1-p3:${attemptId}:p1:q01`);
   assert.equal(expectedIds.at(-1), `exam:p1-p3:${attemptId}:p3:q18`);
+});
+
+test("latest exam state exposes only cooldown identities and the monotonic ordinal", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const stateRow = {
+    attempt_id: attemptId,
+    attempt_number: 5920,
+    cooldown_manifest: [
+      { sourceKey: "p1:source:q1", contentKey: "one" },
+      { sourceKey: "p3:source:q2", contentKey: "two" }
+    ]
+  };
+  assert.deepEqual(worker.publicExamCooldownState(stateRow), {
+    id: attemptId,
+    attemptNumber: 5920,
+    questions: stateRow.cooldown_manifest
+  });
+
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/speaking_exam_student_state")) {
+      calls.push("latest-state");
+      assert.equal(options.method, "GET");
+      assert.equal(parsed.searchParams.get("student_id"), `eq.${studentId}`);
+      assert.equal(parsed.searchParams.get("order"), null);
+      assert.match(parsed.searchParams.get("select") || "", /attempt_id/);
+      assert.match(parsed.searchParams.get("select") || "", /cooldown_manifest/);
+      assert.doesNotMatch(parsed.searchParams.get("select") || "", /question_manifest|mode_id|nervousness_rating|started_at/);
+      return jsonResponse([stateRow]);
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/exam-attempts/latest", studentToken),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.deepEqual(body.attempt, {
+      id: attemptId,
+      attemptNumber: 5920,
+      questions: stateRow.cooldown_manifest
+    });
+    assert.deepEqual(calls, ["student-profile", "latest-state"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("latest endpoint minimizes a legacy full-state row during rolling migration", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  let stateQueries = 0;
+  globalThis.fetch = async (url) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/speaking_exam_student_state")) {
+      stateQueries += 1;
+      if (stateQueries === 1) return jsonResponse({ message: "missing cooldown_manifest" }, { status: 400 });
+      assert.match(parsed.searchParams.get("select") || "", /question_manifest/);
+      return jsonResponse([{
+        attempt_id: attemptId,
+        attempt_number: 23,
+        question_manifest: [{
+          sourceKey: "p2:legacy-source",
+          contentKey: "legacy wording",
+          promptEn: "Sensitive full prompt",
+          promptZh: "完整題目"
+        }]
+      }]);
+    }
+    assert.fail(`Unexpected rolling-migration request: ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/exam-attempts/latest", studentToken),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 200);
+    assert.deepEqual((await response.json()).attempt, {
+      id: attemptId,
+      attemptNumber: 23,
+      questions: [{ sourceKey: "p2:legacy-source", contentKey: "legacy wording" }]
+    });
+    assert.equal(stateQueries, 2);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("student can idempotently skip an unanswered exam question", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_skip_exam_question")) {
+      calls.push("skip-rpc");
+      const payload = JSON.parse(String(options.body));
+      assert.equal(payload.p_id, attemptId);
+      assert.equal(payload.p_student_id, studentId);
+      if (payload.p_question_order === 4) {
+        return jsonResponse({ ok: false, code: "EXAM_QUESTION_HAS_RECORDING" });
+      }
+      assert.equal(payload.p_question_order, 3);
+      return jsonResponse({
+        ok: true,
+        idempotent: true,
+        attempt: {
+          id: attemptId,
+          attempt_number: 23,
+          mode_id: "p1",
+          natural_exchange: false,
+          manifest_version: 1,
+          question_manifest: [],
+          skipped_question_orders: [3],
+          nervousness_rating: null,
+          rated_at: null,
+          started_at: "2026-07-22T00:00:00Z",
+          completed_at: null,
+          updated_at: "2026-07-22T00:01:00Z"
+        }
+      });
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const skipped = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}/questions/3/skip`, studentToken, { method: "PUT" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(skipped.status, 200);
+    const skippedBody = await skipped.json();
+    assert.equal(skippedBody.idempotent, true);
+    assert.deepEqual(skippedBody.attempt.skippedOrders, [3]);
+
+    const hasRecording = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}/questions/4/skip`, studentToken, { method: "PUT" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(hasRecording.status, 409);
+    assert.equal((await hasRecording.json()).code, "EXAM_QUESTION_HAS_RECORDING");
+
+    const invalid = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}/questions/20/skip`, studentToken, { method: "PUT" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(invalid.status, 400);
+    assert.equal((await invalid.json()).code, "INVALID_EXAM_QUESTION_ORDER");
+    assert.deepEqual(calls, ["student-profile", "skip-rpc", "student-profile", "skip-rpc"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("whole exam history deletion delegates ownership and recording checks to one RPC", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  let deleteCalls = 0;
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_delete_exam_attempt")) {
+      deleteCalls += 1;
+      const payload = JSON.parse(String(options.body));
+      assert.deepEqual(payload, { p_id: attemptId, p_student_id: studentId });
+      return deleteCalls === 1
+        ? jsonResponse({ ok: true, id: attemptId })
+        : jsonResponse({ ok: false, code: "EXAM_RECORDINGS_REMAIN", recordingCount: 2 });
+    }
+    assert.fail(`Whole deletion must not call Storage directly: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const deleted = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, { method: "DELETE" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(deleted.status, 204);
+    assert.equal(await deleted.text(), "");
+
+    const blocked = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, { method: "DELETE" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(blocked.status, 409);
+    assert.equal((await blocked.json()).code, "EXAM_RECORDINGS_REMAIN");
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("whole exam deletion reconciles owned deleting tombstones and retries once", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const recordingIds = [
+    "75f32715-93c1-4a21-b35f-65bd72c7d26d",
+    "ee1d24c7-1dce-42bb-96ff-df7f7550cc35"
+  ];
+  const objectPaths = recordingIds.map(id => `students/${studentId}/${id}.mp3`);
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  let parentDeleteCalls = 0;
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_delete_exam_attempt")) {
+      parentDeleteCalls += 1;
+      calls.push(`parent-delete-${parentDeleteCalls}`);
+      assert.deepEqual(JSON.parse(String(options.body)), { p_id: attemptId, p_student_id: studentId });
+      if (parentDeleteCalls === 1) {
+        return jsonResponse({
+          ok: false,
+          code: "EXAM_RECORDINGS_REMAIN",
+          attemptNumber: 23,
+          recordingCount: 2,
+          deletingCount: 2,
+          deletingRecordings: recordingIds.map((id, index) => ({ id, objectPath: objectPaths[index] }))
+        });
+      }
+      assert.fail("Initial parent deletion RPC must run only once before reconciliation");
+    }
+    if (parsed.pathname.endsWith("/storage/v1/object/speaking-recordings")) {
+      calls.push("storage-delete-batch");
+      assert.equal(options.method, "DELETE");
+      assert.deepEqual(JSON.parse(String(options.body)), { prefixes: objectPaths });
+      return jsonResponse([]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_finalize_exam_recording_deletes")) {
+      calls.push("finalize-batch");
+      assert.deepEqual(JSON.parse(String(options.body)), {
+        p_attempt_id: attemptId,
+        p_student_id: studentId,
+        p_attempt_number: 23,
+        p_recording_ids: recordingIds
+      });
+      return jsonResponse({ ok: true, deletedCount: 2 });
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_delete_exam_attempt_if_number")) {
+      calls.push("parent-delete-versioned");
+      assert.deepEqual(JSON.parse(String(options.body)), {
+        p_id: attemptId,
+        p_student_id: studentId,
+        p_attempt_number: 23
+      });
+      return jsonResponse({ ok: true, id: attemptId });
+    }
+    assert.fail(`Unexpected reconciliation request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, { method: "DELETE" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 204);
+    assert.deepEqual(calls, [
+      "student-profile",
+      "parent-delete-1",
+      "storage-delete-batch",
+      "finalize-batch",
+      "parent-delete-versioned"
+    ]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("whole exam deletion leaves tombstone metadata intact when Storage deletion fails", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const recordingId = "75f32715-93c1-4a21-b35f-65bd72c7d26d";
+  const objectPath = `students/${studentId}/${recordingId}.mp3`;
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_delete_exam_attempt")) {
+      calls.push("parent-delete");
+      return jsonResponse({
+        ok: false,
+        code: "EXAM_RECORDINGS_REMAIN",
+        attemptNumber: 23,
+        recordingCount: 1,
+        deletingCount: 1,
+        deletingRecordings: [{ id: recordingId, objectPath }]
+      });
+    }
+    if (parsed.pathname.endsWith("/storage/v1/object/speaking-recordings")) {
+      calls.push("storage-delete-failed");
+      return new Response("storage unavailable", { status: 500 });
+    }
+    assert.fail(`Metadata must not finalize after Storage failure: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, { method: "DELETE" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 502);
+    assert.equal((await response.json()).code, "STORAGE_DELETE_FAILED");
+    assert.deepEqual(calls, ["student-profile", "parent-delete", "storage-delete-failed"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("whole exam deletion does not reconcile a ready recording", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_delete_exam_attempt")) {
+      calls.push("parent-delete-ready");
+      return jsonResponse({
+        ok: false,
+        code: "EXAM_RECORDINGS_REMAIN",
+        recordingCount: 1,
+        deletingCount: 0,
+        deletingRecordings: []
+      });
+    }
+    assert.fail(`Ready rows must never be removed by parent deletion: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest(`/v1/exam-attempts/${attemptId}`, studentToken, { method: "DELETE" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 409);
+    assert.equal((await response.json()).code, "EXAM_RECORDINGS_REMAIN");
+    assert.deepEqual(calls, ["student-profile", "parent-delete-ready"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
 });
 
 test("student creates an authenticated exam parent row before questions are shown", async () => {
@@ -892,6 +1276,56 @@ test("an exam-slot retry returns its ready recording without a duplicate Storage
   }
 });
 
+test("recording deletion removes the exact private object before finalizing metadata", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const recordingId = "75f32715-93c1-4a21-b35f-65bd72c7d26d";
+  const objectPath = `students/${studentId}/${recordingId}.mp3`;
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_begin_recording_delete")) {
+      calls.push("begin-delete");
+      assert.deepEqual(JSON.parse(String(options.body)), {
+        p_id: recordingId,
+        p_student_id: studentId
+      });
+      return jsonResponse({
+        ok: true,
+        recording: { id: recordingId, object_path: objectPath, storage_state: "deleting" }
+      });
+    }
+    if (parsed.pathname.endsWith("/storage/v1/object/speaking-recordings")) {
+      calls.push("storage-delete");
+      assert.equal(options.method, "DELETE");
+      assert.deepEqual(JSON.parse(String(options.body)), { prefixes: [objectPath] });
+      return jsonResponse([]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_finalize_recording_delete")) {
+      calls.push("finalize-delete");
+      assert.deepEqual(JSON.parse(String(options.body)), { p_id: recordingId });
+      return jsonResponse(true);
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest(`/v1/recordings/${recordingId}`, studentToken, { method: "DELETE" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 204);
+    assert.deepEqual(calls, ["student-profile", "begin-delete", "storage-delete", "finalize-delete"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("export pagination is bounded for the Cloudflare Free subrequest budget", () => {
   const env = {
     DEFAULT_EXPORT_PAGE_SIZE: "10",
@@ -948,15 +1382,39 @@ test("database migration keeps quota and lifecycle mutations behind locked RPCs"
   assert.match(sql, /grant execute on function public\.speaking_reserve_recording_attempt[\s\S]+?to service_role/i);
   assert.match(sql, /create table if not exists public\.speaking_exam_attempts/i);
   assert.match(sql, /attempt_number bigint not null/i);
+  assert.match(sql, /skipped_question_orders smallint\[\] not null default '\{\}'::smallint\[\]/i);
   assert.match(sql, /speaking_exam_attempts_student_number_uidx/i);
-  assert.match(sql, /order by attempt\.attempt_number desc/i);
+  assert.match(sql, /create table if not exists public\.speaking_exam_student_state/i);
+  const stateDefinition = sql.match(/create table if not exists public\.speaking_exam_student_state \([\s\S]+?\n\);/i)?.[0] || "";
+  assert.match(stateDefinition, /student_id uuid primary key[\s\S]+?attempt_id uuid not null[\s\S]+?attempt_number bigint not null[\s\S]+?cooldown_manifest jsonb not null/i);
+  assert.doesNotMatch(stateDefinition, /mode_id|question_manifest|prompt|nervousness|rated_at|started_at|completed_at|updated_at/i);
+  assert.match(sql, /attempt_id uuid not null[\s\S]+?on conflict \(student_id\) do nothing/i);
+  assert.match(sql, /set cooldown_manifest = \([\s\S]+?'sourceKey'[\s\S]+?'contentKey'[\s\S]+?drop column if exists question_manifest/i);
+  assert.match(sql, /revoke insert, update, delete on table public\.speaking_exam_student_state\s+from service_role/i);
   assert.match(sql, /nervousness_rating smallint[\s\S]+?between 1 and 7/i);
   assert.match(sql, /create or replace function public\.speaking_create_exam_attempt/i);
+  assert.match(sql, /from public\.speaking_exam_student_state state_row[\s\S]+?jsonb_array_elements\(v_state\.cooldown_manifest\)[\s\S]+?v_attempt_number := coalesce\(v_state\.attempt_number, 0\) \+ 1/i);
   assert.match(sql, /previous_item ->> 'sourceKey'[\s\S]+?previous_item ->> 'contentKey'/i);
   assert.match(sql, /EXAM_COOLDOWN_CONFLICT/i);
+  assert.match(sql, /create or replace function public\.speaking_skip_exam_question/i);
+  assert.match(sql, /recording\.storage_state in \('uploading', 'ready'\)[\s\S]+?EXAM_QUESTION_HAS_RECORDING/i);
   assert.match(sql, /create or replace function public\.speaking_complete_exam_attempt/i);
   assert.match(sql, /EXAM_ATTEMPT_ALREADY_COMPLETED/i);
   assert.match(sql, /EXAM_RECORDINGS_INCOMPLETE/i);
+  assert.match(sql, /question ->> 'order'\)::smallint = any\(v_attempt\.skipped_question_orders\)/i);
   assert.match(sql, /from public\.speaking_recording_attempts recording[\s\S]+?recording\.storage_state = 'ready'/i);
+  assert.match(sql, /create or replace function public\.speaking_delete_exam_attempt/i);
+  assert.match(sql, /left\(recording\.exercise_id, char_length\(v_recording_prefix\)\) = v_recording_prefix/i);
+  assert.match(sql, /EXAM_RECORDINGS_REMAIN/i);
+  assert.match(sql, /recording\.storage_state = 'deleting'[\s\S]+?limit 20[\s\S]+?'deletingRecordings'/i);
+  assert.match(sql, /create or replace function public\.speaking_finalize_exam_recording_deletes/i);
+  assert.match(sql, /cardinality\(p_recording_ids\) > 20[\s\S]+?recording\.storage_state <> 'deleting'/i);
+  assert.match(sql, /create or replace function public\.speaking_delete_exam_attempt_if_number/i);
+  assert.match(sql, /v_attempt\.attempt_number <> p_attempt_number[\s\S]+?EXAM_ATTEMPT_CHANGED/i);
+  assert.match(sql, /create or replace function public\.speaking_begin_recording_delete[\s\S]+?874312[\s\S]+?RECORDING_UPLOAD_IN_PROGRESS/i);
   assert.match(sql, /revoke insert, update, delete on table public\.speaking_exam_attempts\s+from service_role/i);
+  assert.match(sql, /grant execute on function public\.speaking_skip_exam_question\(uuid, uuid, integer\)\s+to service_role/i);
+  assert.match(sql, /grant execute on function public\.speaking_delete_exam_attempt\(uuid, uuid\)\s+to service_role/i);
+  assert.match(sql, /grant execute on function public\.speaking_finalize_exam_recording_deletes\(uuid, uuid, bigint, uuid\[\]\)\s+to service_role/i);
+  assert.match(sql, /grant execute on function public\.speaking_delete_exam_attempt_if_number\(uuid, uuid, bigint\)\s+to service_role/i);
 });

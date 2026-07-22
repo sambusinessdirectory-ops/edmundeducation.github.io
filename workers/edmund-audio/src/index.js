@@ -1,6 +1,7 @@
 const AUDIO_PREFIXES = [
   "assets/speaking-system/audio/edmund-neural/part1/",
-  "assets/speaking-system/audio/edmund-neural/part3/"
+  "assets/speaking-system/audio/edmund-neural/part3/",
+  "assets/speaking-system/audio/edmund-neural/exam/"
 ];
 const IMMUTABLE_CACHE = "public, max-age=31536000, immutable";
 
@@ -74,7 +75,7 @@ export default {
 
     const url = new URL(request.url);
     if (url.pathname === "/" || url.pathname === "/health") {
-      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3"] }), {
+      return new Response(JSON.stringify({ ok: true, service: "Edmund Neural Audio", products: ["part1", "part3", "exam"] }), {
         headers: {
           "Cache-Control": "no-store",
           "Content-Type": "application/json; charset=utf-8",

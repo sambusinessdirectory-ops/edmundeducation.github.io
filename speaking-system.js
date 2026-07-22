@@ -19,6 +19,19 @@
   const EXAM_PART2_RECORDING_SECONDS = 120;
   const EXAM_MESSAGE_GAP_MS = 900;
   const EXAM_OPENING_GAP_MS = 2000;
+  const EXAM_AUDIO_MAX_BYTES = 2 * 1024 * 1024;
+  const EXAM_AUDIO_CACHE_LIMIT = 16;
+  const EXAM_FIXED_AUDIO_KEYS = new Map([
+    ["Okay, let's begin.", "fixed:opening-begin"],
+    ["Could you tell me your full name please?", "fixed:opening-full-name"],
+    ["Perfect. All right, that will do for Part 1. We'll go on to Part 2 now.", "fixed:part1-to-part2"],
+    ["Perfect. All right, that will do for Part 1. We'll go on to Part 3 now.", "fixed:part1-to-part3"],
+    ["Great. Really nice.", "fixed:part2-finished"],
+    ["Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.", "fixed:part2-to-part3"],
+    ["Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question.", "fixed:part3-opening"],
+    ["So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?", "fixed:part2-instructions"],
+    ["Okay, you can begin.", "fixed:part2-ready"]
+  ]);
   const WORD_PATTERN = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*|[^\p{L}\p{N}]+/gu;
   const IS_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
 
@@ -138,12 +151,17 @@
     examMessageFinish: null,
     examFlowGeneration: 0,
     examSpeechGeneration: 0,
-    examSpeechUtterance: null,
+    examAudioContext: null,
+    examAudioSource: null,
+    examAudioAbortController: null,
+    examAudioBufferCache: new Map(),
+    examVoiceErrorShown: false,
     examSpeechFinish: null,
     examSpeechTimeout: 0,
     examStarting: false,
     examStartGeneration: 0,
     examSaving: false,
+    examSkipSaving: false,
     examRatingSaving: false,
     examAttempts: [],
     examAttemptsById: new Map(),
@@ -156,6 +174,8 @@
     attemptPlaybackGeneration: 0,
     attemptPlaybackController: null,
     attemptAbortControllers: new Set(),
+    attemptMutationInProgress: false,
+    attemptMutationController: null,
     attemptTotal: 0
   };
 
@@ -622,6 +642,7 @@
   }
 
   function resetAuthenticatedState(message) {
+    cancelAttemptMutation();
     cleanupPart1Reveal();
     clearSession();
     state.route = { view: "exams" };
@@ -656,6 +677,7 @@
   }
 
   async function handleLogout() {
+    if (blockAttemptMutationNavigation()) return;
     if (!confirmRecordingAbandonment()) return;
     if (state.adminAccessDrafts.size && !window.confirm("尚有未儲存的學生權限改動。登出會捨棄這些改動，確定繼續嗎？")) return;
     const role = state.user?.role;
@@ -731,11 +753,12 @@
 
   function navigate(route, options = {}) {
     if (!state.user) return;
+    if (state.attemptMutationInProgress && blockAttemptMutationNavigation()) return;
     if (!routeAllowed(route)) {
       toast("你的帳戶尚未開放這個練習範圍。", "error");
       return;
     }
-    if (!routesEqual(route, state.route) && (state.examSaving || state.recordingProcessing)) {
+    if (!routesEqual(route, state.route) && (state.examSaving || state.examSkipSaving || state.recordingProcessing)) {
       toast("錄音正在處理或上載，完成後才可離開。", "info");
       return;
     }
@@ -765,7 +788,8 @@
   }
 
   function goBack() {
-    if (state.examSaving || state.recordingProcessing) {
+    if (blockAttemptMutationNavigation()) return;
+    if (state.examSaving || state.examSkipSaving || state.recordingProcessing) {
       toast("錄音正在處理或上載，完成後才可離開。", "info");
       return;
     }
@@ -1249,6 +1273,7 @@
     state.examStartGeneration += 1;
     state.examStarting = false;
     state.examSaving = false;
+    state.examSkipSaving = false;
     state.examRatingSaving = false;
   }
 
@@ -1309,7 +1334,7 @@
               <button class="exam-mode-card${available ? "" : " access-locked"}" type="button" data-exam-mode="${escapeHtml(mode.id)}" ${available && !state.examStarting ? "" : 'aria-disabled="true"'}>
                 <span>${pad(index + 1)} · EXAM PRACTICE</span>
                 <strong>${escapeHtml(mode.label)}</strong>
-                <small>${available ? `${count + (state.examNaturalExchange ? 1 : 0)} 條錄音 · 雙語題目${state.examNaturalExchange ? " · 自然交流" : ""}` : "可用題目或帳戶權限不足"}</small>
+                <small>${available ? `最多 ${count + (state.examNaturalExchange ? 1 : 0)} 段錄音 · 雙語題目${state.examNaturalExchange ? " · 自然交流" : ""}` : "可用題目或帳戶權限不足"}</small>
               </button>`;
           }).join("")}
         </div>
@@ -1422,6 +1447,7 @@
       };
       state.examFlowGeneration += 1;
       state.examSaving = false;
+      state.examSkipSaving = false;
       navigate({ view: "exam-practice", exam: "ielts", modeId: mode.id });
     } catch (error) {
       if (startGeneration !== state.examStartGeneration || authGeneration !== state.authGeneration) return;
@@ -1507,24 +1533,97 @@
     });
   }
 
-  function preferredBritishVoice() {
-    if (!window.speechSynthesis?.getVoices) return null;
-    const voices = window.speechSynthesis.getVoices() || [];
-    const british = voices.filter(voice => /^en[-_]gb$/i.test(String(voice.lang || "")));
-    const preferredNames = [
-      /google uk english male/i,
-      /microsoft ryan/i,
-      /microsoft george/i,
-      /daniel/i,
-      /arthur/i,
-      /oliver/i,
-      /jamie/i
-    ];
-    for (const pattern of preferredNames) {
-      const match = british.find(voice => pattern.test(String(voice.name || "")));
-      if (match) return match;
+  function examAudioManifest() {
+    const value = window.EDMUND_SPEAKING_EXAM_AUDIO;
+    return value && typeof value === "object" ? value : {};
+  }
+
+  function examAudioKeyForItem(item) {
+    return String(item?.sourceKey || (typeof EXAM_MODE.sourceKeyForItem === "function" ? EXAM_MODE.sourceKeyForItem(item) : ""));
+  }
+
+  function examAudioKeyForText(text) {
+    return EXAM_FIXED_AUDIO_KEYS.get(String(text || "").trim()) || "";
+  }
+
+  function ensureExamAudioContext() {
+    if (state.examAudioContext && state.examAudioContext.state !== "closed") return state.examAudioContext;
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContext) return null;
+    try {
+      state.examAudioContext = new AudioContext();
+      return state.examAudioContext;
+    } catch {
+      return null;
     }
-    return british.find(voice => voice.localService) || british[0] || null;
+  }
+
+  function unlockExamAudio() {
+    const context = ensureExamAudioContext();
+    if (!context) return;
+    try {
+      const source = context.createBufferSource();
+      source.buffer = context.createBuffer(1, 1, context.sampleRate);
+      source.connect(context.destination);
+      source.start(0);
+    } catch {
+      // A resumed context is enough when a browser rejects the silent source.
+    }
+    const resumed = context.resume();
+    if (resumed?.catch) resumed.catch(() => {});
+  }
+
+  function decodeExamAudio(context, bytes) {
+    return new Promise((resolve, reject) => {
+      let settled = false;
+      const done = value => {
+        if (settled) return;
+        settled = true;
+        resolve(value);
+      };
+      const fail = error => {
+        if (settled) return;
+        settled = true;
+        reject(error);
+      };
+      try {
+        const result = context.decodeAudioData(bytes, done, fail);
+        if (result?.then) result.then(done, fail);
+      } catch (error) {
+        fail(error);
+      }
+    });
+  }
+
+  function rememberExamAudioBuffer(key, buffer) {
+    state.examAudioBufferCache.delete(key);
+    state.examAudioBufferCache.set(key, buffer);
+    while (state.examAudioBufferCache.size > EXAM_AUDIO_CACHE_LIMIT) {
+      state.examAudioBufferCache.delete(state.examAudioBufferCache.keys().next().value);
+    }
+  }
+
+  async function loadExamAudioBuffer(key, signal) {
+    const cached = state.examAudioBufferCache.get(key);
+    if (cached) {
+      rememberExamAudioBuffer(key, cached);
+      return cached;
+    }
+    const entry = examAudioManifest()[key];
+    const path = String(entry?.path || "");
+    if (!path) throw new Error(`Exam audio manifest has no entry for ${key}`);
+    const url = typeof window.EDMUND_AUDIO_URL === "function" ? window.EDMUND_AUDIO_URL(path) : path;
+    const response = await fetch(url, { credentials: "omit", signal });
+    if (!response.ok) throw new Error(`Exam audio returned ${response.status}`);
+    const contentLength = Number(response.headers.get("Content-Length") || 0);
+    if (contentLength > EXAM_AUDIO_MAX_BYTES) throw new Error("Exam audio clip exceeds the safety limit");
+    const bytes = await response.arrayBuffer();
+    if (!bytes.byteLength || bytes.byteLength > EXAM_AUDIO_MAX_BYTES) throw new Error("Exam audio clip is empty or too large");
+    const context = ensureExamAudioContext();
+    if (!context) throw new Error("Web Audio is not available");
+    const buffer = await decodeExamAudio(context, bytes);
+    rememberExamAudioBuffer(key, buffer);
+    return buffer;
   }
 
   function cancelExamSpeech() {
@@ -1533,27 +1632,54 @@
     state.examSpeechTimeout = 0;
     const finish = state.examSpeechFinish;
     state.examSpeechFinish = null;
-    state.examSpeechUtterance = null;
-    try { window.speechSynthesis?.cancel(); } catch { /* Speech is optional. */ }
+    state.examAudioAbortController?.abort();
+    state.examAudioAbortController = null;
+    if (state.examAudioSource) {
+      state.examAudioSource.onended = null;
+      try { state.examAudioSource.stop(); } catch { /* The source may not have started. */ }
+      try { state.examAudioSource.disconnect(); } catch { /* The source may already be detached. */ }
+    }
+    state.examAudioSource = null;
     if (typeof finish === "function") finish(false);
   }
 
   function finishExamSpeechNow() {
     const finish = state.examSpeechFinish;
     if (typeof finish !== "function") return;
-    try { window.speechSynthesis?.cancel(); } catch { /* Speech is optional. */ }
+    state.examAudioAbortController?.abort();
+    state.examAudioAbortController = null;
+    if (state.examAudioSource) {
+      state.examAudioSource.onended = null;
+      try { state.examAudioSource.stop(); } catch { /* The source may not have started. */ }
+      try { state.examAudioSource.disconnect(); } catch { /* The source may already be detached. */ }
+      state.examAudioSource = null;
+    }
     finish(true);
   }
 
-  function speakExamText(text) {
+  function speakExamText(text, requestedKey = "") {
     cancelExamSpeech();
     const value = String(text || "").trim();
+    const key = String(requestedKey || examAudioKeyForText(value));
     const generation = state.examSpeechGeneration;
-    if (!value || !window.speechSynthesis || !window.SpeechSynthesisUtterance) {
+    if (!value || !key || !examAudioManifest()[key]) {
+      if (value && !state.examVoiceErrorShown) {
+        state.examVoiceErrorShown = true;
+        toast("考官語音暫時未能載入；題目仍可照常作答。", "error");
+      }
       return new Promise(resolve => {
-        state.examSpeechTimeout = window.setTimeout(() => {
+        let settled = false;
+        const finish = forced => {
+          if (settled) return;
+          settled = true;
+          if (state.examSpeechTimeout) window.clearTimeout(state.examSpeechTimeout);
           state.examSpeechTimeout = 0;
-          resolve(generation === state.examSpeechGeneration);
+          if (state.examSpeechFinish === finish) state.examSpeechFinish = null;
+          resolve(Boolean(forced || generation === state.examSpeechGeneration));
+        };
+        state.examSpeechFinish = finish;
+        state.examSpeechTimeout = window.setTimeout(() => {
+          finish(false);
         }, 250);
       });
     }
@@ -1565,38 +1691,51 @@
         if (state.examSpeechTimeout) window.clearTimeout(state.examSpeechTimeout);
         state.examSpeechTimeout = 0;
         if (state.examSpeechFinish === finish) state.examSpeechFinish = null;
-        state.examSpeechUtterance = null;
+        state.examAudioAbortController = null;
+        if (state.examAudioSource) {
+          state.examAudioSource.onended = null;
+          try { state.examAudioSource.disconnect(); } catch { /* Already detached. */ }
+          state.examAudioSource = null;
+        }
         resolve(Boolean(forced || generation === state.examSpeechGeneration));
       };
-      const utterance = new window.SpeechSynthesisUtterance(value);
-      utterance.lang = "en-GB";
-      utterance.rate = 0.93;
-      utterance.pitch = 1.04;
-      utterance.volume = 1;
-      const voice = preferredBritishVoice();
-      if (voice) utterance.voice = voice;
-      utterance.onend = () => finish(true);
-      utterance.onerror = () => finish(true);
-      state.examSpeechUtterance = utterance;
       state.examSpeechFinish = finish;
-      const timeoutMs = Math.min(30000, Math.max(5000, 2500 + value.length * 85));
-      state.examSpeechTimeout = window.setTimeout(() => {
-        try { window.speechSynthesis.cancel(); } catch { /* Speech is optional. */ }
-        finish(true);
-      }, timeoutMs);
-      try {
-        window.speechSynthesis.cancel();
-        window.speechSynthesis.speak(utterance);
-      } catch {
-        finish(true);
-      }
+      const controller = new AbortController();
+      state.examAudioAbortController = controller;
+      (async () => {
+        try {
+          const buffer = await loadExamAudioBuffer(key, controller.signal);
+          if (settled || controller.signal.aborted || generation !== state.examSpeechGeneration) return;
+          const context = ensureExamAudioContext();
+          if (!context) throw new Error("Web Audio is not available");
+          await context.resume();
+          if (settled || controller.signal.aborted || generation !== state.examSpeechGeneration) return;
+          const source = context.createBufferSource();
+          source.buffer = buffer;
+          source.connect(context.destination);
+          source.onended = () => finish(true);
+          state.examAudioSource = source;
+          state.examSpeechTimeout = window.setTimeout(() => {
+            try { source.stop(); } catch { /* Audio already ended. */ }
+            finish(true);
+          }, Math.min(120000, Math.max(5000, Math.ceil(buffer.duration * 1000) + 5000)));
+          source.start(0);
+        } catch (error) {
+          if (controller.signal.aborted || settled) return;
+          console.warn("Exam voice audio failed:", error);
+          if (!state.examVoiceErrorShown) {
+            state.examVoiceErrorShown = true;
+            toast("考官語音暫時未能載入；題目仍可照常作答。", "error");
+          }
+          finish(true);
+        }
+      })();
     });
   }
 
   function examinerBubbleHtml(text, extraClass = "") {
     return `
       <article class="examiner-message${extraClass ? ` ${extraClass}` : ""}">
-        <span class="examiner-avatar" aria-hidden="true">E</span>
         <p lang="en">${escapeHtml(text)}</p>
       </article>`;
   }
@@ -1604,8 +1743,7 @@
   function examVoiceControlHtml() {
     return `
       <div class="exam-voice-status">
-        <span>British examiner voice · 英國英語考官語音</span>
-        <button type="button" data-stop-exam-voice>停止語音並繼續</button>
+        <button type="button" data-stop-exam-voice aria-label="略過正在播放的考官語音">略過語音</button>
       </div>`;
   }
 
@@ -1613,10 +1751,11 @@
     const button = document.querySelector("[data-record-toggle]");
     if (button) {
       button.hidden = false;
-      button.disabled = false;
+      button.disabled = Boolean(state.examSaving || state.examSkipSaving);
       button.textContent = "● 開始回答";
     }
     recordingStatus(message, false);
+    syncRecorderControls();
   }
 
   function examQuestionSpeechText(item) {
@@ -1633,9 +1772,10 @@
     const sessionId = session.id;
     const itemKey = examItemKey(item);
     const generation = state.examFlowGeneration;
-    recordingStatus("考官正以英國英語讀出題目…");
-    await speakExamText(examQuestionSpeechText(item));
+    recordingStatus("考官正在讀出題目…");
+    await speakExamText(examQuestionSpeechText(item), examAudioKeyForItem(item));
     if (!examFlowIsCurrent(sessionId, generation) || examItemKey() !== itemKey) return;
+    if (item.prepBypassed || item.skipped) return;
     item.questionSpeechDone = true;
     if (item.part === 2) {
       if (!item.settleEndsAt || !item.prepEndsAt) {
@@ -1729,12 +1869,13 @@
       <section class="exam-answer-recorder" aria-labelledby="exam-recording-heading">
         <div>
           <span class="cue-label" id="exam-recording-heading">YOUR ANSWER · 你的回答</span>
-          <p>${item.part === 2 && item.kind !== "intro" ? "錄音開始後有 2 分鐘；時間到會自動停止並儲存。" : "按開始回答後錄音；每題最長 5 分鐘，完成後按停止。"}</p>
+          <p>${item.part === 2 && item.kind !== "intro" ? "錄音開始後有 2 分鐘；時間到會自動停止並儲存。" : "按「開始回答」錄音，完成後按「完成回答」。"}</p>
           <div class="recording-status" data-recording-status><span role="status" aria-live="polite">${ready ? "準備好便按「開始回答」。" : waitingMessage}</span></div>
         </div>
         <div class="recorder-controls">
           <button class="record-button exam-record-button" type="button" data-record-toggle ${ready ? "" : "hidden disabled"}>● 開始回答</button>
           <button class="secondary-button finish-recording-button" type="button" data-finish-recording hidden>■ 完成回答</button>
+          ${item.kind === "intro" ? "" : `<button class="secondary-button exam-skip-question-button" type="button" data-exam-skip-question ${state.examSkipSaving ? "disabled" : ""}>${state.examSkipSaving ? "正在跳過…" : "跳過此題 →"}</button>`}
         </div>
         <div class="recording-preview" data-recording-preview hidden></div>
         <div data-exam-proceed-slot></div>
@@ -1774,6 +1915,7 @@
       <section class="exam-prep-timer" data-exam-prep-timer>
         <span data-exam-prep-label>${timerLabel}</span>
         <strong data-exam-prep-clock role="timer" aria-live="off">${timerClock}</strong>
+        ${item.prepPhase === "ready" ? "" : '<button class="exam-prep-skip-button" type="button" data-exam-skip-prep>略過準備時間，立即回答</button>'}
         <span class="visually-hidden" role="status" aria-live="polite" data-exam-phase-status></span>
       </section>
       <section class="exam-question-card exam-cue-card is-entering">
@@ -1821,7 +1963,6 @@
           <div class="examiner-conversation">
             ${examinerBubbleHtml("Okay, let's begin.", "is-entering")}
             <article class="examiner-message${ready ? "" : " is-waiting"}" data-exam-opening-name ${ready ? "" : "hidden"}>
-              <span class="examiner-avatar" aria-hidden="true">E</span>
               <p lang="en"><strong>Could you tell me your full name please?</strong></p>
             </article>
           </div>
@@ -1915,7 +2056,7 @@
       <article class="exam-review-question">
         <div class="exam-review-order"><span>Q</span><strong>${pad(item.globalOrder)}</strong></div>
         <div class="exam-review-copy">
-          <span>Part ${item.part} · Book ${item.sourceBook}${item.part === 1 ? ` · 題庫 Q${item.questionNumber}` : ""}</span>
+          <span>Part ${item.part} · Book ${item.sourceBook}${item.part === 1 ? ` · 題庫 Q${item.questionNumber}` : ""}${item.skipped ? ' · <strong class="exam-skipped-badge">已跳過</strong>' : ""}</span>
           <h3 lang="en">${escapeHtml(item.title)}</h3>
           ${item.titleZh ? `<p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>` : ""}
           ${item.part === 2 && Array.isArray(item.hints) && item.hints.length ? `
@@ -2069,7 +2210,7 @@
       renderExamPart2Opening(item);
       return;
     }
-    if (item.part === 2 && (!item.settleEndsAt || !item.prepEndsAt)) {
+    if (item.part === 2 && item.questionSpeechDone && item.prepPhase !== "ready" && !item.prepBypassed && (!item.settleEndsAt || !item.prepEndsAt)) {
       const now = Date.now();
       item.cueDisplayedAt = now;
       item.prepPhase = "settling";
@@ -2085,7 +2226,7 @@
           ${item.part === 1 ? renderExamPart1(item) : item.part === 2 ? renderExamPart2(item) : renderExamPart3(item)}
         </div>
       </article>`;
-    if (item.part === 2 && item.prepPhase !== "ready") startExamPart2Timer(item);
+    if (item.part === 2 && item.questionSpeechDone && item.prepPhase !== "ready" && !item.prepBypassed) startExamPart2Timer(item);
     if (!item.questionSpeechStarted) speakCurrentExamQuestion(item);
     syncRecorderControls();
     renderExamProceedAction();
@@ -2094,9 +2235,14 @@
 
   function startExamPart2Timer(item) {
     clearExamPhaseTimer();
+    if (!item || item.prepBypassed || item.prepPhase === "ready") return;
     const key = examItemKey(item);
     const update = () => {
       if (state.route.view !== "exam-practice" || examItemKey() !== key) {
+        clearExamPhaseTimer();
+        return;
+      }
+      if (item.prepBypassed || item.prepPhase === "ready") {
         clearExamPhaseTimer();
         return;
       }
@@ -2154,6 +2300,76 @@
     enableCurrentExamRecorder("考官已提示開始，請按「開始回答」。");
   }
 
+  function examAnswerInteractionBusy() {
+    return Boolean(
+      state.examSaving
+      || state.examSkipSaving
+      || state.recordingPermissionPending
+      || state.recordingProcessing
+      || state.recordingTransition
+      || ["recording", "paused"].includes(state.mediaRecorder?.state)
+      || (state.recordedMp3 && !state.recordingSaved)
+    );
+  }
+
+  function syncExamBypassControls() {
+    const busy = examAnswerInteractionBusy();
+    const skipQuestion = document.querySelector("[data-exam-skip-question]");
+    if (skipQuestion) {
+      skipQuestion.disabled = busy;
+      skipQuestion.textContent = state.examSkipSaving ? "正在跳過…" : "跳過此題 →";
+    }
+    const skipPrep = document.querySelector("[data-exam-skip-prep]");
+    if (skipPrep) skipPrep.disabled = busy;
+  }
+
+  function skipExamPart2Prep() {
+    const item = currentExamItem();
+    if (!item || item.part !== 2 || item.prepPhase === "ready" || item.saved || item.skipped || examAnswerInteractionBusy()) return;
+    item.prepBypassed = true;
+    item.questionSpeechStarted = true;
+    item.questionSpeechDone = true;
+    item.prepPhase = "ready";
+    item.readyPromptStarted = true;
+    item.readyPromptSpoken = true;
+    item.settleEndsAt = Date.now();
+    item.prepEndsAt = item.settleEndsAt;
+    clearExamPhaseTimer();
+    cancelExamSpeech();
+    renderExamPractice();
+    enableCurrentExamRecorder("已略過準備時間，請按「開始回答」。");
+    syncExamBypassControls();
+  }
+
+  async function skipCurrentExamQuestion() {
+    const session = state.examSession;
+    const item = currentExamItem();
+    if (!session || !item || item.kind === "intro" || item.saved || item.skipped || examAnswerInteractionBusy()) return;
+    const sessionId = session.id;
+    const itemKey = examItemKey(item);
+    const order = Number(item.globalOrder);
+    state.examSkipSaving = true;
+    syncRecorderControls();
+    try {
+      await apiJson(examAttemptsEndpoint(`/${sessionId}/questions/${order}/skip`), { method: "PUT" });
+      if (state.examSession?.id !== sessionId || examItemKey() !== itemKey || currentExamItem() !== item) return;
+      item.skipped = true;
+      item.skippedAt = new Date().toISOString();
+      state.examSkipSaving = false;
+      advanceExamItem();
+      toast("已跳過這一題。", "info");
+    } catch (error) {
+      if (state.examSession?.id !== sessionId || examItemKey() !== itemKey) return;
+      console.warn("Could not skip exam question:", error);
+      toast(String(error?.message || "未能跳過這一題，請再試一次。"), "error");
+    } finally {
+      if (state.examSession?.id === sessionId) {
+        state.examSkipSaving = false;
+        syncRecorderControls();
+      }
+    }
+  }
+
   function examProceedButtonHtml() {
     const session = state.examSession;
     const item = currentExamRecordingItem();
@@ -2174,13 +2390,18 @@
   function naturalMessagesAfterItem(item, next) {
     if (!state.examSession?.naturalExchange || !item || item.kind === "intro") return [];
     if (typeof EXAM_MODE.naturalTransitionMessages !== "function") return [];
-    return EXAM_MODE.naturalTransitionMessages(state.examSession.modeId, item.part, next?.part ?? null);
+    return EXAM_MODE.naturalTransitionMessages(
+      state.examSession.modeId,
+      item.part,
+      next?.part ?? null,
+      { answered: !item.skipped }
+    );
   }
 
   function advanceExamItem() {
     const session = state.examSession;
     const item = currentExamRecordingItem();
-    if (!session || !item?.saved || state.examSaving) return;
+    if (!session || !(item?.saved || item?.skipped) || state.examSaving || state.examSkipSaving) return;
     cancelRecorder();
     clearExamPhaseTimer();
     cancelExamSpeech();
@@ -2942,7 +3163,7 @@
       <section class="recorder-card" aria-labelledby="recording-heading">
         <div>
           <h2 id="recording-heading">輪到你練習</h2>
-          <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。IELTS Part ${Number(exercise?.part || 2)} 每次最多錄音 5 分鐘。</p>
+          <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。</p>
           <div class="recording-status" data-recording-status><span role="status" aria-live="polite">準備好便按「開始錄音」。</span></div>
         </div>
         <div class="recorder-controls">
@@ -2966,7 +3187,6 @@
           <button class="audio-button part1-play-all" type="button" data-model-audio-toggle${available ? "" : " disabled"} aria-pressed="false">
             <span data-audio-button-label>${available ? "▶ 播放完整 Q&A" : "音訊準備中"}</span>
           </button>
-          <span class="audio-note">Examiner：女聲 · Answer：British boy</span>
         </div>
         <div class="audio-options">
           <div class="rate-selector" role="group" aria-label="播放速度">
@@ -4053,11 +4273,14 @@
     if (!button) return;
     const recorderState = state.mediaRecorder?.state || "inactive";
     const examRecording = Boolean(currentRecordingContext()?.isExam);
-    const busy = Boolean(state.recordingTransition || state.recordingPermissionPending || state.recordingProcessing);
+    const examMutationBusy = examRecording && (state.examSaving || state.examSkipSaving);
+    const busy = Boolean(state.recordingTransition || state.recordingPermissionPending || state.recordingProcessing || examMutationBusy);
     button.disabled = busy;
     button.classList.toggle("is-recording", recorderState === "recording");
     button.classList.toggle("is-paused", recorderState === "paused");
-    if (state.recordingPermissionPending) button.textContent = "正在連接咪高峰…";
+    if (examRecording && state.examSkipSaving) button.textContent = "正在跳過題目…";
+    else if (examRecording && state.examSaving) button.textContent = "正在安全上載…";
+    else if (state.recordingPermissionPending) button.textContent = "正在連接咪高峰…";
     else if (state.recordingProcessing) button.textContent = "正在製作 MP3…";
     else if (state.recordingTransition === "pausing") button.textContent = "正在暫停…";
     else if (state.recordingTransition === "resuming") button.textContent = "正在繼續…";
@@ -4073,6 +4296,7 @@
       finish.hidden = examRecording || !state.recordingPauseSupported || !["recording", "paused"].includes(recorderState);
       finish.disabled = busy;
     }
+    syncExamBypassControls();
   }
 
   async function startRecording() {
@@ -4084,14 +4308,19 @@
       recordingStatus("咪高峰只可在 HTTPS 安全網頁上使用。");
       return;
     }
-    stopModelAudio();
-    finishExamSpeechNow();
-    discardRecording(false);
     const requestedContext = currentRecordingContext();
     if (!requestedContext) {
       recordingStatus("未能辨認目前的錄音題目，請重新載入後再試。");
       return;
     }
+    if (requestedContext.isExam && (state.examSaving || state.examSkipSaving)) {
+      recordingStatus(state.examSkipSaving ? "正在跳過這一題，請稍候。" : "本題錄音正在安全上載，請稍候。");
+      syncRecorderControls();
+      return;
+    }
+    stopModelAudio();
+    finishExamSpeechNow();
+    discardRecording(false);
     const requestGeneration = ++state.recordingGeneration;
     state.recordingPermissionPending = true;
     state.recordingProcessing = false;
@@ -4352,12 +4581,13 @@
     const context = currentRecordingContext();
     state.recordingTransition = "";
     state.recordingPermissionPending = false;
-    button.disabled = Boolean(context?.isExam && context.item?.saved);
+    button.disabled = Boolean(context?.isExam && (context.item?.saved || state.examSaving || state.examSkipSaving));
     button.hidden = Boolean(context?.isExam && context.item?.saved);
     button.classList.remove("is-recording", "is-paused");
     button.textContent = context?.isExam ? "● 重新回答" : label;
     const finish = document.querySelector("[data-finish-recording]");
     if (finish) finish.hidden = true;
+    syncExamBypassControls();
   }
 
   function renderRecordingPreview() {
@@ -4395,6 +4625,7 @@
       preview.innerHTML = "";
     }
     if (showMessage) recordingStatus("錄音已捨棄，可以重新錄音。");
+    syncExamBypassControls();
   }
 
   function cancelRecorder() {
@@ -4462,12 +4693,15 @@
     if (!state.recordedMp3 || !state.user) return false;
     const context = currentRecordingContext();
     if (!context) return false;
-    if (context.isExam && state.examSaving) return false;
+    if (context.isExam && (state.examSaving || state.examSkipSaving)) return false;
     const contextKey = context.key;
     let autoAdvancePart2 = false;
     const button = document.querySelector("[data-save-recording]");
     if (button) button.disabled = true;
-    if (context.isExam) state.examSaving = true;
+    if (context.isExam) {
+      state.examSaving = true;
+      syncRecorderControls();
+    }
     recordingStatus("正在安全上載 MP3…");
     try {
       if (context.isExam && context.item.uploadAttempted) {
@@ -4539,7 +4773,10 @@
       }
       return false;
     } finally {
-      if (context.isExam) state.examSaving = false;
+      if (context.isExam) {
+        state.examSaving = false;
+        syncRecorderControls();
+      }
       if (autoAdvancePart2 && currentRecordingContext()?.key === contextKey) {
         window.setTimeout(() => {
           if (currentRecordingContext()?.key === contextKey && context.item.saved) advanceExamItem();
@@ -4579,6 +4816,33 @@
     for (const controller of state.attemptAbortControllers) controller.abort();
     state.attemptAbortControllers.clear();
     state.attemptPlaybackController = null;
+  }
+
+  function blockAttemptMutationNavigation() {
+    if (!state.attemptMutationInProgress) return false;
+    toast("正在永久刪除整次考試練習，完成前請留在此頁。", "info");
+    return true;
+  }
+
+  function beginAttemptMutation() {
+    if (state.attemptMutationInProgress) return null;
+    const controller = new AbortController();
+    state.attemptMutationInProgress = true;
+    state.attemptMutationController = controller;
+    return controller;
+  }
+
+  function finishAttemptMutation(controller) {
+    if (state.attemptMutationController !== controller) return;
+    state.attemptMutationController = null;
+    state.attemptMutationInProgress = false;
+  }
+
+  function cancelAttemptMutation() {
+    const controller = state.attemptMutationController;
+    state.attemptMutationController = null;
+    state.attemptMutationInProgress = false;
+    if (controller) controller.abort();
   }
 
   function createAttemptController() {
@@ -4638,6 +4902,11 @@
     const id = String(item.id || "").toLowerCase();
     const modeId = String(item.modeId || item.mode_id || "");
     if (!id || !examModeDefinition(modeId)) return null;
+    const maximumOrder = expectedExamRecordingCount(modeId);
+    const skippedOrders = [...new Set((Array.isArray(item.skippedOrders) ? item.skippedOrders : item.skipped_question_orders || [])
+      .map(Number)
+      .filter(order => Number.isInteger(order) && order >= 1 && order <= maximumOrder))].sort((left, right) => left - right);
+    const skippedSet = new Set(skippedOrders);
     const questions = (Array.isArray(item.questions) ? item.questions : item.question_manifest || [])
       .map(question => ({
         globalOrder: Number(question.order || question.globalOrder),
@@ -4649,7 +4918,8 @@
         sourceIndex: Number(question.sourceIndex),
         questionNumber: question.questionNumber === null ? null : Number(question.questionNumber),
         title: String(question.promptEn || question.title || ""),
-        titleZh: String(question.promptZh || question.titleZh || "")
+        titleZh: String(question.promptZh || question.titleZh || ""),
+        skipped: skippedSet.has(Number(question.order || question.globalOrder))
       }))
       .filter(question => question.globalOrder >= 1 && [1, 2, 3].includes(question.part) && question.sourceId && question.title);
     return {
@@ -4658,6 +4928,7 @@
       attemptNumber: Number(item.attemptNumber || item.attempt_number || 0),
       naturalExchange: item.naturalExchange === true || item.natural_exchange === true,
       questions,
+      skippedOrders,
       nervousness: item.nervousness === null || item.nervousness === undefined ? null : Number(item.nervousness),
       startedAt: String(item.startedAt || item.started_at || ""),
       completedAt: String(item.completedAt || item.completed_at || ""),
@@ -4779,8 +5050,13 @@
       const slots = new Set(group.attempts
         .map(attempt => attempt.examRecording?.globalOrder)
         .filter(order => Number.isInteger(order) && order >= 1 && order <= actualExpected));
+      const skipped = new Set((group.examAttempt?.skippedOrders || [])
+        .filter(order => Number.isInteger(order) && order >= 1 && order <= actualExpected));
+      slots.forEach(order => skipped.delete(order));
       group.introSaved = group.attempts.some(attempt => attempt.examRecording?.intro === true);
       group.saved = slots.size + (group.introSaved ? 1 : 0);
+      group.skipped = skipped.size;
+      group.covered = group.saved + group.skipped;
       group.duplicateCount = Math.max(0, group.attempts.length - group.saved);
       return group;
     }).sort((left, right) => right.startedAt - left.startedAt);
@@ -4813,16 +5089,20 @@
         ${groups.length ? `<div class="exam-attempt-groups">${groups.map(group => {
           const mode = examModeDefinition(group.modeId);
           const dateValue = Number.isFinite(group.startedAt) ? group.startedAt : "";
-          const complete = Boolean(group.examAttempt?.completedAt) || (group.expected > 0 && group.saved >= group.expected);
+          const complete = Boolean(group.examAttempt?.completedAt) || (group.expected > 0 && group.covered >= group.expected);
           const first = group.attempts[0];
           const attemptNumber = Number(group.examAttempt?.attemptNumber || 0);
           return `
             <details class="exam-attempt-group">
               <summary>
-                <span><strong>${attemptNumber ? `第 ${attemptNumber} 次 · ` : ""}${escapeHtml(formatExamAttemptDate(dateValue))} · ${escapeHtml(mode?.label || "考試練習")}</strong><small>${state.user?.role === "admin" ? `${escapeHtml(first?.studentName || "Student")} · ` : ""}${complete ? "完整" : "進行中"} · ${group.saved}/${group.expected || group.saved} 段${group.examAttempt?.nervousness ? ` · 緊張程度 ${group.examAttempt.nervousness}/7` : ""}${group.duplicateCount ? ` · ${group.duplicateCount} 個重複上載` : ""}</small></span>
+                <span><strong>${attemptNumber ? `第 ${attemptNumber} 次 · ` : ""}${escapeHtml(formatExamAttemptDate(dateValue))} · ${escapeHtml(mode?.label || "考試練習")}</strong><small>${state.user?.role === "admin" ? `${escapeHtml(first?.studentName || "Student")} · ` : ""}${complete ? "完整" : "進行中"} · 錄音 ${group.saved} 段${group.skipped ? ` · 跳過 ${group.skipped} 題` : ""} · 已處理 ${group.covered}/${group.expected || group.covered}${group.examAttempt?.nervousness ? ` · 緊張程度 ${group.examAttempt.nervousness}/7` : ""}${group.duplicateCount ? ` · ${group.duplicateCount} 個重複上載` : ""}</small></span>
                 <em>查看錄音</em>
               </summary>
               ${renderSavedExamReflection(group.examAttempt)}
+              ${state.user?.role === "student" && group.examAttempt ? `
+                <div class="exam-attempt-group-tools">
+                  <button class="attempt-action danger" type="button" data-exam-attempt-delete="${escapeHtml(group.examAttempt.id)}">刪除整次練習</button>
+                </div>` : ""}
               <div class="exam-attempt-recordings">${group.attempts.length ? group.attempts.map(renderAttemptCard).join("") : '<p class="recording-library-empty">這次練習尚未有已儲存錄音。</p>'}</div>
             </details>`;
         }).join("")}</div>` : `
@@ -4853,6 +5133,7 @@
   }
 
   async function renderAttemptsPage() {
+    if (blockAttemptMutationNavigation()) return;
     invalidateAttemptRequests();
     state.attempts = [];
     state.attemptTotal = 0;
@@ -5047,6 +5328,7 @@
   }
 
   async function deleteAttempt(id) {
+    if (blockAttemptMutationNavigation()) return;
     const attempt = state.attemptsById.get(String(id));
     if (!attempt) return;
     if (!window.confirm(`確定永久刪除「${attempt.exerciseTitle}」的錄音嗎？刪除後不能復原。`)) return;
@@ -5072,6 +5354,76 @@
       toast(String(error?.message || "未能刪除錄音。"), "error");
     } finally {
       releaseAttemptController(controller);
+    }
+  }
+
+  async function deleteExamAttemptLog(id) {
+    if (blockAttemptMutationNavigation()) return;
+    const examAttempt = state.examAttemptsById.get(String(id).toLowerCase());
+    if (!examAttempt || state.user?.role !== "student") return;
+    const group = examAttemptGroups(state.attempts).find(candidate => candidate.examAttempt?.id === examAttempt.id);
+    const recordings = group?.attempts || [];
+    if (!window.confirm(`確定永久刪除第 ${examAttempt.attemptNumber || "這"} 次考試練習，以及其中 ${recordings.length} 段錄音嗎？刪除後不能復原。`)) return;
+    const controller = beginAttemptMutation();
+    if (!controller) return;
+    const requestGeneration = state.attemptRequestGeneration;
+    const authGeneration = state.authGeneration;
+    let refreshAfterFailure = false;
+    const button = document.querySelector(`[data-exam-attempt-delete="${CSS.escape(examAttempt.id)}"]`);
+    if (button) {
+      button.disabled = true;
+      button.textContent = "正在永久刪除…";
+    }
+    try {
+      const recordingsEndpoint = String(CONFIG.endpoints?.recordings || "/v1/recordings").replace(/\/+$/, "");
+      for (let index = 0; index < recordings.length; index += 1) {
+        const recording = recordings[index];
+        if (button?.isConnected) button.textContent = `正在刪除錄音 ${index + 1}/${recordings.length}…`;
+        let response = null;
+        try {
+          response = await apiRaw(`${recordingsEndpoint}/${encodeURIComponent(recording.id)}`, { method: "DELETE", signal: controller.signal });
+          if (response.status === 202) {
+            response = await apiRaw(`${recordingsEndpoint}/${encodeURIComponent(recording.id)}`, { method: "DELETE", signal: controller.signal });
+          }
+        } catch (error) {
+          if (Number(error?.status) !== 404) throw error;
+        }
+        if (response?.status === 202) throw new Error("部分錄音已從儲存空間移除，但資料整理仍在進行；請稍後再按一次刪除整次練習。");
+      }
+      if (button?.isConnected) button.textContent = "正在刪除練習紀錄…";
+      try {
+        await apiRaw(examAttemptsEndpoint(`/${examAttempt.id}`), { method: "DELETE", signal: controller.signal });
+      } catch (error) {
+        if (Number(error?.status) !== 404) throw error;
+      }
+      if (!attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      stopAttemptPlayback();
+      const removedIds = new Set(recordings.map(recording => recording.id));
+      recordings.forEach(recording => {
+        state.attemptBlobCache.delete(recording.id);
+        const objectUrl = state.attemptObjectUrls.get(recording.id);
+        if (objectUrl) URL.revokeObjectURL(objectUrl);
+        state.attemptObjectUrls.delete(recording.id);
+        state.attemptsById.delete(recording.id);
+      });
+      state.attempts = state.attempts.filter(recording => !removedIds.has(recording.id));
+      state.attemptTotal = Math.max(0, state.attemptTotal - removedIds.size);
+      state.examAttempts = state.examAttempts.filter(attempt => attempt.id !== examAttempt.id);
+      state.examAttemptsById.delete(examAttempt.id);
+      renderAttemptList();
+      toast("整次考試練習及所有錄音已永久刪除。", "info");
+    } catch (error) {
+      if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      console.warn("Could not delete full exam attempt:", error);
+      toast(String(error?.message || "未能刪除整次考試練習。"), "error");
+      refreshAfterFailure = true;
+    } finally {
+      finishAttemptMutation(controller);
+      if (button?.isConnected) {
+        button.disabled = false;
+        button.textContent = "刪除整次練習";
+      }
+      if (refreshAfterFailure && state.user && state.route.view === "attempts") renderAttemptsPage();
     }
   }
 
@@ -5331,7 +5683,20 @@
       const examMode = event.target.closest("[data-exam-mode]");
       if (examMode) {
         if (examMode.getAttribute("aria-disabled") === "true") toast("這個模式目前沒有足夠已開放題目。", "error");
-        else startExamPractice(examMode.dataset.examMode);
+        else {
+          unlockExamAudio();
+          startExamPractice(examMode.dataset.examMode);
+        }
+        return;
+      }
+
+      if (event.target.closest("[data-exam-skip-prep]")) {
+        skipExamPart2Prep();
+        return;
+      }
+
+      if (event.target.closest("[data-exam-skip-question]")) {
+        skipCurrentExamQuestion();
         return;
       }
 
@@ -5517,6 +5882,12 @@
         return;
       }
 
+      const examAttemptDelete = event.target.closest("[data-exam-attempt-delete]");
+      if (examAttemptDelete) {
+        deleteExamAttemptLog(examAttemptDelete.dataset.examAttemptDelete);
+        return;
+      }
+
       if (event.target.closest("[data-export-zip]")) {
         exportZip();
         return;
@@ -5650,7 +6021,7 @@
     });
 
     window.addEventListener("beforeunload", event => {
-      if (!navigationHasUnsavedRecording() && !state.adminAccessDrafts.size) return;
+      if (!navigationHasUnsavedRecording() && !state.adminAccessDrafts.size && !state.attemptMutationInProgress) return;
       event.preventDefault();
       event.returnValue = "";
     });

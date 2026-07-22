@@ -330,6 +330,120 @@ supports byte-range playback, serves `audio/mpeg`, and applies
 `public, max-age=31536000, immutable`. Verify a representative first, middle,
 and final MP3 through the Worker before publishing the matching manifest.
 
+## Exam Mode question and examiner audio — immutable v1
+
+IELTS Speaking Exam Mode is a fourth, independently versioned speaking-audio
+product. It contains the questions and natural examiner exchanges heard during
+an exam attempt; it does not contain the longer Band 9 sample answers from the
+Part 1, Part 2, or Part 3 audio products above. Do not reuse or overwrite their
+manifests or object trees.
+
+The source of truth is the three generated browser payloads consumed by Exam
+Mode. This ensures that a cue-card recording matches the normalized frontend
+fields exactly, including the Part 2 construction performed by
+`examQuestionSpeechText()`:
+
+```text
+prompt + ". " + "You should say: " + hints joined with ". " + "."
+```
+
+The source corpus contains 1,554 stable keys:
+
+- 828 Part 1 questions: `p1:<module-id>:q<number>`;
+- 153 complete Part 2 cue readings: `p2:<exercise-id>`;
+- 564 Part 3 questions: `p3:<exercise-id>`; and
+- 9 fixed opening, transition, and Part 2 examiner messages under `fixed:*`.
+
+Part 2 source text remains byte-for-byte equal to the frontend construction.
+Where that construction creates two consecutive full stops after a prompt,
+the display/manifest text remains unchanged and only the spoken rendering
+normalizes them to one full stop.
+
+| Setting | Permanent Exam Mode value |
+| --- | --- |
+| Model | Kokoro-82M v1.0 (`kokoro-v1.0.onnx`) |
+| Voice | `bm_fable` |
+| Language | `en-gb` |
+| Speed | `0.98` |
+| Output | One mono 24 kHz variable-bitrate MP3 per stable source key |
+| MP3 compression level | `0.55` |
+| Segment pause | `0.45` seconds |
+| Word alignment | None; Exam Mode has no highlighting/timing payload |
+| Audio build version | Exam Mode `v1` |
+| Static path | `assets/speaking-system/audio/edmund-neural/exam/v1/` |
+| Browser sources | `speaking-system-part1-data.js`, `speaking-system-data.js`, `speaking-system-part3-data.js` |
+| Audio manifest | `speaking-exam-audio-manifest.js` |
+| Generator runtime | `kokoro-onnx==0.5.0`, `numpy==2.5.1`, `soundfile==0.14.0` |
+
+Validate and count the complete corpus without importing audio dependencies:
+
+```sh
+python3 tools/generate-speaking-exam-audio.py --validate-source
+```
+
+Generate every missing MP3 and atomically checkpoint the incomplete manifest
+after each successful item:
+
+```sh
+.venv-tts/bin/python tools/generate-speaking-exam-audio.py \
+  --source-root . --output-root . \
+  --model /path/to/kokoro-v1.0.onnx \
+  --voices /path/to/voices-v1.0.bin \
+  --prune-orphans
+```
+
+After synthesis, strictly decode and validate the complete local release:
+
+```sh
+.venv-tts/bin/python tools/generate-speaking-exam-audio.py \
+  --source-root . --output-root . --manifest-only
+```
+
+The manifest exposes four Exam Mode-only globals:
+
+- `window.EDMUND_SPEAKING_EXAM_AUDIO`, keyed by stable source key;
+- `window.EDMUND_SPEAKING_EXAM_AUDIO_META`, including exact per-part counts,
+  browser-payload hashes, corpus hash, recipe values, and `complete: true`;
+- `window.EDMUND_SPEAKING_EXAM_AUDIO_RECIPE_SHA256`; and
+- `window.EDMUND_SPEAKING_EXAM_AUDIO_SHA256`, pinning each key to its exact MP3
+  bytes.
+
+Each entry records the exact speech text, source SHA-256, recipe-and-content
+render SHA-256, immutable path, decoded duration, and byte size. The path is
+derived from the render hash and lives under the versioned Exam Mode prefix.
+Recipe drift under the same `v1` prefix is a hard failure, including with
+`--force`; change any voice, model, language, speed, pronunciation, pause, or
+encoding setting only alongside an Exam Mode build-version bump.
+
+The R2 uploader is pinned to the approved Exam Mode v1 recipe. It reconstructs
+the current corpus, requires the canonical complete manifest serialization,
+decodes every referenced file as mono 24 kHz MP3, and checks duration, byte
+size, and SHA-256 before any network write. It uploads only manifest-referenced
+objects with immutable cache metadata:
+
+```sh
+.venv-tts/bin/python tools/upload-speaking-exam-audio-r2.py \
+  --source-root . \
+  --audio-root /path/outside/repository/exam-audio-build \
+  --check
+
+.venv-tts/bin/python tools/upload-speaking-exam-audio-r2.py \
+  --source-root . \
+  --audio-root /path/outside/repository/exam-audio-build \
+  --checkpoint /path/outside/repository/exam-r2-upload-checkpoint.json
+```
+
+`--source-root` supplies the three canonical browser-data payloads.
+`--audio-root` supplies the generated manifest and its referenced MP3 tree; it
+defaults to `--source-root` for an in-repository build. Keeping these roots
+separate allows a production render and upload to remain outside Git without
+copying the 1,554 MP3s into the website checkout.
+
+Listen to all nine fixed messages and a representative sample from every book.
+For Part 2, also listen to the longest cue card and confirm that the prompt and
+every `You should say` hint are audible in order. Do not publish or upload a
+placeholder or partially checkpointed manifest.
+
 ## First-time setup
 
 Use the repository's existing TTS environment and requirements:
