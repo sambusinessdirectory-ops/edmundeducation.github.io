@@ -760,6 +760,10 @@ function questionHtml(question) {
   const correct = state.exercise.correctIds.includes(question.id) || qState.status === "correct";
   const wrong = qState.status === "wrong";
   const collapsed = correct && state.exercise.collapsedCorrectIds.includes(question.id);
+  const unresolvedCorrection = state.exercise.correctionMode
+    && state.exercise.correctionIds.includes(question.id)
+    && !correct;
+  const revealAnswer = qState.reveal === true && !unresolvedCorrection;
   const value = state.exercise.drafts[question.id] ?? qState.lastAnswer ?? "";
   const bookmarked = isBookmarked(state.lessonId, question.id);
   return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}">
@@ -777,8 +781,8 @@ function questionHtml(question) {
         ${question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
       </div>
       <input class="answer-input" type="text" maxlength="1000" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">
-      <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? "答案未完全符合句型；請參考答案並修改。" : ""}</p>
-      ${qState.reveal ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span><p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p></div>` : ""}
+      <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? unresolvedCorrection ? "答案未完全符合句型；請再次修改後提交。" : "答案未完全符合句型；請參考答案並修改。" : ""}</p>
+      ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span><p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p></div>` : ""}
     </div>
   </article>`;
 }
@@ -819,6 +823,14 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     : state.exercise.correctionMode
       ? correctionScope
       : lesson.questions;
+  const visibleCorrectIds = displayQuestions
+    .filter((question) => state.exercise.correctIds.includes(question.id))
+    .map((question) => question.id);
+  const allVisibleCorrectCollapsed = visibleCorrectIds.length > 0
+    && visibleCorrectIds.every((id) => state.exercise.collapsedCorrectIds.includes(id));
+  const bulkVisibilityLabel = allVisibleCorrectCollapsed
+    ? "展開所有已完成題目"
+    : "隱藏所有已完成題目";
 
   elements.lessonContent.innerHTML = `<section class="exercise-page">
     <header class="exercise-header">
@@ -847,12 +859,16 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     ${!completed && state.exercise.correctionMode ? `<section class="correction-round-banner">
       <div>
         <h3>${correctionRemaining.length ? "Correction Round · 改正輪" : "本次錯題已全部改正"}</h3>
-        <p>${correctionRemaining.length ? `集中修正 ${escapeHtml(correctionRemaining.length)} 題；答對後題卡會保留為淡綠色，方便核對。` : "你可以查看已完成的綠色題卡，或返回其餘題目繼續練習。"}</p>
+        <p>${correctionRemaining.length ? `集中修正 ${escapeHtml(correctionRemaining.length)} 題；參考答案會暫時隱藏，答對後題卡會保留為淡綠色，方便核對。` : "你可以查看已完成的綠色題卡，或返回其餘題目繼續練習。"}</p>
       </div>
       <button class="secondary-button" type="button" data-exit-correction>返回其餘題目</button>
     </section>` : ""}
 
-    <div class="question-list" data-question-list>
+    ${visibleCorrectIds.length ? `<div class="question-list-toolbar">
+      <button class="bulk-visibility-button" type="button" data-toggle-all-correct-cards aria-pressed="${allVisibleCorrectCollapsed}" aria-controls="sentence-structure-question-list" aria-label="${bulkVisibilityLabel}（${escapeHtml(visibleCorrectIds.length)} 題）">${bulkVisibilityLabel}</button>
+    </div>` : ""}
+
+    <div class="question-list" id="sentence-structure-question-list" data-question-list>
       ${displayQuestions.map(questionHtml).join("")}
     </div>
 
@@ -1083,6 +1099,35 @@ async function toggleCorrectCard(questionId) {
   if (index >= 0) hidden.splice(index, 1);
   else hidden.push(questionId);
   renderExercisePage(getLesson(), { preserveScroll: true });
+  requestAnimationFrame(() => {
+    document.querySelector(`[data-toggle-correct-card="${CSS.escape(questionId)}"]`)?.focus?.({ preventScroll: true });
+  });
+}
+
+async function toggleAllCorrectCards() {
+  if (!state.exercise) return;
+  readExerciseDrafts();
+  const lesson = getLesson();
+  const completed = Boolean(state.exercise.completedAt || activeQuestions(lesson).length === 0);
+  const visibleQuestions = completed
+    ? lesson.questions
+    : state.exercise.correctionMode
+      ? correctionQuestions(lesson)
+      : lesson.questions;
+  const visibleCorrectIds = visibleQuestions
+    .filter((question) => state.exercise.correctIds.includes(question.id))
+    .map((question) => question.id);
+  if (!visibleCorrectIds.length) return;
+
+  const hidden = new Set(state.exercise.collapsedCorrectIds);
+  const expandAll = visibleCorrectIds.every((id) => hidden.has(id));
+  visibleCorrectIds.forEach((id) => expandAll ? hidden.delete(id) : hidden.add(id));
+  state.exercise.collapsedCorrectIds = [...hidden]
+    .filter((id) => state.exercise.correctIds.includes(id));
+  renderExercisePage(lesson, { preserveScroll: true });
+  requestAnimationFrame(() => {
+    document.querySelector("[data-toggle-all-correct-cards]")?.focus?.({ preventScroll: true });
+  });
 }
 
 async function startNextRound() {
@@ -1250,6 +1295,7 @@ function handleClick(event) {
   if (event.target.closest("[data-start-correction]")) return startCorrectionRound();
   if (event.target.closest("[data-exit-correction]")) return exitCorrectionRound();
   if (event.target.closest("[data-next-round]")) return startNextRound();
+  if (event.target.closest("[data-toggle-all-correct-cards]")) return toggleAllCorrectCards();
 
   const correctCardButton = event.target.closest("[data-toggle-correct-card]");
   if (correctCardButton) return toggleCorrectCard(correctCardButton.dataset.toggleCorrectCard);

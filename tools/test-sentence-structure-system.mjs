@@ -211,7 +211,7 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   studentLogin, openLesson, setLessonPage, renderLessonPage, renderExercisePage,
   syncExerciseButtons, submitExercise, startNextRound,
-  startCorrectionRound, exitCorrectionRound, toggleCorrectCard,
+  startCorrectionRound, exitCorrectionRound, toggleCorrectCard, toggleAllCorrectCards,
   wrongQuestionIds, correctionQuestions, submissionQuestions,
   highlightedAnswerHtml, normalizeAnswer, answersMatch,
   normalizeBookmark, normalizeAttempt, attemptHistoryHtml,
@@ -445,6 +445,8 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(q3.answer));
   assert.match(sut.elements.lessonContent.innerHTML, /question-card is-correct/);
   assert.ok(sut.elements.lessonContent.innerHTML.includes(`data-toggle-correct-card="${q1.id}"`));
+  assert.match(sut.elements.lessonContent.innerHTML, /data-toggle-all-correct-cards/);
+  assert.match(sut.elements.lessonContent.innerHTML, /隱藏所有已完成題目/);
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50, "correct cards stay visible after checking");
 
   await sut.toggleCorrectCard(q1.id);
@@ -453,6 +455,14 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.match(sut.elements.lessonContent.innerHTML, /顯示已完成題目/);
   await sut.toggleCorrectCard(q1.id);
   assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), []);
+
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), [q1.id]);
+  assert.match(sut.elements.lessonContent.innerHTML, /展開所有已完成題目/);
+  assert.match(sut.elements.lessonContent.innerHTML, /data-toggle-all-correct-cards aria-pressed="true"/);
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), []);
+  assert.match(sut.elements.lessonContent.innerHTML, /隱藏所有已完成題目/);
 
   const attemptPut = apiCalls.find((call) => new URL(call.url).pathname.startsWith("/v1/attempts/"));
   assert.ok(attemptPut, "partial result must be persisted");
@@ -474,6 +484,67 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.equal(sut.state.exercise.questionState[q2.id].reveal, false);
   assert.deepEqual(Array.from(sut.state.exercise.correctIds), [q1.id], "correct answers must not return next round");
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50, "completed cards remain available for reference in later rounds");
+});
+
+test("bulk completed-card visibility handles mixed cards and preserves the current scope", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  const lesson = sut.getLesson("ss1");
+  const [q1, q2] = lesson.questions;
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
+  sut.state.authToken = "student-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "24444444-4444-4444-8444-444444444444",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 2,
+    totalCount: 50,
+    result: {
+      round: 2,
+      correctIds: [q1.id, q2.id],
+      questionState: {
+        [q1.id]: { status: "correct", lastAnswer: q1.answer, reveal: true },
+        [q2.id]: { status: "correct", lastAnswer: q2.answer, reveal: true }
+      },
+      rounds: [],
+      awaitingNextRound: false,
+      correctionMode: false,
+      correctionIds: [],
+      collapsedCorrectIds: [q1.id],
+      contentVersion: "1"
+    }
+  });
+
+  sut.renderExercisePage(lesson);
+  assert.match(sut.elements.lessonContent.innerHTML, /隱藏所有已完成題目/, "a mixed state must offer to hide all");
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), [q1.id, q2.id]);
+  assert.equal((sut.elements.lessonContent.innerHTML.match(/question-card is-correct is-collapsed/g) || []).length, 2);
+  assert.match(sut.elements.lessonContent.innerHTML, /展開所有已完成題目/);
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), []);
+
+  sut.state.exercise.correctionMode = true;
+  sut.state.exercise.correctionIds = [q2.id];
+  sut.state.exercise.collapsedCorrectIds = [q1.id];
+  sut.renderExercisePage(lesson);
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), [q1.id, q2.id], "hiding the correction scope keeps hidden cards outside it unchanged");
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), [q1.id], "expanding the correction scope keeps hidden cards outside it unchanged");
+
+  const resumed = sut.exerciseFromAttempt({
+    id: sut.state.exercise.id,
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 2,
+    totalCount: 50,
+    result: sut.serializeExerciseResult()
+  });
+  assert.deepEqual(Array.from(resumed.collapsedCorrectIds), [q1.id], "bulk visibility state survives result serialization");
 });
 
 test("wrong answers can enter an immediate correction round and return to the unfinished set", async () => {
@@ -501,6 +572,8 @@ test("wrong answers can enter an immediate correction round and return to the un
 
   await sut.submitExercise("partial");
   assert.match(sut.elements.lessonContent.innerHTML, /data-start-correction/);
+  assert.match(sut.elements.lessonContent.innerHTML, /answer-reveal/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
   assert.deepEqual(Array.from(sut.wrongQuestionIds()), [q2.id]);
 
   await sut.startCorrectionRound();
@@ -510,6 +583,11 @@ test("wrong answers can enter an immediate correction round and return to the un
   assert.deepEqual(Array.from(sut.submissionQuestions(), (question) => question.id), [q2.id]);
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-question-id=/g) || []).length, 1);
   assert.match(sut.elements.lessonContent.innerHTML, /Correction Round · 改正輪/);
+  assert.match(sut.elements.lessonContent.innerHTML, /參考答案會暫時隱藏/);
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /answer-reveal/);
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answer));
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
+  assert.match(sut.elements.lessonContent.innerHTML, /請再次修改後提交/);
 
   const correctionSnapshot = sut.serializeExerciseResult();
   assert.equal(correctionSnapshot.correctionMode, true);
@@ -525,12 +603,27 @@ test("wrong answers can enter an immediate correction round and return to the un
   assert.equal(resumedCorrection.correctionMode, true);
   assert.deepEqual(Array.from(resumedCorrection.correctionIds), [q2.id]);
 
+  await sut.submitExercise("all");
+  assert.equal(sut.state.exercise.questionState[q2.id].status, "wrong");
+  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /answer-reveal/);
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answer));
+  assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
+
   answerInputs.find((input) => input.dataset.answerInput === q2.id).value = q2.answer;
   await sut.submitExercise("all");
   assert.ok(sut.state.exercise.correctIds.includes(q2.id));
   assert.equal(sut.state.exercise.correctionMode, true, "completed correction cards stay visible until the student returns");
   assert.match(sut.elements.lessonContent.innerHTML, /本次錯題已全部改正/);
   assert.ok(sut.elements.lessonContent.innerHTML.includes(`data-toggle-correct-card="${q2.id}"`));
+  assert.match(sut.elements.lessonContent.innerHTML, /answer-reveal/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
+  assert.match(sut.elements.lessonContent.innerHTML, /data-toggle-all-correct-cards/);
+
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), [q2.id], "bulk toggle only affects completed cards visible in the correction scope");
+  assert.match(sut.elements.lessonContent.innerHTML, /展開所有已完成題目/);
+  await sut.toggleAllCorrectCards();
+  assert.deepEqual(Array.from(sut.state.exercise.collapsedCorrectIds), []);
 
   await sut.exitCorrectionRound();
   assert.equal(sut.state.exercise.correctionMode, false);
