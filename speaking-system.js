@@ -1740,10 +1740,11 @@
       </article>`;
   }
 
-  function examVoiceControlHtml() {
+  function examVoiceControlHtml({ allowIntroSkip = false } = {}) {
     return `
       <div class="exam-voice-status">
         <button type="button" data-stop-exam-voice aria-label="略過正在播放的考官語音">略過語音</button>
+        ${allowIntroSkip ? '<button type="button" data-exam-skip-intro>跳過姓名問題，開始正式考試 →</button>' : ""}
       </div>`;
   }
 
@@ -1966,7 +1967,7 @@
               <p lang="en"><strong>Could you tell me your full name please?</strong></p>
             </article>
           </div>
-          ${examVoiceControlHtml()}
+          ${examVoiceControlHtml({ allowIntroSkip: true })}
         </section>
         <section class="exam-intro-answer" data-exam-intro-answer ${ready ? "" : "hidden"}>
           <div class="exam-candidate-tip">
@@ -2321,6 +2322,56 @@
     }
     const skipPrep = document.querySelector("[data-exam-skip-prep]");
     if (skipPrep) skipPrep.disabled = busy;
+    const skipIntro = document.querySelector("[data-exam-skip-intro]");
+    if (skipIntro) {
+      skipIntro.disabled = busy;
+      skipIntro.textContent = state.examSkipSaving ? "正在跳過姓名問題…" : "跳過姓名問題，開始正式考試 →";
+    }
+  }
+
+  async function skipExamIntroduction() {
+    const session = state.examSession;
+    const item = session?.introItem;
+    if (
+      !session
+      || !item
+      || !["opening", "intro-answer"].includes(session.phase)
+      || item.saved
+      || item.skipped
+      || examAnswerInteractionBusy()
+    ) return;
+    const sessionId = session.id;
+    const originalPhase = session.phase;
+    state.examSkipSaving = true;
+    state.examFlowGeneration += 1;
+    clearExamPhaseTimer();
+    cancelExamSpeech();
+    syncRecorderControls();
+    try {
+      const payload = await apiJson(examAttemptsEndpoint(`/${sessionId}/introduction/skip`), { method: "PUT" });
+      if (state.examSession?.id !== sessionId || state.examSession?.introItem !== item) return;
+      item.skipped = payload?.attempt?.introSkipped !== false;
+      item.skippedAt = new Date().toISOString();
+      state.examSkipSaving = false;
+      session.phase = "question";
+      session.currentIndex = 0;
+      renderExamPractice();
+      window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
+      toast("已跳過姓名問題，現在開始正式考試。", "info");
+    } catch (error) {
+      if (state.examSession?.id !== sessionId) return;
+      console.warn("Could not skip exam introduction:", error);
+      state.examSkipSaving = false;
+      session.phase = originalPhase;
+      if (originalPhase === "opening") session.openingStarted = false;
+      renderExamPractice();
+      toast(String(error?.message || "未能跳過姓名問題，請再試一次。"), "error");
+    } finally {
+      if (state.examSession?.id === sessionId) {
+        state.examSkipSaving = false;
+        syncRecorderControls();
+      }
+    }
   }
 
   function skipExamPart2Prep() {
@@ -4927,6 +4978,7 @@
       modeId,
       attemptNumber: Number(item.attemptNumber || item.attempt_number || 0),
       naturalExchange: item.naturalExchange === true || item.natural_exchange === true,
+      introSkipped: item.introSkipped === true || item.intro_skipped === true,
       questions,
       skippedOrders,
       nervousness: item.nervousness === null || item.nervousness === undefined ? null : Number(item.nervousness),
@@ -5054,8 +5106,9 @@
         .filter(order => Number.isInteger(order) && order >= 1 && order <= actualExpected));
       slots.forEach(order => skipped.delete(order));
       group.introSaved = group.attempts.some(attempt => attempt.examRecording?.intro === true);
+      group.introSkipped = group.examAttempt?.introSkipped === true;
       group.saved = slots.size + (group.introSaved ? 1 : 0);
-      group.skipped = skipped.size;
+      group.skipped = skipped.size + (group.introSkipped ? 1 : 0);
       group.covered = group.saved + group.skipped;
       group.duplicateCount = Math.max(0, group.attempts.length - group.saved);
       return group;
@@ -5692,6 +5745,11 @@
 
       if (event.target.closest("[data-exam-skip-prep]")) {
         skipExamPart2Prep();
+        return;
+      }
+
+      if (event.target.closest("[data-exam-skip-intro]")) {
+        skipExamIntroduction();
         return;
       }
 

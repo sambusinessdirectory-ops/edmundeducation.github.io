@@ -425,6 +425,15 @@ test("exam manifests derive stable exact-question keys and question bookmarks st
   assert.equal(expectedIds[0], `exam:p1-p3:${attemptId}:p1:intro`);
   assert.equal(expectedIds[1], `exam:p1-p3:${attemptId}:p1:q01`);
   assert.equal(expectedIds.at(-1), `exam:p1-p3:${attemptId}:p3:q18`);
+
+  const introSkippedIds = worker.expectedExamExerciseIds({
+    id: attemptId,
+    mode_id: "p1-p3",
+    natural_exchange: true,
+    intro_skipped: true
+  });
+  assert.equal(introSkippedIds.length, 18);
+  assert.equal(introSkippedIds[0], `exam:p1-p3:${attemptId}:p1:q01`);
 });
 
 test("latest exam state exposes only cooldown identities and the monotonic ordinal", async () => {
@@ -599,6 +608,140 @@ test("student can idempotently skip an unanswered exam question", async () => {
     assert.equal(invalid.status, 400);
     assert.equal((await invalid.json()).code, "INVALID_EXAM_QUESTION_ORDER");
     assert.deepEqual(calls, ["student-profile", "skip-rpc", "student-profile", "skip-rpc"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("student can durably skip the introduction and receives precise conflicts", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  let skipCalls = 0;
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rpc/speaking_skip_exam_introduction")) {
+      calls.push("skip-introduction-rpc");
+      const payload = JSON.parse(String(options.body));
+      assert.deepEqual(payload, { p_id: attemptId, p_student_id: studentId });
+      skipCalls += 1;
+      if (skipCalls === 2) return jsonResponse({ ok: false, code: "EXAM_INTRODUCTION_HAS_RECORDING" });
+      if (skipCalls === 3) return jsonResponse({ ok: false, code: "EXAM_ATTEMPT_ALREADY_COMPLETED" });
+      if (skipCalls === 4) return jsonResponse({ ok: false, code: "EXAM_INTRODUCTION_NOT_REQUIRED" });
+      return jsonResponse({
+        ok: true,
+        idempotent: true,
+        attempt: {
+          id: attemptId,
+          attempt_number: 23,
+          mode_id: "p2",
+          natural_exchange: true,
+          manifest_version: 1,
+          question_manifest: [],
+          skipped_question_orders: [],
+          intro_skipped: true,
+          nervousness_rating: null,
+          rated_at: null,
+          started_at: "2026-07-22T00:00:00Z",
+          completed_at: null,
+          updated_at: "2026-07-22T00:01:00Z"
+        }
+      });
+    }
+    assert.fail(`Unexpected upstream request: ${options.method || "GET"} ${parsed.pathname}`);
+  };
+  try {
+    const endpoint = `/v1/exam-attempts/${attemptId}/introduction/skip`;
+    const skipped = await worker.default.fetch(
+      authorizedRequest(endpoint, studentToken, { method: "PUT" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(skipped.status, 200);
+    const skippedBody = await skipped.json();
+    assert.equal(skippedBody.idempotent, true);
+    assert.equal(skippedBody.attempt.introSkipped, true);
+
+    const hasRecording = await worker.default.fetch(
+      authorizedRequest(endpoint, studentToken, { method: "PUT" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(hasRecording.status, 409);
+    assert.equal((await hasRecording.json()).code, "EXAM_INTRODUCTION_HAS_RECORDING");
+
+    const completed = await worker.default.fetch(
+      authorizedRequest(endpoint, studentToken, { method: "PUT" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(completed.status, 409);
+    assert.equal((await completed.json()).code, "EXAM_ATTEMPT_ALREADY_COMPLETED");
+
+    const notRequired = await worker.default.fetch(
+      authorizedRequest(endpoint, studentToken, { method: "PUT" }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(notRequired.status, 409);
+    assert.equal((await notRequired.json()).code, "EXAM_INTRODUCTION_NOT_REQUIRED");
+    assert.deepEqual(calls, [
+      "student-profile", "skip-introduction-rpc",
+      "student-profile", "skip-introduction-rpc",
+      "student-profile", "skip-introduction-rpc",
+      "student-profile", "skip-introduction-rpc"
+    ]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
+test("exam history selects and exposes the durable introduction skip", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async (url) => {
+    const parsed = new URL(String(url));
+    if (parsed.pathname.endsWith("/rpc/speaking_student_profile")) {
+      return jsonResponse([{ id: studentId, name: "Alice", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (parsed.pathname.endsWith("/rest/v1/speaking_exam_attempts")) {
+      assert.match(parsed.searchParams.get("select") || "", /(?:^|,)intro_skipped(?:,|$)/);
+      return jsonResponse([{
+        id: attemptId,
+        attempt_number: 23,
+        mode_id: "p2",
+        natural_exchange: true,
+        manifest_version: 1,
+        question_manifest: [],
+        skipped_question_orders: [],
+        intro_skipped: true,
+        nervousness_rating: 3,
+        rated_at: "2026-07-22T01:00:00Z",
+        started_at: "2026-07-22T00:00:00Z",
+        completed_at: "2026-07-22T01:00:00Z",
+        updated_at: "2026-07-22T01:00:00Z"
+      }], { headers: { "Content-Range": "0-0/1" } });
+    }
+    assert.fail(`Unexpected history request: ${parsed.pathname}`);
+  };
+  try {
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/exam-attempts?page=1&pageSize=100", studentToken),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 200);
+    const body = await response.json();
+    assert.equal(body.total, 1);
+    assert.equal(body.attempts[0].introSkipped, true);
   } finally {
     globalThis.fetch = originalFetch;
   }
@@ -1103,6 +1246,55 @@ test("recording upload is forbidden before reservation when its speaking section
   }
 });
 
+test("an introduction upload is rejected after the durable skip before Storage write", async () => {
+  const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
+  const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
+  const attemptId = "d34db33f-3f4a-4a0e-8df2-5748f5b5bf3a";
+  const exerciseId = `exam:p2:${attemptId}:p2:intro`;
+  const originalFetch = globalThis.fetch;
+  const calls = [];
+  globalThis.fetch = async (url, options = {}) => {
+    const parsed = new URL(String(url));
+    const path = parsed.pathname;
+    if (path.endsWith("/rpc/speaking_student_profile")) {
+      calls.push("student-profile");
+      return jsonResponse([{ id: studentId, name: "Student", session_expires_at: "2026-08-20T00:00:00Z" }]);
+    }
+    if (path.endsWith("/rest/v1/flashcard_student_state")) {
+      calls.push("access-get");
+      return jsonResponse([]);
+    }
+    if (path.endsWith("/rpc/speaking_reserve_recording_attempt")) {
+      calls.push("reserve");
+      const payload = JSON.parse(String(options.body));
+      assert.equal(payload.p_exercise_id, exerciseId);
+      return jsonResponse({ ok: false, code: "EXAM_INTRODUCTION_SKIPPED" });
+    }
+    assert.fail(`Skipped introduction must not reach Storage: ${options.method || "GET"} ${path}`);
+  };
+
+  try {
+    const form = new FormData();
+    form.append("file", new Blob([repeatFrame(40)], { type: "audio/mpeg" }), "introduction.mp3");
+    form.append("exerciseId", exerciseId);
+    form.append("exerciseTitle", "Full name introduction");
+    form.append("exam", "IELTS");
+    form.append("part", "2");
+    form.append("book", "1");
+    form.append("durationMs", "1045");
+    const response = await worker.default.fetch(
+      authorizedRequest("/v1/recordings", studentToken, { method: "POST", body: form }),
+      configuredEnv(),
+      {}
+    );
+    assert.equal(response.status, 409);
+    assert.equal((await response.json()).code, "EXAM_INTRODUCTION_SKIPPED");
+    assert.deepEqual(calls, ["student-profile", "access-get", "reserve"]);
+  } finally {
+    globalThis.fetch = originalFetch;
+  }
+});
+
 test("upload reserves quota, writes the private object, then marks metadata ready", async () => {
   const studentId = "9b2ec442-eded-4aef-9bc9-223ddb6890ba";
   const studentToken = "cf384b3c-fdaf-45c2-a266-cfb29e201a48";
@@ -1383,11 +1575,13 @@ test("database migration keeps quota and lifecycle mutations behind locked RPCs"
   assert.match(sql, /create table if not exists public\.speaking_exam_attempts/i);
   assert.match(sql, /attempt_number bigint not null/i);
   assert.match(sql, /skipped_question_orders smallint\[\] not null default '\{\}'::smallint\[\]/i);
+  assert.match(sql, /intro_skipped boolean not null default false/i);
+  assert.match(sql, /speaking_exam_intro_skip_check[\s\S]+?natural_exchange or not intro_skipped/i);
   assert.match(sql, /speaking_exam_attempts_student_number_uidx/i);
   assert.match(sql, /create table if not exists public\.speaking_exam_student_state/i);
   const stateDefinition = sql.match(/create table if not exists public\.speaking_exam_student_state \([\s\S]+?\n\);/i)?.[0] || "";
   assert.match(stateDefinition, /student_id uuid primary key[\s\S]+?attempt_id uuid not null[\s\S]+?attempt_number bigint not null[\s\S]+?cooldown_manifest jsonb not null/i);
-  assert.doesNotMatch(stateDefinition, /mode_id|question_manifest|prompt|nervousness|rated_at|started_at|completed_at|updated_at/i);
+  assert.doesNotMatch(stateDefinition, /mode_id|question_manifest|intro_skipped|prompt|nervousness|rated_at|started_at|completed_at|updated_at/i);
   assert.match(sql, /attempt_id uuid not null[\s\S]+?on conflict \(student_id\) do nothing/i);
   assert.match(sql, /set cooldown_manifest = \([\s\S]+?'sourceKey'[\s\S]+?'contentKey'[\s\S]+?drop column if exists question_manifest/i);
   assert.match(sql, /revoke insert, update, delete on table public\.speaking_exam_student_state\s+from service_role/i);
@@ -1398,11 +1592,18 @@ test("database migration keeps quota and lifecycle mutations behind locked RPCs"
   assert.match(sql, /EXAM_COOLDOWN_CONFLICT/i);
   assert.match(sql, /create or replace function public\.speaking_skip_exam_question/i);
   assert.match(sql, /recording\.storage_state in \('uploading', 'ready'\)[\s\S]+?EXAM_QUESTION_HAS_RECORDING/i);
+  assert.match(sql, /create or replace function public\.speaking_skip_exam_introduction/i);
+  assert.match(sql, /speaking_skip_exam_introduction[\s\S]+?874312[\s\S]+?874314[\s\S]+?for update/i);
+  assert.match(sql, /v_attempt\.completed_at is not null[\s\S]+?EXAM_ATTEMPT_ALREADY_COMPLETED[\s\S]+?not v_attempt\.natural_exchange[\s\S]+?EXAM_INTRODUCTION_NOT_REQUIRED/i);
+  assert.match(sql, /recording\.exercise_id = v_intro_exercise_id[\s\S]+?EXAM_INTRODUCTION_HAS_RECORDING[\s\S]+?v_attempt\.intro_skipped[\s\S]+?'idempotent', true/i);
+  assert.match(sql, /set intro_skipped = true/i);
   assert.match(sql, /create or replace function public\.speaking_complete_exam_attempt/i);
   assert.match(sql, /EXAM_ATTEMPT_ALREADY_COMPLETED/i);
   assert.match(sql, /EXAM_RECORDINGS_INCOMPLETE/i);
   assert.match(sql, /question ->> 'order'\)::smallint = any\(v_attempt\.skipped_question_orders\)/i);
   assert.match(sql, /from public\.speaking_recording_attempts recording[\s\S]+?recording\.storage_state = 'ready'/i);
+  assert.match(sql, /v_attempt\.natural_exchange[\s\S]+?not v_attempt\.intro_skipped[\s\S]+?recording\.storage_state = 'ready'/i);
+  assert.match(sql, /v_exam_attempt\.intro_skipped[\s\S]+?EXAM_INTRODUCTION_SKIPPED/i);
   assert.match(sql, /create or replace function public\.speaking_delete_exam_attempt/i);
   assert.match(sql, /left\(recording\.exercise_id, char_length\(v_recording_prefix\)\) = v_recording_prefix/i);
   assert.match(sql, /EXAM_RECORDINGS_REMAIN/i);
@@ -1414,6 +1615,7 @@ test("database migration keeps quota and lifecycle mutations behind locked RPCs"
   assert.match(sql, /create or replace function public\.speaking_begin_recording_delete[\s\S]+?874312[\s\S]+?RECORDING_UPLOAD_IN_PROGRESS/i);
   assert.match(sql, /revoke insert, update, delete on table public\.speaking_exam_attempts\s+from service_role/i);
   assert.match(sql, /grant execute on function public\.speaking_skip_exam_question\(uuid, uuid, integer\)\s+to service_role/i);
+  assert.match(sql, /grant execute on function public\.speaking_skip_exam_introduction\(uuid, uuid\)\s+to service_role/i);
   assert.match(sql, /grant execute on function public\.speaking_delete_exam_attempt\(uuid, uuid\)\s+to service_role/i);
   assert.match(sql, /grant execute on function public\.speaking_finalize_exam_recording_deletes\(uuid, uuid, bigint, uuid\[\]\)\s+to service_role/i);
   assert.match(sql, /grant execute on function public\.speaking_delete_exam_attempt_if_number\(uuid, uuid, bigint\)\s+to service_role/i);

@@ -88,6 +88,7 @@ const EXAM_ATTEMPT_PUBLIC_FIELDS = [
   "manifest_version",
   "question_manifest",
   "skipped_question_orders",
+  "intro_skipped",
   "nervousness_rating",
   "rated_at",
   "started_at",
@@ -184,6 +185,12 @@ async function route(request, env, ctx) {
   );
   if (examQuestionSkipMatch && request.method === "PUT") {
     return skipExamQuestion(request, env, examQuestionSkipMatch[1], examQuestionSkipMatch[2]);
+  }
+  const examIntroductionSkipMatch = url.pathname.match(
+    /^\/v1\/exam-attempts\/([0-9a-f-]{36})\/introduction\/skip$/i
+  );
+  if (examIntroductionSkipMatch && request.method === "PUT") {
+    return skipExamIntroduction(request, env, examIntroductionSkipMatch[1]);
   }
   const examAttemptMatch = url.pathname.match(/^\/v1\/exam-attempts\/([0-9a-f-]{36})$/i);
   if (examAttemptMatch && request.method === "PUT") {
@@ -1062,6 +1069,7 @@ function publicExamAttempt(row) {
     manifestVersion: Number(row.manifest_version || 1),
     questions: Array.isArray(row.question_manifest) ? row.question_manifest : [],
     skippedOrders,
+    introSkipped: row.intro_skipped === true,
     nervousness: row.nervousness_rating === null || row.nervousness_rating === undefined
       ? null
       : Number(row.nervousness_rating),
@@ -1214,7 +1222,9 @@ function expectedExamExerciseIds(attempt) {
   const id = String(attempt?.id || "").toLowerCase();
   const parts = EXAM_MODE_PARTS.get(modeId) || [];
   const ids = [];
-  if (attempt?.natural_exchange === true && parts.length) ids.push(`exam:${modeId}:${id}:p${parts[0]}:intro`);
+  if (attempt?.natural_exchange === true && attempt?.intro_skipped !== true && parts.length) {
+    ids.push(`exam:${modeId}:${id}:p${parts[0]}:intro`);
+  }
   const count = expectedExamQuestionCount(modeId);
   for (let order = 1; order <= count; order += 1) {
     ids.push(`exam:${modeId}:${id}:p${expectedExamPartForOrder(modeId, order)}:q${String(order).padStart(2, "0")}`);
@@ -1278,6 +1288,35 @@ async function skipExamQuestion(request, env, attemptId, orderText) {
       throw new HttpError(409, value.code, "Delete the saved or uploading answer before skipping this question");
     }
     throw new HttpError(502, "EXAM_QUESTION_SKIP_FAILED", "The question could not be skipped");
+  }
+  return json({
+    attempt: publicExamAttempt(value.attempt),
+    idempotent: value.idempotent === true
+  }, 200, request, env);
+}
+
+async function skipExamIntroduction(request, env, attemptId) {
+  if (!UUID_RE.test(attemptId)) throw new HttpError(404, "EXAM_ATTEMPT_NOT_FOUND", "Exam attempt not found");
+  const student = await authenticateStudent(request, env);
+  if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
+  const value = rpcObject(await rpc(env, "speaking_skip_exam_introduction", {
+    p_id: attemptId.toLowerCase(),
+    p_student_id: student.id
+  }));
+  if (!value || value.ok !== true || !value.attempt) {
+    if (value?.code === "EXAM_ATTEMPT_NOT_FOUND") {
+      throw new HttpError(404, value.code, "Exam attempt not found");
+    }
+    if (value?.code === "EXAM_ATTEMPT_ALREADY_COMPLETED") {
+      throw new HttpError(409, value.code, "A completed exam attempt cannot be changed");
+    }
+    if (value?.code === "EXAM_INTRODUCTION_NOT_REQUIRED") {
+      throw new HttpError(409, value.code, "This exam attempt does not require an introduction recording");
+    }
+    if (value?.code === "EXAM_INTRODUCTION_HAS_RECORDING") {
+      throw new HttpError(409, value.code, "Delete the saved, uploading, or deleting introduction recording before skipping it");
+    }
+    throw new HttpError(502, "EXAM_INTRODUCTION_SKIP_FAILED", "The introduction could not be skipped");
   }
   return json({
     attempt: publicExamAttempt(value.attempt),
@@ -2024,6 +2063,9 @@ async function reserveRecordingMetadata(env, metadata) {
     }
     if (value.code === "EXAM_QUESTION_SKIPPED") {
       throw new HttpError(409, value.code, "This exam question was skipped and no longer accepts a recording");
+    }
+    if (value.code === "EXAM_INTRODUCTION_SKIPPED") {
+      throw new HttpError(409, value.code, "The introduction was skipped and no longer accepts a recording");
     }
     if (value.code === "INVALID_EXAM_RECORDING_SLOT") {
       throw new HttpError(400, value.code, "The recording does not match a question in this exam attempt");

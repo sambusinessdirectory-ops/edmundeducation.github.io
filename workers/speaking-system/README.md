@@ -242,15 +242,23 @@ Never expose this settings table or its mutation to a browser role.
   pointers, then creates the parent row before Question 1 is displayed.
 - `PATCH /v1/exam-attempts/<attempt-uuid>` accepts `{ "nervousness": 1..7 }`.
   The database atomically verifies that every question has either a ready
-  recording or a persisted skip. The name introduction is never skippable when
-  natural exchange is on. It then stores the rating and completion timestamp;
+  recording or a persisted skip. When natural exchange is on, the name
+  introduction must likewise have either a ready recording or the durable
+  introduction skip below. It then stores the rating and completion timestamp;
   a same-rating retry is idempotent.
+- `PUT /v1/exam-attempts/<attempt-uuid>/introduction/skip` durably skips the
+  natural-exchange name introduction. It is idempotent and uses the same locked
+  database transaction order as recording reservation. It rejects attempts
+  that are missing, completed, or do not require an introduction, plus any
+  introduction slot that still has uploading, ready, or deleting recording
+  metadata. Once stored, a late upload reservation receives the dedicated
+  `EXAM_INTRODUCTION_SKIPPED` conflict.
 - `PUT /v1/exam-attempts/<attempt-uuid>/questions/<order>/skip` persists an
   intentional unanswered question. It is idempotent, but rejects invalid
   orders, completed attempts, and slots with an uploading or ready recording.
 - `GET /v1/exam-attempts?page=1&pageSize=100` returns the student's parent rows
   for recording-history grouping, question review, source links and ratings.
-  Every public attempt includes sorted `skippedOrders`.
+  Every public attempt includes sorted `skippedOrders` and `introSkipped`.
 - `DELETE /v1/exam-attempts/<attempt-uuid>` hard-deletes only the visible parent
   after every recording metadata row under the exact exam prefix has gone.
   Delete the individual recordings first. Only the minimized latest ordinal,

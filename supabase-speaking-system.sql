@@ -181,6 +181,7 @@ create table if not exists public.speaking_exam_attempts (
     check (manifest_version = 1),
   question_manifest jsonb not null,
   skipped_question_orders smallint[] not null default '{}'::smallint[],
+  intro_skipped boolean not null default false,
   nervousness_rating smallint
     check (nervousness_rating between 1 and 7),
   rated_at timestamptz,
@@ -189,6 +190,8 @@ create table if not exists public.speaking_exam_attempts (
   updated_at timestamptz not null default now(),
   constraint speaking_exam_attempt_number_positive
     check (attempt_number > 0),
+  constraint speaking_exam_intro_skip_check
+    check (natural_exchange or not intro_skipped),
   check (jsonb_typeof(question_manifest) = 'array'),
   check (
     jsonb_array_length(question_manifest) = case mode_id
@@ -241,6 +244,10 @@ alter table public.speaking_exam_attempts
   add column if not exists skipped_question_orders smallint[]
     not null default '{}'::smallint[];
 
+alter table public.speaking_exam_attempts
+  add column if not exists intro_skipped boolean
+    not null default false;
+
 do $$
 begin
   if not exists (
@@ -252,6 +259,16 @@ begin
     alter table public.speaking_exam_attempts
       add constraint speaking_exam_attempt_number_positive
       check (attempt_number > 0);
+  end if;
+  if not exists (
+    select 1
+    from pg_catalog.pg_constraint
+    where conrelid = 'public.speaking_exam_attempts'::regclass
+      and conname = 'speaking_exam_intro_skip_check'
+  ) then
+    alter table public.speaking_exam_attempts
+      add constraint speaking_exam_intro_skip_check
+      check (natural_exchange or not intro_skipped);
   end if;
 end;
 $$;
@@ -377,6 +394,7 @@ alter table public.speaking_exam_student_state
   drop column if exists manifest_version,
   drop column if exists question_manifest,
   drop column if exists skipped_question_orders,
+  drop column if exists intro_skipped,
   drop column if exists nervousness_rating,
   drop column if exists rated_at,
   drop column if exists started_at,
@@ -837,6 +855,23 @@ begin
 
     if not found then
       return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+    end if;
+
+    -- The introduction skip and upload reservation use the same recording ->
+    -- exam lock order. Whichever commits first wins, so a late upload cannot
+    -- recreate an introduction after the durable skip has been stored.
+    if v_exam_attempt.intro_skipped
+      and p_exercise_id = format(
+        'exam:%s:%s:p%s:intro',
+        v_exam_attempt.mode_id,
+        v_exam_attempt.id::text,
+        v_exam_attempt.question_manifest -> 0 ->> 'part'
+      )
+    then
+      return jsonb_build_object(
+        'ok', false,
+        'code', 'EXAM_INTRODUCTION_SKIPPED'
+      );
     end if;
 
     select attempt.*
@@ -1462,6 +1497,87 @@ begin
 end;
 $$;
 
+-- Persist an intentional skip of the natural-exchange name introduction.
+-- The recording lock precedes the exam lock everywhere, making this atomic
+-- with upload reservation and parent deletion. Any extant intro metadata row,
+-- including a deleting tombstone, must be resolved before the skip can win.
+create or replace function public.speaking_skip_exam_introduction(
+  p_id uuid,
+  p_student_id uuid
+)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  v_attempt public.speaking_exam_attempts%rowtype;
+  v_intro_exercise_id text;
+begin
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874312)
+  );
+  perform pg_catalog.pg_advisory_xact_lock(
+    pg_catalog.hashtextextended(p_student_id::text, 874314)
+  );
+
+  select attempt.*
+  into v_attempt
+  from public.speaking_exam_attempts attempt
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+  for update;
+
+  if not found then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_NOT_FOUND');
+  end if;
+
+  if v_attempt.completed_at is not null then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_ATTEMPT_ALREADY_COMPLETED');
+  end if;
+
+  if not v_attempt.natural_exchange then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_INTRODUCTION_NOT_REQUIRED');
+  end if;
+
+  v_intro_exercise_id := format(
+    'exam:%s:%s:p%s:intro',
+    v_attempt.mode_id,
+    v_attempt.id::text,
+    v_attempt.question_manifest -> 0 ->> 'part'
+  );
+
+  if exists (
+    select 1
+    from public.speaking_recording_attempts recording
+    where recording.student_id = p_student_id
+      and recording.exercise_id = v_intro_exercise_id
+  ) then
+    return jsonb_build_object('ok', false, 'code', 'EXAM_INTRODUCTION_HAS_RECORDING');
+  end if;
+
+  if v_attempt.intro_skipped then
+    return jsonb_build_object(
+      'ok', true,
+      'idempotent', true,
+      'attempt', to_jsonb(v_attempt)
+    );
+  end if;
+
+  update public.speaking_exam_attempts attempt
+  set intro_skipped = true,
+      updated_at = clock_timestamp()
+  where attempt.id = p_id
+    and attempt.student_id = p_student_id
+  returning * into v_attempt;
+
+  return jsonb_build_object(
+    'ok', true,
+    'attempt', to_jsonb(v_attempt)
+  );
+end;
+$$;
+
 create or replace function public.speaking_complete_exam_attempt(
   p_id uuid,
   p_student_id uuid,
@@ -1532,6 +1648,7 @@ begin
     )
   ) or (
     v_attempt.natural_exchange
+    and not v_attempt.intro_skipped
     and not exists (
       select 1
       from public.speaking_recording_attempts recording
@@ -1845,6 +1962,8 @@ revoke all on function public.speaking_create_exam_attempt(uuid, uuid, text, boo
   from public, anon, authenticated;
 revoke all on function public.speaking_skip_exam_question(uuid, uuid, integer)
   from public, anon, authenticated;
+revoke all on function public.speaking_skip_exam_introduction(uuid, uuid)
+  from public, anon, authenticated;
 revoke all on function public.speaking_complete_exam_attempt(uuid, uuid, integer)
   from public, anon, authenticated;
 revoke all on function public.speaking_delete_exam_attempt(uuid, uuid)
@@ -1882,6 +2001,8 @@ grant execute on function public.speaking_cancel_recording_upload(uuid)
 grant execute on function public.speaking_create_exam_attempt(uuid, uuid, text, boolean, jsonb)
   to service_role;
 grant execute on function public.speaking_skip_exam_question(uuid, uuid, integer)
+  to service_role;
+grant execute on function public.speaking_skip_exam_introduction(uuid, uuid)
   to service_role;
 grant execute on function public.speaking_complete_exam_attempt(uuid, uuid, integer)
   to service_role;

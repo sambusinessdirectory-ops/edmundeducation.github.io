@@ -190,4 +190,316 @@ assert.deepEqual(Array.from(exam.naturalTransitionMessages("p2", 2, null, { answ
 const impossiblePools = { 1: part1.filter(theme => theme.questions.length < 12).slice(0, 4), 2: part2, 3: part3 };
 assert.equal(exam.modeIsFeasible("p1", impossiblePools), false, "Part 1 needs a theme with Q10-Q12");
 
-console.log("Speaking exam mode tests passed: 7 mode boundaries, skipped-question cooldown/review semantics, natural transitions and 19-question full flow.");
+function topLevelFunctionSource(source, name) {
+  const match = new RegExp(`\\n  (?:async )?function ${name}\\(`).exec(source);
+  assert.ok(match, `${name} should exist in speaking-system.js`);
+  const start = match.index + 1;
+  const remaining = source.slice(start + match[0].length - 1);
+  const next = /\n  (?:async )?function [A-Za-z_$][\w$]*\(/.exec(remaining);
+  return source.slice(start, next ? start + match[0].length - 1 + next.index : source.length);
+}
+
+function createOpeningFlowHarness(source) {
+  const content = { innerHTML: "" };
+  const documentListeners = new Map();
+  const windowListeners = new Map();
+  const document = {
+    visibilityState: "visible",
+    body: { classList: { add() {}, remove() {} } },
+    querySelector(selector) {
+      return selector === "[data-view-content]" ? content : null;
+    },
+    querySelectorAll() { return []; },
+    createElement() {
+      return {
+        classList: { add() {}, remove() {}, toggle() {} },
+        dataset: {},
+        append() {},
+        remove() {},
+        setAttribute() {}
+      };
+    },
+    addEventListener(type, listener) {
+      const listeners = documentListeners.get(type) || [];
+      listeners.push(listener);
+      documentListeners.set(type, listeners);
+    }
+  };
+  const localStorage = {
+    getItem() { return null; },
+    setItem() {},
+    removeItem() {}
+  };
+  const audioActions = [];
+  let userGestureActive = false;
+  class GestureAudioContext {
+    constructor() {
+      this.state = "suspended";
+      this.sampleRate = 44100;
+    }
+    createBuffer() { return {}; }
+    createBufferSource() {
+      return {
+        buffer: null,
+        connect() {},
+        start() {
+          assert.equal(userGestureActive, true, "audio priming must run inside the exam-mode click gesture");
+          audioActions.push("audio-prime");
+        }
+      };
+    }
+    resume() {
+      assert.equal(userGestureActive, true, "AudioContext.resume must run inside the exam-mode click gesture");
+      this.state = "running";
+      audioActions.push("audio-resume");
+      return Promise.resolve();
+    }
+  }
+  let unexpectedNetworkCalls = 0;
+  const unexpectedFetch = async () => {
+    unexpectedNetworkCalls += 1;
+    throw new Error("opening-flow harness attempted an unexpected network request");
+  };
+  const window = {
+    EDMUND_SPEAKING_CONFIG: {},
+    EDMUND_SUPABASE: {},
+    EDMUND_SPEAKING_EXAM: exam,
+    AudioContext: GestureAudioContext,
+    document,
+    localStorage,
+    matchMedia: () => ({ matches: false }),
+    addEventListener(type, listener) {
+      const listeners = windowListeners.get(type) || [];
+      listeners.push(listener);
+      windowListeners.set(type, listeners);
+    },
+    setTimeout,
+    clearTimeout,
+    setInterval,
+    clearInterval,
+    requestAnimationFrame: () => 0,
+    cancelAnimationFrame() {},
+    scrollTo() {},
+    fetch: unexpectedFetch
+  };
+  const instrumented = source.replace(/\n  init\(\);\n\}\)\(\);\s*$/, `
+  window.__EDMUND_SPEAKING_OPENING_TEST__ = {
+    state,
+    setupEvents: () => setupEvents(),
+    runOpeningSequence: () => startExamOpeningSequence(),
+    renderOpening: () => renderExamOpening(),
+    skipIntroduction: () => skipExamIntroduction(),
+    currentRecordingItem: () => currentExamRecordingItem(),
+    replaceStartExamPractice: replacement => { startExamPractice = replacement; },
+    replaceStartOpeningSequence: replacement => { startExamOpeningSequence = replacement; },
+    replaceSpeakExamText: replacement => { speakExamText = replacement; },
+    replaceWaitForExamDelay: replacement => { waitForExamDelay = replacement; },
+    replaceRenderExamPractice: replacement => { renderExamPractice = replacement; },
+    replaceApiJson: replacement => { apiJson = replacement; }
+  };
+})();`);
+  assert.notEqual(instrumented, source, "speaking-system.js test hook injection should replace init()");
+  const harnessContext = {
+    window,
+    document,
+    localStorage,
+    console,
+    crypto: webcrypto,
+    navigator: { mediaDevices: null },
+    location: { hostname: "localhost" },
+    URL,
+    URLSearchParams,
+    Headers,
+    Request,
+    Response,
+    FormData,
+    Blob,
+    AbortController,
+    TextEncoder,
+    TextDecoder,
+    Uint8Array,
+    Uint32Array,
+    fetch: unexpectedFetch,
+    setTimeout,
+    clearTimeout,
+    setInterval,
+    clearInterval
+  };
+  vm.createContext(harnessContext);
+  vm.runInContext(instrumented, harnessContext, { filename: "speaking-system.js" });
+  return {
+    hooks: window.__EDMUND_SPEAKING_OPENING_TEST__,
+    content,
+    audioActions,
+    documentListeners,
+    setUserGesture(active) { userGestureActive = Boolean(active); },
+    unexpectedNetworkCalls: () => unexpectedNetworkCalls
+  };
+}
+
+const speakingSystemSource = readFileSync(`${repository}/speaking-system.js`, "utf8");
+const openingSource = topLevelFunctionSource(speakingSystemSource, "renderExamOpening");
+const openingSequenceSource = topLevelFunctionSource(speakingSystemSource, "startExamOpeningSequence");
+const skipIntroductionSource = topLevelFunctionSource(speakingSystemSource, "skipExamIntroduction");
+const setupEventsSource = topLevelFunctionSource(speakingSystemSource, "setupEvents");
+
+assert.match(openingSource, /examVoiceControlHtml\(\{ allowIntroSkip: true \}\)/, "the opening panel must render an always-available introduction skip control");
+assert.match(speakingSystemSource, /data-exam-skip-intro/, "the introduction skip control needs a stable DOM hook");
+assert.match(setupEventsSource, /data-exam-skip-intro[\s\S]*?skipExamIntroduction\(\)/, "the introduction skip control must call skipExamIntroduction");
+assert.match(skipIntroductionSource, /\["opening", "intro-answer"\]\.includes\(session\.phase\)/, "introduction skip must work while either opening message is active");
+assert.match(skipIntroductionSource, /introduction\/skip/, "introduction skip must persist its non-recording outcome");
+assert.doesNotMatch(skipIntroductionSource, /recordingIntroId|startRecording|saveRecording|FormData|method:\s*["']POST["']/, "introduction skip must never create or upload a recording");
+assert.match(openingSequenceSource, /await speakExamText\("Okay, let's begin\."\)/, "opening voice must start with the examiner greeting");
+assert.match(openingSequenceSource, /await speakExamText\("Could you tell me your full name please\?"\)/, "opening voice must ask the name starter once");
+const unlockIndex = setupEventsSource.indexOf("unlockExamAudio();");
+const startIndex = setupEventsSource.indexOf("startExamPractice(examMode.dataset.examMode);");
+assert.ok(unlockIndex >= 0 && startIndex > unlockIndex, "the click gesture must unlock examiner audio before asynchronous exam creation starts");
+
+const openingHarness = createOpeningFlowHarness(speakingSystemSource);
+const openingHooks = openingHarness.hooks;
+assert.ok(openingHooks, "opening-flow test hooks should load");
+openingHooks.state.user = { id: fixedAttempt, role: "student", name: "Test Student" };
+openingHooks.state.access = {};
+openingHooks.setupEvents();
+const clickHandler = openingHarness.documentListeners.get("click")?.[0];
+assert.equal(typeof clickHandler, "function", "exam-mode click handler should be registered");
+const clickActions = [];
+openingHooks.replaceStartExamPractice(modeId => {
+  clickActions.push(`start:${modeId}`);
+  openingHarness.audioActions.push("exam-start");
+});
+const examModeNode = {
+  dataset: { examMode: "p1" },
+  getAttribute() { return null; }
+};
+const clickTarget = {
+  closest(selector) { return selector === "[data-exam-mode]" ? examModeNode : null; }
+};
+openingHarness.setUserGesture(true);
+try {
+  clickHandler({ target: clickTarget, preventDefault() {} });
+} finally {
+  openingHarness.setUserGesture(false);
+}
+assert.deepEqual(openingHarness.audioActions, ["audio-prime", "audio-resume", "exam-start"], "the user gesture must prime and resume audio before exam startup");
+assert.deepEqual(clickActions, ["start:p1"]);
+assert.equal(openingHooks.state.examAudioContext?.state, "running", "the unlocked audio context must remain ready for the delayed opening voice");
+
+const firstRealQuestion = { kind: "question", part: 1, globalOrder: 1, title: "First real question" };
+const openingIntro = { kind: "intro", part: 1, globalOrder: 0, title: "Could you tell me your full name please?", saved: false };
+openingHooks.state.route = { view: "exam-practice", exam: "ielts", modeId: "p1" };
+openingHooks.state.examFlowGeneration = 10;
+openingHooks.state.examSession = {
+  id: fixedAttempt,
+  modeId: "p1",
+  mode: exam.modeForId("p1"),
+  phase: "opening",
+  openingStarted: false,
+  naturalExchange: true,
+  introItem: openingIntro,
+  items: [firstRealQuestion],
+  currentIndex: 0
+};
+const spokenOpeningMessages = [];
+const openingDelays = [];
+openingHooks.replaceSpeakExamText(async message => {
+  assert.equal(openingHooks.state.examAudioContext?.state, "running", "opening speech must use the context unlocked by the earlier user gesture");
+  spokenOpeningMessages.push(message);
+  return true;
+});
+openingHooks.replaceWaitForExamDelay(async milliseconds => {
+  openingDelays.push(milliseconds);
+  return true;
+});
+await openingHooks.runOpeningSequence();
+assert.deepEqual(spokenOpeningMessages, ["Okay, let's begin.", "Could you tell me your full name please?"]);
+assert.deepEqual(openingDelays, [2000]);
+assert.equal(openingHooks.state.examSession.phase, "intro-answer");
+
+openingHooks.replaceStartOpeningSequence(() => {});
+for (const phase of ["opening", "intro-answer"]) {
+  openingHooks.state.examSession.phase = phase;
+  openingHarness.content.innerHTML = "";
+  openingHooks.renderOpening();
+  const skipButton = openingHarness.content.innerHTML.match(/<button[^>]*data-exam-skip-intro[^>]*>/)?.[0] || "";
+  assert.ok(skipButton, `the name starter skip button must render during ${phase}`);
+  assert.doesNotMatch(skipButton, /\bhidden\b|\bdisabled\b/, `the idle name starter skip button must be usable during ${phase}`);
+  assert.ok(
+    openingHarness.content.innerHTML.indexOf(skipButton) < openingHarness.content.innerHTML.indexOf('class="exam-intro-answer"'),
+    "the starter skip belongs in the examiner opening panel"
+  );
+}
+
+const introSkipApiCalls = [];
+openingHooks.replaceApiJson(async (path, options = {}) => {
+  introSkipApiCalls.push({ path: String(path), method: String(options.method || "GET") });
+  return { attempt: { introSkipped: true } };
+});
+let skippedRenderCount = 0;
+openingHooks.replaceRenderExamPractice(() => { skippedRenderCount += 1; });
+for (const phase of ["opening", "intro-answer"]) {
+  const intro = { kind: "intro", part: 1, globalOrder: 0, title: "Could you tell me your full name please?", saved: false };
+  const realQuestion = { kind: "question", part: 1, globalOrder: 1, title: "First real question" };
+  const messageFinishes = [];
+  const speechFinishes = [];
+  let audioAbortCount = 0;
+  const callsBefore = introSkipApiCalls.length;
+  const rendersBefore = skippedRenderCount;
+  openingHooks.state.route = { view: "exam-practice", exam: "ielts", modeId: "p1" };
+  openingHooks.state.examSession = {
+    id: fixedAttempt,
+    modeId: "p1",
+    phase,
+    openingStarted: true,
+    naturalExchange: true,
+    introItem: intro,
+    items: [realQuestion],
+    currentIndex: 0
+  };
+  openingHooks.state.examSkipSaving = false;
+  openingHooks.state.examSaving = false;
+  openingHooks.state.recordingPermissionPending = false;
+  openingHooks.state.recordingProcessing = false;
+  openingHooks.state.recordingTransition = "";
+  openingHooks.state.mediaRecorder = null;
+  openingHooks.state.recordedMp3 = null;
+  openingHooks.state.recordedMp3Url = "";
+  openingHooks.state.recordingSaved = false;
+  openingHooks.state.recordingContextKey = "";
+  openingHooks.state.examPhaseTimer = 41;
+  openingHooks.state.examMessageTimer = 42;
+  openingHooks.state.examMessageFinish = value => messageFinishes.push(value);
+  openingHooks.state.examSpeechTimeout = 43;
+  openingHooks.state.examSpeechFinish = value => speechFinishes.push(value);
+  openingHooks.state.examAudioAbortController = { abort() { audioAbortCount += 1; } };
+  openingHooks.state.examAudioSource = null;
+
+  await openingHooks.skipIntroduction();
+
+  assert.equal(introSkipApiCalls.length, callsBefore + 1, `${phase} skip should make one metadata-only request`);
+  assert.deepEqual(introSkipApiCalls.at(-1), {
+    path: `/v1/exam-attempts/${fixedAttempt}/introduction/skip`,
+    method: "PUT"
+  });
+  assert.equal(introSkipApiCalls.at(-1).path.includes("/recordings"), false, "starter skip must not call the recording service");
+  assert.equal(intro.skipped, true, `${phase} starter should be marked skipped locally`);
+  assert.equal(intro.saved, false, `${phase} starter skip must not masquerade as a saved recording`);
+  assert.equal("recordingId" in intro, false, `${phase} starter skip must not create a recording id`);
+  assert.equal(openingHooks.state.examSession.phase, "question", `${phase} skip should enter the real exam`);
+  assert.equal(openingHooks.state.examSession.currentIndex, 0, `${phase} skip should start at the first real question`);
+  assert.equal(openingHooks.currentRecordingItem(), realQuestion, `${phase} skip should make the first real question current`);
+  assert.equal(skippedRenderCount, rendersBefore + 1, `${phase} skip should render the first real question once`);
+  assert.equal(openingHooks.state.examPhaseTimer, 0, `${phase} skip should stop the active phase timer`);
+  assert.equal(openingHooks.state.examMessageTimer, 0, `${phase} skip should stop the opening delay`);
+  assert.deepEqual(messageFinishes, [false], `${phase} skip should settle the opening delay`);
+  assert.equal(openingHooks.state.examSpeechTimeout, 0, `${phase} skip should stop the active speech timeout`);
+  assert.deepEqual(speechFinishes, [false], `${phase} skip should settle active examiner speech`);
+  assert.equal(audioAbortCount, 1, `${phase} skip should abort any examiner audio request`);
+  assert.equal(openingHooks.state.examSkipSaving, false, `${phase} skip should release its busy state`);
+  assert.equal(openingHooks.state.mediaRecorder, null, `${phase} skip should not start a recorder`);
+  assert.equal(openingHooks.state.recordedMp3, null, `${phase} skip should not create audio data`);
+  assert.equal(openingHooks.state.recordingContextKey, "", `${phase} skip should not reserve an intro recording context`);
+}
+assert.equal(openingHarness.unexpectedNetworkCalls(), 0, "opening-flow tests must not fall through to real network access");
+
+console.log("Speaking exam mode tests passed: 7 mode boundaries, skipped-question cooldown/review semantics, natural transitions, user-gesture opening audio, skippable name starter and 19-question full flow.");
