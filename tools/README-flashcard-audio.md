@@ -8,26 +8,49 @@ The website does not synthesize speech in the browser. Official flashcard fronts
 are rendered once with Kokoro-82M, compressed to MP3, and looked up through
 `flashcards-audio-manifest.js`.
 
-The generator reads the inline seed in `flashcards.html` plus the maintained
-external seeds `flashcards-dse-writing-2025-data.js` and
-`flashcards-dse-listening-data.js`. If another external seed is introduced, add
-its filename and assignment marker to `EXTERNAL_SEED_ASSIGNMENTS` before
-building audio.
+The generator reads the inline seed in `flashcards.html` plus every maintained
+external seed listed in `EXTERNAL_SEED_ASSIGNMENTS`. If another external seed is
+introduced, add its filename and assignment marker there before building audio.
+
+## IELTS Reading Passage 1 import
+
+The 157 supplied Passage 1 PDF decks are converted into the generated static
+seed `flashcards-ielts-reading-passage-1-data.js`. Deck IDs preserve their source
+ordinals (for example, `ielts/reading/passage-1/Practice 44`) so existing student
+progress is never renumbered. Display titles are joined by ordinal from
+`tools/ielts-reading-passage-titles.json`. The browser loads this large seed only
+when a user opens IELTS Reading, so it does not delay the login page or unrelated
+flashcard sections.
+
+Regenerate the seed from the repository root with:
+
+```sh
+python3 tools/build-ielts-reading-passage1-flashcards.py \
+  --source "/path/to/IELTS Reading Passage 1 Cards" \
+  --titles tools/ielts-reading-passage-titles.json \
+  --output flashcards-ielts-reading-passage-1-data.js
+```
+
+Then rebuild Edmund Neural audio normally. The importer validates every PDF
+table, bilingual row, title mapping, source page and ordinal before replacing
+the generated seed.
 
 ## Deployment layout
 
-There is no single combined flashcard-audio file. The live library is:
+The live library uses a hybrid layout:
 
-- `assets/flashcards/audio/edmund-neural/v1/`: one hash-named MP3 per unique
-  normalized English front, distributed across `00` through `ff` subfolders;
-- `flashcards-audio-manifest.js`: the front-text-to-MP3 lookup table;
-- `edmund-audio-config.js`: the optional external audio base URL.
+- Existing recordings remain as hash-named MP3s under
+  `assets/flashcards/audio/edmund-neural/v1/`.
+- The 27,280 Passage 1 recordings are stored in R2 as 256 immutable hash-prefix
+  packs. Their public URLs use the release-specific
+  `v1-passage1-20260722/` prefix. `workers/edmund-audio/src/flashcard-pack-index.json`
+  maps each public MP3 URL to its byte range in a pack.
+- `flashcards-audio-manifest.js` maps normalized front text to either a local
+  path or an absolute URL on the read-only Edmund Neural audio Worker.
 
-For an initial object-storage migration, upload the audio directory with every
-relative object key preserved. For later card imports, upload only the newly
-created hash-named MP3s and deploy the refreshed manifest; unchanged MP3s do not
-need to be deleted or uploaded again. A ZIP is useful only for transfer or
-backup—the live site cannot play MP3s from inside a ZIP.
+This avoids adding 246.5 MiB to the GitHub Pages deployment while retaining local
+URLs for 1,122 existing recordings and browser byte-range playback for the
+26,158 new recordings.
 
 ## Local setup
 
@@ -67,11 +90,34 @@ manifest. Shard manifests are build-only files and must not be deployed.
 Use `--prune-orphans` only with a verified full-corpus run to remove audio for
 renamed or deleted card fronts.
 
+After completing the Passage 1 recordings, build and validate the R2 packs:
+
+```sh
+.venv-tts/bin/python tools/build-flashcard-audio-r2-packs.py
+.venv-tts/bin/python tools/upload-flashcard-audio-packs-r2.py \
+  --wrangler workers/speaking-system/node_modules/.bin/wrangler \
+  --check
+```
+
+Upload the validated packs by removing `--check`, then deploy
+`workers/edmund-audio/`. Once the generated pack index is present, a full
+`--manifest-only` run retains valid local paths and emits release-versioned
+Worker URLs for indexed recordings that are not stored locally. The uploader
+marks the index release complete only after all 256 packs succeed, so a locally
+built but unfinished R2 release cannot enter the production manifest. Pack binaries,
+shard manifests, and upload checkpoints live under `.flashcards-audio-build/`
+and are never committed. Upload checkpoints are bound to the bucket, pack prefix,
+corpus hash, byte total and entry counts so they cannot be reused for another
+release accidentally.
+
 The audio build version is part of the directory path. Bump
 `AUDIO_BUILD_VERSION` in the generator whenever the voice, model, speed,
 language, compression, or pronunciation recipe changes; this prevents browsers
-from reusing stale MP3s.
+from reusing stale local MP3s. Packed releases must likewise receive new
+`PUBLIC_AUDIO_PATH_PREFIX` and `PACK_KEY_PREFIX` values; never replace bytes under
+an already published immutable URL.
 
-Whenever card fronts change, rerun the generator and commit the new MP3 files
-alongside the updated manifest. User-created cards are not part of the static
-corpus and intentionally show that no Edmund Neural recording is available.
+Whenever card fronts change, rerun the generator and update the appropriate
+local or R2 release alongside the refreshed manifest. User-created cards are not
+part of the static corpus and intentionally show that no Edmund Neural recording
+is available.

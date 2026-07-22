@@ -1,1 +1,4 @@
 **/.wrangler/
+**/__pycache__/
+.flashcards-audio-build/
+tmp/

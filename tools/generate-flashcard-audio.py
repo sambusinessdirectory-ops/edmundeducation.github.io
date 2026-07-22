@@ -24,6 +24,11 @@ PREVIEW_TEXT = "Welcome to Edmund Education. Let's practise English together."
 INLINE_ASSIGNMENT = "window.EDMUND_FLASHCARD_SEED = "
 EXTERNAL_SEED_ASSIGNMENTS = (
     (
+        "flashcards-ielts-reading-passage-1-data.js",
+        "window.EDMUND_IELTS_READING_PASSAGE_1_SEED = ",
+        None,
+    ),
+    (
         "flashcards-ielts-writing-advantage-cause-direct-data.js",
         "window.EDMUND_IELTS_WRITING_ADVANTAGE_CAUSE_DIRECT_SEED = ",
         None,
@@ -101,6 +106,7 @@ EXTERNAL_SEED_ASSIGNMENTS = (
 )
 AUDIO_BUILD_VERSION = "v1"
 STATIC_AUDIO_ROOT = f"assets/flashcards/audio/edmund-neural/{AUDIO_BUILD_VERSION}"
+CLOUD_PACK_INDEX_RELATIVE = Path("workers/edmund-audio/src/flashcard-pack-index.json")
 SPOKEN_OVERRIDES = {
     "AR": "A R",
     "built-in GPS": "built-in G P S",
@@ -179,6 +185,25 @@ SPOKEN_OVERRIDES = {
     "swim 1,500 metres": "swim one thousand five hundred metres",
     "more than 4,000 students": "more than four thousand students",
     "since 1997": "since nineteen ninety-seven",
+    "ALH84001 meteorite": "A L H eight four zero zero one meteorite",
+    "Louis XVI": "Louis the sixteenth",
+    "the fall of Louis XVI": "the fall of Louis the sixteenth",
+    "the G8 nations": "the G eight nations",
+    "updated NHW11 Prius": "updated N H W eleven Prius",
+    "CaCO3": "calcium carbonate",
+    "6-n-propylthiouracil": "six N propyl thiouracil",
+    "covering a 60 × 60-metre area": "covering a sixty by sixty metre area",
+    "fast/slow metabolism debate": "fast or slow metabolism debate",
+    "above 70 dBA": "above seventy D B A",
+    "fMRI scans": "F M R I scans",
+    "PhD research": "P H D research",
+    "CFCs": "C F C's",
+    "recover an mtDNA fingerprint": "recover an M T D N A fingerprint",
+    "an estimated $500 million": "an estimated five hundred million dollars",
+    "saved $3.5 million on": "saved three point five million dollars on",
+    "£6 million": "six million pounds",
+    "a $50 fine": "a fifty dollar fine",
+    "under $1 per gallon": "under one dollar per gallon",
 }
 
 
@@ -222,10 +247,22 @@ def spoken_text(display_text: str) -> str:
     text = SPOKEN_OVERRIDES.get(display_text, display_text)
     text = re.sub(r"(?:\.{3}|…+)", ", ", text)
     text = re.sub(r"\b24/7\b", "twenty-four seven", text)
+    text = re.sub(r"\band/or\b", "and or", text, flags=re.IGNORECASE)
     text = re.sub(r"\bCOVID-19\b", "COVID nineteen", text, flags=re.IGNORECASE)
+    text = re.sub(r"\bWorld War II\b", "World War Two", text)
+    text = re.sub(r"\b3D\b", "three D", text)
+    text = re.sub(r"(?<![A-Za-z0-9])H\+(?![A-Za-z0-9])", "H plus", text)
+    text = re.sub(r"\b(\d+)°C\b", r"\1 degrees Celsius", text)
+    text = re.sub(r"(?<![A-Za-z0-9])CO(?:2|₂)(?![A-Za-z0-9])", "C O two", text)
     text = re.sub(r"\bIELTS\b", "eye elts", text)
     text = re.sub(r"\bS1\b", "S one", text)
-    for initialism in ("CCTV", "GPS", "DNA", "IP", "AQ", "TVB", "TV", "CV", "PE", "QR", "IT", "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK"):
+    for initialism in (
+        "CCTV", "GPS", "DNA", "RNA", "IP", "AQ", "TVB", "TV", "CV", "PE", "QR", "IT",
+        "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK", "IQ", "EQ", "DS", "BC",
+        "BCE", "UN", "CD", "AFM", "GDP", "HIV", "GM", "ADHD", "EV", "SMS", "MTV", "ID",
+        "ZEV", "GSM", "IPCC", "DC", "ESA", "ATM", "LPG", "LP", "USB", "MRI", "FA", "WA",
+        "EP", "AMP", "AD",
+    ):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
     text = re.sub(r"£\s*([\d,]+)", r"\1 pounds", text)
     text = re.sub(r"\bH K\$\s*([\d,]+)", r"\1 Hong Kong dollars", text)
@@ -242,6 +279,51 @@ def spoken_text(display_text: str) -> str:
 def audio_relative_path(text: str) -> str:
     digest = hashlib.sha256(text.encode("utf-8")).hexdigest()[:24]
     return f"{STATIC_AUDIO_ROOT}/{digest[:2]}/{digest}.mp3"
+
+
+def load_cloud_pack_index(source_root: Path) -> dict[str, object] | None:
+    path = source_root / CLOUD_PACK_INDEX_RELATIVE
+    if not path.is_file():
+        return None
+    value = json.loads(path.read_text(encoding="utf-8"))
+    if (
+        not isinstance(value, dict)
+        or value.get("schemaVersion") != 1
+        or not isinstance(value.get("cloudBaseUrl"), str)
+        or not isinstance(value.get("audioPathPrefix"), str)
+        or not isinstance(value.get("entries"), dict)
+        or not isinstance(value.get("meta"), dict)
+        or value["meta"].get("r2UploadComplete") is not True
+    ):
+        return None
+    return value
+
+
+def cloud_audio_url(relative_path: str, cloud_index: dict[str, object] | None) -> str:
+    if cloud_index is None:
+        return ""
+    public_prefix = str(cloud_index["audioPathPrefix"])
+    if (
+        not public_prefix.startswith("assets/flashcards/audio/edmund-neural/")
+        or ".." in public_prefix
+        or not public_prefix.endswith("/")
+        or not relative_path.endswith(".mp3")
+    ):
+        return ""
+    digest = Path(relative_path).stem
+    if not re.fullmatch(r"[0-9a-f]{24}", digest):
+        return ""
+    prefix_entries = cloud_index["entries"].get(digest[:2], {})
+    entry = prefix_entries.get(digest[2:]) if isinstance(prefix_entries, dict) else None
+    if (
+        not isinstance(entry, list)
+        or len(entry) != 2
+        or any(not isinstance(value, int) or value < 0 for value in entry)
+        or entry[1] <= 1000
+    ):
+        return ""
+    base_url = str(cloud_index["cloudBaseUrl"]).rstrip("/")
+    return f"{base_url}/{public_prefix}{digest[:2]}/{digest}.mp3"
 
 
 def valid_existing_audio(path: Path) -> bool:
@@ -351,17 +433,24 @@ def main() -> int:
             if int(hashlib.sha256(text.encode("utf-8")).hexdigest(), 16) % args.shard_count == args.shard_index
         ]
 
-    expected = {text: audio_relative_path(text) for text in texts}
+    cloud_index = load_cloud_pack_index(source_root)
+    expected: dict[str, tuple[str, str]] = {}
+    for text in texts:
+        relative_path = audio_relative_path(text)
+        cloud_url = cloud_audio_url(relative_path, cloud_index)
+        expected[text] = (relative_path, cloud_url)
     force_pattern = re.compile(args.force_regex) if args.force_regex else None
     complete_entries: dict[str, str] = {}
-    pending: list[tuple[str, str, Path]] = []
-    for text, relative_path in expected.items():
+    pending: list[tuple[str, str, str, Path]] = []
+    for text, (relative_path, cloud_url) in expected.items():
         output_path = output_root / relative_path
         forced = bool(force_pattern and force_pattern.search(text))
         if not forced and valid_existing_audio(output_path):
             complete_entries[text] = relative_path
+        elif not forced and cloud_url:
+            complete_entries[text] = cloud_url
         else:
-            pending.append((text, relative_path, output_path))
+            pending.append((text, relative_path, relative_path, output_path))
 
     print(
         f"Corpus: {len(texts)} utterances; existing: {len(complete_entries)}; pending: {len(pending)}",
@@ -382,12 +471,12 @@ def main() -> int:
             print("Manifest is incomplete; generate missing audio before deployment.", file=sys.stderr)
             return 2
         if initial_complete and args.prune_orphans:
-            removed = prune_orphan_audio(output_root, set(expected.values()))
+            removed = prune_orphan_audio(output_root, {item[0] for item in expected.values()})
             print(f"Pruned {removed} orphan audio files.", flush=True)
         return 0
     if not pending:
         if initial_complete and args.prune_orphans:
-            removed = prune_orphan_audio(output_root, set(expected.values()))
+            removed = prune_orphan_audio(output_root, {item[0] for item in expected.values()})
             print(f"Pruned {removed} orphan audio files.", flush=True)
         return 0
 
@@ -397,7 +486,7 @@ def main() -> int:
 
     started = time.perf_counter()
     failures: list[dict[str, str]] = []
-    for index, (text, relative_path, output_path) in enumerate(pending, start=1):
+    for index, (text, relative_path, manifest_value, output_path) in enumerate(pending, start=1):
         try:
             audio, sample_rate = kokoro.create(
                 spoken_text(text),
@@ -417,7 +506,7 @@ def main() -> int:
                 bitrate_mode="VARIABLE",
             )
             temp_path.replace(output_path)
-            complete_entries[text] = relative_path
+            complete_entries[text] = manifest_value
         except Exception as error:  # Keep the long batch resumable.
             failures.append({"text": text, "error": repr(error)})
             print(f"ERROR {text!r}: {error!r}", file=sys.stderr, flush=True)
@@ -450,7 +539,7 @@ def main() -> int:
         speed=args.speed,
     )
     if complete and args.prune_orphans:
-        removed = prune_orphan_audio(output_root, set(expected.values()))
+        removed = prune_orphan_audio(output_root, {item[0] for item in expected.values()})
         print(f"Pruned {removed} orphan audio files.", flush=True)
     if failures:
         failure_name = (
