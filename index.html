@@ -640,6 +640,137 @@
       padding-left: 34px;
     }
 
+    .sentence-structure-card {
+      --category-key-lip: #315a9c;
+      --category-key-shadow: rgba(30,64,119,0.24);
+      color: #172b55;
+      border-color: rgba(49,90,156,0.28);
+      background:
+        linear-gradient(90deg, transparent 0 35px, rgba(190,58,62,0.28) 36px, transparent 38px),
+        repeating-linear-gradient(180deg, transparent 0 27px, rgba(49,90,156,0.13) 28px, transparent 29px),
+        linear-gradient(135deg, #fffdf7 0%, #edf3ff 58%, #d9e8ff 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.92),
+        inset 0 -8px 0 rgba(49,90,156,0.10),
+        0 8px 0 #315a9c,
+        0 22px 34px rgba(30,64,119,0.20);
+    }
+
+    .sentence-structure-card::before {
+      color: rgba(23,43,85,0.28);
+      text-shadow: none;
+    }
+
+    .sentence-structure-card::after {
+      display: none;
+    }
+
+    .sentence-structure-card:hover,
+    .sentence-structure-card:focus-visible {
+      background:
+        linear-gradient(90deg, transparent 0 35px, rgba(190,58,62,0.34) 36px, transparent 38px),
+        repeating-linear-gradient(180deg, transparent 0 27px, rgba(49,90,156,0.17) 28px, transparent 29px),
+        linear-gradient(135deg, #fffef9 0%, #e4edff 58%, #cbdfff 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.96),
+        inset 0 -8px 0 rgba(49,90,156,0.12),
+        0 12px 0 #315a9c,
+        0 30px 46px rgba(30,64,119,0.27);
+    }
+
+    .sentence-diagram {
+      position: absolute;
+      top: clamp(14px, 1.1vw, 19px);
+      left: clamp(20px, 1.5vw, 27px);
+      z-index: 1;
+      width: min(60%, 174px);
+      height: 66px;
+      color: #244c86;
+      pointer-events: none;
+    }
+
+    .diagram-root {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 4px 10px;
+      border: 1px solid rgba(36,76,134,0.34);
+      border-radius: 7px;
+      background: rgba(255,255,255,0.88);
+      box-shadow: 0 3px 0 rgba(49,90,156,0.14);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 11px;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .diagram-branches {
+      position: absolute;
+      top: 46px;
+      left: 0;
+      right: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .diagram-branches::before {
+      content: "";
+      position: absolute;
+      top: -13px;
+      left: 16.666%;
+      right: 16.666%;
+      border-top: 2px solid rgba(36,76,134,0.48);
+    }
+
+    .diagram-branches::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: -25px;
+      height: 12px;
+      border-left: 2px solid rgba(36,76,134,0.48);
+      transform: translateX(-1px);
+    }
+
+    .diagram-node {
+      position: relative;
+      display: grid;
+      min-height: 23px;
+      place-items: center;
+      border: 1px solid rgba(36,76,134,0.34);
+      border-radius: 6px;
+      background: rgba(255,255,255,0.90);
+      box-shadow: 0 3px 0 rgba(49,90,156,0.13);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 800;
+    }
+
+    .diagram-node::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 100%;
+      height: 13px;
+      border-left: 2px solid rgba(36,76,134,0.48);
+      transform: translateX(-1px);
+    }
+
+    .sentence-structure-card .category-name {
+      max-width: 86%;
+      margin-top: clamp(76px, 5.4vw, 90px);
+      color: #172b55;
+      font-size: clamp(20px, 1.12vw, 25px);
+      line-height: 1.06;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.92);
+    }
+
     .schedule-system-card {
       --category-key-lip: #7f4f2b;
       --category-key-shadow: rgba(93,52,25,0.26);
@@ -1491,6 +1622,18 @@
 
         <a class="category speaking-system-card" href="speaking-system.html" aria-label="(學生使用) Speaking 說話練習系統">
           <span class="category-name">(學生使用)<br>Speaking 說話練習系統</span>
+        </a>
+
+        <a class="category sentence-structure-card" href="sentence-structure.html" aria-label="(學生使用) 句子結構 Sentence Structure 學習系統">
+          <span class="sentence-diagram" aria-hidden="true">
+            <span class="diagram-root">Sentence</span>
+            <span class="diagram-branches">
+              <span class="diagram-node">S</span>
+              <span class="diagram-node">V</span>
+              <span class="diagram-node">O</span>
+            </span>
+          </span>
+          <span class="category-name">(學生使用)<br>句子結構<br>Sentence Structure<br>學習系統</span>
         </a>
 
       </div>

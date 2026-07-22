@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EdmundEducation 學生句子結構 Sentence Structure 學習系統">
+  <meta name="theme-color" content="#233a78">
+  <title>句子結構學習系統｜EdmundEducation</title>
+  <link rel="icon" href="Company Logo for Cover Page.png">
+  <link rel="stylesheet" href="sentence-structure.css">
+</head>
+<body>
+  <a class="skip-link" href="#sentence-structure-main">跳至主要內容</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="返回 EdmundEducation 首頁">
+        <img class="brand-mark" src="Company Logo for Cover Page.png" alt="">
+        <span class="brand-copy">
+          <strong>EdmundEducation</strong>
+          <small>Sentence Structure System</small>
+        </span>
+      </a>
+      <div class="header-actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-dashboard-button hidden>學習首頁</button>
+        <button class="header-button" type="button" data-admin-students-button hidden>學生記錄</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell" id="sentence-structure-main">
+    <section class="view" data-view="login">
+      <div class="login-layout">
+        <article class="login-hero glass-panel">
+          <div class="hero-grid" aria-hidden="true"></div>
+          <p class="eyebrow">EDMUND SENTENCE LAB</p>
+          <div class="hero-symbol" aria-hidden="true">
+            <span>S</span><i>＋</i><span>V</span><i>＋</i><span>?</span>
+          </div>
+          <div class="hero-copy">
+            <p class="student-label">(學生使用)</p>
+            <h1>句子結構<br><span>Sentence Structure</span><br>學習系統</h1>
+            <p>由公式、例句及重要規則開始，再透過分輪句子改寫練習，把英文句型真正變成自己的能力。</p>
+          </div>
+        </article>
+
+        <section class="login-panel glass-panel" aria-labelledby="login-title">
+          <div class="login-heading">
+            <span class="section-number">01</span>
+            <div>
+              <p class="eyebrow">STUDENT / ADMIN LOGIN</p>
+              <h2 id="login-title">登入學習系統</h2>
+              <p>使用 Flashcard、寫作練習或教材下載區的同一個學生帳戶登入。</p>
+            </div>
+          </div>
+          <form class="login-form" data-login-form novalidate>
+            <label class="field">
+              <span>用戶名稱</span>
+              <input id="sentence-structure-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
+            </label>
+            <label class="field">
+              <span>密碼</span>
+              <span class="password-field">
+                <input id="sentence-structure-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
+                <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
+              </span>
+            </label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button login-button" type="submit" data-login-button>登入並開始學習</button>
+          </form>
+          <p class="account-note">學生帳戶由 EdmundEducation 統一管理；本頁不會建立另一組密碼。</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="view" data-view="dashboard" hidden>
+      <section class="dashboard-hero glass-panel">
+        <div>
+          <p class="eyebrow">CHOOSE A STRUCTURE</p>
+          <h1>句子結構學習系統</h1>
+          <p data-dashboard-welcome>選擇一個句型，由概念開始，再完成 50 題分輪練習。</p>
+        </div>
+        <div class="dashboard-metric" aria-label="可選課題數量">
+          <strong>2</strong>
+          <span>個核心句型</span>
+        </div>
+      </section>
+
+      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="句型選擇"></section>
+
+      <section class="history-panel glass-panel" aria-labelledby="history-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ATTEMPT RECORD</p>
+            <h2 id="history-heading">練習記錄</h2>
+          </div>
+          <button class="small-button" type="button" data-refresh-history>重新整理</button>
+        </div>
+        <div class="history-list" data-history-list>
+          <p class="empty-state">登入後會在這裡顯示你的練習記錄。</p>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" data-view="lesson" hidden>
+      <section class="lesson-shell glass-panel">
+        <div class="lesson-topbar">
+          <button class="text-button" type="button" data-back-to-dashboard>← 返回句型選擇</button>
+          <span class="lesson-round" data-lesson-round hidden></span>
+        </div>
+        <div class="lesson-title-row">
+          <div>
+            <p class="eyebrow" data-lesson-kicker>SENTENCE STRUCTURE</p>
+            <h1 data-lesson-title></h1>
+          </div>
+          <button class="bookmark-library-button" type="button" data-open-bookmarks>☆ 查看書簽</button>
+        </div>
+        <nav class="lesson-stepper" data-lesson-stepper aria-label="課堂頁面">
+          <button type="button" data-step="1"><span>1</span><strong>公式＋例句</strong><small>Formula + Example</small></button>
+          <button type="button" data-step="2"><span>2</span><strong>學習好處</strong><small>Benefits</small></button>
+          <button type="button" data-step="3"><span>3</span><strong>重要規則</strong><small>Important Rules</small></button>
+          <button type="button" data-step="4"><span>4</span><strong>句子練習</strong><small>Exercise</small></button>
+        </nav>
+        <div class="lesson-content" data-lesson-content></div>
+      </section>
+    </section>
+
+    <section class="view" data-view="bookmarks" hidden>
+      <section class="utility-panel glass-panel">
+        <div class="section-heading utility-heading">
+          <div>
+            <p class="eyebrow">SAVED QUESTIONS</p>
+            <h1>書簽</h1>
+            <p>你收藏的題目會跟隨學生帳戶同步。</p>
+          </div>
+          <button class="secondary-button compact-button" type="button" data-bookmarks-back>返回學習首頁</button>
+        </div>
+        <div class="bookmark-list" data-bookmark-list></div>
+      </section>
+    </section>
+
+    <section class="view" data-view="admin" hidden>
+      <section class="admin-hero glass-panel">
+        <div>
+          <p class="eyebrow">ADMIN CONTROL</p>
+          <h1>句子結構學習記錄</h1>
+          <p>查看使用共用 EdmundEducation 帳戶的學生及其句型練習進度。</p>
+        </div>
+        <label class="admin-search">
+          <span>搜尋學生</span>
+          <input type="search" data-admin-search placeholder="輸入學生名稱">
+        </label>
+      </section>
+      <section class="admin-grid">
+        <div class="admin-list-panel glass-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">STUDENTS</p>
+              <h2>學生帳戶</h2>
+            </div>
+            <span class="count-badge" data-admin-student-count>0</span>
+          </div>
+          <div class="admin-student-list" data-admin-student-list></div>
+        </div>
+        <div class="admin-detail-panel glass-panel" data-admin-detail>
+          <div class="admin-empty">
+            <span aria-hidden="true">→</span>
+            <h2>選擇一位學生</h2>
+            <p>學生的完成進度、分輪結果及書簽會顯示在這裡。</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <template id="sentence-structure-loading-template">
+    <div class="loading-state" role="status">
+      <span class="loading-spinner" aria-hidden="true"></span>
+      <p>正在載入…</p>
+    </div>
+  </template>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="supabase-config.js"></script>
+  <script src="sentence-structure-config.js"></script>
+  <script src="sentence-structure-data.js"></script>
+  <script type="module" src="sentence-structure.js"></script>
+</body>
+</html>
