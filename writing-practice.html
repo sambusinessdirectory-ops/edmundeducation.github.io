@@ -2788,7 +2788,7 @@
 
       .practice-listening-navigation {
         display: grid;
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         width: 100%;
       }
 
@@ -5267,6 +5267,10 @@ Device: concession 讓步
     let activeEssayStopTime = null;
     let activeEssaySegmentEnd = null;
     const ESSAY_AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
+    const PRACTICE_LISTENING_PREROLL = 0.20;
+    const PRACTICE_LISTENING_PREVIOUS_GUARD = 0.10;
+    const PRACTICE_LISTENING_NEXT_GUARD = 0.08;
+    const PRACTICE_LISTENING_START_TIMEOUT = 10000;
     const ESSAY_AUDIO_RATE_KEY = "edmundWritingAudioRate";
     const ESSAY_AUDIO_HIGHLIGHT_KEY = "edmundWritingAudioHighlight";
     const ESSAY_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
@@ -5946,14 +5950,15 @@ Device: concession 讓步
       const index = Math.min(Math.max(0, Number(practiceState.listeningUnitIndex) || 0), Math.max(0, segments.length - 1));
       const navigationDisabled = Boolean(practiceState.submitted || !segments.length);
       return `
-        <section class="practice-listening-panel" aria-label="聆聽練習播放速度">
+        <section class="practice-listening-panel" data-practice-listening-panel aria-label="聆聽練習播放速度">
           <div class="practice-listening-copy">
             <strong>逐句聆聽 · 播放速度</strong>
             <span class="practice-listening-status" data-practice-listening-status data-tone="${escapeHtml(status.tone)}" aria-live="polite">${escapeHtml(status.text)}</span>
             ${practiceState.screen === "practice" ? `
-              <div class="practice-listening-navigation" role="group" aria-label="逐句聆聽控制">
+              <div class="practice-listening-navigation" data-practice-listening-navigation role="group" aria-label="逐句聆聽控制">
                 <button class="secondary-button practice-listening-nav" type="button" data-previous-practice-listening aria-label="返回上一句" ${navigationDisabled || index <= 0 ? "disabled" : ""}>← 上一句</button>
                 <button class="secondary-button practice-listening-nav" type="button" data-replay-practice-listening aria-label="重播目前句子" ${navigationDisabled ? "disabled" : ""}>↻ 重播本句</button>
+                ${renderPracticeListeningNext(exercise)}
               </div>
             ` : ""}
           </div>
@@ -7343,7 +7348,7 @@ Device: concession 讓步
 
     function canonicalEssaySentenceTimings(exercise, timingContext = essayAudioTimingContext(exercise)) {
       if (!timingContext) return null;
-      const { entry, timingWords } = timingContext;
+      const { timingWords } = timingContext;
       const leadLines = Array.isArray(exercise?.essayLeadLines)
         ? exercise.essayLeadLines.map(essayDisplayLineText).filter(Boolean)
         : [];
@@ -7363,16 +7368,24 @@ Device: concession 讓步
         const firstWord = timingWords[startWordIndex];
         const lastWord = timingWords[endWordIndex];
         if (!Array.isArray(firstWord) || !Array.isArray(lastWord)) return null;
+        const rawStartTime = Math.max(0, Number(firstWord[1]) || 0);
+        const previousWordEnd = Number(timingWords[startWordIndex - 1]?.[2]);
         const rawEndTime = Number(lastWord[2]);
         const nextWordStart = Number(timingWords[endWordIndex + 1]?.[1]);
-        const paddedEnd = rawEndTime + 0.35;
+        const earliestSafeStart = Number.isFinite(previousWordEnd)
+          ? previousWordEnd + PRACTICE_LISTENING_PREVIOUS_GUARD
+          : 0;
+        const startTime = Math.max(
+          0,
+          Math.min(rawStartTime, Math.max(earliestSafeStart, rawStartTime - PRACTICE_LISTENING_PREROLL))
+        );
         const stopTime = Number.isFinite(nextWordStart)
-          ? Math.max(rawEndTime, Math.min(paddedEnd, nextWordStart - 0.18))
-          : Math.max(rawEndTime, Number(entry.duration) || paddedEnd);
+          ? Math.max(rawEndTime, nextWordStart - PRACTICE_LISTENING_NEXT_GUARD)
+          : null;
         return {
           startWordIndex,
           endWordIndex,
-          startTime: Math.max(0, Number(firstWord[1]) || 0),
+          startTime,
           stopTime
         };
       }));
@@ -7773,6 +7786,9 @@ Device: concession 讓步
       clearEssayAudioBoundary();
       if (activeEssayAudio) {
         activeEssayAudio.onplay = null;
+        activeEssayAudio.onplaying = null;
+        activeEssayAudio.onseeked = null;
+        activeEssayAudio.ontimeupdate = null;
         activeEssayAudio.onpause = null;
         activeEssayAudio.onended = null;
         activeEssayAudio.onerror = null;
@@ -7792,33 +7808,124 @@ Device: concession 讓步
       const audio = new Audio();
       activeEssayAudio = audio;
       activeEssayAudioExerciseId = exercise.id;
-      activeEssayAudioContext = options.context || "essay";
+      const context = options.context || "essay";
+      activeEssayAudioContext = context;
+      const requestedStartTime = Math.max(0, Number(startTime) || 0);
       const requestedStopTime = Number(options.stopTime);
-      if (Number.isFinite(requestedStopTime) && requestedStopTime > Number(startTime || 0)) {
+      activeEssaySegmentEnd = typeof options.onSegmentEnd === "function" ? options.onSegmentEnd : null;
+      if (Number.isFinite(requestedStopTime) && requestedStopTime > requestedStartTime) {
         activeEssayStopTime = requestedStopTime;
-        activeEssaySegmentEnd = typeof options.onSegmentEnd === "function" ? options.onSegmentEnd : null;
       }
-      audio.preload = "metadata";
+      audio.preload = "auto";
       const path = String(entry.path);
       audio.src = window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path;
-      audio.currentTime = Math.max(0, Number(startTime) || 0);
       audio.defaultPlaybackRate = selectedEssayAudioRate;
       audio.playbackRate = selectedEssayAudioRate;
       audio.preservesPitch = true;
-      audio.onplay = () => {
+      let playbackHasStarted = false;
+      let startupTimer = 0;
+      let seekedProgressFloor = null;
+      const startTimeTolerance = 0.04;
+      const playbackProgressTolerance = 0.005;
+      const clearStartupTimer = () => {
+        if (!startupTimer) return;
+        window.clearTimeout(startupTimer);
+        startupTimer = 0;
+      };
+      const requestedStartIsReady = () => {
+        if (activeEssayAudio !== audio) return false;
+        try {
+          const currentTime = Number(audio.currentTime);
+          return !audio.seeking
+            && Number.isFinite(currentTime)
+            && currentTime >= requestedStartTime - startTimeTolerance;
+        } catch (error) {
+          return false;
+        }
+      };
+      const applyRequestedStart = () => {
+        if (activeEssayAudio !== audio || playbackHasStarted) return "stale";
+        if (requestedStartIsReady()) return "ready";
+        try {
+          audio.currentTime = requestedStartTime;
+          return requestedStartIsReady() ? "ready" : "pending";
+        } catch (error) {
+          return "failed";
+        }
+      };
+      const failAudioStartup = error => {
+        if (activeEssayAudio !== audio) return;
+        clearStartupTimer();
+        console.warn("Essay audio playback failed:", error);
+        stopEssayAudio();
+        if (typeof options.onError === "function") options.onError(error);
+      };
+      const beginAudiblePlayback = () => {
+        if (activeEssayAudio !== audio || audio.paused || audio.ended) return false;
+        if (!playbackHasStarted) {
+          if (!requestedStartIsReady()) return false;
+          playbackHasStarted = true;
+          clearStartupTimer();
+        }
         syncEssayAudioButton();
-        if (activeEssayAudioContext === "listening") stopEssayHighlightLoop({ clear: true });
+        if (context === "listening") stopEssayHighlightLoop({ clear: true });
         else startEssayHighlightLoop();
         startEssayAudioBoundaryLoop();
-        if (activeEssayAudioContext === "listening") syncPracticeListeningPlaybackState(true);
+        if (context === "listening") syncPracticeListeningPlaybackState(true);
+        return true;
+      };
+      audio.addEventListener("loadedmetadata", applyRequestedStart, { once: true });
+      applyRequestedStart();
+      audio.onplay = () => {
+        if (activeEssayAudio !== audio) return;
+        syncEssayAudioButton();
+      };
+      audio.onplaying = () => {
+        if (activeEssayAudio !== audio) return;
+        if (!playbackHasStarted) {
+          const startState = applyRequestedStart();
+          if (startState === "failed") {
+            failAudioStartup(new Error("Audio could not seek to the requested sentence."));
+            return;
+          }
+          if (startState !== "ready") return;
+        }
+        beginAudiblePlayback();
+      };
+      audio.onseeked = () => {
+        if (
+          activeEssayAudio !== audio ||
+          playbackHasStarted ||
+          audio.paused ||
+          audio.ended ||
+          !requestedStartIsReady()
+        ) return;
+        seekedProgressFloor = Number(audio.currentTime);
+      };
+      audio.ontimeupdate = () => {
+        if (
+          activeEssayAudio !== audio ||
+          playbackHasStarted ||
+          audio.paused ||
+          audio.ended ||
+          audio.seeking ||
+          !Number.isFinite(seekedProgressFloor)
+        ) return;
+        const currentTime = Number(audio.currentTime);
+        if (Number.isFinite(currentTime) && currentTime > seekedProgressFloor + playbackProgressTolerance) {
+          beginAudiblePlayback();
+        }
       };
       audio.onpause = () => {
+        if (activeEssayAudio !== audio) return;
         stopEssayHighlightLoop();
         pauseEssayAudioBoundaryLoop();
         syncEssayAudioButton();
-        if (activeEssayAudioContext === "listening" && !audio.ended) syncPracticeListeningPlaybackState(false);
+        if (context === "listening" && !audio.ended) syncPracticeListeningPlaybackState(false);
       };
       audio.onended = () => {
+        if (activeEssayAudio !== audio) return;
+        clearStartupTimer();
         const onSegmentEnd = activeEssaySegmentEnd;
         stopEssayHighlightLoop({ clear: true });
         clearEssayAudioBoundary();
@@ -7830,27 +7937,24 @@ Device: concession 讓步
       };
       audio.onerror = () => {
         if (activeEssayAudio !== audio) return;
-        console.warn("Essay audio could not be loaded:", audio.error);
-        stopEssayAudio();
-        if (typeof options.onError === "function") options.onError(audio.error || new Error("Audio could not be loaded."));
+        failAudioStartup(audio.error || new Error("Audio could not be loaded."));
       };
+      if (context === "listening") {
+        startupTimer = window.setTimeout(() => {
+          failAudioStartup(new Error("Audio playback did not start in time."));
+        }, PRACTICE_LISTENING_START_TIMEOUT);
+      }
       try {
         const playResult = audio.play();
         if (playResult && typeof playResult.catch === "function") {
           playResult.catch(error => {
             if (activeEssayAudio !== audio) return;
-            console.warn("Essay audio playback failed:", error);
-            const listeningPlayback = activeEssayAudioContext === "listening";
-            if (typeof options.onError === "function") options.onError(error);
-            if (listeningPlayback) stopEssayAudio();
-            else syncEssayAudioButton();
+            failAudioStartup(error);
           });
         }
         return true;
       } catch (error) {
-        console.warn("Essay audio playback failed:", error);
-        stopEssayAudio();
-        if (typeof options.onError === "function") options.onError(error);
+        failAudioStartup(error);
         return false;
       }
     }
@@ -7949,14 +8053,6 @@ Device: concession 讓步
       syncPracticeListeningUi();
     }
 
-    function focusPracticeListeningAnswers(segment) {
-      if (!segment?.blankIds?.length) return;
-      const blankIds = new Set(segment.blankIds);
-      const input = [...document.querySelectorAll("[data-answer-id]")]
-        .find(node => blankIds.has(node.getAttribute("data-answer-id")));
-      input?.focus?.({ preventScroll: true });
-    }
-
     function finishPracticeListeningUnit(unitIndex) {
       const exercise = currentExercise();
       if (
@@ -7965,12 +8061,10 @@ Device: concession 讓步
         || practiceState.screen !== "practice"
         || Number(practiceState.listeningUnitIndex) !== Number(unitIndex)
       ) return;
-      const segments = practiceListeningSegments(exercise);
       practiceState.listeningPlaying = false;
       practiceState.listeningUnitFinished = true;
       practiceState.listeningPlaybackError = "";
       syncPracticeListeningUi();
-      focusPracticeListeningAnswers(segments[unitIndex]);
     }
 
     function failPracticeListeningPlayback(message = "錄音未能自動播放，請按「重播本句」再試。") {
@@ -7993,7 +8087,7 @@ Device: concession 讓步
       }
 
       practiceState.listeningUnitIndex = index;
-      practiceState.listeningPlaying = true;
+      practiceState.listeningPlaying = false;
       practiceState.listeningUnitFinished = false;
       practiceState.listeningPlaybackError = "";
       syncPracticeListeningUi();
@@ -8422,7 +8516,6 @@ Device: concession 讓步
               <p class="note-text">本輪共有 ${escapeHtml(targets.length)} 題。請點擊空格並輸入答案。</p>
             </div>
             <div class="practice-head-actions">
-              ${renderPracticeListeningNext(exercise)}
               ${renderPracticeTranslationToggle()}
               ${renderPracticeListeningToggle(exercise)}
               <button class="secondary-button" type="button" data-back-practice-mode>更改模式</button>
