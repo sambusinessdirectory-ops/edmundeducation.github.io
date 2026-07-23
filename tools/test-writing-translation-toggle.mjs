@@ -98,6 +98,7 @@ function createHarness(applicationSource, dataFiles) {
       this.error = null;
       this.playbackRate = 1;
       this.defaultPlaybackRate = 1;
+      this.playCalls = 0;
       this.failEagerAudioSeek = failNextEagerAudioSeek;
       failNextEagerAudioSeek = false;
       this.deferMetadataAudioSeek = deferNextMetadataAudioSeek;
@@ -127,6 +128,7 @@ function createHarness(applicationSource, dataFiles) {
       this.listeners.set(type, (this.listeners.get(type) || []).filter(listener => !listener.once));
     }
     play() {
+      this.playCalls += 1;
       if (this.readyState === 0) {
         this.readyState = 1;
         this.emit("loadedmetadata");
@@ -322,6 +324,10 @@ function createHarness(applicationSource, dataFiles) {
     windowScrollCalls() {
       return windowScrollCalls;
     },
+    setVisibilityState(value) {
+      document.visibilityState = value;
+      (documentListeners.get("visibilitychange") || []).forEach(listener => listener());
+    },
     rejectOldestDeferredPlay(error = new Error("Delayed fixture rejection")) {
       deferredAudioPlays.shift()?.reject(error);
     }
@@ -340,6 +346,7 @@ const MODES = ["blank", "start", "end", "both"];
 const LISTENING_PREROLL = 0.20;
 const LISTENING_PREVIOUS_GUARD = 0.10;
 const LISTENING_NEXT_GUARD = 0.08;
+const LISTENING_POSTROLL = 2.00;
 
 function fixtureExercise() {
   const english = [
@@ -638,8 +645,15 @@ assert.equal(segments[0].startTime, 0, "pre-roll at the beginning of an audio fi
 assert.ok(segments[0].stopTime > firstSentenceFinalWordEnd, "the final answer needs protected release time");
 assert.equal(
   segments[0].stopTime,
-  firstSentenceNextWordStart - LISTENING_NEXT_GUARD,
-  "a non-final sentence should continue through the pause immediately before the next sentence"
+  Math.max(
+    firstSentenceFinalWordEnd + LISTENING_POSTROLL,
+    firstSentenceNextWordStart - LISTENING_NEXT_GUARD
+  ),
+  "a non-final sentence should retain at least two seconds after its final timed word"
+);
+assert.ok(
+  segments[0].stopTime - firstSentenceFinalWordEnd >= LISTENING_POSTROLL,
+  "every non-final sentence needs at least two seconds of post-roll"
 );
 assert.equal(
   segments.at(-1).stopTime,
@@ -690,12 +704,12 @@ assert.doesNotMatch(replayButtonAtStart, /\bdisabled\b/, "replay should be avail
 assert.match(activePracticeHtml, /上一句/, "the listening panel should label the previous-sentence control");
 assert.match(activePracticeHtml, /重播本句/, "the listening panel should label the replay control");
 
-harness.createdAudios[0].currentTime = firstSentenceFinalWordEnd + 0.16;
+harness.createdAudios[0].currentTime = firstSentenceFinalWordEnd + LISTENING_POSTROLL - 0.01;
 harness.runAnimationFrames();
 assert.equal(
   harness.createdAudios[0].paused,
   false,
-  "playback must continue beyond the old cutoff so a sentence-final answer is fully spoken"
+  "playback must continue for the full two-second safety tail after a sentence-final answer"
 );
 const audioCountAtFirstUnit = harness.createdAudios.length;
 await clickHandler({ target: clickTarget("data-previous-practice-listening"), preventDefault() {} });
@@ -843,6 +857,32 @@ harness.createdAudios[5].ended = true;
 harness.createdAudios[5].paused = true;
 harness.createdAudios[5].onpause?.();
 harness.createdAudios[5].onended?.();
+assert.equal(
+  hooks.state().listeningUnitFinished,
+  false,
+  "the natural ending should retain the final audio element during its two-second release buffer"
+);
+const finalAudioPlayCalls = harness.createdAudios[5].playCalls;
+const keydownHandler = harness.documentListeners.get("keydown")?.[0];
+keydownHandler?.({
+  code: "Space",
+  repeat: false,
+  target: { closest() { return null; } },
+  preventDefault() {}
+});
+assert.equal(
+  harness.createdAudios[5].playCalls,
+  finalAudioPlayCalls,
+  "Space must not restart an ended recording during its final release buffer"
+);
+harness.setVisibilityState("hidden");
+assert.equal(
+  hooks.state().listeningPlaybackError,
+  "",
+  "hiding the page during the final release buffer must not create a false interruption"
+);
+harness.setVisibilityState("visible");
+await new Promise(resolve => setTimeout(resolve, LISTENING_POSTROLL * 1000 + 20));
 assert.equal(hooks.state().listeningUnitFinished, true);
 listeningHtml = hooks.renderRound();
 const completedButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
@@ -869,6 +909,8 @@ harness.createdAudios[6].paused = true;
 harness.createdAudios[6].onpause?.();
 assert.equal(hooks.state().listeningPlaybackError, "", "a natural media ending must not announce a false pause error");
 harness.createdAudios[6].onended?.();
+assert.equal(hooks.state().listeningUnitFinished, false, "a replayed final sentence should keep the same release buffer");
+await new Promise(resolve => setTimeout(resolve, LISTENING_POSTROLL * 1000 + 20));
 assert.equal(hooks.state().listeningUnitFinished, true, "the replayed final sentence should complete normally");
 listeningHtml = hooks.renderRound();
 assert.match(
@@ -939,7 +981,10 @@ hooks.exerciseIds().forEach(exerciseId => {
       );
       const expectedStopTime = isFinalAudioWord
         ? null
-        : Math.max(finalWordEnd, nextWordStart - LISTENING_NEXT_GUARD);
+        : Math.max(
+            finalWordEnd + LISTENING_POSTROLL,
+            nextWordStart - LISTENING_NEXT_GUARD
+          );
       return Math.abs(segment.startTime - expectedStartTime) > 0.001
         || (isFinalAudioWord
           ? segment.stopTime !== null
@@ -959,4 +1004,4 @@ assert.deepEqual(
 );
 assert.ok(checkedListeningConfigurations >= 900, "the listening audit should cover every normal and exceptional difficulty");
 
-console.log(`Writing translation/listening tests passed: safe translation, sentence-bounded audio, speed control, continuation, ${checkedListeningConfigurations} corpus configurations and no answer leakage.`);
+console.log(`Writing translation/listening tests passed: safe translation, protected audio tails, speed control, continuation, ${checkedListeningConfigurations} corpus configurations and no answer leakage.`);
