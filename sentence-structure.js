@@ -652,7 +652,7 @@ function renderBenefitsPage(lesson) {
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="benefit-card"><span>${index + 1}</span><div>${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}<p class="chinese">${escapeHtml(item.chinese)}</p></div></li>`;
+        return `<li class="benefit-card"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(2)}
