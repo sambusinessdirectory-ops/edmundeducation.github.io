@@ -38,15 +38,19 @@ function createHarness(applicationSource, dataFiles) {
   };
   const documentListeners = new Map();
   const localValues = new Map();
+  let trackedAnswerInputs = [];
   const document = {
     visibilityState: "visible",
     body: { classList: classList() },
     querySelector(selector) {
       if (selector === "[data-exercise-view]") return panel;
       if (selector === "[data-writing-breadcrumbs]") return breadcrumbs;
+      if (selector.startsWith("[data-answer-id")) return trackedAnswerInputs[0] || null;
       return null;
     },
-    querySelectorAll() { return []; },
+    querySelectorAll(selector) {
+      return selector === "[data-answer-id]" ? trackedAnswerInputs : [];
+    },
     createElement() {
       return {
         classList: classList(),
@@ -70,21 +74,126 @@ function createHarness(applicationSource, dataFiles) {
     setItem(key, value) { localValues.set(key, String(value)); },
     removeItem(key) { localValues.delete(key); }
   };
+  const animationFrames = new Map();
+  let nextAnimationFrame = 1;
+  const requestAnimationFrame = callback => {
+    const id = nextAnimationFrame;
+    nextAnimationFrame += 1;
+    animationFrames.set(id, callback);
+    return id;
+  };
+  const cancelAnimationFrame = id => animationFrames.delete(id);
+  const createdAudios = [];
+  const deferredAudioPlays = [];
+  let deferNextAudioPlay = false;
+  let failNextEagerAudioSeek = false;
+  let deferNextMetadataAudioSeek = false;
+  class FakeAudio {
+    constructor() {
+      this._currentTime = 0;
+      this.readyState = 0;
+      this.seeking = false;
+      this.paused = true;
+      this.ended = false;
+      this.error = null;
+      this.playbackRate = 1;
+      this.defaultPlaybackRate = 1;
+      this.failEagerAudioSeek = failNextEagerAudioSeek;
+      failNextEagerAudioSeek = false;
+      this.deferMetadataAudioSeek = deferNextMetadataAudioSeek;
+      deferNextMetadataAudioSeek = false;
+      this.pendingCurrentTime = null;
+      this.listeners = new Map();
+      createdAudios.push(this);
+    }
+    get currentTime() {
+      return this._currentTime;
+    }
+    set currentTime(value) {
+      if (this.failEagerAudioSeek && this.readyState === 0) {
+        throw new Error("Metadata is not ready for seeking");
+      }
+      if (this.deferMetadataAudioSeek && this.readyState > 0) {
+        this.pendingCurrentTime = Number(value);
+        this.seeking = true;
+        return;
+      }
+      this._currentTime = Number(value);
+      this.seeking = false;
+    }
+    emit(type) {
+      const listeners = [...(this.listeners.get(type) || [])];
+      listeners.forEach(listener => listener.call(this));
+      this.listeners.set(type, (this.listeners.get(type) || []).filter(listener => !listener.once));
+    }
+    play() {
+      if (this.readyState === 0) {
+        this.readyState = 1;
+        this.emit("loadedmetadata");
+      }
+      this.paused = false;
+      this.ended = false;
+      this.onplay?.();
+      this.onplaying?.();
+      if (deferNextAudioPlay) {
+        deferNextAudioPlay = false;
+        return new Promise((resolve, reject) => {
+          deferredAudioPlays.push({ audio: this, resolve, reject });
+        });
+      }
+      return Promise.resolve();
+    }
+    pause() {
+      if (this.paused) return;
+      this.paused = true;
+      this.onpause?.();
+    }
+    removeAttribute() {}
+    load() {}
+    addEventListener(type, listener, options = {}) {
+      const listeners = this.listeners.get(type) || [];
+      listener.once = Boolean(options?.once);
+      listeners.push(listener);
+      this.listeners.set(type, listeners);
+    }
+    removeEventListener(type, listener) {
+      this.listeners.set(type, (this.listeners.get(type) || []).filter(item => item !== listener));
+    }
+    completeDeferredSeek() {
+      if (this.pendingCurrentTime === null) return false;
+      this._currentTime = this.pendingCurrentTime;
+      this.pendingCurrentTime = null;
+      this.deferMetadataAudioSeek = false;
+      this.seeking = false;
+      this.readyState = 4;
+      this.onseeked?.();
+      return true;
+    }
+    emitPlaying() {
+      this.onplaying?.();
+    }
+    advancePlayback(seconds = 0.05) {
+      this._currentTime += Number(seconds) || 0;
+      this.ontimeupdate?.();
+    }
+  }
   const windowListeners = new Map();
+  let windowScrollCalls = 0;
   const window = {
     document,
     localStorage,
     EDMUND_IELTS_WRITING_EXERCISES: {},
     EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES: {},
     EDMUND_IELTS_WRITING_ADVANTAGE_2_30_EXERCISES: {},
+    EDMUND_WRITING_AUDIO: {},
     matchMedia: () => ({ matches: false }),
-    requestAnimationFrame(callback) { callback?.(); return 1; },
-    cancelAnimationFrame() {},
+    requestAnimationFrame,
+    cancelAnimationFrame,
     setTimeout,
     clearTimeout,
     setInterval,
     clearInterval,
-    scrollTo() {},
+    scrollTo() { windowScrollCalls += 1; },
     addEventListener(type, listener) {
       const listeners = windowListeners.get(type) || [];
       listeners.push(listener);
@@ -132,6 +241,18 @@ function createHarness(applicationSource, dataFiles) {
       updateParagraph: (index, checked) => updatePracticeParagraph(index, checked),
       paragraphTranslation: index => practiceTranslationLinesForParagraph(currentExercise(), index),
       fixedLineTranslation: line => practiceTranslationLinesForEnglish(currentExercise(), line),
+      setAudioManifest: manifest => { window.EDMUND_WRITING_AUDIO = manifest || {}; },
+      listeningSegments: () => practiceListeningSegments(currentExercise()),
+      difficultyKeys: () => practiceDifficultySetsForExercise(currentExercise()).map(item => item.key),
+      useDifficulty: difficultyKey => {
+        practiceState.screen = "practice";
+        practiceState.mode = "blank";
+        practiceState.difficultyKey = difficultyKey || "";
+        practiceState.sentenceKeys = null;
+        practiceState.targetBlankIds = null;
+        return practiceListeningSegments(currentExercise());
+      },
+      setAudioRate: rate => setEssayAudioRate(rate),
       setupEvents: () => setupEvents()
     };
   `);
@@ -146,8 +267,8 @@ function createHarness(applicationSource, dataFiles) {
     clearTimeout,
     setInterval,
     clearInterval,
-    requestAnimationFrame: window.requestAnimationFrame,
-    cancelAnimationFrame: window.cancelAnimationFrame,
+    requestAnimationFrame,
+    cancelAnimationFrame,
     FormData,
     Blob,
     URL,
@@ -160,12 +281,7 @@ function createHarness(applicationSource, dataFiles) {
     TextDecoder,
     navigator: {},
     location: { hostname: "localhost" },
-    Audio: class {
-      addEventListener() {}
-      removeEventListener() {}
-      pause() {}
-      play() { return Promise.resolve(); }
-    }
+    Audio: FakeAudio
   };
   vm.createContext(context);
   dataFiles.forEach(filename => {
@@ -175,7 +291,40 @@ function createHarness(applicationSource, dataFiles) {
   return {
     hooks: window.__EDMUND_WRITING_TRANSLATION_TEST__,
     panel,
-    documentListeners
+    documentListeners,
+    createdAudios,
+    runAnimationFrames() {
+      const callbacks = [...animationFrames.values()];
+      animationFrames.clear();
+      callbacks.forEach(callback => callback?.());
+    },
+    deferNextAudioPlay() {
+      deferNextAudioPlay = true;
+    },
+    failNextEagerAudioSeek() {
+      failNextEagerAudioSeek = true;
+    },
+    deferNextMetadataAudioSeek() {
+      deferNextMetadataAudioSeek = true;
+    },
+    completeLatestAudioSeek() {
+      return createdAudios.at(-1)?.completeDeferredSeek() || false;
+    },
+    emitLatestAudioPlaying() {
+      createdAudios.at(-1)?.emitPlaying();
+    },
+    advanceLatestAudio(seconds) {
+      createdAudios.at(-1)?.advancePlayback(seconds);
+    },
+    setTrackedAnswerInputs(inputs = []) {
+      trackedAnswerInputs = inputs;
+    },
+    windowScrollCalls() {
+      return windowScrollCalls;
+    },
+    rejectOldestDeferredPlay(error = new Error("Delayed fixture rejection")) {
+      deferredAudioPlays.shift()?.reject(error);
+    }
   };
 }
 
@@ -188,6 +337,9 @@ const TRANSLATIONS = [
 ];
 const DIFFICULTIES = ["standard", "medium", "hard", "hell"];
 const MODES = ["blank", "start", "end", "both"];
+const LISTENING_PREROLL = 0.20;
+const LISTENING_PREVIOUS_GUARD = 0.10;
+const LISTENING_NEXT_GUARD = 0.08;
 
 function fixtureExercise() {
   const english = [
@@ -305,9 +457,9 @@ function assertTranslationScope(htmlSource, selectedIndexes) {
   assert.equal(translationHtml.includes(ANSWER_SENTINEL), false, "translation support must never reveal a correct English answer");
 }
 
-function clickTarget(attribute) {
+function clickTarget(attribute, value = "") {
   const node = {
-    getAttribute(name) { return name === attribute ? "" : null; },
+    getAttribute(name) { return name === attribute ? value : null; },
     closest(selector) { return selector === `[${attribute}]` ? node : null; }
   };
   return node;
@@ -400,4 +552,411 @@ assert.deepEqual(
   `every translated exercise paragraph and fixed letter/article line must map to Chinese: ${translationMappingGaps.join("; ")}`
 );
 
-console.log("Writing translation toggle tests passed: safe default, 16 mode combinations, persistent navigation, corpus mapping, accessibility and no answer leakage.");
+function listeningFixture() {
+  return {
+    id: "writing-listening-mode-fixture",
+    title: "Listening Mode Fixture",
+    exam: "IELTS Writing Task 2",
+    taskType: "Listening",
+    practiceModes: ["blank"],
+    paragraphs: [
+      {
+        label: "Introduction",
+        sentences: [
+          { parts: ["Listen ", { answer: "carefully" }, "."] },
+          { parts: ["This bridge sentence has no blank."] },
+          { parts: ["Write ", { answer: "the answer" }, " now."] }
+        ]
+      },
+      {
+        label: "Body Paragraph 1",
+        sentences: [
+          { parts: ["Finish with ", { answer: "two" }, " ", { answer: "blanks" }, " today."] }
+        ]
+      }
+    ]
+  };
+}
+
+function listeningFixtureAudio(exercise) {
+  let time = 0;
+  const words = [];
+  exercise.paragraphs.forEach(paragraph => {
+    paragraph.sentences.forEach(sentence => {
+      const sentenceWords = sentence.parts
+        .map(part => typeof part === "object" ? part.answer : part)
+        .join("")
+        .match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu) || [];
+      sentenceWords.forEach(word => {
+        words.push([word, Number(time.toFixed(3)), Number((time + 0.18).toFixed(3))]);
+        time += 0.2;
+      });
+      time += 0.6;
+    });
+  });
+  return {
+    duration: Number((time + 0.2).toFixed(3)),
+    path: "fixture-listening.mp3",
+    wordCount: words.length,
+    words
+  };
+}
+
+const listenExercise = listeningFixture();
+const listenExerciseAudio = listeningFixtureAudio(listenExercise);
+hooks.setAudioManifest({ [listenExercise.id]: listenExerciseAudio });
+hooks.installExercise(listenExercise);
+hooks.renderView();
+
+let listeningHtml = harness.panel.innerHTML;
+const listeningToggle = elementOpeningTag(listeningHtml, "data-toggle-practice-listening");
+assert.match(listeningToggle, /^<button\b/, "listening mode should use native button semantics");
+assert.match(listeningToggle, /\btype="button"/, "listening toggle must not submit the answer form");
+assert.match(listeningToggle, /\baria-pressed="false"/, "listening mode must default to OFF");
+assert.doesNotMatch(listeningToggle, /\bdisabled\b/, "matching audio should make listening mode available");
+
+await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningEnabled, true, "listening toggle should persist ON before practice starts");
+assert.equal(
+  occurrences(harness.panel.innerHTML, "data-essay-audio-rate="),
+  6,
+  "listening mode should expose all six playback speeds before the round"
+);
+
+harness.deferNextAudioPlay();
+hooks.startMode("blank", "");
+let segments = hooks.listeningSegments();
+assert.equal(segments.length, 3, "only target-bearing sentences should become listening units");
+assert.equal(segments[2].blankIds.length, 2, "multiple blanks in one sentence should share one listening unit");
+assert.equal(hooks.state().listeningPlaying, true, "the first listening sentence should start automatically");
+assert.equal(hooks.state().listeningUnitIndex, 0);
+assert.equal(harness.createdAudios.length, 1, "automatic listening should create one audio player");
+assert.equal(harness.createdAudios[0].currentTime, segments[0].startTime, "automatic playback should seek to the first target sentence");
+const firstSentenceFinalWordEnd = listenExerciseAudio.words[segments[0].endWordIndex][2];
+const firstSentenceNextWordStart = listenExerciseAudio.words[segments[0].endWordIndex + 1][1];
+assert.equal(segments[0].startTime, 0, "pre-roll at the beginning of an audio file should clamp to zero");
+assert.ok(segments[0].stopTime > firstSentenceFinalWordEnd, "the final answer needs protected release time");
+assert.equal(
+  segments[0].stopTime,
+  firstSentenceNextWordStart - LISTENING_NEXT_GUARD,
+  "a non-final sentence should continue through the pause immediately before the next sentence"
+);
+assert.equal(
+  segments.at(-1).stopTime,
+  null,
+  "the final listening sentence should use the media element's natural ending"
+);
+const secondSentenceFirstWordStart = listenExerciseAudio.words[segments[1].startWordIndex][1];
+const secondSentencePreviousWordEnd = listenExerciseAudio.words[segments[1].startWordIndex - 1][2];
+const expectedSecondSentenceStart = Math.max(
+  0,
+  Math.min(
+    secondSentenceFirstWordStart,
+    Math.max(
+      secondSentencePreviousWordEnd + LISTENING_PREVIOUS_GUARD,
+      secondSentenceFirstWordStart - LISTENING_PREROLL
+    )
+  )
+);
+assert.equal(segments[1].startTime, expectedSecondSentenceStart, "later sentences should use the protected pre-roll policy");
+assert.ok(segments[1].startTime < secondSentenceFirstWordStart, "pre-roll should begin before the first spoken word");
+assert.ok(segments[1].startTime > secondSentencePreviousWordEnd, "pre-roll must not replay the preceding word");
+const activePracticeHtml = hooks.renderRound();
+assert.ok(
+  activePracticeHtml.indexOf("data-toggle-practice-translation") < activePracticeHtml.indexOf("data-toggle-practice-listening"),
+  "listening ON/OFF should appear immediately after the Chinese translation button"
+);
+assert.equal(occurrences(activePracticeHtml, "data-next-practice-listening"), 1, "the round should render one continue control");
+const listeningPanelHtml = elementsInnerHtml(activePracticeHtml, "data-practice-listening-panel");
+const listeningNavigationHtml = elementsInnerHtml(listeningPanelHtml, "data-practice-listening-navigation");
+assert.ok(
+  listeningNavigationHtml.indexOf("data-previous-practice-listening")
+    < listeningNavigationHtml.indexOf("data-replay-practice-listening"),
+  "previous should appear before replay in the green listening bar"
+);
+assert.ok(
+  listeningNavigationHtml.indexOf("data-replay-practice-listening")
+    < listeningNavigationHtml.indexOf("data-next-practice-listening"),
+  "continue should appear directly after replay in the green listening bar"
+);
+const previousButtonAtStart = elementOpeningTag(activePracticeHtml, "data-previous-practice-listening");
+const replayButtonAtStart = elementOpeningTag(activePracticeHtml, "data-replay-practice-listening");
+assert.match(previousButtonAtStart, /^<button\b/, "previous sentence should use native button semantics");
+assert.match(previousButtonAtStart, /\btype="button"/, "previous sentence must not submit the answer form");
+assert.match(previousButtonAtStart, /\bdisabled\b/, "previous sentence should be disabled on the first listening unit");
+assert.match(replayButtonAtStart, /^<button\b/, "replay sentence should use native button semantics");
+assert.match(replayButtonAtStart, /\btype="button"/, "replay sentence must not submit the answer form");
+assert.doesNotMatch(replayButtonAtStart, /\bdisabled\b/, "replay should be available while the current sentence is playing");
+assert.match(activePracticeHtml, /上一句/, "the listening panel should label the previous-sentence control");
+assert.match(activePracticeHtml, /重播本句/, "the listening panel should label the replay control");
+
+harness.createdAudios[0].currentTime = firstSentenceFinalWordEnd + 0.16;
+harness.runAnimationFrames();
+assert.equal(
+  harness.createdAudios[0].paused,
+  false,
+  "playback must continue beyond the old cutoff so a sentence-final answer is fully spoken"
+);
+const audioCountAtFirstUnit = harness.createdAudios.length;
+await clickHandler({ target: clickTarget("data-previous-practice-listening"), preventDefault() {} });
+assert.equal(harness.createdAudios.length, audioCountAtFirstUnit, "previous should safely do nothing on the first unit");
+assert.equal(hooks.state().listeningUnitIndex, 0, "an invalid previous action must keep the first unit selected");
+assert.equal(harness.createdAudios[0].paused, false, "an invalid previous action must not interrupt current playback");
+assert.equal(hooks.state().listeningPlaying, true, "an invalid previous action must preserve the playing state");
+
+harness.createdAudios[0].pause();
+assert.equal(hooks.state().listeningPlaying, false, "a mid-sentence pause should update listening state");
+assert.match(hooks.state().listeningPlaybackError, /已暫停/, "a paused sentence should expose a visible recovery state");
+listeningHtml = hooks.renderRound();
+const pausedNextButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
+const pausedReplayButton = elementOpeningTag(listeningHtml, "data-replay-practice-listening");
+assert.match(pausedNextButton, /\bdisabled\b/, "continue should remain disabled until the paused sentence finishes");
+assert.match(listeningHtml, /繼續下一句/, "the main progression control should remain dedicated to the next sentence");
+assert.doesNotMatch(pausedReplayButton, /\bdisabled\b/, "touch users should be able to replay a paused sentence");
+assert.match(listeningHtml, /重播本句/, "a paused sentence should direct learners to the dedicated replay button");
+
+await clickHandler({ target: clickTarget("data-replay-practice-listening"), preventDefault() {} });
+assert.equal(harness.createdAudios.length, 2, "replaying a paused sentence should replace its audio player");
+assert.equal(harness.createdAudios[1].currentTime, segments[0].startTime);
+assert.equal(hooks.state().listeningUnitIndex, 0, "replay should keep the current listening unit");
+assert.equal(hooks.state().listeningUnitFinished, false, "replay should reset the current unit's completion state");
+assert.equal(hooks.state().listeningPlaybackError, "", "replay should clear the paused recovery message");
+harness.rejectOldestDeferredPlay();
+await Promise.resolve();
+await Promise.resolve();
+assert.equal(harness.createdAudios[1].paused, false, "a delayed rejection from an old player must not stop the replacement");
+assert.equal(hooks.state().listeningPlaying, true, "an obsolete rejection must not fail the active listening unit");
+
+await clickHandler({ target: clickTarget("data-essay-audio-rate", "0.5"), preventDefault() {} });
+assert.equal(harness.createdAudios[1].playbackRate, 0.5, "speed changes should apply during listening playback");
+
+let automaticAnswerFocusCalls = 0;
+let automaticAnswerScrollCalls = 0;
+harness.setTrackedAnswerInputs([{
+  value: "",
+  getAttribute(name) { return name === "data-answer-id" ? `${listenExercise.id}-q1` : null; },
+  focus() { automaticAnswerFocusCalls += 1; },
+  scrollIntoView() { automaticAnswerScrollCalls += 1; }
+}]);
+const windowScrollCallsBeforeSentenceEnd = harness.windowScrollCalls();
+harness.createdAudios[1].currentTime = segments[0].stopTime + 0.02;
+harness.runAnimationFrames();
+assert.equal(harness.createdAudios[1].paused, true, "the audio should pause at the sentence boundary");
+assert.equal(hooks.state().listeningUnitFinished, true, "the first sentence should become ready for answers");
+assert.equal(hooks.state().listeningPlaying, false);
+assert.equal(automaticAnswerFocusCalls, 0, "sentence completion must not force focus or move the learner to an answer field");
+assert.equal(automaticAnswerScrollCalls, 0, "sentence completion must not scroll an answer field into view");
+assert.equal(
+  harness.windowScrollCalls(),
+  windowScrollCallsBeforeSentenceEnd,
+  "sentence completion must not move the page viewport"
+);
+harness.setTrackedAnswerInputs([]);
+
+const inputHandler = harness.documentListeners.get("input")?.[0];
+assert.equal(typeof inputHandler, "function", "writing input handler should be registered");
+const firstBlankInput = {
+  value: "carefully",
+  getAttribute(name) { return name === "data-answer-id" ? `${listenExercise.id}-q1` : null; },
+  closest(selector) { return selector === "[data-answer-id]" ? firstBlankInput : null; }
+};
+inputHandler({ target: firstBlankInput });
+
+harness.failNextEagerAudioSeek();
+harness.deferNextMetadataAudioSeek();
+await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 1, "continue should advance to the next target-bearing sentence");
+assert.equal(hooks.state().answers[`${listenExercise.id}-q1`], "carefully", "continuing must preserve typed answers");
+assert.equal(harness.createdAudios.length, 3);
+assert.equal(harness.createdAudios[2].seeking, true, "the next sentence should wait while its metadata seek is pending");
+assert.equal(
+  hooks.state().listeningPlaying,
+  false,
+  "a pending seek must not be reported as audible playback"
+);
+assert.equal(harness.completeLatestAudioSeek(), true, "the pending sentence seek should be completable");
+assert.equal(
+  harness.createdAudios[2].currentTime,
+  segments[1].startTime,
+  "metadata-ready retry should recover after the browser finishes an asynchronous sentence seek"
+);
+assert.equal(
+  hooks.state().listeningPlaying,
+  false,
+  "a completed seek must still wait for evidence of audible playback"
+);
+harness.advanceLatestAudio(0.05);
+assert.equal(
+  hooks.state().listeningPlaying,
+  true,
+  "verified media-time progression should recover even when the browser omits a second playing event"
+);
+assert.equal(harness.createdAudios[2].playbackRate, 0.5, "the selected speed should carry into the next sentence");
+const secondUnitHtml = hooks.renderRound();
+assert.doesNotMatch(
+  elementOpeningTag(secondUnitHtml, "data-previous-practice-listening"),
+  /\bdisabled\b/,
+  "previous should become available after advancing beyond the first unit"
+);
+assert.doesNotMatch(
+  elementOpeningTag(secondUnitHtml, "data-replay-practice-listening"),
+  /\bdisabled\b/,
+  "replay should remain available on later units"
+);
+
+await clickHandler({ target: clickTarget("data-previous-practice-listening"), preventDefault() {} });
+assert.equal(harness.createdAudios[2].paused, true, "previous should stop the sentence that is currently playing");
+assert.equal(hooks.state().listeningUnitIndex, 0, "previous should return to the preceding listening unit");
+assert.equal(hooks.state().answers[`${listenExercise.id}-q1`], "carefully", "previous must preserve typed answers");
+assert.equal(harness.createdAudios.length, 4);
+assert.equal(harness.createdAudios[3].currentTime, segments[0].startTime);
+assert.equal(harness.createdAudios[3].playbackRate, 0.5, "previous should preserve the selected playback speed");
+assert.match(
+  elementOpeningTag(hooks.renderRound(), "data-previous-practice-listening"),
+  /\bdisabled\b/,
+  "previous should become disabled again after returning to the first unit"
+);
+
+harness.createdAudios[3].currentTime = segments[0].stopTime + 0.02;
+harness.runAnimationFrames();
+await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 1);
+assert.equal(harness.createdAudios[4].currentTime, segments[1].startTime);
+harness.createdAudios[4].currentTime = segments[1].stopTime + 0.02;
+harness.runAnimationFrames();
+await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 2);
+assert.equal(harness.createdAudios[5].currentTime, segments[2].startTime);
+harness.createdAudios[5].currentTime = listenExerciseAudio.duration - 0.01;
+harness.runAnimationFrames();
+assert.equal(
+  harness.createdAudios[5].paused,
+  false,
+  "the final sentence must not be paused by a synthetic manifest boundary"
+);
+assert.equal(
+  hooks.state().listeningUnitFinished,
+  false,
+  "the final sentence must remain active until the media element reaches its natural ending"
+);
+harness.createdAudios[5].ended = true;
+harness.createdAudios[5].paused = true;
+harness.createdAudios[5].onpause?.();
+harness.createdAudios[5].onended?.();
+assert.equal(hooks.state().listeningUnitFinished, true);
+listeningHtml = hooks.renderRound();
+const completedButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
+assert.match(completedButton, /\bdisabled\b/, "continue should be disabled after the final listening sentence");
+assert.match(listeningHtml, /聆聽練習已完成/, "the final control should announce completion");
+assert.doesNotMatch(
+  elementOpeningTag(listeningHtml, "data-previous-practice-listening"),
+  /\bdisabled\b/,
+  "previous should remain available after the final sentence finishes"
+);
+assert.doesNotMatch(
+  elementOpeningTag(listeningHtml, "data-replay-practice-listening"),
+  /\bdisabled\b/,
+  "replay should remain available after the final sentence finishes"
+);
+
+await clickHandler({ target: clickTarget("data-replay-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 2, "replaying the final sentence should stay on the final unit");
+assert.equal(hooks.state().listeningUnitFinished, false, "replaying the final sentence should reopen its playback state");
+assert.equal(harness.createdAudios[6].currentTime, segments[2].startTime);
+assert.equal(harness.createdAudios[6].paused, false);
+harness.createdAudios[6].ended = true;
+harness.createdAudios[6].paused = true;
+harness.createdAudios[6].onpause?.();
+assert.equal(hooks.state().listeningPlaybackError, "", "a natural media ending must not announce a false pause error");
+harness.createdAudios[6].onended?.();
+assert.equal(hooks.state().listeningUnitFinished, true, "the replayed final sentence should complete normally");
+listeningHtml = hooks.renderRound();
+assert.match(
+  elementOpeningTag(listeningHtml, "data-next-practice-listening"),
+  /\bdisabled\b/,
+  "the next button should return to its completed state after replaying the final sentence"
+);
+assert.match(listeningHtml, /聆聽練習已完成/, "the completed status should return after final-sentence replay");
+
+await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningEnabled, false, "students should be able to turn listening mode back OFF");
+
+await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningEnabled, true);
+const exitAudio = harness.createdAudios.at(-1);
+assert.equal(exitAudio.paused, false, "turning listening back on during a round should start its first sentence");
+await clickHandler({ target: clickTarget("data-back-essay"), preventDefault() {} });
+assert.equal(exitAudio.paused, true, "returning to the essay must stop an active listening segment");
+assert.equal(hooks.state(), null, "returning to the essay should leave practice mode");
+
+const audioManifestWindow = {};
+vm.runInNewContext(readFileSync(`${repository}/writing-audio-manifest.js`, "utf8"), { window: audioManifestWindow });
+const fullAudioManifest = audioManifestWindow.EDMUND_WRITING_AUDIO;
+assert.equal(Object.keys(fullAudioManifest).length, 235, "the complete writing audio manifest should contain 235 essays");
+hooks.setAudioManifest(fullAudioManifest);
+const listeningMappingGaps = [];
+let checkedListeningConfigurations = 0;
+hooks.exerciseIds().forEach(exerciseId => {
+  if (exerciseId === listenExercise.id || exerciseId === fixtureExercise().id) return;
+  if (!fullAudioManifest[exerciseId]) {
+    listeningMappingGaps.push(`${exerciseId}: missing manifest entry`);
+    return;
+  }
+  hooks.useExercise(exerciseId);
+  const difficultyKeys = hooks.difficultyKeys();
+  (difficultyKeys.length ? difficultyKeys : [""]).forEach(difficultyKey => {
+    const exerciseSegments = hooks.useDifficulty(difficultyKey);
+    checkedListeningConfigurations += 1;
+    if (!exerciseSegments.length) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has no listening segments`);
+    }
+    if (exerciseSegments.some(segment => segment.startSentenceIndex !== segment.endSentenceIndex)) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} crosses a sentence boundary`);
+    }
+    if (exerciseSegments.some(segment => {
+      const manifestEntry = fullAudioManifest[exerciseId];
+      const isFinalAudioWord = segment.endWordIndex === manifestEntry.words.length - 1;
+      return !Number.isFinite(segment.startTime)
+        || (isFinalAudioWord
+          ? segment.stopTime !== null
+          : !Number.isFinite(segment.stopTime) || segment.stopTime <= segment.startTime);
+    })) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has an invalid playback range`);
+    }
+    if (exerciseSegments.some(segment => {
+      const manifestEntry = fullAudioManifest[exerciseId];
+      const firstWordStart = Number(manifestEntry?.words?.[segment.startWordIndex]?.[1]);
+      const previousWordEnd = Number(manifestEntry?.words?.[segment.startWordIndex - 1]?.[2]);
+      const finalWordEnd = Number(manifestEntry?.words?.[segment.endWordIndex]?.[2]);
+      const isFinalAudioWord = segment.endWordIndex === manifestEntry.words.length - 1;
+      const nextWordStart = Number(manifestEntry?.words?.[segment.endWordIndex + 1]?.[1]);
+      const earliestSafeStart = Number.isFinite(previousWordEnd)
+        ? previousWordEnd + LISTENING_PREVIOUS_GUARD
+        : 0;
+      const expectedStartTime = Math.max(
+        0,
+        Math.min(firstWordStart, Math.max(earliestSafeStart, firstWordStart - LISTENING_PREROLL))
+      );
+      const expectedStopTime = isFinalAudioWord
+        ? null
+        : Math.max(finalWordEnd, nextWordStart - LISTENING_NEXT_GUARD);
+      return Math.abs(segment.startTime - expectedStartTime) > 0.001
+        || (isFinalAudioWord
+          ? segment.stopTime !== null
+          : Math.abs(segment.stopTime - expectedStopTime) > 0.001);
+    })) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} violates the protected sentence playback boundary`);
+    }
+    if (exerciseSegments.some((segment, index) => index > 0 && segment.startTime <= exerciseSegments[index - 1].startTime)) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has out-of-order playback ranges`);
+    }
+  });
+});
+assert.deepEqual(
+  listeningMappingGaps,
+  [],
+  `every writing difficulty should map its blanks to timed listening sentences: ${listeningMappingGaps.join("; ")}`
+);
+assert.ok(checkedListeningConfigurations >= 900, "the listening audit should cover every normal and exceptional difficulty");
+
+console.log(`Writing translation/listening tests passed: safe translation, sentence-bounded audio, speed control, continuation, ${checkedListeningConfigurations} corpus configurations and no answer leakage.`);
