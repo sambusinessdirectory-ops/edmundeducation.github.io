@@ -10,6 +10,16 @@ const ORIGIN = "https://edmundeducation.github.io";
 const STUDENT_TOKEN = "11111111-1111-4111-8111-111111111111";
 const STUDENT_ID = "22222222-2222-4222-8222-222222222222";
 const ATTEMPT_ID = "33333333-3333-4333-8333-333333333333";
+const ALL_BOOKMARK_ROWS = Array.from({ length: 1950 }, (_, index) => {
+  const lessonNumber = Math.floor(index / 50) + 1;
+  const questionNumber = (index % 50) + 1;
+  return {
+    lesson_id: `ss${lessonNumber}`,
+    question_id: `ss${lessonNumber}-q${String(questionNumber).padStart(2, "0")}`,
+    include_answer: index % 2 === 0,
+    created_at: new Date(Date.UTC(2026, 0, 1, 0, 0, index)).toISOString()
+  };
+});
 
 function environment() {
   return {
@@ -37,9 +47,11 @@ function jsonResponse(value, status = 200) {
 }
 
 test("the Worker answer catalog exactly matches the published lesson data", () => {
+  const expansionPath = new URL("../../../sentence-structure-lessons-5-39.js", import.meta.url);
   const dataPath = new URL("../../../sentence-structure-data.js", import.meta.url);
   const context = { window: {} };
   vm.createContext(context);
+  vm.runInContext(fs.readFileSync(expansionPath, "utf8"), context);
   vm.runInContext(fs.readFileSync(dataPath, "utf8"), context);
   const published = context.window.EDMUND_SENTENCE_STRUCTURE_DATA;
   const expected = {};
@@ -48,7 +60,7 @@ test("the Worker answer catalog exactly matches the published lesson data", () =
       expected[question.id] = [question.answer, ...Array.from(question.acceptedAnswers || [])];
     }
   }
-  assert.equal(Object.keys(expected).length, 200);
+  assert.equal(Object.keys(expected).length, 1950);
   assert.deepEqual(ACCEPTED_ANSWERS, expected);
 });
 
@@ -118,6 +130,10 @@ test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", as
   };
 
   const startedAt = new Date().toISOString();
+  const lessonId = "ss39";
+  const questionId = "ss39-q01";
+  const answer = ACCEPTED_ANSWERS[questionId]?.[0];
+  assert.ok(answer, `${questionId} must exist in the generated catalogue`);
   const request = new Request(`https://worker.example/v1/attempts/${ATTEMPT_ID}`, {
     method: "PUT",
     headers: {
@@ -126,7 +142,7 @@ test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", as
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      lessonId: "ss4",
+      lessonId,
       lessonVersion: "1",
       status: "in_progress",
       roundNumber: 1,
@@ -137,26 +153,26 @@ test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", as
       completedAt: null,
       result: {
         round: 1,
-        correctIds: ["ss4-q01"],
+        correctIds: [questionId],
         questionState: {
-          "ss4-q01": {
+          [questionId]: {
             status: "correct",
-            lastAnswer: "Although it was raining, Mia walked to school.",
+            lastAnswer: answer,
             reveal: true
           }
         },
         rounds: [{
           round: 1,
           kind: "partial",
-          checkedIds: ["ss4-q01"],
-          correctIds: ["ss4-q01"],
+          checkedIds: [questionId],
+          correctIds: [questionId],
           incorrectIds: [],
           submittedAt: startedAt
         }],
         awaitingNextRound: false,
         correctionMode: false,
         correctionIds: [],
-        collapsedCorrectIds: ["ss4-q01"],
+        collapsedCorrectIds: [questionId],
         contentVersion: "1"
       }
     })
@@ -164,11 +180,143 @@ test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", as
 
   const response = await worker.fetch(request, environment());
   assert.equal(response.status, 200);
-  assert.deepEqual(upsertPayload.p_result.correctIds, ["ss4-q01"]);
+  assert.deepEqual(upsertPayload.p_result.correctIds, [questionId]);
   assert.equal(upsertPayload.p_result.correctIds.length, 1);
-  assert.deepEqual(upsertPayload.p_result.collapsedCorrectIds, ["ss4-q01"]);
+  assert.deepEqual(upsertPayload.p_result.collapsedCorrectIds, [questionId]);
   const responseBody = await response.json();
-  assert.deepEqual(responseBody.attempt.result.correctIds, ["ss4-q01"]);
+  assert.deepEqual(responseBody.attempt.result.correctIds, [questionId]);
+});
+
+test("bookmark replacement reloads every page instead of truncating at PostgREST limits", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+
+  const pageOffsets = [];
+  let replacedCount = 0;
+  globalThis.fetch = async (input, init = {}) => {
+    const url = new URL(String(input));
+    const functionName = decodeURIComponent(url.pathname.split("/").at(-1));
+    const body = JSON.parse(String(init.body || "{}"));
+
+    if (functionName === "sentence_structure_student_profile") {
+      return jsonResponse([{
+        id: STUDENT_ID,
+        name: "Test Student",
+        session_expires_at: "2026-07-23T00:00:00.000Z"
+      }]);
+    }
+    if (functionName === "sentence_structure_replace_bookmarks") {
+      replacedCount = body.p_bookmarks.length;
+      return jsonResponse(ALL_BOOKMARK_ROWS.slice(0, 1000));
+    }
+    if (functionName === "sentence_structure_list_bookmarks_page") {
+      pageOffsets.push(body.p_offset);
+      assert.equal(body.p_limit, 900);
+      return jsonResponse(ALL_BOOKMARK_ROWS.slice(body.p_offset, body.p_offset + body.p_limit));
+    }
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  };
+
+  const request = new Request("https://worker.example/v1/bookmarks", {
+    method: "PUT",
+    headers: {
+      Origin: ORIGIN,
+      Authorization: `Bearer ${STUDENT_TOKEN}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      bookmarks: ALL_BOOKMARK_ROWS.map(row => ({
+        lessonId: row.lesson_id,
+        questionId: row.question_id,
+        includeAnswer: row.include_answer
+      }))
+    })
+  });
+
+  const response = await worker.fetch(request, environment());
+  assert.equal(response.status, 200);
+  assert.equal(replacedCount, 1950);
+  assert.deepEqual(pageOffsets, [0, 900, 1800]);
+  const body = await response.json();
+  assert.equal(body.bookmarks.length, 1950);
+  assert.equal(body.bookmarks.at(-1).questionId, "ss39-q50");
+});
+
+test("attempt byte validation matches PostgreSQL jsonb text spacing", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+
+  let upsertCalled = false;
+  globalThis.fetch = async (input) => {
+    const url = new URL(String(input));
+    const functionName = decodeURIComponent(url.pathname.split("/").at(-1));
+    if (functionName === "sentence_structure_student_profile") {
+      return jsonResponse([{
+        id: STUDENT_ID,
+        name: "Test Student",
+        session_expires_at: "2026-07-23T00:00:00.000Z"
+      }]);
+    }
+    if (functionName === "sentence_structure_upsert_attempt") upsertCalled = true;
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  };
+
+  const startedAt = new Date().toISOString();
+  const questionIds = Array.from(
+    { length: 50 },
+    (_, index) => `ss39-q${String(index + 1).padStart(2, "0")}`
+  );
+  const result = {
+    round: 72,
+    correctIds: [],
+    questionState: Object.fromEntries(questionIds.map(id => [
+      id,
+      { status: "wrong", lastAnswer: "not correct", reveal: true }
+    ])),
+    rounds: Array.from({ length: 72 }, (_, index) => ({
+      round: index + 1,
+      kind: "all",
+      checkedIds: questionIds,
+      correctIds: [],
+      incorrectIds: questionIds,
+      submittedAt: startedAt
+    })),
+    awaitingNextRound: false,
+    correctionMode: false,
+    correctionIds: [],
+    collapsedCorrectIds: [],
+    contentVersion: "1"
+  };
+  assert.ok(
+    Buffer.byteLength(JSON.stringify(result), "utf8") < 96 * 1024,
+    "fixture must fit the old compact-JSON check"
+  );
+
+  const request = new Request(`https://worker.example/v1/attempts/${ATTEMPT_ID}`, {
+    method: "PUT",
+    headers: {
+      Origin: ORIGIN,
+      Authorization: `Bearer ${STUDENT_TOKEN}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      lessonId: "ss39",
+      lessonVersion: "1",
+      status: "in_progress",
+      roundNumber: 72,
+      correctCount: 0,
+      totalCount: 50,
+      durationMs: 72000,
+      startedAt,
+      completedAt: null,
+      result
+    })
+  });
+
+  const response = await worker.fetch(request, environment());
+  assert.equal(response.status, 413);
+  assert.equal(upsertCalled, false);
+  assert.equal((await response.json()).code, "ATTEMPT_TOO_LARGE");
 });
 
 test("an out-of-catalog question ID is rejected before the attempt RPC", async t => {

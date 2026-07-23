@@ -1,0 +1,1115 @@
+{
+  "id": "ss35",
+  "order": 35,
+  "slug": "it-adjective-for-person-to-verb",
+  "title": "「It is + 形容詞 +（for + 人）+ to + 動詞」句型",
+  "titleZh": "「It is + 形容詞 +（for + 人）+ to + 動詞」句",
+  "titleEn": "Using It + adjective + (for someone) + to + verb",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 35 「It is + 形容詞 +（for + 人）+ to + 動詞」句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "It + be + adjective + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss35-formula-general",
+      "labelEn": "A. Describing a general characteristic of an action",
+      "labelZh": "A. 說明一件事的一般特點",
+      "formula": "It + be + adjective + to + base verb + other information"
+    },
+    {
+      "id": "ss35-formula-person",
+      "labelEn": "B. Describing the situation for a particular person",
+      "labelZh": "B. 說明某人做一件事時的情況",
+      "formula": "It + be + adjective + for + person / object pronoun + to + base verb + other information"
+    },
+    {
+      "id": "ss35-formula-evaluation",
+      "labelEn": "C. Evaluating a statement",
+      "labelZh": "C. 對一個說法作出評價",
+      "formula": "It + be + adjective + to say + (that) + clause"
+    }
+  ],
+  "example": "It is important to read the instructions carefully.",
+  "exampleZh": "仔細閱讀說明很重要。",
+  "examples": [
+    {
+      "id": "ss35-example-general",
+      "en": "It is important to read the instructions carefully.",
+      "zh": "仔細閱讀說明很重要。",
+      "highlight": "It is important to read"
+    },
+    {
+      "id": "ss35-example-person",
+      "en": "It was hard for me to describe the experience.",
+      "zh": "對我來說，要形容那段經歷很困難。",
+      "highlight": "It was hard for me to describe"
+    },
+    {
+      "id": "ss35-example-sad-to-say",
+      "en": "It is sad to say that we cannot finish the task before the deadline.",
+      "zh": "很遺憾地說，我們無法在截止日期前完成任務。",
+      "highlight": "It is sad to say that"
+    },
+    {
+      "id": "ss35-example-safe-to-say",
+      "en": "It is safe to say that the project will go as scheduled.",
+      "zh": "可以肯定地說，這個項目將會按計劃進行。",
+      "highlight": "It is safe to say that"
+    }
+  ],
+  "meaning": {
+    "zh": "以形式主語 It 先提出評價，再用 to + 動詞 說明真正的行動；也可加入 for + 人 指明該評價適用於誰。"
+  },
+  "rules": [
+    {
+      "id": "ss35-rule-01",
+      "en": "It normally does not refer to an actual thing. It is a dummy subject, while the real action follows to + verb.",
+      "zh": "It 通常不代表任何實際事物，而是形式主語；真正要談論的行動放在 to + 動詞 後面。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Learning a new language is difficult.",
+        "It is difficult to learn a new language."
+      ]
+    },
+    {
+      "id": "ss35-rule-02",
+      "en": "Use for + person + to + verb when specifying who performs the action.",
+      "zh": "指明做動作的人時，在形容詞後加入 for + 人 + to + 動詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is difficult for Leo to lift the box."
+      ]
+    },
+    {
+      "id": "ss35-rule-03",
+      "en": "Use an object pronoun after for: me, you, him, her, us or them.",
+      "zh": "For 後面要使用受詞形式，例如 me、you、him、her、us 或 them。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is difficult for him to understand the question."
+      ]
+    },
+    {
+      "id": "ss35-rule-04",
+      "en": "Omit for + person when the meaning applies to people in general.",
+      "zh": "如果意思適用於一般人，可以省略 for + 人。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is dangerous to touch a wet electrical plug."
+      ]
+    },
+    {
+      "id": "ss35-rule-05",
+      "en": "Use the base form of the verb after to.",
+      "zh": "To 後面使用動詞原形。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is important to check the answer."
+      ]
+    },
+    {
+      "id": "ss35-rule-06",
+      "en": "Change be to match tense or modality: is, was, will be, may be, can be or would be.",
+      "zh": "Be 可以按照時態或語氣改變，例如 is、was、will be、may be、can be 或 would be。",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss35-rule-07",
+      "en": "For and of have different meanings. This lesson uses for to evaluate an action for a person; of usually comments on a person’s character or behaviour.",
+      "zh": "For 和 of 的意思不同。本課使用 for，表示某人做某件事時該行動的情況；of + 人 通常評論一個人的性格或行為，屬於另一個句型。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is difficult for Ben to solve the problem.",
+        "It is kind of Ben to help us."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss35-benefit-01",
+      "en": "It lets readers know your evaluation first.",
+      "zh": "把 important、difficult、safe、dangerous 等重點放在句子前面，讓讀者立即知道你的評價。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss35-benefit-02",
+      "en": "It clearly identifies who experiences the situation.",
+      "zh": "加入 for + 人 後，可以準確指出某件事對誰來說容易、困難、重要或有可能。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss35-benefit-03",
+      "en": "It makes longer sentences easier to read.",
+      "zh": "可以先給出簡短評價，再把較長的行動放在後面，使句子較容易跟隨。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss35-benefit-04",
+      "en": "It is suitable for advice, reminders and warnings.",
+      "zh": "可以自然地告訴別人甚麼事情是重要、必要、明智或危險的。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss35-benefit-05",
+      "en": "It helps you make a cautious evaluation.",
+      "zh": "It is safe to say that... 和 It is fair to say that... 可用來提出有理據、但不過分絕對的判斷。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss35-benefit-06",
+      "en": "It provides an easy speaking frame.",
+      "zh": "先使用 It is + adjective...，再加入自己的內容，可減少說話時從零開始組織整句的壓力。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents the Important Rules and Benefits explanations mainly in Chinese; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using It + be + adjective + (for + person) + to + verb.",
+      "Use a suitable form of be and preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It + be + 形容詞 +（for + 人）+ to + 動詞 改寫以下句子。",
+      "請使用適當的 be 形式，並保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss35-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Making a cup of tea with this machine is easy.",
+      "promptZh": "使用這部機器泡一杯茶很容易。",
+      "starter": "It",
+      "answer": "It is easy to make a cup of tea with this machine.",
+      "answerZh": "使用這部機器泡一杯茶很容易。",
+      "answerZhSource": "pdf",
+      "highlight": "It is easy to make a cup of tea with this machine."
+    },
+    {
+      "id": "ss35-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Washing your hands before eating is important.",
+      "promptZh": "飯前洗手很重要。",
+      "starter": "It",
+      "answer": "It is important to wash your hands before eating.",
+      "answerZh": "飯前洗手很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "It is important to wash your hands before eating."
+    },
+    {
+      "id": "ss35-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Leo has difficulty lifting this heavy box.",
+      "promptZh": "里奧搬起這個沉重的箱子有困難。",
+      "starter": "It",
+      "answer": "It is difficult for Leo to lift this heavy box.",
+      "answerZh": "對里奧來說，搬起這個沉重的箱子很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "It is difficult for Leo to lift this heavy box."
+    },
+    {
+      "id": "ss35-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "You can cross the road safely after the pedestrian light turns green.",
+      "promptZh": "行人過路燈轉綠後，你可以安全地過馬路。",
+      "starter": "It",
+      "answer": "It is safe to cross the road after the pedestrian light turns green.",
+      "answerZh": "行人過路燈轉綠後過馬路是安全的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is safe to cross the road after the pedestrian light turns green."
+    },
+    {
+      "id": "ss35-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Learning songs in another language is fun.",
+      "promptZh": "學習另一種語言的歌曲很有趣。",
+      "starter": "It",
+      "answer": "It is fun to learn songs in another language.",
+      "answerZh": "學習另一種語言的歌曲很有趣。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fun to learn songs in another language."
+    },
+    {
+      "id": "ss35-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "You need to bring your identity card to the appointment.",
+      "promptZh": "你需要帶同身分證赴約。",
+      "starter": "It",
+      "answer": "It is necessary for you to bring your identity card to the appointment.",
+      "answerZh": "你有必要帶同身分證赴約。",
+      "answerZhSource": "pdf",
+      "highlight": "It is necessary for you to bring your identity card to the appointment."
+    },
+    {
+      "id": "ss35-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Touching a wet electrical plug is dangerous.",
+      "promptZh": "觸摸沾濕的電插頭很危險。",
+      "starter": "It",
+      "answer": "It is dangerous to touch a wet electrical plug.",
+      "answerZh": "觸摸沾濕的電插頭很危險。",
+      "answerZhSource": "pdf",
+      "highlight": "It is dangerous to touch a wet electrical plug."
+    },
+    {
+      "id": "ss35-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Waiting for your turn shows good manners.",
+      "promptZh": "等候輪到自己是有禮貌的表現。",
+      "starter": "It",
+      "answer": "It is polite to wait for your turn.",
+      "answerZh": "等候輪到自己是有禮貌的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is polite to wait for your turn."
+    },
+    {
+      "id": "ss35-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Keeping a vocabulary notebook can help you remember new words.",
+      "promptZh": "使用詞彙筆記簿可以幫助你記住新詞。",
+      "starter": "It",
+      "answer": "It is helpful to keep a vocabulary notebook to remember new words.",
+      "answerZh": "使用詞彙筆記簿有助你記住新詞。",
+      "answerZhSource": "pdf",
+      "highlight": "It is helpful to keep a vocabulary notebook to remember new words."
+    },
+    {
+      "id": "ss35-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "I have difficulty remembering long numbers.",
+      "promptZh": "我很難記住很長的數字。",
+      "starter": "It",
+      "answer": "It is hard for me to remember long numbers.",
+      "answerZh": "對我來說，記住很長的數字很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "It is hard for me to remember long numbers."
+    },
+    {
+      "id": "ss35-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Tickets for the museum can be booked online.",
+      "promptZh": "博物館門票可以在網上預訂。",
+      "starter": "It",
+      "answer": "It is possible to book tickets for the museum online.",
+      "answerZh": "博物館門票可以在網上預訂。",
+      "answerZhSource": "pdf",
+      "highlight": "It is possible to book tickets for the museum online."
+    },
+    {
+      "id": "ss35-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Reading the sign is easier from this side of the street.",
+      "promptZh": "從街道這一邊看告示牌較容易。",
+      "starter": "It",
+      "answer": "It is easier to read the sign from this side of the street.",
+      "answerZh": "從街道這一邊看告示牌較容易。",
+      "answerZhSource": "pdf",
+      "highlight": "It is easier to read the sign from this side of the street."
+    },
+    {
+      "id": "ss35-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Skipping breakfast every day is unhealthy.",
+      "promptZh": "每天不吃早餐並不健康。",
+      "starter": "It",
+      "answer": "It is unhealthy to skip breakfast every day.",
+      "answerZh": "每天不吃早餐並不健康。",
+      "answerZhSource": "pdf",
+      "highlight": "It is unhealthy to skip breakfast every day."
+    },
+    {
+      "id": "ss35-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Feeling nervous before an interview is normal.",
+      "promptZh": "面試前感到緊張很正常。",
+      "starter": "It",
+      "answer": "It is normal to feel nervous before an interview.",
+      "answerZh": "面試前感到緊張很正常。",
+      "answerZhSource": "pdf",
+      "highlight": "It is normal to feel nervous before an interview."
+    },
+    {
+      "id": "ss35-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Checking the weather before a day trip is a sensible idea.",
+      "promptZh": "一日遊前查看天氣是明智的做法。",
+      "starter": "It",
+      "answer": "It is sensible to check the weather before a day trip.",
+      "answerZh": "一日遊前查看天氣是明智的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is sensible to check the weather before a day trip."
+    },
+    {
+      "id": "ss35-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Mia does not usually arrive late for class.",
+      "promptZh": "米婭通常不會上課遲到。",
+      "starter": "It",
+      "answer": "It is unusual for Mia to arrive late for class.",
+      "answerZh": "米婭上課遲到並不常見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is unusual for Mia to arrive late for class."
+    },
+    {
+      "id": "ss35-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "We cannot finish all the work before noon.",
+      "promptZh": "我們無法在中午前完成所有工作。",
+      "starter": "It",
+      "answer": "It is impossible for us to finish all the work before noon.",
+      "answerZh": "我們不可能在中午前完成所有工作。",
+      "answerZhSource": "pdf",
+      "highlight": "It is impossible for us to finish all the work before noon."
+    },
+    {
+      "id": "ss35-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Paying by card at this shop is convenient.",
+      "promptZh": "在這間商店以卡付款很方便。",
+      "starter": "It",
+      "answer": "It is convenient to pay by card at this shop.",
+      "answerZh": "在這間商店以卡付款很方便。",
+      "answerZhSource": "pdf",
+      "highlight": "It is convenient to pay by card at this shop."
+    },
+    {
+      "id": "ss35-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Reading the instructions first can help you use the machine correctly.",
+      "promptZh": "先閱讀說明可以幫助你正確使用機器。",
+      "starter": "It",
+      "answer": "It is helpful to read the instructions first so that you can use the machine correctly.",
+      "answerZh": "先閱讀說明有助你正確使用機器。",
+      "answerZhSource": "pdf",
+      "highlight": "It is helpful to read the instructions first so that you can use the machine correctly."
+    },
+    {
+      "id": "ss35-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Older visitors may have difficulty climbing all these stairs.",
+      "promptZh": "年長訪客可能很難走上這些樓梯。",
+      "starter": "It",
+      "answer": "It may be difficult for older visitors to climb all these stairs.",
+      "answerZh": "年長訪客可能很難走上這些樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "It may be difficult for older visitors to climb all these stairs."
+    },
+    {
+      "id": "ss35-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Watching the final match was exciting.",
+      "promptZh": "觀看決賽很刺激。",
+      "starter": "It",
+      "answer": "It was exciting to watch the final match.",
+      "answerZh": "觀看決賽很刺激。",
+      "answerZhSource": "pdf",
+      "highlight": "It was exciting to watch the final match."
+    },
+    {
+      "id": "ss35-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "We were disappointed when we heard that the concert had been cancelled.",
+      "promptZh": "我們得知音樂會取消時感到失望。",
+      "starter": "It",
+      "answer": "It was disappointing for us to hear that the concert had been cancelled.",
+      "answerZh": "對我們來說，得知音樂會取消令人失望。",
+      "answerZhSource": "pdf",
+      "highlight": "It was disappointing for us to hear that the concert had been cancelled."
+    },
+    {
+      "id": "ss35-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Seeing snow in April was surprising.",
+      "promptZh": "四月看到下雪令人驚訝。",
+      "starter": "It",
+      "answer": "It was surprising to see snow in April.",
+      "answerZh": "四月看到下雪令人驚訝。",
+      "answerZhSource": "pdf",
+      "highlight": "It was surprising to see snow in April."
+    },
+    {
+      "id": "ss35-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The driver had to stop because a child ran onto the road.",
+      "promptZh": "一名孩子跑到馬路上，因此司機必須停車。",
+      "starter": "It",
+      "answer": "It was necessary for the driver to stop because a child ran onto the road.",
+      "answerZh": "一名孩子跑到馬路上，因此司機有必要停車。",
+      "answerZhSource": "pdf",
+      "highlight": "It was necessary for the driver to stop because a child ran onto the road."
+    },
+    {
+      "id": "ss35-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Nobody could see the road clearly because of the fog.",
+      "promptZh": "由於大霧，沒有人能看清道路。",
+      "starter": "It",
+      "answer": "It was impossible to see the road clearly because of the fog.",
+      "answerZh": "由於大霧，根本無法看清道路。",
+      "answerZhSource": "pdf",
+      "highlight": "It was impossible to see the road clearly because of the fog."
+    },
+    {
+      "id": "ss35-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Forgetting his teacher’s name was embarrassing for Tom.",
+      "promptZh": "湯姆忘記老師的名字，令他感到尷尬。",
+      "starter": "It",
+      "answer": "It was embarrassing for Tom to forget his teacher’s name.",
+      "answerZh": "對湯姆來說，忘記老師的名字很尷尬。",
+      "answerZhSource": "pdf",
+      "highlight": "It was embarrassing for Tom to forget his teacher’s name."
+    },
+    {
+      "id": "ss35-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "We can say with confidence that the new timetable is working well.",
+      "promptZh": "我們可以肯定地說，新時間表運作良好。",
+      "starter": "It",
+      "answer": "It is safe to say that the new timetable is working well.",
+      "answerZh": "可以肯定地說，新時間表運作良好。",
+      "answerZhSource": "pdf",
+      "highlight": "It is safe to say that the new timetable is working well."
+    },
+    {
+      "id": "ss35-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Sadly, the family shop will close next month.",
+      "promptZh": "很遺憾，這間家庭小店將於下月結業。",
+      "starter": "It",
+      "answer": "It is sad to say that the family shop will close next month.",
+      "answerZh": "很遺憾地說，這間家庭小店將於下月結業。",
+      "answerZhSource": "pdf",
+      "highlight": "It is sad to say that the family shop will close next month."
+    },
+    {
+      "id": "ss35-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "We can reasonably say that both sides made mistakes.",
+      "promptZh": "我們可以合理地說，雙方都有犯錯。",
+      "starter": "It",
+      "answer": "It is fair to say that both sides made mistakes.",
+      "answerZh": "平心而論，雙方都有犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fair to say that both sides made mistakes."
+    },
+    {
+      "id": "ss35-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Nobody can easily explain why the machine stopped.",
+      "promptZh": "沒有人能輕易解釋機器為何停止運作。",
+      "starter": "It",
+      "answer": "It is difficult to explain why the machine stopped.",
+      "answerZh": "要解釋機器為何停止運作很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "It is difficult to explain why the machine stopped."
+    },
+    {
+      "id": "ss35-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Beginners may have difficulty following these instructions.",
+      "promptZh": "初學者可能難以跟隨這些指示。",
+      "starter": "It",
+      "answer": "It may be difficult for beginners to follow these instructions.",
+      "answerZh": "初學者可能難以跟隨這些指示。",
+      "answerZhSource": "pdf",
+      "highlight": "It may be difficult for beginners to follow these instructions."
+    },
+    {
+      "id": "ss35-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Taking short breaks can help students stay focused while studying.",
+      "promptZh": "短暫休息可以幫助學生在溫習時保持專注。",
+      "starter": "It",
+      "answer": "It can be helpful for students to take short breaks to stay focused while studying.",
+      "answerZh": "學生在溫習時作短暫休息，有助他們保持專注。",
+      "answerZhSource": "pdf",
+      "highlight": "It can be helpful for students to take short breaks to stay focused while studying."
+    },
+    {
+      "id": "ss35-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Sharing regular updates will be important for the team next month.",
+      "promptZh": "下個月定期分享最新進展對團隊很重要。",
+      "starter": "It",
+      "answer": "It will be important for the team to share regular updates next month.",
+      "answerZh": "團隊下個月定期分享最新進展將會很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "It will be important for the team to share regular updates next month."
+    },
+    {
+      "id": "ss35-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Travelling abroad without insurance would involve a risk.",
+      "promptZh": "沒有保險便出國旅行會有風險。",
+      "starter": "It",
+      "answer": "It would be risky to travel abroad without insurance.",
+      "answerZh": "沒有保險便出國旅行會有風險。",
+      "answerZhSource": "pdf",
+      "highlight": "It would be risky to travel abroad without insurance."
+    },
+    {
+      "id": "ss35-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Not everyone finds speaking in public easy.",
+      "promptZh": "不是每個人都覺得公開演說容易。",
+      "starter": "It",
+      "answer": "It is not easy for everyone to speak in public.",
+      "answerZh": "公開演說並非對每個人來說都容易。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not easy for everyone to speak in public."
+    },
+    {
+      "id": "ss35-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Young children often struggle to concentrate in a noisy room.",
+      "promptZh": "年幼兒童在嘈吵的房間裏往往難以集中精神。",
+      "starter": "It",
+      "answer": "It is often hard for young children to concentrate in a noisy room.",
+      "answerZh": "年幼兒童在嘈吵的房間裏往往難以集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "It is often hard for young children to concentrate in a noisy room."
+    },
+    {
+      "id": "ss35-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Copying another student’s work is wrong.",
+      "promptZh": "抄襲另一名學生的功課是錯的。",
+      "starter": "It",
+      "answer": "It is wrong to copy another student’s work.",
+      "answerZh": "抄襲另一名學生的功課是錯的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is wrong to copy another student’s work."
+    },
+    {
+      "id": "ss35-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Saving a copy before editing the file is a wise step.",
+      "promptZh": "編輯檔案前儲存副本是明智的一步。",
+      "starter": "It",
+      "answer": "It is wise to save a copy before editing the file.",
+      "answerZh": "編輯檔案前儲存副本是明智的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is wise to save a copy before editing the file."
+    },
+    {
+      "id": "ss35-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Residents can apply for the service online.",
+      "promptZh": "居民可以在網上申請這項服務。",
+      "starter": "It",
+      "answer": "It is possible for residents to apply for the service online.",
+      "answerZh": "居民可以在網上申請這項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "It is possible for residents to apply for the service online."
+    },
+    {
+      "id": "ss35-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The nurse had difficulty hearing the patient because the room was noisy.",
+      "promptZh": "由於房間嘈吵，護士很難聽清病人的說話。",
+      "starter": "It",
+      "answer": "It was difficult for the nurse to hear the patient because the room was noisy.",
+      "answerZh": "由於房間嘈吵，護士很難聽清病人的說話。",
+      "answerZhSource": "pdf",
+      "highlight": "It was difficult for the nurse to hear the patient because the room was noisy."
+    },
+    {
+      "id": "ss35-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Passengers must keep the emergency exits clear.",
+      "promptZh": "乘客必須保持緊急出口暢通。",
+      "starter": "It",
+      "answer": "It is essential for passengers to keep the emergency exits clear.",
+      "answerZh": "乘客必須保持緊急出口暢通。",
+      "answerZhSource": "pdf",
+      "highlight": "It is essential for passengers to keep the emergency exits clear."
+    },
+    {
+      "id": "ss35-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "New employees benefit from receiving clear written instructions.",
+      "promptZh": "新員工可以從清晰的書面指示中受益。",
+      "starter": "It",
+      "answer": "It is useful for new employees to receive clear written instructions.",
+      "answerZh": "新員工收到清晰的書面指示很有幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "It is useful for new employees to receive clear written instructions."
+    },
+    {
+      "id": "ss35-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Customers have good reason to expect a reply within two working days.",
+      "promptZh": "顧客有充分理由期望在兩個工作天內收到回覆。",
+      "starter": "It",
+      "answer": "It is reasonable for customers to expect a reply within two working days.",
+      "answerZh": "顧客期望在兩個工作天內收到回覆是合理的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is reasonable for customers to expect a reply within two working days."
+    },
+    {
+      "id": "ss35-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Without support from families, the school has difficulty reducing food waste.",
+      "promptZh": "沒有家庭的支持，學校很難減少食物浪費。",
+      "starter": "It",
+      "answer": "It is difficult for the school to reduce food waste without support from families.",
+      "answerZh": "沒有家庭的支持，學校很難減少食物浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "It is difficult for the school to reduce food waste without support from families."
+    },
+    {
+      "id": "ss35-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The clinic may be able to offer evening appointments next month.",
+      "promptZh": "診所下個月或可提供晚間診症時段。",
+      "starter": "It",
+      "answer": "It may be possible for the clinic to offer evening appointments next month.",
+      "answerZh": "診所下個月或可提供晚間診症時段。",
+      "answerZhSource": "pdf",
+      "highlight": "It may be possible for the clinic to offer evening appointments next month."
+    },
+    {
+      "id": "ss35-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "We should remember that information found online may be inaccurate.",
+      "promptZh": "我們應該記住，在網上找到的資料可能不準確。",
+      "starter": "It",
+      "answer": "It is important to remember that information found online may be inaccurate.",
+      "answerZh": "務必記住，在網上找到的資料可能不準確。",
+      "answerZhSource": "pdf",
+      "highlight": "It is important to remember that information found online may be inaccurate."
+    },
+    {
+      "id": "ss35-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The evidence strongly suggests that the new route has reduced travel time.",
+      "promptZh": "證據有力顯示，新路線已縮短行程時間。",
+      "starter": "It",
+      "answer": "It is safe to say that the new route has reduced travel time.",
+      "answerZh": "可以肯定地說，新路線已縮短行程時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It is safe to say that the new route has reduced travel time."
+    },
+    {
+      "id": "ss35-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The rescue team had difficulty reaching the village because of the storm.",
+      "promptZh": "由於暴風雨，救援隊很難到達村莊。",
+      "starter": "It",
+      "answer": "It was hard for the rescue team to reach the village because of the storm.",
+      "answerZh": "由於暴風雨，救援隊很難到達村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "It was hard for the rescue team to reach the village because of the storm."
+    },
+    {
+      "id": "ss35-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "All participants will have to register before Friday.",
+      "promptZh": "所有參加者都必須在星期五前登記。",
+      "starter": "It",
+      "answer": "It will be necessary for all participants to register before Friday.",
+      "answerZh": "所有參加者都有必要在星期五前登記。",
+      "answerZhSource": "pdf",
+      "highlight": "It will be necessary for all participants to register before Friday."
+    },
+    {
+      "id": "ss35-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "We are encouraged by the fact that more young people are volunteering in the community.",
+      "promptZh": "越來越多年輕人參與社區義工服務，令我們感到鼓舞。",
+      "starter": "It",
+      "answer": "It is encouraging to see more young people volunteering in the community.",
+      "answerZh": "看到越來越多年輕人參與社區義工服務，令人鼓舞。",
+      "answerZhSource": "pdf",
+      "highlight": "It is encouraging to see more young people volunteering in the community."
+    }
+  ]
+}

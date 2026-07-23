@@ -1,0 +1,1107 @@
+{
+  "id": "ss37",
+  "order": 37,
+  "slug": "noun-to-infinitive",
+  "title": "「名詞 + to-infinitive」句型",
+  "titleZh": "「名詞 + to-infinitive（to + 原形動詞）句」",
+  "titleEn": "The to-infinitive as a postmodifier or complement of a noun",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Sturcture 37 -「名詞 + to-infinitive（to + 原形動詞）句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Noun + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss37-formula-core",
+      "labelEn": "Core Formula",
+      "labelZh": "核心句式",
+      "formula": "Noun + to + base verb + other information"
+    },
+    {
+      "id": "ss37-formula-be",
+      "labelEn": "Common Complete Structure 1",
+      "labelZh": "常見完整句式一",
+      "formula": "Subject + be + noun phrase + to + base verb"
+    },
+    {
+      "id": "ss37-formula-transitive",
+      "labelEn": "Common Complete Structure 2",
+      "labelZh": "常見完整句式二",
+      "formula": "Subject + have / need / find / provide + noun + to + base verb"
+    },
+    {
+      "id": "ss37-formula-there",
+      "labelEn": "Common Complete Structure 3",
+      "labelZh": "常見完整句式三",
+      "formula": "There + be + noun + to + base verb"
+    }
+  ],
+  "example": "Sleeping is a good way to improve efficiency.",
+  "exampleZh": "睡覺是提升效率的好方法。",
+  "examples": [
+    {
+      "id": "ss37-example-01",
+      "en": "Sleeping is a good way to improve efficiency.",
+      "zh": "睡覺是提升效率的好方法。",
+      "highlight": "a good way to improve efficiency"
+    },
+    {
+      "id": "ss37-example-02",
+      "en": "Wider access is one of the best ways to revive interest in the arts.",
+      "zh": "更廣泛的接觸，是重振大眾對藝術興趣的最佳方法之一。",
+      "highlight": "ways to revive interest in the arts"
+    }
+  ],
+  "meaning": {
+    "zh": "To-infinitive 放在名詞後，說明與該名詞有關的動作、目的、用途、責任、權利、機會或可能性。"
+  },
+  "rules": [
+    {
+      "id": "ss37-rule-01",
+      "en": "Use the base form of the verb after to.",
+      "zh": "To 後面必須使用原形動詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "a way to improve",
+        "a responsibility to protect",
+        "a book to read",
+        "a place to rest"
+      ]
+    },
+    {
+      "id": "ss37-rule-02",
+      "en": "Common nouns followed by a to-infinitive include way, responsibility, right, opportunity, chance, need, reason, decision, choice, plan, time, place, environment, home, school, book, topic, question, task and method.",
+      "zh": "常與 to-infinitive 連用的名詞包括 way、responsibility、right、opportunity、chance、need、reason、decision、choice、plan、time、place、environment、home、school、book、topic、question、task 和 method。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "a chance to practise",
+        "a topic to discuss",
+        "a method to reduce waste",
+        "a home to live in"
+      ]
+    },
+    {
+      "id": "ss37-rule-03",
+      "en": "Some nouns receive the action of the following infinitive: a book to read, a topic to discuss or problems to solve.",
+      "zh": "有些名詞代表後面動作的「承受者」，例如 a book to read、a topic to discuss 或 several problems to solve。",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss37-rule-04",
+      "en": "Keep a necessary preposition at the end of the infinitive phrase.",
+      "zh": "某些句子要保留句尾介詞，不可錯誤刪去。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "a chair to sit on",
+        "a room to work in",
+        "music to listen to",
+        "a home to live in"
+      ]
+    },
+    {
+      "id": "ss37-rule-05",
+      "en": "Not every noun takes to + verb. Nouns such as benefit, advantage, disadvantage and downside normally take of + noun or gerund in the meanings shown here.",
+      "zh": "並非所有名詞都使用 to + 動詞。Benefit、advantage、disadvantage 和 downside 等名詞表達相關意思時，通常使用 of + 名詞／動名詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "the benefit of regular exercise",
+        "the advantage of studying online"
+      ]
+    },
+    {
+      "id": "ss37-rule-06",
+      "en": "Some nouns permit more than one structure, such as a way to solve/of solving, a chance to speak/of speaking, and a method to reduce/of reducing/for reducing.",
+      "zh": "部分名詞可以使用多於一種結構；本練習的目標是把句子改寫成 名詞 + to-infinitive。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "a way to solve the problem",
+        "a method for reducing waste"
+      ]
+    },
+    {
+      "id": "ss37-rule-07",
+      "en": "Do not mistake prepositional to for an infinitive marker. To followed by a noun is a preposition; to followed by a base verb forms the target to-infinitive.",
+      "zh": "不要把介詞 to 誤認為 to-infinitive。To 後面是名詞時屬於介詞；後面是原形動詞時才屬於本課目標句型。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Hong Kong is home to many international companies.",
+        "The children need a home to live in."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss37-benefit-01",
+      "en": "It clearly explains the relationship between a noun and an action.",
+      "zh": "清楚說明物品、地方、機會、權利或責任與甚麼動作有關。"
+    },
+    {
+      "id": "ss37-benefit-02",
+      "en": "It shortens longer relative clauses.",
+      "zh": "不需要每次都使用 which、that 或 where 等較長結構，也可以把資料放在名詞後面。"
+    },
+    {
+      "id": "ss37-benefit-03",
+      "en": "It helps you use practical fixed frames.",
+      "zh": "可直接使用 a chance to、a responsibility to、the right to 和 a way to 等實用句框。"
+    },
+    {
+      "id": "ss37-benefit-04",
+      "en": "It describes objects and places more precisely.",
+      "zh": "能說明物品的用途，或人們可以在某個地方進行甚麼活動。"
+    },
+    {
+      "id": "ss37-benefit-05",
+      "en": "It avoids excessive repetition of sentence structures.",
+      "zh": "可避免反覆使用 which、where、can、should 或 must，令寫作更有變化。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents the Important Rules mainly in Chinese; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a noun followed by to + base verb.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用「名詞 + to + 原形動詞」改寫以下句子，並保持原意。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss37-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Sleeping is a good way of improving efficiency.",
+      "promptZh": "睡覺是提升效率的好方法。",
+      "starter": "Sleeping",
+      "answer": "Sleeping is a good way to improve efficiency.",
+      "answerZh": "睡覺是提升效率的好方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Sleeping is a good way to improve efficiency."
+    },
+    {
+      "id": "ss37-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "This is a useful book which you can read before bed.",
+      "promptZh": "這是一本實用的書，你可以在睡前閱讀。",
+      "starter": "This",
+      "answer": "This is a useful book to read before bed.",
+      "answerZh": "這是一本適合在睡前閱讀的實用書籍。",
+      "answerZhSource": "pdf",
+      "highlight": "This is a useful book to read before bed."
+    },
+    {
+      "id": "ss37-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "We need a quiet place where we can study after school.",
+      "promptZh": "我們需要一個可以在放學後溫習的安靜地方。",
+      "starter": "We",
+      "answer": "We need a quiet place to study after school.",
+      "answerZh": "我們需要一個安靜的地方在放學後溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "We need a quiet place to study after school."
+    },
+    {
+      "id": "ss37-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Maya has a chance of joining the school team this year.",
+      "promptZh": "瑪雅今年有機會加入校隊。",
+      "starter": "Maya",
+      "answer": "Maya has a chance to join the school team this year.",
+      "answerZh": "瑪雅今年有機會加入校隊。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya has a chance to join the school team this year."
+    },
+    {
+      "id": "ss37-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Everyone is responsible for keeping the classroom clean.",
+      "promptZh": "每個人都有責任保持課室清潔。",
+      "starter": "Everyone",
+      "answer": "Everyone has a responsibility to keep the classroom clean.",
+      "answerZh": "每個人都有責任保持課室清潔。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone has a responsibility to keep the classroom clean."
+    },
+    {
+      "id": "ss37-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Students are entitled to ask questions when they do not understand.",
+      "promptZh": "學生在不明白時有權提問。",
+      "starter": "Students",
+      "answer": "Students have the right to ask questions when they do not understand.",
+      "answerZh": "學生在不明白時有權提問。",
+      "answerZhSource": "pdf",
+      "highlight": "Students have the right to ask questions when they do not understand."
+    },
+    {
+      "id": "ss37-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "This is an interesting topic which we can discuss in class.",
+      "promptZh": "這是一個我們可以在課堂上討論的有趣話題。",
+      "starter": "This",
+      "answer": "This is an interesting topic to discuss in class.",
+      "answerZh": "這是一個適合在課堂上討論的有趣話題。",
+      "answerZhSource": "pdf",
+      "highlight": "This is an interesting topic to discuss in class."
+    },
+    {
+      "id": "ss37-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The app provides a simple method of organising notes.",
+      "promptZh": "這個應用程式提供一個整理筆記的簡單方法。",
+      "starter": "The",
+      "answer": "The app provides a simple method to organise notes.",
+      "answerZh": "這個應用程式提供一個整理筆記的簡單方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The app provides a simple method to organise notes."
+    },
+    {
+      "id": "ss37-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The library provides a calm environment in which people can work.",
+      "promptZh": "圖書館提供一個讓人安靜工作的環境。",
+      "starter": "The",
+      "answer": "The library provides a calm environment to work in.",
+      "answerZh": "圖書館提供一個安靜的工作環境。",
+      "answerZhSource": "pdf",
+      "highlight": "The library provides a calm environment to work in."
+    },
+    {
+      "id": "ss37-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "I need some music which I can listen to while I cook.",
+      "promptZh": "我需要一些可以在煮食時聆聽的音樂。",
+      "starter": "I",
+      "answer": "I need some music to listen to while I cook.",
+      "answerZh": "我需要一些在煮食時聆聽的音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "I need some music to listen to while I cook."
+    },
+    {
+      "id": "ss37-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The workshop allows us to learn useful skills.",
+      "promptZh": "這個工作坊讓我們學習實用技能。",
+      "starter": "The",
+      "answer": "The workshop gives us an opportunity to learn useful skills.",
+      "answerZh": "這個工作坊給我們機會學習實用技能。",
+      "answerZhSource": "pdf",
+      "highlight": "The workshop gives us an opportunity to learn useful skills."
+    },
+    {
+      "id": "ss37-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "I must finish a report tonight.",
+      "promptZh": "我今晚必須完成一份報告。",
+      "starter": "I",
+      "answer": "I have a report to finish tonight.",
+      "answerZh": "我今晚有一份報告要完成。",
+      "answerZhSource": "pdf",
+      "highlight": "I have a report to finish tonight."
+    },
+    {
+      "id": "ss37-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "There is a chair which you can sit on beside the window.",
+      "promptZh": "窗邊有一張你可以坐的椅子。",
+      "starter": "There",
+      "answer": "There is a chair to sit on beside the window.",
+      "answerZh": "窗邊有一張可以坐的椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a chair to sit on beside the window."
+    },
+    {
+      "id": "ss37-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "This is a safe path which visitors can take to the lake.",
+      "promptZh": "這是一條訪客可以安全前往湖邊的小徑。",
+      "starter": "This",
+      "answer": "This is a safe path to take to the lake.",
+      "answerZh": "這是一條可以安全前往湖邊的小徑。",
+      "answerZhSource": "pdf",
+      "highlight": "This is a safe path to take to the lake."
+    },
+    {
+      "id": "ss37-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Our class must decide which charity to support.",
+      "promptZh": "我們班必須決定支持哪一間慈善機構。",
+      "starter": "Our",
+      "answer": "Our class has a decision to make about which charity to support.",
+      "answerZh": "我們班需要作出決定，選擇支持哪一間慈善機構。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class has a decision to make about which charity to support."
+    },
+    {
+      "id": "ss37-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The team needs a plan for solving the problem.",
+      "promptZh": "團隊需要一個解決問題的計劃。",
+      "starter": "The",
+      "answer": "The team needs a plan to solve the problem.",
+      "answerZh": "團隊需要一個解決問題的計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The team needs a plan to solve the problem."
+    },
+    {
+      "id": "ss37-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "We still have enough time, so we can check the answers.",
+      "promptZh": "我們仍有足夠時間，因此可以檢查答案。",
+      "starter": "We",
+      "answer": "We still have enough time to check the answers.",
+      "answerZh": "我們仍有足夠時間檢查答案。",
+      "answerZhSource": "pdf",
+      "highlight": "We still have enough time to check the answers."
+    },
+    {
+      "id": "ss37-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The children need a safe home where they can live.",
+      "promptZh": "這些孩子需要一個可以安全居住的家。",
+      "starter": "The",
+      "answer": "The children need a safe home to live in.",
+      "answerZh": "這些孩子需要一個可以安全居住的家。",
+      "answerZhSource": "pdf",
+      "highlight": "The children need a safe home to live in."
+    },
+    {
+      "id": "ss37-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The museum has several rooms which visitors can explore.",
+      "promptZh": "博物館有數個訪客可以參觀的房間。",
+      "starter": "The",
+      "answer": "The museum has several rooms to explore.",
+      "answerZh": "博物館有數個可以參觀的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has several rooms to explore."
+    },
+    {
+      "id": "ss37-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Daniel uses a simple method for remembering the password.",
+      "promptZh": "丹尼爾使用一個記住密碼的簡單方法。",
+      "starter": "Daniel",
+      "answer": "Daniel uses a simple method to remember the password.",
+      "answerZh": "丹尼爾使用一個簡單方法記住密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel uses a simple method to remember the password."
+    },
+    {
+      "id": "ss37-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The company is responsible for protecting customer data.",
+      "promptZh": "公司有責任保護顧客資料。",
+      "starter": "The",
+      "answer": "The company has a responsibility to protect customer data.",
+      "answerZh": "公司有責任保護顧客資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The company has a responsibility to protect customer data."
+    },
+    {
+      "id": "ss37-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Every child is entitled to receive an education.",
+      "promptZh": "每名兒童都有權接受教育。",
+      "starter": "Every",
+      "answer": "Every child has the right to receive an education.",
+      "answerZh": "每名兒童都有權接受教育。",
+      "answerZhSource": "pdf",
+      "highlight": "Every child has the right to receive an education."
+    },
+    {
+      "id": "ss37-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Olivia was finally able to speak to the manager.",
+      "promptZh": "奧莉花終於能夠與經理交談。",
+      "starter": "Olivia",
+      "answer": "Olivia finally got the chance to speak to the manager.",
+      "answerZh": "奧莉花終於得到與經理交談的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia finally got the chance to speak to the manager."
+    },
+    {
+      "id": "ss37-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The course allows students to practise public speaking.",
+      "promptZh": "這個課程讓學生練習公開演說。",
+      "starter": "The",
+      "answer": "The course offers students an opportunity to practise public speaking.",
+      "answerZh": "這個課程給學生練習公開演說的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The course offers students an opportunity to practise public speaking."
+    },
+    {
+      "id": "ss37-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "It is difficult for students to answer this question quickly.",
+      "promptZh": "學生很難迅速回答這條問題。",
+      "starter": "This",
+      "answer": "This is a difficult question to answer quickly.",
+      "answerZh": "這是一條難以迅速回答的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This is a difficult question to answer quickly."
+    },
+    {
+      "id": "ss37-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The doctor gave me some instructions which I must follow for two weeks.",
+      "promptZh": "醫生給了我一些指示，我在未來兩星期都必須遵從。",
+      "starter": "The",
+      "answer": "The doctor gave me some instructions to follow for two weeks.",
+      "answerZh": "醫生給了我一些在未來兩星期需要遵從的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor gave me some instructions to follow for two weeks."
+    },
+    {
+      "id": "ss37-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Visit this page if you need more information about the course.",
+      "promptZh": "如需要更多有關課程的資料，請瀏覽這個頁面。",
+      "starter": "This",
+      "answer": "This is the page to visit for more information about the course.",
+      "answerZh": "如要取得更多有關課程的資料，便應瀏覽這個頁面。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the page to visit for more information about the course."
+    },
+    {
+      "id": "ss37-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The school has created a friendly setting where children can learn.",
+      "promptZh": "學校營造了一個讓孩子學習的友善環境。",
+      "starter": "Children",
+      "answer": "Children have a friendly environment to learn in at the school.",
+      "answerZh": "孩子在學校有一個友善的學習環境。",
+      "answerZhSource": "pdf",
+      "highlight": "Children have a friendly environment to learn in at the school."
+    },
+    {
+      "id": "ss37-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The teacher recommended a book which we could read during the holidays.",
+      "promptZh": "老師推薦了一本我們可以在假期閱讀的書。",
+      "starter": "The",
+      "answer": "The teacher recommended a book to read during the holidays.",
+      "answerZh": "老師推薦了一本適合在假期閱讀的書。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher recommended a book to read during the holidays."
+    },
+    {
+      "id": "ss37-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "We need a method of reducing food waste at school.",
+      "promptZh": "我們需要一個減少學校食物浪費的方法。",
+      "starter": "We",
+      "answer": "We need a method to reduce food waste at school.",
+      "answerZh": "我們需要一個減少學校食物浪費的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "We need a method to reduce food waste at school."
+    },
+    {
+      "id": "ss37-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The committee must consider several issues before making a decision.",
+      "promptZh": "委員會在作出決定前必須考慮數個問題。",
+      "starter": "The",
+      "answer": "The committee has several issues to consider before making a decision.",
+      "answerZh": "委員會在作出決定前有數個問題需要考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee has several issues to consider before making a decision."
+    },
+    {
+      "id": "ss37-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The result gives Aisha no cause for concern.",
+      "promptZh": "這個結果沒有任何需要艾莎擔心的地方。",
+      "starter": "Aisha",
+      "answer": "Aisha has no reason to worry about the result.",
+      "answerZh": "艾莎沒有理由擔心這個結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha has no reason to worry about the result."
+    },
+    {
+      "id": "ss37-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Wheelchair access at the hospital needs improvement.",
+      "promptZh": "醫院的輪椅通道需要改善。",
+      "starter": "There",
+      "answer": "There is a need to improve wheelchair access at the hospital.",
+      "answerZh": "醫院有需要改善輪椅通道。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a need to improve wheelchair access at the hospital."
+    },
+    {
+      "id": "ss37-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The new centre allows young people to meet safely.",
+      "promptZh": "新中心讓年輕人可以安全地聚會。",
+      "starter": "The",
+      "answer": "The new centre gives young people a safe place to meet.",
+      "answerZh": "新中心為年輕人提供一個安全的聚會地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The new centre gives young people a safe place to meet."
+    },
+    {
+      "id": "ss37-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "I would like some quiet music which I can study to.",
+      "promptZh": "我想要一些可以在溫習時聆聽的輕柔音樂。",
+      "starter": "I",
+      "answer": "I would like some quiet music to study to.",
+      "answerZh": "我想要一些適合溫習時聆聽的輕柔音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like some quiet music to study to."
+    },
+    {
+      "id": "ss37-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Students who enjoy science will find this school suitable.",
+      "promptZh": "喜歡科學的學生會覺得這間學校很適合他們。",
+      "starter": "Students",
+      "answer": "Students who enjoy science will find this a suitable school to attend.",
+      "answerZh": "喜歡科學的學生會覺得這是一間適合入讀的學校。",
+      "answerZhSource": "pdf",
+      "highlight": "Students who enjoy science will find this a suitable school to attend."
+    },
+    {
+      "id": "ss37-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Families can relax in the open space that the park provides.",
+      "promptZh": "家庭可以在公園提供的戶外空間休息。",
+      "starter": "The",
+      "answer": "The park provides families with open space to relax in.",
+      "answerZh": "公園為家庭提供可以休息的戶外空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The park provides families with open space to relax in."
+    },
+    {
+      "id": "ss37-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The article contains several useful facts which readers should remember.",
+      "promptZh": "這篇文章包含數項讀者應該記住的實用資料。",
+      "starter": "The",
+      "answer": "The article contains several useful facts to remember.",
+      "answerZh": "這篇文章包含數項值得記住的實用資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The article contains several useful facts to remember."
+    },
+    {
+      "id": "ss37-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Workers can report problems more quickly by using the new system.",
+      "promptZh": "員工使用新系統後，可以更迅速報告問題。",
+      "starter": "The",
+      "answer": "The new system offers workers a faster way to report problems.",
+      "answerZh": "新系統為員工提供一個更迅速報告問題的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system offers workers a faster way to report problems."
+    },
+    {
+      "id": "ss37-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Mina must choose between two difficult options.",
+      "promptZh": "米娜必須在兩個困難的選項之間作出選擇。",
+      "starter": "Mina",
+      "answer": "Mina has a difficult choice to make.",
+      "answerZh": "米娜需要作出一個困難的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Mina has a difficult choice to make."
+    },
+    {
+      "id": "ss37-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Local councils are responsible for making public spaces accessible.",
+      "promptZh": "地方議會有責任確保公共空間便於使用。",
+      "starter": "Local",
+      "answer": "Local councils have a responsibility to make public spaces accessible.",
+      "answerZh": "地方議會有責任確保公共空間便於使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Local councils have a responsibility to make public spaces accessible."
+    },
+    {
+      "id": "ss37-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Citizens are entitled to know how public money is spent.",
+      "promptZh": "市民有權知道公帑如何使用。",
+      "starter": "Citizens",
+      "answer": "Citizens have the right to know how public money is spent.",
+      "answerZh": "市民有權知道公帑如何使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Citizens have the right to know how public money is spent."
+    },
+    {
+      "id": "ss37-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "New staff can learn from experienced colleagues through the mentoring programme.",
+      "promptZh": "新員工可以透過師友計劃向有經驗的同事學習。",
+      "starter": "New",
+      "answer": "New staff have an opportunity to learn from experienced colleagues through the mentoring programme.",
+      "answerZh": "新員工有機會透過師友計劃向有經驗的同事學習。",
+      "answerZhSource": "pdf",
+      "highlight": "New staff have an opportunity to learn from experienced colleagues through the mentoring programme."
+    },
+    {
+      "id": "ss37-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The hospital needs a reliable system which can prevent medication errors.",
+      "promptZh": "醫院需要一個能防止用藥錯誤的可靠系統。",
+      "starter": "The",
+      "answer": "The hospital needs a reliable system to prevent medication errors.",
+      "answerZh": "醫院需要一個可靠系統來防止用藥錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital needs a reliable system to prevent medication errors."
+    },
+    {
+      "id": "ss37-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Our town must protect several historic buildings.",
+      "promptZh": "我們的城鎮必須保護數座歷史建築。",
+      "starter": "Our",
+      "answer": "Our town has several historic buildings to protect.",
+      "answerZh": "我們的城鎮有數座歷史建築需要保護。",
+      "answerZhSource": "pdf",
+      "highlight": "Our town has several historic buildings to protect."
+    },
+    {
+      "id": "ss37-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19
+      },
+      "prompt": "The researchers must examine more evidence before reaching a conclusion.",
+      "promptZh": "研究人員在得出結論前必須審視更多證據。",
+      "starter": "Researchers",
+      "answer": "Researchers have more evidence to examine before reaching a conclusion.",
+      "answerZh": "研究人員在得出結論前有更多證據需要審視。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers have more evidence to examine before reaching a conclusion."
+    },
+    {
+      "id": "ss37-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "At the community centre, elderly residents can exercise and meet others safely.",
+      "promptZh": "年長居民可以在社區中心安全地做運動和與其他人見面。",
+      "starter": "Elderly",
+      "answer": "Elderly residents have a safe place to exercise and meet others at the community centre.",
+      "answerZh": "年長居民在社區中心有一個安全地方做運動和與其他人見面。",
+      "answerZhSource": "pdf",
+      "highlight": "Elderly residents have a safe place to exercise and meet others at the community centre."
+    },
+    {
+      "id": "ss37-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The company gives new employees a practical handbook which they can use when they begin work.",
+      "promptZh": "公司給新員工一本實用手冊，讓他們開始工作時使用。",
+      "starter": "The",
+      "answer": "The company gives new employees a practical handbook to use when they begin work.",
+      "answerZh": "公司給新員工一本實用手冊，供他們開始工作時使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The company gives new employees a practical handbook to use when they begin work."
+    },
+    {
+      "id": "ss37-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The government is responsible for balancing development with environmental protection.",
+      "promptZh": "政府有責任在發展與環境保護之間取得平衡。",
+      "starter": "The",
+      "answer": "The government has a responsibility to balance development with environmental protection.",
+      "answerZh": "政府有責任在發展與環境保護之間取得平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "The government has a responsibility to balance development with environmental protection."
+    },
+    {
+      "id": "ss37-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Regular contact with nature is one of the best ways of reducing stress in crowded cities.",
+      "promptZh": "經常接觸大自然，是在擠迫城市中減輕壓力的最佳方法之一。",
+      "starter": "Regular",
+      "answer": "Regular contact with nature is one of the best ways to reduce stress in crowded cities.",
+      "answerZh": "經常接觸大自然，是在擠迫城市中減輕壓力的最佳方法之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Regular contact with nature is one of the best ways to reduce stress in crowded cities."
+    }
+  ]
+}

@@ -1,0 +1,1083 @@
+{
+  "id": "ss19",
+  "order": 19,
+  "slug": "by-contrast",
+  "title": "「By contrast」轉折句",
+  "titleZh": "「By contrast」轉折句",
+  "titleEn": "Using By contrast to introduce a clear contrast",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 19 -「By contrast」 轉折句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English translations for Chinese-only Important Rules and Benefits explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the descriptive lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Statement 1. By contrast, + complete contrasting statement.",
+  "formulas": [
+    {
+      "id": "ss19-formula-by-contrast",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Statement 1. By contrast, + complete contrasting statement."
+    }
+  ],
+  "example": "Some customs are public and visible. By contrast, deeper values are often hidden in daily habits.",
+  "exampleZh": "有些習俗是公開而明顯的。相比之下，更深層的價值往往隱藏在日常習慣之中。",
+  "examples": [
+    {
+      "id": "ss19-example-01",
+      "en": "Some customs are public and visible. By contrast, deeper values are often hidden in daily habits.",
+      "zh": "有些習俗是公開而明顯的。相比之下，更深層的價值往往隱藏在日常習慣之中。",
+      "highlight": "By contrast, deeper values are often hidden in daily habits."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss19-benefit-01",
+      "en": "It makes the difference immediately clear, so readers do not have to infer the relationship between the two sentences.",
+      "zh": "讓分別一目了然；讀者不需要自行猜測兩個句子的關係。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss19-benefit-02",
+      "en": "It helps you organise comparisons by presenting one person, method or situation before introducing the other.",
+      "zh": "幫助你有條理地作出比較：先介紹第一個人物、方法或情況，再介紹另一個情況。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss19-benefit-03",
+      "en": "It gives the second idea more attention and draws the reader towards the difference.",
+      "zh": "突出第二項資料，把讀者的注意力帶到第二項資料及兩者之間的差異。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss19-benefit-04",
+      "en": "It gives you an alternative to but and adds variety to your sentence structures.",
+      "zh": "避免反覆使用 but，提供另一種表達對比的方法，令句式更有變化。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss19-benefit-05",
+      "en": "It is useful in explanations, essays and reports when comparing viewpoints, measures, findings, people, places or social phenomena.",
+      "zh": "適合用於解釋、作文和報告，尤其是比較不同觀點、措施、研究結果、人物、地方或社會現象。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss19-benefit-06",
+      "en": "It provides a useful speaking frame: “One person or situation is... By contrast, the other is...”",
+      "zh": "提供實用的口語句子框架：「One person or situation is... By contrast, the other is...」",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss19-rule-01",
+      "en": "By contrast usually appears at the beginning of the second sentence.",
+      "zh": "By contrast 通常放在第二個句子的開頭。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "The library is quiet. By contrast, the café is noisy."
+      ]
+    },
+    {
+      "id": "ss19-rule-02",
+      "en": "A comma must follow By contrast.",
+      "zh": "By contrast 後面必須加逗號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: By contrast, the second method is faster.",
+        "Incorrect: By contrast the second method is faster."
+      ]
+    },
+    {
+      "id": "ss19-rule-03",
+      "en": "By contrast must be followed by a complete sentence containing a subject and a verb.",
+      "zh": "By contrast 後面必須接完整句子；完整句子需要包含主語和動詞。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: By contrast, the new machine works quietly.",
+        "Incorrect: By contrast, the new machine."
+      ]
+    },
+    {
+      "id": "ss19-rule-04",
+      "en": "The two sentences must compare related people, places, methods, periods, groups, or the same thing in different situations.",
+      "zh": "兩個句子必須比較相關的事物，例如兩個人、兩個地方、兩種方法、兩段時間、兩個群體，或同一事物在不同情況下的表現。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss19-rule-05",
+      "en": "By contrast is not used to express cause or result; its main purpose is to identify a clear difference between two pieces of information.",
+      "zh": "By contrast 不是用來表達原因或結果；它的主要作用是指出兩項資料之間的明顯分別。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss19-rule-06",
+      "en": "But normally joins two parts within one sentence, whereas By contrast usually begins the second sentence.",
+      "zh": "By contrast 和 but 的句子結構不同：but 通常在同一個句子內連接兩個部分；By contrast 通常放在第二個句子的開頭。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "The old system is slow, but the new system is fast.",
+        "The old system is slow. By contrast, the new system is fast."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only Important Rules and Benefits explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the descriptive lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using By contrast to show a clear difference. Keep the first idea first and begin the second sentence with By contrast.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 By contrast 改寫以下句子，以表達兩項資料之間的明顯分別。請保留第一項資料的次序，並以 By contrast 開始第二個句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss19-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The library is quiet, but the café next door is noisy.",
+      "promptZh": "圖書館很安靜，但隔壁的咖啡店很嘈吵。",
+      "starter": "The",
+      "answer": "The library is quiet. By contrast, the café next door is noisy.",
+      "answerZh": "圖書館很安靜。相比之下，隔壁的咖啡店很嘈吵。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is quiet. By contrast, the café next door is noisy."
+    },
+    {
+      "id": "ss19-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Amy enjoys reading indoors, while Leo prefers playing outside.",
+      "promptZh": "艾米喜歡在室內閱讀，而里奧較喜歡在戶外玩耍。",
+      "starter": "Amy",
+      "answer": "Amy enjoys reading indoors. By contrast, Leo prefers playing outside.",
+      "answerZh": "艾米喜歡在室內閱讀。相比之下，里奧較喜歡在戶外玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy enjoys reading indoors. By contrast, Leo prefers playing outside."
+    },
+    {
+      "id": "ss19-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "This bus stops at every station, but the express train stops only twice.",
+      "promptZh": "這輛巴士每個車站都會停，而特快列車只停兩次。",
+      "starter": "This",
+      "answer": "This bus stops at every station. By contrast, the express train stops only twice.",
+      "answerZh": "這輛巴士每個車站都會停。相比之下，特快列車只停兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "This bus stops at every station. By contrast, the express train stops only twice."
+    },
+    {
+      "id": "ss19-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "My old phone is slow, whereas my new phone works quickly.",
+      "promptZh": "我的舊手提電話很慢，而我的新手提電話運作得很快。",
+      "starter": "My",
+      "answer": "My old phone is slow. By contrast, my new phone works quickly.",
+      "answerZh": "我的舊手提電話很慢。相比之下，我的新手提電話運作得很快。",
+      "answerZhSource": "pdf",
+      "highlight": "My old phone is slow. By contrast, my new phone works quickly."
+    },
+    {
+      "id": "ss19-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The front room is bright, but the back room is dark.",
+      "promptZh": "前面的房間很明亮，但後面的房間很昏暗。",
+      "starter": "The",
+      "answer": "The front room is bright. By contrast, the back room is dark.",
+      "answerZh": "前面的房間很明亮。相比之下，後面的房間很昏暗。",
+      "answerZhSource": "pdf",
+      "highlight": "The front room is bright. By contrast, the back room is dark."
+    },
+    {
+      "id": "ss19-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "School lunches are usually cheap. Restaurant meals, in comparison, are expensive.",
+      "promptZh": "學校午餐通常很便宜。比較之下，餐廳膳食則較昂貴。",
+      "starter": "School",
+      "answer": "School lunches are usually cheap. By contrast, restaurant meals are expensive.",
+      "answerZh": "學校午餐通常很便宜。相比之下，餐廳膳食則較昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "School lunches are usually cheap. By contrast, restaurant meals are expensive."
+    },
+    {
+      "id": "ss19-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Nina speaks softly, unlike her brother, who speaks loudly.",
+      "promptZh": "妮娜說話輕聲細語，不像她的哥哥說話那麼響亮。",
+      "starter": "Nina",
+      "answer": "Nina speaks softly. By contrast, her brother speaks loudly.",
+      "answerZh": "妮娜說話輕聲細語。相比之下，她的哥哥說話十分響亮。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina speaks softly. By contrast, her brother speaks loudly."
+    },
+    {
+      "id": "ss19-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Winter days are short, while summer days are long.",
+      "promptZh": "冬天的日間較短，而夏天的日間較長。",
+      "starter": "Winter",
+      "answer": "Winter days are short. By contrast, summer days are long.",
+      "answerZh": "冬天的日間較短。相比之下，夏天的日間較長。",
+      "answerZhSource": "pdf",
+      "highlight": "Winter days are short. By contrast, summer days are long."
+    },
+    {
+      "id": "ss19-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "The blue bag is light; however, the black suitcase is heavy.",
+      "promptZh": "藍色袋子很輕；然而，黑色行李箱很重。",
+      "starter": "The",
+      "answer": "The blue bag is light. By contrast, the black suitcase is heavy.",
+      "answerZh": "藍色袋子很輕。相比之下，黑色行李箱很重。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue bag is light. By contrast, the black suitcase is heavy."
+    },
+    {
+      "id": "ss19-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Our morning class has only twelve students, whereas the afternoon class has thirty students.",
+      "promptZh": "我們的上午班只有十二名學生，而下午班有三十名學生。",
+      "starter": "Our",
+      "answer": "Our morning class has only twelve students. By contrast, the afternoon class has thirty students.",
+      "answerZh": "我們的上午班只有十二名學生。相比之下，下午班有三十名學生。",
+      "answerZhSource": "pdf",
+      "highlight": "Our morning class has only twelve students. By contrast, the afternoon class has thirty students."
+    },
+    {
+      "id": "ss19-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Sarah studies best in silence, whereas Jason works better with music.",
+      "promptZh": "莎拉在安靜的環境下學習得最好，而傑森聽着音樂時表現得更好。",
+      "starter": "Sarah",
+      "answer": "Sarah studies best in silence. By contrast, Jason works better with music.",
+      "answerZh": "莎拉在安靜的環境下學習得最好。相比之下，傑森聽着音樂時表現得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah studies best in silence. By contrast, Jason works better with music."
+    },
+    {
+      "id": "ss19-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The town centre is crowded during the day, while it is peaceful at night.",
+      "promptZh": "市中心日間十分擠迫，而晚上則很寧靜。",
+      "starter": "The",
+      "answer": "The town centre is crowded during the day. By contrast, it is peaceful at night.",
+      "answerZh": "市中心日間十分擠迫。相比之下，晚上則很寧靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The town centre is crowded during the day. By contrast, it is peaceful at night."
+    },
+    {
+      "id": "ss19-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Online lessons offer more flexibility, while classroom lessons provide more face-to-face discussion.",
+      "promptZh": "網上課堂提供較大彈性，而實體課堂提供較多面對面的討論。",
+      "starter": "Online",
+      "answer": "Online lessons offer more flexibility. By contrast, classroom lessons provide more face-to-face discussion.",
+      "answerZh": "網上課堂提供較大彈性。相比之下，實體課堂提供較多面對面的討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Online lessons offer more flexibility. By contrast, classroom lessons provide more face-to-face discussion."
+    },
+    {
+      "id": "ss19-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The north side of the island is dry, whereas the south side receives frequent rain.",
+      "promptZh": "島嶼北面較為乾燥，而南面則經常下雨。",
+      "starter": "The",
+      "answer": "The north side of the island is dry. By contrast, the south side receives frequent rain.",
+      "answerZh": "島嶼北面較為乾燥。相比之下，南面則經常下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "The north side of the island is dry. By contrast, the south side receives frequent rain."
+    },
+    {
+      "id": "ss19-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Young children often need simple instructions, but older students can follow more detailed directions.",
+      "promptZh": "年幼兒童通常需要簡單的指示，但年長學生能夠理解更詳細的指示。",
+      "starter": "Young",
+      "answer": "Young children often need simple instructions. By contrast, older students can follow more detailed directions.",
+      "answerZh": "年幼兒童通常需要簡單的指示。相比之下，年長學生能夠理解更詳細的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Young children often need simple instructions. By contrast, older students can follow more detailed directions."
+    },
+    {
+      "id": "ss19-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The first shop opens early. The second shop, on the other hand, stays open late.",
+      "promptZh": "第一間商店很早開門。另一方面，第二間商店營業至較晚時間。",
+      "starter": "The",
+      "answer": "The first shop opens early. By contrast, the second shop stays open late.",
+      "answerZh": "第一間商店很早開門。相比之下，第二間商店營業至較晚時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The first shop opens early. By contrast, the second shop stays open late."
+    },
+    {
+      "id": "ss19-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "My aunt plans every trip carefully, but my uncle makes decisions at the last minute.",
+      "promptZh": "我的姨母會仔細計劃每次旅程，但我的姨丈會在最後一刻才作決定。",
+      "starter": "My",
+      "answer": "My aunt plans every trip carefully. By contrast, my uncle makes decisions at the last minute.",
+      "answerZh": "我的姨母會仔細計劃每次旅程。相比之下，我的姨丈會在最後一刻才作決定。",
+      "answerZhSource": "pdf",
+      "highlight": "My aunt plans every trip carefully. By contrast, my uncle makes decisions at the last minute."
+    },
+    {
+      "id": "ss19-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Paper maps do not need electricity. Navigation apps, however, can update routes immediately.",
+      "promptZh": "紙本地圖不需要電力。然而，導航應用程式可以即時更新路線。",
+      "starter": "Paper",
+      "answer": "Paper maps do not need electricity. By contrast, navigation apps can update routes immediately.",
+      "answerZh": "紙本地圖不需要電力。相比之下，導航應用程式可以即時更新路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Paper maps do not need electricity. By contrast, navigation apps can update routes immediately."
+    },
+    {
+      "id": "ss19-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The basic room includes only a bed, whereas the deluxe room has a desk, a sofa and a sea view.",
+      "promptZh": "基本客房只有一張床，而豪華客房設有書桌、梳化和海景。",
+      "starter": "The",
+      "answer": "The basic room includes only a bed. By contrast, the deluxe room has a desk, a sofa and a sea view.",
+      "answerZh": "基本客房只有一張床。相比之下，豪華客房設有書桌、梳化和海景。",
+      "answerZhSource": "pdf",
+      "highlight": "The basic room includes only a bed. By contrast, the deluxe room has a desk, a sofa and a sea view."
+    },
+    {
+      "id": "ss19-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Local markets sell mostly fresh food. In comparison, large supermarkets offer a wider range of packaged goods.",
+      "promptZh": "本地市場主要售賣新鮮食品。比較之下，大型超級市場提供更多種類的包裝商品。",
+      "starter": "Local",
+      "answer": "Local markets sell mostly fresh food. By contrast, large supermarkets offer a wider range of packaged goods.",
+      "answerZh": "本地市場主要售賣新鮮食品。相比之下，大型超級市場提供更多種類的包裝商品。",
+      "answerZhSource": "pdf",
+      "highlight": "Local markets sell mostly fresh food. By contrast, large supermarkets offer a wider range of packaged goods."
+    },
+    {
+      "id": "ss19-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The clinic treats minor injuries, while the hospital handles serious emergencies.",
+      "promptZh": "診所處理輕微受傷個案，而醫院處理嚴重的緊急情況。",
+      "starter": "The",
+      "answer": "The clinic treats minor injuries. By contrast, the hospital handles serious emergencies.",
+      "answerZh": "診所處理輕微受傷個案。相比之下，醫院處理嚴重的緊急情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic treats minor injuries. By contrast, the hospital handles serious emergencies."
+    },
+    {
+      "id": "ss19-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Traditional cameras require separate film, whereas digital cameras store pictures electronically.",
+      "promptZh": "傳統相機需要使用獨立菲林，而數碼相機以電子方式儲存照片。",
+      "starter": "Traditional",
+      "answer": "Traditional cameras require separate film. By contrast, digital cameras store pictures electronically.",
+      "answerZh": "傳統相機需要使用獨立菲林。相比之下，數碼相機以電子方式儲存照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Traditional cameras require separate film. By contrast, digital cameras store pictures electronically."
+    },
+    {
+      "id": "ss19-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Some employees prefer clear routines. Others, however, enjoy tasks that change each day.",
+      "promptZh": "部分僱員喜歡清晰固定的工作程序。然而，其他僱員則喜歡每天有所變化的任務。",
+      "starter": "Some",
+      "answer": "Some employees prefer clear routines. By contrast, others enjoy tasks that change each day.",
+      "answerZh": "部分僱員喜歡清晰固定的工作程序。相比之下，其他僱員則喜歡每天有所變化的任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Some employees prefer clear routines. By contrast, others enjoy tasks that change each day."
+    },
+    {
+      "id": "ss19-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The old bridge was built from stone, but the new bridge is made of steel.",
+      "promptZh": "舊橋由石材建成，但新橋由鋼材製成。",
+      "starter": "The",
+      "answer": "The old bridge was built from stone. By contrast, the new bridge is made of steel.",
+      "answerZh": "舊橋由石材建成。相比之下，新橋由鋼材製成。",
+      "answerZhSource": "pdf",
+      "highlight": "The old bridge was built from stone. By contrast, the new bridge is made of steel."
+    },
+    {
+      "id": "ss19-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The morning flight is usually cheaper. On the other hand, the evening flight is more convenient for office workers.",
+      "promptZh": "早上的航班通常較便宜。另一方面，晚上的航班對辦公室職員較為方便。",
+      "starter": "The",
+      "answer": "The morning flight is usually cheaper. By contrast, the evening flight is more convenient for office workers.",
+      "answerZh": "早上的航班通常較便宜。相比之下，晚上的航班對辦公室職員較為方便。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning flight is usually cheaper. By contrast, the evening flight is more convenient for office workers."
+    },
+    {
+      "id": "ss19-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Reading a printed book reduces screen time, while using an e-book makes it easier to carry many titles.",
+      "promptZh": "閱讀紙本書可以減少使用屏幕的時間，而使用電子書則更方便攜帶大量書籍。",
+      "starter": "Reading",
+      "answer": "Reading a printed book reduces screen time. By contrast, using an e-book makes it easier to carry many titles.",
+      "answerZh": "閱讀紙本書可以減少使用屏幕的時間。相比之下，使用電子書則更方便攜帶大量書籍。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading a printed book reduces screen time. By contrast, using an e-book makes it easier to carry many titles."
+    },
+    {
+      "id": "ss19-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The first team focused on speed; the second team, however, paid more attention to accuracy.",
+      "promptZh": "第一隊集中提升速度；然而，第二隊則較重視準確度。",
+      "starter": "The",
+      "answer": "The first team focused on speed. By contrast, the second team paid more attention to accuracy.",
+      "answerZh": "第一隊集中提升速度。相比之下，第二隊則較重視準確度。",
+      "answerZhSource": "pdf",
+      "highlight": "The first team focused on speed. By contrast, the second team paid more attention to accuracy."
+    },
+    {
+      "id": "ss19-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "A private car gives travellers more freedom, whereas public transport usually costs less.",
+      "promptZh": "私家車給予旅客較大自由，而公共交通通常費用較低。",
+      "starter": "A",
+      "answer": "A private car gives travellers more freedom. By contrast, public transport usually costs less.",
+      "answerZh": "私家車給予旅客較大自由。相比之下，公共交通通常費用較低。",
+      "answerZhSource": "pdf",
+      "highlight": "A private car gives travellers more freedom. By contrast, public transport usually costs less."
+    },
+    {
+      "id": "ss19-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The small park has few facilities, compared with the sports centre, which offers courts, a swimming pool and exercise rooms.",
+      "promptZh": "與提供球場、游泳池和健身室的體育中心相比，這個小公園的設施很少。",
+      "starter": "The",
+      "answer": "The small park has few facilities. By contrast, the sports centre offers courts, a swimming pool and exercise rooms.",
+      "answerZh": "這個小公園的設施很少。相比之下，體育中心提供球場、游泳池和健身室。",
+      "answerZhSource": "pdf",
+      "highlight": "The small park has few facilities. By contrast, the sports centre offers courts, a swimming pool and exercise rooms."
+    },
+    {
+      "id": "ss19-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Some advertisements give useful information, while others try mainly to create an emotional response.",
+      "promptZh": "部分廣告提供有用資料，而其他廣告則主要嘗試引起情緒反應。",
+      "starter": "Some",
+      "answer": "Some advertisements give useful information. By contrast, others try mainly to create an emotional response.",
+      "answerZh": "部分廣告提供有用資料。相比之下，其他廣告則主要嘗試引起情緒反應。",
+      "answerZhSource": "pdf",
+      "highlight": "Some advertisements give useful information. By contrast, others try mainly to create an emotional response."
+    },
+    {
+      "id": "ss19-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The old system required staff to enter every order by hand, but the new system records most information automatically.",
+      "promptZh": "舊系統要求職員手動輸入每張訂單，但新系統會自動記錄大部分資料。",
+      "starter": "The",
+      "answer": "The old system required staff to enter every order by hand. By contrast, the new system records most information automatically.",
+      "answerZh": "舊系統要求職員手動輸入每張訂單。相比之下，新系統會自動記錄大部分資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The old system required staff to enter every order by hand. By contrast, the new system records most information automatically."
+    },
+    {
+      "id": "ss19-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "In the village, neighbours often know one another well, whereas residents of large cities may rarely meet the people living next door.",
+      "promptZh": "在鄉村，鄰居之間通常十分熟悉，而大城市的居民可能很少與住在隔壁的人見面。",
+      "starter": "In",
+      "answer": "In the village, neighbours often know one another well. By contrast, residents of large cities may rarely meet the people living next door.",
+      "answerZh": "在鄉村，鄰居之間通常十分熟悉。相比之下，大城市的居民可能很少與住在隔壁的人見面。",
+      "answerZhSource": "pdf",
+      "highlight": "In the village, neighbours often know one another well. By contrast, residents of large cities may rarely meet the people living next door."
+    },
+    {
+      "id": "ss19-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The first medicine reduced the patient’s pain quickly, while the second treatment took several days to have an effect.",
+      "promptZh": "第一種藥物很快便減輕了病人的痛楚，而第二種治療需要數天才產生效果。",
+      "starter": "The",
+      "answer": "The first medicine reduced the patient’s pain quickly. By contrast, the second treatment took several days to have an effect.",
+      "answerZh": "第一種藥物很快便減輕了病人的痛楚。相比之下，第二種治療需要數天才產生效果。",
+      "answerZhSource": "pdf",
+      "highlight": "The first medicine reduced the patient’s pain quickly. By contrast, the second treatment took several days to have an effect."
+    },
+    {
+      "id": "ss19-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The museum’s permanent exhibition changes very little, but its special exhibitions are replaced every few months.",
+      "promptZh": "博物館的常設展覽很少改變，但特別展覽每隔數月便會更換。",
+      "starter": "The",
+      "answer": "The museum’s permanent exhibition changes very little. By contrast, its special exhibitions are replaced every few months.",
+      "answerZh": "博物館的常設展覽很少改變。相比之下，特別展覽每隔數月便會更換。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum’s permanent exhibition changes very little. By contrast, its special exhibitions are replaced every few months."
+    },
+    {
+      "id": "ss19-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Students who revise regularly usually feel prepared. However, those who study only on the night before an exam often feel anxious.",
+      "promptZh": "定期溫習的學生通常會感到準備充足。然而，只在考試前一晚溫習的學生往往會感到焦慮。",
+      "starter": "Students",
+      "answer": "Students who revise regularly usually feel prepared. By contrast, those who study only on the night before an exam often feel anxious.",
+      "answerZh": "定期溫習的學生通常會感到準備充足。相比之下，只在考試前一晚溫習的學生往往會感到焦慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Students who revise regularly usually feel prepared. By contrast, those who study only on the night before an exam often feel anxious."
+    },
+    {
+      "id": "ss19-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The eastern route is shorter but steeper, whereas the western route is longer but easier to walk.",
+      "promptZh": "東面路線較短但較斜，而西面路線較長但較容易步行。",
+      "starter": "The",
+      "answer": "The eastern route is shorter but steeper. By contrast, the western route is longer but easier to walk.",
+      "answerZh": "東面路線較短但較斜。相比之下，西面路線較長但較容易步行。",
+      "answerZhSource": "pdf",
+      "highlight": "The eastern route is shorter but steeper. By contrast, the western route is longer but easier to walk."
+    },
+    {
+      "id": "ss19-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The company used to train new staff in person. It now, however, provides most training through an online platform.",
+      "promptZh": "公司以往會親自培訓新職員。然而，現在大部分培訓都透過網上平台進行。",
+      "starter": "The",
+      "answer": "The company used to train new staff in person. By contrast, it now provides most training through an online platform.",
+      "answerZh": "公司以往會親自培訓新職員。相比之下，現在大部分培訓都透過網上平台進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The company used to train new staff in person. By contrast, it now provides most training through an online platform."
+    },
+    {
+      "id": "ss19-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "One charity spends most of its money on emergency aid, while the other invests mainly in long-term education projects.",
+      "promptZh": "一間慈善機構把大部分資金用於緊急援助，而另一間則主要投資於長期教育項目。",
+      "starter": "One",
+      "answer": "One charity spends most of its money on emergency aid. By contrast, the other invests mainly in long-term education projects.",
+      "answerZh": "一間慈善機構把大部分資金用於緊急援助。相比之下，另一間則主要投資於長期教育項目。",
+      "answerZhSource": "pdf",
+      "highlight": "One charity spends most of its money on emergency aid. By contrast, the other invests mainly in long-term education projects."
+    },
+    {
+      "id": "ss19-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "The first proposal would reduce costs immediately. On the other hand, the second might produce greater benefits over time.",
+      "promptZh": "第一項建議可以立即降低成本。另一方面，第二項建議長遠可能帶來更大的效益。",
+      "starter": "The",
+      "answer": "The first proposal would reduce costs immediately. By contrast, the second might produce greater benefits over time.",
+      "answerZh": "第一項建議可以立即降低成本。相比之下，第二項建議長遠可能帶來更大的效益。",
+      "answerZhSource": "pdf",
+      "highlight": "The first proposal would reduce costs immediately. By contrast, the second might produce greater benefits over time."
+    },
+    {
+      "id": "ss19-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "In crowded areas, shared bicycles can save space, whereas private cars require much more room for parking.",
+      "promptZh": "在人口密集的地區，共享單車可以節省空間，而私家車需要更多泊車位置。",
+      "starter": "In",
+      "answer": "In crowded areas, shared bicycles can save space. By contrast, private cars require much more room for parking.",
+      "answerZh": "在人口密集的地區，共享單車可以節省空間。相比之下，私家車需要更多泊車位置。",
+      "answerZhSource": "pdf",
+      "highlight": "In crowded areas, shared bicycles can save space. By contrast, private cars require much more room for parking."
+    },
+    {
+      "id": "ss19-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Some cultural customs are easy for visitors to notice, whereas the values behind them may remain hidden in everyday behaviour.",
+      "promptZh": "部分文化習俗很容易被訪客察覺，而背後的價值觀可能隱藏在日常行為之中。",
+      "starter": "Some",
+      "answer": "Some cultural customs are easy for visitors to notice. By contrast, the values behind them may remain hidden in everyday behaviour.",
+      "answerZh": "部分文化習俗很容易被訪客察覺。相比之下，背後的價值觀可能隱藏在日常行為之中。",
+      "answerZhSource": "pdf",
+      "highlight": "Some cultural customs are easy for visitors to notice. By contrast, the values behind them may remain hidden in everyday behaviour."
+    },
+    {
+      "id": "ss19-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "A face-to-face meeting allows people to notice tone and body language, while an email gives them more time to organise a careful response.",
+      "promptZh": "面對面會議讓人留意語氣和身體語言，而電郵則給予他們更多時間組織審慎的回應。",
+      "starter": "A",
+      "answer": "A face-to-face meeting allows people to notice tone and body language. By contrast, an email gives them more time to organise a careful response.",
+      "answerZh": "面對面會議讓人留意語氣和身體語言。相比之下，電郵則給予他們更多時間組織審慎的回應。",
+      "answerZhSource": "pdf",
+      "highlight": "A face-to-face meeting allows people to notice tone and body language. By contrast, an email gives them more time to organise a careful response."
+    },
+    {
+      "id": "ss19-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The city invested heavily in building new roads. The neighbouring region, however, focused on improving buses and railway services.",
+      "promptZh": "該城市投放大量資源興建新道路。然而，鄰近地區則集中改善巴士和鐵路服務。",
+      "starter": "The",
+      "answer": "The city invested heavily in building new roads. By contrast, the neighbouring region focused on improving buses and railway services.",
+      "answerZh": "該城市投放大量資源興建新道路。相比之下，鄰近地區則集中改善巴士和鐵路服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The city invested heavily in building new roads. By contrast, the neighbouring region focused on improving buses and railway services."
+    },
+    {
+      "id": "ss19-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Older machines were designed to perform one fixed task, whereas modern devices can often be updated to carry out several different functions.",
+      "promptZh": "舊式機器被設計成執行一項固定任務，而現代裝置通常可以更新，以執行多種不同功能。",
+      "starter": "Older",
+      "answer": "Older machines were designed to perform one fixed task. By contrast, modern devices can often be updated to carry out several different functions.",
+      "answerZh": "舊式機器被設計成執行一項固定任務。相比之下，現代裝置通常可以更新，以執行多種不同功能。",
+      "answerZhSource": "pdf",
+      "highlight": "Older machines were designed to perform one fixed task. By contrast, modern devices can often be updated to carry out several different functions."
+    },
+    {
+      "id": "ss19-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "When demand is low, customers may receive discounts, but when demand rises sharply, prices often increase.",
+      "promptZh": "當需求較低時，顧客可能獲得折扣；但當需求急劇上升時，價格通常會增加。",
+      "starter": "When",
+      "answer": "When demand is low, customers may receive discounts. By contrast, when demand rises sharply, prices often increase.",
+      "answerZh": "當需求較低時，顧客可能獲得折扣。相比之下，當需求急劇上升時，價格通常會增加。",
+      "answerZhSource": "pdf",
+      "highlight": "When demand is low, customers may receive discounts. By contrast, when demand rises sharply, prices often increase."
+    },
+    {
+      "id": "ss19-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19
+      },
+      "prompt": "The first research group studied how the disease spreads, while the second examined how patients recover after treatment.",
+      "promptZh": "第一個研究小組研究疾病如何傳播，而第二個小組則研究病人在接受治療後如何康復。",
+      "starter": "The",
+      "answer": "The first research group studied how the disease spreads. By contrast, the second examined how patients recover after treatment.",
+      "answerZh": "第一個研究小組研究疾病如何傳播。相比之下，第二個小組則研究病人在接受治療後如何康復。",
+      "answerZhSource": "pdf",
+      "highlight": "The first research group studied how the disease spreads. By contrast, the second examined how patients recover after treatment."
+    },
+    {
+      "id": "ss19-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Schools in wealthy districts may have access to modern equipment, whereas schools in poorer areas sometimes struggle to replace basic classroom materials.",
+      "promptZh": "富裕地區的學校可能擁有現代化設備，而較貧困地區的學校有時連更換基本課堂物資也有困難。",
+      "starter": "Schools",
+      "answer": "Schools in wealthy districts may have access to modern equipment. By contrast, schools in poorer areas sometimes struggle to replace basic classroom materials.",
+      "answerZh": "富裕地區的學校可能擁有現代化設備。相比之下，較貧困地區的學校有時連更換基本課堂物資也有困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Schools in wealthy districts may have access to modern equipment. By contrast, schools in poorer areas sometimes struggle to replace basic classroom materials."
+    },
+    {
+      "id": "ss19-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The short-term plan aims to solve the most urgent problems, but the long-term strategy is intended to prevent similar problems from returning.",
+      "promptZh": "短期計劃旨在解決最迫切的問題，但長期策略則旨在防止類似問題再次出現。",
+      "starter": "The",
+      "answer": "The short-term plan aims to solve the most urgent problems. By contrast, the long-term strategy is intended to prevent similar problems from returning.",
+      "answerZh": "短期計劃旨在解決最迫切的問題。相比之下，長期策略則旨在防止類似問題再次出現。",
+      "answerZhSource": "pdf",
+      "highlight": "The short-term plan aims to solve the most urgent problems. By contrast, the long-term strategy is intended to prevent similar problems from returning."
+    },
+    {
+      "id": "ss19-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Some leaders make decisions after consulting the whole team, while others prefer to act quickly and accept personal responsibility for the result.",
+      "promptZh": "部分領袖會在諮詢整個團隊後作出決定，而其他領袖則較喜歡迅速行動，並親自承擔結果的責任。",
+      "starter": "Some",
+      "answer": "Some leaders make decisions after consulting the whole team. By contrast, others prefer to act quickly and accept personal responsibility for the result.",
+      "answerZh": "部分領袖會在諮詢整個團隊後作出決定。相比之下，其他領袖則較喜歡迅速行動，並親自承擔結果的責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Some leaders make decisions after consulting the whole team. By contrast, others prefer to act quickly and accept personal responsibility for the result."
+    },
+    {
+      "id": "ss19-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Public rules are usually written down and clearly announced, whereas unwritten social expectations are often learned slowly through observation and experience.",
+      "promptZh": "公開規則通常會被寫下並清楚公布，而沒有明文規定的社會期望往往需要透過觀察和經驗慢慢學習。",
+      "starter": "Public",
+      "answer": "Public rules are usually written down and clearly announced. By contrast, unwritten social expectations are often learned slowly through observation and experience.",
+      "answerZh": "公開規則通常會被寫下並清楚公布。相比之下，沒有明文規定的社會期望往往需要透過觀察和經驗慢慢學習。",
+      "answerZhSource": "pdf",
+      "highlight": "Public rules are usually written down and clearly announced. By contrast, unwritten social expectations are often learned slowly through observation and experience."
+    }
+  ]
+}

@@ -1,0 +1,1055 @@
+{
+  "id": "ss7",
+  "order": 7,
+  "slug": "whereas-contrast",
+  "title": "「whereas」對比句",
+  "titleZh": "「whereas」對比句",
+  "titleEn": "Using whereas to express contrast",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 7 - 「whereas」對比句.pdf",
+    "pageCount": 16,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "omissions": [
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Clause A, whereas Clause B.",
+  "formulas": [
+    {
+      "id": "ss7-formula-compact",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Clause A, whereas Clause B."
+    },
+    {
+      "id": "ss7-formula-expanded",
+      "labelEn": "Expanded Structure",
+      "labelZh": "完整句型",
+      "formula": "Subject 1 + verb + information, whereas + Subject 2 + verb + contrasting information"
+    }
+  ],
+  "example": "Short-term popularity matters to some brands, whereas long-term trust matters more to others.",
+  "exampleZh": "有些品牌重視短期人氣，而另一些品牌則更重視長遠信任。",
+  "examples": [
+    {
+      "id": "ss7-example-01",
+      "en": "Short-term popularity matters to some brands, whereas long-term trust matters more to others.",
+      "zh": "有些品牌重視短期人氣，而另一些品牌則更重視長遠信任。",
+      "highlight": "Short-term popularity matters to some brands, whereas long-term trust matters more to others."
+    },
+    {
+      "id": "ss7-example-compare-original",
+      "labelEn": "Original sentences",
+      "labelZh": "原句",
+      "en": "Some customers care about price. Other customers care about quality.",
+      "zh": "有些顧客重視價格。另一些顧客重視質素。",
+      "highlight": "Some customers care about price. Other customers care about quality."
+    },
+    {
+      "id": "ss7-example-compare-target",
+      "labelEn": "Target sentence",
+      "labelZh": "目標句",
+      "en": "Some customers care about price, whereas others care about quality.",
+      "zh": "有些顧客重視價格，而另一些顧客則重視質素。",
+      "highlight": "Some customers care about price, whereas others care about quality."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss7-rule-01",
+      "en": "Whereas joins two complete clauses. Each side normally needs its own subject and verb.",
+      "zh": "whereas 連接兩個完整子句。兩邊通常都要有自己的主語和動詞。",
+      "examples": []
+    },
+    {
+      "id": "ss7-rule-02",
+      "en": "Use a comma before whereas when it appears between the two clauses.",
+      "zh": "whereas 放在兩個子句中間時，前面要加逗號。",
+      "examples": []
+    },
+    {
+      "id": "ss7-rule-03",
+      "en": "Use whereas to show a clear contrast, not a reason, result or time relationship.",
+      "zh": "whereas 用來表達清楚的對比。它不是用來表達原因、結果或時間。",
+      "examples": []
+    },
+    {
+      "id": "ss7-rule-04",
+      "en": "Compare related points, such as two people, objects, periods or approaches.",
+      "zh": "兩邊應比較相關的資料。例如兩個人、兩件物件、兩個時段或兩種做法。",
+      "examples": []
+    },
+    {
+      "id": "ss7-rule-05",
+      "en": "This exercise uses only the following order: Clause A, whereas Clause B.",
+      "zh": "本練習只使用以下句序：Clause A, whereas Clause B.",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss7-benefit-01",
+      "en": "It makes the difference easy to see. This structure places two different facts side by side, so the reader can understand the contrast immediately.",
+      "zh": "這個句型把兩項不同的資料並列，讓讀者立即看出兩者的分別。"
+    },
+    {
+      "id": "ss7-benefit-02",
+      "en": "It joins two short ideas smoothly. Instead of writing two separate sentences, you can connect them in one complete sentence.",
+      "zh": "你可以把兩個短句連成一個完整句子，令表達更連貫。"
+    },
+    {
+      "id": "ss7-benefit-03",
+      "en": "It gives you an alternative to but and however. You can use whereas as another way to express contrast, especially in explanations and writing. This helps you avoid repeating the same connectors.",
+      "zh": "你可以使用 whereas 以另一種方式表達對比，尤其適合用於解釋和寫作，避免反覆使用相同的連接詞。"
+    },
+    {
+      "id": "ss7-benefit-04",
+      "en": "It helps you present two sides fairly. The structure is useful when comparing two people, choices, views or situations without automatically saying that one side is wrong.",
+      "zh": "比較兩個人、選擇、觀點或情況時，這個句型能讓你較平衡地呈現雙方，而不是直接把其中一方說成錯誤。"
+    },
+    {
+      "id": "ss7-benefit-05",
+      "en": "It helps organise essays, reports and presentations. The reader can clearly see which point belongs to the first side and which point belongs to the second side.",
+      "zh": "在作文、報告和簡報中，讀者可以清楚分辨哪項資料屬於第一方，哪項資料屬於第二方。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using whereas to show a clear contrast.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 whereas 改寫以下句子或句子組合，以清楚表達對比。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss7-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Mia likes tea, but Leo prefers coffee.",
+      "promptZh": "米婭喜歡茶，但里奧較喜歡咖啡。",
+      "starter": "Mia",
+      "answer": "Mia likes tea, whereas Leo prefers coffee.",
+      "answerZh": "米婭喜歡茶，而里奧則較喜歡咖啡。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia likes tea, whereas Leo prefers coffee."
+    },
+    {
+      "id": "ss7-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "I study best in the morning. My friend works better at night.",
+      "promptZh": "我在早上學習得最好。我的朋友則在晚上工作得更好。",
+      "starter": "I",
+      "answer": "I study best in the morning, whereas my friend works better at night.",
+      "answerZh": "我在早上學習得最好，而我的朋友則在晚上工作得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "I study best in the morning, whereas my friend works better at night."
+    },
+    {
+      "id": "ss7-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "The red bag is cheaper, but the blue one is more durable.",
+      "promptZh": "紅色袋較便宜，但藍色的較耐用。",
+      "starter": "The",
+      "answer": "The red bag is cheaper, whereas the blue one is more durable.",
+      "answerZh": "紅色袋較便宜，而藍色的則較耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "The red bag is cheaper, whereas the blue one is more durable."
+    },
+    {
+      "id": "ss7-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Ben walks to school, while Leo takes the bus.",
+      "promptZh": "本步行上學，而里奧則乘搭巴士。",
+      "starter": "Ben",
+      "answer": "Ben walks to school, whereas Leo takes the bus.",
+      "answerZh": "本步行上學，而里奧則乘搭巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben walks to school, whereas Leo takes the bus."
+    },
+    {
+      "id": "ss7-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Our flat is small. The house next door is spacious.",
+      "promptZh": "我們的單位很小。隔壁的房子則很寬敞。",
+      "starter": "Our",
+      "answer": "Our flat is small, whereas the house next door is spacious.",
+      "answerZh": "我們的單位很小，而隔壁的房子則很寬敞。",
+      "answerZhSource": "pdf",
+      "highlight": "Our flat is small, whereas the house next door is spacious."
+    },
+    {
+      "id": "ss7-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Amy enjoys reading, but Chloe prefers drawing.",
+      "promptZh": "艾米喜歡閱讀，但克洛伊較喜歡繪畫。",
+      "starter": "Amy",
+      "answer": "Amy enjoys reading, whereas Chloe prefers drawing.",
+      "answerZh": "艾米喜歡閱讀，而克洛伊則較喜歡繪畫。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy enjoys reading, whereas Chloe prefers drawing."
+    },
+    {
+      "id": "ss7-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "This shop opens early. In contrast, the café next door opens at noon.",
+      "promptZh": "這間店很早開門。相比之下，隔壁的咖啡店在中午開門。",
+      "starter": "This",
+      "answer": "This shop opens early, whereas the café next door opens at noon.",
+      "answerZh": "這間店很早開門，而隔壁的咖啡店則在中午開門。",
+      "answerZhSource": "pdf",
+      "highlight": "This shop opens early, whereas the café next door opens at noon."
+    },
+    {
+      "id": "ss7-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The first question was easy, but the second was difficult.",
+      "promptZh": "第一條題目很容易，但第二條很困難。",
+      "starter": "The",
+      "answer": "The first question was easy, whereas the second was difficult.",
+      "answerZh": "第一條題目很容易，而第二條則很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "The first question was easy, whereas the second was difficult."
+    },
+    {
+      "id": "ss7-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "My father cooks dinner, while my mother washes the dishes.",
+      "promptZh": "父親煮晚餐，而母親則洗碗。",
+      "starter": "My",
+      "answer": "My father cooks dinner, whereas my mother washes the dishes.",
+      "answerZh": "父親煮晚餐，而母親則洗碗。",
+      "answerZhSource": "pdf",
+      "highlight": "My father cooks dinner, whereas my mother washes the dishes."
+    },
+    {
+      "id": "ss7-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Some students learn quickly from videos. Other students prefer written notes.",
+      "promptZh": "有些學生透過影片學習得很快。另一些學生較喜歡書面筆記。",
+      "starter": "Some",
+      "answer": "Some students learn quickly from videos, whereas others prefer written notes.",
+      "answerZh": "有些學生透過影片學習得很快，而另一些學生則較喜歡書面筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "Some students learn quickly from videos, whereas others prefer written notes."
+    },
+    {
+      "id": "ss7-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The city centre is crowded, while the park is usually quiet.",
+      "promptZh": "市中心很擠迫，而公園通常很寧靜。",
+      "starter": "The",
+      "answer": "The city centre is crowded, whereas the park is usually quiet.",
+      "answerZh": "市中心很擠迫，而公園通常很寧靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The city centre is crowded, whereas the park is usually quiet."
+    },
+    {
+      "id": "ss7-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Daniel saves most of his salary. His flatmate, by contrast, spends money freely.",
+      "promptZh": "丹尼爾把大部分薪金儲起來。相比之下，他的室友花錢較隨意。",
+      "starter": "Daniel",
+      "answer": "Daniel saves most of his salary, whereas his flatmate spends money freely.",
+      "answerZh": "丹尼爾把大部分薪金儲起來，而他的室友則花錢較隨意。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel saves most of his salary, whereas his flatmate spends money freely."
+    },
+    {
+      "id": "ss7-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The old computer starts slowly. By contrast, the new one starts quickly.",
+      "promptZh": "舊電腦啟動得很慢。相比之下，新電腦啟動得很快。",
+      "starter": "The",
+      "answer": "The old computer starts slowly, whereas the new one starts quickly.",
+      "answerZh": "舊電腦啟動得很慢，而新電腦則啟動得很快。",
+      "answerZhSource": "pdf",
+      "highlight": "The old computer starts slowly, whereas the new one starts quickly."
+    },
+    {
+      "id": "ss7-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 12
+      },
+      "prompt": "Sarah prefers working alone. Her teammates, however, enjoy group work.",
+      "promptZh": "莎拉較喜歡獨自工作。不過，她的隊友喜歡小組合作。",
+      "starter": "Sarah",
+      "answer": "Sarah prefers working alone, whereas her teammates enjoy group work.",
+      "answerZh": "莎拉較喜歡獨自工作，而她的隊友則喜歡小組合作。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah prefers working alone, whereas her teammates enjoy group work."
+    },
+    {
+      "id": "ss7-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Our school focuses on academic results. The nearby school, on the other hand, gives students more time for sport.",
+      "promptZh": "我們的學校重視學業成績。另一方面，附近的學校給學生更多時間參與體育活動。",
+      "starter": "Our",
+      "answer": "Our school focuses on academic results, whereas the nearby school gives students more time for sport.",
+      "answerZh": "我們的學校重視學業成績，而附近的學校則給學生更多時間參與體育活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school focuses on academic results, whereas the nearby school gives students more time for sport."
+    },
+    {
+      "id": "ss7-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The northern route is shorter, but the southern route is safer.",
+      "promptZh": "北面的路線較短，但南面的路線較安全。",
+      "starter": "The",
+      "answer": "The northern route is shorter, whereas the southern route is safer.",
+      "answerZh": "北面的路線較短，而南面的路線則較安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The northern route is shorter, whereas the southern route is safer."
+    },
+    {
+      "id": "ss7-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Emma has already finished the report. Jason has only written the introduction.",
+      "promptZh": "艾瑪已經完成報告。傑森只寫了引言。",
+      "starter": "Emma",
+      "answer": "Emma has already finished the report, whereas Jason has only written the introduction.",
+      "answerZh": "艾瑪已經完成報告，而傑森則只寫了引言。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma has already finished the report, whereas Jason has only written the introduction."
+    },
+    {
+      "id": "ss7-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The library allows quiet discussion. The study room requires complete silence.",
+      "promptZh": "圖書館容許低聲討論。自修室則要求完全安靜。",
+      "starter": "The",
+      "answer": "The library allows quiet discussion, whereas the study room requires complete silence.",
+      "answerZh": "圖書館容許低聲討論，而自修室則要求完全安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The library allows quiet discussion, whereas the study room requires complete silence."
+    },
+    {
+      "id": "ss7-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "This phone is easy to use. That model, however, offers more advanced features.",
+      "promptZh": "這部手機容易使用。不過，那個型號提供更先進的功能。",
+      "starter": "This",
+      "answer": "This phone is easy to use, whereas that model offers more advanced features.",
+      "answerZh": "這部手機容易使用，而那個型號則提供更先進的功能。",
+      "answerZhSource": "pdf",
+      "highlight": "This phone is easy to use, whereas that model offers more advanced features."
+    },
+    {
+      "id": "ss7-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "One restaurant serves traditional food, while the other specialises in modern dishes.",
+      "promptZh": "一間餐廳供應傳統菜式，而另一間則專門提供現代菜式。",
+      "starter": "One",
+      "answer": "One restaurant serves traditional food, whereas the other specialises in modern dishes.",
+      "answerZh": "一間餐廳供應傳統菜式，而另一間則專門提供現代菜式。",
+      "answerZhSource": "pdf",
+      "highlight": "One restaurant serves traditional food, whereas the other specialises in modern dishes."
+    },
+    {
+      "id": "ss7-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Public buses are frequent during the day but less regular late at night.",
+      "promptZh": "公共巴士在日間班次頻密，但深夜時班次較疏落。",
+      "starter": "Public",
+      "answer": "Public buses are frequent during the day, whereas they are less regular late at night.",
+      "answerZh": "公共巴士在日間班次頻密，而深夜時班次則較疏落。",
+      "answerZhSource": "pdf",
+      "highlight": "Public buses are frequent during the day, whereas they are less regular late at night."
+    },
+    {
+      "id": "ss7-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Children often notice small details. Adults, in contrast, may focus on the main idea.",
+      "promptZh": "兒童經常留意細節。相比之下，成年人可能會集中於主要意思。",
+      "starter": "Children",
+      "answer": "Children often notice small details, whereas adults may focus on the main idea.",
+      "answerZh": "兒童經常留意細節，而成年人則可能會集中於主要意思。",
+      "answerZhSource": "pdf",
+      "highlight": "Children often notice small details, whereas adults may focus on the main idea."
+    },
+    {
+      "id": "ss7-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 13
+      },
+      "prompt": "The front office deals with visitors, while payments are handled by the finance team.",
+      "promptZh": "接待處處理訪客事宜，而付款則由財務團隊處理。",
+      "starter": "The",
+      "answer": "The front office deals with visitors, whereas the finance team handles payments.",
+      "answerZh": "接待處處理訪客事宜，而財務團隊則處理付款。",
+      "answerZhSource": "pdf",
+      "highlight": "The front office deals with visitors, whereas the finance team handles payments."
+    },
+    {
+      "id": "ss7-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Unlike her friend, who remained calm, Maya felt nervous before the interview.",
+      "promptZh": "與保持冷靜的朋友不同，瑪雅在面試前感到緊張。",
+      "starter": "Maya",
+      "answer": "Maya felt nervous before the interview, whereas her friend remained calm.",
+      "answerZh": "瑪雅在面試前感到緊張，而她的朋友則保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya felt nervous before the interview, whereas her friend remained calm."
+    },
+    {
+      "id": "ss7-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "This medicine reduces pain. The other treatment, on the other hand, helps the injury heal.",
+      "promptZh": "這種藥物能減輕痛楚。另一方面，另一種治療有助傷勢痊癒。",
+      "starter": "This",
+      "answer": "This medicine reduces pain, whereas the other treatment helps the injury heal.",
+      "answerZh": "這種藥物能減輕痛楚，而另一種治療則有助傷勢痊癒。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine reduces pain, whereas the other treatment helps the injury heal."
+    },
+    {
+      "id": "ss7-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The first plan would save money, but the second could reduce waiting time.",
+      "promptZh": "第一個方案可以節省金錢，但第二個方案或可縮短等候時間。",
+      "starter": "The",
+      "answer": "The first plan would save money, whereas the second could reduce waiting time.",
+      "answerZh": "第一個方案可以節省金錢，而第二個方案則或可縮短等候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The first plan would save money, whereas the second could reduce waiting time."
+    },
+    {
+      "id": "ss7-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Some online courses provide live lessons. Others use recorded videos instead.",
+      "promptZh": "有些網上課程提供直播課堂。另一些則改用預錄影片。",
+      "starter": "Some",
+      "answer": "Some online courses provide live lessons, whereas others use recorded videos.",
+      "answerZh": "有些網上課程提供直播課堂，而另一些則使用預錄影片。",
+      "answerZhSource": "pdf",
+      "highlight": "Some online courses provide live lessons, whereas others use recorded videos."
+    },
+    {
+      "id": "ss7-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Unlike the dry eastern side of the island, the western side receives heavy rain.",
+      "promptZh": "與乾燥的島嶼東部不同，西部有大量降雨。",
+      "starter": "The",
+      "answer": "The eastern side of the island is dry, whereas the western side receives heavy rain.",
+      "answerZh": "島嶼東部很乾燥，而西部則有大量降雨。",
+      "answerZhSource": "pdf",
+      "highlight": "The eastern side of the island is dry, whereas the western side receives heavy rain."
+    },
+    {
+      "id": "ss7-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The old timetable offered more evening services. By comparison, the new one provides more morning services.",
+      "promptZh": "舊時間表提供較多晚間班次。相比之下，新時間表提供較多早上班次。",
+      "starter": "The",
+      "answer": "The old timetable offered more evening services, whereas the new one provides more morning services.",
+      "answerZh": "舊時間表提供較多晚間班次，而新時間表則提供較多早上班次。",
+      "answerZhSource": "pdf",
+      "highlight": "The old timetable offered more evening services, whereas the new one provides more morning services."
+    },
+    {
+      "id": "ss7-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Nina studies at home because she needs silence. Omar goes to the library because he likes having people around.",
+      "promptZh": "妮娜在家中學習，因為她需要安靜。奧馬爾去圖書館，因為他喜歡身邊有人。",
+      "starter": "Nina",
+      "answer": "Nina studies at home because she needs silence, whereas Omar goes to the library because he likes having people around.",
+      "answerZh": "妮娜在家中學習，因為她需要安靜，而奧馬爾則去圖書館，因為他喜歡身邊有人。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina studies at home because she needs silence, whereas Omar goes to the library because he likes having people around."
+    },
+    {
+      "id": "ss7-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Children can enter the museum free of charge, but adults must buy a ticket.",
+      "promptZh": "兒童可以免費進入博物館，但成人必須購票。",
+      "starter": "Children",
+      "answer": "Children can enter the museum free of charge, whereas adults must buy a ticket.",
+      "answerZh": "兒童可以免費進入博物館，而成人則必須購票。",
+      "answerZhSource": "pdf",
+      "highlight": "Children can enter the museum free of charge, whereas adults must buy a ticket."
+    },
+    {
+      "id": "ss7-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "The village had very little traffic ten years ago. Now, however, its roads are busy throughout the day.",
+      "promptZh": "十年前，村內的車流很少。然而，現在道路整天都很繁忙。",
+      "starter": "The",
+      "answer": "The village had very little traffic ten years ago, whereas its roads are now busy throughout the day.",
+      "answerZh": "十年前，村內的車流很少，而現在道路則整天都很繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The village had very little traffic ten years ago, whereas its roads are now busy throughout the day."
+    },
+    {
+      "id": "ss7-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Alex can solve technical problems quickly. Priya, on the other hand, is better at explaining them to customers.",
+      "promptZh": "亞歷克斯能迅速解決技術問題。另一方面，普里婭更擅長向顧客解釋這些問題。",
+      "starter": "Alex",
+      "answer": "Alex can solve technical problems quickly, whereas Priya is better at explaining them to customers.",
+      "answerZh": "亞歷克斯能迅速解決技術問題，而普里婭則更擅長向顧客解釋這些問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Alex can solve technical problems quickly, whereas Priya is better at explaining them to customers."
+    },
+    {
+      "id": "ss7-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Practical skills are taught in the training course, while the university programme gives more attention to theory.",
+      "promptZh": "培訓課程教授實用技能，而大學課程則更重視理論。",
+      "starter": "The",
+      "answer": "The training course teaches practical skills, whereas the university programme gives more attention to theory.",
+      "answerZh": "培訓課程教授實用技能，而大學課程則更重視理論。",
+      "answerZhSource": "pdf",
+      "highlight": "The training course teaches practical skills, whereas the university programme gives more attention to theory."
+    },
+    {
+      "id": "ss7-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The hotel room looked modern, but its bathroom needed repairs.",
+      "promptZh": "酒店房間看來很現代化，但浴室需要維修。",
+      "starter": "The",
+      "answer": "The hotel room looked modern, whereas its bathroom needed repairs.",
+      "answerZh": "酒店房間看來很現代化，而浴室則需要維修。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel room looked modern, whereas its bathroom needed repairs."
+    },
+    {
+      "id": "ss7-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The first speaker supported the proposal. The second speaker questioned its cost.",
+      "promptZh": "第一位講者支持該建議。第二位講者則質疑其成本。",
+      "starter": "The",
+      "answer": "The first speaker supported the proposal, whereas the second questioned its cost.",
+      "answerZh": "第一位講者支持該建議，而第二位則質疑其成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The first speaker supported the proposal, whereas the second questioned its cost."
+    },
+    {
+      "id": "ss7-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Local residents want more parking spaces. Shop owners, by contrast, prefer wider pavements.",
+      "promptZh": "本區居民希望增加泊車位。相比之下，店主較希望行人路更寬闊。",
+      "starter": "Local",
+      "answer": "Local residents want more parking spaces, whereas shop owners prefer wider pavements.",
+      "answerZh": "本區居民希望增加泊車位，而店主則較希望行人路更寬闊。",
+      "answerZhSource": "pdf",
+      "highlight": "Local residents want more parking spaces, whereas shop owners prefer wider pavements."
+    },
+    {
+      "id": "ss7-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "This app protects personal data well. The older version was easier to use, however.",
+      "promptZh": "這個應用程式能妥善保護個人資料。不過，舊版本較容易使用。",
+      "starter": "This",
+      "answer": "This app protects personal data well, whereas the older version was easier to use.",
+      "answerZh": "這個應用程式能妥善保護個人資料，而舊版本則較容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "This app protects personal data well, whereas the older version was easier to use."
+    },
+    {
+      "id": "ss7-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The factory has reduced water use, but its electricity consumption has continued to rise.",
+      "promptZh": "工廠已減少用水量，但耗電量持續上升。",
+      "starter": "The",
+      "answer": "The factory has reduced water use, whereas its electricity consumption has continued to rise.",
+      "answerZh": "工廠已減少用水量，而耗電量則持續上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The factory has reduced water use, whereas its electricity consumption has continued to rise."
+    },
+    {
+      "id": "ss7-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "Some parents believe homework builds discipline. Other parents think children need more free time.",
+      "promptZh": "有些家長相信家課能培養自律。另一些家長認為兒童需要更多自由時間。",
+      "starter": "Some",
+      "answer": "Some parents believe homework builds discipline, whereas others think children need more free time.",
+      "answerZh": "有些家長相信家課能培養自律，而另一些家長則認為兒童需要更多自由時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Some parents believe homework builds discipline, whereas others think children need more free time."
+    },
+    {
+      "id": "ss7-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Urgent cases can receive same-day appointments at the clinic. Routine check-ups, however, may require a longer wait.",
+      "promptZh": "緊急個案可以在診所獲安排即日應診。不過，例行檢查可能需要等候較長時間。",
+      "starter": "Urgent",
+      "answer": "Urgent cases can receive same-day appointments at the clinic, whereas routine check-ups may require a longer wait.",
+      "answerZh": "緊急個案可以在診所獲安排即日應診，而例行檢查則可能需要等候較長時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Urgent cases can receive same-day appointments at the clinic, whereas routine check-ups may require a longer wait."
+    },
+    {
+      "id": "ss7-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The marketing team measures short-term attention. In contrast, the customer service team tracks long-term satisfaction.",
+      "promptZh": "市場推廣團隊量度短期關注度。相比之下，顧客服務團隊追蹤長期滿意度。",
+      "starter": "The",
+      "answer": "The marketing team measures short-term attention, whereas the customer service team tracks long-term satisfaction.",
+      "answerZh": "市場推廣團隊量度短期關注度，而顧客服務團隊則追蹤長期滿意度。",
+      "answerZhSource": "pdf",
+      "highlight": "The marketing team measures short-term attention, whereas the customer service team tracks long-term satisfaction."
+    },
+    {
+      "id": "ss7-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Younger employees often value flexible hours. More experienced staff may instead place greater importance on job security.",
+      "promptZh": "較年輕的僱員通常重視彈性工時。較有經驗的員工則可能更重視工作保障。",
+      "starter": "Younger",
+      "answer": "Younger employees often value flexible hours, whereas more experienced staff may place greater importance on job security.",
+      "answerZh": "較年輕的僱員通常重視彈性工時，而較有經驗的員工則可能更重視工作保障。",
+      "answerZhSource": "pdf",
+      "highlight": "Younger employees often value flexible hours, whereas more experienced staff may place greater importance on job security."
+    },
+    {
+      "id": "ss7-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The new library has more digital resources. The old building, however, provided more quiet study space.",
+      "promptZh": "新圖書館有更多數碼資源。不過，舊大樓提供了更多安靜的自修空間。",
+      "starter": "The",
+      "answer": "The new library has more digital resources, whereas the old building provided more quiet study space.",
+      "answerZh": "新圖書館有更多數碼資源，而舊大樓則提供了更多安靜的自修空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The new library has more digital resources, whereas the old building provided more quiet study space."
+    },
+    {
+      "id": "ss7-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The council plans to plant more trees in the town centre, but local businesses are asking for additional loading areas.",
+      "promptZh": "議會計劃在市中心種植更多樹木，但本地商戶要求增設上落貨區。",
+      "starter": "The",
+      "answer": "The council plans to plant more trees in the town centre, whereas local businesses are asking for additional loading areas.",
+      "answerZh": "議會計劃在市中心種植更多樹木，而本地商戶則要求增設上落貨區。",
+      "answerZhSource": "pdf",
+      "highlight": "The council plans to plant more trees in the town centre, whereas local businesses are asking for additional loading areas."
+    },
+    {
+      "id": "ss7-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Solar panels produce the most power on bright days. Household demand, however, often rises after sunset.",
+      "promptZh": "太陽能板在陽光充足的日子產生最多電力。不過，家庭用電需求通常在日落後上升。",
+      "starter": "Solar",
+      "answer": "Solar panels produce the most power on bright days, whereas household demand often rises after sunset.",
+      "answerZh": "太陽能板在陽光充足的日子產生最多電力，而家庭用電需求則通常在日落後上升。",
+      "answerZhSource": "pdf",
+      "highlight": "Solar panels produce the most power on bright days, whereas household demand often rises after sunset."
+    },
+    {
+      "id": "ss7-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The automatic system can process simple requests. Complex cases still require human judgement.",
+      "promptZh": "自動系統能處理簡單要求。複雜個案仍然需要人為判斷。",
+      "starter": "The",
+      "answer": "The automatic system can process simple requests, whereas complex cases still require human judgement.",
+      "answerZh": "自動系統能處理簡單要求，而複雜個案則仍然需要人為判斷。",
+      "answerZhSource": "pdf",
+      "highlight": "The automatic system can process simple requests, whereas complex cases still require human judgement."
+    },
+    {
+      "id": "ss7-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "Some schools use examinations to measure progress, while other schools rely more heavily on projects and classwork.",
+      "promptZh": "有些學校以考試衡量進度，而另一些學校則更依賴專題研習和課堂習作。",
+      "starter": "Some",
+      "answer": "Some schools use examinations to measure progress, whereas others rely more heavily on projects and classwork.",
+      "answerZh": "有些學校以考試衡量進度，而另一些學校則更依賴專題研習和課堂習作。",
+      "answerZhSource": "pdf",
+      "highlight": "Some schools use examinations to measure progress, whereas others rely more heavily on projects and classwork."
+    },
+    {
+      "id": "ss7-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The first proposal could be introduced quickly. By contrast, the alternative would require more time and benefit more residents.",
+      "promptZh": "第一項建議可以迅速推行。相比之下，另一個方案需要更多時間，並能惠及更多居民。",
+      "starter": "The",
+      "answer": "The first proposal could be introduced quickly, whereas the alternative would require more time and benefit more residents.",
+      "answerZh": "第一項建議可以迅速推行，而另一個方案則需要更多時間，並能惠及更多居民。",
+      "answerZhSource": "pdf",
+      "highlight": "The first proposal could be introduced quickly, whereas the alternative would require more time and benefit more residents."
+    },
+    {
+      "id": "ss7-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Low prices matter most to some customers. Dependable service matters more to other customers.",
+      "promptZh": "有些顧客最重視低廉價格。另一些顧客則更重視可靠的服務。",
+      "starter": "Low",
+      "answer": "Low prices matter most to some customers, whereas dependable service matters more to others.",
+      "answerZh": "有些顧客最重視低廉價格，而另一些顧客則更重視可靠的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Low prices matter most to some customers, whereas dependable service matters more to others."
+    }
+  ]
+}

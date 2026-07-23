@@ -1,0 +1,1103 @@
+{
+  "id": "ss20",
+  "order": 20,
+  "slug": "even-emphasis",
+  "title": "「Even 句」句型",
+  "titleZh": "「Even 句」表示「甚至／連……也」",
+  "titleEn": "Using Even to express “even” or “even ... too”",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 20 -「Even 句」.pdf",
+    "pageCount": 16,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "omissions": [
+      "The PDF supplies the descriptive lesson title in Chinese only; titleEn is an editorial translation.",
+      "English translations for the Important Rules are editorial because those explanations are supplied in Chinese in the PDF."
+    ]
+  },
+  "formula": "Subject + verb / be + X + and even + a stronger or more surprising Y",
+  "formulas": [
+    {
+      "id": "ss20-formula-and-even",
+      "labelEn": "Stronger or more surprising point",
+      "labelZh": "較強或較令人意外的重點",
+      "formula": "Subject + verb / be + X + and even + a stronger or more surprising Y"
+    },
+    {
+      "id": "ss20-formula-main-verb",
+      "labelEn": "Before a main verb",
+      "labelZh": "放在主要動詞之前",
+      "formula": "Subject + even + main verb + other information"
+    },
+    {
+      "id": "ss20-formula-focused-info",
+      "labelEn": "After an auxiliary, modal or be",
+      "labelZh": "放在助動詞、情態動詞或 be 之後",
+      "formula": "Subject + auxiliary / modal / be + even + focused information"
+    },
+    {
+      "id": "ss20-formula-subject",
+      "labelEn": "Focused subject",
+      "labelZh": "強調主語",
+      "formula": "Even + focused subject + verb + other information"
+    },
+    {
+      "id": "ss20-formula-not-even",
+      "labelEn": "Surprising negative",
+      "labelZh": "令人意外的否定",
+      "formula": "Subject + auxiliary / modal / be + not + even + focused information"
+    }
+  ],
+  "example": "Having five children was normal and even necessary in the past.",
+  "exampleZh": "在過去，生五個孩子是正常的，甚至是必要的。",
+  "examples": [
+    {
+      "id": "ss20-example-01",
+      "en": "Having five children was normal and even necessary in the past.",
+      "zh": "在過去，生五個孩子是正常的，甚至是必要的。",
+      "highlight": "and even necessary"
+    }
+  ],
+  "meaning": {
+    "en": "Use even to highlight a person, thing, action, quality or result that is more surprising, less expected or goes further than the other information.",
+    "zh": "使用 even 強調較令人意外、較出乎預期，或比前一點更進一步的人、事、動作、特質或結果。"
+  },
+  "benefits": [
+    {
+      "id": "ss20-benefit-01",
+      "en": "It shows exactly what is surprising. Even draws the reader’s attention to the least expected part of the sentence.",
+      "zh": "它能清楚指出哪一點最令人意外。even 會把讀者的注意力帶到句子中最出乎意料的部分。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss20-benefit-02",
+      "en": "It helps you build a stronger message. You can begin with an ordinary point and then add a stronger or more impressive point.",
+      "zh": "它能幫助你逐步加強意思。你可以先提出一般情況，再加入一個更強烈或更令人印象深刻的重點。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss20-benefit-03",
+      "en": "It joins related ideas more smoothly. Instead of repeatedly writing “more surprisingly” or using two separate sentences, you can connect the ideas with and even.",
+      "zh": "它能更流暢地連接相關意思。你不需要反覆使用「更令人意外的是」，也不需要把內容拆成兩句；使用 and even 便可把意思自然地連起來。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss20-benefit-04",
+      "en": "It makes examples and lists more powerful. Placing even before the most unexpected example makes the final item stand out.",
+      "zh": "它能令例子和列舉更有重點。把 even 放在最令人意外的例子前，可以令最後一項更加突出。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss20-benefit-05",
+      "en": "It expresses a surprising negative clearly. Not even shows that someone failed to do the easiest, smallest or most basic thing.",
+      "zh": "它能清楚表達令人意外的否定情況。not even 可以表示某人連最容易、最少或最基本的事情也沒有做到。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss20-rule-01",
+      "en": "Place even before the word, phrase or meaning you want to emphasise.",
+      "zh": "even 要放在你想強調的字、詞組或意思之前。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Ella even remembered my birthday.",
+        "Even the youngest student understood the instructions."
+      ]
+    },
+    {
+      "id": "ss20-rule-02",
+      "en": "Use and even when the second point goes further or is more surprising than the first.",
+      "zh": "當第二點比第一點更進一步或更令人意外時，可以使用 and even。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "The village has a clinic and even a small library."
+      ]
+    },
+    {
+      "id": "ss20-rule-03",
+      "en": "Even normally appears before a main verb, but after be, a modal verb or an auxiliary verb.",
+      "zh": "even 通常放在主要動詞之前，但放在 be、情態動詞或助動詞之後。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "She even called me.",
+        "It is even cheaper.",
+        "He can even write French.",
+        "They have even finished the work."
+      ]
+    },
+    {
+      "id": "ss20-rule-04",
+      "en": "Not even means that someone did not do the easiest, smallest or most basic thing.",
+      "zh": "not even 表示「連最低限度或最基本的事情也沒有做到」。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Leo did not even read the first page."
+      ]
+    },
+    {
+      "id": "ss20-rule-05",
+      "en": "Even does not simply mean very: very increases degree, whereas even marks a point as more surprising.",
+      "zh": "even 並不只是表示 very；very 主要加強程度，even 則帶出「這一點更令人意外」的意思。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss20-rule-06",
+      "en": "This lesson does not cover even though or even if; even though means “although”, while even if means “regardless of whether”.",
+      "zh": "本課不包括 even though 和 even if；even though 表示「雖然」，even if 表示「即使」，兩者屬於不同句型。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF supplies the descriptive lesson title in Chinese only; titleEn is an editorial translation.",
+    "English translations for the Important Rules are editorial because those explanations are supplied in Chinese in the PDF."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using even to show that one point is more surprising, stronger or less expected.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 even 改寫以下句子，以表示某一點更令人意外、更進一步或更出乎預期。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss20-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "This exercise was long. More surprisingly, it was also tiring.",
+      "promptZh": "這項練習很長。更令人意外的是，它也令人疲倦。",
+      "starter": "This",
+      "answer": "This exercise was long and even tiring.",
+      "answerZh": "這項練習很長，甚至令人疲倦。",
+      "answerZhSource": "pdf",
+      "highlight": "This exercise was long and even tiring."
+    },
+    {
+      "id": "ss20-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "The weather became cold and, more seriously, dangerous for hikers.",
+      "promptZh": "天氣變得寒冷，更嚴重的是，對遠足人士構成危險。",
+      "starter": "The",
+      "answer": "The weather became cold and even dangerous for hikers.",
+      "answerZh": "天氣變得寒冷，甚至對遠足人士構成危險。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather became cold and even dangerous for hikers."
+    },
+    {
+      "id": "ss20-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Our guide was friendly. To our surprise, she stayed to help us after the tour.",
+      "promptZh": "我們的導遊很友善。令我們意外的是，行程結束後她留下來幫助我們。",
+      "starter": "Our",
+      "answer": "Our guide was friendly and even stayed to help us after the tour.",
+      "answerZh": "我們的導遊很友善，甚至在行程結束後留下來幫助我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Our guide was friendly and even stayed to help us after the tour."
+    },
+    {
+      "id": "ss20-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "This village has a clinic. Unexpectedly, it also has a small library.",
+      "promptZh": "這條村有一間診所。出乎意料的是，村內還有一間小型圖書館。",
+      "starter": "This",
+      "answer": "This village has a clinic and even a small library.",
+      "answerZh": "這條村有一間診所，甚至還有一間小型圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "This village has a clinic and even a small library."
+    },
+    {
+      "id": "ss20-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Mia cleaned the kitchen. She went further by washing the windows too.",
+      "promptZh": "米婭清潔了廚房。她更進一步把窗戶也洗乾淨。",
+      "starter": "Mia",
+      "answer": "Mia cleaned the kitchen and even washed the windows.",
+      "answerZh": "米婭清潔了廚房，甚至把窗戶也洗乾淨。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia cleaned the kitchen and even washed the windows."
+    },
+    {
+      "id": "ss20-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Your ticket includes lunch. It also includes a free drink, which is unusual.",
+      "promptZh": "你的門票包括午餐，而且還包括一杯免費飲品，這並不常見。",
+      "starter": "Your",
+      "answer": "Your ticket includes lunch and even a free drink.",
+      "answerZh": "你的門票包括午餐，甚至還包括一杯免費飲品。",
+      "answerZhSource": "pdf",
+      "highlight": "Your ticket includes lunch and even a free drink."
+    },
+    {
+      "id": "ss20-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Ben can read French. More impressively, he can write it too.",
+      "promptZh": "本能閱讀法文。更令人佩服的是，他也能用法文寫作。",
+      "starter": "Ben",
+      "answer": "Ben can read French and even write it.",
+      "answerZh": "本能閱讀法文，甚至能用法文寫作。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben can read French and even write it."
+    },
+    {
+      "id": "ss20-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "This app is simple to use. Surprisingly, it is also fun.",
+      "promptZh": "這個應用程式很容易使用。令人意外的是，它也很有趣。",
+      "starter": "This",
+      "answer": "This app is simple to use and even fun.",
+      "answerZh": "這個應用程式很容易使用，甚至很有趣。",
+      "answerZhSource": "pdf",
+      "highlight": "This app is simple to use and even fun."
+    },
+    {
+      "id": "ss20-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The shop opens on Sundays. Less commonly, it also opens on public holidays.",
+      "promptZh": "這間商店星期日營業。更少見的是，它在公眾假期也會營業。",
+      "starter": "The",
+      "answer": "The shop opens on Sundays and even on public holidays.",
+      "answerZh": "這間商店星期日營業，甚至在公眾假期也會營業。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop opens on Sundays and even on public holidays."
+    },
+    {
+      "id": "ss20-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The child remembered the poem. More impressively, she recited it without help.",
+      "promptZh": "這個孩子記得整首詩。更令人佩服的是，她在沒有協助下把它朗誦出來。",
+      "starter": "The",
+      "answer": "The child remembered the poem and even recited it without help.",
+      "answerZh": "這個孩子記得整首詩，甚至在沒有協助下把它朗誦出來。",
+      "answerZhSource": "pdf",
+      "highlight": "The child remembered the poem and even recited it without help."
+    },
+    {
+      "id": "ss20-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "It was surprising that Ella remembered my birthday.",
+      "promptZh": "令人意外的是，艾拉記得我的生日。",
+      "starter": "Ella",
+      "answer": "Ella even remembered my birthday.",
+      "answerZh": "艾拉甚至記得我的生日。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella even remembered my birthday."
+    },
+    {
+      "id": "ss20-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "People are surprised that this baby can recognise his own name.",
+      "promptZh": "人們很驚訝這個嬰兒能認出自己的名字。",
+      "starter": "This",
+      "answer": "This baby can even recognise his own name.",
+      "answerZh": "這個嬰兒甚至能認出自己的名字。",
+      "answerZhSource": "pdf",
+      "highlight": "This baby can even recognise his own name."
+    },
+    {
+      "id": "ss20-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "No one expected our teacher to bring snacks for the class, but she did.",
+      "promptZh": "沒有人預期老師會帶小食給全班，但她真的帶了。",
+      "starter": "Our",
+      "answer": "Our teacher even brought snacks for the class.",
+      "answerZh": "我們的老師甚至帶了小食給全班。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher even brought snacks for the class."
+    },
+    {
+      "id": "ss20-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Although the computer is old, it can run the new programme, which is surprising.",
+      "promptZh": "雖然這部電腦很舊，但它能運行新程式，實在令人意外。",
+      "starter": "The",
+      "answer": "The old computer can even run the new programme.",
+      "answerZh": "這部舊電腦甚至能運行新程式。",
+      "answerZhSource": "pdf",
+      "highlight": "The old computer can even run the new programme."
+    },
+    {
+      "id": "ss20-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "It was unexpected that Sam apologised to the person he had argued with.",
+      "promptZh": "山姆竟然向曾與他爭吵的人道歉，這是出乎意料的。",
+      "starter": "Sam",
+      "answer": "Sam even apologised to the person he had argued with.",
+      "answerZh": "山姆甚至向曾與他爭吵的人道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "Sam even apologised to the person he had argued with."
+    },
+    {
+      "id": "ss20-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The youngest student was the person we least expected to understand the instructions, but she did.",
+      "promptZh": "我們最沒想到最年幼的學生會明白指示，但她真的明白了。",
+      "starter": "Even",
+      "answer": "Even the youngest student understood the instructions.",
+      "answerZh": "甚至最年幼的學生也明白了指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Even the youngest student understood the instructions."
+    },
+    {
+      "id": "ss20-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "My grandfather is the person we least expected to use the payment app, but he uses it now.",
+      "promptZh": "我們最沒想到祖父會使用付款應用程式，但他現在真的會使用。",
+      "starter": "My",
+      "answer": "My grandfather even uses the payment app now.",
+      "answerZh": "我的祖父現在甚至會使用付款應用程式。",
+      "answerZhSource": "pdf",
+      "highlight": "My grandfather even uses the payment app now."
+    },
+    {
+      "id": "ss20-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Most small shops in the area do not accept credit cards, but this small shop does.",
+      "promptZh": "區內大部分小商店都不接受信用卡，但這間小商店接受。",
+      "starter": "This",
+      "answer": "This small shop even accepts credit cards.",
+      "answerZh": "這間小商店甚至接受信用卡。",
+      "answerZhSource": "pdf",
+      "highlight": "This small shop even accepts credit cards."
+    },
+    {
+      "id": "ss20-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Although she was the shyest student, she asked a question, which surprised everyone.",
+      "promptZh": "雖然她是最害羞的學生，但她提出了一個問題，令所有人感到意外。",
+      "starter": "Even",
+      "answer": "Even the shyest student asked a question.",
+      "answerZh": "甚至最害羞的學生也提出了一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Even the shyest student asked a question."
+    },
+    {
+      "id": "ss20-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "No one expected the bus driver to know about the road closure, but he did.",
+      "promptZh": "沒有人預期巴士司機會知道封路消息，但他真的知道。",
+      "starter": "Even",
+      "answer": "Even the bus driver knew about the road closure.",
+      "answerZh": "甚至巴士司機也知道封路消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Even the bus driver knew about the road closure."
+    },
+    {
+      "id": "ss20-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The first test was hard, but the second test was harder.",
+      "promptZh": "第一次測驗很難，但第二次測驗更難。",
+      "starter": "The",
+      "answer": "The second test was even harder than the first.",
+      "answerZh": "第二次測驗甚至比第一次更難。",
+      "answerZhSource": "pdf",
+      "highlight": "The second test was even harder than the first."
+    },
+    {
+      "id": "ss20-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The old route was already short, but this new route is shorter.",
+      "promptZh": "舊路線已經很短，但這條新路線更短。",
+      "starter": "This",
+      "answer": "This new route is even shorter than the old one.",
+      "answerZh": "這條新路線甚至比舊路線更短。",
+      "answerZhSource": "pdf",
+      "highlight": "This new route is even shorter than the old one."
+    },
+    {
+      "id": "ss20-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The black coat is cheap, but the blue coat is cheaper.",
+      "promptZh": "黑色外套很便宜，但藍色外套更便宜。",
+      "starter": "The",
+      "answer": "The blue coat is even cheaper than the black one.",
+      "answerZh": "藍色外套甚至比黑色外套更便宜。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue coat is even cheaper than the black one."
+    },
+    {
+      "id": "ss20-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The earlier chapters were exciting, but the final chapter was more exciting.",
+      "promptZh": "前面的章節很精彩，但最後一章更加精彩。",
+      "starter": "The",
+      "answer": "The final chapter was even more exciting than the earlier chapters.",
+      "answerZh": "最後一章甚至比前面的章節更加精彩。",
+      "answerZhSource": "pdf",
+      "highlight": "The final chapter was even more exciting than the earlier chapters."
+    },
+    {
+      "id": "ss20-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Our hospital is open at night. It also remains open on public holidays, which is less common.",
+      "promptZh": "我們的醫院晚上開放，而且在公眾假期仍然開放，這較為少見。",
+      "starter": "Our",
+      "answer": "Our hospital is open at night and even on public holidays.",
+      "answerZh": "我們的醫院晚上開放，甚至在公眾假期也照常開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Our hospital is open at night and even on public holidays."
+    },
+    {
+      "id": "ss20-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The library lends books and magazines. Surprisingly, it also lends board games.",
+      "promptZh": "圖書館借出書籍和雜誌。令人意外的是，它也借出桌上遊戲。",
+      "starter": "The",
+      "answer": "The library lends books, magazines and even board games.",
+      "answerZh": "圖書館借出書籍、雜誌，甚至桌上遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "The library lends books, magazines and even board games."
+    },
+    {
+      "id": "ss20-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Our class collected clothes and food for the families. To everyone’s surprise, we also collected laptops.",
+      "promptZh": "我們的班別為這些家庭收集衣物和食物。令所有人意外的是，我們還收集了手提電腦。",
+      "starter": "Our",
+      "answer": "Our class collected clothes, food and even laptops for the families.",
+      "answerZh": "我們的班別為這些家庭收集衣物、食物，甚至手提電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class collected clothes, food and even laptops for the families."
+    },
+    {
+      "id": "ss20-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The storm damaged trees and cars. More seriously, it damaged several houses.",
+      "promptZh": "暴風雨損毀了樹木和汽車。更嚴重的是，它還損毀了數間房屋。",
+      "starter": "The",
+      "answer": "The storm damaged trees, cars and even several houses.",
+      "answerZh": "暴風雨損毀了樹木、汽車，甚至數間房屋。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm damaged trees, cars and even several houses."
+    },
+    {
+      "id": "ss20-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "This café serves breakfast until noon. At weekends, it serves breakfast later than that.",
+      "promptZh": "這間咖啡店供應早餐至中午，而在週末，早餐供應時間更長。",
+      "starter": "This",
+      "answer": "This café serves breakfast until noon and even later at weekends.",
+      "answerZh": "這間咖啡店供應早餐至中午，週末甚至供應得更晚。",
+      "answerZhSource": "pdf",
+      "highlight": "This café serves breakfast until noon and even later at weekends."
+    },
+    {
+      "id": "ss20-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The runner trained in the rain. Surprisingly, she also trained in the snow.",
+      "promptZh": "這名跑手在雨中訓練。令人意外的是，她也在雪中訓練。",
+      "starter": "The",
+      "answer": "The runner trained in the rain and even in the snow.",
+      "answerZh": "這名跑手在雨中訓練，甚至也在雪中訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The runner trained in the rain and even in the snow."
+    },
+    {
+      "id": "ss20-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "It was surprising that Leo did not read the first page.",
+      "promptZh": "令人意外的是，里奧連第一頁也沒有讀。",
+      "starter": "Leo",
+      "answer": "Leo did not even read the first page.",
+      "answerZh": "里奧連第一頁也沒有讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo did not even read the first page."
+    },
+    {
+      "id": "ss20-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "It was surprising that this machine could not print a simple document.",
+      "promptZh": "令人意外的是，這部機器連一份簡單文件也無法列印。",
+      "starter": "This",
+      "answer": "This machine cannot even print a simple document.",
+      "answerZh": "這部機器連一份簡單文件也無法列印。",
+      "answerZhSource": "pdf",
+      "highlight": "This machine cannot even print a simple document."
+    },
+    {
+      "id": "ss20-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Nina left without saying goodbye, which surprised everyone.",
+      "promptZh": "妮娜沒有道別便離開了，令所有人感到意外。",
+      "starter": "Nina",
+      "answer": "Nina did not even say goodbye before leaving.",
+      "answerZh": "妮娜離開前連再見也沒有說。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina did not even say goodbye before leaving."
+    },
+    {
+      "id": "ss20-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "It was surprising that the hotel failed to provide clean towels.",
+      "promptZh": "令人意外的是，酒店沒有提供乾淨毛巾。",
+      "starter": "The",
+      "answer": "The hotel did not even provide clean towels.",
+      "answerZh": "這間酒店連乾淨毛巾也沒有提供。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel did not even provide clean towels."
+    },
+    {
+      "id": "ss20-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Surprisingly, the lowest shelf was out of this child’s reach.",
+      "promptZh": "令人意外的是，這個孩子連最低一層架也碰不到。",
+      "starter": "This",
+      "answer": "This child could not even reach the lowest shelf.",
+      "answerZh": "這個孩子連最低一層架也碰不到。",
+      "answerZhSource": "pdf",
+      "highlight": "This child could not even reach the lowest shelf."
+    },
+    {
+      "id": "ss20-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Our team played the whole match without scoring once.",
+      "promptZh": "我們的球隊踢完整場比賽，一球也沒有取得。",
+      "starter": "Our",
+      "answer": "Our team did not even score once.",
+      "answerZh": "我們的球隊連一球也沒有取得。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team did not even score once."
+    },
+    {
+      "id": "ss20-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The customer received no apology after complaining, which was surprising.",
+      "promptZh": "顧客投訴後沒有收到任何道歉，這令人意外。",
+      "starter": "The",
+      "answer": "The customer did not even receive an apology.",
+      "answerZh": "顧客連一句道歉也沒有收到。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer did not even receive an apology."
+    },
+    {
+      "id": "ss20-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "It was surprising that no one noticed that the sign had changed.",
+      "promptZh": "令人意外的是，沒有人留意到告示已經更改。",
+      "starter": "No",
+      "answer": "No one even noticed that the sign had changed.",
+      "answerZh": "竟然沒有人留意到告示已經更改。",
+      "answerZhSource": "pdf",
+      "highlight": "No one even noticed that the sign had changed."
+    },
+    {
+      "id": "ss20-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The lights were so dim that reading the menu was impossible for us.",
+      "promptZh": "燈光非常昏暗，我們根本無法閱讀餐牌。",
+      "starter": "The",
+      "answer": "The lights were so dim that we could not even read the menu.",
+      "answerZh": "燈光非常昏暗，我們連餐牌也無法閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights were so dim that we could not even read the menu."
+    },
+    {
+      "id": "ss20-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The rain was so heavy that the buses were unable to leave the station at all.",
+      "promptZh": "雨勢非常大，巴士完全無法駛離車站。",
+      "starter": "The",
+      "answer": "The rain was so heavy that the buses could not even leave the station.",
+      "answerZh": "雨勢非常大，巴士甚至無法駛離車站。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain was so heavy that the buses could not even leave the station."
+    },
+    {
+      "id": "ss20-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Our community centre offers language classes. Unexpectedly, it also gives free job advice.",
+      "promptZh": "我們的社區中心提供語言課程。出乎意料的是，它也提供免費求職建議。",
+      "starter": "Our",
+      "answer": "Our community centre offers language classes and even free job advice.",
+      "answerZh": "我們的社區中心提供語言課程，甚至提供免費求職建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Our community centre offers language classes and even free job advice."
+    },
+    {
+      "id": "ss20-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The nurse checked my temperature. To my surprise, she called me the next day too.",
+      "promptZh": "護士替我量體溫。令我意外的是，她第二天還致電給我。",
+      "starter": "The",
+      "answer": "The nurse checked my temperature and even called me the next day.",
+      "answerZh": "護士替我量體溫，甚至在第二天致電給我。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse checked my temperature and even called me the next day."
+    },
+    {
+      "id": "ss20-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The school repaired the playground. It went further by adding new safety equipment.",
+      "promptZh": "學校修理了遊樂場，並更進一步加裝新的安全設備。",
+      "starter": "The",
+      "answer": "The school repaired the playground and even added new safety equipment.",
+      "answerZh": "學校修理了遊樂場，甚至加裝了新的安全設備。",
+      "answerZhSource": "pdf",
+      "highlight": "The school repaired the playground and even added new safety equipment."
+    },
+    {
+      "id": "ss20-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "This new website is easier to use. Surprisingly, it also loads faster on old phones.",
+      "promptZh": "這個新網站更容易使用。令人意外的是，它在舊手機上的載入速度也更快。",
+      "starter": "This",
+      "answer": "This new website is easier to use and even loads faster on old phones.",
+      "answerZh": "這個新網站更容易使用，甚至在舊手機上的載入速度也更快。",
+      "answerZhSource": "pdf",
+      "highlight": "This new website is easier to use and even loads faster on old phones."
+    },
+    {
+      "id": "ss20-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Students who rarely speak in class were the group we least expected to join the discussion, but they did.",
+      "promptZh": "我們最沒想到平日很少在課堂上發言的學生會參與討論，但他們真的參與了。",
+      "starter": "Even",
+      "answer": "Even students who rarely speak in class joined the discussion.",
+      "answerZh": "甚至平日很少在課堂上發言的學生也參與了討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Even students who rarely speak in class joined the discussion."
+    },
+    {
+      "id": "ss20-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The charity reached nearby villages. More impressively, it reached communities across the border.",
+      "promptZh": "這間慈善機構接觸到附近村落。更令人佩服的是，它還接觸到邊境另一邊的社區。",
+      "starter": "The",
+      "answer": "The charity reached nearby villages and even communities across the border.",
+      "answerZh": "這間慈善機構接觸到附近村落，甚至邊境另一邊的社區。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity reached nearby villages and even communities across the border."
+    },
+    {
+      "id": "ss20-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "This plan could reduce costs. It could also improve customer service, which would be an unexpected extra benefit.",
+      "promptZh": "這個計劃可以減低成本，也可以改善顧客服務，而後者是意想不到的額外好處。",
+      "starter": "This",
+      "answer": "This plan could reduce costs and even improve customer service.",
+      "answerZh": "這個計劃可以減低成本，甚至改善顧客服務。",
+      "answerZhSource": "pdf",
+      "highlight": "This plan could reduce costs and even improve customer service."
+    },
+    {
+      "id": "ss20-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The museum stayed open late. In addition, it offered free guided tours, which surprised visitors.",
+      "promptZh": "博物館延長開放時間。此外，它還提供免費導賞團，令訪客感到意外。",
+      "starter": "The",
+      "answer": "The museum stayed open late and even offered free guided tours.",
+      "answerZh": "博物館延長開放時間，甚至提供免費導賞團。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum stayed open late and even offered free guided tours."
+    },
+    {
+      "id": "ss20-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "This small change made the instructions clearer. More surprisingly, it prevented several mistakes as well.",
+      "promptZh": "這項小改動令指示更清楚。更令人意外的是，它也避免了數個錯誤。",
+      "starter": "This",
+      "answer": "This small change made the instructions clearer and even prevented several mistakes.",
+      "answerZh": "這項小改動令指示更清楚，甚至避免了數個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "This small change made the instructions clearer and even prevented several mistakes."
+    },
+    {
+      "id": "ss20-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Within two days, the emergency team delivered food and repaired the water supply. Most surprisingly, it reopened the clinic too.",
+      "promptZh": "在兩天內，緊急應變隊伍運送了食物並修復供水系統。最令人意外的是，隊伍還重開了診所。",
+      "starter": "The",
+      "answer": "The emergency team delivered food, repaired the water supply and even reopened the clinic within two days.",
+      "answerZh": "緊急應變隊伍在兩天內運送了食物、修復供水系統，甚至重開了診所。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency team delivered food, repaired the water supply and even reopened the clinic within two days."
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "id": "ss31",
+  "order": 31,
+  "slug": "as-identity-role",
+  "title": "「As + 身分」句型",
+  "titleZh": "「As＋身份」表達角色或身分",
+  "titleEn": "Using As to express identity or role",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 31「As＋身份」表達角色或身分.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English explanations translated from Chinese-only teaching text are faithful editorial translations."
+    ]
+  },
+  "formula": "As + a / an / the / possessive + identity or role, + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss31-formula-singular",
+      "labelEn": "Singular Role",
+      "labelZh": "單數身分",
+      "formula": "As + a / an / the / possessive + identity or role, + subject + verb + other information"
+    },
+    {
+      "id": "ss31-formula-plural",
+      "labelEn": "Plural Role",
+      "labelZh": "複數身分",
+      "formula": "As + plural identity or role, + subject + verb + other information"
+    }
+  ],
+  "example": "As a mother, I show my love for my children by taking care of them.",
+  "exampleZh": "作為一位母親，我透過照顧孩子表達對他們的愛。",
+  "examples": [
+    {
+      "id": "ss31-example-01",
+      "en": "As a mother, I show my love for my children by taking care of them.",
+      "zh": "作為一位母親，我透過照顧孩子表達對他們的愛。",
+      "highlight": "As a mother"
+    }
+  ],
+  "meaning": {
+    "zh": "As＋身分表示「作為……」或「以……的身分」。"
+  },
+  "rules": [
+    {
+      "id": "ss31-rule-01",
+      "en": "Place an identity or role after as.",
+      "zh": "As 後面接身分或角色，表示「作為……」或「以……的身分」。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As a student, ...",
+        "As the manager, ...",
+        "As our neighbour, ...",
+        "As parents, ..."
+      ]
+    },
+    {
+      "id": "ss31-rule-02",
+      "en": "The identity after as must belong to the subject of the main clause.",
+      "zh": "As 後面的身分，必須是主句主語所擁有的身分。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As a teacher, Ms Lee helps her students."
+      ]
+    },
+    {
+      "id": "ss31-rule-03",
+      "en": "A singular identity normally needs a determiner such as a, an, the or a possessive. Do not use a or an before a plural identity.",
+      "zh": "單數身分通常需要 a、an、the 或所有格等限定詞；複數身分前一般不使用 a 或 an。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "a teacher",
+        "an engineer",
+        "the team captain",
+        "my neighbour",
+        "As students, ..."
+      ]
+    },
+    {
+      "id": "ss31-rule-04",
+      "en": "Put a comma after the identity phrase.",
+      "zh": "身分短語後要使用逗號。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As a doctor, Dr Lee explains the treatment clearly."
+      ]
+    },
+    {
+      "id": "ss31-rule-05",
+      "en": "Here, as expresses identity, not time or reason.",
+      "zh": "本課的 As 後面接名詞短語，表示身分，不是表示時間或原因。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As a parent, Henry listens to his child.",
+        "As I get older, ...",
+        "As it was raining, ..."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss31-benefit-01",
+      "en": "It shows the person’s role immediately.",
+      "zh": "把 As＋身分放在句首，讀者可以先知道人物以甚麼角色說話或做事。"
+    },
+    {
+      "id": "ss31-benefit-02",
+      "en": "It combines two ideas into one sentence.",
+      "zh": "不需要使用兩句短句，便可以同時表達人物的身分和行動。"
+    },
+    {
+      "id": "ss31-benefit-03",
+      "en": "It explains why an action suits the person’s role.",
+      "zh": "這個句型可以幫助你表達一個人的責任、觀點或應有行為。"
+    },
+    {
+      "id": "ss31-benefit-04",
+      "en": "It gives you another way to begin a sentence.",
+      "zh": "使用 As＋身分，可以令文章的句式較有變化，不需要每句都以 I、He、She 或人物名稱開始。"
+    },
+    {
+      "id": "ss31-benefit-05",
+      "en": "It is useful in speaking and writing.",
+      "zh": "你可以在自我介紹、面試、演講、作文、報告和討論中，用這個句型介紹自己的角色或從某個身分表達意見。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents several Important Rules and Benefits explanations only in Chinese; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using As + identity or role at the beginning.",
+      "Preserve the original meaning and use the correct article or possessive word.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 As＋身分或角色 放在句首，改寫以下句子。",
+      "保留原句意思，並正確使用 a、an、the 或所有格。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss31-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "I am a mother, and I show my love for my children by taking care of them.",
+      "promptZh": "我是一位母親，我透過照顧孩子表達對他們的愛。",
+      "starter": "As",
+      "answer": "As a mother, I show my love for my children by taking care of them.",
+      "answerZh": "作為一位母親，我透過照顧孩子表達對他們的愛。",
+      "answerZhSource": "pdf",
+      "highlight": "As a mother, I show my love for my children by taking care of them."
+    },
+    {
+      "id": "ss31-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Lily is a student. She asks questions when she does not understand.",
+      "promptZh": "莉莉是一名學生。她在不明白時會提出問題。",
+      "starter": "As",
+      "answer": "As a student, Lily asks questions when she does not understand.",
+      "answerZh": "作為學生，莉莉在不明白時會提出問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As a student, Lily asks questions when she does not understand."
+    },
+    {
+      "id": "ss31-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "promptZhPage": 5,
+        "answerZhPage": 14
+      },
+      "prompt": "Because Mr Chan is a teacher, he explains difficult ideas clearly.",
+      "promptZh": "因為陳先生是一名老師，所以他會清楚解釋困難的概念。",
+      "starter": "As",
+      "answer": "As a teacher, Mr Chan explains difficult ideas clearly.",
+      "answerZh": "作為老師，陳先生會清楚解釋困難的概念。",
+      "answerZhSource": "pdf",
+      "highlight": "As a teacher, Mr Chan explains difficult ideas clearly."
+    },
+    {
+      "id": "ss31-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Why does Amy check each patient carefully? She is a nurse.",
+      "promptZh": "艾米為甚麼仔細檢查每位病人？因為她是一名護士。",
+      "starter": "As",
+      "answer": "As a nurse, Amy checks each patient carefully.",
+      "answerZh": "作為護士，艾米會仔細檢查每位病人。",
+      "answerZhSource": "pdf",
+      "highlight": "As a nurse, Amy checks each patient carefully."
+    },
+    {
+      "id": "ss31-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "David, who is a father, spends time with his children after work.",
+      "promptZh": "大衛是一位父親，他下班後會陪伴孩子。",
+      "starter": "As",
+      "answer": "As a father, David spends time with his children after work.",
+      "answerZh": "作為父親，大衛下班後會陪伴孩子。",
+      "answerZhSource": "pdf",
+      "highlight": "As a father, David spends time with his children after work."
+    },
+    {
+      "id": "ss31-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Ben is the chef, so he tastes the soup before serving it.",
+      "promptZh": "本是廚師，所以他在上菜前會品嘗湯。",
+      "starter": "As",
+      "answer": "As the chef, Ben tastes the soup before serving it.",
+      "answerZh": "作為廚師，本在上菜前會品嘗湯。",
+      "answerZhSource": "pdf",
+      "highlight": "As the chef, Ben tastes the soup before serving it."
+    },
+    {
+      "id": "ss31-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Since Mia is a driver, she follows the traffic rules.",
+      "promptZh": "米婭是一名司機，因此她會遵守交通規則。",
+      "starter": "As",
+      "answer": "As a driver, Mia follows the traffic rules.",
+      "answerZh": "作為司機，米婭會遵守交通規則。",
+      "answerZhSource": "pdf",
+      "highlight": "As a driver, Mia follows the traffic rules."
+    },
+    {
+      "id": "ss31-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Tom is our neighbour. He helps the elderly couple next door.",
+      "promptZh": "湯姆是我們的鄰居。他會幫助住在隔壁的年長夫婦。",
+      "starter": "As",
+      "answer": "As our neighbour, Tom helps the elderly couple next door.",
+      "answerZh": "作為我們的鄰居，湯姆會幫助住在隔壁的年長夫婦。",
+      "answerZhSource": "pdf",
+      "highlight": "As our neighbour, Tom helps the elderly couple next door."
+    },
+    {
+      "id": "ss31-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Chloe, the team captain, encourages the other players.",
+      "promptZh": "克洛伊是隊長，她會鼓勵其他球員。",
+      "starter": "As",
+      "answer": "As the team captain, Chloe encourages the other players.",
+      "answerZh": "作為隊長，克洛伊會鼓勵其他球員。",
+      "answerZhSource": "pdf",
+      "highlight": "As the team captain, Chloe encourages the other players."
+    },
+    {
+      "id": "ss31-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Being an older sister, Emma looks after her younger brother.",
+      "promptZh": "艾瑪身為姐姐，會照顧她的弟弟。",
+      "starter": "As",
+      "answer": "As an older sister, Emma looks after her younger brother.",
+      "answerZh": "作為姐姐，艾瑪會照顧她的弟弟。",
+      "answerZhSource": "pdf",
+      "highlight": "As an older sister, Emma looks after her younger brother."
+    },
+    {
+      "id": "ss31-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "Jack is a customer, so he expects polite service.",
+      "promptZh": "傑克是一名顧客，所以他期望得到有禮貌的服務。",
+      "starter": "As",
+      "answer": "As a customer, Jack expects polite service.",
+      "answerZh": "作為顧客，傑克期望得到有禮貌的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "As a customer, Jack expects polite service."
+    },
+    {
+      "id": "ss31-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Sarah is the shop assistant. She helps people find the right size.",
+      "promptZh": "莎拉是店員。她會幫助顧客尋找合適的尺碼。",
+      "starter": "As",
+      "answer": "As the shop assistant, Sarah helps people find the right size.",
+      "answerZh": "作為店員，莎拉會幫助顧客尋找合適的尺碼。",
+      "answerZhSource": "pdf",
+      "highlight": "As the shop assistant, Sarah helps people find the right size."
+    },
+    {
+      "id": "ss31-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Why does Leo carry a map of the city? He is a tourist.",
+      "promptZh": "里奧為甚麼帶着城市地圖？因為他是一名遊客。",
+      "starter": "As",
+      "answer": "As a tourist, Leo carries a map of the city.",
+      "answerZh": "作為遊客，里奧會帶着城市地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "As a tourist, Leo carries a map of the city."
+    },
+    {
+      "id": "ss31-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Nina, who is a club member, attends the monthly meetings.",
+      "promptZh": "妮娜是俱樂部會員，她會出席每月的會議。",
+      "starter": "As",
+      "answer": "As a club member, Nina attends the monthly meetings.",
+      "answerZh": "作為俱樂部會員，妮娜會出席每月的會議。",
+      "answerZhSource": "pdf",
+      "highlight": "As a club member, Nina attends the monthly meetings."
+    },
+    {
+      "id": "ss31-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Omar is a citizen, and he should obey the law.",
+      "promptZh": "奧馬爾是一名公民，他應該遵守法律。",
+      "starter": "As",
+      "answer": "As a citizen, Omar should obey the law.",
+      "answerZh": "作為公民，奧馬爾應該遵守法律。",
+      "answerZhSource": "pdf",
+      "highlight": "As a citizen, Omar should obey the law."
+    },
+    {
+      "id": "ss31-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Grace is a volunteer. She gives her time to help the community.",
+      "promptZh": "格蕾絲是一名義工。她付出時間幫助社區。",
+      "starter": "As",
+      "answer": "As a volunteer, Grace gives her time to help the community.",
+      "answerZh": "作為義工，格蕾絲付出時間幫助社區。",
+      "answerZhSource": "pdf",
+      "highlight": "As a volunteer, Grace gives her time to help the community."
+    },
+    {
+      "id": "ss31-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Because Henry is a parent, he listens to his child’s worries.",
+      "promptZh": "因為亨利是一位家長，所以他會聆聽孩子的憂慮。",
+      "starter": "As",
+      "answer": "As a parent, Henry listens to his child’s worries.",
+      "answerZh": "作為家長，亨利會聆聽孩子的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "As a parent, Henry listens to his child’s worries."
+    },
+    {
+      "id": "ss31-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Olivia, the school receptionist, answers calls from parents.",
+      "promptZh": "奧莉花是學校接待員，她會接聽家長的來電。",
+      "starter": "As",
+      "answer": "As the school receptionist, Olivia answers calls from parents.",
+      "answerZh": "作為學校接待員，奧莉花會接聽家長的來電。",
+      "answerZhSource": "pdf",
+      "highlight": "As the school receptionist, Olivia answers calls from parents."
+    },
+    {
+      "id": "ss31-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Why does Ethan collect the homework? He is the class monitor.",
+      "promptZh": "伊森為甚麼收集功課？因為他是班長。",
+      "starter": "As",
+      "answer": "As the class monitor, Ethan collects the homework.",
+      "answerZh": "作為班長，伊森會收集功課。",
+      "answerZhSource": "pdf",
+      "highlight": "As the class monitor, Ethan collects the homework."
+    },
+    {
+      "id": "ss31-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "promptZhPage": 8
+      },
+      "prompt": "Being a coach, Maya shows the players how to improve.",
+      "promptZh": "瑪雅身為教練，會向球員示範如何進步。",
+      "starter": "As",
+      "answer": "As a coach, Maya shows the players how to improve.",
+      "answerZh": "作為教練，瑪雅會向球員示範如何進步。",
+      "answerZhSource": "pdf",
+      "highlight": "As a coach, Maya shows the players how to improve."
+    },
+    {
+      "id": "ss31-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "They are librarians, so they keep the reading area quiet.",
+      "promptZh": "他們是圖書館員，所以他們會保持閱讀區安靜。",
+      "starter": "As",
+      "answer": "As librarians, they keep the reading area quiet.",
+      "answerZh": "作為圖書館員，他們會保持閱讀區安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "As librarians, they keep the reading area quiet."
+    },
+    {
+      "id": "ss31-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Since we are new employees, we need to learn the company rules.",
+      "promptZh": "由於我們是新僱員，所以我們需要學習公司的規則。",
+      "starter": "As",
+      "answer": "As new employees, we need to learn the company rules.",
+      "answerZh": "作為新僱員，我們需要學習公司的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "As new employees, we need to learn the company rules."
+    },
+    {
+      "id": "ss31-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Noah is a cyclist, so he always wears a helmet.",
+      "promptZh": "諾亞是單車使用者，所以他總會戴上頭盔。",
+      "starter": "As",
+      "answer": "As a cyclist, Noah always wears a helmet.",
+      "answerZh": "作為單車使用者，諾亞總會戴上頭盔。",
+      "answerZhSource": "pdf",
+      "highlight": "As a cyclist, Noah always wears a helmet."
+    },
+    {
+      "id": "ss31-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Ava, who is a passenger in the car, keeps her seat belt fastened.",
+      "promptZh": "艾娃是車上的乘客，她一直扣好安全帶。",
+      "starter": "As",
+      "answer": "As a passenger in the car, Ava keeps her seat belt fastened.",
+      "answerZh": "作為車上的乘客，艾娃一直扣好安全帶。",
+      "answerZhSource": "pdf",
+      "highlight": "As a passenger in the car, Ava keeps her seat belt fastened."
+    },
+    {
+      "id": "ss31-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Why does Daniel take his dog for regular check-ups? He is a pet owner.",
+      "promptZh": "丹尼爾為甚麼定期帶狗隻接受檢查？因為他是寵物主人。",
+      "starter": "As",
+      "answer": "As a pet owner, Daniel takes his dog for regular check-ups.",
+      "answerZh": "作為寵物主人，丹尼爾會定期帶狗隻接受檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "As a pet owner, Daniel takes his dog for regular check-ups."
+    },
+    {
+      "id": "ss31-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "Zoe is a tenant, so she reports serious repair problems to the landlord.",
+      "promptZh": "佐伊是一名租客，所以她會向業主報告嚴重的維修問題。",
+      "starter": "As",
+      "answer": "As a tenant, Zoe reports serious repair problems to the landlord.",
+      "answerZh": "作為租客，佐伊會向業主報告嚴重的維修問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As a tenant, Zoe reports serious repair problems to the landlord."
+    },
+    {
+      "id": "ss31-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Jason, the manager, must make fair decisions.",
+      "promptZh": "傑森是經理，他必須作出公平的決定。",
+      "starter": "As",
+      "answer": "As the manager, Jason must make fair decisions.",
+      "answerZh": "作為經理，傑森必須作出公平的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "As the manager, Jason must make fair decisions."
+    },
+    {
+      "id": "ss31-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Being an engineer, Sofia checks the design for safety problems.",
+      "promptZh": "蘇菲亞身為工程師，會檢查設計是否有安全問題。",
+      "starter": "As",
+      "answer": "As an engineer, Sofia checks the design for safety problems.",
+      "answerZh": "作為工程師，蘇菲亞會檢查設計是否有安全問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As an engineer, Sofia checks the design for safety problems."
+    },
+    {
+      "id": "ss31-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Marcus is a designer. He considers how people will use the product.",
+      "promptZh": "馬庫斯是一名設計師。他會考慮人們將如何使用產品。",
+      "starter": "As",
+      "answer": "As a designer, Marcus considers how people will use the product.",
+      "answerZh": "作為設計師，馬庫斯會考慮人們將如何使用產品。",
+      "answerZhSource": "pdf",
+      "highlight": "As a designer, Marcus considers how people will use the product."
+    },
+    {
+      "id": "ss31-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Aisha is a gardener, and she avoids using too much water.",
+      "promptZh": "艾莎是一名園丁，她會避免使用過多食水。",
+      "starter": "As",
+      "answer": "As a gardener, Aisha avoids using too much water.",
+      "answerZh": "作為園丁，艾莎會避免使用過多食水。",
+      "answerZhSource": "pdf",
+      "highlight": "As a gardener, Aisha avoids using too much water."
+    },
+    {
+      "id": "ss31-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "promptZhPage": 10
+      },
+      "prompt": "Kevin was the event organiser. He prepared a clear schedule for everyone.",
+      "promptZh": "凱文是活動籌辦人。他為所有人準備了一份清晰的時間表。",
+      "starter": "As",
+      "answer": "As the event organiser, Kevin prepared a clear schedule for everyone.",
+      "answerZh": "作為活動籌辦人，凱文為所有人準備了一份清晰的時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "As the event organiser, Kevin prepared a clear schedule for everyone."
+    },
+    {
+      "id": "ss31-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Ruby, who was the host, welcomed each guest at the door.",
+      "promptZh": "露比是主人，她在門口歡迎每位客人。",
+      "starter": "As",
+      "answer": "As the host, Ruby welcomed each guest at the door.",
+      "answerZh": "作為主人，露比在門口歡迎每位客人。",
+      "answerZhSource": "pdf",
+      "highlight": "As the host, Ruby welcomed each guest at the door."
+    },
+    {
+      "id": "ss31-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Why did Felix thank the family for dinner? He was their guest.",
+      "promptZh": "菲力斯為甚麼感謝這家人的晚餐招待？因為他是他們的客人。",
+      "starter": "As",
+      "answer": "As their guest, Felix thanked the family for dinner.",
+      "answerZh": "作為他們的客人，菲力斯感謝這家人的晚餐招待。",
+      "answerZhSource": "pdf",
+      "highlight": "As their guest, Felix thanked the family for dinner."
+    },
+    {
+      "id": "ss31-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "Hannah was the interviewer, so she asked the candidate about her experience.",
+      "promptZh": "漢娜是面試官，所以她向應徵者詢問其經驗。",
+      "starter": "As",
+      "answer": "As the interviewer, Hannah asked the candidate about her experience.",
+      "answerZh": "作為面試官，漢娜向應徵者詢問其經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "As the interviewer, Hannah asked the candidate about her experience."
+    },
+    {
+      "id": "ss31-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Because Isaac was a candidate, he answered the questions honestly.",
+      "promptZh": "因為艾薩克是一名應徵者，所以他誠實地回答問題。",
+      "starter": "As",
+      "answer": "As a candidate, Isaac answered the questions honestly.",
+      "answerZh": "作為應徵者，艾薩克誠實地回答問題。",
+      "answerZhSource": "pdf",
+      "highlight": "As a candidate, Isaac answered the questions honestly."
+    },
+    {
+      "id": "ss31-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Ella, the supervisor, checked the report before sending it.",
+      "promptZh": "艾拉是主管，她在發送報告前檢查了內容。",
+      "starter": "As",
+      "answer": "As the supervisor, Ella checked the report before sending it.",
+      "answerZh": "作為主管，艾拉在發送報告前檢查了內容。",
+      "answerZhSource": "pdf",
+      "highlight": "As the supervisor, Ella checked the report before sending it."
+    },
+    {
+      "id": "ss31-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Ryan belongs to the committee, and he shared his opinion during the discussion.",
+      "promptZh": "賴恩是委員會成員，他在討論期間分享了自己的意見。",
+      "starter": "As",
+      "answer": "As a committee member, Ryan shared his opinion during the discussion.",
+      "answerZh": "作為委員會成員，賴恩在討論期間分享了自己的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "As a committee member, Ryan shared his opinion during the discussion."
+    },
+    {
+      "id": "ss31-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Jasmine, who is a local resident, joined the meeting about the new park.",
+      "promptZh": "賈思敏是當區居民，她參加了有關新公園的會議。",
+      "starter": "As",
+      "answer": "As a local resident, Jasmine joined the meeting about the new park.",
+      "answerZh": "作為當區居民，賈思敏參加了有關新公園的會議。",
+      "answerZhSource": "pdf",
+      "highlight": "As a local resident, Jasmine joined the meeting about the new park."
+    },
+    {
+      "id": "ss31-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Why does Lucas start with simple exercises and ask for help? He is a beginner.",
+      "promptZh": "盧卡斯為甚麼先做簡單練習並尋求協助？因為他是初學者。",
+      "starter": "As",
+      "answer": "As a beginner, Lucas starts with simple exercises and asks for help.",
+      "answerZh": "作為初學者，盧卡斯會先做簡單練習並尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "As a beginner, Lucas starts with simple exercises and asks for help."
+    },
+    {
+      "id": "ss31-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Because Rachel is a leader, she takes responsibility when the team makes a mistake.",
+      "promptZh": "因為瑞秋是一名領袖，所以當團隊犯錯時，她會承擔責任。",
+      "starter": "As",
+      "answer": "As a leader, Rachel takes responsibility when the team makes a mistake.",
+      "answerZh": "作為領袖，瑞秋會在團隊犯錯時承擔責任。",
+      "answerZhSource": "pdf",
+      "highlight": "As a leader, Rachel takes responsibility when the team makes a mistake."
+    },
+    {
+      "id": "ss31-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Dr Lee is a doctor. He explains the treatment in words that patients can understand.",
+      "promptZh": "李醫生是一名醫生。他會使用病人能夠明白的說法解釋治療方案。",
+      "starter": "As",
+      "answer": "As a doctor, Dr Lee explains the treatment in words that patients can understand.",
+      "answerZh": "作為醫生，李醫生會使用病人能夠明白的說法解釋治療方案。",
+      "answerZhSource": "pdf",
+      "highlight": "As a doctor, Dr Lee explains the treatment in words that patients can understand."
+    },
+    {
+      "id": "ss31-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "promptZhPage": 12
+      },
+      "prompt": "Mrs Wong is the school principal, so she listens to both teachers and parents before making a decision.",
+      "promptZh": "黃太太是校長，所以她在作出決定前會聆聽老師和家長雙方的意見。",
+      "starter": "As",
+      "answer": "As the school principal, Mrs Wong listens to both teachers and parents before making a decision.",
+      "answerZh": "作為校長，黃太太會在作出決定前聆聽老師和家長雙方的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "As the school principal, Mrs Wong listens to both teachers and parents before making a decision."
+    },
+    {
+      "id": "ss31-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Aaron works in public service. He remains calm when people ask difficult questions.",
+      "promptZh": "阿倫從事公共服務工作。當人們提出棘手問題時，他會保持冷靜。",
+      "starter": "As",
+      "answer": "As a public-service worker, Aaron remains calm when people ask difficult questions.",
+      "answerZh": "作為公共服務人員，阿倫會在人們提出棘手問題時保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "As a public-service worker, Aaron remains calm when people ask difficult questions."
+    },
+    {
+      "id": "ss31-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Samuel is Emma’s older brother. He teaches her how to travel safely on the MTR.",
+      "promptZh": "森美是艾瑪的哥哥。他教導艾瑪如何安全乘搭港鐵。",
+      "starter": "As",
+      "answer": "As Emma’s older brother, Samuel teaches her how to travel safely on the MTR.",
+      "answerZh": "作為艾瑪的哥哥，森美教導她如何安全乘搭港鐵。",
+      "answerZhSource": "pdf",
+      "highlight": "As Emma’s older brother, Samuel teaches her how to travel safely on the MTR."
+    },
+    {
+      "id": "ss31-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Irene, who is a grandmother, shares family stories with the younger generation.",
+      "promptZh": "艾琳是一位祖母，她會與年輕一代分享家庭故事。",
+      "starter": "As",
+      "answer": "As a grandmother, Irene shares family stories with the younger generation.",
+      "answerZh": "作為祖母，艾琳會與年輕一代分享家庭故事。",
+      "answerZhSource": "pdf",
+      "highlight": "As a grandmother, Irene shares family stories with the younger generation."
+    },
+    {
+      "id": "ss31-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Patrick owns his home, so he checks the windows before a strong storm arrives.",
+      "promptZh": "柏德烈擁有自己的住所，所以他會在強烈風暴來臨前檢查窗戶。",
+      "starter": "As",
+      "answer": "As a homeowner, Patrick checks the windows before a strong storm arrives.",
+      "answerZh": "作為屋主，柏德烈會在強烈風暴來臨前檢查窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "As a homeowner, Patrick checks the windows before a strong storm arrives."
+    },
+    {
+      "id": "ss31-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Vivian is a member of the team. She supports the final decision even when her own idea is not chosen.",
+      "promptZh": "維維安是團隊成員。即使自己的想法未獲採用，她仍會支持最終決定。",
+      "starter": "As",
+      "answer": "As a team member, Vivian supports the final decision even when her own idea is not chosen.",
+      "answerZh": "作為團隊成員，即使自己的想法未獲採用，維維安仍會支持最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "As a team member, Vivian supports the final decision even when her own idea is not chosen."
+    },
+    {
+      "id": "ss31-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "George mentors new staff. He gives them practical advice without doing the work for them.",
+      "promptZh": "佐治指導新僱員。他會給予他們實用建議，但不會代替他們完成工作。",
+      "starter": "As",
+      "answer": "As a mentor, George gives new staff practical advice without doing the work for them.",
+      "answerZh": "作為導師，佐治會給予新僱員實用建議，但不會代替他們完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "As a mentor, George gives new staff practical advice without doing the work for them."
+    },
+    {
+      "id": "ss31-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20
+      },
+      "prompt": "Kayla volunteers for an environmental group. She teaches children how small daily choices can reduce waste.",
+      "promptZh": "凱拉在一個環保團體擔任義工。她教導兒童日常的小選擇如何減少浪費。",
+      "starter": "As",
+      "answer": "As an environmental volunteer, Kayla teaches children how small daily choices can reduce waste.",
+      "answerZh": "作為環保義工，凱拉教導兒童日常的小選擇如何減少浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "As an environmental volunteer, Kayla teaches children how small daily choices can reduce waste."
+    },
+    {
+      "id": "ss31-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Adrian leads the project. Before work begins, he makes sure that every member understands the plan.",
+      "promptZh": "艾德里安領導這個項目。在工作開始前，他會確保每位成員都明白計劃。",
+      "starter": "As",
+      "answer": "As the project leader, Adrian makes sure that every member understands the plan before work begins.",
+      "answerZh": "作為項目負責人，艾德里安會確保每位成員在工作開始前明白計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "As the project leader, Adrian makes sure that every member understands the plan before work begins."
+    }
+  ]
+}

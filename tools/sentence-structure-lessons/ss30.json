@@ -1,0 +1,1064 @@
+{
+  "id": "ss30",
+  "order": 30,
+  "slug": "as-gradual-change",
+  "title": "「As 句」句型",
+  "titleZh": "「As 句」表達「隨着時間或情況變化」",
+  "titleEn": "Using As to describe changes over time",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 30 -「As 句」表達「隨着時間或情況變化」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English rule headings and explanations translated from Chinese are faithful editorial translations."
+    ]
+  },
+  "formula": "As + subject + change or development, subject + corresponding change.",
+  "formulas": [
+    {
+      "id": "ss30-formula-as-first",
+      "labelEn": "Pattern A",
+      "labelZh": "句型 A",
+      "formula": "As + subject + change or development, subject + corresponding change."
+    },
+    {
+      "id": "ss30-formula-as-second",
+      "labelEn": "Pattern B",
+      "labelZh": "句型 B",
+      "formula": "Subject + corresponding change + as + subject + change or development."
+    }
+  ],
+  "example": "As I get older, I tend to realise that family matters most.",
+  "exampleZh": "隨着年紀漸長，我逐漸明白家人最重要。",
+  "examples": [
+    {
+      "id": "ss30-example-01",
+      "en": "As I get older, I tend to realise that family matters most.",
+      "zh": "隨着年紀漸長，我逐漸明白家人最重要。",
+      "highlight": "As I get older"
+    }
+  ],
+  "meaning": {
+    "zh": "表示一件事情逐漸改變時，另一件事情也同時發生相應的改變。"
+  },
+  "rules": [
+    {
+      "id": "ss30-rule-01",
+      "en": "In this lesson, as means ‘as/while something gradually changes’: one situation develops and another changes with it.",
+      "zh": "As 在本課表示「隨着」：一件事情逐漸改變時，另一件事情也同時發生相應的改變。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As the weather gets colder, people wear thicker clothes."
+      ]
+    },
+    {
+      "id": "ss30-rule-02",
+      "en": "The as-clause must contain a complete subject and verb.",
+      "zh": "As 後面必須接完整子句，包含主語和動詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As children grow, they become more independent."
+      ]
+    },
+    {
+      "id": "ss30-rule-03",
+      "en": "The as-clause may come first or last. Use a comma after it when it comes first; a comma is generally unnecessary when it comes last.",
+      "zh": "As 子句可以放在前面或後面。放在前面時通常需要逗號；放在後面時一般不需要逗號。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As the evening gets later, the streets become quieter.",
+        "The streets become quieter as the evening gets later."
+      ]
+    },
+    {
+      "id": "ss30-rule-04",
+      "en": "This lesson does not practise other meanings of as, such as ‘because’ or a simple ‘when’.",
+      "zh": "本課只練習表示逐漸變化的「隨着」，不練習 As 表示「因為」或一般「當……的時候」的用法。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As it was raining, we stayed indoors."
+      ]
+    },
+    {
+      "id": "ss30-rule-05",
+      "en": "Use get older, rather than get old, to emphasise age increasing gradually.",
+      "zh": "表達年紀逐漸增長時，通常使用 get older；它比 get old 更適合表示持續的變化。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As I get older, I understand my parents better."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss30-benefit-01",
+      "en": "It shows two changes happening together.",
+      "zh": "這個句型可以清楚表示：當一種情況逐漸發展時，另一種情況亦會隨之改變。"
+    },
+    {
+      "id": "ss30-benefit-02",
+      "en": "It connects related ideas.",
+      "zh": "你可以把兩項互相關連的變化放進同一句，而不需要分開寫成兩句。"
+    },
+    {
+      "id": "ss30-benefit-03",
+      "en": "It is useful for describing trends.",
+      "zh": "這個句型適合描述社會、科技、教育、健康和環境等方面的發展趨勢。"
+    },
+    {
+      "id": "ss30-benefit-04",
+      "en": "It helps explain personal development.",
+      "zh": "你可以使用這個句型描述自己的想法、能力、感受或習慣如何隨時間改變。"
+    },
+    {
+      "id": "ss30-benefit-05",
+      "en": "It gives you more sentence variety.",
+      "zh": "As 子句可以放在句首或句尾，讓你的說話和寫作不會經常使用相同的句子開頭。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents the Important Rules mainly in Chinese; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using as to show that one situation changes or develops together with another over time.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 as 改寫以下句子，表示一種情況逐漸改變或發展時，另一種情況亦會隨之改變。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss30-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "With age, I understand my parents better.",
+      "promptZh": "隨着年齡增長，我更了解父母。",
+      "starter": "As",
+      "answer": "As I get older, I understand my parents better.",
+      "answerZh": "隨着年紀漸長，我更了解父母。",
+      "answerZhSource": "pdf",
+      "highlight": "As I get older, I understand my parents better."
+    },
+    {
+      "id": "ss30-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "When the weather gradually becomes colder, people wear thicker clothes.",
+      "promptZh": "當天氣逐漸變冷時，人們會穿上較厚的衣服。",
+      "starter": "As",
+      "answer": "As the weather gets colder, people wear thicker clothes.",
+      "answerZh": "隨着天氣變冷，人們會穿上較厚的衣服。",
+      "answerZhSource": "pdf",
+      "highlight": "As the weather gets colder, people wear thicker clothes."
+    },
+    {
+      "id": "ss30-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The more Mia practises, the clearer her pronunciation becomes.",
+      "promptZh": "米婭練習得越多，她的發音便越清晰。",
+      "starter": "As",
+      "answer": "As Mia practises more, her pronunciation becomes clearer.",
+      "answerZh": "隨着米婭增加練習，她的發音變得更加清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "As Mia practises more, her pronunciation becomes clearer."
+    },
+    {
+      "id": "ss30-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The sun rises, and the sky gradually becomes brighter at the same time.",
+      "promptZh": "太陽升起時，天空亦逐漸變得明亮。",
+      "starter": "As",
+      "answer": "As the sun rises, the sky becomes brighter.",
+      "answerZh": "隨着太陽升起，天空逐漸變得明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "As the sun rises, the sky becomes brighter."
+    },
+    {
+      "id": "ss30-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Over the years, children grow and become more independent.",
+      "promptZh": "經過多年成長，兒童會變得更加獨立。",
+      "starter": "As",
+      "answer": "As children grow, they become more independent.",
+      "answerZh": "隨着兒童成長，他們會變得更加獨立。",
+      "answerZhSource": "pdf",
+      "highlight": "As children grow, they become more independent."
+    },
+    {
+      "id": "ss30-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 14
+      },
+      "prompt": "The train moves farther from the city, and passengers gradually see fewer buildings.",
+      "promptZh": "火車逐漸駛離城市，乘客看到的建築物亦逐漸減少。",
+      "starter": "As",
+      "answer": "As the train moves farther from the city, passengers see fewer buildings.",
+      "answerZh": "隨着火車逐漸駛離城市，乘客看到的建築物亦越來越少。",
+      "answerZhSource": "pdf",
+      "highlight": "As the train moves farther from the city, passengers see fewer buildings."
+    },
+    {
+      "id": "ss30-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "While the soup is cooling, it gradually becomes thicker.",
+      "promptZh": "湯在冷卻的過程中逐漸變得濃稠。",
+      "starter": "The",
+      "answer": "The soup becomes thicker as it cools.",
+      "answerZh": "湯會隨着溫度下降而變得更加濃稠。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup becomes thicker as it cools."
+    },
+    {
+      "id": "ss30-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "A longer queue usually makes people less patient.",
+      "promptZh": "隊伍越長，人們通常越沒有耐性。",
+      "starter": "As",
+      "answer": "As the queue gets longer, people usually become less patient.",
+      "answerZh": "隨着隊伍變長，人們通常會變得較沒有耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "As the queue gets longer, people usually become less patient."
+    },
+    {
+      "id": "ss30-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The more words we learn, the easier reading becomes.",
+      "promptZh": "我們學會的單字越多，閱讀便越容易。",
+      "starter": "As",
+      "answer": "As we learn more words, reading becomes easier.",
+      "answerZh": "隨着我們學會更多單字，閱讀會變得更加容易。",
+      "answerZhSource": "pdf",
+      "highlight": "As we learn more words, reading becomes easier."
+    },
+    {
+      "id": "ss30-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Later in the evening, the streets usually become quieter.",
+      "promptZh": "夜晚越深，街道通常會變得越安靜。",
+      "starter": "The",
+      "answer": "The streets usually become quieter as the evening gets later.",
+      "answerZh": "街道通常會隨着夜色漸深而變得更加安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The streets usually become quieter as the evening gets later."
+    },
+    {
+      "id": "ss30-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The more money Ben saves, the closer he gets to his goal of buying a bicycle.",
+      "promptZh": "本儲蓄的金錢越多，便越接近購買單車的目標。",
+      "starter": "As",
+      "answer": "As Ben saves more money, he gets closer to his goal of buying a bicycle.",
+      "answerZh": "隨着本儲蓄更多金錢，他逐漸接近購買單車的目標。",
+      "answerZhSource": "pdf",
+      "highlight": "As Ben saves more money, he gets closer to his goal of buying a bicycle."
+    },
+    {
+      "id": "ss30-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The taller the plant grows, the more water it needs.",
+      "promptZh": "植物長得越高，所需的水便越多。",
+      "starter": "As",
+      "answer": "As the plant grows taller, it needs more water.",
+      "answerZh": "隨着植物長高，它需要更多水分。",
+      "answerZhSource": "pdf",
+      "highlight": "As the plant grows taller, it needs more water."
+    },
+    {
+      "id": "ss30-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Over time, mobile phones have become more powerful, and people have begun using them for more tasks.",
+      "promptZh": "隨着時間過去，手提電話的功能變得更強大，人們亦開始用它們處理更多事情。",
+      "starter": "As",
+      "answer": "As mobile phones have become more powerful, people have begun using them for more tasks.",
+      "answerZh": "隨着手提電話的功能變得更強大，人們亦開始用它們處理更多事情。",
+      "answerZhSource": "pdf",
+      "highlight": "As mobile phones have become more powerful, people have begun using them for more tasks."
+    },
+    {
+      "id": "ss30-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "During the lesson, the questions gradually become more difficult.",
+      "promptZh": "課堂進行期間，題目逐漸變得更加困難。",
+      "starter": "As",
+      "answer": "As the lesson progresses, the questions become more difficult.",
+      "answerZh": "隨着課堂進行，題目會逐漸變得更加困難。",
+      "answerZhSource": "pdf",
+      "highlight": "As the lesson progresses, the questions become more difficult."
+    },
+    {
+      "id": "ss30-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Ava’s baby daughter grows older each month and sleeps for longer at night.",
+      "promptZh": "艾娃的女嬰逐月長大，晚上睡眠的時間亦變得更長。",
+      "starter": "As",
+      "answer": "As Ava’s baby daughter grows older, she sleeps for longer at night.",
+      "answerZh": "隨着艾娃的女嬰長大，她晚上睡眠的時間亦變得更長。",
+      "answerZhSource": "pdf",
+      "highlight": "As Ava’s baby daughter grows older, she sleeps for longer at night."
+    },
+    {
+      "id": "ss30-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The more often I speak English, the more confident I become.",
+      "promptZh": "我越經常說英語，便變得越有信心。",
+      "starter": "I",
+      "answer": "I become more confident as I speak English more often.",
+      "answerZh": "我會隨着說英語的次數增加而變得更有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "I become more confident as I speak English more often."
+    },
+    {
+      "id": "ss30-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "When more people enter the room, it gradually becomes warmer.",
+      "promptZh": "當更多人進入房間時，房間會逐漸變暖。",
+      "starter": "The",
+      "answer": "The room becomes warmer as more people enter it.",
+      "answerZh": "房間會隨着更多人進入而逐漸變暖。",
+      "answerZhSource": "pdf",
+      "highlight": "The room becomes warmer as more people enter it."
+    },
+    {
+      "id": "ss30-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "We spent more time together over the years, and our friendship became stronger.",
+      "promptZh": "多年來，我們相處的時間增加了，彼此的友誼亦變得更加深厚。",
+      "starter": "Our",
+      "answer": "Our friendship became stronger as we spent more time together.",
+      "answerZh": "我們的友誼隨着相處時間增加而變得更加深厚。",
+      "answerZhSource": "pdf",
+      "highlight": "Our friendship became stronger as we spent more time together."
+    },
+    {
+      "id": "ss30-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "An increase in demand often causes prices to rise.",
+      "promptZh": "需求增加通常會導致價格上升。",
+      "starter": "Prices",
+      "answer": "Prices often rise as demand increases.",
+      "answerZh": "價格通常會隨着需求增加而上升。",
+      "answerZhSource": "pdf",
+      "highlight": "Prices often rise as demand increases."
+    },
+    {
+      "id": "ss30-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Each year, more tourists arrived, and the town became busier.",
+      "promptZh": "每年都有更多遊客到訪，而這個小鎮亦變得更加繁忙。",
+      "starter": "The",
+      "answer": "The town became busier as more tourists arrived each year.",
+      "answerZh": "這個小鎮隨着每年到訪的遊客增加而變得更加繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The town became busier as more tourists arrived each year."
+    },
+    {
+      "id": "ss30-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "The steeper the road becomes, the harder cyclists have to work.",
+      "promptZh": "道路變得越斜，單車手便要越用力。",
+      "starter": "As",
+      "answer": "As the road gets steeper, cyclists have to work harder.",
+      "answerZh": "隨着道路變得更斜，單車手需要更加用力。",
+      "answerZhSource": "pdf",
+      "highlight": "As the road gets steeper, cyclists have to work harder."
+    },
+    {
+      "id": "ss30-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The team is meeting more often because the deadline is getting closer.",
+      "promptZh": "由於限期逐漸接近，團隊開會的次數正在增加。",
+      "starter": "As",
+      "answer": "As the deadline gets closer, the team is meeting more often.",
+      "answerZh": "隨着限期逐漸接近，團隊開會的次數正在增加。",
+      "answerZhSource": "pdf",
+      "highlight": "As the deadline gets closer, the team is meeting more often."
+    },
+    {
+      "id": "ss30-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "People usually make decisions more quickly after they gain more experience.",
+      "promptZh": "人們累積更多經驗後，通常能更快作出決定。",
+      "starter": "As",
+      "answer": "As people gain more experience, they usually make decisions more quickly.",
+      "answerZh": "隨着人們累積更多經驗，他們通常能更快作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "As people gain more experience, they usually make decisions more quickly."
+    },
+    {
+      "id": "ss30-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "A rising river level makes nearby paths increasingly unsafe.",
+      "promptZh": "河流水位上升，令附近的小徑變得越來越不安全。",
+      "starter": "As",
+      "answer": "As the river level rises, nearby paths become increasingly unsafe.",
+      "answerZh": "隨着河流水位上升，附近的小徑變得越來越不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "As the river level rises, nearby paths become increasingly unsafe."
+    },
+    {
+      "id": "ss30-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Technological development causes some jobs to change or disappear over time.",
+      "promptZh": "科技發展使部分工作隨時間改變或消失。",
+      "starter": "As",
+      "answer": "As technology develops, some jobs change or disappear.",
+      "answerZh": "隨着科技發展，部分工作會改變或消失。",
+      "answerZhSource": "pdf",
+      "highlight": "As technology develops, some jobs change or disappear."
+    },
+    {
+      "id": "ss30-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The discussion developed, and the audience became more engaged.",
+      "promptZh": "討論逐步深入，觀眾亦變得更加投入。",
+      "starter": "The",
+      "answer": "The audience became more engaged as the discussion developed.",
+      "answerZh": "觀眾隨着討論逐步深入而變得更加投入。",
+      "answerZhSource": "pdf",
+      "highlight": "The audience became more engaged as the discussion developed."
+    },
+    {
+      "id": "ss30-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The medicine gradually began to work, and the patient’s breathing became easier.",
+      "promptZh": "藥物逐漸開始發揮作用，病人的呼吸亦變得比較順暢。",
+      "starter": "The",
+      "answer": "The patient’s breathing became easier as the medicine gradually began to work.",
+      "answerZh": "病人的呼吸隨着藥物逐漸開始發揮作用而變得比較順暢。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient’s breathing became easier as the medicine gradually began to work."
+    },
+    {
+      "id": "ss30-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The closer the morning rush hour comes, the more crowded public transport becomes.",
+      "promptZh": "早上繁忙時間越接近，公共交通工具便越擠迫。",
+      "starter": "Public",
+      "answer": "Public transport becomes more crowded as the morning rush hour approaches.",
+      "answerZh": "公共交通工具會隨着早上繁忙時間接近而變得更加擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport becomes more crowded as the morning rush hour approaches."
+    },
+    {
+      "id": "ss30-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "The building’s equipment grew older over the years, and the building became less useful.",
+      "promptZh": "多年來，大樓的設備逐漸老化，大樓亦變得不再那麼實用。",
+      "starter": "The",
+      "answer": "The building became less useful as its equipment grew older.",
+      "answerZh": "這座大樓隨着設備老化而變得不再那麼實用。",
+      "answerZhSource": "pdf",
+      "highlight": "The building became less useful as its equipment grew older."
+    },
+    {
+      "id": "ss30-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Reading more biographies gradually increased my interest in history.",
+      "promptZh": "閱讀更多人物傳記逐漸增加了我對歷史的興趣。",
+      "starter": "My",
+      "answer": "My interest in history gradually increased as I read more biographies.",
+      "answerZh": "我對歷史的興趣隨着閱讀更多人物傳記而逐漸增加。",
+      "answerZhSource": "pdf",
+      "highlight": "My interest in history gradually increased as I read more biographies."
+    },
+    {
+      "id": "ss30-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "A growing school population creates a need for more study space in the library.",
+      "promptZh": "學校的學生人數增加，使圖書館需要更多溫習空間。",
+      "starter": "As",
+      "answer": "As the school population grows, the library needs more study space.",
+      "answerZh": "隨着學校的學生人數增加，圖書館需要更多溫習空間。",
+      "answerZhSource": "pdf",
+      "highlight": "As the school population grows, the library needs more study space."
+    },
+    {
+      "id": "ss30-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The growing popularity of online shopping puts greater pressure on delivery services.",
+      "promptZh": "網上購物日益普及，為送貨服務帶來更大壓力。",
+      "starter": "As",
+      "answer": "As online shopping becomes more common, delivery services face greater pressure.",
+      "answerZh": "隨着網上購物日益普及，送貨服務面對更大壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "As online shopping becomes more common, delivery services face greater pressure."
+    },
+    {
+      "id": "ss30-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "When a company expands, communication between departments becomes more important.",
+      "promptZh": "公司擴展時，部門之間的溝通會變得更加重要。",
+      "starter": "As",
+      "answer": "As the company expands, communication between departments becomes more important.",
+      "answerZh": "隨着公司擴展，部門之間的溝通會變得更加重要。",
+      "answerZhSource": "pdf",
+      "highlight": "As the company expands, communication between departments becomes more important."
+    },
+    {
+      "id": "ss30-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Warmer seas cause some marine animals to move to cooler areas.",
+      "promptZh": "海水變暖使部分海洋生物遷移到較涼的地區。",
+      "starter": "As",
+      "answer": "As the sea becomes warmer, some marine animals move to cooler areas.",
+      "answerZh": "隨着海水變暖，部分海洋生物會遷移到較涼的地區。",
+      "answerZhSource": "pdf",
+      "highlight": "As the sea becomes warmer, some marine animals move to cooler areas."
+    },
+    {
+      "id": "ss30-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "People spend more time sitting nowadays, so regular exercise is becoming more important.",
+      "promptZh": "現今人們花更多時間坐着，因此恆常運動正變得更加重要。",
+      "starter": "As",
+      "answer": "As people spend more time sitting, regular exercise is becoming more important.",
+      "answerZh": "隨着人們花更多時間坐着，恆常運動正變得更加重要。",
+      "answerZhSource": "pdf",
+      "highlight": "As people spend more time sitting, regular exercise is becoming more important."
+    },
+    {
+      "id": "ss30-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The busier the station becomes, the greater the need for clear signs.",
+      "promptZh": "車站越繁忙，對清晰指示牌的需求便越大。",
+      "starter": "The",
+      "answer": "The need for clear signs increases as the station becomes busier.",
+      "answerZh": "對清晰指示牌的需求會隨着車站變得更加繁忙而增加。",
+      "answerZhSource": "pdf",
+      "highlight": "The need for clear signs increases as the station becomes busier."
+    },
+    {
+      "id": "ss30-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The more people become involved, the harder the problem is to solve.",
+      "promptZh": "牽涉的人越多，問題便越難解決。",
+      "starter": "The",
+      "answer": "The problem becomes harder to solve as more people become involved.",
+      "answerZh": "問題會隨着更多人牽涉其中而變得更加難以解決。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem becomes harder to solve as more people become involved."
+    },
+    {
+      "id": "ss30-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Growth among large online platforms may cause local shops to lose customers.",
+      "promptZh": "大型網上平台的發展可能令本地商店流失顧客。",
+      "starter": "Local",
+      "answer": "Local shops may lose customers as large online platforms grow.",
+      "answerZh": "本地商店可能會隨着大型網上平台發展而流失顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "Local shops may lose customers as large online platforms grow."
+    },
+    {
+      "id": "ss30-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The teacher gave the children more chances to speak over time. Their confidence grew.",
+      "promptZh": "老師逐漸給予孩子更多發言機會。他們的信心亦有所提升。",
+      "starter": "The",
+      "answer": "The children became more confident as the teacher gave them more chances to speak.",
+      "answerZh": "孩子們隨着老師給予更多發言機會而變得更有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "The children became more confident as the teacher gave them more chances to speak."
+    },
+    {
+      "id": "ss30-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Worn machine parts cause the machine to make more noise over time.",
+      "promptZh": "機器零件逐漸損耗，使機器發出更多噪音。",
+      "starter": "The",
+      "answer": "The machine makes more noise as its parts wear out.",
+      "answerZh": "機器會隨着零件逐漸損耗而發出更多噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine makes more noise as its parts wear out."
+    },
+    {
+      "id": "ss30-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Growing cities require governments to plan transport more carefully.",
+      "promptZh": "城市不斷發展，政府需要更仔細地規劃交通。",
+      "starter": "As",
+      "answer": "As cities grow, governments must plan transport more carefully.",
+      "answerZh": "隨着城市發展，政府必須更仔細地規劃交通。",
+      "answerZhSource": "pdf",
+      "highlight": "As cities grow, governments must plan transport more carefully."
+    },
+    {
+      "id": "ss30-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Students are expected to work more independently when they move into higher classes.",
+      "promptZh": "學生升讀更高年級時，學校會期望他們更獨立地完成學習任務。",
+      "starter": "As",
+      "answer": "As students move into higher classes, they are expected to work more independently.",
+      "answerZh": "隨着學生升讀更高年級，學校會期望他們更獨立地完成學習任務。",
+      "answerZhSource": "pdf",
+      "highlight": "As students move into higher classes, they are expected to work more independently."
+    },
+    {
+      "id": "ss30-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Rising living costs force families to plan their spending more carefully.",
+      "promptZh": "生活成本上升，迫使家庭更仔細地規劃開支。",
+      "starter": "As",
+      "answer": "As the cost of living rises, families have to plan their spending more carefully.",
+      "answerZh": "隨着生活成本上升，家庭必須更仔細地規劃開支。",
+      "answerZhSource": "pdf",
+      "highlight": "As the cost of living rises, families have to plan their spending more carefully."
+    },
+    {
+      "id": "ss30-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "Information now spreads more quickly online, which makes checking facts increasingly important.",
+      "promptZh": "現今資訊在網上傳播得更快，使核實資料變得越來越重要。",
+      "starter": "As",
+      "answer": "As information spreads more quickly online, checking facts becomes increasingly important.",
+      "answerZh": "隨着資訊在網上傳播得更快，核實資料變得越來越重要。",
+      "answerZhSource": "pdf",
+      "highlight": "As information spreads more quickly online, checking facts becomes increasingly important."
+    },
+    {
+      "id": "ss30-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "An ageing population creates a greater need for hospital services for older patients.",
+      "promptZh": "人口老化增加了年長病人對醫院服務的需求。",
+      "starter": "As",
+      "answer": "As the population ages, hospitals need more services for older patients.",
+      "answerZh": "隨着人口老化，醫院需要為年長病人提供更多服務。",
+      "answerZhSource": "pdf",
+      "highlight": "As the population ages, hospitals need more services for older patients."
+    },
+    {
+      "id": "ss30-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Remote working is becoming more common, and employees may therefore feel less connected to their colleagues.",
+      "promptZh": "遙距工作日益普遍，因此僱員與同事之間的聯繫可能會減弱。",
+      "starter": "Employees",
+      "answer": "Employees may feel less connected to their colleagues as remote working becomes more common.",
+      "answerZh": "隨着遙距工作日益普遍，僱員可能會覺得自己與同事之間的聯繫減弱。",
+      "answerZhSource": "pdf",
+      "highlight": "Employees may feel less connected to their colleagues as remote working becomes more common."
+    },
+    {
+      "id": "ss30-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The more complex a project becomes, the clearer the value of regular feedback becomes.",
+      "promptZh": "項目越複雜，定期提供意見的重要性便越明顯。",
+      "starter": "The",
+      "answer": "The value of regular feedback becomes clearer as a project becomes more complex.",
+      "answerZh": "定期提供意見的價值會隨着項目變得更加複雜而越來越明顯。",
+      "answerZhSource": "pdf",
+      "highlight": "The value of regular feedback becomes clearer as a project becomes more complex."
+    },
+    {
+      "id": "ss30-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Environmental problems are becoming more serious, so communities are looking for practical solutions.",
+      "promptZh": "環境問題正變得更加嚴重，因此各個社區正在尋找實際的解決方法。",
+      "starter": "As",
+      "answer": "As environmental problems become more serious, communities are looking for practical solutions.",
+      "answerZh": "隨着環境問題變得更加嚴重，各個社區正在尋找實際的解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "As environmental problems become more serious, communities are looking for practical solutions."
+    },
+    {
+      "id": "ss30-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "When learners become more fluent, they can focus less on individual words and more on the whole message.",
+      "promptZh": "學習者變得更加流利後，便可以減少專注個別單字，並更着重整體信息。",
+      "starter": "As",
+      "answer": "As learners become more fluent, they can focus less on individual words and more on the whole message.",
+      "answerZh": "隨着學習者變得更加流利，他們可以減少專注個別單字，並更着重整體信息。",
+      "answerZhSource": "pdf",
+      "highlight": "As learners become more fluent, they can focus less on individual words and more on the whole message."
+    },
+    {
+      "id": "ss30-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The growing reliance of organisations on digital systems makes protecting personal data increasingly important.",
+      "promptZh": "機構日益依賴數碼系統，使保護個人資料變得越來越重要。",
+      "starter": "As",
+      "answer": "As organisations rely more heavily on digital systems, protecting personal data becomes increasingly important.",
+      "answerZh": "隨着機構更加依賴數碼系統，保護個人資料變得越來越重要。",
+      "answerZhSource": "pdf",
+      "highlight": "As organisations rely more heavily on digital systems, protecting personal data becomes increasingly important."
+    }
+  ]
+}

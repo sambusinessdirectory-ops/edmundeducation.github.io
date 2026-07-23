@@ -1,4 +1,5 @@
 **/.wrangler/
+**/node_modules/
 **/__pycache__/
 .flashcards-audio-build/
 tmp/

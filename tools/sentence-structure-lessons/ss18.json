@@ -1,0 +1,1041 @@
+{
+  "id": "ss18",
+  "order": 18,
+  "slug": "rather-correction",
+  "title": "「Rather」句型",
+  "titleZh": "「Rather」句型表達修正或更準確的觀點",
+  "titleEn": "Using Rather to correct or state a more accurate view",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 18 -「Rather」句型.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English translations for Chinese-only Important Rules and Benefits explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the descriptive lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Subject + negative or limited statement. Rather, + subject + verb + corrected idea.",
+  "formulas": [
+    {
+      "id": "ss18-formula-rather",
+      "labelEn": "Sentence Formula",
+      "labelZh": "句子公式",
+      "formula": "Subject + negative or limited statement. Rather, + subject + verb + corrected idea."
+    }
+  ],
+  "example": "Life should not be about others. Rather, it is about how we choose to live our lives.",
+  "exampleZh": "人生不應該只關於別人；更準確地說，它應該關乎我們如何選擇過自己的生活。",
+  "examples": [
+    {
+      "id": "ss18-example-01",
+      "en": "Life should not be about others. Rather, it is about how we choose to live our lives.",
+      "zh": "人生不應該只關於別人；更準確地說，它應該關乎我們如何選擇過自己的生活。",
+      "highlight": "Rather, it is about how we choose to live our lives."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss18-benefit-01",
+      "en": "It helps you correct a viewpoint more clearly by rejecting an inaccurate idea and immediately providing a more accurate one.",
+      "zh": "更清楚地修正觀點：不只是說某個想法錯了，還能立即提出更準確的說法。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss18-benefit-02",
+      "en": "It makes a correction sound more natural and polite than directly rejecting another person’s idea.",
+      "zh": "令語氣較自然和有禮貌；相比直接否定別人，使用 Rather 可以令修正聽起來較平和。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss18-benefit-03",
+      "en": "It makes writing more logical by clearly showing the shift from “not A” to “but, more accurately, B”.",
+      "zh": "令文章更有邏輯，讓讀者清楚看見「不是 A，而是 B」的思想轉變。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss18-benefit-04",
+      "en": "It makes English expression more mature and is common in argumentative writing, reports, speeches, discussions and deeper everyday conversations.",
+      "zh": "令英語表達更成熟；Rather 常見於議論文、報告、演講、討論及較深入的日常對話。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss18-rule-01",
+      "en": "Rather, is followed by a complete sentence and usually introduces a correction, a redefinition or a more accurate account of the previous idea. It is normally followed by a comma.",
+      "zh": "Rather, + 完整句子。Rather 通常用來修正、重新界定或更準確地表達前一句的觀點，後面通常有逗號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Life should not be about pleasing others. Rather, it should be about living according to our own values."
+      ]
+    },
+    {
+      "id": "ss18-rule-02",
+      "en": "Instead, is also followed by a complete sentence, but it more strongly emphasises that one action, choice or situation replaces another.",
+      "zh": "Instead, + 完整句子。Instead 較強調某個行動、選擇或情況取代了另一個行動、選擇或情況。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "He did not call me. Instead, he sent me a message."
+      ]
+    },
+    {
+      "id": "ss18-rule-03",
+      "en": "Instead of is followed by a noun, pronoun or verb-ing rather than a complete sentence.",
+      "zh": "Instead of + 名詞／代名詞／動詞-ing。Instead of 後面通常不是一個完整句子。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "I chose to study biology instead of art.",
+        "He sent me a message instead of calling me."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only Important Rules and Benefits explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the descriptive lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using Rather to introduce the corrected or more accurate idea.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Rather 改寫以下句子，以帶出修正後或更準確的觀點。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss18-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Life should be about living according to our own values, not about pleasing other people.",
+      "promptZh": "人生應該按照自己的價值觀生活，而不是取悅別人。",
+      "starter": "Life",
+      "answer": "Life should not be about pleasing other people. Rather, it should be about living according to our own values.",
+      "answerZh": "人生不應該以取悅別人為中心；相反，我們應該按照自己的價值觀生活。",
+      "answerZhSource": "pdf",
+      "highlight": "Life should not be about pleasing other people. Rather, it should be about living according to our own values."
+    },
+    {
+      "id": "ss18-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 12
+      },
+      "prompt": "A good education is more than passing examinations; it teaches us how to think.",
+      "promptZh": "良好的教育不只是通過考試；它還教導我們如何思考。",
+      "starter": "A",
+      "answer": "A good education is not only about passing examinations. Rather, it is about learning how to think.",
+      "answerZh": "良好的教育不應只着重通過考試；更重要的是學習如何思考。",
+      "answerZhSource": "pdf",
+      "highlight": "A good education is not only about passing examinations. Rather, it is about learning how to think."
+    },
+    {
+      "id": "ss18-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Exercise should be a way to care for your body, not a punishment.",
+      "promptZh": "運動應該是照顧身體的方法，而不是一種懲罰。",
+      "starter": "Exercise",
+      "answer": "Exercise should not feel like a punishment. Rather, it should be a way to care for your body.",
+      "answerZh": "運動不應令人覺得是一種懲罰；相反，它應該是照顧身體的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Exercise should not feel like a punishment. Rather, it should be a way to care for your body."
+    },
+    {
+      "id": "ss18-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Friendship should be measured by how well people support each other, not by how often they meet.",
+      "promptZh": "友誼應該以人們如何互相支持來衡量，而不是以見面的次數來衡量。",
+      "starter": "Friendship",
+      "answer": "Friendship is not measured by how often people meet. Rather, it is measured by how well they support each other.",
+      "answerZh": "友誼並不是以人們見面的次數來衡量；更重要的是他們如何互相支持。",
+      "answerZhSource": "pdf",
+      "highlight": "Friendship is not measured by how often people meet. Rather, it is measured by how well they support each other."
+    },
+    {
+      "id": "ss18-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Reading is more than a school task; it is a way to discover new ideas.",
+      "promptZh": "閱讀不只是一項學校功課；它也是發現新思想的方法。",
+      "starter": "Reading",
+      "answer": "Reading is not simply a school task. Rather, it is a way to discover new ideas.",
+      "answerZh": "閱讀不只是一項學校功課；它其實是發現新思想的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading is not simply a school task. Rather, it is a way to discover new ideas."
+    },
+    {
+      "id": "ss18-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Success is not always the same as earning a lot of money. It may mean doing work that feels meaningful.",
+      "promptZh": "成功不一定等於賺取大量金錢。它也可以指從事有意義的工作。",
+      "starter": "Success",
+      "answer": "Success does not always mean earning a lot of money. Rather, it may mean doing work that feels meaningful.",
+      "answerZh": "成功不一定代表賺取大量金錢；它也可能代表從事有意義的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Success does not always mean earning a lot of money. Rather, it may mean doing work that feels meaningful."
+    },
+    {
+      "id": "ss18-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "A mistake does not prove that you are incapable. It gives you a chance to learn.",
+      "promptZh": "一次錯誤並不能證明你沒有能力。它給你一個學習的機會。",
+      "starter": "A",
+      "answer": "A mistake is not proof that you are incapable. Rather, it is a chance to learn.",
+      "answerZh": "一次錯誤並不能證明你沒有能力；相反，它是一個學習的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "A mistake is not proof that you are incapable. Rather, it is a chance to learn."
+    },
+    {
+      "id": "ss18-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The rain itself is not the real problem. Our lack of preparation is the real problem.",
+      "promptZh": "下雨本身並不是真正的問題。準備不足才是真正的問題。",
+      "starter": "The",
+      "answer": "The problem is not the rain itself. Rather, it is our lack of preparation.",
+      "answerZh": "問題並不在於下雨本身；真正的問題是我們準備不足。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem is not the rain itself. Rather, it is our lack of preparation."
+    },
+    {
+      "id": "ss18-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Good communication depends more on careful listening than on speaking the most.",
+      "promptZh": "良好的溝通更取決於仔細聆聽，而不是說得最多。",
+      "starter": "Good",
+      "answer": "Good communication is not about speaking the most. Rather, it is about listening carefully.",
+      "answerZh": "良好的溝通並不在於說得最多；它在於仔細聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Good communication is not about speaking the most. Rather, it is about listening carefully."
+    },
+    {
+      "id": "ss18-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13
+      },
+      "prompt": "The main purpose of this trip is to spend time with the family, not to go shopping.",
+      "promptZh": "這次旅程的主要目的是與家人共度時間，而不是購物。",
+      "starter": "This",
+      "answer": "This trip is not mainly for shopping. Rather, it is for spending time with the family.",
+      "answerZh": "這次旅程的主要目的不是購物；而是與家人共度時間。",
+      "answerZhSource": "pdf",
+      "highlight": "This trip is not mainly for shopping. Rather, it is for spending time with the family."
+    },
+    {
+      "id": "ss18-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The teacher was worried about the class’s progress, not angry with the students.",
+      "promptZh": "老師擔心全班的學習進度，並不是對學生感到生氣。",
+      "starter": "The",
+      "answer": "The teacher was not angry with the class. Rather, she was worried about their progress.",
+      "answerZh": "老師並不是對全班感到生氣；她其實是擔心學生的學習進度。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher was not angry with the class. Rather, she was worried about their progress."
+    },
+    {
+      "id": "ss18-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Ben needed time to think before replying; he was not ignoring the message.",
+      "promptZh": "本需要時間思考才回覆；他並不是故意不理會訊息。",
+      "starter": "Ben",
+      "answer": "Ben did not ignore the message. Rather, he needed time to think before replying.",
+      "answerZh": "本並不是故意不理會訊息；他只是需要時間思考才回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben did not ignore the message. Rather, he needed time to think before replying."
+    },
+    {
+      "id": "ss18-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The new rule is intended to keep everyone safe, not to punish students.",
+      "promptZh": "新規則是為了保障所有人的安全，而不是懲罰學生。",
+      "starter": "The",
+      "answer": "The new rule is not meant to punish students. Rather, it is meant to keep everyone safe.",
+      "answerZh": "新規則並不是為了懲罰學生；它是為了保障所有人的安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule is not meant to punish students. Rather, it is meant to keep everyone safe."
+    },
+    {
+      "id": "ss18-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "When choosing a career, we should consider whether the work suits us, not only its salary.",
+      "promptZh": "選擇職業時，我們應該考慮工作是否適合自己，而不應只考慮薪酬。",
+      "starter": "We",
+      "answer": "We should not choose a career only for its salary. Rather, we should consider whether the work suits us.",
+      "answerZh": "我們不應只因薪酬而選擇職業；相反，我們應該考慮工作是否適合自己。",
+      "answerZhSource": "pdf",
+      "highlight": "We should not choose a career only for its salary. Rather, we should consider whether the work suits us."
+    },
+    {
+      "id": "ss18-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The museum is more than a place for old objects. It helps people understand the past.",
+      "promptZh": "博物館不只是一個擺放古老物品的地方。它幫助人們了解過去。",
+      "starter": "The",
+      "answer": "The museum is not just a place for old objects. Rather, it helps people understand the past.",
+      "answerZh": "博物館不只是一個擺放古老物品的地方；它更能幫助人們了解過去。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is not just a place for old objects. Rather, it helps people understand the past."
+    },
+    {
+      "id": "ss18-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Chloe left the meeting because she felt unwell, not because she was bored.",
+      "promptZh": "克洛伊離開會議是因為感到不適，而不是因為感到沉悶。",
+      "starter": "Chloe",
+      "answer": "Chloe did not leave the meeting because she was bored. Rather, she left because she felt unwell.",
+      "answerZh": "克洛伊離開會議並不是因為感到沉悶；而是因為她感到不適。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe did not leave the meeting because she was bored. Rather, she left because she felt unwell."
+    },
+    {
+      "id": "ss18-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Homework is intended to help students practise what they have learnt, not simply to keep them busy.",
+      "promptZh": "家課是為了幫助學生練習所學的內容，而不只是讓他們有事情做。",
+      "starter": "Homework",
+      "answer": "Homework is not meant simply to keep students busy. Rather, it is meant to help them practise what they have learnt.",
+      "answerZh": "家課不只是為了讓學生有事情做；它是為了幫助他們練習所學的內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Homework is not meant simply to keep students busy. Rather, it is meant to help them practise what they have learnt."
+    },
+    {
+      "id": "ss18-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "The shop competes through excellent service, not by offering the lowest prices.",
+      "promptZh": "這間商店以優質服務競爭，而不是以最低價格競爭。",
+      "starter": "The",
+      "answer": "The shop does not compete by offering the lowest prices. Rather, it competes by providing excellent service.",
+      "answerZh": "這間商店並不是以最低價格競爭；它是以優質服務競爭。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop does not compete by offering the lowest prices. Rather, it competes by providing excellent service."
+    },
+    {
+      "id": "ss18-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The film is really about trust and responsibility, not simply romance.",
+      "promptZh": "這部電影真正探討的是信任和責任，而不只是一段愛情故事。",
+      "starter": "The",
+      "answer": "The film is not a simple love story. Rather, it is a story about trust and responsibility.",
+      "answerZh": "這部電影並不是一個簡單的愛情故事；它其實是一個關於信任和責任的故事。",
+      "answerZhSource": "pdf",
+      "highlight": "The film is not a simple love story. Rather, it is a story about trust and responsibility."
+    },
+    {
+      "id": "ss18-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "A team’s main aim should be to improve together, not only to win.",
+      "promptZh": "球隊的主要目標應該是共同進步，而不只是勝出比賽。",
+      "starter": "A",
+      "answer": "A team should not focus only on winning. Rather, it should focus on improving together.",
+      "answerZh": "球隊不應只專注於勝出比賽；相反，隊員應該專注於共同進步。",
+      "answerZhSource": "pdf",
+      "highlight": "A team should not focus only on winning. Rather, it should focus on improving together."
+    },
+    {
+      "id": "ss18-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "How much time we have matters less than how wisely we use it.",
+      "promptZh": "我們擁有多少時間並不是最重要；更重要的是我們如何善用時間。",
+      "starter": "The",
+      "answer": "The issue is less about how much time we have. Rather, it is about how wisely we use it.",
+      "answerZh": "問題不太在於我們擁有多少時間；而在於我們如何善用時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue is less about how much time we have. Rather, it is about how wisely we use it."
+    },
+    {
+      "id": "ss18-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The new app gives teachers another tool to support students; it does not replace them.",
+      "promptZh": "這個新應用程式為教師提供另一種支援學生的工具；它並不會取代教師。",
+      "starter": "The",
+      "answer": "The new app does not remove the need for teachers. Rather, it gives them another tool to support students.",
+      "answerZh": "這個新應用程式並不會令教師變得不再必要；它只是為教師提供另一種支援學生的工具。",
+      "answerZhSource": "pdf",
+      "highlight": "The new app does not remove the need for teachers. Rather, it gives them another tool to support students."
+    },
+    {
+      "id": "ss18-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Asking for help shows that a person understands their limits; it is not a sign of weakness.",
+      "promptZh": "尋求協助顯示一個人了解自己的能力限制；這並不是軟弱的表現。",
+      "starter": "Asking",
+      "answer": "Asking for help is not a sign of weakness. Rather, it shows that a person understands their limits.",
+      "answerZh": "尋求協助並不是軟弱的表現；相反，它顯示一個人了解自己的能力限制。",
+      "answerZhSource": "pdf",
+      "highlight": "Asking for help is not a sign of weakness. Rather, it shows that a person understands their limits."
+    },
+    {
+      "id": "ss18-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The manager was silent because she wanted more information, not because she agreed.",
+      "promptZh": "經理保持沉默，是因為她想得到更多資料，而不是因為她表示同意。",
+      "starter": "The",
+      "answer": "The manager’s silence did not mean that she agreed. Rather, it meant that she wanted more information.",
+      "answerZh": "經理保持沉默並不代表她同意；而是代表她想得到更多資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager’s silence did not mean that she agreed. Rather, it meant that she wanted more information."
+    },
+    {
+      "id": "ss18-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The park was redesigned to make the area easier for everyone to use, not simply to improve its appearance.",
+      "promptZh": "公園重新設計是為了讓所有人更容易使用該處，而不只是改善外觀。",
+      "starter": "The",
+      "answer": "The park was not redesigned simply to look attractive. Rather, it was redesigned to make the area easier for everyone to use.",
+      "answerZh": "公園重新設計不只是為了令外觀更吸引；而是為了讓所有人更容易使用該處。",
+      "answerZhSource": "pdf",
+      "highlight": "The park was not redesigned simply to look attractive. Rather, it was redesigned to make the area easier for everyone to use."
+    },
+    {
+      "id": "ss18-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "This meeting is intended to find a practical solution, not to blame anyone.",
+      "promptZh": "這次會議是為了找出實際的解決方法，而不是責怪任何人。",
+      "starter": "This",
+      "answer": "This meeting is not intended to blame anyone. Rather, it is intended to find a practical solution.",
+      "answerZh": "這次會議並不是為了責怪任何人；而是為了找出實際的解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "This meeting is not intended to blame anyone. Rather, it is intended to find a practical solution."
+    },
+    {
+      "id": "ss18-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The medicine helps the body recover gradually; it does not cure the illness immediately.",
+      "promptZh": "這種藥物幫助身體逐漸康復；它不會立即治癒疾病。",
+      "starter": "The",
+      "answer": "The medicine does not cure the illness immediately. Rather, it helps the body recover gradually.",
+      "answerZh": "這種藥物不會立即治癒疾病；它會幫助身體逐漸康復。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine does not cure the illness immediately. Rather, it helps the body recover gradually."
+    },
+    {
+      "id": "ss18-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Public transport benefits the whole city by reducing traffic, not only people without cars.",
+      "promptZh": "公共交通透過減少交通擠塞令整個城市受惠，而不只是令沒有私家車的人受惠。",
+      "starter": "Public",
+      "answer": "Public transport is not only useful for people without cars. Rather, it benefits the whole city by reducing traffic.",
+      "answerZh": "公共交通不只是對沒有私家車的人有用；它亦透過減少交通擠塞令整個城市受惠。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport is not only useful for people without cars. Rather, it benefits the whole city by reducing traffic."
+    },
+    {
+      "id": "ss18-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The article warns that technology must be used responsibly; it does not claim that technology is harmful.",
+      "promptZh": "這篇文章提醒人們必須負責任地使用科技；它並不是聲稱科技有害。",
+      "starter": "The",
+      "answer": "The article is not arguing that technology is harmful. Rather, it is warning that technology must be used responsibly.",
+      "answerZh": "這篇文章並不是主張科技有害；而是提醒人們必須負責任地使用科技。",
+      "answerZhSource": "pdf",
+      "highlight": "The article is not arguing that technology is harmful. Rather, it is warning that technology must be used responsibly."
+    },
+    {
+      "id": "ss18-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Careful thought, not fear, guided Maya’s decision.",
+      "promptZh": "引導瑪雅作出決定的是慎重思考，而不是恐懼。",
+      "starter": "Maya’s",
+      "answer": "Maya’s decision was not based on fear. Rather, it was based on careful thought.",
+      "answerZh": "瑪雅的決定並不是基於恐懼；而是基於慎重思考。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya’s decision was not based on fear. Rather, it was based on careful thought."
+    },
+    {
+      "id": "ss18-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Feedback should be used to improve our work, not treated as a personal attack.",
+      "promptZh": "意見應該用來改善我們的工作，而不應被視為針對個人的攻擊。",
+      "starter": "We",
+      "answer": "We should not treat feedback as a personal attack. Rather, we should use it to improve our work.",
+      "answerZh": "我們不應把意見視為針對個人的攻擊；相反，我們應該利用意見改善工作。",
+      "answerZhSource": "pdf",
+      "highlight": "We should not treat feedback as a personal attack. Rather, we should use it to improve our work."
+    },
+    {
+      "id": "ss18-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The lights were turned off to save electricity, not because the building was empty.",
+      "promptZh": "關燈是為了節省電力，而不是因為大樓裏沒有人。",
+      "starter": "The",
+      "answer": "The lights were not turned off because the building was empty. Rather, they were turned off to save electricity.",
+      "answerZh": "關燈並不是因為大樓裏沒有人；而是為了節省電力。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights were not turned off because the building was empty. Rather, they were turned off to save electricity."
+    },
+    {
+      "id": "ss18-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "A healthy diet is about making balanced choices most of the time, not avoiding every treat.",
+      "promptZh": "健康飲食是在大部分時間作出均衡的選擇，而不是完全避開所有小食。",
+      "starter": "A",
+      "answer": "A healthy diet does not require people to avoid every treat. Rather, it requires them to make balanced choices most of the time.",
+      "answerZh": "健康飲食並不要求人們完全避開所有小食；而是要求他們在大部分時間作出均衡的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "A healthy diet does not require people to avoid every treat. Rather, it requires them to make balanced choices most of the time."
+    },
+    {
+      "id": "ss18-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The library’s quiet rule is intended to give everyone a peaceful place to read, not to make visitors uncomfortable.",
+      "promptZh": "圖書館的安靜規則是為了讓所有人有平靜的閱讀環境，而不是令訪客感到不自在。",
+      "starter": "The",
+      "answer": "The library’s quiet rule is not intended to make visitors uncomfortable. Rather, it is intended to give everyone a peaceful place to read.",
+      "answerZh": "圖書館的安靜規則並不是為了令訪客感到不自在；而是為了讓所有人有平靜的閱讀環境。",
+      "answerZhSource": "pdf",
+      "highlight": "The library’s quiet rule is not intended to make visitors uncomfortable. Rather, it is intended to give everyone a peaceful place to read."
+    },
+    {
+      "id": "ss18-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The company should first understand what went wrong; a quick apology should not be its automatic response to every complaint.",
+      "promptZh": "公司應該先了解問題所在；面對每宗投訴時，不應自動作出草率的道歉。",
+      "starter": "The",
+      "answer": "The company should not respond to every complaint with a quick apology. Rather, it should first understand what went wrong.",
+      "answerZh": "公司不應面對每宗投訴時都立即草率道歉；相反，它應該先了解問題所在。",
+      "answerZhSource": "pdf",
+      "highlight": "The company should not respond to every complaint with a quick apology. Rather, it should first understand what went wrong."
+    },
+    {
+      "id": "ss18-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "A problem in the computer system caused the delay, not careless workers.",
+      "promptZh": "延誤是由電腦系統的問題造成，而不是由粗心的員工造成。",
+      "starter": "The",
+      "answer": "The delay was not caused by careless workers. Rather, it was caused by a problem in the computer system.",
+      "answerZh": "延誤並不是由粗心的員工造成；而是由電腦系統的問題造成。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay was not caused by careless workers. Rather, it was caused by a problem in the computer system."
+    },
+    {
+      "id": "ss18-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Learning a language is a personal process that takes regular practice, not a race against other students.",
+      "promptZh": "學習語言是一個需要定期練習的個人過程，而不是與其他學生競賽。",
+      "starter": "Learning",
+      "answer": "Learning a language is not a race against other students. Rather, it is a personal process that takes regular practice.",
+      "answerZh": "學習語言並不是與其他學生競賽；而是一個需要定期練習的個人過程。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning a language is not a race against other students. Rather, it is a personal process that takes regular practice."
+    },
+    {
+      "id": "ss18-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The coach changed the plan because the weather had become unsafe, not because he had lost confidence.",
+      "promptZh": "教練改變計劃是因為天氣變得不安全，而不是因為他失去信心。",
+      "starter": "The",
+      "answer": "The coach did not change the plan because he had lost confidence. Rather, he changed it because the weather had become unsafe.",
+      "answerZh": "教練改變計劃並不是因為失去信心；而是因為天氣變得不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach did not change the plan because he had lost confidence. Rather, he changed it because the weather had become unsafe."
+    },
+    {
+      "id": "ss18-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Community service is a way for people to contribute to society, not free labour.",
+      "promptZh": "社區服務是人們為社會作出貢獻的方法，而不是免費勞動。",
+      "starter": "Community",
+      "answer": "Community service should not be viewed as free labour. Rather, it should be viewed as a way for people to contribute to society.",
+      "answerZh": "社區服務不應被視為免費勞動；而應被視為人們為社會作出貢獻的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Community service should not be viewed as free labour. Rather, it should be viewed as a way for people to contribute to society."
+    },
+    {
+      "id": "ss18-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Change will happen. The important question is how we will respond to it.",
+      "promptZh": "改變將會發生。重要的問題是我們將如何回應改變。",
+      "starter": "The",
+      "answer": "The question is not whether change will happen. Rather, it is how we will respond when it does.",
+      "answerZh": "問題並不是改變會否發生；而是當改變發生時，我們將如何回應。",
+      "answerZhSource": "pdf",
+      "highlight": "The question is not whether change will happen. Rather, it is how we will respond when it does."
+    },
+    {
+      "id": "ss18-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "The school is introducing tablets to give students more ways to learn, not to replace books completely.",
+      "promptZh": "學校引入平板電腦是為了給學生更多學習方式，而不是完全取代書本。",
+      "starter": "The",
+      "answer": "The school is not introducing tablets to replace books completely. Rather, it is introducing them to give students more ways to learn.",
+      "answerZh": "學校引入平板電腦並不是為了完全取代書本；而是為了給學生更多學習方式。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is not introducing tablets to replace books completely. Rather, it is introducing them to give students more ways to learn."
+    },
+    {
+      "id": "ss18-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The hospital’s new system is designed to help staff identify urgent cases more quickly, not merely to reduce waiting times.",
+      "promptZh": "醫院的新系統旨在協助員工更快識別緊急個案，而不只是縮短輪候時間。",
+      "starter": "The",
+      "answer": "The hospital’s new system is not designed merely to reduce waiting times. Rather, it is designed to help staff identify urgent cases more quickly.",
+      "answerZh": "醫院的新系統不只是為了縮短輪候時間；而是為了協助員工更快識別緊急個案。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital’s new system is not designed merely to reduce waiting times. Rather, it is designed to help staff identify urgent cases more quickly."
+    },
+    {
+      "id": "ss18-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The campaign encourages people to reduce unnecessary plastic step by step; it does not ask them to stop using plastic overnight.",
+      "promptZh": "這項運動鼓勵人們逐步減少不必要的塑膠使用；它並沒有要求人們立即停止使用塑膠。",
+      "starter": "The",
+      "answer": "The campaign does not ask people to stop using plastic overnight. Rather, it encourages them to reduce unnecessary plastic step by step.",
+      "answerZh": "這項運動並沒有要求人們立即停止使用塑膠；而是鼓勵他們逐步減少不必要的塑膠使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The campaign does not ask people to stop using plastic overnight. Rather, it encourages them to reduce unnecessary plastic step by step."
+    },
+    {
+      "id": "ss18-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "A strong leader knows when to seek advice from others; leadership does not require making every decision alone.",
+      "promptZh": "優秀的領袖知道何時應該向別人尋求意見；領導並不代表必須獨自作出每一個決定。",
+      "starter": "A",
+      "answer": "A strong leader does not need to make every decision alone. Rather, a strong leader knows when to seek advice from others.",
+      "answerZh": "優秀的領袖不需要獨自作出每一個決定；相反，優秀的領袖知道何時應該向別人尋求意見。",
+      "answerZhSource": "pdf",
+      "highlight": "A strong leader does not need to make every decision alone. Rather, a strong leader knows when to seek advice from others."
+    },
+    {
+      "id": "ss18-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The report aims to explain honestly what has improved and what still needs attention, not to present the company as perfect.",
+      "promptZh": "這份報告旨在誠實說明哪些方面已有改善，以及哪些方面仍需關注，而不是把公司描述成完美無缺。",
+      "starter": "This",
+      "answer": "This report is not intended to present the company as perfect. Rather, it is intended to explain honestly what has improved and what still needs attention.",
+      "answerZh": "這份報告並不是為了把公司描述成完美無缺；而是為了誠實說明哪些方面已有改善，以及哪些方面仍需關注。",
+      "answerZhSource": "pdf",
+      "highlight": "This report is not intended to present the company as perfect. Rather, it is intended to explain honestly what has improved and what still needs attention."
+    },
+    {
+      "id": "ss18-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The real issue is which idea can be carried out fairly and safely, not which one sounds better.",
+      "promptZh": "真正的問題是哪一個構思能夠公平而安全地實行，而不是哪一個聽起來較好。",
+      "starter": "Our",
+      "answer": "Our disagreement is not really about which idea sounds better. Rather, it is about which idea can be carried out fairly and safely.",
+      "answerZh": "我們的分歧並不真正關乎哪一個構思聽起來較好；而是關乎哪一個構思能夠公平而安全地實行。",
+      "answerZhSource": "pdf",
+      "highlight": "Our disagreement is not really about which idea sounds better. Rather, it is about which idea can be carried out fairly and safely."
+    },
+    {
+      "id": "ss18-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The new road is one part of a wider plan to improve travel; it will not solve every transport problem in the district.",
+      "promptZh": "新道路是改善出行的整體計劃之一；它不會解決區內所有交通問題。",
+      "starter": "The",
+      "answer": "The new road will not solve every transport problem in the district. Rather, it will form one part of a wider plan to improve travel.",
+      "answerZh": "新道路不會解決區內所有交通問題；它只是改善出行的整體計劃之一。",
+      "answerZhSource": "pdf",
+      "highlight": "The new road will not solve every transport problem in the district. Rather, it will form one part of a wider plan to improve travel."
+    },
+    {
+      "id": "ss18-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "The research suggests that certain patterns of social-media use may affect teenagers’ well-being. It does not prove that social media always harms them.",
+      "promptZh": "研究顯示，某些使用社交媒體的模式可能影響青少年的身心健康。它並沒有證明社交媒體一定會傷害他們。",
+      "starter": "This",
+      "answer": "This research does not prove that social media always harms teenagers. Rather, it suggests that certain patterns of use may affect their well-being.",
+      "answerZh": "這項研究並沒有證明社交媒體一定會傷害青少年；它只是顯示某些使用模式可能影響他們的身心健康。",
+      "answerZhSource": "pdf",
+      "highlight": "This research does not prove that social media always harms teenagers. Rather, it suggests that certain patterns of use may affect their well-being."
+    },
+    {
+      "id": "ss18-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The policy’s long-term value to the community matters more than its immediate cost.",
+      "promptZh": "這項政策為社區帶來的長遠價值，比它目前的成本更重要。",
+      "starter": "A",
+      "answer": "A policy should not be judged only by its immediate cost. Rather, it should be judged by the long-term value it creates for the community.",
+      "answerZh": "評價一項政策時，不應只考慮它目前的成本；而應考慮它為社區創造的長遠價值。",
+      "answerZhSource": "pdf",
+      "highlight": "A policy should not be judged only by its immediate cost. Rather, it should be judged by the long-term value it creates for the community."
+    },
+    {
+      "id": "ss18-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Our lives should be shaped by the values and choices that give them meaning, not organised around other people’s expectations.",
+      "promptZh": "我們的人生應該由賦予生活意義的價值觀和選擇塑造，而不是圍繞別人的期望來安排。",
+      "starter": "Life",
+      "answer": "Life should not be organised around other people’s expectations. Rather, it should be shaped by the values and choices that give our own lives meaning.",
+      "answerZh": "人生不應圍繞別人的期望來安排；相反，它應該由賦予我們生活意義的價值觀和選擇塑造。",
+      "answerZhSource": "pdf",
+      "highlight": "Life should not be organised around other people’s expectations. Rather, it should be shaped by the values and choices that give our own lives meaning."
+    }
+  ]
+}

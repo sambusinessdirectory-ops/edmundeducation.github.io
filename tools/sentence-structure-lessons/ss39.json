@@ -1,0 +1,1090 @@
+{
+  "id": "ss39",
+  "order": 39,
+  "slug": "there-is-are-ing-scene",
+  "title": "「There is / are + -ing」句型",
+  "titleZh": "「There is / are + -ing」描述場景中正在發生的事情",
+  "titleEn": "Using There is / are + -ing to describe an unfolding scene",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 39 -「There is _ are + -ing」描述場景中正在發生的事情.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "There + be + noun phrase + verb-ing + other information",
+  "formulas": [
+    {
+      "id": "ss39-formula-core",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "There + be + noun phrase + verb-ing + other information"
+    },
+    {
+      "id": "ss39-formula-place-time",
+      "labelEn": "Fronted place or time",
+      "labelZh": "地點或時間置前",
+      "formula": "Place / Time + there + be + noun phrase + verb-ing + other information"
+    },
+    {
+      "id": "ss39-formula-present-singular",
+      "labelEn": "Present: singular or uncountable",
+      "labelZh": "現在：單數或不可數",
+      "formula": "There is + singular / uncountable noun + verb-ing"
+    },
+    {
+      "id": "ss39-formula-present-plural",
+      "labelEn": "Present: plural",
+      "labelZh": "現在：複數",
+      "formula": "There are + plural noun + verb-ing"
+    },
+    {
+      "id": "ss39-formula-past-singular",
+      "labelEn": "Past: singular or uncountable",
+      "labelZh": "過去：單數或不可數",
+      "formula": "There was + singular / uncountable noun + verb-ing"
+    },
+    {
+      "id": "ss39-formula-past-plural",
+      "labelEn": "Past: plural",
+      "labelZh": "過去：複數",
+      "formula": "There were + plural noun + verb-ing"
+    }
+  ],
+  "example": "There were a lot of people watching the show.",
+  "exampleZh": "當時有很多人在觀看表演。",
+  "examples": [
+    {
+      "id": "ss39-example-01",
+      "en": "There were a lot of people watching the show.",
+      "zh": "當時有很多人在觀看表演。",
+      "highlight": "There were a lot of people watching"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型先帶出場景中出現的人、動物或事物，再立即說明對方正在做甚麼。"
+  },
+  "rules": [
+    {
+      "id": "ss39-rule-01",
+      "en": "The verb be agrees with the noun after it.",
+      "zh": "Be 動詞須與後面的名詞配合：單數名詞或不可數名詞使用 is / was；複數名詞使用 are / were。",
+      "examples": [
+        "There is / was a boy waiting outside.",
+        "There are / were three students waiting outside.",
+        "There is a group of children playing outside.",
+        "There are a number of residents asking questions."
+      ]
+    },
+    {
+      "id": "ss39-rule-02",
+      "en": "The noun performs the -ing action.",
+      "zh": "正在進行 -ing 動作的是名詞，而不是 there；there 只用來帶出場景中有甚麼人或事物。",
+      "examples": [
+        "There is a girl singing on the stage."
+      ]
+    },
+    {
+      "id": "ss39-rule-03",
+      "en": "A place or time phrase may come before or after the structure.",
+      "zh": "地點或時間可以放在句末，也可以放在句首。",
+      "examples": [
+        "There are two children playing in the park.",
+        "In the park, there are two children playing."
+      ]
+    },
+    {
+      "id": "ss39-rule-04",
+      "en": "Negative and question forms are allowed.",
+      "zh": "可以使用否定句和問句形式。",
+      "examples": [
+        "There isn't anyone waiting outside.",
+        "There aren't any buses running now.",
+        "Is there anyone waiting outside?",
+        "Are there any students studying in the library?"
+      ]
+    },
+    {
+      "id": "ss39-rule-05",
+      "en": "Do not omit the noun before the -ing verb.",
+      "zh": "Ing 動詞前必須有一個正在進行動作的人或事物；下雨應說 It is raining，而不是 There is raining。",
+      "examples": [
+        "It is raining.",
+        "There is water dripping from the ceiling."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss39-benefit-01",
+      "en": "It introduces a scene clearly.",
+      "zh": "先清楚交代場景中有甚麼人或事物，再說明正在發生的動作。"
+    },
+    {
+      "id": "ss39-benefit-02",
+      "en": "It combines presence and action in one sentence.",
+      "zh": "不需要先寫某人在場，再另寫一句說明動作；可把兩項資料合併成一句。"
+    },
+    {
+      "id": "ss39-benefit-03",
+      "en": "It is useful for describing pictures, places and events.",
+      "zh": "適合描述圖片、街道、課室、活動現場或眼前正在發生的事情。"
+    },
+    {
+      "id": "ss39-benefit-04",
+      "en": "It helps you introduce new people or things naturally.",
+      "zh": "可以自然地把新人物或事物帶入場景，特別適合開始描述一幅畫面。"
+    },
+    {
+      "id": "ss39-benefit-05",
+      "en": "It gives you more ways to organise a sentence.",
+      "zh": "可以用 There 開始，也可以先寫地點或時間，使句首更有變化。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using there + be + noun phrase + -ing to describe who or what is present and what is happening.",
+      "Keep the original tense and meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 there + be + 名詞詞組 + -ing 改寫以下句子，以描述場景中有誰或有甚麼正在進行某個動作。",
+      "答案須保留原句的時態和意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss39-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "A boy is waiting outside the classroom.",
+      "promptZh": "一名男孩正在課室外等候。",
+      "starter": "There",
+      "answer": "There is a boy waiting outside the classroom.",
+      "answerZh": "課室外有一名男孩正在等候。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a boy waiting outside the classroom."
+    },
+    {
+      "id": "ss39-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Under the table, two dogs are sleeping.",
+      "promptZh": "兩隻狗正在桌子下面睡覺。",
+      "starter": "Under",
+      "answer": "Under the table, there are two dogs sleeping.",
+      "answerZh": "桌子下面有兩隻狗正在睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the table, there are two dogs sleeping."
+    },
+    {
+      "id": "ss39-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Who was talking to the receptionist? A woman was talking to her.",
+      "promptZh": "誰當時正在跟接待員交談？一名女子正在跟她交談。",
+      "starter": "There",
+      "answer": "There was a woman talking to the receptionist.",
+      "answerZh": "當時有一名女子正在跟接待員交談。",
+      "answerZhSource": "pdf",
+      "highlight": "There was a woman talking to the receptionist."
+    },
+    {
+      "id": "ss39-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Many people were watching the show.",
+      "promptZh": "很多人當時正在觀看表演。",
+      "starter": "There",
+      "answer": "There were many people watching the show.",
+      "answerZh": "當時有很多人在觀看表演。",
+      "answerZhSource": "pdf",
+      "highlight": "There were many people watching the show."
+    },
+    {
+      "id": "ss39-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Someone is knocking at the door.",
+      "promptZh": "有人正在敲門。",
+      "starter": "At",
+      "answer": "At the door, there is someone knocking.",
+      "answerZh": "門外有人正在敲門。",
+      "answerZhSource": "pdf",
+      "highlight": "At the door, there is someone knocking."
+    },
+    {
+      "id": "ss39-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "In the library, some students are reading.",
+      "promptZh": "一些學生正在圖書館裏閱讀。",
+      "starter": "In",
+      "answer": "In the library, there are some students reading.",
+      "answerZh": "圖書館裏有一些學生正在閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "In the library, there are some students reading."
+    },
+    {
+      "id": "ss39-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Near the entrance, a taxi is waiting.",
+      "promptZh": "一輛的士正在入口附近等候。",
+      "starter": "Near",
+      "answer": "Near the entrance, there is a taxi waiting.",
+      "answerZh": "入口附近有一輛的士正在等候。",
+      "answerZhSource": "pdf",
+      "highlight": "Near the entrance, there is a taxi waiting."
+    },
+    {
+      "id": "ss39-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 14
+      },
+      "prompt": "In the park, three children were playing.",
+      "promptZh": "三名兒童當時正在公園裏玩耍。",
+      "starter": "In",
+      "answer": "In the park, there were three children playing.",
+      "answerZh": "當時公園裏有三名兒童正在玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "In the park, there were three children playing."
+    },
+    {
+      "id": "ss39-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "A bird is sitting on the window ledge.",
+      "promptZh": "一隻鳥正停在窗台上。",
+      "starter": "On",
+      "answer": "On the window ledge, there is a bird sitting.",
+      "answerZh": "窗台上有一隻鳥停着。",
+      "answerZhSource": "pdf",
+      "highlight": "On the window ledge, there is a bird sitting."
+    },
+    {
+      "id": "ss39-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Several customers are queuing at the counter.",
+      "promptZh": "幾名顧客正在櫃檯前排隊。",
+      "starter": "At",
+      "answer": "At the counter, there are several customers queuing.",
+      "answerZh": "櫃檯前有幾名顧客正在排隊。",
+      "answerZhSource": "pdf",
+      "highlight": "At the counter, there are several customers queuing."
+    },
+    {
+      "id": "ss39-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "In the corridor, a man is carrying a large box.",
+      "promptZh": "一名男子正在走廊裏搬運一個大箱子。",
+      "starter": "In",
+      "answer": "In the corridor, there is a man carrying a large box.",
+      "answerZh": "走廊裏有一名男子正在搬運一個大箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "In the corridor, there is a man carrying a large box."
+    },
+    {
+      "id": "ss39-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "At the bus stop, four people are checking the timetable.",
+      "promptZh": "四個人正在巴士站查看時間表。",
+      "starter": "At",
+      "answer": "At the bus stop, there are four people checking the timetable.",
+      "answerZh": "巴士站有四個人正在查看時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "At the bus stop, there are four people checking the timetable."
+    },
+    {
+      "id": "ss39-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Who is standing by the gate? A security guard is standing there.",
+      "promptZh": "誰正站在閘門旁邊？一名保安員正站在那裏。",
+      "starter": "There",
+      "answer": "There is a security guard standing by the gate.",
+      "answerZh": "閘門旁邊有一名保安員站着。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a security guard standing by the gate."
+    },
+    {
+      "id": "ss39-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "What is happening in the kitchen? A pot is boiling on the stove.",
+      "promptZh": "廚房裏正在發生甚麼事？爐上有一個鍋正在沸騰。",
+      "starter": "In",
+      "answer": "In the kitchen, there is a pot boiling on the stove.",
+      "answerZh": "廚房的爐上有一個鍋正在沸騰。",
+      "answerZhSource": "pdf",
+      "highlight": "In the kitchen, there is a pot boiling on the stove."
+    },
+    {
+      "id": "ss39-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Near our building, a few workers were repairing the road.",
+      "promptZh": "幾名工人當時正在我們的大廈附近修路。",
+      "starter": "Near",
+      "answer": "Near our building, there were a few workers repairing the road.",
+      "answerZh": "當時我們的大廈附近有幾名工人正在修路。",
+      "answerZhSource": "pdf",
+      "highlight": "Near our building, there were a few workers repairing the road."
+    },
+    {
+      "id": "ss39-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "No one is using the computer at the moment.",
+      "promptZh": "目前沒有人正在使用這部電腦。",
+      "starter": "At",
+      "answer": "At the moment, there isn't anyone using the computer.",
+      "answerZh": "目前沒有任何人正在使用這部電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "At the moment, there isn't anyone using the computer."
+    },
+    {
+      "id": "ss39-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "promptZhPage": 7
+      },
+      "prompt": "Only one passenger was waiting for the last bus.",
+      "promptZh": "當時只有一名乘客正在等候尾班巴士。",
+      "starter": "There",
+      "answer": "There was only one passenger waiting for the last bus.",
+      "answerZh": "當時只有一名乘客正在等候尾班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "There was only one passenger waiting for the last bus."
+    },
+    {
+      "id": "ss39-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "A group of children is chasing a ball in the playground.",
+      "promptZh": "一群兒童正在操場上追逐一個球。",
+      "starter": "In",
+      "answer": "In the playground, there is a group of children chasing a ball.",
+      "answerZh": "操場上有一群兒童正在追逐一個球。",
+      "answerZhSource": "pdf",
+      "highlight": "In the playground, there is a group of children chasing a ball."
+    },
+    {
+      "id": "ss39-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The photo shows several tourists taking pictures of the harbour.",
+      "promptZh": "照片顯示幾名遊客正在拍攝海港。",
+      "starter": "In",
+      "answer": "In the photo, there are several tourists taking pictures of the harbour.",
+      "answerZh": "照片中有幾名遊客正在拍攝海港。",
+      "answerZhSource": "pdf",
+      "highlight": "In the photo, there are several tourists taking pictures of the harbour."
+    },
+    {
+      "id": "ss39-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "In the next room, a baby is crying while two adults are trying to calm it.",
+      "promptZh": "隔壁房間裏，一名嬰兒正在哭，而兩名成人正嘗試安撫嬰兒。",
+      "starter": "In",
+      "answer": "In the next room, there is a baby crying while two adults are trying to calm it.",
+      "answerZh": "隔壁房間裏有一名嬰兒正在哭，而兩名成人正嘗試安撫嬰兒。",
+      "answerZhSource": "pdf",
+      "highlight": "In the next room, there is a baby crying while two adults are trying to calm it."
+    },
+    {
+      "id": "ss39-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "A cyclist in a bright jacket is approaching the crossing.",
+      "promptZh": "一名穿着鮮色外套的單車手正接近行人過路處。",
+      "starter": "There",
+      "answer": "There is a cyclist in a bright jacket approaching the crossing.",
+      "answerZh": "有一名穿着鮮色外套的單車手正接近行人過路處。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a cyclist in a bright jacket approaching the crossing."
+    },
+    {
+      "id": "ss39-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Five volunteers who are collecting donations are outside the station.",
+      "promptZh": "五名正在籌款的義工身處車站外。",
+      "starter": "Outside",
+      "answer": "Outside the station, there are five volunteers collecting donations.",
+      "answerZh": "車站外有五名義工正在籌款。",
+      "answerZhSource": "pdf",
+      "highlight": "Outside the station, there are five volunteers collecting donations."
+    },
+    {
+      "id": "ss39-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "A strange noise is coming from the engine.",
+      "promptZh": "引擎正傳出奇怪的聲音。",
+      "starter": "There",
+      "answer": "There is a strange noise coming from the engine.",
+      "answerZh": "引擎正傳出一陣奇怪的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a strange noise coming from the engine."
+    },
+    {
+      "id": "ss39-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Smoke was rising from the empty building.",
+      "promptZh": "煙霧當時正從空置大廈升起。",
+      "starter": "There",
+      "answer": "There was smoke rising from the empty building.",
+      "answerZh": "當時有煙霧正從空置大廈升起。",
+      "answerZhSource": "pdf",
+      "highlight": "There was smoke rising from the empty building."
+    },
+    {
+      "id": "ss39-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "My inbox contains several emails that are waiting to be answered.",
+      "promptZh": "我的收件箱內有幾封仍待回覆的電郵。",
+      "starter": "In",
+      "answer": "In my inbox, there are several emails waiting to be answered.",
+      "answerZh": "我的收件箱內有幾封電郵正等候回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "In my inbox, there are several emails waiting to be answered."
+    },
+    {
+      "id": "ss39-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "After school, two students remain in the classroom, working quietly.",
+      "promptZh": "放學後，兩名學生仍留在課室裏安靜地學習。",
+      "starter": "After",
+      "answer": "After school, there are still two students working quietly in the classroom.",
+      "answerZh": "放學後，課室裏仍有兩名學生正在安靜地學習。",
+      "answerZhSource": "pdf",
+      "highlight": "After school, there are still two students working quietly in the classroom."
+    },
+    {
+      "id": "ss39-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Not a single light was shining in the street.",
+      "promptZh": "當時街上沒有一盞燈亮着。",
+      "starter": "There",
+      "answer": "There wasn't a single light shining in the street.",
+      "answerZh": "當時街上沒有任何一盞燈亮着。",
+      "answerZhSource": "pdf",
+      "highlight": "There wasn't a single light shining in the street."
+    },
+    {
+      "id": "ss39-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Are any staff members helping visitors at the information desk?",
+      "promptZh": "有沒有職員正在詢問處協助訪客？",
+      "starter": "Are",
+      "answer": "Are there any staff members helping visitors at the information desk?",
+      "answerZh": "詢問處有沒有職員正在協助訪客？",
+      "answerZhSource": "pdf",
+      "highlight": "Are there any staff members helping visitors at the information desk?"
+    },
+    {
+      "id": "ss39-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "How many teams are practising on the field?",
+      "promptZh": "有多少支隊伍正在球場上練習？",
+      "starter": "How",
+      "answer": "How many teams are there practising on the field?",
+      "answerZh": "球場上有多少支隊伍正在練習？",
+      "answerZhSource": "pdf",
+      "highlight": "How many teams are there practising on the field?"
+    },
+    {
+      "id": "ss39-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "A delivery van was blocking the narrow street when we arrived.",
+      "promptZh": "我們到達時，一輛送貨客貨車正阻塞着狹窄的街道。",
+      "starter": "When",
+      "answer": "When we arrived, there was a delivery van blocking the narrow street.",
+      "answerZh": "我們到達時，有一輛送貨客貨車正阻塞着狹窄的街道。",
+      "answerZhSource": "pdf",
+      "highlight": "When we arrived, there was a delivery van blocking the narrow street."
+    },
+    {
+      "id": "ss39-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "A small crab is hiding under the rock, although the crab is difficult to see.",
+      "promptZh": "一隻小螃蟹正躲在石頭下面，雖然這隻螃蟹很難被看見。",
+      "starter": "There",
+      "answer": "There is a small crab hiding under the rock, although the crab is difficult to see.",
+      "answerZh": "石頭下面有一隻小螃蟹躲着，雖然這隻小螃蟹很難被看見。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a small crab hiding under the rock, although the crab is difficult to see."
+    },
+    {
+      "id": "ss39-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The manager noticed three employees who were waiting outside his office.",
+      "promptZh": "經理注意到三名正在他辦公室外等候的員工。",
+      "starter": "The",
+      "answer": "The manager noticed that there were three employees waiting outside his office.",
+      "answerZh": "經理注意到他的辦公室外有三名員工正在等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager noticed that there were three employees waiting outside his office."
+    },
+    {
+      "id": "ss39-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "When I arrived, two people were arguing near the lift.",
+      "promptZh": "我到達時，兩個人正在升降機附近爭吵。",
+      "starter": "When",
+      "answer": "When I arrived, there were two people arguing near the lift.",
+      "answerZh": "我到達時，升降機附近有兩個人正在爭吵。",
+      "answerZhSource": "pdf",
+      "highlight": "When I arrived, there were two people arguing near the lift."
+    },
+    {
+      "id": "ss39-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Water is dripping from the ceiling above the stairs.",
+      "promptZh": "樓梯上方的天花板正在滴水。",
+      "starter": "Above",
+      "answer": "Above the stairs, there is water dripping from the ceiling.",
+      "answerZh": "樓梯上方有水正從天花板滴下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Above the stairs, there is water dripping from the ceiling."
+    },
+    {
+      "id": "ss39-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "No buses are running on this route after midnight.",
+      "promptZh": "午夜後，這條路線沒有巴士行駛。",
+      "starter": "After",
+      "answer": "After midnight, there aren't any buses running on this route.",
+      "answerZh": "午夜後，這條路線沒有任何巴士行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "After midnight, there aren't any buses running on this route."
+    },
+    {
+      "id": "ss39-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Is anyone waiting to speak to the doctor?",
+      "promptZh": "有沒有人正在等候與醫生交談？",
+      "starter": "Is",
+      "answer": "Is there anyone waiting to speak to the doctor?",
+      "answerZh": "有沒有人正在等候與醫生交談？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anyone waiting to speak to the doctor?"
+    },
+    {
+      "id": "ss39-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Were many cars travelling through the tunnel at that time?",
+      "promptZh": "當時有很多汽車正在駛經隧道嗎？",
+      "starter": "Were",
+      "answer": "Were there many cars travelling through the tunnel at that time?",
+      "answerZh": "當時有很多汽車正在駛經隧道嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Were there many cars travelling through the tunnel at that time?"
+    },
+    {
+      "id": "ss39-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Before the shop opened, a long queue was forming outside the shop.",
+      "promptZh": "店舖開門前，門外正逐漸排起一條長龍。",
+      "starter": "Before",
+      "answer": "Before the shop opened, there was a long queue forming outside the shop.",
+      "answerZh": "店舖開門前，門外正逐漸排起一條長龍。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the shop opened, there was a long queue forming outside the shop."
+    },
+    {
+      "id": "ss39-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "People are using the meeting room, so we cannot go in yet.",
+      "promptZh": "有人正在使用會議室，所以我們暫時不能進去。",
+      "starter": "There",
+      "answer": "There are people using the meeting room, so we cannot go in yet.",
+      "answerZh": "會議室裏有人正在使用該房間，所以我們暫時不能進去。",
+      "answerZhSource": "pdf",
+      "highlight": "There are people using the meeting room, so we cannot go in yet."
+    },
+    {
+      "id": "ss39-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "promptZhPage": 11
+      },
+      "prompt": "While the teachers were finishing the meeting, several parents were waiting.",
+      "promptZh": "老師們快將完成會議時，幾名家長正在等候。",
+      "starter": "While",
+      "answer": "While the teachers were finishing the meeting, there were several parents waiting.",
+      "answerZh": "老師們快將完成會議時，有幾名家長正在等候。",
+      "answerZhSource": "pdf",
+      "highlight": "While the teachers were finishing the meeting, there were several parents waiting."
+    },
+    {
+      "id": "ss39-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "A member of staff is helping passengers whose flights have been delayed.",
+      "promptZh": "一名職員正在協助航班延誤的乘客。",
+      "starter": "There",
+      "answer": "There is a member of staff helping passengers whose flights have been delayed.",
+      "answerZh": "有一名職員正在協助航班延誤的乘客。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a member of staff helping passengers whose flights have been delayed."
+    },
+    {
+      "id": "ss39-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "After class, several students are still in the computer room, preparing their presentations.",
+      "promptZh": "下課後，幾名學生仍在電腦室準備簡報。",
+      "starter": "After",
+      "answer": "After class, there are still several students preparing their presentations in the computer room.",
+      "answerZh": "下課後，電腦室裏仍有幾名學生正在準備簡報。",
+      "answerZhSource": "pdf",
+      "highlight": "After class, there are still several students preparing their presentations in the computer room."
+    },
+    {
+      "id": "ss39-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Before the patients entered the treatment room, a nurse was checking their names.",
+      "promptZh": "病人進入治療室前，一名護士正在核對他們的姓名。",
+      "starter": "Before",
+      "answer": "Before the patients entered the treatment room, there was a nurse checking their names.",
+      "answerZh": "病人進入治療室前，有一名護士正在核對他們的姓名。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the patients entered the treatment room, there was a nurse checking their names."
+    },
+    {
+      "id": "ss39-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "While the office is closed, two technicians are testing the new system.",
+      "promptZh": "辦公室關閉期間，兩名技術員正在測試新系統。",
+      "starter": "While",
+      "answer": "While the office is closed, there are two technicians testing the new system.",
+      "answerZh": "辦公室關閉期間，有兩名技術員正在測試新系統。",
+      "answerZhSource": "pdf",
+      "highlight": "While the office is closed, there are two technicians testing the new system."
+    },
+    {
+      "id": "ss39-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "No one was directing traffic at the junction when the lights stopped working.",
+      "promptZh": "交通燈停止運作時，沒有人正在路口指揮交通。",
+      "starter": "When",
+      "answer": "When the lights stopped working, there wasn't anyone directing traffic at the junction.",
+      "answerZh": "交通燈停止運作時，路口沒有任何人正在指揮交通。",
+      "answerZhSource": "pdf",
+      "highlight": "When the lights stopped working, there wasn't anyone directing traffic at the junction."
+    },
+    {
+      "id": "ss39-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "A number of local residents are asking for safer crossings near the school.",
+      "promptZh": "多名區內居民正要求在學校附近設置更安全的行人過路設施。",
+      "starter": "There",
+      "answer": "There are a number of local residents asking for safer crossings near the school.",
+      "answerZh": "有多名區內居民正要求在學校附近設置更安全的行人過路設施。",
+      "answerZhSource": "pdf",
+      "highlight": "There are a number of local residents asking for safer crossings near the school."
+    },
+    {
+      "id": "ss39-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Because the lift was out of order, a delivery driver was carrying several heavy boxes up the stairs.",
+      "promptZh": "由於升降機故障，一名送貨司機正把幾個重箱子搬上樓梯。",
+      "starter": "Because",
+      "answer": "Because the lift was out of order, there was a delivery driver carrying several heavy boxes up the stairs.",
+      "answerZh": "由於升降機故障，當時有一名送貨司機正把幾個重箱子搬上樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the lift was out of order, there was a delivery driver carrying several heavy boxes up the stairs."
+    },
+    {
+      "id": "ss39-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Are any volunteers giving directions to visitors at the main entrance?",
+      "promptZh": "有沒有義工正在正門為訪客指路？",
+      "starter": "Are",
+      "answer": "Are there any volunteers giving directions to visitors at the main entrance?",
+      "answerZh": "正門有沒有義工正在為訪客指路？",
+      "answerZhSource": "pdf",
+      "highlight": "Are there any volunteers giving directions to visitors at the main entrance?"
+    },
+    {
+      "id": "ss39-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "More than a hundred people were taking part in the charity walk despite the heavy rain.",
+      "promptZh": "儘管下着大雨，超過一百人當時仍在參加慈善步行。",
+      "starter": "Despite",
+      "answer": "Despite the heavy rain, there were more than a hundred people taking part in the charity walk.",
+      "answerZh": "儘管下着大雨，當時仍有超過一百人正在參加慈善步行。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the heavy rain, there were more than a hundred people taking part in the charity walk."
+    },
+    {
+      "id": "ss39-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "After the storm, several teams from different services are working together so that they can restore electricity to the neighbourhood.",
+      "promptZh": "風暴過後，來自不同部門的幾支隊伍正合作，以恢復區內的電力供應。",
+      "starter": "After",
+      "answer": "After the storm, there are several teams from different services working together to restore electricity to the neighbourhood.",
+      "answerZh": "風暴過後，有來自不同部門的幾支隊伍正合作，以恢復區內的電力供應。",
+      "answerZhSource": "pdf",
+      "highlight": "After the storm, there are several teams from different services working together to restore electricity to the neighbourhood."
+    }
+  ]
+}

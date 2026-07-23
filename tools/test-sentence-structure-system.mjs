@@ -9,7 +9,19 @@ import vm from "node:vm";
 const root = new URL("../", import.meta.url);
 const read = (name) => readFile(new URL(name, root), "utf8");
 
-const [dataSource, frontendSource, html, css, indexHtml, workerSource, supabaseSchema, correctionMigration, lessonMigration] = await Promise.all([
+const [
+  expansionSource,
+  dataSource,
+  frontendSource,
+  html,
+  css,
+  indexHtml,
+  workerSource,
+  supabaseSchema,
+  correctionMigration,
+  lessonMigration
+] = await Promise.all([
+  read("sentence-structure-lessons-5-39.js"),
   read("sentence-structure-data.js"),
   read("sentence-structure.js"),
   read("sentence-structure.html"),
@@ -18,7 +30,7 @@ const [dataSource, frontendSource, html, css, indexHtml, workerSource, supabaseS
   read("workers/sentence-structure/src/index.js"),
   read("supabase-sentence-structure.sql"),
   read("supabase-sentence-structure-correction-state.sql"),
-  read("supabase-sentence-structure-lessons-3-4.sql")
+  read("supabase-sentence-structure-lessons-5-39.sql")
 ]);
 
 const tests = [];
@@ -29,6 +41,7 @@ const normalText = (value) => String(value ?? "").trim();
 function loadContent() {
   const sandbox = { window: {} };
   vm.createContext(sandbox);
+  vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-39.js" });
   vm.runInContext(dataSource, sandbox, { filename: "sentence-structure-data.js" });
   return sandbox.window.EDMUND_SENTENCE_STRUCTURE_DATA;
 }
@@ -36,6 +49,12 @@ function loadContent() {
 const content = loadContent();
 const lessons = content.lessons;
 const allQuestions = lessons.flatMap((lesson) => lesson.questions);
+const importedLessonSources = await Promise.all(
+  Array.from({ length: 35 }, (_, index) => index + 5)
+    .map(async (number) => JSON.parse(
+      await read(`tools/sentence-structure-lessons/ss${String(number).padStart(2, "0")}.json`)
+    ))
+);
 
 function makeElement(seed = {}) {
   const attributes = new Map();
@@ -98,7 +117,7 @@ function createFrontendHarness() {
     "[data-admin-students-button]", "[data-logout]", "[data-login-form]",
     "[data-login-button]", "[data-login-status]", "#sentence-structure-username",
     "#sentence-structure-password", "[data-password-toggle]", "[data-dashboard-welcome]",
-    "[data-lesson-choice-grid]", "[data-history-list]", "[data-lesson-round]",
+    "[data-lesson-count]", "[data-lesson-choice-grid]", "[data-history-list]", "[data-lesson-round]",
     "[data-lesson-kicker]", "[data-lesson-title]", "[data-lesson-stepper]",
     "[data-lesson-content]", "[data-bookmark-list]", "[data-admin-search]",
     "[data-admin-student-count]", "[data-admin-student-list]", "[data-admin-detail]",
@@ -214,10 +233,11 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   syncExerciseButtons, submitExercise, startNextRound,
   startCorrectionRound, exitCorrectionRound, toggleCorrectCard, toggleAllCorrectCards,
   wrongQuestionIds, correctionQuestions, submissionQuestions,
-  highlightedAnswerHtml, normalizeAnswer, answersMatch,
+  highlightedAnswerHtml, questionAnswerParts, storedAnswerPartValues,
+  combinedAnswerPartValue, suggestedAnswerHtml, normalizeAnswer, answersMatch,
   normalizeBookmark, normalizeAttempt, attemptHistoryHtml,
-  renderBookmarks, toggleBookmark, renderAdminStudents, openAdminStudent,
-  serializeExerciseResult
+  renderBookmarks, bookmarkAnswerAvailable, toggleBookmark, renderAdminStudents, openAdminStudent,
+  serializeExerciseResult, persistExercise
 };
 `);
   vm.runInContext(instrumented, context, { filename: "sentence-structure.js" });
@@ -234,20 +254,25 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   };
 }
 
-test("data contract contains four complete 50-question lessons", () => {
+test("data contract contains 39 complete 50-question lessons", () => {
   assert.ok(Object.isFrozen(content), "top-level content should be immutable");
   assert.equal(content.version, 1);
-  assert.equal(lessons.length, 4);
-  assert.deepEqual(Array.from(lessons, (lesson) => lesson.id), ["ss1", "ss2", "ss3", "ss4"]);
-  assert.deepEqual(Array.from(lessons, (lesson) => lesson.questions.length), [50, 50, 50, 50]);
-  assert.equal(allQuestions.length, 200);
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 200);
-  assert.deepEqual(Array.from(lessons, (lesson) => lesson.source.file), [
-    "Sentence Structure 1 - 「to + 動詞」表達目的.pdf",
-    "Sentence Structure 2 - Adjective to Adjective+Noun.pdf",
-    "Sentence Structure 3.pdf",
-    "Sentence Structure 4.pdf"
-  ]);
+  const expectedIds = Array.from({ length: 39 }, (_, index) => `ss${index + 1}`);
+  assert.equal(lessons.length, expectedIds.length);
+  assert.deepEqual(Array.from(lessons, (lesson) => lesson.id), expectedIds);
+  assert.deepEqual(
+    Array.from(lessons, (lesson) => lesson.questions.length),
+    Array.from({ length: expectedIds.length }, () => 50)
+  );
+  assert.equal(allQuestions.length, 1950);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 1950);
+  assert.equal(new Set(lessons.map((lesson) => lesson.source.file)).size, expectedIds.length);
+  assert.ok(lessons.every((lesson) => lesson.source.file.endsWith(".pdf")));
+  assert.deepEqual(
+    JSON.parse(JSON.stringify(lessons.slice(4))),
+    importedLessonSources,
+    "the public expansion bundle must match its 35 auditable JSON sources"
+  );
 });
 
 test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () => {
@@ -263,6 +288,10 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   assert.match(supabaseSchema, /v_key_count not in \(6, 9\)/, "Supabase must accept legacy and correction-state results");
   assert.match(frontendSource, /rounds: state\.exercise\.rounds\.slice\(-250\)/, "client history must respect the server round limit");
   assert.match(frontendSource, /maxlength="1000"[^>]+data-answer-input=/, "answer inputs must respect the server answer limit");
+  assert.match(frontendSource, /const MAX_BOOKMARKS = 2000;/, "frontend bookmark capacity must cover the expanded corpus");
+  assert.match(workerSource, /const MAX_BOOKMARKS = 2000;/, "Worker bookmark capacity must match the frontend");
+  assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 2000/, "Supabase bookmark capacity must match the frontend");
+  assert.match(supabaseSchema, /octet_length\(p_bookmarks::text\) > 262144/, "Supabase bookmark payload size must cover the expanded corpus");
 
   const functionSql = (source, functionName) => {
     const functionMarker = `create or replace function public.${functionName}(`;
@@ -272,14 +301,23 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
     assert.ok(end > start, `${functionName} is incomplete`);
     return source.slice(start, end + 4).trim();
   };
-  assert.equal(
-    functionSql(correctionMigration, "_sentence_structure_result_valid"),
-    functionSql(supabaseSchema, "_sentence_structure_result_valid"),
-    "correction-state migration must match the base schema validator"
+  const historicalCorrectionValidator = functionSql(
+    correctionMigration,
+    "_sentence_structure_result_valid"
   );
+  for (const key of ["correctionMode", "correctionIds", "collapsedCorrectIds"]) {
+    assert.ok(
+      historicalCorrectionValidator.includes(`'${key}'`),
+      `historical correction-state migration must introduce ${key}`
+    );
+  }
   for (const functionName of [
     "_sentence_structure_result_valid",
     "_sentence_structure_bookmark_payload_valid",
+    "sentence_structure_list_bookmarks",
+    "sentence_structure_list_bookmarks_page",
+    "sentence_structure_admin_list_bookmarks",
+    "sentence_structure_admin_list_bookmarks_page",
     "sentence_structure_upsert_attempt"
   ]) {
     assert.equal(
@@ -288,8 +326,18 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
       `${functionName} lesson migration must match the base schema`
     );
   }
-  assert.match(lessonMigration, /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id in \('ss1', 'ss2', 'ss3', 'ss4'\)\)/);
-  assert.match(lessonMigration, /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id in \('ss1', 'ss2', 'ss3', 'ss4'\)\)/);
+  assert.match(
+    lessonMigration,
+    /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[12\]\[0-9\]\|3\[0-9\]\)\$'\)/
+  );
+  assert.match(
+    lessonMigration,
+    /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[12\]\[0-9\]\|3\[0-9\]\)\$'\)/
+  );
+  assert.match(workerSource, /const BOOKMARK_PAGE_SIZE = 900;/);
+  assert.ok(workerSource.includes("sentence_structure_list_bookmarks_page"));
+  assert.ok(workerSource.includes("sentence_structure_admin_list_bookmarks_page"));
+  assert.ok(workerSource.includes("postgresJsonbTextByteLength(normalized)"));
 });
 
 test("every question preserves the bilingual exercise and answer contract", () => {
@@ -312,6 +360,20 @@ test("every question preserves the bilingual exercise and answer contract", () =
       for (const field of requiredText) assert.ok(normalText(question[field]), `${question.id}: missing ${field}`);
       assert.ok(question.answer.toLocaleLowerCase().startsWith(question.starter.toLocaleLowerCase()), `${question.id}: starter does not prefix answer`);
       assert.equal(occurrences(question.answer.toLocaleLowerCase(), question.highlight.toLocaleLowerCase()), 1, `${question.id}: highlight must occur exactly once`);
+      if (question.answerParts !== undefined) {
+        assert.ok(Array.isArray(question.answerParts) && question.answerParts.length >= 2, `${question.id}: invalid answerParts`);
+        for (const part of question.answerParts) {
+          for (const field of ["label", "starter", "answer", "answerZh"]) {
+            assert.ok(normalText(part[field]), `${question.id}: answerParts missing ${field}`);
+          }
+          assert.ok(part.answer.toLocaleLowerCase().startsWith(part.starter.toLocaleLowerCase()), `${question.id}: answerParts starter mismatch`);
+        }
+        assert.equal(
+          question.answer,
+          question.answerParts.map((part) => `${part.label}: ${part.answer}`).join(" || "),
+          `${question.id}: combined answerParts mismatch`
+        );
+      }
       assert.match(question.id, new RegExp(`^${lesson.id}-q\\d{2}$`));
       for (const pageField of ["numberPage", "questionPage", "starterPage", "answerNumberPage", "answerPage"]) {
         assert.ok(Number.isInteger(question.source[pageField]), `${question.id}: invalid ${pageField}`);
@@ -330,7 +392,13 @@ test("every question preserves the bilingual exercise and answer contract", () =
 
   const editorialAnswers = allQuestions.filter((question) => question.answerZhSource !== "pdf");
   assert.deepEqual(Array.from(editorialAnswers, ({ id, answerZhSource }) => ({ id, answerZhSource })), [
-    { id: "ss2-q50", answerZhSource: "editorial-missing-in-pdf" }
+    { id: "ss2-q50", answerZhSource: "editorial-missing-in-pdf" },
+    { id: "ss9-q03", answerZhSource: "editorial-translation-of-revised-answer" },
+    { id: "ss9-q09", answerZhSource: "editorial-translation-of-revised-answer" },
+    { id: "ss9-q13", answerZhSource: "editorial-translation-of-revised-answer" },
+    { id: "ss9-q20", answerZhSource: "editorial-translation-of-revised-answer" },
+    { id: "ss9-q25", answerZhSource: "editorial-translation-of-revised-answer" },
+    { id: "ss9-q48", answerZhSource: "editorial-translation-of-revised-answer" }
   ]);
 });
 
@@ -346,10 +414,18 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /data-bookmark-list/);
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
+  assert.match(html, /data-lesson-count>39</);
   const configAt = html.indexOf('src="sentence-structure-config.js"');
+  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-39.js');
   const dataAt = html.indexOf('src="sentence-structure-data.js');
   const appAt = html.indexOf('type="module" src="sentence-structure.js');
-  assert.ok(configAt >= 0 && configAt < dataAt && dataAt < appAt, "config, data, and module scripts must load in order");
+  assert.ok(
+    configAt >= 0
+      && configAt < expansionAt
+      && expansionAt < dataAt
+      && dataAt < appAt,
+    "config, expansion, data, and module scripts must load in order"
+  );
   assert.match(css, /\.target-highlight\s*\{[^}]*color:\s*#d32727/i);
   assert.match(css, /\.target-highlight\s*\{[^}]*font-weight:\s*900/i);
   assert.match(css, /\.login-hero \.eyebrow\s*\{[^}]*font-size:\s*clamp\(18px,[^}]*22px\)/i);
@@ -390,6 +466,26 @@ test("answer normalization and red target markup are safe and deterministic", ()
     sut.highlightedAnswerHtml("A <tag> target & end.", "target"),
     "A &lt;tag&gt; <span class=\"target-highlight\">target</span> &amp; end."
   );
+});
+
+test("two-part Whether and If questions retain both required answers", () => {
+  const { sut } = createFrontendHarness();
+  const question = sut.getQuestion("ss32", "ss32-q01");
+  const parts = sut.questionAnswerParts(question);
+  assert.equal(parts.length, 2);
+  assert.deepEqual(Array.from(parts, (part) => part.label), ["Whether", "If"]);
+  const combined = sut.combinedAnswerPartValue(
+    question,
+    Array.from(parts, (part) => part.answer)
+  );
+  assert.equal(combined, question.answer);
+  assert.deepEqual(
+    Array.from(sut.storedAnswerPartValues(question, combined)),
+    Array.from(parts, (part) => part.answer)
+  );
+  assert.ok(sut.answersMatch(combined, question));
+  assert.match(sut.suggestedAnswerHtml(question), /Whether/);
+  assert.match(sut.suggestedAnswerHtml(question), />If</);
 });
 
 test("four lesson pages render in order and answers stay secret before submit", () => {
@@ -437,6 +533,19 @@ test("four lesson pages render in order and answers stay secret before submit", 
   assert.match(sut.elements.lessonContent.innerHTML, /MEANING · 句型意思/);
   assert.ok(sut.elements.lessonContent.innerHTML.includes(althoughLesson.meaning.zh[0]));
   assert.ok(sut.elements.lessonContent.innerHTML.includes(althoughLesson.examples[0].highlight));
+
+  const evenLesson = sut.getLesson("ss20");
+  sut.openLesson("ss20", {
+    page: 1,
+    attempt: {
+      ...attempt,
+      id: "20000000-0000-4000-8000-000000000020",
+      lessonId: "ss20"
+    }
+  });
+  assert.equal(typeof evenLesson.meaning.zh, "string");
+  assert.match(sut.elements.lessonContent.innerHTML, /MEANING · 句型意思/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(evenLesson.meaning.zh));
 });
 
 test("partial submit checks only filled answers, reveals targets, and preserves the next round", async () => {
@@ -456,7 +565,10 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
     totalCount: 50,
     result: {}
   });
-  sut.state.bookmarks = [{ lessonId: lesson.id, questionId: q2.id, includeAnswer: false, createdAt: "" }];
+  sut.state.bookmarks = [
+    { lessonId: lesson.id, questionId: q1.id, includeAnswer: false, createdAt: "" },
+    { lessonId: lesson.id, questionId: q2.id, includeAnswer: false, createdAt: "" }
+  ];
 
   answerInputs.push(
     makeElement({ dataset: { answerInput: q1.id }, value: q1.answer }),
@@ -475,7 +587,8 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.equal(sut.state.exercise.rounds.length, 1);
   assert.deepEqual(Array.from(sut.state.exercise.rounds[0].checkedIds), [q1.id, q2.id]);
   assert.deepEqual(Array.from(sut.state.exercise.rounds[0].incorrectIds), [q2.id]);
-  assert.equal(sut.state.bookmarks[0].includeAnswer, true, "checked bookmarked answers should be upgraded");
+  assert.equal(sut.state.bookmarks[0].includeAnswer, true, "correct bookmarked answers should be upgraded");
+  assert.equal(sut.state.bookmarks[1].includeAnswer, false, "wrong bookmarked answers must remain question-only");
   assert.match(sut.elements.lessonContent.innerHTML, /target-highlight/);
   assert.ok(sut.elements.lessonContent.innerHTML.includes(`<span class="target-highlight">${q2.highlight}</span>`));
   assert.ok(sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
@@ -521,6 +634,36 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.equal(sut.state.exercise.questionState[q2.id].reveal, false);
   assert.deepEqual(Array.from(sut.state.exercise.correctIds), [q1.id], "correct answers must not return next round");
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50, "completed cards remain available for reference in later rounds");
+});
+
+test("a failed attempt sync resumes the active exercise stopwatch", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  const lesson = sut.getLesson("ss1");
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
+  sut.state.authToken = "student-token";
+  sut.state.currentView = "lesson";
+  sut.state.lessonId = lesson.id;
+  sut.state.lessonPage = 4;
+  sut.state.exercise = sut.exerciseFromAttempt({
+    id: "23333333-3333-4333-8333-333333333333",
+    lessonId: lesson.id,
+    lessonVersion: "1",
+    roundNumber: 1,
+    totalCount: 50,
+    result: {}
+  });
+  sut.state.exerciseClockStartedAt = performance.now();
+  harness.setApiHandler(async () => jsonResponse(
+    { error: "Temporary upstream failure", code: "SUPABASE_UNAVAILABLE" },
+    503
+  ));
+
+  await assert.rejects(() => sut.persistExercise(), /Temporary upstream failure/);
+  assert.ok(
+    sut.state.exerciseClockStartedAt > 0,
+    "the stopwatch must restart even when persistence rejects"
+  );
 });
 
 test("bulk completed-card visibility handles mixed cards and preserves the current scope", async () => {
@@ -586,7 +729,7 @@ test("bulk completed-card visibility handles mixed cards and preserves the curre
 
 test("wrong answers can enter an immediate correction round and return to the unfinished set", async () => {
   const harness = createFrontendHarness();
-  const { sut, answerInputs } = harness;
+  const { sut, answerInputs, apiCalls } = harness;
   const lesson = sut.getLesson("ss1");
   const [q1, q2] = lesson.questions;
   sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
@@ -666,6 +809,9 @@ test("wrong answers can enter an immediate correction round and return to the un
   assert.equal(sut.state.exercise.correctionMode, false);
   assert.deepEqual(Array.from(sut.state.exercise.correctionIds), []);
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-answer-input=/g) || []).length, 50);
+  const exitPayload = JSON.parse(apiCalls.at(-1).options.body);
+  assert.equal(exitPayload.result.correctionMode, false, "leaving correction must be persisted immediately");
+  assert.deepEqual(exitPayload.result.correctionIds, []);
   const persisted = sut.serializeExerciseResult();
   assert.deepEqual(Array.from(Object.keys(persisted)).sort(), [
     "awaitingNextRound", "collapsedCorrectIds", "contentVersion", "correctIds", "correctionIds",
@@ -695,6 +841,14 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   assert.ok(sut.elements.bookmarkList.innerHTML.includes(`<span class="target-highlight">${question.highlight}</span>`));
   assert.ok(sut.elements.bookmarkList.innerHTML.includes(question.answerZh));
   assert.match(sut.elements.bookmarkList.innerHTML, /target-highlight/);
+  sut.state.exercise = {
+    lessonId: "ss1",
+    correctIds: [],
+    questionState: { [question.id]: { status: "wrong", reveal: true } }
+  };
+  sut.renderBookmarks();
+  assert.ok(!sut.elements.bookmarkList.innerHTML.includes(question.answer), "an unresolved wrong answer must stay hidden in Bookmarks");
+  sut.state.exercise = null;
 
   await sut.toggleBookmark("ss1", question.id);
   assert.equal(sut.state.bookmarks.length, 0);
@@ -707,7 +861,7 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   }));
   await sut.toggleBookmark("ss1", "ss1-q02");
   assert.equal(sut.state.bookmarks.length, sut.MAX_BOOKMARKS);
-  assert.match(sut.elements.toast.textContent, /最多可儲存 200 個書簽/);
+  assert.match(sut.elements.toast.textContent, /最多可儲存 2000 個書簽/);
 });
 
 test("attempt history is expandable and only unfinished attempts can resume", () => {

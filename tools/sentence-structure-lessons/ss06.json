@@ -1,0 +1,1039 @@
+{
+  "id": "ss6",
+  "order": 6,
+  "slug": "despite-concession",
+  "title": "「Despite 句」句型",
+  "titleZh": "「Despite 句」表達「儘管……仍然……」",
+  "titleEn": "Using Despite to express concession",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 6 「Despite 句」.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Despite + noun / noun phrase / verb-ing phrase, subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss6-formula-initial",
+      "labelEn": "Despite at the beginning",
+      "labelZh": "Despite 放在句首",
+      "formula": "Despite + noun / noun phrase / verb-ing phrase, subject + verb + other information"
+    },
+    {
+      "id": "ss6-formula-medial-final",
+      "labelEn": "Despite in the middle or at the end",
+      "labelZh": "Despite 放在句中或句尾",
+      "formula": "Subject + verb + other information + despite + noun / noun phrase / verb-ing phrase"
+    }
+  ],
+  "example": "Despite the unexpected situation, we still proceeded to hold the meeting with the client.",
+  "exampleZh": "儘管出現了意外情況，我們仍然照常與客戶開會。",
+  "examples": [
+    {
+      "id": "ss6-example-01",
+      "en": "Despite the unexpected situation, we still proceeded to hold the meeting with the client.",
+      "zh": "儘管出現了意外情況，我們仍然照常與客戶開會。",
+      "highlight": "Despite the unexpected situation, we still proceeded to hold the meeting with the client."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss6-rule-01",
+      "en": "Despite must be followed by a noun, noun phrase or verb-ing phrase.",
+      "zh": "Despite 後面要接名詞、名詞詞組或 verb-ing 詞組。",
+      "examples": [
+        "Despite the rain, ...",
+        "Despite feeling tired, ..."
+      ]
+    },
+    {
+      "id": "ss6-rule-02",
+      "en": "Despite cannot be followed directly by a complete sentence.",
+      "zh": "Despite 後面不可直接接完整句子。",
+      "examples": [
+        "Correct: Despite the rain, we went out.",
+        "Incorrect: Despite it was raining, we went out."
+      ]
+    },
+    {
+      "id": "ss6-rule-03",
+      "en": "Do not write despite of.",
+      "zh": "不要寫 despite of。",
+      "examples": [
+        "Correct: despite the problem",
+        "Incorrect: despite of the problem"
+      ]
+    },
+    {
+      "id": "ss6-rule-04",
+      "en": "Still may be used, but it is not required.",
+      "zh": "still 可以使用，但不是必須。",
+      "examples": [
+        "Despite the rain, we continued.",
+        "Despite the rain, we still went out."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss6-benefit-01",
+      "en": "It clearly places the meaning “there is a difficulty, but something still happens” in one sentence.",
+      "zh": "它可以把「有困難，但事情仍然發生」的意思清楚地放在同一句中。"
+    },
+    {
+      "id": "ss6-benefit-02",
+      "en": "It gives the sentence more variety than using only but, making writing and speaking sound more natural.",
+      "zh": "它令句子比只使用 but 更有變化，寫作和說話亦會顯得更自然。"
+    },
+    {
+      "id": "ss6-benefit-03",
+      "en": "It helps students learn to turn a complete sentence into a noun or verb-ing phrase, building more flexible sentence structures.",
+      "zh": "它能幫助學生學會把完整句子改成名詞或 verb-ing 詞組，從而建立更靈活的句子結構。"
+    }
+  ],
+  "sourceOmissions": [
+    "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using despite while keeping the original meaning.",
+      "Use a noun, noun phrase, or verb-ing phrase after despite.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 despite 改寫以下句子，並保持原意不變。",
+      "在 despite 後使用名詞、名詞詞組或 verb-ing 詞組。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss6-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Although the weather was cold, we went for a walk.",
+      "promptZh": "雖然天氣寒冷，但我們仍然去散步。",
+      "starter": "Despite",
+      "answer": "Despite the cold weather, we went for a walk.",
+      "answerZh": "儘管天氣寒冷，我們仍然去散步。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the cold weather, we went for a walk."
+    },
+    {
+      "id": "ss6-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 11
+      },
+      "prompt": "Lily felt tired, but she finished her homework.",
+      "promptZh": "莉莉感到疲倦，但她仍然完成了功課。",
+      "starter": "Lily",
+      "answer": "Lily finished her homework despite feeling tired.",
+      "answerZh": "儘管感到疲倦，莉莉仍然完成了功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily finished her homework despite feeling tired."
+    },
+    {
+      "id": "ss6-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Even though it was raining, Ben rode his bicycle to school.",
+      "promptZh": "即使正在下雨，本仍然踏單車上學。",
+      "starter": "Despite",
+      "answer": "Despite the rain, Ben rode his bicycle to school.",
+      "answerZh": "儘管下着雨，本仍然踏單車上學。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the rain, Ben rode his bicycle to school."
+    },
+    {
+      "id": "ss6-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Emma was nervous, but she smiled at the audience.",
+      "promptZh": "艾瑪感到緊張，但她仍然向觀眾微笑。",
+      "starter": "Emma",
+      "answer": "Emma smiled at the audience despite being nervous.",
+      "answerZh": "儘管感到緊張，艾瑪仍然向觀眾微笑。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma smiled at the audience despite being nervous."
+    },
+    {
+      "id": "ss6-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Was the queue long? Yes, but I still waited for the bus.",
+      "promptZh": "隊伍很長嗎？是的，但我仍然等候巴士。",
+      "starter": "Despite",
+      "answer": "Despite the long queue, I waited for the bus.",
+      "answerZh": "儘管隊伍很長，我仍然等候巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the long queue, I waited for the bus."
+    },
+    {
+      "id": "ss6-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Although Jack had a headache, he went to work.",
+      "promptZh": "雖然傑克頭痛，但他仍然上班。",
+      "starter": "Jack",
+      "answer": "Jack went to work despite having a headache.",
+      "answerZh": "儘管頭痛，傑克仍然上班。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack went to work despite having a headache."
+    },
+    {
+      "id": "ss6-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The question was difficult, but the students kept trying.",
+      "promptZh": "題目很困難，但學生仍然繼續嘗試。",
+      "starter": "Despite",
+      "answer": "Despite the difficult question, the students kept trying.",
+      "answerZh": "儘管題目很困難，學生仍然繼續嘗試。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the difficult question, the students kept trying."
+    },
+    {
+      "id": "ss6-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Although the wind is strong, we can still enjoy the picnic.",
+      "promptZh": "雖然風勢強勁，但我們仍然可以享受野餐。",
+      "starter": "We",
+      "answer": "We can still enjoy the picnic despite the strong wind.",
+      "answerZh": "儘管風勢強勁，我們仍然可以享受野餐。",
+      "answerZhSource": "pdf",
+      "highlight": "We can still enjoy the picnic despite the strong wind."
+    },
+    {
+      "id": "ss6-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Mr Chan had a busy schedule, yet he attended the school event.",
+      "promptZh": "陳先生的日程繁忙，但他仍然出席了學校活動。",
+      "starter": "Despite",
+      "answer": "Despite his busy schedule, Mr Chan attended the school event.",
+      "answerZh": "儘管日程繁忙，陳先生仍然出席了學校活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite his busy schedule, Mr Chan attended the school event."
+    },
+    {
+      "id": "ss6-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 12
+      },
+      "prompt": "Although Mia arrived home late, she cooked dinner.",
+      "promptZh": "雖然米婭很晚才回家，但她仍然煮了晚餐。",
+      "starter": "Mia",
+      "answer": "Mia cooked dinner despite arriving home late.",
+      "answerZh": "儘管很晚才回家，米婭仍然煮了晚餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia cooked dinner despite arriving home late."
+    },
+    {
+      "id": "ss6-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Was the coat expensive? Yes, but Sarah still bought it.",
+      "promptZh": "這件外套昂貴嗎？是的，但莎拉仍然買下了它。",
+      "starter": "Despite",
+      "answer": "Despite the high price, Sarah bought the coat.",
+      "answerZh": "儘管價格高昂，莎拉仍然買下了這件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the high price, Sarah bought the coat."
+    },
+    {
+      "id": "ss6-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The weather was hot, but the team completed the match.",
+      "promptZh": "天氣炎熱，但球隊仍然完成了賽事。",
+      "starter": "The",
+      "answer": "The team completed the match despite the hot weather.",
+      "answerZh": "儘管天氣炎熱，球隊仍然完成了賽事。",
+      "answerZhSource": "pdf",
+      "highlight": "The team completed the match despite the hot weather."
+    },
+    {
+      "id": "ss6-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Even though Leo did not know the answer, he raised his hand.",
+      "promptZh": "即使里奧不知道答案，他仍然舉手。",
+      "starter": "Despite",
+      "answer": "Despite not knowing the answer, Leo raised his hand.",
+      "answerZh": "儘管不知道答案，里奧仍然舉手。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite not knowing the answer, Leo raised his hand."
+    },
+    {
+      "id": "ss6-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "There was a lot of noise outside, but Chloe continued reading.",
+      "promptZh": "外面十分嘈吵，但克洛伊仍然繼續閱讀。",
+      "starter": "Chloe",
+      "answer": "Chloe continued reading despite the noise outside.",
+      "answerZh": "儘管外面十分嘈吵，克洛伊仍然繼續閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe continued reading despite the noise outside."
+    },
+    {
+      "id": "ss6-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Although Nina was afraid of dogs, she helped the lost puppy.",
+      "promptZh": "雖然妮娜害怕狗，但她仍然幫助了迷路的小狗。",
+      "starter": "Despite",
+      "answer": "Despite being afraid of dogs, Nina helped the lost puppy.",
+      "answerZh": "儘管害怕狗，妮娜仍然幫助了迷路的小狗。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite being afraid of dogs, Nina helped the lost puppy."
+    },
+    {
+      "id": "ss6-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Although David felt tired, he could climb the stairs.",
+      "promptZh": "雖然大衛感到疲倦，但他仍然能夠行樓梯。",
+      "starter": "David",
+      "answer": "David could climb the stairs despite feeling tired.",
+      "answerZh": "儘管感到疲倦，大衛仍然能夠行樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "David could climb the stairs despite feeling tired."
+    },
+    {
+      "id": "ss6-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Was the train delayed? Yes, but Olivia arrived before the meeting began.",
+      "promptZh": "火車延誤了嗎？是的，但奧莉花仍然在會議開始前到達。",
+      "starter": "Despite",
+      "answer": "Despite the train delay, Olivia arrived before the meeting began.",
+      "answerZh": "儘管火車延誤，奧莉花仍然在會議開始前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the train delay, Olivia arrived before the meeting began."
+    },
+    {
+      "id": "ss6-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13
+      },
+      "prompt": "There was a power cut, but the café remained open.",
+      "promptZh": "當時停電了，但咖啡店仍然營業。",
+      "starter": "The",
+      "answer": "The café remained open despite the power cut.",
+      "answerZh": "儘管停電，咖啡店仍然營業。",
+      "answerZhSource": "pdf",
+      "highlight": "The café remained open despite the power cut."
+    },
+    {
+      "id": "ss6-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Ethan has very little storage space, but he keeps his bedroom tidy.",
+      "promptZh": "伊森的儲物空間很少，但他仍然保持睡房整齊。",
+      "starter": "Ethan",
+      "answer": "Ethan keeps his bedroom tidy despite having very little storage space.",
+      "answerZh": "儘管儲物空間很少，伊森仍然保持睡房整齊。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan keeps his bedroom tidy despite having very little storage space."
+    },
+    {
+      "id": "ss6-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Even though Amy did not know anyone there, she joined the class.",
+      "promptZh": "即使艾米在那裏不認識任何人，她仍然參加了課堂。",
+      "starter": "Amy",
+      "answer": "Amy joined the class despite not knowing anyone there.",
+      "answerZh": "儘管在那裏不認識任何人，艾米仍然參加了課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy joined the class despite not knowing anyone there."
+    },
+    {
+      "id": "ss6-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Although the hikers were warned about the storm, they continued their journey.",
+      "promptZh": "雖然遠足人士收到暴風雨警告，但他們仍然繼續行程。",
+      "starter": "Despite",
+      "answer": "Despite being warned about the storm, the hikers continued their journey.",
+      "answerZh": "儘管收到暴風雨警告，遠足人士仍然繼續行程。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite being warned about the storm, the hikers continued their journey."
+    },
+    {
+      "id": "ss6-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The patient complained angrily, but the nurse stayed calm.",
+      "promptZh": "病人憤怒地投訴，但護士仍然保持冷靜。",
+      "starter": "The",
+      "answer": "The nurse stayed calm despite the patient's angry complaint.",
+      "answerZh": "儘管病人憤怒地投訴，護士仍然保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse stayed calm despite the patient's angry complaint."
+    },
+    {
+      "id": "ss6-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Grace had an injured ankle, yet she finished the race.",
+      "promptZh": "格蕾絲的腳踝受了傷，但她仍然完成了賽事。",
+      "starter": "Despite",
+      "answer": "Despite her injured ankle, Grace finished the race.",
+      "answerZh": "儘管腳踝受傷，格蕾絲仍然完成了賽事。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite her injured ankle, Grace finished the race."
+    },
+    {
+      "id": "ss6-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Although the shop did very little advertising, it attracted many customers.",
+      "promptZh": "雖然這間店舖很少進行宣傳，但它仍然吸引了很多顧客。",
+      "starter": "The",
+      "answer": "The shop attracted many customers despite doing very little advertising.",
+      "answerZh": "儘管很少進行宣傳，這間店舖仍然吸引了很多顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop attracted many customers despite doing very little advertising."
+    },
+    {
+      "id": "ss6-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Noah did not have much time, but he checked every detail.",
+      "promptZh": "諾亞沒有太多時間，但他仍然檢查了每個細節。",
+      "starter": "Despite",
+      "answer": "Despite not having much time, Noah checked every detail.",
+      "answerZh": "儘管沒有太多時間，諾亞仍然檢查了每個細節。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite not having much time, Noah checked every detail."
+    },
+    {
+      "id": "ss6-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "Even though there were many students in the library, it stayed quiet.",
+      "promptZh": "即使圖書館內有很多學生，場內仍然保持安靜。",
+      "starter": "The",
+      "answer": "The library stayed quiet despite having many students inside.",
+      "answerZh": "儘管館內有很多學生，圖書館仍然保持安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The library stayed quiet despite having many students inside."
+    },
+    {
+      "id": "ss6-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Was the road narrow? Yes, but the bus passed through safely.",
+      "promptZh": "道路狹窄嗎？是的，但巴士仍然安全通過。",
+      "starter": "Despite",
+      "answer": "Despite the narrow road, the bus passed through safely.",
+      "answerZh": "儘管道路狹窄，巴士仍然安全通過。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the narrow road, the bus passed through safely."
+    },
+    {
+      "id": "ss6-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Although Maya received disappointing news, she remained positive.",
+      "promptZh": "雖然瑪雅收到令人失望的消息，但她仍然保持樂觀。",
+      "starter": "Maya",
+      "answer": "Maya remained positive despite receiving disappointing news.",
+      "answerZh": "儘管收到令人失望的消息，瑪雅仍然保持樂觀。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya remained positive despite receiving disappointing news."
+    },
+    {
+      "id": "ss6-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The lift was broken, but the residents reached the upper floors by the stairs.",
+      "promptZh": "升降機壞了，但居民仍然經樓梯到達較高樓層。",
+      "starter": "Despite",
+      "answer": "Despite the broken lift, the residents reached the upper floors by the stairs.",
+      "answerZh": "儘管升降機壞了，居民仍然經樓梯到達較高樓層。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the broken lift, the residents reached the upper floors by the stairs."
+    },
+    {
+      "id": "ss6-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Although the rain was heavy, the children played outside.",
+      "promptZh": "雖然雨勢很大，但孩子們仍然在戶外玩耍。",
+      "starter": "The",
+      "answer": "The children played outside despite the heavy rain.",
+      "answerZh": "儘管雨勢很大，孩子們仍然在戶外玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The children played outside despite the heavy rain."
+    },
+    {
+      "id": "ss6-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Although Daniel had studied carefully, he found the test difficult.",
+      "promptZh": "雖然丹尼爾已認真溫習，但他仍然覺得測驗困難。",
+      "starter": "Despite",
+      "answer": "Despite having studied carefully, Daniel found the test difficult.",
+      "answerZh": "儘管已認真溫習，丹尼爾仍然覺得測驗困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite having studied carefully, Daniel found the test difficult."
+    },
+    {
+      "id": "ss6-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The computer was several years old, but it kept working.",
+      "promptZh": "這部電腦已有數年歷史，但它仍然繼續運作。",
+      "starter": "The",
+      "answer": "The computer kept working despite being several years old.",
+      "answerZh": "儘管已有數年歷史，這部電腦仍然繼續運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer kept working despite being several years old."
+    },
+    {
+      "id": "ss6-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Ava received the invitation at short notice, yet she attended the wedding.",
+      "promptZh": "艾娃在婚禮前不久才收到邀請，但她仍然出席了婚禮。",
+      "starter": "Despite",
+      "answer": "Despite receiving the invitation at short notice, Ava attended the wedding.",
+      "answerZh": "儘管在婚禮前不久才收到邀請，艾娃仍然出席了婚禮。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite receiving the invitation at short notice, Ava attended the wedding."
+    },
+    {
+      "id": "ss6-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "Even when drivers feel rushed, they must slow down.",
+      "promptZh": "即使駕駛者感到時間緊迫，他們仍然必須減速。",
+      "starter": "Drivers",
+      "answer": "Drivers must slow down despite feeling rushed.",
+      "answerZh": "儘管感到時間緊迫，駕駛者仍然必須減速。",
+      "answerZhSource": "pdf",
+      "highlight": "Drivers must slow down despite feeling rushed."
+    },
+    {
+      "id": "ss6-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The teacher explained the topic clearly, but some students were still confused.",
+      "promptZh": "老師清楚地解釋了課題，但部分學生仍然感到困惑。",
+      "starter": "Despite",
+      "answer": "Despite the teacher's clear explanation, some students were still confused.",
+      "answerZh": "儘管老師解釋得很清楚，部分學生仍然感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the teacher's clear explanation, some students were still confused."
+    },
+    {
+      "id": "ss6-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although there was a temporary water shortage, the hospital continued treating patients.",
+      "promptZh": "雖然出現短暫缺水，但醫院仍然繼續治療病人。",
+      "starter": "The",
+      "answer": "The hospital continued treating patients despite the temporary water shortage.",
+      "answerZh": "儘管出現短暫缺水，醫院仍然繼續治療病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital continued treating patients despite the temporary water shortage."
+    },
+    {
+      "id": "ss6-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although Marcus was offered a higher salary, he stayed with his current company.",
+      "promptZh": "雖然馬庫斯獲提供更高薪酬，但他仍然留在現時任職的公司。",
+      "starter": "Despite",
+      "answer": "Despite being offered a higher salary, Marcus stayed with his current company.",
+      "answerZh": "儘管獲提供更高薪酬，馬庫斯仍然留在現時任職的公司。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite being offered a higher salary, Marcus stayed with his current company."
+    },
+    {
+      "id": "ss6-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The beach had an unpleasant smell, but the volunteers cleaned it.",
+      "promptZh": "海灘散發難聞的氣味，但義工仍然清理了海灘。",
+      "starter": "The",
+      "answer": "The volunteers cleaned the beach despite the unpleasant smell.",
+      "answerZh": "儘管海灘散發難聞的氣味，義工仍然清理了海灘。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers cleaned the beach despite the unpleasant smell."
+    },
+    {
+      "id": "ss6-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although Sofia does not speak English fluently, she can explain the problem clearly.",
+      "promptZh": "雖然蘇菲亞的英語說得不流利，但她仍然能夠清楚解釋問題。",
+      "starter": "Sofia",
+      "answer": "Sofia can explain the problem clearly despite not speaking English fluently.",
+      "answerZh": "儘管英語說得不流利，蘇菲亞仍然能夠清楚解釋問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia can explain the problem clearly despite not speaking English fluently."
+    },
+    {
+      "id": "ss6-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although the museum has been open for only a short time, it has already attracted large crowds.",
+      "promptZh": "雖然博物館開幕時間不長，但它已經吸引了大批人群。",
+      "starter": "Despite",
+      "answer": "Despite having been open for only a short time, the museum has already attracted large crowds.",
+      "answerZh": "儘管開幕時間不長，博物館已經吸引了大批人群。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite having been open for only a short time, the museum has already attracted large crowds."
+    },
+    {
+      "id": "ss6-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although the school had very limited space, it created a quiet reading area for students.",
+      "promptZh": "雖然學校的空間非常有限，但校方仍然為學生設立了安靜的閱讀區。",
+      "starter": "Despite",
+      "answer": "Despite having very limited space, the school created a quiet reading area for students.",
+      "answerZh": "儘管空間非常有限，學校仍然為學生設立了安靜的閱讀區。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite having very limited space, the school created a quiet reading area for students."
+    },
+    {
+      "id": "ss6-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The rescue team was delayed by heavy rain, but it reached the village.",
+      "promptZh": "救援隊的行程因大雨而延誤，但仍然到達了村莊。",
+      "starter": "The",
+      "answer": "The rescue team reached the village despite being delayed by heavy rain.",
+      "answerZh": "儘管行程因大雨而延誤，救援隊仍然到達了村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team reached the village despite being delayed by heavy rain."
+    },
+    {
+      "id": "ss6-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The plan involved several risks. Nevertheless, the manager agreed to discuss it further.",
+      "promptZh": "這個計劃涉及數項風險。儘管如此，經理仍然同意進一步討論。",
+      "starter": "Despite",
+      "answer": "Despite the risks involved in the plan, the manager agreed to discuss it further.",
+      "answerZh": "儘管計劃涉及數項風險，經理仍然同意進一步討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the risks involved in the plan, the manager agreed to discuss it further."
+    },
+    {
+      "id": "ss6-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The patient may not see immediate results but should still follow the treatment plan.",
+      "promptZh": "病人可能看不到即時成效，但仍然應該遵從治療計劃。",
+      "starter": "The",
+      "answer": "The patient should follow the treatment plan despite not seeing immediate results.",
+      "answerZh": "儘管看不到即時成效，病人仍然應該遵從治療計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient should follow the treatment plan despite not seeing immediate results."
+    },
+    {
+      "id": "ss6-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The new employee had received little training but handled the customer enquiry politely.",
+      "promptZh": "這名新僱員只接受了少量培訓，但仍然有禮貌地處理顧客查詢。",
+      "starter": "Despite",
+      "answer": "Despite having received little training, the new employee handled the customer enquiry politely.",
+      "answerZh": "儘管只接受了少量培訓，這名新僱員仍然有禮貌地處理顧客查詢。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite having received little training, the new employee handled the customer enquiry politely."
+    },
+    {
+      "id": "ss6-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Did strong winds stop the outdoor concert? No—the concert continued even though the winds damaged some decorations.",
+      "promptZh": "強風令戶外音樂會停止嗎？沒有——即使強風損壞了一些裝飾，音樂會仍然繼續。",
+      "starter": "The",
+      "answer": "The outdoor concert continued despite strong winds that damaged some decorations.",
+      "answerZh": "儘管強風損壞了一些裝飾，戶外音樂會仍然繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The outdoor concert continued despite strong winds that damaged some decorations."
+    },
+    {
+      "id": "ss6-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Although the written instructions were clear, several users installed the software incorrectly.",
+      "promptZh": "雖然書面指示清晰，但數名使用者仍然錯誤安裝了軟件。",
+      "starter": "Despite",
+      "answer": "Despite the clear written instructions, several users installed the software incorrectly.",
+      "answerZh": "儘管書面指示清晰，數名使用者仍然錯誤安裝了軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite the clear written instructions, several users installed the software incorrectly."
+    },
+    {
+      "id": "ss6-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Even though the community centre moved many activities online, it remained busy.",
+      "promptZh": "即使社區中心把很多活動移至網上進行，中心仍然十分繁忙。",
+      "starter": "The",
+      "answer": "The community centre remained busy despite moving many activities online.",
+      "answerZh": "儘管把很多活動移至網上進行，社區中心仍然十分繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre remained busy despite moving many activities online."
+    },
+    {
+      "id": "ss6-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Although the committee did not agree with every proposal, it approved the main plan.",
+      "promptZh": "雖然委員會並不同意每項建議，但仍然通過了主要計劃。",
+      "starter": "Despite",
+      "answer": "Despite not agreeing with every proposal, the committee approved the main plan.",
+      "answerZh": "儘管並不同意每項建議，委員會仍然通過了主要計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite not agreeing with every proposal, the committee approved the main plan."
+    },
+    {
+      "id": "ss6-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The scientists had encountered several unexpected technical problems. Even so, they continued the experiment.",
+      "promptZh": "科學家遇上了數項意料之外的技術問題。即使如此，他們仍然繼續進行實驗。",
+      "starter": "The",
+      "answer": "The scientists continued the experiment despite having encountered several unexpected technical problems.",
+      "answerZh": "儘管遇上了數項意料之外的技術問題，科學家仍然繼續進行實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientists continued the experiment despite having encountered several unexpected technical problems."
+    }
+  ]
+}

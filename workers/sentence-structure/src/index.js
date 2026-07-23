@@ -2,15 +2,16 @@ import { ACCEPTED_ANSWERS } from "./catalog.js";
 
 const SERVICE_NAME = "edmund-sentence-structure";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const LESSON_IDS = new Set(["ss1", "ss2", "ss3", "ss4"]);
+const LESSON_IDS = new Set(Array.from({ length: 39 }, (_, index) => `ss${index + 1}`));
 const CONTENT_VERSION = "1";
 const QUESTIONS_PER_LESSON = 50;
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
 const MAX_ATTEMPT_RESULT_BYTES = 96 * 1024;
-const MAX_BOOKMARK_BODY_BYTES = 72 * 1024;
-const MAX_BOOKMARKS = 200;
+const MAX_BOOKMARK_BODY_BYTES = 384 * 1024;
+const MAX_BOOKMARKS = 2000;
+const BOOKMARK_PAGE_SIZE = 900;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_ATTEMPTS = 100;
 const MAX_DURATION_MS = 7 * 24 * 60 * 60 * 1000;
@@ -498,9 +499,31 @@ function hasOnlyKeys(value, allowed) {
   return isPlainObject(value) && Object.keys(value).every(key => allowed.has(key));
 }
 
+function postgresJsonbTextByteLength(value) {
+  if (Array.isArray(value)) {
+    return 2
+      + Math.max(0, value.length - 1) * 2
+      + value.reduce((total, item) => total + postgresJsonbTextByteLength(item), 0);
+  }
+  if (isPlainObject(value)) {
+    const entries = Object.entries(value);
+    return 2
+      + Math.max(0, entries.length - 1) * 2
+      + entries.reduce(
+        (total, [key, item]) => total
+          + encoder.encode(JSON.stringify(key)).byteLength
+          + 2
+          + postgresJsonbTextByteLength(item),
+        0
+      );
+  }
+  const serialized = JSON.stringify(value);
+  return encoder.encode(serialized === undefined ? "null" : serialized).byteLength;
+}
+
 function validQuestionId(lessonId, questionId) {
   if (!LESSON_IDS.has(lessonId) || typeof questionId !== "string") return false;
-  const match = questionId.match(/^(ss[1-4])-q(\d{2})$/);
+  const match = questionId.match(/^(ss(?:[1-9]|[12][0-9]|3[0-9]))-q(\d{2})$/);
   if (!match || match[1] !== lessonId) return false;
   const number = Number(match[2]);
   return number >= 1 && number <= QUESTIONS_PER_LESSON;
@@ -725,7 +748,9 @@ function normalizeAttemptResult(value, context) {
     collapsedCorrectIds,
     contentVersion: value.contentVersion
   };
-  if (encoder.encode(JSON.stringify(normalized)).byteLength > MAX_ATTEMPT_RESULT_BYTES) {
+  // PostgreSQL's jsonb::text inserts a space after each comma and colon. Match
+  // that representation so a payload accepted here cannot fail the SQL guard.
+  if (postgresJsonbTextByteLength(normalized) > MAX_ATTEMPT_RESULT_BYTES) {
     throw new HttpError(413, "ATTEMPT_TOO_LARGE", "Attempt result is too large");
   }
   return normalized;
@@ -974,13 +999,32 @@ function bookmarkResponse(row) {
   };
 }
 
+async function listAllBookmarkRows(env, functionName, payload) {
+  const rows = [];
+  for (let offset = 0; offset < MAX_BOOKMARKS; offset += BOOKMARK_PAGE_SIZE) {
+    const page = await rpc(env, functionName, {
+      ...payload,
+      p_offset: offset,
+      p_limit: BOOKMARK_PAGE_SIZE
+    });
+    if (!Array.isArray(page)) {
+      throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Bookmarks returned an invalid response");
+    }
+    rows.push(...page);
+    if (rows.length > MAX_BOOKMARKS) {
+      throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Bookmarks exceeded the configured limit");
+    }
+    if (page.length < BOOKMARK_PAGE_SIZE) break;
+  }
+  return rows;
+}
+
 async function getBookmarks(request, env) {
   const student = await authenticateStudent(request, env);
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
-  const rows = await rpc(env, "sentence_structure_list_bookmarks", { p_student_id: student.id });
-  if (!Array.isArray(rows)) {
-    throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Bookmarks returned an invalid response");
-  }
+  const rows = await listAllBookmarkRows(env, "sentence_structure_list_bookmarks_page", {
+    p_student_id: student.id
+  });
   return json({ bookmarks: rows.map(bookmarkResponse) }, 200, request, env);
 }
 
@@ -992,13 +1036,16 @@ async function putBookmarks(request, env) {
     throw new HttpError(400, "INVALID_BOOKMARKS", "Bookmark payload has an invalid shape");
   }
   const bookmarks = normalizeBookmarks(payload.bookmarks);
-  const rows = await rpc(env, "sentence_structure_replace_bookmarks", {
+  const replacedRows = await rpc(env, "sentence_structure_replace_bookmarks", {
     p_student_id: student.id,
     p_bookmarks: bookmarks
   });
-  if (!Array.isArray(rows)) {
+  if (!Array.isArray(replacedRows)) {
     throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Bookmarks returned an invalid response");
   }
+  const rows = await listAllBookmarkRows(env, "sentence_structure_list_bookmarks_page", {
+    p_student_id: student.id
+  });
   return json({ bookmarks: rows.map(bookmarkResponse) }, 200, request, env);
 }
 
@@ -1042,7 +1089,7 @@ async function getAdminStudent(request, env, studentId) {
       p_student_id: normalizedStudentId,
       p_limit: MAX_ADMIN_ATTEMPTS
     }),
-    rpc(env, "sentence_structure_admin_list_bookmarks", {
+    listAllBookmarkRows(env, "sentence_structure_admin_list_bookmarks_page", {
       p_admin_token: admin.token,
       p_student_id: normalizedStudentId
     })

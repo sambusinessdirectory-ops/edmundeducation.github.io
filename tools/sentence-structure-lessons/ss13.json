@@ -1,0 +1,1173 @@
+{
+  "id": "ss13",
+  "order": 13,
+  "slug": "with-noun-v-ing-background",
+  "title": "「With +（名詞）+ -ing」句型",
+  "titleZh": "「With +（名詞）+ -ing」句型交代背景情況",
+  "titleEn": "Using with + noun + -ing to introduce background circumstances",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 13 - 「With +（名詞）+ -ing」句型.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "With + noun / noun phrase + verb-ing, + main clause",
+  "formulas": [
+    {
+      "id": "ss13-formula-initial",
+      "labelEn": "At the beginning",
+      "labelZh": "句型一：放在句首",
+      "formula": "With + noun / noun phrase + verb-ing, + main clause"
+    },
+    {
+      "id": "ss13-formula-final",
+      "labelEn": "At the end",
+      "labelZh": "句型二：放在句末",
+      "formula": "Main clause, + with + noun / noun phrase + verb-ing"
+    }
+  ],
+  "example": "With more people working remotely, office culture has changed permanently.",
+  "exampleZh": "隨着越來越多人遙距工作，辦公室文化已經永久改變。",
+  "examples": [
+    {
+      "id": "ss13-example-01",
+      "en": "With more people working remotely, office culture has changed permanently.",
+      "zh": "隨着越來越多人遙距工作，辦公室文化已經永久改變。",
+      "highlight": "With more people working remotely, office culture has changed permanently."
+    }
+  ],
+  "meaning": {
+    "zh": [
+      "這個句型用來交代一個背景情況、持續出現的轉變，或與主要事情同時發生的動作。"
+    ]
+  },
+  "rules": [
+    {
+      "id": "ss13-rule-01",
+      "en": "The noun after with performs the -ing action.",
+      "zh": "with 後面的名詞是進行 -ing 動作的人或事物。",
+      "examples": [
+        "With the baby sleeping, everyone spoke quietly.",
+        "句中正在睡覺的是 the baby。"
+      ]
+    },
+    {
+      "id": "ss13-rule-02",
+      "en": "The two parts must be logically connected. The structure normally shows a background situation affecting another event, two events happening at the same time, or a continuing change creating a new situation.",
+      "zh": "兩部分的事情必須有合理關係。這個句型通常表示一個背景情況影響另一件事、兩件事同時發生，或一個持續轉變帶來新的情況。",
+      "examples": []
+    },
+    {
+      "id": "ss13-rule-03",
+      "en": "Use a comma to separate the two parts.",
+      "zh": "使用逗號分隔 with 詞組和主要句子。",
+      "examples": [
+        "With the rain falling heavily, we stayed indoors.",
+        "We stayed indoors, with the rain falling heavily."
+      ]
+    },
+    {
+      "id": "ss13-rule-04",
+      "en": "Put not before the -ing form for a negative situation.",
+      "zh": "如要表達否定情況，把 not 放在 -ing 動詞之前。",
+      "examples": [
+        "With the lift not working, we used the stairs.",
+        "升降機不能運作，我們使用樓梯。"
+      ]
+    },
+    {
+      "id": "ss13-rule-05",
+      "en": "Use being + past participle when the noun receives an action.",
+      "zh": "如果名詞是承受動作的一方，可以使用 with + noun + being + past participle。",
+      "examples": [
+        "With several roads being repaired, drivers should allow extra time.",
+        "由於多條道路正在維修，駕駛者應預留更多時間。"
+      ]
+    },
+    {
+      "id": "ss13-rule-06",
+      "en": "This structure does not always mean “because”; it may express a reason or simply describe two events happening at the same time.",
+      "zh": "這個句型不一定只表示「因為」。它有時表示原因，有時只是交代兩件同時發生的事情。",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss13-benefit-01",
+      "en": "It makes the background clear. This structure tells the reader what is happening around the main event.",
+      "zh": "這個句型能先交代事情發生時的背景，讓讀者更容易理解主要信息。"
+    },
+    {
+      "id": "ss13-benefit-02",
+      "en": "It connects two related situations in one sentence. Instead of writing two separate sentences, you can show the relationship between the situations immediately.",
+      "zh": "你不需要把兩個相關情況分成兩句，而可以直接把它們連接起來。"
+    },
+    {
+      "id": "ss13-benefit-03",
+      "en": "It gives you an alternative to because, as and while. Students often repeat the same connectors, and this structure gives another natural way to express the same relationship.",
+      "zh": "學生經常重複使用 because、as 和 while。這個句型能提供另一種自然的表達方法，令句式不會過於重複。"
+    },
+    {
+      "id": "ss13-benefit-04",
+      "en": "The two parts can have different subjects. The person or thing performing the -ing action can be different from the subject of the main clause.",
+      "zh": "兩部分可以有不同的主語，因此能自然地描述兩個人或事物同時進行的事情。"
+    },
+    {
+      "id": "ss13-benefit-05",
+      "en": "It is useful for describing changes and trends in essays, reports, presentations and discussions about society, work, technology and the environment.",
+      "zh": "這個句型適合用於作文、報告、簡報和討論，尤其適合描述社會、工作、科技和環境方面的變化。"
+    },
+    {
+      "id": "ss13-benefit-06",
+      "en": "It gives you another way to begin a sentence. Beginning with a with + noun + -ing phrase creates sentence variety and draws attention to the background situation.",
+      "zh": "以 with + 名詞 + -ing 開始句子，可以增加句式變化，並先把讀者的注意力帶到重要背景。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using with + noun + -ing. Keep the original meaning.",
+      "The with phrase may appear at the beginning or end of the answer. Follow the first-word hint.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 with + 名詞 + -ing 改寫以下句子，並保留原意。",
+      "with 詞組可以放在答案的句首或句末。請按照所提供的首字作答。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss13-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because the rain was falling heavily, the children stayed indoors.",
+      "promptZh": "因為大雨一直下，孩子們留在室內。",
+      "starter": "With",
+      "answer": "With the rain falling heavily, the children stayed indoors.",
+      "answerZh": "大雨一直下，孩子們留在室內。",
+      "answerZhSource": "pdf",
+      "highlight": "With the rain falling heavily, the children stayed indoors."
+    },
+    {
+      "id": "ss13-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While Mum was cooking dinner, I set the table.",
+      "promptZh": "媽媽煮晚餐時，我擺好餐桌。",
+      "starter": "With",
+      "answer": "With Mum cooking dinner, I set the table.",
+      "answerZh": "媽媽煮晚餐時，我擺好餐桌。",
+      "answerZhSource": "pdf",
+      "highlight": "With Mum cooking dinner, I set the table."
+    },
+    {
+      "id": "ss13-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because the baby was sleeping, everyone spoke quietly.",
+      "promptZh": "因為嬰兒正在睡覺，大家都輕聲說話。",
+      "starter": "With",
+      "answer": "With the baby sleeping, everyone spoke quietly.",
+      "answerZh": "嬰兒正在睡覺，大家都輕聲說話。",
+      "answerZhSource": "pdf",
+      "highlight": "With the baby sleeping, everyone spoke quietly."
+    },
+    {
+      "id": "ss13-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The sun was shining, so we ate lunch outside.",
+      "promptZh": "陽光普照，所以我們在戶外吃午餐。",
+      "starter": "With",
+      "answer": "With the sun shining, we ate lunch outside.",
+      "answerZh": "陽光普照，我們在戶外吃午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "With the sun shining, we ate lunch outside."
+    },
+    {
+      "id": "ss13-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "More students are joining the club, so it needs a larger room.",
+      "promptZh": "有更多學生加入學會，所以學會需要一個更大的房間。",
+      "starter": "With",
+      "answer": "With more students joining the club, it needs a larger room.",
+      "answerZh": "隨着更多學生加入學會，學會需要一個更大的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "With more students joining the club, it needs a larger room."
+    },
+    {
+      "id": "ss13-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When the bus was approaching, Maya stood up.",
+      "promptZh": "巴士駛近時，瑪雅站了起來。",
+      "starter": "With",
+      "answer": "With the bus approaching, Maya stood up.",
+      "answerZh": "巴士駛近時，瑪雅站了起來。",
+      "answerZhSource": "pdf",
+      "highlight": "With the bus approaching, Maya stood up."
+    },
+    {
+      "id": "ss13-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "While Dad was washing the car, Leo cleaned the windows.",
+      "promptZh": "爸爸洗車時，里奧清潔車窗。",
+      "starter": "With",
+      "answer": "With Dad washing the car, Leo cleaned the windows.",
+      "answerZh": "爸爸洗車時，里奧清潔車窗。",
+      "answerZhSource": "pdf",
+      "highlight": "With Dad washing the car, Leo cleaned the windows."
+    },
+    {
+      "id": "ss13-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 15
+      },
+      "prompt": "Because the shop was closing early that day, we went there before five.",
+      "promptZh": "因為商店當天提早關門，我們在五時前到了那裏。",
+      "starter": "With",
+      "answer": "With the shop closing early that day, we went there before five.",
+      "answerZh": "由於商店當天提早關門，我們在五時前到了那裏。",
+      "answerZhSource": "pdf",
+      "highlight": "With the shop closing early that day, we went there before five."
+    },
+    {
+      "id": "ss13-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The dog was barking loudly, so the neighbours looked outside.",
+      "promptZh": "狗不停大聲吠叫，所以鄰居向外望。",
+      "starter": "With",
+      "answer": "With the dog barking loudly, the neighbours looked outside.",
+      "answerZh": "狗不停大聲吠叫，鄰居向外望。",
+      "answerZhSource": "pdf",
+      "highlight": "With the dog barking loudly, the neighbours looked outside."
+    },
+    {
+      "id": "ss13-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Everyone was waiting when the teacher began the lesson.",
+      "promptZh": "老師開始上課時，大家都在等候。",
+      "starter": "The",
+      "answer": "The teacher began the lesson, with everyone waiting.",
+      "answerZh": "老師開始上課時，大家都在等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher began the lesson, with everyone waiting."
+    },
+    {
+      "id": "ss13-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As the temperature was dropping, Sarah put on a jacket.",
+      "promptZh": "隨着氣溫下降，莎拉穿上外套。",
+      "starter": "With",
+      "answer": "With the temperature dropping, Sarah put on a jacket.",
+      "answerZh": "隨着氣溫下降，莎拉穿上外套。",
+      "answerZhSource": "pdf",
+      "highlight": "With the temperature dropping, Sarah put on a jacket."
+    },
+    {
+      "id": "ss13-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Snow was covering the road surface, so the road became dangerous.",
+      "promptZh": "積雪覆蓋着路面，所以道路變得危險。",
+      "starter": "The",
+      "answer": "The road became dangerous, with snow covering its surface.",
+      "answerZh": "積雪覆蓋着路面，道路因而變得危險。",
+      "answerZhSource": "pdf",
+      "highlight": "The road became dangerous, with snow covering its surface."
+    },
+    {
+      "id": "ss13-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Since more customers are using the app, the company is improving its servers.",
+      "promptZh": "由於更多顧客使用這個應用程式，公司正在改善其伺服器。",
+      "starter": "With",
+      "answer": "With more customers using the app, the company is improving its servers.",
+      "answerZh": "由於更多顧客使用這個應用程式，公司正在改善其伺服器。",
+      "answerZhSource": "pdf",
+      "highlight": "With more customers using the app, the company is improving its servers."
+    },
+    {
+      "id": "ss13-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While the patient’s temperature was rising, the nurse checked him again.",
+      "promptZh": "病人的體溫上升時，護士再次為他檢查。",
+      "starter": "The",
+      "answer": "The nurse checked the patient again, with his temperature rising.",
+      "answerZh": "護士再次檢查病人，當時他的體溫正在上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse checked the patient again, with his temperature rising."
+    },
+    {
+      "id": "ss13-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The printer was making strange noises. For this reason, Ben switched it off.",
+      "promptZh": "打印機發出奇怪的聲音。因此，本把它關掉。",
+      "starter": "With",
+      "answer": "With the printer making strange noises, Ben switched it off.",
+      "answerZh": "打印機發出奇怪的聲音，本把它關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "With the printer making strange noises, Ben switched it off."
+    },
+    {
+      "id": "ss13-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The examiner watched the students closely while they worked in silence.",
+      "promptZh": "學生安靜地完成工作時，考官密切注視着他們。",
+      "starter": "The",
+      "answer": "The students worked in silence, with the examiner watching them closely.",
+      "answerZh": "學生安靜地完成工作，考官密切注視着他們。",
+      "answerZhSource": "pdf",
+      "highlight": "The students worked in silence, with the examiner watching them closely."
+    },
+    {
+      "id": "ss13-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As the wind is getting stronger, the ferry service may be delayed.",
+      "promptZh": "隨着風勢增強，渡輪服務可能會延誤。",
+      "starter": "With",
+      "answer": "With the wind getting stronger, the ferry service may be delayed.",
+      "answerZh": "隨着風勢增強，渡輪服務可能會延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "With the wind getting stronger, the ferry service may be delayed."
+    },
+    {
+      "id": "ss13-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The room was becoming warmer, so we opened another window.",
+      "promptZh": "房間變得愈來愈暖，所以我們再打開一扇窗。",
+      "starter": "We",
+      "answer": "We opened another window, with the room becoming warmer.",
+      "answerZh": "房間變得愈來愈暖，所以我們再打開一扇窗。",
+      "answerZhSource": "pdf",
+      "highlight": "We opened another window, with the room becoming warmer."
+    },
+    {
+      "id": "ss13-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Fewer people are carrying cash now, so the café accepts mobile payments.",
+      "promptZh": "現在較少人攜帶現金，所以咖啡店接受手機付款。",
+      "starter": "With",
+      "answer": "With fewer people carrying cash, the café now accepts mobile payments.",
+      "answerZh": "由於較少人攜帶現金，咖啡店現在接受手機付款。",
+      "answerZhSource": "pdf",
+      "highlight": "With fewer people carrying cash, the café now accepts mobile payments."
+    },
+    {
+      "id": "ss13-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Several players reported that they felt tired. Therefore, the coach changed the plan.",
+      "promptZh": "幾名球員表示感到疲倦。因此，教練改變了計劃。",
+      "starter": "The",
+      "answer": "The coach changed the plan, with several players reporting that they felt tired.",
+      "answerZh": "幾名球員表示感到疲倦，因此教練改變了計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach changed the plan, with several players reporting that they felt tired."
+    },
+    {
+      "id": "ss13-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because the library is receiving more visitors, it has extended its opening hours.",
+      "promptZh": "由於圖書館接待更多訪客，它延長了開放時間。",
+      "starter": "With",
+      "answer": "With the library receiving more visitors, it has extended its opening hours.",
+      "answerZh": "隨着圖書館接待更多訪客，圖書館延長了開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "With the library receiving more visitors, it has extended its opening hours."
+    },
+    {
+      "id": "ss13-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Since energy prices continue to rise, the family is using less electricity.",
+      "promptZh": "由於能源價格持續上升，這個家庭正在減少用電。",
+      "starter": "The",
+      "answer": "The family is using less electricity, with energy prices continuing to rise.",
+      "answerZh": "由於能源價格持續上升，這個家庭正在減少用電。",
+      "answerZhSource": "pdf",
+      "highlight": "The family is using less electricity, with energy prices continuing to rise."
+    },
+    {
+      "id": "ss13-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because several roads are being repaired, drivers should allow extra travel time.",
+      "promptZh": "由於多條道路正在維修，駕駛者應預留更多行車時間。",
+      "starter": "With",
+      "answer": "With several roads being repaired, drivers should allow extra travel time.",
+      "answerZh": "由於多條道路正在維修，駕駛者應預留更多行車時間。",
+      "answerZhSource": "pdf",
+      "highlight": "With several roads being repaired, drivers should allow extra travel time."
+    },
+    {
+      "id": "ss13-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The weather forecast predicted heavy rain, so the school moved the event indoors.",
+      "promptZh": "天氣預報預測有大雨，所以學校把活動移到室內。",
+      "starter": "The",
+      "answer": "The school moved the event indoors, with the weather forecast predicting heavy rain.",
+      "answerZh": "天氣預報預測有大雨，所以學校把活動移到室內。",
+      "answerZhSource": "pdf",
+      "highlight": "The school moved the event indoors, with the weather forecast predicting heavy rain."
+    },
+    {
+      "id": "ss13-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Because the patient was recovering well, the doctor allowed her to go home.",
+      "promptZh": "由於病人康復情況良好，醫生讓她回家。",
+      "starter": "With",
+      "answer": "With the patient recovering well, the doctor allowed her to go home.",
+      "answerZh": "病人康復情況良好，醫生讓她回家。",
+      "answerZhSource": "pdf",
+      "highlight": "With the patient recovering well, the doctor allowed her to go home."
+    },
+    {
+      "id": "ss13-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Visitor numbers were increasing each month, so the museum introduced timed tickets.",
+      "promptZh": "訪客人數每月都在增加，所以博物館推出分時段門票。",
+      "starter": "The",
+      "answer": "The museum introduced timed tickets, with visitor numbers increasing each month.",
+      "answerZh": "由於訪客人數每月都在增加，博物館推出分時段門票。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum introduced timed tickets, with visitor numbers increasing each month."
+    },
+    {
+      "id": "ss13-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Because the children were not feeling well, their parents kept them at home.",
+      "promptZh": "因為孩子們感到不適，父母讓他們留在家中。",
+      "starter": "With",
+      "answer": "With the children not feeling well, their parents kept them at home.",
+      "answerZh": "由於孩子們感到不適，父母讓他們留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "With the children not feeling well, their parents kept them at home."
+    },
+    {
+      "id": "ss13-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Workers were repairing the outdoor field, so the team practised indoors.",
+      "promptZh": "工人正在維修戶外球場，所以球隊在室內練習。",
+      "starter": "The",
+      "answer": "The team practised indoors, with workers repairing the outdoor field.",
+      "answerZh": "球隊在室內練習，工人正在維修戶外球場。",
+      "answerZhSource": "pdf",
+      "highlight": "The team practised indoors, with workers repairing the outdoor field."
+    },
+    {
+      "id": "ss13-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Because the lift was not working, residents had to use the stairs.",
+      "promptZh": "因為升降機不能運作，住戶只好使用樓梯。",
+      "starter": "With",
+      "answer": "With the lift not working, residents had to use the stairs.",
+      "answerZh": "升降機不能運作，住戶只好使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "With the lift not working, residents had to use the stairs."
+    },
+    {
+      "id": "ss13-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Several new employees needed support, so the office arranged extra training.",
+      "promptZh": "幾名新員工需要支援，所以辦公室安排了額外培訓。",
+      "starter": "The",
+      "answer": "The office arranged extra training, with several new employees needing support.",
+      "answerZh": "幾名新員工需要支援，所以辦公室安排了額外培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The office arranged extra training, with several new employees needing support."
+    },
+    {
+      "id": "ss13-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "Because of the rapid growth in online orders, the shop has hired two more workers.",
+      "promptZh": "由於網上訂單迅速增加，商店已增聘兩名員工。",
+      "starter": "With",
+      "answer": "With online orders growing quickly, the shop has hired two more workers.",
+      "answerZh": "隨着網上訂單迅速增加，商店已增聘兩名員工。",
+      "answerZhSource": "pdf",
+      "highlight": "With online orders growing quickly, the shop has hired two more workers."
+    },
+    {
+      "id": "ss13-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Residents repeatedly asked for better facilities, so the council added more recycling bins.",
+      "promptZh": "居民一再要求改善設施，所以市議會增設更多回收箱。",
+      "starter": "The",
+      "answer": "The council added more recycling bins, with residents repeatedly asking for better facilities.",
+      "answerZh": "居民一再要求改善設施，所以市議會增設更多回收箱。",
+      "answerZhSource": "pdf",
+      "highlight": "The council added more recycling bins, with residents repeatedly asking for better facilities."
+    },
+    {
+      "id": "ss13-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the river was rising after the storm, nearby families were advised to leave.",
+      "promptZh": "由於暴風雨後河水上漲，附近家庭被勸喻離開。",
+      "starter": "With",
+      "answer": "With the river rising after the storm, nearby families were advised to leave.",
+      "answerZh": "暴風雨後河水上漲，附近家庭被勸喻離開。",
+      "answerZhSource": "pdf",
+      "highlight": "With the river rising after the storm, nearby families were advised to leave."
+    },
+    {
+      "id": "ss13-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did the teacher repeat the explanation? Some students still looked confused.",
+      "promptZh": "老師為甚麼重複解釋？部分學生看來仍然感到困惑。",
+      "starter": "The",
+      "answer": "The teacher repeated the explanation, with some students still looking confused.",
+      "answerZh": "部分學生看來仍然感到困惑，所以老師重複解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher repeated the explanation, with some students still looking confused."
+    },
+    {
+      "id": "ss13-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The audience was becoming restless, so the speaker shortened his presentation.",
+      "promptZh": "觀眾開始坐立不安，所以講者縮短了簡報。",
+      "starter": "With",
+      "answer": "With the audience becoming restless, the speaker shortened his presentation.",
+      "answerZh": "觀眾開始坐立不安，講者縮短了簡報。",
+      "answerZhSource": "pdf",
+      "highlight": "With the audience becoming restless, the speaker shortened his presentation."
+    },
+    {
+      "id": "ss13-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Passenger numbers were reaching a holiday peak, so the airport opened another security lane.",
+      "promptZh": "旅客人數正達到假期高峰，所以機場增開一條保安檢查通道。",
+      "starter": "The",
+      "answer": "The airport opened another security lane, with passenger numbers reaching a holiday peak.",
+      "answerZh": "旅客人數正達到假期高峰，所以機場增開一條保安檢查通道。",
+      "answerZhSource": "pdf",
+      "highlight": "The airport opened another security lane, with passenger numbers reaching a holiday peak."
+    },
+    {
+      "id": "ss13-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because her phone battery was running low, Chloe turned on power-saving mode.",
+      "promptZh": "因為手機電量不足，克洛伊開啟了省電模式。",
+      "starter": "With",
+      "answer": "With her phone battery running low, Chloe turned on power-saving mode.",
+      "answerZh": "手機電量不足，克洛伊開啟了省電模式。",
+      "answerZhSource": "pdf",
+      "highlight": "With her phone battery running low, Chloe turned on power-saving mode."
+    },
+    {
+      "id": "ss13-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "More customers were requesting vegetarian dishes, so the restaurant changed its menu.",
+      "promptZh": "更多顧客要求提供素食菜式，所以餐廳更改了餐牌。",
+      "starter": "The",
+      "answer": "The restaurant changed its menu, with more customers requesting vegetarian dishes.",
+      "answerZh": "更多顧客要求提供素食菜式，所以餐廳更改了餐牌。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant changed its menu, with more customers requesting vegetarian dishes."
+    },
+    {
+      "id": "ss13-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Because the machine was not operating safely, the technician stopped the test.",
+      "promptZh": "因為機器未能安全運作，技術員停止了測試。",
+      "starter": "With",
+      "answer": "With the machine not operating safely, the technician stopped the test.",
+      "answerZh": "機器未能安全運作，技術員停止了測試。",
+      "answerZhSource": "pdf",
+      "highlight": "With the machine not operating safely, the technician stopped the test."
+    },
+    {
+      "id": "ss13-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many families still needed help. Therefore, the charity organised a second collection.",
+      "promptZh": "仍有很多家庭需要幫助。因此，慈善機構舉辦了第二次募捐。",
+      "starter": "The",
+      "answer": "The charity organised a second collection, with many families still needing help.",
+      "answerZh": "仍有很多家庭需要幫助，所以慈善機構舉辦了第二次募捐。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity organised a second collection, with many families still needing help."
+    },
+    {
+      "id": "ss13-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Because several teachers are attending a training course, the school has adjusted Friday’s timetable.",
+      "promptZh": "因為幾名老師正在參加培訓課程，學校已調整星期五的時間表。",
+      "starter": "With",
+      "answer": "With several teachers attending a training course, the school has adjusted Friday’s timetable.",
+      "answerZh": "幾名老師正在參加培訓課程，學校已調整星期五的時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "With several teachers attending a training course, the school has adjusted Friday’s timetable."
+    },
+    {
+      "id": "ss13-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Waiting times are becoming longer during busy periods, so the hospital is reviewing its appointment system.",
+      "promptZh": "繁忙時段的輪候時間愈來愈長，所以醫院正在檢討預約制度。",
+      "starter": "The",
+      "answer": "The hospital is reviewing its appointment system, with waiting times becoming longer during busy periods.",
+      "answerZh": "繁忙時段的輪候時間愈來愈長，所以醫院正在檢討預約制度。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is reviewing its appointment system, with waiting times becoming longer during busy periods."
+    },
+    {
+      "id": "ss13-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As more companies are allowing flexible hours, employees can organise family responsibilities more easily.",
+      "promptZh": "隨着更多公司容許彈性上班時間，員工可以更容易安排家庭事務。",
+      "starter": "With",
+      "answer": "With more companies allowing flexible hours, employees can organise family responsibilities more easily.",
+      "answerZh": "隨着更多公司容許彈性上班時間，員工可以更容易安排家庭事務。",
+      "answerZhSource": "pdf",
+      "highlight": "With more companies allowing flexible hours, employees can organise family responsibilities more easily."
+    },
+    {
+      "id": "ss13-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Thousands of commuters travel at the same time each morning, so public transport remains crowded.",
+      "promptZh": "每天早上有數以千計的通勤者同時出行，所以公共交通工具仍然十分擠迫。",
+      "starter": "Public",
+      "answer": "Public transport remains crowded, with thousands of commuters travelling at the same time each morning.",
+      "answerZh": "每天早上有數以千計的通勤者同時出行，公共交通工具仍然十分擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport remains crowded, with thousands of commuters travelling at the same time each morning."
+    },
+    {
+      "id": "ss13-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The town is attracting more tourists, so local businesses are offering services in several languages.",
+      "promptZh": "小鎮正吸引更多遊客，所以本地商戶正以多種語言提供服務。",
+      "starter": "With",
+      "answer": "With the town attracting more tourists, local businesses are offering services in several languages.",
+      "answerZh": "隨着小鎮吸引更多遊客，本地商戶正以多種語言提供服務。",
+      "answerZhSource": "pdf",
+      "highlight": "With the town attracting more tourists, local businesses are offering services in several languages."
+    },
+    {
+      "id": "ss13-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The first results showed an unexpected pattern, so the research team repeated the experiment.",
+      "promptZh": "首輪結果顯示出意外的模式，所以研究團隊重做實驗。",
+      "starter": "The",
+      "answer": "The research team repeated the experiment, with the first results showing an unexpected pattern.",
+      "answerZh": "首輪結果顯示出意外的模式，所以研究團隊重做實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team repeated the experiment, with the first results showing an unexpected pattern."
+    },
+    {
+      "id": "ss13-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Given that some residents do not have internet access, the council continues to offer face-to-face services.",
+      "promptZh": "考慮到部分居民沒有互聯網接駁，市議會繼續提供面對面服務。",
+      "starter": "With",
+      "answer": "With some residents not having internet access, the council continues to offer face-to-face services.",
+      "answerZh": "由於部分居民沒有互聯網接駁，市議會繼續提供面對面服務。",
+      "answerZhSource": "pdf",
+      "highlight": "With some residents not having internet access, the council continues to offer face-to-face services."
+    },
+    {
+      "id": "ss13-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "While several team members were handling different tasks, the manager monitored the project.",
+      "promptZh": "幾名團隊成員分別處理不同任務時，經理監察整個項目。",
+      "starter": "The",
+      "answer": "The manager monitored the project, with several team members handling different tasks.",
+      "answerZh": "經理監察整個項目，幾名團隊成員則分別處理不同任務。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager monitored the project, with several team members handling different tasks."
+    },
+    {
+      "id": "ss13-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "As food prices continue to rise, many families are planning their weekly shopping more carefully.",
+      "promptZh": "隨着食品價格持續上升，很多家庭更仔細地計劃每星期的購物。",
+      "starter": "With",
+      "answer": "With food prices continuing to rise, many families are planning their weekly shopping more carefully.",
+      "answerZh": "隨着食品價格持續上升，很多家庭更仔細地計劃每星期的購物。",
+      "answerZhSource": "pdf",
+      "highlight": "With food prices continuing to rise, many families are planning their weekly shopping more carefully."
+    },
+    {
+      "id": "ss13-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "More children are walking to the new school each day, so the city is redesigning the pedestrian crossing.",
+      "promptZh": "每天有更多兒童步行到新學校，所以城市正在重新設計行人過路處。",
+      "starter": "The",
+      "answer": "The city is redesigning the pedestrian crossing, with more children walking to the new school each day.",
+      "answerZh": "每天有更多兒童步行到新學校，所以城市正在重新設計行人過路處。",
+      "answerZhSource": "pdf",
+      "highlight": "The city is redesigning the pedestrian crossing, with more children walking to the new school each day."
+    }
+  ]
+}

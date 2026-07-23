@@ -1,0 +1,1168 @@
+{
+  "id": "ss15",
+  "order": 15,
+  "slug": "whose-relative-clause",
+  "title": "「whose」句型",
+  "titleZh": "「whose」句型",
+  "titleEn": "Using whose to express ownership or a close connection",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 15 - 「whose」句型.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Person / animal / place / organisation / thing + whose + noun + verb + other information",
+  "formulas": [
+    {
+      "id": "ss15-formula-whose",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Person / animal / place / organisation / thing + whose + noun + verb + other information"
+    }
+  ],
+  "example": "I went to a restaurant whose decoration was superb.",
+  "exampleZh": "我去過一間餐廳，它的裝潢非常出色。",
+  "examples": [
+    {
+      "id": "ss15-example-01",
+      "en": "I went to a restaurant whose decoration was superb.",
+      "zh": "我去過一間餐廳，它的裝潢非常出色。",
+      "highlight": "I went to a restaurant whose decoration was superb."
+    },
+    {
+      "id": "ss15-example-compare-original",
+      "labelEn": "Original sentences",
+      "labelZh": "原句",
+      "en": "I met a girl. Her brother is in my class.",
+      "zh": "我遇到一個女孩。她的哥哥在我班上。",
+      "highlight": "I met a girl. Her brother is in my class."
+    },
+    {
+      "id": "ss15-example-compare-target",
+      "labelEn": "Target sentence",
+      "labelZh": "目標句",
+      "en": "I met a girl whose brother is in my class.",
+      "zh": "我遇到一個女孩，她的哥哥在我班上。",
+      "highlight": "I met a girl whose brother is in my class."
+    }
+  ],
+  "meaning": {
+    "zh": [
+      "whose 後面的名詞屬於或與 whose 前面的人或事物有密切關係。"
+    ]
+  },
+  "rules": [
+    {
+      "id": "ss15-rule-01",
+      "en": "Use whose + noun. Do not add his, her, its or their after whose.",
+      "zh": "whose 後面直接加名詞，不可以再加入 his、her、its 或 their。",
+      "examples": [
+        "Correct: a girl whose brother is in my class",
+        "Incorrect: a girl whose her brother is in my class"
+      ]
+    },
+    {
+      "id": "ss15-rule-02",
+      "en": "The verb agrees with the noun after whose.",
+      "zh": "動詞的單複數由 whose 後面的名詞決定。",
+      "examples": [
+        "whose brother is",
+        "whose parents are",
+        "whose window was",
+        "whose rooms were"
+      ]
+    },
+    {
+      "id": "ss15-rule-03",
+      "en": "Whose can describe people and things.",
+      "zh": "whose 不但可以描述人，也可以描述動物、地方、機構和物件。",
+      "examples": [
+        "a student whose answer was correct",
+        "a hotel whose rooms were clean"
+      ]
+    },
+    {
+      "id": "ss15-rule-04",
+      "en": "Do not confuse whose with who’s. Whose means of whom / of which; who’s means who is or who has.",
+      "zh": "不要混淆 whose 與 who’s。whose 表示「誰的／它的」，沒有撇號；who’s 表示 who is 或 who has，有撇號。",
+      "examples": []
+    },
+    {
+      "id": "ss15-rule-05",
+      "en": "Use commas for additional information about a known person or thing.",
+      "zh": "當 whose 子句只是補充一個已知人物或事物的額外資料時，子句前後通常需要使用逗號。",
+      "examples": [
+        "Chloe, whose father teaches music, can play three instruments."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss15-benefit-01",
+      "en": "It clearly shows ownership or connection. This structure makes it clear which person or thing a detail is connected with.",
+      "zh": "這個句型能清楚顯示某件事物屬於誰，或某項資料與哪一個人或事物有關。"
+    },
+    {
+      "id": "ss15-benefit-02",
+      "en": "It joins two related sentences. Instead of writing two separate sentences, you can combine the information into one complete sentence.",
+      "zh": "你可以把兩個有關連的句子合併成一句，不需要把資料分開表達。"
+    },
+    {
+      "id": "ss15-benefit-03",
+      "en": "It avoids repeating the same noun. You do not need to repeat words such as the girl, the student, the company or the building.",
+      "zh": "它能避免重複使用「那個女孩」、「那名學生」、「那間公司」或「那幢建築物」等名詞。"
+    },
+    {
+      "id": "ss15-benefit-04",
+      "en": "It helps identify the exact person or thing. You can add an important detail to show exactly which person, place or object you mean.",
+      "zh": "你可以加入一項重要資料，讓讀者清楚知道你所指的是哪一個人、地方或物件。"
+    },
+    {
+      "id": "ss15-benefit-05",
+      "en": "It makes descriptions smoother and more detailed. This structure is useful when describing people, families, animals, places, organisations and objects in conversations, stories, essays and reports.",
+      "zh": "這個句型適合在對話、故事、作文和報告中描述人物、家庭、動物、地方、機構和物件，令內容更流暢和具體。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using whose to join the related ideas.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 whose 合併相關意思，並改寫以下句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss15-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "I met a girl. Her brother is in my class.",
+      "promptZh": "我遇到一個女孩。她的哥哥在我班上。",
+      "starter": "I",
+      "answer": "I met a girl whose brother is in my class.",
+      "answerZh": "我遇到一個女孩，她的哥哥在我班上。",
+      "answerZhSource": "pdf",
+      "highlight": "I met a girl whose brother is in my class."
+    },
+    {
+      "id": "ss15-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "promptZhPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Ben has a neighbour. The neighbour’s dog barks every morning.",
+      "promptZh": "本有一位鄰居。那位鄰居的狗每天早上都會吠。",
+      "starter": "Ben",
+      "answer": "Ben has a neighbour whose dog barks every morning.",
+      "answerZh": "本有一位鄰居，他的狗每天早上都會吠。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben has a neighbour whose dog barks every morning."
+    },
+    {
+      "id": "ss15-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "We visited a family. Their home is near the beach.",
+      "promptZh": "我們探訪了一個家庭。他們的家在海灘附近。",
+      "starter": "We",
+      "answer": "We visited a family whose home is near the beach.",
+      "answerZh": "我們探訪了一個家庭，他們的家在海灘附近。",
+      "answerZhSource": "pdf",
+      "highlight": "We visited a family whose home is near the beach."
+    },
+    {
+      "id": "ss15-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Amy spoke to a boy. The boy’s bicycle was broken.",
+      "promptZh": "艾米跟一個男孩說話。那個男孩的單車壞了。",
+      "starter": "Amy",
+      "answer": "Amy spoke to a boy whose bicycle was broken.",
+      "answerZh": "艾米跟一個男孩說話，他的單車壞了。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy spoke to a boy whose bicycle was broken."
+    },
+    {
+      "id": "ss15-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The teacher praised a student. The student’s answer was correct.",
+      "promptZh": "老師稱讚了一名學生。那名學生的答案正確。",
+      "starter": "The",
+      "answer": "The teacher praised a student whose answer was correct.",
+      "answerZh": "老師稱讚了一名答案正確的學生。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher praised a student whose answer was correct."
+    },
+    {
+      "id": "ss15-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I saw a woman. Her bag was red.",
+      "promptZh": "我看見一位女士。她的手袋是紅色的。",
+      "starter": "I",
+      "answer": "I saw a woman whose bag was red.",
+      "answerZh": "我看見一位女士，她的手袋是紅色的。",
+      "answerZhSource": "pdf",
+      "highlight": "I saw a woman whose bag was red."
+    },
+    {
+      "id": "ss15-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Leo knows a chef. The chef’s restaurant is very popular.",
+      "promptZh": "里奧認識一名廚師。那名廚師的餐廳很受歡迎。",
+      "starter": "Leo",
+      "answer": "Leo knows a chef whose restaurant is very popular.",
+      "answerZh": "里奧認識一名廚師，他的餐廳很受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo knows a chef whose restaurant is very popular."
+    },
+    {
+      "id": "ss15-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Maya adopted a cat. Its tail is very short.",
+      "promptZh": "瑪雅領養了一隻貓。牠的尾巴很短。",
+      "starter": "Maya",
+      "answer": "Maya adopted a cat whose tail is very short.",
+      "answerZh": "瑪雅領養了一隻尾巴很短的貓。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya adopted a cat whose tail is very short."
+    },
+    {
+      "id": "ss15-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "They helped a man. His car would not start.",
+      "promptZh": "他們幫助了一名男子。他的汽車無法啟動。",
+      "starter": "They",
+      "answer": "They helped a man whose car would not start.",
+      "answerZh": "他們幫助了一名男子，他的汽車無法啟動。",
+      "answerZhSource": "pdf",
+      "highlight": "They helped a man whose car would not start."
+    },
+    {
+      "id": "ss15-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The library hired a worker. Her English is excellent.",
+      "promptZh": "圖書館聘請了一名員工。她的英語非常好。",
+      "starter": "The",
+      "answer": "The library hired a worker whose English is excellent.",
+      "answerZh": "圖書館聘請了一名英語非常好的員工。",
+      "answerZhSource": "pdf",
+      "highlight": "The library hired a worker whose English is excellent."
+    },
+    {
+      "id": "ss15-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Sarah bought a book. Its cover was bright blue.",
+      "promptZh": "莎拉買了一本書。它的封面是鮮藍色的。",
+      "starter": "Sarah",
+      "answer": "Sarah bought a book whose cover was bright blue.",
+      "answerZh": "莎拉買了一本封面是鮮藍色的書。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah bought a book whose cover was bright blue."
+    },
+    {
+      "id": "ss15-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We stayed in a hotel. The hotel’s rooms were very clean.",
+      "promptZh": "我們入住了一間酒店。酒店的客房非常整潔。",
+      "starter": "We",
+      "answer": "We stayed in a hotel whose rooms were very clean.",
+      "answerZh": "我們入住了一間客房非常整潔的酒店。",
+      "answerZhSource": "pdf",
+      "highlight": "We stayed in a hotel whose rooms were very clean."
+    },
+    {
+      "id": "ss15-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Daniel uses a phone. Its battery lasts all day.",
+      "promptZh": "丹尼爾使用一部電話。它的電池可以維持一整天。",
+      "starter": "Daniel",
+      "answer": "Daniel uses a phone whose battery lasts all day.",
+      "answerZh": "丹尼爾使用一部電池可以維持一整天的電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel uses a phone whose battery lasts all day."
+    },
+    {
+      "id": "ss15-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The children played in a park. Its playground had just reopened.",
+      "promptZh": "孩子們在一個公園玩耍。公園的遊樂場剛剛重新開放。",
+      "starter": "The",
+      "answer": "The children played in a park whose playground had just reopened.",
+      "answerZh": "孩子們在一個公園玩耍，公園的遊樂場剛剛重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The children played in a park whose playground had just reopened."
+    },
+    {
+      "id": "ss15-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What kind of flat did Olivia choose? Its kitchen was large.",
+      "promptZh": "奧莉花選了一個怎樣的單位？它的廚房很大。",
+      "starter": "Olivia",
+      "answer": "Olivia chose a flat whose kitchen was large.",
+      "answerZh": "奧莉花選了一個廚房很大的單位。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia chose a flat whose kitchen was large."
+    },
+    {
+      "id": "ss15-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You must press the green button on this machine.",
+      "promptZh": "你必須按下這部機器上的綠色按鈕。",
+      "starter": "This",
+      "answer": "This is the machine whose green button you must press.",
+      "answerZh": "這就是那部你必須按下綠色按鈕的機器。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the machine whose green button you must press."
+    },
+    {
+      "id": "ss15-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Jack found a wallet. Its colour made it easy to recognise.",
+      "promptZh": "傑克找到一個錢包。它的顏色令它很容易辨認。",
+      "starter": "Jack",
+      "answer": "Jack found a wallet whose colour made it easy to recognise.",
+      "answerZh": "傑克找到一個錢包，它的顏色令它很容易辨認。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack found a wallet whose colour made it easy to recognise."
+    },
+    {
+      "id": "ss15-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We passed a shop. Its windows were full of flowers.",
+      "promptZh": "我們經過一間店舖。它的櫥窗擺滿了鮮花。",
+      "starter": "We",
+      "answer": "We passed a shop whose windows were full of flowers.",
+      "answerZh": "我們經過一間櫥窗擺滿鮮花的店舖。",
+      "answerZhSource": "pdf",
+      "highlight": "We passed a shop whose windows were full of flowers."
+    },
+    {
+      "id": "ss15-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Emma joined a club. The club’s members meet every Friday.",
+      "promptZh": "艾瑪加入了一個俱樂部。俱樂部的會員每逢星期五聚會。",
+      "starter": "Emma",
+      "answer": "Emma joined a club whose members meet every Friday.",
+      "answerZh": "艾瑪加入了一個會員每逢星期五聚會的俱樂部。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma joined a club whose members meet every Friday."
+    },
+    {
+      "id": "ss15-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The tourists photographed a bridge. Its lights changed colour at night.",
+      "promptZh": "遊客拍攝了一座橋。橋上的燈光在晚上會變色。",
+      "starter": "The",
+      "answer": "The tourists photographed a bridge whose lights changed colour at night.",
+      "answerZh": "遊客拍攝了一座燈光在晚上會變色的橋。",
+      "answerZhSource": "pdf",
+      "highlight": "The tourists photographed a bridge whose lights changed colour at night."
+    },
+    {
+      "id": "ss15-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I spoke to a doctor who has a clinic near the station.",
+      "promptZh": "我跟一名在車站附近開設診所的醫生談過。",
+      "starter": "I",
+      "answer": "I spoke to a doctor whose clinic is near the station.",
+      "answerZh": "我跟一名醫生談過，他的診所在車站附近。",
+      "answerZhSource": "pdf",
+      "highlight": "I spoke to a doctor whose clinic is near the station."
+    },
+    {
+      "id": "ss15-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We visited a school that has a very large science laboratory.",
+      "promptZh": "我們參觀了一間設有大型科學實驗室的學校。",
+      "starter": "We",
+      "answer": "We visited a school whose science laboratory is very large.",
+      "answerZh": "我們參觀了一間科學實驗室非常大的學校。",
+      "answerZhSource": "pdf",
+      "highlight": "We visited a school whose science laboratory is very large."
+    },
+    {
+      "id": "ss15-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Noah borrowed a camera with a cracked screen.",
+      "promptZh": "諾亞借了一部螢幕有裂痕的相機。",
+      "starter": "Noah",
+      "answer": "Noah borrowed a camera whose screen was cracked.",
+      "answerZh": "諾亞借了一部螢幕有裂痕的相機。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah borrowed a camera whose screen was cracked."
+    },
+    {
+      "id": "ss15-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ava works for a company with offices in five countries.",
+      "promptZh": "艾娃任職於一間在五個國家設有辦事處的公司。",
+      "starter": "Ava",
+      "answer": "Ava works for a company whose offices are in five countries.",
+      "answerZh": "艾娃任職於一間在五個國家設有辦事處的公司。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava works for a company whose offices are in five countries."
+    },
+    {
+      "id": "ss15-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The police questioned a driver. The driver’s licence had expired.",
+      "promptZh": "警方盤問了一名司機。那名司機的駕駛執照已經過期。",
+      "starter": "The",
+      "answer": "The police questioned a driver whose licence had expired.",
+      "answerZh": "警方盤問了一名駕駛執照已經過期的司機。",
+      "answerZhSource": "pdf",
+      "highlight": "The police questioned a driver whose licence had expired."
+    },
+    {
+      "id": "ss15-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A woman called the clinic. Her son’s arm was injured.",
+      "promptZh": "一名女士致電診所。她兒子的手臂受了傷。",
+      "starter": "A",
+      "answer": "A woman whose son’s arm was injured called the clinic.",
+      "answerZh": "一名兒子手臂受傷的女士致電診所。",
+      "answerZhSource": "pdf",
+      "highlight": "A woman whose son’s arm was injured called the clinic."
+    },
+    {
+      "id": "ss15-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The coach selected some players. The players’ fitness levels had improved.",
+      "promptZh": "教練挑選了一些球員。那些球員的體能水平有所提升。",
+      "starter": "The",
+      "answer": "The coach selected some players whose fitness levels had improved.",
+      "answerZh": "教練挑選了一些體能水平有所提升的球員。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach selected some players whose fitness levels had improved."
+    },
+    {
+      "id": "ss15-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I thanked a volunteer. His advice had helped me.",
+      "promptZh": "我感謝了一名義工。他的建議曾經幫助我。",
+      "starter": "I",
+      "answer": "I thanked a volunteer whose advice had helped me.",
+      "answerZh": "我感謝了一名義工，他的建議曾經幫助我。",
+      "answerZhSource": "pdf",
+      "highlight": "I thanked a volunteer whose advice had helped me."
+    },
+    {
+      "id": "ss15-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The museum displayed a vase with a handle that had been repaired.",
+      "promptZh": "博物館展出了一個手柄已經修復的花瓶。",
+      "starter": "The",
+      "answer": "The museum displayed a vase whose handle had been repaired.",
+      "answerZh": "博物館展出了一個手柄已經修復的花瓶。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum displayed a vase whose handle had been repaired."
+    },
+    {
+      "id": "ss15-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We entered a building with a guarded entrance.",
+      "promptZh": "我們進入了一幢入口有人看守的建築物。",
+      "starter": "We",
+      "answer": "We entered a building whose entrance was guarded.",
+      "answerZh": "我們進入了一幢入口有人看守的建築物。",
+      "answerZhSource": "pdf",
+      "highlight": "We entered a building whose entrance was guarded."
+    },
+    {
+      "id": "ss15-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe can play three instruments. Her father teaches music.",
+      "promptZh": "克洛伊會演奏三種樂器。她的父親任教音樂。",
+      "starter": "Chloe",
+      "answer": "Chloe, whose father teaches music, can play three instruments.",
+      "answerZh": "克洛伊會演奏三種樂器，她的父親任教音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe, whose father teaches music, can play three instruments."
+    },
+    {
+      "id": "ss15-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mr Wong will meet us at noon. His office is on the second floor.",
+      "promptZh": "黃先生中午會跟我們見面。他的辦公室在二樓。",
+      "starter": "Mr",
+      "answer": "Mr Wong, whose office is on the second floor, will meet us at noon.",
+      "answerZh": "黃先生中午會跟我們見面，他的辦公室在二樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Wong, whose office is on the second floor, will meet us at noon."
+    },
+    {
+      "id": "ss15-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The village received help quickly. Its roads were damaged by the storm.",
+      "promptZh": "那條村莊很快獲得援助。村內的道路被風暴破壞了。",
+      "starter": "The",
+      "answer": "The village, whose roads were damaged by the storm, received help quickly.",
+      "answerZh": "那條村莊很快獲得援助，村內的道路被風暴破壞了。",
+      "answerZhSource": "pdf",
+      "highlight": "The village, whose roads were damaged by the storm, received help quickly."
+    },
+    {
+      "id": "ss15-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our dog has poor hearing and sleeps through loud noises.",
+      "promptZh": "我們的狗聽力很差，即使周圍有很大的聲音也會繼續睡覺。",
+      "starter": "Our",
+      "answer": "Our dog, whose hearing is poor, sleeps through loud noises.",
+      "answerZh": "我們的狗聽力很差，即使周圍有很大的聲音也會繼續睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "Our dog, whose hearing is poor, sleeps through loud noises."
+    },
+    {
+      "id": "ss15-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A customer’s order has not arrived. I need to contact that customer.",
+      "promptZh": "一位顧客的訂單尚未送達。我需要聯絡那位顧客。",
+      "starter": "I",
+      "answer": "I need to contact the customer whose order has not arrived.",
+      "answerZh": "我需要聯絡那位訂單尚未送達的顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "I need to contact the customer whose order has not arrived."
+    },
+    {
+      "id": "ss15-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Who should you speak to? You should speak to the technician named on the notice.",
+      "promptZh": "你應該跟誰談？你應該跟告示上列出姓名的技術員談。",
+      "starter": "You",
+      "answer": "You should speak to the technician whose name is on the notice.",
+      "answerZh": "你應該跟告示上列出姓名的技術員談。",
+      "answerZhSource": "pdf",
+      "highlight": "You should speak to the technician whose name is on the notice."
+    },
+    {
+      "id": "ss15-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager is interviewing an applicant with experience that matches the job.",
+      "promptZh": "經理正在面試一名經驗符合職位要求的申請人。",
+      "starter": "The",
+      "answer": "The manager is interviewing an applicant whose experience matches the job.",
+      "answerZh": "經理正在面試一名經驗符合職位要求的申請人。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager is interviewing an applicant whose experience matches the job."
+    },
+    {
+      "id": "ss15-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Some tiles on the roof were blown away. We must repair the roof.",
+      "promptZh": "屋頂上的一些瓦片被吹走了。我們必須修理屋頂。",
+      "starter": "We",
+      "answer": "We must repair the roof whose tiles were blown away.",
+      "answerZh": "我們必須修理那個瓦片被吹走的屋頂。",
+      "answerZhSource": "pdf",
+      "highlight": "We must repair the roof whose tiles were blown away."
+    },
+    {
+      "id": "ss15-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The student with the prize-winning project will give a short talk.",
+      "promptZh": "那名項目獲獎的學生將作簡短發言。",
+      "starter": "The",
+      "answer": "The student whose project won the prize will give a short talk.",
+      "answerZh": "那名項目獲獎的學生將作簡短發言。",
+      "answerZhSource": "pdf",
+      "highlight": "The student whose project won the prize will give a short talk."
+    },
+    {
+      "id": "ss15-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A restaurant with a recently renovated kitchen reopened yesterday.",
+      "promptZh": "一間廚房最近完成翻新的餐廳昨天重新開業。",
+      "starter": "The",
+      "answer": "The restaurant whose kitchen had recently been renovated reopened yesterday.",
+      "answerZh": "那間廚房最近完成翻新的餐廳昨天重新開業。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant whose kitchen had recently been renovated reopened yesterday."
+    },
+    {
+      "id": "ss15-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital introduced a system designed mainly to reduce waiting time.",
+      "promptZh": "醫院引入了一套主要用來縮短輪候時間的系統。",
+      "starter": "The",
+      "answer": "The hospital introduced a system whose main purpose is to reduce waiting time.",
+      "answerZh": "醫院引入了一套主要目的是縮短輪候時間的系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital introduced a system whose main purpose is to reduce waiting time."
+    },
+    {
+      "id": "ss15-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We chose a supplier. Its prices were reasonable, and its service was reliable.",
+      "promptZh": "我們選了一家供應商。它的價格合理，而且服務可靠。",
+      "starter": "We",
+      "answer": "We chose a supplier whose prices were reasonable and whose service was reliable.",
+      "answerZh": "我們選了一家價格合理而且服務可靠的供應商。",
+      "answerZhSource": "pdf",
+      "highlight": "We chose a supplier whose prices were reasonable and whose service was reliable."
+    },
+    {
+      "id": "ss15-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The charity supported some families. Their homes had been destroyed by the fire.",
+      "promptZh": "慈善機構支援了一些家庭。他們的家園被大火摧毀了。",
+      "starter": "The",
+      "answer": "The charity supported some families whose homes had been destroyed by the fire.",
+      "answerZh": "慈善機構支援了一些家園被大火摧毀的家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity supported some families whose homes had been destroyed by the fire."
+    },
+    {
+      "id": "ss15-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I read an article by an author who had interviewed several local residents.",
+      "promptZh": "我閱讀了一篇文章，文章的作者曾經訪問幾名本地居民。",
+      "starter": "I",
+      "answer": "I read an article whose author had interviewed several local residents.",
+      "answerZh": "我閱讀了一篇文章，文章的作者曾經訪問幾名本地居民。",
+      "answerZhSource": "pdf",
+      "highlight": "I read an article whose author had interviewed several local residents."
+    },
+    {
+      "id": "ss15-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school welcomed a new principal from a school that had received an award.",
+      "promptZh": "學校歡迎了一位來自一間曾經獲獎學校的新校長。",
+      "starter": "The",
+      "answer": "The school welcomed a new principal whose previous school had received an award.",
+      "answerZh": "學校歡迎了一位新校長，她之前任職的學校曾經獲獎。",
+      "answerZhSource": "pdf",
+      "highlight": "The school welcomed a new principal whose previous school had received an award."
+    },
+    {
+      "id": "ss15-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which product did the company recall? It recalled a product with a label that did not contain clear safety instructions.",
+      "promptZh": "公司回收了哪一件產品？它回收了一件標籤沒有清楚安全指示的產品。",
+      "starter": "The",
+      "answer": "The company recalled a product whose label did not contain clear safety instructions.",
+      "answerZh": "公司回收了一件標籤沒有列出清楚安全指示的產品。",
+      "answerZhSource": "pdf",
+      "highlight": "The company recalled a product whose label did not contain clear safety instructions."
+    },
+    {
+      "id": "ss15-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council repaired a footbridge with wooden steps that had become dangerous after years of rain.",
+      "promptZh": "市政當局修理了一條行人橋。橋上的木梯級經過多年雨水侵蝕後已變得危險。",
+      "starter": "The",
+      "answer": "The council repaired a footbridge whose wooden steps had become dangerous after years of rain.",
+      "answerZh": "市政當局修理了一條行人橋，橋上的木梯級經過多年雨水侵蝕後已變得危險。",
+      "answerZhSource": "pdf",
+      "highlight": "The council repaired a footbridge whose wooden steps had become dangerous after years of rain."
+    },
+    {
+      "id": "ss15-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We attended a workshop containing activities that helped new employees understand the safety rules.",
+      "promptZh": "我們參加了一個工作坊，當中的活動幫助新員工了解安全規則。",
+      "starter": "We",
+      "answer": "We attended a workshop whose activities helped new employees understand the safety rules.",
+      "answerZh": "我們參加了一個工作坊，當中的活動幫助新員工了解安全規則。",
+      "answerZhSource": "pdf",
+      "highlight": "We attended a workshop whose activities helped new employees understand the safety rules."
+    },
+    {
+      "id": "ss15-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team thanked an engineer. His careful design had made the new machine easier to use.",
+      "promptZh": "團隊感謝了一名工程師。他仔細的設計令新機器更容易使用。",
+      "starter": "The",
+      "answer": "The team thanked the engineer whose careful design had made the new machine easier to use.",
+      "answerZh": "團隊感謝了那名工程師，他仔細的設計令新機器更容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The team thanked the engineer whose careful design had made the new machine easier to use."
+    },
+    {
+      "id": "ss15-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The town restored a theatre with a badly damaged roof but a stage still in good condition.",
+      "promptZh": "市鎮修復了一間劇院。劇院的屋頂嚴重受損，但舞台仍然狀況良好。",
+      "starter": "The",
+      "answer": "The town restored a theatre whose roof had been badly damaged but whose stage was still in good condition.",
+      "answerZh": "市鎮修復了一間劇院，它的屋頂嚴重受損，但舞台仍然狀況良好。",
+      "answerZhSource": "pdf",
+      "highlight": "The town restored a theatre whose roof had been badly damaged but whose stage was still in good condition."
+    }
+  ]
+}

@@ -1,0 +1,1211 @@
+{
+  "id": "ss26",
+  "order": 26,
+  "slug": "in-case-precaution",
+  "title": "「in case 句」句型",
+  "titleZh": "「in case 句」表示「以防／以免」",
+  "titleEn": "Using in case to express a precaution",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 26 -「in case 句」表示「以防／以免」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation.",
+      "meaning.en is an editorial summary of the bilingual exercise purpose and precaution rule."
+    ]
+  },
+  "formula": "Main clause showing a precaution + in case + subject + present simple / past simple",
+  "formulas": [
+    {
+      "id": "ss26-formula-main-first",
+      "labelEn": "Form 1",
+      "labelZh": "形式一",
+      "formula": "Main clause showing a precaution + in case + subject + present simple / past simple"
+    },
+    {
+      "id": "ss26-formula-condition-first",
+      "labelEn": "Form 2",
+      "labelZh": "形式二",
+      "formula": "In case + subject + present simple / past simple, + main clause showing a precaution"
+    }
+  ],
+  "example": "People often take medicine with them on trips in case they get sick.",
+  "exampleZh": "人們旅行時常會隨身帶備藥物，以防生病。",
+  "examples": [
+    {
+      "id": "ss26-example-01",
+      "en": "People often take medicine with them on trips in case they get sick.",
+      "zh": "人們旅行時常會隨身帶備藥物，以防生病。",
+      "highlight": "in case they get sick"
+    }
+  ],
+  "meaning": {
+    "en": "Use in case to show that an action is taken in advance as a precaution against a possible situation.",
+    "zh": "使用 in case 表示為可能發生的情況預先採取措施。",
+    "enSource": "editorial-summary",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss26-benefit-01",
+      "en": "It clearly shows that an action is a precaution. The reader understands that someone is preparing for a situation that may or may not happen.",
+      "zh": "清楚表示某人正在為一個可能發生、也可能不會發生的情況預先作準備。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss26-benefit-02",
+      "en": "It connects the preparation and the possible problem in one complete sentence.",
+      "zh": "把預防措施和可能出現的情況連接成一個完整句子。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss26-benefit-03",
+      "en": "It makes the timing clearer: the preparation happens first and the possible event may happen later.",
+      "zh": "令時間關係更清楚：預防措施先發生，而另一個情況可能在之後發生。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss26-benefit-04",
+      "en": "It is useful in many real-life situations involving travel, health, safety, technology, work and daily arrangements.",
+      "zh": "適合用於旅行、健康、安全、科技、工作及日常安排等實際情境。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss26-benefit-05",
+      "en": "It gives you another way to explain a possible risk instead of repeatedly using because something might happen.",
+      "zh": "提供另一種解釋可能風險的方法，不需要反覆使用 because something might happen。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss26-rule-01",
+      "en": "The main action is a precaution. The action in the main clause is normally performed before the possible situation happens.",
+      "zh": "主句中的行動是預防措施，通常會在可能發生的情況之前完成，目的是預先作好準備。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Take an umbrella in case it rains."
+      ]
+    },
+    {
+      "id": "ss26-rule-02",
+      "en": "Use a complete clause containing a subject and a verb after in case.",
+      "zh": "in case 後面要接一個包含主語和動詞的完整子句。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: in case the weather changes",
+        "Correct: in case you need help",
+        "Incorrect: in case the weather",
+        "Incorrect: in case an emergency"
+      ]
+    },
+    {
+      "id": "ss26-rule-03",
+      "en": "Do not normally use will after in case. For a possible future event, use the present simple.",
+      "zh": "當句子表示未來可能發生的情況時，in case 後通常使用現在式，而不是 will。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: Take a jacket in case it gets cold.",
+        "Incorrect: Take a jacket in case it will get cold."
+      ]
+    },
+    {
+      "id": "ss26-rule-04",
+      "en": "Use the past simple for a past precaution. When the precaution was taken in the past, the in case clause normally uses the past simple.",
+      "zh": "如果預防措施在過去發生，in case 子句通常使用過去式。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "She brought a map in case her phone stopped working."
+      ]
+    },
+    {
+      "id": "ss26-rule-05",
+      "en": "In case can appear at the beginning or end. When the in case clause comes first, place a comma after it.",
+      "zh": "in case 子句可以放在主句後面，也可以放在句首；如果放在句首，子句後要使用逗號。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Keep the receipt in case you need it.",
+        "In case you need the receipt, keep it in a safe place."
+      ]
+    },
+    {
+      "id": "ss26-rule-06",
+      "en": "In case is different from if. In case shows action taken before a possible situation as a precaution; if normally means that an action happens only when a condition becomes true.",
+      "zh": "in case 與 if 不同。in case 表示在某個情況可能發生之前先採取預防措施；if 通常表示只有在條件成真後才採取相關行動。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "I will take an umbrella in case it rains.",
+        "I will use the umbrella if it rains."
+      ]
+    },
+    {
+      "id": "ss26-rule-07",
+      "en": "In case is followed by a complete clause, whereas in case of is followed by a noun phrase. This lesson focuses on in case + complete clause.",
+      "zh": "in case 後接完整子句；in case of 後接名詞片語。本練習集中訓練 in case + 完整子句。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "in case the alarm sounds",
+        "in case of an emergency"
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation.",
+    "meaning.en is an editorial summary of the bilingual exercise purpose and precaution rule."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using in case to show a precaution against a possible situation.",
+      "Preserve the original meaning and tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 in case 改寫以下句子，表示為可能發生的情況預先採取措施。",
+      "答案必須保留原句的意思和時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss26-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It might rain later, so I took an umbrella with me.",
+      "promptZh": "稍後可能會下雨，所以我帶了一把雨傘。",
+      "starter": "I",
+      "answer": "I took an umbrella with me in case it rained later.",
+      "answerZh": "我帶了一把雨傘，以防稍後下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "I took an umbrella with me in case it rained later."
+    },
+    {
+      "id": "ss26-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily carries some tissues because she may need them during the day.",
+      "promptZh": "莉莉隨身帶備紙巾，因為她日間可能會用得上。",
+      "starter": "Lily",
+      "answer": "Lily carries some tissues in case she needs them during the day.",
+      "answerZh": "莉莉隨身帶備紙巾，以防日間有需要。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily carries some tissues in case she needs them during the day."
+    },
+    {
+      "id": "ss26-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The children might get hungry, so we packed some snacks.",
+      "promptZh": "孩子們可能會肚餓，所以我們帶備了一些小食。",
+      "starter": "We",
+      "answer": "We packed some snacks in case the children got hungry.",
+      "answerZh": "我們帶備了一些小食，以防孩子們肚餓。",
+      "answerZhSource": "pdf",
+      "highlight": "We packed some snacks in case the children got hungry."
+    },
+    {
+      "id": "ss26-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben wrote down the address because he was worried that he might forget it.",
+      "promptZh": "本寫下了地址，因為他擔心自己可能會忘記。",
+      "starter": "Ben",
+      "answer": "Ben wrote down the address in case he forgot it.",
+      "answerZh": "本寫下了地址，以防自己忘記。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben wrote down the address in case he forgot it."
+    },
+    {
+      "id": "ss26-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia charges her phone before leaving because the battery may run low while she is out.",
+      "promptZh": "米婭出門前為電話充電，因為她外出時電量可能會變低。",
+      "starter": "Mia",
+      "answer": "Mia charges her phone before leaving in case the battery runs low while she is out.",
+      "answerZh": "米婭出門前為電話充電，以防外出時電量不足。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia charges her phone before leaving in case the battery runs low while she is out."
+    },
+    {
+      "id": "ss26-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did Jack bring a jacket? He thought the weather might become cold.",
+      "promptZh": "傑克為甚麼帶外套？他認為天氣可能會轉冷。",
+      "starter": "Jack",
+      "answer": "Jack brought a jacket in case the weather became cold.",
+      "answerZh": "傑克帶了外套，以防天氣轉冷。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack brought a jacket in case the weather became cold."
+    },
+    {
+      "id": "ss26-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop may not accept cards, so take some cash with you.",
+      "promptZh": "店舖可能不接受信用卡，所以請帶備一些現金。",
+      "starter": "Take",
+      "answer": "Take some cash with you in case the shop does not accept cards.",
+      "answerZh": "請帶備一些現金，以防店舖不接受信用卡。",
+      "answerZhSource": "pdf",
+      "highlight": "Take some cash with you in case the shop does not accept cards."
+    },
+    {
+      "id": "ss26-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma may get thirsty, so she keeps a bottle of water in her bag.",
+      "promptZh": "艾瑪可能會口渴，所以她在袋中放了一瓶水。",
+      "starter": "Emma",
+      "answer": "Emma keeps a bottle of water in her bag in case she gets thirsty.",
+      "answerZh": "艾瑪在袋中放了一瓶水，以防口渴。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma keeps a bottle of water in her bag in case she gets thirsty."
+    },
+    {
+      "id": "ss26-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The driver checked the spare tyre because he might have a flat tyre on the road.",
+      "promptZh": "司機檢查了後備輪胎，因為他在路上可能會遇上輪胎漏氣。",
+      "starter": "The",
+      "answer": "The driver checked the spare tyre in case he had a flat tyre on the road.",
+      "answerZh": "司機檢查了後備輪胎，以防在路上遇上輪胎漏氣。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver checked the spare tyre in case he had a flat tyre on the road."
+    },
+    {
+      "id": "ss26-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our teacher printed extra worksheets so that she would be prepared if more students joined the class.",
+      "promptZh": "老師多印了一些工作紙，好讓自己在有更多學生加入課堂時有所準備。",
+      "starter": "Our",
+      "answer": "Our teacher printed extra worksheets in case more students joined the class.",
+      "answerZh": "老師多印了一些工作紙，以防有更多學生加入課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher printed extra worksheets in case more students joined the class."
+    },
+    {
+      "id": "ss26-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah does not want to lose her work if the computer suddenly crashes, so she saves it every ten minutes.",
+      "promptZh": "莎拉不想在電腦突然故障時遺失工作，所以她每十分鐘儲存一次。",
+      "starter": "Sarah",
+      "answer": "Sarah saves her work every ten minutes in case the computer suddenly crashes.",
+      "answerZh": "莎拉每十分鐘儲存一次工作，以防電腦突然故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah saves her work every ten minutes in case the computer suddenly crashes."
+    },
+    {
+      "id": "ss26-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "David wanted a second alarm ready if the first one failed to wake him, so he set two alarms.",
+      "promptZh": "大衛希望在第一個鬧鐘未能叫醒他時仍有另一個鬧鐘，所以他設定了兩個鬧鐘。",
+      "starter": "David",
+      "answer": "David set two alarms in case the first one did not wake him.",
+      "answerZh": "大衛設定了兩個鬧鐘，以防第一個鬧鐘未能叫醒他。",
+      "answerZhSource": "pdf",
+      "highlight": "David set two alarms in case the first one did not wake him."
+    },
+    {
+      "id": "ss26-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This key is kept at reception because a guest may lose their room key.",
+      "promptZh": "這把鑰匙存放在接待處，因為客人可能會遺失房間鑰匙。",
+      "starter": "This",
+      "answer": "This key is kept at reception in case a guest loses their room key.",
+      "answerZh": "這把鑰匙存放在接待處，以防客人遺失房間鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "This key is kept at reception in case a guest loses their room key."
+    },
+    {
+      "id": "ss26-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Amy brought a map because her phone might not connect to the internet.",
+      "promptZh": "艾米帶了一張地圖，因為她的電話可能無法連接互聯網。",
+      "starter": "Amy",
+      "answer": "Amy brought a map in case her phone could not connect to the internet.",
+      "answerZh": "艾米帶了一張地圖，以防她的電話無法連接互聯網。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy brought a map in case her phone could not connect to the internet."
+    },
+    {
+      "id": "ss26-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You may need to return the item later, so keep the receipt.",
+      "promptZh": "你稍後可能需要退回貨品，所以請保留收據。",
+      "starter": "Keep",
+      "answer": "Keep the receipt in case you need to return the item later.",
+      "answerZh": "請保留收據，以防稍後需要退回貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the receipt in case you need to return the item later."
+    },
+    {
+      "id": "ss26-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Kevin's laptop might stop working, so he copied the important files onto a USB drive.",
+      "promptZh": "凱文的手提電腦可能會停止運作，所以他把重要檔案複製到 USB 儲存裝置。",
+      "starter": "Kevin",
+      "answer": "Kevin copied the important files onto a USB drive in case his laptop stopped working.",
+      "answerZh": "凱文把重要檔案複製到 USB 儲存裝置，以防手提電腦停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin copied the important files onto a USB drive in case his laptop stopped working."
+    },
+    {
+      "id": "ss26-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why does the nurse keep extra masks nearby? More patients may arrive.",
+      "promptZh": "護士為甚麼在附近放置額外口罩？可能會有更多病人到來。",
+      "starter": "The",
+      "answer": "The nurse keeps extra masks nearby in case more patients arrive.",
+      "answerZh": "護士在附近放置額外口罩，以防有更多病人到來。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse keeps extra masks nearby in case more patients arrive."
+    },
+    {
+      "id": "ss26-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We chose an indoor table as a precaution against possible rain during lunch.",
+      "promptZh": "我們選擇了室內座位，以預防午膳期間可能下雨。",
+      "starter": "We",
+      "answer": "We chose an indoor table in case it rained during lunch.",
+      "answerZh": "我們選擇了室內座位，以防午膳期間下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "We chose an indoor table in case it rained during lunch."
+    },
+    {
+      "id": "ss26-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "Chloe was worried that she might become nervous and forget part of her speech, so she wrote it on cards.",
+      "promptZh": "克洛伊擔心自己可能會緊張並忘記部分演辭，所以她把內容寫在卡片上。",
+      "starter": "Chloe",
+      "answer": "Chloe wrote her speech on cards in case she became nervous and forgot part of it.",
+      "answerZh": "克洛伊把演辭寫在卡片上，以防自己緊張並忘記部分內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe wrote her speech on cards in case she became nervous and forgot part of it."
+    },
+    {
+      "id": "ss26-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach wanted a replacement ready if any player was unable to attend, so he invited an extra player.",
+      "promptZh": "教練希望在有球員未能出席時有後備人選，所以他邀請了一名額外球員。",
+      "starter": "The",
+      "answer": "The coach invited an extra player in case someone was unable to attend.",
+      "answerZh": "教練邀請了一名額外球員，以防有人未能出席。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach invited an extra player in case someone was unable to attend."
+    },
+    {
+      "id": "ss26-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Heavy traffic is possible, so Olivia leaves home early.",
+      "promptZh": "路面可能會嚴重擠塞，所以奧莉花提早離家。",
+      "starter": "Olivia",
+      "answer": "Olivia leaves home early in case there is heavy traffic.",
+      "answerZh": "奧莉花提早離家，以防交通擠塞。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia leaves home early in case there is heavy traffic."
+    },
+    {
+      "id": "ss26-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A backup generator was installed so that the hospital could continue operating if it lost power.",
+      "promptZh": "醫院安裝了後備發電機，以便在停電時仍可繼續運作。",
+      "starter": "A",
+      "answer": "A backup generator was installed in case the hospital lost power.",
+      "answerZh": "醫院安裝了後備發電機，以防停電。",
+      "answerZhSource": "pdf",
+      "highlight": "A backup generator was installed in case the hospital lost power."
+    },
+    {
+      "id": "ss26-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel wore gloves because there was a risk that the paint might damage his skin.",
+      "promptZh": "丹尼爾戴上手套，因為油漆有可能傷害他的皮膚。",
+      "starter": "Daniel",
+      "answer": "Daniel wore gloves in case the paint damaged his skin.",
+      "answerZh": "丹尼爾戴上手套，以防油漆傷害皮膚。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel wore gloves in case the paint damaged his skin."
+    },
+    {
+      "id": "ss26-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hotel may ask to see your passport, so you should take it with you.",
+      "promptZh": "酒店可能會要求查看你的護照，所以你應該隨身攜帶。",
+      "starter": "You",
+      "answer": "You should take your passport with you in case the hotel asks to see it.",
+      "answerZh": "你應該隨身攜帶護照，以防酒店要求查看。",
+      "answerZhSource": "pdf",
+      "highlight": "You should take your passport with you in case the hotel asks to see it."
+    },
+    {
+      "id": "ss26-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Grace may need help in an emergency, so she keeps the emergency number on her phone.",
+      "promptZh": "格蕾絲在緊急情況下可能需要協助，所以她把緊急電話號碼儲存在電話內。",
+      "starter": "Grace",
+      "answer": "Grace keeps the emergency number on her phone in case she needs help.",
+      "answerZh": "格蕾絲把緊急電話號碼儲存在電話內，以防需要協助。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace keeps the emergency number on her phone in case she needs help."
+    },
+    {
+      "id": "ss26-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum keeps printed guides available so that visitors still have information if the audio system is not working.",
+      "promptZh": "博物館備有印刷指南，好讓訪客在語音系統無法運作時仍可取得資料。",
+      "starter": "The",
+      "answer": "The museum has printed guides in case the audio system is not working.",
+      "answerZh": "博物館備有印刷指南，以防語音系統無法運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has printed guides in case the audio system is not working."
+    },
+    {
+      "id": "ss26-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Noah left a spare key with his neighbour because he was afraid that he might get locked out.",
+      "promptZh": "諾亞把後備鑰匙交給鄰居，因為他擔心自己可能會被鎖在門外。",
+      "starter": "Noah",
+      "answer": "Noah left a spare key with his neighbour in case he got locked out.",
+      "answerZh": "諾亞把後備鑰匙交給鄰居，以防自己被鎖在門外。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah left a spare key with his neighbour in case he got locked out."
+    },
+    {
+      "id": "ss26-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisers prepared more chairs because there was a chance that a larger crowd would arrive.",
+      "promptZh": "主辦單位準備了更多椅子，因為可能會有更多人到場。",
+      "starter": "The",
+      "answer": "The organisers prepared more chairs in case a larger crowd arrived.",
+      "answerZh": "主辦單位準備了更多椅子，以防有更多人到場。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers prepared more chairs in case a larger crowd arrived."
+    },
+    {
+      "id": "ss26-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did Sofia bring some medicine? She thought she might feel sick on the boat.",
+      "promptZh": "蘇菲亞為甚麼帶備藥物？她認為自己在船上可能會不適。",
+      "starter": "Sofia",
+      "answer": "Sofia brought some medicine in case she felt sick on the boat.",
+      "answerZh": "蘇菲亞帶備了一些藥物，以防在船上感到不適。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia brought some medicine in case she felt sick on the boat."
+    },
+    {
+      "id": "ss26-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Customers sometimes need change, so the shop keeps coins and small notes at the till.",
+      "promptZh": "顧客有時需要找續，所以店舖在收銀處存放硬幣和小面額鈔票。",
+      "starter": "The",
+      "answer": "The shop keeps coins and small notes at the till in case customers need change.",
+      "answerZh": "店舖在收銀處存放硬幣和小面額鈔票，以防顧客需要找續。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop keeps coins and small notes at the till in case customers need change."
+    },
+    {
+      "id": "ss26-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The lift may stop working, so keep the stairs beside the main entrance clear.",
+      "promptZh": "升降機可能會停止運作，所以請保持正門旁的樓梯暢通。",
+      "starter": "In",
+      "answer": "In case the lift stops working, keep the stairs beside the main entrance clear.",
+      "answerZh": "以防升降機停止運作，請保持正門旁的樓梯暢通。",
+      "answerZhSource": "pdf",
+      "highlight": "In case the lift stops working, keep the stairs beside the main entrance clear."
+    },
+    {
+      "id": "ss26-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A student might have an allergic reaction, so the teacher carries the students' medical information.",
+      "promptZh": "學生可能會出現過敏反應，所以老師隨身攜帶學生的醫療資料。",
+      "starter": "In",
+      "answer": "In case anyone has an allergic reaction, the teacher carries the students' medical information.",
+      "answerZh": "以防有人出現過敏反應，老師會隨身攜帶學生的醫療資料。",
+      "answerZhSource": "pdf",
+      "highlight": "In case anyone has an allergic reaction, the teacher carries the students' medical information."
+    },
+    {
+      "id": "ss26-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Marcus took a photograph of the parking space because he might be unable to find the car later.",
+      "promptZh": "馬庫斯拍下了泊車位置，因為他稍後可能找不到汽車。",
+      "starter": "Marcus",
+      "answer": "Marcus took a photograph of the parking space in case he could not find the car later.",
+      "answerZh": "馬庫斯拍下了泊車位置，以防稍後找不到汽車。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus took a photograph of the parking space in case he could not find the car later."
+    },
+    {
+      "id": "ss26-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The library uses paper records as a backup because the computer system may go down.",
+      "promptZh": "圖書館使用紙本紀錄作為後備，因為電腦系統可能會停止運作。",
+      "starter": "The",
+      "answer": "The library uses paper records as a backup in case the computer system goes down.",
+      "answerZh": "圖書館使用紙本紀錄作為後備，以防電腦系統停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The library uses paper records as a backup in case the computer system goes down."
+    },
+    {
+      "id": "ss26-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The train may be delayed, so Aisha has saved the bus timetable on her phone.",
+      "promptZh": "火車可能會延誤，所以艾莎已把巴士時間表儲存在電話內。",
+      "starter": "In",
+      "answer": "In case the train is delayed, Aisha has saved the bus timetable on her phone.",
+      "answerZh": "以防火車延誤，艾莎已把巴士時間表儲存在電話內。",
+      "answerZhSource": "pdf",
+      "highlight": "In case the train is delayed, Aisha has saved the bus timetable on her phone."
+    },
+    {
+      "id": "ss26-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The chef prepared an extra vegetarian dish because one of the guests might not eat meat.",
+      "promptZh": "廚師多準備了一道素菜，因為其中一位客人可能不吃肉。",
+      "starter": "The",
+      "answer": "The chef prepared an extra vegetarian dish in case one of the guests did not eat meat.",
+      "answerZh": "廚師多準備了一道素菜，以防其中一位客人不吃肉。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef prepared an extra vegetarian dish in case one of the guests did not eat meat."
+    },
+    {
+      "id": "ss26-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It may get dark before we return, so we should bring a torch.",
+      "promptZh": "我們回來前天色可能會變黑，所以應該帶備電筒。",
+      "starter": "We",
+      "answer": "We should bring a torch in case it gets dark before we return.",
+      "answerZh": "我們應該帶備電筒，以防回來前天色變黑。",
+      "answerZhSource": "pdf",
+      "highlight": "We should bring a torch in case it gets dark before we return."
+    },
+    {
+      "id": "ss26-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "One message might not arrive, so Ethan sent the meeting link by email and text.",
+      "promptZh": "其中一則訊息可能無法送達，所以伊森透過電郵和短訊發送會議連結。",
+      "starter": "Ethan",
+      "answer": "Ethan sent the meeting link by email and text in case one message did not arrive.",
+      "answerZh": "伊森透過電郵和短訊發送會議連結，以防其中一則訊息無法送達。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan sent the meeting link by email and text in case one message did not arrive."
+    },
+    {
+      "id": "ss26-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Their son might spill a drink over his clothes, so the parents packed a change of clothes.",
+      "promptZh": "他們的兒子可能會把飲品倒在衣服上，所以父母帶備了一套替換衣物。",
+      "starter": "The",
+      "answer": "The parents packed a change of clothes in case their son spilt a drink over his clothes.",
+      "answerZh": "父母帶備了一套替換衣物，以防兒子把飲品倒在衣服上。",
+      "answerZhSource": "pdf",
+      "highlight": "The parents packed a change of clothes in case their son spilt a drink over his clothes."
+    },
+    {
+      "id": "ss26-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The weather might become dangerous, so the organisers have reserved the sports hall.",
+      "promptZh": "天氣可能會變得危險，所以主辦單位已預留體育館。",
+      "starter": "In",
+      "answer": "In case the weather becomes dangerous, the organisers have reserved the sports hall.",
+      "answerZh": "以防天氣變得危險，主辦單位已預留體育館。",
+      "answerZhSource": "pdf",
+      "highlight": "In case the weather becomes dangerous, the organisers have reserved the sports hall."
+    },
+    {
+      "id": "ss26-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The online booking system may fail, so the theatre keeps a telephone booking line open.",
+      "promptZh": "網上訂票系統可能會失靈，所以劇院保留電話訂票服務。",
+      "starter": "In",
+      "answer": "In case the online booking system fails, the theatre keeps a telephone booking line open.",
+      "answerZh": "以防網上訂票系統失靈，劇院保留電話訂票服務。",
+      "answerZhSource": "pdf",
+      "highlight": "In case the online booking system fails, the theatre keeps a telephone booking line open."
+    },
+    {
+      "id": "ss26-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "The school arranged an extra bus as a backup because the first bus might break down.",
+      "promptZh": "學校安排了額外一輛巴士作後備，因為第一輛巴士可能會故障。",
+      "starter": "The",
+      "answer": "The school arranged an extra bus in case the first bus broke down.",
+      "answerZh": "學校安排了額外一輛巴士，以防第一輛巴士故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The school arranged an extra bus in case the first bus broke down."
+    },
+    {
+      "id": "ss26-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Maya might be unable to access the company system, so she saved the client's phone number separately.",
+      "promptZh": "瑪雅可能無法登入公司系統，所以她另外儲存了客戶的電話號碼。",
+      "starter": "Maya",
+      "answer": "Maya saved the client's phone number separately in case she could not access the company system.",
+      "answerZh": "瑪雅另外儲存了客戶的電話號碼，以防無法登入公司系統。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya saved the client's phone number separately in case she could not access the company system."
+    },
+    {
+      "id": "ss26-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The hikers might be cold or wet, so the rescue team carried additional blankets.",
+      "promptZh": "遠足人士可能會感到寒冷或全身濕透，所以救援隊帶備了額外毛氈。",
+      "starter": "The",
+      "answer": "The rescue team carried additional blankets in case the hikers were cold or wet.",
+      "answerZh": "救援隊帶備了額外毛氈，以防遠足人士感到寒冷或全身濕透。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team carried additional blankets in case the hikers were cold or wet."
+    },
+    {
+      "id": "ss26-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The lights may go out during an emergency, so staff keep emergency torches by the door.",
+      "promptZh": "緊急情況下燈光可能會熄滅，所以職員把應急電筒放在門旁。",
+      "starter": "Staff",
+      "answer": "Staff keep emergency torches by the door in case the lights go out during an emergency.",
+      "answerZh": "職員把應急電筒放在門旁，以防緊急情況下燈光熄滅。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff keep emergency torches by the door in case the lights go out during an emergency."
+    },
+    {
+      "id": "ss26-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The projector might fail, so a printed copy of the report was brought to the meeting.",
+      "promptZh": "投影機可能會失靈，所以有人把報告的印刷本帶到會議。",
+      "starter": "A",
+      "answer": "A printed copy of the report was brought to the meeting in case the projector failed.",
+      "answerZh": "有人把報告的印刷本帶到會議，以防投影機失靈。",
+      "answerZhSource": "pdf",
+      "highlight": "A printed copy of the report was brought to the meeting in case the projector failed."
+    },
+    {
+      "id": "ss26-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A doctor may need the information unexpectedly, so Leo keeps a list of his medicines in his wallet.",
+      "promptZh": "醫生可能會突然需要相關資料，所以里奧在銀包內放有自己的藥物清單。",
+      "starter": "Leo",
+      "answer": "Leo keeps a list of his medicines in his wallet in case a doctor needs the information.",
+      "answerZh": "里奧在銀包內放有自己的藥物清單，以防醫生需要相關資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo keeps a list of his medicines in his wallet in case a doctor needs the information."
+    },
+    {
+      "id": "ss26-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Drivers might miss the new entrance, so the council placed temporary signs nearby.",
+      "promptZh": "司機可能會錯過新入口，所以當局在附近設置了臨時路牌。",
+      "starter": "The",
+      "answer": "The council placed temporary signs nearby in case drivers missed the new entrance.",
+      "answerZh": "當局在附近設置了臨時路牌，以防司機錯過新入口。",
+      "answerZhSource": "pdf",
+      "highlight": "The council placed temporary signs nearby in case drivers missed the new entrance."
+    },
+    {
+      "id": "ss26-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The main speaker might be unable to attend, so the organiser has asked Priya to prepare a short presentation.",
+      "promptZh": "主講嘉賓可能未能出席，所以主辦人已請普莉雅準備一段簡短簡報。",
+      "starter": "In",
+      "answer": "In case the main speaker is unable to attend, the organiser has asked Priya to prepare a short presentation.",
+      "answerZh": "以防主講嘉賓未能出席，主辦人已請普莉雅準備一段簡短簡報。",
+      "answerZhSource": "pdf",
+      "highlight": "In case the main speaker is unable to attend, the organiser has asked Priya to prepare a short presentation."
+    },
+    {
+      "id": "ss26-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The computer network might stop working during a busy period, so the airport keeps manual check-in forms ready.",
+      "promptZh": "電腦網絡可能在繁忙時段停止運作，所以機場備妥人手辦理登機手續的表格。",
+      "starter": "The",
+      "answer": "The airport keeps manual check-in forms ready in case the computer network stops working during a busy period.",
+      "answerZh": "機場備妥人手辦理登機手續的表格，以防電腦網絡在繁忙時段停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The airport keeps manual check-in forms ready in case the computer network stops working during a busy period."
+    }
+  ]
+}

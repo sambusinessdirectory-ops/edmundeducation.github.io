@@ -1,0 +1,1064 @@
+{
+  "id": "ss34",
+  "order": 34,
+  "slug": "while-contrast",
+  "title": "「While 對比句」句型",
+  "titleZh": "「While 句——對比兩個人物、群體或情況」",
+  "titleEn": "Using While to contrast people, groups or situations",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 34 - 「While 句——對比兩個人物、群體或情況」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Notes explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Clause A, while Clause B.",
+  "formulas": [
+    {
+      "id": "ss34-formula-contrast",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Clause A, while Clause B."
+    },
+    {
+      "id": "ss34-formula-expanded",
+      "labelEn": "Expanded Structure",
+      "labelZh": "完整結構",
+      "formula": "Subject A + verb + information, while Subject B + verb + information."
+    }
+  ],
+  "example": "Some people value speed, while others care more about accuracy.",
+  "exampleZh": "有些人重視速度，而另一些人則更在意準確性。",
+  "examples": [
+    {
+      "id": "ss34-example-01",
+      "en": "Some people value speed, while others care more about accuracy.",
+      "zh": "有些人重視速度，而另一些人則更在意準確性。",
+      "highlight": "while others care more about accuracy"
+    }
+  ],
+  "meaning": {
+    "zh": "本課的 while 意思接近 whereas 或 by contrast，用來比較兩個不同的人、群體、事物或情況。"
+  },
+  "rules": [
+    {
+      "id": "ss34-rule-01",
+      "en": "In this lesson, while expresses contrast. It means approximately whereas or by contrast and compares different people, groups, things or situations.",
+      "zh": "本課的 while 表示「對比」，意思接近 whereas 或 by contrast，用來比較兩個不同的人、群體、事物或情況。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Some students enjoy group work, while others prefer to study alone."
+      ]
+    },
+    {
+      "id": "ss34-rule-02",
+      "en": "Normally put a comma before while when it connects two complete clauses.",
+      "zh": "當 while 連接兩個完整句子時，通常在 while 前加逗號。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Mia likes tea, while her brother prefers coffee."
+      ]
+    },
+    {
+      "id": "ss34-rule-03",
+      "en": "Both sides of while should normally be complete clauses with a subject and a verb.",
+      "zh": "While 兩邊都要有完整子句；while 後面通常需要有主語和動詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The first plan saves money, while the second plan saves time."
+      ]
+    },
+    {
+      "id": "ss34-rule-04",
+      "en": "This lesson does not use while to mean ‘during the time that’.",
+      "zh": "本句型不包括 while 表示「在……期間／當……的時候」的意思。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I listened to music while I was cooking."
+      ]
+    },
+    {
+      "id": "ss34-rule-05",
+      "en": "Distinguish contrasting while from concessive while. If while can be replaced by whereas, it contrasts two sides; if it can be replaced by although or even though, it expresses concession.",
+      "zh": "分辨表示對比與讓步的 while：可以換成 whereas 時表示兩者對比；可以換成 although / even though 時表示「雖然」，屬於讓步。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Some people value speed, while others care more about accuracy.",
+        "While natural foods are nutritious, they are often too expensive."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss34-benefit-01",
+      "en": "It makes the difference clear.",
+      "zh": "把兩項資料放在同一句中，讓讀者立即看出兩者在哪一方面不同。"
+    },
+    {
+      "id": "ss34-benefit-02",
+      "en": "It joins two related ideas.",
+      "zh": "不需要連續寫兩個短句，也可以自然地比較兩個人物或情況。"
+    },
+    {
+      "id": "ss34-benefit-03",
+      "en": "It helps you present two sides fairly.",
+      "zh": "使用 while 時，兩個觀點都能得到清楚介紹，適合討論不同選擇、人物需要或社會觀點。"
+    },
+    {
+      "id": "ss34-benefit-04",
+      "en": "It gives you an alternative to but.",
+      "zh": "While 提供另一種自然的對比方式，避免不斷重複使用 but，令句式更多變。"
+    },
+    {
+      "id": "ss34-benefit-05",
+      "en": "It is useful in speaking and writing.",
+      "zh": "可用於比較兩類人、兩個選擇、兩種方法、兩個地方、兩項研究結果，以及支持者與反對者的看法。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents the Important Notes mainly in Chinese; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using while to show a contrast between two people, groups, things or situations.",
+      "Use while to mean whereas / by contrast, not although.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 while 改寫以下句子，以對比兩個人物、群體、事物或情況。",
+      "本練習中的 while 應表示「相比之下」，而不是「雖然」。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss34-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Some students enjoy group work. Other students prefer to study alone.",
+      "promptZh": "有些學生喜歡小組學習。另一些學生則較喜歡獨自溫習。",
+      "starter": "Some",
+      "answer": "Some students enjoy group work, while others prefer to study alone.",
+      "answerZh": "有些學生喜歡小組學習，而另一些學生則較喜歡獨自溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Some students enjoy group work, while others prefer to study alone."
+    },
+    {
+      "id": "ss34-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Mia gets up early, but her brother sleeps until late.",
+      "promptZh": "米婭很早起床，但她的哥哥睡到很晚。",
+      "starter": "Mia",
+      "answer": "Mia gets up early, while her brother sleeps until late.",
+      "answerZh": "米婭很早起床，而她的哥哥則睡到很晚。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia gets up early, while her brother sleeps until late."
+    },
+    {
+      "id": "ss34-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The red backpack is cheaper. In contrast, the blue one is stronger.",
+      "promptZh": "紅色背包較便宜。相比之下，藍色背包則較結實。",
+      "starter": "The",
+      "answer": "The red backpack is cheaper, while the blue one is stronger.",
+      "answerZh": "紅色背包較便宜，而藍色背包則較結實。",
+      "answerZhSource": "pdf",
+      "highlight": "The red backpack is cheaper, while the blue one is stronger."
+    },
+    {
+      "id": "ss34-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "I like reading novels, but my sister prefers watching films.",
+      "promptZh": "我喜歡閱讀小說，但我的妹妹較喜歡看電影。",
+      "starter": "I",
+      "answer": "I like reading novels, while my sister prefers watching films.",
+      "answerZh": "我喜歡閱讀小說，而我的妹妹則較喜歡看電影。",
+      "answerZhSource": "pdf",
+      "highlight": "I like reading novels, while my sister prefers watching films."
+    },
+    {
+      "id": "ss34-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "City buses are convenient. Taxis, on the other hand, are faster.",
+      "promptZh": "市內巴士很方便。另一方面，的士則較快。",
+      "starter": "City",
+      "answer": "City buses are convenient, while taxis are faster.",
+      "answerZh": "市內巴士很方便，而的士則較快。",
+      "answerZhSource": "pdf",
+      "highlight": "City buses are convenient, while taxis are faster."
+    },
+    {
+      "id": "ss34-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Ben saves most of his pocket money, whereas Leo spends his quickly.",
+      "promptZh": "本把大部分零用錢儲起來，而里奧則很快把零用錢花掉。",
+      "starter": "Ben",
+      "answer": "Ben saves most of his pocket money, while Leo spends his quickly.",
+      "answerZh": "本把大部分零用錢儲起來，而里奧則很快把零用錢花掉。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben saves most of his pocket money, while Leo spends his quickly."
+    },
+    {
+      "id": "ss34-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Our teacher speaks softly. The coach gives loud instructions.",
+      "promptZh": "我們的老師說話輕柔。教練則大聲下達指示。",
+      "starter": "Our",
+      "answer": "Our teacher speaks softly, while the coach gives loud instructions.",
+      "answerZh": "我們的老師說話輕柔，而教練則大聲下達指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher speaks softly, while the coach gives loud instructions."
+    },
+    {
+      "id": "ss34-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The morning class starts at nine, but the evening class begins at six.",
+      "promptZh": "上午課程在九時開始，但晚間課程在六時開始。",
+      "starter": "The",
+      "answer": "The morning class starts at nine, while the evening class begins at six.",
+      "answerZh": "上午課程在九時開始，而晚間課程則在六時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning class starts at nine, while the evening class begins at six."
+    },
+    {
+      "id": "ss34-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "Cats often enjoy quiet spaces. Dogs usually need more active play.",
+      "promptZh": "貓通常喜歡安靜的空間。狗一般需要較多活動。",
+      "starter": "Cats",
+      "answer": "Cats often enjoy quiet spaces, while dogs usually need more active play.",
+      "answerZh": "貓通常喜歡安靜的空間，而狗一般需要較多活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Cats often enjoy quiet spaces, while dogs usually need more active play."
+    },
+    {
+      "id": "ss34-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Some families cook at home most evenings, but others eat out regularly.",
+      "promptZh": "有些家庭大部分晚上都在家煮食，但另一些家庭則經常外出用膳。",
+      "starter": "Some",
+      "answer": "Some families cook at home most evenings, while others eat out regularly.",
+      "answerZh": "有些家庭大部分晚上都在家煮食，而另一些家庭則經常外出用膳。",
+      "answerZhSource": "pdf",
+      "highlight": "Some families cook at home most evenings, while others eat out regularly."
+    },
+    {
+      "id": "ss34-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "One shop offers lower prices. Another shop, however, provides better service.",
+      "promptZh": "一家商店提供較低價格。然而，另一家商店則提供較佳服務。",
+      "starter": "One",
+      "answer": "One shop offers lower prices, while another provides better service.",
+      "answerZh": "一家商店提供較低價格，而另一家商店則提供較佳服務。",
+      "answerZhSource": "pdf",
+      "highlight": "One shop offers lower prices, while another provides better service."
+    },
+    {
+      "id": "ss34-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Ava planned every detail. Max, on the other hand, preferred to make decisions later.",
+      "promptZh": "艾娃預先計劃每個細節。另一方面，麥克斯則較喜歡遲些才作決定。",
+      "starter": "Ava",
+      "answer": "Ava planned every detail, while Max preferred to make decisions later.",
+      "answerZh": "艾娃預先計劃每個細節，而麥克斯則較喜歡遲些才作決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava planned every detail, while Max preferred to make decisions later."
+    },
+    {
+      "id": "ss34-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The first question is easy. The second, however, requires more thought.",
+      "promptZh": "第一條問題很容易。然而，第二條問題則需要多花心思。",
+      "starter": "The",
+      "answer": "The first question is easy, while the second requires more thought.",
+      "answerZh": "第一條問題很容易，而第二條問題則需要多花心思。",
+      "answerZhSource": "pdf",
+      "highlight": "The first question is easy, while the second requires more thought."
+    },
+    {
+      "id": "ss34-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Unlike Daniel, who enjoys busy social events, his cousin likes quiet evenings at home.",
+      "promptZh": "丹尼爾喜歡熱鬧的社交活動，但他的表弟則喜歡在家安靜地度過晚上。",
+      "starter": "Daniel",
+      "answer": "Daniel enjoys busy social events, while his cousin likes quiet evenings at home.",
+      "answerZh": "丹尼爾喜歡熱鬧的社交活動，而他的表弟則喜歡在家安靜地度過晚上。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel enjoys busy social events, while his cousin likes quiet evenings at home."
+    },
+    {
+      "id": "ss34-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Online lessons offer flexibility. Classroom lessons, by comparison, provide more face-to-face support.",
+      "promptZh": "網上課堂提供彈性。相比之下，課室教學則提供更多面對面支援。",
+      "starter": "Online",
+      "answer": "Online lessons offer flexibility, while classroom lessons provide more face-to-face support.",
+      "answerZh": "網上課堂提供彈性，而課室教學則提供更多面對面支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Online lessons offer flexibility, while classroom lessons provide more face-to-face support."
+    },
+    {
+      "id": "ss34-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Nina focuses on details; her partner, on the other hand, concentrates on the overall idea.",
+      "promptZh": "妮娜專注於細節；另一方面，她的拍檔則集中於整體構思。",
+      "starter": "Nina",
+      "answer": "Nina focuses on details, while her partner concentrates on the overall idea.",
+      "answerZh": "妮娜專注於細節，而她的拍檔則集中於整體構思。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina focuses on details, while her partner concentrates on the overall idea."
+    },
+    {
+      "id": "ss34-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Small cafés often feel personal, but large restaurants can serve more customers.",
+      "promptZh": "小型咖啡店通常較有人情味，但大型餐廳可以招待更多顧客。",
+      "starter": "Small",
+      "answer": "Small cafés often feel personal, while large restaurants can serve more customers.",
+      "answerZh": "小型咖啡店通常較有人情味，而大型餐廳則可以招待更多顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "Small cafés often feel personal, while large restaurants can serve more customers."
+    },
+    {
+      "id": "ss34-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "This phone has a better camera. That model has a longer battery life.",
+      "promptZh": "這部電話的相機較好。那個型號的電池續航力則較長。",
+      "starter": "This",
+      "answer": "This phone has a better camera, while that model has a longer battery life.",
+      "answerZh": "這部電話的相機較好，而那個型號的電池續航力則較長。",
+      "answerZhSource": "pdf",
+      "highlight": "This phone has a better camera, while that model has a longer battery life."
+    },
+    {
+      "id": "ss34-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The older children worked independently. By contrast, the younger ones asked for more help.",
+      "promptZh": "年紀較大的孩子獨立完成工作。相比之下，較年幼的孩子則尋求更多協助。",
+      "starter": "The",
+      "answer": "The older children worked independently, while the younger ones asked for more help.",
+      "answerZh": "年紀較大的孩子獨立完成工作，而較年幼的孩子則尋求更多協助。",
+      "answerZhSource": "pdf",
+      "highlight": "The older children worked independently, while the younger ones asked for more help."
+    },
+    {
+      "id": "ss34-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Younger workers may welcome rapid change, but older colleagues may prefer familiar systems.",
+      "promptZh": "年輕員工可能歡迎迅速的轉變，但年長同事可能較喜歡熟悉的制度。",
+      "starter": "Younger",
+      "answer": "Younger workers may welcome rapid change, while older colleagues may prefer familiar systems.",
+      "answerZh": "年輕員工可能歡迎迅速的轉變，而年長同事則可能較喜歡熟悉的制度。",
+      "answerZhSource": "pdf",
+      "highlight": "Younger workers may welcome rapid change, while older colleagues may prefer familiar systems."
+    },
+    {
+      "id": "ss34-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Last year, Class A raised more money. Class B, however, attracted more volunteers.",
+      "promptZh": "去年，甲班籌得更多款項。然而，乙班則吸引了更多義工參與。",
+      "starter": "Last",
+      "answer": "Last year, Class A raised more money, while Class B attracted more volunteers.",
+      "answerZh": "去年，甲班籌得更多款項，而乙班則吸引了更多義工參與。",
+      "answerZhSource": "pdf",
+      "highlight": "Last year, Class A raised more money, while Class B attracted more volunteers."
+    },
+    {
+      "id": "ss34-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "One team focused on speed; the other, by contrast, concentrated on accuracy.",
+      "promptZh": "一隊專注於速度；相比之下，另一隊則集中於準確性。",
+      "starter": "One",
+      "answer": "One team focused on speed, while the other concentrated on accuracy.",
+      "answerZh": "一隊專注於速度，而另一隊則集中於準確性。",
+      "answerZhSource": "pdf",
+      "highlight": "One team focused on speed, while the other concentrated on accuracy."
+    },
+    {
+      "id": "ss34-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Maria can handle customer complaints calmly. Owen cannot do this confidently yet and still needs support.",
+      "promptZh": "瑪麗亞能冷靜地處理顧客投訴。歐文暫時仍未能有信心地處理，並需要支援。",
+      "starter": "Maria",
+      "answer": "Maria can handle customer complaints calmly, while Owen cannot do this confidently yet and still needs support.",
+      "answerZh": "瑪麗亞能冷靜地處理顧客投訴，而歐文暫時仍未能有信心地處理，並需要支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Maria can handle customer complaints calmly, while Owen cannot do this confidently yet and still needs support."
+    },
+    {
+      "id": "ss34-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The old system required people to complete paper forms. In contrast, the new system allows online applications.",
+      "promptZh": "舊制度要求人們填寫紙本表格。相比之下，新制度則容許網上申請。",
+      "starter": "The",
+      "answer": "The old system required people to complete paper forms, while the new system allows online applications.",
+      "answerZh": "舊制度要求人們填寫紙本表格，而新制度則容許網上申請。",
+      "answerZhSource": "pdf",
+      "highlight": "The old system required people to complete paper forms, while the new system allows online applications."
+    },
+    {
+      "id": "ss34-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Some passengers did not mind the delay, but others became frustrated.",
+      "promptZh": "有些乘客不介意延誤，但另一些乘客則感到不滿。",
+      "starter": "Some",
+      "answer": "Some passengers did not mind the delay, while others became frustrated.",
+      "answerZh": "有些乘客不介意延誤，而另一些乘客則感到不滿。",
+      "answerZhSource": "pdf",
+      "highlight": "Some passengers did not mind the delay, while others became frustrated."
+    },
+    {
+      "id": "ss34-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "My parents have stayed in the same neighbourhood for years. My aunt, however, has moved several times.",
+      "promptZh": "我的父母多年來一直住在同一個社區。然而，我的姨母則搬過幾次家。",
+      "starter": "My",
+      "answer": "My parents have stayed in the same neighbourhood for years, while my aunt has moved several times.",
+      "answerZh": "我的父母多年來一直住在同一個社區，而我的姨母則搬過幾次家。",
+      "answerZhSource": "pdf",
+      "highlight": "My parents have stayed in the same neighbourhood for years, while my aunt has moved several times."
+    },
+    {
+      "id": "ss34-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Winters are usually cold in northern areas. In southern areas, however, the weather remains mild.",
+      "promptZh": "北部地區的冬季通常寒冷。然而，南部地區的天氣則保持溫和。",
+      "starter": "Winters",
+      "answer": "Winters are usually cold in northern areas, while the weather remains mild in southern areas.",
+      "answerZh": "北部地區的冬季通常寒冷，而南部地區的天氣則保持溫和。",
+      "answerZhSource": "pdf",
+      "highlight": "Winters are usually cold in northern areas, while the weather remains mild in southern areas."
+    },
+    {
+      "id": "ss34-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The first proposal would reduce costs. The second would instead improve service quality.",
+      "promptZh": "第一項建議可以降低成本。第二項建議則會改善服務質素。",
+      "starter": "The",
+      "answer": "The first proposal would reduce costs, while the second would improve service quality.",
+      "answerZh": "第一項建議可以降低成本，而第二項建議則會改善服務質素。",
+      "answerZhSource": "pdf",
+      "highlight": "The first proposal would reduce costs, while the second would improve service quality."
+    },
+    {
+      "id": "ss34-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The manager expected quick results, but the staff wanted more preparation time.",
+      "promptZh": "經理期望快速見到成果，但員工則希望有更多準備時間。",
+      "starter": "The",
+      "answer": "The manager expected quick results, while the staff wanted more preparation time.",
+      "answerZh": "經理期望快速見到成果，而員工則希望有更多準備時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager expected quick results, while the staff wanted more preparation time."
+    },
+    {
+      "id": "ss34-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Young children often learn through play. Older learners, by comparison, may prefer clear explanations.",
+      "promptZh": "年幼的孩子通常透過遊戲學習。相比之下，年紀較大的學習者可能較喜歡清晰的解釋。",
+      "starter": "Young",
+      "answer": "Young children often learn through play, while older learners may prefer clear explanations.",
+      "answerZh": "年幼的孩子通常透過遊戲學習，而年紀較大的學習者則可能較喜歡清晰的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Young children often learn through play, while older learners may prefer clear explanations."
+    },
+    {
+      "id": "ss34-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Locally made products are checked by hand. Imported products, on the other hand, are usually inspected by machines.",
+      "promptZh": "本地製造的產品由人手檢查。另一方面，進口產品通常由機器檢查。",
+      "starter": "Locally",
+      "answer": "Locally made products are checked by hand, while imported ones are usually inspected by machines.",
+      "answerZh": "本地製造的產品由人手檢查，而進口產品則通常由機器檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "Locally made products are checked by hand, while imported ones are usually inspected by machines."
+    },
+    {
+      "id": "ss34-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "How do the two branches differ? The city-centre branch stays open late, but the suburban branch closes earlier.",
+      "promptZh": "兩間分店有甚麼分別？市中心分店營業至較晚時間，但市郊分店則較早關門。",
+      "starter": "The",
+      "answer": "The city-centre branch stays open late, while the suburban branch closes earlier.",
+      "answerZh": "市中心分店營業至較晚時間，而市郊分店則較早關門。",
+      "answerZhSource": "pdf",
+      "highlight": "The city-centre branch stays open late, while the suburban branch closes earlier."
+    },
+    {
+      "id": "ss34-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Emma had already finished her report. In contrast, Jason was still collecting information.",
+      "promptZh": "艾瑪已經完成報告。相比之下，傑森仍在搜集資料。",
+      "starter": "Emma",
+      "answer": "Emma had already finished her report, while Jason was still collecting information.",
+      "answerZh": "艾瑪已經完成報告，而傑森則仍在搜集資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma had already finished her report, while Jason was still collecting information."
+    },
+    {
+      "id": "ss34-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Most passengers now use digital passes, but paper tickets are still accepted.",
+      "promptZh": "大部分乘客現時使用電子乘車證，但紙本車票仍可使用。",
+      "starter": "Paper",
+      "answer": "Paper tickets are still accepted, while most passengers now use digital passes.",
+      "answerZh": "紙本車票仍可使用，而大部分乘客現時則使用電子乘車證。",
+      "answerZhSource": "pdf",
+      "highlight": "Paper tickets are still accepted, while most passengers now use digital passes."
+    },
+    {
+      "id": "ss34-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "When the two designs are compared, the first looks more attractive, but the second is easier to use.",
+      "promptZh": "比較兩個設計時，第一個看起來較吸引，但第二個則較容易使用。",
+      "starter": "The",
+      "answer": "The first design looks more attractive, while the second is easier to use.",
+      "answerZh": "第一個設計看起來較吸引，而第二個則較容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The first design looks more attractive, while the second is easier to use."
+    },
+    {
+      "id": "ss34-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "A small company may react quickly. A large organisation, by contrast, may have more resources.",
+      "promptZh": "小型公司可能可以迅速應變。相比之下，大型機構則可能擁有更多資源。",
+      "starter": "A",
+      "answer": "A small company may react quickly, while a large organisation may have more resources.",
+      "answerZh": "小型公司可能可以迅速應變，而大型機構則可能擁有更多資源。",
+      "answerZhSource": "pdf",
+      "highlight": "A small company may react quickly, while a large organisation may have more resources."
+    },
+    {
+      "id": "ss34-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The research team valued accuracy. The sales team, however, cared more about speed.",
+      "promptZh": "研究團隊重視準確性。然而，銷售團隊則更重視速度。",
+      "starter": "The",
+      "answer": "The research team valued accuracy, while the sales team cared more about speed.",
+      "answerZh": "研究團隊重視準確性，而銷售團隊則更重視速度。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team valued accuracy, while the sales team cared more about speed."
+    },
+    {
+      "id": "ss34-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The plants grew slowly in the first experiment. In the second experiment, they developed much faster.",
+      "promptZh": "植物在第一次實驗中生長緩慢。在第二次實驗中，它們則生長得快得多。",
+      "starter": "In",
+      "answer": "In the first experiment, the plants grew slowly, while in the second, they developed much faster.",
+      "answerZh": "植物在第一次實驗中生長緩慢，而在第二次實驗中則生長得快得多。",
+      "answerZhSource": "pdf",
+      "highlight": "In the first experiment, the plants grew slowly, while in the second, they developed much faster."
+    },
+    {
+      "id": "ss34-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "According to the survey, younger customers preferred mobile payments. Older customers, in contrast, used cash more often.",
+      "promptZh": "根據調查，年輕顧客較喜歡流動支付。相比之下，年長顧客則較常使用現金。",
+      "starter": "The",
+      "answer": "The survey found that younger customers preferred mobile payments, while older customers used cash more often.",
+      "answerZh": "調查發現，年輕顧客較喜歡流動支付，而年長顧客則較常使用現金。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey found that younger customers preferred mobile payments, while older customers used cash more often."
+    },
+    {
+      "id": "ss34-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "One policy gives families direct financial support, whereas the other invests in public services.",
+      "promptZh": "一項政策向家庭提供直接經濟支援，而另一項政策則投資於公共服務。",
+      "starter": "One",
+      "answer": "One policy gives families direct financial support, while the other invests in public services.",
+      "answerZh": "一項政策向家庭提供直接經濟支援，而另一項政策則投資於公共服務。",
+      "answerZhSource": "pdf",
+      "highlight": "One policy gives families direct financial support, while the other invests in public services."
+    },
+    {
+      "id": "ss34-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Parents may value safety and stability, but teenagers may care more about freedom and independence.",
+      "promptZh": "家長可能重視安全和穩定，但青少年可能更在意自由和獨立。",
+      "starter": "Parents",
+      "answer": "Parents may value safety and stability, while teenagers may care more about freedom and independence.",
+      "answerZh": "家長可能重視安全和穩定，而青少年則可能更在意自由和獨立。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents may value safety and stability, while teenagers may care more about freedom and independence."
+    },
+    {
+      "id": "ss34-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Remote workers often appreciate flexible schedules. Office-based staff, by comparison, may value immediate access to colleagues.",
+      "promptZh": "遙距工作者通常重視彈性的工作時間。相比之下，在辦公室工作的員工可能重視能即時與同事聯絡。",
+      "starter": "Remote",
+      "answer": "Remote workers often appreciate flexible schedules, while office-based staff may value immediate access to colleagues.",
+      "answerZh": "遙距工作者通常重視彈性的工作時間，而在辦公室工作的員工則可能重視能即時與同事聯絡。",
+      "answerZhSource": "pdf",
+      "highlight": "Remote workers often appreciate flexible schedules, while office-based staff may value immediate access to colleagues."
+    },
+    {
+      "id": "ss34-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "The northern route is shorter, although it is often crowded. The southern route takes longer, but it is usually quieter.",
+      "promptZh": "北面路線雖然較短，但經常擠塞。南面路線需要較長時間，但通常較清靜。",
+      "starter": "The",
+      "answer": "The northern route is shorter but often crowded, while the southern route takes longer but is usually quieter.",
+      "answerZh": "北面路線較短但經常擠塞，而南面路線需要較長時間但通常較清靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The northern route is shorter but often crowded, while the southern route takes longer but is usually quieter."
+    },
+    {
+      "id": "ss34-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Small firms can often make decisions quickly. Large organisations, on the other hand, usually have more specialist staff.",
+      "promptZh": "小型公司通常可以迅速作出決定。另一方面，大型機構一般擁有更多專業人員。",
+      "starter": "Small",
+      "answer": "Small firms can often make decisions quickly, while large organisations usually have more specialist staff.",
+      "answerZh": "小型公司通常可以迅速作出決定，而大型機構則一般擁有更多專業人員。",
+      "answerZhSource": "pdf",
+      "highlight": "Small firms can often make decisions quickly, while large organisations usually have more specialist staff."
+    },
+    {
+      "id": "ss34-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Supporters believe the plan will create jobs. Opponents, however, worry that it will increase traffic.",
+      "promptZh": "支持者相信該計劃會創造職位。然而，反對者則擔心它會增加交通流量。",
+      "starter": "Supporters",
+      "answer": "Supporters believe the plan will create jobs, while opponents worry that it will increase traffic.",
+      "answerZh": "支持者相信該計劃會創造職位，而反對者則擔心它會增加交通流量。",
+      "answerZhSource": "pdf",
+      "highlight": "Supporters believe the plan will create jobs, while opponents worry that it will increase traffic."
+    },
+    {
+      "id": "ss34-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Public hospitals often treat more complex cases, but private clinics may offer shorter waiting times.",
+      "promptZh": "公立醫院通常處理較複雜的病例，但私家診所可能提供較短的輪候時間。",
+      "starter": "Public",
+      "answer": "Public hospitals often treat more complex cases, while private clinics may offer shorter waiting times.",
+      "answerZh": "公立醫院通常處理較複雜的病例，而私家診所則可能提供較短的輪候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Public hospitals often treat more complex cases, while private clinics may offer shorter waiting times."
+    },
+    {
+      "id": "ss34-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Customers use different standards when choosing a product: some focus mainly on price, whereas others consider durability and after-sales service.",
+      "promptZh": "顧客選擇產品時採用不同標準：有些人主要考慮價格，而另一些人則考慮耐用程度和售後服務。",
+      "starter": "Customers",
+      "answer": "Customers use different standards when choosing a product: some focus mainly on price, while others consider durability and after-sales service.",
+      "answerZh": "顧客選擇產品時採用不同標準：有些人主要考慮價格，而另一些人則考慮耐用程度和售後服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers use different standards when choosing a product: some focus mainly on price, while others consider durability and after-sales service."
+    },
+    {
+      "id": "ss34-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The first training method gives learners fixed steps. The second takes a different approach and encourages independent problem-solving.",
+      "promptZh": "第一種訓練方法為學習者提供固定步驟。第二種方法採取不同做法，鼓勵學習者獨立解決問題。",
+      "starter": "The",
+      "answer": "The first training method gives learners fixed steps, while the second encourages independent problem-solving.",
+      "answerZh": "第一種訓練方法為學習者提供固定步驟，而第二種方法則鼓勵學習者獨立解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The first training method gives learners fixed steps, while the second encourages independent problem-solving."
+    },
+    {
+      "id": "ss34-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The older neighbourhood is known for its historic buildings and local shops. The new district, in contrast, offers modern facilities and better transport links.",
+      "promptZh": "舊社區以歷史建築和本區商店聞名。相比之下，新區則提供現代化設施和較佳的交通連接。",
+      "starter": "The",
+      "answer": "The older neighbourhood is known for its historic buildings and local shops, while the new district offers modern facilities and better transport links.",
+      "answerZh": "舊社區以歷史建築和本區商店聞名，而新區則提供現代化設施和較佳的交通連接。",
+      "answerZhSource": "pdf",
+      "highlight": "The older neighbourhood is known for its historic buildings and local shops, while the new district offers modern facilities and better transport links."
+    },
+    {
+      "id": "ss34-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "During a team project, one member may generate creative ideas, whereas another may identify risks and turn those ideas into practical steps.",
+      "promptZh": "在團隊項目中，一名成員可能提出創意構思，而另一名成員則可能找出風險，並把這些構思化為實際步驟。",
+      "starter": "During",
+      "answer": "During a team project, one member may generate creative ideas, while another may identify risks and turn those ideas into practical steps.",
+      "answerZh": "在團隊項目中，一名成員可能提出創意構思，而另一名成員則可能找出風險，並把這些構思化為實際步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "During a team project, one member may generate creative ideas, while another may identify risks and turn those ideas into practical steps."
+    }
+  ]
+}

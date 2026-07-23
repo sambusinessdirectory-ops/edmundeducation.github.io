@@ -1,0 +1,1083 @@
+{
+  "id": "ss9",
+  "order": 9,
+  "slug": "between-a-and-b",
+  "title": "「between A and B」句型",
+  "titleZh": "「between A and B」句型",
+  "titleEn": "Using between A and B to express relationships between two items",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 9 - 「between A and B」句型.pdf",
+    "pageCount": 27,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "revisionPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "omissions": [
+      "The Important Rules, Meaning and Benefits explanations are provided in Chinese only; their English rule and benefit fields are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation.",
+      "Pages 18–27 append revised instructions and per-question word-family cues. The current lesson schema does not expose a separate word-family-cue field; all explicitly labelled revised model answers have nevertheless replaced the earlier answer-key versions.",
+      "The revised-answer appendix supplies English only for q3, q9, q13, q20, q25 and q48; their answerZh fields are faithful editorial translations marked answerZhSource: editorial-translation-of-revised-answer."
+    ]
+  },
+  "formula": "Subject + verb + between + A + and + B + other information",
+  "formulas": [
+    {
+      "id": "ss9-formula-pattern-1",
+      "labelEn": "Pattern 1",
+      "labelZh": "句型一",
+      "formula": "Subject + verb + between + A + and + B + other information"
+    },
+    {
+      "id": "ss9-formula-pattern-2",
+      "labelEn": "Pattern 2",
+      "labelZh": "句型二",
+      "formula": "Subject + verb + noun phrase + between + A + and + B + other information"
+    }
+  ],
+  "example": "The café is between the bank and the bookshop.",
+  "exampleZh": "咖啡店位於銀行和書店之間。",
+  "examples": [
+    {
+      "id": "ss9-example-pattern-1",
+      "labelEn": "Pattern 1",
+      "labelZh": "句型一",
+      "en": "The café is between the bank and the bookshop.",
+      "zh": "咖啡店位於銀行和書店之間。",
+      "highlight": "The café is between the bank and the bookshop."
+    },
+    {
+      "id": "ss9-example-pattern-2",
+      "labelEn": "Pattern 2",
+      "labelZh": "句型二",
+      "en": "Good policy often requires balance between efficiency and compassion.",
+      "zh": "好的政策往往需要在效率與同理心之間取得平衡。",
+      "highlight": "Good policy often requires balance between efficiency and compassion."
+    }
+  ],
+  "meaning": {
+    "zh": [
+      "between A and B 用來表達兩個人物、事物、群體或概念之間的位置、選擇、差異、平衡、關係、聯繫、協議或衝突，以及分配。"
+    ]
+  },
+  "rules": [
+    {
+      "id": "ss9-rule-01",
+      "en": "Between is normally followed by A + and + B.",
+      "zh": "between 後面通常使用 A + and + B。",
+      "examples": [
+        "choose between tea and coffee",
+        "在茶和咖啡之間作出選擇"
+      ]
+    },
+    {
+      "id": "ss9-rule-02",
+      "en": "A and B should use the same or parallel grammatical forms.",
+      "zh": "A 和 B 應使用相同或平行的文法形式。",
+      "examples": [
+        "Correct: a balance between working and resting",
+        "Incorrect: a balance between working and rest"
+      ]
+    },
+    {
+      "id": "ss9-rule-03",
+      "en": "This exercise mainly uses between to express relationships between two people, things, groups or concepts.",
+      "zh": "本練習主要使用 between 表達兩個人物、事物、群體或概念之間的關係。",
+      "examples": []
+    },
+    {
+      "id": "ss9-rule-04",
+      "en": "You may need to change a verb into a noun when rewriting.",
+      "zh": "改寫時可能需要把動詞轉為名詞。",
+      "examples": [
+        "compare → a comparison between",
+        "differ → a difference between",
+        "communicate → communication between",
+        "cooperate → cooperation between"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss9-benefit-01",
+      "en": "It helps you compare two things clearly. You can state directly how two options, people or concepts differ.",
+      "zh": "清楚比較兩件事。你可以直接說明兩個選項、人物或概念有甚麼不同。"
+    },
+    {
+      "id": "ss9-benefit-02",
+      "en": "It expresses choices more naturally. Instead of explaining the two options separately, you can use choose between A and B directly.",
+      "zh": "更自然地表達選擇。與其逐一解釋兩個選項，你可以直接使用 choose between A and B。"
+    },
+    {
+      "id": "ss9-benefit-03",
+      "en": "It lets you discuss balance and trade-offs. When both things are important, you can explain how to strike a balance between them.",
+      "zh": "談論平衡和取捨。當兩件事都重要時，你可以說明如何在兩者之間取得平衡。"
+    },
+    {
+      "id": "ss9-benefit-04",
+      "en": "It makes sentences shorter and smoother by combining repetitive or lengthy information into one natural English sentence.",
+      "zh": "令句子更簡潔流暢。它可以把兩句重複或冗長的資料合併成一句自然的英文。"
+    },
+    {
+      "id": "ss9-benefit-05",
+      "en": "It improves organisation in speaking and writing and is suitable for daily conversations, school writing, workplace reports and discussions of opinions.",
+      "zh": "提升說話及寫作的組織力。這個句型適合用於日常對話、學校寫作、工作匯報及意見討論。"
+    }
+  ],
+  "sourceOmissions": [
+    "The Important Rules, Meaning and Benefits explanations are provided in Chinese only; their English rule and benefit fields are faithful editorial translations.",
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation.",
+    "Pages 18–27 append revised instructions and per-question word-family cues. The current lesson schema does not expose a separate word-family-cue field; all explicitly labelled revised model answers have nevertheless replaced the earlier answer-key versions.",
+    "The revised-answer appendix supplies English only for q3, q9, q13, q20, q25 and q48; their answerZh fields are faithful editorial translations marked answerZhSource: editorial-translation-of-revised-answer."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using between A and B. Keep the original meaning.",
+      "Use the verb or word family provided in the source exercise and change its form where necessary.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 between A and B 改寫以下句子，並保留原句意思。",
+      "請使用原練習提供的動詞或相關詞族，並在需要時改變字詞形式。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss9-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "I must choose one shirt: either the red one or the blue one.",
+      "promptZh": "我必須選擇一件恤衫：紅色的或藍色的。",
+      "starter": "I",
+      "answer": "I must choose between the red shirt and the blue shirt.",
+      "answerZh": "我必須在紅色恤衫和藍色恤衫之間作出選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "I must choose between the red shirt and the blue shirt."
+    },
+    {
+      "id": "ss9-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Mia noticed that the two pictures were different.",
+      "promptZh": "米婭注意到兩幅圖片並不相同。",
+      "starter": "Mia",
+      "answer": "Mia noticed a difference between the two pictures.",
+      "answerZh": "米婭注意到兩幅圖片之間的分別。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia noticed a difference between the two pictures."
+    },
+    {
+      "id": "ss9-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "We need to give suitable amounts of time to work and rest.",
+      "promptZh": "我們需要分配適量的時間給工作和休息。",
+      "starter": "We",
+      "answer": "We need to divide our time between work and rest.",
+      "answerZh": "我們需要把時間分配在工作和休息之間。",
+      "answerZhSource": "editorial-translation-of-revised-answer",
+      "highlight": "We need to divide our time between work and rest."
+    },
+    {
+      "id": "ss9-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Leo’s mother stood on one side of him, and his father stood on the other.",
+      "promptZh": "里奧的母親站在他的一邊，而父親站在另一邊。",
+      "starter": "Leo",
+      "answer": "Leo stood between his mother and his father.",
+      "answerZh": "里奧站在母親和父親之間。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo stood between his mother and his father."
+    },
+    {
+      "id": "ss9-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The bank is on one side of the café, and the bookshop is on the other.",
+      "promptZh": "銀行位於咖啡店的一邊，而書店位於另一邊。",
+      "starter": "The",
+      "answer": "The café is between the bank and the bookshop.",
+      "answerZh": "咖啡店位於銀行和書店之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The café is between the bank and the bookshop."
+    },
+    {
+      "id": "ss9-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Emma could not decide whether to have tea or coffee.",
+      "promptZh": "艾瑪無法決定喝茶還是咖啡。",
+      "starter": "Emma",
+      "answer": "Emma could not decide between tea and coffee.",
+      "answerZh": "艾瑪無法在茶和咖啡之間作出選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma could not decide between tea and coffee."
+    },
+    {
+      "id": "ss9-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Summer and winter are clearly different.",
+      "promptZh": "夏天和冬天有明顯的分別。",
+      "starter": "There",
+      "answer": "There is a clear difference between summer and winter.",
+      "answerZh": "夏天和冬天之間有明顯的分別。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a clear difference between summer and winter."
+    },
+    {
+      "id": "ss9-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Ben gave one child half the cake and the other child the other half.",
+      "promptZh": "本把一半蛋糕給一個孩子，另一半給另一個孩子。",
+      "starter": "Ben",
+      "answer": "Ben divided the cake equally between his two children.",
+      "answerZh": "本把蛋糕平均分給兩名孩子。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben divided the cake equally between his two children."
+    },
+    {
+      "id": "ss9-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 20,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "It is important for friends to trust each other.",
+      "promptZh": "朋友互相信任十分重要。",
+      "starter": "There",
+      "answer": "There should be trust between friends.",
+      "answerZh": "朋友之間應該有信任。",
+      "answerZhSource": "editorial-translation-of-revised-answer",
+      "highlight": "There should be trust between friends."
+    },
+    {
+      "id": "ss9-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The teacher walked through the space separating the two rows of desks.",
+      "promptZh": "老師走過兩排書桌中間的空間。",
+      "starter": "The",
+      "answer": "The teacher walked between the two rows of desks.",
+      "answerZh": "老師走過兩排書桌之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher walked between the two rows of desks."
+    },
+    {
+      "id": "ss9-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Nora explained how a fact is different from an opinion.",
+      "promptZh": "諾拉解釋了事實和意見有甚麼不同。",
+      "starter": "Nora",
+      "answer": "Nora explained the difference between a fact and an opinion.",
+      "answerZh": "諾拉解釋了事實和意見之間的分別。",
+      "answerZhSource": "pdf",
+      "highlight": "Nora explained the difference between a fact and an opinion."
+    },
+    {
+      "id": "ss9-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 13
+      },
+      "prompt": "The school and the parents must work together.",
+      "promptZh": "學校和家長必須共同合作。",
+      "starter": "There",
+      "answer": "There must be cooperation between the school and the parents.",
+      "answerZh": "學校和家長之間必須互相合作。",
+      "answerZhSource": "pdf",
+      "highlight": "There must be cooperation between the school and the parents."
+    },
+    {
+      "id": "ss9-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "The bridge connects the village with the town.",
+      "promptZh": "這座橋連接村莊和城鎮。",
+      "starter": "The",
+      "answer": "The bridge provides a connection between the village and the town.",
+      "answerZh": "這座橋在村落和城鎮之間提供連接。",
+      "answerZhSource": "editorial-translation-of-revised-answer",
+      "highlight": "The bridge provides a connection between the village and the town."
+    },
+    {
+      "id": "ss9-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Why are the two teams tense with each other?",
+      "promptZh": "為甚麼兩支球隊之間的關係如此緊張？",
+      "starter": "Why",
+      "answer": "Why is there tension between the two teams?",
+      "answerZh": "為甚麼兩支球隊之間存在緊張關係？",
+      "answerZhSource": "pdf",
+      "highlight": "Why is there tension between the two teams?"
+    },
+    {
+      "id": "ss9-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "A fence shows where one garden ends and the other begins.",
+      "promptZh": "一道圍欄顯示一個花園的盡頭和另一個花園的起點。",
+      "starter": "A",
+      "answer": "A fence marks the boundary between the two gardens.",
+      "answerZh": "一道圍欄標示了兩個花園之間的界線。",
+      "answerZhSource": "pdf",
+      "highlight": "A fence marks the boundary between the two gardens."
+    },
+    {
+      "id": "ss9-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Chloe compared the two laptops.",
+      "promptZh": "克洛伊比較了兩部手提電腦。",
+      "starter": "Chloe",
+      "answer": "Chloe made a comparison between the two laptops.",
+      "answerZh": "克洛伊比較了兩部手提電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe made a comparison between the two laptops."
+    },
+    {
+      "id": "ss9-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Sam had a brief conversation with his manager.",
+      "promptZh": "山姆與經理進行了簡短的對話。",
+      "starter": "The",
+      "answer": "The conversation between Sam and his manager was brief.",
+      "answerZh": "山姆和經理之間的對話十分簡短。",
+      "answerZhSource": "pdf",
+      "highlight": "The conversation between Sam and his manager was brief."
+    },
+    {
+      "id": "ss9-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The two companies have an agreement that lasts for one year.",
+      "promptZh": "兩間公司有一項為期一年的協議。",
+      "starter": "The",
+      "answer": "The agreement between the two companies lasts for one year.",
+      "answerZh": "兩間公司之間的協議為期一年。",
+      "answerZhSource": "pdf",
+      "highlight": "The agreement between the two companies lasts for one year."
+    },
+    {
+      "id": "ss9-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The nurse spent half her time with one patient and half with the other.",
+      "promptZh": "護士把一半時間用於照顧一名病人，另一半時間用於照顧另一名病人。",
+      "starter": "The",
+      "answer": "The nurse divided her time equally between the two patients.",
+      "answerZh": "護士把時間平均分配給兩名病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse divided her time equally between the two patients."
+    },
+    {
+      "id": "ss9-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 22,
+        "answerPage": 22
+      },
+      "prompt": "The river is on one side of this road, and the railway is on the other.",
+      "promptZh": "河流位於這條道路的一邊，而鐵路位於另一邊。",
+      "starter": "This",
+      "answer": "This road lies between the river and the railway.",
+      "answerZh": "這條路位於河流與鐵路之間。",
+      "answerZhSource": "editorial-translation-of-revised-answer",
+      "highlight": "This road lies between the river and the railway."
+    },
+    {
+      "id": "ss9-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The basic plan and the premium plan differ in the amount of storage they provide.",
+      "promptZh": "基本計劃和高級計劃所提供的儲存空間不同。",
+      "starter": "The",
+      "answer": "The difference between the basic plan and the premium plan is the amount of storage they provide.",
+      "answerZh": "基本計劃和高級計劃之間的分別，在於兩者提供的儲存空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The difference between the basic plan and the premium plan is the amount of storage they provide."
+    },
+    {
+      "id": "ss9-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Doctors and patients need to communicate better.",
+      "promptZh": "醫生和病人需要有更好的溝通。",
+      "starter": "Better",
+      "answer": "Better communication is needed between doctors and patients.",
+      "answerZh": "醫生和病人之間需要有更好的溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "Better communication is needed between doctors and patients."
+    },
+    {
+      "id": "ss9-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The two neighbours have developed a strong relationship.",
+      "promptZh": "兩名鄰居已建立了良好的關係。",
+      "starter": "A",
+      "answer": "A strong relationship has developed between the two neighbours.",
+      "answerZh": "兩名鄰居之間已建立了良好的關係。",
+      "answerZhSource": "pdf",
+      "highlight": "A strong relationship has developed between the two neighbours."
+    },
+    {
+      "id": "ss9-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Each of the two winners received an equal share of the prize money.",
+      "promptZh": "兩名得獎者各自獲得相同份額的獎金。",
+      "starter": "The",
+      "answer": "The prize money was shared equally between the two winners.",
+      "answerZh": "獎金由兩名得獎者平均攤分。",
+      "answerZhSource": "pdf",
+      "highlight": "The prize money was shared equally between the two winners."
+    },
+    {
+      "id": "ss9-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 23,
+        "answerPage": 23
+      },
+      "prompt": "Daniel wanted to save money, but he also wanted to enjoy life. He found it difficult to do both.",
+      "promptZh": "丹尼爾想儲蓄，但同時亦想享受生活。他發現很難同時兼顧兩者。",
+      "starter": "Daniel",
+      "answer": "Daniel found it difficult to achieve a balance between saving money and enjoying life.",
+      "answerZh": "丹尼爾發現在儲蓄和享受生活之間取得平衡很困難。",
+      "answerZhSource": "editorial-translation-of-revised-answer",
+      "highlight": "Daniel found it difficult to achieve a balance between saving money and enjoying life."
+    },
+    {
+      "id": "ss9-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The coach explained that being busy is not the same as being productive.",
+      "promptZh": "教練解釋了忙碌並不等同於有生產力。",
+      "starter": "The",
+      "answer": "The coach explained the difference between being busy and being productive.",
+      "answerZh": "教練解釋了忙碌和有生產力之間的分別。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach explained the difference between being busy and being productive."
+    },
+    {
+      "id": "ss9-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The landlord and the tenant could not agree.",
+      "promptZh": "業主和租客未能達成共識。",
+      "starter": "There",
+      "answer": "There was no agreement between the landlord and the tenant.",
+      "answerZh": "業主和租客之間未能達成協議。",
+      "answerZhSource": "pdf",
+      "highlight": "There was no agreement between the landlord and the tenant."
+    },
+    {
+      "id": "ss9-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The path that connects the station with the hotel is well lit.",
+      "promptZh": "連接車站和酒店的小徑有充足照明。",
+      "starter": "The",
+      "answer": "The path between the station and the hotel is well lit.",
+      "answerZh": "車站和酒店之間的小徑有充足照明。",
+      "answerZhSource": "pdf",
+      "highlight": "The path between the station and the hotel is well lit."
+    },
+    {
+      "id": "ss9-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 15
+      },
+      "prompt": "Students should learn how to tell reliable sources from unreliable ones.",
+      "promptZh": "學生應該學習如何分辨可靠和不可靠的資料來源。",
+      "starter": "Students",
+      "answer": "Students should learn to distinguish between reliable and unreliable sources.",
+      "answerZh": "學生應該學習分辨可靠和不可靠的資料來源。",
+      "answerZhSource": "pdf",
+      "highlight": "Students should learn to distinguish between reliable and unreliable sources."
+    },
+    {
+      "id": "ss9-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Under the new timetable, lesson time and break time are more evenly arranged than before.",
+      "promptZh": "在新時間表下，上課時間和休息時間的安排比以前更平均。",
+      "starter": "The",
+      "answer": "The new timetable creates a better balance between lessons and breaks.",
+      "answerZh": "新時間表在課堂和休息時間之間建立了更好的平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable creates a better balance between lessons and breaks."
+    },
+    {
+      "id": "ss9-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Do not sit too close to the screen; leave a safe amount of space.",
+      "promptZh": "不要坐得太接近螢幕；應保留安全距離。",
+      "starter": "Keep",
+      "answer": "Keep a safe distance between your face and the screen.",
+      "answerZh": "面部和螢幕之間應保持安全距離。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep a safe distance between your face and the screen."
+    },
+    {
+      "id": "ss9-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "If team members trust one another, they usually share ideas more openly.",
+      "promptZh": "如果團隊成員互相信任，他們通常會更坦率地分享意見。",
+      "starter": "If",
+      "answer": "If there is trust between team members, they usually share ideas more openly.",
+      "answerZh": "如果團隊成員之間互相信任，他們通常會更坦率地分享意見。",
+      "answerZhSource": "pdf",
+      "highlight": "If there is trust between team members, they usually share ideas more openly."
+    },
+    {
+      "id": "ss9-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Drivers and cyclists often come into conflict, and the police are trying to reduce it.",
+      "promptZh": "駕駛者和單車使用者經常發生衝突，而警方正嘗試減少這些衝突。",
+      "starter": "The",
+      "answer": "The police are trying to reduce conflict between drivers and cyclists.",
+      "answerZh": "警方正嘗試減少駕駛者和單車使用者之間的衝突。",
+      "answerZhSource": "pdf",
+      "highlight": "The police are trying to reduce conflict between drivers and cyclists."
+    },
+    {
+      "id": "ss9-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Can you explain how sleep is connected to memory?",
+      "promptZh": "你能解釋睡眠和記憶有甚麼關聯嗎？",
+      "starter": "Can",
+      "answer": "Can you explain the connection between sleep and memory?",
+      "answerZh": "你能解釋睡眠和記憶之間的關聯嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you explain the connection between sleep and memory?"
+    },
+    {
+      "id": "ss9-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The app allows the phone and the watch to exchange information.",
+      "promptZh": "這個應用程式讓電話和手錶交換資料。",
+      "starter": "The",
+      "answer": "The app allows information to be exchanged between the phone and the watch.",
+      "answerZh": "這個應用程式讓資料可以在電話和手錶之間交換。",
+      "answerZhSource": "pdf",
+      "highlight": "The app allows information to be exchanged between the phone and the watch."
+    },
+    {
+      "id": "ss9-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Staff placed a curtain so that it would separate the two beds and give each patient more privacy.",
+      "promptZh": "職員放置了一幅簾子，以分隔兩張病床，並給予每名病人更多私人空間。",
+      "starter": "A",
+      "answer": "A curtain was placed between the beds to give each patient more privacy.",
+      "answerZh": "兩張病床之間放置了一幅簾子，讓每名病人有更多私人空間。",
+      "answerZhSource": "pdf",
+      "highlight": "A curtain was placed between the beds to give each patient more privacy."
+    },
+    {
+      "id": "ss9-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Ava had two options: accept the offer or continue her studies.",
+      "promptZh": "艾娃有兩個選擇：接受這項提議或繼續學業。",
+      "starter": "Ava",
+      "answer": "Ava had to choose between accepting the offer and continuing her studies.",
+      "answerZh": "艾娃必須在接受提議和繼續學業之間作出選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava had to choose between accepting the offer and continuing her studies."
+    },
+    {
+      "id": "ss9-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The two departments had misunderstood each other, and the meeting helped resolve the problem.",
+      "promptZh": "兩個部門互相產生了誤解，而會議有助解決這個問題。",
+      "starter": "The",
+      "answer": "The meeting helped clear up the misunderstanding between the two departments.",
+      "answerZh": "會議有助消除兩個部門之間的誤解。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting helped clear up the misunderstanding between the two departments."
+    },
+    {
+      "id": "ss9-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "He promised one thing but delivered another, and this disappointed the client.",
+      "promptZh": "他承諾了一件事，實際提供的卻是另一件事，令客戶感到失望。",
+      "starter": "The",
+      "answer": "The difference between what he promised and what he delivered disappointed the client.",
+      "answerZh": "他的承諾和實際提供的服務之間存在差異，令客戶感到失望。",
+      "answerZhSource": "pdf",
+      "highlight": "The difference between what he promised and what he delivered disappointed the client."
+    },
+    {
+      "id": "ss9-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Good leaders give direction, but they also allow staff to work independently without overdoing either side.",
+      "promptZh": "優秀的領導者會提供指引，但亦會讓員工獨立工作，不會過分偏重任何一方。",
+      "starter": "Good",
+      "answer": "Good leaders maintain a balance between giving direction and allowing independence.",
+      "answerZh": "優秀的領導者會在提供指引和給予自主之間保持平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "Good leaders maintain a balance between giving direction and allowing independence."
+    },
+    {
+      "id": "ss9-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The hospital introduced a new system because it wanted nurses and doctors to communicate better.",
+      "promptZh": "醫院引入了一套新系統，因為院方希望護士和醫生有更好的溝通。",
+      "starter": "The",
+      "answer": "The hospital introduced a new system to improve communication between nurses and doctors.",
+      "answerZh": "醫院引入了一套新系統，以改善護士和醫生之間的溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital introduced a new system to improve communication between nurses and doctors."
+    },
+    {
+      "id": "ss9-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Some students achieve very highly, while others need more support. This school is trying to make the achievement gap smaller.",
+      "promptZh": "部分學生的成績非常優秀，另一些學生則需要更多支援。這所學校正嘗試縮小成績差距。",
+      "starter": "This",
+      "answer": "This school is trying to reduce the gap between high-achieving students and those who need more support.",
+      "answerZh": "這所學校正嘗試縮小成績優秀的學生和需要更多支援的學生之間的差距。",
+      "answerZhSource": "pdf",
+      "highlight": "This school is trying to reduce the gap between high-achieving students and those who need more support."
+    },
+    {
+      "id": "ss9-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "The policy aims to protect privacy and prevent crime without allowing either goal to harm the other.",
+      "promptZh": "這項政策旨在保障私隱和預防罪案，同時避免任何一項目標損害另一項目標。",
+      "starter": "A",
+      "answer": "A sound policy seeks a balance between protecting privacy and preventing crime.",
+      "answerZh": "良好的政策會在保障私隱和預防罪案之間尋求平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "A sound policy seeks a balance between protecting privacy and preventing crime."
+    },
+    {
+      "id": "ss9-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "During the discussion, local residents and the developer showed that they strongly disagreed.",
+      "promptZh": "在討論期間，當地居民和發展商表現出嚴重的意見分歧。",
+      "starter": "The",
+      "answer": "The discussion revealed a serious disagreement between local residents and the developer.",
+      "answerZh": "這次討論揭示了當地居民和發展商之間的嚴重分歧。",
+      "answerZhSource": "pdf",
+      "highlight": "The discussion revealed a serious disagreement between local residents and the developer."
+    },
+    {
+      "id": "ss9-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Clear rules help people avoid mixing up personal expenses with company expenses.",
+      "promptZh": "清晰的規則有助人們避免混淆私人開支和公司開支。",
+      "starter": "Clear",
+      "answer": "Clear rules help prevent confusion between personal and company expenses.",
+      "answerZh": "清晰的規則有助避免混淆私人開支和公司開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Clear rules help prevent confusion between personal and company expenses."
+    },
+    {
+      "id": "ss9-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The programme helps young people form stronger relationships with older members of the community.",
+      "promptZh": "這個計劃幫助年輕人與社區中的年長人士建立更緊密的關係。",
+      "starter": "The",
+      "answer": "The programme builds stronger connections between young people and older members of the community.",
+      "answerZh": "這個計劃在年輕人和社區中的年長人士之間建立更緊密的聯繫。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme builds stronger connections between young people and older members of the community."
+    },
+    {
+      "id": "ss9-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Researchers found that regular exercise was closely related to better sleep.",
+      "promptZh": "研究人員發現，恆常運動與較佳的睡眠質素有密切關係。",
+      "starter": "Researchers",
+      "answer": "Researchers found a close relationship between regular exercise and better sleep.",
+      "answerZh": "研究人員發現，恆常運動和較佳睡眠之間有密切關係。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers found a close relationship between regular exercise and better sleep."
+    },
+    {
+      "id": "ss9-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 27,
+        "answerPage": 27
+      },
+      "prompt": "The agreement states which duties the supplier will handle and which duties the retailer will handle.",
+      "promptZh": "協議列明哪些職責由供應商負責，以及哪些職責由零售商負責。",
+      "starter": "The",
+      "answer": "The agreement explains how responsibility is divided between the supplier and the retailer.",
+      "answerZh": "協議說明如何在供應商和零售商之間分配責任。",
+      "answerZhSource": "editorial-translation-of-revised-answer",
+      "highlight": "The agreement explains how responsibility is divided between the supplier and the retailer."
+    },
+    {
+      "id": "ss9-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Public transport planners must keep fares affordable while also maintaining reliable services, without neglecting either aim.",
+      "promptZh": "公共交通規劃人員必須在維持車費合理的同時提供可靠服務，不能忽略任何一項目標。",
+      "starter": "Public",
+      "answer": "Public transport planning requires a balance between keeping fares affordable and maintaining reliable services.",
+      "answerZh": "公共交通規劃需要在維持車費合理和提供可靠服務之間取得平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport planning requires a balance between keeping fares affordable and maintaining reliable services."
+    },
+    {
+      "id": "ss9-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "The final decision depends on identifying a solution that meets the community’s needs but remains within the available budget.",
+      "promptZh": "最終決定取決於能否找出一個既能滿足社區需要，又符合現有預算的方案。",
+      "starter": "The",
+      "answer": "The final decision depends on finding a workable balance between what the community needs and what the budget allows.",
+      "answerZh": "最終決定取決於能否在社區需要和預算所容許的範圍之間找到可行的平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "The final decision depends on finding a workable balance between what the community needs and what the budget allows."
+    }
+  ]
+}

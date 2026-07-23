@@ -1,0 +1,1072 @@
+{
+  "id": "ss17",
+  "order": 17,
+  "slug": "instead-replacement",
+  "title": "「Instead 句」句型",
+  "titleZh": "「Instead 句」",
+  "titleEn": "Using Instead to show a replacement choice or action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 17 -「Instead 句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English translations for Chinese-only Important Rules and Benefits explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Subject + negative action or rejected choice. Instead, + subject + replacement action.",
+  "formulas": [
+    {
+      "id": "ss17-formula-instead",
+      "labelEn": "Common Formula",
+      "labelZh": "常用公式",
+      "formula": "Subject + negative action or rejected choice. Instead, + subject + replacement action."
+    }
+  ],
+  "example": "Life should not be about others. Instead, it is about how we choose to live our lives.",
+  "exampleZh": "人生不應該只關於別人；相反，它應該關乎我們如何選擇過自己的生活。",
+  "examples": [
+    {
+      "id": "ss17-example-01",
+      "en": "Life should not be about others. Instead, it is about how we choose to live our lives.",
+      "zh": "人生不應該只關於別人；相反，它應該關乎我們如何選擇過自己的生活。",
+      "highlight": "Instead, it is about how we choose to live our lives."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss17-benefit-01",
+      "en": "It clearly shows that you did not do A and chose to do B instead, so readers can immediately identify the rejected choice and the action actually taken.",
+      "zh": "清楚表示「沒有做 A，改為做 B」，讓讀者立即知道哪一個選擇被放棄，以及實際採取了甚麼行動。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss17-benefit-02",
+      "en": "It makes the relationship between two choices easier to understand.",
+      "zh": "讓兩個選擇之間的關係更容易理解。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss17-benefit-03",
+      "en": "It is useful for explaining a change of plan or decision in conversation, work emails, reports and compositions.",
+      "zh": "適合解釋改變計劃或決定，在日常對話、工作電郵、報告和作文中都非常實用。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss17-benefit-04",
+      "en": "It avoids repeatedly using but and gives your sentence structure more variety.",
+      "zh": "避免反覆使用 but，令句式更有變化。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss17-benefit-05",
+      "en": "It helps organise spoken answers: first state the choice not taken, then clearly present the actual decision.",
+      "zh": "幫助口語表達更加有組織：先說明沒有採取的選擇，再清楚提出真正的決定。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss17-rule-01",
+      "en": "Instead must be followed by a complete sentence. The part after Instead needs a subject and a verb, although the subject may be omitted in an imperative.",
+      "zh": "Instead 後面要接一個完整句子。Instead 後面的部分必須有完整的主語和動詞，祈使句則可以省略主語。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "I did not take the bus. Instead, I walked.",
+        "Incorrect: I did not take the bus. Instead, walking."
+      ]
+    },
+    {
+      "id": "ss17-rule-02",
+      "en": "When Instead begins the second sentence, capitalise it and place a comma after it.",
+      "zh": "Instead 放在第二句開首時，首字母要大寫，後面要加逗號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Instead, she called the office."
+      ]
+    },
+    {
+      "id": "ss17-rule-03",
+      "en": "Do not join two complete sentences with only a comma. This exercise consistently uses a full stop followed by Instead, although advanced writing may use a semicolon.",
+      "zh": "不要只用逗號連接兩個完整句子。本練習統一使用完整句號 + Instead,；較進階的寫作也可以使用分號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Incorrect: I did not call him, instead, I sent a message.",
+        "I did not call him. Instead, I sent a message.",
+        "I did not call him; instead, I sent a message."
+      ]
+    },
+    {
+      "id": "ss17-rule-04",
+      "en": "Instead emphasises that the second choice replaces the first: the original action did not happen or a choice was rejected, and another action or choice took its place.",
+      "zh": "Instead 強調「第二個選擇取代第一個選擇」：原本的行動沒有發生，或某個選擇被放棄，而第二個行動或選擇取代了第一個。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss17-rule-05",
+      "en": "Instead, introduces a complete replacement action. Instead of is followed by a noun, pronoun or verb-ing. Rather, generally corrects, clarifies or states an idea more accurately.",
+      "zh": "Instead, 後面接完整句子，表示第二個完整行動或選擇取代前面的行動；instead of 後面接名詞、代名詞或動詞 -ing；Rather, 通常用來修正、澄清或更準確地表達前面的說法。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "I did not take the bus. Instead, I walked.",
+        "I chose biology instead of arts.",
+        "Life should not be about others. Rather, it is about how we choose to live our lives.",
+        "Ryan cooked at home rather than eating out."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only Important Rules and Benefits explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each item as two complete sentences. Use Instead, at the beginning of the second sentence to show that one action, choice, plan or idea replaces another.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把每題改寫成兩個完整句子。在第二句開首使用 Instead,，表示一個行動、選擇、計劃或想法取代另一個。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss17-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Mia bought water, not juice.",
+      "promptZh": "米婭買了水，而不是果汁。",
+      "starter": "Mia",
+      "answer": "Mia did not buy juice. Instead, she bought water.",
+      "answerZh": "米婭沒有買果汁；相反，她買了水。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia did not buy juice. Instead, she bought water."
+    },
+    {
+      "id": "ss17-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Ben walked to school instead of taking the bus.",
+      "promptZh": "本步行上學，而沒有乘搭巴士。",
+      "starter": "Ben",
+      "answer": "Ben did not take the bus. Instead, he walked to school.",
+      "answerZh": "本沒有乘搭巴士；相反，他步行上學。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben did not take the bus. Instead, he walked to school."
+    },
+    {
+      "id": "ss17-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "I watched a film instead of playing a video game.",
+      "promptZh": "我看了一齣電影，而沒有玩電子遊戲。",
+      "starter": "I",
+      "answer": "I did not play a video game. Instead, I watched a film.",
+      "answerZh": "我沒有玩電子遊戲；相反，我看了一齣電影。",
+      "answerZhSource": "pdf",
+      "highlight": "I did not play a video game. Instead, I watched a film."
+    },
+    {
+      "id": "ss17-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Lily chose hot chocolate over tea.",
+      "promptZh": "莉莉在茶和熱朱古力之間選擇了熱朱古力。",
+      "starter": "Lily",
+      "answer": "Lily did not choose tea. Instead, she chose hot chocolate.",
+      "answerZh": "莉莉沒有選擇茶；相反，她選擇了熱朱古力。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily did not choose tea. Instead, she chose hot chocolate."
+    },
+    {
+      "id": "ss17-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The beach was closed, so we gave up the idea of going there and stayed home.",
+      "promptZh": "海灘關閉了，所以我們放棄前往那裏，留在家中。",
+      "starter": "The",
+      "answer": "The beach was closed, so we did not go there. Instead, we stayed home.",
+      "answerZh": "海灘關閉了，所以我們沒有到那裏；相反，我們留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "The beach was closed, so we did not go there. Instead, we stayed home."
+    },
+    {
+      "id": "ss17-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Tom chose a pencil instead of a pen.",
+      "promptZh": "湯姆選擇了鉛筆，而不是原子筆。",
+      "starter": "Tom",
+      "answer": "Tom did not choose a pen. Instead, he chose a pencil.",
+      "answerZh": "湯姆沒有選擇原子筆；相反，他選擇了鉛筆。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom did not choose a pen. Instead, he chose a pencil."
+    },
+    {
+      "id": "ss17-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Why did Ava have fruit after dinner? She chose it instead of cake.",
+      "promptZh": "艾娃為甚麼在晚飯後吃水果？她選擇了水果而不是蛋糕。",
+      "starter": "Ava",
+      "answer": "Ava did not have cake after dinner. Instead, she had fruit.",
+      "answerZh": "艾娃晚飯後沒有吃蛋糕；相反，她吃了水果。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava did not have cake after dinner. Instead, she had fruit."
+    },
+    {
+      "id": "ss17-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "It was raining, so the children stayed indoors and did not play outside.",
+      "promptZh": "當時正在下雨，所以孩子們留在室內，沒有到戶外玩耍。",
+      "starter": "It",
+      "answer": "It was raining, so the children did not play outside. Instead, they played indoors.",
+      "answerZh": "當時正在下雨，所以孩子們沒有到戶外玩耍；相反，他們留在室內玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "It was raining, so the children did not play outside. Instead, they played indoors."
+    },
+    {
+      "id": "ss17-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Dad repaired the chair instead of throwing it away.",
+      "promptZh": "爸爸修理了椅子，而沒有把它丟掉。",
+      "starter": "Dad",
+      "answer": "Dad did not throw the chair away. Instead, he repaired it.",
+      "answerZh": "爸爸沒有把椅子丟掉；相反，他修理了椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "Dad did not throw the chair away. Instead, he repaired it."
+    },
+    {
+      "id": "ss17-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Our class did not have a test. We completed a group activity.",
+      "promptZh": "我們班沒有測驗。我們完成了一項小組活動。",
+      "starter": "Our",
+      "answer": "Our class did not have a test. Instead, we completed a group activity.",
+      "answerZh": "我們班沒有測驗；相反，我們完成了一項小組活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class did not have a test. Instead, we completed a group activity."
+    },
+    {
+      "id": "ss17-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Sarah is travelling by train today, not by taxi.",
+      "promptZh": "莎拉今天乘搭火車，而不是的士。",
+      "starter": "Sarah",
+      "answer": "Sarah is not taking a taxi today. Instead, she is travelling by train.",
+      "answerZh": "莎拉今天沒有乘搭的士；相反，她正乘搭火車。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah is not taking a taxi today. Instead, she is travelling by train."
+    },
+    {
+      "id": "ss17-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Kevin is taking the stairs instead of using the lift.",
+      "promptZh": "凱文正在行樓梯，而沒有使用升降機。",
+      "starter": "Kevin",
+      "answer": "Kevin is not using the lift. Instead, he is taking the stairs.",
+      "answerZh": "凱文沒有使用升降機；相反，他正在行樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin is not using the lift. Instead, he is taking the stairs."
+    },
+    {
+      "id": "ss17-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "We will hold the meeting online, not in the office.",
+      "promptZh": "我們會在網上而不是在辦公室舉行會議。",
+      "starter": "We",
+      "answer": "We will not hold the meeting in the office. Instead, we will hold it online.",
+      "answerZh": "我們不會在辦公室舉行會議；相反，我們會在網上舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "We will not hold the meeting in the office. Instead, we will hold it online."
+    },
+    {
+      "id": "ss17-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "You should call the office, not send another message.",
+      "promptZh": "你應該致電辦公室，不要再傳送訊息。",
+      "starter": "You",
+      "answer": "You should not send another message. Instead, you should call the office.",
+      "answerZh": "你不應再傳送訊息；相反，你應該致電辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "You should not send another message. Instead, you should call the office."
+    },
+    {
+      "id": "ss17-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The shop no longer gives customers plastic bags. It now gives them paper bags.",
+      "promptZh": "店舖不再向顧客提供膠袋，現時改為提供紙袋。",
+      "starter": "The",
+      "answer": "The shop no longer gives customers plastic bags. Instead, it now gives them paper bags.",
+      "answerZh": "店舖不再向顧客提供膠袋；取而代之，現時提供紙袋。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop no longer gives customers plastic bags. Instead, it now gives them paper bags."
+    },
+    {
+      "id": "ss17-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Did Emma complain about the delay? No. She calmly asked for an update.",
+      "promptZh": "艾瑪有否抱怨延誤？沒有。她冷靜地詢問最新情況。",
+      "starter": "Emma",
+      "answer": "Emma did not complain about the delay. Instead, she calmly asked for an update.",
+      "answerZh": "艾瑪沒有抱怨延誤；相反，她冷靜地詢問最新情況。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma did not complain about the delay. Instead, she calmly asked for an update."
+    },
+    {
+      "id": "ss17-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Rather than turning on the television, Noah read a book.",
+      "promptZh": "諾亞沒有打開電視，而是閱讀了一本書。",
+      "starter": "Noah",
+      "answer": "Noah did not turn on the television. Instead, he read a book.",
+      "answerZh": "諾亞沒有打開電視；相反，他閱讀了一本書。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah did not turn on the television. Instead, he read a book."
+    },
+    {
+      "id": "ss17-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The teacher did not give the answer directly; she gave the class a hint.",
+      "promptZh": "老師沒有直接給出答案，而是給全班一個提示。",
+      "starter": "The",
+      "answer": "The teacher did not give the answer directly. Instead, she gave the class a hint.",
+      "answerZh": "老師沒有直接給出答案；相反，她給全班一個提示。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher did not give the answer directly. Instead, she gave the class a hint."
+    },
+    {
+      "id": "ss17-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Ryan decided against eating out and cooked dinner at home.",
+      "promptZh": "瑞恩決定不外出用膳，並在家煮晚餐。",
+      "starter": "Ryan",
+      "answer": "Ryan did not eat out. Instead, he cooked dinner at home.",
+      "answerZh": "瑞恩沒有外出用膳；相反，他在家煮晚餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Ryan did not eat out. Instead, he cooked dinner at home."
+    },
+    {
+      "id": "ss17-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The team replaced a long email discussion with a short meeting.",
+      "promptZh": "團隊以一次短會議取代冗長的電郵討論。",
+      "starter": "The",
+      "answer": "The team did not have a long discussion by email. Instead, they held a short meeting.",
+      "answerZh": "團隊沒有透過電郵進行冗長討論；相反，他們舉行了一次短會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The team did not have a long discussion by email. Instead, they held a short meeting."
+    },
+    {
+      "id": "ss17-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The old paper form is no longer used; an online booking system has been introduced in its place.",
+      "promptZh": "舊的紙本表格已不再使用，取而代之的是新引入的網上預約系統。",
+      "starter": "The",
+      "answer": "The old paper form is no longer used. Instead, an online booking system has been introduced.",
+      "answerZh": "舊的紙本表格已不再使用；取而代之的是新引入的網上預約系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The old paper form is no longer used. Instead, an online booking system has been introduced."
+    },
+    {
+      "id": "ss17-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The bus was full, so Olivia could not get on it and took the train as an alternative.",
+      "promptZh": "巴士已滿，奧莉花無法上車，因此改乘火車。",
+      "starter": "Olivia",
+      "answer": "Olivia could not get on the bus because it was full. Instead, she took the train.",
+      "answerZh": "奧莉花因為巴士已滿而無法上車；相反，她改乘火車。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia could not get on the bus because it was full. Instead, she took the train."
+    },
+    {
+      "id": "ss17-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The doctor said Daniel should rest at home and should not return to work yet.",
+      "promptZh": "醫生說丹尼爾應該在家休息，暫時不應復工。",
+      "starter": "Daniel",
+      "answer": "Daniel should not return to work yet. Instead, he should rest at home.",
+      "answerZh": "丹尼爾暫時不應復工；相反，他應該在家休息。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel should not return to work yet. Instead, he should rest at home."
+    },
+    {
+      "id": "ss17-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Instead of cancelling the event, the organisers moved it indoors.",
+      "promptZh": "主辦單位沒有取消活動，而是把活動移到室內舉行。",
+      "starter": "The",
+      "answer": "The organisers did not cancel the event. Instead, they moved it indoors.",
+      "answerZh": "主辦單位沒有取消活動；相反，他們把活動移到室內舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers did not cancel the event. Instead, they moved it indoors."
+    },
+    {
+      "id": "ss17-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The school used its budget to repair the existing computers rather than buy new ones.",
+      "promptZh": "學校把預算用於維修現有電腦，而沒有購買新電腦。",
+      "starter": "The",
+      "answer": "The school did not buy new computers. Instead, it used its budget to repair the existing ones.",
+      "answerZh": "學校沒有購買新電腦；相反，學校把預算用於維修現有電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "The school did not buy new computers. Instead, it used its budget to repair the existing ones."
+    },
+    {
+      "id": "ss17-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Maya chose to ask for help instead of pretending that she understood everything.",
+      "promptZh": "瑪雅選擇求助，而沒有假裝自己明白所有事情。",
+      "starter": "Maya",
+      "answer": "Maya did not pretend that she understood everything. Instead, she asked for help.",
+      "answerZh": "瑪雅沒有假裝自己明白所有事情；相反，她主動求助。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya did not pretend that she understood everything. Instead, she asked for help."
+    },
+    {
+      "id": "ss17-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "The museum offers a digital guide in place of printed maps.",
+      "promptZh": "博物館以數碼導覽取代印刷地圖。",
+      "starter": "The",
+      "answer": "The museum does not offer printed maps. Instead, it offers a digital guide.",
+      "answerZh": "博物館不提供印刷地圖；相反，它提供數碼導覽。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum does not offer printed maps. Instead, it offers a digital guide."
+    },
+    {
+      "id": "ss17-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Rather than blame one person, Priya examined the whole process.",
+      "promptZh": "普莉雅沒有責怪某一個人，而是檢視整個流程。",
+      "starter": "Priya",
+      "answer": "Priya did not blame one person. Instead, she examined the whole process.",
+      "answerZh": "普莉雅沒有責怪某一個人；相反，她檢視了整個流程。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya did not blame one person. Instead, she examined the whole process."
+    },
+    {
+      "id": "ss17-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The council rejected the plan to widen the road and chose to improve public transport.",
+      "promptZh": "議會否決了擴闊道路的計劃，並選擇改善公共交通。",
+      "starter": "The",
+      "answer": "The council did not widen the road. Instead, it chose to improve public transport.",
+      "answerZh": "議會沒有擴闊道路；相反，它選擇改善公共交通。",
+      "answerZhSource": "pdf",
+      "highlight": "The council did not widen the road. Instead, it chose to improve public transport."
+    },
+    {
+      "id": "ss17-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "What did the nurse do when the patient felt worried? She did not rush the explanation; she spoke slowly and answered each question.",
+      "promptZh": "病人感到擔心時，護士怎樣做？她沒有匆忙解釋，而是慢慢說明並回答每個問題。",
+      "starter": "The",
+      "answer": "The nurse did not rush the explanation. Instead, she spoke slowly and answered each question.",
+      "answerZh": "護士沒有匆忙解釋；相反，她慢慢說明並回答每個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse did not rush the explanation. Instead, she spoke slowly and answered each question."
+    },
+    {
+      "id": "ss17-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Do not throw away the glass jar; wash it and use it again.",
+      "promptZh": "不要丟掉玻璃罐；把它洗乾淨後再次使用。",
+      "starter": "Do",
+      "answer": "Do not throw away the glass jar. Instead, wash it and use it again.",
+      "answerZh": "不要丟掉玻璃罐；請改為把它洗乾淨後再次使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not throw away the glass jar. Instead, wash it and use it again."
+    },
+    {
+      "id": "ss17-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "If the main entrance is closed, do not wait outside; use the side door.",
+      "promptZh": "如果正門關閉，不要在外面等候；請使用側門。",
+      "starter": "If",
+      "answer": "If the main entrance is closed, do not wait outside. Instead, use the side door.",
+      "answerZh": "如果正門關閉，不要在外面等候；請改為使用側門。",
+      "answerZhSource": "pdf",
+      "highlight": "If the main entrance is closed, do not wait outside. Instead, use the side door."
+    },
+    {
+      "id": "ss17-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Take the cheaper airport bus, not a taxi.",
+      "promptZh": "請乘搭較便宜的機場巴士，不要乘搭的士。",
+      "starter": "Do",
+      "answer": "Do not take a taxi. Instead, use the cheaper airport bus.",
+      "answerZh": "不要乘搭的士；請改乘較便宜的機場巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not take a taxi. Instead, use the cheaper airport bus."
+    },
+    {
+      "id": "ss17-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Did the engineers replace the whole machine? No. They changed only the damaged part.",
+      "promptZh": "工程師有否更換整部機器？沒有。他們只更換了損壞的部分。",
+      "starter": "The",
+      "answer": "The engineers did not replace the whole machine. Instead, they changed only the damaged part.",
+      "answerZh": "工程師沒有更換整部機器；相反，他們只更換了損壞的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers did not replace the whole machine. Instead, they changed only the damaged part."
+    },
+    {
+      "id": "ss17-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The report was not printed; it was shared online.",
+      "promptZh": "報告沒有列印出來，而是在網上分享。",
+      "starter": "The",
+      "answer": "The report was not printed. Instead, it was shared online.",
+      "answerZh": "報告沒有列印出來；相反，報告改為在網上分享。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was not printed. Instead, it was shared online."
+    },
+    {
+      "id": "ss17-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Grace did not choose the course that met on Fridays; she chose the one that met on Tuesdays.",
+      "promptZh": "格蕾絲沒有選擇逢星期五上課的課程，而是選擇了逢星期二上課的課程。",
+      "starter": "Grace",
+      "answer": "Grace did not choose the course that met on Fridays. Instead, she chose the one that met on Tuesdays.",
+      "answerZh": "格蕾絲沒有選擇逢星期五上課的課程；相反，她選擇了逢星期二上課的課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace did not choose the course that met on Fridays. Instead, she chose the one that met on Tuesdays."
+    },
+    {
+      "id": "ss17-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "When customers cannot use the app, staff should offer telephone support rather than ask them to try again alone.",
+      "promptZh": "當顧客無法使用應用程式時，職員應提供電話支援，而不是要求他們自行再試。",
+      "starter": "When",
+      "answer": "When customers cannot use the app, staff should not ask them to try again alone. Instead, staff should offer telephone support.",
+      "answerZh": "當顧客無法使用應用程式時，職員不應要求他們自行再試；相反，職員應提供電話支援。",
+      "answerZhSource": "pdf",
+      "highlight": "When customers cannot use the app, staff should not ask them to try again alone. Instead, staff should offer telephone support."
+    },
+    {
+      "id": "ss17-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The hikers returned to the village instead of continuing along the unsafe path.",
+      "promptZh": "遠足人士返回村莊，而沒有繼續沿着不安全的小徑前進。",
+      "starter": "The",
+      "answer": "The hikers did not continue along the unsafe path. Instead, they returned to the village.",
+      "answerZh": "遠足人士沒有繼續沿着不安全的小徑前進；相反，他們返回了村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "The hikers did not continue along the unsafe path. Instead, they returned to the village."
+    },
+    {
+      "id": "ss17-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Rather than give a quick answer, Dr Lee checked the data again before she spoke.",
+      "promptZh": "李醫生沒有立即回答，而是在發言前再次核對數據。",
+      "starter": "Dr",
+      "answer": "Dr Lee did not give a quick answer. Instead, she checked the data again before speaking.",
+      "answerZh": "李醫生沒有立即回答；相反，她在發言前再次核對數據。",
+      "answerZhSource": "pdf",
+      "highlight": "Dr Lee did not give a quick answer. Instead, she checked the data again before speaking."
+    },
+    {
+      "id": "ss17-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The café no longer sells bottled water. It now provides a free refill station.",
+      "promptZh": "這間咖啡店不再售賣樽裝水，現時提供免費加水站。",
+      "starter": "The",
+      "answer": "The café no longer sells bottled water. Instead, it now provides a free refill station.",
+      "answerZh": "這間咖啡店不再售賣樽裝水；取而代之，現時提供免費加水站。",
+      "answerZhSource": "pdf",
+      "highlight": "The café no longer sells bottled water. Instead, it now provides a free refill station."
+    },
+    {
+      "id": "ss17-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The school shortened each lesson by five minutes without reducing the number of lessons.",
+      "promptZh": "學校把每堂縮短五分鐘，但沒有減少課堂數目。",
+      "starter": "The",
+      "answer": "The school did not reduce the number of lessons. Instead, it shortened each lesson by five minutes.",
+      "answerZh": "學校沒有減少課堂數目；相反，學校把每堂縮短五分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The school did not reduce the number of lessons. Instead, it shortened each lesson by five minutes."
+    },
+    {
+      "id": "ss17-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The hospital did not close the busy clinic. It extended the opening hours.",
+      "promptZh": "醫院沒有關閉繁忙的診所，而是延長了開放時間。",
+      "starter": "The",
+      "answer": "The hospital did not close the busy clinic. Instead, it extended the opening hours.",
+      "answerZh": "醫院沒有關閉繁忙的診所；相反，醫院延長了開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital did not close the busy clinic. Instead, it extended the opening hours."
+    },
+    {
+      "id": "ss17-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The company had planned to move abroad, but after reviewing the costs, it decided to expand its local office.",
+      "promptZh": "公司原本計劃遷往海外，但在檢視成本後，決定擴充本地辦公室。",
+      "starter": "After",
+      "answer": "After reviewing the costs, the company did not follow its plan to move abroad. Instead, it expanded its local office.",
+      "answerZh": "在檢視成本後，公司沒有按原定計劃遷往海外；相反，公司擴充了本地辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the costs, the company did not follow its plan to move abroad. Instead, it expanded its local office."
+    },
+    {
+      "id": "ss17-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The committee responded to the complaint by changing the rule, not by defending the old system.",
+      "promptZh": "委員會以修改規則回應投訴，而不是維護舊制度。",
+      "starter": "The",
+      "answer": "The committee did not defend the old system. Instead, it responded to the complaint by changing the rule.",
+      "answerZh": "委員會沒有維護舊制度；相反，它以修改規則回應投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee did not defend the old system. Instead, it responded to the complaint by changing the rule."
+    },
+    {
+      "id": "ss17-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Rather than promise an immediate solution, Ms Wong explained what could realistically be done.",
+      "promptZh": "黃女士沒有承諾立即解決問題，而是解釋實際上可以採取甚麼行動。",
+      "starter": "Ms",
+      "answer": "Ms Wong did not promise an immediate solution. Instead, she explained what could realistically be done.",
+      "answerZh": "黃女士沒有承諾立即解決問題；相反，她解釋了實際上可以採取甚麼行動。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Wong did not promise an immediate solution. Instead, she explained what could realistically be done."
+    },
+    {
+      "id": "ss17-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "When the team realised that it could not meet the original deadline, it proposed a revised schedule rather than making excuses.",
+      "promptZh": "團隊發現無法趕及原定限期時，提出了修訂時間表，而沒有找藉口。",
+      "starter": "When",
+      "answer": "When the team realised that it could not meet the original deadline, it did not make excuses. Instead, it proposed a revised schedule.",
+      "answerZh": "團隊發現無法趕及原定限期時，沒有找藉口；相反，團隊提出了修訂時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "When the team realised that it could not meet the original deadline, it did not make excuses. Instead, it proposed a revised schedule."
+    },
+    {
+      "id": "ss17-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The new policy does not simply give families short-term payments; it focuses on helping them find work.",
+      "promptZh": "新政策不只是向家庭提供短期款項，而是着重協助他們就業。",
+      "starter": "The",
+      "answer": "The new policy does not simply give families short-term payments. Instead, it focuses on helping them find work.",
+      "answerZh": "新政策不只是向家庭提供短期款項；相反，它着重協助他們就業。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy does not simply give families short-term payments. Instead, it focuses on helping them find work."
+    },
+    {
+      "id": "ss17-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The speaker did not repeat the statistics already shown on the slide; she used a personal story to explain their meaning.",
+      "promptZh": "講者沒有重複簡報頁面上已顯示的統計數字，而是以個人故事解釋其意義。",
+      "starter": "The",
+      "answer": "The speaker did not repeat the statistics already shown on the slide. Instead, she used a personal story to explain their meaning.",
+      "answerZh": "講者沒有重複簡報頁面上已顯示的統計數字；相反，她以個人故事解釋其意義。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker did not repeat the statistics already shown on the slide. Instead, she used a personal story to explain their meaning."
+    },
+    {
+      "id": "ss17-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The town decided against building another car park and used the land for a public garden.",
+      "promptZh": "該城鎮決定不興建另一個停車場，並把土地用作公共花園。",
+      "starter": "The",
+      "answer": "The town did not build another car park. Instead, it used the land for a public garden.",
+      "answerZh": "該城鎮沒有興建另一個停車場；相反，它把土地用作公共花園。",
+      "answerZhSource": "pdf",
+      "highlight": "The town did not build another car park. Instead, it used the land for a public garden."
+    },
+    {
+      "id": "ss17-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Life should be guided by our own choices rather than by other people’s expectations.",
+      "promptZh": "人生應由自己的選擇引導，而不是由別人的期望支配。",
+      "starter": "Life",
+      "answer": "Life should not be guided by other people’s expectations. Instead, it should be guided by our own choices.",
+      "answerZh": "人生不應由別人的期望支配；相反，它應由我們自己的選擇引導。",
+      "answerZhSource": "pdf",
+      "highlight": "Life should not be guided by other people’s expectations. Instead, it should be guided by our own choices."
+    }
+  ]
+}

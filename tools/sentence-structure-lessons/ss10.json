@@ -1,0 +1,1075 @@
+{
+  "id": "ss10",
+  "order": 10,
+  "slug": "a-few-a-little",
+  "title": "「A few / A little」句型",
+  "titleZh": "「A few / A little 句」",
+  "titleEn": "Using a few and a little to express a small positive quantity",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 10 - 「A few : A little 句」.pdf",
+    "pageCount": 16,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "omissions": [
+      "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Subject + verb + a few + plural countable noun + other information",
+  "formulas": [
+    {
+      "id": "ss10-formula-a-few-subject",
+      "labelEn": "A few with a subject",
+      "labelZh": "A few：放在複數可數名詞前",
+      "formula": "Subject + verb + a few + plural countable noun + other information"
+    },
+    {
+      "id": "ss10-formula-a-few-there",
+      "labelEn": "A few with There are",
+      "labelZh": "A few：There are 句型",
+      "formula": "There are + a few + plural countable noun + other information"
+    },
+    {
+      "id": "ss10-formula-a-little-subject",
+      "labelEn": "A little with a subject",
+      "labelZh": "A little：放在不可數名詞前",
+      "formula": "Subject + verb + a little + uncountable noun + other information"
+    },
+    {
+      "id": "ss10-formula-a-little-there",
+      "labelEn": "A little with There is",
+      "labelZh": "A little：There is 句型",
+      "formula": "There is + a little + uncountable noun + other information"
+    }
+  ],
+  "example": "There are a few advantages of studying overseas.",
+  "exampleZh": "到海外讀書有幾個好處。",
+  "examples": [
+    {
+      "id": "ss10-example-a-few",
+      "labelEn": "A few",
+      "labelZh": "A few",
+      "en": "There are a few advantages of studying overseas.",
+      "zh": "到海外讀書有幾個好處。",
+      "highlight": "There are a few advantages of studying overseas."
+    },
+    {
+      "id": "ss10-example-a-little",
+      "labelEn": "A little",
+      "labelZh": "A little",
+      "en": "There is a little milk left in the fridge.",
+      "zh": "雪櫃裏還剩下一點牛奶。",
+      "highlight": "There is a little milk left in the fridge."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss10-rule-01",
+      "en": "Use a few with plural nouns that can be counted individually.",
+      "zh": "a few 用於可以逐一數出的複數名詞。",
+      "examples": [
+        "a few books",
+        "a few questions",
+        "a few minutes"
+      ]
+    },
+    {
+      "id": "ss10-rule-02",
+      "en": "Use a little with uncountable nouns that generally cannot be counted individually.",
+      "zh": "a little 用於一般不能逐一數出的不可數名詞。",
+      "examples": [
+        "a little water",
+        "a little time",
+        "a little advice"
+      ]
+    },
+    {
+      "id": "ss10-rule-03",
+      "en": "A countable noun after a few must be plural.",
+      "zh": "a few 後面的可數名詞必須使用複數形式。",
+      "examples": [
+        "Correct: a few chairs",
+        "Incorrect: a few chair"
+      ]
+    },
+    {
+      "id": "ss10-rule-04",
+      "en": "Do not add -s to an uncountable noun.",
+      "zh": "不要在不可數名詞後面加 -s。",
+      "examples": [
+        "Correct: a little information",
+        "Incorrect: a little informations"
+      ]
+    },
+    {
+      "id": "ss10-rule-05",
+      "en": "Both a few and a little mean that there is some quantity, although not much, and normally carry a positive meaning.",
+      "zh": "a few 和 a little 都表示「有一些，雖然數量不多」，通常帶有正面意思。",
+      "examples": []
+    },
+    {
+      "id": "ss10-rule-06",
+      "en": "This exercise uses only a few and a little. Do not omit a and use few or little instead, because the meaning changes.",
+      "zh": "本練習只使用 a few 和 a little。不要省略 a 而改用 few 或 little，因為意思會有所不同。",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss10-benefit-01",
+      "en": "These two structures let you state clearly that there is some quantity, but not much, without giving an exact number.",
+      "zh": "這兩個句型能讓你清楚表達「有一些，但數量不多」，而不需要說出確實數字。"
+    },
+    {
+      "id": "ss10-benefit-02",
+      "en": "They help you distinguish countable from uncountable nouns and reduce common errors such as a few water or a little books.",
+      "zh": "它們能幫助你分辨哪些名詞可以數，哪些名詞不可以直接逐一數，減少 a few water 或 a little books 一類常見錯誤。"
+    },
+    {
+      "id": "ss10-benefit-03",
+      "en": "After mastering these structures, you can describe quantities of time, money, food, people and objects more naturally and accurately.",
+      "zh": "掌握這兩個句型後，你描述時間、金錢、食物、人物和物件數量時，會更加自然和準確。"
+    }
+  ],
+  "sourceOmissions": [
+    "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a few or a little while keeping the original meaning.",
+      "Use a few before a plural countable noun and a little before an uncountable noun.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 a few 或 a little 改寫以下句子，並保留原句意思。",
+      "在複數可數名詞前使用 a few，在不可數名詞前使用 a little。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss10-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "A small number of biscuits are on the plate.",
+      "promptZh": "碟子上有少量餅乾。",
+      "starter": "There",
+      "answer": "There are a few biscuits on the plate.",
+      "answerZh": "碟子上有幾塊餅乾。",
+      "answerZhSource": "pdf",
+      "highlight": "There are a few biscuits on the plate."
+    },
+    {
+      "id": "ss10-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Mia added a small amount of salt to the soup.",
+      "promptZh": "米婭在湯裏加入了少量鹽。",
+      "starter": "Mia",
+      "answer": "Mia added a little salt to the soup.",
+      "answerZh": "米婭在湯裏加入了一點鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia added a little salt to the soup."
+    },
+    {
+      "id": "ss10-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 11
+      },
+      "prompt": "We have some time before the lesson starts, but not much.",
+      "promptZh": "課堂開始前，我們還有一些時間，但不多。",
+      "starter": "We",
+      "answer": "We have a little time before the lesson starts.",
+      "answerZh": "課堂開始前，我們還有一點時間。",
+      "answerZhSource": "pdf",
+      "highlight": "We have a little time before the lesson starts."
+    },
+    {
+      "id": "ss10-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "There are some chairs near the window, but not many.",
+      "promptZh": "窗邊有一些椅子，但數量不多。",
+      "starter": "There",
+      "answer": "There are a few chairs near the window.",
+      "answerZh": "窗邊有幾張椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "There are a few chairs near the window."
+    },
+    {
+      "id": "ss10-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Ben made a small number of mistakes in his homework.",
+      "promptZh": "本在功課中犯了少量錯誤。",
+      "starter": "Ben",
+      "answer": "Ben made a few mistakes in his homework.",
+      "answerZh": "本在功課中犯了幾個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben made a few mistakes in his homework."
+    },
+    {
+      "id": "ss10-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "I need some help with this box, but not much.",
+      "promptZh": "我需要一些協助處理這個箱子，但不需要太多。",
+      "starter": "I",
+      "answer": "I need a little help with this box.",
+      "answerZh": "我需要一點協助處理這個箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "I need a little help with this box."
+    },
+    {
+      "id": "ss10-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The garden has a small number of tall trees.",
+      "promptZh": "花園裏有少量高大的樹。",
+      "starter": "The",
+      "answer": "The garden has a few tall trees.",
+      "answerZh": "花園裏有幾棵高大的樹。",
+      "answerZhSource": "pdf",
+      "highlight": "The garden has a few tall trees."
+    },
+    {
+      "id": "ss10-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Ella put a small amount of sugar in her tea.",
+      "promptZh": "艾拉在茶裏加入了少量糖。",
+      "starter": "Ella",
+      "answer": "Ella put a little sugar in her tea.",
+      "answerZh": "艾拉在茶裏加入了一點糖。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella put a little sugar in her tea."
+    },
+    {
+      "id": "ss10-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Some students stayed after class, but not many.",
+      "promptZh": "有一些學生在課後留下來，但人數不多。",
+      "starter": "A",
+      "answer": "A few students stayed after class.",
+      "answerZh": "有幾名學生在課後留下來。",
+      "answerZhSource": "pdf",
+      "highlight": "A few students stayed after class."
+    },
+    {
+      "id": "ss10-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The baby drank a small amount of milk before sleeping.",
+      "promptZh": "嬰兒睡前喝了少量牛奶。",
+      "starter": "The",
+      "answer": "The baby drank a little milk before sleeping.",
+      "answerZh": "嬰兒睡前喝了一點牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby drank a little milk before sleeping."
+    },
+    {
+      "id": "ss10-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Noah bought only a small number of postcards at the museum.",
+      "promptZh": "諾亞在博物館只買了少量明信片。",
+      "starter": "Noah",
+      "answer": "Noah bought only a few postcards at the museum.",
+      "answerZh": "諾亞在博物館只買了幾張明信片。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah bought only a few postcards at the museum."
+    },
+    {
+      "id": "ss10-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 12
+      },
+      "prompt": "How much rice is left in the pot? Only a small amount is left.",
+      "promptZh": "鍋裏還剩下多少米飯？只剩下少量。",
+      "starter": "There",
+      "answer": "There is only a little rice left in the pot.",
+      "answerZh": "鍋裏只剩下一點米飯。",
+      "answerZhSource": "pdf",
+      "highlight": "There is only a little rice left in the pot."
+    },
+    {
+      "id": "ss10-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The teacher gave us some examples, but not many.",
+      "promptZh": "老師給了我們一些例子，但數量不多。",
+      "starter": "The",
+      "answer": "The teacher gave us a few examples.",
+      "answerZh": "老師給了我們幾個例子。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher gave us a few examples."
+    },
+    {
+      "id": "ss10-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Lily has some experience with computers, but not much.",
+      "promptZh": "莉莉有一些使用電腦的經驗，但不多。",
+      "starter": "Lily",
+      "answer": "Lily has a little experience with computers.",
+      "answerZh": "莉莉有一點使用電腦的經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily has a little experience with computers."
+    },
+    {
+      "id": "ss10-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "How many buses run after midnight? Only a small number do.",
+      "promptZh": "有多少輛巴士在午夜後行駛？只有少數巴士行駛。",
+      "starter": "Only",
+      "answer": "Only a few buses run after midnight.",
+      "answerZh": "只有幾輛巴士在午夜後行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Only a few buses run after midnight."
+    },
+    {
+      "id": "ss10-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "We need some patience to finish this puzzle, but not a lot.",
+      "promptZh": "我們需要一些耐性才能完成這個拼圖，但不需要很多。",
+      "starter": "We",
+      "answer": "We need a little patience to finish this puzzle.",
+      "answerZh": "我們需要一點耐性才能完成這個拼圖。",
+      "answerZhSource": "pdf",
+      "highlight": "We need a little patience to finish this puzzle."
+    },
+    {
+      "id": "ss10-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The shop sells some kinds of fresh bread, but not many.",
+      "promptZh": "這間店售賣一些種類的新鮮麵包，但種類不多。",
+      "starter": "The",
+      "answer": "The shop sells a few kinds of fresh bread.",
+      "answerZh": "這間店售賣幾種新鮮麵包。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop sells a few kinds of fresh bread."
+    },
+    {
+      "id": "ss10-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Daniel saved a small amount of money for the trip.",
+      "promptZh": "丹尼爾為旅程儲起了少量金錢。",
+      "starter": "Daniel",
+      "answer": "Daniel saved a little money for the trip.",
+      "answerZh": "丹尼爾為旅程儲起了一點錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel saved a little money for the trip."
+    },
+    {
+      "id": "ss10-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "After the talk, some people asked questions, but not many.",
+      "promptZh": "講座結束後，有一些人提問，但人數不多。",
+      "starter": "A",
+      "answer": "A few people asked questions after the talk.",
+      "answerZh": "講座結束後，有幾個人提問。",
+      "answerZhSource": "pdf",
+      "highlight": "A few people asked questions after the talk."
+    },
+    {
+      "id": "ss10-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "There is some traffic on this road today, but not much.",
+      "promptZh": "今天這條路有一些車輛，但不多。",
+      "starter": "There",
+      "answer": "There is a little traffic on this road today.",
+      "answerZh": "今天這條路有少量車輛。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a little traffic on this road today."
+    },
+    {
+      "id": "ss10-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 13
+      },
+      "prompt": "Chloe borrowed a small number of books about space.",
+      "promptZh": "克洛伊借了少量有關太空的書。",
+      "starter": "Chloe",
+      "answer": "Chloe borrowed a few books about space.",
+      "answerZh": "克洛伊借了幾本有關太空的書。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe borrowed a few books about space."
+    },
+    {
+      "id": "ss10-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "You should add a small amount of oil to the pan.",
+      "promptZh": "你應該在平底鍋裏加入少量油。",
+      "starter": "You",
+      "answer": "You should add a little oil to the pan.",
+      "answerZh": "你應該在平底鍋裏加入一點油。",
+      "answerZhSource": "pdf",
+      "highlight": "You should add a little oil to the pan."
+    },
+    {
+      "id": "ss10-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "How many appointments does the clinic have available this afternoon? It has only a small number.",
+      "promptZh": "診所今天下午有多少個可預約時段？只有少數時段可供預約。",
+      "starter": "The",
+      "answer": "The clinic has only a few appointments available this afternoon.",
+      "answerZh": "診所今天下午只有幾個可預約時段。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic has only a few appointments available this afternoon."
+    },
+    {
+      "id": "ss10-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "My manager gave me some useful advice, but not much.",
+      "promptZh": "我的經理給了我一些有用的建議，但不多。",
+      "starter": "My",
+      "answer": "My manager gave me a little useful advice.",
+      "answerZh": "我的經理給了我一點有用的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "My manager gave me a little useful advice."
+    },
+    {
+      "id": "ss10-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Only a small number of lights were left on in the office.",
+      "promptZh": "辦公室裏只有少數燈沒有關掉。",
+      "starter": "Only",
+      "answer": "Only a few lights were left on in the office.",
+      "answerZh": "辦公室裏只有幾盞燈沒有關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "Only a few lights were left on in the office."
+    },
+    {
+      "id": "ss10-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The team needs some more practice before the match, but not much.",
+      "promptZh": "球隊在比賽前還需要一些練習，但不需要很多。",
+      "starter": "The",
+      "answer": "The team needs a little more practice before the match.",
+      "answerZh": "球隊在比賽前還需要多一點練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The team needs a little more practice before the match."
+    },
+    {
+      "id": "ss10-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "We saw some birds with bright blue feathers, but not many.",
+      "promptZh": "我們看見一些有鮮藍色羽毛的鳥，但數量不多。",
+      "starter": "We",
+      "answer": "We saw a few birds with bright blue feathers.",
+      "answerZh": "我們看見幾隻有鮮藍色羽毛的鳥。",
+      "answerZhSource": "pdf",
+      "highlight": "We saw a few birds with bright blue feathers."
+    },
+    {
+      "id": "ss10-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "There is only a small amount of room in this cupboard.",
+      "promptZh": "這個櫃裏只剩下少量空間。",
+      "starter": "There",
+      "answer": "There is only a little room in this cupboard.",
+      "answerZh": "這個櫃裏只剩下一點空間。",
+      "answerZhSource": "pdf",
+      "highlight": "There is only a little room in this cupboard."
+    },
+    {
+      "id": "ss10-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "A small number of customers reported the same problem.",
+      "promptZh": "少數顧客報告了同一個問題。",
+      "starter": "A",
+      "answer": "A few customers reported the same problem.",
+      "answerZh": "有幾名顧客報告了同一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "A few customers reported the same problem."
+    },
+    {
+      "id": "ss10-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "The recipe requires a small amount of lemon juice.",
+      "promptZh": "這份食譜需要少量檸檬汁。",
+      "starter": "The",
+      "answer": "The recipe requires a little lemon juice.",
+      "answerZh": "這份食譜需要一點檸檬汁。",
+      "answerZhSource": "pdf",
+      "highlight": "The recipe requires a little lemon juice."
+    },
+    {
+      "id": "ss10-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Ethan asked some neighbours to help clean the street, but not many.",
+      "promptZh": "伊森邀請了一些鄰居協助清潔街道，但人數不多。",
+      "starter": "Ethan",
+      "answer": "Ethan asked a few neighbours to help clean the street.",
+      "answerZh": "伊森邀請了幾名鄰居協助清潔街道。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan asked a few neighbours to help clean the street."
+    },
+    {
+      "id": "ss10-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The phone still has some battery power left, but not much.",
+      "promptZh": "這部電話仍有一些電量，但不多。",
+      "starter": "The",
+      "answer": "The phone still has a little battery power left.",
+      "answerZh": "這部電話仍剩下一點電量。",
+      "answerZhSource": "pdf",
+      "highlight": "The phone still has a little battery power left."
+    },
+    {
+      "id": "ss10-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Only a small number of seats near the stage were reserved for older guests.",
+      "promptZh": "舞台附近只有少數座位預留給年長賓客。",
+      "starter": "Only",
+      "answer": "Only a few seats near the stage were reserved for older guests.",
+      "answerZh": "舞台附近只有幾個座位預留給年長賓客。",
+      "answerZhSource": "pdf",
+      "highlight": "Only a few seats near the stage were reserved for older guests."
+    },
+    {
+      "id": "ss10-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The doctor said I should get some rest this weekend, but not a lot.",
+      "promptZh": "醫生說我這個週末應該休息一下，但不用太久。",
+      "starter": "The",
+      "answer": "The doctor said I should get a little rest this weekend.",
+      "answerZh": "醫生說我這個週末應該休息一下。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor said I should get a little rest this weekend."
+    },
+    {
+      "id": "ss10-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "We found a small number of spelling errors in the final report.",
+      "promptZh": "我們在最終報告中發現了少數串字錯誤。",
+      "starter": "We",
+      "answer": "We found a few spelling errors in the final report.",
+      "answerZh": "我們在最終報告中發現了幾個串字錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "We found a few spelling errors in the final report."
+    },
+    {
+      "id": "ss10-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The website has some information about the event, but not much.",
+      "promptZh": "網站上有一些關於活動的資料，但不多。",
+      "starter": "The",
+      "answer": "The website has a little information about the event.",
+      "answerZh": "網站上有一點關於活動的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The website has a little information about the event."
+    },
+    {
+      "id": "ss10-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Only a small number of families who live nearby use this community centre.",
+      "promptZh": "只有少數住在附近的家庭使用這個社區中心。",
+      "starter": "Only",
+      "answer": "Only a few families who live nearby use this community centre.",
+      "answerZh": "只有幾個住在附近的家庭使用這個社區中心。",
+      "answerZhSource": "pdf",
+      "highlight": "Only a few families who live nearby use this community centre."
+    },
+    {
+      "id": "ss10-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Sofia showed some courage during the emergency, though not much.",
+      "promptZh": "蘇菲亞在緊急情況中表現出一些勇氣，但不算多。",
+      "starter": "Sofia",
+      "answer": "Sofia showed a little courage during the emergency.",
+      "answerZh": "蘇菲亞在緊急情況中表現出一點勇氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia showed a little courage during the emergency."
+    },
+    {
+      "id": "ss10-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "A small number of new computers were bought for the library's study area.",
+      "promptZh": "圖書館為自修區購買了少量新電腦。",
+      "starter": "A",
+      "answer": "A few new computers were bought for the library's study area.",
+      "answerZh": "圖書館為自修區購買了幾部新電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "A few new computers were bought for the library's study area."
+    },
+    {
+      "id": "ss10-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The sauce needs some more pepper before it is ready, but not much.",
+      "promptZh": "醬汁在完成前還需要加入一些胡椒，但不用太多。",
+      "starter": "The",
+      "answer": "The sauce needs a little more pepper before it is ready.",
+      "answerZh": "醬汁在完成前還需要加入多一點胡椒。",
+      "answerZhSource": "pdf",
+      "highlight": "The sauce needs a little more pepper before it is ready."
+    },
+    {
+      "id": "ss10-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "How many teachers volunteered to run the holiday programme? A small number did.",
+      "promptZh": "有多少名老師自願協助舉辦假期活動？只有少數老師參與。",
+      "starter": "A",
+      "answer": "A few teachers volunteered to run the holiday programme.",
+      "answerZh": "有幾名老師自願協助舉辦假期活動。",
+      "answerZhSource": "pdf",
+      "highlight": "A few teachers volunteered to run the holiday programme."
+    },
+    {
+      "id": "ss10-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The hospital has some extra space for new equipment, but not much.",
+      "promptZh": "醫院有一些額外空間放置新設備，但不多。",
+      "starter": "The",
+      "answer": "The hospital has a little extra space for new equipment.",
+      "answerZh": "醫院有一點額外空間放置新設備。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has a little extra space for new equipment."
+    },
+    {
+      "id": "ss10-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Marcus suggested some changes that could make the plan clearer, but not many.",
+      "promptZh": "馬庫斯提出了一些可以令計劃更清晰的修改，但數量不多。",
+      "starter": "Marcus",
+      "answer": "Marcus suggested a few changes that could make the plan clearer.",
+      "answerZh": "馬庫斯提出了幾項可以令計劃更清晰的修改。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus suggested a few changes that could make the plan clearer."
+    },
+    {
+      "id": "ss10-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "We do not have much time to review the figures before the meeting, but we still have some.",
+      "promptZh": "會議前，我們沒有太多時間檢查數字，但仍有一些時間。",
+      "starter": "We",
+      "answer": "We have a little time to review the figures before the meeting.",
+      "answerZh": "會議前，我們還有一點時間檢查數字。",
+      "answerZhSource": "pdf",
+      "highlight": "We have a little time to review the figures before the meeting."
+    },
+    {
+      "id": "ss10-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Only a small number of passengers whose trains were delayed asked for assistance.",
+      "promptZh": "只有少數火車延誤的乘客尋求協助。",
+      "starter": "Only",
+      "answer": "Only a few passengers whose trains were delayed asked for assistance.",
+      "answerZh": "只有幾名火車延誤的乘客尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "Only a few passengers whose trains were delayed asked for assistance."
+    },
+    {
+      "id": "ss10-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The school received a small amount of funding to improve the reading room.",
+      "promptZh": "學校獲得了少量資助，以改善閱讀室。",
+      "starter": "The",
+      "answer": "The school received a little funding to improve the reading room.",
+      "answerZh": "學校獲得了一點資助，以改善閱讀室。",
+      "answerZhSource": "pdf",
+      "highlight": "The school received a little funding to improve the reading room."
+    },
+    {
+      "id": "ss10-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Some local businesses offered prizes for the charity event, but not many.",
+      "promptZh": "有一些本地商戶為慈善活動提供獎品，但數量不多。",
+      "starter": "A",
+      "answer": "A few local businesses offered prizes for the charity event.",
+      "answerZh": "有幾間本地商戶為慈善活動提供獎品。",
+      "answerZhSource": "pdf",
+      "highlight": "A few local businesses offered prizes for the charity event."
+    },
+    {
+      "id": "ss10-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "The guide gave us a small amount of information about the village's history.",
+      "promptZh": "導遊向我們提供了少量有關村莊歷史的資料。",
+      "starter": "The",
+      "answer": "The guide gave us a little information about the village's history.",
+      "answerZh": "導遊向我們提供了一點有關村莊歷史的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide gave us a little information about the village's history."
+    },
+    {
+      "id": "ss10-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Before the machine is used, a small number of safety checks must be completed.",
+      "promptZh": "在使用機器前，必須完成少量安全檢查。",
+      "starter": "A",
+      "answer": "A few safety checks must be completed before the machine is used.",
+      "answerZh": "在使用機器前，必須完成幾項安全檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "A few safety checks must be completed before the machine is used."
+    },
+    {
+      "id": "ss10-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "After the team changed its schedule, the project made some progress, but not much.",
+      "promptZh": "團隊更改時間表後，項目取得了一些進展，但進展不大。",
+      "starter": "The",
+      "answer": "The project made a little progress after the team changed its schedule.",
+      "answerZh": "團隊更改時間表後，項目取得了一點進展。",
+      "answerZhSource": "pdf",
+      "highlight": "The project made a little progress after the team changed its schedule."
+    }
+  ]
+}

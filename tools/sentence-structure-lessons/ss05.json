@@ -1,0 +1,1038 @@
+{
+  "id": "ss5",
+  "order": 5,
+  "slug": "while-as-although-concession",
+  "title": "「While = Although」句型",
+  "titleZh": "「While = Although」表達「雖然……但……」",
+  "titleEn": "Using While as Although to express concession and contrast",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 5 - 「While = Although」表達「雖然……但……」.pdf",
+    "pageCount": 16,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "omissions": [
+      "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "While + subject + verb + other information, subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss5-formula-while-concession",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "While + subject + verb + other information, subject + verb + other information"
+    }
+  ],
+  "example": "While natural foods are nutritious, they are often too expensive.",
+  "exampleZh": "雖然天然食品營養豐富，但價格往往太高。",
+  "examples": [
+    {
+      "id": "ss5-example-01",
+      "en": "While natural foods are nutritious, they are often too expensive.",
+      "zh": "雖然天然食品營養豐富，但價格往往太高。",
+      "highlight": "While natural foods are nutritious, they are often too expensive."
+    }
+  ],
+  "meaning": {
+    "zh": [
+      "在這個句型中，while 與 although 意思相同，用來先承認一項事實，再提出另一項與它形成對比或出乎意料的事實。"
+    ]
+  },
+  "rules": [
+    {
+      "id": "ss5-rule-01",
+      "en": "In this lesson, While means “although”, not “during the time that”.",
+      "zh": "While 在本課表示「雖然」，不是「當……的時候」。",
+      "examples": []
+    },
+    {
+      "id": "ss5-rule-02",
+      "en": "Add a comma after a While clause when it comes at the beginning of a sentence.",
+      "zh": "放在句首的 While clause 後面要加逗號。",
+      "examples": []
+    },
+    {
+      "id": "ss5-rule-03",
+      "en": "Both sides of the comma must be complete clauses, normally each containing a subject and a verb.",
+      "zh": "逗號前後都必須是完整的子句，通常各自包含主語和動詞。",
+      "examples": []
+    },
+    {
+      "id": "ss5-rule-04",
+      "en": "Do not add but before the main clause after using While.",
+      "zh": "使用 While 後，主句前不需要再加 but。",
+      "examples": [
+        "Correct: While natural foods are nutritious, they are often expensive.",
+        "Incorrect: While natural foods are nutritious, but they are often expensive."
+      ]
+    },
+    {
+      "id": "ss5-rule-05",
+      "en": "Pronouns must agree in number with the nouns they refer to.",
+      "zh": "代名詞必須與所指的名詞保持單複數一致。",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss5-benefit-01",
+      "en": "It connects two opposing ideas naturally. You do not need to split the information into several short sentences, so the expression becomes smoother.",
+      "zh": "把兩個相反的想法自然連接起來。不需要把資料拆成幾個短句，表達會更流暢。"
+    },
+    {
+      "id": "ss5-benefit-02",
+      "en": "It makes speaking and writing sound more balanced. You can first acknowledge the other side before presenting your main point, so your view does not sound overly one-sided.",
+      "zh": "讓說話和寫作顯得更平衡。你可以先承認另一面的事實，再表達主要觀點，不會令人覺得你的看法過於片面。"
+    },
+    {
+      "id": "ss5-benefit-03",
+      "en": "It is suitable for essays, discussions and spoken answers. The structure can compare advantages and disadvantages, ideals and reality, and different people’s views.",
+      "zh": "適合用於作文、討論和口語回答。這個句型可以用來比較優點與缺點、理想與現實，以及不同人的看法。"
+    },
+    {
+      "id": "ss5-benefit-04",
+      "en": "It reduces repeated use of but and although. Learning while gives you more sentence variety and makes your English sound more natural and mature.",
+      "zh": "減少重複使用 but 和 although。學會使用 while，可以令句式更多變，英文聽起來更自然和成熟。"
+    }
+  ],
+  "sourceOmissions": [
+    "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using While to express concession or contrast.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 While 改寫以下句子，以表達「雖然……但……」的讓步或對比關係。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss5-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Although Mia is tired, she is finishing her homework.",
+      "promptZh": "雖然米婭很疲倦，但她正在完成家課。",
+      "starter": "While",
+      "answer": "While Mia is tired, she is finishing her homework.",
+      "answerZh": "雖然米婭很疲倦，但她正在完成家課。",
+      "answerZhSource": "pdf",
+      "highlight": "While Mia is tired, she is finishing her homework."
+    },
+    {
+      "id": "ss5-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "The bag is small, but it can hold many books.",
+      "promptZh": "這個袋很小，但它可以裝很多本書。",
+      "starter": "While",
+      "answer": "While the bag is small, it can hold many books.",
+      "answerZh": "雖然這個袋很小，但它可以裝很多本書。",
+      "answerZhSource": "pdf",
+      "highlight": "While the bag is small, it can hold many books."
+    },
+    {
+      "id": "ss5-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Even though it is raining, the children are playing outside.",
+      "promptZh": "雖然正在下雨，但孩子們仍在外面玩耍。",
+      "starter": "While",
+      "answer": "While it is raining, the children are playing outside.",
+      "answerZh": "雖然正在下雨，但孩子們仍在外面玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "While it is raining, the children are playing outside."
+    },
+    {
+      "id": "ss5-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Tom is young, but he is very responsible.",
+      "promptZh": "湯姆年紀輕，但他非常有責任感。",
+      "starter": "While",
+      "answer": "While Tom is young, he is very responsible.",
+      "answerZh": "雖然湯姆年紀輕，但他非常有責任感。",
+      "answerZhSource": "pdf",
+      "highlight": "While Tom is young, he is very responsible."
+    },
+    {
+      "id": "ss5-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 10,
+        "answerPage": 10
+      },
+      "prompt": "Although the soup is simple, it tastes delicious.",
+      "promptZh": "雖然這道湯很簡單，但味道很好。",
+      "starter": "While",
+      "answer": "While the soup is simple, it tastes delicious.",
+      "answerZh": "雖然這道湯很簡單，但味道很好。",
+      "answerZhSource": "pdf",
+      "highlight": "While the soup is simple, it tastes delicious."
+    },
+    {
+      "id": "ss5-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The journey was long, yet we enjoyed it.",
+      "promptZh": "旅程很長，但我們很享受這趟旅程。",
+      "starter": "While",
+      "answer": "While the journey was long, we enjoyed it.",
+      "answerZh": "雖然旅程很長，但我們很享受這趟旅程。",
+      "answerZhSource": "pdf",
+      "highlight": "While the journey was long, we enjoyed it."
+    },
+    {
+      "id": "ss5-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Although Anna speaks softly, everyone can hear her clearly.",
+      "promptZh": "雖然安娜說話很輕聲，但每個人都能清楚聽到她。",
+      "starter": "While",
+      "answer": "While Anna speaks softly, everyone can hear her clearly.",
+      "answerZh": "雖然安娜說話很輕聲，但每個人都能清楚聽到她。",
+      "answerZhSource": "pdf",
+      "highlight": "While Anna speaks softly, everyone can hear her clearly."
+    },
+    {
+      "id": "ss5-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The room is old, but it is clean and comfortable.",
+      "promptZh": "房間很舊，但它乾淨又舒適。",
+      "starter": "While",
+      "answer": "While the room is old, it is clean and comfortable.",
+      "answerZh": "雖然房間很舊，但它乾淨又舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "While the room is old, it is clean and comfortable."
+    },
+    {
+      "id": "ss5-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Even though Jack was nervous, he answered all the questions.",
+      "promptZh": "雖然傑克很緊張，但他回答了所有問題。",
+      "starter": "While",
+      "answer": "While Jack was nervous, he answered all the questions.",
+      "answerZh": "雖然傑克很緊張，但他回答了所有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "While Jack was nervous, he answered all the questions."
+    },
+    {
+      "id": "ss5-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "How was the maths problem? It looked difficult, but it was easy to solve.",
+      "promptZh": "這道數學題怎樣？它看起來很難，但其實很容易解答。",
+      "starter": "While",
+      "answer": "While the maths problem looked difficult, it was easy to solve.",
+      "answerZh": "雖然這道數學題看起來很難，但其實很容易解答。",
+      "answerZhSource": "pdf",
+      "highlight": "While the maths problem looked difficult, it was easy to solve."
+    },
+    {
+      "id": "ss5-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Despite the cold weather, Leo went swimming.",
+      "promptZh": "儘管天氣寒冷，里奧仍去游泳。",
+      "starter": "While",
+      "answer": "While the weather was cold, Leo went swimming.",
+      "answerZh": "雖然天氣寒冷，但里奧仍去游泳。",
+      "answerZhSource": "pdf",
+      "highlight": "While the weather was cold, Leo went swimming."
+    },
+    {
+      "id": "ss5-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "In spite of being busy, Sara helped her colleague.",
+      "promptZh": "儘管莎拉很忙，但她仍幫助同事。",
+      "starter": "While",
+      "answer": "While Sara was busy, she helped her colleague.",
+      "answerZh": "雖然莎拉很忙，但她仍幫助同事。",
+      "answerZhSource": "pdf",
+      "highlight": "While Sara was busy, she helped her colleague."
+    },
+    {
+      "id": "ss5-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The laptop is expensive, yet many students want to buy it.",
+      "promptZh": "這部手提電腦很昂貴，但很多學生仍想購買它。",
+      "starter": "While",
+      "answer": "While the laptop is expensive, many students want to buy it.",
+      "answerZh": "雖然這部手提電腦很昂貴，但很多學生仍想購買它。",
+      "answerZhSource": "pdf",
+      "highlight": "While the laptop is expensive, many students want to buy it."
+    },
+    {
+      "id": "ss5-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Although the train was crowded, we found seats.",
+      "promptZh": "雖然火車很擠迫，但我們仍找到座位。",
+      "starter": "While",
+      "answer": "While the train was crowded, we found seats.",
+      "answerZh": "雖然火車很擠迫，但我們仍找到座位。",
+      "answerZhSource": "pdf",
+      "highlight": "While the train was crowded, we found seats."
+    },
+    {
+      "id": "ss5-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "It is true that the café is small, but it has a warm atmosphere.",
+      "promptZh": "這間咖啡店確實很小，但它有溫暖舒適的氣氛。",
+      "starter": "While",
+      "answer": "While the café is small, it has a warm atmosphere.",
+      "answerZh": "雖然這間咖啡店很小，但它有溫暖舒適的氣氛。",
+      "answerZhSource": "pdf",
+      "highlight": "While the café is small, it has a warm atmosphere."
+    },
+    {
+      "id": "ss5-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Maya was given very little training, but she performed the job well.",
+      "promptZh": "瑪雅只接受了很少訓練，但她工作表現良好。",
+      "starter": "While",
+      "answer": "While Maya was given very little training, she performed the job well.",
+      "answerZh": "雖然瑪雅只接受了很少訓練，但她工作表現良好。",
+      "answerZhSource": "pdf",
+      "highlight": "While Maya was given very little training, she performed the job well."
+    },
+    {
+      "id": "ss5-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Despite his fear of heights, Ben climbed the tower.",
+      "promptZh": "儘管本畏高，但他仍爬上了高塔。",
+      "starter": "While",
+      "answer": "While Ben was afraid of heights, he climbed the tower.",
+      "answerZh": "雖然本畏高，但他仍爬上了高塔。",
+      "answerZhSource": "pdf",
+      "highlight": "While Ben was afraid of heights, he climbed the tower."
+    },
+    {
+      "id": "ss5-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Were the instructions useful? They were short; however, they were clear enough.",
+      "promptZh": "這些指示有用嗎？它們很簡短，但已經足夠清楚。",
+      "starter": "While",
+      "answer": "While the instructions were short, they were clear enough.",
+      "answerZh": "雖然指示很簡短，但已經足夠清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "While the instructions were short, they were clear enough."
+    },
+    {
+      "id": "ss5-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Though this phone is not new, it still works well.",
+      "promptZh": "雖然這部電話不新，但它仍運作良好。",
+      "starter": "While",
+      "answer": "While this phone is not new, it still works well.",
+      "answerZh": "雖然這部電話不新，但它仍運作良好。",
+      "answerZhSource": "pdf",
+      "highlight": "While this phone is not new, it still works well."
+    },
+    {
+      "id": "ss5-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The team lost the match, but the players remained positive.",
+      "promptZh": "球隊輸了比賽，但球員仍保持積極。",
+      "starter": "While",
+      "answer": "While the team lost the match, the players remained positive.",
+      "answerZh": "雖然球隊輸了比賽，但球員仍保持積極。",
+      "answerZhSource": "pdf",
+      "highlight": "While the team lost the match, the players remained positive."
+    },
+    {
+      "id": "ss5-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Despite feeling unwell, Chloe attended the meeting.",
+      "promptZh": "儘管克洛伊感到不適，但她仍出席了會議。",
+      "starter": "While",
+      "answer": "While Chloe felt unwell, she attended the meeting.",
+      "answerZh": "雖然克洛伊感到不適，但她仍出席了會議。",
+      "answerZhSource": "pdf",
+      "highlight": "While Chloe felt unwell, she attended the meeting."
+    },
+    {
+      "id": "ss5-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Although the bus service is convenient, it can be slow during rush hour.",
+      "promptZh": "雖然巴士服務很方便，但繁忙時間可能很慢。",
+      "starter": "While",
+      "answer": "While the bus service is convenient, it can be slow during rush hour.",
+      "answerZh": "雖然巴士服務很方便，但繁忙時間可能很慢。",
+      "answerZhSource": "pdf",
+      "highlight": "While the bus service is convenient, it can be slow during rush hour."
+    },
+    {
+      "id": "ss5-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The medicine has a bitter taste, yet it helps relieve a cough.",
+      "promptZh": "這種藥味道苦，但它有助紓緩咳嗽。",
+      "starter": "While",
+      "answer": "While the medicine tastes bitter, it helps relieve a cough.",
+      "answerZh": "雖然這種藥味道苦，但它有助紓緩咳嗽。",
+      "answerZhSource": "pdf",
+      "highlight": "While the medicine tastes bitter, it helps relieve a cough."
+    },
+    {
+      "id": "ss5-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Despite the limited space in their home, the family keeps it tidy.",
+      "promptZh": "儘管他們的住所空間有限，但這家人仍把住所保持整潔。",
+      "starter": "While",
+      "answer": "While their home has limited space, the family keeps it tidy.",
+      "answerZh": "雖然他們的住所空間有限，但這家人仍把住所保持整潔。",
+      "answerZhSource": "pdf",
+      "highlight": "While their home has limited space, the family keeps it tidy."
+    },
+    {
+      "id": "ss5-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Although online lessons save travel time, some learners find them less engaging.",
+      "promptZh": "雖然網上課堂節省交通時間，但部分學習者覺得它們較不吸引。",
+      "starter": "While",
+      "answer": "While online lessons save travel time, some learners find them less engaging.",
+      "answerZh": "雖然網上課堂節省交通時間，但部分學習者覺得它們較不吸引。",
+      "answerZhSource": "pdf",
+      "highlight": "While online lessons save travel time, some learners find them less engaging."
+    },
+    {
+      "id": "ss5-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The museum was busy; nevertheless, the staff remained helpful.",
+      "promptZh": "博物館很繁忙，但職員仍然樂於協助。",
+      "starter": "While",
+      "answer": "While the museum was busy, the staff remained helpful.",
+      "answerZh": "雖然博物館很繁忙，但職員仍然樂於協助。",
+      "answerZhSource": "pdf",
+      "highlight": "While the museum was busy, the staff remained helpful."
+    },
+    {
+      "id": "ss5-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Although Ethan was not given a map, he found the hotel.",
+      "promptZh": "雖然伊森沒有獲提供地圖，但他仍找到酒店。",
+      "starter": "While",
+      "answer": "While Ethan was not given a map, he found the hotel.",
+      "answerZh": "雖然伊森沒有獲提供地圖，但他仍找到酒店。",
+      "answerZhSource": "pdf",
+      "highlight": "While Ethan was not given a map, he found the hotel."
+    },
+    {
+      "id": "ss5-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The restaurant was expensive, but the portions were generous.",
+      "promptZh": "這間餐廳很昂貴，但食物分量很充足。",
+      "starter": "While",
+      "answer": "While the restaurant was expensive, the portions were generous.",
+      "answerZh": "雖然這間餐廳很昂貴，但食物分量很充足。",
+      "answerZhSource": "pdf",
+      "highlight": "While the restaurant was expensive, the portions were generous."
+    },
+    {
+      "id": "ss5-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Is this machine difficult to use? Even though it looks complicated, it is easy to use.",
+      "promptZh": "這部機器難以使用嗎？雖然它看起來複雜，但其實很容易使用。",
+      "starter": "While",
+      "answer": "While the machine looks complicated, it is easy to use.",
+      "answerZh": "雖然這部機器看起來複雜，但其實很容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "While the machine looks complicated, it is easy to use."
+    },
+    {
+      "id": "ss5-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The road was narrow, yet the bus driver drove safely.",
+      "promptZh": "道路狹窄，但巴士司機仍安全駕駛。",
+      "starter": "While",
+      "answer": "While the road was narrow, the bus driver drove safely.",
+      "answerZh": "雖然道路狹窄，但巴士司機仍安全駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "While the road was narrow, the bus driver drove safely."
+    },
+    {
+      "id": "ss5-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Although the school has a small library, students can access many digital books.",
+      "promptZh": "雖然學校的圖書館很小，但學生可以閱覽很多電子書。",
+      "starter": "While",
+      "answer": "While the school has a small library, students can access many digital books.",
+      "answerZh": "雖然學校的圖書館很小，但學生可以閱覽很多電子書。",
+      "answerZhSource": "pdf",
+      "highlight": "While the school has a small library, students can access many digital books."
+    },
+    {
+      "id": "ss5-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "In spite of having very little time, Nina checked the report carefully.",
+      "promptZh": "儘管妮娜的時間很少，但她仍仔細檢查報告。",
+      "starter": "While",
+      "answer": "While Nina had very little time, she checked the report carefully.",
+      "answerZh": "雖然妮娜的時間很少，但她仍仔細檢查報告。",
+      "answerZhSource": "pdf",
+      "highlight": "While Nina had very little time, she checked the report carefully."
+    },
+    {
+      "id": "ss5-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The coat is light, but it keeps me warm in winter.",
+      "promptZh": "這件外套很輕，但它在冬天仍能為我保暖。",
+      "starter": "While",
+      "answer": "While the coat is light, it keeps me warm in winter.",
+      "answerZh": "雖然這件外套很輕，但它在冬天仍能為我保暖。",
+      "answerZhSource": "pdf",
+      "highlight": "While the coat is light, it keeps me warm in winter."
+    },
+    {
+      "id": "ss5-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Although public transport reduces traffic, it does not reach every neighbourhood.",
+      "promptZh": "雖然公共交通有助減少交通擠塞，但它未能覆蓋每個社區。",
+      "starter": "While",
+      "answer": "While public transport reduces traffic, it does not reach every neighbourhood.",
+      "answerZh": "雖然公共交通有助減少交通擠塞，但它未能覆蓋每個社區。",
+      "answerZhSource": "pdf",
+      "highlight": "While public transport reduces traffic, it does not reach every neighbourhood."
+    },
+    {
+      "id": "ss5-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Despite preparing carefully, Marcus still felt nervous before his speech.",
+      "promptZh": "儘管馬庫斯準備得很仔細，但他在演講前仍感到緊張。",
+      "starter": "While",
+      "answer": "While Marcus prepared carefully, he still felt nervous before his speech.",
+      "answerZh": "雖然馬庫斯準備得很仔細，但他在演講前仍感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "While Marcus prepared carefully, he still felt nervous before his speech."
+    },
+    {
+      "id": "ss5-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The new app offers useful features; however, it sometimes responds slowly.",
+      "promptZh": "這個新應用程式提供實用功能，但它有時反應緩慢。",
+      "starter": "While",
+      "answer": "While the new app offers useful features, it sometimes responds slowly.",
+      "answerZh": "雖然這個新應用程式提供實用功能，但它有時反應緩慢。",
+      "answerZhSource": "pdf",
+      "highlight": "While the new app offers useful features, it sometimes responds slowly."
+    },
+    {
+      "id": "ss5-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Although the patient was in pain, she remained calm during the treatment.",
+      "promptZh": "雖然病人感到疼痛，但她在治療期間仍保持冷靜。",
+      "starter": "While",
+      "answer": "While the patient was in pain, she remained calm during the treatment.",
+      "answerZh": "雖然病人感到疼痛，但她在治療期間仍保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "While the patient was in pain, she remained calm during the treatment."
+    },
+    {
+      "id": "ss5-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Despite the heavy workload, the staff completed the project on time.",
+      "promptZh": "儘管職員的工作量很大，但他們仍準時完成項目。",
+      "starter": "While",
+      "answer": "While the staff had a heavy workload, they completed the project on time.",
+      "answerZh": "雖然職員的工作量很大，但他們仍準時完成項目。",
+      "answerZhSource": "pdf",
+      "highlight": "While the staff had a heavy workload, they completed the project on time."
+    },
+    {
+      "id": "ss5-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The recipe uses simple ingredients, yet it creates a rich flavour.",
+      "promptZh": "這份食譜只使用簡單材料，但它能做出濃郁味道。",
+      "starter": "While",
+      "answer": "While the recipe uses simple ingredients, it creates a rich flavour.",
+      "answerZh": "雖然這份食譜只使用簡單材料，但它能做出濃郁味道。",
+      "answerZhSource": "pdf",
+      "highlight": "While the recipe uses simple ingredients, it creates a rich flavour."
+    },
+    {
+      "id": "ss5-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Is the river safe? Even though it looks calm, the current can be strong.",
+      "promptZh": "這條河安全嗎？雖然河面看起來平靜，但水流可能很強。",
+      "starter": "While",
+      "answer": "While the river looks calm, the current can be strong.",
+      "answerZh": "雖然河面看起來平靜，但水流可能很強。",
+      "answerZhSource": "pdf",
+      "highlight": "While the river looks calm, the current can be strong."
+    },
+    {
+      "id": "ss5-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Despite the fact that the shop offers low prices, some customers prefer better after-sales service.",
+      "promptZh": "儘管商店提供低價商品，但部分顧客較重視優質售後服務。",
+      "starter": "While",
+      "answer": "While the shop offers low prices, some customers prefer better after-sales service.",
+      "answerZh": "雖然商店提供低價商品，但部分顧客較重視優質售後服務。",
+      "answerZhSource": "pdf",
+      "highlight": "While the shop offers low prices, some customers prefer better after-sales service."
+    },
+    {
+      "id": "ss5-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although the rule was explained clearly by the teacher, a few students still misunderstood it.",
+      "promptZh": "雖然老師已清楚解釋規則，但幾名學生仍然誤解了它。",
+      "starter": "While",
+      "answer": "While the rule was explained clearly by the teacher, a few students still misunderstood it.",
+      "answerZh": "雖然老師已清楚解釋規則，但幾名學生仍然誤解了它。",
+      "answerZhSource": "pdf",
+      "highlight": "While the rule was explained clearly by the teacher, a few students still misunderstood it."
+    },
+    {
+      "id": "ss5-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The city has built more cycle paths, but many people still feel unsafe riding on busy roads.",
+      "promptZh": "城市已興建更多單車徑，但很多人仍覺得在繁忙道路上踏單車不安全。",
+      "starter": "While",
+      "answer": "While the city has built more cycle paths, many people still feel unsafe riding on busy roads.",
+      "answerZh": "雖然城市已興建更多單車徑，但很多人仍覺得在繁忙道路上踏單車不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "While the city has built more cycle paths, many people still feel unsafe riding on busy roads."
+    },
+    {
+      "id": "ss5-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "In spite of being smaller than its competitors, the company serves customers in several countries.",
+      "promptZh": "儘管這間公司的規模比競爭對手小，但它為多個國家的顧客服務。",
+      "starter": "While",
+      "answer": "While the company is smaller than its competitors, it serves customers in several countries.",
+      "answerZh": "雖然這間公司比競爭對手規模小，但它為多個國家的顧客服務。",
+      "answerZhSource": "pdf",
+      "highlight": "While the company is smaller than its competitors, it serves customers in several countries."
+    },
+    {
+      "id": "ss5-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "It is true that working from home gives employees more flexibility, but it can make teamwork more difficult.",
+      "promptZh": "在家工作確實給予僱員更多彈性，但它可能令團隊合作更困難。",
+      "starter": "While",
+      "answer": "While working from home gives employees more flexibility, it can make teamwork more difficult.",
+      "answerZh": "雖然在家工作給予僱員更多彈性，但它可能令團隊合作更困難。",
+      "answerZhSource": "pdf",
+      "highlight": "While working from home gives employees more flexibility, it can make teamwork more difficult."
+    },
+    {
+      "id": "ss5-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although the hospital was extremely busy, the nurses took time to reassure each patient.",
+      "promptZh": "雖然醫院非常繁忙，但護士仍抽時間安慰每位病人。",
+      "starter": "While",
+      "answer": "While the hospital was extremely busy, the nurses took time to reassure each patient.",
+      "answerZh": "雖然醫院非常繁忙，但護士仍抽時間安慰每位病人。",
+      "answerZhSource": "pdf",
+      "highlight": "While the hospital was extremely busy, the nurses took time to reassure each patient."
+    },
+    {
+      "id": "ss5-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Despite the fact that the product is environmentally friendly, its high price may discourage some buyers.",
+      "promptZh": "儘管產品符合環保原則，但其高昂價格可能令部分買家卻步。",
+      "starter": "While",
+      "answer": "While the product is environmentally friendly, its high price may discourage some buyers.",
+      "answerZh": "雖然產品符合環保原則，但其高昂價格可能令部分買家卻步。",
+      "answerZhSource": "pdf",
+      "highlight": "While the product is environmentally friendly, its high price may discourage some buyers."
+    },
+    {
+      "id": "ss5-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The plan could save money in the long term; nevertheless, it requires a large investment at the beginning.",
+      "promptZh": "這個計劃長遠而言可以節省金錢，但開始時需要一筆龐大投資。",
+      "starter": "While",
+      "answer": "While the plan could save money in the long term, it requires a large investment at the beginning.",
+      "answerZh": "雖然這個計劃長遠而言可以節省金錢，但開始時需要一筆龐大投資。",
+      "answerZhSource": "pdf",
+      "highlight": "While the plan could save money in the long term, it requires a large investment at the beginning."
+    },
+    {
+      "id": "ss5-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "Even though the volunteers had only been given basic training, they dealt with the emergency calmly and effectively.",
+      "promptZh": "雖然義工只接受過基本訓練，但他們仍冷靜而有效地處理緊急情況。",
+      "starter": "While",
+      "answer": "While the volunteers had only been given basic training, they dealt with the emergency calmly and effectively.",
+      "answerZh": "雖然義工只接受過基本訓練，但他們仍冷靜而有效地處理緊急情況。",
+      "answerZhSource": "pdf",
+      "highlight": "While the volunteers had only been given basic training, they dealt with the emergency calmly and effectively."
+    },
+    {
+      "id": "ss5-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Although artificial intelligence can complete routine tasks quickly, human judgement remains essential when decisions affect people’s lives.",
+      "promptZh": "雖然人工智能能迅速完成例行工作，但當決定影響人們生活時，人類判斷仍然不可或缺。",
+      "starter": "While",
+      "answer": "While artificial intelligence can complete routine tasks quickly, human judgement remains essential when decisions affect people’s lives.",
+      "answerZh": "雖然人工智能能迅速完成例行工作，但當決定影響人們生活時，人類判斷仍然不可或缺。",
+      "answerZhSource": "pdf",
+      "highlight": "While artificial intelligence can complete routine tasks quickly, human judgement remains essential when decisions affect people’s lives."
+    }
+  ]
+}

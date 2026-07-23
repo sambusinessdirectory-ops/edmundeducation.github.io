@@ -1,0 +1,1836 @@
+{
+  "id": "ss32",
+  "order": 32,
+  "slug": "whether-if-indirect-questions",
+  "title": "「Whether (or not) / If 句」句型",
+  "titleZh": "「Whether (or not) / If 句」表達「可否／能否／會否／應否／是否」",
+  "titleEn": "Using Whether (or not) / If for indirect yes/no questions",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 32 -「Whether (or not) _ If 句」表達「可否 _ 能.pdf",
+    "pageCount": 33,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "answerPages": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "omissions": [
+      "English versions of Chinese-only teaching explanations and Benefits are faithful editorial translations.",
+      "The display title regularises the source heading’s awkward line break as 可否／能否／會否／應否／是否."
+    ]
+  },
+  "formula": "Main clause + whether + subject + verb / modal verb + other information",
+  "formulas": [
+    {
+      "id": "ss32-formula-whether",
+      "labelEn": "A. Whether sentence",
+      "labelZh": "A. Whether 句",
+      "formula": "Main clause + whether + subject + verb / modal verb + other information"
+    },
+    {
+      "id": "ss32-formula-if",
+      "labelEn": "B. If sentence",
+      "labelZh": "B. If 句",
+      "formula": "Main clause + if + subject + verb / modal verb + other information"
+    }
+  ],
+  "example": "I’m not sure whether personality is primarily affected by genetics or not.",
+  "exampleZh": "我不確定性格是否主要受基因影響。",
+  "examples": [
+    {
+      "id": "ss32-example-whether",
+      "en": "I’m not sure whether personality is primarily affected by genetics or not.",
+      "zh": "我不確定性格是否主要受基因影響。",
+      "highlight": "whether personality is primarily affected by genetics or not"
+    },
+    {
+      "id": "ss32-example-if",
+      "en": "I’m not sure if personality is primarily affected by genetics or not.",
+      "zh": "我不確定性格是否主要受基因影響。",
+      "highlight": "if personality is primarily affected by genetics or not"
+    }
+  ],
+  "meaning": {
+    "zh": "Whether 和 if 可以引入間接的是非問題，表示「是否」、「會否」或「是不是」，常用於表示不確定、不知道、想知道、詢問、檢查、確認、記得或忘記，以及關心或不在乎。"
+  },
+  "rules": [
+    {
+      "id": "ss32-rule-01",
+      "en": "Whether and if have the same meaning in many indirect yes/no questions.",
+      "zh": "Whether 和 if 在很多間接是非問題中意思相同。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I do not know whether the shop is open.",
+        "I do not know if the shop is open."
+      ]
+    },
+    {
+      "id": "ss32-rule-02",
+      "en": "Use statement word order after whether or if: subject + verb, not verb + subject.",
+      "zh": "Whether / if 後面使用陳述句語序：Subject + verb，而不是 Verb + subject。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I wonder whether he is ready.",
+        "I wonder if he is ready."
+      ]
+    },
+    {
+      "id": "ss32-rule-03",
+      "en": "Whether and if can be followed by modal expressions such as can, should, may, will, need to and must.",
+      "zh": "Whether / if 可以配合 can、should、may、will、need to 和 must 等情態表達。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We must decide whether we should wait.",
+        "Please check if visitors may enter."
+      ]
+    },
+    {
+      "id": "ss32-rule-04",
+      "en": "Or not may appear at the end with either whether or if. Whether or not may also stay together, but if or not is generally not used.",
+      "zh": "Or not 可以放在句末，並與 whether 或 if 搭配。Whether or not 也可以連在一起，但一般不說 if or not。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I do not know whether he will come or not.",
+        "I do not know if he will come or not."
+      ]
+    },
+    {
+      "id": "ss32-rule-05",
+      "en": "Whether and if are not interchangeable everywhere. Normally use whether before a to-infinitive, after a preposition, and after verbs such as discuss or consider.",
+      "zh": "Whether 和 if 並非在所有情況下都可以互換。Whether + to-infinitive、介詞 + whether，以及 discuss / consider + whether 等結構一般應使用 whether。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I cannot decide whether to stay.",
+        "It depends on whether the shop is open.",
+        "We discussed whether the plan was practical."
+      ]
+    },
+    {
+      "id": "ss32-rule-06",
+      "en": "Do not confuse if meaning ‘whether’ with conditional if meaning ‘if’. Conditional if cannot simply be replaced by whether.",
+      "zh": "不要把表示「是否」的 if 與條件句中表示「如果」的 if 混淆；條件句的 if 不能直接改為 whether。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I do not know if he is ready.",
+        "If he is ready, we can begin."
+      ]
+    },
+    {
+      "id": "ss32-rule-07",
+      "en": "Common frames that can introduce whether or if include be sure, know, wonder, ask, check, find out, see, remember, forget, confirm, tell someone, care, matter, investigate and test.",
+      "zh": "常與 whether 或 if 搭配的句框包括 be sure、know、wonder、ask、check、find out、see、remember、forget、confirm、tell someone、care、matter、investigate 和 test。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Can you tell me whether the library is open?",
+        "Please confirm whether the payment has arrived."
+      ]
+    },
+    {
+      "id": "ss32-rule-08",
+      "en": "Formal structures such as decide, discuss, consider, debate, depend on, think about and the question of normally favour whether.",
+      "zh": "Decide、discuss、consider、debate、depend on、think about、the question of、whether to + verb 和 whether A or B 等搭配通常較適合使用 whether。",
+      "enSource": "editorial-translation",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss32-benefit-01",
+      "en": "It places a direct question inside a complete sentence.",
+      "zh": "把直接問題放進完整句子，讓你在同一句中說明自己不知道、想知道或正在確認甚麼。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss32-benefit-02",
+      "en": "It expresses uncertainty clearly.",
+      "zh": "清楚表達不確定情況，讓讀者知道答案可能是「是」，也可能是「否」。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss32-benefit-03",
+      "en": "It connects a question with a person’s thought or action.",
+      "zh": "幫助連接「一個問題」和「某人的想法或行動」，避免使用兩個分開的短句。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss32-benefit-04",
+      "en": "It makes speaking and writing smoother through reusable sentence frames.",
+      "zh": "讓說話和寫作更流暢；掌握 I’m not sure whether...、I don’t know if... 等句框後，不需要每次從零開始組織句子。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss32-benefit-05",
+      "en": "Whether can make formal expression clearer.",
+      "zh": "Whether 可以令正式表達更清楚，適合報告、會議和正式電郵。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss32-benefit-06",
+      "en": "If provides a natural everyday alternative.",
+      "zh": "If 提供自然的日常說法，在一般對話中語氣自然直接。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents many Important Rules and all Benefits explanations mainly in Chinese; their English versions are faithful editorial translations.",
+    "The display title regularises the source heading’s awkward line break as 可否／能否／會否／應否／是否."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence as an indirect question in two ways.",
+      "A. Use whether.",
+      "B. Use if.",
+      "When the prompt contains either way, include or not in both answers.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "將每題改成兩種間接問句。",
+      "A. 使用 whether。",
+      "B. 使用 if。",
+      "如題目包含 either way，兩個答案均加入 or not。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss32-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "Can Ella swim across the pool? I am not sure.",
+      "promptZh": "艾拉能否游過泳池？我不確定。",
+      "starter": "Whether:",
+      "answer": "Whether: I am not sure whether Ella can swim across the pool. || If: I am not sure if Ella can swim across the pool.",
+      "answerZh": "我不確定艾拉是否能游過泳池。 || 我不確定艾拉是否能游過泳池。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "I",
+          "answer": "I am not sure whether Ella can swim across the pool.",
+          "answerZh": "我不確定艾拉是否能游過泳池。"
+        },
+        {
+          "label": "If",
+          "starter": "I",
+          "answer": "I am not sure if Ella can swim across the pool.",
+          "answerZh": "我不確定艾拉是否能游過泳池。"
+        }
+      ],
+      "highlight": "Whether: I am not sure whether Ella can swim across the pool. || If: I am not sure if Ella can swim across the pool."
+    },
+    {
+      "id": "ss32-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "Is the bakery open now? Ben does not know.",
+      "promptZh": "麵包店現在是否營業？本不知道。",
+      "starter": "Whether:",
+      "answer": "Whether: Ben does not know whether the bakery is open now. || If: Ben does not know if the bakery is open now.",
+      "answerZh": "本不知道麵包店現在是否營業。 || 本不知道麵包店現在是否營業。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Ben",
+          "answer": "Ben does not know whether the bakery is open now.",
+          "answerZh": "本不知道麵包店現在是否營業。"
+        },
+        {
+          "label": "If",
+          "starter": "Ben",
+          "answer": "Ben does not know if the bakery is open now.",
+          "answerZh": "本不知道麵包店現在是否營業。"
+        }
+      ],
+      "highlight": "Whether: Ben does not know whether the bakery is open now. || If: Ben does not know if the bakery is open now."
+    },
+    {
+      "id": "ss32-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 21,
+        "answerPage": 22
+      },
+      "prompt": "Does Noah enjoy science lessons? I wonder.",
+      "promptZh": "諾亞是否喜歡科學課？我想知道。",
+      "starter": "Whether:",
+      "answer": "Whether: I wonder whether Noah enjoys science lessons. || If: I wonder if Noah enjoys science lessons.",
+      "answerZh": "我想知道諾亞是否喜歡科學課。 || 我想知道諾亞是否喜歡科學課。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "I",
+          "answer": "I wonder whether Noah enjoys science lessons.",
+          "answerZh": "我想知道諾亞是否喜歡科學課。"
+        },
+        {
+          "label": "If",
+          "starter": "I",
+          "answer": "I wonder if Noah enjoys science lessons.",
+          "answerZh": "我想知道諾亞是否喜歡科學課。"
+        }
+      ],
+      "highlight": "Whether: I wonder whether Noah enjoys science lessons. || If: I wonder if Noah enjoys science lessons."
+    },
+    {
+      "id": "ss32-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 22,
+        "answerPage": 22
+      },
+      "prompt": "Did Amy lock the back door? Her father wants to know.",
+      "promptZh": "艾米有否鎖上後門？她的父親想知道。",
+      "starter": "Whether:",
+      "answer": "Whether: Her father wants to know whether Amy locked the back door. || If: Her father wants to know if Amy locked the back door.",
+      "answerZh": "她的父親想知道艾米有否鎖上後門。 || 她的父親想知道艾米有否鎖上後門。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Her",
+          "answer": "Her father wants to know whether Amy locked the back door.",
+          "answerZh": "她的父親想知道艾米有否鎖上後門。"
+        },
+        {
+          "label": "If",
+          "starter": "Her",
+          "answer": "Her father wants to know if Amy locked the back door.",
+          "answerZh": "她的父親想知道艾米有否鎖上後門。"
+        }
+      ],
+      "highlight": "Whether: Her father wants to know whether Amy locked the back door. || If: Her father wants to know if Amy locked the back door."
+    },
+    {
+      "id": "ss32-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 22,
+        "answerPage": 22
+      },
+      "prompt": "Are the students ready for the test? The teacher wants to know.",
+      "promptZh": "學生是否已準備好應付測驗？老師想知道。",
+      "starter": "Whether:",
+      "answer": "Whether: The teacher wants to know whether the students are ready for the test. || If: The teacher wants to know if the students are ready for the test.",
+      "answerZh": "老師想知道學生是否已準備好應付測驗。 || 老師想知道學生是否已準備好應付測驗。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The teacher wants to know whether the students are ready for the test.",
+          "answerZh": "老師想知道學生是否已準備好應付測驗。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The teacher wants to know if the students are ready for the test.",
+          "answerZh": "老師想知道學生是否已準備好應付測驗。"
+        }
+      ],
+      "highlight": "Whether: The teacher wants to know whether the students are ready for the test. || If: The teacher wants to know if the students are ready for the test."
+    },
+    {
+      "id": "ss32-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 22,
+        "answerPage": 22
+      },
+      "prompt": "Can this key open the cupboard? Please check.",
+      "promptZh": "這把鑰匙能否打開櫃門？請檢查一下。",
+      "starter": "Whether:",
+      "answer": "Whether: Please check whether this key can open the cupboard. || If: Please check if this key can open the cupboard.",
+      "answerZh": "請檢查這把鑰匙能否打開櫃門。 || 請檢查這把鑰匙能否打開櫃門。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Please",
+          "answer": "Please check whether this key can open the cupboard.",
+          "answerZh": "請檢查這把鑰匙能否打開櫃門。"
+        },
+        {
+          "label": "If",
+          "starter": "Please",
+          "answer": "Please check if this key can open the cupboard.",
+          "answerZh": "請檢查這把鑰匙能否打開櫃門。"
+        }
+      ],
+      "highlight": "Whether: Please check whether this key can open the cupboard. || If: Please check if this key can open the cupboard."
+    },
+    {
+      "id": "ss32-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerPart1AnswerPage": 23,
+        "answerPart1AnswerZhPage": 23
+      },
+      "prompt": "Does the number 12 bus stop here? We need to find out.",
+      "promptZh": "十二號巴士是否在這裏停站？我們需要查明。",
+      "starter": "Whether:",
+      "answer": "Whether: We need to find out whether the number 12 bus stops here. || If: We need to find out if the number 12 bus stops here.",
+      "answerZh": "我們需要查明十二號巴士是否在這裏停站。 || 我們需要查明十二號巴士是否在這裏停站。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "We",
+          "answer": "We need to find out whether the number 12 bus stops here.",
+          "answerZh": "我們需要查明十二號巴士是否在這裏停站。"
+        },
+        {
+          "label": "If",
+          "starter": "We",
+          "answer": "We need to find out if the number 12 bus stops here.",
+          "answerZh": "我們需要查明十二號巴士是否在這裏停站。"
+        }
+      ],
+      "highlight": "Whether: We need to find out whether the number 12 bus stops here. || If: We need to find out if the number 12 bus stops here."
+    },
+    {
+      "id": "ss32-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 23,
+        "answerPage": 23
+      },
+      "prompt": "Is the milk still fresh? Chloe cannot tell.",
+      "promptZh": "牛奶是否仍然新鮮？克洛伊判斷不到。",
+      "starter": "Whether:",
+      "answer": "Whether: Chloe cannot tell whether the milk is still fresh. || If: Chloe cannot tell if the milk is still fresh.",
+      "answerZh": "克洛伊無法判斷牛奶是否仍然新鮮。 || 克洛伊無法判斷牛奶是否仍然新鮮。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Chloe",
+          "answer": "Chloe cannot tell whether the milk is still fresh.",
+          "answerZh": "克洛伊無法判斷牛奶是否仍然新鮮。"
+        },
+        {
+          "label": "If",
+          "starter": "Chloe",
+          "answer": "Chloe cannot tell if the milk is still fresh.",
+          "answerZh": "克洛伊無法判斷牛奶是否仍然新鮮。"
+        }
+      ],
+      "highlight": "Whether: Chloe cannot tell whether the milk is still fresh. || If: Chloe cannot tell if the milk is still fresh."
+    },
+    {
+      "id": "ss32-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 23,
+        "answerPage": 23
+      },
+      "prompt": "Did Leo bring his notebook? I do not remember.",
+      "promptZh": "里奧有否帶筆記簿？我不記得。",
+      "starter": "Whether:",
+      "answer": "Whether: I do not remember whether Leo brought his notebook. || If: I do not remember if Leo brought his notebook.",
+      "answerZh": "我不記得里奧有否帶筆記簿。 || 我不記得里奧有否帶筆記簿。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "I",
+          "answer": "I do not remember whether Leo brought his notebook.",
+          "answerZh": "我不記得里奧有否帶筆記簿。"
+        },
+        {
+          "label": "If",
+          "starter": "I",
+          "answer": "I do not remember if Leo brought his notebook.",
+          "answerZh": "我不記得里奧有否帶筆記簿。"
+        }
+      ],
+      "highlight": "Whether: I do not remember whether Leo brought his notebook. || If: I do not remember if Leo brought his notebook."
+    },
+    {
+      "id": "ss32-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 23,
+        "answerPage": 23
+      },
+      "prompt": "Will the plan change? Sam does not care either way.",
+      "promptZh": "計劃會否改變？無論答案如何，森也不在乎。",
+      "starter": "Whether:",
+      "answer": "Whether: Sam does not care whether the plan will change or not. || If: Sam does not care if the plan will change or not.",
+      "answerZh": "森不在乎計劃會否改變。 || 森不在乎計劃會否改變。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Sam",
+          "answer": "Sam does not care whether the plan will change or not.",
+          "answerZh": "森不在乎計劃會否改變。"
+        },
+        {
+          "label": "If",
+          "starter": "Sam",
+          "answer": "Sam does not care if the plan will change or not.",
+          "answerZh": "森不在乎計劃會否改變。"
+        }
+      ],
+      "highlight": "Whether: Sam does not care whether the plan will change or not. || If: Sam does not care if the plan will change or not."
+    },
+    {
+      "id": "ss32-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 23,
+        "answerPage": 23
+      },
+      "prompt": "Should we call the doctor now? My mother is not sure.",
+      "promptZh": "我們現在是否應該致電醫生？媽媽不確定。",
+      "starter": "Whether:",
+      "answer": "Whether: My mother is not sure whether we should call the doctor now. || If: My mother is not sure if we should call the doctor now.",
+      "answerZh": "媽媽不確定我們現在是否應該致電醫生。 || 媽媽不確定我們現在是否應該致電醫生。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "My",
+          "answer": "My mother is not sure whether we should call the doctor now.",
+          "answerZh": "媽媽不確定我們現在是否應該致電醫生。"
+        },
+        {
+          "label": "If",
+          "starter": "My",
+          "answer": "My mother is not sure if we should call the doctor now.",
+          "answerZh": "媽媽不確定我們現在是否應該致電醫生。"
+        }
+      ],
+      "highlight": "Whether: My mother is not sure whether we should call the doctor now. || If: My mother is not sure if we should call the doctor now."
+    },
+    {
+      "id": "ss32-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 24,
+        "answerPage": 24
+      },
+      "prompt": "Do we need to book seats in advance? Please check.",
+      "promptZh": "我們是否需要預先訂位？請查明。",
+      "starter": "Whether:",
+      "answer": "Whether: Please check whether we need to book seats in advance. || If: Please check if we need to book seats in advance.",
+      "answerZh": "請查明我們是否需要預先訂位。 || 請查明我們是否需要預先訂位。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Please",
+          "answer": "Please check whether we need to book seats in advance.",
+          "answerZh": "請查明我們是否需要預先訂位。"
+        },
+        {
+          "label": "If",
+          "starter": "Please",
+          "answer": "Please check if we need to book seats in advance.",
+          "answerZh": "請查明我們是否需要預先訂位。"
+        }
+      ],
+      "highlight": "Whether: Please check whether we need to book seats in advance. || If: Please check if we need to book seats in advance."
+    },
+    {
+      "id": "ss32-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 24,
+        "answerPage": 24
+      },
+      "prompt": "Must visitors show identification at the entrance? The receptionist will explain.",
+      "promptZh": "訪客是否必須在入口出示身分證明？接待員會作出解釋。",
+      "starter": "Whether:",
+      "answer": "Whether: The receptionist will explain whether visitors must show identification at the entrance. || If: The receptionist will explain if visitors must show identification at the entrance.",
+      "answerZh": "接待員會解釋訪客是否必須在入口出示身分證明。 || 接待員會解釋訪客是否必須在入口出示身分證明。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The receptionist will explain whether visitors must show identification at the entrance.",
+          "answerZh": "接待員會解釋訪客是否必須在入口出示身分證明。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The receptionist will explain if visitors must show identification at the entrance.",
+          "answerZh": "接待員會解釋訪客是否必須在入口出示身分證明。"
+        }
+      ],
+      "highlight": "Whether: The receptionist will explain whether visitors must show identification at the entrance. || If: The receptionist will explain if visitors must show identification at the entrance."
+    },
+    {
+      "id": "ss32-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 24,
+        "answerPage": 24
+      },
+      "prompt": "Will the train arrive on time? We do not know.",
+      "promptZh": "火車會否準時到達？我們不知道。",
+      "starter": "Whether:",
+      "answer": "Whether: We do not know whether the train will arrive on time. || If: We do not know if the train will arrive on time.",
+      "answerZh": "我們不知道火車會否準時到達。 || 我們不知道火車會否準時到達。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "We",
+          "answer": "We do not know whether the train will arrive on time.",
+          "answerZh": "我們不知道火車會否準時到達。"
+        },
+        {
+          "label": "If",
+          "starter": "We",
+          "answer": "We do not know if the train will arrive on time.",
+          "answerZh": "我們不知道火車會否準時到達。"
+        }
+      ],
+      "highlight": "Whether: We do not know whether the train will arrive on time. || If: We do not know if the train will arrive on time."
+    },
+    {
+      "id": "ss32-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 24,
+        "answerPage": 24
+      },
+      "prompt": "Can students use calculators in the examination? Ask the teacher.",
+      "promptZh": "學生可否在考試中使用計算機？請詢問老師。",
+      "starter": "Whether:",
+      "answer": "Whether: Ask the teacher whether students can use calculators in the examination. || If: Ask the teacher if students can use calculators in the examination.",
+      "answerZh": "請詢問老師學生可否在考試中使用計算機。 || 請詢問老師學生可否在考試中使用計算機。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Ask",
+          "answer": "Ask the teacher whether students can use calculators in the examination.",
+          "answerZh": "請詢問老師學生可否在考試中使用計算機。"
+        },
+        {
+          "label": "If",
+          "starter": "Ask",
+          "answer": "Ask the teacher if students can use calculators in the examination.",
+          "answerZh": "請詢問老師學生可否在考試中使用計算機。"
+        }
+      ],
+      "highlight": "Whether: Ask the teacher whether students can use calculators in the examination. || If: Ask the teacher if students can use calculators in the examination."
+    },
+    {
+      "id": "ss32-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 25,
+        "answerPage": 25
+      },
+      "prompt": "May Grace leave the office early? She wants to know.",
+      "promptZh": "格蕾絲可否提早離開辦公室？她想知道。",
+      "starter": "Whether:",
+      "answer": "Whether: Grace wants to know whether she may leave the office early. || If: Grace wants to know if she may leave the office early.",
+      "answerZh": "格蕾絲想知道她可否提早離開辦公室。 || 格蕾絲想知道她可否提早離開辦公室。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Grace",
+          "answer": "Grace wants to know whether she may leave the office early.",
+          "answerZh": "格蕾絲想知道她可否提早離開辦公室。"
+        },
+        {
+          "label": "If",
+          "starter": "Grace",
+          "answer": "Grace wants to know if she may leave the office early.",
+          "answerZh": "格蕾絲想知道她可否提早離開辦公室。"
+        }
+      ],
+      "highlight": "Whether: Grace wants to know whether she may leave the office early. || If: Grace wants to know if she may leave the office early."
+    },
+    {
+      "id": "ss32-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 25,
+        "answerPage": 25
+      },
+      "prompt": "Is the homework due tomorrow? I cannot remember.",
+      "promptZh": "功課是否明天到期？我記不起來。",
+      "starter": "Whether:",
+      "answer": "Whether: I cannot remember whether the homework is due tomorrow. || If: I cannot remember if the homework is due tomorrow.",
+      "answerZh": "我記不起功課是否明天到期。 || 我記不起功課是否明天到期。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "I",
+          "answer": "I cannot remember whether the homework is due tomorrow.",
+          "answerZh": "我記不起功課是否明天到期。"
+        },
+        {
+          "label": "If",
+          "starter": "I",
+          "answer": "I cannot remember if the homework is due tomorrow.",
+          "answerZh": "我記不起功課是否明天到期。"
+        }
+      ],
+      "highlight": "Whether: I cannot remember whether the homework is due tomorrow. || If: I cannot remember if the homework is due tomorrow."
+    },
+    {
+      "id": "ss32-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 25,
+        "answerPage": 25
+      },
+      "prompt": "Must the lights stay on all night? The manager asked.",
+      "promptZh": "燈是否必須整晚亮着？經理問道。",
+      "starter": "Whether:",
+      "answer": "Whether: The manager asked whether the lights must stay on all night. || If: The manager asked if the lights must stay on all night.",
+      "answerZh": "經理問燈是否必須整晚亮着。 || 經理問燈是否必須整晚亮着。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The manager asked whether the lights must stay on all night.",
+          "answerZh": "經理問燈是否必須整晚亮着。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The manager asked if the lights must stay on all night.",
+          "answerZh": "經理問燈是否必須整晚亮着。"
+        }
+      ],
+      "highlight": "Whether: The manager asked whether the lights must stay on all night. || If: The manager asked if the lights must stay on all night."
+    },
+    {
+      "id": "ss32-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 25,
+        "answerPage": 25
+      },
+      "prompt": "Will it rain this afternoon? The hikers are wondering.",
+      "promptZh": "今天下午會否下雨？遠足人士正在猜想。",
+      "starter": "Whether:",
+      "answer": "Whether: The hikers are wondering whether it will rain this afternoon. || If: The hikers are wondering if it will rain this afternoon.",
+      "answerZh": "遠足人士正在猜想今天下午會否下雨。 || 遠足人士正在猜想今天下午會否下雨。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The hikers are wondering whether it will rain this afternoon.",
+          "answerZh": "遠足人士正在猜想今天下午會否下雨。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The hikers are wondering if it will rain this afternoon.",
+          "answerZh": "遠足人士正在猜想今天下午會否下雨。"
+        }
+      ],
+      "highlight": "Whether: The hikers are wondering whether it will rain this afternoon. || If: The hikers are wondering if it will rain this afternoon."
+    },
+    {
+      "id": "ss32-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 25,
+        "answerPage": 26
+      },
+      "prompt": "Should Kevin apologise? His friend is not sure either way.",
+      "promptZh": "凱文是否應該道歉？他的朋友不能確定。",
+      "starter": "Whether:",
+      "answer": "Whether: His friend is not sure whether Kevin should apologise or not. || If: His friend is not sure if Kevin should apologise or not.",
+      "answerZh": "他的朋友不確定凱文是否應該道歉。 || 他的朋友不確定凱文是否應該道歉。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "His",
+          "answer": "His friend is not sure whether Kevin should apologise or not.",
+          "answerZh": "他的朋友不確定凱文是否應該道歉。"
+        },
+        {
+          "label": "If",
+          "starter": "His",
+          "answer": "His friend is not sure if Kevin should apologise or not.",
+          "answerZh": "他的朋友不確定凱文是否應該道歉。"
+        }
+      ],
+      "highlight": "Whether: His friend is not sure whether Kevin should apologise or not. || If: His friend is not sure if Kevin should apologise or not."
+    },
+    {
+      "id": "ss32-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 26,
+        "answerPage": 26
+      },
+      "prompt": "Did the parcel arrive yesterday? We need to confirm.",
+      "promptZh": "包裹昨天有否送到？我們需要確認。",
+      "starter": "Whether:",
+      "answer": "Whether: We need to confirm whether the parcel arrived yesterday. || If: We need to confirm if the parcel arrived yesterday.",
+      "answerZh": "我們需要確認包裹昨天有否送到。 || 我們需要確認包裹昨天有否送到。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "We",
+          "answer": "We need to confirm whether the parcel arrived yesterday.",
+          "answerZh": "我們需要確認包裹昨天有否送到。"
+        },
+        {
+          "label": "If",
+          "starter": "We",
+          "answer": "We need to confirm if the parcel arrived yesterday.",
+          "answerZh": "我們需要確認包裹昨天有否送到。"
+        }
+      ],
+      "highlight": "Whether: We need to confirm whether the parcel arrived yesterday. || If: We need to confirm if the parcel arrived yesterday."
+    },
+    {
+      "id": "ss32-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 26,
+        "answerPage": 26
+      },
+      "prompt": "Was the window broken before the storm? The police are checking.",
+      "promptZh": "窗戶是否在暴風雨前已經破爛？警方正在調查。",
+      "starter": "Whether:",
+      "answer": "Whether: The police are checking whether the window was broken before the storm. || If: The police are checking if the window was broken before the storm.",
+      "answerZh": "警方正在調查窗戶是否在暴風雨前已經破爛。 || 警方正在調查窗戶是否在暴風雨前已經破爛。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The police are checking whether the window was broken before the storm.",
+          "answerZh": "警方正在調查窗戶是否在暴風雨前已經破爛。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The police are checking if the window was broken before the storm.",
+          "answerZh": "警方正在調查窗戶是否在暴風雨前已經破爛。"
+        }
+      ],
+      "highlight": "Whether: The police are checking whether the window was broken before the storm. || If: The police are checking if the window was broken before the storm."
+    },
+    {
+      "id": "ss32-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 26,
+        "answerPage": 26
+      },
+      "prompt": "Has Olivia finished the monthly report? Her manager wants to know.",
+      "promptZh": "奧莉花是否已完成月度報告？她的經理想知道。",
+      "starter": "Whether:",
+      "answer": "Whether: Her manager wants to know whether Olivia has finished the monthly report. || If: Her manager wants to know if Olivia has finished the monthly report.",
+      "answerZh": "她的經理想知道奧莉花是否已完成月度報告。 || 她的經理想知道奧莉花是否已完成月度報告。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Her",
+          "answer": "Her manager wants to know whether Olivia has finished the monthly report.",
+          "answerZh": "她的經理想知道奧莉花是否已完成月度報告。"
+        },
+        {
+          "label": "If",
+          "starter": "Her",
+          "answer": "Her manager wants to know if Olivia has finished the monthly report.",
+          "answerZh": "她的經理想知道奧莉花是否已完成月度報告。"
+        }
+      ],
+      "highlight": "Whether: Her manager wants to know whether Olivia has finished the monthly report. || If: Her manager wants to know if Olivia has finished the monthly report."
+    },
+    {
+      "id": "ss32-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 26,
+        "answerPage": 26,
+        "answerPart1AnswerPage": 27,
+        "answerPart1AnswerZhPage": 27
+      },
+      "prompt": "Have the children eaten lunch? Please find out.",
+      "promptZh": "孩子們是否已吃午餐？請查明。",
+      "starter": "Whether:",
+      "answer": "Whether: Please find out whether the children have eaten lunch. || If: Please find out if the children have eaten lunch.",
+      "answerZh": "請查明孩子們是否已吃午餐。 || 請查明孩子們是否已吃午餐。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Please",
+          "answer": "Please find out whether the children have eaten lunch.",
+          "answerZh": "請查明孩子們是否已吃午餐。"
+        },
+        {
+          "label": "If",
+          "starter": "Please",
+          "answer": "Please find out if the children have eaten lunch.",
+          "answerZh": "請查明孩子們是否已吃午餐。"
+        }
+      ],
+      "highlight": "Whether: Please find out whether the children have eaten lunch. || If: Please find out if the children have eaten lunch."
+    },
+    {
+      "id": "ss32-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 27,
+        "answerPage": 27
+      },
+      "prompt": "Is the road being repaired this week? The driver could not tell.",
+      "promptZh": "這條道路本星期是否正在維修？司機無法判斷。",
+      "starter": "Whether:",
+      "answer": "Whether: The driver could not tell whether the road was being repaired that week. || If: The driver could not tell if the road was being repaired that week.",
+      "answerZh": "司機無法判斷這條道路當星期是否正在維修。 || 司機無法判斷這條道路當星期是否正在維修。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The driver could not tell whether the road was being repaired that week.",
+          "answerZh": "司機無法判斷這條道路當星期是否正在維修。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The driver could not tell if the road was being repaired that week.",
+          "answerZh": "司機無法判斷這條道路當星期是否正在維修。"
+        }
+      ],
+      "highlight": "Whether: The driver could not tell whether the road was being repaired that week. || If: The driver could not tell if the road was being repaired that week."
+    },
+    {
+      "id": "ss32-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 27,
+        "answerPage": 27
+      },
+      "prompt": "Was the email sent to every parent? I am not certain.",
+      "promptZh": "電郵是否已寄給每位家長？我不確定。",
+      "starter": "Whether:",
+      "answer": "Whether: I am not certain whether the email was sent to every parent. || If: I am not certain if the email was sent to every parent.",
+      "answerZh": "我不確定電郵是否已寄給每位家長。 || 我不確定電郵是否已寄給每位家長。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "I",
+          "answer": "I am not certain whether the email was sent to every parent.",
+          "answerZh": "我不確定電郵是否已寄給每位家長。"
+        },
+        {
+          "label": "If",
+          "starter": "I",
+          "answer": "I am not certain if the email was sent to every parent.",
+          "answerZh": "我不確定電郵是否已寄給每位家長。"
+        }
+      ],
+      "highlight": "Whether: I am not certain whether the email was sent to every parent. || If: I am not certain if the email was sent to every parent."
+    },
+    {
+      "id": "ss32-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 27,
+        "answerPage": 27
+      },
+      "prompt": "Does this medicine make people sleepy? The patient asked the pharmacist.",
+      "promptZh": "這種藥物會否令人睏倦？病人詢問藥劑師。",
+      "starter": "Whether:",
+      "answer": "Whether: The patient asked the pharmacist whether this medicine makes people sleepy. || If: The patient asked the pharmacist if this medicine makes people sleepy.",
+      "answerZh": "病人詢問藥劑師這種藥物會否令人睏倦。 || 病人詢問藥劑師這種藥物會否令人睏倦。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The patient asked the pharmacist whether this medicine makes people sleepy.",
+          "answerZh": "病人詢問藥劑師這種藥物會否令人睏倦。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The patient asked the pharmacist if this medicine makes people sleepy.",
+          "answerZh": "病人詢問藥劑師這種藥物會否令人睏倦。"
+        }
+      ],
+      "highlight": "Whether: The patient asked the pharmacist whether this medicine makes people sleepy. || If: The patient asked the pharmacist if this medicine makes people sleepy."
+    },
+    {
+      "id": "ss32-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 27,
+        "answerPage": 27
+      },
+      "prompt": "Did the machine stop by itself? The engineer is investigating.",
+      "promptZh": "機器是否自行停止運作？工程師正在調查。",
+      "starter": "Whether:",
+      "answer": "Whether: The engineer is investigating whether the machine stopped by itself. || If: The engineer is investigating if the machine stopped by itself.",
+      "answerZh": "工程師正在調查機器是否自行停止運作。 || 工程師正在調查機器是否自行停止運作。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The engineer is investigating whether the machine stopped by itself.",
+          "answerZh": "工程師正在調查機器是否自行停止運作。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The engineer is investigating if the machine stopped by itself.",
+          "answerZh": "工程師正在調查機器是否自行停止運作。"
+        }
+      ],
+      "highlight": "Whether: The engineer is investigating whether the machine stopped by itself. || If: The engineer is investigating if the machine stopped by itself."
+    },
+    {
+      "id": "ss32-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 28,
+        "answerPage": 28
+      },
+      "prompt": "Is the room warm enough for the baby? The nurse will check.",
+      "promptZh": "房間對嬰兒來說是否足夠溫暖？護士會檢查。",
+      "starter": "Whether:",
+      "answer": "Whether: The nurse will check whether the room is warm enough for the baby. || If: The nurse will check if the room is warm enough for the baby.",
+      "answerZh": "護士會檢查房間對嬰兒來說是否足夠溫暖。 || 護士會檢查房間對嬰兒來說是否足夠溫暖。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The nurse will check whether the room is warm enough for the baby.",
+          "answerZh": "護士會檢查房間對嬰兒來說是否足夠溫暖。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The nurse will check if the room is warm enough for the baby.",
+          "answerZh": "護士會檢查房間對嬰兒來說是否足夠溫暖。"
+        }
+      ],
+      "highlight": "Whether: The nurse will check whether the room is warm enough for the baby. || If: The nurse will check if the room is warm enough for the baby."
+    },
+    {
+      "id": "ss32-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 28,
+        "answerPage": 28
+      },
+      "prompt": "Did Maya hear the announcement? I forgot to ask.",
+      "promptZh": "瑪雅有否聽到公布？我忘記了詢問。",
+      "starter": "Whether:",
+      "answer": "Whether: I forgot to ask whether Maya heard the announcement. || If: I forgot to ask if Maya heard the announcement.",
+      "answerZh": "我忘記了詢問瑪雅有否聽到公布。 || 我忘記了詢問瑪雅有否聽到公布。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "I",
+          "answer": "I forgot to ask whether Maya heard the announcement.",
+          "answerZh": "我忘記了詢問瑪雅有否聽到公布。"
+        },
+        {
+          "label": "If",
+          "starter": "I",
+          "answer": "I forgot to ask if Maya heard the announcement.",
+          "answerZh": "我忘記了詢問瑪雅有否聽到公布。"
+        }
+      ],
+      "highlight": "Whether: I forgot to ask whether Maya heard the announcement. || If: I forgot to ask if Maya heard the announcement."
+    },
+    {
+      "id": "ss32-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 28,
+        "answerPage": 28
+      },
+      "prompt": "Will the guests arrive before six? Please tell me either way.",
+      "promptZh": "客人會否在六時前到達？無論答案如何，請告訴我。",
+      "starter": "Whether:",
+      "answer": "Whether: Please tell me whether the guests will arrive before six or not. || If: Please tell me if the guests will arrive before six or not.",
+      "answerZh": "請告訴我客人會否在六時前到達。 || 請告訴我客人會否在六時前到達。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Please",
+          "answer": "Please tell me whether the guests will arrive before six or not.",
+          "answerZh": "請告訴我客人會否在六時前到達。"
+        },
+        {
+          "label": "If",
+          "starter": "Please",
+          "answer": "Please tell me if the guests will arrive before six or not.",
+          "answerZh": "請告訴我客人會否在六時前到達。"
+        }
+      ],
+      "highlight": "Whether: Please tell me whether the guests will arrive before six or not. || If: Please tell me if the guests will arrive before six or not."
+    },
+    {
+      "id": "ss32-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 28,
+        "answerPage": 28
+      },
+      "prompt": "Can the new app save files without internet access? We are testing this.",
+      "promptZh": "新應用程式能否在沒有網絡連線時儲存檔案？我們正在測試這一點。",
+      "starter": "Whether:",
+      "answer": "Whether: We are testing whether the new app can save files without internet access. || If: We are testing if the new app can save files without internet access.",
+      "answerZh": "我們正在測試新應用程式能否在沒有網絡連線時儲存檔案。 || 我們正在測試新應用程式能否在沒有網絡連線時儲存檔案。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "We",
+          "answer": "We are testing whether the new app can save files without internet access.",
+          "answerZh": "我們正在測試新應用程式能否在沒有網絡連線時儲存檔案。"
+        },
+        {
+          "label": "If",
+          "starter": "We",
+          "answer": "We are testing if the new app can save files without internet access.",
+          "answerZh": "我們正在測試新應用程式能否在沒有網絡連線時儲存檔案。"
+        }
+      ],
+      "highlight": "Whether: We are testing whether the new app can save files without internet access. || If: We are testing if the new app can save files without internet access."
+    },
+    {
+      "id": "ss32-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "starterPage": 17,
+        "answerNumberPage": 29,
+        "answerPage": 29
+      },
+      "prompt": "Should the school cancel the trip? The principal has not decided.",
+      "promptZh": "學校是否應該取消旅行？校長尚未決定。",
+      "starter": "Whether:",
+      "answer": "Whether: The principal has not decided whether the school should cancel the trip. || If: The principal has not decided if the school should cancel the trip.",
+      "answerZh": "校長尚未決定學校是否應該取消旅行。 || 校長尚未決定學校是否應該取消旅行。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The principal has not decided whether the school should cancel the trip.",
+          "answerZh": "校長尚未決定學校是否應該取消旅行。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The principal has not decided if the school should cancel the trip.",
+          "answerZh": "校長尚未決定學校是否應該取消旅行。"
+        }
+      ],
+      "highlight": "Whether: The principal has not decided whether the school should cancel the trip. || If: The principal has not decided if the school should cancel the trip."
+    },
+    {
+      "id": "ss32-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 29,
+        "answerPage": 29
+      },
+      "prompt": "May workers take extra breaks during the heat warning? The company will confirm.",
+      "promptZh": "酷熱天氣警告生效期間，員工可否額外休息？公司會作出確認。",
+      "starter": "Whether:",
+      "answer": "Whether: The company will confirm whether workers may take extra breaks during the heat warning. || If: The company will confirm if workers may take extra breaks during the heat warning.",
+      "answerZh": "公司會確認員工在酷熱天氣警告生效期間可否額外休息。 || 公司會確認員工在酷熱天氣警告生效期間可否額外休息。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The company will confirm whether workers may take extra breaks during the heat warning.",
+          "answerZh": "公司會確認員工在酷熱天氣警告生效期間可否額外休息。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The company will confirm if workers may take extra breaks during the heat warning.",
+          "answerZh": "公司會確認員工在酷熱天氣警告生效期間可否額外休息。"
+        }
+      ],
+      "highlight": "Whether: The company will confirm whether workers may take extra breaks during the heat warning. || If: The company will confirm if workers may take extra breaks during the heat warning."
+    },
+    {
+      "id": "ss32-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 29,
+        "answerPage": 29
+      },
+      "prompt": "Does the museum open on public holidays? Tourists often ask.",
+      "promptZh": "博物館是否在公眾假期開放？遊客經常詢問。",
+      "starter": "Whether:",
+      "answer": "Whether: Tourists often ask whether the museum opens on public holidays. || If: Tourists often ask if the museum opens on public holidays.",
+      "answerZh": "遊客經常詢問博物館是否在公眾假期開放。 || 遊客經常詢問博物館是否在公眾假期開放。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Tourists",
+          "answer": "Tourists often ask whether the museum opens on public holidays.",
+          "answerZh": "遊客經常詢問博物館是否在公眾假期開放。"
+        },
+        {
+          "label": "If",
+          "starter": "Tourists",
+          "answer": "Tourists often ask if the museum opens on public holidays.",
+          "answerZh": "遊客經常詢問博物館是否在公眾假期開放。"
+        }
+      ],
+      "highlight": "Whether: Tourists often ask whether the museum opens on public holidays. || If: Tourists often ask if the museum opens on public holidays."
+    },
+    {
+      "id": "ss32-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 29,
+        "answerPage": 29
+      },
+      "prompt": "Was the noise coming from the flat upstairs? The neighbours could not tell.",
+      "promptZh": "噪音是否來自樓上的單位？鄰居無法判斷。",
+      "starter": "Whether:",
+      "answer": "Whether: The neighbours could not tell whether the noise was coming from the flat upstairs. || If: The neighbours could not tell if the noise was coming from the flat upstairs.",
+      "answerZh": "鄰居無法判斷噪音是否來自樓上的單位。 || 鄰居無法判斷噪音是否來自樓上的單位。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The neighbours could not tell whether the noise was coming from the flat upstairs.",
+          "answerZh": "鄰居無法判斷噪音是否來自樓上的單位。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The neighbours could not tell if the noise was coming from the flat upstairs.",
+          "answerZh": "鄰居無法判斷噪音是否來自樓上的單位。"
+        }
+      ],
+      "highlight": "Whether: The neighbours could not tell whether the noise was coming from the flat upstairs. || If: The neighbours could not tell if the noise was coming from the flat upstairs."
+    },
+    {
+      "id": "ss32-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "starterPage": 18,
+        "answerNumberPage": 29,
+        "answerPage": 30
+      },
+      "prompt": "Will the team need more time to finish? The coach is trying to judge.",
+      "promptZh": "團隊是否需要更多時間完成工作？教練正嘗試判斷。",
+      "starter": "Whether:",
+      "answer": "Whether: The coach is trying to judge whether the team will need more time to finish. || If: The coach is trying to judge if the team will need more time to finish.",
+      "answerZh": "教練正嘗試判斷團隊是否需要更多時間完成工作。 || 教練正嘗試判斷團隊是否需要更多時間完成工作。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The coach is trying to judge whether the team will need more time to finish.",
+          "answerZh": "教練正嘗試判斷團隊是否需要更多時間完成工作。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The coach is trying to judge if the team will need more time to finish.",
+          "answerZh": "教練正嘗試判斷團隊是否需要更多時間完成工作。"
+        }
+      ],
+      "highlight": "Whether: The coach is trying to judge whether the team will need more time to finish. || If: The coach is trying to judge if the team will need more time to finish."
+    },
+    {
+      "id": "ss32-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 30,
+        "answerPage": 30
+      },
+      "prompt": "Must every applicant attend the interview? The notice does not say either way.",
+      "promptZh": "每名申請人是否都必須出席面試？通告沒有清楚說明。",
+      "starter": "Whether:",
+      "answer": "Whether: The notice does not say whether every applicant must attend the interview or not. || If: The notice does not say if every applicant must attend the interview or not.",
+      "answerZh": "通告沒有說明每名申請人是否都必須出席面試。 || 通告沒有說明每名申請人是否都必須出席面試。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The notice does not say whether every applicant must attend the interview or not.",
+          "answerZh": "通告沒有說明每名申請人是否都必須出席面試。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The notice does not say if every applicant must attend the interview or not.",
+          "answerZh": "通告沒有說明每名申請人是否都必須出席面試。"
+        }
+      ],
+      "highlight": "Whether: The notice does not say whether every applicant must attend the interview or not. || If: The notice does not say if every applicant must attend the interview or not."
+    },
+    {
+      "id": "ss32-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 30,
+        "answerPage": 30
+      },
+      "prompt": "Is the food safe to eat? The staff should check.",
+      "promptZh": "食物是否可以安全食用？職員應該檢查。",
+      "starter": "Whether:",
+      "answer": "Whether: The staff should check whether the food is safe to eat. || If: The staff should check if the food is safe to eat.",
+      "answerZh": "職員應該檢查食物是否可以安全食用。 || 職員應該檢查食物是否可以安全食用。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The staff should check whether the food is safe to eat.",
+          "answerZh": "職員應該檢查食物是否可以安全食用。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The staff should check if the food is safe to eat.",
+          "answerZh": "職員應該檢查食物是否可以安全食用。"
+        }
+      ],
+      "highlight": "Whether: The staff should check whether the food is safe to eat. || If: The staff should check if the food is safe to eat."
+    },
+    {
+      "id": "ss32-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 30,
+        "answerPage": 30
+      },
+      "prompt": "Did the customer receive a full refund? The shop will investigate.",
+      "promptZh": "顧客有否收到全額退款？店舖會作出調查。",
+      "starter": "Whether:",
+      "answer": "Whether: The shop will investigate whether the customer received a full refund. || If: The shop will investigate if the customer received a full refund.",
+      "answerZh": "店舖會調查顧客有否收到全額退款。 || 店舖會調查顧客有否收到全額退款。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The shop will investigate whether the customer received a full refund.",
+          "answerZh": "店舖會調查顧客有否收到全額退款。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The shop will investigate if the customer received a full refund.",
+          "answerZh": "店舖會調查顧客有否收到全額退款。"
+        }
+      ],
+      "highlight": "Whether: The shop will investigate whether the customer received a full refund. || If: The shop will investigate if the customer received a full refund."
+    },
+    {
+      "id": "ss32-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "starterPage": 19,
+        "answerNumberPage": 30,
+        "answerPage": 31
+      },
+      "prompt": "Should the community centre extend its opening hours? Residents are being asked.",
+      "promptZh": "社區中心是否應該延長開放時間？居民正被徵詢意見。",
+      "starter": "Whether:",
+      "answer": "Whether: Residents are being asked whether the community centre should extend its opening hours. || If: Residents are being asked if the community centre should extend its opening hours.",
+      "answerZh": "居民正被徵詢社區中心是否應該延長開放時間。 || 居民正被徵詢社區中心是否應該延長開放時間。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "Residents",
+          "answer": "Residents are being asked whether the community centre should extend its opening hours.",
+          "answerZh": "居民正被徵詢社區中心是否應該延長開放時間。"
+        },
+        {
+          "label": "If",
+          "starter": "Residents",
+          "answer": "Residents are being asked if the community centre should extend its opening hours.",
+          "answerZh": "居民正被徵詢社區中心是否應該延長開放時間。"
+        }
+      ],
+      "highlight": "Whether: Residents are being asked whether the community centre should extend its opening hours. || If: Residents are being asked if the community centre should extend its opening hours."
+    },
+    {
+      "id": "ss32-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 31,
+        "answerPage": 31
+      },
+      "prompt": "Will the storm affect tomorrow’s flights? The airport cannot yet confirm either way.",
+      "promptZh": "暴風雨會否影響明天的航班？機場目前仍無法確認。",
+      "starter": "Whether:",
+      "answer": "Whether: The airport cannot yet confirm whether the storm will affect tomorrow’s flights or not. || If: The airport cannot yet confirm if the storm will affect tomorrow’s flights or not.",
+      "answerZh": "機場目前仍無法確認暴風雨會否影響明天的航班。 || 機場目前仍無法確認暴風雨會否影響明天的航班。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The airport cannot yet confirm whether the storm will affect tomorrow’s flights or not.",
+          "answerZh": "機場目前仍無法確認暴風雨會否影響明天的航班。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The airport cannot yet confirm if the storm will affect tomorrow’s flights or not.",
+          "answerZh": "機場目前仍無法確認暴風雨會否影響明天的航班。"
+        }
+      ],
+      "highlight": "Whether: The airport cannot yet confirm whether the storm will affect tomorrow’s flights or not. || If: The airport cannot yet confirm if the storm will affect tomorrow’s flights or not."
+    },
+    {
+      "id": "ss32-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 31,
+        "answerPage": 31
+      },
+      "prompt": "Can the device be repaired without replacing the screen? The technician is checking.",
+      "promptZh": "這部裝置能否在不更換屏幕的情況下修理？技術員正在檢查。",
+      "starter": "Whether:",
+      "answer": "Whether: The technician is checking whether the device can be repaired without replacing the screen. || If: The technician is checking if the device can be repaired without replacing the screen.",
+      "answerZh": "技術員正在檢查這部裝置能否在不更換屏幕的情況下修理。 || 技術員正在檢查這部裝置能否在不更換屏幕的情況下修理。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The technician is checking whether the device can be repaired without replacing the screen.",
+          "answerZh": "技術員正在檢查這部裝置能否在不更換屏幕的情況下修理。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The technician is checking if the device can be repaired without replacing the screen.",
+          "answerZh": "技術員正在檢查這部裝置能否在不更換屏幕的情況下修理。"
+        }
+      ],
+      "highlight": "Whether: The technician is checking whether the device can be repaired without replacing the screen. || If: The technician is checking if the device can be repaired without replacing the screen."
+    },
+    {
+      "id": "ss32-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 31,
+        "answerPage": 31
+      },
+      "prompt": "Has the new rule reduced waiting times? The hospital wants to find out.",
+      "promptZh": "新規則是否縮短了等候時間？醫院希望查明。",
+      "starter": "Whether:",
+      "answer": "Whether: The hospital wants to find out whether the new rule has reduced waiting times. || If: The hospital wants to find out if the new rule has reduced waiting times.",
+      "answerZh": "醫院希望查明新規則是否縮短了等候時間。 || 醫院希望查明新規則是否縮短了等候時間。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The hospital wants to find out whether the new rule has reduced waiting times.",
+          "answerZh": "醫院希望查明新規則是否縮短了等候時間。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The hospital wants to find out if the new rule has reduced waiting times.",
+          "answerZh": "醫院希望查明新規則是否縮短了等候時間。"
+        }
+      ],
+      "highlight": "Whether: The hospital wants to find out whether the new rule has reduced waiting times. || If: The hospital wants to find out if the new rule has reduced waiting times."
+    },
+    {
+      "id": "ss32-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "starterPage": 20,
+        "answerNumberPage": 31,
+        "answerPage": 32
+      },
+      "prompt": "Must students submit both forms before registering? The office will explain.",
+      "promptZh": "學生是否必須在辦理登記前提交兩份表格？辦事處會作出解釋。",
+      "starter": "Whether:",
+      "answer": "Whether: The office will explain whether students must submit both forms before registering. || If: The office will explain if students must submit both forms before registering.",
+      "answerZh": "辦事處會解釋學生是否必須在辦理登記前提交兩份表格。 || 辦事處會解釋學生是否必須在辦理登記前提交兩份表格。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The office will explain whether students must submit both forms before registering.",
+          "answerZh": "辦事處會解釋學生是否必須在辦理登記前提交兩份表格。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The office will explain if students must submit both forms before registering.",
+          "answerZh": "辦事處會解釋學生是否必須在辦理登記前提交兩份表格。"
+        }
+      ],
+      "highlight": "Whether: The office will explain whether students must submit both forms before registering. || If: The office will explain if students must submit both forms before registering."
+    },
+    {
+      "id": "ss32-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 32,
+        "answerPage": 32
+      },
+      "prompt": "Does the soup need more salt? The chef wants to check.",
+      "promptZh": "湯是否需要加入更多鹽？廚師想檢查一下。",
+      "starter": "Whether:",
+      "answer": "Whether: The chef wants to check whether the soup needs more salt. || If: The chef wants to check if the soup needs more salt.",
+      "answerZh": "廚師想檢查湯是否需要加入更多鹽。 || 廚師想檢查湯是否需要加入更多鹽。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The chef wants to check whether the soup needs more salt.",
+          "answerZh": "廚師想檢查湯是否需要加入更多鹽。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The chef wants to check if the soup needs more salt.",
+          "answerZh": "廚師想檢查湯是否需要加入更多鹽。"
+        }
+      ],
+      "highlight": "Whether: The chef wants to check whether the soup needs more salt. || If: The chef wants to check if the soup needs more salt."
+    },
+    {
+      "id": "ss32-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 32,
+        "answerPage": 32
+      },
+      "prompt": "Will Daniel join us or stay at home? We do not know.",
+      "promptZh": "丹尼爾會加入我們，還是留在家中？我們不知道。",
+      "starter": "Whether:",
+      "answer": "Whether: We do not know whether Daniel will join us or stay at home. || If: We do not know if Daniel will join us or stay at home.",
+      "answerZh": "我們不知道丹尼爾會加入我們，還是留在家中。 || 我們不知道丹尼爾會加入我們，還是留在家中。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "We",
+          "answer": "We do not know whether Daniel will join us or stay at home.",
+          "answerZh": "我們不知道丹尼爾會加入我們，還是留在家中。"
+        },
+        {
+          "label": "If",
+          "starter": "We",
+          "answer": "We do not know if Daniel will join us or stay at home.",
+          "answerZh": "我們不知道丹尼爾會加入我們，還是留在家中。"
+        }
+      ],
+      "highlight": "Whether: We do not know whether Daniel will join us or stay at home. || If: We do not know if Daniel will join us or stay at home."
+    },
+    {
+      "id": "ss32-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 32,
+        "answerPage": 32
+      },
+      "prompt": "Should the team change the design or keep the current one? The manager asked everyone.",
+      "promptZh": "團隊應該更改設計，還是保留現有設計？經理詢問了每個人。",
+      "starter": "Whether:",
+      "answer": "Whether: The manager asked everyone whether the team should change the design or keep the current one. || If: The manager asked everyone if the team should change the design or keep the current one.",
+      "answerZh": "經理詢問每個人，團隊應該更改設計還是保留現有設計。 || 經理詢問每個人，團隊應該更改設計還是保留現有設計。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The manager asked everyone whether the team should change the design or keep the current one.",
+          "answerZh": "經理詢問每個人，團隊應該更改設計還是保留現有設計。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The manager asked everyone if the team should change the design or keep the current one.",
+          "answerZh": "經理詢問每個人，團隊應該更改設計還是保留現有設計。"
+        }
+      ],
+      "highlight": "Whether: The manager asked everyone whether the team should change the design or keep the current one. || If: The manager asked everyone if the team should change the design or keep the current one."
+    },
+    {
+      "id": "ss32-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "starterPage": 21,
+        "answerNumberPage": 32,
+        "answerPage": 33
+      },
+      "prompt": "Was the delay caused by bad weather or by a technical problem? The airline is investigating.",
+      "promptZh": "延誤是由惡劣天氣還是技術問題造成？航空公司正在調查。",
+      "starter": "Whether:",
+      "answer": "Whether: The airline is investigating whether the delay was caused by bad weather or by a technical problem. || If: The airline is investigating if the delay was caused by bad weather or by a technical problem.",
+      "answerZh": "航空公司正在調查延誤是由惡劣天氣還是技術問題造成。 || 航空公司正在調查延誤是由惡劣天氣還是技術問題造成。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "The",
+          "answer": "The airline is investigating whether the delay was caused by bad weather or by a technical problem.",
+          "answerZh": "航空公司正在調查延誤是由惡劣天氣還是技術問題造成。"
+        },
+        {
+          "label": "If",
+          "starter": "The",
+          "answer": "The airline is investigating if the delay was caused by bad weather or by a technical problem.",
+          "answerZh": "航空公司正在調查延誤是由惡劣天氣還是技術問題造成。"
+        }
+      ],
+      "highlight": "Whether: The airline is investigating whether the delay was caused by bad weather or by a technical problem. || If: The airline is investigating if the delay was caused by bad weather or by a technical problem."
+    },
+    {
+      "id": "ss32-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 21,
+        "questionPage": 21,
+        "starterPage": 21,
+        "answerNumberPage": 33,
+        "answerPage": 33
+      },
+      "prompt": "Will the new policy be introduced this year? No one can confirm either way.",
+      "promptZh": "新政策會否在今年推出？沒有人能夠確認。",
+      "starter": "Whether:",
+      "answer": "Whether: No one can confirm whether the new policy will be introduced this year or not. || If: No one can confirm if the new policy will be introduced this year or not.",
+      "answerZh": "沒有人能夠確認新政策會否在今年推出。 || 沒有人能夠確認新政策會否在今年推出。",
+      "answerZhSource": "pdf",
+      "answerParts": [
+        {
+          "label": "Whether",
+          "starter": "No",
+          "answer": "No one can confirm whether the new policy will be introduced this year or not.",
+          "answerZh": "沒有人能夠確認新政策會否在今年推出。"
+        },
+        {
+          "label": "If",
+          "starter": "No",
+          "answer": "No one can confirm if the new policy will be introduced this year or not.",
+          "answerZh": "沒有人能夠確認新政策會否在今年推出。"
+        }
+      ],
+      "highlight": "Whether: No one can confirm whether the new policy will be introduced this year or not. || If: No one can confirm if the new policy will be introduced this year or not."
+    }
+  ]
+}

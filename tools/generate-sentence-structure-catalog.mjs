@@ -4,12 +4,17 @@ import { readFile, writeFile } from "node:fs/promises";
 import vm from "node:vm";
 
 const root = new URL("../", import.meta.url);
+const expansionUrl = new URL("sentence-structure-lessons-5-39.js", root);
 const dataUrl = new URL("sentence-structure-data.js", root);
 const catalogUrl = new URL("workers/sentence-structure/src/catalog.js", root);
-const source = await readFile(dataUrl, "utf8");
+const [expansionSource, source] = await Promise.all([
+  readFile(expansionUrl, "utf8"),
+  readFile(dataUrl, "utf8")
+]);
 const sandbox = { window: {} };
 
 vm.createContext(sandbox);
+vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-39.js" });
 vm.runInContext(source, sandbox, { filename: "sentence-structure-data.js" });
 
 const lessons = sandbox.window.EDMUND_SENTENCE_STRUCTURE_DATA?.lessons;
@@ -27,7 +32,7 @@ for (const lesson of lessons) {
   }
 }
 
-const output = `// Generated from sentence-structure-data.js by tools/generate-sentence-structure-catalog.mjs.\n`
+const output = `// Generated from the published Sentence Structure lesson data by tools/generate-sentence-structure-catalog.mjs.\n`
   + `// Run the generator whenever published lesson answers change.\n`
   + `export const ACCEPTED_ANSWERS = Object.freeze(${JSON.stringify(catalog, null, 2)});\n`;
 

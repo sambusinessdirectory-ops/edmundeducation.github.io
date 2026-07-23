@@ -1,0 +1,1164 @@
+{
+  "id": "ss14",
+  "order": 14,
+  "slug": "so-subject-must",
+  "title": "「So + Must」句型",
+  "titleZh": "「So + Must」句型",
+  "titleEn": "Using so + must to connect a situation with a necessary action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 14 -「So + Must 」句型.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "The Important Rules explanations and most Benefits details are provided in Chinese only, although the Benefits headings are bilingual; the stored English explanations are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Reason or situation + , so + subject + must + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss14-formula-so-must",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Reason or situation + , so + subject + must + base verb + other information"
+    }
+  ],
+  "example": "Public funds are limited, so the government must spend the taxpayers’ money more wisely.",
+  "exampleZh": "公共資金有限，所以政府必須更明智地使用納稅人的金錢。",
+  "examples": [
+    {
+      "id": "ss14-example-01",
+      "en": "Public funds are limited, so the government must spend the taxpayers’ money more wisely.",
+      "zh": "公共資金有限，所以政府必須更明智地使用納稅人的金錢。",
+      "highlight": "Public funds are limited, so the government must spend the taxpayers’ money more wisely."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss14-rule-01",
+      "en": "The first clause states the reason or situation, such as a problem, limit, danger, rule or need.",
+      "zh": "前半句說明原因或情況，交代一個問題、限制、危險、規則或需要。",
+      "examples": [
+        "The road is wet, ...",
+        "道路濕滑，……"
+      ]
+    },
+    {
+      "id": "ss14-rule-02",
+      "en": "The second clause states the necessary action. Use so + subject + must + base verb to explain what must be done in that situation.",
+      "zh": "後半句說明必要行動。使用 so + 主語 + must + 原形動詞，說明在這個情況下必須採取甚麼行動。",
+      "examples": [
+        "The road is wet, so drivers must slow down.",
+        "道路濕滑，所以駕駛者必須減速。"
+      ]
+    },
+    {
+      "id": "ss14-rule-03",
+      "en": "Use the base form of the verb after must.",
+      "zh": "must 後面使用原形動詞。",
+      "examples": [
+        "Correct: must leave",
+        "Incorrect: must leaves",
+        "Incorrect: must to leave"
+      ]
+    },
+    {
+      "id": "ss14-rule-04",
+      "en": "Must expresses strong necessity and is stronger than should. Use it only when something is necessary, important, compulsory or cannot be ignored.",
+      "zh": "must 表示強烈的必要性，比 should 更強。只有當事情屬於必要、重要、強制或不能忽略時，才使用 must。",
+      "examples": [
+        "You should check the form.",
+        "You must check the form."
+      ]
+    },
+    {
+      "id": "ss14-rule-05",
+      "en": "Must not + base verb expresses prohibition and does not mean do not have to.",
+      "zh": "must not + 原形動詞 表示某件事不可以做。must not 並不等於 do not have to。",
+      "examples": [
+        "Workers must not switch on the machine.",
+        "must not = 不得做",
+        "do not have to = 不一定需要做"
+      ]
+    },
+    {
+      "id": "ss14-rule-06",
+      "en": "A comma is normally required between the two complete clauses.",
+      "zh": "兩個完整句子之間通常要加逗號。",
+      "examples": [
+        "The library is closing soon, so we must choose our books quickly.",
+        "圖書館快要關門，所以我們必須盡快選好書籍。"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss14-benefit-01",
+      "en": "It makes the reason and action clear. The structure states the situation first and then the action that must be taken, so readers can understand the relationship immediately.",
+      "zh": "清楚交代原因和行動。這個句型先說明情況，再說明必須採取的行動。讀者可以立即明白兩者之間的關係。"
+    },
+    {
+      "id": "ss14-benefit-02",
+      "en": "It combines two ideas in one sentence, so you do not need to separate the reason and necessary action into two short sentences.",
+      "zh": "把兩個相關意思合併成一句。你不需要把原因和必要行動分成兩個短句。"
+    },
+    {
+      "id": "ss14-benefit-03",
+      "en": "It shows that something is necessary, not merely advisable. Must clearly marks actions connected with safety, rules, deadlines or important responsibilities.",
+      "zh": "表明事情是必要，而不只是建議。當某個行動與安全、規則、限期或重要責任有關時，must 可以清楚顯示這不是普通建議。"
+    },
+    {
+      "id": "ss14-benefit-04",
+      "en": "It helps you explain practical solutions. In essays, reports, discussions or presentations, you can identify a problem and then propose the action that must be taken.",
+      "zh": "幫助你提出實際解決方法。在作文、報告、討論或簡報中，你可以先指出問題，再提出必須採取的措施。"
+    },
+    {
+      "id": "ss14-benefit-05",
+      "en": "It gives you a useful speaking frame. When you need to explain quickly that a situation makes an action necessary, use: ________, so ________ must ________.",
+      "zh": "提供容易使用的說話框架。當你需要迅速解釋「因為有這個情況，所以必須這樣做」時，可以直接使用：________, so ________ must ________。"
+    }
+  ],
+  "sourceOmissions": [
+    "The Important Rules explanations and most Benefits details are provided in Chinese only, although the Benefits headings are bilingual; the stored English explanations are faithful editorial translations.",
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using so + subject + must + base verb to show that a situation makes an action necessary.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 so + 主語 + must + 原形動詞 改寫以下句子，以表示某個情況令一項行動變得必要。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss14-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Because the road is wet, drivers have to slow down.",
+      "promptZh": "由於道路濕滑，駕駛者必須減速。",
+      "starter": "The",
+      "answer": "The road is wet, so drivers must slow down.",
+      "answerZh": "道路濕滑，所以駕駛者必須減速。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is wet, so drivers must slow down."
+    },
+    {
+      "id": "ss14-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Since the library is closing soon, we have to choose our books quickly.",
+      "promptZh": "由於圖書館快要關門，我們必須盡快選好書籍。",
+      "starter": "The",
+      "answer": "The library is closing soon, so we must choose our books quickly.",
+      "answerZh": "圖書館快要關門，所以我們必須盡快選好書籍。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is closing soon, so we must choose our books quickly."
+    },
+    {
+      "id": "ss14-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia has a fever. It is necessary for her to stay home today.",
+      "promptZh": "米婭發燒。她今天有必要留在家中。",
+      "starter": "Mia",
+      "answer": "Mia has a fever, so she must stay home today.",
+      "answerZh": "米婭發燒，所以她今天必須留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia has a fever, so she must stay home today."
+    },
+    {
+      "id": "ss14-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Because the form is incomplete, you have to fill in the missing section.",
+      "promptZh": "由於表格尚未填妥，你必須填寫遺漏的部分。",
+      "starter": "The",
+      "answer": "The form is incomplete, so you must fill in the missing section.",
+      "answerZh": "表格尚未填妥，所以你必須填寫遺漏的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The form is incomplete, so you must fill in the missing section."
+    },
+    {
+      "id": "ss14-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben has an early flight, which means that he has to leave home before six.",
+      "promptZh": "本要乘搭早班航班，這表示他必須在六時前離家。",
+      "starter": "Ben",
+      "answer": "Ben has an early flight, so he must leave home before six.",
+      "answerZh": "本要乘搭早班航班，所以他必須在六時前離家。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben has an early flight, so he must leave home before six."
+    },
+    {
+      "id": "ss14-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The classroom is too noisy. The students need to speak more quietly.",
+      "promptZh": "課室太嘈吵。學生需要降低聲量。",
+      "starter": "The",
+      "answer": "The classroom is too noisy, so the students must speak more quietly.",
+      "answerZh": "課室太嘈吵，所以學生必須降低聲量。",
+      "answerZhSource": "pdf",
+      "highlight": "The classroom is too noisy, so the students must speak more quietly."
+    },
+    {
+      "id": "ss14-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "As we have no milk left, I have to go to the supermarket.",
+      "promptZh": "由於家裏沒有牛奶了，我必須去超級市場。",
+      "starter": "We",
+      "answer": "We have no milk left, so I must go to the supermarket.",
+      "answerZh": "家裏沒有牛奶了，所以我必須去超級市場。",
+      "answerZhSource": "pdf",
+      "highlight": "We have no milk left, so I must go to the supermarket."
+    },
+    {
+      "id": "ss14-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The phone battery is almost empty. You need to charge it now.",
+      "promptZh": "手機電量快要耗盡。你需要立即為它充電。",
+      "starter": "The",
+      "answer": "The phone battery is almost empty, so you must charge it now.",
+      "answerZh": "手機電量快要耗盡，所以你必須立即為它充電。",
+      "answerZhSource": "pdf",
+      "highlight": "The phone battery is almost empty, so you must charge it now."
+    },
+    {
+      "id": "ss14-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why do workers have to wear helmets? The building site is dangerous.",
+      "promptZh": "工人為甚麼必須戴上安全帽？建築地盤很危險。",
+      "starter": "The",
+      "answer": "The building site is dangerous, so workers must wear helmets.",
+      "answerZh": "建築地盤很危險，所以工人必須戴上安全帽。",
+      "answerZhSource": "pdf",
+      "highlight": "The building site is dangerous, so workers must wear helmets."
+    },
+    {
+      "id": "ss14-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The bus service ends at midnight. We need to catch the last bus.",
+      "promptZh": "巴士服務在午夜結束。我們需要趕上尾班車。",
+      "starter": "The",
+      "answer": "The bus service ends at midnight, so we must catch the last bus.",
+      "answerZh": "巴士服務在午夜結束，所以我們必須趕上尾班車。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus service ends at midnight, so we must catch the last bus."
+    },
+    {
+      "id": "ss14-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Heavy rain is expected, making it necessary for the school to cancel outdoor sports.",
+      "promptZh": "預計會有大雨，因此學校有必要取消戶外體育活動。",
+      "starter": "Heavy",
+      "answer": "Heavy rain is expected, so the school must cancel outdoor sports.",
+      "answerZh": "預計會有大雨，所以學校必須取消戶外體育活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Heavy rain is expected, so the school must cancel outdoor sports."
+    },
+    {
+      "id": "ss14-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Anna wants her visa application processed today. She is required to submit all the documents before noon.",
+      "promptZh": "安娜希望今天辦妥簽證申請。她必須在中午前提交所有文件。",
+      "starter": "Anna",
+      "answer": "Anna wants her visa application processed today, so she must submit all the documents before noon.",
+      "answerZh": "安娜希望今天辦妥簽證申請，所以她必須在中午前提交所有文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna wants her visa application processed today, so she must submit all the documents before noon."
+    },
+    {
+      "id": "ss14-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because the galleries are crowded, visitors are required to leave large bags at the entrance.",
+      "promptZh": "由於展覽廳十分擠迫，訪客必須把大型袋子留在入口處。",
+      "starter": "The",
+      "answer": "The galleries are crowded, so visitors must leave large bags at the entrance.",
+      "answerZh": "展覽廳十分擠迫，所以訪客必須把大型袋子留在入口處。",
+      "answerZhSource": "pdf",
+      "highlight": "The galleries are crowded, so visitors must leave large bags at the entrance."
+    },
+    {
+      "id": "ss14-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The food will spoil above five degrees Celsius. Staff therefore have to store it below that temperature.",
+      "promptZh": "食物在五攝氏度以上會變壞。因此，職員必須把食物存放在低於這個溫度的地方。",
+      "starter": "The",
+      "answer": "The food will spoil above five degrees Celsius, so staff must store it below that temperature.",
+      "answerZh": "食物在五攝氏度以上會變壞，所以職員必須把食物存放在低於這個溫度的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The food will spoil above five degrees Celsius, so staff must store it below that temperature."
+    },
+    {
+      "id": "ss14-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why does Leo have to take an umbrella? The forecast says there will be heavy showers.",
+      "promptZh": "里奧為甚麼必須帶雨傘？天氣預報說會有大驟雨。",
+      "starter": "The",
+      "answer": "The forecast says there will be heavy showers, so Leo must take an umbrella.",
+      "answerZh": "天氣預報說會有大驟雨，所以里奧必須帶雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "The forecast says there will be heavy showers, so Leo must take an umbrella."
+    },
+    {
+      "id": "ss14-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Take-off can be rough. For safety, passengers are required to keep their seat belts fastened.",
+      "promptZh": "起飛時可能會顛簸。為了安全，乘客必須扣好安全帶。",
+      "starter": "Take-off",
+      "answer": "Take-off can be rough, so passengers must keep their seat belts fastened.",
+      "answerZh": "起飛時可能會顛簸，所以乘客必須扣好安全帶。",
+      "answerZhSource": "pdf",
+      "highlight": "Take-off can be rough, so passengers must keep their seat belts fastened."
+    },
+    {
+      "id": "ss14-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There are only ten minutes left. It is essential for the team to finish the final slide now.",
+      "promptZh": "只剩下十分鐘。團隊必須立即完成最後一張簡報投影片。",
+      "starter": "There",
+      "answer": "There are only ten minutes left, so the team must finish the final slide now.",
+      "answerZh": "只剩下十分鐘，所以團隊必須立即完成最後一張簡報投影片。",
+      "answerZhSource": "pdf",
+      "highlight": "There are only ten minutes left, so the team must finish the final slide now."
+    },
+    {
+      "id": "ss14-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because the medicine may cause sleepiness, patients have to avoid driving after taking it.",
+      "promptZh": "由於藥物可能令人昏昏欲睡，病人服藥後必須避免駕駛。",
+      "starter": "The",
+      "answer": "The medicine may cause sleepiness, so patients must avoid driving after taking it.",
+      "answerZh": "藥物可能令人昏昏欲睡，所以病人服藥後必須避免駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine may cause sleepiness, so patients must avoid driving after taking it."
+    },
+    {
+      "id": "ss14-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The meeting starts at nine, which means that all staff have to arrive before then.",
+      "promptZh": "會議九時開始，這表示所有職員必須在九時前到達。",
+      "starter": "The",
+      "answer": "The meeting starts at nine, so all staff must arrive before then.",
+      "answerZh": "會議九時開始，所以所有職員必須在九時前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting starts at nine, so all staff must arrive before then."
+    },
+    {
+      "id": "ss14-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Applications received after Friday will not be considered. Therefore, you have to send yours by Friday.",
+      "promptZh": "星期五後收到的申請不會獲考慮。因此，你必須在星期五或之前遞交申請。",
+      "starter": "Applications",
+      "answer": "Applications received after Friday will not be considered, so you must send yours by Friday.",
+      "answerZh": "星期五後收到的申請不會獲考慮，所以你必須在星期五或之前遞交申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Applications received after Friday will not be considered, so you must send yours by Friday."
+    },
+    {
+      "id": "ss14-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because the floor has just been painted, people are not allowed to walk on it.",
+      "promptZh": "由於地板剛油漆好，人們不得在上面行走。",
+      "starter": "The",
+      "answer": "The floor has just been painted, so people must not walk on it.",
+      "answerZh": "地板剛油漆好，所以人們不得在上面行走。",
+      "answerZhSource": "pdf",
+      "highlight": "The floor has just been painted, so people must not walk on it."
+    },
+    {
+      "id": "ss14-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The patient is allergic to penicillin. The doctor therefore has to choose another antibiotic.",
+      "promptZh": "病人對青霉素過敏。因此，醫生必須選用另一種抗生素。",
+      "starter": "The",
+      "answer": "The patient is allergic to penicillin, so the doctor must choose another antibiotic.",
+      "answerZh": "病人對青霉素過敏，所以醫生必須選用另一種抗生素。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient is allergic to penicillin, so the doctor must choose another antibiotic."
+    },
+    {
+      "id": "ss14-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Company policy requires employees to protect the data with a password because it contains private details.",
+      "promptZh": "由於資料包含私人詳情，公司政策要求僱員用密碼加以保護。",
+      "starter": "The",
+      "answer": "The data contains private details, so employees must protect it with a password.",
+      "answerZh": "資料包含私人詳情，所以僱員必須用密碼加以保護。",
+      "answerZhSource": "pdf",
+      "highlight": "The data contains private details, so employees must protect it with a password."
+    },
+    {
+      "id": "ss14-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why do residents have to boil the tap water today? A water pipe was damaged overnight.",
+      "promptZh": "居民今天為甚麼必須把自來水煮沸？一條水管昨晚受損。",
+      "starter": "A",
+      "answer": "A water pipe was damaged overnight, so residents must boil the tap water today.",
+      "answerZh": "一條水管昨晚受損，所以居民今天必須把自來水煮沸。",
+      "answerZhSource": "pdf",
+      "highlight": "A water pipe was damaged overnight, so residents must boil the tap water today."
+    },
+    {
+      "id": "ss14-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The fire exit may be needed in an emergency. It is essential to keep it clear at all times.",
+      "promptZh": "緊急時可能需要使用走火通道。它必須時刻保持暢通。",
+      "starter": "The",
+      "answer": "The fire exit may be needed in an emergency, so it must be kept clear at all times.",
+      "answerZh": "緊急時可能需要使用走火通道，所以它必須時刻保持暢通。",
+      "answerZhSource": "pdf",
+      "highlight": "The fire exit may be needed in an emergency, so it must be kept clear at all times."
+    },
+    {
+      "id": "ss14-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The machine is being repaired. Workers are prohibited from switching it on.",
+      "promptZh": "機器正在維修。工人不得啟動它。",
+      "starter": "The",
+      "answer": "The machine is being repaired, so workers must not switch it on.",
+      "answerZh": "機器正在維修，所以工人不得啟動它。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine is being repaired, so workers must not switch it on."
+    },
+    {
+      "id": "ss14-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Since the village has no clinic, the local council has to arrange a weekly medical service.",
+      "promptZh": "由於村裏沒有診所，地方議會必須安排每週醫療服務。",
+      "starter": "The",
+      "answer": "The village has no clinic, so the local council must arrange a weekly medical service.",
+      "answerZh": "村裏沒有診所，所以地方議會必須安排每週醫療服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The village has no clinic, so the local council must arrange a weekly medical service."
+    },
+    {
+      "id": "ss14-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The upper entrance can only be reached by stairs. Visitors with heavy luggage are required to use the ground-floor entrance.",
+      "promptZh": "上層入口只能經樓梯到達。攜帶沉重行李的訪客必須使用地面層入口。",
+      "starter": "The",
+      "answer": "The upper entrance can only be reached by stairs, so visitors with heavy luggage must use the ground-floor entrance.",
+      "answerZh": "上層入口只能經樓梯到達，所以攜帶沉重行李的訪客必須使用地面層入口。",
+      "answerZhSource": "pdf",
+      "highlight": "The upper entrance can only be reached by stairs, so visitors with heavy luggage must use the ground-floor entrance."
+    },
+    {
+      "id": "ss14-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The river level is rising quickly. Families living near the bank need to move to higher ground.",
+      "promptZh": "河流水位正在迅速上升。住在河岸附近的家庭需要遷往較高地區。",
+      "starter": "The",
+      "answer": "The river level is rising quickly, so families living near the bank must move to higher ground.",
+      "answerZh": "河流水位正在迅速上升，所以住在河岸附近的家庭必須遷往較高地區。",
+      "answerZhSource": "pdf",
+      "highlight": "The river level is rising quickly, so families living near the bank must move to higher ground."
+    },
+    {
+      "id": "ss14-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school needs to protect pupils’ personal information. Therefore, teachers have to lock their screens whenever they leave their desks.",
+      "promptZh": "學校需要保護學生的個人資料。因此，教師每次離開座位時都必須鎖定螢幕。",
+      "starter": "The",
+      "answer": "The school needs to protect pupils’ personal information, so teachers must lock their screens whenever they leave their desks.",
+      "answerZh": "學校需要保護學生的個人資料，所以教師每次離開座位時都必須鎖定螢幕。",
+      "answerZhSource": "pdf",
+      "highlight": "The school needs to protect pupils’ personal information, so teachers must lock their screens whenever they leave their desks."
+    },
+    {
+      "id": "ss14-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As the train is fully booked, travellers have no choice but to reserve seats on the later service.",
+      "promptZh": "由於火車已滿座，旅客只能預訂較後班次的座位。",
+      "starter": "The",
+      "answer": "The train is fully booked, so travellers must reserve seats on the later service.",
+      "answerZh": "火車已滿座，所以旅客必須預訂較後班次的座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The train is fully booked, so travellers must reserve seats on the later service."
+    },
+    {
+      "id": "ss14-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The dessert contains raw eggs, which makes refrigeration essential.",
+      "promptZh": "甜品含有生雞蛋，因此必須冷藏。",
+      "starter": "The",
+      "answer": "The dessert contains raw eggs, so it must be kept refrigerated.",
+      "answerZh": "甜品含有生雞蛋，所以必須冷藏。",
+      "answerZhSource": "pdf",
+      "highlight": "The dessert contains raw eggs, so it must be kept refrigerated."
+    },
+    {
+      "id": "ss14-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because the reservoirs are low, the new rule requires residents to limit their water use.",
+      "promptZh": "由於水塘水位偏低，新規則要求居民限制用水。",
+      "starter": "The",
+      "answer": "The reservoirs are low, so residents must limit their water use.",
+      "answerZh": "水塘水位偏低，所以居民必須限制用水。",
+      "answerZhSource": "pdf",
+      "highlight": "The reservoirs are low, so residents must limit their water use."
+    },
+    {
+      "id": "ss14-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why is the technician required to back up the files first? The software update may delete local data.",
+      "promptZh": "技術員為甚麼必須先備份檔案？軟件更新可能會刪除本機資料。",
+      "starter": "The",
+      "answer": "The software update may delete local data, so the technician must back up the files first.",
+      "answerZh": "軟件更新可能會刪除本機資料，所以技術員必須先備份檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "The software update may delete local data, so the technician must back up the files first."
+    },
+    {
+      "id": "ss14-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Anyone entering the laboratory is required to wear eye protection because chemicals may splash.",
+      "promptZh": "由於化學品可能會濺出，任何進入實驗室的人都必須戴上護目裝備。",
+      "starter": "Chemicals",
+      "answer": "Chemicals may splash, so anyone entering the laboratory must wear eye protection.",
+      "answerZh": "化學品可能會濺出，所以任何進入實驗室的人都必須戴上護目裝備。",
+      "answerZhSource": "pdf",
+      "highlight": "Chemicals may splash, so anyone entering the laboratory must wear eye protection."
+    },
+    {
+      "id": "ss14-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The witness has not finished speaking. The audience is not allowed to interrupt.",
+      "promptZh": "證人尚未發言完畢。觀眾不得打斷。",
+      "starter": "The",
+      "answer": "The witness has not finished speaking, so the audience must not interrupt.",
+      "answerZh": "證人尚未發言完畢，所以觀眾不得打斷。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness has not finished speaking, so the audience must not interrupt."
+    },
+    {
+      "id": "ss14-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop closes at six. To collect the repaired phone today, Carla has to arrive before closing time.",
+      "promptZh": "商店六時關門。卡拉必須在關門前到達，才能在今天取回已修好的手機。",
+      "starter": "The",
+      "answer": "The shop closes at six, so Carla must arrive before closing time to collect the repaired phone today.",
+      "answerZh": "商店六時關門，所以卡拉必須在關門前到達，才能在今天取回已修好的手機。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop closes at six, so Carla must arrive before closing time to collect the repaired phone today."
+    },
+    {
+      "id": "ss14-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The contract cannot take effect without the signatures of both directors.",
+      "promptZh": "合約在欠缺兩名董事簽名的情況下不能生效。",
+      "starter": "The",
+      "answer": "The contract cannot take effect without both signatures, so both directors must sign it.",
+      "answerZh": "合約在欠缺任何一方簽名的情況下不能生效，所以兩名董事都必須簽署。",
+      "answerZhSource": "pdf",
+      "highlight": "The contract cannot take effect without both signatures, so both directors must sign it."
+    },
+    {
+      "id": "ss14-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The road through the tunnel is one-way. Drivers using the north entrance are required to follow the marked arrows.",
+      "promptZh": "隧道內的道路是單程路。從北面入口駛入的駕駛者必須跟隨標示箭嘴。",
+      "starter": "The",
+      "answer": "The road through the tunnel is one-way, so drivers using the north entrance must follow the marked arrows.",
+      "answerZh": "隧道內的道路是單程路，所以從北面入口駛入的駕駛者必須跟隨標示箭嘴。",
+      "answerZhSource": "pdf",
+      "highlight": "The road through the tunnel is one-way, so drivers using the north entrance must follow the marked arrows."
+    },
+    {
+      "id": "ss14-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team needs accurate results. For this reason, every member has to record the measurements in the same unit.",
+      "promptZh": "團隊需要準確結果。因此，每名成員都必須用相同單位記錄測量結果。",
+      "starter": "The",
+      "answer": "The team needs accurate results, so every member must record the measurements in the same unit.",
+      "answerZh": "團隊需要準確結果，所以每名成員都必須用相同單位記錄測量結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The team needs accurate results, so every member must record the measurements in the same unit."
+    },
+    {
+      "id": "ss14-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital’s emergency department is extremely busy tonight. It is therefore essential for patients with minor problems to use the out-of-hours clinic.",
+      "promptZh": "醫院急症室今晚極為繁忙。因此，問題較輕微的病人必須前往夜間門診。",
+      "starter": "The",
+      "answer": "The hospital’s emergency department is extremely busy tonight, so patients with minor problems must use the out-of-hours clinic.",
+      "answerZh": "醫院急症室今晚極為繁忙，所以問題較輕微的病人必須前往夜間門診。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital’s emergency department is extremely busy tonight, so patients with minor problems must use the out-of-hours clinic."
+    },
+    {
+      "id": "ss14-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bridge is being inspected after storm damage. Vehicles over three tonnes are not permitted to cross it.",
+      "promptZh": "大橋因風暴損壞而正在接受檢查。超過三公噸的車輛不得駛過。",
+      "starter": "The",
+      "answer": "The bridge is being inspected after storm damage, so vehicles over three tonnes must not cross it.",
+      "answerZh": "大橋因風暴損壞而正在接受檢查，所以超過三公噸的車輛不得駛過。",
+      "answerZhSource": "pdf",
+      "highlight": "The bridge is being inspected after storm damage, so vehicles over three tonnes must not cross it."
+    },
+    {
+      "id": "ss14-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity has only enough food for registered families. Volunteers are required to check each name before handing out a parcel.",
+      "promptZh": "慈善機構的食物只足夠已登記家庭。義工派發食物包前必須核對每個姓名。",
+      "starter": "The",
+      "answer": "The charity has only enough food for registered families, so volunteers must check each name before handing out a parcel.",
+      "answerZh": "慈善機構的食物只足夠已登記家庭，所以義工派發食物包前必須核對每個姓名。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity has only enough food for registered families, so volunteers must check each name before handing out a parcel."
+    },
+    {
+      "id": "ss14-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several passengers need wheelchair assistance. For this reason, airline staff have to keep the front row clear until boarding is complete.",
+      "promptZh": "多名乘客需要輪椅協助。因此，航空公司職員必須在登機完成前保持前排座位空置。",
+      "starter": "Several",
+      "answer": "Several passengers need wheelchair assistance, so airline staff must keep the front row clear until boarding is complete.",
+      "answerZh": "多名乘客需要輪椅協助，所以航空公司職員必須在登機完成前保持前排座位空置。",
+      "answerZhSource": "pdf",
+      "highlight": "Several passengers need wheelchair assistance, so airline staff must keep the front row clear until boarding is complete."
+    },
+    {
+      "id": "ss14-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The research includes children. Ethical guidelines require the team to obtain permission from each parent or guardian.",
+      "promptZh": "研究涉及兒童。道德指引要求團隊取得每名家長或監護人的同意。",
+      "starter": "The",
+      "answer": "The research includes children, so the team must obtain permission from each parent or guardian.",
+      "answerZh": "研究涉及兒童，所以團隊必須取得每名家長或監護人的同意。",
+      "answerZhSource": "pdf",
+      "highlight": "The research includes children, so the team must obtain permission from each parent or guardian."
+    },
+    {
+      "id": "ss14-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why are all departments required to update the shared calendar? Several deadlines have changed, and everyone needs the same information.",
+      "promptZh": "所有部門為甚麼必須更新共用日曆？多個截止日期已更改，而每個人都需要相同資料。",
+      "starter": "Several",
+      "answer": "Several deadlines have changed and everyone needs the same information, so all departments must update the shared calendar.",
+      "answerZh": "多個截止日期已更改，而每個人都需要相同資料，所以所有部門必須更新共用日曆。",
+      "answerZhSource": "pdf",
+      "highlight": "Several deadlines have changed and everyone needs the same information, so all departments must update the shared calendar."
+    },
+    {
+      "id": "ss14-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The old files contain confidential client information. Staff are strictly prohibited from throwing them into ordinary rubbish bins.",
+      "promptZh": "舊檔案載有機密客戶資料。職員嚴禁把它們丟進普通垃圾桶。",
+      "starter": "The",
+      "answer": "The old files contain confidential client information, so staff must not throw them into ordinary rubbish bins.",
+      "answerZh": "舊檔案載有機密客戶資料，所以職員不得把它們丟進普通垃圾桶。",
+      "answerZhSource": "pdf",
+      "highlight": "The old files contain confidential client information, so staff must not throw them into ordinary rubbish bins."
+    },
+    {
+      "id": "ss14-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The town expects more visitors during the festival weekend. To prevent long queues, the transport department has to add extra buses and publish the revised timetable in advance.",
+      "promptZh": "小鎮預計節慶週末會有更多訪客。為免出現長隊，運輸部門必須增派巴士，並預先公布修訂時間表。",
+      "starter": "The",
+      "answer": "The town expects more visitors during the festival weekend, so the transport department must add extra buses and publish the revised timetable in advance to prevent long queues.",
+      "answerZh": "小鎮預計節慶週末會有更多訪客，所以運輸部門必須增派巴士，並預先公布修訂時間表，以免出現長隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The town expects more visitors during the festival weekend, so the transport department must add extra buses and publish the revised timetable in advance to prevent long queues."
+    },
+    {
+      "id": "ss14-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school plans to use online examinations next term. Before that can happen, it is essential for the technical team to test the system under heavy demand.",
+      "promptZh": "學校計劃下學期使用網上考試。在實行前，技術團隊必須測試系統承受大量使用的能力。",
+      "starter": "The",
+      "answer": "The school plans to use online examinations next term, so the technical team must test the system under heavy demand before then.",
+      "answerZh": "學校計劃下學期使用網上考試，所以技術團隊必須在此之前測試系統承受大量使用的能力。",
+      "answerZhSource": "pdf",
+      "highlight": "The school plans to use online examinations next term, so the technical team must test the system under heavy demand before then."
+    },
+    {
+      "id": "ss14-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Public funds are limited, and several essential services need support. The government therefore has a duty to review every proposal carefully and spend taxpayers’ money wisely.",
+      "promptZh": "公共資金有限，而多項必要服務都需要支援。因此，政府有責任仔細審視每項建議，並明智地使用納稅人的金錢。",
+      "starter": "Public",
+      "answer": "Public funds are limited and several essential services need support, so the government must review every proposal carefully and spend taxpayers’ money wisely.",
+      "answerZh": "公共資金有限，而多項必要服務都需要支援，所以政府必須仔細審視每項建議，並明智地使用納稅人的金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Public funds are limited and several essential services need support, so the government must review every proposal carefully and spend taxpayers’ money wisely."
+    }
+  ]
+}

@@ -1,0 +1,1219 @@
+{
+  "id": "ss25",
+  "order": 25,
+  "slug": "wh-non-specific-clause",
+  "title": "「WH 非指定句」句型",
+  "titleZh": "「WH 非指定句」表達未知或未直接說明的內容",
+  "titleEn": "Using WH non-specific clauses for unknown or unspecified information",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 25 - 「WH 非指定句」表達未知或未直接說明的內容.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Main clause + WH-word + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss25-formula-after-main-clause",
+      "labelEn": "WH non-specific clause after the main clause",
+      "labelZh": "WH 非指定句放在主要句子後",
+      "formula": "Main clause + WH-word + subject + verb + other information"
+    },
+    {
+      "id": "ss25-formula-clause-first",
+      "labelEn": "Whole WH non-specific clause first",
+      "labelZh": "整個 WH 非指定句放在句首",
+      "formula": "WH-clause + main verb + other information"
+    },
+    {
+      "id": "ss25-formula-wh-subject",
+      "labelEn": "WH-word as the subject of the clause",
+      "labelZh": "WH-word 本身是子句的主語",
+      "formula": "what / who + verb + other information"
+    }
+  ],
+  "example": "Local culture shapes what counts as respect.",
+  "exampleZh": "當地文化決定了甚麼才算是尊重。",
+  "examples": [
+    {
+      "id": "ss25-example-01",
+      "en": "Local culture shapes what counts as respect.",
+      "zh": "當地文化決定了甚麼才算是尊重。",
+      "highlight": "what counts as respect"
+    },
+    {
+      "id": "ss25-example-02",
+      "en": "I do not know what she is.",
+      "zh": "我不知道她是甚麼身分。",
+      "highlight": "what she is"
+    },
+    {
+      "id": "ss25-example-03",
+      "en": "Daily activities reveal how society really works.",
+      "zh": "日常活動揭示社會究竟如何運作。",
+      "highlight": "how society really works"
+    }
+  ],
+  "meaning": {
+    "en": "A WH non-specific clause, also called a WH noun clause or embedded WH-clause, uses what, who, where, when, why, how, which or whose to introduce information that is not directly specified. The whole clause functions as one piece of information in the larger sentence.",
+    "zh": "WH 非指定句亦可稱為 WH 名詞子句（WH noun clause / embedded WH-clause）。它使用 what、who、where、when、why、how、which 或 whose，引入一段未直接指定的內容，並讓整個 WH 非指定句在大句子中充當一項資料。",
+    "enSource": "editorial-translation",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss25-benefit-01",
+      "en": "It puts an unknown detail inside a complete sentence.",
+      "zh": "可以把未知的人、事物、地方、時間、原因或方法，直接放進一個完整句子中。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss25-benefit-02",
+      "en": "It reports a question without asking it directly, which is useful in explanations, reports, discussions and polite enquiries.",
+      "zh": "可以轉述一條問題，而不是直接向對方發問；這在解釋、報告、討論和禮貌查詢時都很實用。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss25-benefit-03",
+      "en": "It joins two short ideas into one smoother sentence.",
+      "zh": "能把「一條問題」和「知道、解釋、發現、決定」等意思合併，避免句子過短和零碎。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss25-benefit-04",
+      "en": "It avoids repeating vague phrases such as the thing, the person, the place, the reason or the way.",
+      "zh": "避免重複 the thing、the person、the place、the reason 或 the way；使用 what、who、where、why 或 how，句子會更直接。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss25-benefit-05",
+      "en": "It helps you explain ideas and evidence clearly in compositions, reports, presentations and spoken answers.",
+      "zh": "在作文、報告、簡報和口語回答中，能幫助清楚說明「真正發生甚麼」、「原因是甚麼」或「事情如何運作」。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss25-rule-01",
+      "en": "Use statement word order in a WH non-specific clause.",
+      "zh": "WH 非指定句使用陳述句語序。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Direct question: Where does Maya work?",
+        "WH clause: I know where Maya works.",
+        "Incorrect: I know where does Maya work."
+      ]
+    },
+    {
+      "id": "ss25-rule-02",
+      "en": "Do not retain do, does or did inside a WH non-specific clause.",
+      "zh": "不要在 WH 非指定句中保留 do、does 或 did。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Direct question: Why did he leave?",
+        "WH clause: We know why he left."
+      ]
+    },
+    {
+      "id": "ss25-rule-03",
+      "en": "When the WH-word is itself the subject, place the verb directly after it; do not add he, she or it.",
+      "zh": "當 WH-word 本身是主語時，後面直接接動詞；不要另外加入 he、she 或 it。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "I know who called.",
+        "What caused the delay is still unclear."
+      ]
+    },
+    {
+      "id": "ss25-rule-04",
+      "en": "The punctuation is determined by the whole sentence. A statement ends with a full stop, while a complete question ends with a question mark.",
+      "zh": "問號由整個句子決定。陳述句使用句號；整體是一條問題時使用問號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "I know where he lives.",
+        "Do you know where he lives?"
+      ]
+    },
+    {
+      "id": "ss25-rule-05",
+      "en": "Choose the correct WH-word: what for a thing or content; who for a person; where for a place; when for a time; why for a reason; how for a method, degree or situation; which for choosing from known options; and whose for possession.",
+      "zh": "選擇正確的 WH-word：what 表示事物或內容；who 表示人；where 表示地點；when 表示時間；why 表示原因；how 表示方法、程度或情況；which 表示從已知選項中選擇；whose 表示所屬關係。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss25-rule-06",
+      "en": "What she is and who she is are different. What she is normally asks about identity type, occupation or role; who she is normally asks for the person’s actual identity or name.",
+      "zh": "what she is 和 who she is 並不相同。what she is 通常問身分、職業、角色或類型；who she is 通常問那個人的真正身分或姓名。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss25-rule-07",
+      "en": "A WH non-specific clause is not an ordinary relative clause. A relative clause describes an already specified noun, whereas a WH non-specific clause itself represents the unspecified person or thing.",
+      "zh": "WH 非指定句不是普通關係子句。關係子句描述已指定的名詞；WH 非指定句本身已代表未指定的人或事物。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Relative clause: I found the book that Mia bought.",
+        "WH non-specific clause: I know what Mia bought."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each prompt as one sentence using a WH non-specific clause. Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 WH 非指定句，把每組句子改寫成一句，並保留原意。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss25-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What is the answer? I do not know.",
+      "promptZh": "答案是甚麼？我不知道。",
+      "starter": "I",
+      "answer": "I do not know what the answer is.",
+      "answerZh": "我不知道答案是甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not know what the answer is."
+    },
+    {
+      "id": "ss25-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Where does Ben live? Mia knows the answer.",
+      "promptZh": "本住在哪裏？米婭知道答案。",
+      "starter": "Mia",
+      "answer": "Mia knows where Ben lives.",
+      "answerZh": "米婭知道本住在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia knows where Ben lives."
+    },
+    {
+      "id": "ss25-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When does the shop close? We remember the time.",
+      "promptZh": "商店甚麼時候關門？我們記得時間。",
+      "starter": "We",
+      "answer": "We remember when the shop closes.",
+      "answerZh": "我們記得商店甚麼時候關門。",
+      "answerZhSource": "pdf",
+      "highlight": "We remember when the shop closes."
+    },
+    {
+      "id": "ss25-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why is this rule important? The teacher explained the reason.",
+      "promptZh": "這條規則為甚麼重要？老師解釋了原因。",
+      "starter": "The",
+      "answer": "The teacher explained why this rule is important.",
+      "answerZh": "老師解釋了為甚麼這條規則很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher explained why this rule is important."
+    },
+    {
+      "id": "ss25-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "How does the machine work? Leo showed me.",
+      "promptZh": "這部機器如何運作？里奧向我展示了。",
+      "starter": "Leo",
+      "answer": "Leo showed me how the machine works.",
+      "answerZh": "里奧向我展示這部機器如何運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo showed me how the machine works."
+    },
+    {
+      "id": "ss25-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Who left the note? Nobody knows.",
+      "promptZh": "是誰留下字條？沒有人知道。",
+      "starter": "Nobody",
+      "answer": "Nobody knows who left the note.",
+      "answerZh": "沒有人知道是誰留下字條。",
+      "answerZhSource": "pdf",
+      "highlight": "Nobody knows who left the note."
+    },
+    {
+      "id": "ss25-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Which bag is better? I cannot decide.",
+      "promptZh": "哪個袋比較好？我無法決定。",
+      "starter": "I",
+      "answer": "I cannot decide which bag is better.",
+      "answerZh": "我無法決定哪個袋比較好。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot decide which bag is better."
+    },
+    {
+      "id": "ss25-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Where are the toilets? The map shows their location.",
+      "promptZh": "洗手間在哪裏？地圖顯示它們的位置。",
+      "starter": "The",
+      "answer": "The map shows where the toilets are.",
+      "answerZh": "地圖顯示洗手間在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The map shows where the toilets are."
+    },
+    {
+      "id": "ss25-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What do you need? Please tell me.",
+      "promptZh": "你需要甚麼？請告訴我。",
+      "starter": "Please",
+      "answer": "Please tell me what you need.",
+      "answerZh": "請告訴我你需要甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "Please tell me what you need."
+    },
+    {
+      "id": "ss25-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "How do people organise their time? Daily routines reveal this.",
+      "promptZh": "人們如何安排時間？日常作息揭示了這一點。",
+      "starter": "Daily",
+      "answer": "Daily routines reveal how people organise their time.",
+      "answerZh": "日常作息揭示人們如何安排時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Daily routines reveal how people organise their time."
+    },
+    {
+      "id": "ss25-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When does the last bus leave? The guide told us the time.",
+      "promptZh": "尾班巴士甚麼時候開出？導遊告訴了我們時間。",
+      "starter": "The",
+      "answer": "The guide told us when the last bus leaves.",
+      "answerZh": "導遊告訴我們尾班巴士何時開出。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide told us when the last bus leaves."
+    },
+    {
+      "id": "ss25-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why was her brother upset? Sarah understands the reason.",
+      "promptZh": "她的弟弟為甚麼不開心？莎拉明白原因。",
+      "starter": "Sarah",
+      "answer": "Sarah understands why her brother was upset.",
+      "answerZh": "莎拉明白她的弟弟為甚麼不開心。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah understands why her brother was upset."
+    },
+    {
+      "id": "ss25-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Who is responsible for the mistake? I am not sure.",
+      "promptZh": "誰應該為這個錯誤負責？我不確定。",
+      "starter": "I",
+      "answer": "I am not sure who is responsible for the mistake.",
+      "answerZh": "我不確定誰應該為這個錯誤負責。",
+      "answerZhSource": "pdf",
+      "highlight": "I am not sure who is responsible for the mistake."
+    },
+    {
+      "id": "ss25-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Where should visitors wait? The notice explains the correct place.",
+      "promptZh": "訪客應該在哪裏等候？告示說明了正確地點。",
+      "starter": "The",
+      "answer": "The notice explains where visitors should wait.",
+      "answerZh": "告示說明訪客應該在哪裏等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The notice explains where visitors should wait."
+    },
+    {
+      "id": "ss25-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "How much does the course cost? The website shows the price.",
+      "promptZh": "課程費用是多少？網站顯示價格。",
+      "starter": "The",
+      "answer": "The website shows how much the course costs.",
+      "answerZh": "網站顯示課程費用是多少。",
+      "answerZhSource": "pdf",
+      "highlight": "The website shows how much the course costs."
+    },
+    {
+      "id": "ss25-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How many students will attend? We need to find out the number.",
+      "promptZh": "會有多少名學生出席？我們需要查明人數。",
+      "starter": "We",
+      "answer": "We need to find out how many students will attend.",
+      "answerZh": "我們需要查明會有多少名學生出席。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to find out how many students will attend."
+    },
+    {
+      "id": "ss25-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The nurse wants to know the exact location of the pain.",
+      "promptZh": "護士想知道痛楚的確實位置。",
+      "starter": "The",
+      "answer": "The nurse wants to know where the pain is.",
+      "answerZh": "護士想知道痛楚在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse wants to know where the pain is."
+    },
+    {
+      "id": "ss25-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How should this button be used? Can you explain it?",
+      "promptZh": "這個按鈕應該如何使用？你可以解釋嗎？",
+      "starter": "Can",
+      "answer": "Can you explain how this button should be used?",
+      "answerZh": "你可以解釋這個按鈕應該如何使用嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you explain how this button should be used?"
+    },
+    {
+      "id": "ss25-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team must follow one of three plans. The manager has not decided on one.",
+      "promptZh": "團隊必須採用三個計劃中的一個。經理尚未決定採用哪一個。",
+      "starter": "The",
+      "answer": "The manager has not decided which plan the team will follow.",
+      "answerZh": "經理尚未決定團隊將採用哪個計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager has not decided which plan the team will follow."
+    },
+    {
+      "id": "ss25-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The next thing that happens depends on the weather.",
+      "promptZh": "接下來發生的事情取決於天氣。",
+      "starter": "What",
+      "answer": "What happens next depends on the weather.",
+      "answerZh": "接下來會發生甚麼，取決於天氣。",
+      "answerZhSource": "pdf",
+      "highlight": "What happens next depends on the weather."
+    },
+    {
+      "id": "ss25-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The identity of the person who damaged the gate is unknown. The police are trying to discover it.",
+      "promptZh": "破壞閘門者的身分仍然不明。警方正嘗試查明其身分。",
+      "starter": "The",
+      "answer": "The police are trying to discover who damaged the gate.",
+      "answerZh": "警方正嘗試查明是誰破壞了閘門。",
+      "answerZhSource": "pdf",
+      "highlight": "The police are trying to discover who damaged the gate."
+    },
+    {
+      "id": "ss25-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The report describes the way the accident happened.",
+      "promptZh": "報告描述事故發生的方式。",
+      "starter": "The",
+      "answer": "The report describes how the accident happened.",
+      "answerZh": "報告描述事故是如何發生的。",
+      "answerZhSource": "pdf",
+      "highlight": "The report describes how the accident happened."
+    },
+    {
+      "id": "ss25-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The meeting should begin at a certain time. We have not agreed on that time.",
+      "promptZh": "會議應該在某個時間開始。我們尚未就那個時間達成共識。",
+      "starter": "We",
+      "answer": "We have not agreed on when the meeting should begin.",
+      "answerZh": "我們尚未就會議應該何時開始達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "We have not agreed on when the meeting should begin."
+    },
+    {
+      "id": "ss25-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lights had gone out for a reason. The children wondered about the reason.",
+      "promptZh": "燈是因某個原因而熄滅的。孩子們想知道那個原因。",
+      "starter": "The",
+      "answer": "The children wondered why the lights had gone out.",
+      "answerZh": "孩子們想知道為甚麼燈熄滅了。",
+      "answerZhSource": "pdf",
+      "highlight": "The children wondered why the lights had gone out."
+    },
+    {
+      "id": "ss25-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The chart identifies the age group that uses the service most.",
+      "promptZh": "圖表指出最常使用這項服務的年齡組別。",
+      "starter": "The",
+      "answer": "The chart identifies which age group uses the service most.",
+      "answerZh": "圖表指出哪個年齡組別最常使用這項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The chart identifies which age group uses the service most."
+    },
+    {
+      "id": "ss25-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The receptionist asked about the length of time I had been waiting.",
+      "promptZh": "接待員問及我的等候時間。",
+      "starter": "The",
+      "answer": "The receptionist asked how long I had been waiting.",
+      "answerZh": "接待員問我已經等候了多久。",
+      "answerZhSource": "pdf",
+      "highlight": "The receptionist asked how long I had been waiting."
+    },
+    {
+      "id": "ss25-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach explained the area that each player needed to improve.",
+      "promptZh": "教練解釋了每名球員需要改善的地方。",
+      "starter": "The",
+      "answer": "The coach explained what each player needed to improve.",
+      "answerZh": "教練解釋了每名球員需要改善甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach explained what each player needed to improve."
+    },
+    {
+      "id": "ss25-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new library will be built in a certain place. The school has not announced the place.",
+      "promptZh": "新圖書館將在某個地點興建。學校尚未公布該地點。",
+      "starter": "The",
+      "answer": "The school has not announced where the new library will be built.",
+      "answerZh": "學校尚未公布新圖書館將在哪裏興建。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has not announced where the new library will be built."
+    },
+    {
+      "id": "ss25-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The way in which the problem started is still unclear.",
+      "promptZh": "問題開始的方式仍不清楚。",
+      "starter": "How",
+      "answer": "How the problem started is still unclear.",
+      "answerZh": "問題是如何開始的仍不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "How the problem started is still unclear."
+    },
+    {
+      "id": "ss25-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The definition of fair treatment can differ between cultures.",
+      "promptZh": "公平待遇的定義可以因文化而異。",
+      "starter": "What",
+      "answer": "What counts as fair treatment can differ between cultures.",
+      "answerZh": "甚麼才算公平待遇可因文化而異。",
+      "answerZhSource": "pdf",
+      "highlight": "What counts as fair treatment can differ between cultures."
+    },
+    {
+      "id": "ss25-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How often do residents use the park? The survey reveals the answer.",
+      "promptZh": "居民多久使用一次公園？調查揭示了答案。",
+      "starter": "The",
+      "answer": "The survey reveals how often residents use the park.",
+      "answerZh": "調查顯示居民多久使用一次公園。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey reveals how often residents use the park."
+    },
+    {
+      "id": "ss25-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The computer suddenly stopped for an unknown reason. No one can explain the reason.",
+      "promptZh": "電腦因不明原因突然停止運作。沒有人能解釋原因。",
+      "starter": "No",
+      "answer": "No one can explain why the computer suddenly stopped.",
+      "answerZh": "沒有人能解釋電腦為甚麼突然停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "No one can explain why the computer suddenly stopped."
+    },
+    {
+      "id": "ss25-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The project needs a certain amount of money. The committee must decide the amount.",
+      "promptZh": "項目需要某個金額的資金。委員會必須決定該金額。",
+      "starter": "The",
+      "answer": "The committee must decide how much money the project needs.",
+      "answerZh": "委員會必須決定項目需要多少資金。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee must decide how much money the project needs."
+    },
+    {
+      "id": "ss25-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor told me the foods that I should avoid eating.",
+      "promptZh": "醫生告訴我應該避免進食的食物。",
+      "starter": "The",
+      "answer": "The doctor told me what I should avoid eating.",
+      "answerZh": "醫生告訴我應該避免吃甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor told me what I should avoid eating."
+    },
+    {
+      "id": "ss25-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Where did we park the car? Do you remember?",
+      "promptZh": "我們把車泊在哪裏？你記得嗎？",
+      "starter": "Do",
+      "answer": "Do you remember where we parked the car?",
+      "answerZh": "你記得我們把車泊在哪裏嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you remember where we parked the car?"
+    },
+    {
+      "id": "ss25-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The article explores the way social media changes friendships.",
+      "promptZh": "文章探討社交媒體改變友誼的方式。",
+      "starter": "The",
+      "answer": "The article explores how social media changes friendships.",
+      "answerZh": "文章探討社交媒體如何改變友誼。",
+      "answerZhSource": "pdf",
+      "highlight": "The article explores how social media changes friendships."
+    },
+    {
+      "id": "ss25-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The identity of the people who receive support depends on the programme's rules.",
+      "promptZh": "獲得支援者的身分取決於計劃的規則。",
+      "starter": "Who",
+      "answer": "Who receives support depends on the programme's rules.",
+      "answerZh": "誰能獲得支援，取決於計劃的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Who receives support depends on the programme's rules."
+    },
+    {
+      "id": "ss25-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The final price depends on the number of changes requested by the customer.",
+      "promptZh": "最終價格取決於顧客要求的改動數量。",
+      "starter": "The",
+      "answer": "The final price depends on how many changes the customer requests.",
+      "answerZh": "最終價格取決於顧客要求作出多少項改動。",
+      "answerZhSource": "pdf",
+      "highlight": "The final price depends on how many changes the customer requests."
+    },
+    {
+      "id": "ss25-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Whose notebook is on the floor? The teacher asked.",
+      "promptZh": "地上的筆記簿是誰的？老師問道。",
+      "starter": "The",
+      "answer": "The teacher asked whose notebook was on the floor.",
+      "answerZh": "老師問地上的筆記簿是誰的。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher asked whose notebook was on the floor."
+    },
+    {
+      "id": "ss25-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The road will reopen at an unknown time. We cannot predict it.",
+      "promptZh": "道路將在一個未知時間重開。我們無法預測該時間。",
+      "starter": "We",
+      "answer": "We cannot predict when the road will reopen.",
+      "answerZh": "我們無法預測道路何時重開。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot predict when the road will reopen."
+    },
+    {
+      "id": "ss25-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Local culture shapes the standards for respect.",
+      "promptZh": "當地文化塑造人們對尊重的標準。",
+      "starter": "Local",
+      "answer": "Local culture shapes what counts as respect.",
+      "answerZh": "當地文化決定了甚麼才算是尊重。",
+      "answerZhSource": "pdf",
+      "highlight": "Local culture shapes what counts as respect."
+    },
+    {
+      "id": "ss25-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The training manual explains the correct response for staff when a customer is angry.",
+      "promptZh": "培訓手冊解釋員工在顧客生氣時的正確回應方式。",
+      "starter": "The",
+      "answer": "The training manual explains how staff should respond when a customer is angry.",
+      "answerZh": "培訓手冊解釋員工在顧客生氣時應如何回應。",
+      "answerZhSource": "pdf",
+      "highlight": "The training manual explains how staff should respond when a customer is angry."
+    },
+    {
+      "id": "ss25-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The lessons that the team learns from failure may matter more than the result.",
+      "promptZh": "團隊從失敗中汲取的教訓，可能比結果更重要。",
+      "starter": "What",
+      "answer": "What the team learns from failure may matter more than the result.",
+      "answerZh": "團隊從失敗中學到的東西，可能比結果更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "What the team learns from failure may matter more than the result."
+    },
+    {
+      "id": "ss25-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Some patients wait longer than others for a reason. The hospital is reviewing that reason.",
+      "promptZh": "有些病人比其他人等候更久，背後有其原因。醫院正在檢討該原因。",
+      "starter": "The",
+      "answer": "The hospital is reviewing why some patients wait longer than others.",
+      "answerZh": "醫院正在檢討為甚麼有些病人等候得比其他人久。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is reviewing why some patients wait longer than others."
+    },
+    {
+      "id": "ss25-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new cycle path should end at a certain place. The council has not decided on the place.",
+      "promptZh": "新單車徑應該在某個地點終結。議會尚未決定該地點。",
+      "starter": "The",
+      "answer": "The council has not decided where the new cycle path should end.",
+      "answerZh": "議會尚未決定新單車徑應在哪裏終結。",
+      "answerZhSource": "pdf",
+      "highlight": "The council has not decided where the new cycle path should end."
+    },
+    {
+      "id": "ss25-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The way people use public space reveals the true working of the community.",
+      "promptZh": "人們使用公共空間的方式，揭示了社區的真實運作。",
+      "starter": "How",
+      "answer": "How people use public space reveals how the community really works.",
+      "answerZh": "人們如何使用公共空間，揭示了社區真正如何運作。",
+      "answerZhSource": "pdf",
+      "highlight": "How people use public space reveals how the community really works."
+    },
+    {
+      "id": "ss25-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several factors affect sleep. The research team is examining the one with the greatest effect.",
+      "promptZh": "數個因素會影響睡眠。研究團隊正在研究影響最大的一個。",
+      "starter": "The",
+      "answer": "The research team is examining which factor has the greatest effect on sleep.",
+      "answerZh": "研究團隊正在研究哪個因素對睡眠的影響最大。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team is examining which factor has the greatest effect on sleep."
+    },
+    {
+      "id": "ss25-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Something prevents some employees from asking for help. We need to understand it.",
+      "promptZh": "某些因素阻礙部分僱員尋求協助。我們需要了解該因素。",
+      "starter": "We",
+      "answer": "We need to understand what prevents some employees from asking for help.",
+      "answerZh": "我們需要了解甚麼阻礙部分僱員尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to understand what prevents some employees from asking for help."
+    },
+    {
+      "id": "ss25-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The right amount of online freedom for children remains a difficult question.",
+      "promptZh": "兒童在網上自由的適當程度，仍然是一個難以回答的問題。",
+      "starter": "How",
+      "answer": "How much freedom children should have online remains a difficult question.",
+      "answerZh": "兒童在網上應有多少自由，仍然是一個難題。",
+      "answerZhSource": "pdf",
+      "highlight": "How much freedom children should have online remains a difficult question."
+    },
+    {
+      "id": "ss25-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The things a society chooses to protect reveal the things it values most.",
+      "promptZh": "一個社會選擇保護的事物，會揭示它最重視的事物。",
+      "starter": "What",
+      "answer": "What a society chooses to protect reveals what it values most.",
+      "answerZh": "一個社會選擇保護甚麼，便揭示了它最重視甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "What a society chooses to protect reveals what it values most."
+    }
+  ]
+}

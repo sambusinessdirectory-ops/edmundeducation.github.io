@@ -1,0 +1,1153 @@
+{
+  "id": "ss21",
+  "order": 21,
+  "slug": "not-even",
+  "title": "「Not even 句」句型",
+  "titleZh": "「Not even 句」",
+  "titleEn": "Using Not even to strengthen a negative statement",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 21 -「Not even 句」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation.",
+      "Physical page 21 is blank and is therefore excluded from lessonPages, exercisePages and answerPages."
+    ]
+  },
+  "formula": "Subject + do / does / did + not even + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss21-formula-general-verb",
+      "labelEn": "General verb",
+      "labelZh": "一般動詞",
+      "formula": "Subject + do / does / did + not even + base verb + other information"
+    },
+    {
+      "id": "ss21-formula-modal",
+      "labelEn": "Modal verb",
+      "labelZh": "情態動詞",
+      "formula": "Subject + modal verb + not even + base verb + other information"
+    },
+    {
+      "id": "ss21-formula-be",
+      "labelEn": "Be verb",
+      "labelZh": "Be 動詞",
+      "formula": "Subject + be + not even + adjective / noun phrase / other information"
+    },
+    {
+      "id": "ss21-formula-perfect",
+      "labelEn": "Perfect tense",
+      "labelZh": "完成時態",
+      "formula": "Subject + have / has / had + not even + past participle + other information"
+    },
+    {
+      "id": "ss21-formula-focused-subject",
+      "labelEn": "Most surprising person or thing first",
+      "labelZh": "把最令人意外的人或事物放在句首",
+      "formula": "Not even + noun phrase + verb + other information"
+    }
+  ],
+  "example": "In the past, when TV was not even popular, people enjoyed their lives by socialising with one another.",
+  "exampleZh": "在過去，當電視甚至還未普及的時候，人們透過互相交往來享受生活。",
+  "examples": [
+    {
+      "id": "ss21-example-01",
+      "en": "She did not even read the first page.",
+      "zh": "她連第一頁也沒有閱讀。",
+      "highlight": "not even read"
+    },
+    {
+      "id": "ss21-example-02",
+      "en": "He could not even stand.",
+      "zh": "他連站立也做不到。",
+      "highlight": "not even stand"
+    },
+    {
+      "id": "ss21-example-03",
+      "en": "The water was not even warm.",
+      "zh": "水甚至連暖也稱不上。",
+      "highlight": "not even warm"
+    },
+    {
+      "id": "ss21-example-04",
+      "en": "They have not even started the meeting.",
+      "zh": "他們甚至還未開始會議。",
+      "highlight": "not even started"
+    },
+    {
+      "id": "ss21-example-05",
+      "en": "Not even the teacher knew the answer.",
+      "zh": "連老師也不知道答案。",
+      "highlight": "Not even the teacher"
+    },
+    {
+      "id": "ss21-example-06",
+      "en": "In the past, when TV was not even popular, people enjoyed their lives by socialising with one another.",
+      "zh": "在過去，當電視甚至還未普及的時候，人們透過互相交往來享受生活。",
+      "highlight": "not even popular"
+    }
+  ],
+  "meaning": {
+    "en": "Not even strengthens a negative statement by showing that something very basic, easy, likely or minimally expected did not happen or is not true. It often conveys surprise, disappointment, criticism or emphasis.",
+    "zh": "Not even 用來加強否定語氣，表示一件非常基本、非常容易、最有可能或最低限度應該發生的事情，也沒有發生或並不成立。它通常帶有驚訝、失望、批評或強調的語氣。",
+    "enSource": "editorial-translation",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss21-benefit-01",
+      "en": "It makes the strength of the negative meaning clear by showing that the missing event or item was very basic, easy or expected.",
+      "zh": "讓否定語氣更加清楚：不只是表示某件事沒有發生，還能讓讀者知道，沒有發生的事情其實非常基本、容易或值得期待。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss21-benefit-02",
+      "en": "It highlights the lowest or simplest expectation and can show that someone failed to complete even the easiest step.",
+      "zh": "突出最低或最基本的要求，指出某人連最簡單的一步也沒有完成。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss21-benefit-03",
+      "en": "It makes descriptions and opinions more vivid by naturally conveying surprise, disappointment or criticism.",
+      "zh": "令描述和意見更有畫面，自然表達驚訝、失望或批評。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss21-benefit-04",
+      "en": "It can replace a longer explanation of how something failed to perform its most basic task.",
+      "zh": "可以縮短較長的解釋，不必使用「連最基本的事情也無法做到」等較長說法。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss21-benefit-05",
+      "en": "It provides useful speaking and writing frames such as “I did not even...”, “She could not even...”, “They have not even...”, “It was not even...” and “Not even the...”.",
+      "zh": "提供實用的說話及寫作框架，例如「I did not even...」、「She could not even...」、「They have not even...」、「It was not even...」及「Not even the...」。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss21-rule-01",
+      "en": "Place not even before the part you want to emphasise.",
+      "zh": "Not even 要放在想強調的部分之前。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "She did not even call me.",
+        "The room was not even clean.",
+        "Not even one student answered."
+      ]
+    },
+    {
+      "id": "ss21-rule-02",
+      "en": "After do, does or did, use the base form of the verb.",
+      "zh": "使用 do、does 或 did 時，後面的動詞須使用原形。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: He did not even read the message.",
+        "Incorrect: He did not even readed the message."
+      ]
+    },
+    {
+      "id": "ss21-rule-03",
+      "en": "With a modal verb or perfect tense, place not even after the first auxiliary verb.",
+      "zh": "情態動詞或完成時態中，not even 放在第一個助動詞之後。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "She could not even move.",
+        "They have not even arrived.",
+        "The work had not even begun."
+      ]
+    },
+    {
+      "id": "ss21-rule-04",
+      "en": "When Not even + person or thing is the subject, do not use inversion. This lesson does not cover advanced inversion such as “Not even once did he apologise.”",
+      "zh": "Not even + 人或事物作主語時，不需要倒裝。本練習不包括「Not even once did he apologise.」等較高階的倒裝句。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: Not even the manager understood the problem.",
+        "Incorrect: Not even the manager did understand the problem."
+      ]
+    },
+    {
+      "id": "ss21-rule-05",
+      "en": "Do not turn every ordinary negative sentence into not even. Use it only when the missing or untrue point is surprisingly basic or expected.",
+      "zh": "不要把每一個普通否定句都改成 not even。只有當句子帶有「這一點也沒有，實在令人意外」的意思時，才適合使用 not even。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "He does not like coffee.",
+        "He does not even like coffee, although he works in a café."
+      ]
+    },
+    {
+      "id": "ss21-rule-06",
+      "en": "Not even strengthens a negative meaning. Even though means “although”, even if introduces a hypothetical condition, and not only adds another piece of information.",
+      "zh": "not even 加強否定，表示「連……也不」；even though 表示「儘管」；even if 表示「即使」，提出一個假設條件；not only 表示「不但」，用來加入另一項資料。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "He did not even reply.",
+        "Even though he was tired, he continued working.",
+        "Even if it rains, we will go.",
+        "She is not only patient but also helpful."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation.",
+    "Physical page 21 is blank and is therefore excluded from lessonPages, exercisePages and answerPages."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using not even to emphasise the surprising or minimum negative fact.",
+      "Keep the important meaning and tense of the original sentence.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 not even 改寫以下句子，突出「連最基本、最容易或最有可能的事情也沒有發生或並不成立」。",
+      "保留原句的重要意思和時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss21-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Mia received the important message but failed to open it.",
+      "promptZh": "米婭收到那則重要訊息，卻沒有把它打開。",
+      "starter": "Mia",
+      "answer": "Mia did not even open the important message.",
+      "answerZh": "米婭連那則重要訊息也沒有打開。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia did not even open the important message."
+    },
+    {
+      "id": "ss21-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The room lacked something as basic as a chair.",
+      "promptZh": "這個房間欠缺椅子這種基本物品。",
+      "starter": "The",
+      "answer": "The room did not even have a chair.",
+      "answerZh": "這個房間連一張椅子也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The room did not even have a chair."
+    },
+    {
+      "id": "ss21-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Ben could not remember my name, although it was the simplest detail.",
+      "promptZh": "本記不起我的名字，儘管這是最簡單的資料。",
+      "starter": "Ben",
+      "answer": "Ben could not even remember my name.",
+      "answerZh": "本連我的名字也記不起。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben could not even remember my name."
+    },
+    {
+      "id": "ss21-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "We expected the soup to be hot, but it was not warm at all.",
+      "promptZh": "我們原以為湯會是熱的，但它完全不暖。",
+      "starter": "We",
+      "answer": "We expected the soup to be hot, but it was not even warm.",
+      "answerZh": "我們原以為湯會是熱的，但它甚至連暖也稱不上。",
+      "answerZhSource": "pdf",
+      "highlight": "We expected the soup to be hot, but it was not even warm."
+    },
+    {
+      "id": "ss21-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "It is already late, but Ava has not started her homework.",
+      "promptZh": "時間已經很晚，但艾娃仍未開始做功課。",
+      "starter": "It",
+      "answer": "It is already late, but Ava has not even started her homework.",
+      "answerZh": "時間已經很晚，但艾娃甚至還未開始做功課。",
+      "answerZhSource": "pdf",
+      "highlight": "It is already late, but Ava has not even started her homework."
+    },
+    {
+      "id": "ss21-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Who was most likely to know the answer? Tom was, but he did not know it.",
+      "promptZh": "誰最有可能知道答案？湯姆最有可能，但他也不知道。",
+      "starter": "Not",
+      "answer": "Not even Tom knew the answer.",
+      "answerZh": "連湯姆也不知道答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Not even Tom knew the answer."
+    },
+    {
+      "id": "ss21-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The baby cannot stand yet, so walking is clearly impossible.",
+      "promptZh": "嬰兒仍未能站立，因此當然不可能走路。",
+      "starter": "The",
+      "answer": "The baby cannot even stand yet, let alone walk.",
+      "answerZh": "嬰兒連站立也未能做到，更不用說走路。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby cannot even stand yet, let alone walk."
+    },
+    {
+      "id": "ss21-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The shop failed to display something as basic as its opening hours.",
+      "promptZh": "這間店舖沒有展示營業時間這項基本資料。",
+      "starter": "The",
+      "answer": "The shop did not even display its opening hours.",
+      "answerZh": "這間店舖連營業時間也沒有展示。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop did not even display its opening hours."
+    },
+    {
+      "id": "ss21-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The alarm rang loudly, but I failed to hear it.",
+      "promptZh": "鬧鐘大聲響起，但我沒有聽見。",
+      "starter": "I",
+      "answer": "I did not even hear the alarm, although it rang loudly.",
+      "answerZh": "雖然鬧鐘大聲響起，但我連鬧鐘聲也沒有聽見。",
+      "answerZhSource": "pdf",
+      "highlight": "I did not even hear the alarm, although it rang loudly."
+    },
+    {
+      "id": "ss21-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "At a time when online shopping had not yet become common, people visited local shops more often.",
+      "promptZh": "在網上購物尚未普及的年代，人們較常到本地店舖購物。",
+      "starter": "When",
+      "answer": "When online shopping was not even common, people visited local shops more often.",
+      "answerZh": "當網上購物甚至尚未普及時，人們較常到本地店舖購物。",
+      "answerZhSource": "pdf",
+      "highlight": "When online shopping was not even common, people visited local shops more often."
+    },
+    {
+      "id": "ss21-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Daniel left without thanking the woman who helped him.",
+      "promptZh": "丹尼爾離開時沒有感謝那位幫助他的女士。",
+      "starter": "Daniel",
+      "answer": "Daniel did not even thank the woman who helped him.",
+      "answerZh": "丹尼爾連那位幫助他的女士也沒有感謝。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel did not even thank the woman who helped him."
+    },
+    {
+      "id": "ss21-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The old phone could not perform a basic task such as sending a photo.",
+      "promptZh": "這部舊電話無法完成傳送相片這種基本工作。",
+      "starter": "The",
+      "answer": "The old phone could not even send a photo.",
+      "answerZh": "這部舊電話連一張相片也無法傳送。",
+      "answerZhSource": "pdf",
+      "highlight": "The old phone could not even send a photo."
+    },
+    {
+      "id": "ss21-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Had we reached the station when the rain began? No, it started before we arrived.",
+      "promptZh": "雨開始下時，我們到達車站了嗎？還沒有，雨在我們到達前便開始下。",
+      "starter": "We",
+      "answer": "We had not even reached the station when the rain began.",
+      "answerZh": "雨開始下時，我們甚至還未到達車站。",
+      "answerZhSource": "pdf",
+      "highlight": "We had not even reached the station when the rain began."
+    },
+    {
+      "id": "ss21-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "No student at all volunteered to answer.",
+      "promptZh": "完全沒有學生自願回答。",
+      "starter": "Not",
+      "answer": "Not even one student volunteered to answer.",
+      "answerZh": "連一名學生也沒有自願回答。",
+      "answerZhSource": "pdf",
+      "highlight": "Not even one student volunteered to answer."
+    },
+    {
+      "id": "ss21-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The hotel room was so small that it could not hold two suitcases.",
+      "promptZh": "酒店房間太小，無法容納兩個行李箱。",
+      "starter": "The",
+      "answer": "The hotel room was not even large enough to hold two suitcases.",
+      "answerZh": "酒店房間甚至連容納兩個行李箱也不夠大。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel room was not even large enough to hold two suitcases."
+    },
+    {
+      "id": "ss21-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Chloe bought the dress without looking at the price first.",
+      "promptZh": "克洛伊買下裙子前沒有先看價錢。",
+      "starter": "Chloe",
+      "answer": "Chloe did not even look at the price before buying the dress.",
+      "answerZh": "克洛伊買下裙子前，連價錢也沒有看。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe did not even look at the price before buying the dress."
+    },
+    {
+      "id": "ss21-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The team has failed to win a single match this season.",
+      "promptZh": "球隊今季一場比賽也未能勝出。",
+      "starter": "The",
+      "answer": "The team has not even won a single match this season.",
+      "answerZh": "球隊今季連一場比賽也未曾勝出。",
+      "answerZhSource": "pdf",
+      "highlight": "The team has not even won a single match this season."
+    },
+    {
+      "id": "ss21-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The instructions were so unclear that I could not complete the first step.",
+      "promptZh": "指示非常不清楚，因此我無法完成第一個步驟。",
+      "starter": "The",
+      "answer": "The instructions were so unclear that I could not even complete the first step.",
+      "answerZh": "指示非常不清楚，令我甚至連第一個步驟也無法完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were so unclear that I could not even complete the first step."
+    },
+    {
+      "id": "ss21-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Ethan failed to realise that the meeting had been cancelled.",
+      "promptZh": "伊森沒有察覺會議已被取消。",
+      "starter": "Ethan",
+      "answer": "Ethan did not even realise that the meeting had been cancelled.",
+      "answerZh": "伊森甚至沒有察覺會議已被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan did not even realise that the meeting had been cancelled."
+    },
+    {
+      "id": "ss21-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "At a time when the village had no electricity at all, families had to rely on oil lamps.",
+      "promptZh": "在村落完全沒有電力的年代，家庭只好依靠油燈。",
+      "starter": "When",
+      "answer": "When the village did not even have electricity, families had to rely on oil lamps.",
+      "answerZh": "當村落甚至連電力也沒有時，家庭只好依靠油燈。",
+      "answerZhSource": "pdf",
+      "highlight": "When the village did not even have electricity, families had to rely on oil lamps."
+    },
+    {
+      "id": "ss21-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Who was most likely to explain the strange result? The teacher was, but she could not explain it.",
+      "promptZh": "誰最有可能解釋這個奇怪結果？老師最有可能，但她也無法解釋。",
+      "starter": "Not",
+      "answer": "Not even the teacher could explain the strange result.",
+      "answerZh": "連老師也無法解釋這個奇怪結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Not even the teacher could explain the strange result."
+    },
+    {
+      "id": "ss21-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Patients started arriving before the clinic had received the medicine.",
+      "promptZh": "診所尚未收到藥物，病人便已開始到達。",
+      "starter": "The",
+      "answer": "The clinic had not even received the medicine when patients started arriving.",
+      "answerZh": "病人開始到達時，診所甚至還未收到藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic had not even received the medicine when patients started arriving."
+    },
+    {
+      "id": "ss21-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Sarah arrived at the written test without a pen, although it was the most basic item she needed.",
+      "promptZh": "莎拉參加筆試時沒有帶筆，儘管這是她最基本需要的物品。",
+      "starter": "Sarah",
+      "answer": "Sarah did not even bring a pen to the written test.",
+      "answerZh": "莎拉參加筆試時，連一支筆也沒有帶。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah did not even bring a pen to the written test."
+    },
+    {
+      "id": "ss21-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The child could not reach the lowest shelf because she was still too short.",
+      "promptZh": "那個孩子仍然太矮，因此無法碰到最低的層架。",
+      "starter": "The",
+      "answer": "The child was not even tall enough to reach the lowest shelf.",
+      "answerZh": "那個孩子甚至連碰到最低層架也不夠高。",
+      "answerZhSource": "pdf",
+      "highlight": "The child was not even tall enough to reach the lowest shelf."
+    },
+    {
+      "id": "ss21-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The company ignored our first email and sent no reply.",
+      "promptZh": "公司忽略了我們的第一封電郵，沒有作出回覆。",
+      "starter": "The",
+      "answer": "The company did not even reply to our first email.",
+      "answerZh": "公司連我們的第一封電郵也沒有回覆。",
+      "answerZhSource": "pdf",
+      "highlight": "The company did not even reply to our first email."
+    },
+    {
+      "id": "ss21-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Despite its high price, the machine was unable to process a simple request.",
+      "promptZh": "儘管價格高昂，這部機器仍無法處理一項簡單要求。",
+      "starter": "Despite",
+      "answer": "Despite its high price, the machine could not even process a simple request.",
+      "answerZh": "儘管價格高昂，這部機器連一項簡單要求也無法處理。",
+      "answerZhSource": "pdf",
+      "highlight": "Despite its high price, the machine could not even process a simple request."
+    },
+    {
+      "id": "ss21-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "No one spoke. The chairperson, who was expected to lead, also made no comment.",
+      "promptZh": "沒有人發言。原本應該帶領會議的主席也沒有作出評論。",
+      "starter": "No",
+      "answer": "No one spoke; not even the chairperson made a comment.",
+      "answerZh": "沒有人發言；連主席也沒有作出評論。",
+      "answerZhSource": "pdf",
+      "highlight": "No one spoke; not even the chairperson made a comment."
+    },
+    {
+      "id": "ss21-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "What happened before I finished my first sentence? The microphone stopped working.",
+      "promptZh": "我說完第一句前發生了甚麼事？麥克風停止了運作。",
+      "starter": "I",
+      "answer": "I had not even finished my first sentence when the microphone stopped working.",
+      "answerZh": "麥克風停止運作時，我甚至還未說完第一句。",
+      "answerZhSource": "pdf",
+      "highlight": "I had not even finished my first sentence when the microphone stopped working."
+    },
+    {
+      "id": "ss21-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The emergency bag lacked a basic item: a torch.",
+      "promptZh": "緊急用品袋欠缺一件基本物品：電筒。",
+      "starter": "The",
+      "answer": "The emergency bag did not even contain a torch.",
+      "answerZh": "緊急用品袋連一支電筒也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency bag did not even contain a torch."
+    },
+    {
+      "id": "ss21-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Although the café was called “Green Garden”, it failed to do something as basic as recycling its bottles.",
+      "promptZh": "儘管這間咖啡店名為「綠色花園」，它沒有做到回收瓶子這項基本事情。",
+      "starter": "Although",
+      "answer": "Although the café was called “Green Garden”, it did not even recycle its bottles.",
+      "answerZh": "儘管這間咖啡店名為「綠色花園」，它連自己的瓶子也沒有回收。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the café was called “Green Garden”, it did not even recycle its bottles."
+    },
+    {
+      "id": "ss21-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The password lacked a basic security feature: a number.",
+      "promptZh": "這個密碼欠缺一項基本保安元素：數字。",
+      "starter": "The",
+      "answer": "The password did not even contain a number.",
+      "answerZh": "這個密碼連一個數字也沒有。",
+      "answerZhSource": "pdf",
+      "highlight": "The password did not even contain a number."
+    },
+    {
+      "id": "ss21-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Without an identity card, you are unable to enter the building.",
+      "promptZh": "沒有身分證明文件，你便無法進入大樓。",
+      "starter": "Without",
+      "answer": "Without an identity card, you cannot even enter the building.",
+      "answerZh": "沒有身分證明文件，你甚至連大樓也無法進入。",
+      "answerZhSource": "pdf",
+      "highlight": "Without an identity card, you cannot even enter the building."
+    },
+    {
+      "id": "ss21-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The new employee started work before anyone showed her where the fire exits were.",
+      "promptZh": "新員工開始工作前，沒有人向她指出走火通道的位置。",
+      "starter": "The",
+      "answer": "The new employee had not even been shown where the fire exits were when she started work.",
+      "answerZh": "新員工開始工作時，甚至還沒有人向她指出走火通道的位置。",
+      "answerZhSource": "pdf",
+      "highlight": "The new employee had not even been shown where the fire exits were when she started work."
+    },
+    {
+      "id": "ss21-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The charity event raised less money than it needed to cover its own costs.",
+      "promptZh": "慈善活動籌得的款項不足以支付本身的開支。",
+      "starter": "The",
+      "answer": "The charity event did not even raise enough money to cover its own costs.",
+      "answerZh": "慈善活動甚至連支付本身開支所需的款項也籌不到。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity event did not even raise enough money to cover its own costs."
+    },
+    {
+      "id": "ss21-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Could a heavy coat keep us warm in the wind? No, the wind was too cold.",
+      "promptZh": "厚外套能讓我們在風中保暖嗎？不能，風實在太寒冷。",
+      "starter": "Not",
+      "answer": "Not even a heavy coat could keep us warm in the wind.",
+      "answerZh": "在寒風中，連厚外套也無法令我們保暖。",
+      "answerZhSource": "pdf",
+      "highlight": "Not even a heavy coat could keep us warm in the wind."
+    },
+    {
+      "id": "ss21-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The speaker talked so quietly that people in the front row could not hear her.",
+      "promptZh": "講者說話太小聲，前排的人也聽不到她說話。",
+      "starter": "The",
+      "answer": "The speaker talked so quietly that people in the front row could not even hear her.",
+      "answerZh": "講者說話太小聲，連前排的人也聽不到她說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker talked so quietly that people in the front row could not even hear her."
+    },
+    {
+      "id": "ss21-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "By noon, the repair team still had not identified the cause of the problem.",
+      "promptZh": "到了中午，維修團隊仍未找出問題的原因。",
+      "starter": "By",
+      "answer": "By noon, the repair team had not even identified the cause of the problem.",
+      "answerZh": "到了中午，維修團隊甚至還未找出問題的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "By noon, the repair team had not even identified the cause of the problem."
+    },
+    {
+      "id": "ss21-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The report was sent to the client without being checked first.",
+      "promptZh": "報告未經檢查便被傳送給客戶。",
+      "starter": "The",
+      "answer": "The report was not even checked before it was sent to the client.",
+      "answerZh": "報告傳送給客戶前，甚至連檢查也沒有進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was not even checked before it was sent to the client."
+    },
+    {
+      "id": "ss21-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Leo apologised, but he gave no explanation of what had happened.",
+      "promptZh": "里奧道了歉，但沒有解釋發生了甚麼事。",
+      "starter": "Leo",
+      "answer": "Leo apologised, but he did not even explain what had happened.",
+      "answerZh": "里奧道了歉，但甚至沒有解釋發生了甚麼事。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo apologised, but he did not even explain what had happened."
+    },
+    {
+      "id": "ss21-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "At a time when the internet was unavailable in most homes, students depended more on libraries.",
+      "promptZh": "在大部分家庭都未能使用互聯網的年代，學生更依賴圖書館。",
+      "starter": "When",
+      "answer": "When the internet was not even available in most homes, students depended more on libraries.",
+      "answerZh": "當大部分家庭甚至還未能使用互聯網時，學生更依賴圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "When the internet was not even available in most homes, students depended more on libraries."
+    },
+    {
+      "id": "ss21-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The security guard let the visitor in without asking him to show identification.",
+      "promptZh": "保安員沒有要求訪客出示身分證明，便讓他進入。",
+      "starter": "The",
+      "answer": "The security guard did not even ask the visitor to show identification before letting him in.",
+      "answerZh": "保安員讓訪客進入前，連身分證明也沒有要求他出示。",
+      "answerZhSource": "pdf",
+      "highlight": "The security guard did not even ask the visitor to show identification before letting him in."
+    },
+    {
+      "id": "ss21-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The hospital had delayed the operation but had not informed the family, although this was a basic responsibility.",
+      "promptZh": "醫院延遲了手術，卻沒有通知家屬，儘管這是基本責任。",
+      "starter": "Although",
+      "answer": "Although informing the family was a basic responsibility, the hospital had not even informed them that the operation had been delayed.",
+      "answerZh": "儘管通知家屬是基本責任，醫院甚至沒有告知他們手術已被延遲。",
+      "answerZhSource": "pdf",
+      "highlight": "Although informing the family was a basic responsibility, the hospital had not even informed them that the operation had been delayed."
+    },
+    {
+      "id": "ss21-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Could the most experienced technician recover the damaged files? No, that technician was also unable to do so.",
+      "promptZh": "最有經驗的技術員能復原受損的檔案嗎？不能，那名技術員也無法做到。",
+      "starter": "Not",
+      "answer": "Not even the most experienced technician could recover the damaged files.",
+      "answerZh": "連最有經驗的技術員也無法復原受損的檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Not even the most experienced technician could recover the damaged files."
+    },
+    {
+      "id": "ss21-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The proposal was extremely incomplete and lacked an estimated cost, one of the most basic details.",
+      "promptZh": "這份建議書極不完整，並欠缺預計成本這項最基本資料。",
+      "starter": "The",
+      "answer": "The proposal was so incomplete that it did not even include an estimated cost.",
+      "answerZh": "這份建議書極不完整，甚至連預計成本也沒有包括。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal was so incomplete that it did not even include an estimated cost."
+    },
+    {
+      "id": "ss21-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The company launched the app although it had not tested the payment system, which was a basic step.",
+      "promptZh": "公司推出應用程式時，仍未測試付款系統，儘管這是基本步驟。",
+      "starter": "The",
+      "answer": "The company launched the app although it had not even tested the payment system.",
+      "answerZh": "公司推出應用程式時，甚至還未測試付款系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The company launched the app although it had not even tested the payment system."
+    },
+    {
+      "id": "ss21-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The council closed the community centre without consulting residents first.",
+      "promptZh": "區議會沒有先諮詢居民，便關閉了社區中心。",
+      "starter": "The",
+      "answer": "The council did not even consult residents before closing the community centre.",
+      "answerZh": "區議會關閉社區中心前，連居民也沒有諮詢。",
+      "answerZhSource": "pdf",
+      "highlight": "The council did not even consult residents before closing the community centre."
+    },
+    {
+      "id": "ss21-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The manager told us to start the machine before we had completed the safety checks.",
+      "promptZh": "我們尚未完成安全檢查，經理便叫我們啟動機器。",
+      "starter": "We",
+      "answer": "We had not even completed the safety checks when the manager told us to start the machine.",
+      "answerZh": "經理叫我們啟動機器時，我們甚至還未完成安全檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "We had not even completed the safety checks when the manager told us to start the machine."
+    },
+    {
+      "id": "ss21-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The witness was so nervous that she could not state her full name clearly.",
+      "promptZh": "證人非常緊張，無法清楚說出自己的全名。",
+      "starter": "The",
+      "answer": "The witness was so nervous that she could not even state her full name clearly.",
+      "answerZh": "證人非常緊張，連自己的全名也無法清楚說出。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness was so nervous that she could not even state her full name clearly."
+    },
+    {
+      "id": "ss21-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The detailed instructions failed to help the users complete the final stage.",
+      "promptZh": "詳細指示未能幫助使用者完成最後階段。",
+      "starter": "Not",
+      "answer": "Not even the detailed instructions helped the users complete the final stage.",
+      "answerZh": "連詳細指示也無法幫助使用者完成最後階段。",
+      "answerZhSource": "pdf",
+      "highlight": "Not even the detailed instructions helped the users complete the final stage."
+    },
+    {
+      "id": "ss21-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Doctors tried to reduce patients’ pain at a time when scientists still had not discovered the cause of the disease.",
+      "promptZh": "在科學家仍未找出疾病成因的年代，醫生已嘗試減輕病人的痛楚。",
+      "starter": "At",
+      "answer": "At a time when scientists had not even discovered the cause of the disease, doctors still tried to reduce patients’ pain.",
+      "answerZh": "在科學家甚至還未找出疾病成因的年代，醫生仍嘗試減輕病人的痛楚。",
+      "answerZhSource": "pdf",
+      "highlight": "At a time when scientists had not even discovered the cause of the disease, doctors still tried to reduce patients’ pain."
+    }
+  ]
+}

@@ -1,0 +1,1085 @@
+{
+  "id": "ss11",
+  "order": 11,
+  "slug": "few-little",
+  "title": "「Few / Little」句型",
+  "titleZh": "「Few / Little」句型 表示「很少／幾乎沒有」",
+  "titleEn": "Using few and little to express scarcity",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 11 - 「Few : Little」句型 .pdf",
+    "pageCount": 16,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "omissions": [
+      "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Few + plural countable noun + plural verb + other information",
+  "formulas": [
+    {
+      "id": "ss11-formula-few-initial",
+      "labelEn": "Few with a plural countable noun",
+      "labelZh": "Few：配合複數可數名詞",
+      "formula": "Few + plural countable noun + plural verb + other information"
+    },
+    {
+      "id": "ss11-formula-little-initial",
+      "labelEn": "Little with an uncountable noun",
+      "labelZh": "Little：配合不可數名詞",
+      "formula": "Little + uncountable noun + singular verb + other information"
+    },
+    {
+      "id": "ss11-formula-few-after-verb",
+      "labelEn": "Few after a verb",
+      "labelZh": "Few 放在動詞後",
+      "formula": "Subject + verb + few + plural countable noun"
+    },
+    {
+      "id": "ss11-formula-little-after-verb",
+      "labelEn": "Little after a verb",
+      "labelZh": "Little 放在動詞後",
+      "formula": "Subject + verb + little + uncountable noun"
+    }
+  ],
+  "example": "Few people paid attention to children with special educational needs.",
+  "exampleZh": "很少人留意有特殊教育需要的孩子。",
+  "examples": [
+    {
+      "id": "ss11-example-few-initial",
+      "en": "Few students understand this rule.",
+      "zh": "很少學生明白這條規則。",
+      "highlight": "Few students understand this rule."
+    },
+    {
+      "id": "ss11-example-little-initial",
+      "en": "Little time remains.",
+      "zh": "剩下的時間很少。",
+      "highlight": "Little time remains."
+    },
+    {
+      "id": "ss11-example-few-after-verb",
+      "en": "I have few close friends here.",
+      "zh": "我在這裏只有很少要好的朋友。",
+      "highlight": "I have few close friends here."
+    },
+    {
+      "id": "ss11-example-little-after-verb",
+      "en": "We received little information.",
+      "zh": "我們只收到很少資料。",
+      "highlight": "We received little information."
+    },
+    {
+      "id": "ss11-example-main",
+      "en": "Few people paid attention to children with special educational needs.",
+      "zh": "很少人留意有特殊教育需要的孩子。",
+      "highlight": "Few people paid attention to children with special educational needs."
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss11-rule-01",
+      "en": "Use few before plural countable nouns.",
+      "zh": "Few 放在複數可數名詞前。",
+      "examples": [
+        "few students",
+        "few buses",
+        "few opportunities"
+      ]
+    },
+    {
+      "id": "ss11-rule-02",
+      "en": "Use little before uncountable nouns.",
+      "zh": "Little 放在不可數名詞前。",
+      "examples": [
+        "little time",
+        "little information",
+        "little support"
+      ]
+    },
+    {
+      "id": "ss11-rule-03",
+      "en": "Few and little normally carry a more negative meaning, indicating that the quantity may be insufficient.",
+      "zh": "Few 和 little 通常帶有較負面的意思，表示數量少得可能不足。",
+      "examples": [
+        "Few people helped.（幫忙的人很少，可能不夠。）",
+        "Little money remained.（剩下的錢很少，可能不夠用。）"
+      ]
+    },
+    {
+      "id": "ss11-rule-04",
+      "en": "Few / little and a few / a little have different meanings. Few / little means very few, very little or almost none; a few / a little means some.",
+      "zh": "Few / little 與 a few / a little 的意思不同。few / little 表示「很少、幾乎沒有」；a few / a little 表示「有一些」。",
+      "examples": []
+    },
+    {
+      "id": "ss11-rule-05",
+      "en": "Answers in this exercise use only few or little. Do not add a.",
+      "zh": "本練習的答案只使用 few 或 little，不要自行加入 a。",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss11-benefit-01",
+      "en": "This structure lets you use one short word to state clearly that something exists in a very small or possibly insufficient quantity.",
+      "zh": "這個句型可以讓你只用一個簡短的詞，便清楚表達某種東西「數量很少」或「少得不足」。"
+    },
+    {
+      "id": "ss11-benefit-02",
+      "en": "It can replace repeated use of not many and not much, making sentences shorter and more natural.",
+      "zh": "它能代替經常重複的 not many 和 not much，令句子更簡潔、更自然。"
+    },
+    {
+      "id": "ss11-benefit-03",
+      "en": "It also helps you distinguish countable and uncountable nouns, such as few students but little time.",
+      "zh": "它亦能幫助你分辨可數名詞和不可數名詞，例如 few students，但要說 little time。"
+    },
+    {
+      "id": "ss11-benefit-04",
+      "en": "It is especially useful in essays, reports and discussions of social issues because it can clearly identify shortages of resources, support, time or participation.",
+      "zh": "在作文、報告和討論社會問題時，這個句型特別實用，因為它能清楚指出資源、支援、時間或參與人數不足。"
+    }
+  ],
+  "sourceOmissions": [
+    "The Important Rules and Benefits explanations are provided in Chinese only; their English fields are faithful editorial translations.",
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using few or little without changing its meaning.",
+      "Use few before plural countable nouns and little before uncountable nouns.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 few 或 little 改寫以下句子，意思必須保持不變。",
+      "few 用於複數可數名詞前；little 用於不可數名詞前。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss11-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Not many students understood the rule.",
+      "promptZh": "明白這條規則的學生不多。",
+      "starter": "Few",
+      "answer": "Few students understood the rule.",
+      "answerZh": "很少學生明白這條規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Few students understood the rule."
+    },
+    {
+      "id": "ss11-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "There was not much milk left in the fridge.",
+      "promptZh": "雪櫃裏剩下的牛奶不多。",
+      "starter": "Little",
+      "answer": "Little milk was left in the fridge.",
+      "answerZh": "雪櫃裏只剩下很少牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "Little milk was left in the fridge."
+    },
+    {
+      "id": "ss11-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "I do not have many close friends in this city.",
+      "promptZh": "我在這個城市沒有很多要好的朋友。",
+      "starter": "I",
+      "answer": "I have few close friends in this city.",
+      "answerZh": "我在這個城市只有很少要好的朋友。",
+      "answerZhSource": "pdf",
+      "highlight": "I have few close friends in this city."
+    },
+    {
+      "id": "ss11-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "We received almost no information about the delay.",
+      "promptZh": "我們幾乎沒有收到有關延誤的資料。",
+      "starter": "We",
+      "answer": "We received little information about the delay.",
+      "answerZh": "我們只收到很少有關延誤的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "We received little information about the delay."
+    },
+    {
+      "id": "ss11-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Not many buses run after midnight.",
+      "promptZh": "午夜後行駛的巴士不多。",
+      "starter": "Few",
+      "answer": "Few buses run after midnight.",
+      "answerZh": "午夜後只有很少巴士行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Few buses run after midnight."
+    },
+    {
+      "id": "ss11-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "She showed almost no interest in the lesson.",
+      "promptZh": "她對這堂課幾乎沒有興趣。",
+      "starter": "She",
+      "answer": "She showed little interest in the lesson.",
+      "answerZh": "她對這堂課幾乎沒有興趣。",
+      "answerZhSource": "pdf",
+      "highlight": "She showed little interest in the lesson."
+    },
+    {
+      "id": "ss11-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Not many shops open this early.",
+      "promptZh": "這麼早開門的商店不多。",
+      "starter": "Few",
+      "answer": "Few shops open this early.",
+      "answerZh": "很少商店這麼早開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Few shops open this early."
+    },
+    {
+      "id": "ss11-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 12
+      },
+      "prompt": "He had almost no energy after the long walk.",
+      "promptZh": "走了很長的路後，他幾乎沒有力氣。",
+      "starter": "He",
+      "answer": "He had little energy after the long walk.",
+      "answerZh": "走了很長的路後，他只剩下很少力氣。",
+      "answerZhSource": "pdf",
+      "highlight": "He had little energy after the long walk."
+    },
+    {
+      "id": "ss11-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Not many chairs were available in the waiting area.",
+      "promptZh": "候診區可用的椅子不多。",
+      "starter": "Few",
+      "answer": "Few chairs were available in the waiting area.",
+      "answerZh": "候診區只有很少椅子可供使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Few chairs were available in the waiting area."
+    },
+    {
+      "id": "ss11-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "I did not have much time to finish the report.",
+      "promptZh": "我沒有很多時間完成報告。",
+      "starter": "I",
+      "answer": "I had little time to finish the report.",
+      "answerZh": "我只有很少時間完成報告。",
+      "answerZhSource": "pdf",
+      "highlight": "I had little time to finish the report."
+    },
+    {
+      "id": "ss11-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Hardly any parents attended the meeting.",
+      "promptZh": "幾乎沒有家長出席會議。",
+      "starter": "Few",
+      "answer": "Few parents attended the meeting.",
+      "answerZh": "很少家長出席會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Few parents attended the meeting."
+    },
+    {
+      "id": "ss11-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The bottle contained hardly any water.",
+      "promptZh": "瓶子裏幾乎沒有水。",
+      "starter": "The",
+      "answer": "The bottle contained little water.",
+      "answerZh": "瓶子裏只有很少水。",
+      "answerZhSource": "pdf",
+      "highlight": "The bottle contained little water."
+    },
+    {
+      "id": "ss11-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Almost no rain fell last month.",
+      "promptZh": "上個月幾乎沒有下雨。",
+      "starter": "Little",
+      "answer": "Little rain fell last month.",
+      "answerZh": "上個月雨量很少。",
+      "answerZhSource": "pdf",
+      "highlight": "Little rain fell last month."
+    },
+    {
+      "id": "ss11-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Barely any playgrounds are available in this neighbourhood.",
+      "promptZh": "這個社區幾乎沒有遊樂場可供使用。",
+      "starter": "Few",
+      "answer": "Few playgrounds are available in this neighbourhood.",
+      "answerZh": "這個社區只有很少遊樂場可供使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Few playgrounds are available in this neighbourhood."
+    },
+    {
+      "id": "ss11-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Mia knows hardly any people at her new school.",
+      "promptZh": "米婭在新學校幾乎不認識任何人。",
+      "starter": "Mia",
+      "answer": "Mia knows few people at her new school.",
+      "answerZh": "米婭在新學校只認識很少人。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia knows few people at her new school."
+    },
+    {
+      "id": "ss11-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "We made almost no progress during the first week.",
+      "promptZh": "我們在第一個星期幾乎沒有進展。",
+      "starter": "We",
+      "answer": "We made little progress during the first week.",
+      "answerZh": "我們在第一個星期只有很少進展。",
+      "answerZhSource": "pdf",
+      "highlight": "We made little progress during the first week."
+    },
+    {
+      "id": "ss11-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13
+      },
+      "prompt": "Why did the café close early? Not many customers came in.",
+      "promptZh": "咖啡店為甚麼提早關門？入內光顧的顧客不多。",
+      "starter": "The",
+      "answer": "The café closed early because few customers came in.",
+      "answerZh": "咖啡店提早關門，因為入內光顧的顧客很少。",
+      "answerZhSource": "pdf",
+      "highlight": "The café closed early because few customers came in."
+    },
+    {
+      "id": "ss11-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Why was the room so dark? There was almost no light.",
+      "promptZh": "房間為甚麼那麼昏暗？裏面幾乎沒有光線。",
+      "starter": "The",
+      "answer": "The room was so dark because there was little light.",
+      "answerZh": "房間那麼昏暗，是因為裏面幾乎沒有光線。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was so dark because there was little light."
+    },
+    {
+      "id": "ss11-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The team had only a small number of experienced players.",
+      "promptZh": "球隊只有少量具經驗的球員。",
+      "starter": "The",
+      "answer": "The team had few experienced players.",
+      "answerZh": "球隊只有很少具經驗的球員。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had few experienced players."
+    },
+    {
+      "id": "ss11-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Only a small amount of food remained after the trip.",
+      "promptZh": "旅程結束後只剩下少量食物。",
+      "starter": "Little",
+      "answer": "Little food remained after the trip.",
+      "answerZh": "旅程結束後只剩下很少食物。",
+      "answerZhSource": "pdf",
+      "highlight": "Little food remained after the trip."
+    },
+    {
+      "id": "ss11-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The small museum attracted only a small number of visitors.",
+      "promptZh": "這間小型博物館只吸引了少量訪客。",
+      "starter": "The",
+      "answer": "The small museum attracted few visitors.",
+      "answerZh": "這間小型博物館只吸引了很少訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "The small museum attracted few visitors."
+    },
+    {
+      "id": "ss11-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The doctor gave me hardly any advice about exercise.",
+      "promptZh": "醫生幾乎沒有給我任何運動方面的建議。",
+      "starter": "The",
+      "answer": "The doctor gave me little advice about exercise.",
+      "answerZh": "醫生只給了我很少運動方面的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor gave me little advice about exercise."
+    },
+    {
+      "id": "ss11-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Almost none of the students completed the final question.",
+      "promptZh": "幾乎沒有學生完成最後一題。",
+      "starter": "Few",
+      "answer": "Few of the students completed the final question.",
+      "answerZh": "學生中很少有人完成最後一題。",
+      "answerZhSource": "pdf",
+      "highlight": "Few of the students completed the final question."
+    },
+    {
+      "id": "ss11-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Almost none of the soup was left at the end of dinner.",
+      "promptZh": "晚餐結束時，湯幾乎一點也沒有剩下。",
+      "starter": "Little",
+      "answer": "Little of the soup was left at the end of dinner.",
+      "answerZh": "晚餐結束時，只剩下很少湯。",
+      "answerZhSource": "pdf",
+      "highlight": "Little of the soup was left at the end of dinner."
+    },
+    {
+      "id": "ss11-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The village has only a small number of street lights.",
+      "promptZh": "這條村只有少量街燈。",
+      "starter": "The",
+      "answer": "The village has few street lights.",
+      "answerZh": "這條村只有很少街燈。",
+      "answerZhSource": "pdf",
+      "highlight": "The village has few street lights."
+    },
+    {
+      "id": "ss11-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "The project received only a small amount of financial support.",
+      "promptZh": "這個項目只獲得少量財政支援。",
+      "starter": "The",
+      "answer": "The project received little financial support.",
+      "answerZh": "這個項目只獲得很少財政支援。",
+      "answerZhSource": "pdf",
+      "highlight": "The project received little financial support."
+    },
+    {
+      "id": "ss11-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Almost all the seats were empty during the afternoon show.",
+      "promptZh": "下午場次幾乎所有座位都是空的。",
+      "starter": "Few",
+      "answer": "Few seats were occupied during the afternoon show.",
+      "answerZh": "下午場次只有很少座位有人坐。",
+      "answerZhSource": "pdf",
+      "highlight": "Few seats were occupied during the afternoon show."
+    },
+    {
+      "id": "ss11-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "After the notice was edited, almost no useful information remained on it.",
+      "promptZh": "通告經過修改後，上面幾乎沒有留下有用資料。",
+      "starter": "After",
+      "answer": "After the notice was edited, little useful information remained on it.",
+      "answerZh": "通告經過修改後，上面只留下很少有用資料。",
+      "answerZhSource": "pdf",
+      "highlight": "After the notice was edited, little useful information remained on it."
+    },
+    {
+      "id": "ss11-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The printer was used by only a small number of staff members.",
+      "promptZh": "只有少量職員使用這部打印機。",
+      "starter": "Few",
+      "answer": "Few staff members used the printer.",
+      "answerZh": "很少職員使用這部打印機。",
+      "answerZhSource": "pdf",
+      "highlight": "Few staff members used the printer."
+    },
+    {
+      "id": "ss11-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Hardly any attention was paid to the warning signs.",
+      "promptZh": "幾乎沒有人留意那些警告標誌。",
+      "starter": "Little",
+      "answer": "Little attention was paid to the warning signs.",
+      "answerZh": "那些警告標誌受到的關注很少。",
+      "answerZhSource": "pdf",
+      "highlight": "Little attention was paid to the warning signs."
+    },
+    {
+      "id": "ss11-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The teacher said that not many students had checked their answers.",
+      "promptZh": "老師說，檢查過答案的學生不多。",
+      "starter": "The",
+      "answer": "The teacher said that few students had checked their answers.",
+      "answerZh": "老師說，很少學生檢查過答案。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher said that few students had checked their answers."
+    },
+    {
+      "id": "ss11-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Our group had almost no difficulty finding the station.",
+      "promptZh": "我們的小組幾乎沒有遇到困難便找到了車站。",
+      "starter": "Our",
+      "answer": "Our group had little difficulty finding the station.",
+      "answerZh": "我們的小組沒費多少力氣便找到了車站。",
+      "answerZhSource": "pdf",
+      "highlight": "Our group had little difficulty finding the station."
+    },
+    {
+      "id": "ss11-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "If not many volunteers arrive, the event may start late.",
+      "promptZh": "如果到場的義工不多，活動可能會延遲開始。",
+      "starter": "If",
+      "answer": "If few volunteers arrive, the event may start late.",
+      "answerZh": "如果到場的義工很少，活動可能會延遲開始。",
+      "answerZhSource": "pdf",
+      "highlight": "If few volunteers arrive, the event may start late."
+    },
+    {
+      "id": "ss11-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Because there was not much space in the car, we left one suitcase at home.",
+      "promptZh": "因為車內空間不多，我們把一個行李箱留在家中。",
+      "starter": "Because",
+      "answer": "Because there was little space in the car, we left one suitcase at home.",
+      "answerZh": "因為車內空間很少，我們把一個行李箱留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "Because there was little space in the car, we left one suitcase at home."
+    },
+    {
+      "id": "ss11-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "The manager explained that there was hardly any evidence to support the complaint.",
+      "promptZh": "經理解釋說，幾乎沒有證據支持這宗投訴。",
+      "starter": "The",
+      "answer": "The manager explained that there was little evidence to support the complaint.",
+      "answerZh": "經理解釋說，支持這宗投訴的證據很少。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager explained that there was little evidence to support the complaint."
+    },
+    {
+      "id": "ss11-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Take some snacks because not many food stalls stay open at night.",
+      "promptZh": "帶一些小食吧，因為晚上繼續營業的食物攤檔不多。",
+      "starter": "Take",
+      "answer": "Take some snacks because few food stalls stay open at night.",
+      "answerZh": "帶一些小食吧，因為晚上繼續營業的食物攤檔很少。",
+      "answerZhSource": "pdf",
+      "highlight": "Take some snacks because few food stalls stay open at night."
+    },
+    {
+      "id": "ss11-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The child asked why there was almost no snow on the hill.",
+      "promptZh": "那個孩子問山上為甚麼幾乎沒有雪。",
+      "starter": "The",
+      "answer": "The child asked why there was little snow on the hill.",
+      "answerZh": "那個孩子問山上的雪為甚麼那麼少。",
+      "answerZhSource": "pdf",
+      "highlight": "The child asked why there was little snow on the hill."
+    },
+    {
+      "id": "ss11-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Only a small number of the old computers still work properly.",
+      "promptZh": "只有少量舊電腦仍能正常運作。",
+      "starter": "Few",
+      "answer": "Few of the old computers still work properly.",
+      "answerZh": "舊電腦中只有很少仍能正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Few of the old computers still work properly."
+    },
+    {
+      "id": "ss11-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Barely any of the paint was usable after the lid was left open.",
+      "promptZh": "油漆罐蓋打開後，裏面的油漆幾乎都不能使用。",
+      "starter": "Little",
+      "answer": "Little of the paint was usable after the lid was left open.",
+      "answerZh": "油漆罐蓋打開後，裏面只有很少油漆仍可使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Little of the paint was usable after the lid was left open."
+    },
+    {
+      "id": "ss11-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The library added only a small number of new books this year.",
+      "promptZh": "圖書館今年只增添了少量新書。",
+      "starter": "The",
+      "answer": "The library added few new books this year.",
+      "answerZh": "圖書館今年只增添了很少新書。",
+      "answerZhSource": "pdf",
+      "highlight": "The library added few new books this year."
+    },
+    {
+      "id": "ss11-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although the school sent several reminders, not many parents returned the form.",
+      "promptZh": "雖然學校發出了數次提醒，但交回表格的家長不多。",
+      "starter": "Although",
+      "answer": "Although the school sent several reminders, few parents returned the form.",
+      "answerZh": "雖然學校發出了數次提醒，但很少家長交回表格。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the school sent several reminders, few parents returned the form."
+    },
+    {
+      "id": "ss11-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The hospital received almost no information about the patient’s medical history.",
+      "promptZh": "醫院幾乎沒有收到有關病人病歷的資料。",
+      "starter": "The",
+      "answer": "The hospital received little information about the patient’s medical history.",
+      "answerZh": "醫院只收到很少有關病人病歷的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital received little information about the patient’s medical history."
+    },
+    {
+      "id": "ss11-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Only a small number of passengers noticed that the platform had changed.",
+      "promptZh": "只有少量乘客留意到月台已經更改。",
+      "starter": "Few",
+      "answer": "Few passengers noticed that the platform had changed.",
+      "answerZh": "很少乘客留意到月台已經更改。",
+      "answerZhSource": "pdf",
+      "highlight": "Few passengers noticed that the platform had changed."
+    },
+    {
+      "id": "ss11-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "The rescue team had hardly any time to reach the hikers before dark.",
+      "promptZh": "救援隊幾乎沒有時間在天黑前到達遠足人士所在之處。",
+      "starter": "The",
+      "answer": "The rescue team had little time to reach the hikers before dark.",
+      "answerZh": "救援隊只有很少時間在天黑前到達遠足人士所在之處。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team had little time to reach the hikers before dark."
+    },
+    {
+      "id": "ss11-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The report showed that almost none of the local businesses had emergency plans.",
+      "promptZh": "報告顯示，幾乎沒有本地商戶備有緊急應變計劃。",
+      "starter": "The",
+      "answer": "The report showed that few of the local businesses had emergency plans.",
+      "answerZh": "報告顯示，本地商戶中很少備有緊急應變計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The report showed that few of the local businesses had emergency plans."
+    },
+    {
+      "id": "ss11-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Since barely any funding was available, the community centre cancelled two programmes.",
+      "promptZh": "由於可用資金幾乎為零，社區中心取消了兩個活動計劃。",
+      "starter": "Since",
+      "answer": "Since little funding was available, the community centre cancelled two programmes.",
+      "answerZh": "由於可用資金很少，社區中心取消了兩個活動計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Since little funding was available, the community centre cancelled two programmes."
+    },
+    {
+      "id": "ss11-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Not many of the suggestions that employees submitted were practical.",
+      "promptZh": "僱員提交的建議中，實際可行的不多。",
+      "starter": "Few",
+      "answer": "Few of the suggestions that employees submitted were practical.",
+      "answerZh": "僱員提交的建議中，只有很少是實際可行的。",
+      "answerZhSource": "pdf",
+      "highlight": "Few of the suggestions that employees submitted were practical."
+    },
+    {
+      "id": "ss11-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The survey provided almost no evidence that the new rule had improved safety.",
+      "promptZh": "調查幾乎沒有提供證據，證明新規則改善了安全情況。",
+      "starter": "The",
+      "answer": "The survey provided little evidence that the new rule had improved safety.",
+      "answerZh": "調查只提供了很少證據，證明新規則改善了安全情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey provided little evidence that the new rule had improved safety."
+    },
+    {
+      "id": "ss11-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Why did the committee delay its decision? It had received hardly any reliable data.",
+      "promptZh": "委員會為甚麼押後決定？它幾乎沒有收到可靠數據。",
+      "starter": "The",
+      "answer": "The committee delayed its decision because it had received little reliable data.",
+      "answerZh": "委員會押後決定，因為它收到的可靠數據很少。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee delayed its decision because it had received little reliable data."
+    },
+    {
+      "id": "ss11-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Although the city added more recycling bins, only a small number of residents changed their habits.",
+      "promptZh": "雖然市政府增設了更多回收箱，但只有少量居民改變了習慣。",
+      "starter": "Although",
+      "answer": "Although the city added more recycling bins, few residents changed their habits.",
+      "answerZh": "雖然市政府增設了更多回收箱，但只有很少居民改變了習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the city added more recycling bins, few residents changed their habits."
+    }
+  ]
+}

@@ -1,0 +1,1081 @@
+{
+  "id": "ss29",
+  "order": 29,
+  "slug": "otherwise-or-consequence",
+  "title": "「Otherwise / Or」句型",
+  "titleZh": "「Otherwise / Or」表達「否則」",
+  "titleEn": "Using Otherwise / Or to express consequences",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 29 -「Otherwise _ Or」表達「否則」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "The English versions of Chinese-only Important Rules and Benefits content are faithful editorial translations."
+    ]
+  },
+  "formula": "Required action or condition. Otherwise, + subject + result or consequence.",
+  "formulas": [
+    {
+      "id": "ss29-formula-otherwise",
+      "labelEn": "Structure A: Otherwise",
+      "labelZh": "結構 A：Otherwise",
+      "formula": "Required action or condition. Otherwise, + subject + result or consequence."
+    },
+    {
+      "id": "ss29-formula-or",
+      "labelEn": "Structure B: Or",
+      "labelZh": "結構 B：Or",
+      "formula": "Required action or condition, or + subject + result or consequence."
+    }
+  ],
+  "example": "We had better finish work earlier. Otherwise, we may need to work overtime.",
+  "exampleZh": "我們最好早點完成工作，否則可能要加班。",
+  "examples": [
+    {
+      "id": "ss29-example-otherwise",
+      "en": "We had better finish work earlier. Otherwise, we may need to work overtime.",
+      "zh": "我們最好早點完成工作，否則可能要加班。",
+      "highlight": "Otherwise, we may need to work overtime"
+    },
+    {
+      "id": "ss29-example-or",
+      "en": "We had better finish work earlier, or we may need to work overtime.",
+      "zh": "我們最好早點完成工作，否則可能要加班。",
+      "highlight": "or we may need to work overtime"
+    }
+  ],
+  "meaning": {
+    "zh": "如果第一個行動或條件沒有發生，第二個結果便可能或將會發生。"
+  },
+  "rules": [
+    {
+      "id": "ss29-rule-01",
+      "en": "The first part usually states an action that should be completed: advice, an instruction, a requirement, a necessary condition or a way to avoid a problem.",
+      "zh": "第一部分通常提出應該完成的行動，例如建議、指示、要求、必要條件或避免問題的方法。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You should save the document. Otherwise, you may lose your work."
+      ]
+    },
+    {
+      "id": "ss29-rule-02",
+      "en": "In the use taught here, otherwise normally begins a new sentence: put a full stop before it and a comma after it. Do not join two complete sentences with only a comma.",
+      "zh": "在本課教授的用法中，otherwise 前面通常使用句號，otherwise 後面使用逗號；兩個完整句子不應只用逗號連接。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Check the address again. Otherwise, the parcel may go to the wrong place."
+      ]
+    },
+    {
+      "id": "ss29-rule-03",
+      "en": "Or joins the two parts in one sentence. When the first part is an instruction, the subject you is normally omitted.",
+      "zh": "Or 把兩個部分連成一句。如果第一部分是指令句，主語 you 通常不會寫出來。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Hurry, or you will miss the bus."
+      ]
+    },
+    {
+      "id": "ss29-rule-04",
+      "en": "Preserve the possibility and strength of the result. Normally keep the modal verb used in the question, such as may, might, could, will, cannot or would have.",
+      "zh": "保留結果的可能性和強度。題目使用哪一個情態動詞，答案通常便要保留哪一個，例如 may、might、could、will、cannot 或 would have。",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss29-rule-05",
+      "en": "In this lesson, or means ‘otherwise’, not a choice between alternatives.",
+      "zh": "Or 在本課表示「否則」，不是表示選擇的「或者」。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Would you like tea or coffee?"
+      ]
+    },
+    {
+      "id": "ss29-rule-06",
+      "en": "In this lesson, otherwise means ‘if this does not happen’, not ‘in other respects’.",
+      "zh": "本課只練習 otherwise 表示「如果不是這樣，便會……」的用法，不是表示「在其他方面」。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The room is small but otherwise comfortable."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss29-benefit-01",
+      "en": "It clearly explains the consequence of not taking an action.",
+      "zh": "清楚說明不採取行動的後果。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss29-benefit-02",
+      "en": "It shortens an if...not sentence and makes the message more direct.",
+      "zh": "把 if...not 的句子縮短，令表達更直接。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss29-benefit-03",
+      "en": "It is useful for reminders, advice and warnings in everyday, school, safety and workplace contexts.",
+      "zh": "適合提出日常提醒、建議和警告，也可用於課堂指示、安全規則、工作電郵、操作說明和公共告示。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss29-benefit-04",
+      "en": "It makes the cause-and-effect relationship easier to understand.",
+      "zh": "讓因果關係更容易理解。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss29-benefit-05",
+      "en": "Otherwise and or provide different rhythms and help avoid repeatedly using if you do not.",
+      "zh": "Otherwise 和 or 提供兩種不同的表達節奏，並可避免反覆使用 if you do not。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF supplies Chinese-only explanations for most Important Rules and Benefits; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using otherwise or or to express what may happen if the first action or condition is not followed.",
+      "Use otherwise for odd-numbered questions. Use or for even-numbered questions.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 otherwise 或 or 改寫以下句子，以表達沒有完成第一項行動或條件時可能出現的後果。",
+      "單數題使用 otherwise；雙數題使用 or。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss29-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "You should take an umbrella because you may get wet if you do not.",
+      "promptZh": "你應該帶雨傘，因為如果不帶，你可能會淋濕。",
+      "starter": "You",
+      "answer": "You should take an umbrella. Otherwise, you may get wet.",
+      "answerZh": "你應該帶雨傘，否則可能會淋濕。",
+      "answerZhSource": "pdf",
+      "highlight": "You should take an umbrella. Otherwise, you may get wet."
+    },
+    {
+      "id": "ss29-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "If you do not hurry, you will miss the bus.",
+      "promptZh": "如果你不快點，便會錯過巴士。",
+      "starter": "Hurry",
+      "answer": "Hurry, or you will miss the bus.",
+      "answerZh": "快一點，否則你會錯過巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Hurry, or you will miss the bus."
+    },
+    {
+      "id": "ss29-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "Mia needs to charge her phone because it may run out of power if she does not.",
+      "promptZh": "米婭需要為手機充電，因為如果不充電，手機可能會沒電。",
+      "starter": "Mia",
+      "answer": "Mia needs to charge her phone. Otherwise, it may run out of power.",
+      "answerZh": "米婭需要為手機充電，否則手機可能會沒電。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia needs to charge her phone. Otherwise, it may run out of power."
+    },
+    {
+      "id": "ss29-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Keep the milk in the fridge. If you do not, it may go bad.",
+      "promptZh": "把牛奶放在雪櫃裏。如果不這樣做，牛奶可能會變壞。",
+      "starter": "Keep",
+      "answer": "Keep the milk in the fridge, or it may go bad.",
+      "answerZh": "把牛奶放在雪櫃裏，否則牛奶可能會變壞。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the milk in the fridge, or it may go bad."
+    },
+    {
+      "id": "ss29-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "We had better leave home now because we may be late if we do not.",
+      "promptZh": "我們最好現在離開家，因為如果不走，可能會遲到。",
+      "starter": "We",
+      "answer": "We had better leave home now. Otherwise, we may be late.",
+      "answerZh": "我們最好現在離開家，否則可能會遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "We had better leave home now. Otherwise, we may be late."
+    },
+    {
+      "id": "ss29-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "If you do not read the instructions, you may make a mistake.",
+      "promptZh": "如果你不閱讀指示，可能會犯錯。",
+      "starter": "Read",
+      "answer": "Read the instructions, or you may make a mistake.",
+      "answerZh": "閱讀指示，否則你可能會犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "Read the instructions, or you may make a mistake."
+    },
+    {
+      "id": "ss29-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Leo should save his document because he could lose his work if he does not.",
+      "promptZh": "里奧應該儲存文件，因為如果不儲存，他可能會失去已完成的工作。",
+      "starter": "Leo",
+      "answer": "Leo should save his document. Otherwise, he could lose his work.",
+      "answerZh": "里奧應該儲存文件，否則他可能會失去已完成的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo should save his document. Otherwise, he could lose his work."
+    },
+    {
+      "id": "ss29-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "If you do not wear a coat, you may feel cold outside.",
+      "promptZh": "如果你不穿外套，在外面可能會感到寒冷。",
+      "starter": "Wear",
+      "answer": "Wear a coat, or you may feel cold outside.",
+      "answerZh": "穿上外套，否則你在外面可能會感到寒冷。",
+      "answerZhSource": "pdf",
+      "highlight": "Wear a coat, or you may feel cold outside."
+    },
+    {
+      "id": "ss29-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The plants need to be watered today because they may dry out if they are not.",
+      "promptZh": "這些植物今天需要澆水，因為如果不澆水，它們可能會枯乾。",
+      "starter": "The",
+      "answer": "The plants need to be watered today. Otherwise, they may dry out.",
+      "answerZh": "這些植物今天需要澆水，否則可能會枯乾。",
+      "answerZhSource": "pdf",
+      "highlight": "The plants need to be watered today. Otherwise, they may dry out."
+    },
+    {
+      "id": "ss29-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "You should set an alarm. If you do not, you might oversleep.",
+      "promptZh": "你應該設定鬧鐘。如果不這樣做，你可能會睡過頭。",
+      "starter": "Set",
+      "answer": "Set an alarm, or you might oversleep.",
+      "answerZh": "設定鬧鐘，否則你可能會睡過頭。",
+      "answerZhSource": "pdf",
+      "highlight": "Set an alarm, or you might oversleep."
+    },
+    {
+      "id": "ss29-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "Sarah must submit the form today. If she fails to do so, her application may be delayed.",
+      "promptZh": "莎拉必須在今天提交表格。如果她未能這樣做，她的申請可能會被延誤。",
+      "starter": "Sarah",
+      "answer": "Sarah must submit the form today. Otherwise, her application may be delayed.",
+      "answerZh": "莎拉必須在今天提交表格，否則她的申請可能會被延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah must submit the form today. Otherwise, her application may be delayed."
+    },
+    {
+      "id": "ss29-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "We should book the tickets soon because there may be no seats left if we wait.",
+      "promptZh": "我們應該盡快預訂門票，因為如果再等下去，可能會沒有剩餘座位。",
+      "starter": "We",
+      "answer": "We should book the tickets soon, or there may be no seats left.",
+      "answerZh": "我們應該盡快預訂門票，否則可能會沒有剩餘座位。",
+      "answerZhSource": "pdf",
+      "highlight": "We should book the tickets soon, or there may be no seats left."
+    },
+    {
+      "id": "ss29-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Why should Ben check the address again? If he does not, he may send the parcel to the wrong place.",
+      "promptZh": "本為甚麼應該再次核對地址？如果不核對，他可能會把包裹寄到錯誤的地方。",
+      "starter": "Ben",
+      "answer": "Ben should check the address again. Otherwise, he may send the parcel to the wrong place.",
+      "answerZh": "本應該再次核對地址，否則可能會把包裹寄到錯誤的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben should check the address again. Otherwise, he may send the parcel to the wrong place."
+    },
+    {
+      "id": "ss29-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "You need to stir the soup because it may burn if you leave it still.",
+      "promptZh": "你需要攪拌湯，因為如果一直不攪拌，湯可能會燒焦。",
+      "starter": "Stir",
+      "answer": "Stir the soup, or it may burn.",
+      "answerZh": "攪拌湯，否則湯可能會燒焦。",
+      "answerZhSource": "pdf",
+      "highlight": "Stir the soup, or it may burn."
+    },
+    {
+      "id": "ss29-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The class must remain quiet. If the class becomes noisy, the other students cannot concentrate.",
+      "promptZh": "全班必須保持安靜。如果課室變得嘈吵，其他學生便不能集中精神。",
+      "starter": "The",
+      "answer": "The class must remain quiet. Otherwise, the other students cannot concentrate.",
+      "answerZh": "全班必須保持安靜，否則其他學生便不能集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "The class must remain quiet. Otherwise, the other students cannot concentrate."
+    },
+    {
+      "id": "ss29-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Unless you check the train time, you may arrive after the last train has left.",
+      "promptZh": "除非你查看火車時間，否則你到達時尾班車可能已經開出。",
+      "starter": "Check",
+      "answer": "Check the train time, or you may arrive after the last train has left.",
+      "answerZh": "查看火車時間，否則你到達時尾班車可能已經開出。",
+      "answerZhSource": "pdf",
+      "highlight": "Check the train time, or you may arrive after the last train has left."
+    },
+    {
+      "id": "ss29-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Chloe should bring her student card. Without it, she cannot enter the library.",
+      "promptZh": "克洛伊應該帶學生證。沒有學生證，她便不能進入圖書館。",
+      "starter": "Chloe",
+      "answer": "Chloe should bring her student card. Otherwise, she cannot enter the library.",
+      "answerZh": "克洛伊應該帶學生證，否則她不能進入圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe should bring her student card. Otherwise, she cannot enter the library."
+    },
+    {
+      "id": "ss29-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "You must keep the door closed because the dog may run outside if you leave it open.",
+      "promptZh": "你必須把門關好，因為如果把門打開，狗隻可能會跑到外面。",
+      "starter": "Keep",
+      "answer": "Keep the door closed, or the dog may run outside.",
+      "answerZh": "把門關好，否則狗隻可能會跑到外面。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the door closed, or the dog may run outside."
+    },
+    {
+      "id": "ss29-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "We need to buy enough food today. If we do not, we will have nothing to cook tomorrow.",
+      "promptZh": "我們今天需要購買足夠的食物。如果不買，明天便沒有東西可以烹煮。",
+      "starter": "We",
+      "answer": "We need to buy enough food today. Otherwise, we will have nothing to cook tomorrow.",
+      "answerZh": "我們今天需要購買足夠的食物，否則明天便沒有東西可以烹煮。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to buy enough food today. Otherwise, we will have nothing to cook tomorrow."
+    },
+    {
+      "id": "ss29-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Why must Noah wear safety glasses? His eyes could be hurt if he does not.",
+      "promptZh": "諾亞為甚麼必須戴上護目鏡？如果不戴，他的眼睛可能會受傷。",
+      "starter": "Noah",
+      "answer": "Noah must wear safety glasses, or his eyes could be hurt.",
+      "answerZh": "諾亞必須戴上護目鏡，否則他的眼睛可能會受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah must wear safety glasses, or his eyes could be hurt."
+    },
+    {
+      "id": "ss29-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "All files should be backed up. If this is not done, important information may be lost.",
+      "promptZh": "所有文件都應該備份。如果沒有備份，重要資料可能會遺失。",
+      "starter": "All",
+      "answer": "All files should be backed up. Otherwise, important information may be lost.",
+      "answerZh": "所有文件都應該備份，否則重要資料可能會遺失。",
+      "answerZhSource": "pdf",
+      "highlight": "All files should be backed up. Otherwise, important information may be lost."
+    },
+    {
+      "id": "ss29-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The nurse must check the patient’s name before giving the medicine. If she does not, she may give it to the wrong person.",
+      "promptZh": "護士在派藥前必須核對病人的姓名。如果不核對，她可能會把藥物交給錯誤的人。",
+      "starter": "The",
+      "answer": "The nurse must check the patient’s name before giving the medicine, or she may give it to the wrong person.",
+      "answerZh": "護士在派藥前必須核對病人的姓名，否則可能會把藥物交給錯誤的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse must check the patient’s name before giving the medicine, or she may give it to the wrong person."
+    },
+    {
+      "id": "ss29-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Daniel needs to leave at six. If he leaves later, he will not reach the airport on time.",
+      "promptZh": "丹尼爾需要在六時離開。如果再遲一點出發，他便不能準時到達機場。",
+      "starter": "Daniel",
+      "answer": "Daniel needs to leave at six. Otherwise, he will not reach the airport on time.",
+      "answerZh": "丹尼爾需要在六時離開，否則便不能準時到達機場。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel needs to leave at six. Otherwise, he will not reach the airport on time."
+    },
+    {
+      "id": "ss29-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "You should copy the important photos to another device. Without a copy, you could lose them all.",
+      "promptZh": "你應該把重要照片複製到另一部裝置。沒有備份的話，你可能會失去所有照片。",
+      "starter": "Copy",
+      "answer": "Copy the important photos to another device, or you could lose them all.",
+      "answerZh": "把重要照片複製到另一部裝置，否則你可能會失去所有照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Copy the important photos to another device, or you could lose them all."
+    },
+    {
+      "id": "ss29-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The manager must explain the changes clearly. If she does not, the staff may misunderstand the new procedure.",
+      "promptZh": "經理必須清楚解釋有關改動。如果不清楚解釋，員工可能會誤解新程序。",
+      "starter": "The",
+      "answer": "The manager must explain the changes clearly. Otherwise, the staff may misunderstand the new procedure.",
+      "answerZh": "經理必須清楚解釋有關改動，否則員工可能會誤解新程序。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager must explain the changes clearly. Otherwise, the staff may misunderstand the new procedure."
+    },
+    {
+      "id": "ss29-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "Residents must separate paper from other rubbish because it cannot be recycled properly if they do not.",
+      "promptZh": "居民必須把紙張和其他垃圾分開，因為如果不這樣做，紙張便不能被妥善回收。",
+      "starter": "Residents",
+      "answer": "Residents must separate paper from other rubbish, or it cannot be recycled properly.",
+      "answerZh": "居民必須把紙張和其他垃圾分開，否則紙張便不能被妥善回收。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents must separate paper from other rubbish, or it cannot be recycled properly."
+    },
+    {
+      "id": "ss29-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Aisha should write down the appointment time. If she relies only on her memory, she may forget it.",
+      "promptZh": "艾莎應該記下預約時間。如果只依靠記憶，她可能會忘記。",
+      "starter": "Aisha",
+      "answer": "Aisha should write down the appointment time. Otherwise, she may forget it.",
+      "answerZh": "艾莎應該記下預約時間，否則可能會忘記。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha should write down the appointment time. Otherwise, she may forget it."
+    },
+    {
+      "id": "ss29-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "You must not touch the paintings because you could damage them.",
+      "promptZh": "你不得觸摸畫作，因為你可能會令它們受損。",
+      "starter": "Do",
+      "answer": "Do not touch the paintings, or you could damage them.",
+      "answerZh": "不要觸摸畫作，否則你可能會令它們受損。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not touch the paintings, or you could damage them."
+    },
+    {
+      "id": "ss29-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The school needs to repair the broken gate. If it remains damaged, children could enter the road.",
+      "promptZh": "學校需要修理損壞的大閘。如果大閘繼續損壞，兒童可能會走到馬路上。",
+      "starter": "The",
+      "answer": "The school needs to repair the broken gate. Otherwise, children could enter the road.",
+      "answerZh": "學校需要修理損壞的大閘，否則兒童可能會走到馬路上。",
+      "answerZhSource": "pdf",
+      "highlight": "The school needs to repair the broken gate. Otherwise, children could enter the road."
+    },
+    {
+      "id": "ss29-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "You should keep the receipt because the shop may refuse a refund without it.",
+      "promptZh": "你應該保留收據，因為沒有收據，商店可能會拒絕退款。",
+      "starter": "Keep",
+      "answer": "Keep the receipt, or the shop may refuse a refund.",
+      "answerZh": "保留收據，否則商店可能會拒絕退款。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep the receipt, or the shop may refuse a refund."
+    },
+    {
+      "id": "ss29-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Grace took a map with her. If she had not taken it, she might have got lost.",
+      "promptZh": "格蕾絲隨身帶了地圖。如果她沒有帶地圖，便可能已經迷路。",
+      "starter": "Grace",
+      "answer": "Grace took a map with her. Otherwise, she might have got lost.",
+      "answerZh": "格蕾絲隨身帶了地圖，否則她可能已經迷路。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace took a map with her. Otherwise, she might have got lost."
+    },
+    {
+      "id": "ss29-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The team must practise the emergency plan. If they do not, they may not know what to do during a fire.",
+      "promptZh": "團隊必須練習緊急應變計劃。如果不練習，火警發生時他們可能不知道應該怎樣做。",
+      "starter": "The",
+      "answer": "The team must practise the emergency plan, or they may not know what to do during a fire.",
+      "answerZh": "團隊必須練習緊急應變計劃，否則火警發生時，他們可能不知道應該怎樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "The team must practise the emergency plan, or they may not know what to do during a fire."
+    },
+    {
+      "id": "ss29-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The lights should be switched off before everyone leaves. If they are not, electricity will be wasted all night.",
+      "promptZh": "所有人離開前都應該關燈。如果沒有關燈，電力便會整夜被浪費。",
+      "starter": "The",
+      "answer": "The lights should be switched off before everyone leaves. Otherwise, electricity will be wasted all night.",
+      "answerZh": "所有人離開前都應該關燈，否則電力便會整夜被浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights should be switched off before everyone leaves. Otherwise, electricity will be wasted all night."
+    },
+    {
+      "id": "ss29-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "If you do not update the app, some features may stop working properly.",
+      "promptZh": "如果你不更新應用程式，部分功能可能會停止正常運作。",
+      "starter": "Update",
+      "answer": "Update the app, or some features may stop working properly.",
+      "answerZh": "更新應用程式，否則部分功能可能會停止正常運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Update the app, or some features may stop working properly."
+    },
+    {
+      "id": "ss29-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Why did Ethan carry some cash? Without it, he might not have been able to pay at the small shop.",
+      "promptZh": "伊森為甚麼帶備一些現金？沒有現金，他可能無法在那間小店付款。",
+      "starter": "Ethan",
+      "answer": "Ethan carried some cash. Otherwise, he might not have been able to pay at the small shop.",
+      "answerZh": "伊森帶備了一些現金，否則他可能無法在那間小店付款。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan carried some cash. Otherwise, he might not have been able to pay at the small shop."
+    },
+    {
+      "id": "ss29-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The recipe says that you must measure the flour carefully because the cake may become too dry if you use too much.",
+      "promptZh": "食譜說你必須小心量度麵粉，因為如果使用過多麵粉，蛋糕可能會變得太乾。",
+      "starter": "Measure",
+      "answer": "Measure the flour carefully, or the cake may become too dry.",
+      "answerZh": "小心量度麵粉，否則蛋糕可能會變得太乾。",
+      "answerZhSource": "pdf",
+      "highlight": "Measure the flour carefully, or the cake may become too dry."
+    },
+    {
+      "id": "ss29-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The council must clear the blocked drains before the storm. If it does not, nearby streets may flood.",
+      "promptZh": "市議會必須在暴風雨來臨前清理淤塞的排水渠。如果不清理，附近街道可能會水浸。",
+      "starter": "The",
+      "answer": "The council must clear the blocked drains before the storm. Otherwise, nearby streets may flood.",
+      "answerZh": "市議會必須在暴風雨來臨前清理淤塞的排水渠，否則附近街道可能會水浸。",
+      "answerZhSource": "pdf",
+      "highlight": "The council must clear the blocked drains before the storm. Otherwise, nearby streets may flood."
+    },
+    {
+      "id": "ss29-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "You must speak clearly during the online meeting because people may misunderstand you if your voice is unclear.",
+      "promptZh": "你在網上會議中必須清楚說話，因為如果聲音不清楚，其他人可能會誤解你的意思。",
+      "starter": "Speak",
+      "answer": "Speak clearly during the online meeting, or people may misunderstand you.",
+      "answerZh": "在網上會議中清楚說話，否則其他人可能會誤解你的意思。",
+      "answerZhSource": "pdf",
+      "highlight": "Speak clearly during the online meeting, or people may misunderstand you."
+    },
+    {
+      "id": "ss29-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Maya saved the booking confirmation on her phone. Without it, she might have had trouble checking in.",
+      "promptZh": "瑪雅把預訂確認文件儲存在手機中。沒有這份文件，她辦理登記手續時可能會遇到困難。",
+      "starter": "Maya",
+      "answer": "Maya saved the booking confirmation on her phone. Otherwise, she might have had trouble checking in.",
+      "answerZh": "瑪雅把預訂確認文件儲存在手機中，否則她辦理登記手續時可能會遇到困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya saved the booking confirmation on her phone. Otherwise, she might have had trouble checking in."
+    },
+    {
+      "id": "ss29-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The driver should slow down near the school because he may not be able to stop in time if a child steps into the road.",
+      "promptZh": "司機駛近學校時應該減速，因為如果有兒童走出馬路，他可能無法及時停車。",
+      "starter": "The",
+      "answer": "The driver should slow down near the school, or he may not be able to stop in time if a child steps into the road.",
+      "answerZh": "司機駛近學校時應該減速，否則如果有兒童走出馬路，他可能無法及時停車。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver should slow down near the school, or he may not be able to stop in time if a child steps into the road."
+    },
+    {
+      "id": "ss29-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The hospital should keep emergency exits clear at all times. If it fails to do so, people may not be able to leave quickly during an emergency.",
+      "promptZh": "醫院應該時刻保持緊急出口暢通。如果未能這樣做，發生緊急事故時，人們可能無法迅速離開。",
+      "starter": "The",
+      "answer": "The hospital should keep emergency exits clear at all times. Otherwise, people may not be able to leave quickly during an emergency.",
+      "answerZh": "醫院應該時刻保持緊急出口暢通，否則發生緊急事故時，人們可能無法迅速離開。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital should keep emergency exits clear at all times. Otherwise, people may not be able to leave quickly during an emergency."
+    },
+    {
+      "id": "ss29-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Parents must return the signed consent form by Friday. If they do not, their child may not be allowed to join the trip.",
+      "promptZh": "家長必須在星期五前交回已簽署的同意書。如果沒有交回，子女可能不獲准參加旅行。",
+      "starter": "Parents",
+      "answer": "Parents must return the signed consent form by Friday, or their child may not be allowed to join the trip.",
+      "answerZh": "家長必須在星期五前交回已簽署的同意書，否則子女可能不獲准參加旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents must return the signed consent form by Friday, or their child may not be allowed to join the trip."
+    },
+    {
+      "id": "ss29-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The customer service team should record every complaint accurately. If details are missing, the next member of staff may not understand the problem.",
+      "promptZh": "顧客服務團隊應該準確記錄每宗投訴。如果資料有所遺漏，下一名職員可能無法了解問題。",
+      "starter": "The",
+      "answer": "The customer service team should record every complaint accurately. Otherwise, the next member of staff may not understand the problem.",
+      "answerZh": "顧客服務團隊應該準確記錄每宗投訴，否則下一名職員可能無法了解問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer service team should record every complaint accurately. Otherwise, the next member of staff may not understand the problem."
+    },
+    {
+      "id": "ss29-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The laboratory staff must label every sample clearly because an unlabelled sample could be confused with another one.",
+      "promptZh": "實驗室職員必須清楚標示每個樣本，因為沒有標籤的樣本可能會與另一個樣本混淆。",
+      "starter": "The",
+      "answer": "The laboratory staff must label every sample clearly, or it could be confused with another one.",
+      "answerZh": "實驗室職員必須清楚標示每個樣本，否則樣本可能會與另一個樣本混淆。",
+      "answerZhSource": "pdf",
+      "highlight": "The laboratory staff must label every sample clearly, or it could be confused with another one."
+    },
+    {
+      "id": "ss29-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The organisers tested the sound system before the event. If they had not done so, the audience might not have heard the speakers clearly.",
+      "promptZh": "主辦單位在活動前測試了音響系統。如果他們沒有測試，觀眾可能無法清楚聽到講者的聲音。",
+      "starter": "The",
+      "answer": "The organisers tested the sound system before the event. Otherwise, the audience might not have heard the speakers clearly.",
+      "answerZh": "主辦單位在活動前測試了音響系統，否則觀眾可能無法清楚聽到講者的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers tested the sound system before the event. Otherwise, the audience might not have heard the speakers clearly."
+    },
+    {
+      "id": "ss29-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Staff should lock confidential papers in a cabinet because an unauthorised person may read them if they do not.",
+      "promptZh": "職員應該把機密文件鎖在文件櫃內，因為如果不這樣做，未經授權的人可能會閱讀文件。",
+      "starter": "Staff",
+      "answer": "Staff should lock confidential papers in a cabinet, or an unauthorised person may read them.",
+      "answerZh": "職員應該把機密文件鎖在文件櫃內，否則未經授權的人可能會閱讀文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff should lock confidential papers in a cabinet, or an unauthorised person may read them."
+    },
+    {
+      "id": "ss29-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20
+      },
+      "prompt": "The school must explain the new dismissal arrangements to families in advance. If it does not, some parents may arrive at the wrong gate.",
+      "promptZh": "學校必須預先向家長解釋新的放學安排。如果沒有解釋，部分家長可能會前往錯誤的校門。",
+      "starter": "The",
+      "answer": "The school must explain the new dismissal arrangements to families in advance. Otherwise, some parents may arrive at the wrong gate.",
+      "answerZh": "學校必須預先向家長解釋新的放學安排，否則部分家長可能會前往錯誤的校門。",
+      "answerZhSource": "pdf",
+      "highlight": "The school must explain the new dismissal arrangements to families in advance. Otherwise, some parents may arrive at the wrong gate."
+    },
+    {
+      "id": "ss29-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The maintenance team must inspect the lift regularly because a small fault may become a serious safety problem if it is ignored.",
+      "promptZh": "維修團隊必須定期檢查升降機，因為如果小故障受到忽視，便可能變成嚴重的安全問題。",
+      "starter": "The",
+      "answer": "The maintenance team must inspect the lift regularly, or a small fault may become a serious safety problem.",
+      "answerZh": "維修團隊必須定期檢查升降機，否則小故障可能會變成嚴重的安全問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The maintenance team must inspect the lift regularly, or a small fault may become a serious safety problem."
+    },
+    {
+      "id": "ss29-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The project team agreed on one version of the timetable. If they had continued using different versions, several tasks might have been scheduled for the wrong dates.",
+      "promptZh": "項目團隊同意使用同一版本的時間表。如果他們繼續使用不同版本，數項工作可能會被安排在錯誤的日期。",
+      "starter": "The",
+      "answer": "The project team agreed on one version of the timetable. Otherwise, several tasks might have been scheduled for the wrong dates.",
+      "answerZh": "項目團隊同意使用同一版本的時間表，否則數項工作可能會被安排在錯誤的日期。",
+      "answerZhSource": "pdf",
+      "highlight": "The project team agreed on one version of the timetable. Otherwise, several tasks might have been scheduled for the wrong dates."
+    },
+    {
+      "id": "ss29-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Public service staff must check that translated notices match the original message. If they do not, residents may receive incorrect instructions about what to do.",
+      "promptZh": "公共服務人員必須核對翻譯通告是否符合原文。如果不核對，居民可能會收到錯誤的行動指示。",
+      "starter": "Public",
+      "answer": "Public service staff must check that translated notices match the original message, or residents may receive incorrect instructions about what to do.",
+      "answerZh": "公共服務人員必須核對翻譯通告是否符合原文，否則居民可能會收到錯誤的行動指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Public service staff must check that translated notices match the original message, or residents may receive incorrect instructions about what to do."
+    }
+  ]
+}

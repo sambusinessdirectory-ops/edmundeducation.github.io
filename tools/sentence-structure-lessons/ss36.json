@@ -1,0 +1,1067 @@
+{
+  "id": "ss36",
+  "order": 36,
+  "slug": "it-adjective-that-clause",
+  "title": "「It is + 形容詞 + that 句」句型",
+  "titleZh": "「It is + 形容詞 + that 句」表達判斷、評價或可能性",
+  "titleEn": "Using It + adjective + that-clause for judgement, evaluation or possibility",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 36 - 「It is + 形容詞 + that 句」表達判斷、評價或可能性.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Communicative Function, Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "It + be + adjective + that + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss36-formula-that",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "It + be + adjective + that + subject + verb + other information"
+    }
+  ],
+  "example": "It is important that we learn about world history.",
+  "exampleZh": "我們學習世界歷史是很重要的。",
+  "examples": [
+    {
+      "id": "ss36-example-01",
+      "en": "It is important that we learn about world history.",
+      "zh": "我們學習世界歷史是很重要的。",
+      "highlight": "It is important that"
+    }
+  ],
+  "meaning": {
+    "zh": "用來對 that 後面的整件事作出判斷或評價，例如表示重要或必要、清楚或明顯、意外、擔憂、鼓舞或失望，以及可能、很可能或不大可能發生。"
+  },
+  "rules": [
+    {
+      "id": "ss36-rule-01",
+      "en": "A complete clause must follow that, with its own subject and verb.",
+      "zh": "That 後面必須是一個完整句子，並有自己的主語和動詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is clear that Mia understands the instructions."
+      ]
+    },
+    {
+      "id": "ss36-rule-02",
+      "en": "Use an adjective, not an adverb, after It is: clear, surprising, unfortunate and likely, not clearly, surprisingly, unfortunately or probably.",
+      "zh": "在 It is 後面應使用形容詞，而不是副詞，例如 clear、surprising、unfortunate 和 likely。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is clear that the shop is closed."
+      ]
+    },
+    {
+      "id": "ss36-rule-03",
+      "en": "Keep the tense in the that-clause consistent with the original meaning: present, past, future or present perfect.",
+      "zh": "That 句中的時態要配合原本意思，例如現在式、過去式、將來式或現在完成式。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is clear that he understands the rule.",
+        "It is surprising that he finished so quickly.",
+        "It is likely that she will arrive early.",
+        "It is clear that the system has improved."
+      ]
+    },
+    {
+      "id": "ss36-rule-04",
+      "en": "This lesson uses ordinary complete clauses after important, necessary and essential. Should + base verb and the formal subjunctive are not the main answers here.",
+      "zh": "本課在 important、necessary 和 essential 後面集中使用一般完整子句；should + 動詞原形和正式英語中的虛擬語氣不是主要答案。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is important that everyone follows the rules."
+      ]
+    },
+    {
+      "id": "ss36-rule-05",
+      "en": "Do not confuse this structure with It is + adjective + to + verb. A that-clause clearly identifies who acts or which situation is being evaluated.",
+      "zh": "不要與 It is + adjective + to + verb 混淆。使用 that 句可以明確說出誰做這個行動，或哪一件事情受到評價。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is important to learn about history.",
+        "It is important that we learn about history."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss36-benefit-01",
+      "en": "It immediately states your judgement.",
+      "zh": "把形容詞放在前面，讀者可以很快知道你認為一件事重要、清楚、意外、可能或令人擔心。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss36-benefit-02",
+      "en": "It combines an event and its evaluation in one sentence.",
+      "zh": "不用寫兩個分開的短句，也能清楚把「事情」和「評價」合併成一句。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss36-benefit-03",
+      "en": "It expresses degrees of possibility clearly.",
+      "zh": "可使用 possible、likely、unlikely 或 certain，準確表達一件事發生的機會。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss36-benefit-04",
+      "en": "It avoids repeatedly using I think.",
+      "zh": "省略 I think 可以把注意力放在事情本身，適合作文、報告、簡報和正式討論。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss36-benefit-05",
+      "en": "It helps you develop an explanation.",
+      "zh": "先使用這個句型提出判斷，然後加入原因、例子或結果，形成清楚的段落開頭。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents the Communicative Function, Important Rules and Benefits explanations mainly in Chinese; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using It is + adjective + that.",
+      "Preserve the original meaning, tense, positive or negative meaning, and all important information.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It is + 形容詞 + that 改寫以下句子。",
+      "答案須保留原句的意思、時態、肯定或否定意思，以及所有重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss36-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "We should drink enough water every day. This is important.",
+      "promptZh": "我們每天都應該喝足夠的水。這是很重要的。",
+      "starter": "It",
+      "answer": "It is important that we drink enough water every day.",
+      "answerZh": "我們每天喝足夠的水是很重要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is important that we drink enough water every day."
+    },
+    {
+      "id": "ss36-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Mia clearly understands the instructions.",
+      "promptZh": "米婭顯然明白這些指示。",
+      "starter": "It",
+      "answer": "It is clear that Mia understands the instructions.",
+      "answerZh": "很明顯，米婭明白這些指示。",
+      "answerZhSource": "pdf",
+      "highlight": "It is clear that Mia understands the instructions."
+    },
+    {
+      "id": "ss36-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The children are playing outside, and this is a good thing.",
+      "promptZh": "孩子們正在戶外玩耍，這是一件好事。",
+      "starter": "It",
+      "answer": "It is good that the children are playing outside.",
+      "answerZh": "孩子們正在戶外玩耍是一件好事。",
+      "answerZhSource": "pdf",
+      "highlight": "It is good that the children are playing outside."
+    },
+    {
+      "id": "ss36-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Ben finished the race very quickly. This was surprising.",
+      "promptZh": "本很快便完成賽事。這令人意外。",
+      "starter": "It",
+      "answer": "It is surprising that Ben finished the race very quickly.",
+      "answerZh": "本很快便完成賽事是令人意外的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is surprising that Ben finished the race very quickly."
+    },
+    {
+      "id": "ss36-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "You must bring your identity card.",
+      "promptZh": "你必須帶備身分證。",
+      "starter": "It",
+      "answer": "It is necessary that you bring your identity card.",
+      "answerZh": "你帶備身分證是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is necessary that you bring your identity card."
+    },
+    {
+      "id": "ss36-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The shop may close early today.",
+      "promptZh": "這間商店今天可能會提早關門。",
+      "starter": "It",
+      "answer": "It is possible that the shop will close early today.",
+      "answerZh": "這間商店今天有可能提早關門。",
+      "answerZhSource": "pdf",
+      "highlight": "It is possible that the shop will close early today."
+    },
+    {
+      "id": "ss36-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Sarah will probably arrive before noon.",
+      "promptZh": "莎拉很可能會在中午前到達。",
+      "starter": "It",
+      "answer": "It is likely that Sarah will arrive before noon.",
+      "answerZh": "莎拉很可能會在中午前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "It is likely that Sarah will arrive before noon."
+    },
+    {
+      "id": "ss36-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Unfortunately, our picnic was cancelled.",
+      "promptZh": "很不幸，我們的野餐被取消了。",
+      "starter": "It",
+      "answer": "It is unfortunate that our picnic was cancelled.",
+      "answerZh": "我們的野餐被取消是很不幸的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is unfortunate that our picnic was cancelled."
+    },
+    {
+      "id": "ss36-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Obviously, this bag belongs to Leo.",
+      "promptZh": "很明顯，這個袋屬於里奧。",
+      "starter": "It",
+      "answer": "It is obvious that this bag belongs to Leo.",
+      "answerZh": "很明顯，這個袋屬於里奧。",
+      "answerZhSource": "pdf",
+      "highlight": "It is obvious that this bag belongs to Leo."
+    },
+    {
+      "id": "ss36-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The teacher gives us clear examples. This is helpful.",
+      "promptZh": "老師給我們清楚的例子。這很有幫助。",
+      "starter": "It",
+      "answer": "It is helpful that the teacher gives us clear examples.",
+      "answerZh": "老師給我們清楚的例子是很有幫助的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is helpful that the teacher gives us clear examples."
+    },
+    {
+      "id": "ss36-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Everyone should follow the safety rules. This is important.",
+      "promptZh": "每個人都應該遵守安全規則。這很重要。",
+      "starter": "It",
+      "answer": "It is important that everyone follows the safety rules.",
+      "answerZh": "每個人遵守安全規則是很重要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is important that everyone follows the safety rules."
+    },
+    {
+      "id": "ss36-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Strangely, the lights are still on.",
+      "promptZh": "奇怪的是，燈仍然亮着。",
+      "starter": "It",
+      "answer": "It is strange that the lights are still on.",
+      "answerZh": "燈仍然亮着是很奇怪的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is strange that the lights are still on."
+    },
+    {
+      "id": "ss36-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "More students are reading for pleasure. This is encouraging.",
+      "promptZh": "越來越多學生為興趣而閱讀。這令人鼓舞。",
+      "starter": "It",
+      "answer": "It is encouraging that more students are reading for pleasure.",
+      "answerZh": "越來越多學生為興趣而閱讀是令人鼓舞的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is encouraging that more students are reading for pleasure."
+    },
+    {
+      "id": "ss36-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The team did not practise enough. This is disappointing.",
+      "promptZh": "球隊練習得不夠。這令人失望。",
+      "starter": "It",
+      "answer": "It is disappointing that the team did not practise enough.",
+      "answerZh": "球隊練習得不夠是令人失望的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is disappointing that the team did not practise enough."
+    },
+    {
+      "id": "ss36-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "There is no doubt that the train has already left.",
+      "promptZh": "毫無疑問，火車已經開出了。",
+      "starter": "It",
+      "answer": "It is certain that the train has already left.",
+      "answerZh": "可以肯定的是，火車已經開出了。",
+      "answerZhSource": "pdf",
+      "highlight": "It is certain that the train has already left."
+    },
+    {
+      "id": "ss36-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The road probably will not reopen this evening.",
+      "promptZh": "這條道路今晚很可能不會重開。",
+      "starter": "It",
+      "answer": "It is unlikely that the road will reopen this evening.",
+      "answerZh": "這條道路今晚不大可能重開。",
+      "answerZhSource": "pdf",
+      "highlight": "It is unlikely that the road will reopen this evening."
+    },
+    {
+      "id": "ss36-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Patients must take the medicine as directed. This is essential.",
+      "promptZh": "病人必須按照指示服藥。這是必要的。",
+      "starter": "It",
+      "answer": "It is essential that patients take the medicine as directed.",
+      "answerZh": "病人按照指示服藥是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is essential that patients take the medicine as directed."
+    },
+    {
+      "id": "ss36-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The test results are normal, which is reassuring.",
+      "promptZh": "測試結果正常，這讓人安心。",
+      "starter": "It",
+      "answer": "It is reassuring that the test results are normal.",
+      "answerZh": "測試結果正常是令人安心的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is reassuring that the test results are normal."
+    },
+    {
+      "id": "ss36-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The river is becoming more polluted. This is worrying.",
+      "promptZh": "河流污染日益嚴重。這令人擔憂。",
+      "starter": "It",
+      "answer": "It is worrying that the river is becoming more polluted.",
+      "answerZh": "河流污染日益嚴重是令人擔憂的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worrying that the river is becoming more polluted."
+    },
+    {
+      "id": "ss36-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Nina feels nervous before the interview. This is understandable.",
+      "promptZh": "妮娜在面試前感到緊張。這是可以理解的。",
+      "starter": "It",
+      "answer": "It is understandable that Nina feels nervous before the interview.",
+      "answerZh": "妮娜在面試前感到緊張是可以理解的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is understandable that Nina feels nervous before the interview."
+    },
+    {
+      "id": "ss36-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The school needs to provide quiet study spaces. This is important.",
+      "promptZh": "學校需要提供安靜的自修空間。這很重要。",
+      "starter": "It",
+      "answer": "It is important that the school provides quiet study spaces.",
+      "answerZh": "學校提供安靜的自修空間是很重要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is important that the school provides quiet study spaces."
+    },
+    {
+      "id": "ss36-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The missing parcel may have been sent to the wrong address.",
+      "promptZh": "遺失的包裹可能被寄到錯誤的地址。",
+      "starter": "It",
+      "answer": "It is possible that the missing parcel was sent to the wrong address.",
+      "answerZh": "遺失的包裹有可能被寄到錯誤的地址。",
+      "answerZhSource": "pdf",
+      "highlight": "It is possible that the missing parcel was sent to the wrong address."
+    },
+    {
+      "id": "ss36-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Nobody noticed the broken window, which is surprising.",
+      "promptZh": "沒有人注意到破裂的窗戶，這令人意外。",
+      "starter": "It",
+      "answer": "It is surprising that nobody noticed the broken window.",
+      "answerZh": "沒有人注意到破裂的窗戶是令人意外的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is surprising that nobody noticed the broken window."
+    },
+    {
+      "id": "ss36-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Fortunately, the driver saw the child in time.",
+      "promptZh": "幸好，司機及時看見那名孩子。",
+      "starter": "It",
+      "answer": "It is fortunate that the driver saw the child in time.",
+      "answerZh": "幸好司機及時看見了那名孩子。",
+      "answerZhSource": "pdf",
+      "highlight": "It is fortunate that the driver saw the child in time."
+    },
+    {
+      "id": "ss36-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The new system has clearly reduced waiting times.",
+      "promptZh": "新系統顯然縮短了等候時間。",
+      "starter": "It",
+      "answer": "It is clear that the new system has reduced waiting times.",
+      "answerZh": "很明顯，新系統已經縮短了等候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "It is clear that the new system has reduced waiting times."
+    },
+    {
+      "id": "ss36-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "There is some doubt about whether this old computer can run the programme.",
+      "promptZh": "對於這部舊電腦能否運行這個程式，仍存在一些疑問。",
+      "starter": "It",
+      "answer": "It is doubtful that this old computer can run the programme.",
+      "answerZh": "這部舊電腦能夠運行這個程式的可能性不大。",
+      "answerZhSource": "pdf",
+      "highlight": "It is doubtful that this old computer can run the programme."
+    },
+    {
+      "id": "ss36-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Customers’ expectation of a full refund is understandable.",
+      "promptZh": "顧客期望獲得全數退款是可以理解的。",
+      "starter": "It",
+      "answer": "It is understandable that customers expect a full refund.",
+      "answerZh": "顧客期望獲得全數退款是可以理解的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is understandable that customers expect a full refund."
+    },
+    {
+      "id": "ss36-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The meeting ended without a decision. This was disappointing.",
+      "promptZh": "會議在未有作出決定的情況下結束。這令人失望。",
+      "starter": "It",
+      "answer": "It is disappointing that the meeting ended without a decision.",
+      "answerZh": "會議在未有作出決定的情況下結束是令人失望的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is disappointing that the meeting ended without a decision."
+    },
+    {
+      "id": "ss36-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "There is a good chance that the museum will attract more visitors next year.",
+      "promptZh": "博物館明年很有機會吸引更多訪客。",
+      "starter": "It",
+      "answer": "It is likely that the museum will attract more visitors next year.",
+      "answerZh": "博物館明年很可能會吸引更多訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "It is likely that the museum will attract more visitors next year."
+    },
+    {
+      "id": "ss36-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "All applications must arrive before Friday.",
+      "promptZh": "所有申請必須在星期五前送達。",
+      "starter": "It",
+      "answer": "It is necessary that all applications arrive before Friday.",
+      "answerZh": "所有申請在星期五前送達是必要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is necessary that all applications arrive before Friday."
+    },
+    {
+      "id": "ss36-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The rapid growth of the small business is remarkable.",
+      "promptZh": "這間小型企業的迅速增長令人讚嘆。",
+      "starter": "It",
+      "answer": "It is remarkable that the small business has grown so quickly.",
+      "answerZh": "這間小型企業發展得如此迅速，實在令人讚嘆。",
+      "answerZhSource": "pdf",
+      "highlight": "It is remarkable that the small business has grown so quickly."
+    },
+    {
+      "id": "ss36-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Unfortunately, the storm delayed several flights.",
+      "promptZh": "很不幸，暴風雨令數班航班延誤。",
+      "starter": "It",
+      "answer": "It is unfortunate that several flights were delayed by the storm.",
+      "answerZh": "數班航班因暴風雨而延誤是很不幸的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is unfortunate that several flights were delayed by the storm."
+    },
+    {
+      "id": "ss36-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Clearly, the painting was damaged before it reached the gallery.",
+      "promptZh": "很明顯，畫作在送抵畫廊前已經受損。",
+      "starter": "It",
+      "answer": "It is clear that the painting was damaged before it reached the gallery.",
+      "answerZh": "很明顯，畫作在送抵畫廊前已經受損。",
+      "answerZhSource": "pdf",
+      "highlight": "It is clear that the painting was damaged before it reached the gallery."
+    },
+    {
+      "id": "ss36-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The payment may have been recorded twice.",
+      "promptZh": "這筆款項可能被重複記錄。",
+      "starter": "It",
+      "answer": "It is possible that the payment was recorded twice.",
+      "answerZh": "這筆款項有可能被重複記錄。",
+      "answerZhSource": "pdf",
+      "highlight": "It is possible that the payment was recorded twice."
+    },
+    {
+      "id": "ss36-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Personal information must be kept secure.",
+      "promptZh": "個人資料必須妥善保管。",
+      "starter": "It",
+      "answer": "It is essential that personal information is kept secure.",
+      "answerZh": "個人資料得到妥善保管是非常重要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is essential that personal information is kept secure."
+    },
+    {
+      "id": "ss36-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The fact that the machine still works after twenty years is surprising.",
+      "promptZh": "這部機器使用了二十年後仍能運作，實在令人意外。",
+      "starter": "It",
+      "answer": "It is surprising that the machine still works after twenty years.",
+      "answerZh": "這部機器使用了二十年後仍能運作，實在令人意外。",
+      "answerZhSource": "pdf",
+      "highlight": "It is surprising that the machine still works after twenty years."
+    },
+    {
+      "id": "ss36-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The council probably will not approve the plan in its current form.",
+      "promptZh": "市議會很可能不會按目前的形式批准這項計劃。",
+      "starter": "It",
+      "answer": "It is unlikely that the council will approve the plan in its current form.",
+      "answerZh": "市議會不大可能按目前的形式批准這項計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "It is unlikely that the council will approve the plan in its current form."
+    },
+    {
+      "id": "ss36-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The offers of help from local residents are encouraging.",
+      "promptZh": "本地居民提出協助，令人鼓舞。",
+      "starter": "It",
+      "answer": "It is encouraging that local residents have offered to help.",
+      "answerZh": "本地居民主動提出協助是令人鼓舞的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is encouraging that local residents have offered to help."
+    },
+    {
+      "id": "ss36-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Some employees are worried about the change, and their concern is understandable.",
+      "promptZh": "一些僱員對這項改變感到擔心，而他們的憂慮是可以理解的。",
+      "starter": "It",
+      "answer": "It is understandable that some employees are worried about the change.",
+      "answerZh": "一些僱員對這項改變感到擔心是可以理解的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is understandable that some employees are worried about the change."
+    },
+    {
+      "id": "ss36-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Anyone can clearly see that the two reports describe the same incident.",
+      "promptZh": "任何人都能清楚看出，兩份報告描述的是同一宗事件。",
+      "starter": "It",
+      "answer": "It is obvious that the two reports describe the same incident.",
+      "answerZh": "很明顯，兩份報告描述的是同一宗事件。",
+      "answerZhSource": "pdf",
+      "highlight": "It is obvious that the two reports describe the same incident."
+    },
+    {
+      "id": "ss36-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Public services need to remain accessible to elderly residents. This is important.",
+      "promptZh": "公共服務需要繼續方便年長居民使用。這很重要。",
+      "starter": "It",
+      "answer": "It is important that public services remain accessible to elderly residents.",
+      "answerZh": "公共服務繼續方便年長居民使用是很重要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is important that public services remain accessible to elderly residents."
+    },
+    {
+      "id": "ss36-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "A technical fault may have caused the delay.",
+      "promptZh": "技術故障可能導致了這次延誤。",
+      "starter": "It",
+      "answer": "It is possible that the delay was caused by a technical fault.",
+      "answerZh": "這次延誤有可能是由技術故障造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is possible that the delay was caused by a technical fault."
+    },
+    {
+      "id": "ss36-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Many young people sleep less than seven hours a night. This is worrying.",
+      "promptZh": "很多年輕人每晚睡眠少於七小時。這令人擔憂。",
+      "starter": "It",
+      "answer": "It is worrying that many young people sleep less than seven hours a night.",
+      "answerZh": "很多年輕人每晚睡眠少於七小時是令人擔憂的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is worrying that many young people sleep less than seven hours a night."
+    },
+    {
+      "id": "ss36-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The research team had limited funding, yet it completed the study. This is remarkable.",
+      "promptZh": "研究團隊的資金有限，但仍完成了研究。這令人讚嘆。",
+      "starter": "It",
+      "answer": "It is remarkable that the research team completed the study despite having limited funding.",
+      "answerZh": "研究團隊即使資金有限仍完成了研究，實在令人讚嘆。",
+      "answerZhSource": "pdf",
+      "highlight": "It is remarkable that the research team completed the study despite having limited funding."
+    },
+    {
+      "id": "ss36-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The evidence clearly shows that the policy has affected small firms differently.",
+      "promptZh": "證據清楚顯示，這項政策對小型企業造成了不同的影響。",
+      "starter": "It",
+      "answer": "It is clear that the policy has affected small firms differently.",
+      "answerZh": "很明顯，這項政策對小型企業造成了不同的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "It is clear that the policy has affected small firms differently."
+    },
+    {
+      "id": "ss36-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "The information was not shared earlier, which was unfortunate.",
+      "promptZh": "資料未有更早分享，這是很不幸的。",
+      "starter": "It",
+      "answer": "It is unfortunate that the information was not shared earlier.",
+      "answerZh": "資料未有更早分享是很不幸的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is unfortunate that the information was not shared earlier."
+    },
+    {
+      "id": "ss36-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "Demand for electric buses will probably continue to rise.",
+      "promptZh": "電動巴士的需求很可能會繼續上升。",
+      "starter": "It",
+      "answer": "It is likely that demand for electric buses will continue to rise.",
+      "answerZh": "電動巴士的需求很可能會繼續上升。",
+      "answerZhSource": "pdf",
+      "highlight": "It is likely that demand for electric buses will continue to rise."
+    },
+    {
+      "id": "ss36-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "Emergency exits must be checked regularly.",
+      "promptZh": "緊急出口必須定期檢查。",
+      "starter": "It",
+      "answer": "It is essential that emergency exits are checked regularly.",
+      "answerZh": "緊急出口得到定期檢查是非常重要的。",
+      "answerZhSource": "pdf",
+      "highlight": "It is essential that emergency exits are checked regularly."
+    },
+    {
+      "id": "ss36-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "The almost identical accounts given by the two witnesses are surprising.",
+      "promptZh": "兩名證人提供的說法幾乎完全相同，這令人意外。",
+      "starter": "It",
+      "answer": "It is surprising that the two witnesses gave almost identical accounts.",
+      "answerZh": "兩名證人提供了幾乎完全相同的說法，實在令人意外。",
+      "answerZhSource": "pdf",
+      "highlight": "It is surprising that the two witnesses gave almost identical accounts."
+    },
+    {
+      "id": "ss36-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21
+      },
+      "prompt": "The introduction of a second safety check at the hospital is reassuring.",
+      "promptZh": "醫院引入第二重安全檢查，令人安心。",
+      "starter": "It",
+      "answer": "It is reassuring that the hospital has introduced a second safety check.",
+      "answerZh": "醫院引入了第二重安全檢查，這令人安心。",
+      "answerZhSource": "pdf",
+      "highlight": "It is reassuring that the hospital has introduced a second safety check."
+    }
+  ]
+}

@@ -3,7 +3,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || { version: "missing", lessons: [] };
 
 const SESSION_KEY = "edmund-sentence-structure-session-v1";
-const MAX_BOOKMARKS = 200;
+const MAX_BOOKMARKS = 2000;
 const LESSON_PAGES = 4;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
@@ -21,6 +21,7 @@ const elements = {
   password: document.querySelector("#sentence-structure-password"),
   passwordToggle: document.querySelector("[data-password-toggle]"),
   dashboardWelcome: document.querySelector("[data-dashboard-welcome]"),
+  lessonCount: document.querySelector("[data-lesson-count]"),
   lessonChoiceGrid: document.querySelector("[data-lesson-choice-grid]"),
   historyList: document.querySelector("[data-history-list]"),
   lessonRound: document.querySelector("[data-lesson-round]"),
@@ -50,6 +51,7 @@ const state = {
   attempts: [],
   dashboardLoaded: false,
   saveInFlight: false,
+  exercisePersistTimer: null,
   toastTimer: null,
   adminStudents: [],
   selectedAdminStudentId: ""
@@ -271,6 +273,8 @@ function readSession() {
 }
 
 function clearSession() {
+  window.clearTimeout(state.exercisePersistTimer);
+  state.exercisePersistTimer = null;
   pauseExerciseClock();
   state.user = null;
   state.authToken = "";
@@ -476,6 +480,7 @@ async function openDashboard({ force = false } = {}) {
 }
 
 function renderLessonChoices() {
+  if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
     return `
       <button class="lesson-choice" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${index % 2 ? "violet" : "blue"}">
@@ -604,9 +609,9 @@ function renderFormulaPage(lesson) {
   const examples = Array.isArray(lesson.examples) && lesson.examples.length
     ? lesson.examples
     : [{ english: lesson.example, chinese: lesson.exampleZh }];
-  const meaningLines = Array.isArray(lesson.meaning?.zh)
-    ? lesson.meaning.zh.filter((line) => String(line || "").trim())
-    : [];
+  const rawMeaning = lesson.meaning?.zh;
+  const meaningLines = (Array.isArray(rawMeaning) ? rawMeaning : rawMeaning ? [rawMeaning] : [])
+    .filter((line) => String(line || "").trim());
   elements.lessonContent.innerHTML = `<article class="info-page">
     ${infoPageHeader(1, "公式＋例句", "FORMULA + EXAMPLE", "先掌握句型的固定骨架，再觀察完整例句。")}
     <section class="formula-card">
@@ -762,6 +767,47 @@ function highlightedAnswerHtml(answer, highlight) {
   return `${escapeHtml(full.slice(0, index))}<span class="target-highlight">${escapeHtml(full.slice(index, index + target.length))}</span>${escapeHtml(full.slice(index + target.length))}`;
 }
 
+function questionAnswerParts(question) {
+  return Array.isArray(question?.answerParts)
+    ? question.answerParts.filter((part) => isPlainObject(part) && part.label && part.answer)
+    : [];
+}
+
+function storedAnswerPartValues(question, storedValue) {
+  const parts = questionAnswerParts(question);
+  if (!parts.length) return [];
+  const chunks = String(storedValue || "").split(" || ");
+  return parts.map((part, index) => {
+    const chunk = String(chunks[index] || "");
+    const prefix = `${part.label}:`;
+    return chunk.toLocaleLowerCase().startsWith(prefix.toLocaleLowerCase())
+      ? chunk.slice(prefix.length).trimStart()
+      : chunk.trim();
+  });
+}
+
+function combinedAnswerPartValue(question, values) {
+  const parts = questionAnswerParts(question);
+  if (!parts.length || values.every((value) => !String(value || "").trim())) return "";
+  return parts
+    .map((part, index) => `${part.label}: ${String(values[index] || "").trim()}`)
+    .join(" || ");
+}
+
+function suggestedAnswerHtml(question) {
+  const parts = questionAnswerParts(question);
+  if (!parts.length) {
+    return `<p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p>`;
+  }
+  return `<div class="multi-answer-reveal">${parts.map((part) => `
+    <div>
+      <strong>${escapeHtml(part.label)}</strong>
+      <p>${highlightedAnswerHtml(part.answer, part.highlight || part.answer)}</p>
+      <p>${escapeHtml(part.answerZh || "")}</p>
+    </div>
+  `).join("")}</div>`;
+}
+
 function questionHtml(question) {
   const qState = questionState(question.id);
   const correct = state.exercise.correctIds.includes(question.id) || qState.status === "correct";
@@ -772,6 +818,8 @@ function questionHtml(question) {
     && !correct;
   const revealAnswer = qState.reveal === true && !unresolvedCorrection;
   const value = state.exercise.drafts[question.id] ?? qState.lastAnswer ?? "";
+  const answerParts = questionAnswerParts(question);
+  const partValues = storedAnswerPartValues(question, value);
   const bookmarked = isBookmarked(state.lessonId, question.id);
   return `<article class="question-card ${correct ? "is-correct" : wrong ? "is-wrong" : ""} ${collapsed ? "is-collapsed" : ""}" data-question-id="${escapeHtml(question.id)}">
     <div class="question-card-top">
@@ -785,11 +833,16 @@ function questionHtml(question) {
       <div class="question-prompt">
         <p class="english">${escapeHtml(question.prompt || question.english || "")}</p>
         <p class="chinese">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
-        ${question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
+        ${!answerParts.length && question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
       </div>
-      <input class="answer-input" type="text" maxlength="1000" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">
+      ${answerParts.length ? `<div class="multi-answer-fields">${answerParts.map((part, index) => `
+        <label class="answer-part">
+          <span><strong>${escapeHtml(part.label)}</strong> · 請以「${escapeHtml(part.starter)}」開始</span>
+          <input class="answer-input" type="text" maxlength="450" data-answer-input="${escapeHtml(question.id)}" data-answer-part-index="${index}" value="${escapeHtml(partValues[index] || "")}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題 ${escapeHtml(part.label)} 答案">
+        </label>
+      `).join("")}</div>` : `<input class="answer-input" type="text" maxlength="1000" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">`}
       <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? unresolvedCorrection ? "答案未完全符合句型；請再次修改後提交。" : "答案未完全符合句型；請參考答案並修改。" : ""}</p>
-      ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span><p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p></div>` : ""}
+      ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span>${suggestedAnswerHtml(question)}</div>` : ""}
     </div>
   </article>`;
 }
@@ -906,8 +959,21 @@ function renderLessonPage() {
 }
 
 function readExerciseDrafts() {
-  document.querySelectorAll("[data-answer-input]").forEach((input) => {
-    state.exercise.drafts[input.dataset.answerInput] = input.value;
+  const inputs = [...document.querySelectorAll("[data-answer-input]")];
+  const groupedParts = new Map();
+  inputs.forEach((input) => {
+    const questionId = input.dataset.answerInput;
+    if (input.dataset.answerPartIndex === undefined) {
+      state.exercise.drafts[questionId] = input.value;
+      return;
+    }
+    const values = groupedParts.get(questionId) || [];
+    values[Number(input.dataset.answerPartIndex)] = input.value;
+    groupedParts.set(questionId, values);
+  });
+  groupedParts.forEach((values, questionId) => {
+    const question = getQuestion(state.lessonId, questionId);
+    state.exercise.drafts[questionId] = combinedAnswerPartValue(question, values);
   });
 }
 
@@ -967,32 +1033,53 @@ function serializeExerciseResult() {
 
 async function persistExercise() {
   if (!state.exercise || state.user?.role !== "student") return;
+  window.clearTimeout(state.exercisePersistTimer);
+  state.exercisePersistTimer = null;
+  const attemptId = state.exercise.id;
   pauseExerciseClock();
-  const lesson = getLesson(state.exercise.lessonId);
-  const payload = {
-    lessonId: state.exercise.lessonId,
-    lessonVersion: state.exercise.lessonVersion,
-    status: state.exercise.completedAt ? "completed" : "in_progress",
-    roundNumber: state.exercise.round,
-    correctCount: state.exercise.correctIds.length,
-    totalCount: lesson?.questions?.length || 0,
-    durationMs: state.exercise.durationMs,
-    startedAt: state.exercise.startedAt,
-    completedAt: state.exercise.completedAt || null,
-    result: serializeExerciseResult()
-  };
-  const response = await apiJson(`/v1/attempts/${encodeURIComponent(state.exercise.id)}`, {
-    method: "PUT",
-    body: JSON.stringify(payload)
-  });
-  const saved = normalizeAttempt(response?.attempt || { id: state.exercise.id, ...payload });
-  const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
-  if (index >= 0) state.attempts[index] = saved;
-  else state.attempts.unshift(saved);
-  state.dashboardLoaded = true;
-  if (!state.exercise.completedAt && state.currentView === "lesson" && state.lessonPage === 4) {
-    startExerciseClock();
+  try {
+    const lesson = getLesson(state.exercise.lessonId);
+    const payload = {
+      lessonId: state.exercise.lessonId,
+      lessonVersion: state.exercise.lessonVersion,
+      status: state.exercise.completedAt ? "completed" : "in_progress",
+      roundNumber: state.exercise.round,
+      correctCount: state.exercise.correctIds.length,
+      totalCount: lesson?.questions?.length || 0,
+      durationMs: state.exercise.durationMs,
+      startedAt: state.exercise.startedAt,
+      completedAt: state.exercise.completedAt || null,
+      result: serializeExerciseResult()
+    };
+    const response = await apiJson(`/v1/attempts/${encodeURIComponent(state.exercise.id)}`, {
+      method: "PUT",
+      body: JSON.stringify(payload)
+    });
+    const saved = normalizeAttempt(response?.attempt || { id: state.exercise.id, ...payload });
+    const index = state.attempts.findIndex((attempt) => attempt.id === saved.id);
+    if (index >= 0) state.attempts[index] = saved;
+    else state.attempts.unshift(saved);
+    state.dashboardLoaded = true;
+  } finally {
+    if (
+      state.exercise?.id === attemptId
+      && !state.exercise.completedAt
+      && state.currentView === "lesson"
+      && state.lessonPage === 4
+    ) {
+      startExerciseClock();
+    }
   }
+}
+
+function scheduleExercisePersistence() {
+  window.clearTimeout(state.exercisePersistTimer);
+  state.exercisePersistTimer = window.setTimeout(() => {
+    state.exercisePersistTimer = null;
+    persistExercise().catch((error) => {
+      console.warn("Sentence Structure preference save failed", error);
+    });
+  }, 450);
 }
 
 async function submitExercise(kind) {
@@ -1025,7 +1112,7 @@ async function submitExercise(kind) {
     } else {
       incorrectThisTime.push(question.id);
     }
-    if (isBookmarked(lesson.id, question.id)) {
+    if (correct && isBookmarked(lesson.id, question.id)) {
       bookmarkChanged = upgradeBookmarkAnswer(lesson.id, question.id) || bookmarkChanged;
     }
   }
@@ -1096,6 +1183,12 @@ async function exitCorrectionRound() {
   state.exercise.correctionMode = false;
   state.exercise.correctionIds = [];
   renderExercisePage(getLesson(), { preserveScroll: true });
+  try {
+    await persistExercise();
+  } catch (error) {
+    console.warn("Correction round exit save failed", error);
+    showToast("已返回其餘題目，但暫時未能同步記錄。", "error");
+  }
 }
 
 async function toggleCorrectCard(questionId) {
@@ -1106,6 +1199,7 @@ async function toggleCorrectCard(questionId) {
   if (index >= 0) hidden.splice(index, 1);
   else hidden.push(questionId);
   renderExercisePage(getLesson(), { preserveScroll: true });
+  scheduleExercisePersistence();
   requestAnimationFrame(() => {
     document.querySelector(`[data-toggle-correct-card="${CSS.escape(questionId)}"]`)?.focus?.({ preventScroll: true });
   });
@@ -1132,6 +1226,7 @@ async function toggleAllCorrectCards() {
   state.exercise.collapsedCorrectIds = [...hidden]
     .filter((id) => state.exercise.correctIds.includes(id));
   renderExercisePage(lesson, { preserveScroll: true });
+  scheduleExercisePersistence();
   requestAnimationFrame(() => {
     document.querySelector("[data-toggle-all-correct-cards]")?.focus?.({ preventScroll: true });
   });
@@ -1194,6 +1289,23 @@ function upgradeBookmarkAnswer(lessonId, questionId) {
   return true;
 }
 
+function bookmarkAnswerAvailable(bookmark) {
+  if (!bookmark?.includeAnswer) return false;
+  const lessonId = String(bookmark.lessonId || "");
+  const questionId = String(bookmark.questionId || "");
+  if (state.exercise?.lessonId === lessonId) {
+    if (state.exercise.correctIds.includes(questionId)) return true;
+    if (state.exercise.questionState?.[questionId]?.status === "wrong") return false;
+  }
+  for (const attempt of state.attempts) {
+    if (attempt.lessonId !== lessonId) continue;
+    const correctIds = Array.isArray(attempt.result?.correctIds) ? attempt.result.correctIds : [];
+    if (correctIds.includes(questionId)) return true;
+    if (attempt.result?.questionState?.[questionId]?.status === "wrong") return false;
+  }
+  return true;
+}
+
 function openBookmarks() {
   pauseExerciseClock();
   showView("bookmarks");
@@ -1215,7 +1327,7 @@ function renderBookmarks() {
         <h3>${escapeHtml(lessonTitle(lesson))}</h3>
         <p class="bookmark-prompt">${escapeHtml(question.prompt || question.english || "")}</p>
         <p class="bookmark-zh">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
-        ${bookmark.includeAnswer ? `<div class="bookmark-answer"><p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p></div>` : ""}
+        ${bookmarkAnswerAvailable(bookmark) ? `<div class="bookmark-answer">${suggestedAnswerHtml(question)}</div>` : ""}
       </div>
       <div class="bookmark-row-actions">
         <button class="icon-button" type="button" data-open-bookmark="${escapeHtml(bookmark.lessonId)}|${escapeHtml(bookmark.questionId)}" aria-label="開啟題目">開啟</button>
@@ -1310,8 +1422,8 @@ function handleClick(event) {
   const bookmarkButton = event.target.closest("[data-toggle-question-bookmark]");
   if (bookmarkButton) {
     const questionId = bookmarkButton.dataset.toggleQuestionBookmark;
-    const reveal = questionState(questionId).reveal === true;
-    return toggleBookmark(state.lessonId, questionId, reveal);
+    const correct = state.exercise?.correctIds.includes(questionId) === true;
+    return toggleBookmark(state.lessonId, questionId, correct);
   }
 
   const resume = event.target.closest("[data-resume-attempt]");

@@ -1,0 +1,1268 @@
+{
+  "id": "ss24",
+  "order": 24,
+  "slug": "provided-providing-that",
+  "title": "「Provided that / Providing that」句型",
+  "titleZh": "「Provided that / Providing that」表達必要條件",
+  "titleEn": "Using Provided that / Providing that to express a necessary condition",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Strucrure 24 - 「Provided that _ Providing that」表達必要條件.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Main clause + provided that / providing that + condition clause",
+  "formulas": [
+    {
+      "id": "ss24-formula-condition-last",
+      "labelEn": "Condition after the main clause",
+      "labelZh": "條件子句在主句後",
+      "formula": "Main clause + provided that / providing that + condition clause"
+    },
+    {
+      "id": "ss24-formula-condition-first",
+      "labelEn": "Condition before the main clause",
+      "labelZh": "條件子句在主句前",
+      "formula": "Provided that / Providing that + condition clause, + main clause"
+    }
+  ],
+  "example": "I was allowed to leave work early provided that I had worked an extra shift beforehand.",
+  "exampleZh": "只要我事前多做一更，我便獲准提早下班。",
+  "examples": [
+    {
+      "id": "ss24-example-01",
+      "en": "I was allowed to leave work early provided that I had worked an extra shift beforehand.",
+      "zh": "只要我事前多做一更，我便獲准提早下班。",
+      "highlight": "provided that I had worked an extra shift beforehand"
+    }
+  ],
+  "meaning": {
+    "en": "This structure means that something may happen, will happen or will be permitted only when a necessary condition is satisfied.",
+    "zh": "這個句型表示：只有在某個必要條件獲得滿足時，某件事才可以發生、才會發生或才會獲准進行。",
+    "enSource": "editorial-translation",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss24-benefit-01",
+      "en": "It makes a necessary condition clear, so readers immediately know that something is not unconditional and a stated requirement must be met first.",
+      "zh": "清楚說明必要條件，讓讀者立即知道某件事並非無條件發生，而是必須先符合指定要求。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss24-benefit-02",
+      "en": "It is useful for permission and rules because it explains what someone may do and what requirement they must follow.",
+      "zh": "適合表達許可和規則，說明一個人可以做甚麼，以及必須遵守甚麼要求。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss24-benefit-03",
+      "en": "It helps you make clear offers and agreements by placing what you are willing to do and what the other person must do in one sentence.",
+      "zh": "幫助提出清楚的提議和協議，把你願意做的事情和對方必須做到的事情放在同一句內。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss24-benefit-04",
+      "en": "It combines two related ideas by joining what may happen with the condition that must be satisfied.",
+      "zh": "把兩個相關意思連成一句，把「可以做甚麼」和「需要符合甚麼條件」清楚連接。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss24-benefit-05",
+      "en": "It gives you an alternative to if, adds sentence variety and particularly emphasises that something is possible only if the condition is met.",
+      "zh": "避免反覆使用 if，增加句式變化，並特別強調「只有符合條件才可以」。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss24-benefit-06",
+      "en": "It is useful in formal communication such as work arrangements, applications and approvals, business agreements, school rules, refund terms and service requirements.",
+      "zh": "適合較正式的溝通，例如工作安排、申請和批准、商業協議、學校規則、退款條款及服務要求。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss24-rule-01",
+      "en": "Provided that and Providing that have the same meaning: only if, on condition that, or as long as. Provided that is especially common in rules, agreements and formal writing; Providing that is also natural in British English and may sound slightly more conversational.",
+      "zh": "Provided that 和 Providing that 意思相同，均表示 only if、on condition that、as long as、「只要」、「條件是」或「前提是」。Provided that 在規則、協議及正式書面語中尤其常見；Providing that 在英式英語中亦十分自然，有時語氣稍為口語化。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss24-rule-02",
+      "en": "The condition must be satisfied. Provided that / Providing that does not merely introduce an ordinary possibility; it emphasises a necessary condition.",
+      "zh": "這個條件必須得到滿足。Provided that / Providing that 不只是提出一個普通可能性，而是強調某件事發生的必要條件。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You can use the room if you clean it afterwards.",
+        "You can use the room provided that you clean it afterwards."
+      ]
+    },
+    {
+      "id": "ss24-rule-03",
+      "en": "The condition may follow the main clause. When the main clause comes first, a comma is not normally needed before provided that / providing that.",
+      "zh": "條件可以放在主句後面。主句在前時，通常不需要在 provided that / providing that 前加逗號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You may leave early provided that your work is complete."
+      ]
+    },
+    {
+      "id": "ss24-rule-04",
+      "en": "The condition may come first. When it begins the sentence, place a comma after the condition clause.",
+      "zh": "條件可以放在句首；條件放在句首時，應在條件子句後加逗號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Provided that your work is complete, you may leave early."
+      ]
+    },
+    {
+      "id": "ss24-rule-05",
+      "en": "A future condition normally uses the present tense rather than will after provided that / providing that.",
+      "zh": "未來條件通常不用 will；當主句談及未來時，provided that / providing that 後通常使用現在式。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: We will have a picnic provided that the weather stays dry.",
+        "Not normally used in this lesson: We will have a picnic provided that the weather will stay dry."
+      ]
+    },
+    {
+      "id": "ss24-rule-06",
+      "en": "The structure may express a negative condition. Place not in the verb phrase of the condition clause.",
+      "zh": "可以表達否定條件；否定詞 not 放在條件子句的動詞部分。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You may use the computer provided that you do not download any games."
+      ]
+    },
+    {
+      "id": "ss24-rule-07",
+      "en": "Retain the complete forms provided that and providing that in this lesson, even though provided and providing may sometimes be used alone as conjunctions.",
+      "zh": "本課保留完整的 that。Provided 和 providing 有時可以單獨用作連接詞，但本課統一練習 provided that 及 providing that。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss24-rule-08",
+      "en": "Provided that / Providing that introduces a necessary condition that has not yet been satisfied. Given that introduces a fact treated as known or established and uses it to explain a decision or result.",
+      "zh": "Provided that / Providing that 表示一項尚待滿足的必要條件；Given that 表示一項說話者視為已知或已成立的事實，並以該事實解釋之後的決定或結果。兩個句型一般不能互相替換。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Provided that we have a large enough budget, we can choose the more advanced plan.",
+        "Given that we do not have a large enough budget, we have no choice but to choose the simpler plan."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using provided that or providing that to express a necessary condition.",
+      "Both forms have the same basic meaning. The answer key provides one preferred model answer, but the other form may also be accepted when it is grammatically correct and preserves the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 provided that 或 providing that 改寫以下句子，以表達必要條件。",
+      "兩種形式的基本意思相同。參考答案會提供一個建議答案；如另一種形式文法正確並保留原意，亦可以接受。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss24-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "You may borrow my pen, but you must return it after class.",
+      "promptZh": "你可以借用我的筆，但你必須在下課後歸還。",
+      "starter": "You",
+      "answer": "You may borrow my pen provided that you return it after class.",
+      "answerZh": "只要你在下課後歸還，你便可以借用我的筆。",
+      "answerZhSource": "pdf",
+      "highlight": "You may borrow my pen provided that you return it after class.",
+      "acceptedAnswers": [
+        "You may borrow my pen providing that you return it after class."
+      ]
+    },
+    {
+      "id": "ss24-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Mia can join the trip only if her parents agree.",
+      "promptZh": "只有在父母同意的情況下，米婭才可以參加旅行。",
+      "starter": "Mia",
+      "answer": "Mia can join the trip providing that her parents agree.",
+      "answerZh": "只要父母同意，米婭便可以參加旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia can join the trip providing that her parents agree.",
+      "acceptedAnswers": [
+        "Mia can join the trip provided that her parents agree."
+      ]
+    },
+    {
+      "id": "ss24-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "If the weather stays dry, we will have a picnic.",
+      "promptZh": "如果天氣持續乾爽，我們便會去野餐。",
+      "starter": "We",
+      "answer": "We will have a picnic provided that the weather stays dry.",
+      "answerZh": "只要天氣持續乾爽，我們便會去野餐。",
+      "answerZhSource": "pdf",
+      "highlight": "We will have a picnic provided that the weather stays dry.",
+      "acceptedAnswers": [
+        "We will have a picnic providing that the weather stays dry."
+      ]
+    },
+    {
+      "id": "ss24-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Ben is allowed to use the computer as long as he finishes his homework first.",
+      "promptZh": "只要本先完成家課，他便可以使用電腦。",
+      "starter": "Ben",
+      "answer": "Ben is allowed to use the computer providing that he finishes his homework first.",
+      "answerZh": "只要本先完成家課，他便可以使用電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben is allowed to use the computer providing that he finishes his homework first.",
+      "acceptedAnswers": [
+        "Ben is allowed to use the computer provided that he finishes his homework first."
+      ]
+    },
+    {
+      "id": "ss24-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "I will help you on condition that you tell me the truth.",
+      "promptZh": "我會幫助你，條件是你要告訴我真相。",
+      "starter": "I",
+      "answer": "I will help you provided that you tell me the truth.",
+      "answerZh": "只要你告訴我真相，我便會幫助你。",
+      "answerZhSource": "pdf",
+      "highlight": "I will help you provided that you tell me the truth.",
+      "acceptedAnswers": [
+        "I will help you providing that you tell me the truth."
+      ]
+    },
+    {
+      "id": "ss24-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The children may play outside, but they must stay near the house.",
+      "promptZh": "孩子們可以在外面玩耍，但必須留在屋子附近。",
+      "starter": "The",
+      "answer": "The children may play outside providing that they stay near the house.",
+      "answerZh": "只要孩子們留在屋子附近，他們便可以在外面玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The children may play outside providing that they stay near the house.",
+      "acceptedAnswers": [
+        "The children may play outside provided that they stay near the house."
+      ]
+    },
+    {
+      "id": "ss24-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Sara may keep the book if she takes good care of it.",
+      "promptZh": "如果莎拉好好愛護這本書，她便可以把它留下。",
+      "starter": "Sara",
+      "answer": "Sara may keep the book provided that she takes good care of it.",
+      "answerZh": "只要莎拉好好愛護這本書，她便可以把它留下。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara may keep the book provided that she takes good care of it.",
+      "acceptedAnswers": [
+        "Sara may keep the book providing that she takes good care of it."
+      ]
+    },
+    {
+      "id": "ss24-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Tom will get a lift only if he is ready by eight.",
+      "promptZh": "只有湯姆在八時前準備好，才會有人接載他。",
+      "starter": "Tom",
+      "answer": "Tom will get a lift providing that he is ready by eight.",
+      "answerZh": "只要湯姆在八時前準備好，便會有人接載他。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom will get a lift providing that he is ready by eight.",
+      "acceptedAnswers": [
+        "Tom will get a lift provided that he is ready by eight."
+      ]
+    },
+    {
+      "id": "ss24-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "Your work must be complete. Then you may leave early.",
+      "promptZh": "你的工作必須完成，之後你才可以提早離開。",
+      "starter": "You",
+      "answer": "You may leave early provided that your work is complete.",
+      "answerZh": "只要你的工作已完成，你便可以提早離開。",
+      "answerZhSource": "pdf",
+      "highlight": "You may leave early provided that your work is complete.",
+      "acceptedAnswers": [
+        "You may leave early providing that your work is complete."
+      ]
+    },
+    {
+      "id": "ss24-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The shop will replace the item as long as you have the receipt.",
+      "promptZh": "只要你有收據，店舖便會更換該件貨品。",
+      "starter": "The",
+      "answer": "The shop will replace the item providing that you have the receipt.",
+      "answerZh": "只要你有收據，店舖便會更換該件貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop will replace the item providing that you have the receipt.",
+      "acceptedAnswers": [
+        "The shop will replace the item provided that you have the receipt."
+      ]
+    },
+    {
+      "id": "ss24-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The team may use the hall. They have to clean it afterwards.",
+      "promptZh": "球隊可以使用禮堂，但之後必須把它清潔乾淨。",
+      "starter": "The",
+      "answer": "The team may use the hall provided that they clean it afterwards.",
+      "answerZh": "只要球隊之後把禮堂清潔乾淨，他們便可以使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "The team may use the hall provided that they clean it afterwards.",
+      "acceptedAnswers": [
+        "The team may use the hall providing that they clean it afterwards."
+      ]
+    },
+    {
+      "id": "ss24-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "We can order dessert if everyone still has room.",
+      "promptZh": "如果大家還吃得下，我們便可以點甜品。",
+      "starter": "We",
+      "answer": "We can order dessert providing that everyone still has room.",
+      "answerZh": "只要大家還吃得下，我們便可以點甜品。",
+      "answerZhSource": "pdf",
+      "highlight": "We can order dessert providing that everyone still has room.",
+      "acceptedAnswers": [
+        "We can order dessert provided that everyone still has room."
+      ]
+    },
+    {
+      "id": "ss24-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Daniel may drive the car. He must not go too far.",
+      "promptZh": "丹尼爾可以駕駛這輛車，但他不可走得太遠。",
+      "starter": "Daniel",
+      "answer": "Daniel may drive the car provided that he does not go too far.",
+      "answerZh": "只要丹尼爾不走得太遠，他便可以駕駛這輛車。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel may drive the car provided that he does not go too far.",
+      "acceptedAnswers": [
+        "Daniel may drive the car providing that he does not go too far."
+      ]
+    },
+    {
+      "id": "ss24-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "You may open the window as long as it is not too cold outside.",
+      "promptZh": "只要外面不是太冷，你便可以打開窗戶。",
+      "starter": "You",
+      "answer": "You may open the window providing that it is not too cold outside.",
+      "answerZh": "只要外面不是太冷，你便可以打開窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "You may open the window providing that it is not too cold outside.",
+      "acceptedAnswers": [
+        "You may open the window provided that it is not too cold outside."
+      ]
+    },
+    {
+      "id": "ss24-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The dog may stay indoors only if it does not jump on the sofa.",
+      "promptZh": "只有這隻狗不跳上梳化，牠才可以留在室內。",
+      "starter": "The",
+      "answer": "The dog may stay indoors provided that it does not jump on the sofa.",
+      "answerZh": "只要這隻狗不跳上梳化，牠便可以留在室內。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog may stay indoors provided that it does not jump on the sofa.",
+      "acceptedAnswers": [
+        "The dog may stay indoors providing that it does not jump on the sofa."
+      ]
+    },
+    {
+      "id": "ss24-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The class can watch a film after all the students finish the activity.",
+      "promptZh": "所有學生完成活動後，全班便可以看電影。",
+      "starter": "The",
+      "answer": "The class can watch a film providing that all the students finish the activity first.",
+      "answerZh": "只要所有學生先完成活動，全班便可以看電影。",
+      "answerZhSource": "pdf",
+      "highlight": "The class can watch a film providing that all the students finish the activity first.",
+      "acceptedAnswers": [
+        "The class can watch a film provided that all the students finish the activity first."
+      ]
+    },
+    {
+      "id": "ss24-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The manager will approve the request on condition that all the details are accurate.",
+      "promptZh": "經理會批准申請，條件是所有資料都必須準確。",
+      "starter": "The",
+      "answer": "The manager will approve the request provided that all the details are accurate.",
+      "answerZh": "只要所有資料都準確，經理便會批准申請。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager will approve the request provided that all the details are accurate.",
+      "acceptedAnswers": [
+        "The manager will approve the request providing that all the details are accurate."
+      ]
+    },
+    {
+      "id": "ss24-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "Olivia can borrow the bicycle if she wears a helmet.",
+      "promptZh": "如果奧莉花戴上頭盔，她便可以借用單車。",
+      "starter": "Olivia",
+      "answer": "Olivia can borrow the bicycle providing that she wears a helmet.",
+      "answerZh": "只要奧莉花戴上頭盔，她便可以借用單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia can borrow the bicycle providing that she wears a helmet.",
+      "acceptedAnswers": [
+        "Olivia can borrow the bicycle provided that she wears a helmet."
+      ]
+    },
+    {
+      "id": "ss24-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The café will hold your table only if you arrive before seven.",
+      "promptZh": "只有你在七時前到達，咖啡店才會為你保留座位。",
+      "starter": "The",
+      "answer": "The café will hold your table provided that you arrive before seven.",
+      "answerZh": "只要你在七時前到達，咖啡店便會為你保留座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The café will hold your table provided that you arrive before seven.",
+      "acceptedAnswers": [
+        "The café will hold your table providing that you arrive before seven."
+      ]
+    },
+    {
+      "id": "ss24-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Can Maya use the printer? Yes, but she must replace the paper if it runs out.",
+      "promptZh": "瑪雅可以使用打印機嗎？可以，但如果紙張用完，她必須補充紙張。",
+      "starter": "Maya",
+      "answer": "Maya can use the printer providing that she replaces the paper if it runs out.",
+      "answerZh": "只要瑪雅在紙張用完時補充紙張，她便可以使用打印機。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya can use the printer providing that she replaces the paper if it runs out.",
+      "acceptedAnswers": [
+        "Maya can use the printer provided that she replaces the paper if it runs out."
+      ]
+    },
+    {
+      "id": "ss24-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Visitors who show a student card can enter the museum for free.",
+      "promptZh": "出示學生證的訪客可以免費進入博物館。",
+      "starter": "The",
+      "answer": "The museum offers free entry to visitors provided that they show a student card.",
+      "answerZh": "只要訪客出示學生證，博物館便會讓他們免費入場。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum offers free entry to visitors provided that they show a student card.",
+      "acceptedAnswers": [
+        "The museum offers free entry to visitors providing that they show a student card."
+      ]
+    },
+    {
+      "id": "ss24-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "A refund will be issued only when the product is returned within fourteen days.",
+      "promptZh": "只有在十四日內退回產品，才會獲發退款。",
+      "starter": "A",
+      "answer": "A refund will be issued providing that the product is returned within fourteen days.",
+      "answerZh": "只要產品在十四日內退回，便會獲發退款。",
+      "answerZhSource": "pdf",
+      "highlight": "A refund will be issued providing that the product is returned within fourteen days.",
+      "acceptedAnswers": [
+        "A refund will be issued provided that the product is returned within fourteen days."
+      ]
+    },
+    {
+      "id": "ss24-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Employees may work from home as long as they attend the morning meeting online.",
+      "promptZh": "只要僱員在網上出席早會，他們便可以在家工作。",
+      "starter": "Employees",
+      "answer": "Employees may work from home provided that they attend the morning meeting online.",
+      "answerZh": "只要僱員在網上出席早會，他們便可以在家工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Employees may work from home provided that they attend the morning meeting online.",
+      "acceptedAnswers": [
+        "Employees may work from home providing that they attend the morning meeting online."
+      ]
+    },
+    {
+      "id": "ss24-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Can we book the room? Yes, if no other group has reserved it.",
+      "promptZh": "我們可以預訂這個房間嗎？可以，只要沒有其他團體已預訂它。",
+      "starter": "We",
+      "answer": "We can book the room providing that no other group has reserved it.",
+      "answerZh": "只要沒有其他團體已預訂這個房間，我們便可以預訂它。",
+      "answerZhSource": "pdf",
+      "highlight": "We can book the room providing that no other group has reserved it.",
+      "acceptedAnswers": [
+        "We can book the room provided that no other group has reserved it."
+      ]
+    },
+    {
+      "id": "ss24-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Ethan will lend me his camera only if I promise not to drop it.",
+      "promptZh": "只有我答應不會摔壞相機，伊森才會把他的相機借給我。",
+      "starter": "Ethan",
+      "answer": "Ethan will lend me his camera provided that I promise not to drop it.",
+      "answerZh": "只要我答應不會摔壞相機，伊森便會把他的相機借給我。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan will lend me his camera provided that I promise not to drop it.",
+      "acceptedAnswers": [
+        "Ethan will lend me his camera providing that I promise not to drop it."
+      ]
+    },
+    {
+      "id": "ss24-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "As long as the roads are clear, the bus should arrive on time.",
+      "promptZh": "只要道路暢通，巴士便應該準時到達。",
+      "starter": "Providing",
+      "answer": "Providing that the roads are clear, the bus should arrive on time.",
+      "answerZh": "只要道路暢通，巴士便應該準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing that the roads are clear, the bus should arrive on time.",
+      "acceptedAnswers": [
+        "Provided that the roads are clear, the bus should arrive on time."
+      ]
+    },
+    {
+      "id": "ss24-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "If everyone agrees, we can change the meeting date.",
+      "promptZh": "如果每個人都同意，我們便可以更改會議日期。",
+      "starter": "Provided",
+      "answer": "Provided that everyone agrees, we can change the meeting date.",
+      "answerZh": "只要每個人都同意，我們便可以更改會議日期。",
+      "answerZhSource": "pdf",
+      "highlight": "Provided that everyone agrees, we can change the meeting date.",
+      "acceptedAnswers": [
+        "Providing that everyone agrees, we can change the meeting date."
+      ]
+    },
+    {
+      "id": "ss24-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Ava should recover soon as long as she follows the doctor’s advice.",
+      "promptZh": "只要艾娃遵從醫生的建議，她應該很快便會康復。",
+      "starter": "Providing",
+      "answer": "Providing that Ava follows the doctor’s advice, she should recover soon.",
+      "answerZh": "只要艾娃遵從醫生的建議，她應該很快便會康復。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing that Ava follows the doctor’s advice, she should recover soon.",
+      "acceptedAnswers": [
+        "Provided that Ava follows the doctor’s advice, she should recover soon."
+      ]
+    },
+    {
+      "id": "ss24-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The order will be sent tomorrow only if the payment arrives today.",
+      "promptZh": "只有款項今天到帳，訂單才會在明天寄出。",
+      "starter": "Provided",
+      "answer": "Provided that the payment arrives today, the order will be sent tomorrow.",
+      "answerZh": "只要款項今天到帳，訂單便會在明天寄出。",
+      "answerZhSource": "pdf",
+      "highlight": "Provided that the payment arrives today, the order will be sent tomorrow.",
+      "acceptedAnswers": [
+        "Providing that the payment arrives today, the order will be sent tomorrow."
+      ]
+    },
+    {
+      "id": "ss24-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "You may use the guest network. You must not share the password.",
+      "promptZh": "你可以使用訪客網絡，但不可把密碼告訴別人。",
+      "starter": "Providing",
+      "answer": "Providing that you do not share the password, you may use the guest network.",
+      "answerZh": "只要你不把密碼告訴別人，便可以使用訪客網絡。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing that you do not share the password, you may use the guest network.",
+      "acceptedAnswers": [
+        "Provided that you do not share the password, you may use the guest network."
+      ]
+    },
+    {
+      "id": "ss24-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Students may borrow tablets from the school, but they must sign the equipment form.",
+      "promptZh": "學生可以向學校借用平板電腦，但必須簽署設備借用表。",
+      "starter": "Students",
+      "answer": "Students may borrow tablets from the school provided that they sign the equipment form.",
+      "answerZh": "只要學生簽署設備借用表，便可以向學校借用平板電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Students may borrow tablets from the school provided that they sign the equipment form.",
+      "acceptedAnswers": [
+        "Students may borrow tablets from the school providing that they sign the equipment form."
+      ]
+    },
+    {
+      "id": "ss24-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Can a passenger change seats? Yes, but a crew member must approve the change.",
+      "promptZh": "乘客可以更換座位嗎？可以，但必須先獲機組人員批准。",
+      "starter": "A",
+      "answer": "A passenger may change seats providing that a crew member approves the change.",
+      "answerZh": "只要機組人員批准，乘客便可以更換座位。",
+      "answerZhSource": "pdf",
+      "highlight": "A passenger may change seats providing that a crew member approves the change.",
+      "acceptedAnswers": [
+        "A passenger may change seats provided that a crew member approves the change."
+      ]
+    },
+    {
+      "id": "ss24-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The library card remains valid as long as the user updates their contact details each year.",
+      "promptZh": "只要使用者每年更新聯絡資料，圖書證便會維持有效。",
+      "starter": "The",
+      "answer": "The library card remains valid provided that the user updates their contact details each year.",
+      "answerZh": "只要使用者每年更新聯絡資料，圖書證便會維持有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The library card remains valid provided that the user updates their contact details each year.",
+      "acceptedAnswers": [
+        "The library card remains valid providing that the user updates their contact details each year."
+      ]
+    },
+    {
+      "id": "ss24-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The match can continue unless the rain becomes heavier.",
+      "promptZh": "除非雨勢變大，否則比賽可以繼續。",
+      "starter": "The",
+      "answer": "The match can continue providing that the rain does not become heavier.",
+      "answerZh": "只要雨勢沒有變大，比賽便可以繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The match can continue providing that the rain does not become heavier.",
+      "acceptedAnswers": [
+        "The match can continue provided that the rain does not become heavier."
+      ]
+    },
+    {
+      "id": "ss24-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The patient may leave the clinic only if someone takes them home.",
+      "promptZh": "只有有人接病人回家，病人才可以離開診所。",
+      "starter": "The",
+      "answer": "The patient may leave the clinic provided that someone takes them home.",
+      "answerZh": "只要有人接病人回家，病人便可以離開診所。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient may leave the clinic provided that someone takes them home.",
+      "acceptedAnswers": [
+        "The patient may leave the clinic providing that someone takes them home."
+      ]
+    },
+    {
+      "id": "ss24-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The machine can be used tomorrow after it passes the final safety check.",
+      "promptZh": "這部機器通過最後安全檢查後，明天便可以使用。",
+      "starter": "Providing",
+      "answer": "Providing that the final safety check is passed, the machine can be used tomorrow.",
+      "answerZh": "只要通過最後安全檢查，這部機器明天便可以使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing that the final safety check is passed, the machine can be used tomorrow.",
+      "acceptedAnswers": [
+        "Provided that the final safety check is passed, the machine can be used tomorrow."
+      ]
+    },
+    {
+      "id": "ss24-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "If no one objects, the committee will publish the report.",
+      "promptZh": "如果沒有人反對，委員會便會公布報告。",
+      "starter": "Provided",
+      "answer": "Provided that no one objects, the committee will publish the report.",
+      "answerZh": "只要沒有人反對，委員會便會公布報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Provided that no one objects, the committee will publish the report.",
+      "acceptedAnswers": [
+        "Providing that no one objects, the committee will publish the report."
+      ]
+    },
+    {
+      "id": "ss24-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The lights may remain on, but only while the room is still in use.",
+      "promptZh": "只有房間仍然有人使用時，燈才可以保持開啟。",
+      "starter": "The",
+      "answer": "The lights may remain on providing that the room is still in use.",
+      "answerZh": "只要房間仍然有人使用，燈便可以保持開啟。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights may remain on providing that the room is still in use.",
+      "acceptedAnswers": [
+        "The lights may remain on provided that the room is still in use."
+      ]
+    },
+    {
+      "id": "ss24-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Can a student retake the quiz? Yes, if the teacher receives a valid reason.",
+      "promptZh": "學生可以重做小測嗎？可以，只要老師收到合理理由。",
+      "starter": "A",
+      "answer": "A student is allowed to retake the quiz provided that the teacher receives a valid reason.",
+      "answerZh": "只要老師收到合理理由，學生便可以重做小測。",
+      "answerZhSource": "pdf",
+      "highlight": "A student is allowed to retake the quiz provided that the teacher receives a valid reason.",
+      "acceptedAnswers": [
+        "A student is allowed to retake the quiz providing that the teacher receives a valid reason."
+      ]
+    },
+    {
+      "id": "ss24-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The event will open on schedule as long as the volunteers arrive by nine.",
+      "promptZh": "只要義工在九時前到達，活動便會準時開始。",
+      "starter": "Providing",
+      "answer": "Providing that the volunteers arrive by nine, the event will open on schedule.",
+      "answerZh": "只要義工在九時前到達，活動便會準時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing that the volunteers arrive by nine, the event will open on schedule.",
+      "acceptedAnswers": [
+        "Provided that the volunteers arrive by nine, the event will open on schedule."
+      ]
+    },
+    {
+      "id": "ss24-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The company will extend the deadline only if the client explains the delay in writing.",
+      "promptZh": "只有客戶以書面解釋延誤原因，公司才會延長限期。",
+      "starter": "The",
+      "answer": "The company will extend the deadline provided that the client explains the delay in writing.",
+      "answerZh": "只要客戶以書面解釋延誤原因，公司便會延長限期。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will extend the deadline provided that the client explains the delay in writing.",
+      "acceptedAnswers": [
+        "The company will extend the deadline providing that the client explains the delay in writing."
+      ]
+    },
+    {
+      "id": "ss24-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The school may adopt the new timetable next term. It must not reduce lesson time.",
+      "promptZh": "學校下學期可以採用新時間表，但它不可縮短上課時間。",
+      "starter": "Provided",
+      "answer": "Provided that the new timetable does not reduce lesson time, the school may adopt it next term.",
+      "answerZh": "只要新時間表不會縮短上課時間，學校下學期便可以採用它。",
+      "answerZhSource": "pdf",
+      "highlight": "Provided that the new timetable does not reduce lesson time, the school may adopt it next term.",
+      "acceptedAnswers": [
+        "Providing that the new timetable does not reduce lesson time, the school may adopt it next term."
+      ]
+    },
+    {
+      "id": "ss24-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Residents can use the community garden on condition that they follow the shared watering schedule.",
+      "promptZh": "居民可以使用社區花園，條件是他們須遵守共同澆水時間表。",
+      "starter": "Residents",
+      "answer": "Residents can use the community garden providing that they follow the shared watering schedule.",
+      "answerZh": "只要居民遵守共同澆水時間表，便可以使用社區花園。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents can use the community garden providing that they follow the shared watering schedule.",
+      "acceptedAnswers": [
+        "Residents can use the community garden provided that they follow the shared watering schedule."
+      ]
+    },
+    {
+      "id": "ss24-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20
+      },
+      "prompt": "The applicant will receive the travel grant only if they submit all supporting documents before Friday.",
+      "promptZh": "只有申請人在星期五前提交所有證明文件，才會獲得旅費資助。",
+      "starter": "The",
+      "answer": "The applicant will receive the travel grant provided that they submit all supporting documents before Friday.",
+      "answerZh": "只要申請人在星期五前提交所有證明文件，便會獲得旅費資助。",
+      "answerZhSource": "pdf",
+      "highlight": "The applicant will receive the travel grant provided that they submit all supporting documents before Friday.",
+      "acceptedAnswers": [
+        "The applicant will receive the travel grant providing that they submit all supporting documents before Friday."
+      ]
+    },
+    {
+      "id": "ss24-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The bridge will reopen before the holiday if the repairs are completed safely.",
+      "promptZh": "如果維修工作安全完成，大橋便會在假期前重開。",
+      "starter": "Providing",
+      "answer": "Providing that the repairs are completed safely, the bridge will reopen before the holiday.",
+      "answerZh": "只要維修工作安全完成，大橋便會在假期前重開。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing that the repairs are completed safely, the bridge will reopen before the holiday.",
+      "acceptedAnswers": [
+        "Provided that the repairs are completed safely, the bridge will reopen before the holiday."
+      ]
+    },
+    {
+      "id": "ss24-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The restaurant can prepare a separate meal if customers mention their dietary needs when booking.",
+      "promptZh": "如果顧客預訂時說明飲食需要，餐廳便可以另行準備餐點。",
+      "starter": "The",
+      "answer": "The restaurant can prepare a separate meal provided that customers mention their dietary needs when booking.",
+      "answerZh": "只要顧客預訂時說明飲食需要，餐廳便可以另行準備餐點。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant can prepare a separate meal provided that customers mention their dietary needs when booking.",
+      "acceptedAnswers": [
+        "The restaurant can prepare a separate meal providing that customers mention their dietary needs when booking."
+      ]
+    },
+    {
+      "id": "ss24-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The organisation can launch both projects this year only if each department stays within its budget.",
+      "promptZh": "只有每個部門都不超出預算，機構今年才可以推出兩個項目。",
+      "starter": "Provided",
+      "answer": "Provided that each department stays within its budget, the organisation can launch both projects this year.",
+      "answerZh": "只要每個部門都不超出預算，機構今年便可以推出兩個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Provided that each department stays within its budget, the organisation can launch both projects this year.",
+      "acceptedAnswers": [
+        "Providing that each department stays within its budget, the organisation can launch both projects this year."
+      ]
+    },
+    {
+      "id": "ss24-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The coach will allow the players to choose the training time as long as everyone attends the full session.",
+      "promptZh": "只要所有人出席整節訓練，教練便會讓球員選擇訓練時間。",
+      "starter": "The",
+      "answer": "The coach will allow the players to choose the training time providing that everyone attends the full session.",
+      "answerZh": "只要所有人出席整節訓練，教練便會讓球員選擇訓練時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach will allow the players to choose the training time providing that everyone attends the full session.",
+      "acceptedAnswers": [
+        "The coach will allow the players to choose the training time provided that everyone attends the full session."
+      ]
+    },
+    {
+      "id": "ss24-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "A temporary visitor pass may be issued only after the guest shows identification and agrees to remain with a staff member.",
+      "promptZh": "只有訪客出示身分證明並同意由職員陪同，才可獲發臨時訪客證。",
+      "starter": "A",
+      "answer": "A temporary visitor pass may be issued provided that the guest shows identification and agrees to remain with a staff member.",
+      "answerZh": "只要訪客出示身分證明並同意由職員陪同，便可獲發臨時訪客證。",
+      "answerZhSource": "pdf",
+      "highlight": "A temporary visitor pass may be issued provided that the guest shows identification and agrees to remain with a staff member.",
+      "acceptedAnswers": [
+        "A temporary visitor pass may be issued providing that the guest shows identification and agrees to remain with a staff member."
+      ]
+    },
+    {
+      "id": "ss24-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The final report can be sent to the client this afternoon only after two team members have checked the data.",
+      "promptZh": "只有兩名團隊成員檢查過數據後，最終報告才可以在今天下午發送給客戶。",
+      "starter": "Providing",
+      "answer": "Providing that the data has been checked by two team members, the final report can be sent to the client this afternoon.",
+      "answerZh": "只要數據已由兩名團隊成員檢查，最終報告便可以在今天下午發送給客戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Providing that the data has been checked by two team members, the final report can be sent to the client this afternoon.",
+      "acceptedAnswers": [
+        "Provided that the data has been checked by two team members, the final report can be sent to the client this afternoon."
+      ]
+    }
+  ]
+}

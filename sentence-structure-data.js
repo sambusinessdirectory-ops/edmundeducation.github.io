@@ -745,8 +745,18 @@
     questions: althoughQuestions
   };
 
+  const importedLessons = Array.isArray(window.EDMUND_SENTENCE_STRUCTURE_EXPANSION)
+    ? window.EDMUND_SENTENCE_STRUCTURE_EXPANSION
+    : [];
+
   window.EDMUND_SENTENCE_STRUCTURE_DATA = Object.freeze({
     version: 1,
-    lessons: [purposeLesson, adjectiveNounLesson, adjectiveInfinitiveLesson, althoughLesson]
+    lessons: [
+      purposeLesson,
+      adjectiveNounLesson,
+      adjectiveInfinitiveLesson,
+      althoughLesson,
+      ...importedLessons
+    ]
   });
 })();

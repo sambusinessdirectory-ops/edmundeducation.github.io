@@ -1,0 +1,1210 @@
+{
+  "id": "ss28",
+  "order": 28,
+  "slug": "had-better",
+  "title": "「Had better」句型",
+  "titleZh": "「Had better」表示強烈建議或警告",
+  "titleEn": "Using Had better for strong advice or a warning",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 28 -「Had better」表示強烈建議或警告.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Subject + had better + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss28-formula-positive",
+      "labelEn": "Positive Form",
+      "labelZh": "肯定式",
+      "formula": "Subject + had better + base verb + other information"
+    },
+    {
+      "id": "ss28-formula-negative",
+      "labelEn": "Negative Form",
+      "labelZh": "否定式",
+      "formula": "Subject + had better not + base verb + other information"
+    }
+  ],
+  "example": "You had better save a copy.",
+  "exampleZh": "你最好儲存一份副本。",
+  "examples": [
+    {
+      "id": "ss28-example-01",
+      "en": "You had better save a copy.",
+      "zh": "你最好儲存一份副本。",
+      "highlight": "had better save"
+    }
+  ],
+  "meaning": {
+    "en": "Had better gives strong or urgent advice and often implies that a problem may occur if the advice is not followed.",
+    "zh": "Had better 表示較強烈或較緊急的建議，並通常暗示如果不照做，可能會出現問題。",
+    "enSource": "editorial-translation",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss28-benefit-01",
+      "en": "It shows that the advice is serious and should be considered carefully.",
+      "zh": "讓對方立即明白這項建議並不是普通意見，而是需要認真考慮的提醒。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss28-benefit-02",
+      "en": "It can warn people about a possible problem and is particularly useful for warnings, safety reminders and urgent advice.",
+      "zh": "可以警告可能出現的問題，特別適合提出警告、安全提醒和緊急建議。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss28-benefit-03",
+      "en": "It can make a warning shorter and more direct.",
+      "zh": "可以用較短和直接的方式表達強烈建議。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss28-benefit-04",
+      "en": "It helps you choose the correct strength of advice by distinguishing ordinary advice, strong advice or warning, and a rule or requirement.",
+      "zh": "幫助選擇正確的建議強度，分辨普通建議、強烈建議或警告，以及規則或必要要求。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss28-benefit-05",
+      "en": "It is useful in everyday situations such as conversations, messages, work reminders, travel arrangements, health advice and safety warnings.",
+      "zh": "適合日常對話、短訊、工作提醒、旅遊安排、健康建議和安全警告。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss28-rule-01",
+      "en": "Use the base form of the verb after had better. Do not add to.",
+      "zh": "Had better 後面使用動詞原形，不可加入 to。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: You had better leave now.",
+        "Incorrect: You had better to leave now."
+      ]
+    },
+    {
+      "id": "ss28-rule-02",
+      "en": "The negative form is had better not + base verb, not had not better.",
+      "zh": "否定式是 had better not + 動詞原形，不是 had not better。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You had better not touch the pan."
+      ]
+    },
+    {
+      "id": "ss28-rule-03",
+      "en": "Had does not indicate past time. Had better normally refers to an action that should be taken now or in the near future.",
+      "zh": "had 不表示過去時間；had better 通常表示現在或不久將來應該採取的行動。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You had better call her now."
+      ]
+    },
+    {
+      "id": "ss28-rule-04",
+      "en": "Had better is stronger than should. Should normally gives general advice, whereas had better gives stronger or more urgent advice and often implies a possible problem if it is ignored.",
+      "zh": "Had better 比 should 更強烈。should 通常表示一般建議；had better 表示較強烈或較緊急的建議，並通常暗示如果不照做，可能會出現問題。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You should check your work.",
+        "You had better check your work, or you may lose marks."
+      ]
+    },
+    {
+      "id": "ss28-rule-05",
+      "en": "Had better is not the same as must: should gives ordinary advice, had better gives strong advice or a warning, and must states a rule, command or necessary requirement.",
+      "zh": "Had better 與 must 不完全相同：should 表示一般或較溫和的建議；had better 表示強烈建議或警告；must 表示規則、命令或必要要求。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You must show your passport at immigration."
+      ]
+    },
+    {
+      "id": "ss28-rule-06",
+      "en": "Had better is normally used for a specific immediate or upcoming situation. Should is usually more suitable for general or long-term advice.",
+      "zh": "Had better 多用於眼前或即將發生的具體情況；表達一般或長期建議時，should 通常較合適。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You had better take an umbrella. It is going to rain.",
+        "People should exercise regularly."
+      ]
+    },
+    {
+      "id": "ss28-rule-07",
+      "en": "Had better can sound strong, like a warning or command. Use it carefully with strangers, customers or supervisors so that the tone does not seem too forceful.",
+      "zh": "Had better 的語氣可能較強，有時像警告或命令；與陌生人、顧客或上司說話時應小心使用，以免顯得過於強硬。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss28-rule-08",
+      "en": "Had better may be contracted to ’d better in speech, but this exercise consistently uses the full form had better.",
+      "zh": "口語中 had better 可以縮寫為 ’d better，但本練習統一使用完整形式 had better。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "You’d better leave now."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using had better to give strong advice or a warning. Use had better not when the advice is negative.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 had better 改寫以下句子，以提出強烈建議或警告。需要表達「最好不要」時，使用 had better not。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss28-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You should save a copy, or you may lose your work.",
+      "promptZh": "你應該儲存一份副本，否則可能會遺失你的工作內容。",
+      "starter": "You",
+      "answer": "You had better save a copy, or you may lose your work.",
+      "answerZh": "你最好儲存一份副本，否則可能會遺失你的工作內容。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better save a copy, or you may lose your work."
+    },
+    {
+      "id": "ss28-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It would be wise to take an umbrella because heavy rain is expected.",
+      "promptZh": "由於預計會下大雨，帶一把雨傘會較明智。",
+      "starter": "You",
+      "answer": "You had better take an umbrella because heavy rain is expected.",
+      "answerZh": "你最好帶一把雨傘，因為預計會下大雨。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better take an umbrella because heavy rain is expected."
+    },
+    {
+      "id": "ss28-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You should leave now, or you may miss the bus.",
+      "promptZh": "你應該現在離開，否則可能會錯過巴士。",
+      "starter": "You",
+      "answer": "You had better leave now, or you may miss the bus.",
+      "answerZh": "你最好現在離開，否則可能會錯過巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better leave now, or you may miss the bus."
+    },
+    {
+      "id": "ss28-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The best thing to do is charge your phone before the trip.",
+      "promptZh": "最好的做法是在旅程前為手機充電。",
+      "starter": "You",
+      "answer": "You had better charge your phone before the trip.",
+      "answerZh": "你最好在旅程前為手機充電。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better charge your phone before the trip."
+    },
+    {
+      "id": "ss28-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You are strongly advised to wear a coat because it is very cold outside.",
+      "promptZh": "外面非常寒冷，因此強烈建議你穿上外套。",
+      "starter": "You",
+      "answer": "You had better wear a coat because it is very cold outside.",
+      "answerZh": "你最好穿上外套，因為外面非常寒冷。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better wear a coat because it is very cold outside."
+    },
+    {
+      "id": "ss28-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You should check the address before sending the parcel, or it may go to the wrong place.",
+      "promptZh": "你應該在寄出包裹前核對地址，否則包裹可能會寄錯地方。",
+      "starter": "You",
+      "answer": "You had better check the address before sending the parcel, or it may go to the wrong place.",
+      "answerZh": "你最好在寄出包裹前核對地址，否則包裹可能會寄錯地方。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better check the address before sending the parcel, or it may go to the wrong place."
+    },
+    {
+      "id": "ss28-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You look very thirsty. It would be wise to drink some water now.",
+      "promptZh": "你看來非常口渴。現在喝點水會較明智。",
+      "starter": "You",
+      "answer": "You look very thirsty, so you had better drink some water now.",
+      "answerZh": "你看來非常口渴，所以最好現在喝點水。",
+      "answerZhSource": "pdf",
+      "highlight": "You look very thirsty, so you had better drink some water now."
+    },
+    {
+      "id": "ss28-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Make sure you lock the door before you go out.",
+      "promptZh": "外出前務必鎖好門。",
+      "starter": "You",
+      "answer": "You had better lock the door before you go out.",
+      "answerZh": "你最好在外出前鎖好門。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better lock the door before you go out."
+    },
+    {
+      "id": "ss28-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you are still confused, the safest thing is to ask the teacher.",
+      "promptZh": "如果你仍然感到困惑，最穩妥的做法是請教老師。",
+      "starter": "If",
+      "answer": "If you are still confused, you had better ask the teacher.",
+      "answerZh": "如果你仍然感到困惑，最好請教老師。",
+      "answerZhSource": "pdf",
+      "highlight": "If you are still confused, you had better ask the teacher."
+    },
+    {
+      "id": "ss28-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Do not touch the pan because it is still very hot.",
+      "promptZh": "不要觸碰平底鍋，因為它仍然很燙。",
+      "starter": "You",
+      "answer": "You had better not touch the pan because it is still very hot.",
+      "answerZh": "你最好不要觸碰平底鍋，因為它仍然很燙。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better not touch the pan because it is still very hot."
+    },
+    {
+      "id": "ss28-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sam should set an alarm, or he may oversleep.",
+      "promptZh": "森應該設定鬧鐘，否則他可能會睡過頭。",
+      "starter": "Sam",
+      "answer": "Sam had better set an alarm, or he may oversleep.",
+      "answerZh": "森最好設定鬧鐘，否則他可能會睡過頭。",
+      "answerZhSource": "pdf",
+      "highlight": "Sam had better set an alarm, or he may oversleep."
+    },
+    {
+      "id": "ss28-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It would be wise for us to book the tickets today because prices may rise tomorrow.",
+      "promptZh": "我們今天預訂門票會較明智，因為價格明天可能會上升。",
+      "starter": "We",
+      "answer": "We had better book the tickets today because prices may rise tomorrow.",
+      "answerZh": "我們最好今天預訂門票，因為價格明天可能會上升。",
+      "answerZhSource": "pdf",
+      "highlight": "We had better book the tickets today because prices may rise tomorrow."
+    },
+    {
+      "id": "ss28-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily should save copies of her files in case her computer stops working.",
+      "promptZh": "莉莉應該儲存檔案副本，以防電腦停止運作。",
+      "starter": "Lily",
+      "answer": "Lily had better save copies of her files in case her computer stops working.",
+      "answerZh": "莉莉最好儲存檔案副本，以防電腦停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily had better save copies of her files in case her computer stops working."
+    },
+    {
+      "id": "ss28-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You are strongly advised not to eat that yoghurt because it has expired.",
+      "promptZh": "那杯乳酪已經過期，因此強烈建議你不要吃。",
+      "starter": "You",
+      "answer": "You had better not eat that yoghurt because it has expired.",
+      "answerZh": "你最好不要吃那杯乳酪，因為它已經過期。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better not eat that yoghurt because it has expired."
+    },
+    {
+      "id": "ss28-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The weather warning says the children should stay indoors until the storm passes.",
+      "promptZh": "天氣警告指出，孩子們應該留在室內，直至暴風雨過去。",
+      "starter": "The",
+      "answer": "The children had better stay indoors until the storm passes.",
+      "answerZh": "孩子們最好留在室內，直至暴風雨過去。",
+      "answerZhSource": "pdf",
+      "highlight": "The children had better stay indoors until the storm passes."
+    },
+    {
+      "id": "ss28-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is important for me to reply to this email today, or the customer may think I ignored it.",
+      "promptZh": "我今天回覆這封電郵十分重要，否則顧客可能會以為我沒有理會。",
+      "starter": "I",
+      "answer": "I had better reply to this email today, or the customer may think I ignored it.",
+      "answerZh": "我最好今天回覆這封電郵，否則顧客可能會以為我沒有理會。",
+      "answerZhSource": "pdf",
+      "highlight": "I had better reply to this email today, or the customer may think I ignored it."
+    },
+    {
+      "id": "ss28-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel has had a fever for three days. The sensible thing is for him to see a doctor.",
+      "promptZh": "丹尼爾已經發燒三天。明智的做法是去看醫生。",
+      "starter": "Daniel",
+      "answer": "Daniel has had a fever for three days, so he had better see a doctor.",
+      "answerZh": "丹尼爾已經發燒三天，所以最好去看醫生。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel has had a fever for three days, so he had better see a doctor."
+    },
+    {
+      "id": "ss28-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why should you keep the receipt? You may need it if you return the item.",
+      "promptZh": "你為甚麼應該保留收據？如果要退貨，你可能會需要它。",
+      "starter": "You",
+      "answer": "You had better keep the receipt because you may need it if you return the item.",
+      "answerZh": "你最好保留收據，因為如果要退貨，你可能會需要它。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better keep the receipt because you may need it if you return the item."
+    },
+    {
+      "id": "ss28-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia is very tired, so it would be unwise for her to drive tonight.",
+      "promptZh": "米婭非常疲倦，所以她今晚駕駛並不明智。",
+      "starter": "Mia",
+      "answer": "Mia is very tired, so she had better not drive tonight.",
+      "answerZh": "米婭非常疲倦，所以今晚最好不要駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is very tired, so she had better not drive tonight."
+    },
+    {
+      "id": "ss28-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team should practise the presentation again, or the audience may not understand it.",
+      "promptZh": "團隊應該再次練習簡報，否則觀眾可能無法明白內容。",
+      "starter": "The",
+      "answer": "The team had better practise the presentation again, or the audience may not understand it.",
+      "answerZh": "團隊最好再次練習簡報，否則觀眾可能無法明白內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had better practise the presentation again, or the audience may not understand it."
+    },
+    {
+      "id": "ss28-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We should take the earlier train, or we may not arrive before the meeting starts.",
+      "promptZh": "我們應該乘搭較早的火車，否則可能無法在會議開始前到達。",
+      "starter": "We",
+      "answer": "We had better take the earlier train, or we may not arrive before the meeting starts.",
+      "answerZh": "我們最好乘搭較早的火車，否則可能無法在會議開始前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "We had better take the earlier train, or we may not arrive before the meeting starts."
+    },
+    {
+      "id": "ss28-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Oliver is strongly advised to bring his passport to the airport.",
+      "promptZh": "強烈建議奧利弗帶同護照前往機場。",
+      "starter": "Oliver",
+      "answer": "Oliver had better bring his passport to the airport.",
+      "answerZh": "奧利弗最好帶同護照前往機場。",
+      "answerZhSource": "pdf",
+      "highlight": "Oliver had better bring his passport to the airport."
+    },
+    {
+      "id": "ss28-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sharing that password would put your account at risk, so do not share it.",
+      "promptZh": "分享那個密碼會令你的帳戶承受風險，所以不要分享它。",
+      "starter": "You",
+      "answer": "You had better not share that password because it would put your account at risk.",
+      "answerZh": "你最好不要分享那個密碼，因為這樣會令你的帳戶承受風險。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better not share that password because it would put your account at risk."
+    },
+    {
+      "id": "ss28-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager needs the report at one o’clock, so the wisest choice is for me to finish it before lunch.",
+      "promptZh": "經理在一時需要這份報告，所以我最明智的選擇是在午飯前完成它。",
+      "starter": "I",
+      "answer": "I had better finish this report before lunch because the manager needs it at one o’clock.",
+      "answerZh": "我最好在午飯前完成這份報告，因為經理在一時需要它。",
+      "answerZhSource": "pdf",
+      "highlight": "I had better finish this report before lunch because the manager needs it at one o’clock."
+    },
+    {
+      "id": "ss28-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The air quality is very poor today. Residents are strongly advised to close their windows.",
+      "promptZh": "今天的空氣質素非常差。因此強烈建議居民關上窗戶。",
+      "starter": "The",
+      "answer": "The air quality is very poor today, so residents had better close their windows.",
+      "answerZh": "今天的空氣質素非常差，所以居民最好關上窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "The air quality is very poor today, so residents had better close their windows."
+    },
+    {
+      "id": "ss28-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If Chloe ignores the warning light, the car may break down.",
+      "promptZh": "如果克洛伊忽略警告燈，汽車可能會故障。",
+      "starter": "Chloe",
+      "answer": "Chloe had better not ignore the warning light, or the car may break down.",
+      "answerZh": "克洛伊最好不要忽略警告燈，否則汽車可能會故障。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe had better not ignore the warning light, or the car may break down."
+    },
+    {
+      "id": "ss28-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why should we check the platform number again? The platform may have changed.",
+      "promptZh": "我們為甚麼應該再次查看月台號碼？月台可能已經更改。",
+      "starter": "We",
+      "answer": "We had better check the platform number again because it may have changed.",
+      "answerZh": "我們最好再次查看月台號碼，因為月台可能已經更改。",
+      "answerZhSource": "pdf",
+      "highlight": "We had better check the platform number again because it may have changed."
+    },
+    {
+      "id": "ss28-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient’s condition has suddenly become worse. The nurse should call the doctor immediately.",
+      "promptZh": "病人的情況突然惡化。護士應該立即通知醫生。",
+      "starter": "The",
+      "answer": "The patient’s condition has suddenly become worse, so the nurse had better call the doctor immediately.",
+      "answerZh": "病人的情況突然惡化，所以護士最好立即通知醫生。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient’s condition has suddenly become worse, so the nurse had better call the doctor immediately."
+    },
+    {
+      "id": "ss28-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some small shops do not accept credit cards, so it would be wise to keep some cash with you.",
+      "promptZh": "有些小店不接受信用卡，所以隨身帶備一些現金會較明智。",
+      "starter": "Some",
+      "answer": "Some small shops do not accept credit cards, so you had better keep some cash with you.",
+      "answerZh": "有些小店不接受信用卡，所以你最好隨身帶備一些現金。",
+      "answerZhSource": "pdf",
+      "highlight": "Some small shops do not accept credit cards, so you had better keep some cash with you."
+    },
+    {
+      "id": "ss28-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The broken gate could injure someone. The school should repair it soon.",
+      "promptZh": "損壞的閘門可能會令別人受傷。學校應該盡快修理它。",
+      "starter": "The",
+      "answer": "The school had better repair the broken gate soon because it could injure someone.",
+      "answerZh": "學校最好盡快修理損壞的閘門，因為它可能會令別人受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "The school had better repair the broken gate soon because it could injure someone."
+    },
+    {
+      "id": "ss28-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It would be unwise for Mark to post that photo online because it shows private information.",
+      "promptZh": "那張相片顯示了私人資料，所以馬克把它上載到網上並不明智。",
+      "starter": "Mark",
+      "answer": "Mark had better not post that photo online because it shows private information.",
+      "answerZh": "馬克最好不要把那張相片上載到網上，因為它顯示了私人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Mark had better not post that photo online because it shows private information."
+    },
+    {
+      "id": "ss28-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Several roads are closed because of the storm. The most sensible option is to move the meeting online.",
+      "promptZh": "多條道路因暴風雨而封閉。最明智的選擇是把會議改為網上進行。",
+      "starter": "Several",
+      "answer": "Several roads are closed because of the storm, so we had better move the meeting online.",
+      "answerZh": "多條道路因暴風雨而封閉，所以我們最好把會議改為網上進行。",
+      "answerZhSource": "pdf",
+      "highlight": "Several roads are closed because of the storm, so we had better move the meeting online."
+    },
+    {
+      "id": "ss28-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Before you sign the contract, make sure you read every detail carefully.",
+      "promptZh": "簽署合約前，務必仔細閱讀每一項細節。",
+      "starter": "You",
+      "answer": "You had better read every detail carefully before signing the contract.",
+      "answerZh": "你最好在簽署合約前仔細閱讀每一項細節。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better read every detail carefully before signing the contract."
+    },
+    {
+      "id": "ss28-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hikers may be caught in the dark if they continue. The safest action is to turn back now.",
+      "promptZh": "如果行山人士繼續前進，他們可能會在天黑後仍未離開。最穩妥的做法是現在折返。",
+      "starter": "The",
+      "answer": "The hikers had better turn back now, or they may be caught in the dark.",
+      "answerZh": "行山人士最好現在折返，否則他們可能會在天黑後仍未離開。",
+      "answerZhSource": "pdf",
+      "highlight": "The hikers had better turn back now, or they may be caught in the dark."
+    },
+    {
+      "id": "ss28-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We still do not know when the parts will arrive, so it would be unwise for me to promise a delivery date yet.",
+      "promptZh": "我們仍然不知道零件何時到達，所以我現在承諾送貨日期並不明智。",
+      "starter": "We",
+      "answer": "We still do not know when the parts will arrive, so I had better not promise a delivery date yet.",
+      "answerZh": "我們仍然不知道零件何時到達，所以我最好暫時不要承諾送貨日期。",
+      "answerZhSource": "pdf",
+      "highlight": "We still do not know when the parts will arrive, so I had better not promise a delivery date yet."
+    },
+    {
+      "id": "ss28-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What is the best thing for Sofia to do? She should tell her parents the truth before they hear it from someone else.",
+      "promptZh": "蘇菲亞最好怎樣做？她應該在父母從別人口中得知之前告訴他們真相。",
+      "starter": "Sofia",
+      "answer": "Sofia had better tell her parents the truth before they hear it from someone else.",
+      "answerZh": "蘇菲亞最好在父母從別人口中得知之前告訴他們真相。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia had better tell her parents the truth before they hear it from someone else."
+    },
+    {
+      "id": "ss28-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Children may cross the road without warning, so drivers are strongly advised to slow down near the school.",
+      "promptZh": "孩子可能會在沒有預警下橫過馬路，所以強烈建議駕駛者在學校附近減速。",
+      "starter": "Children",
+      "answer": "Children may cross the road without warning, so drivers had better slow down near the school.",
+      "answerZh": "孩子可能會在沒有預警下橫過馬路，所以駕駛者最好在學校附近減速。",
+      "answerZhSource": "pdf",
+      "highlight": "Children may cross the road without warning, so drivers had better slow down near the school."
+    },
+    {
+      "id": "ss28-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The email came from an unknown sender. Do not open the attachment because it may contain a virus.",
+      "promptZh": "這封電郵來自不明寄件人。不要開啟附件，因為當中可能含有電腦病毒。",
+      "starter": "The",
+      "answer": "The email came from an unknown sender, so you had better not open the attachment because it may contain a virus.",
+      "answerZh": "這封電郵來自不明寄件人，所以你最好不要開啟附件，因為當中可能含有電腦病毒。",
+      "answerZhSource": "pdf",
+      "highlight": "The email came from an unknown sender, so you had better not open the attachment because it may contain a virus."
+    },
+    {
+      "id": "ss28-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "More guests may come than expected, so the organisers should prepare extra chairs.",
+      "promptZh": "出席的賓客可能比預期多，所以主辦單位應該準備額外座椅。",
+      "starter": "The",
+      "answer": "The organisers had better prepare extra chairs because more guests may come than expected.",
+      "answerZh": "主辦單位最好準備額外座椅，因為出席的賓客可能比預期多。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers had better prepare extra chairs because more guests may come than expected."
+    },
+    {
+      "id": "ss28-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is important for us to write down the confirmation number in case we need to contact the hotel.",
+      "promptZh": "我們記下確認編號十分重要，以備需要聯絡酒店時使用。",
+      "starter": "We",
+      "answer": "We had better write down the confirmation number in case we need to contact the hotel.",
+      "answerZh": "我們最好記下確認編號，以備需要聯絡酒店時使用。",
+      "answerZhSource": "pdf",
+      "highlight": "We had better write down the confirmation number in case we need to contact the hotel."
+    },
+    {
+      "id": "ss28-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The faulty lift is causing long delays, and patients may be put at risk. The hospital should replace it quickly.",
+      "promptZh": "故障的升降機造成長時間延誤，也可能令病人承受風險。醫院應該盡快更換它。",
+      "starter": "The",
+      "answer": "The faulty lift is causing long delays and may put patients at risk, so the hospital had better replace it quickly.",
+      "answerZh": "故障的升降機造成長時間延誤，也可能令病人承受風險，所以醫院最好盡快更換它。",
+      "answerZhSource": "pdf",
+      "highlight": "The faulty lift is causing long delays and may put patients at risk, so the hospital had better replace it quickly."
+    },
+    {
+      "id": "ss28-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It would be unwise to rely on one source alone because it may contain an error.",
+      "promptZh": "只依靠一個資料來源並不明智，因為當中可能有錯誤。",
+      "starter": "You",
+      "answer": "You had better not rely on one source alone because it may contain an error.",
+      "answerZh": "你最好不要只依靠一個資料來源，因為當中可能有錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "You had better not rely on one source alone because it may contain an error."
+    },
+    {
+      "id": "ss28-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If our company changes the service without warning customers, many of them may complain.",
+      "promptZh": "如果本公司在沒有通知顧客的情況下更改服務，很多顧客可能會投訴。",
+      "starter": "Our",
+      "answer": "Our company had better inform customers before changing the service, or many of them may complain.",
+      "answerZh": "本公司最好在更改服務前通知顧客，否則很多顧客可能會投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company had better inform customers before changing the service, or many of them may complain."
+    },
+    {
+      "id": "ss28-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ben is strongly advised to keep the medicine away from children.",
+      "promptZh": "強烈建議本把藥物放在兒童接觸不到的地方。",
+      "starter": "Ben",
+      "answer": "Ben had better keep the medicine away from children.",
+      "answerZh": "本最好把藥物放在兒童接觸不到的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben had better keep the medicine away from children."
+    },
+    {
+      "id": "ss28-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The damaged road is becoming more dangerous, so the council is strongly advised not to delay the repairs any longer.",
+      "promptZh": "受損道路正變得更加危險，所以強烈建議市政當局不要再拖延維修。",
+      "starter": "The",
+      "answer": "The damaged road is becoming more dangerous, so the council had better not delay the repairs any longer.",
+      "answerZh": "受損道路正變得更加危險，所以市政當局最好不要再拖延維修。",
+      "answerZhSource": "pdf",
+      "highlight": "The damaged road is becoming more dangerous, so the council had better not delay the repairs any longer."
+    },
+    {
+      "id": "ss28-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why is it important for us to copy every signed document? We may need proof later.",
+      "promptZh": "我們為甚麼應該為每份已簽署的文件保留副本？我們日後可能需要證明。",
+      "starter": "We",
+      "answer": "We had better make a copy of every signed document because we may need proof later.",
+      "answerZh": "我們最好為每份已簽署的文件保留副本，因為日後可能需要證明。",
+      "answerZhSource": "pdf",
+      "highlight": "We had better make a copy of every signed document because we may need proof later."
+    },
+    {
+      "id": "ss28-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several players are injured. If the coach continues with the same training plan, more players may get hurt.",
+      "promptZh": "數名球員已經受傷。如果教練繼續採用相同的訓練計劃，可能會有更多球員受傷。",
+      "starter": "Several",
+      "answer": "Several players are injured, so the coach had better change the training plan before more players get hurt.",
+      "answerZh": "數名球員已經受傷，所以教練最好在更多球員受傷前更改訓練計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Several players are injured, so the coach had better change the training plan before more players get hurt."
+    },
+    {
+      "id": "ss28-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A telephone call may not be enough. The safest choice is to confirm the cancellation in writing.",
+      "promptZh": "單靠電話通知可能不足夠。最穩妥的做法是以書面確認取消安排。",
+      "starter": "A",
+      "answer": "A telephone call may not be enough, so you had better confirm the cancellation in writing.",
+      "answerZh": "單靠電話通知可能不足夠，所以你最好以書面確認取消安排。",
+      "answerZhSource": "pdf",
+      "highlight": "A telephone call may not be enough, so you had better confirm the cancellation in writing."
+    },
+    {
+      "id": "ss28-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The figures have not been checked fully, so the research team is strongly advised not to publish the results yet.",
+      "promptZh": "數據尚未經過全面核對，所以強烈建議研究團隊暫時不要公布結果。",
+      "starter": "The",
+      "answer": "The figures have not been checked fully, so the research team had better not publish the results yet.",
+      "answerZh": "數據尚未經過全面核對，所以研究團隊最好暫時不要公布結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The figures have not been checked fully, so the research team had better not publish the results yet."
+    },
+    {
+      "id": "ss28-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Residents have reported cracks in several walls. The building manager should arrange an urgent inspection before the problem becomes more serious.",
+      "promptZh": "居民報告數面牆壁出現裂縫。大廈經理應該在問題變得更嚴重前安排緊急檢查。",
+      "starter": "Residents",
+      "answer": "Residents have reported cracks in several walls, so the building manager had better arrange an urgent inspection before the problem becomes more serious.",
+      "answerZh": "居民報告數面牆壁出現裂縫，所以大廈經理最好在問題變得更嚴重前安排緊急檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents have reported cracks in several walls, so the building manager had better arrange an urgent inspection before the problem becomes more serious."
+    }
+  ]
+}

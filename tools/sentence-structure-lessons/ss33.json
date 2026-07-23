@@ -1,0 +1,1077 @@
+{
+  "id": "ss33",
+  "order": 33,
+  "slug": "whether-or-not-regardless",
+  "title": "「Whether (or not) 句」句型",
+  "titleZh": "「Whether (or not) 句」表達「無論……（與否）」",
+  "titleEn": "Using Whether (or not) to express ‘regardless of whether’",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 33 -「Whether (or not) 句」表達「無論……（與否）」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules are faithful editorial translations."
+    ]
+  },
+  "formula": "Whether or not + subject + verb, + main clause",
+  "formulas": [
+    {
+      "id": "ss33-formula-a",
+      "labelEn": "Structure A",
+      "labelZh": "結構 A",
+      "formula": "Whether or not + subject + verb, + main clause"
+    },
+    {
+      "id": "ss33-formula-b",
+      "labelEn": "Structure B",
+      "labelZh": "結構 B",
+      "formula": "Whether + subject + verb + or not, + main clause"
+    },
+    {
+      "id": "ss33-formula-c",
+      "labelEn": "Structure C",
+      "labelZh": "結構 C",
+      "formula": "Main clause + whether or not + subject + verb"
+    }
+  ],
+  "example": "Whether or not John is coming, I will join the team.",
+  "exampleZh": "無論 John 來不來，我都會加入這個團隊。",
+  "examples": [
+    {
+      "id": "ss33-example-01",
+      "en": "Whether or not John is coming, I will join the team.",
+      "zh": "無論 John 來不來，我都會加入這個團隊。",
+      "highlight": "Whether or not John is coming"
+    }
+  ],
+  "meaning": {
+    "zh": "Whether or not 表示有兩種可能，但無論哪種可能成真，主句的決定、結果、規則或行動都不會改變。"
+  },
+  "rules": [
+    {
+      "id": "ss33-rule-01",
+      "en": "The result in the main clause does not change. Whether or not presents two possibilities, but the main decision, result, rule or action remains the same.",
+      "zh": "主句的結果不會改變。Whether or not 表示有兩種可能，但無論哪種可能成真，主句的決定、結果、規則或行動都不會改變。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Whether or not it rains, we will go outside."
+      ]
+    },
+    {
+      "id": "ss33-rule-02",
+      "en": "Or not may appear immediately after whether or after the subject and verb.",
+      "zh": "Or not 可以放在兩個位置：Whether or not he agrees... 或 Whether he agrees or not....",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Whether or not he agrees, we will continue.",
+        "Whether he agrees or not, we will continue."
+      ]
+    },
+    {
+      "id": "ss33-rule-03",
+      "en": "Use normal statement word order after whether: subject + verb, not question word order.",
+      "zh": "Whether 後面使用「主語＋動詞」，不可使用問句語序。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Whether she is ready or not, we must begin."
+      ]
+    },
+    {
+      "id": "ss33-rule-04",
+      "en": "When the whether-clause comes first, it normally takes a comma. When it follows the main clause, a comma is normally unnecessary.",
+      "zh": "Whether 句放在句首時，後面通常要加逗號；放在主句後面時，通常不需要逗號。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Whether or not the shop is busy, the staff remain polite.",
+        "The staff remain polite whether or not the shop is busy."
+      ]
+    },
+    {
+      "id": "ss33-rule-05",
+      "en": "Do not confuse this structure with an ordinary if-condition. If makes the result depend on a condition; whether or not shows that the condition does not affect the result.",
+      "zh": "不要與普通 if 條件句混淆。If 表示主句結果取決於條件；Whether or not 表示結果不受該條件影響。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If John comes, I will join the team.",
+        "Whether or not John comes, I will join the team."
+      ]
+    },
+    {
+      "id": "ss33-rule-06",
+      "en": "Here, whether does not introduce an object clause meaning ‘whether’. The sentence must show that the main clause remains true in both situations.",
+      "zh": "這裏的 whether 不是表示「是否」的賓語句；本課句型必須表達「兩種情況下，主句仍然成立」。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I do not know whether John is coming."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss33-benefit-01",
+      "en": "It clearly shows that the result will not change.",
+      "zh": "這個句型可以清楚告訴聽者：無論出現哪種情況，主要決定、行動或規則都不會改變。"
+    },
+    {
+      "id": "ss33-benefit-02",
+      "en": "It combines two repeated conditions.",
+      "zh": "你不需要寫出兩句相似的條件句，可以把兩種可能合併成一句。"
+    },
+    {
+      "id": "ss33-benefit-03",
+      "en": "It helps you express a firm decision.",
+      "zh": "可以表達堅定的決定，說明其他事情不會令你改變計劃。"
+    },
+    {
+      "id": "ss33-benefit-04",
+      "en": "It is useful for rules and advice.",
+      "zh": "可以表示某項規則或建議在兩種情況下都同樣適用。"
+    },
+    {
+      "id": "ss33-benefit-05",
+      "en": "It gives you more sentence variety.",
+      "zh": "Whether 句可以放在句首或句尾，使說話和寫作不會過於重複。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF presents the Important Rules mainly in Chinese; their English versions are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using whether (or not) to show that the main result, decision or rule remains the same in both situations.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 whether (or not) 改寫以下句子，表示無論出現哪種情況，主要結果、決定或規則都不會改變。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss33-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "It may rain, or it may not. We will still go for a walk.",
+      "promptZh": "可能會下雨，也可能不會。我們仍然會去散步。",
+      "starter": "Whether",
+      "answer": "Whether or not it rains, we will go for a walk.",
+      "answerZh": "無論下不下雨，我們都會去散步。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not it rains, we will go for a walk."
+    },
+    {
+      "id": "ss33-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Mia may win the game or lose it. In either case, her family will be proud of her.",
+      "promptZh": "米婭可能會勝出比賽，也可能會落敗。無論結果如何，她的家人都會為她感到驕傲。",
+      "starter": "Whether",
+      "answer": "Whether or not Mia wins the game, her family will be proud of her.",
+      "answerZh": "無論米婭能否勝出比賽，她的家人都會為她感到驕傲。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not Mia wins the game, her family will be proud of her."
+    },
+    {
+      "id": "ss33-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Leo’s decision to come will not affect my attendance at the meeting.",
+      "promptZh": "里奧是否出席，並不會影響我參加會議。",
+      "starter": "I",
+      "answer": "I will attend the meeting whether or not Leo comes.",
+      "answerZh": "無論里奧來不來，我都會參加會議。",
+      "answerZhSource": "pdf",
+      "highlight": "I will attend the meeting whether or not Leo comes."
+    },
+    {
+      "id": "ss33-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Ben may like the dish or dislike it, but he should still try one bite.",
+      "promptZh": "本可能喜歡這道菜，也可能不喜歡，但他仍然應該試吃一口。",
+      "starter": "Whether",
+      "answer": "Whether Ben likes the dish or not, he should try one bite.",
+      "answerZh": "無論本喜不喜歡這道菜，他都應該試吃一口。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether Ben likes the dish or not, he should try one bite."
+    },
+    {
+      "id": "ss33-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The number of waiting customers will not affect the opening time. The shop will open at nine.",
+      "promptZh": "等候的顧客人數不會影響開門時間。商店會在九時開門。",
+      "starter": "The",
+      "answer": "The shop will open at nine whether or not many customers are waiting.",
+      "answerZh": "無論是否有很多顧客在等候，商店都會在九時開門。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop will open at nine whether or not many customers are waiting."
+    },
+    {
+      "id": "ss33-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Will Ava receive a certificate if she does not finish first? Yes, she will receive one in either case.",
+      "promptZh": "如果艾娃不是第一名，她仍會獲得證書嗎？會，無論結果如何，她都會獲得證書。",
+      "starter": "Whether",
+      "answer": "Whether or not Ava finishes first, she will receive a certificate.",
+      "answerZh": "無論艾娃是否第一名，她都會獲得證書。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not Ava finishes first, she will receive a certificate."
+    },
+    {
+      "id": "ss33-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The train may be delayed or on time. In either case, we will take the bus.",
+      "promptZh": "火車可能誤點，也可能準時。無論是哪種情況，我們都會乘搭巴士。",
+      "starter": "We",
+      "answer": "We will take the bus whether or not the train is delayed.",
+      "answerZh": "無論火車是否誤點，我們都會乘搭巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "We will take the bus whether or not the train is delayed."
+    },
+    {
+      "id": "ss33-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The room may be large or small, but it must be kept tidy.",
+      "promptZh": "房間可能很大，也可能很小，但必須保持整潔。",
+      "starter": "Whether",
+      "answer": "Whether the room is large or not, it must be kept tidy.",
+      "answerZh": "無論房間是否寬敞，都必須保持整潔。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the room is large or not, it must be kept tidy."
+    },
+    {
+      "id": "ss33-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Daniel will keep practising for both easy and difficult tests.",
+      "promptZh": "無論測驗容易還是困難，丹尼爾都會繼續練習。",
+      "starter": "Daniel",
+      "answer": "Daniel will keep practising whether or not the test is difficult.",
+      "answerZh": "無論測驗是否困難，丹尼爾都會繼續練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel will keep practising whether or not the test is difficult."
+    },
+    {
+      "id": "ss33-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Chloe wears sunscreen on sunny and cloudy days.",
+      "promptZh": "克洛伊在晴天和陰天都會塗防曬霜。",
+      "starter": "Whether",
+      "answer": "Whether or not the sun is shining, Chloe wears sunscreen.",
+      "answerZh": "無論是否有陽光，克洛伊都會塗防曬霜。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the sun is shining, Chloe wears sunscreen."
+    },
+    {
+      "id": "ss33-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "You may agree with me or disagree with me. Please listen to the whole explanation.",
+      "promptZh": "你可能同意我，也可能不同意我。請聽完整個解釋。",
+      "starter": "Whether",
+      "answer": "Whether or not you agree with me, please listen to the whole explanation.",
+      "answerZh": "無論你是否同意我，請先聽完整個解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not you agree with me, please listen to the whole explanation."
+    },
+    {
+      "id": "ss33-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The team will continue the project with or without extra funding.",
+      "promptZh": "不論有沒有額外資金，團隊都會繼續這個項目。",
+      "starter": "The",
+      "answer": "The team will continue the project whether or not extra funding is provided.",
+      "answerZh": "無論是否獲得額外資金，團隊都會繼續這個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The team will continue the project whether or not extra funding is provided."
+    },
+    {
+      "id": "ss33-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Explain how you reached the answer, even if it is incorrect.",
+      "promptZh": "即使答案不正確，也要解釋你是如何得出答案的。",
+      "starter": "Whether",
+      "answer": "Whether the answer is correct or not, explain how you reached it.",
+      "answerZh": "無論答案是否正確，都要解釋你是如何得出答案的。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the answer is correct or not, explain how you reached it."
+    },
+    {
+      "id": "ss33-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Feeling tired after work will not stop Sarah from visiting her grandmother.",
+      "promptZh": "下班後感到疲倦，也不會阻止莎拉探望祖母。",
+      "starter": "Sarah",
+      "answer": "Sarah will visit her grandmother whether or not she feels tired after work.",
+      "answerZh": "無論下班後是否感到疲倦，莎拉都會探望祖母。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah will visit her grandmother whether or not she feels tired after work."
+    },
+    {
+      "id": "ss33-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The café may be busy or quiet, but the staff greet every customer politely.",
+      "promptZh": "咖啡店可能很繁忙，也可能很清靜，但職員都會有禮貌地招呼每位顧客。",
+      "starter": "Whether",
+      "answer": "Whether or not the café is busy, the staff greet every customer politely.",
+      "answerZh": "無論咖啡店是否繁忙，職員都會有禮貌地招呼每位顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the café is busy, the staff greet every customer politely."
+    },
+    {
+      "id": "ss33-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Tom’s participation does not affect the school trip. It will still go ahead.",
+      "promptZh": "湯姆是否參加並不會影響學校旅行。活動仍會照常舉行。",
+      "starter": "The",
+      "answer": "The school trip will go ahead whether or not Tom joins it.",
+      "answerZh": "無論湯姆是否參加，學校旅行都會照常舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The school trip will go ahead whether or not Tom joins it."
+    },
+    {
+      "id": "ss33-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Will Emma buy the book if it is not on sale? Yes, she plans to buy it in either case.",
+      "promptZh": "如果這本書沒有特價，艾瑪仍會購買嗎？會，無論是哪種情況，她都打算購買。",
+      "starter": "Whether",
+      "answer": "Whether or not the book is on sale, Emma plans to buy it.",
+      "answerZh": "無論這本書是否有特價，艾瑪都打算購買。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the book is on sale, Emma plans to buy it."
+    },
+    {
+      "id": "ss33-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The computer may seem slow or normal. You should save your work regularly in both cases.",
+      "promptZh": "電腦可能看起來很慢，也可能運作正常。無論是哪種情況，你都應該定期儲存工作。",
+      "starter": "You",
+      "answer": "You should save your work regularly whether or not the computer seems slow.",
+      "answerZh": "無論電腦是否看起來很慢，你都應該定期儲存工作。",
+      "answerZhSource": "pdf",
+      "highlight": "You should save your work regularly whether or not the computer seems slow."
+    },
+    {
+      "id": "ss33-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The road may be crowded or empty, but the driver must obey the speed limit.",
+      "promptZh": "道路可能擠塞，也可能暢通，但司機必須遵守速度限制。",
+      "starter": "Whether",
+      "answer": "Whether the road is crowded or not, the driver must obey the speed limit.",
+      "answerZh": "無論道路是否擠塞，司機都必須遵守速度限制。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the road is crowded or not, the driver must obey the speed limit."
+    },
+    {
+      "id": "ss33-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The children will play indoors when the playground is open and when it is closed.",
+      "promptZh": "遊樂場開放或關閉時，孩子們都會在室內玩耍。",
+      "starter": "The",
+      "answer": "The children will play indoors whether or not the playground is open.",
+      "answerZh": "無論遊樂場是否開放，孩子們都會在室內玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The children will play indoors whether or not the playground is open."
+    },
+    {
+      "id": "ss33-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "What will I do if the package does not arrive today? I will still contact the customer tomorrow.",
+      "promptZh": "如果包裹今天沒有到達，我會怎樣做？我仍會在明天聯絡顧客。",
+      "starter": "Whether",
+      "answer": "Whether or not the package arrives today, I will contact the customer tomorrow.",
+      "answerZh": "無論包裹今天是否到達，我都會在明天聯絡顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the package arrives today, I will contact the customer tomorrow."
+    },
+    {
+      "id": "ss33-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Even if the manager has not reviewed the report, it must be submitted on Friday.",
+      "promptZh": "即使經理尚未審閱報告，報告也必須在星期五提交。",
+      "starter": "The",
+      "answer": "The report must be submitted on Friday whether or not the manager has reviewed it.",
+      "answerZh": "無論經理是否已審閱報告，報告都必須在星期五提交。",
+      "answerZhSource": "pdf",
+      "highlight": "The report must be submitted on Friday whether or not the manager has reviewed it."
+    },
+    {
+      "id": "ss33-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The medicine may taste pleasant or unpleasant, but Noah needs to take it after meals.",
+      "promptZh": "藥物的味道可能不錯，也可能不好，但諾亞需要在飯後服用。",
+      "starter": "Whether",
+      "answer": "Whether the medicine tastes pleasant or not, Noah needs to take it after meals.",
+      "answerZh": "無論藥物的味道是否怡人，諾亞都需要在飯後服用。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the medicine tastes pleasant or not, Noah needs to take it after meals."
+    },
+    {
+      "id": "ss33-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Grace’s smile did not depend on how nervous she felt.",
+      "promptZh": "格蕾絲是否感到緊張，並沒有影響她保持笑容。",
+      "starter": "Grace",
+      "answer": "Grace kept smiling whether or not she felt nervous.",
+      "answerZh": "無論格蕾絲是否感到緊張，她都一直保持笑容。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace kept smiling whether or not she felt nervous."
+    },
+    {
+      "id": "ss33-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Visitors can reach the office by the stairs in both situations: when the lift works and when it does not.",
+      "promptZh": "無論升降機能否運作，訪客都可以經樓梯到達辦公室。",
+      "starter": "Whether",
+      "answer": "Whether or not the lift is working, visitors can reach the office by the stairs.",
+      "answerZh": "無論升降機是否運作，訪客都可以經樓梯到達辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the lift is working, visitors can reach the office by the stairs."
+    },
+    {
+      "id": "ss33-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Someone may remind us, or no one may. The lights must still be switched off.",
+      "promptZh": "可能有人提醒我們，也可能沒有人提醒。燈仍然必須關掉。",
+      "starter": "The",
+      "answer": "The lights must be switched off whether or not anyone reminds us.",
+      "answerZh": "無論有沒有人提醒我們，燈都必須關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights must be switched off whether or not anyone reminds us."
+    },
+    {
+      "id": "ss33-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The audience may ask questions or remain silent. The speaker will finish by four o’clock in either case.",
+      "promptZh": "觀眾可能會提問，也可能保持沉默。無論是哪種情況，講者都會在四時前結束。",
+      "starter": "Whether",
+      "answer": "Whether the audience asks questions or not, the speaker will finish by four o’clock.",
+      "answerZh": "無論觀眾是否提問，講者都會在四時前結束。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the audience asks questions or not, the speaker will finish by four o’clock."
+    },
+    {
+      "id": "ss33-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Ethan would support the plan even if it did not benefit him personally.",
+      "promptZh": "即使這個計劃不會令伊森個人得益，他仍會支持。",
+      "starter": "Ethan",
+      "answer": "Ethan would support the plan whether or not it benefited him personally.",
+      "answerZh": "無論這個計劃是否令伊森個人得益，他都會支持。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan would support the plan whether or not it benefited him personally."
+    },
+    {
+      "id": "ss33-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The weather may improve or remain poor, but the match may still be cancelled for safety reasons.",
+      "promptZh": "天氣可能改善，也可能持續惡劣，但比賽仍可能因安全理由而取消。",
+      "starter": "Whether",
+      "answer": "Whether or not the weather improves, the match may still be cancelled for safety reasons.",
+      "answerZh": "無論天氣是否改善，比賽仍可能因安全理由而取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the weather improves, the match may still be cancelled for safety reasons."
+    },
+    {
+      "id": "ss33-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Children can enter the museum free regardless of where they live.",
+      "promptZh": "不論居住地點，兒童都可以免費進入博物館。",
+      "starter": "Children",
+      "answer": "Children can enter the museum free whether or not they live locally.",
+      "answerZh": "無論兒童是否居於本區，他們都可以免費進入博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "Children can enter the museum free whether or not they live locally."
+    },
+    {
+      "id": "ss33-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Do experienced users need to read the instructions? Yes, both new and experienced users should read them carefully.",
+      "promptZh": "有經驗的使用者需要閱讀指示嗎？需要，新使用者和有經驗的使用者都應仔細閱讀。",
+      "starter": "Whether",
+      "answer": "Whether or not you have used this app before, read the instructions carefully.",
+      "answerZh": "無論你以前是否使用過這個應用程式，都要仔細閱讀指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not you have used this app before, read the instructions carefully."
+    },
+    {
+      "id": "ss33-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The nurse checks every patient’s name in both busy and quiet wards.",
+      "promptZh": "無論病房繁忙還是清靜，護士都會核對每位病人的姓名。",
+      "starter": "The",
+      "answer": "The nurse checks every patient’s name whether or not the ward is busy.",
+      "answerZh": "無論病房是否繁忙，護士都會核對每位病人的姓名。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse checks every patient’s name whether or not the ward is busy."
+    },
+    {
+      "id": "ss33-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The bus may arrive on time or late. We should still leave enough time for the walk from the station.",
+      "promptZh": "巴士可能準時到達，也可能誤點。我們仍應預留足夠時間由車站步行前往目的地。",
+      "starter": "Whether",
+      "answer": "Whether the bus arrives on time or not, we should leave enough time for the walk from the station.",
+      "answerZh": "無論巴士是否準時到達，我們都應預留足夠時間由車站步行前往目的地。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the bus arrives on time or not, we should leave enough time for the walk from the station."
+    },
+    {
+      "id": "ss33-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The new rule applies to employees in the office and those working from home.",
+      "promptZh": "新規則適用於在辦公室工作和在家工作的僱員。",
+      "starter": "The",
+      "answer": "The new rule applies to all employees whether or not they work from home.",
+      "answerZh": "無論僱員是否在家工作，新規則都適用於所有人。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule applies to all employees whether or not they work from home."
+    },
+    {
+      "id": "ss33-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Maya may have remembered the appointment, or she may have forgotten it. The clinic still sent her a reminder.",
+      "promptZh": "瑪雅可能記得預約，也可能忘記了。診所仍然向她發出提醒。",
+      "starter": "Whether",
+      "answer": "Whether or not Maya remembered the appointment, the clinic sent her a reminder.",
+      "answerZh": "無論瑪雅是否記得預約，診所都向她發出了提醒。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not Maya remembered the appointment, the clinic sent her a reminder."
+    },
+    {
+      "id": "ss33-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Keep the receipt even if you do not expect to return the item.",
+      "promptZh": "即使你不打算退回貨品，也要保留收據。",
+      "starter": "Please",
+      "answer": "Please keep the receipt whether or not you expect to return the item.",
+      "answerZh": "無論你是否打算退回貨品，請保留收據。",
+      "answerZhSource": "pdf",
+      "highlight": "Please keep the receipt whether or not you expect to return the item."
+    },
+    {
+      "id": "ss33-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "Every machine must be inspected before use, including machines that are brand new.",
+      "promptZh": "每部機器在使用前都必須接受檢查，包括全新的機器。",
+      "starter": "Whether",
+      "answer": "Whether the machine is new or not, it must be inspected before use.",
+      "answerZh": "無論機器是否全新，在使用前都必須接受檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the machine is new or not, it must be inspected before use."
+    },
+    {
+      "id": "ss33-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The volunteers continued distributing food in dry weather and in the rain.",
+      "promptZh": "天氣乾爽或下雨時，義工都繼續派發食物。",
+      "starter": "The",
+      "answer": "The volunteers continued distributing food whether or not it was raining.",
+      "answerZh": "無論當時是否下雨，義工都繼續派發食物。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers continued distributing food whether or not it was raining."
+    },
+    {
+      "id": "ss33-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The website’s availability does not affect phone orders. Customers can always order by phone.",
+      "promptZh": "網站能否使用並不影響電話訂購。顧客隨時都可以透過電話下單。",
+      "starter": "Whether",
+      "answer": "Whether or not the website is available, customers can place orders by phone.",
+      "answerZh": "無論網站是否可用，顧客都可以透過電話下單。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the website is available, customers can place orders by phone."
+    },
+    {
+      "id": "ss33-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Will the teacher answer a question that is not related to today’s lesson? Yes, the teacher will answer it anyway.",
+      "promptZh": "老師會回答與今天課堂無關的問題嗎？會，老師仍會回答。",
+      "starter": "The",
+      "answer": "The teacher will answer the question whether or not it is related to today’s lesson.",
+      "answerZh": "無論問題是否與今天的課堂有關，老師都會回答。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher will answer the question whether or not it is related to today’s lesson."
+    },
+    {
+      "id": "ss33-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The council may approve or reject the proposal this month. The residents will continue discussing safer road designs.",
+      "promptZh": "區議會可能在本月批准或否決建議。居民仍會繼續討論更安全的道路設計。",
+      "starter": "Whether",
+      "answer": "Whether or not the council approves the proposal this month, the residents will continue discussing safer road designs.",
+      "answerZh": "無論區議會本月是否批准建議，居民都會繼續討論更安全的道路設計。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the council approves the proposal this month, the residents will continue discussing safer road designs."
+    },
+    {
+      "id": "ss33-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "A patient may be unable to show identification immediately. The hospital must still provide urgent care.",
+      "promptZh": "病人可能無法立即出示身份證明。醫院仍必須提供緊急治療。",
+      "starter": "The",
+      "answer": "The hospital must provide urgent care whether or not a patient can show identification immediately.",
+      "answerZh": "無論病人能否立即出示身份證明，醫院都必須提供緊急治療。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital must provide urgent care whether or not a patient can show identification immediately."
+    },
+    {
+      "id": "ss33-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The company may reach its sales target or miss it. Staff should receive clear feedback in both situations.",
+      "promptZh": "公司可能達到銷售目標，也可能未能達標。在兩種情況下，員工都應獲得清晰的工作表現意見。",
+      "starter": "Whether",
+      "answer": "Whether the company reaches its sales target or not, staff should receive clear feedback on their performance.",
+      "answerZh": "無論公司是否達到銷售目標，員工都應獲得清晰的工作表現意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the company reaches its sales target or not, staff should receive clear feedback on their performance."
+    },
+    {
+      "id": "ss33-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The event organisers will prepare an indoor area even if the forecast says that the weather will stay dry.",
+      "promptZh": "即使天氣預報表示天氣會保持乾爽，活動主辦單位仍會準備室內場地。",
+      "starter": "The",
+      "answer": "The event organisers will prepare an indoor area whether or not rain is forecast.",
+      "answerZh": "無論天氣預報是否預測有雨，活動主辦單位都會準備室內場地。",
+      "answerZhSource": "pdf",
+      "highlight": "The event organisers will prepare an indoor area whether or not rain is forecast."
+    },
+    {
+      "id": "ss33-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "The team will record every step accurately for expected and unexpected research results alike.",
+      "promptZh": "無論研究結果是否符合預期，團隊都會準確記錄每個步驟。",
+      "starter": "Whether",
+      "answer": "Whether or not the research produces the expected result, the team will record every step accurately.",
+      "answerZh": "無論研究是否得出預期結果，團隊都會準確記錄每個步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not the research produces the expected result, the team will record every step accurately."
+    },
+    {
+      "id": "ss33-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Passengers with and without previous experience on the route should follow the safety instructions.",
+      "promptZh": "曾經或未曾乘搭這條路線的乘客都應遵從安全指示。",
+      "starter": "Passengers",
+      "answer": "Passengers should follow the safety instructions whether or not they have travelled on the route before.",
+      "answerZh": "無論乘客以前是否乘搭過這條路線，都應遵從安全指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Passengers should follow the safety instructions whether or not they have travelled on the route before."
+    },
+    {
+      "id": "ss33-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The new system may save time or fail to do so. In both cases, the department must protect users’ personal information.",
+      "promptZh": "新系統可能節省時間，也可能未能做到。無論是哪種情況，部門都必須保障使用者的個人資料。",
+      "starter": "Whether",
+      "answer": "Whether the new system saves time or not, the department must protect users’ personal information.",
+      "answerZh": "無論新系統能否節省時間，部門都必須保障使用者的個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the new system saves time or not, the department must protect users’ personal information."
+    },
+    {
+      "id": "ss33-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Changes in the number of participants will not affect the free classes offered by the community centre.",
+      "promptZh": "參加者人數的變化不會影響社區中心提供的免費課程。",
+      "starter": "The",
+      "answer": "The community centre will continue offering free classes whether or not the number of participants changes.",
+      "answerZh": "無論參加者人數是否有變，社區中心都會繼續提供免費課程。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre will continue offering free classes whether or not the number of participants changes."
+    },
+    {
+      "id": "ss33-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The interview panel must fairly assess the skills of candidates with and without previous experience.",
+      "promptZh": "評審小組必須公平評核有經驗及沒有經驗的求職者的技能。",
+      "starter": "Whether",
+      "answer": "Whether or not a candidate has previous experience, the interview panel must assess the candidate’s skills fairly.",
+      "answerZh": "無論求職者是否有相關經驗，評審小組都必須公平評核其技能。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether or not a candidate has previous experience, the interview panel must assess the candidate’s skills fairly."
+    },
+    {
+      "id": "ss33-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The school will review its emergency plan every year, including years in which no serious incident has happened.",
+      "promptZh": "學校每年都會檢討緊急應變計劃，包括沒有發生嚴重事故的年份。",
+      "starter": "The",
+      "answer": "The school will review its emergency plan every year whether or not any serious incident has occurred.",
+      "answerZh": "無論有沒有發生嚴重事故，學校每年都會檢討緊急應變計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The school will review its emergency plan every year whether or not any serious incident has occurred."
+    }
+  ]
+}

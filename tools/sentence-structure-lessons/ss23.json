@@ -1,0 +1,1075 @@
+{
+  "id": "ss23",
+  "order": 23,
+  "slug": "given-that-known-fact",
+  "title": "「Given that 句」句型",
+  "titleZh": "「Given that 句」表達「考慮到／鑑於某個事實」",
+  "titleEn": "Using Given that to introduce a known fact or relevant circumstance",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 23 - 「Given that 句」表達「考慮到／鑑於某個事實」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Given that + subject + verb + other information, + main clause",
+  "formulas": [
+    {
+      "id": "ss23-formula-given-that",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Given that + subject + verb + other information, + main clause"
+    }
+  ],
+  "example": "Given that we don’t have enough budget, we have no choice but to choose the simpler plan.",
+  "exampleZh": "考慮到我們的預算不足，我們別無選擇，只能選擇較簡單的方案。",
+  "examples": [
+    {
+      "id": "ss23-example-01",
+      "en": "Given that we don’t have enough budget, we have no choice but to choose the simpler plan.",
+      "zh": "考慮到我們的預算不足，我們別無選擇，只能選擇較簡單的方案。",
+      "highlight": "Given that we don’t have enough budget"
+    }
+  ],
+  "meaning": {
+    "en": "Given that introduces a known or accepted fact that should be taken into account before a judgement, decision, recommendation or explanation.",
+    "zh": "Given that 先提出一項需要納入考慮的已知或可接受事實，再作出判斷、決定、建議或解釋。",
+    "enSource": "editorial-translation",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss23-benefit-01",
+      "en": "It makes the basis of a decision clear by presenting an important fact before the related decision, recommendation or judgement.",
+      "zh": "清楚交代作出決定的根據：先提出重要事實，再說明因此作出的決定、建議或判斷。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss23-benefit-02",
+      "en": "It helps you sound calm and logical because you explain the circumstances that support a conclusion instead of presenting an unsupported personal opinion.",
+      "zh": "令表達更冷靜和有邏輯；先交代需要考慮的情況，使說法更合理，而不是像沒有根據的個人意見。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss23-benefit-03",
+      "en": "It connects a fact and its result in one sentence, making their relationship immediately clear.",
+      "zh": "把事實和相關結果連成一句，立即顯示兩項資料之間的關係。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss23-benefit-04",
+      "en": "It is useful for recommendations and explanations in compositions, reports, presentations, work emails, group discussions, and explanations of rules or arrangements.",
+      "zh": "適合提出建議和解釋決定，可用於作文、報告、簡報、工作電郵、小組討論，以及解釋規則或安排。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss23-benefit-05",
+      "en": "It gives you an alternative to because and since and adds variety to sentence openings.",
+      "zh": "避免反覆使用 because 和 since，提供另一種自然的句首方式，令寫作句式更有變化。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss23-rule-01",
+      "en": "Given that must be followed by a complete clause containing a subject and a verb.",
+      "zh": "Given that 後面必須接完整句子，需要有主語和動詞。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: Given that the shop is closed, we will come back tomorrow.",
+        "Incorrect: Given that the closed shop, we will come back tomorrow."
+      ]
+    },
+    {
+      "id": "ss23-rule-02",
+      "en": "Given that normally introduces a known or accepted fact. It is close in meaning to “considering the fact that” or “taking into account that”, and normally does not introduce a purely hypothetical or uncertain condition.",
+      "zh": "Given that 通常提出已知或可以接受的事實，意思接近 considering the fact that、taking into account that、「考慮到」或「鑑於」；通常不是用來提出純粹假設或不確定的條件。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "If it rains tomorrow, the match may be cancelled.",
+        "Given that it is already raining heavily, the match has been cancelled."
+      ]
+    },
+    {
+      "id": "ss23-rule-03",
+      "en": "Use a comma after a Given that clause at the beginning of a sentence.",
+      "zh": "Given that 子句放在句首時要使用逗號。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Given that the road is blocked, drivers must use another route."
+      ]
+    },
+    {
+      "id": "ss23-rule-04",
+      "en": "Because directly states the cause of an event. Given that first introduces a fact to consider before presenting a judgement, decision, recommendation or explanation.",
+      "zh": "because 直接說明事情發生的原因；Given that 則先提出一項需要納入考慮的事實，再作出判斷、決定、建議或解釋。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": [
+        "Because the budget is limited, we chose the cheaper plan.",
+        "Given that the budget is limited, we chose the cheaper plan."
+      ]
+    },
+    {
+      "id": "ss23-rule-05",
+      "en": "Every answer in this exercise uses the sentence-initial pattern “Given that + clause, + main clause”.",
+      "zh": "本練習統一使用句首結構：Given that + clause, + main clause。",
+      "enSource": "editorial-translation",
+      "zhSource": "pdf",
+      "examples": []
+    }
+  ],
+  "sourceOmissions": [
+    "English translations for Chinese-only teaching explanations are editorial; English content already present in the PDF is retained.",
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using Given that to introduce a known fact or relevant circumstance.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Given that 改寫以下句子，先提出已知事實或相關情況，再說明決定、判斷、建議或結果。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss23-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Because the shop is closed, we need to come back tomorrow.",
+      "promptZh": "因為商店已經關門，我們需要明天再來。",
+      "starter": "Given",
+      "answer": "Given that the shop is closed, we need to come back tomorrow.",
+      "answerZh": "考慮到商店已經關門，我們需要明天再來。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the shop is closed, we need to come back tomorrow."
+    },
+    {
+      "id": "ss23-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Since Mia is feeling unwell, she will stay at home today.",
+      "promptZh": "由於米婭感到不適，她今天會留在家中。",
+      "starter": "Given",
+      "answer": "Given that Mia is feeling unwell, she will stay at home today.",
+      "answerZh": "考慮到米婭感到不適，她今天會留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that Mia is feeling unwell, she will stay at home today."
+    },
+    {
+      "id": "ss23-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "As the bus is full, we will wait for the next one.",
+      "promptZh": "由於這班巴士已經滿座，我們會等下一班。",
+      "starter": "Given",
+      "answer": "Given that the bus is full, we will wait for the next one.",
+      "answerZh": "考慮到這班巴士已經滿座，我們會等下一班。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the bus is full, we will wait for the next one."
+    },
+    {
+      "id": "ss23-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Because it is raining heavily, the match has been cancelled.",
+      "promptZh": "因為正下着大雨，比賽已經取消。",
+      "starter": "Given",
+      "answer": "Given that it is raining heavily, the match has been cancelled.",
+      "answerZh": "考慮到正下着大雨，比賽已經取消。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that it is raining heavily, the match has been cancelled."
+    },
+    {
+      "id": "ss23-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Since Tom has already finished his homework, he can watch television.",
+      "promptZh": "由於湯姆已經完成家課，他可以看電視。",
+      "starter": "Given",
+      "answer": "Given that Tom has already finished his homework, he can watch television.",
+      "answerZh": "考慮到湯姆已經完成家課，他可以看電視。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that Tom has already finished his homework, he can watch television."
+    },
+    {
+      "id": "ss23-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "As there is no milk left, I will go to the supermarket.",
+      "promptZh": "由於牛奶已經用完，我會去超級市場。",
+      "starter": "Given",
+      "answer": "Given that there is no milk left, I will go to the supermarket.",
+      "answerZh": "考慮到牛奶已經用完，我會去超級市場。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that there is no milk left, I will go to the supermarket."
+    },
+    {
+      "id": "ss23-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Because the road is blocked, drivers must use another route.",
+      "promptZh": "因為道路受阻，駕駛者必須使用另一條路線。",
+      "starter": "Given",
+      "answer": "Given that the road is blocked, drivers must use another route.",
+      "answerZh": "考慮到道路受阻，駕駛者必須使用另一條路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the road is blocked, drivers must use another route."
+    },
+    {
+      "id": "ss23-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The room is small, so we cannot invite many people.",
+      "promptZh": "房間很小，所以我們不能邀請太多人。",
+      "starter": "Given",
+      "answer": "Given that the room is small, we cannot invite many people.",
+      "answerZh": "考慮到房間很小，我們不能邀請太多人。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the room is small, we cannot invite many people."
+    },
+    {
+      "id": "ss23-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The library is quiet today, so we can study there.",
+      "promptZh": "圖書館今天很安靜，所以我們可以在那裏溫習。",
+      "starter": "Given",
+      "answer": "Given that the library is quiet today, we can study there.",
+      "answerZh": "考慮到圖書館今天很安靜，我們可以在那裏溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the library is quiet today, we can study there."
+    },
+    {
+      "id": "ss23-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Why are we going to take a taxi? The last bus has already left.",
+      "promptZh": "我們為甚麼打算乘的士？尾班巴士已經開走了。",
+      "starter": "Given",
+      "answer": "Given that the last bus has already left, we are going to take a taxi.",
+      "answerZh": "考慮到尾班巴士已經開走了，我們打算乘的士。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the last bus has already left, we are going to take a taxi."
+    },
+    {
+      "id": "ss23-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Since the test starts at nine, you should arrive early.",
+      "promptZh": "由於測驗九時開始，你應該提早到達。",
+      "starter": "Given",
+      "answer": "Given that the test starts at nine, you should arrive early.",
+      "answerZh": "考慮到測驗九時開始，你應該提早到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the test starts at nine, you should arrive early."
+    },
+    {
+      "id": "ss23-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Because Ella does not understand the instructions, the teacher will explain them again.",
+      "promptZh": "因為艾拉不明白指示，老師會再解釋一次。",
+      "starter": "Given",
+      "answer": "Given that Ella does not understand the instructions, the teacher will explain them again.",
+      "answerZh": "考慮到艾拉不明白指示，老師會再解釋一次。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that Ella does not understand the instructions, the teacher will explain them again."
+    },
+    {
+      "id": "ss23-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "As the restaurant is very busy, our food may take longer to arrive.",
+      "promptZh": "由於餐廳非常繁忙，我們的食物可能需要較長時間才送到。",
+      "starter": "Given",
+      "answer": "Given that the restaurant is very busy, our food may take longer to arrive.",
+      "answerZh": "考慮到餐廳非常繁忙，我們的食物可能需要較長時間才送到。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the restaurant is very busy, our food may take longer to arrive."
+    },
+    {
+      "id": "ss23-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "We have only one computer, so we need to take turns.",
+      "promptZh": "我們只有一部電腦，所以需要輪流使用。",
+      "starter": "Given",
+      "answer": "Given that we have only one computer, we need to take turns.",
+      "answerZh": "考慮到我們只有一部電腦，我們需要輪流使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that we have only one computer, we need to take turns."
+    },
+    {
+      "id": "ss23-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The weather forecast says there will be strong winds. Therefore, the ferry service may be delayed.",
+      "promptZh": "天氣預報指出將會有強風。因此，渡輪服務可能會延誤。",
+      "starter": "Given",
+      "answer": "Given that the weather forecast says there will be strong winds, the ferry service may be delayed.",
+      "answerZh": "考慮到天氣預報指出將會有強風，渡輪服務可能會延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the weather forecast says there will be strong winds, the ferry service may be delayed."
+    },
+    {
+      "id": "ss23-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Considering that Ben is new to the team, we should give him more support.",
+      "promptZh": "考慮到本是團隊的新成員，我們應該給他更多支援。",
+      "starter": "Given",
+      "answer": "Given that Ben is new to the team, we should give him more support.",
+      "answerZh": "考慮到本是團隊的新成員，我們應該給他更多支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that Ben is new to the team, we should give him more support."
+    },
+    {
+      "id": "ss23-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "In view of the fact that the lift is out of order, visitors should use the stairs.",
+      "promptZh": "鑑於升降機發生故障，訪客應該使用樓梯。",
+      "starter": "Given",
+      "answer": "Given that the lift is out of order, visitors should use the stairs.",
+      "answerZh": "考慮到升降機發生故障，訪客應該使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the lift is out of order, visitors should use the stairs."
+    },
+    {
+      "id": "ss23-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Since the price includes delivery, this offer is reasonable.",
+      "promptZh": "由於價格已包括送貨費，這個報價是合理的。",
+      "starter": "Given",
+      "answer": "Given that the price includes delivery, this offer is reasonable.",
+      "answerZh": "考慮到價格已包括送貨費，這個報價是合理的。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the price includes delivery, this offer is reasonable."
+    },
+    {
+      "id": "ss23-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Why should Lily bring her passport? The hotel needs to see it at check-in.",
+      "promptZh": "莉莉為甚麼應該帶護照？酒店在辦理入住手續時需要查看護照。",
+      "starter": "Given",
+      "answer": "Given that the hotel needs to see her passport at check-in, Lily should bring it.",
+      "answerZh": "考慮到酒店在辦理入住手續時需要查看莉莉的護照，她應該帶上護照。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the hotel needs to see her passport at check-in, Lily should bring it."
+    },
+    {
+      "id": "ss23-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The baby is sleeping, so please speak quietly.",
+      "promptZh": "嬰兒正在睡覺，所以請輕聲說話。",
+      "starter": "Given",
+      "answer": "Given that the baby is sleeping, please speak quietly.",
+      "answerZh": "考慮到嬰兒正在睡覺，請輕聲說話。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the baby is sleeping, please speak quietly."
+    },
+    {
+      "id": "ss23-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Because of the heavy traffic, we may arrive late.",
+      "promptZh": "由於交通擠塞，我們可能會遲到。",
+      "starter": "Given",
+      "answer": "Given that the traffic is heavy, we may arrive late.",
+      "answerZh": "考慮到交通擠塞，我們可能會遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the traffic is heavy, we may arrive late."
+    },
+    {
+      "id": "ss23-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Due to a shortage of staff, the clinic will close earlier today.",
+      "promptZh": "由於人手不足，診所今天會提早關門。",
+      "starter": "Given",
+      "answer": "Given that there are not enough staff, the clinic will close earlier today.",
+      "answerZh": "考慮到人手不足，診所今天會提早關門。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that there are not enough staff, the clinic will close earlier today."
+    },
+    {
+      "id": "ss23-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "With so little time remaining, we cannot discuss every detail.",
+      "promptZh": "剩下的時間很少，我們無法討論每一個細節。",
+      "starter": "Given",
+      "answer": "Given that so little time remains, we cannot discuss every detail.",
+      "answerZh": "考慮到剩下的時間很少，我們無法討論每一個細節。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that so little time remains, we cannot discuss every detail."
+    },
+    {
+      "id": "ss23-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Because the school hall is being repaired, the concert will be held in the gym.",
+      "promptZh": "因為學校禮堂正在維修，音樂會將於體育館舉行。",
+      "starter": "Given",
+      "answer": "Given that the school hall is being repaired, the concert will be held in the gym.",
+      "answerZh": "考慮到學校禮堂正在維修，音樂會將於體育館舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the school hall is being repaired, the concert will be held in the gym."
+    },
+    {
+      "id": "ss23-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The laptop battery is almost empty. Therefore, you should save your work now.",
+      "promptZh": "手提電腦的電量快要用完。因此，你應該立即儲存工作。",
+      "starter": "Given",
+      "answer": "Given that the laptop battery is almost empty, you should save your work now.",
+      "answerZh": "考慮到手提電腦的電量快要用完，你應該立即儲存工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the laptop battery is almost empty, you should save your work now."
+    },
+    {
+      "id": "ss23-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Since no one has reported a problem, the system appears to be working properly.",
+      "promptZh": "由於沒有人報告問題，系統看來運作正常。",
+      "starter": "Given",
+      "answer": "Given that no one has reported a problem, the system appears to be working properly.",
+      "answerZh": "考慮到沒有人報告問題，系統看來運作正常。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that no one has reported a problem, the system appears to be working properly."
+    },
+    {
+      "id": "ss23-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Because the medicine may make you sleepy, you should not drive after taking it.",
+      "promptZh": "因為這種藥物可能令你昏昏欲睡，服藥後不應駕駛。",
+      "starter": "Given",
+      "answer": "Given that the medicine may make you sleepy, you should not drive after taking it.",
+      "answerZh": "考慮到這種藥物可能令你昏昏欲睡，服藥後不應駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the medicine may make you sleepy, you should not drive after taking it."
+    },
+    {
+      "id": "ss23-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The museum is free on Sundays, so many families visit it then.",
+      "promptZh": "博物館逢星期日免費開放，所以很多家庭會在當天參觀。",
+      "starter": "Given",
+      "answer": "Given that the museum is free on Sundays, many families visit it then.",
+      "answerZh": "考慮到博物館逢星期日免費開放，很多家庭會在當天參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the museum is free on Sundays, many families visit it then."
+    },
+    {
+      "id": "ss23-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "As the main road was flooded, the ambulance had to take a longer route.",
+      "promptZh": "由於主要道路水浸，救護車不得不改行較長的路線。",
+      "starter": "Given",
+      "answer": "Given that the main road was flooded, the ambulance had to take a longer route.",
+      "answerZh": "考慮到主要道路水浸，救護車不得不改行較長的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the main road was flooded, the ambulance had to take a longer route."
+    },
+    {
+      "id": "ss23-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Why did the manager reject the first proposal? It would cost too much.",
+      "promptZh": "經理為甚麼拒絕第一份方案？它的成本會太高。",
+      "starter": "Given",
+      "answer": "Given that the first proposal would cost too much, the manager rejected it.",
+      "answerZh": "考慮到第一份方案的成本會太高，經理拒絕了它。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the first proposal would cost too much, the manager rejected it."
+    },
+    {
+      "id": "ss23-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Since the old printer often breaks down, the office is going to replace it.",
+      "promptZh": "由於舊打印機經常故障，辦公室打算更換它。",
+      "starter": "Given",
+      "answer": "Given that the old printer often breaks down, the office is going to replace it.",
+      "answerZh": "考慮到舊打印機經常故障，辦公室打算更換它。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the old printer often breaks down, the office is going to replace it."
+    },
+    {
+      "id": "ss23-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The team has already met its monthly target. As a result, the manager may end the campaign early.",
+      "promptZh": "團隊已經達到每月目標。因此，經理可能會提早結束這項推廣活動。",
+      "starter": "Given",
+      "answer": "Given that the team has already met its monthly target, the manager may end the campaign early.",
+      "answerZh": "考慮到團隊已經達到每月目標，經理可能會提早結束這項推廣活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the team has already met its monthly target, the manager may end the campaign early."
+    },
+    {
+      "id": "ss23-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Because several students were absent, the teacher postponed the group presentation.",
+      "promptZh": "因為數名學生缺席，老師押後了小組匯報。",
+      "starter": "Given",
+      "answer": "Given that several students were absent, the teacher postponed the group presentation.",
+      "answerZh": "考慮到數名學生缺席，老師押後了小組匯報。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that several students were absent, the teacher postponed the group presentation."
+    },
+    {
+      "id": "ss23-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Owing to the fact that the bridge is unsafe, it will remain closed.",
+      "promptZh": "由於這座橋並不安全，它將繼續封閉。",
+      "starter": "Given",
+      "answer": "Given that the bridge is unsafe, it will remain closed.",
+      "answerZh": "考慮到這座橋並不安全，它將繼續封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the bridge is unsafe, it will remain closed."
+    },
+    {
+      "id": "ss23-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The customer has not received the parcel, so we need to check the delivery record.",
+      "promptZh": "顧客尚未收到包裹，所以我們需要查看送貨紀錄。",
+      "starter": "Given",
+      "answer": "Given that the customer has not received the parcel, we need to check the delivery record.",
+      "answerZh": "考慮到顧客尚未收到包裹，我們需要查看送貨紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the customer has not received the parcel, we need to check the delivery record."
+    },
+    {
+      "id": "ss23-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Now that the children know the safety rules, they can use the equipment more independently.",
+      "promptZh": "既然孩子們現在已經知道安全規則，他們可以更獨立地使用設備。",
+      "starter": "Given",
+      "answer": "Given that the children now know the safety rules, they can use the equipment more independently.",
+      "answerZh": "考慮到孩子們現在已經知道安全規則，他們可以更獨立地使用設備。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the children now know the safety rules, they can use the equipment more independently."
+    },
+    {
+      "id": "ss23-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The air quality is poor today. For this reason, outdoor activities should be limited.",
+      "promptZh": "今天的空氣質素欠佳。因此，戶外活動應該受到限制。",
+      "starter": "Given",
+      "answer": "Given that the air quality is poor today, outdoor activities should be limited.",
+      "answerZh": "考慮到今天的空氣質素欠佳，戶外活動應該受到限制。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the air quality is poor today, outdoor activities should be limited."
+    },
+    {
+      "id": "ss23-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Because the instructions were unclear, several users made the same mistake.",
+      "promptZh": "因為指示不清楚，數名使用者犯了相同的錯誤。",
+      "starter": "Given",
+      "answer": "Given that the instructions were unclear, several users made the same mistake.",
+      "answerZh": "考慮到指示不清楚，數名使用者犯了相同的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the instructions were unclear, several users made the same mistake."
+    },
+    {
+      "id": "ss23-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Since the meeting will be online, nobody needs to travel to the office.",
+      "promptZh": "由於會議將於網上舉行，沒有人需要前往辦公室。",
+      "starter": "Given",
+      "answer": "Given that the meeting will be online, nobody needs to travel to the office.",
+      "answerZh": "考慮到會議將於網上舉行，沒有人需要前往辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the meeting will be online, nobody needs to travel to the office."
+    },
+    {
+      "id": "ss23-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Why can we reduce the order? We still have enough stock in the warehouse.",
+      "promptZh": "我們為甚麼可以減少訂貨量？倉庫仍有足夠存貨。",
+      "starter": "Given",
+      "answer": "Given that we still have enough stock in the warehouse, we can reduce the order.",
+      "answerZh": "考慮到倉庫仍有足夠存貨，我們可以減少訂貨量。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that we still have enough stock in the warehouse, we can reduce the order."
+    },
+    {
+      "id": "ss23-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The hospital expects more patients this winter. Therefore, it is hiring additional nurses.",
+      "promptZh": "醫院預計今年冬季會有更多病人。因此，院方正在增聘護士。",
+      "starter": "Given",
+      "answer": "Given that the hospital expects more patients this winter, it is hiring additional nurses.",
+      "answerZh": "考慮到醫院預計今年冬季會有更多病人，院方正在增聘護士。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the hospital expects more patients this winter, it is hiring additional nurses."
+    },
+    {
+      "id": "ss23-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Considering that the project is already two weeks behind schedule, we need to make a decision today.",
+      "promptZh": "考慮到項目進度已經落後兩星期，我們今天需要作出決定。",
+      "starter": "Given",
+      "answer": "Given that the project is already two weeks behind schedule, we need to make a decision today.",
+      "answerZh": "考慮到項目進度已經落後兩星期，我們今天需要作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the project is already two weeks behind schedule, we need to make a decision today."
+    },
+    {
+      "id": "ss23-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Because the new software has not been fully tested, staff should continue using the old system for important tasks.",
+      "promptZh": "因為新軟件尚未經過全面測試，員工應該繼續使用舊系統處理重要工作。",
+      "starter": "Given",
+      "answer": "Given that the new software has not been fully tested, staff should continue using the old system for important tasks.",
+      "answerZh": "考慮到新軟件尚未經過全面測試，員工應該繼續使用舊系統處理重要工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the new software has not been fully tested, staff should continue using the old system for important tasks."
+    },
+    {
+      "id": "ss23-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The town has very limited parking near the station. For that reason, visitors are encouraged to use public transport.",
+      "promptZh": "車站附近的泊車位非常有限。因此，當局鼓勵訪客使用公共交通工具。",
+      "starter": "Given",
+      "answer": "Given that parking near the station is very limited, visitors are encouraged to use public transport.",
+      "answerZh": "考慮到車站附近的泊車位非常有限，當局鼓勵訪客使用公共交通工具。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that parking near the station is very limited, visitors are encouraged to use public transport."
+    },
+    {
+      "id": "ss23-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Since the evidence is incomplete, we cannot reach a firm conclusion yet.",
+      "promptZh": "由於證據並不完整，我們暫時無法得出確切結論。",
+      "starter": "Given",
+      "answer": "Given that the evidence is incomplete, we cannot reach a firm conclusion yet.",
+      "answerZh": "考慮到證據並不完整，我們暫時無法得出確切結論。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the evidence is incomplete, we cannot reach a firm conclusion yet."
+    },
+    {
+      "id": "ss23-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "There is a chance that demand will fall next month, so the company should avoid ordering too much stock.",
+      "promptZh": "下個月的需求可能會下降，所以公司應避免訂購過多存貨。",
+      "starter": "Given",
+      "answer": "Given that there is a chance that demand will fall next month, the company should avoid ordering too much stock.",
+      "answerZh": "考慮到下個月的需求可能會下降，公司應避免訂購過多存貨。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that there is a chance that demand will fall next month, the company should avoid ordering too much stock."
+    },
+    {
+      "id": "ss23-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The community centre serves people of all ages. Therefore, its new website must be easy for everyone to use.",
+      "promptZh": "社區中心為各個年齡層的人提供服務。因此，其新網站必須方便所有人使用。",
+      "starter": "Given",
+      "answer": "Given that the community centre serves people of all ages, its new website must be easy for everyone to use.",
+      "answerZh": "考慮到社區中心為各個年齡層的人提供服務，其新網站必須方便所有人使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the community centre serves people of all ages, its new website must be easy for everyone to use."
+    },
+    {
+      "id": "ss23-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "As the repairs may take several days, passengers should check the latest train information before travelling.",
+      "promptZh": "由於維修工程可能需時數天，乘客出發前應查看最新的列車資訊。",
+      "starter": "Given",
+      "answer": "Given that the repairs may take several days, passengers should check the latest train information before travelling.",
+      "answerZh": "考慮到維修工程可能需時數天，乘客出發前應查看最新的列車資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the repairs may take several days, passengers should check the latest train information before travelling."
+    },
+    {
+      "id": "ss23-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The school has received more applications than expected, so it may need to open another class.",
+      "promptZh": "學校收到的申請比預期多，所以可能需要增設一班。",
+      "starter": "Given",
+      "answer": "Given that the school has received more applications than expected, it may need to open another class.",
+      "answerZh": "考慮到學校收到的申請比預期多，校方可能需要增設一班。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the school has received more applications than expected, it may need to open another class."
+    },
+    {
+      "id": "ss23-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The budget has been reduced, the deadline cannot be changed, and only three staff members are available. Therefore, we have to choose the simplest workable plan.",
+      "promptZh": "預算已經削減，限期不能更改，而且只有三名員工可以參與。因此，我們必須選擇最簡單而可行的方案。",
+      "starter": "Given",
+      "answer": "Given that the budget has been reduced, the deadline cannot be changed, and only three staff members are available, we have to choose the simplest workable plan.",
+      "answerZh": "考慮到預算已經削減、限期不能更改，而且只有三名員工可以參與，我們必須選擇最簡單而可行的方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Given that the budget has been reduced, the deadline cannot be changed, and only three staff members are available, we have to choose the simplest workable plan."
+    }
+  ]
+}

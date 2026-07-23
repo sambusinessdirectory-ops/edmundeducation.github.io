@@ -1,0 +1,1044 @@
+{
+  "id": "ss12",
+  "order": 12,
+  "slug": "without-v-ing",
+  "title": "「without + V-ing」句型",
+  "titleZh": "「without + V-ing」句型",
+  "titleEn": "Using without + V-ing to express an omitted action or requirement",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 12 - 「without + V-ing」句型.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Subject + main verb + without + V-ing + other information",
+  "formulas": [
+    {
+      "id": "ss12-formula-basic",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + main verb + without + V-ing + other information"
+    },
+    {
+      "id": "ss12-formula-advanced",
+      "labelEn": "Advanced Form",
+      "labelZh": "進階形式",
+      "formula": "Subject + main verb + without + noun / pronoun + V-ing + other information"
+    }
+  ],
+  "example": "Culture cannot be understood without learning the local language.",
+  "exampleZh": "不學習當地語言，便無法理解當地文化。",
+  "examples": [
+    {
+      "id": "ss12-example-01",
+      "en": "Culture cannot be understood without learning the local language.",
+      "zh": "不學習當地語言，便無法理解當地文化。",
+      "highlight": "Culture cannot be understood without learning the local language."
+    }
+  ],
+  "meaning": {
+    "zh": [
+      "當一件事在沒有進行另一個動作的情況下發生，或某件事必須先做才能完成另一件事時，可使用 without + V-ing。"
+    ]
+  },
+  "rules": [
+    {
+      "id": "ss12-rule-01",
+      "en": "Use the -ing form after without.",
+      "zh": "使用 without 後，動詞必須轉為 -ing 形式。",
+      "examples": [
+        "without checking ✓",
+        "without check ✗",
+        "without to check ✗"
+      ]
+    },
+    {
+      "id": "ss12-rule-02",
+      "en": "Use without being + past participle for a passive meaning.",
+      "zh": "如要表達被動意思，可使用 without being + past participle。",
+      "examples": [
+        "The report was submitted without being checked.",
+        "報告未經檢查便被提交。"
+      ]
+    },
+    {
+      "id": "ss12-rule-03",
+      "en": "State the performer when the two actions have different subjects.",
+      "zh": "如兩個動作由不同的人或事物進行，可使用 without + noun / pronoun + V-ing。",
+      "examples": [
+        "The match continued without the captain playing.",
+        "隊長沒有上場，比賽仍繼續進行。"
+      ]
+    },
+    {
+      "id": "ss12-rule-04",
+      "en": "Use without having to + base verb when something is unnecessary.",
+      "zh": "如要表達「無須做某事」，可使用 without having to + base verb。",
+      "examples": [
+        "She entered without having to wait.",
+        "她無須等候便進入了。"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss12-benefit-01",
+      "en": "This structure helps you combine two ideas into one smoother sentence instead of repeatedly using but, and did not, or if…not.",
+      "zh": "這個句型可把兩個意思合併成一句更流暢的句子，避免反覆使用 but、and did not 或 if…not。"
+    },
+    {
+      "id": "ss12-benefit-02",
+      "en": "It clearly shows what someone did not do, what was missing, or what must happen first.",
+      "zh": "它能清楚說明某人沒有做甚麼、缺少了甚麼，或必須先做甚麼。"
+    },
+    {
+      "id": "ss12-benefit-03",
+      "en": "It is especially useful for describing mistakes, rules, warnings, achievements, and everyday situations.",
+      "zh": "它特別適合用來描述錯誤、規則、警告、成就和日常情況。"
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using without + V-ing.",
+      "Preserve the original meaning and tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 without + V-ing 改寫以下句子。",
+      "保留原句的意思和時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss12-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Mia left home, but she did not eat breakfast.",
+      "promptZh": "米婭離開了家，但她沒有吃早餐。",
+      "starter": "Mia",
+      "answer": "Mia left home without eating breakfast.",
+      "answerZh": "米婭沒有吃早餐便離開了家。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia left home without eating breakfast."
+    },
+    {
+      "id": "ss12-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Ben answered the question although he had not checked it carefully.",
+      "promptZh": "本回答了問題，儘管他沒有仔細檢查題目。",
+      "starter": "Ben",
+      "answer": "Ben answered the question without checking it carefully.",
+      "answerZh": "本沒有仔細檢查題目便作答。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben answered the question without checking it carefully."
+    },
+    {
+      "id": "ss12-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "I entered the room, but I did not knock first.",
+      "promptZh": "我進入了房間，但事前沒有敲門。",
+      "starter": "I",
+      "answer": "I entered the room without knocking first.",
+      "answerZh": "我沒有先敲門便進入了房間。",
+      "answerZhSource": "pdf",
+      "highlight": "I entered the room without knocking first."
+    },
+    {
+      "id": "ss12-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Chloe bought the shoes even though she had not tried them on.",
+      "promptZh": "克洛伊買了那雙鞋，儘管她沒有試穿過。",
+      "starter": "Chloe",
+      "answer": "Chloe bought the shoes without trying them on.",
+      "answerZh": "克洛伊沒有試穿便買了那雙鞋。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe bought the shoes without trying them on."
+    },
+    {
+      "id": "ss12-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "We crossed the road, but we did not look both ways.",
+      "promptZh": "我們過馬路，但沒有望清楚兩邊。",
+      "starter": "We",
+      "answer": "We crossed the road without looking both ways.",
+      "answerZh": "我們沒有望清楚兩邊便過馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "We crossed the road without looking both ways."
+    },
+    {
+      "id": "ss12-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "Leo went to bed, but he did not brush his teeth first.",
+      "promptZh": "里奧上床睡覺，但事前沒有刷牙。",
+      "starter": "Leo",
+      "answer": "Leo went to bed without brushing his teeth first.",
+      "answerZh": "里奧沒有先刷牙便上床睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo went to bed without brushing his teeth first."
+    },
+    {
+      "id": "ss12-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Amy borrowed the book even though she had not asked for permission.",
+      "promptZh": "艾米借走了那本書，儘管她沒有先取得同意。",
+      "starter": "Amy",
+      "answer": "Amy borrowed the book without asking for permission.",
+      "answerZh": "艾米沒有先取得同意便借走了那本書。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy borrowed the book without asking for permission."
+    },
+    {
+      "id": "ss12-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "They started the game although they had not read the rules.",
+      "promptZh": "他們開始了遊戲，儘管他們沒有閱讀規則。",
+      "starter": "They",
+      "answer": "They started the game without reading the rules.",
+      "answerZh": "他們沒有閱讀規則便開始了遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "They started the game without reading the rules."
+    },
+    {
+      "id": "ss12-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Noah sent the email, and he did not attach the file.",
+      "promptZh": "諾亞寄出了電郵，但沒有附上檔案。",
+      "starter": "Noah",
+      "answer": "Noah sent the email without attaching the file.",
+      "answerZh": "諾亞沒有附上檔案便寄出了電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah sent the email without attaching the file."
+    },
+    {
+      "id": "ss12-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Sarah walked into the kitchen, but she did not switch on the light.",
+      "promptZh": "莎拉走進廚房，但沒有開燈。",
+      "starter": "Sarah",
+      "answer": "Sarah walked into the kitchen without switching on the light.",
+      "answerZh": "莎拉沒有開燈便走進廚房。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah walked into the kitchen without switching on the light."
+    },
+    {
+      "id": "ss12-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "You cannot enter the building if you do not show your identity card.",
+      "promptZh": "如果你不出示身份證，便不能進入大樓。",
+      "starter": "You",
+      "answer": "You cannot enter the building without showing your identity card.",
+      "answerZh": "你不出示身份證便不能進入大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "You cannot enter the building without showing your identity card."
+    },
+    {
+      "id": "ss12-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Grace cannot bake the cake unless she has some flour.",
+      "promptZh": "格蕾絲除非有一些麵粉，否則不能焗蛋糕。",
+      "starter": "Grace",
+      "answer": "Grace cannot bake the cake without having some flour.",
+      "answerZh": "格蕾絲沒有一些麵粉便不能焗蛋糕。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace cannot bake the cake without having some flour."
+    },
+    {
+      "id": "ss12-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "You cannot open this door unless you use the key.",
+      "promptZh": "除非你使用鑰匙，否則不能打開這道門。",
+      "starter": "You",
+      "answer": "You cannot open this door without using the key.",
+      "answerZh": "你不使用鑰匙便不能打開這道門。",
+      "answerZhSource": "pdf",
+      "highlight": "You cannot open this door without using the key."
+    },
+    {
+      "id": "ss12-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Daniel went out in the rain, but he did not take an umbrella.",
+      "promptZh": "丹尼爾在下雨時外出，但沒有帶雨傘。",
+      "starter": "Daniel",
+      "answer": "Daniel went out in the rain without taking an umbrella.",
+      "answerZh": "丹尼爾沒有帶雨傘便冒雨外出。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel went out in the rain without taking an umbrella."
+    },
+    {
+      "id": "ss12-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Did Olivia ask anyone for help when she completed the puzzle? No, she did not.",
+      "promptZh": "奧莉花完成拼圖時有向任何人求助嗎？沒有。",
+      "starter": "Olivia",
+      "answer": "Olivia completed the puzzle without asking anyone for help.",
+      "answerZh": "奧莉花沒有向任何人求助便完成了拼圖。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia completed the puzzle without asking anyone for help."
+    },
+    {
+      "id": "ss12-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Jason paid for the meal, but he did not use cash.",
+      "promptZh": "傑森支付了餐費，但沒有使用現金。",
+      "starter": "Jason",
+      "answer": "Jason paid for the meal without using cash.",
+      "answerZh": "傑森沒有使用現金便支付了餐費。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason paid for the meal without using cash."
+    },
+    {
+      "id": "ss12-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The task was finished even though the students did not receive extra time.",
+      "promptZh": "任務完成了，儘管學生沒有獲得額外時間。",
+      "starter": "The",
+      "answer": "The task was finished without the students receiving extra time.",
+      "answerZh": "任務在學生沒有獲得額外時間的情況下完成了。",
+      "answerZhSource": "pdf",
+      "highlight": "The task was finished without the students receiving extra time."
+    },
+    {
+      "id": "ss12-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "You should not take this medicine unless you have eaten something first.",
+      "promptZh": "除非你已先吃過東西，否則不應服用這種藥。",
+      "starter": "You",
+      "answer": "You should not take this medicine without eating something first.",
+      "answerZh": "你不應在沒有先吃東西的情況下服用這種藥。",
+      "answerZhSource": "pdf",
+      "highlight": "You should not take this medicine without eating something first."
+    },
+    {
+      "id": "ss12-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Can we reach the island if we do not take a boat? No, we cannot.",
+      "promptZh": "如果我們不乘船，可以到達那個島嗎？不可以。",
+      "starter": "We",
+      "answer": "We cannot reach the island without taking a boat.",
+      "answerZh": "我們不乘船便不能到達那個島。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot reach the island without taking a boat."
+    },
+    {
+      "id": "ss12-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "I kept using the phone although I did not replace the battery.",
+      "promptZh": "我沒有更換電池，但仍繼續使用那部電話。",
+      "starter": "I",
+      "answer": "I kept using the phone without replacing the battery.",
+      "answerZh": "我沒有更換電池，仍繼續使用那部電話。",
+      "answerZhSource": "pdf",
+      "highlight": "I kept using the phone without replacing the battery."
+    },
+    {
+      "id": "ss12-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The report was submitted even though it had not been checked for spelling errors.",
+      "promptZh": "報告在尚未檢查是否有串字錯誤的情況下被提交。",
+      "starter": "The",
+      "answer": "The report was submitted without being checked for spelling errors.",
+      "answerZh": "報告未經檢查是否有串字錯誤便被提交。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was submitted without being checked for spelling errors."
+    },
+    {
+      "id": "ss12-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Workers cannot operate this machine unless they receive proper training.",
+      "promptZh": "工人除非接受適當培訓，否則不能操作這部機器。",
+      "starter": "Workers",
+      "answer": "Workers cannot operate this machine without receiving proper training.",
+      "answerZh": "工人沒有接受適當培訓便不能操作這部機器。",
+      "answerZhSource": "pdf",
+      "highlight": "Workers cannot operate this machine without receiving proper training."
+    },
+    {
+      "id": "ss12-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The decision was made, but the manager was not consulted.",
+      "promptZh": "決定已經作出，但事前沒有諮詢經理。",
+      "starter": "The",
+      "answer": "The decision was made without the manager being consulted.",
+      "answerZh": "這項決定在未有諮詢經理的情況下作出。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision was made without the manager being consulted."
+    },
+    {
+      "id": "ss12-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The patient left the clinic, and she did not collect her medicine.",
+      "promptZh": "病人離開了診所，而且沒有領取藥物。",
+      "starter": "The",
+      "answer": "The patient left the clinic without collecting her medicine.",
+      "answerZh": "病人沒有領取藥物便離開了診所。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient left the clinic without collecting her medicine."
+    },
+    {
+      "id": "ss12-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The driver changed lanes, but he did not signal first.",
+      "promptZh": "司機轉換行車線，但沒有先打燈。",
+      "starter": "The",
+      "answer": "The driver changed lanes without signalling first.",
+      "answerZh": "司機沒有先打燈便轉換行車線。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver changed lanes without signalling first."
+    },
+    {
+      "id": "ss12-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "You cannot close the programme safely unless you save the document first.",
+      "promptZh": "除非你先儲存文件，否則不能安全地關閉程式。",
+      "starter": "You",
+      "answer": "You cannot close the programme safely without saving the document first.",
+      "answerZh": "你不先儲存文件便不能安全地關閉程式。",
+      "answerZhSource": "pdf",
+      "highlight": "You cannot close the programme safely without saving the document first."
+    },
+    {
+      "id": "ss12-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Did anyone help the child solve the problem? No, nobody did.",
+      "promptZh": "有人幫助那名孩子解決問題嗎？沒有。",
+      "starter": "The",
+      "answer": "The child solved the problem without receiving any help.",
+      "answerZh": "那名孩子在沒有獲得任何幫助的情況下解決了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The child solved the problem without receiving any help."
+    },
+    {
+      "id": "ss12-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Emma left the shop even though she had not bought anything.",
+      "promptZh": "艾瑪離開了商店，儘管她沒有購買任何東西。",
+      "starter": "Emma",
+      "answer": "Emma left the shop without buying anything.",
+      "answerZh": "艾瑪沒有購買任何東西便離開了商店。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma left the shop without buying anything."
+    },
+    {
+      "id": "ss12-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The team won the match even though its captain did not play.",
+      "promptZh": "球隊贏得了比賽，儘管隊長沒有上場。",
+      "starter": "The",
+      "answer": "The team won the match without its captain playing.",
+      "answerZh": "球隊在隊長沒有上場的情況下贏得了比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The team won the match without its captain playing."
+    },
+    {
+      "id": "ss12-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The house remained warm although no heater was running.",
+      "promptZh": "雖然沒有暖爐運作，房子仍然保持溫暖。",
+      "starter": "The",
+      "answer": "The house remained warm without any heater running.",
+      "answerZh": "房子在沒有任何暖爐運作的情況下仍然保持溫暖。",
+      "answerZhSource": "pdf",
+      "highlight": "The house remained warm without any heater running."
+    },
+    {
+      "id": "ss12-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "You cannot improve your pronunciation if you never listen carefully to fluent speakers.",
+      "promptZh": "如果你從不仔細聆聽英語流利的人說話，便不能改善發音。",
+      "starter": "You",
+      "answer": "You cannot improve your pronunciation without listening carefully to fluent speakers.",
+      "answerZh": "你不仔細聆聽英語流利的人說話，便不能改善發音。",
+      "answerZhSource": "pdf",
+      "highlight": "You cannot improve your pronunciation without listening carefully to fluent speakers."
+    },
+    {
+      "id": "ss12-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Do visitors need to book in advance to enter the museum free of charge? No, they do not.",
+      "promptZh": "訪客需要預先預約才可免費進入博物館嗎？不需要。",
+      "starter": "Visitors",
+      "answer": "Visitors can enter the museum free of charge without booking in advance.",
+      "answerZh": "訪客無須預先預約，便可免費進入博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors can enter the museum free of charge without booking in advance."
+    },
+    {
+      "id": "ss12-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The chef prepared the sauce, and he did not add any sugar.",
+      "promptZh": "廚師調製了醬汁，而且沒有加入任何糖。",
+      "starter": "The",
+      "answer": "The chef prepared the sauce without adding any sugar.",
+      "answerZh": "廚師沒有加入任何糖便調製了醬汁。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef prepared the sauce without adding any sugar."
+    },
+    {
+      "id": "ss12-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The applicant submitted the form, but she did not provide proof of address.",
+      "promptZh": "申請人提交了表格，但沒有提供住址證明。",
+      "starter": "The",
+      "answer": "The applicant submitted the form without providing proof of address.",
+      "answerZh": "申請人沒有提供住址證明便提交了表格。",
+      "answerZhSource": "pdf",
+      "highlight": "The applicant submitted the form without providing proof of address."
+    },
+    {
+      "id": "ss12-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Can we cool the room if we keep the windows closed? Yes, if we use the air conditioner.",
+      "promptZh": "如果我們保持窗戶關閉，可以令房間降溫嗎？可以，只要使用冷氣機。",
+      "starter": "We",
+      "answer": "We can cool the room without opening the windows if we use the air conditioner.",
+      "answerZh": "如果使用冷氣機，我們無須打開窗戶也可以令房間降溫。",
+      "answerZhSource": "pdf",
+      "highlight": "We can cool the room without opening the windows if we use the air conditioner."
+    },
+    {
+      "id": "ss12-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Although Ava was not wearing gloves, she cleaned the oven.",
+      "promptZh": "雖然艾娃沒有戴手套，但她仍清潔焗爐。",
+      "starter": "Ava",
+      "answer": "Ava cleaned the oven without wearing gloves.",
+      "answerZh": "艾娃沒有戴手套便清潔焗爐。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava cleaned the oven without wearing gloves."
+    },
+    {
+      "id": "ss12-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The company reduced paper use, but it did not lower the quality of its service.",
+      "promptZh": "公司減少了紙張用量，但沒有降低服務質素。",
+      "starter": "The",
+      "answer": "The company reduced paper use without lowering the quality of its service.",
+      "answerZh": "公司在沒有降低服務質素的情況下減少了紙張用量。",
+      "answerZhSource": "pdf",
+      "highlight": "The company reduced paper use without lowering the quality of its service."
+    },
+    {
+      "id": "ss12-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The cyclist reached the top of the hill, and he did not stop for a rest.",
+      "promptZh": "單車手到達了山頂，而且沒有停下來休息。",
+      "starter": "The",
+      "answer": "The cyclist reached the top of the hill without stopping for a rest.",
+      "answerZh": "單車手沒有停下來休息便到達了山頂。",
+      "answerZhSource": "pdf",
+      "highlight": "The cyclist reached the top of the hill without stopping for a rest."
+    },
+    {
+      "id": "ss12-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The package was delivered, but nobody signed for it.",
+      "promptZh": "包裹已經送達，但沒有人簽收。",
+      "starter": "The",
+      "answer": "The package was delivered without anyone signing for it.",
+      "answerZh": "包裹在沒有人簽收的情況下被送達。",
+      "answerZhSource": "pdf",
+      "highlight": "The package was delivered without anyone signing for it."
+    },
+    {
+      "id": "ss12-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "If you do not read the safety instructions, you should not use the equipment.",
+      "promptZh": "如果你沒有閱讀安全指引，便不應使用這套設備。",
+      "starter": "You",
+      "answer": "You should not use the equipment without reading the safety instructions.",
+      "answerZh": "你不應在沒有閱讀安全指引的情況下使用這套設備。",
+      "answerZhSource": "pdf",
+      "highlight": "You should not use the equipment without reading the safety instructions."
+    },
+    {
+      "id": "ss12-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Riverside School changed the timetable, but it did not ask parents for their opinions first.",
+      "promptZh": "河畔學校更改了時間表，但事前沒有詢問家長的意見。",
+      "starter": "Riverside",
+      "answer": "Riverside School changed the timetable without asking parents for their opinions first.",
+      "answerZh": "河畔學校沒有先詢問家長的意見便更改了時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "Riverside School changed the timetable without asking parents for their opinions first."
+    },
+    {
+      "id": "ss12-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "Dr Lee cannot recommend the right treatment unless she first understands the patient’s medical history.",
+      "promptZh": "李醫生除非先了解病人的病歷，否則不能建議合適的治療方法。",
+      "starter": "Dr",
+      "answer": "Dr Lee cannot recommend the right treatment without understanding the patient’s medical history first.",
+      "answerZh": "李醫生未先了解病人的病歷，便不能建議合適的治療方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Dr Lee cannot recommend the right treatment without understanding the patient’s medical history first."
+    },
+    {
+      "id": "ss12-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "A new bridge was built, and no trees were cut down.",
+      "promptZh": "一座新橋建成了，而且沒有砍伐任何樹木。",
+      "starter": "A",
+      "answer": "A new bridge was built without any trees being cut down.",
+      "answerZh": "一座新橋在沒有砍伐任何樹木的情況下建成。",
+      "answerZhSource": "pdf",
+      "highlight": "A new bridge was built without any trees being cut down."
+    },
+    {
+      "id": "ss12-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The committee reached a decision although some members were absent.",
+      "promptZh": "委員會作出了決定，儘管部分成員缺席。",
+      "starter": "The",
+      "answer": "The committee reached a decision without all the members being present.",
+      "answerZh": "委員會在並非所有成員都在場的情況下作出了決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee reached a decision without all the members being present."
+    },
+    {
+      "id": "ss12-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The traveller completed the airport checks and did not have to wait in a long queue.",
+      "promptZh": "旅客完成了機場檢查，而且無須排很長的隊。",
+      "starter": "The",
+      "answer": "The traveller completed the airport checks without having to wait in a long queue.",
+      "answerZh": "旅客無須排很長的隊便完成了機場檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The traveller completed the airport checks without having to wait in a long queue."
+    },
+    {
+      "id": "ss12-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Do customers need to visit an office to update their details through the online service? No, they do not.",
+      "promptZh": "顧客需要親身前往辦事處，才可透過網上服務更新個人資料嗎？不需要。",
+      "starter": "Customers",
+      "answer": "Customers can update their details through the online service without visiting an office.",
+      "answerZh": "顧客無須親身前往辦事處，便可透過網上服務更新個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers can update their details through the online service without visiting an office."
+    },
+    {
+      "id": "ss12-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The researchers compared the two groups, but they did not reveal the participants’ names.",
+      "promptZh": "研究人員比較了兩組人，但沒有公開參加者的姓名。",
+      "starter": "The",
+      "answer": "The researchers compared the two groups without revealing the participants’ names.",
+      "answerZh": "研究人員在沒有公開參加者姓名的情況下比較了兩組人。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers compared the two groups without revealing the participants’ names."
+    },
+    {
+      "id": "ss12-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The machine continued running although its warning light was not working.",
+      "promptZh": "雖然機器的警告燈失靈，但機器仍繼續運作。",
+      "starter": "The",
+      "answer": "The machine continued running without having a working warning light.",
+      "answerZh": "機器在警告燈失靈的情況下仍繼續運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine continued running without having a working warning light."
+    },
+    {
+      "id": "ss12-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "A good discussion is impossible if people do not listen respectfully to different opinions.",
+      "promptZh": "如果人們不以尊重的態度聆聽不同意見，便不可能有良好的討論。",
+      "starter": "People",
+      "answer": "People cannot have a good discussion without listening respectfully to different opinions.",
+      "answerZh": "人們若不以尊重的態度聆聽不同意見，便不能進行良好的討論。",
+      "answerZhSource": "pdf",
+      "highlight": "People cannot have a good discussion without listening respectfully to different opinions."
+    },
+    {
+      "id": "ss12-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "Culture cannot be fully understood if a person does not learn the local language and observe daily life.",
+      "promptZh": "如果一個人不學習當地語言和觀察日常生活，便不能充分理解當地文化。",
+      "starter": "Culture",
+      "answer": "Culture cannot be fully understood without learning the local language and observing daily life.",
+      "answerZh": "不學習當地語言和觀察日常生活，便無法充分理解當地文化。",
+      "answerZhSource": "pdf",
+      "highlight": "Culture cannot be fully understood without learning the local language and observing daily life."
+    }
+  ]
+}

@@ -817,6 +817,10 @@ summary:focus-visible {
 }
 .answer-input:focus { border-color: var(--blue-bright); box-shadow: 0 0 0 4px rgba(61, 123, 224, .11); outline: none; }
 .answer-input:disabled { color: var(--green); background: var(--green-soft); opacity: 1; }
+.multi-answer-fields { margin-top: 13px; display: grid; gap: 12px; }
+.answer-part { display: grid; gap: 7px; }
+.answer-part > span { color: var(--blue); font-size: 12px; font-weight: 800; }
+.answer-part .answer-input { margin-top: 0; }
 .question-feedback { min-height: 22px; margin: 8px 0 0; font-size: 12px; font-weight: 800; }
 .question-card.is-correct .question-feedback { color: var(--green); }
 .question-card.is-wrong .question-feedback { color: var(--coral); }
@@ -824,6 +828,9 @@ summary:focus-visible {
 .answer-reveal > span { color: var(--muted); font-size: 10px; font-weight: 900; letter-spacing: .1em; }
 .answer-reveal p { margin: 6px 0 0; color: var(--ink); font-family: Georgia, "Times New Roman", serif; font-size: 17px; font-weight: 700; }
 .answer-reveal p:last-child { color: var(--muted); font-family: inherit; font-size: 13px; font-weight: 600; }
+.multi-answer-reveal { margin-top: 8px; display: grid; gap: 11px; }
+.multi-answer-reveal > div { border-left: 3px solid rgba(49, 95, 179, .22); padding-left: 12px; }
+.multi-answer-reveal strong { color: var(--blue); font-size: 12px; }
 .target-highlight { color: #d32727; font-weight: 900; text-decoration: underline; text-decoration-color: rgba(211, 39, 39, .24); text-decoration-thickness: 4px; text-underline-offset: 3px; }
 
 .exercise-actions {

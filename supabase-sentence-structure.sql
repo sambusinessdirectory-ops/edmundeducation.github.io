@@ -50,7 +50,7 @@ declare
   v_key_count integer;
   v_has_correction_state boolean;
 begin
-  if p_lesson_id not in ('ss1', 'ss2', 'ss3', 'ss4')
+  if p_lesson_id !~ '^ss([1-9]|[12][0-9]|3[0-9])$'
     or p_result is null
     or jsonb_typeof(p_result) <> 'object'
     or octet_length(p_result::text) > 98304
@@ -239,8 +239,8 @@ declare
 begin
   if p_bookmarks is null
     or jsonb_typeof(p_bookmarks) <> 'array'
-    or jsonb_array_length(p_bookmarks) > 200
-    or octet_length(p_bookmarks::text) > 65536
+    or jsonb_array_length(p_bookmarks) > 2000
+    or octet_length(p_bookmarks::text) > 262144
   then
     return false;
   end if;
@@ -257,7 +257,7 @@ begin
         where key_name not in ('lessonId', 'questionId', 'includeAnswer')
       )
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
-      or coalesce(v_item ->> 'lessonId', '') not in ('ss1', 'ss2', 'ss3', 'ss4')
+      or coalesce(v_item ->> 'lessonId', '') !~ '^ss([1-9]|[12][0-9]|3[0-9])$'
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
       or coalesce(v_item ->> 'questionId', '') !~ (
         '^' || (v_item ->> 'lessonId') || '-q(0[1-9]|[1-4][0-9]|50)$'
@@ -328,7 +328,7 @@ create table if not exists public.sentence_structure_attempts (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   constraint sentence_structure_attempts_lesson_id_check
-    check (lesson_id in ('ss1', 'ss2', 'ss3', 'ss4')),
+    check (lesson_id ~ '^ss([1-9]|[12][0-9]|3[0-9])$'),
   check (lesson_version = '1'),
   check (status in ('in_progress', 'completed')),
   check (round_number between 1 and 1000),
@@ -363,7 +363,7 @@ create table if not exists public.sentence_structure_bookmarks (
   updated_at timestamptz not null default now(),
   primary key (student_id, lesson_id, question_id),
   constraint sentence_structure_bookmarks_lesson_id_check
-    check (lesson_id in ('ss1', 'ss2', 'ss3', 'ss4')),
+    check (lesson_id ~ '^ss([1-9]|[12][0-9]|3[0-9])$'),
   check (question_id ~ ('^' || lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$'))
 );
 
@@ -653,7 +653,7 @@ begin
   end if;
 
   if p_id is null
-    or p_lesson_id not in ('ss1', 'ss2', 'ss3', 'ss4')
+    or p_lesson_id !~ '^ss([1-9]|[12][0-9]|3[0-9])$'
     or p_lesson_version <> '1'
     or p_status not in ('in_progress', 'completed')
     or p_round_number not between 1 and 1000
@@ -994,7 +994,44 @@ as $$
   from public.sentence_structure_bookmarks bookmark
   where bookmark.student_id = p_student_id
   order by bookmark.created_at desc, bookmark.lesson_id, bookmark.question_id
-  limit 200;
+  limit 1000;
+$$;
+
+create or replace function public.sentence_structure_list_bookmarks_page(
+  p_student_id uuid,
+  p_offset integer,
+  p_limit integer
+)
+returns table (
+  lesson_id text,
+  question_id text,
+  include_answer boolean,
+  created_at timestamptz
+)
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+begin
+  if p_offset not between 0 and 2000
+    or p_limit not between 1 and 1000
+  then
+    raise exception 'Invalid bookmark page' using errcode = '22023';
+  end if;
+
+  return query
+  select
+    bookmark.lesson_id,
+    bookmark.question_id,
+    bookmark.include_answer,
+    bookmark.created_at
+  from public.sentence_structure_bookmarks bookmark
+  where bookmark.student_id = p_student_id
+  order by bookmark.created_at desc, bookmark.lesson_id, bookmark.question_id
+  offset p_offset
+  limit p_limit;
+end;
 $$;
 
 create or replace function public.sentence_structure_admin_list_students(
@@ -1138,7 +1175,48 @@ as $$
   where public._sentence_structure_admin_id(p_admin_token) is not null
     and bookmark.student_id = p_student_id
   order by bookmark.created_at desc, bookmark.lesson_id, bookmark.question_id
-  limit 200;
+  limit 1000;
+$$;
+
+create or replace function public.sentence_structure_admin_list_bookmarks_page(
+  p_admin_token uuid,
+  p_student_id uuid,
+  p_offset integer,
+  p_limit integer
+)
+returns table (
+  lesson_id text,
+  question_id text,
+  include_answer boolean,
+  created_at timestamptz
+)
+language plpgsql
+stable
+security definer
+set search_path = ''
+as $$
+begin
+  if public._sentence_structure_admin_id(p_admin_token) is null then
+    return;
+  end if;
+  if p_offset not between 0 and 2000
+    or p_limit not between 1 and 1000
+  then
+    raise exception 'Invalid bookmark page' using errcode = '22023';
+  end if;
+
+  return query
+  select
+    bookmark.lesson_id,
+    bookmark.question_id,
+    bookmark.include_answer,
+    bookmark.created_at
+  from public.sentence_structure_bookmarks bookmark
+  where bookmark.student_id = p_student_id
+  order by bookmark.created_at desc, bookmark.lesson_id, bookmark.question_id
+  offset p_offset
+  limit p_limit;
+end;
 $$;
 
 -- Remove PostgreSQL's default PUBLIC execute privilege, including from helper
@@ -1175,6 +1253,8 @@ revoke all on function public.sentence_structure_replace_bookmarks(uuid, jsonb)
   from public, anon, authenticated;
 revoke all on function public.sentence_structure_list_bookmarks(uuid)
   from public, anon, authenticated;
+revoke all on function public.sentence_structure_list_bookmarks_page(uuid, integer, integer)
+  from public, anon, authenticated;
 revoke all on function public.sentence_structure_admin_list_students(uuid)
   from public, anon, authenticated;
 revoke all on function public.sentence_structure_admin_student_profile(uuid, uuid)
@@ -1182,6 +1262,10 @@ revoke all on function public.sentence_structure_admin_student_profile(uuid, uui
 revoke all on function public.sentence_structure_admin_list_attempts(uuid, uuid, integer)
   from public, anon, authenticated;
 revoke all on function public.sentence_structure_admin_list_bookmarks(uuid, uuid)
+  from public, anon, authenticated;
+revoke all on function public.sentence_structure_admin_list_bookmarks_page(
+  uuid, uuid, integer, integer
+)
   from public, anon, authenticated;
 
 grant execute on function public.sentence_structure_admin_login(text, text)
@@ -1205,6 +1289,8 @@ grant execute on function public.sentence_structure_replace_bookmarks(uuid, json
   to service_role;
 grant execute on function public.sentence_structure_list_bookmarks(uuid)
   to service_role;
+grant execute on function public.sentence_structure_list_bookmarks_page(uuid, integer, integer)
+  to service_role;
 grant execute on function public.sentence_structure_admin_list_students(uuid)
   to service_role;
 grant execute on function public.sentence_structure_admin_student_profile(uuid, uuid)
@@ -1212,6 +1298,10 @@ grant execute on function public.sentence_structure_admin_student_profile(uuid, 
 grant execute on function public.sentence_structure_admin_list_attempts(uuid, uuid, integer)
   to service_role;
 grant execute on function public.sentence_structure_admin_list_bookmarks(uuid, uuid)
+  to service_role;
+grant execute on function public.sentence_structure_admin_list_bookmarks_page(
+  uuid, uuid, integer, integer
+)
   to service_role;
 
 notify pgrst, 'reload schema';

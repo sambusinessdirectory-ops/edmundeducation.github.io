@@ -1,0 +1,1108 @@
+{
+  "id": "ss38",
+  "order": 38,
+  "slug": "there-is-are-existence",
+  "title": "「There is / are」句型",
+  "titleZh": "「There is / are」表達「有／存在」",
+  "titleEn": "Using There is / are to express existence",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 38 -「There is _ are」表達「有／存在」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "There is + a/an/one + singular noun + place/time/other information",
+  "formulas": [
+    {
+      "id": "ss38-formula-singular",
+      "labelEn": "Singular countable noun",
+      "labelZh": "單數可數名詞",
+      "formula": "There is + a/an/one + singular noun + place/time/other information"
+    },
+    {
+      "id": "ss38-formula-uncountable",
+      "labelEn": "Uncountable noun",
+      "labelZh": "不可數名詞",
+      "formula": "There is + quantity word + uncountable noun + place/time/other information"
+    },
+    {
+      "id": "ss38-formula-plural",
+      "labelEn": "Plural noun",
+      "labelZh": "複數名詞",
+      "formula": "There are + number/quantity word + plural noun + place/time/other information"
+    },
+    {
+      "id": "ss38-formula-fronted",
+      "labelEn": "Fronted place or time phrase",
+      "labelZh": "地點或時間片語置於句首",
+      "formula": "Place/Time phrase + , + there is/are + noun + other information"
+    }
+  ],
+  "example": "There are a lot of reasons why early education matters.",
+  "exampleZh": "早期教育重要的原因有很多。",
+  "examples": [
+    {
+      "id": "ss38-example-main",
+      "en": "There are a lot of reasons why early education matters.",
+      "zh": "早期教育重要的原因有很多。",
+      "highlight": "There are a lot of reasons"
+    },
+    {
+      "id": "ss38-example-singular",
+      "en": "There is a supermarket near my home.",
+      "zh": "我家附近有一間超級市場。",
+      "highlight": "There is a supermarket"
+    },
+    {
+      "id": "ss38-example-uncountable",
+      "en": "There is some water in the bottle.",
+      "zh": "瓶裏有一些水。",
+      "highlight": "There is some water"
+    },
+    {
+      "id": "ss38-example-plural",
+      "en": "There are three books on the desk.",
+      "zh": "書桌上有三本書。",
+      "highlight": "There are three books"
+    },
+    {
+      "id": "ss38-example-fronted",
+      "en": "Near the station, there are several restaurants.",
+      "zh": "車站附近有數間餐廳。",
+      "highlight": "there are several restaurants"
+    }
+  ],
+  "meaning": {
+    "zh": "There is / are 用來自然地引出某個人物、物件、問題、機會或其他事物的存在。"
+  },
+  "rules": [
+    {
+      "id": "ss38-rule-01",
+      "en": "Use there is with singular or uncountable nouns.",
+      "zh": "單數名詞或不可數名詞使用 there is。",
+      "examples": [
+        "There is a problem with the computer.",
+        "There is some useful information on the website."
+      ]
+    },
+    {
+      "id": "ss38-rule-02",
+      "en": "Use there are with plural nouns.",
+      "zh": "複數名詞使用 there are。",
+      "examples": [
+        "There are several problems with the computer."
+      ]
+    },
+    {
+      "id": "ss38-rule-03",
+      "en": "Add an article before a singular countable noun.",
+      "zh": "單數可數名詞前通常需要冠詞。",
+      "examples": [
+        "There is a chair near the window."
+      ]
+    },
+    {
+      "id": "ss38-rule-04",
+      "en": "Preserve the original quantity.",
+      "zh": "保留原句的數量意思；不要把 one 改成 several，也不要把 no 改成 some。",
+      "examples": [
+        "one → there is one",
+        "two books → there are two books",
+        "no chairs → there are no chairs"
+      ]
+    },
+    {
+      "id": "ss38-rule-05",
+      "en": "‘There’ does not usually mean 「那裏」 in this structure.",
+      "zh": "這個句型中的 there 通常不是指「那裏」，而是用來引出一項新資料；真正地點由其他片語表示。",
+      "examples": [
+        "There is a bank near the station."
+      ]
+    },
+    {
+      "id": "ss38-rule-06",
+      "en": "This exercise practises present forms: there is, there are, there is/are no and there is/are not enough.",
+      "zh": "本練習集中訓練現在式，不要求使用 there was、there were、there has been 或 there will be。",
+      "examples": []
+    },
+    {
+      "id": "ss38-rule-07",
+      "en": "A place or time phrase may come first.",
+      "zh": "地點或時間片語可以放在句首，先強調地點或時間。",
+      "examples": [
+        "There is an emergency exit at the end of the corridor.",
+        "At the end of the corridor, there is an emergency exit."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss38-benefit-01",
+      "en": "It introduces new information naturally.",
+      "zh": "自然地告訴別人某個人物、物件、問題或機會存在。"
+    },
+    {
+      "id": "ss38-benefit-02",
+      "en": "It makes descriptions clearer.",
+      "zh": "可用來描述房間、建築物、社區或圖片中有甚麼，令場景描述更清楚。"
+    },
+    {
+      "id": "ss38-benefit-03",
+      "en": "It helps organise reasons, problems and choices.",
+      "zh": "適合介紹一系列原因、問題、差異、選擇或可能的解決方法。"
+    },
+    {
+      "id": "ss38-benefit-04",
+      "en": "It places attention on what exists.",
+      "zh": "把重點放在某個環境或場景中「有甚麼」。"
+    },
+    {
+      "id": "ss38-benefit-05",
+      "en": "It gives you a useful speaking frame.",
+      "zh": "可使用 There is one problem...、There are several reasons... 等框架，更快組織答案。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using there is/are without changing its meaning.",
+      "Some later answers begin with a place or time phrase, but they must still contain there is/are.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 there is/are 改寫以下句子，不要改變原句意思。",
+      "部分較後的答案會以地點或時間片語開始，但句中仍須使用 there is/are。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss38-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The classroom has a large whiteboard.",
+      "promptZh": "課室裏有一塊大白板。",
+      "starter": "There",
+      "answer": "There is a large whiteboard in the classroom.",
+      "answerZh": "課室裏有一塊大白板。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a large whiteboard in the classroom."
+    },
+    {
+      "id": "ss38-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "My bedroom has two windows.",
+      "promptZh": "我的睡房有兩扇窗。",
+      "starter": "There",
+      "answer": "There are two windows in my bedroom.",
+      "answerZh": "我的睡房有兩扇窗。",
+      "answerZhSource": "pdf",
+      "highlight": "There are two windows in my bedroom."
+    },
+    {
+      "id": "ss38-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "A bus stop is located near our school.",
+      "promptZh": "我們學校附近設有一個巴士站。",
+      "starter": "There",
+      "answer": "There is a bus stop near our school.",
+      "answerZh": "我們學校附近有一個巴士站。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a bus stop near our school."
+    },
+    {
+      "id": "ss38-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The bottle contains some water.",
+      "promptZh": "瓶裏裝有一些水。",
+      "starter": "There",
+      "answer": "There is some water in the bottle.",
+      "answerZh": "瓶裏有一些水。",
+      "answerZhSource": "pdf",
+      "highlight": "There is some water in the bottle."
+    },
+    {
+      "id": "ss38-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "Three apples sit on the table.",
+      "promptZh": "桌上放着三個蘋果。",
+      "starter": "There",
+      "answer": "There are three apples on the table.",
+      "answerZh": "桌上有三個蘋果。",
+      "answerZhSource": "pdf",
+      "highlight": "There are three apples on the table."
+    },
+    {
+      "id": "ss38-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The park includes a small playground.",
+      "promptZh": "公園內設有一個小型遊樂場。",
+      "starter": "There",
+      "answer": "There is a small playground in the park.",
+      "answerZh": "公園內有一個小型遊樂場。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a small playground in the park."
+    },
+    {
+      "id": "ss38-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The bag contains a notebook.",
+      "promptZh": "袋裏有一本筆記簿。",
+      "starter": "There",
+      "answer": "There is a notebook in the bag.",
+      "answerZh": "袋裏有一本筆記簿。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a notebook in the bag."
+    },
+    {
+      "id": "ss38-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Many shops line this street.",
+      "promptZh": "這條街上有很多商店。",
+      "starter": "There",
+      "answer": "There are many shops on this street.",
+      "answerZh": "這條街上有很多商店。",
+      "answerZhSource": "pdf",
+      "highlight": "There are many shops on this street."
+    },
+    {
+      "id": "ss38-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Your inbox contains a new message.",
+      "promptZh": "你的收件箱裏有一則新訊息。",
+      "starter": "There",
+      "answer": "There is a new message in your inbox.",
+      "answerZh": "你的收件箱裏有一則新訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a new message in your inbox."
+    },
+    {
+      "id": "ss38-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "No homework has been set for our class today.",
+      "promptZh": "今天沒有為我們班安排家課。",
+      "starter": "There",
+      "answer": "There is no homework for our class today.",
+      "answerZh": "我們班今天沒有家課。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no homework for our class today."
+    },
+    {
+      "id": "ss38-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The library provides several computers for students to use.",
+      "promptZh": "圖書館提供數部電腦讓學生使用。",
+      "starter": "There",
+      "answer": "There are several computers for students to use in the library.",
+      "answerZh": "圖書館裏有數部電腦供學生使用。",
+      "answerZhSource": "pdf",
+      "highlight": "There are several computers for students to use in the library."
+    },
+    {
+      "id": "ss38-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The menu includes a vegetarian option.",
+      "promptZh": "餐牌上包括一個素食選擇。",
+      "starter": "There",
+      "answer": "There is a vegetarian option on the menu.",
+      "answerZh": "餐牌上有一個素食選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a vegetarian option on the menu."
+    },
+    {
+      "id": "ss38-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "The report lists four main problems.",
+      "promptZh": "報告列出了四個主要問題。",
+      "starter": "There",
+      "answer": "There are four main problems in the report.",
+      "answerZh": "報告中有四個主要問題。",
+      "answerZhSource": "pdf",
+      "highlight": "There are four main problems in the report."
+    },
+    {
+      "id": "ss38-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Only one chair is still empty.",
+      "promptZh": "只剩下一張空椅子。",
+      "starter": "There",
+      "answer": "There is only one empty chair left.",
+      "answerZh": "只剩下一張空椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "There is only one empty chair left."
+    },
+    {
+      "id": "ss38-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The fridge contains no milk.",
+      "promptZh": "雪櫃裏沒有牛奶。",
+      "starter": "There",
+      "answer": "There is no milk in the fridge.",
+      "answerZh": "雪櫃裏沒有牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no milk in the fridge."
+    },
+    {
+      "id": "ss38-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The building has lifts on both sides.",
+      "promptZh": "大樓兩側均設有升降機。",
+      "starter": "There",
+      "answer": "There are lifts on both sides of the building.",
+      "answerZh": "大樓兩側均有升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "There are lifts on both sides of the building."
+    },
+    {
+      "id": "ss38-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The website provides a useful guide for new users.",
+      "promptZh": "網站為新用戶提供了一份實用指南。",
+      "starter": "There",
+      "answer": "There is a useful guide for new users on the website.",
+      "answerZh": "網站上有一份供新用戶使用的實用指南。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a useful guide for new users on the website."
+    },
+    {
+      "id": "ss38-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Traffic is very light in the village at night.",
+      "promptZh": "這條村晚上車流很少。",
+      "starter": "There",
+      "answer": "There is very little traffic in the village at night.",
+      "answerZh": "這條村晚上車流很少。",
+      "answerZhSource": "pdf",
+      "highlight": "There is very little traffic in the village at night."
+    },
+    {
+      "id": "ss38-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Three possible answers appear below the question.",
+      "promptZh": "題目下方列出了三個可能答案。",
+      "starter": "There",
+      "answer": "There are three possible answers below the question.",
+      "answerZh": "題目下方有三個可能答案。",
+      "answerZhSource": "pdf",
+      "highlight": "There are three possible answers below the question."
+    },
+    {
+      "id": "ss38-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "A famous painting is displayed near the museum entrance.",
+      "promptZh": "博物館入口附近展出了一幅著名畫作。",
+      "starter": "There",
+      "answer": "There is a famous painting on display near the museum entrance.",
+      "answerZh": "博物館入口附近展出了一幅著名畫作。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a famous painting on display near the museum entrance."
+    },
+    {
+      "id": "ss38-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "Visitors can find a café on the ground floor.",
+      "promptZh": "訪客可以在地下找到一間咖啡店。",
+      "starter": "There",
+      "answer": "There is a café on the ground floor.",
+      "answerZh": "地下有一間咖啡店。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a café on the ground floor."
+    },
+    {
+      "id": "ss38-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Students can choose from six clubs this term.",
+      "promptZh": "學生本學期可以從六個學會中作出選擇。",
+      "starter": "There",
+      "answer": "There are six clubs for students to choose from this term.",
+      "answerZh": "本學期有六個學會供學生選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "There are six clubs for students to choose from this term."
+    },
+    {
+      "id": "ss38-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The medicine has a few possible side effects.",
+      "promptZh": "這種藥物有數種可能的副作用。",
+      "starter": "There",
+      "answer": "There are a few possible side effects of this medicine.",
+      "answerZh": "這種藥物有數種可能的副作用。",
+      "answerZhSource": "pdf",
+      "highlight": "There are a few possible side effects of this medicine."
+    },
+    {
+      "id": "ss38-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The road has a dangerous bend after the bridge.",
+      "promptZh": "過橋後，這條道路有一個危險彎位。",
+      "starter": "There",
+      "answer": "There is a dangerous bend in the road after the bridge.",
+      "answerZh": "過橋後，這條道路有一個危險彎位。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a dangerous bend in the road after the bridge."
+    },
+    {
+      "id": "ss38-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The morning schedule includes two short breaks.",
+      "promptZh": "上午的時間表包括兩段小休時間。",
+      "starter": "There",
+      "answer": "There are two short breaks in the morning schedule.",
+      "answerZh": "上午的時間表中有兩段小休時間。",
+      "answerZhSource": "pdf",
+      "highlight": "There are two short breaks in the morning schedule."
+    },
+    {
+      "id": "ss38-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The office does not have enough desks for everyone.",
+      "promptZh": "辦公室沒有足夠的書桌供所有人使用。",
+      "starter": "There",
+      "answer": "There are not enough desks for everyone in the office.",
+      "answerZh": "辦公室沒有足夠的書桌供所有人使用。",
+      "answerZhSource": "pdf",
+      "highlight": "There are not enough desks for everyone in the office."
+    },
+    {
+      "id": "ss38-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Public transport is extremely limited in the area after midnight.",
+      "promptZh": "該區在午夜後幾乎沒有公共交通服務。",
+      "starter": "There",
+      "answer": "There is hardly any public transport in the area after midnight.",
+      "answerZh": "該區在午夜後幾乎沒有公共交通服務。",
+      "answerZhSource": "pdf",
+      "highlight": "There is hardly any public transport in the area after midnight."
+    },
+    {
+      "id": "ss38-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The box includes a separate part for each player.",
+      "promptZh": "盒內為每位玩家提供了一個獨立部件。",
+      "starter": "There",
+      "answer": "There is a separate part for each player in the box.",
+      "answerZh": "盒內有一個供每位玩家使用的獨立部件。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a separate part for each player in the box."
+    },
+    {
+      "id": "ss38-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18
+      },
+      "prompt": "The article gives several examples of online scams.",
+      "promptZh": "這篇文章提供了數個網上騙案的例子。",
+      "starter": "There",
+      "answer": "There are several examples of online scams in the article.",
+      "answerZh": "這篇文章中有數個網上騙案的例子。",
+      "answerZhSource": "pdf",
+      "highlight": "There are several examples of online scams in the article."
+    },
+    {
+      "id": "ss38-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "No clear instructions appear on the form.",
+      "promptZh": "表格上沒有清楚的指示。",
+      "starter": "There",
+      "answer": "There are no clear instructions on the form.",
+      "answerZh": "表格上沒有清楚的指示。",
+      "answerZhSource": "pdf",
+      "highlight": "There are no clear instructions on the form."
+    },
+    {
+      "id": "ss38-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "An emergency exit is located at the end of the corridor.",
+      "promptZh": "走廊盡頭設有一個緊急出口。",
+      "starter": "At",
+      "answer": "At the end of the corridor, there is an emergency exit.",
+      "answerZh": "走廊盡頭有一個緊急出口。",
+      "answerZhSource": "pdf",
+      "highlight": "At the end of the corridor, there is an emergency exit."
+    },
+    {
+      "id": "ss38-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The city centre has several free museums.",
+      "promptZh": "市中心有數間免費博物館。",
+      "starter": "In",
+      "answer": "In the city centre, there are several free museums.",
+      "answerZh": "市中心有數間免費博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "In the city centre, there are several free museums."
+    },
+    {
+      "id": "ss38-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Each floor has a fire extinguisher near the stairs.",
+      "promptZh": "每層樓梯附近均設有一個滅火筒。",
+      "starter": "On",
+      "answer": "On each floor, there is a fire extinguisher near the stairs.",
+      "answerZh": "每層樓梯附近均有一個滅火筒。",
+      "answerZhSource": "pdf",
+      "highlight": "On each floor, there is a fire extinguisher near the stairs."
+    },
+    {
+      "id": "ss38-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Passengers can buy tickets at two places near the station.",
+      "promptZh": "乘客可以在車站附近兩個地點購買車票。",
+      "starter": "Near",
+      "answer": "Near the station, there are two places where passengers can buy tickets.",
+      "answerZh": "車站附近有兩個乘客可以購買車票的地點。",
+      "answerZhSource": "pdf",
+      "highlight": "Near the station, there are two places where passengers can buy tickets."
+    },
+    {
+      "id": "ss38-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Traffic on this road is usually lighter during the afternoon.",
+      "promptZh": "這條道路下午的車流通常較少。",
+      "starter": "During",
+      "answer": "During the afternoon, there is usually less traffic on this road.",
+      "answerZh": "下午時，這條道路的車流通常較少。",
+      "answerZhSource": "pdf",
+      "highlight": "During the afternoon, there is usually less traffic on this road."
+    },
+    {
+      "id": "ss38-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "This recipe uses too much sugar for one small cake.",
+      "promptZh": "這份食譜製作一個小蛋糕所使用的糖分過多。",
+      "starter": "In",
+      "answer": "In this recipe, there is too much sugar for one small cake.",
+      "answerZh": "這份食譜製作一個小蛋糕所使用的糖分過多。",
+      "answerZhSource": "pdf",
+      "highlight": "In this recipe, there is too much sugar for one small cake."
+    },
+    {
+      "id": "ss38-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19
+      },
+      "prompt": "Three points on the second page need further explanation.",
+      "promptZh": "第二頁有三點需要進一步解釋。",
+      "starter": "On",
+      "answer": "On the second page, there are three points that need further explanation.",
+      "answerZh": "第二頁有三點需要進一步解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "On the second page, there are three points that need further explanation."
+    },
+    {
+      "id": "ss38-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Every table in the café is occupied at the moment.",
+      "promptZh": "咖啡店目前所有桌子都有人使用。",
+      "starter": "At",
+      "answer": "At the moment, there are no empty tables in the café.",
+      "answerZh": "咖啡店目前沒有空桌。",
+      "answerZhSource": "pdf",
+      "highlight": "At the moment, there are no empty tables in the café."
+    },
+    {
+      "id": "ss38-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The new system requires staff to complete less paperwork.",
+      "promptZh": "新制度要求員工處理較少文書工作。",
+      "starter": "Under",
+      "answer": "Under the new system, there is less paperwork for staff to complete.",
+      "answerZh": "在新制度下，員工需要處理的文書工作較少。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the new system, there is less paperwork for staff to complete."
+    },
+    {
+      "id": "ss38-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The final section includes a short example showing how the rule works.",
+      "promptZh": "最後一部分包括一個簡短例子，說明這項規則如何運作。",
+      "starter": "In",
+      "answer": "In the final section, there is a short example showing how the rule works.",
+      "answerZh": "最後一部分有一個簡短例子，說明這項規則如何運作。",
+      "answerZhSource": "pdf",
+      "highlight": "In the final section, there is a short example showing how the rule works."
+    },
+    {
+      "id": "ss38-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Many parents are concerned about the amount of homework.",
+      "promptZh": "很多家長都對家課量感到憂慮。",
+      "starter": "There",
+      "answer": "There is concern among many parents about the amount of homework.",
+      "answerZh": "很多家長都對家課量感到憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "There is concern among many parents about the amount of homework."
+    },
+    {
+      "id": "ss38-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The town still lacks a safe cycle path connecting the two neighbourhoods.",
+      "promptZh": "這個市鎮仍然欠缺一條連接兩個社區的安全單車徑。",
+      "starter": "There",
+      "answer": "There is still no safe cycle path connecting the two neighbourhoods.",
+      "answerZh": "目前仍然沒有一條連接兩個社區的安全單車徑。",
+      "answerZhSource": "pdf",
+      "highlight": "There is still no safe cycle path connecting the two neighbourhoods."
+    },
+    {
+      "id": "ss38-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The survey found a clear difference between younger and older users.",
+      "promptZh": "調查發現年輕用戶和年長用戶之間存在明顯差異。",
+      "starter": "According",
+      "answer": "According to the survey, there is a clear difference between younger and older users.",
+      "answerZh": "根據調查，年輕用戶和年長用戶之間存在明顯差異。",
+      "answerZhSource": "pdf",
+      "highlight": "According to the survey, there is a clear difference between younger and older users."
+    },
+    {
+      "id": "ss38-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Our team can improve the plan in several ways before the meeting.",
+      "promptZh": "我們的團隊可以在會議前以數種方法改善計劃。",
+      "starter": "There",
+      "answer": "There are several ways our team can improve the plan before the meeting.",
+      "answerZh": "我們的團隊可以在會議前以數種方法改善計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "There are several ways our team can improve the plan before the meeting."
+    },
+    {
+      "id": "ss38-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20
+      },
+      "prompt": "The school faces a shortage of quiet study spaces during lunch.",
+      "promptZh": "學校在午膳時間面對安靜自修空間不足的問題。",
+      "starter": "There",
+      "answer": "There is a shortage of quiet study spaces at the school during lunch.",
+      "answerZh": "學校在午膳時間缺乏安靜的自修空間。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a shortage of quiet study spaces at the school during lunch."
+    },
+    {
+      "id": "ss38-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The new timetable gives students enough time to change classrooms.",
+      "promptZh": "新時間表給予學生足夠時間轉換課室。",
+      "starter": "Under",
+      "answer": "Under the new timetable, there is enough time for students to change classrooms.",
+      "answerZh": "在新時間表下，學生有足夠時間轉換課室。",
+      "answerZhSource": "pdf",
+      "highlight": "Under the new timetable, there is enough time for students to change classrooms."
+    },
+    {
+      "id": "ss38-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The old building has many features that are difficult for wheelchair users.",
+      "promptZh": "這座舊建築有很多設施令輪椅使用者感到不便。",
+      "starter": "There",
+      "answer": "There are many features in the old building that are difficult for wheelchair users.",
+      "answerZh": "這座舊建築有很多設施令輪椅使用者感到不便。",
+      "answerZhSource": "pdf",
+      "highlight": "There are many features in the old building that are difficult for wheelchair users."
+    },
+    {
+      "id": "ss38-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The report identifies no evidence that the machine is unsafe.",
+      "promptZh": "報告沒有找到證據顯示這部機器並不安全。",
+      "starter": "There",
+      "answer": "There is no evidence in the report that the machine is unsafe.",
+      "answerZh": "報告中沒有證據顯示這部機器並不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "There is no evidence in the report that the machine is unsafe."
+    },
+    {
+      "id": "ss38-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "Local businesses have several opportunities to reduce waste.",
+      "promptZh": "本地企業有數個減少廢物的機會。",
+      "starter": "There",
+      "answer": "There are several opportunities for local businesses to reduce waste.",
+      "answerZh": "本地企業有數個減少廢物的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "There are several opportunities for local businesses to reduce waste."
+    },
+    {
+      "id": "ss38-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20
+      },
+      "prompt": "The proposal contains one major problem and several smaller risks.",
+      "promptZh": "這份建議書包含一個主要問題和數個較小的風險。",
+      "starter": "In",
+      "answer": "In the proposal, there is one major problem and there are several smaller risks.",
+      "answerZh": "這份建議書中有一個主要問題和數個較小的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "In the proposal, there is one major problem and there are several smaller risks."
+    }
+  ]
+}

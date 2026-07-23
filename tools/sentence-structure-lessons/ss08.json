@@ -1,0 +1,1055 @@
+{
+  "id": "ss8",
+  "order": 8,
+  "slug": "from-x-to-y-range",
+  "title": "「From X to Y」句型",
+  "titleZh": "「From X to Y」句型",
+  "titleEn": "Using From X to Y to express a complete range",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 8 - 「From X to Y」 句型.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2
+    ],
+    "exercisePages": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": [
+      "The Meaning, Important Rules and Benefits explanations are provided in Chinese only; the English rule and benefit fields are faithful editorial translations.",
+      "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "From + starting point or stage + to + ending point or stage, + complete sentence",
+  "formulas": [
+    {
+      "id": "ss8-formula-range",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "From + starting point or stage + to + ending point or stage, + complete sentence"
+    }
+  ],
+  "example": "From hiring to promotion, fairness should guide every decision.",
+  "exampleZh": "從招聘到晉升，每一個決定都應該以公平為原則。",
+  "examples": [
+    {
+      "id": "ss8-example-01",
+      "en": "From hiring to promotion, fairness should guide every decision.",
+      "zh": "從招聘到晉升，每一個決定都應該以公平為原則。",
+      "highlight": "From hiring to promotion, fairness should guide every decision."
+    }
+  ],
+  "meaning": {
+    "zh": [
+      "From X to Y 表示某件事情由一個起點延伸至一個終點，並通常包括兩者之間的所有時間、地方或階段。",
+      "From hiring to promotion 不只是指「招聘」和「晉升」這兩個時刻，而是包括入職、培訓、工作評核等中間階段。"
+    ]
+  },
+  "rules": [
+    {
+      "id": "ss8-rule-01",
+      "en": "X and Y should belong to the same category.",
+      "zh": "X 和 Y 應該屬於相同類別。",
+      "examples": [
+        "From Monday to Friday",
+        "From childhood to adulthood",
+        "From planning to completion"
+      ]
+    },
+    {
+      "id": "ss8-rule-02",
+      "en": "X and Y should use parallel structures wherever possible.",
+      "zh": "X 和 Y 應盡量使用平行結構。",
+      "examples": [
+        "From collecting information to writing the report"
+      ]
+    },
+    {
+      "id": "ss8-rule-03",
+      "en": "When From X to Y comes at the beginning of a sentence, add a comma after Y.",
+      "zh": "當 From X to Y 放在句首時，Y 後面要加逗號。",
+      "examples": [
+        "From morning to evening, the café remains busy."
+      ]
+    },
+    {
+      "id": "ss8-rule-04",
+      "en": "The main clause should describe a situation that applies to the entire range, not only the starting and ending points.",
+      "zh": "主句所描述的情況應適用於整個範圍，而不只是起點和終點。",
+      "examples": []
+    },
+    {
+      "id": "ss8-rule-05",
+      "en": "Write From X to Y, not From X and Y.",
+      "zh": "不要寫成 From X and Y，應寫成 From X to Y。",
+      "examples": [
+        "Incorrect: From X and Y",
+        "Correct: From X to Y"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss8-benefit-01",
+      "en": "It lets readers see the complete range quickly. Readers can immediately tell where something begins and ends.",
+      "zh": "讓讀者快速看見完整範圍。讀者可以立即知道事情在哪裏開始、在哪裏結束。"
+    },
+    {
+      "id": "ss8-benefit-02",
+      "en": "It shortens a longer explanation. You can express the whole process without listing every intermediate stage.",
+      "zh": "把較長的解釋縮短。不需要逐一列出所有中間階段，也能表達「整個過程」。"
+    },
+    {
+      "id": "ss8-benefit-03",
+      "en": "It makes sentences more organised. The structure can arrange time, place and work processes clearly.",
+      "zh": "令句子更有組織。這個句型可以清楚地排列時間、地方和工作流程。"
+    },
+    {
+      "id": "ss8-benefit-04",
+      "en": "It makes writing smoother and more professional. It is especially suitable for essays, reports, speeches and workplace English.",
+      "zh": "令寫作更流暢和專業。它特別適合用於作文、報告、演講和職場英語。"
+    },
+    {
+      "id": "ss8-benefit-05",
+      "en": "It applies to a wide range of contexts, including time, place, life stages, work processes and the development of events.",
+      "zh": "適用範圍廣泛。它可以描述時間、地方、人生階段、工作流程和事情的發展。"
+    }
+  ],
+  "sourceOmissions": [
+    "The Meaning, Important Rules and Benefits explanations are provided in Chinese only; the English rule and benefit fields are faithful editorial translations.",
+    "The PDF title has no separate English subtitle; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using From X to Y at the beginning.",
+      "Keep the original meaning and place a comma after the From X to Y phrase.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用放在句首的 From X to Y 改寫以下句子。",
+      "保留原句意思，並在 From X to Y 詞組後加上逗號。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss8-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 2,
+        "starterPage": 2,
+        "answerNumberPage": 11,
+        "answerPage": 11
+      },
+      "prompt": "The library is quiet throughout the day, beginning in the morning and ending in the evening.",
+      "promptZh": "圖書館整天都很安靜，由早上開始，直到晚上。",
+      "starter": "From",
+      "answer": "From morning to evening, the library is quiet.",
+      "answerZh": "從早上到晚上，圖書館都很安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "From morning to evening, the library is quiet."
+    },
+    {
+      "id": "ss8-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 2,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 11,
+        "answerPage": 12
+      },
+      "prompt": "The school office is open every weekday, beginning on Monday and ending on Friday.",
+      "promptZh": "學校辦公室每個工作日都開放，由星期一至星期五。",
+      "starter": "From",
+      "answer": "From Monday to Friday, the school office is open.",
+      "answerZh": "從星期一到星期五，學校辦公室都會開放。",
+      "answerZhSource": "pdf",
+      "highlight": "From Monday to Friday, the school office is open."
+    },
+    {
+      "id": "ss8-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Mia takes notes in every class, beginning with the first lesson and ending with the last lesson.",
+      "promptZh": "米婭每一堂課都會記筆記，由第一堂課到最後一堂課都是如此。",
+      "starter": "From",
+      "answer": "From the first lesson to the last lesson, Mia takes notes in every class.",
+      "answerZh": "從第一堂課到最後一堂課，米婭每一堂課都會記筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first lesson to the last lesson, Mia takes notes in every class."
+    },
+    {
+      "id": "ss8-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Ben keeps his phone silent during the whole film, beginning with the opening scene and ending with the final scene.",
+      "promptZh": "本在整部電影播放期間都把手機調至靜音，包括開場至結尾。",
+      "starter": "From",
+      "answer": "From the opening scene to the final scene, Ben keeps his phone silent.",
+      "answerZh": "從開場到最後一幕，本都把手機調至靜音。",
+      "answerZhSource": "pdf",
+      "highlight": "From the opening scene to the final scene, Ben keeps his phone silent."
+    },
+    {
+      "id": "ss8-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Signs guide visitors along the whole route between the entrance and the information desk.",
+      "promptZh": "沿着入口與詢問處之間的整條路線都有指示牌引導訪客。",
+      "starter": "From",
+      "answer": "From the entrance to the information desk, signs guide visitors.",
+      "answerZh": "從入口到詢問處，都有指示牌引導訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "From the entrance to the information desk, signs guide visitors."
+    },
+    {
+      "id": "ss8-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The project begins with planning and ends with completion. The team checks every detail throughout it.",
+      "promptZh": "項目由規劃開始，以完成告終。團隊在整個過程中檢查每項細節。",
+      "starter": "From",
+      "answer": "From planning to completion, the team checks every detail.",
+      "answerZh": "從規劃到完成，團隊都會檢查每項細節。",
+      "answerZhSource": "pdf",
+      "highlight": "From planning to completion, the team checks every detail."
+    },
+    {
+      "id": "ss8-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 3,
+        "starterPage": 3,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "How long does the market stay busy? It stays busy throughout the period beginning at lunchtime and ending at closing time.",
+      "promptZh": "市場繁忙多久？由午飯時間至關門時間，市場一直都很繁忙。",
+      "starter": "From",
+      "answer": "From lunchtime to closing time, the market stays busy.",
+      "answerZh": "從午飯時間到關門時間，市場一直都很繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "From lunchtime to closing time, the market stays busy."
+    },
+    {
+      "id": "ss8-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Leo enjoyed reading throughout his school years, beginning in primary school and continuing until university.",
+      "promptZh": "由小學至大學，里奧在求學期間一直喜歡閱讀。",
+      "starter": "From",
+      "answer": "From primary school to university, Leo enjoyed reading.",
+      "answerZh": "從小學到大學，里奧一直喜歡閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "From primary school to university, Leo enjoyed reading."
+    },
+    {
+      "id": "ss8-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "Airport staff help passengers during every stage, beginning at check-in and ending at boarding.",
+      "promptZh": "機場職員在每一個階段協助乘客，由辦理登機手續直至登機。",
+      "starter": "From",
+      "answer": "From check-in to boarding, airport staff help passengers.",
+      "answerZh": "從辦理登機手續到登機，機場職員都會協助乘客。",
+      "answerZhSource": "pdf",
+      "highlight": "From check-in to boarding, airport staff help passengers."
+    },
+    {
+      "id": "ss8-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12
+      },
+      "prompt": "The shop plays soft music throughout the business day, beginning at opening time and ending at closing time.",
+      "promptZh": "商店在整個營業時間內播放輕柔音樂，由開門直至關門。",
+      "starter": "From",
+      "answer": "From opening time to closing time, the shop plays soft music.",
+      "answerZh": "從開門到關門，商店都會播放輕柔音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "From opening time to closing time, the shop plays soft music."
+    },
+    {
+      "id": "ss8-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13
+      },
+      "prompt": "Regular exercise is important during every stage of life, beginning in childhood and continuing into adulthood.",
+      "promptZh": "恆常運動在人生的每個階段都很重要，由童年一直至成年。",
+      "starter": "From",
+      "answer": "From childhood to adulthood, regular exercise is important.",
+      "answerZh": "從童年到成年，恆常運動都很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "From childhood to adulthood, regular exercise is important."
+    },
+    {
+      "id": "ss8-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Customers should not lose track of their parcels during the process that begins with ordering and ends with delivery.",
+      "promptZh": "由下單至送貨，顧客在整個過程中都不應失去包裹的最新消息。",
+      "starter": "From",
+      "answer": "From ordering to delivery, customers should not lose track of their parcels.",
+      "answerZh": "從下單到送貨，顧客都不應失去包裹的最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "From ordering to delivery, customers should not lose track of their parcels."
+    },
+    {
+      "id": "ss8-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The writer improved the article during every stage between the first draft and the final version.",
+      "promptZh": "作者在初稿與最終版本之間的每個階段都改進文章。",
+      "starter": "From",
+      "answer": "From the first draft to the final version, the writer improved the article.",
+      "answerZh": "從初稿到最終版本，作者不斷改進文章。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first draft to the final version, the writer improved the article."
+    },
+    {
+      "id": "ss8-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "How is food handled before it is served? It is handled carefully at every stage, beginning on the farm and ending at the table.",
+      "promptZh": "食物上桌前是如何處理的？食物由農場至餐桌的每個階段都受到小心處理。",
+      "starter": "From",
+      "answer": "From farm to table, food is handled carefully.",
+      "answerZh": "從農場到餐桌，食物都受到小心處理。",
+      "answerZhSource": "pdf",
+      "highlight": "From farm to table, food is handled carefully."
+    },
+    {
+      "id": "ss8-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The students work together throughout the assignment, starting with research and finishing with the presentation.",
+      "promptZh": "學生在整項課業中共同合作，由資料搜集開始，至匯報結束。",
+      "starter": "From",
+      "answer": "From research to the presentation, the students work together.",
+      "answerZh": "從資料搜集到匯報，學生都共同合作。",
+      "answerZhSource": "pdf",
+      "highlight": "From research to the presentation, the students work together."
+    },
+    {
+      "id": "ss8-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The journey begins with an idea and ends with a finished product. The designer records every change along the way.",
+      "promptZh": "整個過程由一個構思開始，以製成品告終。設計師沿途記錄每項改動。",
+      "starter": "From",
+      "answer": "From an idea to a finished product, the designer records every change.",
+      "answerZh": "從一個構思到製成品，設計師都會記錄每項改動。",
+      "answerZhSource": "pdf",
+      "highlight": "From an idea to a finished product, the designer records every change."
+    },
+    {
+      "id": "ss8-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "New employees receive guidance during every stage, beginning with recruitment and ending with training.",
+      "promptZh": "新僱員在每個階段都會獲得指導，由招聘至培訓都是如此。",
+      "starter": "From",
+      "answer": "From recruitment to training, new employees receive guidance.",
+      "answerZh": "從招聘到培訓，新僱員都會獲得指導。",
+      "answerZhSource": "pdf",
+      "highlight": "From recruitment to training, new employees receive guidance."
+    },
+    {
+      "id": "ss8-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The doctor follows the patient’s condition during the whole period, beginning with the first symptom and ending with recovery.",
+      "promptZh": "醫生在整個期間跟進病人的情況，由首次出現症狀直至康復。",
+      "starter": "From",
+      "answer": "From the first symptom to recovery, the doctor follows the patient’s condition.",
+      "answerZh": "從首次出現症狀到康復，醫生都會跟進病人的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first symptom to recovery, the doctor follows the patient’s condition."
+    },
+    {
+      "id": "ss8-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The app stores the passenger’s travel details throughout the journey, beginning when the ticket is purchased and ending when the passenger arrives.",
+      "promptZh": "應用程式在整段旅程中保存乘客的旅遊資料，由購票直至抵達。",
+      "starter": "From",
+      "answer": "From ticket purchase to arrival, the app stores the passenger’s travel details.",
+      "answerZh": "從購票到抵達，應用程式都會保存乘客的旅遊資料。",
+      "answerZhSource": "pdf",
+      "highlight": "From ticket purchase to arrival, the app stores the passenger’s travel details."
+    },
+    {
+      "id": "ss8-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "The band practises together at every stage, starting with the first rehearsal and ending with the live performance.",
+      "promptZh": "樂隊在每個階段一起練習，由首次綵排至現場演出。",
+      "starter": "From",
+      "answer": "From the first rehearsal to the live performance, the band practises together.",
+      "answerZh": "從首次綵排到現場演出，樂隊都一起練習。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first rehearsal to the live performance, the band practises together."
+    },
+    {
+      "id": "ss8-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The process begins with raw materials and ends with a finished item. Quality is checked at every stage.",
+      "promptZh": "生產過程由原材料開始，以製成品告終。每個階段都會進行品質檢查。",
+      "starter": "From",
+      "answer": "From raw materials to a finished item, quality is checked at every stage.",
+      "answerZh": "從原材料到製成品，每個階段都會進行品質檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "From raw materials to a finished item, quality is checked at every stage."
+    },
+    {
+      "id": "ss8-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The candidate remained polite and prepared throughout the process between the first interview and the job offer.",
+      "promptZh": "應徵者在首次面試至獲得工作機會的整個過程中都保持禮貌和準備充足。",
+      "starter": "From",
+      "answer": "From the first interview to the job offer, the candidate remained polite and prepared.",
+      "answerZh": "從首次面試到獲得工作機會，應徵者都保持禮貌和準備充足。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first interview to the job offer, the candidate remained polite and prepared."
+    },
+    {
+      "id": "ss8-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "What happens during the course? It builds students’ confidence throughout the period beginning on the first day and ending in the final week.",
+      "promptZh": "課程期間會有甚麼改變？課程由第一天至最後一星期持續建立學生的信心。",
+      "starter": "From",
+      "answer": "From the first day to the final week, the course builds students’ confidence.",
+      "answerZh": "從第一天到最後一星期，課程持續建立學生的信心。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first day to the final week, the course builds students’ confidence."
+    },
+    {
+      "id": "ss8-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Users should not feel confused anywhere on the website, whether they are on the home page, the payment page or a page in between.",
+      "promptZh": "無論使用者正在瀏覽主頁、付款頁面或兩者之間的任何頁面，都不應感到困惑。",
+      "starter": "From",
+      "answer": "From the home page to the payment page, users should not feel confused.",
+      "answerZh": "從主頁到付款頁面，使用者都不應感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "From the home page to the payment page, users should not feel confused."
+    },
+    {
+      "id": "ss8-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The customer service team keeps clear notes throughout the case, beginning with the first complaint and ending with the final solution.",
+      "promptZh": "顧客服務團隊在整宗個案中保留清晰紀錄，由首次投訴至最終解決方案。",
+      "starter": "From",
+      "answer": "From the first complaint to the final solution, the customer service team keeps clear notes.",
+      "answerZh": "從首次投訴到最終解決方案，顧客服務團隊都會保留清晰紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first complaint to the final solution, the customer service team keeps clear notes."
+    },
+    {
+      "id": "ss8-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Every safety step must be followed during the whole emergency, starting with the first warning and ending with the evacuation.",
+      "promptZh": "在整個緊急事故中，每項安全程序都必須遵守，由首次警告至疏散。",
+      "starter": "From",
+      "answer": "From the first warning to the evacuation, every safety step must be followed.",
+      "answerZh": "從首次警告到疏散，每項安全程序都必須遵守。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first warning to the evacuation, every safety step must be followed."
+    },
+    {
+      "id": "ss8-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Engineers consider safety throughout the whole process, beginning with design and ending with construction.",
+      "promptZh": "工程師在整個過程中都會考慮安全問題，由設計至建造。",
+      "starter": "From",
+      "answer": "From design to construction, engineers consider safety.",
+      "answerZh": "從設計到建造，工程師都會考慮安全問題。",
+      "answerZhSource": "pdf",
+      "highlight": "From design to construction, engineers consider safety."
+    },
+    {
+      "id": "ss8-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Waste is sorted at every stage, beginning with collection and ending with recycling.",
+      "promptZh": "廢物在每個階段都會被分類，由收集至回收。",
+      "starter": "From",
+      "answer": "From collection to recycling, waste is sorted at every stage.",
+      "answerZh": "從收集到回收，廢物在每個階段都會被分類。",
+      "answerZhSource": "pdf",
+      "highlight": "From collection to recycling, waste is sorted at every stage."
+    },
+    {
+      "id": "ss8-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "A strong answer should remain logical throughout its whole development, starting with the question and ending with the conclusion.",
+      "promptZh": "一個出色的答案由問題至結論都應保持邏輯清晰。",
+      "starter": "From",
+      "answer": "From the question to the conclusion, a strong answer should remain logical.",
+      "answerZh": "從問題到結論，一個出色的答案都應保持邏輯清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "From the question to the conclusion, a strong answer should remain logical."
+    },
+    {
+      "id": "ss8-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The study starts with the first experiment and finishes with the final report. Scientists record each result throughout it.",
+      "promptZh": "研究由首次實驗開始，以最終報告作結。科學家在整個過程中記錄每項結果。",
+      "starter": "From",
+      "answer": "From the first experiment to the final report, scientists record each result.",
+      "answerZh": "從首次實驗到最終報告，科學家都會記錄每項結果。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first experiment to the final report, scientists record each result."
+    },
+    {
+      "id": "ss8-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The manager reviews possible risks throughout the project, beginning with planning and ending with the launch.",
+      "promptZh": "經理在整個項目中檢視可能出現的風險，由規劃至推出。",
+      "starter": "From",
+      "answer": "From planning to launch, the manager reviews possible risks.",
+      "answerZh": "從規劃到推出，經理都會檢視可能出現的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "From planning to launch, the manager reviews possible risks."
+    },
+    {
+      "id": "ss8-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Fairness should guide every decision throughout the employment process, beginning with hiring and ending with promotion.",
+      "promptZh": "在整個僱傭過程中，每一個決定都應該以公平為原則，由招聘至晉升都是如此。",
+      "starter": "From",
+      "answer": "From hiring to promotion, fairness should guide every decision.",
+      "answerZh": "從招聘到晉升，每一個決定都應該以公平為原則。",
+      "answerZhSource": "pdf",
+      "highlight": "From hiring to promotion, fairness should guide every decision."
+    },
+    {
+      "id": "ss8-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Hotel guests can ask for help throughout their stay, beginning with booking and ending with check-out.",
+      "promptZh": "酒店住客在整段住宿期間都可以尋求協助，由預訂至退房。",
+      "starter": "From",
+      "answer": "From booking to check-out, hotel guests can ask for help.",
+      "answerZh": "從預訂到退房，酒店住客都可以尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "From booking to check-out, hotel guests can ask for help."
+    },
+    {
+      "id": "ss8-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Patient records must remain private during every stage of care, beginning with diagnosis and ending with follow-up care.",
+      "promptZh": "病人紀錄在醫療護理的每個階段都必須保密，由診斷至跟進護理。",
+      "starter": "From",
+      "answer": "From diagnosis to follow-up care, patient records must remain private.",
+      "answerZh": "從診斷到跟進護理，病人紀錄都必須保密。",
+      "answerZhSource": "pdf",
+      "highlight": "From diagnosis to follow-up care, patient records must remain private."
+    },
+    {
+      "id": "ss8-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "How does the company monitor its parcels? It tracks each parcel during the entire process that begins with production and ends with delivery.",
+      "promptZh": "公司如何監察包裹？公司在由生產至送貨的整個過程中追蹤每件包裹。",
+      "starter": "From",
+      "answer": "From production to delivery, the company tracks each parcel.",
+      "answerZh": "從生產到送貨，公司都會追蹤每件包裹。",
+      "answerZhSource": "pdf",
+      "highlight": "From production to delivery, the company tracks each parcel."
+    },
+    {
+      "id": "ss8-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The coach never ignores teamwork at any stage, whether during the first practice, the championship or any stage in between.",
+      "promptZh": "無論在首次訓練、錦標賽或兩者之間的任何階段，教練都不會忽視團隊合作。",
+      "starter": "From",
+      "answer": "From the first practice to the championship, the coach never ignores teamwork.",
+      "answerZh": "從首次訓練到錦標賽，教練從不忽視團隊合作。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first practice to the championship, the coach never ignores teamwork."
+    },
+    {
+      "id": "ss8-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Healthy sleep matters throughout a person’s whole life, beginning in early childhood and continuing into old age.",
+      "promptZh": "健康的睡眠在人一生中都很重要，由幼年一直至老年。",
+      "starter": "From",
+      "answer": "From early childhood to old age, healthy sleep matters.",
+      "answerZh": "從幼年到老年，健康的睡眠都很重要。",
+      "answerZhSource": "pdf",
+      "highlight": "From early childhood to old age, healthy sleep matters."
+    },
+    {
+      "id": "ss8-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Inventions are tested many times throughout the journey between discovery and everyday use.",
+      "promptZh": "發明在被發現至投入日常使用的整個過程中會接受多次測試。",
+      "starter": "From",
+      "answer": "From discovery to everyday use, inventions are tested many times.",
+      "answerZh": "從被發現到投入日常使用，發明會接受多次測試。",
+      "answerZhSource": "pdf",
+      "highlight": "From discovery to everyday use, inventions are tested many times."
+    },
+    {
+      "id": "ss8-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Public views should be considered at every level, beginning with local consultation and ending with national policy.",
+      "promptZh": "公眾意見在每個層面都應得到考慮，由地區諮詢至國家政策。",
+      "starter": "From",
+      "answer": "From local consultation to national policy, public views should be considered.",
+      "answerZh": "從地區諮詢到國家政策，公眾意見都應得到考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "From local consultation to national policy, public views should be considered."
+    },
+    {
+      "id": "ss8-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The architect solves problems throughout the project, beginning with the first sketch and ending with the completed building.",
+      "promptZh": "建築師在整個項目中解決問題，由第一幅草圖至建成的建築物。",
+      "starter": "From",
+      "answer": "From the first sketch to the completed building, the architect solves problems.",
+      "answerZh": "從第一幅草圖到建成的建築物，建築師都會解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first sketch to the completed building, the architect solves problems."
+    },
+    {
+      "id": "ss8-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Accurate information is shared throughout the emergency response. The process begins with the emergency call and ends with the patient handover.",
+      "promptZh": "在整個緊急應變過程中，準確資料會被共享。過程由緊急求助電話開始，至移交病人結束。",
+      "starter": "From",
+      "answer": "From the emergency call to the patient handover, accurate information is shared.",
+      "answerZh": "從緊急求助電話到移交病人，準確資料都會被共享。",
+      "answerZhSource": "pdf",
+      "highlight": "From the emergency call to the patient handover, accurate information is shared."
+    },
+    {
+      "id": "ss8-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Staff should not change their polite tone at any stage of the customer relationship, whether handling the first online enquiry, after-sales support or anything in between.",
+      "promptZh": "無論處理首次網上查詢、售後支援或兩者之間的任何階段，職員都不應改變禮貌的語氣。",
+      "starter": "From",
+      "answer": "From the first online enquiry to after-sales support, staff should not change their polite tone.",
+      "answerZh": "從首次網上查詢到售後支援，職員都不應改變禮貌的語氣。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first online enquiry to after-sales support, staff should not change their polite tone."
+    },
+    {
+      "id": "ss8-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Teachers connect individual lessons with the learning goals during every stage, beginning with curriculum design and ending with the final assessment.",
+      "promptZh": "教師在每個階段把個別課堂與學習目標連繫起來，由課程設計至最終評估。",
+      "starter": "From",
+      "answer": "From curriculum design to the final assessment, teachers connect individual lessons with the learning goals.",
+      "answerZh": "從課程設計到最終評估，教師都會把個別課堂與學習目標連繫起來。",
+      "answerZhSource": "pdf",
+      "highlight": "From curriculum design to the final assessment, teachers connect individual lessons with the learning goals."
+    },
+    {
+      "id": "ss8-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The department records its spending throughout the financial cycle, starting with the first budget estimate and ending with the annual review.",
+      "promptZh": "部門在整個財政周期記錄開支，由首次預算估算至年度檢討。",
+      "starter": "From",
+      "answer": "From the first budget estimate to the annual review, the department records its spending.",
+      "answerZh": "從首次預算估算到年度檢討，部門都會記錄開支。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first budget estimate to the annual review, the department records its spending."
+    },
+    {
+      "id": "ss8-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The bank checks the evidence carefully throughout the decision-making process, beginning with the initial risk review and ending with the final decision.",
+      "promptZh": "銀行在整個決策過程中仔細檢查證據，由初步風險評估至最終決定。",
+      "starter": "From",
+      "answer": "From the initial risk review to the final decision, the bank checks the evidence carefully.",
+      "answerZh": "從初步風險評估到最終決定，銀行都會仔細檢查證據。",
+      "answerZhSource": "pdf",
+      "highlight": "From the initial risk review to the final decision, the bank checks the evidence carefully."
+    },
+    {
+      "id": "ss8-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17
+      },
+      "prompt": "What must happen before a medicine reaches the public? No safety concern may be ignored during the period beginning with laboratory testing and ending with public release.",
+      "promptZh": "藥物推出市場前必須經過甚麼程序？由實驗室測試至公開推出，任何安全疑慮都不得被忽視。",
+      "starter": "From",
+      "answer": "From laboratory testing to public release, no safety concern may be ignored.",
+      "answerZh": "從實驗室測試到公開推出，任何安全疑慮都不得被忽視。",
+      "answerZhSource": "pdf",
+      "highlight": "From laboratory testing to public release, no safety concern may be ignored."
+    },
+    {
+      "id": "ss8-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Analysts explain their assumptions throughout the entire investigation, beginning with raw data collection and ending with the final recommendation.",
+      "promptZh": "分析員在整項調查中解釋他們的假設，由原始數據收集至最終建議。",
+      "starter": "From",
+      "answer": "From raw data collection to the final recommendation, analysts explain their assumptions.",
+      "answerZh": "從原始數據收集到最終建議，分析員都會解釋他們的假設。",
+      "answerZhSource": "pdf",
+      "highlight": "From raw data collection to the final recommendation, analysts explain their assumptions."
+    },
+    {
+      "id": "ss8-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Residents are kept informed throughout the public project, beginning with the first community consultation and ending with project completion.",
+      "promptZh": "居民在整個公共項目中都會收到最新消息，由首次社區諮詢至項目完成。",
+      "starter": "From",
+      "answer": "From the first community consultation to project completion, residents are kept informed.",
+      "answerZh": "從首次社區諮詢到項目完成，居民都會收到最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first community consultation to project completion, residents are kept informed."
+    },
+    {
+      "id": "ss8-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Trust should grow throughout the business relationship, beginning with the first customer contact and ending with a long-term partnership.",
+      "promptZh": "信任應該在整段商業關係中逐步建立，由首次接觸顧客至長期合作夥伴關係。",
+      "starter": "From",
+      "answer": "From the first customer contact to a long-term partnership, trust should grow.",
+      "answerZh": "從首次接觸顧客到建立長期合作夥伴關係，信任應該逐步增長。",
+      "answerZhSource": "pdf",
+      "highlight": "From the first customer contact to a long-term partnership, trust should grow."
+    },
+    {
+      "id": "ss8-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The whole journey begins with identifying a global problem and ends with taking local action. Successful cooperation is needed throughout it.",
+      "promptZh": "整個過程由找出全球問題開始，以採取本地行動作結。整個過程都需要成功的合作。",
+      "starter": "From",
+      "answer": "From identifying a global problem to taking local action, successful cooperation is needed.",
+      "answerZh": "從找出全球問題到採取本地行動，整個過程都需要成功的合作。",
+      "answerZhSource": "pdf",
+      "highlight": "From identifying a global problem to taking local action, successful cooperation is needed."
+    }
+  ]
+}

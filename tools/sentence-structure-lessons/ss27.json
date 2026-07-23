@@ -1,0 +1,1185 @@
+{
+  "id": "ss27",
+  "order": 27,
+  "slug": "that-way-result-benefit",
+  "title": "「That way」句型",
+  "titleZh": "「That way」表達做法帶來的結果或好處",
+  "titleEn": "Using That way to express the result or benefit of an action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 27 -「That way」表達做法帶來的結果或好處.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation.",
+      "The English wording in rule 5 expands the bilingual glossary labels into complete explanatory sentences without changing their meaning."
+    ]
+  },
+  "formula": "Action / advice / method. That way, + complete clause showing the result or benefit.",
+  "formulas": [
+    {
+      "id": "ss27-formula-target",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Action / advice / method. That way, + complete clause showing the result or benefit."
+    },
+    {
+      "id": "ss27-formula-common",
+      "labelEn": "Common Pattern",
+      "labelZh": "常見結構",
+      "formula": "Sentence 1. That way, + subject + can / will / may / could / would + base verb + other information."
+    }
+  ],
+  "example": "You should study this part first. That way, the rest will get easier.",
+  "exampleZh": "你應該先讀這一部分。那樣的話，其餘部分就會變得較容易。",
+  "examples": [
+    {
+      "id": "ss27-example-01",
+      "en": "You should study this part first. That way, the rest will get easier.",
+      "zh": "你應該先讀這一部分。那樣的話，其餘部分就會變得較容易。",
+      "highlight": "That way, the rest will get easier."
+    }
+  ],
+  "meaning": {
+    "en": "Use That way to show what result, convenience or benefit can come from the action, advice or method mentioned immediately before it.",
+    "zh": "使用 That way 說明前一句所提出的行動、建議或做法會帶來甚麼結果、方便或好處。",
+    "enSource": "pdf",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss27-benefit-01",
+      "en": "It makes the action-result relationship clear by showing what action to take first and what result may follow.",
+      "zh": "清楚顯示行動與結果的關係：先說明應採取甚麼行動，再帶出可能出現的結果。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss27-benefit-02",
+      "en": "It is useful for giving advice and instructions because you can state the suggestion first and then explain its practical benefit.",
+      "zh": "適合提出建議和指示：先提出建議，再解釋這項建議的實際好處。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss27-benefit-03",
+      "en": "It avoids repeating the whole action. That way can refer back naturally instead of repeating if you do this or by doing this.",
+      "zh": "避免重複整個做法；That way 能自然指回上一句的方法，不必反覆寫 if you do this 或 by doing this。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss27-benefit-04",
+      "en": "It breaks a long idea into two manageable sentences, making explanations easier to read and say.",
+      "zh": "把較長的想法分成兩句，讓內容更容易閱讀，也更容易在說話時組織。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss27-benefit-05",
+      "en": "It gives you a useful speaking frame: state the suggestion, pause briefly, and add the result with That way.",
+      "zh": "為口語回答提供實用框架：先說出建議，稍作停頓，再用 That way 補充結果。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss27-benefit-06",
+      "en": "It helps you express certainty accurately. Can, will, may, could and would show whether a result is possible, expected or uncertain.",
+      "zh": "配合 can、will、may、could 和 would，準確表達結果是有能力做到、預期會發生，還是只有可能發生。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss27-rule-01",
+      "en": "That way refers back to the action, advice or method in the previous sentence.",
+      "zh": "That way 指回上一句所述的行動、建議或做法。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss27-rule-02",
+      "en": "In this exercise, begin a new sentence with That way and place a comma after it.",
+      "zh": "在這份練習中，That way 必須放在新一句的開頭，後面加逗號。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: Save the document now. That way, you will not lose your work.",
+        "Incorrect: Save the document now, that way you will not lose your work."
+      ]
+    },
+    {
+      "id": "ss27-rule-03",
+      "en": "A complete clause containing a subject and a verb must follow That way.",
+      "zh": "That way 後面必須接完整子句，包括主語和動詞。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: That way, you can find the answer quickly.",
+        "Incorrect: That way, finding the answer quickly."
+      ]
+    },
+    {
+      "id": "ss27-rule-04",
+      "en": "Keep the original level of certainty: use can / could for ability or opportunity, will / would for an expected result, and may / might for a possible but uncertain result.",
+      "zh": "保留原句的肯定程度：表達能力或機會時使用 can / could；表達預期結果時使用 will / would；表達不確定的可能性時使用 may / might。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss27-rule-05",
+      "en": "Do not confuse That way with By the way, In that way or That is why. That way introduces a result; By the way changes the topic; In that way describes a method; That is why gives a result after a reason.",
+      "zh": "不要混淆 That way、By the way、In that way 及 That is why。That way 帶出做法所產生的結果；By the way 用來轉換話題；In that way 描述做事的方法；That is why 先提出原因，再解釋結果。",
+      "enSource": "editorial-expansion",
+      "zhSource": "pdf",
+      "examples": []
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation.",
+    "The English wording in rule 5 expands the bilingual glossary labels into complete explanatory sentences without changing their meaning."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using That way to introduce the result or benefit of the action.",
+      "Write two sentences in every answer.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 That way 改寫以下句子或句子組合，以帶出前述行動或做法所產生的結果或好處。",
+      "每個答案均須寫成兩句。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss27-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "You should study this part first because the rest will then get easier.",
+      "promptZh": "你應該先讀這一部分，因為這樣一來，其餘內容便會變得較容易。",
+      "starter": "You",
+      "answer": "You should study this part first. That way, the rest will get easier.",
+      "answerZh": "你應該先讀這一部分。那樣的話，其餘內容便會變得較容易。",
+      "answerZhSource": "pdf",
+      "highlight": "You should study this part first. That way, the rest will get easier."
+    },
+    {
+      "id": "ss27-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Put your keys by the door so that you can find them quickly tomorrow.",
+      "promptZh": "把鑰匙放在門旁邊，這樣你明天便可以很快找到它們。",
+      "starter": "Put",
+      "answer": "Put your keys by the door. That way, you can find them quickly tomorrow.",
+      "answerZh": "把鑰匙放在門旁邊。那樣的話，你明天便可以很快找到它們。",
+      "answerZhSource": "pdf",
+      "highlight": "Put your keys by the door. That way, you can find them quickly tomorrow."
+    },
+    {
+      "id": "ss27-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia writes new words in a notebook so that she can remember them more easily.",
+      "promptZh": "米婭把新單字寫在筆記簿上，以便更容易記住它們。",
+      "starter": "Mia",
+      "answer": "Mia writes new words in a notebook. That way, she can remember them more easily.",
+      "answerZh": "米婭把新單字寫在筆記簿上。那樣的話，她便可以更容易記住它們。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia writes new words in a notebook. That way, she can remember them more easily."
+    },
+    {
+      "id": "ss27-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We should leave home now because we can catch the early bus if we do.",
+      "promptZh": "我們應該現在離開家，因為這樣便可以趕上早班巴士。",
+      "starter": "We",
+      "answer": "We should leave home now. That way, we can catch the early bus.",
+      "answerZh": "我們應該現在離開家。那樣的話，我們便可以趕上早班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "We should leave home now. That way, we can catch the early bus."
+    },
+    {
+      "id": "ss27-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Close the window so that the rain cannot get in.",
+      "promptZh": "關上窗戶，以免雨水進入屋內。",
+      "starter": "Close",
+      "answer": "Close the window. That way, the rain cannot get in.",
+      "answerZh": "關上窗戶。那樣的話，雨水便無法進入屋內。",
+      "answerZhSource": "pdf",
+      "highlight": "Close the window. That way, the rain cannot get in."
+    },
+    {
+      "id": "ss27-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben charges his phone every night. This means it is ready to use in the morning.",
+      "promptZh": "本每晚都為手機充電。這表示手機早上便可以使用。",
+      "starter": "Ben",
+      "answer": "Ben charges his phone every night. That way, it is ready to use in the morning.",
+      "answerZh": "本每晚都為手機充電。那樣的話，手機早上便可以使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben charges his phone every night. That way, it is ready to use in the morning."
+    },
+    {
+      "id": "ss27-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You should read the question twice because this can help you avoid careless mistakes.",
+      "promptZh": "你應該把題目讀兩次，因為這樣可以幫助你避免粗心大意的錯誤。",
+      "starter": "You",
+      "answer": "You should read the question twice. That way, you can avoid careless mistakes.",
+      "answerZh": "你應該把題目讀兩次。那樣的話，你便可以避免粗心大意的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "You should read the question twice. That way, you can avoid careless mistakes."
+    },
+    {
+      "id": "ss27-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sarah keeps a bottle of water on her desk because seeing it reminds her to drink regularly.",
+      "promptZh": "莎拉在書桌上放一瓶水，因為水瓶可以提醒她定時喝水。",
+      "starter": "Sarah",
+      "answer": "Sarah keeps a bottle of water on her desk. That way, she remembers to drink regularly.",
+      "answerZh": "莎拉在書桌上放一瓶水。那樣的話，她便會記得定時喝水。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah keeps a bottle of water on her desk. That way, she remembers to drink regularly."
+    },
+    {
+      "id": "ss27-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Use a larger font so that everyone can read the slide.",
+      "promptZh": "使用較大的字體，讓每個人都能看清楚簡報畫面。",
+      "starter": "Use",
+      "answer": "Use a larger font. That way, everyone can read the slide.",
+      "answerZh": "使用較大的字體。那樣的話，每個人都能看清楚簡報畫面。",
+      "answerZhSource": "pdf",
+      "highlight": "Use a larger font. That way, everyone can read the slide."
+    },
+    {
+      "id": "ss27-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The children lined up quietly. This allowed the teacher to count them easily.",
+      "promptZh": "孩子們安靜地排隊。這讓老師可以輕鬆點算人數。",
+      "starter": "The",
+      "answer": "The children lined up quietly. That way, the teacher could count them easily.",
+      "answerZh": "孩子們安靜地排隊。那樣的話，老師便可以輕鬆點算人數。",
+      "answerZhSource": "pdf",
+      "highlight": "The children lined up quietly. That way, the teacher could count them easily."
+    },
+    {
+      "id": "ss27-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Jack is going to pack his bag tonight so that he will not need to rush tomorrow morning.",
+      "promptZh": "傑克打算今晚收拾書包，以免明早需要匆忙準備。",
+      "starter": "Jack",
+      "answer": "Jack is going to pack his bag tonight. That way, he will not need to rush tomorrow morning.",
+      "answerZh": "傑克打算今晚收拾書包。那樣的話，他明早便不需要匆忙準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack is going to pack his bag tonight. That way, he will not need to rush tomorrow morning."
+    },
+    {
+      "id": "ss27-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily saved the file in two places so that she could recover it if one copy was lost.",
+      "promptZh": "莉莉把檔案儲存在兩個地方，以便其中一份遺失時仍可取回檔案。",
+      "starter": "Lily",
+      "answer": "Lily saved the file in two places. That way, she could recover it if one copy was lost.",
+      "answerZh": "莉莉把檔案儲存在兩個地方。那樣的話，即使其中一份遺失，她仍可取回檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily saved the file in two places. That way, she could recover it if one copy was lost."
+    },
+    {
+      "id": "ss27-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Omar controls his spending more easily by setting a weekly budget.",
+      "promptZh": "奧馬爾透過設定每星期預算，更容易控制開支。",
+      "starter": "Omar",
+      "answer": "Omar sets a weekly budget. That way, he can control his spending more easily.",
+      "answerZh": "奧馬爾設定每星期預算。那樣的話，他便可以更容易控制開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar sets a weekly budget. That way, he can control his spending more easily."
+    },
+    {
+      "id": "ss27-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Take a photograph of the parking level, and you will remember where the car is.",
+      "promptZh": "拍下停車場樓層的照片，你便會記得汽車停在哪裏。",
+      "starter": "Take",
+      "answer": "Take a photograph of the parking level. That way, you will remember where the car is.",
+      "answerZh": "拍下停車場樓層的照片。那樣的話，你便會記得汽車停在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Take a photograph of the parking level. That way, you will remember where the car is."
+    },
+    {
+      "id": "ss27-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The chef labels each container because this makes the ingredients easier to find.",
+      "promptZh": "廚師為每個容器貼上標籤，因為這樣可以更容易找到食材。",
+      "starter": "The",
+      "answer": "The chef labels each container. That way, the ingredients are easier to find.",
+      "answerZh": "廚師為每個容器貼上標籤。那樣的話，食材便更容易找到。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef labels each container. That way, the ingredients are easier to find."
+    },
+    {
+      "id": "ss27-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should book the tickets early because we may get better seats.",
+      "promptZh": "我們應該提早訂票，因為這樣可能會得到較好的座位。",
+      "starter": "We",
+      "answer": "We should book the tickets early. That way, we may get better seats.",
+      "answerZh": "我們應該提早訂票。那樣的話，我們可能會得到較好的座位。",
+      "answerZhSource": "pdf",
+      "highlight": "We should book the tickets early. That way, we may get better seats."
+    },
+    {
+      "id": "ss27-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Nina turns off notifications while studying so that she can concentrate better.",
+      "promptZh": "妮娜溫習時關掉通知，以便更專心。",
+      "starter": "Nina",
+      "answer": "Nina turns off notifications while studying. That way, she can concentrate better.",
+      "answerZh": "妮娜溫習時關掉通知。那樣的話，她便可以更專心。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina turns off notifications while studying. That way, she can concentrate better."
+    },
+    {
+      "id": "ss27-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop put the popular items near the entrance. As a result, customers could see them immediately.",
+      "promptZh": "商店把熱門貨品放在入口附近。因此，顧客可以立即看到它們。",
+      "starter": "The",
+      "answer": "The shop put the popular items near the entrance. That way, customers could see them immediately.",
+      "answerZh": "商店把熱門貨品放在入口附近。那樣的話，顧客便可以立即看到它們。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop put the popular items near the entrance. That way, customers could see them immediately."
+    },
+    {
+      "id": "ss27-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "By checking the weather forecast, Leo knows whether to carry an umbrella.",
+      "promptZh": "里奧查看天氣預報後，便知道是否需要帶雨傘。",
+      "starter": "Leo",
+      "answer": "Leo checks the weather forecast. That way, he knows whether to carry an umbrella.",
+      "answerZh": "里奧查看天氣預報。那樣的話，他便知道是否需要帶雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo checks the weather forecast. That way, he knows whether to carry an umbrella."
+    },
+    {
+      "id": "ss27-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why does Emma keep her receipts? They help her check her monthly spending.",
+      "promptZh": "艾瑪為甚麼保留收據？這些收據有助她核對每月開支。",
+      "starter": "Emma",
+      "answer": "Emma keeps her receipts. That way, she can check her monthly spending.",
+      "answerZh": "艾瑪保留收據。那樣的話，她便可以核對每月開支。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma keeps her receipts. That way, she can check her monthly spending."
+    },
+    {
+      "id": "ss27-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The nurse wrote the instructions in large letters so that the patient could read them easily.",
+      "promptZh": "護士用大字寫下指示，讓病人可以輕鬆閱讀。",
+      "starter": "The",
+      "answer": "The nurse wrote the instructions in large letters. That way, the patient could read them easily.",
+      "answerZh": "護士用大字寫下指示。那樣的話，病人便可以輕鬆閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse wrote the instructions in large letters. That way, the patient could read them easily."
+    },
+    {
+      "id": "ss27-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A reminder was added to the calendar. This prevented the team from forgetting the deadline.",
+      "promptZh": "日曆上加入了提示。這避免了團隊忘記截止日期。",
+      "starter": "A",
+      "answer": "A reminder was added to the calendar. That way, the team did not forget the deadline.",
+      "answerZh": "日曆上加入了提示。那樣的話，團隊便沒有忘記截止日期。",
+      "answerZhSource": "pdf",
+      "highlight": "A reminder was added to the calendar. That way, the team did not forget the deadline."
+    },
+    {
+      "id": "ss27-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel avoids disturbing the other passengers by using headphones.",
+      "promptZh": "丹尼爾使用耳機，以免打擾其他乘客。",
+      "starter": "Daniel",
+      "answer": "Daniel uses headphones. That way, he avoids disturbing the other passengers.",
+      "answerZh": "丹尼爾使用耳機。那樣的話，他便不會打擾其他乘客。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel uses headphones. That way, he avoids disturbing the other passengers."
+    },
+    {
+      "id": "ss27-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Keep some cash with you so that you can still pay if a smaller shop does not accept cards.",
+      "promptZh": "隨身帶備一些現金，以便小店不接受以卡付款時仍可付款。",
+      "starter": "Keep",
+      "answer": "Keep some cash with you. That way, you can still pay if a smaller shop does not accept cards.",
+      "answerZh": "隨身帶備一些現金。那樣的話，即使小店不接受以卡付款，你仍可付款。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep some cash with you. That way, you can still pay if a smaller shop does not accept cards."
+    },
+    {
+      "id": "ss27-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The library has placed signs on every floor so that visitors can find the study rooms.",
+      "promptZh": "圖書館在每一層都設置了指示牌，讓訪客可以找到自修室。",
+      "starter": "The",
+      "answer": "The library has placed signs on every floor. That way, visitors can find the study rooms.",
+      "answerZh": "圖書館在每一層都設置了指示牌。那樣的話，訪客便可以找到自修室。",
+      "answerZhSource": "pdf",
+      "highlight": "The library has placed signs on every floor. That way, visitors can find the study rooms."
+    },
+    {
+      "id": "ss27-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Maya can record the teacher’s explanation so that she can listen to it again later.",
+      "promptZh": "瑪雅可以錄下老師的講解，以便日後再次聆聽。",
+      "starter": "Maya",
+      "answer": "Maya can record the teacher’s explanation. That way, she can listen to it again later.",
+      "answerZh": "瑪雅可以錄下老師的講解。那樣的話，她日後便可以再次聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya can record the teacher’s explanation. That way, she can listen to it again later."
+    },
+    {
+      "id": "ss27-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The mechanic tested the brakes twice because this reduced the risk of a safety problem.",
+      "promptZh": "技工測試了煞車系統兩次，因為這樣降低了出現安全問題的風險。",
+      "starter": "The",
+      "answer": "The mechanic tested the brakes twice. That way, he reduced the risk of a safety problem.",
+      "answerZh": "技工測試了煞車系統兩次。那樣的話，他便降低了出現安全問題的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The mechanic tested the brakes twice. That way, he reduced the risk of a safety problem."
+    },
+    {
+      "id": "ss27-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "By preparing several examples, the presenters could answer unexpected questions more confidently.",
+      "promptZh": "講者準備了幾個例子，因此能更有信心地回答意料之外的問題。",
+      "starter": "The",
+      "answer": "The presenters prepared several examples. That way, they could answer unexpected questions more confidently.",
+      "answerZh": "講者準備了幾個例子。那樣的話，他們便能更有信心地回答意料之外的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The presenters prepared several examples. That way, they could answer unexpected questions more confidently."
+    },
+    {
+      "id": "ss27-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lights were placed along the path so that people could walk safely after dark.",
+      "promptZh": "小徑沿途設置了燈光，讓人們可以在入夜後安全步行。",
+      "starter": "The",
+      "answer": "The lights were placed along the path. That way, people could walk safely after dark.",
+      "answerZh": "小徑沿途設置了燈光。那樣的話，人們便可以在入夜後安全步行。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights were placed along the path. That way, people could walk safely after dark."
+    },
+    {
+      "id": "ss27-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace keeps a list of passwords in a secure app. This allows her to avoid using the same password everywhere.",
+      "promptZh": "格蕾絲把密碼清單儲存在安全的應用程式內。這讓她可以避免在所有地方使用相同密碼。",
+      "starter": "Grace",
+      "answer": "Grace keeps a list of passwords in a secure app. That way, she can avoid using the same password everywhere.",
+      "answerZh": "格蕾絲把密碼清單儲存在安全的應用程式內。那樣的話，她便可以避免在所有地方使用相同密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace keeps a list of passwords in a secure app. That way, she can avoid using the same password everywhere."
+    },
+    {
+      "id": "ss27-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If your hands are wet, dry them before touching the screen so that it will respond properly.",
+      "promptZh": "如果雙手濕了，觸碰螢幕前應先抹乾，讓螢幕可以正常感應。",
+      "starter": "If",
+      "answer": "If your hands are wet, dry them before touching the screen. That way, it will respond properly.",
+      "answerZh": "如果雙手濕了，觸碰螢幕前應先抹乾。那樣的話，螢幕便可以正常感應。",
+      "answerZhSource": "pdf",
+      "highlight": "If your hands are wet, dry them before touching the screen. That way, it will respond properly."
+    },
+    {
+      "id": "ss27-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum limits the number of visitors in each room because this helps everyone move around comfortably.",
+      "promptZh": "博物館限制每個展覽室的訪客人數，因為這樣可讓每個人舒適地走動。",
+      "starter": "The",
+      "answer": "The museum limits the number of visitors in each room. That way, everyone can move around comfortably.",
+      "answerZh": "博物館限制每個展覽室的訪客人數。那樣的話，每個人都可以舒適地走動。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum limits the number of visitors in each room. That way, everyone can move around comfortably."
+    },
+    {
+      "id": "ss27-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "By dividing the report into sections, we made it easier for readers to follow.",
+      "promptZh": "我們把報告分成不同部分，讓讀者更容易理解。",
+      "starter": "We",
+      "answer": "We divided the report into sections. That way, readers could follow it more easily.",
+      "answerZh": "我們把報告分成不同部分。那樣的話，讀者便可以更容易理解內容。",
+      "answerZhSource": "pdf",
+      "highlight": "We divided the report into sections. That way, readers could follow it more easily."
+    },
+    {
+      "id": "ss27-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did Chloe store the medicine on a high shelf? She did not want the children to be able to reach it.",
+      "promptZh": "克洛伊為甚麼把藥物放在高層架上？她不希望孩子能夠拿到藥物。",
+      "starter": "Chloe",
+      "answer": "Chloe stored the medicine on a high shelf. That way, the children would not be able to reach it.",
+      "answerZh": "克洛伊把藥物放在高層架上。那樣的話，孩子便無法拿到藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe stored the medicine on a high shelf. That way, the children would not be able to reach it."
+    },
+    {
+      "id": "ss27-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The receptionist asked guests to write their names clearly so that staff could prepare the correct visitor passes.",
+      "promptZh": "接待員請訪客清楚寫下姓名，讓職員可以準備正確的訪客證。",
+      "starter": "The",
+      "answer": "The receptionist asked guests to write their names clearly. That way, staff could prepare the correct visitor passes.",
+      "answerZh": "接待員請訪客清楚寫下姓名。那樣的話，職員便可以準備正確的訪客證。",
+      "answerZhSource": "pdf",
+      "highlight": "The receptionist asked guests to write their names clearly. That way, staff could prepare the correct visitor passes."
+    },
+    {
+      "id": "ss27-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If a document contains private information, use a password to stop other people from opening it.",
+      "promptZh": "如果文件載有私人資料，請使用密碼，防止其他人開啟文件。",
+      "starter": "Use",
+      "answer": "Use a password if a document contains private information. That way, other people cannot open it.",
+      "answerZh": "如果文件載有私人資料，請使用密碼。那樣的話，其他人便無法開啟文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Use a password if a document contains private information. That way, other people cannot open it."
+    },
+    {
+      "id": "ss27-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach replayed the final minute of the match. This helped the players see where their defence had failed.",
+      "promptZh": "教練重播了比賽最後一分鐘。這幫助球員看出防守在哪裏出現問題。",
+      "starter": "The",
+      "answer": "The coach replayed the final minute of the match. That way, the players could see where their defence had failed.",
+      "answerZh": "教練重播了比賽最後一分鐘。那樣的話，球員便可以看出防守在哪裏出現問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach replayed the final minute of the match. That way, the players could see where their defence had failed."
+    },
+    {
+      "id": "ss27-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "By testing the microphone before the event, event organisers discovered the sound problem early.",
+      "promptZh": "活動籌辦人員在活動前測試麥克風，因此提早發現音響問題。",
+      "starter": "Event",
+      "answer": "Event organisers tested the microphone before the event. That way, they discovered the sound problem early.",
+      "answerZh": "活動籌辦人員在活動前測試麥克風。那樣的話，他們便提早發現音響問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Event organisers tested the microphone before the event. That way, they discovered the sound problem early."
+    },
+    {
+      "id": "ss27-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bins are marked with different colours so that residents know where to put paper, glass and plastic.",
+      "promptZh": "回收箱以不同顏色標示，讓居民知道紙張、玻璃和塑膠應放在哪裏。",
+      "starter": "The",
+      "answer": "The bins are marked with different colours. That way, residents know where to put paper, glass and plastic.",
+      "answerZh": "回收箱以不同顏色標示。那樣的話，居民便知道紙張、玻璃和塑膠應放在哪裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The bins are marked with different colours. That way, residents know where to put paper, glass and plastic."
+    },
+    {
+      "id": "ss27-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager gave each person one clear task. Therefore, nobody was confused about their responsibility.",
+      "promptZh": "經理為每個人分配一項清晰的任務。因此，沒有人對自己的責任感到困惑。",
+      "starter": "The",
+      "answer": "The manager gave each person one clear task. That way, nobody was confused about their responsibility.",
+      "answerZh": "經理為每個人分配一項清晰的任務。那樣的話，沒有人對自己的責任感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager gave each person one clear task. That way, nobody was confused about their responsibility."
+    },
+    {
+      "id": "ss27-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Parents receive one short weekly update from the school instead of several separate messages, so they can find important information more easily.",
+      "promptZh": "家長每星期只收到學校發出的一份簡短更新，而不是數則分開的訊息，因此可以更容易找到重要資料。",
+      "starter": "Parents",
+      "answer": "Parents receive one short weekly update from the school instead of several separate messages. That way, they can find important information more easily.",
+      "answerZh": "家長每星期只收到學校發出的一份簡短更新，而不是數則分開的訊息。那樣的話，他們便可以更容易找到重要資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents receive one short weekly update from the school instead of several separate messages. That way, they can find important information more easily."
+    },
+    {
+      "id": "ss27-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital keeps an interpreter list at the reception desk so that staff can quickly contact someone who speaks the patient’s language.",
+      "promptZh": "醫院在接待處備有傳譯員名單，讓職員可以迅速聯絡懂得病人語言的人。",
+      "starter": "The",
+      "answer": "The hospital keeps an interpreter list at the reception desk. That way, staff can quickly contact someone who speaks the patient’s language.",
+      "answerZh": "醫院在接待處備有傳譯員名單。那樣的話，職員便可以迅速聯絡懂得病人語言的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital keeps an interpreter list at the reception desk. That way, staff can quickly contact someone who speaks the patient’s language."
+    },
+    {
+      "id": "ss27-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "By backing up the customer records automatically every night, the company can restore recent information after a computer failure.",
+      "promptZh": "公司每晚自動備份顧客紀錄，因此在電腦故障後可以還原近期資料。",
+      "starter": "Every",
+      "answer": "Every night, the company backs up the customer records automatically. That way, it can restore recent information after a computer failure.",
+      "answerZh": "公司每晚自動備份顧客紀錄。那樣的話，電腦故障後便可以還原近期資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Every night, the company backs up the customer records automatically. That way, it can restore recent information after a computer failure."
+    },
+    {
+      "id": "ss27-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The tour guide gave everyone a card showing the meeting point. This meant that anyone who became separated could find the group again.",
+      "promptZh": "導遊給每個人一張印有集合地點的卡片。這表示任何與旅行團走散的人都可以重新找到旅行團。",
+      "starter": "The",
+      "answer": "The tour guide gave everyone a card showing the meeting point. That way, anyone who became separated could find the group again.",
+      "answerZh": "導遊給每個人一張印有集合地點的卡片。那樣的話，任何與旅行團走散的人都可以重新找到旅行團。",
+      "answerZhSource": "pdf",
+      "highlight": "The tour guide gave everyone a card showing the meeting point. That way, anyone who became separated could find the group again."
+    },
+    {
+      "id": "ss27-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team should agree on the decision-making process before the project begins because later disagreements may then be easier to settle.",
+      "promptZh": "團隊應在項目開始前就決策程序達成共識，因為這樣日後的分歧可能會較容易解決。",
+      "starter": "The",
+      "answer": "The team should agree on the decision-making process before the project begins. That way, later disagreements may be easier to settle.",
+      "answerZh": "團隊應在項目開始前就決策程序達成共識。那樣的話，日後的分歧可能會較容易解決。",
+      "answerZhSource": "pdf",
+      "highlight": "The team should agree on the decision-making process before the project begins. That way, later disagreements may be easier to settle."
+    },
+    {
+      "id": "ss27-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community centre arranged activities at different times so that both daytime and evening workers could take part.",
+      "promptZh": "社區中心把活動安排在不同時段，讓日間和晚間工作的市民都可以參加。",
+      "starter": "The",
+      "answer": "The community centre arranged activities at different times. That way, both daytime and evening workers could take part.",
+      "answerZh": "社區中心把活動安排在不同時段。那樣的話，日間和晚間工作的市民都可以參加。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre arranged activities at different times. That way, both daytime and evening workers could take part."
+    },
+    {
+      "id": "ss27-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A simple checklist was attached to every order. As a result, warehouse staff were less likely to miss an item before shipment.",
+      "promptZh": "每張訂單都附有一份簡單清單。因此，貨倉職員在出貨前較少機會遺漏貨品。",
+      "starter": "A",
+      "answer": "A simple checklist was attached to every order. That way, warehouse staff were less likely to miss an item before shipment.",
+      "answerZh": "每張訂單都附有一份簡單清單。那樣的話，貨倉職員在出貨前便較少機會遺漏貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "A simple checklist was attached to every order. That way, warehouse staff were less likely to miss an item before shipment."
+    },
+    {
+      "id": "ss27-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "By asking customers to confirm their contact details before payment, the shop reduces the chance of delivery problems caused by incorrect information.",
+      "promptZh": "商店請顧客在付款前確認聯絡資料，從而減少因資料錯誤而引起送貨問題的機會。",
+      "starter": "The",
+      "answer": "The shop asks customers to confirm their contact details before payment. That way, it reduces the chance of delivery problems caused by incorrect information.",
+      "answerZh": "商店請顧客在付款前確認聯絡資料。那樣的話，商店便可以減少因資料錯誤而引起送貨問題的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop asks customers to confirm their contact details before payment. That way, it reduces the chance of delivery problems caused by incorrect information."
+    },
+    {
+      "id": "ss27-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The local authority published the road-closure plan several days early so that residents could choose another route before the event.",
+      "promptZh": "當局提早數天公布封路安排，讓居民可以在活動前選擇其他路線。",
+      "starter": "The",
+      "answer": "The local authority published the road-closure plan several days early. That way, residents could choose another route before the event.",
+      "answerZh": "當局提早數天公布封路安排。那樣的話，居民便可以在活動前選擇其他路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The local authority published the road-closure plan several days early. That way, residents could choose another route before the event."
+    },
+    {
+      "id": "ss27-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The project leader summarised each decision at the end of the meeting. This gave absent colleagues a clear record and prevented the same issues from being discussed again.",
+      "promptZh": "項目主管在會議結束時總結每項決定。這為缺席的同事提供清晰紀錄，並避免團隊再次討論相同問題。",
+      "starter": "The",
+      "answer": "The project leader summarised each decision at the end of the meeting. That way, absent colleagues had a clear record, and the same issues were not discussed again.",
+      "answerZh": "項目主管在會議結束時總結每項決定。那樣的話，缺席的同事便有清晰紀錄，而相同問題亦沒有再次討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The project leader summarised each decision at the end of the meeting. That way, absent colleagues had a clear record, and the same issues were not discussed again."
+    }
+  ]
+}

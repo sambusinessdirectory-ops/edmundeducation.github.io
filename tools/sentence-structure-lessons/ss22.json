@@ -1,0 +1,1097 @@
+{
+  "id": "ss22",
+  "order": 22,
+  "slug": "even-if",
+  "title": "「Even if」句型",
+  "titleZh": "「Even if」句型",
+  "titleEn": "Using Even if to express an unchanged result under a possible condition",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 22 - 「Even if 」句型.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+    ]
+  },
+  "formula": "Even if + condition clause, + main clause",
+  "formulas": [
+    {
+      "id": "ss22-formula-condition-first",
+      "labelEn": "Basic Formula: condition first",
+      "labelZh": "基本公式：條件子句在前",
+      "formula": "Even if + condition clause, + main clause"
+    },
+    {
+      "id": "ss22-formula-condition-last",
+      "labelEn": "Basic Formula: condition last",
+      "labelZh": "基本公式：條件子句在後",
+      "formula": "Main clause + even if + condition clause"
+    },
+    {
+      "id": "ss22-formula-future",
+      "labelEn": "Common Future Pattern",
+      "labelZh": "常見未來句式",
+      "formula": "Even if + subject + present simple, subject + will / can / may / must / should + base verb."
+    },
+    {
+      "id": "ss22-formula-imagined",
+      "labelEn": "Imagined Situation",
+      "labelZh": "假設情況",
+      "formula": "Even if + subject + past simple, subject + would / could + base verb."
+    }
+  ],
+  "example": "Even if it rains, the event will continue.",
+  "exampleZh": "即使下雨，活動仍會繼續。",
+  "examples": [
+    {
+      "id": "ss22-example-01",
+      "en": "Even if it rains, the event will continue.",
+      "zh": "即使下雨，活動仍會繼續。",
+      "highlight": "Even if it rains"
+    }
+  ],
+  "meaning": {
+    "en": "Even if introduces a possible or imagined condition. The main action or result will remain the same if that condition happens.",
+    "zh": "Even if 用來提出一個可能或假設的情況。即使該情況真的發生，主要行動或結果仍然不會改變。",
+    "enSource": "pdf",
+    "zhSource": "pdf"
+  },
+  "benefits": [
+    {
+      "id": "ss22-benefit-01",
+      "en": "It shows that a result will not change. This structure clearly tells the listener that a difficulty will not stop the main action.",
+      "zh": "這個句型能清楚表示，即使出現困難，主要行動或結果仍然不會改變。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss22-benefit-02",
+      "en": "It combines a possible problem and a response. You can connect the possible difficulty and the decision in one sentence instead of using two separate sentences.",
+      "zh": "把「可能出現的問題」和「仍會採取的行動」連成一句，不需要分開表達。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss22-benefit-03",
+      "en": "It makes plans, promises and advice clearer. You can use even if to show determination, give firm advice or explain what should happen in a difficult situation.",
+      "zh": "使計劃、承諾和建議更清楚；可以用 even if 表達決心、作出承諾，或說明面對困難時仍應怎樣做。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss22-benefit-04",
+      "en": "It helps you answer possible objections. In discussions and essays, you can mention a possible problem and show why your main point still stands.",
+      "zh": "幫助回應可能的反對意見；在討論和作文中，可以先承認一個可能出現的問題，再說明自己的主要觀點為何仍然成立。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    },
+    {
+      "id": "ss22-benefit-05",
+      "en": "It gives you another way to connect ideas and helps you avoid repeatedly using may…but… or perhaps…but….",
+      "zh": "提供另一種連接意思的方法，避免不斷重複使用 may…but… 或 perhaps…but…。",
+      "enSource": "pdf",
+      "zhSource": "pdf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss22-rule-01",
+      "en": "The condition is uncertain or imagined. The situation after even if is usually uncertain or hypothetical.",
+      "zh": "條件是不確定或假設的；even if 後面的情況通常尚未確定，或只是一個假設。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss22-rule-02",
+      "en": "The main result does not change. A difficulty or unfavourable situation will not change the main action or result.",
+      "zh": "主要結果不會改變；即使出現困難、問題或不理想的情況，主要行動或結果仍然一樣。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss22-rule-03",
+      "en": "Do not normally use will after even if. When talking about the future, use the present simple after even if.",
+      "zh": "談及未來時，even if 後面通常使用一般現在式，不使用 will。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Correct: Even if it rains, we will go.",
+        "Incorrect: Even if it will rain, we will go."
+      ]
+    },
+    {
+      "id": "ss22-rule-04",
+      "en": "Use a comma when the even if clause comes first. A comma is not normally needed when the clause comes last.",
+      "zh": "當 even if 子句放在句首時，後面要加逗號；放在句末時，通常不需要逗號。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Even if the shop is busy, I will wait.",
+        "I will wait even if the shop is busy."
+      ]
+    },
+    {
+      "id": "ss22-rule-05",
+      "en": "Even if must normally be followed by a complete clause containing a subject and a verb.",
+      "zh": "even if 後面通常要接完整子句，即「主語＋動詞」。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": []
+    },
+    {
+      "id": "ss22-rule-06",
+      "en": "Even if describes a condition that may or may not happen. Even though describes a fact that is already true.",
+      "zh": "even if 表示某個情況可能發生，也可能不發生；even though 表示某個情況已經是真實的事實。",
+      "enSource": "pdf",
+      "zhSource": "pdf",
+      "examples": [
+        "Even if it rains, the event will continue.",
+        "Even though it is raining, the event is continuing."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "The PDF supplies the lesson title in Chinese only; titleEn is an editorial translation."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using even if to show that the main action or result will not change.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 even if 改寫以下句子，表示即使某個情況發生，主要行動或結果仍然不會改變。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss22-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "It may rain, but the event will continue.",
+      "promptZh": "可能會下雨，但活動仍會繼續。",
+      "starter": "Even",
+      "answer": "Even if it rains, the event will continue.",
+      "answerZh": "即使下雨，活動仍會繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if it rains, the event will continue."
+    },
+    {
+      "id": "ss22-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "The bus could be late, but I will still arrive before the meeting starts.",
+      "promptZh": "巴士可能會遲到，但我仍會在會議開始前到達。",
+      "starter": "I",
+      "answer": "I will still arrive before the meeting starts even if the bus is late.",
+      "answerZh": "即使巴士遲到，我仍會在會議開始前到達。",
+      "answerZhSource": "pdf",
+      "highlight": "I will still arrive before the meeting starts even if the bus is late."
+    },
+    {
+      "id": "ss22-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "Whether Tom feels tired or not, he will finish his homework tonight.",
+      "promptZh": "不論湯姆是否感到疲倦，他今晚都會完成家課。",
+      "starter": "Tom",
+      "answer": "Tom will finish his homework tonight even if he feels tired.",
+      "answerZh": "即使湯姆感到疲倦，他今晚仍會完成家課。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom will finish his homework tonight even if he feels tired."
+    },
+    {
+      "id": "ss22-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "What if the library is crowded? We will still study there.",
+      "promptZh": "如果圖書館很擠迫怎麼辦？我們仍會在那裏溫習。",
+      "starter": "Even",
+      "answer": "Even if the library is crowded, we will still study there.",
+      "answerZh": "即使圖書館很擠迫，我們仍會在那裏溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the library is crowded, we will still study there."
+    },
+    {
+      "id": "ss22-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13
+      },
+      "prompt": "If the lift stops working, that will not stop Ben from using the stairs.",
+      "promptZh": "如果升降機停止運作，本仍會使用樓梯。",
+      "starter": "Ben",
+      "answer": "Ben will use the stairs even if the lift stops working.",
+      "answerZh": "即使升降機停止運作，本仍會使用樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben will use the stairs even if the lift stops working."
+    },
+    {
+      "id": "ss22-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14
+      },
+      "prompt": "Regardless of whether the weather is cold, the children will play outside.",
+      "promptZh": "不論天氣是否寒冷，孩子們都會在戶外玩耍。",
+      "starter": "The",
+      "answer": "The children will play outside even if the weather is cold.",
+      "answerZh": "即使天氣寒冷，孩子們仍會在戶外玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The children will play outside even if the weather is cold."
+    },
+    {
+      "id": "ss22-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "There is a chance that the meal will be expensive, but we will eat at that restaurant.",
+      "promptZh": "那頓飯可能會很昂貴，但我們仍會在那間餐廳用餐。",
+      "starter": "Even",
+      "answer": "Even if the meal is expensive, we will eat at that restaurant.",
+      "answerZh": "即使那頓飯很昂貴，我們仍會在那間餐廳用餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the meal is expensive, we will eat at that restaurant."
+    },
+    {
+      "id": "ss22-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Making a mistake will not stop me from trying again.",
+      "promptZh": "犯錯不會阻止我再次嘗試。",
+      "starter": "I",
+      "answer": "I will try again even if I make a mistake.",
+      "answerZh": "即使我犯錯，我仍會再嘗試。",
+      "answerZhSource": "pdf",
+      "highlight": "I will try again even if I make a mistake."
+    },
+    {
+      "id": "ss22-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The film might be long, but Grace will watch it until the end.",
+      "promptZh": "這部電影可能很長，但格蕾絲仍會看到最後。",
+      "starter": "Grace",
+      "answer": "Grace will watch the film until the end even if it is long.",
+      "answerZh": "即使這部電影很長，格蕾絲仍會看到最後。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace will watch the film until the end even if it is long."
+    },
+    {
+      "id": "ss22-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "The shop may be busy. Mia will wait for her turn anyway.",
+      "promptZh": "商店可能很繁忙。米婭無論如何都會等候輪到自己。",
+      "starter": "Mia",
+      "answer": "Mia will wait for her turn even if the shop is busy.",
+      "answerZh": "即使商店很繁忙，米婭仍會等候輪到自己。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia will wait for her turn even if the shop is busy."
+    },
+    {
+      "id": "ss22-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Whether you agree with me or not, please listen to my explanation.",
+      "promptZh": "不論你是否同意我，請聽完我的解釋。",
+      "starter": "Please",
+      "answer": "Please listen to my explanation even if you do not agree with me.",
+      "answerZh": "即使你不同意我，也請聽完我的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Please listen to my explanation even if you do not agree with me."
+    },
+    {
+      "id": "ss22-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "There may not be enough chairs, but the meeting will start on time.",
+      "promptZh": "椅子可能不夠，但會議仍會準時開始。",
+      "starter": "The",
+      "answer": "The meeting will start on time even if there are not enough chairs.",
+      "answerZh": "即使椅子不夠，會議仍會準時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting will start on time even if there are not enough chairs."
+    },
+    {
+      "id": "ss22-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14
+      },
+      "prompt": "Whether Daniel finds the map or not, he can ask a member of staff for help.",
+      "promptZh": "不論丹尼爾能否找到地圖，他都可以向職員求助。",
+      "starter": "Daniel",
+      "answer": "Daniel can ask a member of staff for help even if he cannot find the map.",
+      "answerZh": "即使丹尼爾找不到地圖，他也可以向職員求助。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel can ask a member of staff for help even if he cannot find the map."
+    },
+    {
+      "id": "ss22-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15
+      },
+      "prompt": "The battery may be low, but the phone can still make an emergency call.",
+      "promptZh": "電池電量可能很低，但這部電話仍可撥打緊急電話。",
+      "starter": "Even",
+      "answer": "Even if the battery is low, the phone can still make an emergency call.",
+      "answerZh": "即使電池電量很低，這部電話仍可撥打緊急電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the battery is low, the phone can still make an emergency call."
+    },
+    {
+      "id": "ss22-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "No matter whether Sarah wins or loses, her family will be proud of her.",
+      "promptZh": "不論莎拉勝出或落敗，她的家人都會為她感到驕傲。",
+      "starter": "Sarah's",
+      "answer": "Sarah's family will be proud of her even if she loses.",
+      "answerZh": "即使莎拉落敗，她的家人仍會為她感到驕傲。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah's family will be proud of her even if she loses."
+    },
+    {
+      "id": "ss22-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Maybe the lesson will be difficult, but the students should not give up.",
+      "promptZh": "這堂課可能很困難，但學生不應放棄。",
+      "starter": "The",
+      "answer": "The students should not give up even if the lesson is difficult.",
+      "answerZh": "即使這堂課很困難，學生也不應放棄。",
+      "answerZhSource": "pdf",
+      "highlight": "The students should not give up even if the lesson is difficult."
+    },
+    {
+      "id": "ss22-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "Regardless of whether the café is full, we can buy takeaway drinks.",
+      "promptZh": "不論咖啡店是否滿座，我們都可以購買外賣飲品。",
+      "starter": "We",
+      "answer": "We can buy takeaway drinks even if the café is full.",
+      "answerZh": "即使咖啡店滿座，我們也可以購買外賣飲品。",
+      "answerZhSource": "pdf",
+      "highlight": "We can buy takeaway drinks even if the café is full."
+    },
+    {
+      "id": "ss22-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "It is possible that you will not understand every word, but keep reading.",
+      "promptZh": "你可能不會明白每一個字，但請繼續閱讀。",
+      "starter": "Keep",
+      "answer": "Keep reading even if you do not understand every word.",
+      "answerZh": "即使你不明白每一個字，也請繼續閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Keep reading even if you do not understand every word."
+    },
+    {
+      "id": "ss22-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "The road may be wet, but drivers must follow the speed limit.",
+      "promptZh": "路面可能濕滑，但駕駛者必須遵守速度限制。",
+      "starter": "Drivers",
+      "answer": "Drivers must follow the speed limit even if the road is wet.",
+      "answerZh": "即使路面濕滑，駕駛者也必須遵守速度限制。",
+      "answerZhSource": "pdf",
+      "highlight": "Drivers must follow the speed limit even if the road is wet."
+    },
+    {
+      "id": "ss22-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "What if Anna's friends laugh at her idea? She will still share it with the class.",
+      "promptZh": "如果安娜的朋友取笑她的想法怎麼辦？她仍會與全班分享。",
+      "starter": "Anna",
+      "answer": "Anna will share her idea with the class even if her friends laugh at it.",
+      "answerZh": "即使朋友取笑安娜的想法，她仍會與全班分享。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna will share her idea with the class even if her friends laugh at it."
+    },
+    {
+      "id": "ss22-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15
+      },
+      "prompt": "If I had less free time, I would still exercise twice a week.",
+      "promptZh": "如果我的空閒時間較少，我仍會每星期做兩次運動。",
+      "starter": "Even",
+      "answer": "Even if I had less free time, I would still exercise twice a week.",
+      "answerZh": "即使我的空閒時間較少，我仍會每星期做兩次運動。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if I had less free time, I would still exercise twice a week."
+    },
+    {
+      "id": "ss22-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16
+      },
+      "prompt": "The room might be smaller than expected, but we could still hold the workshop there.",
+      "promptZh": "房間可能比預期細小，但我們仍可在那裏舉行工作坊。",
+      "starter": "Even",
+      "answer": "Even if the room were smaller than expected, we could still hold the workshop there.",
+      "answerZh": "即使房間比預期細小，我們仍可在那裏舉行工作坊。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the room were smaller than expected, we could still hold the workshop there."
+    },
+    {
+      "id": "ss22-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The manager might reject the proposal. In that situation, the team would still learn from the process.",
+      "promptZh": "經理可能會拒絕建議。即使如此，團隊仍可從過程中學習。",
+      "starter": "The",
+      "answer": "The team would still learn from the process even if the manager rejected the proposal.",
+      "answerZh": "即使經理拒絕建議，團隊仍可從過程中學習。",
+      "answerZhSource": "pdf",
+      "highlight": "The team would still learn from the process even if the manager rejected the proposal."
+    },
+    {
+      "id": "ss22-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The price could rise, but Leo would still buy the laptop for work.",
+      "promptZh": "價格可能上升，但里奧仍會購買手提電腦作工作用途。",
+      "starter": "Leo",
+      "answer": "Leo would still buy the laptop for work even if the price rose.",
+      "answerZh": "即使價格上升，里奧仍會購買手提電腦作工作用途。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo would still buy the laptop for work even if the price rose."
+    },
+    {
+      "id": "ss22-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The museum might not offer a guided tour, but visitors could still use the audio guide.",
+      "promptZh": "博物館可能不提供導賞團，但訪客仍可使用語音導賞。",
+      "starter": "Visitors",
+      "answer": "Visitors could still use the audio guide even if the museum did not offer a guided tour.",
+      "answerZh": "即使博物館不提供導賞團，訪客仍可使用語音導賞。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors could still use the audio guide even if the museum did not offer a guided tour."
+    },
+    {
+      "id": "ss22-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The outdoor match might be cancelled because of a storm, but the players would continue training indoors.",
+      "promptZh": "戶外比賽可能因暴風雨而取消，但球員仍會在室內繼續訓練。",
+      "starter": "The",
+      "answer": "The players would continue training indoors even if the outdoor match were cancelled because of a storm.",
+      "answerZh": "即使戶外比賽因暴風雨而取消，球員仍會在室內繼續訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The players would continue training indoors even if the outdoor match were cancelled because of a storm."
+    },
+    {
+      "id": "ss22-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "What would you do if nobody supported your plan? I would continue working on it.",
+      "promptZh": "如果沒有人支持你的計劃，你會怎樣做？我仍會繼續努力實行。",
+      "starter": "I",
+      "answer": "I would continue working on my plan even if nobody supported it.",
+      "answerZh": "即使沒有人支持我的計劃，我仍會繼續努力實行。",
+      "answerZhSource": "pdf",
+      "highlight": "I would continue working on my plan even if nobody supported it."
+    },
+    {
+      "id": "ss22-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "The instructions might be unclear, but a careful reader could complete the task.",
+      "promptZh": "指示可能不清楚，但細心的讀者仍可完成任務。",
+      "starter": "A",
+      "answer": "A careful reader could complete the task even if the instructions were unclear.",
+      "answerZh": "即使指示不清楚，細心的讀者仍可完成任務。",
+      "answerZhSource": "pdf",
+      "highlight": "A careful reader could complete the task even if the instructions were unclear."
+    },
+    {
+      "id": "ss22-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16
+      },
+      "prompt": "Chloe said she would send the required documents before the deadline whether she received a reply or not.",
+      "promptZh": "克洛伊說，不論是否收到回覆，她都會在限期前提交所需文件。",
+      "starter": "Chloe",
+      "answer": "Chloe said she would send the required documents before the deadline even if she did not receive a reply.",
+      "answerZh": "克洛伊說，即使沒有收到回覆，她仍會在限期前提交所需文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe said she would send the required documents before the deadline even if she did not receive a reply."
+    },
+    {
+      "id": "ss22-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The machine may stop unexpectedly, but trained staff can restart it safely.",
+      "promptZh": "機器可能突然停止運作，但受過訓練的職員仍可安全地重新啟動它。",
+      "starter": "Trained",
+      "answer": "Trained staff can restart the machine safely even if it stops unexpectedly.",
+      "answerZh": "即使機器突然停止運作，受過訓練的職員仍可安全地重新啟動它。",
+      "answerZhSource": "pdf",
+      "highlight": "Trained staff can restart the machine safely even if it stops unexpectedly."
+    },
+    {
+      "id": "ss22-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "It is possible that the customer will be angry, but the staff should remain polite.",
+      "promptZh": "顧客可能會生氣，但職員應保持禮貌。",
+      "starter": "The",
+      "answer": "The staff should remain polite even if the customer is angry.",
+      "answerZh": "即使顧客生氣，職員也應保持禮貌。",
+      "answerZhSource": "pdf",
+      "highlight": "The staff should remain polite even if the customer is angry."
+    },
+    {
+      "id": "ss22-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "Regardless of whether traffic is heavy, the ambulance must reach the hospital as quickly as possible.",
+      "promptZh": "不論交通是否繁忙，救護車都必須盡快抵達醫院。",
+      "starter": "Even",
+      "answer": "Even if traffic is heavy, the ambulance must reach the hospital as quickly as possible.",
+      "answerZh": "即使交通繁忙，救護車也必須盡快抵達醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if traffic is heavy, the ambulance must reach the hospital as quickly as possible."
+    },
+    {
+      "id": "ss22-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The school may not receive extra funding, but it plans to keep the music programme.",
+      "promptZh": "學校可能不會獲得額外撥款，但仍計劃保留音樂課程。",
+      "starter": "The",
+      "answer": "The school plans to keep the music programme even if it does not receive extra funding.",
+      "answerZh": "即使學校沒有獲得額外撥款，仍計劃保留音樂課程。",
+      "answerZhSource": "pdf",
+      "highlight": "The school plans to keep the music programme even if it does not receive extra funding."
+    },
+    {
+      "id": "ss22-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "If some residents disagree, the council can still hold a public meeting.",
+      "promptZh": "如果部分居民不同意，區議會仍可舉行公眾會議。",
+      "starter": "The",
+      "answer": "The council can still hold a public meeting even if some residents disagree.",
+      "answerZh": "即使部分居民不同意，區議會仍可舉行公眾會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The council can still hold a public meeting even if some residents disagree."
+    },
+    {
+      "id": "ss22-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "A few files might be missing, but the report can be completed with the available records.",
+      "promptZh": "部分檔案可能遺失，但報告仍可利用現有紀錄完成。",
+      "starter": "The",
+      "answer": "The report can be completed with the available records even if a few files are missing.",
+      "answerZh": "即使部分檔案遺失，報告仍可利用現有紀錄完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The report can be completed with the available records even if a few files are missing."
+    },
+    {
+      "id": "ss22-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "What if the internet connection becomes unstable during the presentation? Continue with the offline slides.",
+      "promptZh": "如果簡報期間網絡連線變得不穩定怎麼辦？請繼續使用離線投影片。",
+      "starter": "Continue",
+      "answer": "Continue with the offline slides even if the internet connection becomes unstable during the presentation.",
+      "answerZh": "即使簡報期間網絡連線變得不穩定，也請繼續使用離線投影片。",
+      "answerZhSource": "pdf",
+      "highlight": "Continue with the offline slides even if the internet connection becomes unstable during the presentation."
+    },
+    {
+      "id": "ss22-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17
+      },
+      "prompt": "The medicine may taste unpleasant, but the patient should take it as the doctor instructed.",
+      "promptZh": "藥物味道可能不好，但病人應按醫生指示服用。",
+      "starter": "The",
+      "answer": "The patient should take the medicine as the doctor instructed even if it tastes unpleasant.",
+      "answerZh": "即使藥物味道不好，病人也應按醫生指示服用。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient should take the medicine as the doctor instructed even if it tastes unpleasant."
+    },
+    {
+      "id": "ss22-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "No matter whether the volunteers have previous experience, they can receive training.",
+      "promptZh": "不論義工是否有相關經驗，他們都可以接受培訓。",
+      "starter": "Even",
+      "answer": "Even if the volunteers have no previous experience, they can receive training.",
+      "answerZh": "即使義工沒有相關經驗，他們也可以接受培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the volunteers have no previous experience, they can receive training."
+    },
+    {
+      "id": "ss22-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The package might arrive later than expected, but the customer will still receive a full refund.",
+      "promptZh": "包裹可能比預期遲到，但顧客仍會獲得全額退款。",
+      "starter": "The",
+      "answer": "The customer will still receive a full refund even if the package arrives later than expected.",
+      "answerZh": "即使包裹比預期遲到，顧客仍會獲得全額退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer will still receive a full refund even if the package arrives later than expected."
+    },
+    {
+      "id": "ss22-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Failure of the first solution will not end the work. The engineers will test another one.",
+      "promptZh": "第一個解決方案失敗也不會令工作停止。工程師會測試另一個方案。",
+      "starter": "Even",
+      "answer": "Even if the first solution fails, the engineers will test another one.",
+      "answerZh": "即使第一個解決方案失敗，工程師也會測試另一個方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the first solution fails, the engineers will test another one."
+    },
+    {
+      "id": "ss22-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "The hospital may become extremely busy, but emergency patients will still be treated first.",
+      "promptZh": "醫院可能變得非常繁忙，但急症病人仍會優先接受治療。",
+      "starter": "Emergency",
+      "answer": "Emergency patients will still be treated first even if the hospital becomes extremely busy.",
+      "answerZh": "即使醫院變得非常繁忙，急症病人仍會優先接受治療。",
+      "answerZhSource": "pdf",
+      "highlight": "Emergency patients will still be treated first even if the hospital becomes extremely busy."
+    },
+    {
+      "id": "ss22-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "Whether a student can afford a private tutor or not, the school should provide enough learning support.",
+      "promptZh": "不論學生能否負擔私人補習，學校都應提供足夠的學習支援。",
+      "starter": "The",
+      "answer": "The school should provide enough learning support even if a student cannot afford a private tutor.",
+      "answerZh": "即使學生無法負擔私人補習，學校也應提供足夠的學習支援。",
+      "answerZhSource": "pdf",
+      "highlight": "The school should provide enough learning support even if a student cannot afford a private tutor."
+    },
+    {
+      "id": "ss22-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "A worker might point out a serious problem during the meeting, but the manager should listen without becoming defensive.",
+      "promptZh": "員工可能在會議上指出嚴重問題，但經理應聆聽，而不應採取防衛態度。",
+      "starter": "Even",
+      "answer": "Even if a worker points out a serious problem during the meeting, the manager should listen without becoming defensive.",
+      "answerZh": "即使員工在會議上指出嚴重問題，經理也應聆聽，而不應採取防衛態度。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if a worker points out a serious problem during the meeting, the manager should listen without becoming defensive."
+    },
+    {
+      "id": "ss22-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18
+      },
+      "prompt": "It is possible that the new system will take longer to learn than expected, but the company will continue implementing it.",
+      "promptZh": "新系統的學習時間可能比預期長，但公司仍會繼續推行。",
+      "starter": "The",
+      "answer": "The company will continue implementing the new system even if it takes longer to learn than expected.",
+      "answerZh": "即使新系統的學習時間比預期長，公司仍會繼續推行。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will continue implementing the new system even if it takes longer to learn than expected."
+    },
+    {
+      "id": "ss22-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The weather warning may remain in force, but the delivery team can continue working by using a safer route.",
+      "promptZh": "天氣警告可能仍然生效，但送貨團隊可以改用較安全的路線繼續工作。",
+      "starter": "Even",
+      "answer": "Even if the weather warning remains in force, the delivery team can continue working by using a safer route.",
+      "answerZh": "即使天氣警告仍然生效，送貨團隊也可以改用較安全的路線繼續工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Even if the weather warning remains in force, the delivery team can continue working by using a safer route."
+    },
+    {
+      "id": "ss22-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "Residents may disagree about some details, but they can still work together on a shared safety plan.",
+      "promptZh": "居民可能不同意部分細節，但仍可共同制定一個安全計劃。",
+      "starter": "Residents",
+      "answer": "Residents can still work together on a shared safety plan even if they disagree about some details.",
+      "answerZh": "即使居民不同意部分細節，仍可共同制定一個安全計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents can still work together on a shared safety plan even if they disagree about some details."
+    },
+    {
+      "id": "ss22-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "What if the evidence does not support our original idea? Researchers must report the results honestly.",
+      "promptZh": "如果證據不支持我們原本的想法怎麼辦？研究人員必須如實報告結果。",
+      "starter": "Researchers",
+      "answer": "Researchers must report the results honestly even if the evidence does not support their original idea.",
+      "answerZh": "即使證據不支持研究人員原本的想法，他們也必須如實報告結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers must report the results honestly even if the evidence does not support their original idea."
+    },
+    {
+      "id": "ss22-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The public may criticise the decision, but officials should explain the reasons clearly and review its impact.",
+      "promptZh": "公眾可能批評這項決定，但官員應清楚解釋原因，並檢討其影響。",
+      "starter": "Officials",
+      "answer": "Officials should explain the reasons clearly and review the impact of the decision even if the public criticises it.",
+      "answerZh": "即使公眾批評這項決定，官員也應清楚解釋原因，並檢討這項決定的影響。",
+      "answerZhSource": "pdf",
+      "highlight": "Officials should explain the reasons clearly and review the impact of the decision even if the public criticises it."
+    },
+    {
+      "id": "ss22-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The train service could be suspended, but passengers would still be able to reach the airport by replacement bus.",
+      "promptZh": "列車服務可能暫停，但乘客仍可乘坐替代巴士前往機場。",
+      "starter": "Passengers",
+      "answer": "Passengers would still be able to reach the airport by replacement bus even if the train service were suspended.",
+      "answerZh": "即使列車服務暫停，乘客仍可乘坐替代巴士前往機場。",
+      "answerZhSource": "pdf",
+      "highlight": "Passengers would still be able to reach the airport by replacement bus even if the train service were suspended."
+    },
+    {
+      "id": "ss22-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19
+      },
+      "prompt": "The first attempt might not solve the problem completely, but the team will keep improving the plan until it works.",
+      "promptZh": "第一次嘗試可能無法完全解決問題，但團隊會繼續改進計劃，直至成功。",
+      "starter": "The",
+      "answer": "The team will keep improving the plan until it works even if the first attempt does not solve the problem completely.",
+      "answerZh": "即使第一次嘗試無法完全解決問題，團隊仍會繼續改進計劃，直至成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The team will keep improving the plan until it works even if the first attempt does not solve the problem completely."
+    }
+  ]
+}
