@@ -666,7 +666,7 @@ function renderRulesPage(lesson) {
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
-        return `<li class="rule-card"><span>${index + 1}</span><div>${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}<p class="chinese">${escapeHtml(item.chinese)}</p>${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
+        return `<li class="rule-card"><span>${index + 1}</span><div>${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}${item.examples.length ? `<div class="examples">${item.examples.map((example) => `<code>${escapeHtml(example)}</code>`).join("")}</div>` : ""}</div></li>`;
       }).join("")}
     </ol>
     ${navHtml(3)}

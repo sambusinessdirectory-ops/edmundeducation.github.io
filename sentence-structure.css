@@ -734,10 +734,10 @@ summary:focus-visible {
 .rule-card > span { color: var(--violet); background: var(--violet-soft); }
 .benefit-card p,
 .rule-card p { margin: 0; }
-.benefit-card .english,
-.rule-card .english { color: var(--navy); font-weight: 800; }
-.benefit-card .chinese,
-.rule-card .chinese { margin-top: 5px; color: var(--muted); font-size: 14px; }
+.benefit-card .english { color: var(--navy); font-weight: 800; }
+.benefit-card .chinese { margin-top: 5px; color: var(--muted); font-size: 14px; }
+.rule-card .chinese { color: var(--navy); font-size: clamp(16px, 1.6vw, 18px); font-weight: 800; line-height: 1.65; }
+.rule-card .english { margin-top: 7px; color: var(--muted); font-size: 14px; font-weight: 600; line-height: 1.65; }
 .rule-card .examples { margin-top: 9px; display: flex; gap: 8px; flex-wrap: wrap; }
 .rule-card .examples code { border-radius: 8px; padding: 4px 8px; color: var(--coral); background: var(--coral-soft); font-family: inherit; font-weight: 800; }
 

@@ -429,6 +429,8 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(css, /\.target-highlight\s*\{[^}]*color:\s*#d32727/i);
   assert.match(css, /\.target-highlight\s*\{[^}]*font-weight:\s*900/i);
   assert.match(css, /\.login-hero \.eyebrow\s*\{[^}]*font-size:\s*clamp\(18px,[^}]*22px\)/i);
+  assert.match(css, /\.rule-card \.chinese\s*\{[^}]*font-size:\s*clamp\(16px,[^}]*18px\)[^}]*font-weight:\s*800/i);
+  assert.match(css, /\.rule-card \.english\s*\{[^}]*color:\s*var\(--muted\)[^}]*font-size:\s*14px/i);
   assert.doesNotMatch(frontendSource, /choice-icon/);
   assert.doesNotMatch(frontendSource, /題練習<\/span>/);
   assert.doesNotMatch(frontendSource, /由公式開始/);
@@ -512,6 +514,13 @@ test("four lesson pages render in order and answers stay secret before submit", 
   assert.match(sut.elements.lessonContent.innerHTML, /WHY THIS STRUCTURE HELPS/);
   sut.setLessonPage(3);
   assert.match(sut.elements.lessonContent.innerHTML, /IMPORTANT REMINDERS/);
+  const firstRuleCard = sut.elements.lessonContent.innerHTML.match(/<li class="rule-card">[\s\S]*?<\/li>/)?.[0] || "";
+  assert.ok(firstRuleCard.includes(lessons[0].rules[0].zh));
+  assert.ok(firstRuleCard.includes(lessons[0].rules[0].en));
+  assert.ok(
+    firstRuleCard.indexOf('class="chinese"') < firstRuleCard.indexOf('class="english"'),
+    "Important Rules must present Chinese before English"
+  );
   sut.setLessonPage(4);
   const exerciseHtml = sut.elements.lessonContent.innerHTML;
   assert.equal((exerciseHtml.match(/data-answer-input=/g) || []).length, 50);
