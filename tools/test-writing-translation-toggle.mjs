@@ -515,7 +515,8 @@ function listeningFixtureAudio(exercise) {
 }
 
 const listenExercise = listeningFixture();
-hooks.setAudioManifest({ [listenExercise.id]: listeningFixtureAudio(listenExercise) });
+const listenExerciseAudio = listeningFixtureAudio(listenExercise);
+hooks.setAudioManifest({ [listenExercise.id]: listenExerciseAudio });
 hooks.installExercise(listenExercise);
 hooks.renderView();
 
@@ -543,6 +544,16 @@ assert.equal(hooks.state().listeningPlaying, true, "the first listening sentence
 assert.equal(hooks.state().listeningUnitIndex, 0);
 assert.equal(harness.createdAudios.length, 1, "automatic listening should create one audio player");
 assert.equal(harness.createdAudios[0].currentTime, segments[0].startTime, "automatic playback should seek to the first target sentence");
+const firstSentenceFinalWordEnd = listenExerciseAudio.words[segments[0].endWordIndex][2];
+assert.ok(
+  segments[0].stopTime >= firstSentenceFinalWordEnd + 0.26,
+  "a sentence-final blank should retain enough audio tail to speak the complete answer"
+);
+assert.equal(
+  segments.at(-1).stopTime,
+  listenExerciseAudio.duration,
+  "the final listening sentence should play to the natural end of its audio file"
+);
 const activePracticeHtml = hooks.renderRound();
 assert.ok(
   activePracticeHtml.indexOf("data-next-practice-listening") < activePracticeHtml.indexOf("data-toggle-practice-translation"),
@@ -552,18 +563,48 @@ assert.ok(
   activePracticeHtml.indexOf("data-toggle-practice-translation") < activePracticeHtml.indexOf("data-toggle-practice-listening"),
   "listening ON/OFF should appear immediately after the Chinese translation button"
 );
+const previousButtonAtStart = elementOpeningTag(activePracticeHtml, "data-previous-practice-listening");
+const replayButtonAtStart = elementOpeningTag(activePracticeHtml, "data-replay-practice-listening");
+assert.match(previousButtonAtStart, /^<button\b/, "previous sentence should use native button semantics");
+assert.match(previousButtonAtStart, /\btype="button"/, "previous sentence must not submit the answer form");
+assert.match(previousButtonAtStart, /\bdisabled\b/, "previous sentence should be disabled on the first listening unit");
+assert.match(replayButtonAtStart, /^<button\b/, "replay sentence should use native button semantics");
+assert.match(replayButtonAtStart, /\btype="button"/, "replay sentence must not submit the answer form");
+assert.doesNotMatch(replayButtonAtStart, /\bdisabled\b/, "replay should be available while the current sentence is playing");
+assert.match(activePracticeHtml, /上一句/, "the listening panel should label the previous-sentence control");
+assert.match(activePracticeHtml, /重播本句/, "the listening panel should label the replay control");
+
+harness.createdAudios[0].currentTime = firstSentenceFinalWordEnd + 0.16;
+harness.runAnimationFrames();
+assert.equal(
+  harness.createdAudios[0].paused,
+  false,
+  "playback must continue beyond the old cutoff so a sentence-final answer is fully spoken"
+);
+const audioCountAtFirstUnit = harness.createdAudios.length;
+await clickHandler({ target: clickTarget("data-previous-practice-listening"), preventDefault() {} });
+assert.equal(harness.createdAudios.length, audioCountAtFirstUnit, "previous should safely do nothing on the first unit");
+assert.equal(hooks.state().listeningUnitIndex, 0, "an invalid previous action must keep the first unit selected");
+assert.equal(harness.createdAudios[0].paused, false, "an invalid previous action must not interrupt current playback");
+assert.equal(hooks.state().listeningPlaying, true, "an invalid previous action must preserve the playing state");
 
 harness.createdAudios[0].pause();
 assert.equal(hooks.state().listeningPlaying, false, "a mid-sentence pause should update listening state");
 assert.match(hooks.state().listeningPlaybackError, /已暫停/, "a paused sentence should expose a visible recovery state");
 listeningHtml = hooks.renderRound();
-const retryButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
-assert.doesNotMatch(retryButton, /\bdisabled\b/, "touch users should be able to replay a paused sentence");
-assert.match(listeningHtml, /播放本句/, "a paused sentence should offer a replay button");
+const pausedNextButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
+const pausedReplayButton = elementOpeningTag(listeningHtml, "data-replay-practice-listening");
+assert.match(pausedNextButton, /\bdisabled\b/, "continue should remain disabled until the paused sentence finishes");
+assert.match(listeningHtml, /繼續下一句/, "the main progression control should remain dedicated to the next sentence");
+assert.doesNotMatch(pausedReplayButton, /\bdisabled\b/, "touch users should be able to replay a paused sentence");
+assert.match(listeningHtml, /重播本句/, "a paused sentence should direct learners to the dedicated replay button");
 
-await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+await clickHandler({ target: clickTarget("data-replay-practice-listening"), preventDefault() {} });
 assert.equal(harness.createdAudios.length, 2, "replaying a paused sentence should replace its audio player");
 assert.equal(harness.createdAudios[1].currentTime, segments[0].startTime);
+assert.equal(hooks.state().listeningUnitIndex, 0, "replay should keep the current listening unit");
+assert.equal(hooks.state().listeningUnitFinished, false, "replay should reset the current unit's completion state");
+assert.equal(hooks.state().listeningPlaybackError, "", "replay should clear the paused recovery message");
 harness.rejectOldestDeferredPlay();
 await Promise.resolve();
 await Promise.resolve();
@@ -594,18 +635,77 @@ assert.equal(hooks.state().answers[`${listenExercise.id}-q1`], "carefully", "con
 assert.equal(harness.createdAudios.length, 3);
 assert.equal(harness.createdAudios[2].currentTime, segments[1].startTime);
 assert.equal(harness.createdAudios[2].playbackRate, 0.5, "the selected speed should carry into the next sentence");
+const secondUnitHtml = hooks.renderRound();
+assert.doesNotMatch(
+  elementOpeningTag(secondUnitHtml, "data-previous-practice-listening"),
+  /\bdisabled\b/,
+  "previous should become available after advancing beyond the first unit"
+);
+assert.doesNotMatch(
+  elementOpeningTag(secondUnitHtml, "data-replay-practice-listening"),
+  /\bdisabled\b/,
+  "replay should remain available on later units"
+);
 
-harness.createdAudios[2].currentTime = segments[1].stopTime + 0.02;
+await clickHandler({ target: clickTarget("data-previous-practice-listening"), preventDefault() {} });
+assert.equal(harness.createdAudios[2].paused, true, "previous should stop the sentence that is currently playing");
+assert.equal(hooks.state().listeningUnitIndex, 0, "previous should return to the preceding listening unit");
+assert.equal(hooks.state().answers[`${listenExercise.id}-q1`], "carefully", "previous must preserve typed answers");
+assert.equal(harness.createdAudios.length, 4);
+assert.equal(harness.createdAudios[3].currentTime, segments[0].startTime);
+assert.equal(harness.createdAudios[3].playbackRate, 0.5, "previous should preserve the selected playback speed");
+assert.match(
+  elementOpeningTag(hooks.renderRound(), "data-previous-practice-listening"),
+  /\bdisabled\b/,
+  "previous should become disabled again after returning to the first unit"
+);
+
+harness.createdAudios[3].currentTime = segments[0].stopTime + 0.02;
+harness.runAnimationFrames();
+await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 1);
+assert.equal(harness.createdAudios[4].currentTime, segments[1].startTime);
+harness.createdAudios[4].currentTime = segments[1].stopTime + 0.02;
 harness.runAnimationFrames();
 await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
 assert.equal(hooks.state().listeningUnitIndex, 2);
-harness.createdAudios[3].currentTime = segments[2].stopTime + 0.02;
+assert.equal(harness.createdAudios[5].currentTime, segments[2].startTime);
+harness.createdAudios[5].currentTime = segments[2].stopTime + 0.02;
 harness.runAnimationFrames();
 assert.equal(hooks.state().listeningUnitFinished, true);
 listeningHtml = hooks.renderRound();
 const completedButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
 assert.match(completedButton, /\bdisabled\b/, "continue should be disabled after the final listening sentence");
 assert.match(listeningHtml, /聆聽練習已完成/, "the final control should announce completion");
+assert.doesNotMatch(
+  elementOpeningTag(listeningHtml, "data-previous-practice-listening"),
+  /\bdisabled\b/,
+  "previous should remain available after the final sentence finishes"
+);
+assert.doesNotMatch(
+  elementOpeningTag(listeningHtml, "data-replay-practice-listening"),
+  /\bdisabled\b/,
+  "replay should remain available after the final sentence finishes"
+);
+
+await clickHandler({ target: clickTarget("data-replay-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 2, "replaying the final sentence should stay on the final unit");
+assert.equal(hooks.state().listeningUnitFinished, false, "replaying the final sentence should reopen its playback state");
+assert.equal(harness.createdAudios[6].currentTime, segments[2].startTime);
+assert.equal(harness.createdAudios[6].paused, false);
+harness.createdAudios[6].ended = true;
+harness.createdAudios[6].paused = true;
+harness.createdAudios[6].onpause?.();
+assert.equal(hooks.state().listeningPlaybackError, "", "a natural media ending must not announce a false pause error");
+harness.createdAudios[6].onended?.();
+assert.equal(hooks.state().listeningUnitFinished, true, "the replayed final sentence should complete normally");
+listeningHtml = hooks.renderRound();
+assert.match(
+  elementOpeningTag(listeningHtml, "data-next-practice-listening"),
+  /\bdisabled\b/,
+  "the next button should return to its completed state after replaying the final sentence"
+);
+assert.match(listeningHtml, /聆聽練習已完成/, "the completed status should return after final-sentence replay");
 
 await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
 assert.equal(hooks.state().listeningEnabled, false, "students should be able to turn listening mode back OFF");
@@ -644,6 +744,18 @@ hooks.exerciseIds().forEach(exerciseId => {
     }
     if (exerciseSegments.some(segment => !Number.isFinite(segment.startTime) || !Number.isFinite(segment.stopTime) || segment.stopTime <= segment.startTime)) {
       listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has an invalid playback range`);
+    }
+    if (exerciseSegments.some(segment => {
+      const manifestEntry = fullAudioManifest[exerciseId];
+      const finalWordEnd = Number(manifestEntry?.words?.[segment.endWordIndex]?.[2]);
+      const isFinalAudioWord = segment.endWordIndex === manifestEntry.words.length - 1;
+      const nextWordStart = Number(manifestEntry?.words?.[segment.endWordIndex + 1]?.[1]);
+      const expectedStopTime = isFinalAudioWord
+        ? Number(manifestEntry.duration)
+        : Math.max(finalWordEnd, Math.min(finalWordEnd + 0.35, nextWordStart - 0.18));
+      return Math.abs(segment.stopTime - expectedStopTime) > 0.001;
+    })) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} violates the protected sentence-ending boundary`);
     }
     if (exerciseSegments.some((segment, index) => index > 0 && segment.startTime <= exerciseSegments[index - 1].startTime)) {
       listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has out-of-order playback ranges`);

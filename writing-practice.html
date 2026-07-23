@@ -2356,7 +2356,8 @@
     }
 
     .practice-listening-toggle:disabled,
-    .practice-listening-next:disabled {
+    .practice-listening-next:disabled,
+    .practice-listening-nav:disabled {
       cursor: not-allowed;
       opacity: 0.54;
       transform: none;
@@ -2412,6 +2413,23 @@
 
     .practice-listening-status[data-tone="error"] {
       color: #b91c1c;
+    }
+
+    .practice-listening-navigation {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+
+    .practice-listening-nav {
+      min-height: 36px;
+      padding: 8px 12px;
+      border-color: rgba(5,150,105,0.24);
+      background: rgba(255,255,255,0.88);
+      color: #166534;
+      box-shadow: 0 7px 16px rgba(5,150,105,0.09);
     }
 
     .practice-listening-panel .essay-rate-selector {
@@ -2766,6 +2784,12 @@
       .practice-listening-panel .essay-rate-selector {
         width: 100%;
         grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .practice-listening-navigation {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 100%;
       }
 
       .mini-button,
@@ -5904,28 +5928,34 @@ Device: concession 讓步
       const segments = practiceListeningSegments(exercise);
       const index = Math.min(Math.max(0, Number(practiceState.listeningUnitIndex) || 0), Math.max(0, segments.length - 1));
       const finalFinished = Boolean(segments.length && practiceState.listeningUnitFinished && index >= segments.length - 1);
-      const retry = Boolean(practiceState.listeningPlaybackError && !practiceState.listeningUnitFinished);
       const disabled = practiceState.submitted
         || practiceState.listeningPlaying
-        || (!practiceState.listeningUnitFinished && !retry)
+        || !practiceState.listeningUnitFinished
         || finalFinished
         || !segments.length;
       const label = finalFinished
         ? "聆聽練習已完成"
-        : retry
-          ? "播放本句"
-          : "繼續下一句";
+        : "繼續下一句";
       return `<button class="secondary-button practice-listening-next" type="button" data-next-practice-listening ${disabled ? "disabled" : ""}>${label}</button>`;
     }
 
     function renderPracticeListeningPanel(exercise) {
       if (!practiceState?.listeningEnabled) return "";
       const status = practiceListeningStatus(exercise);
+      const segments = practiceListeningSegments(exercise);
+      const index = Math.min(Math.max(0, Number(practiceState.listeningUnitIndex) || 0), Math.max(0, segments.length - 1));
+      const navigationDisabled = Boolean(practiceState.submitted || !segments.length);
       return `
         <section class="practice-listening-panel" aria-label="聆聽練習播放速度">
           <div class="practice-listening-copy">
             <strong>逐句聆聽 · 播放速度</strong>
             <span class="practice-listening-status" data-practice-listening-status data-tone="${escapeHtml(status.tone)}" aria-live="polite">${escapeHtml(status.text)}</span>
+            ${practiceState.screen === "practice" ? `
+              <div class="practice-listening-navigation" role="group" aria-label="逐句聆聽控制">
+                <button class="secondary-button practice-listening-nav" type="button" data-previous-practice-listening aria-label="返回上一句" ${navigationDisabled || index <= 0 ? "disabled" : ""}>← 上一句</button>
+                <button class="secondary-button practice-listening-nav" type="button" data-replay-practice-listening aria-label="重播目前句子" ${navigationDisabled ? "disabled" : ""}>↻ 重播本句</button>
+              </div>
+            ` : ""}
           </div>
           <div class="essay-rate-selector" role="group" aria-label="聆聽練習播放速度">
             ${ESSAY_AUDIO_RATES.map(rate => `
@@ -7335,10 +7365,10 @@ Device: concession 讓步
         if (!Array.isArray(firstWord) || !Array.isArray(lastWord)) return null;
         const rawEndTime = Number(lastWord[2]);
         const nextWordStart = Number(timingWords[endWordIndex + 1]?.[1]);
-        const paddedEnd = rawEndTime + 0.15;
+        const paddedEnd = rawEndTime + 0.35;
         const stopTime = Number.isFinite(nextWordStart)
-          ? Math.max(rawEndTime, Math.min(paddedEnd, nextWordStart - 0.12))
-          : Math.min(Number(entry.duration) || paddedEnd, paddedEnd);
+          ? Math.max(rawEndTime, Math.min(paddedEnd, nextWordStart - 0.18))
+          : Math.max(rawEndTime, Number(entry.duration) || paddedEnd);
         return {
           startWordIndex,
           endWordIndex,
@@ -7704,11 +7734,9 @@ Device: concession 讓步
           activeEssayBoundaryFrame = 0;
           return;
         }
-        if (audio.currentTime >= activeEssayStopTime - 0.012) {
-          const stopTime = activeEssayStopTime;
+        if (audio.currentTime >= activeEssayStopTime) {
           const onSegmentEnd = activeEssaySegmentEnd;
           clearEssayAudioBoundary();
-          if (audio.currentTime > stopTime) audio.currentTime = stopTime;
           audio.pause();
           if (typeof onSegmentEnd === "function") onSegmentEnd();
           return;
@@ -7788,7 +7816,7 @@ Device: concession 讓步
         stopEssayHighlightLoop();
         pauseEssayAudioBoundaryLoop();
         syncEssayAudioButton();
-        if (activeEssayAudioContext === "listening") syncPracticeListeningPlaybackState(false);
+        if (activeEssayAudioContext === "listening" && !audio.ended) syncPracticeListeningPlaybackState(false);
       };
       audio.onended = () => {
         const onSegmentEnd = activeEssaySegmentEnd;
@@ -7886,25 +7914,27 @@ Device: concession 讓步
         statusNode.setAttribute("data-tone", status.tone);
       }
 
+      const segments = practiceListeningSegments(exercise);
+      const index = Math.min(Math.max(0, Number(practiceState.listeningUnitIndex) || 0), Math.max(0, segments.length - 1));
       const nextButton = document.querySelector("[data-next-practice-listening]");
       if (nextButton) {
-        const segments = practiceListeningSegments(exercise);
-        const index = Math.min(Math.max(0, Number(practiceState.listeningUnitIndex) || 0), Math.max(0, segments.length - 1));
         const finalFinished = Boolean(segments.length && practiceState.listeningUnitFinished && index >= segments.length - 1);
-        const retry = Boolean(practiceState.listeningPlaybackError && !practiceState.listeningUnitFinished);
         nextButton.textContent = finalFinished
           ? "聆聽練習已完成"
-          : retry
-            ? "播放本句"
-            : "繼續下一句";
+          : "繼續下一句";
         nextButton.disabled = Boolean(
           practiceState.submitted
           || practiceState.listeningPlaying
-          || (!practiceState.listeningUnitFinished && !retry)
+          || !practiceState.listeningUnitFinished
           || finalFinished
           || !segments.length
         );
       }
+      const navigationDisabled = Boolean(practiceState.submitted || !segments.length);
+      const previousButton = document.querySelector("[data-previous-practice-listening]");
+      if (previousButton) previousButton.disabled = navigationDisabled || index <= 0;
+      const replayButton = document.querySelector("[data-replay-practice-listening]");
+      if (replayButton) replayButton.disabled = navigationDisabled;
       syncEssayAudioRateButtons();
     }
 
@@ -7914,7 +7944,7 @@ Device: concession 讓步
       if (playing) {
         practiceState.listeningPlaybackError = "";
       } else if (Number.isFinite(activeEssayStopTime) && !practiceState.listeningUnitFinished) {
-        practiceState.listeningPlaybackError = "錄音已暫停，請按「播放本句」重新播放。";
+        practiceState.listeningPlaybackError = "錄音已暫停，請按「重播本句」重新播放。";
       }
       syncPracticeListeningUi();
     }
@@ -7943,7 +7973,7 @@ Device: concession 讓步
       focusPracticeListeningAnswers(segments[unitIndex]);
     }
 
-    function failPracticeListeningPlayback(message = "錄音未能自動播放，請按「播放本句」再試。") {
+    function failPracticeListeningPlayback(message = "錄音未能自動播放，請按「重播本句」再試。") {
       if (!practiceState?.listeningEnabled) return;
       practiceState.listeningPlaying = false;
       practiceState.listeningUnitFinished = false;
@@ -8010,12 +8040,45 @@ Device: concession 讓步
         Math.max(0, Number(practiceState.listeningUnitIndex) || 0),
         Math.max(0, segments.length - 1)
       );
-      if (practiceState.listeningPlaybackError && !practiceState.listeningUnitFinished) {
-        playPracticeListeningUnit(currentIndex);
-        return;
-      }
       if (!practiceState.listeningUnitFinished || currentIndex >= segments.length - 1) return;
       playPracticeListeningUnit(currentIndex + 1);
+    }
+
+    function replayPracticeListening() {
+      const exercise = currentExercise();
+      if (
+        !exercise
+        || !practiceState?.listeningEnabled
+        || practiceState.screen !== "practice"
+        || practiceState.submitted
+      ) return;
+      syncPracticeAnswersFromDom();
+      const segments = practiceListeningSegments(exercise);
+      if (!segments.length) return;
+      const currentIndex = Math.min(
+        Math.max(0, Number(practiceState.listeningUnitIndex) || 0),
+        segments.length - 1
+      );
+      playPracticeListeningUnit(currentIndex);
+    }
+
+    function previousPracticeListening() {
+      const exercise = currentExercise();
+      if (
+        !exercise
+        || !practiceState?.listeningEnabled
+        || practiceState.screen !== "practice"
+        || practiceState.submitted
+      ) return;
+      syncPracticeAnswersFromDom();
+      const segments = practiceListeningSegments(exercise);
+      if (!segments.length) return;
+      const currentIndex = Math.min(
+        Math.max(0, Number(practiceState.listeningUnitIndex) || 0),
+        segments.length - 1
+      );
+      if (currentIndex <= 0) return;
+      playPracticeListeningUnit(currentIndex - 1);
     }
 
     function togglePracticeListeningPlayback() {
@@ -8054,7 +8117,7 @@ Device: concession 讓步
       if (!interruptedListening || !practiceState) return;
       practiceState.listeningPlaying = false;
       practiceState.listeningUnitFinished = false;
-      practiceState.listeningPlaybackError = "錄音已暫停，請按「播放本句」繼續。";
+      practiceState.listeningPlaybackError = "錄音已暫停，請按「重播本句」繼續。";
       syncPracticeListeningUi();
     }
 
@@ -10087,6 +10150,16 @@ Device: concession 讓步
 
         if (event.target.closest("[data-next-practice-listening]")) {
           continuePracticeListening();
+          return;
+        }
+
+        if (event.target.closest("[data-previous-practice-listening]")) {
+          previousPracticeListening();
+          return;
+        }
+
+        if (event.target.closest("[data-replay-practice-listening]")) {
+          replayPracticeListening();
           return;
         }
 
