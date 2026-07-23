@@ -1,0 +1,1222 @@
+{
+  "id": "ss42",
+  "order": 42,
+  "slug": "every-singular-noun",
+  "title": "「Every + 單數名詞」句型",
+  "titleZh": "「Every + 單數名詞」表達每一位或每一項",
+  "titleEn": "Using every + singular noun for all members of a group",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 42 - 「Every 句：every + 單數名詞」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": []
+  },
+  "formula": "Every + singular countable noun + singular verb + other information",
+  "formulas": [
+    {
+      "id": "ss42-formula-subject",
+      "labelEn": "Every-phrase as subject",
+      "labelZh": "Every 片語作主語",
+      "formula": "Every + singular countable noun + singular verb + other information"
+    },
+    {
+      "id": "ss42-formula-object",
+      "labelEn": "Every-phrase as object or complement",
+      "labelZh": "Every 片語作受詞或其他成分",
+      "formula": "Subject + verb + every + singular countable noun + other information"
+    },
+    {
+      "id": "ss42-formula-partial-negative",
+      "labelEn": "Partial negative",
+      "labelZh": "部分否定",
+      "formula": "Not every + singular countable noun + singular verb + other information"
+    }
+  ],
+  "example": "Personal habits may not fit every society.",
+  "exampleZh": "個人的習慣未必適合每一個社會。",
+  "examples": [
+    {
+      "id": "ss42-example-01",
+      "en": "Personal habits may not fit every society.",
+      "zh": "個人的習慣未必適合每一個社會。",
+      "highlight": "every society"
+    }
+  ],
+  "meaning": {
+    "zh": "Every 表示一個群體中的每一個成員，名詞和作主語時的動詞均使用單數形式。"
+  },
+  "rules": [
+    {
+      "id": "ss42-rule-01",
+      "en": "Use a singular countable noun after every.",
+      "zh": "Every 後面使用單數可數名詞。",
+      "examples": [
+        "every student",
+        "every book"
+      ]
+    },
+    {
+      "id": "ss42-rule-02",
+      "en": "Use a singular verb when an every-phrase is the subject.",
+      "zh": "Every 片語作主語時，使用單數動詞。",
+      "examples": [
+        "Every student needs a pencil."
+      ]
+    },
+    {
+      "id": "ss42-rule-03",
+      "en": "Every can appear in different sentence positions.",
+      "zh": "Every 可以作主語、受詞，亦可用於時間和地點表達。",
+      "examples": [
+        "Every room has a window.",
+        "Mia checked every page.",
+        "every day"
+      ]
+    },
+    {
+      "id": "ss42-rule-04",
+      "en": "Not every means not all.",
+      "zh": "Not every 表示「並非全部」，而不是全部都不。",
+      "examples": [
+        "Not every student agreed."
+      ]
+    },
+    {
+      "id": "ss42-rule-05",
+      "en": "Do not use every directly with an uncountable noun.",
+      "zh": "Every 不可直接配合不可數名詞。",
+      "examples": [
+        "every piece of information"
+      ]
+    },
+    {
+      "id": "ss42-rule-06",
+      "en": "Every day and everyday have different meanings.",
+      "zh": "Every day 表示每天；everyday 是形容詞，表示日常的。",
+      "examples": [
+        "I read every day.",
+        "This is an everyday problem."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss42-benefit-01",
+      "en": "It clearly includes all members of a group.",
+      "zh": "它能清楚表示一組之中的所有成員。"
+    },
+    {
+      "id": "ss42-benefit-02",
+      "en": "It is useful for rules and general statements.",
+      "zh": "它適合表達適用於所有人的規則和普遍情況。"
+    },
+    {
+      "id": "ss42-benefit-03",
+      "en": "It highlights that nobody or nothing is omitted.",
+      "zh": "它能突顯每一位或每一項都包括在內。"
+    },
+    {
+      "id": "ss42-benefit-04",
+      "en": "It works naturally with time and place expressions.",
+      "zh": "它可自然用於每一天、每一頁、每一層等時間和地點表達。"
+    },
+    {
+      "id": "ss42-benefit-05",
+      "en": "Not every allows accurate partial negatives.",
+      "zh": "Not every 能準確表達「並非全部」。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using every + singular countable noun or not every where appropriate.",
+      "Preserve the original meaning and use a singular verb when the every-phrase is the subject.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 every＋單數可數名詞或在適當情況使用 not every 改寫以下句子。",
+      "答案須保留原句意思；every 片語作主語時須使用單數動詞。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss42-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All students need a pencil for this activity.",
+      "promptZh": "所有學生進行這項活動時都需要一枝鉛筆。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every student needs a pencil for this activity.",
+      "answerZh": "每名學生進行這項活動時都需要一枝鉛筆。",
+      "answerZhSource": "pdf",
+      "highlight": "Every student needs a pencil for this activity."
+    },
+    {
+      "id": "ss42-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All rooms in the flat have a window.",
+      "promptZh": "單位內所有房間都有一扇窗。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every room in the flat has a window.",
+      "answerZh": "單位內每個房間都有一扇窗。",
+      "answerZhSource": "pdf",
+      "highlight": "Every room in the flat has a window."
+    },
+    {
+      "id": "ss42-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia checked all the pages before submitting her work.",
+      "promptZh": "米婭提交功課前檢查了所有頁面。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia checked every page before submitting her work.",
+      "answerZh": "米婭提交功課前檢查了每一頁。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia checked every page before submitting her work."
+    },
+    {
+      "id": "ss42-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All buses on this route stop near the station.",
+      "promptZh": "這條路線的所有巴士都會在車站附近停下。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every bus on this route stops near the station.",
+      "answerZh": "這條路線的每輛巴士都會在車站附近停下。",
+      "answerZhSource": "pdf",
+      "highlight": "Every bus on this route stops near the station."
+    },
+    {
+      "id": "ss42-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We visit our grandmother each Sunday.",
+      "promptZh": "我們每逢星期日都會探望祖母。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We visit our grandmother every Sunday.",
+      "answerZh": "我們每個星期日都會探望祖母。",
+      "answerZhSource": "pdf",
+      "highlight": "We visit our grandmother every Sunday."
+    },
+    {
+      "id": "ss42-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All children need enough sleep.",
+      "promptZh": "所有兒童都需要充足睡眠。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every child needs enough sleep.",
+      "answerZh": "每名兒童都需要充足睡眠。",
+      "answerZhSource": "pdf",
+      "highlight": "Every child needs enough sleep."
+    },
+    {
+      "id": "ss42-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop opens on each weekday.",
+      "promptZh": "這間店在每個平日都會營業。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop opens every weekday.",
+      "answerZh": "這間店每個平日都會營業。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop opens every weekday."
+    },
+    {
+      "id": "ss42-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Each player wore a blue shirt.",
+      "promptZh": "每名球員都穿了一件藍色上衣。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every player wore a blue shirt.",
+      "answerZh": "每名球員都穿了一件藍色上衣。",
+      "answerZhSource": "pdf",
+      "highlight": "Every player wore a blue shirt."
+    },
+    {
+      "id": "ss42-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I read all the messages before replying.",
+      "promptZh": "我回覆前閱讀了所有訊息。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I read every message before replying.",
+      "answerZh": "我回覆前閱讀了每則訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "I read every message before replying."
+    },
+    {
+      "id": "ss42-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All houses on this street have a red door.",
+      "promptZh": "這條街上的所有房屋都有一扇紅色大門。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every house on this street has a red door.",
+      "answerZh": "這條街上的每間房屋都有一扇紅色大門。",
+      "answerZhSource": "pdf",
+      "highlight": "Every house on this street has a red door."
+    },
+    {
+      "id": "ss42-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All club members received the email.",
+      "promptZh": "所有學會成員都收到了電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every club member received the email.",
+      "answerZh": "每名學會成員都收到了電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Every club member received the email."
+    },
+    {
+      "id": "ss42-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah called each customer before lunch.",
+      "promptZh": "莎拉在午餐前致電了每名顧客。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah called every customer before lunch.",
+      "answerZh": "莎拉在午餐前致電了每名顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah called every customer before lunch."
+    },
+    {
+      "id": "ss42-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The rule applies to all employees.",
+      "promptZh": "這項規則適用於所有僱員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rule applies to every employee.",
+      "answerZh": "這項規則適用於每名僱員。",
+      "answerZhSource": "pdf",
+      "highlight": "The rule applies to every employee."
+    },
+    {
+      "id": "ss42-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All doors must remain closed during the test.",
+      "promptZh": "測試期間，所有門都必須保持關閉。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every door must remain closed during the test.",
+      "answerZh": "測試期間，每扇門都必須保持關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "Every door must remain closed during the test."
+    },
+    {
+      "id": "ss42-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse checked all the patients in the waiting area.",
+      "promptZh": "護士檢查了候診區內所有病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse checked every patient in the waiting area.",
+      "answerZh": "護士檢查了候診區內每名病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse checked every patient in the waiting area."
+    },
+    {
+      "id": "ss42-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The library opens on each day except Sunday.",
+      "promptZh": "圖書館除星期日外，每天都會開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library opens every day except Sunday.",
+      "answerZh": "圖書館除星期日外，每天都會開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The library opens every day except Sunday."
+    },
+    {
+      "id": "ss42-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "All machines are tested before use.",
+      "promptZh": "所有機器在使用前都會接受測試。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every machine is tested before use.",
+      "answerZh": "每部機器在使用前都會接受測試。",
+      "answerZhSource": "pdf",
+      "highlight": "Every machine is tested before use."
+    },
+    {
+      "id": "ss42-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Each answer should be written clearly.",
+      "promptZh": "每個答案都應該清楚寫出。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every answer should be written clearly.",
+      "answerZh": "每個答案都應該清楚寫出。",
+      "answerZhSource": "pdf",
+      "highlight": "Every answer should be written clearly."
+    },
+    {
+      "id": "ss42-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum has a map on all floors.",
+      "promptZh": "博物館每層樓都有一張地圖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum has a map on every floor.",
+      "answerZh": "博物館每層樓都有一張地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has a map on every floor."
+    },
+    {
+      "id": "ss42-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We clean the table after each meal.",
+      "promptZh": "我們每餐後都會清潔桌子。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We clean the table after every meal.",
+      "answerZh": "我們每餐後都會清潔桌子。",
+      "answerZhSource": "pdf",
+      "highlight": "We clean the table after every meal."
+    },
+    {
+      "id": "ss42-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Not all students enjoy group work.",
+      "promptZh": "並非所有學生都喜歡小組活動。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not every student enjoys group work.",
+      "answerZh": "並非每名學生都喜歡小組活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Not every student enjoys group work."
+    },
+    {
+      "id": "ss42-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Personal customs may not suit all communities.",
+      "promptZh": "個人習俗未必適合所有社群。",
+      "promptZhSource": "pdf",
+      "starter": "Personal",
+      "answer": "Personal customs may not suit every community.",
+      "answerZh": "個人習俗未必適合每一個社群。",
+      "answerZhSource": "pdf",
+      "highlight": "Personal customs may not suit every community."
+    },
+    {
+      "id": "ss42-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Not all books are easy to understand.",
+      "promptZh": "並非所有書籍都容易理解。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not every book is easy to understand.",
+      "answerZh": "並非每本書都容易理解。",
+      "answerZhSource": "pdf",
+      "highlight": "Not every book is easy to understand."
+    },
+    {
+      "id": "ss42-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The plan will not work in all situations.",
+      "promptZh": "這個計劃並非在所有情況下都有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan will not work in every situation.",
+      "answerZh": "這個計劃並非在每一種情況下都有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan will not work in every situation."
+    },
+    {
+      "id": "ss42-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Not all customers need the same service.",
+      "promptZh": "並非所有顧客都需要相同的服務。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not every customer needs the same service.",
+      "answerZh": "並非每名顧客都需要相同的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Not every customer needs the same service."
+    },
+    {
+      "id": "ss42-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "All visitors are required to show identification.",
+      "promptZh": "所有訪客都必須出示身分證明文件。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every visitor is required to show identification.",
+      "answerZh": "每名訪客都必須出示身分證明文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Every visitor is required to show identification."
+    },
+    {
+      "id": "ss42-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The teacher gave comments on all the reports.",
+      "promptZh": "老師在所有報告上都寫了評語。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher gave comments on every report.",
+      "answerZh": "老師在每份報告上都寫了評語。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher gave comments on every report."
+    },
+    {
+      "id": "ss42-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There is a safety notice beside each lift.",
+      "promptZh": "每部升降機旁邊都有一張安全告示。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is a safety notice beside every lift.",
+      "answerZh": "每部升降機旁邊都有一張安全告示。",
+      "answerZhSource": "pdf",
+      "highlight": "There is a safety notice beside every lift."
+    },
+    {
+      "id": "ss42-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "All pieces of equipment must be returned after the lesson.",
+      "promptZh": "所有設備都必須在課堂後歸還。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every piece of equipment must be returned after the lesson.",
+      "answerZh": "每件設備都必須在課堂後歸還。",
+      "answerZhSource": "pdf",
+      "highlight": "Every piece of equipment must be returned after the lesson."
+    },
+    {
+      "id": "ss42-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We check our spending at the end of each week.",
+      "promptZh": "我們在每星期結束時都會檢查開支。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We check our spending at the end of every week.",
+      "answerZh": "我們在每星期結束時都會檢查開支。",
+      "answerZhSource": "pdf",
+      "highlight": "We check our spending at the end of every week."
+    },
+    {
+      "id": "ss42-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All applications are reviewed by two staff members.",
+      "promptZh": "所有申請都由兩名職員審核。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every application is reviewed by two staff members.",
+      "answerZh": "每份申請都由兩名職員審核。",
+      "answerZhSource": "pdf",
+      "highlight": "Every application is reviewed by two staff members."
+    },
+    {
+      "id": "ss42-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The app sends an alert after each failed login.",
+      "promptZh": "每次登入失敗後，這個應用程式都會發出提示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app sends an alert after every failed login.",
+      "answerZh": "每次登入失敗後，這個應用程式都會發出提示。",
+      "answerZhSource": "pdf",
+      "highlight": "The app sends an alert after every failed login."
+    },
+    {
+      "id": "ss42-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All residents can use the community hall.",
+      "promptZh": "所有居民都可以使用社區會堂。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every resident can use the community hall.",
+      "answerZh": "每名居民都可以使用社區會堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Every resident can use the community hall."
+    },
+    {
+      "id": "ss42-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager spoke to all team members separately.",
+      "promptZh": "經理分別與所有團隊成員交談。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager spoke to every team member separately.",
+      "answerZh": "經理分別與每名團隊成員交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager spoke to every team member separately."
+    },
+    {
+      "id": "ss42-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All tickets include a seat number.",
+      "promptZh": "所有門票都附有座位編號。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every ticket includes a seat number.",
+      "answerZh": "每張門票都附有座位編號。",
+      "answerZhSource": "pdf",
+      "highlight": "Every ticket includes a seat number."
+    },
+    {
+      "id": "ss42-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Not all online reviews are reliable.",
+      "promptZh": "並非所有網上評論都可靠。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not every online review is reliable.",
+      "answerZh": "並非每則網上評論都可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Not every online review is reliable."
+    },
+    {
+      "id": "ss42-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school checks the fire alarm in all buildings.",
+      "promptZh": "學校會檢查所有建築物內的火警鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school checks the fire alarm in every building.",
+      "answerZh": "學校會檢查每座建築物內的火警鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The school checks the fire alarm in every building."
+    },
+    {
+      "id": "ss42-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "Whenever the bell rings, the doors close automatically.",
+      "promptZh": "每逢鐘聲響起，門便會自動關上。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every time the bell rings, the doors close automatically.",
+      "answerZh": "每次鐘聲響起，門便會自動關上。",
+      "answerZhSource": "pdf",
+      "highlight": "Every time the bell rings, the doors close automatically."
+    },
+    {
+      "id": "ss42-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The doctor records the result of each test.",
+      "promptZh": "醫生會記錄每項測試的結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor records the result of every test.",
+      "answerZh": "醫生會記錄每項測試的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor records the result of every test."
+    },
+    {
+      "id": "ss42-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The organiser prepared a name card for all guests.",
+      "promptZh": "主辦人為所有賓客準備了名牌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser prepared a name card for every guest.",
+      "answerZh": "主辦人為每名賓客準備了名牌。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser prepared a name card for every guest."
+    },
+    {
+      "id": "ss42-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "All new employees attend the safety session before starting work.",
+      "promptZh": "所有新僱員都會在開始工作前參加安全講座。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every new employee attends the safety session before starting work.",
+      "answerZh": "每名新僱員都會在開始工作前參加安全講座。",
+      "answerZhSource": "pdf",
+      "highlight": "Every new employee attends the safety session before starting work."
+    },
+    {
+      "id": "ss42-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The system saves a copy after each change to a document.",
+      "promptZh": "文件每次被修改後，系統都會儲存一份副本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The system saves a copy after every change to a document.",
+      "answerZh": "文件每次被修改後，系統都會儲存一份副本。",
+      "answerZhSource": "pdf",
+      "highlight": "The system saves a copy after every change to a document."
+    },
+    {
+      "id": "ss42-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Last month, the council inspected all playgrounds in the district.",
+      "promptZh": "上個月，區議會檢查了區內所有遊樂場。",
+      "promptZhSource": "pdf",
+      "starter": "Last",
+      "answer": "Last month, the council inspected every playground in the district.",
+      "answerZh": "上個月，區議會檢查了區內每個遊樂場。",
+      "answerZhSource": "pdf",
+      "highlight": "Last month, the council inspected every playground in the district."
+    },
+    {
+      "id": "ss42-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The list included all the names, so nobody was left out.",
+      "promptZh": "名單包括所有人的名字，因此沒有人被遺漏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The list included every name, so nobody was left out.",
+      "answerZh": "名單包括每一個名字，因此沒有人被遺漏。",
+      "answerZhSource": "pdf",
+      "highlight": "The list included every name, so nobody was left out."
+    },
+    {
+      "id": "ss42-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Some decisions cannot satisfy the whole group.",
+      "promptZh": "有些決定無法令整個團隊滿意。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not every decision can satisfy the whole group.",
+      "answerZh": "並非每個決定都能令整個團隊滿意。",
+      "answerZhSource": "pdf",
+      "highlight": "Not every decision can satisfy the whole group."
+    },
+    {
+      "id": "ss42-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "All bottles of medicine should be kept out of children’s reach.",
+      "promptZh": "所有藥物瓶都應該放在兒童無法觸及的地方。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every bottle of medicine should be kept out of children’s reach.",
+      "answerZh": "每個藥物瓶都應該放在兒童無法觸及的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Every bottle of medicine should be kept out of children’s reach."
+    },
+    {
+      "id": "ss42-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The company records all customer complaints, including small ones.",
+      "promptZh": "公司會記錄所有顧客投訴，包括較輕微的投訴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company records every customer complaint, including small ones.",
+      "answerZh": "公司會記錄每宗顧客投訴，包括較輕微的投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The company records every customer complaint, including small ones."
+    },
+    {
+      "id": "ss42-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The hospital has an emergency plan for all departments.",
+      "promptZh": "醫院為所有部門制定了緊急應變計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital has an emergency plan for every department.",
+      "answerZh": "醫院為每個部門制定了緊急應變計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has an emergency plan for every department."
+    },
+    {
+      "id": "ss42-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "All steps in the process must be completed in the correct order.",
+      "promptZh": "流程中的所有步驟都必須按照正確次序完成。",
+      "promptZhSource": "pdf",
+      "starter": "Every",
+      "answer": "Every step in the process must be completed in the correct order.",
+      "answerZh": "流程中的每個步驟都必須按照正確次序完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Every step in the process must be completed in the correct order."
+    },
+    {
+      "id": "ss42-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Although the tasks are different, all stages of the project require careful attention.",
+      "promptZh": "雖然各項工作有所不同，但項目的所有階段都需要仔細處理。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the tasks are different, every stage of the project requires careful attention.",
+      "answerZh": "雖然各項工作有所不同，但項目的每個階段都需要仔細處理。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the tasks are different, every stage of the project requires careful attention."
+    }
+  ]
+}

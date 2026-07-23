@@ -1,0 +1,1215 @@
+{
+  "id": "ss44",
+  "order": 44,
+  "slug": "each-other-one-another",
+  "title": "「Each other / One another」句型",
+  "titleZh": "「Each other / One another」表達「互相／彼此」",
+  "titleEn": "Using each other and one another for reciprocal actions",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 44 -「Each other _ One another」表達「互相／彼此」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Plural subject + verb + each other / one another",
+  "formulas": [
+    {
+      "id": "ss44-formula-core",
+      "labelEn": "General form",
+      "labelZh": "一般形式",
+      "formula": "Plural subject + verb + each other / one another"
+    },
+    {
+      "id": "ss44-formula-preposition",
+      "labelEn": "With a preposition",
+      "labelZh": "介詞形式",
+      "formula": "Plural subject + verb + preposition + each other / one another"
+    },
+    {
+      "id": "ss44-formula-possessive",
+      "labelEn": "Possessive form",
+      "labelZh": "所有格形式",
+      "formula": "Plural subject + verb + each other’s / one another’s + noun"
+    }
+  ],
+  "example": "In strong teams, people challenge each other without trying to humiliate one another.",
+  "exampleZh": "在強大的團隊中，人們會互相挑戰，但不會彼此羞辱。",
+  "examples": [
+    {
+      "id": "ss44-example-01",
+      "en": "In strong teams, people challenge each other without trying to humiliate one another.",
+      "zh": "在強大的團隊中，人們會互相挑戰，但不會彼此羞辱。",
+      "highlight": "challenge each other without trying to humiliate one another"
+    }
+  ],
+  "meaning": {
+    "zh": "Each other 和 one another 表示兩個或以上的人或事物彼此進行相同或相似的行為。"
+  },
+  "rules": [
+    {
+      "id": "ss44-rule-01",
+      "en": "Use these expressions for reciprocal actions.",
+      "zh": "Each other 和 one another 表達雙向或多向行為。",
+      "examples": [
+        "Mia and Leo helped each other."
+      ]
+    },
+    {
+      "id": "ss44-rule-02",
+      "en": "Each other and one another are usually interchangeable.",
+      "zh": "現代英語中 each other 與 one another 通常可以互換。",
+      "examples": []
+    },
+    {
+      "id": "ss44-rule-03",
+      "en": "Keep any preposition required by the verb.",
+      "zh": "加入 each other 或 one another 時，必須保留動詞所需的介詞。",
+      "examples": [
+        "talk to each other",
+        "learn from one another"
+      ]
+    },
+    {
+      "id": "ss44-rule-04",
+      "en": "Add ’s before a following noun in the possessive form.",
+      "zh": "表示「對方的」或「彼此的」時，所有格要加 ’s。",
+      "examples": [
+        "each other’s ideas",
+        "one another’s work"
+      ]
+    },
+    {
+      "id": "ss44-rule-05",
+      "en": "Each other is different from themselves.",
+      "zh": "Each other 表示彼此；themselves 表示各自幫助自己。",
+      "examples": [
+        "They helped each other.",
+        "They helped themselves."
+      ]
+    },
+    {
+      "id": "ss44-rule-06",
+      "en": "These expressions do not normally serve as the sentence subject.",
+      "zh": "Each other 和 one another 通常不作句子的主語。",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss44-benefit-01",
+      "en": "It clearly shows that the action is mutual.",
+      "zh": "它能清楚表達雙方或多方都有進行該行為。"
+    },
+    {
+      "id": "ss44-benefit-02",
+      "en": "It shortens repeated two-way statements.",
+      "zh": "它能把兩個方向重複說明的句子縮短。"
+    },
+    {
+      "id": "ss44-benefit-03",
+      "en": "It avoids repeating names and pronouns.",
+      "zh": "它可避免反覆重複人物名稱和代名詞。"
+    },
+    {
+      "id": "ss44-benefit-04",
+      "en": "It is useful for relationships, teamwork and communication.",
+      "zh": "它適合描述關係、合作和溝通。"
+    },
+    {
+      "id": "ss44-benefit-05",
+      "en": "Its possessive form expresses the other person’s things clearly.",
+      "zh": "所有格形式能簡潔表達「對方的東西」。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using each other or one another. Use each other’s or one another’s where possession is required.",
+      "Preserve any necessary preposition and the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 each other 或 one another 改寫以下句子；需要表示所有關係時，使用 each other’s 或 one another’s。",
+      "保留必要的介詞和原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss44-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia helped Leo, and Leo helped Mia.",
+      "promptZh": "米婭幫助里奧，而里奧也幫助米婭。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia and Leo helped each other.",
+      "answerZh": "米婭和里奧互相幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia and Leo helped each other."
+    },
+    {
+      "id": "ss44-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben smiled at Ava, and Ava smiled at Ben.",
+      "promptZh": "本向艾娃微笑，而艾娃也向本微笑。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben and Ava smiled at each other.",
+      "answerZh": "本和艾娃互相微笑。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben and Ava smiled at each other."
+    },
+    {
+      "id": "ss44-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Each twin hugged the other.",
+      "promptZh": "雙胞胎中的每一人都擁抱對方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The twins hugged each other.",
+      "answerZh": "這對雙胞胎互相擁抱。",
+      "answerZhSource": "pdf",
+      "highlight": "The twins hugged each other."
+    },
+    {
+      "id": "ss44-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I listen to Sara, and Sara listens to me.",
+      "promptZh": "我聆聽莎拉，而莎拉也聆聽我。",
+      "promptZhSource": "pdf",
+      "starter": "Sara",
+      "answer": "Sara and I listen to each other.",
+      "answerZh": "莎拉和我互相聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara and I listen to each other."
+    },
+    {
+      "id": "ss44-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The first dog chased the second dog, and the second chased the first.",
+      "promptZh": "第一隻狗追逐第二隻狗，而第二隻狗也追逐第一隻狗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two dogs chased each other.",
+      "answerZh": "兩隻狗互相追逐。",
+      "answerZhSource": "pdf",
+      "highlight": "The two dogs chased each other."
+    },
+    {
+      "id": "ss44-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We share notes with our classmates, and they share notes with us.",
+      "promptZh": "我們與同學分享筆記，而他們也與我們分享筆記。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We all share notes with one another.",
+      "answerZh": "我們大家互相分享筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "We all share notes with one another."
+    },
+    {
+      "id": "ss44-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Anna thanked Ravi, and Ravi thanked Anna.",
+      "promptZh": "安娜感謝拉維，而拉維也感謝安娜。",
+      "promptZhSource": "pdf",
+      "starter": "Anna",
+      "answer": "Anna and Ravi thanked each other.",
+      "answerZh": "安娜和拉維互相感謝。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna and Ravi thanked each other."
+    },
+    {
+      "id": "ss44-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Both teams respected the opposing team.",
+      "promptZh": "兩支隊伍都尊重對方隊伍。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two teams respected each other.",
+      "answerZh": "兩支隊伍互相尊重。",
+      "answerZhSource": "pdf",
+      "highlight": "The two teams respected each other."
+    },
+    {
+      "id": "ss44-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tom often tells Jay jokes, and Jay often tells Tom jokes.",
+      "promptZh": "湯姆經常說笑話給傑伊聽，而傑伊也經常說笑話給湯姆聽。",
+      "promptZhSource": "pdf",
+      "starter": "Tom",
+      "answer": "Tom and Jay often tell each other jokes.",
+      "answerZh": "湯姆和傑伊經常互相說笑話。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom and Jay often tell each other jokes."
+    },
+    {
+      "id": "ss44-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I send messages to my sister, and she sends messages to me.",
+      "promptZh": "我傳訊息給姐姐，而她也傳訊息給我。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My sister and I send messages to each other.",
+      "answerZh": "我和姐姐互相傳訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "My sister and I send messages to each other."
+    },
+    {
+      "id": "ss44-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy apologised to Daniel, and Daniel apologised to Amy.",
+      "promptZh": "艾米向丹尼爾道歉，而丹尼爾也向艾米道歉。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy and Daniel apologised to each other.",
+      "answerZh": "艾米和丹尼爾互相道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy and Daniel apologised to each other."
+    },
+    {
+      "id": "ss44-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Every player gave advice to the other players.",
+      "promptZh": "每名球員都向其他球員提出建議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The players gave one another advice.",
+      "answerZh": "球員互相提出建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The players gave one another advice."
+    },
+    {
+      "id": "ss44-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Each neighbour watched the other neighbour’s home during the holiday.",
+      "promptZh": "每名鄰居都在假期期間看顧另一名鄰居的住所。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbours watched each other’s homes during the holiday.",
+      "answerZh": "鄰居在假期期間互相看顧住所。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbours watched each other’s homes during the holiday."
+    },
+    {
+      "id": "ss44-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Each of the two departments shares information with the other.",
+      "promptZh": "兩個部門都會與對方分享資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two departments share information with each other.",
+      "answerZh": "兩個部門互相分享資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The two departments share information with each other."
+    },
+    {
+      "id": "ss44-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children formed a circle because they wanted to see the faces of the others.",
+      "promptZh": "孩子們圍成一圈，因為他們想看到其他人的臉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children formed a circle to see one another’s faces.",
+      "answerZh": "孩子們圍成一圈，以便看到彼此的臉。",
+      "answerZhSource": "pdf",
+      "highlight": "The children formed a circle to see one another’s faces."
+    },
+    {
+      "id": "ss44-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager introduced Alice to Ben and Ben to Alice.",
+      "promptZh": "經理把愛麗絲介紹給本，也把本介紹給愛麗絲。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager introduced Alice and Ben to each other.",
+      "answerZh": "經理把愛麗絲和本介紹給對方認識。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager introduced Alice and Ben to each other."
+    },
+    {
+      "id": "ss44-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You should keep sending updates to your partner, and your partner should do the same for you.",
+      "promptZh": "你應該繼續向拍檔提供最新消息，而你的拍檔也應該同樣向你提供最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You and your partner should keep sending updates to each other.",
+      "answerZh": "你和拍檔應該繼續互相提供最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "You and your partner should keep sending updates to each other."
+    },
+    {
+      "id": "ss44-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Both clubs regularly invite members of the other club to events.",
+      "promptZh": "兩個社團都經常邀請另一個社團的會員參加活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two clubs regularly invite each other’s members to events.",
+      "answerZh": "兩個社團經常邀請對方的會員參加活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The two clubs regularly invite each other’s members to events."
+    },
+    {
+      "id": "ss44-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No child blamed any of the other children for the mistake.",
+      "promptZh": "沒有孩子因這個錯誤而責怪其他孩子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children did not blame one another for the mistake.",
+      "answerZh": "孩子們沒有因這個錯誤而互相責怪。",
+      "answerZhSource": "pdf",
+      "highlight": "The children did not blame one another for the mistake."
+    },
+    {
+      "id": "ss44-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sophie kept looking at Maya’s drawings, and Maya kept looking at Sophie’s.",
+      "promptZh": "蘇菲不停看瑪雅的畫，而瑪雅也不停看蘇菲的畫。",
+      "promptZhSource": "pdf",
+      "starter": "Sophie",
+      "answer": "Sophie and Maya kept looking at each other’s drawings.",
+      "answerZh": "蘇菲和瑪雅不停看對方的畫。",
+      "answerZhSource": "pdf",
+      "highlight": "Sophie and Maya kept looking at each other’s drawings."
+    },
+    {
+      "id": "ss44-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every student compared the answers written by the other students.",
+      "promptZh": "每名學生都比較其他學生所寫的答案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students compared one another’s answers.",
+      "answerZh": "學生比較彼此的答案。",
+      "answerZhSource": "pdf",
+      "highlight": "The students compared one another’s answers."
+    },
+    {
+      "id": "ss44-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The two singers took turns supporting the other singer during practice.",
+      "promptZh": "兩名歌手在練習期間輪流支持對方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two singers took turns supporting each other during practice.",
+      "answerZh": "兩名歌手在練習期間輪流互相支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The two singers took turns supporting each other during practice."
+    },
+    {
+      "id": "ss44-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When one worker was busy, the other workers helped that person.",
+      "promptZh": "當一名員工忙碌時，其他員工便會幫助那人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The workers helped one another whenever someone was busy.",
+      "answerZh": "每當有人忙碌時，員工便會互相幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "The workers helped one another whenever someone was busy."
+    },
+    {
+      "id": "ss44-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Every country agreed to respect the borders of the other countries.",
+      "promptZh": "每個國家都同意尊重其他國家的邊界。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The countries agreed to respect one another’s borders.",
+      "answerZh": "各國同意尊重彼此的邊界。",
+      "answerZhSource": "pdf",
+      "highlight": "The countries agreed to respect one another’s borders."
+    },
+    {
+      "id": "ss44-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Team members should warn the other members whenever they notice a problem.",
+      "promptZh": "團隊成員發現問題時，應該提醒其他成員。",
+      "promptZhSource": "pdf",
+      "starter": "Team",
+      "answer": "Team members should warn one another whenever they notice a problem.",
+      "answerZh": "團隊成員發現問題時，應該互相提醒。",
+      "answerZhSource": "pdf",
+      "highlight": "Team members should warn one another whenever they notice a problem."
+    },
+    {
+      "id": "ss44-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Each brother sometimes borrowed clothes belonging to the other brother.",
+      "promptZh": "兩兄弟有時會借用對方的衣服。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The brothers sometimes borrowed each other’s clothes.",
+      "answerZh": "兩兄弟有時會借用對方的衣服。",
+      "answerZhSource": "pdf",
+      "highlight": "The brothers sometimes borrowed each other’s clothes."
+    },
+    {
+      "id": "ss44-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The participants made the discussion useful by listening to the others and responding to their ideas.",
+      "promptZh": "參加者聆聽其他人的發言並回應他們的想法，使討論更有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The participants made the discussion useful by listening to one another and responding to one another’s ideas.",
+      "answerZh": "參加者聆聽彼此的發言，並回應彼此的想法，使討論更有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The participants made the discussion useful by listening to one another and responding to one another’s ideas."
+    },
+    {
+      "id": "ss44-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The first machine sends data to the second, and the second sends data back to the first.",
+      "promptZh": "第一部機器把數據傳送給第二部，而第二部也把數據傳回第一部。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two machines send data to each other.",
+      "answerZh": "兩部機器互相傳送數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The two machines send data to each other."
+    },
+    {
+      "id": "ss44-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children were told that no one should laugh at anyone else.",
+      "promptZh": "孩子們被告知，任何人都不應嘲笑其他人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children were told not to laugh at one another.",
+      "answerZh": "孩子們被告知不要互相嘲笑。",
+      "answerZhSource": "pdf",
+      "highlight": "The children were told not to laugh at one another."
+    },
+    {
+      "id": "ss44-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The residents take turns checking the doors belonging to the other residents.",
+      "promptZh": "居民輪流檢查其他居民的家門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The residents take turns checking one another’s doors.",
+      "answerZh": "居民輪流檢查彼此的家門。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents take turns checking one another’s doors."
+    },
+    {
+      "id": "ss44-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Neither friend had spoken to the other for several weeks.",
+      "promptZh": "兩名朋友已有數星期沒有跟對方說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two friends had not spoken to each other for several weeks.",
+      "answerZh": "兩名朋友已有數星期沒有互相交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The two friends had not spoken to each other for several weeks."
+    },
+    {
+      "id": "ss44-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "During the game, every player had to trust the other players.",
+      "promptZh": "比賽期間，每名球員都必須信任其他球員。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the game, the players had to trust one another.",
+      "answerZh": "比賽期間，球員必須互相信任。",
+      "answerZhSource": "pdf",
+      "highlight": "During the game, the players had to trust one another."
+    },
+    {
+      "id": "ss44-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The companies are competitors, but each company still learns from the other.",
+      "promptZh": "兩間公司是競爭對手，但每間公司仍會向對方學習。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the companies are competitors, they still learn from each other.",
+      "answerZh": "雖然兩間公司是競爭對手，但它們仍會互相學習。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the companies are competitors, they still learn from each other."
+    },
+    {
+      "id": "ss44-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children formed pairs, and each child checked the work of the partner.",
+      "promptZh": "孩子們組成二人小組，而每名孩子都檢查拍檔的作品。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After forming pairs, the children checked each other’s work.",
+      "answerZh": "組成二人小組後，孩子們互相檢查作品。",
+      "answerZhSource": "pdf",
+      "highlight": "After forming pairs, the children checked each other’s work."
+    },
+    {
+      "id": "ss44-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One witness’s description did not match the other witness’s description.",
+      "promptZh": "一名證人的描述與另一名證人的描述並不相符。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witnesses’ descriptions did not match each other.",
+      "answerZh": "兩名證人的描述彼此並不相符。",
+      "answerZhSource": "pdf",
+      "highlight": "The witnesses’ descriptions did not match each other."
+    },
+    {
+      "id": "ss44-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach asked every player to encourage the other players rather than criticise them.",
+      "promptZh": "教練要求每名球員鼓勵其他球員，而不是批評他們。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach asked the players to encourage each other rather than criticise one another.",
+      "answerZh": "教練要求球員互相鼓勵，而不是彼此批評。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach asked the players to encourage each other rather than criticise one another."
+    },
+    {
+      "id": "ss44-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The first side kept blaming the second, and the second kept blaming the first, so the argument continued.",
+      "promptZh": "第一方不斷責怪第二方，而第二方也不斷責怪第一方，因此爭論持續。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two sides kept blaming each other, so the argument continued.",
+      "answerZh": "雙方不斷互相責怪，因此爭論持續。",
+      "answerZhSource": "pdf",
+      "highlight": "The two sides kept blaming each other, so the argument continued."
+    },
+    {
+      "id": "ss44-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the departments do not share their plans with the other departments, the project may be delayed.",
+      "promptZh": "如果各部門不與其他部門分享計劃，項目可能會延誤。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the departments do not share their plans with one another, the project may be delayed.",
+      "answerZh": "如果各部門不互相分享計劃，項目可能會延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "If the departments do not share their plans with one another, the project may be delayed."
+    },
+    {
+      "id": "ss44-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher arranged the desks so that every student could see the faces of the other students.",
+      "promptZh": "老師安排書桌的位置，讓每名學生都能看到其他學生的臉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher arranged the desks so that the students could see one another’s faces.",
+      "answerZh": "老師安排書桌的位置，讓學生能看到彼此的臉。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher arranged the desks so that the students could see one another’s faces."
+    },
+    {
+      "id": "ss44-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In each pair, one volunteer checked the other volunteer’s contact details, and the other did the same.",
+      "promptZh": "在每一組中，一名義工檢查另一名義工的聯絡資料，而對方也做同樣的事。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In each pair, the volunteers checked each other’s contact details.",
+      "answerZh": "在每一組中，義工互相檢查聯絡資料。",
+      "answerZhSource": "pdf",
+      "highlight": "In each pair, the volunteers checked each other’s contact details."
+    },
+    {
+      "id": "ss44-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the scientists disagreed, every scientist carefully considered the arguments made by the others.",
+      "promptZh": "雖然科學家意見不一，但每名科學家都仔細考慮其他人提出的論點。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the scientists disagreed, they carefully considered one another’s arguments.",
+      "answerZh": "雖然科學家意見不一，但他們仍仔細考慮彼此的論點。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the scientists disagreed, they carefully considered one another’s arguments."
+    },
+    {
+      "id": "ss44-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Each hospital refers patients to the other hospital when a specialist service is unavailable.",
+      "promptZh": "當某項專科服務無法提供時，每間醫院都會把病人轉介到另一間醫院。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two hospitals refer patients to each other when a specialist service is unavailable.",
+      "answerZh": "當某項專科服務無法提供時，兩間醫院會互相轉介病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The two hospitals refer patients to each other when a specialist service is unavailable."
+    },
+    {
+      "id": "ss44-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The debate rules allow both speakers to challenge the other speaker, but neither may interrupt.",
+      "promptZh": "辯論規則容許兩名講者質疑對方，但任何一方都不可打斷對方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The debate rules allow the speakers to challenge each other without interrupting one another.",
+      "answerZh": "辯論規則容許講者互相質疑，但不可彼此打斷。",
+      "answerZhSource": "pdf",
+      "highlight": "The debate rules allow the speakers to challenge each other without interrupting one another."
+    },
+    {
+      "id": "ss44-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the members had worked together for years, each could often understand the others without a long explanation.",
+      "promptZh": "由於成員已共事多年，每個人往往不需要長篇解釋也能明白其他人的意思。",
+      "promptZhSource": "pdf",
+      "starter": "Because",
+      "answer": "Because the members had worked together for years, they could often understand one another without a long explanation.",
+      "answerZh": "由於成員已共事多年，他們往往不需要長篇解釋也能明白彼此的意思。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the members had worked together for years, they could often understand one another without a long explanation."
+    },
+    {
+      "id": "ss44-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The countries regularly review the trade rules of the others and adjust their own rules in response.",
+      "promptZh": "各國定期檢視其他國家的貿易規則，並相應調整本身的規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The countries regularly review one another’s trade rules and adjust their own rules in response.",
+      "answerZh": "各國定期檢視彼此的貿易規則，並相應調整本身的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The countries regularly review one another’s trade rules and adjust their own rules in response."
+    },
+    {
+      "id": "ss44-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The project succeeded because the engineers trusted the designers and the designers trusted the engineers.",
+      "promptZh": "項目得以成功，因為工程師信任設計師，而設計師也信任工程師。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project succeeded because the engineers and designers trusted each other.",
+      "answerZh": "項目得以成功，因為工程師和設計師互相信任。",
+      "answerZhSource": "pdf",
+      "highlight": "The project succeeded because the engineers and designers trusted each other."
+    },
+    {
+      "id": "ss44-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No team should try to improve its results by hiding information from the other teams.",
+      "promptZh": "任何團隊都不應透過向其他團隊隱瞞資料來改善成績。",
+      "promptZhSource": "pdf",
+      "starter": "Teams",
+      "answer": "Teams should not try to improve their results by hiding information from one another.",
+      "answerZh": "團隊不應透過互相隱瞞資料來改善成績。",
+      "answerZhSource": "pdf",
+      "highlight": "Teams should not try to improve their results by hiding information from one another."
+    },
+    {
+      "id": "ss44-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The two communities had different traditions, but both made an effort to learn about the traditions of the other community.",
+      "promptZh": "兩個社區有不同傳統，但雙方都努力了解另一個社區的傳統。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the communities had different traditions, they made an effort to learn about each other’s traditions.",
+      "answerZh": "雖然兩個社區有不同傳統，但它們都努力了解彼此的傳統。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the communities had different traditions, they made an effort to learn about each other’s traditions."
+    },
+    {
+      "id": "ss44-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "During the emergency, every department sent staff and equipment to the others when they needed support.",
+      "promptZh": "在緊急情況期間，每個部門都在其他部門需要支援時派出人手和設備。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the emergency, the departments supported one another by sharing staff and equipment.",
+      "answerZh": "在緊急情況期間，各部門透過共享人手和設備互相支援。",
+      "answerZhSource": "pdf",
+      "highlight": "During the emergency, the departments supported one another by sharing staff and equipment."
+    },
+    {
+      "id": "ss44-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In strong teams, people challenge their colleagues, and their colleagues challenge them too. However, no one tries to humiliate anyone else.",
+      "promptZh": "在強大的團隊中，人們會挑戰同事，而同事也會挑戰他們。然而，沒有人會試圖羞辱其他人。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In strong teams, people challenge each other without trying to humiliate one another.",
+      "answerZh": "在強大的團隊中，人們會互相挑戰，但不會彼此羞辱。",
+      "answerZhSource": "pdf",
+      "highlight": "In strong teams, people challenge each other without trying to humiliate one another."
+    }
+  ]
+}

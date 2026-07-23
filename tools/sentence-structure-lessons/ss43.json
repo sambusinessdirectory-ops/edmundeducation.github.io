@@ -1,0 +1,1216 @@
+{
+  "id": "ss43",
+  "order": 43,
+  "slug": "each-singular-noun-distribution",
+  "title": "「Each + 單數名詞」句型",
+  "titleZh": "「Each + 單數名詞」逐一表達",
+  "titleEn": "Using each + singular noun for individual distribution",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 43 - 「Each + 單數名詞」逐一表達.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": []
+  },
+  "formula": "Each + singular countable noun / noun phrase + singular verb + other information",
+  "formulas": [
+    {
+      "id": "ss43-formula-subject",
+      "labelEn": "Each as the subject",
+      "labelZh": "Each 作為主語",
+      "formula": "Each + singular countable noun / noun phrase + singular verb + other information"
+    },
+    {
+      "id": "ss43-formula-object",
+      "labelEn": "Each after a verb",
+      "labelZh": "Each 放在動詞後面",
+      "formula": "Subject + verb + each + singular countable noun / noun phrase + other information"
+    },
+    {
+      "id": "ss43-formula-time",
+      "labelEn": "Each time",
+      "labelZh": "Each time 句式",
+      "formula": "Each time + clause, + complete clause"
+    }
+  ],
+  "example": "Each additional child means an extra financial responsibility.",
+  "exampleZh": "每多一個孩子，就意味著多一份經濟責任。",
+  "examples": [
+    {
+      "id": "ss43-example-01",
+      "en": "Each additional child means an extra financial responsibility.",
+      "zh": "每多一個孩子，就意味著多一份經濟責任。",
+      "highlight": "Each additional child means"
+    }
+  ],
+  "meaning": {
+    "zh": "Each 把注意力放在群體中的每一個成員，常用於逐一分配、個別安排和每次發生的事情。"
+  },
+  "rules": [
+    {
+      "id": "ss43-rule-01",
+      "en": "Use a singular countable noun after each.",
+      "zh": "Each 後面使用單數可數名詞。",
+      "examples": [
+        "Each student receives a worksheet."
+      ]
+    },
+    {
+      "id": "ss43-rule-02",
+      "en": "Use a singular verb when an each-phrase is the subject.",
+      "zh": "Each 名詞短語作主語時，使用單數動詞。",
+      "examples": [
+        "Each room has a window."
+      ]
+    },
+    {
+      "id": "ss43-rule-03",
+      "en": "Each may also appear after a verb.",
+      "zh": "Each 亦可以放在動詞後面；此時動詞形式由前面的主語決定。",
+      "examples": [
+        "The teacher gives each group a map."
+      ]
+    },
+    {
+      "id": "ss43-rule-04",
+      "en": "Each emphasises members one by one.",
+      "zh": "Each 強調逐一看待每個人或事物。",
+      "examples": [
+        "Each student receives a different task."
+      ]
+    },
+    {
+      "id": "ss43-rule-05",
+      "en": "Each time means every time an event happens.",
+      "zh": "Each time 表示「每次」。",
+      "examples": [
+        "Each time the bell rings, the students change classrooms."
+      ]
+    },
+    {
+      "id": "ss43-rule-06",
+      "en": "This lesson focuses on each + singular noun, not each of or each other.",
+      "zh": "本課集中訓練 each＋單數名詞，不包括 each of 或 each other。",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss43-benefit-01",
+      "en": "It clearly emphasises every individual member.",
+      "zh": "它能清楚強調群體中的每一個成員。"
+    },
+    {
+      "id": "ss43-benefit-02",
+      "en": "It shows one-to-one distribution clearly.",
+      "zh": "它能清楚表達一對一的分配關係。"
+    },
+    {
+      "id": "ss43-benefit-03",
+      "en": "It explains the result of each additional unit.",
+      "zh": "它適合表達「每增加一個，就多一個結果」。"
+    },
+    {
+      "id": "ss43-benefit-04",
+      "en": "It shortens longer expressions.",
+      "zh": "它能把逐一說明每個人的較長說法縮短。"
+    },
+    {
+      "id": "ss43-benefit-05",
+      "en": "It is useful for rules, charges and repeated events.",
+      "zh": "它適合說明規則、收費、責任和每次重複發生的事情。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using each + singular countable noun or each time.",
+      "Keep every answer as a complete sentence and preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 each＋單數可數名詞或 each time 改寫以下句子。",
+      "每個答案必須是完整句子，並保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss43-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Every student receives a worksheet.",
+      "promptZh": "每名學生都會收到一份工作紙。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each student receives a worksheet.",
+      "answerZh": "每名學生都會收到一份工作紙。",
+      "answerZhSource": "pdf",
+      "highlight": "Each student receives a worksheet."
+    },
+    {
+      "id": "ss43-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "All the rooms have their own window.",
+      "promptZh": "所有房間都有自己的窗戶。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each room has its own window.",
+      "answerZh": "每個房間都有自己的窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Each room has its own window."
+    },
+    {
+      "id": "ss43-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every player wears a numbered shirt.",
+      "promptZh": "每名球員都穿着有號碼的球衣。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each player wears a numbered shirt.",
+      "answerZh": "每名球員都穿着有號碼的球衣。",
+      "answerZhSource": "pdf",
+      "highlight": "Each player wears a numbered shirt."
+    },
+    {
+      "id": "ss43-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A ticket costs ten dollars, no matter which one you buy.",
+      "promptZh": "無論你購買哪一張門票，價格都是十元。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each ticket costs ten dollars.",
+      "answerZh": "每張門票售價十元。",
+      "answerZhSource": "pdf",
+      "highlight": "Each ticket costs ten dollars."
+    },
+    {
+      "id": "ss43-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every group gets one map from the teacher.",
+      "promptZh": "每組都會從老師那裏獲得一張地圖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher gives each group a map.",
+      "answerZh": "老師給每組一張地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher gives each group a map."
+    },
+    {
+      "id": "ss43-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All the children choose one book individually.",
+      "promptZh": "所有孩子都各自選擇一本書。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each child chooses one book.",
+      "answerZh": "每個孩子選擇一本書。",
+      "answerZhSource": "pdf",
+      "highlight": "Each child chooses one book."
+    },
+    {
+      "id": "ss43-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All the tables seat four people.",
+      "promptZh": "所有桌子都可供四人入座。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each table seats four people.",
+      "answerZh": "每張桌子可供四人入座。",
+      "answerZhSource": "pdf",
+      "highlight": "Each table seats four people."
+    },
+    {
+      "id": "ss43-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every visitor receives a name badge from the receptionist.",
+      "promptZh": "每名訪客都會從接待員那裏收到一個名牌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The receptionist gives each visitor a name badge.",
+      "answerZh": "接待員給每名訪客一個名牌。",
+      "answerZhSource": "pdf",
+      "highlight": "The receptionist gives each visitor a name badge."
+    },
+    {
+      "id": "ss43-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There is one litre of water in every bottle.",
+      "promptZh": "每個瓶子內都有一公升水。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each bottle contains one litre of water.",
+      "answerZh": "每個瓶子盛有一公升水。",
+      "answerZhSource": "pdf",
+      "highlight": "Each bottle contains one litre of water."
+    },
+    {
+      "id": "ss43-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "Two marks are awarded for every question.",
+      "promptZh": "每道題目可獲兩分。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each question carries two marks.",
+      "answerZh": "每道題目佔兩分。",
+      "answerZhSource": "pdf",
+      "highlight": "Each question carries two marks."
+    },
+    {
+      "id": "ss43-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All employees have personal lockers of their own.",
+      "promptZh": "所有僱員都有自己的私人儲物櫃。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each employee has a personal locker.",
+      "answerZh": "每名僱員都有一個私人儲物櫃。",
+      "answerZhSource": "pdf",
+      "highlight": "Each employee has a personal locker."
+    },
+    {
+      "id": "ss43-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach speaks to all the players separately.",
+      "promptZh": "教練分別與所有球員交談。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach speaks to each player separately.",
+      "answerZh": "教練逐一與每名球員交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach speaks to each player separately."
+    },
+    {
+      "id": "ss43-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Every family receives one food box.",
+      "promptZh": "每個家庭都會收到一箱食物。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each family receives a food box.",
+      "answerZh": "每個家庭都會收到一箱食物。",
+      "answerZhSource": "pdf",
+      "highlight": "Each family receives a food box."
+    },
+    {
+      "id": "ss43-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We put one candle on every table.",
+      "promptZh": "我們在每張桌子上放一支蠟燭。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We put a candle on each table.",
+      "answerZh": "我們在每張桌子上放一支蠟燭。",
+      "answerZhSource": "pdf",
+      "highlight": "We put a candle on each table."
+    },
+    {
+      "id": "ss43-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All buses stop at the main station.",
+      "promptZh": "所有巴士都會在總站停靠。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each bus stops at the main station.",
+      "answerZh": "每輛巴士都會在總站停靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Each bus stops at the main station."
+    },
+    {
+      "id": "ss43-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Every customer is given a receipt by the shop.",
+      "promptZh": "店舖會給每名顧客一張收據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop gives each customer a receipt.",
+      "answerZh": "店舖給每名顧客一張收據。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop gives each customer a receipt."
+    },
+    {
+      "id": "ss43-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The length of every lesson is forty minutes.",
+      "promptZh": "每堂課的長度都是四十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each lesson lasts forty minutes.",
+      "answerZh": "每堂課長四十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Each lesson lasts forty minutes."
+    },
+    {
+      "id": "ss43-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse checked the patients’ temperatures one by one.",
+      "promptZh": "護士逐一量度病人的體溫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse checked each patient’s temperature.",
+      "answerZh": "護士逐一量度每名病人的體溫。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse checked each patient’s temperature."
+    },
+    {
+      "id": "ss43-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No answer may be only a phrase; all answers must be complete sentences.",
+      "promptZh": "答案不可以只是一個短語；所有答案都必須是完整句子。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each answer must be a complete sentence.",
+      "answerZh": "每個答案都必須是一個完整句子。",
+      "answerZhSource": "pdf",
+      "highlight": "Each answer must be a complete sentence."
+    },
+    {
+      "id": "ss43-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The guide took every guest to a seat.",
+      "promptZh": "導遊帶每名賓客到座位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide took each guest to a seat.",
+      "answerZh": "導遊逐一帶每名賓客到座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide took each guest to a seat."
+    },
+    {
+      "id": "ss43-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "For every additional bag, the charge is five dollars.",
+      "promptZh": "每增加一件行李，收費便是五元。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each additional bag costs five dollars.",
+      "answerZh": "每多一件行李，便需支付五元。",
+      "answerZhSource": "pdf",
+      "highlight": "Each additional bag costs five dollars."
+    },
+    {
+      "id": "ss43-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bill increases by twenty dollars whenever the stay is extended by one day.",
+      "promptZh": "每當住宿期延長一天，帳單便增加二十元。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each extra day adds twenty dollars to the bill.",
+      "answerZh": "每多住一天，帳單便增加二十元。",
+      "answerZhSource": "pdf",
+      "highlight": "Each extra day adds twenty dollars to the bill."
+    },
+    {
+      "id": "ss43-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Whenever a new member joins, that person brings a different skill to the team.",
+      "promptZh": "每當有新成員加入，那人都會為團隊帶來一項不同的技能。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each new member brings a different skill to the team.",
+      "answerZh": "每名新成員都會為團隊帶來一項不同的技能。",
+      "answerZhSource": "pdf",
+      "highlight": "Each new member brings a different skill to the team."
+    },
+    {
+      "id": "ss43-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Every student is given an online account by the school.",
+      "promptZh": "學校會給每名學生一個網上帳戶。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school gives each student an online account.",
+      "answerZh": "學校給每名學生一個網上帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "The school gives each student an online account."
+    },
+    {
+      "id": "ss43-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Two staff members check every application.",
+      "promptZh": "兩名職員會檢查每份申請。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each application is checked by two staff members.",
+      "answerZh": "每份申請都由兩名職員檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "Each application is checked by two staff members."
+    },
+    {
+      "id": "ss43-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Staff place one safety card on every seat.",
+      "promptZh": "職員在每個座位上放置一張安全須知卡。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A safety card is placed on each seat.",
+      "answerZh": "每個座位上都放有一張安全須知卡。",
+      "answerZhSource": "pdf",
+      "highlight": "A safety card is placed on each seat."
+    },
+    {
+      "id": "ss43-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No two bedrooms share a bathroom; every bedroom has its own.",
+      "promptZh": "沒有兩間睡房共用浴室；每間睡房都有自己的浴室。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each bedroom has its own bathroom.",
+      "answerZh": "每間睡房都有自己的浴室。",
+      "answerZhSource": "pdf",
+      "highlight": "Each bedroom has its own bathroom."
+    },
+    {
+      "id": "ss43-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organiser gave every volunteer a specific task.",
+      "promptZh": "主辦者給每名義工一項指定任務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser gave each volunteer a specific task.",
+      "answerZh": "主辦者給每名義工一項指定任務。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser gave each volunteer a specific task."
+    },
+    {
+      "id": "ss43-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For every mistake, one mark is taken off the final score.",
+      "promptZh": "每犯一個錯誤，總分便會被扣一分。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each mistake reduces the final score by one mark.",
+      "answerZh": "每個錯誤都會令總分減少一分。",
+      "answerZhSource": "pdf",
+      "highlight": "Each mistake reduces the final score by one mark."
+    },
+    {
+      "id": "ss43-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The amount of water needed is different for every plant.",
+      "promptZh": "每株植物所需的水量都不同。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each plant needs a different amount of water.",
+      "answerZh": "每株植物所需的水量都不同。",
+      "answerZhSource": "pdf",
+      "highlight": "Each plant needs a different amount of water."
+    },
+    {
+      "id": "ss43-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Whenever the bell rings, the students change classrooms.",
+      "promptZh": "每當鐘聲響起，學生便會轉到另一間課室。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each time the bell rings, the students change classrooms.",
+      "answerZh": "每次鐘聲響起，學生便會轉到另一間課室。",
+      "answerZhSource": "pdf",
+      "highlight": "Each time the bell rings, the students change classrooms."
+    },
+    {
+      "id": "ss43-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Whenever Mia visits her grandmother, she brings some fruit.",
+      "promptZh": "每當米婭探望祖母，她都會帶一些水果。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each time Mia visits her grandmother, she brings some fruit.",
+      "answerZh": "米婭每次探望祖母，都會帶一些水果。",
+      "answerZhSource": "pdf",
+      "highlight": "Each time Mia visits her grandmother, she brings some fruit."
+    },
+    {
+      "id": "ss43-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "The project moves forward one step whenever a task is completed.",
+      "promptZh": "每完成一項任務，項目便向前推進一步。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each completed task moves the project one step forward.",
+      "answerZh": "每項完成的任務都會令項目向前推進一步。",
+      "answerZhSource": "pdf",
+      "highlight": "Each completed task moves the project one step forward."
+    },
+    {
+      "id": "ss43-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A separate delay is caused by every missing document.",
+      "promptZh": "每份欠缺的文件都會造成一次額外延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each missing document causes a separate delay.",
+      "answerZh": "每份欠缺的文件都會造成一次額外延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Each missing document causes a separate delay."
+    },
+    {
+      "id": "ss43-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Every user receives a confirmation email from the system.",
+      "promptZh": "每名用戶都會收到系統發出的確認電郵。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The system sends each user a confirmation email.",
+      "answerZh": "系統向每名用戶發送一封確認電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "The system sends each user a confirmation email."
+    },
+    {
+      "id": "ss43-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A separate record is generated whenever a new order arrives.",
+      "promptZh": "每當有新訂單，系統便會產生一項獨立記錄。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each new order generates a separate record.",
+      "answerZh": "每張新訂單都會產生一項獨立記錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Each new order generates a separate record."
+    },
+    {
+      "id": "ss43-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The librarian stamps all the books one by one before lending them out.",
+      "promptZh": "圖書館職員在借出所有書籍前逐一本蓋印。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The librarian stamps each book before lending it out.",
+      "answerZh": "圖書館職員在借出每本書前都會蓋印。",
+      "answerZhSource": "pdf",
+      "highlight": "The librarian stamps each book before lending it out."
+    },
+    {
+      "id": "ss43-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Every light left on in an empty room wastes electricity.",
+      "promptZh": "空房內每盞仍然亮着的燈都會浪費電力。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each light left on in an empty room wastes electricity.",
+      "answerZh": "空房內每盞仍然亮着的燈都會浪費電力。",
+      "answerZhSource": "pdf",
+      "highlight": "Each light left on in an empty room wastes electricity."
+    },
+    {
+      "id": "ss43-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No driver may move off before checking the mirrors.",
+      "promptZh": "司機在檢查倒後鏡前不得開車。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each driver must check the mirrors before moving off.",
+      "answerZh": "每名司機在開車前都必須檢查倒後鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "Each driver must check the mirrors before moving off."
+    },
+    {
+      "id": "ss43-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager reviews all complaints personally, one at a time.",
+      "promptZh": "經理會親自逐一審視所有投訴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager reviews each complaint personally.",
+      "answerZh": "經理會親自審視每宗投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager reviews each complaint personally."
+    },
+    {
+      "id": "ss43-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Having one more child brings one more financial responsibility.",
+      "promptZh": "多一個孩子，便會多一份經濟責任。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each additional child means an extra financial responsibility.",
+      "answerZh": "每多一個孩子，就意味著多一份經濟責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Each additional child means an extra financial responsibility."
+    },
+    {
+      "id": "ss43-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "All departments are required to submit their own monthly reports.",
+      "promptZh": "所有部門都必須提交自己的每月報告。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each department must submit its own monthly report.",
+      "answerZh": "每個部門都必須提交自己的每月報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Each department must submit its own monthly report."
+    },
+    {
+      "id": "ss43-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before leaving, all patients receive clear instructions from the hospital.",
+      "promptZh": "所有病人在離開前都會收到醫院提供的清晰指示。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital gives each patient clear instructions before they leave.",
+      "answerZh": "醫院在每名病人離開前，向他們提供清晰指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital gives each patient clear instructions before they leave."
+    },
+    {
+      "id": "ss43-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Whenever one small improvement is made, the service becomes slightly easier to use.",
+      "promptZh": "每當作出一項小改善，服務便會變得稍為容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each small improvement makes the service slightly easier to use.",
+      "answerZh": "每項小改善都會令服務變得稍為容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Each small improvement makes the service slightly easier to use."
+    },
+    {
+      "id": "ss43-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The website creates a separate tracking number for every parcel.",
+      "promptZh": "網站會為每件包裹建立一個獨立的追蹤編號。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website creates a separate tracking number for each parcel.",
+      "answerZh": "網站會為每件包裹建立一個獨立的追蹤編號。",
+      "answerZhSource": "pdf",
+      "highlight": "The website creates a separate tracking number for each parcel."
+    },
+    {
+      "id": "ss43-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The presentation is divided so that every team member is responsible for one part.",
+      "promptZh": "簡報被分成不同部分，讓每名團隊成員負責其中一部分。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each team member is responsible for one part of the presentation.",
+      "answerZh": "每名團隊成員負責簡報的其中一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Each team member is responsible for one part of the presentation."
+    },
+    {
+      "id": "ss43-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Every participant gets a chance to practise speaking through the programme.",
+      "promptZh": "每名參加者都可透過這個計劃獲得練習口語的機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme gives each participant a chance to practise speaking.",
+      "answerZh": "這個計劃給每名參加者一個練習口語的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme gives each participant a chance to practise speaking."
+    },
+    {
+      "id": "ss43-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Every additional passenger causes a slight increase in the fuel cost.",
+      "promptZh": "每多一名乘客，燃料成本便會略為增加。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each extra passenger increases the fuel cost slightly.",
+      "answerZh": "每多一名乘客，燃料成本便會略為增加。",
+      "answerZhSource": "pdf",
+      "highlight": "Each extra passenger increases the fuel cost slightly."
+    },
+    {
+      "id": "ss43-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The organiser checks all the names one by one against the registration list.",
+      "promptZh": "主辦者把所有姓名逐一與報名名單核對。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser checks each name against the registration list.",
+      "answerZh": "主辦者把每個姓名與報名名單核對。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser checks each name against the registration list."
+    },
+    {
+      "id": "ss43-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "All decisions made during the planning stage have an effect on the final result.",
+      "promptZh": "在規劃階段作出的所有決定都會影響最終結果。",
+      "promptZhSource": "pdf",
+      "starter": "Each",
+      "answer": "Each decision made during the planning stage affects the final result.",
+      "answerZh": "在規劃階段作出的每個決定都會影響最終結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Each decision made during the planning stage affects the final result."
+    }
+  ]
+}

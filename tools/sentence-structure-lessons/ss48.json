@@ -1,0 +1,1222 @@
+{
+  "id": "ss48",
+  "order": 48,
+  "slug": "everywhere-anywhere",
+  "title": "「Everywhere / Anywhere」句型",
+  "titleZh": "「Everywhere / Anywhere」表達所有地方或任何地方",
+  "titleEn": "Using everywhere and anywhere for place",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 48 -「Everywhere _ Anywhere」句型.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + be / verb + everywhere / anywhere + other information",
+  "formulas": [
+    {
+      "id": "ss48-formula-everywhere",
+      "labelEn": "Everywhere",
+      "labelZh": "Everywhere：每一處",
+      "formula": "Subject + be / verb + everywhere (+ place phrase)"
+    },
+    {
+      "id": "ss48-formula-anywhere",
+      "labelEn": "Anywhere",
+      "labelZh": "Anywhere：任何地方",
+      "formula": "Subject + auxiliary / modal + (not) + verb + anywhere (+ place phrase)"
+    },
+    {
+      "id": "ss48-formula-fronted",
+      "labelEn": "Fronted place range",
+      "labelZh": "地點範圍置前",
+      "formula": "Everywhere / Anywhere + subject + verb, + main clause"
+    }
+  ],
+  "example": "Labubu used to be popular; it was everywhere. You could see it anywhere you went.",
+  "exampleZh": "Labubu 以前很流行，到處都看得到；你幾乎去到哪裏都會見到它。",
+  "examples": [
+    {
+      "id": "ss48-example-01",
+      "en": "Labubu used to be popular; it was everywhere. You could see it anywhere you went.",
+      "zh": "Labubu 以前很流行，到處都看得到；你幾乎去到哪裏都會見到它。",
+      "highlight": "it was everywhere. You could see it anywhere you went"
+    }
+  ],
+  "meaning": {
+    "zh": "Everywhere 表示所有地方都包括；anywhere 表示任何一個地方、自由選擇或在否定句中表示任何地方都沒有。"
+  },
+  "rules": [
+    {
+      "id": "ss48-rule-01",
+      "en": "Everywhere includes all places.",
+      "zh": "Everywhere 表示「所有地方都包括」，通常用於肯定句。",
+      "examples": [
+        "The advertisements were everywhere."
+      ]
+    },
+    {
+      "id": "ss48-rule-02",
+      "en": "Anywhere means any place.",
+      "zh": "Anywhere 表示任何一個地方，常用於疑問、否定、自由選擇和不論地點的句子。",
+      "examples": [
+        "Did you see it anywhere?",
+        "You can sit anywhere."
+      ]
+    },
+    {
+      "id": "ss48-rule-03",
+      "en": "Do not confuse everywhere and anywhere in ordinary affirmative statements.",
+      "zh": "普通肯定句中不要混淆 everywhere 和 anywhere。",
+      "examples": [
+        "The toys were everywhere.",
+        "You can put the toys anywhere."
+      ]
+    },
+    {
+      "id": "ss48-rule-04",
+      "en": "Do not normally put to, in or at directly before them.",
+      "zh": "它們本身表示地點或目的地時，前面通常不直接加 to、in 或 at。",
+      "examples": [
+        "go everywhere",
+        "look anywhere"
+      ]
+    },
+    {
+      "id": "ss48-rule-05",
+      "en": "Anywhere may be followed by an adjective or clause.",
+      "zh": "Anywhere 後面可以直接加形容詞或子句。",
+      "examples": [
+        "anywhere quiet",
+        "anywhere you like"
+      ]
+    },
+    {
+      "id": "ss48-rule-06",
+      "en": "Not anywhere and not everywhere have different meanings.",
+      "zh": "Not anywhere 表示完全沒有；not everywhere 表示並非每一處都有。",
+      "examples": []
+    },
+    {
+      "id": "ss48-rule-07",
+      "en": "Write everywhere and anywhere as one word.",
+      "zh": "Everywhere 和 anywhere 都寫成一個字。",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss48-benefit-01",
+      "en": "It clearly distinguishes all places from any place.",
+      "zh": "它能清楚分辨「全部地方」和「任何地方」。"
+    },
+    {
+      "id": "ss48-benefit-02",
+      "en": "It shortens longer place expressions.",
+      "zh": "它能把 any place 或 every place 的較長說法縮短。"
+    },
+    {
+      "id": "ss48-benefit-03",
+      "en": "It makes questions and negatives more natural.",
+      "zh": "Anywhere 能自然地詢問位置或表示完全找不到。"
+    },
+    {
+      "id": "ss48-benefit-04",
+      "en": "It expresses regardless of place easily.",
+      "zh": "它方便表達「無論去到哪裏」。"
+    },
+    {
+      "id": "ss48-benefit-05",
+      "en": "It adds variety to sentence openings.",
+      "zh": "把地點範圍放在句首可增加句式變化。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using everywhere or anywhere.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 everywhere 或 anywhere 改寫以下句子。",
+      "答案須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss48-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Posters could be seen in every part of the classroom.",
+      "promptZh": "課室的每一處都看得到海報。",
+      "promptZhSource": "pdf",
+      "starter": "Posters",
+      "answer": "Posters could be seen everywhere in the classroom.",
+      "answerZh": "課室裏到處都看得到海報。",
+      "answerZhSource": "pdf",
+      "highlight": "Posters could be seen everywhere in the classroom."
+    },
+    {
+      "id": "ss48-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "You may choose any place in the room to sit.",
+      "promptZh": "你可以選擇房間內任何一個位置坐下。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may sit anywhere in the room.",
+      "answerZh": "你可以坐在房間內任何位置。",
+      "answerZhSource": "pdf",
+      "highlight": "You may sit anywhere in the room."
+    },
+    {
+      "id": "ss48-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I searched every possible place for my keys.",
+      "promptZh": "我找遍了所有可能的地方尋找鎖匙。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I searched everywhere for my keys.",
+      "answerZh": "我到處尋找我的鎖匙。",
+      "answerZhSource": "pdf",
+      "highlight": "I searched everywhere for my keys."
+    },
+    {
+      "id": "ss48-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Is there any place where we can buy water?",
+      "promptZh": "有沒有任何地方可以讓我們買水？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is there anywhere we can buy water?",
+      "answerZh": "有沒有任何地方可以讓我們買水？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anywhere we can buy water?"
+    },
+    {
+      "id": "ss48-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Music was playing in every part of the shopping centre.",
+      "promptZh": "購物中心的每一處都播放着音樂。",
+      "promptZhSource": "pdf",
+      "starter": "Music",
+      "answer": "Music was playing everywhere in the shopping centre.",
+      "answerZh": "購物中心裏到處都播放着音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "Music was playing everywhere in the shopping centre."
+    },
+    {
+      "id": "ss48-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We could not find a taxi in any part of the town.",
+      "promptZh": "我們在鎮內任何地方都找不到的士。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could not find a taxi anywhere in the town.",
+      "answerZh": "我們在鎮內任何地方都找不到的士。",
+      "answerZhSource": "pdf",
+      "highlight": "We could not find a taxi anywhere in the town."
+    },
+    {
+      "id": "ss48-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Children were playing in every area of the park.",
+      "promptZh": "公園每一個範圍都有孩子在玩耍。",
+      "promptZhSource": "pdf",
+      "starter": "Children",
+      "answer": "Children were playing everywhere in the park.",
+      "answerZh": "公園裏到處都有孩子在玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "Children were playing everywhere in the park."
+    },
+    {
+      "id": "ss48-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You can choose any place to put your bag.",
+      "promptZh": "你可以選擇任何地方擺放你的袋。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can put your bag anywhere.",
+      "answerZh": "你可以把袋放在任何地方。",
+      "answerZhSource": "pdf",
+      "highlight": "You can put your bag anywhere."
+    },
+    {
+      "id": "ss48-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The smell of bread filled every part of the bakery.",
+      "promptZh": "麵包的香味充滿了麵包店每一處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The smell of bread was everywhere in the bakery.",
+      "answerZh": "麵包店裏到處都是麵包的香味。",
+      "answerZhSource": "pdf",
+      "highlight": "The smell of bread was everywhere in the bakery."
+    },
+    {
+      "id": "ss48-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Did you see my phone in any part of the house?",
+      "promptZh": "你有沒有在屋內任何地方看見我的電話？",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did you see my phone anywhere in the house?",
+      "answerZh": "你有沒有在屋內任何地方看見我的電話？",
+      "answerZhSource": "pdf",
+      "highlight": "Did you see my phone anywhere in the house?"
+    },
+    {
+      "id": "ss48-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Wherever Mia went, people recognised her.",
+      "promptZh": "米婭無論走到哪裏，都有人認得她。",
+      "promptZhSource": "pdf",
+      "starter": "Everywhere",
+      "answer": "Everywhere Mia went, people recognised her.",
+      "answerZh": "米婭所到之處，都有人認得她。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere Mia went, people recognised her."
+    },
+    {
+      "id": "ss48-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel can work in any place that has an internet connection.",
+      "promptZh": "丹尼爾可以在任何有互聯網連線的地方工作。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel can work anywhere with an internet connection.",
+      "answerZh": "只要有互聯網連線，丹尼爾可以在任何地方工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel can work anywhere with an internet connection."
+    },
+    {
+      "id": "ss48-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Campaign posters appeared in every part of the neighbourhood.",
+      "promptZh": "社區每一處都出現了宣傳海報。",
+      "promptZhSource": "pdf",
+      "starter": "Campaign",
+      "answer": "Campaign posters appeared everywhere in the neighbourhood.",
+      "answerZh": "社區裏到處都出現了宣傳海報。",
+      "answerZhSource": "pdf",
+      "highlight": "Campaign posters appeared everywhere in the neighbourhood."
+    },
+    {
+      "id": "ss48-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "No matter which seat you choose, you can see the stage clearly.",
+      "promptZh": "無論你選擇哪個座位，都可以清楚看到舞台。",
+      "promptZhSource": "pdf",
+      "starter": "Anywhere",
+      "answer": "Anywhere you sit, you can see the stage clearly.",
+      "answerZh": "無論你坐在哪裏，都可以清楚看到舞台。",
+      "answerZhSource": "pdf",
+      "highlight": "Anywhere you sit, you can see the stage clearly."
+    },
+    {
+      "id": "ss48-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sarah searched every possible place but could not find the receipt.",
+      "promptZh": "莎拉找遍所有可能的地方，但仍找不到收據。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah searched everywhere but could not find the receipt.",
+      "answerZh": "莎拉到處尋找，但仍找不到收據。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah searched everywhere but could not find the receipt."
+    },
+    {
+      "id": "ss48-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You should not leave your bicycle in any unsafe place.",
+      "promptZh": "你不應把單車留在任何不安全的地方。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should not leave your bicycle anywhere unsafe.",
+      "answerZh": "你不應把單車留在任何不安全的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "You should not leave your bicycle anywhere unsafe."
+    },
+    {
+      "id": "ss48-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "News of the result spread to every part of the school.",
+      "promptZh": "有關結果的消息傳遍了學校每一處。",
+      "promptZhSource": "pdf",
+      "starter": "News",
+      "answer": "News of the result spread everywhere in the school.",
+      "answerZh": "有關結果的消息傳遍了整間學校。",
+      "answerZhSource": "pdf",
+      "highlight": "News of the result spread everywhere in the school."
+    },
+    {
+      "id": "ss48-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Is there any quiet place where we can talk?",
+      "promptZh": "有沒有任何安靜的地方可以讓我們談話？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is there anywhere quiet where we can talk?",
+      "answerZh": "有沒有任何安靜的地方可以讓我們談話？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anywhere quiet where we can talk?"
+    },
+    {
+      "id": "ss48-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "No matter where Leo went, the dog followed him.",
+      "promptZh": "無論里奧走到哪裏，那隻狗都跟着他。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog followed Leo everywhere.",
+      "answerZh": "里奧走到哪裏，那隻狗都跟着他。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog followed Leo everywhere."
+    },
+    {
+      "id": "ss48-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You may take this book to any place you choose.",
+      "promptZh": "你可以把這本書帶到任何你選擇的地方。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may take this book anywhere you choose.",
+      "answerZh": "你可以把這本書帶到任何你選擇的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "You may take this book anywhere you choose."
+    },
+    {
+      "id": "ss48-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In every place we looked, there were signs of storm damage.",
+      "promptZh": "我們查看的每一處都有風暴造成破壞的痕跡。",
+      "promptZhSource": "pdf",
+      "starter": "Everywhere",
+      "answer": "Everywhere we looked, there were signs of storm damage.",
+      "answerZh": "我們所見之處，到處都有風暴造成破壞的痕跡。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere we looked, there were signs of storm damage."
+    },
+    {
+      "id": "ss48-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Passengers could not find a free seat in any part of the bus.",
+      "promptZh": "乘客在巴士任何位置都找不到空座位。",
+      "promptZhSource": "pdf",
+      "starter": "Passengers",
+      "answer": "Passengers could not find a free seat anywhere on the bus.",
+      "answerZh": "乘客在巴士上任何位置都找不到空座位。",
+      "answerZhSource": "pdf",
+      "highlight": "Passengers could not find a free seat anywhere on the bus."
+    },
+    {
+      "id": "ss48-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new payment system is now used throughout the company.",
+      "promptZh": "公司上下現已全面使用新的付款系統。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new payment system is now used everywhere in the company.",
+      "answerZh": "公司各處現已使用新的付款系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The new payment system is now used everywhere in the company."
+    },
+    {
+      "id": "ss48-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you notice smoke in any part of the building, press the alarm.",
+      "promptZh": "如果你在大樓任何位置發現煙霧，便按下警報器。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you notice smoke anywhere in the building, press the alarm.",
+      "answerZh": "如果你在大樓任何位置發現煙霧，便按下警報器。",
+      "answerZhSource": "pdf",
+      "highlight": "If you notice smoke anywhere in the building, press the alarm."
+    },
+    {
+      "id": "ss48-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Volunteers placed collection boxes throughout the neighbourhood.",
+      "promptZh": "義工在社區各處放置了募捐箱。",
+      "promptZhSource": "pdf",
+      "starter": "Volunteers",
+      "answer": "Volunteers placed collection boxes everywhere in the neighbourhood.",
+      "answerZh": "義工在社區各處放置了募捐箱。",
+      "answerZhSource": "pdf",
+      "highlight": "Volunteers placed collection boxes everywhere in the neighbourhood."
+    },
+    {
+      "id": "ss48-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This app lets you access your files from any location.",
+      "promptZh": "這個應用程式讓你可以從任何地點存取檔案。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can access your files anywhere with this app.",
+      "answerZh": "使用這個應用程式，你可以在任何地方存取檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "You can access your files anywhere with this app."
+    },
+    {
+      "id": "ss48-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Whispering could be heard from every part of the examination hall.",
+      "promptZh": "試場每一處都聽得到竊竊私語聲。",
+      "promptZhSource": "pdf",
+      "starter": "Whispering",
+      "answer": "Whispering could be heard everywhere in the examination hall.",
+      "answerZh": "試場各處都聽得到竊竊私語聲。",
+      "answerZhSource": "pdf",
+      "highlight": "Whispering could be heard everywhere in the examination hall."
+    },
+    {
+      "id": "ss48-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We saw no rubbish in any part of the beach.",
+      "promptZh": "我們在海灘任何地方都看不到垃圾。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We did not see any rubbish anywhere along the beach.",
+      "answerZh": "我們在整段海灘上任何地方都看不到垃圾。",
+      "answerZhSource": "pdf",
+      "highlight": "We did not see any rubbish anywhere along the beach."
+    },
+    {
+      "id": "ss48-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Wherever the nurse goes, she carries the emergency phone.",
+      "promptZh": "護士無論走到哪裏，都會帶着緊急聯絡電話。",
+      "promptZhSource": "pdf",
+      "starter": "Anywhere",
+      "answer": "Anywhere the nurse goes, she carries the emergency phone.",
+      "answerZh": "護士無論走到哪裏，都會帶着緊急聯絡電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Anywhere the nurse goes, she carries the emergency phone."
+    },
+    {
+      "id": "ss48-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The lost cat might be hiding in any nearby place.",
+      "promptZh": "那隻走失的貓可能躲在附近任何地方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lost cat might be hiding anywhere nearby.",
+      "answerZh": "那隻走失的貓可能躲在附近任何地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The lost cat might be hiding anywhere nearby."
+    },
+    {
+      "id": "ss48-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "On every street along the parade route, people came out to watch.",
+      "promptZh": "巡遊路線上的每一條街道，都有人走出來觀看。",
+      "promptZhSource": "pdf",
+      "starter": "Everywhere",
+      "answer": "Everywhere the parade passed, people came out to watch.",
+      "answerZh": "巡遊隊伍所到之處，都有人走出來觀看。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere the parade passed, people came out to watch."
+    },
+    {
+      "id": "ss48-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There is no place where this medicine is available without a prescription.",
+      "promptZh": "沒有任何地方會在沒有醫生處方的情況下提供這種藥物。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine is not available anywhere without a prescription.",
+      "answerZh": "沒有醫生處方，任何地方都不會提供這種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine is not available anywhere without a prescription."
+    },
+    {
+      "id": "ss48-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Warning signs were placed in every area where workers might face danger.",
+      "promptZh": "工人可能面對危險的每一個範圍都放置了警告標誌。",
+      "promptZhSource": "pdf",
+      "starter": "Warning",
+      "answer": "Warning signs were placed everywhere workers might face danger.",
+      "answerZh": "凡是工人可能面對危險的地方，都放置了警告標誌。",
+      "answerZhSource": "pdf",
+      "highlight": "Warning signs were placed everywhere workers might face danger."
+    },
+    {
+      "id": "ss48-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You can charge your phone in any place where there is a power socket.",
+      "promptZh": "你可以在任何設有電源插座的地方為電話充電。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can charge your phone anywhere there is a power socket.",
+      "answerZh": "任何設有電源插座的地方，都可以為電話充電。",
+      "answerZhSource": "pdf",
+      "highlight": "You can charge your phone anywhere there is a power socket."
+    },
+    {
+      "id": "ss48-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Rumours were spreading throughout the school before an announcement was made.",
+      "promptZh": "校方發出公告前，謠言已傳遍整間學校。",
+      "promptZhSource": "pdf",
+      "starter": "Rumours",
+      "answer": "Rumours were spreading everywhere in the school before an announcement was made.",
+      "answerZh": "校方發出公告前，謠言已在整間學校到處流傳。",
+      "answerZhSource": "pdf",
+      "highlight": "Rumours were spreading everywhere in the school before an announcement was made."
+    },
+    {
+      "id": "ss48-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No folder on the shared drive contained the missing file.",
+      "promptZh": "共用硬碟內沒有任何資料夾存有該份遺失的檔案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing file could not be found anywhere on the shared drive.",
+      "answerZh": "該份遺失的檔案在共用硬碟任何地方都找不到。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing file could not be found anywhere on the shared drive."
+    },
+    {
+      "id": "ss48-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Roads were closed in every area flooded by the river.",
+      "promptZh": "河水淹浸的每一個地區都需要封路。",
+      "promptZhSource": "pdf",
+      "starter": "Everywhere",
+      "answer": "Everywhere the river flooded, roads were closed.",
+      "answerZh": "河水淹浸之處，所有道路都被封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere the river flooded, roads were closed."
+    },
+    {
+      "id": "ss48-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You should report damage found in any part of the building.",
+      "promptZh": "你應該報告在大樓任何位置發現的損壞。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should report any damage you find anywhere in the building.",
+      "answerZh": "你應該報告在大樓任何位置發現的任何損壞。",
+      "answerZhSource": "pdf",
+      "highlight": "You should report any damage you find anywhere in the building."
+    },
+    {
+      "id": "ss48-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Festival decorations could be seen throughout the town.",
+      "promptZh": "鎮內各處都看得到節日裝飾。",
+      "promptZhSource": "pdf",
+      "starter": "Festival",
+      "answer": "Festival decorations could be seen everywhere in the town.",
+      "answerZh": "鎮內到處都看得到節日裝飾。",
+      "answerZhSource": "pdf",
+      "highlight": "Festival decorations could be seen everywhere in the town."
+    },
+    {
+      "id": "ss48-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Is there any place that the team has not checked yet?",
+      "promptZh": "有沒有任何地方是團隊仍未檢查的？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is there anywhere the team has not checked yet?",
+      "answerZh": "有沒有任何地方是團隊仍未檢查的？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anywhere the team has not checked yet?"
+    },
+    {
+      "id": "ss48-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In every neighbourhood reached by the new bus route, residents have easier access to the town centre.",
+      "promptZh": "新巴士路線覆蓋的每個社區，居民前往市中心都變得更方便。",
+      "promptZhSource": "pdf",
+      "starter": "Everywhere",
+      "answer": "Everywhere the new bus route reaches, residents have easier access to the town centre.",
+      "answerZh": "新巴士路線所到之處，居民前往市中心都變得更方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere the new bus route reaches, residents have easier access to the town centre."
+    },
+    {
+      "id": "ss48-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Staff can use their tablets to answer customer questions in any part of the shop.",
+      "promptZh": "職員可以使用平板電腦，在店內任何位置回答顧客問題。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff can answer customer questions anywhere in the shop by using their tablets.",
+      "answerZh": "職員可以使用平板電腦，在店內任何位置回答顧客問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff can answer customer questions anywhere in the shop by using their tablets."
+    },
+    {
+      "id": "ss48-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The safety message was displayed in every place where passengers were likely to see it.",
+      "promptZh": "安全訊息展示在乘客可能看見它的每一個位置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety message was displayed everywhere passengers were likely to see it.",
+      "answerZh": "凡是乘客可能看見安全訊息的地方，都有展示該訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety message was displayed everywhere passengers were likely to see it."
+    },
+    {
+      "id": "ss48-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The research team could not collect reliable data at any of the observation sites during the storm.",
+      "promptZh": "風暴期間，研究團隊在任何觀察地點都無法收集可靠數據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team could not collect reliable data anywhere at the observation sites during the storm.",
+      "answerZh": "風暴期間，研究團隊在各個觀察地點都無法收集可靠數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team could not collect reliable data anywhere at the observation sites during the storm."
+    },
+    {
+      "id": "ss48-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No matter where students study, the online guide gives them access to extra examples.",
+      "promptZh": "無論學生在哪裏學習，網上指南都讓他們看到額外例子。",
+      "promptZhSource": "pdf",
+      "starter": "Anywhere",
+      "answer": "Anywhere students study, the online guide gives them access to extra examples.",
+      "answerZh": "無論學生在哪裏學習，網上指南都讓他們看到額外例子。",
+      "answerZhSource": "pdf",
+      "highlight": "Anywhere students study, the online guide gives them access to extra examples."
+    },
+    {
+      "id": "ss48-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rescue team searched every place the missing hikers might have gone.",
+      "promptZh": "救援隊搜索了失蹤遠足人士可能前往的每一處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team searched everywhere the missing hikers might have gone.",
+      "answerZh": "救援隊搜索了失蹤遠足人士可能前往的所有地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team searched everywhere the missing hikers might have gone."
+    },
+    {
+      "id": "ss48-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Visitors are forbidden to take photographs in every part of the gallery.",
+      "promptZh": "訪客在展廳所有地方都禁止拍照。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors are not allowed to take photographs anywhere inside the gallery.",
+      "answerZh": "訪客不准在展廳內任何地方拍照。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors are not allowed to take photographs anywhere inside the gallery."
+    },
+    {
+      "id": "ss48-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In every town where the company opened a new branch, local people applied for jobs.",
+      "promptZh": "公司每在一個城鎮開設新分店，便有當地居民申請工作。",
+      "promptZhSource": "pdf",
+      "starter": "Everywhere",
+      "answer": "Everywhere the company opened a new branch, local people applied for jobs.",
+      "answerZh": "公司開設新分店的每個地方，都有當地居民申請工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere the company opened a new branch, local people applied for jobs."
+    },
+    {
+      "id": "ss48-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You can continue the lesson in any place with a stable internet connection.",
+      "promptZh": "你可以在任何有穩定互聯網連線的地方繼續上課。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can continue the lesson anywhere you have a stable internet connection.",
+      "answerZh": "只要有穩定的互聯網連線，你便可以在任何地方繼續上課。",
+      "answerZhSource": "pdf",
+      "highlight": "You can continue the lesson anywhere you have a stable internet connection."
+    },
+    {
+      "id": "ss48-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The emergency plan ensures that help can reach people in any part of the building.",
+      "promptZh": "緊急應變計劃確保支援能到達大樓任何位置的人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency plan ensures that help can reach people anywhere in the building.",
+      "answerZh": "緊急應變計劃確保支援能到達大樓任何位置的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency plan ensures that help can reach people anywhere in the building."
+    }
+  ]
+}

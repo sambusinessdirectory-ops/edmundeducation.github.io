@@ -1,0 +1,1197 @@
+{
+  "id": "ss53",
+  "order": 53,
+  "slug": "in-order-to-purpose",
+  "title": "「In order to + 動詞」句型",
+  "titleZh": "「In order to + 動詞」表達目的",
+  "titleEn": "Using in order to + verb to express purpose",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 53 - 「In order to + 動詞」表達目的.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + main action + in order to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss53-formula-after",
+      "labelEn": "Purpose after the main action",
+      "labelZh": "目的放在主要動作之後",
+      "formula": "Subject + main action + in order to + base verb + other information"
+    },
+    {
+      "id": "ss53-formula-fronted",
+      "labelEn": "Purpose at the beginning",
+      "labelZh": "目的放在句首",
+      "formula": "In order to + base verb + other information, + subject + main action"
+    },
+    {
+      "id": "ss53-formula-negative",
+      "labelEn": "Negative purpose",
+      "labelZh": "否定目的",
+      "formula": "In order not to + base verb"
+    }
+  ],
+  "example": "I downloaded a financial management app on my phone in order to spend my money wisely.",
+  "exampleZh": "我在手機下載了一個理財應用程式，以便更明智地花錢。",
+  "examples": [
+    {
+      "id": "ss53-example-after",
+      "en": "I downloaded a financial management app on my phone in order to spend my money wisely.",
+      "zh": "我在手機下載了一個理財應用程式，以便更明智地花錢。",
+      "highlight": "in order to spend my money wisely"
+    },
+    {
+      "id": "ss53-example-fronted",
+      "en": "In order to spend my money wisely, I downloaded a financial management app on my phone.",
+      "zh": "為了更明智地花錢，我在手機下載了一個理財應用程式。",
+      "highlight": "In order to spend my money wisely"
+    },
+    {
+      "id": "ss53-example-negative",
+      "en": "In order not to wake the baby, David spoke quietly.",
+      "zh": "為免吵醒嬰兒，大衛輕聲說話。",
+      "highlight": "In order not to wake"
+    }
+  ],
+  "meaning": {
+    "zh": "In order to + 動詞用來明確說明採取一個行動的目的；目的可以放在主要動作之後或句首。"
+  },
+  "rules": [
+    {
+      "id": "ss53-rule-01",
+      "en": "Use the base form of the verb after to.",
+      "zh": "To 後面使用動詞原形。",
+      "examples": [
+        "in order to save money",
+        "in order to improve my English"
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-rule-02",
+      "en": "In order to can appear at the beginning of the sentence or after the main action.",
+      "zh": "In order to 可以放在句首或主要動作之後；放在句首時，目的更加突出。",
+      "examples": [
+        "In order to catch the bus, Lily got up early.",
+        "Lily got up early in order to catch the bus."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-rule-03",
+      "en": "When the purpose phrase begins the sentence, place a comma after it.",
+      "zh": "目的部分放在句首時，後面要加逗號。",
+      "examples": [
+        "In order to stay healthy, Ben exercises regularly."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-rule-04",
+      "en": "The person performing both actions is normally the same. If not, use a structure such as in order to help or allow someone to act.",
+      "zh": "進行兩個動作的人通常必須相同；如不同，可使用 in order to help／allow someone 等結構。",
+      "examples": [
+        "In order to catch the first bus, Lily got up early."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-rule-05",
+      "en": "Use in order not to + base verb for a negative purpose.",
+      "zh": "否定目的使用 in order not to + 動詞原形。",
+      "examples": [
+        "In order not to wake the baby, David spoke quietly."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-rule-06",
+      "en": "Both to and in order to express purpose; in order to is more explicit and slightly more formal.",
+      "zh": "普通 to 和 in order to 都可表達目的；in order to 更明確、稍為正式，並可置於句首突出目的。",
+      "examples": [
+        "I go to school to learn something challenging.",
+        "I go to school in order to learn something challenging."
+      ],
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss53-benefit-01",
+      "en": "It clearly explains why an action is taken.",
+      "zh": "把行動和目的直接連接，讓讀者立即明白採取行動的原因。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-benefit-02",
+      "en": "It can place the most important purpose first.",
+      "zh": "當目的比行動本身更重要時，可把 In order to 放在句首先突出目標。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-benefit-03",
+      "en": "It makes a longer explanation more direct.",
+      "zh": "可省去 because I wanted to 或 so that I could 等較長說法。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-benefit-04",
+      "en": "It varies sentence openings in essays and reports.",
+      "zh": "把 In order to 放在句首可改變句子排列，避免文章聽起來過於重複。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss53-benefit-05",
+      "en": "It clearly expresses prevention.",
+      "zh": "In order not to 可明確說明某個行動是為了防止甚麼事情發生。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using in order to or in order not to to show its purpose.",
+      "Keep the original meaning unchanged and follow the word order indicated by the first-word hint.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 in order to 或 in order not to 改寫以下句子，以表達目的。",
+      "答案必須保留原句意思，並按照首字提示使用合適的句子次序。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss53-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I went to the library because I wanted to borrow a book.",
+      "promptZh": "我去了圖書館，因為我想借一本書。",
+      "starter": "I",
+      "answer": "I went to the library in order to borrow a book.",
+      "answerZh": "我去了圖書館，目的是借一本書。",
+      "answerZhSource": "pdf",
+      "highlight": "I went to the library in order to borrow a book."
+    },
+    {
+      "id": "ss53-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Lily got up early so that she could catch the first bus.",
+      "promptZh": "莉莉早起，以便趕上第一班巴士。",
+      "starter": "Lily",
+      "answer": "Lily got up early in order to catch the first bus.",
+      "answerZh": "莉莉早起，為了趕上第一班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily got up early in order to catch the first bus."
+    },
+    {
+      "id": "ss53-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Tom called his teacher because he needed to ask a question.",
+      "promptZh": "湯姆打電話給老師，因為他需要問一個問題。",
+      "starter": "Tom",
+      "answer": "Tom called his teacher in order to ask a question.",
+      "answerZh": "湯姆打電話給老師，目的是問一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom called his teacher in order to ask a question."
+    },
+    {
+      "id": "ss53-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We visited the supermarket because we wanted to buy some fresh fruit.",
+      "promptZh": "我們去了超級市場，因為我們想買一些新鮮水果。",
+      "starter": "We",
+      "answer": "We visited the supermarket in order to buy some fresh fruit.",
+      "answerZh": "我們去了超級市場，為了買一些新鮮水果。",
+      "answerZhSource": "pdf",
+      "highlight": "We visited the supermarket in order to buy some fresh fruit."
+    },
+    {
+      "id": "ss53-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia opened the window so that she could get some fresh air.",
+      "promptZh": "米婭打開窗戶，以便呼吸一些新鮮空氣。",
+      "starter": "Mia",
+      "answer": "Mia opened the window in order to get some fresh air.",
+      "answerZh": "米婭打開窗戶，為了呼吸一些新鮮空氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia opened the window in order to get some fresh air."
+    },
+    {
+      "id": "ss53-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Jack is saving money. His goal is to buy a new bicycle.",
+      "promptZh": "傑克正在存錢。他的目標是買一輛新單車。",
+      "starter": "Jack",
+      "answer": "Jack is saving money in order to buy a new bicycle.",
+      "answerZh": "傑克正在存錢，目的是買一輛新單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack is saving money in order to buy a new bicycle."
+    },
+    {
+      "id": "ss53-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why did Ben visit the doctor? He wanted to get some advice.",
+      "promptZh": "本為甚麼去看醫生？他想得到一些建議。",
+      "starter": "Ben",
+      "answer": "Ben visited the doctor in order to get some advice.",
+      "answerZh": "本去看醫生，目的是得到一些建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben visited the doctor in order to get some advice."
+    },
+    {
+      "id": "ss53-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma wore a thick coat because she wanted to stay warm.",
+      "promptZh": "艾瑪穿上厚外套，因為她想保暖。",
+      "starter": "Emma",
+      "answer": "Emma wore a thick coat in order to stay warm.",
+      "answerZh": "艾瑪穿上厚外套，為了保暖。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma wore a thick coat in order to stay warm."
+    },
+    {
+      "id": "ss53-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students practise English every day. Their aim is to improve their speaking skills.",
+      "promptZh": "學生每天練習英語。他們的目標是提升口語能力。",
+      "starter": "The",
+      "answer": "The students practise English every day in order to improve their speaking skills.",
+      "answerZh": "學生每天練習英語，目的是提升口語能力。",
+      "answerZhSource": "pdf",
+      "highlight": "The students practise English every day in order to improve their speaking skills."
+    },
+    {
+      "id": "ss53-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah joined a cooking class because she wanted to learn how to make Italian food.",
+      "promptZh": "莎拉參加烹飪班，因為她想學習製作意大利菜。",
+      "starter": "In",
+      "answer": "In order to learn how to make Italian food, Sarah joined a cooking class.",
+      "answerZh": "為了學習製作意大利菜，莎拉參加了烹飪班。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to learn how to make Italian food, Sarah joined a cooking class."
+    },
+    {
+      "id": "ss53-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "David spoke quietly so that he would not wake the baby.",
+      "promptZh": "大衛輕聲說話，以免吵醒嬰兒。",
+      "starter": "In",
+      "answer": "In order not to wake the baby, David spoke quietly.",
+      "answerZh": "為免吵醒嬰兒，大衛輕聲說話。",
+      "answerZhSource": "pdf",
+      "highlight": "In order not to wake the baby, David spoke quietly."
+    },
+    {
+      "id": "ss53-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy brought a camera because she wanted to take pictures of the beautiful view.",
+      "promptZh": "艾米帶了相機，因為她想拍下美麗的景色。",
+      "starter": "Amy",
+      "answer": "Amy brought a camera in order to take pictures of the beautiful view.",
+      "answerZh": "艾米帶了相機，為了拍下美麗的景色。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy brought a camera in order to take pictures of the beautiful view."
+    },
+    {
+      "id": "ss53-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Kevin went online. His aim was to find information about the museum.",
+      "promptZh": "凱文上網。他的目的是尋找有關博物館的資料。",
+      "starter": "In",
+      "answer": "In order to find information about the museum, Kevin went online.",
+      "answerZh": "為了尋找有關博物館的資料，凱文上網。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to find information about the museum, Kevin went online."
+    },
+    {
+      "id": "ss53-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Take an umbrella so that you can stay dry in the rain.",
+      "promptZh": "帶一把雨傘，這樣你便可以在雨中保持乾爽。",
+      "starter": "Take",
+      "answer": "Take an umbrella in order to stay dry in the rain.",
+      "answerZh": "帶一把雨傘，以便在雨中保持乾爽。",
+      "answerZhSource": "pdf",
+      "highlight": "Take an umbrella in order to stay dry in the rain."
+    },
+    {
+      "id": "ss53-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team held an extra practice because they hoped to win the next match.",
+      "promptZh": "球隊進行了額外訓練，因為他們希望在下一場比賽中勝出。",
+      "starter": "In",
+      "answer": "In order to improve their chances of winning the next match, the team held an extra practice.",
+      "answerZh": "為了增加在下一場比賽中勝出的機會，球隊進行了額外訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to improve their chances of winning the next match, the team held an extra practice."
+    },
+    {
+      "id": "ss53-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia went to the bank because she needed to open a new account.",
+      "promptZh": "奧莉花去了銀行，因為她需要開設一個新戶口。",
+      "starter": "Olivia",
+      "answer": "Olivia went to the bank in order to open a new account.",
+      "answerZh": "奧莉花去了銀行，目的是開設一個新戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia went to the bank in order to open a new account."
+    },
+    {
+      "id": "ss53-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "With the goal of improving her health, Chloe started exercising three times a week.",
+      "promptZh": "為了改善健康，克洛伊開始每星期做三次運動。",
+      "starter": "Chloe",
+      "answer": "Chloe started exercising three times a week in order to improve her health.",
+      "answerZh": "克洛伊開始每星期做三次運動，目的是改善健康。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe started exercising three times a week in order to improve her health."
+    },
+    {
+      "id": "ss53-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why are they decorating the hall? They are going to hold a school party there.",
+      "promptZh": "他們為甚麼正在佈置禮堂？他們打算在那裏舉行學校派對。",
+      "starter": "They",
+      "answer": "They are decorating the hall in order to hold a school party there.",
+      "answerZh": "他們正在佈置禮堂，目的是在那裏舉行學校派對。",
+      "answerZhSource": "pdf",
+      "highlight": "They are decorating the hall in order to hold a school party there."
+    },
+    {
+      "id": "ss53-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You should read the question carefully because you need to avoid careless mistakes.",
+      "promptZh": "你應該仔細閱讀題目，因為你需要避免粗心大意的錯誤。",
+      "starter": "In",
+      "answer": "In order to avoid making careless mistakes, you should read the question carefully.",
+      "answerZh": "為了避免犯粗心大意的錯誤，你應該仔細閱讀題目。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to avoid making careless mistakes, you should read the question carefully."
+    },
+    {
+      "id": "ss53-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Noah turned on the desk lamp because he wanted to read more clearly.",
+      "promptZh": "諾亞打開書桌燈，因為他想更清楚地閱讀。",
+      "starter": "Noah",
+      "answer": "Noah turned on the desk lamp in order to read more clearly.",
+      "answerZh": "諾亞打開書桌燈，為了更清楚地閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah turned on the desk lamp in order to read more clearly."
+    },
+    {
+      "id": "ss53-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher repeated the instructions so that everyone could understand them.",
+      "promptZh": "老師重複了指示，以便每個人都能明白。",
+      "starter": "The",
+      "answer": "The teacher repeated the instructions in order to help everyone understand them.",
+      "answerZh": "老師重複了指示，以幫助每個人明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher repeated the instructions in order to help everyone understand them."
+    },
+    {
+      "id": "ss53-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The police officer stopped the traffic so that the children could cross the road safely.",
+      "promptZh": "警員截停車輛，讓孩子們可以安全地橫過馬路。",
+      "starter": "In",
+      "answer": "In order to help the children cross the road safely, the police officer stopped the traffic.",
+      "answerZh": "為了幫助孩子們安全地橫過馬路，警員截停了車輛。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to help the children cross the road safely, the police officer stopped the traffic."
+    },
+    {
+      "id": "ss53-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My mother gave me some money so that I could buy lunch.",
+      "promptZh": "媽媽給了我一些錢，讓我可以買午餐。",
+      "starter": "My",
+      "answer": "My mother gave me some money in order to help me buy lunch.",
+      "answerZh": "媽媽給了我一些錢，以幫助我買午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "My mother gave me some money in order to help me buy lunch."
+    },
+    {
+      "id": "ss53-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The maps are provided by the museum so that visitors can find the different rooms easily.",
+      "promptZh": "博物館提供地圖，讓訪客可以輕鬆找到不同的展覽室。",
+      "starter": "The",
+      "answer": "The maps are provided by the museum in order to help visitors find the different rooms easily.",
+      "answerZh": "博物館提供地圖，以幫助訪客輕鬆找到不同的展覽室。",
+      "answerZhSource": "pdf",
+      "highlight": "The maps are provided by the museum in order to help visitors find the different rooms easily."
+    },
+    {
+      "id": "ss53-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "More water fountains were installed by the school so that students could refill their bottles easily.",
+      "promptZh": "學校安裝了更多飲水機，讓學生可以輕鬆地為水瓶加水。",
+      "starter": "More",
+      "answer": "More water fountains were installed by the school in order to make it easier for students to refill their bottles.",
+      "answerZh": "學校安裝了更多飲水機，讓學生可以更輕鬆地為水瓶加水。",
+      "answerZhSource": "pdf",
+      "highlight": "More water fountains were installed by the school in order to make it easier for students to refill their bottles."
+    },
+    {
+      "id": "ss53-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The village council built a small bridge so that the villagers could cross the river safely.",
+      "promptZh": "村議會建造了一座小橋，讓村民可以安全地過河。",
+      "starter": "The",
+      "answer": "The village council built a small bridge in order to allow the villagers to cross the river safely.",
+      "answerZh": "村議會建造了一座小橋，讓村民可以安全地過河。",
+      "answerZhSource": "pdf",
+      "highlight": "The village council built a small bridge in order to allow the villagers to cross the river safely."
+    },
+    {
+      "id": "ss53-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "With the aim of making fewer spelling mistakes, Grace checked her work twice.",
+      "promptZh": "為了減少串字錯誤，格蕾絲檢查了自己的功課兩次。",
+      "starter": "In",
+      "answer": "In order to reduce her spelling mistakes, Grace checked her work twice.",
+      "answerZh": "為了減少串字錯誤，格蕾絲檢查了自己的功課兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to reduce her spelling mistakes, Grace checked her work twice."
+    },
+    {
+      "id": "ss53-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel checked the train timetable because he did not want to miss the last train.",
+      "promptZh": "丹尼爾查看火車時間表，因為他不想錯過尾班車。",
+      "starter": "Daniel",
+      "answer": "Daniel checked the train timetable in order not to miss the last train.",
+      "answerZh": "丹尼爾查看火車時間表，以免錯過尾班車。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel checked the train timetable in order not to miss the last train."
+    },
+    {
+      "id": "ss53-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ava lowered her voice because she did not want to disturb the people who were reading.",
+      "promptZh": "艾娃降低聲量，因為她不想打擾正在閱讀的人。",
+      "starter": "In",
+      "answer": "In order not to disturb the people who were reading, Ava lowered her voice.",
+      "answerZh": "為免打擾正在閱讀的人，艾娃降低了聲量。",
+      "answerZhSource": "pdf",
+      "highlight": "In order not to disturb the people who were reading, Ava lowered her voice."
+    },
+    {
+      "id": "ss53-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Lucy wrote a list of everything she needed so that she would not forget anything at the supermarket.",
+      "promptZh": "露西寫下了所有需要的東西，以免在超級市場遺漏任何東西。",
+      "starter": "Lucy",
+      "answer": "Lucy wrote a list of everything she needed in order not to forget anything at the supermarket.",
+      "answerZh": "露西寫下了所有需要的東西，以免在超級市場遺漏任何東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Lucy wrote a list of everything she needed in order not to forget anything at the supermarket."
+    },
+    {
+      "id": "ss53-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Press this button if you need to turn on the computer.",
+      "promptZh": "如需開啟電腦，請按這個按鈕。",
+      "starter": "Press",
+      "answer": "Press this button in order to turn on the computer.",
+      "answerZh": "按這個按鈕，以便開啟電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Press this button in order to turn on the computer."
+    },
+    {
+      "id": "ss53-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Use this key if you need to open the back door.",
+      "promptZh": "如需打開後門，請使用這把鑰匙。",
+      "starter": "Use",
+      "answer": "Use this key in order to open the back door.",
+      "answerZh": "使用這把鑰匙，以打開後門。",
+      "answerZhSource": "pdf",
+      "highlight": "Use this key in order to open the back door."
+    },
+    {
+      "id": "ss53-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did the chef taste the soup? He wanted to check whether it needed more salt.",
+      "promptZh": "廚師為甚麼品嘗湯？他想檢查湯是否需要加更多鹽。",
+      "starter": "The",
+      "answer": "The chef tasted the soup in order to check whether it needed more salt.",
+      "answerZh": "廚師品嘗湯，目的是檢查湯是否需要加更多鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef tasted the soup in order to check whether it needed more salt."
+    },
+    {
+      "id": "ss53-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Maya carries a reusable bottle because she wants to reduce plastic waste.",
+      "promptZh": "瑪雅攜帶可重用水瓶，因為她想減少塑膠廢物。",
+      "starter": "Maya",
+      "answer": "Maya carries a reusable bottle in order to reduce plastic waste.",
+      "answerZh": "瑪雅攜帶可重用水瓶，目的是減少塑膠廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya carries a reusable bottle in order to reduce plastic waste."
+    },
+    {
+      "id": "ss53-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse closed the door because she wanted to give the patient more privacy.",
+      "promptZh": "護士關上房門，因為她想讓病人有更多私人空間。",
+      "starter": "In",
+      "answer": "In order to give the patient more privacy, the nurse closed the door.",
+      "answerZh": "為了讓病人有更多私人空間，護士關上了房門。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to give the patient more privacy, the nurse closed the door."
+    },
+    {
+      "id": "ss53-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "With the intention of making the room brighter, Zoe opened the curtains.",
+      "promptZh": "為了讓房間更加明亮，佐伊拉開了窗簾。",
+      "starter": "In",
+      "answer": "In order to make the room brighter, Zoe opened the curtains.",
+      "answerZh": "為了讓房間更加明亮，佐伊拉開了窗簾。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to make the room brighter, Zoe opened the curtains."
+    },
+    {
+      "id": "ss53-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ethan went to the customer service desk. He needed to ask for help with his lost bag.",
+      "promptZh": "伊森去了顧客服務處。他需要就遺失的袋子尋求協助。",
+      "starter": "Ethan",
+      "answer": "Ethan went to the customer service desk in order to ask for help with his lost bag.",
+      "answerZh": "伊森去了顧客服務處，目的是就遺失的袋子尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan went to the customer service desk in order to ask for help with his lost bag."
+    },
+    {
+      "id": "ss53-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you want to protect your hands from the paint, wear these gloves.",
+      "promptZh": "如果你想保護雙手，避免沾上油漆，便應戴上這些手套。",
+      "starter": "Wear",
+      "answer": "Wear these gloves in order to protect your hands from the paint.",
+      "answerZh": "戴上這些手套，以保護雙手，避免沾上油漆。",
+      "answerZhSource": "pdf",
+      "highlight": "Wear these gloves in order to protect your hands from the paint."
+    },
+    {
+      "id": "ss53-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach showed the players a video of their previous game. His goal was to help them understand their mistakes.",
+      "promptZh": "教練向球員播放上一場比賽的影片。他的目標是幫助他們了解自己的錯誤。",
+      "starter": "The",
+      "answer": "The coach showed the players a video of their previous game in order to help them understand their mistakes.",
+      "answerZh": "教練向球員播放上一場比賽的影片，以幫助他們了解自己的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach showed the players a video of their previous game in order to help them understand their mistakes."
+    },
+    {
+      "id": "ss53-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company introduced flexible working hours so that employees could balance work and family life more easily.",
+      "promptZh": "公司引入彈性工作時間，讓僱員可以更輕鬆地平衡工作與家庭生活。",
+      "starter": "The",
+      "answer": "The company introduced flexible working hours in order to help employees balance work and family life more easily.",
+      "answerZh": "公司引入彈性工作時間，以幫助僱員更輕鬆地平衡工作與家庭生活。",
+      "answerZhSource": "pdf",
+      "highlight": "The company introduced flexible working hours in order to help employees balance work and family life more easily."
+    },
+    {
+      "id": "ss53-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school sends weekly messages so that parents can follow their children’s progress.",
+      "promptZh": "學校每星期發送訊息，讓家長可以了解子女的學習進度。",
+      "starter": "In",
+      "answer": "In order to help parents follow their children’s progress, the school sends weekly messages.",
+      "answerZh": "為了幫助家長了解子女的學習進度，學校每星期發送訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to help parents follow their children’s progress, the school sends weekly messages."
+    },
+    {
+      "id": "ss53-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Clearer signs were added by the hospital so that visitors could find the different departments more easily.",
+      "promptZh": "醫院增設了更清晰的指示牌，讓訪客可以更輕鬆地找到不同部門。",
+      "starter": "Clearer",
+      "answer": "Clearer signs were added by the hospital in order to help visitors find the different departments more easily.",
+      "answerZh": "醫院增設了更清晰的指示牌，以幫助訪客更輕鬆地找到不同部門。",
+      "answerZhSource": "pdf",
+      "highlight": "Clearer signs were added by the hospital in order to help visitors find the different departments more easily."
+    },
+    {
+      "id": "ss53-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The developers designed the app so that users would remember their appointments.",
+      "promptZh": "開發人員設計了這個應用程式，讓使用者記得自己的預約。",
+      "starter": "In",
+      "answer": "In order to help users remember their appointments, the developers designed the app.",
+      "answerZh": "為了幫助使用者記得自己的預約，開發人員設計了這個應用程式。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to help users remember their appointments, the developers designed the app."
+    },
+    {
+      "id": "ss53-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The council expanded the cycling path because it wanted to encourage residents to travel without using cars.",
+      "promptZh": "市議會擴建單車徑，因為它希望鼓勵居民不駕車出行。",
+      "starter": "In",
+      "answer": "In order to encourage residents to travel without using cars, the council expanded the cycling path.",
+      "answerZh": "為了鼓勵居民不駕車出行，市議會擴建了單車徑。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to encourage residents to travel without using cars, the council expanded the cycling path."
+    },
+    {
+      "id": "ss53-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager divided the project into clear stages so that the team could track its progress more easily.",
+      "promptZh": "經理把項目分成清晰的階段，讓團隊可以更輕鬆地跟進進度。",
+      "starter": "The",
+      "answer": "The manager divided the project into clear stages in order to make it easier for the team to track its progress.",
+      "answerZh": "經理把項目分成清晰的階段，讓團隊可以更輕鬆地跟進進度。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager divided the project into clear stages in order to make it easier for the team to track its progress."
+    },
+    {
+      "id": "ss53-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The librarian created a quiet study area so that students would have a place where they could work without being disturbed.",
+      "promptZh": "圖書館管理員設立了一個安靜的溫習區，讓學生有地方不受打擾地學習。",
+      "starter": "In",
+      "answer": "In order to give students a quiet place to work without being disturbed, the librarian created a quiet study area.",
+      "answerZh": "為了讓學生有一個不受打擾的安靜學習空間，圖書館管理員設立了安靜的溫習區。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to give students a quiet place to work without being disturbed, the librarian created a quiet study area."
+    },
+    {
+      "id": "ss53-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organiser sent everyone a route map in advance because she wanted to prevent participants from getting lost.",
+      "promptZh": "主辦人預先向所有人發送路線圖，因為她想防止參加者迷路。",
+      "starter": "The",
+      "answer": "The organiser sent everyone a route map in advance in order to prevent participants from getting lost.",
+      "answerZh": "主辦人預先向所有人發送路線圖，以防參加者迷路。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser sent everyone a route map in advance in order to prevent participants from getting lost."
+    },
+    {
+      "id": "ss53-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The engineers tested the alarm several times because they needed to make sure it would work in an emergency.",
+      "promptZh": "工程師測試警報器數次，因為他們需要確保它在緊急情況下能夠運作。",
+      "starter": "In",
+      "answer": "In order to make sure the alarm would work in an emergency, the engineers tested it several times.",
+      "answerZh": "為了確保警報器在緊急情況下能夠運作，工程師測試了它數次。",
+      "answerZhSource": "pdf",
+      "highlight": "In order to make sure the alarm would work in an emergency, the engineers tested it several times."
+    },
+    {
+      "id": "ss53-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The customer service team recorded common questions so that new staff could answer customers’ questions more consistently.",
+      "promptZh": "顧客服務團隊記錄常見問題，讓新員工可以更一致地回答顧客的問題。",
+      "starter": "The",
+      "answer": "The customer service team recorded common questions in order to help new staff answer customers’ questions more consistently.",
+      "answerZh": "顧客服務團隊記錄常見問題，以幫助新員工更一致地回答顧客的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer service team recorded common questions in order to help new staff answer customers’ questions more consistently."
+    },
+    {
+      "id": "ss53-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The local library’s weekend opening hours were extended so that working adults could borrow books more easily.",
+      "promptZh": "區內圖書館延長了週末開放時間，讓在職成年人可以更容易借書。",
+      "starter": "The",
+      "answer": "The local library’s weekend opening hours were extended in order to make it easier for working adults to borrow books.",
+      "answerZh": "區內圖書館延長了週末開放時間，讓在職成年人可以更容易借書。",
+      "answerZhSource": "pdf",
+      "highlight": "The local library’s weekend opening hours were extended in order to make it easier for working adults to borrow books."
+    }
+  ]
+}

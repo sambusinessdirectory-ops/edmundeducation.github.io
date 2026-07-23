@@ -1,0 +1,1201 @@
+{
+  "id": "ss68",
+  "order": 68,
+  "slug": "be-used-to-accustomed",
+  "title": "「Be used to + 名詞／V-ing」句型",
+  "titleZh": "「Be used to + 名詞／V-ing」表示「習慣於……」",
+  "titleEn": "Using Be used to for being accustomed to something",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 68 -「Be used to + 名詞／V-ing」表示「習慣於……」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + used to + noun / pronoun / V-ing + other information",
+  "formulas": [
+    {
+      "id": "ss68-formula-core",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + be + used to + noun / pronoun / V-ing + other information"
+    },
+    {
+      "id": "ss68-formula-negative",
+      "labelEn": "Negative form",
+      "labelZh": "否定句",
+      "formula": "Subject + be + not + used to + noun / V-ing"
+    },
+    {
+      "id": "ss68-formula-question",
+      "labelEn": "Question form",
+      "labelZh": "問句",
+      "formula": "Be + subject + used to + noun / V-ing?"
+    }
+  ],
+  "example": "I am now used to the local culture.",
+  "exampleZh": "我現在已習慣當地文化。",
+  "examples": [
+    {
+      "id": "ss68-example-noun",
+      "en": "I am now used to the local culture.",
+      "zh": "我現在已習慣當地文化。",
+      "highlight": "am now used to the local culture"
+    },
+    {
+      "id": "ss68-example-gerund",
+      "en": "Tim is now used to talking to strangers.",
+      "zh": "Tim 現在已經習慣和陌生人說話。",
+      "highlight": "is now used to talking"
+    }
+  ],
+  "meaning": {
+    "zh": "Be used to 表示某人已經習慣某件事或某項活動，現在或當時不再覺得陌生、奇怪或難以適應。"
+  },
+  "rules": [
+    {
+      "id": "ss68-rule-01",
+      "en": "In be used to, to is a preposition, so it is followed by a noun, pronoun or V-ing form.",
+      "zh": "在 be used to 中，to 是介詞而不是不定詞標記，因此後面應接名詞、代名詞或 V-ing。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She is used to working late.",
+        "She is used to the noise.",
+        "She is used to it."
+      ]
+    },
+    {
+      "id": "ss68-rule-02",
+      "en": "Change the verb be to agree with the subject and time.",
+      "zh": "Be 動詞要配合主語和時間改變：現在使用 am、is 或 are；過去使用 was 或 were；將來使用 will be。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I am used to it.",
+        "She was used to it.",
+        "They will be used to it."
+      ]
+    },
+    {
+      "id": "ss68-rule-03",
+      "en": "Place not after the verb be to form a negative sentence.",
+      "zh": "否定句使用主語 + be + not + used to + 名詞／V-ing。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I am not used to working at night."
+      ]
+    },
+    {
+      "id": "ss68-rule-04",
+      "en": "Place the verb be before the subject to form a question.",
+      "zh": "問句把 be 動詞放在主語之前。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Are you used to speaking in public?"
+      ]
+    },
+    {
+      "id": "ss68-rule-05",
+      "en": "Be used to + noun / V-ing means being accustomed to something; used to + base verb describes a past habit or state.",
+      "zh": "Be used to + 名詞／V-ing 表示習慣某事；used to + 動詞原形表示過去經常做某事或過去的狀態。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Tim is used to talking to strangers.",
+        "Tim used to talk to strangers every day."
+      ]
+    },
+    {
+      "id": "ss68-rule-06",
+      "en": "Be used to describes the state of already being accustomed; get used to describes the process of becoming accustomed.",
+      "zh": "Be used to 表示已經習慣的狀態；get used to 表示由不習慣逐漸變成習慣的過程。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I am used to the new culture now.",
+        "It is difficult to get used to another culture."
+      ]
+    },
+    {
+      "id": "ss68-rule-07",
+      "en": "Do not confuse be used to + noun / V-ing with the passive be used to + base verb, meaning ‘be employed for a purpose’.",
+      "zh": "不要把表示「習慣於」的 be used to + 名詞／V-ing，與表示「被用來」的被動語態 be used to + 動詞原形混淆。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This knife is used to cut bread."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss68-benefit-01",
+      "en": "It clearly shows that something no longer feels unfamiliar.",
+      "zh": "這個句型可以直接說明一個人已適應某個環境、活動或生活方式。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss68-benefit-02",
+      "en": "It is useful for describing adjustment to a new school, job, culture, schedule, transport or lifestyle.",
+      "zh": "你可以使用這個句型談論新學校、新工作、新文化、工作時間、交通方式和生活習慣。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss68-benefit-03",
+      "en": "It can describe both things with nouns and activities with V-ing forms.",
+      "zh": "使用名詞可以描述已習慣的事物；使用 V-ing 可以描述已習慣進行的活動。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss68-benefit-04",
+      "en": "Changing the verb be lets you describe being accustomed in the present, past or future.",
+      "zh": "只要改變 be 動詞，便可以說明現在、過去或將來是否習慣某事。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss68-benefit-05",
+      "en": "It can replace a longer explanation with a more direct and natural sentence.",
+      "zh": "這個句型能以較直接的方式表達某事已不再陌生，適合自然的說話和寫作。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using be used to + noun or V-ing without changing its meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be used to + 名詞或 V-ing 改寫以下句子，並保持原意不變。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss68-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Waking up at six feels normal to me now.",
+      "promptZh": "現在六時起床對我來說已經很平常。",
+      "starter": "I",
+      "answer": "I am used to waking up at six.",
+      "answerZh": "我已習慣在六時起床。",
+      "answerZhSource": "pdf",
+      "highlight": "I am used to waking up at six."
+    },
+    {
+      "id": "ss68-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Traffic noise no longer bothers Ella.",
+      "promptZh": "交通噪音已不再令艾拉感到困擾。",
+      "starter": "Ella",
+      "answer": "Ella is used to traffic noise.",
+      "answerZh": "艾拉已習慣交通噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella is used to traffic noise."
+    },
+    {
+      "id": "ss68-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Eating dinner late feels normal to us.",
+      "promptZh": "較晚吃晚飯對我們來說很平常。",
+      "starter": "We",
+      "answer": "We are used to eating dinner late.",
+      "answerZh": "我們已習慣較晚吃晚飯。",
+      "answerZhSource": "pdf",
+      "highlight": "We are used to eating dinner late."
+    },
+    {
+      "id": "ss68-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo no longer finds cold weather strange.",
+      "promptZh": "里奧已不再覺得寒冷的天氣奇怪。",
+      "starter": "Leo",
+      "answer": "Leo is used to cold weather.",
+      "answerZh": "里奧已習慣寒冷的天氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo is used to cold weather."
+    },
+    {
+      "id": "ss68-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Travelling by bus every day has become normal for my brother.",
+      "promptZh": "每天乘巴士對我哥哥來說已變得很平常。",
+      "starter": "My",
+      "answer": "My brother is used to travelling by bus every day.",
+      "answerZh": "我哥哥已習慣每天乘巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother is used to travelling by bus every day."
+    },
+    {
+      "id": "ss68-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Speaking English in class feels normal to the students now.",
+      "promptZh": "現在在課堂上說英語對學生來說已很平常。",
+      "starter": "The",
+      "answer": "The students are used to speaking English in class.",
+      "answerZh": "學生已習慣在課堂上說英語。",
+      "answerZhSource": "pdf",
+      "highlight": "The students are used to speaking English in class."
+    },
+    {
+      "id": "ss68-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Working at night is normal for this nurse.",
+      "promptZh": "夜間工作對這名護士來說很平常。",
+      "starter": "This",
+      "answer": "This nurse is used to working at night.",
+      "answerZh": "這名護士已習慣夜間工作。",
+      "answerZhSource": "pdf",
+      "highlight": "This nurse is used to working at night."
+    },
+    {
+      "id": "ss68-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Carrying a laptop to school is part of Mia’s daily routine.",
+      "promptZh": "攜帶手提電腦上學是米婭日常生活的一部分。",
+      "starter": "Mia",
+      "answer": "Mia is used to carrying a laptop to school.",
+      "answerZh": "米婭已習慣攜帶手提電腦上學。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is used to carrying a laptop to school."
+    },
+    {
+      "id": "ss68-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The strong taste of black coffee no longer surprises Ben.",
+      "promptZh": "黑咖啡的濃烈味道已不再令本感到意外。",
+      "starter": "Ben",
+      "answer": "Ben is used to the strong taste of black coffee.",
+      "answerZh": "本已習慣黑咖啡的濃烈味道。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben is used to the strong taste of black coffee."
+    },
+    {
+      "id": "ss68-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why does Sara not feel distracted while working in a busy café? The noise there feels familiar to her.",
+      "promptZh": "莎拉在繁忙的咖啡店工作時為甚麼不會分心？那裏的噪音對她來說很熟悉。",
+      "starter": "Sara",
+      "answer": "Sara is used to the noise in a busy café.",
+      "answerZh": "莎拉已習慣繁忙咖啡店裏的噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara is used to the noise in a busy café."
+    },
+    {
+      "id": "ss68-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Starting work at seven is part of Daniel’s normal routine.",
+      "promptZh": "七時開始工作是丹尼爾正常生活的一部分。",
+      "starter": "Daniel",
+      "answer": "Daniel is used to starting work at seven.",
+      "answerZh": "丹尼爾已習慣在七時開始工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel is used to starting work at seven."
+    },
+    {
+      "id": "ss68-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The hot summers no longer feel unusual to Chloe.",
+      "promptZh": "炎熱的夏天對克洛伊來說已不再異常。",
+      "starter": "Chloe",
+      "answer": "Chloe is used to hot summers.",
+      "answerZh": "克洛伊已習慣炎熱的夏天。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe is used to hot summers."
+    },
+    {
+      "id": "ss68-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My grandparents now feel comfortable using video calls.",
+      "promptZh": "我的祖父母現在使用視像通話時已感到自在。",
+      "starter": "My",
+      "answer": "My grandparents are used to using video calls.",
+      "answerZh": "我的祖父母已習慣使用視像通話。",
+      "answerZhSource": "pdf",
+      "highlight": "My grandparents are used to using video calls."
+    },
+    {
+      "id": "ss68-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It no longer seems strange to me to share a room with my sister.",
+      "promptZh": "與妹妹共用房間對我來說已不再奇怪。",
+      "starter": "I",
+      "answer": "I am used to sharing a room with my sister.",
+      "answerZh": "我已習慣與妹妹共用房間。",
+      "answerZhSource": "pdf",
+      "highlight": "I am used to sharing a room with my sister."
+    },
+    {
+      "id": "ss68-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team does not mind training in the rain anymore.",
+      "promptZh": "球隊現在已不介意在雨中訓練。",
+      "starter": "The",
+      "answer": "The team is used to training in the rain.",
+      "answerZh": "球隊已習慣在雨中訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The team is used to training in the rain."
+    },
+    {
+      "id": "ss68-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "At first, typing on the small keyboard felt awkward to Noah, but now it feels normal.",
+      "promptZh": "起初，在小鍵盤上打字令諾亞感到不自在，但現在已很平常。",
+      "starter": "Noah",
+      "answer": "Noah is now used to typing on the small keyboard.",
+      "answerZh": "諾亞現在已習慣在小鍵盤上打字。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah is now used to typing on the small keyboard."
+    },
+    {
+      "id": "ss68-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The smell of paint has become familiar to the workers.",
+      "promptZh": "油漆的氣味對工人來說已變得熟悉。",
+      "starter": "The",
+      "answer": "The workers are used to the smell of paint.",
+      "answerZh": "工人已習慣油漆的氣味。",
+      "answerZhSource": "pdf",
+      "highlight": "The workers are used to the smell of paint."
+    },
+    {
+      "id": "ss68-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Working without air conditioning no longer feels unusual to us.",
+      "promptZh": "在沒有冷氣的環境下工作對我們來說已不再異常。",
+      "starter": "We",
+      "answer": "We are used to working without air conditioning.",
+      "answerZh": "我們已習慣在沒有冷氣的環境下工作。",
+      "answerZhSource": "pdf",
+      "highlight": "We are used to working without air conditioning."
+    },
+    {
+      "id": "ss68-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Does speaking in front of large groups feel normal to you?",
+      "promptZh": "在一大群人面前說話對你來說平常嗎？",
+      "starter": "Are",
+      "answer": "Are you used to speaking in front of large groups?",
+      "answerZh": "你習慣在一大群人面前說話嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Are you used to speaking in front of large groups?"
+    },
+    {
+      "id": "ss68-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After several weeks, Maya felt comfortable with the new school timetable.",
+      "promptZh": "數星期後，瑪雅已適應新的學校時間表。",
+      "starter": "After",
+      "answer": "After several weeks, Maya was used to the new school timetable.",
+      "answerZh": "數星期後，瑪雅已習慣新的學校時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "After several weeks, Maya was used to the new school timetable."
+    },
+    {
+      "id": "ss68-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When he lived in London, rainy mornings felt normal to Ethan.",
+      "promptZh": "伊森住在倫敦時，下雨的早晨對他來說很平常。",
+      "starter": "Ethan",
+      "answer": "Ethan was used to rainy mornings when he lived in London.",
+      "answerZh": "伊森住在倫敦時，已習慣下雨的早晨。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan was used to rainy mornings when he lived in London."
+    },
+    {
+      "id": "ss68-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At that time, sharing a desk did not feel strange to me.",
+      "promptZh": "當時，與別人共用書桌對我來說並不奇怪。",
+      "starter": "I",
+      "answer": "I was used to sharing a desk at that time.",
+      "answerZh": "我當時已習慣與別人共用書桌。",
+      "answerZhSource": "pdf",
+      "highlight": "I was used to sharing a desk at that time."
+    },
+    {
+      "id": "ss68-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Before the office moved, working in a small room felt normal to the staff.",
+      "promptZh": "辦公室搬遷前，在細小房間工作對職員來說很平常。",
+      "starter": "Before",
+      "answer": "Before the office moved, the staff were used to working in a small room.",
+      "answerZh": "辦公室搬遷前，職員已習慣在細小房間工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the office moved, the staff were used to working in a small room."
+    },
+    {
+      "id": "ss68-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Handling customer complaints had become normal to Olivia after several years in customer service.",
+      "promptZh": "在顧客服務工作數年後，處理顧客投訴對奧莉花來說已變得很平常。",
+      "starter": "Olivia",
+      "answer": "Olivia was used to handling customer complaints after several years in customer service.",
+      "answerZh": "在顧客服務工作數年後，奧莉花已習慣處理顧客投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia was used to handling customer complaints after several years in customer service."
+    },
+    {
+      "id": "ss68-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Were long train journeys normal for your parents?",
+      "promptZh": "長途火車旅程對你的父母來說平常嗎？",
+      "starter": "Were",
+      "answer": "Were your parents used to long train journeys?",
+      "answerZh": "你的父母習慣長途火車旅程嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Were your parents used to long train journeys?"
+    },
+    {
+      "id": "ss68-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children were unfamiliar with sleeping away from home.",
+      "promptZh": "孩子們不習慣在家以外的地方睡覺。",
+      "starter": "The",
+      "answer": "The children were not used to sleeping away from home.",
+      "answerZh": "孩子們不習慣在家以外的地方睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "The children were not used to sleeping away from home."
+    },
+    {
+      "id": "ss68-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At first, the local accent was unfamiliar to me.",
+      "promptZh": "起初，當地口音對我來說很陌生。",
+      "starter": "I",
+      "answer": "I was not used to the local accent at first.",
+      "answerZh": "起初，我不習慣當地口音。",
+      "answerZhSource": "pdf",
+      "highlight": "I was not used to the local accent at first."
+    },
+    {
+      "id": "ss68-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After six months, living alone felt completely normal to Grace.",
+      "promptZh": "六個月後，獨居對格蕾絲來說已完全變得平常。",
+      "starter": "Grace",
+      "answer": "Grace was used to living alone after six months.",
+      "answerZh": "六個月後，格蕾絲已習慣獨居。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace was used to living alone after six months."
+    },
+    {
+      "id": "ss68-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The chef had spent years in hot kitchens, so the heat felt normal to him.",
+      "promptZh": "廚師曾在炎熱的廚房工作多年，因此那種熱力對他來說很平常。",
+      "starter": "After",
+      "answer": "After spending years in hot kitchens, the chef was used to the heat.",
+      "answerZh": "在炎熱的廚房工作多年後，廚師已習慣那種熱力。",
+      "answerZhSource": "pdf",
+      "highlight": "After spending years in hot kitchens, the chef was used to the heat."
+    },
+    {
+      "id": "ss68-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did the early meeting not bother the manager? Starting work before sunrise was normal for her.",
+      "promptZh": "早上的會議為甚麼沒有令經理感到困擾？日出前開始工作對她來說很平常。",
+      "starter": "The",
+      "answer": "The manager was used to starting work before sunrise.",
+      "answerZh": "經理已習慣在日出前開始工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager was used to starting work before sunrise."
+    },
+    {
+      "id": "ss68-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Wearing a helmet every day has become normal for the cyclists.",
+      "promptZh": "每天戴頭盔對單車手來說已變得很平常。",
+      "starter": "The",
+      "answer": "The cyclists are used to wearing a helmet every day.",
+      "answerZh": "單車手已習慣每天戴頭盔。",
+      "answerZhSource": "pdf",
+      "highlight": "The cyclists are used to wearing a helmet every day."
+    },
+    {
+      "id": "ss68-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new software now feels familiar to Ava.",
+      "promptZh": "這套新軟件現在對艾娃來說已很熟悉。",
+      "starter": "Ava",
+      "answer": "Ava is used to the new software.",
+      "answerZh": "艾娃已習慣這套新軟件。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava is used to the new software."
+    },
+    {
+      "id": "ss68-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The building work is still going on, but studying beside the noise now feels normal to us.",
+      "promptZh": "建築工程仍在進行，但在那些噪音旁溫習對我們來說已變得平常。",
+      "starter": "We",
+      "answer": "We are used to studying while the building work is going on.",
+      "answerZh": "我們已習慣在建築工程進行時溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "We are used to studying while the building work is going on."
+    },
+    {
+      "id": "ss68-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Henry no longer feels nervous when answering questions in English.",
+      "promptZh": "亨利用英語回答問題時已不再感到緊張。",
+      "starter": "Henry",
+      "answer": "Henry is used to answering questions in English.",
+      "answerZh": "亨利已習慣用英語回答問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Henry is used to answering questions in English."
+    },
+    {
+      "id": "ss68-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The residents have lived beside the airport for years, so aircraft noise feels normal to them.",
+      "promptZh": "居民在機場旁居住多年，因此飛機噪音對他們來說很平常。",
+      "starter": "The",
+      "answer": "The residents are used to aircraft noise after living beside the airport for years.",
+      "answerZh": "在機場旁居住多年後，居民已習慣飛機噪音。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents are used to aircraft noise after living beside the airport for years."
+    },
+    {
+      "id": "ss68-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As a delivery driver, Paula regularly lifts heavy boxes and no longer finds it difficult.",
+      "promptZh": "作為送貨司機，寶拉經常搬運重箱，現在已不再覺得困難。",
+      "starter": "Paula",
+      "answer": "Paula is used to lifting heavy boxes as a delivery driver.",
+      "answerZh": "作為送貨司機，寶拉已習慣搬運重箱。",
+      "answerZhSource": "pdf",
+      "highlight": "Paula is used to lifting heavy boxes as a delivery driver."
+    },
+    {
+      "id": "ss68-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Online homework felt strange to the students at first, but now it feels normal.",
+      "promptZh": "網上功課起初令學生感到陌生，但現在已很平常。",
+      "starter": "The",
+      "answer": "The students are now used to doing homework online.",
+      "answerZh": "學生現在已習慣在網上做功課。",
+      "answerZhSource": "pdf",
+      "highlight": "The students are now used to doing homework online."
+    },
+    {
+      "id": "ss68-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Wearing formal shoes still feels unfamiliar to me.",
+      "promptZh": "穿正式鞋履對我來說仍然很不習慣。",
+      "starter": "I",
+      "answer": "I am not used to wearing formal shoes.",
+      "answerZh": "我不習慣穿正式鞋履。",
+      "answerZhSource": "pdf",
+      "highlight": "I am not used to wearing formal shoes."
+    },
+    {
+      "id": "ss68-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Does living in a very small flat feel normal to your cousin?",
+      "promptZh": "住在非常細小的單位對你的表親來說平常嗎？",
+      "starter": "Is",
+      "answer": "Is your cousin used to living in a very small flat?",
+      "answerZh": "你的表親習慣住在非常細小的單位嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is your cousin used to living in a very small flat?"
+    },
+    {
+      "id": "ss68-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The rescue team had faced dangerous conditions many times, so working under pressure felt normal.",
+      "promptZh": "救援隊曾多次面對危險情況，因此在壓力下工作對他們來說很平常。",
+      "starter": "The",
+      "answer": "The rescue team was used to working under pressure.",
+      "answerZh": "救援隊已習慣在壓力下工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team was used to working under pressure."
+    },
+    {
+      "id": "ss68-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After years abroad, eating different kinds of food no longer seems unusual to Sofia.",
+      "promptZh": "在外國生活多年後，吃不同種類的食物對蘇菲亞來說已不再特別。",
+      "starter": "Sofia",
+      "answer": "Sofia is used to eating different kinds of food after years abroad.",
+      "answerZh": "在外國生活多年後，蘇菲亞已習慣吃不同種類的食物。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia is used to eating different kinds of food after years abroad."
+    },
+    {
+      "id": "ss68-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital staff work through public holidays so often that it feels normal to them.",
+      "promptZh": "醫院職員經常在公眾假期工作，因此這對他們來說已很平常。",
+      "starter": "The",
+      "answer": "The hospital staff are used to working through public holidays.",
+      "answerZh": "醫院職員已習慣在公眾假期工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital staff are used to working through public holidays."
+    },
+    {
+      "id": "ss68-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At first, the flexible schedule confused Marcus, but after a month it became part of his routine.",
+      "promptZh": "起初，彈性時間表令馬庫斯感到困惑，但一個月後，它已成為其日常生活的一部分。",
+      "starter": "After",
+      "answer": "After a month, Marcus was used to the flexible schedule.",
+      "answerZh": "一個月後，馬庫斯已習慣彈性時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "After a month, Marcus was used to the flexible schedule."
+    },
+    {
+      "id": "ss68-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The volunteers often speak to people from many countries, so doing so no longer feels difficult.",
+      "promptZh": "義工經常與來自不同國家的人交談，因此這樣做已不再令他們感到困難。",
+      "starter": "The",
+      "answer": "The volunteers are used to speaking to people from many countries.",
+      "answerZh": "義工已習慣與來自不同國家的人交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers are used to speaking to people from many countries."
+    },
+    {
+      "id": "ss68-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The researchers have worked in the cold laboratory for so long that the low temperature feels normal.",
+      "promptZh": "研究人員在寒冷的實驗室工作已久，因此低溫對他們來說很平常。",
+      "starter": "The",
+      "answer": "The researchers are used to the low temperature in the laboratory.",
+      "answerZh": "研究人員已習慣實驗室內的低溫。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers are used to the low temperature in the laboratory."
+    },
+    {
+      "id": "ss68-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The teacher has taught large classes for many years, so she feels comfortable managing forty students at once.",
+      "promptZh": "老師教授大班多年，因此同時管理四十名學生時也感到自在。",
+      "starter": "The",
+      "answer": "The teacher is used to managing forty students at once.",
+      "answerZh": "老師已習慣同時管理四十名學生。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher is used to managing forty students at once."
+    },
+    {
+      "id": "ss68-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even during emergencies, giving clear instructions feels normal to the flight attendants.",
+      "promptZh": "即使在緊急情況下，清楚發出指示對機艙服務員來說也很平常。",
+      "starter": "The",
+      "answer": "The flight attendants are used to giving clear instructions even during emergencies.",
+      "answerZh": "機艙服務員已習慣即使在緊急情況下也清楚發出指示。",
+      "answerZhSource": "pdf",
+      "highlight": "The flight attendants are used to giving clear instructions even during emergencies."
+    },
+    {
+      "id": "ss68-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The villagers had walked to the well to collect water every day throughout their lives, so the journey felt ordinary.",
+      "promptZh": "村民一生每天都步行到水井取水，因此那段路程對他們來說很平常。",
+      "starter": "The",
+      "answer": "The villagers were used to walking to the well to collect water every day.",
+      "answerZh": "村民已習慣每天步行到水井取水。",
+      "answerZhSource": "pdf",
+      "highlight": "The villagers were used to walking to the well to collect water every day."
+    },
+    {
+      "id": "ss68-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Will the early winter sunsets feel normal to Lena after another year in the north?",
+      "promptZh": "莉娜在北方再生活一年後，會覺得冬季提早日落很平常嗎？",
+      "starter": "Will",
+      "answer": "Will Lena be used to the early winter sunsets after another year in the north?",
+      "answerZh": "莉娜在北方再生活一年後，會習慣冬季提早日落嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Will Lena be used to the early winter sunsets after another year in the north?"
+    },
+    {
+      "id": "ss68-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Moving between time zones once exhausted the pilots, but frequent international flights have made it feel normal.",
+      "promptZh": "穿梭不同時區曾令機師十分疲累，但頻繁的國際航班已令這件事變得平常。",
+      "starter": "After",
+      "answer": "After many international flights, the pilots are now used to moving between time zones, although it once exhausted them.",
+      "answerZh": "經歷多次國際航班後，機師現在已習慣穿梭不同時區，儘管這件事曾令他們十分疲累。",
+      "answerZhSource": "pdf",
+      "highlight": "After many international flights, the pilots are now used to moving between time zones, although it once exhausted them."
+    }
+  ]
+}

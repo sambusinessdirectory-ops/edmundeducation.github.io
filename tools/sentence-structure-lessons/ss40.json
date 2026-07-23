@@ -1,0 +1,1229 @@
+{
+  "id": "ss40",
+  "order": 40,
+  "slug": "another-singular-countable-noun",
+  "title": "「Another 句」",
+  "titleZh": "「Another」表達同類事物中再多一個",
+  "titleEn": "Using another to add one more person, thing or idea",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 40 - 「Another 句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + verb + another + singular countable noun + other information",
+  "formulas": [
+    {
+      "id": "ss40-formula-core",
+      "labelEn": "Basic structure",
+      "labelZh": "基本結構",
+      "formula": "Subject + verb + another + singular countable noun + other information"
+    },
+    {
+      "id": "ss40-formula-reason",
+      "labelEn": "Another reason",
+      "labelZh": "另一個原因",
+      "formula": "another reason why + clause"
+    },
+    {
+      "id": "ss40-formula-way",
+      "labelEn": "Another way",
+      "labelZh": "另一種方法",
+      "formula": "another way to + base verb"
+    },
+    {
+      "id": "ss40-formula-example",
+      "labelEn": "Another example",
+      "labelZh": "另一個例子",
+      "formula": "another example of + noun"
+    }
+  ],
+  "example": "Limited natural resources are another reason why we should live a green life.",
+  "exampleZh": "自然資源有限，是我們應該實踐綠色生活的另一個原因。",
+  "examples": [
+    {
+      "id": "ss40-example-01",
+      "en": "Limited natural resources are another reason why we should live a green life.",
+      "zh": "自然資源有限，是我們應該實踐綠色生活的另一個原因。",
+      "highlight": "another reason why we should live a green life"
+    }
+  ],
+  "meaning": {
+    "zh": "Another 表示同一類別中另一個或額外一個人物、事物、原因、方法或想法。"
+  },
+  "rules": [
+    {
+      "id": "ss40-rule-01",
+      "en": "Another is followed by a singular countable noun.",
+      "zh": "Another 後面通常接單數可數名詞。",
+      "examples": [
+        "another reason",
+        "another idea",
+        "another problem"
+      ]
+    },
+    {
+      "id": "ss40-rule-02",
+      "en": "Do not put a or an before another.",
+      "zh": "Another 前面不需要再加 a 或 an。",
+      "examples": [
+        "another book",
+        "another example"
+      ]
+    },
+    {
+      "id": "ss40-rule-03",
+      "en": "Another means one more member of the same category.",
+      "zh": "Another 表示同一類別中再多一個。",
+      "examples": [
+        "I need another chair."
+      ]
+    },
+    {
+      "id": "ss40-rule-04",
+      "en": "Do not use another directly before a regular plural or uncountable noun.",
+      "zh": "不可直接用 another 修飾一般複數名詞或不可數名詞。",
+      "examples": [
+        "other books",
+        "more information",
+        "another piece of advice"
+      ]
+    },
+    {
+      "id": "ss40-rule-05",
+      "en": "Another, the other and one another have different meanings.",
+      "zh": "Another、the other 和 one another 意思不同。",
+      "examples": [
+        "another pen",
+        "the other shoe",
+        "help one another"
+      ]
+    },
+    {
+      "id": "ss40-rule-06",
+      "en": "When an another-phrase is the subject, use a singular verb.",
+      "zh": "Another 名詞詞組作主語時，動詞通常使用單數形式。",
+      "examples": [
+        "Another reason is the high cost."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss40-benefit-01",
+      "en": "It helps you add one more related idea clearly.",
+      "zh": "它能清楚加入同一類別中的另一項相關資料。"
+    },
+    {
+      "id": "ss40-benefit-02",
+      "en": "It helps you develop speaking and writing.",
+      "zh": "它方便你繼續發展原因、例子、好處或解決方法。"
+    },
+    {
+      "id": "ss40-benefit-03",
+      "en": "It gives you an alternative to repeatedly using also.",
+      "zh": "它可代替反覆使用 also，令句式更有變化。"
+    },
+    {
+      "id": "ss40-benefit-04",
+      "en": "It helps organise a list of related points.",
+      "zh": "Another reason、another benefit 等表達能預示接下來的資料類別。"
+    },
+    {
+      "id": "ss40-benefit-05",
+      "en": "It makes explanations shorter and more direct.",
+      "zh": "它能以更自然、直接的方式表達「再多一個」。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using another + singular countable noun to introduce one more person, thing, reason, way, example, benefit, problem or idea.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 another＋單數可數名詞改寫以下句子，以表達另一個人物、事物、原因、方法、例子、好處、問題或想法。",
+      "答案須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss40-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This book gives us one more example of a brave young person.",
+      "promptZh": "這本書為我們提供了另一個勇敢年輕人的例子。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This book gives us another example of a brave young person.",
+      "answerZh": "這本書為我們提供了另一個勇敢年輕人的例子。",
+      "answerZhSource": "pdf",
+      "highlight": "This book gives us another example of a brave young person."
+    },
+    {
+      "id": "ss40-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "A healthy breakfast is one more way to start the day well.",
+      "promptZh": "健康的早餐是展開美好一天的另一種方法。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A healthy breakfast is another way to start the day well.",
+      "answerZh": "健康的早餐是展開美好一天的另一種方法。",
+      "answerZhSource": "pdf",
+      "highlight": "A healthy breakfast is another way to start the day well."
+    },
+    {
+      "id": "ss40-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The high price is one more problem for many families.",
+      "promptZh": "高昂的價格是許多家庭面對的另一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The high price is another problem for many families.",
+      "answerZh": "高昂的價格是許多家庭面對的另一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The high price is another problem for many families."
+    },
+    {
+      "id": "ss40-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia suggested an additional idea for the class project.",
+      "promptZh": "米婭為班級項目提出了另一個想法。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia suggested another idea for the class project.",
+      "answerZh": "米婭為班級項目提出了另一個想法。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia suggested another idea for the class project."
+    },
+    {
+      "id": "ss40-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The library is also a quiet place where students can study.",
+      "promptZh": "圖書館也是一個讓學生安靜溫習的地方。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is another quiet place where students can study.",
+      "answerZh": "圖書館是另一個讓學生安靜溫習的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is another quiet place where students can study."
+    },
+    {
+      "id": "ss40-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Rainy weather gave us one more reason to stay indoors.",
+      "promptZh": "下雨的天氣令我們多了一個留在室內的原因。",
+      "promptZhSource": "pdf",
+      "starter": "Rainy",
+      "answer": "Rainy weather gave us another reason to stay indoors.",
+      "answerZh": "下雨的天氣令我們多了一個留在室內的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Rainy weather gave us another reason to stay indoors."
+    },
+    {
+      "id": "ss40-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben bought one more notebook for English class.",
+      "promptZh": "本為英文課多買了一本筆記簿。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben bought another notebook for English class.",
+      "answerZh": "本為英文課多買了一本筆記簿。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben bought another notebook for English class."
+    },
+    {
+      "id": "ss40-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The park has an extra entrance near the bus stop.",
+      "promptZh": "公園在巴士站附近還有一個入口。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The park has another entrance near the bus stop.",
+      "answerZh": "公園在巴士站附近還有另一個入口。",
+      "answerZhSource": "pdf",
+      "highlight": "The park has another entrance near the bus stop."
+    },
+    {
+      "id": "ss40-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We need one more chair for our guest.",
+      "promptZh": "我們還需要一張椅子給客人使用。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need another chair for our guest.",
+      "answerZh": "我們還需要另一張椅子給客人使用。",
+      "answerZhSource": "pdf",
+      "highlight": "We need another chair for our guest."
+    },
+    {
+      "id": "ss40-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This simple game is also a good way to practise new words.",
+      "promptZh": "這個簡單遊戲也是練習新詞語的好方法。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This simple game is another good way to practise new words.",
+      "answerZh": "這個簡單遊戲是練習新詞語的另一種好方法。",
+      "answerZhSource": "pdf",
+      "highlight": "This simple game is another good way to practise new words."
+    },
+    {
+      "id": "ss40-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The school added an extra rule about mobile phones.",
+      "promptZh": "學校增設了一項有關手提電話的規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school added another rule about mobile phones.",
+      "answerZh": "學校增設了另一項有關手提電話的規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The school added another rule about mobile phones."
+    },
+    {
+      "id": "ss40-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Walking to work has one more advantage: it saves money.",
+      "promptZh": "步行上班還有一項好處：可以節省金錢。",
+      "promptZhSource": "pdf",
+      "starter": "Another",
+      "answer": "Another advantage of walking to work is that it saves money.",
+      "answerZh": "步行上班的另一項好處是可以節省金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Another advantage of walking to work is that it saves money."
+    },
+    {
+      "id": "ss40-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There is one more way to reduce waste: reuse old bags.",
+      "promptZh": "還有一種減少廢物的方法：重用舊袋。",
+      "promptZhSource": "pdf",
+      "starter": "Another",
+      "answer": "Another way to reduce waste is to reuse old bags.",
+      "answerZh": "減少廢物的另一種方法是重用舊袋。",
+      "answerZhSource": "pdf",
+      "highlight": "Another way to reduce waste is to reuse old bags."
+    },
+    {
+      "id": "ss40-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher gave us an additional example of the present perfect.",
+      "promptZh": "老師為我們提供了另一個現在完成式的例子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher gave us another example of the present perfect.",
+      "answerZh": "老師為我們提供了另一個現在完成式的例子。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher gave us another example of the present perfect."
+    },
+    {
+      "id": "ss40-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Keeping a diary has one more benefit: it can help you remember important events.",
+      "promptZh": "寫日記還有一項好處：它可以幫助你記住重要事情。",
+      "promptZhSource": "pdf",
+      "starter": "Another",
+      "answer": "Another benefit of keeping a diary is that it can help you remember important events.",
+      "answerZh": "寫日記的另一項好處是可以幫助你記住重要事情。",
+      "answerZhSource": "pdf",
+      "highlight": "Another benefit of keeping a diary is that it can help you remember important events."
+    },
+    {
+      "id": "ss40-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This café is also a place where people can work quietly.",
+      "promptZh": "這間咖啡店也是一個讓人安靜工作的地方。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This café is another place where people can work quietly.",
+      "answerZh": "這間咖啡店是另一個讓人安靜工作的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "This café is another place where people can work quietly."
+    },
+    {
+      "id": "ss40-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The late bus caused one more difficulty for the travellers.",
+      "promptZh": "延誤的巴士為旅客帶來了另一個困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The late bus caused another difficulty for the travellers.",
+      "answerZh": "延誤的巴士為旅客帶來了另一個困難。",
+      "answerZhSource": "pdf",
+      "highlight": "The late bus caused another difficulty for the travellers."
+    },
+    {
+      "id": "ss40-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why should we check the weather? One more reason is that our plans may need to change.",
+      "promptZh": "我們為甚麼應該查看天氣？另一個原因是我們可能需要改變計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Another",
+      "answer": "Another reason why we should check the weather is that our plans may need to change.",
+      "answerZh": "我們應該查看天氣的另一個原因，是我們可能需要改變計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Another reason why we should check the weather is that our plans may need to change."
+    },
+    {
+      "id": "ss40-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team tried an extra method to solve the problem.",
+      "promptZh": "團隊嘗試了另一種方法解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team tried another method to solve the problem.",
+      "answerZh": "團隊嘗試了另一種方法解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The team tried another method to solve the problem."
+    },
+    {
+      "id": "ss40-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Enough sleep is also an important factor in good health.",
+      "promptZh": "充足睡眠也是保持健康的一項重要因素。",
+      "promptZhSource": "pdf",
+      "starter": "Enough",
+      "answer": "Enough sleep is another important factor in good health.",
+      "answerZh": "充足睡眠是保持健康的另一項重要因素。",
+      "answerZhSource": "pdf",
+      "highlight": "Enough sleep is another important factor in good health."
+    },
+    {
+      "id": "ss40-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Families have one more concern because food prices are rising.",
+      "promptZh": "由於食品價格上升，家庭多了一項憂慮。",
+      "promptZhSource": "pdf",
+      "starter": "Rising",
+      "answer": "Rising food prices are another concern for families.",
+      "answerZh": "食品價格上升是家庭面對的另一項憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Rising food prices are another concern for families."
+    },
+    {
+      "id": "ss40-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Public transport has an additional benefit: it can reduce traffic.",
+      "promptZh": "公共交通還有一項好處：它可以減少路面交通。",
+      "promptZhSource": "pdf",
+      "starter": "Another",
+      "answer": "Another benefit of public transport is that it can reduce traffic.",
+      "answerZh": "公共交通的另一項好處是可以減少路面交通。",
+      "answerZhSource": "pdf",
+      "highlight": "Another benefit of public transport is that it can reduce traffic."
+    },
+    {
+      "id": "ss40-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum offers one more activity for children: a drawing workshop.",
+      "promptZh": "博物館為兒童提供另一項活動：繪畫工作坊。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A drawing workshop is another activity the museum offers for children.",
+      "answerZh": "繪畫工作坊是博物館為兒童提供的另一項活動。",
+      "answerZhSource": "pdf",
+      "highlight": "A drawing workshop is another activity the museum offers for children."
+    },
+    {
+      "id": "ss40-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The broken lift created an extra problem for elderly residents.",
+      "promptZh": "損壞的升降機為年長居民帶來了另一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The broken lift created another problem for elderly residents.",
+      "answerZh": "損壞的升降機為年長居民帶來了另一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The broken lift created another problem for elderly residents."
+    },
+    {
+      "id": "ss40-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We can improve safety in one more way by adding brighter lights.",
+      "promptZh": "我們可以透過增設更明亮的燈光，以另一種方法提升安全。",
+      "promptZhSource": "pdf",
+      "starter": "Adding",
+      "answer": "Adding brighter lights is another way to improve safety.",
+      "answerZh": "增設更明亮的燈光是提升安全的另一種方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Adding brighter lights is another way to improve safety."
+    },
+    {
+      "id": "ss40-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why do some people learn languages? One more reason is to understand other cultures.",
+      "promptZh": "有些人為甚麼學習語言？另一個原因是了解其他文化。",
+      "promptZhSource": "pdf",
+      "starter": "Understanding",
+      "answer": "Understanding other cultures is another reason why some people learn languages.",
+      "answerZh": "了解其他文化是有些人學習語言的另一個原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Understanding other cultures is another reason why some people learn languages."
+    },
+    {
+      "id": "ss40-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Recycling paper is also a useful step towards protecting the environment.",
+      "promptZh": "回收紙張也是保護環境的一個有用步驟。",
+      "promptZhSource": "pdf",
+      "starter": "Recycling",
+      "answer": "Recycling paper is another useful step towards protecting the environment.",
+      "answerZh": "回收紙張是保護環境的另一個有用步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "Recycling paper is another useful step towards protecting the environment."
+    },
+    {
+      "id": "ss40-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company needs an additional person to answer customer questions.",
+      "promptZh": "公司需要多一個人回答顧客的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company needs another person to answer customer questions.",
+      "answerZh": "公司需要多一個人回答顧客的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The company needs another person to answer customer questions."
+    },
+    {
+      "id": "ss40-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The story gives one more example of teamwork when the children share their food.",
+      "promptZh": "故事中孩子們分享食物的情節，提供了另一個團隊合作的例子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The way the children share their food is another example of teamwork in the story.",
+      "answerZh": "孩子們分享食物的方式，是故事中另一個團隊合作的例子。",
+      "answerZhSource": "pdf",
+      "highlight": "The way the children share their food is another example of teamwork in the story."
+    },
+    {
+      "id": "ss40-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The app has one more useful function: a reminder to drink water.",
+      "promptZh": "這個應用程式還有一項實用功能：提醒使用者喝水。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A reminder to drink water is another useful function of the app.",
+      "answerZh": "提醒使用者喝水是這個應用程式的另一項實用功能。",
+      "answerZhSource": "pdf",
+      "highlight": "A reminder to drink water is another useful function of the app."
+    },
+    {
+      "id": "ss40-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Customers consider price when buying a product. They also consider quality.",
+      "promptZh": "顧客購買產品時會考慮價格，也會考慮品質。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides price, quality is another thing customers consider when buying a product.",
+      "answerZh": "除了價格外，品質是顧客購買產品時考慮的另一項事情。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides price, quality is another thing customers consider when buying a product."
+    },
+    {
+      "id": "ss40-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The town could attract visitors in one more way by holding a food festival.",
+      "promptZh": "這個小鎮可以透過舉辦美食節，以另一種方法吸引遊客。",
+      "promptZhSource": "pdf",
+      "starter": "Holding",
+      "answer": "Holding a food festival is another way for the town to attract visitors.",
+      "answerZh": "舉辦美食節是這個小鎮吸引遊客的另一種方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Holding a food festival is another way for the town to attract visitors."
+    },
+    {
+      "id": "ss40-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new timetable gave staff an additional reason to arrive early.",
+      "promptZh": "新時間表令員工多了一個提早到達的原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable gave staff another reason to arrive early.",
+      "answerZh": "新時間表令員工多了一個提早到達的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable gave staff another reason to arrive early."
+    },
+    {
+      "id": "ss40-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regular exercise improves fitness, and better sleep is one more benefit.",
+      "promptZh": "恆常運動能改善體能，而睡得更好是另一項好處。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides improved fitness, better sleep is another benefit of regular exercise.",
+      "answerZh": "除了改善體能外，睡得更好是恆常運動的另一項好處。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides improved fitness, better sleep is another benefit of regular exercise."
+    },
+    {
+      "id": "ss40-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The charity opened an extra centre so that more families could receive help.",
+      "promptZh": "慈善機構增設了一個中心，讓更多家庭可以獲得協助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity opened another centre so that more families could receive help.",
+      "answerZh": "慈善機構增設了另一個中心，讓更多家庭可以獲得協助。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity opened another centre so that more families could receive help."
+    },
+    {
+      "id": "ss40-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The speaker used one more point to support her opinion about online classes: they save travel time.",
+      "promptZh": "講者提出了另一個論點支持她對網上課堂的看法：網上課堂能節省交通時間。",
+      "promptZhSource": "pdf",
+      "starter": "Saving",
+      "answer": "Saving travel time is another point that supports the speaker’s opinion about online classes.",
+      "answerZh": "節省交通時間是支持講者對網上課堂看法的另一個論點。",
+      "answerZhSource": "pdf",
+      "highlight": "Saving travel time is another point that supports the speaker’s opinion about online classes."
+    },
+    {
+      "id": "ss40-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital could shorten waiting times in one more way: use an online booking system.",
+      "promptZh": "醫院可以使用另一種方法縮短輪候時間：採用網上預約系統。",
+      "promptZhSource": "pdf",
+      "starter": "Using",
+      "answer": "Using an online booking system is another way for the hospital to shorten waiting times.",
+      "answerZh": "採用網上預約系統是醫院縮短輪候時間的另一種方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Using an online booking system is another way for the hospital to shorten waiting times."
+    },
+    {
+      "id": "ss40-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old bridge is dangerous because its surface becomes slippery in wet weather. Poor lighting creates an additional danger.",
+      "promptZh": "舊橋在潮濕天氣下會因橋面濕滑而變得危險，而照明不足則帶來另一項危險。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides the danger caused by its slippery surface in wet weather, poor lighting is another danger on the old bridge.",
+      "answerZh": "除了潮濕天氣下濕滑橋面造成的危險外，照明不足是舊橋上的另一項危險。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides the danger caused by its slippery surface in wet weather, poor lighting is another danger on the old bridge."
+    },
+    {
+      "id": "ss40-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The course teaches grammar, and it also helps students develop speaking confidence.",
+      "promptZh": "這個課程教授文法，亦幫助學生建立說英語的信心。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides teaching grammar, helping students develop speaking confidence is another benefit of the course.",
+      "answerZh": "除了教授文法外，幫助學生建立說英語的信心是這個課程的另一項好處。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides teaching grammar, helping students develop speaking confidence is another benefit of the course."
+    },
+    {
+      "id": "ss40-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager wanted to check the monthly costs, so she asked for an extra report.",
+      "promptZh": "經理想檢查每月成本，因此要求多提交一份報告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager asked for another report to check the monthly costs.",
+      "answerZh": "經理要求多提交一份報告，以檢查每月成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager asked for another report to check the monthly costs."
+    },
+    {
+      "id": "ss40-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Many parents choose the school because it has experienced teachers. Its strong music programme gives them one more reason.",
+      "promptZh": "許多家長因為學校有經驗豐富的教師而選擇這間學校，而優秀的音樂課程則為他們提供了另一個原因。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides its experienced teachers, the strong music programme is another reason why many parents choose the school.",
+      "answerZh": "除了經驗豐富的教師外，優秀的音樂課程是許多家長選擇這間學校的另一個原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides its experienced teachers, the strong music programme is another reason why many parents choose the school."
+    },
+    {
+      "id": "ss40-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company can cut costs by reducing packaging, and it can also cut costs by planning delivery routes more carefully.",
+      "promptZh": "公司可以透過減少包裝降低成本，亦可以透過更仔細地規劃送貨路線降低成本。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides reducing packaging, planning delivery routes more carefully is another way for the company to cut costs.",
+      "answerZh": "除了減少包裝外，更仔細地規劃送貨路線是公司降低成本的另一種方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides reducing packaging, planning delivery routes more carefully is another way for the company to cut costs."
+    },
+    {
+      "id": "ss40-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public library lends books. It offers an additional service by lending tablets.",
+      "promptZh": "公共圖書館借出書籍，亦透過借出平板電腦提供另一項服務。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides lending books, lending tablets is another service provided by the public library.",
+      "answerZh": "除了借出書籍外，借出平板電腦是公共圖書館提供的另一項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides lending books, lending tablets is another service provided by the public library."
+    },
+    {
+      "id": "ss40-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Unclear roles caused the team to lose time. A slow approval process caused an additional delay.",
+      "promptZh": "職責不清令團隊浪費時間，而緩慢的審批程序則造成另一項延誤。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A slow approval process was another reason why the team lost time.",
+      "answerZh": "緩慢的審批程序是團隊浪費時間的另一個原因。",
+      "answerZhSource": "pdf",
+      "highlight": "A slow approval process was another reason why the team lost time."
+    },
+    {
+      "id": "ss40-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Students can build vocabulary by reading. They can also build it by watching English videos.",
+      "promptZh": "學生可以透過閱讀增加詞彙量，亦可以透過觀看英語影片增加詞彙量。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides reading, watching English videos is another way for students to build their vocabulary.",
+      "answerZh": "除了閱讀外，觀看英語影片是學生增加詞彙量的另一種方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides reading, watching English videos is another way for students to build their vocabulary."
+    },
+    {
+      "id": "ss40-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Cities should plant more trees because they provide shade. They also help reduce air pollution.",
+      "promptZh": "城市應該種植更多樹木，因為樹木可以提供遮蔭，亦有助減少空氣污染。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In addition to providing shade, trees help reduce air pollution, which is another reason why cities should plant more of them.",
+      "answerZh": "除了提供遮蔭外，樹木亦有助減少空氣污染，這是城市應該種植更多樹木的另一個原因。",
+      "answerZhSource": "pdf",
+      "highlight": "In addition to providing shade, trees help reduce air pollution, which is another reason why cities should plant more of them."
+    },
+    {
+      "id": "ss40-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Patients can book appointments by phone. The clinic plans to offer an additional method through a mobile app.",
+      "promptZh": "病人可以透過電話預約，而診所計劃透過手機應用程式提供另一種預約方法。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A mobile app will be another way for patients to book appointments at the clinic.",
+      "answerZh": "手機應用程式將會是病人在診所預約的另一種方法。",
+      "answerZhSource": "pdf",
+      "highlight": "A mobile app will be another way for patients to book appointments at the clinic."
+    },
+    {
+      "id": "ss40-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy may reduce waste. It may have one more benefit: it may encourage people to think more carefully before buying disposable products.",
+      "promptZh": "這項政策可能減少廢物。它亦可能帶來另一項好處：鼓勵人們購買即棄產品前更仔細考慮。",
+      "promptZhSource": "pdf",
+      "starter": "Another",
+      "answer": "Another possible benefit of the policy is that it may encourage people to think more carefully before buying disposable products.",
+      "answerZh": "這項政策另一項可能的好處，是它或會鼓勵人們購買即棄產品前更仔細考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Another possible benefit of the policy is that it may encourage people to think more carefully before buying disposable products."
+    },
+    {
+      "id": "ss40-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The community centre already runs an exercise class for older residents. It is planning an extra programme that teaches basic computer skills.",
+      "promptZh": "社區中心已經為年長居民舉辦運動班，現正計劃增設一個教授基本電腦技能的課程。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides its exercise class, the community centre is planning to add another programme for older residents: a basic computer skills course.",
+      "answerZh": "除了運動班外，社區中心正計劃為年長居民增設另一個課程：基本電腦技能課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides its exercise class, the community centre is planning to add another programme for older residents: a basic computer skills course."
+    },
+    {
+      "id": "ss40-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The government can improve road safety by enforcing speed limits. Better street lighting offers one more approach, especially near schools.",
+      "promptZh": "政府可以透過執行車速限制改善道路安全，而更完善的街道照明則提供另一種方法，尤其適用於學校附近。",
+      "promptZhSource": "pdf",
+      "starter": "Besides",
+      "answer": "Besides enforcing speed limits, better street lighting is another way for the government to improve road safety, especially near schools.",
+      "answerZh": "除了執行車速限制外，更完善的街道照明是政府改善道路安全的另一種方法，尤其適用於學校附近。",
+      "answerZhSource": "pdf",
+      "highlight": "Besides enforcing speed limits, better street lighting is another way for the government to improve road safety, especially near schools."
+    }
+  ]
+}

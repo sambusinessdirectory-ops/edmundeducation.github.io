@@ -1,0 +1,1214 @@
+{
+  "id": "ss49",
+  "order": 49,
+  "slug": "something-anything-everything-adjective",
+  "title": "「Something / Anything / Everything + Adjective」句型",
+  "titleZh": "「Something / Anything / Everything + 形容詞」句型",
+  "titleEn": "Describing indefinite pronouns with following adjectives",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 49 - 「Something _ Anything _ Everything + Adjective 句」.pdf",
+    "pageCount": 16,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "omissions": []
+  },
+  "formula": "Something / Anything / Everything + adjective + other information",
+  "formulas": [
+    {
+      "id": "ss49-formula-something",
+      "labelEn": "Something + adjective",
+      "labelZh": "Something＋形容詞",
+      "formula": "Something + adjective + other information"
+    },
+    {
+      "id": "ss49-formula-anything",
+      "labelEn": "Anything + adjective",
+      "labelZh": "Anything＋形容詞",
+      "formula": "Anything + adjective + other information"
+    },
+    {
+      "id": "ss49-formula-everything",
+      "labelEn": "Everything + adjective",
+      "labelZh": "Everything＋形容詞",
+      "formula": "Everything + adjective + other information"
+    }
+  ],
+  "example": "I want to eat something sweet after dinner.",
+  "exampleZh": "我晚餐後想吃點甜的東西。",
+  "examples": [
+    {
+      "id": "ss49-example-01",
+      "en": "I want to eat something sweet after dinner.",
+      "zh": "我晚餐後想吃點甜的東西。",
+      "highlight": "something sweet"
+    }
+  ],
+  "meaning": {
+    "zh": "把形容詞放在 something、anything 或 everything 後面，便可描述未有明確名稱的事物、任何符合條件的事物或所有相關事物。"
+  },
+  "rules": [
+    {
+      "id": "ss49-rule-01",
+      "en": "Put the adjective after the pronoun.",
+      "zh": "形容詞必須放在 something、anything 或 everything 後面。",
+      "examples": [
+        "something useful",
+        "anything unusual"
+      ]
+    },
+    {
+      "id": "ss49-rule-02",
+      "en": "Something usually means an unspecified thing.",
+      "zh": "Something 常見於肯定句，也可用於提出或索取某項東西。",
+      "examples": [
+        "I need something useful."
+      ]
+    },
+    {
+      "id": "ss49-rule-03",
+      "en": "Anything is common in questions, negatives and conditions.",
+      "zh": "Anything 常見於疑問句、否定句和條件句，亦可表示任何一樣都可以。",
+      "examples": [
+        "Did you notice anything unusual?"
+      ]
+    },
+    {
+      "id": "ss49-rule-04",
+      "en": "Treat all three pronouns as singular.",
+      "zh": "Something、anything 和 everything 均視為單數。",
+      "examples": [
+        "Everything important is ready."
+      ]
+    },
+    {
+      "id": "ss49-rule-05",
+      "en": "Do not add a or an after the pronoun.",
+      "zh": "代名詞後不要加入 a 或 an。",
+      "examples": [
+        "something interesting"
+      ]
+    },
+    {
+      "id": "ss49-rule-06",
+      "en": "Use anything rather than something in ordinary negatives.",
+      "zh": "一般否定句使用 anything。",
+      "examples": [
+        "I did not see anything unusual."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss49-benefit-01",
+      "en": "It describes a thing without naming it exactly.",
+      "zh": "不知道事物名稱或名稱不重要時，可直接描述其特點。"
+    },
+    {
+      "id": "ss49-benefit-02",
+      "en": "It makes a long description shorter.",
+      "zh": "它可把「名詞＋形容詞子句」縮短，使句子更直接。"
+    },
+    {
+      "id": "ss49-benefit-03",
+      "en": "It forms natural questions and negative sentences.",
+      "zh": "Anything＋形容詞能讓疑問句和否定句更自然。"
+    },
+    {
+      "id": "ss49-benefit-04",
+      "en": "It clearly shows the intended range.",
+      "zh": "Something、anything 和 everything 能準確表達某件、任何或全部事物。"
+    },
+    {
+      "id": "ss49-benefit-05",
+      "en": "It avoids repeating general nouns.",
+      "zh": "它可避免反覆使用 thing、item、information 等一般名詞。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using something + adjective, anything + adjective, or everything + adjective.",
+      "Choose the form that best preserves the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 something＋形容詞、anything＋形容詞或 everything＋形容詞改寫以下句子。",
+      "選擇最能保留原句意思的形式。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss49-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "I want a sweet snack after dinner.",
+      "promptZh": "我晚餐後想吃一份甜點。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I want something sweet to eat after dinner.",
+      "answerZh": "我晚餐後想吃點甜的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "I want something sweet to eat after dinner."
+    },
+    {
+      "id": "ss49-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Mia heard a noise outside the window. It sounded strange.",
+      "promptZh": "米婭聽到窗外有聲音。那聲音聽起來很奇怪。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia heard something strange outside the window.",
+      "answerZh": "米婭聽到窗外有些奇怪的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia heard something strange outside the window."
+    },
+    {
+      "id": "ss49-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "We need an object that is simple to make for the class project.",
+      "promptZh": "我們需要一件容易製作的物件來完成課堂項目。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need something simple to make for the class project.",
+      "answerZh": "我們需要製作一些簡單的東西來完成課堂項目。",
+      "answerZhSource": "pdf",
+      "highlight": "We need something simple to make for the class project."
+    },
+    {
+      "id": "ss49-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Ben bought a useful item for his new flat.",
+      "promptZh": "本為自己的新住所買了一件實用物品。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben bought something useful for his new flat.",
+      "answerZh": "本為自己的新住所買了一些實用的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben bought something useful for his new flat."
+    },
+    {
+      "id": "ss49-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The child wants a soft object to hold.",
+      "promptZh": "那個孩子想要一件柔軟的物品抱着。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child wants something soft to hold.",
+      "answerZh": "那個孩子想要一些柔軟的東西抱着。",
+      "answerZhSource": "pdf",
+      "highlight": "The child wants something soft to hold."
+    },
+    {
+      "id": "ss49-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Could I have a cold drink?",
+      "promptZh": "我可以要一杯凍飲嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Could",
+      "answer": "Could I have something cold to drink?",
+      "answerZh": "我可以要點凍的東西喝嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Could I have something cold to drink?"
+    },
+    {
+      "id": "ss49-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "There is an unusual detail in this picture.",
+      "promptZh": "這幅圖中有一個不尋常的細節。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is something unusual in this picture.",
+      "answerZh": "這幅圖中有些不尋常的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "There is something unusual in this picture."
+    },
+    {
+      "id": "ss49-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Leo found a shiny object on the floor.",
+      "promptZh": "里奧在地板上發現了一件閃亮的物件。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo found something shiny on the floor.",
+      "answerZh": "里奧在地板上發現了一些閃亮的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo found something shiny on the floor."
+    },
+    {
+      "id": "ss49-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Please bring warm clothing to wear at the picnic.",
+      "promptZh": "請帶備保暖衣物，在野餐時穿着。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please bring something warm to wear at the picnic.",
+      "answerZh": "請帶備一些保暖的東西，在野餐時穿着。",
+      "answerZhSource": "pdf",
+      "highlight": "Please bring something warm to wear at the picnic."
+    },
+    {
+      "id": "ss49-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Emma wrote a funny message in the card.",
+      "promptZh": "艾瑪在卡片上寫了一段有趣的話。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma wrote something funny in the card.",
+      "answerZh": "艾瑪在卡片上寫了一些有趣的內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma wrote something funny in the card."
+    },
+    {
+      "id": "ss49-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Is there a problem with your computer?",
+      "promptZh": "你的電腦有問題嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is there anything wrong with your computer?",
+      "answerZh": "你的電腦有甚麼不妥嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anything wrong with your computer?"
+    },
+    {
+      "id": "ss49-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I did not see any unusual sight on the way home.",
+      "promptZh": "我回家途中沒有看見任何不尋常的景象。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I did not see anything unusual on the way home.",
+      "answerZh": "我回家途中沒有看見任何不尋常的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "I did not see anything unusual on the way home."
+    },
+    {
+      "id": "ss49-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Did the teacher mention any important point today?",
+      "promptZh": "老師今天有提及任何重要事項嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Did",
+      "answer": "Did the teacher mention anything important today?",
+      "answerZh": "老師今天有提及任何重要的事情嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the teacher mention anything important today?"
+    },
+    {
+      "id": "ss49-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We cannot find a suitable picture to hang on the empty wall.",
+      "promptZh": "我們找不到適合掛在空牆上的圖片。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We cannot find anything suitable to hang on the empty wall.",
+      "answerZh": "我們找不到任何適合掛在空牆上的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot find anything suitable to hang on the empty wall."
+    },
+    {
+      "id": "ss49-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If you hear a strange sound, call me immediately.",
+      "promptZh": "如果你聽到奇怪的聲音，請立即致電給我。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you hear anything strange, call me immediately.",
+      "answerZh": "如果你聽到任何奇怪的聲音，請立即致電給我。",
+      "answerZhSource": "pdf",
+      "highlight": "If you hear anything strange, call me immediately."
+    },
+    {
+      "id": "ss49-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You may choose any affordable item from this shelf.",
+      "promptZh": "你可以從這個架上選擇任何價格相宜的物品。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may choose anything affordable from this shelf.",
+      "answerZh": "你可以從這個架上選擇任何價格相宜的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "You may choose anything affordable from this shelf."
+    },
+    {
+      "id": "ss49-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Has anyone left a valuable item in the classroom?",
+      "promptZh": "有人把貴重物品遺留在課室嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Has",
+      "answer": "Has anyone left anything valuable in the classroom?",
+      "answerZh": "課室內有人遺下貴重物品嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Has anyone left anything valuable in the classroom?"
+    },
+    {
+      "id": "ss49-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The doctor did not find a serious problem.",
+      "promptZh": "醫生沒有發現嚴重問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor did not find anything serious.",
+      "answerZh": "醫生沒有發現任何嚴重問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor did not find anything serious."
+    },
+    {
+      "id": "ss49-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Is any part of this exercise difficult?",
+      "promptZh": "這份練習有任何部分很困難嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is there anything difficult about this exercise?",
+      "answerZh": "這份練習有任何困難的地方嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anything difficult about this exercise?"
+    },
+    {
+      "id": "ss49-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "She rarely makes unkind comments about other people.",
+      "promptZh": "她很少對別人作出刻薄的評論。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She rarely says anything unkind about other people.",
+      "answerZh": "她很少說任何對別人不友善的話。",
+      "answerZhSource": "pdf",
+      "highlight": "She rarely says anything unkind about other people."
+    },
+    {
+      "id": "ss49-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sarah shared all the important information during the meeting.",
+      "promptZh": "莎拉在會議上分享了所有重要資料。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah shared everything important during the meeting.",
+      "answerZh": "莎拉在會議上分享了所有重要的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah shared everything important during the meeting."
+    },
+    {
+      "id": "ss49-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I packed all the necessary items for the overnight trip.",
+      "promptZh": "我為這次過夜旅程收拾好所有必需品。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I packed everything necessary for the overnight trip.",
+      "answerZh": "我為這次過夜旅程收拾好所有必需的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "I packed everything necessary for the overnight trip."
+    },
+    {
+      "id": "ss49-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "All the valuable items were kept inside the safe.",
+      "promptZh": "所有貴重物品都存放在保險箱內。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything valuable was kept inside the safe.",
+      "answerZh": "所有貴重的東西都存放在保險箱內。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything valuable was kept inside the safe."
+    },
+    {
+      "id": "ss49-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The guide explained all the useful information before the walk began.",
+      "promptZh": "導遊在步行活動開始前講解了所有有用資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide explained everything useful before the walk began.",
+      "answerZh": "導遊在步行活動開始前講解了所有有用資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide explained everything useful before the walk began."
+    },
+    {
+      "id": "ss49-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should remove all the unnecessary material from the report.",
+      "promptZh": "我們應該刪除報告中所有不必要的內容。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should remove everything unnecessary from the report.",
+      "answerZh": "我們應該刪除報告中所有不必要的內容。",
+      "answerZhSource": "pdf",
+      "highlight": "We should remove everything unnecessary from the report."
+    },
+    {
+      "id": "ss49-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "All the fragile items need to be wrapped carefully.",
+      "promptZh": "所有易碎物品都需要小心包好。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything fragile needs to be wrapped carefully.",
+      "answerZh": "所有易碎的東西都需要小心包好。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything fragile needs to be wrapped carefully."
+    },
+    {
+      "id": "ss49-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The police recorded all the relevant details of the case.",
+      "promptZh": "警方記錄了案件的所有相關細節。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police recorded everything relevant to the case.",
+      "answerZh": "警方記錄了所有與案件相關的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The police recorded everything relevant to the case."
+    },
+    {
+      "id": "ss49-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Have you checked all the important details on the form?",
+      "promptZh": "你有檢查表格上的所有重要資料嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Have",
+      "answer": "Have you checked everything important on the form?",
+      "answerZh": "你有檢查表格上所有重要的內容嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Have you checked everything important on the form?"
+    },
+    {
+      "id": "ss49-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new system stores all confidential information in a secure folder.",
+      "promptZh": "新系統把所有機密資料儲存在安全資料夾內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system stores everything confidential in a secure folder.",
+      "answerZh": "新系統把所有機密內容儲存在安全資料夾內。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system stores everything confidential in a secure folder."
+    },
+    {
+      "id": "ss49-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The workers repaired all the items damaged by the storm.",
+      "promptZh": "工人修理了所有被暴風雨損壞的物品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The workers repaired everything damaged by the storm.",
+      "answerZh": "工人修理了所有被暴風雨損壞的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "The workers repaired everything damaged by the storm."
+    },
+    {
+      "id": "ss49-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Noah noticed that one part of the timetable was different.",
+      "promptZh": "諾亞注意到時間表有一個部分不同了。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah noticed something different about the timetable.",
+      "answerZh": "諾亞注意到時間表有些不同。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah noticed something different about the timetable."
+    },
+    {
+      "id": "ss49-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The soup needs a spicy ingredient to improve its flavour.",
+      "promptZh": "這道湯需要加入一種辛辣的材料來改善味道。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup needs something spicy to improve its flavour.",
+      "answerZh": "這道湯需要加入一些辛辣的東西來改善味道。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup needs something spicy to improve its flavour."
+    },
+    {
+      "id": "ss49-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop is looking for an option that is cheaper but equally strong.",
+      "promptZh": "商店正在尋找一個較便宜但同樣堅固的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is looking for something cheaper but equally strong.",
+      "answerZh": "商店正在尋找一些較便宜但同樣堅固的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is looking for something cheaper but equally strong."
+    },
+    {
+      "id": "ss49-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ava has not heard any encouraging news from the company yet.",
+      "promptZh": "艾娃至今仍未聽到公司任何令人鼓舞的消息。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava has not heard anything encouraging from the company yet.",
+      "answerZh": "艾娃至今仍未從公司聽到任何令人鼓舞的消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava has not heard anything encouraging from the company yet."
+    },
+    {
+      "id": "ss49-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The café does not serve any light food after 8 p.m.",
+      "promptZh": "這間咖啡店晚上八時後不供應任何清淡食物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café does not serve anything light after 8 p.m.",
+      "answerZh": "這間咖啡店晚上八時後不供應任何清淡的食物。",
+      "answerZhSource": "pdf",
+      "highlight": "The café does not serve anything light after 8 p.m."
+    },
+    {
+      "id": "ss49-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We should not share private information online.",
+      "promptZh": "我們不應在網上分享私人資料。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should not share anything private online.",
+      "answerZh": "我們不應在網上分享任何私人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "We should not share anything private online."
+    },
+    {
+      "id": "ss49-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If any part of the instructions is unclear, ask the teacher.",
+      "promptZh": "如果指示有任何部分不清楚，請詢問老師。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If there is anything unclear in the instructions, ask the teacher.",
+      "answerZh": "如果指示中有任何不清楚的地方，請詢問老師。",
+      "answerZhSource": "pdf",
+      "highlight": "If there is anything unclear in the instructions, ask the teacher."
+    },
+    {
+      "id": "ss49-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The test did not reveal a worrying result.",
+      "promptZh": "測試沒有顯示令人擔心的結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The test did not reveal anything worrying.",
+      "answerZh": "測試沒有顯示任何令人擔心的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The test did not reveal anything worrying."
+    },
+    {
+      "id": "ss49-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You can ask me any question related to the project.",
+      "promptZh": "你可以問我任何與項目有關的問題。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can ask me anything related to the project.",
+      "answerZh": "你可以問我任何與項目有關的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "You can ask me anything related to the project."
+    },
+    {
+      "id": "ss49-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The museum displayed all the valuable objects found at the site.",
+      "promptZh": "博物館展出了在該地點發現的所有珍貴物件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum displayed everything valuable found at the site.",
+      "answerZh": "博物館展出了在該地點發現的所有珍貴物品。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum displayed everything valuable found at the site."
+    },
+    {
+      "id": "ss49-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher gave the group a practical task to do while they waited.",
+      "promptZh": "老師給小組一項實際的任務，讓他們等候時完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher gave the group something practical to do while they waited.",
+      "answerZh": "老師給小組一些實際工作，讓他們在等候時完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher gave the group something practical to do while they waited."
+    },
+    {
+      "id": "ss49-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Before the interview, Maya prepared a clear statement about her experience.",
+      "promptZh": "面試前，瑪雅準備了一段清楚說明自己經驗的話。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before the interview, Maya prepared something clear to say about her experience.",
+      "answerZh": "面試前，瑪雅準備了一些清楚的內容來說明自己的經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the interview, Maya prepared something clear to say about her experience."
+    },
+    {
+      "id": "ss49-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The nurse asked whether the patient had eaten any unusual food that morning.",
+      "promptZh": "護士問病人當天早上是否吃過任何不尋常的食物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse asked whether the patient had eaten anything unusual that morning.",
+      "answerZh": "護士問病人當天早上是否吃過任何不尋常的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse asked whether the patient had eaten anything unusual that morning."
+    },
+    {
+      "id": "ss49-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We could not identify any harmful substance in the water sample.",
+      "promptZh": "我們無法在水樣本中辨認出任何有害物質。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could not identify anything harmful in the water sample.",
+      "answerZh": "我們無法在水樣本中辨認出任何有害的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "We could not identify anything harmful in the water sample."
+    },
+    {
+      "id": "ss49-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please report any suspicious activity that you notice near the entrance.",
+      "promptZh": "如你在入口附近發現任何可疑活動，請作出報告。",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please report anything suspicious that you notice near the entrance.",
+      "answerZh": "如你在入口附近發現任何可疑情況，請作出報告。）Labubu used to be popular; it waseverywhere. You could see it anywhere you went.",
+      "answerZhSource": "pdf",
+      "highlight": "Please report anything suspicious that you notice near the entrance."
+    },
+    {
+      "id": "ss49-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager removed all the outdated information from the training guide.",
+      "promptZh": "經理刪除了培訓指南中所有過時資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager removed everything outdated from the training guide.",
+      "answerZh": "經理刪除了培訓指南中所有過時的內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager removed everything outdated from the training guide."
+    },
+    {
+      "id": "ss49-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The emergency kit contains all the essential items for a short power cut.",
+      "promptZh": "應急包內有應付短暫停電所需的所有必需品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency kit contains everything essential for a short power cut.",
+      "answerZh": "應急包內有應付短暫停電所需的所有必需品。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency kit contains everything essential for a short power cut."
+    },
+    {
+      "id": "ss49-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The editor kept all the relevant details and deleted the rest.",
+      "promptZh": "編輯保留了所有相關細節，並刪除其餘內容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The editor kept everything relevant and deleted the rest.",
+      "answerZh": "編輯保留了所有相關內容，並刪除其餘部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The editor kept everything relevant and deleted the rest."
+    },
+    {
+      "id": "ss49-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The website explains all the important points that new users should know.",
+      "promptZh": "網站解釋了新用戶應該知道的所有重要事項。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website explains everything important that new users should know.",
+      "answerZh": "網站解釋了新用戶應該知道的所有重要事情。",
+      "answerZhSource": "pdf",
+      "highlight": "The website explains everything important that new users should know."
+    },
+    {
+      "id": "ss49-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "During the inspection, the team recorded all unusual findings that might require further investigation.",
+      "promptZh": "檢查期間，團隊記錄了所有可能需要進一步調查的不尋常發現。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the inspection, the team recorded everything unusual that might require further investigation.",
+      "answerZh": "檢查期間，團隊記錄了所有可能需要進一步調查的不尋常情況。",
+      "answerZhSource": "pdf",
+      "highlight": "During the inspection, the team recorded everything unusual that might require further investigation."
+    }
+  ]
+}

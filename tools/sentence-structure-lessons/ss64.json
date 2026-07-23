@@ -1,0 +1,1206 @@
+{
+  "id": "ss64",
+  "order": 64,
+  "slug": "be-about-to-imminent-action",
+  "title": "「be about to + 動詞」句型",
+  "titleZh": "「be about to + 動詞」表示「正準備／即將」",
+  "titleEn": "Using be about to for an imminent action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 64 -「be about to + 動詞」表示「正準備／即將」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + am / is / are + about to + base verb",
+  "formulas": [
+    {
+      "id": "ss64-formula-present",
+      "labelEn": "Present form",
+      "labelZh": "現在式句型",
+      "formula": "Subject + am / is / are + about to + base verb"
+    },
+    {
+      "id": "ss64-formula-past",
+      "labelEn": "Past form",
+      "labelZh": "過去式句型",
+      "formula": "Subject + was / were + about to + base verb"
+    },
+    {
+      "id": "ss64-formula-event-first",
+      "labelEn": "Connecting another event",
+      "labelZh": "與另一件事情連接",
+      "formula": "As / When + subject + was / were about to + base verb, + past event"
+    },
+    {
+      "id": "ss64-formula-event-last",
+      "labelEn": "Connecting another event",
+      "labelZh": "另一件事情置後",
+      "formula": "Subject + was / were about to + base verb + when + past event"
+    }
+  ],
+  "example": "The lesson is about to begin.",
+  "exampleZh": "課堂即將開始。",
+  "examples": [
+    {
+      "id": "ss64-example-present",
+      "en": "The lesson is about to begin.",
+      "zh": "課堂即將開始。",
+      "highlight": "is about to begin"
+    },
+    {
+      "id": "ss64-example-past",
+      "en": "John was about to leave.",
+      "zh": "John 當時正準備離開。",
+      "highlight": "was about to leave"
+    },
+    {
+      "id": "ss64-example-event",
+      "en": "As John was about to leave, I asked for his phone number.",
+      "zh": "John 正準備離開時，我向他要了電話號碼。",
+      "highlight": "As John was about to leave"
+    }
+  ],
+  "meaning": {
+    "zh": "Be about to 表示某個動作已非常接近發生，通常會在幾秒、幾分鐘或很短時間內發生。"
+  },
+  "rules": [
+    {
+      "id": "ss64-rule-01",
+      "en": "Use the base form of the verb after about to.",
+      "zh": "About to 後面使用動詞原形。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She is about to leave."
+      ]
+    },
+    {
+      "id": "ss64-rule-02",
+      "en": "Make the verb be agree with the subject and tense.",
+      "zh": "Be 動詞要配合主語和時態：現在式使用 am、is 或 are；過去式使用 was 或 were。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I am about to leave.",
+        "She is about to leave.",
+        "They are about to leave.",
+        "John was about to leave.",
+        "They were about to leave."
+      ]
+    },
+    {
+      "id": "ss64-rule-03",
+      "en": "Be about to normally describes something that will happen in seconds, minutes or a very short time.",
+      "zh": "Be about to 通常表示事情會在幾秒、幾分鐘或很短時間內發生；較遙遠的計劃通常使用 be going to 或其他將來式。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The train is about to leave."
+      ]
+    },
+    {
+      "id": "ss64-rule-04",
+      "en": "Be going to can describe a later plan, whereas be about to places the event in the immediate future.",
+      "zh": "Be going to 可以表示較後時間的計劃；be about to 表示事情就在眼前，很快便會發生。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We are going to move house next year.",
+        "We are about to leave the house."
+      ]
+    },
+    {
+      "id": "ss64-rule-05",
+      "en": "Was about to shows that an event came very close to happening, but does not prove that it was completed.",
+      "zh": "Was about to 說明事情已非常接近發生，但不一定真的完成；另一件事情可能在最後一刻打斷它。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The train was about to leave when the driver saw a problem."
+      ]
+    },
+    {
+      "id": "ss64-rule-06",
+      "en": "This lesson does not use not about to to express refusal or unwillingness.",
+      "zh": "較高階英語可用 not about to 表示拒絕或不願意，但這並非本課所學的「事情即將發生」，所以練習不包括這種意思。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I am not about to apologise."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss64-benefit-01",
+      "en": "It shows more precisely than an ordinary future form that something will happen very soon.",
+      "zh": "這個句型比普通的將來式更準確，能表明事情已經非常接近發生。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss64-benefit-02",
+      "en": "It naturally describes an action interrupted at the last moment.",
+      "zh": "它能清楚交代原本快要發生的事情、突然出現的另一件事情，以及兩者的先後關係。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss64-benefit-03",
+      "en": "It can replace a longer explanation containing in a few seconds, in a moment or very soon.",
+      "zh": "不需要每次都使用 in a few seconds、in a moment 或 very soon，也可以直接表達事情即將發生。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss64-benefit-04",
+      "en": "It makes stories more vivid and immediate.",
+      "zh": "讀者能想像事情已準備發生卻在最後一刻被打斷，使故事更緊湊和有畫面。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss64-benefit-05",
+      "en": "The frame I was about to... when... helps you speak fluently about sudden events.",
+      "zh": "說故事或描述突發情況時，可以使用 I was about to... when... 的框架迅速加入自己的內容。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using be about to + base verb to show that an action is going to happen very soon.",
+      "Use as or when where necessary to connect an action with another event that happened at that moment.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be about to + 動詞原形 改寫以下句子，以表示某個動作正準備或即將發生。",
+      "如有需要，使用 as 或 when，把正準備發生的動作與當時出現的另一件事情連接起來。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss64-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I will start my homework in a moment.",
+      "promptZh": "我很快便會開始做家課。",
+      "starter": "I",
+      "answer": "I am about to start my homework.",
+      "answerZh": "我正準備開始做家課。",
+      "answerZhSource": "pdf",
+      "highlight": "I am about to start my homework."
+    },
+    {
+      "id": "ss64-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia will open the door in a few seconds.",
+      "promptZh": "米婭會在幾秒後打開門。",
+      "starter": "Mia",
+      "answer": "Mia is about to open the door.",
+      "answerZh": "米婭正準備打開門。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is about to open the door."
+    },
+    {
+      "id": "ss64-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The lesson will begin at any moment.",
+      "promptZh": "課堂隨時都會開始。",
+      "starter": "The",
+      "answer": "The lesson is about to begin.",
+      "answerZh": "課堂即將開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The lesson is about to begin."
+    },
+    {
+      "id": "ss64-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We are going to have lunch very soon.",
+      "promptZh": "我們很快便會吃午餐。",
+      "starter": "We",
+      "answer": "We are about to have lunch.",
+      "answerZh": "我們正準備吃午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "We are about to have lunch."
+    },
+    {
+      "id": "ss64-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben was just going to call his mother.",
+      "promptZh": "本當時正準備致電母親。",
+      "starter": "Ben",
+      "answer": "Ben was about to call his mother.",
+      "answerZh": "本當時正準備致電母親。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben was about to call his mother."
+    },
+    {
+      "id": "ss64-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bus will leave in less than a minute.",
+      "promptZh": "巴士會在一分鐘內開出。",
+      "starter": "The",
+      "answer": "The bus is about to leave.",
+      "answerZh": "巴士即將開出。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus is about to leave."
+    },
+    {
+      "id": "ss64-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ella is just going to take a shower.",
+      "promptZh": "艾拉正準備洗澡。",
+      "starter": "Ella",
+      "answer": "Ella is about to take a shower.",
+      "answerZh": "艾拉正準備洗澡。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella is about to take a shower."
+    },
+    {
+      "id": "ss64-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My father was just going to turn off the television.",
+      "promptZh": "我的父親當時正準備關掉電視。",
+      "starter": "My",
+      "answer": "My father was about to turn off the television.",
+      "answerZh": "我的父親當時正準備關掉電視。",
+      "answerZhSource": "pdf",
+      "highlight": "My father was about to turn off the television."
+    },
+    {
+      "id": "ss64-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "They will play the match in a few seconds.",
+      "promptZh": "他們會在幾秒後開始比賽。",
+      "starter": "They",
+      "answer": "They are about to play the match.",
+      "answerZh": "他們正準備開始比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "They are about to play the match."
+    },
+    {
+      "id": "ss64-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The baby will fall asleep at any moment.",
+      "promptZh": "嬰兒隨時都會入睡。",
+      "starter": "The",
+      "answer": "The baby is about to fall asleep.",
+      "answerZh": "嬰兒快要入睡了。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby is about to fall asleep."
+    },
+    {
+      "id": "ss64-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo was just going to cross the road. At that moment, the traffic light turned red.",
+      "promptZh": "里奧正準備橫過馬路。就在那一刻，交通燈轉為紅色。",
+      "starter": "As",
+      "answer": "As Leo was about to cross the road, the traffic light turned red.",
+      "answerZh": "里奧正準備橫過馬路時，交通燈轉為紅色。",
+      "answerZhSource": "pdf",
+      "highlight": "As Leo was about to cross the road, the traffic light turned red."
+    },
+    {
+      "id": "ss64-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I was just going to send the email when I noticed a spelling mistake.",
+      "promptZh": "我正準備發出電郵時，發現了一個串字錯誤。",
+      "starter": "When",
+      "answer": "When I was about to send the email, I noticed a spelling mistake.",
+      "answerZh": "我正準備發出電郵時，發現了一個串字錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "When I was about to send the email, I noticed a spelling mistake."
+    },
+    {
+      "id": "ss64-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ava was on the point of sitting down when the teacher called her name.",
+      "promptZh": "艾娃正要坐下時，老師叫了她的名字。",
+      "starter": "Ava",
+      "answer": "Ava was about to sit down when the teacher called her name.",
+      "answerZh": "艾娃正準備坐下時，老師叫了她的名字。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava was about to sit down when the teacher called her name."
+    },
+    {
+      "id": "ss64-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The film was going to start in a few seconds. At that moment, two people entered the cinema.",
+      "promptZh": "電影會在幾秒後開始。就在那一刻，兩個人走進戲院。",
+      "starter": "As",
+      "answer": "As the film was about to start, two people entered the cinema.",
+      "answerZh": "電影正準備開始時，兩個人走進戲院。",
+      "answerZhSource": "pdf",
+      "highlight": "As the film was about to start, two people entered the cinema."
+    },
+    {
+      "id": "ss64-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The chef was moments away from serving the soup when he realised that it needed more salt.",
+      "promptZh": "廚師正準備端上湯時，發現湯需要加更多鹽。",
+      "starter": "The",
+      "answer": "The chef was about to serve the soup when he realised that it needed more salt.",
+      "answerZh": "廚師正準備端上湯時，發現湯需要加更多鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef was about to serve the soup when he realised that it needed more salt."
+    },
+    {
+      "id": "ss64-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We were just going to leave the house when it began to rain.",
+      "promptZh": "我們正準備離開住所時，天開始下雨。",
+      "starter": "When",
+      "answer": "When we were about to leave the house, it began to rain.",
+      "answerZh": "我們正準備離開住所時，天開始下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "When we were about to leave the house, it began to rain."
+    },
+    {
+      "id": "ss64-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chloe was just going to pay when she saw that her wallet was missing.",
+      "promptZh": "克洛伊正準備付款時，發現自己的銀包不見了。",
+      "starter": "Chloe",
+      "answer": "Chloe was about to pay when she saw that her wallet was missing.",
+      "answerZh": "克洛伊正準備付款時，發現自己的銀包不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe was about to pay when she saw that her wallet was missing."
+    },
+    {
+      "id": "ss64-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The train was going to move in a few seconds. At that moment, a passenger ran onto the platform.",
+      "promptZh": "火車會在幾秒後開動。就在那一刻，一名乘客跑上月台。",
+      "starter": "As",
+      "answer": "As the train was about to move, a passenger ran onto the platform.",
+      "answerZh": "火車正準備開動時，一名乘客跑上月台。",
+      "answerZhSource": "pdf",
+      "highlight": "As the train was about to move, a passenger ran onto the platform."
+    },
+    {
+      "id": "ss64-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children were on the point of opening the gift when their father asked them to wait.",
+      "promptZh": "孩子們正要打開禮物時，父親叫他們等一等。",
+      "starter": "The",
+      "answer": "The children were about to open the gift when their father asked them to wait.",
+      "answerZh": "孩子們正準備打開禮物時，父親叫他們等一等。",
+      "answerZhSource": "pdf",
+      "highlight": "The children were about to open the gift when their father asked them to wait."
+    },
+    {
+      "id": "ss64-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel was just going to answer when the bell rang.",
+      "promptZh": "丹尼爾正準備回答時，鐘聲響起。",
+      "starter": "When",
+      "answer": "When Daniel was about to answer, the bell rang.",
+      "answerZh": "丹尼爾正準備回答時，鐘聲響起。",
+      "answerZhSource": "pdf",
+      "highlight": "When Daniel was about to answer, the bell rang."
+    },
+    {
+      "id": "ss64-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop will close in less than a minute, so please choose quickly.",
+      "promptZh": "商店會在一分鐘內關門，所以請盡快選擇。",
+      "starter": "The",
+      "answer": "The shop is about to close, so please choose quickly.",
+      "answerZh": "商店即將關門，所以請盡快選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is about to close, so please choose quickly."
+    },
+    {
+      "id": "ss64-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Aisha was seconds away from boarding the plane when her phone rang.",
+      "promptZh": "艾莎正準備登上飛機時，她的電話響起。",
+      "starter": "Aisha",
+      "answer": "Aisha was about to board the plane when her phone rang.",
+      "answerZh": "艾莎正準備登上飛機時，她的電話響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha was about to board the plane when her phone rang."
+    },
+    {
+      "id": "ss64-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor will see the next patient in a moment.",
+      "promptZh": "醫生很快便會接見下一名病人。",
+      "starter": "The",
+      "answer": "The doctor is about to see the next patient.",
+      "answerZh": "醫生正準備接見下一名病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor is about to see the next patient."
+    },
+    {
+      "id": "ss64-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our team was on the point of scoring when the goalkeeper caught the ball.",
+      "promptZh": "我們的球隊正要入球時，守門員接住了球。",
+      "starter": "As",
+      "answer": "As our team was about to score, the goalkeeper caught the ball.",
+      "answerZh": "我們的球隊正要入球時，守門員接住了球。",
+      "answerZhSource": "pdf",
+      "highlight": "As our team was about to score, the goalkeeper caught the ball."
+    },
+    {
+      "id": "ss64-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The computer was seconds away from shutting down when the power returned.",
+      "promptZh": "電腦正要關機時，電力恢復了。",
+      "starter": "The",
+      "answer": "The computer was about to shut down when the power returned.",
+      "answerZh": "電力恢復時，電腦正要關機。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer was about to shut down when the power returned."
+    },
+    {
+      "id": "ss64-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The workers will finish repairing the road in a few minutes.",
+      "promptZh": "工人會在幾分鐘內完成道路維修。",
+      "starter": "The",
+      "answer": "The workers are about to finish repairing the road.",
+      "answerZh": "工人即將完成道路維修。",
+      "answerZhSource": "pdf",
+      "highlight": "The workers are about to finish repairing the road."
+    },
+    {
+      "id": "ss64-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nora was just going to press the button when the engineer stopped her.",
+      "promptZh": "諾拉正準備按下按鈕時，工程師阻止了她。",
+      "starter": "When",
+      "answer": "When Nora was about to press the button, the engineer stopped her.",
+      "answerZh": "諾拉正準備按下按鈕時，工程師阻止了她。",
+      "answerZhSource": "pdf",
+      "highlight": "When Nora was about to press the button, the engineer stopped her."
+    },
+    {
+      "id": "ss64-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old tree will fall at any moment, so keep away from it.",
+      "promptZh": "這棵老樹隨時都會倒下，所以請遠離它。",
+      "starter": "The",
+      "answer": "The old tree is about to fall, so keep away from it.",
+      "answerZh": "這棵老樹即將倒下，所以請遠離它。",
+      "answerZhSource": "pdf",
+      "highlight": "The old tree is about to fall, so keep away from it."
+    },
+    {
+      "id": "ss64-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The concert was going to begin in a few seconds when the sound system failed.",
+      "promptZh": "音樂會正準備開始時，音響系統發生故障。",
+      "starter": "The",
+      "answer": "The concert was about to begin when the sound system failed.",
+      "answerZh": "音樂會正準備開始時，音響系統發生故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The concert was about to begin when the sound system failed."
+    },
+    {
+      "id": "ss64-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I was just going to tell Sam the news when he told me first.",
+      "promptZh": "我正準備把消息告訴山姆時，他先告訴了我。",
+      "starter": "I",
+      "answer": "I was about to tell Sam the news when he told me first.",
+      "answerZh": "我正準備把消息告訴山姆時，他先告訴了我。",
+      "answerZhSource": "pdf",
+      "highlight": "I was about to tell Sam the news when he told me first."
+    },
+    {
+      "id": "ss64-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The results will be announced in a few seconds.",
+      "promptZh": "結果會在幾秒後公布。",
+      "starter": "The",
+      "answer": "The results are about to be announced.",
+      "answerZh": "結果即將公布。",
+      "answerZhSource": "pdf",
+      "highlight": "The results are about to be announced."
+    },
+    {
+      "id": "ss64-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A new library will be officially opened in our district in a few minutes.",
+      "promptZh": "一間新圖書館會在幾分鐘後於本區正式開幕。",
+      "starter": "A",
+      "answer": "A new library is about to be officially opened in our district.",
+      "answerZh": "一間新圖書館即將於本區正式開幕。",
+      "answerZhSource": "pdf",
+      "highlight": "A new library is about to be officially opened in our district."
+    },
+    {
+      "id": "ss64-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The final question was going to be asked in a few seconds. At that moment, the microphone stopped working.",
+      "promptZh": "最後一條問題會在幾秒後提出。就在那一刻，咪高峰停止運作。",
+      "starter": "As",
+      "answer": "As the final question was about to be asked, the microphone stopped working.",
+      "answerZh": "最後一條問題正準備提出時，咪高峰停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "As the final question was about to be asked, the microphone stopped working."
+    },
+    {
+      "id": "ss64-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The road will be reopened in a few minutes because the repairs are now complete.",
+      "promptZh": "由於維修工程現已完成，道路會在幾分鐘後重開。",
+      "starter": "The",
+      "answer": "The road is about to be reopened because the repairs are now complete.",
+      "answerZh": "由於維修工程現已完成，道路即將重開。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is about to be reopened because the repairs are now complete."
+    },
+    {
+      "id": "ss64-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The winning name was going to be read out in the next few seconds when the lights went off.",
+      "promptZh": "得獎者的名字正準備被讀出時，燈光熄滅了。",
+      "starter": "When",
+      "answer": "When the winning name was about to be read out, the lights went off.",
+      "answerZh": "得獎者的名字正準備被讀出時，燈光熄滅了。",
+      "answerZhSource": "pdf",
+      "highlight": "When the winning name was about to be read out, the lights went off."
+    },
+    {
+      "id": "ss64-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This milk will boil at any moment, so turn down the heat.",
+      "promptZh": "這些牛奶隨時都會煮沸，所以請把爐火調低。",
+      "starter": "This",
+      "answer": "This milk is about to boil, so turn down the heat.",
+      "answerZh": "這些牛奶快要煮沸了，所以請把爐火調低。",
+      "answerZhSource": "pdf",
+      "highlight": "This milk is about to boil, so turn down the heat."
+    },
+    {
+      "id": "ss64-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The plane was seconds away from landing when strong winds forced it to circle above the airport.",
+      "promptZh": "飛機正準備降落時，強風迫使它在機場上空盤旋。",
+      "starter": "The",
+      "answer": "The plane was about to land when strong winds forced it to circle above the airport.",
+      "answerZh": "飛機正準備降落時，強風迫使它在機場上空盤旋。",
+      "answerZhSource": "pdf",
+      "highlight": "The plane was about to land when strong winds forced it to circle above the airport."
+    },
+    {
+      "id": "ss64-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our online meeting will start in less than a minute, but the manager has not joined yet.",
+      "promptZh": "我們的網上會議會在一分鐘內開始，但經理仍未加入。",
+      "starter": "Our",
+      "answer": "Our online meeting is about to start, but the manager has not joined yet.",
+      "answerZh": "我們的網上會議即將開始，但經理仍未加入。",
+      "answerZhSource": "pdf",
+      "highlight": "Our online meeting is about to start, but the manager has not joined yet."
+    },
+    {
+      "id": "ss64-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The dog was on the point of jumping into the lake when its owner caught its collar.",
+      "promptZh": "小狗正要跳進湖中時，主人捉住了牠的頸圈。",
+      "starter": "As",
+      "answer": "As the dog was about to jump into the lake, its owner caught its collar.",
+      "answerZh": "小狗正準備跳進湖中時，主人捉住了牠的頸圈。",
+      "answerZhSource": "pdf",
+      "highlight": "As the dog was about to jump into the lake, its owner caught its collar."
+    },
+    {
+      "id": "ss64-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school play was only seconds from ending when the fire alarm sounded.",
+      "promptZh": "學校話劇快將結束時，火警鐘響起。",
+      "starter": "The",
+      "answer": "The school play was about to end when the fire alarm sounded.",
+      "answerZh": "學校話劇正準備結束時，火警鐘響起。",
+      "answerZhSource": "pdf",
+      "highlight": "The school play was about to end when the fire alarm sounded."
+    },
+    {
+      "id": "ss64-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital is only minutes away from introducing a new booking system.",
+      "promptZh": "醫院只需再過幾分鐘便會推出新的預約系統。",
+      "starter": "The",
+      "answer": "The hospital is about to introduce a new booking system.",
+      "answerZh": "醫院即將推出新的預約系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is about to introduce a new booking system."
+    },
+    {
+      "id": "ss64-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The last passenger was just going to get off when the bus driver noticed a bag under a seat.",
+      "promptZh": "最後一名乘客正準備下車時，巴士司機發現座位下有一個袋。",
+      "starter": "As",
+      "answer": "As the last passenger was about to get off, the bus driver noticed a bag under a seat.",
+      "answerZh": "最後一名乘客正準備下車時，巴士司機發現座位下有一個袋。",
+      "answerZhSource": "pdf",
+      "highlight": "As the last passenger was about to get off, the bus driver noticed a bag under a seat."
+    },
+    {
+      "id": "ss64-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A simpler website will replace the old one in a few minutes.",
+      "promptZh": "一個較簡單的網站會在幾分鐘後取代舊網站。",
+      "starter": "The",
+      "answer": "The old website is about to be replaced by a simpler one.",
+      "answerZh": "舊網站即將由一個較簡單的網站取代。",
+      "answerZhSource": "pdf",
+      "highlight": "The old website is about to be replaced by a simpler one."
+    },
+    {
+      "id": "ss64-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council was on the point of voting on the plan when one member asked for more information.",
+      "promptZh": "委員會正準備就計劃投票時，一名成員要求取得更多資料。",
+      "starter": "When",
+      "answer": "When the council was about to vote on the plan, one member asked for more information.",
+      "answerZh": "委員會正準備就計劃投票時，一名成員要求取得更多資料。",
+      "answerZhSource": "pdf",
+      "highlight": "When the council was about to vote on the plan, one member asked for more information."
+    },
+    {
+      "id": "ss64-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team was seconds away from completing the project when a serious error appeared in the final report.",
+      "promptZh": "團隊正準備完成項目時，最終報告中出現了一個嚴重錯誤。",
+      "starter": "The",
+      "answer": "The team was about to complete the project when a serious error appeared in the final report.",
+      "answerZh": "團隊正準備完成項目時，最終報告中出現了一個嚴重錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The team was about to complete the project when a serious error appeared in the final report."
+    },
+    {
+      "id": "ss64-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Mei was just going to explain why the machine had stopped when it started working again.",
+      "promptZh": "梅正準備解釋機器停止運作的原因時，機器再次運作起來。",
+      "starter": "As",
+      "answer": "As Mei was about to explain why the machine had stopped, it started working again.",
+      "answerZh": "梅正準備解釋機器停止運作的原因時，機器再次運作起來。",
+      "answerZhSource": "pdf",
+      "highlight": "As Mei was about to explain why the machine had stopped, it started working again."
+    },
+    {
+      "id": "ss64-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The damaged bridge will be closed to traffic in a few minutes.",
+      "promptZh": "受損的橋樑會在幾分鐘後禁止車輛通行。",
+      "starter": "The",
+      "answer": "The damaged bridge is about to be closed to traffic.",
+      "answerZh": "受損的橋樑即將禁止車輛通行。",
+      "answerZhSource": "pdf",
+      "highlight": "The damaged bridge is about to be closed to traffic."
+    },
+    {
+      "id": "ss64-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The volunteers were just going to hand out the food when they discovered that several boxes were missing.",
+      "promptZh": "義工正準備派發食物時，發現有幾個箱子不見了。",
+      "starter": "When",
+      "answer": "When the volunteers were about to hand out the food, they discovered that several boxes were missing.",
+      "answerZh": "義工正準備派發食物時，發現有幾個箱子不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "When the volunteers were about to hand out the food, they discovered that several boxes were missing."
+    },
+    {
+      "id": "ss64-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The scientists were on the point of beginning the final test when a safety alarm interrupted them.",
+      "promptZh": "科學家正要開始最後測試時，安全警報打斷了他們。",
+      "starter": "The",
+      "answer": "The scientists were about to begin the final test when a safety alarm interrupted them.",
+      "answerZh": "科學家正準備開始最後測試時，安全警報打斷了他們。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientists were about to begin the final test when a safety alarm interrupted them."
+    },
+    {
+      "id": "ss64-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The speaker was going to reveal the main result of the study in the next few seconds. Then the screen suddenly went blank.",
+      "promptZh": "講者會在幾秒後公布研究的主要結果。接着，螢幕突然變成一片空白。",
+      "starter": "As",
+      "answer": "As the speaker was about to reveal the main result of the study, the screen suddenly went blank.",
+      "answerZh": "講者正準備公布研究的主要結果時，螢幕突然變成一片空白。",
+      "answerZhSource": "pdf",
+      "highlight": "As the speaker was about to reveal the main result of the study, the screen suddenly went blank."
+    }
+  ]
+}

@@ -10,7 +10,7 @@ const ORIGIN = "https://edmundeducation.github.io";
 const STUDENT_TOKEN = "11111111-1111-4111-8111-111111111111";
 const STUDENT_ID = "22222222-2222-4222-8222-222222222222";
 const ATTEMPT_ID = "33333333-3333-4333-8333-333333333333";
-const ALL_BOOKMARK_ROWS = Array.from({ length: 1950 }, (_, index) => {
+const ALL_BOOKMARK_ROWS = Array.from({ length: 3500 }, (_, index) => {
   const lessonNumber = Math.floor(index / 50) + 1;
   const questionNumber = (index % 50) + 1;
   return {
@@ -47,7 +47,7 @@ function jsonResponse(value, status = 200) {
 }
 
 test("the Worker answer catalog exactly matches the published lesson data", () => {
-  const expansionPath = new URL("../../../sentence-structure-lessons-5-39.js", import.meta.url);
+  const expansionPath = new URL("../../../sentence-structure-lessons-5-70.js", import.meta.url);
   const dataPath = new URL("../../../sentence-structure-data.js", import.meta.url);
   const context = { window: {} };
   vm.createContext(context);
@@ -60,7 +60,7 @@ test("the Worker answer catalog exactly matches the published lesson data", () =
       expected[question.id] = [question.answer, ...Array.from(question.acceptedAnswers || [])];
     }
   }
-  assert.equal(Object.keys(expected).length, 1950);
+  assert.equal(Object.keys(expected).length, 3500);
   assert.deepEqual(ACCEPTED_ANSWERS, expected);
 });
 
@@ -130,8 +130,8 @@ test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", as
   };
 
   const startedAt = new Date().toISOString();
-  const lessonId = "ss39";
-  const questionId = "ss39-q01";
+  const lessonId = "ss70";
+  const questionId = "ss70-q01";
   const answer = ACCEPTED_ANSWERS[questionId]?.[0];
   assert.ok(answer, `${questionId} must exist in the generated catalogue`);
   const request = new Request(`https://worker.example/v1/attempts/${ATTEMPT_ID}`, {
@@ -235,11 +235,11 @@ test("bookmark replacement reloads every page instead of truncating at PostgREST
 
   const response = await worker.fetch(request, environment());
   assert.equal(response.status, 200);
-  assert.equal(replacedCount, 1950);
-  assert.deepEqual(pageOffsets, [0, 900, 1800]);
+  assert.equal(replacedCount, 3500);
+  assert.deepEqual(pageOffsets, [0, 900, 1800, 2700]);
   const body = await response.json();
-  assert.equal(body.bookmarks.length, 1950);
-  assert.equal(body.bookmarks.at(-1).questionId, "ss39-q50");
+  assert.equal(body.bookmarks.length, 3500);
+  assert.equal(body.bookmarks.at(-1).questionId, "ss70-q50");
 });
 
 test("attempt byte validation matches PostgreSQL jsonb text spacing", async t => {
@@ -264,7 +264,7 @@ test("attempt byte validation matches PostgreSQL jsonb text spacing", async t =>
   const startedAt = new Date().toISOString();
   const questionIds = Array.from(
     { length: 50 },
-    (_, index) => `ss39-q${String(index + 1).padStart(2, "0")}`
+    (_, index) => `ss70-q${String(index + 1).padStart(2, "0")}`
   );
   const result = {
     round: 72,
@@ -300,7 +300,7 @@ test("attempt byte validation matches PostgreSQL jsonb text spacing", async t =>
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      lessonId: "ss39",
+      lessonId: "ss70",
       lessonVersion: "1",
       status: "in_progress",
       roundNumber: 72,

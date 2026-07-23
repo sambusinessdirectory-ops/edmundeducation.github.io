@@ -1,0 +1,1202 @@
+{
+  "id": "ss59",
+  "order": 59,
+  "slug": "as-long-as-condition",
+  "title": "「As long as」條件句",
+  "titleZh": "「As long as」表達「只要／條件是」",
+  "titleEn": "Using as long as to state a condition",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Stucture 59 -「As long as 句——表達條件」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Main clause + as long as + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss59-formula-final",
+      "labelEn": "Condition after the main clause",
+      "labelZh": "條件放在主句後",
+      "formula": "Main clause + as long as + subject + verb + other information"
+    },
+    {
+      "id": "ss59-formula-initial",
+      "labelEn": "Condition first",
+      "labelZh": "條件放在句首",
+      "formula": "As long as + subject + verb + other information, + main clause"
+    }
+  ],
+  "example": "I am satisfied with my life as long as I am doing what I truly enjoy.",
+  "exampleZh": "只要我正在做自己真正喜歡的事，我就對人生感到滿足。",
+  "examples": [
+    {
+      "id": "ss59-example-01",
+      "en": "I am satisfied with my life as long as I am doing what I truly enjoy.",
+      "zh": "只要我正在做自己真正喜歡的事，我就對人生感到滿足。",
+      "highlight": "as long as I am doing what I truly enjoy"
+    }
+  ],
+  "meaning": {
+    "zh": "As long as 說明某個行動、許可、結果或情況成立所必須符合的條件，意思接近 if、provided that 或「只要」。"
+  },
+  "rules": [
+    {
+      "id": "ss59-rule-01",
+      "en": "As long as introduces a required condition.",
+      "zh": "As long as 表示需要符合的條件，意思接近 if、provided that 或 on condition that。",
+      "examples": [
+        "You can use my laptop as long as you are careful."
+      ]
+    },
+    {
+      "id": "ss59-rule-02",
+      "en": "Use a present tense in the condition clause for future meaning.",
+      "zh": "談論未來時，as long as 條件子句一般使用現在式。",
+      "examples": [
+        "You can go out as long as you finish your homework."
+      ]
+    },
+    {
+      "id": "ss59-rule-03",
+      "en": "The condition clause may come first or last.",
+      "zh": "As long as 子句可以放在句首或句尾；放在句首時，後面使用逗號。",
+      "examples": [
+        "As long as everyone is ready, we can begin."
+      ]
+    },
+    {
+      "id": "ss59-rule-04",
+      "en": "The condition may be affirmative or negative.",
+      "zh": "條件可以是肯定或否定。",
+      "examples": [
+        "You may take photographs as long as you do not use flash."
+      ]
+    },
+    {
+      "id": "ss59-rule-05",
+      "en": "This lesson does not practise the duration meaning of as long as.",
+      "zh": "本課不練習 as long as 表示長度或整段時間的意思。",
+      "examples": [
+        "The bridge is as long as the road."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss59-benefit-01",
+      "en": "It makes a condition explicit.",
+      "zh": "它能清楚說明某事獲准、可行或可接受所需的條件。"
+    },
+    {
+      "id": "ss59-benefit-02",
+      "en": "It joins permission and a requirement in one sentence.",
+      "zh": "它把可以做甚麼和必須符合的要求直接連接起來。"
+    },
+    {
+      "id": "ss59-benefit-03",
+      "en": "It focuses attention on what really matters.",
+      "zh": "當其他細節有彈性時，它能突出真正重要的條件。"
+    },
+    {
+      "id": "ss59-benefit-04",
+      "en": "It makes rules and agreements sound more cooperative.",
+      "zh": "它通常先說明可做的事情，再提出條件，使規則較正面和有商量空間。"
+    },
+    {
+      "id": "ss59-benefit-05",
+      "en": "It gives another way to organise a sentence.",
+      "zh": "把條件放在句首可增加句式變化並先交代重要前提。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using as long as to show the condition.",
+      "Keep the original meaning unchanged.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 as long as 改寫以下句子，以表達條件。",
+      "保持原意不變。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss59-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If you return my pen after class, you can borrow it.",
+      "promptZh": "如果你在下課後歸還我的筆，你便可以借用它。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can borrow my pen as long as you return it after class.",
+      "answerZh": "只要你在下課後歸還我的筆，你便可以借用它。",
+      "answerZhSource": "pdf",
+      "highlight": "You can borrow my pen as long as you return it after class."
+    },
+    {
+      "id": "ss59-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I am happy to help, provided that you tell me what you need.",
+      "promptZh": "我很樂意幫忙，前提是你告訴我你需要甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am happy to help as long as you tell me what you need.",
+      "answerZh": "只要你告訴我你需要甚麼，我便很樂意幫忙。",
+      "answerZhSource": "pdf",
+      "highlight": "I am happy to help as long as you tell me what you need."
+    },
+    {
+      "id": "ss59-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia may play outside only if she finishes her homework first.",
+      "promptZh": "米婭只有先完成功課，才可以到外面玩。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia may play outside as long as she finishes her homework first.",
+      "answerZh": "只要米婭先完成功課，她便可以到外面玩。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia may play outside as long as she finishes her homework first."
+    },
+    {
+      "id": "ss59-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We can have dinner in the garden unless it rains.",
+      "promptZh": "除非下雨，否則我們可以在花園吃晚飯。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can have dinner in the garden as long as it does not rain.",
+      "answerZh": "只要不下雨，我們便可以在花園吃晚飯。",
+      "answerZhSource": "pdf",
+      "highlight": "We can have dinner in the garden as long as it does not rain."
+    },
+    {
+      "id": "ss59-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben may use the computer. The condition is that he must ask his parents first.",
+      "promptZh": "本可以使用電腦。條件是他必須先問父母。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben may use the computer as long as he asks his parents first.",
+      "answerZh": "只要本先問父母，他便可以使用電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben may use the computer as long as he asks his parents first."
+    },
+    {
+      "id": "ss59-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The dog may stay indoors on condition that it remains quiet.",
+      "promptZh": "這隻狗可以留在室內，條件是牠保持安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog may stay indoors as long as it remains quiet.",
+      "answerZh": "只要這隻狗保持安靜，牠便可以留在室內。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog may stay indoors as long as it remains quiet."
+    },
+    {
+      "id": "ss59-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I do not mind which restaurant we choose. I only want the food to be fresh.",
+      "promptZh": "我不介意我們選擇哪間餐廳。我只希望食物新鮮。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not mind which restaurant we choose as long as the food is fresh.",
+      "answerZh": "只要食物新鮮，我不介意我們選擇哪間餐廳。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not mind which restaurant we choose as long as the food is fresh."
+    },
+    {
+      "id": "ss59-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you leave now, you will catch the bus.",
+      "promptZh": "如果你現在離開，你便能趕上巴士。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You will catch the bus as long as you leave now.",
+      "answerZh": "只要你現在離開，你便能趕上巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "You will catch the bus as long as you leave now."
+    },
+    {
+      "id": "ss59-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Can Emma join the game? Yes, but she must follow the rules.",
+      "promptZh": "艾瑪可以參加遊戲嗎？可以，但她必須遵守規則。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma can join the game as long as she follows the rules.",
+      "answerZh": "只要艾瑪遵守規則，她便可以參加遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma can join the game as long as she follows the rules."
+    },
+    {
+      "id": "ss59-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Everyone must be ready before we can begin the lesson.",
+      "promptZh": "所有人都必須準備好，我們才可以開始上課。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as everyone is ready, we can begin the lesson.",
+      "answerZh": "只要所有人都準備好，我們便可以開始上課。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as everyone is ready, we can begin the lesson."
+    },
+    {
+      "id": "ss59-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The picnic can continue, but the weather must stay dry.",
+      "promptZh": "野餐可以繼續，但天氣必須保持乾爽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The picnic can continue as long as the weather stays dry.",
+      "answerZh": "只要天氣保持乾爽，野餐便可以繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The picnic can continue as long as the weather stays dry."
+    },
+    {
+      "id": "ss59-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I will lend you the book only if you keep it clean.",
+      "promptZh": "只有你保持這本書整潔，我才會把它借給你。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will lend you the book as long as you keep it clean.",
+      "answerZh": "只要你保持這本書整潔，我便會把它借給你。",
+      "answerZhSource": "pdf",
+      "highlight": "I will lend you the book as long as you keep it clean."
+    },
+    {
+      "id": "ss59-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah may attend the concert on condition that an adult goes with her.",
+      "promptZh": "莎拉可以出席音樂會，條件是有一名成人陪同她。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah may attend the concert as long as an adult goes with her.",
+      "answerZh": "只要有一名成人陪同莎拉，她便可以出席音樂會。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah may attend the concert as long as an adult goes with her."
+    },
+    {
+      "id": "ss59-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If you save your work regularly, you will not lose much if the computer stops.",
+      "promptZh": "如果你定期儲存工作，即使電腦停止運作，你也不會損失太多內容。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as you save your work regularly, you will not lose much if the computer stops.",
+      "answerZh": "只要你定期儲存工作，即使電腦停止運作，你也不會損失太多內容。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as you save your work regularly, you will not lose much if the computer stops."
+    },
+    {
+      "id": "ss59-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop will replace the item provided that you keep the receipt.",
+      "promptZh": "商店會更換該件貨品，前提是你保留收據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop will replace the item as long as you keep the receipt.",
+      "answerZh": "只要你保留收據，商店便會更換該件貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop will replace the item as long as you keep the receipt."
+    },
+    {
+      "id": "ss59-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We can take the shorter path if it is safe.",
+      "promptZh": "如果較短的路線安全，我們便可以走那條路。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can take the shorter path as long as it is safe.",
+      "answerZh": "只要較短的路線安全，我們便可以走那條路。",
+      "answerZhSource": "pdf",
+      "highlight": "We can take the shorter path as long as it is safe."
+    },
+    {
+      "id": "ss59-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "David is willing to share the room, but he needs enough space for his desk.",
+      "promptZh": "大衛願意共用房間，但他需要有足夠空間放置書桌。",
+      "promptZhSource": "pdf",
+      "starter": "David",
+      "answer": "David is willing to share the room as long as he has enough space for his desk.",
+      "answerZh": "只要有足夠空間放置書桌，大衛便願意共用房間。",
+      "answerZhSource": "pdf",
+      "highlight": "David is willing to share the room as long as he has enough space for his desk."
+    },
+    {
+      "id": "ss59-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You may bring a friend, provided that you tell us in advance.",
+      "promptZh": "你可以帶一位朋友來，前提是你預先通知我們。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may bring a friend as long as you tell us in advance.",
+      "answerZh": "只要你預先通知我們，你便可以帶一位朋友來。",
+      "answerZhSource": "pdf",
+      "highlight": "You may bring a friend as long as you tell us in advance."
+    },
+    {
+      "id": "ss59-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The class can use the sports hall unless another group has booked it.",
+      "promptZh": "除非另一組人已預訂體育館，否則這班學生可以使用它。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class can use the sports hall as long as another group has not booked it.",
+      "answerZh": "只要另一組人沒有預訂體育館，這班學生便可以使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "The class can use the sports hall as long as another group has not booked it."
+    },
+    {
+      "id": "ss59-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I do not mind which vegetables you use. The soup must taste good.",
+      "promptZh": "我不介意你使用哪些蔬菜。湯必須好喝。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not mind which vegetables you use as long as the soup tastes good.",
+      "answerZh": "只要湯好喝，我不介意你使用哪些蔬菜。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not mind which vegetables you use as long as the soup tastes good."
+    },
+    {
+      "id": "ss59-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We can end the meeting early if we cover all the important points.",
+      "promptZh": "如果我們討論完所有重點，便可以提早結束會議。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can end the meeting early as long as we cover all the important points.",
+      "answerZh": "只要我們討論完所有重點，便可以提早結束會議。",
+      "answerZhSource": "pdf",
+      "highlight": "We can end the meeting early as long as we cover all the important points."
+    },
+    {
+      "id": "ss59-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The company allows Olivia to work from home on condition that she attends the morning video call.",
+      "promptZh": "公司允許奧莉花在家工作，條件是她出席早上的視像會議。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia can work from home as long as she attends the morning video call.",
+      "answerZh": "只要奧莉花出席早上的視像會議，她便可以在家工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia can work from home as long as she attends the morning video call."
+    },
+    {
+      "id": "ss59-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The patient may leave the waiting area provided that a family member stays with him.",
+      "promptZh": "病人可以離開候診區，前提是有一名家人陪伴他。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient may leave the waiting area as long as a family member stays with him.",
+      "answerZh": "只要有一名家人陪伴病人，他便可以離開候診區。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient may leave the waiting area as long as a family member stays with him."
+    },
+    {
+      "id": "ss59-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The event can go ahead on one condition: enough volunteers must arrive.",
+      "promptZh": "活動可以如期舉行，但有一個條件：必須有足夠的義工到場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event can go ahead as long as enough volunteers arrive.",
+      "answerZh": "只要有足夠的義工到場，活動便可以如期舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The event can go ahead as long as enough volunteers arrive."
+    },
+    {
+      "id": "ss59-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Are the children allowed to watch the film? Yes, if it is suitable for their age.",
+      "promptZh": "孩子們可以觀看這部電影嗎？可以，但電影必須適合他們的年齡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children can watch the film as long as it is suitable for their age.",
+      "answerZh": "只要電影適合孩子們的年齡，他們便可以觀看這部電影。",
+      "answerZhSource": "pdf",
+      "highlight": "The children can watch the film as long as it is suitable for their age."
+    },
+    {
+      "id": "ss59-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If everyone sorts the rubbish correctly, we can reduce waste.",
+      "promptZh": "如果每個人都正確分類垃圾，我們便可以減少廢物。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can reduce waste as long as everyone sorts the rubbish correctly.",
+      "answerZh": "只要每個人都正確分類垃圾，我們便可以減少廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "We can reduce waste as long as everyone sorts the rubbish correctly."
+    },
+    {
+      "id": "ss59-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Provided that the batteries are charged, this torch will work during a power cut.",
+      "promptZh": "前提是電池已充電，這支電筒在停電時便能運作。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as the batteries are charged, this torch will work during a power cut.",
+      "answerZh": "只要電池已充電，這支電筒在停電時便能運作。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as the batteries are charged, this torch will work during a power cut."
+    },
+    {
+      "id": "ss59-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team may change the schedule only if all members agree.",
+      "promptZh": "只有所有成員都同意，團隊才可以更改時間表。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team may change the schedule as long as all members agree.",
+      "answerZh": "只要所有成員都同意，團隊便可以更改時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "The team may change the schedule as long as all members agree."
+    },
+    {
+      "id": "ss59-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I will support the plan, but only if it does not increase the cost for families.",
+      "promptZh": "我會支持這個計劃，但前提是它不會增加家庭的開支。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will support the plan as long as it does not increase the cost for families.",
+      "answerZh": "只要這個計劃不會增加家庭的開支，我便會支持它。",
+      "answerZhSource": "pdf",
+      "highlight": "I will support the plan as long as it does not increase the cost for families."
+    },
+    {
+      "id": "ss59-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Visitors may take photographs in the museum on condition that they do not use flash.",
+      "promptZh": "訪客可以在博物館內拍照，條件是他們不使用閃光燈。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors may take photographs in the museum as long as they do not use flash.",
+      "answerZh": "只要訪客不使用閃光燈，便可以在博物館內拍照。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors may take photographs in the museum as long as they do not use flash."
+    },
+    {
+      "id": "ss59-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You can update the programme safely provided that you back up the files first.",
+      "promptZh": "前提是你先備份檔案，你便可以安全地更新程式。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as you back up the files first, you can update the programme safely.",
+      "answerZh": "只要你先備份檔案，便可以安全地更新程式。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as you back up the files first, you can update the programme safely."
+    },
+    {
+      "id": "ss59-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The library will extend its opening hours if enough staff are available.",
+      "promptZh": "如果有足夠職員當值，圖書館便會延長開放時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library will extend its opening hours as long as enough staff are available.",
+      "answerZh": "只要有足夠職員當值，圖書館便會延長開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The library will extend its opening hours as long as enough staff are available."
+    },
+    {
+      "id": "ss59-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We do not need to choose the cheapest supplier. The service only needs to be reliable.",
+      "promptZh": "我們不需要選擇最便宜的供應商。服務只需要可靠。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We do not need to choose the cheapest supplier as long as the service is reliable.",
+      "answerZh": "只要服務可靠，我們便不需要選擇最便宜的供應商。",
+      "answerZhSource": "pdf",
+      "highlight": "We do not need to choose the cheapest supplier as long as the service is reliable."
+    },
+    {
+      "id": "ss59-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The journey should be smooth provided that passengers follow the safety instructions.",
+      "promptZh": "前提是乘客遵從安全指示，旅程應該會順利。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as passengers follow the safety instructions, the journey should be smooth.",
+      "answerZh": "只要乘客遵從安全指示，旅程應該會順利。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as passengers follow the safety instructions, the journey should be smooth."
+    },
+    {
+      "id": "ss59-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach does not mind how the players train. Their training must improve their teamwork.",
+      "promptZh": "教練不介意球員如何訓練。他們的訓練必須提升團隊合作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach does not mind how the players train as long as their training improves their teamwork.",
+      "answerZh": "只要球員的訓練能提升團隊合作，教練便不介意他們如何訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach does not mind how the players train as long as their training improves their teamwork."
+    },
+    {
+      "id": "ss59-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The community garden can remain open on condition that residents help to maintain it.",
+      "promptZh": "社區花園可以繼續開放，條件是居民協助保養。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community garden can remain open as long as residents help to maintain it.",
+      "answerZh": "只要居民協助保養，社區花園便可以繼續開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The community garden can remain open as long as residents help to maintain it."
+    },
+    {
+      "id": "ss59-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the school keeps parents informed, they are more likely to support the change.",
+      "promptZh": "如果學校讓家長掌握最新情況，他們便較有可能支持這項改變。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as the school keeps parents informed, they are more likely to support the change.",
+      "answerZh": "只要學校讓家長掌握最新情況，他們便較有可能支持這項改變。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as the school keeps parents informed, they are more likely to support the change."
+    },
+    {
+      "id": "ss59-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine may be used outdoors only if it is protected from heavy rain.",
+      "promptZh": "只有在免受大雨影響的情況下，這部機器才可以在戶外使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine may be used outdoors as long as it is protected from heavy rain.",
+      "answerZh": "只要這部機器免受大雨影響，便可以在戶外使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine may be used outdoors as long as it is protected from heavy rain."
+    },
+    {
+      "id": "ss59-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We can accept the delay on condition that the final report is accurate.",
+      "promptZh": "我們可以接受延誤，條件是最終報告準確無誤。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can accept the delay as long as the final report is accurate.",
+      "answerZh": "只要最終報告準確無誤，我們便可以接受延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "We can accept the delay as long as the final report is accurate."
+    },
+    {
+      "id": "ss59-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The account should stay secure provided that the password remains private.",
+      "promptZh": "前提是密碼不被公開，帳戶應該能保持安全。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as the password remains private, the account should stay secure.",
+      "answerZh": "只要密碼不被公開，帳戶應該能保持安全。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as the password remains private, the account should stay secure."
+    },
+    {
+      "id": "ss59-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company can introduce flexible hours, but only if customer service is not affected.",
+      "promptZh": "公司可以推行彈性工作時間，但前提是顧客服務不受影響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company can introduce flexible hours as long as customer service is not affected.",
+      "answerZh": "只要顧客服務不受影響，公司便可以推行彈性工作時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The company can introduce flexible hours as long as customer service is not affected."
+    },
+    {
+      "id": "ss59-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ambulances can arrive without delay if the hospital keeps the emergency entrance clear.",
+      "promptZh": "如果醫院保持緊急入口暢通，救護車便可以迅速到達。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as the hospital keeps the emergency entrance clear, ambulances can arrive without delay.",
+      "answerZh": "只要醫院保持緊急入口暢通，救護車便可以迅速到達。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as the hospital keeps the emergency entrance clear, ambulances can arrive without delay."
+    },
+    {
+      "id": "ss59-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The town can welcome more visitors provided that local services can handle the extra demand.",
+      "promptZh": "前提是本地服務能應付額外需求，這個城鎮便可以接待更多訪客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town can welcome more visitors as long as local services can handle the extra demand.",
+      "answerZh": "只要本地服務能應付額外需求，這個城鎮便可以接待更多訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "The town can welcome more visitors as long as local services can handle the extra demand."
+    },
+    {
+      "id": "ss59-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We can simplify the application form on condition that all necessary information is still collected.",
+      "promptZh": "我們可以簡化申請表，條件是仍能收集所有必要資料。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can simplify the application form as long as all necessary information is still collected.",
+      "answerZh": "只要仍能收集所有必要資料，我們便可以簡化申請表。",
+      "answerZhSource": "pdf",
+      "highlight": "We can simplify the application form as long as all necessary information is still collected."
+    },
+    {
+      "id": "ss59-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People may accept the final decision if the committee explains its reasons clearly.",
+      "promptZh": "如果委員會清楚解釋理由，人們或會接受最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as the committee explains its reasons clearly, people may accept the final decision.",
+      "answerZh": "只要委員會清楚解釋理由，人們或會接受最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as the committee explains its reasons clearly, people may accept the final decision."
+    },
+    {
+      "id": "ss59-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school is willing to let students use tablets in class. The condition is that they use them only for learning.",
+      "promptZh": "學校願意讓學生在課堂上使用平板電腦。條件是學生只把它們用於學習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is willing to let students use tablets in class as long as they use them only for learning.",
+      "answerZh": "只要學生只把平板電腦用於學習，學校便願意讓他們在課堂上使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is willing to let students use tablets in class as long as they use them only for learning."
+    },
+    {
+      "id": "ss59-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I do not mind whether the presentation is online or face to face. Everyone must be able to take part.",
+      "promptZh": "我不介意簡報以網上或面對面形式進行。所有人都必須能夠參與。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not mind whether the presentation is online or face to face as long as everyone can take part.",
+      "answerZh": "只要所有人都能夠參與，我不介意簡報以網上或面對面形式進行。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not mind whether the presentation is online or face to face as long as everyone can take part."
+    },
+    {
+      "id": "ss59-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new bus route does not need to stop on every street provided that it serves the main residential areas.",
+      "promptZh": "前提是新巴士路線覆蓋主要住宅區，它便不需要在每條街道停站。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as the new bus route serves the main residential areas, it does not need to stop on every street.",
+      "answerZh": "只要新巴士路線覆蓋主要住宅區，它便不需要在每條街道停站。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as the new bus route serves the main residential areas, it does not need to stop on every street."
+    },
+    {
+      "id": "ss59-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisation may continue the project only if it can show that the benefits are greater than the costs.",
+      "promptZh": "只有在能證明效益大於成本的情況下，該機構才可以繼續這個項目。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation may continue the project as long as it can show that the benefits are greater than the costs.",
+      "answerZh": "只要該機構能證明效益大於成本，便可以繼續這個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation may continue the project as long as it can show that the benefits are greater than the costs."
+    },
+    {
+      "id": "ss59-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new system can be introduced without interrupting daily services. The essential condition is that the team responds quickly to problems.",
+      "promptZh": "新系統可以在不中斷日常服務的情況下推出。必要條件是團隊迅速處理問題。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As long as the team responds quickly to problems, the new system can be introduced without interrupting daily services.",
+      "answerZh": "只要團隊迅速處理問題，新系統便可以在不中斷日常服務的情況下推出。",
+      "answerZhSource": "pdf",
+      "highlight": "As long as the team responds quickly to problems, the new system can be introduced without interrupting daily services."
+    }
+  ]
+}

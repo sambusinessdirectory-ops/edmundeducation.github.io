@@ -4,7 +4,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import vm from "node:vm";
 
 const root = new URL("../", import.meta.url);
-const expansionUrl = new URL("sentence-structure-lessons-5-39.js", root);
+const expansionUrl = new URL("sentence-structure-lessons-5-70.js", root);
 const dataUrl = new URL("sentence-structure-data.js", root);
 const catalogUrl = new URL("workers/sentence-structure/src/catalog.js", root);
 const [expansionSource, source] = await Promise.all([
@@ -14,7 +14,7 @@ const [expansionSource, source] = await Promise.all([
 const sandbox = { window: {} };
 
 vm.createContext(sandbox);
-vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-39.js" });
+vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-70.js" });
 vm.runInContext(source, sandbox, { filename: "sentence-structure-data.js" });
 
 const lessons = sandbox.window.EDMUND_SENTENCE_STRUCTURE_DATA?.lessons;

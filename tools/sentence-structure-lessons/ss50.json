@@ -1,0 +1,1184 @@
+{
+  "id": "ss50",
+  "order": 50,
+  "slug": "somewhere-nowhere-elsewhere-adjective",
+  "title": "「Somewhere / Nowhere / Elsewhere + Adj」句型",
+  "titleZh": "「Somewhere / Nowhere / Elsewhere + Adj 句」",
+  "titleEn": "Using somewhere, nowhere and elsewhere to describe places",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 50 -「Somewhere _ Nowhere _ Elsewhere + Adj 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + verb + somewhere + adjective / place phrase / to + base verb",
+  "formulas": [
+    {
+      "id": "ss50-formula-somewhere",
+      "labelEn": "A. Somewhere",
+      "labelZh": "A. Somewhere",
+      "formula": "Subject + verb + somewhere + adjective / place phrase / to + base verb"
+    },
+    {
+      "id": "ss50-formula-nowhere",
+      "labelEn": "B. Nowhere",
+      "labelZh": "B. Nowhere",
+      "formula": "Subject + verb + nowhere + adjective / place phrase / to + base verb"
+    },
+    {
+      "id": "ss50-formula-elsewhere",
+      "labelEn": "C. Elsewhere",
+      "labelZh": "C. Elsewhere",
+      "formula": "Subject + verb + elsewhere (+ place phrase)"
+    }
+  ],
+  "example": "We need somewhere quiet to talk.",
+  "exampleZh": "我們需要一個安靜的地方交談。",
+  "examples": [
+    {
+      "id": "ss50-example-somewhere",
+      "en": "We need somewhere quiet to talk.",
+      "zh": "我們需要一個安靜的地方交談。",
+      "highlight": "somewhere quiet"
+    },
+    {
+      "id": "ss50-example-nowhere",
+      "en": "There is nowhere safe to leave the bag.",
+      "zh": "沒有安全的地方可以放下這個袋。",
+      "highlight": "nowhere safe"
+    },
+    {
+      "id": "ss50-example-elsewhere",
+      "en": "We decided to eat elsewhere.",
+      "zh": "我們決定到別處吃東西。",
+      "highlight": "elsewhere"
+    }
+  ],
+  "meaning": {
+    "zh": "Somewhere 表示某處，nowhere 表示沒有任何地方，而 elsewhere 表示另一個地方或方向。"
+  },
+  "rules": [
+    {
+      "id": "ss50-rule-01",
+      "en": "Use somewhere when a place exists, but its exact location is unknown, unimportant or not mentioned.",
+      "zh": "當某個地方確實存在，但確實位置不明、不重要或沒有說明時，使用 somewhere。",
+      "examples": [
+        "The keys are somewhere in the room."
+      ]
+    },
+    {
+      "id": "ss50-rule-02",
+      "en": "Nowhere already carries a negative meaning. Do not normally add another negative word such as not.",
+      "zh": "Nowhere 本身已包含否定意思，通常不需要再加入 not。",
+      "examples": [
+        "I have nowhere to stay."
+      ]
+    },
+    {
+      "id": "ss50-rule-03",
+      "en": "Use elsewhere when referring to another place, source, area or direction.",
+      "zh": "當你表示另一個地方、資料來源、範圍或方向時，可以使用 elsewhere。",
+      "examples": [
+        "You may find the information elsewhere."
+      ]
+    },
+    {
+      "id": "ss50-rule-04",
+      "en": "With somewhere and nowhere, the adjective normally comes after the place word. Elsewhere normally stands alone as a place adverb.",
+      "zh": "使用 somewhere 和 nowhere 時，形容詞通常放在它們後面。Elsewhere 通常獨立作地點副詞使用。",
+      "examples": [
+        "somewhere quiet",
+        "nowhere safe",
+        "somewhere else quiet"
+      ]
+    },
+    {
+      "id": "ss50-rule-05",
+      "en": "Somewhere and nowhere can be followed by to + base verb to describe a place where an action can happen.",
+      "zh": "Somewhere 和 nowhere 可以接 to + 動詞，表示進行某項活動的地方。",
+      "examples": [
+        "somewhere to rest",
+        "nowhere to hide"
+      ]
+    },
+    {
+      "id": "ss50-rule-06",
+      "en": "Somewhere and elsewhere can also express an abstract position, degree, answer or direction.",
+      "zh": "Somewhere 和 elsewhere 也可以表示觀點、程度、答案或證據所指的抽象位置。",
+      "examples": [
+        "The truth lies somewhere between the two accounts.",
+        "The evidence points elsewhere."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss50-benefit-01",
+      "en": "It clearly distinguishes three different place meanings.",
+      "zh": "它能清楚區分 somewhere 的「某處」、nowhere 的「沒有任何地方」和 elsewhere 的「別處」。"
+    },
+    {
+      "id": "ss50-benefit-02",
+      "en": "It shortens long descriptions.",
+      "zh": "它可取代 a place that is quiet、no place where I can go 或 in another location 等較長說法。"
+    },
+    {
+      "id": "ss50-benefit-03",
+      "en": "It lets you describe a place naturally.",
+      "zh": "你可以直接在 somewhere 或 nowhere 後加入形容詞，簡潔地描述地方。"
+    },
+    {
+      "id": "ss50-benefit-04",
+      "en": "It works with both real places and abstract ideas.",
+      "zh": "它既可描述房間、店舖和城市，也可描述意見、估算、證據和可能的答案。"
+    },
+    {
+      "id": "ss50-benefit-05",
+      "en": "It makes speaking and writing less repetitive.",
+      "zh": "它讓你不必反覆使用 a place、another place、no place 或 in the middle。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using somewhere, nowhere or elsewhere.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 somewhere、nowhere 或 elsewhere 改寫以下句子。",
+      "保留原意。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss50-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We need a quiet place to study.",
+      "promptZh": "我們需要一個安靜的地方溫習。",
+      "starter": "We",
+      "answer": "We need somewhere quiet to study.",
+      "answerZh": "我們需要一個安靜的地方溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "We need somewhere quiet to study."
+    },
+    {
+      "id": "ss50-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia wants to sit in a warm place.",
+      "promptZh": "米婭想坐在一個溫暖的地方。",
+      "starter": "Mia",
+      "answer": "Mia wants to sit somewhere warm.",
+      "answerZh": "米婭想坐在某個溫暖的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia wants to sit somewhere warm."
+    },
+    {
+      "id": "ss50-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is no safe place to leave the bicycle.",
+      "promptZh": "沒有安全的地方可以放置這輛單車。",
+      "starter": "There",
+      "answer": "There is nowhere safe to leave the bicycle.",
+      "answerZh": "沒有安全的地方可以放置這輛單車。",
+      "answerZhSource": "pdf",
+      "highlight": "There is nowhere safe to leave the bicycle."
+    },
+    {
+      "id": "ss50-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I do not have a place to go after class.",
+      "promptZh": "下課後我沒有地方可去。",
+      "starter": "I",
+      "answer": "I have nowhere to go after class.",
+      "answerZh": "下課後我無處可去。",
+      "answerZhSource": "pdf",
+      "highlight": "I have nowhere to go after class."
+    },
+    {
+      "id": "ss50-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben decided to eat in another place.",
+      "promptZh": "本決定到另一個地方吃東西。",
+      "starter": "Ben",
+      "answer": "Ben decided to eat elsewhere.",
+      "answerZh": "本決定到別處吃東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben decided to eat elsewhere."
+    },
+    {
+      "id": "ss50-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The keys are in this room, but I do not know the exact place.",
+      "promptZh": "鎖匙在這個房間裏，但我不知道確實位置。",
+      "starter": "The",
+      "answer": "The keys are somewhere in this room.",
+      "answerZh": "鎖匙在這個房間的某處。",
+      "answerZhSource": "pdf",
+      "highlight": "The keys are somewhere in this room."
+    },
+    {
+      "id": "ss50-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There was no dry place for us to wait.",
+      "promptZh": "沒有乾爽的地方讓我們等候。",
+      "starter": "There",
+      "answer": "There was nowhere dry for us to wait.",
+      "answerZh": "沒有乾爽的地方讓我們等候。",
+      "answerZhSource": "pdf",
+      "highlight": "There was nowhere dry for us to wait."
+    },
+    {
+      "id": "ss50-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop moved its office to another location.",
+      "promptZh": "該店把辦公室搬到另一個地點。",
+      "starter": "The",
+      "answer": "The shop moved its office elsewhere.",
+      "answerZh": "該店把辦公室搬到別處。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop moved its office elsewhere."
+    },
+    {
+      "id": "ss50-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy needs a comfortable place to rest.",
+      "promptZh": "艾米需要一個舒適的地方休息。",
+      "starter": "Amy",
+      "answer": "Amy needs somewhere comfortable to rest.",
+      "answerZh": "艾米需要一個舒適的地方休息。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy needs somewhere comfortable to rest."
+    },
+    {
+      "id": "ss50-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No place in the house was quiet enough for the call.",
+      "promptZh": "屋內沒有地方安靜得足以進行這通電話。",
+      "starter": "There",
+      "answer": "There was nowhere in the house quiet enough for the call.",
+      "answerZh": "屋內沒有地方安靜得足以進行這通電話。",
+      "answerZhSource": "pdf",
+      "highlight": "There was nowhere in the house quiet enough for the call."
+    },
+    {
+      "id": "ss50-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did Leo leave the café? He wanted to work in another place.",
+      "promptZh": "里奧為甚麼離開咖啡店？他想在另一個地方工作。",
+      "starter": "Leo",
+      "answer": "Leo left the café to work elsewhere.",
+      "answerZh": "里奧離開咖啡店，到別處工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo left the café to work elsewhere."
+    },
+    {
+      "id": "ss50-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We should meet in a place near the station, but the exact location does not matter.",
+      "promptZh": "我們應該在車站附近見面，但確實地點並不重要。",
+      "starter": "We",
+      "answer": "We should meet somewhere near the station.",
+      "answerZh": "我們應該在車站附近某處見面。",
+      "answerZhSource": "pdf",
+      "highlight": "We should meet somewhere near the station."
+    },
+    {
+      "id": "ss50-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There was no place in the village where residents could get medical help.",
+      "promptZh": "村內沒有地方可讓居民獲得醫療協助。",
+      "starter": "There",
+      "answer": "There was nowhere in the village for residents to get medical help.",
+      "answerZh": "村內沒有地方可讓居民獲得醫療協助。",
+      "answerZhSource": "pdf",
+      "highlight": "There was nowhere in the village for residents to get medical help."
+    },
+    {
+      "id": "ss50-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The answer is not completely positive or completely negative; it lies between them.",
+      "promptZh": "答案既非完全正面，也非完全負面；它介乎兩者之間。",
+      "starter": "The",
+      "answer": "The answer lies somewhere between positive and negative.",
+      "answerZh": "答案介乎正面與負面之間的某個位置。",
+      "answerZhSource": "pdf",
+      "highlight": "The answer lies somewhere between positive and negative."
+    },
+    {
+      "id": "ss50-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nora looked in other shops for cheaper shoes.",
+      "promptZh": "諾拉到其他店舖尋找較便宜的鞋。",
+      "starter": "Nora",
+      "answer": "Nora looked elsewhere for cheaper shoes.",
+      "answerZh": "諾拉到別處尋找較便宜的鞋。",
+      "answerZhSource": "pdf",
+      "highlight": "Nora looked elsewhere for cheaper shoes."
+    },
+    {
+      "id": "ss50-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There is not a single place here where I can charge my phone.",
+      "promptZh": "這裏沒有任何地方可以讓我為手機充電。",
+      "starter": "There",
+      "answer": "There is nowhere here where I can charge my phone.",
+      "answerZh": "這裏沒有任何地方可以讓我為手機充電。",
+      "answerZhSource": "pdf",
+      "highlight": "There is nowhere here where I can charge my phone."
+    },
+    {
+      "id": "ss50-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children wanted a shady place outdoors.",
+      "promptZh": "孩子們想找一個戶外有遮蔭的地方。",
+      "starter": "The",
+      "answer": "The children wanted somewhere shady outdoors.",
+      "answerZh": "孩子們想找一個戶外有遮蔭的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The children wanted somewhere shady outdoors."
+    },
+    {
+      "id": "ss50-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The missing file may be stored in a different folder.",
+      "promptZh": "遺失的檔案可能儲存在另一個資料夾內。",
+      "starter": "The",
+      "answer": "The missing file may be stored elsewhere.",
+      "answerZh": "遺失的檔案可能儲存在別處。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing file may be stored elsewhere."
+    },
+    {
+      "id": "ss50-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What kind of place should we choose? It should be calm and private.",
+      "promptZh": "我們應該選擇怎樣的地方？那裏應該寧靜而且私隱度高。",
+      "starter": "We",
+      "answer": "We should choose somewhere calm and private.",
+      "answerZh": "我們應該選擇一個寧靜而且私隱度高的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "We should choose somewhere calm and private."
+    },
+    {
+      "id": "ss50-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No seat on the bus was available for us.",
+      "promptZh": "巴士上沒有座位可供我們使用。",
+      "starter": "We",
+      "answer": "We had nowhere to sit on the bus.",
+      "answerZh": "我們在巴士上沒有地方可坐。",
+      "answerZhSource": "pdf",
+      "highlight": "We had nowhere to sit on the bus."
+    },
+    {
+      "id": "ss50-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The best solution is neither very strict nor very relaxed; it is between those two positions.",
+      "promptZh": "最佳方案既不過分嚴格，也不過分寬鬆；它介乎兩者之間。",
+      "starter": "The",
+      "answer": "The best solution is somewhere between very strict and very relaxed.",
+      "answerZh": "最佳方案介乎非常嚴格與非常寬鬆之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The best solution is somewhere between very strict and very relaxed."
+    },
+    {
+      "id": "ss50-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum has no place where visitors can store large bags.",
+      "promptZh": "博物館沒有地方讓訪客存放大型袋子。",
+      "starter": "Visitors",
+      "answer": "Visitors have nowhere in the museum to store large bags.",
+      "answerZh": "訪客在博物館內沒有地方存放大型袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors have nowhere in the museum to store large bags."
+    },
+    {
+      "id": "ss50-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team did not have a suitable place to practise outdoors.",
+      "promptZh": "球隊沒有合適的地方進行戶外練習。",
+      "starter": "The",
+      "answer": "The team had nowhere suitable to practise outdoors.",
+      "answerZh": "球隊沒有合適的地方進行戶外練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had nowhere suitable to practise outdoors."
+    },
+    {
+      "id": "ss50-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Instead of searching this website, try another source.",
+      "promptZh": "不要只搜尋這個網站，嘗試另一個資料來源。",
+      "starter": "Try",
+      "answer": "Try looking elsewhere instead of searching this website.",
+      "answerZh": "不要只搜尋這個網站，嘗試到別處尋找資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Try looking elsewhere instead of searching this website."
+    },
+    {
+      "id": "ss50-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The smell was coming from an unknown part of the kitchen.",
+      "promptZh": "氣味來自廚房內一個不明的位置。",
+      "starter": "The",
+      "answer": "The smell was coming from somewhere in the kitchen.",
+      "answerZh": "氣味來自廚房內某處。",
+      "answerZhSource": "pdf",
+      "highlight": "The smell was coming from somewhere in the kitchen."
+    },
+    {
+      "id": "ss50-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company could not expand in this district, so it opened a branch in another area.",
+      "promptZh": "公司無法在這個地區擴展，因此在另一個地區開設分店。",
+      "starter": "The",
+      "answer": "The company opened a branch elsewhere because it could not expand in this district.",
+      "answerZh": "公司因為無法在這個地區擴展，所以在別處開設分店。",
+      "answerZhSource": "pdf",
+      "highlight": "The company opened a branch elsewhere because it could not expand in this district."
+    },
+    {
+      "id": "ss50-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There is no private place where the nurse can speak to the family.",
+      "promptZh": "沒有私密的地方讓護士與家屬交談。",
+      "starter": "The",
+      "answer": "The nurse has nowhere private to speak to the family.",
+      "answerZh": "護士沒有私密的地方與家屬交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse has nowhere private to speak to the family."
+    },
+    {
+      "id": "ss50-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Her opinion is not at either extreme; its exact position in the middle is unclear.",
+      "promptZh": "她的意見不在任何一個極端；它在中間的確實位置並不清楚。",
+      "starter": "Her",
+      "answer": "Her opinion is somewhere in the middle.",
+      "answerZh": "她的意見處於中間的某個位置。",
+      "answerZhSource": "pdf",
+      "highlight": "Her opinion is somewhere in the middle."
+    },
+    {
+      "id": "ss50-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If this repair shop cannot help, take the laptop to another one.",
+      "promptZh": "如果這間維修店無法幫忙，便把手提電腦帶到另一間。",
+      "starter": "If",
+      "answer": "If this repair shop cannot help, take the laptop elsewhere.",
+      "answerZh": "如果這間維修店無法幫忙，便把手提電腦帶到別處。",
+      "answerZhSource": "pdf",
+      "highlight": "If this repair shop cannot help, take the laptop elsewhere."
+    },
+    {
+      "id": "ss50-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We did not find any place nearby where we could buy water.",
+      "promptZh": "我們在附近找不到任何可以買水的地方。",
+      "starter": "We",
+      "answer": "We found nowhere nearby to buy water.",
+      "answerZh": "我們在附近找不到地方買水。",
+      "answerZhSource": "pdf",
+      "highlight": "We found nowhere nearby to buy water."
+    },
+    {
+      "id": "ss50-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school needs a secure place for pupils to keep their instruments.",
+      "promptZh": "學校需要一個安全的地方，讓學生存放樂器。",
+      "starter": "The",
+      "answer": "The school needs somewhere secure for pupils to keep their instruments.",
+      "answerZh": "學校需要一個安全的地方，讓學生存放樂器。",
+      "answerZhSource": "pdf",
+      "highlight": "The school needs somewhere secure for pupils to keep their instruments."
+    },
+    {
+      "id": "ss50-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Evidence suggests that the fault came from a different part of the system.",
+      "promptZh": "證據顯示故障來自系統的另一個部分。",
+      "starter": "The",
+      "answer": "The evidence suggests that the fault came from elsewhere in the system.",
+      "answerZh": "證據顯示故障來自系統內的其他位置。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence suggests that the fault came from elsewhere in the system."
+    },
+    {
+      "id": "ss50-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No location in the building can safely hold this equipment.",
+      "promptZh": "大樓內沒有任何位置可以安全放置這些設備。",
+      "starter": "There",
+      "answer": "There is nowhere in the building that can safely hold this equipment.",
+      "answerZh": "大樓內沒有任何位置可以安全放置這些設備。",
+      "answerZhSource": "pdf",
+      "highlight": "There is nowhere in the building that can safely hold this equipment."
+    },
+    {
+      "id": "ss50-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The truth is likely to be between the two accounts.",
+      "promptZh": "真相很可能介乎兩種說法之間。",
+      "starter": "The",
+      "answer": "The truth is likely to lie somewhere between the two accounts.",
+      "answerZh": "真相很可能位於兩種說法之間的某個位置。",
+      "answerZhSource": "pdf",
+      "highlight": "The truth is likely to lie somewhere between the two accounts."
+    },
+    {
+      "id": "ss50-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisers did not have a suitable location to move the outdoor event to.",
+      "promptZh": "主辦單位沒有合適的地點可把戶外活動遷往。",
+      "starter": "The",
+      "answer": "The organisers had nowhere suitable to move the outdoor event to.",
+      "answerZh": "主辦單位沒有合適的地點可把戶外活動遷往。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers had nowhere suitable to move the outdoor event to."
+    },
+    {
+      "id": "ss50-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you cannot find the information in the report, search in another source.",
+      "promptZh": "如果你在報告中找不到資料，便到另一個資料來源搜尋。",
+      "starter": "If",
+      "answer": "If you cannot find the information in the report, search elsewhere.",
+      "answerZh": "如果你在報告中找不到資料，便到別處搜尋。",
+      "answerZhSource": "pdf",
+      "highlight": "If you cannot find the information in the report, search elsewhere."
+    },
+    {
+      "id": "ss50-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The injured bird needed a warm, quiet place where it could recover.",
+      "promptZh": "受傷的小鳥需要一個溫暖而安靜的地方休養。",
+      "starter": "The",
+      "answer": "The injured bird needed somewhere warm and quiet to recover.",
+      "answerZh": "受傷的小鳥需要一個溫暖而安靜的地方休養。",
+      "answerZhSource": "pdf",
+      "highlight": "The injured bird needed somewhere warm and quiet to recover."
+    },
+    {
+      "id": "ss50-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The witness's description does not match this street; the event probably happened in a different area.",
+      "promptZh": "證人的描述與這條街道不符；事件大概在另一個地區發生。",
+      "starter": "The",
+      "answer": "The event probably happened elsewhere because the witness's description does not match this street.",
+      "answerZh": "事件大概在別處發生，因為證人的描述與這條街道不符。",
+      "answerZhSource": "pdf",
+      "highlight": "The event probably happened elsewhere because the witness's description does not match this street."
+    },
+    {
+      "id": "ss50-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No part of the timetable has room for another meeting.",
+      "promptZh": "時間表中沒有任何位置可加入另一個會議。",
+      "starter": "There",
+      "answer": "There is nowhere in the timetable to add another meeting.",
+      "answerZh": "時間表中沒有任何位置可加入另一個會議。",
+      "answerZhSource": "pdf",
+      "highlight": "There is nowhere in the timetable to add another meeting."
+    },
+    {
+      "id": "ss50-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager rejected both proposals because she believed a better option existed between them.",
+      "promptZh": "經理否決了兩個建議，因為她相信兩者之間存在一個更好的選擇。",
+      "starter": "The",
+      "answer": "The manager rejected both proposals because she believed a better option lay somewhere between them.",
+      "answerZh": "經理否決了兩個建議，因為她相信兩者之間某處有一個更好的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager rejected both proposals because she believed a better option lay somewhere between them."
+    },
+    {
+      "id": "ss50-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The policy is neither fully flexible nor fully strict; it falls between the two.",
+      "promptZh": "這項政策既非完全具彈性，也非完全嚴格；它介乎兩者之間。",
+      "starter": "The",
+      "answer": "The policy is somewhere between fully flexible and fully strict.",
+      "answerZh": "這項政策介乎完全具彈性與完全嚴格之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy is somewhere between fully flexible and fully strict."
+    },
+    {
+      "id": "ss50-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital has no quiet room where relatives can wait during long operations.",
+      "promptZh": "醫院沒有安靜的房間讓家屬在長時間手術期間等候。",
+      "starter": "Relatives",
+      "answer": "Relatives have nowhere quiet to wait in the hospital during long operations.",
+      "answerZh": "家屬在醫院內沒有安靜的地方，可在長時間手術期間等候。",
+      "answerZhSource": "pdf",
+      "highlight": "Relatives have nowhere quiet to wait in the hospital during long operations."
+    },
+    {
+      "id": "ss50-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When the figures from this department do not explain the loss, auditors should examine records from other parts of the organisation.",
+      "promptZh": "當這個部門的數字無法解釋損失時，核數師應查看機構其他部分的紀錄。",
+      "starter": "When",
+      "answer": "When this department's figures do not explain the loss, auditors should examine records elsewhere in the organisation.",
+      "answerZh": "當這個部門的數字無法解釋損失時，核數師應查看機構內其他地方的紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "When this department's figures do not explain the loss, auditors should examine records elsewhere in the organisation."
+    },
+    {
+      "id": "ss50-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new community centre must be built in a location that is accessible but not too crowded.",
+      "promptZh": "新社區中心必須建於容易到達但不會過分擠迫的地點。",
+      "starter": "The",
+      "answer": "The new community centre must be built somewhere accessible but not too crowded.",
+      "answerZh": "新社區中心必須建於一個容易到達但不會過分擠迫的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The new community centre must be built somewhere accessible but not too crowded."
+    },
+    {
+      "id": "ss50-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "No part of the current website allows users to report this problem directly.",
+      "promptZh": "現有網站沒有任何位置讓使用者直接報告這個問題。",
+      "starter": "Users",
+      "answer": "Users have nowhere on the current website to report this problem directly.",
+      "answerZh": "使用者在現有網站上沒有地方可以直接報告這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Users have nowhere on the current website to report this problem directly."
+    },
+    {
+      "id": "ss50-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The two reports give very different estimates, and the actual number is probably between them.",
+      "promptZh": "兩份報告提出非常不同的估算，而實際數字大概介乎兩者之間。",
+      "starter": "The",
+      "answer": "The actual number is probably somewhere between the estimates in the two reports.",
+      "answerZh": "實際數字大概介乎兩份報告的估算之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The actual number is probably somewhere between the estimates in the two reports."
+    },
+    {
+      "id": "ss50-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If local suppliers cannot provide the material, the company may need to buy it from another market.",
+      "promptZh": "如果本地供應商無法提供這種物料，公司可能需要從另一個市場購買。",
+      "starter": "If",
+      "answer": "If local suppliers cannot provide the material, the company may need to buy it elsewhere.",
+      "answerZh": "如果本地供應商無法提供這種物料，公司可能需要到別處購買。",
+      "answerZhSource": "pdf",
+      "highlight": "If local suppliers cannot provide the material, the company may need to buy it elsewhere."
+    },
+    {
+      "id": "ss50-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The emergency team found no safe place where residents could stay overnight after the storm.",
+      "promptZh": "風暴過後，緊急應變小組找不到安全的地方讓居民留宿。",
+      "starter": "The",
+      "answer": "The emergency team found nowhere safe for residents to stay overnight after the storm.",
+      "answerZh": "風暴過後，緊急應變小組找不到安全的地方讓居民留宿。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency team found nowhere safe for residents to stay overnight after the storm."
+    },
+    {
+      "id": "ss50-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When the evidence points to a different conclusion, I cannot accept this claim.",
+      "promptZh": "當證據指向不同的結論時，我無法接受這項說法。",
+      "starter": "I",
+      "answer": "I cannot accept this claim when the evidence points elsewhere.",
+      "answerZh": "當證據指向別處時，我無法接受這項說法。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot accept this claim when the evidence points elsewhere."
+    },
+    {
+      "id": "ss50-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The real answer is usually neither pure emotion nor pure evidence; it lies between the two.",
+      "promptZh": "真正的答案通常既非純粹基於情感，也非純粹基於證據；它介乎兩者之間。",
+      "starter": "The",
+      "answer": "The real answer is usually somewhere between emotion and evidence.",
+      "answerZh": "真正的答案通常介乎情感與證據之間。",
+      "answerZhSource": "pdf",
+      "highlight": "The real answer is usually somewhere between emotion and evidence."
+    }
+  ]
+}

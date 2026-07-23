@@ -1,0 +1,1167 @@
+{
+  "id": "ss54",
+  "order": 54,
+  "slug": "so-that-purpose",
+  "title": "「So that」目的句型",
+  "titleZh": "「So that 目的句」",
+  "titleEn": "Using so that to express purpose",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 54 -「So that 目的句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause + so that + subject + can / could / will / would / may / might + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss54-formula-core",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Main clause + so that + subject + can / could / will / would / may / might + base verb + other information"
+    }
+  ],
+  "example": "I started studying for IELTS so that I could get a job.",
+  "exampleZh": "我開始準備 IELTS，為的是找到工作。",
+  "examples": [
+    {
+      "id": "ss54-example-main",
+      "en": "I started studying for IELTS so that I could get a job.",
+      "zh": "我開始準備 IELTS，為的是找到工作。",
+      "highlight": "so that I could get a job"
+    },
+    {
+      "id": "ss54-example-different-subjects",
+      "en": "The teacher repeated the instructions so that everyone could understand.",
+      "zh": "老師重複了指示，好讓每個人都能明白。",
+      "highlight": "so that everyone could understand"
+    }
+  ],
+  "meaning": {
+    "zh": "So that 用來說明一個行動希望達到的目的，後面接包含主語、情態動詞和原形動詞的完整子句。"
+  },
+  "rules": [
+    {
+      "id": "ss54-rule-01",
+      "en": "So that expresses an intended purpose, not merely a result.",
+      "zh": "So that 前面是所採取的行動，後面的子句說明希望達到的目標，而不只是偶然結果。",
+      "examples": [
+        "I saved the document so that I could read it later."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-rule-02",
+      "en": "So that must be followed by a complete clause with its own subject and verb.",
+      "zh": "So that 後面要接有自己主語和動詞的完整子句。",
+      "examples": [
+        "I spoke slowly so that the child could understand."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-rule-03",
+      "en": "Choose the modal verb to match time and meaning: can/will, could/would, may/might or their negative forms.",
+      "zh": "情態動詞須配合時間和意思：現在或一般目的用 can／will，過去目的用 could／would，較不確定目的用 may／might。",
+      "examples": [
+        "She writes a list so that she can remember everything.",
+        "He lowered his voice so that he would not disturb anyone."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-rule-04",
+      "en": "The two clauses may have different subjects.",
+      "zh": "前後兩部分可以使用不同主語，因此可清楚說明一個人採取行動，好讓另一個人做到某件事。",
+      "examples": [
+        "The teacher repeated the instructions so that everyone could understand."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-rule-05",
+      "en": "So that expresses purpose, while so introduces a result or consequence. Use the full form so that in this exercise.",
+      "zh": "So that 表示目的；so 表示結果或後果。本練習必須使用完整的 so that。",
+      "examples": [
+        "I spoke slowly so that everyone could understand."
+      ],
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss54-benefit-01",
+      "en": "It states the purpose of an action clearly.",
+      "zh": "讀者可以立即明白某個行動是為了甚麼，不需要自行猜測兩個意思之間的關係。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-benefit-02",
+      "en": "It allows different subjects before and after it.",
+      "zh": "可清楚表達一個人、機構或物件採取行動，好讓另一個人得到幫助或完成事情。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-benefit-03",
+      "en": "It joins an action and its goal in one sentence.",
+      "zh": "把兩個相關意思自然連接，避免寫成兩個零散短句。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-benefit-04",
+      "en": "It is suitable for explaining plans, instructions and design purposes.",
+      "zh": "適合說明規則、服務、工具、設備或安排為何存在。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss54-benefit-05",
+      "en": "It provides another natural way to express purpose.",
+      "zh": "可取代 because someone wants to 或 to + verb，令說話和寫作更有變化。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using so that to show its purpose.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 so that 改寫以下句子，以表達目的。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss54-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I went to the library because I wanted to borrow a book.",
+      "promptZh": "我去了圖書館，因為我想借一本書。",
+      "starter": "I",
+      "answer": "I went to the library so that I could borrow a book.",
+      "answerZh": "我去了圖書館，以便借一本書。",
+      "answerZhSource": "pdf",
+      "highlight": "I went to the library so that I could borrow a book."
+    },
+    {
+      "id": "ss54-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Lily got up early because she wanted to catch the first bus.",
+      "promptZh": "莉莉早起，因為她想趕上第一班巴士。",
+      "starter": "Lily",
+      "answer": "Lily got up early so that she could catch the first bus.",
+      "answerZh": "莉莉早起，以便趕上第一班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily got up early so that she could catch the first bus."
+    },
+    {
+      "id": "ss54-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Tom called his teacher to ask a question.",
+      "promptZh": "湯姆打電話給老師問一個問題。",
+      "starter": "Tom",
+      "answer": "Tom called his teacher so that he could ask a question.",
+      "answerZh": "湯姆打電話給老師，以便提出一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom called his teacher so that he could ask a question."
+    },
+    {
+      "id": "ss54-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We opened the windows because we wanted some fresh air to come in.",
+      "promptZh": "我們打開窗戶，因為我們想讓新鮮空氣進來。",
+      "starter": "We",
+      "answer": "We opened the windows so that some fresh air could come in.",
+      "answerZh": "我們打開窗戶，好讓新鮮空氣進來。",
+      "answerZhSource": "pdf",
+      "highlight": "We opened the windows so that some fresh air could come in."
+    },
+    {
+      "id": "ss54-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia wrote down the address because she did not want to forget it.",
+      "promptZh": "米婭寫下地址，因為她不想忘記它。",
+      "starter": "Mia",
+      "answer": "Mia wrote down the address so that she would not forget it.",
+      "answerZh": "米婭寫下地址，以免忘記它。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia wrote down the address so that she would not forget it."
+    },
+    {
+      "id": "ss54-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Jack is saving money to buy a new bicycle.",
+      "promptZh": "傑克正在存錢買一輛新單車。",
+      "starter": "Jack",
+      "answer": "Jack is saving money so that he can buy a new bicycle.",
+      "answerZh": "傑克正在存錢，以便買一輛新單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack is saving money so that he can buy a new bicycle."
+    },
+    {
+      "id": "ss54-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why did Ben visit the doctor? He wanted to get some advice.",
+      "promptZh": "本為甚麼去看醫生？他想得到一些建議。",
+      "starter": "Ben",
+      "answer": "Ben visited the doctor so that he could get some advice.",
+      "answerZh": "本去看醫生，以便得到一些建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben visited the doctor so that he could get some advice."
+    },
+    {
+      "id": "ss54-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I use a notebook to record new words.",
+      "promptZh": "我使用筆記簿記下生字。",
+      "starter": "I",
+      "answer": "I use a notebook so that I can record new words.",
+      "answerZh": "我使用筆記簿，以便記下生字。",
+      "answerZhSource": "pdf",
+      "highlight": "I use a notebook so that I can record new words."
+    },
+    {
+      "id": "ss54-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma wore a thick coat in order to stay warm.",
+      "promptZh": "艾瑪穿上厚外套，以便保暖。",
+      "starter": "Emma",
+      "answer": "Emma wore a thick coat so that she could stay warm.",
+      "answerZh": "艾瑪穿上厚外套，以便保暖。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma wore a thick coat so that she could stay warm."
+    },
+    {
+      "id": "ss54-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students practise English every day. Their goal is to improve their speaking skills.",
+      "promptZh": "學生每天練習英語。他們的目標是提升口語能力。",
+      "starter": "The",
+      "answer": "The students practise English every day so that they can improve their speaking skills.",
+      "answerZh": "學生每天練習英語，以便提升口語能力。",
+      "answerZhSource": "pdf",
+      "highlight": "The students practise English every day so that they can improve their speaking skills."
+    },
+    {
+      "id": "ss54-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah joined a cooking class in order to learn how to make Italian food.",
+      "promptZh": "莎拉參加烹飪班，以學習如何製作意大利菜。",
+      "starter": "Sarah",
+      "answer": "Sarah joined a cooking class so that she could learn how to make Italian food.",
+      "answerZh": "莎拉參加烹飪班，以便學習如何製作意大利菜。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah joined a cooking class so that she could learn how to make Italian food."
+    },
+    {
+      "id": "ss54-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "David spoke quietly to avoid waking the baby.",
+      "promptZh": "大衛輕聲說話，以免吵醒嬰兒。",
+      "starter": "David",
+      "answer": "David spoke quietly so that he would not wake the baby.",
+      "answerZh": "大衛輕聲說話，以免吵醒嬰兒。",
+      "answerZhSource": "pdf",
+      "highlight": "David spoke quietly so that he would not wake the baby."
+    },
+    {
+      "id": "ss54-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy brought a camera for the purpose of taking pictures of the beautiful view.",
+      "promptZh": "艾米帶了相機，目的是拍下美麗的景色。",
+      "starter": "Amy",
+      "answer": "Amy brought a camera so that she could take pictures of the beautiful view.",
+      "answerZh": "艾米帶了相機，以便拍下美麗的景色。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy brought a camera so that she could take pictures of the beautiful view."
+    },
+    {
+      "id": "ss54-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did Kevin go online? He needed to find information about the museum.",
+      "promptZh": "凱文為甚麼上網？他需要尋找有關博物館的資料。",
+      "starter": "Kevin",
+      "answer": "Kevin went online so that he could find information about the museum.",
+      "answerZh": "凱文上網，以便尋找有關博物館的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin went online so that he could find information about the museum."
+    },
+    {
+      "id": "ss54-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Take an umbrella to stay dry in the rain.",
+      "promptZh": "帶一把雨傘，以便在雨中保持乾爽。",
+      "starter": "Take",
+      "answer": "Take an umbrella so that you can stay dry in the rain.",
+      "answerZh": "帶一把雨傘，這樣你便可以在雨中保持乾爽。",
+      "answerZhSource": "pdf",
+      "highlight": "Take an umbrella so that you can stay dry in the rain."
+    },
+    {
+      "id": "ss54-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My mother gave me some money because she wanted me to buy lunch.",
+      "promptZh": "媽媽給了我一些錢，因為她想讓我買午餐。",
+      "starter": "My",
+      "answer": "My mother gave me some money so that I could buy lunch.",
+      "answerZh": "媽媽給了我一些錢，好讓我買午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "My mother gave me some money so that I could buy lunch."
+    },
+    {
+      "id": "ss54-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team held an extra practice in the hope of improving their chances of winning the next match.",
+      "promptZh": "球隊進行了額外訓練，希望增加在下一場比賽中勝出的機會。",
+      "starter": "The",
+      "answer": "The team held an extra practice so that they might improve their chances of winning the next match.",
+      "answerZh": "球隊進行了額外訓練，希望增加在下一場比賽中勝出的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The team held an extra practice so that they might improve their chances of winning the next match."
+    },
+    {
+      "id": "ss54-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason moved closer to the screen in order to see the words more clearly.",
+      "promptZh": "傑森移近螢幕，以便更清楚地看到文字。",
+      "starter": "Jason",
+      "answer": "Jason moved closer to the screen so that he could see the words more clearly.",
+      "answerZh": "傑森移近螢幕，以便更清楚地看到文字。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason moved closer to the screen so that he could see the words more clearly."
+    },
+    {
+      "id": "ss54-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia went to the bank to open a new account.",
+      "promptZh": "奧莉花去銀行開設一個新戶口。",
+      "starter": "Olivia",
+      "answer": "Olivia went to the bank so that she could open a new account.",
+      "answerZh": "奧莉花去銀行，以便開設一個新戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia went to the bank so that she could open a new account."
+    },
+    {
+      "id": "ss54-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The chef tasted the soup. His aim was to check whether it needed more salt.",
+      "promptZh": "廚師品嘗了湯。他的目的是檢查湯是否需要加更多鹽。",
+      "starter": "The",
+      "answer": "The chef tasted the soup so that he could check whether it needed more salt.",
+      "answerZh": "廚師品嘗了湯，以便檢查湯是否需要加更多鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef tasted the soup so that he could check whether it needed more salt."
+    },
+    {
+      "id": "ss54-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher repeated the instructions because she wanted everyone to understand them.",
+      "promptZh": "老師重複了指示，因為她想讓每個人都明白。",
+      "starter": "The",
+      "answer": "The teacher repeated the instructions so that everyone could understand them.",
+      "answerZh": "老師重複了指示，好讓每個人都能明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher repeated the instructions so that everyone could understand them."
+    },
+    {
+      "id": "ss54-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Henry left the house early to avoid being late for work.",
+      "promptZh": "亨利提早離開家，以免上班遲到。",
+      "starter": "Henry",
+      "answer": "Henry left the house early so that he would not be late for work.",
+      "answerZh": "亨利提早離開家，以免上班遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "Henry left the house early so that he would not be late for work."
+    },
+    {
+      "id": "ss54-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The police officer stopped the traffic to help the children cross the road safely.",
+      "promptZh": "警員截停車輛，以幫助孩子們安全地橫過馬路。",
+      "starter": "The",
+      "answer": "The police officer stopped the traffic so that the children could cross the road safely.",
+      "answerZh": "警員截停車輛，好讓孩子們可以安全地橫過馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "The police officer stopped the traffic so that the children could cross the road safely."
+    },
+    {
+      "id": "ss54-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You should read the question carefully before answering to avoid making careless mistakes.",
+      "promptZh": "你應該在作答前仔細閱讀題目，以避免犯粗心大意的錯誤。",
+      "starter": "You",
+      "answer": "You should read the question carefully before answering so that you can avoid making careless mistakes.",
+      "answerZh": "你應該在作答前仔細閱讀題目，以免犯粗心大意的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "You should read the question carefully before answering so that you can avoid making careless mistakes."
+    },
+    {
+      "id": "ss54-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "With the aim of improving her health, Chloe exercises three times a week.",
+      "promptZh": "為了改善健康，克洛伊每星期做三次運動。",
+      "starter": "Chloe",
+      "answer": "Chloe exercises three times a week so that she can improve her health.",
+      "answerZh": "克洛伊每星期做三次運動，以便改善健康。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe exercises three times a week so that she can improve her health."
+    },
+    {
+      "id": "ss54-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "They are decorating the hall because they plan to hold a school party there.",
+      "promptZh": "他們正在佈置禮堂，因為他們計劃在那裏舉行學校派對。",
+      "starter": "They",
+      "answer": "They are decorating the hall so that they can hold a school party there.",
+      "answerZh": "他們正在佈置禮堂，以便在那裏舉行學校派對。",
+      "answerZhSource": "pdf",
+      "highlight": "They are decorating the hall so that they can hold a school party there."
+    },
+    {
+      "id": "ss54-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Lucy wrote a list because she did not want to forget anything at the supermarket.",
+      "promptZh": "露西寫了一張清單，因為她不想在超級市場遺漏任何東西。",
+      "starter": "Lucy",
+      "answer": "Lucy wrote a list so that she would not forget anything at the supermarket.",
+      "answerZh": "露西寫了一張清單，以免在超級市場遺漏任何東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Lucy wrote a list so that she would not forget anything at the supermarket."
+    },
+    {
+      "id": "ss54-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum provides maps to help visitors find the different rooms easily.",
+      "promptZh": "博物館提供地圖，以幫助訪客輕鬆找到不同的展覽室。",
+      "starter": "The",
+      "answer": "The museum provides maps so that visitors can find the different rooms easily.",
+      "answerZh": "博物館提供地圖，好讓訪客可以輕鬆找到不同的展覽室。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum provides maps so that visitors can find the different rooms easily."
+    },
+    {
+      "id": "ss54-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school installed more water fountains in order to allow students to refill their bottles easily.",
+      "promptZh": "學校安裝了更多飲水機，讓學生可以輕鬆地為水瓶加水。",
+      "starter": "The",
+      "answer": "The school installed more water fountains so that students could refill their bottles easily.",
+      "answerZh": "學校安裝了更多飲水機，好讓學生可以輕鬆地為水瓶加水。",
+      "answerZhSource": "pdf",
+      "highlight": "The school installed more water fountains so that students could refill their bottles easily."
+    },
+    {
+      "id": "ss54-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The lights were switched off to prevent electricity from being wasted.",
+      "promptZh": "燈被關掉，以免浪費電力。",
+      "starter": "The",
+      "answer": "The lights were switched off so that electricity would not be wasted.",
+      "answerZh": "燈被關掉，以免浪費電力。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights were switched off so that electricity would not be wasted."
+    },
+    {
+      "id": "ss54-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A special room was prepared for the guests to rest in.",
+      "promptZh": "一個特別的房間已準備好，供客人休息。",
+      "starter": "A",
+      "answer": "A special room was prepared so that the guests could rest.",
+      "answerZh": "一個特別的房間已準備好，好讓客人休息。",
+      "answerZhSource": "pdf",
+      "highlight": "A special room was prepared so that the guests could rest."
+    },
+    {
+      "id": "ss54-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Engineers designed this machine to help staff clean the floor more easily.",
+      "promptZh": "工程師設計了這部機器，以幫助員工更輕鬆地清潔地板。",
+      "starter": "Engineers",
+      "answer": "Engineers designed this machine so that staff could clean the floor more easily.",
+      "answerZh": "工程師設計了這部機器，好讓員工可以更輕鬆地清潔地板。",
+      "answerZhSource": "pdf",
+      "highlight": "Engineers designed this machine so that staff could clean the floor more easily."
+    },
+    {
+      "id": "ss54-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Maya carries a reusable bottle to reduce plastic waste.",
+      "promptZh": "瑪雅攜帶可重用水瓶，以減少塑膠廢物。",
+      "starter": "Maya",
+      "answer": "Maya carries a reusable bottle so that she can reduce plastic waste.",
+      "answerZh": "瑪雅攜帶可重用水瓶，以便減少塑膠廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya carries a reusable bottle so that she can reduce plastic waste."
+    },
+    {
+      "id": "ss54-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did Leo set an alarm? He wanted to wake up on time.",
+      "promptZh": "里奧為甚麼設定鬧鐘？他想準時起床。",
+      "starter": "Leo",
+      "answer": "Leo set an alarm so that he could wake up on time.",
+      "answerZh": "里奧設定鬧鐘，以便準時起床。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo set an alarm so that he could wake up on time."
+    },
+    {
+      "id": "ss54-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse closed the door because she wanted the patient to have more privacy.",
+      "promptZh": "護士關上房門，因為她想讓病人有更多私人空間。",
+      "starter": "The",
+      "answer": "The nurse closed the door so that the patient could have more privacy.",
+      "answerZh": "護士關上房門，好讓病人有更多私人空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse closed the door so that the patient could have more privacy."
+    },
+    {
+      "id": "ss54-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Grace checked her work twice because she wanted to make fewer spelling mistakes.",
+      "promptZh": "格蕾絲檢查了自己的功課兩次，因為她想減少串字錯誤。",
+      "starter": "Grace",
+      "answer": "Grace checked her work twice so that she could make fewer spelling mistakes.",
+      "answerZh": "格蕾絲檢查了自己的功課兩次，以便減少串字錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace checked her work twice so that she could make fewer spelling mistakes."
+    },
+    {
+      "id": "ss54-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Use this key if you need to open the back door.",
+      "promptZh": "如需打開後門，請使用這把鑰匙。",
+      "starter": "Use",
+      "answer": "Use this key so that you can open the back door.",
+      "answerZh": "使用這把鑰匙，這樣你便可以打開後門。",
+      "answerZhSource": "pdf",
+      "highlight": "Use this key so that you can open the back door."
+    },
+    {
+      "id": "ss54-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ava lowered her voice in order not to disturb the people who were reading.",
+      "promptZh": "艾娃降低聲量，以免打擾正在閱讀的人。",
+      "starter": "Ava",
+      "answer": "Ava lowered her voice so that she would not disturb the people who were reading.",
+      "answerZh": "艾娃降低聲量，以免打擾正在閱讀的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava lowered her voice so that she would not disturb the people who were reading."
+    },
+    {
+      "id": "ss54-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The station established a customer service desk to give passengers a place to report lost bags.",
+      "promptZh": "車站設立了顧客服務處，讓乘客有地方報失行李。",
+      "starter": "The",
+      "answer": "The station established a customer service desk so that passengers could report lost bags.",
+      "answerZh": "車站設立了顧客服務處，好讓乘客可以報失行李。",
+      "answerZhSource": "pdf",
+      "highlight": "The station established a customer service desk so that passengers could report lost bags."
+    },
+    {
+      "id": "ss54-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach showed the players a video of their previous game to help them understand their mistakes.",
+      "promptZh": "教練向球員播放上一場比賽的影片，以幫助他們了解自己的錯誤。",
+      "starter": "The",
+      "answer": "The coach showed the players a video of their previous game so that they could understand their mistakes.",
+      "answerZh": "教練向球員播放上一場比賽的影片，好讓他們了解自己的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach showed the players a video of their previous game so that they could understand their mistakes."
+    },
+    {
+      "id": "ss54-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A small bridge was built to enable the villagers to cross the river safely.",
+      "promptZh": "一座小橋已建成，讓村民可以安全地過河。",
+      "starter": "A",
+      "answer": "A small bridge was built so that the villagers could cross the river safely.",
+      "answerZh": "一座小橋已建成，好讓村民可以安全地過河。",
+      "answerZhSource": "pdf",
+      "highlight": "A small bridge was built so that the villagers could cross the river safely."
+    },
+    {
+      "id": "ss54-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Online booking was introduced by the hospital to make it easier for patients to choose suitable appointment times.",
+      "promptZh": "醫院推出網上預約服務，讓病人更容易選擇合適的預約時間。",
+      "starter": "Online",
+      "answer": "Online booking was introduced by the hospital so that patients could choose suitable appointment times more easily.",
+      "answerZh": "醫院推出網上預約服務，好讓病人可以更輕鬆地選擇合適的預約時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Online booking was introduced by the hospital so that patients could choose suitable appointment times more easily."
+    },
+    {
+      "id": "ss54-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A quiet study zone was created by the library to allow students to work without interruption.",
+      "promptZh": "圖書館設立了安靜溫習區，讓學生可以不受打擾地學習。",
+      "starter": "A",
+      "answer": "A quiet study zone was created by the library so that students could work without interruption.",
+      "answerZh": "圖書館設立了安靜溫習區，好讓學生可以不受打擾地學習。",
+      "answerZhSource": "pdf",
+      "highlight": "A quiet study zone was created by the library so that students could work without interruption."
+    },
+    {
+      "id": "ss54-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager divided the project into stages to allow the team to monitor its progress more clearly.",
+      "promptZh": "經理把項目分成不同階段，讓團隊可以更清楚地監察項目進度。",
+      "starter": "The",
+      "answer": "The manager divided the project into stages so that the team could monitor its progress more clearly.",
+      "answerZh": "經理把項目分成不同階段，好讓團隊可以更清楚地監察項目進度。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager divided the project into stages so that the team could monitor its progress more clearly."
+    },
+    {
+      "id": "ss54-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Parents receive text reminders from the school because the school wants them to remember important dates.",
+      "promptZh": "家長收到學校發出的短訊提醒，因為學校希望他們記得重要日期。",
+      "starter": "Parents",
+      "answer": "Parents receive text reminders from the school so that they will remember important dates.",
+      "answerZh": "家長收到學校發出的短訊提醒，以便記得重要日期。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents receive text reminders from the school so that they will remember important dates."
+    },
+    {
+      "id": "ss54-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Ramps were added beside the steps to allow wheelchair users to enter the building more easily.",
+      "promptZh": "梯級旁加建了斜道，讓輪椅使用者可以更輕鬆地進入大樓。",
+      "starter": "Ramps",
+      "answer": "Ramps were added beside the steps so that wheelchair users could enter the building more easily.",
+      "answerZh": "梯級旁加建了斜道，好讓輪椅使用者可以更輕鬆地進入大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Ramps were added beside the steps so that wheelchair users could enter the building more easily."
+    },
+    {
+      "id": "ss54-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The safety instructions were printed in several languages to ensure that all workers could understand them.",
+      "promptZh": "安全指示以多種語言印製，以確保所有員工都能明白。",
+      "starter": "The",
+      "answer": "The safety instructions were printed in several languages so that all workers could understand them.",
+      "answerZh": "安全指示以多種語言印製，好讓所有員工都能明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety instructions were printed in several languages so that all workers could understand them."
+    },
+    {
+      "id": "ss54-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The app stores each draft automatically because the developers do not want users to lose their work if the connection fails.",
+      "promptZh": "應用程式會自動儲存每份草稿，因為開發人員不希望使用者在連線中斷時失去工作內容。",
+      "starter": "The",
+      "answer": "The app stores each draft automatically so that users will not lose their work if the connection fails.",
+      "answerZh": "應用程式會自動儲存每份草稿，以免使用者在連線中斷時失去工作內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The app stores each draft automatically so that users will not lose their work if the connection fails."
+    },
+    {
+      "id": "ss54-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Two short breaks were scheduled by the organiser with the intention of giving participants time to rest and ask questions.",
+      "promptZh": "主辦者安排了兩段短暫休息時間，目的是讓參加者休息和提問。",
+      "starter": "Two",
+      "answer": "Two short breaks were scheduled by the organiser so that participants could rest and ask questions.",
+      "answerZh": "主辦者安排了兩段短暫休息時間，好讓參加者可以休息和提問。",
+      "answerZhSource": "pdf",
+      "highlight": "Two short breaks were scheduled by the organiser so that participants could rest and ask questions."
+    },
+    {
+      "id": "ss54-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The public library extended its opening hours because it wanted people who work late to have enough time to borrow and return books.",
+      "promptZh": "公共圖書館延長開放時間，因為它希望較遲下班的人有足夠時間借還書籍。",
+      "starter": "The",
+      "answer": "The public library extended its opening hours so that people who work late could have enough time to borrow and return books.",
+      "answerZh": "公共圖書館延長開放時間，好讓較遲下班的人有足夠時間借還書籍。",
+      "answerZhSource": "pdf",
+      "highlight": "The public library extended its opening hours so that people who work late could have enough time to borrow and return books."
+    }
+  ]
+}

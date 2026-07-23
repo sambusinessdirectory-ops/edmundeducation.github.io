@@ -1,0 +1,1150 @@
+{
+  "id": "ss65",
+  "order": 65,
+  "slug": "its-time-to-action",
+  "title": "「It’s time to」句型",
+  "titleZh": "「It’s time to」句：表示「是時候採取行動」",
+  "titleEn": "Using It’s time to to signal the moment for action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 65 -「It’s time to」句：表示「是時候採取行動」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": []
+  },
+  "formula": "It + is / was + time + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss65-formula-main",
+      "labelEn": "Main form",
+      "labelZh": "主要形式",
+      "formula": "It + is / was + time + to + base verb + other information"
+    },
+    {
+      "id": "ss65-formula-embedded",
+      "labelEn": "Embedded form",
+      "labelZh": "嵌入形式",
+      "formula": "Subject + know / realise / feel / decide + (that) + it + is / was + time + to + base verb + other information"
+    }
+  ],
+  "example": "I knew it was time to come back to Hong Kong for my family.",
+  "exampleZh": "我知道是時候為了家人回到香港了。",
+  "examples": [
+    {
+      "id": "ss65-example-01",
+      "en": "I knew it was time to come back to Hong Kong for my family.",
+      "zh": "我知道是時候為了家人回到香港了。",
+      "highlight": "it was time to come back"
+    }
+  ],
+  "meaning": {
+    "zh": "當你認為採取某項行動的適當或必要時機已經來臨時，可以使用這個句型。"
+  },
+  "rules": [
+    {
+      "id": "ss65-rule-01",
+      "en": "It is a fixed introductory subject and does not refer to a particular person or thing.",
+      "zh": "在這個句型中，it 是固定的形式主語，並不是指某個特定的人或事物。",
+      "examples": []
+    },
+    {
+      "id": "ss65-rule-02",
+      "en": "Use a base verb after to.",
+      "zh": "To 後面必須使用動詞原形。",
+      "examples": [
+        "It is time to leave."
+      ]
+    },
+    {
+      "id": "ss65-rule-03",
+      "en": "Use is for the present and was for the past.",
+      "zh": "使用 is 表示現在是時候行動；使用 was 表示當時是時候行動。",
+      "examples": [
+        "It is time to act.",
+        "It was time to act."
+      ]
+    },
+    {
+      "id": "ss65-rule-04",
+      "en": "The person performing the action is usually understood from the context.",
+      "zh": "執行動作的人通常可以從上文理解，不必在 time to 的結構內再次說明。",
+      "examples": [
+        "Dad told me it was time to study."
+      ]
+    },
+    {
+      "id": "ss65-rule-05",
+      "en": "This lesson practises only it is/was time to + verb and embedded forms containing these patterns.",
+      "zh": "本練習只訓練 it is/was time to + 動詞，以及包含這個結構的嵌入句；其他相關句式不在本課範圍內。",
+      "examples": [
+        "It is time to leave.",
+        "I realised it was time to leave."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss65-benefit-01",
+      "en": "This structure does more than give advice. It tells the listener that the appropriate moment for action has arrived.",
+      "zh": "這個句型不只是提出建議，還能清楚表示採取行動的適當時機已經來臨。"
+    },
+    {
+      "id": "ss65-benefit-02",
+      "en": "After explaining a problem or change, you can use this structure to show what should happen next.",
+      "zh": "描述問題或變化後，你可以用這個句型清楚指出下一步應採取的行動。"
+    },
+    {
+      "id": "ss65-benefit-03",
+      "en": "Instead of saying, “You must act now,” you can focus on the action and its timing.",
+      "zh": "相比直接說 You must act now，這個句型把重點放在行動和時機上，語氣較少針對個人但仍然有力。"
+    },
+    {
+      "id": "ss65-benefit-04",
+      "en": "It is useful when moving from background information to a recommendation, decision or conclusion.",
+      "zh": "在口語或寫作中，這個句型可以幫助你由背景資料自然過渡到建議、決定或結論。"
+    },
+    {
+      "id": "ss65-benefit-05",
+      "en": "Once you know It is time to…, you can quickly add actions such as leave, begin, review, change, stop or improve.",
+      "zh": "掌握 It is time to… 後，你可以快速加入不同動作，使口語表達更流暢。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using it is/was time to + base verb or an embedded form containing this structure. Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 it is/was time to + 動詞原形，或包含這個結構的嵌入形式改寫以下句子。答案必須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss65-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We should go home now.",
+      "promptZh": "我們現在該回家了。",
+      "starter": "It",
+      "answer": "It is time to go home.",
+      "answerZh": "是時候回家了。",
+      "answerZhSource": "pdf",
+      "highlight": "It is time to go home."
+    },
+    {
+      "id": "ss65-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The lesson should begin now.",
+      "promptZh": "課堂現在應該開始了。",
+      "starter": "It",
+      "answer": "It is time to begin the lesson.",
+      "answerZh": "是時候開始上課了。",
+      "answerZhSource": "pdf",
+      "highlight": "It is time to begin the lesson."
+    },
+    {
+      "id": "ss65-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We decided that we should have lunch then.",
+      "promptZh": "我們決定當時該吃午餐了。",
+      "starter": "We",
+      "answer": "We decided it was time to have lunch.",
+      "answerZh": "我們決定當時是時候吃午餐了。",
+      "answerZhSource": "pdf",
+      "highlight": "We decided it was time to have lunch."
+    },
+    {
+      "id": "ss65-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mum said that we should turn off the television then.",
+      "promptZh": "媽媽說我們當時該關掉電視了。",
+      "starter": "Mum",
+      "answer": "Mum said it was time to turn off the television.",
+      "answerZh": "媽媽說是時候關掉電視了。",
+      "answerZhSource": "pdf",
+      "highlight": "Mum said it was time to turn off the television."
+    },
+    {
+      "id": "ss65-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I knew I should clean my room then.",
+      "promptZh": "我知道當時該清理自己的房間了。",
+      "starter": "I",
+      "answer": "I knew it was time to clean my room.",
+      "answerZh": "我知道是時候清理自己的房間了。",
+      "answerZhSource": "pdf",
+      "highlight": "I knew it was time to clean my room."
+    },
+    {
+      "id": "ss65-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We realised that we needed to leave for the bus stop then.",
+      "promptZh": "我們意識到當時需要出發前往巴士站了。",
+      "starter": "We",
+      "answer": "We realised it was time to leave for the bus stop.",
+      "answerZh": "我們意識到是時候出發前往巴士站了。",
+      "answerZhSource": "pdf",
+      "highlight": "We realised it was time to leave for the bus stop."
+    },
+    {
+      "id": "ss65-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Dad told me that I should do my homework then.",
+      "promptZh": "爸爸告訴我，當時該做功課了。",
+      "starter": "Dad",
+      "answer": "Dad told me it was time to do my homework.",
+      "answerZh": "爸爸告訴我，是時候做功課了。",
+      "answerZhSource": "pdf",
+      "highlight": "Dad told me it was time to do my homework."
+    },
+    {
+      "id": "ss65-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The plants need water now.",
+      "promptZh": "這些植物現在需要澆水。",
+      "starter": "It",
+      "answer": "It is time to water the plants.",
+      "answerZh": "是時候為這些植物澆水了。",
+      "answerZhSource": "pdf",
+      "highlight": "It is time to water the plants."
+    },
+    {
+      "id": "ss65-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The children knew they should get ready for bed then.",
+      "promptZh": "孩子們知道當時該準備睡覺了。",
+      "starter": "The",
+      "answer": "The children knew it was time to get ready for bed.",
+      "answerZh": "孩子們知道是時候準備睡覺了。",
+      "answerZhSource": "pdf",
+      "highlight": "The children knew it was time to get ready for bed."
+    },
+    {
+      "id": "ss65-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Opening time had arrived, so the shopkeeper needed to open the shop.",
+      "promptZh": "營業時間已到，所以店主需要開店了。",
+      "starter": "It",
+      "answer": "It was time to open the shop.",
+      "answerZh": "當時是時候開店了。",
+      "answerZhSource": "pdf",
+      "highlight": "It was time to open the shop."
+    },
+    {
+      "id": "ss65-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia realised that she should apologise to her friend then.",
+      "promptZh": "米婭意識到自己當時應該向朋友道歉了。",
+      "starter": "Mia",
+      "answer": "Mia realised it was time to apologise to her friend.",
+      "answerZh": "米婭意識到是時候向朋友道歉了。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia realised it was time to apologise to her friend."
+    },
+    {
+      "id": "ss65-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben knew he should replace his old shoes then.",
+      "promptZh": "本知道當時應該更換他的舊鞋了。",
+      "starter": "Ben",
+      "answer": "Ben knew it was time to replace his old shoes.",
+      "answerZh": "本知道是時候更換他的舊鞋了。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben knew it was time to replace his old shoes."
+    },
+    {
+      "id": "ss65-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We agreed that we should discuss the problem calmly then.",
+      "promptZh": "我們同意當時應該冷靜地討論問題了。",
+      "starter": "We",
+      "answer": "We agreed it was time to discuss the problem calmly.",
+      "answerZh": "我們同意是時候冷靜地討論問題了。",
+      "answerZhSource": "pdf",
+      "highlight": "We agreed it was time to discuss the problem calmly."
+    },
+    {
+      "id": "ss65-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The coach decided that the team's training plan should now be changed.",
+      "promptZh": "教練決定現在應該更改球隊的訓練計劃。",
+      "starter": "The",
+      "answer": "The coach decided it was time to change the team's training plan.",
+      "answerZh": "教練決定是時候更改球隊的訓練計劃了。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach decided it was time to change the team's training plan."
+    },
+    {
+      "id": "ss65-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I felt that I should speak honestly about my concerns then.",
+      "promptZh": "我覺得當時應該坦誠說出自己的憂慮了。",
+      "starter": "I",
+      "answer": "I felt it was time to speak honestly about my concerns.",
+      "answerZh": "我覺得是時候坦誠說出自己的憂慮了。",
+      "answerZhSource": "pdf",
+      "highlight": "I felt it was time to speak honestly about my concerns."
+    },
+    {
+      "id": "ss65-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The travel date was getting close, so we knew we should book the tickets.",
+      "promptZh": "出發日期越來越近，所以我們知道應該訂票了。",
+      "starter": "We",
+      "answer": "We knew it was time to book the tickets because the travel date was getting close.",
+      "answerZh": "我們知道是時候訂票了，因為出發日期越來越近。",
+      "answerZhSource": "pdf",
+      "highlight": "We knew it was time to book the tickets because the travel date was getting close."
+    },
+    {
+      "id": "ss65-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The smoke alarm had not been checked for a year, so the landlord agreed that it should be checked then.",
+      "promptZh": "煙霧警報器已有一年沒有檢查，所以業主同意當時應該進行檢查。",
+      "starter": "The",
+      "answer": "The landlord agreed it was time to check the smoke alarm because it had not been checked for a year.",
+      "answerZh": "業主同意是時候檢查煙霧警報器了，因為它已有一年沒有檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The landlord agreed it was time to check the smoke alarm because it had not been checked for a year."
+    },
+    {
+      "id": "ss65-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The library books were due that day, so I knew I needed to return them.",
+      "promptZh": "圖書館的書籍當天到期，所以我知道需要歸還它們了。",
+      "starter": "I",
+      "answer": "I knew it was time to return the library books because they were due that day.",
+      "answerZh": "我知道是時候歸還圖書館的書籍了，因為它們當天到期。",
+      "answerZhSource": "pdf",
+      "highlight": "I knew it was time to return the library books because they were due that day."
+    },
+    {
+      "id": "ss65-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because the battery was almost empty, Sam knew he should recharge it then.",
+      "promptZh": "因為電池快要沒電，森知道當時應該為它充電了。",
+      "starter": "Sam",
+      "answer": "Sam knew it was time to recharge the battery because it was almost empty.",
+      "answerZh": "森知道是時候為電池充電了，因為它快要沒電。",
+      "answerZhSource": "pdf",
+      "highlight": "Sam knew it was time to recharge the battery because it was almost empty."
+    },
+    {
+      "id": "ss65-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After we had discussed every option, we agreed that we needed to make a decision.",
+      "promptZh": "我們討論過所有選項後，同意需要作出決定了。",
+      "starter": "After",
+      "answer": "After discussing every option, we agreed it was time to make a decision.",
+      "answerZh": "討論過所有選項後，我們同意是時候作出決定了。",
+      "answerZhSource": "pdf",
+      "highlight": "After discussing every option, we agreed it was time to make a decision."
+    },
+    {
+      "id": "ss65-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "After reviewing the test results, the doctor said that the amount of medicine the patient was taking should now be reduced.",
+      "promptZh": "醫生檢視檢查結果後，表示現在應該減少病人正在服用的藥物分量。",
+      "starter": "After",
+      "answer": "After reviewing the test results, the doctor said it was time to reduce the amount of medicine the patient was taking.",
+      "answerZh": "醫生檢視檢查結果後，表示是時候減少病人正在服用的藥物分量了。",
+      "answerZhSource": "pdf",
+      "highlight": "After reviewing the test results, the doctor said it was time to reduce the amount of medicine the patient was taking."
+    },
+    {
+      "id": "ss65-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The school decided that its safety rules needed to be updated then.",
+      "promptZh": "學校決定當時需要更新安全規則了。",
+      "starter": "The",
+      "answer": "The school decided it was time to update its safety rules.",
+      "answerZh": "學校決定是時候更新安全規則了。",
+      "answerZhSource": "pdf",
+      "highlight": "The school decided it was time to update its safety rules."
+    },
+    {
+      "id": "ss65-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The roof has been leaking for weeks, and the repair can no longer be delayed.",
+      "promptZh": "屋頂已漏水數星期，維修工作不能再拖延。",
+      "starter": "After",
+      "answer": "After the roof has leaked for weeks, it is time to repair it.",
+      "answerZh": "屋頂漏水數星期後，是時候進行維修了。",
+      "answerZhSource": "pdf",
+      "highlight": "After the roof has leaked for weeks, it is time to repair it."
+    },
+    {
+      "id": "ss65-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We can no longer continue wasting food.",
+      "promptZh": "我們不能再繼續浪費食物。",
+      "starter": "It",
+      "answer": "It is time to stop wasting food.",
+      "answerZh": "是時候停止浪費食物了。",
+      "answerZhSource": "pdf",
+      "highlight": "It is time to stop wasting food."
+    },
+    {
+      "id": "ss65-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The trees in this area need protection now.",
+      "promptZh": "這個地區的樹木現在需要保護。",
+      "starter": "It",
+      "answer": "It is time to protect the trees in this area.",
+      "answerZh": "是時候保護這個地區的樹木了。",
+      "answerZhSource": "pdf",
+      "highlight": "It is time to protect the trees in this area."
+    },
+    {
+      "id": "ss65-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After several security problems, the company agreed that it should improve the website's security.",
+      "promptZh": "網站出現數次保安問題後，公司同意應該改善網站的保安。",
+      "starter": "After",
+      "answer": "After several security problems, the company agreed it was time to improve the website's security.",
+      "answerZh": "網站出現數次保安問題後，公司同意是時候改善網站的保安了。",
+      "answerZhSource": "pdf",
+      "highlight": "After several security problems, the company agreed it was time to improve the website's security."
+    },
+    {
+      "id": "ss65-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why should we ask for professional advice now? The problem has become too complicated for us to handle alone.",
+      "promptZh": "我們為甚麼現在應該尋求專業意見？這個問題已變得太複雜，我們無法獨自處理。",
+      "starter": "It",
+      "answer": "It is time to ask for professional advice because the problem has become too complicated for us to handle alone.",
+      "answerZh": "是時候尋求專業意見了，因為這個問題已變得太複雜，我們無法獨自處理。",
+      "answerZhSource": "pdf",
+      "highlight": "It is time to ask for professional advice because the problem has become too complicated for us to handle alone."
+    },
+    {
+      "id": "ss65-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The ward had become noisy, so the nurse decided that the patient should be moved to a quieter room.",
+      "promptZh": "病房變得嘈吵，所以護士決定應該把病人移到較安靜的房間。",
+      "starter": "The",
+      "answer": "The nurse decided it was time to move the patient to a quieter room because the ward had become noisy.",
+      "answerZh": "護士決定是時候把病人移到較安靜的房間了，因為病房變得嘈吵。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse decided it was time to move the patient to a quieter room because the ward had become noisy."
+    },
+    {
+      "id": "ss65-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We recognised that the budget needed to be reviewed then.",
+      "promptZh": "我們意識到當時需要檢討預算了。",
+      "starter": "We",
+      "answer": "We recognised that it was time to review the budget.",
+      "answerZh": "我們意識到是時候檢討預算了。",
+      "answerZhSource": "pdf",
+      "highlight": "We recognised that it was time to review the budget."
+    },
+    {
+      "id": "ss65-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The residents agreed that they should report the broken streetlight then.",
+      "promptZh": "居民同意當時應該報告街燈損壞的情況。",
+      "starter": "The",
+      "answer": "The residents agreed that it was time to report the broken streetlight.",
+      "answerZh": "居民同意是時候報告街燈損壞的情況了。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents agreed that it was time to report the broken streetlight."
+    },
+    {
+      "id": "ss65-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the rain stops, that will be the right moment for the match to continue.",
+      "promptZh": "如果雨停了，那便是比賽繼續的適當時機。",
+      "starter": "If",
+      "answer": "If the rain stops, it will be time to continue the match.",
+      "answerZh": "如果雨停了，便是時候繼續比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "If the rain stops, it will be time to continue the match."
+    },
+    {
+      "id": "ss65-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Dinner should be served when the final guest arrives.",
+      "promptZh": "最後一位客人到達時，便應該端上晚餐。",
+      "starter": "When",
+      "answer": "When the final guest arrives, it will be time to serve dinner.",
+      "answerZh": "最後一位客人到達時，便是時候端上晚餐。",
+      "answerZhSource": "pdf",
+      "highlight": "When the final guest arrives, it will be time to serve dinner."
+    },
+    {
+      "id": "ss65-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After the equipment had been tested, the experiment was ready to begin.",
+      "promptZh": "設備測試完成後，實驗已準備好開始。",
+      "starter": "After",
+      "answer": "After the equipment had been tested, it was time to begin the experiment.",
+      "answerZh": "設備測試完成後，便是時候開始實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "After the equipment had been tested, it was time to begin the experiment."
+    },
+    {
+      "id": "ss65-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager felt that she should give the team clearer instructions then.",
+      "promptZh": "經理覺得當時應該給團隊更清晰的指示了。",
+      "starter": "The",
+      "answer": "The manager felt it was time to give the team clearer instructions.",
+      "answerZh": "經理覺得是時候給團隊更清晰的指示了。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager felt it was time to give the team clearer instructions."
+    },
+    {
+      "id": "ss65-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company should no longer rely on a single supplier.",
+      "promptZh": "公司不應再依賴單一供應商。",
+      "starter": "It",
+      "answer": "It is time to stop relying on a single supplier.",
+      "answerZh": "是時候停止依賴單一供應商了。",
+      "answerZhSource": "pdf",
+      "highlight": "It is time to stop relying on a single supplier."
+    },
+    {
+      "id": "ss65-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The organisation has not reviewed how personal data is stored for several years. It should do so now.",
+      "promptZh": "該機構已有數年沒有檢討個人資料的儲存方式，現在應該進行檢討。",
+      "starter": "Several",
+      "answer": "Several years have passed since the last review, so it is time to review how personal data is stored.",
+      "answerZh": "距離上次檢討已有數年，所以是時候檢視個人資料的儲存方式了。",
+      "answerZhSource": "pdf",
+      "highlight": "Several years have passed since the last review, so it is time to review how personal data is stored."
+    },
+    {
+      "id": "ss65-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council decided that more shaded areas should now be created in the park.",
+      "promptZh": "區議會決定現在應該在公園增設更多有遮蔭的地方。",
+      "starter": "The",
+      "answer": "The council decided it was time to create more shaded areas in the park.",
+      "answerZh": "區議會決定是時候在公園增設更多有遮蔭的地方了。",
+      "answerZhSource": "pdf",
+      "highlight": "The council decided it was time to create more shaded areas in the park."
+    },
+    {
+      "id": "ss65-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We knew we needed to leave then because the roads would soon become crowded.",
+      "promptZh": "我們知道當時需要離開，因為道路很快便會變得擠塞。",
+      "starter": "We",
+      "answer": "We knew it was time to leave because the roads would soon become crowded.",
+      "answerZh": "我們知道是時候離開了，因為道路很快便會變得擠塞。",
+      "answerZhSource": "pdf",
+      "highlight": "We knew it was time to leave because the roads would soon become crowded."
+    },
+    {
+      "id": "ss65-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The temporary solution has been used for too long, and we now need to replace it with a permanent one.",
+      "promptZh": "這個臨時方案已使用太久，我們現在需要以永久方案取代它。",
+      "starter": "Because",
+      "answer": "Because the temporary solution has been used for too long, it is time to replace it with a permanent one.",
+      "answerZh": "由於這個臨時方案已使用太久，是時候以永久方案取代它了。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the temporary solution has been used for too long, it is time to replace it with a permanent one."
+    },
+    {
+      "id": "ss65-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After checking the data again, the researchers concluded that they should publish their findings then.",
+      "promptZh": "研究人員再次核對數據後，認為當時應該發表研究結果了。",
+      "starter": "After",
+      "answer": "After checking the data again, the researchers concluded that it was time to publish their findings.",
+      "answerZh": "研究人員再次核對數據後，認為是時候發表研究結果了。",
+      "answerZhSource": "pdf",
+      "highlight": "After checking the data again, the researchers concluded that it was time to publish their findings."
+    },
+    {
+      "id": "ss65-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team had prepared for months and knew that the new service should now be launched.",
+      "promptZh": "團隊已準備數月，並知道現在應該推出新服務。",
+      "starter": "After",
+      "answer": "After months of preparation, the team knew it was time to launch the new service.",
+      "answerZh": "經過數月準備後，團隊知道是時候推出新服務了。",
+      "answerZhSource": "pdf",
+      "highlight": "After months of preparation, the team knew it was time to launch the new service."
+    },
+    {
+      "id": "ss65-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After repeated complaints about long waits, the hospital decided that a new booking system should now be introduced.",
+      "promptZh": "醫院多次收到有關等候時間過長的投訴後，決定現在應該引入新的預約系統。",
+      "starter": "After",
+      "answer": "After repeated complaints about long waits, the hospital decided it was time to introduce a new booking system.",
+      "answerZh": "醫院多次收到有關等候時間過長的投訴後，決定是時候引入新的預約系統了。",
+      "answerZhSource": "pdf",
+      "highlight": "After repeated complaints about long waits, the hospital decided it was time to introduce a new booking system."
+    },
+    {
+      "id": "ss65-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The authorities accepted that public transport remained difficult for older passengers to use and should now be made easier for them.",
+      "promptZh": "當局承認長者使用公共交通仍有困難，現在應該讓他們更容易使用。",
+      "starter": "The",
+      "answer": "The authorities accepted it was time to make public transport easier for older passengers to use.",
+      "answerZh": "當局承認是時候讓長者更容易使用公共交通了。",
+      "answerZhSource": "pdf",
+      "highlight": "The authorities accepted it was time to make public transport easier for older passengers to use."
+    },
+    {
+      "id": "ss65-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee agreed that it should now examine why the project had been delayed.",
+      "promptZh": "委員會同意現在應該調查項目延誤的原因。",
+      "starter": "The",
+      "answer": "The committee agreed that it was time to examine why the project had been delayed.",
+      "answerZh": "委員會同意是時候調查項目延誤的原因了。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee agreed that it was time to examine why the project had been delayed."
+    },
+    {
+      "id": "ss65-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I knew that I should come back to Hong Kong then for my family.",
+      "promptZh": "我知道當時應該為了家人回到香港。",
+      "starter": "I",
+      "answer": "I knew it was time to come back to Hong Kong for my family.",
+      "answerZh": "我知道是時候為了家人回到香港了。",
+      "answerZhSource": "pdf",
+      "highlight": "I knew it was time to come back to Hong Kong for my family."
+    },
+    {
+      "id": "ss65-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The engineers had repaired the same error twice. When it appeared again, they realised that they should redesign the process.",
+      "promptZh": "工程師已修正同一錯誤兩次。當錯誤再次出現時，他們意識到應該重新設計流程。",
+      "starter": "When",
+      "answer": "When the same error appeared again after two attempts to fix it, the engineers realised it was time to redesign the process.",
+      "answerZh": "同一錯誤在兩次修正後再次出現時，工程師意識到是時候重新設計流程了。",
+      "answerZhSource": "pdf",
+      "highlight": "When the same error appeared again after two attempts to fix it, the engineers realised it was time to redesign the process."
+    },
+    {
+      "id": "ss65-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The neighbourhood group felt that another temporary repair was not enough and that it should now ask the council for a long-term solution.",
+      "promptZh": "社區小組認為再作一次臨時維修並不足夠，現在應該要求區議會提出長遠方案。",
+      "starter": "Because",
+      "answer": "Because another temporary repair was not enough, the neighbourhood group felt it was time to ask the council for a long-term solution.",
+      "answerZh": "由於再作一次臨時維修並不足夠，社區小組認為是時候要求區議會提出長遠方案了。",
+      "answerZhSource": "pdf",
+      "highlight": "Because another temporary repair was not enough, the neighbourhood group felt it was time to ask the council for a long-term solution."
+    },
+    {
+      "id": "ss65-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Schools have decided that students should now be taught how to check online information more carefully because false information is spreading quickly.",
+      "promptZh": "由於虛假資訊迅速傳播，學校決定現在應該教導學生更仔細地查核網上資訊。",
+      "starter": "Because",
+      "answer": "Because false information is spreading quickly, schools have decided it is time to teach students how to check online information more carefully.",
+      "answerZh": "由於虛假資訊迅速傳播，學校決定是時候教導學生更仔細地查核網上資訊了。",
+      "answerZhSource": "pdf",
+      "highlight": "Because false information is spreading quickly, schools have decided it is time to teach students how to check online information more carefully."
+    },
+    {
+      "id": "ss65-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company accepted that it should no longer use packaging that could not be recycled.",
+      "promptZh": "公司承認不應再使用不能回收的包裝。",
+      "starter": "The",
+      "answer": "The company accepted that it was time to stop using packaging that could not be recycled.",
+      "answerZh": "公司承認是時候停止使用不能回收的包裝了。",
+      "answerZhSource": "pdf",
+      "highlight": "The company accepted that it was time to stop using packaging that could not be recycled."
+    },
+    {
+      "id": "ss65-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After considering the risks and benefits, the government decided that the policy should now be revised.",
+      "promptZh": "政府考慮風險與好處後，決定現在應該修訂政策。",
+      "starter": "After",
+      "answer": "After considering the risks and benefits, the government decided it was time to revise the policy.",
+      "answerZh": "政府考慮風險與好處後，決定是時候修訂政策了。",
+      "answerZhSource": "pdf",
+      "highlight": "After considering the risks and benefits, the government decided it was time to revise the policy."
+    }
+  ]
+}

@@ -1,0 +1,1259 @@
+{
+  "id": "ss55",
+  "order": 55,
+  "slug": "gerund-phrase-as-subject",
+  "title": "「Gerund 作主語句」",
+  "titleZh": "「Gerund 作主語」把活動變成句子主題",
+  "titleEn": "Using a gerund phrase as the sentence subject",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 55 -「Gerund 作主語句」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "exercisePages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "answerPages": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "omissions": []
+  },
+  "formula": "Gerund phrase + predicate",
+  "formulas": [
+    {
+      "id": "ss55-formula-core",
+      "labelEn": "Gerund phrase as subject",
+      "labelZh": "動名詞詞組作句子主語",
+      "formula": "Gerund phrase + predicate"
+    },
+    {
+      "id": "ss55-formula-adjective",
+      "labelEn": "With an adjective",
+      "labelZh": "配合形容詞",
+      "formula": "Gerund phrase + be + adjective"
+    },
+    {
+      "id": "ss55-formula-noun",
+      "labelEn": "With a noun phrase",
+      "labelZh": "配合名詞詞組",
+      "formula": "Gerund phrase + be + noun phrase"
+    },
+    {
+      "id": "ss55-formula-ordinary-verb",
+      "labelEn": "With an ordinary verb",
+      "labelZh": "配合一般動詞",
+      "formula": "Gerund phrase + ordinary verb"
+    },
+    {
+      "id": "ss55-formula-modal",
+      "labelEn": "With a modal verb",
+      "labelZh": "配合情態動詞",
+      "formula": "Gerund phrase + modal verb + ordinary verb"
+    }
+  ],
+  "example": "Reading books takes a lot of time.",
+  "exampleZh": "閱讀書籍需要花很多時間。",
+  "examples": [
+    {
+      "id": "ss55-example-01",
+      "en": "Reading books takes a lot of time.",
+      "zh": "閱讀書籍需要花很多時間。",
+      "highlight": "Reading books"
+    }
+  ],
+  "meaning": {
+    "zh": "整個 V-ing 詞組代表一項活動並充當句子主語；後面的完整述語可以是形容詞、名詞詞組、一般動詞或情態動詞結構。"
+  },
+  "rules": [
+    {
+      "id": "ss55-rule-01",
+      "en": "The entire gerund phrase represents an activity and serves as the subject.",
+      "zh": "整個 Gerund 詞組代表一項活動並充當句子主語。",
+      "examples": [
+        "Reading books takes a lot of time."
+      ]
+    },
+    {
+      "id": "ss55-rule-02",
+      "en": "A gerund subject may take many kinds of predicates.",
+      "zh": "Gerund 主語後面不一定是形容詞，可以接名詞詞組、一般動詞或情態動詞。",
+      "examples": [
+        "Exercising regularly improves your health."
+      ]
+    },
+    {
+      "id": "ss55-rule-03",
+      "en": "One activity normally takes a singular verb.",
+      "zh": "一個 Gerund 詞組通常視為一項活動，因此使用單數動詞。",
+      "examples": [
+        "Reading books takes time."
+      ]
+    },
+    {
+      "id": "ss55-rule-04",
+      "en": "Tense and modality are shown by the predicate.",
+      "zh": "Gerund 主語本身不表示時態；時態和情態由後面的動詞顯示。",
+      "examples": [
+        "Walking to work saved me money.",
+        "Walking alone can be dangerous."
+      ]
+    },
+    {
+      "id": "ss55-rule-05",
+      "en": "Keep all essential information after the gerund.",
+      "zh": "必須保留 Gerund 後面界定活動的必要資料。",
+      "examples": [
+        "Crossing this busy road is dangerous."
+      ]
+    },
+    {
+      "id": "ss55-rule-06",
+      "en": "Use not before the gerund phrase for a negative activity.",
+      "zh": "否定形式使用 Not＋Gerund 詞組。",
+      "examples": [
+        "Not reading the instructions can cause problems."
+      ]
+    },
+    {
+      "id": "ss55-rule-07",
+      "en": "Not every -ing form is a gerund subject.",
+      "zh": "並非所有 -ing 形式都是 Gerund 主語；本課要求把 Gerund 詞組放在句首作主語。",
+      "examples": [
+        "Reading improves vocabulary.",
+        "She is reading a book."
+      ]
+    },
+    {
+      "id": "ss55-rule-08",
+      "en": "Two independent activities normally take a plural verb.",
+      "zh": "兩項獨立活動通常使用複數動詞；本課主要集中一個 Gerund 詞組作主語。",
+      "examples": [
+        "Reading and writing take time."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss55-benefit-01",
+      "en": "It makes an activity the direct topic of the sentence.",
+      "zh": "它可以把活動直接變成句子主題。"
+    },
+    {
+      "id": "ss55-benefit-02",
+      "en": "It explains the result produced by an activity.",
+      "zh": "它不只評論活動，亦可說明活動會產生甚麼結果。"
+    },
+    {
+      "id": "ss55-benefit-03",
+      "en": "It expresses the time, money or conditions an activity requires.",
+      "zh": "它可說明一項活動所需的時間、金錢或條件。"
+    },
+    {
+      "id": "ss55-benefit-04",
+      "en": "It adds variety to sentence openings.",
+      "zh": "它提供有別於 It is、If you 和 When you 的自然句子開頭。"
+    },
+    {
+      "id": "ss55-benefit-05",
+      "en": "It suits general facts and practical advice.",
+      "zh": "它適合表達一般事實、生活道理、建議和說明。"
+    },
+    {
+      "id": "ss55-benefit-06",
+      "en": "It links a cause and its result in one sentence.",
+      "zh": "它能把一項活動及其結果直接連成一句。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a gerund phrase as the subject.",
+      "The predicate may contain an adjective, a noun phrase, an ordinary verb or a modal verb.",
+      "Preserve the original meaning, tense, modality and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Gerund 詞組作句子主語，改寫以下句子。",
+      "述語部分可以包含形容詞、名詞詞組、一般動詞或情態動詞。",
+      "保留原句意思、時態、情態和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss55-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It takes a lot of time to read books.",
+      "promptZh": "閱讀書籍需要花很多時間。",
+      "promptZhSource": "pdf",
+      "starter": "Reading",
+      "answer": "Reading books takes a lot of time.",
+      "answerZh": "閱讀書籍需要花很多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading books takes a lot of time."
+    },
+    {
+      "id": "ss55-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is difficult to learn English.",
+      "promptZh": "學習英語很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Learning",
+      "answer": "Learning English is difficult.",
+      "answerZh": "學習英語很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning English is difficult."
+    },
+    {
+      "id": "ss55-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You save money if you walk to school.",
+      "promptZh": "如果你步行上學，便可以節省金錢。",
+      "promptZhSource": "pdf",
+      "starter": "Walking",
+      "answer": "Walking to school saves money.",
+      "answerZh": "步行上學可以節省金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Walking to school saves money."
+    },
+    {
+      "id": "ss55-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Your health improves when you exercise every day.",
+      "promptZh": "每天做運動能改善你的健康。",
+      "promptZhSource": "pdf",
+      "starter": "Exercising",
+      "answer": "Exercising every day improves your health.",
+      "answerZh": "每天做運動能改善你的健康。",
+      "answerZhSource": "pdf",
+      "highlight": "Exercising every day improves your health."
+    },
+    {
+      "id": "ss55-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It is fun to cook with friends.",
+      "promptZh": "與朋友一起煮食很有趣。",
+      "promptZhSource": "pdf",
+      "starter": "Cooking",
+      "answer": "Cooking with friends is fun.",
+      "answerZh": "與朋友一起煮食很有趣。",
+      "answerZhSource": "pdf",
+      "highlight": "Cooking with friends is fun."
+    },
+    {
+      "id": "ss55-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A good way to relax is to listen to music.",
+      "promptZh": "聽音樂是放鬆的好方法。",
+      "promptZhSource": "pdf",
+      "starter": "Listening",
+      "answer": "Listening to music is a good way to relax.",
+      "answerZh": "聽音樂是放鬆的好方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Listening to music is a good way to relax."
+    },
+    {
+      "id": "ss55-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You can help your body work better by drinking enough water.",
+      "promptZh": "飲用足夠的水有助身體運作得更好。",
+      "promptZhSource": "pdf",
+      "starter": "Drinking",
+      "answer": "Drinking enough water helps your body work better.",
+      "answerZh": "飲用足夠的水有助身體運作得更好。",
+      "answerZhSource": "pdf",
+      "highlight": "Drinking enough water helps your body work better."
+    },
+    {
+      "id": "ss55-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You need patience when you learn a musical instrument.",
+      "promptZh": "學習樂器需要耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Learning",
+      "answer": "Learning a musical instrument requires patience.",
+      "answerZh": "學習樂器需要耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning a musical instrument requires patience."
+    },
+    {
+      "id": "ss55-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You can remember lessons better by taking notes.",
+      "promptZh": "做筆記可以幫助你更好地記住課堂內容。",
+      "promptZhSource": "pdf",
+      "starter": "Taking",
+      "answer": "Taking notes helps you remember lessons better.",
+      "answerZh": "做筆記有助你更好地記住課堂內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Taking notes helps you remember lessons better."
+    },
+    {
+      "id": "ss55-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Mia found it hard to get up before sunrise.",
+      "promptZh": "米婭覺得在日出前起床很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Getting",
+      "answer": "Getting up before sunrise was hard for Mia.",
+      "answerZh": "在日出前起床對米婭來說很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Getting up before sunrise was hard for Mia."
+    },
+    {
+      "id": "ss55-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It costs less to travel by bus than by taxi.",
+      "promptZh": "乘巴士出行比乘的士便宜。",
+      "promptZhSource": "pdf",
+      "starter": "Travelling",
+      "answer": "Travelling by bus costs less than travelling by taxi.",
+      "answerZh": "乘巴士出行比乘的士便宜。",
+      "answerZhSource": "pdf",
+      "highlight": "Travelling by bus costs less than travelling by taxi."
+    },
+    {
+      "id": "ss55-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Students improve their pronunciation when they read aloud regularly.",
+      "promptZh": "學生定期朗讀可以改善發音。",
+      "promptZhSource": "pdf",
+      "starter": "Reading",
+      "answer": "Reading aloud regularly improves students’ pronunciation.",
+      "answerZh": "定期朗讀可以改善學生的發音。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading aloud regularly improves students’ pronunciation."
+    },
+    {
+      "id": "ss55-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "It can be dangerous to share passwords with other people.",
+      "promptZh": "與別人分享密碼可能很危險。",
+      "promptZhSource": "pdf",
+      "starter": "Sharing",
+      "answer": "Sharing passwords with other people can be dangerous.",
+      "answerZh": "與別人分享密碼可能很危險。",
+      "answerZhSource": "pdf",
+      "highlight": "Sharing passwords with other people can be dangerous."
+    },
+    {
+      "id": "ss55-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "You need careful planning when you organise a school event.",
+      "promptZh": "籌辦學校活動需要周詳規劃。",
+      "promptZhSource": "pdf",
+      "starter": "Organising",
+      "answer": "Organising a school event requires careful planning.",
+      "answerZh": "籌辦學校活動需要周詳規劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Organising a school event requires careful planning."
+    },
+    {
+      "id": "ss55-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People save time when they shop online.",
+      "promptZh": "人們網上購物可以節省時間。",
+      "promptZhSource": "pdf",
+      "starter": "Shopping",
+      "answer": "Shopping online saves people time.",
+      "answerZh": "網上購物可以為人們節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Shopping online saves people time."
+    },
+    {
+      "id": "ss55-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Leo felt tired because he stared at the screen for too long.",
+      "promptZh": "里奧因為長時間望着螢幕而感到疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "Staring",
+      "answer": "Staring at the screen for too long made Leo feel tired.",
+      "answerZh": "長時間望着螢幕令里奧感到疲倦。",
+      "answerZhSource": "pdf",
+      "highlight": "Staring at the screen for too long made Leo feel tired."
+    },
+    {
+      "id": "ss55-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It is a healthy habit to eat breakfast every day.",
+      "promptZh": "每天吃早餐是一個健康習慣。",
+      "promptZhSource": "pdf",
+      "starter": "Eating",
+      "answer": "Eating breakfast every day is a healthy habit.",
+      "answerZh": "每天吃早餐是一個健康習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "Eating breakfast every day is a healthy habit."
+    },
+    {
+      "id": "ss55-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The best part of travelling is that you meet new people.",
+      "promptZh": "旅行最好的部分是可以認識新朋友。",
+      "promptZhSource": "pdf",
+      "starter": "Meeting",
+      "answer": "Meeting new people is the best part of travelling.",
+      "answerZh": "認識新朋友是旅行最好的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "Meeting new people is the best part of travelling."
+    },
+    {
+      "id": "ss55-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People reduce waste when they recycle paper.",
+      "promptZh": "人們回收紙張可以減少廢物。",
+      "promptZhSource": "pdf",
+      "starter": "Recycling",
+      "answer": "Recycling paper reduces waste.",
+      "answerZh": "回收紙張可以減少廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Recycling paper reduces waste."
+    },
+    {
+      "id": "ss55-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "What can help children become more confident? They can speak in class regularly.",
+      "promptZh": "甚麼可以幫助兒童變得更有自信？他們可以定期在課堂上發言。",
+      "promptZhSource": "pdf",
+      "starter": "Speaking",
+      "answer": "Speaking in class regularly can help children become more confident.",
+      "answerZh": "定期在課堂上發言可以幫助兒童變得更有自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Speaking in class regularly can help children become more confident."
+    },
+    {
+      "id": "ss55-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "It takes courage to admit a mistake.",
+      "promptZh": "承認錯誤需要勇氣。",
+      "promptZhSource": "pdf",
+      "starter": "Admitting",
+      "answer": "Admitting a mistake takes courage.",
+      "answerZh": "承認錯誤需要勇氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Admitting a mistake takes courage."
+    },
+    {
+      "id": "ss55-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You need good communication when you work in a team.",
+      "promptZh": "團隊合作需要良好溝通。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working in a team requires good communication.",
+      "answerZh": "團隊合作需要良好溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "Working in a team requires good communication."
+    },
+    {
+      "id": "ss55-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Drivers can reduce the risk of accidents if they check their mirrors often.",
+      "promptZh": "司機經常查看倒後鏡，可以降低發生意外的風險。",
+      "promptZhSource": "pdf",
+      "starter": "Checking",
+      "answer": "Checking their mirrors often can reduce drivers’ risk of accidents.",
+      "answerZh": "經常查看倒後鏡可以降低司機發生意外的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Checking their mirrors often can reduce drivers’ risk of accidents."
+    },
+    {
+      "id": "ss55-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Ava found it stressful to make the important decision alone.",
+      "promptZh": "艾娃覺得獨自作出這項重要決定很有壓力。",
+      "promptZhSource": "pdf",
+      "starter": "Making",
+      "answer": "Making the important decision alone was stressful for Ava.",
+      "answerZh": "獨自作出這項重要決定令艾娃感到很有壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "Making the important decision alone was stressful for Ava."
+    },
+    {
+      "id": "ss55-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "People can help themselves avoid overspending by comparing prices.",
+      "promptZh": "人們比較價格，可以幫助自己避免過度消費。",
+      "promptZhSource": "pdf",
+      "starter": "Comparing",
+      "answer": "Comparing prices can help people avoid overspending.",
+      "answerZh": "比較價格可以幫助人們避免過度消費。",
+      "answerZhSource": "pdf",
+      "highlight": "Comparing prices can help people avoid overspending."
+    },
+    {
+      "id": "ss55-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "People can gain useful experience through voluntary work in the community.",
+      "promptZh": "人們可以透過社區義務工作獲得實用經驗。",
+      "promptZhSource": "pdf",
+      "starter": "Volunteering",
+      "answer": "Volunteering in the community gives people useful experience.",
+      "answerZh": "在社區參與義務工作可以讓人們獲得實用經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Volunteering in the community gives people useful experience."
+    },
+    {
+      "id": "ss55-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "It requires concentration to follow a long set of instructions.",
+      "promptZh": "按照一套很長的指示行事需要集中力。",
+      "promptZhSource": "pdf",
+      "starter": "Following",
+      "answer": "Following a long set of instructions requires concentration.",
+      "answerZh": "按照一套很長的指示行事需要集中力。",
+      "answerZhSource": "pdf",
+      "highlight": "Following a long set of instructions requires concentration."
+    },
+    {
+      "id": "ss55-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "You build your confidence if you practise a skill regularly.",
+      "promptZh": "如果你定期練習一項技能，便能建立自信。",
+      "promptZhSource": "pdf",
+      "starter": "Practising",
+      "answer": "Practising a skill regularly builds your confidence.",
+      "answerZh": "定期練習一項技能可以建立自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Practising a skill regularly builds your confidence."
+    },
+    {
+      "id": "ss55-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Problems can occur if people do not read the terms carefully.",
+      "promptZh": "如果人們沒有仔細閱讀條款，便可能出現問題。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not reading the terms carefully can cause problems.",
+      "answerZh": "沒有仔細閱讀條款可能會造成問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Not reading the terms carefully can cause problems."
+    },
+    {
+      "id": "ss55-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "It is usually more convenient to pay by card than in cash.",
+      "promptZh": "使用信用卡付款通常比現金付款方便。",
+      "promptZhSource": "pdf",
+      "starter": "Paying",
+      "answer": "Paying by card is usually more convenient than paying in cash.",
+      "answerZh": "使用信用卡付款通常比現金付款方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Paying by card is usually more convenient than paying in cash."
+    },
+    {
+      "id": "ss55-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Employees improve their concentration when they take regular breaks.",
+      "promptZh": "僱員定期休息可以改善集中力。",
+      "promptZhSource": "pdf",
+      "starter": "Taking",
+      "answer": "Taking regular breaks improves employees’ concentration.",
+      "answerZh": "定期休息可以改善僱員的集中力。",
+      "answerZhSource": "pdf",
+      "highlight": "Taking regular breaks improves employees’ concentration."
+    },
+    {
+      "id": "ss55-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "It is expensive to repair old machinery.",
+      "promptZh": "修理舊機器的費用很高。",
+      "promptZhSource": "pdf",
+      "starter": "Repairing",
+      "answer": "Repairing old machinery is expensive.",
+      "answerZh": "修理舊機器的費用很高。",
+      "answerZhSource": "pdf",
+      "highlight": "Repairing old machinery is expensive."
+    },
+    {
+      "id": "ss55-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "You need good balance to ride a bicycle safely.",
+      "promptZh": "安全踏單車需要良好的平衡力。",
+      "promptZhSource": "pdf",
+      "starter": "Riding",
+      "answer": "Riding a bicycle safely requires good balance.",
+      "answerZh": "安全踏單車需要良好的平衡力。",
+      "answerZhSource": "pdf",
+      "highlight": "Riding a bicycle safely requires good balance."
+    },
+    {
+      "id": "ss55-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "People can reduce traffic congestion if they use public transport.",
+      "promptZh": "人們使用公共交通工具可以減少交通擠塞。",
+      "promptZhSource": "pdf",
+      "starter": "Using",
+      "answer": "Using public transport can reduce traffic congestion.",
+      "answerZh": "使用公共交通工具可以減少交通擠塞。",
+      "answerZhSource": "pdf",
+      "highlight": "Using public transport can reduce traffic congestion."
+    },
+    {
+      "id": "ss55-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "People gain a broader view of the world when they study history.",
+      "promptZh": "人們學習歷史可以獲得更廣闊的世界觀。",
+      "promptZhSource": "pdf",
+      "starter": "Studying",
+      "answer": "Studying history gives people a broader view of the world.",
+      "answerZh": "學習歷史可以讓人們獲得更廣闊的世界觀。",
+      "answerZhSource": "pdf",
+      "highlight": "Studying history gives people a broader view of the world."
+    },
+    {
+      "id": "ss55-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "It takes considerable effort to explain a complex idea clearly.",
+      "promptZh": "清楚解釋一個複雜概念需要付出相當大的努力。",
+      "promptZhSource": "pdf",
+      "starter": "Explaining",
+      "answer": "Explaining a complex idea clearly takes considerable effort.",
+      "answerZh": "清楚解釋一個複雜概念需要付出相當大的努力。",
+      "answerZhSource": "pdf",
+      "highlight": "Explaining a complex idea clearly takes considerable effort."
+    },
+    {
+      "id": "ss55-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "You may lose important work because you do not back up your files.",
+      "promptZh": "你可能因為沒有備份檔案而失去重要工作。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not backing up your files may cause you to lose important work.",
+      "answerZh": "沒有備份檔案可能會令你失去重要工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Not backing up your files may cause you to lose important work."
+    },
+    {
+      "id": "ss55-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "A company can build customer trust by answering complaints politely.",
+      "promptZh": "公司有禮貌地回應投訴，可以建立客戶信任。",
+      "promptZhSource": "pdf",
+      "starter": "Answering",
+      "answer": "Answering complaints politely can build customer trust.",
+      "answerZh": "有禮貌地回應投訴可以建立客戶信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Answering complaints politely can build customer trust."
+    },
+    {
+      "id": "ss55-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "One way to understand another culture is to learn its language.",
+      "promptZh": "了解另一種文化的方法之一是學習它的語言。",
+      "promptZhSource": "pdf",
+      "starter": "Learning",
+      "answer": "Learning the language of another culture is one way to understand that culture.",
+      "answerZh": "學習另一種文化的語言是了解該文化的方法之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning the language of another culture is one way to understand that culture."
+    },
+    {
+      "id": "ss55-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "You need time and patience when you care for a young animal.",
+      "promptZh": "照顧幼小動物需要時間和耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Caring",
+      "answer": "Caring for a young animal requires time and patience.",
+      "answerZh": "照顧幼小動物需要時間和耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Caring for a young animal requires time and patience."
+    },
+    {
+      "id": "ss55-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The school gave students useful life skills by offering more practical activities.",
+      "promptZh": "學校透過提供更多實務活動，讓學生獲得實用的生活技能。",
+      "promptZhSource": "pdf",
+      "starter": "Offering",
+      "answer": "Offering more practical activities gave students useful life skills.",
+      "answerZh": "提供更多實務活動讓學生獲得了實用的生活技能。",
+      "answerZhSource": "pdf",
+      "highlight": "Offering more practical activities gave students useful life skills."
+    },
+    {
+      "id": "ss55-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "A manager can prevent unnecessary confusion by explaining a decision clearly.",
+      "promptZh": "經理清楚解釋決定，可以避免不必要的混亂。",
+      "promptZhSource": "pdf",
+      "starter": "Explaining",
+      "answer": "Explaining a decision clearly can prevent unnecessary confusion.",
+      "answerZh": "清楚解釋決定可以避免不必要的混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "Explaining a decision clearly can prevent unnecessary confusion."
+    },
+    {
+      "id": "ss55-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "It can be difficult for new staff to remember many procedures at once.",
+      "promptZh": "新員工要一次記住許多程序可能很困難。",
+      "promptZhSource": "pdf",
+      "starter": "Remembering",
+      "answer": "Remembering many procedures at once can be difficult for new staff.",
+      "answerZh": "一次記住許多程序對新員工來說可能很困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Remembering many procedures at once can be difficult for new staff."
+    },
+    {
+      "id": "ss55-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "You can make a report easier to understand by using clear headings.",
+      "promptZh": "使用清晰的標題可以令報告更容易理解。",
+      "promptZhSource": "pdf",
+      "starter": "Using",
+      "answer": "Using clear headings can make a report easier to understand.",
+      "answerZh": "使用清晰的標題可以令報告更容易理解。",
+      "answerZhSource": "pdf",
+      "highlight": "Using clear headings can make a report easier to understand."
+    },
+    {
+      "id": "ss55-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "Communities can give residents a stronger sense of belonging by protecting public spaces.",
+      "promptZh": "社區保護公共空間，可以讓居民產生更強的歸屬感。",
+      "promptZhSource": "pdf",
+      "starter": "Protecting",
+      "answer": "Protecting public spaces can give residents a stronger sense of belonging.",
+      "answerZh": "保護公共空間可以讓居民產生更強的歸屬感。",
+      "answerZhSource": "pdf",
+      "highlight": "Protecting public spaces can give residents a stronger sense of belonging."
+    },
+    {
+      "id": "ss55-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "It takes discipline to continue exercising when progress is slow.",
+      "promptZh": "進展緩慢時仍然繼續做運動需要自律。",
+      "promptZhSource": "pdf",
+      "starter": "Continuing",
+      "answer": "Continuing to exercise when progress is slow takes discipline.",
+      "answerZh": "進展緩慢時仍然繼續做運動需要自律。",
+      "answerZhSource": "pdf",
+      "highlight": "Continuing to exercise when progress is slow takes discipline."
+    },
+    {
+      "id": "ss55-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "People can reduce the spread of false rumours if they check information before sharing it.",
+      "promptZh": "人們在分享資料前先加以核實，可以減少虛假傳言的傳播。",
+      "promptZhSource": "pdf",
+      "starter": "Checking",
+      "answer": "Checking information before sharing it can reduce the spread of false rumours.",
+      "answerZh": "分享資料前先加以核實，可以減少虛假傳言的傳播。",
+      "answerZhSource": "pdf",
+      "highlight": "Checking information before sharing it can reduce the spread of false rumours."
+    },
+    {
+      "id": "ss55-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 19,
+        "promptZhPage": 19,
+        "starterPage": 19,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "A business needs a clear understanding of customer needs when it develops a new service.",
+      "promptZh": "企業開發新服務時，需要清楚了解客戶需要。",
+      "promptZhSource": "pdf",
+      "starter": "Developing",
+      "answer": "Developing a new service requires a clear understanding of customer needs.",
+      "answerZh": "開發新服務需要清楚了解客戶需要。",
+      "answerZhSource": "pdf",
+      "highlight": "Developing a new service requires a clear understanding of customer needs."
+    },
+    {
+      "id": "ss55-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 19,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "It is often uncomfortable but necessary to discuss a serious problem honestly.",
+      "promptZh": "坦誠討論嚴重問題往往令人不自在，但亦有必要。",
+      "promptZhSource": "pdf",
+      "starter": "Discussing",
+      "answer": "Discussing a serious problem honestly is often uncomfortable but necessary.",
+      "answerZh": "坦誠討論嚴重問題往往令人不自在，但亦有必要。",
+      "answerZhSource": "pdf",
+      "highlight": "Discussing a serious problem honestly is often uncomfortable but necessary."
+    },
+    {
+      "id": "ss55-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 20,
+        "questionPage": 20,
+        "promptZhPage": 20,
+        "starterPage": 20,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "An organisation protects both staff and customers when it prepares for possible emergencies.",
+      "promptZh": "機構為可能出現的緊急情況作準備，可以保障員工和客戶。",
+      "promptZhSource": "pdf",
+      "starter": "Preparing",
+      "answer": "Preparing for possible emergencies protects both staff and customers.",
+      "answerZh": "為可能出現的緊急情況作準備，可以保障員工和客戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Preparing for possible emergencies protects both staff and customers."
+    }
+  ]
+}

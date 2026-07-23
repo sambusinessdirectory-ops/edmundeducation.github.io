@@ -1,0 +1,1151 @@
+{
+  "id": "ss66",
+  "order": 66,
+  "slug": "its-time-past-tense-overdue",
+  "title": "「It’s time + 過去式」句型",
+  "titleZh": "「It’s time + 過去式」表示「已經拖延了一段時間，現在是時候應該……了」",
+  "titleEn": "Using It’s time + past tense for overdue action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 66 -「It’s time + 過去式」表示「已經拖延了一段時間，現在是時候應該……了」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "It’s time + subject + past-tense verb + other information",
+  "formulas": [
+    {
+      "id": "ss66-formula-core",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "It’s time + subject + past-tense verb + other information"
+    }
+  ],
+  "example": "I believe it’s time we went home.",
+  "exampleZh": "我認為我們是時候回家了。",
+  "examples": [
+    {
+      "id": "ss66-example-01",
+      "en": "I believe it’s time we went home.",
+      "zh": "我認為我們是時候回家了。",
+      "highlight": "it’s time we went home"
+    }
+  ],
+  "meaning": {
+    "zh": "It’s time + 過去式表示某人現在應該做某事，或某項行動已經拖延了一段時間，現在應該採取行動。"
+  },
+  "rules": [
+    {
+      "id": "ss66-rule-01",
+      "en": "Although the verb has a past-tense form, the sentence normally refers to the present or near future.",
+      "zh": "雖然動詞使用過去式，但句子通常並不是描述過去，而是表示現在或不久之後應該做某事。",
+      "examples": [
+        "It’s time we left."
+      ]
+    },
+    {
+      "id": "ss66-rule-02",
+      "en": "Put a subject before the past-tense verb.",
+      "zh": "使用 It’s time + 主語 + 動詞過去式；動詞前必須有主語。",
+      "examples": [
+        "It’s time you started your homework."
+      ]
+    },
+    {
+      "id": "ss66-rule-03",
+      "en": "Use the normal past forms of verbs. With be, use was or were according to the subject.",
+      "zh": "使用動詞的一般過去式；be 動詞則按照主語使用 was 或 were。",
+      "examples": [
+        "It’s time I was in bed.",
+        "It’s time the children were in bed."
+      ]
+    },
+    {
+      "id": "ss66-rule-04",
+      "en": "The target uses a subject + past-tense verb, unlike the related forms It’s time to + base verb and It’s time for + person + to + base verb.",
+      "zh": "本課目標句型使用主語 + 動詞過去式；相關的 It’s time to... 和 It’s time for someone to... 則使用 to + 動詞原形。",
+      "examples": [
+        "It’s time we went home.",
+        "It’s time to go home.",
+        "It’s time for us to go home."
+      ]
+    },
+    {
+      "id": "ss66-rule-05",
+      "en": "It’s high time suggests something is seriously overdue; It’s about time often suggests the speaker has waited too long. These stronger forms are not required in this exercise.",
+      "zh": "It’s high time 通常表示事情嚴重拖延；It’s about time 常暗示說話者等候太久。本練習不要求使用這兩個較強烈的形式。",
+      "examples": [
+        "It’s high time you apologised.",
+        "It’s about time the bus arrived."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss66-benefit-01",
+      "en": "This structure tells the listener that something should not be delayed any longer.",
+      "zh": "這個句型能清楚告訴對方，某件事現在應該進行，不應再拖延。"
+    },
+    {
+      "id": "ss66-benefit-02",
+      "en": "Instead of giving a strong order, you can use this structure to encourage someone to act.",
+      "zh": "你不需要直接命令別人，也可以使用這個句型勸對方採取行動，聽起來較像提醒。"
+    },
+    {
+      "id": "ss66-benefit-03",
+      "en": "The structure is especially useful when someone has waited, delayed or avoided something for too long.",
+      "zh": "當某人等待、拖延或逃避某件事太久時，這個句型特別實用。"
+    },
+    {
+      "id": "ss66-benefit-04",
+      "en": "Instead of beginning many sentences with You should, you can use It’s time to create more sentence variety.",
+      "zh": "你不需要每句都使用 You should，也可以使用 It’s time 增加句式變化。"
+    },
+    {
+      "id": "ss66-benefit-05",
+      "en": "You can use it to discuss personal habits, family decisions, school problems, workplace changes and public issues.",
+      "zh": "這個句型可用於討論個人習慣、家庭決定、學校問題、職場改變及公共議題，在會話、討論及議論文中都十分實用。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using It’s time + subject + past tense to show that something should happen now or has already been delayed.",
+      "Keep any introductory words or clauses when they are needed.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 It’s time + 主語 + 過去式 改寫以下句子，表示某件事現在應該進行，或已經拖延了一段時間。",
+      "如答案需要保留引入語或從句，請把它們保留下來。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss66-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should go home now.",
+      "promptZh": "我們現在應該回家了。",
+      "starter": "It’s",
+      "answer": "It’s time we went home.",
+      "answerZh": "我們是時候回家了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we went home."
+    },
+    {
+      "id": "ss66-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You should start your homework now.",
+      "promptZh": "你現在應該開始做功課了。",
+      "starter": "It’s",
+      "answer": "It’s time you started your homework.",
+      "answerZh": "你是時候開始做功課了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time you started your homework."
+    },
+    {
+      "id": "ss66-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia should go to bed now.",
+      "promptZh": "米婭現在應該上床睡覺了。",
+      "starter": "It’s",
+      "answer": "It’s time Mia went to bed.",
+      "answerZh": "米婭是時候上床睡覺了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time Mia went to bed."
+    },
+    {
+      "id": "ss66-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The lesson should start now.",
+      "promptZh": "課堂現在應該開始了。",
+      "starter": "It’s",
+      "answer": "It’s time the lesson started.",
+      "answerZh": "課堂是時候開始了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the lesson started."
+    },
+    {
+      "id": "ss66-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I need to clean my room now.",
+      "promptZh": "我現在需要整理房間了。",
+      "starter": "It’s",
+      "answer": "It’s time I cleaned my room.",
+      "answerZh": "我是時候整理房間了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time I cleaned my room."
+    },
+    {
+      "id": "ss66-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben needs to leave for school now.",
+      "promptZh": "本現在需要出發上學了。",
+      "starter": "It’s",
+      "answer": "It’s time Ben left for school.",
+      "answerZh": "本是時候出發上學了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time Ben left for school."
+    },
+    {
+      "id": "ss66-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should eat dinner now.",
+      "promptZh": "我們現在應該吃晚飯了。",
+      "starter": "It’s",
+      "answer": "It’s time we ate dinner.",
+      "answerZh": "我們是時候吃晚飯了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we ate dinner."
+    },
+    {
+      "id": "ss66-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You should turn off the television now.",
+      "promptZh": "你現在應該關掉電視了。",
+      "starter": "It’s",
+      "answer": "It’s time you turned off the television.",
+      "answerZh": "你是時候關掉電視了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time you turned off the television."
+    },
+    {
+      "id": "ss66-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children should be in bed now.",
+      "promptZh": "孩子們現在應該已經上床睡覺了。",
+      "starter": "It’s",
+      "answer": "It’s time the children were in bed.",
+      "answerZh": "孩子們是時候上床睡覺了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the children were in bed."
+    },
+    {
+      "id": "ss66-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bus should leave now.",
+      "promptZh": "巴士現在應該開出了。",
+      "starter": "It’s",
+      "answer": "It’s time the bus left.",
+      "answerZh": "巴士是時候開出了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the bus left."
+    },
+    {
+      "id": "ss66-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah has waited long enough. She should reply to the email now.",
+      "promptZh": "莎拉已經等得夠久了。她現在應該回覆電郵。",
+      "starter": "It’s",
+      "answer": "It’s time Sarah replied to the email.",
+      "answerZh": "莎拉是時候回覆電郵了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time Sarah replied to the email."
+    },
+    {
+      "id": "ss66-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We ought to book the train tickets now.",
+      "promptZh": "我們現在應該預訂火車票了。",
+      "starter": "It’s",
+      "answer": "It’s time we booked the train tickets.",
+      "answerZh": "我們是時候預訂火車票了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we booked the train tickets."
+    },
+    {
+      "id": "ss66-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo should apologise to his sister now.",
+      "promptZh": "里奧現在應該向妹妹道歉了。",
+      "starter": "It’s",
+      "answer": "It’s time Leo apologised to his sister.",
+      "answerZh": "里奧是時候向妹妹道歉了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time Leo apologised to his sister."
+    },
+    {
+      "id": "ss66-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The players need to take a short break now.",
+      "promptZh": "球員現在需要稍作休息了。",
+      "starter": "It’s",
+      "answer": "It’s time the players took a short break.",
+      "answerZh": "球員是時候稍作休息了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the players took a short break."
+    },
+    {
+      "id": "ss66-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You have used that broken pen for long enough. You should replace it now.",
+      "promptZh": "你已經使用那支損壞的筆夠久了。你現在應該更換它。",
+      "starter": "It’s",
+      "answer": "It’s time you replaced that broken pen.",
+      "answerZh": "你是時候更換那支損壞的筆了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time you replaced that broken pen."
+    },
+    {
+      "id": "ss66-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why are we still waiting? We should make a decision now.",
+      "promptZh": "為甚麼我們仍在等待？我們現在應該作出決定了。",
+      "starter": "It’s",
+      "answer": "It’s time we made a decision.",
+      "answerZh": "我們是時候作出決定了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we made a decision."
+    },
+    {
+      "id": "ss66-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop should close for the night now.",
+      "promptZh": "店舖現在應該關門休息了。",
+      "starter": "It’s",
+      "answer": "It’s time the shop closed for the night.",
+      "answerZh": "店舖是時候關門休息了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the shop closed for the night."
+    },
+    {
+      "id": "ss66-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Dad has delayed fixing the tap for too long.",
+      "promptZh": "爸爸已經把修理水龍頭的事情拖延得太久了。",
+      "starter": "It’s",
+      "answer": "It’s time Dad fixed the tap.",
+      "answerZh": "爸爸是時候修理水龍頭了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time Dad fixed the tap."
+    },
+    {
+      "id": "ss66-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The students should hand in their projects now.",
+      "promptZh": "學生現在應該遞交專題習作了。",
+      "starter": "It’s",
+      "answer": "It’s time the students handed in their projects.",
+      "answerZh": "學生是時候遞交專題習作了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the students handed in their projects."
+    },
+    {
+      "id": "ss66-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I need to speak to the teacher about this problem now.",
+      "promptZh": "我現在需要就這個問題與老師談談了。",
+      "starter": "It’s",
+      "answer": "It’s time I spoke to the teacher about this problem.",
+      "answerZh": "我是時候就這個問題與老師談談了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time I spoke to the teacher about this problem."
+    },
+    {
+      "id": "ss66-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council should repair the damaged pavement now.",
+      "promptZh": "區議會現在應該修理損壞的行人路了。",
+      "starter": "It’s",
+      "answer": "It’s time the council repaired the damaged pavement.",
+      "answerZh": "區議會是時候修理損壞的行人路了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the council repaired the damaged pavement."
+    },
+    {
+      "id": "ss66-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We can no longer put off discussing the budget.",
+      "promptZh": "我們不能再拖延討論預算了。",
+      "starter": "It’s",
+      "answer": "It’s time we discussed the budget.",
+      "answerZh": "我們是時候討論預算了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we discussed the budget."
+    },
+    {
+      "id": "ss66-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor says you should reduce your sugar intake now.",
+      "promptZh": "醫生說你現在應該減少糖分攝取量了。",
+      "starter": "The",
+      "answer": "The doctor says it’s time you reduced your sugar intake.",
+      "answerZh": "醫生說你是時候減少糖分攝取量了。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor says it’s time you reduced your sugar intake."
+    },
+    {
+      "id": "ss66-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company has delayed the launch three times. It should launch the new service now.",
+      "promptZh": "公司已經三次延遲推出服務。它現在應該推出新服務了。",
+      "starter": "After",
+      "answer": "After three delays, it’s time the company launched the new service.",
+      "answerZh": "三次延期後，公司是時候推出新服務了。",
+      "answerZhSource": "pdf",
+      "highlight": "After three delays, it’s time the company launched the new service."
+    },
+    {
+      "id": "ss66-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This old computer has caused enough problems. We should replace it now.",
+      "promptZh": "這部舊電腦已經造成了足夠多的問題。我們現在應該更換它。",
+      "starter": "It’s",
+      "answer": "It’s time we replaced this old computer.",
+      "answerZh": "我們是時候更換這部舊電腦了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we replaced this old computer."
+    },
+    {
+      "id": "ss66-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach believes the players should practise defending corners now.",
+      "promptZh": "教練認為球員現在應該練習防守角球了。",
+      "starter": "The",
+      "answer": "The coach believes it’s time the players practised defending corners.",
+      "answerZh": "教練認為球員是時候練習防守角球了。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach believes it’s time the players practised defending corners."
+    },
+    {
+      "id": "ss66-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rainy season is approaching. We need to check the roof now.",
+      "promptZh": "雨季快到了。我們現在需要檢查屋頂了。",
+      "starter": "With",
+      "answer": "With the rainy season approaching, it’s time we checked the roof.",
+      "answerZh": "隨着雨季臨近，我們是時候檢查屋頂了。",
+      "answerZhSource": "pdf",
+      "highlight": "With the rainy season approaching, it’s time we checked the roof."
+    },
+    {
+      "id": "ss66-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The library should extend its opening hours now.",
+      "promptZh": "圖書館現在應該延長開放時間了。",
+      "starter": "It’s",
+      "answer": "It’s time the library extended its opening hours.",
+      "answerZh": "圖書館是時候延長開放時間了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the library extended its opening hours."
+    },
+    {
+      "id": "ss66-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You have ignored this warning for too long. You should act on it now.",
+      "promptZh": "你已經忽視這項警告太久了。你現在應該採取行動。",
+      "starter": "It’s",
+      "answer": "It’s time you acted on this warning.",
+      "answerZh": "你是時候就這項警告採取行動了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time you acted on this warning."
+    },
+    {
+      "id": "ss66-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We should have a serious conversation about our plans now.",
+      "promptZh": "我們現在應該認真討論一下大家的計劃了。",
+      "starter": "It’s",
+      "answer": "It’s time we had a serious conversation about our plans.",
+      "answerZh": "我們是時候認真討論一下大家的計劃了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we had a serious conversation about our plans."
+    },
+    {
+      "id": "ss66-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school can no longer delay improving the playground.",
+      "promptZh": "學校不能再拖延改善操場了。",
+      "starter": "It’s",
+      "answer": "It’s time the school improved the playground.",
+      "answerZh": "學校是時候改善操場了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the school improved the playground."
+    },
+    {
+      "id": "ss66-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Perhaps we should ask for professional advice now.",
+      "promptZh": "或許我們現在應該尋求專業意見了。",
+      "starter": "Perhaps",
+      "answer": "Perhaps it’s time we asked for professional advice.",
+      "answerZh": "或許我們是時候尋求專業意見了。",
+      "answerZhSource": "pdf",
+      "highlight": "Perhaps it’s time we asked for professional advice."
+    },
+    {
+      "id": "ss66-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The factory’s safety procedures are outdated. The factory needs to update them now.",
+      "promptZh": "工廠的安全程序已經過時。工廠現在需要更新這些程序。",
+      "starter": "It’s",
+      "answer": "It’s time the factory updated its safety procedures.",
+      "answerZh": "工廠是時候更新安全程序了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the factory updated its safety procedures."
+    },
+    {
+      "id": "ss66-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our neighbourhood has needed a proper recycling point for years.",
+      "promptZh": "我們的社區多年來一直需要一個完善的回收點。",
+      "starter": "It’s",
+      "answer": "It’s time our neighbourhood had a proper recycling point.",
+      "answerZh": "我們的社區是時候設立一個完善的回收點了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time our neighbourhood had a proper recycling point."
+    },
+    {
+      "id": "ss66-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I believe the manager should listen to the staff’s concerns now.",
+      "promptZh": "我認為經理現在應該聆聽員工的憂慮了。",
+      "starter": "I",
+      "answer": "I believe it’s time the manager listened to the staff’s concerns.",
+      "answerZh": "我認為經理是時候聆聽員工的憂慮了。",
+      "answerZhSource": "pdf",
+      "highlight": "I believe it’s time the manager listened to the staff’s concerns."
+    },
+    {
+      "id": "ss66-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The government should review this outdated rule now.",
+      "promptZh": "政府現在應該檢討這項過時的規則了。",
+      "starter": "It’s",
+      "answer": "It’s time the government reviewed this outdated rule.",
+      "answerZh": "政府是時候檢討這項過時的規則了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the government reviewed this outdated rule."
+    },
+    {
+      "id": "ss66-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The parents have postponed choosing a school for long enough.",
+      "promptZh": "家長已經把選擇學校的事情拖延得夠久了。",
+      "starter": "It’s",
+      "answer": "It’s time the parents chose a school.",
+      "answerZh": "家長是時候選擇一間學校了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the parents chose a school."
+    },
+    {
+      "id": "ss66-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We ought to stop relying on paper forms.",
+      "promptZh": "我們應該停止依賴紙本表格了。",
+      "starter": "It’s",
+      "answer": "It’s time we stopped relying on paper forms.",
+      "answerZh": "我們是時候停止依賴紙本表格了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time we stopped relying on paper forms."
+    },
+    {
+      "id": "ss66-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The museum should return the borrowed paintings now.",
+      "promptZh": "博物館現在應該歸還借來的畫作了。",
+      "starter": "It’s",
+      "answer": "It’s time the museum returned the borrowed paintings.",
+      "answerZh": "博物館是時候歸還借來的畫作了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the museum returned the borrowed paintings."
+    },
+    {
+      "id": "ss66-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee needs to publish its findings now.",
+      "promptZh": "委員會現在需要公布調查結果了。",
+      "starter": "It’s",
+      "answer": "It’s time the committee published its findings.",
+      "answerZh": "委員會是時候公布調查結果了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the committee published its findings."
+    },
+    {
+      "id": "ss66-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Residents have complained about the dangerous crossing for months. The council should make it safer now.",
+      "promptZh": "居民已經就這個危險的過路處投訴了數月。區議會現在應該改善它的安全情況。",
+      "starter": "After",
+      "answer": "After months of complaints, it’s time the council made the crossing safer.",
+      "answerZh": "經過數月的投訴後，區議會是時候改善過路處的安全情況了。",
+      "answerZhSource": "pdf",
+      "highlight": "After months of complaints, it’s time the council made the crossing safer."
+    },
+    {
+      "id": "ss66-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital has used its old booking system for too long. It should replace it now.",
+      "promptZh": "醫院已經使用舊預約系統太久了。醫院現在應該更換它。",
+      "starter": "It’s",
+      "answer": "It’s time the hospital replaced its old booking system.",
+      "answerZh": "醫院是時候更換舊預約系統了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the hospital replaced its old booking system."
+    },
+    {
+      "id": "ss66-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our team keeps repeating the same mistake. We should change our approach now.",
+      "promptZh": "我們的團隊不斷重複同一個錯誤。我們現在應該改變做法了。",
+      "starter": "Since",
+      "answer": "Since our team keeps repeating the same mistake, it’s time we changed our approach.",
+      "answerZh": "由於我們的團隊不斷重複同一個錯誤，我們是時候改變做法了。",
+      "answerZhSource": "pdf",
+      "highlight": "Since our team keeps repeating the same mistake, it’s time we changed our approach."
+    },
+    {
+      "id": "ss66-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The tenant has made several requests. The landlord should repair the leaking window now.",
+      "promptZh": "租客已經提出過數次要求。業主現在應該修理漏水的窗戶了。",
+      "starter": "After",
+      "answer": "After several requests, it’s time the landlord repaired the leaking window.",
+      "answerZh": "經過數次要求後，業主是時候修理漏水的窗戶了。",
+      "answerZhSource": "pdf",
+      "highlight": "After several requests, it’s time the landlord repaired the leaking window."
+    },
+    {
+      "id": "ss66-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many students are confused by the timetable. The school should make it clearer now.",
+      "promptZh": "很多學生都被時間表弄得困惑。學校現在應該把它編排得更清楚。",
+      "starter": "It’s",
+      "answer": "It’s time the school made the timetable clearer.",
+      "answerZh": "學校是時候把時間表編排得更清楚了。",
+      "answerZhSource": "pdf",
+      "highlight": "It’s time the school made the timetable clearer."
+    },
+    {
+      "id": "ss66-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The city has grown quickly. The city authorities need to reconsider the transport plan now.",
+      "promptZh": "這個城市發展迅速。市政當局現在需要重新考慮交通規劃了。",
+      "starter": "Because",
+      "answer": "Because the city has grown quickly, it’s time the city authorities reconsidered the transport plan.",
+      "answerZh": "由於這個城市發展迅速，市政當局是時候重新考慮交通規劃了。",
+      "answerZhSource": "pdf",
+      "highlight": "Because the city has grown quickly, it’s time the city authorities reconsidered the transport plan."
+    },
+    {
+      "id": "ss66-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The website still does not work well on phones. The developers should redesign it now.",
+      "promptZh": "這個網站在電話上仍然運作不佳。開發人員現在應該重新設計它。",
+      "starter": "Since",
+      "answer": "Since the website still does not work well on phones, it’s time the developers redesigned it.",
+      "answerZh": "由於這個網站在電話上仍然運作不佳，開發人員是時候重新設計它了。",
+      "answerZhSource": "pdf",
+      "highlight": "Since the website still does not work well on phones, it’s time the developers redesigned it."
+    },
+    {
+      "id": "ss66-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have collected enough evidence. We should now decide whether to continue the project.",
+      "promptZh": "我們已經收集了足夠證據。現在應該決定是否繼續這個項目了。",
+      "starter": "We",
+      "answer": "We have collected enough evidence, and it’s time we decided whether to continue the project.",
+      "answerZh": "我們已經收集了足夠證據，是時候決定是否繼續這個項目了。",
+      "answerZhSource": "pdf",
+      "highlight": "We have collected enough evidence, and it’s time we decided whether to continue the project."
+    },
+    {
+      "id": "ss66-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The charity has depended on one donor for too long. It should develop a wider funding plan now.",
+      "promptZh": "這間慈善機構已經依賴單一捐款者太久了。它現在應該制定更多元化的資金計劃。",
+      "starter": "The",
+      "answer": "The charity has depended on one donor for too long, so it’s time it developed a wider funding plan.",
+      "answerZh": "這間慈善機構已經依賴單一捐款者太久，因此是時候制定更多元化的資金計劃了。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity has depended on one donor for too long, so it’s time it developed a wider funding plan."
+    },
+    {
+      "id": "ss66-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Everyone on the board has received the report. The final vote has already been postponed twice, so the board should hold it now.",
+      "promptZh": "董事會所有成員都已經收到報告。最終表決已經兩次延期，因此董事會現在應該進行表決了。",
+      "starter": "Everyone",
+      "answer": "Everyone on the board has received the report, and after two postponements, it’s time the board held the final vote.",
+      "answerZh": "董事會所有成員都已經收到報告，而在兩次延期後，董事會是時候進行最終表決了。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone on the board has received the report, and after two postponements, it’s time the board held the final vote."
+    }
+  ]
+}

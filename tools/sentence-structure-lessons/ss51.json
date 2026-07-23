@@ -1,0 +1,1200 @@
+{
+  "id": "ss51",
+  "order": 51,
+  "slug": "everywhere-anywhere-somewhere-adjective",
+  "title": "「Everywhere / Anywhere / Somewhere + 形容詞」句型",
+  "titleZh": "「Everywhere / Anywhere / Somewhere + 形容詞」句",
+  "titleEn": "Using everywhere, anywhere and somewhere with adjectives",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 51 - 「Everywhere _ Anywhere _ Somewhere + 形容詞」句.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb + somewhere / anywhere + adjective + other information",
+  "formulas": [
+    {
+      "id": "ss51-formula-somewhere-anywhere",
+      "labelEn": "A. An unspecified or unrestricted place",
+      "labelZh": "A. 描述一個不確定或不限地點",
+      "formula": "Subject + verb + somewhere / anywhere + adjective + other information"
+    },
+    {
+      "id": "ss51-formula-everywhere-state",
+      "labelEn": "B. The condition in all places",
+      "labelZh": "B. 描述所有地方的情況",
+      "formula": "Everywhere + be / linking verb + adjective"
+    },
+    {
+      "id": "ss51-formula-everywhere-suitable",
+      "labelEn": "C. Every suitable or possible place",
+      "labelZh": "C. 在所有合適或可行的地方",
+      "formula": "Subject + verb + everywhere + possible / necessary / accessible / appropriate"
+    }
+  ],
+  "example": "We need somewhere quiet to talk.",
+  "exampleZh": "我們需要找個安靜的地方談話。",
+  "examples": [
+    {
+      "id": "ss51-example-model",
+      "en": "We need somewhere quiet to talk.",
+      "zh": "我們需要找個安靜的地方談話。",
+      "highlight": "somewhere quiet"
+    },
+    {
+      "id": "ss51-example-everywhere",
+      "en": "Everywhere was crowded.",
+      "zh": "到處都很擠迫。",
+      "highlight": "Everywhere was crowded"
+    },
+    {
+      "id": "ss51-example-possible",
+      "en": "We searched everywhere possible.",
+      "zh": "我們搜尋了所有可能的地方。",
+      "highlight": "everywhere possible"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型可描述某個地方、任何地方或所有地方，並把形容詞放在適當位置補充該地方的特點。"
+  },
+  "rules": [
+    {
+      "id": "ss51-rule-01",
+      "en": "The adjective normally follows somewhere or anywhere.",
+      "zh": "形容詞通常放在 somewhere 或 anywhere 後面。",
+      "examples": [
+        "somewhere quiet",
+        "anywhere safe"
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss51-rule-02",
+      "en": "Somewhere usually appears in affirmative statements and means one existing but unspecified place.",
+      "zh": "Somewhere 通常用於肯定句，表示一個存在但沒有清楚指出的地方。",
+      "examples": [
+        "She wants to live somewhere peaceful."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss51-rule-03",
+      "en": "Anywhere is common in questions, negatives, conditions and statements without a place restriction.",
+      "zh": "Anywhere 常見於疑問句、否定句、條件句和表示沒有地點限制的句子。",
+      "examples": [
+        "Is there anywhere safe to park?",
+        "You may sit anywhere comfortable."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss51-rule-04",
+      "en": "Everywhere means all places or in every place.",
+      "zh": "Everywhere 表示「所有地方」或「到處」。",
+      "examples": [
+        "Everywhere was crowded.",
+        "The volunteers searched everywhere possible."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss51-rule-05",
+      "en": "Direct adjective use after everywhere is limited; use everywhere + be/linking verb for ordinary adjectives.",
+      "zh": "Everywhere 直接接形容詞時，用法較有限；一般形容詞通常使用 everywhere + be／連綴動詞 + 形容詞。",
+      "examples": [
+        "everywhere possible",
+        "Everywhere looked colourful."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss51-rule-06",
+      "en": "Use not anywhere to mean no place; not somewhere normally means not in one particular place.",
+      "zh": "表示「沒有任何地方」時，使用 not anywhere；not somewhere 通常只表示「不是在某一個特定地方」。",
+      "examples": [
+        "We could not find anywhere suitable."
+      ],
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss51-benefit-01",
+      "en": "It helps you describe a place without naming it.",
+      "zh": "即使不知道確實地點名稱或位置，仍然可以描述該地方。"
+    },
+    {
+      "id": "ss51-benefit-02",
+      "en": "It makes a long description shorter.",
+      "zh": "不用反覆使用 a place that is...，可直接把形容詞放在 somewhere 或 anywhere 後面。"
+    },
+    {
+      "id": "ss51-benefit-03",
+      "en": "It shows clearly how many places are included.",
+      "zh": "Somewhere、anywhere 和 everywhere 能清楚表示某一個、任何或所有地方。"
+    },
+    {
+      "id": "ss51-benefit-04",
+      "en": "It avoids repeating the word “place”.",
+      "zh": "可避免反覆使用 place，使說話和寫作更自然。"
+    },
+    {
+      "id": "ss51-benefit-05",
+      "en": "It is useful when making plans or asking questions.",
+      "zh": "適合商量見面、溫習、吃飯、休息、泊車或舉行活動的地點。"
+    },
+    {
+      "id": "ss51-benefit-06",
+      "en": "It gives you a useful speaking frame.",
+      "zh": "記住 somewhere quiet 或 anywhere convenient 等框架後，可以迅速換入不同形容詞。"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using somewhere, anywhere or everywhere with an adjective.",
+      "Preserve the original meaning and tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 somewhere、anywhere 或 everywhere 配合形容詞改寫以下句子。",
+      "答案須保留原句的意思和時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss51-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I need a quiet place to study.",
+      "promptZh": "我需要一個安靜的地方溫習。",
+      "starter": "I",
+      "answer": "I need somewhere quiet to study.",
+      "answerZh": "我需要找個安靜的地方溫習。",
+      "answerZhSource": "pdf",
+      "highlight": "I need somewhere quiet to study."
+    },
+    {
+      "id": "ss51-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia wants to sit in a warm place.",
+      "promptZh": "米婭想坐在一個溫暖的地方。",
+      "starter": "Mia",
+      "answer": "Mia wants to sit somewhere warm.",
+      "answerZh": "米婭想找個溫暖的地方坐下。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia wants to sit somewhere warm."
+    },
+    {
+      "id": "ss51-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We found a safe place for the bags.",
+      "promptZh": "我們找到一個安全的地方擺放袋子。",
+      "starter": "We",
+      "answer": "We found somewhere safe for the bags.",
+      "answerZh": "我們找到一處安全的地方擺放袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "We found somewhere safe for the bags."
+    },
+    {
+      "id": "ss51-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Is there a cheap place to eat nearby?",
+      "promptZh": "附近有便宜的地方可以吃東西嗎？",
+      "starter": "Is",
+      "answer": "Is there anywhere cheap to eat nearby?",
+      "answerZh": "附近有任何便宜的地方可以吃東西嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anywhere cheap to eat nearby?"
+    },
+    {
+      "id": "ss51-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The whole area was crowded after the concert.",
+      "promptZh": "演唱會後，整個地區都很擠迫。",
+      "starter": "Everywhere",
+      "answer": "Everywhere in the area was crowded after the concert.",
+      "answerZh": "演唱會後，區內到處都很擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere in the area was crowded after the concert."
+    },
+    {
+      "id": "ss51-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "She would like to live in a peaceful place.",
+      "promptZh": "她想住在一個寧靜的地方。",
+      "starter": "She",
+      "answer": "She would like to live somewhere peaceful.",
+      "answerZh": "她想住在某個寧靜的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "She would like to live somewhere peaceful."
+    },
+    {
+      "id": "ss51-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We could not find a comfortable place to rest.",
+      "promptZh": "我們找不到舒適的地方休息。",
+      "starter": "We",
+      "answer": "We could not find anywhere comfortable to rest.",
+      "answerZh": "我們找不到任何舒適的地方休息。",
+      "answerZhSource": "pdf",
+      "highlight": "We could not find anywhere comfortable to rest."
+    },
+    {
+      "id": "ss51-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every part of the room was bright.",
+      "promptZh": "房間每個角落都很明亮。",
+      "starter": "Everywhere",
+      "answer": "Everywhere in the room was bright.",
+      "answerZh": "房間內到處都很明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere in the room was bright."
+    },
+    {
+      "id": "ss51-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben needs a private place to make the call.",
+      "promptZh": "本需要一個私人地方打電話。",
+      "starter": "Ben",
+      "answer": "Ben needs somewhere private to make the call.",
+      "answerZh": "本需要找個私人地方打電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben needs somewhere private to make the call."
+    },
+    {
+      "id": "ss51-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Did you see a suitable place for the picnic?",
+      "promptZh": "你有看到適合野餐的地方嗎？",
+      "starter": "Did",
+      "answer": "Did you see anywhere suitable for the picnic?",
+      "answerZh": "你有看到任何適合野餐的地方嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Did you see anywhere suitable for the picnic?"
+    },
+    {
+      "id": "ss51-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We may find batteries at a local shop.",
+      "promptZh": "我們或許可以在附近的店舖買到電池。",
+      "starter": "We",
+      "answer": "We may find batteries somewhere local.",
+      "answerZh": "我們或許可以在附近某處買到電池。",
+      "answerZhSource": "pdf",
+      "highlight": "We may find batteries somewhere local."
+    },
+    {
+      "id": "ss51-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There was no warm place to wait.",
+      "promptZh": "當時沒有溫暖的地方可以等候。",
+      "starter": "There",
+      "answer": "There was not anywhere warm to wait.",
+      "answerZh": "當時沒有任何溫暖的地方可以等候。",
+      "answerZhSource": "pdf",
+      "highlight": "There was not anywhere warm to wait."
+    },
+    {
+      "id": "ss51-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The children looked in every possible place for the ball.",
+      "promptZh": "孩子們到每個可能的地方尋找皮球。",
+      "starter": "The",
+      "answer": "The children looked everywhere possible for the ball.",
+      "answerZh": "孩子們在所有可能的地方尋找皮球。",
+      "answerZhSource": "pdf",
+      "highlight": "The children looked everywhere possible for the ball."
+    },
+    {
+      "id": "ss51-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We should choose a place that is less crowded.",
+      "promptZh": "我們應該選擇一個較少人的地方。",
+      "starter": "We",
+      "answer": "We should choose somewhere less crowded.",
+      "answerZh": "我們應該選擇某個較少人的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "We should choose somewhere less crowded."
+    },
+    {
+      "id": "ss51-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Can we meet in any convenient place?",
+      "promptZh": "我們可以在任何方便的地方見面嗎？",
+      "starter": "Can",
+      "answer": "Can we meet anywhere convenient?",
+      "answerZh": "我們可以在任何方便的地方見面嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can we meet anywhere convenient?"
+    },
+    {
+      "id": "ss51-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Every part of the area was noisy after the match.",
+      "promptZh": "比賽後，區內每個地方都很嘈吵。",
+      "starter": "Everywhere",
+      "answer": "Everywhere in the area was noisy after the match.",
+      "answerZh": "比賽後，區內到處都很嘈吵。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere in the area was noisy after the match."
+    },
+    {
+      "id": "ss51-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I want to take you to a place that is interesting.",
+      "promptZh": "我想帶你去一個有趣的地方。",
+      "starter": "I",
+      "answer": "I want to take you somewhere interesting.",
+      "answerZh": "我想帶你去某個有趣的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "I want to take you somewhere interesting."
+    },
+    {
+      "id": "ss51-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We could not find a suitable place that was open.",
+      "promptZh": "我們找不到既合適又營業中的地方。",
+      "starter": "We",
+      "answer": "We could not find anywhere suitable that was open.",
+      "answerZh": "我們找不到任何合適而且營業中的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "We could not find anywhere suitable that was open."
+    },
+    {
+      "id": "ss51-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The staff placed extra chairs in every place they could.",
+      "promptZh": "工作人員在每個可行的地方加放椅子。",
+      "starter": "The",
+      "answer": "The staff placed extra chairs everywhere possible.",
+      "answerZh": "工作人員在所有可行的地方加放椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "The staff placed extra chairs everywhere possible."
+    },
+    {
+      "id": "ss51-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Is there a dry place where we can leave our coats?",
+      "promptZh": "有乾爽的地方可以讓我們放外套嗎？",
+      "starter": "Is",
+      "answer": "Is there anywhere dry where we can leave our coats?",
+      "answerZh": "有任何乾爽的地方可以讓我們放外套嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anywhere dry where we can leave our coats?"
+    },
+    {
+      "id": "ss51-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "He hopes to rent a place that is more affordable than his present flat.",
+      "promptZh": "他希望租一個比現時單位更負擔得起的地方。",
+      "starter": "He",
+      "answer": "He hopes to rent somewhere more affordable than his present flat.",
+      "answerZh": "他希望租住某個比現時單位更負擔得起的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "He hopes to rent somewhere more affordable than his present flat."
+    },
+    {
+      "id": "ss51-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You may park in any place that is safe.",
+      "promptZh": "你可以把車停在任何安全的地方。",
+      "starter": "You",
+      "answer": "You may park anywhere safe.",
+      "answerZh": "你可以在任何安全的地方泊車。",
+      "answerZhSource": "pdf",
+      "highlight": "You may park anywhere safe."
+    },
+    {
+      "id": "ss51-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team checked every possible place for the missing file.",
+      "promptZh": "團隊檢查了每個可能的地方，尋找遺失的檔案。",
+      "starter": "The",
+      "answer": "The team checked everywhere possible for the missing file.",
+      "answerZh": "團隊在所有可能的地方尋找遺失的檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "The team checked everywhere possible for the missing file."
+    },
+    {
+      "id": "ss51-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We need a spacious place for the workshop.",
+      "promptZh": "我們需要一個寬敞的地方舉辦工作坊。",
+      "starter": "We",
+      "answer": "We need somewhere spacious for the workshop.",
+      "answerZh": "我們需要找個寬敞的地方舉辦工作坊。",
+      "answerZhSource": "pdf",
+      "highlight": "We need somewhere spacious for the workshop."
+    },
+    {
+      "id": "ss51-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She did not find a quiet place on the train.",
+      "promptZh": "她在火車上找不到安靜的地方。",
+      "starter": "She",
+      "answer": "She did not find anywhere quiet on the train.",
+      "answerZh": "她在火車上找不到任何安靜的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "She did not find anywhere quiet on the train."
+    },
+    {
+      "id": "ss51-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every part of the beach was clean that morning.",
+      "promptZh": "那天早上，海灘每個地方都很乾淨。",
+      "starter": "Everywhere",
+      "answer": "Everywhere on the beach was clean that morning.",
+      "answerZh": "那天早上，海灘到處都很乾淨。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere on the beach was clean that morning."
+    },
+    {
+      "id": "ss51-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "They are searching for a cool place to store the food.",
+      "promptZh": "他們正在尋找一個涼爽的地方存放食物。",
+      "starter": "They",
+      "answer": "They are searching for somewhere cool to store the food.",
+      "answerZh": "他們正在尋找某個涼爽的地方存放食物。",
+      "answerZhSource": "pdf",
+      "highlight": "They are searching for somewhere cool to store the food."
+    },
+    {
+      "id": "ss51-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Would any convenient place be acceptable?",
+      "promptZh": "任何方便的地方都可以接受嗎？",
+      "starter": "Would",
+      "answer": "Would anywhere convenient be acceptable?",
+      "answerZh": "任何方便的地方都可以接受嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Would anywhere convenient be acceptable?"
+    },
+    {
+      "id": "ss51-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The technicians installed sensors in every place where they were necessary.",
+      "promptZh": "技術人員在每個有需要的地方安裝感應器。",
+      "starter": "The",
+      "answer": "The technicians installed sensors everywhere necessary.",
+      "answerZh": "技術人員在所有有需要的地方安裝感應器。",
+      "answerZhSource": "pdf",
+      "highlight": "The technicians installed sensors everywhere necessary."
+    },
+    {
+      "id": "ss51-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We found a familiar place and waited there.",
+      "promptZh": "我們找到一個熟悉的地方，並在那裏等候。",
+      "starter": "We",
+      "answer": "We found somewhere familiar and waited there.",
+      "answerZh": "我們找到某個熟悉的地方，並在那裏等候。",
+      "answerZhSource": "pdf",
+      "highlight": "We found somewhere familiar and waited there."
+    },
+    {
+      "id": "ss51-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you find a suitable place, send me the address.",
+      "promptZh": "如果你找到合適的地方，請把地址傳給我。",
+      "starter": "If",
+      "answer": "If you find anywhere suitable, send me the address.",
+      "answerZh": "如果你找到任何合適的地方，請把地址傳給我。",
+      "answerZhSource": "pdf",
+      "highlight": "If you find anywhere suitable, send me the address."
+    },
+    {
+      "id": "ss51-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The tourists stopped at a sheltered place because it began to rain.",
+      "promptZh": "開始下雨時，遊客在一個有遮蔽的地方停下來。",
+      "starter": "The",
+      "answer": "The tourists stopped somewhere sheltered because it began to rain.",
+      "answerZh": "開始下雨時，遊客在某個有遮蔽的地方停下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The tourists stopped somewhere sheltered because it began to rain."
+    },
+    {
+      "id": "ss51-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every part of the station was busy during rush hour.",
+      "promptZh": "繁忙時間內，車站每個地方都很忙碌。",
+      "starter": "Everywhere",
+      "answer": "Everywhere in the station was busy during rush hour.",
+      "answerZh": "繁忙時間內，車站到處都很忙碌。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere in the station was busy during rush hour."
+    },
+    {
+      "id": "ss51-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The charity sent help to every place where it was needed.",
+      "promptZh": "慈善機構把援助送到每個有需要的地方。",
+      "starter": "The",
+      "answer": "The charity sent help everywhere needed.",
+      "answerZh": "慈善機構把援助送到所有有需要的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity sent help everywhere needed."
+    },
+    {
+      "id": "ss51-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "There must be a cheaper place to print these documents.",
+      "promptZh": "一定有更便宜的地方可以列印這些文件。",
+      "starter": "There",
+      "answer": "There must be somewhere cheaper to print these documents.",
+      "answerZh": "一定有某個更便宜的地方可以列印這些文件。",
+      "answerZhSource": "pdf",
+      "highlight": "There must be somewhere cheaper to print these documents."
+    },
+    {
+      "id": "ss51-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We could sit in any comfortable place near the window.",
+      "promptZh": "我們可以坐在窗邊任何舒適的地方。",
+      "starter": "We",
+      "answer": "We could sit anywhere comfortable near the window.",
+      "answerZh": "我們可以坐在窗邊任何舒適的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "We could sit anywhere comfortable near the window."
+    },
+    {
+      "id": "ss51-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The rescue workers searched every accessible place.",
+      "promptZh": "救援人員搜查了每個可以到達的地方。",
+      "starter": "The",
+      "answer": "The rescue workers searched everywhere accessible.",
+      "answerZh": "救援人員搜查了所有可以到達的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue workers searched everywhere accessible."
+    },
+    {
+      "id": "ss51-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Every part of the city looked colourful during the festival.",
+      "promptZh": "節日期間，城市每個地方都色彩繽紛。",
+      "starter": "Everywhere",
+      "answer": "Everywhere in the city looked colourful during the festival.",
+      "answerZh": "節日期間，城內到處都色彩繽紛。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere in the city looked colourful during the festival."
+    },
+    {
+      "id": "ss51-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Let us move to a brighter place before reading the map.",
+      "promptZh": "在閱讀地圖前，讓我們移到一個更光亮的地方。",
+      "starter": "Let",
+      "answer": "Let us move somewhere brighter before reading the map.",
+      "answerZh": "在閱讀地圖前，讓我們移到某個更光亮的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Let us move somewhere brighter before reading the map."
+    },
+    {
+      "id": "ss51-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I do not know of a reliable place that repairs old cameras.",
+      "promptZh": "我不知道有任何可靠的地方會修理舊相機。",
+      "starter": "I",
+      "answer": "I do not know anywhere reliable that repairs old cameras.",
+      "answerZh": "我不知道有任何可靠的地方會修理舊相機。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not know anywhere reliable that repairs old cameras."
+    },
+    {
+      "id": "ss51-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The organisers displayed directions in every place that was clearly visible to visitors.",
+      "promptZh": "主辦單位把指示牌放在每個訪客都能清楚看到的地方。",
+      "starter": "The",
+      "answer": "The organisers displayed directions everywhere clearly visible to visitors.",
+      "answerZh": "主辦單位把指示牌放在所有訪客都能清楚看到的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers displayed directions everywhere clearly visible to visitors."
+    },
+    {
+      "id": "ss51-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although we visited several cafés, we did not find a place that was quiet enough for the interview.",
+      "promptZh": "雖然我們去了幾間咖啡店，但仍找不到一個夠安靜的地方進行訪問。",
+      "starter": "Although",
+      "answer": "Although we visited several cafés, we did not find anywhere quiet enough for the interview.",
+      "answerZh": "雖然我們去了幾間咖啡店，但仍找不到任何夠安靜的地方進行訪問。",
+      "answerZhSource": "pdf",
+      "highlight": "Although we visited several cafés, we did not find anywhere quiet enough for the interview."
+    },
+    {
+      "id": "ss51-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school is looking for a place that is both safe and accessible for the new reading corner.",
+      "promptZh": "學校正尋找一個既安全又無障礙的地方設置新閱讀角。",
+      "starter": "The",
+      "answer": "The school is looking for somewhere safe and accessible for the new reading corner.",
+      "answerZh": "學校正尋找某個既安全又無障礙的地方設置新閱讀角。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is looking for somewhere safe and accessible for the new reading corner."
+    },
+    {
+      "id": "ss51-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You can hold the meeting in any private place with a stable internet connection.",
+      "promptZh": "你可以在任何有穩定網絡連線的私人地方舉行會議。",
+      "starter": "You",
+      "answer": "You can hold the meeting anywhere private with a stable internet connection.",
+      "answerZh": "你可以在任何有穩定網絡連線的私人地方舉行會議。",
+      "answerZhSource": "pdf",
+      "highlight": "You can hold the meeting anywhere private with a stable internet connection."
+    },
+    {
+      "id": "ss51-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Every part of the old building felt cold and damp.",
+      "promptZh": "舊建築物每個地方都讓人感到寒冷和潮濕。",
+      "starter": "Everywhere",
+      "answer": "Everywhere in the old building felt cold and damp.",
+      "answerZh": "舊建築物到處都讓人感到寒冷和潮濕。",
+      "answerZhSource": "pdf",
+      "highlight": "Everywhere in the old building felt cold and damp."
+    },
+    {
+      "id": "ss51-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The volunteers placed drinking water at every possible point along the route.",
+      "promptZh": "義工在路線上每個可行的位置擺放飲用水。",
+      "starter": "The",
+      "answer": "The volunteers placed drinking water everywhere possible along the route.",
+      "answerZh": "義工在路線上所有可行的位置擺放飲用水。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers placed drinking water everywhere possible along the route."
+    },
+    {
+      "id": "ss51-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Is there a more convenient place where both teams can practise?",
+      "promptZh": "有沒有一個更方便、讓兩隊都可以練習的地方？",
+      "starter": "Is",
+      "answer": "Is there anywhere more convenient where both teams can practise?",
+      "answerZh": "有沒有任何更方便、讓兩隊都可以練習的地方？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anywhere more convenient where both teams can practise?"
+    },
+    {
+      "id": "ss51-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After checking several options, the family chose a place that was peaceful but still close to public transport.",
+      "promptZh": "比較幾個選擇後，那個家庭選了一個寧靜但仍鄰近公共交通的地方。",
+      "starter": "After",
+      "answer": "After checking several options, the family chose somewhere peaceful but still close to public transport.",
+      "answerZh": "比較幾個選擇後，那個家庭選了某個寧靜但仍鄰近公共交通的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "After checking several options, the family chose somewhere peaceful but still close to public transport."
+    },
+    {
+      "id": "ss51-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The emergency notice was posted in every appropriate place.",
+      "promptZh": "緊急通知張貼在每個合適的地方。",
+      "starter": "The",
+      "answer": "The emergency notice was posted everywhere appropriate.",
+      "answerZh": "緊急通知張貼在所有合適的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency notice was posted everywhere appropriate."
+    },
+    {
+      "id": "ss51-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The researchers needed a place that was quiet, temperature-controlled and free from interruptions.",
+      "promptZh": "研究人員需要一個安靜、能控制溫度，而且不受打擾的地方。",
+      "starter": "The",
+      "answer": "The researchers needed somewhere quiet, temperature-controlled and free from interruptions.",
+      "answerZh": "研究人員需要找個安靜、能控制溫度，而且不受打擾的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers needed somewhere quiet, temperature-controlled and free from interruptions."
+    }
+  ]
+}

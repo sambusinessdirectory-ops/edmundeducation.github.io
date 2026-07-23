@@ -1,0 +1,1229 @@
+{
+  "id": "ss58",
+  "order": 58,
+  "slug": "v1-gerund",
+  "title": "「V1 + Gerund」句型",
+  "titleZh": "「V1 + Gerund」動詞後接動名詞",
+  "titleEn": "Using a first verb followed by a gerund",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 58 -「V1 + Gerund：動詞後接動名詞句」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + V1 + gerund + object / other information",
+  "formulas": [
+    {
+      "id": "ss58-formula-core",
+      "labelEn": "Basic structure",
+      "labelZh": "基本句式",
+      "formula": "Subject + V1 + gerund (verb-ing) + object / other information"
+    },
+    {
+      "id": "ss58-formula-modal",
+      "labelEn": "With a modal verb",
+      "labelZh": "情態動詞句式",
+      "formula": "Subject + modal verb + V1 + gerund + other information"
+    }
+  ],
+  "example": "The school may consider reducing the amount of schoolwork for students.",
+  "exampleZh": "學校可能會考慮減少學生的功課量。",
+  "examples": [
+    {
+      "id": "ss58-example-01",
+      "en": "The school may consider reducing the amount of schoolwork for students.",
+      "zh": "學校可能會考慮減少學生的功課量。",
+      "highlight": "may consider reducing"
+    }
+  ],
+  "meaning": {
+    "zh": "第一個動詞表達對某項活動的喜好、態度、建議、思考或控制；後面的 gerund 以 -ing 形式代表該活動。"
+  },
+  "rules": [
+    {
+      "id": "ss58-rule-01",
+      "en": "A gerund is a verb-ing form that represents an activity.",
+      "zh": "Gerund 是動詞 -ing 形式，在句中代表一項活動、行為或經歷。",
+      "examples": [
+        "Mia enjoys reading."
+      ]
+    },
+    {
+      "id": "ss58-rule-02",
+      "en": "Only certain first verbs take a gerund naturally.",
+      "zh": "並非所有動詞後面都可以直接接 gerund；常見 V1 包括 enjoy、consider、avoid、finish 和 suggest。",
+      "examples": [
+        "enjoy doing",
+        "consider doing"
+      ]
+    },
+    {
+      "id": "ss58-rule-03",
+      "en": "Do not replace the gerund with to + verb after these target verbs.",
+      "zh": "本課目標動詞後不可隨意改用 to＋動詞。",
+      "examples": [
+        "enjoy reading",
+        "avoid touching"
+      ]
+    },
+    {
+      "id": "ss58-rule-04",
+      "en": "V1 changes for tense and subject while the gerund remains in -ing form.",
+      "zh": "V1 會因時態和主語改變，gerund 仍保持 -ing 形式。",
+      "examples": [
+        "She enjoyed reading.",
+        "She may consider changing jobs."
+      ]
+    },
+    {
+      "id": "ss58-rule-05",
+      "en": "Keep the object and other details inside the gerund phrase.",
+      "zh": "Gerund 後面可以保留受詞和其他資料。",
+      "examples": [
+        "discussed reducing the use of paper in the office"
+      ]
+    },
+    {
+      "id": "ss58-rule-06",
+      "en": "Suggest and recommend may be followed directly by a gerund.",
+      "zh": "Suggest 和 recommend 後面可直接接 gerund，不接 to-infinitive。",
+      "examples": [
+        "suggests taking a break"
+      ]
+    },
+    {
+      "id": "ss58-rule-07",
+      "en": "Some verbs change meaning with a gerund or infinitive; those contrasts are outside this lesson.",
+      "zh": "部分動詞接 gerund 或 infinitive 時意思會改變；這些對比不屬於本課重點。",
+      "examples": [
+        "stop doing",
+        "stop to do"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss58-benefit-01",
+      "en": "It shows an exact attitude towards an activity.",
+      "zh": "第一個動詞能準確表達喜歡、避免、考慮、完成或繼續某項活動。"
+    },
+    {
+      "id": "ss58-benefit-02",
+      "en": "It shortens a longer explanation.",
+      "zh": "V1＋gerund 可把較長子句縮短，使意思更直接。"
+    },
+    {
+      "id": "ss58-benefit-03",
+      "en": "It helps you choose a more precise first verb.",
+      "zh": "不同 V1 能準確區分繼續、完成、避免、冒險和押後等意思。"
+    },
+    {
+      "id": "ss58-benefit-04",
+      "en": "It is useful for many everyday communication tasks.",
+      "zh": "它適合表達喜好、計劃、建議、完成事項、承認、否認和風險。"
+    },
+    {
+      "id": "ss58-benefit-05",
+      "en": "It makes speaking and writing less repetitive.",
+      "zh": "Consider、suggest、avoid 等動詞能增加句式變化。"
+    },
+    {
+      "id": "ss58-benefit-06",
+      "en": "It prevents a common grammar error.",
+      "zh": "熟習本句型可避免 enjoy to read、avoid to use 等常見錯誤。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a suitable V1 + gerund structure.",
+      "Preserve the original meaning and use a suitable verb from the lesson bank.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用合適的 V1＋動名詞句型改寫以下句子。",
+      "保留原句意思，並使用本課動詞表中的合適動詞。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss58-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Reading comic books after school gives Mia a lot of pleasure.",
+      "promptZh": "放學後閱讀漫畫書令米婭感到很享受。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia enjoys reading comic books after school.",
+      "answerZh": "米婭喜歡在放學後閱讀漫畫書。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia enjoys reading comic books after school."
+    },
+    {
+      "id": "ss58-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben makes sure that he does not use his phone during family meals.",
+      "promptZh": "本確保自己在一家人用餐時不使用電話。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben avoids using his phone during family meals.",
+      "answerZh": "本避免在一家人用餐時使用電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben avoids using his phone during family meals."
+    },
+    {
+      "id": "ss58-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe completed the task of washing the dishes before the guests arrived.",
+      "promptZh": "克洛伊在客人到達前完成了洗碗的工作。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe finished washing the dishes before the guests arrived.",
+      "answerZh": "克洛伊在客人到達前洗完了碗。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe finished washing the dishes before the guests arrived."
+    },
+    {
+      "id": "ss58-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo continued to ask the same question throughout the lesson.",
+      "promptZh": "里奧在整堂課中不斷問同一個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo kept asking the same question throughout the lesson.",
+      "answerZh": "里奧在整堂課中不停問同一個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo kept asking the same question throughout the lesson."
+    },
+    {
+      "id": "ss58-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We are thinking about whether to move the meeting to Friday.",
+      "promptZh": "我們正在考慮是否把會議改到星期五。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We are considering moving the meeting to Friday.",
+      "answerZh": "我們正在考慮把會議改到星期五。",
+      "answerZhSource": "pdf",
+      "highlight": "We are considering moving the meeting to Friday."
+    },
+    {
+      "id": "ss58-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Cooking simple meals for her family is something Nina really likes.",
+      "promptZh": "妮娜很喜歡為家人烹調簡單的飯菜。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina enjoys cooking simple meals for her family.",
+      "answerZh": "妮娜喜歡為家人烹調簡單的飯菜。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina enjoys cooking simple meals for her family."
+    },
+    {
+      "id": "ss58-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach says that taking a short break after each exercise is a good idea.",
+      "promptZh": "教練認為每項練習後稍作休息是個好主意。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach suggests taking a short break after each exercise.",
+      "answerZh": "教練建議在每項練習後稍作休息。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach suggests taking a short break after each exercise."
+    },
+    {
+      "id": "ss58-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Would it be a problem for you to close the door quietly?",
+      "promptZh": "你會介意輕輕把門關上嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would you mind closing the door quietly?",
+      "answerZh": "你介意輕輕把門關上嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Would you mind closing the door quietly?"
+    },
+    {
+      "id": "ss58-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ethan has a short English conversation with his cousin every evening as speaking practice.",
+      "promptZh": "伊森每天晚上都會跟表弟進行一段簡短的英語對話，作為口語練習。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan practises speaking English with his cousin every evening.",
+      "answerZh": "伊森每天晚上都跟表弟練習說英語。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan practises speaking English with his cousin every evening."
+    },
+    {
+      "id": "ss58-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ava accepted that she had taken the last biscuit.",
+      "promptZh": "艾娃承認自己拿了最後一塊餅乾。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava admitted taking the last biscuit.",
+      "answerZh": "艾娃承認拿了最後一塊餅乾。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava admitted taking the last biscuit."
+    },
+    {
+      "id": "ss58-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The nurse says people should drink more water during hot weather.",
+      "promptZh": "護士表示，人們在炎熱天氣下應多喝水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse recommends drinking more water during hot weather.",
+      "answerZh": "護士建議在炎熱天氣下多喝水。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse recommends drinking more water during hot weather."
+    },
+    {
+      "id": "ss58-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Jason chooses not to travel during the busiest hours because he does not want to face the crowds.",
+      "promptZh": "傑森選擇不在最繁忙的時段出行，因為他不想面對擠迫的人群。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason avoids travelling during the busiest hours.",
+      "answerZh": "傑森避免在最繁忙的時段出行。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason avoids travelling during the busiest hours."
+    },
+    {
+      "id": "ss58-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We completed the task of packing our bags before midnight.",
+      "promptZh": "我們在午夜前完成了收拾行李的工作。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We finished packing our bags before midnight.",
+      "answerZh": "我們在午夜前收拾好行李。",
+      "answerZhSource": "pdf",
+      "highlight": "We finished packing our bags before midnight."
+    },
+    {
+      "id": "ss58-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children continued to laugh throughout the funny film.",
+      "promptZh": "孩子們在整部有趣的電影中一直笑個不停。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children kept laughing throughout the funny film.",
+      "answerZh": "孩子們在整部有趣的電影中不停發笑。",
+      "answerZhSource": "pdf",
+      "highlight": "The children kept laughing throughout the funny film."
+    },
+    {
+      "id": "ss58-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school is thinking about whether to add more reading time to the timetable.",
+      "promptZh": "學校正在考慮是否在時間表中增加閱讀時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is considering adding more reading time to the timetable.",
+      "answerZh": "學校正在考慮在時間表中增加閱讀時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is considering adding more reading time to the timetable."
+    },
+    {
+      "id": "ss58-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My grandfather likes to tell us stories about his childhood.",
+      "promptZh": "我的祖父喜歡向我們講述他的童年故事。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My grandfather enjoys telling us stories about his childhood.",
+      "answerZh": "我的祖父喜歡向我們講述他的童年故事。",
+      "answerZhSource": "pdf",
+      "highlight": "My grandfather enjoys telling us stories about his childhood."
+    },
+    {
+      "id": "ss58-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When questioned, the driver said, “I did not use my phone at the traffic lights.”",
+      "promptZh": "被問及事件時，司機說：「我沒有在交通燈前使用電話。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver denied using his phone at the traffic lights.",
+      "answerZh": "司機否認在交通燈前使用電話。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver denied using his phone at the traffic lights."
+    },
+    {
+      "id": "ss58-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The class thinks that holding the charity sale in the playground would be a good idea.",
+      "promptZh": "全班認為在操場舉行慈善義賣是個好主意。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class suggests holding the charity sale in the playground.",
+      "answerZh": "全班建議在操場舉行慈善義賣。",
+      "answerZhSource": "pdf",
+      "highlight": "The class suggests holding the charity sale in the playground."
+    },
+    {
+      "id": "ss58-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Can you picture what life would be like if you had no internet for a month?",
+      "promptZh": "你能想像一個月沒有互聯網的生活會是怎樣嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can you imagine living without the internet for a month?",
+      "answerZh": "你能想像一個月沒有互聯網的生活嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can you imagine living without the internet for a month?"
+    },
+    {
+      "id": "ss58-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Would waiting here for a few minutes be a problem for you?",
+      "promptZh": "你會介意在這裏等幾分鐘嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you mind waiting here for a few minutes?",
+      "answerZh": "你介意在這裏等幾分鐘嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you mind waiting here for a few minutes?"
+    },
+    {
+      "id": "ss58-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After reading each article, Sofia writes short summaries as part of her writing practice.",
+      "promptZh": "閱讀每篇文章後，蘇菲亞都會寫短摘要，作為寫作練習。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia practises writing short summaries after reading each article.",
+      "answerZh": "蘇菲亞閱讀每篇文章後都會練習寫短摘要。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia practises writing short summaries after reading each article."
+    },
+    {
+      "id": "ss58-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because of the storm, the organisers moved the opening of the outdoor market to a later date.",
+      "promptZh": "由於暴風雨，主辦單位把戶外市集的開幕日期押後。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisers postponed opening the outdoor market because of the storm.",
+      "answerZh": "由於暴風雨，主辦單位押後開放戶外市集。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers postponed opening the outdoor market because of the storm."
+    },
+    {
+      "id": "ss58-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You should make sure that you do not touch the wet paint.",
+      "promptZh": "你應確保自己不要觸摸未乾的油漆。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should avoid touching the wet paint.",
+      "answerZh": "你應避免觸摸未乾的油漆。",
+      "answerZhSource": "pdf",
+      "highlight": "You should avoid touching the wet paint."
+    },
+    {
+      "id": "ss58-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The dentist says you should brush your teeth for two minutes.",
+      "promptZh": "牙醫表示，你刷牙時應刷兩分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dentist recommends brushing your teeth for two minutes.",
+      "answerZh": "牙醫建議刷牙兩分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The dentist recommends brushing your teeth for two minutes."
+    },
+    {
+      "id": "ss58-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Omar completed the bicycle repair just before sunset.",
+      "promptZh": "奧馬爾在日落前剛好完成了單車維修。",
+      "promptZhSource": "pdf",
+      "starter": "Omar",
+      "answer": "Omar finished repairing the bicycle just before sunset.",
+      "answerZh": "奧馬爾在日落前剛好修好單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar finished repairing the bicycle just before sunset."
+    },
+    {
+      "id": "ss58-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The baby continued to wake up during the night.",
+      "promptZh": "嬰兒在夜間不斷醒來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby kept waking up during the night.",
+      "answerZh": "嬰兒在夜間不停醒來。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby kept waking up during the night."
+    },
+    {
+      "id": "ss58-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I feel sad because I can no longer walk along the harbour with my old friends.",
+      "promptZh": "我因為不能再跟老朋友沿着海港散步而感到難過。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I miss walking along the harbour with my old friends.",
+      "answerZh": "我很懷念跟老朋友沿着海港散步。",
+      "answerZhSource": "pdf",
+      "highlight": "I miss walking along the harbour with my old friends."
+    },
+    {
+      "id": "ss58-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee had a discussion about whether the office should use less paper.",
+      "promptZh": "委員會討論了辦公室是否應減少用紙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee discussed reducing the use of paper in the office.",
+      "answerZh": "委員會討論了減少辦公室用紙。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee discussed reducing the use of paper in the office."
+    },
+    {
+      "id": "ss58-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Marcus accepted that he had forgotten to send the email.",
+      "promptZh": "馬庫斯承認自己忘了發送電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus admitted forgetting to send the email.",
+      "answerZh": "馬庫斯承認忘了發送電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus admitted forgetting to send the email."
+    },
+    {
+      "id": "ss58-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Cyclists may hurt themselves if they ignore the safety rules.",
+      "promptZh": "騎單車的人如忽視安全規則，可能會令自己受傷。",
+      "promptZhSource": "pdf",
+      "starter": "Cyclists",
+      "answer": "Cyclists risk hurting themselves if they ignore the safety rules.",
+      "answerZh": "騎單車的人如忽視安全規則，便有令自己受傷的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Cyclists risk hurting themselves if they ignore the safety rules."
+    },
+    {
+      "id": "ss58-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital is studying whether it should extend the clinic’s opening hours.",
+      "promptZh": "醫院正在研究是否應延長診所的開放時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital is considering extending the clinic’s opening hours.",
+      "answerZh": "醫院正在考慮延長診所的開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is considering extending the clinic’s opening hours."
+    },
+    {
+      "id": "ss58-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our group believes that a shared calendar would be a good way to organise the project.",
+      "promptZh": "我們小組認為，共用日曆是組織項目的好方法。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our group suggests using a shared calendar to organise the project.",
+      "answerZh": "我們小組建議使用共用日曆來組織項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Our group suggests using a shared calendar to organise the project."
+    },
+    {
+      "id": "ss58-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Whenever possible, Daniel chooses not to buy drinks in plastic bottles.",
+      "promptZh": "只要情況許可，丹尼爾都選擇不購買膠樽飲品。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel avoids buying drinks in plastic bottles whenever possible.",
+      "answerZh": "只要情況許可，丹尼爾都避免購買膠樽飲品。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel avoids buying drinks in plastic bottles whenever possible."
+    },
+    {
+      "id": "ss58-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Would hearing music after ten o’clock bother your neighbours?",
+      "promptZh": "晚上十時後聽到音樂會令你的鄰居介意嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would your neighbours mind hearing music after ten o’clock?",
+      "answerZh": "你的鄰居會介意晚上十時後聽到音樂嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Would your neighbours mind hearing music after ten o’clock?"
+    },
+    {
+      "id": "ss58-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I cannot picture how I could manage this large event without your help.",
+      "promptZh": "我無法想像沒有你的幫助，自己可以怎樣處理這個大型活動。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I cannot imagine managing this large event without your help.",
+      "answerZh": "我無法想像在沒有你幫助的情況下處理這個大型活動。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot imagine managing this large event without your help."
+    },
+    {
+      "id": "ss58-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The travel guide says travellers should book train tickets early during the holiday season.",
+      "promptZh": "旅遊指南指出，旅客在假期期間應提早預訂火車票。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The travel guide recommends booking train tickets early during the holiday season.",
+      "answerZh": "旅遊指南建議旅客在假期期間提早預訂火車票。",
+      "answerZhSource": "pdf",
+      "highlight": "The travel guide recommends booking train tickets early during the holiday season."
+    },
+    {
+      "id": "ss58-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The students completed the hall decorations before the parents arrived.",
+      "promptZh": "學生在家長到達前完成了禮堂佈置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students finished decorating the hall before the parents arrived.",
+      "answerZh": "學生在家長到達前完成了佈置禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "The students finished decorating the hall before the parents arrived."
+    },
+    {
+      "id": "ss58-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The rain continued to fall throughout the football match.",
+      "promptZh": "整場足球賽期間，雨一直下個不停。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain kept falling throughout the football match.",
+      "answerZh": "整場足球賽期間，雨一直下個不停。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain kept falling throughout the football match."
+    },
+    {
+      "id": "ss58-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The shop owner said, “I did not raise the prices before the festival.”",
+      "promptZh": "店主說：「我沒有在節日前加價。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop owner denied raising the prices before the festival.",
+      "answerZh": "店主否認在節日前加價。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop owner denied raising the prices before the festival."
+    },
+    {
+      "id": "ss58-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Grace regularly explains difficult ideas in simple language as part of her training.",
+      "promptZh": "格蕾絲經常以簡單語言解釋困難概念，作為訓練的一部分。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace practises explaining difficult ideas in simple language.",
+      "answerZh": "格蕾絲練習以簡單語言解釋困難概念。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace practises explaining difficult ideas in simple language."
+    },
+    {
+      "id": "ss58-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The council decided not to repair the footpath until the weather improved.",
+      "promptZh": "市議會決定在天氣改善前不維修行人路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council postponed repairing the footpath until the weather improved.",
+      "answerZh": "市議會把維修行人路的工作押後至天氣改善後。",
+      "answerZhSource": "pdf",
+      "highlight": "The council postponed repairing the footpath until the weather improved."
+    },
+    {
+      "id": "ss58-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The company may lose customers if it ignores repeated complaints.",
+      "promptZh": "公司如忽視一再出現的投訴，可能會失去顧客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company risks losing customers if it ignores repeated complaints.",
+      "answerZh": "公司如忽視一再出現的投訴，便有失去顧客的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The company risks losing customers if it ignores repeated complaints."
+    },
+    {
+      "id": "ss58-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Many visitors like to learn how local food is made.",
+      "promptZh": "很多訪客喜歡了解本地食物的製作方法。",
+      "promptZhSource": "pdf",
+      "starter": "Many",
+      "answer": "Many visitors enjoy learning how local food is made.",
+      "answerZh": "很多訪客喜歡了解本地食物的製作方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Many visitors enjoy learning how local food is made."
+    },
+    {
+      "id": "ss58-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After his health check, Ryan gave up sugary soft drinks completely.",
+      "promptZh": "健康檢查後，賴恩完全戒掉了含糖汽水。",
+      "promptZhSource": "pdf",
+      "starter": "Ryan",
+      "answer": "Ryan quit drinking sugary soft drinks after his health check.",
+      "answerZh": "健康檢查後，賴恩戒掉了飲用含糖汽水的習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "Ryan quit drinking sugary soft drinks after his health check."
+    },
+    {
+      "id": "ss58-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "During the meeting, the manager briefly spoke about a possible change to the delivery schedule.",
+      "promptZh": "會議期間，經理簡短提到可能更改送貨時間表。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager mentioned changing the delivery schedule during the meeting.",
+      "answerZh": "經理在會議期間提到更改送貨時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager mentioned changing the delivery schedule during the meeting."
+    },
+    {
+      "id": "ss58-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We feel the loss of the quiet place where the whole team used to work together.",
+      "promptZh": "我們很懷念以前整個團隊一起工作的那個安靜地方。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We miss having a quiet place where the whole team can work together.",
+      "answerZh": "我們很懷念有一個讓整個團隊可以一起工作的安靜地方。",
+      "answerZhSource": "pdf",
+      "highlight": "We miss having a quiet place where the whole team can work together."
+    },
+    {
+      "id": "ss58-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The university is examining whether students should be allowed to borrow laptops overnight.",
+      "promptZh": "大學正在研究是否應允許學生借用手提電腦過夜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university is considering allowing students to borrow laptops overnight.",
+      "answerZh": "大學正在考慮允許學生借用手提電腦過夜。",
+      "answerZhSource": "pdf",
+      "highlight": "The university is considering allowing students to borrow laptops overnight."
+    },
+    {
+      "id": "ss58-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The safety officer says that checking every emergency exit before the event begins would be sensible.",
+      "promptZh": "安全主任認為，在活動開始前檢查每個緊急出口是明智的做法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety officer suggests checking every emergency exit before the event begins.",
+      "answerZh": "安全主任建議在活動開始前檢查每個緊急出口。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety officer suggests checking every emergency exit before the event begins."
+    },
+    {
+      "id": "ss58-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We are grateful when we receive clear updates if the service is delayed.",
+      "promptZh": "服務延誤時，如能收到清晰的最新消息，我們會很感激。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We appreciate receiving clear updates when the service is delayed.",
+      "answerZh": "服務延誤時，我們感謝能收到清晰的最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "We appreciate receiving clear updates when the service is delayed."
+    },
+    {
+      "id": "ss58-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The airport decided to open the new check-in area later than planned because the final safety test was incomplete.",
+      "promptZh": "由於最後的安全測試尚未完成，機場決定把新登機手續區的開放時間推遲。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The airport delayed opening the new check-in area until the final safety test was complete.",
+      "answerZh": "機場把新登機手續區的開放時間推遲至最後的安全測試完成後。",
+      "answerZhSource": "pdf",
+      "highlight": "The airport delayed opening the new check-in area until the final safety test was complete."
+    }
+  ]
+}

@@ -1,0 +1,1177 @@
+{
+  "id": "ss69",
+  "order": 69,
+  "slug": "nonetheless-nevertheless-contrast",
+  "title": "「Nonetheless / Nevertheless」句型",
+  "titleZh": "「Nonetheless / Nevertheless 句」",
+  "titleEn": "Using Nonetheless and Nevertheless for unexpected contrast",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 69 -「Nonetheless _ Nevertheless 句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Complete clause 1; nonetheless, complete clause 2.",
+  "formulas": [
+    {
+      "id": "ss69-formula-nonetheless",
+      "labelEn": "Nonetheless",
+      "labelZh": "儘管如此",
+      "formula": "Complete clause 1; nonetheless, complete clause 2."
+    },
+    {
+      "id": "ss69-formula-nevertheless",
+      "labelEn": "Nevertheless",
+      "labelZh": "然而",
+      "formula": "Complete clause 1; nevertheless, complete clause 2."
+    }
+  ],
+  "example": "The project was extremely difficult; nonetheless, they finished it on time.",
+  "exampleZh": "這個項目非常困難；儘管如此，他們仍然準時完成了。",
+  "examples": [
+    {
+      "id": "ss69-example-nonetheless",
+      "en": "The project was extremely difficult; nonetheless, they finished it on time.",
+      "zh": "這個項目非常困難；儘管如此，他們仍然準時完成了。",
+      "highlight": "; nonetheless,"
+    },
+    {
+      "id": "ss69-example-nevertheless",
+      "en": "There was little chance of success; nevertheless, he decided to try.",
+      "zh": "成功的機會微乎其微；然而，他仍然決定嘗試。",
+      "highlight": "; nevertheless,"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型先提出一項原本可能令人預期某個結果的事實，再說明實際結果卻不同。"
+  },
+  "rules": [
+    {
+      "id": "ss69-rule-01",
+      "en": "The two clauses must form an unexpected contrast: the first presents a difficulty, limit or disadvantage, while the second says that something still happened.",
+      "zh": "前後必須形成出乎意料的對比：第一部分提出困難、限制或不利情況；第二部分說明事情仍然發生。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The weather was terrible; nonetheless, the event continued."
+      ]
+    },
+    {
+      "id": "ss69-rule-02",
+      "en": "Nonetheless and nevertheless are connecting adverbs, not ordinary conjunctions. In this exercise, join the complete clauses with a semicolon and place a comma after the adverb.",
+      "zh": "Nonetheless 和 nevertheless 是連接副詞，不是普通連接詞。本練習使用「完整句；連接副詞，完整句」的標點，不能只用一個逗號連接兩個完整句子。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The journey was long; nonetheless, we enjoyed it."
+      ]
+    },
+    {
+      "id": "ss69-rule-03",
+      "en": "Nonetheless and nevertheless have the same core meaning and are interchangeable in most sentences.",
+      "zh": "Nonetheless 和 nevertheless 的核心意思相同，都表示「儘管如此／然而」；大部分句子中可以互換。",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss69-rule-04",
+      "en": "Nevertheless often sounds slightly more formal and emphatic; nonetheless is also formal but may sound more concise and neutral.",
+      "zh": "Nevertheless 通常稍為正式、慎重或強調；nonetheless 同樣較正式，但感覺較簡潔和中性。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The evidence was limited; nonetheless, the team continued its investigation.",
+        "The evidence was limited; nevertheless, the team continued its investigation."
+      ]
+    },
+    {
+      "id": "ss69-rule-05",
+      "en": "Although and even though introduce a subordinate clause, whereas nonetheless and nevertheless connect two complete statements.",
+      "zh": "Although 和 even though 放在從句前；nonetheless 和 nevertheless 則連接兩個完整陳述，因此句式和標點不同。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Although the task was difficult, we completed it.",
+        "The task was difficult; nonetheless, we completed it."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss69-benefit-01",
+      "en": "It clearly shows that a difficulty did not prevent the second result from happening.",
+      "zh": "這個句型能立即告訴讀者：第一項事實並沒有阻止第二項結果發生。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss69-benefit-02",
+      "en": "It connects two complete ideas more naturally and makes their contrast immediately clear.",
+      "zh": "你不需要把兩項資料寫成兩個毫無關係的短句；讀者可以立即看出兩個想法之間的對比。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss69-benefit-03",
+      "en": "It provides an alternative to repeatedly using but.",
+      "zh": "使用 nonetheless 或 nevertheless 可以增加句式變化，避免作文和說話過度重複 but。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss69-benefit-04",
+      "en": "It helps organise essays, reports and presentations by acknowledging a problem before stating a position that still holds.",
+      "zh": "這兩個詞適合先承認一項問題，再提出仍然成立的主要觀點，使論述更平衡和有組織。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss69-benefit-05",
+      "en": "It lets you acknowledge difficulties, limits or opposing evidence while maintaining your position.",
+      "zh": "你可以承認困難、限制或反面證據，同時保持原本立場，適合回應反對觀點或分析優缺點。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using nonetheless or nevertheless to show an unexpected contrast.",
+      "Use nonetheless for odd-numbered questions.",
+      "Use nevertheless for even-numbered questions.",
+      "Use the punctuation pattern: Complete clause 1; nonetheless/nevertheless, complete clause 2.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 nonetheless 或 nevertheless 改寫以下句子，以表達出乎意料的對比。",
+      "奇數題使用 nonetheless。",
+      "偶數題使用 nevertheless。",
+      "請使用「第一個完整句子；nonetheless/nevertheless，第二個完整句子」的標點格式。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss69-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although the walk was long, we enjoyed it.",
+      "promptZh": "雖然路程很長，但我們很享受這段旅程。",
+      "starter": "The",
+      "answer": "The walk was long; nonetheless, we enjoyed it.",
+      "answerZh": "路程很長；儘管如此，我們仍然很享受這段旅程。",
+      "answerZhSource": "pdf",
+      "highlight": "The walk was long; nonetheless, we enjoyed it."
+    },
+    {
+      "id": "ss69-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although the room was small, it was comfortable.",
+      "promptZh": "雖然房間很小，但十分舒適。",
+      "starter": "The",
+      "answer": "The room was small; nevertheless, it was comfortable.",
+      "answerZh": "房間很小；然而，房間仍然十分舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was small; nevertheless, it was comfortable."
+    },
+    {
+      "id": "ss69-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia was tired, but she finished her homework.",
+      "promptZh": "米婭很疲倦，但她完成了家課。",
+      "starter": "Mia",
+      "answer": "Mia was tired; nonetheless, she finished her homework.",
+      "answerZh": "米婭很疲倦；儘管如此，她仍然完成了家課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was tired; nonetheless, she finished her homework."
+    },
+    {
+      "id": "ss69-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The bus was late, yet we arrived on time.",
+      "promptZh": "巴士遲到了，但我們仍然準時到達。",
+      "starter": "The",
+      "answer": "The bus was late; nevertheless, we arrived on time.",
+      "answerZh": "巴士遲到了；然而，我們仍然準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus was late; nevertheless, we arrived on time."
+    },
+    {
+      "id": "ss69-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although the soup looked simple, it tasted delicious.",
+      "promptZh": "雖然這碗湯看起來很簡單，但味道十分美味。",
+      "starter": "The",
+      "answer": "The soup looked simple; nonetheless, it tasted delicious.",
+      "answerZh": "這碗湯看起來很簡單；儘管如此，味道仍然十分美味。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup looked simple; nonetheless, it tasted delicious."
+    },
+    {
+      "id": "ss69-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben had little experience, but he did the job well.",
+      "promptZh": "本沒有太多經驗，但他把工作做得很好。",
+      "starter": "Ben",
+      "answer": "Ben had little experience; nevertheless, he did the job well.",
+      "answerZh": "本沒有太多經驗；然而，他仍然把工作做得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben had little experience; nevertheless, he did the job well."
+    },
+    {
+      "id": "ss69-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Despite the cold weather, the children played outside.",
+      "promptZh": "儘管天氣寒冷，孩子們仍然在戶外玩耍。",
+      "starter": "The",
+      "answer": "The weather was cold; nonetheless, the children played outside.",
+      "answerZh": "天氣寒冷；儘管如此，孩子們仍然在戶外玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather was cold; nonetheless, the children played outside."
+    },
+    {
+      "id": "ss69-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Even though the book was difficult, Leo understood the main idea.",
+      "promptZh": "即使這本書很難，里奧仍然明白主要意思。",
+      "starter": "The",
+      "answer": "The book was difficult; nevertheless, Leo understood the main idea.",
+      "answerZh": "這本書很難；然而，里奧仍然明白主要意思。",
+      "answerZhSource": "pdf",
+      "highlight": "The book was difficult; nevertheless, Leo understood the main idea."
+    },
+    {
+      "id": "ss69-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop was crowded. Still, the staff remained polite.",
+      "promptZh": "店內十分擠迫，但職員仍然保持有禮。",
+      "starter": "The",
+      "answer": "The shop was crowded; nonetheless, the staff remained polite.",
+      "answerZh": "店內十分擠迫；儘管如此，職員仍然保持有禮。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop was crowded; nonetheless, the staff remained polite."
+    },
+    {
+      "id": "ss69-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although our team lost the first game, we kept practising.",
+      "promptZh": "雖然我們的球隊輸了第一場比賽，但我們仍然繼續練習。",
+      "starter": "Our",
+      "answer": "Our team lost the first game; nevertheless, we kept practising.",
+      "answerZh": "我們的球隊輸了第一場比賽；然而，我們仍然繼續練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team lost the first game; nevertheless, we kept practising."
+    },
+    {
+      "id": "ss69-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although Sarah felt nervous, she gave a clear presentation.",
+      "promptZh": "雖然莎拉感到緊張，但她的匯報十分清晰。",
+      "starter": "Sarah",
+      "answer": "Sarah felt nervous; nonetheless, she gave a clear presentation.",
+      "answerZh": "莎拉感到緊張；儘管如此，她的匯報仍然十分清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah felt nervous; nonetheless, she gave a clear presentation."
+    },
+    {
+      "id": "ss69-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shoes were expensive, but Daniel bought them.",
+      "promptZh": "這雙鞋很昂貴，但丹尼爾仍然買了。",
+      "starter": "The",
+      "answer": "The shoes were expensive; nevertheless, Daniel bought them.",
+      "answerZh": "這雙鞋很昂貴；然而，丹尼爾仍然買了。",
+      "answerZhSource": "pdf",
+      "highlight": "The shoes were expensive; nevertheless, Daniel bought them."
+    },
+    {
+      "id": "ss69-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although the road was narrow, the driver travelled along it safely.",
+      "promptZh": "雖然道路狹窄，但司機仍然安全駛過。",
+      "starter": "The",
+      "answer": "The road was narrow; nonetheless, the driver travelled along it safely.",
+      "answerZh": "道路狹窄；儘管如此，司機仍然安全駛過。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was narrow; nonetheless, the driver travelled along it safely."
+    },
+    {
+      "id": "ss69-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia had studied carefully. Even so, she found the test challenging.",
+      "promptZh": "奧莉花已經仔細溫習。即使如此，她仍然覺得測驗很有挑戰性。",
+      "starter": "Olivia",
+      "answer": "Olivia had studied carefully; nevertheless, she found the test challenging.",
+      "answerZh": "奧莉花已經仔細溫習；然而，她仍然覺得測驗很有挑戰性。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia had studied carefully; nevertheless, she found the test challenging."
+    },
+    {
+      "id": "ss69-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although the lift was out of order, the visitors reached the top floor.",
+      "promptZh": "雖然升降機發生故障，但訪客仍然到達了頂層。",
+      "starter": "The",
+      "answer": "The lift was out of order; nonetheless, the visitors reached the top floor.",
+      "answerZh": "升降機發生故障；儘管如此，訪客仍然到達了頂層。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift was out of order; nonetheless, the visitors reached the top floor."
+    },
+    {
+      "id": "ss69-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The medicine tasted unpleasant, but the child took it.",
+      "promptZh": "藥物的味道很難入口，但孩子仍然服用了。",
+      "starter": "The",
+      "answer": "The medicine tasted unpleasant; nevertheless, the child took it.",
+      "answerZh": "藥物的味道很難入口；然而，孩子仍然服用了。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine tasted unpleasant; nevertheless, the child took it."
+    },
+    {
+      "id": "ss69-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The café was very busy. Still, our food arrived quickly.",
+      "promptZh": "咖啡店十分繁忙，但我們的食物仍然很快送到。",
+      "starter": "The",
+      "answer": "The café was very busy; nonetheless, our food arrived quickly.",
+      "answerZh": "咖啡店十分繁忙；儘管如此，我們的食物仍然很快送到。",
+      "answerZhSource": "pdf",
+      "highlight": "The café was very busy; nonetheless, our food arrived quickly."
+    },
+    {
+      "id": "ss69-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason had missed several lessons. Even so, he passed the examination.",
+      "promptZh": "傑森缺席了幾課。即使如此，他仍然通過了考試。",
+      "starter": "Jason",
+      "answer": "Jason had missed several lessons; nevertheless, he passed the examination.",
+      "answerZh": "傑森缺席了幾課；然而，他仍然通過了考試。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason had missed several lessons; nevertheless, he passed the examination."
+    },
+    {
+      "id": "ss69-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the instructions were short, they contained all the necessary details.",
+      "promptZh": "雖然指示很簡短，但當中包含了所有必要資料。",
+      "starter": "The",
+      "answer": "The instructions were short; nonetheless, they contained all the necessary details.",
+      "answerZh": "指示很簡短；儘管如此，當中仍然包含了所有必要資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were short; nonetheless, they contained all the necessary details."
+    },
+    {
+      "id": "ss69-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In spite of its age, the computer still worked reliably.",
+      "promptZh": "儘管這部電腦已經很舊，但它仍然運作穩定。",
+      "starter": "The",
+      "answer": "The computer was old; nevertheless, it still worked reliably.",
+      "answerZh": "這部電腦已經很舊；然而，它仍然運作穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer was old; nevertheless, it still worked reliably."
+    },
+    {
+      "id": "ss69-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Even though prices had increased, demand remained strong.",
+      "promptZh": "即使價格已經上升，需求仍然強勁。",
+      "starter": "Prices",
+      "answer": "Prices had increased; nonetheless, demand remained strong.",
+      "answerZh": "價格已經上升；儘管如此，需求仍然強勁。",
+      "answerZhSource": "pdf",
+      "highlight": "Prices had increased; nonetheless, demand remained strong."
+    },
+    {
+      "id": "ss69-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum was closing soon. However, the guide answered all our questions.",
+      "promptZh": "博物館快要關門。然而，導賞員仍然回答了我們所有問題。",
+      "starter": "The",
+      "answer": "The museum was closing soon; nevertheless, the guide answered all our questions.",
+      "answerZh": "博物館快要關門；然而，導賞員仍然回答了我們所有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum was closing soon; nevertheless, the guide answered all our questions."
+    },
+    {
+      "id": "ss69-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Despite disagreeing with the plan, Chloe listened respectfully.",
+      "promptZh": "儘管克洛伊不同意這個計劃，但她仍然有禮地聆聽。",
+      "starter": "Chloe",
+      "answer": "Chloe did not agree with the plan; nonetheless, she listened respectfully.",
+      "answerZh": "克洛伊不同意這個計劃；儘管如此，她仍然有禮地聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe did not agree with the plan; nonetheless, she listened respectfully."
+    },
+    {
+      "id": "ss69-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although the match was delayed by rain, it continued later that evening.",
+      "promptZh": "雖然比賽因下雨而延遲，但當晚較後時間仍然繼續進行。",
+      "starter": "The",
+      "answer": "The match was delayed by rain; nevertheless, it continued later that evening.",
+      "answerZh": "比賽因下雨而延遲；然而，當晚較後時間仍然繼續進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The match was delayed by rain; nevertheless, it continued later that evening."
+    },
+    {
+      "id": "ss69-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Despite having limited resources, the volunteers helped many families.",
+      "promptZh": "儘管資源有限，義工仍然幫助了很多家庭。",
+      "starter": "Volunteers",
+      "answer": "Volunteers had limited resources; nonetheless, they helped many families.",
+      "answerZh": "義工的資源有限；儘管如此，他們仍然幫助了很多家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "Volunteers had limited resources; nonetheless, they helped many families."
+    },
+    {
+      "id": "ss69-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The task required careful planning, but the group completed it ahead of schedule.",
+      "promptZh": "這項任務需要仔細規劃，但小組仍然提早完成了。",
+      "starter": "The",
+      "answer": "The task required careful planning; nevertheless, the group completed it ahead of schedule.",
+      "answerZh": "這項任務需要仔細規劃；然而，小組仍然提早完成了。",
+      "answerZhSource": "pdf",
+      "highlight": "The task required careful planning; nevertheless, the group completed it ahead of schedule."
+    },
+    {
+      "id": "ss69-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient was recovering slowly. Still, the doctor remained hopeful.",
+      "promptZh": "病人的康復進度緩慢，但醫生仍然保持樂觀。",
+      "starter": "The",
+      "answer": "The patient was recovering slowly; nonetheless, the doctor remained hopeful.",
+      "answerZh": "病人的康復進度緩慢；儘管如此，醫生仍然保持樂觀。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient was recovering slowly; nonetheless, the doctor remained hopeful."
+    },
+    {
+      "id": "ss69-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the new rule was unpopular, the school decided to keep it.",
+      "promptZh": "雖然新規則不受歡迎，但學校仍然決定保留它。",
+      "starter": "The",
+      "answer": "The new rule was unpopular; nevertheless, the school decided to keep it.",
+      "answerZh": "新規則不受歡迎；然而，學校仍然決定保留它。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule was unpopular; nevertheless, the school decided to keep it."
+    },
+    {
+      "id": "ss69-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ethan could not attend the meeting; however, he sent his comments in advance.",
+      "promptZh": "伊森無法出席會議；然而，他預先提交了自己的意見。",
+      "starter": "Ethan",
+      "answer": "Ethan could not attend the meeting; nonetheless, he sent his comments in advance.",
+      "answerZh": "伊森無法出席會議；儘管如此，他仍然預先提交了自己的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan could not attend the meeting; nonetheless, he sent his comments in advance."
+    },
+    {
+      "id": "ss69-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In spite of being far from the city, the village had a reliable bus service.",
+      "promptZh": "儘管村莊遠離城市，但當地仍然有可靠的巴士服務。",
+      "starter": "The",
+      "answer": "The village was far from the city; nevertheless, it had a reliable bus service.",
+      "answerZh": "村莊遠離城市；然而，當地仍然有可靠的巴士服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The village was far from the city; nevertheless, it had a reliable bus service."
+    },
+    {
+      "id": "ss69-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the machine had been tested twice, a small fault appeared.",
+      "promptZh": "雖然這部機器已經測試了兩次，但仍然出現了一個小故障。",
+      "starter": "The",
+      "answer": "The machine had been tested twice; nonetheless, a small fault appeared.",
+      "answerZh": "這部機器已經測試了兩次；儘管如此，仍然出現了一個小故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine had been tested twice; nonetheless, a small fault appeared."
+    },
+    {
+      "id": "ss69-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You may feel unsure at first, but you should still ask a question.",
+      "promptZh": "你起初可能會感到不肯定，但仍然應該提出問題。",
+      "starter": "You",
+      "answer": "You may feel unsure at first; nevertheless, you should ask a question.",
+      "answerZh": "你起初可能會感到不肯定；然而，你仍然應該提出問題。",
+      "answerZhSource": "pdf",
+      "highlight": "You may feel unsure at first; nevertheless, you should ask a question."
+    },
+    {
+      "id": "ss69-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even though the road will be busy tomorrow, the delivery should arrive before noon.",
+      "promptZh": "即使明天道路會很繁忙，貨物仍然應該可以在中午前送到。",
+      "starter": "The",
+      "answer": "The road will be busy tomorrow; nonetheless, the delivery should arrive before noon.",
+      "answerZh": "明天道路會很繁忙；儘管如此，貨物仍然應該可以在中午前送到。",
+      "answerZhSource": "pdf",
+      "highlight": "The road will be busy tomorrow; nonetheless, the delivery should arrive before noon."
+    },
+    {
+      "id": "ss69-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The tickets had sold out quickly. Even so, the organisers added another performance.",
+      "promptZh": "門票很快便售罄。即使如此，主辦單位仍然加開了另一場演出。",
+      "starter": "Tickets",
+      "answer": "Tickets had sold out quickly; nevertheless, the organisers added another performance.",
+      "answerZh": "門票很快便售罄；然而，主辦單位仍然加開了另一場演出。",
+      "answerZhSource": "pdf",
+      "highlight": "Tickets had sold out quickly; nevertheless, the organisers added another performance."
+    },
+    {
+      "id": "ss69-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the laptop is not very powerful, it can handle basic office work.",
+      "promptZh": "雖然這部手提電腦的功能不算強大，但它仍然可以處理基本辦公工作。",
+      "starter": "The",
+      "answer": "The laptop is not very powerful; nonetheless, it can handle basic office work.",
+      "answerZh": "這部手提電腦的功能不算強大；儘管如此，它仍然可以處理基本辦公工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The laptop is not very powerful; nonetheless, it can handle basic office work."
+    },
+    {
+      "id": "ss69-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Despite severe storm damage to the building, no one was injured.",
+      "promptZh": "儘管大樓受到風暴嚴重破壞，但沒有人受傷。",
+      "starter": "Severe",
+      "answer": "Severe storm damage affected the building; nevertheless, no one was injured.",
+      "answerZh": "風暴對大樓造成嚴重破壞；然而，沒有人受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "Severe storm damage affected the building; nevertheless, no one was injured."
+    },
+    {
+      "id": "ss69-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The evidence was limited; however, the team continued its investigation.",
+      "promptZh": "證據有限；然而，團隊仍然繼續調查。",
+      "starter": "The",
+      "answer": "The evidence was limited; nonetheless, the team continued its investigation.",
+      "answerZh": "證據有限；儘管如此，團隊仍然繼續調查。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence was limited; nonetheless, the team continued its investigation."
+    },
+    {
+      "id": "ss69-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although we had read mixed reviews of the restaurant, we decided to try it.",
+      "promptZh": "雖然我們看過對這間餐廳好壞不一的評價，但仍然決定嘗試。",
+      "starter": "We",
+      "answer": "We had read mixed reviews of the restaurant; nevertheless, we decided to try it.",
+      "answerZh": "我們看過對這間餐廳好壞不一的評價；然而，我們仍然決定嘗試。",
+      "answerZhSource": "pdf",
+      "highlight": "We had read mixed reviews of the restaurant; nevertheless, we decided to try it."
+    },
+    {
+      "id": "ss69-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The deadline cannot be changed, but the manager may offer extra support.",
+      "promptZh": "截止日期不能更改，但經理仍然可能提供額外支援。",
+      "starter": "The",
+      "answer": "The deadline cannot be changed; nonetheless, the manager may offer extra support.",
+      "answerZh": "截止日期不能更改；儘管如此，經理仍然可能提供額外支援。",
+      "answerZhSource": "pdf",
+      "highlight": "The deadline cannot be changed; nonetheless, the manager may offer extra support."
+    },
+    {
+      "id": "ss69-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the engineers did not succeed on their first attempt, they learned from it.",
+      "promptZh": "雖然工程師第一次嘗試沒有成功，但他們仍然從中汲取了經驗。",
+      "starter": "Engineers",
+      "answer": "Engineers did not succeed on their first attempt; nevertheless, they learned from it.",
+      "answerZh": "工程師第一次嘗試沒有成功；然而，他們仍然從中汲取了經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Engineers did not succeed on their first attempt; nevertheless, they learned from it."
+    },
+    {
+      "id": "ss69-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite having a smaller budget than expected, the library expanded its free reading programme.",
+      "promptZh": "儘管預算比預期少，圖書館仍然擴展了免費閱讀計劃。",
+      "starter": "The",
+      "answer": "The library had a smaller budget than expected; nonetheless, it expanded its free reading programme.",
+      "answerZh": "圖書館的預算比預期少；儘管如此，它仍然擴展了免費閱讀計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The library had a smaller budget than expected; nonetheless, it expanded its free reading programme."
+    },
+    {
+      "id": "ss69-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although staff numbers at the hospital were low, essential services continued without interruption.",
+      "promptZh": "雖然醫院的職員人數不足，但必要服務仍然沒有中斷。",
+      "starter": "Staff",
+      "answer": "Staff numbers at the hospital were low; nevertheless, essential services continued without interruption.",
+      "answerZh": "醫院的職員人數不足；然而，必要服務仍然沒有中斷。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff numbers at the hospital were low; nevertheless, essential services continued without interruption."
+    },
+    {
+      "id": "ss69-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The proposal raised several practical concerns. Even so, the committee agreed to examine it further.",
+      "promptZh": "這項建議引起了幾項實際問題。即使如此，委員會仍然同意作進一步研究。",
+      "starter": "The",
+      "answer": "The proposal raised several practical concerns; nonetheless, the committee agreed to examine it further.",
+      "answerZh": "這項建議引起了幾項實際問題；儘管如此，委員會仍然同意作進一步研究。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal raised several practical concerns; nonetheless, the committee agreed to examine it further."
+    },
+    {
+      "id": "ss69-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite being close to the airport, this neighbourhood is quiet during most evenings.",
+      "promptZh": "儘管這個社區鄰近機場，但大部分晚上的環境都很安靜。",
+      "starter": "This",
+      "answer": "This neighbourhood is close to the airport; nevertheless, it is quiet during most evenings.",
+      "answerZh": "這個社區鄰近機場；然而，大部分晚上的環境仍然很安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "This neighbourhood is close to the airport; nevertheless, it is quiet during most evenings."
+    },
+    {
+      "id": "ss69-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the research involved a relatively small group, its findings may guide future studies.",
+      "promptZh": "雖然這項研究涉及的人數相對較少，但研究結果仍然可能為未來研究提供指引。",
+      "starter": "The",
+      "answer": "The research involved a relatively small group; nonetheless, its findings may guide future studies.",
+      "answerZh": "這項研究涉及的人數相對較少；儘管如此，研究結果仍然可能為未來研究提供指引。",
+      "answerZhSource": "pdf",
+      "highlight": "The research involved a relatively small group; nonetheless, its findings may guide future studies."
+    },
+    {
+      "id": "ss69-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company had already reduced its costs. However, it refused to lower its safety standards.",
+      "promptZh": "公司已經削減了成本。然而，它仍然拒絕降低安全標準。",
+      "starter": "The",
+      "answer": "The company had already reduced its costs; nevertheless, it refused to lower its safety standards.",
+      "answerZh": "公司已經削減了成本；然而，它仍然拒絕降低安全標準。",
+      "answerZhSource": "pdf",
+      "highlight": "The company had already reduced its costs; nevertheless, it refused to lower its safety standards."
+    },
+    {
+      "id": "ss69-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the students who joined the project had different levels of experience, they worked effectively as one team.",
+      "promptZh": "雖然參與項目的學生擁有不同程度的經驗，但他們仍然有效地合作成為一個團隊。",
+      "starter": "Students",
+      "answer": "Students who joined the project had different levels of experience; nonetheless, they worked effectively as one team.",
+      "answerZh": "參與項目的學生擁有不同程度的經驗；儘管如此，他們仍然有效地合作成為一個團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "Students who joined the project had different levels of experience; nonetheless, they worked effectively as one team."
+    },
+    {
+      "id": "ss69-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Despite the heavy pressure on the public transport system during the holiday, most passengers reached their destinations safely.",
+      "promptZh": "儘管假日期間公共交通系統承受很大壓力，但大部分乘客仍然安全到達目的地。",
+      "starter": "The",
+      "answer": "The public transport system was under heavy pressure during the holiday; nevertheless, most passengers reached their destinations safely.",
+      "answerZh": "假日期間公共交通系統承受很大壓力；然而，大部分乘客仍然安全到達目的地。",
+      "answerZhSource": "pdf",
+      "highlight": "The public transport system was under heavy pressure during the holiday; nevertheless, most passengers reached their destinations safely."
+    },
+    {
+      "id": "ss69-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The charity could not solve every problem in the district, but its support made a meaningful difference to many residents.",
+      "promptZh": "這間慈善機構無法解決區內所有問題，但它的支援仍然為很多居民帶來了實際幫助。",
+      "starter": "The",
+      "answer": "The charity could not solve every problem in the district; nonetheless, its support made a meaningful difference to many residents.",
+      "answerZh": "這間慈善機構無法解決區內所有問題；儘管如此，它的支援仍然為很多居民帶來了實際幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity could not solve every problem in the district; nonetheless, its support made a meaningful difference to many residents."
+    },
+    {
+      "id": "ss69-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the plan involved considerable financial risk, the board approved it because the long-term benefits appeared greater.",
+      "promptZh": "雖然這個計劃涉及相當大的財務風險，但董事會認為長遠利益較大，因此仍然批准了計劃。",
+      "starter": "The",
+      "answer": "The plan involved considerable financial risk; nevertheless, the board approved it because the long-term benefits appeared greater.",
+      "answerZh": "這個計劃涉及相當大的財務風險；然而，董事會認為長遠利益較大，因此仍然批准了計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan involved considerable financial risk; nevertheless, the board approved it because the long-term benefits appeared greater."
+    }
+  ]
+}

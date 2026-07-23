@@ -1,0 +1,1154 @@
+{
+  "id": "ss61",
+  "order": 61,
+  "slug": "have-no-choice-but-to",
+  "title": "「have no choice but to + 動詞」句型",
+  "titleZh": "「have no choice but to + 動詞」表達別無選擇",
+  "titleEn": "Using have no choice but to to express no alternative",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 61 -「have no choice but to + 動詞」表達別無選擇.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + have / has / had + no choice but to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss61-formula-core",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Subject + have / has / had + no choice but to + base verb + other information"
+    },
+    {
+      "id": "ss61-formula-modal",
+      "labelEn": "Modal forms",
+      "labelZh": "情態動詞形式",
+      "formula": "Subject + may / will / would + have + no choice but to + base verb"
+    }
+  ],
+  "example": "The file is corrupted, so we have no choice but to start again.",
+  "exampleZh": "檔案已損壞，所以我們別無選擇，只能重新開始。",
+  "examples": [
+    {
+      "id": "ss61-example-01",
+      "en": "The file is corrupted, so we have no choice but to start again.",
+      "zh": "檔案已損壞，所以我們別無選擇，只能重新開始。",
+      "highlight": "we have no choice but to start"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示在某種情況下沒有其他合理選擇，因此只能採取指定行動。"
+  },
+  "rules": [
+    {
+      "id": "ss61-rule-01",
+      "en": "Use have with I, you, we and they. Use has with he, she, it and a singular noun. Use had for a past situation.",
+      "zh": "I、you、we、they 使用 have；he、she、it 及單數名詞使用 has；過去的情況使用 had。",
+      "examples": [
+        "We have no choice but to wait.",
+        "Mia has no choice but to wait.",
+        "They had no choice but to wait."
+      ]
+    },
+    {
+      "id": "ss61-rule-02",
+      "en": "Always use but to + base verb in this structure.",
+      "zh": "這個句型中的 but 後面必須接 to + 動詞原形。",
+      "examples": [
+        "We have no choice but to wait."
+      ]
+    },
+    {
+      "id": "ss61-rule-03",
+      "en": "Use this structure only when no reasonable alternative is available.",
+      "zh": "只有在沒有其他合理選擇時，才使用這個句型；它並非用來表達個人喜好。",
+      "examples": []
+    },
+    {
+      "id": "ss61-rule-04",
+      "en": "The subject normally performs the action after to.",
+      "zh": "句子的主語通常也是執行 to 後面動作的人或機構。",
+      "examples": [
+        "The airline had no choice but to arrange hotel rooms."
+      ]
+    },
+    {
+      "id": "ss61-rule-05",
+      "en": "Modal verbs can show possibility, future necessity or an imagined situation.",
+      "zh": "情態動詞可以表示可能性、將來的必要行動或假設情況。",
+      "examples": [
+        "We may have no choice but to wait.",
+        "We will have no choice but to wait.",
+        "We would have no choice but to wait."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss61-benefit-01",
+      "en": "The reader immediately understands that the person is not simply choosing the action; no reasonable alternative is available.",
+      "zh": "讀者會立即明白，當事人並非純粹想這樣做，而是沒有其他合理選擇。"
+    },
+    {
+      "id": "ss61-benefit-02",
+      "en": "This structure is useful when you need to show that a decision was caused by the situation rather than personal preference.",
+      "zh": "當你需要說明某個決定是受到情況所迫，而不是出於個人喜好時，這個句型十分有用。"
+    },
+    {
+      "id": "ss61-benefit-03",
+      "en": "You can present the difficult situation first and then state the action that must follow.",
+      "zh": "你可以先交代困難情況，再說明接下來不得不採取的行動。"
+    },
+    {
+      "id": "ss61-benefit-04",
+      "en": "Once you know have no choice but to..., you can quickly explain decisions in conversations, essays, reports and presentations.",
+      "zh": "掌握 have no choice but to... 後，你可以在對話、作文、報告和簡報中迅速解釋決定。"
+    },
+    {
+      "id": "ss61-benefit-05",
+      "en": "You can use it to explain what may, will or would become necessary if a situation changes.",
+      "zh": "你可以用它說明，當情況改變時，甚麼行動可能、將會或在假設情況下變得無可避免。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using have / has / had no choice but to + base verb. Use modal verbs where the meaning requires them.",
+      "Preserve the original meaning, tense, people, objects and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 have / has / had no choice but to + 動詞原形 改寫以下句子。如句意需要，請保留或加入適當的情態動詞。",
+      "答案須保留原句的意思、時態、人物、物件和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss61-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our bus was cancelled, and waiting for the next one was our only option.",
+      "promptZh": "我們乘坐的巴士班次被取消，而等候下一班是唯一的選擇。",
+      "starter": "We",
+      "answer": "We had no choice but to wait for the next bus.",
+      "answerZh": "我們別無選擇，只能等候下一班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "We had no choice but to wait for the next bus."
+    },
+    {
+      "id": "ss61-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "No taxis are available, so walking home is Mia’s only practical option.",
+      "promptZh": "現時沒有的士可用，所以步行回家是米婭唯一實際可行的選擇。",
+      "starter": "Mia",
+      "answer": "Mia has no choice but to walk home.",
+      "answerZh": "米婭別無選擇，只能步行回家。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia has no choice but to walk home."
+    },
+    {
+      "id": "ss61-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Why did I call the doctor? There was no other safe action I could take.",
+      "promptZh": "我為甚麼致電醫生？當時我沒有其他安全的做法。",
+      "starter": "I",
+      "answer": "I had no choice but to call the doctor.",
+      "answerZh": "我別無選擇，只能致電醫生。",
+      "answerZhSource": "pdf",
+      "highlight": "I had no choice but to call the doctor."
+    },
+    {
+      "id": "ss61-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The deadline was the next morning, and finishing the project that evening was the students’ only option.",
+      "promptZh": "限期是翌日早上，而學生唯一的選擇是在當晚完成項目。",
+      "starter": "The",
+      "answer": "The students had no choice but to finish the project that evening.",
+      "answerZh": "學生別無選擇，只能在當晚完成項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The students had no choice but to finish the project that evening."
+    },
+    {
+      "id": "ss61-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The broken key could not be repaired, so replacing it was Ben’s only option.",
+      "promptZh": "損壞的鑰匙無法修理，所以更換鑰匙是本唯一的選擇。",
+      "starter": "Ben",
+      "answer": "Ben had no choice but to replace the broken key.",
+      "answerZh": "本別無選擇，只能更換損壞的鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben had no choice but to replace the broken key."
+    },
+    {
+      "id": "ss61-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "A storm was approaching, and leaving the park was our only safe action.",
+      "promptZh": "暴風雨即將來臨，而離開公園是我們唯一安全的做法。",
+      "starter": "We",
+      "answer": "We had no choice but to leave the park.",
+      "answerZh": "我們別無選擇，只能離開公園。",
+      "answerZhSource": "pdf",
+      "highlight": "We had no choice but to leave the park."
+    },
+    {
+      "id": "ss61-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The lift is out of order, and the stairs are the only available route to Chloe’s office.",
+      "promptZh": "升降機發生故障，而樓梯是前往克洛伊辦公室的唯一可用路線。",
+      "starter": "Chloe",
+      "answer": "Chloe has no choice but to use the stairs to reach her office.",
+      "answerZh": "克洛伊別無選擇，只能行樓梯前往辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe has no choice but to use the stairs to reach her office."
+    },
+    {
+      "id": "ss61-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Heavy rain continued, and their picnic could not be held indoors. Cancelling it was their only option.",
+      "promptZh": "大雨持續，而他們的野餐又不能改在室內舉行。取消活動是他們唯一的選擇。",
+      "starter": "They",
+      "answer": "They had no choice but to cancel the picnic.",
+      "answerZh": "他們別無選擇，只能取消野餐。",
+      "answerZhSource": "pdf",
+      "highlight": "They had no choice but to cancel the picnic."
+    },
+    {
+      "id": "ss61-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Your account is locked, and resetting the password is the only way to use it again.",
+      "promptZh": "你的帳戶已被鎖定，而重設密碼是再次使用帳戶的唯一方法。",
+      "starter": "You",
+      "answer": "You have no choice but to reset your password to use the account again.",
+      "answerZh": "你別無選擇，只能重設密碼，以再次使用帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "You have no choice but to reset your password to use the account again."
+    },
+    {
+      "id": "ss61-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The power failed and the shop had no emergency lighting, so closing early was the only safe option.",
+      "promptZh": "電力中斷，而店舖沒有緊急照明，所以提早關門是唯一安全的選擇。",
+      "starter": "The",
+      "answer": "The shop had no choice but to close early.",
+      "answerZh": "店舖別無選擇，只能提早關門。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop had no choice but to close early."
+    },
+    {
+      "id": "ss61-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily forgot her pen and no spare pens were available, making borrowing one her only option.",
+      "promptZh": "莉莉忘記帶筆，而現場沒有後備筆，因此借一支筆是她唯一的選擇。",
+      "starter": "Lily",
+      "answer": "Lily had no choice but to borrow a pen.",
+      "answerZh": "莉莉別無選擇，只能借一支筆。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily had no choice but to borrow a pen."
+    },
+    {
+      "id": "ss61-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The main road was closed, and taking another road was the only way for the driver to continue the journey.",
+      "promptZh": "主要道路已封閉，而改行另一條路是司機繼續行程的唯一方法。",
+      "starter": "The",
+      "answer": "The driver had no choice but to take another road to continue the journey.",
+      "answerZh": "司機別無選擇，只能改行另一條路繼續行程。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver had no choice but to take another road to continue the journey."
+    },
+    {
+      "id": "ss61-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our income has fallen, and reducing our spending is the only way to avoid debt.",
+      "promptZh": "我們的收入已經下降，而減少開支是避免負債的唯一方法。",
+      "starter": "We",
+      "answer": "We have no choice but to reduce our spending to avoid debt.",
+      "answerZh": "我們別無選擇，只能減少開支，以避免負債。",
+      "answerZhSource": "pdf",
+      "highlight": "We have no choice but to reduce our spending to avoid debt."
+    },
+    {
+      "id": "ss61-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why did Jason apologise? The evidence showed that he had blamed the wrong person, and no fair alternative remained.",
+      "promptZh": "傑森為甚麼道歉？證據顯示他責怪錯了人，而當時已沒有其他公平的做法。",
+      "starter": "Jason",
+      "answer": "Jason had no choice but to apologise.",
+      "answerZh": "傑森別無選擇，只能道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason had no choice but to apologise."
+    },
+    {
+      "id": "ss61-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Every treatment room is occupied, so the nurse can only ask the patient to wait.",
+      "promptZh": "所有治療室都有人使用，所以護士只能請病人等候。",
+      "starter": "The",
+      "answer": "The nurse has no choice but to ask the patient to wait.",
+      "answerZh": "護士別無選擇，只能請病人等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse has no choice but to ask the patient to wait."
+    },
+    {
+      "id": "ss61-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The sports field was flooded, and the indoor hall was the only place where the team could practise.",
+      "promptZh": "運動場水浸，而室內體育館是球隊唯一可以練習的地方。",
+      "starter": "The",
+      "answer": "The team had no choice but to practise indoors.",
+      "answerZh": "球隊別無選擇，只能在室內練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had no choice but to practise indoors."
+    },
+    {
+      "id": "ss61-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My device has no free storage, and deleting some unused files is the only way to install the update.",
+      "promptZh": "我的裝置沒有剩餘儲存空間，而刪除一些不用的檔案是安裝更新的唯一方法。",
+      "starter": "I",
+      "answer": "I have no choice but to delete some unused files to install the update.",
+      "answerZh": "我別無選擇，只能刪除一些不用的檔案，以安裝更新。",
+      "answerZhSource": "pdf",
+      "highlight": "I have no choice but to delete some unused files to install the update."
+    },
+    {
+      "id": "ss61-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The dress was the wrong size and the shop had no replacement, making returning it Sarah’s only option.",
+      "promptZh": "這條裙的尺碼不合適，而店舖沒有可供更換的貨品，因此退回裙子是莎拉唯一的選擇。",
+      "starter": "Sarah",
+      "answer": "Sarah had no choice but to return the dress.",
+      "answerZh": "莎拉別無選擇，只能退回這條裙。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah had no choice but to return the dress."
+    },
+    {
+      "id": "ss61-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A burst pipe made the family’s home unsafe, and a hotel was the only available place to stay that night.",
+      "promptZh": "爆裂的水管令這個家庭的住所變得不安全，而酒店是當晚唯一可入住的地方。",
+      "starter": "The",
+      "answer": "The family had no choice but to stay in a hotel for the night.",
+      "answerZh": "這個家庭別無選擇，只能在酒店住一晚。",
+      "answerZhSource": "pdf",
+      "highlight": "The family had no choice but to stay in a hotel for the night."
+    },
+    {
+      "id": "ss61-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You need to enter the secure area, but the staff at the entrance will not admit anyone without identification.",
+      "promptZh": "你需要進入保安區域，但入口的職員不會讓沒有身分證明的人進入。",
+      "starter": "You",
+      "answer": "You have no choice but to show your identification at the entrance.",
+      "answerZh": "你別無選擇，只能在入口出示身分證明。",
+      "answerZhSource": "pdf",
+      "highlight": "You have no choice but to show your identification at the entrance."
+    },
+    {
+      "id": "ss61-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Engineers found serious leaks in the school roof, and repairing it before winter is the school’s only safe plan.",
+      "promptZh": "工程師發現學校屋頂嚴重漏水，而在冬季前修理屋頂是學校唯一安全的方案。",
+      "starter": "The",
+      "answer": "The school has no choice but to repair the roof before winter.",
+      "answerZh": "學校別無選擇，只能在冬季前修理屋頂。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has no choice but to repair the roof before winter."
+    },
+    {
+      "id": "ss61-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did Olivia take the later train? Her first train was full, and the later train was the only remaining service.",
+      "promptZh": "奧莉花為甚麼乘搭較後的火車？她原本要乘搭的班次已滿，而較後的班次是唯一剩下的服務。",
+      "starter": "Olivia",
+      "answer": "Olivia had no choice but to take the later train.",
+      "answerZh": "奧莉花別無選擇，只能乘搭較後的火車。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia had no choice but to take the later train."
+    },
+    {
+      "id": "ss61-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager learnt that two speakers were absent and no replacements were available, so postponing the meeting was the only workable option.",
+      "promptZh": "經理得知兩名講者缺席，而且現場沒有替代人選，所以押後會議是唯一可行的選擇。",
+      "starter": "The",
+      "answer": "The manager had no choice but to postpone the meeting.",
+      "answerZh": "經理別無選擇，只能押後會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager had no choice but to postpone the meeting."
+    },
+    {
+      "id": "ss61-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the supplier cannot deliver tomorrow, asking the client for more time may be our only realistic option.",
+      "promptZh": "如果供應商明天無法交貨，向客戶要求更多時間可能是我們唯一實際可行的選擇。",
+      "starter": "If",
+      "answer": "If the supplier cannot deliver tomorrow, we may have no choice but to ask the client for more time.",
+      "answerZh": "如果供應商明天無法交貨，我們可能別無選擇，只能向客戶要求更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "If the supplier cannot deliver tomorrow, we may have no choice but to ask the client for more time."
+    },
+    {
+      "id": "ss61-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Engineers say the damaged bridge is unsafe, and completely limiting access is the council’s only responsible action.",
+      "promptZh": "工程師表示受損橋樑並不安全，而全面限制通行是市議會唯一負責任的做法。",
+      "starter": "The",
+      "answer": "The council has no choice but to limit access to the damaged bridge.",
+      "answerZh": "市議會別無選擇，只能限制人們使用受損的橋樑。",
+      "answerZhSource": "pdf",
+      "highlight": "The council has no choice but to limit access to the damaged bridge."
+    },
+    {
+      "id": "ss61-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All the shops were closed and Ethan’s guests were arriving soon, so he could only cook with the ingredients he had.",
+      "promptZh": "所有店舖都已關門，而伊森的客人很快便會到達，所以他只能使用現有的食材煮食。",
+      "starter": "Ethan",
+      "answer": "Ethan had no choice but to cook with the ingredients he had.",
+      "answerZh": "伊森別無選擇，只能使用現有的食材煮食。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan had no choice but to cook with the ingredients he had."
+    },
+    {
+      "id": "ss61-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The alarm sounded and the staff ordered an immediate evacuation, so the passengers could only leave the train.",
+      "promptZh": "警報響起，而職員下令立即疏散，所以乘客只能離開火車。",
+      "starter": "The",
+      "answer": "The passengers had no choice but to leave the train.",
+      "answerZh": "乘客別無選擇，只能離開火車。",
+      "answerZhSource": "pdf",
+      "highlight": "The passengers had no choice but to leave the train."
+    },
+    {
+      "id": "ss61-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The optician said Grace could not drive safely without glasses, making them her only safe option when driving.",
+      "promptZh": "視光師表示，格蕾絲不戴眼鏡便不能安全駕駛，因此駕駛時戴眼鏡是她唯一安全的選擇。",
+      "starter": "Grace",
+      "answer": "Grace has no choice but to wear glasses when driving.",
+      "answerZh": "格蕾絲別無選擇，只能在駕駛時戴眼鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace has no choice but to wear glasses when driving."
+    },
+    {
+      "id": "ss61-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company discovered that the product was unsafe and no replacement was available, making a full refund the only acceptable solution.",
+      "promptZh": "公司發現產品並不安全，而且亦沒有替代貨品，因此全數退款是唯一可接受的解決方法。",
+      "starter": "The",
+      "answer": "The company had no choice but to refund the customers in full.",
+      "answerZh": "公司別無選擇，只能向顧客全數退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The company had no choice but to refund the customers in full."
+    },
+    {
+      "id": "ss61-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did I admit my mistake? The security camera clearly showed what had happened, so denying it was no longer possible.",
+      "promptZh": "我為甚麼承認自己的錯誤？保安攝影機清楚拍下了事情經過，所以我已無法否認。",
+      "starter": "I",
+      "answer": "I had no choice but to admit my mistake.",
+      "answerZh": "我別無選擇，只能承認自己的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "I had no choice but to admit my mistake."
+    },
+    {
+      "id": "ss61-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the rain continues, cancelling the match will be our only safe option.",
+      "promptZh": "如果大雨持續，取消比賽將會是我們唯一安全的選擇。",
+      "starter": "If",
+      "answer": "If the rain continues, we will have no choice but to cancel the match.",
+      "answerZh": "如果大雨持續，我們將別無選擇，只能取消比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "If the rain continues, we will have no choice but to cancel the match."
+    },
+    {
+      "id": "ss61-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A water pipe burst and made the hospital ward unsafe, so moving the patients to another ward was the hospital’s only way to protect them.",
+      "promptZh": "一條水管爆裂，令醫院病房變得不安全，所以把病人轉移到另一個病房是醫院保護他們的唯一方法。",
+      "starter": "The",
+      "answer": "The hospital had no choice but to move the patients to another ward.",
+      "answerZh": "醫院別無選擇，只能把病人轉移到另一個病房。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital had no choice but to move the patients to another ward."
+    },
+    {
+      "id": "ss61-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You have tried every other solution, but the computer is frozen and none of the commands work, so restarting it may be your only option.",
+      "promptZh": "你已嘗試所有其他解決方法，但電腦已停止回應，而且所有指令都無法運作，所以重新啟動電腦可能是你唯一的選擇。",
+      "starter": "You",
+      "answer": "You may have no choice but to restart the computer.",
+      "answerZh": "你可能別無選擇，只能重新啟動電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "You may have no choice but to restart the computer."
+    },
+    {
+      "id": "ss61-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because the storm delayed the event and the venue had a fixed closing time, the organisers could finish on time only by shortening the programme.",
+      "promptZh": "由於暴風雨令活動延誤，而場地有固定的關閉時間，主辦單位只有縮短節目，才能準時完成活動。",
+      "starter": "The",
+      "answer": "The organisers had no choice but to shorten the programme to finish on time.",
+      "answerZh": "主辦單位別無選擇，只能縮短節目，以準時完成活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers had no choice but to shorten the programme to finish on time."
+    },
+    {
+      "id": "ss61-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did Maya ask a stranger for directions? Her phone battery was dead, and there were no signs nearby.",
+      "promptZh": "瑪雅為甚麼向陌生人問路？她的電話沒有電，而附近亦沒有路牌。",
+      "starter": "Maya",
+      "answer": "Maya had no choice but to ask a stranger for directions.",
+      "answerZh": "瑪雅別無選擇，只能向陌生人問路。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya had no choice but to ask a stranger for directions."
+    },
+    {
+      "id": "ss61-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The supplier recalled an important ingredient and no safe substitute was available, making removal of the dish the restaurant’s only option.",
+      "promptZh": "供應商回收了一種重要食材，而餐廳沒有安全的替代品，因此把該菜式從餐牌中移除是餐廳唯一的選擇。",
+      "starter": "The",
+      "answer": "The restaurant has no choice but to remove the dish from the menu.",
+      "answerZh": "餐廳別無選擇，只能把該菜式從餐牌中移除。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant has no choice but to remove the dish from the menu."
+    },
+    {
+      "id": "ss61-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hotel found us a room at the last minute. Without that room, sleeping at the airport would have been our only option.",
+      "promptZh": "酒店在最後一刻為我們找到房間。要是沒有那個房間，在機場過夜便會是我們唯一的選擇。",
+      "starter": "Without",
+      "answer": "Without that room, we would have had no choice but to sleep at the airport.",
+      "answerZh": "要是沒有那個房間，我們便會別無選擇，只能在機場過夜。",
+      "answerZhSource": "pdf",
+      "highlight": "Without that room, we would have had no choice but to sleep at the airport."
+    },
+    {
+      "id": "ss61-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The farmer could no longer afford to feed all his animals, so selling some of them was the only way to keep the farm operating.",
+      "promptZh": "農夫已無法負擔飼養所有動物的費用，所以出售其中一些動物是讓農場繼續運作的唯一方法。",
+      "starter": "The",
+      "answer": "The farmer had no choice but to sell some of his animals to keep the farm operating.",
+      "answerZh": "農夫別無選擇，只能出售其中一些動物，讓農場繼續運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The farmer had no choice but to sell some of his animals to keep the farm operating."
+    },
+    {
+      "id": "ss61-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Visitor numbers exceed the gallery’s safety limit, so restricting admission is the museum’s only responsible option.",
+      "promptZh": "訪客人數超出展覽廳的安全上限，所以限制入場人數是博物館唯一負責任的選擇。",
+      "starter": "The",
+      "answer": "The museum has no choice but to restrict the number of visitors.",
+      "answerZh": "博物館別無選擇，只能限制訪客人數。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has no choice but to restrict the number of visitors."
+    },
+    {
+      "id": "ss61-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My first exam paper was lost and the school cannot give me a grade without another completed paper, making retaking the exam my only option.",
+      "promptZh": "我的第一份試卷遺失了，而學校沒有另一份完成的試卷便不能給我成績，因此重新應考是我唯一的選擇。",
+      "starter": "I",
+      "answer": "I have no choice but to take the exam again.",
+      "answerZh": "我別無選擇，只能再次應考。",
+      "answerZhSource": "pdf",
+      "highlight": "I have no choice but to take the exam again."
+    },
+    {
+      "id": "ss61-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The reading-room ceiling is unsafe and the room cannot reopen before repairs, making continued closure the library’s only safe choice.",
+      "promptZh": "閱覽室的天花板並不安全，而房間在完成維修前不能重開，因此繼續關閉閱覽室是圖書館唯一安全的選擇。",
+      "starter": "The",
+      "answer": "The library has no choice but to close the reading room until the ceiling is repaired.",
+      "answerZh": "圖書館別無選擇，只能關閉閱覽室，直至天花板完成維修。",
+      "answerZhSource": "pdf",
+      "highlight": "The library has no choice but to close the reading room until the ceiling is repaired."
+    },
+    {
+      "id": "ss61-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The road became impassable and vehicles could go no farther, so continuing on foot was the rescue team’s only way to reach the village.",
+      "promptZh": "道路變得無法通行，而車輛不能再向前，所以徒步繼續前進是救援隊到達村莊的唯一方法。",
+      "starter": "The",
+      "answer": "The rescue team had no choice but to continue on foot to reach the village.",
+      "answerZh": "救援隊別無選擇，只能徒步繼續前進，以到達村莊。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team had no choice but to continue on foot to reach the village."
+    },
+    {
+      "id": "ss61-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Unless more volunteers join, reducing its weekend services will be the charity’s only realistic response.",
+      "promptZh": "除非有更多義工加入，否則減少週末服務將會是慈善機構唯一實際可行的做法。",
+      "starter": "Unless",
+      "answer": "Unless more volunteers join, the charity will have no choice but to reduce its weekend services.",
+      "answerZh": "除非有更多義工加入，否則慈善機構將別無選擇，只能減少週末服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Unless more volunteers join, the charity will have no choice but to reduce its weekend services."
+    },
+    {
+      "id": "ss61-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The flight was cancelled overnight and no later service was available, making hotel rooms the airline’s only practical way to support the stranded passengers.",
+      "promptZh": "航班在晚上被取消，而其後沒有其他班次，因此安排酒店房間是航空公司協助滯留乘客的唯一實際做法。",
+      "starter": "The",
+      "answer": "The airline had no choice but to arrange hotel rooms for the stranded passengers.",
+      "answerZh": "航空公司別無選擇，只能為滯留乘客安排酒店房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The airline had no choice but to arrange hotel rooms for the stranded passengers."
+    },
+    {
+      "id": "ss61-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Student numbers remain low and the school’s budget may not support two separate classes next term, so combining them may become its only workable option.",
+      "promptZh": "學生人數持續偏低，而學校下學期的預算可能不足以維持兩個獨立班別，所以合併兩班可能成為校方唯一可行的選擇。",
+      "starter": "The",
+      "answer": "The school may have no choice but to combine the two small classes next term.",
+      "answerZh": "學校下學期可能別無選擇，只能合併兩個小班。",
+      "answerZhSource": "pdf",
+      "highlight": "The school may have no choice but to combine the two small classes next term."
+    },
+    {
+      "id": "ss61-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The engineers’ tests showed that the control panel was unsafe and its individual parts could not be repaired, so replacing the whole panel was their only solution.",
+      "promptZh": "工程師的測試顯示控制面板並不安全，而個別零件亦無法修理，所以更換整個面板是他們唯一的解決方法。",
+      "starter": "The",
+      "answer": "The engineers had no choice but to replace the entire control panel.",
+      "answerZh": "工程師別無選擇，只能更換整個控制面板。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers had no choice but to replace the entire control panel."
+    },
+    {
+      "id": "ss61-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several confidential documents were missing, and company policy required us to report this to the manager immediately without delay.",
+      "promptZh": "數份機密文件不見了，而公司政策要求我們立即向經理報告，不得延誤。",
+      "starter": "We",
+      "answer": "We had no choice but to report the missing documents to the manager immediately.",
+      "answerZh": "我們別無選擇，只能立即向經理報告文件不見一事。",
+      "answerZhSource": "pdf",
+      "highlight": "We had no choice but to report the missing documents to the manager immediately."
+    },
+    {
+      "id": "ss61-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The local clinic lacks the specialist and equipment needed for this treatment, so referring the patient to a larger hospital is the only safe course.",
+      "promptZh": "本地診所欠缺進行這項治療所需的專科醫生和設備，所以把病人轉介到較大型醫院是唯一安全的做法。",
+      "starter": "The",
+      "answer": "The local clinic has no choice but to refer the patient to a larger hospital.",
+      "answerZh": "本地診所別無選擇，只能把病人轉介到較大型的醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "The local clinic has no choice but to refer the patient to a larger hospital."
+    },
+    {
+      "id": "ss61-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the hall became unavailable, moving the event online would be the organisers’ only way to hold it.",
+      "promptZh": "如果禮堂無法使用，把活動改為網上舉行便會是主辦單位繼續舉行活動的唯一方法。",
+      "starter": "If",
+      "answer": "If the hall became unavailable, the organisers would have no choice but to move the event online.",
+      "answerZh": "如果禮堂無法使用，主辦單位便會別無選擇，只能把活動改為網上舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "If the hall became unavailable, the organisers would have no choice but to move the event online."
+    },
+    {
+      "id": "ss61-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The research team discovered that the temperature records were incomplete, so the results could not be trusted. Repeating the experiment was the only scientifically sound action.",
+      "promptZh": "研究團隊發現溫度紀錄並不完整，所以研究結果不能令人信服。重做實驗是唯一符合科學原則的做法。",
+      "starter": "The",
+      "answer": "The research team had no choice but to repeat the experiment after discovering that the temperature records were incomplete.",
+      "answerZh": "研究團隊發現溫度紀錄並不完整後，別無選擇，只能重做實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team had no choice but to repeat the experiment after discovering that the temperature records were incomplete."
+    }
+  ]
+}

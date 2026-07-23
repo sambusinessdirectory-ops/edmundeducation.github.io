@@ -4,9 +4,9 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const lessonDirectory = new URL("sentence-structure-lessons/", import.meta.url);
-const outputUrl = new URL("sentence-structure-lessons-5-39.js", root);
+const outputUrl = new URL("sentence-structure-lessons-5-70.js", root);
 const FIRST_LESSON = 5;
-const LAST_LESSON = 39;
+const LAST_LESSON = 70;
 const QUESTIONS_PER_LESSON = 50;
 const REQUIRED_QUESTION_FIELDS = [
   "id",
@@ -219,7 +219,7 @@ for (let number = FIRST_LESSON; number <= LAST_LESSON; number += 1) {
   lessons.push(validateLesson(lesson, number));
 }
 
-const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss39.json.\n`
+const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss70.json.\n`
   + `// Run tools/build-sentence-structure-expansion.mjs after editing an imported lesson.\n`
   + `(function () {\n`
   + `  "use strict";\n`

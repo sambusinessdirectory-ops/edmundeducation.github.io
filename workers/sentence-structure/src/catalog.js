@@ -5902,5 +5902,4655 @@ export const ACCEPTED_ANSWERS = Object.freeze({
   ],
   "ss39-q50": [
     "After the storm, there are several teams from different services working together to restore electricity to the neighbourhood."
+  ],
+  "ss40-q01": [
+    "This book gives us another example of a brave young person."
+  ],
+  "ss40-q02": [
+    "A healthy breakfast is another way to start the day well."
+  ],
+  "ss40-q03": [
+    "The high price is another problem for many families."
+  ],
+  "ss40-q04": [
+    "Mia suggested another idea for the class project."
+  ],
+  "ss40-q05": [
+    "The library is another quiet place where students can study."
+  ],
+  "ss40-q06": [
+    "Rainy weather gave us another reason to stay indoors."
+  ],
+  "ss40-q07": [
+    "Ben bought another notebook for English class."
+  ],
+  "ss40-q08": [
+    "The park has another entrance near the bus stop."
+  ],
+  "ss40-q09": [
+    "We need another chair for our guest."
+  ],
+  "ss40-q10": [
+    "This simple game is another good way to practise new words."
+  ],
+  "ss40-q11": [
+    "The school added another rule about mobile phones."
+  ],
+  "ss40-q12": [
+    "Another advantage of walking to work is that it saves money."
+  ],
+  "ss40-q13": [
+    "Another way to reduce waste is to reuse old bags."
+  ],
+  "ss40-q14": [
+    "The teacher gave us another example of the present perfect."
+  ],
+  "ss40-q15": [
+    "Another benefit of keeping a diary is that it can help you remember important events."
+  ],
+  "ss40-q16": [
+    "This café is another place where people can work quietly."
+  ],
+  "ss40-q17": [
+    "The late bus caused another difficulty for the travellers."
+  ],
+  "ss40-q18": [
+    "Another reason why we should check the weather is that our plans may need to change."
+  ],
+  "ss40-q19": [
+    "The team tried another method to solve the problem."
+  ],
+  "ss40-q20": [
+    "Enough sleep is another important factor in good health."
+  ],
+  "ss40-q21": [
+    "Rising food prices are another concern for families."
+  ],
+  "ss40-q22": [
+    "Another benefit of public transport is that it can reduce traffic."
+  ],
+  "ss40-q23": [
+    "A drawing workshop is another activity the museum offers for children."
+  ],
+  "ss40-q24": [
+    "The broken lift created another problem for elderly residents."
+  ],
+  "ss40-q25": [
+    "Adding brighter lights is another way to improve safety."
+  ],
+  "ss40-q26": [
+    "Understanding other cultures is another reason why some people learn languages."
+  ],
+  "ss40-q27": [
+    "Recycling paper is another useful step towards protecting the environment."
+  ],
+  "ss40-q28": [
+    "The company needs another person to answer customer questions."
+  ],
+  "ss40-q29": [
+    "The way the children share their food is another example of teamwork in the story."
+  ],
+  "ss40-q30": [
+    "A reminder to drink water is another useful function of the app."
+  ],
+  "ss40-q31": [
+    "Besides price, quality is another thing customers consider when buying a product."
+  ],
+  "ss40-q32": [
+    "Holding a food festival is another way for the town to attract visitors."
+  ],
+  "ss40-q33": [
+    "The new timetable gave staff another reason to arrive early."
+  ],
+  "ss40-q34": [
+    "Besides improved fitness, better sleep is another benefit of regular exercise."
+  ],
+  "ss40-q35": [
+    "The charity opened another centre so that more families could receive help."
+  ],
+  "ss40-q36": [
+    "Saving travel time is another point that supports the speaker’s opinion about online classes."
+  ],
+  "ss40-q37": [
+    "Using an online booking system is another way for the hospital to shorten waiting times."
+  ],
+  "ss40-q38": [
+    "Besides the danger caused by its slippery surface in wet weather, poor lighting is another danger on the old bridge."
+  ],
+  "ss40-q39": [
+    "Besides teaching grammar, helping students develop speaking confidence is another benefit of the course."
+  ],
+  "ss40-q40": [
+    "The manager asked for another report to check the monthly costs."
+  ],
+  "ss40-q41": [
+    "Besides its experienced teachers, the strong music programme is another reason why many parents choose the school."
+  ],
+  "ss40-q42": [
+    "Besides reducing packaging, planning delivery routes more carefully is another way for the company to cut costs."
+  ],
+  "ss40-q43": [
+    "Besides lending books, lending tablets is another service provided by the public library."
+  ],
+  "ss40-q44": [
+    "A slow approval process was another reason why the team lost time."
+  ],
+  "ss40-q45": [
+    "Besides reading, watching English videos is another way for students to build their vocabulary."
+  ],
+  "ss40-q46": [
+    "In addition to providing shade, trees help reduce air pollution, which is another reason why cities should plant more of them."
+  ],
+  "ss40-q47": [
+    "A mobile app will be another way for patients to book appointments at the clinic."
+  ],
+  "ss40-q48": [
+    "Another possible benefit of the policy is that it may encourage people to think more carefully before buying disposable products."
+  ],
+  "ss40-q49": [
+    "Besides its exercise class, the community centre is planning to add another programme for older residents: a basic computer skills course."
+  ],
+  "ss40-q50": [
+    "Besides enforcing speed limits, better street lighting is another way for the government to improve road safety, especially near schools."
+  ],
+  "ss41-q01": [
+    "Each student receives a worksheet."
+  ],
+  "ss41-q02": [
+    "Each room has its own window."
+  ],
+  "ss41-q03": [
+    "Each player wears a numbered shirt."
+  ],
+  "ss41-q04": [
+    "Each ticket costs ten dollars."
+  ],
+  "ss41-q05": [
+    "The teacher gives each group a map."
+  ],
+  "ss41-q06": [
+    "Each child chooses one book."
+  ],
+  "ss41-q07": [
+    "Each table seats four people."
+  ],
+  "ss41-q08": [
+    "The receptionist gives each visitor a name badge."
+  ],
+  "ss41-q09": [
+    "Each bottle contains one litre of water."
+  ],
+  "ss41-q10": [
+    "Each question carries two marks."
+  ],
+  "ss41-q11": [
+    "Each employee has a personal locker."
+  ],
+  "ss41-q12": [
+    "The coach speaks to each player separately."
+  ],
+  "ss41-q13": [
+    "Each family receives a food box."
+  ],
+  "ss41-q14": [
+    "We put a candle on each table."
+  ],
+  "ss41-q15": [
+    "Each bus stops at the main station."
+  ],
+  "ss41-q16": [
+    "The shop gives each customer a receipt."
+  ],
+  "ss41-q17": [
+    "Each lesson lasts forty minutes."
+  ],
+  "ss41-q18": [
+    "The nurse checked each patient’s temperature."
+  ],
+  "ss41-q19": [
+    "Each answer must be a complete sentence."
+  ],
+  "ss41-q20": [
+    "The guide took each guest to a seat."
+  ],
+  "ss41-q21": [
+    "Each additional bag costs five dollars."
+  ],
+  "ss41-q22": [
+    "Each extra day adds twenty dollars to the bill."
+  ],
+  "ss41-q23": [
+    "Each new member brings a different skill to the team."
+  ],
+  "ss41-q24": [
+    "The school gives each student an online account."
+  ],
+  "ss41-q25": [
+    "Each application is checked by two staff members."
+  ],
+  "ss41-q26": [
+    "A safety card is placed on each seat."
+  ],
+  "ss41-q27": [
+    "Each bedroom has its own bathroom."
+  ],
+  "ss41-q28": [
+    "The organiser gave each volunteer a specific task."
+  ],
+  "ss41-q29": [
+    "Each mistake reduces the final score by one mark."
+  ],
+  "ss41-q30": [
+    "Each plant needs a different amount of water."
+  ],
+  "ss41-q31": [
+    "Each time the bell rings, the students change classrooms."
+  ],
+  "ss41-q32": [
+    "Each time Mia visits her grandmother, she brings some fruit."
+  ],
+  "ss41-q33": [
+    "Each completed task moves the project one step forward."
+  ],
+  "ss41-q34": [
+    "Each missing document causes a separate delay."
+  ],
+  "ss41-q35": [
+    "The system sends each user a confirmation email."
+  ],
+  "ss41-q36": [
+    "Each new order generates a separate record."
+  ],
+  "ss41-q37": [
+    "The librarian stamps each book before lending it out."
+  ],
+  "ss41-q38": [
+    "Each light left on in an empty room wastes electricity."
+  ],
+  "ss41-q39": [
+    "Each driver must check the mirrors before moving off."
+  ],
+  "ss41-q40": [
+    "The manager reviews each complaint personally."
+  ],
+  "ss41-q41": [
+    "Each additional child means an extra financial responsibility."
+  ],
+  "ss41-q42": [
+    "Each department must submit its own monthly report."
+  ],
+  "ss41-q43": [
+    "The hospital gives each patient clear instructions before they leave."
+  ],
+  "ss41-q44": [
+    "Each small improvement makes the service slightly easier to use."
+  ],
+  "ss41-q45": [
+    "The website creates a separate tracking number for each parcel."
+  ],
+  "ss41-q46": [
+    "Each team member is responsible for one part of the presentation."
+  ],
+  "ss41-q47": [
+    "The programme gives each participant a chance to practise speaking."
+  ],
+  "ss41-q48": [
+    "Each extra passenger increases the fuel cost slightly."
+  ],
+  "ss41-q49": [
+    "The organiser checks each name against the registration list."
+  ],
+  "ss41-q50": [
+    "Each decision made during the planning stage affects the final result."
+  ],
+  "ss42-q01": [
+    "Every student needs a pencil for this activity."
+  ],
+  "ss42-q02": [
+    "Every room in the flat has a window."
+  ],
+  "ss42-q03": [
+    "Mia checked every page before submitting her work."
+  ],
+  "ss42-q04": [
+    "Every bus on this route stops near the station."
+  ],
+  "ss42-q05": [
+    "We visit our grandmother every Sunday."
+  ],
+  "ss42-q06": [
+    "Every child needs enough sleep."
+  ],
+  "ss42-q07": [
+    "The shop opens every weekday."
+  ],
+  "ss42-q08": [
+    "Every player wore a blue shirt."
+  ],
+  "ss42-q09": [
+    "I read every message before replying."
+  ],
+  "ss42-q10": [
+    "Every house on this street has a red door."
+  ],
+  "ss42-q11": [
+    "Every club member received the email."
+  ],
+  "ss42-q12": [
+    "Sarah called every customer before lunch."
+  ],
+  "ss42-q13": [
+    "The rule applies to every employee."
+  ],
+  "ss42-q14": [
+    "Every door must remain closed during the test."
+  ],
+  "ss42-q15": [
+    "The nurse checked every patient in the waiting area."
+  ],
+  "ss42-q16": [
+    "The library opens every day except Sunday."
+  ],
+  "ss42-q17": [
+    "Every machine is tested before use."
+  ],
+  "ss42-q18": [
+    "Every answer should be written clearly."
+  ],
+  "ss42-q19": [
+    "The museum has a map on every floor."
+  ],
+  "ss42-q20": [
+    "We clean the table after every meal."
+  ],
+  "ss42-q21": [
+    "Not every student enjoys group work."
+  ],
+  "ss42-q22": [
+    "Personal customs may not suit every community."
+  ],
+  "ss42-q23": [
+    "Not every book is easy to understand."
+  ],
+  "ss42-q24": [
+    "The plan will not work in every situation."
+  ],
+  "ss42-q25": [
+    "Not every customer needs the same service."
+  ],
+  "ss42-q26": [
+    "Every visitor is required to show identification."
+  ],
+  "ss42-q27": [
+    "The teacher gave comments on every report."
+  ],
+  "ss42-q28": [
+    "There is a safety notice beside every lift."
+  ],
+  "ss42-q29": [
+    "Every piece of equipment must be returned after the lesson."
+  ],
+  "ss42-q30": [
+    "We check our spending at the end of every week."
+  ],
+  "ss42-q31": [
+    "Every application is reviewed by two staff members."
+  ],
+  "ss42-q32": [
+    "The app sends an alert after every failed login."
+  ],
+  "ss42-q33": [
+    "Every resident can use the community hall."
+  ],
+  "ss42-q34": [
+    "The manager spoke to every team member separately."
+  ],
+  "ss42-q35": [
+    "Every ticket includes a seat number."
+  ],
+  "ss42-q36": [
+    "Not every online review is reliable."
+  ],
+  "ss42-q37": [
+    "The school checks the fire alarm in every building."
+  ],
+  "ss42-q38": [
+    "Every time the bell rings, the doors close automatically."
+  ],
+  "ss42-q39": [
+    "The doctor records the result of every test."
+  ],
+  "ss42-q40": [
+    "The organiser prepared a name card for every guest."
+  ],
+  "ss42-q41": [
+    "Every new employee attends the safety session before starting work."
+  ],
+  "ss42-q42": [
+    "The system saves a copy after every change to a document."
+  ],
+  "ss42-q43": [
+    "Last month, the council inspected every playground in the district."
+  ],
+  "ss42-q44": [
+    "The list included every name, so nobody was left out."
+  ],
+  "ss42-q45": [
+    "Not every decision can satisfy the whole group."
+  ],
+  "ss42-q46": [
+    "Every bottle of medicine should be kept out of children’s reach."
+  ],
+  "ss42-q47": [
+    "The company records every customer complaint, including small ones."
+  ],
+  "ss42-q48": [
+    "The hospital has an emergency plan for every department."
+  ],
+  "ss42-q49": [
+    "Every step in the process must be completed in the correct order."
+  ],
+  "ss42-q50": [
+    "Although the tasks are different, every stage of the project requires careful attention."
+  ],
+  "ss43-q01": [
+    "Each student receives a worksheet."
+  ],
+  "ss43-q02": [
+    "Each room has its own window."
+  ],
+  "ss43-q03": [
+    "Each player wears a numbered shirt."
+  ],
+  "ss43-q04": [
+    "Each ticket costs ten dollars."
+  ],
+  "ss43-q05": [
+    "The teacher gives each group a map."
+  ],
+  "ss43-q06": [
+    "Each child chooses one book."
+  ],
+  "ss43-q07": [
+    "Each table seats four people."
+  ],
+  "ss43-q08": [
+    "The receptionist gives each visitor a name badge."
+  ],
+  "ss43-q09": [
+    "Each bottle contains one litre of water."
+  ],
+  "ss43-q10": [
+    "Each question carries two marks."
+  ],
+  "ss43-q11": [
+    "Each employee has a personal locker."
+  ],
+  "ss43-q12": [
+    "The coach speaks to each player separately."
+  ],
+  "ss43-q13": [
+    "Each family receives a food box."
+  ],
+  "ss43-q14": [
+    "We put a candle on each table."
+  ],
+  "ss43-q15": [
+    "Each bus stops at the main station."
+  ],
+  "ss43-q16": [
+    "The shop gives each customer a receipt."
+  ],
+  "ss43-q17": [
+    "Each lesson lasts forty minutes."
+  ],
+  "ss43-q18": [
+    "The nurse checked each patient’s temperature."
+  ],
+  "ss43-q19": [
+    "Each answer must be a complete sentence."
+  ],
+  "ss43-q20": [
+    "The guide took each guest to a seat."
+  ],
+  "ss43-q21": [
+    "Each additional bag costs five dollars."
+  ],
+  "ss43-q22": [
+    "Each extra day adds twenty dollars to the bill."
+  ],
+  "ss43-q23": [
+    "Each new member brings a different skill to the team."
+  ],
+  "ss43-q24": [
+    "The school gives each student an online account."
+  ],
+  "ss43-q25": [
+    "Each application is checked by two staff members."
+  ],
+  "ss43-q26": [
+    "A safety card is placed on each seat."
+  ],
+  "ss43-q27": [
+    "Each bedroom has its own bathroom."
+  ],
+  "ss43-q28": [
+    "The organiser gave each volunteer a specific task."
+  ],
+  "ss43-q29": [
+    "Each mistake reduces the final score by one mark."
+  ],
+  "ss43-q30": [
+    "Each plant needs a different amount of water."
+  ],
+  "ss43-q31": [
+    "Each time the bell rings, the students change classrooms."
+  ],
+  "ss43-q32": [
+    "Each time Mia visits her grandmother, she brings some fruit."
+  ],
+  "ss43-q33": [
+    "Each completed task moves the project one step forward."
+  ],
+  "ss43-q34": [
+    "Each missing document causes a separate delay."
+  ],
+  "ss43-q35": [
+    "The system sends each user a confirmation email."
+  ],
+  "ss43-q36": [
+    "Each new order generates a separate record."
+  ],
+  "ss43-q37": [
+    "The librarian stamps each book before lending it out."
+  ],
+  "ss43-q38": [
+    "Each light left on in an empty room wastes electricity."
+  ],
+  "ss43-q39": [
+    "Each driver must check the mirrors before moving off."
+  ],
+  "ss43-q40": [
+    "The manager reviews each complaint personally."
+  ],
+  "ss43-q41": [
+    "Each additional child means an extra financial responsibility."
+  ],
+  "ss43-q42": [
+    "Each department must submit its own monthly report."
+  ],
+  "ss43-q43": [
+    "The hospital gives each patient clear instructions before they leave."
+  ],
+  "ss43-q44": [
+    "Each small improvement makes the service slightly easier to use."
+  ],
+  "ss43-q45": [
+    "The website creates a separate tracking number for each parcel."
+  ],
+  "ss43-q46": [
+    "Each team member is responsible for one part of the presentation."
+  ],
+  "ss43-q47": [
+    "The programme gives each participant a chance to practise speaking."
+  ],
+  "ss43-q48": [
+    "Each extra passenger increases the fuel cost slightly."
+  ],
+  "ss43-q49": [
+    "The organiser checks each name against the registration list."
+  ],
+  "ss43-q50": [
+    "Each decision made during the planning stage affects the final result."
+  ],
+  "ss44-q01": [
+    "Mia and Leo helped each other."
+  ],
+  "ss44-q02": [
+    "Ben and Ava smiled at each other."
+  ],
+  "ss44-q03": [
+    "The twins hugged each other."
+  ],
+  "ss44-q04": [
+    "Sara and I listen to each other."
+  ],
+  "ss44-q05": [
+    "The two dogs chased each other."
+  ],
+  "ss44-q06": [
+    "We all share notes with one another."
+  ],
+  "ss44-q07": [
+    "Anna and Ravi thanked each other."
+  ],
+  "ss44-q08": [
+    "The two teams respected each other."
+  ],
+  "ss44-q09": [
+    "Tom and Jay often tell each other jokes."
+  ],
+  "ss44-q10": [
+    "My sister and I send messages to each other."
+  ],
+  "ss44-q11": [
+    "Amy and Daniel apologised to each other."
+  ],
+  "ss44-q12": [
+    "The players gave one another advice."
+  ],
+  "ss44-q13": [
+    "The neighbours watched each other’s homes during the holiday."
+  ],
+  "ss44-q14": [
+    "The two departments share information with each other."
+  ],
+  "ss44-q15": [
+    "The children formed a circle to see one another’s faces."
+  ],
+  "ss44-q16": [
+    "The manager introduced Alice and Ben to each other."
+  ],
+  "ss44-q17": [
+    "You and your partner should keep sending updates to each other."
+  ],
+  "ss44-q18": [
+    "The two clubs regularly invite each other’s members to events."
+  ],
+  "ss44-q19": [
+    "The children did not blame one another for the mistake."
+  ],
+  "ss44-q20": [
+    "Sophie and Maya kept looking at each other’s drawings."
+  ],
+  "ss44-q21": [
+    "The students compared one another’s answers."
+  ],
+  "ss44-q22": [
+    "The two singers took turns supporting each other during practice."
+  ],
+  "ss44-q23": [
+    "The workers helped one another whenever someone was busy."
+  ],
+  "ss44-q24": [
+    "The countries agreed to respect one another’s borders."
+  ],
+  "ss44-q25": [
+    "Team members should warn one another whenever they notice a problem."
+  ],
+  "ss44-q26": [
+    "The brothers sometimes borrowed each other’s clothes."
+  ],
+  "ss44-q27": [
+    "The participants made the discussion useful by listening to one another and responding to one another’s ideas."
+  ],
+  "ss44-q28": [
+    "The two machines send data to each other."
+  ],
+  "ss44-q29": [
+    "The children were told not to laugh at one another."
+  ],
+  "ss44-q30": [
+    "The residents take turns checking one another’s doors."
+  ],
+  "ss44-q31": [
+    "The two friends had not spoken to each other for several weeks."
+  ],
+  "ss44-q32": [
+    "During the game, the players had to trust one another."
+  ],
+  "ss44-q33": [
+    "Although the companies are competitors, they still learn from each other."
+  ],
+  "ss44-q34": [
+    "After forming pairs, the children checked each other’s work."
+  ],
+  "ss44-q35": [
+    "The witnesses’ descriptions did not match each other."
+  ],
+  "ss44-q36": [
+    "The coach asked the players to encourage each other rather than criticise one another."
+  ],
+  "ss44-q37": [
+    "The two sides kept blaming each other, so the argument continued."
+  ],
+  "ss44-q38": [
+    "If the departments do not share their plans with one another, the project may be delayed."
+  ],
+  "ss44-q39": [
+    "The teacher arranged the desks so that the students could see one another’s faces."
+  ],
+  "ss44-q40": [
+    "In each pair, the volunteers checked each other’s contact details."
+  ],
+  "ss44-q41": [
+    "Although the scientists disagreed, they carefully considered one another’s arguments."
+  ],
+  "ss44-q42": [
+    "The two hospitals refer patients to each other when a specialist service is unavailable."
+  ],
+  "ss44-q43": [
+    "The debate rules allow the speakers to challenge each other without interrupting one another."
+  ],
+  "ss44-q44": [
+    "Because the members had worked together for years, they could often understand one another without a long explanation."
+  ],
+  "ss44-q45": [
+    "The countries regularly review one another’s trade rules and adjust their own rules in response."
+  ],
+  "ss44-q46": [
+    "The project succeeded because the engineers and designers trusted each other."
+  ],
+  "ss44-q47": [
+    "Teams should not try to improve their results by hiding information from one another."
+  ],
+  "ss44-q48": [
+    "Although the communities had different traditions, they made an effort to learn about each other’s traditions."
+  ],
+  "ss44-q49": [
+    "During the emergency, the departments supported one another by sharing staff and equipment."
+  ],
+  "ss44-q50": [
+    "In strong teams, people challenge each other without trying to humiliate one another."
+  ],
+  "ss45-q01": [
+    "One of the advantages of travelling is that you can meet many interesting people."
+  ],
+  "ss45-q02": [
+    "One of the reasons people exercise is to stay healthy."
+  ],
+  "ss45-q03": [
+    "One of the problems with online classes is an unstable internet connection."
+  ],
+  "ss45-q04": [
+    "The library is one of the useful facilities at the school."
+  ],
+  "ss45-q05": [
+    "Reading is one of the hobbies I enjoy most."
+  ],
+  "ss45-q06": [
+    "One of the best ways to learn new words is to keep a vocabulary notebook."
+  ],
+  "ss45-q07": [
+    "Mia is one of the students in our class."
+  ],
+  "ss45-q08": [
+    "The clock tower is one of the oldest buildings in the town."
+  ],
+  "ss45-q09": [
+    "Breakfast is one of the most important meals of the day."
+  ],
+  "ss45-q10": [
+    "Drinking water is one of the things we need for the picnic."
+  ],
+  "ss45-q11": [
+    "One of the benefits of walking every day is that it can improve your mood."
+  ],
+  "ss45-q12": [
+    "One of the common causes of student stress is having too much homework."
+  ],
+  "ss45-q13": [
+    "One of the main duties of a team leader is to keep everyone informed."
+  ],
+  "ss45-q14": [
+    "Dim sum is one of the most popular foods in Hong Kong."
+  ],
+  "ss45-q15": [
+    "One of the major challenges of group work is getting everyone to agree."
+  ],
+  "ss45-q16": [
+    "This dictionary app is one of the most useful apps on my phone."
+  ],
+  "ss45-q17": [
+    "One of the questions the interviewer asked was about my previous experience."
+  ],
+  "ss45-q18": [
+    "A small fishing village was one of the places we visited during the trip."
+  ],
+  "ss45-q19": [
+    "One of the main advantages of reading before bed is that it helps you relax."
+  ],
+  "ss45-q20": [
+    "One of the easiest ways to save electricity is to switch off unused lights."
+  ],
+  "ss45-q21": [
+    "One of the reasons the company chose the new office was that it was close to the railway station."
+  ],
+  "ss45-q22": [
+    "The science museum was one of the attractions we enjoyed most last weekend."
+  ],
+  "ss45-q23": [
+    "One of the useful things I learnt from the course was how to plan my time."
+  ],
+  "ss45-q24": [
+    "Writing the conclusion is one of the most difficult parts of this essay."
+  ],
+  "ss45-q25": [
+    "One of the main disadvantages of living far from school is the long journey each day."
+  ],
+  "ss45-q26": [
+    "One of the laboratory rules students must follow is to wear safety glasses."
+  ],
+  "ss45-q27": [
+    "Delivery tracking is one of the services our company offers."
+  ],
+  "ss45-q28": [
+    "One of the main messages in the book is that people should be honest."
+  ],
+  "ss45-q29": [
+    "One of the reasons she left the party early was that she had to work the next morning."
+  ],
+  "ss45-q30": [
+    "Careful listening is one of the most important skills nurses need."
+  ],
+  "ss45-q31": [
+    "The shared calendar is one of the most useful tools in our office."
+  ],
+  "ss45-q32": [
+    "One of the serious problems facing the public library is the lack of quiet study space."
+  ],
+  "ss45-q33": [
+    "One of the main causes of the accident was poor visibility."
+  ],
+  "ss45-q34": [
+    "Moving to a new office was one of the biggest changes during the project."
+  ],
+  "ss45-q35": [
+    "Writing professional emails is one of the topics covered in the course."
+  ],
+  "ss45-q36": [
+    "For new employees, understanding the safety rules is one of the first tasks to complete."
+  ],
+  "ss45-q37": [
+    "Cycling is one of the cheapest ways to travel around the town."
+  ],
+  "ss45-q38": [
+    "Face recognition is one of the most useful features of the phone."
+  ],
+  "ss45-q39": [
+    "One of the main reasons the team won was good communication between the players."
+  ],
+  "ss45-q40": [
+    "Ms Lee is one of the people who can help you with this form."
+  ],
+  "ss45-q41": [
+    "For parents choosing a school, location is one of the most important factors to consider."
+  ],
+  "ss45-q42": [
+    "One of the major challenges public hospitals face is a shortage of beds."
+  ],
+  "ss45-q43": [
+    "One of the most difficult decisions the committee made was to postpone the event."
+  ],
+  "ss45-q44": [
+    "One of the most valuable opportunities the training programme provides is the chance to work with real customers."
+  ],
+  "ss45-q45": [
+    "One of the most important changes in the city was the opening of the new railway."
+  ],
+  "ss45-q46": [
+    "One of the most memorable moments of the trip was watching the sunrise from the hill."
+  ],
+  "ss45-q47": [
+    "One of the main aims of the policy is to make public transport easier to use."
+  ],
+  "ss45-q48": [
+    "One of the risks of the new system is that personal data may be shared without permission."
+  ],
+  "ss45-q49": [
+    "One of the most important qualities that make a good manager is the ability to explain difficult decisions clearly."
+  ],
+  "ss45-q50": [
+    "Installing better lighting around the entrance was one of the most effective ways the school improved safety."
+  ],
+  "ss46-q01": [
+    "Something is making a strange noise in the kitchen."
+  ],
+  "ss46-q02": [
+    "Everything is ready for the class."
+  ],
+  "ss46-q03": [
+    "I cannot find anything in this drawer."
+  ],
+  "ss46-q04": [
+    "Something smells wonderful in the oven."
+  ],
+  "ss46-q05": [
+    "Everything changed after the new manager arrived."
+  ],
+  "ss46-q06": [
+    "Do you need anything from the supermarket?"
+  ],
+  "ss46-q07": [
+    "Something is blocking the door."
+  ],
+  "ss46-q08": [
+    "She packed everything she needed for the trip."
+  ],
+  "ss46-q09": [
+    "We did not hear anything during the night."
+  ],
+  "ss46-q10": [
+    "Something fell from the shelf."
+  ],
+  "ss46-q11": [
+    "I would like something warm to drink."
+  ],
+  "ss46-q12": [
+    "Everything important is written on this page."
+  ],
+  "ss46-q13": [
+    "Is there anything useful in this report?"
+  ],
+  "ss46-q14": [
+    "Something unexpected happened on the way home."
+  ],
+  "ss46-q15": [
+    "You may choose anything suitable from the menu."
+  ],
+  "ss46-q16": [
+    "Everything necessary has been prepared."
+  ],
+  "ss46-q17": [
+    "I noticed something unusual near the window."
+  ],
+  "ss46-q18": [
+    "We could not find anything affordable in the shop."
+  ],
+  "ss46-q19": [
+    "Everything valuable was kept in the safe."
+  ],
+  "ss46-q20": [
+    "She wants something simple for lunch."
+  ],
+  "ss46-q21": [
+    "Something that you said worried me."
+  ],
+  "ss46-q22": [
+    "Everything that the teacher explained was clear."
+  ],
+  "ss46-q23": [
+    "Anything that damages the equipment must be reported."
+  ],
+  "ss46-q24": [
+    "I will do anything that helps the team."
+  ],
+  "ss46-q25": [
+    "Something that looked like smoke was rising from the field."
+  ],
+  "ss46-q26": [
+    "Everything that we ordered arrived on time."
+  ],
+  "ss46-q27": [
+    "You should not share anything that contains personal information."
+  ],
+  "ss46-q28": [
+    "Something that belongs to you was left in the classroom."
+  ],
+  "ss46-q29": [
+    "Anything that reduces road safety should be examined carefully."
+  ],
+  "ss46-q30": [
+    "Everything that the nurse asked me was easy to answer."
+  ],
+  "ss46-q31": [
+    "If anything changes, please call me immediately."
+  ],
+  "ss46-q32": [
+    "Something must have gone wrong with the booking system."
+  ],
+  "ss46-q33": [
+    "We should check everything before the doors open."
+  ],
+  "ss46-q34": [
+    "Do not sign anything unless you understand it."
+  ],
+  "ss46-q35": [
+    "Something needs to be done about the broken lift."
+  ],
+  "ss46-q36": [
+    "The storm damaged everything in the garden."
+  ],
+  "ss46-q37": [
+    "You can ask me anything about the course."
+  ],
+  "ss46-q38": [
+    "Everything seems more difficult when you are tired."
+  ],
+  "ss46-q39": [
+    "There is something important that you should know before the meeting."
+  ],
+  "ss46-q40": [
+    "I could not do anything to stop the leak."
+  ],
+  "ss46-q41": [
+    "Something feels wrong when a system rewards speed more than accuracy."
+  ],
+  "ss46-q42": [
+    "Anything that weakens public trust should be examined carefully."
+  ],
+  "ss46-q43": [
+    "Everything involved in the work becomes more expensive when planning is poor."
+  ],
+  "ss46-q44": [
+    "We should record everything that was agreed during the meeting."
+  ],
+  "ss46-q45": [
+    "If you notice anything that could cause an accident, report it at once."
+  ],
+  "ss46-q46": [
+    "Something may be missing from the final report."
+  ],
+  "ss46-q47": [
+    "The new system allows staff to find everything they need in one place."
+  ],
+  "ss46-q48": [
+    "We should not promise anything that we cannot deliver."
+  ],
+  "ss46-q49": [
+    "Something that appears harmless can still create a serious risk."
+  ],
+  "ss46-q50": [
+    "Everything that affects public safety must be considered before the plan is approved."
+  ],
+  "ss47-q01": [
+    "I left my keys somewhere, but I cannot remember where."
+  ],
+  "ss47-q02": [
+    "We have nowhere to sit."
+  ],
+  "ss47-q03": [
+    "This café is too crowded, so let us eat elsewhere."
+  ],
+  "ss47-q04": [
+    "Mia wants to live somewhere quiet near the sea, but she has not chosen a location yet."
+  ],
+  "ss47-q05": [
+    "There is nowhere for me to charge my phone."
+  ],
+  "ss47-q06": [
+    "The waiting area is full, so we should wait elsewhere."
+  ],
+  "ss47-q07": [
+    "Ben put the receipt somewhere inside his bag, but he cannot remember the exact place."
+  ],
+  "ss47-q08": [
+    "The hikers had nowhere to hide from the rain."
+  ],
+  "ss47-q09": [
+    "This room is noisy. Can we study elsewhere?"
+  ],
+  "ss47-q10": [
+    "The cat must be hiding somewhere inside the house."
+  ],
+  "ss47-q11": [
+    "I need somewhere to print this document."
+  ],
+  "ss47-q12": [
+    "There was nowhere for the children to play safely."
+  ],
+  "ss47-q13": [
+    "The doctor is not available at this clinic today, so please seek treatment elsewhere."
+  ],
+  "ss47-q14": [
+    "Ava is looking under the sofa because she thinks her earring may be somewhere there."
+  ],
+  "ss47-q15": [
+    "The village has nowhere for visitors to stay overnight."
+  ],
+  "ss47-q16": [
+    "If this website does not answer your question, search elsewhere."
+  ],
+  "ss47-q17": [
+    "The missing folder is somewhere on these shelves, but I do not know which shelf."
+  ],
+  "ss47-q18": [
+    "Every room was locked, and the students had nowhere to practise after school."
+  ],
+  "ss47-q19": [
+    "The company moved the meeting elsewhere."
+  ],
+  "ss47-q20": [
+    "I am sure the solution appears somewhere in this report."
+  ],
+  "ss47-q21": [
+    "There is nowhere to put another box in this cupboard."
+  ],
+  "ss47-q22": [
+    "The old printer is being repaired, so the staff are printing documents elsewhere."
+  ],
+  "ss47-q23": [
+    "Somewhere safe must be found for these chemicals."
+  ],
+  "ss47-q24": [
+    "The children had nowhere to wash their hands."
+  ],
+  "ss47-q25": [
+    "The manager rejected this office because she believed a better location was available elsewhere."
+  ],
+  "ss47-q26": [
+    "The best answer lies somewhere between the cheapest and the most expensive options."
+  ],
+  "ss47-q27": [
+    "Nowhere in the building was quiet enough for the interview."
+  ],
+  "ss47-q28": [
+    "The parcel came from somewhere in Europe."
+  ],
+  "ss47-q29": [
+    "If the evidence does not support this explanation, we should look elsewhere for the answer."
+  ],
+  "ss47-q30": [
+    "There was nowhere in the town that could provide emergency shelter."
+  ],
+  "ss47-q31": [
+    "The museum stored the damaged painting somewhere that was not open to the public."
+  ],
+  "ss47-q32": [
+    "The witness had nowhere to speak privately."
+  ],
+  "ss47-q33": [
+    "This course is full, but the same subject may be offered elsewhere."
+  ],
+  "ss47-q34": [
+    "We need somewhere with enough tables and natural light to hold the workshop."
+  ],
+  "ss47-q35": [
+    "The truth lies somewhere between the two sides of the argument."
+  ],
+  "ss47-q36": [
+    "The emergency exit must remain clear because people would otherwise have nowhere safe to go during a fire."
+  ],
+  "ss47-q37": [
+    "According to the report, the fault began elsewhere in the organisation, not in this department."
+  ],
+  "ss47-q38": [
+    "The child may have placed the toy somewhere upstairs, but nobody knows which room."
+  ],
+  "ss47-q39": [
+    "Nowhere close to the station offers parking at this price."
+  ],
+  "ss47-q40": [
+    "The speaker’s conclusion did not follow from the facts; the facts pointed elsewhere."
+  ],
+  "ss47-q41": [
+    "The school needs somewhere quiet where students can receive support outside class."
+  ],
+  "ss47-q42": [
+    "The hospital had nowhere for relatives to wait during the operation."
+  ],
+  "ss47-q43": [
+    "If the current supplier cannot meet the safety standard, the company should buy the equipment elsewhere."
+  ],
+  "ss47-q44": [
+    "The policy is somewhere between being completely strict and being completely flexible."
+  ],
+  "ss47-q45": [
+    "The investigators know the missing records still exist somewhere, although they have not found them."
+  ],
+  "ss47-q46": [
+    "After the pipe broke, the residents had nowhere else to obtain clean water."
+  ],
+  "ss47-q47": [
+    "The committee first looked for the cause in the budget, but later evidence showed that it lay elsewhere."
+  ],
+  "ss47-q48": [
+    "A fair decision will probably be found somewhere between personal freedom and public safety."
+  ],
+  "ss47-q49": [
+    "The town has nowhere safe to store all the emergency supplies."
+  ],
+  "ss47-q50": [
+    "When reliable data points elsewhere, we should not force the answer to remain where we first expected it."
+  ],
+  "ss48-q01": [
+    "Posters could be seen everywhere in the classroom."
+  ],
+  "ss48-q02": [
+    "You may sit anywhere in the room."
+  ],
+  "ss48-q03": [
+    "I searched everywhere for my keys."
+  ],
+  "ss48-q04": [
+    "Is there anywhere we can buy water?"
+  ],
+  "ss48-q05": [
+    "Music was playing everywhere in the shopping centre."
+  ],
+  "ss48-q06": [
+    "We could not find a taxi anywhere in the town."
+  ],
+  "ss48-q07": [
+    "Children were playing everywhere in the park."
+  ],
+  "ss48-q08": [
+    "You can put your bag anywhere."
+  ],
+  "ss48-q09": [
+    "The smell of bread was everywhere in the bakery."
+  ],
+  "ss48-q10": [
+    "Did you see my phone anywhere in the house?"
+  ],
+  "ss48-q11": [
+    "Everywhere Mia went, people recognised her."
+  ],
+  "ss48-q12": [
+    "Daniel can work anywhere with an internet connection."
+  ],
+  "ss48-q13": [
+    "Campaign posters appeared everywhere in the neighbourhood."
+  ],
+  "ss48-q14": [
+    "Anywhere you sit, you can see the stage clearly."
+  ],
+  "ss48-q15": [
+    "Sarah searched everywhere but could not find the receipt."
+  ],
+  "ss48-q16": [
+    "You should not leave your bicycle anywhere unsafe."
+  ],
+  "ss48-q17": [
+    "News of the result spread everywhere in the school."
+  ],
+  "ss48-q18": [
+    "Is there anywhere quiet where we can talk?"
+  ],
+  "ss48-q19": [
+    "The dog followed Leo everywhere."
+  ],
+  "ss48-q20": [
+    "You may take this book anywhere you choose."
+  ],
+  "ss48-q21": [
+    "Everywhere we looked, there were signs of storm damage."
+  ],
+  "ss48-q22": [
+    "Passengers could not find a free seat anywhere on the bus."
+  ],
+  "ss48-q23": [
+    "The new payment system is now used everywhere in the company."
+  ],
+  "ss48-q24": [
+    "If you notice smoke anywhere in the building, press the alarm."
+  ],
+  "ss48-q25": [
+    "Volunteers placed collection boxes everywhere in the neighbourhood."
+  ],
+  "ss48-q26": [
+    "You can access your files anywhere with this app."
+  ],
+  "ss48-q27": [
+    "Whispering could be heard everywhere in the examination hall."
+  ],
+  "ss48-q28": [
+    "We did not see any rubbish anywhere along the beach."
+  ],
+  "ss48-q29": [
+    "Anywhere the nurse goes, she carries the emergency phone."
+  ],
+  "ss48-q30": [
+    "The lost cat might be hiding anywhere nearby."
+  ],
+  "ss48-q31": [
+    "Everywhere the parade passed, people came out to watch."
+  ],
+  "ss48-q32": [
+    "This medicine is not available anywhere without a prescription."
+  ],
+  "ss48-q33": [
+    "Warning signs were placed everywhere workers might face danger."
+  ],
+  "ss48-q34": [
+    "You can charge your phone anywhere there is a power socket."
+  ],
+  "ss48-q35": [
+    "Rumours were spreading everywhere in the school before an announcement was made."
+  ],
+  "ss48-q36": [
+    "The missing file could not be found anywhere on the shared drive."
+  ],
+  "ss48-q37": [
+    "Everywhere the river flooded, roads were closed."
+  ],
+  "ss48-q38": [
+    "You should report any damage you find anywhere in the building."
+  ],
+  "ss48-q39": [
+    "Festival decorations could be seen everywhere in the town."
+  ],
+  "ss48-q40": [
+    "Is there anywhere the team has not checked yet?"
+  ],
+  "ss48-q41": [
+    "Everywhere the new bus route reaches, residents have easier access to the town centre."
+  ],
+  "ss48-q42": [
+    "Staff can answer customer questions anywhere in the shop by using their tablets."
+  ],
+  "ss48-q43": [
+    "The safety message was displayed everywhere passengers were likely to see it."
+  ],
+  "ss48-q44": [
+    "The research team could not collect reliable data anywhere at the observation sites during the storm."
+  ],
+  "ss48-q45": [
+    "Anywhere students study, the online guide gives them access to extra examples."
+  ],
+  "ss48-q46": [
+    "The rescue team searched everywhere the missing hikers might have gone."
+  ],
+  "ss48-q47": [
+    "Visitors are not allowed to take photographs anywhere inside the gallery."
+  ],
+  "ss48-q48": [
+    "Everywhere the company opened a new branch, local people applied for jobs."
+  ],
+  "ss48-q49": [
+    "You can continue the lesson anywhere you have a stable internet connection."
+  ],
+  "ss48-q50": [
+    "The emergency plan ensures that help can reach people anywhere in the building."
+  ],
+  "ss49-q01": [
+    "I want something sweet to eat after dinner."
+  ],
+  "ss49-q02": [
+    "Mia heard something strange outside the window."
+  ],
+  "ss49-q03": [
+    "We need something simple to make for the class project."
+  ],
+  "ss49-q04": [
+    "Ben bought something useful for his new flat."
+  ],
+  "ss49-q05": [
+    "The child wants something soft to hold."
+  ],
+  "ss49-q06": [
+    "Could I have something cold to drink?"
+  ],
+  "ss49-q07": [
+    "There is something unusual in this picture."
+  ],
+  "ss49-q08": [
+    "Leo found something shiny on the floor."
+  ],
+  "ss49-q09": [
+    "Please bring something warm to wear at the picnic."
+  ],
+  "ss49-q10": [
+    "Emma wrote something funny in the card."
+  ],
+  "ss49-q11": [
+    "Is there anything wrong with your computer?"
+  ],
+  "ss49-q12": [
+    "I did not see anything unusual on the way home."
+  ],
+  "ss49-q13": [
+    "Did the teacher mention anything important today?"
+  ],
+  "ss49-q14": [
+    "We cannot find anything suitable to hang on the empty wall."
+  ],
+  "ss49-q15": [
+    "If you hear anything strange, call me immediately."
+  ],
+  "ss49-q16": [
+    "You may choose anything affordable from this shelf."
+  ],
+  "ss49-q17": [
+    "Has anyone left anything valuable in the classroom?"
+  ],
+  "ss49-q18": [
+    "The doctor did not find anything serious."
+  ],
+  "ss49-q19": [
+    "Is there anything difficult about this exercise?"
+  ],
+  "ss49-q20": [
+    "She rarely says anything unkind about other people."
+  ],
+  "ss49-q21": [
+    "Sarah shared everything important during the meeting."
+  ],
+  "ss49-q22": [
+    "I packed everything necessary for the overnight trip."
+  ],
+  "ss49-q23": [
+    "Everything valuable was kept inside the safe."
+  ],
+  "ss49-q24": [
+    "The guide explained everything useful before the walk began."
+  ],
+  "ss49-q25": [
+    "We should remove everything unnecessary from the report."
+  ],
+  "ss49-q26": [
+    "Everything fragile needs to be wrapped carefully."
+  ],
+  "ss49-q27": [
+    "The police recorded everything relevant to the case."
+  ],
+  "ss49-q28": [
+    "Have you checked everything important on the form?"
+  ],
+  "ss49-q29": [
+    "The new system stores everything confidential in a secure folder."
+  ],
+  "ss49-q30": [
+    "The workers repaired everything damaged by the storm."
+  ],
+  "ss49-q31": [
+    "Noah noticed something different about the timetable."
+  ],
+  "ss49-q32": [
+    "The soup needs something spicy to improve its flavour."
+  ],
+  "ss49-q33": [
+    "The shop is looking for something cheaper but equally strong."
+  ],
+  "ss49-q34": [
+    "Ava has not heard anything encouraging from the company yet."
+  ],
+  "ss49-q35": [
+    "The café does not serve anything light after 8 p.m."
+  ],
+  "ss49-q36": [
+    "We should not share anything private online."
+  ],
+  "ss49-q37": [
+    "If there is anything unclear in the instructions, ask the teacher."
+  ],
+  "ss49-q38": [
+    "The test did not reveal anything worrying."
+  ],
+  "ss49-q39": [
+    "You can ask me anything related to the project."
+  ],
+  "ss49-q40": [
+    "The museum displayed everything valuable found at the site."
+  ],
+  "ss49-q41": [
+    "The teacher gave the group something practical to do while they waited."
+  ],
+  "ss49-q42": [
+    "Before the interview, Maya prepared something clear to say about her experience."
+  ],
+  "ss49-q43": [
+    "The nurse asked whether the patient had eaten anything unusual that morning."
+  ],
+  "ss49-q44": [
+    "We could not identify anything harmful in the water sample."
+  ],
+  "ss49-q45": [
+    "Please report anything suspicious that you notice near the entrance."
+  ],
+  "ss49-q46": [
+    "The manager removed everything outdated from the training guide."
+  ],
+  "ss49-q47": [
+    "The emergency kit contains everything essential for a short power cut."
+  ],
+  "ss49-q48": [
+    "The editor kept everything relevant and deleted the rest."
+  ],
+  "ss49-q49": [
+    "The website explains everything important that new users should know."
+  ],
+  "ss49-q50": [
+    "During the inspection, the team recorded everything unusual that might require further investigation."
+  ],
+  "ss50-q01": [
+    "We need somewhere quiet to study."
+  ],
+  "ss50-q02": [
+    "Mia wants to sit somewhere warm."
+  ],
+  "ss50-q03": [
+    "There is nowhere safe to leave the bicycle."
+  ],
+  "ss50-q04": [
+    "I have nowhere to go after class."
+  ],
+  "ss50-q05": [
+    "Ben decided to eat elsewhere."
+  ],
+  "ss50-q06": [
+    "The keys are somewhere in this room."
+  ],
+  "ss50-q07": [
+    "There was nowhere dry for us to wait."
+  ],
+  "ss50-q08": [
+    "The shop moved its office elsewhere."
+  ],
+  "ss50-q09": [
+    "Amy needs somewhere comfortable to rest."
+  ],
+  "ss50-q10": [
+    "There was nowhere in the house quiet enough for the call."
+  ],
+  "ss50-q11": [
+    "Leo left the café to work elsewhere."
+  ],
+  "ss50-q12": [
+    "We should meet somewhere near the station."
+  ],
+  "ss50-q13": [
+    "There was nowhere in the village for residents to get medical help."
+  ],
+  "ss50-q14": [
+    "The answer lies somewhere between positive and negative."
+  ],
+  "ss50-q15": [
+    "Nora looked elsewhere for cheaper shoes."
+  ],
+  "ss50-q16": [
+    "There is nowhere here where I can charge my phone."
+  ],
+  "ss50-q17": [
+    "The children wanted somewhere shady outdoors."
+  ],
+  "ss50-q18": [
+    "The missing file may be stored elsewhere."
+  ],
+  "ss50-q19": [
+    "We should choose somewhere calm and private."
+  ],
+  "ss50-q20": [
+    "We had nowhere to sit on the bus."
+  ],
+  "ss50-q21": [
+    "The best solution is somewhere between very strict and very relaxed."
+  ],
+  "ss50-q22": [
+    "Visitors have nowhere in the museum to store large bags."
+  ],
+  "ss50-q23": [
+    "The team had nowhere suitable to practise outdoors."
+  ],
+  "ss50-q24": [
+    "Try looking elsewhere instead of searching this website."
+  ],
+  "ss50-q25": [
+    "The smell was coming from somewhere in the kitchen."
+  ],
+  "ss50-q26": [
+    "The company opened a branch elsewhere because it could not expand in this district."
+  ],
+  "ss50-q27": [
+    "The nurse has nowhere private to speak to the family."
+  ],
+  "ss50-q28": [
+    "Her opinion is somewhere in the middle."
+  ],
+  "ss50-q29": [
+    "If this repair shop cannot help, take the laptop elsewhere."
+  ],
+  "ss50-q30": [
+    "We found nowhere nearby to buy water."
+  ],
+  "ss50-q31": [
+    "The school needs somewhere secure for pupils to keep their instruments."
+  ],
+  "ss50-q32": [
+    "The evidence suggests that the fault came from elsewhere in the system."
+  ],
+  "ss50-q33": [
+    "There is nowhere in the building that can safely hold this equipment."
+  ],
+  "ss50-q34": [
+    "The truth is likely to lie somewhere between the two accounts."
+  ],
+  "ss50-q35": [
+    "The organisers had nowhere suitable to move the outdoor event to."
+  ],
+  "ss50-q36": [
+    "If you cannot find the information in the report, search elsewhere."
+  ],
+  "ss50-q37": [
+    "The injured bird needed somewhere warm and quiet to recover."
+  ],
+  "ss50-q38": [
+    "The event probably happened elsewhere because the witness's description does not match this street."
+  ],
+  "ss50-q39": [
+    "There is nowhere in the timetable to add another meeting."
+  ],
+  "ss50-q40": [
+    "The manager rejected both proposals because she believed a better option lay somewhere between them."
+  ],
+  "ss50-q41": [
+    "The policy is somewhere between fully flexible and fully strict."
+  ],
+  "ss50-q42": [
+    "Relatives have nowhere quiet to wait in the hospital during long operations."
+  ],
+  "ss50-q43": [
+    "When this department's figures do not explain the loss, auditors should examine records elsewhere in the organisation."
+  ],
+  "ss50-q44": [
+    "The new community centre must be built somewhere accessible but not too crowded."
+  ],
+  "ss50-q45": [
+    "Users have nowhere on the current website to report this problem directly."
+  ],
+  "ss50-q46": [
+    "The actual number is probably somewhere between the estimates in the two reports."
+  ],
+  "ss50-q47": [
+    "If local suppliers cannot provide the material, the company may need to buy it elsewhere."
+  ],
+  "ss50-q48": [
+    "The emergency team found nowhere safe for residents to stay overnight after the storm."
+  ],
+  "ss50-q49": [
+    "I cannot accept this claim when the evidence points elsewhere."
+  ],
+  "ss50-q50": [
+    "The real answer is usually somewhere between emotion and evidence."
+  ],
+  "ss51-q01": [
+    "I need somewhere quiet to study."
+  ],
+  "ss51-q02": [
+    "Mia wants to sit somewhere warm."
+  ],
+  "ss51-q03": [
+    "We found somewhere safe for the bags."
+  ],
+  "ss51-q04": [
+    "Is there anywhere cheap to eat nearby?"
+  ],
+  "ss51-q05": [
+    "Everywhere in the area was crowded after the concert."
+  ],
+  "ss51-q06": [
+    "She would like to live somewhere peaceful."
+  ],
+  "ss51-q07": [
+    "We could not find anywhere comfortable to rest."
+  ],
+  "ss51-q08": [
+    "Everywhere in the room was bright."
+  ],
+  "ss51-q09": [
+    "Ben needs somewhere private to make the call."
+  ],
+  "ss51-q10": [
+    "Did you see anywhere suitable for the picnic?"
+  ],
+  "ss51-q11": [
+    "We may find batteries somewhere local."
+  ],
+  "ss51-q12": [
+    "There was not anywhere warm to wait."
+  ],
+  "ss51-q13": [
+    "The children looked everywhere possible for the ball."
+  ],
+  "ss51-q14": [
+    "We should choose somewhere less crowded."
+  ],
+  "ss51-q15": [
+    "Can we meet anywhere convenient?"
+  ],
+  "ss51-q16": [
+    "Everywhere in the area was noisy after the match."
+  ],
+  "ss51-q17": [
+    "I want to take you somewhere interesting."
+  ],
+  "ss51-q18": [
+    "We could not find anywhere suitable that was open."
+  ],
+  "ss51-q19": [
+    "The staff placed extra chairs everywhere possible."
+  ],
+  "ss51-q20": [
+    "Is there anywhere dry where we can leave our coats?"
+  ],
+  "ss51-q21": [
+    "He hopes to rent somewhere more affordable than his present flat."
+  ],
+  "ss51-q22": [
+    "You may park anywhere safe."
+  ],
+  "ss51-q23": [
+    "The team checked everywhere possible for the missing file."
+  ],
+  "ss51-q24": [
+    "We need somewhere spacious for the workshop."
+  ],
+  "ss51-q25": [
+    "She did not find anywhere quiet on the train."
+  ],
+  "ss51-q26": [
+    "Everywhere on the beach was clean that morning."
+  ],
+  "ss51-q27": [
+    "They are searching for somewhere cool to store the food."
+  ],
+  "ss51-q28": [
+    "Would anywhere convenient be acceptable?"
+  ],
+  "ss51-q29": [
+    "The technicians installed sensors everywhere necessary."
+  ],
+  "ss51-q30": [
+    "We found somewhere familiar and waited there."
+  ],
+  "ss51-q31": [
+    "If you find anywhere suitable, send me the address."
+  ],
+  "ss51-q32": [
+    "The tourists stopped somewhere sheltered because it began to rain."
+  ],
+  "ss51-q33": [
+    "Everywhere in the station was busy during rush hour."
+  ],
+  "ss51-q34": [
+    "The charity sent help everywhere needed."
+  ],
+  "ss51-q35": [
+    "There must be somewhere cheaper to print these documents."
+  ],
+  "ss51-q36": [
+    "We could sit anywhere comfortable near the window."
+  ],
+  "ss51-q37": [
+    "The rescue workers searched everywhere accessible."
+  ],
+  "ss51-q38": [
+    "Everywhere in the city looked colourful during the festival."
+  ],
+  "ss51-q39": [
+    "Let us move somewhere brighter before reading the map."
+  ],
+  "ss51-q40": [
+    "I do not know anywhere reliable that repairs old cameras."
+  ],
+  "ss51-q41": [
+    "The organisers displayed directions everywhere clearly visible to visitors."
+  ],
+  "ss51-q42": [
+    "Although we visited several cafés, we did not find anywhere quiet enough for the interview."
+  ],
+  "ss51-q43": [
+    "The school is looking for somewhere safe and accessible for the new reading corner."
+  ],
+  "ss51-q44": [
+    "You can hold the meeting anywhere private with a stable internet connection."
+  ],
+  "ss51-q45": [
+    "Everywhere in the old building felt cold and damp."
+  ],
+  "ss51-q46": [
+    "The volunteers placed drinking water everywhere possible along the route."
+  ],
+  "ss51-q47": [
+    "Is there anywhere more convenient where both teams can practise?"
+  ],
+  "ss51-q48": [
+    "After checking several options, the family chose somewhere peaceful but still close to public transport."
+  ],
+  "ss51-q49": [
+    "The emergency notice was posted everywhere appropriate."
+  ],
+  "ss51-q50": [
+    "The researchers needed somewhere quiet, temperature-controlled and free from interruptions."
+  ],
+  "ss52-q01": [
+    "I need someone patient to explain this problem to me."
+  ],
+  "ss52-q02": [
+    "We should ask someone experienced for advice."
+  ],
+  "ss52-q03": [
+    "Someone friendly is waiting at the reception desk."
+  ],
+  "ss52-q04": [
+    "Is there anyone free to help us now?"
+  ],
+  "ss52-q05": [
+    "Could anyone available answer the phone?"
+  ],
+  "ss52-q06": [
+    "Everyone present heard the announcement."
+  ],
+  "ss52-q07": [
+    "Everyone ready can begin."
+  ],
+  "ss52-q08": [
+    "We need someone careful to check these figures."
+  ],
+  "ss52-q09": [
+    "Did you meet anyone interesting at the event?"
+  ],
+  "ss52-q10": [
+    "Everyone absent received an email."
+  ],
+  "ss52-q11": [
+    "I am looking for someone good at maths to help me."
+  ],
+  "ss52-q12": [
+    "Is there anyone willing to carry this box?"
+  ],
+  "ss52-q13": [
+    "We could not find anyone suitable for the role."
+  ],
+  "ss52-q14": [
+    "Everyone responsible for the equipment must sign the form."
+  ],
+  "ss52-q15": [
+    "Someone confident should lead the discussion."
+  ],
+  "ss52-q16": [
+    "Anyone interested in the course can register online."
+  ],
+  "ss52-q17": [
+    "We need someone familiar with this area to be our guide."
+  ],
+  "ss52-q18": [
+    "Did the manager speak to everyone involved?"
+  ],
+  "ss52-q19": [
+    "Please invite anyone available on Friday."
+  ],
+  "ss52-q20": [
+    "The teacher gave extra help to everyone confused by the instructions."
+  ],
+  "ss52-q21": [
+    "The hospital needs someone qualified to operate this machine."
+  ],
+  "ss52-q22": [
+    "We did not see anyone injured after the accident."
+  ],
+  "ss52-q23": [
+    "Everyone eligible for the payment will receive it."
+  ],
+  "ss52-q24": [
+    "Is there anyone capable of repairing this printer?"
+  ],
+  "ss52-q25": [
+    "The company wants to hire someone fluent in Japanese."
+  ],
+  "ss52-q26": [
+    "Everyone affected by the change will be contacted."
+  ],
+  "ss52-q27": [
+    "The police asked whether anyone suspicious had entered the building."
+  ],
+  "ss52-q28": [
+    "We need someone strong enough to lift this table."
+  ],
+  "ss52-q29": [
+    "The notice is for everyone concerned about the new rule."
+  ],
+  "ss52-q30": [
+    "The guide will wait for anyone delayed by the traffic."
+  ],
+  "ss52-q31": [
+    "We need someone responsible enough to manage the budget."
+  ],
+  "ss52-q32": [
+    "Everyone involved in planning the festival thanked the volunteers."
+  ],
+  "ss52-q33": [
+    "Is there anyone prepared to work at the weekend?"
+  ],
+  "ss52-q34": [
+    "The school will support everyone unable to afford the books."
+  ],
+  "ss52-q35": [
+    "We have not found anyone experienced enough to lead the project."
+  ],
+  "ss52-q36": [
+    "Everyone present in the laboratory must wear safety glasses."
+  ],
+  "ss52-q37": [
+    "The charity hopes to find someone kind and dependable."
+  ],
+  "ss52-q38": [
+    "Anyone uncertain about the instructions should ask a teacher."
+  ],
+  "ss52-q39": [
+    "The manager introduced everyone new to the department."
+  ],
+  "ss52-q40": [
+    "Did you notice anyone nervous during the interview?"
+  ],
+  "ss52-q41": [
+    "The committee needs someone independent of the company to review the complaint."
+  ],
+  "ss52-q42": [
+    "Everyone directly responsible for handling customer data must complete the training."
+  ],
+  "ss52-q43": [
+    "The emergency team will assist anyone unable to leave the building without help."
+  ],
+  "ss52-q44": [
+    "We are looking for someone skilled in both design and communication."
+  ],
+  "ss52-q45": [
+    "Everyone affected by the cancelled flight was offered a hotel room."
+  ],
+  "ss52-q46": [
+    "The manager asked us to report anyone absent without permission."
+  ],
+  "ss52-q47": [
+    "The interview panel could not agree on anyone suitable for the senior position."
+  ],
+  "ss52-q48": [
+    "Someone ready to accept responsibility should speak first."
+  ],
+  "ss52-q49": [
+    "The training is compulsory for everyone involved in making financial decisions."
+  ],
+  "ss52-q50": [
+    "Before the meeting begins, please check whether anyone unfamiliar with the safety procedure needs an explanation."
+  ],
+  "ss53-q01": [
+    "I went to the library in order to borrow a book."
+  ],
+  "ss53-q02": [
+    "Lily got up early in order to catch the first bus."
+  ],
+  "ss53-q03": [
+    "Tom called his teacher in order to ask a question."
+  ],
+  "ss53-q04": [
+    "We visited the supermarket in order to buy some fresh fruit."
+  ],
+  "ss53-q05": [
+    "Mia opened the window in order to get some fresh air."
+  ],
+  "ss53-q06": [
+    "Jack is saving money in order to buy a new bicycle."
+  ],
+  "ss53-q07": [
+    "Ben visited the doctor in order to get some advice."
+  ],
+  "ss53-q08": [
+    "Emma wore a thick coat in order to stay warm."
+  ],
+  "ss53-q09": [
+    "The students practise English every day in order to improve their speaking skills."
+  ],
+  "ss53-q10": [
+    "In order to learn how to make Italian food, Sarah joined a cooking class."
+  ],
+  "ss53-q11": [
+    "In order not to wake the baby, David spoke quietly."
+  ],
+  "ss53-q12": [
+    "Amy brought a camera in order to take pictures of the beautiful view."
+  ],
+  "ss53-q13": [
+    "In order to find information about the museum, Kevin went online."
+  ],
+  "ss53-q14": [
+    "Take an umbrella in order to stay dry in the rain."
+  ],
+  "ss53-q15": [
+    "In order to improve their chances of winning the next match, the team held an extra practice."
+  ],
+  "ss53-q16": [
+    "Olivia went to the bank in order to open a new account."
+  ],
+  "ss53-q17": [
+    "Chloe started exercising three times a week in order to improve her health."
+  ],
+  "ss53-q18": [
+    "They are decorating the hall in order to hold a school party there."
+  ],
+  "ss53-q19": [
+    "In order to avoid making careless mistakes, you should read the question carefully."
+  ],
+  "ss53-q20": [
+    "Noah turned on the desk lamp in order to read more clearly."
+  ],
+  "ss53-q21": [
+    "The teacher repeated the instructions in order to help everyone understand them."
+  ],
+  "ss53-q22": [
+    "In order to help the children cross the road safely, the police officer stopped the traffic."
+  ],
+  "ss53-q23": [
+    "My mother gave me some money in order to help me buy lunch."
+  ],
+  "ss53-q24": [
+    "The maps are provided by the museum in order to help visitors find the different rooms easily."
+  ],
+  "ss53-q25": [
+    "More water fountains were installed by the school in order to make it easier for students to refill their bottles."
+  ],
+  "ss53-q26": [
+    "The village council built a small bridge in order to allow the villagers to cross the river safely."
+  ],
+  "ss53-q27": [
+    "In order to reduce her spelling mistakes, Grace checked her work twice."
+  ],
+  "ss53-q28": [
+    "Daniel checked the train timetable in order not to miss the last train."
+  ],
+  "ss53-q29": [
+    "In order not to disturb the people who were reading, Ava lowered her voice."
+  ],
+  "ss53-q30": [
+    "Lucy wrote a list of everything she needed in order not to forget anything at the supermarket."
+  ],
+  "ss53-q31": [
+    "Press this button in order to turn on the computer."
+  ],
+  "ss53-q32": [
+    "Use this key in order to open the back door."
+  ],
+  "ss53-q33": [
+    "The chef tasted the soup in order to check whether it needed more salt."
+  ],
+  "ss53-q34": [
+    "Maya carries a reusable bottle in order to reduce plastic waste."
+  ],
+  "ss53-q35": [
+    "In order to give the patient more privacy, the nurse closed the door."
+  ],
+  "ss53-q36": [
+    "In order to make the room brighter, Zoe opened the curtains."
+  ],
+  "ss53-q37": [
+    "Ethan went to the customer service desk in order to ask for help with his lost bag."
+  ],
+  "ss53-q38": [
+    "Wear these gloves in order to protect your hands from the paint."
+  ],
+  "ss53-q39": [
+    "The coach showed the players a video of their previous game in order to help them understand their mistakes."
+  ],
+  "ss53-q40": [
+    "The company introduced flexible working hours in order to help employees balance work and family life more easily."
+  ],
+  "ss53-q41": [
+    "In order to help parents follow their children’s progress, the school sends weekly messages."
+  ],
+  "ss53-q42": [
+    "Clearer signs were added by the hospital in order to help visitors find the different departments more easily."
+  ],
+  "ss53-q43": [
+    "In order to help users remember their appointments, the developers designed the app."
+  ],
+  "ss53-q44": [
+    "In order to encourage residents to travel without using cars, the council expanded the cycling path."
+  ],
+  "ss53-q45": [
+    "The manager divided the project into clear stages in order to make it easier for the team to track its progress."
+  ],
+  "ss53-q46": [
+    "In order to give students a quiet place to work without being disturbed, the librarian created a quiet study area."
+  ],
+  "ss53-q47": [
+    "The organiser sent everyone a route map in advance in order to prevent participants from getting lost."
+  ],
+  "ss53-q48": [
+    "In order to make sure the alarm would work in an emergency, the engineers tested it several times."
+  ],
+  "ss53-q49": [
+    "The customer service team recorded common questions in order to help new staff answer customers’ questions more consistently."
+  ],
+  "ss53-q50": [
+    "The local library’s weekend opening hours were extended in order to make it easier for working adults to borrow books."
+  ],
+  "ss54-q01": [
+    "I went to the library so that I could borrow a book."
+  ],
+  "ss54-q02": [
+    "Lily got up early so that she could catch the first bus."
+  ],
+  "ss54-q03": [
+    "Tom called his teacher so that he could ask a question."
+  ],
+  "ss54-q04": [
+    "We opened the windows so that some fresh air could come in."
+  ],
+  "ss54-q05": [
+    "Mia wrote down the address so that she would not forget it."
+  ],
+  "ss54-q06": [
+    "Jack is saving money so that he can buy a new bicycle."
+  ],
+  "ss54-q07": [
+    "Ben visited the doctor so that he could get some advice."
+  ],
+  "ss54-q08": [
+    "I use a notebook so that I can record new words."
+  ],
+  "ss54-q09": [
+    "Emma wore a thick coat so that she could stay warm."
+  ],
+  "ss54-q10": [
+    "The students practise English every day so that they can improve their speaking skills."
+  ],
+  "ss54-q11": [
+    "Sarah joined a cooking class so that she could learn how to make Italian food."
+  ],
+  "ss54-q12": [
+    "David spoke quietly so that he would not wake the baby."
+  ],
+  "ss54-q13": [
+    "Amy brought a camera so that she could take pictures of the beautiful view."
+  ],
+  "ss54-q14": [
+    "Kevin went online so that he could find information about the museum."
+  ],
+  "ss54-q15": [
+    "Take an umbrella so that you can stay dry in the rain."
+  ],
+  "ss54-q16": [
+    "My mother gave me some money so that I could buy lunch."
+  ],
+  "ss54-q17": [
+    "The team held an extra practice so that they might improve their chances of winning the next match."
+  ],
+  "ss54-q18": [
+    "Jason moved closer to the screen so that he could see the words more clearly."
+  ],
+  "ss54-q19": [
+    "Olivia went to the bank so that she could open a new account."
+  ],
+  "ss54-q20": [
+    "The chef tasted the soup so that he could check whether it needed more salt."
+  ],
+  "ss54-q21": [
+    "The teacher repeated the instructions so that everyone could understand them."
+  ],
+  "ss54-q22": [
+    "Henry left the house early so that he would not be late for work."
+  ],
+  "ss54-q23": [
+    "The police officer stopped the traffic so that the children could cross the road safely."
+  ],
+  "ss54-q24": [
+    "You should read the question carefully before answering so that you can avoid making careless mistakes."
+  ],
+  "ss54-q25": [
+    "Chloe exercises three times a week so that she can improve her health."
+  ],
+  "ss54-q26": [
+    "They are decorating the hall so that they can hold a school party there."
+  ],
+  "ss54-q27": [
+    "Lucy wrote a list so that she would not forget anything at the supermarket."
+  ],
+  "ss54-q28": [
+    "The museum provides maps so that visitors can find the different rooms easily."
+  ],
+  "ss54-q29": [
+    "The school installed more water fountains so that students could refill their bottles easily."
+  ],
+  "ss54-q30": [
+    "The lights were switched off so that electricity would not be wasted."
+  ],
+  "ss54-q31": [
+    "A special room was prepared so that the guests could rest."
+  ],
+  "ss54-q32": [
+    "Engineers designed this machine so that staff could clean the floor more easily."
+  ],
+  "ss54-q33": [
+    "Maya carries a reusable bottle so that she can reduce plastic waste."
+  ],
+  "ss54-q34": [
+    "Leo set an alarm so that he could wake up on time."
+  ],
+  "ss54-q35": [
+    "The nurse closed the door so that the patient could have more privacy."
+  ],
+  "ss54-q36": [
+    "Grace checked her work twice so that she could make fewer spelling mistakes."
+  ],
+  "ss54-q37": [
+    "Use this key so that you can open the back door."
+  ],
+  "ss54-q38": [
+    "Ava lowered her voice so that she would not disturb the people who were reading."
+  ],
+  "ss54-q39": [
+    "The station established a customer service desk so that passengers could report lost bags."
+  ],
+  "ss54-q40": [
+    "The coach showed the players a video of their previous game so that they could understand their mistakes."
+  ],
+  "ss54-q41": [
+    "A small bridge was built so that the villagers could cross the river safely."
+  ],
+  "ss54-q42": [
+    "Online booking was introduced by the hospital so that patients could choose suitable appointment times more easily."
+  ],
+  "ss54-q43": [
+    "A quiet study zone was created by the library so that students could work without interruption."
+  ],
+  "ss54-q44": [
+    "The manager divided the project into stages so that the team could monitor its progress more clearly."
+  ],
+  "ss54-q45": [
+    "Parents receive text reminders from the school so that they will remember important dates."
+  ],
+  "ss54-q46": [
+    "Ramps were added beside the steps so that wheelchair users could enter the building more easily."
+  ],
+  "ss54-q47": [
+    "The safety instructions were printed in several languages so that all workers could understand them."
+  ],
+  "ss54-q48": [
+    "The app stores each draft automatically so that users will not lose their work if the connection fails."
+  ],
+  "ss54-q49": [
+    "Two short breaks were scheduled by the organiser so that participants could rest and ask questions."
+  ],
+  "ss54-q50": [
+    "The public library extended its opening hours so that people who work late could have enough time to borrow and return books."
+  ],
+  "ss55-q01": [
+    "Reading books takes a lot of time."
+  ],
+  "ss55-q02": [
+    "Learning English is difficult."
+  ],
+  "ss55-q03": [
+    "Walking to school saves money."
+  ],
+  "ss55-q04": [
+    "Exercising every day improves your health."
+  ],
+  "ss55-q05": [
+    "Cooking with friends is fun."
+  ],
+  "ss55-q06": [
+    "Listening to music is a good way to relax."
+  ],
+  "ss55-q07": [
+    "Drinking enough water helps your body work better."
+  ],
+  "ss55-q08": [
+    "Learning a musical instrument requires patience."
+  ],
+  "ss55-q09": [
+    "Taking notes helps you remember lessons better."
+  ],
+  "ss55-q10": [
+    "Getting up before sunrise was hard for Mia."
+  ],
+  "ss55-q11": [
+    "Travelling by bus costs less than travelling by taxi."
+  ],
+  "ss55-q12": [
+    "Reading aloud regularly improves students’ pronunciation."
+  ],
+  "ss55-q13": [
+    "Sharing passwords with other people can be dangerous."
+  ],
+  "ss55-q14": [
+    "Organising a school event requires careful planning."
+  ],
+  "ss55-q15": [
+    "Shopping online saves people time."
+  ],
+  "ss55-q16": [
+    "Staring at the screen for too long made Leo feel tired."
+  ],
+  "ss55-q17": [
+    "Eating breakfast every day is a healthy habit."
+  ],
+  "ss55-q18": [
+    "Meeting new people is the best part of travelling."
+  ],
+  "ss55-q19": [
+    "Recycling paper reduces waste."
+  ],
+  "ss55-q20": [
+    "Speaking in class regularly can help children become more confident."
+  ],
+  "ss55-q21": [
+    "Admitting a mistake takes courage."
+  ],
+  "ss55-q22": [
+    "Working in a team requires good communication."
+  ],
+  "ss55-q23": [
+    "Checking their mirrors often can reduce drivers’ risk of accidents."
+  ],
+  "ss55-q24": [
+    "Making the important decision alone was stressful for Ava."
+  ],
+  "ss55-q25": [
+    "Comparing prices can help people avoid overspending."
+  ],
+  "ss55-q26": [
+    "Volunteering in the community gives people useful experience."
+  ],
+  "ss55-q27": [
+    "Following a long set of instructions requires concentration."
+  ],
+  "ss55-q28": [
+    "Practising a skill regularly builds your confidence."
+  ],
+  "ss55-q29": [
+    "Not reading the terms carefully can cause problems."
+  ],
+  "ss55-q30": [
+    "Paying by card is usually more convenient than paying in cash."
+  ],
+  "ss55-q31": [
+    "Taking regular breaks improves employees’ concentration."
+  ],
+  "ss55-q32": [
+    "Repairing old machinery is expensive."
+  ],
+  "ss55-q33": [
+    "Riding a bicycle safely requires good balance."
+  ],
+  "ss55-q34": [
+    "Using public transport can reduce traffic congestion."
+  ],
+  "ss55-q35": [
+    "Studying history gives people a broader view of the world."
+  ],
+  "ss55-q36": [
+    "Explaining a complex idea clearly takes considerable effort."
+  ],
+  "ss55-q37": [
+    "Not backing up your files may cause you to lose important work."
+  ],
+  "ss55-q38": [
+    "Answering complaints politely can build customer trust."
+  ],
+  "ss55-q39": [
+    "Learning the language of another culture is one way to understand that culture."
+  ],
+  "ss55-q40": [
+    "Caring for a young animal requires time and patience."
+  ],
+  "ss55-q41": [
+    "Offering more practical activities gave students useful life skills."
+  ],
+  "ss55-q42": [
+    "Explaining a decision clearly can prevent unnecessary confusion."
+  ],
+  "ss55-q43": [
+    "Remembering many procedures at once can be difficult for new staff."
+  ],
+  "ss55-q44": [
+    "Using clear headings can make a report easier to understand."
+  ],
+  "ss55-q45": [
+    "Protecting public spaces can give residents a stronger sense of belonging."
+  ],
+  "ss55-q46": [
+    "Continuing to exercise when progress is slow takes discipline."
+  ],
+  "ss55-q47": [
+    "Checking information before sharing it can reduce the spread of false rumours."
+  ],
+  "ss55-q48": [
+    "Developing a new service requires a clear understanding of customer needs."
+  ],
+  "ss55-q49": [
+    "Discussing a serious problem honestly is often uncomfortable but necessary."
+  ],
+  "ss55-q50": [
+    "Preparing for possible emergencies protects both staff and customers."
+  ],
+  "ss56-q01": [
+    "Mia decided to join the school choir."
+  ],
+  "ss56-q02": [
+    "Leo plans to save enough money for a new bicycle."
+  ],
+  "ss56-q03": [
+    "We hope to visit the science museum next month."
+  ],
+  "ss56-q04": [
+    "Daniel promised to return the book on Friday."
+  ],
+  "ss56-q05": [
+    "The children agreed to share the computer."
+  ],
+  "ss56-q06": [
+    "Chloe offered to carry the boxes for us."
+  ],
+  "ss56-q07": [
+    "Ethan refused to copy the homework."
+  ],
+  "ss56-q08": [
+    "Ava managed to open the jar with the tight lid."
+  ],
+  "ss56-q09": [
+    "The driver failed to start the old bus."
+  ],
+  "ss56-q10": [
+    "I learnt to use this printer after some practice."
+  ],
+  "ss56-q11": [
+    "Sarah tried to stay calm during the interview."
+  ],
+  "ss56-q12": [
+    "Noah forgot to lock the back door."
+  ],
+  "ss56-q13": [
+    "Emma remembered to bring her passport."
+  ],
+  "ss56-q14": [
+    "The baby seemed to be falling asleep."
+  ],
+  "ss56-q15": [
+    "I cannot afford to repair this old laptop."
+  ],
+  "ss56-q16": [
+    "Jason chose to travel by train rather than by coach."
+  ],
+  "ss56-q17": [
+    "The team arranged to meet on Tuesday afternoon."
+  ],
+  "ss56-q18": [
+    "Grace prepared to give her first presentation."
+  ],
+  "ss56-q19": [
+    "The visitors expected to wait outside for a few minutes."
+  ],
+  "ss56-q20": [
+    "The dog appeared to recognise its former owner."
+  ],
+  "ss56-q21": [
+    "Oliver pretended to understand the joke."
+  ],
+  "ss56-q22": [
+    "We attempted to move the table without scratching the floor."
+  ],
+  "ss56-q23": [
+    "The rain continued to fall throughout the night."
+  ],
+  "ss56-q24": [
+    "The class began to discuss the final question."
+  ],
+  "ss56-q25": [
+    "Maya intends to apply for the summer programme."
+  ],
+  "ss56-q26": [
+    "The company aims to reduce paper waste this year."
+  ],
+  "ss56-q27": [
+    "The students deserve to receive clear feedback after all their hard work."
+  ],
+  "ss56-q28": [
+    "Ben hesitated to ask the stranger for directions."
+  ],
+  "ss56-q29": [
+    "The witness declined to answer the final question."
+  ],
+  "ss56-q30": [
+    "People tend to speak more quietly in libraries."
+  ],
+  "ss56-q31": [
+    "The child claimed to have seen a fox near the park."
+  ],
+  "ss56-q32": [
+    "The scientist appears to have found a simpler solution."
+  ],
+  "ss56-q33": [
+    "The train seems to be running ten minutes late."
+  ],
+  "ss56-q34": [
+    "The new assistant expects to start work next Monday."
+  ],
+  "ss56-q35": [
+    "The shop cannot afford to lower its prices further."
+  ],
+  "ss56-q36": [
+    "Anna decided not to answer the message immediately."
+  ],
+  "ss56-q37": [
+    "The boys promised not to enter the closed area."
+  ],
+  "ss56-q38": [
+    "The machine failed to detect the small crack."
+  ],
+  "ss56-q39": [
+    "Our neighbours managed to keep their garden alive during the long drought."
+  ],
+  "ss56-q40": [
+    "I happened to meet my old teacher at the station."
+  ],
+  "ss56-q41": [
+    "The local council plans to turn the empty building into a youth centre."
+  ],
+  "ss56-q42": [
+    "The hospital hopes to open a new night clinic next year."
+  ],
+  "ss56-q43": [
+    "The volunteers agreed to continue searching until sunset."
+  ],
+  "ss56-q44": [
+    "The speaker refused to change her answer despite the repeated questions."
+  ],
+  "ss56-q45": [
+    "The engineering team attempted to solve the problem without replacing the whole system."
+  ],
+  "ss56-q46": [
+    "The new software seems to have reduced the number of errors."
+  ],
+  "ss56-q47": [
+    "If you ignore the warning signs, you may fail to prevent a larger problem."
+  ],
+  "ss56-q48": [
+    "Before leaving, Marcus remembered to send the final report to his manager."
+  ],
+  "ss56-q49": [
+    "The local museum cannot afford to keep every exhibition open throughout the year."
+  ],
+  "ss56-q50": [
+    "After several difficult negotiations, both sides finally managed to reach an agreement."
+  ],
+  "ss57-q01": [
+    "My mother let me choose the dessert."
+  ],
+  "ss57-q02": [
+    "The funny video made the children laugh."
+  ],
+  "ss57-q03": [
+    "The map helped us find the station."
+  ],
+  "ss57-q04": [
+    "Dad let Leo use the family camera."
+  ],
+  "ss57-q05": [
+    "The loud noise made the baby wake up."
+  ],
+  "ss57-q06": [
+    "The guide helped the visitors understand the painting."
+  ],
+  "ss57-q07": [
+    "The coach let the players rest for ten minutes."
+  ],
+  "ss57-q08": [
+    "A cold wind made me close the window."
+  ],
+  "ss57-q09": [
+    "My sister helped me carry the heavy bags."
+  ],
+  "ss57-q10": [
+    "The school let the students leave early."
+  ],
+  "ss57-q11": [
+    "The sad film made us cry."
+  ],
+  "ss57-q12": [
+    "Amy’s older brother let her borrow his bicycle."
+  ],
+  "ss57-q13": [
+    "This computer program helps workers organise their files."
+  ],
+  "ss57-q14": [
+    "I saw the bird land on the fence."
+  ],
+  "ss57-q15": [
+    "We heard the bell ring twice."
+  ],
+  "ss57-q16": [
+    "They watched the chef cut the cake."
+  ],
+  "ss57-q17": [
+    "Ben felt the table shake beneath his hands."
+  ],
+  "ss57-q18": [
+    "The library lets children borrow up to six books at a time."
+  ],
+  "ss57-q19": [
+    "The heavy rain made the referee stop the match early."
+  ],
+  "ss57-q20": [
+    "Mr Chan helped the class understand the difficult idea."
+  ],
+  "ss57-q21": [
+    "The manager did not let staff enter the meeting room."
+  ],
+  "ss57-q22": [
+    "The fire alarm made everyone leave the building."
+  ],
+  "ss57-q23": [
+    "I watched the train cross the bridge."
+  ],
+  "ss57-q24": [
+    "The owner let the puppy play outside."
+  ],
+  "ss57-q25": [
+    "The nurse helped the patient sit up slowly."
+  ],
+  "ss57-q26": [
+    "We heard the speaker read the final sentence aloud."
+  ],
+  "ss57-q27": [
+    "The bright light made him cover his eyes."
+  ],
+  "ss57-q28": [
+    "The school rule does not let students use phones in class."
+  ],
+  "ss57-q29": [
+    "The app helps users check bus arrival times."
+  ],
+  "ss57-q30": [
+    "I felt the ground move under my feet."
+  ],
+  "ss57-q31": [
+    "The director made the actors repeat the final scene."
+  ],
+  "ss57-q32": [
+    "The museum let visitors photograph the main hall."
+  ],
+  "ss57-q33": [
+    "The subtitles helped my grandparents follow the story."
+  ],
+  "ss57-q34": [
+    "We saw the last runner cross the finish line."
+  ],
+  "ss57-q35": [
+    "I heard someone knock on the front door three times."
+  ],
+  "ss57-q36": [
+    "The news made many residents worry about the water supply."
+  ],
+  "ss57-q37": [
+    "The officer let the cyclists pass after the traffic cleared."
+  ],
+  "ss57-q38": [
+    "The diagram helped us see how the machine worked."
+  ],
+  "ss57-q39": [
+    "Emma watched the candle go out."
+  ],
+  "ss57-q40": [
+    "The sudden turn made several passengers lose their balance."
+  ],
+  "ss57-q41": [
+    "The manager had a technician check the broken printer."
+  ],
+  "ss57-q42": [
+    "The training video let new workers see each safety step clearly."
+  ],
+  "ss57-q43": [
+    "Our new software helps the finance team complete the monthly report more quickly."
+  ],
+  "ss57-q44": [
+    "We watched the rescue boat reach the injured sailor."
+  ],
+  "ss57-q45": [
+    "The principal made everyone remain silent while the announcement was made."
+  ],
+  "ss57-q46": [
+    "I saw the delivery driver place the parcel beside the front door."
+  ],
+  "ss57-q47": [
+    "The quiet music made the patients in the waiting room feel calmer."
+  ],
+  "ss57-q48": [
+    "The event organiser had two volunteers guide visitors to their seats."
+  ],
+  "ss57-q49": [
+    "The security guard did not let anyone enter until their identity card had been checked."
+  ],
+  "ss57-q50": [
+    "Several examples from daily life helped the students understand how the rule worked in different situations."
+  ],
+  "ss58-q01": [
+    "Mia enjoys reading comic books after school."
+  ],
+  "ss58-q02": [
+    "Ben avoids using his phone during family meals."
+  ],
+  "ss58-q03": [
+    "Chloe finished washing the dishes before the guests arrived."
+  ],
+  "ss58-q04": [
+    "Leo kept asking the same question throughout the lesson."
+  ],
+  "ss58-q05": [
+    "We are considering moving the meeting to Friday."
+  ],
+  "ss58-q06": [
+    "Nina enjoys cooking simple meals for her family."
+  ],
+  "ss58-q07": [
+    "The coach suggests taking a short break after each exercise."
+  ],
+  "ss58-q08": [
+    "Would you mind closing the door quietly?"
+  ],
+  "ss58-q09": [
+    "Ethan practises speaking English with his cousin every evening."
+  ],
+  "ss58-q10": [
+    "Ava admitted taking the last biscuit."
+  ],
+  "ss58-q11": [
+    "The nurse recommends drinking more water during hot weather."
+  ],
+  "ss58-q12": [
+    "Jason avoids travelling during the busiest hours."
+  ],
+  "ss58-q13": [
+    "We finished packing our bags before midnight."
+  ],
+  "ss58-q14": [
+    "The children kept laughing throughout the funny film."
+  ],
+  "ss58-q15": [
+    "The school is considering adding more reading time to the timetable."
+  ],
+  "ss58-q16": [
+    "My grandfather enjoys telling us stories about his childhood."
+  ],
+  "ss58-q17": [
+    "The driver denied using his phone at the traffic lights."
+  ],
+  "ss58-q18": [
+    "The class suggests holding the charity sale in the playground."
+  ],
+  "ss58-q19": [
+    "Can you imagine living without the internet for a month?"
+  ],
+  "ss58-q20": [
+    "Do you mind waiting here for a few minutes?"
+  ],
+  "ss58-q21": [
+    "Sofia practises writing short summaries after reading each article."
+  ],
+  "ss58-q22": [
+    "The organisers postponed opening the outdoor market because of the storm."
+  ],
+  "ss58-q23": [
+    "You should avoid touching the wet paint."
+  ],
+  "ss58-q24": [
+    "The dentist recommends brushing your teeth for two minutes."
+  ],
+  "ss58-q25": [
+    "Omar finished repairing the bicycle just before sunset."
+  ],
+  "ss58-q26": [
+    "The baby kept waking up during the night."
+  ],
+  "ss58-q27": [
+    "I miss walking along the harbour with my old friends."
+  ],
+  "ss58-q28": [
+    "The committee discussed reducing the use of paper in the office."
+  ],
+  "ss58-q29": [
+    "Marcus admitted forgetting to send the email."
+  ],
+  "ss58-q30": [
+    "Cyclists risk hurting themselves if they ignore the safety rules."
+  ],
+  "ss58-q31": [
+    "The hospital is considering extending the clinic’s opening hours."
+  ],
+  "ss58-q32": [
+    "Our group suggests using a shared calendar to organise the project."
+  ],
+  "ss58-q33": [
+    "Daniel avoids buying drinks in plastic bottles whenever possible."
+  ],
+  "ss58-q34": [
+    "Would your neighbours mind hearing music after ten o’clock?"
+  ],
+  "ss58-q35": [
+    "I cannot imagine managing this large event without your help."
+  ],
+  "ss58-q36": [
+    "The travel guide recommends booking train tickets early during the holiday season."
+  ],
+  "ss58-q37": [
+    "The students finished decorating the hall before the parents arrived."
+  ],
+  "ss58-q38": [
+    "The rain kept falling throughout the football match."
+  ],
+  "ss58-q39": [
+    "The shop owner denied raising the prices before the festival."
+  ],
+  "ss58-q40": [
+    "Grace practises explaining difficult ideas in simple language."
+  ],
+  "ss58-q41": [
+    "The council postponed repairing the footpath until the weather improved."
+  ],
+  "ss58-q42": [
+    "The company risks losing customers if it ignores repeated complaints."
+  ],
+  "ss58-q43": [
+    "Many visitors enjoy learning how local food is made."
+  ],
+  "ss58-q44": [
+    "Ryan quit drinking sugary soft drinks after his health check."
+  ],
+  "ss58-q45": [
+    "The manager mentioned changing the delivery schedule during the meeting."
+  ],
+  "ss58-q46": [
+    "We miss having a quiet place where the whole team can work together."
+  ],
+  "ss58-q47": [
+    "The university is considering allowing students to borrow laptops overnight."
+  ],
+  "ss58-q48": [
+    "The safety officer suggests checking every emergency exit before the event begins."
+  ],
+  "ss58-q49": [
+    "We appreciate receiving clear updates when the service is delayed."
+  ],
+  "ss58-q50": [
+    "The airport delayed opening the new check-in area until the final safety test was complete."
+  ],
+  "ss59-q01": [
+    "You can borrow my pen as long as you return it after class."
+  ],
+  "ss59-q02": [
+    "I am happy to help as long as you tell me what you need."
+  ],
+  "ss59-q03": [
+    "Mia may play outside as long as she finishes her homework first."
+  ],
+  "ss59-q04": [
+    "We can have dinner in the garden as long as it does not rain."
+  ],
+  "ss59-q05": [
+    "Ben may use the computer as long as he asks his parents first."
+  ],
+  "ss59-q06": [
+    "The dog may stay indoors as long as it remains quiet."
+  ],
+  "ss59-q07": [
+    "I do not mind which restaurant we choose as long as the food is fresh."
+  ],
+  "ss59-q08": [
+    "You will catch the bus as long as you leave now."
+  ],
+  "ss59-q09": [
+    "Emma can join the game as long as she follows the rules."
+  ],
+  "ss59-q10": [
+    "As long as everyone is ready, we can begin the lesson."
+  ],
+  "ss59-q11": [
+    "The picnic can continue as long as the weather stays dry."
+  ],
+  "ss59-q12": [
+    "I will lend you the book as long as you keep it clean."
+  ],
+  "ss59-q13": [
+    "Sarah may attend the concert as long as an adult goes with her."
+  ],
+  "ss59-q14": [
+    "As long as you save your work regularly, you will not lose much if the computer stops."
+  ],
+  "ss59-q15": [
+    "The shop will replace the item as long as you keep the receipt."
+  ],
+  "ss59-q16": [
+    "We can take the shorter path as long as it is safe."
+  ],
+  "ss59-q17": [
+    "David is willing to share the room as long as he has enough space for his desk."
+  ],
+  "ss59-q18": [
+    "You may bring a friend as long as you tell us in advance."
+  ],
+  "ss59-q19": [
+    "The class can use the sports hall as long as another group has not booked it."
+  ],
+  "ss59-q20": [
+    "I do not mind which vegetables you use as long as the soup tastes good."
+  ],
+  "ss59-q21": [
+    "We can end the meeting early as long as we cover all the important points."
+  ],
+  "ss59-q22": [
+    "Olivia can work from home as long as she attends the morning video call."
+  ],
+  "ss59-q23": [
+    "The patient may leave the waiting area as long as a family member stays with him."
+  ],
+  "ss59-q24": [
+    "The event can go ahead as long as enough volunteers arrive."
+  ],
+  "ss59-q25": [
+    "The children can watch the film as long as it is suitable for their age."
+  ],
+  "ss59-q26": [
+    "We can reduce waste as long as everyone sorts the rubbish correctly."
+  ],
+  "ss59-q27": [
+    "As long as the batteries are charged, this torch will work during a power cut."
+  ],
+  "ss59-q28": [
+    "The team may change the schedule as long as all members agree."
+  ],
+  "ss59-q29": [
+    "I will support the plan as long as it does not increase the cost for families."
+  ],
+  "ss59-q30": [
+    "Visitors may take photographs in the museum as long as they do not use flash."
+  ],
+  "ss59-q31": [
+    "As long as you back up the files first, you can update the programme safely."
+  ],
+  "ss59-q32": [
+    "The library will extend its opening hours as long as enough staff are available."
+  ],
+  "ss59-q33": [
+    "We do not need to choose the cheapest supplier as long as the service is reliable."
+  ],
+  "ss59-q34": [
+    "As long as passengers follow the safety instructions, the journey should be smooth."
+  ],
+  "ss59-q35": [
+    "The coach does not mind how the players train as long as their training improves their teamwork."
+  ],
+  "ss59-q36": [
+    "The community garden can remain open as long as residents help to maintain it."
+  ],
+  "ss59-q37": [
+    "As long as the school keeps parents informed, they are more likely to support the change."
+  ],
+  "ss59-q38": [
+    "The machine may be used outdoors as long as it is protected from heavy rain."
+  ],
+  "ss59-q39": [
+    "We can accept the delay as long as the final report is accurate."
+  ],
+  "ss59-q40": [
+    "As long as the password remains private, the account should stay secure."
+  ],
+  "ss59-q41": [
+    "The company can introduce flexible hours as long as customer service is not affected."
+  ],
+  "ss59-q42": [
+    "As long as the hospital keeps the emergency entrance clear, ambulances can arrive without delay."
+  ],
+  "ss59-q43": [
+    "The town can welcome more visitors as long as local services can handle the extra demand."
+  ],
+  "ss59-q44": [
+    "We can simplify the application form as long as all necessary information is still collected."
+  ],
+  "ss59-q45": [
+    "As long as the committee explains its reasons clearly, people may accept the final decision."
+  ],
+  "ss59-q46": [
+    "The school is willing to let students use tablets in class as long as they use them only for learning."
+  ],
+  "ss59-q47": [
+    "I do not mind whether the presentation is online or face to face as long as everyone can take part."
+  ],
+  "ss59-q48": [
+    "As long as the new bus route serves the main residential areas, it does not need to stop on every street."
+  ],
+  "ss59-q49": [
+    "The organisation may continue the project as long as it can show that the benefits are greater than the costs."
+  ],
+  "ss59-q50": [
+    "As long as the team responds quickly to problems, the new system can be introduced without interrupting daily services."
+  ],
+  "ss60-q01": [
+    "So long as you practise every day, you will improve your English."
+  ],
+  "ss60-q02": [
+    "You may borrow my pen so long as you return it after class."
+  ],
+  "ss60-q03": [
+    "So long as the weather stays dry, we can have lunch outside."
+  ],
+  "ss60-q04": [
+    "The baby will sleep well so long as the room remains quiet."
+  ],
+  "ss60-q05": [
+    "So long as Mia saves enough money, she will be able to buy the bicycle."
+  ],
+  "ss60-q06": [
+    "We can finish the task today so long as everyone helps."
+  ],
+  "ss60-q07": [
+    "So long as you follow the map, you will find the museum."
+  ],
+  "ss60-q08": [
+    "Jack may use the computer so long as he finishes his homework first."
+  ],
+  "ss60-q09": [
+    "So long as the soup is not too hot, the children can eat it now."
+  ],
+  "ss60-q10": [
+    "The plants will grow well so long as they receive enough sunlight."
+  ],
+  "ss60-q11": [
+    "So long as your ticket is valid, you may enter the hall."
+  ],
+  "ss60-q12": [
+    "You can join the trip so long as your parents give permission."
+  ],
+  "ss60-q13": [
+    "So long as the bus arrives on time, we will reach the airport before noon."
+  ],
+  "ss60-q14": [
+    "The library can remain open so long as enough staff are available."
+  ],
+  "ss60-q15": [
+    "So long as you do not share your password, your account should remain safe."
+  ],
+  "ss60-q16": [
+    "Customers can return the item so long as they keep the receipt."
+  ],
+  "ss60-q17": [
+    "So long as the road is clear, the driver can continue the journey."
+  ],
+  "ss60-q18": [
+    "The team may use the sports hall so long as they leave it clean afterwards."
+  ],
+  "ss60-q19": [
+    "So long as Emma takes the medicine correctly, she should feel better soon."
+  ],
+  "ss60-q20": [
+    "You may sit here so long as you do not block the doorway."
+  ],
+  "ss60-q21": [
+    "So long as all group members agree, we can change the presentation topic."
+  ],
+  "ss60-q22": [
+    "The school will approve the activity so long as it meets the safety rules."
+  ],
+  "ss60-q23": [
+    "So long as the machine is switched off first, you can clean it safely."
+  ],
+  "ss60-q24": [
+    "Visitors may take photographs so long as they do not use flash."
+  ],
+  "ss60-q25": [
+    "So long as the shop has the book in stock, I will buy it this afternoon."
+  ],
+  "ss60-q26": [
+    "We can reduce food waste so long as everyone takes only what they can eat."
+  ],
+  "ss60-q27": [
+    "So long as the patient has no fever, the doctor may allow her to go home."
+  ],
+  "ss60-q28": [
+    "The website will work properly so long as your browser is up to date."
+  ],
+  "ss60-q29": [
+    "So long as the children are accompanied by an adult, they may enter the garden."
+  ],
+  "ss60-q30": [
+    "The company can meet the deadline so long as no further delays occur."
+  ],
+  "ss60-q31": [
+    "So long as you have completed the form, you can collect your new card."
+  ],
+  "ss60-q32": [
+    "The match can continue so long as the rain does not become heavier."
+  ],
+  "ss60-q33": [
+    "So long as the instructions are followed carefully, the equipment can be used safely."
+  ],
+  "ss60-q34": [
+    "Residents may use the community room so long as they book it in advance."
+  ],
+  "ss60-q35": [
+    "So long as no one objects, we can move the meeting to Friday."
+  ],
+  "ss60-q36": [
+    "The teacher will accept your project after the deadline so long as you explain the reason honestly."
+  ],
+  "ss60-q37": [
+    "So long as the emergency exit remains clear, the event may continue."
+  ],
+  "ss60-q38": [
+    "The phone battery should last all day so long as you do not stream videos for hours."
+  ],
+  "ss60-q39": [
+    "So long as each speaker stays within the time limit, everyone will have a chance to speak."
+  ],
+  "ss60-q40": [
+    "You may travel alone so long as you keep your family informed."
+  ],
+  "ss60-q41": [
+    "So long as the final report includes accurate figures, the manager will consider the proposal."
+  ],
+  "ss60-q42": [
+    "The hospital can shorten waiting times so long as extra staff are available during busy periods."
+  ],
+  "ss60-q43": [
+    "So long as the building passes the safety inspection, the public may enter next week."
+  ],
+  "ss60-q44": [
+    "Students can choose their own research topic so long as it is related to the course."
+  ],
+  "ss60-q45": [
+    "So long as the delivery arrives before Friday, the team can complete the display on time."
+  ],
+  "ss60-q46": [
+    "The council may support the plan so long as local residents are properly consulted."
+  ],
+  "ss60-q47": [
+    "So long as you have backed up your files, you can update the system without much risk."
+  ],
+  "ss60-q48": [
+    "The charity can expand the programme so long as it receives enough long-term funding."
+  ],
+  "ss60-q49": [
+    "So long as everyone understands their role, the emergency plan should work effectively."
+  ],
+  "ss60-q50": [
+    "The company can offer flexible working hours so long as customer service is not affected."
+  ],
+  "ss61-q01": [
+    "We had no choice but to wait for the next bus."
+  ],
+  "ss61-q02": [
+    "Mia has no choice but to walk home."
+  ],
+  "ss61-q03": [
+    "I had no choice but to call the doctor."
+  ],
+  "ss61-q04": [
+    "The students had no choice but to finish the project that evening."
+  ],
+  "ss61-q05": [
+    "Ben had no choice but to replace the broken key."
+  ],
+  "ss61-q06": [
+    "We had no choice but to leave the park."
+  ],
+  "ss61-q07": [
+    "Chloe has no choice but to use the stairs to reach her office."
+  ],
+  "ss61-q08": [
+    "They had no choice but to cancel the picnic."
+  ],
+  "ss61-q09": [
+    "You have no choice but to reset your password to use the account again."
+  ],
+  "ss61-q10": [
+    "The shop had no choice but to close early."
+  ],
+  "ss61-q11": [
+    "Lily had no choice but to borrow a pen."
+  ],
+  "ss61-q12": [
+    "The driver had no choice but to take another road to continue the journey."
+  ],
+  "ss61-q13": [
+    "We have no choice but to reduce our spending to avoid debt."
+  ],
+  "ss61-q14": [
+    "Jason had no choice but to apologise."
+  ],
+  "ss61-q15": [
+    "The nurse has no choice but to ask the patient to wait."
+  ],
+  "ss61-q16": [
+    "The team had no choice but to practise indoors."
+  ],
+  "ss61-q17": [
+    "I have no choice but to delete some unused files to install the update."
+  ],
+  "ss61-q18": [
+    "Sarah had no choice but to return the dress."
+  ],
+  "ss61-q19": [
+    "The family had no choice but to stay in a hotel for the night."
+  ],
+  "ss61-q20": [
+    "You have no choice but to show your identification at the entrance."
+  ],
+  "ss61-q21": [
+    "The school has no choice but to repair the roof before winter."
+  ],
+  "ss61-q22": [
+    "Olivia had no choice but to take the later train."
+  ],
+  "ss61-q23": [
+    "The manager had no choice but to postpone the meeting."
+  ],
+  "ss61-q24": [
+    "If the supplier cannot deliver tomorrow, we may have no choice but to ask the client for more time."
+  ],
+  "ss61-q25": [
+    "The council has no choice but to limit access to the damaged bridge."
+  ],
+  "ss61-q26": [
+    "Ethan had no choice but to cook with the ingredients he had."
+  ],
+  "ss61-q27": [
+    "The passengers had no choice but to leave the train."
+  ],
+  "ss61-q28": [
+    "Grace has no choice but to wear glasses when driving."
+  ],
+  "ss61-q29": [
+    "The company had no choice but to refund the customers in full."
+  ],
+  "ss61-q30": [
+    "I had no choice but to admit my mistake."
+  ],
+  "ss61-q31": [
+    "If the rain continues, we will have no choice but to cancel the match."
+  ],
+  "ss61-q32": [
+    "The hospital had no choice but to move the patients to another ward."
+  ],
+  "ss61-q33": [
+    "You may have no choice but to restart the computer."
+  ],
+  "ss61-q34": [
+    "The organisers had no choice but to shorten the programme to finish on time."
+  ],
+  "ss61-q35": [
+    "Maya had no choice but to ask a stranger for directions."
+  ],
+  "ss61-q36": [
+    "The restaurant has no choice but to remove the dish from the menu."
+  ],
+  "ss61-q37": [
+    "Without that room, we would have had no choice but to sleep at the airport."
+  ],
+  "ss61-q38": [
+    "The farmer had no choice but to sell some of his animals to keep the farm operating."
+  ],
+  "ss61-q39": [
+    "The museum has no choice but to restrict the number of visitors."
+  ],
+  "ss61-q40": [
+    "I have no choice but to take the exam again."
+  ],
+  "ss61-q41": [
+    "The library has no choice but to close the reading room until the ceiling is repaired."
+  ],
+  "ss61-q42": [
+    "The rescue team had no choice but to continue on foot to reach the village."
+  ],
+  "ss61-q43": [
+    "Unless more volunteers join, the charity will have no choice but to reduce its weekend services."
+  ],
+  "ss61-q44": [
+    "The airline had no choice but to arrange hotel rooms for the stranded passengers."
+  ],
+  "ss61-q45": [
+    "The school may have no choice but to combine the two small classes next term."
+  ],
+  "ss61-q46": [
+    "The engineers had no choice but to replace the entire control panel."
+  ],
+  "ss61-q47": [
+    "We had no choice but to report the missing documents to the manager immediately."
+  ],
+  "ss61-q48": [
+    "The local clinic has no choice but to refer the patient to a larger hospital."
+  ],
+  "ss61-q49": [
+    "If the hall became unavailable, the organisers would have no choice but to move the event online."
+  ],
+  "ss61-q50": [
+    "The research team had no choice but to repeat the experiment after discovering that the temperature records were incomplete."
+  ],
+  "ss62-q01": [
+    "If only I had more time to finish the book."
+  ],
+  "ss62-q02": [
+    "If only Mia lived closer to school."
+  ],
+  "ss62-q03": [
+    "If only the room were warmer."
+  ],
+  "ss62-q04": [
+    "If only Ben knew the answer."
+  ],
+  "ss62-q05": [
+    "If only we had a larger kitchen."
+  ],
+  "ss62-q06": [
+    "If only the bus came more often."
+  ],
+  "ss62-q07": [
+    "If only Daniel spoke more slowly."
+  ],
+  "ss62-q08": [
+    "If only my phone worked properly."
+  ],
+  "ss62-q09": [
+    "If only the shop were still open."
+  ],
+  "ss62-q10": [
+    "If only they had enough chairs for everyone."
+  ],
+  "ss62-q11": [
+    "If only Lily could play the piano."
+  ],
+  "ss62-q12": [
+    "If only Chloe could stay for dinner."
+  ],
+  "ss62-q13": [
+    "If only we could see the stage more clearly."
+  ],
+  "ss62-q14": [
+    "If only the baby would stop crying."
+  ],
+  "ss62-q15": [
+    "If only the neighbours would turn the music down."
+  ],
+  "ss62-q16": [
+    "I would buy that coat if only it were cheaper."
+  ],
+  "ss62-q17": [
+    "Ethan could join us if only he were free this afternoon."
+  ],
+  "ss62-q18": [
+    "We could finish earlier if only the printer worked faster."
+  ],
+  "ss62-q19": [
+    "The garden would look better if only it got more sunlight."
+  ],
+  "ss62-q20": [
+    "Ava would feel less nervous if only she knew someone there."
+  ],
+  "ss62-q21": [
+    "If only I had brought an umbrella."
+  ],
+  "ss62-q22": [
+    "If only Leo had checked the timetable."
+  ],
+  "ss62-q23": [
+    "If only we had booked the tickets earlier."
+  ],
+  "ss62-q24": [
+    "If only Sarah had saved the document."
+  ],
+  "ss62-q25": [
+    "If only the driver had seen the sign."
+  ],
+  "ss62-q26": [
+    "I would not have missed the meeting if only I had set an alarm."
+  ],
+  "ss62-q27": [
+    "The cake would have tasted better if only Nina had added less sugar."
+  ],
+  "ss62-q28": [
+    "We could have found the hotel sooner if only we had asked for directions."
+  ],
+  "ss62-q29": [
+    "The team might have won if only they had defended more carefully."
+  ],
+  "ss62-q30": [
+    "The plants would not have died if only someone had watered them."
+  ],
+  "ss62-q31": [
+    "If only my brother were more patient."
+  ],
+  "ss62-q32": [
+    "If only I could remember her name."
+  ],
+  "ss62-q33": [
+    "If only the rain would stop."
+  ],
+  "ss62-q34": [
+    "Olivia would travel more often if only she had more annual leave."
+  ],
+  "ss62-q35": [
+    "The children could play outside if only the air were cleaner."
+  ],
+  "ss62-q36": [
+    "If only I had listened to my teacher's advice."
+  ],
+  "ss62-q37": [
+    "If only Marcus had not deleted the email."
+  ],
+  "ss62-q38": [
+    "We would have caught the last train if only the queue had moved faster."
+  ],
+  "ss62-q39": [
+    "The customer would be happier if only the company replied sooner."
+  ],
+  "ss62-q40": [
+    "If only this laptop were not so heavy."
+  ],
+  "ss62-q41": [
+    "If only the school had a quieter place where students could study."
+  ],
+  "ss62-q42": [
+    "The hospital could reduce waiting times if only it had more staff at night."
+  ],
+  "ss62-q43": [
+    "If only I had explained the problem more clearly during the call."
+  ],
+  "ss62-q44": [
+    "The project would have stayed on schedule if only the supplier had delivered the parts on time."
+  ],
+  "ss62-q45": [
+    "If only public transport were more reliable during bad weather."
+  ],
+  "ss62-q46": [
+    "Grace could concentrate better if only the office were not so noisy."
+  ],
+  "ss62-q47": [
+    "If only the council would repair the broken street lights."
+  ],
+  "ss62-q48": [
+    "We might have avoided the misunderstanding if only both sides had checked the details."
+  ],
+  "ss62-q49": [
+    "The presentation would have been more convincing if only we had included clearer examples."
+  ],
+  "ss62-q50": [
+    "If only I had realised earlier how much the decision would affect the whole team."
+  ],
+  "ss63-q01": [
+    "You may enter the library only if you have a valid card."
+  ],
+  "ss63-q02": [
+    "Mia can watch television only if she finishes her homework."
+  ],
+  "ss63-q03": [
+    "We will go for a picnic only if the weather is dry."
+  ],
+  "ss63-q04": [
+    "Leo may borrow the bicycle only if he wears a helmet."
+  ],
+  "ss63-q05": [
+    "The dog can go outside only if the gate is closed."
+  ],
+  "ss63-q06": [
+    "I buy this magazine only if it contains an article I need."
+  ],
+  "ss63-q07": [
+    "Students can use the computer room only if a teacher is present."
+  ],
+  "ss63-q08": [
+    "Chloe will join the walk only if her ankle feels better."
+  ],
+  "ss63-q09": [
+    "The shop gives customers a refund only if they show the receipt."
+  ],
+  "ss63-q10": [
+    "You can make a call only if the phone has enough battery power."
+  ],
+  "ss63-q11": [
+    "The team can start training only if all the players have arrived."
+  ],
+  "ss63-q12": [
+    "Daniel will drive us home only if he is not too tired."
+  ],
+  "ss63-q13": [
+    "Guests may use the swimming pool only if they wear the hotel wristband."
+  ],
+  "ss63-q14": [
+    "I will order the soup only if it is not too spicy."
+  ],
+  "ss63-q15": [
+    "The printer works only if it is connected to the network."
+  ],
+  "ss63-q16": [
+    "Sarah can collect the parcel only if she brings photo identification."
+  ],
+  "ss63-q17": [
+    "We can book the room only if it is still available."
+  ],
+  "ss63-q18": [
+    "The nurse may remove the bandage only if the wound has healed."
+  ],
+  "ss63-q19": [
+    "Press this button only if the machine stops unexpectedly."
+  ],
+  "ss63-q20": [
+    "The children may cross the road only if the traffic light is green."
+  ],
+  "ss63-q21": [
+    "The school trip will take place only if enough parents volunteer."
+  ],
+  "ss63-q22": [
+    "Customers can receive the discount only if they spend at least fifty dollars."
+  ],
+  "ss63-q23": [
+    "The match can continue only if the rain becomes lighter."
+  ],
+  "ss63-q24": [
+    "The company will accept an application only if all its sections are complete."
+  ],
+  "ss63-q25": [
+    "The patient may leave hospital only if the doctor gives approval."
+  ],
+  "ss63-q26": [
+    "The lights turn on only if the sensor detects movement."
+  ],
+  "ss63-q27": [
+    "The council will open the shelter only if the temperature falls below five degrees Celsius."
+  ],
+  "ss63-q28": [
+    "Emma will share the document only if everyone agrees to keep it private."
+  ],
+  "ss63-q29": [
+    "The lift can be used only if the safety inspection has been completed."
+  ],
+  "ss63-q30": [
+    "We will change the plan only if the new information is reliable."
+  ],
+  "ss63-q31": [
+    "The alarm would sound only if smoke entered the room."
+  ],
+  "ss63-q32": [
+    "The museum extended its opening hours only if a special exhibition was being held."
+  ],
+  "ss63-q33": [
+    "The manager approved overtime only if the work could not be completed the next day."
+  ],
+  "ss63-q34": [
+    "The software saves a backup only if the device is connected to Wi-Fi."
+  ],
+  "ss63-q35": [
+    "The rescue boat was sent out only if the sea conditions were safe enough."
+  ],
+  "ss63-q36": [
+    "You may share these photographs only if the people in them have given permission."
+  ],
+  "ss63-q37": [
+    "The class will move online only if the school building cannot be used."
+  ],
+  "ss63-q38": [
+    "The payment can be released only if both sides have signed the agreement."
+  ],
+  "ss63-q39": [
+    "Take the medicine only if the pain returns."
+  ],
+  "ss63-q40": [
+    "The road can reopen only if engineers confirm that the bridge is safe."
+  ],
+  "ss63-q41": [
+    "The research team will publish the findings only if the results can be checked independently."
+  ],
+  "ss63-q42": [
+    "Residents can return to the building only if the fire service declares it safe."
+  ],
+  "ss63-q43": [
+    "The charity can begin the project only if it receives enough long-term funding."
+  ],
+  "ss63-q44": [
+    "The judge may consider the new evidence only if its source can be verified."
+  ],
+  "ss63-q45": [
+    "The system allows a password change only if the user answers two security questions correctly."
+  ],
+  "ss63-q46": [
+    "Only if every passenger is seated can the driver move the bus."
+  ],
+  "ss63-q47": [
+    "Only if the new sports centre passes the final inspection will it open."
+  ],
+  "ss63-q48": [
+    "Only if both departments agree can the timetable be changed."
+  ],
+  "ss63-q49": [
+    "Only if the emergency line is busy should you use this second number."
+  ],
+  "ss63-q50": [
+    "Only if the data show a clear benefit will the hospital expand the programme."
+  ],
+  "ss64-q01": [
+    "I am about to start my homework."
+  ],
+  "ss64-q02": [
+    "Mia is about to open the door."
+  ],
+  "ss64-q03": [
+    "The lesson is about to begin."
+  ],
+  "ss64-q04": [
+    "We are about to have lunch."
+  ],
+  "ss64-q05": [
+    "Ben was about to call his mother."
+  ],
+  "ss64-q06": [
+    "The bus is about to leave."
+  ],
+  "ss64-q07": [
+    "Ella is about to take a shower."
+  ],
+  "ss64-q08": [
+    "My father was about to turn off the television."
+  ],
+  "ss64-q09": [
+    "They are about to play the match."
+  ],
+  "ss64-q10": [
+    "The baby is about to fall asleep."
+  ],
+  "ss64-q11": [
+    "As Leo was about to cross the road, the traffic light turned red."
+  ],
+  "ss64-q12": [
+    "When I was about to send the email, I noticed a spelling mistake."
+  ],
+  "ss64-q13": [
+    "Ava was about to sit down when the teacher called her name."
+  ],
+  "ss64-q14": [
+    "As the film was about to start, two people entered the cinema."
+  ],
+  "ss64-q15": [
+    "The chef was about to serve the soup when he realised that it needed more salt."
+  ],
+  "ss64-q16": [
+    "When we were about to leave the house, it began to rain."
+  ],
+  "ss64-q17": [
+    "Chloe was about to pay when she saw that her wallet was missing."
+  ],
+  "ss64-q18": [
+    "As the train was about to move, a passenger ran onto the platform."
+  ],
+  "ss64-q19": [
+    "The children were about to open the gift when their father asked them to wait."
+  ],
+  "ss64-q20": [
+    "When Daniel was about to answer, the bell rang."
+  ],
+  "ss64-q21": [
+    "The shop is about to close, so please choose quickly."
+  ],
+  "ss64-q22": [
+    "Aisha was about to board the plane when her phone rang."
+  ],
+  "ss64-q23": [
+    "The doctor is about to see the next patient."
+  ],
+  "ss64-q24": [
+    "As our team was about to score, the goalkeeper caught the ball."
+  ],
+  "ss64-q25": [
+    "The computer was about to shut down when the power returned."
+  ],
+  "ss64-q26": [
+    "The workers are about to finish repairing the road."
+  ],
+  "ss64-q27": [
+    "When Nora was about to press the button, the engineer stopped her."
+  ],
+  "ss64-q28": [
+    "The old tree is about to fall, so keep away from it."
+  ],
+  "ss64-q29": [
+    "The concert was about to begin when the sound system failed."
+  ],
+  "ss64-q30": [
+    "I was about to tell Sam the news when he told me first."
+  ],
+  "ss64-q31": [
+    "The results are about to be announced."
+  ],
+  "ss64-q32": [
+    "A new library is about to be officially opened in our district."
+  ],
+  "ss64-q33": [
+    "As the final question was about to be asked, the microphone stopped working."
+  ],
+  "ss64-q34": [
+    "The road is about to be reopened because the repairs are now complete."
+  ],
+  "ss64-q35": [
+    "When the winning name was about to be read out, the lights went off."
+  ],
+  "ss64-q36": [
+    "This milk is about to boil, so turn down the heat."
+  ],
+  "ss64-q37": [
+    "The plane was about to land when strong winds forced it to circle above the airport."
+  ],
+  "ss64-q38": [
+    "Our online meeting is about to start, but the manager has not joined yet."
+  ],
+  "ss64-q39": [
+    "As the dog was about to jump into the lake, its owner caught its collar."
+  ],
+  "ss64-q40": [
+    "The school play was about to end when the fire alarm sounded."
+  ],
+  "ss64-q41": [
+    "The hospital is about to introduce a new booking system."
+  ],
+  "ss64-q42": [
+    "As the last passenger was about to get off, the bus driver noticed a bag under a seat."
+  ],
+  "ss64-q43": [
+    "The old website is about to be replaced by a simpler one."
+  ],
+  "ss64-q44": [
+    "When the council was about to vote on the plan, one member asked for more information."
+  ],
+  "ss64-q45": [
+    "The team was about to complete the project when a serious error appeared in the final report."
+  ],
+  "ss64-q46": [
+    "As Mei was about to explain why the machine had stopped, it started working again."
+  ],
+  "ss64-q47": [
+    "The damaged bridge is about to be closed to traffic."
+  ],
+  "ss64-q48": [
+    "When the volunteers were about to hand out the food, they discovered that several boxes were missing."
+  ],
+  "ss64-q49": [
+    "The scientists were about to begin the final test when a safety alarm interrupted them."
+  ],
+  "ss64-q50": [
+    "As the speaker was about to reveal the main result of the study, the screen suddenly went blank."
+  ],
+  "ss65-q01": [
+    "It is time to go home."
+  ],
+  "ss65-q02": [
+    "It is time to begin the lesson."
+  ],
+  "ss65-q03": [
+    "We decided it was time to have lunch."
+  ],
+  "ss65-q04": [
+    "Mum said it was time to turn off the television."
+  ],
+  "ss65-q05": [
+    "I knew it was time to clean my room."
+  ],
+  "ss65-q06": [
+    "We realised it was time to leave for the bus stop."
+  ],
+  "ss65-q07": [
+    "Dad told me it was time to do my homework."
+  ],
+  "ss65-q08": [
+    "It is time to water the plants."
+  ],
+  "ss65-q09": [
+    "The children knew it was time to get ready for bed."
+  ],
+  "ss65-q10": [
+    "It was time to open the shop."
+  ],
+  "ss65-q11": [
+    "Mia realised it was time to apologise to her friend."
+  ],
+  "ss65-q12": [
+    "Ben knew it was time to replace his old shoes."
+  ],
+  "ss65-q13": [
+    "We agreed it was time to discuss the problem calmly."
+  ],
+  "ss65-q14": [
+    "The coach decided it was time to change the team's training plan."
+  ],
+  "ss65-q15": [
+    "I felt it was time to speak honestly about my concerns."
+  ],
+  "ss65-q16": [
+    "We knew it was time to book the tickets because the travel date was getting close."
+  ],
+  "ss65-q17": [
+    "The landlord agreed it was time to check the smoke alarm because it had not been checked for a year."
+  ],
+  "ss65-q18": [
+    "I knew it was time to return the library books because they were due that day."
+  ],
+  "ss65-q19": [
+    "Sam knew it was time to recharge the battery because it was almost empty."
+  ],
+  "ss65-q20": [
+    "After discussing every option, we agreed it was time to make a decision."
+  ],
+  "ss65-q21": [
+    "After reviewing the test results, the doctor said it was time to reduce the amount of medicine the patient was taking."
+  ],
+  "ss65-q22": [
+    "The school decided it was time to update its safety rules."
+  ],
+  "ss65-q23": [
+    "After the roof has leaked for weeks, it is time to repair it."
+  ],
+  "ss65-q24": [
+    "It is time to stop wasting food."
+  ],
+  "ss65-q25": [
+    "It is time to protect the trees in this area."
+  ],
+  "ss65-q26": [
+    "After several security problems, the company agreed it was time to improve the website's security."
+  ],
+  "ss65-q27": [
+    "It is time to ask for professional advice because the problem has become too complicated for us to handle alone."
+  ],
+  "ss65-q28": [
+    "The nurse decided it was time to move the patient to a quieter room because the ward had become noisy."
+  ],
+  "ss65-q29": [
+    "We recognised that it was time to review the budget."
+  ],
+  "ss65-q30": [
+    "The residents agreed that it was time to report the broken streetlight."
+  ],
+  "ss65-q31": [
+    "If the rain stops, it will be time to continue the match."
+  ],
+  "ss65-q32": [
+    "When the final guest arrives, it will be time to serve dinner."
+  ],
+  "ss65-q33": [
+    "After the equipment had been tested, it was time to begin the experiment."
+  ],
+  "ss65-q34": [
+    "The manager felt it was time to give the team clearer instructions."
+  ],
+  "ss65-q35": [
+    "It is time to stop relying on a single supplier."
+  ],
+  "ss65-q36": [
+    "Several years have passed since the last review, so it is time to review how personal data is stored."
+  ],
+  "ss65-q37": [
+    "The council decided it was time to create more shaded areas in the park."
+  ],
+  "ss65-q38": [
+    "We knew it was time to leave because the roads would soon become crowded."
+  ],
+  "ss65-q39": [
+    "Because the temporary solution has been used for too long, it is time to replace it with a permanent one."
+  ],
+  "ss65-q40": [
+    "After checking the data again, the researchers concluded that it was time to publish their findings."
+  ],
+  "ss65-q41": [
+    "After months of preparation, the team knew it was time to launch the new service."
+  ],
+  "ss65-q42": [
+    "After repeated complaints about long waits, the hospital decided it was time to introduce a new booking system."
+  ],
+  "ss65-q43": [
+    "The authorities accepted it was time to make public transport easier for older passengers to use."
+  ],
+  "ss65-q44": [
+    "The committee agreed that it was time to examine why the project had been delayed."
+  ],
+  "ss65-q45": [
+    "I knew it was time to come back to Hong Kong for my family."
+  ],
+  "ss65-q46": [
+    "When the same error appeared again after two attempts to fix it, the engineers realised it was time to redesign the process."
+  ],
+  "ss65-q47": [
+    "Because another temporary repair was not enough, the neighbourhood group felt it was time to ask the council for a long-term solution."
+  ],
+  "ss65-q48": [
+    "Because false information is spreading quickly, schools have decided it is time to teach students how to check online information more carefully."
+  ],
+  "ss65-q49": [
+    "The company accepted that it was time to stop using packaging that could not be recycled."
+  ],
+  "ss65-q50": [
+    "After considering the risks and benefits, the government decided it was time to revise the policy."
+  ],
+  "ss66-q01": [
+    "It’s time we went home."
+  ],
+  "ss66-q02": [
+    "It’s time you started your homework."
+  ],
+  "ss66-q03": [
+    "It’s time Mia went to bed."
+  ],
+  "ss66-q04": [
+    "It’s time the lesson started."
+  ],
+  "ss66-q05": [
+    "It’s time I cleaned my room."
+  ],
+  "ss66-q06": [
+    "It’s time Ben left for school."
+  ],
+  "ss66-q07": [
+    "It’s time we ate dinner."
+  ],
+  "ss66-q08": [
+    "It’s time you turned off the television."
+  ],
+  "ss66-q09": [
+    "It’s time the children were in bed."
+  ],
+  "ss66-q10": [
+    "It’s time the bus left."
+  ],
+  "ss66-q11": [
+    "It’s time Sarah replied to the email."
+  ],
+  "ss66-q12": [
+    "It’s time we booked the train tickets."
+  ],
+  "ss66-q13": [
+    "It’s time Leo apologised to his sister."
+  ],
+  "ss66-q14": [
+    "It’s time the players took a short break."
+  ],
+  "ss66-q15": [
+    "It’s time you replaced that broken pen."
+  ],
+  "ss66-q16": [
+    "It’s time we made a decision."
+  ],
+  "ss66-q17": [
+    "It’s time the shop closed for the night."
+  ],
+  "ss66-q18": [
+    "It’s time Dad fixed the tap."
+  ],
+  "ss66-q19": [
+    "It’s time the students handed in their projects."
+  ],
+  "ss66-q20": [
+    "It’s time I spoke to the teacher about this problem."
+  ],
+  "ss66-q21": [
+    "It’s time the council repaired the damaged pavement."
+  ],
+  "ss66-q22": [
+    "It’s time we discussed the budget."
+  ],
+  "ss66-q23": [
+    "The doctor says it’s time you reduced your sugar intake."
+  ],
+  "ss66-q24": [
+    "After three delays, it’s time the company launched the new service."
+  ],
+  "ss66-q25": [
+    "It’s time we replaced this old computer."
+  ],
+  "ss66-q26": [
+    "The coach believes it’s time the players practised defending corners."
+  ],
+  "ss66-q27": [
+    "With the rainy season approaching, it’s time we checked the roof."
+  ],
+  "ss66-q28": [
+    "It’s time the library extended its opening hours."
+  ],
+  "ss66-q29": [
+    "It’s time you acted on this warning."
+  ],
+  "ss66-q30": [
+    "It’s time we had a serious conversation about our plans."
+  ],
+  "ss66-q31": [
+    "It’s time the school improved the playground."
+  ],
+  "ss66-q32": [
+    "Perhaps it’s time we asked for professional advice."
+  ],
+  "ss66-q33": [
+    "It’s time the factory updated its safety procedures."
+  ],
+  "ss66-q34": [
+    "It’s time our neighbourhood had a proper recycling point."
+  ],
+  "ss66-q35": [
+    "I believe it’s time the manager listened to the staff’s concerns."
+  ],
+  "ss66-q36": [
+    "It’s time the government reviewed this outdated rule."
+  ],
+  "ss66-q37": [
+    "It’s time the parents chose a school."
+  ],
+  "ss66-q38": [
+    "It’s time we stopped relying on paper forms."
+  ],
+  "ss66-q39": [
+    "It’s time the museum returned the borrowed paintings."
+  ],
+  "ss66-q40": [
+    "It’s time the committee published its findings."
+  ],
+  "ss66-q41": [
+    "After months of complaints, it’s time the council made the crossing safer."
+  ],
+  "ss66-q42": [
+    "It’s time the hospital replaced its old booking system."
+  ],
+  "ss66-q43": [
+    "Since our team keeps repeating the same mistake, it’s time we changed our approach."
+  ],
+  "ss66-q44": [
+    "After several requests, it’s time the landlord repaired the leaking window."
+  ],
+  "ss66-q45": [
+    "It’s time the school made the timetable clearer."
+  ],
+  "ss66-q46": [
+    "Because the city has grown quickly, it’s time the city authorities reconsidered the transport plan."
+  ],
+  "ss66-q47": [
+    "Since the website still does not work well on phones, it’s time the developers redesigned it."
+  ],
+  "ss66-q48": [
+    "We have collected enough evidence, and it’s time we decided whether to continue the project."
+  ],
+  "ss66-q49": [
+    "The charity has depended on one donor for too long, so it’s time it developed a wider funding plan."
+  ],
+  "ss66-q50": [
+    "Everyone on the board has received the report, and after two postponements, it’s time the board held the final vote."
+  ],
+  "ss67-q01": [
+    "I used to draw animals after school when I was six."
+  ],
+  "ss67-q02": [
+    "Lily used to walk to primary school."
+  ],
+  "ss67-q03": [
+    "Ben used to play football in the park on Sundays."
+  ],
+  "ss67-q04": [
+    "My family used to live in a small flat before we moved here."
+  ],
+  "ss67-q05": [
+    "The shop used to be a bakery."
+  ],
+  "ss67-q06": [
+    "We used to visit our grandparents during the school holidays."
+  ],
+  "ss67-q07": [
+    "Nina used to drink a glass of milk every morning as a child."
+  ],
+  "ss67-q08": [
+    "There used to be fewer cars on this road."
+  ],
+  "ss67-q09": [
+    "Sam used to have long hair at university."
+  ],
+  "ss67-q10": [
+    "I didn’t use to like spicy food when I was younger."
+  ],
+  "ss67-q11": [
+    "Omar used to read by the window every evening before going to bed."
+  ],
+  "ss67-q12": [
+    "Amy used to keep a diary when she was a teenager."
+  ],
+  "ss67-q13": [
+    "People used to pay their bills at the bank before online banking became common."
+  ],
+  "ss67-q14": [
+    "Did Daniel use to cycle to work?"
+  ],
+  "ss67-q15": [
+    "There used to be an old cinema here."
+  ],
+  "ss67-q16": [
+    "Grace used to be very shy as a child."
+  ],
+  "ss67-q17": [
+    "We didn’t use to eat out on weekdays when I was young."
+  ],
+  "ss67-q18": [
+    "The cousins used to stay with their aunt in the countryside every summer."
+  ],
+  "ss67-q19": [
+    "This river used to be much cleaner."
+  ],
+  "ss67-q20": [
+    "Did your father use to work night shifts?"
+  ],
+  "ss67-q21": [
+    "The library used to close at six."
+  ],
+  "ss67-q22": [
+    "I used to carry a paper map before smartphones were available."
+  ],
+  "ss67-q23": [
+    "Maya used to believe every rumour she heard."
+  ],
+  "ss67-q24": [
+    "The neighbours used to hold a street party each autumn."
+  ],
+  "ss67-q25": [
+    "Ethan didn’t use to pay much attention to the news as a teenager."
+  ],
+  "ss67-q26": [
+    "Did this building use to be a hospital?"
+  ],
+  "ss67-q27": [
+    "Our teacher used to give us a spelling test every Friday."
+  ],
+  "ss67-q28": [
+    "Chloe used to eat peanuts without any problem."
+  ],
+  "ss67-q29": [
+    "Hundreds of people used to work here when the factory was open."
+  ],
+  "ss67-q30": [
+    "The lake used to freeze every winter."
+  ],
+  "ss67-q31": [
+    "I used to be afraid of speaking in front of the class in primary school."
+  ],
+  "ss67-q32": [
+    "Marcus used to arrive first and unlock the office every Monday morning."
+  ],
+  "ss67-q33": [
+    "The journey used to take two hours before the new road was built."
+  ],
+  "ss67-q34": [
+    "The town didn’t use to have a public swimming pool."
+  ],
+  "ss67-q35": [
+    "Did you use to check your phone during meals?"
+  ],
+  "ss67-q36": [
+    "Sophie used to forget her keys before she began using a reminder."
+  ],
+  "ss67-q37": [
+    "The team used to train outdoors even when it rained."
+  ],
+  "ss67-q38": [
+    "The computer room used to be on the second floor."
+  ],
+  "ss67-q39": [
+    "My grandfather used to repair his own radio equipment."
+  ],
+  "ss67-q40": [
+    "There didn’t use to be so much plastic packaging when my parents were young."
+  ],
+  "ss67-q41": [
+    "Patients used to wait in a long queue just to make an appointment."
+  ],
+  "ss67-q42": [
+    "Students used to practise listening with cassette players when the school had no language laboratory."
+  ],
+  "ss67-q43": [
+    "Our manager used to travel between the two offices almost every week."
+  ],
+  "ss67-q44": [
+    "The community centre used to offer free evening classes."
+  ],
+  "ss67-q45": [
+    "Did buses in this district use to stop running before midnight?"
+  ],
+  "ss67-q46": [
+    "Workers didn’t use to have to wear protective glasses before stricter safety rules were introduced."
+  ],
+  "ss67-q47": [
+    "Ella and her brother used to build small boats and race them in the stream."
+  ],
+  "ss67-q48": [
+    "The museum used to display local paintings in this room."
+  ],
+  "ss67-q49": [
+    "Many residents used to depend on one small ferry to reach the town."
+  ],
+  "ss67-q50": [
+    "Did the company use to send every invoice by post rather than by email?"
+  ],
+  "ss68-q01": [
+    "I am used to waking up at six."
+  ],
+  "ss68-q02": [
+    "Ella is used to traffic noise."
+  ],
+  "ss68-q03": [
+    "We are used to eating dinner late."
+  ],
+  "ss68-q04": [
+    "Leo is used to cold weather."
+  ],
+  "ss68-q05": [
+    "My brother is used to travelling by bus every day."
+  ],
+  "ss68-q06": [
+    "The students are used to speaking English in class."
+  ],
+  "ss68-q07": [
+    "This nurse is used to working at night."
+  ],
+  "ss68-q08": [
+    "Mia is used to carrying a laptop to school."
+  ],
+  "ss68-q09": [
+    "Ben is used to the strong taste of black coffee."
+  ],
+  "ss68-q10": [
+    "Sara is used to the noise in a busy café."
+  ],
+  "ss68-q11": [
+    "Daniel is used to starting work at seven."
+  ],
+  "ss68-q12": [
+    "Chloe is used to hot summers."
+  ],
+  "ss68-q13": [
+    "My grandparents are used to using video calls."
+  ],
+  "ss68-q14": [
+    "I am used to sharing a room with my sister."
+  ],
+  "ss68-q15": [
+    "The team is used to training in the rain."
+  ],
+  "ss68-q16": [
+    "Noah is now used to typing on the small keyboard."
+  ],
+  "ss68-q17": [
+    "The workers are used to the smell of paint."
+  ],
+  "ss68-q18": [
+    "We are used to working without air conditioning."
+  ],
+  "ss68-q19": [
+    "Are you used to speaking in front of large groups?"
+  ],
+  "ss68-q20": [
+    "After several weeks, Maya was used to the new school timetable."
+  ],
+  "ss68-q21": [
+    "Ethan was used to rainy mornings when he lived in London."
+  ],
+  "ss68-q22": [
+    "I was used to sharing a desk at that time."
+  ],
+  "ss68-q23": [
+    "Before the office moved, the staff were used to working in a small room."
+  ],
+  "ss68-q24": [
+    "Olivia was used to handling customer complaints after several years in customer service."
+  ],
+  "ss68-q25": [
+    "Were your parents used to long train journeys?"
+  ],
+  "ss68-q26": [
+    "The children were not used to sleeping away from home."
+  ],
+  "ss68-q27": [
+    "I was not used to the local accent at first."
+  ],
+  "ss68-q28": [
+    "Grace was used to living alone after six months."
+  ],
+  "ss68-q29": [
+    "After spending years in hot kitchens, the chef was used to the heat."
+  ],
+  "ss68-q30": [
+    "The manager was used to starting work before sunrise."
+  ],
+  "ss68-q31": [
+    "The cyclists are used to wearing a helmet every day."
+  ],
+  "ss68-q32": [
+    "Ava is used to the new software."
+  ],
+  "ss68-q33": [
+    "We are used to studying while the building work is going on."
+  ],
+  "ss68-q34": [
+    "Henry is used to answering questions in English."
+  ],
+  "ss68-q35": [
+    "The residents are used to aircraft noise after living beside the airport for years."
+  ],
+  "ss68-q36": [
+    "Paula is used to lifting heavy boxes as a delivery driver."
+  ],
+  "ss68-q37": [
+    "The students are now used to doing homework online."
+  ],
+  "ss68-q38": [
+    "I am not used to wearing formal shoes."
+  ],
+  "ss68-q39": [
+    "Is your cousin used to living in a very small flat?"
+  ],
+  "ss68-q40": [
+    "The rescue team was used to working under pressure."
+  ],
+  "ss68-q41": [
+    "Sofia is used to eating different kinds of food after years abroad."
+  ],
+  "ss68-q42": [
+    "The hospital staff are used to working through public holidays."
+  ],
+  "ss68-q43": [
+    "After a month, Marcus was used to the flexible schedule."
+  ],
+  "ss68-q44": [
+    "The volunteers are used to speaking to people from many countries."
+  ],
+  "ss68-q45": [
+    "The researchers are used to the low temperature in the laboratory."
+  ],
+  "ss68-q46": [
+    "The teacher is used to managing forty students at once."
+  ],
+  "ss68-q47": [
+    "The flight attendants are used to giving clear instructions even during emergencies."
+  ],
+  "ss68-q48": [
+    "The villagers were used to walking to the well to collect water every day."
+  ],
+  "ss68-q49": [
+    "Will Lena be used to the early winter sunsets after another year in the north?"
+  ],
+  "ss68-q50": [
+    "After many international flights, the pilots are now used to moving between time zones, although it once exhausted them."
+  ],
+  "ss69-q01": [
+    "The walk was long; nonetheless, we enjoyed it."
+  ],
+  "ss69-q02": [
+    "The room was small; nevertheless, it was comfortable."
+  ],
+  "ss69-q03": [
+    "Mia was tired; nonetheless, she finished her homework."
+  ],
+  "ss69-q04": [
+    "The bus was late; nevertheless, we arrived on time."
+  ],
+  "ss69-q05": [
+    "The soup looked simple; nonetheless, it tasted delicious."
+  ],
+  "ss69-q06": [
+    "Ben had little experience; nevertheless, he did the job well."
+  ],
+  "ss69-q07": [
+    "The weather was cold; nonetheless, the children played outside."
+  ],
+  "ss69-q08": [
+    "The book was difficult; nevertheless, Leo understood the main idea."
+  ],
+  "ss69-q09": [
+    "The shop was crowded; nonetheless, the staff remained polite."
+  ],
+  "ss69-q10": [
+    "Our team lost the first game; nevertheless, we kept practising."
+  ],
+  "ss69-q11": [
+    "Sarah felt nervous; nonetheless, she gave a clear presentation."
+  ],
+  "ss69-q12": [
+    "The shoes were expensive; nevertheless, Daniel bought them."
+  ],
+  "ss69-q13": [
+    "The road was narrow; nonetheless, the driver travelled along it safely."
+  ],
+  "ss69-q14": [
+    "Olivia had studied carefully; nevertheless, she found the test challenging."
+  ],
+  "ss69-q15": [
+    "The lift was out of order; nonetheless, the visitors reached the top floor."
+  ],
+  "ss69-q16": [
+    "The medicine tasted unpleasant; nevertheless, the child took it."
+  ],
+  "ss69-q17": [
+    "The café was very busy; nonetheless, our food arrived quickly."
+  ],
+  "ss69-q18": [
+    "Jason had missed several lessons; nevertheless, he passed the examination."
+  ],
+  "ss69-q19": [
+    "The instructions were short; nonetheless, they contained all the necessary details."
+  ],
+  "ss69-q20": [
+    "The computer was old; nevertheless, it still worked reliably."
+  ],
+  "ss69-q21": [
+    "Prices had increased; nonetheless, demand remained strong."
+  ],
+  "ss69-q22": [
+    "The museum was closing soon; nevertheless, the guide answered all our questions."
+  ],
+  "ss69-q23": [
+    "Chloe did not agree with the plan; nonetheless, she listened respectfully."
+  ],
+  "ss69-q24": [
+    "The match was delayed by rain; nevertheless, it continued later that evening."
+  ],
+  "ss69-q25": [
+    "Volunteers had limited resources; nonetheless, they helped many families."
+  ],
+  "ss69-q26": [
+    "The task required careful planning; nevertheless, the group completed it ahead of schedule."
+  ],
+  "ss69-q27": [
+    "The patient was recovering slowly; nonetheless, the doctor remained hopeful."
+  ],
+  "ss69-q28": [
+    "The new rule was unpopular; nevertheless, the school decided to keep it."
+  ],
+  "ss69-q29": [
+    "Ethan could not attend the meeting; nonetheless, he sent his comments in advance."
+  ],
+  "ss69-q30": [
+    "The village was far from the city; nevertheless, it had a reliable bus service."
+  ],
+  "ss69-q31": [
+    "The machine had been tested twice; nonetheless, a small fault appeared."
+  ],
+  "ss69-q32": [
+    "You may feel unsure at first; nevertheless, you should ask a question."
+  ],
+  "ss69-q33": [
+    "The road will be busy tomorrow; nonetheless, the delivery should arrive before noon."
+  ],
+  "ss69-q34": [
+    "Tickets had sold out quickly; nevertheless, the organisers added another performance."
+  ],
+  "ss69-q35": [
+    "The laptop is not very powerful; nonetheless, it can handle basic office work."
+  ],
+  "ss69-q36": [
+    "Severe storm damage affected the building; nevertheless, no one was injured."
+  ],
+  "ss69-q37": [
+    "The evidence was limited; nonetheless, the team continued its investigation."
+  ],
+  "ss69-q38": [
+    "We had read mixed reviews of the restaurant; nevertheless, we decided to try it."
+  ],
+  "ss69-q39": [
+    "The deadline cannot be changed; nonetheless, the manager may offer extra support."
+  ],
+  "ss69-q40": [
+    "Engineers did not succeed on their first attempt; nevertheless, they learned from it."
+  ],
+  "ss69-q41": [
+    "The library had a smaller budget than expected; nonetheless, it expanded its free reading programme."
+  ],
+  "ss69-q42": [
+    "Staff numbers at the hospital were low; nevertheless, essential services continued without interruption."
+  ],
+  "ss69-q43": [
+    "The proposal raised several practical concerns; nonetheless, the committee agreed to examine it further."
+  ],
+  "ss69-q44": [
+    "This neighbourhood is close to the airport; nevertheless, it is quiet during most evenings."
+  ],
+  "ss69-q45": [
+    "The research involved a relatively small group; nonetheless, its findings may guide future studies."
+  ],
+  "ss69-q46": [
+    "The company had already reduced its costs; nevertheless, it refused to lower its safety standards."
+  ],
+  "ss69-q47": [
+    "Students who joined the project had different levels of experience; nonetheless, they worked effectively as one team."
+  ],
+  "ss69-q48": [
+    "The public transport system was under heavy pressure during the holiday; nevertheless, most passengers reached their destinations safely."
+  ],
+  "ss69-q49": [
+    "The charity could not solve every problem in the district; nonetheless, its support made a meaningful difference to many residents."
+  ],
+  "ss69-q50": [
+    "The plan involved considerable financial risk; nevertheless, the board approved it because the long-term benefits appeared greater."
+  ],
+  "ss70-q01": [
+    "I would rather walk to school than take the bus."
+  ],
+  "ss70-q02": [
+    "Mia would rather read a book than watch television."
+  ],
+  "ss70-q03": [
+    "Ben would rather drink water than have a fizzy drink."
+  ],
+  "ss70-q04": [
+    "We would rather eat at home than go to a restaurant."
+  ],
+  "ss70-q05": [
+    "Leo would rather play football than stay indoors."
+  ],
+  "ss70-q06": [
+    "My sister would rather use a pencil than use a pen."
+  ],
+  "ss70-q07": [
+    "The children would rather visit the zoo than visit the museum."
+  ],
+  "ss70-q08": [
+    "I would rather buy the blue shirt than buy the red one."
+  ],
+  "ss70-q09": [
+    "Amy would rather listen to music than play a computer game."
+  ],
+  "ss70-q10": [
+    "The students would rather work in pairs than work alone."
+  ],
+  "ss70-q11": [
+    "Daniel would rather leave early than miss the last train."
+  ],
+  "ss70-q12": [
+    "Grace would rather cook dinner than order takeaway."
+  ],
+  "ss70-q13": [
+    "The team would rather practise outside than use the small gym."
+  ],
+  "ss70-q14": [
+    "Our neighbours would rather keep the old tree than cut it down."
+  ],
+  "ss70-q15": [
+    "Chloe would rather send a message than make a phone call."
+  ],
+  "ss70-q16": [
+    "The tourists would rather take the train than fly."
+  ],
+  "ss70-q17": [
+    "My father would rather repair the chair than buy a new one."
+  ],
+  "ss70-q18": [
+    "Sarah would rather not go out in the heavy rain."
+  ],
+  "ss70-q19": [
+    "The class would rather have the test on Friday than have it on Monday."
+  ],
+  "ss70-q20": [
+    "Jason would rather borrow a camera than buy one."
+  ],
+  "ss70-q21": [
+    "Olivia would rather not drive in dangerous weather."
+  ],
+  "ss70-q22": [
+    "The nurse would rather explain the treatment slowly than confuse the patient."
+  ],
+  "ss70-q23": [
+    "The manager would rather delay the launch than release an unsafe product."
+  ],
+  "ss70-q24": [
+    "We would rather reuse the boxes than throw them away."
+  ],
+  "ss70-q25": [
+    "The school would rather not replace every window this year."
+  ],
+  "ss70-q26": [
+    "Ethan would rather ask for help than make another mistake."
+  ],
+  "ss70-q27": [
+    "Maya would rather keep her personal details private than post them online."
+  ],
+  "ss70-q28": [
+    "The shop would rather offer a refund than lose the customer’s trust."
+  ],
+  "ss70-q29": [
+    "The hikers would rather not continue after dark."
+  ],
+  "ss70-q30": [
+    "I would rather save for a good laptop than buy a cheap one now."
+  ],
+  "ss70-q31": [
+    "The doctor would rather monitor the patient overnight than send her home too soon."
+  ],
+  "ss70-q32": [
+    "The council would rather repair the playground than close it permanently."
+  ],
+  "ss70-q33": [
+    "Our group would rather present first than wait nervously all afternoon."
+  ],
+  "ss70-q34": [
+    "Nina would rather take a later flight than rush through the airport."
+  ],
+  "ss70-q35": [
+    "The chef would rather change the menu than serve food that is not fresh."
+  ],
+  "ss70-q36": [
+    "The company would rather train its current staff than hire a completely new team."
+  ],
+  "ss70-q37": [
+    "You would rather check the address twice than send the parcel to the wrong place."
+  ],
+  "ss70-q38": [
+    "The volunteers would rather collect reusable items than ask people for money."
+  ],
+  "ss70-q39": [
+    "The family would rather move to a smaller flat than live far from work and school."
+  ],
+  "ss70-q40": [
+    "Marcus would rather discuss the problem calmly than argue in front of everyone."
+  ],
+  "ss70-q41": [
+    "The hospital would rather reschedule non-urgent appointments than reduce emergency services."
+  ],
+  "ss70-q42": [
+    "Sofia would rather admit that she needs more time than submit careless work."
+  ],
+  "ss70-q43": [
+    "The organisers would rather move the event indoors than cancel it because of the storm."
+  ],
+  "ss70-q44": [
+    "The research team would rather not report a result they cannot verify."
+  ],
+  "ss70-q45": [
+    "The passengers would rather wait for a safety check than board a plane with a possible fault."
+  ],
+  "ss70-q46": [
+    "The school would rather adjust the timetable than ask students to attend an extra day."
+  ],
+  "ss70-q47": [
+    "The local shop would rather limit each customer’s purchase than allow one person to buy all the stock."
+  ],
+  "ss70-q48": [
+    "The project team would rather simplify one feature than delay the whole service."
+  ],
+  "ss70-q49": [
+    "The parents would rather discuss the issue with the teacher than complain about it online."
+  ],
+  "ss70-q50": [
+    "The museum would rather close one gallery temporarily than put visitors and valuable objects at risk."
   ]
 });

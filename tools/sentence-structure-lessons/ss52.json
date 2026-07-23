@@ -1,0 +1,1180 @@
+{
+  "id": "ss52",
+  "order": 52,
+  "slug": "someone-anyone-everyone-adjective",
+  "title": "「Someone / Anyone / Everyone + 形容詞」句型",
+  "titleZh": "「Someone / Anyone / Everyone + 形容詞」句",
+  "titleEn": "Using someone, anyone and everyone with adjectives",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 52 -「Someone _ Anyone _ Everyone + 形容詞」句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "someone / anyone / everyone + adjective or adjective phrase + other information",
+  "formulas": [
+    {
+      "id": "ss52-formula-core",
+      "labelEn": "Sentence Formula",
+      "labelZh": "句式公式",
+      "formula": "someone / anyone / everyone + adjective or adjective phrase + other information"
+    }
+  ],
+  "example": "We need to hire someone experienced to lead this team.",
+  "exampleZh": "我們需要僱用一個有經驗的人來領導這個團隊。",
+  "examples": [
+    {
+      "id": "ss52-example-someone",
+      "en": "We need to hire someone experienced to lead this team.",
+      "zh": "我們需要僱用一個有經驗的人來領導這個團隊。",
+      "highlight": "someone experienced"
+    },
+    {
+      "id": "ss52-example-anyone",
+      "en": "Is there anyone available to help me right now?",
+      "zh": "現在有沒有任何有空的人可以幫助我？",
+      "highlight": "anyone available"
+    },
+    {
+      "id": "ss52-example-everyone",
+      "en": "Everyone present at the meeting signed the agreement.",
+      "zh": "所有出席會議的人都在協議上簽了字。",
+      "highlight": "Everyone present"
+    }
+  ],
+  "meaning": {
+    "zh": "Someone + 形容詞表示某個具有該特質的人；anyone 表示任何符合條件的人；everyone 表示所有具有該特質的人。"
+  },
+  "rules": [
+    {
+      "id": "ss52-rule-01",
+      "en": "The adjective must follow someone, anyone or everyone.",
+      "zh": "形容詞必須放在 someone、anyone 或 everyone 後面。",
+      "examples": [
+        "someone experienced",
+        "anyone available",
+        "everyone present"
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss52-rule-02",
+      "en": "Someone means an unspecified person and is usually used in affirmative statements.",
+      "zh": "Someone 通常用於肯定句，表示一個身分未指明或並不重要的人。",
+      "examples": [
+        "We need someone patient."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss52-rule-03",
+      "en": "Anyone is common in questions, negatives and conditions, and can mean any person who meets a condition.",
+      "zh": "Anyone 常見於疑問句、否定句、條件句和表示任何符合條件的人的肯定句。",
+      "examples": [
+        "Is there anyone available?",
+        "Anyone interested can join."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss52-rule-04",
+      "en": "Everyone refers to all relevant people but takes a singular verb.",
+      "zh": "Everyone 表示所有相關的人，但文法上視作單數，後面的動詞須使用單數形式。",
+      "examples": [
+        "Everyone present was informed."
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss52-rule-05",
+      "en": "More information can follow the adjective, including a prepositional phrase or infinitive.",
+      "zh": "形容詞後面可以加入介詞片語、不定詞、程度資料或另一個形容詞。",
+      "examples": [
+        "someone familiar with the area",
+        "anyone willing to help"
+      ],
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss52-rule-06",
+      "en": "Do not add person or people after someone, anyone or everyone.",
+      "zh": "Someone、anyone 和 everyone 本身已代表人，不要在後面再加 person 或 people。",
+      "examples": [
+        "someone experienced"
+      ],
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss52-benefit-01",
+      "en": "It shortens a longer description.",
+      "zh": "可把 a person who is... 或 all the people who are... 縮短，使句子更直接。"
+    },
+    {
+      "id": "ss52-benefit-02",
+      "en": "It describes an unnamed person naturally.",
+      "zh": "可在不知道姓名或職位時，自然地說明所需人物的特質。"
+    },
+    {
+      "id": "ss52-benefit-03",
+      "en": "It helps you identify the right kind of person.",
+      "zh": "可在 someone、anyone 或 everyone 後加入具體條件，清楚指出所需人選。"
+    },
+    {
+      "id": "ss52-benefit-04",
+      "en": "It is useful for questions, requests and offers.",
+      "zh": "Anyone + 形容詞特別適合用來詢問是否有人符合某項條件。"
+    },
+    {
+      "id": "ss52-benefit-05",
+      "en": "It helps avoid repetitive relative clauses.",
+      "zh": "可減少重複使用 a person who is... 等關係子句，使說話和寫作更流暢。"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using someone, anyone or everyone followed by an adjective or adjective phrase.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 someone、anyone 或 everyone 加形容詞或形容詞片語改寫以下句子。",
+      "答案必須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss52-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I need a patient person to explain this problem to me.",
+      "promptZh": "我需要一個有耐性的人向我解釋這個問題。",
+      "starter": "I",
+      "answer": "I need someone patient to explain this problem to me.",
+      "answerZh": "我需要找一個有耐性的人向我解釋這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I need someone patient to explain this problem to me."
+    },
+    {
+      "id": "ss52-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should ask a person with experience for advice.",
+      "promptZh": "我們應該向一個有經驗的人尋求意見。",
+      "starter": "We",
+      "answer": "We should ask someone experienced for advice.",
+      "answerZh": "我們應該向一個有經驗的人尋求意見。",
+      "answerZhSource": "pdf",
+      "highlight": "We should ask someone experienced for advice."
+    },
+    {
+      "id": "ss52-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A friendly person is waiting at the reception desk.",
+      "promptZh": "有一個友善的人正在接待處等候。",
+      "starter": "Someone",
+      "answer": "Someone friendly is waiting at the reception desk.",
+      "answerZh": "有一個友善的人正在接待處等候。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone friendly is waiting at the reception desk."
+    },
+    {
+      "id": "ss52-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Is there a person who is free to help us now?",
+      "promptZh": "現在有沒有一個有空的人可以幫助我們？",
+      "starter": "Is",
+      "answer": "Is there anyone free to help us now?",
+      "answerZh": "現在有沒有任何有空的人可以幫助我們？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anyone free to help us now?"
+    },
+    {
+      "id": "ss52-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Could one of the available people answer the phone?",
+      "promptZh": "可否請其中一位有空的人接聽電話？",
+      "starter": "Could",
+      "answer": "Could anyone available answer the phone?",
+      "answerZh": "可否請有空的人接聽電話？",
+      "answerZhSource": "pdf",
+      "highlight": "Could anyone available answer the phone?"
+    },
+    {
+      "id": "ss52-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "All the people who were present heard the announcement.",
+      "promptZh": "所有在場的人都聽到了公告。",
+      "starter": "Everyone",
+      "answer": "Everyone present heard the announcement.",
+      "answerZh": "所有在場的人都聽到了公告。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone present heard the announcement."
+    },
+    {
+      "id": "ss52-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Some people are ready. Every one of them can begin.",
+      "promptZh": "有些人已經準備好。他們每一個都可以開始。",
+      "starter": "Everyone",
+      "answer": "Everyone ready can begin.",
+      "answerZh": "所有準備好的人都可以開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone ready can begin."
+    },
+    {
+      "id": "ss52-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We need a careful person to check these figures.",
+      "promptZh": "我們需要一個細心的人核對這些數字。",
+      "starter": "We",
+      "answer": "We need someone careful to check these figures.",
+      "answerZh": "我們需要找一個細心的人核對這些數字。",
+      "answerZhSource": "pdf",
+      "highlight": "We need someone careful to check these figures."
+    },
+    {
+      "id": "ss52-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Did you meet any person who was interesting at the event?",
+      "promptZh": "你在活動中有沒有遇到任何有趣的人？",
+      "starter": "Did",
+      "answer": "Did you meet anyone interesting at the event?",
+      "answerZh": "你在活動中有沒有遇到任何有趣的人？",
+      "answerZhSource": "pdf",
+      "highlight": "Did you meet anyone interesting at the event?"
+    },
+    {
+      "id": "ss52-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Some people were absent. Every one of them received an email.",
+      "promptZh": "有些人缺席了。他們每一個都收到了一封電郵。",
+      "starter": "Everyone",
+      "answer": "Everyone absent received an email.",
+      "answerZh": "所有缺席的人都收到了一封電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone absent received an email."
+    },
+    {
+      "id": "ss52-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I need help with maths, so I am looking for a person who is good at it.",
+      "promptZh": "我需要數學方面的協助，所以我正在找一個擅長數學的人。",
+      "starter": "I",
+      "answer": "I am looking for someone good at maths to help me.",
+      "answerZh": "我正在找一個擅長數學的人幫助我。",
+      "answerZhSource": "pdf",
+      "highlight": "I am looking for someone good at maths to help me."
+    },
+    {
+      "id": "ss52-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Is there any person who is willing to carry this box?",
+      "promptZh": "有沒有任何人願意搬這個箱子？",
+      "starter": "Is",
+      "answer": "Is there anyone willing to carry this box?",
+      "answerZh": "有沒有任何人願意搬這個箱子？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anyone willing to carry this box?"
+    },
+    {
+      "id": "ss52-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We could not find a suitable person for the role.",
+      "promptZh": "我們找不到適合這個職位的人。",
+      "starter": "We",
+      "answer": "We could not find anyone suitable for the role.",
+      "answerZh": "我們找不到任何適合這個職位的人。",
+      "answerZhSource": "pdf",
+      "highlight": "We could not find anyone suitable for the role."
+    },
+    {
+      "id": "ss52-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every person who is responsible for the equipment must sign the form.",
+      "promptZh": "每個負責設備的人都必須在表格上簽名。",
+      "starter": "Everyone",
+      "answer": "Everyone responsible for the equipment must sign the form.",
+      "answerZh": "所有負責設備的人都必須在表格上簽名。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone responsible for the equipment must sign the form."
+    },
+    {
+      "id": "ss52-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A confident person should lead the discussion.",
+      "promptZh": "應該由一個有自信的人帶領討論。",
+      "starter": "Someone",
+      "answer": "Someone confident should lead the discussion.",
+      "answerZh": "應該由一個有自信的人帶領討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone confident should lead the discussion."
+    },
+    {
+      "id": "ss52-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If a person is interested in the course, that person can register online.",
+      "promptZh": "如果一個人對課程有興趣，便可以在網上報名。",
+      "starter": "Anyone",
+      "answer": "Anyone interested in the course can register online.",
+      "answerZh": "任何對課程有興趣的人都可以在網上報名。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone interested in the course can register online."
+    },
+    {
+      "id": "ss52-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We need a guide. This person must be familiar with this area.",
+      "promptZh": "我們需要一名導遊。這個人必須熟悉這個地區。",
+      "starter": "We",
+      "answer": "We need someone familiar with this area to be our guide.",
+      "answerZh": "我們需要找一個熟悉這個地區的人擔任導遊。",
+      "answerZhSource": "pdf",
+      "highlight": "We need someone familiar with this area to be our guide."
+    },
+    {
+      "id": "ss52-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Did the manager speak to all the people involved?",
+      "promptZh": "經理有沒有與所有參與其中的人談話？",
+      "starter": "Did",
+      "answer": "Did the manager speak to everyone involved?",
+      "answerZh": "經理有沒有與所有參與其中的人談話？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the manager speak to everyone involved?"
+    },
+    {
+      "id": "ss52-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please invite any available person on Friday.",
+      "promptZh": "請邀請任何星期五有空的人。",
+      "starter": "Please",
+      "answer": "Please invite anyone available on Friday.",
+      "answerZh": "請邀請任何星期五有空的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Please invite anyone available on Friday."
+    },
+    {
+      "id": "ss52-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some people were confused by the instructions. The teacher gave all of them extra help.",
+      "promptZh": "有些人對指示感到困惑。老師向他們所有人提供額外協助。",
+      "starter": "The",
+      "answer": "The teacher gave extra help to everyone confused by the instructions.",
+      "answerZh": "老師向所有對指示感到困惑的人提供額外協助。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher gave extra help to everyone confused by the instructions."
+    },
+    {
+      "id": "ss52-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital needs a person to operate this machine. The person must be qualified.",
+      "promptZh": "醫院需要一個人操作這部機器，而這個人必須合資格。",
+      "starter": "The",
+      "answer": "The hospital needs someone qualified to operate this machine.",
+      "answerZh": "醫院需要找一個合資格操作這部機器的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital needs someone qualified to operate this machine."
+    },
+    {
+      "id": "ss52-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "After the accident, we looked for injured people, but we did not see any.",
+      "promptZh": "意外發生後，我們尋找受傷的人，但沒有看見任何人。",
+      "starter": "We",
+      "answer": "We did not see anyone injured after the accident.",
+      "answerZh": "意外發生後，我們沒有看見任何受傷的人。",
+      "answerZhSource": "pdf",
+      "highlight": "We did not see anyone injured after the accident."
+    },
+    {
+      "id": "ss52-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The payment is for eligible people, and all of them will receive it.",
+      "promptZh": "這筆款項是給合資格人士的，而他們所有人都會收到款項。",
+      "starter": "Everyone",
+      "answer": "Everyone eligible for the payment will receive it.",
+      "answerZh": "所有合資格領取款項的人都會收到款項。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone eligible for the payment will receive it."
+    },
+    {
+      "id": "ss52-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Who can repair this printer? Is there a capable person here?",
+      "promptZh": "誰能修理這部打印機？這裏有沒有一個有能力的人？",
+      "starter": "Is",
+      "answer": "Is there anyone capable of repairing this printer?",
+      "answerZh": "這裏有沒有任何人有能力修理這部打印機？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anyone capable of repairing this printer?"
+    },
+    {
+      "id": "ss52-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company wants to hire a fluent Japanese speaker.",
+      "promptZh": "公司想聘請一名日語流利的人。",
+      "starter": "The",
+      "answer": "The company wants to hire someone fluent in Japanese.",
+      "answerZh": "公司想聘請一個日語流利的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The company wants to hire someone fluent in Japanese."
+    },
+    {
+      "id": "ss52-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The change affects some people. Every one of them will be contacted.",
+      "promptZh": "這項改變影響了一些人。他們每一個都會收到聯絡。",
+      "starter": "Everyone",
+      "answer": "Everyone affected by the change will be contacted.",
+      "answerZh": "所有受這項改變影響的人都會收到聯絡。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone affected by the change will be contacted."
+    },
+    {
+      "id": "ss52-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The police asked whether any suspicious person had entered the building.",
+      "promptZh": "警方查問是否有任何可疑的人曾進入大樓。",
+      "starter": "The",
+      "answer": "The police asked whether anyone suspicious had entered the building.",
+      "answerZh": "警方查問是否有任何可疑的人曾進入大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "The police asked whether anyone suspicious had entered the building."
+    },
+    {
+      "id": "ss52-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We need a person who is strong enough to lift this table.",
+      "promptZh": "我們需要一個力氣足以抬起這張桌子的人。",
+      "starter": "We",
+      "answer": "We need someone strong enough to lift this table.",
+      "answerZh": "我們需要找一個力氣足以抬起這張桌子的人。",
+      "answerZhSource": "pdf",
+      "highlight": "We need someone strong enough to lift this table."
+    },
+    {
+      "id": "ss52-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new rule worries some people. The notice is for all of them.",
+      "promptZh": "新規則令一些人感到擔心。這份通告是給他們所有人看的。",
+      "starter": "The",
+      "answer": "The notice is for everyone concerned about the new rule.",
+      "answerZh": "這份通告是給所有擔心新規則的人看的。",
+      "answerZhSource": "pdf",
+      "highlight": "The notice is for everyone concerned about the new rule."
+    },
+    {
+      "id": "ss52-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If traffic delays any person, the guide will wait for that person.",
+      "promptZh": "如果任何人因交通而延誤，導遊都會等候那個人。",
+      "starter": "The",
+      "answer": "The guide will wait for anyone delayed by the traffic.",
+      "answerZh": "導遊會等候任何因交通而延誤的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide will wait for anyone delayed by the traffic."
+    },
+    {
+      "id": "ss52-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We need a person to manage the budget. The person must be responsible enough.",
+      "promptZh": "我們需要一個人管理預算，而這個人必須有足夠責任感。",
+      "starter": "We",
+      "answer": "We need someone responsible enough to manage the budget.",
+      "answerZh": "我們需要找一個有足夠責任感管理預算的人。",
+      "answerZhSource": "pdf",
+      "highlight": "We need someone responsible enough to manage the budget."
+    },
+    {
+      "id": "ss52-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A group of people helped to plan the festival. All of them thanked the volunteers.",
+      "promptZh": "一群人協助籌辦節慶活動。他們所有人都感謝了義工。",
+      "starter": "Everyone",
+      "answer": "Everyone involved in planning the festival thanked the volunteers.",
+      "answerZh": "所有參與籌辦節慶活動的人都感謝了義工。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone involved in planning the festival thanked the volunteers."
+    },
+    {
+      "id": "ss52-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Is there any person who is prepared to work at the weekend?",
+      "promptZh": "有沒有任何人準備好在周末工作？",
+      "starter": "Is",
+      "answer": "Is there anyone prepared to work at the weekend?",
+      "answerZh": "有沒有任何人準備好在周末工作？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anyone prepared to work at the weekend?"
+    },
+    {
+      "id": "ss52-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school will support every person who cannot afford the books.",
+      "promptZh": "學校會支援每個無力負擔這些書本的人。",
+      "starter": "The",
+      "answer": "The school will support everyone unable to afford the books.",
+      "answerZh": "學校會支援所有無力負擔這些書本的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The school will support everyone unable to afford the books."
+    },
+    {
+      "id": "ss52-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We have looked for a person with enough experience to lead the project, but we have not found one.",
+      "promptZh": "我們一直尋找一個有足夠經驗領導這個項目的人，但仍未找到。",
+      "starter": "We",
+      "answer": "We have not found anyone experienced enough to lead the project.",
+      "answerZh": "我們仍未找到任何經驗足以領導這個項目的人。",
+      "answerZhSource": "pdf",
+      "highlight": "We have not found anyone experienced enough to lead the project."
+    },
+    {
+      "id": "ss52-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every person who is present in the laboratory must wear safety glasses.",
+      "promptZh": "每個身處實驗室的人都必須佩戴護目鏡。",
+      "starter": "Everyone",
+      "answer": "Everyone present in the laboratory must wear safety glasses.",
+      "answerZh": "所有身處實驗室的人都必須佩戴護目鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone present in the laboratory must wear safety glasses."
+    },
+    {
+      "id": "ss52-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity hopes to find a person who is kind and dependable.",
+      "promptZh": "慈善機構希望找到一個善良而可靠的人。",
+      "starter": "The",
+      "answer": "The charity hopes to find someone kind and dependable.",
+      "answerZh": "慈善機構希望找到一個善良而可靠的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity hopes to find someone kind and dependable."
+    },
+    {
+      "id": "ss52-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Any person who is uncertain about the instructions should ask a teacher.",
+      "promptZh": "任何不肯定指示內容的人都應該向老師查詢。",
+      "starter": "Anyone",
+      "answer": "Anyone uncertain about the instructions should ask a teacher.",
+      "answerZh": "任何不肯定指示內容的人都應該向老師查詢。",
+      "answerZhSource": "pdf",
+      "highlight": "Anyone uncertain about the instructions should ask a teacher."
+    },
+    {
+      "id": "ss52-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several people are new to the department. The manager introduced all of them.",
+      "promptZh": "有幾個人新加入部門。經理介紹了他們所有人。",
+      "starter": "The",
+      "answer": "The manager introduced everyone new to the department.",
+      "answerZh": "經理介紹了所有新加入部門的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager introduced everyone new to the department."
+    },
+    {
+      "id": "ss52-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "During the interview, did you notice a nervous person?",
+      "promptZh": "面試期間，你有沒有留意到一個緊張的人？",
+      "starter": "Did",
+      "answer": "Did you notice anyone nervous during the interview?",
+      "answerZh": "你有沒有留意到面試期間任何緊張的人？",
+      "answerZhSource": "pdf",
+      "highlight": "Did you notice anyone nervous during the interview?"
+    },
+    {
+      "id": "ss52-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The committee needs a person who is independent of the company to review the complaint.",
+      "promptZh": "委員會需要一個獨立於公司的人覆核這宗投訴。",
+      "starter": "The",
+      "answer": "The committee needs someone independent of the company to review the complaint.",
+      "answerZh": "委員會需要找一個獨立於公司的人覆核這宗投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee needs someone independent of the company to review the complaint."
+    },
+    {
+      "id": "ss52-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every person who is directly responsible for handling customer data must complete the training.",
+      "promptZh": "每個直接負責處理顧客資料的人都必須完成培訓。",
+      "starter": "Everyone",
+      "answer": "Everyone directly responsible for handling customer data must complete the training.",
+      "answerZh": "所有直接負責處理顧客資料的人都必須完成培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone directly responsible for handling customer data must complete the training."
+    },
+    {
+      "id": "ss52-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The emergency team will assist any person who is unable to leave the building without help.",
+      "promptZh": "緊急應變小組會協助任何無法自行離開大樓的人。",
+      "starter": "The",
+      "answer": "The emergency team will assist anyone unable to leave the building without help.",
+      "answerZh": "緊急應變小組會協助任何無法自行離開大樓的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency team will assist anyone unable to leave the building without help."
+    },
+    {
+      "id": "ss52-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We are looking for a person who is skilled in both design and communication.",
+      "promptZh": "我們正在尋找一個同時擅長設計和溝通的人。",
+      "starter": "We",
+      "answer": "We are looking for someone skilled in both design and communication.",
+      "answerZh": "我們正在尋找一個同時擅長設計和溝通的人。",
+      "answerZhSource": "pdf",
+      "highlight": "We are looking for someone skilled in both design and communication."
+    },
+    {
+      "id": "ss52-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The cancelled flight affected a group of people. Each of them was offered a hotel room.",
+      "promptZh": "航班取消影響了一群人。他們每一個都獲安排酒店房間。",
+      "starter": "Everyone",
+      "answer": "Everyone affected by the cancelled flight was offered a hotel room.",
+      "answerZh": "所有受航班取消影響的人都獲安排酒店房間。",
+      "answerZhSource": "pdf",
+      "highlight": "Everyone affected by the cancelled flight was offered a hotel room."
+    },
+    {
+      "id": "ss52-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager asked us to report any person who was absent without permission.",
+      "promptZh": "經理要求我們報告任何未經批准而缺席的人。",
+      "starter": "The",
+      "answer": "The manager asked us to report anyone absent without permission.",
+      "answerZh": "經理要求我們報告任何未經批准而缺席的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager asked us to report anyone absent without permission."
+    },
+    {
+      "id": "ss52-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The interview panel could not agree on a suitable candidate for the senior position.",
+      "promptZh": "面試小組未能就高級職位的合適人選達成共識。",
+      "starter": "The",
+      "answer": "The interview panel could not agree on anyone suitable for the senior position.",
+      "answerZh": "面試小組未能就任何適合高級職位的人選達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "The interview panel could not agree on anyone suitable for the senior position."
+    },
+    {
+      "id": "ss52-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A person who is ready to accept responsibility should speak first.",
+      "promptZh": "準備好承擔責任的人應該先發言。",
+      "starter": "Someone",
+      "answer": "Someone ready to accept responsibility should speak first.",
+      "answerZh": "應該由一個準備好承擔責任的人先發言。",
+      "answerZhSource": "pdf",
+      "highlight": "Someone ready to accept responsibility should speak first."
+    },
+    {
+      "id": "ss52-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The training is compulsory for every person who is involved in making financial decisions.",
+      "promptZh": "每個參與財務決策的人都必須接受這項培訓。",
+      "starter": "The",
+      "answer": "The training is compulsory for everyone involved in making financial decisions.",
+      "answerZh": "所有參與財務決策的人都必須接受這項培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The training is compulsory for everyone involved in making financial decisions."
+    },
+    {
+      "id": "ss52-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before the meeting begins, please check whether any person who is unfamiliar with the safety procedure needs an explanation.",
+      "promptZh": "會議開始前，請查看是否有任何不熟悉安全程序的人需要解釋。",
+      "starter": "Before",
+      "answer": "Before the meeting begins, please check whether anyone unfamiliar with the safety procedure needs an explanation.",
+      "answerZh": "會議開始前，請查看是否有任何不熟悉安全程序的人需要解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Before the meeting begins, please check whether anyone unfamiliar with the safety procedure needs an explanation."
+    }
+  ]
+}

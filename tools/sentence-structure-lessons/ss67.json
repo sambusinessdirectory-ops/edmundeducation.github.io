@@ -1,0 +1,1199 @@
+{
+  "id": "ss67",
+  "order": 67,
+  "slug": "used-to-past-habit-state",
+  "title": "「Used to」句型",
+  "titleZh": "「Used to 句」表達過去的習慣或情況",
+  "titleEn": "Using Used to for past habits and situations",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 67 - 「Used to 句：表達過去曾經的習慣或情況」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + used to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss67-formula-positive",
+      "labelEn": "Positive form",
+      "labelZh": "肯定句",
+      "formula": "Subject + used to + base verb + other information"
+    },
+    {
+      "id": "ss67-formula-negative",
+      "labelEn": "Negative form",
+      "labelZh": "否定句",
+      "formula": "Subject + did not / didn’t use to + base verb + other information"
+    },
+    {
+      "id": "ss67-formula-question",
+      "labelEn": "Question form",
+      "labelZh": "疑問句",
+      "formula": "Did + subject + use to + base verb + other information?"
+    }
+  ],
+  "example": "When I was a child, I used to think about maths a lot.",
+  "exampleZh": "我小時候常常思考數學問題。",
+  "examples": [
+    {
+      "id": "ss67-example-positive",
+      "en": "When I was a child, I used to think about maths a lot.",
+      "zh": "我小時候常常思考數學問題。",
+      "highlight": "used to think"
+    },
+    {
+      "id": "ss67-example-negative",
+      "en": "I didn’t use to enjoy reading.",
+      "zh": "我以前並不喜歡閱讀。",
+      "highlight": "didn’t use to enjoy"
+    },
+    {
+      "id": "ss67-example-question",
+      "en": "Did you use to walk to school?",
+      "zh": "你以前是否常常步行上學？",
+      "highlight": "Did you use to walk"
+    }
+  ],
+  "meaning": {
+    "zh": "Used to 描述過去經常重複的行為、長時間存在的情況，或過去真實但現在已經不同的事情。"
+  },
+  "rules": [
+    {
+      "id": "ss67-rule-01",
+      "en": "Use the base form of the verb after used to.",
+      "zh": "Used to 後面必須使用動詞原形。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She used to play tennis."
+      ]
+    },
+    {
+      "id": "ss67-rule-02",
+      "en": "Used to describes a repeated past action, a continuing past situation or something that was true in the past but is different now.",
+      "zh": "Used to 可描述過去經常重複的行為、長時間存在的情況，或過去真實但現在已經不同的事情。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We used to visit our grandparents every Sunday.",
+        "This building used to be a school."
+      ]
+    },
+    {
+      "id": "ss67-rule-03",
+      "en": "Do not use used to for an event that happened only once.",
+      "zh": "不要用 used to 描述只發生一次的事情；單次完成事件應使用一般過去式。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I visited the museum yesterday."
+      ]
+    },
+    {
+      "id": "ss67-rule-04",
+      "en": "Use use to rather than used to after did or didn’t.",
+      "zh": "由於 did 或 didn’t 已經表示過去時間，否定句和疑問句使用 use to，而不是 used to。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I didn’t use to drink coffee.",
+        "Did you use to live here?"
+      ]
+    },
+    {
+      "id": "ss67-rule-05",
+      "en": "Used to can be followed by a stative verb such as be, have, know, like, believe or live.",
+      "zh": "Used to 可以配合表示狀態的動詞，例如 be、have、know、like、believe 或 live。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Daniel used to be very quiet."
+      ]
+    },
+    {
+      "id": "ss67-rule-06",
+      "en": "Used to + base verb describes a past habit or state; be used to + noun / V-ing means being accustomed to something.",
+      "zh": "Used to + 動詞原形表示以前常做或過去的情況；be used to + 名詞／V-ing 表示已經習慣某事。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Tim used to talk to strangers.",
+        "Tim is now used to talking to strangers.",
+        "She is used to the cold weather."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss67-benefit-01",
+      "en": "It clearly shows that something was true in the past but may now be different.",
+      "zh": "Used to 能讓讀者立即知道某件事在過去是真實的，但現在可能已經改變。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss67-benefit-02",
+      "en": "It describes a past habit more concisely than a longer phrase such as when I was young or in the past.",
+      "zh": "你不需要每次都使用 when I was young、in the past、often 或 regularly 等較長表達。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss67-benefit-03",
+      "en": "It is suitable for childhood memories, former lifestyles and personal change.",
+      "zh": "這個句型很適合用於日常對話、故事、自我介紹和口語考試，描述童年、舊生活和個人改變。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss67-benefit-04",
+      "en": "It can describe both past actions and past states.",
+      "zh": "Used to 不只可以描述以前常做的事情，也可以描述以前的性格、想法、住所或環境。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss67-benefit-05",
+      "en": "It reduces repetition and adds structural variety when describing the past.",
+      "zh": "當你需要多次描述過去時，used to 能代替反覆使用 In the past、When I was young 或 Many years ago，使句子更自然。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using used to or use to to describe a past habit or situation.",
+      "Use the positive, negative or question form according to the meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 used to 或 use to 改寫以下句子，以描述過去的習慣或情況。",
+      "請按照原句意思使用肯定句、否定句或疑問句。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss67-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "When I was six, I often drew animals after school.",
+      "promptZh": "我六歲時，放學後常常畫動物。",
+      "starter": "I",
+      "answer": "I used to draw animals after school when I was six.",
+      "answerZh": "我六歲時常常在放學後畫動物。",
+      "answerZhSource": "pdf",
+      "highlight": "I used to draw animals after school when I was six."
+    },
+    {
+      "id": "ss67-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily often walked to primary school, but she takes the bus now.",
+      "promptZh": "莉莉以前常常步行上小學，但她現在乘搭巴士。",
+      "starter": "Lily",
+      "answer": "Lily used to walk to primary school.",
+      "answerZh": "莉莉以前常常步行上小學。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily used to walk to primary school."
+    },
+    {
+      "id": "ss67-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben regularly played football in the park on Sundays.",
+      "promptZh": "本過去每逢星期日都會在公園踢足球。",
+      "starter": "Ben",
+      "answer": "Ben used to play football in the park on Sundays.",
+      "answerZh": "本以前每逢星期日都會在公園踢足球。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben used to play football in the park on Sundays."
+    },
+    {
+      "id": "ss67-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My family lived in a small flat before we moved here.",
+      "promptZh": "我們搬到這裏之前，一家人住在一個小單位。",
+      "starter": "My",
+      "answer": "My family used to live in a small flat before we moved here.",
+      "answerZh": "我們搬到這裏之前，一家人住在一個小單位。",
+      "answerZhSource": "pdf",
+      "highlight": "My family used to live in a small flat before we moved here."
+    },
+    {
+      "id": "ss67-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop was a bakery many years ago.",
+      "promptZh": "很多年前，這間店舖是一間麵包店。",
+      "starter": "The",
+      "answer": "The shop used to be a bakery.",
+      "answerZh": "這間店舖以前是一間麵包店。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop used to be a bakery."
+    },
+    {
+      "id": "ss67-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We often visited our grandparents during the school holidays.",
+      "promptZh": "我們以前常常在學校假期探望祖父母。",
+      "starter": "We",
+      "answer": "We used to visit our grandparents during the school holidays.",
+      "answerZh": "我們以前常常在學校假期探望祖父母。",
+      "answerZhSource": "pdf",
+      "highlight": "We used to visit our grandparents during the school holidays."
+    },
+    {
+      "id": "ss67-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Nina drank a glass of milk every morning when she was a child.",
+      "promptZh": "妮娜小時候每天早上都會喝一杯牛奶。",
+      "starter": "Nina",
+      "answer": "Nina used to drink a glass of milk every morning as a child.",
+      "answerZh": "妮娜小時候每天早上都會喝一杯牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina used to drink a glass of milk every morning as a child."
+    },
+    {
+      "id": "ss67-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "There were fewer cars on this road in the past.",
+      "promptZh": "過去這條道路上的汽車比較少。",
+      "starter": "There",
+      "answer": "There used to be fewer cars on this road.",
+      "answerZh": "以前這條道路上的汽車比較少。",
+      "answerZhSource": "pdf",
+      "highlight": "There used to be fewer cars on this road."
+    },
+    {
+      "id": "ss67-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sam had long hair at university, but his hair is short now.",
+      "promptZh": "森在大學時留有長髮，但他的頭髮現在很短。",
+      "starter": "Sam",
+      "answer": "Sam used to have long hair at university.",
+      "answerZh": "森讀大學時曾經留有長髮。",
+      "answerZhSource": "pdf",
+      "highlight": "Sam used to have long hair at university."
+    },
+    {
+      "id": "ss67-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I did not like spicy food when I was younger.",
+      "promptZh": "我年輕時並不喜歡辛辣食物。",
+      "starter": "I",
+      "answer": "I didn’t use to like spicy food when I was younger.",
+      "answerZh": "我年輕時並不喜歡辛辣食物。",
+      "answerZhSource": "pdf",
+      "highlight": "I didn’t use to like spicy food when I was younger."
+    },
+    {
+      "id": "ss67-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every evening, Omar would read by the window before going to bed.",
+      "promptZh": "奧馬爾以前每天晚上睡覺前都會坐在窗邊閱讀。",
+      "starter": "Omar",
+      "answer": "Omar used to read by the window every evening before going to bed.",
+      "answerZh": "奧馬爾以前每天晚上睡覺前都會坐在窗邊閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar used to read by the window every evening before going to bed."
+    },
+    {
+      "id": "ss67-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It was Amy’s habit to keep a diary when she was a teenager.",
+      "promptZh": "艾米年輕時有寫日記的習慣。",
+      "starter": "Amy",
+      "answer": "Amy used to keep a diary when she was a teenager.",
+      "answerZh": "艾米年輕時有寫日記的習慣。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy used to keep a diary when she was a teenager."
+    },
+    {
+      "id": "ss67-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Before online banking became common, people often paid their bills at the bank.",
+      "promptZh": "網上銀行普及之前，人們經常親身到銀行繳交帳單。",
+      "starter": "People",
+      "answer": "People used to pay their bills at the bank before online banking became common.",
+      "answerZh": "網上銀行普及之前，人們經常親身到銀行繳交帳單。",
+      "answerZhSource": "pdf",
+      "highlight": "People used to pay their bills at the bank before online banking became common."
+    },
+    {
+      "id": "ss67-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Was cycling to work part of Daniel’s regular routine in the past?",
+      "promptZh": "踏單車上班是否丹尼爾過去的日常習慣？",
+      "starter": "Did",
+      "answer": "Did Daniel use to cycle to work?",
+      "answerZh": "丹尼爾以前是否經常踏單車上班？",
+      "answerZhSource": "pdf",
+      "highlight": "Did Daniel use to cycle to work?"
+    },
+    {
+      "id": "ss67-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There was an old cinema here before the shopping centre was built.",
+      "promptZh": "這個購物中心興建之前，這裏有一間舊電影院。",
+      "starter": "There",
+      "answer": "There used to be an old cinema here.",
+      "answerZh": "這裏以前有一間舊電影院。",
+      "answerZhSource": "pdf",
+      "highlight": "There used to be an old cinema here."
+    },
+    {
+      "id": "ss67-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace was very shy as a child, but she is confident now.",
+      "promptZh": "格蕾絲小時候十分害羞，但她現在很有自信。",
+      "starter": "Grace",
+      "answer": "Grace used to be very shy as a child.",
+      "answerZh": "格蕾絲小時候十分害羞。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace used to be very shy as a child."
+    },
+    {
+      "id": "ss67-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We never ate out on weekdays when I was young.",
+      "promptZh": "我年輕時，我們從不在平日外出用膳。",
+      "starter": "We",
+      "answer": "We didn’t use to eat out on weekdays when I was young.",
+      "answerZh": "我年輕時，我們從不在平日外出用膳。",
+      "answerZhSource": "pdf",
+      "highlight": "We didn’t use to eat out on weekdays when I was young."
+    },
+    {
+      "id": "ss67-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Every summer, the cousins would stay with their aunt in the countryside.",
+      "promptZh": "這些表兄弟姊妹以前每年夏天都會到鄉郊與姨母同住。",
+      "starter": "The",
+      "answer": "The cousins used to stay with their aunt in the countryside every summer.",
+      "answerZh": "這些表兄弟姊妹以前每年夏天都會到鄉郊與姨母同住。",
+      "answerZhSource": "pdf",
+      "highlight": "The cousins used to stay with their aunt in the countryside every summer."
+    },
+    {
+      "id": "ss67-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This river was much cleaner thirty years ago.",
+      "promptZh": "三十年前，這條河流乾淨得多。",
+      "starter": "This",
+      "answer": "This river used to be much cleaner.",
+      "answerZh": "這條河流以前乾淨得多。",
+      "answerZhSource": "pdf",
+      "highlight": "This river used to be much cleaner."
+    },
+    {
+      "id": "ss67-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Was working night shifts a regular part of your father’s job in the past?",
+      "promptZh": "過去輪值夜班是否你父親工作的日常部分？",
+      "starter": "Did",
+      "answer": "Did your father use to work night shifts?",
+      "answerZh": "你父親以前是否經常輪值夜班？",
+      "answerZhSource": "pdf",
+      "highlight": "Did your father use to work night shifts?"
+    },
+    {
+      "id": "ss67-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The library once closed at six, but it now remains open until nine.",
+      "promptZh": "圖書館以前六時關門，但現在開放至九時。",
+      "starter": "The",
+      "answer": "The library used to close at six.",
+      "answerZh": "圖書館以前六時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "The library used to close at six."
+    },
+    {
+      "id": "ss67-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Before smartphones were available, I often carried a paper map.",
+      "promptZh": "智能電話面世之前，我經常隨身攜帶紙製地圖。",
+      "starter": "I",
+      "answer": "I used to carry a paper map before smartphones were available.",
+      "answerZh": "智能電話面世之前，我經常隨身攜帶紙製地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "I used to carry a paper map before smartphones were available."
+    },
+    {
+      "id": "ss67-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There was a time when Maya believed every rumour she heard.",
+      "promptZh": "瑪雅過去曾經相信自己聽到的每一個傳聞。",
+      "starter": "Maya",
+      "answer": "Maya used to believe every rumour she heard.",
+      "answerZh": "瑪雅以前會相信自己聽到的每一個傳聞。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya used to believe every rumour she heard."
+    },
+    {
+      "id": "ss67-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The neighbours regularly held a street party each autumn.",
+      "promptZh": "鄰居以前每年秋天都會舉行街坊派對。",
+      "starter": "The",
+      "answer": "The neighbours used to hold a street party each autumn.",
+      "answerZh": "鄰居以前每年秋天都會舉行街坊派對。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbours used to hold a street party each autumn."
+    },
+    {
+      "id": "ss67-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "As a teenager, Ethan did not pay much attention to the news.",
+      "promptZh": "伊森年輕時並不太留意新聞。",
+      "starter": "Ethan",
+      "answer": "Ethan didn’t use to pay much attention to the news as a teenager.",
+      "answerZh": "伊森年輕時並不太留意新聞。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan didn’t use to pay much attention to the news as a teenager."
+    },
+    {
+      "id": "ss67-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Was this building a hospital in the past?",
+      "promptZh": "這座建築物以前是一間醫院嗎？",
+      "starter": "Did",
+      "answer": "Did this building use to be a hospital?",
+      "answerZh": "這座建築物以前是一間醫院嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Did this building use to be a hospital?"
+    },
+    {
+      "id": "ss67-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In the old days, our teacher gave us a spelling test every Friday.",
+      "promptZh": "從前，我們的老師每逢星期五都會給我們做串字測驗。",
+      "starter": "Our",
+      "answer": "Our teacher used to give us a spelling test every Friday.",
+      "answerZh": "我們的老師以前每逢星期五都會給我們做串字測驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher used to give us a spelling test every Friday."
+    },
+    {
+      "id": "ss67-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Before Chloe developed an allergy, she ate peanuts without any problem.",
+      "promptZh": "克洛伊出現過敏反應之前，可以毫無問題地吃花生。",
+      "starter": "Chloe",
+      "answer": "Chloe used to eat peanuts without any problem.",
+      "answerZh": "克洛伊以前可以毫無問題地吃花生。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe used to eat peanuts without any problem."
+    },
+    {
+      "id": "ss67-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When the factory was open, hundreds of people worked here.",
+      "promptZh": "這間工廠仍然營運時，有數百人在這裏工作。",
+      "starter": "Hundreds",
+      "answer": "Hundreds of people used to work here when the factory was open.",
+      "answerZh": "這間工廠仍然營運時，曾經有數百人在這裏工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Hundreds of people used to work here when the factory was open."
+    },
+    {
+      "id": "ss67-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Years ago, the lake froze every winter.",
+      "promptZh": "多年前，這個湖每逢冬天都會結冰。",
+      "starter": "The",
+      "answer": "The lake used to freeze every winter.",
+      "answerZh": "這個湖以前每逢冬天都會結冰。",
+      "answerZhSource": "pdf",
+      "highlight": "The lake used to freeze every winter."
+    },
+    {
+      "id": "ss67-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In primary school, I was afraid of speaking in front of the class.",
+      "promptZh": "我讀小學時害怕在全班面前說話。",
+      "starter": "I",
+      "answer": "I used to be afraid of speaking in front of the class in primary school.",
+      "answerZh": "我讀小學時害怕在全班面前說話。",
+      "answerZhSource": "pdf",
+      "highlight": "I used to be afraid of speaking in front of the class in primary school."
+    },
+    {
+      "id": "ss67-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every Monday morning, Marcus would arrive first and unlock the office.",
+      "promptZh": "馬庫斯以前每逢星期一早上都會最先到達，並打開辦公室。",
+      "starter": "Marcus",
+      "answer": "Marcus used to arrive first and unlock the office every Monday morning.",
+      "answerZh": "馬庫斯以前每逢星期一早上都會最先到達，並打開辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus used to arrive first and unlock the office every Monday morning."
+    },
+    {
+      "id": "ss67-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before the new road was built, the journey took two hours.",
+      "promptZh": "新道路建成之前，這段路程需要兩小時。",
+      "starter": "The",
+      "answer": "The journey used to take two hours before the new road was built.",
+      "answerZh": "新道路建成之前，這段路程需要兩小時。",
+      "answerZhSource": "pdf",
+      "highlight": "The journey used to take two hours before the new road was built."
+    },
+    {
+      "id": "ss67-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The town did not have a public swimming pool ten years ago.",
+      "promptZh": "十年前，這個小鎮並沒有公眾游泳池。",
+      "starter": "The",
+      "answer": "The town didn’t use to have a public swimming pool.",
+      "answerZh": "這個小鎮以前並沒有公眾游泳池。",
+      "answerZhSource": "pdf",
+      "highlight": "The town didn’t use to have a public swimming pool."
+    },
+    {
+      "id": "ss67-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Was checking your phone during meals one of your old habits?",
+      "promptZh": "用膳期間查看電話是否你以前的習慣之一？",
+      "starter": "Did",
+      "answer": "Did you use to check your phone during meals?",
+      "answerZh": "你以前是否經常在用膳期間查看電話？",
+      "answerZhSource": "pdf",
+      "highlight": "Did you use to check your phone during meals?"
+    },
+    {
+      "id": "ss67-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sophie often forgot her keys until she began using a reminder.",
+      "promptZh": "蘇菲開始使用提示之前，經常忘記帶鑰匙。",
+      "starter": "Sophie",
+      "answer": "Sophie used to forget her keys before she began using a reminder.",
+      "answerZh": "蘇菲開始使用提示之前，經常忘記帶鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "Sophie used to forget her keys before she began using a reminder."
+    },
+    {
+      "id": "ss67-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "At that time, the team trained outdoors even when it rained.",
+      "promptZh": "那時候，即使下雨，球隊也會在戶外訓練。",
+      "starter": "The",
+      "answer": "The team used to train outdoors even when it rained.",
+      "answerZh": "即使下雨，球隊以前也會在戶外訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The team used to train outdoors even when it rained."
+    },
+    {
+      "id": "ss67-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The computer room was on the second floor before the renovation.",
+      "promptZh": "翻新工程之前，電腦室位於二樓。",
+      "starter": "The",
+      "answer": "The computer room used to be on the second floor.",
+      "answerZh": "電腦室以前位於二樓。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer room used to be on the second floor."
+    },
+    {
+      "id": "ss67-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "My grandfather regularly repaired his own radio equipment.",
+      "promptZh": "我的祖父以前經常自行修理無線電設備。",
+      "starter": "My",
+      "answer": "My grandfather used to repair his own radio equipment.",
+      "answerZh": "我的祖父以前經常自行修理無線電設備。",
+      "answerZhSource": "pdf",
+      "highlight": "My grandfather used to repair his own radio equipment."
+    },
+    {
+      "id": "ss67-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There was not so much plastic packaging when my parents were young.",
+      "promptZh": "我父母年輕時，並沒有這麼多塑膠包裝。",
+      "starter": "There",
+      "answer": "There didn’t use to be so much plastic packaging when my parents were young.",
+      "answerZh": "我父母年輕時，並沒有這麼多塑膠包裝。",
+      "answerZhSource": "pdf",
+      "highlight": "There didn’t use to be so much plastic packaging when my parents were young."
+    },
+    {
+      "id": "ss67-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before the hospital introduced online booking, patients usually waited in a long queue just to make an appointment.",
+      "promptZh": "醫院推出網上預約之前，病人通常要排很長的隊才能預約。",
+      "starter": "Patients",
+      "answer": "Patients used to wait in a long queue just to make an appointment.",
+      "answerZh": "病人以前通常要排很長的隊才能預約。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients used to wait in a long queue just to make an appointment."
+    },
+    {
+      "id": "ss67-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When the school had no language laboratory, students practised listening with cassette players.",
+      "promptZh": "學校還沒有語言實驗室時，學生會使用卡式錄音機練習聆聽。",
+      "starter": "Students",
+      "answer": "Students used to practise listening with cassette players when the school had no language laboratory.",
+      "answerZh": "學校還沒有語言實驗室時，學生會使用卡式錄音機練習聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Students used to practise listening with cassette players when the school had no language laboratory."
+    },
+    {
+      "id": "ss67-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In the years before remote work, our manager travelled between the two offices almost every week.",
+      "promptZh": "遙距工作出現之前，我們的經理幾乎每星期都會往返兩個辦公室。",
+      "starter": "Our",
+      "answer": "Our manager used to travel between the two offices almost every week.",
+      "answerZh": "我們的經理以前幾乎每星期都會往返兩個辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "Our manager used to travel between the two offices almost every week."
+    },
+    {
+      "id": "ss67-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The community centre once offered free evening classes, but it no longer does.",
+      "promptZh": "社區中心以前提供免費夜間課程，但現在已不再提供。",
+      "starter": "The",
+      "answer": "The community centre used to offer free evening classes.",
+      "answerZh": "社區中心以前提供免費夜間課程。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre used to offer free evening classes."
+    },
+    {
+      "id": "ss67-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "In the past, did buses in this district normally stop running before midnight?",
+      "promptZh": "過去這個地區的巴士通常是否在午夜前停止服務？",
+      "starter": "Did",
+      "answer": "Did buses in this district use to stop running before midnight?",
+      "answerZh": "這個地區的巴士以前通常是否在午夜前停止服務？",
+      "answerZhSource": "pdf",
+      "highlight": "Did buses in this district use to stop running before midnight?"
+    },
+    {
+      "id": "ss67-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before stricter safety rules were introduced, workers were not required to wear protective glasses.",
+      "promptZh": "更嚴格的安全規則推出之前，工人不需要佩戴防護眼鏡。",
+      "starter": "Workers",
+      "answer": "Workers didn’t use to have to wear protective glasses before stricter safety rules were introduced.",
+      "answerZh": "更嚴格的安全規則推出之前，工人不需要佩戴防護眼鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "Workers didn’t use to have to wear protective glasses before stricter safety rules were introduced."
+    },
+    {
+      "id": "ss67-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As children, Ella and her brother would build small boats and race them in the stream.",
+      "promptZh": "艾拉和弟弟小時候經常製作小船，並讓小船在溪流中比賽。",
+      "starter": "Ella",
+      "answer": "Ella and her brother used to build small boats and race them in the stream.",
+      "answerZh": "艾拉和弟弟小時候經常製作小船，並讓小船在溪流中比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella and her brother used to build small boats and race them in the stream."
+    },
+    {
+      "id": "ss67-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The museum displayed local paintings in this room before the gallery was renovated.",
+      "promptZh": "展覽廳翻新之前，博物館在這個房間展示本地畫作。",
+      "starter": "The",
+      "answer": "The museum used to display local paintings in this room.",
+      "answerZh": "博物館以前在這個房間展示本地畫作。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum used to display local paintings in this room."
+    },
+    {
+      "id": "ss67-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "There was a period when many residents depended on one small ferry to reach the town.",
+      "promptZh": "過去有一段時間，很多居民依靠一艘小渡輪前往市鎮。",
+      "starter": "Many",
+      "answer": "Many residents used to depend on one small ferry to reach the town.",
+      "answerZh": "很多居民以前依靠一艘小渡輪前往市鎮。",
+      "answerZhSource": "pdf",
+      "highlight": "Many residents used to depend on one small ferry to reach the town."
+    },
+    {
+      "id": "ss67-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In earlier years, did the company send every invoice by post rather than by email?",
+      "promptZh": "以前這間公司是否以郵寄而不是電郵方式寄出每張發票？",
+      "starter": "Did",
+      "answer": "Did the company use to send every invoice by post rather than by email?",
+      "answerZh": "這間公司以前是否以郵寄而不是電郵方式寄出每張發票？",
+      "answerZhSource": "pdf",
+      "highlight": "Did the company use to send every invoice by post rather than by email?"
+    }
+  ]
+}

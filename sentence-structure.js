@@ -3,7 +3,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || { version: "missing", lessons: [] };
 
 const SESSION_KEY = "edmund-sentence-structure-session-v1";
-const MAX_BOOKMARKS = 2000;
+const MAX_BOOKMARKS = 4000;
 const LESSON_PAGES = 4;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 

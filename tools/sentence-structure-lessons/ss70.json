@@ -1,0 +1,1201 @@
+{
+  "id": "ss70",
+  "order": 70,
+  "slug": "would-rather-preference",
+  "title": "「Would rather X (than B)」句型",
+  "titleZh": "「Would rather X (than B)」表達偏好",
+  "titleEn": "Using Would rather X (than B) to express preference",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 70 -「Would rather X (than B)」表達偏好.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + would rather + base verb + A + than + base verb + B",
+  "formulas": [
+    {
+      "id": "ss70-formula-actions",
+      "labelEn": "Comparing two actions",
+      "labelZh": "比較兩個行動",
+      "formula": "Subject + would rather + base verb + A + than + base verb + B"
+    },
+    {
+      "id": "ss70-formula-shared-verb",
+      "labelEn": "Shared verb",
+      "labelZh": "兩個選項使用相同動詞",
+      "formula": "Subject + would rather + base verb + object A + than + object B"
+    },
+    {
+      "id": "ss70-formula-negative",
+      "labelEn": "Choosing not to do something",
+      "labelZh": "只表達不想做某事",
+      "formula": "Subject + would rather not + base verb + other information"
+    }
+  ],
+  "example": "I would rather watch a movie than watch a Netflix show.",
+  "exampleZh": "我寧願看一部電影，也不願看 Netflix 節目。",
+  "examples": [
+    {
+      "id": "ss70-example-actions",
+      "en": "I would rather watch a movie than watch a Netflix show.",
+      "zh": "我寧願看一部電影，也不願看 Netflix 節目。",
+      "highlight": "would rather watch a movie than watch"
+    },
+    {
+      "id": "ss70-example-shared",
+      "en": "I would rather watch a movie than a Netflix show.",
+      "zh": "我寧願看一部電影，也不願看 Netflix 節目。",
+      "highlight": "would rather watch a movie than"
+    },
+    {
+      "id": "ss70-example-negative",
+      "en": "I would rather not go out tonight.",
+      "zh": "我今晚寧願不外出。",
+      "highlight": "would rather not go"
+    }
+  ],
+  "meaning": {
+    "zh": "Would rather 用來直接表達較喜歡的選擇；比較兩項行動時，以 than 引出較不喜歡的選項。"
+  },
+  "rules": [
+    {
+      "id": "ss70-rule-01",
+      "en": "Use the base form of the verb after would rather, without to.",
+      "zh": "Would rather 後面使用原形動詞，不使用 to。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would rather stay home."
+      ]
+    },
+    {
+      "id": "ss70-rule-02",
+      "en": "Use than when comparing two actions, and do not confuse it with then.",
+      "zh": "比較兩個行動時使用 than；不要把 than 誤寫成表示時間次序的 then。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She would rather walk than take the bus."
+      ]
+    },
+    {
+      "id": "ss70-rule-03",
+      "en": "Keep the verb forms on both sides of than parallel, normally using a base verb for both actions.",
+      "zh": "Than 前後的動詞形式應互相配合；兩個行動均應使用原形動詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "They would rather cook than order takeaway."
+      ]
+    },
+    {
+      "id": "ss70-rule-04",
+      "en": "Place not after rather in the negative form.",
+      "zh": "否定形式把 not 放在 rather 後面。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would rather not discuss it now."
+      ]
+    },
+    {
+      "id": "ss70-rule-05",
+      "en": "This exercise teaches choices made by the same subject and does not include the advanced different-subject pattern.",
+      "zh": "本練習只教授同一主語作出選擇，不包括 I would rather you stayed home 之類的不同主語句型。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would rather stay home."
+      ]
+    },
+    {
+      "id": "ss70-rule-06",
+      "en": "Would rather expresses preference; sentence-initial Rather, is a linking expression meaning ‘more precisely’, ‘instead’ or ‘actually’.",
+      "zh": "Would rather 表達個人偏好；句首的 Rather, 是連接語，意思接近「更準確地說」、「相反」或「其實」，兩者並不相同。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I would rather stay home than go shopping.",
+        "Life should not be about others. Rather, it is about how we choose to live our lives."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss70-benefit-01",
+      "en": "It places the preferred and less preferred choices in one sentence, making the preference immediately clear.",
+      "zh": "這個句型把較喜歡和較不喜歡的選項放在同一句中，讓別人立即明白你的選擇。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss70-benefit-02",
+      "en": "It connects two alternatives concisely instead of using two separate sentences.",
+      "zh": "你可以把兩個選項簡潔地連接起來，不需要分開寫成兩句。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss70-benefit-03",
+      "en": "The frame I would rather... than... makes everyday answers more natural and easy to organise.",
+      "zh": "別人問你想吃甚麼、去哪裏或如何完成工作時，I would rather... than... 是容易使用的自然回答框架。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss70-benefit-04",
+      "en": "It states a choice without directly criticising the other option.",
+      "zh": "它只表示你較喜歡某個選項，不一定批評另一個選項，因此通常比直接表達厭惡更溫和。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss70-benefit-05",
+      "en": "It is useful for explaining decisions and trade-offs in essays, discussions, meetings and daily life.",
+      "zh": "在作文、討論、會議或日常決策中，可以用這個句型說明自己願意接受哪個選項，以避免較差的結果。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss70-benefit-06",
+      "en": "It provides an alternative to repeatedly using prefer.",
+      "zh": "除了反覆使用 I prefer，也可以使用 I would rather，增加口語和寫作的句式變化。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using would rather + base verb, adding than when two choices are given.",
+      "Use the full form would rather instead of the contraction ’d rather.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 would rather + 原形動詞 改寫以下句子。題目提供兩個選擇時，請加入 than。",
+      "請使用完整形式 would rather，不要使用縮寫 ’d rather。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss70-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I prefer to walk to school instead of taking the bus.",
+      "promptZh": "我較喜歡步行上學，而不是乘搭巴士。",
+      "starter": "I",
+      "answer": "I would rather walk to school than take the bus.",
+      "answerZh": "我寧願步行上學，也不願乘搭巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "I would rather walk to school than take the bus."
+    },
+    {
+      "id": "ss70-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia prefers reading a book to watching television.",
+      "promptZh": "米婭較喜歡看書，而不是看電視。",
+      "starter": "Mia",
+      "answer": "Mia would rather read a book than watch television.",
+      "answerZh": "米婭寧願看書，也不願看電視。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia would rather read a book than watch television."
+    },
+    {
+      "id": "ss70-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben would prefer to drink water instead of having a fizzy drink.",
+      "promptZh": "本較想喝水，而不是喝汽水。",
+      "starter": "Ben",
+      "answer": "Ben would rather drink water than have a fizzy drink.",
+      "answerZh": "本寧願喝水，也不願喝汽水。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben would rather drink water than have a fizzy drink."
+    },
+    {
+      "id": "ss70-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "If we can choose, we will eat at home, not go to a restaurant.",
+      "promptZh": "如果我們可以選擇，我們會在家吃飯，而不會去餐廳。",
+      "starter": "We",
+      "answer": "We would rather eat at home than go to a restaurant.",
+      "answerZh": "我們寧願在家吃飯，也不願去餐廳。",
+      "answerZhSource": "pdf",
+      "highlight": "We would rather eat at home than go to a restaurant."
+    },
+    {
+      "id": "ss70-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Leo has two options. His first choice is to play football, not stay indoors.",
+      "promptZh": "里奧有兩個選擇。他的首選是踢足球，而不是留在室內。",
+      "starter": "Leo",
+      "answer": "Leo would rather play football than stay indoors.",
+      "answerZh": "里奧寧願踢足球，也不願留在室內。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo would rather play football than stay indoors."
+    },
+    {
+      "id": "ss70-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My sister prefers using a pencil to using a pen.",
+      "promptZh": "我的妹妹較喜歡用鉛筆，而不是用原子筆。",
+      "starter": "My",
+      "answer": "My sister would rather use a pencil than use a pen.",
+      "answerZh": "我的妹妹寧願用鉛筆，也不願用原子筆。",
+      "answerZhSource": "pdf",
+      "highlight": "My sister would rather use a pencil than use a pen."
+    },
+    {
+      "id": "ss70-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which place would the children prefer to visit? They would choose the zoo instead of the museum.",
+      "promptZh": "孩子們較想參觀哪個地方？他們會選擇動物園，而不是博物館。",
+      "starter": "The",
+      "answer": "The children would rather visit the zoo than visit the museum.",
+      "answerZh": "孩子們寧願參觀動物園，也不願參觀博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "The children would rather visit the zoo than visit the museum."
+    },
+    {
+      "id": "ss70-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Of these two shirts, I would choose the blue one instead of the red one.",
+      "promptZh": "這兩件恤衫之中，我會選擇藍色那件，而不選紅色那件。",
+      "starter": "I",
+      "answer": "I would rather buy the blue shirt than buy the red one.",
+      "answerZh": "我寧願購買藍色恤衫，也不願購買紅色那件。",
+      "answerZhSource": "pdf",
+      "highlight": "I would rather buy the blue shirt than buy the red one."
+    },
+    {
+      "id": "ss70-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy finds listening to music more enjoyable than playing a computer game.",
+      "promptZh": "艾米覺得聽音樂比玩電腦遊戲更有趣。",
+      "starter": "Amy",
+      "answer": "Amy would rather listen to music than play a computer game.",
+      "answerZh": "艾米寧願聽音樂，也不願玩電腦遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy would rather listen to music than play a computer game."
+    },
+    {
+      "id": "ss70-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "For this activity, the students want to work in pairs, not alone.",
+      "promptZh": "這次活動中，學生想二人一組工作，而不想獨自工作。",
+      "starter": "The",
+      "answer": "The students would rather work in pairs than work alone.",
+      "answerZh": "學生寧願二人一組工作，也不願獨自工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The students would rather work in pairs than work alone."
+    },
+    {
+      "id": "ss70-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel would prefer to leave early because he does not want to miss the last train.",
+      "promptZh": "丹尼爾較想提早離開，因為他不想錯過尾班車。",
+      "starter": "Daniel",
+      "answer": "Daniel would rather leave early than miss the last train.",
+      "answerZh": "丹尼爾寧願提早離開，也不願錯過尾班車。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel would rather leave early than miss the last train."
+    },
+    {
+      "id": "ss70-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Grace would choose to cook dinner instead of ordering takeaway.",
+      "promptZh": "格蕾絲會選擇煮晚餐，而不是叫外賣。",
+      "starter": "Grace",
+      "answer": "Grace would rather cook dinner than order takeaway.",
+      "answerZh": "格蕾絲寧願煮晚餐，也不願叫外賣。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace would rather cook dinner than order takeaway."
+    },
+    {
+      "id": "ss70-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team’s preference is to practise outside instead of using the small gym.",
+      "promptZh": "球隊的選擇是在戶外練習，而不是使用細小的體育館。",
+      "starter": "The",
+      "answer": "The team would rather practise outside than use the small gym.",
+      "answerZh": "球隊寧願在戶外練習，也不願使用細小的體育館。",
+      "answerZhSource": "pdf",
+      "highlight": "The team would rather practise outside than use the small gym."
+    },
+    {
+      "id": "ss70-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our neighbours want to keep the old tree. They do not want to cut it down.",
+      "promptZh": "我們的鄰居想保留那棵老樹。他們不想把它砍掉。",
+      "starter": "Our",
+      "answer": "Our neighbours would rather keep the old tree than cut it down.",
+      "answerZh": "我們的鄰居寧願保留那棵老樹，也不願把它砍掉。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbours would rather keep the old tree than cut it down."
+    },
+    {
+      "id": "ss70-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "How would Chloe prefer to contact her friend? She would send a message instead of making a phone call.",
+      "promptZh": "克洛伊較想怎樣聯絡朋友？她會傳訊息，而不是打電話。",
+      "starter": "Chloe",
+      "answer": "Chloe would rather send a message than make a phone call.",
+      "answerZh": "克洛伊寧願傳訊息，也不願打電話。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe would rather send a message than make a phone call."
+    },
+    {
+      "id": "ss70-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The tourists would choose to take the train instead of flying.",
+      "promptZh": "遊客會選擇乘搭火車，而不是乘搭飛機。",
+      "starter": "The",
+      "answer": "The tourists would rather take the train than fly.",
+      "answerZh": "遊客寧願乘搭火車，也不願乘搭飛機。",
+      "answerZhSource": "pdf",
+      "highlight": "The tourists would rather take the train than fly."
+    },
+    {
+      "id": "ss70-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My father prefers repairing the chair to buying a new one.",
+      "promptZh": "我的父親較喜歡修理椅子，而不是買一張新的椅子。",
+      "starter": "My",
+      "answer": "My father would rather repair the chair than buy a new one.",
+      "answerZh": "我的父親寧願修理椅子，也不願購買一張新的椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "My father would rather repair the chair than buy a new one."
+    },
+    {
+      "id": "ss70-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah does not want to go out in the heavy rain.",
+      "promptZh": "莎拉不想在大雨中外出。",
+      "starter": "Sarah",
+      "answer": "Sarah would rather not go out in the heavy rain.",
+      "answerZh": "莎拉寧願不在大雨中外出。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah would rather not go out in the heavy rain."
+    },
+    {
+      "id": "ss70-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The class’s preferred date for the test is Friday, not Monday.",
+      "promptZh": "班上較希望在星期五測驗，而不是星期一。",
+      "starter": "The",
+      "answer": "The class would rather have the test on Friday than have it on Monday.",
+      "answerZh": "班上寧願在星期五測驗，也不願在星期一測驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The class would rather have the test on Friday than have it on Monday."
+    },
+    {
+      "id": "ss70-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason needs a camera for only one day. He would prefer to borrow one instead of buying one.",
+      "promptZh": "傑森只需要使用相機一天。他較想借一部，而不是買一部。",
+      "starter": "Jason",
+      "answer": "Jason would rather borrow a camera than buy one.",
+      "answerZh": "傑森寧願借一部相機，也不願購買一部。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason would rather borrow a camera than buy one."
+    },
+    {
+      "id": "ss70-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia does not want to drive in dangerous weather.",
+      "promptZh": "奧莉花不想在危險的天氣下駕駛。",
+      "starter": "Olivia",
+      "answer": "Olivia would rather not drive in dangerous weather.",
+      "answerZh": "奧莉花寧願不在危險的天氣下駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia would rather not drive in dangerous weather."
+    },
+    {
+      "id": "ss70-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What approach would the nurse prefer? She would explain the treatment slowly instead of confusing the patient.",
+      "promptZh": "護士較喜歡採用甚麼方法？她會慢慢解釋治療，而不想令病人感到混亂。",
+      "starter": "The",
+      "answer": "The nurse would rather explain the treatment slowly than confuse the patient.",
+      "answerZh": "護士寧願慢慢解釋治療，也不願令病人感到混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse would rather explain the treatment slowly than confuse the patient."
+    },
+    {
+      "id": "ss70-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager would choose to delay the launch instead of releasing an unsafe product.",
+      "promptZh": "經理會選擇延遲推出產品，而不是推出不安全的產品。",
+      "starter": "The",
+      "answer": "The manager would rather delay the launch than release an unsafe product.",
+      "answerZh": "經理寧願延遲推出產品，也不願推出不安全的產品。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager would rather delay the launch than release an unsafe product."
+    },
+    {
+      "id": "ss70-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We prefer reusing the boxes to throwing them away.",
+      "promptZh": "我們較喜歡重用這些紙箱，而不是把它們丟掉。",
+      "starter": "We",
+      "answer": "We would rather reuse the boxes than throw them away.",
+      "answerZh": "我們寧願重用這些紙箱，也不願把它們丟掉。",
+      "answerZhSource": "pdf",
+      "highlight": "We would rather reuse the boxes than throw them away."
+    },
+    {
+      "id": "ss70-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school does not want to replace every window this year.",
+      "promptZh": "學校不想在今年更換所有窗戶。",
+      "starter": "The",
+      "answer": "The school would rather not replace every window this year.",
+      "answerZh": "學校寧願不在今年更換所有窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "The school would rather not replace every window this year."
+    },
+    {
+      "id": "ss70-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ethan believes that asking for help is a better choice than making another mistake.",
+      "promptZh": "伊森認為尋求協助比再次犯錯是更好的選擇。",
+      "starter": "Ethan",
+      "answer": "Ethan would rather ask for help than make another mistake.",
+      "answerZh": "伊森寧願尋求協助，也不願再次犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan would rather ask for help than make another mistake."
+    },
+    {
+      "id": "ss70-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya’s choice is to keep her personal details private, not post them online.",
+      "promptZh": "瑪雅的選擇是把個人資料保密，而不是把它們上載到網上。",
+      "starter": "Maya",
+      "answer": "Maya would rather keep her personal details private than post them online.",
+      "answerZh": "瑪雅寧願把個人資料保密，也不願把它們上載到網上。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya would rather keep her personal details private than post them online."
+    },
+    {
+      "id": "ss70-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop would choose to offer a refund because losing the customer’s trust would be worse.",
+      "promptZh": "店舖會選擇退款，因為失去顧客的信任會造成更壞的結果。",
+      "starter": "The",
+      "answer": "The shop would rather offer a refund than lose the customer’s trust.",
+      "answerZh": "店舖寧願退款，也不願失去顧客的信任。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop would rather offer a refund than lose the customer’s trust."
+    },
+    {
+      "id": "ss70-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What do the hikers want to avoid? They do not want to continue after dark.",
+      "promptZh": "遠足人士想避免甚麼？他們不想在天黑後繼續前進。",
+      "starter": "The",
+      "answer": "The hikers would rather not continue after dark.",
+      "answerZh": "遠足人士寧願不在天黑後繼續前進。",
+      "answerZhSource": "pdf",
+      "highlight": "The hikers would rather not continue after dark."
+    },
+    {
+      "id": "ss70-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My plan is to save for a good laptop instead of buying a cheap one now.",
+      "promptZh": "我的計劃是儲錢購買一部優質手提電腦，而不是現在購買便宜的型號。",
+      "starter": "I",
+      "answer": "I would rather save for a good laptop than buy a cheap one now.",
+      "answerZh": "我寧願儲錢購買一部優質手提電腦，也不願現在購買便宜的型號。",
+      "answerZhSource": "pdf",
+      "highlight": "I would rather save for a good laptop than buy a cheap one now."
+    },
+    {
+      "id": "ss70-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor would choose to monitor the patient overnight instead of sending her home too soon.",
+      "promptZh": "醫生會選擇留院觀察病人一晚，而不是太早讓她回家。",
+      "starter": "The",
+      "answer": "The doctor would rather monitor the patient overnight than send her home too soon.",
+      "answerZh": "醫生寧願留院觀察病人一晚，也不願太早讓她回家。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor would rather monitor the patient overnight than send her home too soon."
+    },
+    {
+      "id": "ss70-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council prefers repairing the playground to closing it permanently.",
+      "promptZh": "區議會較希望修理遊樂場，而不是永久關閉它。",
+      "starter": "The",
+      "answer": "The council would rather repair the playground than close it permanently.",
+      "answerZh": "區議會寧願修理遊樂場，也不願永久關閉它。",
+      "answerZhSource": "pdf",
+      "highlight": "The council would rather repair the playground than close it permanently."
+    },
+    {
+      "id": "ss70-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Given a choice, our group would prefer to present first instead of waiting nervously all afternoon.",
+      "promptZh": "如果可以選擇，我們的小組較想先作匯報，而不是整個下午緊張地等待。",
+      "starter": "Our",
+      "answer": "Our group would rather present first than wait nervously all afternoon.",
+      "answerZh": "我們的小組寧願先作匯報，也不願整個下午緊張地等待。",
+      "answerZhSource": "pdf",
+      "highlight": "Our group would rather present first than wait nervously all afternoon."
+    },
+    {
+      "id": "ss70-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which option would Nina choose? She would take a later flight instead of rushing through the airport.",
+      "promptZh": "妮娜會選擇哪個方案？她會乘搭較遲的航班，而不是匆忙趕過機場。",
+      "starter": "Nina",
+      "answer": "Nina would rather take a later flight than rush through the airport.",
+      "answerZh": "妮娜寧願乘搭較遲的航班，也不願匆忙趕過機場。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina would rather take a later flight than rush through the airport."
+    },
+    {
+      "id": "ss70-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The chef’s chosen response would be to change the menu instead of serving food that is not fresh.",
+      "promptZh": "廚師會選擇更改餐單，而不是供應不新鮮的食物。",
+      "starter": "The",
+      "answer": "The chef would rather change the menu than serve food that is not fresh.",
+      "answerZh": "廚師寧願更改餐單，也不願供應不新鮮的食物。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef would rather change the menu than serve food that is not fresh."
+    },
+    {
+      "id": "ss70-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company considers training its current staff a better option than hiring a completely new team.",
+      "promptZh": "公司認為培訓現有員工比聘請一支全新的團隊更好。",
+      "starter": "The",
+      "answer": "The company would rather train its current staff than hire a completely new team.",
+      "answerZh": "公司寧願培訓現有員工，也不願聘請一支全新的團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The company would rather train its current staff than hire a completely new team."
+    },
+    {
+      "id": "ss70-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "In this situation, you would prefer to check the address twice instead of sending the parcel to the wrong place.",
+      "promptZh": "在這種情況下，你較想再次核對地址，而不是把包裹寄到錯誤的地方。",
+      "starter": "You",
+      "answer": "You would rather check the address twice than send the parcel to the wrong place.",
+      "answerZh": "你寧願再次核對地址，也不願把包裹寄到錯誤的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "You would rather check the address twice than send the parcel to the wrong place."
+    },
+    {
+      "id": "ss70-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The volunteers’ preferred approach is to collect reusable items instead of asking people for money.",
+      "promptZh": "義工較喜歡收集可重用物品，而不是向人們募捐。",
+      "starter": "The",
+      "answer": "The volunteers would rather collect reusable items than ask people for money.",
+      "answerZh": "義工寧願收集可重用物品，也不願向人們募捐。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers would rather collect reusable items than ask people for money."
+    },
+    {
+      "id": "ss70-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The family would choose to move to a smaller flat instead of living far from work and school.",
+      "promptZh": "這個家庭會選擇搬到較小的單位，而不是住在遠離工作地點和學校的地方。",
+      "starter": "The",
+      "answer": "The family would rather move to a smaller flat than live far from work and school.",
+      "answerZh": "這個家庭寧願搬到較小的單位，也不願住在遠離工作地點和學校的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The family would rather move to a smaller flat than live far from work and school."
+    },
+    {
+      "id": "ss70-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Marcus considers discussing the problem calmly preferable to arguing in front of everyone.",
+      "promptZh": "馬庫斯認為冷靜討論問題比在眾人面前爭吵更好。",
+      "starter": "Marcus",
+      "answer": "Marcus would rather discuss the problem calmly than argue in front of everyone.",
+      "answerZh": "馬庫斯寧願冷靜討論問題，也不願在眾人面前爭吵。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus would rather discuss the problem calmly than argue in front of everyone."
+    },
+    {
+      "id": "ss70-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital would choose to reschedule non-urgent appointments instead of reducing emergency services.",
+      "promptZh": "醫院會選擇重新安排非緊急預約，而不是削減緊急服務。",
+      "starter": "The",
+      "answer": "The hospital would rather reschedule non-urgent appointments than reduce emergency services.",
+      "answerZh": "醫院寧願重新安排非緊急預約，也不願削減緊急服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital would rather reschedule non-urgent appointments than reduce emergency services."
+    },
+    {
+      "id": "ss70-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sofia would prefer to admit that she needs more time instead of submitting careless work.",
+      "promptZh": "蘇菲亞較想承認自己需要更多時間，而不是提交馬虎的作品。",
+      "starter": "Sofia",
+      "answer": "Sofia would rather admit that she needs more time than submit careless work.",
+      "answerZh": "蘇菲亞寧願承認自己需要更多時間，也不願提交馬虎的作品。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia would rather admit that she needs more time than submit careless work."
+    },
+    {
+      "id": "ss70-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisers would choose to move the event indoors instead of cancelling it because of the storm.",
+      "promptZh": "主辦單位會選擇把活動移到室內，而不是因為暴風雨而取消活動。",
+      "starter": "The",
+      "answer": "The organisers would rather move the event indoors than cancel it because of the storm.",
+      "answerZh": "主辦單位寧願把活動移到室內，也不願因為暴風雨而取消活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers would rather move the event indoors than cancel it because of the storm."
+    },
+    {
+      "id": "ss70-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The research team does not want to report a result that they cannot verify.",
+      "promptZh": "研究團隊不想公布一項無法核實的結果。",
+      "starter": "The",
+      "answer": "The research team would rather not report a result they cannot verify.",
+      "answerZh": "研究團隊寧願不公布一項無法核實的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team would rather not report a result they cannot verify."
+    },
+    {
+      "id": "ss70-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What would the passengers prefer to do? They would wait for a safety check instead of boarding a plane with a possible fault.",
+      "promptZh": "乘客較想怎樣做？他們會等待安全檢查，而不是登上一架可能有故障的飛機。",
+      "starter": "The",
+      "answer": "The passengers would rather wait for a safety check than board a plane with a possible fault.",
+      "answerZh": "乘客寧願等待安全檢查，也不願登上一架可能有故障的飛機。",
+      "answerZhSource": "pdf",
+      "highlight": "The passengers would rather wait for a safety check than board a plane with a possible fault."
+    },
+    {
+      "id": "ss70-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which change would the school prefer? It would adjust the timetable instead of asking students to attend an extra day.",
+      "promptZh": "學校較希望作出哪項改動？學校會調整時間表，而不是要求學生額外上課一天。",
+      "starter": "The",
+      "answer": "The school would rather adjust the timetable than ask students to attend an extra day.",
+      "answerZh": "學校寧願調整時間表，也不願要求學生額外上課一天。",
+      "answerZhSource": "pdf",
+      "highlight": "The school would rather adjust the timetable than ask students to attend an extra day."
+    },
+    {
+      "id": "ss70-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "To distribute the stock fairly, the local shop would choose to limit each customer’s purchase instead of allowing one person to buy everything.",
+      "promptZh": "為了公平分配存貨，本地店舖會限制每名顧客的購買數量，而不是讓一個人買下所有貨品。",
+      "starter": "The",
+      "answer": "The local shop would rather limit each customer’s purchase than allow one person to buy all the stock.",
+      "answerZh": "本地店舖寧願限制每名顧客的購買數量，也不願讓一個人買下所有存貨。",
+      "answerZhSource": "pdf",
+      "highlight": "The local shop would rather limit each customer’s purchase than allow one person to buy all the stock."
+    },
+    {
+      "id": "ss70-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The project team sees simplifying one feature as a better option than delaying the whole service.",
+      "promptZh": "項目團隊認為簡化一項功能比延遲整項服務更好。",
+      "starter": "The",
+      "answer": "The project team would rather simplify one feature than delay the whole service.",
+      "answerZh": "項目團隊寧願簡化一項功能，也不願延遲整項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The project team would rather simplify one feature than delay the whole service."
+    },
+    {
+      "id": "ss70-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The parents prefer discussing the issue with the teacher to complaining about it online.",
+      "promptZh": "家長較希望與老師討論問題，而不是在網上投訴。",
+      "starter": "The",
+      "answer": "The parents would rather discuss the issue with the teacher than complain about it online.",
+      "answerZh": "家長寧願與老師討論問題，也不願在網上投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The parents would rather discuss the issue with the teacher than complain about it online."
+    },
+    {
+      "id": "ss70-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To avoid unnecessary danger, the museum would choose to close one gallery temporarily instead of putting visitors and valuable objects at risk.",
+      "promptZh": "為了避免不必要的危險，博物館會選擇暫時關閉一個展館，而不是讓訪客和珍貴物品承受風險。",
+      "starter": "The",
+      "answer": "The museum would rather close one gallery temporarily than put visitors and valuable objects at risk.",
+      "answerZh": "博物館寧願暫時關閉一個展館，也不願讓訪客和珍貴物品承受風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum would rather close one gallery temporarily than put visitors and valuable objects at risk."
+    }
+  ]
+}

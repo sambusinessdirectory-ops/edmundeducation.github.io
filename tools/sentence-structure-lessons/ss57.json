@@ -1,0 +1,1210 @@
+{
+  "id": "ss57",
+  "order": 57,
+  "slug": "v1-bare-infinitive",
+  "title": "「V1 + Bare Infinitive」句型",
+  "titleZh": "「V1 + Bare Infinitive」表達容許、促使、幫助與感官經驗",
+  "titleEn": "Using let, make, have, help and perception verbs with a bare infinitive",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 57 -「V1 + Bare Infinitive」句型.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + V1 + object + bare infinitive + other information",
+  "formulas": [
+    {
+      "id": "ss57-formula-causative",
+      "labelEn": "Permission, causation, arrangement or help",
+      "labelZh": "容許、促使、安排或幫助",
+      "formula": "Subject + let / make / have / help + object + bare infinitive + other information"
+    },
+    {
+      "id": "ss57-formula-perception",
+      "labelEn": "Perception of a complete action",
+      "labelZh": "看見、聽見或感覺完整動作",
+      "formula": "Subject + see / hear / watch / feel + object + bare infinitive + other information"
+    }
+  ],
+  "example": "This song lets me see the culture of Japan more deeply.",
+  "exampleZh": "這首歌讓我更深入地了解日本文化。",
+  "examples": [
+    {
+      "id": "ss57-example-01",
+      "en": "This song lets me see the culture of Japan more deeply.",
+      "zh": "這首歌讓我更深入地了解日本文化。",
+      "highlight": "lets me see"
+    }
+  ],
+  "meaning": {
+    "zh": "Let、make、have、help 和部分感官動詞後，可接受詞及不帶 to 的原形動詞，以指出誰進行第二個動作。"
+  },
+  "rules": [
+    {
+      "id": "ss57-rule-01",
+      "en": "Do not put to before the bare infinitive.",
+      "zh": "原形動詞前面不可以加 to。",
+      "examples": [
+        "The teacher made us rewrite the paragraph."
+      ]
+    },
+    {
+      "id": "ss57-rule-02",
+      "en": "Only the first main verb changes for tense.",
+      "zh": "只有前面的主要動詞需要按時態變化；第二個動詞保持原形。",
+      "examples": [
+        "The teacher let us use a dictionary."
+      ]
+    },
+    {
+      "id": "ss57-rule-03",
+      "en": "Use the correct object pronoun before the bare infinitive.",
+      "zh": "受詞要使用正確的受格形式。",
+      "examples": [
+        "The coach made them practise again."
+      ]
+    },
+    {
+      "id": "ss57-rule-04",
+      "en": "Help can take to, but this lesson uses the bare form.",
+      "zh": "Help 後面可以有 to，但本練習統一使用 help＋受詞＋V1。",
+      "examples": [
+        "The map helped us find the station."
+      ]
+    },
+    {
+      "id": "ss57-rule-05",
+      "en": "A bare infinitive after a perception verb normally presents a complete action.",
+      "zh": "感官動詞後使用 V1，通常表示看見或聽見完整動作。",
+      "examples": [
+        "I saw the bird land on the fence."
+      ]
+    },
+    {
+      "id": "ss57-rule-06",
+      "en": "Passive make restores to.",
+      "zh": "Make 的被動句會重新使用 to；本課主要練習主動句。",
+      "examples": [
+        "Tom was made to stay behind."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss57-benefit-01",
+      "en": "It clearly identifies who performs the second action.",
+      "zh": "受詞放在原形動詞前，能清楚說明誰進行第二個動作。"
+    },
+    {
+      "id": "ss57-benefit-02",
+      "en": "It shortens longer expressions.",
+      "zh": "它可把 allow someone to 或 cause someone to 改成較直接的句子。"
+    },
+    {
+      "id": "ss57-benefit-03",
+      "en": "It distinguishes permission, causation, arrangement and help.",
+      "zh": "不同 V1 能準確區分准許、促使、安排和幫助。"
+    },
+    {
+      "id": "ss57-benefit-04",
+      "en": "It makes stories and descriptions more vivid.",
+      "zh": "感官動詞結構能直接描寫完整事件，使畫面更鮮明。"
+    },
+    {
+      "id": "ss57-benefit-05",
+      "en": "It provides practical speaking frames.",
+      "zh": "It made me、They let us、I saw someone 等是實用說話框架。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using let, make, have, help, see, hear, watch or feel + object + bare infinitive.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 let、make、have、help、see、hear、watch 或 feel＋受詞＋原形動詞改寫以下句子。",
+      "答案須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss57-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My mother allowed me to choose the dessert.",
+      "promptZh": "媽媽准許我選擇甜品。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My mother let me choose the dessert.",
+      "answerZh": "媽媽讓我選擇甜品。",
+      "answerZhSource": "pdf",
+      "highlight": "My mother let me choose the dessert."
+    },
+    {
+      "id": "ss57-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The funny video caused the children to laugh.",
+      "promptZh": "這段有趣的影片令孩子們大笑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The funny video made the children laugh.",
+      "answerZh": "這段有趣的影片令孩子們大笑。",
+      "answerZhSource": "pdf",
+      "highlight": "The funny video made the children laugh."
+    },
+    {
+      "id": "ss57-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The map helped us to find the station.",
+      "promptZh": "這張地圖幫助我們找到車站。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The map helped us find the station.",
+      "answerZh": "這張地圖幫助我們找到車站。",
+      "answerZhSource": "pdf",
+      "highlight": "The map helped us find the station."
+    },
+    {
+      "id": "ss57-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Dad gave Leo permission to use the family camera.",
+      "promptZh": "爸爸准許里奧使用家中的相機。",
+      "promptZhSource": "pdf",
+      "starter": "Dad",
+      "answer": "Dad let Leo use the family camera.",
+      "answerZh": "爸爸讓里奧使用家中的相機。",
+      "answerZhSource": "pdf",
+      "highlight": "Dad let Leo use the family camera."
+    },
+    {
+      "id": "ss57-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The loud noise caused the baby to wake up.",
+      "promptZh": "巨響令嬰兒醒來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The loud noise made the baby wake up.",
+      "answerZh": "巨響令嬰兒醒來。",
+      "answerZhSource": "pdf",
+      "highlight": "The loud noise made the baby wake up."
+    },
+    {
+      "id": "ss57-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The guide helped the visitors to understand the painting.",
+      "promptZh": "導遊幫助訪客理解這幅畫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide helped the visitors understand the painting.",
+      "answerZh": "導遊幫助訪客理解這幅畫。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide helped the visitors understand the painting."
+    },
+    {
+      "id": "ss57-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The coach allowed the players to rest for ten minutes.",
+      "promptZh": "教練准許球員休息十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach let the players rest for ten minutes.",
+      "answerZh": "教練讓球員休息十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach let the players rest for ten minutes."
+    },
+    {
+      "id": "ss57-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A cold wind caused me to close the window.",
+      "promptZh": "一陣冷風令我關上窗戶。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A cold wind made me close the window.",
+      "answerZh": "一陣冷風令我關上窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "A cold wind made me close the window."
+    },
+    {
+      "id": "ss57-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My sister helped me to carry the heavy bags.",
+      "promptZh": "我的妹妹幫助我提着沉重的袋子。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My sister helped me carry the heavy bags.",
+      "answerZh": "我的妹妹幫助我提着沉重的袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "My sister helped me carry the heavy bags."
+    },
+    {
+      "id": "ss57-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The school gave the students permission to leave early.",
+      "promptZh": "學校准許學生提早離開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school let the students leave early.",
+      "answerZh": "學校讓學生提早離開。",
+      "answerZhSource": "pdf",
+      "highlight": "The school let the students leave early."
+    },
+    {
+      "id": "ss57-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The sad film caused us to cry.",
+      "promptZh": "這部悲傷的電影令我們哭了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sad film made us cry.",
+      "answerZh": "這部悲傷的電影令我們哭了。",
+      "answerZhSource": "pdf",
+      "highlight": "The sad film made us cry."
+    },
+    {
+      "id": "ss57-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy’s older brother allowed her to borrow his bicycle.",
+      "promptZh": "艾米的哥哥准許她借用他的單車。",
+      "promptZhSource": "pdf",
+      "starter": "Amy’s",
+      "answer": "Amy’s older brother let her borrow his bicycle.",
+      "answerZh": "艾米的哥哥讓她借用他的單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy’s older brother let her borrow his bicycle."
+    },
+    {
+      "id": "ss57-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This computer program helps workers to organise their files.",
+      "promptZh": "這個電腦程式幫助員工整理檔案。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This computer program helps workers organise their files.",
+      "answerZh": "這個電腦程式幫助員工整理檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "This computer program helps workers organise their files."
+    },
+    {
+      "id": "ss57-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I saw the bird when it landed on the fence.",
+      "promptZh": "小鳥降落在圍欄上時，我看見了牠。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I saw the bird land on the fence.",
+      "answerZh": "我看見小鳥降落在圍欄上。",
+      "answerZhSource": "pdf",
+      "highlight": "I saw the bird land on the fence."
+    },
+    {
+      "id": "ss57-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We heard the bell when it rang twice.",
+      "promptZh": "鐘響了兩次時，我們聽見了。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We heard the bell ring twice.",
+      "answerZh": "我們聽見鐘響了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "We heard the bell ring twice."
+    },
+    {
+      "id": "ss57-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "They watched as the chef cut the cake.",
+      "promptZh": "他們看着廚師切蛋糕。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They watched the chef cut the cake.",
+      "answerZh": "他們看着廚師切蛋糕。",
+      "answerZhSource": "pdf",
+      "highlight": "They watched the chef cut the cake."
+    },
+    {
+      "id": "ss57-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben felt the table when it shook beneath his hands.",
+      "promptZh": "桌子在本的雙手下震動時，他感覺到了。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben felt the table shake beneath his hands.",
+      "answerZh": "本感覺到桌子在他的雙手下震動。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben felt the table shake beneath his hands."
+    },
+    {
+      "id": "ss57-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The library allows children to borrow up to six books at a time.",
+      "promptZh": "圖書館准許兒童每次借閱最多六本書。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library lets children borrow up to six books at a time.",
+      "answerZh": "圖書館讓兒童每次借閱最多六本書。",
+      "answerZhSource": "pdf",
+      "highlight": "The library lets children borrow up to six books at a time."
+    },
+    {
+      "id": "ss57-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The heavy rain caused the referee to stop the match early.",
+      "promptZh": "大雨令裁判提早終止比賽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The heavy rain made the referee stop the match early.",
+      "answerZh": "大雨令裁判提早終止比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The heavy rain made the referee stop the match early."
+    },
+    {
+      "id": "ss57-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mr Chan helped the class to understand the difficult idea.",
+      "promptZh": "陳先生幫助全班理解這個困難的概念。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Chan helped the class understand the difficult idea.",
+      "answerZh": "陳先生幫助全班理解這個困難的概念。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Chan helped the class understand the difficult idea."
+    },
+    {
+      "id": "ss57-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager did not allow staff to enter the meeting room.",
+      "promptZh": "經理不准員工進入會議室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager did not let staff enter the meeting room.",
+      "answerZh": "經理不讓員工進入會議室。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager did not let staff enter the meeting room."
+    },
+    {
+      "id": "ss57-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The fire alarm caused everyone to leave the building.",
+      "promptZh": "火警鐘令所有人離開大樓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The fire alarm made everyone leave the building.",
+      "answerZh": "火警鐘令所有人離開大樓。",
+      "answerZhSource": "pdf",
+      "highlight": "The fire alarm made everyone leave the building."
+    },
+    {
+      "id": "ss57-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I watched as the train crossed the bridge.",
+      "promptZh": "我看着火車駛過大橋。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I watched the train cross the bridge.",
+      "answerZh": "我看着火車駛過大橋。",
+      "answerZhSource": "pdf",
+      "highlight": "I watched the train cross the bridge."
+    },
+    {
+      "id": "ss57-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why could the puppy play outside? Its owner allowed it to do so.",
+      "promptZh": "小狗為甚麼可以在外面玩耍？牠的主人准許牠這樣做。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The owner let the puppy play outside.",
+      "answerZh": "主人讓小狗在外面玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The owner let the puppy play outside."
+    },
+    {
+      "id": "ss57-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The nurse helped the patient to sit up slowly.",
+      "promptZh": "護士幫助病人慢慢坐起來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse helped the patient sit up slowly.",
+      "answerZh": "護士幫助病人慢慢坐起來。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse helped the patient sit up slowly."
+    },
+    {
+      "id": "ss57-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The speaker read the final sentence aloud. We heard every word.",
+      "promptZh": "講者朗讀了最後一句，而我們聽見了每一個字。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We heard the speaker read the final sentence aloud.",
+      "answerZh": "我們聽見講者朗讀最後一句。",
+      "answerZhSource": "pdf",
+      "highlight": "We heard the speaker read the final sentence aloud."
+    },
+    {
+      "id": "ss57-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bright light caused him to cover his eyes.",
+      "promptZh": "強光令他用手遮住雙眼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bright light made him cover his eyes.",
+      "answerZh": "強光令他用手遮住雙眼。",
+      "answerZhSource": "pdf",
+      "highlight": "The bright light made him cover his eyes."
+    },
+    {
+      "id": "ss57-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school rule does not allow students to use phones in class.",
+      "promptZh": "校規不准學生在課堂上使用電話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school rule does not let students use phones in class.",
+      "answerZh": "校規不讓學生在課堂上使用電話。",
+      "answerZhSource": "pdf",
+      "highlight": "The school rule does not let students use phones in class."
+    },
+    {
+      "id": "ss57-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The app helps users to check bus arrival times.",
+      "promptZh": "這個應用程式幫助使用者查看巴士到站時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app helps users check bus arrival times.",
+      "answerZh": "這個應用程式幫助使用者查看巴士到站時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The app helps users check bus arrival times."
+    },
+    {
+      "id": "ss57-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I felt the ground as it moved under my feet.",
+      "promptZh": "地面在我腳下移動時，我感覺到了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I felt the ground move under my feet.",
+      "answerZh": "我感覺到地面在腳下移動。",
+      "answerZhSource": "pdf",
+      "highlight": "I felt the ground move under my feet."
+    },
+    {
+      "id": "ss57-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The director required the actors to repeat the final scene.",
+      "promptZh": "導演要求演員重演最後一幕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The director made the actors repeat the final scene.",
+      "answerZh": "導演要求演員重演最後一幕。",
+      "answerZhSource": "pdf",
+      "highlight": "The director made the actors repeat the final scene."
+    },
+    {
+      "id": "ss57-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum allowed visitors to photograph the main hall.",
+      "promptZh": "博物館准許訪客拍攝主展覽廳。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum let visitors photograph the main hall.",
+      "answerZh": "博物館讓訪客拍攝主展覽廳。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum let visitors photograph the main hall."
+    },
+    {
+      "id": "ss57-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The subtitles helped my grandparents to follow the story.",
+      "promptZh": "字幕幫助我的祖父母理解故事內容。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The subtitles helped my grandparents follow the story.",
+      "answerZh": "字幕幫助我的祖父母理解故事內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The subtitles helped my grandparents follow the story."
+    },
+    {
+      "id": "ss57-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We saw the last runner when she crossed the finish line.",
+      "promptZh": "最後一名跑手越過終點線時，我們看見了她。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We saw the last runner cross the finish line.",
+      "answerZh": "我們看見最後一名跑手越過終點線。",
+      "answerZhSource": "pdf",
+      "highlight": "We saw the last runner cross the finish line."
+    },
+    {
+      "id": "ss57-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Someone knocked on the front door three times, and I heard all three knocks.",
+      "promptZh": "有人敲了前門三次，而三次敲門聲我都聽見了。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I heard someone knock on the front door three times.",
+      "answerZh": "我聽見有人敲了前門三次。",
+      "answerZhSource": "pdf",
+      "highlight": "I heard someone knock on the front door three times."
+    },
+    {
+      "id": "ss57-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The news caused many residents to worry about the water supply.",
+      "promptZh": "這則消息令很多居民擔心水源供應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The news made many residents worry about the water supply.",
+      "answerZh": "這則消息令很多居民擔心水源供應。",
+      "answerZhSource": "pdf",
+      "highlight": "The news made many residents worry about the water supply."
+    },
+    {
+      "id": "ss57-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The officer allowed the cyclists to pass after the traffic cleared.",
+      "promptZh": "交通恢復暢通後，警員准許單車使用者通過。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The officer let the cyclists pass after the traffic cleared.",
+      "answerZh": "交通恢復暢通後，警員讓單車使用者通過。",
+      "answerZhSource": "pdf",
+      "highlight": "The officer let the cyclists pass after the traffic cleared."
+    },
+    {
+      "id": "ss57-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The diagram helped us to see how the machine worked.",
+      "promptZh": "這幅圖幫助我們了解機器的運作方式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The diagram helped us see how the machine worked.",
+      "answerZh": "這幅圖幫助我們了解機器的運作方式。",
+      "answerZhSource": "pdf",
+      "highlight": "The diagram helped us see how the machine worked."
+    },
+    {
+      "id": "ss57-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Emma watched as the candle went out.",
+      "promptZh": "艾瑪看着蠟燭熄滅。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma watched the candle go out.",
+      "answerZh": "艾瑪看着蠟燭熄滅。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma watched the candle go out."
+    },
+    {
+      "id": "ss57-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The sudden turn caused several passengers to lose their balance.",
+      "promptZh": "突然轉彎令數名乘客失去平衡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sudden turn made several passengers lose their balance.",
+      "answerZh": "突然轉彎令數名乘客失去平衡。",
+      "answerZhSource": "pdf",
+      "highlight": "The sudden turn made several passengers lose their balance."
+    },
+    {
+      "id": "ss57-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager arranged for a technician to check the broken printer.",
+      "promptZh": "經理安排了一名技術員檢查損壞的打印機。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager had a technician check the broken printer.",
+      "answerZh": "經理安排了一名技術員檢查損壞的打印機。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager had a technician check the broken printer."
+    },
+    {
+      "id": "ss57-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because of the training video, new workers could see each safety step clearly.",
+      "promptZh": "透過培訓影片，新員工可以清楚看見每一個安全步驟。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training video let new workers see each safety step clearly.",
+      "answerZh": "培訓影片讓新員工清楚看見每一個安全步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "The training video let new workers see each safety step clearly."
+    },
+    {
+      "id": "ss57-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our new software helps the finance team to complete the monthly report more quickly.",
+      "promptZh": "我們的新軟件幫助財務團隊更快完成每月報告。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our new software helps the finance team complete the monthly report more quickly.",
+      "answerZh": "我們的新軟件幫助財務團隊更快完成每月報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Our new software helps the finance team complete the monthly report more quickly."
+    },
+    {
+      "id": "ss57-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We watched as the rescue boat reached the injured sailor.",
+      "promptZh": "我們看着救援船到達受傷水手的位置。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We watched the rescue boat reach the injured sailor.",
+      "answerZh": "我們看着救援船到達受傷水手的位置。",
+      "answerZhSource": "pdf",
+      "highlight": "We watched the rescue boat reach the injured sailor."
+    },
+    {
+      "id": "ss57-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The principal required everyone to remain silent while the announcement was made.",
+      "promptZh": "校長要求所有人在宣布消息期間保持安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The principal made everyone remain silent while the announcement was made.",
+      "answerZh": "校長要求所有人在宣布消息期間保持安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The principal made everyone remain silent while the announcement was made."
+    },
+    {
+      "id": "ss57-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The delivery driver placed the parcel beside the front door, and I saw the whole action.",
+      "promptZh": "送貨員把包裹放在前門旁邊，而我看見了整個過程。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I saw the delivery driver place the parcel beside the front door.",
+      "answerZh": "我看見送貨員把包裹放在前門旁邊。",
+      "answerZhSource": "pdf",
+      "highlight": "I saw the delivery driver place the parcel beside the front door."
+    },
+    {
+      "id": "ss57-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The quiet music caused the patients in the waiting room to feel calmer.",
+      "promptZh": "柔和的音樂令候診室內的病人感到較平靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The quiet music made the patients in the waiting room feel calmer.",
+      "answerZh": "柔和的音樂令候診室內的病人感到較平靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The quiet music made the patients in the waiting room feel calmer."
+    },
+    {
+      "id": "ss57-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The event organiser arranged for two volunteers to guide visitors to their seats.",
+      "promptZh": "活動主辦人安排了兩名義工帶領訪客到座位。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event organiser had two volunteers guide visitors to their seats.",
+      "answerZh": "活動主辦人安排了兩名義工帶領訪客到座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The event organiser had two volunteers guide visitors to their seats."
+    },
+    {
+      "id": "ss57-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The security guard did not allow anyone to enter until their identity card had been checked.",
+      "promptZh": "保安員在檢查身分證之前，不准任何人進入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The security guard did not let anyone enter until their identity card had been checked.",
+      "answerZh": "保安員在檢查身分證之前，不讓任何人進入。",
+      "answerZhSource": "pdf",
+      "highlight": "The security guard did not let anyone enter until their identity card had been checked."
+    },
+    {
+      "id": "ss57-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several examples from daily life helped the students to understand how the rule worked in different situations.",
+      "promptZh": "數個日常生活例子幫助學生理解這項規則在不同情況下如何運作。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several examples from daily life helped the students understand how the rule worked in different situations.",
+      "answerZh": "數個日常生活例子幫助學生理解這項規則在不同情況下如何運作。",
+      "answerZhSource": "pdf",
+      "highlight": "Several examples from daily life helped the students understand how the rule worked in different situations."
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # Sentence Structure imported lesson sources
 
 This directory is the editable, auditable source for Sentence Structure lessons
-`ss5` through `ss39`. Each `ssNN.json` file corresponds to one original PDF and
+`ss5` through `ss70`. Each `ssNN.json` file corresponds to one original PDF and
 contains the lesson material, source-page provenance and exactly 50 bilingual
 questions.
 
@@ -18,7 +18,7 @@ node tools/test-sentence-structure-system.mjs
 The build command generates the public browser bundle:
 
 ```text
-sentence-structure-lessons-5-39.js
+sentence-structure-lessons-5-70.js
 ```
 
 The catalogue command then regenerates the Cloudflare Worker's protected

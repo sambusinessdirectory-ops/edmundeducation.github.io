@@ -2,15 +2,15 @@ import { ACCEPTED_ANSWERS } from "./catalog.js";
 
 const SERVICE_NAME = "edmund-sentence-structure";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const LESSON_IDS = new Set(Array.from({ length: 39 }, (_, index) => `ss${index + 1}`));
+const LESSON_IDS = new Set(Array.from({ length: 70 }, (_, index) => `ss${index + 1}`));
 const CONTENT_VERSION = "1";
 const QUESTIONS_PER_LESSON = 50;
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
 const MAX_ATTEMPT_RESULT_BYTES = 96 * 1024;
-const MAX_BOOKMARK_BODY_BYTES = 384 * 1024;
-const MAX_BOOKMARKS = 2000;
+const MAX_BOOKMARK_BODY_BYTES = 768 * 1024;
+const MAX_BOOKMARKS = 4000;
 const BOOKMARK_PAGE_SIZE = 900;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_ATTEMPTS = 100;
@@ -523,7 +523,7 @@ function postgresJsonbTextByteLength(value) {
 
 function validQuestionId(lessonId, questionId) {
   if (!LESSON_IDS.has(lessonId) || typeof questionId !== "string") return false;
-  const match = questionId.match(/^(ss(?:[1-9]|[12][0-9]|3[0-9]))-q(\d{2})$/);
+  const match = questionId.match(/^(ss(?:[1-9]|[1-6][0-9]|70))-q(\d{2})$/);
   if (!match || match[1] !== lessonId) return false;
   const number = Number(match[2]);
   return number >= 1 && number <= QUESTIONS_PER_LESSON;

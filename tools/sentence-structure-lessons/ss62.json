@@ -1,0 +1,1194 @@
+{
+  "id": "ss62",
+  "order": 62,
+  "slug": "if-only-wishes-regrets",
+  "title": "「If only」句型",
+  "titleZh": "「If only 句」表達願望、遺憾或強烈希望",
+  "titleEn": "Using If only to express wishes, regrets and strong hopes",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 62 -「If only 句」表達願望、遺憾或強烈希望.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "If only + subject + past form + other information",
+  "formulas": [
+    {
+      "id": "ss62-formula-present",
+      "labelEn": "A wish or regret about the present",
+      "labelZh": "對現在情況的願望或遺憾",
+      "formula": "If only + subject + past simple / were + other information"
+    },
+    {
+      "id": "ss62-formula-past",
+      "labelEn": "A regret about the past",
+      "labelZh": "對過去事情的遺憾",
+      "formula": "If only + subject + had + past participle + other information"
+    },
+    {
+      "id": "ss62-formula-change",
+      "labelEn": "A hoped-for change in ability or circumstances",
+      "labelZh": "希望能力、可能性或情況有所改變",
+      "formula": "If only + subject + could / would + base verb + other information"
+    }
+  ],
+  "example": "If only I had more time.",
+  "exampleZh": "要是我有更多時間就好了。",
+  "examples": [
+    {
+      "id": "ss62-example-present",
+      "en": "If only I had more time.",
+      "zh": "要是我有更多時間就好了。",
+      "highlight": "If only I had"
+    },
+    {
+      "id": "ss62-example-past",
+      "en": "If only I had left earlier.",
+      "zh": "要是我當時早一點離開就好了。",
+      "highlight": "If only I had left"
+    },
+    {
+      "id": "ss62-example-could",
+      "en": "If only I could swim.",
+      "zh": "要是我會游泳就好了。",
+      "highlight": "If only I could swim"
+    }
+  ],
+  "meaning": {
+    "zh": "If only 用來表達強烈願望、對現況的不滿或對過去事情的遺憾，通常暗示現實與願望不同。"
+  },
+  "rules": [
+    {
+      "id": "ss62-rule-01",
+      "en": "Use the past tense for a present situation that is contrary to fact.",
+      "zh": "表達與現在事實相反的願望時使用過去式；這個過去形式並不是指過去。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If only I had more time."
+      ]
+    },
+    {
+      "id": "ss62-rule-02",
+      "en": "Use had + past participle to express regret about the past.",
+      "zh": "對已經發生、現在無法改變的事情感到後悔時，使用 had + 過去分詞。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If only we had booked earlier."
+      ]
+    },
+    {
+      "id": "ss62-rule-03",
+      "en": "Use could for an ability or possibility.",
+      "zh": "Could 用來表示希望擁有某種能力或可能性。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If only I could remember her name."
+      ]
+    },
+    {
+      "id": "ss62-rule-04",
+      "en": "Would often expresses a wish for another person, thing or situation to change. Normally avoid If only I would for an action you can control.",
+      "zh": "Would 常表示希望某人、某事或某種情況改變；一般不要使用 If only I would... 表達自己有能力控制的行動。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If only the rain would stop."
+      ]
+    },
+    {
+      "id": "ss62-rule-05",
+      "en": "This exercise uses were for wishes contrary to present fact.",
+      "zh": "口語中有時會聽到 was，但在正式及標準英文中，假設性的願望通常使用 were；本練習統一使用 were。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If only I were taller.",
+        "If only the room were warmer."
+      ]
+    },
+    {
+      "id": "ss62-rule-06",
+      "en": "If only expresses a wish or regret; only if introduces a necessary condition.",
+      "zh": "If only 表達願望、遺憾或「只可惜」；only if 表達必要條件，意思是「只有在……的情況下才……」。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "If only I had enough money.",
+        "You may enter only if your name is on the list."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss62-benefit-01",
+      "en": "It clearly shows that reality differs from the speaker’s wish.",
+      "zh": "讀者一看到 if only，便知道說話者希望事情不是現在這個樣子，或後悔過去沒有採取另一個做法。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss62-benefit-02",
+      "en": "It makes wishes and regrets more emphatic.",
+      "zh": "If only 通常比普通的 I wish 更能表達強烈感受，適合用於日常對話、故事和個人寫作。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss62-benefit-03",
+      "en": "It places the regret directly in the sentence’s main focus.",
+      "zh": "你可以用 If only... 開始句子，讓讀者立即知道你最在意或最希望改變的是甚麼。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss62-benefit-04",
+      "en": "It helps distinguish a present regret from a past regret.",
+      "zh": "過去式表示現在不符合願望；had + 過去分詞則表示對已經發生的事情感到後悔。",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss62-benefit-05",
+      "en": "It avoids repeatedly using I wish or It is a pity that.",
+      "zh": "這個句型可避免反覆使用 I wish 或 It is a pity that，並更直接地表達說話者的遺憾。",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using if only to express the same wish or regret.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 if only 改寫以下句子，表達相同的願望或遺憾。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss62-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I wish I had more time to finish the book.",
+      "promptZh": "我希望自己有更多時間看完這本書。",
+      "starter": "If",
+      "answer": "If only I had more time to finish the book.",
+      "answerZh": "要是我有更多時間看完這本書就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only I had more time to finish the book."
+    },
+    {
+      "id": "ss62-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia wishes she lived closer to school.",
+      "promptZh": "米婭希望自己住得離學校近一點。",
+      "starter": "If",
+      "answer": "If only Mia lived closer to school.",
+      "answerZh": "要是米婭住得離學校近一點就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Mia lived closer to school."
+    },
+    {
+      "id": "ss62-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It is a pity that the room is not warmer.",
+      "promptZh": "只可惜房間不夠暖。",
+      "starter": "If",
+      "answer": "If only the room were warmer.",
+      "answerZh": "要是房間暖一點就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the room were warmer."
+    },
+    {
+      "id": "ss62-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What does Ben wish? He wishes he knew the answer.",
+      "promptZh": "本有甚麼願望？他希望自己知道答案。",
+      "starter": "If",
+      "answer": "If only Ben knew the answer.",
+      "answerZh": "要是本知道答案就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Ben knew the answer."
+    },
+    {
+      "id": "ss62-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We wish our kitchen were larger.",
+      "promptZh": "我們希望家中的廚房大一點。",
+      "starter": "If",
+      "answer": "If only we had a larger kitchen.",
+      "answerZh": "要是我們有一個較大的廚房就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only we had a larger kitchen."
+    },
+    {
+      "id": "ss62-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Unfortunately, the bus does not come often enough, and I wish it came more often.",
+      "promptZh": "可惜這班巴士的班次不夠頻密，我希望它多來幾班。",
+      "starter": "If",
+      "answer": "If only the bus came more often.",
+      "answerZh": "要是這班巴士的班次更頻密就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the bus came more often."
+    },
+    {
+      "id": "ss62-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel wishes he spoke more slowly.",
+      "promptZh": "丹尼爾希望自己說慢一點。",
+      "starter": "If",
+      "answer": "If only Daniel spoke more slowly.",
+      "answerZh": "要是丹尼爾說慢一點就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Daniel spoke more slowly."
+    },
+    {
+      "id": "ss62-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I wish my phone worked properly.",
+      "promptZh": "我希望自己的電話能正常運作。",
+      "starter": "If",
+      "answer": "If only my phone worked properly.",
+      "answerZh": "要是我的電話能正常運作就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only my phone worked properly."
+    },
+    {
+      "id": "ss62-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I wish the shop were still open, but it has already closed.",
+      "promptZh": "我希望商店仍然營業，但它已經關門了。",
+      "starter": "If",
+      "answer": "If only the shop were still open.",
+      "answerZh": "要是商店仍然營業就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the shop were still open."
+    },
+    {
+      "id": "ss62-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "They do not have enough chairs for everyone, which is a pity.",
+      "promptZh": "他們沒有足夠的椅子給所有人使用，實在可惜。",
+      "starter": "If",
+      "answer": "If only they had enough chairs for everyone.",
+      "answerZh": "要是他們有足夠的椅子給所有人使用就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only they had enough chairs for everyone."
+    },
+    {
+      "id": "ss62-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What does Lily wish she could do? She wishes she could play the piano.",
+      "promptZh": "莉莉希望自己能做甚麼？她希望自己會彈鋼琴。",
+      "starter": "If",
+      "answer": "If only Lily could play the piano.",
+      "answerZh": "要是莉莉會彈鋼琴就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Lily could play the piano."
+    },
+    {
+      "id": "ss62-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe wishes she could stay for dinner, but she cannot.",
+      "promptZh": "克洛伊希望能留下來吃晚飯，但她不能留下。",
+      "starter": "If",
+      "answer": "If only Chloe could stay for dinner.",
+      "answerZh": "要是克洛伊能留下來吃晚飯就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Chloe could stay for dinner."
+    },
+    {
+      "id": "ss62-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We wish we could see the stage more clearly.",
+      "promptZh": "我們希望能更清楚地看到舞台。",
+      "starter": "If",
+      "answer": "If only we could see the stage more clearly.",
+      "answerZh": "要是我們能更清楚地看到舞台就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only we could see the stage more clearly."
+    },
+    {
+      "id": "ss62-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I wish the baby would stop crying.",
+      "promptZh": "我希望嬰兒不要再哭了。",
+      "starter": "If",
+      "answer": "If only the baby would stop crying.",
+      "answerZh": "要是嬰兒能停止哭泣就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the baby would stop crying."
+    },
+    {
+      "id": "ss62-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We wish the neighbours would turn the music down.",
+      "promptZh": "我們希望鄰居把音樂聲量調低。",
+      "starter": "If",
+      "answer": "If only the neighbours would turn the music down.",
+      "answerZh": "要是鄰居肯把音樂聲量調低就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the neighbours would turn the music down."
+    },
+    {
+      "id": "ss62-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I would buy that coat if it were cheaper, but unfortunately it is too expensive.",
+      "promptZh": "如果那件外套便宜一點，我便會買下它，但可惜它實在太貴。",
+      "starter": "I",
+      "answer": "I would buy that coat if only it were cheaper.",
+      "answerZh": "要是那件外套便宜一點就好了，我便會買下它。",
+      "answerZhSource": "pdf",
+      "highlight": "I would buy that coat if only it were cheaper."
+    },
+    {
+      "id": "ss62-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ethan wishes he were free this afternoon because then he could join us.",
+      "promptZh": "伊森希望自己今天下午有空，因為這樣他便可以加入我們。",
+      "starter": "Ethan",
+      "answer": "Ethan could join us if only he were free this afternoon.",
+      "answerZh": "要是伊森今天下午有空就好了，他便可以加入我們。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan could join us if only he were free this afternoon."
+    },
+    {
+      "id": "ss62-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We could finish earlier if the printer worked faster, but unfortunately it is very slow.",
+      "promptZh": "如果打印機運作快一點，我們便可以早些完成，但可惜它非常慢。",
+      "starter": "We",
+      "answer": "We could finish earlier if only the printer worked faster.",
+      "answerZh": "要是打印機運作快一點就好了，我們便可以早些完成。",
+      "answerZhSource": "pdf",
+      "highlight": "We could finish earlier if only the printer worked faster."
+    },
+    {
+      "id": "ss62-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The garden would look better if it got more sunlight, but unfortunately it does not get much.",
+      "promptZh": "如果花園得到更多陽光，便會更美觀，但可惜它得到的陽光不多。",
+      "starter": "The",
+      "answer": "The garden would look better if only it got more sunlight.",
+      "answerZh": "要是花園得到更多陽光就好了，它便會更美觀。",
+      "answerZhSource": "pdf",
+      "highlight": "The garden would look better if only it got more sunlight."
+    },
+    {
+      "id": "ss62-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ava wishes she knew someone there because then she would feel less nervous.",
+      "promptZh": "艾娃希望自己在那裏認識一些人，因為這樣她便不會那麼緊張。",
+      "starter": "Ava",
+      "answer": "Ava would feel less nervous if only she knew someone there.",
+      "answerZh": "要是艾娃在那裏認識一些人就好了，她便不會那麼緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava would feel less nervous if only she knew someone there."
+    },
+    {
+      "id": "ss62-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I am sorry that I did not bring an umbrella.",
+      "promptZh": "我很後悔沒有帶雨傘。",
+      "starter": "If",
+      "answer": "If only I had brought an umbrella.",
+      "answerZh": "要是我帶了雨傘就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only I had brought an umbrella."
+    },
+    {
+      "id": "ss62-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What does Leo regret? He regrets not checking the timetable.",
+      "promptZh": "里奧後悔甚麼？他後悔沒有查看時間表。",
+      "starter": "If",
+      "answer": "If only Leo had checked the timetable.",
+      "answerZh": "要是里奧查看過時間表就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Leo had checked the timetable."
+    },
+    {
+      "id": "ss62-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We wish we had booked the tickets earlier.",
+      "promptZh": "我們希望自己早一點訂票。",
+      "starter": "If",
+      "answer": "If only we had booked the tickets earlier.",
+      "answerZh": "要是我們早一點訂票就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only we had booked the tickets earlier."
+    },
+    {
+      "id": "ss62-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah deeply regrets forgetting to save the document.",
+      "promptZh": "莎拉非常後悔忘記儲存文件。",
+      "starter": "If",
+      "answer": "If only Sarah had saved the document.",
+      "answerZh": "要是莎拉儲存了文件就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Sarah had saved the document."
+    },
+    {
+      "id": "ss62-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The driver wishes he had seen the sign.",
+      "promptZh": "司機希望自己當時看見了標誌。",
+      "starter": "If",
+      "answer": "If only the driver had seen the sign.",
+      "answerZh": "要是司機當時看見標誌就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the driver had seen the sign."
+    },
+    {
+      "id": "ss62-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I missed the meeting because I did not set an alarm. I regret that mistake.",
+      "promptZh": "我因為沒有設定鬧鐘而錯過會議。我很後悔這個錯誤。",
+      "starter": "I",
+      "answer": "I would not have missed the meeting if only I had set an alarm.",
+      "answerZh": "要是我設定了鬧鐘就好了，我便不會錯過會議。",
+      "answerZhSource": "pdf",
+      "highlight": "I would not have missed the meeting if only I had set an alarm."
+    },
+    {
+      "id": "ss62-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nina added too much sugar, so the cake did not taste very good.",
+      "promptZh": "妮娜加了太多糖，所以蛋糕不太好吃。",
+      "starter": "The",
+      "answer": "The cake would have tasted better if only Nina had added less sugar.",
+      "answerZh": "要是妮娜少加一點糖就好了，蛋糕便會更好吃。",
+      "answerZhSource": "pdf",
+      "highlight": "The cake would have tasted better if only Nina had added less sugar."
+    },
+    {
+      "id": "ss62-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We regret not asking for directions because we found the hotel much later than expected.",
+      "promptZh": "我們很後悔沒有問路，因為我們比預期遲了很多才找到酒店。",
+      "starter": "We",
+      "answer": "We could have found the hotel sooner if only we had asked for directions.",
+      "answerZh": "要是我們問過路就好了，我們便可以更早找到酒店。",
+      "answerZhSource": "pdf",
+      "highlight": "We could have found the hotel sooner if only we had asked for directions."
+    },
+    {
+      "id": "ss62-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team regrets not defending more carefully because they might have won the match.",
+      "promptZh": "球隊後悔沒有更小心防守，因為他們原本可能勝出比賽。",
+      "starter": "The",
+      "answer": "The team might have won if only they had defended more carefully.",
+      "answerZh": "要是球隊防守得更小心就好了，他們可能便會勝出。",
+      "answerZhSource": "pdf",
+      "highlight": "The team might have won if only they had defended more carefully."
+    },
+    {
+      "id": "ss62-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No one watered the plants, so they died. It is a great pity.",
+      "promptZh": "沒有人為植物澆水，所以它們枯死了，實在非常可惜。",
+      "starter": "The",
+      "answer": "The plants would not have died if only someone had watered them.",
+      "answerZh": "要是有人為植物澆水就好了，它們便不會枯死。",
+      "answerZhSource": "pdf",
+      "highlight": "The plants would not have died if only someone had watered them."
+    },
+    {
+      "id": "ss62-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I wish my brother were more patient.",
+      "promptZh": "我希望我的哥哥更有耐性。",
+      "starter": "If",
+      "answer": "If only my brother were more patient.",
+      "answerZh": "要是我的哥哥更有耐性就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only my brother were more patient."
+    },
+    {
+      "id": "ss62-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I really wish I could remember her name.",
+      "promptZh": "我真的希望自己能記起她的名字。",
+      "starter": "If",
+      "answer": "If only I could remember her name.",
+      "answerZh": "要是我能記起她的名字就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only I could remember her name."
+    },
+    {
+      "id": "ss62-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What does everyone wish after a morning of heavy rain? They wish the rain would stop.",
+      "promptZh": "下了一個早上的大雨後，大家有甚麼願望？他們希望雨停下來。",
+      "starter": "If",
+      "answer": "If only the rain would stop.",
+      "answerZh": "要是雨能停下來就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the rain would stop."
+    },
+    {
+      "id": "ss62-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Olivia would travel more often if she had more annual leave, but unfortunately she does not.",
+      "promptZh": "如果奧莉花有更多年假，她便會更常去旅行，但可惜她沒有。",
+      "starter": "Olivia",
+      "answer": "Olivia would travel more often if only she had more annual leave.",
+      "answerZh": "要是奧莉花有更多年假就好了，她便會更常去旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia would travel more often if only she had more annual leave."
+    },
+    {
+      "id": "ss62-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children could play outside if the air were cleaner, but unfortunately it is not clean enough.",
+      "promptZh": "如果空氣更清新，孩子們便可以在戶外玩耍，但可惜現在的空氣不夠清新。",
+      "starter": "The",
+      "answer": "The children could play outside if only the air were cleaner.",
+      "answerZh": "要是空氣更清新就好了，孩子們便可以在戶外玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "The children could play outside if only the air were cleaner."
+    },
+    {
+      "id": "ss62-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I now regret ignoring my teacher's advice.",
+      "promptZh": "我現在很後悔沒有聽從老師的建議。",
+      "starter": "If",
+      "answer": "If only I had listened to my teacher's advice.",
+      "answerZh": "要是我當時聽從了老師的建議就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only I had listened to my teacher's advice."
+    },
+    {
+      "id": "ss62-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Marcus wishes he had not deleted the email by mistake.",
+      "promptZh": "馬庫斯希望自己沒有錯誤刪除那封電郵。",
+      "starter": "If",
+      "answer": "If only Marcus had not deleted the email.",
+      "answerZh": "要是馬庫斯沒有刪除那封電郵就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only Marcus had not deleted the email."
+    },
+    {
+      "id": "ss62-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is a pity that the queue moved so slowly; we would otherwise have caught the last train.",
+      "promptZh": "可惜隊伍前進得太慢，否則我們便能趕上尾班車。",
+      "starter": "We",
+      "answer": "We would have caught the last train if only the queue had moved faster.",
+      "answerZh": "要是隊伍前進得快一點就好了，我們便能趕上尾班車。",
+      "answerZhSource": "pdf",
+      "highlight": "We would have caught the last train if only the queue had moved faster."
+    },
+    {
+      "id": "ss62-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The customer would be happier if the company replied sooner, but unfortunately it has not replied yet.",
+      "promptZh": "如果公司早些回覆，顧客會更滿意，但可惜公司仍未回覆。",
+      "starter": "The",
+      "answer": "The customer would be happier if only the company replied sooner.",
+      "answerZh": "要是公司早些回覆就好了，顧客便會更滿意。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer would be happier if only the company replied sooner."
+    },
+    {
+      "id": "ss62-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I wish this laptop were not so heavy.",
+      "promptZh": "我希望這部手提電腦沒有那麼重。",
+      "starter": "If",
+      "answer": "If only this laptop were not so heavy.",
+      "answerZh": "要是這部手提電腦沒有那麼重就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only this laptop were not so heavy."
+    },
+    {
+      "id": "ss62-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is unfortunate that the school does not have a quieter place where students can study.",
+      "promptZh": "可惜學校沒有一個更安靜的地方讓學生溫習。",
+      "starter": "If",
+      "answer": "If only the school had a quieter place where students could study.",
+      "answerZh": "要是學校有一個更安靜的地方讓學生溫習就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the school had a quieter place where students could study."
+    },
+    {
+      "id": "ss62-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital could reduce waiting times if it had more staff at night, but unfortunately it does not.",
+      "promptZh": "如果醫院晚間有更多人手，便可以縮短輪候時間，但可惜目前人手不足。",
+      "starter": "The",
+      "answer": "The hospital could reduce waiting times if only it had more staff at night.",
+      "answerZh": "要是醫院晚間有更多人手就好了，便可以縮短輪候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital could reduce waiting times if only it had more staff at night."
+    },
+    {
+      "id": "ss62-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What do I regret about the call? I regret not explaining the problem clearly enough.",
+      "promptZh": "我對那次通話有甚麼後悔？我後悔沒有把問題解釋得足夠清楚。",
+      "starter": "If",
+      "answer": "If only I had explained the problem more clearly during the call.",
+      "answerZh": "要是我在通話期間把問題解釋得更清楚就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only I had explained the problem more clearly during the call."
+    },
+    {
+      "id": "ss62-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Unfortunately, the supplier delivered the parts late, so the project fell behind schedule.",
+      "promptZh": "可惜供應商延遲交付零件，所以項目進度落後。",
+      "starter": "The",
+      "answer": "The project would have stayed on schedule if only the supplier had delivered the parts on time.",
+      "answerZh": "要是供應商準時交付零件就好了，項目便能維持原定進度。",
+      "answerZhSource": "pdf",
+      "highlight": "The project would have stayed on schedule if only the supplier had delivered the parts on time."
+    },
+    {
+      "id": "ss62-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Many passengers wish public transport were more reliable during bad weather.",
+      "promptZh": "很多乘客都希望公共交通在惡劣天氣下更可靠。",
+      "starter": "If",
+      "answer": "If only public transport were more reliable during bad weather.",
+      "answerZh": "要是公共交通在惡劣天氣下更可靠就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only public transport were more reliable during bad weather."
+    },
+    {
+      "id": "ss62-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Grace wishes the office were not so noisy because then she could concentrate better.",
+      "promptZh": "格蕾絲希望辦公室沒有那麼嘈吵，因為這樣她便可以更集中精神。",
+      "starter": "Grace",
+      "answer": "Grace could concentrate better if only the office were not so noisy.",
+      "answerZh": "要是辦公室沒有那麼嘈吵就好了，格蕾絲便可以更集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace could concentrate better if only the office were not so noisy."
+    },
+    {
+      "id": "ss62-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What do residents wish the council would do? They wish it would repair the broken street lights.",
+      "promptZh": "居民希望市政當局做甚麼？他們希望當局維修損壞的街燈。",
+      "starter": "If",
+      "answer": "If only the council would repair the broken street lights.",
+      "answerZh": "要是市政當局肯維修損壞的街燈就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only the council would repair the broken street lights."
+    },
+    {
+      "id": "ss62-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We regret that both sides did not check the details; doing so might have prevented the misunderstanding.",
+      "promptZh": "我們後悔雙方都沒有核對細節；核對細節或許能避免這場誤會。",
+      "starter": "We",
+      "answer": "We might have avoided the misunderstanding if only both sides had checked the details.",
+      "answerZh": "要是雙方都核對過細節就好了，我們或許便能避免這場誤會。",
+      "answerZhSource": "pdf",
+      "highlight": "We might have avoided the misunderstanding if only both sides had checked the details."
+    },
+    {
+      "id": "ss62-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We regret not including clearer examples because the presentation would have been more convincing.",
+      "promptZh": "我們後悔沒有加入更清晰的例子，因為這樣簡報會更具說服力。",
+      "starter": "The",
+      "answer": "The presentation would have been more convincing if only we had included clearer examples.",
+      "answerZh": "要是我們加入了更清晰的例子就好了，簡報便會更具說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "The presentation would have been more convincing if only we had included clearer examples."
+    },
+    {
+      "id": "ss62-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I deeply regret not realising earlier how much the decision would affect the whole team.",
+      "promptZh": "我非常後悔沒有早一點明白這個決定會對整個團隊造成多大影響。",
+      "starter": "If",
+      "answer": "If only I had realised earlier how much the decision would affect the whole team.",
+      "answerZh": "要是我早一點明白這個決定會對整個團隊造成多大影響就好了。",
+      "answerZhSource": "pdf",
+      "highlight": "If only I had realised earlier how much the decision would affect the whole team."
+    }
+  ]
+}

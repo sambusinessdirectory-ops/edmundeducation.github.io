@@ -1,0 +1,1159 @@
+{
+  "id": "ss63",
+  "order": 63,
+  "slug": "only-if-necessary-condition",
+  "title": "「Only if」句型",
+  "titleZh": "「Only if 句：只有在……條件下才……」",
+  "titleEn": "Using Only if to express a necessary condition",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 63 -「Only if 句：只有在……條件下才……」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause + only if + condition clause",
+  "formulas": [
+    {
+      "id": "ss63-formula-core",
+      "labelEn": "Basic form",
+      "labelZh": "基本句型",
+      "formula": "Main clause + only if + condition clause"
+    },
+    {
+      "id": "ss63-formula-fronted",
+      "labelEn": "Fronted Only if for emphasis",
+      "labelZh": "Only if 置前強調",
+      "formula": "Only if + condition clause + auxiliary / modal verb + subject + main verb"
+    }
+  ],
+  "example": "We can leave earlier only if we have finished all our work.",
+  "exampleZh": "我們只有完成所有工作後，才可以早些離開。",
+  "examples": [
+    {
+      "id": "ss63-example-01",
+      "en": "We can leave earlier only if we have finished all our work.",
+      "zh": "我們只有完成所有工作後，才可以早些離開。",
+      "highlight": "only if we have finished all our work"
+    },
+    {
+      "id": "ss63-example-02",
+      "en": "You may enter only if your name is on the list.",
+      "zh": "只有你的名字在名單上，你才可以進入。",
+      "highlight": "only if your name is on the list"
+    }
+  ],
+  "meaning": {
+    "zh": "Only if 引出一項必要條件；只有當該條件成立時，主句所述的事情才可能、獲准或成立。"
+  },
+  "rules": [
+    {
+      "id": "ss63-rule-01",
+      "en": "Only if introduces a necessary condition for the preceding result.",
+      "zh": "Only if 前面的事情要發生，後面的條件必須先成立；條件不成立時，結果便不可以發生。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You may enter only if your name is on the list."
+      ]
+    },
+    {
+      "id": "ss63-rule-02",
+      "en": "When referring to the future, normally use the present tense in the if clause rather than will.",
+      "zh": "即使意思與將來有關，only if 後面的 if 子句通常使用現在式，而不使用 will。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We will go hiking only if the weather improves."
+      ]
+    },
+    {
+      "id": "ss63-rule-03",
+      "en": "When Only if begins the sentence, invert the auxiliary or modal verb and the subject in the main clause.",
+      "zh": "Only if 放在句首時，主句要使用倒裝，把助動詞或情態動詞放在主語之前。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Only if your name is on the list may you enter.",
+        "Only if everyone agrees can we change the plan."
+      ]
+    },
+    {
+      "id": "ss63-rule-04",
+      "en": "Only if introduces a necessary condition; if only expresses a wish, regret or dissatisfaction.",
+      "zh": "Only if 表示「只有在……條件下才……」；if only 表示「要是……就好了／只可惜……」，兩者意思完全不同。",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I will buy the laptop only if the price falls.",
+        "If only I had enough money, I could go to Italy."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss63-benefit-01",
+      "en": "This structure tells the listener exactly what must happen before something is possible, allowed or accepted.",
+      "zh": "這個句型能清楚告訴聽者，在某件事可以發生、獲准進行或獲得接受之前，甚麼條件必須成立。"
+    },
+    {
+      "id": "ss63-benefit-02",
+      "en": "You can use only if when explaining school rules, safety requirements, permissions and workplace procedures.",
+      "zh": "說明學校規則、安全要求、許可條件和工作程序時，可以使用 only if。"
+    },
+    {
+      "id": "ss63-benefit-03",
+      "en": "The structure makes it clear that the result cannot happen when the condition is missing.",
+      "zh": "這個句型清楚表明，如果缺少指定條件，相關結果便不可以發生。"
+    },
+    {
+      "id": "ss63-benefit-04",
+      "en": "Instead of always writing a negative sentence with unless, you can express the same restriction positively with only if.",
+      "zh": "你不需要每次都用 unless 寫否定句，也可以用 only if 以肯定形式表達相同限制。"
+    },
+    {
+      "id": "ss63-benefit-05",
+      "en": "Placing Only if at the beginning draws attention to the condition before giving the main message.",
+      "zh": "把 Only if 放在句首，可以先把讀者的注意力帶到重要條件，再說明主要訊息。"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using only if to show a necessary condition.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 only if 改寫以下句子，以表達必要條件。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss63-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "You cannot enter the library without a valid card.",
+      "promptZh": "沒有有效圖書證，你不能進入圖書館。",
+      "starter": "You",
+      "answer": "You may enter the library only if you have a valid card.",
+      "answerZh": "你只有持有有效圖書證，才可以進入圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "You may enter the library only if you have a valid card."
+    },
+    {
+      "id": "ss63-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia can watch television after she finishes her homework, but not before.",
+      "promptZh": "米婭完成家課後才可以看電視，之前不可以。",
+      "starter": "Mia",
+      "answer": "Mia can watch television only if she finishes her homework.",
+      "answerZh": "米婭只有完成功課後，才可以看電視。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia can watch television only if she finishes her homework."
+    },
+    {
+      "id": "ss63-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We will not go for a picnic unless the weather is dry.",
+      "promptZh": "除非天氣乾爽，否則我們不會去野餐。",
+      "starter": "We",
+      "answer": "We will go for a picnic only if the weather is dry.",
+      "answerZh": "只有天氣乾爽，我們才會去野餐。",
+      "answerZhSource": "pdf",
+      "highlight": "We will go for a picnic only if the weather is dry."
+    },
+    {
+      "id": "ss63-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Leo must wear a helmet before he is allowed to borrow the bicycle.",
+      "promptZh": "里奧必須戴上頭盔，才獲准借用單車。",
+      "starter": "Leo",
+      "answer": "Leo may borrow the bicycle only if he wears a helmet.",
+      "answerZh": "里奧只有戴上頭盔，才可以借用單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo may borrow the bicycle only if he wears a helmet."
+    },
+    {
+      "id": "ss63-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The dog is allowed to go outside when the gate is closed, and not at any other time.",
+      "promptZh": "大門關好時，狗才可以到外面去；其他時候不可以。",
+      "starter": "The",
+      "answer": "The dog can go outside only if the gate is closed.",
+      "answerZh": "只有大門已關好，狗才可以到外面去。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog can go outside only if the gate is closed."
+    },
+    {
+      "id": "ss63-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I do not buy this magazine unless it contains an article I need.",
+      "promptZh": "除非這本雜誌有一篇我需要的文章，否則我不會購買。",
+      "starter": "I",
+      "answer": "I buy this magazine only if it contains an article I need.",
+      "answerZh": "我只有在這本雜誌有一篇我需要的文章時，才會購買它。",
+      "answerZhSource": "pdf",
+      "highlight": "I buy this magazine only if it contains an article I need."
+    },
+    {
+      "id": "ss63-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A teacher must be present before students can use the computer room.",
+      "promptZh": "必須有老師在場，學生才可以使用電腦室。",
+      "starter": "Students",
+      "answer": "Students can use the computer room only if a teacher is present.",
+      "answerZh": "只有老師在場，學生才可以使用電腦室。",
+      "answerZhSource": "pdf",
+      "highlight": "Students can use the computer room only if a teacher is present."
+    },
+    {
+      "id": "ss63-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe will not join the walk unless her ankle feels better.",
+      "promptZh": "除非克洛伊的腳踝好轉，否則她不會參加步行活動。",
+      "starter": "Chloe",
+      "answer": "Chloe will join the walk only if her ankle feels better.",
+      "answerZh": "只有腳踝好轉，克洛伊才會參加步行活動。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe will join the walk only if her ankle feels better."
+    },
+    {
+      "id": "ss63-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop does not give customers a refund unless they show the receipt.",
+      "promptZh": "除非顧客出示收據，否則商店不會退款。",
+      "starter": "The",
+      "answer": "The shop gives customers a refund only if they show the receipt.",
+      "answerZh": "只有顧客出示收據，商店才會退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop gives customers a refund only if they show the receipt."
+    },
+    {
+      "id": "ss63-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The phone needs enough battery power before you can make a call.",
+      "promptZh": "電話必須有足夠電量，你才可以撥打電話。",
+      "starter": "You",
+      "answer": "You can make a call only if the phone has enough battery power.",
+      "answerZh": "只有電話有足夠電量，你才可以撥打電話。",
+      "answerZhSource": "pdf",
+      "highlight": "You can make a call only if the phone has enough battery power."
+    },
+    {
+      "id": "ss63-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Training cannot start until all the players have arrived.",
+      "promptZh": "所有球員到達後，訓練才可以開始。",
+      "starter": "The",
+      "answer": "The team can start training only if all the players have arrived.",
+      "answerZh": "只有所有球員都已到達，球隊才可以開始訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The team can start training only if all the players have arrived."
+    },
+    {
+      "id": "ss63-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel will not drive us home if he is too tired.",
+      "promptZh": "如果丹尼爾太疲倦，他便不會駕車送我們回家。",
+      "starter": "Daniel",
+      "answer": "Daniel will drive us home only if he is not too tired.",
+      "answerZh": "只有在不太疲倦的情況下，丹尼爾才會駕車送我們回家。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel will drive us home only if he is not too tired."
+    },
+    {
+      "id": "ss63-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Guests without the hotel wristband are not allowed to use the swimming pool.",
+      "promptZh": "沒有酒店手帶的住客不可以使用泳池。",
+      "starter": "Guests",
+      "answer": "Guests may use the swimming pool only if they wear the hotel wristband.",
+      "answerZh": "住客只有佩戴酒店手帶，才可以使用泳池。",
+      "answerZhSource": "pdf",
+      "highlight": "Guests may use the swimming pool only if they wear the hotel wristband."
+    },
+    {
+      "id": "ss63-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I will not order the soup if it is too spicy.",
+      "promptZh": "如果這款湯太辣，我便不會點它。",
+      "starter": "I",
+      "answer": "I will order the soup only if it is not too spicy.",
+      "answerZh": "只有這款湯不太辣，我才會點它。",
+      "answerZhSource": "pdf",
+      "highlight": "I will order the soup only if it is not too spicy."
+    },
+    {
+      "id": "ss63-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The printer cannot work without a network connection.",
+      "promptZh": "沒有網絡連線，打印機便不能運作。",
+      "starter": "The",
+      "answer": "The printer works only if it is connected to the network.",
+      "answerZh": "只有連接至網絡，打印機才可以運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The printer works only if it is connected to the network."
+    },
+    {
+      "id": "ss63-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah needs to bring photo identification before she can collect the parcel.",
+      "promptZh": "莎拉必須攜帶附有相片的身分證明文件，才可以領取包裹。",
+      "starter": "Sarah",
+      "answer": "Sarah can collect the parcel only if she brings photo identification.",
+      "answerZh": "莎拉只有攜帶附有相片的身分證明文件，才可以領取包裹。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah can collect the parcel only if she brings photo identification."
+    },
+    {
+      "id": "ss63-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We cannot book the room unless it is still available.",
+      "promptZh": "除非房間仍然可以預訂，否則我們不能預訂它。",
+      "starter": "We",
+      "answer": "We can book the room only if it is still available.",
+      "answerZh": "只有房間仍然可以預訂，我們才可以預訂它。",
+      "answerZhSource": "pdf",
+      "highlight": "We can book the room only if it is still available."
+    },
+    {
+      "id": "ss63-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The nurse must wait until the wound has healed before removing the bandage.",
+      "promptZh": "護士必須等到傷口癒合後，才可以拆除繃帶。",
+      "starter": "The",
+      "answer": "The nurse may remove the bandage only if the wound has healed.",
+      "answerZh": "只有傷口已經癒合，護士才可以拆除繃帶。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse may remove the bandage only if the wound has healed."
+    },
+    {
+      "id": "ss63-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Do not press this button unless the machine stops unexpectedly.",
+      "promptZh": "除非機器突然停止運作，否則不要按這個按鈕。",
+      "starter": "Press",
+      "answer": "Press this button only if the machine stops unexpectedly.",
+      "answerZh": "只有機器突然停止運作時，才按這個按鈕。",
+      "answerZhSource": "pdf",
+      "highlight": "Press this button only if the machine stops unexpectedly."
+    },
+    {
+      "id": "ss63-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children must wait for a green traffic light before they may cross the road.",
+      "promptZh": "孩子必須等待交通燈轉為綠色，才可以橫過馬路。",
+      "starter": "The",
+      "answer": "The children may cross the road only if the traffic light is green.",
+      "answerZh": "只有交通燈轉為綠色，孩子才可以橫過馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "The children may cross the road only if the traffic light is green."
+    },
+    {
+      "id": "ss63-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school trip will be cancelled unless enough parents volunteer.",
+      "promptZh": "除非有足夠家長自願協助，否則學校旅行將會取消。",
+      "starter": "The",
+      "answer": "The school trip will take place only if enough parents volunteer.",
+      "answerZh": "只有足夠家長自願協助，學校旅行才會舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The school trip will take place only if enough parents volunteer."
+    },
+    {
+      "id": "ss63-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Customers must spend at least fifty dollars to receive the discount.",
+      "promptZh": "顧客必須消費至少五十元，才可以獲得折扣。",
+      "starter": "Customers",
+      "answer": "Customers can receive the discount only if they spend at least fifty dollars.",
+      "answerZh": "顧客只有消費至少五十元，才可以獲得折扣。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers can receive the discount only if they spend at least fifty dollars."
+    },
+    {
+      "id": "ss63-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The match must stop unless the rain becomes lighter.",
+      "promptZh": "除非雨勢減弱，否則比賽必須停止。",
+      "starter": "The",
+      "answer": "The match can continue only if the rain becomes lighter.",
+      "answerZh": "只有雨勢減弱，比賽才可以繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "The match can continue only if the rain becomes lighter."
+    },
+    {
+      "id": "ss63-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company will not accept an application with any incomplete section.",
+      "promptZh": "如果申請表有任何部分未填妥，公司便不會接受。",
+      "starter": "The",
+      "answer": "The company will accept an application only if all its sections are complete.",
+      "answerZh": "只有申請表的所有部分都已填妥，公司才會接受申請。",
+      "answerZhSource": "pdf",
+      "highlight": "The company will accept an application only if all its sections are complete."
+    },
+    {
+      "id": "ss63-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor must give approval before the patient is allowed to leave hospital.",
+      "promptZh": "病人必須得到醫生批准，才可以離開醫院。",
+      "starter": "The",
+      "answer": "The patient may leave hospital only if the doctor gives approval.",
+      "answerZh": "只有醫生批准，病人才可以離開醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient may leave hospital only if the doctor gives approval."
+    },
+    {
+      "id": "ss63-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The sensor must detect movement before the lights turn on.",
+      "promptZh": "感應器必須偵測到移動，燈才會亮起。",
+      "starter": "The",
+      "answer": "The lights turn on only if the sensor detects movement.",
+      "answerZh": "只有感應器偵測到移動，燈才會亮起。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights turn on only if the sensor detects movement."
+    },
+    {
+      "id": "ss63-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The council will not open the shelter unless the temperature falls below five degrees Celsius.",
+      "promptZh": "除非氣溫下降至攝氏五度以下，否則市議會不會開放庇護中心。",
+      "starter": "The",
+      "answer": "The council will open the shelter only if the temperature falls below five degrees Celsius.",
+      "answerZh": "只有氣溫下降至攝氏五度以下，市議會才會開放庇護中心。",
+      "answerZhSource": "pdf",
+      "highlight": "The council will open the shelter only if the temperature falls below five degrees Celsius."
+    },
+    {
+      "id": "ss63-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Emma will not share the document unless everyone agrees to keep it private.",
+      "promptZh": "除非所有人都同意把文件保密，否則艾瑪不會分享它。",
+      "starter": "Emma",
+      "answer": "Emma will share the document only if everyone agrees to keep it private.",
+      "answerZh": "只有所有人都同意把文件保密，艾瑪才會分享它。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma will share the document only if everyone agrees to keep it private."
+    },
+    {
+      "id": "ss63-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lift cannot be used before the safety inspection is completed.",
+      "promptZh": "安全檢查完成前，升降機不能使用。",
+      "starter": "The",
+      "answer": "The lift can be used only if the safety inspection has been completed.",
+      "answerZh": "只有安全檢查已完成，升降機才可以使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift can be used only if the safety inspection has been completed."
+    },
+    {
+      "id": "ss63-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Reliable new information is required before we will change the plan.",
+      "promptZh": "我們必須得到可靠的新資料，才會更改計劃。",
+      "starter": "We",
+      "answer": "We will change the plan only if the new information is reliable.",
+      "answerZh": "只有新資料可靠，我們才會更改計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "We will change the plan only if the new information is reliable."
+    },
+    {
+      "id": "ss63-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Smoke entering the room was a necessary condition for the alarm to sound.",
+      "promptZh": "煙霧進入房間是警報器響起的必要條件。",
+      "starter": "The",
+      "answer": "The alarm would sound only if smoke entered the room.",
+      "answerZh": "只有煙霧進入房間，警報器才會響起。",
+      "answerZhSource": "pdf",
+      "highlight": "The alarm would sound only if smoke entered the room."
+    },
+    {
+      "id": "ss63-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum did not extend its opening hours unless a special exhibition was being held.",
+      "promptZh": "除非當時正在舉行特別展覽，否則博物館不會延長開放時間。",
+      "starter": "The",
+      "answer": "The museum extended its opening hours only if a special exhibition was being held.",
+      "answerZh": "只有當時正在舉行特別展覽，博物館才會延長開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum extended its opening hours only if a special exhibition was being held."
+    },
+    {
+      "id": "ss63-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager did not approve overtime unless the work could not be completed the next day.",
+      "promptZh": "除非工作不能留待翌日完成，否則經理不會批准逾時工作。",
+      "starter": "The",
+      "answer": "The manager approved overtime only if the work could not be completed the next day.",
+      "answerZh": "只有工作不能留待翌日完成，經理才會批准逾時工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager approved overtime only if the work could not be completed the next day."
+    },
+    {
+      "id": "ss63-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The device must be connected to Wi-Fi before the software saves a backup.",
+      "promptZh": "裝置必須連接至 Wi-Fi，軟件才會儲存備份。",
+      "starter": "The",
+      "answer": "The software saves a backup only if the device is connected to Wi-Fi.",
+      "answerZh": "只有裝置連接至 Wi-Fi，軟件才會儲存備份。",
+      "answerZhSource": "pdf",
+      "highlight": "The software saves a backup only if the device is connected to Wi-Fi."
+    },
+    {
+      "id": "ss63-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rescue boat was not sent out unless the sea conditions were safe enough.",
+      "promptZh": "除非海面情況足夠安全，否則救援船不會出動。",
+      "starter": "The",
+      "answer": "The rescue boat was sent out only if the sea conditions were safe enough.",
+      "answerZh": "只有海面情況足夠安全，救援船才會出動。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue boat was sent out only if the sea conditions were safe enough."
+    },
+    {
+      "id": "ss63-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You must obtain permission from the people in these photographs before sharing them.",
+      "promptZh": "你必須先得到相片中人物的同意，才可以分享這些相片。",
+      "starter": "You",
+      "answer": "You may share these photographs only if the people in them have given permission.",
+      "answerZh": "只有相片中的人物已經同意，你才可以分享這些相片。",
+      "answerZhSource": "pdf",
+      "highlight": "You may share these photographs only if the people in them have given permission."
+    },
+    {
+      "id": "ss63-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the school building can be used, the class will not move online.",
+      "promptZh": "如果校舍可以使用，課堂便不會轉為網上進行。",
+      "starter": "The",
+      "answer": "The class will move online only if the school building cannot be used.",
+      "answerZh": "只有校舍不能使用，課堂才會轉為網上進行。",
+      "answerZhSource": "pdf",
+      "highlight": "The class will move online only if the school building cannot be used."
+    },
+    {
+      "id": "ss63-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The payment cannot be released until both sides have signed the agreement.",
+      "promptZh": "雙方簽署協議後，款項才可以發放。",
+      "starter": "The",
+      "answer": "The payment can be released only if both sides have signed the agreement.",
+      "answerZh": "只有雙方都已簽署協議，款項才可以發放。",
+      "answerZhSource": "pdf",
+      "highlight": "The payment can be released only if both sides have signed the agreement."
+    },
+    {
+      "id": "ss63-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Do not take the medicine unless the pain returns.",
+      "promptZh": "除非痛楚再次出現，否則不要服用這種藥物。",
+      "starter": "Take",
+      "answer": "Take the medicine only if the pain returns.",
+      "answerZh": "只有痛楚再次出現時，才服用這種藥物。",
+      "answerZhSource": "pdf",
+      "highlight": "Take the medicine only if the pain returns."
+    },
+    {
+      "id": "ss63-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Engineers must confirm that the bridge is safe before the road can reopen.",
+      "promptZh": "工程師必須確認大橋安全，道路才可以重新開放。",
+      "starter": "The",
+      "answer": "The road can reopen only if engineers confirm that the bridge is safe.",
+      "answerZh": "只有工程師確認大橋安全，道路才可以重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The road can reopen only if engineers confirm that the bridge is safe."
+    },
+    {
+      "id": "ss63-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The research team will not publish the findings unless the results can be checked independently.",
+      "promptZh": "除非研究結果可以由獨立人士核實，否則研究團隊不會發表調查結果。",
+      "starter": "The",
+      "answer": "The research team will publish the findings only if the results can be checked independently.",
+      "answerZh": "只有研究結果可以由獨立人士核實，研究團隊才會發表調查結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team will publish the findings only if the results can be checked independently."
+    },
+    {
+      "id": "ss63-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Residents are not allowed to return to the building without a safety declaration from the fire service.",
+      "promptZh": "在消防部門宣布大樓安全之前，居民不可以返回大樓。",
+      "starter": "Residents",
+      "answer": "Residents can return to the building only if the fire service declares it safe.",
+      "answerZh": "只有消防部門宣布大樓安全，居民才可以返回。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents can return to the building only if the fire service declares it safe."
+    },
+    {
+      "id": "ss63-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity cannot begin the project without enough long-term funding.",
+      "promptZh": "沒有足夠的長期資金，慈善機構便不能展開項目。",
+      "starter": "The",
+      "answer": "The charity can begin the project only if it receives enough long-term funding.",
+      "answerZh": "只有獲得足夠的長期資金，慈善機構才可以展開項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity can begin the project only if it receives enough long-term funding."
+    },
+    {
+      "id": "ss63-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The judge cannot consider the new evidence unless its source can be verified.",
+      "promptZh": "除非新證據的來源可以得到核實，否則法官不能考慮該證據。",
+      "starter": "The",
+      "answer": "The judge may consider the new evidence only if its source can be verified.",
+      "answerZh": "只有新證據的來源可以得到核實，法官才可以考慮該證據。",
+      "answerZhSource": "pdf",
+      "highlight": "The judge may consider the new evidence only if its source can be verified."
+    },
+    {
+      "id": "ss63-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A user must answer two security questions correctly before the system allows a password change.",
+      "promptZh": "使用者必須正確回答兩條保安問題，系統才會允許更改密碼。",
+      "starter": "The",
+      "answer": "The system allows a password change only if the user answers two security questions correctly.",
+      "answerZh": "只有使用者正確回答兩條保安問題，系統才會允許更改密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The system allows a password change only if the user answers two security questions correctly."
+    },
+    {
+      "id": "ss63-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The driver cannot move the bus until every passenger is seated.",
+      "promptZh": "所有乘客坐好後，司機才可以開動巴士。",
+      "starter": "Only",
+      "answer": "Only if every passenger is seated can the driver move the bus.",
+      "answerZh": "只有所有乘客都已坐好，司機才可以開動巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Only if every passenger is seated can the driver move the bus."
+    },
+    {
+      "id": "ss63-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new sports centre will not open unless it passes the final inspection.",
+      "promptZh": "除非新體育中心通過最後檢查，否則不會開放。",
+      "starter": "Only",
+      "answer": "Only if the new sports centre passes the final inspection will it open.",
+      "answerZh": "只有新體育中心通過最後檢查，它才會開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Only if the new sports centre passes the final inspection will it open."
+    },
+    {
+      "id": "ss63-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The timetable cannot be changed unless both departments agree.",
+      "promptZh": "除非兩個部門都同意，否則時間表不能更改。",
+      "starter": "Only",
+      "answer": "Only if both departments agree can the timetable be changed.",
+      "answerZh": "只有兩個部門都同意，時間表才可以更改。",
+      "answerZhSource": "pdf",
+      "highlight": "Only if both departments agree can the timetable be changed."
+    },
+    {
+      "id": "ss63-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Do not use this second number unless the emergency line is busy.",
+      "promptZh": "除非緊急熱線正在繁忙，否則不要使用這個後備號碼。",
+      "starter": "Only",
+      "answer": "Only if the emergency line is busy should you use this second number.",
+      "answerZh": "只有緊急熱線正在繁忙時，你才應該使用這個後備號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Only if the emergency line is busy should you use this second number."
+    },
+    {
+      "id": "ss63-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital will not expand the programme unless the data show a clear benefit.",
+      "promptZh": "除非數據顯示計劃有明顯成效，否則醫院不會擴大該計劃。",
+      "starter": "Only",
+      "answer": "Only if the data show a clear benefit will the hospital expand the programme.",
+      "answerZh": "只有數據顯示計劃有明顯成效，醫院才會擴大該計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Only if the data show a clear benefit will the hospital expand the programme."
+    }
+  ]
+}

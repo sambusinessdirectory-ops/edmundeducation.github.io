@@ -1,0 +1,1240 @@
+{
+  "id": "ss46",
+  "order": 46,
+  "slug": "everything-anything-something",
+  "title": "「Everything / Anything / Something」句型",
+  "titleZh": "「Everything / Anything / Something」表達事物範圍",
+  "titleEn": "Using something, anything and everything",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcture 46 -「Everything _ Anything _ Something 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "Something / Anything / Everything + singular verb + other information",
+  "formulas": [
+    {
+      "id": "ss46-formula-subject",
+      "labelEn": "As the subject",
+      "labelZh": "作主語",
+      "formula": "Something / Anything / Everything + singular verb + other information"
+    },
+    {
+      "id": "ss46-formula-object",
+      "labelEn": "As the object",
+      "labelZh": "作受詞",
+      "formula": "Subject + verb + something / anything / everything + other information"
+    },
+    {
+      "id": "ss46-formula-adjective",
+      "labelEn": "Add an adjective",
+      "labelZh": "加入形容詞",
+      "formula": "something / anything / everything + adjective"
+    },
+    {
+      "id": "ss46-formula-clause",
+      "labelEn": "Add a that-clause",
+      "labelZh": "加入 that 子句",
+      "formula": "something / anything / everything + that-clause"
+    },
+    {
+      "id": "ss46-formula-infinitive",
+      "labelEn": "Add a to-infinitive",
+      "labelZh": "加入不定詞",
+      "formula": "something / anything + to + base verb"
+    }
+  ],
+  "example": "Something feels wrong when a system rewards speed more than accuracy.",
+  "exampleZh": "當一個制度重速度多於準確時，總會有點不對勁。",
+  "examples": [
+    {
+      "id": "ss46-example-01",
+      "en": "Something feels wrong when a system rewards speed more than accuracy.",
+      "zh": "當一個制度重速度多於準確時，總會有點不對勁。",
+      "highlight": "Something feels wrong"
+    }
+  ],
+  "meaning": {
+    "zh": "Something 表示某件未具體說明的事物；anything 表示任何事物或沒有限制；everything 表示相關範圍內的一切。"
+  },
+  "rules": [
+    {
+      "id": "ss46-rule-01",
+      "en": "Treat all three pronouns as singular.",
+      "zh": "Something、anything 和 everything 在文法上都視為單數。",
+      "examples": [
+        "Something is missing.",
+        "Everything has changed."
+      ]
+    },
+    {
+      "id": "ss46-rule-02",
+      "en": "Use something for an unspecified thing that exists.",
+      "zh": "Something 表示某件不確定但存在的事物，最常見於肯定句。",
+      "examples": [
+        "Something is making a noise."
+      ]
+    },
+    {
+      "id": "ss46-rule-03",
+      "en": "Use anything in questions, negatives, conditions or for unrestricted choice.",
+      "zh": "Anything 常見於問句、否定句、條件句，亦可表示「任何都可以」。",
+      "examples": [
+        "Did you hear anything?",
+        "You can choose anything."
+      ]
+    },
+    {
+      "id": "ss46-rule-04",
+      "en": "Use everything for all things in the relevant range.",
+      "zh": "Everything 表示相關範圍內的一切，通常寫成一個字。",
+      "examples": [
+        "Everything is ready."
+      ]
+    },
+    {
+      "id": "ss46-rule-05",
+      "en": "Put an adjective after the pronoun.",
+      "zh": "形容詞放在代名詞後面。",
+      "examples": [
+        "something useful",
+        "anything unusual"
+      ]
+    },
+    {
+      "id": "ss46-rule-06",
+      "en": "Use that to add a describing clause in this lesson.",
+      "zh": "本課使用 that 子句描述這些代名詞。",
+      "examples": [
+        "Something that he said surprised me."
+      ]
+    },
+    {
+      "id": "ss46-rule-07",
+      "en": "Avoid double negatives.",
+      "zh": "否定句不要使用雙重否定。",
+      "examples": [
+        "I do not know anything about the problem."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss46-benefit-01",
+      "en": "It helps you discuss things that are unknown.",
+      "zh": "當你知道事情存在但不知道具體是甚麼時，可以使用 something。"
+    },
+    {
+      "id": "ss46-benefit-02",
+      "en": "It shows how wide your meaning is.",
+      "zh": "三個詞能清楚區分某件、任何或所有事情。"
+    },
+    {
+      "id": "ss46-benefit-03",
+      "en": "It avoids long lists and repeated nouns.",
+      "zh": "它能避免逐一列出所有物件、文件或細節。"
+    },
+    {
+      "id": "ss46-benefit-04",
+      "en": "It lets you add useful descriptions naturally.",
+      "zh": "代名詞後可自然加入形容詞或 that 子句。"
+    },
+    {
+      "id": "ss46-benefit-05",
+      "en": "It helps you make clear general statements.",
+      "zh": "它適合討論規則、安全、信任和規劃等概括性議題。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using something, anything or everything.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 something、anything 或 everything 改寫以下句子。",
+      "答案須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss46-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "An unknown object in the kitchen is making a strange noise.",
+      "promptZh": "廚房裏有一件不明物件正在發出奇怪的聲音。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something is making a strange noise in the kitchen.",
+      "answerZh": "廚房裏有東西正在發出奇怪的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "Something is making a strange noise in the kitchen."
+    },
+    {
+      "id": "ss46-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All the materials and arrangements are ready for the class.",
+      "promptZh": "課堂所需的所有物資和安排都已準備好。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything is ready for the class.",
+      "answerZh": "課堂所需的一切都已準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything is ready for the class."
+    },
+    {
+      "id": "ss46-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I cannot find a single item in this drawer.",
+      "promptZh": "我在這個抽屜裏連一件東西也找不到。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I cannot find anything in this drawer.",
+      "answerZh": "我在這個抽屜裏找不到任何東西。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot find anything in this drawer."
+    },
+    {
+      "id": "ss46-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "One of the dishes in the oven smells wonderful, but I do not know which one.",
+      "promptZh": "焗爐裏其中一道菜聞起來很香，但我不知道是哪一道。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something smells wonderful in the oven.",
+      "answerZh": "焗爐裏有些東西聞起來很香。",
+      "answerZhSource": "pdf",
+      "highlight": "Something smells wonderful in the oven."
+    },
+    {
+      "id": "ss46-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "All aspects of the situation changed after the new manager arrived.",
+      "promptZh": "新經理到任後，情況的各個方面都改變了。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything changed after the new manager arrived.",
+      "answerZh": "新經理到任後，一切都改變了。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything changed after the new manager arrived."
+    },
+    {
+      "id": "ss46-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Do you need any groceries or household items from the supermarket?",
+      "promptZh": "你需要從超級市場買任何食品或家居用品嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do you need anything from the supermarket?",
+      "answerZh": "你需要從超級市場買任何東西嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Do you need anything from the supermarket?"
+    },
+    {
+      "id": "ss46-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "An unidentified object is blocking the door.",
+      "promptZh": "有一件不明物件擋住房門。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something is blocking the door.",
+      "answerZh": "有東西擋住房門。",
+      "answerZhSource": "pdf",
+      "highlight": "Something is blocking the door."
+    },
+    {
+      "id": "ss46-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "She packed all the things she needed for the trip.",
+      "promptZh": "她收拾了旅程所需的所有東西。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She packed everything she needed for the trip.",
+      "answerZh": "她收拾了旅程所需的一切。",
+      "answerZhSource": "pdf",
+      "highlight": "She packed everything she needed for the trip."
+    },
+    {
+      "id": "ss46-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We did not hear a single sound during the night.",
+      "promptZh": "我們在夜間連一點聲音也沒有聽到。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We did not hear anything during the night.",
+      "answerZh": "我們在夜間甚麼也沒有聽到。",
+      "answerZhSource": "pdf",
+      "highlight": "We did not hear anything during the night."
+    },
+    {
+      "id": "ss46-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "An unknown item fell from the shelf.",
+      "promptZh": "有一件不明物品從架上掉下來。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something fell from the shelf.",
+      "answerZh": "有東西從架上掉下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Something fell from the shelf."
+    },
+    {
+      "id": "ss46-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I would like a warm drink, but I do not mind which one.",
+      "promptZh": "我想喝一杯暖飲，但哪一款都可以。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I would like something warm to drink.",
+      "answerZh": "我想喝點暖的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "I would like something warm to drink."
+    },
+    {
+      "id": "ss46-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All the important information is written on this page.",
+      "promptZh": "所有重要資料都寫在這一頁上。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything important is written on this page.",
+      "answerZh": "所有重要內容都寫在這一頁上。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything important is written on this page."
+    },
+    {
+      "id": "ss46-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Does this report contain any useful information?",
+      "promptZh": "這份報告有任何有用的資料嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is there anything useful in this report?",
+      "answerZh": "這份報告裏有任何有用的內容嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is there anything useful in this report?"
+    },
+    {
+      "id": "ss46-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "An unexpected event happened on the way home.",
+      "promptZh": "回家途中發生了一件意想不到的事。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something unexpected happened on the way home.",
+      "answerZh": "回家途中發生了一件意想不到的事。",
+      "answerZhSource": "pdf",
+      "highlight": "Something unexpected happened on the way home."
+    },
+    {
+      "id": "ss46-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You may choose any suitable item from the menu.",
+      "promptZh": "你可以從餐牌中選擇任何合適的菜式。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may choose anything suitable from the menu.",
+      "answerZh": "你可以從餐牌中選擇任何合適的菜式。",
+      "answerZhSource": "pdf",
+      "highlight": "You may choose anything suitable from the menu."
+    },
+    {
+      "id": "ss46-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All the necessary materials and arrangements have been prepared.",
+      "promptZh": "所有必需的物資和安排都已準備好。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything necessary has been prepared.",
+      "answerZh": "所有必需的東西都已準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything necessary has been prepared."
+    },
+    {
+      "id": "ss46-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I noticed an unusual object near the window.",
+      "promptZh": "我留意到窗邊有一件不尋常的物件。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I noticed something unusual near the window.",
+      "answerZh": "我留意到窗邊有些不尋常的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "I noticed something unusual near the window."
+    },
+    {
+      "id": "ss46-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We could not find any affordable product in the shop.",
+      "promptZh": "我們在店裏找不到任何價格合理的產品。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could not find anything affordable in the shop.",
+      "answerZh": "我們在店裏找不到任何價格合理的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "We could not find anything affordable in the shop."
+    },
+    {
+      "id": "ss46-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "All the valuable items were kept in the safe.",
+      "promptZh": "所有貴重物品都存放在保險箱裏。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything valuable was kept in the safe.",
+      "answerZh": "所有貴重的東西都存放在保險箱裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything valuable was kept in the safe."
+    },
+    {
+      "id": "ss46-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "She wants a simple meal for lunch, but she has not chosen one.",
+      "promptZh": "她午餐想吃一頓簡單的飯，但尚未選好。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She wants something simple for lunch.",
+      "answerZh": "她午餐想吃點簡單的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "She wants something simple for lunch."
+    },
+    {
+      "id": "ss46-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One of the things that you said worried me.",
+      "promptZh": "你說過的其中一件事令我擔心。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something that you said worried me.",
+      "answerZh": "你說過的某件事令我擔心。",
+      "answerZhSource": "pdf",
+      "highlight": "Something that you said worried me."
+    },
+    {
+      "id": "ss46-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "All the points that the teacher explained were clear.",
+      "promptZh": "老師解釋的所有要點都很清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything that the teacher explained was clear.",
+      "answerZh": "老師解釋的一切都很清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything that the teacher explained was clear."
+    },
+    {
+      "id": "ss46-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Any action that damages the equipment must be reported.",
+      "promptZh": "任何損壞設備的行為都必須呈報。",
+      "promptZhSource": "pdf",
+      "starter": "Anything",
+      "answer": "Anything that damages the equipment must be reported.",
+      "answerZh": "任何損壞設備的事情都必須呈報。",
+      "answerZhSource": "pdf",
+      "highlight": "Anything that damages the equipment must be reported."
+    },
+    {
+      "id": "ss46-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I will take any action that helps the team.",
+      "promptZh": "任何有助團隊的行動，我都願意採取。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I will do anything that helps the team.",
+      "answerZh": "任何有助團隊的事情，我都願意做。",
+      "answerZhSource": "pdf",
+      "highlight": "I will do anything that helps the team."
+    },
+    {
+      "id": "ss46-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "An unidentified substance that looked like smoke was rising from the field.",
+      "promptZh": "田野上有一種看似煙霧的不明物質正在升起。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something that looked like smoke was rising from the field.",
+      "answerZh": "有些看似煙霧的東西正從田野升起。",
+      "answerZhSource": "pdf",
+      "highlight": "Something that looked like smoke was rising from the field."
+    },
+    {
+      "id": "ss46-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "All the items that we ordered arrived on time.",
+      "promptZh": "我們訂購的所有物品都準時送達。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything that we ordered arrived on time.",
+      "answerZh": "我們訂購的一切都準時送達。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything that we ordered arrived on time."
+    },
+    {
+      "id": "ss46-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You should not share any file, form or message that contains personal information.",
+      "promptZh": "你不應分享任何載有個人資料的檔案、表格或訊息。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should not share anything that contains personal information.",
+      "answerZh": "你不應分享任何載有個人資料的東西。",
+      "answerZhSource": "pdf",
+      "highlight": "You should not share anything that contains personal information."
+    },
+    {
+      "id": "ss46-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One of your belongings was left in the classroom.",
+      "promptZh": "你有一件個人物品被遺留在課室裏。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something that belongs to you was left in the classroom.",
+      "answerZh": "有一件屬於你的東西被遺留在課室裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Something that belongs to you was left in the classroom."
+    },
+    {
+      "id": "ss46-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every action or design choice that reduces road safety should be examined carefully.",
+      "promptZh": "任何降低道路安全的行動或設計選擇都應被仔細檢視。",
+      "promptZhSource": "pdf",
+      "starter": "Anything",
+      "answer": "Anything that reduces road safety should be examined carefully.",
+      "answerZh": "任何降低道路安全的事情都應被仔細檢視。",
+      "answerZhSource": "pdf",
+      "highlight": "Anything that reduces road safety should be examined carefully."
+    },
+    {
+      "id": "ss46-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "All the questions that the nurse asked me were easy to answer.",
+      "promptZh": "護士問我的所有問題都很容易回答。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything that the nurse asked me was easy to answer.",
+      "answerZh": "護士問我的一切都很容易回答。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything that the nurse asked me was easy to answer."
+    },
+    {
+      "id": "ss46-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If there is any change, please call me immediately.",
+      "promptZh": "如有任何變化，請立即致電給我。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If anything changes, please call me immediately.",
+      "answerZh": "如有任何變化，請立即致電給我。",
+      "answerZhSource": "pdf",
+      "highlight": "If anything changes, please call me immediately."
+    },
+    {
+      "id": "ss46-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There must have been a problem with the booking system.",
+      "promptZh": "預訂系統一定出了問題。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something must have gone wrong with the booking system.",
+      "answerZh": "預訂系統一定有些地方出了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Something must have gone wrong with the booking system."
+    },
+    {
+      "id": "ss46-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We should check all the equipment, signs and arrangements before the doors open.",
+      "promptZh": "開門前，我們應檢查所有設備、標誌和安排。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should check everything before the doors open.",
+      "answerZh": "開門前，我們應檢查一切。",
+      "answerZhSource": "pdf",
+      "highlight": "We should check everything before the doors open."
+    },
+    {
+      "id": "ss46-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Do not sign a document of any kind unless you understand it.",
+      "promptZh": "除非你明白內容，否則不要簽署任何類型的文件。",
+      "promptZhSource": "pdf",
+      "starter": "Do",
+      "answer": "Do not sign anything unless you understand it.",
+      "answerZh": "除非你明白內容，否則不要簽署任何東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not sign anything unless you understand it."
+    },
+    {
+      "id": "ss46-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An action needs to be taken regarding the broken lift.",
+      "promptZh": "需要就故障升降機採取行動。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something needs to be done about the broken lift.",
+      "answerZh": "需要就故障升降機採取一些行動。",
+      "answerZhSource": "pdf",
+      "highlight": "Something needs to be done about the broken lift."
+    },
+    {
+      "id": "ss46-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The storm damaged every item in the garden.",
+      "promptZh": "暴風雨損壞了花園裏的每件物品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm damaged everything in the garden.",
+      "answerZh": "暴風雨損壞了花園裏的一切。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm damaged everything in the garden."
+    },
+    {
+      "id": "ss46-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "You can ask me any question about the course.",
+      "promptZh": "你可以問我任何有關課程的問題。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can ask me anything about the course.",
+      "answerZh": "你可以問我任何有關課程的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "You can ask me anything about the course."
+    },
+    {
+      "id": "ss46-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All tasks and decisions seem more difficult when you are tired.",
+      "promptZh": "疲倦時，所有任務和決定似乎都會變得更困難。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything seems more difficult when you are tired.",
+      "answerZh": "疲倦時，一切似乎都會變得更困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything seems more difficult when you are tired."
+    },
+    {
+      "id": "ss46-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "There is an important fact you should know before the meeting.",
+      "promptZh": "會議前，有一項重要事實是你應該知道的。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There is something important that you should know before the meeting.",
+      "answerZh": "會議前，有一件重要的事情是你應該知道的。",
+      "answerZhSource": "pdf",
+      "highlight": "There is something important that you should know before the meeting."
+    },
+    {
+      "id": "ss46-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I could not take any action to stop the leak.",
+      "promptZh": "我無法採取任何行動阻止漏水。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I could not do anything to stop the leak.",
+      "answerZh": "我無法做任何事情阻止漏水。",
+      "answerZhSource": "pdf",
+      "highlight": "I could not do anything to stop the leak."
+    },
+    {
+      "id": "ss46-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It feels as though there is a problem when a system rewards speed more than accuracy.",
+      "promptZh": "當一個制度重速度多於準確時，感覺就像存在某個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something feels wrong when a system rewards speed more than accuracy.",
+      "answerZh": "當一個制度重速度多於準確時，總會有點不對勁。",
+      "answerZhSource": "pdf",
+      "highlight": "Something feels wrong when a system rewards speed more than accuracy."
+    },
+    {
+      "id": "ss46-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Any policy or action that weakens public trust should be examined carefully.",
+      "promptZh": "任何削弱公眾信任的政策或行動都應被仔細檢視。",
+      "promptZhSource": "pdf",
+      "starter": "Anything",
+      "answer": "Anything that weakens public trust should be examined carefully.",
+      "answerZh": "任何削弱公眾信任的事情都應被仔細檢視。",
+      "answerZhSource": "pdf",
+      "highlight": "Anything that weakens public trust should be examined carefully."
+    },
+    {
+      "id": "ss46-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "All parts of the work become more expensive when planning is poor.",
+      "promptZh": "規劃做得不好時，工作的所有部分都會變得更昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything involved in the work becomes more expensive when planning is poor.",
+      "answerZh": "規劃做得不好時，工作所涉及的一切都會變得更昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything involved in the work becomes more expensive when planning is poor."
+    },
+    {
+      "id": "ss46-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We should record all the points agreed during the meeting.",
+      "promptZh": "我們應記錄會議期間議定的所有事項。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should record everything that was agreed during the meeting.",
+      "answerZh": "我們應記錄會議期間議定的一切。",
+      "answerZhSource": "pdf",
+      "highlight": "We should record everything that was agreed during the meeting."
+    },
+    {
+      "id": "ss46-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you notice any object or problem that could cause an accident, report it at once.",
+      "promptZh": "如果你發現任何可能引致意外的物件或問題，請立即呈報。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you notice anything that could cause an accident, report it at once.",
+      "answerZh": "如果你發現任何可能引致意外的事情，請立即呈報。",
+      "answerZhSource": "pdf",
+      "highlight": "If you notice anything that could cause an accident, report it at once."
+    },
+    {
+      "id": "ss46-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A piece of information may be missing from the final report.",
+      "promptZh": "最終報告可能遺漏了一項資料。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something may be missing from the final report.",
+      "answerZh": "最終報告可能遺漏了一些東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Something may be missing from the final report."
+    },
+    {
+      "id": "ss46-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new system allows staff to find all the information and tools they need in one place.",
+      "promptZh": "新系統讓員工可以在同一個地方找到所需的所有資料和工具。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system allows staff to find everything they need in one place.",
+      "answerZh": "新系統讓員工可以在同一個地方找到所需的一切。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system allows staff to find everything they need in one place."
+    },
+    {
+      "id": "ss46-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We should not promise any result or service that we cannot deliver.",
+      "promptZh": "我們不應承諾任何無法提供的成果或服務。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should not promise anything that we cannot deliver.",
+      "answerZh": "我們不應承諾任何無法做到的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "We should not promise anything that we cannot deliver."
+    },
+    {
+      "id": "ss46-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "An object or action that appears harmless can still create a serious risk.",
+      "promptZh": "一件看似無害的物件或行動仍可能造成嚴重風險。",
+      "promptZhSource": "pdf",
+      "starter": "Something",
+      "answer": "Something that appears harmless can still create a serious risk.",
+      "answerZh": "有些看似無害的事情仍可能造成嚴重風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Something that appears harmless can still create a serious risk."
+    },
+    {
+      "id": "ss46-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "All factors that affect public safety must be considered before the plan is approved.",
+      "promptZh": "計劃獲批准前，所有影響公共安全的因素都必須被考慮。",
+      "promptZhSource": "pdf",
+      "starter": "Everything",
+      "answer": "Everything that affects public safety must be considered before the plan is approved.",
+      "answerZh": "計劃獲批准前，所有影響公共安全的事情都必須被考慮。",
+      "answerZhSource": "pdf",
+      "highlight": "Everything that affects public safety must be considered before the plan is approved."
+    }
+  ]
+}

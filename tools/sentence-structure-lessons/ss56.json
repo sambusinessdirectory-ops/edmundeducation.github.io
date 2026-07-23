@@ -1,0 +1,1220 @@
+{
+  "id": "ss56",
+  "order": 56,
+  "slug": "v1-to-infinitive",
+  "title": "「V1 + To-infinitive」句型",
+  "titleZh": "「V1 + To-infinitive」連接態度、決定與行動",
+  "titleEn": "Using a first verb followed by a to-infinitive",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 56 - 「V1 + To-infinitive」句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + V1 + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss56-formula-core",
+      "labelEn": "Basic structure",
+      "labelZh": "基本句式",
+      "formula": "Subject + V1 + to + base verb + other information"
+    },
+    {
+      "id": "ss56-formula-modal",
+      "labelEn": "With a modal verb",
+      "labelZh": "配合情態動詞",
+      "formula": "Subject + modal verb + V1 + to + base verb + other information"
+    }
+  ],
+  "example": "If you don’t study, you may fail to pass the exam.",
+  "exampleZh": "如果你不溫習，你可能無法通過考試。",
+  "examples": [
+    {
+      "id": "ss56-example-01",
+      "en": "If you don’t study, you may fail to pass the exam.",
+      "zh": "如果你不溫習，你可能無法通過考試。",
+      "highlight": "may fail to pass"
+    }
+  ],
+  "meaning": {
+    "zh": "第一個主要動詞表達計劃、希望、答應、拒絕、嘗試或未能完成等意思，後面的 to-infinitive 說明相關行動。"
+  },
+  "rules": [
+    {
+      "id": "ss56-rule-01",
+      "en": "Use the base form after to.",
+      "zh": "To 後面必須使用動詞原形。",
+      "examples": [
+        "She decided to join the club."
+      ]
+    },
+    {
+      "id": "ss56-rule-02",
+      "en": "V1 changes for tense and subject agreement.",
+      "zh": "V1 可以按時態或主語改變。",
+      "examples": [
+        "He plans to study tonight.",
+        "They planned to study together."
+      ]
+    },
+    {
+      "id": "ss56-rule-03",
+      "en": "Use the base form of V1 after a modal verb.",
+      "zh": "情態動詞後面的 V1 使用原形。",
+      "examples": [
+        "She might decide to leave early."
+      ]
+    },
+    {
+      "id": "ss56-rule-04",
+      "en": "Place not carefully because it can negate V1 or the infinitive.",
+      "zh": "否定意思可以放在 V1 或 to-infinitive 的不同位置，意思並不相同。",
+      "examples": [
+        "He did not manage to finish.",
+        "He decided not to answer."
+      ]
+    },
+    {
+      "id": "ss56-rule-05",
+      "en": "Only certain verbs take a to-infinitive directly.",
+      "zh": "並非所有動詞都可以直接接 to-infinitive；本課使用 decide、plan、hope、promise、manage 等常見 V1。",
+      "examples": [
+        "plan to",
+        "refuse to",
+        "manage to"
+      ]
+    },
+    {
+      "id": "ss56-rule-06",
+      "en": "Do not confuse this pattern with object + to-infinitive or bare-infinitive patterns.",
+      "zh": "本課集中 V1＋to＋動詞原形，不包括 tell someone to、make someone do 或 enjoy doing。",
+      "examples": []
+    },
+    {
+      "id": "ss56-rule-07",
+      "en": "Fail to pass means not to succeed in passing.",
+      "zh": "Fail to pass 表示「未能成功通過」，符合 V1＋to-infinitive 結構。",
+      "examples": [
+        "fail to pass the exam."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss56-benefit-01",
+      "en": "It expresses precise meanings through the first verb.",
+      "zh": "第一個動詞能準確區分計劃、答應、拒絕、嘗試和未能完成。"
+    },
+    {
+      "id": "ss56-benefit-02",
+      "en": "It shortens a longer explanation.",
+      "zh": "它可把 made a promise that 等較長表達縮短。"
+    },
+    {
+      "id": "ss56-benefit-03",
+      "en": "It connects an attitude or decision with an action.",
+      "zh": "它先說明人物的態度、決定或能力，再連接相關行動。"
+    },
+    {
+      "id": "ss56-benefit-04",
+      "en": "It provides fluent speaking frames.",
+      "zh": "I hope to、I managed to 等固定框架令說話更流暢。"
+    },
+    {
+      "id": "ss56-benefit-05",
+      "en": "It avoids repeated simple sentences.",
+      "zh": "它能把兩個簡單句合併成更完整自然的句子。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a suitable V1 + to-infinitive structure.",
+      "Preserve all important meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用合適的 V1＋to-infinitive 句型改寫以下句子。",
+      "保留所有重要意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss56-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia decided that she would join the school choir.",
+      "promptZh": "米婭決定她會加入學校合唱團。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia decided to join the school choir.",
+      "answerZh": "米婭決定加入學校合唱團。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia decided to join the school choir."
+    },
+    {
+      "id": "ss56-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo has a clear plan. He will save enough money for a new bicycle.",
+      "promptZh": "里奧有一個清晰的計劃。他會儲夠錢買一輛新單車。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo plans to save enough money for a new bicycle.",
+      "answerZh": "里奧計劃儲夠錢買一輛新單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo plans to save enough money for a new bicycle."
+    },
+    {
+      "id": "ss56-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We hope that we can visit the science museum next month.",
+      "promptZh": "我們希望下個月可以參觀科學博物館。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We hope to visit the science museum next month.",
+      "answerZh": "我們希望下個月參觀科學博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "We hope to visit the science museum next month."
+    },
+    {
+      "id": "ss56-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel made a promise that he would return the book on Friday.",
+      "promptZh": "丹尼爾作出承諾，表示他會在星期五歸還本書。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel promised to return the book on Friday.",
+      "answerZh": "丹尼爾答應在星期五歸還本書。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel promised to return the book on Friday."
+    },
+    {
+      "id": "ss56-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The children reached an agreement that they would share the computer.",
+      "promptZh": "孩子們達成協議，表示他們會共用電腦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children agreed to share the computer.",
+      "answerZh": "孩子們同意共用電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "The children agreed to share the computer."
+    },
+    {
+      "id": "ss56-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe offered her help and said, “I can carry the boxes for you.”",
+      "promptZh": "克洛伊主動提出幫忙，並說：「我可以替你搬這些箱子。」",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe offered to carry the boxes for us.",
+      "answerZh": "克洛伊主動提出替我們搬箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe offered to carry the boxes for us."
+    },
+    {
+      "id": "ss56-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ethan said no when we asked whether he would copy the homework.",
+      "promptZh": "我們問伊森會否抄功課時，他拒絕了。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan refused to copy the homework.",
+      "answerZh": "伊森拒絕抄功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan refused to copy the homework."
+    },
+    {
+      "id": "ss56-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After several attempts, Ava succeeded in opening the jar with the tight lid.",
+      "promptZh": "嘗試數次後，艾娃成功打開了瓶蓋很緊的玻璃瓶。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava managed to open the jar with the tight lid.",
+      "answerZh": "艾娃成功打開了瓶蓋很緊的玻璃瓶。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava managed to open the jar with the tight lid."
+    },
+    {
+      "id": "ss56-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Although he tried several times, the driver could not start the old bus.",
+      "promptZh": "雖然司機嘗試了數次，但仍無法發動那輛舊巴士。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver failed to start the old bus.",
+      "answerZh": "司機未能發動那輛舊巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver failed to start the old bus."
+    },
+    {
+      "id": "ss56-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "After some practice, I learnt how to use this printer.",
+      "promptZh": "經過一些練習後，我學會了使用這部打印機。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I learnt to use this printer after some practice.",
+      "answerZh": "經過一些練習後，我學會了使用這部打印機。",
+      "answerZhSource": "pdf",
+      "highlight": "I learnt to use this printer after some practice."
+    },
+    {
+      "id": "ss56-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah made an effort to stay calm during the interview.",
+      "promptZh": "莎拉在面試期間努力保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah tried to stay calm during the interview.",
+      "answerZh": "莎拉在面試期間努力保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah tried to stay calm during the interview."
+    },
+    {
+      "id": "ss56-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Noah did not lock the back door because he forgot about it.",
+      "promptZh": "諾亞忘記了鎖後門，因此沒有把門鎖上。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah forgot to lock the back door.",
+      "answerZh": "諾亞忘記了鎖後門。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah forgot to lock the back door."
+    },
+    {
+      "id": "ss56-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma did not forget that she had to bring her passport.",
+      "promptZh": "艾瑪沒有忘記她必須帶備護照。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma remembered to bring her passport.",
+      "answerZh": "艾瑪記得帶備護照。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma remembered to bring her passport."
+    },
+    {
+      "id": "ss56-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It looked as though the baby was falling asleep.",
+      "promptZh": "那名嬰兒看起來好像正在入睡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby seemed to be falling asleep.",
+      "answerZh": "那名嬰兒似乎正在入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby seemed to be falling asleep."
+    },
+    {
+      "id": "ss56-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I do not have enough money for the repair of this old laptop.",
+      "promptZh": "我沒有足夠金錢維修這部舊手提電腦。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I cannot afford to repair this old laptop.",
+      "answerZh": "我沒有能力支付維修這部舊手提電腦的費用。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot afford to repair this old laptop."
+    },
+    {
+      "id": "ss56-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "For the journey, Jason chose the train rather than the coach.",
+      "promptZh": "傑森選擇乘搭火車，而不是長途巴士完成這段旅程。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason chose to travel by train rather than by coach.",
+      "answerZh": "傑森選擇乘火車而不是長途巴士出行。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason chose to travel by train rather than by coach."
+    },
+    {
+      "id": "ss56-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team made arrangements for a meeting on Tuesday afternoon.",
+      "promptZh": "團隊安排了在星期二下午舉行會議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team arranged to meet on Tuesday afternoon.",
+      "answerZh": "團隊安排在星期二下午見面。",
+      "answerZhSource": "pdf",
+      "highlight": "The team arranged to meet on Tuesday afternoon."
+    },
+    {
+      "id": "ss56-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace got ready because she was going to give her first presentation.",
+      "promptZh": "格蕾絲作好準備，因為她將會進行首次簡報。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace prepared to give her first presentation.",
+      "answerZh": "格蕾絲為首次進行簡報作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace prepared to give her first presentation."
+    },
+    {
+      "id": "ss56-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The visitors expected that they would wait outside for a few minutes.",
+      "promptZh": "訪客預計自己需要在外面等候數分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The visitors expected to wait outside for a few minutes.",
+      "answerZh": "訪客預計需要在外面等候數分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The visitors expected to wait outside for a few minutes."
+    },
+    {
+      "id": "ss56-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It appeared that the dog recognised its former owner.",
+      "promptZh": "那隻狗似乎認出了牠以前的主人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog appeared to recognise its former owner.",
+      "answerZh": "那隻狗似乎認出了牠以前的主人。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog appeared to recognise its former owner."
+    },
+    {
+      "id": "ss56-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Oliver acted as if he understood the joke, although he did not.",
+      "promptZh": "奧利弗裝作明白那個笑話，但其實他並不明白。",
+      "promptZhSource": "pdf",
+      "starter": "Oliver",
+      "answer": "Oliver pretended to understand the joke.",
+      "answerZh": "奧利弗裝作明白那個笑話。",
+      "answerZhSource": "pdf",
+      "highlight": "Oliver pretended to understand the joke."
+    },
+    {
+      "id": "ss56-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We made an attempt to move the table without scratching the floor.",
+      "promptZh": "我們嘗試移動桌子，同時避免刮花地板。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We attempted to move the table without scratching the floor.",
+      "answerZh": "我們嘗試在不刮花地板的情況下移動桌子。",
+      "answerZhSource": "pdf",
+      "highlight": "We attempted to move the table without scratching the floor."
+    },
+    {
+      "id": "ss56-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The rain kept falling throughout the night.",
+      "promptZh": "雨整晚持續下個不停。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain continued to fall throughout the night.",
+      "answerZh": "雨整晚持續下個不停。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain continued to fall throughout the night."
+    },
+    {
+      "id": "ss56-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The class began discussing the final question.",
+      "promptZh": "全班開始討論最後一道問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class began to discuss the final question.",
+      "answerZh": "全班開始討論最後一道問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The class began to discuss the final question."
+    },
+    {
+      "id": "ss56-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya has every intention of applying for the summer programme.",
+      "promptZh": "瑪雅完全有意申請這個暑期課程。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya intends to apply for the summer programme.",
+      "answerZh": "瑪雅有意申請這個暑期課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya intends to apply for the summer programme."
+    },
+    {
+      "id": "ss56-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company’s aim is a reduction in paper waste this year.",
+      "promptZh": "公司的目標是在今年減少紙張浪費。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company aims to reduce paper waste this year.",
+      "answerZh": "公司的目標是在今年減少紙張浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "The company aims to reduce paper waste this year."
+    },
+    {
+      "id": "ss56-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The students have earned the right to receive clear feedback after all their hard work.",
+      "promptZh": "學生付出了很多努力，因此值得獲得清楚的回饋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students deserve to receive clear feedback after all their hard work.",
+      "answerZh": "學生付出了很多努力，因此值得獲得清楚的回饋。",
+      "answerZhSource": "pdf",
+      "highlight": "The students deserve to receive clear feedback after all their hard work."
+    },
+    {
+      "id": "ss56-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ben paused because he was unsure whether he should ask the stranger for directions.",
+      "promptZh": "本停頓了一下，因為他不肯定應否向陌生人問路。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben hesitated to ask the stranger for directions.",
+      "answerZh": "本猶豫是否應向陌生人問路。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben hesitated to ask the stranger for directions."
+    },
+    {
+      "id": "ss56-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The witness politely said that she would not answer the final question.",
+      "promptZh": "證人禮貌地表示她不會回答最後一道問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The witness declined to answer the final question.",
+      "answerZh": "證人婉拒回答最後一道問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness declined to answer the final question."
+    },
+    {
+      "id": "ss56-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People generally speak more quietly in libraries.",
+      "promptZh": "人們通常會在圖書館內較輕聲說話。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People tend to speak more quietly in libraries.",
+      "answerZh": "人們通常會在圖書館內較輕聲說話。",
+      "answerZhSource": "pdf",
+      "highlight": "People tend to speak more quietly in libraries."
+    },
+    {
+      "id": "ss56-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The child claimed that he had seen a fox near the park.",
+      "promptZh": "那名孩子聲稱自己曾在公園附近看見一隻狐狸。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child claimed to have seen a fox near the park.",
+      "answerZh": "那名孩子聲稱自己曾在公園附近看見一隻狐狸。",
+      "answerZhSource": "pdf",
+      "highlight": "The child claimed to have seen a fox near the park."
+    },
+    {
+      "id": "ss56-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It appears that the scientist has found a simpler solution.",
+      "promptZh": "那名科學家似乎已經找到一個較簡單的解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The scientist appears to have found a simpler solution.",
+      "answerZh": "那名科學家似乎已經找到一個較簡單的解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The scientist appears to have found a simpler solution."
+    },
+    {
+      "id": "ss56-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It seems that the train is running ten minutes late.",
+      "promptZh": "火車似乎會遲到十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train seems to be running ten minutes late.",
+      "answerZh": "火車似乎會遲到十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The train seems to be running ten minutes late."
+    },
+    {
+      "id": "ss56-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new assistant believes that she will start work next Monday.",
+      "promptZh": "新助理預計自己將於下星期一開始工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new assistant expects to start work next Monday.",
+      "answerZh": "新助理預計自己將於下星期一開始工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The new assistant expects to start work next Monday."
+    },
+    {
+      "id": "ss56-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shop does not have enough money to lower its prices further.",
+      "promptZh": "這間商店沒有足夠資金進一步降低價格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop cannot afford to lower its prices further.",
+      "answerZh": "這間商店沒有能力進一步降低價格。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop cannot afford to lower its prices further."
+    },
+    {
+      "id": "ss56-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Anna decided that she would not answer the message immediately.",
+      "promptZh": "安娜決定不會立即回覆該則訊息。",
+      "promptZhSource": "pdf",
+      "starter": "Anna",
+      "answer": "Anna decided not to answer the message immediately.",
+      "answerZh": "安娜決定不立即回覆該則訊息。",
+      "answerZhSource": "pdf",
+      "highlight": "Anna decided not to answer the message immediately."
+    },
+    {
+      "id": "ss56-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The boys gave their word that they would not enter the closed area.",
+      "promptZh": "男孩們承諾不會進入封閉區域。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The boys promised not to enter the closed area.",
+      "answerZh": "男孩們答應不會進入封閉區域。",
+      "answerZhSource": "pdf",
+      "highlight": "The boys promised not to enter the closed area."
+    },
+    {
+      "id": "ss56-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although it checked the surface twice, the machine did not detect the small crack.",
+      "promptZh": "雖然機器檢查了表面兩次，但仍未能發現那道細小裂縫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine failed to detect the small crack.",
+      "answerZh": "機器未能發現那道細小裂縫。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine failed to detect the small crack."
+    },
+    {
+      "id": "ss56-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Despite the long drought, our neighbours succeeded in keeping their garden alive.",
+      "promptZh": "儘管長時間乾旱，我們的鄰居仍成功令花園內的植物存活。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbours managed to keep their garden alive during the long drought.",
+      "answerZh": "在長時間乾旱期間，我們的鄰居成功令花園內的植物存活。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbours managed to keep their garden alive during the long drought."
+    },
+    {
+      "id": "ss56-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "By chance, I met my old teacher at the station.",
+      "promptZh": "我碰巧在車站遇見以前的老師。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I happened to meet my old teacher at the station.",
+      "answerZh": "我碰巧在車站遇見以前的老師。",
+      "answerZhSource": "pdf",
+      "highlight": "I happened to meet my old teacher at the station."
+    },
+    {
+      "id": "ss56-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The local council’s plan is to turn the empty building into a youth centre.",
+      "promptZh": "地方議會的計劃是把空置建築物改建成青年中心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local council plans to turn the empty building into a youth centre.",
+      "answerZh": "地方議會計劃把空置建築物改建成青年中心。",
+      "answerZhSource": "pdf",
+      "highlight": "The local council plans to turn the empty building into a youth centre."
+    },
+    {
+      "id": "ss56-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital hopes that it can open a new night clinic next year.",
+      "promptZh": "醫院希望明年可以開設一間新的夜間診所。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital hopes to open a new night clinic next year.",
+      "answerZh": "醫院希望明年開設一間新的夜間診所。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital hopes to open a new night clinic next year."
+    },
+    {
+      "id": "ss56-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The volunteers reached an agreement that they would continue searching until sunset.",
+      "promptZh": "義工達成協議，表示他們會繼續搜索至日落。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The volunteers agreed to continue searching until sunset.",
+      "answerZh": "義工同意繼續搜索至日落。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers agreed to continue searching until sunset."
+    },
+    {
+      "id": "ss56-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Even after repeated questions, the speaker would not change her answer.",
+      "promptZh": "即使多次被提問，發言者仍拒絕改變自己的答案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker refused to change her answer despite the repeated questions.",
+      "answerZh": "儘管多次被提問，發言者仍拒絕改變自己的答案。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker refused to change her answer despite the repeated questions."
+    },
+    {
+      "id": "ss56-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The engineering team made an attempt to solve the problem without replacing the whole system.",
+      "promptZh": "工程團隊嘗試在不更換整個系統的情況下解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineering team attempted to solve the problem without replacing the whole system.",
+      "answerZh": "工程團隊嘗試在不更換整個系統的情況下解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineering team attempted to solve the problem without replacing the whole system."
+    },
+    {
+      "id": "ss56-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It seems that the new software has reduced the number of errors.",
+      "promptZh": "新軟件似乎已經減少了錯誤的數量。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new software seems to have reduced the number of errors.",
+      "answerZh": "新軟件似乎已經減少了錯誤的數量。",
+      "answerZhSource": "pdf",
+      "highlight": "The new software seems to have reduced the number of errors."
+    },
+    {
+      "id": "ss56-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If you ignore the warning signs, you may not succeed in preventing a larger problem.",
+      "promptZh": "如果你忽視警告訊號，你可能無法阻止一個更嚴重的問題。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If you ignore the warning signs, you may fail to prevent a larger problem.",
+      "answerZh": "如果你忽視警告訊號，你可能未能阻止一個更嚴重的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "If you ignore the warning signs, you may fail to prevent a larger problem."
+    },
+    {
+      "id": "ss56-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Before leaving, Marcus did not forget that he had to send the final report to his manager.",
+      "promptZh": "離開前，馬庫斯沒有忘記把最終報告傳送給經理。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before leaving, Marcus remembered to send the final report to his manager.",
+      "answerZh": "離開前，馬庫斯記得把最終報告傳送給經理。",
+      "answerZhSource": "pdf",
+      "highlight": "Before leaving, Marcus remembered to send the final report to his manager."
+    },
+    {
+      "id": "ss56-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The local museum does not have enough money to keep every exhibition open throughout the year.",
+      "promptZh": "本地博物館沒有足夠資金讓所有展覽全年開放。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local museum cannot afford to keep every exhibition open throughout the year.",
+      "answerZh": "本地博物館沒有能力讓所有展覽全年開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The local museum cannot afford to keep every exhibition open throughout the year."
+    },
+    {
+      "id": "ss56-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After several difficult negotiations, both sides finally succeeded in reaching an agreement.",
+      "promptZh": "經過數次艱難談判後，雙方最終成功達成協議。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After several difficult negotiations, both sides finally managed to reach an agreement.",
+      "answerZh": "經過數次艱難談判後，雙方最終成功達成協議。",
+      "answerZhSource": "pdf",
+      "highlight": "After several difficult negotiations, both sides finally managed to reach an agreement."
+    }
+  ]
+}

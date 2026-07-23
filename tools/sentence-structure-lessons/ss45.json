@@ -1,0 +1,1212 @@
+{
+  "id": "ss45",
+  "order": 45,
+  "slug": "one-of-the",
+  "title": "「One of the」句型",
+  "titleZh": "「One of the」表達群體中的其中一個",
+  "titleEn": "Using one of the to select one member of a larger group",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 45 - 「One of the」句型.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": []
+  },
+  "formula": "One of the + plural countable noun + singular verb + other information",
+  "formulas": [
+    {
+      "id": "ss45-formula-subject",
+      "labelEn": "As the subject",
+      "labelZh": "作為主語",
+      "formula": "One of the + plural countable noun + singular verb + other information"
+    },
+    {
+      "id": "ss45-formula-complement",
+      "labelEn": "After the subject and verb",
+      "labelZh": "放在主語和動詞後",
+      "formula": "Subject + singular verb + one of the + plural countable noun + other information"
+    },
+    {
+      "id": "ss45-formula-superlative",
+      "labelEn": "Common superlative form",
+      "labelZh": "常見最高級形式",
+      "formula": "One of the + superlative adjective + plural noun + singular verb"
+    }
+  ],
+  "example": "One of the advantages of travelling is that you can get to see a lot of interesting people.",
+  "exampleZh": "旅行其中一個好處，就是你可以見到很多有趣的人。",
+  "examples": [
+    {
+      "id": "ss45-example-01",
+      "en": "One of the advantages of travelling is that you can get to see a lot of interesting people.",
+      "zh": "旅行其中一個好處，就是你可以見到很多有趣的人。",
+      "highlight": "One of the advantages of travelling is"
+    }
+  ],
+  "meaning": {
+    "zh": "One of the 用來指出較大群體中的其中一位或一項，並表明同一組別內還有其他成員。"
+  },
+  "rules": [
+    {
+      "id": "ss45-rule-01",
+      "en": "Use a plural countable noun after one of the.",
+      "zh": "One of the 後面必須使用複數可數名詞。",
+      "examples": [
+        "one of the reasons",
+        "one of the students"
+      ]
+    },
+    {
+      "id": "ss45-rule-02",
+      "en": "Use a singular main verb when the complete phrase is the subject.",
+      "zh": "整個 One of the… 詞組作主語時，主要動詞須使用單數形式。",
+      "examples": [
+        "One of the reasons is the high cost."
+      ]
+    },
+    {
+      "id": "ss45-rule-03",
+      "en": "A superlative adjective is followed by a plural noun.",
+      "zh": "最高級形容詞後面的名詞仍然使用複數。",
+      "examples": [
+        "one of the most useful tools"
+      ]
+    },
+    {
+      "id": "ss45-rule-04",
+      "en": "The structure means one member of a larger group.",
+      "zh": "這個句型表示某人或某事物屬於一個較大的組別。",
+      "examples": [
+        "Mia is one of the students in our class."
+      ]
+    },
+    {
+      "id": "ss45-rule-05",
+      "en": "One of the may appear in different sentence positions.",
+      "zh": "One of the 可以放在句首，也可以放在主語和動詞之後。",
+      "examples": [
+        "One of the problems is the high cost.",
+        "The high cost is one of the problems."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss45-benefit-01",
+      "en": "It clearly selects one item from a larger group.",
+      "zh": "它能指出其中一個人物、原因、好處或例子，同時表示組內還有其他成員。"
+    },
+    {
+      "id": "ss45-benefit-02",
+      "en": "It helps organise explanations.",
+      "zh": "One of the reasons、advantages、problems 等框架能令較長答案更有組織。"
+    },
+    {
+      "id": "ss45-benefit-03",
+      "en": "It makes claims more accurate.",
+      "zh": "它避免把某項說成唯一或絕對最好，使表達更準確。"
+    },
+    {
+      "id": "ss45-benefit-04",
+      "en": "It combines two related ideas into one sentence.",
+      "zh": "它可把「有多項」和「其中一項是甚麼」合併成一句。"
+    },
+    {
+      "id": "ss45-benefit-05",
+      "en": "It provides a useful speaking and writing frame.",
+      "zh": "它方便在討論、簡報和文章中迅速加入原因、優點、問題和例子。"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using one of the. Preserve the original meaning.",
+      "Use a plural countable noun after one of the and a singular main verb when the complete phrase is the subject.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 one of the 改寫以下句子或句子組合，並保留原來的意思。",
+      "One of the 後須使用複數可數名詞；如整個詞組是主語，主要動詞須使用單數形式。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss45-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Travelling has several advantages. An advantage is that you can meet many interesting people.",
+      "promptZh": "旅行有幾個好處。其中一個好處是你可以遇到很多有趣的人。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the advantages of travelling is that you can meet many interesting people.",
+      "answerZh": "旅行其中一個好處，是你可以遇到很多有趣的人。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the advantages of travelling is that you can meet many interesting people."
+    },
+    {
+      "id": "ss45-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 15
+      },
+      "prompt": "People exercise for several reasons. An important reason is to stay healthy.",
+      "promptZh": "人們做運動有幾個原因。其中一個重要原因是保持健康。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the reasons people exercise is to stay healthy.",
+      "answerZh": "人們做運動其中一個原因，是保持健康。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the reasons people exercise is to stay healthy."
+    },
+    {
+      "id": "ss45-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Online classes can cause several problems. A common problem is an unstable internet connection.",
+      "promptZh": "網上課堂可能帶來幾個問題。其中一個常見問題是網絡連接不穩定。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the problems with online classes is an unstable internet connection.",
+      "answerZh": "網上課堂其中一個問題，是網絡連接不穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the problems with online classes is an unstable internet connection."
+    },
+    {
+      "id": "ss45-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school has several useful facilities. The library is among them.",
+      "promptZh": "學校有幾項實用設施，圖書館是其中之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is one of the useful facilities at the school.",
+      "answerZh": "圖書館是學校其中一項實用設施。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is one of the useful facilities at the school."
+    },
+    {
+      "id": "ss45-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Reading is among the hobbies I enjoy most.",
+      "promptZh": "閱讀是我最喜愛的興趣之一。",
+      "promptZhSource": "pdf",
+      "starter": "Reading",
+      "answer": "Reading is one of the hobbies I enjoy most.",
+      "answerZh": "閱讀是我最喜愛的興趣之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading is one of the hobbies I enjoy most."
+    },
+    {
+      "id": "ss45-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Keeping a vocabulary notebook is among the best ways to learn new words.",
+      "promptZh": "使用生字簿是學習新單字最好的方法之一。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the best ways to learn new words is to keep a vocabulary notebook.",
+      "answerZh": "學習新單字其中一個最好的方法，是使用生字簿。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the best ways to learn new words is to keep a vocabulary notebook."
+    },
+    {
+      "id": "ss45-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our class has many students, and Mia is among them.",
+      "promptZh": "我們班上有很多學生，米婭是其中之一。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is one of the students in our class.",
+      "answerZh": "米婭是我們班上的其中一名學生。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is one of the students in our class."
+    },
+    {
+      "id": "ss45-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The clock tower is among the oldest buildings in the town.",
+      "promptZh": "鐘樓是鎮內歷史最悠久的建築物之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clock tower is one of the oldest buildings in the town.",
+      "answerZh": "鐘樓是鎮內歷史最悠久的建築物之一。",
+      "answerZhSource": "pdf",
+      "highlight": "The clock tower is one of the oldest buildings in the town."
+    },
+    {
+      "id": "ss45-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Breakfast is among the most important meals of the day.",
+      "promptZh": "早餐是一天中最重要的一餐之一。",
+      "promptZhSource": "pdf",
+      "starter": "Breakfast",
+      "answer": "Breakfast is one of the most important meals of the day.",
+      "answerZh": "早餐是一天中最重要的其中一餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Breakfast is one of the most important meals of the day."
+    },
+    {
+      "id": "ss45-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We need several things for the picnic, including drinking water.",
+      "promptZh": "我們野餐需要幾樣東西，包括飲用水。",
+      "promptZhSource": "pdf",
+      "starter": "Drinking",
+      "answer": "Drinking water is one of the things we need for the picnic.",
+      "answerZh": "飲用水是我們野餐需要的其中一樣東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Drinking water is one of the things we need for the picnic."
+    },
+    {
+      "id": "ss45-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Walking every day has several benefits. A key benefit is that it can improve your mood.",
+      "promptZh": "每天步行有幾個好處。其中一個主要好處是可以改善心情。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the benefits of walking every day is that it can improve your mood.",
+      "answerZh": "每天步行其中一個好處，是可以改善你的心情。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the benefits of walking every day is that it can improve your mood."
+    },
+    {
+      "id": "ss45-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Students may feel stressed for several reasons. Having too much homework is a common cause.",
+      "promptZh": "學生可能因幾個原因感到壓力。功課太多是一個常見成因。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the common causes of student stress is having too much homework.",
+      "answerZh": "學生壓力其中一個常見成因，是功課太多。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the common causes of student stress is having too much homework."
+    },
+    {
+      "id": "ss45-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A team leader has several duties. A main duty is to keep everyone informed.",
+      "promptZh": "組長有幾項職責。其中一項主要職責是讓所有人掌握最新情況。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the main duties of a team leader is to keep everyone informed.",
+      "answerZh": "組長其中一項主要職責，是讓所有人掌握最新情況。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the main duties of a team leader is to keep everyone informed."
+    },
+    {
+      "id": "ss45-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Dim sum is among the most popular foods in Hong Kong.",
+      "promptZh": "點心是香港最受歡迎的食物之一。",
+      "promptZhSource": "pdf",
+      "starter": "Dim",
+      "answer": "Dim sum is one of the most popular foods in Hong Kong.",
+      "answerZh": "點心是香港最受歡迎的食物之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Dim sum is one of the most popular foods in Hong Kong."
+    },
+    {
+      "id": "ss45-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What makes group work difficult? A major challenge is getting everyone to agree.",
+      "promptZh": "甚麼令小組合作變得困難？其中一個主要挑戰是讓所有人達成共識。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the major challenges of group work is getting everyone to agree.",
+      "answerZh": "小組合作其中一個主要挑戰，是讓所有人達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the major challenges of group work is getting everyone to agree."
+    },
+    {
+      "id": "ss45-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This dictionary app is among the most useful apps on my phone.",
+      "promptZh": "這個字典應用程式是我手提電話上最實用的應用程式之一。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This dictionary app is one of the most useful apps on my phone.",
+      "answerZh": "這個字典應用程式是我手提電話上最實用的應用程式之一。",
+      "answerZhSource": "pdf",
+      "highlight": "This dictionary app is one of the most useful apps on my phone."
+    },
+    {
+      "id": "ss45-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The interviewer asked several questions. A question was about my previous experience.",
+      "promptZh": "面試官問了幾條問題。其中一條是關於我過往的經驗。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the questions the interviewer asked was about my previous experience.",
+      "answerZh": "面試官所問的其中一條問題，是關於我過往的經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the questions the interviewer asked was about my previous experience."
+    },
+    {
+      "id": "ss45-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We visited several places during the trip, including a small fishing village.",
+      "promptZh": "旅程期間，我們遊覽了幾個地方，包括一條小漁村。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A small fishing village was one of the places we visited during the trip.",
+      "answerZh": "一條小漁村是我們旅程期間遊覽的其中一個地方。",
+      "answerZhSource": "pdf",
+      "highlight": "A small fishing village was one of the places we visited during the trip."
+    },
+    {
+      "id": "ss45-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Reading before bed has several advantages. A main advantage is that it helps you relax.",
+      "promptZh": "睡前閱讀有幾個好處。其中一個主要好處是能幫助你放鬆。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the main advantages of reading before bed is that it helps you relax.",
+      "answerZh": "睡前閱讀其中一個主要好處，是能幫助你放鬆。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the main advantages of reading before bed is that it helps you relax."
+    },
+    {
+      "id": "ss45-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Switching off unused lights is among the easiest ways to save electricity.",
+      "promptZh": "關掉不用的燈是節省電力最簡單的方法之一。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the easiest ways to save electricity is to switch off unused lights.",
+      "answerZh": "節省電力其中一個最簡單的方法，是關掉不用的燈。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the easiest ways to save electricity is to switch off unused lights."
+    },
+    {
+      "id": "ss45-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company chose a new office for several reasons. A key reason was that it was close to the railway station.",
+      "promptZh": "公司基於幾個原因選擇新辦公室。其中一個主要原因是辦公室鄰近鐵路站。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the reasons the company chose the new office was that it was close to the railway station.",
+      "answerZh": "公司選擇新辦公室其中一個原因，是辦公室鄰近鐵路站。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the reasons the company chose the new office was that it was close to the railway station."
+    },
+    {
+      "id": "ss45-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The science museum was among the attractions we enjoyed most last weekend.",
+      "promptZh": "科學館是我們上個週末最喜歡的景點之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science museum was one of the attractions we enjoyed most last weekend.",
+      "answerZh": "科學館是我們上個週末最喜歡的景點之一。",
+      "answerZhSource": "pdf",
+      "highlight": "The science museum was one of the attractions we enjoyed most last weekend."
+    },
+    {
+      "id": "ss45-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I learnt several useful things from the course. A useful lesson was how to plan my time.",
+      "promptZh": "我從課程中學到幾樣實用的東西。其中一個實用的課題是如何規劃時間。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the useful things I learnt from the course was how to plan my time.",
+      "answerZh": "我從課程中學到的其中一樣實用知識，是如何規劃時間。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the useful things I learnt from the course was how to plan my time."
+    },
+    {
+      "id": "ss45-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Writing the conclusion is among the most difficult parts of this essay.",
+      "promptZh": "撰寫結論是這篇文章最困難的部分之一。",
+      "promptZhSource": "pdf",
+      "starter": "Writing",
+      "answer": "Writing the conclusion is one of the most difficult parts of this essay.",
+      "answerZh": "撰寫結論是這篇文章最困難的部分之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Writing the conclusion is one of the most difficult parts of this essay."
+    },
+    {
+      "id": "ss45-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "Living far from school has several disadvantages. A main disadvantage is the long journey each day.",
+      "promptZh": "住得離學校很遠有幾個缺點。其中一個主要缺點是每天路程很長。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the main disadvantages of living far from school is the long journey each day.",
+      "answerZh": "住得離學校很遠其中一個主要缺點，是每天路程很長。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the main disadvantages of living far from school is the long journey each day."
+    },
+    {
+      "id": "ss45-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Students must follow several laboratory rules. An important rule is to wear safety glasses.",
+      "promptZh": "學生必須遵守幾項實驗室規則。其中一項重要規則是佩戴護目鏡。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the laboratory rules students must follow is to wear safety glasses.",
+      "answerZh": "學生必須遵守的其中一項實驗室規則，是佩戴護目鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the laboratory rules students must follow is to wear safety glasses."
+    },
+    {
+      "id": "ss45-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our company offers several services, and delivery tracking is included.",
+      "promptZh": "我們公司提供幾項服務，當中包括貨件追蹤。",
+      "promptZhSource": "pdf",
+      "starter": "Delivery",
+      "answer": "Delivery tracking is one of the services our company offers.",
+      "answerZh": "貨件追蹤是我們公司提供的其中一項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Delivery tracking is one of the services our company offers."
+    },
+    {
+      "id": "ss45-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The book contains several important messages. A main message is that people should be honest.",
+      "promptZh": "這本書包含幾個重要訊息。其中一個主要訊息是人應該誠實。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the main messages in the book is that people should be honest.",
+      "answerZh": "這本書其中一個主要訊息，是人應該誠實。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the main messages in the book is that people should be honest."
+    },
+    {
+      "id": "ss45-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "She left the party early for several reasons. A reason was that she had to work the next morning.",
+      "promptZh": "她基於幾個原因提早離開派對。其中一個原因是她翌日早上要上班。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the reasons she left the party early was that she had to work the next morning.",
+      "answerZh": "她提早離開派對其中一個原因，是她翌日早上要上班。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the reasons she left the party early was that she had to work the next morning."
+    },
+    {
+      "id": "ss45-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Nurses need many skills. Careful listening is among the most important.",
+      "promptZh": "護士需要多項技能，而細心聆聽是最重要的技能之一。",
+      "promptZhSource": "pdf",
+      "starter": "Careful",
+      "answer": "Careful listening is one of the most important skills nurses need.",
+      "answerZh": "細心聆聽是護士需要的最重要技能之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Careful listening is one of the most important skills nurses need."
+    },
+    {
+      "id": "ss45-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The shared calendar is among the most useful tools in our office.",
+      "promptZh": "共用日曆是我們辦公室最實用的工具之一。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shared calendar is one of the most useful tools in our office.",
+      "answerZh": "共用日曆是我們辦公室最實用的工具之一。",
+      "answerZhSource": "pdf",
+      "highlight": "The shared calendar is one of the most useful tools in our office."
+    },
+    {
+      "id": "ss45-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public library faces several problems. A serious problem is the lack of quiet study space.",
+      "promptZh": "公共圖書館面對幾個問題。其中一個嚴重問題是缺乏安靜的溫習空間。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the serious problems facing the public library is the lack of quiet study space.",
+      "answerZh": "公共圖書館面對的其中一個嚴重問題，是缺乏安靜的溫習空間。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the serious problems facing the public library is the lack of quiet study space."
+    },
+    {
+      "id": "ss45-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The accident had several causes. Poor visibility was a main cause.",
+      "promptZh": "這宗意外有幾個成因。能見度低是其中一個主要成因。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the main causes of the accident was poor visibility.",
+      "answerZh": "這宗意外其中一個主要成因，是能見度低。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the main causes of the accident was poor visibility."
+    },
+    {
+      "id": "ss45-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several major changes took place during the project. Moving to a new office was among the biggest.",
+      "promptZh": "項目進行期間出現了幾項重大改變，而搬到新辦公室是其中最大的一項。",
+      "promptZhSource": "pdf",
+      "starter": "Moving",
+      "answer": "Moving to a new office was one of the biggest changes during the project.",
+      "answerZh": "搬到新辦公室是項目進行期間其中一項最大的改變。",
+      "answerZhSource": "pdf",
+      "highlight": "Moving to a new office was one of the biggest changes during the project."
+    },
+    {
+      "id": "ss45-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The course covers several topics, including how to write professional emails.",
+      "promptZh": "這個課程涵蓋幾個課題，包括如何撰寫專業電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Writing",
+      "answer": "Writing professional emails is one of the topics covered in the course.",
+      "answerZh": "撰寫專業電郵是這個課程涵蓋的其中一個課題。",
+      "answerZhSource": "pdf",
+      "highlight": "Writing professional emails is one of the topics covered in the course."
+    },
+    {
+      "id": "ss45-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For new employees, understanding the safety rules is among the first tasks to complete.",
+      "promptZh": "對新僱員來說，了解安全規則是最先要完成的工作之一。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For new employees, understanding the safety rules is one of the first tasks to complete.",
+      "answerZh": "對新僱員來說，了解安全規則是最先要完成的工作之一。",
+      "answerZhSource": "pdf",
+      "highlight": "For new employees, understanding the safety rules is one of the first tasks to complete."
+    },
+    {
+      "id": "ss45-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The town offers several cheap ways to travel around it. Cycling is among the cheapest.",
+      "promptZh": "這個城鎮提供幾種便宜的出行方式，而踩單車是其中最便宜的方式之一。",
+      "promptZhSource": "pdf",
+      "starter": "Cycling",
+      "answer": "Cycling is one of the cheapest ways to travel around the town.",
+      "answerZh": "踩單車是在這個城鎮四處出行最便宜的方式之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Cycling is one of the cheapest ways to travel around the town."
+    },
+    {
+      "id": "ss45-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The phone has many useful features. Face recognition is among the most useful.",
+      "promptZh": "這部手提電話有很多實用功能，而人面識別是其中最實用的功能之一。",
+      "promptZhSource": "pdf",
+      "starter": "Face",
+      "answer": "Face recognition is one of the most useful features of the phone.",
+      "answerZh": "人面識別是這部手提電話最實用的功能之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Face recognition is one of the most useful features of the phone."
+    },
+    {
+      "id": "ss45-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team won for several reasons. Good communication between the players was a main reason.",
+      "promptZh": "球隊勝出有幾個原因。球員之間良好的溝通是其中一個主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the main reasons the team won was good communication between the players.",
+      "answerZh": "球隊勝出其中一個主要原因，是球員之間有良好的溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the main reasons the team won was good communication between the players."
+    },
+    {
+      "id": "ss45-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several people can help you with this form, and Ms Lee is among them.",
+      "promptZh": "有幾個人可以協助你填寫這份表格，李女士是其中之一。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Lee is one of the people who can help you with this form.",
+      "answerZh": "李女士是可以協助你填寫這份表格的人之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Lee is one of the people who can help you with this form."
+    },
+    {
+      "id": "ss45-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Parents consider several important factors when choosing a school. Location is among the most important.",
+      "promptZh": "家長選擇學校時會考慮幾個重要因素，而地點是其中最重要的因素之一。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For parents choosing a school, location is one of the most important factors to consider.",
+      "answerZh": "對選擇學校的家長來說，地點是其中一個最重要的考慮因素。",
+      "answerZhSource": "pdf",
+      "highlight": "For parents choosing a school, location is one of the most important factors to consider."
+    },
+    {
+      "id": "ss45-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Public hospitals face several major challenges. A shortage of beds is a major challenge.",
+      "promptZh": "公立醫院面對幾項重大挑戰，而病床不足是其中一項。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the major challenges public hospitals face is a shortage of beds.",
+      "answerZh": "公立醫院面對的其中一項重大挑戰，是病床不足。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the major challenges public hospitals face is a shortage of beds."
+    },
+    {
+      "id": "ss45-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee made several difficult decisions. Postponing the event was among the most difficult.",
+      "promptZh": "委員會作出了幾個艱難決定，而押後活動是其中最艱難的決定之一。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the most difficult decisions the committee made was to postpone the event.",
+      "answerZh": "委員會作出的其中一個最艱難決定，是押後活動。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the most difficult decisions the committee made was to postpone the event."
+    },
+    {
+      "id": "ss45-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The training programme provides several valuable opportunities. Working with real customers is especially valuable.",
+      "promptZh": "培訓計劃提供幾個寶貴機會，而與真實顧客合作尤其寶貴。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the most valuable opportunities the training programme provides is the chance to work with real customers.",
+      "answerZh": "培訓計劃提供的其中一個最寶貴機會，是與真實顧客合作。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the most valuable opportunities the training programme provides is the chance to work with real customers."
+    },
+    {
+      "id": "ss45-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The city changed in several important ways. The opening of the new railway was among the most important changes.",
+      "promptZh": "這個城市出現了幾項重要改變，而新鐵路啟用是其中最重要的改變之一。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the most important changes in the city was the opening of the new railway.",
+      "answerZh": "這個城市其中一項最重要的改變，是新鐵路啟用。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the most important changes in the city was the opening of the new railway."
+    },
+    {
+      "id": "ss45-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Several moments from the trip stayed clearly in my memory. Watching the sunrise from the hill was among the most memorable.",
+      "promptZh": "旅程中有幾個時刻令我記憶猶新，而在山上看日出是其中最難忘的時刻之一。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the most memorable moments of the trip was watching the sunrise from the hill.",
+      "answerZh": "旅程中其中一個最難忘的時刻，是在山上看日出。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the most memorable moments of the trip was watching the sunrise from the hill."
+    },
+    {
+      "id": "ss45-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The policy has several main aims. A main aim is to make public transport easier to use.",
+      "promptZh": "這項政策有幾個主要目標。其中一個主要目標是令公共交通更方便使用。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the main aims of the policy is to make public transport easier to use.",
+      "answerZh": "這項政策其中一個主要目標，是令公共交通更方便使用。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the main aims of the policy is to make public transport easier to use."
+    },
+    {
+      "id": "ss45-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The new system may create several risks. A risk is that personal data may be shared without permission.",
+      "promptZh": "新系統可能帶來幾項風險。其中一項風險是個人資料可能在未經許可下被分享。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the risks of the new system is that personal data may be shared without permission.",
+      "answerZh": "新系統其中一項風險，是個人資料可能在未經許可下被分享。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the risks of the new system is that personal data may be shared without permission."
+    },
+    {
+      "id": "ss45-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Several qualities help to make a good manager. The ability to explain difficult decisions clearly is among the most important.",
+      "promptZh": "幾項特質有助成為一名好經理，而清楚解釋艱難決定的能力是其中最重要的特質之一。",
+      "promptZhSource": "pdf",
+      "starter": "One",
+      "answer": "One of the most important qualities that make a good manager is the ability to explain difficult decisions clearly.",
+      "answerZh": "成為好經理所需的其中一項最重要特質，是能夠清楚解釋艱難的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "One of the most important qualities that make a good manager is the ability to explain difficult decisions clearly."
+    },
+    {
+      "id": "ss45-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The school improved safety in several effective ways. Installing better lighting around the entrance was especially effective.",
+      "promptZh": "學校以幾個有效方法改善安全，而在入口附近安裝更好的照明尤其有效。",
+      "promptZhSource": "pdf",
+      "starter": "Installing",
+      "answer": "Installing better lighting around the entrance was one of the most effective ways the school improved safety.",
+      "answerZh": "在入口附近安裝更好的照明，是學校改善安全其中一個最有效的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Installing better lighting around the entrance was one of the most effective ways the school improved safety."
+    }
+  ]
+}
