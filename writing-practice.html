@@ -2348,6 +2348,78 @@
       box-shadow: 0 12px 26px rgba(79,70,229,0.24);
     }
 
+    .practice-listening-toggle.is-active {
+      border-color: rgba(5,150,105,0.48);
+      background: linear-gradient(135deg, #047857, #10b981);
+      color: #fff;
+      box-shadow: 0 12px 26px rgba(5,150,105,0.22);
+    }
+
+    .practice-listening-toggle:disabled,
+    .practice-listening-next:disabled {
+      cursor: not-allowed;
+      opacity: 0.54;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .practice-listening-next {
+      border-color: rgba(21,89,168,0.28);
+      background: #1559a8;
+      color: #fff;
+      box-shadow: 0 9px 20px rgba(21,89,168,0.16);
+    }
+
+    .practice-listening-panel {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      flex-wrap: wrap;
+      border: 1px solid rgba(5,150,105,0.20);
+      border-radius: 18px;
+      padding: 13px 14px;
+      background: linear-gradient(135deg, rgba(236,253,245,0.94), rgba(239,246,255,0.92));
+      box-shadow: 0 12px 28px rgba(5,150,105,0.08);
+    }
+
+    .practice-listening-copy {
+      display: grid;
+      flex: 1 1 300px;
+      gap: 4px;
+      color: #14532d;
+    }
+
+    .practice-listening-copy strong {
+      font-size: 14px;
+      font-weight: 950;
+    }
+
+    .practice-listening-status {
+      color: #41635a;
+      font-size: 13px;
+      line-height: 1.5;
+      font-weight: 780;
+    }
+
+    .practice-listening-status[data-tone="playing"] {
+      color: #1559a8;
+    }
+
+    .practice-listening-status[data-tone="complete"] {
+      color: #047857;
+    }
+
+    .practice-listening-status[data-tone="error"] {
+      color: #b91c1c;
+    }
+
+    .practice-listening-panel .essay-rate-selector {
+      flex: 0 1 390px;
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+      background: rgba(255,255,255,0.82);
+    }
+
     .practice-round-pill {
       min-height: 40px;
       display: inline-flex;
@@ -2685,6 +2757,15 @@
       .practice-head-actions {
         width: 100%;
         justify-content: stretch;
+      }
+
+      .practice-listening-panel {
+        align-items: stretch;
+      }
+
+      .practice-listening-panel .essay-rate-selector {
+        width: 100%;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
       }
 
       .mini-button,
@@ -5155,8 +5236,12 @@ Device: concession 讓步
     let writingStateSaveChain = Promise.resolve();
     let activeEssayAudio = null;
     let activeEssayAudioExerciseId = "";
+    let activeEssayAudioContext = "";
     let activeEssayHighlightFrame = 0;
     let activeEssayWordIndex = -1;
+    let activeEssayBoundaryFrame = 0;
+    let activeEssayStopTime = null;
+    let activeEssaySegmentEnd = null;
     const ESSAY_AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
     const ESSAY_AUDIO_RATE_KEY = "edmundWritingAudioRate";
     const ESSAY_AUDIO_HIGHLIGHT_KEY = "edmundWritingAudioHighlight";
@@ -5772,6 +5857,82 @@ Device: concession 讓步
         <button class="secondary-button practice-translation-toggle ${visible ? "is-active" : ""}" type="button" data-toggle-practice-translation aria-pressed="${visible}" aria-label="${label}">
           ${label}
         </button>
+      `;
+    }
+
+    function practiceListeningStatus(exercise) {
+      const segments = practiceListeningSegments(exercise);
+      const total = segments.length;
+      const index = Math.min(Math.max(0, Number(practiceState?.listeningUnitIndex) || 0), Math.max(0, total - 1));
+      if (practiceState?.listeningPlaybackError) {
+        return { text: practiceState.listeningPlaybackError, tone: "error" };
+      }
+      if (practiceState?.screen !== "practice") {
+        return { text: "開始練習後，錄音會自動播放第一個有填充題的句子。", tone: "" };
+      }
+      if (!total) {
+        return { text: "這個練習暫時未能配對逐句錄音。", tone: "error" };
+      }
+      if (practiceState?.submitted) {
+        return { text: "本輪答案已提交。", tone: "complete" };
+      }
+      if (practiceState?.listeningPlaying) {
+        return { text: `正在播放第 ${index + 1} / ${total} 個填充句子。`, tone: "playing" };
+      }
+      if (practiceState?.listeningUnitFinished && index >= total - 1) {
+        return { text: "所有填充句子已播放完畢；請完成答案後提交。", tone: "complete" };
+      }
+      if (practiceState?.listeningUnitFinished) {
+        return { text: `第 ${index + 1} 句播放完畢；填寫答案後，請按「繼續下一句」。`, tone: "complete" };
+      }
+      return { text: `準備播放第 ${index + 1} / ${total} 個填充句子。`, tone: "" };
+    }
+
+    function renderPracticeListeningToggle(exercise) {
+      const available = Boolean(essayAudioTimingContext(exercise));
+      const enabled = available && Boolean(practiceState?.listeningEnabled);
+      const label = `聆聽練習 mode (${enabled ? "ON" : "OFF"})`;
+      return `
+        <button class="secondary-button practice-listening-toggle ${enabled ? "is-active" : ""}" type="button" data-toggle-practice-listening aria-pressed="${enabled}" aria-label="${label}" ${available ? "" : "disabled"} title="${available ? label : "這篇文章暫時未有可配對的逐句錄音"}">
+          ${label}
+        </button>
+      `;
+    }
+
+    function renderPracticeListeningNext(exercise) {
+      if (!practiceState?.listeningEnabled || practiceState.screen !== "practice") return "";
+      const segments = practiceListeningSegments(exercise);
+      const index = Math.min(Math.max(0, Number(practiceState.listeningUnitIndex) || 0), Math.max(0, segments.length - 1));
+      const finalFinished = Boolean(segments.length && practiceState.listeningUnitFinished && index >= segments.length - 1);
+      const retry = Boolean(practiceState.listeningPlaybackError && !practiceState.listeningUnitFinished);
+      const disabled = practiceState.submitted
+        || practiceState.listeningPlaying
+        || (!practiceState.listeningUnitFinished && !retry)
+        || finalFinished
+        || !segments.length;
+      const label = finalFinished
+        ? "聆聽練習已完成"
+        : retry
+          ? "播放本句"
+          : "繼續下一句";
+      return `<button class="secondary-button practice-listening-next" type="button" data-next-practice-listening ${disabled ? "disabled" : ""}>${label}</button>`;
+    }
+
+    function renderPracticeListeningPanel(exercise) {
+      if (!practiceState?.listeningEnabled) return "";
+      const status = practiceListeningStatus(exercise);
+      return `
+        <section class="practice-listening-panel" aria-label="聆聽練習播放速度">
+          <div class="practice-listening-copy">
+            <strong>逐句聆聽 · 播放速度</strong>
+            <span class="practice-listening-status" data-practice-listening-status data-tone="${escapeHtml(status.tone)}" aria-live="polite">${escapeHtml(status.text)}</span>
+          </div>
+          <div class="essay-rate-selector" role="group" aria-label="聆聽練習播放速度">
+            ${ESSAY_AUDIO_RATES.map(rate => `
+              <button class="essay-rate-button ${rate === selectedEssayAudioRate ? "active" : ""}" type="button" data-essay-audio-rate="${rate}" aria-pressed="${rate === selectedEssayAudioRate}">${essayAudioRateLabel(rate)}</button>
+            `).join("")}
+          </div>
+        </section>
       `;
     }
 
@@ -6411,6 +6572,11 @@ Device: concession 讓步
         screen: "mode",
         selectorOpen: true,
         showTranslation: false,
+        listeningEnabled: false,
+        listeningUnitIndex: 0,
+        listeningPlaying: false,
+        listeningUnitFinished: false,
+        listeningPlaybackError: "",
         selectedParagraphs: allParagraphIndexes(exercise),
         difficultyKey: defaultDifficulty?.key || "",
         mode: "",
@@ -7133,17 +7299,154 @@ Device: concession 讓步
       return `<p${className ? ` class="${escapeHtml(className)}"` : ""}>${html}</p>`;
     }
 
-    function renderTimedEssay(exercise) {
-      const displayBlocks = essayDisplayBlocks(exercise);
+    function essayAudioTimingContext(exercise) {
       const entry = essayAudioEntry(exercise);
       const timingWords = Array.isArray(entry?.words) ? entry.words : [];
+      const displayBlocks = essayDisplayBlocks(exercise);
       const displayWords = displayBlocks
         .flatMap(block => essayTextTokens(block.text))
         .filter(token => ESSAY_WORD_PATTERN.test(token));
       const timingsMatch = timingWords.length === displayWords.length
         && timingWords.every((row, index) => Array.isArray(row) && row[0] === displayWords[index]);
+      return timingsMatch ? { entry, timingWords, displayBlocks, displayWords } : null;
+    }
 
-      if (!timingsMatch) {
+    function canonicalEssaySentenceTimings(exercise, timingContext = essayAudioTimingContext(exercise)) {
+      if (!timingContext) return null;
+      const { entry, timingWords } = timingContext;
+      const leadLines = Array.isArray(exercise?.essayLeadLines)
+        ? exercise.essayLeadLines.map(essayDisplayLineText).filter(Boolean)
+        : [];
+      let wordCursor = leadLines
+        .flatMap(essayTextTokens)
+        .filter(token => ESSAY_WORD_PATTERN.test(token))
+        .length;
+
+      const paragraphs = exercise.paragraphs.map(paragraph => paragraph.sentences.map(sentence => {
+        const wordCount = essayTextTokens(plainSentence(sentence))
+          .filter(token => ESSAY_WORD_PATTERN.test(token))
+          .length;
+        const startWordIndex = wordCursor;
+        const endWordIndex = wordCursor + wordCount - 1;
+        wordCursor += wordCount;
+        if (!wordCount) return null;
+        const firstWord = timingWords[startWordIndex];
+        const lastWord = timingWords[endWordIndex];
+        if (!Array.isArray(firstWord) || !Array.isArray(lastWord)) return null;
+        const rawEndTime = Number(lastWord[2]);
+        const nextWordStart = Number(timingWords[endWordIndex + 1]?.[1]);
+        const paddedEnd = rawEndTime + 0.15;
+        const stopTime = Number.isFinite(nextWordStart)
+          ? Math.max(rawEndTime, Math.min(paddedEnd, nextWordStart - 0.12))
+          : Math.min(Number(entry.duration) || paddedEnd, paddedEnd);
+        return {
+          startWordIndex,
+          endWordIndex,
+          startTime: Math.max(0, Number(firstWord[1]) || 0),
+          stopTime
+        };
+      }));
+
+      return paragraphs.every(paragraph => paragraph.every(Boolean)) ? paragraphs : null;
+    }
+
+    function paragraphSentenceCharacterRanges(paragraph) {
+      let cursor = 0;
+      return paragraph.sentences.map((sentence, sentenceIndex) => {
+        if (sentenceIndex) cursor += 1;
+        const start = cursor;
+        cursor += plainSentence(sentence).length;
+        return { start, end: cursor, sentenceIndex };
+      });
+    }
+
+    function practiceParagraphBlankSpans(paragraph) {
+      let cursor = 0;
+      const spans = [];
+      paragraph.sentences.forEach((sentence, sentenceIndex) => {
+        if (sentenceIndex) cursor += 1;
+        sentence.parts.forEach(part => {
+          const text = isBlankPart(part) ? String(part.answer || "") : String(part || "");
+          const start = cursor;
+          cursor += text.length;
+          if (isBlankPart(part)) spans.push({ id: part.id, start, end: cursor });
+        });
+      });
+      return spans;
+    }
+
+    function practiceListeningSegments(exercise = currentExercise()) {
+      if (!exercise || !practiceState) return [];
+      const timingContext = essayAudioTimingContext(exercise);
+      const sentenceTimings = canonicalEssaySentenceTimings(exercise, timingContext);
+      if (!timingContext || !sentenceTimings) return [];
+
+      const targets = getPracticeTargets(exercise);
+      const targetIds = new Set(targets.map(target => target.id));
+      if (!targetIds.size) return [];
+      const selectedParagraphs = new Set(normalizeSelectedParagraphs(exercise, practiceState.selectedParagraphs));
+      const practiceParagraphs = practiceParagraphsForExercise(exercise, practiceState.difficultyKey || "");
+      const segments = [];
+      const mappedTargetIds = new Set();
+
+      practiceParagraphs.forEach((practiceParagraph, paragraphIndex) => {
+        if (!selectedParagraphs.has(paragraphIndex)) return;
+        const canonicalParagraph = exercise.paragraphs[paragraphIndex];
+        const canonicalRanges = paragraphSentenceCharacterRanges(canonicalParagraph);
+        const blankSpans = practiceParagraphBlankSpans(practiceParagraph)
+          .filter(span => targetIds.has(span.id));
+        const paragraphUnits = [];
+
+        blankSpans.forEach(span => {
+          const overlapping = canonicalRanges.filter(range => span.start < range.end && span.end > range.start);
+          if (!overlapping.length) return;
+          mappedTargetIds.add(span.id);
+          overlapping.forEach(range => {
+            paragraphUnits.push({
+              paragraphIndex,
+              startSentenceIndex: range.sentenceIndex,
+              endSentenceIndex: range.sentenceIndex,
+              blankIds: [span.id]
+            });
+          });
+        });
+
+        paragraphUnits
+          .sort((left, right) => left.startSentenceIndex - right.startSentenceIndex || left.endSentenceIndex - right.endSentenceIndex)
+          .forEach(unit => {
+            const previous = segments[segments.length - 1];
+            if (
+              previous
+              && previous.paragraphIndex === unit.paragraphIndex
+              && unit.startSentenceIndex <= previous.endSentenceIndex
+            ) {
+              previous.endSentenceIndex = Math.max(previous.endSentenceIndex, unit.endSentenceIndex);
+              previous.blankIds = [...new Set([...previous.blankIds, ...unit.blankIds])];
+              const endTiming = sentenceTimings[unit.paragraphIndex][previous.endSentenceIndex];
+              previous.stopTime = endTiming.stopTime;
+              previous.endWordIndex = endTiming.endWordIndex;
+              return;
+            }
+            const startTiming = sentenceTimings[unit.paragraphIndex][unit.startSentenceIndex];
+            const endTiming = sentenceTimings[unit.paragraphIndex][unit.endSentenceIndex];
+            segments.push({
+              ...unit,
+              blankIds: [...unit.blankIds],
+              startTime: startTiming.startTime,
+              stopTime: endTiming.stopTime,
+              startWordIndex: startTiming.startWordIndex,
+              endWordIndex: endTiming.endWordIndex
+            });
+          });
+      });
+
+      return mappedTargetIds.size === targetIds.size ? segments : [];
+    }
+
+    function renderTimedEssay(exercise) {
+      const timingContext = essayAudioTimingContext(exercise);
+      const displayBlocks = timingContext?.displayBlocks || essayDisplayBlocks(exercise);
+      if (!timingContext) {
         return displayBlocks
           .map(block => essayDisplayParagraphHtml(block.className, escapeHtml(block.text)))
           .join("");
@@ -7381,6 +7684,44 @@ Device: concession 讓步
       tick();
     }
 
+    function pauseEssayAudioBoundaryLoop() {
+      if (activeEssayBoundaryFrame) cancelAnimationFrame(activeEssayBoundaryFrame);
+      activeEssayBoundaryFrame = 0;
+    }
+
+    function clearEssayAudioBoundary() {
+      pauseEssayAudioBoundaryLoop();
+      activeEssayStopTime = null;
+      activeEssaySegmentEnd = null;
+    }
+
+    function startEssayAudioBoundaryLoop() {
+      pauseEssayAudioBoundaryLoop();
+      if (!activeEssayAudio || !Number.isFinite(activeEssayStopTime)) return;
+      const tick = () => {
+        const audio = activeEssayAudio;
+        if (!audio || !Number.isFinite(activeEssayStopTime)) {
+          activeEssayBoundaryFrame = 0;
+          return;
+        }
+        if (audio.currentTime >= activeEssayStopTime - 0.012) {
+          const stopTime = activeEssayStopTime;
+          const onSegmentEnd = activeEssaySegmentEnd;
+          clearEssayAudioBoundary();
+          if (audio.currentTime > stopTime) audio.currentTime = stopTime;
+          audio.pause();
+          if (typeof onSegmentEnd === "function") onSegmentEnd();
+          return;
+        }
+        if (audio.paused || audio.ended) {
+          activeEssayBoundaryFrame = 0;
+          return;
+        }
+        activeEssayBoundaryFrame = requestAnimationFrame(tick);
+      };
+      tick();
+    }
+
     function syncEssayAudioButton() {
       const button = document.querySelector("[data-play-essay-audio]");
       if (!button) return;
@@ -7401,6 +7742,7 @@ Device: concession 讓步
 
     function stopEssayAudio() {
       stopEssayHighlightLoop({ clear: true });
+      clearEssayAudioBoundary();
       if (activeEssayAudio) {
         activeEssayAudio.onplay = null;
         activeEssayAudio.onpause = null;
@@ -7412,15 +7754,22 @@ Device: concession 讓步
       }
       activeEssayAudio = null;
       activeEssayAudioExerciseId = "";
+      activeEssayAudioContext = "";
       syncEssayAudioButton();
     }
 
-    function startEssayAudioAt(exercise, entry, startTime = 0) {
+    function startEssayAudioAt(exercise, entry, startTime = 0, options = {}) {
       if (!exercise || !entry) return false;
       stopEssayAudio();
       const audio = new Audio();
       activeEssayAudio = audio;
       activeEssayAudioExerciseId = exercise.id;
+      activeEssayAudioContext = options.context || "essay";
+      const requestedStopTime = Number(options.stopTime);
+      if (Number.isFinite(requestedStopTime) && requestedStopTime > Number(startTime || 0)) {
+        activeEssayStopTime = requestedStopTime;
+        activeEssaySegmentEnd = typeof options.onSegmentEnd === "function" ? options.onSegmentEnd : null;
+      }
       audio.preload = "metadata";
       const path = String(entry.path);
       audio.src = window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path;
@@ -7430,34 +7779,50 @@ Device: concession 讓步
       audio.preservesPitch = true;
       audio.onplay = () => {
         syncEssayAudioButton();
-        startEssayHighlightLoop();
+        if (activeEssayAudioContext === "listening") stopEssayHighlightLoop({ clear: true });
+        else startEssayHighlightLoop();
+        startEssayAudioBoundaryLoop();
+        if (activeEssayAudioContext === "listening") syncPracticeListeningPlaybackState(true);
       };
       audio.onpause = () => {
         stopEssayHighlightLoop();
+        pauseEssayAudioBoundaryLoop();
         syncEssayAudioButton();
+        if (activeEssayAudioContext === "listening") syncPracticeListeningPlaybackState(false);
       };
       audio.onended = () => {
+        const onSegmentEnd = activeEssaySegmentEnd;
         stopEssayHighlightLoop({ clear: true });
+        clearEssayAudioBoundary();
         activeEssayAudio = null;
         activeEssayAudioExerciseId = "";
+        activeEssayAudioContext = "";
         syncEssayAudioButton();
+        if (typeof onSegmentEnd === "function") onSegmentEnd();
       };
       audio.onerror = () => {
+        if (activeEssayAudio !== audio) return;
         console.warn("Essay audio could not be loaded:", audio.error);
         stopEssayAudio();
+        if (typeof options.onError === "function") options.onError(audio.error || new Error("Audio could not be loaded."));
       };
       try {
         const playResult = audio.play();
         if (playResult && typeof playResult.catch === "function") {
           playResult.catch(error => {
+            if (activeEssayAudio !== audio) return;
             console.warn("Essay audio playback failed:", error);
-            syncEssayAudioButton();
+            const listeningPlayback = activeEssayAudioContext === "listening";
+            if (typeof options.onError === "function") options.onError(error);
+            if (listeningPlayback) stopEssayAudio();
+            else syncEssayAudioButton();
           });
         }
         return true;
       } catch (error) {
         console.warn("Essay audio playback failed:", error);
         stopEssayAudio();
+        if (typeof options.onError === "function") options.onError(error);
         return false;
       }
     }
@@ -7469,7 +7834,7 @@ Device: concession 讓步
       if (!exercise || !entry || !Array.isArray(timing)) return false;
       const startTime = Math.max(0, Number(timing[1]) || 0);
 
-      if (activeEssayAudio && activeEssayAudioExerciseId === exercise.id) {
+      if (activeEssayAudio && activeEssayAudioExerciseId === exercise.id && activeEssayAudioContext !== "listening") {
         activeEssayAudio.currentTime = startTime;
         updateEssayHighlightNow();
         if (!activeEssayAudio.paused && !activeEssayAudio.ended) return true;
@@ -7492,6 +7857,7 @@ Device: concession 讓步
       const exercise = currentExercise();
       const entry = essayAudioEntry(exercise);
       if (!exercise || !entry) return false;
+      if (activeEssayAudioContext === "listening") return false;
 
       if (activeEssayAudio && activeEssayAudioExerciseId === exercise.id) {
         if (!activeEssayAudio.paused && !activeEssayAudio.ended) {
@@ -7508,6 +7874,188 @@ Device: concession 讓步
       }
 
       return startEssayAudioAt(exercise, entry, 0);
+    }
+
+    function syncPracticeListeningUi() {
+      const exercise = currentExercise();
+      if (!exercise || !practiceState?.listeningEnabled) return;
+      const status = practiceListeningStatus(exercise);
+      const statusNode = document.querySelector("[data-practice-listening-status]");
+      if (statusNode) {
+        statusNode.textContent = status.text;
+        statusNode.setAttribute("data-tone", status.tone);
+      }
+
+      const nextButton = document.querySelector("[data-next-practice-listening]");
+      if (nextButton) {
+        const segments = practiceListeningSegments(exercise);
+        const index = Math.min(Math.max(0, Number(practiceState.listeningUnitIndex) || 0), Math.max(0, segments.length - 1));
+        const finalFinished = Boolean(segments.length && practiceState.listeningUnitFinished && index >= segments.length - 1);
+        const retry = Boolean(practiceState.listeningPlaybackError && !practiceState.listeningUnitFinished);
+        nextButton.textContent = finalFinished
+          ? "聆聽練習已完成"
+          : retry
+            ? "播放本句"
+            : "繼續下一句";
+        nextButton.disabled = Boolean(
+          practiceState.submitted
+          || practiceState.listeningPlaying
+          || (!practiceState.listeningUnitFinished && !retry)
+          || finalFinished
+          || !segments.length
+        );
+      }
+      syncEssayAudioRateButtons();
+    }
+
+    function syncPracticeListeningPlaybackState(playing) {
+      if (!practiceState?.listeningEnabled || practiceState.screen !== "practice") return;
+      practiceState.listeningPlaying = Boolean(playing);
+      if (playing) {
+        practiceState.listeningPlaybackError = "";
+      } else if (Number.isFinite(activeEssayStopTime) && !practiceState.listeningUnitFinished) {
+        practiceState.listeningPlaybackError = "錄音已暫停，請按「播放本句」重新播放。";
+      }
+      syncPracticeListeningUi();
+    }
+
+    function focusPracticeListeningAnswers(segment) {
+      if (!segment?.blankIds?.length) return;
+      const blankIds = new Set(segment.blankIds);
+      const input = [...document.querySelectorAll("[data-answer-id]")]
+        .find(node => blankIds.has(node.getAttribute("data-answer-id")));
+      input?.focus?.({ preventScroll: true });
+    }
+
+    function finishPracticeListeningUnit(unitIndex) {
+      const exercise = currentExercise();
+      if (
+        !exercise
+        || !practiceState?.listeningEnabled
+        || practiceState.screen !== "practice"
+        || Number(practiceState.listeningUnitIndex) !== Number(unitIndex)
+      ) return;
+      const segments = practiceListeningSegments(exercise);
+      practiceState.listeningPlaying = false;
+      practiceState.listeningUnitFinished = true;
+      practiceState.listeningPlaybackError = "";
+      syncPracticeListeningUi();
+      focusPracticeListeningAnswers(segments[unitIndex]);
+    }
+
+    function failPracticeListeningPlayback(message = "錄音未能自動播放，請按「播放本句」再試。") {
+      if (!practiceState?.listeningEnabled) return;
+      practiceState.listeningPlaying = false;
+      practiceState.listeningUnitFinished = false;
+      practiceState.listeningPlaybackError = message;
+      syncPracticeListeningUi();
+    }
+
+    function playPracticeListeningUnit(unitIndex = 0) {
+      const exercise = currentExercise();
+      const entry = essayAudioEntry(exercise);
+      const segments = practiceListeningSegments(exercise);
+      const index = Number(unitIndex);
+      const segment = segments[index];
+      if (!exercise || !entry || !segment || !practiceState?.listeningEnabled) {
+        failPracticeListeningPlayback("這個練習暫時未能配對逐句錄音。");
+        return false;
+      }
+
+      practiceState.listeningUnitIndex = index;
+      practiceState.listeningPlaying = true;
+      practiceState.listeningUnitFinished = false;
+      practiceState.listeningPlaybackError = "";
+      syncPracticeListeningUi();
+      const started = startEssayAudioAt(exercise, entry, segment.startTime, {
+        context: "listening",
+        stopTime: segment.stopTime,
+        onSegmentEnd: () => finishPracticeListeningUnit(index),
+        onError: () => failPracticeListeningPlayback()
+      });
+      if (!started) failPracticeListeningPlayback();
+      return started;
+    }
+
+    function togglePracticeListeningMode() {
+      const exercise = currentExercise();
+      if (!exercise || !practiceState) return;
+      if (practiceState.screen === "practice") syncPracticeAnswersFromDom();
+      if (practiceState.listeningEnabled) {
+        stopEssayAudio();
+        practiceState.listeningEnabled = false;
+        practiceState.listeningPlaying = false;
+        practiceState.listeningUnitFinished = false;
+        practiceState.listeningPlaybackError = "";
+        renderExerciseView();
+        return;
+      }
+      if (!essayAudioTimingContext(exercise)) return;
+      practiceState.listeningEnabled = true;
+      practiceState.listeningUnitIndex = 0;
+      practiceState.listeningPlaying = false;
+      practiceState.listeningUnitFinished = false;
+      practiceState.listeningPlaybackError = "";
+      const shouldStart = practiceState.screen === "practice" && !practiceState.submitted;
+      renderExerciseView();
+      if (shouldStart) playPracticeListeningUnit(0);
+    }
+
+    function continuePracticeListening() {
+      const exercise = currentExercise();
+      if (!exercise || !practiceState?.listeningEnabled || practiceState.screen !== "practice") return;
+      syncPracticeAnswersFromDom();
+      const segments = practiceListeningSegments(exercise);
+      const currentIndex = Math.min(
+        Math.max(0, Number(practiceState.listeningUnitIndex) || 0),
+        Math.max(0, segments.length - 1)
+      );
+      if (practiceState.listeningPlaybackError && !practiceState.listeningUnitFinished) {
+        playPracticeListeningUnit(currentIndex);
+        return;
+      }
+      if (!practiceState.listeningUnitFinished || currentIndex >= segments.length - 1) return;
+      playPracticeListeningUnit(currentIndex + 1);
+    }
+
+    function togglePracticeListeningPlayback() {
+      if (
+        activeEssayAudioContext !== "listening"
+        || !activeEssayAudio
+        || !practiceState?.listeningEnabled
+        || practiceState.listeningUnitFinished
+      ) return false;
+      if (!activeEssayAudio.paused && !activeEssayAudio.ended) {
+        activeEssayAudio.pause();
+        return true;
+      }
+      try {
+        const audio = activeEssayAudio;
+        const result = audio.play();
+        if (result && typeof result.catch === "function") {
+          result.catch(() => {
+            if (activeEssayAudio === audio) failPracticeListeningPlayback();
+          });
+        }
+        return true;
+      } catch (error) {
+        failPracticeListeningPlayback();
+        return false;
+      }
+    }
+
+    function stopAudioForPageInterruption() {
+      const interruptedListening = Boolean(
+        activeEssayAudioContext === "listening"
+        && practiceState?.listeningEnabled
+        && !practiceState.listeningUnitFinished
+      );
+      stopEssayAudio();
+      if (!interruptedListening || !practiceState) return;
+      practiceState.listeningPlaying = false;
+      practiceState.listeningUnitFinished = false;
+      practiceState.listeningPlaybackError = "錄音已暫停，請按「播放本句」繼續。";
+      syncPracticeListeningUi();
     }
 
     function renderEssayToolbar(exercise) {
@@ -7618,6 +8166,7 @@ Device: concession 讓步
               <button class="secondary-button" type="button" data-select-full-essay>全篇文章</button>
               <button class="secondary-button" type="button" data-toggle-paragraph-selector>段落選擇系統</button>
               ${renderPracticeTranslationToggle()}
+              ${renderPracticeListeningToggle(exercise)}
             </div>
             <div class="paragraph-checkboxes ${practiceState?.selectorOpen ? "" : "hidden"}">
               ${exercise.paragraphs.map((paragraph, index) => `
@@ -7631,6 +8180,8 @@ Device: concession 讓步
               `).join("")}
             </div>
           </div>
+
+          ${renderPracticeListeningPanel(exercise)}
 
           ${difficultySets.length ? renderPracticeDifficultyGroups(exercise, selectedParagraphs) : `
             <div class="practice-mode-grid">
@@ -7808,10 +8359,13 @@ Device: concession 讓步
               <p class="note-text">本輪共有 ${escapeHtml(targets.length)} 題。請點擊空格並輸入答案。</p>
             </div>
             <div class="practice-head-actions">
+              ${renderPracticeListeningNext(exercise)}
               ${renderPracticeTranslationToggle()}
+              ${renderPracticeListeningToggle(exercise)}
               <button class="secondary-button" type="button" data-back-practice-mode>更改模式</button>
             </div>
           </div>
+          ${renderPracticeListeningPanel(exercise)}
           ${practiceState.submitted ? renderResultPanel(practiceState.lastResult, exercise) : ""}
           ${renderPracticeWordBank(exercise)}
           ${renderPracticeBody(exercise, targets)}
@@ -7913,13 +8467,21 @@ Device: concession 讓步
       }
 
       const selectedExercise = currentExercise();
-      const keepEssayAudio = Boolean(
+      const keepStudyAudio = Boolean(
         selectedExercise?.id
         && selectedExercise.id === activeEssayAudioExerciseId
+        && activeEssayAudioContext === "essay"
         && currentEssayTab === "essay"
         && !practiceState
       );
-      if (activeEssayAudio && !keepEssayAudio) stopEssayAudio();
+      const keepListeningAudio = Boolean(
+        selectedExercise?.id
+        && selectedExercise.id === activeEssayAudioExerciseId
+        && activeEssayAudioContext === "listening"
+        && practiceState?.screen === "practice"
+        && practiceState.listeningEnabled
+      );
+      if (activeEssayAudio && !keepStudyAudio && !keepListeningAudio) stopEssayAudio();
 
       if (hasWritingPathway(currentExerciseSectionKey) && !currentExerciseId) {
         panel.innerHTML = renderWritingPathwayView();
@@ -7945,12 +8507,14 @@ Device: concession 讓步
 
       if (practiceState?.screen === "mode") {
         panel.innerHTML = renderModePage(exercise);
+        syncEssayAudioRateButtons();
         syncWritingBookmarkButtons();
         return;
       }
 
       if (practiceState?.screen === "practice") {
         panel.innerHTML = renderPracticeRound(exercise);
+        syncPracticeListeningUi();
         syncWritingBookmarkButtons();
         return;
       }
@@ -8293,6 +8857,7 @@ Device: concession 讓步
     function startPracticeSetup() {
       const exercise = currentExercise();
       if (!exercise) return;
+      stopEssayAudio();
       practiceState = defaultPracticeState(exercise);
       renderExerciseView();
     }
@@ -8322,9 +8887,14 @@ Device: concession 讓步
         targetBlankIds: null,
         answers: savedAnswers,
         submitted: false,
-        lastResult: null
+        lastResult: null,
+        listeningUnitIndex: 0,
+        listeningPlaying: false,
+        listeningUnitFinished: false,
+        listeningPlaybackError: ""
       };
       renderExerciseView();
+      if (practiceState.listeningEnabled) playPracticeListeningUnit(0);
     }
 
     function submitPracticeRound() {
@@ -8406,8 +8976,12 @@ Device: concession 讓步
         ...practiceState,
         answers,
         submitted: true,
-        lastResult: result
+        lastResult: result,
+        listeningPlaying: false,
+        listeningUnitFinished: true,
+        listeningPlaybackError: ""
       };
+      stopEssayAudio();
       renderExerciseView();
     }
 
@@ -8426,9 +9000,14 @@ Device: concession 讓步
         targetBlankIds,
         answers: {},
         submitted: false,
-        lastResult: null
+        lastResult: null,
+        listeningUnitIndex: 0,
+        listeningPlaying: false,
+        listeningUnitFinished: false,
+        listeningPlaybackError: ""
       };
       renderExerciseView();
+      if (practiceState.listeningEnabled) playPracticeListeningUnit(0);
     }
 
     function updatePracticeParagraph(index, checked) {
@@ -9501,6 +10080,16 @@ Device: concession 讓步
           return;
         }
 
+        if (event.target.closest("[data-toggle-practice-listening]")) {
+          togglePracticeListeningMode();
+          return;
+        }
+
+        if (event.target.closest("[data-next-practice-listening]")) {
+          continuePracticeListening();
+          return;
+        }
+
         if (event.target.closest("[data-toggle-practice-translation]")) {
           if (practiceState) {
             syncPracticeAnswersFromDom();
@@ -9547,6 +10136,7 @@ Device: concession 讓步
           const exercise = currentExercise();
           if (exercise && practiceState) {
             const savedAnswers = syncPracticeAnswersFromDom();
+            stopEssayAudio();
             practiceState = {
               ...practiceState,
               screen: "mode",
@@ -9554,7 +10144,11 @@ Device: concession 讓步
               selectorOpen: practiceState.selectorOpen,
               answers: savedAnswers,
               submitted: false,
-              lastResult: null
+              lastResult: null,
+              listeningUnitIndex: 0,
+              listeningPlaying: false,
+              listeningUnitFinished: false,
+              listeningPlaybackError: ""
             };
             renderExerciseView();
           }
@@ -9666,12 +10260,13 @@ Device: concession 讓步
         const target = event.target;
         if (target?.closest?.("input, textarea, select, button, a, [contenteditable='true']")) return;
         event.preventDefault();
-        playOrToggleEssayAudio();
+        if (activeEssayAudioContext === "listening") togglePracticeListeningPlayback();
+        else playOrToggleEssayAudio();
       });
 
-      window.addEventListener("pagehide", stopEssayAudio);
+      window.addEventListener("pagehide", stopAudioForPageInterruption);
       document.addEventListener("visibilitychange", () => {
-        if (document.visibilityState === "hidden") stopEssayAudio();
+        if (document.visibilityState === "hidden") stopAudioForPageInterruption();
       });
     }
 

@@ -70,6 +70,50 @@ function createHarness(applicationSource, dataFiles) {
     setItem(key, value) { localValues.set(key, String(value)); },
     removeItem(key) { localValues.delete(key); }
   };
+  const animationFrames = new Map();
+  let nextAnimationFrame = 1;
+  const requestAnimationFrame = callback => {
+    const id = nextAnimationFrame;
+    nextAnimationFrame += 1;
+    animationFrames.set(id, callback);
+    return id;
+  };
+  const cancelAnimationFrame = id => animationFrames.delete(id);
+  const createdAudios = [];
+  const deferredAudioPlays = [];
+  let deferNextAudioPlay = false;
+  class FakeAudio {
+    constructor() {
+      this.currentTime = 0;
+      this.paused = true;
+      this.ended = false;
+      this.error = null;
+      this.playbackRate = 1;
+      this.defaultPlaybackRate = 1;
+      createdAudios.push(this);
+    }
+    play() {
+      this.paused = false;
+      this.ended = false;
+      this.onplay?.();
+      if (deferNextAudioPlay) {
+        deferNextAudioPlay = false;
+        return new Promise((resolve, reject) => {
+          deferredAudioPlays.push({ audio: this, resolve, reject });
+        });
+      }
+      return Promise.resolve();
+    }
+    pause() {
+      if (this.paused) return;
+      this.paused = true;
+      this.onpause?.();
+    }
+    removeAttribute() {}
+    load() {}
+    addEventListener() {}
+    removeEventListener() {}
+  }
   const windowListeners = new Map();
   const window = {
     document,
@@ -77,9 +121,10 @@ function createHarness(applicationSource, dataFiles) {
     EDMUND_IELTS_WRITING_EXERCISES: {},
     EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES: {},
     EDMUND_IELTS_WRITING_ADVANTAGE_2_30_EXERCISES: {},
+    EDMUND_WRITING_AUDIO: {},
     matchMedia: () => ({ matches: false }),
-    requestAnimationFrame(callback) { callback?.(); return 1; },
-    cancelAnimationFrame() {},
+    requestAnimationFrame,
+    cancelAnimationFrame,
     setTimeout,
     clearTimeout,
     setInterval,
@@ -132,6 +177,18 @@ function createHarness(applicationSource, dataFiles) {
       updateParagraph: (index, checked) => updatePracticeParagraph(index, checked),
       paragraphTranslation: index => practiceTranslationLinesForParagraph(currentExercise(), index),
       fixedLineTranslation: line => practiceTranslationLinesForEnglish(currentExercise(), line),
+      setAudioManifest: manifest => { window.EDMUND_WRITING_AUDIO = manifest || {}; },
+      listeningSegments: () => practiceListeningSegments(currentExercise()),
+      difficultyKeys: () => practiceDifficultySetsForExercise(currentExercise()).map(item => item.key),
+      useDifficulty: difficultyKey => {
+        practiceState.screen = "practice";
+        practiceState.mode = "blank";
+        practiceState.difficultyKey = difficultyKey || "";
+        practiceState.sentenceKeys = null;
+        practiceState.targetBlankIds = null;
+        return practiceListeningSegments(currentExercise());
+      },
+      setAudioRate: rate => setEssayAudioRate(rate),
       setupEvents: () => setupEvents()
     };
   `);
@@ -146,8 +203,8 @@ function createHarness(applicationSource, dataFiles) {
     clearTimeout,
     setInterval,
     clearInterval,
-    requestAnimationFrame: window.requestAnimationFrame,
-    cancelAnimationFrame: window.cancelAnimationFrame,
+    requestAnimationFrame,
+    cancelAnimationFrame,
     FormData,
     Blob,
     URL,
@@ -160,12 +217,7 @@ function createHarness(applicationSource, dataFiles) {
     TextDecoder,
     navigator: {},
     location: { hostname: "localhost" },
-    Audio: class {
-      addEventListener() {}
-      removeEventListener() {}
-      pause() {}
-      play() { return Promise.resolve(); }
-    }
+    Audio: FakeAudio
   };
   vm.createContext(context);
   dataFiles.forEach(filename => {
@@ -175,7 +227,19 @@ function createHarness(applicationSource, dataFiles) {
   return {
     hooks: window.__EDMUND_WRITING_TRANSLATION_TEST__,
     panel,
-    documentListeners
+    documentListeners,
+    createdAudios,
+    runAnimationFrames() {
+      const callbacks = [...animationFrames.values()];
+      animationFrames.clear();
+      callbacks.forEach(callback => callback?.());
+    },
+    deferNextAudioPlay() {
+      deferNextAudioPlay = true;
+    },
+    rejectOldestDeferredPlay(error = new Error("Delayed fixture rejection")) {
+      deferredAudioPlays.shift()?.reject(error);
+    }
   };
 }
 
@@ -305,9 +369,9 @@ function assertTranslationScope(htmlSource, selectedIndexes) {
   assert.equal(translationHtml.includes(ANSWER_SENTINEL), false, "translation support must never reveal a correct English answer");
 }
 
-function clickTarget(attribute) {
+function clickTarget(attribute, value = "") {
   const node = {
-    getAttribute(name) { return name === attribute ? "" : null; },
+    getAttribute(name) { return name === attribute ? value : null; },
     closest(selector) { return selector === `[${attribute}]` ? node : null; }
   };
   return node;
@@ -400,4 +464,197 @@ assert.deepEqual(
   `every translated exercise paragraph and fixed letter/article line must map to Chinese: ${translationMappingGaps.join("; ")}`
 );
 
-console.log("Writing translation toggle tests passed: safe default, 16 mode combinations, persistent navigation, corpus mapping, accessibility and no answer leakage.");
+function listeningFixture() {
+  return {
+    id: "writing-listening-mode-fixture",
+    title: "Listening Mode Fixture",
+    exam: "IELTS Writing Task 2",
+    taskType: "Listening",
+    practiceModes: ["blank"],
+    paragraphs: [
+      {
+        label: "Introduction",
+        sentences: [
+          { parts: ["Listen ", { answer: "carefully" }, "."] },
+          { parts: ["This bridge sentence has no blank."] },
+          { parts: ["Write ", { answer: "the answer" }, " now."] }
+        ]
+      },
+      {
+        label: "Body Paragraph 1",
+        sentences: [
+          { parts: ["Finish with ", { answer: "two" }, " ", { answer: "blanks" }, " today."] }
+        ]
+      }
+    ]
+  };
+}
+
+function listeningFixtureAudio(exercise) {
+  let time = 0;
+  const words = [];
+  exercise.paragraphs.forEach(paragraph => {
+    paragraph.sentences.forEach(sentence => {
+      const sentenceWords = sentence.parts
+        .map(part => typeof part === "object" ? part.answer : part)
+        .join("")
+        .match(/[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*/gu) || [];
+      sentenceWords.forEach(word => {
+        words.push([word, Number(time.toFixed(3)), Number((time + 0.18).toFixed(3))]);
+        time += 0.2;
+      });
+      time += 0.6;
+    });
+  });
+  return {
+    duration: Number((time + 0.2).toFixed(3)),
+    path: "fixture-listening.mp3",
+    wordCount: words.length,
+    words
+  };
+}
+
+const listenExercise = listeningFixture();
+hooks.setAudioManifest({ [listenExercise.id]: listeningFixtureAudio(listenExercise) });
+hooks.installExercise(listenExercise);
+hooks.renderView();
+
+let listeningHtml = harness.panel.innerHTML;
+const listeningToggle = elementOpeningTag(listeningHtml, "data-toggle-practice-listening");
+assert.match(listeningToggle, /^<button\b/, "listening mode should use native button semantics");
+assert.match(listeningToggle, /\btype="button"/, "listening toggle must not submit the answer form");
+assert.match(listeningToggle, /\baria-pressed="false"/, "listening mode must default to OFF");
+assert.doesNotMatch(listeningToggle, /\bdisabled\b/, "matching audio should make listening mode available");
+
+await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningEnabled, true, "listening toggle should persist ON before practice starts");
+assert.equal(
+  occurrences(harness.panel.innerHTML, "data-essay-audio-rate="),
+  6,
+  "listening mode should expose all six playback speeds before the round"
+);
+
+harness.deferNextAudioPlay();
+hooks.startMode("blank", "");
+let segments = hooks.listeningSegments();
+assert.equal(segments.length, 3, "only target-bearing sentences should become listening units");
+assert.equal(segments[2].blankIds.length, 2, "multiple blanks in one sentence should share one listening unit");
+assert.equal(hooks.state().listeningPlaying, true, "the first listening sentence should start automatically");
+assert.equal(hooks.state().listeningUnitIndex, 0);
+assert.equal(harness.createdAudios.length, 1, "automatic listening should create one audio player");
+assert.equal(harness.createdAudios[0].currentTime, segments[0].startTime, "automatic playback should seek to the first target sentence");
+const activePracticeHtml = hooks.renderRound();
+assert.ok(
+  activePracticeHtml.indexOf("data-next-practice-listening") < activePracticeHtml.indexOf("data-toggle-practice-translation"),
+  "continue listening should appear to the left of the Chinese translation button"
+);
+assert.ok(
+  activePracticeHtml.indexOf("data-toggle-practice-translation") < activePracticeHtml.indexOf("data-toggle-practice-listening"),
+  "listening ON/OFF should appear immediately after the Chinese translation button"
+);
+
+harness.createdAudios[0].pause();
+assert.equal(hooks.state().listeningPlaying, false, "a mid-sentence pause should update listening state");
+assert.match(hooks.state().listeningPlaybackError, /已暫停/, "a paused sentence should expose a visible recovery state");
+listeningHtml = hooks.renderRound();
+const retryButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
+assert.doesNotMatch(retryButton, /\bdisabled\b/, "touch users should be able to replay a paused sentence");
+assert.match(listeningHtml, /播放本句/, "a paused sentence should offer a replay button");
+
+await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+assert.equal(harness.createdAudios.length, 2, "replaying a paused sentence should replace its audio player");
+assert.equal(harness.createdAudios[1].currentTime, segments[0].startTime);
+harness.rejectOldestDeferredPlay();
+await Promise.resolve();
+await Promise.resolve();
+assert.equal(harness.createdAudios[1].paused, false, "a delayed rejection from an old player must not stop the replacement");
+assert.equal(hooks.state().listeningPlaying, true, "an obsolete rejection must not fail the active listening unit");
+
+await clickHandler({ target: clickTarget("data-essay-audio-rate", "0.5"), preventDefault() {} });
+assert.equal(harness.createdAudios[1].playbackRate, 0.5, "speed changes should apply during listening playback");
+
+harness.createdAudios[1].currentTime = segments[0].stopTime + 0.02;
+harness.runAnimationFrames();
+assert.equal(harness.createdAudios[1].paused, true, "the audio should pause at the sentence boundary");
+assert.equal(hooks.state().listeningUnitFinished, true, "the first sentence should become ready for answers");
+assert.equal(hooks.state().listeningPlaying, false);
+
+const inputHandler = harness.documentListeners.get("input")?.[0];
+assert.equal(typeof inputHandler, "function", "writing input handler should be registered");
+const firstBlankInput = {
+  value: "carefully",
+  getAttribute(name) { return name === "data-answer-id" ? `${listenExercise.id}-q1` : null; },
+  closest(selector) { return selector === "[data-answer-id]" ? firstBlankInput : null; }
+};
+inputHandler({ target: firstBlankInput });
+
+await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 1, "continue should advance to the next target-bearing sentence");
+assert.equal(hooks.state().answers[`${listenExercise.id}-q1`], "carefully", "continuing must preserve typed answers");
+assert.equal(harness.createdAudios.length, 3);
+assert.equal(harness.createdAudios[2].currentTime, segments[1].startTime);
+assert.equal(harness.createdAudios[2].playbackRate, 0.5, "the selected speed should carry into the next sentence");
+
+harness.createdAudios[2].currentTime = segments[1].stopTime + 0.02;
+harness.runAnimationFrames();
+await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningUnitIndex, 2);
+harness.createdAudios[3].currentTime = segments[2].stopTime + 0.02;
+harness.runAnimationFrames();
+assert.equal(hooks.state().listeningUnitFinished, true);
+listeningHtml = hooks.renderRound();
+const completedButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
+assert.match(completedButton, /\bdisabled\b/, "continue should be disabled after the final listening sentence");
+assert.match(listeningHtml, /聆聽練習已完成/, "the final control should announce completion");
+
+await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningEnabled, false, "students should be able to turn listening mode back OFF");
+
+await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
+assert.equal(hooks.state().listeningEnabled, true);
+const exitAudio = harness.createdAudios.at(-1);
+assert.equal(exitAudio.paused, false, "turning listening back on during a round should start its first sentence");
+await clickHandler({ target: clickTarget("data-back-essay"), preventDefault() {} });
+assert.equal(exitAudio.paused, true, "returning to the essay must stop an active listening segment");
+assert.equal(hooks.state(), null, "returning to the essay should leave practice mode");
+
+const audioManifestWindow = {};
+vm.runInNewContext(readFileSync(`${repository}/writing-audio-manifest.js`, "utf8"), { window: audioManifestWindow });
+const fullAudioManifest = audioManifestWindow.EDMUND_WRITING_AUDIO;
+assert.equal(Object.keys(fullAudioManifest).length, 235, "the complete writing audio manifest should contain 235 essays");
+hooks.setAudioManifest(fullAudioManifest);
+const listeningMappingGaps = [];
+let checkedListeningConfigurations = 0;
+hooks.exerciseIds().forEach(exerciseId => {
+  if (exerciseId === listenExercise.id || exerciseId === fixtureExercise().id) return;
+  if (!fullAudioManifest[exerciseId]) {
+    listeningMappingGaps.push(`${exerciseId}: missing manifest entry`);
+    return;
+  }
+  hooks.useExercise(exerciseId);
+  const difficultyKeys = hooks.difficultyKeys();
+  (difficultyKeys.length ? difficultyKeys : [""]).forEach(difficultyKey => {
+    const exerciseSegments = hooks.useDifficulty(difficultyKey);
+    checkedListeningConfigurations += 1;
+    if (!exerciseSegments.length) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has no listening segments`);
+    }
+    if (exerciseSegments.some(segment => segment.startSentenceIndex !== segment.endSentenceIndex)) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} crosses a sentence boundary`);
+    }
+    if (exerciseSegments.some(segment => !Number.isFinite(segment.startTime) || !Number.isFinite(segment.stopTime) || segment.stopTime <= segment.startTime)) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has an invalid playback range`);
+    }
+    if (exerciseSegments.some((segment, index) => index > 0 && segment.startTime <= exerciseSegments[index - 1].startTime)) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has out-of-order playback ranges`);
+    }
+  });
+});
+assert.deepEqual(
+  listeningMappingGaps,
+  [],
+  `every writing difficulty should map its blanks to timed listening sentences: ${listeningMappingGaps.join("; ")}`
+);
+assert.ok(checkedListeningConfigurations >= 900, "the listening audit should cover every normal and exceptional difficulty");
+
+console.log(`Writing translation/listening tests passed: safe translation, sentence-bounded audio, speed control, continuation, ${checkedListeningConfigurations} corpus configurations and no answer leakage.`);
