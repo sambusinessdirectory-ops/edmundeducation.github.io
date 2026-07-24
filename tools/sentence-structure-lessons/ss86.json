@@ -1,0 +1,1312 @@
+{
+  "id": "ss86",
+  "order": 86,
+  "slug": "negative-questions",
+  "title": "「Negative Question 句」否定疑問句",
+  "titleZh": "否定疑問句",
+  "titleEn": "Negative Questions",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 86 -「Negative Question 句」否定疑問句.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Isn’t / Aren’t / Wasn’t / Weren’t + subject + complement?",
+  "formulas": [
+    {
+      "id": "ss86-formula-be",
+      "labelZh": "Be 動詞",
+      "labelEn": "Be verbs",
+      "formula": "Isn’t / Aren’t / Wasn’t / Weren’t + subject + complement?"
+    },
+    {
+      "id": "ss86-formula-do",
+      "labelZh": "Do 助動詞",
+      "labelEn": "Do auxiliaries",
+      "formula": "Don’t / Doesn’t / Didn’t + subject + base verb + other information?"
+    },
+    {
+      "id": "ss86-formula-modal",
+      "labelZh": "情態動詞",
+      "labelEn": "Modal verbs",
+      "formula": "Can’t / Couldn’t / Shouldn’t / Won’t / Wouldn’t + subject + base verb + other information?"
+    },
+    {
+      "id": "ss86-formula-perfect",
+      "labelZh": "完成時態",
+      "labelEn": "Perfect tenses",
+      "formula": "Hasn’t / Haven’t / Hadn’t + subject + past participle + other information?"
+    }
+  ],
+  "example": "Isn’t it wiser to verify the facts first?",
+  "exampleZh": "先核實事實，不是更明智嗎？",
+  "examples": [
+    {
+      "id": "ss86-example-main",
+      "en": "Isn’t it wiser to verify the facts first?",
+      "zh": "先核實事實，不是更明智嗎？",
+      "highlight": "Isn’t it wiser to verify the facts first?"
+    },
+    {
+      "id": "ss86-example-be",
+      "en": "Isn’t the room ready?",
+      "zh": "房間不是已經準備好了嗎？",
+      "zhSource": "editorial-translation",
+      "highlight": "Isn’t the room ready?"
+    },
+    {
+      "id": "ss86-example-do",
+      "en": "Doesn’t Mia live nearby?",
+      "zh": "米婭不是住在附近嗎？",
+      "zhSource": "editorial-translation",
+      "highlight": "Doesn’t Mia live nearby?"
+    },
+    {
+      "id": "ss86-example-modal",
+      "en": "Wouldn’t it be safer to wait?",
+      "zh": "等一等不是更安全嗎？",
+      "zhSource": "editorial-translation",
+      "highlight": "Wouldn’t it be safer to wait?"
+    },
+    {
+      "id": "ss86-example-perfect",
+      "en": "Haven’t they arrived?",
+      "zh": "他們不是已經到了嗎？",
+      "zhSource": "editorial-translation",
+      "highlight": "Haven’t they arrived?"
+    }
+  ],
+  "meaning": {
+    "zh": "否定疑問句以 be 動詞、助動詞或情態動詞的否定形式開始。"
+  },
+  "rules": [
+    {
+      "id": "ss86-rule-01",
+      "zh": "把否定助動詞放在主語前面。",
+      "en": "Put the negative auxiliary before the subject.",
+      "enSource": "pdf",
+      "examples": [
+        "Statement: It isn’t ready. Question: Isn’t it ready?",
+        "Statement: They don’t agree. Question: Don’t they agree?"
+      ]
+    },
+    {
+      "id": "ss86-rule-02",
+      "zh": "在 don’t、doesn’t、didn’t 及情態動詞後面，主要動詞使用原形。",
+      "en": "Use the base verb after do and modal verbs.",
+      "enSource": "pdf",
+      "examples": [
+        "Incorrect: Doesn’t she lives here?",
+        "Correct: Doesn’t she live here?",
+        "Incorrect: Didn’t they took the bus?",
+        "Correct: Didn’t they take the bus?"
+      ]
+    },
+    {
+      "id": "ss86-rule-03",
+      "zh": "在 hasn’t、haven’t、hadn’t 後面，使用過去分詞。",
+      "en": "Use a past participle after have.",
+      "enSource": "pdf",
+      "examples": [
+        "Incorrect: Hasn’t he finish the work?",
+        "Correct: Hasn’t he finished the work?"
+      ]
+    },
+    {
+      "id": "ss86-rule-04",
+      "zh": "表示某處「不是有……嗎」時，單數名詞使用 Isn’t there，複數名詞使用 Aren’t there。",
+      "en": "Use Isn’t there or Aren’t there for existence.",
+      "enSource": "pdf",
+      "examples": [
+        "Isn’t there a bank nearby?",
+        "Aren’t there enough chairs?"
+      ]
+    },
+    {
+      "id": "ss86-rule-05",
+      "zh": "否定疑問句經常顯示說話者的預期。說話者可能已經預期答案是「是」，並希望對方確認或同意。",
+      "en": "Negative questions often show an expectation. The speaker may already expect the answer to be yes and want the listener to confirm or agree.",
+      "enSource": "pdf",
+      "examples": [
+        "Isn’t this the correct address?"
+      ]
+    },
+    {
+      "id": "ss86-rule-06",
+      "zh": "回答否定疑問句時，要根據事實回答，而不是只看問題中有沒有 not。",
+      "en": "Answer a negative question according to the fact, not merely according to whether the question contains not.",
+      "enSource": "pdf",
+      "examples": [
+        "Isn’t the shop open? Yes, it is. / No, it isn’t."
+      ]
+    },
+    {
+      "id": "ss86-rule-07",
+      "zh": "否定疑問句與附加問句不同。附加問句把短問句放在句尾；完整的否定疑問句把否定助動詞放在句首。兩者都可要求確認，但否定疑問句通常更直接地表達預期、驚訝、提醒或質疑。",
+      "en": "A negative question is different from a tag question. A tag question places a short question at the end, while a complete negative question begins with the negative auxiliary. Both can request confirmation, but a negative question often expresses expectation, surprise, a reminder or a challenge more directly.",
+      "enSource": "pdf-plus-editorial-translation",
+      "examples": [
+        "Tag question: The room is ready, isn’t it?",
+        "Negative question: Isn’t the room ready?"
+      ]
+    },
+    {
+      "id": "ss86-rule-08",
+      "zh": "否定疑問句可以表示友善建議，也可以表示不滿或批評；說話時應注意語氣。",
+      "en": "Pay attention to tone. A negative question can express a friendly suggestion, dissatisfaction or criticism.",
+      "enSource": "pdf-plus-editorial-translation",
+      "examples": [
+        "Friendly suggestion: Wouldn’t it be better to ask for help?",
+        "Possible criticism: Haven’t you finished the work yet?"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss86-benefit-01",
+      "zh": "幫助確認你已經預期的事情。當你認為某件事很可能是真的，否定疑問句可以幫助你要求對方確認。",
+      "en": "It helps you check what you already expect. When you believe something is probably true, a negative question lets you ask another person to confirm it.",
+      "enSource": "pdf",
+      "examples": [
+        "Isn’t the meeting at three?"
+      ]
+    },
+    {
+      "id": "ss86-benefit-02",
+      "zh": "幫助邀請對方認同。當你希望對方考慮並認同你的看法時，可以使用否定疑問句；把看法變成問題也讓對方參與討論。",
+      "en": "It helps you invite agreement. You can use a negative question when you want the listener to consider and agree with your opinion.",
+      "enSource": "pdf",
+      "examples": [
+        "Statement: It would be better to leave early.",
+        "Question: Wouldn’t it be better to leave early?"
+      ]
+    },
+    {
+      "id": "ss86-benefit-03",
+      "zh": "幫助表達驚訝。當實際情況與你的預期不同時，否定疑問句可以自然地表達驚訝。",
+      "en": "It helps you express surprise. A negative question can show that the situation is different from what you expected.",
+      "enSource": "pdf",
+      "examples": [
+        "Hasn’t the bus arrived yet?"
+      ]
+    },
+    {
+      "id": "ss86-benefit-04",
+      "zh": "幫助清楚提出疑慮。否定疑問句可以把注意力帶到一個可能被忽略的問題上，在討論、會議、辯論及意見寫作中特別實用。",
+      "en": "It helps you raise a concern clearly. Negative questions can draw attention to a problem that people may have overlooked.",
+      "enSource": "pdf",
+      "examples": [
+        "Aren’t we forgetting the main issue?"
+      ]
+    },
+    {
+      "id": "ss86-benefit-05",
+      "zh": "提供自然的建議方式。你不一定要直接命令別人，也可以把建議變成問題，讓對方考慮。",
+      "en": "It gives you a natural way to make suggestions. Instead of giving a direct command, you can present an idea as a question for the listener to consider.",
+      "enSource": "pdf",
+      "examples": [
+        "Shouldn’t we check the information first?"
+      ]
+    },
+    {
+      "id": "ss86-benefit-06",
+      "zh": "令問句不會過分重複。掌握不同的否定疑問句，可以讓你以更多方式要求確認、表達驚訝及發展論點。",
+      "en": "It makes questions less repetitive. Learning different negative question forms gives you more ways to ask for confirmation, express surprise and develop an argument.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [
+    "The source formula examples on page 1 do not all include Chinese translations; faithful Traditional Chinese translations were supplied for the additional displayed examples."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each statement or tag question as a negative question.",
+      "Preserve the original meaning, tense and intended attitude.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把每句陳述句或附加問句改寫成否定疑問句。",
+      "保留原意、時態及說話者的語氣。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss86-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This seat is free, isn’t it?",
+      "promptZh": "這個座位是空的，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t this seat free?",
+      "answerZh": "這個座位不是空的嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t this seat free?"
+    },
+    {
+      "id": "ss86-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Surely you are tired after the long walk.",
+      "promptZh": "走了這麼久，你一定累了吧。",
+      "promptZhSource": "pdf",
+      "starter": "Aren’t",
+      "answer": "Aren’t you tired after the long walk?",
+      "answerZh": "走了這麼久，你不是累了嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Aren’t you tired after the long walk?"
+    },
+    {
+      "id": "ss86-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The soup is hot enough, isn’t it?",
+      "promptZh": "這碗湯夠熱，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t the soup hot enough?",
+      "answerZh": "這碗湯不是夠熱嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t the soup hot enough?"
+    },
+    {
+      "id": "ss86-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As far as I can tell, these keys are yours.",
+      "promptZh": "據我所見，這些鑰匙是你的。",
+      "promptZhSource": "pdf",
+      "starter": "Aren’t",
+      "answer": "Aren’t these keys yours?",
+      "answerZh": "這些鑰匙不是你的嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Aren’t these keys yours?"
+    },
+    {
+      "id": "ss86-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "As far as I know, Mia lives near the station.",
+      "promptZh": "據我所知，米婭住在車站附近。",
+      "promptZhSource": "pdf",
+      "starter": "Doesn’t",
+      "answer": "Doesn’t Mia live near the station?",
+      "answerZh": "米婭不是住在車站附近嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Doesn’t Mia live near the station?"
+    },
+    {
+      "id": "ss86-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We need more time. Everyone agrees on that.",
+      "promptZh": "我們需要更多時間。大家都同意這一點。",
+      "promptZhSource": "pdf",
+      "starter": "Don’t",
+      "answer": "Don’t we need more time?",
+      "answerZh": "我們不是需要更多時間嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Don’t we need more time?"
+    },
+    {
+      "id": "ss86-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This button is supposed to open the door.",
+      "promptZh": "這個按鈕應該是用來開門的。",
+      "promptZhSource": "pdf",
+      "starter": "Doesn’t",
+      "answer": "Doesn’t this button open the door?",
+      "answerZh": "這個按鈕不是用來開門的嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Doesn’t this button open the door?"
+    },
+    {
+      "id": "ss86-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The students practise here every Friday, don’t they?",
+      "promptZh": "學生逢星期五都在這裏練習，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Don’t",
+      "answer": "Don’t the students practise here every Friday?",
+      "answerZh": "學生不是逢星期五都在這裏練習嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Don’t the students practise here every Friday?"
+    },
+    {
+      "id": "ss86-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I remember that there is a bank near the market.",
+      "promptZh": "我記得市場附近有一間銀行。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t there a bank near the market?",
+      "answerZh": "市場附近不是有一間銀行嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t there a bank near the market?"
+    },
+    {
+      "id": "ss86-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Surely there are enough chairs for everyone.",
+      "promptZh": "想必有足夠的椅子給每個人坐吧。",
+      "promptZhSource": "pdf",
+      "starter": "Aren’t",
+      "answer": "Aren’t there enough chairs for everyone?",
+      "answerZh": "不是有足夠的椅子給每個人坐嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Aren’t there enough chairs for everyone?"
+    },
+    {
+      "id": "ss86-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel was at the meeting yesterday, wasn’t he?",
+      "promptZh": "丹尼爾昨天有出席會議，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Wasn’t",
+      "answer": "Wasn’t Daniel at the meeting yesterday?",
+      "answerZh": "丹尼爾昨天不是出席了會議嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wasn’t Daniel at the meeting yesterday?"
+    },
+    {
+      "id": "ss86-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I thought the lights were on when you arrived.",
+      "promptZh": "我原以為你到達時燈是亮着的。",
+      "promptZhSource": "pdf",
+      "starter": "Weren’t",
+      "answer": "Weren’t the lights on when you arrived?",
+      "answerZh": "你到達時，燈不是亮着嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Weren’t the lights on when you arrived?"
+    },
+    {
+      "id": "ss86-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy sent the file this morning, didn’t she?",
+      "promptZh": "艾米今天早上傳送了檔案，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Didn’t",
+      "answer": "Didn’t Amy send the file this morning?",
+      "answerZh": "艾米今天早上不是傳送了檔案嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Didn’t Amy send the file this morning?"
+    },
+    {
+      "id": "ss86-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As far as I know, they took the earlier train.",
+      "promptZh": "據我所知，他們乘搭了較早的一班火車。",
+      "promptZhSource": "pdf",
+      "starter": "Didn’t",
+      "answer": "Didn’t they take the earlier train?",
+      "answerZh": "他們不是乘搭了較早的一班火車嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Didn’t they take the earlier train?"
+    },
+    {
+      "id": "ss86-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Surely you can hear the alarm.",
+      "promptZh": "你一定聽到警報聲吧。",
+      "promptZhSource": "pdf",
+      "starter": "Can’t",
+      "answer": "Can’t you hear the alarm?",
+      "answerZh": "你不是聽到警報聲嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can’t you hear the alarm?"
+    },
+    {
+      "id": "ss86-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We could use the smaller room, couldn’t we?",
+      "promptZh": "我們可以使用較小的房間，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Couldn’t",
+      "answer": "Couldn’t we use the smaller room?",
+      "answerZh": "我們不是可以使用較小的房間嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Couldn’t we use the smaller room?"
+    },
+    {
+      "id": "ss86-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It would be sensible for you to check the address again.",
+      "promptZh": "你再核對一次地址會比較明智。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t you check the address again?",
+      "answerZh": "你不是應該再核對一次地址嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t you check the address again?"
+    },
+    {
+      "id": "ss86-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It would be better to leave before rush hour, wouldn’t it?",
+      "promptZh": "在繁忙時間前離開會比較好，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Wouldn’t",
+      "answer": "Wouldn’t it be better to leave before rush hour?",
+      "answerZh": "在繁忙時間前離開，不是會更好嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wouldn’t it be better to leave before rush hour?"
+    },
+    {
+      "id": "ss86-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop will be open tomorrow, won’t it?",
+      "promptZh": "這間商店明天會營業，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Won’t",
+      "answer": "Won’t the shop be open tomorrow?",
+      "answerZh": "這間商店明天不是會營業嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Won’t the shop be open tomorrow?"
+    },
+    {
+      "id": "ss86-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Surely the answer is on the last page.",
+      "promptZh": "答案肯定在最後一頁吧。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t the answer on the last page?",
+      "answerZh": "答案不是在最後一頁嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t the answer on the last page?"
+    },
+    {
+      "id": "ss86-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo still has not finished his homework. That is surprising.",
+      "promptZh": "里奧仍未完成家課。這令人意外。",
+      "promptZhSource": "pdf",
+      "starter": "Hasn’t",
+      "answer": "Hasn’t Leo finished his homework yet?",
+      "answerZh": "里奧還沒有完成家課嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Hasn’t Leo finished his homework yet?"
+    },
+    {
+      "id": "ss86-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You have seen this film before, haven’t you?",
+      "promptZh": "你以前看過這部電影，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Haven’t",
+      "answer": "Haven’t you seen this film before?",
+      "answerZh": "你以前不是看過這部電影嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Haven’t you seen this film before?"
+    },
+    {
+      "id": "ss86-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is surprising that the bus has not arrived yet.",
+      "promptZh": "巴士還未到，實在令人意外。",
+      "promptZhSource": "pdf",
+      "starter": "Hasn’t",
+      "answer": "Hasn’t the bus arrived yet?",
+      "answerZh": "巴士還沒有到嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Hasn’t the bus arrived yet?"
+    },
+    {
+      "id": "ss86-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I thought they had agreed on the price before the call.",
+      "promptZh": "我原以為他們在通話前已經就價錢達成協議。",
+      "promptZhSource": "pdf",
+      "starter": "Hadn’t",
+      "answer": "Hadn’t they agreed on the price before the call?",
+      "answerZh": "他們在通話前不是已經就價錢達成協議嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Hadn’t they agreed on the price before the call?"
+    },
+    {
+      "id": "ss86-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "As far as I know, Grace is going to join us later.",
+      "promptZh": "據我所知，格蕾絲稍後會加入我們。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t Grace going to join us later?",
+      "answerZh": "格蕾絲不是稍後會加入我們嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t Grace going to join us later?"
+    },
+    {
+      "id": "ss86-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children are waiting outside, aren’t they?",
+      "promptZh": "孩子們正在外面等候，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Aren’t",
+      "answer": "Aren’t the children waiting outside?",
+      "answerZh": "孩子們不是正在外面等候嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Aren’t the children waiting outside?"
+    },
+    {
+      "id": "ss86-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I thought the road was being repaired last week.",
+      "promptZh": "我原以為上星期這條路正在維修。",
+      "promptZhSource": "pdf",
+      "starter": "Wasn’t",
+      "answer": "Wasn’t the road being repaired last week?",
+      "answerZh": "上星期這條路不是正在維修嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wasn’t the road being repaired last week?"
+    },
+    {
+      "id": "ss86-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Surely this report is supposed to be confidential.",
+      "promptZh": "這份報告理應要保密吧。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t this report supposed to be confidential?",
+      "answerZh": "這份報告不是應該保密嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t this report supposed to be confidential?"
+    },
+    {
+      "id": "ss86-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine can be repaired today, can’t it?",
+      "promptZh": "這部機器今天可以修好，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Can’t",
+      "answer": "Can’t the machine be repaired today?",
+      "answerZh": "這部機器今天不是可以修好嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can’t the machine be repaired today?"
+    },
+    {
+      "id": "ss86-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It seems that the instructions should be clearer.",
+      "promptZh": "看來指示應該更清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t the instructions be clearer?",
+      "answerZh": "指示不是應該更清楚嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t the instructions be clearer?"
+    },
+    {
+      "id": "ss86-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It seems safer to wait, doesn’t it?",
+      "promptZh": "看來等一等比較安全，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Doesn’t",
+      "answer": "Doesn’t it seem safer to wait?",
+      "answerZh": "等一等看起來不是比較安全嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Doesn’t it seem safer to wait?"
+    },
+    {
+      "id": "ss86-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It is strange that nobody called.",
+      "promptZh": "沒有人致電，這很奇怪。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t it strange that nobody called?",
+      "answerZh": "沒有人致電，不是很奇怪嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t it strange that nobody called?"
+    },
+    {
+      "id": "ss86-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You would rather sit by the window, wouldn’t you?",
+      "promptZh": "你寧願坐在窗邊，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Wouldn’t",
+      "answer": "Wouldn’t you rather sit by the window?",
+      "answerZh": "你不是寧願坐在窗邊嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wouldn’t you rather sit by the window?"
+    },
+    {
+      "id": "ss86-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher could explain it once more, couldn’t she?",
+      "promptZh": "老師可以再解釋一次，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Couldn’t",
+      "answer": "Couldn’t the teacher explain it once more?",
+      "answerZh": "老師不是可以再解釋一次嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Couldn’t the teacher explain it once more?"
+    },
+    {
+      "id": "ss86-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I thought we agreed to meet at three.",
+      "promptZh": "我原以為我們約定了三點見面。",
+      "promptZhSource": "pdf",
+      "starter": "Didn’t",
+      "answer": "Didn’t we agree to meet at three?",
+      "answerZh": "我們不是約定了三點見面嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Didn’t we agree to meet at three?"
+    },
+    {
+      "id": "ss86-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I have already answered that question, haven’t I?",
+      "promptZh": "我已經回答過那個問題，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Haven’t",
+      "answer": "Haven’t I already answered that question?",
+      "answerZh": "我不是已經回答過那個問題嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Haven’t I already answered that question?"
+    },
+    {
+      "id": "ss86-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As far as I can see, your phone is still charging.",
+      "promptZh": "據我所見，你的電話仍在充電。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t your phone still charging?",
+      "answerZh": "你的電話不是仍在充電嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t your phone still charging?"
+    },
+    {
+      "id": "ss86-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Surely this change will affect the whole team.",
+      "promptZh": "這項改變肯定會影響整個團隊。",
+      "promptZhSource": "pdf",
+      "starter": "Won’t",
+      "answer": "Won’t this change affect the whole team?",
+      "answerZh": "這項改變不是會影響整個團隊嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Won’t this change affect the whole team?"
+    },
+    {
+      "id": "ss86-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It seems that we are forgetting the main problem.",
+      "promptZh": "看來我們正在忽略主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "Aren’t",
+      "answer": "Aren’t we forgetting the main problem?",
+      "answerZh": "我們不是正在忽略主要問題嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Aren’t we forgetting the main problem?"
+    },
+    {
+      "id": "ss86-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Everyone should have a chance to speak. Surely we agree.",
+      "promptZh": "每個人都應該有機會發言。這一點大家應該同意。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t everyone have a chance to speak?",
+      "answerZh": "每個人不是都應該有機會發言嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t everyone have a chance to speak?"
+    },
+    {
+      "id": "ss86-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is more sensible to compare the prices before buying anything, isn’t it?",
+      "promptZh": "購買任何東西前先比較價錢會更明智，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t it more sensible to compare the prices before buying anything?",
+      "answerZh": "購買任何東西前先比較價錢，不是更明智嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t it more sensible to compare the prices before buying anything?"
+    },
+    {
+      "id": "ss86-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The evidence clearly suggests that the first explanation is incomplete.",
+      "promptZh": "證據清楚顯示第一個解釋並不完整。",
+      "promptZhSource": "pdf",
+      "starter": "Doesn’t",
+      "answer": "Doesn’t the evidence suggest that the first explanation is incomplete?",
+      "answerZh": "證據不是顯示第一個解釋並不完整嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Doesn’t the evidence suggest that the first explanation is incomplete?"
+    },
+    {
+      "id": "ss86-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The organisers have given us enough time to prepare, haven’t they?",
+      "promptZh": "主辦方已經給了我們足夠時間準備，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Haven’t",
+      "answer": "Haven’t the organisers given us enough time to prepare?",
+      "answerZh": "主辦方不是已經給了我們足夠時間準備嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Haven’t the organisers given us enough time to prepare?"
+    },
+    {
+      "id": "ss86-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As I understand it, the new system was introduced to reduce waiting times.",
+      "promptZh": "據我理解，新制度是為了縮短輪候時間而推出的。",
+      "promptZhSource": "pdf",
+      "starter": "Wasn’t",
+      "answer": "Wasn’t the new system introduced to reduce waiting times?",
+      "answerZh": "新制度不是為了縮短輪候時間而推出的嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wasn’t the new system introduced to reduce waiting times?"
+    },
+    {
+      "id": "ss86-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This decision could do more harm than good, couldn’t it?",
+      "promptZh": "這個決定可能弊多於利，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Couldn’t",
+      "answer": "Couldn’t this decision do more harm than good?",
+      "answerZh": "這個決定不是可能弊多於利嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Couldn’t this decision do more harm than good?"
+    },
+    {
+      "id": "ss86-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is only fair for the school to inform parents before changing the timetable.",
+      "promptZh": "學校在更改時間表前通知家長才是公平的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t the school inform parents before changing the timetable?",
+      "answerZh": "學校在更改時間表前，不是應該通知家長嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t the school inform parents before changing the timetable?"
+    },
+    {
+      "id": "ss86-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It would be fairer to hear both sides before making a judgement, wouldn’t it?",
+      "promptZh": "作出判斷前先聽取雙方說法會更公平，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Wouldn’t",
+      "answer": "Wouldn’t it be fairer to hear both sides before making a judgement?",
+      "answerZh": "作出判斷前先聽取雙方說法，不是更公平嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wouldn’t it be fairer to hear both sides before making a judgement?"
+    },
+    {
+      "id": "ss86-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As I understand it, the company has promised to explain how the data will be used.",
+      "promptZh": "據我理解，公司已承諾解釋將如何使用這些資料。",
+      "promptZhSource": "pdf",
+      "starter": "Hasn’t",
+      "answer": "Hasn’t the company promised to explain how the data will be used?",
+      "answerZh": "公司不是已承諾解釋將如何使用這些資料嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Hasn’t the company promised to explain how the data will be used?"
+    },
+    {
+      "id": "ss86-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Surely there is a simpler way to solve this problem without wasting resources.",
+      "promptZh": "想必有一個更簡單、又不會浪費資源的方法來解決這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t there a simpler way to solve this problem without wasting resources?",
+      "answerZh": "不是有一個更簡單、又不會浪費資源的方法來解決這個問題嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t there a simpler way to solve this problem without wasting resources?"
+    },
+    {
+      "id": "ss86-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have a responsibility to check whether the information is accurate before sharing it, don’t we?",
+      "promptZh": "分享資料前，我們有責任核實資料是否準確，對嗎？",
+      "promptZhSource": "pdf",
+      "starter": "Don’t",
+      "answer": "Don’t we have a responsibility to check whether the information is accurate before sharing it?",
+      "answerZh": "分享資料前，我們不是有責任核實資料是否準確嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Don’t we have a responsibility to check whether the information is accurate before sharing it?"
+    }
+  ]
+}

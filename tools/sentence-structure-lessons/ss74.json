@@ -1,0 +1,1164 @@
+{
+  "id": "ss74",
+  "order": 74,
+  "slug": "sentence-structure-74",
+  "title": "「Let alone」句型",
+  "titleZh": "「Let alone」句",
+  "titleEn": "Using Let alone to introduce a more difficult or extreme idea",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 74 -「Let alone 句」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + negative or limiting statement about X, let alone + a more difficult, unlikely or extreme Y",
+  "formulas": [
+    {
+      "id": "ss74-formula-main",
+      "labelZh": "主要句式",
+      "labelEn": "Main pattern",
+      "formula": "Subject + negative or limiting statement about X, let alone + a more difficult, unlikely or extreme Y"
+    },
+    {
+      "id": "ss74-formula-cannot",
+      "labelZh": "以 cannot 表達限制",
+      "labelEn": "Limitation with cannot",
+      "formula": "Subject + cannot + X, let alone + Y"
+    },
+    {
+      "id": "ss74-formula-already",
+      "labelZh": "以 already 表達第一項已很難得",
+      "labelEn": "An already statement",
+      "formula": "X is already difficult or surprising, let alone + Y"
+    }
+  ],
+  "example": "Going to high school was already a blessing for me, let alone going to college.",
+  "exampleZh": "對我來說，能夠上高中已經是一種福氣，更不用說上大學了。",
+  "examples": [
+    {
+      "id": "ss74-example-main",
+      "en": "Going to high school was already a blessing for me, let alone going to college.",
+      "zh": "對我來說，能夠上高中已經是一種福氣，更不用說上大學了。",
+      "highlight": "let alone going to college"
+    },
+    {
+      "id": "ss74-example-negative",
+      "en": "He cannot cook a simple meal, let alone prepare a three-course dinner.",
+      "zh": "他連簡單的一餐也不會煮，更不用說準備三道菜的晚餐。",
+      "highlight": "let alone prepare a three-course dinner"
+    }
+  ],
+  "meaning": {
+    "zh": "Let alone 把較基本或較容易的意思放在前面，再引出更困難、更不可能或程度更高的意思。"
+  },
+  "rules": [
+    {
+      "id": "ss74-rule-01",
+      "zh": "把較容易、程度較低或較基本的事情放在 let alone 前面。",
+      "en": "Put the less extreme, easier or more basic idea first."
+    },
+    {
+      "id": "ss74-rule-02",
+      "zh": "Let alone 最常用於 cannot、do not、have never、barely、hardly 等否定或限制性說法之後。",
+      "en": "Let alone commonly follows a negative or limiting idea."
+    },
+    {
+      "id": "ss74-rule-03",
+      "zh": "當第一項成就或情況本身已經令人意外、難得或困難時，也可以在正面 already 說法後使用 let alone。",
+      "en": "It can also follow an already statement when the first achievement is itself surprising or difficult."
+    },
+    {
+      "id": "ss74-rule-04",
+      "zh": "兩邊盡量使用相同的文法形式。",
+      "en": "Keep the two parts grammatically parallel whenever possible."
+    },
+    {
+      "id": "ss74-rule-05",
+      "zh": "意思清楚時，可以省略重複的字詞。",
+      "en": "Repeated words may be omitted when the meaning remains clear."
+    },
+    {
+      "id": "ss74-rule-06",
+      "zh": "在 let alone 前使用逗號。",
+      "en": "Use a comma before let alone."
+    },
+    {
+      "id": "ss74-rule-07",
+      "zh": "Let alone 強調第二項更困難、更不可能或更極端；not to mention 主要補充另一項相關資料。",
+      "en": "Let alone presents a clear scale; not to mention mainly adds another relevant point."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss74-benefit-01",
+      "zh": "這個句型能讓讀者立即明白，第二件事情比第一件事情更困難、更不可能或程度更高。",
+      "en": "It shows the difference in degree clearly."
+    },
+    {
+      "id": "ss74-benefit-02",
+      "zh": "它把較基本的情況和程度更高的情況連接起來，不需要分成兩句。",
+      "en": "It combines two related ideas in one sentence."
+    },
+    {
+      "id": "ss74-benefit-03",
+      "zh": "它可以自然地加強語氣，突出第二件事情有多麼困難、不切實際或令人意外。",
+      "en": "It adds strong but natural emphasis."
+    },
+    {
+      "id": "ss74-benefit-04",
+      "zh": "它能清楚說明某人缺乏足夠的時間、金錢、經驗、信心、體力或能力。",
+      "en": "It helps explain limitations involving time, money, experience, confidence, strength or ability."
+    },
+    {
+      "id": "ss74-benefit-05",
+      "zh": "它能減少重複使用 It is even more difficult to 等較長說法。",
+      "en": "It reduces repetitive explanations."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using let alone.",
+      "Place the less difficult, less extreme or more basic idea before let alone, and place the more difficult or extreme idea after it.",
+      "Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 let alone 改寫以下句子。",
+      "把較容易、程度較低或較基本的事情放在 let alone 前面，並把更困難或程度更高的事情放在後面。",
+      "改寫時必須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss74-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I cannot boil an egg. Cooking a full dinner is far beyond me.",
+      "promptZh": "我連雞蛋也不會煮。要我煮一頓完整的晚餐就更加不可能。",
+      "starter": "I",
+      "answer": "I cannot boil an egg, let alone cook a full dinner.",
+      "answerZh": "我連雞蛋也不會煮，更不用說煮一頓完整的晚餐。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot boil an egg, let alone cook a full dinner."
+    },
+    {
+      "id": "ss74-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia cannot lift this small box. The heavy suitcase is even more difficult for her.",
+      "promptZh": "米婭連這個小箱子也搬不起。那個沉重的行李箱對她來說就更加困難。",
+      "starter": "Mia",
+      "answer": "Mia cannot lift this small box, let alone the heavy suitcase.",
+      "answerZh": "米婭連這個小箱子也搬不起，更不用說那個沉重的行李箱。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia cannot lift this small box, let alone the heavy suitcase."
+    },
+    {
+      "id": "ss74-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben has never travelled outside Hong Kong. Living abroad is even further from his experience.",
+      "promptZh": "本從未離開香港旅行。在外國生活對他來說就更加遙不可及。",
+      "starter": "Ben",
+      "answer": "Ben has never travelled outside Hong Kong, let alone lived abroad.",
+      "answerZh": "本從未離開香港旅行，更不用說在外國生活。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben has never travelled outside Hong Kong, let alone lived abroad."
+    },
+    {
+      "id": "ss74-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The child cannot spell his own name. Writing a full sentence is impossible for him.",
+      "promptZh": "這個孩子連自己的名字也不會拼寫。要他寫出完整句子是不可能的。",
+      "starter": "The",
+      "answer": "The child cannot spell his own name, let alone write a full sentence.",
+      "answerZh": "這個孩子連自己的名字也不會拼寫，更不用說寫完整句子。",
+      "answerZhSource": "pdf",
+      "highlight": "The child cannot spell his own name, let alone write a full sentence."
+    },
+    {
+      "id": "ss74-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We cannot afford a new sofa. Renovating the whole flat is completely out of the question.",
+      "promptZh": "我們連一張新梳化也買不起。翻新整個單位就更加不用考慮。",
+      "starter": "We",
+      "answer": "We cannot afford a new sofa, let alone renovate the whole flat.",
+      "answerZh": "我們連一張新梳化也買不起，更不用說翻新整個單位。",
+      "answerZhSource": "pdf",
+      "highlight": "We cannot afford a new sofa, let alone renovate the whole flat."
+    },
+    {
+      "id": "ss74-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ava barely has time to eat breakfast. She certainly has no time to prepare a packed lunch.",
+      "promptZh": "艾娃連吃早餐的時間也幾乎沒有。她當然沒有時間準備飯盒。",
+      "starter": "Ava",
+      "answer": "Ava barely has time to eat breakfast, let alone prepare a packed lunch.",
+      "answerZh": "艾娃連吃早餐的時間也幾乎沒有，更不用說準備飯盒。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava barely has time to eat breakfast, let alone prepare a packed lunch."
+    },
+    {
+      "id": "ss74-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This old phone cannot open the app. It has no chance of running the latest game.",
+      "promptZh": "這部舊電話連這個應用程式也開不到。它根本不可能運行最新的遊戲。",
+      "starter": "This",
+      "answer": "This old phone cannot open the app, let alone run the latest game.",
+      "answerZh": "這部舊電話連這個應用程式也開不到，更不用說運行最新的遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "This old phone cannot open the app, let alone run the latest game."
+    },
+    {
+      "id": "ss74-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo does not understand the first question. The final one is much harder.",
+      "promptZh": "里奧連第一條問題也不明白。最後一條就更加困難。",
+      "starter": "Leo",
+      "answer": "Leo does not understand the first question, let alone the final one.",
+      "answerZh": "里奧連第一條問題也不明白，更不用說最後一條。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo does not understand the first question, let alone the final one."
+    },
+    {
+      "id": "ss74-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Reaching the final was already a surprise. Winning the championship was beyond everyone’s expectations.",
+      "promptZh": "能夠打入決賽已經令人意外。贏得冠軍更是超出所有人的預期。",
+      "starter": "Reaching",
+      "answer": "Reaching the final was already a surprise, let alone winning the championship.",
+      "answerZh": "能夠打入決賽已經令人意外，更不用說贏得冠軍。",
+      "answerZhSource": "pdf",
+      "highlight": "Reaching the final was already a surprise, let alone winning the championship."
+    },
+    {
+      "id": "ss74-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah is too nervous to greet the audience. Giving a speech is impossible for her.",
+      "promptZh": "莎拉緊張得連向觀眾打招呼也做不到。要她發表演說是不可能的。",
+      "starter": "Sarah",
+      "answer": "Sarah is too nervous to greet the audience, let alone give a speech.",
+      "answerZh": "莎拉緊張得連向觀眾打招呼也做不到，更不用說發表演說。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah is too nervous to greet the audience, let alone give a speech."
+    },
+    {
+      "id": "ss74-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My brother is not confident enough to drive on quiet roads. Driving in heavy traffic is even more difficult for him.",
+      "promptZh": "我弟弟連在寧靜道路上駕駛也沒有足夠信心。在繁忙交通中駕駛對他來說就更加困難。",
+      "starter": "My",
+      "answer": "My brother is not confident enough to drive on quiet roads, let alone in heavy traffic.",
+      "answerZh": "我弟弟連在寧靜道路上駕駛也沒有足夠信心，更不用說在繁忙交通中駕駛。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother is not confident enough to drive on quiet roads, let alone in heavy traffic."
+    },
+    {
+      "id": "ss74-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The students can barely finish one page. Completing the whole chapter is not realistic.",
+      "promptZh": "學生連一頁也幾乎完成不到。要他們完成整個章節並不實際。",
+      "starter": "The",
+      "answer": "The students can barely finish one page, let alone the whole chapter.",
+      "answerZh": "學生連一頁也幾乎完成不到，更不用說整個章節。",
+      "answerZhSource": "pdf",
+      "highlight": "The students can barely finish one page, let alone the whole chapter."
+    },
+    {
+      "id": "ss74-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The restaurant cannot serve twenty guests at the same time. A group of one hundred is far beyond its capacity.",
+      "promptZh": "這間餐廳無法同時招待二十位客人。一百人的團體遠遠超出它的接待能力。",
+      "starter": "The",
+      "answer": "The restaurant cannot serve twenty guests at the same time, let alone a group of one hundred.",
+      "answerZh": "這間餐廳連二十位客人也無法同時招待，更不用說一百人的團體。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant cannot serve twenty guests at the same time, let alone a group of one hundred."
+    },
+    {
+      "id": "ss74-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel has never used a basic camera. A professional one is even further beyond his experience.",
+      "promptZh": "丹尼爾從未使用過基本相機。專業相機就更超出他的經驗範圍。",
+      "starter": "Daniel",
+      "answer": "Daniel has never used a basic camera, let alone a professional one.",
+      "answerZh": "丹尼爾從未使用過基本相機，更不用說專業相機。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel has never used a basic camera, let alone a professional one."
+    },
+    {
+      "id": "ss74-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We do not have enough chairs for the class. There are certainly none available for the parents.",
+      "promptZh": "我們連供學生使用的椅子也不夠。當然更沒有椅子供家長使用。",
+      "starter": "We",
+      "answer": "We do not have enough chairs for the class, let alone the parents.",
+      "answerZh": "我們連供學生使用的椅子也不夠，更不用說供家長使用的椅子。",
+      "answerZhSource": "pdf",
+      "highlight": "We do not have enough chairs for the class, let alone the parents."
+    },
+    {
+      "id": "ss74-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The village has no clinic. It certainly has no large hospital.",
+      "promptZh": "這條村連診所也沒有。它當然更加沒有大型醫院。",
+      "starter": "The",
+      "answer": "The village has no clinic, let alone a large hospital.",
+      "answerZh": "這條村連診所也沒有，更不用說大型醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "The village has no clinic, let alone a large hospital."
+    },
+    {
+      "id": "ss74-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Chloe could hardly walk after the race. Climbing the stairs was impossible for her.",
+      "promptZh": "克洛伊在比賽後幾乎連路也走不到。要她走上樓梯是不可能的。",
+      "starter": "Chloe",
+      "answer": "Chloe could hardly walk after the race, let alone climb the stairs.",
+      "answerZh": "克洛伊在比賽後幾乎連路也走不到，更不用說走上樓梯。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe could hardly walk after the race, let alone climb the stairs."
+    },
+    {
+      "id": "ss74-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop does not offer local delivery. International shipping is completely unavailable.",
+      "promptZh": "這間商店不提供本地送貨服務。國際付運服務就更加完全沒有。",
+      "starter": "The",
+      "answer": "The shop does not offer local delivery, let alone international shipping.",
+      "answerZh": "這間商店連本地送貨服務也不提供，更不用說國際付運服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop does not offer local delivery, let alone international shipping."
+    },
+    {
+      "id": "ss74-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ethan cannot remember my name. Remembering my phone number is even less likely.",
+      "promptZh": "伊森連我的名字也記不起來。他就更加不可能記得我的電話號碼。",
+      "starter": "Ethan",
+      "answer": "Ethan cannot remember my name, let alone my phone number.",
+      "answerZh": "伊森連我的名字也記不起來，更不用說我的電話號碼。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan cannot remember my name, let alone my phone number."
+    },
+    {
+      "id": "ss74-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Finding one volunteer would already be encouraging. Finding fifty would be extraordinary.",
+      "promptZh": "找到一名義工已經令人鼓舞。找到五十名義工就更是非常難得。",
+      "starter": "Finding",
+      "answer": "Finding one volunteer would already be encouraging, let alone finding fifty.",
+      "answerZh": "找到一名義工已經令人鼓舞，更不用說找到五十名義工。",
+      "answerZhSource": "pdf",
+      "highlight": "Finding one volunteer would already be encouraging, let alone finding fifty."
+    },
+    {
+      "id": "ss74-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I would not lend him ten dollars. Giving him my credit card is unthinkable.",
+      "promptZh": "我連十元也不會借給他。把信用卡交給他就更加不可能。",
+      "starter": "I",
+      "answer": "I would not lend him ten dollars, let alone my credit card.",
+      "answerZh": "我連十元也不會借給他，更不用說把信用卡交給他。",
+      "answerZhSource": "pdf",
+      "highlight": "I would not lend him ten dollars, let alone my credit card."
+    },
+    {
+      "id": "ss74-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company is unable to meet this week’s orders. Accepting new ones is out of the question.",
+      "promptZh": "公司無法完成本星期的訂單。接受新訂單就更加不用考慮。",
+      "starter": "The",
+      "answer": "The company cannot meet this week’s orders, let alone accept new ones.",
+      "answerZh": "公司連本星期的訂單也無法完成，更不用說接受新訂單。",
+      "answerZhSource": "pdf",
+      "highlight": "The company cannot meet this week’s orders, let alone accept new ones."
+    },
+    {
+      "id": "ss74-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The small boat cannot safely cross the harbour. Sailing across the ocean is impossible.",
+      "promptZh": "這艘小船連安全橫越海港也做不到。要它橫渡海洋是不可能的。",
+      "starter": "The",
+      "answer": "The small boat cannot safely cross the harbour, let alone sail across the ocean.",
+      "answerZh": "這艘小船連安全橫越海港也做不到，更不用說橫渡海洋。",
+      "answerZhSource": "pdf",
+      "highlight": "The small boat cannot safely cross the harbour, let alone sail across the ocean."
+    },
+    {
+      "id": "ss74-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The patient is not strong enough to stand without help. Walking home is even less possible.",
+      "promptZh": "病人的體力不足以在沒有協助下站立。要他步行回家就更加不可能。",
+      "starter": "The",
+      "answer": "The patient is not strong enough to stand without help, let alone walk home.",
+      "answerZh": "病人的體力連在沒有協助下站立也不足夠，更不用說步行回家。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient is not strong enough to stand without help, let alone walk home."
+    },
+    {
+      "id": "ss74-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Grace has not finished the introduction. The rest of the report is still far from complete.",
+      "promptZh": "格蕾絲連引言也未完成。報告的其餘部分就更加距離完成很遠。",
+      "starter": "Grace",
+      "answer": "Grace has not finished the introduction, let alone the entire report.",
+      "answerZh": "格蕾絲連引言也未完成，更不用說整份報告。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace has not finished the introduction, let alone the entire report."
+    },
+    {
+      "id": "ss74-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The class cannot agree on a title. Completing the group project is therefore far beyond them.",
+      "promptZh": "全班連題目也未能達成共識。因此，要他們完成小組項目就更加困難。",
+      "starter": "The",
+      "answer": "The class cannot agree on a title, let alone complete the group project.",
+      "answerZh": "全班連題目也未能達成共識，更不用說完成小組項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The class cannot agree on a title, let alone complete the group project."
+    },
+    {
+      "id": "ss74-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This laptop barely has enough space for one video. It cannot store the entire course.",
+      "promptZh": "這部手提電腦的儲存空間勉強只夠一段影片。它無法儲存整個課程。",
+      "starter": "This",
+      "answer": "This laptop barely has enough space for one video, let alone the entire course.",
+      "answerZh": "這部手提電腦的儲存空間勉強只夠一段影片，更不用說整個課程。",
+      "answerZhSource": "pdf",
+      "highlight": "This laptop barely has enough space for one video, let alone the entire course."
+    },
+    {
+      "id": "ss74-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The museum cannot properly protect its current collection. It cannot responsibly borrow rare paintings from overseas.",
+      "promptZh": "博物館無法妥善保護現有館藏，因此也無法負責任地從海外借入珍貴畫作。",
+      "starter": "The",
+      "answer": "The museum cannot properly protect its current collection, let alone borrow rare paintings from overseas.",
+      "answerZh": "博物館連現有館藏也無法妥善保護，更不用說從海外借入珍貴畫作。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum cannot properly protect its current collection, let alone borrow rare paintings from overseas."
+    },
+    {
+      "id": "ss74-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our team has not tested the basic system. Launching it to the public is still far beyond us.",
+      "promptZh": "我們的團隊連基本系統也未測試。把系統向公眾推出仍然距離我們很遠。",
+      "starter": "Our",
+      "answer": "Our team has not tested the basic system, let alone launched it to the public.",
+      "answerZh": "我們的團隊連基本系統也未測試，更不用說向公眾推出系統。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team has not tested the basic system, let alone launched it to the public."
+    },
+    {
+      "id": "ss74-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Passing the first interview would already be a major step for Nina. Receiving the final offer would be even more remarkable.",
+      "promptZh": "通過第一輪面試已經是妮娜的重要一步。最後正式獲聘就更加難得。",
+      "starter": "Passing",
+      "answer": "Passing the first interview would already be a major step for Nina, let alone receiving the final offer.",
+      "answerZh": "通過第一輪面試已經是妮娜的重要一步，更不用說最後正式獲聘。",
+      "answerZhSource": "pdf",
+      "highlight": "Passing the first interview would already be a major step for Nina, let alone receiving the final offer."
+    },
+    {
+      "id": "ss74-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Marcus cannot explain the simple rule in English. Debating the issue fluently is far beyond him.",
+      "promptZh": "馬庫斯連用英語解釋這條簡單規則也做不到。要他流利地辯論這個議題就更加不可能。",
+      "starter": "Marcus",
+      "answer": "Marcus cannot explain the simple rule in English, let alone debate the issue fluently.",
+      "answerZh": "馬庫斯連用英語解釋這條簡單規則也做不到，更不用說流利地辯論這個議題。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus cannot explain the simple rule in English, let alone debate the issue fluently."
+    },
+    {
+      "id": "ss74-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The rescue team could not reach the first village. It certainly could not reach the mountain farms beyond it.",
+      "promptZh": "救援隊連第一條村也無法到達。他們當然更加無法到達更遠的山區農場。",
+      "starter": "The",
+      "answer": "The rescue team could not reach the first village, let alone the mountain farms beyond it.",
+      "answerZh": "救援隊連第一條村也無法到達，更不用說更遠的山區農場。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team could not reach the first village, let alone the mountain farms beyond it."
+    },
+    {
+      "id": "ss74-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "She would not tell her closest friend. She would certainly never tell a stranger.",
+      "promptZh": "她連最親密的朋友也不會告訴。她當然更加不會告訴陌生人。",
+      "starter": "She",
+      "answer": "She would not tell her closest friend, let alone a stranger.",
+      "answerZh": "她連最親密的朋友也不會告訴，更不用說陌生人。",
+      "answerZhSource": "pdf",
+      "highlight": "She would not tell her closest friend, let alone a stranger."
+    },
+    {
+      "id": "ss74-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school cannot provide every student with a tablet. Replacing all the tablets every year is impossible.",
+      "promptZh": "學校無法為每名學生提供平板電腦。每年更換所有平板電腦就更加不可能。",
+      "starter": "The",
+      "answer": "The school cannot provide every student with a tablet, let alone replace them every year.",
+      "answerZh": "學校連為每名學生提供平板電腦也做不到，更不用說每年更換所有平板電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "The school cannot provide every student with a tablet, let alone replace them every year."
+    },
+    {
+      "id": "ss74-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new employee barely understands the daily routine. The emergency procedure is far beyond his present knowledge.",
+      "promptZh": "新僱員連日常工作流程也只是勉強明白。緊急程序遠遠超出他目前的知識。",
+      "starter": "The",
+      "answer": "The new employee barely understands the daily routine, let alone the emergency procedure.",
+      "answerZh": "新僱員連日常工作流程也只是勉強明白，更不用說緊急程序。",
+      "answerZhSource": "pdf",
+      "highlight": "The new employee barely understands the daily routine, let alone the emergency procedure."
+    },
+    {
+      "id": "ss74-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We have not chosen a date for the event. We are still far from booking a venue.",
+      "promptZh": "我們連活動日期也未選定。預訂場地就更加距離我們很遠。",
+      "starter": "We",
+      "answer": "We have not chosen a date for the event, let alone booked a venue.",
+      "answerZh": "我們連活動日期也未選定，更不用說預訂場地。",
+      "answerZhSource": "pdf",
+      "highlight": "We have not chosen a date for the event, let alone booked a venue."
+    },
+    {
+      "id": "ss74-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The family cannot pay this month’s rent. Saving for a new home is completely unrealistic.",
+      "promptZh": "這個家庭連本月租金也無法支付。為購買新居而儲蓄就更加不切實際。",
+      "starter": "The",
+      "answer": "The family cannot pay this month’s rent, let alone save for a new home.",
+      "answerZh": "這個家庭連本月租金也無法支付，更不用說為購買新居而儲蓄。",
+      "answerZhSource": "pdf",
+      "highlight": "The family cannot pay this month’s rent, let alone save for a new home."
+    },
+    {
+      "id": "ss74-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This old bridge is not safe for bicycles. Heavy lorries certainly cannot use it.",
+      "promptZh": "這座舊橋連單車使用也不安全。重型貨車當然更加不能使用。",
+      "starter": "This",
+      "answer": "This old bridge is not safe for bicycles, let alone heavy lorries.",
+      "answerZh": "這座舊橋連供單車使用也不安全，更不用說重型貨車。",
+      "answerZhSource": "pdf",
+      "highlight": "This old bridge is not safe for bicycles, let alone heavy lorries."
+    },
+    {
+      "id": "ss74-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Noah would not touch the small insect. He would never hold the snake.",
+      "promptZh": "諾亞連那隻小昆蟲也不願意觸摸。他絕對不會拿着那條蛇。",
+      "starter": "Noah",
+      "answer": "Noah would not touch the small insect, let alone hold the snake.",
+      "answerZh": "諾亞連那隻小昆蟲也不願意觸摸，更不用說拿着那條蛇。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah would not touch the small insect, let alone hold the snake."
+    },
+    {
+      "id": "ss74-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our website can barely handle normal traffic. Thousands of extra visitors would make it crash.",
+      "promptZh": "我們的網站勉強只能應付正常瀏覽量。數以千計的額外訪客會令網站當機。",
+      "starter": "Our",
+      "answer": "Our website can barely handle normal traffic, let alone thousands of extra visitors.",
+      "answerZh": "我們的網站勉強只能應付正常瀏覽量，更不用說數以千計的額外訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "Our website can barely handle normal traffic, let alone thousands of extra visitors."
+    },
+    {
+      "id": "ss74-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The department has not agreed on what the problem is. It has certainly not developed a workable solution.",
+      "promptZh": "部門連問題是甚麼也未能達成共識。它當然更加未能制定可行的解決方案。",
+      "starter": "The",
+      "answer": "The department has not agreed on what the problem is, let alone developed a workable solution.",
+      "answerZh": "部門連問題是甚麼也未能達成共識，更不用說制定可行的解決方案。",
+      "answerZhSource": "pdf",
+      "highlight": "The department has not agreed on what the problem is, let alone developed a workable solution."
+    },
+    {
+      "id": "ss74-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This town cannot provide clean water to every existing home. It has no capacity to provide it to a large new housing estate.",
+      "promptZh": "這個城鎮無法為所有現有住戶提供清潔食水。它沒有能力為一個大型新屋苑提供食水。",
+      "starter": "This",
+      "answer": "This town cannot provide clean water to every existing home, let alone to a large new housing estate.",
+      "answerZh": "這個城鎮連所有現有住戶也無法供應清潔食水，更不用說一個大型新屋苑。",
+      "answerZhSource": "pdf",
+      "highlight": "This town cannot provide clean water to every existing home, let alone to a large new housing estate."
+    },
+    {
+      "id": "ss74-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The researchers have not confirmed the basic result. They certainly cannot explain why it happened.",
+      "promptZh": "研究人員連基本結果也未能確認。他們當然更加無法解釋結果出現的原因。",
+      "starter": "The",
+      "answer": "The researchers have not confirmed the basic result, let alone explained why it happened.",
+      "answerZh": "研究人員連基本結果也未能確認，更不用說解釋結果出現的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "The researchers have not confirmed the basic result, let alone explained why it happened."
+    },
+    {
+      "id": "ss74-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our hospital does not have enough nurses for the current wards. A new emergency centre would require even more staff.",
+      "promptZh": "我們的醫院連現有病房所需的護士也不足。一個新的急症中心會需要更多人手。",
+      "starter": "Our",
+      "answer": "Our hospital does not have enough nurses for the current wards, let alone a new emergency centre.",
+      "answerZh": "我們的醫院連現有病房所需的護士也不足，更不用說一個新的急症中心。",
+      "answerZhSource": "pdf",
+      "highlight": "Our hospital does not have enough nurses for the current wards, let alone a new emergency centre."
+    },
+    {
+      "id": "ss74-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The charity can barely cover its daily costs. It has no money to expand its services across the city.",
+      "promptZh": "這間慈善機構勉強只能支付日常開支。它沒有資金把服務擴展至全城。",
+      "starter": "The",
+      "answer": "The charity can barely cover its daily costs, let alone expand its services across the city.",
+      "answerZh": "這間慈善機構勉強只能支付日常開支，更不用說把服務擴展至全城。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity can barely cover its daily costs, let alone expand its services across the city."
+    },
+    {
+      "id": "ss74-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Can this trainee deal with a simple complaint alone? No. Managing a serious crisis would be far beyond him.",
+      "promptZh": "這名實習員工能否獨自處理簡單投訴？不能。要他處理嚴重危機就遠超他的能力。",
+      "starter": "This",
+      "answer": "This trainee cannot deal with a simple complaint alone, let alone manage a serious crisis.",
+      "answerZh": "這名實習員工連簡單投訴也無法獨自處理，更不用說處理嚴重危機。",
+      "answerZhSource": "pdf",
+      "highlight": "This trainee cannot deal with a simple complaint alone, let alone manage a serious crisis."
+    },
+    {
+      "id": "ss74-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our small business has not entered the local market. Competing successfully overseas is far beyond its present position.",
+      "promptZh": "我們的小型企業連本地市場也未打入。在海外成功競爭遠遠超出它目前的發展階段。",
+      "starter": "Our",
+      "answer": "Our small business has not entered the local market, let alone competed successfully overseas.",
+      "answerZh": "我們的小型企業連本地市場也未打入，更不用說在海外成功競爭。",
+      "answerZhSource": "pdf",
+      "highlight": "Our small business has not entered the local market, let alone competed successfully overseas."
+    },
+    {
+      "id": "ss74-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Adrian was nervous about giving one short interview. Appearing live before millions of viewers was unimaginable to him.",
+      "promptZh": "阿德里安連進行一次簡短訪問也感到緊張。在數百萬觀眾面前直播亮相對他來說更是難以想像。",
+      "starter": "Adrian",
+      "answer": "Adrian was nervous about giving one short interview, let alone appearing live before millions of viewers.",
+      "answerZh": "阿德里安連進行一次簡短訪問也感到緊張，更不用說在數百萬觀眾面前直播亮相。",
+      "answerZhSource": "pdf",
+      "highlight": "Adrian was nervous about giving one short interview, let alone appearing live before millions of viewers."
+    },
+    {
+      "id": "ss74-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Passing the entrance test would already be a major achievement for him. Winning a full scholarship would be extraordinary.",
+      "promptZh": "通過入學試對他來說已經是一項重大成就。取得全額獎學金就更加難得。",
+      "starter": "Passing",
+      "answer": "Passing the entrance test would already be a major achievement for him, let alone winning a full scholarship.",
+      "answerZh": "通過入學試對他來說已經是一項重大成就，更不用說取得全額獎學金。",
+      "answerZhSource": "pdf",
+      "highlight": "Passing the entrance test would already be a major achievement for him, let alone winning a full scholarship."
+    },
+    {
+      "id": "ss74-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Completing secondary school was already beyond her expectations. Earning a university degree seemed even more impossible.",
+      "promptZh": "完成中學教育已經超出她的預期。取得大學學位看來就更加不可能。",
+      "starter": "Completing",
+      "answer": "Completing secondary school was already beyond her expectations, let alone earning a university degree.",
+      "answerZh": "完成中學教育已經超出她的預期，更不用說取得大學學位。",
+      "answerZhSource": "pdf",
+      "highlight": "Completing secondary school was already beyond her expectations, let alone earning a university degree."
+    }
+  ]
+}

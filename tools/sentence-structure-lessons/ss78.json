@@ -1,0 +1,1150 @@
+{
+  "id": "ss78",
+  "order": 78,
+  "slug": "sentence-structure-78",
+  "title": "「By itself」句型",
+  "titleZh": "「By itself」表示「本身／獨自／自行」",
+  "titleEn": "Using By itself to mean ‘on its own’, ‘alone’ or ‘without help’",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 78 -「By itself」表示「本身／獨自／自行」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Singular non-human subject + verb / be + other information + by itself",
+  "formulas": [
+    {
+      "id": "ss78-formula-standard",
+      "labelZh": "一般位置",
+      "labelEn": "Standard position",
+      "formula": "Singular non-human subject + verb / be + other information + by itself"
+    },
+    {
+      "id": "ss78-formula-emphatic",
+      "labelZh": "強調位置",
+      "labelEn": "Emphatic position",
+      "formula": "By itself, + singular non-human subject + verb / be + other information"
+    }
+  ],
+  "example": "The song is already beautiful by itself.",
+  "exampleZh": "這首歌本身已經很美。",
+  "examples": [
+    {
+      "id": "ss78-example-main",
+      "en": "The song is already beautiful by itself.",
+      "zh": "這首歌本身已經很美。",
+      "highlight": "by itself"
+    },
+    {
+      "id": "ss78-example-action",
+      "en": "The machine completed the task by itself.",
+      "zh": "機器自行完成了任務。",
+      "highlight": "by itself"
+    }
+  ],
+  "meaning": {
+    "zh": "By itself 可以表示「獨自」、「無需協助／自行」或「單憑本身／不加其他東西」。"
+  },
+  "rules": [
+    {
+      "id": "ss78-rule-01",
+      "zh": "By itself 有三個常見意思：獨自、無需協助／自行，以及單憑本身／不加其他東西。",
+      "en": "By itself has three common meanings: alone, without help, and without anything extra.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss78-rule-02",
+      "zh": "Itself 必須配合單數非人物主語；人物或複數主語須使用其他反身代名詞。",
+      "en": "Itself agrees with a singular non-human subject.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss78-rule-03",
+      "zh": "By itself 通常放在句末，也可以放在句首以強調「單憑這一項」。",
+      "en": "By itself normally appears at the end, but it may begin the sentence for emphasis.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss78-rule-04",
+      "zh": "不要混淆表示強調的 itself 和表示「不需要協助」的 by itself。",
+      "en": "Do not confuse emphatic itself with by itself meaning without help.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss78-rule-05",
+      "zh": "By itself 不一定表示實際上沒有其他東西在附近；它也可表示事物本身已有某種特質。",
+      "en": "By itself does not always mean that nothing else is physically nearby.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss78-benefit-01",
+      "zh": "這個句型可以清楚表示機器、動物、系統或物件在沒有人協助的情況下完成動作。",
+      "en": "It clearly shows that something does not need help."
+    },
+    {
+      "id": "ss78-benefit-02",
+      "zh": "它可以說明單憑一項事實、行動或事物是否足以帶來某個結果。",
+      "en": "It shows whether one thing alone is enough."
+    },
+    {
+      "id": "ss78-benefit-03",
+      "zh": "它可以表示某件事物即使不加入其他東西，本身已經吸引、實用、美味或有效。",
+      "en": "It shows that something already has a quality without anything extra."
+    },
+    {
+      "id": "ss78-benefit-04",
+      "zh": "它能把「沒有協助」、「沒有加入其他東西」或「沒有人控制」等較長說法縮短。",
+      "en": "It shortens longer expressions such as without help."
+    },
+    {
+      "id": "ss78-benefit-05",
+      "zh": "以 By itself 開始句子，可以強調單憑某一項事物能夠或不能夠做到甚麼。",
+      "en": "It emphasises the effect or limitation of one factor."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using by itself while preserving the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 by itself 改寫以下句子，並保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss78-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "No one touched the door, but it closed.",
+      "promptZh": "沒有人碰那道門，但它關上了。",
+      "starter": "The",
+      "answer": "The door closed by itself.",
+      "answerZh": "那道門自行關上了。",
+      "answerZhSource": "pdf",
+      "highlight": "The door closed by itself."
+    },
+    {
+      "id": "ss78-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "This toy car moves without anyone pushing it.",
+      "promptZh": "這輛玩具車不需要任何人推動也能移動。",
+      "starter": "This",
+      "answer": "This toy car moves by itself.",
+      "answerZh": "這輛玩具車會自行移動。",
+      "answerZhSource": "pdf",
+      "highlight": "This toy car moves by itself."
+    },
+    {
+      "id": "ss78-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Nobody touched the switch, but the lamp turned on.",
+      "promptZh": "沒有人碰開關，但那盞燈亮了。",
+      "starter": "The",
+      "answer": "The lamp turned on by itself.",
+      "answerZh": "那盞燈自行亮起了。",
+      "answerZhSource": "pdf",
+      "highlight": "The lamp turned on by itself."
+    },
+    {
+      "id": "ss78-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My phone restarted without me pressing any buttons.",
+      "promptZh": "我沒有按任何按鈕，但我的電話重新啟動了。",
+      "starter": "My",
+      "answer": "My phone restarted by itself.",
+      "answerZh": "我的電話自行重新啟動了。",
+      "answerZhSource": "pdf",
+      "highlight": "My phone restarted by itself."
+    },
+    {
+      "id": "ss78-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The puppy stayed alone in the room for ten minutes.",
+      "promptZh": "小狗獨自在房間裏待了十分鐘。",
+      "starter": "The",
+      "answer": "The puppy stayed in the room by itself for ten minutes.",
+      "answerZh": "小狗獨自在房間裏待了十分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "The puppy stayed in the room by itself for ten minutes."
+    },
+    {
+      "id": "ss78-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This cake tastes good even without cream or fruit.",
+      "promptZh": "這個蛋糕即使沒有忌廉或水果也很好吃。",
+      "starter": "This",
+      "answer": "This cake tastes good by itself.",
+      "answerZh": "這個蛋糕本身已經很好吃。",
+      "answerZhSource": "pdf",
+      "highlight": "This cake tastes good by itself."
+    },
+    {
+      "id": "ss78-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The printer can work without another machine controlling it.",
+      "promptZh": "這部打印機無須另一部機器控制也能運作。",
+      "starter": "The",
+      "answer": "The printer can work by itself.",
+      "answerZh": "這部打印機可以自行運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The printer can work by itself."
+    },
+    {
+      "id": "ss78-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "A single candle cannot light the whole hall without help from other lights.",
+      "promptZh": "一支蠟燭在沒有其他燈光幫助的情況下，無法照亮整個禮堂。",
+      "starter": "A",
+      "answer": "A single candle cannot light the whole hall by itself.",
+      "answerZh": "一支蠟燭無法獨自照亮整個禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "A single candle cannot light the whole hall by itself."
+    },
+    {
+      "id": "ss78-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The washing machine stopped automatically when the cycle ended.",
+      "promptZh": "洗衣程序結束時，洗衣機自動停止了。",
+      "starter": "The",
+      "answer": "The washing machine stopped by itself when the cycle ended.",
+      "answerZh": "洗衣程序結束時，洗衣機自行停止了。",
+      "answerZhSource": "pdf",
+      "highlight": "The washing machine stopped by itself when the cycle ended."
+    },
+    {
+      "id": "ss78-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Nobody planted or cared for this flower, but it still grew.",
+      "promptZh": "沒有人種植或照料這朵花，但它仍然生長了。",
+      "starter": "This",
+      "answer": "This flower grew by itself.",
+      "answerZh": "這朵花自行生長了。",
+      "answerZhSource": "pdf",
+      "highlight": "This flower grew by itself."
+    },
+    {
+      "id": "ss78-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The soup is already tasty without any extra seasoning.",
+      "promptZh": "這碗湯即使不加任何額外調味料也已經很美味。",
+      "starter": "The",
+      "answer": "The soup is already tasty by itself.",
+      "answerZh": "這碗湯本身已經很美味。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup is already tasty by itself."
+    },
+    {
+      "id": "ss78-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I did not touch the door. It opened automatically when I walked near it.",
+      "promptZh": "我沒有碰那道門。當我走近時，它自動打開了。",
+      "starter": "It",
+      "answer": "It opened by itself when I walked near it.",
+      "answerZh": "當我走近時，它自行打開了。",
+      "answerZhSource": "pdf",
+      "highlight": "It opened by itself when I walked near it."
+    },
+    {
+      "id": "ss78-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The computer completed the update without any help from the user.",
+      "promptZh": "電腦在沒有用戶協助的情況下完成了更新。",
+      "starter": "The",
+      "answer": "The computer completed the update by itself.",
+      "answerZh": "電腦自行完成了更新。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer completed the update by itself."
+    },
+    {
+      "id": "ss78-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This clue alone is not enough to solve the mystery.",
+      "promptZh": "單憑這項線索不足以解開謎團。",
+      "starter": "This",
+      "answer": "This clue is not enough by itself to solve the mystery.",
+      "answerZh": "單憑這項線索不足以解開謎團。",
+      "answerZhSource": "pdf",
+      "highlight": "This clue is not enough by itself to solve the mystery."
+    },
+    {
+      "id": "ss78-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why was Anna surprised? The music box began playing although nobody touched it.",
+      "promptZh": "安娜為甚麼感到驚訝？雖然沒有人碰音樂盒，但它開始播放音樂。",
+      "starter": "The",
+      "answer": "The music box began playing by itself.",
+      "answerZh": "音樂盒自行開始播放音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "The music box began playing by itself."
+    },
+    {
+      "id": "ss78-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "One battery cannot power the device without support from a second battery.",
+      "promptZh": "一枚電池在沒有第二枚電池支援的情況下，無法為裝置供電。",
+      "starter": "One",
+      "answer": "One battery cannot power the device by itself.",
+      "answerZh": "一枚電池無法獨自為裝置供電。",
+      "answerZhSource": "pdf",
+      "highlight": "One battery cannot power the device by itself."
+    },
+    {
+      "id": "ss78-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The cat found its way home without anyone guiding it.",
+      "promptZh": "沒有人帶領那隻貓，但牠仍然找到了回家的路。",
+      "starter": "The",
+      "answer": "The cat found its way home by itself.",
+      "answerZh": "那隻貓自行找到了回家的路。",
+      "answerZhSource": "pdf",
+      "highlight": "The cat found its way home by itself."
+    },
+    {
+      "id": "ss78-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This colour looks attractive even when it is not mixed with another colour.",
+      "promptZh": "這種顏色即使沒有與其他顏色混合，看起來仍然很吸引。",
+      "starter": "This",
+      "answer": "This colour looks attractive by itself.",
+      "answerZh": "這種顏色本身已經很吸引。",
+      "answerZhSource": "pdf",
+      "highlight": "This colour looks attractive by itself."
+    },
+    {
+      "id": "ss78-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The robot cleaned the entire floor without human help.",
+      "promptZh": "機械人在沒有人類協助的情況下清潔了整個地板。",
+      "starter": "The",
+      "answer": "The robot cleaned the entire floor by itself.",
+      "answerZh": "機械人自行清潔了整個地板。",
+      "answerZhSource": "pdf",
+      "highlight": "The robot cleaned the entire floor by itself."
+    },
+    {
+      "id": "ss78-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The online system sends receipts automatically without staff doing it.",
+      "promptZh": "網上系統會自動發送收據，無須職員處理。",
+      "starter": "The",
+      "answer": "The online system sends receipts by itself.",
+      "answerZh": "網上系統會自行發送收據。",
+      "answerZhSource": "pdf",
+      "highlight": "The online system sends receipts by itself."
+    },
+    {
+      "id": "ss78-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This medicine alone cannot cure the infection.",
+      "promptZh": "單憑這種藥物不能治癒感染。",
+      "starter": "This",
+      "answer": "This medicine cannot cure the infection by itself.",
+      "answerZh": "單憑這種藥物不能治癒感染。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine cannot cure the infection by itself."
+    },
+    {
+      "id": "ss78-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The picture tells a clear story even without a written explanation.",
+      "promptZh": "這幅圖畫即使沒有文字解釋，也能清楚表達一個故事。",
+      "starter": "The",
+      "answer": "The picture tells a clear story by itself.",
+      "answerZh": "這幅圖畫本身已能清楚表達一個故事。",
+      "answerZhSource": "pdf",
+      "highlight": "The picture tells a clear story by itself."
+    },
+    {
+      "id": "ss78-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A password alone is not enough to protect the account.",
+      "promptZh": "單憑一個密碼不足以保護帳戶。",
+      "starter": "A",
+      "answer": "A password is not enough by itself to protect the account.",
+      "answerZh": "單憑一個密碼不足以保護帳戶。",
+      "answerZhSource": "pdf",
+      "highlight": "A password is not enough by itself to protect the account."
+    },
+    {
+      "id": "ss78-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did the passengers look surprised? The lift returned to the ground floor automatically.",
+      "promptZh": "乘客為甚麼看起來很驚訝？升降機自動返回了地下。",
+      "starter": "The",
+      "answer": "The lift returned to the ground floor by itself.",
+      "answerZh": "升降機自行返回了地下。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift returned to the ground floor by itself."
+    },
+    {
+      "id": "ss78-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This bread is delicious even without butter or jam.",
+      "promptZh": "這款麵包即使不加牛油或果醬也很美味。",
+      "starter": "This",
+      "answer": "This bread is delicious by itself.",
+      "answerZh": "這款麵包本身已經很美味。",
+      "answerZhSource": "pdf",
+      "highlight": "This bread is delicious by itself."
+    },
+    {
+      "id": "ss78-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This small engine can power the boat without help from another engine.",
+      "promptZh": "這副小型引擎無須另一副引擎協助，也能為小船提供動力。",
+      "starter": "This",
+      "answer": "This small engine can power the boat by itself.",
+      "answerZh": "這副小型引擎可以獨自為小船提供動力。",
+      "answerZhSource": "pdf",
+      "highlight": "This small engine can power the boat by itself."
+    },
+    {
+      "id": "ss78-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school was empty, but the school bell rang during the night.",
+      "promptZh": "學校裏沒有人，但校鐘在晚上響了。",
+      "starter": "The",
+      "answer": "The school bell rang by itself during the night.",
+      "answerZh": "校鐘在晚上自行響了。",
+      "answerZhSource": "pdf",
+      "highlight": "The school bell rang by itself during the night."
+    },
+    {
+      "id": "ss78-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The evidence alone does not prove the claim.",
+      "promptZh": "單憑這項證據不能證明有關說法。",
+      "starter": "The",
+      "answer": "The evidence does not prove the claim by itself.",
+      "answerZh": "單憑這項證據不能證明有關說法。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence does not prove the claim by itself."
+    },
+    {
+      "id": "ss78-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My watch adjusted the time automatically after the flight.",
+      "promptZh": "航程結束後，我的手錶自動調校了時間。",
+      "starter": "My",
+      "answer": "My watch adjusted the time by itself after the flight.",
+      "answerZh": "航程結束後，我的手錶自行調校了時間。",
+      "answerZhSource": "pdf",
+      "highlight": "My watch adjusted the time by itself after the flight."
+    },
+    {
+      "id": "ss78-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In such dry soil, the seedling cannot survive without support or regular care.",
+      "promptZh": "在這麼乾旱的泥土中，幼苗在沒有支援或定期照料的情況下無法生存。",
+      "starter": "The",
+      "answer": "The seedling cannot survive by itself in such dry soil.",
+      "answerZh": "幼苗無法獨自在這麼乾旱的泥土中生存。",
+      "answerZhSource": "pdf",
+      "highlight": "The seedling cannot survive by itself in such dry soil."
+    },
+    {
+      "id": "ss78-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A map alone does not explain the whole route.",
+      "promptZh": "單憑一張地圖不能解釋整條路線。",
+      "starter": "By",
+      "answer": "By itself, the map does not explain the whole route.",
+      "answerZh": "單憑這張地圖不能解釋整條路線。",
+      "answerZhSource": "pdf",
+      "highlight": "By itself, the map does not explain the whole route."
+    },
+    {
+      "id": "ss78-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When smoke was detected, the alarm system contacted the security office automatically.",
+      "promptZh": "偵測到煙霧時，警報系統自動聯絡了保安辦公室。",
+      "starter": "The",
+      "answer": "The alarm system contacted the security office by itself when smoke was detected.",
+      "answerZh": "偵測到煙霧時，警報系統自行聯絡了保安辦公室。",
+      "answerZhSource": "pdf",
+      "highlight": "The alarm system contacted the security office by itself when smoke was detected."
+    },
+    {
+      "id": "ss78-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This app can sort the photographs without the user arranging them.",
+      "promptZh": "這個應用程式無須用戶整理，也能把相片分類。",
+      "starter": "This",
+      "answer": "This app can sort the photographs by itself.",
+      "answerZh": "這個應用程式可以自行把相片分類。",
+      "answerZhSource": "pdf",
+      "highlight": "This app can sort the photographs by itself."
+    },
+    {
+      "id": "ss78-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This exercise alone may not improve your writing.",
+      "promptZh": "單做這項練習未必能改善你的寫作。",
+      "starter": "This",
+      "answer": "This exercise may not improve your writing by itself.",
+      "answerZh": "單做這項練習未必能改善你的寫作。",
+      "answerZhSource": "pdf",
+      "highlight": "This exercise may not improve your writing by itself."
+    },
+    {
+      "id": "ss78-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The sauce is already rich enough without any cheese.",
+      "promptZh": "這款醬汁即使不加芝士，味道也已經足夠濃郁。",
+      "starter": "The",
+      "answer": "The sauce is already rich enough by itself.",
+      "answerZh": "這款醬汁本身的味道已經足夠濃郁。",
+      "answerZhSource": "pdf",
+      "highlight": "The sauce is already rich enough by itself."
+    },
+    {
+      "id": "ss78-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The machine detected the fault without help from an engineer.",
+      "promptZh": "機器在沒有工程師協助的情況下偵測到故障。",
+      "starter": "The",
+      "answer": "The machine detected the fault by itself.",
+      "answerZh": "機器自行偵測到故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine detected the fault by itself."
+    },
+    {
+      "id": "ss78-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A good idea alone cannot become a successful project.",
+      "promptZh": "單憑一個好主意不能變成一個成功的項目。",
+      "starter": "A",
+      "answer": "A good idea cannot become a successful project by itself.",
+      "answerZh": "單憑一個好主意不能變成一個成功的項目。",
+      "answerZhSource": "pdf",
+      "highlight": "A good idea cannot become a successful project by itself."
+    },
+    {
+      "id": "ss78-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The old radio suddenly switched on although no one was near it.",
+      "promptZh": "雖然附近沒有人，但那部舊收音機突然開啟了。",
+      "starter": "The",
+      "answer": "The old radio suddenly switched on by itself.",
+      "answerZh": "那部舊收音機突然自行開啟了。",
+      "answerZhSource": "pdf",
+      "highlight": "The old radio suddenly switched on by itself."
+    },
+    {
+      "id": "ss78-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This policy alone will not solve the housing problem.",
+      "promptZh": "單憑這項政策不能解決房屋問題。",
+      "starter": "This",
+      "answer": "This policy will not solve the housing problem by itself.",
+      "answerZh": "單憑這項政策不能解決房屋問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This policy will not solve the housing problem by itself."
+    },
+    {
+      "id": "ss78-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No extra notes are needed because this short video alone explains the basic process.",
+      "promptZh": "不需要額外筆記，因為單憑這段短片已能解釋基本流程。",
+      "starter": "This",
+      "answer": "This short video explains the basic process by itself.",
+      "answerZh": "單憑這段短片已能解釋基本流程。",
+      "answerZhSource": "pdf",
+      "highlight": "This short video explains the basic process by itself."
+    },
+    {
+      "id": "ss78-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The test result alone cannot confirm the illness.",
+      "promptZh": "單憑這項檢測結果不能確定有關疾病。",
+      "starter": "By",
+      "answer": "By itself, the test result cannot confirm the illness.",
+      "answerZh": "單憑這項檢測結果不能確定有關疾病。",
+      "answerZhSource": "pdf",
+      "highlight": "By itself, the test result cannot confirm the illness."
+    },
+    {
+      "id": "ss78-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The emergency generator started automatically when the power failed.",
+      "promptZh": "電力中斷時，緊急發電機自動啟動了。",
+      "starter": "The",
+      "answer": "The emergency generator started by itself when the power failed.",
+      "answerZh": "電力中斷時，緊急發電機自行啟動了。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency generator started by itself when the power failed."
+    },
+    {
+      "id": "ss78-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Without a local partner or outside advice, this local business cannot enter overseas markets.",
+      "promptZh": "這家本地企業在沒有當地合作夥伴或外界意見的情況下，無法進入海外市場。",
+      "starter": "This",
+      "answer": "This local business cannot enter overseas markets by itself.",
+      "answerZh": "這家本地企業無法獨自進入海外市場。",
+      "answerZhSource": "pdf",
+      "highlight": "This local business cannot enter overseas markets by itself."
+    },
+    {
+      "id": "ss78-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The article is convincing even when the photographs are removed.",
+      "promptZh": "即使移除相片，這篇文章仍然具有說服力。",
+      "starter": "The",
+      "answer": "The article is convincing by itself, even without the photographs.",
+      "answerZh": "即使沒有相片，這篇文章本身仍然具有說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "The article is convincing by itself, even without the photographs."
+    },
+    {
+      "id": "ss78-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One lesson alone will not make a learner fluent.",
+      "promptZh": "單憑一堂課不能令學習者說話流利。",
+      "starter": "One",
+      "answer": "One lesson will not make a learner fluent by itself.",
+      "answerZh": "單憑一堂課不能令學習者說話流利。",
+      "answerZhSource": "pdf",
+      "highlight": "One lesson will not make a learner fluent by itself."
+    },
+    {
+      "id": "ss78-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rescue boat lost contact with the control centre, but it returned to the harbour without outside guidance.",
+      "promptZh": "救援船與控制中心失去聯絡，但它在沒有外界引導的情況下返回了港口。",
+      "starter": "The",
+      "answer": "The rescue boat returned to the harbour by itself after losing contact with the control centre.",
+      "answerZh": "救援船與控制中心失去聯絡後，自行返回了港口。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue boat returned to the harbour by itself after losing contact with the control centre."
+    },
+    {
+      "id": "ss78-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new system can identify simple errors without human help. However, staff must review serious cases.",
+      "promptZh": "新系統無須人手協助也能識別簡單錯誤。不過，嚴重個案必須由職員審查。",
+      "starter": "The",
+      "answer": "The new system can identify simple errors by itself, but staff must review serious cases.",
+      "answerZh": "新系統可以自行識別簡單錯誤，但嚴重個案必須由職員審查。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system can identify simple errors by itself, but staff must review serious cases."
+    },
+    {
+      "id": "ss78-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A warning sign alone may not stop people from entering the dangerous area.",
+      "promptZh": "單憑警告牌未必能阻止人們進入危險範圍。",
+      "starter": "By",
+      "answer": "By itself, the warning sign may not stop people from entering the dangerous area.",
+      "answerZh": "單憑警告牌未必能阻止人們進入危險範圍。",
+      "answerZhSource": "pdf",
+      "highlight": "By itself, the warning sign may not stop people from entering the dangerous area."
+    },
+    {
+      "id": "ss78-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This device automatically shuts down when it becomes too hot.",
+      "promptZh": "這部裝置過熱時會自動關閉。",
+      "starter": "This",
+      "answer": "This device shuts down by itself when it becomes too hot.",
+      "answerZh": "這部裝置過熱時會自行關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "This device shuts down by itself when it becomes too hot."
+    },
+    {
+      "id": "ss78-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community project cannot succeed without help from others. It also needs volunteers, funding and public support.",
+      "promptZh": "這個社區項目在沒有其他人協助的情況下不能成功。它亦需要義工、資金和公眾支持。",
+      "starter": "The",
+      "answer": "The community project cannot succeed by itself; it also needs volunteers, funding and public support.",
+      "answerZh": "這個社區項目不能單憑本身取得成功；它亦需要義工、資金和公眾支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The community project cannot succeed by itself; it also needs volunteers, funding and public support."
+    }
+  ]
+}

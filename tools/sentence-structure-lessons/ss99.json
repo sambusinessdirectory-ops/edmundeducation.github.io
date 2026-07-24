@@ -1,0 +1,1249 @@
+{
+  "id": "ss99",
+  "order": 99,
+  "slug": "well-adjective-past-participle",
+  "title": "「well + 形容詞／過去分詞」句型",
+  "titleZh": "「well + 形容詞／過去分詞」句",
+  "titleEn": "Using well + adjective / past participle",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 99 -「well + 形容詞／過去分詞」句.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + a / an + well- + adjective / past participle + noun",
+  "formulas": [
+    {
+      "id": "ss99-formula-before-noun",
+      "labelEn": "Before a noun",
+      "labelZh": "放在名詞前",
+      "formula": "Subject + be + a / an + well- + adjective / past participle + noun"
+    },
+    {
+      "id": "ss99-formula-after-linking",
+      "labelEn": "After a linking verb",
+      "labelZh": "放在 be、keep、remain 等動詞後",
+      "formula": "Subject + be / keep / remain + well + adjective / past participle"
+    }
+  ],
+  "example": "Hong Kong is a well-developed city.",
+  "exampleZh": "香港是一個發展成熟的城市。",
+  "examples": [
+    {
+      "id": "ss99-example-developed",
+      "en": "Hong Kong is a well-developed city.",
+      "zh": "香港是一個發展成熟的城市。",
+      "highlight": "well-developed city"
+    },
+    {
+      "id": "ss99-example-organised",
+      "en": "I try to keep my room well organised.",
+      "zh": "我會盡量把房間保持得井井有條。",
+      "highlight": "well organised"
+    },
+    {
+      "id": "ss99-example-prepared",
+      "en": "People need to be well prepared for a meeting.",
+      "zh": "人們需要為會議做好充分準備。",
+      "highlight": "well prepared"
+    }
+  ],
+  "meaning": {
+    "zh": "Well 放在形容詞或過去分詞之前，表示某件事做得好、安排得好，或達到理想水平。"
+  },
+  "rules": [
+    {
+      "id": "ss99-rule-01",
+      "zh": "Well 不只是表示「非常」，而是表示某件事做得好、安排得好，或達到理想水平。",
+      "en": "Well does not simply mean very; it shows that something is done or arranged to a good standard.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "well prepared",
+        "well organised"
+      ]
+    },
+    {
+      "id": "ss99-rule-02",
+      "zh": "放在名詞前時，要使用連字號。",
+      "en": "Use a hyphen when the well compound comes before a noun.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "a well-developed city",
+        "a well-written report",
+        "a well-maintained building"
+      ]
+    },
+    {
+      "id": "ss99-rule-03",
+      "zh": "放在 be、keep、remain 等動詞後時，本練習不使用連字號。",
+      "en": "In this exercise, do not use a hyphen after linking verbs such as be, keep and remain.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The city is well developed.",
+        "The room is well organised."
+      ]
+    },
+    {
+      "id": "ss99-rule-04",
+      "zh": "Well 後面通常使用過去分詞或固定形容詞，例如 well written、well prepared、well maintained 和 well adjusted。",
+      "en": "Well is normally followed by a past participle or a fixed adjective.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "well written",
+        "well prepared",
+        "well maintained",
+        "well adjusted"
+      ]
+    },
+    {
+      "id": "ss99-rule-05",
+      "zh": "部分詞語有固定意思，例如 well done、well adjusted、well known、well rounded、well articulated 和 well projected。",
+      "en": "Some well combinations have established meanings.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "well done",
+        "well adjusted",
+        "well known",
+        "well rounded"
+      ]
+    },
+    {
+      "id": "ss99-rule-06",
+      "zh": "本練習使用英式英語拼法，例如 well-organised、well-recognised 和 well-practised。",
+      "en": "This exercise uses British English spellings.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "well-organised",
+        "well-recognised",
+        "well-practised"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss99-benefit-01",
+      "zh": "這個句型不只是說明某件事已完成，還可以更準確地說明它完成得好不好。",
+      "en": "It describes quality more precisely by showing how well something has been completed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss99-benefit-02",
+      "zh": "它可以把較長的描述縮短，令句子更短、更直接。",
+      "en": "It can shorten a longer description and make the sentence more direct.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss99-benefit-03",
+      "zh": "Well-developed、well-prepared 和 well-maintained 可以直接放在名詞前，讓讀者立即知道人物或事物的特點。",
+      "en": "It places important information directly before a noun.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss99-benefit-04",
+      "zh": "它可以避免重複使用 very good，並更具體地說明究竟哪一方面做得好。",
+      "en": "It avoids repeatedly using very good by naming the exact quality.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss99-benefit-05",
+      "zh": "這個句型適合用於作文、報告和口語評價人物、工作、設施、計劃、文章和演講。",
+      "en": "It is useful in essays, reports and spoken evaluations.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using well + adjective or past participle.",
+      "Use a hyphen when the compound adjective comes before a noun.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 well + 形容詞或過去分詞改寫以下句子。",
+      "當複合形容詞放在名詞前時，請使用連字號。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss99-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Hong Kong is a city. It has developed to a high level.",
+      "promptZh": "香港是一個城市。它的發展水平很成熟。",
+      "promptZhSource": "pdf",
+      "starter": "Hong",
+      "answer": "Hong Kong is a well-developed city.",
+      "answerZh": "香港是一個發展成熟的城市。",
+      "answerZhSource": "pdf",
+      "highlight": "Hong Kong is a well-developed city."
+    },
+    {
+      "id": "ss99-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I keep my room carefully organised.",
+      "promptZh": "我會細心整理房間，並保持整齊。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I keep my room well organised.",
+      "answerZh": "我會把房間保持得井井有條。",
+      "answerZhSource": "pdf",
+      "highlight": "I keep my room well organised."
+    },
+    {
+      "id": "ss99-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Sara was fully ready for the test.",
+      "promptZh": "莎拉已為考試做好充分準備。",
+      "promptZhSource": "pdf",
+      "starter": "Sara",
+      "answer": "Sara was well prepared for the test.",
+      "answerZh": "莎拉為考試做好了充分準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara was well prepared for the test."
+    },
+    {
+      "id": "ss99-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This report is written clearly.",
+      "promptZh": "這份報告寫得很清楚。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is a well-written report.",
+      "answerZh": "這是一份寫得很好的報告。",
+      "answerZhSource": "pdf",
+      "highlight": "This is a well-written report."
+    },
+    {
+      "id": "ss99-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The school garden is kept in good condition.",
+      "promptZh": "學校花園保持在良好狀態。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school garden is well maintained.",
+      "answerZh": "學校花園保養得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "The school garden is well maintained."
+    },
+    {
+      "id": "ss99-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This chair was made with care and skill.",
+      "promptZh": "這張椅子製作得細心，而且手工良好。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This chair is well made.",
+      "answerZh": "這張椅子造工良好。",
+      "answerZhSource": "pdf",
+      "highlight": "This chair is well made."
+    },
+    {
+      "id": "ss99-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The children behaved properly during the visit.",
+      "promptZh": "孩子們在參觀期間表現恰當。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children were well behaved during the visit.",
+      "answerZh": "孩子們在參觀期間表現良好。",
+      "answerZhSource": "pdf",
+      "highlight": "The children were well behaved during the visit."
+    },
+    {
+      "id": "ss99-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The classroom is lit brightly and evenly.",
+      "promptZh": "課室的光線明亮而均勻。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The classroom is well lit.",
+      "answerZh": "課室的照明十分充足。",
+      "answerZhSource": "pdf",
+      "highlight": "The classroom is well lit."
+    },
+    {
+      "id": "ss99-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The nurse is thoroughly trained for this task.",
+      "promptZh": "護士為這項工作接受了全面訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse is well trained for this task.",
+      "answerZh": "護士為這項工作接受了良好訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse is well trained for this task."
+    },
+    {
+      "id": "ss99-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The job was completed to a high standard.",
+      "promptZh": "這項工作以高水平完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The job was well done.",
+      "answerZh": "這項工作完成得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "The job was well done."
+    },
+    {
+      "id": "ss99-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The meeting was organised carefully by the manager.",
+      "promptZh": "會議由經理細心籌備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was well organised by the manager.",
+      "answerZh": "會議由經理安排得井井有條。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was well organised by the manager."
+    },
+    {
+      "id": "ss99-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This plan is carefully designed.",
+      "promptZh": "這個計劃設計得很仔細。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is a well-designed plan.",
+      "answerZh": "這是一個設計完善的計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "This is a well-designed plan."
+    },
+    {
+      "id": "ss99-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The main idea was expressed clearly.",
+      "promptZh": "主要觀點表達得很清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main idea was well articulated.",
+      "answerZh": "主要觀點闡述得很清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The main idea was well articulated."
+    },
+    {
+      "id": "ss99-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "His voice reached the back of the hall clearly.",
+      "promptZh": "他的聲音清楚地傳到禮堂後方。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His voice was well projected to the back of the hall.",
+      "answerZh": "他的聲音能清楚傳到禮堂後方。",
+      "answerZhSource": "pdf",
+      "highlight": "His voice was well projected to the back of the hall."
+    },
+    {
+      "id": "ss99-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The old building is kept in excellent condition.",
+      "promptZh": "這座舊建築物保持在非常良好的狀態。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old building is well maintained.",
+      "answerZh": "這座舊建築物保養得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "The old building is well maintained."
+    },
+    {
+      "id": "ss99-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop is run efficiently.",
+      "promptZh": "這間店舖營運得很有效率。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is well managed.",
+      "answerZh": "這間店舖管理得宜。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is well managed."
+    },
+    {
+      "id": "ss99-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The science laboratory has all the equipment students need.",
+      "promptZh": "科學實驗室備有學生所需的全部設備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science laboratory is well equipped.",
+      "answerZh": "科學實驗室設備完善。",
+      "answerZhSource": "pdf",
+      "highlight": "The science laboratory is well equipped."
+    },
+    {
+      "id": "ss99-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The article is based on careful research.",
+      "promptZh": "這篇文章以仔細研究為基礎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article is well researched.",
+      "answerZh": "這篇文章的研究十分充分。",
+      "answerZhSource": "pdf",
+      "highlight": "The article is well researched."
+    },
+    {
+      "id": "ss99-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The instructions are arranged in a clear order.",
+      "promptZh": "這些指示按清晰次序排列。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions are well structured.",
+      "answerZh": "這些指示結構清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions are well structured."
+    },
+    {
+      "id": "ss99-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team selected the date carefully.",
+      "promptZh": "團隊仔細選擇了這個日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The date was well chosen by the team.",
+      "answerZh": "團隊選擇了一個合適的日期。",
+      "answerZhSource": "pdf",
+      "highlight": "The date was well chosen by the team."
+    },
+    {
+      "id": "ss99-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The neighbourhood has convenient road and rail links.",
+      "promptZh": "這個社區有便利的道路及鐵路連接。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is a well-connected neighbourhood.",
+      "answerZh": "這是一個交通網絡完善的社區。",
+      "answerZhSource": "pdf",
+      "highlight": "This is a well-connected neighbourhood."
+    },
+    {
+      "id": "ss99-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The young child has adjusted successfully to school life.",
+      "promptZh": "這名年幼孩子已成功適應校園生活。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The young child is well adjusted to school life.",
+      "answerZh": "這名年幼孩子已良好適應校園生活。",
+      "answerZhSource": "pdf",
+      "highlight": "The young child is well adjusted to school life."
+    },
+    {
+      "id": "ss99-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mina is an author whom many people know.",
+      "promptZh": "米娜是一位很多人都認識的作家。",
+      "promptZhSource": "pdf",
+      "starter": "Mina",
+      "answer": "Mina is a well-known author.",
+      "answerZh": "米娜是一位知名作家。",
+      "answerZhSource": "pdf",
+      "highlight": "Mina is a well-known author."
+    },
+    {
+      "id": "ss99-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The candidate has the right education and skills for the job.",
+      "promptZh": "這名應徵者具備這份工作所需的學歷和技能。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The candidate is well qualified for the job.",
+      "answerZh": "這名應徵者充分具備這份工作的資格。",
+      "answerZhSource": "pdf",
+      "highlight": "The candidate is well qualified for the job."
+    },
+    {
+      "id": "ss99-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This local charity has operated for many years and is trusted in the community.",
+      "promptZh": "這間本地慈善機構營運多年，並深受社區信任。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is a well-established local charity.",
+      "answerZh": "這是一間根基穩固的本地慈善機構。",
+      "answerZhSource": "pdf",
+      "highlight": "It is a well-established local charity."
+    },
+    {
+      "id": "ss99-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Strong evidence supports the research findings.",
+      "promptZh": "有力證據支持這些研究結果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research findings are well supported by strong evidence.",
+      "answerZh": "這些研究結果有充分的有力證據支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The research findings are well supported by strong evidence."
+    },
+    {
+      "id": "ss99-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The safety procedures are recorded clearly and in detail.",
+      "promptZh": "安全程序記錄得清楚而詳細。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety procedures are well documented.",
+      "answerZh": "安全程序已有清楚而詳細的記錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety procedures are well documented."
+    },
+    {
+      "id": "ss99-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher explained the proposal clearly.",
+      "promptZh": "老師清楚解釋了這項建議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal was well explained by the teacher.",
+      "answerZh": "老師把這項建議解釋得很清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal was well explained by the teacher."
+    },
+    {
+      "id": "ss99-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The two colours look good together.",
+      "promptZh": "這兩種顏色配搭得很好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The two colours are well matched.",
+      "answerZh": "這兩種顏色配搭得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "The two colours are well matched."
+    },
+    {
+      "id": "ss99-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The job is suitable for Leo’s skills and personality.",
+      "promptZh": "這份工作適合里奧的技能和性格。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo is well suited to the job.",
+      "answerZh": "里奧很適合這份工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo is well suited to the job."
+    },
+    {
+      "id": "ss99-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The report has a clear introduction, middle section and conclusion.",
+      "promptZh": "這份報告有清楚的引言、主體及結論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is well structured.",
+      "answerZh": "這份報告結構清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is well structured."
+    },
+    {
+      "id": "ss99-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The speaker presented the information clearly and professionally.",
+      "promptZh": "講者清楚而專業地講解資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The information was well presented by the speaker.",
+      "answerZh": "講者把資料表達得清楚而專業。",
+      "answerZhSource": "pdf",
+      "highlight": "The information was well presented by the speaker."
+    },
+    {
+      "id": "ss99-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The film was made to a high technical standard.",
+      "promptZh": "這部電影以高技術水平製作。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was a well-produced film.",
+      "answerZh": "這是一部製作精良的電影。",
+      "answerZhSource": "pdf",
+      "highlight": "It was a well-produced film."
+    },
+    {
+      "id": "ss99-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Staff responded positively to the new policy.",
+      "promptZh": "員工對新政策反應正面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy was well received by staff.",
+      "answerZh": "新政策獲員工正面接受。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy was well received by staff."
+    },
+    {
+      "id": "ss99-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A large number of people attended the public talk.",
+      "promptZh": "很多人出席了這場公開講座。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was a well-attended public talk.",
+      "answerZh": "這是一場出席人數眾多的公開講座。",
+      "answerZhSource": "pdf",
+      "highlight": "It was a well-attended public talk."
+    },
+    {
+      "id": "ss99-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company gives its engineers good salaries.",
+      "promptZh": "公司給工程師優厚薪酬。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The engineers are well paid by the company.",
+      "answerZh": "這間公司給予工程師優厚薪酬。",
+      "answerZhSource": "pdf",
+      "highlight": "The engineers are well paid by the company."
+    },
+    {
+      "id": "ss99-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The warning came at exactly the right moment.",
+      "promptZh": "警告在最適當的時刻出現。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warning was well timed.",
+      "answerZh": "這項警告發出的時機非常恰當。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning was well timed."
+    },
+    {
+      "id": "ss99-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The writer selected the examples carefully.",
+      "promptZh": "作者仔細選擇了例子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The examples were well chosen by the writer.",
+      "answerZh": "作者選擇的例子十分恰當。",
+      "answerZhSource": "pdf",
+      "highlight": "The examples were well chosen by the writer."
+    },
+    {
+      "id": "ss99-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The email uses clear, polite and suitable language.",
+      "promptZh": "這封電郵使用清楚、有禮而合適的措辭。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is a well-worded email.",
+      "answerZh": "這是一封措辭恰當的電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "It is a well-worded email."
+    },
+    {
+      "id": "ss99-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum protects its oldest paintings carefully.",
+      "promptZh": "博物館小心保護館內最古老的畫作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum’s oldest paintings are well protected.",
+      "answerZh": "博物館內最古老的畫作受到妥善保護。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum’s oldest paintings are well protected."
+    },
+    {
+      "id": "ss99-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The community centre has enough money to run all its programmes properly.",
+      "promptZh": "社區中心有足夠資金妥善營辦所有活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre is well funded.",
+      "answerZh": "這間社區中心資金充足。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre is well funded."
+    },
+    {
+      "id": "ss99-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach has given the team strong motivation to continue working towards the goal.",
+      "promptZh": "教練給予球隊強大動力，讓他們繼續朝目標努力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team is well motivated to continue working towards the goal.",
+      "answerZh": "球隊有充分動力繼續朝目標努力。",
+      "answerZhSource": "pdf",
+      "highlight": "The team is well motivated to continue working towards the goal."
+    },
+    {
+      "id": "ss99-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new system has been tested carefully in many different situations.",
+      "promptZh": "新系統已在多種不同情況下接受仔細測試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system has been well tested in many different situations.",
+      "answerZh": "新系統已在多種不同情況下接受充分測試。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system has been well tested in many different situations."
+    },
+    {
+      "id": "ss99-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clear signs show the hiking route from beginning to end.",
+      "promptZh": "清楚的標誌由起點到終點指示行山路線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hiking route is well marked from beginning to end.",
+      "answerZh": "行山路線由起點到終點都有清楚標示。",
+      "answerZhSource": "pdf",
+      "highlight": "The hiking route is well marked from beginning to end."
+    },
+    {
+      "id": "ss99-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital is in a convenient place near several bus routes.",
+      "promptZh": "醫院位於數條巴士路線附近的便利位置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital is well located near several bus routes.",
+      "answerZh": "醫院的位置便利，鄰近數條巴士路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital is well located near several bus routes."
+    },
+    {
+      "id": "ss99-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report expresses its central argument in a clear and effective way.",
+      "promptZh": "報告以清楚而有效的方式表達核心論點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report’s central argument is well articulated.",
+      "answerZh": "報告的核心論點闡述得清楚有力。",
+      "answerZhSource": "pdf",
+      "highlight": "The report’s central argument is well articulated."
+    },
+    {
+      "id": "ss99-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The actor spoke loudly and clearly enough for the whole theatre to hear every line.",
+      "promptZh": "演員說話響亮清楚，讓整個劇院都能聽到每句對白。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The actor’s voice was well projected, so the whole theatre could hear every line.",
+      "answerZh": "演員的聲線投射清楚有力，因此整個劇院都能聽到每句對白。",
+      "answerZhSource": "pdf",
+      "highlight": "The actor’s voice was well projected, so the whole theatre could hear every line."
+    },
+    {
+      "id": "ss99-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school provides education that develops students academically, socially and physically.",
+      "promptZh": "學校提供能促進學生學業、社交及體能發展的教育。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school provides a well-rounded education.",
+      "answerZh": "學校提供全面均衡的教育。",
+      "answerZhSource": "pdf",
+      "highlight": "The school provides a well-rounded education."
+    },
+    {
+      "id": "ss99-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the staff had studied and practised the emergency plan, they were fully ready for the event.",
+      "promptZh": "由於員工已研習並練習緊急應變計劃，他們已為活動做好充分準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The staff were well prepared for the event because they had studied and practised the emergency plan.",
+      "answerZh": "員工已研習並練習緊急應變計劃，因此為活動做好了充分準備。",
+      "answerZhSource": "pdf",
+      "highlight": "The staff were well prepared for the event because they had studied and practised the emergency plan."
+    },
+    {
+      "id": "ss99-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The building has a strong structure, is kept in good condition and has convenient transport links.",
+      "promptZh": "這座建築物結構穩固、保養良好，而且交通連接方便。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building is well built, well maintained and well connected.",
+      "answerZh": "這座建築物建造穩固、保養良好，而且交通連接方便。",
+      "answerZhSource": "pdf",
+      "highlight": "The building is well built, well maintained and well connected."
+    }
+  ]
+}

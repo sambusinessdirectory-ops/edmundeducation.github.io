@@ -51,7 +51,7 @@ def parse_args() -> argparse.Namespace:
         "--lesson-dir",
         type=Path,
         default=Path(__file__).resolve().parent / "sentence-structure-lessons",
-        help="Directory containing ss05.json through ss70.json.",
+        help="Directory containing ss05.json through ss114.json.",
     )
     parser.add_argument(
         "--first",
@@ -62,7 +62,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--last",
         type=int,
-        default=70,
+        default=114,
         help="Last lesson number to verify.",
     )
     return parser.parse_args()
@@ -93,6 +93,13 @@ def verify_lesson(json_path: Path, pdf_dir: Path) -> list[str]:
         question_id = str(question.get("id", "missing-question-id"))
         pages = question.get("source") or {}
         checks = [("prompt", "questionPage", question.get("prompt"))]
+        if "cueSource" in question:
+            if question.get("cueSource") != "pdf":
+                errors.append(
+                    f"{question_id}: unsupported cueSource {question.get('cueSource')!r}"
+                )
+            else:
+                checks.append(("cue", "cuePage", question.get("cue")))
         if question.get("promptZhSource", "pdf") == "pdf":
             checks.append(
                 (

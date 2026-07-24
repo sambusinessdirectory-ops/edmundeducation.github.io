@@ -1,0 +1,1242 @@
+{
+  "id": "ss98",
+  "order": 98,
+  "slug": "just-as-adjective-adverb-as",
+  "title": "「Just as + 形容詞／副詞」同等程度句型",
+  "titleZh": "「Just as + 形容詞／副詞」表達「同樣程度」",
+  "titleEn": "Using just as + adjective / adverb + as to express equal degree",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 98 -「Just as + 形容詞／副詞」表達「同樣程度」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "A + be + just as + adjective + as + B",
+  "formulas": [
+    {
+      "id": "ss98-formula-adjective",
+      "labelEn": "Adjective comparison",
+      "labelZh": "形容詞比較",
+      "formula": "A + be + just as + adjective + as + B"
+    },
+    {
+      "id": "ss98-formula-adverb",
+      "labelEn": "Adverb comparison",
+      "labelZh": "副詞比較",
+      "formula": "A + action verb + just as + adverb + as + B"
+    },
+    {
+      "id": "ss98-formula-short",
+      "labelEn": "Contextual short form",
+      "labelZh": "根據上文省略比較對象",
+      "formula": "A + be / action verb + just as + adjective / adverb"
+    }
+  ],
+  "example": "Watching videos on YouTube is just as effective as reading.",
+  "exampleZh": "觀看 YouTube 影片和閱讀一樣有效。",
+  "examples": [
+    {
+      "id": "ss98-example-adjective",
+      "en": "Watching videos on YouTube is just as effective as reading.",
+      "zh": "觀看 YouTube 影片和閱讀一樣有效。",
+      "highlight": "just as effective as reading"
+    },
+    {
+      "id": "ss98-example-adverb",
+      "en": "Maya explained the idea just as clearly as her teacher did.",
+      "zh": "瑪雅解釋這個概念時和她的老師一樣清楚。",
+      "highlight": "just as clearly as her teacher did"
+    },
+    {
+      "id": "ss98-example-short",
+      "en": "People enjoy learning by reading, but I believe that watching videos on YouTube is just as effective.",
+      "zh": "人們喜歡透過閱讀學習，但我相信觀看 YouTube 影片也同樣有效。",
+      "highlight": "just as effective"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示兩個人物、事物或活動在某方面具有相同程度或以相同程度完成動作。"
+  },
+  "rules": [
+    {
+      "id": "ss98-rule-01",
+      "zh": "這裏的 just 用來強調兩者的程度相同，不是「只是」的意思。",
+      "en": "Here, just emphasises that the two things have exactly the same degree; it does not mean only.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The smaller room is just as comfortable as the larger room."
+      ]
+    },
+    {
+      "id": "ss98-rule-02",
+      "zh": "形容詞前通常需要 be：Subject + be + just as + adjective + as + comparison。",
+      "en": "An adjective comparison normally needs be before just as.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The second task is just as difficult as the first task."
+      ]
+    },
+    {
+      "id": "ss98-rule-03",
+      "zh": "一般動詞後使用副詞；修飾 works 等動詞時要使用 carefully，而不是 careful。",
+      "en": "Use an adverb after an action verb; for example, carefully rather than careful modifies works.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Ben works just as carefully as his colleague."
+      ]
+    },
+    {
+      "id": "ss98-rule-04",
+      "zh": "Just as 必須與第二個 as 配合，不可使用 than。",
+      "en": "Just as must pair with a second as, not than.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The bus is just as convenient as the train."
+      ]
+    },
+    {
+      "id": "ss98-rule-05",
+      "zh": "比較的兩部分要屬於同一類，例如人與人、物件與物件、活動與活動。",
+      "en": "The two sides of the comparison should belong to the same category, such as person with person or activity with activity.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Reading the instructions is just as important as checking the answers."
+      ]
+    },
+    {
+      "id": "ss98-rule-06",
+      "zh": "本練習只集中教授 just as + adjective / adverb + as，不包括 just as 表示「就在……時」或「正如」的用法。",
+      "en": "This lesson covers only just as + adjective / adverb + as, not just as meaning at the exact time or in the way stated.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss98-benefit-01",
+      "zh": "這個句型可以直接告訴讀者，第一項事物並不比第二項較差、較弱或較不重要。",
+      "en": "It clearly shows that two things have the same degree and that the first is not weaker or less important.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss98-benefit-02",
+      "zh": "它可以糾正因一件事較便宜、較小或較簡單便認為它一定較差的常見假設。",
+      "en": "It helps correct common assumptions that something cheaper, smaller or simpler must be worse.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss98-benefit-03",
+      "zh": "它把完整比較放在一句之內，不需要分開寫兩個重複的短句。",
+      "en": "It combines a complete comparison in one sentence instead of using two repetitive short sentences.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss98-benefit-04",
+      "zh": "加入 just 可以強調「確實同樣」，令比較更有力和明確。",
+      "en": "Adding just makes the equal comparison stronger and more explicit.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss98-benefit-05",
+      "zh": "這個框架適合用於日常對話、作文、報告、辯論及英語口試。",
+      "en": "It provides a practical speaking and writing frame for conversations, essays, reports, debates and oral examinations.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using just as … as to show that two people, things or actions have the same degree of a quality.",
+      "You may need to change a noun into an adjective or an adjective into an adverb.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 just as … as 改寫以下句子，以表達兩個人物、事物或活動在某方面程度相同。",
+      "部分題目可能需要把名詞改為形容詞，或把形容詞改為副詞。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss98-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The blue bag and the red bag are equally light.",
+      "promptZh": "藍色袋和紅色袋同樣輕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue bag is just as light as the red bag.",
+      "answerZh": "藍色袋和紅色袋一樣輕。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue bag is just as light as the red bag."
+    },
+    {
+      "id": "ss98-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Walking and cycling provide the same health benefits.",
+      "promptZh": "步行和踏單車帶來相同的健康益處。",
+      "promptZhSource": "pdf",
+      "starter": "Walking",
+      "answer": "Walking is just as healthy as cycling.",
+      "answerZh": "步行和踏單車同樣有益健康。",
+      "answerZhSource": "pdf",
+      "highlight": "Walking is just as healthy as cycling."
+    },
+    {
+      "id": "ss98-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is no difference in how interesting this book and that one are.",
+      "promptZh": "這本書和那本書同樣有趣，沒有分別。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This book is just as interesting as that one.",
+      "answerZh": "這本書和那本書一樣有趣。",
+      "answerZhSource": "pdf",
+      "highlight": "This book is just as interesting as that one."
+    },
+    {
+      "id": "ss98-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy shows the same amount of patience as her sister.",
+      "promptZh": "艾米和她的姐姐同樣有耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy is just as patient as her sister.",
+      "answerZh": "艾米和她的姐姐一樣有耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy is just as patient as her sister."
+    },
+    {
+      "id": "ss98-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Students found the first and second tests equally difficult.",
+      "promptZh": "學生認為第一次和第二次測驗同樣困難。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students found the second test just as difficult as the first test.",
+      "answerZh": "學生認為第二次測驗和第一次測驗一樣困難。",
+      "answerZhSource": "pdf",
+      "highlight": "Students found the second test just as difficult as the first test."
+    },
+    {
+      "id": "ss98-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Travelling by bus offers the same convenience as travelling by train.",
+      "promptZh": "乘搭巴士和乘搭火車同樣方便。",
+      "promptZhSource": "pdf",
+      "starter": "Travelling",
+      "answer": "Travelling by bus is just as convenient as travelling by train.",
+      "answerZh": "乘搭巴士和乘搭火車一樣方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Travelling by bus is just as convenient as travelling by train."
+    },
+    {
+      "id": "ss98-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben and his colleague work with equal care.",
+      "promptZh": "本和他的同事工作時同樣小心。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben works just as carefully as his colleague.",
+      "answerZh": "本工作時和他的同事一樣小心。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben works just as carefully as his colleague."
+    },
+    {
+      "id": "ss98-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Homemade soup tastes as good as restaurant soup.",
+      "promptZh": "自家製的湯和餐廳的湯同樣美味。",
+      "promptZhSource": "pdf",
+      "starter": "Homemade",
+      "answer": "Homemade soup is just as tasty as restaurant soup.",
+      "answerZh": "自家製的湯和餐廳的湯一樣美味。",
+      "answerZhSource": "pdf",
+      "highlight": "Homemade soup is just as tasty as restaurant soup."
+    },
+    {
+      "id": "ss98-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The first room is smaller, but it offers the same level of comfort as the second room.",
+      "promptZh": "第一個房間較小，但它和第二個房間同樣舒適。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the first room is smaller, it is just as comfortable as the second room.",
+      "answerZh": "雖然第一個房間較小，但它和第二個房間一樣舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the first room is smaller, it is just as comfortable as the second room."
+    },
+    {
+      "id": "ss98-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Teachers see no difference in the usefulness of online practice and classroom practice.",
+      "promptZh": "老師認為網上練習和課堂練習同樣有用，沒有分別。",
+      "promptZhSource": "pdf",
+      "starter": "Teachers",
+      "answer": "Teachers consider online practice just as useful as classroom practice.",
+      "answerZh": "老師認為網上練習和課堂練習一樣有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Teachers consider online practice just as useful as classroom practice."
+    },
+    {
+      "id": "ss98-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The afternoon class is as popular as the morning class.",
+      "promptZh": "下午班和早上班同樣受歡迎。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The afternoon class is just as popular as the morning class.",
+      "answerZh": "下午班和早上班一樣受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "The afternoon class is just as popular as the morning class."
+    },
+    {
+      "id": "ss98-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Neither the old laptop nor the newer one is more reliable than the other.",
+      "promptZh": "舊手提電腦和較新的手提電腦同樣可靠，沒有一部較可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old laptop is just as reliable as the newer one.",
+      "answerZh": "舊手提電腦和較新的手提電腦一樣可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The old laptop is just as reliable as the newer one."
+    },
+    {
+      "id": "ss98-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Maya and the teacher explained the rule with equal clarity.",
+      "promptZh": "瑪雅和老師同樣清楚地解釋了規則。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya explained the rule just as clearly as the teacher did.",
+      "answerZh": "瑪雅解釋規則時和老師一樣清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya explained the rule just as clearly as the teacher did."
+    },
+    {
+      "id": "ss98-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A reusable bottle is as practical as a disposable one.",
+      "promptZh": "可重用水瓶和即棄水瓶同樣實用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A reusable bottle is just as practical as a disposable one.",
+      "answerZh": "可重用水瓶和即棄水瓶一樣實用。",
+      "answerZhSource": "pdf",
+      "highlight": "A reusable bottle is just as practical as a disposable one."
+    },
+    {
+      "id": "ss98-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The local shop and the shopping centre are equally busy.",
+      "promptZh": "本地商店和購物中心同樣繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local shop is just as busy as the shopping centre.",
+      "answerZh": "本地商店和購物中心一樣繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The local shop is just as busy as the shopping centre."
+    },
+    {
+      "id": "ss98-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Reading the instructions matters as much as checking the answers.",
+      "promptZh": "閱讀指示和檢查答案同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "Reading",
+      "answer": "Reading the instructions is just as important as checking the answers.",
+      "answerZh": "閱讀指示和檢查答案一樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading the instructions is just as important as checking the answers."
+    },
+    {
+      "id": "ss98-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The younger player ran at the same speed as the captain.",
+      "promptZh": "較年輕的球員和隊長跑得同樣快。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The younger player ran just as quickly as the captain.",
+      "answerZh": "較年輕的球員和隊長跑得一樣快。",
+      "answerZhSource": "pdf",
+      "highlight": "The younger player ran just as quickly as the captain."
+    },
+    {
+      "id": "ss98-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The cheaper ticket offers the same flexibility as the expensive ticket.",
+      "promptZh": "較便宜的門票和昂貴的門票提供相同的彈性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cheaper ticket is just as flexible as the expensive ticket.",
+      "answerZh": "較便宜的門票和昂貴的門票一樣有彈性。",
+      "answerZhSource": "pdf",
+      "highlight": "The cheaper ticket is just as flexible as the expensive ticket."
+    },
+    {
+      "id": "ss98-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new and old timetables are equally simple to follow.",
+      "promptZh": "新舊時間表同樣容易理解。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable is just as simple to follow as the old one.",
+      "answerZh": "新時間表和舊時間表一樣容易理解。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable is just as simple to follow as the old one."
+    },
+    {
+      "id": "ss98-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A short break can help you as much as a long rest.",
+      "promptZh": "短暫休息和長時間休息同樣可以幫到你。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A short break can be just as helpful as a long rest.",
+      "answerZh": "短暫休息和長時間休息一樣有幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "A short break can be just as helpful as a long rest."
+    },
+    {
+      "id": "ss98-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Visitors find the community library and the city library equally welcoming.",
+      "promptZh": "訪客認為社區圖書館和市立圖書館同樣親切舒適。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors find the community library just as welcoming as the city library.",
+      "answerZh": "訪客認為社區圖書館和市立圖書館一樣親切舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors find the community library just as welcoming as the city library."
+    },
+    {
+      "id": "ss98-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "Learning from mistakes and learning from success have equal value.",
+      "promptZh": "從錯誤中學習和從成功中學習同樣有價值。",
+      "promptZhSource": "pdf",
+      "starter": "Learning",
+      "answer": "Learning from mistakes is just as valuable as learning from success.",
+      "answerZh": "從錯誤中學習和從成功中學習一樣有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "Learning from mistakes is just as valuable as learning from success."
+    },
+    {
+      "id": "ss98-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Safety officers judged the first and second routes equally safe.",
+      "promptZh": "安全主任認為第一條和第二條路線同樣安全。",
+      "promptZhSource": "pdf",
+      "starter": "Safety",
+      "answer": "Safety officers judged the second route just as safe as the first route.",
+      "answerZh": "安全主任認為第二條路線和第一條路線一樣安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Safety officers judged the second route just as safe as the first route."
+    },
+    {
+      "id": "ss98-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The cheaper cleaning product works as well as the more expensive brand.",
+      "promptZh": "較便宜的清潔產品和較昂貴的品牌同樣有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cheaper cleaning product is just as effective as the more expensive brand.",
+      "answerZh": "較便宜的清潔產品和較昂貴的品牌一樣有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The cheaper cleaning product is just as effective as the more expensive brand."
+    },
+    {
+      "id": "ss98-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The morning and evening teams responded at the same speed.",
+      "promptZh": "早更和晚更團隊的回應速度相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evening team responded just as quickly as the morning team.",
+      "answerZh": "晚更團隊和早更團隊一樣迅速地回應。",
+      "answerZhSource": "pdf",
+      "highlight": "The evening team responded just as quickly as the morning team."
+    },
+    {
+      "id": "ss98-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A phone call and a face-to-face conversation can feel equally personal.",
+      "promptZh": "電話交談和面對面交談同樣可以令人感到親切。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A phone call can be just as personal as a face-to-face conversation.",
+      "answerZh": "電話交談可以和面對面交談一樣親切。",
+      "answerZhSource": "pdf",
+      "highlight": "A phone call can be just as personal as a face-to-face conversation."
+    },
+    {
+      "id": "ss98-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A repaired bicycle can feel as smooth to ride as a new one.",
+      "promptZh": "修理好的單車可以和新單車一樣順暢易騎。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A repaired bicycle can be just as smooth to ride as a new one.",
+      "answerZh": "修理好的單車可以和新單車一樣順暢易騎。",
+      "answerZhSource": "pdf",
+      "highlight": "A repaired bicycle can be just as smooth to ride as a new one."
+    },
+    {
+      "id": "ss98-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school website and the mobile app are equally easy to use.",
+      "promptZh": "學校網站和手機應用程式同樣容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school website is just as easy to use as the mobile app.",
+      "answerZh": "學校網站和手機應用程式一樣容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The school website is just as easy to use as the mobile app."
+    },
+    {
+      "id": "ss98-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Protecting local parks and building new facilities are equally important.",
+      "promptZh": "保護本地公園和興建新設施同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "Protecting",
+      "answer": "Protecting local parks is just as important as building new facilities.",
+      "answerZh": "保護本地公園和興建新設施一樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Protecting local parks is just as important as building new facilities."
+    },
+    {
+      "id": "ss98-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The smaller and larger printers make the same low level of noise while operating.",
+      "promptZh": "較小和較大的打印機運作時發出的聲量同樣低。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The smaller printer operates just as quietly as the larger printer.",
+      "answerZh": "較小的打印機運作時和較大的打印機一樣安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The smaller printer operates just as quietly as the larger printer."
+    },
+    {
+      "id": "ss98-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Nina does not use expensive equipment, but her photos and Leo’s are equally sharp.",
+      "promptZh": "妮娜沒有使用昂貴設備，但她和里奧拍攝的照片同樣清晰。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even without expensive equipment, Nina’s photos are just as sharp as Leo’s.",
+      "answerZh": "即使沒有昂貴設備，妮娜的照片和里奧的照片一樣清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "Even without expensive equipment, Nina’s photos are just as sharp as Leo’s."
+    },
+    {
+      "id": "ss98-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The online form and the paper form were equally easy to complete.",
+      "promptZh": "網上表格和紙本表格同樣容易填寫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The online form was just as easy to complete as the paper form.",
+      "answerZh": "網上表格和紙本表格一樣容易填寫。",
+      "answerZhSource": "pdf",
+      "highlight": "The online form was just as easy to complete as the paper form."
+    },
+    {
+      "id": "ss98-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A calm explanation and a forceful argument can have equal persuasive power.",
+      "promptZh": "平靜的解釋和強而有力的論點可以同樣有說服力。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A calm explanation can be just as persuasive as a forceful argument.",
+      "answerZh": "平靜的解釋可以和強而有力的論點一樣有說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "A calm explanation can be just as persuasive as a forceful argument."
+    },
+    {
+      "id": "ss98-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The side entrance offers the same level of access as the main entrance.",
+      "promptZh": "側門和正門同樣方便進出。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The side entrance is just as accessible as the main entrance.",
+      "answerZh": "側門和正門一樣方便進出。",
+      "answerZhSource": "pdf",
+      "highlight": "The side entrance is just as accessible as the main entrance."
+    },
+    {
+      "id": "ss98-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The first and second candidates answered with equal confidence.",
+      "promptZh": "第一位和第二位應徵者回答時同樣有信心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second candidate answered just as confidently as the first candidate.",
+      "answerZh": "第二位應徵者回答時和第一位應徵者一樣有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "The second candidate answered just as confidently as the first candidate."
+    },
+    {
+      "id": "ss98-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Cooking at home and eating at a restaurant can bring the same enjoyment.",
+      "promptZh": "在家煮食和到餐廳用膳可以帶來相同的樂趣。",
+      "promptZhSource": "pdf",
+      "starter": "Cooking",
+      "answer": "Cooking at home can be just as enjoyable as eating at a restaurant.",
+      "answerZh": "在家煮食可以和到餐廳用膳一樣有樂趣。",
+      "answerZhSource": "pdf",
+      "highlight": "Cooking at home can be just as enjoyable as eating at a restaurant."
+    },
+    {
+      "id": "ss98-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The repaired lift and the new lift are equally dependable.",
+      "promptZh": "修理好的升降機和新的升降機同樣可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repaired lift is just as dependable as the new lift.",
+      "answerZh": "修理好的升降機和新的升降機一樣可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The repaired lift is just as dependable as the new lift."
+    },
+    {
+      "id": "ss98-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Readers found the final and opening chapters equally engaging.",
+      "promptZh": "讀者認為最後一章和開首一章同樣吸引。",
+      "promptZhSource": "pdf",
+      "starter": "Readers",
+      "answer": "Readers found the final chapter just as engaging as the opening chapter.",
+      "answerZh": "讀者認為最後一章和開首一章一樣吸引。",
+      "answerZhSource": "pdf",
+      "highlight": "Readers found the final chapter just as engaging as the opening chapter."
+    },
+    {
+      "id": "ss98-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Tests showed that the simple method and the more complicated method were equally accurate.",
+      "promptZh": "測試顯示，簡單方法和較複雜的方法同樣準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tests showed that the simple method was just as accurate as the more complicated method.",
+      "answerZh": "測試顯示，簡單方法和較複雜的方法一樣準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The tests showed that the simple method was just as accurate as the more complicated method."
+    },
+    {
+      "id": "ss98-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The neighbourhood clinic and the large hospital provide care with equal efficiency.",
+      "promptZh": "社區診所和大型醫院提供護理服務時同樣有效率。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbourhood clinic provides care just as efficiently as the large hospital.",
+      "answerZh": "社區診所提供護理服務時和大型醫院一樣有效率。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbourhood clinic provides care just as efficiently as the large hospital."
+    },
+    {
+      "id": "ss98-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The local museum is smaller than the national museum, but the two museums are equally informative.",
+      "promptZh": "本地博物館比國家博物館小，但兩間博物館同樣資料豐富。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the local museum is smaller, it is just as informative as the national museum.",
+      "answerZh": "雖然本地博物館較小，但它和國家博物館一樣資料豐富。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the local museum is smaller, it is just as informative as the national museum."
+    },
+    {
+      "id": "ss98-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For beginners, practising with a partner and studying alone can be equally effective.",
+      "promptZh": "對初學者來說，與同伴練習和獨自學習可以同樣有效。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For beginners, practising with a partner can be just as effective as studying alone.",
+      "answerZh": "對初學者來說，與同伴練習可以和獨自學習一樣有效。",
+      "answerZhSource": "pdf",
+      "highlight": "For beginners, practising with a partner can be just as effective as studying alone."
+    },
+    {
+      "id": "ss98-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Elderly passengers find the old and new bus routes equally convenient.",
+      "promptZh": "年長乘客認為新舊巴士路線同樣方便。",
+      "promptZhSource": "pdf",
+      "starter": "Elderly",
+      "answer": "Elderly passengers find the new bus route just as convenient as the old route.",
+      "answerZh": "年長乘客認為新巴士路線和舊路線一樣方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Elderly passengers find the new bus route just as convenient as the old route."
+    },
+    {
+      "id": "ss98-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new instructions are shorter, but they are as complete as the original version.",
+      "promptZh": "新指示較短，但和原本版本同樣完整。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the new instructions are shorter, they are just as complete as the original version.",
+      "answerZh": "雖然新指示較短，但和原本版本一樣完整。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the new instructions are shorter, they are just as complete as the original version."
+    },
+    {
+      "id": "ss98-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The remote team and the office team communicated with the same regularity.",
+      "promptZh": "遙距工作團隊和辦公室團隊溝通得同樣頻密。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The remote team communicated just as regularly as the office team.",
+      "answerZh": "遙距工作團隊和辦公室團隊一樣定期溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "The remote team communicated just as regularly as the office team."
+    },
+    {
+      "id": "ss98-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "With careful planning, a low-cost event and an expensive celebration can be equally memorable.",
+      "promptZh": "只要仔細規劃，低成本活動和昂貴慶祝活動可以同樣令人難忘。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With careful planning, a low-cost event can be just as memorable as an expensive celebration.",
+      "answerZh": "只要仔細規劃，低成本活動可以和昂貴慶祝活動一樣令人難忘。",
+      "answerZhSource": "pdf",
+      "highlight": "With careful planning, a low-cost event can be just as memorable as an expensive celebration."
+    },
+    {
+      "id": "ss98-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The temporary classroom and the main classroom are equally suitable for group work.",
+      "promptZh": "臨時課室和主要課室同樣適合小組活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The temporary classroom is just as suitable for group work as the main classroom.",
+      "answerZh": "臨時課室和主要課室一樣適合小組活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The temporary classroom is just as suitable for group work as the main classroom."
+    },
+    {
+      "id": "ss98-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even with fewer resources, the online lesson and the classroom lesson can be equally interactive.",
+      "promptZh": "即使資源較少，網上課堂和實體課堂也可以同樣互動。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even with fewer resources, the online lesson can be just as interactive as the classroom lesson.",
+      "answerZh": "即使資源較少，網上課堂也可以和實體課堂一樣互動。",
+      "answerZhSource": "pdf",
+      "highlight": "Even with fewer resources, the online lesson can be just as interactive as the classroom lesson."
+    },
+    {
+      "id": "ss98-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Tourists find the digital map and the printed guide equally useful.",
+      "promptZh": "旅客認為電子地圖和印刷指南同樣有用。",
+      "promptZhSource": "pdf",
+      "starter": "Tourists",
+      "answer": "Tourists find the digital map just as useful as the printed guide.",
+      "answerZh": "旅客認為電子地圖和印刷指南一樣有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Tourists find the digital map just as useful as the printed guide."
+    },
+    {
+      "id": "ss98-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The basic programme has fewer features, but it handles routine tasks as capably as the advanced programme.",
+      "promptZh": "基本程式的功能較少，但處理日常任務時和進階程式同樣勝任。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the basic programme has fewer features, it is just as capable of handling routine tasks as the advanced programme.",
+      "answerZh": "雖然基本程式的功能較少，但它處理日常任務時和進階程式一樣勝任。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the basic programme has fewer features, it is just as capable of handling routine tasks as the advanced programme."
+    }
+  ]
+}

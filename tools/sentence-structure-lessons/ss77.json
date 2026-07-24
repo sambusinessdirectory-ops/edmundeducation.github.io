@@ -1,0 +1,1133 @@
+{
+  "id": "ss77",
+  "order": 77,
+  "slug": "sentence-structure-77",
+  "title": "「Why not ... if ...?」句型",
+  "titleZh": "「Why not ... if ...?」句：以條件或理由提出建議",
+  "titleEn": "Using Why not ... if ...? to make a suggestion supported by a condition or reason",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 77 -「Why not ... if ... 句」以條件或理由提出建議.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": []
+  },
+  "formula": "Why not + base verb + other information + if + subject + verb + other information?",
+  "formulas": [
+    {
+      "id": "ss77-formula-main",
+      "labelZh": "目標句型",
+      "labelEn": "Target structure",
+      "formula": "Why not + base verb + other information + if + subject + verb + other information?"
+    }
+  ],
+  "example": "Why not study harder if we know it is good for us?",
+  "exampleZh": "既然我們知道更努力讀書對自己有好處，為甚麼不更努力讀書呢？",
+  "examples": [
+    {
+      "id": "ss77-example-main",
+      "en": "Why not study harder if we know it is good for us?",
+      "zh": "既然我們知道更努力讀書對自己有好處，為甚麼不更努力讀書呢？",
+      "highlight": "Why not study harder if"
+    }
+  ],
+  "meaning": {
+    "zh": "當某個條件或已知理由支持一項行動時，可使用這個句型提出建議或反問。"
+  },
+  "rules": [
+    {
+      "id": "ss77-rule-01",
+      "zh": "Why not 後面必須使用原形動詞。",
+      "en": "Use a base verb after Why not."
+    },
+    {
+      "id": "ss77-rule-02",
+      "zh": "Why not 後面不會直接寫出 you、we 或 they；誰應該採取行動，通常由上文或說話情境決定。",
+      "en": "The subject after Why not is not stated; the context shows who should act."
+    },
+    {
+      "id": "ss77-rule-03",
+      "zh": "If 可以表示真正的條件，也可以帶出雙方已經知道的理由。",
+      "en": "If can introduce a real condition or an accepted fact."
+    },
+    {
+      "id": "ss77-rule-04",
+      "zh": "當 if 子句放在句末時，標準書面英語通常不需要在 if 前加逗號。",
+      "en": "A comma is normally unnecessary before a final if-clause."
+    },
+    {
+      "id": "ss77-rule-05",
+      "zh": "這個句型採用問句形式，因此句末應使用問號。",
+      "en": "End the sentence with a question mark."
+    },
+    {
+      "id": "ss77-rule-06",
+      "zh": "Why not 通常以反問方式提出建議，語氣比直接命令較柔和。",
+      "en": "Why not usually makes a suggestion rather than a direct order."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss77-benefit-01",
+      "zh": "它能在同一句中提出行動，並說明支持這項行動的條件或理由。",
+      "en": "It connects a suggestion with its reason."
+    },
+    {
+      "id": "ss77-benefit-02",
+      "zh": "它邀請對方考慮行動，令語氣較自然和較不具命令感。",
+      "en": "It can sound less forceful than a direct instruction."
+    },
+    {
+      "id": "ss77-benefit-03",
+      "zh": "它令人思考既然條件合適，還有甚麼理由不這樣做。",
+      "en": "It encourages the listener to think."
+    },
+    {
+      "id": "ss77-benefit-04",
+      "zh": "它把「情況」和「建議」合併成一個完整問句。",
+      "en": "It combines two ideas into one clear question."
+    },
+    {
+      "id": "ss77-benefit-05",
+      "zh": "Why not ___ if ___? 是可迅速加入行動和理由的實用口語框架。",
+      "en": "It gives you another useful speaking frame."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each suggestion using Why not ... if ...? Keep the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Why not ... if ...? 改寫以下建議，並保留原意。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss77-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Reading more often helps us learn new words, so we should read more often.",
+      "promptZh": "多閱讀有助我們學習新詞彙，所以我們應該更常閱讀。",
+      "starter": "Why",
+      "answer": "Why not read more often if it helps us learn new words?",
+      "answerZh": "既然多閱讀能幫助我們學習新詞彙，為甚麼不更常閱讀呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not read more often if it helps us learn new words?"
+    },
+    {
+      "id": "ss77-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If the bus arrives in ten minutes, it makes sense for us to leave now.",
+      "promptZh": "如果巴士在十分鐘後到達，我們現在出發是合理的。",
+      "starter": "Why",
+      "answer": "Why not leave now if the bus arrives in ten minutes?",
+      "answerZh": "如果巴士在十分鐘後到達，為甚麼不現在出發呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not leave now if the bus arrives in ten minutes?"
+    },
+    {
+      "id": "ss77-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The room feels hot. Opening the window would be a good idea.",
+      "promptZh": "房間感覺很熱。打開窗戶會是個好主意。",
+      "starter": "Why",
+      "answer": "Why not open the window if the room feels hot?",
+      "answerZh": "如果房間感覺很熱，為甚麼不打開窗戶呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not open the window if the room feels hot?"
+    },
+    {
+      "id": "ss77-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "What can you do if the question is difficult? You can ask the teacher.",
+      "promptZh": "如果題目很難，你可以怎樣做？你可以問老師。",
+      "starter": "Why",
+      "answer": "Why not ask the teacher if the question is difficult?",
+      "answerZh": "如果題目很難，為甚麼不問老師呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not ask the teacher if the question is difficult?"
+    },
+    {
+      "id": "ss77-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Rain is expected, so it would be sensible to bring an umbrella.",
+      "promptZh": "預料會下雨，所以帶雨傘會較明智。",
+      "starter": "Why",
+      "answer": "Why not bring an umbrella if rain is expected?",
+      "answerZh": "如果預料會下雨，為甚麼不帶雨傘呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not bring an umbrella if rain is expected?"
+    },
+    {
+      "id": "ss77-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Since we already have enough food, let’s cook at home.",
+      "promptZh": "既然我們已經有足夠食物，不如在家煮飯。",
+      "starter": "Why",
+      "answer": "Why not cook at home if we already have enough food?",
+      "answerZh": "既然我們已經有足夠食物，為甚麼不在家煮飯呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not cook at home if we already have enough food?"
+    },
+    {
+      "id": "ss77-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "How should we get to school? It is nearby, so we could walk.",
+      "promptZh": "我們應該怎樣上學？學校很近，所以我們可以步行前往。",
+      "starter": "Why",
+      "answer": "Why not walk to school if it is nearby?",
+      "answerZh": "如果學校很近，為甚麼不步行上學呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not walk to school if it is nearby?"
+    },
+    {
+      "id": "ss77-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Who could you call for the answer? Mia knows it.",
+      "promptZh": "你可以打給誰詢問答案？米婭知道答案。",
+      "starter": "Why",
+      "answer": "Why not call Mia if she knows the answer?",
+      "answerZh": "如果米婭知道答案，為甚麼不打給她呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not call Mia if she knows the answer?"
+    },
+    {
+      "id": "ss77-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Nobody is using the room, so let’s turn off the lights.",
+      "promptZh": "沒有人正在使用房間，所以我們關燈吧。",
+      "starter": "Why",
+      "answer": "Why not turn off the lights if nobody is using the room?",
+      "answerZh": "如果沒有人使用房間，為甚麼不關燈呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not turn off the lights if nobody is using the room?"
+    },
+    {
+      "id": "ss77-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Regular practice helps us improve. It therefore makes sense to practise English every day.",
+      "promptZh": "恆常練習有助我們進步。因此，每天練習英語是合理的。",
+      "starter": "Why",
+      "answer": "Why not practise English every day if regular practice helps us improve?",
+      "answerZh": "既然恆常練習有助我們進步，為甚麼不每天練習英語呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not practise English every day if regular practice helps us improve?"
+    },
+    {
+      "id": "ss77-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We want to arrive on time, so taking the earlier train would be wise.",
+      "promptZh": "我們想準時到達，所以乘搭較早一班火車會較明智。",
+      "starter": "Why",
+      "answer": "Why not take the earlier train if we want to arrive on time?",
+      "answerZh": "如果我們想準時到達，為甚麼不乘搭較早一班火車呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not take the earlier train if we want to arrive on time?"
+    },
+    {
+      "id": "ss77-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We often forget things. Let’s write a shopping list.",
+      "promptZh": "我們經常忘記事情。不如寫一張購物清單。",
+      "starter": "Why",
+      "answer": "Why not write a shopping list if we often forget things?",
+      "answerZh": "既然我們經常忘記事情，為甚麼不寫購物清單呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not write a shopping list if we often forget things?"
+    },
+    {
+      "id": "ss77-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The weather is getting colder, so wearing a coat would be sensible.",
+      "promptZh": "天氣愈來愈冷，所以穿外套會較明智。",
+      "starter": "Why",
+      "answer": "Why not wear a coat if the weather is getting colder?",
+      "answerZh": "如果天氣愈來愈冷，為甚麼不穿外套呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not wear a coat if the weather is getting colder?"
+    },
+    {
+      "id": "ss77-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The computer sometimes crashes. We should save the file now.",
+      "promptZh": "電腦有時會突然停止運作。我們應該現在儲存檔案。",
+      "starter": "Why",
+      "answer": "Why not save the file now if the computer sometimes crashes?",
+      "answerZh": "既然電腦有時會突然停止運作，為甚麼不現在儲存檔案呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not save the file now if the computer sometimes crashes?"
+    },
+    {
+      "id": "ss77-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The service was poor, so you could speak to the manager.",
+      "promptZh": "服務欠佳，所以你可以向經理反映。",
+      "starter": "Why",
+      "answer": "Why not speak to the manager if the service was poor?",
+      "answerZh": "既然服務欠佳，為甚麼不向經理反映呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not speak to the manager if the service was poor?"
+    },
+    {
+      "id": "ss77-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Your leg still hurts. Using the lift may be easier.",
+      "promptZh": "你的腿仍然疼痛。乘搭升降機可能會較輕鬆。",
+      "starter": "Why",
+      "answer": "Why not use the lift if your leg still hurts?",
+      "answerZh": "既然你的腿仍然疼痛，為甚麼不乘搭升降機呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not use the lift if your leg still hurts?"
+    },
+    {
+      "id": "ss77-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Daniel enjoys cooking too, so let’s invite him.",
+      "promptZh": "丹尼爾也喜歡烹飪，所以我們邀請他吧。",
+      "starter": "Why",
+      "answer": "Why not invite Daniel if he enjoys cooking too?",
+      "answerZh": "既然丹尼爾也喜歡烹飪，為甚麼不邀請他呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not invite Daniel if he enjoys cooking too?"
+    },
+    {
+      "id": "ss77-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If the instructions are not clear, it would help to read them again.",
+      "promptZh": "如果指示不清楚，再閱讀一次會有幫助。",
+      "starter": "Why",
+      "answer": "Why not read the instructions again if they are not clear?",
+      "answerZh": "如果指示不清楚，為甚麼不再閱讀一次呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not read the instructions again if they are not clear?"
+    },
+    {
+      "id": "ss77-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We are going to the same place. Sharing the taxi would make sense.",
+      "promptZh": "我們正前往同一個地方。合乘的士是合理的。",
+      "starter": "Why",
+      "answer": "Why not share the taxi if we are going to the same place?",
+      "answerZh": "既然我們前往同一個地方，為甚麼不合乘的士呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not share the taxi if we are going to the same place?"
+    },
+    {
+      "id": "ss77-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "What could we do today? Admission to the museum is free, so we could visit it.",
+      "promptZh": "我們今天可以做甚麼？博物館免費入場，所以我們可以去參觀。",
+      "starter": "Why",
+      "answer": "Why not visit the museum today if admission is free?",
+      "answerZh": "既然博物館免費入場，為甚麼不今天去參觀呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not visit the museum today if admission is free?"
+    },
+    {
+      "id": "ss77-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You are not sure the timetable is still correct. It would be wise to check it online.",
+      "promptZh": "你不確定時間表是否仍然正確。上網查看會較明智。",
+      "starter": "Why",
+      "answer": "Why not check the timetable online if you are not sure it is still correct?",
+      "answerZh": "如果你不確定時間表是否仍然正確，為甚麼不上網查看呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not check the timetable online if you are not sure it is still correct?"
+    },
+    {
+      "id": "ss77-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The phone battery is almost empty, so it would be sensible to charge the phone now.",
+      "promptZh": "電話電量快將耗盡，所以現在為電話充電會較明智。",
+      "starter": "Why",
+      "answer": "Why not charge the phone now if the battery is almost empty?",
+      "answerZh": "既然電話電量快將耗盡，為甚麼不現在充電呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not charge the phone now if the battery is almost empty?"
+    },
+    {
+      "id": "ss77-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You cannot move the table alone. You should ask for help.",
+      "promptZh": "你不能獨自搬動桌子。你應該求助。",
+      "starter": "Why",
+      "answer": "Why not ask for help if you cannot move the table alone?",
+      "answerZh": "如果你不能獨自搬動桌子，為甚麼不求助呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not ask for help if you cannot move the table alone?"
+    },
+    {
+      "id": "ss77-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You have been working for three hours. A short break may help.",
+      "promptZh": "你已經工作了三小時。稍作休息可能會有幫助。",
+      "starter": "Why",
+      "answer": "Why not take a short break if you have been working for three hours?",
+      "answerZh": "既然你已經工作了三小時，為甚麼不稍作休息呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not take a short break if you have been working for three hours?"
+    },
+    {
+      "id": "ss77-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The broken light could cause an accident, so you should report it.",
+      "promptZh": "這盞損壞的燈可能引致意外，所以你應該報告這個問題。",
+      "starter": "Why",
+      "answer": "Why not report the broken light if it could cause an accident?",
+      "answerZh": "如果損壞的燈可能引致意外，為甚麼不報告這個問題呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not report the broken light if it could cause an accident?"
+    },
+    {
+      "id": "ss77-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The smaller box is easier to carry. Choosing it would be practical.",
+      "promptZh": "較小的箱子更容易搬運。選擇它會較實際。",
+      "starter": "Why",
+      "answer": "Why not choose the smaller box if it is easier to carry?",
+      "answerZh": "如果較小的箱子更容易搬運，為甚麼不選擇它呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not choose the smaller box if it is easier to carry?"
+    },
+    {
+      "id": "ss77-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ticket prices usually rise later, so we should book the tickets early.",
+      "promptZh": "票價通常稍後會上升，所以我們應該提早訂票。",
+      "starter": "Why",
+      "answer": "Why not book the tickets early if prices usually rise later?",
+      "answerZh": "既然票價通常稍後會上升，為甚麼不提早訂票呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not book the tickets early if prices usually rise later?"
+    },
+    {
+      "id": "ss77-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The medicine is making you feel worse. You should tell the doctor.",
+      "promptZh": "藥物令你感到更不適。你應該告訴醫生。",
+      "starter": "Why",
+      "answer": "Why not tell the doctor if the medicine is making you feel worse?",
+      "answerZh": "如果藥物令你感到更不適，為甚麼不告訴醫生呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not tell the doctor if the medicine is making you feel worse?"
+    },
+    {
+      "id": "ss77-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "These bags are still clean, so we can reuse them.",
+      "promptZh": "這些袋仍然乾淨，所以我們可以重用它們。",
+      "starter": "Why",
+      "answer": "Why not reuse these bags if they are still clean?",
+      "answerZh": "既然這些袋仍然乾淨，為甚麼不重用它們呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not reuse these bags if they are still clean?"
+    },
+    {
+      "id": "ss77-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Several people cannot attend in person. We could move the meeting online.",
+      "promptZh": "有幾個人不能親身出席。我們可以把會議改為網上進行。",
+      "starter": "Why",
+      "answer": "Why not move the meeting online if several people cannot attend in person?",
+      "answerZh": "如果有幾個人不能親身出席，為甚麼不把會議改為網上進行呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not move the meeting online if several people cannot attend in person?"
+    },
+    {
+      "id": "ss77-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The main door is being repaired, so we should use the side entrance.",
+      "promptZh": "正門正在維修，所以我們應該使用側門。",
+      "starter": "Why",
+      "answer": "Why not use the side entrance if the main door is being repaired?",
+      "answerZh": "如果正門正在維修，為甚麼不使用側門呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not use the side entrance if the main door is being repaired?"
+    },
+    {
+      "id": "ss77-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The first copy was damaged. You should print another copy.",
+      "promptZh": "第一份副本已損壞。你應該再列印一份。",
+      "starter": "Why",
+      "answer": "Why not print another copy if the first one was damaged?",
+      "answerZh": "如果第一份副本已損壞，為甚麼不再列印一份呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not print another copy if the first one was damaged?"
+    },
+    {
+      "id": "ss77-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The parcel has already been packed. There is no reason to wait until tomorrow to send it.",
+      "promptZh": "包裹已經包裝好，沒有理由等到明天才寄出。",
+      "starter": "Why",
+      "answer": "Why not send the parcel today if it has already been packed?",
+      "answerZh": "既然包裹已經包裝好，為甚麼不今天寄出呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not send the parcel today if it has already been packed?"
+    },
+    {
+      "id": "ss77-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What should you do if you cannot find the book on the shelf? Ask the librarian.",
+      "promptZh": "如果你在書架上找不到那本書，你應該怎樣做？問圖書館員。",
+      "starter": "Why",
+      "answer": "Why not ask the librarian if you cannot find the book on the shelf?",
+      "answerZh": "如果你在書架上找不到那本書，為甚麼不問圖書館員呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not ask the librarian if you cannot find the book on the shelf?"
+    },
+    {
+      "id": "ss77-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The baby is sleeping, so we should lower the music.",
+      "promptZh": "嬰兒正在睡覺，所以我們應該把音樂調低。",
+      "starter": "Why",
+      "answer": "Why not lower the music if the baby is sleeping?",
+      "answerZh": "如果嬰兒正在睡覺，為甚麼不把音樂調低呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not lower the music if the baby is sleeping?"
+    },
+    {
+      "id": "ss77-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The lift is out of order. We should take the stairs.",
+      "promptZh": "升降機發生故障。我們應該走樓梯。",
+      "starter": "Why",
+      "answer": "Why not take the stairs if the lift is out of order?",
+      "answerZh": "如果升降機發生故障，為甚麼不走樓梯呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not take the stairs if the lift is out of order?"
+    },
+    {
+      "id": "ss77-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Both plans have advantages. Comparing them would help us choose.",
+      "promptZh": "兩個計劃各有優點。比較兩者會幫助我們作出選擇。",
+      "starter": "Why",
+      "answer": "Why not compare the two plans if both have advantages?",
+      "answerZh": "如果兩個計劃各有優點，為甚麼不比較一下呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not compare the two plans if both have advantages?"
+    },
+    {
+      "id": "ss77-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The decision is not urgent, so we can wait until tomorrow.",
+      "promptZh": "這項決定並不緊急，所以我們可以等到明天。",
+      "starter": "Why",
+      "answer": "Why not wait until tomorrow if the decision is not urgent?",
+      "answerZh": "如果這項決定並不緊急，為甚麼不等到明天呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not wait until tomorrow if the decision is not urgent?"
+    },
+    {
+      "id": "ss77-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some listeners are having difficulty following you. Speaking more slowly may help.",
+      "promptZh": "部分聽眾難以跟上你的說話。說慢一點可能會有幫助。",
+      "starter": "Why",
+      "answer": "Why not speak more slowly if some listeners are having difficulty following you?",
+      "answerZh": "如果部分聽眾難以跟上你的說話，為甚麼不說慢一點呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not speak more slowly if some listeners are having difficulty following you?"
+    },
+    {
+      "id": "ss77-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Trees can provide shade and cleaner air, so the community should plant more of them.",
+      "promptZh": "樹木可以提供樹蔭和更清新的空氣，所以社區應該種植更多樹木。",
+      "starter": "Why",
+      "answer": "Why not plant more trees if they can provide shade and cleaner air?",
+      "answerZh": "既然樹木可以提供樹蔭和更清新的空氣，為甚麼不種植更多樹木呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not plant more trees if they can provide shade and cleaner air?"
+    },
+    {
+      "id": "ss77-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The unused food is still safe to eat. The restaurant could offer it to a charity.",
+      "promptZh": "未使用的食物仍可安全食用。餐廳可以把食物交給慈善機構。",
+      "starter": "Why",
+      "answer": "Why not offer the unused food to a charity if it is still safe to eat?",
+      "answerZh": "既然未使用的食物仍可安全食用，為甚麼不把它交給慈善機構呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not offer the unused food to a charity if it is still safe to eat?"
+    },
+    {
+      "id": "ss77-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The task requires careful research, so teachers should give students more time.",
+      "promptZh": "這項任務需要仔細研究，所以老師應該給學生更多時間。",
+      "starter": "Why",
+      "answer": "Why not give students more time if the task requires careful research?",
+      "answerZh": "如果這項任務需要仔細研究，為甚麼不給學生更多時間呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not give students more time if the task requires careful research?"
+    },
+    {
+      "id": "ss77-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Visitors often get lost in the building. The management should add clearer signs.",
+      "promptZh": "訪客經常在大樓內迷路。管理人員應該增設更清楚的指示牌。",
+      "starter": "Why",
+      "answer": "Why not add clearer signs if visitors often get lost in the building?",
+      "answerZh": "如果訪客經常在大樓內迷路，為甚麼不增設更清楚的指示牌呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not add clearer signs if visitors often get lost in the building?"
+    },
+    {
+      "id": "ss77-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Parking near the stadium is limited, so we could use public transport.",
+      "promptZh": "體育館附近的泊車位有限，所以我們可以乘搭公共交通工具。",
+      "starter": "Why",
+      "answer": "Why not use public transport if parking near the stadium is limited?",
+      "answerZh": "如果體育館附近的泊車位有限，為甚麼不乘搭公共交通工具呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not use public transport if parking near the stadium is limited?"
+    },
+    {
+      "id": "ss77-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Repairs are becoming more expensive, so the company should replace the old machine.",
+      "promptZh": "維修費用愈來愈高，所以公司應該更換舊機器。",
+      "starter": "Why",
+      "answer": "Why not replace the old machine if repairs are becoming more expensive?",
+      "answerZh": "既然維修費用愈來愈高，為甚麼不更換舊機器呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not replace the old machine if repairs are becoming more expensive?"
+    },
+    {
+      "id": "ss77-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How can the organisers include everyone? They could hold the workshop twice because one session cannot accommodate everyone.",
+      "promptZh": "主辦單位可以怎樣讓所有人參加？由於一節工作坊不能容納所有人，他們可以舉辦兩節。",
+      "starter": "Why",
+      "answer": "Why not hold the workshop twice if one session cannot accommodate everyone?",
+      "answerZh": "如果一節工作坊不能容納所有人，為甚麼不舉辦兩節呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not hold the workshop twice if one session cannot accommodate everyone?"
+    },
+    {
+      "id": "ss77-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new rule will affect the whole neighbourhood, so the council should ask residents for their views.",
+      "promptZh": "新規則將影響整個社區，所以區議會應該向居民徵詢意見。",
+      "starter": "Why",
+      "answer": "Why not ask residents for their views if the new rule will affect the whole neighbourhood?",
+      "answerZh": "如果新規則將影響整個社區，為甚麼不向居民徵詢意見呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not ask residents for their views if the new rule will affect the whole neighbourhood?"
+    },
+    {
+      "id": "ss77-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Many students need somewhere to concentrate. The school could provide a quiet study area.",
+      "promptZh": "很多學生需要一個可以專心的地方。學校可以提供安靜的自修區。",
+      "starter": "Why",
+      "answer": "Why not provide a quiet study area if many students need somewhere to concentrate?",
+      "answerZh": "如果很多學生需要一個可以專心的地方，為甚麼不提供安靜的自修區呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not provide a quiet study area if many students need somewhere to concentrate?"
+    },
+    {
+      "id": "ss77-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Several parts of the building have recently changed, so the safety team should review the safety plan.",
+      "promptZh": "大樓多個部分最近都有改動，所以安全小組應該檢討安全計劃。",
+      "starter": "Why",
+      "answer": "Why not review the safety plan if several parts of the building have recently changed?",
+      "answerZh": "既然大樓多個部分最近都有改動，為甚麼不檢討安全計劃呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not review the safety plan if several parts of the building have recently changed?"
+    },
+    {
+      "id": "ss77-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A full launch could not easily be reversed, so the team should test the new system with a small group first.",
+      "promptZh": "全面推出後將難以撤回，所以團隊應該先讓一小組人測試新系統。",
+      "starter": "Why",
+      "answer": "Why not test the new system with a small group first if a full launch could not easily be reversed?",
+      "answerZh": "如果全面推出後難以撤回，為甚麼不先讓一小組人測試新系統呢？",
+      "answerZhSource": "pdf",
+      "highlight": "Why not test the new system with a small group first if a full launch could not easily be reversed?"
+    }
+  ]
+}

@@ -1,0 +1,1227 @@
+{
+  "id": "ss95",
+  "order": 95,
+  "slug": "frequency-adverbs-never-seldom-usually-often-always",
+  "title": "Never / Seldom / Usually / Often / Always 頻率句型",
+  "titleZh": "Never / Seldom / Usually / Often / Always 頻率句型",
+  "titleEn": "Never / Seldom / Usually / Often / Always",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 95 - Never _ Seldom _ Usually _ Often _ Always 頻率句型.pdf",
+    "pageCount": 13,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "answerPages": [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + frequency adverb + main verb + other information",
+  "formulas": [
+    {
+      "id": "ss95-formula-ordinary",
+      "labelEn": "With an ordinary verb",
+      "labelZh": "配合一般動詞",
+      "formula": "Subject + frequency adverb + main verb + other information"
+    },
+    {
+      "id": "ss95-formula-be",
+      "labelEn": "With the verb be",
+      "labelZh": "配合 be 動詞",
+      "formula": "Subject + be + frequency adverb + complement"
+    },
+    {
+      "id": "ss95-formula-auxiliary",
+      "labelEn": "With an auxiliary or modal",
+      "labelZh": "配合助動詞或情態動詞",
+      "formula": "Subject + first auxiliary or modal + frequency adverb + main verb"
+    }
+  ],
+  "example": "Serious researchers never twist evidence.",
+  "exampleZh": "嚴謹的研究者絕不歪曲證據。",
+  "examples": [
+    {
+      "id": "ss95-example-never",
+      "en": "Serious researchers never twist evidence.",
+      "zh": "嚴謹的研究者絕不歪曲證據。",
+      "highlight": "never"
+    },
+    {
+      "id": "ss95-example-seldom",
+      "en": "Good opportunities seldom arrive twice.",
+      "zh": "好的機會很少來兩次。",
+      "highlight": "seldom"
+    },
+    {
+      "id": "ss95-example-usually",
+      "en": "Clear rules usually reduce conflict.",
+      "zh": "清晰的規則通常能減少衝突。",
+      "highlight": "usually"
+    },
+    {
+      "id": "ss95-example-often",
+      "en": "Public opinion often changes faster than policy.",
+      "zh": "民意往往比政策改變得更快。",
+      "highlight": "often"
+    },
+    {
+      "id": "ss95-example-always",
+      "en": "Strong character always shows under pressure.",
+      "zh": "堅強的品格在壓力下總會顯現。",
+      "highlight": "always"
+    }
+  ],
+  "meaning": {
+    "zh": "Never、seldom、often、usually 和 always 按由低至高的頻率，表示事情從不、很少、經常、通常或總是發生。"
+  },
+  "rules": [
+    {
+      "id": "ss95-rule-01",
+      "zh": "頻率副詞放在一般主要動詞之前。",
+      "en": "Put the frequency adverb before an ordinary main verb.",
+      "examples": [
+        "People often change their minds."
+      ]
+    },
+    {
+      "id": "ss95-rule-02",
+      "zh": "頻率副詞放在 be 動詞之後。",
+      "en": "Put the frequency adverb after the verb be.",
+      "examples": [
+        "The room is usually quiet."
+      ]
+    },
+    {
+      "id": "ss95-rule-03",
+      "zh": "頻率副詞放在第一個助動詞或情態動詞之後。",
+      "en": "Put the frequency adverb after the first auxiliary or modal verb.",
+      "examples": [
+        "The machine can always detect smoke."
+      ]
+    },
+    {
+      "id": "ss95-rule-04",
+      "zh": "Never 本身已有否定意思，因此不要再加 not。",
+      "en": "Never is already negative, so do not add not.",
+      "examples": [
+        "She never lies."
+      ]
+    },
+    {
+      "id": "ss95-rule-05",
+      "zh": "Usually 一般表示「大多數情況」；often 表示「很多時候」，但不一定是大多數時候。",
+      "en": "Usually normally means “in most cases”; often means “many times”, but not necessarily most times.",
+      "examples": [
+        "Often is normally lower in frequency than usually."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss95-benefit-01",
+      "zh": "它能清楚表示頻率，讓讀者立即知道事情是從不、很少、經常、通常還是每次都發生。",
+      "en": "It shows frequency clearly, telling the reader whether something happens no times, only rarely, many times, most times or every time."
+    },
+    {
+      "id": "ss95-benefit-02",
+      "zh": "一個頻率副詞便可以代替 in most cases、on many occasions 或 every time 等較長片語。",
+      "en": "A single adverb can replace longer expressions such as in most cases, on many occasions or every time."
+    },
+    {
+      "id": "ss95-benefit-03",
+      "zh": "把頻率副詞放在動詞旁邊，能讓讀者容易把「多久一次」和「發生甚麼」連繫起來。",
+      "en": "Placing the adverb beside the verb keeps the frequency close to the action."
+    },
+    {
+      "id": "ss95-benefit-04",
+      "zh": "Never 和 always 語氣很強；seldom、often 和 usually 則可描述一般規律，而不表示每次都一定如此。",
+      "en": "It helps you control how strong your statement sounds."
+    },
+    {
+      "id": "ss95-benefit-05",
+      "zh": "掌握正確位置後，便可以快速描述習慣、日常安排、規則、服務和一般事實。",
+      "en": "It gives you a useful speaking and writing frame for habits, routines, rules, services and general facts."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the frequency adverb in brackets.",
+      "Keep the original meaning and tense, and place the adverb in the correct position.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用括號內的頻率副詞改寫每句。",
+      "保留原意和時態，並把頻率副詞放在正確位置。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss95-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 9
+      },
+      "prompt": "Serious researchers do not ever twist evidence. [never]",
+      "promptZh": "嚴謹的研究者從來不會歪曲證據。",
+      "promptZhSource": "pdf",
+      "starter": "Serious",
+      "answer": "Serious researchers never twist evidence.",
+      "answerZh": "嚴謹的研究者絕不歪曲證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Serious researchers never twist evidence."
+    },
+    {
+      "id": "ss95-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 9,
+        "answerPage": 9,
+        "answerZhPage": 10
+      },
+      "prompt": "Good opportunities do not often arrive twice. [seldom]",
+      "promptZh": "好的機會並不常會來兩次。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good opportunities seldom arrive twice.",
+      "answerZh": "好的機會很少來兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "Good opportunities seldom arrive twice."
+    },
+    {
+      "id": "ss95-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "In most cases, clear rules reduce conflict. [usually]",
+      "promptZh": "在大多數情況下，清晰的規則能減少衝突。",
+      "promptZhSource": "pdf",
+      "starter": "Clear",
+      "answer": "Clear rules usually reduce conflict.",
+      "answerZh": "清晰的規則通常能減少衝突。",
+      "answerZhSource": "pdf",
+      "highlight": "Clear rules usually reduce conflict."
+    },
+    {
+      "id": "ss95-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "It is common for public opinion to change faster than policy. [often]",
+      "promptZh": "民意比政策改變得更快，是常見的情況。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public opinion often changes faster than policy.",
+      "answerZh": "民意往往比政策改變得更快。",
+      "answerZhSource": "pdf",
+      "highlight": "Public opinion often changes faster than policy."
+    },
+    {
+      "id": "ss95-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Strong character shows under pressure every time. [always]",
+      "promptZh": "堅強的品格每次都會在壓力下顯現。",
+      "promptZhSource": "pdf",
+      "starter": "Strong",
+      "answer": "Strong character always shows under pressure.",
+      "answerZh": "堅強的品格在壓力下總會顯現。",
+      "answerZhSource": "pdf",
+      "highlight": "Strong character always shows under pressure."
+    },
+    {
+      "id": "ss95-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Mia does not leave wet towels on the bed at all. [never]",
+      "promptZh": "米婭完全不會把濕毛巾放在床上。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia never leaves wet towels on the bed.",
+      "answerZh": "米婭從不把濕毛巾放在床上。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia never leaves wet towels on the bed."
+    },
+    {
+      "id": "ss95-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Ben does not often miss the first bus. [seldom]",
+      "promptZh": "本不常錯過第一班巴士。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben seldom misses the first bus.",
+      "answerZh": "本很少錯過第一班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben seldom misses the first bus."
+    },
+    {
+      "id": "ss95-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "On most days, our class starts with a short review. [usually]",
+      "promptZh": "大多數日子，我們的課堂都以簡短溫習開始。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our class usually starts with a short review.",
+      "answerZh": "我們的課堂通常以簡短溫習開始。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class usually starts with a short review."
+    },
+    {
+      "id": "ss95-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "It is common for the neighbours to share food during festivals. [often]",
+      "promptZh": "鄰居在節日期間分享食物是很常見的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbours often share food during festivals.",
+      "answerZh": "鄰居在節日期間經常分享食物。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbours often share food during festivals."
+    },
+    {
+      "id": "ss95-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Every night before going to bed, I check that the door is locked. [always]",
+      "promptZh": "每天晚上睡覺前，我都會檢查門是否已鎖好。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I always check that the door is locked before going to bed.",
+      "answerZh": "我睡覺前總會檢查門是否已鎖好。",
+      "answerZhSource": "pdf",
+      "highlight": "I always check that the door is locked before going to bed."
+    },
+    {
+      "id": "ss95-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Aisha is not late for volunteer work, not even once. [never]",
+      "promptZh": "艾莎做義工從未遲到，連一次也沒有。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha is never late for volunteer work.",
+      "answerZh": "艾莎做義工從不遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha is never late for volunteer work."
+    },
+    {
+      "id": "ss95-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "The town square is not often crowded on weekdays. [seldom]",
+      "promptZh": "市鎮廣場在平日不常擠滿人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town square is seldom crowded on weekdays.",
+      "answerZh": "市鎮廣場在平日很少擠滿人。",
+      "answerZhSource": "pdf",
+      "highlight": "The town square is seldom crowded on weekdays."
+    },
+    {
+      "id": "ss95-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "The library is quiet on most afternoons. [usually]",
+      "promptZh": "圖書館在大多數下午都很安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is usually quiet in the afternoon.",
+      "answerZh": "圖書館在下午通常很安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is usually quiet in the afternoon."
+    },
+    {
+      "id": "ss95-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "The sports hall is busy on many evenings. [often]",
+      "promptZh": "體育館在很多晚上都很繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sports hall is often busy in the evening.",
+      "answerZh": "體育館在晚上經常很繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The sports hall is often busy in the evening."
+    },
+    {
+      "id": "ss95-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Every time I ask for help, staff members at the customer-service desk are polite. [always]",
+      "promptZh": "每次我求助時，顧客服務處的職員都很有禮貌。",
+      "promptZhSource": "pdf",
+      "starter": "Staff",
+      "answer": "Staff members at the customer-service desk are always polite when I ask for help.",
+      "answerZh": "每當我求助時，顧客服務處的職員總是很有禮貌。",
+      "answerZhSource": "pdf",
+      "highlight": "Staff members at the customer-service desk are always polite when I ask for help."
+    },
+    {
+      "id": "ss95-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 10
+      },
+      "prompt": "Daniel did not complain once during the whole trip. [never]",
+      "promptZh": "丹尼爾在整段旅程中一次也沒有抱怨。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel never complained during the whole trip.",
+      "answerZh": "丹尼爾在整段旅程中從未抱怨。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel never complained during the whole trip."
+    },
+    {
+      "id": "ss95-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 10,
+        "answerPage": 10,
+        "answerZhPage": 11
+      },
+      "prompt": "Chloe felt nervous only on rare occasions during rehearsals. [seldom]",
+      "promptZh": "克洛伊在綵排時只有極少數情況會感到緊張。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe seldom felt nervous during rehearsals.",
+      "answerZh": "克洛伊在綵排時很少感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe seldom felt nervous during rehearsals."
+    },
+    {
+      "id": "ss95-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "On most school days, the pupils ate lunch in the courtyard. [usually]",
+      "promptZh": "在大多數上課日，學生都在庭院吃午餐。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The pupils usually ate lunch in the courtyard on school days.",
+      "answerZh": "學生在上課日通常在庭院吃午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "The pupils usually ate lunch in the courtyard on school days."
+    },
+    {
+      "id": "ss95-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Leo repaired old bicycles on many weekends. [often]",
+      "promptZh": "里奧在很多個週末都會修理舊單車。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo often repaired old bicycles at weekends.",
+      "answerZh": "里奧在週末經常修理舊單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo often repaired old bicycles at weekends."
+    },
+    {
+      "id": "ss95-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The alarm sounded several times. On every occasion, the nurse checked the patient. [always]",
+      "promptZh": "警報響了幾次。每一次，護士都會檢查病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse always checked the patient when the alarm sounded.",
+      "answerZh": "警報響起時，護士總會檢查病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse always checked the patient when the alarm sounded."
+    },
+    {
+      "id": "ss95-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The app has not lost any of my saved notes at any time. [never]",
+      "promptZh": "這個應用程式從來沒有遺失我儲存的任何筆記。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app has never lost any of my saved notes.",
+      "answerZh": "這個應用程式從未遺失我儲存的任何筆記。",
+      "answerZhSource": "pdf",
+      "highlight": "The app has never lost any of my saved notes."
+    },
+    {
+      "id": "ss95-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Our team has had to cancel training only on rare occasions. [seldom]",
+      "promptZh": "我們的隊伍只有在極少數情況下才要取消訓練。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team has seldom had to cancel training.",
+      "answerZh": "我們的隊伍很少需要取消訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team has seldom had to cancel training."
+    },
+    {
+      "id": "ss95-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "In most cases, visitors can buy tickets at the entrance. [usually]",
+      "promptZh": "在大多數情況下，訪客可以在入口處購票。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors can usually buy tickets at the entrance.",
+      "answerZh": "訪客通常可以在入口處購票。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors can usually buy tickets at the entrance."
+    },
+    {
+      "id": "ss95-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "On many occasions, cyclists can use this path safely after dark. [often]",
+      "promptZh": "在很多情況下，單車使用者可以在天黑後安全使用這條小徑。",
+      "promptZhSource": "pdf",
+      "starter": "Cyclists",
+      "answer": "Cyclists can often use this path safely after dark.",
+      "answerZh": "單車使用者在天黑後往往仍可安全使用這條小徑。",
+      "answerZhSource": "pdf",
+      "highlight": "Cyclists can often use this path safely after dark."
+    },
+    {
+      "id": "ss95-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Every time you press this button, the screen will show the menu. [always]",
+      "promptZh": "每次按下這個按鈕，螢幕都會顯示選單。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The screen will always show the menu when you press this button.",
+      "answerZh": "按下這個按鈕時，螢幕總會顯示選單。",
+      "answerZhSource": "pdf",
+      "highlight": "The screen will always show the menu when you press this button."
+    },
+    {
+      "id": "ss95-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "The museum has not been closed for repairs at any point this year. [never]",
+      "promptZh": "博物館今年從未因維修而關閉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum has never been closed for repairs this year.",
+      "answerZh": "博物館今年從未因維修而關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum has never been closed for repairs this year."
+    },
+    {
+      "id": "ss95-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "It is rare for buses to be delayed by light rain. [seldom]",
+      "promptZh": "巴士很少會因小雨而延誤。",
+      "promptZhSource": "pdf",
+      "starter": "Buses",
+      "answer": "Buses are seldom delayed by light rain.",
+      "answerZh": "巴士很少因小雨而延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Buses are seldom delayed by light rain."
+    },
+    {
+      "id": "ss95-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "As a normal practice, meals are prepared with fresh ingredients. [usually]",
+      "promptZh": "按照一般做法，膳食會以新鮮食材烹調。",
+      "promptZhSource": "pdf",
+      "starter": "Meals",
+      "answer": "Meals are usually prepared with fresh ingredients.",
+      "answerZh": "膳食通常以新鮮食材烹調。",
+      "answerZhSource": "pdf",
+      "highlight": "Meals are usually prepared with fresh ingredients."
+    },
+    {
+      "id": "ss95-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "It is common for the community garden to be visited by local families at weekends. [often]",
+      "promptZh": "本地家庭在週末到訪社區花園是很常見的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community garden is often visited by local families at weekends.",
+      "answerZh": "社區花園在週末經常有本地家庭到訪。",
+      "answerZhSource": "pdf",
+      "highlight": "The community garden is often visited by local families at weekends."
+    },
+    {
+      "id": "ss95-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "Safety checks must be completed before the machine starts, without exception. [always]",
+      "promptZh": "所有安全檢查都必須在機器啟動前完成，沒有例外。",
+      "promptZhSource": "pdf",
+      "starter": "Safety",
+      "answer": "Safety checks must always be completed before the machine starts.",
+      "answerZh": "安全檢查一律必須在機器啟動前完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Safety checks must always be completed before the machine starts."
+    },
+    {
+      "id": "ss95-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 11,
+        "answerPage": 11,
+        "answerZhPage": 11
+      },
+      "prompt": "What does Omar do when he receives an unknown link? He does not open it under any circumstances. [never]",
+      "promptZh": "奧馬爾收到不明連結時會怎樣做？他在任何情況下都不會開啟它。",
+      "promptZhSource": "pdf",
+      "starter": "Omar",
+      "answer": "Omar never opens an unknown link when he receives one.",
+      "answerZh": "奧馬爾收到不明連結時，從不會開啟它。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar never opens an unknown link when he receives one."
+    },
+    {
+      "id": "ss95-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Even when the shop is busy, customers have to wait more than five minutes only on rare occasions. [seldom]",
+      "promptZh": "即使店舖很繁忙，顧客也只有在極少數情況下才要等候超過五分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers seldom have to wait more than five minutes, even when the shop is busy.",
+      "answerZh": "即使店舖很繁忙，顧客也很少需要等候超過五分鐘。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers seldom have to wait more than five minutes, even when the shop is busy."
+    },
+    {
+      "id": "ss95-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "If the weather is dry, the football club holds its practice outdoors in most cases. [usually]",
+      "promptZh": "如果天氣乾爽，足球會大多數時候都在戶外訓練。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the weather is dry, the football club usually holds its practice outdoors.",
+      "answerZh": "如果天氣乾爽，足球會通常在戶外訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "If the weather is dry, the football club usually holds its practice outdoors."
+    },
+    {
+      "id": "ss95-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "There are many occasions when the guide reminds visitors not to touch the exhibits. [often]",
+      "promptZh": "導遊在很多時候都會提醒訪客不要觸摸展品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide often reminds visitors not to touch the exhibits.",
+      "answerZh": "導遊經常提醒訪客不要觸摸展品。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide often reminds visitors not to touch the exhibits."
+    },
+    {
+      "id": "ss95-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Whenever Priya cooks for guests, she checks whether anyone has a food allergy. [always]",
+      "promptZh": "每當普莉雅為客人下廚時，她都會查問是否有人對食物過敏。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya always checks whether anyone has a food allergy when she cooks for guests.",
+      "answerZh": "普莉雅為客人下廚時，總會查問是否有人對食物過敏。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya always checks whether anyone has a food allergy when she cooks for guests."
+    },
+    {
+      "id": "ss95-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The hospital's emergency entrance is not blocked, even during the busiest hours. [never]",
+      "promptZh": "即使在最繁忙的時段，醫院的急症入口也不會被堵塞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital's emergency entrance is never blocked, even during the busiest hours.",
+      "answerZh": "即使在最繁忙的時段，醫院的急症入口也從不會被堵塞。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital's emergency entrance is never blocked, even during the busiest hours."
+    },
+    {
+      "id": "ss95-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Only on rare occasions are reports with serious errors accepted. [seldom]",
+      "promptZh": "只有在極少數情況下，含有嚴重錯誤的報告才會獲接納。",
+      "promptZhSource": "pdf",
+      "starter": "Reports",
+      "answer": "Reports with serious errors are seldom accepted.",
+      "answerZh": "含有嚴重錯誤的報告很少會獲接納。",
+      "answerZhSource": "pdf",
+      "highlight": "Reports with serious errors are seldom accepted."
+    },
+    {
+      "id": "ss95-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "How does Sofia pay for the bus on most days? She uses a travel card. [usually]",
+      "promptZh": "蘇菲亞大多數日子怎樣支付巴士車資？她使用交通卡。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia usually uses a travel card to pay for the bus.",
+      "answerZh": "蘇菲亞通常使用交通卡支付巴士車資。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia usually uses a travel card to pay for the bus."
+    },
+    {
+      "id": "ss95-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Teachers frequently ask students who finish early to help check the equipment. [often]",
+      "promptZh": "老師經常請提早完成工作的學生協助檢查器材。",
+      "promptZhSource": "pdf",
+      "starter": "Teachers",
+      "answer": "Teachers often ask students who finish early to help check the equipment.",
+      "answerZh": "老師常常請提早完成工作的學生協助檢查器材。",
+      "answerZhSource": "pdf",
+      "highlight": "Teachers often ask students who finish early to help check the equipment."
+    },
+    {
+      "id": "ss95-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The recycling team follows the same safety steps without exception before collecting broken glass. [always]",
+      "promptZh": "回收隊收集碎玻璃前，毫無例外地遵循相同的安全步驟。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The recycling team always follows the same safety steps before collecting broken glass.",
+      "answerZh": "回收隊收集碎玻璃前，總會遵循相同的安全步驟。",
+      "answerZhSource": "pdf",
+      "highlight": "The recycling team always follows the same safety steps before collecting broken glass."
+    },
+    {
+      "id": "ss95-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "There has not been a single occasion when the bank has shared a customer's password by email. [never]",
+      "promptZh": "銀行從來沒有透過電郵分享顧客密碼的情況。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bank has never shared a customer's password by email.",
+      "answerZh": "銀行從未透過電郵分享顧客的密碼。",
+      "answerZhSource": "pdf",
+      "highlight": "The bank has never shared a customer's password by email."
+    },
+    {
+      "id": "ss95-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Does the new timetable commonly cause confusion among passengers? It does so only on rare occasions. [seldom]",
+      "promptZh": "新時間表是否經常令乘客感到混亂？這種情況只會在極少數時候發生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable seldom causes confusion among passengers.",
+      "answerZh": "新時間表很少令乘客感到混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable seldom causes confusion among passengers."
+    },
+    {
+      "id": "ss95-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Under the normal arrangement, patients who need the same medicine again collect it from the clinic counter. [usually]",
+      "promptZh": "按照一般安排，需要再次領取同一種藥物的病人會在診所櫃位取藥。",
+      "promptZhSource": "pdf",
+      "starter": "Patients",
+      "answer": "Patients who need the same medicine again usually collect it from the clinic counter.",
+      "answerZh": "需要再次領取同一種藥物的病人通常在診所櫃位取藥。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients who need the same medicine again usually collect it from the clinic counter."
+    },
+    {
+      "id": "ss95-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The student council meets frequently during each term to discuss students' suggestions. [often]",
+      "promptZh": "學生會每個學期都會多次開會，討論學生的建議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The student council often meets during each term to discuss students' suggestions.",
+      "answerZh": "學生會每個學期都經常開會，討論學生的建議。",
+      "answerZhSource": "pdf",
+      "highlight": "The student council often meets during each term to discuss students' suggestions."
+    },
+    {
+      "id": "ss95-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Applicants must provide proof of identity in every case before a library card can be issued. [always]",
+      "promptZh": "申請人在任何情況下都必須先提供身分證明，圖書證才可發出。",
+      "promptZhSource": "pdf",
+      "starter": "Applicants",
+      "answer": "Applicants must always provide proof of identity before a library card can be issued.",
+      "answerZh": "申請人必須一律先提供身分證明，圖書證才可發出。",
+      "answerZhSource": "pdf",
+      "highlight": "Applicants must always provide proof of identity before a library card can be issued."
+    },
+    {
+      "id": "ss95-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The rescue team will not enter an unsafe building under any circumstances before an engineer approves it. [never]",
+      "promptZh": "在工程師批准前，救援隊在任何情況下都不會進入不安全的建築物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team will never enter an unsafe building before an engineer approves it.",
+      "answerZh": "在工程師批准前，救援隊絕不會進入不安全的建築物。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team will never enter an unsafe building before an engineer approves it."
+    },
+    {
+      "id": "ss95-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although heavy rain is common in the town, the new drainage system fails only on rare occasions. [seldom]",
+      "promptZh": "雖然這個市鎮經常下大雨，但新的排水系統只有在極少數情況下才會失靈。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although heavy rain is common in the town, the new drainage system seldom fails.",
+      "answerZh": "雖然這個市鎮經常下大雨，但新的排水系統很少失靈。",
+      "answerZhSource": "pdf",
+      "highlight": "Although heavy rain is common in the town, the new drainage system seldom fails."
+    },
+    {
+      "id": "ss95-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "When online orders arrive damaged, the company replaces them in most cases without charging the customer. [usually]",
+      "promptZh": "網上訂單送達時如有損壞，公司在大多數情況下會免費更換。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When online orders arrive damaged, the company usually replaces them without charging the customer.",
+      "answerZh": "網上訂單送達時如有損壞，公司通常會免費更換。",
+      "answerZhSource": "pdf",
+      "highlight": "When online orders arrive damaged, the company usually replaces them without charging the customer."
+    },
+    {
+      "id": "ss95-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "How regularly does the library run weekend workshops? It runs them many times during the school year to help parents support reading at home. [often]",
+      "promptZh": "圖書館多常舉辦週末工作坊？它在學年期間舉辦很多次，幫助家長在家支援閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library often runs weekend workshops during the school year to help parents support reading at home.",
+      "answerZh": "圖書館在學年期間經常舉辦週末工作坊，幫助家長在家支援閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The library often runs weekend workshops during the school year to help parents support reading at home."
+    },
+    {
+      "id": "ss95-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Whenever a serious complaint is received, the manager records the details and tells the customer what will happen next. [always]",
+      "promptZh": "每當收到嚴重投訴時，經理都會記錄詳情，並告訴顧客下一步會怎樣處理。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager always records the details and tells the customer what will happen next when a serious complaint is received.",
+      "answerZh": "收到嚴重投訴時，經理總會記錄詳情，並告訴顧客下一步會怎樣處理。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager always records the details and tells the customer what will happen next when a serious complaint is received."
+    }
+  ]
+}

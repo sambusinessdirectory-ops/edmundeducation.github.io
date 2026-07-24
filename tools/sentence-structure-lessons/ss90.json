@@ -1,0 +1,1258 @@
+{
+  "id": "ss90",
+  "order": 90,
+  "slug": "sentence-structure-90",
+  "title": "「Sentence 比較句 Comparative」句型",
+  "titleZh": "「Sentence 比較句 Comparative」",
+  "titleEn": "Comparative Sentences with a Complete Than-Clause",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 90 -「Sentence 比較句 Comparative」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject A + verb / be + comparative expression + than + Subject B + auxiliary verb / be",
+  "formulas": [
+    {
+      "id": "ss90-formula-main",
+      "labelZh": "完整比較子句",
+      "labelEn": "Complete comparative clause",
+      "formula": "Subject A + verb / be + comparative expression + than + Subject B + auxiliary verb / be"
+    },
+    {
+      "id": "ss90-formula-ordinary-verb",
+      "labelZh": "一般動詞比較",
+      "labelEn": "Comparison with an ordinary verb",
+      "formula": "Subject A + main verb + comparative expression + than + Subject B + do / does / did"
+    },
+    {
+      "id": "ss90-formula-be",
+      "labelZh": "Be 動詞比較",
+      "labelEn": "Comparison with be",
+      "formula": "Subject A + be + comparative expression + than + Subject B + be"
+    }
+  ],
+  "example": "This version performs better than previous generations did.",
+  "exampleZh": "這個版本比前幾代的表現更好。",
+  "examples": [
+    {
+      "id": "ss90-example-main",
+      "en": "This version performs better than previous generations did.",
+      "zh": "這個版本比前幾代的表現更好。",
+      "highlight": "better than previous generations did"
+    },
+    {
+      "id": "ss90-example-does",
+      "en": "Mia runs faster than Leo does.",
+      "zh": "米婭跑得比里奧快。",
+      "highlight": "faster than Leo does"
+    },
+    {
+      "id": "ss90-example-be",
+      "en": "The new room is brighter than the old room was.",
+      "zh": "新房間比舊房間明亮。",
+      "highlight": "brighter than the old room was"
+    }
+  ],
+  "meaning": {
+    "zh": "完整比較子句使用 than + 主語 + 助動詞／be，清楚指出兩個主語在某項表現、程度或數量上的差別。"
+  },
+  "rules": [
+    {
+      "id": "ss90-rule-01",
+      "zh": "一般動詞使用 do、does 或 did 代替重複的動詞。",
+      "en": "With an ordinary verb, use do, does or did to avoid repeating the verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Mia runs faster than Leo does."
+      ]
+    },
+    {
+      "id": "ss90-rule-02",
+      "zh": "如果主要動詞是 be，便重複適當的 be 動詞。",
+      "en": "When the main verb is be, repeat the appropriate form of be.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The new room is brighter than the old room was."
+      ]
+    },
+    {
+      "id": "ss90-rule-03",
+      "zh": "如果句子有情態動詞或其他助動詞，便保留相同的助動詞。",
+      "en": "If the sentence contains a modal or another auxiliary, retain the same auxiliary.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Ben can swim farther than I can."
+      ]
+    },
+    {
+      "id": "ss90-rule-04",
+      "zh": "使用完整比較子句時，than 後面要有主語。",
+      "en": "In a complete comparative clause, put a subject after than.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Olivia explains the idea more clearly than I do."
+      ]
+    },
+    {
+      "id": "ss90-rule-05",
+      "zh": "less 配合不可數名詞；fewer 配合可數名詞複數。",
+      "en": "Use less with uncountable nouns and fewer with plural countable nouns.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-rule-06",
+      "zh": "比較的內容必須一致，than 前後要比較同一項表現或特質。",
+      "en": "Keep the content of the comparison parallel on both sides of than.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-rule-07",
+      "zh": "本課使用完整句子比較，而不只是 than + 名詞。",
+      "en": "This lesson uses a complete comparative clause rather than only than + noun.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-rule-08",
+      "zh": "把 not as…as 等句式改成肯定比較句時，可能需要對調兩個主語的位置。",
+      "en": "When changing not as…as into a positive comparative, the two subjects may need to exchange positions.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss90-benefit-01",
+      "zh": "清楚說明正在比較哪一項表現，減少意思含糊。",
+      "en": "It clearly identifies the performance or ability being compared and reduces ambiguity.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-benefit-02",
+      "zh": "使用助動詞代替重複整個動詞部分，令句子更簡潔自然。",
+      "en": "It avoids repeating the whole verb phrase by using an auxiliary.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-benefit-03",
+      "zh": "把兩項相關資料合併成一個完整比較，讓差別更容易看見。",
+      "en": "It combines two related pieces of information into one complete comparison.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-benefit-04",
+      "zh": "適合在作文、報告或簡報中解釋數據、研究結果及不同制度或方法。",
+      "en": "It is useful for explaining data, research results, systems and methods.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-benefit-05",
+      "zh": "讓口語答案清楚交代「在哪一方面更好」，令回答更具體。",
+      "en": "It makes spoken answers more specific by stating the exact area of difference.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss90-benefit-06",
+      "zh": "提供另一種自然比較寫法，增加句式變化。",
+      "en": "It provides another natural comparative frame and adds sentence variety.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using a comparative sentence with than + subject + auxiliary verb.",
+      "Preserve all important information in the original sentence.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 比較表達 + than + 主語 + 助動詞 改寫以下句子或句子組合。",
+      "答案必須保留原句中的重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss90-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo types thirty words a minute. Mia types forty words a minute.",
+      "promptZh": "里奧每分鐘打三十個字。米婭每分鐘打四十個字。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia types faster than Leo does.",
+      "answerZh": "米婭打字比里奧快。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia types faster than Leo does."
+    },
+    {
+      "id": "ss90-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The old classroom was quite dark, whereas the new classroom is very bright.",
+      "promptZh": "舊課室相當昏暗，而新課室十分明亮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new classroom is brighter than the old classroom was.",
+      "answerZh": "新課室比舊課室明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "The new classroom is brighter than the old classroom was."
+    },
+    {
+      "id": "ss90-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Tom does not study for as long as Ben does each evening.",
+      "promptZh": "湯姆每晚溫習的時間沒有本那麼長。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben studies for longer than Tom does each evening.",
+      "answerZh": "本每晚溫習的時間比湯姆長。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben studies for longer than Tom does each evening."
+    },
+    {
+      "id": "ss90-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy speaks softly. Nina, by contrast, speaks loudly.",
+      "promptZh": "艾米說話輕聲，而妮娜說話的聲量較大。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina speaks more loudly than Amy does.",
+      "answerZh": "妮娜說話的聲量比艾米大。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina speaks more loudly than Amy does."
+    },
+    {
+      "id": "ss90-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The old phone lasted eight hours on one charge. The new phone lasts twelve hours.",
+      "promptZh": "舊手機充電一次可以使用八小時。新手機可以使用十二小時。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new phone lasts longer on one charge than the old phone did.",
+      "answerZh": "新手機充電一次後的使用時間比舊手機長。",
+      "answerZhSource": "pdf",
+      "highlight": "The new phone lasts longer on one charge than the old phone did."
+    },
+    {
+      "id": "ss90-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Which one arrives first? The train arrives at 8:00, and the bus arrives at 8:10.",
+      "promptZh": "哪一種交通工具較早到達？火車在八時到達，而巴士在八時十分到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train arrives earlier than the bus does.",
+      "answerZh": "火車比巴士早到達。",
+      "answerZhSource": "pdf",
+      "highlight": "The train arrives earlier than the bus does."
+    },
+    {
+      "id": "ss90-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma answered seven questions correctly, but Chloe answered only five correctly.",
+      "promptZh": "艾瑪答對了七條問題，但克洛伊只答對了五條。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma answered more questions correctly than Chloe did.",
+      "answerZh": "艾瑪答對的問題比克洛伊多。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma answered more questions correctly than Chloe did."
+    },
+    {
+      "id": "ss90-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The same notebook costs thirty dollars at the small shop and twenty-five dollars at the supermarket.",
+      "promptZh": "同一本筆記簿在小店售三十元，在超級市場售二十五元。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The supermarket charges less for the same notebook than the small shop does.",
+      "answerZh": "同一本筆記簿，超級市場的收費比小店低。",
+      "answerZhSource": "pdf",
+      "highlight": "The supermarket charges less for the same notebook than the small shop does."
+    },
+    {
+      "id": "ss90-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The dog can jump one metre high. The cat can jump half a metre high.",
+      "promptZh": "這隻狗可以跳一米高，而這隻貓可以跳半米高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The dog can jump higher than the cat can.",
+      "answerZh": "這隻狗能跳得比這隻貓高。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog can jump higher than the cat can."
+    },
+    {
+      "id": "ss90-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The yellow car uses eight litres of fuel for the journey. The blue car uses six litres.",
+      "promptZh": "黃色汽車完成這段路程需要八公升燃油，而藍色汽車需要六公升。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue car uses less fuel than the yellow car does.",
+      "answerZh": "藍色汽車使用的燃油比黃色汽車少。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue car uses less fuel than the yellow car does."
+    },
+    {
+      "id": "ss90-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sara does not read as quickly as Lily does.",
+      "promptZh": "莎拉閱讀的速度沒有莉莉那麼快。",
+      "promptZhSource": "pdf",
+      "starter": "Lily",
+      "answer": "Lily reads more quickly than Sara does.",
+      "answerZh": "莉莉閱讀的速度比莎拉快。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily reads more quickly than Sara does."
+    },
+    {
+      "id": "ss90-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This winter is not as cold as last winter was.",
+      "promptZh": "今年冬天沒有上個冬天那麼寒冷。",
+      "promptZhSource": "pdf",
+      "starter": "Last",
+      "answer": "Last winter was colder than this winter is.",
+      "answerZh": "上個冬天比今年冬天寒冷。",
+      "answerZhSource": "pdf",
+      "highlight": "Last winter was colder than this winter is."
+    },
+    {
+      "id": "ss90-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Jack spent fifty dollars at the market, while Omar spent thirty-five dollars.",
+      "promptZh": "傑克在市場花了五十元，而奧馬爾花了三十五元。",
+      "promptZhSource": "pdf",
+      "starter": "Jack",
+      "answer": "Jack spent more money at the market than Omar did.",
+      "answerZh": "傑克在市場花的錢比奧馬爾多。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack spent more money at the market than Omar did."
+    },
+    {
+      "id": "ss90-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Compared with the old printer, which prints twenty pages a minute, the new printer prints thirty-five.",
+      "promptZh": "舊打印機每分鐘打印二十頁；相比之下，新打印機每分鐘打印三十五頁。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new printer prints more pages per minute than the old printer does.",
+      "answerZh": "新打印機每分鐘打印的頁數比舊打印機多。",
+      "answerZhSource": "pdf",
+      "highlight": "The new printer prints more pages per minute than the old printer does."
+    },
+    {
+      "id": "ss90-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Who arrived first? May arrived at eight o’clock, and Ken arrived ten minutes later.",
+      "promptZh": "誰較早到達？梅在八時到達，而肯遲了十分鐘到達。",
+      "promptZhSource": "pdf",
+      "starter": "May",
+      "answer": "May arrived earlier than Ken did.",
+      "answerZh": "梅比肯早到達。",
+      "answerZhSource": "pdf",
+      "highlight": "May arrived earlier than Ken did."
+    },
+    {
+      "id": "ss90-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Route A takes forty minutes. Route B takes thirty minutes.",
+      "promptZh": "路線 A 需時四十分鐘，而路線 B 需時三十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Route",
+      "answer": "Route A takes longer than Route B does.",
+      "answerZh": "路線 A 所需的時間比路線 B 長。",
+      "answerZhSource": "pdf",
+      "highlight": "Route A takes longer than Route B does."
+    },
+    {
+      "id": "ss90-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old plan was simple, whereas the new plan is complicated.",
+      "promptZh": "舊計劃很簡單，而新計劃較為複雜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new plan is more complicated than the old plan was.",
+      "answerZh": "新計劃比舊計劃複雜。",
+      "answerZhSource": "pdf",
+      "highlight": "The new plan is more complicated than the old plan was."
+    },
+    {
+      "id": "ss90-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I cannot lift as much weight as my brother can.",
+      "promptZh": "我能舉起的重量沒有我哥哥那麼多。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My brother can lift more weight than I can.",
+      "answerZh": "我哥哥能舉起的重量比我多。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother can lift more weight than I can."
+    },
+    {
+      "id": "ss90-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The village receives 500 millimetres of rain a year. The city receives 900 millimetres.",
+      "promptZh": "這條村每年有五百毫米降雨量，而這個城市有九百毫米。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city receives more rain than the village does.",
+      "answerZh": "這個城市的降雨量比這條村多。",
+      "answerZhSource": "pdf",
+      "highlight": "The city receives more rain than the village does."
+    },
+    {
+      "id": "ss90-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The cinema was almost full yesterday, but it is only half full today.",
+      "promptZh": "電影院昨天幾乎滿座，但今天只有一半座位有人使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cinema was more crowded yesterday than it is today.",
+      "answerZh": "電影院昨天比今天擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "The cinema was more crowded yesterday than it is today."
+    },
+    {
+      "id": "ss90-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old system was not very reliable. The new system is highly reliable.",
+      "promptZh": "舊系統不太可靠，而新系統十分可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system is more reliable than the old system was.",
+      "answerZh": "新系統比舊系統可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system is more reliable than the old system was."
+    },
+    {
+      "id": "ss90-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Team A scored three goals, while Team B scored only one.",
+      "promptZh": "A 隊取得三個入球，而 B 隊只取得一個入球。",
+      "promptZhSource": "pdf",
+      "starter": "Team",
+      "answer": "Team A scored more goals than Team B did.",
+      "answerZh": "A 隊取得的入球比 B 隊多。",
+      "answerZhSource": "pdf",
+      "highlight": "Team A scored more goals than Team B did."
+    },
+    {
+      "id": "ss90-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I cannot explain the idea as clearly as Olivia can.",
+      "promptZh": "我解釋這個概念時，沒有奧莉花那麼清楚。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia can explain the idea more clearly than I can.",
+      "answerZh": "奧莉花解釋這個概念時比我清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia can explain the idea more clearly than I can."
+    },
+    {
+      "id": "ss90-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sales have risen by twelve per cent this year. They rose by five per cent last year.",
+      "promptZh": "今年銷售額上升了百分之十二，去年則上升了百分之五。",
+      "promptZhSource": "pdf",
+      "starter": "Sales",
+      "answer": "Sales have risen more this year than they did last year.",
+      "answerZh": "今年銷售額的升幅比去年大。",
+      "answerZhSource": "pdf",
+      "highlight": "Sales have risen more this year than they did last year."
+    },
+    {
+      "id": "ss90-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ava made two mistakes in the exercise, while Noah made six.",
+      "promptZh": "艾娃在練習中犯了兩個錯誤，而諾亞犯了六個。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava made fewer mistakes in the exercise than Noah did.",
+      "answerZh": "艾娃在練習中犯的錯誤比諾亞少。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava made fewer mistakes in the exercise than Noah did."
+    },
+    {
+      "id": "ss90-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The express train takes forty-five minutes. The bus takes seventy minutes.",
+      "promptZh": "特快火車需時四十五分鐘，而巴士需時七十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The express train takes less time than the bus does.",
+      "answerZh": "特快火車所需的時間比巴士少。",
+      "answerZhSource": "pdf",
+      "highlight": "The express train takes less time than the bus does."
+    },
+    {
+      "id": "ss90-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Room B is not as quiet as Room A is.",
+      "promptZh": "B 房間沒有 A 房間那麼安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Room",
+      "answer": "Room A is quieter than Room B is.",
+      "answerZh": "A 房間比 B 房間安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Room A is quieter than Room B is."
+    },
+    {
+      "id": "ss90-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Alex can finish the task in four days. Sophie can finish it in two days.",
+      "promptZh": "亞歷克斯可以在四天內完成任務，而蘇菲可以在兩天內完成。",
+      "promptZhSource": "pdf",
+      "starter": "Sophie",
+      "answer": "Sophie can finish the task sooner than Alex can.",
+      "answerZh": "蘇菲能比亞歷克斯更早完成任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Sophie can finish the task sooner than Alex can."
+    },
+    {
+      "id": "ss90-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Daniel remembered eight of the ten details correctly. Grace remembered all ten correctly.",
+      "promptZh": "丹尼爾正確記住十項細節中的八項，而格蕾絲正確記住全部十項。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace remembered the details more accurately than Daniel did.",
+      "answerZh": "格蕾絲記住細節的準確程度比丹尼爾高。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace remembered the details more accurately than Daniel did."
+    },
+    {
+      "id": "ss90-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Students can find information online in a few seconds, but they often need several minutes when using the old handbook.",
+      "promptZh": "學生可以在數秒內從網上找到資料，但使用舊手冊時往往需要數分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students can find information more easily online than they can in the old handbook.",
+      "answerZh": "學生在網上找資料，比在舊手冊中更容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Students can find information more easily online than they can in the old handbook."
+    },
+    {
+      "id": "ss90-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "My old laptop needed thirty seconds to start. My current laptop needs only ten seconds.",
+      "promptZh": "我的舊手提電腦需要三十秒啟動，而目前的手提電腦只需要十秒。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My current laptop starts more quickly than my old laptop did.",
+      "answerZh": "我目前的手提電腦啟動得比舊手提電腦快。",
+      "answerZhSource": "pdf",
+      "highlight": "My current laptop starts more quickly than my old laptop did."
+    },
+    {
+      "id": "ss90-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Patients waited an average of forty minutes last month. This month, they wait for twenty-five minutes.",
+      "promptZh": "病人上個月平均等候四十分鐘，這個月則等候二十五分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Patients",
+      "answer": "Patients wait less time this month than they did last month.",
+      "answerZh": "病人這個月的等候時間比上個月短。",
+      "answerZhSource": "pdf",
+      "highlight": "Patients wait less time this month than they did last month."
+    },
+    {
+      "id": "ss90-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "My sister has visited eight countries. I have visited three.",
+      "promptZh": "我姐姐到訪過八個國家，而我到訪過三個。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My sister has visited more countries than I have.",
+      "answerZh": "我姐姐到訪過的國家比我多。",
+      "answerZhSource": "pdf",
+      "highlight": "My sister has visited more countries than I have."
+    },
+    {
+      "id": "ss90-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The original recipe uses 200 grams of sugar. The new recipe uses 120 grams.",
+      "promptZh": "原來的食譜使用二百克糖，而新食譜使用一百二十克。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new recipe uses less sugar than the original recipe does.",
+      "answerZh": "新食譜使用的糖比原來的食譜少。",
+      "answerZhSource": "pdf",
+      "highlight": "The new recipe uses less sugar than the original recipe does."
+    },
+    {
+      "id": "ss90-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The local team trained on five days last week. The visiting team trained on three days.",
+      "promptZh": "本地球隊上星期有五天進行訓練，而作客球隊有三天進行訓練。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local team trained more often than the visiting team did.",
+      "answerZh": "本地球隊進行訓練的次數比作客球隊多。",
+      "answerZhSource": "pdf",
+      "highlight": "The local team trained more often than the visiting team did."
+    },
+    {
+      "id": "ss90-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The old bridge could carry vehicles weighing up to ten tonnes. The new bridge can carry vehicles weighing up to twenty tonnes.",
+      "promptZh": "舊橋可以承受重達十噸的車輛，而新橋可以承受重達二十噸的車輛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new bridge can carry heavier vehicles than the old bridge could.",
+      "answerZh": "新橋能承受的車輛比舊橋所能承受的更重。",
+      "answerZhSource": "pdf",
+      "highlight": "The new bridge can carry heavier vehicles than the old bridge could."
+    },
+    {
+      "id": "ss90-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A survey found that teenagers spend three hours a day on online games. Adults spend one hour.",
+      "promptZh": "一項調查發現，青少年每天花三小時玩網上遊戲，而成年人花一小時。",
+      "promptZhSource": "pdf",
+      "starter": "Teenagers",
+      "answer": "Teenagers spend more time on online games than adults do.",
+      "answerZh": "青少年花在網上遊戲上的時間比成年人多。",
+      "answerZhSource": "pdf",
+      "highlight": "Teenagers spend more time on online games than adults do."
+    },
+    {
+      "id": "ss90-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A bus journey costs four dollars. A taxi ride along the same route costs forty dollars.",
+      "promptZh": "乘搭巴士完成這段路程需四元，而乘搭的士需四十元。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A bus journey costs much less than a taxi ride does.",
+      "answerZh": "乘搭巴士完成這段路程的費用比乘搭的士低很多。",
+      "answerZhSource": "pdf",
+      "highlight": "A bus journey costs much less than a taxi ride does."
+    },
+    {
+      "id": "ss90-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The first explanation was not very clear. The second explanation was very clear.",
+      "promptZh": "第一個解釋不太清楚，而第二個解釋十分清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second explanation was clearer than the first explanation was.",
+      "answerZh": "第二個解釋比第一個解釋清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The second explanation was clearer than the first explanation was."
+    },
+    {
+      "id": "ss90-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The old policy affected 500 workers. The new policy affects 1,200 workers.",
+      "promptZh": "舊政策影響五百名工人，而新政策影響一千二百名工人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy affects more workers than the old policy did.",
+      "answerZh": "新政策影響的工人比舊政策多。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy affects more workers than the old policy did."
+    },
+    {
+      "id": "ss90-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The old library attracted about 800 visitors each month. The new library attracts about 1,200.",
+      "promptZh": "舊圖書館每月吸引約八百名訪客，而新圖書館每月吸引約一千二百名。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new library attracts more visitors each month than the old library did.",
+      "answerZh": "新圖書館每月吸引的訪客比舊圖書館多。",
+      "answerZhSource": "pdf",
+      "highlight": "The new library attracts more visitors each month than the old library did."
+    },
+    {
+      "id": "ss90-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Under the old system, students needed five minutes to submit their homework. Through the new portal, they need only two minutes.",
+      "promptZh": "在舊系統下，學生需要五分鐘提交功課；透過新平台，他們只需要兩分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students can submit their homework more quickly through the new portal than they could through the old system.",
+      "answerZh": "學生透過新平台提交功課，比使用舊系統時更快。",
+      "answerZhSource": "pdf",
+      "highlight": "Students can submit their homework more quickly through the new portal than they could through the old system."
+    },
+    {
+      "id": "ss90-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The old booking system handled 180 appointments each day. The new system handles 300.",
+      "promptZh": "舊預約系統每天處理一百八十個預約，而新系統每天處理三百個。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new booking system handles more appointments each day than the old system did.",
+      "answerZh": "新預約系統每天處理的預約比舊系統多。",
+      "answerZhSource": "pdf",
+      "highlight": "The new booking system handles more appointments each day than the old system did."
+    },
+    {
+      "id": "ss90-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The old light bulbs use sixty watts of electricity. The LED lights use only ten watts.",
+      "promptZh": "舊燈泡使用六十瓦電力，而 LED 燈只使用十瓦。",
+      "promptZhSource": "pdf",
+      "starter": "LED",
+      "answer": "LED lights use less electricity than the old light bulbs do.",
+      "answerZh": "LED 燈使用的電力比舊燈泡少。",
+      "answerZhSource": "pdf",
+      "highlight": "LED lights use less electricity than the old light bulbs do."
+    },
+    {
+      "id": "ss90-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The previous team completed the same project in six weeks. The current team completed it in four weeks.",
+      "promptZh": "上一個團隊用了六星期完成同一個項目，而目前的團隊用了四星期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The current team completed the project sooner than the previous team did.",
+      "answerZh": "目前的團隊比上一個團隊更早完成項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The current team completed the project sooner than the previous team did."
+    },
+    {
+      "id": "ss90-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Rural residents travel an average of twenty-five kilometres to reach a hospital. Urban residents travel five kilometres.",
+      "promptZh": "鄉郊居民平均需要走二十五公里才到達醫院，而市區居民需要走五公里。",
+      "promptZhSource": "pdf",
+      "starter": "Rural",
+      "answer": "Rural residents travel farther to reach a hospital than urban residents do.",
+      "answerZh": "鄉郊居民前往醫院所走的路程比市區居民遠。",
+      "answerZhSource": "pdf",
+      "highlight": "Rural residents travel farther to reach a hospital than urban residents do."
+    },
+    {
+      "id": "ss90-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "In the study, small teams needed two days to make a decision. Large committees needed six days.",
+      "promptZh": "在研究中，小型團隊需要兩天作出決定，而大型委員會需要六天。",
+      "promptZhSource": "pdf",
+      "starter": "Small",
+      "answer": "Small teams made decisions faster than large committees did.",
+      "answerZh": "小型團隊作出決定的速度比大型委員會快。",
+      "answerZhSource": "pdf",
+      "highlight": "Small teams made decisions faster than large committees did."
+    },
+    {
+      "id": "ss90-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Applicants usually complete an online licence renewal in ten minutes. At the service counter, they need thirty minutes.",
+      "promptZh": "申請人通常可在十分鐘內完成網上牌照續期，但在服務櫃位則需要三十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "Applicants",
+      "answer": "Applicants renew their licences faster online than they do at the service counter.",
+      "answerZh": "申請人在網上辦理牌照續期，比在服務櫃位辦理更快。",
+      "answerZhSource": "pdf",
+      "highlight": "Applicants renew their licences faster online than they do at the service counter."
+    },
+    {
+      "id": "ss90-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "In the survey, older students usually check names, dates and links before submitting their work. Younger students often check only the title.",
+      "promptZh": "在調查中，年紀較大的學生通常會在提交功課前核對名稱、日期和連結，而年紀較小的學生往往只核對標題。",
+      "promptZhSource": "pdf",
+      "starter": "Older",
+      "answer": "Older students check their sources more carefully than younger students do.",
+      "answerZh": "年紀較大的學生核對資料來源時，比年紀較小的學生仔細。",
+      "answerZhSource": "pdf",
+      "highlight": "Older students check their sources more carefully than younger students do."
+    },
+    {
+      "id": "ss90-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "During the tests, the previous safety system detected potential problems after eight minutes. The upgraded system detects them after three minutes.",
+      "promptZh": "測試期間，上一代安全系統在八分鐘後才偵測到潛在問題，而升級系統在三分鐘後便能偵測到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The upgraded safety system detects potential problems earlier than the previous system did.",
+      "answerZh": "升級安全系統比上一代系統更早偵測到潛在問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The upgraded safety system detects potential problems earlier than the previous system did."
+    }
+  ]
+}

@@ -1,0 +1,1213 @@
+{
+  "id": "ss93",
+  "order": 93,
+  "slug": "sentence-structure-93",
+  "title": "「as + 形容詞 + as」句型",
+  "titleZh": "「as + 形容詞 + as」表示程度相同",
+  "titleEn": "Using as + adjective + as to express equal degree",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 93 - 「as + 形容詞 + as」表示程度相同.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be / modal + be + as + adjective or adjective phrase + as + comparison target",
+  "formulas": [
+    {
+      "id": "ss93-formula-main",
+      "labelZh": "程度相同",
+      "labelEn": "Equal degree",
+      "formula": "Subject + be / modal + be + as + adjective or adjective phrase + as + comparison target"
+    }
+  ],
+  "example": "Animals are as important as humans.",
+  "exampleZh": "動物和人類一樣重要。",
+  "examples": [
+    {
+      "id": "ss93-example-main",
+      "en": "Animals are as important as humans.",
+      "zh": "動物和人類一樣重要。",
+      "highlight": "as important as"
+    },
+    {
+      "id": "ss93-example-height",
+      "en": "Tom is as tall as Ben.",
+      "zh": "湯姆和本一樣高。",
+      "highlight": "as tall as"
+    },
+    {
+      "id": "ss93-example-phrase",
+      "en": "The first website is as easy to use as the second website.",
+      "zh": "第一個網站和第二個網站一樣容易使用。",
+      "highlight": "as easy to use as"
+    }
+  ],
+  "meaning": {
+    "zh": "as + 形容詞 + as 表示兩個人或事物在某項特質上的程度相同。"
+  },
+  "rules": [
+    {
+      "id": "ss93-rule-01",
+      "zh": "兩個 as 中間使用形容詞原形，不要使用比較級。",
+      "en": "Use the base form of the adjective between the two instances of as, not a comparative form.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-rule-02",
+      "zh": "這個句型表示兩者程度相同，而不是其中一方較高或較低。",
+      "en": "This structure shows that two things have the same degree of a quality.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-rule-03",
+      "zh": "題目中的名詞有時需要改成形容詞，例如 the same height → as tall as。",
+      "en": "A noun in the source may need to change into an adjective, such as the same height → as tall as.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-rule-04",
+      "zh": "必須保留原句的時態和其他重要資料。",
+      "en": "Preserve the original tense and other important information.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-rule-05",
+      "zh": "形容詞可以是一個字，也可以是一個短語。",
+      "en": "The adjective may be a single word or an adjective phrase.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-rule-06",
+      "zh": "本練習只集中使用肯定形式 as + adjective + as。",
+      "en": "This exercise focuses only on the affirmative form as + adjective + as.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss93-benefit-01",
+      "zh": "清楚表示兩個人或事物在某方面程度相同。",
+      "en": "It clearly shows that two people or things have the same degree of a quality.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-benefit-02",
+      "zh": "把兩項描述合併成一句，令句子更緊密、更容易理解。",
+      "en": "It combines two descriptions into one tighter and clearer sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-benefit-03",
+      "zh": "避免錯誤地表示其中一方較好、較差、較大或較重要，令比較更加準確和公平。",
+      "en": "It makes comparisons more accurate and balanced by avoiding an unintended higher or lower ranking.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-benefit-04",
+      "zh": "可以代替 equally 和 the same 等說法，增加句式變化。",
+      "en": "It avoids repeatedly using equally and the same and adds sentence variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss93-benefit-05",
+      "zh": "A is as ___ as B 是容易使用的比較句框，適合人物、產品、地方、計劃及服務。",
+      "en": "A is as ___ as B is a practical comparison frame for people, products, places, plans and services.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using as + adjective + as to show that two people or things have the same degree of a quality.",
+      "Preserve the original meaning, tense and important information.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 as + 形容詞 + as 改寫以下句子，以表示兩個人或事物在某方面程度相同。",
+      "請保留原句的意思、時態和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss93-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Tom and Ben are equally tall.",
+      "promptZh": "湯姆和本一樣高。",
+      "promptZhSource": "pdf",
+      "starter": "Tom",
+      "answer": "Tom is as tall as Ben.",
+      "answerZh": "湯姆和本一樣高。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom is as tall as Ben."
+    },
+    {
+      "id": "ss93-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This box and that box are equally heavy.",
+      "promptZh": "這個箱子和那個箱子一樣重。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This box is as heavy as that box.",
+      "answerZh": "這個箱子和那個箱子一樣重。",
+      "answerZhSource": "pdf",
+      "highlight": "This box is as heavy as that box."
+    },
+    {
+      "id": "ss93-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Amy is sixteen years old. Lily is sixteen too.",
+      "promptZh": "艾米十六歲，莉莉也是十六歲。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy is as old as Lily.",
+      "answerZh": "艾米和莉莉年齡相同。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy is as old as Lily."
+    },
+    {
+      "id": "ss93-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This room and the room next door are equally large.",
+      "promptZh": "這個房間和隔壁房間一樣大。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This room is as large as the room next door.",
+      "answerZh": "這個房間和隔壁房間一樣大。",
+      "answerZhSource": "pdf",
+      "highlight": "This room is as large as the room next door."
+    },
+    {
+      "id": "ss93-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "English and maths have the same level of importance.",
+      "promptZh": "英語和數學同樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "English",
+      "answer": "English is as important as maths.",
+      "answerZh": "英語和數學一樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "English is as important as maths."
+    },
+    {
+      "id": "ss93-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The blue chair and the red chair are equally comfortable.",
+      "promptZh": "藍色椅子和紅色椅子一樣舒適。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue chair is as comfortable as the red chair.",
+      "answerZh": "藍色椅子和紅色椅子一樣舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue chair is as comfortable as the red chair."
+    },
+    {
+      "id": "ss93-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Today and yesterday are equally hot.",
+      "promptZh": "今天和昨天一樣熱。",
+      "promptZhSource": "pdf",
+      "starter": "Today",
+      "answer": "Today is as hot as yesterday.",
+      "answerZh": "今天和昨天一樣熱。",
+      "answerZhSource": "pdf",
+      "highlight": "Today is as hot as yesterday."
+    },
+    {
+      "id": "ss93-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The black bag and the brown bag are equally expensive.",
+      "promptZh": "黑色袋和棕色袋一樣昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The black bag is as expensive as the brown bag.",
+      "answerZh": "黑色袋和棕色袋一樣昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "The black bag is as expensive as the brown bag."
+    },
+    {
+      "id": "ss93-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Which is more convenient, the bus or the train? Neither; they are equally convenient.",
+      "promptZh": "巴士和火車哪一種較方便？兩者沒有分別；它們同樣方便。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus is as convenient as the train.",
+      "answerZh": "巴士和火車一樣方便。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus is as convenient as the train."
+    },
+    {
+      "id": "ss93-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This week’s test and last week’s test are equally difficult.",
+      "promptZh": "本週的測驗和上週的測驗一樣困難。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This week’s test is as difficult as last week’s test.",
+      "answerZh": "本週的測驗和上週的測驗一樣困難。",
+      "answerZhSource": "pdf",
+      "highlight": "This week’s test is as difficult as last week’s test."
+    },
+    {
+      "id": "ss93-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There is no difference between Mia and Zoe in friendliness.",
+      "promptZh": "米婭和佐伊的友善程度沒有分別。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is as friendly as Zoe.",
+      "answerZh": "米婭和佐伊一樣友善。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is as friendly as Zoe."
+    },
+    {
+      "id": "ss93-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The riverside park is clean, and the town park is equally clean.",
+      "promptZh": "河畔公園很清潔，市鎮公園也同樣清潔。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The riverside park is as clean as the town park.",
+      "answerZh": "河畔公園和市鎮公園一樣清潔。",
+      "answerZhSource": "pdf",
+      "highlight": "The riverside park is as clean as the town park."
+    },
+    {
+      "id": "ss93-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "For this task, a laptop and a tablet are equally useful.",
+      "promptZh": "對於這項任務，手提電腦和平板電腦同樣有用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A laptop is as useful as a tablet for this task.",
+      "answerZh": "對於這項任務，手提電腦和平板電腦一樣有用。",
+      "answerZhSource": "pdf",
+      "highlight": "A laptop is as useful as a tablet for this task."
+    },
+    {
+      "id": "ss93-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which is more interesting, the history book or the science book? Neither; they are equally interesting.",
+      "promptZh": "歷史書和科學書哪一本較有趣？兩者沒有分別；它們同樣有趣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The history book is as interesting as the science book.",
+      "answerZh": "歷史書和科學書一樣有趣。",
+      "answerZhSource": "pdf",
+      "highlight": "The history book is as interesting as the science book."
+    },
+    {
+      "id": "ss93-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Safety checks show that the old road and the new road are equally safe.",
+      "promptZh": "安全檢查顯示，舊道路和新道路同樣安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old road is as safe as the new road.",
+      "answerZh": "舊道路和新道路一樣安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The old road is as safe as the new road."
+    },
+    {
+      "id": "ss93-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah and Daniel show the same degree of patience when teaching children.",
+      "promptZh": "莎拉和丹尼爾教導兒童時同樣有耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah is as patient as Daniel when teaching children.",
+      "answerZh": "莎拉教導兒童時和丹尼爾一樣有耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah is as patient as Daniel when teaching children."
+    },
+    {
+      "id": "ss93-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our school library and the community library have the same low noise level.",
+      "promptZh": "我們的學校圖書館和社區圖書館同樣安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our school library is as quiet as the community library.",
+      "answerZh": "我們的學校圖書館和社區圖書館一樣安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school library is as quiet as the community library."
+    },
+    {
+      "id": "ss93-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which doctor is more careful, Dr Lee or Dr Wong? The review found no difference between them.",
+      "promptZh": "李醫生和黃醫生哪一位較細心？評估結果顯示兩人沒有分別。",
+      "promptZhSource": "pdf",
+      "starter": "Dr",
+      "answer": "Dr Lee is as careful as Dr Wong.",
+      "answerZh": "李醫生和黃醫生一樣細心。",
+      "answerZhSource": "pdf",
+      "highlight": "Dr Lee is as careful as Dr Wong."
+    },
+    {
+      "id": "ss93-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The clock tower matches the office building in height.",
+      "promptZh": "鐘樓和辦公大樓的高度相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clock tower is as tall as the office building.",
+      "answerZh": "鐘樓和辦公大樓一樣高。",
+      "answerZhSource": "pdf",
+      "highlight": "The clock tower is as tall as the office building."
+    },
+    {
+      "id": "ss93-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Neither solution is more practical than the other.",
+      "promptZh": "兩個解決方法都沒有比另一個更加實際可行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first solution is as practical as the second solution.",
+      "answerZh": "第一個解決方法和第二個解決方法一樣實際可行。",
+      "answerZhSource": "pdf",
+      "highlight": "The first solution is as practical as the second solution."
+    },
+    {
+      "id": "ss93-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Phone A and Phone B have screens of equal brightness.",
+      "promptZh": "電話 A 和電話 B 的屏幕亮度相同。",
+      "promptZhSource": "pdf",
+      "starter": "Phone",
+      "answer": "Phone A’s screen is as bright as Phone B’s.",
+      "answerZh": "電話 A 的屏幕和電話 B 的屏幕一樣光亮。",
+      "answerZhSource": "pdf",
+      "highlight": "Phone A’s screen is as bright as Phone B’s."
+    },
+    {
+      "id": "ss93-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The new delivery service matches the old service in reliability.",
+      "promptZh": "新的送貨服務和舊服務同樣可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new delivery service is as reliable as the old service.",
+      "answerZh": "新的送貨服務和舊服務一樣可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The new delivery service is as reliable as the old service."
+    },
+    {
+      "id": "ss93-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "During the morning rush, the yellow route and the green route are equally quick.",
+      "promptZh": "在早上繁忙時間，黃色路線和綠色路線同樣快捷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The yellow route is as quick as the green route during the morning rush.",
+      "answerZh": "在早上繁忙時間，黃色路線和綠色路線一樣快捷。",
+      "answerZhSource": "pdf",
+      "highlight": "The yellow route is as quick as the green route during the morning rush."
+    },
+    {
+      "id": "ss93-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The clinic and the hospital are equally busy this morning.",
+      "promptZh": "診所和醫院今天早上同樣繁忙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clinic is as busy as the hospital this morning.",
+      "answerZh": "診所和醫院今天早上一樣繁忙。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic is as busy as the hospital this morning."
+    },
+    {
+      "id": "ss93-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Tests show that the first medicine and the second medicine are equally effective at relieving the pain.",
+      "promptZh": "測試顯示，第一種和第二種藥物在紓緩痛楚方面同樣有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first medicine is as effective at relieving the pain as the second medicine.",
+      "answerZh": "第一種藥物在紓緩痛楚方面和第二種藥物一樣有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The first medicine is as effective at relieving the pain as the second medicine."
+    },
+    {
+      "id": "ss93-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Engineers found no difference in strength between recycled plastic and traditional plastic.",
+      "promptZh": "工程師發現再造塑膠和傳統塑膠的強度沒有分別。",
+      "promptZhSource": "pdf",
+      "starter": "Recycled",
+      "answer": "Recycled plastic is as strong as traditional plastic.",
+      "answerZh": "再造塑膠和傳統塑膠一樣堅固。",
+      "answerZhSource": "pdf",
+      "highlight": "Recycled plastic is as strong as traditional plastic."
+    },
+    {
+      "id": "ss93-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "User testing gave the two websites the same score for ease of use.",
+      "promptZh": "用戶測試顯示，兩個網站的易用程度得分相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first website is as easy to use as the second website.",
+      "answerZh": "第一個網站和第二個網站一樣容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The first website is as easy to use as the second website."
+    },
+    {
+      "id": "ss93-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The village and the small island have equally peaceful surroundings.",
+      "promptZh": "這條村莊和這個小島的環境同樣寧靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village is as peaceful as the small island.",
+      "answerZh": "這條村莊和這個小島一樣寧靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The village is as peaceful as the small island."
+    },
+    {
+      "id": "ss93-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Reviewers found the report and the presentation equally detailed.",
+      "promptZh": "評審認為報告和簡報的詳細程度相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is as detailed as the presentation.",
+      "answerZh": "報告和簡報一樣詳細。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is as detailed as the presentation."
+    },
+    {
+      "id": "ss93-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did the team refuse to choose between Plan A and Plan B? They considered both plans equally valuable.",
+      "promptZh": "團隊為甚麼拒絕在計劃 A 和計劃 B 之間作出選擇？他們認為兩個計劃同樣有價值。",
+      "promptZhSource": "pdf",
+      "starter": "Plan",
+      "answer": "Plan A is as valuable as Plan B.",
+      "answerZh": "計劃 A 和計劃 B 一樣有價值。",
+      "answerZhSource": "pdf",
+      "highlight": "Plan A is as valuable as Plan B."
+    },
+    {
+      "id": "ss93-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The doctor judged both illnesses equally serious.",
+      "promptZh": "醫生判斷兩種疾病同樣嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This illness is as serious as that one.",
+      "answerZh": "這種疾病和另一種疾病一樣嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "This illness is as serious as that one."
+    },
+    {
+      "id": "ss93-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager said that Task A and Task B required the same level of urgency.",
+      "promptZh": "經理表示，任務 A 和任務 B 的緊急程度相同。",
+      "promptZhSource": "pdf",
+      "starter": "Task",
+      "answer": "Task A is as urgent as Task B.",
+      "answerZh": "任務 A 和任務 B 一樣緊急。",
+      "answerZhSource": "pdf",
+      "highlight": "Task A is as urgent as Task B."
+    },
+    {
+      "id": "ss93-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new design looks simpler, but its level of complexity is the same as that of the old design.",
+      "promptZh": "新設計看起來較簡單，但它的複雜程度和舊設計相同。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the new design looks simpler, it is as complex as the old design.",
+      "answerZh": "雖然新設計看起來較簡單，但它和舊設計一樣複雜。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the new design looks simpler, it is as complex as the old design."
+    },
+    {
+      "id": "ss93-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some students expected the online class to be easier. However, the teacher rated both classes equally challenging.",
+      "promptZh": "部分學生以為網上課堂會較容易，但老師認為兩種課堂同樣具挑戰性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The online class is as challenging as the face-to-face class.",
+      "answerZh": "網上課堂和面對面課堂一樣具挑戰性。",
+      "answerZhSource": "pdf",
+      "highlight": "The online class is as challenging as the face-to-face class."
+    },
+    {
+      "id": "ss93-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Which map gives more accurate directions? The digital map and the printed map received the same accuracy score.",
+      "promptZh": "哪一張地圖提供較準確的方向？電子地圖和印刷地圖的準確度得分相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The digital map is as accurate as the printed map.",
+      "answerZh": "電子地圖和印刷地圖一樣準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The digital map is as accurate as the printed map."
+    },
+    {
+      "id": "ss93-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Model A and Model B have batteries with the same power.",
+      "promptZh": "型號 A 和型號 B 的電池具有相同的效能。",
+      "promptZhSource": "pdf",
+      "starter": "Model",
+      "answer": "Model A’s battery is as powerful as Model B’s.",
+      "answerZh": "型號 A 的電池和型號 B 的電池一樣強大。",
+      "answerZhSource": "pdf",
+      "highlight": "Model A’s battery is as powerful as Model B’s."
+    },
+    {
+      "id": "ss93-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Visitor surveys gave the museum and the art gallery the same popularity rating.",
+      "promptZh": "訪客調查顯示，博物館和美術館的受歡迎程度相同。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is as popular as the art gallery.",
+      "answerZh": "博物館和美術館一樣受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is as popular as the art gallery."
+    },
+    {
+      "id": "ss93-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Accessibility inspectors gave this community centre and the new sports hall equal scores.",
+      "promptZh": "無障礙設施檢查員給予這間社區中心和新體育館相同的評分。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This community centre is as accessible as the new sports hall.",
+      "answerZh": "這間社區中心和新體育館一樣方便不同人士進出。",
+      "answerZhSource": "pdf",
+      "highlight": "This community centre is as accessible as the new sports hall."
+    },
+    {
+      "id": "ss93-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The panel considered Applicant A and Applicant B equally suitable for the role.",
+      "promptZh": "評審小組認為申請人 A 和申請人 B 同樣適合這個職位。",
+      "promptZhSource": "pdf",
+      "starter": "Applicant",
+      "answer": "Applicant A is as suitable for the role as Applicant B.",
+      "answerZh": "申請人 A 和申請人 B 一樣適合這個職位。",
+      "answerZhSource": "pdf",
+      "highlight": "Applicant A is as suitable for the role as Applicant B."
+    },
+    {
+      "id": "ss93-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "After the repairs, the safety level of the cycling path matched that of the pedestrian path.",
+      "promptZh": "維修後，單車徑和行人路的安全程度相同。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the repairs, the cycling path is as safe as the pedestrian path.",
+      "answerZh": "維修後，單車徑和行人路一樣安全。",
+      "answerZhSource": "pdf",
+      "highlight": "After the repairs, the cycling path is as safe as the pedestrian path."
+    },
+    {
+      "id": "ss93-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Despite being older, the original machine works with the same efficiency as the newer machine.",
+      "promptZh": "原有機器雖然較舊，但運作效率和較新的機器相同。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the original machine is older, it is as efficient as the newer machine.",
+      "answerZh": "雖然原有機器較舊，但它和較新的機器一樣有效率。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the original machine is older, it is as efficient as the newer machine."
+    },
+    {
+      "id": "ss93-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Researchers found the new policy and the previous policy equally effective at reducing delays.",
+      "promptZh": "研究人員發現，新政策和之前的政策在減少延誤方面同樣有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy is as effective at reducing delays as the previous policy.",
+      "answerZh": "新政策在減少延誤方面和之前的政策一樣有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy is as effective at reducing delays as the previous policy."
+    },
+    {
+      "id": "ss93-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school believes that emotional well-being deserves the same level of importance as academic results.",
+      "promptZh": "學校認為情緒健康和學業成績應該受到同等重視。",
+      "promptZhSource": "pdf",
+      "starter": "Emotional",
+      "answer": "Emotional well-being is as important as academic results.",
+      "answerZh": "情緒健康和學業成績一樣重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Emotional well-being is as important as academic results."
+    },
+    {
+      "id": "ss93-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A review found no difference between a video call and a face-to-face meeting in usefulness for routine updates.",
+      "promptZh": "評估發現，視像通話和面對面會議在處理日常進度更新方面同樣有用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A video call is as useful as a face-to-face meeting for routine updates.",
+      "answerZh": "視像通話在處理日常進度更新方面和面對面會議一樣有用。",
+      "answerZhSource": "pdf",
+      "highlight": "A video call is as useful as a face-to-face meeting for routine updates."
+    },
+    {
+      "id": "ss93-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the old bridge is much older, engineers found no difference in strength between the two bridges.",
+      "promptZh": "雖然舊橋的歷史悠久得多，但工程師發現兩座橋的強度沒有分別。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the old bridge is much older, it is as strong as the new bridge.",
+      "answerZh": "雖然舊橋的歷史悠久得多，但它和新橋一樣堅固。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the old bridge is much older, it is as strong as the new bridge."
+    },
+    {
+      "id": "ss93-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Both emergency plans were rated equally effective at protecting residents during floods.",
+      "promptZh": "兩個緊急應變計劃在水災期間保護居民方面都被評為同樣有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first emergency plan is as effective at protecting residents during floods as the second one.",
+      "answerZh": "第一個緊急應變計劃在水災期間保護居民方面和第二個計劃一樣有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The first emergency plan is as effective at protecting residents during floods as the second one."
+    },
+    {
+      "id": "ss93-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The electric bus is quieter than the diesel bus, but the transport department gave both buses the same reliability rating.",
+      "promptZh": "電動巴士比柴油巴士安靜，但運輸部門給予兩種巴士相同的可靠程度評分。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the electric bus is quieter, it is as reliable as the diesel bus.",
+      "answerZh": "雖然電動巴士較安靜，但它和柴油巴士一樣可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the electric bus is quieter, it is as reliable as the diesel bus."
+    },
+    {
+      "id": "ss93-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the older textbook uses fewer pictures, reviewers found it and the newer textbook equally detailed.",
+      "promptZh": "雖然較舊的教科書使用較少圖片，但評審認為它和較新的教科書同樣詳細。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the older textbook uses fewer pictures, it is as detailed as the newer textbook.",
+      "answerZh": "雖然較舊的教科書使用較少圖片，但它和較新的教科書一樣詳細。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the older textbook uses fewer pictures, it is as detailed as the newer textbook."
+    },
+    {
+      "id": "ss93-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "An environmental review awarded Plan A and Plan B the same rating for environmental friendliness.",
+      "promptZh": "環境評估給予計劃 A 和計劃 B 相同的環保程度評分。",
+      "promptZhSource": "pdf",
+      "starter": "Plan",
+      "answer": "Plan A is as environmentally friendly as Plan B.",
+      "answerZh": "計劃 A 和計劃 B 一樣環保。",
+      "answerZhSource": "pdf",
+      "highlight": "Plan A is as environmentally friendly as Plan B."
+    },
+    {
+      "id": "ss93-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the two proposals use different methods, the panel found no difference in how practical they would be for small schools.",
+      "promptZh": "雖然兩項建議使用不同方法，但評審小組認為它們對小型學校而言同樣實際可行。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the two proposals use different methods, the first proposal would be as practical as the second for small schools.",
+      "answerZh": "雖然兩項建議使用不同方法，但對小型學校而言，第一項建議會和第二項建議一樣實際可行。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the two proposals use different methods, the first proposal would be as practical as the second for small schools."
+    }
+  ]
+}

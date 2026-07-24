@@ -1,0 +1,1184 @@
+{
+  "id": "ss76",
+  "order": 76,
+  "slug": "sentence-structure-76",
+  "title": "「As if / As though」句型",
+  "titleZh": "「As if / As though」句：表達「好像……一樣」",
+  "titleEn": "Using As if / As though to mean ‘as though something were true’",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 76 -「As if _ As though 句」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause + as if / as though + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss76-formula-basic",
+      "labelZh": "基本公式",
+      "labelEn": "Basic formula",
+      "formula": "Main clause + as if / as though + subject + verb + other information"
+    },
+    {
+      "id": "ss76-formula-unreal-past",
+      "labelZh": "與過去事實不符",
+      "labelEn": "An unreal past situation",
+      "formula": "as if / as though + subject + had + past participle"
+    }
+  ],
+  "example": "He talks as if he owned the place.",
+  "exampleZh": "他說話的樣子，好像這個地方是他的一樣。",
+  "examples": [
+    {
+      "id": "ss76-example-unreal-present",
+      "en": "He talks as if he owned the place.",
+      "zh": "他說話的樣子，好像這個地方是他的一樣。",
+      "highlight": "as if he owned"
+    },
+    {
+      "id": "ss76-example-unreal-past",
+      "en": "John was eating very messily, as though he had not eaten for days.",
+      "zh": "John 吃得非常狼狽，好像已經多天沒有吃過東西一樣。",
+      "highlight": "as though he had not eaten"
+    }
+  ],
+  "meaning": {
+    "zh": "As if 和 as though 都表示「好像……」、「彷彿……」或「看起來就像……」，大部分情況下可以互換。"
+  },
+  "rules": [
+    {
+      "id": "ss76-rule-01",
+      "zh": "As if 和 as though 的意思大致相同，在大部分句子中可以互換。",
+      "en": "As if and as though have approximately the same meaning and are interchangeable in most sentences.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-rule-02",
+      "zh": "當說話者認為後面的情況可能是真的，可以按照正常時間使用現在式、過去式或完成式。",
+      "en": "Use a normal tense when the situation may be true.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-rule-03",
+      "zh": "當後面的情況並非事實或不大可能是真的，通常使用過去式。",
+      "en": "Use the past tense for a present situation that is unreal or unlikely.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-rule-04",
+      "zh": "如果想像的事情發生在過去，通常使用過去完成式。",
+      "en": "Use had + past participle for an unreal past situation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-rule-05",
+      "zh": "在較正式或標準的英語中，假設或不真實的情況通常一律使用 were。",
+      "en": "In formal or standard English, use were for an unreal situation with every subject.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-rule-06",
+      "zh": "As if / as though 後面通常必須有包含主語和動詞的完整小句。",
+      "en": "A complete clause with a subject and verb normally follows as if or as though.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-rule-07",
+      "zh": "不要把 as if + 完整小句 與 like + 名詞 混淆。",
+      "en": "Do not confuse as if + clause with like + noun.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-rule-08",
+      "zh": "As if / as though 常用於 look、sound、feel、seem、act、behave、talk、react 等動詞之後。",
+      "en": "Common main-clause verbs include look, sound, feel, seem, act, behave, talk and react.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss76-benefit-01",
+      "zh": "它不只說明一個人做了甚麼，還可以描述他的動作、語氣或表情給人的感覺。",
+      "en": "It describes a person’s behaviour or appearance more vividly.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-benefit-02",
+      "zh": "它能根據外表、聲音或行為表達印象，而不把猜測斷定為事實。",
+      "en": "It expresses an impression without presenting a guess as a fact.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-benefit-03",
+      "zh": "它把實際看到的情況和給人的印象自然地連接起來。",
+      "en": "It joins the observed situation and the impression naturally.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-benefit-04",
+      "zh": "它可以清楚指出某人的行為與事實並不相符，適合表達批評、幽默、驚訝或誇張。",
+      "en": "It clearly expresses an unreal or exaggerated comparison.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-benefit-05",
+      "zh": "As if / as though 很適合用於故事、作文和口語描述，讓讀者更容易想像畫面。",
+      "en": "It makes stories and descriptions more vivid.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss76-benefit-06",
+      "zh": "It looks as if...、It sounds as though... 等句框可幫助你快速組織答案。",
+      "en": "It provides practical frames for speaking and writing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using as if or as though.",
+      "Preserve the original meaning and choose the correct tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 as if 或 as though 改寫以下句子。",
+      "答案須保留原意，並按照真實、非真實或過去的情況選擇正確時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss76-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia’s face gives the impression that she is tired.",
+      "promptZh": "米婭的神情令人覺得她很疲倦。",
+      "starter": "Mia",
+      "answer": "Mia looks as if she is tired.",
+      "answerZh": "米婭看起來好像很疲倦。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia looks as if she is tired."
+    },
+    {
+      "id": "ss76-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The smell of the soup makes us think that it is burning.",
+      "promptZh": "湯的氣味令人覺得它正在燒焦。",
+      "starter": "The",
+      "answer": "The soup smells as though it is burning.",
+      "answerZh": "湯聞起來好像正在燒焦。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup smells as though it is burning."
+    },
+    {
+      "id": "ss76-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "From the baby’s cries, he seems to be hungry.",
+      "promptZh": "從嬰兒的哭聲判斷，他看來肚餓了。",
+      "starter": "The",
+      "answer": "The baby sounds as if he is hungry.",
+      "answerZh": "嬰兒的聲音聽起來好像肚餓了。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby sounds as if he is hungry."
+    },
+    {
+      "id": "ss76-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel is walking in a way that suggests his leg hurts.",
+      "promptZh": "丹尼爾走路的樣子顯示他的腿在痛。",
+      "starter": "Daniel",
+      "answer": "Daniel walks as though his leg hurts.",
+      "answerZh": "丹尼爾走路時好像腿在痛。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel walks as though his leg hurts."
+    },
+    {
+      "id": "ss76-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When we enter the room, we get the impression that it is becoming colder.",
+      "promptZh": "我們進入房間時，覺得室內正變得愈來愈冷。",
+      "starter": "The",
+      "answer": "The room feels as if it is becoming colder.",
+      "answerZh": "房間感覺好像正變得愈來愈冷。",
+      "answerZhSource": "pdf",
+      "highlight": "The room feels as if it is becoming colder."
+    },
+    {
+      "id": "ss76-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ava answers confidently, giving the impression that she knows the answer.",
+      "promptZh": "艾娃自信地回答，令人覺得她知道答案。",
+      "starter": "Ava",
+      "answer": "Ava answers as though she knows the answer.",
+      "answerZh": "艾娃回答時，好像她知道答案一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava answers as though she knows the answer."
+    },
+    {
+      "id": "ss76-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The dog is shaking, which makes it seem frightened.",
+      "promptZh": "這隻狗正在發抖，看來感到很害怕。",
+      "starter": "The",
+      "answer": "The dog is shaking as if it is frightened.",
+      "answerZh": "這隻狗正在發抖，好像感到很害怕。",
+      "answerZhSource": "pdf",
+      "highlight": "The dog is shaking as if it is frightened."
+    },
+    {
+      "id": "ss76-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The sky is very dark, and it seems likely that it is going to rain.",
+      "promptZh": "天空非常昏暗，看來很可能快要下雨。",
+      "starter": "The",
+      "answer": "The sky looks as though it is going to rain.",
+      "answerZh": "天空看起來好像快要下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "The sky looks as though it is going to rain."
+    },
+    {
+      "id": "ss76-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ethan’s voice makes him sound like someone with a cold.",
+      "promptZh": "伊森的聲音聽起來像是感冒了。",
+      "starter": "Ethan",
+      "answer": "Ethan sounds as if he has a cold.",
+      "answerZh": "伊森聽起來好像感冒了。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan sounds as if he has a cold."
+    },
+    {
+      "id": "ss76-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The computer is behaving strangely, which suggests that something is wrong.",
+      "promptZh": "電腦表現異常，顯示有些東西出了問題。",
+      "starter": "The",
+      "answer": "The computer is behaving as though something is wrong.",
+      "answerZh": "電腦的表現好像有些東西出了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The computer is behaving as though something is wrong."
+    },
+    {
+      "id": "ss76-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Leo does not know everything, but the way he talks suggests that he does.",
+      "promptZh": "里奧並非甚麼都知道，但他說話的方式令人覺得他甚麼都懂。",
+      "starter": "Leo",
+      "answer": "Leo talks as if he knew everything.",
+      "answerZh": "里奧說話時，好像自己甚麼都知道一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo talks as if he knew everything."
+    },
+    {
+      "id": "ss76-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nina is not rich, but she spends money like a rich person.",
+      "promptZh": "妮娜並不富有，但她花錢的方式像個富人。",
+      "starter": "Nina",
+      "answer": "Nina spends money as though she were rich.",
+      "answerZh": "妮娜花錢時，好像自己很富有一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina spends money as though she were rich."
+    },
+    {
+      "id": "ss76-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben is not the manager, but he orders everyone around like the manager.",
+      "promptZh": "本並不是經理，但他像經理一樣命令所有人。",
+      "starter": "Ben",
+      "answer": "Ben orders everyone around as if he were the manager.",
+      "answerZh": "本命令所有人時，好像自己是經理一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben orders everyone around as if he were the manager."
+    },
+    {
+      "id": "ss76-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The problem is minor, but Chloe’s complaints make it sound like a disaster.",
+      "promptZh": "問題並不嚴重，但克洛伊的投訴令事情聽起來像一場災難。",
+      "starter": "Chloe",
+      "answer": "Chloe complains as though the problem were a disaster.",
+      "answerZh": "克洛伊投訴時，好像這個問題是一場災難一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe complains as though the problem were a disaster."
+    },
+    {
+      "id": "ss76-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The toy is made of plastic, but the child carries it with the care normally used for glass.",
+      "promptZh": "玩具是塑膠製的，但這個孩子拿着它時，像拿着玻璃一樣小心。",
+      "starter": "The",
+      "answer": "The child carries the toy as if it were made of glass.",
+      "answerZh": "這個孩子拿着玩具時，好像它是玻璃製的一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "The child carries the toy as if it were made of glass."
+    },
+    {
+      "id": "ss76-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The office does not belong to Omar, but he treats it like his own property.",
+      "promptZh": "辦公室並不屬於奧馬爾，但他把它當作自己的地方。",
+      "starter": "Omar",
+      "answer": "Omar treats the office as though it belonged to him.",
+      "answerZh": "奧馬爾把辦公室當作好像是屬於自己的一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar treats the office as though it belonged to him."
+    },
+    {
+      "id": "ss76-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Grace knows me well, but she looks at me in a way that suggests she does not recognise me.",
+      "promptZh": "格蕾絲很熟悉我，但她看着我的樣子，好像認不出我。",
+      "starter": "Grace",
+      "answer": "Grace looks at me as if she did not recognise me.",
+      "answerZh": "格蕾絲看着我，好像認不出我一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace looks at me as if she did not recognise me."
+    },
+    {
+      "id": "ss76-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The audience members are adults, but Marcus speaks to them like children.",
+      "promptZh": "觀眾都是成年人，但馬庫斯跟他們說話時，像在跟小孩子說話。",
+      "starter": "Marcus",
+      "answer": "Marcus speaks to the audience as though they were children.",
+      "answerZh": "馬庫斯跟觀眾說話時，好像他們是小孩子一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus speaks to the audience as though they were children."
+    },
+    {
+      "id": "ss76-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The price was only slightly higher. The customer reacted in a way that suggested it was completely unreasonable.",
+      "promptZh": "價錢只是稍為提高，但顧客的反應令人覺得這個價格完全不合理。",
+      "starter": "The",
+      "answer": "The customer reacted as if the price were completely unreasonable.",
+      "answerZh": "顧客的反應好像這個價格完全不合理一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer reacted as if the price were completely unreasonable."
+    },
+    {
+      "id": "ss76-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rules apply to Aisha, but she behaves in a way that suggests they do not.",
+      "promptZh": "規則同樣適用於艾莎，但她的行為好像這些規則不適用於她。",
+      "starter": "Aisha",
+      "answer": "Aisha behaves as though the rules did not apply to her.",
+      "answerZh": "艾莎的行為好像這些規則不適用於她一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha behaves as though the rules did not apply to her."
+    },
+    {
+      "id": "ss76-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Emma stared at the empty chair, and her face suggested that she had seen a ghost.",
+      "promptZh": "艾瑪凝視着空椅子，她的神情令人覺得她見到鬼一樣。",
+      "starter": "Emma",
+      "answer": "Emma stared at the empty chair as if she had seen a ghost.",
+      "answerZh": "艾瑪凝視着空椅子，好像見到鬼一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma stared at the empty chair as if she had seen a ghost."
+    },
+    {
+      "id": "ss76-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Jason rushed to the table with the hunger of someone who had not eaten all day.",
+      "promptZh": "傑森衝到餐桌旁，飢餓得像整天沒有吃過東西的人。",
+      "starter": "Jason",
+      "answer": "Jason rushed to the table as though he had not eaten all day.",
+      "answerZh": "傑森衝到餐桌旁，好像整天沒有吃過東西一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason rushed to the table as though he had not eaten all day."
+    },
+    {
+      "id": "ss76-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The wet floor suggested that someone had spilled a bucket of water.",
+      "promptZh": "濕漉漉的地板令人覺得有人倒瀉了一桶水。",
+      "starter": "The",
+      "answer": "The floor looked as if someone had spilled a bucket of water.",
+      "answerZh": "地板看起來好像有人倒瀉了一桶水。",
+      "answerZhSource": "pdf",
+      "highlight": "The floor looked as if someone had spilled a bucket of water."
+    },
+    {
+      "id": "ss76-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Noah’s relieved expression suggested that he had received good news.",
+      "promptZh": "諾亞如釋重負的表情令人覺得他收到了好消息。",
+      "starter": "Noah",
+      "answer": "Noah looked relieved as though he had received good news.",
+      "answerZh": "諾亞看起來如釋重負，好像收到了好消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah looked relieved as though he had received good news."
+    },
+    {
+      "id": "ss76-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The children looked as tired as people who had run a long race.",
+      "promptZh": "孩子們看起來像跑完長途賽跑的人一樣疲倦。",
+      "starter": "The",
+      "answer": "The children looked as if they had run a long race.",
+      "answerZh": "孩子們看起來好像剛跑完一場長途賽跑。",
+      "answerZhSource": "pdf",
+      "highlight": "The children looked as if they had run a long race."
+    },
+    {
+      "id": "ss76-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The package was undamaged, but Maya examined it with the care she would use after serious damage.",
+      "promptZh": "包裹並沒有損壞，但瑪雅檢查它時，就像它曾受到嚴重破壞一樣小心。",
+      "starter": "Maya",
+      "answer": "Maya examined the package as though it had been seriously damaged.",
+      "answerZh": "瑪雅檢查包裹時，好像它曾受到嚴重破壞一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya examined the package as though it had been seriously damaged."
+    },
+    {
+      "id": "ss76-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The teacher paused, giving the impression that she had forgotten what to say.",
+      "promptZh": "老師停了下來，令人覺得她忘記了要說甚麼。",
+      "starter": "The",
+      "answer": "The teacher paused as if she had forgotten what to say.",
+      "answerZh": "老師停了下來，好像忘記了要說甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher paused as if she had forgotten what to say."
+    },
+    {
+      "id": "ss76-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ethan suddenly looked towards the door. He seemed to have heard a strange noise.",
+      "promptZh": "伊森突然望向門口。他似乎聽到了一些奇怪的聲音。",
+      "starter": "Ethan",
+      "answer": "Ethan looked towards the door as though he had heard a strange noise.",
+      "answerZh": "伊森望向門口，好像聽到了一些奇怪的聲音。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan looked towards the door as though he had heard a strange noise."
+    },
+    {
+      "id": "ss76-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team had won only the first match, but they celebrated like winners of the final.",
+      "promptZh": "球隊只贏了第一場比賽，但他們慶祝得像贏了決賽一樣。",
+      "starter": "The",
+      "answer": "The team celebrated as if they had won the final.",
+      "answerZh": "球隊慶祝得好像已經贏了決賽一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "The team celebrated as if they had won the final."
+    },
+    {
+      "id": "ss76-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Olivia caused only a small part of the problem, but she apologised like the person responsible for all of it.",
+      "promptZh": "奧莉花只造成了問題的一小部分，但她道歉時像整個問題都是由她引起的。",
+      "starter": "Olivia",
+      "answer": "Olivia apologised as though she had caused the whole problem.",
+      "answerZh": "奧莉花道歉時，好像整個問題都是由她造成的。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia apologised as though she had caused the whole problem."
+    },
+    {
+      "id": "ss76-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why is Sam whispering? His behaviour suggests that someone is sleeping nearby.",
+      "promptZh": "山姆為甚麼正在低聲說話？他的行為顯示附近可能有人正在睡覺。",
+      "starter": "Sam",
+      "answer": "Sam is whispering as if someone is sleeping nearby.",
+      "answerZh": "山姆低聲說話，好像附近有人正在睡覺。",
+      "answerZhSource": "pdf",
+      "highlight": "Sam is whispering as if someone is sleeping nearby."
+    },
+    {
+      "id": "ss76-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The repeated flashing of the lights suggests that the building is losing power.",
+      "promptZh": "燈光不斷閃爍，顯示大樓可能正失去電力供應。",
+      "starter": "The",
+      "answer": "The lights keep flashing as though the building is losing power.",
+      "answerZh": "燈光不斷閃爍，好像大樓正失去電力供應。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights keep flashing as though the building is losing power."
+    },
+    {
+      "id": "ss76-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The man held the map upside down, but he behaved like someone who understood it.",
+      "promptZh": "那名男子把地圖倒轉拿着，但他的表現像是看得明白一樣。",
+      "starter": "The",
+      "answer": "The man held the map upside down as if he understood it.",
+      "answerZh": "那名男子把地圖倒轉拿着，卻好像看得明白一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "The man held the map upside down as if he understood it."
+    },
+    {
+      "id": "ss76-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Do not speak to me in the way adults speak to a child.",
+      "promptZh": "不要用成年人跟小孩子說話的方式跟我說話。",
+      "starter": "Do",
+      "answer": "Do not speak to me as if I were a child.",
+      "answerZh": "不要跟我說話時，好像我是個小孩子一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Do not speak to me as if I were a child."
+    },
+    {
+      "id": "ss76-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The machine sounds unusual. It seems that a part has come loose.",
+      "promptZh": "這部機器聽起來不正常，似乎有零件鬆脫了。",
+      "starter": "The",
+      "answer": "The machine sounds as though a part has come loose.",
+      "answerZh": "這部機器聽起來好像有零件鬆脫了。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine sounds as though a part has come loose."
+    },
+    {
+      "id": "ss76-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "She smiled in a way that suggested she knew a secret.",
+      "promptZh": "她微笑的樣子令人覺得她知道一個秘密。",
+      "starter": "She",
+      "answer": "She smiled as if she knew a secret.",
+      "answerZh": "她微笑時，好像知道一個秘密。",
+      "answerZhSource": "pdf",
+      "highlight": "She smiled as if she knew a secret."
+    },
+    {
+      "id": "ss76-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The wind hit the windows in a way that suggested a storm was approaching.",
+      "promptZh": "風猛烈地吹打窗戶，令人覺得暴風雨正在迫近。",
+      "starter": "The",
+      "answer": "The wind hit the windows as though a storm was approaching.",
+      "answerZh": "風吹打窗戶時，好像暴風雨正在迫近。",
+      "answerZhSource": "pdf",
+      "highlight": "The wind hit the windows as though a storm was approaching."
+    },
+    {
+      "id": "ss76-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You are describing the exam in a way that makes it sound impossible.",
+      "promptZh": "你描述這場考試的方式，令人覺得它根本不可能完成。",
+      "starter": "You",
+      "answer": "You are describing the exam as if it were impossible.",
+      "answerZh": "你描述這場考試時，好像它根本不可能完成一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "You are describing the exam as if it were impossible."
+    },
+    {
+      "id": "ss76-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The receptionist greeted us warmly, giving the impression that she had known us for years.",
+      "promptZh": "接待員熱情地迎接我們，令人覺得她已經認識我們多年。",
+      "starter": "The",
+      "answer": "The receptionist greeted us as though she had known us for years.",
+      "answerZh": "接待員迎接我們時，好像已經認識我們多年。",
+      "answerZhSource": "pdf",
+      "highlight": "The receptionist greeted us as though she had known us for years."
+    },
+    {
+      "id": "ss76-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The actor performed in a way that made the audience believe he really was the king.",
+      "promptZh": "演員的表演令觀眾覺得他真的就是國王。",
+      "starter": "The",
+      "answer": "The actor performed as if he were the king.",
+      "answerZh": "演員表演時，好像自己就是國王一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "The actor performed as if he were the king."
+    },
+    {
+      "id": "ss76-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Peter had never used the software before, but he clicked through the menus with the confidence of someone who had used it many times.",
+      "promptZh": "彼得以前從未使用過這個軟件，但他按選單時，像已經使用過很多次一樣有信心。",
+      "starter": "Peter",
+      "answer": "Peter clicked through the menus as though he had used the software many times before.",
+      "answerZh": "彼得按選單時，好像以前已經使用過這個軟件很多次。",
+      "answerZhSource": "pdf",
+      "highlight": "Peter clicked through the menus as though he had used the software many times before."
+    },
+    {
+      "id": "ss76-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The delay was minor, but the committee discussed it with the seriousness of a national emergency.",
+      "promptZh": "延誤並不嚴重，但委員會討論這件事時，嚴肅得像發生了全國緊急事故。",
+      "starter": "The",
+      "answer": "The committee discussed the minor delay as if it were a national emergency.",
+      "answerZh": "委員會討論這次輕微延誤時，好像它是一場全國緊急事故。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee discussed the minor delay as if it were a national emergency."
+    },
+    {
+      "id": "ss76-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The shop was still open, but the staff started packing up and gave the impression that the day had ended.",
+      "promptZh": "商店仍然營業，但職員開始收拾東西，令人覺得一天的工作已經結束。",
+      "starter": "The",
+      "answer": "The staff started packing up as though the day had ended.",
+      "answerZh": "職員開始收拾東西，好像一天的工作已經結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The staff started packing up as though the day had ended."
+    },
+    {
+      "id": "ss76-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The witness described the event with the certainty of someone who had been standing beside the driver.",
+      "promptZh": "目擊者非常肯定地描述事件，像當時一直站在司機旁邊一樣。",
+      "starter": "The",
+      "answer": "The witness described the event as if she had been standing beside the driver.",
+      "answerZh": "目擊者描述事件時，好像當時一直站在司機旁邊。",
+      "answerZhSource": "pdf",
+      "highlight": "The witness described the event as if she had been standing beside the driver."
+    },
+    {
+      "id": "ss76-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Raj kept checking the locked door. His behaviour suggested that someone might try to enter.",
+      "promptZh": "拉傑不斷檢查已上鎖的門。他的行為令人覺得可能有人會嘗試進入。",
+      "starter": "Raj",
+      "answer": "Raj kept checking the locked door as though someone might try to enter.",
+      "answerZh": "拉傑不斷檢查已上鎖的門，好像可能有人會嘗試進入。",
+      "answerZhSource": "pdf",
+      "highlight": "Raj kept checking the locked door as though someone might try to enter."
+    },
+    {
+      "id": "ss76-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager dismissed every suggestion and behaved like a person who believed only his own opinion mattered.",
+      "promptZh": "經理否定了所有建議，表現得像只有他自己的意見才重要。",
+      "starter": "The",
+      "answer": "The manager dismissed every suggestion as if only his own opinion mattered.",
+      "answerZh": "經理否定所有建議，好像只有他自己的意見才重要。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager dismissed every suggestion as if only his own opinion mattered."
+    },
+    {
+      "id": "ss76-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The patient walked slowly and carefully. Anyone watching might think that the floor was covered with ice.",
+      "promptZh": "病人緩慢而小心地走路。旁人可能會以為地面鋪滿了冰。",
+      "starter": "The",
+      "answer": "The patient walked as though the floor were covered with ice.",
+      "answerZh": "病人走路時，好像地面鋪滿了冰。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient walked as though the floor were covered with ice."
+    },
+    {
+      "id": "ss76-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After the short meeting, Tom looked as exhausted as someone who had worked without rest for several days.",
+      "promptZh": "短短的會議結束後，湯姆看起來像連續工作了數天而沒有休息一樣疲倦。",
+      "starter": "Tom",
+      "answer": "Tom looked as if he had worked without rest for several days.",
+      "answerZh": "湯姆看起來好像已經連續工作數天而沒有休息。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom looked as if he had worked without rest for several days."
+    },
+    {
+      "id": "ss76-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The city became silent within minutes, giving visitors the impression that everyone had disappeared.",
+      "promptZh": "城市在數分鐘內變得寂靜，令訪客覺得所有人都消失了。",
+      "starter": "The",
+      "answer": "The city became silent as though everyone had disappeared.",
+      "answerZh": "城市變得寂靜，好像所有人都消失了。",
+      "answerZhSource": "pdf",
+      "highlight": "The city became silent as though everyone had disappeared."
+    },
+    {
+      "id": "ss76-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The spokesperson paused repeatedly while answering each question. This suggested that she was trying to remember a prepared statement.",
+      "promptZh": "發言人在回答每條問題時不斷停頓，令人覺得她正在努力記起預先準備好的說話。",
+      "starter": "The",
+      "answer": "The spokesperson paused repeatedly while answering each question, as if she were trying to remember a prepared statement.",
+      "answerZh": "發言人在回答每條問題時不斷停頓，好像正在努力記起預先準備好的說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The spokesperson paused repeatedly while answering each question, as if she were trying to remember a prepared statement."
+    }
+  ]
+}

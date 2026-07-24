@@ -1,0 +1,1242 @@
+{
+  "id": "ss94",
+  "order": 94,
+  "slug": "sentence-structure-94",
+  "title": "「Hardly / Rarely / Barely」句型",
+  "titleZh": "「Hardly / Rarely / Barely」近乎否定句",
+  "titleEn": "Hardly / Rarely / Barely Near-Negative Structures",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 94 -「Hardly _ Rarely _ Barely」近乎否定句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + auxiliary/modal + hardly + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss94-formula-hardly-auxiliary",
+      "labelZh": "Hardly 配合助動詞或情態動詞",
+      "labelEn": "Hardly with an auxiliary or modal",
+      "formula": "Subject + auxiliary/modal + hardly + base verb + other information"
+    },
+    {
+      "id": "ss94-formula-hardly-main",
+      "labelZh": "Hardly 配合主要動詞",
+      "labelEn": "Hardly with a main verb",
+      "formula": "Subject + hardly + main verb + other information"
+    },
+    {
+      "id": "ss94-formula-hardly-noun",
+      "labelZh": "Hardly any / enough 配合名詞",
+      "labelEn": "Hardly any / enough with a noun",
+      "formula": "Subject + verb / be + hardly any / hardly enough + noun + other information"
+    },
+    {
+      "id": "ss94-formula-rarely-do",
+      "labelZh": "Rarely 句首倒裝",
+      "labelEn": "Sentence-initial Rarely with inversion",
+      "formula": "Rarely + do/does/did + subject + base verb + other information"
+    },
+    {
+      "id": "ss94-formula-rarely-auxiliary",
+      "labelZh": "Rarely 配合 be、情態動詞或 have",
+      "labelEn": "Rarely with be, a modal or have",
+      "formula": "Rarely + be/modal/have + subject + other information"
+    },
+    {
+      "id": "ss94-formula-barely",
+      "labelZh": "Barely 表示僅僅做到",
+      "labelEn": "Barely for narrow success",
+      "formula": "Subject + barely + main verb + other information"
+    }
+  ],
+  "example": "We had hardly enough time to revise the report.",
+  "exampleZh": "我們幾乎沒有足夠時間修改報告。",
+  "examples": [
+    {
+      "id": "ss94-example-hardly",
+      "en": "We had hardly enough time to revise the report.",
+      "zh": "我們幾乎沒有足夠時間修改報告。",
+      "highlight": "hardly enough time"
+    },
+    {
+      "id": "ss94-example-rarely",
+      "en": "Rarely do simple answers solve complex problems.",
+      "zh": "複雜問題很少能靠簡單答案解決。",
+      "highlight": "Rarely do"
+    },
+    {
+      "id": "ss94-example-barely",
+      "en": "The team barely met the deadline.",
+      "zh": "團隊勉強趕上了截止日期。",
+      "highlight": "barely met"
+    }
+  ],
+  "meaning": {
+    "zh": "Hardly 表示幾乎不／幾乎沒有；rarely 表示很少／不常；barely 表示僅僅／勉強。"
+  },
+  "rules": [
+    {
+      "id": "ss94-rule-01",
+      "zh": "使用 hardly 表示某物幾乎不存在，或某個動作幾乎無法做到。",
+      "en": "Use hardly for near absence or near inability."
+    },
+    {
+      "id": "ss94-rule-02",
+      "zh": "使用 rarely 表示低頻率；本練習中的 rarely 必須放在句首。",
+      "en": "Use rarely for low frequency; in this exercise, put it at the beginning of the sentence."
+    },
+    {
+      "id": "ss94-rule-03",
+      "zh": "當 Rarely 放在句首時，要使用倒裝語序。",
+      "en": "A sentence beginning with Rarely requires inversion."
+    },
+    {
+      "id": "ss94-rule-04",
+      "zh": "在 do、does 或 did 之後，必須使用原形動詞。",
+      "en": "After do, does or did, use the base verb."
+    },
+    {
+      "id": "ss94-rule-05",
+      "zh": "使用 barely 表示事情只是僅僅成功或勉強做到。",
+      "en": "Use barely when something succeeds by only a very small margin."
+    },
+    {
+      "id": "ss94-rule-06",
+      "zh": "Hardly、rarely 和 barely 已帶有否定意思，一般不要再加入 not、never 或 no。",
+      "en": "Do not add another negative word because hardly, rarely and barely already carry a negative meaning."
+    },
+    {
+      "id": "ss94-rule-07",
+      "zh": "Hardly 和 barely 有時可以互換；本練習以 hardly 表示幾乎沒有／不能，以 barely 表示僅僅成功／勉強足夠。",
+      "en": "Hardly and barely sometimes overlap; this exercise uses hardly for near absence or inability and barely for narrow success."
+    },
+    {
+      "id": "ss94-rule-08",
+      "zh": "Hard 表示努力地／猛烈地；hardly 表示幾乎不。",
+      "en": "Hard and hardly have different meanings."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss94-benefit-01",
+      "zh": "準確分辨「幾乎沒有」、「很少發生」和「僅僅做到」。",
+      "en": "It helps you express an exact degree."
+    },
+    {
+      "id": "ss94-benefit-02",
+      "zh": "用一個簡短副詞代替較長解釋。",
+      "en": "It shortens long explanations."
+    },
+    {
+      "id": "ss94-benefit-03",
+      "zh": "Hardly 和 rarely 表示近乎沒有或非常罕見，而不需要作出絕對聲稱。",
+      "en": "It helps you avoid absolute statements."
+    },
+    {
+      "id": "ss94-benefit-04",
+      "zh": "以 Rarely 開始句子能突出罕見程度，並增加句式變化。",
+      "en": "Rarely gives you a powerful sentence opening."
+    },
+    {
+      "id": "ss94-benefit-05",
+      "zh": "這些詞適合用於日常說話、作文、報告和討論，描述結果、頻率、證據、能力和勉強成功。",
+      "en": "These words are useful in speaking, essays, reports and discussions."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the most suitable target word: hardly, rarely or barely.",
+      "Use hardly for “almost no/almost not”, rarely for “not often”, and barely for “only just/by a very small margin”.",
+      "Begin every rarely answer with Rarely and use inversion.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用最合適的目標詞 hardly、rarely 或 barely 改寫以下句子。",
+      "Hardly 表示「幾乎沒有／幾乎不能」；rarely 表示「很少發生」；barely 表示「僅僅做到／勉強成功」。",
+      "所有使用 rarely 的答案都必須以 Rarely 開始，並使用倒裝語序。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss94-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We had very little time to revise the report.",
+      "promptZh": "我們只有很少時間修改報告。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We had hardly any time to revise the report.",
+      "answerZh": "我們幾乎沒有時間修改報告。",
+      "answerZhSource": "pdf",
+      "highlight": "We had hardly any time to revise the report."
+    },
+    {
+      "id": "ss94-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Simple answers do not often solve complex problems.",
+      "promptZh": "簡單答案很少能解決複雜問題。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely do simple answers solve complex problems.",
+      "answerZh": "複雜問題很少能靠簡單答案解決。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely do simple answers solve complex problems."
+    },
+    {
+      "id": "ss94-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team met the deadline by only a few minutes.",
+      "promptZh": "團隊只以數分鐘之差趕上截止日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team barely met the deadline.",
+      "answerZh": "團隊勉強趕上了截止日期。",
+      "answerZhSource": "pdf",
+      "highlight": "The team barely met the deadline."
+    },
+    {
+      "id": "ss94-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Only a very small amount of food was left after the event.",
+      "promptZh": "活動結束後只剩下很少食物。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was hardly any food left after the event.",
+      "answerZh": "活動結束後幾乎沒有食物剩下。",
+      "answerZhSource": "pdf",
+      "highlight": "There was hardly any food left after the event."
+    },
+    {
+      "id": "ss94-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I do not often eat after 10 p.m.",
+      "promptZh": "我很少在晚上十時後進食。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely do I eat after 10 p.m.",
+      "answerZh": "我很少在晚上十時後進食。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely do I eat after 10 p.m."
+    },
+    {
+      "id": "ss94-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia passed the test by only one mark.",
+      "promptZh": "米婭只高出合格分數一分，僅僅合格。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia barely passed the test.",
+      "answerZh": "米婭勉強通過了測驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia barely passed the test."
+    },
+    {
+      "id": "ss94-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The final instruction was so unclear that I found it almost impossible to understand.",
+      "promptZh": "最後一項指示非常不清楚，我幾乎無法明白。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I could hardly understand the final instruction.",
+      "answerZh": "我幾乎無法明白最後一項指示。",
+      "answerZhSource": "pdf",
+      "highlight": "I could hardly understand the final instruction."
+    },
+    {
+      "id": "ss94-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The library is not often this quiet on a Saturday.",
+      "promptZh": "圖書館在星期六很少會這麼安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely is the library this quiet on a Saturday.",
+      "answerZh": "圖書館在星期六很少會這麼安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely is the library this quiet on a Saturday."
+    },
+    {
+      "id": "ss94-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The cyclist only just avoided hitting the open car door.",
+      "promptZh": "那名單車手只是勉強避過撞上打開的車門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cyclist barely avoided hitting the open car door.",
+      "answerZh": "那名單車手勉強避過撞上打開的車門。",
+      "answerZhSource": "pdf",
+      "highlight": "The cyclist barely avoided hitting the open car door."
+    },
+    {
+      "id": "ss94-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room received very little natural light during winter.",
+      "promptZh": "這個房間在冬天只得到很少天然光。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room received hardly any natural light during winter.",
+      "answerZh": "這個房間在冬天幾乎沒有天然光。",
+      "answerZhSource": "pdf",
+      "highlight": "The room received hardly any natural light during winter."
+    },
+    {
+      "id": "ss94-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our teacher does not often cancel a lesson.",
+      "promptZh": "我們的老師很少取消課堂。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely does our teacher cancel a lesson.",
+      "answerZh": "我們的老師很少取消課堂。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely does our teacher cancel a lesson."
+    },
+    {
+      "id": "ss94-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We got through the gate only a moment before it closed.",
+      "promptZh": "我們只在閘門關閉前一刻通過。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We barely got through the gate before it closed.",
+      "answerZh": "我們勉強在閘門關閉前通過。",
+      "answerZhSource": "pdf",
+      "highlight": "We barely got through the gate before it closed."
+    },
+    {
+      "id": "ss94-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Priya had very little energy left after the long walk.",
+      "promptZh": "普莉雅走了很長的路後，只剩下很少力氣。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya had hardly any energy left after the long walk.",
+      "answerZh": "普莉雅走了很長的路後，幾乎沒有力氣剩下。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya had hardly any energy left after the long walk."
+    },
+    {
+      "id": "ss94-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We saw snow in our town only once every few years.",
+      "promptZh": "我們鎮上每隔幾年才會看到一次雪。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely did we see snow in our town.",
+      "answerZh": "我們過去很少在鎮上看到雪。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely did we see snow in our town."
+    },
+    {
+      "id": "ss94-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Aaron had just enough money to pay the bus fare.",
+      "promptZh": "艾倫的錢只夠支付巴士車資。",
+      "promptZhSource": "pdf",
+      "starter": "Aaron",
+      "answer": "Aaron barely had enough money to pay the bus fare.",
+      "answerZh": "艾倫勉強有足夠金錢支付巴士車資。",
+      "answerZhSource": "pdf",
+      "highlight": "Aaron barely had enough money to pay the bus fare."
+    },
+    {
+      "id": "ss94-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Very little evidence was available to support the claim.",
+      "promptZh": "只有很少證據可以支持這項說法。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was hardly any evidence to support the claim.",
+      "answerZh": "幾乎沒有證據支持這項說法。",
+      "answerZhSource": "pdf",
+      "highlight": "There was hardly any evidence to support the claim."
+    },
+    {
+      "id": "ss94-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "She almost never complains about extra work.",
+      "promptZh": "她幾乎從不抱怨額外工作。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely does she complain about extra work.",
+      "answerZh": "她很少抱怨額外工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely does she complain about extra work."
+    },
+    {
+      "id": "ss94-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The candle gave only enough light for us to see the door.",
+      "promptZh": "蠟燭發出的光只夠讓我們看見門口。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The candle gave barely enough light for us to see the door.",
+      "answerZh": "蠟燭發出的光勉強足夠讓我們看見門口。",
+      "answerZhSource": "pdf",
+      "highlight": "The candle gave barely enough light for us to see the door."
+    },
+    {
+      "id": "ss94-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The child was so tired that keeping his eyes open was almost impossible.",
+      "promptZh": "那個孩子太累了，幾乎無法張開眼睛。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child could hardly keep his eyes open.",
+      "answerZh": "那個孩子幾乎無法張開眼睛。",
+      "answerZhSource": "pdf",
+      "highlight": "The child could hardly keep his eyes open."
+    },
+    {
+      "id": "ss94-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People can predict how a new trend will develop only in unusual cases.",
+      "promptZh": "人們只有在極少數情況下才能預測新趨勢會如何發展。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely can people predict how a new trend will develop.",
+      "answerZh": "人們很少能預測新趨勢會如何發展。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely can people predict how a new trend will develop."
+    },
+    {
+      "id": "ss94-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The goalkeeper caught the ball with only the tips of his fingers.",
+      "promptZh": "守門員只用手指尖勉強接住了球。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The goalkeeper barely caught the ball with the tips of his fingers.",
+      "answerZh": "守門員用手指尖勉強接住了球。",
+      "answerZhSource": "pdf",
+      "highlight": "The goalkeeper barely caught the ball with the tips of his fingers."
+    },
+    {
+      "id": "ss94-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We had very little chance to discuss the issue before the meeting ended.",
+      "promptZh": "會議結束前，我們只有很少機會討論這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We had hardly any chance to discuss the issue before the meeting ended.",
+      "answerZh": "會議結束前，我們幾乎沒有機會討論這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "We had hardly any chance to discuss the issue before the meeting ended."
+    },
+    {
+      "id": "ss94-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum has displayed all three paintings together on very few occasions.",
+      "promptZh": "博物館只曾在極少數場合同時展出這三幅畫。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely has the museum displayed all three paintings together.",
+      "answerZh": "博物館很少同時展出這三幅畫。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely has the museum displayed all three paintings together."
+    },
+    {
+      "id": "ss94-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The battery only just lasted until the end of the call.",
+      "promptZh": "電池只是勉強維持到通話結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The battery barely lasted until the end of the call.",
+      "answerZh": "電池勉強維持到通話結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The battery barely lasted until the end of the call."
+    },
+    {
+      "id": "ss94-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old phone had very little storage space left.",
+      "promptZh": "那部舊手機只剩下很少儲存空間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old phone had hardly any storage space left.",
+      "answerZh": "那部舊手機幾乎沒有儲存空間剩下。",
+      "answerZhSource": "pdf",
+      "highlight": "The old phone had hardly any storage space left."
+    },
+    {
+      "id": "ss94-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "During his six years at the company, he was late only twice.",
+      "promptZh": "他在公司工作的六年間只遲到過兩次。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely was he late during his six years at the company.",
+      "answerZh": "他在公司工作的六年間很少遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely was he late during his six years at the company."
+    },
+    {
+      "id": "ss94-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Sofia escaped injury by a very narrow margin when the shelf fell.",
+      "promptZh": "架子倒下時，蘇菲亞只是非常勉強地避過受傷。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia barely escaped injury when the shelf fell.",
+      "answerZh": "架子倒下時，蘇菲亞勉強避過受傷。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia barely escaped injury when the shelf fell."
+    },
+    {
+      "id": "ss94-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We were sitting so far from the speaker that hearing her was almost impossible.",
+      "promptZh": "我們坐得離講者太遠，幾乎聽不到她說話。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could hardly hear the speaker from where we were sitting.",
+      "answerZh": "我們從座位上幾乎聽不到講者說話。",
+      "answerZhSource": "pdf",
+      "highlight": "We could hardly hear the speaker from where we were sitting."
+    },
+    {
+      "id": "ss94-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We do not often receive such detailed feedback.",
+      "promptZh": "我們很少收到這麼詳細的意見。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely do we receive such detailed feedback.",
+      "answerZh": "我們很少收到這麼詳細的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely do we receive such detailed feedback."
+    },
+    {
+      "id": "ss94-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The parcel fitted through the narrow opening with almost no space to spare.",
+      "promptZh": "包裹穿過狹窄開口時，幾乎沒有多餘空間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The parcel barely fitted through the narrow opening.",
+      "answerZh": "包裹勉強穿過那個狹窄的開口。",
+      "answerZhSource": "pdf",
+      "highlight": "The parcel barely fitted through the narrow opening."
+    },
+    {
+      "id": "ss94-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The town had almost no public transport after 10 p.m.",
+      "promptZh": "這個小鎮在晚上十時後幾乎沒有公共交通服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The town had hardly any public transport after 10 p.m.",
+      "answerZh": "這個小鎮在晚上十時後幾乎沒有公共交通服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The town had hardly any public transport after 10 p.m."
+    },
+    {
+      "id": "ss94-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The system fails only on very unusual occasions.",
+      "promptZh": "這個系統只會在極少數特殊情況下失靈。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely does the system fail.",
+      "answerZh": "這個系統很少失靈。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely does the system fail."
+    },
+    {
+      "id": "ss94-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company made a profit of only a few dollars last month.",
+      "promptZh": "公司上月只賺取了數元利潤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company barely made a profit last month.",
+      "answerZh": "公司上月勉強錄得盈利。",
+      "answerZhSource": "pdf",
+      "highlight": "The company barely made a profit last month."
+    },
+    {
+      "id": "ss94-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I knew almost nothing about the topic before the lesson.",
+      "promptZh": "上課前，我對這個題目幾乎一無所知。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I hardly knew anything about the topic before the lesson.",
+      "answerZh": "上課前，我對這個題目幾乎一無所知。",
+      "answerZhSource": "pdf",
+      "highlight": "I hardly knew anything about the topic before the lesson."
+    },
+    {
+      "id": "ss94-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before that meeting, the twins had almost never disagreed so strongly.",
+      "promptZh": "在那次會議前，這對雙胞胎幾乎從未有過如此強烈的分歧。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely had the twins disagreed so strongly before that meeting.",
+      "answerZh": "在那次會議前，這對雙胞胎很少有過如此強烈的分歧。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely had the twins disagreed so strongly before that meeting."
+    },
+    {
+      "id": "ss94-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "They got on the train only seconds before the doors closed.",
+      "promptZh": "他們只在車門關閉前數秒登上火車。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They barely got on the train before the doors closed.",
+      "answerZh": "他們勉強在車門關閉前登上火車。",
+      "answerZhSource": "pdf",
+      "highlight": "They barely got on the train before the doors closed."
+    },
+    {
+      "id": "ss94-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Very little time remained for the team to make another attempt.",
+      "promptZh": "團隊只剩下很少時間再作一次嘗試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team had hardly any time left for another attempt.",
+      "answerZh": "團隊幾乎沒有時間再作一次嘗試。",
+      "answerZhSource": "pdf",
+      "highlight": "The team had hardly any time left for another attempt."
+    },
+    {
+      "id": "ss94-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A small business can survive such a long closure without help only in unusual cases.",
+      "promptZh": "小型企業只有在極少數情況下，才能在沒有援助下捱過如此長時間的停業。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely can a small business survive such a long closure without help.",
+      "answerZh": "小型企業很少能在沒有援助下捱過如此長時間的停業。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely can a small business survive such a long closure without help."
+    },
+    {
+      "id": "ss94-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The nurse only just managed to stop the bleeding.",
+      "promptZh": "護士只是勉強成功止血。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse barely managed to stop the bleeding.",
+      "answerZh": "護士勉強成功止血。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse barely managed to stop the bleeding."
+    },
+    {
+      "id": "ss94-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The path was so narrow that walking side by side was almost impossible for two people.",
+      "promptZh": "小徑太狹窄，兩個人幾乎無法並排行走。",
+      "promptZhSource": "pdf",
+      "starter": "Two",
+      "answer": "Two people could hardly walk side by side on the narrow path.",
+      "answerZh": "兩個人在那條狹窄小徑上幾乎無法並排行走。",
+      "answerZhSource": "pdf",
+      "highlight": "Two people could hardly walk side by side on the narrow path."
+    },
+    {
+      "id": "ss94-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Researchers do not often obtain such clear results from a first trial.",
+      "promptZh": "研究人員很少能在首次試驗中取得如此清晰的結果。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely do researchers obtain such clear results from a first trial.",
+      "answerZh": "研究人員很少能在首次試驗中取得如此清晰的結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely do researchers obtain such clear results from a first trial."
+    },
+    {
+      "id": "ss94-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We had just enough money to pay all the bills.",
+      "promptZh": "我們的錢只夠支付所有帳單。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We barely had enough money to pay all the bills.",
+      "answerZh": "我們勉強有足夠金錢支付所有帳單。",
+      "answerZhSource": "pdf",
+      "highlight": "We barely had enough money to pay all the bills."
+    },
+    {
+      "id": "ss94-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report contained very little reliable data from rural areas.",
+      "promptZh": "報告只包含很少來自鄉郊地區的可靠數據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report contained hardly any reliable data from rural areas.",
+      "answerZh": "報告幾乎沒有包含來自鄉郊地區的可靠數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The report contained hardly any reliable data from rural areas."
+    },
+    {
+      "id": "ss94-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council has almost never reversed a decision after a final vote.",
+      "promptZh": "議會幾乎從未在最終表決後推翻決定。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely has the council reversed a decision after a final vote.",
+      "answerZh": "議會很少在最終表決後推翻決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely has the council reversed a decision after a final vote."
+    },
+    {
+      "id": "ss94-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The aircraft cleared the mountain by a very small distance.",
+      "promptZh": "飛機只以極小距離越過山峰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The aircraft barely cleared the mountain.",
+      "answerZh": "飛機勉強越過了山峰。",
+      "answerZhSource": "pdf",
+      "highlight": "The aircraft barely cleared the mountain."
+    },
+    {
+      "id": "ss94-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The patient was so weak that speaking above a whisper was almost impossible for her.",
+      "promptZh": "病人非常虛弱，幾乎無法以高於耳語的聲量說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient could hardly speak above a whisper.",
+      "answerZh": "病人幾乎無法以高於耳語的聲量說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient could hardly speak above a whisper."
+    },
+    {
+      "id": "ss94-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A patient recovers this quickly only in unusual cases.",
+      "promptZh": "病人只有在極少數情況下才會康復得這麼快。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely does a patient recover this quickly.",
+      "answerZh": "病人很少會康復得這麼快。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely does a patient recover this quickly."
+    },
+    {
+      "id": "ss94-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The rescue team reached the climbers only minutes before the storm began.",
+      "promptZh": "救援隊只在暴風雨開始前數分鐘到達登山者所在位置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team barely reached the climbers before the storm began.",
+      "answerZh": "救援隊勉強在暴風雨開始前到達登山者所在位置。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team barely reached the climbers before the storm began."
+    },
+    {
+      "id": "ss94-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee had very little room to reduce the budget further.",
+      "promptZh": "委員會只有很少空間進一步削減預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee had hardly any room to reduce the budget further.",
+      "answerZh": "委員會幾乎沒有空間進一步削減預算。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee had hardly any room to reduce the budget further."
+    },
+    {
+      "id": "ss94-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Organisations have faced several major disruptions in the same week on very few occasions.",
+      "promptZh": "機構只曾在極少數情況下於同一星期面對數項重大干擾。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely have organisations faced several major disruptions in the same week.",
+      "answerZh": "機構很少在同一星期面對數項重大干擾。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely have organisations faced several major disruptions in the same week."
+    }
+  ]
+}

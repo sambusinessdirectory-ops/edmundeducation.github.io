@@ -1,0 +1,1246 @@
+{
+  "id": "ss111",
+  "order": 111,
+  "slug": "such-that-arrangement-result",
+  "title": "「Such that」句型",
+  "titleZh": "「Such that 句」",
+  "titleEn": "Using Such that for an arrangement or resulting situation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 111 -「Such that 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + arrange / design / structure / set up / configure + object + such that + complete clause",
+  "formulas": [
+    {
+      "id": "ss111-formula-active",
+      "labelEn": "Pattern A: active arrangement or design",
+      "labelZh": "Pattern A：表示安排、設計或運作方式",
+      "formula": "Subject + arrange / design / structure / set up / configure + object + such that + complete clause"
+    },
+    {
+      "id": "ss111-formula-passive",
+      "labelEn": "Pattern A: passive arrangement or design",
+      "labelZh": "Pattern A：被動安排或設計",
+      "formula": "Subject + be + arranged / designed / structured / set up / configured + such that + complete clause"
+    },
+    {
+      "id": "ss111-formula-degree",
+      "labelEn": "Pattern B: degree, impact or situation",
+      "labelZh": "Pattern B：程度、影響或情況造成的結果",
+      "formula": "Noun phrase + be + such that + complete result clause"
+    }
+  ],
+  "example": "We structured the schedule such that everyone gets a lunch break.",
+  "exampleZh": "我們以這種方式安排日程表，讓每個人都有午休時間。",
+  "examples": [
+    {
+      "id": "ss111-example-active",
+      "en": "We structured the schedule such that everyone gets a lunch break.",
+      "zh": "我們以這種方式安排日程表，讓每個人都有午休時間。",
+      "highlight": "structured the schedule such that"
+    },
+    {
+      "id": "ss111-example-passive",
+      "en": "The system was designed such that any data breach triggers an alarm.",
+      "zh": "該系統的設計方式，是只要有任何數據洩漏便會觸發警報。",
+      "highlight": "was designed such that"
+    },
+    {
+      "id": "ss111-example-degree",
+      "en": "Her impact on the team was such that we struggled to replace her when she left.",
+      "zh": "她對團隊的影響如此之大，以至於她離開時，我們很難找到人取代她。",
+      "highlight": "was such that"
+    }
+  ],
+  "meaning": {
+    "zh": "Such that 可表示某項安排、設計或結構形成的運作方式及結果，也可表示某種程度或影響強得造成指定結果。"
+  },
+  "rules": [
+    {
+      "id": "ss111-rule-01",
+      "zh": "Such that 後面必須接包括主詞和動詞的完整子句。",
+      "en": "Such that must be followed by a complete clause containing a subject and verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The desks were arranged such that everyone could see the screen."
+      ]
+    },
+    {
+      "id": "ss111-rule-02",
+      "zh": "在 arranged/designed/structured/configured such that 中，它表示安排或設計的方式與結果；在 be such that 中，它表示情況、程度或影響強得造成某結果。",
+      "en": "After arranged, designed, structured or configured, it describes how an arrangement works and its result; in be such that, it describes a situation, degree or impact strong enough to produce a result.",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss111-rule-03",
+      "zh": "Such that 通常較正式，常見於報告、合約、政策、系統說明、科技及工程寫作。",
+      "en": "Such that is normally formal and common in reports, contracts, policies, system descriptions, and technical or engineering writing.",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss111-rule-04",
+      "zh": "一般不需要在 such that 前加逗號。",
+      "en": "A comma is generally unnecessary before such that.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The form is structured such that applicants answer the easy questions first."
+      ]
+    },
+    {
+      "id": "ss111-rule-05",
+      "zh": "不要把本課的 such that 與 such + adjective + noun + that 結構混淆。",
+      "en": "Do not confuse this lesson’s such that with the separate such + adjective + noun + that structure.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The damage was such that the road had to remain closed.",
+        "It was such a serious problem that the road had to remain closed."
+      ]
+    },
+    {
+      "id": "ss111-rule-06",
+      "zh": "So that 目的句說明做某事的目的；such that 通常強調安排、設計或結構形成的運作方式、條件或結果。",
+      "en": "A purpose clause with so that explains why someone acts; such that normally emphasises the way an arrangement, design or structure operates and the condition or result it creates.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I started studying for IELTS so that I could get a job.",
+        "The course was structured such that students could practise job interviews every week."
+      ]
+    },
+    {
+      "id": "ss111-rule-07",
+      "zh": "So + adjective + that 在 so 後直接用形容詞；be such that 則以名詞或情況作主詞，再概括結果。",
+      "en": "So + adjective + that places an adjective directly after so; be such that uses a noun or situation as the subject before summarising the result.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The noise was so loud that we could not hear the announcement.",
+        "The noise was such that we could not hear the announcement."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss111-benefit-01",
+      "zh": "清楚連繫一項安排及其結果，讓讀者明白系統、計劃或物件如何運作。",
+      "en": "This structure shows exactly how a system, plan or object is arranged and what happens because of that arrangement."
+    },
+    {
+      "id": "ss111-benefit-02",
+      "zh": "可取代較長的 in such a way that，更直接地表達同一關係。",
+      "en": "Instead of repeatedly writing in such a way that, you can often use such that to express the same relationship more directly."
+    },
+    {
+      "id": "ss111-benefit-03",
+      "zh": "可用來說明某項條件出現時，系統、規則或程序會自動產生的結果。",
+      "en": "You can use it to explain what happens automatically when a condition is met."
+    },
+    {
+      "id": "ss111-benefit-04",
+      "zh": "Be such that 能說明影響、問題或情況達到一定程度，因而造成重要結果。",
+      "en": "The be such that pattern lets you explain that an impact, problem or condition was strong enough to produce an important result."
+    },
+    {
+      "id": "ss111-benefit-05",
+      "zh": "它提供另一種連接原因、條件與結果的方法，增加正式寫作的句式變化。",
+      "en": "This structure gives you another way to connect causes, conditions and results in formal writing."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using such that. Use either of the two target patterns and preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 such that 改寫以下句子。你可以使用上述任何一種目標格式，並須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss111-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We arranged the desks in a way that every student could see the board.",
+      "promptZh": "我們以一種讓每名學生都能看見黑板的方式排列課桌。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We arranged the desks such that every student could see the board.",
+      "answerZh": "我們如此排列課桌，讓每名學生都能看見黑板。",
+      "answerZhSource": "pdf",
+      "highlight": "We arranged the desks such that every student could see the board."
+    },
+    {
+      "id": "ss111-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because of how this app is set up, users can save their work automatically.",
+      "promptZh": "由於這個應用程式的設定方式，使用者可以自動儲存工作。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This app is set up such that users can save their work automatically.",
+      "answerZh": "這個應用程式的設定方式，讓使用者可以自動儲存工作。",
+      "answerZhSource": "pdf",
+      "highlight": "This app is set up such that users can save their work automatically."
+    },
+    {
+      "id": "ss111-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia organised the files so that each subject had its own folder.",
+      "promptZh": "米婭整理檔案，好讓每個科目都有自己的資料夾。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia organised the files such that each subject had its own folder.",
+      "answerZh": "米婭以這種方式整理檔案，讓每個科目都有自己的資料夾。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia organised the files such that each subject had its own folder."
+    },
+    {
+      "id": "ss111-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This door closes by itself because of the way it was designed.",
+      "promptZh": "這道門會自行關上，這是由於它的設計方式。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This door was designed such that it closes by itself.",
+      "answerZh": "這道門的設計方式，使它會自行關上。",
+      "answerZhSource": "pdf",
+      "highlight": "This door was designed such that it closes by itself."
+    },
+    {
+      "id": "ss111-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our timetable was arranged in a way that no class lasted more than an hour.",
+      "promptZh": "我們的時間表如此安排，令任何一節課都不超過一小時。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our timetable was arranged such that no class lasted more than an hour.",
+      "answerZh": "我們的時間表如此安排，令任何一節課都不超過一小時。",
+      "answerZhSource": "pdf",
+      "highlight": "Our timetable was arranged such that no class lasted more than an hour."
+    },
+    {
+      "id": "ss111-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "These shelves are low enough for children to reach the lower books.",
+      "promptZh": "這些書架的位置夠低，兒童可以拿到較低層的書。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These shelves are positioned such that children can reach the lower books.",
+      "answerZh": "這些書架的位置經過安排，讓兒童可以拿到較低層的書。",
+      "answerZhSource": "pdf",
+      "highlight": "These shelves are positioned such that children can reach the lower books."
+    },
+    {
+      "id": "ss111-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel packed the box so that the fragile items would not move.",
+      "promptZh": "丹尼爾把箱子包裝好，以免易碎物品移動。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel packed the box such that the fragile items would not move.",
+      "answerZh": "丹尼爾以這種方式包裝箱子，使易碎物品不會移動。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel packed the box such that the fragile items would not move."
+    },
+    {
+      "id": "ss111-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "These instructions were clear enough for beginners to follow them easily.",
+      "promptZh": "這些指示十分清楚，初學者也能輕鬆跟從。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions were written such that beginners could follow them easily.",
+      "answerZh": "這些指示的寫法，讓初學者也能輕鬆跟從。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions were written such that beginners could follow them easily."
+    },
+    {
+      "id": "ss111-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The lighting controls make the lights switch off whenever nobody is in the room.",
+      "promptZh": "照明控制系統會在房內無人時把燈關掉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lights are controlled such that they switch off whenever nobody is in the room.",
+      "answerZh": "這些燈的控制方式，使它們在房內無人時便會關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights are controlled such that they switch off whenever nobody is in the room."
+    },
+    {
+      "id": "ss111-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Under our seating plan, every group had exactly four students.",
+      "promptZh": "按照我們的座位安排，每組剛好有四名學生。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our seating plan was organised such that each group included exactly four students.",
+      "answerZh": "我們如此安排座位，讓每組剛好有四名學生。",
+      "answerZhSource": "pdf",
+      "highlight": "Our seating plan was organised such that each group included exactly four students."
+    },
+    {
+      "id": "ss111-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Even while users scroll down the page, this website keeps the main menu visible.",
+      "promptZh": "即使使用者向下捲動頁面，這個網站仍會顯示主選單。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This website is designed such that the main menu remains visible while users scroll down the page.",
+      "answerZh": "這個網站的設計方式，使使用者向下捲動頁面時，主選單仍然可見。",
+      "answerZhSource": "pdf",
+      "highlight": "This website is designed such that the main menu remains visible while users scroll down the page."
+    },
+    {
+      "id": "ss111-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The alarm system has been configured so that smoke in any room triggers a warning.",
+      "promptZh": "警報系統已完成設定，只要任何房間出現煙霧，便會觸發警告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The alarm system has been configured such that smoke in any room triggers a warning.",
+      "answerZh": "警報系統已按這種方式設定，只要任何房間出現煙霧，便會觸發警告。",
+      "answerZhSource": "pdf",
+      "highlight": "The alarm system has been configured such that smoke in any room triggers a warning."
+    },
+    {
+      "id": "ss111-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe divided the work so each person handled one clear task.",
+      "promptZh": "克洛伊分配工作，讓每個人負責一項清晰的任務。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe divided the work such that each person handled one clear task.",
+      "answerZh": "克洛伊以這種方式分配工作，讓每個人負責一項清晰的任務。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe divided the work such that each person handled one clear task."
+    },
+    {
+      "id": "ss111-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "These questions became gradually more difficult because of the order in which they were placed.",
+      "promptZh": "由於這些題目的排列次序，它們逐步變得更困難。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These questions were ordered such that they became gradually more difficult.",
+      "answerZh": "這些題目的排列方式，使難度逐步提升。",
+      "answerZhSource": "pdf",
+      "highlight": "These questions were ordered such that they became gradually more difficult."
+    },
+    {
+      "id": "ss111-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Passengers can reach both hospitals without changing buses because of how this route is planned.",
+      "promptZh": "由於這條路線的規劃方式，乘客無須轉車便可到達兩間醫院。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bus route is planned such that passengers can reach both hospitals without changing buses.",
+      "answerZh": "這條巴士路線的規劃方式，讓乘客無須轉車便可到達兩間醫院。",
+      "answerZhSource": "pdf",
+      "highlight": "This bus route is planned such that passengers can reach both hospitals without changing buses."
+    },
+    {
+      "id": "ss111-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because of its structure, the form asks applicants to answer the simplest questions first.",
+      "promptZh": "由於表格的結構，申請人會先回答最簡單的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The form is structured such that applicants answer the simplest questions first.",
+      "answerZh": "這份表格的結構，讓申請人先回答最簡單的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The form is structured such that applicants answer the simplest questions first."
+    },
+    {
+      "id": "ss111-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "These windows were placed carefully, allowing natural light to reach every desk.",
+      "promptZh": "這些窗戶經過仔細設置，讓自然光照到每張書桌。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These windows were carefully placed such that natural light reached every desk.",
+      "answerZh": "這些窗戶的位置經過仔細安排，讓自然光照到每張書桌。",
+      "answerZhSource": "pdf",
+      "highlight": "These windows were carefully placed such that natural light reached every desk."
+    },
+    {
+      "id": "ss111-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Whenever the cover is opened, this machine's safety programme stops it automatically.",
+      "promptZh": "每當這部機器的外蓋打開時，安全程式便會自動使機器停止運作。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This machine is programmed such that it stops automatically whenever the cover is opened.",
+      "answerZh": "這部機器的程式設定，使它在外蓋打開時便會自動停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "This machine is programmed such that it stops automatically whenever the cover is opened."
+    },
+    {
+      "id": "ss111-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Customers receive a receipt immediately after paying because of the way the payment process works.",
+      "promptZh": "由於付款流程的運作方式，顧客付款後會立即收到收據。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The payment process is arranged such that customers receive a receipt immediately after paying.",
+      "answerZh": "付款流程的安排方式，讓顧客付款後立即收到收據。",
+      "answerZhSource": "pdf",
+      "highlight": "The payment process is arranged such that customers receive a receipt immediately after paying."
+    },
+    {
+      "id": "ss111-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our garden was designed so rainwater would flow towards the plants.",
+      "promptZh": "我們的花園經過設計，讓雨水流向植物。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our garden was designed such that rainwater would flow towards the plants.",
+      "answerZh": "我們花園的設計方式，使雨水流向植物。",
+      "answerZhSource": "pdf",
+      "highlight": "Our garden was designed such that rainwater would flow towards the plants."
+    },
+    {
+      "id": "ss111-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The noise was so loud that we could not hear the announcement.",
+      "promptZh": "噪音太大，以至於我們聽不到廣播。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The noise was such that we could not hear the announcement.",
+      "answerZh": "噪音的程度令我們聽不到廣播。",
+      "answerZhSource": "pdf",
+      "highlight": "The noise was such that we could not hear the announcement."
+    },
+    {
+      "id": "ss111-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Her explanation was clear enough for even the youngest pupils to understand the idea.",
+      "promptZh": "她的解釋十分清楚，連年紀最小的學生也能明白這個概念。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her explanation was such that even the youngest pupils could understand the idea.",
+      "answerZh": "她的解釋清楚得連年紀最小的學生也能明白這個概念。",
+      "answerZhSource": "pdf",
+      "highlight": "Her explanation was such that even the youngest pupils could understand the idea."
+    },
+    {
+      "id": "ss111-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because the road suffered severe damage, it had to remain closed.",
+      "promptZh": "由於道路嚴重受損，它必須繼續封閉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The damage to the road was such that it had to remain closed.",
+      "answerZh": "道路的損毀情況十分嚴重，以至於它必須繼續封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The damage to the road was such that it had to remain closed."
+    },
+    {
+      "id": "ss111-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "His strong influence on the team meant that morale fell after he left.",
+      "promptZh": "他對團隊的影響很大，因此他離開後，團隊士氣下降。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His influence on the team was such that morale fell after he left.",
+      "answerZh": "他對團隊的影響如此之大，以至於他離開後，團隊士氣下降。",
+      "answerZhSource": "pdf",
+      "highlight": "His influence on the team was such that morale fell after he left."
+    },
+    {
+      "id": "ss111-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The heat was so intense that several runners stopped before the finish.",
+      "promptZh": "天氣酷熱得令數名跑手在到達終點前停下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The heat was such that several runners stopped before the finish.",
+      "answerZh": "酷熱的程度令數名跑手在到達終點前停下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The heat was such that several runners stopped before the finish."
+    },
+    {
+      "id": "ss111-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There was so much demand that the shop sold out before noon.",
+      "promptZh": "需求非常高，店舖在中午前便售罄。",
+      "promptZhSource": "pdf",
+      "starter": "Demand",
+      "answer": "Demand was such that the shop sold out before noon.",
+      "answerZh": "需求之高，令店舖在中午前便售罄。",
+      "answerZhSource": "pdf",
+      "highlight": "Demand was such that the shop sold out before noon."
+    },
+    {
+      "id": "ss111-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The delay caused us to miss the final connecting train.",
+      "promptZh": "這次延誤令我們錯過尾班接駁列車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay was such that we missed the final connecting train.",
+      "answerZh": "延誤的情況令我們錯過尾班接駁列車。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay was such that we missed the final connecting train."
+    },
+    {
+      "id": "ss111-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The evidence was strong enough to persuade the committee to reopen the investigation.",
+      "promptZh": "證據充分得足以說服委員會重新展開調查。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evidence was such that the committee reopened the investigation.",
+      "answerZh": "證據十分充分，以至於委員會重新展開調查。",
+      "answerZhSource": "pdf",
+      "highlight": "The evidence was such that the committee reopened the investigation."
+    },
+    {
+      "id": "ss111-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Because the risk was serious, the doctor advised her not to travel.",
+      "promptZh": "由於風險嚴重，醫生建議她不要出行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The risk was such that the doctor advised her not to travel.",
+      "answerZh": "風險之高，令醫生建議她不要出行。",
+      "answerZhSource": "pdf",
+      "highlight": "The risk was such that the doctor advised her not to travel."
+    },
+    {
+      "id": "ss111-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The crowd was so large that extra staff had to manage the entrance.",
+      "promptZh": "人群非常龐大，因此需要額外職員管理入口。",
+      "promptZhSource": "pdf",
+      "starter": "Attendance",
+      "answer": "Attendance was such that extra staff had to manage the entrance.",
+      "answerZh": "出席人數眾多，以至於需要額外職員管理入口。",
+      "answerZhSource": "pdf",
+      "highlight": "Attendance was such that extra staff had to manage the entrance."
+    },
+    {
+      "id": "ss111-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This bridge can expand slightly in hot weather because of the way it is constructed.",
+      "promptZh": "由於這座橋的建造方式，它在炎熱天氣下可以稍微膨脹。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bridge is constructed such that it can expand slightly in hot weather.",
+      "answerZh": "這座橋的建造方式，使它在炎熱天氣下可以稍微膨脹。",
+      "answerZhSource": "pdf",
+      "highlight": "This bridge is constructed such that it can expand slightly in hot weather."
+    },
+    {
+      "id": "ss111-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "These password rules automatically reject weak passwords.",
+      "promptZh": "這些密碼規則會自動拒絕強度不足的密碼。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These password rules are set such that weak passwords are rejected automatically.",
+      "answerZh": "這些密碼規則的設定方式，使強度不足的密碼會被自動拒絕。",
+      "answerZhSource": "pdf",
+      "highlight": "These password rules are set such that weak passwords are rejected automatically."
+    },
+    {
+      "id": "ss111-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As soon as books are returned, our library system makes them available for borrowing.",
+      "promptZh": "書籍一經歸還，我們的圖書館系統便會讓其他人借閱。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our library system is organised such that returned books become available for borrowing immediately.",
+      "answerZh": "我們圖書館系統的安排方式，使歸還的書籍可以立即再次借出。",
+      "answerZhSource": "pdf",
+      "highlight": "Our library system is organised such that returned books become available for borrowing immediately."
+    },
+    {
+      "id": "ss111-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The speaker could see everyone without turning around because of the room arrangement.",
+      "promptZh": "由於房間的安排，講者無須轉身便能看見所有人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room was arranged such that the speaker could see everyone without turning around.",
+      "answerZh": "房間如此安排，讓講者無須轉身便能看見所有人。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was arranged such that the speaker could see everyone without turning around."
+    },
+    {
+      "id": "ss111-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "According to this policy, any exception needs the director's approval.",
+      "promptZh": "根據這項政策，任何例外情況都需要主管批准。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This policy is written such that any exception requires the director's approval.",
+      "answerZh": "這項政策的寫法，是任何例外情況都必須獲得主管批准。",
+      "answerZhSource": "pdf",
+      "highlight": "This policy is written such that any exception requires the director's approval."
+    },
+    {
+      "id": "ss111-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The path led visitors back to the main entrance at the end because of its layout.",
+      "promptZh": "由於小徑的布局，訪客最後會返回正門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The path was laid out such that visitors returned to the main entrance at the end.",
+      "answerZh": "小徑的布局方式，使訪客最後返回正門。",
+      "answerZhSource": "pdf",
+      "highlight": "The path was laid out such that visitors returned to the main entrance at the end."
+    },
+    {
+      "id": "ss111-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In our data table, one row represents one customer.",
+      "promptZh": "在我們的數據表中，每一行代表一名顧客。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our data table is structured such that each row represents one customer.",
+      "answerZh": "我們的數據表如此編排，每一行代表一名顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "Our data table is structured such that each row represents one customer."
+    },
+    {
+      "id": "ss111-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The packaging of this medicine makes the bottle difficult for children to open.",
+      "promptZh": "這種藥物的包裝使兒童難以打開藥瓶。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine is packaged such that children cannot open the bottle easily.",
+      "answerZh": "這種藥物的包裝方式，使兒童不能輕易打開藥瓶。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine is packaged such that children cannot open the bottle easily."
+    },
+    {
+      "id": "ss111-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The lesson plan had students first observe an example and then create their own.",
+      "promptZh": "課堂計劃讓學生先觀察例子，然後創作自己的例子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lesson was planned such that students first observed an example and then created their own.",
+      "answerZh": "課堂的設計方式，是讓學生先觀察例子，然後創作自己的例子。",
+      "answerZhSource": "pdf",
+      "highlight": "The lesson was planned such that students first observed an example and then created their own."
+    },
+    {
+      "id": "ss111-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our emergency plan gives staff more than one exit route.",
+      "promptZh": "我們的緊急應變計劃為職員提供多於一條逃生路線。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our emergency plan is designed such that staff can leave through more than one exit.",
+      "answerZh": "我們的緊急應變計劃的設計方式，讓職員可以經多於一個出口離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Our emergency plan is designed such that staff can leave through more than one exit."
+    },
+    {
+      "id": "ss111-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital was under so much pressure that non-urgent operations had to be postponed.",
+      "promptZh": "醫院承受極大壓力，以至於非緊急手術必須延期。",
+      "promptZhSource": "pdf",
+      "starter": "Pressure",
+      "answer": "Pressure on the hospital was such that non-urgent operations had to be postponed.",
+      "answerZh": "醫院承受的壓力如此之大，以至於非緊急手術必須延期。",
+      "answerZhSource": "pdf",
+      "highlight": "Pressure on the hospital was such that non-urgent operations had to be postponed."
+    },
+    {
+      "id": "ss111-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The partners trusted each other so much that they could settle minor problems without formal meetings.",
+      "promptZh": "合作夥伴非常信任彼此，因此無須召開正式會議也能解決小問題。",
+      "promptZhSource": "pdf",
+      "starter": "Trust",
+      "answer": "Trust between the partners was such that they could settle minor problems without formal meetings.",
+      "answerZh": "合作夥伴之間的信任程度，使他們無須召開正式會議也能解決小問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Trust between the partners was such that they could settle minor problems without formal meetings."
+    },
+    {
+      "id": "ss111-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The misunderstanding was so complete that both teams believed the other had cancelled the event.",
+      "promptZh": "誤會非常徹底，兩個團隊都以為對方取消了活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The misunderstanding was such that both teams believed the other had cancelled the event.",
+      "answerZh": "誤會的程度令兩個團隊都以為對方取消了活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The misunderstanding was such that both teams believed the other had cancelled the event."
+    },
+    {
+      "id": "ss111-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The large price difference led many customers to choose the smaller model.",
+      "promptZh": "巨大的價格差距令許多顧客選擇較小的型號。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The difference in price was such that many customers chose the smaller model.",
+      "answerZh": "價格差距之大，令許多顧客選擇較小的型號。",
+      "answerZhSource": "pdf",
+      "highlight": "The difference in price was such that many customers chose the smaller model."
+    },
+    {
+      "id": "ss111-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The redesign means that a single error no longer stops the whole process.",
+      "promptZh": "重新設計後，單一錯誤不再令整個流程停止。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the redesign, the system operates such that a single error no longer stops the whole process.",
+      "answerZh": "重新設計後，系統的運作方式使單一錯誤不再令整個流程停止。",
+      "answerZhSource": "pdf",
+      "highlight": "After the redesign, the system operates such that a single error no longer stops the whole process."
+    },
+    {
+      "id": "ss111-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This contract allowed either party to end it by giving thirty days' notice.",
+      "promptZh": "這份合約容許任何一方在提前三十日通知後終止合約。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This contract was drafted such that either party could end it by giving thirty days' notice.",
+      "answerZh": "這份合約的草擬方式，容許任何一方在提前三十日通知後終止合約。",
+      "answerZhSource": "pdf",
+      "highlight": "This contract was drafted such that either party could end it by giving thirty days' notice."
+    },
+    {
+      "id": "ss111-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The survey kept every respondent's name separate from their answers.",
+      "promptZh": "這項調查把每名受訪者的姓名與其答案分開保存。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The survey was organised such that no respondent's name was linked to their answers.",
+      "answerZh": "這項調查的安排方式，使任何受訪者的姓名都不會與其答案連結。",
+      "answerZhSource": "pdf",
+      "highlight": "The survey was organised such that no respondent's name was linked to their answers."
+    },
+    {
+      "id": "ss111-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Her impact on the team was so great that we struggled to replace her when she left.",
+      "promptZh": "她對團隊的影響非常大，以至於她離開時，我們很難找到人取代她。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her impact on the team was such that we struggled to replace her when she left.",
+      "answerZh": "她對團隊的影響如此之大，以至於她離開時，我們很難找到人取代她。",
+      "answerZhSource": "pdf",
+      "highlight": "Her impact on the team was such that we struggled to replace her when she left."
+    },
+    {
+      "id": "ss111-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The schedule gave everyone a lunch break, and the afternoon sessions still began on time.",
+      "promptZh": "這份日程表讓每個人都有午休時間，而下午的環節仍能準時開始。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The schedule was structured such that everyone had a lunch break and the afternoon sessions began on time.",
+      "answerZh": "這份日程表的安排方式，讓每個人都有午休時間，而下午的環節亦能準時開始。",
+      "answerZhSource": "pdf",
+      "highlight": "The schedule was structured such that everyone had a lunch break and the afternoon sessions began on time."
+    },
+    {
+      "id": "ss111-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The designers built the security system so that any data breach would trigger an alarm and alert the technical team immediately.",
+      "promptZh": "設計人員建立這套保安系統，讓任何數據洩漏都會觸發警報，並立即通知技術團隊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The security system was designed such that any data breach would trigger an alarm and alert the technical team immediately.",
+      "answerZh": "這套保安系統的設計方式，是任何數據洩漏都會觸發警報，並立即通知技術團隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The security system was designed such that any data breach would trigger an alarm and alert the technical team immediately."
+    }
+  ]
+}

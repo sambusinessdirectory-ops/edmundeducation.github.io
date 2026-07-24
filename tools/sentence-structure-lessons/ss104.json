@@ -1,0 +1,1240 @@
+{
+  "id": "ss104",
+  "order": 104,
+  "slug": "either-or-alternatives",
+  "title": "「Either ... or ...」句型",
+  "titleZh": "「Either ... or ...」表示兩者擇一",
+  "titleEn": "Using Either ... or ... to present two alternatives",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 104 -「Either ... or ...」表示兩者擇一.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "Either + Subject A + or + Subject B + verb + other information",
+  "formulas": [
+    {
+      "id": "ss104-formula-subjects",
+      "labelEn": "Pattern 1: joining two subjects",
+      "labelZh": "Pattern 1：連接兩個主語",
+      "formula": "Either + Subject A + or + Subject B + verb + other information"
+    },
+    {
+      "id": "ss104-formula-actions",
+      "labelEn": "Pattern 2: joining actions or choices",
+      "labelZh": "Pattern 2：連接兩個動作或選擇",
+      "formula": "Subject + auxiliary/modal verb + either + verb phrase A + or + verb phrase B"
+    },
+    {
+      "id": "ss104-formula-parallel",
+      "labelEn": "Pattern 3: joining matching forms",
+      "labelZh": "Pattern 3：連接兩個相同形式",
+      "formula": "Subject + verb + either + A + or + B"
+    }
+  ],
+  "example": "Either John or Mary needs to go.",
+  "exampleZh": "約翰或瑪麗其中一人需要去。",
+  "examples": [
+    {
+      "id": "ss104-example-subjects",
+      "en": "Either John or Mary needs to go.",
+      "zh": "約翰或瑪麗其中一人需要去。",
+      "highlight": "Either John or Mary"
+    },
+    {
+      "id": "ss104-example-actions",
+      "en": "I could either continue or give up.",
+      "zh": "我可以選擇繼續，或者放棄。",
+      "highlight": "either continue or give up"
+    },
+    {
+      "id": "ss104-example-parallel",
+      "en": "The meeting will be either today or tomorrow.",
+      "zh": "會議會在今天或明天舉行。",
+      "highlight": "either today or tomorrow"
+    }
+  ],
+  "meaning": {
+    "zh": "Either ... or ... 用來提出兩個選擇、可能性、人物、事物、動作或解釋。"
+  },
+  "rules": [
+    {
+      "id": "ss104-rule-01",
+      "zh": "Either 和 or 後面的兩個選項通常應使用相同的文法形式。",
+      "en": "The two alternatives after either and or should normally use the same grammatical form.",
+      "examples": [
+        "We can either eat at this restaurant or eat at home."
+      ]
+    },
+    {
+      "id": "ss104-rule-02",
+      "zh": "Either 應放在第一個被比較的選項之前。",
+      "en": "Either should be placed immediately before the first part being compared.",
+      "examples": [
+        "She will either call us or send us a message.",
+        "She will bring either fruit or cake."
+      ]
+    },
+    {
+      "id": "ss104-rule-03",
+      "zh": "兩個選項應保持平行結構，例如名詞配名詞、形容詞配形容詞、動詞詞組配動詞詞組。",
+      "en": "Keep the two alternatives parallel, such as noun + noun, adjective + adjective or verb phrase + verb phrase.",
+      "examples": [
+        "The bag is either black or blue.",
+        "We can either take the bus or walk home."
+      ]
+    },
+    {
+      "id": "ss104-rule-04",
+      "zh": "連接兩個主語時，動詞通常配合較接近動詞的主語。",
+      "en": "When either ... or ... joins two subjects, the verb normally agrees with the subject closer to it.",
+      "examples": [
+        "Either the teachers or the principal is responsible.",
+        "Either the principal or the teachers are responsible."
+      ]
+    },
+    {
+      "id": "ss104-rule-05",
+      "zh": "Either ... or ... 提出兩個肯定選項；neither ... nor ... 表示兩個選項都是否定。",
+      "en": "Either ... or ... presents two positive alternatives; neither ... nor ... means both alternatives are negative.",
+      "examples": [
+        "Either Amy or Ben will attend.",
+        "Neither Amy nor Ben will attend."
+      ]
+    },
+    {
+      "id": "ss104-rule-06",
+      "zh": "Either ... or ... 直接提出兩個選擇；whether ... or ... 常引出間接問題或不確定性。",
+      "en": "Either ... or ... directly presents two alternatives; whether ... or ... often introduces an indirect question or uncertainty.",
+      "examples": [
+        "I will either stay or leave.",
+        "I do not know whether I should stay or leave."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss104-benefit-01",
+      "zh": "這個句型能立即清楚指出正在考慮哪兩個選擇。",
+      "en": "This structure tells the listener or reader exactly which two choices are being considered."
+    },
+    {
+      "id": "ss104-benefit-02",
+      "zh": "你不需要在兩個句子中重複相同的主語和動詞。",
+      "en": "You do not need to repeat the complete subject and verb in two separate sentences."
+    },
+    {
+      "id": "ss104-benefit-03",
+      "zh": "兩個選項使用相同形式，能讓讀者更容易比較它們。",
+      "en": "The matching structure makes it easier for the reader to compare the two choices."
+    },
+    {
+      "id": "ss104-benefit-04",
+      "zh": "當一件事可能有兩個原因時，可以清楚列出兩個解釋。",
+      "en": "You can use either ... or ... when there are two possible explanations for a situation."
+    },
+    {
+      "id": "ss104-benefit-05",
+      "zh": "掌握這個框架後，可以在說話時迅速整理兩個選擇。",
+      "en": "Once you know the frame, you can organise two choices while speaking without planning a long answer."
+    },
+    {
+      "id": "ss104-benefit-06",
+      "zh": "它提供另一種連接意思的方法，避免反覆使用兩個分開的短句。",
+      "en": "Using either ... or ... gives you another way to connect ideas instead of repeatedly using two short sentences."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using either ... or ... to present two alternatives.",
+      "Preserve the original meaning, tense and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 either ... or ... 改寫以下句子，以表達兩個選擇或可能性。",
+      "答案須保留原句的意思、時態和重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss104-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "John needs to go, or Mary needs to go.",
+      "promptZh": "約翰需要去，或者瑪麗需要去。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either John or Mary needs to go.",
+      "answerZh": "約翰或瑪麗其中一人需要去。",
+      "answerZhSource": "pdf",
+      "highlight": "Either John or Mary needs to go."
+    },
+    {
+      "id": "ss104-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I have two choices: I can call Mia, or I can send her a message.",
+      "promptZh": "我有兩個選擇：我可以致電米婭，或者傳訊息給她。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can either call Mia or send her a message.",
+      "answerZh": "我可以選擇致電米婭，或者傳訊息給她。",
+      "answerZhSource": "pdf",
+      "highlight": "I can either call Mia or send her a message."
+    },
+    {
+      "id": "ss104-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We will take the bus, or we will walk home.",
+      "promptZh": "我們會乘搭巴士，或者步行回家。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We will either take the bus or walk home.",
+      "answerZh": "我們會選擇乘搭巴士，或者步行回家。",
+      "answerZhSource": "pdf",
+      "highlight": "We will either take the bus or walk home."
+    },
+    {
+      "id": "ss104-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "One of the two shirts is on sale: the blue shirt or the white shirt.",
+      "promptZh": "兩件恤衫之中有一件正在減價：藍色恤衫或白色恤衫。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the blue shirt or the white shirt is on sale.",
+      "answerZh": "藍色恤衫或白色恤衫之中，有一件正在減價。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the blue shirt or the white shirt is on sale."
+    },
+    {
+      "id": "ss104-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben wants tea or coffee.",
+      "promptZh": "本想要茶或咖啡。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben wants either tea or coffee.",
+      "answerZh": "本想要茶或咖啡其中一種。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben wants either tea or coffee."
+    },
+    {
+      "id": "ss104-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You may sit here, or you may wait outside.",
+      "promptZh": "你可以坐在這裏，或者在外面等候。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You may either sit here or wait outside.",
+      "answerZh": "你可以選擇坐在這裏，或者在外面等候。",
+      "answerZhSource": "pdf",
+      "highlight": "You may either sit here or wait outside."
+    },
+    {
+      "id": "ss104-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My brother feeds the cat, or my sister does.",
+      "promptZh": "我的哥哥會餵貓，或者由我的妹妹餵貓。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either my brother or my sister feeds the cat.",
+      "answerZh": "我的哥哥或妹妹其中一人會餵貓。",
+      "answerZhSource": "pdf",
+      "highlight": "Either my brother or my sister feeds the cat."
+    },
+    {
+      "id": "ss104-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The answer can only be true or false.",
+      "promptZh": "答案只可能是對或錯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The answer is either true or false.",
+      "answerZh": "答案不是對，就是錯。",
+      "answerZhSource": "pdf",
+      "highlight": "The answer is either true or false."
+    },
+    {
+      "id": "ss104-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy has two plans: she will study at home or go to the library.",
+      "promptZh": "艾米有兩個計劃：她會在家溫習，或者去圖書館。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy will either study at home or go to the library.",
+      "answerZh": "艾米會選擇在家溫習，或者去圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy will either study at home or go to the library."
+    },
+    {
+      "id": "ss104-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I can meet on Saturday or Sunday.",
+      "promptZh": "我可以在星期六或星期日見面。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either Saturday or Sunday works for me.",
+      "answerZh": "星期六或星期日都可以作為我的見面日期。",
+      "answerZhSource": "pdf",
+      "highlight": "Either Saturday or Sunday works for me."
+    },
+    {
+      "id": "ss104-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children can choose between drawing a picture and writing a story.",
+      "promptZh": "孩子們可以選擇畫一幅圖畫或寫一個故事。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children can either draw a picture or write a story.",
+      "answerZh": "孩子們可以選擇畫一幅圖畫，或者寫一個故事。",
+      "answerZhSource": "pdf",
+      "highlight": "The children can either draw a picture or write a story."
+    },
+    {
+      "id": "ss104-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager is responsible for opening the meeting, or the assistants are responsible for it.",
+      "promptZh": "經理負責主持會議開場，或者由助理們負責。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the manager or the assistants are responsible for opening the meeting.",
+      "answerZh": "經理或助理們需要負責主持會議開場。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the manager or the assistants are responsible for opening the meeting."
+    },
+    {
+      "id": "ss104-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The package will arrive today or tomorrow.",
+      "promptZh": "包裹會在今天或明天送達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The package will arrive either today or tomorrow.",
+      "answerZh": "包裹會在今天或明天送達。",
+      "answerZhSource": "pdf",
+      "highlight": "The package will arrive either today or tomorrow."
+    },
+    {
+      "id": "ss104-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We have two options for dinner: cook it ourselves or order some food.",
+      "promptZh": "晚餐有兩個選擇：自己煮，或者叫外賣。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can either cook dinner ourselves or order some food.",
+      "answerZh": "我們可以選擇自己煮晚餐，或者叫外賣。",
+      "answerZhSource": "pdf",
+      "highlight": "We can either cook dinner ourselves or order some food."
+    },
+    {
+      "id": "ss104-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "One of these things is in the drawer: the keys or the wallet.",
+      "promptZh": "這些物品之中有一樣在抽屜裏：鎖匙或銀包。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the keys or the wallet is in the drawer.",
+      "answerZh": "鎖匙或銀包之中，有一樣在抽屜裏。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the keys or the wallet is in the drawer."
+    },
+    {
+      "id": "ss104-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The room was one of two extremes: too hot or too cold.",
+      "promptZh": "房間的溫度處於兩個極端之一：太熱或太冷。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room was either too hot or too cold.",
+      "answerZh": "房間不是太熱，就是太冷。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was either too hot or too cold."
+    },
+    {
+      "id": "ss104-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Perhaps Chloe left her umbrella at school. Another possibility is that she forgot to bring it.",
+      "promptZh": "克洛伊可能把雨傘留在學校。另一個可能是她忘記帶雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe either left her umbrella at school or forgot to bring it.",
+      "answerZh": "克洛伊可能把雨傘留在學校，或者忘記帶雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe either left her umbrella at school or forgot to bring it."
+    },
+    {
+      "id": "ss104-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You should apologise now. Otherwise, explain what happened later.",
+      "promptZh": "你應該現在道歉，否則便在稍後解釋發生了甚麼事。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should either apologise now or explain what happened later.",
+      "answerZh": "你應該選擇現在道歉，或者在稍後解釋發生了甚麼事。",
+      "answerZhSource": "pdf",
+      "highlight": "You should either apologise now or explain what happened later."
+    },
+    {
+      "id": "ss104-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "One of the two doors was unlocked: the front door or the back door.",
+      "promptZh": "兩道門之中有一道沒有上鎖：前門或後門。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the front door or the back door was unlocked.",
+      "answerZh": "前門或後門之中，有一道門沒有上鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the front door or the back door was unlocked."
+    },
+    {
+      "id": "ss104-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The film belongs to one of two types: a comedy or a drama.",
+      "promptZh": "這部電影屬於兩種類型之一：喜劇或劇情片。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film is either a comedy or a drama.",
+      "answerZh": "這部電影不是喜劇，就是劇情片。",
+      "answerZhSource": "pdf",
+      "highlight": "The film is either a comedy or a drama."
+    },
+    {
+      "id": "ss104-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We have two choices: postpone the picnic or move it indoors.",
+      "promptZh": "我們有兩個選擇：延期舉行野餐，或者把活動移到室內。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could either postpone the picnic or move it indoors.",
+      "answerZh": "我們可以選擇延期舉行野餐，或者把活動移到室內。",
+      "answerZhSource": "pdf",
+      "highlight": "We could either postpone the picnic or move it indoors."
+    },
+    {
+      "id": "ss104-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "One of them has written the date incorrectly: the students or the teacher.",
+      "promptZh": "學生或老師之中，有一方把日期寫錯了。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the students or the teacher has written the date incorrectly.",
+      "answerZh": "學生或老師之中，有一方把日期寫錯了。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the students or the teacher has written the date incorrectly."
+    },
+    {
+      "id": "ss104-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor will prescribe some medicine or suggest more rest.",
+      "promptZh": "醫生會處方一些藥物，或者建議多休息。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor will either prescribe some medicine or suggest more rest.",
+      "answerZh": "醫生會選擇處方一些藥物，或者建議多休息。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor will either prescribe some medicine or suggest more rest."
+    },
+    {
+      "id": "ss104-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The missing file is in one of two places: on your computer or in the shared folder.",
+      "promptZh": "遺失的檔案在兩個地方之一：你的電腦或共享資料夾內。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The missing file is either on your computer or in the shared folder.",
+      "answerZh": "遺失的檔案不是在你的電腦內，就是在共享資料夾內。",
+      "answerZhSource": "pdf",
+      "highlight": "The missing file is either on your computer or in the shared folder."
+    },
+    {
+      "id": "ss104-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You can pay in cash, or you can use a bank card.",
+      "promptZh": "你可以使用現金付款，或者使用銀行卡。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can either pay in cash or use a bank card.",
+      "answerZh": "你可以選擇使用現金付款，或者使用銀行卡。",
+      "answerZhSource": "pdf",
+      "highlight": "You can either pay in cash or use a bank card."
+    },
+    {
+      "id": "ss104-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Olivia is going to collect the tickets, or her parents are going to collect them.",
+      "promptZh": "奧莉花會領取門票，或者由她的父母領取。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either Olivia or her parents are going to collect the tickets.",
+      "answerZh": "奧莉花或她的父母會前往領取門票。",
+      "answerZhSource": "pdf",
+      "highlight": "Either Olivia or her parents are going to collect the tickets."
+    },
+    {
+      "id": "ss104-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There are two likely problems with the machine: it needs a new battery, or it has a loose connection.",
+      "promptZh": "這部機器可能有兩個問題：它需要更換電池，或者接駁位置鬆脫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine either needs a new battery or has a loose connection.",
+      "answerZh": "這部機器可能需要更換電池，或者接駁位置鬆脫。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine either needs a new battery or has a loose connection."
+    },
+    {
+      "id": "ss104-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our team will present first or answer questions at the end.",
+      "promptZh": "我們的團隊會先作匯報，或者在最後回答問題。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team will either present first or answer questions at the end.",
+      "answerZh": "我們的團隊會選擇先作匯報，或者在最後回答問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team will either present first or answer questions at the end."
+    },
+    {
+      "id": "ss104-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You can reach the fifth floor by using the lift or the stairs.",
+      "promptZh": "你可以乘搭升降機或使用樓梯到達五樓。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the lift or the stairs will take you to the fifth floor.",
+      "answerZh": "升降機或樓梯都可以讓你到達五樓。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the lift or the stairs will take you to the fifth floor."
+    },
+    {
+      "id": "ss104-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop gives customers one of two benefits: free delivery or a ten-dollar discount.",
+      "promptZh": "商店為顧客提供兩項優惠之一：免費送貨或十元折扣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop offers either free delivery or a ten-dollar discount.",
+      "answerZh": "商店提供免費送貨或十元折扣其中一項優惠。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop offers either free delivery or a ten-dollar discount."
+    },
+    {
+      "id": "ss104-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the weather changes, we will cancel the match or play in the sports hall.",
+      "promptZh": "如果天氣有變，我們會取消比賽，或者在體育館內作賽。",
+      "promptZhSource": "pdf",
+      "starter": "If",
+      "answer": "If the weather changes, we will either cancel the match or play in the sports hall.",
+      "answerZh": "如果天氣有變，我們會選擇取消比賽，或者在體育館內作賽。",
+      "answerZhSource": "pdf",
+      "highlight": "If the weather changes, we will either cancel the match or play in the sports hall."
+    },
+    {
+      "id": "ss104-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "One of two things is causing confusion: the new rules or the old system.",
+      "promptZh": "造成混亂的是兩項事物之一：新規則或舊制度。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the new rules or the old system is causing confusion.",
+      "answerZh": "新規則或舊制度之中，有一項正在造成混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the new rules or the old system is causing confusion."
+    },
+    {
+      "id": "ss104-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Guests have two options: bring their own towels or rent them at reception.",
+      "promptZh": "住客有兩個選擇：自備毛巾，或者在接待處租用毛巾。",
+      "promptZhSource": "pdf",
+      "starter": "Guests",
+      "answer": "Guests may either bring their own towels or rent them at reception.",
+      "answerZh": "住客可以選擇自備毛巾，或者在接待處租用毛巾。",
+      "answerZhSource": "pdf",
+      "highlight": "Guests may either bring their own towels or rent them at reception."
+    },
+    {
+      "id": "ss104-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The message was sent by one of two people: Ava or Daniel.",
+      "promptZh": "訊息由兩人之中的一人發出：艾娃或丹尼爾。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The message was sent either by Ava or by Daniel.",
+      "answerZh": "訊息由艾娃或丹尼爾其中一人發出。",
+      "answerZhSource": "pdf",
+      "highlight": "The message was sent either by Ava or by Daniel."
+    },
+    {
+      "id": "ss104-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The charity will use the money to buy food or provide temporary shelter.",
+      "promptZh": "慈善機構會把款項用於購買食物，或者提供臨時住所。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity will use the money either to buy food or to provide temporary shelter.",
+      "answerZh": "慈善機構會把款項用於購買食物，或者提供臨時住所。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity will use the money either to buy food or to provide temporary shelter."
+    },
+    {
+      "id": "ss104-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The team found one of two problems behind the desk: a damaged cable or several loose wires.",
+      "promptZh": "團隊在書桌後面發現兩種問題之一：一條損壞的電線或數條鬆脫的電線。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either a damaged cable or several loose wires were found behind the desk.",
+      "answerZh": "團隊在書桌後面發現了一條損壞的電線，或者數條鬆脫的電線。",
+      "answerZhSource": "pdf",
+      "highlight": "Either a damaged cable or several loose wires were found behind the desk."
+    },
+    {
+      "id": "ss104-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The speaker has two ways to respond: answer the question directly or give a short example first.",
+      "promptZh": "講者有兩種回應方法：直接回答問題，或者先舉一個簡短例子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker can either answer the question directly or give a short example first.",
+      "answerZh": "講者可以選擇直接回答問題，或者先舉一個簡短例子。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker can either answer the question directly or give a short example first."
+    },
+    {
+      "id": "ss104-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The museum is open from nine to five on some days and from ten to six on others.",
+      "promptZh": "博物館在部分日子由九時開放至五時，在其他日子則由十時開放至六時。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is open either from nine to five or from ten to six.",
+      "answerZh": "博物館的開放時間不是由九時至五時，就是由十時至六時。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is open either from nine to five or from ten to six."
+    },
+    {
+      "id": "ss104-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The equipment we need is available at the local clinic or at the two nearby hospitals.",
+      "promptZh": "我們需要的設備可在本區診所或附近兩間醫院找到。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the local clinic or the two nearby hospitals have the equipment we need.",
+      "answerZh": "本區診所或附近兩間醫院備有我們需要的設備。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the local clinic or the two nearby hospitals have the equipment we need."
+    },
+    {
+      "id": "ss104-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company has only two realistic choices: reduce its costs or find new customers.",
+      "promptZh": "公司只有兩個實際可行的選擇：減少成本或尋找新顧客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company must either reduce its costs or find new customers.",
+      "answerZh": "公司必須選擇減少成本，或者尋找新顧客。",
+      "answerZhSource": "pdf",
+      "highlight": "The company must either reduce its costs or find new customers."
+    },
+    {
+      "id": "ss104-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Parents can book an appointment online or speak to the school office in person.",
+      "promptZh": "家長可以在網上預約，或者親身與校務處職員交談。",
+      "promptZhSource": "pdf",
+      "starter": "Parents",
+      "answer": "Parents can either book an appointment online or speak to the school office in person.",
+      "answerZh": "家長可以選擇在網上預約，或者親身與校務處職員交談。",
+      "answerZhSource": "pdf",
+      "highlight": "Parents can either book an appointment online or speak to the school office in person."
+    },
+    {
+      "id": "ss104-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "There are two possible explanations: the timetable has changed, or the notice contains the wrong date.",
+      "promptZh": "事情有兩個可能的解釋：時間表已經更改，或者通告上的日期有誤。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the timetable has changed or the notice contains the wrong date.",
+      "answerZh": "時間表可能已經更改，或者通告上的日期有誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the timetable has changed or the notice contains the wrong date."
+    },
+    {
+      "id": "ss104-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council has two options: repair the old footbridge or replace it completely.",
+      "promptZh": "議會有兩個選擇：維修舊行人天橋，或者把它完全更換。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council may either repair the old footbridge or replace it completely.",
+      "answerZh": "議會可以選擇維修舊行人天橋，或者把它完全更換。",
+      "answerZhSource": "pdf",
+      "highlight": "The council may either repair the old footbridge or replace it completely."
+    },
+    {
+      "id": "ss104-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "One of two parties will make the final decision: the project leader or the whole team.",
+      "promptZh": "最終決定會由兩方之中的一方作出：項目主管或整個團隊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final decision will be made either by the project leader or by the whole team.",
+      "answerZh": "最終決定會由項目主管或整個團隊作出。",
+      "answerZhSource": "pdf",
+      "highlight": "The final decision will be made either by the project leader or by the whole team."
+    },
+    {
+      "id": "ss104-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Students should support their opinion with evidence. If the evidence is unavailable, they should explain why.",
+      "promptZh": "學生應該使用證據支持自己的意見。如果無法取得證據，他們便應解釋原因。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students should either support their opinion with evidence or explain why the evidence is unavailable.",
+      "answerZh": "學生應該使用證據支持自己的意見，或者解釋為甚麼無法取得證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Students should either support their opinion with evidence or explain why the evidence is unavailable."
+    },
+    {
+      "id": "ss104-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The label was placed on the wrong carton by the delivery driver or the warehouse staff.",
+      "promptZh": "送貨司機或倉庫職員把標籤貼在錯誤的紙箱上。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the delivery driver or the warehouse staff have placed the label on the wrong carton.",
+      "answerZh": "送貨司機或倉庫職員把標籤貼在錯誤的紙箱上。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the delivery driver or the warehouse staff have placed the label on the wrong carton."
+    },
+    {
+      "id": "ss104-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school can turn the extra room into a quiet study area or a small meeting space.",
+      "promptZh": "學校可以把額外的房間改為安靜的自修區，或者小型會議空間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school can use the extra room either as a quiet study area or as a small meeting space.",
+      "answerZh": "學校可以把額外的房間用作安靜的自修區，或者小型會議空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The school can use the extra room either as a quiet study area or as a small meeting space."
+    },
+    {
+      "id": "ss104-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We may continue with the original plan, or we may make changes after reviewing the new information.",
+      "promptZh": "我們可以繼續採用原有計劃，或者在審視新資料後作出修改。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We may either continue with the original plan or make changes after reviewing the new information.",
+      "answerZh": "我們可以選擇繼續採用原有計劃，或者在審視新資料後作出修改。",
+      "answerZhSource": "pdf",
+      "highlight": "We may either continue with the original plan or make changes after reviewing the new information."
+    },
+    {
+      "id": "ss104-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "There are two possible causes: the safety instructions were unclear, or some workers did not read them carefully.",
+      "promptZh": "事情有兩個可能的原因：安全指示不清楚，或者部分工人沒有仔細閱讀指示。",
+      "promptZhSource": "pdf",
+      "starter": "Either",
+      "answer": "Either the safety instructions were unclear or some workers did not read them carefully.",
+      "answerZh": "安全指示可能不清楚，或者部分工人沒有仔細閱讀指示。",
+      "answerZhSource": "pdf",
+      "highlight": "Either the safety instructions were unclear or some workers did not read them carefully."
+    },
+    {
+      "id": "ss104-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee has two choices: approve the proposal with minor changes, or reject it and request a completely new version.",
+      "promptZh": "委員會有兩個選擇：在作出少量修改後批准建議，或者拒絕建議並要求提交全新版本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee must either approve the proposal with minor changes or reject it and request a completely new version.",
+      "answerZh": "委員會必須選擇在作出少量修改後批准建議，或者拒絕建議並要求提交全新版本。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee must either approve the proposal with minor changes or reject it and request a completely new version."
+    }
+  ]
+}

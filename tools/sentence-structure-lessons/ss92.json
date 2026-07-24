@@ -1,0 +1,1222 @@
+{
+  "id": "ss92",
+  "order": 92,
+  "slug": "sentence-structure-92",
+  "title": "「名詞比較句」句型",
+  "titleZh": "「名詞比較句」Comparative",
+  "titleEn": "Comparative Noun Structures",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 92 -「名詞比較句」Comparative.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + verb + more / fewer + plural countable noun + than + comparison",
+  "formulas": [
+    {
+      "id": "ss92-formula-countable",
+      "labelZh": "可數名詞",
+      "labelEn": "Countable nouns",
+      "formula": "Subject + verb + more / fewer + plural countable noun + than + comparison"
+    },
+    {
+      "id": "ss92-formula-uncountable",
+      "labelZh": "不可數名詞",
+      "labelEn": "Uncountable nouns",
+      "formula": "Subject + verb + more / less + uncountable noun + than + comparison"
+    },
+    {
+      "id": "ss92-formula-degree",
+      "labelZh": "加入程度副詞",
+      "labelEn": "Adding degree words",
+      "formula": "Subject + verb + far / much / slightly + more / fewer / less + noun + than + comparison"
+    }
+  ],
+  "example": "People today pay far more attention to science than to the arts.",
+  "exampleZh": "今天的人對科學的關注，遠遠多於對藝術的關注。",
+  "examples": [
+    {
+      "id": "ss92-example-main",
+      "en": "People today pay far more attention to science than to the arts.",
+      "zh": "今天的人對科學的關注，遠遠多於對藝術的關注。",
+      "highlight": "far more attention to science than to the arts"
+    },
+    {
+      "id": "ss92-example-fewer",
+      "en": "The new machine produces fewer errors than the old one.",
+      "zh": "新機器產生的錯誤比舊機器少。",
+      "highlight": "fewer errors than"
+    },
+    {
+      "id": "ss92-example-less",
+      "en": "This phone uses less power than my old phone.",
+      "zh": "這部電話使用的電力比我的舊電話少。",
+      "highlight": "less power than"
+    }
+  ],
+  "meaning": {
+    "zh": "名詞比較句用來比較兩個人物、事物、活動、時段或情況在數量、份量或程度上的差別。"
+  },
+  "rules": [
+    {
+      "id": "ss92-rule-01",
+      "zh": "More 可配合可數及不可數名詞，表示第一項的數量或份量較多。",
+      "en": "Use more with countable or uncountable nouns when the first number or amount is greater."
+    },
+    {
+      "id": "ss92-rule-02",
+      "zh": "Fewer 配合可數複數名詞。",
+      "en": "Use fewer with plural countable nouns."
+    },
+    {
+      "id": "ss92-rule-03",
+      "zh": "Less 配合不可數名詞。",
+      "en": "Use less with uncountable nouns."
+    },
+    {
+      "id": "ss92-rule-04",
+      "zh": "保持 than 前後結構平衡；重複介詞通常能令比較關係更清楚。",
+      "en": "Keep the structures before and after than parallel; repeating the preposition often makes the comparison clearer."
+    },
+    {
+      "id": "ss92-rule-05",
+      "zh": "使用 far、much、slightly、a little 等程度副詞表達差距大小。",
+      "en": "Use degree words such as far, much, slightly and a little to show the size of the difference."
+    },
+    {
+      "id": "ss92-rule-06",
+      "zh": "本練習每個答案都要使用 more / fewer / less + 名詞 + than，不要只使用 larger、smaller、higher 或 lower。",
+      "en": "Every answer in this exercise must use more / fewer / less + noun + than rather than only larger, smaller, higher or lower."
+    },
+    {
+      "id": "ss92-rule-07",
+      "zh": "Than 用於比較；then 表示「然後」或某個時間。",
+      "en": "Than introduces a comparison; then refers to sequence or time."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss92-benefit-01",
+      "zh": "準確指出哪一項的數量或份量較多或較少。",
+      "en": "It clearly identifies which item has the greater or smaller quantity."
+    },
+    {
+      "id": "ss92-benefit-02",
+      "zh": "把兩項數量資料合併成一句清楚的比較句。",
+      "en": "It combines two amounts into one clear comparison."
+    },
+    {
+      "id": "ss92-benefit-03",
+      "zh": "使用 far、much 和 slightly 等詞清楚表達差距大小。",
+      "en": "It clearly expresses whether the difference is large or small."
+    },
+    {
+      "id": "ss92-benefit-04",
+      "zh": "適合描述調查結果、預算、時間表、環境數據和社會趨勢。",
+      "en": "It is useful for describing data, trends and resource allocation."
+    },
+    {
+      "id": "ss92-benefit-05",
+      "zh": "準確指出正在比較的是關注、資助、時間或支援，使論點更具體。",
+      "en": "It makes an argument more specific by naming the exact quantity being compared."
+    },
+    {
+      "id": "ss92-benefit-06",
+      "zh": "提供另一種組織資料的方法，避免反覆使用相同句式。",
+      "en": "It provides another way to organise information and avoid repetitive patterns."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using more, fewer or less + noun + than to make a noun comparison.",
+      "Keep any information showing whether the difference is large or small. Use words such as far, much or slightly when necessary.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 more、fewer 或 less + 名詞 + than 改寫以下句子，以作名詞比較。",
+      "保留題目中表示差距大小的意思。如有需要，使用 far、much 或 slightly。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss92-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia bought several notebooks but only a small number of folders.",
+      "promptZh": "米婭買了幾本筆記簿，但只買了少量文件夾。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia bought more notebooks than folders.",
+      "answerZh": "米婭買的筆記簿比文件夾多。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia bought more notebooks than folders."
+    },
+    {
+      "id": "ss92-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sandwiches made up most of what Ben ate, while biscuits formed a smaller part.",
+      "promptZh": "本吃的食物主要是三文治，餅乾只佔較小部分。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben ate fewer biscuits than sandwiches.",
+      "answerZh": "本吃的餅乾比三文治少。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben ate fewer biscuits than sandwiches."
+    },
+    {
+      "id": "ss92-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We used a larger amount of flour and a smaller amount of sugar.",
+      "promptZh": "我們使用了較多麵粉和較少糖。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We used less sugar than flour.",
+      "answerZh": "我們用的糖比麵粉少。",
+      "answerZhSource": "pdf",
+      "highlight": "We used less sugar than flour."
+    },
+    {
+      "id": "ss92-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Inside the blue bag, apples are more numerous than oranges.",
+      "promptZh": "在藍色袋中，蘋果的數量多於橙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue bag contains more apples than oranges.",
+      "answerZh": "藍色袋中的蘋果比橙多。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue bag contains more apples than oranges."
+    },
+    {
+      "id": "ss92-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Homework took most of Leo’s available time, while games took a smaller share.",
+      "promptZh": "功課佔用了里奧大部分可用時間，遊戲只佔較小部分。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo spent less time on games than on homework.",
+      "answerZh": "里奧花在遊戲上的時間比功課少。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo spent less time on games than on homework."
+    },
+    {
+      "id": "ss92-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Girls form the larger group in our class, while boys form the smaller group.",
+      "promptZh": "我們班的女生是人數較多的一組，男生則是人數較少的一組。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our class has more girls than boys.",
+      "answerZh": "我們班的女生比男生多。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class has more girls than boys."
+    },
+    {
+      "id": "ss92-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sara drank mainly water and only a small amount of juice.",
+      "promptZh": "莎拉主要喝水，只喝了少量果汁。",
+      "promptZhSource": "pdf",
+      "starter": "Sara",
+      "answer": "Sara drank more water than juice.",
+      "answerZh": "莎拉喝的水比果汁多。",
+      "answerZhSource": "pdf",
+      "highlight": "Sara drank more water than juice."
+    },
+    {
+      "id": "ss92-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop sold a large number of T-shirts but only a small number of hats.",
+      "promptZh": "商店售出了大量 T 恤，但只售出少量帽子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop sold fewer hats than T-shirts.",
+      "answerZh": "商店售出的帽子比 T 恤少。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop sold fewer hats than T-shirts."
+    },
+    {
+      "id": "ss92-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I receive a smaller amount of help with reading, while my writing support is greater.",
+      "promptZh": "我在閱讀方面得到較少協助，在寫作方面得到的支援則較多。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I receive less help with reading than with writing.",
+      "answerZh": "我在閱讀方面得到的協助比寫作少。",
+      "answerZhSource": "pdf",
+      "highlight": "I receive less help with reading than with writing."
+    },
+    {
+      "id": "ss92-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Roses outnumber tulips in the garden.",
+      "promptZh": "花園裏玫瑰的數量多於鬱金香。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The garden has more roses than tulips.",
+      "answerZh": "花園裏的玫瑰比鬱金香多。",
+      "answerZhSource": "pdf",
+      "highlight": "The garden has more roses than tulips."
+    },
+    {
+      "id": "ss92-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The library’s novel collection is larger than its dictionary collection.",
+      "promptZh": "圖書館的小說藏量比字典藏量大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library owns more novels than dictionaries.",
+      "answerZh": "圖書館擁有的小說比字典多。",
+      "answerZhSource": "pdf",
+      "highlight": "The library owns more novels than dictionaries."
+    },
+    {
+      "id": "ss92-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel’s grammar mistakes were more numerous than his spelling mistakes.",
+      "promptZh": "丹尼爾的文法錯誤數量多於串字錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel made fewer spelling mistakes than grammar mistakes.",
+      "answerZh": "丹尼爾犯的串字錯誤比文法錯誤少。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel made fewer spelling mistakes than grammar mistakes."
+    },
+    {
+      "id": "ss92-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Food takes a larger share of my brother’s monthly budget than clothes.",
+      "promptZh": "食物佔我哥哥每月預算的比例比衣服大。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My brother spends less money on clothes than on food.",
+      "answerZh": "我哥哥花在衣服上的金錢比食物少。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother spends less money on clothes than on food."
+    },
+    {
+      "id": "ss92-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Passenger numbers are higher on the morning train than on the evening train.",
+      "promptZh": "早上列車的乘客人數高於晚上列車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The morning train carries more passengers than the evening train.",
+      "answerZh": "早上的列車接載的乘客比晚上的列車多。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning train carries more passengers than the evening train."
+    },
+    {
+      "id": "ss92-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This phone needs a smaller amount of power than my old phone.",
+      "promptZh": "這部手機所需的電力比我的舊手機少。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This phone uses less power than my old phone.",
+      "answerZh": "這部手機使用的電力比我的舊手機少。",
+      "answerZhSource": "pdf",
+      "highlight": "This phone uses less power than my old phone."
+    },
+    {
+      "id": "ss92-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school’s application total is higher this year than it was last year.",
+      "promptZh": "學校今年收到的申請總數高於去年。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has received more applications this year than last year.",
+      "answerZh": "學校今年收到的申請比去年多。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has received more applications this year than last year."
+    },
+    {
+      "id": "ss92-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The number of rainy days in June was lower than the number in May.",
+      "promptZh": "六月的下雨天數少於五月。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There were fewer rainy days in June than in May.",
+      "answerZh": "六月的下雨天比五月少。",
+      "answerZhSource": "pdf",
+      "highlight": "There were fewer rainy days in June than in May."
+    },
+    {
+      "id": "ss92-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Chloe focuses more strongly on pronunciation than on speed.",
+      "promptZh": "克洛伊對發音的重視程度高於速度。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe pays more attention to pronunciation than to speed.",
+      "answerZh": "克洛伊對發音的關注比對速度多。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe pays more attention to pronunciation than to speed."
+    },
+    {
+      "id": "ss92-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The amount of natural light in the small room is lower than in the large room.",
+      "promptZh": "小房間的自然光量低於大房間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The small room has less natural light than the large room.",
+      "answerZh": "小房間的自然光比大房間少。",
+      "answerZhSource": "pdf",
+      "highlight": "The small room has less natural light than the large room."
+    },
+    {
+      "id": "ss92-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team’s task total was higher before lunch than after lunch.",
+      "promptZh": "團隊在午飯前完成的工作總數高於午飯後。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team completed more tasks before lunch than after lunch.",
+      "answerZh": "團隊在午飯前完成的工作比午飯後多。",
+      "answerZhSource": "pdf",
+      "highlight": "The team completed more tasks before lunch than after lunch."
+    },
+    {
+      "id": "ss92-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Buses greatly outnumber trams in the city.",
+      "promptZh": "這個城市的巴士數量遠遠多於電車。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city has far more buses than trams.",
+      "answerZh": "這個城市的巴士遠多於電車。",
+      "answerZhSource": "pdf",
+      "highlight": "The city has far more buses than trams."
+    },
+    {
+      "id": "ss92-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace’s first report contained only a small fraction of the information in her second report.",
+      "promptZh": "格蕾絲第一份報告所包含的資料，只佔第二份報告的一小部分。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace included much less information in her first report than in her second.",
+      "answerZh": "格蕾絲第一份報告所包含的資料遠少於第二份。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace included much less information in her first report than in her second."
+    },
+    {
+      "id": "ss92-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new machine’s error total is dramatically lower than that of the old one.",
+      "promptZh": "新機器的錯誤總數遠低於舊機器。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new machine produces far fewer errors than the old one.",
+      "answerZh": "新機器產生的錯誤遠少於舊機器。",
+      "answerZhSource": "pdf",
+      "highlight": "The new machine produces far fewer errors than the old one."
+    },
+    {
+      "id": "ss92-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The amount of speaking practice in this course is only slightly greater than the amount of writing practice.",
+      "promptZh": "這個課程的口語練習量只比寫作練習量略多。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This course gives students slightly more practice in speaking than in writing.",
+      "answerZh": "這個課程讓學生得到的口語練習略多於寫作練習。",
+      "answerZhSource": "pdf",
+      "highlight": "This course gives students slightly more practice in speaking than in writing."
+    },
+    {
+      "id": "ss92-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Local patients form a larger group at the hospital than overseas patients.",
+      "promptZh": "在這間醫院，本地病人所佔的組別比海外病人大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital treats more local patients than overseas patients.",
+      "answerZh": "醫院治療的本地病人比海外病人多。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital treats more local patients than overseas patients."
+    },
+    {
+      "id": "ss92-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The number of paper forms processed by our office is lower than the number of online forms.",
+      "promptZh": "我們的辦公室處理的紙本表格數量少於網上表格。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our office processes fewer paper forms than online forms.",
+      "answerZh": "我們的辦公室處理的紙本表格比網上表格少。",
+      "answerZhSource": "pdf",
+      "highlight": "Our office processes fewer paper forms than online forms."
+    },
+    {
+      "id": "ss92-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Advertising receives a smaller share of the museum’s budget than education programmes.",
+      "promptZh": "宣傳在博物館預算中所佔的份額比教育活動小。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum spends less money on advertising than on education programmes.",
+      "answerZh": "博物館花在宣傳上的金錢比教育活動少。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum spends less money on advertising than on education programmes."
+    },
+    {
+      "id": "ss92-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Kevin received a greater amount of support from his colleagues than from his manager.",
+      "promptZh": "凱文從同事得到的支援，比從經理得到的多。",
+      "promptZhSource": "pdf",
+      "starter": "Kevin",
+      "answer": "Kevin received more support from his colleagues than from his manager.",
+      "answerZh": "凱文從同事得到的支援比從經理得到的多。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin received more support from his colleagues than from his manager."
+    },
+    {
+      "id": "ss92-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The north side receives only a slightly smaller amount of sunlight than the south side.",
+      "promptZh": "北面得到的陽光量只比南面略少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The north side gets slightly less sunlight than the south side.",
+      "answerZh": "北面得到的陽光略少於南面。",
+      "answerZhSource": "pdf",
+      "highlight": "The north side gets slightly less sunlight than the south side."
+    },
+    {
+      "id": "ss92-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Part-time workers greatly outnumbered full-time workers among the company’s new staff.",
+      "promptZh": "在公司的新員工中，兼職員工的數量遠遠多於全職員工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company hired far more part-time workers than full-time workers.",
+      "answerZh": "公司聘請的兼職員工遠多於全職員工。",
+      "answerZhSource": "pdf",
+      "highlight": "The company hired far more part-time workers than full-time workers."
+    },
+    {
+      "id": "ss92-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Science receives much greater attention from people today than the arts do.",
+      "promptZh": "今天，科學得到人們的關注遠高於藝術。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People today pay far more attention to science than to the arts.",
+      "answerZh": "今天的人對科學的關注，遠遠多於對藝術的關注。",
+      "answerZhSource": "pdf",
+      "highlight": "People today pay far more attention to science than to the arts."
+    },
+    {
+      "id": "ss92-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Noise complaints at the hotel are more numerous than complaints about cleanliness.",
+      "promptZh": "酒店關於噪音的投訴數量多於關於清潔的投訴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel receives fewer complaints about cleanliness than about noise.",
+      "answerZh": "酒店收到關於清潔的投訴比關於噪音的少。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel receives fewer complaints about cleanliness than about noise."
+    },
+    {
+      "id": "ss92-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Revision takes a larger share of the new timetable than meetings.",
+      "promptZh": "在新時間表中，溫習所佔的時間比會議多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable gives students more time for revision than for meetings.",
+      "answerZh": "新時間表給學生的溫習時間比會議時間多。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable gives students more time for revision than for meetings."
+    },
+    {
+      "id": "ss92-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Pollution levels from public transport are lower than those from private cars.",
+      "promptZh": "公共交通工具造成的污染水平低於私家車。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public transport creates less pollution than private cars.",
+      "answerZh": "公共交通工具造成的污染比私家車少。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport creates less pollution than private cars."
+    },
+    {
+      "id": "ss92-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The younger group expressed stronger interest in online learning than the older group.",
+      "promptZh": "年輕組別對網上學習表達的興趣高於年長組別。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The younger group showed more interest in online learning than the older group.",
+      "answerZh": "年輕組別對網上學習表現出的興趣比年長組別多。",
+      "answerZhSource": "pdf",
+      "highlight": "The younger group showed more interest in online learning than the older group."
+    },
+    {
+      "id": "ss92-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The number of changes to the design was lower than the number of changes to the budget.",
+      "promptZh": "對設計所作的修改數量少於對預算所作的修改。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There were fewer changes to the design than to the budget.",
+      "answerZh": "對設計所作的修改比對預算少。",
+      "answerZhSource": "pdf",
+      "highlight": "There were fewer changes to the design than to the budget."
+    },
+    {
+      "id": "ss92-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Road repairs received a larger share of the council’s funding than park improvements.",
+      "promptZh": "道路維修所得的市議會資助份額比公園改善工程大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council provided more funding for road repairs than for park improvements.",
+      "answerZh": "市議會為道路維修提供的資助比公園改善工程多。",
+      "answerZhSource": "pdf",
+      "highlight": "The council provided more funding for road repairs than for park improvements."
+    },
+    {
+      "id": "ss92-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The number of responses from teenagers in the second survey was only slightly lower than the number from adults.",
+      "promptZh": "第二次調查中，來自青少年的回應數量只比成年人略少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The second survey collected slightly fewer responses from teenagers than from adults.",
+      "answerZh": "第二次調查從青少年收集的回應略少於從成年人收集的。",
+      "answerZhSource": "pdf",
+      "highlight": "The second survey collected slightly fewer responses from teenagers than from adults."
+    },
+    {
+      "id": "ss92-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The clinic’s daytime doctor numbers are far higher than its night-time numbers.",
+      "promptZh": "診所日間的醫生人數遠高於晚上。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clinic has far fewer doctors at night than during the day.",
+      "answerZh": "診所晚上的醫生遠少於日間。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic has far fewer doctors at night than during the day."
+    },
+    {
+      "id": "ss92-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Successful projects take up most of the examples in the article; failed projects form a smaller group.",
+      "promptZh": "文章中的例子大多是成功項目，失敗項目只佔較小一組。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article gives more examples of successful projects than of failed ones.",
+      "answerZh": "文章列出的成功項目例子比失敗項目多。",
+      "answerZhSource": "pdf",
+      "highlight": "The article gives more examples of successful projects than of failed ones."
+    },
+    {
+      "id": "ss92-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school allocates a much larger amount of class time to exam practice than to creative discussion.",
+      "promptZh": "學校分配給考試練習的課堂時間，遠多於分配給創意討論的時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school devotes much more class time to exam practice than to creative discussion.",
+      "answerZh": "學校用於考試練習的課堂時間遠多於創意討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The school devotes much more class time to exam practice than to creative discussion."
+    },
+    {
+      "id": "ss92-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The average number of children per family is lower in the city than in the village.",
+      "promptZh": "城市每個家庭的平均子女人數低於鄉村。",
+      "promptZhSource": "pdf",
+      "starter": "Families",
+      "answer": "Families in the city generally have fewer children than families in the village.",
+      "answerZh": "城市家庭的子女人數一般比鄉村家庭少。",
+      "answerZhSource": "pdf",
+      "highlight": "Families in the city generally have fewer children than families in the village."
+    },
+    {
+      "id": "ss92-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new policy gives permanent staff a slightly greater level of protection than temporary workers.",
+      "promptZh": "新政策給予永久員工的保障程度略高於臨時員工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy offers slightly more protection to permanent staff than to temporary workers.",
+      "answerZh": "新政策給予永久員工的保障略多於臨時員工。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy offers slightly more protection to permanent staff than to temporary workers."
+    },
+    {
+      "id": "ss92-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Public investment in sports facilities is lower in the eastern district than in the central district.",
+      "promptZh": "東區在體育設施方面得到的公共投資低於中區。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The eastern district receives less public investment in sports facilities than the central district.",
+      "answerZh": "東區在體育設施方面得到的公共投資比中區少。",
+      "answerZhSource": "pdf",
+      "highlight": "The eastern district receives less public investment in sports facilities than the central district."
+    },
+    {
+      "id": "ss92-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "During the first month, the website received visitors from Hong Kong in far greater numbers than visitors from overseas.",
+      "promptZh": "在首月，網站接待的香港訪客數量遠高於海外訪客。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the first month, the website attracted far more visitors from Hong Kong than from overseas.",
+      "answerZh": "在首月，網站吸引的香港訪客遠多於海外訪客。",
+      "answerZhSource": "pdf",
+      "highlight": "During the first month, the website attracted far more visitors from Hong Kong than from overseas."
+    },
+    {
+      "id": "ss92-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research team found a lower number of differences between the two age groups than between the two income groups.",
+      "promptZh": "研究團隊在兩個年齡組別之間發現的差異數量，少於兩個收入組別之間的差異數量。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team found fewer differences between the two age groups than between the two income groups.",
+      "answerZh": "研究團隊在兩個年齡組別之間發現的差異，比在兩個收入組別之間少。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team found fewer differences between the two age groups than between the two income groups."
+    },
+    {
+      "id": "ss92-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Attracting new customers receives a larger share of the company’s budget than keeping existing ones.",
+      "promptZh": "吸引新顧客在公司預算中所佔的份額，比挽留現有顧客大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company spends more money on attracting new customers than on keeping existing ones.",
+      "answerZh": "公司花在吸引新顧客上的金錢，比挽留現有顧客多。",
+      "answerZhSource": "pdf",
+      "highlight": "The company spends more money on attracting new customers than on keeping existing ones."
+    },
+    {
+      "id": "ss92-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Digital materials need a smaller amount of storage space than printed books.",
+      "promptZh": "電子教材所需的儲存空間比印刷書籍少。",
+      "promptZhSource": "pdf",
+      "starter": "Digital",
+      "answer": "Digital materials require less storage space than printed books.",
+      "answerZh": "電子教材所需的儲存空間比印刷書籍少。",
+      "answerZhSource": "pdf",
+      "highlight": "Digital materials require less storage space than printed books."
+    },
+    {
+      "id": "ss92-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "At the hospital, new nurses receive a greater amount of training than experienced nurses.",
+      "promptZh": "在醫院，新護士得到的培訓量比有經驗的護士多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital gives more training to new nurses than to experienced nurses.",
+      "answerZh": "醫院給新護士的培訓比有經驗的護士多。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital gives more training to new nurses than to experienced nurses."
+    },
+    {
+      "id": "ss92-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the city has improved its public services, support for mental health remains far lower than support for physical health.",
+      "promptZh": "雖然城市已改善公共服務，但對精神健康的支援仍遠低於對身體健康的支援。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the city has improved its public services, it still provides far less support for mental health than for physical health.",
+      "answerZh": "雖然城市已改善公共服務，但對精神健康提供的支援仍遠少於對身體健康的支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the city has improved its public services, it still provides far less support for mental health than for physical health."
+    }
+  ]
+}

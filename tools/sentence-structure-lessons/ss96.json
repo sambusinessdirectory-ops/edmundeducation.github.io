@@ -1,0 +1,1404 @@
+{
+  "id": "ss96",
+  "order": 96,
+  "slug": "negative-adverbs-of-frequency",
+  "title": "Negative Adverbs of Frequency 否定頻率副詞句",
+  "titleZh": "「Negative Adverbs of Frequency 否定頻率副詞句」",
+  "titleEn": "Negative Adverbs of Frequency",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 96 -「Negative Adverbs of Frequency 否定頻率副詞句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + be + not always / usually / often + other information",
+  "formulas": [
+    {
+      "id": "ss96-formula-be-not",
+      "labelEn": "With be and not",
+      "labelZh": "Be 動詞配合 not",
+      "formula": "Subject + be + not + always / usually / often + other information"
+    },
+    {
+      "id": "ss96-formula-be-negative",
+      "labelEn": "With be and a negative frequency adverb",
+      "labelZh": "Be 動詞配合否定頻率副詞",
+      "formula": "Subject + be + rarely / seldom / hardly ever / never + other information"
+    },
+    {
+      "id": "ss96-formula-main-not",
+      "labelEn": "With an ordinary verb and not",
+      "labelZh": "一般動詞配合 not",
+      "formula": "Subject + do / does / did + not + always / usually / often + base verb"
+    },
+    {
+      "id": "ss96-formula-main-negative",
+      "labelEn": "With an ordinary verb and a negative frequency adverb",
+      "labelZh": "一般動詞配合否定頻率副詞",
+      "formula": "Subject + rarely / seldom / hardly ever / never + main verb"
+    },
+    {
+      "id": "ss96-formula-modal",
+      "labelEn": "With a modal or auxiliary",
+      "labelZh": "配合情態動詞或助動詞",
+      "formula": "Subject + modal / auxiliary + not + always / usually / often + verb"
+    }
+  ],
+  "example": "Long-term investment is not always a waste of money.",
+  "exampleZh": "長期投資不一定是浪費金錢。",
+  "examples": [
+    {
+      "id": "ss96-example-not-always",
+      "en": "Long-term investment is not always a waste of money.",
+      "zh": "長期投資不一定是浪費金錢。",
+      "highlight": "not always"
+    },
+    {
+      "id": "ss96-example-rarely",
+      "en": "Our teacher is rarely late for class.",
+      "zh": "我們的老師很少上課遲到。",
+      "highlight": "rarely"
+    },
+    {
+      "id": "ss96-example-not-often",
+      "en": "Ben does not often watch television on weekdays.",
+      "zh": "本在平日不常看電視。",
+      "highlight": "not often"
+    },
+    {
+      "id": "ss96-example-seldom",
+      "en": "Chloe seldom buys clothes online.",
+      "zh": "克洛伊很少在網上買衣服。",
+      "highlight": "seldom"
+    },
+    {
+      "id": "ss96-example-cannot-always",
+      "en": "You cannot always trust information shared online.",
+      "zh": "你不能總是相信網上分享的資料。",
+      "highlight": "cannot always"
+    }
+  ],
+  "meaning": {
+    "zh": "否定頻率副詞及相關表達用來表示某件事並非每次發生、通常不會發生、很少發生，或完全不會發生。"
+  },
+  "rules": [
+    {
+      "id": "ss96-rule-01",
+      "zh": "Not always 表示某件事有時成立，但並非每次都成立；它不等於 never。",
+      "en": "Not always means that something is true on some occasions but not on every occasion; it does not mean never.",
+      "examples": [
+        "Long-term investment is not always a waste of money."
+      ]
+    },
+    {
+      "id": "ss96-rule-02",
+      "zh": "Rarely、seldom、hardly ever 和 never 本身已帶有否定或限制意思，不要在它們之前再加 not。",
+      "en": "Do not add not before an already negative frequency adverb.",
+      "examples": [
+        "She rarely complains."
+      ]
+    },
+    {
+      "id": "ss96-rule-03",
+      "zh": "一般動詞配合否定頻率表達時，按主語和時態使用 do、does 或 did。",
+      "en": "Use do, does or did with ordinary verbs.",
+      "examples": [
+        "I do not often eat late at night.",
+        "He does not usually take a taxi.",
+        "They did not always agree."
+      ]
+    },
+    {
+      "id": "ss96-rule-04",
+      "zh": "頻率副詞放在 be 動詞之後。",
+      "en": "Place the adverb after be.",
+      "examples": [
+        "The room is rarely empty.",
+        "The answer is not always obvious."
+      ]
+    },
+    {
+      "id": "ss96-rule-05",
+      "zh": "本練習集中訓練正常語序，不包括把 rarely 或 seldom 放在句首所形成的倒裝句。",
+      "en": "This exercise uses normal word order rather than initial rarely or seldom with inversion.",
+      "examples": [
+        "People rarely question the rule."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss96-benefit-01",
+      "zh": "這個句型能幫助你避免作出過分絕對的判斷，並表明事情可能存在例外。",
+      "en": "It helps you avoid statements that are too absolute."
+    },
+    {
+      "id": "ss96-benefit-02",
+      "zh": "你可以準確區分「通常不會發生」、「很少發生」和「完全不會發生」。",
+      "en": "It lets you describe frequency more precisely."
+    },
+    {
+      "id": "ss96-benefit-03",
+      "zh": "Not always 和 not usually 可以讓觀點更加公平和全面。",
+      "en": "It makes opinions sound fairer and more balanced."
+    },
+    {
+      "id": "ss96-benefit-04",
+      "zh": "這些表達適合用於討論、作文和簡報，協助分析存在例外的現實說法。",
+      "en": "It is useful in discussions, essays and presentations."
+    },
+    {
+      "id": "ss96-benefit-05",
+      "zh": "除了反覆使用 sometimes，也可以使用不同的否定頻率表達，令句式更有變化。",
+      "en": "It gives you alternatives to repeatedly using sometimes."
+    },
+    {
+      "id": "ss96-benefit-06",
+      "zh": "固定句框可以幫助你在說話時迅速組織觀點。",
+      "en": "It provides a useful speaking frame."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the negative frequency expression shown in brackets.",
+      "Preserve the original meaning, tense and important details.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用括號內的否定頻率表達改寫以下句子。",
+      "答案須保留原句的意思、時態及重要資料。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss96-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 5
+      },
+      "prompt": "It is wrong to say that long-term investment is a waste of money in every case.",
+      "promptZh": "認為長期投資在任何情況下都是浪費金錢，是不正確的。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not always",
+      "cueSource": "pdf",
+      "starter": "Long-term",
+      "answer": "Long-term investment is not always a waste of money.",
+      "answerZh": "長期投資不一定是浪費金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Long-term investment is not always a waste of money."
+    },
+    {
+      "id": "ss96-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 6
+      },
+      "prompt": "There are some school days when Mia skips breakfast.",
+      "promptZh": "米婭有些上學日不吃早餐。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not always",
+      "cueSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia does not always eat breakfast before school.",
+      "answerZh": "米婭並非每天上學前都吃早餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia does not always eat breakfast before school."
+    },
+    {
+      "id": "ss96-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 6
+      },
+      "prompt": "The bus is crowded on many mornings, but not on every morning.",
+      "promptZh": "這輛巴士很多早上都很擠迫，但並非每天早上都是如此。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not always",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The bus is not always crowded in the morning.",
+      "answerZh": "這輛巴士並非每天早上都很擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus is not always crowded in the morning."
+    },
+    {
+      "id": "ss96-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 6
+      },
+      "prompt": "Drinking coffee after dinner is not part of my normal routine.",
+      "promptZh": "晚飯後喝咖啡並不是我的日常習慣。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not usually",
+      "cueSource": "pdf",
+      "starter": "I",
+      "answer": "I do not usually drink coffee after dinner.",
+      "answerZh": "我通常不會在晚飯後喝咖啡。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not usually drink coffee after dinner."
+    },
+    {
+      "id": "ss96-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 6
+      },
+      "prompt": "Ben watches television on weekdays only occasionally.",
+      "promptZh": "本只會偶爾在平日看電視。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not often",
+      "cueSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben does not often watch television on weekdays.",
+      "answerZh": "本在平日不常看電視。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben does not often watch television on weekdays."
+    },
+    {
+      "id": "ss96-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 6
+      },
+      "prompt": "It is unusual for our teacher to be late for class.",
+      "promptZh": "我們的老師很少上課遲到。",
+      "promptZhSource": "pdf",
+      "cue": "Use: rarely",
+      "cueSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher is rarely late for class.",
+      "answerZh": "我們的老師很少上課遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher is rarely late for class."
+    },
+    {
+      "id": "ss96-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 6
+      },
+      "prompt": "Chloe buys clothes online on very few occasions.",
+      "promptZh": "克洛伊只有在極少數情況下才會在網上買衣服。",
+      "promptZhSource": "pdf",
+      "cue": "Use: seldom",
+      "cueSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe seldom buys clothes online.",
+      "answerZh": "克洛伊很少在網上買衣服。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe seldom buys clothes online."
+    },
+    {
+      "id": "ss96-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 7
+      },
+      "prompt": "We eat out on Monday evenings on almost no occasions.",
+      "promptZh": "我們幾乎不會在星期一晚上外出用膳。",
+      "promptZhSource": "pdf",
+      "cue": "Use: hardly ever",
+      "cueSource": "pdf",
+      "starter": "We",
+      "answer": "We hardly ever eat out on Monday evenings.",
+      "answerZh": "我們幾乎不會在星期一晚上外出用膳。",
+      "answerZhSource": "pdf",
+      "highlight": "We hardly ever eat out on Monday evenings."
+    },
+    {
+      "id": "ss96-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15,
+        "cuePage": 7
+      },
+      "prompt": "There is no occasion when Leo leaves his bicycle unlocked.",
+      "promptZh": "里奧從來不會讓自己的單車在沒有上鎖的情況下停放。",
+      "promptZhSource": "pdf",
+      "cue": "Use: never",
+      "cueSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo never leaves his bicycle unlocked.",
+      "answerZh": "里奧從來不會讓自己的單車不上鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo never leaves his bicycle unlocked."
+    },
+    {
+      "id": "ss96-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 7
+      },
+      "prompt": "The school library is quiet at lunchtime on some days, but not on all days.",
+      "promptZh": "學校圖書館在部分日子的午膳時間很安靜，但並非每天都是如此。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not always",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The school library is not always quiet at lunchtime.",
+      "answerZh": "學校圖書館在午膳時間並非每天都很安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The school library is not always quiet at lunchtime."
+    },
+    {
+      "id": "ss96-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 7
+      },
+      "prompt": "There were times when Sarah disagreed with the other members of her group.",
+      "promptZh": "莎拉有時會不同意小組其他成員的意見。",
+      "promptZhSource": "pdf",
+      "cue": "Use: did not always",
+      "cueSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah did not always agree with the other members of her group.",
+      "answerZh": "莎拉並非一直同意小組其他成員的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah did not always agree with the other members of her group."
+    },
+    {
+      "id": "ss96-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 7
+      },
+      "prompt": "Stopping on every floor is not the lift’s normal pattern.",
+      "promptZh": "在每一層停下並不是這部升降機的正常運作模式。",
+      "promptZhSource": "pdf",
+      "cue": "Use: does not usually",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The lift does not usually stop on every floor.",
+      "answerZh": "這部升降機通常不會在每一層停下。",
+      "answerZhSource": "pdf",
+      "highlight": "The lift does not usually stop on every floor."
+    },
+    {
+      "id": "ss96-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 8
+      },
+      "prompt": "I forget people’s names only from time to time.",
+      "promptZh": "我只是偶爾忘記別人的名字。",
+      "promptZhSource": "pdf",
+      "cue": "Use: do not often",
+      "cueSource": "pdf",
+      "starter": "I",
+      "answer": "I do not often forget people’s names.",
+      "answerZh": "我不常忘記別人的名字。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not often forget people’s names."
+    },
+    {
+      "id": "ss96-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 8
+      },
+      "prompt": "Daniel feels nervous before presentations on very few occasions.",
+      "promptZh": "丹尼爾只有在極少數情況下才會在簡報前感到緊張。",
+      "promptZhSource": "pdf",
+      "cue": "Use: rarely",
+      "cueSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel is rarely nervous before presentations.",
+      "answerZh": "丹尼爾很少在簡報前感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel is rarely nervous before presentations."
+    },
+    {
+      "id": "ss96-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 8
+      },
+      "prompt": "It is uncommon for my grandparents to travel during public holidays.",
+      "promptZh": "我的祖父母很少在公眾假期出門旅遊。",
+      "promptZhSource": "pdf",
+      "cue": "Use: seldom",
+      "cueSource": "pdf",
+      "starter": "My",
+      "answer": "My grandparents seldom travel during public holidays.",
+      "answerZh": "我的祖父母很少在公眾假期出門旅遊。",
+      "answerZhSource": "pdf",
+      "highlight": "My grandparents seldom travel during public holidays."
+    },
+    {
+      "id": "ss96-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 8
+      },
+      "prompt": "This printer works properly almost all the time.",
+      "promptZh": "這部打印機幾乎一直都能正常運作。",
+      "promptZhSource": "pdf",
+      "cue": "Use: hardly ever",
+      "cueSource": "pdf",
+      "starter": "This",
+      "answer": "This printer hardly ever causes problems.",
+      "answerZh": "這部打印機幾乎從不出現問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This printer hardly ever causes problems."
+    },
+    {
+      "id": "ss96-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 8
+      },
+      "prompt": "There is no situation in which the nurse discusses patients in public.",
+      "promptZh": "護士在任何情況下都不會在公眾地方談論病人的資料。",
+      "promptZhSource": "pdf",
+      "cue": "Use: never",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse never discusses patients in public.",
+      "answerZh": "護士從不在公眾地方談論病人的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse never discusses patients in public."
+    },
+    {
+      "id": "ss96-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16,
+        "cuePage": 8
+      },
+      "prompt": "You cannot trust information shared online in every case.",
+      "promptZh": "你不能在所有情況下都相信網上分享的資料。",
+      "promptZhSource": "pdf",
+      "cue": "Use: cannot always",
+      "cueSource": "pdf",
+      "starter": "You",
+      "answer": "You cannot always trust information shared online.",
+      "answerZh": "你不能總是相信網上分享的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "You cannot always trust information shared online."
+    },
+    {
+      "id": "ss96-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 9
+      },
+      "prompt": "In most cases, a high price does not mean better quality.",
+      "promptZh": "在大多數情況下，價格高並不代表品質較好。",
+      "promptZhSource": "pdf",
+      "cue": "Use: does not usually",
+      "cueSource": "pdf",
+      "starter": "A",
+      "answer": "A high price does not usually mean better quality.",
+      "answerZh": "價格高通常並不代表品質較好。",
+      "answerZhSource": "pdf",
+      "highlight": "A high price does not usually mean better quality."
+    },
+    {
+      "id": "ss96-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 9
+      },
+      "prompt": "Friday meetings are uncommon for our team.",
+      "promptZh": "我們的團隊很少在星期五舉行會議。",
+      "promptZhSource": "pdf",
+      "cue": "Use: does not often",
+      "cueSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team does not often hold meetings on Fridays.",
+      "answerZh": "我們的團隊不常在星期五舉行會議。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team does not often hold meetings on Fridays."
+    },
+    {
+      "id": "ss96-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 9
+      },
+      "prompt": "The museum closes on some public holidays.",
+      "promptZh": "博物館會在部分公眾假期關閉。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not always",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The museum is not always open on public holidays.",
+      "answerZh": "博物館並非在每個公眾假期都開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum is not always open on public holidays."
+    },
+    {
+      "id": "ss96-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 9
+      },
+      "prompt": "Ava lives in Hong Kong now, but she lived somewhere else during part of her life.",
+      "promptZh": "艾娃現時居於香港，但她在人生中的一段時間曾居於其他地方。",
+      "promptZhSource": "pdf",
+      "cue": "Use: has not always",
+      "cueSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava has not always lived in Hong Kong.",
+      "answerZh": "艾娃並非一直居於香港。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava has not always lived in Hong Kong."
+    },
+    {
+      "id": "ss96-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 9
+      },
+      "prompt": "Serious side effects from the medicine are uncommon.",
+      "promptZh": "這種藥物很少引起嚴重副作用。",
+      "promptZhSource": "pdf",
+      "cue": "Use: does not usually",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine does not usually cause serious side effects.",
+      "answerZh": "這種藥物通常不會引起嚴重副作用。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine does not usually cause serious side effects."
+    },
+    {
+      "id": "ss96-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 10
+      },
+      "prompt": "Small changes in air quality are noticed by people only occasionally.",
+      "promptZh": "人們只會偶爾留意到空氣質素的輕微變化。",
+      "promptZhSource": "pdf",
+      "cue": "Use: do not often",
+      "cueSource": "pdf",
+      "starter": "People",
+      "answer": "People do not often notice small changes in air quality.",
+      "answerZh": "人們不常留意到空氣質素的輕微變化。",
+      "answerZhSource": "pdf",
+      "highlight": "People do not often notice small changes in air quality."
+    },
+    {
+      "id": "ss96-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 10
+      },
+      "prompt": "Blockages on this road after midnight are very uncommon.",
+      "promptZh": "這條道路在午夜後很少出現阻塞。",
+      "promptZhSource": "pdf",
+      "cue": "Use: rarely",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The road is rarely blocked after midnight.",
+      "answerZh": "這條道路在午夜後很少出現阻塞。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is rarely blocked after midnight."
+    },
+    {
+      "id": "ss96-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 10
+      },
+      "prompt": "It is unusual for the manager to change a decision without new evidence.",
+      "promptZh": "經理很少會在沒有新證據的情況下改變決定。",
+      "promptZhSource": "pdf",
+      "cue": "Use: seldom",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The manager seldom changes a decision without new evidence.",
+      "answerZh": "經理很少會在沒有新證據的情況下改變決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager seldom changes a decision without new evidence."
+    },
+    {
+      "id": "ss96-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17,
+        "cuePage": 10
+      },
+      "prompt": "The backup system works successfully in almost every test.",
+      "promptZh": "後備系統幾乎在每次測試中都能成功運作。",
+      "promptZhSource": "pdf",
+      "cue": "Use: hardly ever",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The backup system hardly ever fails during testing.",
+      "answerZh": "後備系統在測試期間幾乎從不失靈。",
+      "answerZhSource": "pdf",
+      "highlight": "The backup system hardly ever fails during testing."
+    },
+    {
+      "id": "ss96-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 10
+      },
+      "prompt": "There is no situation in which these rules apply to emergency vehicles.",
+      "promptZh": "這些規則在任何情況下都不適用於緊急車輛。",
+      "promptZhSource": "pdf",
+      "cue": "Use: never",
+      "cueSource": "pdf",
+      "starter": "These",
+      "answer": "These rules never apply to emergency vehicles.",
+      "answerZh": "這些規則從不適用於緊急車輛。",
+      "answerZhSource": "pdf",
+      "highlight": "These rules never apply to emergency vehicles."
+    },
+    {
+      "id": "ss96-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 10
+      },
+      "prompt": "Students should question the first answer in some cases rather than accept it every time.",
+      "promptZh": "學生在部分情況下應質疑找到的第一個答案，而不是每次都接受它。",
+      "promptZhSource": "pdf",
+      "cue": "Use: should not always",
+      "cueSource": "pdf",
+      "starter": "Students",
+      "answer": "Students should not always accept the first answer they find.",
+      "answerZh": "學生不應每次都接受自己找到的第一個答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Students should not always accept the first answer they find."
+    },
+    {
+      "id": "ss96-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 11
+      },
+      "prompt": "There are cases in which a simple solution does not solve the whole problem.",
+      "promptZh": "在部分情況下，簡單的解決方法不能解決整個問題。",
+      "promptZhSource": "pdf",
+      "cue": "Use: may not always",
+      "cueSource": "pdf",
+      "starter": "A",
+      "answer": "A simple solution may not always solve the whole problem.",
+      "answerZh": "簡單的解決方法未必每次都能解決整個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "A simple solution may not always solve the whole problem."
+    },
+    {
+      "id": "ss96-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 11
+      },
+      "prompt": "Some weather forecasts are inaccurate.",
+      "promptZh": "部分天氣預報並不準確。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not always",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The weather forecast is not always accurate.",
+      "answerZh": "天氣預報並非每次都準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather forecast is not always accurate."
+    },
+    {
+      "id": "ss96-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 11
+      },
+      "prompt": "Before Emily moved, taking the underground was not part of her normal routine.",
+      "promptZh": "艾米莉搬家前，乘搭地下鐵路並不是她的日常習慣。",
+      "promptZhSource": "pdf",
+      "cue": "Use: did not usually",
+      "cueSource": "pdf",
+      "starter": "Emily",
+      "answer": "Emily did not usually take the underground before she moved.",
+      "answerZh": "艾米莉搬家前通常不乘搭地下鐵路。",
+      "answerZhSource": "pdf",
+      "highlight": "Emily did not usually take the underground before she moved."
+    },
+    {
+      "id": "ss96-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 11
+      },
+      "prompt": "Replacing equipment that still works is uncommon in the company.",
+      "promptZh": "公司很少更換仍然運作正常的設備。",
+      "promptZhSource": "pdf",
+      "cue": "Use: does not often",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The company does not often replace equipment that still works.",
+      "answerZh": "公司不常更換仍然運作正常的設備。",
+      "answerZhSource": "pdf",
+      "highlight": "The company does not often replace equipment that still works."
+    },
+    {
+      "id": "ss96-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 11
+      },
+      "prompt": "Only a small number of older buildings were designed for modern technology.",
+      "promptZh": "只有少數較舊的建築物在設計時有考慮現代科技。",
+      "promptZhSource": "pdf",
+      "cue": "Use: rarely",
+      "cueSource": "pdf",
+      "starter": "Older",
+      "answer": "Older buildings were rarely designed for modern technology.",
+      "answerZh": "較舊的建築物在設計時很少有考慮現代科技。",
+      "answerZhSource": "pdf",
+      "highlight": "Older buildings were rarely designed for modern technology."
+    },
+    {
+      "id": "ss96-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 12
+      },
+      "prompt": "Complaints from the customer are uncommon unless an order is late.",
+      "promptZh": "除非訂單延誤，否則這名顧客很少作出投訴。",
+      "promptZhSource": "pdf",
+      "cue": "Use: seldom",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The customer seldom complains unless an order is late.",
+      "answerZh": "除非訂單延誤，否則這名顧客很少投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer seldom complains unless an order is late."
+    },
+    {
+      "id": "ss96-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18,
+        "cuePage": 12
+      },
+      "prompt": "False alarms from our smoke alarm are extremely uncommon.",
+      "promptZh": "我們的煙霧警報器極少發出錯誤警報。",
+      "promptZhSource": "pdf",
+      "cue": "Use: hardly ever",
+      "cueSource": "pdf",
+      "starter": "Our",
+      "answer": "Our smoke alarm hardly ever goes off by mistake.",
+      "answerZh": "我們的煙霧警報器幾乎從不錯誤響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Our smoke alarm hardly ever goes off by mistake."
+    },
+    {
+      "id": "ss96-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 12
+      },
+      "prompt": "Under no circumstances does the clinic share personal records without permission.",
+      "promptZh": "診所在任何情況下都不會在未經同意下分享個人紀錄。",
+      "promptZhSource": "pdf",
+      "cue": "Use: never",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The clinic never shares personal records without permission.",
+      "answerZh": "診所從不在未經同意下分享個人紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic never shares personal records without permission."
+    },
+    {
+      "id": "ss96-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 12
+      },
+      "prompt": "Restarting the computer during an update is normally not recommended.",
+      "promptZh": "電腦進行更新期間，通常不建議重新啟動電腦。",
+      "promptZhSource": "pdf",
+      "cue": "Use: should not usually",
+      "cueSource": "pdf",
+      "starter": "You",
+      "answer": "You should not usually restart the computer during an update.",
+      "answerZh": "你通常不應在電腦更新期間重新啟動電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "You should not usually restart the computer during an update."
+    },
+    {
+      "id": "ss96-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 12
+      },
+      "prompt": "A person can reply in a friendly way and still disagree.",
+      "promptZh": "一個人即使以友善方式回覆，仍可能不同意對方。",
+      "promptZhSource": "pdf",
+      "cue": "Use: does not always",
+      "cueSource": "pdf",
+      "starter": "A",
+      "answer": "A friendly reply does not always mean that someone agrees.",
+      "answerZh": "友善的回覆不一定代表對方同意。",
+      "answerZhSource": "pdf",
+      "highlight": "A friendly reply does not always mean that someone agrees."
+    },
+    {
+      "id": "ss96-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 12
+      },
+      "prompt": "In some cases, the cheapest option costs more over time.",
+      "promptZh": "在部分情況下，最便宜的選擇長遠而言反而花費更多。",
+      "promptZhSource": "pdf",
+      "cue": "Use: will not always",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The cheapest option will not always cost the least in the long run.",
+      "answerZh": "最便宜的選擇長遠而言未必每次都是花費最少的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "The cheapest option will not always cost the least in the long run."
+    },
+    {
+      "id": "ss96-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 13
+      },
+      "prompt": "During rush hour, another form of transport can sometimes be faster than public transport.",
+      "promptZh": "繁忙時間內，其他交通方式有時可能比公共交通更快。",
+      "promptZhSource": "pdf",
+      "cue": "Use: not always",
+      "cueSource": "pdf",
+      "starter": "Public",
+      "answer": "Public transport is not always the fastest choice during rush hour.",
+      "answerZh": "公共交通在繁忙時間不一定是最快的選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport is not always the fastest choice during rush hour."
+    },
+    {
+      "id": "ss96-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 13
+      },
+      "prompt": "It is uncommon for a rule that works in one classroom to work equally well in every classroom.",
+      "promptZh": "一項在某間課室有效的規則，很少會在每間課室都同樣有效。",
+      "promptZhSource": "pdf",
+      "cue": "Use: does not usually",
+      "cueSource": "pdf",
+      "starter": "A",
+      "answer": "A rule that works in one classroom does not usually work equally well in every classroom.",
+      "answerZh": "一項在某間課室有效的規則，通常不會在每間課室都同樣有效。",
+      "answerZhSource": "pdf",
+      "highlight": "A rule that works in one classroom does not usually work equally well in every classroom."
+    },
+    {
+      "id": "ss96-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 13
+      },
+      "prompt": "Policy changes without public consultation have been uncommon for the committee.",
+      "promptZh": "該委員會很少在沒有公眾諮詢的情況下改變政策。",
+      "promptZhSource": "pdf",
+      "cue": "Use: has not often",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The committee has not often changed its policy without public consultation.",
+      "answerZh": "該委員會很少在沒有公眾諮詢的情況下改變政策。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee has not often changed its policy without public consultation."
+    },
+    {
+      "id": "ss96-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19,
+        "cuePage": 13
+      },
+      "prompt": "Only in very few cases is medical advice found online suitable for every patient.",
+      "promptZh": "網上找到的醫療建議只有在極少數情況下才適合每一名病人。",
+      "promptZhSource": "pdf",
+      "cue": "Use: rarely",
+      "cueSource": "pdf",
+      "starter": "Medical",
+      "answer": "Medical advice found online is rarely suitable for every patient.",
+      "answerZh": "網上找到的醫療建議很少會適合每一名病人。",
+      "answerZhSource": "pdf",
+      "highlight": "Medical advice found online is rarely suitable for every patient."
+    },
+    {
+      "id": "ss96-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20,
+        "cuePage": 13
+      },
+      "prompt": "It is unusual for the organisation to introduce a new system before testing it carefully.",
+      "promptZh": "這個機構很少會在仔細測試前引入新系統。",
+      "promptZhSource": "pdf",
+      "cue": "Use: seldom",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation seldom introduces a new system before testing it carefully.",
+      "answerZh": "這個機構很少會在仔細測試前引入新系統。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation seldom introduces a new system before testing it carefully."
+    },
+    {
+      "id": "ss96-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20,
+        "cuePage": 14
+      },
+      "prompt": "In almost every situation, the emergency team uses more than one communication channel.",
+      "promptZh": "緊急應變團隊幾乎在每種情況下都會使用多於一個通訊渠道。",
+      "promptZhSource": "pdf",
+      "cue": "Use: hardly ever",
+      "cueSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency team hardly ever relies on one communication channel alone.",
+      "answerZh": "緊急應變團隊幾乎從不只依賴一個通訊渠道。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency team hardly ever relies on one communication channel alone."
+    },
+    {
+      "id": "ss96-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20,
+        "cuePage": 14
+      },
+      "prompt": "There is no situation in which a responsible leader ignores evidence that challenges a decision.",
+      "promptZh": "負責任的領袖在任何情況下都不會忽視對某項決定提出質疑的證據。",
+      "promptZhSource": "pdf",
+      "cue": "Use: never",
+      "cueSource": "pdf",
+      "starter": "A",
+      "answer": "A responsible leader never ignores evidence that challenges a decision.",
+      "answerZh": "負責任的領袖從不忽視對某項決定提出質疑的證據。",
+      "answerZhSource": "pdf",
+      "highlight": "A responsible leader never ignores evidence that challenges a decision."
+    },
+    {
+      "id": "ss96-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20,
+        "cuePage": 14
+      },
+      "prompt": "There are situations in which a method that already works well should be kept instead of being replaced by new technology.",
+      "promptZh": "在部分情況下，行之有效的方法應該保留，而不是由新科技取代。",
+      "promptZhSource": "pdf",
+      "cue": "Use: should not always",
+      "cueSource": "pdf",
+      "starter": "New",
+      "answer": "New technology should not always replace a method that already works well.",
+      "answerZh": "新科技不應每次都取代行之有效的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "New technology should not always replace a method that already works well."
+    },
+    {
+      "id": "ss96-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20,
+        "cuePage": 14
+      },
+      "prompt": "After every step is considered, something that first looks efficient may sometimes fail to save time.",
+      "promptZh": "考慮所有步驟後，起初看來有效率的做法有時可能無法節省時間。",
+      "promptZhSource": "pdf",
+      "cue": "Use: may not always",
+      "cueSource": "pdf",
+      "starter": "What",
+      "answer": "What looks efficient at first may not always save time once every step is considered.",
+      "answerZh": "考慮所有步驟後，起初看來有效率的做法未必每次都能節省時間。",
+      "answerZhSource": "pdf",
+      "highlight": "What looks efficient at first may not always save time once every step is considered."
+    },
+    {
+      "id": "ss96-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20,
+        "cuePage": 14
+      },
+      "prompt": "Some people in unusual situations may still have unmet needs under policies designed for the majority.",
+      "promptZh": "在為大多數人而設的政策下，部分處於特殊情況的人仍可能有未獲滿足的需要。",
+      "promptZhSource": "pdf",
+      "cue": "Use: do not always",
+      "cueSource": "pdf",
+      "starter": "Policies",
+      "answer": "Policies designed for the majority do not always meet the needs of people in unusual situations.",
+      "answerZh": "為大多數人而設的政策，並非每次都能滿足處於特殊情況人士的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "Policies designed for the majority do not always meet the needs of people in unusual situations."
+    }
+  ]
+}

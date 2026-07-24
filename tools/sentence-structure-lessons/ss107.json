@@ -1,0 +1,1258 @@
+{
+  "id": "ss107",
+  "order": 107,
+  "slug": "the-sooner-the-better",
+  "title": "「The sooner..., the better」句型",
+  "titleZh": "「The sooner..., the better」句",
+  "titleEn": "Using The sooner..., the better for earlier action",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 107 -「The sooner..., the better」句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "The sooner + subject + verb + other information, the better.",
+  "formulas": [
+    {
+      "id": "ss107-formula-full",
+      "labelEn": "Full pattern",
+      "labelZh": "完整句式",
+      "formula": "The sooner + subject + verb + other information, the better."
+    },
+    {
+      "id": "ss107-formula-result",
+      "labelEn": "Full result clause",
+      "labelZh": "完整結果子句",
+      "formula": "The sooner + subject + verb + other information, the better + subject + verb."
+    },
+    {
+      "id": "ss107-formula-short",
+      "labelEn": "Short pattern",
+      "labelZh": "簡短句式",
+      "formula": "The sooner, the better."
+    }
+  ],
+  "example": "The sooner you finish your homework, the better.",
+  "exampleZh": "你愈早完成家課愈好。",
+  "examples": [
+    {
+      "id": "ss107-example-homework",
+      "en": "The sooner you finish your homework, the better.",
+      "zh": "你愈早完成家課愈好。",
+      "highlight": "The sooner you finish your homework, the better"
+    },
+    {
+      "id": "ss107-example-doctor",
+      "en": "The sooner she sees a doctor, the better.",
+      "zh": "她愈早看醫生愈好。",
+      "highlight": "The sooner she sees a doctor, the better"
+    },
+    {
+      "id": "ss107-example-result",
+      "en": "The sooner you send the application, the better your chances of getting an interview will be.",
+      "zh": "你愈早遞交申請，獲得面試的機會便愈大。",
+      "highlight": "The sooner you send the application, the better your chances of getting an interview will be"
+    },
+    {
+      "id": "ss107-example-short",
+      "en": "The sooner, the better.",
+      "zh": "愈早愈好。",
+      "highlight": "The sooner, the better"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示某件事愈早發生或完成愈好，或者愈早行動，結果便會愈理想。"
+  },
+  "rules": [
+    {
+      "id": "ss107-rule-01",
+      "zh": "在這個句型中，sooner 通常解作「更早」，表示提早行動更加理想。",
+      "en": "In this structure, sooner means earlier and indicates that earlier action is preferable.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The sooner you start, the better."
+      ]
+    },
+    {
+      "id": "ss107-rule-02",
+      "zh": "Sooner 已經是 soon 的比較級，前面不可再加 more。",
+      "en": "Do not use more sooner because sooner is already the comparative form of soon.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The sooner we leave, the better."
+      ]
+    },
+    {
+      "id": "ss107-rule-03",
+      "zh": "兩部分之間通常使用逗號。",
+      "en": "Use a comma between the two parts.",
+      "examples": [
+        "The sooner you reply, the better."
+      ]
+    },
+    {
+      "id": "ss107-rule-04",
+      "zh": "即使談及將來，第一部分通常使用現在簡單式，而不是 will。",
+      "en": "For many future situations, use the present simple in the first part rather than will.",
+      "examples": [
+        "The sooner you start, the better it will be."
+      ]
+    },
+    {
+      "id": "ss107-rule-05",
+      "zh": "當上文已清楚說明行動時，可以省略主語和動詞，直接說 The sooner, the better。",
+      "en": "The sooner, the better can stand alone when the action is already understood.",
+      "examples": [
+        "The sooner, the better."
+      ]
+    },
+    {
+      "id": "ss107-rule-06",
+      "zh": "The sooner..., the better 表示愈早愈好；as soon as 表示一……就……，主要說明時間次序。",
+      "en": "The sooner..., the better means earlier is preferable; as soon as means immediately when and describes time sequence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The sooner you call her, the better.",
+        "Call me as soon as you arrive."
+      ]
+    },
+    {
+      "id": "ss107-rule-07",
+      "zh": "Should 後面使用動詞原形。",
+      "en": "Use the base form of the verb after should.",
+      "examples": [
+        "When should we submit the report?"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss107-benefit-01",
+      "zh": "這個句型能清楚告訴別人提早行動更加理想，適合提出建議或提醒。",
+      "en": "This structure clearly tells someone that taking action earlier is preferable."
+    },
+    {
+      "id": "ss107-benefit-02",
+      "zh": "第一部分說明事情有多早發生，第二部分說明提早行動帶來的好處或結果。",
+      "en": "The first part describes how early something happens, while the second explains the benefit or result."
+    },
+    {
+      "id": "ss107-benefit-03",
+      "zh": "不需要很長解釋，也可以用一句直接句子表達相同意思。",
+      "en": "Instead of giving a long explanation, you can express the same message in one direct sentence."
+    },
+    {
+      "id": "ss107-benefit-04",
+      "zh": "當行動已經清楚時，The sooner, the better 是自然、簡潔而有力的口語回應。",
+      "en": "When the action is already understood, The sooner, the better provides a natural and efficient reply."
+    },
+    {
+      "id": "ss107-benefit-05",
+      "zh": "它能表達迫切性，但聽起來較像建議而不是強硬命令。",
+      "en": "The structure can show urgency while still sounding like advice rather than an order."
+    },
+    {
+      "id": "ss107-benefit-06",
+      "zh": "記住框架後，可以代入不同人物、行動和結果，方便組織口語和寫作。",
+      "en": "Once you remember the frame, you can insert different people, actions and results into it."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or dialogue using The sooner..., the better.",
+      "You may use the full pattern or the short pattern when appropriate.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 The sooner..., the better 改寫以下句子或對話。",
+      "你可以按題意使用完整句式或簡短句式。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss107-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is best to finish your homework as early as possible.",
+      "promptZh": "最好盡早完成你的家課。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner you finish your homework, the better.",
+      "answerZh": "你愈早完成家課愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner you finish your homework, the better."
+    },
+    {
+      "id": "ss107-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "For Mia, going to bed earlier would be better.",
+      "promptZh": "對米婭來說，早一點上床睡覺會更好。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For Mia, the sooner she goes to bed, the better.",
+      "answerZh": "對米婭來說，她愈早上床睡覺愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "For Mia, the sooner she goes to bed, the better."
+    },
+    {
+      "id": "ss107-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should leave home as early as possible.",
+      "promptZh": "我們應該盡早離開家。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner we leave home, the better.",
+      "answerZh": "我們愈早離開家愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner we leave home, the better."
+    },
+    {
+      "id": "ss107-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "At home, Ben should clean the spill without delay because early action is best.",
+      "promptZh": "在家中，本應該立即清理濺出的液體，因為愈早處理愈好。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At home, the sooner Ben cleans the spill, the better.",
+      "answerZh": "在家中，本愈早清理濺出的液體愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "At home, the sooner Ben cleans the spill, the better."
+    },
+    {
+      "id": "ss107-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Charging your phone earlier would be better.",
+      "promptZh": "早一點為手機充電會更好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner you charge your phone, the better.",
+      "answerZh": "你愈早為手機充電愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner you charge your phone, the better."
+    },
+    {
+      "id": "ss107-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "For difficult work, it is better for Lily to ask for help early.",
+      "promptZh": "面對困難的工作，莉莉早點求助會比較好。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For difficult work, the sooner Lily asks for help, the better.",
+      "answerZh": "面對困難的工作，莉莉愈早求助愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "For difficult work, the sooner Lily asks for help, the better."
+    },
+    {
+      "id": "ss107-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "An earlier arrival by the bus would be better for everyone.",
+      "promptZh": "巴士早一點到達，對大家都會更好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the bus arrives, the better.",
+      "answerZh": "巴士愈早到達愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the bus arrives, the better."
+    },
+    {
+      "id": "ss107-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "At dinner time, it is best to place our order early.",
+      "promptZh": "用餐時，最好早點下單。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At dinner time, the sooner we place our order, the better.",
+      "answerZh": "用餐時，我們愈早下單愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "At dinner time, the sooner we place our order, the better."
+    },
+    {
+      "id": "ss107-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jack should apologise as early as possible.",
+      "promptZh": "傑克應該盡早道歉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner Jack apologises, the better.",
+      "answerZh": "傑克愈早道歉愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner Jack apologises, the better."
+    },
+    {
+      "id": "ss107-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Before an exam, beginning your revision earlier is better.",
+      "promptZh": "考試前，早一點開始溫習會更好。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before an exam, the sooner you start revising, the better.",
+      "answerZh": "考試前，你愈早開始溫習愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "Before an exam, the sooner you start revising, the better."
+    },
+    {
+      "id": "ss107-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "For your health, stopping smoking earlier is better.",
+      "promptZh": "為了健康，早一點戒煙會更好。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For your health, the sooner you stop smoking, the better.",
+      "answerZh": "為了健康，你愈早戒煙愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "For your health, the sooner you stop smoking, the better."
+    },
+    {
+      "id": "ss107-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sara should see a dentist as early as possible.",
+      "promptZh": "莎拉應該盡早看牙醫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner Sara sees a dentist, the better.",
+      "answerZh": "莎拉愈早看牙醫愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner Sara sees a dentist, the better."
+    },
+    {
+      "id": "ss107-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "In this weather, it would be better for us to get indoors earlier.",
+      "promptZh": "在這種天氣下，我們早點進入室內會比較好。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In this weather, the sooner we get indoors, the better.",
+      "answerZh": "在這種天氣下，我們愈早進入室內愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "In this weather, the sooner we get indoors, the better."
+    },
+    {
+      "id": "ss107-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Earlier treatment is better for the patient.",
+      "promptZh": "病人愈早接受治療愈好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the patient receives treatment, the better.",
+      "answerZh": "病人愈早接受治療愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the patient receives treatment, the better."
+    },
+    {
+      "id": "ss107-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "To prevent the cut from getting infected, clean it as early as possible.",
+      "promptZh": "為免傷口受感染，應盡早把它清潔乾淨。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To prevent the cut from getting infected, the sooner you clean it, the better.",
+      "answerZh": "為免傷口受感染，你愈早把它清潔乾淨愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "To prevent the cut from getting infected, the sooner you clean it, the better."
+    },
+    {
+      "id": "ss107-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Noah has been working for hours. It would be better for him to take a break soon.",
+      "promptZh": "諾亞已經工作了數小時。他早點休息一下會比較好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner Noah takes a break, the better.",
+      "answerZh": "諾亞愈早休息一下愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner Noah takes a break, the better."
+    },
+    {
+      "id": "ss107-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At this stage, the team should report the error without delay.",
+      "promptZh": "現階段，團隊應該立即報告錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At this stage, the sooner the team reports the error, the better.",
+      "answerZh": "現階段，團隊愈早報告錯誤愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "At this stage, the sooner the team reports the error, the better."
+    },
+    {
+      "id": "ss107-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We should replace the broken lock as early as possible.",
+      "promptZh": "我們應該盡早更換損壞的門鎖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner we replace the broken lock, the better.",
+      "answerZh": "我們愈早更換損壞的門鎖愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner we replace the broken lock, the better."
+    },
+    {
+      "id": "ss107-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "For everyone’s safety, clearing the road earlier would be better.",
+      "promptZh": "為了大家的安全，早點清理道路會更好。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For everyone’s safety, the sooner the road is cleared, the better.",
+      "answerZh": "為了大家的安全，道路愈早被清理愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "For everyone’s safety, the sooner the road is cleared, the better."
+    },
+    {
+      "id": "ss107-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why should the doctor check the results early? Because an earlier check would be better.",
+      "promptZh": "醫生為甚麼應該早點檢查結果？因為愈早檢查愈好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the doctor checks the results, the better.",
+      "answerZh": "醫生愈早檢查結果愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the doctor checks the results, the better."
+    },
+    {
+      "id": "ss107-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you send the application earlier, your chances of getting an interview will be better.",
+      "promptZh": "如果你早點遞交申請，獲得面試的機會會更大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner you send the application, the better your chances of getting an interview will be.",
+      "answerZh": "你愈早遞交申請，獲得面試的機會便愈大。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner you send the application, the better your chances of getting an interview will be."
+    },
+    {
+      "id": "ss107-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "For her holiday goal, Amy will be better prepared if she starts saving earlier.",
+      "promptZh": "為了達成假期目標，如果艾米早點開始儲蓄，她便會準備得更充分。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For her holiday goal, the sooner Amy starts saving, the better prepared she will be.",
+      "answerZh": "為了達成假期目標，艾米愈早開始儲蓄，便會準備得愈充分。",
+      "answerZhSource": "pdf",
+      "highlight": "For her holiday goal, the sooner Amy starts saving, the better prepared she will be."
+    },
+    {
+      "id": "ss107-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If we book the tickets earlier, our choice of seats will be better.",
+      "promptZh": "如果我們早點訂票，可選擇的座位會更理想。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner we book the tickets, the better our choice of seats will be.",
+      "answerZh": "我們愈早訂票，可選擇的座位便會愈理想。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner we book the tickets, the better our choice of seats will be."
+    },
+    {
+      "id": "ss107-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "To prevent further damage, an earlier examination of the car by the mechanic would be better.",
+      "promptZh": "為免車輛進一步損壞，最好讓技工早點檢查汽車。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To prevent further damage, the sooner the mechanic examines the car, the better.",
+      "answerZh": "為免車輛進一步損壞，技工愈早檢查汽車愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "To prevent further damage, the sooner the mechanic examines the car, the better."
+    },
+    {
+      "id": "ss107-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the school repairs the roof earlier, the classrooms will be better protected.",
+      "promptZh": "如果學校早點修理屋頂，課室便會得到更好的保護。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the school repairs the roof, the better protected the classrooms will be.",
+      "answerZh": "學校愈早修理屋頂，課室便會得到愈好的保護。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the school repairs the roof, the better protected the classrooms will be."
+    },
+    {
+      "id": "ss107-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "For customer relations, the customer will feel better about the service if the manager answers the complaint earlier.",
+      "promptZh": "就顧客關係而言，如果經理早點回覆投訴，顧客對服務的感受會更好。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For customer relations, the sooner the manager answers the complaint, the better the customer will feel about the service.",
+      "answerZh": "就顧客關係而言，經理愈早回覆投訴，顧客對服務的感受便會愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "For customer relations, the sooner the manager answers the complaint, the better the customer will feel about the service."
+    },
+    {
+      "id": "ss107-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It would be best for the police to find the missing child as early as possible.",
+      "promptZh": "警方最好盡早找到失蹤兒童。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the police find the missing child, the better.",
+      "answerZh": "警方愈早找到失蹤兒童愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the police find the missing child, the better."
+    },
+    {
+      "id": "ss107-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "To protect your work, backing up the files earlier will give it better protection.",
+      "promptZh": "為了保護你的工作檔案，早點備份會帶來更好的保障。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To protect your work, the sooner you back up the files, the better protected your work will be.",
+      "answerZh": "為了保護你的工作檔案，你愈早備份檔案，工作成果便會得到愈好的保護。",
+      "answerZhSource": "pdf",
+      "highlight": "To protect your work, the sooner you back up the files, the better protected your work will be."
+    },
+    {
+      "id": "ss107-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the council fixes the streetlights earlier, the area will be better lit at night.",
+      "promptZh": "如果市政部門早點修理街燈，該區晚上便會有更好的照明。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the council fixes the streetlights, the better lit the area will be at night.",
+      "answerZh": "市政部門愈早修理街燈，該區晚上的照明便會愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the council fixes the streetlights, the better lit the area will be at night."
+    },
+    {
+      "id": "ss107-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For the best flavour, the food will taste better if the chef serves it earlier.",
+      "promptZh": "為了保持最佳味道，如果廚師早點上菜，食物會更美味。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For the best flavour, the sooner the chef serves the food, the better it will taste.",
+      "answerZh": "為了保持最佳味道，廚師愈早上菜，食物便會愈美味。",
+      "answerZhSource": "pdf",
+      "highlight": "For the best flavour, the sooner the chef serves the food, the better it will taste."
+    },
+    {
+      "id": "ss107-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "As a rule, it is best to reply to an urgent email without delay.",
+      "promptZh": "一般來說，最好立即回覆緊急電郵。",
+      "promptZhSource": "pdf",
+      "starter": "As",
+      "answer": "As a rule, the sooner you reply to an urgent email, the better.",
+      "answerZh": "一般來說，你愈早回覆緊急電郵愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "As a rule, the sooner you reply to an urgent email, the better."
+    },
+    {
+      "id": "ss107-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company should warn customers about the fault as early as possible.",
+      "promptZh": "公司應該盡早通知顧客有關故障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the company warns customers about the fault, the better.",
+      "answerZh": "公司愈早通知顧客有關故障愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the company warns customers about the fault, the better."
+    },
+    {
+      "id": "ss107-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In an emergency, moving to a safe place earlier is better.",
+      "promptZh": "在緊急情況下，愈早移到安全地方愈好。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In an emergency, the sooner people move to a safe place, the better.",
+      "answerZh": "在緊急情況下，人們愈早移到安全地方愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "In an emergency, the sooner people move to a safe place, the better."
+    },
+    {
+      "id": "ss107-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the teacher notices the student’s difficulty earlier, the school can support the student better.",
+      "promptZh": "如果老師早點察覺學生的困難，學校便能更好地支援該學生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the teacher notices the student’s difficulty, the better the school can support the student.",
+      "answerZh": "老師愈早察覺學生的困難，學校便能愈好地支援該學生。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the teacher notices the student’s difficulty, the better the school can support the student."
+    },
+    {
+      "id": "ss107-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Correcting the wrong address earlier gives the parcel a better chance of arriving on time.",
+      "promptZh": "愈早更正錯誤地址，包裹準時送達的機會便愈大。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To give the parcel a better chance of arriving on time, the sooner you correct the wrong address, the better.",
+      "answerZh": "為了增加包裹準時送達的機會，你愈早更正錯誤地址愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "To give the parcel a better chance of arriving on time, the sooner you correct the wrong address, the better."
+    },
+    {
+      "id": "ss107-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "When a rumour starts spreading, checking the facts earlier is better.",
+      "promptZh": "當謠言開始流傳時，愈早核實事實愈好。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When a rumour starts spreading, the sooner the facts are checked, the better.",
+      "answerZh": "當謠言開始流傳時，愈早核實事實愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "When a rumour starts spreading, the sooner the facts are checked, the better."
+    },
+    {
+      "id": "ss107-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For a group project, early agreement on everyone’s roles is better for the whole team.",
+      "promptZh": "進行小組項目時，大家愈早同意各自的角色，對整個團隊便愈好。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For a group project, the sooner everyone agrees on their roles, the better.",
+      "answerZh": "進行小組項目時，大家愈早同意各自的角色愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "For a group project, the sooner everyone agrees on their roles, the better."
+    },
+    {
+      "id": "ss107-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the hospital finds the source of the infection earlier, it can protect other patients better.",
+      "promptZh": "如果醫院早點找出感染源，便能更好地保護其他病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the hospital finds the source of the infection, the better it can protect other patients.",
+      "answerZh": "醫院愈早找出感染源，便能愈好地保護其他病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the hospital finds the source of the infection, the better it can protect other patients."
+    },
+    {
+      "id": "ss107-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To avoid extra charges, it is best to cancel the unused service as early as possible.",
+      "promptZh": "為免產生額外費用，最好盡早取消沒有使用的服務。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To avoid extra charges, the sooner you cancel the unused service, the better.",
+      "answerZh": "為免產生額外費用，你愈早取消沒有使用的服務愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "To avoid extra charges, the sooner you cancel the unused service, the better."
+    },
+    {
+      "id": "ss107-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Once the alarm sounds, leaving the building earlier is better for everyone.",
+      "promptZh": "警報響起後，大家愈早離開大樓愈好。",
+      "promptZhSource": "pdf",
+      "starter": "Once",
+      "answer": "Once the alarm sounds, the sooner everyone leaves the building, the better.",
+      "answerZh": "警報響起後，大家愈早離開大樓愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "Once the alarm sounds, the sooner everyone leaves the building, the better."
+    },
+    {
+      "id": "ss107-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "From a financial point of view, the business should reduce unnecessary spending as early as possible.",
+      "promptZh": "從財務角度而言，企業應該盡早減少不必要的開支。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From a financial point of view, the sooner the business reduces unnecessary spending, the better.",
+      "answerZh": "從財務角度而言，企業愈早減少不必要的開支愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "From a financial point of view, the sooner the business reduces unnecessary spending, the better."
+    },
+    {
+      "id": "ss107-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the researchers correct the data error earlier, the final report will be better.",
+      "promptZh": "如果研究人員早點更正數據錯誤，最終報告便會更好。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the researchers correct the data error, the better the final report will be.",
+      "answerZh": "研究人員愈早更正數據錯誤，最終報告便會愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the researchers correct the data error, the better the final report will be."
+    },
+    {
+      "id": "ss107-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To protect public trust, the organisation should explain what happened without delay.",
+      "promptZh": "為了維護公眾信任，機構應該立即解釋所發生的事情。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To protect public trust, the sooner the organisation explains what happened, the better.",
+      "answerZh": "為了維護公眾信任，機構愈早解釋所發生的事情愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "To protect public trust, the sooner the organisation explains what happened, the better."
+    },
+    {
+      "id": "ss107-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the rescue team reaches the hikers earlier, their chances of staying safe will be better.",
+      "promptZh": "如果救援隊早點找到遠足人士，他們保持安全的機會便會更大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the rescue team reaches the hikers, the better their chances of staying safe will be.",
+      "answerZh": "救援隊愈早找到遠足人士，他們保持安全的機會便會愈大。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the rescue team reaches the hikers, the better their chances of staying safe will be."
+    },
+    {
+      "id": "ss107-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "For long-term progress, the government should address the housing shortage as early as possible.",
+      "promptZh": "為了長遠發展，政府應該盡早處理房屋短缺問題。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For long-term progress, the sooner the government addresses the housing shortage, the better.",
+      "answerZh": "為了長遠發展，政府愈早處理房屋短缺問題愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "For long-term progress, the sooner the government addresses the housing shortage, the better."
+    },
+    {
+      "id": "ss107-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If the software company releases a security update earlier, users will be better protected.",
+      "promptZh": "如果軟件公司早點推出保安更新，使用者便會得到更好的保護。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the software company releases a security update, the better protected users will be.",
+      "answerZh": "軟件公司愈早推出保安更新，使用者便會得到愈好的保護。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the software company releases a security update, the better protected users will be."
+    },
+    {
+      "id": "ss107-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “When should we submit the report?” B: “We should submit it as early as possible.”",
+      "promptZh": "A：「我們應該甚麼時候遞交報告？」）（B：「我們應該盡早遞交。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner, the better.",
+      "answerZh": "愈早愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner, the better."
+    },
+    {
+      "id": "ss107-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A: “When should the repairs begin?” B: “It would be best if they began as early as possible.”",
+      "promptZh": "A：「維修工程應該甚麼時候開始？」）（B：「最好盡早開始。」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner, the better.",
+      "answerZh": "愈早愈好。",
+      "answerZhSource": "pdf",
+      "duplicateAnswerOf": "ss107-q47",
+      "highlight": "The sooner"
+    },
+    {
+      "id": "ss107-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We need to tell the staff about the change. It would be better not to delay.",
+      "promptZh": "我們需要告訴員工這項改動。最好不要拖延。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to tell the staff about the change; the sooner, the better.",
+      "answerZh": "我們需要告訴員工這項改動；愈早愈好。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to tell the staff about the change; the sooner, the better."
+    },
+    {
+      "id": "ss107-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If the city restores clean water earlier, the public will be better protected.",
+      "promptZh": "如果城市早點恢復潔淨食水供應，公眾便會得到更好的保護。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sooner the city restores clean water, the better protected the public will be.",
+      "answerZh": "城市愈早恢復潔淨食水供應，公眾便會得到愈好的保護。",
+      "answerZhSource": "pdf",
+      "highlight": "The sooner the city restores clean water, the better protected the public will be."
+    }
+  ]
+}

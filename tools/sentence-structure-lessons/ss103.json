@@ -1,0 +1,1260 @@
+{
+  "id": "ss103",
+  "order": 103,
+  "slug": "by-with-from-functional-prepositions",
+  "title": "「By / With / From 功能介詞」句型",
+  "titleZh": "「By / With / From 功能介詞句」",
+  "titleEn": "Using By, With and From as functional prepositional phrases",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 103 -「By _ With _ From 功能介詞句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "By + gerund (-ing), + subject + verb + other information",
+  "formulas": [
+    {
+      "id": "ss103-formula-by",
+      "labelEn": "By: method or means",
+      "labelZh": "By：表示透過甚麼方法",
+      "formula": "By + gerund (-ing), + subject + verb + other information"
+    },
+    {
+      "id": "ss103-formula-with",
+      "labelEn": "With: a condition or resource",
+      "labelZh": "With：表示在某項條件或資源之下",
+      "formula": "With + noun phrase, + subject + verb + other information"
+    },
+    {
+      "id": "ss103-formula-from-active",
+      "labelEn": "From: source of evidence or judgement",
+      "labelZh": "From：表示根據甚麼資料作出判斷",
+      "formula": "From + noun phrase, + subject + verb + that-clause"
+    },
+    {
+      "id": "ss103-formula-from-passive",
+      "labelEn": "From: impersonal judgement",
+      "labelZh": "From：非人稱判斷",
+      "formula": "From + noun phrase, + it + be + adjective / past participle + that-clause"
+    }
+  ],
+  "example": "By reviewing each step carefully, I understood the process better.",
+  "exampleZh": "透過仔細檢查每一個步驟，我更了解整個流程。",
+  "examples": [
+    {
+      "id": "ss103-example-by",
+      "en": "By reviewing each step carefully, I understood the process better.",
+      "zh": "透過仔細檢查每一個步驟，我更了解整個流程。",
+      "highlight": "By reviewing each step carefully"
+    },
+    {
+      "id": "ss103-example-with",
+      "en": "With a bigger budget, we could test the idea properly.",
+      "zh": "如果有更大的預算，我們便可以妥善測試這個想法。",
+      "highlight": "With a bigger budget"
+    },
+    {
+      "id": "ss103-example-from",
+      "en": "From this example, it can be seen that trust takes time to build.",
+      "zh": "從這個例子可以看出，信任需要時間建立。",
+      "highlight": "From this example"
+    }
+  ],
+  "meaning": {
+    "zh": "句首的 By 表示方法或手段；With 表示條件、資源或所處情況；From 表示資料、證據或判斷的來源。"
+  },
+  "rules": [
+    {
+      "id": "ss103-rule-01",
+      "zh": "By 後面的動詞必須使用 gerund 動名詞，即 -ing 形式。",
+      "en": "A verb after By must take the gerund (-ing) form.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By practising regularly, she became more confident."
+      ]
+    },
+    {
+      "id": "ss103-rule-02",
+      "zh": "By + -ing 的動作者通常必須是主句的主語，避免出現懸垂結構。",
+      "en": "The performer of the By + -ing action normally must be the main-clause subject, avoiding a dangling construction.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "By doing so, I understood the process better."
+      ]
+    },
+    {
+      "id": "ss103-rule-03",
+      "zh": "By doing so 必須指向前文清楚提及的動作，否則讀者不知道 so 代表甚麼。",
+      "en": "By doing so must refer to an action clearly mentioned earlier, so the reader knows what so represents.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I checked every figure twice. By doing so, I found the mistake."
+      ]
+    },
+    {
+      "id": "ss103-rule-04",
+      "zh": "With 後面使用名詞詞組，而不是完整句子。",
+      "en": "Use a noun phrase rather than a complete clause after With.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "with more time",
+        "with enough money",
+        "with clear instructions"
+      ]
+    },
+    {
+      "id": "ss103-rule-05",
+      "zh": "From 後面的內容應提供證據、線索、經驗或資料，說明判斷的來源。",
+      "en": "The phrase after From should supply evidence, clues, experience or information as the basis for a judgement.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "From the results, it is clear that...",
+        "From her reaction, I could tell that..."
+      ]
+    },
+    {
+      "id": "ss103-rule-06",
+      "zh": "By 解釋事情怎樣完成；With 介紹具備的條件、資源或情況；From 說明判斷根據的資料，三者不可隨意互換。",
+      "en": "By explains how something is done; With introduces an available condition, resource or situation; From identifies the evidence behind a judgement. They are not freely interchangeable.",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss103-rule-07",
+      "zh": "句首介詞詞組後通常使用逗號。",
+      "en": "A sentence-initial prepositional phrase is normally followed by a comma.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "With better equipment, the team could work more efficiently.",
+        "From the survey results, we can see that opinions are divided."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss103-benefit-01",
+      "zh": "By + -ing 能把方法和結果直接連接，清楚說明事情怎樣完成。",
+      "en": "By + -ing directly links a method to its result and shows how something was accomplished.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss103-benefit-02",
+      "zh": "With + 名詞詞組能簡潔地先交代資源、條件或情況，再提出主要意思。",
+      "en": "With + noun phrase concisely presents an important resource, condition or situation before the main point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss103-benefit-03",
+      "zh": "From + 名詞詞組能交代結論來自哪項資料、證據或觀察，令判斷更有邏輯。",
+      "en": "From + noun phrase identifies the data, evidence or observation behind a conclusion, making the reasoning clearer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss103-benefit-04",
+      "zh": "這些句型把方法、條件、證據和結果放在同一句中，減少零散短句及重複連接語。",
+      "en": "These structures combine method, condition, evidence and result in one sentence, reducing fragmented short sentences and repeated connectors.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss103-benefit-05",
+      "zh": "以 By、With 或 From 開始句子可增加句首變化，避免每句都以人物或事物開頭。",
+      "en": "Beginning with By, With or From adds sentence-opening variety instead of always starting with a person or thing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using the functional preposition shown by the first-word hint. Use By + -ing, With + noun phrase, or From + noun phrase.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用每題答案首字所提示的功能介詞改寫句子。請使用 By + -ing、With + 名詞詞組或 From + 名詞詞組。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss103-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia read the instructions carefully. This helped her complete the task correctly.",
+      "promptZh": "米婭仔細閱讀指示。這幫助她正確完成任務。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By reading the instructions carefully, Mia completed the task correctly.",
+      "answerZh": "透過仔細閱讀指示，米婭正確完成了任務。",
+      "answerZhSource": "pdf",
+      "highlight": "By reading the instructions carefully, Mia completed the task correctly."
+    },
+    {
+      "id": "ss103-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If I had more time, I could finish the report properly.",
+      "promptZh": "如果我有更多時間，我便可以妥善完成報告。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With more time, I could finish the report properly.",
+      "answerZh": "如果有更多時間，我便可以妥善完成報告。",
+      "answerZhSource": "pdf",
+      "highlight": "With more time, I could finish the report properly."
+    },
+    {
+      "id": "ss103-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This picture shows that the road is very narrow.",
+      "promptZh": "這張圖片顯示這條道路非常狹窄。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From this picture, we can see that the road is very narrow.",
+      "answerZh": "從這張圖片可以看出，這條道路非常狹窄。",
+      "answerZhSource": "pdf",
+      "highlight": "From this picture, we can see that the road is very narrow."
+    },
+    {
+      "id": "ss103-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo practised every day, so his pronunciation improved.",
+      "promptZh": "里奧每天練習，因此他的發音有所改善。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By practising every day, Leo improved his pronunciation.",
+      "answerZh": "透過每天練習，里奧改善了自己的發音。",
+      "answerZhSource": "pdf",
+      "highlight": "By practising every day, Leo improved his pronunciation."
+    },
+    {
+      "id": "ss103-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The tourists had a map, so they found the hotel easily.",
+      "promptZh": "遊客有一張地圖，因此很容易便找到了酒店。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With a map, the tourists found the hotel easily.",
+      "answerZh": "有地圖的幫助，遊客很容易便找到了酒店。",
+      "answerZhSource": "pdf",
+      "highlight": "With a map, the tourists found the hotel easily."
+    },
+    {
+      "id": "ss103-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "How could I tell that Sarah was pleased? Her smile showed me.",
+      "promptZh": "我怎樣知道莎拉感到高興？她的笑容讓我看得出來。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From her smile, I could tell that Sarah was pleased.",
+      "answerZh": "從莎拉的笑容，我可以看出她感到高興。",
+      "answerZhSource": "pdf",
+      "highlight": "From her smile, I could tell that Sarah was pleased."
+    },
+    {
+      "id": "ss103-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Turning off the lights helped us save electricity.",
+      "promptZh": "關掉電燈幫助我們節省電力。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By turning off the lights, we saved electricity.",
+      "answerZh": "透過關掉電燈，我們節省了電力。",
+      "answerZhSource": "pdf",
+      "highlight": "By turning off the lights, we saved electricity."
+    },
+    {
+      "id": "ss103-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If Ben wore a warmer coat, he would feel more comfortable outside.",
+      "promptZh": "如果本穿一件更保暖的外套，他在戶外便會感到更舒適。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With a warmer coat, Ben would feel more comfortable outside.",
+      "answerZh": "有一件更保暖的外套，本在戶外便會感到更舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "With a warmer coat, Ben would feel more comfortable outside."
+    },
+    {
+      "id": "ss103-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The timetable shows that the last train leaves at eleven.",
+      "promptZh": "時間表顯示尾班車在十一時開出。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the timetable, we can see that the last train leaves at eleven.",
+      "answerZh": "從時間表可以看出，尾班車在十一時開出。",
+      "answerZhSource": "pdf",
+      "highlight": "From the timetable, we can see that the last train leaves at eleven."
+    },
+    {
+      "id": "ss103-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Tom solved the problem because he asked his teacher for help.",
+      "promptZh": "湯姆向老師求助，因此解決了問題。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By asking his teacher for help, Tom solved the problem.",
+      "answerZh": "透過向老師求助，湯姆解決了問題。",
+      "answerZhSource": "pdf",
+      "highlight": "By asking his teacher for help, Tom solved the problem."
+    },
+    {
+      "id": "ss103-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because the students were given clear instructions, they could start work immediately.",
+      "promptZh": "由於學生獲得了清楚的指示，他們可以立即開始工作。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With clear instructions, the students could start work immediately.",
+      "answerZh": "有清楚的指示，學生便可以立即開始工作。",
+      "answerZhSource": "pdf",
+      "highlight": "With clear instructions, the students could start work immediately."
+    },
+    {
+      "id": "ss103-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The survey results show that most residents support the plan.",
+      "promptZh": "調查結果顯示，大部分居民都支持這項計劃。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the survey results, it is clear that most residents support the plan.",
+      "answerZh": "從調查結果可以清楚看出，大部分居民都支持這項計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "From the survey results, it is clear that most residents support the plan."
+    },
+    {
+      "id": "ss103-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Amy wrote a shopping list so that she would not forget anything.",
+      "promptZh": "艾米寫了一張購物清單，以免忘記任何東西。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By writing a shopping list, Amy avoided forgetting anything.",
+      "answerZh": "透過寫購物清單，艾米避免了忘記任何東西。",
+      "answerZhSource": "pdf",
+      "highlight": "By writing a shopping list, Amy avoided forgetting anything."
+    },
+    {
+      "id": "ss103-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the team had a little more practice, they might play more confidently.",
+      "promptZh": "如果球隊有多一點練習，他們比賽時可能會更有信心。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With a little more practice, the team might play more confidently.",
+      "answerZh": "如果有多一點練習，球隊比賽時可能會更有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "With a little more practice, the team might play more confidently."
+    },
+    {
+      "id": "ss103-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel took the earlier bus. This allowed him to arrive at work on time.",
+      "promptZh": "丹尼爾乘搭較早的巴士。這讓他可以準時上班。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By taking the earlier bus, Daniel arrived at work on time.",
+      "answerZh": "透過乘搭較早的巴士，丹尼爾準時到達工作地點。",
+      "answerZhSource": "pdf",
+      "highlight": "By taking the earlier bus, Daniel arrived at work on time."
+    },
+    {
+      "id": "ss103-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "How did the teacher know that the student had misunderstood the question? His answer revealed it.",
+      "promptZh": "老師怎樣知道該學生誤解了題目？他的答案反映了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From his answer, the teacher realised that the student had misunderstood the question.",
+      "answerZh": "從該學生的答案，老師意識到他誤解了題目。",
+      "answerZhSource": "pdf",
+      "highlight": "From his answer, the teacher realised that the student had misunderstood the question."
+    },
+    {
+      "id": "ss103-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Keeping the window open allowed us to let fresh air into the room.",
+      "promptZh": "保持窗戶打開，讓我們可以把新鮮空氣帶進房間。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By keeping the window open, we let fresh air into the room.",
+      "answerZh": "透過保持窗戶打開，我們讓新鮮空氣進入房間。",
+      "answerZhSource": "pdf",
+      "highlight": "By keeping the window open, we let fresh air into the room."
+    },
+    {
+      "id": "ss103-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If these plants receive enough water, they can grow well.",
+      "promptZh": "如果這些植物得到足夠水分，它們便可以健康生長。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With enough water, these plants can grow well.",
+      "answerZh": "有足夠水分的話，這些植物便可以健康生長。",
+      "answerZhSource": "pdf",
+      "highlight": "With enough water, these plants can grow well."
+    },
+    {
+      "id": "ss103-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The noise outside told us that the parade had started.",
+      "promptZh": "外面的聲音讓我們知道巡遊已經開始。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the noise outside, we knew that the parade had started.",
+      "answerZh": "從外面的聲音，我們知道巡遊已經開始。",
+      "answerZhSource": "pdf",
+      "highlight": "From the noise outside, we knew that the parade had started."
+    },
+    {
+      "id": "ss103-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nina checked the address twice. In this way, she made sure the parcel went to the right place.",
+      "promptZh": "妮娜把地址檢查了兩次。這樣，她便能確保包裹送到正確地點。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By checking the address twice, Nina made sure the parcel went to the right place.",
+      "answerZh": "透過把地址檢查兩次，妮娜確保了包裹被送到正確地點。",
+      "answerZhSource": "pdf",
+      "highlight": "By checking the address twice, Nina made sure the parcel went to the right place."
+    },
+    {
+      "id": "ss103-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This mistake teaches us that small details matter.",
+      "promptZh": "這次錯誤讓我們明白，小細節也十分重要。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From this mistake, we can learn that small details matter.",
+      "answerZh": "從這次錯誤，我們可以明白小細節也十分重要。",
+      "answerZhSource": "pdf",
+      "highlight": "From this mistake, we can learn that small details matter."
+    },
+    {
+      "id": "ss103-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Jack did not share his password. This kept his account safer.",
+      "promptZh": "傑克沒有分享自己的密碼。這讓他的帳戶更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By not sharing his password, Jack kept his account safer.",
+      "answerZh": "傑克沒有分享自己的密碼，因而令帳戶更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "By not sharing his password, Jack kept his account safer."
+    },
+    {
+      "id": "ss103-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Chloe's family supported her, so she felt ready to try again.",
+      "promptZh": "克洛伊得到家人的支持，因此覺得自己已準備好再次嘗試。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With support from her family, Chloe felt ready to try again.",
+      "answerZh": "得到家人的支持後，克洛伊覺得自己已準備好再次嘗試。",
+      "answerZhSource": "pdf",
+      "highlight": "With support from her family, Chloe felt ready to try again."
+    },
+    {
+      "id": "ss103-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital records showed the doctors that the treatment was working.",
+      "promptZh": "醫院紀錄向醫生顯示，治療正在發揮作用。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the hospital records, the doctors could see that the treatment was working.",
+      "answerZh": "從醫院紀錄，醫生可以看出治療正在發揮作用。",
+      "answerZhSource": "pdf",
+      "highlight": "From the hospital records, the doctors could see that the treatment was working."
+    },
+    {
+      "id": "ss103-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Comparing the two prices helps customers choose the better deal.",
+      "promptZh": "比較兩個價錢有助顧客選擇較划算的交易。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By comparing the two prices, customers can choose the better deal.",
+      "answerZh": "透過比較兩個價錢，顧客可以選擇較划算的交易。",
+      "answerZhSource": "pdf",
+      "highlight": "By comparing the two prices, customers can choose the better deal."
+    },
+    {
+      "id": "ss103-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There was no bus service, so we had to walk home.",
+      "promptZh": "當時沒有巴士服務，因此我們只好步行回家。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With no bus service, we had to walk home.",
+      "answerZh": "在沒有巴士服務的情況下，我們只好步行回家。",
+      "answerZhSource": "pdf",
+      "highlight": "With no bus service, we had to walk home."
+    },
+    {
+      "id": "ss103-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The map shows that the lake is north of the village.",
+      "promptZh": "地圖顯示湖泊位於村莊以北。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the map, we can see that the lake is north of the village.",
+      "answerZh": "從地圖可以看出，湖泊位於村莊以北。",
+      "answerZhSource": "pdf",
+      "highlight": "From the map, we can see that the lake is north of the village."
+    },
+    {
+      "id": "ss103-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You can protect your hands from the paint if you wear gloves.",
+      "promptZh": "如果你戴上手套，便可以保護雙手，避免沾上油漆。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By wearing gloves, you can protect your hands from the paint.",
+      "answerZh": "透過戴上手套，你可以保護雙手，避免沾上油漆。",
+      "answerZhSource": "pdf",
+      "highlight": "By wearing gloves, you can protect your hands from the paint."
+    },
+    {
+      "id": "ss103-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If the students had a quieter room, they would be able to concentrate better.",
+      "promptZh": "如果學生有一個較安靜的房間，他們便能更加集中精神。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With a quieter room, the students would be able to concentrate better.",
+      "answerZh": "有一個較安靜的房間，學生便能更加集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "With a quieter room, the students would be able to concentrate better."
+    },
+    {
+      "id": "ss103-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "How could I tell that she was nervous? The way she spoke made it clear.",
+      "promptZh": "我怎樣知道她感到緊張？她說話的方式清楚反映了這一點。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the way she spoke, I could tell that she was nervous.",
+      "answerZh": "從她說話的方式，我可以看出她感到緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "From the way she spoke, I could tell that she was nervous."
+    },
+    {
+      "id": "ss103-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The technician updated the software, and this enabled him to fix several security problems.",
+      "promptZh": "技術員更新了軟件，因而能夠修正數個保安問題。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By updating the software, the technician fixed several security problems.",
+      "answerZh": "透過更新軟件，技術員修正了數個保安問題。",
+      "answerZhSource": "pdf",
+      "highlight": "By updating the software, the technician fixed several security problems."
+    },
+    {
+      "id": "ss103-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If the lighting were better, the camera could produce clearer pictures.",
+      "promptZh": "如果光線較好，相機便可以拍攝更清晰的照片。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With better lighting, the camera could produce clearer pictures.",
+      "answerZh": "有較好的光線，相機便可以拍攝更清晰的照片。",
+      "answerZhSource": "pdf",
+      "highlight": "With better lighting, the camera could produce clearer pictures."
+    },
+    {
+      "id": "ss103-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The figures in the report show that costs rose last year.",
+      "promptZh": "報告中的數字顯示，成本在去年有所上升。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the figures in the report, it can be seen that costs rose last year.",
+      "answerZh": "從報告中的數字可以看出，成本在去年有所上升。",
+      "answerZhSource": "pdf",
+      "highlight": "From the figures in the report, it can be seen that costs rose last year."
+    },
+    {
+      "id": "ss103-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The group divided the work into smaller steps. This helped them finish it without feeling overwhelmed.",
+      "promptZh": "小組把工作分成較小的步驟。這幫助他們完成工作，而不會感到不知所措。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By dividing the work into smaller steps, the group finished it without feeling overwhelmed.",
+      "answerZh": "透過把工作分成較小的步驟，小組完成了工作，而沒有感到不知所措。",
+      "answerZhSource": "pdf",
+      "highlight": "By dividing the work into smaller steps, the group finished it without feeling overwhelmed."
+    },
+    {
+      "id": "ss103-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If there were fewer cars on the road, the air would be cleaner.",
+      "promptZh": "如果道路上的車輛較少，空氣便會更加清新。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With fewer cars on the road, the air would be cleaner.",
+      "answerZh": "道路上的車輛較少，空氣便會更加清新。",
+      "answerZhSource": "pdf",
+      "highlight": "With fewer cars on the road, the air would be cleaner."
+    },
+    {
+      "id": "ss103-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The audience's questions showed the speaker that they were interested.",
+      "promptZh": "觀眾提出的問題讓講者知道他們感到有興趣。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From their questions, the speaker could see that the audience was interested.",
+      "answerZh": "從觀眾提出的問題，講者可以看出他們感到有興趣。",
+      "answerZhSource": "pdf",
+      "highlight": "From their questions, the speaker could see that the audience was interested."
+    },
+    {
+      "id": "ss103-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Staff store the files online so that they can access them from different offices.",
+      "promptZh": "職員把檔案儲存在網上，以便從不同辦公室存取檔案。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By storing the files online, staff can access them from different offices.",
+      "answerZh": "透過把檔案儲存在網上，職員可以從不同辦公室存取檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "By storing the files online, staff can access them from different offices."
+    },
+    {
+      "id": "ss103-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the deadline was clear, everyone knew when the work had to be completed.",
+      "promptZh": "由於限期十分清楚，所有人都知道必須在何時完成工作。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With a clear deadline, everyone knew when the work had to be completed.",
+      "answerZh": "有限期清楚列明，所有人都知道必須在何時完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "With a clear deadline, everyone knew when the work had to be completed."
+    },
+    {
+      "id": "ss103-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager had dealt with similar delays before, so he knew that the delivery might be late.",
+      "promptZh": "經理以前曾處理類似的延誤，因此知道這次送貨也可能會遲到。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From previous experience, the manager knew that the delivery might be delayed.",
+      "answerZh": "根據過往經驗，經理知道這次送貨可能會延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "From previous experience, the manager knew that the delivery might be delayed."
+    },
+    {
+      "id": "ss103-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Olivia left a clear message so that her colleague could understand the problem more easily.",
+      "promptZh": "奧莉花留下了清楚的訊息，好讓她的同事更容易了解問題。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By leaving a clear message, Olivia made it easier for her colleague to understand the problem.",
+      "answerZh": "透過留下清楚的訊息，奧莉花讓同事更容易了解問題。",
+      "answerZhSource": "pdf",
+      "highlight": "By leaving a clear message, Olivia made it easier for her colleague to understand the problem."
+    },
+    {
+      "id": "ss103-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If public transport were more reliable, fewer people might need to drive to work.",
+      "promptZh": "如果公共交通更加可靠，可能會有較少人需要駕車上班。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With more reliable public transport, fewer people might need to drive to work.",
+      "answerZh": "如果公共交通更加可靠，可能會有較少人需要駕車上班。",
+      "answerZhSource": "pdf",
+      "highlight": "With more reliable public transport, fewer people might need to drive to work."
+    },
+    {
+      "id": "ss103-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The repeated complaints showed the company that its return process was too confusing.",
+      "promptZh": "重複出現的投訴讓公司知道，其退貨程序過於混亂。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the repeated complaints, the company realised that its return process was too confusing.",
+      "answerZh": "從重複出現的投訴，公司意識到其退貨程序過於混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "From the repeated complaints, the company realised that its return process was too confusing."
+    },
+    {
+      "id": "ss103-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team tested the idea on a small group first. This reduced the risk of an expensive mistake.",
+      "promptZh": "團隊先在一個小組上測試這個想法。這降低了出現昂貴錯誤的風險。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By testing the idea on a small group first, the team reduced the risk of an expensive mistake.",
+      "answerZh": "透過先在一個小組上測試這個想法，團隊降低了出現昂貴錯誤的風險。",
+      "answerZhSource": "pdf",
+      "highlight": "By testing the idea on a small group first, the team reduced the risk of an expensive mistake."
+    },
+    {
+      "id": "ss103-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Parents have access to the online system, so they can check school notices at any time.",
+      "promptZh": "家長可以使用網上系統，因此能夠隨時查閱學校通告。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With access to the online system, parents can check school notices at any time.",
+      "answerZh": "家長可以使用網上系統，因此能夠隨時查閱學校通告。",
+      "answerZhSource": "pdf",
+      "highlight": "With access to the online system, parents can check school notices at any time."
+    },
+    {
+      "id": "ss103-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The changes in the patient's breathing showed the nurse that he was becoming calmer.",
+      "promptZh": "病人呼吸上的變化讓護士知道，他正在逐漸平靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the changes in the patient's breathing, the nurse could tell that he was becoming calmer.",
+      "answerZh": "從病人呼吸上的變化，護士可以看出他正在逐漸平靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "From the changes in the patient's breathing, the nurse could tell that he was becoming calmer."
+    },
+    {
+      "id": "ss103-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager explained the decision step by step so that the staff could understand the reasons behind it.",
+      "promptZh": "經理逐步解釋這項決定，好讓職員明白背後的原因。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By explaining the decision step by step, the manager helped the staff understand the reasons behind it.",
+      "answerZh": "透過逐步解釋這項決定，經理幫助職員明白背後的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "By explaining the decision step by step, the manager helped the staff understand the reasons behind it."
+    },
+    {
+      "id": "ss103-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "If the charity had a larger budget and more staff, it could support more families each month.",
+      "promptZh": "如果慈善機構有更多預算和職員，每月便可以支援更多家庭。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With a larger budget and more staff, the charity could support more families each month.",
+      "answerZh": "有更多預算和職員，慈善機構每月便可以支援更多家庭。",
+      "answerZhSource": "pdf",
+      "highlight": "With a larger budget and more staff, the charity could support more families each month."
+    },
+    {
+      "id": "ss103-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The evidence collected during the investigation shows that the fire started in the kitchen.",
+      "promptZh": "調查期間收集的證據顯示，火警在廚房開始。",
+      "promptZhSource": "pdf",
+      "starter": "From",
+      "answer": "From the evidence collected during the investigation, it can be seen that the fire started in the kitchen.",
+      "answerZh": "從調查期間收集的證據可以看出，火警在廚房開始。",
+      "answerZhSource": "pdf",
+      "highlight": "From the evidence collected during the investigation, it can be seen that the fire started in the kitchen."
+    },
+    {
+      "id": "ss103-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee reviewed both the short-term costs and the long-term benefits. This enabled it to reach a more balanced decision.",
+      "promptZh": "委員會檢視了短期成本和長期利益。這讓委員會能夠作出較平衡的決定。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By reviewing both the short-term costs and the long-term benefits, the committee reached a more balanced decision.",
+      "answerZh": "透過檢視短期成本和長期利益，委員會作出了較平衡的決定。",
+      "answerZhSource": "pdf",
+      "highlight": "By reviewing both the short-term costs and the long-term benefits, the committee reached a more balanced decision."
+    },
+    {
+      "id": "ss103-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If the project team had clearer roles, better communication and regular progress checks, it could respond to problems before they became serious.",
+      "promptZh": "如果項目團隊有更清楚的職責、較良好的溝通和定期進度檢查，便可以在問題變得嚴重前作出應對。",
+      "promptZhSource": "pdf",
+      "starter": "With",
+      "answer": "With clearer roles, better communication and regular progress checks, the project team could respond to problems before they became serious.",
+      "answerZh": "有更清楚的職責、較良好的溝通和定期進度檢查，項目團隊便可以在問題變得嚴重前作出應對。",
+      "answerZhSource": "pdf",
+      "highlight": "With clearer roles, better communication and regular progress checks, the project team could respond to problems before they became serious."
+    }
+  ]
+}

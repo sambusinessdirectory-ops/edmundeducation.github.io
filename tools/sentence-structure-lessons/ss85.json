@@ -1,0 +1,1309 @@
+{
+  "id": "ss85",
+  "order": 85,
+  "slug": "correlative-comparatives-the-more-less",
+  "title": "「The more / less..., the more / less...」關聯句",
+  "titleZh": "「The more / less..., the more / less...」成對比較句",
+  "titleEn": "Correlative Comparative Structure",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 85 - 「The more _ less..., the more _ less...」關聯句.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "The PDF presents the rule and benefit explanations mainly in Traditional Chinese; their English fields are faithful editorial translations."
+    ]
+  },
+  "formula": "The more / less + subject + verb, the more / less + subject + verb.",
+  "formulas": [
+    {
+      "id": "ss85-formula-clause",
+      "labelZh": "子句比較",
+      "labelEn": "Clause comparison",
+      "formula": "The more / less + subject + verb, the more / less + subject + verb."
+    },
+    {
+      "id": "ss85-formula-noun",
+      "labelZh": "名詞比較",
+      "labelEn": "Noun comparison",
+      "formula": "The more / less + noun + subject + verb, the more / less + noun + subject + verb."
+    },
+    {
+      "id": "ss85-formula-adjective",
+      "labelZh": "形容詞比較",
+      "labelEn": "Adjective comparison",
+      "formula": "The more / less + adjective + subject + be / become, the more / less + adjective + subject + be / become."
+    },
+    {
+      "id": "ss85-formula-adverb",
+      "labelZh": "副詞比較",
+      "labelEn": "Adverb comparison",
+      "formula": "The more / less + adverb + subject + verb, the more / less + adverb + subject + verb."
+    }
+  ],
+  "example": "I have always thought that the more I studied, the smarter I could become.",
+  "exampleZh": "我一直認為，我讀得越多，就會變得越聰明。",
+  "examples": [
+    {
+      "id": "ss85-example-main",
+      "en": "I have always thought that the more I studied, the smarter I could become.",
+      "zh": "我一直認為，我讀得越多，就會變得越聰明。",
+      "highlight": "the more I studied, the smarter I could become"
+    },
+    {
+      "id": "ss85-example-more-more",
+      "en": "The more I revise, the more confident I feel.",
+      "zh": "我溫習得越多，就越有信心。",
+      "highlight": "The more I revise, the more confident I feel."
+    },
+    {
+      "id": "ss85-example-more-less",
+      "en": "The more I hurry, the less carefully I work.",
+      "zh": "我越急着完成，工作時就越不仔細。",
+      "highlight": "The more I hurry, the less carefully I work."
+    },
+    {
+      "id": "ss85-example-less-more",
+      "en": "The less time I waste, the more work I finish.",
+      "zh": "我浪費的時間越少，完成的工作就越多。",
+      "highlight": "The less time I waste, the more work I finish."
+    },
+    {
+      "id": "ss85-example-less-less",
+      "en": "The less noise there is, the less distracted I feel.",
+      "zh": "噪音越少，我就越不容易分心。",
+      "highlight": "The less noise there is, the less distracted I feel."
+    }
+  ],
+  "meaning": {
+    "zh": [
+      "The more + X, the more + Y：X 越多／越強，Y 也越多／越強。",
+      "The more + X, the less + Y：X 越多／越強，Y 便越少／越弱。",
+      "The less + X, the more + Y：X 越少／越弱，Y 便越多／越強。",
+      "The less + X, the less + Y：X 越少／越弱，Y 也越少／越弱。"
+    ]
+  },
+  "rules": [
+    {
+      "id": "ss85-rule-01",
+      "zh": "兩部分都要使用 the。在這個句型中，兩項變化前都需要使用 the。",
+      "en": "Use the in both parts. In this structure, the must appear before both changes.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: The more you practise, the more confident you become.",
+        "Incorrect: The more you practise, you become more confident."
+      ]
+    },
+    {
+      "id": "ss85-rule-02",
+      "zh": "這裏的 the 並不是一般冠詞；它表示「變化的程度」。the more 表示「越多／越……」，the less 表示「越少／越不……」。",
+      "en": "Here, the is not an ordinary article; it indicates the degree of change. The more means an increasing amount or degree, while the less means a decreasing amount or degree.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss85-rule-03",
+      "zh": "兩部分之間通常使用逗號。",
+      "en": "A comma is normally used between the two parts.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The less you worry, the more clearly you can think."
+      ]
+    },
+    {
+      "id": "ss85-rule-04",
+      "zh": "more 和 less 可以修飾不同種類的詞語，包括名詞、形容詞和副詞。",
+      "en": "More and less can modify different kinds of words, including nouns, adjectives and adverbs.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Noun: The more water you drink, ...",
+        "Adjective: The more confident you become, ...",
+        "Adverb: The more carefully you listen, ..."
+      ]
+    },
+    {
+      "id": "ss85-rule-05",
+      "zh": "不要重複使用比較形式。smarter 本身已經是 smart 的比較級，因此不需要寫成 more smarter；同樣不要寫 more easier 或 more faster。",
+      "en": "Do not use a double comparative. Smarter is already the comparative form of smart, so do not write more smarter; likewise, avoid more easier and more faster.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Incorrect: more smarter; more easier; more faster",
+        "Correct: smarter; easier; faster"
+      ]
+    },
+    {
+      "id": "ss85-rule-06",
+      "zh": "less 通常修飾程度或不可數名詞，例如 the less time、the less water、the less stress 和 the less difficult。可數複數名詞一般使用 fewer，例如 fewer mistakes；本練習集中訓練 more 和 less 四種主要組合，因此題目會避免要求學生使用 fewer。",
+      "en": "Less normally modifies a degree or an uncountable noun, as in the less time, the less water, the less stress and the less difficult. Plural countable nouns generally take fewer, as in fewer mistakes; this exercise focuses on the four main more and less combinations and therefore avoids items requiring fewer.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss85-rule-07",
+      "zh": "時態和情態動詞可以改變。改寫時，必須保留原句的時態、可能性和語氣。",
+      "en": "Tense and modal verbs may vary. When rewriting, preserve the original tense, possibility and tone.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The more I practised, the more confident I became.",
+        "The less support workers receive, the more anxious they may feel."
+      ]
+    },
+    {
+      "id": "ss85-rule-08",
+      "zh": "句型可以放在 think、believe、notice 等說法之後；前面的說法必須保留，不可只寫後面的比較部分。",
+      "en": "The structure can follow expressions such as think, believe and notice. Keep the introductory expression rather than writing only the comparative part.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I believe that the less we complain, the more energy we have."
+      ]
+    },
+    {
+      "id": "ss85-rule-09",
+      "zh": "這個句型表達兩項互相關連的變化。它可以描述一般規律、生活經驗、趨勢或可能出現的結果，但不一定表示百分之百必然發生。",
+      "en": "This structure expresses two related changes. It can describe general patterns, life experience, trends or possible results, but it does not necessarily claim that the result is certain.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss85-benefit-01",
+      "zh": "清楚表達兩項同時改變的事情。這個句型能讓讀者立即看出：當第一項事情增加或減少時，第二項事情會怎樣改變。",
+      "en": "It clearly expresses two things changing together. Readers can immediately see how the second change relates to an increase or decrease in the first.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The less sleep you get, the more tired you feel."
+      ]
+    },
+    {
+      "id": "ss85-benefit-02",
+      "zh": "把較長的解釋連成一句。The more students practise, the more confident they become. 直接把兩項變化放在一起，兩者之間的關係更加明顯。",
+      "en": "It joins a longer explanation into one sentence. The correlative version places both changes together and makes their relationship clearer.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Ordinary: When students practise more, they become more confident.",
+        "Target: The more students practise, the more confident they become."
+      ]
+    },
+    {
+      "id": "ss85-benefit-03",
+      "zh": "適合解釋習慣、趨勢和因果關係。你可以用這個句型談論學習、健康、工作、科技和社會情況。",
+      "en": "It is suitable for explaining habits, trends and cause-and-effect relationships in learning, health, work, technology and society.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The more carefully a company plans, the fewer problems it usually faces."
+      ]
+    },
+    {
+      "id": "ss85-benefit-04",
+      "zh": "幫助組織較深入的觀點。在作文、報告或討論中，這個句型能把「一項改變」和「相關結果」有條理地連接起來，而不需要分成多句解釋。",
+      "en": "It helps organise a more developed idea by connecting a change and its related result clearly in an essay, report or discussion without requiring several separate sentences.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss85-benefit-05",
+      "zh": "提供一個容易使用的口語框架。說話時，可以先使用 The more..., the more... 或 The less..., the more...，然後加入自己的內容，從而更快組織答案。",
+      "en": "It provides an easy speaking frame. Begin with The more..., the more... or The less..., the more..., then add your own content to organise an answer more quickly.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss85-benefit-06",
+      "zh": "增加句式變化。你不需要每次都使用 when、if、because 或 as；這個句型提供另一種自然的表達方式，令說話和寫作不會顯得過分重複。",
+      "en": "It adds sentence variety. You do not need to rely every time on when, if, because or as, so speaking and writing sound less repetitive.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English rule and benefit explanations are faithful editorial translations because the PDF supplies those teaching explanations mainly in Traditional Chinese."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using one of the four “the more / less..., the more / less...” patterns.",
+      "Preserve the original meaning, tense and degree of certainty.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用四種「the more / less..., the more / less...」句型之一改寫以下句子。",
+      "請保留原句的意思、時態和肯定程度。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss85-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When you read more, you learn more words.",
+      "promptZh": "當你閱讀得更多時，你會學到更多詞彙。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more you read, the more words you learn.",
+      "answerZh": "你閱讀得越多，學到的詞彙就越多。",
+      "answerZhSource": "pdf",
+      "highlight": "The more you read, the more words you learn."
+    },
+    {
+      "id": "ss85-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As Mia practises the piano more often, she becomes more confident.",
+      "promptZh": "隨着米婭更常練習鋼琴，她變得更有信心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more often Mia practises the piano, the more confident she becomes.",
+      "answerZh": "米婭越常練習鋼琴，就變得越有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "The more often Mia practises the piano, the more confident she becomes."
+    },
+    {
+      "id": "ss85-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When I drink more water, I feel less thirsty.",
+      "promptZh": "當我喝更多水時，我便不會那麼口渴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more water I drink, the less thirsty I feel.",
+      "answerZh": "我喝的水越多，就越不口渴。",
+      "answerZhSource": "pdf",
+      "highlight": "The more water I drink, the less thirsty I feel."
+    },
+    {
+      "id": "ss85-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "When Tom sleeps less, he feels more tired the next day.",
+      "promptZh": "當湯姆睡得較少時，他第二天會感到更疲倦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less Tom sleeps, the more tired he feels the next day.",
+      "answerZh": "湯姆睡得越少，第二天就越疲倦。",
+      "answerZhSource": "pdf",
+      "highlight": "The less Tom sleeps, the more tired he feels the next day."
+    },
+    {
+      "id": "ss85-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As we eat less sugar, our diet becomes more balanced.",
+      "promptZh": "隨着我們少吃糖，飲食會變得更均衡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less sugar we eat, the more balanced our diet becomes.",
+      "answerZh": "我們吃的糖越少，飲食就越均衡。",
+      "answerZhSource": "pdf",
+      "highlight": "The less sugar we eat, the more balanced our diet becomes."
+    },
+    {
+      "id": "ss85-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you listen more carefully, you remember more information.",
+      "promptZh": "如果你聽得更仔細，便會記得更多資料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more carefully you listen, the more information you remember.",
+      "answerZh": "你聽得越仔細，記得的資料就越多。",
+      "answerZhSource": "pdf",
+      "highlight": "The more carefully you listen, the more information you remember."
+    },
+    {
+      "id": "ss85-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Lily feels less stressed when she spends more time outdoors.",
+      "promptZh": "莉莉在戶外逗留更長時間時，會感到較少壓力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more time Lily spends outdoors, the less stressed she feels.",
+      "answerZh": "莉莉在戶外逗留的時間越長，感到的壓力就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The more time Lily spends outdoors, the less stressed she feels."
+    },
+    {
+      "id": "ss85-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben becomes more focused when he checks his phone less often.",
+      "promptZh": "本較少查看手機時，會變得更加專注。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less often Ben checks his phone, the more focused he becomes.",
+      "answerZh": "本查看手機的次數越少，就變得越專注。",
+      "answerZhSource": "pdf",
+      "highlight": "The less often Ben checks his phone, the more focused he becomes."
+    },
+    {
+      "id": "ss85-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If we waste less food, we produce less rubbish.",
+      "promptZh": "如果我們浪費較少食物，便會製造較少垃圾。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less food we waste, the less rubbish we produce.",
+      "answerZh": "我們浪費的食物越少，製造的垃圾就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The less food we waste, the less rubbish we produce."
+    },
+    {
+      "id": "ss85-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I have noticed that when I revise more, I feel more prepared.",
+      "promptZh": "我留意到，當我溫習得更多時，便會覺得準備得更充分。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have noticed that the more I revise, the more prepared I feel.",
+      "answerZh": "我留意到，我溫習得越多，就越覺得準備充分。",
+      "answerZhSource": "pdf",
+      "highlight": "I have noticed that the more I revise, the more prepared I feel."
+    },
+    {
+      "id": "ss85-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Plants grow more quickly when they receive more sunlight.",
+      "promptZh": "植物得到更多陽光時，會生長得更快。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more sunlight the plants receive, the more quickly they grow.",
+      "answerZh": "植物得到的陽光越多，生長得就越快。",
+      "answerZhSource": "pdf",
+      "highlight": "The more sunlight the plants receive, the more quickly they grow."
+    },
+    {
+      "id": "ss85-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The journey feels less comfortable as the bus becomes more crowded.",
+      "promptZh": "隨着巴士變得更擠迫，車程會令人感到較不舒服。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more crowded the bus becomes, the less comfortable the journey feels.",
+      "answerZh": "巴士越擠迫，車程就越不舒服。",
+      "answerZhSource": "pdf",
+      "highlight": "The more crowded the bus becomes, the less comfortable the journey feels."
+    },
+    {
+      "id": "ss85-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ava can save more money if she spends less on snacks.",
+      "promptZh": "如果艾娃少花錢買零食，她便可以儲起更多金錢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less money Ava spends on snacks, the more money she can save.",
+      "answerZh": "艾娃花在零食上的金錢越少，能儲起的金錢就越多。",
+      "answerZhSource": "pdf",
+      "highlight": "The less money Ava spends on snacks, the more money she can save."
+    },
+    {
+      "id": "ss85-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our journey takes less time when there is less traffic.",
+      "promptZh": "交通較少時，我們的車程所需時間也較短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less traffic there is, the less time our journey takes.",
+      "answerZh": "交通越少，我們的車程所需時間就越短。",
+      "answerZhSource": "pdf",
+      "highlight": "The less traffic there is, the less time our journey takes."
+    },
+    {
+      "id": "ss85-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our teacher says that asking more questions helps us understand the lesson more clearly.",
+      "promptZh": "老師說，提出更多問題有助我們更清楚地理解課堂內容。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher says that the more questions we ask, the more clearly we understand the lesson.",
+      "answerZh": "老師說，我們提出的問題越多，就越能清楚理解課堂內容。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher says that the more questions we ask, the more clearly we understand the lesson."
+    },
+    {
+      "id": "ss85-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel's back feels less stiff when he does more exercise.",
+      "promptZh": "丹尼爾做更多運動時，背部會感到較不僵硬。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more exercise Daniel does, the less stiff his back feels.",
+      "answerZh": "丹尼爾做的運動越多，背部就越不僵硬。",
+      "answerZhSource": "pdf",
+      "highlight": "The more exercise Daniel does, the less stiff his back feels."
+    },
+    {
+      "id": "ss85-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "People who spend less time planning usually make more mistakes.",
+      "promptZh": "花較少時間規劃的人，通常會犯更多錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less time people spend planning, the more mistakes they make.",
+      "answerZh": "人們花在規劃上的時間越少，犯的錯誤就越多。",
+      "answerZhSource": "pdf",
+      "highlight": "The less time people spend planning, the more mistakes they make."
+    },
+    {
+      "id": "ss85-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Children with less screen time before bed usually feel less restless at bedtime.",
+      "promptZh": "睡前使用螢幕時間較少的兒童，臨睡時通常較少感到焦躁。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less screen time children have before bed, the less restless they feel.",
+      "answerZh": "兒童睡前使用螢幕的時間越少，便越少感到焦躁。",
+      "answerZhSource": "pdf",
+      "highlight": "The less screen time children have before bed, the less restless they feel."
+    },
+    {
+      "id": "ss85-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "More organised notes reduce the time you need to find information.",
+      "promptZh": "筆記越有條理，尋找資料所需的時間便會減少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more organised your notes are, the less time you need to find information.",
+      "answerZh": "你的筆記越有條理，尋找資料所需的時間就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The more organised your notes are, the less time you need to find information."
+    },
+    {
+      "id": "ss85-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "I believe that when we complain less, we have more energy to solve problems.",
+      "promptZh": "我相信，當我們少一點抱怨時，便有更多精力解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I believe that the less we complain, the more energy we have to solve problems.",
+      "answerZh": "我相信，我們抱怨得越少，就有越多精力解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I believe that the less we complain, the more energy we have to solve problems."
+    },
+    {
+      "id": "ss85-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The chef gets more consistent results when she measures the ingredients more carefully.",
+      "promptZh": "廚師更仔細地量度材料時，做出來的效果會更加穩定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more carefully the chef measures the ingredients, the more consistent her results become.",
+      "answerZh": "廚師量度材料時越仔細，做出來的效果就越穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "The more carefully the chef measures the ingredients, the more consistent her results become."
+    },
+    {
+      "id": "ss85-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Users have less privacy when a website collects more information.",
+      "promptZh": "網站收集更多資料時，使用者擁有的私隱會減少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more information a website collects, the less privacy its users have.",
+      "answerZh": "網站收集的資料越多，使用者擁有的私隱就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The more information a website collects, the less privacy its users have."
+    },
+    {
+      "id": "ss85-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A machine is more likely to break down if it is maintained less often.",
+      "promptZh": "如果機器較少接受保養，便更容易發生故障。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less often a machine is maintained, the more likely it is to break down.",
+      "answerZh": "機器接受保養的次數越少，就越容易發生故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The less often a machine is maintained, the more likely it is to break down."
+    },
+    {
+      "id": "ss85-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company spends less money on electricity when the building uses less energy.",
+      "promptZh": "大樓使用較少能源時，公司花在電力上的金錢也會減少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less energy the building uses, the less money the company spends on electricity.",
+      "answerZh": "大樓使用的能源越少，公司花在電力上的金錢就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The less energy the building uses, the less money the company spends on electricity."
+    },
+    {
+      "id": "ss85-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The manager found that when she explained the task more clearly, the team worked more efficiently.",
+      "promptZh": "經理發現，當她更清楚地解釋任務時，團隊的工作效率會更高。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager found that the more clearly she explained the task, the more efficiently the team worked.",
+      "answerZh": "經理發現，她越清楚地解釋任務，團隊的工作效率就越高。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager found that the more clearly she explained the task, the more efficiently the team worked."
+    },
+    {
+      "id": "ss85-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The city produces less air pollution when people use public transport more.",
+      "promptZh": "市民更常使用公共交通工具時，城市產生的空氣污染會減少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more public transport people use, the less air pollution the city produces.",
+      "answerZh": "人們使用公共交通工具越多，城市產生的空氣污染就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The more public transport people use, the less air pollution the city produces."
+    },
+    {
+      "id": "ss85-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "New workers may feel more anxious when they receive less support.",
+      "promptZh": "新入職員工得到較少支援時，可能會感到更加焦慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less support new workers receive, the more anxious they may feel.",
+      "answerZh": "新入職員工得到的支援越少，就可能越感到焦慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The less support new workers receive, the more anxious they may feel."
+    },
+    {
+      "id": "ss85-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A product creates less waste if it has less packaging.",
+      "promptZh": "如果產品使用較少包裝，便會產生較少廢物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less packaging a product has, the less waste it creates.",
+      "answerZh": "產品的包裝越少，產生的廢物就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The less packaging a product has, the less waste it creates."
+    },
+    {
+      "id": "ss85-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A customer is more willing to listen when you respond to a complaint more calmly.",
+      "promptZh": "當你更冷靜地回應投訴時，顧客會更願意聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more calmly you respond to a complaint, the more willing a customer is to listen.",
+      "answerZh": "你回應投訴時越冷靜，顧客就越願意聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "The more calmly you respond to a complaint, the more willing a customer is to listen."
+    },
+    {
+      "id": "ss85-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Researchers have found that teenagers find it more difficult to concentrate when they get less sleep.",
+      "promptZh": "研究人員發現，青少年睡得較少時，會更難集中精神。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers have found that the less sleep teenagers get, the more difficult it is for them to concentrate.",
+      "answerZh": "研究人員發現，青少年睡得越少，就越難集中精神。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers have found that the less sleep teenagers get, the more difficult it is for them to concentrate."
+    },
+    {
+      "id": "ss85-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A menu with more choices may make it more difficult for customers to decide.",
+      "promptZh": "菜單提供更多選擇，可能會令顧客更難作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more choices a menu offers, the more difficult it may be for customers to decide.",
+      "answerZh": "菜單提供的選擇越多，顧客可能就越難作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The more choices a menu offers, the more difficult it may be for customers to decide."
+    },
+    {
+      "id": "ss85-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A more accurate weather forecast makes travellers less likely to be caught unprepared.",
+      "promptZh": "更準確的天氣預報會令旅客較不容易措手不及。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more accurate the weather forecast is, the less likely travellers are to be caught unprepared.",
+      "answerZh": "天氣預報越準確，旅客就越不容易措手不及。",
+      "answerZhSource": "pdf",
+      "highlight": "The more accurate the weather forecast is, the less likely travellers are to be caught unprepared."
+    },
+    {
+      "id": "ss85-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Keeping patients waiting for less time tends to make them more satisfied.",
+      "promptZh": "縮短病人的等候時間，通常會令他們更加滿意。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less time a hospital keeps patients waiting, the more satisfied they tend to be.",
+      "answerZh": "醫院讓病人等候的時間越短，他們通常就越滿意。",
+      "answerZhSource": "pdf",
+      "highlight": "The less time a hospital keeps patients waiting, the more satisfied they tend to be."
+    },
+    {
+      "id": "ss85-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An office needs less storage space when it uses less paper.",
+      "promptZh": "辦公室使用較少紙張時，所需的儲存空間也較少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less paper an office uses, the less storage space it needs.",
+      "answerZh": "辦公室使用的紙張越少，所需的儲存空間就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The less paper an office uses, the less storage space it needs."
+    },
+    {
+      "id": "ss85-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I have learnt that people can solve a problem more quickly when they discuss it more honestly.",
+      "promptZh": "我明白到，人們越坦誠地討論問題，便越能迅速解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have learnt that the more honestly people discuss a problem, the more quickly they can solve it.",
+      "answerZh": "我明白到，人們討論問題時越坦誠，就越能迅速解決問題。",
+      "answerZhSource": "pdf",
+      "highlight": "I have learnt that the more honestly people discuss a problem, the more quickly they can solve it."
+    },
+    {
+      "id": "ss85-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A more detailed online form makes some users less likely to complete it.",
+      "promptZh": "網上表格越詳細，部分使用者完成表格的可能性便越低。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more detailed an online form is, the less likely some users are to complete it.",
+      "answerZh": "網上表格越詳細，部分使用者完成它的可能性就越低。",
+      "answerZhSource": "pdf",
+      "highlight": "The more detailed an online form is, the less likely some users are to complete it."
+    },
+    {
+      "id": "ss85-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Changing its plan less frequently allows a team to work more steadily.",
+      "promptZh": "較少更改計劃，可讓團隊工作得更加穩定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less frequently a team changes its plan, the more steadily it can work.",
+      "answerZh": "團隊更改計劃的次數越少，工作就可以越穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "The less frequently a team changes its plan, the more steadily it can work."
+    },
+    {
+      "id": "ss85-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A refrigerator needs less electricity when less cold air escapes from it.",
+      "promptZh": "雪櫃流失較少冷空氣時，所需的電力也較少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less cold air a refrigerator loses, the less electricity it needs.",
+      "answerZh": "雪櫃流失的冷空氣越少，所需的電力就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The less cold air a refrigerator loses, the less electricity it needs."
+    },
+    {
+      "id": "ss85-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Students become less dependent when teachers control every step less closely.",
+      "promptZh": "老師較少緊密控制每一個步驟時，學生會變得較少依賴別人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less closely teachers control every step, the less dependent students become.",
+      "answerZh": "老師控制每一個步驟的程度越低，學生就越少依賴別人。",
+      "answerZhSource": "pdf",
+      "highlight": "The less closely teachers control every step, the less dependent students become."
+    },
+    {
+      "id": "ss85-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Experts warn that older adults may lose strength more easily when they do less exercise.",
+      "promptZh": "專家警告，年長人士做較少運動時，可能會更容易失去體力。",
+      "promptZhSource": "pdf",
+      "starter": "Experts",
+      "answer": "Experts warn that the less exercise older adults do, the more easily they may lose strength.",
+      "answerZh": "專家警告，年長人士做的運動越少，就可能越容易失去體力。",
+      "answerZhSource": "pdf",
+      "highlight": "Experts warn that the less exercise older adults do, the more easily they may lose strength."
+    },
+    {
+      "id": "ss85-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A school's more careful explanation of its rules is likely to reduce parents' confusion.",
+      "promptZh": "學校更仔細地解釋規則，可能會減少家長的疑惑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more carefully a school explains its rules, the less confusion parents are likely to experience.",
+      "answerZh": "學校越仔細地解釋規則，家長可能感到的疑惑就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The more carefully a school explains its rules, the less confusion parents are likely to experience."
+    },
+    {
+      "id": "ss85-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Checking a building's emergency equipment less often makes the building less safe.",
+      "promptZh": "較少檢查大樓的緊急設備，會令大樓變得較不安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less often a building's emergency equipment is checked, the less safe the building becomes.",
+      "answerZh": "大樓的緊急設備越少接受檢查，大樓就越不安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The less often a building's emergency equipment is checked, the less safe the building becomes."
+    },
+    {
+      "id": "ss85-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A report with less unnecessary information is likely to leave readers less confused.",
+      "promptZh": "報告包含較少不必要的資料，讀者便可能較少感到困惑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less unnecessary information a report contains, the less confused readers are likely to feel.",
+      "answerZh": "報告包含的不必要資料越少，讀者就越不容易感到困惑。",
+      "answerZhSource": "pdf",
+      "highlight": "The less unnecessary information a report contains, the less confused readers are likely to feel."
+    },
+    {
+      "id": "ss85-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Some employees may spend less time travelling during busy periods when working hours become more flexible.",
+      "promptZh": "工作時間變得更有彈性時，部分員工在繁忙時段花在交通上的時間可能會減少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more flexible working hours become, the less time some employees may spend travelling during busy periods.",
+      "answerZh": "工作時間越有彈性，部分員工在繁忙時段花在交通上的時間可能就越少。",
+      "answerZhSource": "pdf",
+      "highlight": "The more flexible working hours become, the less time some employees may spend travelling during busy periods."
+    },
+    {
+      "id": "ss85-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When managers place less pressure on staff, small mistakes are less likely to be hidden.",
+      "promptZh": "當經理向員工施加較少壓力時，小錯誤便較不容易被隱瞞。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less pressure managers place on staff, the less likely small mistakes are to be hidden.",
+      "answerZh": "經理向員工施加的壓力越少，小錯誤就越不容易被隱瞞。",
+      "answerZhSource": "pdf",
+      "highlight": "The less pressure managers place on staff, the less likely small mistakes are to be hidden."
+    },
+    {
+      "id": "ss85-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "When a community discusses local problems more openly, residents may develop more trust in one another.",
+      "promptZh": "當社區更公開地討論本地問題時，居民彼此之間可能會建立更多信任。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more openly a community discusses local problems, the more trust residents may develop in one another.",
+      "answerZh": "社區越公開地討論本地問題，居民彼此之間可能建立的信任就越多。",
+      "answerZhSource": "pdf",
+      "highlight": "The more openly a community discusses local problems, the more trust residents may develop in one another."
+    },
+    {
+      "id": "ss85-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Studies suggest that less time spent comparing themselves with others online may leave young people less dissatisfied with their own lives.",
+      "promptZh": "研究顯示，年輕人若較少花時間在網上與他人比較，可能會較少對自己的生活感到不滿。",
+      "promptZhSource": "pdf",
+      "starter": "Studies",
+      "answer": "Studies suggest that the less time young people spend comparing themselves with others online, the less dissatisfied they may feel with their own lives.",
+      "answerZh": "研究顯示，年輕人花在網上與他人比較的時間越少，就可能越少對自己的生活感到不滿。",
+      "answerZhSource": "pdf",
+      "highlight": "Studies suggest that the less time young people spend comparing themselves with others online, the less dissatisfied they may feel with their own lives."
+    },
+    {
+      "id": "ss85-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The same problem is less likely to be ignored when a public service records complaints more carefully.",
+      "promptZh": "公共服務機構更仔細地記錄投訴時，同一問題便較不容易被忽視。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The more carefully a public service records complaints, the less likely the same problem is to be ignored.",
+      "answerZh": "公共服務機構記錄投訴時越仔細，同一問題就越不容易被忽視。",
+      "answerZhSource": "pdf",
+      "highlight": "The more carefully a public service records complaints, the less likely the same problem is to be ignored."
+    },
+    {
+      "id": "ss85-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "People are more willing to complete an application correctly when the process is less complicated.",
+      "promptZh": "申請程序較不複雜時，人們會更願意正確完成申請。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The less complicated an application process is, the more willing people are to complete it correctly.",
+      "answerZh": "申請程序越不複雜，人們就越願意正確完成申請。",
+      "answerZhSource": "pdf",
+      "highlight": "The less complicated an application process is, the more willing people are to complete it correctly."
+    },
+    {
+      "id": "ss85-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I have come to believe that examining more evidence should make us less certain about simple answers.",
+      "promptZh": "我逐漸相信，審視更多證據應該令我們對簡單答案較不肯定。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I have come to believe that the more evidence we examine, the less certain we should be about simple answers.",
+      "answerZh": "我逐漸相信，我們審視的證據越多，就越不應對簡單答案過分肯定。",
+      "answerZhSource": "pdf",
+      "highlight": "I have come to believe that the more evidence we examine, the less certain we should be about simple answers."
+    }
+  ]
+}

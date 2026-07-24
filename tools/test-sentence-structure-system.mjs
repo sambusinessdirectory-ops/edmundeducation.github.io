@@ -21,7 +21,7 @@ const [
   correctionMigration,
   lessonMigration
 ] = await Promise.all([
-  read("sentence-structure-lessons-5-70.js"),
+  read("sentence-structure-lessons-5-114.js"),
   read("sentence-structure-data.js"),
   read("sentence-structure.js"),
   read("sentence-structure.html"),
@@ -30,7 +30,7 @@ const [
   read("workers/sentence-structure/src/index.js"),
   read("supabase-sentence-structure.sql"),
   read("supabase-sentence-structure-correction-state.sql"),
-  read("supabase-sentence-structure-lessons-40-70.sql")
+  read("supabase-sentence-structure-lessons-71-114.sql")
 ]);
 
 const tests = [];
@@ -41,7 +41,7 @@ const normalText = (value) => String(value ?? "").trim();
 function loadContent() {
   const sandbox = { window: {} };
   vm.createContext(sandbox);
-  vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-70.js" });
+  vm.runInContext(expansionSource, sandbox, { filename: "sentence-structure-lessons-5-114.js" });
   vm.runInContext(dataSource, sandbox, { filename: "sentence-structure-data.js" });
   return sandbox.window.EDMUND_SENTENCE_STRUCTURE_DATA;
 }
@@ -50,7 +50,7 @@ const content = loadContent();
 const lessons = content.lessons;
 const allQuestions = lessons.flatMap((lesson) => lesson.questions);
 const importedLessonSources = await Promise.all(
-  Array.from({ length: 66 }, (_, index) => index + 5)
+  Array.from({ length: 110 }, (_, index) => index + 5)
     .map(async (number) => JSON.parse(
       await read(`tools/sentence-structure-lessons/ss${String(number).padStart(2, "0")}.json`)
     ))
@@ -254,24 +254,24 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   };
 }
 
-test("data contract contains 70 complete 50-question lessons", () => {
+test("data contract contains 114 complete 50-question lessons", () => {
   assert.ok(Object.isFrozen(content), "top-level content should be immutable");
   assert.equal(content.version, 1);
-  const expectedIds = Array.from({ length: 70 }, (_, index) => `ss${index + 1}`);
+  const expectedIds = Array.from({ length: 114 }, (_, index) => `ss${index + 1}`);
   assert.equal(lessons.length, expectedIds.length);
   assert.deepEqual(Array.from(lessons, (lesson) => lesson.id), expectedIds);
   assert.deepEqual(
     Array.from(lessons, (lesson) => lesson.questions.length),
     Array.from({ length: expectedIds.length }, () => 50)
   );
-  assert.equal(allQuestions.length, 3500);
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 3500);
+  assert.equal(allQuestions.length, 5700);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 5700);
   assert.equal(new Set(lessons.map((lesson) => lesson.source.file)).size, expectedIds.length);
   assert.ok(lessons.every((lesson) => lesson.source.file.endsWith(".pdf")));
   assert.deepEqual(
     JSON.parse(JSON.stringify(lessons.slice(4))),
     importedLessonSources,
-    "the public expansion bundle must match its 66 auditable JSON sources"
+    "the public expansion bundle must match its 110 auditable JSON sources"
   );
 });
 
@@ -288,9 +288,9 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   assert.match(supabaseSchema, /v_key_count not in \(6, 9\)/, "Supabase must accept legacy and correction-state results");
   assert.match(frontendSource, /rounds: state\.exercise\.rounds\.slice\(-250\)/, "client history must respect the server round limit");
   assert.match(frontendSource, /maxlength="1000"[^>]+data-answer-input=/, "answer inputs must respect the server answer limit");
-  assert.match(frontendSource, /const MAX_BOOKMARKS = 4000;/, "frontend bookmark capacity must cover the expanded corpus");
-  assert.match(workerSource, /const MAX_BOOKMARKS = 4000;/, "Worker bookmark capacity must match the frontend");
-  assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 4000/, "Supabase bookmark capacity must match the frontend");
+  assert.match(frontendSource, /const MAX_BOOKMARKS = 6000;/, "frontend bookmark capacity must cover the expanded corpus");
+  assert.match(workerSource, /const MAX_BOOKMARKS = 6000;/, "Worker bookmark capacity must match the frontend");
+  assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 6000/, "Supabase bookmark capacity must match the frontend");
   assert.match(supabaseSchema, /octet_length\(p_bookmarks::text\) > 524288/, "Supabase bookmark payload size must cover the expanded corpus");
 
   const functionSql = (source, functionName) => {
@@ -328,11 +328,11 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   }
   assert.match(
     lessonMigration,
-    /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-6\]\[0-9\]\|70\)\$'\)/
+    /sentence_structure_attempts_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|10\[0-9\]\|11\[0-4\]\)\$'\)/
   );
   assert.match(
     lessonMigration,
-    /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-6\]\[0-9\]\|70\)\$'\)/
+    /sentence_structure_bookmarks_lesson_id_check[\s\S]+check \(lesson_id ~ '\^ss\(\[1-9\]\|\[1-9\]\[0-9\]\|10\[0-9\]\|11\[0-4\]\)\$'\)/
   );
   assert.match(workerSource, /const BOOKMARK_PAGE_SIZE = 900;/);
   assert.ok(workerSource.includes("sentence_structure_list_bookmarks_page"));
@@ -354,12 +354,27 @@ test("every question preserves the bilingual exercise and answer contract", () =
 
     const promptKeys = new Set();
     const answerKeys = new Set();
+    const answerOwners = new Map();
     const highlights = new Set();
     lesson.questions.forEach((question, index) => {
       assert.equal(question.number, index + 1, `${question.id}: numbering`);
       for (const field of requiredText) assert.ok(normalText(question[field]), `${question.id}: missing ${field}`);
       assert.ok(question.answer.toLocaleLowerCase().startsWith(question.starter.toLocaleLowerCase()), `${question.id}: starter does not prefix answer`);
       assert.equal(occurrences(question.answer.toLocaleLowerCase(), question.highlight.toLocaleLowerCase()), 1, `${question.id}: highlight must occur exactly once`);
+      if (
+        question.cue !== undefined
+        || question.cueSource !== undefined
+        || question.source?.cuePage !== undefined
+      ) {
+        assert.ok(normalText(question.cue), `${question.id}: missing cue`);
+        assert.equal(question.cueSource, "pdf", `${question.id}: cueSource must be pdf`);
+        assert.ok(
+          Number.isInteger(question.source?.cuePage)
+            && question.source.cuePage >= 1
+            && question.source.cuePage <= lesson.source.pageCount,
+          `${question.id}: invalid cuePage`
+        );
+      }
       if (question.answerParts !== undefined) {
         assert.ok(Array.isArray(question.answerParts) && question.answerParts.length >= 2, `${question.id}: invalid answerParts`);
         for (const part of question.answerParts) {
@@ -382,10 +397,23 @@ test("every question preserves the bilingual exercise and answer contract", () =
       const promptKey = `${question.prompt}\u0000${question.promptZh}`;
       const answerKey = `${question.answer}\u0000${question.answerZh}`;
       assert.ok(!promptKeys.has(promptKey), `${lesson.id}: duplicate prompt`);
-      assert.ok(!answerKeys.has(answerKey), `${lesson.id}: duplicate answer`);
+      if (answerKeys.has(answerKey)) {
+        assert.equal(
+          question.duplicateAnswerOf,
+          answerOwners.get(answerKey),
+          `${question.id}: duplicate answer must link to its source-identical predecessor`
+        );
+      } else {
+        assert.equal(
+          question.duplicateAnswerOf,
+          undefined,
+          `${question.id}: duplicateAnswerOf requires a duplicate bilingual answer`
+        );
+      }
       assert.ok(!highlights.has(question.highlight), `${lesson.id}: duplicate target highlight`);
       promptKeys.add(promptKey);
       answerKeys.add(answerKey);
+      if (!answerOwners.has(answerKey)) answerOwners.set(answerKey, question.id);
       highlights.add(question.highlight);
     });
   }
@@ -414,9 +442,9 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(html, /data-bookmark-list/);
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
-  assert.match(html, /data-lesson-count>70</);
+  assert.match(html, /data-lesson-count>114</);
   const configAt = html.indexOf('src="sentence-structure-config.js"');
-  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-70.js');
+  const expansionAt = html.indexOf('src="sentence-structure-lessons-5-114.js');
   const dataAt = html.indexOf('src="sentence-structure-data.js');
   const appAt = html.indexOf('type="module" src="sentence-structure.js');
   assert.ok(
@@ -564,6 +592,19 @@ test("four lesson pages render in order and answers stay secret before submit", 
   assert.equal(typeof evenLesson.meaning.zh, "string");
   assert.match(sut.elements.lessonContent.innerHTML, /MEANING · 句型意思/);
   assert.ok(sut.elements.lessonContent.innerHTML.includes(evenLesson.meaning.zh));
+
+  const cueLesson = sut.getLesson("ss96");
+  assert.equal(cueLesson.questions.filter((question) => question.cue).length, 50);
+  sut.openLesson("ss96", {
+    page: 4,
+    attempt: {
+      ...attempt,
+      id: "96000000-0000-4000-8000-000000000096",
+      lessonId: "ss96"
+    }
+  });
+  assert.equal((sut.elements.lessonContent.innerHTML.match(/class="question-cue"/g) || []).length, 50);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(cueLesson.questions[0].cue));
 });
 
 test("partial submit checks only filled answers, reveals targets, and preserves the next round", async () => {
@@ -850,6 +891,11 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   sut.state.currentView = "dashboard";
   sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
   sut.state.authToken = "student-token";
+  const cueQuestion = sut.getQuestion("ss96", "ss96-q01");
+  sut.state.bookmarks = [{ lessonId: "ss96", questionId: cueQuestion.id, includeAnswer: false, createdAt: "" }];
+  sut.renderBookmarks();
+  assert.ok(sut.elements.bookmarkList.innerHTML.includes(cueQuestion.cue));
+
   sut.state.bookmarks = [{ lessonId: "ss1", questionId: question.id, includeAnswer: false, createdAt: "" }];
   sut.renderBookmarks();
   assert.ok(sut.elements.bookmarkList.innerHTML.includes(question.prompt));
@@ -879,7 +925,7 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   }));
   await sut.toggleBookmark("ss1", "ss1-q02");
   assert.equal(sut.state.bookmarks.length, sut.MAX_BOOKMARKS);
-  assert.match(sut.elements.toast.textContent, /最多可儲存 4000 個書簽/);
+  assert.match(sut.elements.toast.textContent, /最多可儲存 6000 個書簽/);
 });
 
 test("attempt history is expandable and only unfinished attempts can resume", () => {

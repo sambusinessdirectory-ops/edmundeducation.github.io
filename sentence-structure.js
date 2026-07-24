@@ -3,7 +3,7 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || { version: "missing", lessons: [] };
 
 const SESSION_KEY = "edmund-sentence-structure-session-v1";
-const MAX_BOOKMARKS = 4000;
+const MAX_BOOKMARKS = 6000;
 const LESSON_PAGES = 4;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
@@ -833,6 +833,7 @@ function questionHtml(question) {
       <div class="question-prompt">
         <p class="english">${escapeHtml(question.prompt || question.english || "")}</p>
         <p class="chinese">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
+        ${question.cue ? `<p class="question-cue">${escapeHtml(question.cue)}</p>` : ""}
         ${!answerParts.length && question.starter ? `<p class="starter-hint">請以「${escapeHtml(question.starter)}」開始。</p>` : ""}
       </div>
       ${answerParts.length ? `<div class="multi-answer-fields">${answerParts.map((part, index) => `
@@ -1327,6 +1328,7 @@ function renderBookmarks() {
         <h3>${escapeHtml(lessonTitle(lesson))}</h3>
         <p class="bookmark-prompt">${escapeHtml(question.prompt || question.english || "")}</p>
         <p class="bookmark-zh">${escapeHtml(question.promptZh || question.chinese || question.zh || "")}</p>
+        ${question.cue ? `<p class="bookmark-cue">${escapeHtml(question.cue)}</p>` : ""}
         ${bookmarkAnswerAvailable(bookmark) ? `<div class="bookmark-answer">${suggestedAnswerHtml(question)}</div>` : ""}
       </div>
       <div class="bookmark-row-actions">

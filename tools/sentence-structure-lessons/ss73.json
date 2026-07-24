@@ -1,0 +1,1134 @@
+{
+  "id": "ss73",
+  "order": 73,
+  "slug": "sentence-structure-73",
+  "title": "「So + adjective + that」句型",
+  "titleZh": "「So + adjective + that」表達程度及結果",
+  "titleEn": "Using So + adjective + that to express degree and result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 73 -「So + adjective + that」表達程度及結果.pdf",
+    "pageCount": 17,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "answerPages": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "omissions": []
+  },
+  "formula": "Subject + be / linking verb + so + adjective + that + result clause",
+  "formulas": [
+    {
+      "id": "ss73-formula-degree-result",
+      "labelZh": "程度及結果",
+      "labelEn": "Degree and result",
+      "formula": "Subject + be / linking verb + so + adjective + that + result clause"
+    }
+  ],
+  "example": "Sometimes life could be so hard that we want to give up.",
+  "exampleZh": "有時人生可以艱難到讓我們想放棄。",
+  "examples": [
+    {
+      "id": "ss73-example-life",
+      "en": "Sometimes life could be so hard that we want to give up.",
+      "zh": "有時人生可以艱難到讓我們想放棄。",
+      "highlight": "so hard that"
+    },
+    {
+      "id": "ss73-example-dad",
+      "en": "Dad was so angry that he broke his phone.",
+      "zh": "爸爸氣得把手機也摔壞了。",
+      "highlight": "so angry that"
+    }
+  ],
+  "meaning": {
+    "zh": "So + adjective + that 把強烈程度和該程度帶來的結果連接起來。"
+  },
+  "rules": [
+    {
+      "id": "ss73-rule-01",
+      "zh": "在 so 和 that 之間放形容詞。",
+      "en": "Put an adjective between so and that."
+    },
+    {
+      "id": "ss73-rule-02",
+      "zh": "形容詞說明某種狀態的強烈程度，而 that 後面的子句則說明該程度所帶來的結果。",
+      "en": "The adjective describes a strong degree, and the that-clause shows the result caused by that degree."
+    },
+    {
+      "id": "ss73-rule-03",
+      "zh": "時態可按情境改變。",
+      "en": "The tense may change according to the situation."
+    },
+    {
+      "id": "ss73-rule-04",
+      "zh": "不要把 so + adjective + that 與 such + noun + that 混淆。",
+      "en": "Do not confuse so + adjective + that with such + noun + that."
+    },
+    {
+      "id": "ss73-rule-05",
+      "zh": "「So + adjective + that」表達程度及結果；表示目的的「so that」意思相當於「為了／好讓」。",
+      "en": "So + adjective + that expresses degree and result; the purpose structure so that means in order that."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss73-benefit-01",
+      "zh": "它不只表示某事「非常」，還會用一個結果說明程度有多強。",
+      "en": "It makes the degree clear by giving a result."
+    },
+    {
+      "id": "ss73-benefit-02",
+      "zh": "它能把描述寫得更具體，說明強烈狀態帶來了甚麼結果。",
+      "en": "It makes descriptions more vivid."
+    },
+    {
+      "id": "ss73-benefit-03",
+      "zh": "它能把描述和結果合併成一句，避免寫出多句零散的短句。",
+      "en": "It joins a description and a result in one sentence."
+    },
+    {
+      "id": "ss73-benefit-04",
+      "zh": "它能自然地說明因果關係。",
+      "en": "It helps you explain cause and effect naturally."
+    },
+    {
+      "id": "ss73-benefit-05",
+      "zh": "除了反覆使用 very、because、therefore 或分開寫兩句之外，還可用這個句型表達相同關係。",
+      "en": "It gives you another useful sentence pattern instead of repeatedly using very, because or therefore."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using so + adjective + that to show degree and result.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 so + 形容詞 + that 改寫以下句子，以表達程度及結果。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss73-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 3,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 11,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The box was too heavy for Ben to lift.",
+      "promptZh": "這個箱子太重，本無法把它提起。",
+      "starter": "The",
+      "answer": "The box was so heavy that Ben could not lift it.",
+      "answerZh": "這個箱子太重，以致本無法把它提起。",
+      "answerZhSource": "pdf",
+      "highlight": "The box was so heavy that Ben could not lift it."
+    },
+    {
+      "id": "ss73-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Mia was extremely tired, so she fell asleep on the sofa.",
+      "promptZh": "米婭非常疲倦，所以在梳化上睡着了。",
+      "starter": "Mia",
+      "answer": "Mia was so tired that she fell asleep on the sofa.",
+      "answerZh": "米婭累得在梳化上睡着了。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was so tired that she fell asleep on the sofa."
+    },
+    {
+      "id": "ss73-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "I was extremely hungry. As a result, I ate two sandwiches.",
+      "promptZh": "我非常肚餓。因此，我吃了兩份三文治。",
+      "starter": "I",
+      "answer": "I was so hungry that I ate two sandwiches.",
+      "answerZh": "我餓得吃了兩份三文治。",
+      "answerZhSource": "pdf",
+      "highlight": "I was so hungry that I ate two sandwiches."
+    },
+    {
+      "id": "ss73-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Our classroom was very noisy, so the teacher stopped speaking.",
+      "promptZh": "我們的課室非常嘈吵，所以老師停止說話。",
+      "starter": "Our",
+      "answer": "Our classroom was so noisy that the teacher stopped speaking.",
+      "answerZh": "我們的課室太嘈吵，以致老師停止說話。",
+      "answerZhSource": "pdf",
+      "highlight": "Our classroom was so noisy that the teacher stopped speaking."
+    },
+    {
+      "id": "ss73-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Leo was too excited to sit still.",
+      "promptZh": "里奧太興奮，無法安坐。",
+      "starter": "Leo",
+      "answer": "Leo was so excited that he could not sit still.",
+      "answerZh": "里奧興奮得無法安坐。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo was so excited that he could not sit still."
+    },
+    {
+      "id": "ss73-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "The soup was too hot for Ava to drink.",
+      "promptZh": "這碗湯太熱，艾娃無法飲用。",
+      "starter": "The",
+      "answer": "The soup was so hot that Ava could not drink it.",
+      "answerZh": "這碗湯太熱，艾娃無法飲用。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup was so hot that Ava could not drink it."
+    },
+    {
+      "id": "ss73-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Because the road was very wet, the cyclists had to slow down.",
+      "promptZh": "由於路面非常濕滑，踏單車的人不得不減速。",
+      "starter": "The",
+      "answer": "The road was so wet that the cyclists had to slow down.",
+      "answerZh": "路面太濕滑，踏單車的人不得不減速。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was so wet that the cyclists had to slow down."
+    },
+    {
+      "id": "ss73-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "Our dog was extremely frightened, so it hid under the bed.",
+      "promptZh": "我們的狗非常害怕，所以躲到床下。",
+      "starter": "Our",
+      "answer": "Our dog was so frightened that it hid under the bed.",
+      "answerZh": "我們的狗害怕得躲到床下。",
+      "answerZhSource": "pdf",
+      "highlight": "Our dog was so frightened that it hid under the bed."
+    },
+    {
+      "id": "ss73-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "These instructions were very clear, so everyone understood them.",
+      "promptZh": "這些指示非常清楚，所以每個人都明白。",
+      "starter": "These",
+      "answer": "These instructions were so clear that everyone understood them.",
+      "answerZh": "這些指示清楚得每個人都明白了。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions were so clear that everyone understood them."
+    },
+    {
+      "id": "ss73-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It was such a funny film that we laughed from beginning to end.",
+      "promptZh": "這部電影非常搞笑，令我們由頭笑到尾。",
+      "starter": "The",
+      "answer": "The film was so funny that we laughed from beginning to end.",
+      "answerZh": "這部電影太搞笑，令我們由頭笑到尾。",
+      "answerZhSource": "pdf",
+      "highlight": "The film was so funny that we laughed from beginning to end."
+    },
+    {
+      "id": "ss73-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "My bag was too full for me to close.",
+      "promptZh": "我的袋子太滿，我無法把它關上。",
+      "starter": "My",
+      "answer": "My bag was so full that I could not close it.",
+      "answerZh": "我的袋子太滿，我無法把它關上。",
+      "answerZhSource": "pdf",
+      "highlight": "My bag was so full that I could not close it."
+    },
+    {
+      "id": "ss73-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sarah was very cold. Therefore, she wore two coats.",
+      "promptZh": "莎拉覺得很冷，因此穿了兩件外套。",
+      "starter": "Sarah",
+      "answer": "Sarah was so cold that she wore two coats.",
+      "answerZh": "莎拉冷得要穿上兩件外套。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah was so cold that she wore two coats."
+    },
+    {
+      "id": "ss73-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It was such an easy question that every student answered it correctly.",
+      "promptZh": "這條問題很容易，所有學生都答對了。",
+      "starter": "The",
+      "answer": "The question was so easy that every student answered it correctly.",
+      "answerZh": "這條問題太容易，所有學生都答對了。",
+      "answerZhSource": "pdf",
+      "highlight": "The question was so easy that every student answered it correctly."
+    },
+    {
+      "id": "ss73-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The music was extremely loud. This caused the neighbours to complain.",
+      "promptZh": "音樂聲非常大，令鄰居作出投訴。",
+      "starter": "The",
+      "answer": "The music was so loud that the neighbours complained.",
+      "answerZh": "音樂聲太大，鄰居都投訴了。",
+      "answerZhSource": "pdf",
+      "highlight": "The music was so loud that the neighbours complained."
+    },
+    {
+      "id": "ss73-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Noah could not find the light switch because his room was very dark.",
+      "promptZh": "諾亞找不到電燈開關，因為他的房間非常昏暗。",
+      "starter": "Noah's",
+      "answer": "Noah's room was so dark that he could not find the light switch.",
+      "answerZh": "諾亞的房間太暗，令他找不到電燈開關。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah's room was so dark that he could not find the light switch."
+    },
+    {
+      "id": "ss73-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our bus was extremely crowded, so we had to stand.",
+      "promptZh": "我們乘坐的巴士非常擠迫，所以我們不得不站着。",
+      "starter": "Our",
+      "answer": "Our bus was so crowded that we had to stand.",
+      "answerZh": "我們乘坐的巴士太擠迫，所以我們不得不站着。",
+      "answerZhSource": "pdf",
+      "highlight": "Our bus was so crowded that we had to stand."
+    },
+    {
+      "id": "ss73-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It was such a delicious cake that everyone ate all of it.",
+      "promptZh": "這個蛋糕非常美味，大家把它全吃光了。",
+      "starter": "The",
+      "answer": "The cake was so delicious that everyone ate all of it.",
+      "answerZh": "這個蛋糕太美味，大家把它全吃光了。",
+      "answerZhSource": "pdf",
+      "highlight": "The cake was so delicious that everyone ate all of it."
+    },
+    {
+      "id": "ss73-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "That child was extremely sleepy, so he could barely keep his eyes open.",
+      "promptZh": "那個孩子非常睏，所以幾乎睜不開眼睛。",
+      "starter": "That",
+      "answer": "That child was so sleepy that he could barely keep his eyes open.",
+      "answerZh": "那個孩子睏得幾乎睜不開眼睛。",
+      "answerZhSource": "pdf",
+      "highlight": "That child was so sleepy that he could barely keep his eyes open."
+    },
+    {
+      "id": "ss73-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The stream was shallow enough for us to walk across.",
+      "promptZh": "小溪淺得足以讓我們步行穿過去。",
+      "starter": "The",
+      "answer": "The stream was so shallow that we could walk across it.",
+      "answerZh": "小溪很淺，所以我們可以步行穿過去。",
+      "answerZhSource": "pdf",
+      "highlight": "The stream was so shallow that we could walk across it."
+    },
+    {
+      "id": "ss73-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Maya could not finish her work on time because her laptop was extremely slow.",
+      "promptZh": "瑪雅無法準時完成工作，因為她的手提電腦非常緩慢。",
+      "starter": "Maya's",
+      "answer": "Maya's laptop was so slow that she could not finish her work on time.",
+      "answerZh": "瑪雅的手提電腦慢得她無法準時完成工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya's laptop was so slow that she could not finish her work on time."
+    },
+    {
+      "id": "ss73-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The weather became extremely bad. As a result, the ferry service was cancelled.",
+      "promptZh": "天氣變得非常惡劣。因此，渡輪服務被取消。",
+      "starter": "The",
+      "answer": "The weather became so bad that the ferry service was cancelled.",
+      "answerZh": "天氣變得如此惡劣，以致渡輪服務被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "The weather became so bad that the ferry service was cancelled."
+    },
+    {
+      "id": "ss73-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Olivia was very nervous, so she forgot the first line of her speech.",
+      "promptZh": "奧莉花非常緊張，所以忘記了演講的第一句。",
+      "starter": "Olivia",
+      "answer": "Olivia was so nervous that she forgot the first line of her speech.",
+      "answerZh": "奧莉花緊張得忘記了演講的第一句。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia was so nervous that she forgot the first line of her speech."
+    },
+    {
+      "id": "ss73-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This medicine had such a bitter taste that the patient refused to take another spoonful.",
+      "promptZh": "這種藥的味道非常苦，令病人拒絕再服用一匙。",
+      "starter": "This",
+      "answer": "This medicine tasted so bitter that the patient refused to take another spoonful.",
+      "answerZh": "這種藥苦得病人拒絕再服用一匙。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine tasted so bitter that the patient refused to take another spoonful."
+    },
+    {
+      "id": "ss73-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This hall is large enough to hold more than five hundred people.",
+      "promptZh": "這個禮堂夠大，可容納超過五百人。",
+      "starter": "This",
+      "answer": "This hall is so large that it can hold more than five hundred people.",
+      "answerZh": "這個禮堂非常大，可容納超過五百人。",
+      "answerZhSource": "pdf",
+      "highlight": "This hall is so large that it can hold more than five hundred people."
+    },
+    {
+      "id": "ss73-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The maths problem was too difficult for Ethan to solve without help.",
+      "promptZh": "這條數學題太難，伊森無法在沒有協助下解答。",
+      "starter": "The",
+      "answer": "The maths problem was so difficult that Ethan could not solve it without help.",
+      "answerZh": "這條數學題太難，以致伊森無法在沒有協助下解答。",
+      "answerZhSource": "pdf",
+      "highlight": "The maths problem was so difficult that Ethan could not solve it without help."
+    },
+    {
+      "id": "ss73-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Because the pavement was extremely icy, several people nearly fell.",
+      "promptZh": "由於行人路結滿冰，幾個人差點跌倒。",
+      "starter": "The",
+      "answer": "The pavement was so icy that several people nearly fell.",
+      "answerZh": "行人路結冰嚴重，幾個人差點跌倒。",
+      "answerZhSource": "pdf",
+      "highlight": "The pavement was so icy that several people nearly fell."
+    },
+    {
+      "id": "ss73-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "There was such a long queue that Daniel decided to return later.",
+      "promptZh": "隊伍非常長，丹尼爾決定稍後再回來。",
+      "starter": "The",
+      "answer": "The queue was so long that Daniel decided to return later.",
+      "answerZh": "隊伍太長，丹尼爾決定稍後再回來。",
+      "answerZhSource": "pdf",
+      "highlight": "The queue was so long that Daniel decided to return later."
+    },
+    {
+      "id": "ss73-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This little boy felt extremely proud, so he showed his drawing to everyone.",
+      "promptZh": "這個小男孩非常自豪，所以把畫作展示給所有人看。",
+      "starter": "This",
+      "answer": "This little boy was so proud that he showed his drawing to everyone.",
+      "answerZh": "這個小男孩自豪得把畫作展示給所有人看。",
+      "answerZhSource": "pdf",
+      "highlight": "This little boy was so proud that he showed his drawing to everyone."
+    },
+    {
+      "id": "ss73-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our video calls keep ending because the internet connection has been very unstable.",
+      "promptZh": "由於網絡連線一直很不穩定，我們的視像通話不斷中斷。",
+      "starter": "Our",
+      "answer": "Our internet connection has been so unstable that our video calls keep ending.",
+      "answerZh": "我們的網絡連線一直很不穩定，以致視像通話不斷中斷。",
+      "answerZhSource": "pdf",
+      "highlight": "Our internet connection has been so unstable that our video calls keep ending."
+    },
+    {
+      "id": "ss73-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The mountain air was extremely fresh, so we opened all the windows.",
+      "promptZh": "山區空氣非常清新，所以我們把所有窗戶都打開了。",
+      "starter": "The",
+      "answer": "The mountain air was so fresh that we opened all the windows.",
+      "answerZh": "山區空氣太清新，令我們把所有窗戶都打開了。",
+      "answerZhSource": "pdf",
+      "highlight": "The mountain air was so fresh that we opened all the windows."
+    },
+    {
+      "id": "ss73-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The warning sign was too small for many drivers to read.",
+      "promptZh": "警告牌太小，很多司機都無法看清內容。",
+      "starter": "The",
+      "answer": "The warning sign was so small that many drivers could not read it.",
+      "answerZh": "警告牌太小，很多司機都無法看清內容。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning sign was so small that many drivers could not read it."
+    },
+    {
+      "id": "ss73-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This new software is simple enough for even beginners to use without help.",
+      "promptZh": "這款新軟件十分簡單，初學者無需協助也能使用。",
+      "starter": "This",
+      "answer": "This new software is so simple that even beginners can use it without help.",
+      "answerZh": "這款新軟件非常簡單，連初學者也可以在沒有協助下使用。",
+      "answerZhSource": "pdf",
+      "highlight": "This new software is so simple that even beginners can use it without help."
+    },
+    {
+      "id": "ss73-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Grace was extremely embarrassed. As a result, she could not look at anyone.",
+      "promptZh": "格蕾絲非常尷尬。因此，她無法望向任何人。",
+      "starter": "Grace",
+      "answer": "Grace was so embarrassed that she could not look at anyone.",
+      "answerZh": "格蕾絲尷尬得無法望向任何人。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace was so embarrassed that she could not look at anyone."
+    },
+    {
+      "id": "ss73-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Because this library was very peaceful, I stayed there for three hours.",
+      "promptZh": "由於這間圖書館非常寧靜，我在那裏逗留了三小時。",
+      "starter": "This",
+      "answer": "This library was so peaceful that I stayed there for three hours.",
+      "answerZh": "這間圖書館非常寧靜，令我在那裏逗留了三小時。",
+      "answerZhSource": "pdf",
+      "highlight": "This library was so peaceful that I stayed there for three hours."
+    },
+    {
+      "id": "ss73-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It was such a powerful storm that several trees were blown down.",
+      "promptZh": "那場暴風雨非常強勁，幾棵樹被吹倒了。",
+      "starter": "The",
+      "answer": "The storm was so powerful that several trees were blown down.",
+      "answerZh": "那場暴風雨太強勁，幾棵樹被吹倒了。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm was so powerful that several trees were blown down."
+    },
+    {
+      "id": "ss73-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The customer was extremely angry, so the manager came out to speak to him.",
+      "promptZh": "顧客非常憤怒，所以經理出來跟他談話。",
+      "starter": "The",
+      "answer": "The customer was so angry that the manager came out to speak to him.",
+      "answerZh": "顧客非常憤怒，以致經理也出來跟他談話。",
+      "answerZhSource": "pdf",
+      "highlight": "The customer was so angry that the manager came out to speak to him."
+    },
+    {
+      "id": "ss73-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The path became extremely narrow, so only one person could pass at a time.",
+      "promptZh": "小徑變得非常狹窄，所以每次只能讓一個人通過。",
+      "starter": "The",
+      "answer": "The path became so narrow that only one person could pass at a time.",
+      "answerZh": "小徑變得非常狹窄，每次只能讓一個人通過。",
+      "answerZhSource": "pdf",
+      "highlight": "The path became so narrow that only one person could pass at a time."
+    },
+    {
+      "id": "ss73-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "These gloves were too thick for me to use my phone properly.",
+      "promptZh": "這雙手套太厚，我無法正常使用電話。",
+      "starter": "These",
+      "answer": "These gloves were so thick that I could not use my phone properly.",
+      "answerZh": "這雙手套厚得我無法正常使用電話。",
+      "answerZhSource": "pdf",
+      "highlight": "These gloves were so thick that I could not use my phone properly."
+    },
+    {
+      "id": "ss73-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The talk was very interesting. As a result, nobody checked the time.",
+      "promptZh": "講座非常有趣。因此，沒有人查看時間。",
+      "starter": "The",
+      "answer": "The talk was so interesting that nobody checked the time.",
+      "answerZh": "講座太有趣，沒有人查看時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The talk was so interesting that nobody checked the time."
+    },
+    {
+      "id": "ss73-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This milk was too sour for us to drink.",
+      "promptZh": "這盒牛奶太酸，我們無法飲用。",
+      "starter": "This",
+      "answer": "This milk was so sour that we could not drink it.",
+      "answerZh": "這盒牛奶酸得我們無法飲用。",
+      "answerZhSource": "pdf",
+      "highlight": "This milk was so sour that we could not drink it."
+    },
+    {
+      "id": "ss73-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school rules were extremely confusing. As a result, several parents asked for a clearer explanation.",
+      "promptZh": "校規非常混亂。因此，幾位家長要求得到更清楚的解釋。",
+      "starter": "The",
+      "answer": "The school rules were so confusing that several parents asked for a clearer explanation.",
+      "answerZh": "校規太混亂，以致幾位家長要求得到更清楚的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "The school rules were so confusing that several parents asked for a clearer explanation."
+    },
+    {
+      "id": "ss73-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital waiting room was extremely busy, so some patients had to wait outside.",
+      "promptZh": "醫院候診室非常繁忙，所以部分病人要在外面等候。",
+      "starter": "The",
+      "answer": "The hospital waiting room was so busy that some patients had to wait outside.",
+      "answerZh": "醫院候診室太繁忙，部分病人要在外面等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital waiting room was so busy that some patients had to wait outside."
+    },
+    {
+      "id": "ss73-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This report contained such detailed information that the team needed two meetings to discuss it fully.",
+      "promptZh": "這份報告的資料非常詳細，團隊需要開兩次會議才能完整討論。",
+      "starter": "This",
+      "answer": "This report was so detailed that the team needed two meetings to discuss it fully.",
+      "answerZh": "這份報告太詳細，團隊需要開兩次會議才能完整討論。",
+      "answerZhSource": "pdf",
+      "highlight": "This report was so detailed that the team needed two meetings to discuss it fully."
+    },
+    {
+      "id": "ss73-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new recycling system is very convenient. Therefore, more residents are using it every week.",
+      "promptZh": "新的回收制度非常方便。因此，每星期都有更多居民使用它。",
+      "starter": "The",
+      "answer": "The new recycling system is so convenient that more residents are using it every week.",
+      "answerZh": "新的回收制度非常方便，因此每星期都有更多居民使用它。",
+      "answerZhSource": "pdf",
+      "highlight": "The new recycling system is so convenient that more residents are using it every week."
+    },
+    {
+      "id": "ss73-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Several passengers went to the wrong gate because the airport announcement was extremely unclear.",
+      "promptZh": "由於機場廣播非常不清楚，幾名乘客去了錯誤的登機閘口。",
+      "starter": "The",
+      "answer": "The airport announcement was so unclear that several passengers went to the wrong gate.",
+      "answerZh": "機場廣播太不清楚，以致幾名乘客去了錯誤的登機閘口。",
+      "answerZhSource": "pdf",
+      "highlight": "The airport announcement was so unclear that several passengers went to the wrong gate."
+    },
+    {
+      "id": "ss73-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even a small movement affected the results because this laboratory equipment was extremely sensitive.",
+      "promptZh": "由於這套實驗室設備非常敏感，即使輕微移動也會影響結果。",
+      "starter": "This",
+      "answer": "This laboratory equipment was so sensitive that even a small movement affected the results.",
+      "answerZh": "這套實驗室設備非常敏感，連輕微移動也會影響結果。",
+      "answerZhSource": "pdf",
+      "highlight": "This laboratory equipment was so sensitive that even a small movement affected the results."
+    },
+    {
+      "id": "ss73-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop assistant was extremely helpful, so the customer wrote a message praising her service.",
+      "promptZh": "店員非常樂於幫忙，所以顧客寫了一則訊息讚揚她的服務。",
+      "starter": "The",
+      "answer": "The shop assistant was so helpful that the customer wrote a message praising her service.",
+      "answerZh": "店員非常樂於助人，令顧客寫了一則訊息讚揚她的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop assistant was so helpful that the customer wrote a message praising her service."
+    },
+    {
+      "id": "ss73-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The book had such a moving final chapter that I had to stop reading for a moment.",
+      "promptZh": "這本書的最後一章非常感人，令我不得不停下來一會兒。",
+      "starter": "The",
+      "answer": "The book's final chapter was so moving that I had to stop reading for a moment.",
+      "answerZh": "這本書的最後一章太感人，令我不得不停下來一會兒。",
+      "answerZhSource": "pdf",
+      "highlight": "The book's final chapter was so moving that I had to stop reading for a moment."
+    },
+    {
+      "id": "ss73-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This town became extremely popular with tourists. As a result, local roads could not handle the extra traffic.",
+      "promptZh": "這個小鎮變得非常受遊客歡迎。因此，當地道路無法應付增加的車流。",
+      "starter": "This",
+      "answer": "This town became so popular with tourists that local roads could not handle the extra traffic.",
+      "answerZh": "這個小鎮太受遊客歡迎，以致當地道路無法應付增加的車流。",
+      "answerZhSource": "pdf",
+      "highlight": "This town became so popular with tourists that local roads could not handle the extra traffic."
+    },
+    {
+      "id": "ss73-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Even players who had missed practice understood the new strategy because the coach's explanation was exceptionally clear.",
+      "promptZh": "即使缺席訓練的球員也明白新戰術，因為教練的解釋格外清楚。",
+      "starter": "The",
+      "answer": "The coach's explanation was so clear that even players who had missed practice understood the new strategy.",
+      "answerZh": "教練的解釋非常清楚，連缺席訓練的球員也明白新戰術。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach's explanation was so clear that even players who had missed practice understood the new strategy."
+    }
+  ]
+}

@@ -1,0 +1,1168 @@
+{
+  "id": "ss81",
+  "order": 81,
+  "slug": "sentence-structure-81",
+  "title": "「So as to…」句型",
+  "titleZh": "「So as to…」句：表達目的",
+  "titleEn": "Using So as to… to express purpose",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 81 -「So as to… 句——表達目的」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + main action + so as to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss81-formula-positive",
+      "labelZh": "肯定形式",
+      "labelEn": "Positive form",
+      "formula": "Subject + main action + so as to + base verb + other information"
+    },
+    {
+      "id": "ss81-formula-negative",
+      "labelZh": "否定形式",
+      "labelEn": "Negative form",
+      "formula": "Subject + main action + so as not to + base verb + other information"
+    },
+    {
+      "id": "ss81-formula-bridge",
+      "labelZh": "不同動作執行者",
+      "labelEn": "Different performers",
+      "formula": "Subject + main action + so as to + help / allow / enable + someone + verb"
+    }
+  ],
+  "example": "The wording was simplified so as to avoid confusion.",
+  "exampleZh": "措辭被簡化了，以避免混亂。",
+  "examples": [
+    {
+      "id": "ss81-example-main",
+      "en": "The wording was simplified so as to avoid confusion.",
+      "zh": "措辭被簡化了，以避免混亂。",
+      "highlight": "so as to avoid confusion"
+    },
+    {
+      "id": "ss81-example-negative",
+      "en": "David spoke quietly so as not to wake the baby.",
+      "zh": "大衛輕聲說話，以免吵醒嬰兒。",
+      "highlight": "so as not to wake"
+    }
+  ],
+  "meaning": {
+    "zh": "So as to 表達有意達成的目的，回答「做這個行動的目的是甚麼？」。"
+  },
+  "rules": [
+    {
+      "id": "ss81-rule-01",
+      "zh": "So as to 表達「有意達成的目的」，不應用來描述純粹意外發生的結果。",
+      "en": "So as to expresses an intended purpose, not a purely accidental result.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-rule-02",
+      "zh": "So as to 後面使用動詞原形。",
+      "en": "Use the base form of the verb after so as to.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-rule-03",
+      "zh": "否定目的使用 so as not to。",
+      "en": "Use so as not to for a negative purpose.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-rule-04",
+      "zh": "注意兩個動作的執行者；如目的行動由另一個人執行，通常使用 help、allow 或 enable 等橋接動詞。",
+      "en": "Pay attention to who performs the main action and the purpose action.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-rule-05",
+      "zh": "So as to 和 in order to 很多情況下可以互換；so as to 通常較正式，而且常放在主要句子後面。",
+      "en": "So as to and in order to can often be exchanged, but so as to is more formal and normally follows the main clause.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-rule-06",
+      "zh": "So as to 的語氣比單純的 to 正式。",
+      "en": "So as to is more formal than a simple to-infinitive of purpose.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss81-benefit-01",
+      "zh": "So as to 能讓讀者立即知道某個行動背後的目的。",
+      "en": "It clearly connects an action and its purpose.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-benefit-02",
+      "zh": "它可以把行動和目的放在同一句中，令內容更直接、更緊湊。",
+      "en": "It shortens a longer explanation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-benefit-03",
+      "zh": "So as to 常見於報告、商業文件、正式電郵、規則、政策及學術或議論文章。",
+      "en": "It is suitable for formal writing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-benefit-04",
+      "zh": "使用 so as not to，可以直接說明做某事是為了防止另一件事發生。",
+      "en": "It clearly expresses a purpose of preventing something.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss81-benefit-05",
+      "zh": "它提供另一種表達目的的方法，避免反覆使用 because、so that、in order to 或 to + verb。",
+      "en": "It adds sentence variety.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using so as to or so as not to to express its purpose.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 so as to 或 so as not to 改寫以下句子，以表達行動的目的。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss81-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I went to the library because I wanted to borrow a reference book.",
+      "promptZh": "我去了圖書館，因為我想借一本參考書。",
+      "starter": "I",
+      "answer": "I went to the library so as to borrow a reference book.",
+      "answerZh": "我去了圖書館，以借閱一本參考書。",
+      "answerZhSource": "pdf",
+      "highlight": "I went to the library so as to borrow a reference book."
+    },
+    {
+      "id": "ss81-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Lily got up early so that she could catch the first bus.",
+      "promptZh": "莉莉早起，以便趕上第一班巴士。",
+      "starter": "Lily",
+      "answer": "Lily got up early so as to catch the first bus.",
+      "answerZh": "莉莉早起，以趕上第一班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily got up early so as to catch the first bus."
+    },
+    {
+      "id": "ss81-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tom needed to ask about the homework, so he called his teacher.",
+      "promptZh": "湯姆需要詢問功課的事情，所以他打電話給老師。",
+      "starter": "Tom",
+      "answer": "Tom called his teacher so as to ask about the homework.",
+      "answerZh": "湯姆打電話給老師，以詢問功課的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom called his teacher so as to ask about the homework."
+    },
+    {
+      "id": "ss81-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We went to the market for some fresh vegetables.",
+      "promptZh": "我們去街市買一些新鮮蔬菜。",
+      "starter": "We",
+      "answer": "We went to the market so as to buy some fresh vegetables.",
+      "answerZh": "我們去街市，以購買一些新鮮蔬菜。",
+      "answerZhSource": "pdf",
+      "highlight": "We went to the market so as to buy some fresh vegetables."
+    },
+    {
+      "id": "ss81-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia opened the window because she wanted to let some fresh air in.",
+      "promptZh": "米婭打開窗戶，因為她想讓一些新鮮空氣進來。",
+      "starter": "Mia",
+      "answer": "Mia opened the window so as to let some fresh air in.",
+      "answerZh": "米婭打開窗戶，以讓一些新鮮空氣進來。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia opened the window so as to let some fresh air in."
+    },
+    {
+      "id": "ss81-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Jack is saving money because he wants to buy a new bicycle.",
+      "promptZh": "傑克正在儲錢，因為他想買一輛新單車。",
+      "starter": "Jack",
+      "answer": "Jack is saving money so as to buy a new bicycle.",
+      "answerZh": "傑克正在儲錢，以購買一輛新單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Jack is saving money so as to buy a new bicycle."
+    },
+    {
+      "id": "ss81-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why did Ben visit the doctor? He wanted to get some advice.",
+      "promptZh": "本為甚麼去看醫生？他想取得一些建議。",
+      "starter": "Ben",
+      "answer": "Ben visited the doctor so as to get some advice.",
+      "answerZh": "本去看醫生，以取得一些建議。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben visited the doctor so as to get some advice."
+    },
+    {
+      "id": "ss81-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I use a notebook for recording new vocabulary.",
+      "promptZh": "我使用筆記簿記錄新詞彙。",
+      "starter": "I",
+      "answer": "I use a notebook so as to record new vocabulary.",
+      "answerZh": "我使用筆記簿，以記錄新詞彙。",
+      "answerZhSource": "pdf",
+      "highlight": "I use a notebook so as to record new vocabulary."
+    },
+    {
+      "id": "ss81-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma wore a thick coat because she wanted to stay warm.",
+      "promptZh": "艾瑪穿上厚外套，因為她想保暖。",
+      "starter": "Emma",
+      "answer": "Emma wore a thick coat so as to stay warm.",
+      "answerZh": "艾瑪穿上厚外套，以保持溫暖。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma wore a thick coat so as to stay warm."
+    },
+    {
+      "id": "ss81-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The students practise English every day. Their goal is to improve their speaking skills.",
+      "promptZh": "學生每天練習英語。他們的目標是提升英語會話能力。",
+      "starter": "The",
+      "answer": "The students practise English every day so as to improve their speaking skills.",
+      "answerZh": "學生每天練習英語，以提升英語會話能力。",
+      "answerZhSource": "pdf",
+      "highlight": "The students practise English every day so as to improve their speaking skills."
+    },
+    {
+      "id": "ss81-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah joined a cooking class because she wanted to learn how to make Italian food.",
+      "promptZh": "莎拉參加烹飪班，因為她想學習如何製作意大利菜。",
+      "starter": "Sarah",
+      "answer": "Sarah joined a cooking class so as to learn how to make Italian food.",
+      "answerZh": "莎拉參加烹飪班，以學習如何製作意大利菜。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah joined a cooking class so as to learn how to make Italian food."
+    },
+    {
+      "id": "ss81-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "David spoke quietly in order that he would not wake the baby.",
+      "promptZh": "大衛輕聲說話，以免吵醒嬰兒。",
+      "starter": "David",
+      "answer": "David spoke quietly so as not to wake the baby.",
+      "answerZh": "大衛輕聲說話，以免吵醒嬰兒。",
+      "answerZhSource": "pdf",
+      "highlight": "David spoke quietly so as not to wake the baby."
+    },
+    {
+      "id": "ss81-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In order to start the machine, press this button.",
+      "promptZh": "如要啟動機器，請按下這個按鈕。",
+      "starter": "Press",
+      "answer": "Press this button so as to start the machine.",
+      "answerZh": "按下這個按鈕，以啟動機器。",
+      "answerZhSource": "pdf",
+      "highlight": "Press this button so as to start the machine."
+    },
+    {
+      "id": "ss81-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did Amy bring a camera? She wanted to take photographs of the view.",
+      "promptZh": "艾米為甚麼帶相機？她想拍攝眼前的景色。",
+      "starter": "Amy",
+      "answer": "Amy brought a camera so as to take photographs of the view.",
+      "answerZh": "艾米帶了相機，以拍攝眼前的景色。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy brought a camera so as to take photographs of the view."
+    },
+    {
+      "id": "ss81-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The purpose of this meeting is to discuss the new project.",
+      "promptZh": "這次會議的目的是討論新項目。",
+      "starter": "This",
+      "answer": "This meeting is being held so as to discuss the new project.",
+      "answerZh": "這次會議正在舉行，以討論新項目。",
+      "answerZhSource": "pdf",
+      "highlight": "This meeting is being held so as to discuss the new project."
+    },
+    {
+      "id": "ss81-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Kevin went online. His aim was to find information about the museum.",
+      "promptZh": "凱文上網。他的目的是尋找有關博物館的資料。",
+      "starter": "Kevin",
+      "answer": "Kevin went online so as to find information about the museum.",
+      "answerZh": "凱文上網，以尋找有關博物館的資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin went online so as to find information about the museum."
+    },
+    {
+      "id": "ss81-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Take an umbrella so that you can stay dry in the rain.",
+      "promptZh": "帶一把雨傘，這樣你便可以在下雨時保持乾爽。",
+      "starter": "Take",
+      "answer": "Take an umbrella so as to stay dry in the rain.",
+      "answerZh": "帶一把雨傘，以便在下雨時保持乾爽。",
+      "answerZhSource": "pdf",
+      "highlight": "Take an umbrella so as to stay dry in the rain."
+    },
+    {
+      "id": "ss81-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My mother gave me some money because she wanted me to buy lunch.",
+      "promptZh": "媽媽給了我一些錢，因為她想讓我買午餐。",
+      "starter": "My",
+      "answer": "My mother gave me some money so as to allow me to buy lunch.",
+      "answerZh": "媽媽給了我一些錢，好讓我購買午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "My mother gave me some money so as to allow me to buy lunch."
+    },
+    {
+      "id": "ss81-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team held an extra practice because they hoped to win the next match.",
+      "promptZh": "球隊進行了額外訓練，因為他們希望在下一場比賽中勝出。",
+      "starter": "The",
+      "answer": "The team held an extra practice so as to improve their chances of winning the next match.",
+      "answerZh": "球隊進行了額外訓練，以增加在下一場比賽中勝出的機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The team held an extra practice so as to improve their chances of winning the next match."
+    },
+    {
+      "id": "ss81-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason moved closer to the screen because he wanted to read the words more clearly.",
+      "promptZh": "傑森移近螢幕，因為他想更清楚地閱讀文字。",
+      "starter": "Jason",
+      "answer": "Jason moved closer to the screen so as to read the words more clearly.",
+      "answerZh": "傑森移近螢幕，以便更清楚地閱讀文字。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason moved closer to the screen so as to read the words more clearly."
+    },
+    {
+      "id": "ss81-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Olivia went to the bank because she needed to open a new account.",
+      "promptZh": "奧莉花去了銀行，因為她需要開設一個新戶口。",
+      "starter": "Olivia",
+      "answer": "Olivia went to the bank so as to open a new account.",
+      "answerZh": "奧莉花去了銀行，以開設一個新戶口。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia went to the bank so as to open a new account."
+    },
+    {
+      "id": "ss81-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The teacher repeated the instructions so that everyone could understand them.",
+      "promptZh": "老師重複指示，讓所有人都能明白。",
+      "starter": "The",
+      "answer": "The teacher repeated the instructions so as to help everyone understand them.",
+      "answerZh": "老師重複指示，以幫助所有人明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher repeated the instructions so as to help everyone understand them."
+    },
+    {
+      "id": "ss81-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Henry left home early so that he would not be late for work.",
+      "promptZh": "亨利提早離開家，以免上班遲到。",
+      "starter": "Henry",
+      "answer": "Henry left home early so as not to be late for work.",
+      "answerZh": "亨利提早離開家，以免上班遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "Henry left home early so as not to be late for work."
+    },
+    {
+      "id": "ss81-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This machine was designed with the purpose of cleaning large floors quickly.",
+      "promptZh": "這部機器的設計目的是快速清潔大型地面。",
+      "starter": "This",
+      "answer": "This machine was designed so as to clean large floors quickly.",
+      "answerZh": "這部機器經過特別設計，以快速清潔大型地面。",
+      "answerZhSource": "pdf",
+      "highlight": "This machine was designed so as to clean large floors quickly."
+    },
+    {
+      "id": "ss81-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "With the aim of improving her health, Chloe started exercising three times a week.",
+      "promptZh": "為了改善健康，克洛伊開始每星期做三次運動。",
+      "starter": "Chloe",
+      "answer": "Chloe started exercising three times a week so as to improve her health.",
+      "answerZh": "克洛伊開始每星期做三次運動，以改善健康。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe started exercising three times a week so as to improve her health."
+    },
+    {
+      "id": "ss81-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why are they decorating the hall? They are going to hold a school party there.",
+      "promptZh": "他們為甚麼正在佈置禮堂？他們打算在那裏舉行學校派對。",
+      "starter": "They",
+      "answer": "They are decorating the hall so as to hold a school party there.",
+      "answerZh": "他們正在佈置禮堂，以便在那裏舉行學校派對。",
+      "answerZhSource": "pdf",
+      "highlight": "They are decorating the hall so as to hold a school party there."
+    },
+    {
+      "id": "ss81-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The police officer stopped the traffic because he wanted to help the children cross the road safely.",
+      "promptZh": "警員截停車輛，因為他想幫助孩子們安全地橫過馬路。",
+      "starter": "The",
+      "answer": "The police officer stopped the traffic so as to help the children cross the road safely.",
+      "answerZh": "警員截停車輛，以幫助孩子們安全地橫過馬路。",
+      "answerZhSource": "pdf",
+      "highlight": "The police officer stopped the traffic so as to help the children cross the road safely."
+    },
+    {
+      "id": "ss81-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You should read the question carefully before you answer because you need to avoid making careless mistakes.",
+      "promptZh": "你應該在作答前仔細閱讀題目，因為你需要避免犯下粗心大意的錯誤。",
+      "starter": "You",
+      "answer": "You should read the question carefully before you answer, so as to avoid making careless mistakes.",
+      "answerZh": "你應該在作答前仔細閱讀題目，以避免犯下粗心大意的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "You should read the question carefully before you answer, so as to avoid making careless mistakes."
+    },
+    {
+      "id": "ss81-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The organisers prepared a special room because they wanted the guests to have a place to rest.",
+      "promptZh": "主辦人員準備了一個特別房間，因為他們想讓客人有地方休息。",
+      "starter": "A",
+      "answer": "A special room was prepared so as to give the guests a place to rest.",
+      "answerZh": "一個特別房間被準備好，讓客人有地方休息。",
+      "answerZhSource": "pdf",
+      "highlight": "A special room was prepared so as to give the guests a place to rest."
+    },
+    {
+      "id": "ss81-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Lucy wrote a shopping list because she did not want to forget anything at the supermarket.",
+      "promptZh": "露西寫了一張購物清單，因為她不想在超級市場遺漏任何東西。",
+      "starter": "Lucy",
+      "answer": "Lucy wrote a shopping list so as not to forget anything at the supermarket.",
+      "answerZh": "露西寫了一張購物清單，以免在超級市場遺漏任何東西。",
+      "answerZhSource": "pdf",
+      "highlight": "Lucy wrote a shopping list so as not to forget anything at the supermarket."
+    },
+    {
+      "id": "ss81-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Noah turned on the desk lamp because he wanted to read more clearly.",
+      "promptZh": "諾亞打開書桌燈，因為他想更清楚地閱讀。",
+      "starter": "Noah",
+      "answer": "Noah turned on the desk lamp so as to read more clearly.",
+      "answerZh": "諾亞打開書桌燈，以便更清楚地閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah turned on the desk lamp so as to read more clearly."
+    },
+    {
+      "id": "ss81-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum provides maps so that visitors can find the different rooms easily.",
+      "promptZh": "博物館提供地圖，讓訪客可以輕鬆找到不同的房間。",
+      "starter": "The",
+      "answer": "The museum provides maps so as to help visitors find the different rooms easily.",
+      "answerZh": "博物館提供地圖，以幫助訪客輕鬆找到不同的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum provides maps so as to help visitors find the different rooms easily."
+    },
+    {
+      "id": "ss81-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Maya carries a reusable bottle because she wants to reduce plastic waste.",
+      "promptZh": "瑪雅攜帶可重用水瓶，因為她想減少塑膠廢物。",
+      "starter": "Maya",
+      "answer": "Maya carries a reusable bottle so as to reduce plastic waste.",
+      "answerZh": "瑪雅攜帶可重用水瓶，以減少塑膠廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya carries a reusable bottle so as to reduce plastic waste."
+    },
+    {
+      "id": "ss81-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "A ladder was placed beside the shelf so that staff could reach the top shelf safely.",
+      "promptZh": "一把梯子被放在書架旁邊，讓職員可以安全地到達最高層。",
+      "starter": "A",
+      "answer": "A ladder was placed beside the shelf so as to allow staff to reach the top shelf safely.",
+      "answerZh": "一把梯子被放在書架旁邊，讓職員可以安全地到達最高層。",
+      "answerZhSource": "pdf",
+      "highlight": "A ladder was placed beside the shelf so as to allow staff to reach the top shelf safely."
+    },
+    {
+      "id": "ss81-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did Leo set an alarm? He wanted to wake up on time.",
+      "promptZh": "里奧為甚麼設定鬧鐘？他想準時起床。",
+      "starter": "Leo",
+      "answer": "Leo set an alarm so as to wake up on time.",
+      "answerZh": "里奧設定鬧鐘，以便準時起床。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo set an alarm so as to wake up on time."
+    },
+    {
+      "id": "ss81-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The nurse closed the door because she wanted to give the patient more privacy.",
+      "promptZh": "護士關上房門，因為她想給病人更多私人空間。",
+      "starter": "The",
+      "answer": "The nurse closed the door so as to give the patient more privacy.",
+      "answerZh": "護士關上房門，以給病人更多私人空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse closed the door so as to give the patient more privacy."
+    },
+    {
+      "id": "ss81-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "With the goal of reducing her spelling mistakes, Grace checked her work twice.",
+      "promptZh": "為了減少串字錯誤，格蕾絲檢查了自己的功課兩次。",
+      "starter": "Grace",
+      "answer": "Grace checked her work twice so as to reduce her spelling mistakes.",
+      "answerZh": "格蕾絲檢查了自己的功課兩次，以減少串字錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace checked her work twice so as to reduce her spelling mistakes."
+    },
+    {
+      "id": "ss81-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The lights were switched off so that electricity would not be wasted.",
+      "promptZh": "燈被關掉，以免浪費電力。",
+      "starter": "The",
+      "answer": "The lights were switched off so as not to waste electricity.",
+      "answerZh": "燈被關掉，以免浪費電力。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights were switched off so as not to waste electricity."
+    },
+    {
+      "id": "ss81-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If you want to open the back door, use this key.",
+      "promptZh": "如想打開後門，請使用這把鑰匙。",
+      "starter": "Use",
+      "answer": "Use this key so as to open the back door.",
+      "answerZh": "使用這把鑰匙，以打開後門。",
+      "answerZhSource": "pdf",
+      "highlight": "Use this key so as to open the back door."
+    },
+    {
+      "id": "ss81-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ava lowered her voice because she did not want to disturb the people who were reading.",
+      "promptZh": "艾娃降低聲量，因為她不想打擾正在閱讀的人。",
+      "starter": "Ava",
+      "answer": "Ava lowered her voice so as not to disturb the people who were reading.",
+      "answerZh": "艾娃降低聲量，以免打擾正在閱讀的人。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava lowered her voice so as not to disturb the people who were reading."
+    },
+    {
+      "id": "ss81-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Ethan went to the customer service desk. He needed to ask for help with his lost bag.",
+      "promptZh": "伊森去了顧客服務處。他需要就遺失的袋子尋求協助。",
+      "starter": "Ethan",
+      "answer": "Ethan went to the customer service desk so as to ask for help with his lost bag.",
+      "answerZh": "伊森去了顧客服務處，以就遺失的袋子尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan went to the customer service desk so as to ask for help with his lost bag."
+    },
+    {
+      "id": "ss81-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school installed more water fountains so that students could refill their bottles more easily.",
+      "promptZh": "學校安裝了更多飲水機，讓學生可以更輕鬆地為水瓶加水。",
+      "starter": "The",
+      "answer": "The school installed more water fountains so as to make it easier for students to refill their bottles.",
+      "answerZh": "學校安裝了更多飲水機，讓學生可以更輕鬆地為水瓶加水。",
+      "answerZhSource": "pdf",
+      "highlight": "The school installed more water fountains so as to make it easier for students to refill their bottles."
+    },
+    {
+      "id": "ss81-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The library staff use this shelf because they want to display the library’s new books.",
+      "promptZh": "圖書館職員使用這個書架，因為他們想展示圖書館的新書。",
+      "starter": "The",
+      "answer": "The library staff use this shelf so as to display the library’s new books.",
+      "answerZh": "圖書館職員使用這個書架，以展示圖書館的新書。",
+      "answerZhSource": "pdf",
+      "highlight": "The library staff use this shelf so as to display the library’s new books."
+    },
+    {
+      "id": "ss81-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "With the intention of making the room brighter, Zoe opened the curtains.",
+      "promptZh": "為了讓房間更加明亮，佐伊拉開了窗簾。",
+      "starter": "Zoe",
+      "answer": "Zoe opened the curtains so as to make the room brighter.",
+      "answerZh": "佐伊拉開窗簾，以讓房間更加明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "Zoe opened the curtains so as to make the room brighter."
+    },
+    {
+      "id": "ss81-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Daniel checked the train timetable because he did not want to miss the last train.",
+      "promptZh": "丹尼爾查看火車時間表，因為他不想錯過尾班車。",
+      "starter": "Daniel",
+      "answer": "Daniel checked the train timetable so as not to miss the last train.",
+      "answerZh": "丹尼爾查看火車時間表，以免錯過尾班車。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel checked the train timetable so as not to miss the last train."
+    },
+    {
+      "id": "ss81-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did the chef taste the soup? He wanted to check whether it needed more salt.",
+      "promptZh": "廚師為甚麼品嘗湯？他想檢查湯是否需要加入更多鹽。",
+      "starter": "The",
+      "answer": "The chef tasted the soup so as to check whether it needed more salt.",
+      "answerZh": "廚師品嘗湯，以檢查湯是否需要加入更多鹽。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef tasted the soup so as to check whether it needed more salt."
+    },
+    {
+      "id": "ss81-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Emma wrote the instructions step by step because she wanted to make them easier for her younger brother to follow.",
+      "promptZh": "艾瑪逐步寫下指示，因為她想讓弟弟更容易跟從。",
+      "starter": "Emma",
+      "answer": "Emma wrote the instructions step by step so as to make them easier for her younger brother to follow.",
+      "answerZh": "艾瑪逐步寫下指示，以讓弟弟更容易跟從。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma wrote the instructions step by step so as to make them easier for her younger brother to follow."
+    },
+    {
+      "id": "ss81-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A small bridge was built so that the villagers could cross the river safely.",
+      "promptZh": "人們建造了一座小橋，讓村民可以安全地過河。",
+      "starter": "A",
+      "answer": "A small bridge was built so as to enable the villagers to cross the river safely.",
+      "answerZh": "人們建造了一座小橋，讓村民可以安全地過河。",
+      "answerZhSource": "pdf",
+      "highlight": "A small bridge was built so as to enable the villagers to cross the river safely."
+    },
+    {
+      "id": "ss81-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You should wear these gloves because you need to protect your hands from the paint.",
+      "promptZh": "你應該戴上這些手套，因為你需要保護雙手，避免沾上油漆。",
+      "starter": "You",
+      "answer": "You should wear these gloves so as to protect your hands from the paint.",
+      "answerZh": "你應該戴上這些手套，以保護雙手，避免沾上油漆。",
+      "answerZhSource": "pdf",
+      "highlight": "You should wear these gloves so as to protect your hands from the paint."
+    },
+    {
+      "id": "ss81-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The coach showed the players a video of their previous game. His goal was to help them understand their mistakes.",
+      "promptZh": "教練向球員播放上一場比賽的影片。他的目標是幫助他們了解自己的錯誤。",
+      "starter": "The",
+      "answer": "The coach showed the players a video of their previous game so as to help them understand their mistakes.",
+      "answerZh": "教練向球員播放上一場比賽的影片，以幫助他們了解自己的錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach showed the players a video of their previous game so as to help them understand their mistakes."
+    }
+  ]
+}

@@ -1,0 +1,1220 @@
+{
+  "id": "ss108",
+  "order": 108,
+  "slug": "not-only-but-also",
+  "title": "「Not only... but also...」句型",
+  "titleZh": "「Not only... but also...」句",
+  "titleEn": "Using Not only... but also... to add a second point",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Sturcutre 108 -「Not only... but also...」句.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb / be + not only + A + but also + B",
+  "formulas": [
+    {
+      "id": "ss108-formula-parallel",
+      "labelEn": "Joining adjectives, nouns or matching forms",
+      "labelZh": "連接形容詞、名詞或其他相同形式",
+      "formula": "Subject + verb / be + not only + A + but also + B"
+    },
+    {
+      "id": "ss108-formula-actions",
+      "labelEn": "Joining two actions",
+      "labelZh": "連接兩個動作",
+      "formula": "Subject + not only + verb phrase A + but also + verb phrase B"
+    },
+    {
+      "id": "ss108-formula-subjects",
+      "labelEn": "Joining two subjects",
+      "labelZh": "連接兩個主語",
+      "formula": "Not only + Subject A + but also + Subject B + verb"
+    }
+  ],
+  "example": "Smoking is harmful not only to smokers but also to people around them.",
+  "exampleZh": "吸煙不但對吸煙者有害，也會傷害他們身邊的人。",
+  "examples": [
+    {
+      "id": "ss108-example-01",
+      "en": "Smoking is harmful not only to smokers but also to people around them.",
+      "zh": "吸煙不但對吸煙者有害，也會傷害他們身邊的人。",
+      "highlight": "not only to smokers but also to people around them"
+    }
+  ],
+  "meaning": {
+    "zh": "Not only... but also... 表示兩項事情都是真的，並把第二項事情當作另一個重要補充。"
+  },
+  "rules": [
+    {
+      "id": "ss108-rule-01",
+      "zh": "Not only 後面和 but also 後面的內容應保持相同或平行的文法形式。",
+      "en": "The elements after not only and but also should use matching or parallel grammatical forms.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She enjoys not only reading but also writing.",
+        "The job is not only difficult but also stressful."
+      ]
+    },
+    {
+      "id": "ss108-rule-02",
+      "zh": "連接兩個動作時，兩邊應保持相同結構。",
+      "en": "When joining two actions, keep the same structure on both sides.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Daniel not only checked the doors but also turned off the lights."
+      ]
+    },
+    {
+      "id": "ss108-rule-03",
+      "zh": "連接兩個主語時，動詞配合較近的主語。",
+      "en": "When joining two subjects, the verb agrees with the nearer subject.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Not only the teacher but also the students are ready.",
+        "Not only the students but also the teacher is ready."
+      ]
+    },
+    {
+      "id": "ss108-rule-04",
+      "zh": "連接單字或短語時通常不需要逗號；本練習不包括較進階的句首倒裝。",
+      "en": "A comma is normally unnecessary when joining words or phrases; this exercise does not cover advanced sentence-initial inversion.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The bag is not only light but also strong."
+      ]
+    },
+    {
+      "id": "ss108-rule-05",
+      "zh": "Both A and B 中性地表示兩者成立；Not only A but also B 通常令第二項資料感覺更重要、額外或值得注意。",
+      "en": "Both A and B neutrally states that both are true; Not only A but also B often makes the second point feel more important, additional or noteworthy.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Both the course and the textbook are useful.",
+        "The course provides not only useful lessons but also practical exercises."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss108-benefit-01",
+      "zh": "先說明第一項事情，再加入另一項重要資料，使內容更加完整。",
+      "en": "This structure tells the listener that one point is true and then adds another important point."
+    },
+    {
+      "id": "ss108-benefit-02",
+      "zh": "可以把兩項相關資料合併成一句，不需要連續寫兩個短句。",
+      "en": "Instead of writing two separate sentences, you can connect two related facts in one sentence."
+    },
+    {
+      "id": "ss108-benefit-03",
+      "zh": "當人物、物件、計劃或情況有多於一項重要特點時，這個句型能使解釋更有力。",
+      "en": "You can use this structure when a person, object, plan or situation has more than one important feature."
+    },
+    {
+      "id": "ss108-benefit-04",
+      "zh": "現成框架能幫助在說話或寫作時加入另一個原因、好處、結果或例子。",
+      "en": "The sentence frame helps you add another reason, advantage, result or example without beginning a completely new answer."
+    },
+    {
+      "id": "ss108-benefit-05",
+      "zh": "它提供另一種連接資料的方法，避免不斷重複 and 或 also。",
+      "en": "This structure gives you another way to connect ideas, so your sentences do not repeatedly use and or also."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using not only... but also... without changing its original meaning.",
+      "Remember to keep the two connected parts parallel.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 not only... but also... 改寫以下句子，不要改變原意。",
+      "注意兩個連接部分必須使用相同或平行的文法形式。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss108-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The soup is hot. It is spicy too.",
+      "promptZh": "這碗湯很熱，也很辣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup is not only hot but also spicy.",
+      "answerZh": "這碗湯不但很熱，而且很辣。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup is not only hot but also spicy."
+    },
+    {
+      "id": "ss108-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia is both kind and patient.",
+      "promptZh": "米婭既友善，又有耐性。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is not only kind but also patient.",
+      "answerZh": "米婭不但友善，而且有耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is not only kind but also patient."
+    },
+    {
+      "id": "ss108-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben bought bread and milk.",
+      "promptZh": "本買了麵包和牛奶。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben bought not only bread but also milk.",
+      "answerZh": "本不但買了麵包，還買了牛奶。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben bought not only bread but also milk."
+    },
+    {
+      "id": "ss108-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This bag is light. It is also strong.",
+      "promptZh": "這個袋很輕巧，而且也很堅固。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bag is not only light but also strong.",
+      "answerZh": "這個袋不但輕巧，而且堅固。",
+      "answerZhSource": "pdf",
+      "highlight": "This bag is not only light but also strong."
+    },
+    {
+      "id": "ss108-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I enjoy both reading and writing.",
+      "promptZh": "我既喜歡閱讀，也喜歡寫作。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I enjoy not only reading but also writing.",
+      "answerZh": "我不但喜歡閱讀，也喜歡寫作。",
+      "answerZhSource": "pdf",
+      "highlight": "I enjoy not only reading but also writing."
+    },
+    {
+      "id": "ss108-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The film was funny as well as moving.",
+      "promptZh": "這部電影既有趣，又感人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film was not only funny but also moving.",
+      "answerZh": "這部電影不但有趣，而且感人。",
+      "answerZhSource": "pdf",
+      "highlight": "The film was not only funny but also moving."
+    },
+    {
+      "id": "ss108-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our teacher speaks English. She also speaks French.",
+      "promptZh": "我們的老師會說英語，也會說法語。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher speaks not only English but also French.",
+      "answerZh": "我們的老師不但會說英語，還會說法語。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher speaks not only English but also French."
+    },
+    {
+      "id": "ss108-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The shop sells books as well as stationery.",
+      "promptZh": "這間商店售賣書籍，也售賣文具。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop sells not only books but also stationery.",
+      "answerZh": "這間商店不但售賣書籍，還售賣文具。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop sells not only books but also stationery."
+    },
+    {
+      "id": "ss108-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo cleaned the kitchen and the bathroom.",
+      "promptZh": "里奧清潔了廚房和浴室。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo cleaned not only the kitchen but also the bathroom.",
+      "answerZh": "里奧不但清潔了廚房，還清潔了浴室。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo cleaned not only the kitchen but also the bathroom."
+    },
+    {
+      "id": "ss108-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new app is simple to use. In addition, it is useful.",
+      "promptZh": "這個新應用程式容易使用，而且十分實用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new app is not only simple to use but also useful.",
+      "answerZh": "這個新應用程式不但容易使用，而且實用。",
+      "answerZhSource": "pdf",
+      "highlight": "The new app is not only simple to use but also useful."
+    },
+    {
+      "id": "ss108-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah sings well. She also dances well.",
+      "promptZh": "莎拉唱歌唱得很好。她跳舞也跳得很好。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah not only sings well but also dances well.",
+      "answerZh": "莎拉不但唱歌唱得好，而且跳舞也跳得好。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah not only sings well but also dances well."
+    },
+    {
+      "id": "ss108-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The course teaches grammar and helps students speak more confidently.",
+      "promptZh": "這個課程教授文法，也幫助學生更有自信地說英語。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course not only teaches grammar but also helps students speak more confidently.",
+      "answerZh": "這個課程不但教授文法，還幫助學生更有自信地說英語。",
+      "answerZhSource": "pdf",
+      "highlight": "The course not only teaches grammar but also helps students speak more confidently."
+    },
+    {
+      "id": "ss108-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel checked the doors. He also turned off the lights.",
+      "promptZh": "丹尼爾檢查了所有門，也關掉了電燈。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel not only checked the doors but also turned off the lights.",
+      "answerZh": "丹尼爾不但檢查了所有門，還關掉了電燈。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel not only checked the doors but also turned off the lights."
+    },
+    {
+      "id": "ss108-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The travel card can be used on buses and trains.",
+      "promptZh": "這張交通卡可以在巴士和火車上使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The travel card can be used not only on buses but also on trains.",
+      "answerZh": "這張交通卡不但可以在巴士上使用，也可以在火車上使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The travel card can be used not only on buses but also on trains."
+    },
+    {
+      "id": "ss108-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why is the café popular? It has good food, and it offers friendly service.",
+      "promptZh": "這間咖啡店為甚麼受歡迎？它有美味的食物，也提供親切的服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café is popular because it not only has good food but also offers friendly service.",
+      "answerZh": "這間咖啡店受歡迎，因為它不但有美味的食物，還提供親切的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The café is popular because it not only has good food but also offers friendly service."
+    },
+    {
+      "id": "ss108-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The job requires experience as well as patience.",
+      "promptZh": "這份工作需要經驗，也需要耐性。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The job requires not only experience but also patience.",
+      "answerZh": "這份工作不但需要經驗，還需要耐性。",
+      "answerZhSource": "pdf",
+      "highlight": "The job requires not only experience but also patience."
+    },
+    {
+      "id": "ss108-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma wore a hat and carried an umbrella.",
+      "promptZh": "艾瑪戴了帽子，並帶了雨傘。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma not only wore a hat but also carried an umbrella.",
+      "answerZh": "艾瑪不但戴了帽子，還帶了雨傘。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma not only wore a hat but also carried an umbrella."
+    },
+    {
+      "id": "ss108-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The museum attracts local residents. It attracts tourists too.",
+      "promptZh": "這間博物館吸引本地居民，也吸引遊客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum attracts not only local residents but also tourists.",
+      "answerZh": "這間博物館不但吸引本地居民，還吸引遊客。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum attracts not only local residents but also tourists."
+    },
+    {
+      "id": "ss108-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The machine works quickly. It also works quietly.",
+      "promptZh": "這部機器運作迅速，而且十分安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine works not only quickly but also quietly.",
+      "answerZh": "這部機器不但運作迅速，而且十分安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine works not only quickly but also quietly."
+    },
+    {
+      "id": "ss108-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The storm damaged several trees and blocked the main road.",
+      "promptZh": "暴風雨破壞了幾棵樹，並堵塞了主要道路。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm not only damaged several trees but also blocked the main road.",
+      "answerZh": "暴風雨不但破壞了幾棵樹，還堵塞了主要道路。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm not only damaged several trees but also blocked the main road."
+    },
+    {
+      "id": "ss108-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Both the manager and the assistants attended the meeting.",
+      "promptZh": "經理和助理都出席了會議。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only the manager but also the assistants attended the meeting.",
+      "answerZh": "不但經理出席了會議，助理也有出席。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only the manager but also the assistants attended the meeting."
+    },
+    {
+      "id": "ss108-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Both the students and the teacher were surprised by the result.",
+      "promptZh": "學生和老師都對結果感到驚訝。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only the students but also the teacher was surprised by the result.",
+      "answerZh": "不但學生對結果感到驚訝，老師也感到驚訝。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only the students but also the teacher was surprised by the result."
+    },
+    {
+      "id": "ss108-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "In addition to offering free books, the library offers online courses.",
+      "promptZh": "圖書館除了提供免費書籍外，還提供網上課程。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library offers not only free books but also online courses.",
+      "answerZh": "圖書館不但提供免費書籍，還提供網上課程。",
+      "answerZhSource": "pdf",
+      "highlight": "The library offers not only free books but also online courses."
+    },
+    {
+      "id": "ss108-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You should check the spelling and the punctuation.",
+      "promptZh": "你應該檢查串字和標點符號。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You should check not only the spelling but also the punctuation.",
+      "answerZh": "你不但應該檢查串字，還應該檢查標點符號。",
+      "answerZhSource": "pdf",
+      "highlight": "You should check not only the spelling but also the punctuation."
+    },
+    {
+      "id": "ss108-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The medicine reduced the pain. It also helped me sleep.",
+      "promptZh": "這種藥減輕了痛楚，也幫助我入睡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine not only reduced the pain but also helped me sleep.",
+      "answerZh": "這種藥不但減輕了痛楚，還幫助我入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine not only reduced the pain but also helped me sleep."
+    },
+    {
+      "id": "ss108-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room was designed for meetings and individual study.",
+      "promptZh": "這個房間是為會議和個人溫習而設計的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room was designed not only for meetings but also for individual study.",
+      "answerZh": "這個房間不但是為會議而設計，也是為個人溫習而設計的。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was designed not only for meetings but also for individual study."
+    },
+    {
+      "id": "ss108-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The website is useful to students. It is useful to teachers too.",
+      "promptZh": "這個網站對學生有用，對老師也有用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is useful not only to students but also to teachers.",
+      "answerZh": "這個網站不但對學生有用，對老師也有用。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is useful not only to students but also to teachers."
+    },
+    {
+      "id": "ss108-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Besides improving attendance, the programme has increased student confidence.",
+      "promptZh": "這個計劃除了改善出席率外，還提升了學生的自信。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme has not only improved attendance but also increased student confidence.",
+      "answerZh": "這個計劃不但改善了出席率，還提升了學生的自信。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme has not only improved attendance but also increased student confidence."
+    },
+    {
+      "id": "ss108-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach gave us advice and showed us a new exercise.",
+      "promptZh": "教練給了我們建議，並示範了一個新練習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach not only gave us advice but also showed us a new exercise.",
+      "answerZh": "教練不但給了我們建議，還示範了一個新練習。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach not only gave us advice but also showed us a new exercise."
+    },
+    {
+      "id": "ss108-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new policy affects full-time workers. It affects part-time workers as well.",
+      "promptZh": "新政策影響全職員工，也影響兼職員工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new policy affects not only full-time workers but also part-time workers.",
+      "answerZh": "新政策不但影響全職員工，還影響兼職員工。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy affects not only full-time workers but also part-time workers."
+    },
+    {
+      "id": "ss108-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Both the receptionist and the manager know how to use the booking system.",
+      "promptZh": "接待員和經理都懂得使用預約系統。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only the receptionist but also the manager knows how to use the booking system.",
+      "answerZh": "不但接待員懂得使用預約系統，經理也懂得使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only the receptionist but also the manager knows how to use the booking system."
+    },
+    {
+      "id": "ss108-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Both the manager and the receptionists know how to use the booking system.",
+      "promptZh": "經理和接待員都懂得使用預約系統。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only the manager but also the receptionists know how to use the booking system.",
+      "answerZh": "不但經理懂得使用預約系統，接待員也懂得使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only the manager but also the receptionists know how to use the booking system."
+    },
+    {
+      "id": "ss108-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The guide told us where to go. In addition, she explained what to bring.",
+      "promptZh": "導遊告訴我們要去哪裏，此外還解釋了要帶甚麼。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide not only told us where to go but also explained what to bring.",
+      "answerZh": "導遊不但告訴我們要去哪裏，還解釋了要帶甚麼。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide not only told us where to go but also explained what to bring."
+    },
+    {
+      "id": "ss108-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school has added more computers. It has also improved the internet connection.",
+      "promptZh": "學校增添了更多電腦，也改善了網絡連接。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has not only added more computers but also improved the internet connection.",
+      "answerZh": "學校不但增添了更多電腦，還改善了網絡連接。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has not only added more computers but also improved the internet connection."
+    },
+    {
+      "id": "ss108-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What will the new rules do? They will protect customers and reduce waste.",
+      "promptZh": "新規則會有甚麼作用？它們將會保障顧客，並減少浪費。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rules will not only protect customers but also reduce waste.",
+      "answerZh": "新規則不但會保障顧客，還會減少浪費。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rules will not only protect customers but also reduce waste."
+    },
+    {
+      "id": "ss108-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The charity provides meals to elderly people and helps them see a doctor when necessary.",
+      "promptZh": "這間慈善機構為長者提供膳食，也在有需要時協助他們求醫。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity not only provides meals to elderly people but also helps them see a doctor when necessary.",
+      "answerZh": "這間慈善機構不但為長者提供膳食，還在有需要時協助他們求醫。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity not only provides meals to elderly people but also helps them see a doctor when necessary."
+    },
+    {
+      "id": "ss108-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What was the report like? It was clear and easy to understand.",
+      "promptZh": "這份報告怎樣？它內容清晰，也容易明白。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report was not only clear but also easy to understand.",
+      "answerZh": "這份報告不但內容清晰，而且容易明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was not only clear but also easy to understand."
+    },
+    {
+      "id": "ss108-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The camera can take clear photographs during the day as well as at night.",
+      "promptZh": "這部相機在日間和夜間都能拍攝清晰的照片。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The camera can take clear photographs not only during the day but also at night.",
+      "answerZh": "這部相機不但能在日間拍攝清晰的照片，在夜間也可以。",
+      "answerZhSource": "pdf",
+      "highlight": "The camera can take clear photographs not only during the day but also at night."
+    },
+    {
+      "id": "ss108-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ava remembered the meeting time. She also brought all the documents we needed.",
+      "promptZh": "艾娃記得會議時間，也帶齊了我們需要的所有文件。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava not only remembered the meeting time but also brought all the documents we needed.",
+      "answerZh": "艾娃不但記得會議時間，還帶齊了我們需要的所有文件。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava not only remembered the meeting time but also brought all the documents we needed."
+    },
+    {
+      "id": "ss108-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital has shortened waiting times and made its signs easier to read.",
+      "promptZh": "醫院縮短了輪候時間，也令指示牌更容易閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital has not only shortened waiting times but also made its signs easier to read.",
+      "answerZh": "醫院不但縮短了輪候時間，還令指示牌更容易閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital has not only shortened waiting times but also made its signs easier to read."
+    },
+    {
+      "id": "ss108-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The training helped new employees learn the system. It also gave them confidence when speaking to customers.",
+      "promptZh": "這項培訓幫助新員工學習系統，也令他們與顧客交談時更有信心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training not only helped new employees learn the system but also gave them confidence when speaking to customers.",
+      "answerZh": "這項培訓不但幫助新員工學習系統，還令他們與顧客交談時更有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "The training not only helped new employees learn the system but also gave them confidence when speaking to customers."
+    },
+    {
+      "id": "ss108-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Both the safety officer and the workers are responsible for reporting hazards.",
+      "promptZh": "安全主任和工人都有責任報告危險情況。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only the safety officer but also the workers are responsible for reporting hazards.",
+      "answerZh": "不但安全主任有責任報告危險情況，工人也有責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only the safety officer but also the workers are responsible for reporting hazards."
+    },
+    {
+      "id": "ss108-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Both the workers and the safety officer are responsible for reporting hazards.",
+      "promptZh": "工人和安全主任都有責任報告危險情況。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only the workers but also the safety officer is responsible for reporting hazards.",
+      "answerZh": "不但工人有責任報告危險情況，安全主任也有責任。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only the workers but also the safety officer is responsible for reporting hazards."
+    },
+    {
+      "id": "ss108-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public library allows people to borrow printed books. It also gives them free access to digital magazines.",
+      "promptZh": "公共圖書館讓市民借閱印刷書籍，也讓他們免費閱讀電子雜誌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public library not only allows people to borrow printed books but also gives them free access to digital magazines.",
+      "answerZh": "公共圖書館不但讓市民借閱印刷書籍，還讓他們免費閱讀電子雜誌。",
+      "answerZhSource": "pdf",
+      "highlight": "The public library not only allows people to borrow printed books but also gives them free access to digital magazines."
+    },
+    {
+      "id": "ss108-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The plan may lower costs and improve the quality of the service.",
+      "promptZh": "這個計劃可能會降低成本，並提升服務質素。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan may not only lower costs but also improve the quality of the service.",
+      "answerZh": "這個計劃不但可能降低成本，還可能提升服務質素。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan may not only lower costs but also improve the quality of the service."
+    },
+    {
+      "id": "ss108-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The science project required careful research. Besides that, it required effective teamwork among the students.",
+      "promptZh": "這個科學專題需要仔細研究，此外也需要學生之間有效合作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science project required not only careful research but also effective teamwork among the students.",
+      "answerZh": "這個科學專題不但需要仔細研究，還需要學生之間有效合作。",
+      "answerZhSource": "pdf",
+      "highlight": "The science project required not only careful research but also effective teamwork among the students."
+    },
+    {
+      "id": "ss108-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company opened a new office in Singapore and hired twenty local workers.",
+      "promptZh": "公司在新加坡開設了新辦公室，並聘請了二十名本地員工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company not only opened a new office in Singapore but also hired twenty local workers.",
+      "answerZh": "公司不但在新加坡開設了新辦公室，還聘請了二十名本地員工。",
+      "answerZhSource": "pdf",
+      "highlight": "The company not only opened a new office in Singapore but also hired twenty local workers."
+    },
+    {
+      "id": "ss108-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The emergency message was sent by text and announced over the radio.",
+      "promptZh": "緊急訊息透過短訊發送，也在電台廣播。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency message was not only sent by text but also announced over the radio.",
+      "answerZh": "緊急訊息不但透過短訊發送，也在電台廣播。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency message was not only sent by text but also announced over the radio."
+    },
+    {
+      "id": "ss108-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The changes will benefit current customers as well as people who join the service later.",
+      "promptZh": "這些改動會令現有顧客受惠，也會令日後使用服務的人受惠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The changes will benefit not only current customers but also people who join the service later.",
+      "answerZh": "這些改動不但會令現有顧客受惠，還會令日後使用服務的人受惠。",
+      "answerZhSource": "pdf",
+      "highlight": "The changes will benefit not only current customers but also people who join the service later."
+    },
+    {
+      "id": "ss108-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community centre provides a place for young people to study. It also gives elderly residents opportunities to meet others and join activities.",
+      "promptZh": "社區中心為年輕人提供溫習的地方，也讓年長居民有機會與人見面和參加活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre not only provides a place for young people to study but also gives elderly residents opportunities to meet others and join activities.",
+      "answerZh": "社區中心不但為年輕人提供溫習的地方，還讓年長居民有機會與人見面和參加活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre not only provides a place for young people to study but also gives elderly residents opportunities to meet others and join activities."
+    }
+  ]
+}

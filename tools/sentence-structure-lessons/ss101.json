@@ -1,0 +1,1237 @@
+{
+  "id": "ss101",
+  "order": 101,
+  "slug": "all-classification-word-of",
+  "title": "「all + 分類名詞 + of」句型",
+  "titleZh": "「all + 分類名詞 + of」表達「各式各樣／所有類型」",
+  "titleEn": "Using all + classification word + of",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 101 -「all + 分類名詞 + of」表達「各式各樣／所有類型」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb + all + plural classification word + of + noun + other information",
+  "formulas": [
+    {
+      "id": "ss101-formula-after-verb",
+      "labelEn": "After the verb",
+      "labelZh": "放在動詞後",
+      "formula": "Subject + verb + all + plural classification word + of + noun + other information"
+    },
+    {
+      "id": "ss101-formula-subject",
+      "labelEn": "As the subject",
+      "labelZh": "作為主語",
+      "formula": "All + plural classification word + of + noun + verb + other information"
+    }
+  ],
+  "example": "The merchant sells all sorts of jewels.",
+  "exampleZh": "這位商人出售各式各樣的珠寶。",
+  "examples": [
+    {
+      "id": "ss101-example-01",
+      "en": "The merchant sells all sorts of jewels.",
+      "zh": "這位商人出售各式各樣的珠寶。",
+      "highlight": "all sorts of jewels"
+    }
+  ],
+  "meaning": {
+    "zh": "All 可配合 sorts、kinds、types、forms、varieties、styles、sizes、levels 或 categories of，概括各式各樣或所有已包括的類型。"
+  },
+  "rules": [
+    {
+      "id": "ss101-rule-01",
+      "zh": "All 後面的分類名詞一般使用複數形式。",
+      "en": "The classification word after all normally takes the plural form.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all kinds of books",
+        "all types of files",
+        "all forms of communication",
+        "all varieties of tea"
+      ]
+    },
+    {
+      "id": "ss101-rule-02",
+      "zh": "分類名詞後必須使用 of。",
+      "en": "The classification word must be followed by of.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all kinds of people",
+        "all forms of exercise",
+        "all types of music"
+      ]
+    },
+    {
+      "id": "ss101-rule-03",
+      "zh": "Of 後可接複數可數名詞或不可數名詞；初學者應避免在 of 後使用單數可數名詞。",
+      "en": "Of may be followed by a plural countable noun or an uncountable noun; learners should avoid a singular countable noun after of.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all kinds of books",
+        "all types of music",
+        "all forms of help"
+      ]
+    },
+    {
+      "id": "ss101-rule-04",
+      "zh": "Kinds 和 sorts 自然地表示很多種類；types 著重清楚分類；forms 表示不同方式或表現形式；varieties 表示品種；styles、sizes、levels 和 categories 指出特定分類標準。",
+      "en": "Kinds and sorts naturally express many varieties; types stresses clear classification; forms describes different modes of appearance; varieties refers to varieties within a class; styles, sizes, levels and categories identify a specific basis for classification.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "all sorts of problems",
+        "all types of files",
+        "all forms of communication",
+        "all varieties of tea"
+      ]
+    },
+    {
+      "id": "ss101-rule-05",
+      "zh": "整個詞組作主語時，分類名詞本身是複數，後面的動詞通常也使用複數。",
+      "en": "When the whole phrase is the subject, the plural classification word normally takes a plural verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "All kinds of books are available.",
+        "All forms of payment are accepted."
+      ]
+    },
+    {
+      "id": "ss101-rule-06",
+      "zh": "日常英語中的 all kinds of 和 all sorts of 經常表示很多不同種類，不一定真的包括世上每一種；較明確範圍內的 all types/forms/varieties of 較常表示所有已列明類型。",
+      "en": "In everyday English, all kinds of and all sorts of often means many different kinds rather than literally every possible kind; within a clearly defined range, all types/forms/varieties of more often refers to every listed type.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We discussed all sorts of problems."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss101-benefit-01",
+      "zh": "一個短語便可概括很多不同例子，不必列出很長清單。",
+      "en": "One short phrase can summarise many different examples without a long list.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss101-benefit-02",
+      "zh": "選擇 types、forms、varieties、styles 等分類詞，可以準確指出分類方法。",
+      "en": "Choosing types, forms, varieties, styles or another category word clearly identifies how the items are classified.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss101-benefit-03",
+      "zh": "當不需要逐一說出每個例子時，這個句型可避免句子冗長。",
+      "en": "When individual examples are unnecessary, the structure prevents an overlong sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss101-benefit-04",
+      "zh": "All kinds/forms/types of 可取代重複的 many different、a lot of different 或 various，增加句式變化。",
+      "en": "All kinds/forms/types of adds variety instead of repeatedly using many different, a lot of different or various.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss101-benefit-05",
+      "zh": "把分類範圍放在句首能先突出種類，再說明主要信息，適合規則、報告、簡報和說明文章。",
+      "en": "Placing the category phrase first highlights the range before the main message, which suits rules, reports, presentations and explanatory writing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using an appropriate all + classification word + of structure.",
+      "Preserve the original category word and meaning as closely as possible.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用合適的 all + 分類名詞 + of 結構改寫以下句子。",
+      "請盡量保留原句的分類概念和意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss101-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop sells bags of many different kinds.",
+      "promptZh": "這間店售賣很多不同種類的袋。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop sells all kinds of bags.",
+      "answerZh": "這間店售賣各式各樣的袋。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop sells all kinds of bags."
+    },
+    {
+      "id": "ss101-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia enjoys music of every type listed in the course.",
+      "promptZh": "米婭喜歡課程所列出的每一種類型的音樂。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia enjoys all types of music listed in the course.",
+      "answerZh": "米婭喜歡課程所列出的所有類型的音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia enjoys all types of music listed in the course."
+    },
+    {
+      "id": "ss101-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This market offers fruit of many different sorts.",
+      "promptZh": "這個市場提供很多不同種類的水果。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This market offers all sorts of fruit.",
+      "answerZh": "這個市場提供各式各樣的水果。",
+      "answerZhSource": "pdf",
+      "highlight": "This market offers all sorts of fruit."
+    },
+    {
+      "id": "ss101-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our library has books of many different kinds.",
+      "promptZh": "我們的圖書館收藏很多不同種類的書籍。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our library has all kinds of books.",
+      "answerZh": "我們的圖書館收藏各式各樣的書籍。",
+      "answerZhSource": "pdf",
+      "highlight": "Our library has all kinds of books."
+    },
+    {
+      "id": "ss101-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The website provides help in every form described below.",
+      "promptZh": "網站以下文所述的每一種形式提供協助。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website provides all forms of help described below.",
+      "answerZh": "網站提供下文所述的各種形式的協助。",
+      "answerZhSource": "pdf",
+      "highlight": "The website provides all forms of help described below."
+    },
+    {
+      "id": "ss101-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The garden grows every variety of rose sold locally.",
+      "promptZh": "花園種植本地有售的每一個玫瑰品種。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The garden grows all varieties of roses sold locally.",
+      "answerZh": "花園種植本地有售的所有玫瑰品種。",
+      "answerZhSource": "pdf",
+      "highlight": "The garden grows all varieties of roses sold locally."
+    },
+    {
+      "id": "ss101-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop sells clothing in every style shown in the catalogue.",
+      "promptZh": "該店售賣目錄所展示的每一種服裝款式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop sells all styles of clothing shown in the catalogue.",
+      "answerZh": "該店售賣目錄所展示的各種服裝款式。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop sells all styles of clothing shown in the catalogue."
+    },
+    {
+      "id": "ss101-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This box contains toys of many different kinds.",
+      "promptZh": "這個箱子裝有很多不同種類的玩具。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This box contains all kinds of toys.",
+      "answerZh": "這個箱子裝有各式各樣的玩具。",
+      "answerZhSource": "pdf",
+      "highlight": "This box contains all kinds of toys."
+    },
+    {
+      "id": "ss101-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The class discusses problems of many different sorts.",
+      "promptZh": "課堂討論很多不同種類的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The class discusses all sorts of problems.",
+      "answerZh": "課堂討論各式各樣的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The class discusses all sorts of problems."
+    },
+    {
+      "id": "ss101-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The app supports every type of file on the list.",
+      "promptZh": "這個應用程式支援清單上的每一種檔案類型。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app supports all types of files on the list.",
+      "answerZh": "這個應用程式支援清單上的所有檔案類型。",
+      "answerZhSource": "pdf",
+      "highlight": "The app supports all types of files on the list."
+    },
+    {
+      "id": "ss101-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People of many different kinds visit the museum.",
+      "promptZh": "很多不同類型的人都會參觀這間博物館。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All kinds of people visit the museum.",
+      "answerZh": "各種不同類型的人都會參觀這間博物館。",
+      "answerZhSource": "pdf",
+      "highlight": "All kinds of people visit the museum."
+    },
+    {
+      "id": "ss101-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You can find food of every type at the festival.",
+      "promptZh": "你可以在節慶活動中找到每一種類型的食物。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can find all types of food at the festival.",
+      "answerZh": "你可以在節慶活動中找到各種類型的食物。",
+      "answerZhSource": "pdf",
+      "highlight": "You can find all types of food at the festival."
+    },
+    {
+      "id": "ss101-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The programme includes exercise in every form covered by the course.",
+      "promptZh": "這個計劃包括課程所涵蓋的每一種運動形式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme includes all forms of exercise covered by the course.",
+      "answerZh": "這個計劃包括課程所涵蓋的各種運動形式。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme includes all forms of exercise covered by the course."
+    },
+    {
+      "id": "ss101-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What does the stall sell? It sells handmade gifts of many different sorts.",
+      "promptZh": "這個攤檔售賣甚麼？它售賣很多不同種類的手工禮物。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The stall sells all sorts of handmade gifts.",
+      "answerZh": "這個攤檔售賣各式各樣的手工禮物。",
+      "answerZhSource": "pdf",
+      "highlight": "The stall sells all sorts of handmade gifts."
+    },
+    {
+      "id": "ss101-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The company makes every variety of tea listed in its catalogue.",
+      "promptZh": "公司製作目錄所列出的每一個茶葉品種。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company makes all varieties of tea listed in its catalogue.",
+      "answerZh": "公司製作目錄所列出的所有茶葉品種。",
+      "answerZhSource": "pdf",
+      "highlight": "The company makes all varieties of tea listed in its catalogue."
+    },
+    {
+      "id": "ss101-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our teacher uses examples of many different kinds.",
+      "promptZh": "我們的老師使用很多不同種類的例子。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher uses all kinds of examples.",
+      "answerZh": "我們的老師使用各式各樣的例子。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher uses all kinds of examples."
+    },
+    {
+      "id": "ss101-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The shop carries shoes in every style shown online.",
+      "promptZh": "店舖供應網上展示的每一種鞋款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop carries all styles of shoes shown online.",
+      "answerZh": "店舖供應網上展示的各種鞋款。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop carries all styles of shoes shown online."
+    },
+    {
+      "id": "ss101-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hospital treats every type of minor injury listed here.",
+      "promptZh": "醫院治療這裏列出的每一類輕微傷勢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital treats all types of minor injuries listed here.",
+      "answerZh": "醫院治療這裏列出的各類輕微傷勢。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital treats all types of minor injuries listed here."
+    },
+    {
+      "id": "ss101-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The artist works with materials of many different sorts.",
+      "promptZh": "這位藝術家使用很多不同種類的材料。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The artist works with all sorts of materials.",
+      "answerZh": "這位藝術家使用各式各樣的材料。",
+      "answerZhSource": "pdf",
+      "highlight": "The artist works with all sorts of materials."
+    },
+    {
+      "id": "ss101-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Payment in every form shown at the counter is accepted.",
+      "promptZh": "櫃檯所示的每一種付款方式都獲接受。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All forms of payment shown at the counter are accepted.",
+      "answerZh": "櫃檯所示的所有付款方式均獲接受。",
+      "answerZhSource": "pdf",
+      "highlight": "All forms of payment shown at the counter are accepted."
+    },
+    {
+      "id": "ss101-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Customers can order every kind of soup on the menu.",
+      "promptZh": "顧客可以點選餐牌上的每一種湯品。",
+      "promptZhSource": "pdf",
+      "starter": "Customers",
+      "answer": "Customers can order all kinds of soups on the menu.",
+      "answerZh": "顧客可以點選餐牌上的各種湯品。",
+      "answerZhSource": "pdf",
+      "highlight": "Customers can order all kinds of soups on the menu."
+    },
+    {
+      "id": "ss101-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This machine can cut every type of metal used by the factory.",
+      "promptZh": "這部機器能切割工廠所使用的每一類金屬。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This machine can cut all types of metal used by the factory.",
+      "answerZh": "這部機器能切割工廠使用的所有金屬類型。",
+      "answerZhSource": "pdf",
+      "highlight": "This machine can cut all types of metal used by the factory."
+    },
+    {
+      "id": "ss101-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school welcomes students from every type of family background represented in the area.",
+      "promptZh": "學校歡迎來自區內每一類家庭背景的學生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school welcomes students from all types of family backgrounds represented in the area.",
+      "answerZh": "學校歡迎來自區內各種家庭背景的學生。",
+      "answerZhSource": "pdf",
+      "highlight": "The school welcomes students from all types of family backgrounds represented in the area."
+    },
+    {
+      "id": "ss101-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The guide used explanations of many different sorts for the problem.",
+      "promptZh": "導遊使用了很多不同種類的解釋來說明問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide used all sorts of explanations for the problem.",
+      "answerZh": "導遊用了各式各樣的解釋來說明問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide used all sorts of explanations for the problem."
+    },
+    {
+      "id": "ss101-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The software can detect fraud in every form covered by the system.",
+      "promptZh": "這個軟件能偵測系統所涵蓋的每一種詐騙形式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software can detect all forms of fraud covered by the system.",
+      "answerZh": "這個軟件能偵測系統所涵蓋的各種詐騙形式。",
+      "answerZhSource": "pdf",
+      "highlight": "The software can detect all forms of fraud covered by the system."
+    },
+    {
+      "id": "ss101-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Plants of many different kinds can survive in this climate.",
+      "promptZh": "很多不同種類的植物都能在這種氣候下生存。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All kinds of plants can survive in this climate.",
+      "answerZh": "各種植物都能在這種氣候下生存。",
+      "answerZhSource": "pdf",
+      "highlight": "All kinds of plants can survive in this climate."
+    },
+    {
+      "id": "ss101-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The shop stocks every variety of rice requested by local restaurants.",
+      "promptZh": "店舖備有本地餐廳要求的每一個米類品種。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop stocks all varieties of rice requested by local restaurants.",
+      "answerZh": "店舖備有本地餐廳要求的所有米類品種。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop stocks all varieties of rice requested by local restaurants."
+    },
+    {
+      "id": "ss101-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which vehicles does the permit cover? It covers every type of vehicle listed in the notice.",
+      "promptZh": "許可證涵蓋哪些車輛？它涵蓋通告所列出的每一種車輛類型。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The permit covers all types of vehicles listed in the notice.",
+      "answerZh": "許可證涵蓋通告所列出的所有車輛類型。",
+      "answerZhSource": "pdf",
+      "highlight": "The permit covers all types of vehicles listed in the notice."
+    },
+    {
+      "id": "ss101-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The training prepares staff for emergencies of many different sorts.",
+      "promptZh": "培訓讓員工為很多不同種類的緊急情況作好準備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The training prepares staff for all sorts of emergencies.",
+      "answerZh": "培訓讓員工為各式各樣的緊急情況作好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "The training prepares staff for all sorts of emergencies."
+    },
+    {
+      "id": "ss101-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum displays art in every form represented in its collection.",
+      "promptZh": "博物館展示其館藏中所包含的每一種藝術形式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum displays all forms of art represented in its collection.",
+      "answerZh": "博物館展示其館藏中各種形式的藝術。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum displays all forms of art represented in its collection."
+    },
+    {
+      "id": "ss101-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The online store sells furniture in every style available from its suppliers.",
+      "promptZh": "網店售賣供應商能夠提供的每一種家具款式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The online store sells all styles of furniture available from its suppliers.",
+      "answerZh": "網店售賣供應商提供的各種家具款式。",
+      "answerZhSource": "pdf",
+      "highlight": "The online store sells all styles of furniture available from its suppliers."
+    },
+    {
+      "id": "ss101-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Every kind of question on the revision list may appear in the examination.",
+      "promptZh": "溫習清單上的每一類題目都可能在考試中出現。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All kinds of questions on the revision list may appear in the examination.",
+      "answerZh": "溫習清單上的各類題目都可能在考試中出現。",
+      "answerZhSource": "pdf",
+      "highlight": "All kinds of questions on the revision list may appear in the examination."
+    },
+    {
+      "id": "ss101-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new filter removes every type of dust named in the test report.",
+      "promptZh": "新濾網能清除測試報告所列出的每一類塵埃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new filter removes all types of dust named in the test report.",
+      "answerZh": "新濾網能清除測試報告所列出的所有塵埃類型。",
+      "answerZhSource": "pdf",
+      "highlight": "The new filter removes all types of dust named in the test report."
+    },
+    {
+      "id": "ss101-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People use the community hall for activities of many different kinds.",
+      "promptZh": "人們使用社區會堂進行很多不同種類的活動。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People use the community hall for all kinds of activities.",
+      "answerZh": "人們使用社區會堂進行各式各樣的活動。",
+      "answerZhSource": "pdf",
+      "highlight": "People use the community hall for all kinds of activities."
+    },
+    {
+      "id": "ss101-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The policy protects workers against discrimination in every form recognised by law.",
+      "promptZh": "這項政策保障員工免受法律承認的每一種歧視形式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy protects workers against all forms of discrimination recognised by law.",
+      "answerZh": "這項政策保障員工免受法律所承認的各種形式的歧視。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy protects workers against all forms of discrimination recognised by law."
+    },
+    {
+      "id": "ss101-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The chef can prepare every variety of noodle offered by the restaurant.",
+      "promptZh": "廚師能烹調餐廳供應的每一種麵食。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef can prepare all varieties of noodles offered by the restaurant.",
+      "answerZh": "廚師能烹調餐廳供應的所有麵食種類。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef can prepare all varieties of noodles offered by the restaurant."
+    },
+    {
+      "id": "ss101-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "What does the emergency line handle? It handles problems of many different sorts.",
+      "promptZh": "緊急熱線處理甚麼？它處理很多不同種類的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The emergency line handles all sorts of problems.",
+      "answerZh": "緊急熱線處理各式各樣的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency line handles all sorts of problems."
+    },
+    {
+      "id": "ss101-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The platform includes training at every level, from beginner to advanced.",
+      "promptZh": "這個平台提供由初級至高級每一個程度的培訓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The platform includes all levels of training, from beginner to advanced.",
+      "answerZh": "這個平台提供由初級至高級各個程度的培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The platform includes all levels of training, from beginner to advanced."
+    },
+    {
+      "id": "ss101-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The warehouse stores boxes in every size used by the company.",
+      "promptZh": "倉庫存放公司使用的每一種尺寸的箱子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The warehouse stores all sizes of boxes used by the company.",
+      "answerZh": "倉庫存放公司使用的各種尺寸的箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "The warehouse stores all sizes of boxes used by the company."
+    },
+    {
+      "id": "ss101-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Every category of complaint listed in the guide is reviewed by the team.",
+      "promptZh": "指南所列出的每一個投訴類別都會由團隊審閱。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All categories of complaints listed in the guide are reviewed by the team.",
+      "answerZh": "指南所列出的所有投訴類別均由團隊審閱。",
+      "answerZhSource": "pdf",
+      "highlight": "All categories of complaints listed in the guide are reviewed by the team."
+    },
+    {
+      "id": "ss101-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The university offers support for students with learning needs of many different kinds.",
+      "promptZh": "大學為有很多不同種類學習需要的學生提供支援。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university offers support for students with all kinds of learning needs.",
+      "answerZh": "大學為有各種學習需要的學生提供支援。",
+      "answerZhSource": "pdf",
+      "highlight": "The university offers support for students with all kinds of learning needs."
+    },
+    {
+      "id": "ss101-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The inspection covers every type of safety risk mentioned in the regulations.",
+      "promptZh": "檢查涵蓋規例所提及的每一類安全風險。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The inspection covers all types of safety risks mentioned in the regulations.",
+      "answerZh": "檢查涵蓋規例所提及的所有安全風險類型。",
+      "answerZhSource": "pdf",
+      "highlight": "The inspection covers all types of safety risks mentioned in the regulations."
+    },
+    {
+      "id": "ss101-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The service is available through every form of communication provided by the council.",
+      "promptZh": "這項服務可透過議會提供的每一種通訊形式使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service is available through all forms of communication provided by the council.",
+      "answerZh": "這項服務可透過議會提供的所有通訊形式使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The service is available through all forms of communication provided by the council."
+    },
+    {
+      "id": "ss101-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The seed bank protects every variety of local bean recorded in the region.",
+      "promptZh": "種子庫保存區內記錄的每一個本地豆類品種。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The seed bank protects all varieties of local beans recorded in the region.",
+      "answerZh": "種子庫保存區內記錄的所有本地豆類品種。",
+      "answerZhSource": "pdf",
+      "highlight": "The seed bank protects all varieties of local beans recorded in the region."
+    },
+    {
+      "id": "ss101-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Opinions of many different sorts were expressed during the public meeting.",
+      "promptZh": "公開會議上表達了很多不同種類的意見。",
+      "promptZhSource": "pdf",
+      "starter": "All",
+      "answer": "All sorts of opinions were expressed during the public meeting.",
+      "answerZh": "公開會議上表達了各式各樣的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "All sorts of opinions were expressed during the public meeting."
+    },
+    {
+      "id": "ss101-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The exhibition presents jewellery in every style produced by the design team.",
+      "promptZh": "展覽展示設計團隊製作的每一種珠寶款式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The exhibition presents all styles of jewellery produced by the design team.",
+      "answerZh": "展覽展示設計團隊製作的各種珠寶款式。",
+      "answerZhSource": "pdf",
+      "highlight": "The exhibition presents all styles of jewellery produced by the design team."
+    },
+    {
+      "id": "ss101-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The programme accepts applicants with experience in jobs of many different kinds.",
+      "promptZh": "這個計劃接受具有很多不同種類工作經驗的申請人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme accepts applicants with experience in all kinds of jobs.",
+      "answerZh": "這個計劃接受具有各種工作經驗的申請人。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme accepts applicants with experience in all kinds of jobs."
+    },
+    {
+      "id": "ss101-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new system can process every type of document that the department currently uses.",
+      "promptZh": "新系統能處理部門目前使用的每一種文件類型。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system can process all types of documents that the department currently uses.",
+      "answerZh": "新系統能處理部門目前使用的所有文件類型。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system can process all types of documents that the department currently uses."
+    },
+    {
+      "id": "ss101-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The campaign addresses abuse in every form, whether it happens online or in person.",
+      "promptZh": "無論虐待在網上還是當面發生，這項運動都會處理每一種虐待形式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The campaign addresses all forms of abuse, whether it happens online or in person.",
+      "answerZh": "無論虐待在網上還是當面發生，這項運動都針對各種形式的虐待。",
+      "answerZhSource": "pdf",
+      "highlight": "The campaign addresses all forms of abuse, whether it happens online or in person."
+    },
+    {
+      "id": "ss101-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The centre provides training at every level for learners of many different kinds.",
+      "promptZh": "中心為很多不同類型的學員提供每一個程度的培訓。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The centre provides all levels of training for all kinds of learners.",
+      "answerZh": "中心為各類學員提供各個程度的培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The centre provides all levels of training for all kinds of learners."
+    }
+  ]
+}

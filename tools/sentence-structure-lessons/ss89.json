@@ -1,0 +1,1239 @@
+{
+  "id": "ss89",
+  "order": 89,
+  "slug": "comparative-adverbs",
+  "title": "「Adverb 比較句 Comparative」",
+  "titleZh": "副詞比較句",
+  "titleEn": "Adverb Comparative",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 89 -「Adverb 比較句 Comparative」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "Physical page 21 is blank and is therefore excluded from answerPages.",
+      "The PDF presents most rule and benefit explanations in Traditional Chinese; their complete English fields are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb + comparative adverb + than + comparison",
+  "formulas": [
+    {
+      "id": "ss89-formula-main",
+      "labelZh": "副詞比較句",
+      "labelEn": "Comparative adverb",
+      "formula": "Subject + verb + comparative adverb + than + comparison"
+    }
+  ],
+  "example": "This song lets me understand the culture more deeply.",
+  "exampleZh": "這首歌讓我更深入地理解那種文化。",
+  "examples": [
+    {
+      "id": "ss89-example-main",
+      "en": "This song lets me understand the culture more deeply.",
+      "zh": "這首歌讓我更深入地理解那種文化。",
+      "highlight": "more deeply"
+    }
+  ],
+  "meaning": {
+    "zh": "主語＋動詞＋副詞比較級＋than＋比較對象。比較對象十分明顯時，than + comparison 可以省略。"
+  },
+  "rules": [
+    {
+      "id": "ss89-rule-01",
+      "zh": "副詞用來描述「動作怎樣進行」。形容詞通常描述人或事物；副詞則描述動詞所代表的動作。",
+      "en": "Adverbs describe how an action is performed. Adjectives normally describe people or things, whereas adverbs describe the action expressed by a verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Adjective: Her explanation was clearer.",
+        "Adverb: She explained the idea more clearly."
+      ]
+    },
+    {
+      "id": "ss89-rule-02",
+      "zh": "短副詞通常加 -er，例如 fast → faster、hard → harder、early → earlier、late → later。",
+      "en": "Short adverbs normally add -er, for example fast → faster, hard → harder, early → earlier and late → later.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Ben runs faster than Leo."
+      ]
+    },
+    {
+      "id": "ss89-rule-03",
+      "zh": "以 -ly 結尾的副詞通常使用 more 或 less，例如 more carefully、more clearly、more quietly、more frequently 和 less calmly。不要寫 carefullier、more faster 或 more earlier。",
+      "en": "Adverbs ending in -ly normally use more or less, for example more carefully, more clearly, more quietly, more frequently and less calmly. Do not write carefullier, more faster or more earlier.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss89-rule-04",
+      "zh": "部分副詞有不規則比較級：well → better、badly → worse、far → farther / further。",
+      "en": "Some adverbs have irregular comparative forms: well → better, badly → worse and far → farther / further.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Ruby performed better in the second interview."
+      ]
+    },
+    {
+      "id": "ss89-rule-05",
+      "zh": "than 後面必須清楚指出比較對象。也可以比較不同時間或情況。",
+      "en": "The comparison after than must be clear. You may also compare different times or situations.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The new printer works more quietly than the old one.",
+        "Grace speaks more fluently than she did six months ago."
+      ]
+    },
+    {
+      "id": "ss89-rule-06",
+      "zh": "比較對象明顯時，可以省略 than。語境可以表示「比原先」或「比沒有這樣做時」程度更高。",
+      "en": "When the comparison is obvious, than may be omitted. The context can imply a comparison with an earlier state or with the situation without the action.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This song helps me understand the culture more deeply."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss89-benefit-01",
+      "zh": "清楚比較兩個動作。這個句型不只比較兩個人或事物，還可以比較他們做事的方式，並更準確指出比較的是哪一種動作。",
+      "en": "It clearly compares two actions. The structure compares not only people or things but also how they perform an action, identifying the exact action more precisely.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Ben is faster than Leo.",
+        "Ben runs faster than Leo."
+      ]
+    },
+    {
+      "id": "ss89-benefit-02",
+      "zh": "描述進步或轉變。副詞比較級可以說明一個人現在做某件事比以前做得更好、更快或更仔細，適合描述學習進度、工作改善和能力發展。",
+      "en": "It describes improvement or change by showing that someone now performs an action better, faster or more carefully than before. This is useful for learning progress, workplace improvement and skill development.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Grace speaks English more fluently now than six months ago."
+      ]
+    },
+    {
+      "id": "ss89-benefit-03",
+      "zh": "把較長的說法變得簡潔。可以直接用一個比較副詞取代較長的 in a more … way，令句子更自然和直接。",
+      "en": "It makes a longer expression concise. A comparative adverb can replace a longer in a more … way phrase, making the sentence more natural and direct.",
+      "enSource": "pdf-plus-editorial-translation",
+      "examples": [
+        "Instead of: She completed the task in a more efficient way than before.",
+        "Use: She completed the task more efficiently than before."
+      ]
+    },
+    {
+      "id": "ss89-benefit-04",
+      "zh": "更準確地說明表現差異。你可以指出某人不只是「比較好」，而是在甚麼方面做得比較好，讓讀者看出比較的是做事方式而不是整體能力。",
+      "en": "It explains differences in performance more precisely. You can show not merely that someone is better, but the particular way in which the action is performed better.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The doctor examined the patient more thoroughly than the assistant did."
+      ]
+    },
+    {
+      "id": "ss89-benefit-05",
+      "zh": "適合用於說話、作文和報告。副詞比較級可以比較學習方法、工作效率、服務表現、科技產品及日常行為，讓解釋更具體；它能準確說明一件事在哪一方面有所改善。",
+      "en": "It is suitable for speaking, essays and reports. Comparative adverbs can compare learning methods, work efficiency, service performance, technology products and everyday behaviour, making explanations more specific and showing exactly how something is better.",
+      "enSource": "pdf-plus-editorial-translation",
+      "examples": [
+        "The new system processes information more efficiently."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "Physical page 21 is blank and contains no answer content.",
+    "Complete English rule and benefit explanations are faithful editorial translations where the PDF supplies the teaching explanation only in Traditional Chinese."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a comparative adverb.",
+      "Preserve the original meaning and comparison.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用副詞比較級改寫以下句子。",
+      "改寫時須保留原句的意思及比較關係。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss89-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia’s singing is more confident now than it was last year.",
+      "promptZh": "米婭現在唱歌時比去年更有自信。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia sings more confidently now than she did last year.",
+      "answerZh": "米婭現在唱歌比去年更有自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia sings more confidently now than she did last year."
+    },
+    {
+      "id": "ss89-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben runs at a higher speed than Leo.",
+      "promptZh": "本跑步的速度比里奧高。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben runs faster than Leo.",
+      "answerZh": "本跑得比里奧快。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben runs faster than Leo."
+    },
+    {
+      "id": "ss89-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The new printer makes less noise while working than the old one.",
+      "promptZh": "新打印機運作時發出的聲音比舊打印機少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new printer works more quietly than the old one.",
+      "answerZh": "新打印機運作時比舊打印機更安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The new printer works more quietly than the old one."
+    },
+    {
+      "id": "ss89-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ava reads with greater care than her brother.",
+      "promptZh": "艾娃閱讀時比她的哥哥更加仔細。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava reads more carefully than her brother.",
+      "answerZh": "艾娃閱讀時比她的哥哥更仔細。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava reads more carefully than her brother."
+    },
+    {
+      "id": "ss89-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Our arrival was earlier than the other group’s.",
+      "promptZh": "我們到達的時間比另一組早。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We arrived earlier than the other group.",
+      "answerZh": "我們比另一組更早到達。",
+      "answerZhSource": "pdf",
+      "highlight": "We arrived earlier than the other group."
+    },
+    {
+      "id": "ss89-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The light from this lamp is brighter than the light from that one.",
+      "promptZh": "這盞燈發出的光比那盞燈明亮。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This lamp shines more brightly than that one.",
+      "answerZh": "這盞燈比那盞燈照得更明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "This lamp shines more brightly than that one."
+    },
+    {
+      "id": "ss89-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel’s answer was more polite than his earlier answers.",
+      "promptZh": "丹尼爾這次的回答比他之前的回答更有禮貌。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel answered more politely than before.",
+      "answerZh": "丹尼爾回答得比以前更有禮貌。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel answered more politely than before."
+    },
+    {
+      "id": "ss89-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The children showed greater attention during the second story than during the first.",
+      "promptZh": "孩子們聽第二個故事時比聽第一個故事時更加專心。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children listened more attentively during the second story than during the first.",
+      "answerZh": "孩子們聽第二個故事時比聽第一個故事時更專心。",
+      "answerZhSource": "pdf",
+      "highlight": "The children listened more attentively during the second story than during the first."
+    },
+    {
+      "id": "ss89-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My phone takes less time to charge than yours.",
+      "promptZh": "我的手機充電所需的時間比你的短。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My phone charges more quickly than yours.",
+      "answerZh": "我的手機比你的充電更快。",
+      "answerZhSource": "pdf",
+      "highlight": "My phone charges more quickly than yours."
+    },
+    {
+      "id": "ss89-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Grace’s spoken English is more fluent now than it was six months ago.",
+      "promptZh": "格蕾絲現在的英語口語比六個月前更流利。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace speaks English more fluently now than she did six months ago.",
+      "answerZh": "格蕾絲現在說英語比六個月前更流利。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace speaks English more fluently now than she did six months ago."
+    },
+    {
+      "id": "ss89-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team put more effort into practice this week than last week.",
+      "promptZh": "球隊本星期練習時付出的努力比上星期多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team practised harder this week than last week.",
+      "answerZh": "球隊本星期比上星期練習得更努力。",
+      "answerZhSource": "pdf",
+      "highlight": "The team practised harder this week than last week."
+    },
+    {
+      "id": "ss89-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Nora’s handwriting is neater than Max’s.",
+      "promptZh": "諾拉的字跡比麥克斯的整齊。",
+      "promptZhSource": "pdf",
+      "starter": "Nora",
+      "answer": "Nora writes more neatly than Max.",
+      "answerZh": "諾拉寫字比麥克斯整齊。",
+      "answerZhSource": "pdf",
+      "highlight": "Nora writes more neatly than Max."
+    },
+    {
+      "id": "ss89-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The curves on this road are sharper than those on the road near the school.",
+      "promptZh": "這條道路的彎位比學校附近道路的彎位更急。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This road bends more sharply than the road near the school.",
+      "answerZh": "這條道路的彎位比學校附近的道路更急。",
+      "answerZhSource": "pdf",
+      "highlight": "This road bends more sharply than the road near the school."
+    },
+    {
+      "id": "ss89-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The guide’s explanation of the rules was clearer than the written notice.",
+      "promptZh": "導遊對規則的解釋比書面告示更清楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide explained the rules more clearly than the written notice did.",
+      "answerZh": "導遊比書面告示更清楚地解釋了規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide explained the rules more clearly than the written notice did."
+    },
+    {
+      "id": "ss89-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bus’s arrival was later than usual this morning.",
+      "promptZh": "巴士今早到達的時間比平常遲。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus arrived later than usual this morning.",
+      "answerZh": "巴士今早比平常遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus arrived later than usual this morning."
+    },
+    {
+      "id": "ss89-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The puzzle was easier for Ella to complete than for me.",
+      "promptZh": "艾拉完成這個拼圖比我容易。",
+      "promptZhSource": "pdf",
+      "starter": "Ella",
+      "answer": "Ella completed the puzzle more easily than I did.",
+      "answerZh": "艾拉比我更容易完成這個拼圖。",
+      "answerZhSource": "pdf",
+      "highlight": "Ella completed the puzzle more easily than I did."
+    },
+    {
+      "id": "ss89-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new system provides safer storage for information than the old one.",
+      "promptZh": "新系統儲存資料時比舊系統安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system stores information more securely than the old one.",
+      "answerZh": "新系統儲存資料時比舊系統更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system stores information more securely than the old one."
+    },
+    {
+      "id": "ss89-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Because of the heavy rain, his driving speed was lower than usual.",
+      "promptZh": "由於大雨，他駕駛的速度比平常低。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He drove more slowly than usual because of the heavy rain.",
+      "answerZh": "由於大雨，他駕駛得比平常慢。",
+      "answerZhSource": "pdf",
+      "highlight": "He drove more slowly than usual because of the heavy rain."
+    },
+    {
+      "id": "ss89-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The nurse used a gentler voice with the frightened child than with the others.",
+      "promptZh": "護士跟受驚的孩子說話時，使用了比對其他人更溫柔的聲線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse spoke more gently to the frightened child than to the others.",
+      "answerZh": "護士跟受驚的孩子說話時，比跟其他人說話時更加溫柔。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse spoke more gently to the frightened child than to the others."
+    },
+    {
+      "id": "ss89-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our class makes more frequent visits to the library than the other class.",
+      "promptZh": "我們班到訪圖書館的次數比另一班頻密。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our class visits the library more frequently than the other class.",
+      "answerZh": "我們班比另一班更頻密地到訪圖書館。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class visits the library more frequently than the other class."
+    },
+    {
+      "id": "ss89-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ruby’s performance in the second interview was better than her performance in the first.",
+      "promptZh": "露比在第二次面試中的表現比第一次好。",
+      "promptZhSource": "pdf",
+      "starter": "Ruby",
+      "answer": "Ruby performed better in the second interview than in the first.",
+      "answerZh": "露比在第二次面試中的表現比第一次好。",
+      "answerZhSource": "pdf",
+      "highlight": "Ruby performed better in the second interview than in the first."
+    },
+    {
+      "id": "ss89-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine’s performance is worse today than it was yesterday.",
+      "promptZh": "這部機器今天的表現比昨天差。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine works worse today than it did yesterday.",
+      "answerZh": "這部機器今天運作得比昨天差。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine works worse today than it did yesterday."
+    },
+    {
+      "id": "ss89-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Leo covered a greater distance than the rest of us.",
+      "promptZh": "里奧走過的距離比我們其他人遠。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo travelled farther than the rest of us.",
+      "answerZh": "里奧走得比我們其他人遠。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo travelled farther than the rest of us."
+    },
+    {
+      "id": "ss89-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The red car’s stop was more sudden than the blue car’s.",
+      "promptZh": "紅色汽車停下來時比藍色汽車突然。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The red car stopped more suddenly than the blue car.",
+      "answerZh": "紅色汽車停下來時比藍色汽車突然。",
+      "answerZhSource": "pdf",
+      "highlight": "The red car stopped more suddenly than the blue car."
+    },
+    {
+      "id": "ss89-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Peter’s voice was louder than Anna’s during the presentation.",
+      "promptZh": "在簡報期間，彼得的聲音比安娜響亮。",
+      "promptZhSource": "pdf",
+      "starter": "Peter",
+      "answer": "Peter spoke more loudly than Anna during the presentation.",
+      "answerZh": "在簡報期間，彼得說話比安娜響亮。",
+      "answerZhSource": "pdf",
+      "highlight": "Peter spoke more loudly than Anna during the presentation."
+    },
+    {
+      "id": "ss89-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The students’ work on the experiment was more accurate after the demonstration than before it.",
+      "promptZh": "示範後，學生進行實驗時比示範前準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students completed the experiment more accurately after the demonstration than before it.",
+      "answerZh": "示範後，學生進行實驗時比示範前更加準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The students completed the experiment more accurately after the demonstration than before it."
+    },
+    {
+      "id": "ss89-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Sam’s reaction was less calm than his sister’s.",
+      "promptZh": "森姆的反應不及他的姐姐冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "Sam",
+      "answer": "Sam reacted less calmly than his sister.",
+      "answerZh": "森姆的反應不及他的姐姐冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Sam reacted less calmly than his sister."
+    },
+    {
+      "id": "ss89-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The doctor’s examination of the patient was more thorough than the assistant’s.",
+      "promptZh": "醫生為病人進行的檢查比助理的更加徹底。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor examined the patient more thoroughly than the assistant did.",
+      "answerZh": "醫生為病人檢查得比助理更徹底。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor examined the patient more thoroughly than the assistant did."
+    },
+    {
+      "id": "ss89-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We should show greater care when planning the event this time than we did last time.",
+      "promptZh": "我們這次策劃活動時應該比上次更加仔細。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should plan the event more carefully this time than we did last time.",
+      "answerZh": "我們這次策劃活動時應該比上次更仔細。",
+      "answerZhSource": "pdf",
+      "highlight": "We should plan the event more carefully this time than we did last time."
+    },
+    {
+      "id": "ss89-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new sensor is more reliable at switching off the lights than the old sensor.",
+      "promptZh": "新感應器關燈時比舊感應器可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new sensor switches off the lights more reliably than the old sensor.",
+      "answerZh": "新感應器關燈時比舊感應器更可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The new sensor switches off the lights more reliably than the old sensor."
+    },
+    {
+      "id": "ss89-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Maya took less time to solve the problem than anyone else in the group.",
+      "promptZh": "瑪雅解決問題所需的時間比組內任何其他人都短。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya solved the problem faster than anyone else in the group.",
+      "answerZh": "瑪雅解決問題的速度比組內任何其他人都快。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya solved the problem faster than anyone else in the group."
+    },
+    {
+      "id": "ss89-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The second speaker received a warmer response from the audience than the first speaker.",
+      "promptZh": "觀眾對第二位講者的反應比對第一位講者熱烈。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The audience responded more warmly to the second speaker than to the first.",
+      "answerZh": "觀眾對第二位講者的反應比對第一位講者熱烈。",
+      "answerZhSource": "pdf",
+      "highlight": "The audience responded more warmly to the second speaker than to the first."
+    },
+    {
+      "id": "ss89-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This path provides a more direct route to the station than the main road.",
+      "promptZh": "這條小徑前往車站的路線比大路直接。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You can reach the station more directly by taking this path than by following the main road.",
+      "answerZh": "走這條小徑比沿大路前往車站更加直接。",
+      "answerZhSource": "pdf",
+      "highlight": "You can reach the station more directly by taking this path than by following the main road."
+    },
+    {
+      "id": "ss89-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Under the new timetable, the bus service is more regular than before.",
+      "promptZh": "按照新時間表，巴士服務比以前更有規律。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The buses run more regularly under the new timetable than before.",
+      "answerZh": "按照新時間表，巴士比以前更有規律地行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "The buses run more regularly under the new timetable than before."
+    },
+    {
+      "id": "ss89-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why was Alan the first person to finish? His way of working was more efficient than everyone else’s.",
+      "promptZh": "艾倫為甚麼最先完成？他的工作方式比其他人更有效率。",
+      "promptZhSource": "pdf",
+      "starter": "Alan",
+      "answer": "Alan finished first because he worked more efficiently than everyone else.",
+      "answerZh": "艾倫最先完成，因為他的工作效率比其他人高。",
+      "answerZhSource": "pdf",
+      "highlight": "Alan finished first because he worked more efficiently than everyone else."
+    },
+    {
+      "id": "ss89-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "On the second attempt, the teacher used a lower speaking speed while repeating the example so that everyone could follow it.",
+      "promptZh": "老師第二次重複例子時降低了說話速度，讓所有人都能跟上。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher repeated the example more slowly on the second attempt so that everyone could follow it.",
+      "answerZh": "老師第二次重複例子時說得較慢，讓所有人都能跟上。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher repeated the example more slowly on the second attempt so that everyone could follow it."
+    },
+    {
+      "id": "ss89-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company’s response time to complaints is shorter now than it was last year.",
+      "promptZh": "公司現在回應投訴所需的時間比去年短。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company now responds to complaints more promptly than it did last year.",
+      "answerZh": "公司現在回應投訴比去年迅速。",
+      "answerZhSource": "pdf",
+      "highlight": "The company now responds to complaints more promptly than it did last year."
+    },
+    {
+      "id": "ss89-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "After the officer stopped the traffic, the children crossed the road with greater safety than before.",
+      "promptZh": "警員截停車輛後，孩子們過馬路時比之前安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children crossed the road more safely after the officer stopped the traffic than before.",
+      "answerZh": "警員截停車輛後，孩子們過馬路時比之前更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The children crossed the road more safely after the officer stopped the traffic than before."
+    },
+    {
+      "id": "ss89-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The updated software uses less time and memory to process large files than the old version.",
+      "promptZh": "更新後的軟件處理大型檔案時，所使用的時間和記憶體都比舊版本少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The updated software processes large files more efficiently than the old version.",
+      "answerZh": "更新後的軟件處理大型檔案時比舊版本更有效率。",
+      "answerZhSource": "pdf",
+      "highlight": "The updated software processes large files more efficiently than the old version."
+    },
+    {
+      "id": "ss89-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although the hall was crowded, the staff managed the movement of people through the entrance in a smoother way than at the previous event.",
+      "promptZh": "雖然禮堂十分擠迫，但職員這次安排人群通過入口時比上一次活動順暢。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although the hall was crowded, the staff moved people through the entrance more smoothly than at the previous event.",
+      "answerZh": "雖然禮堂十分擠迫，但職員安排人群通過入口時比上一次活動順暢。",
+      "answerZhSource": "pdf",
+      "highlight": "Although the hall was crowded, the staff moved people through the entrance more smoothly than at the previous event."
+    },
+    {
+      "id": "ss89-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "With the new reading method, students gain a deeper understanding of difficult passages than before.",
+      "promptZh": "使用新的閱讀方法後，學生對艱深文章的理解比以前深入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new reading method helps students understand difficult passages more deeply than before.",
+      "answerZh": "新的閱讀方法幫助學生比以前更深入地理解艱深文章。",
+      "answerZhSource": "pdf",
+      "highlight": "The new reading method helps students understand difficult passages more deeply than before."
+    },
+    {
+      "id": "ss89-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To avoid errors, you should give the figures a closer check than you gave them in the first draft.",
+      "promptZh": "為了避免錯誤，你應該比檢查初稿時更仔細地檢查數字。",
+      "promptZhSource": "pdf",
+      "starter": "To",
+      "answer": "To avoid errors, you should check the figures more closely than you did in the first draft.",
+      "answerZh": "為了避免錯誤，你應該比檢查初稿時更加仔細地檢查數字。",
+      "answerZhSource": "pdf",
+      "highlight": "To avoid errors, you should check the figures more closely than you did in the first draft."
+    },
+    {
+      "id": "ss89-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager’s second presentation of the same proposal was more persuasive than the first.",
+      "promptZh": "經理第二次介紹同一份建議書時，比第一次更具說服力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager presented the same proposal more persuasively at the second meeting than at the first.",
+      "answerZh": "經理在第二次會議上介紹同一份建議書時，比第一次更具說服力。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager presented the same proposal more persuasively at the second meeting than at the first."
+    },
+    {
+      "id": "ss89-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Even though both teams trained hard, the home team’s adaptation to the wet conditions was quicker than the visitors’.",
+      "promptZh": "雖然兩支球隊都努力訓練，但主隊適應濕滑環境的速度比客隊快。",
+      "promptZhSource": "pdf",
+      "starter": "Even",
+      "answer": "Even though both teams trained hard, the home team adapted more quickly to the wet conditions than the visitors.",
+      "answerZh": "雖然兩支球隊都努力訓練，但主隊比客隊更快適應濕滑環境。",
+      "answerZhSource": "pdf",
+      "highlight": "Even though both teams trained hard, the home team adapted more quickly to the wet conditions than the visitors."
+    },
+    {
+      "id": "ss89-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "With the new equipment, the hospital is able to treat emergency patients in less time than before.",
+      "promptZh": "有了新設備後，醫院可以用比以前更短的時間治理急症病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital can now treat emergency patients more rapidly than before because of the new equipment.",
+      "answerZh": "由於有了新設備，醫院現在可以比以前更迅速地治理急症病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital can now treat emergency patients more rapidly than before because of the new equipment."
+    },
+    {
+      "id": "ss89-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The volunteers’ distribution of food across the neighbourhoods was more even than during the previous campaign.",
+      "promptZh": "義工在不同社區分配食物時，比上一次活動平均。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The volunteers distributed food more evenly across the neighbourhoods than they had during the previous campaign.",
+      "answerZh": "義工在不同社區分配食物時，比上一次活動更加平均。",
+      "answerZhSource": "pdf",
+      "highlight": "The volunteers distributed food more evenly across the neighbourhoods than they had during the previous campaign."
+    },
+    {
+      "id": "ss89-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Users need less help to set up the device when they follow the revised instructions than when they follow the old ones.",
+      "promptZh": "使用修訂後的指示設定裝置時，用戶所需的協助比使用舊指示時少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revised instructions enable users to set up the device more independently than the old instructions do.",
+      "answerZh": "修訂後的指示讓用戶設定裝置時比使用舊指示更加獨立。",
+      "answerZhSource": "pdf",
+      "highlight": "The revised instructions enable users to set up the device more independently than the old instructions do."
+    },
+    {
+      "id": "ss89-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The debate team’s responses to opposing views showed greater thought in the final than during practice.",
+      "promptZh": "辯論隊在決賽中回應相反觀點時，比練習期間更加深思熟慮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The debate team responded more thoughtfully to opposing views in the final than during practice.",
+      "answerZh": "辯論隊在決賽中回應相反觀點時，比練習期間更加深思熟慮。",
+      "answerZhSource": "pdf",
+      "highlight": "The debate team responded more thoughtfully to opposing views in the final than during practice."
+    },
+    {
+      "id": "ss89-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Researchers make a more objective judgement when they compare several sources than when they rely on one report.",
+      "promptZh": "研究人員比較多個資料來源時，所作的判斷比只依賴一份報告時客觀。",
+      "promptZhSource": "pdf",
+      "starter": "By",
+      "answer": "By comparing several sources, researchers can judge a claim more objectively than by relying on one report.",
+      "answerZh": "透過比較多個資料來源，研究人員可以比只依賴一份報告更客觀地判斷一項說法。",
+      "answerZhSource": "pdf",
+      "highlight": "By comparing several sources, researchers can judge a claim more objectively than by relying on one report."
+    },
+    {
+      "id": "ss89-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Before choosing the revised plan, the committee gave the long-term risks a more careful examination than it had given them before.",
+      "promptZh": "委員會選擇修訂方案前，比以往更加仔細地審視長遠風險。",
+      "promptZhSource": "pdf",
+      "starter": "Before",
+      "answer": "Before choosing the revised plan, the committee examined the long-term risks more carefully than it had before.",
+      "answerZh": "委員會選擇修訂方案前，比以往更加仔細地審視長遠風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Before choosing the revised plan, the committee examined the long-term risks more carefully than it had before."
+    }
+  ]
+}

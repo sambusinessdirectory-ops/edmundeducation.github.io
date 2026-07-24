@@ -1,0 +1,1249 @@
+{
+  "id": "ss114",
+  "order": 114,
+  "slug": "not-so-much-a-as-b",
+  "title": "「Not so much A as B」句型",
+  "titleZh": "「Not so much A as B」表示「與其說是 A，不如說是 B」",
+  "titleEn": "Using Not so much A as B for a more accurate emphasis",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 114 -「Not so much A as B」表示「與其說是 A，不如說是 B」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + not so much + A + as + B",
+  "formulas": [
+    {
+      "id": "ss114-formula-basic",
+      "labelEn": "Basic pattern",
+      "labelZh": "基本句式",
+      "formula": "Subject + be + not so much + A + as + B"
+    },
+    {
+      "id": "ss114-formula-action",
+      "labelEn": "Action-verb pattern",
+      "labelZh": "動作動詞句式",
+      "formula": "Subject + do / does / did + not so much + base verb A + as + base verb B"
+    },
+    {
+      "id": "ss114-formula-other",
+      "labelEn": "Other common pattern",
+      "labelZh": "其他常見句式",
+      "formula": "Subject + verb + not so much + A + as + B"
+    }
+  ],
+  "example": "The issue is not so much cost as timing.",
+  "exampleZh": "問題與其說是成本，不如說是時機。",
+  "examples": [
+    {
+      "id": "ss114-example-01",
+      "en": "The issue is not so much cost as timing.",
+      "zh": "問題與其說是成本，不如說是時機。",
+      "highlight": "not so much cost as timing"
+    }
+  ],
+  "meaning": {
+    "zh": "Not so much A as B 不一定完全否定 A，而是指出 B 更準確、更重要或更接近真正原因。"
+  },
+  "rules": [
+    {
+      "id": "ss114-rule-01",
+      "zh": "B 是更準確或更重要的重點；A 可能有一點道理，但 B 更接近真正原因。",
+      "en": "B is the more accurate or important point; A may contain some truth, but B is closer to the real reason.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The trip was not so much tiring as boring."
+      ]
+    },
+    {
+      "id": "ss114-rule-02",
+      "zh": "A 和 B 應使用相同或相近的平行文法形式，例如名詞配名詞、形容詞配形容詞。",
+      "en": "A and B should use the same or closely parallel grammatical form, such as noun + noun or adjective + adjective.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The problem is not so much money as time.",
+        "He was not so much angry as disappointed."
+      ]
+    },
+    {
+      "id": "ss114-rule-03",
+      "zh": "目標結構使用 as，不使用 but 或 than。",
+      "en": "Use as in the target structure, not but or than.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "not so much A as B"
+      ]
+    },
+    {
+      "id": "ss114-rule-04",
+      "zh": "有介詞時通常在兩部分重複介詞，使 A 和 B 的結構更清楚。",
+      "en": "When a preposition is needed, normally repeat it in both parts to keep A and B structurally clear.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The debate is not so much about who is right as about what should happen next."
+      ]
+    },
+    {
+      "id": "ss114-rule-05",
+      "zh": "動作動詞通常使用 do、does 或 did；情態動詞亦可直接置於 not so much 前。",
+      "en": "Action verbs normally use do, does or did; a modal verb may also appear directly before not so much.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The advertisement does not so much provide information as create excitement.",
+        "The policy may not so much reduce costs as move them elsewhere."
+      ]
+    },
+    {
+      "id": "ss114-rule-06",
+      "zh": "Not A but B 較直接否定 A；not so much A as B 語氣較細緻，承認 A 可能有一點成立，但 B 更準確。",
+      "en": "Not A but B rejects A more directly; not so much A as B is subtler and allows that A may be partly true while B is more accurate.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "He was not angry but disappointed.",
+        "He was not so much angry as disappointed."
+      ]
+    },
+    {
+      "id": "ss114-rule-07",
+      "zh": "Rather than 常表示選擇、取代或偏好；not so much A as B 主要比較描述、原因或重點。",
+      "en": "Rather than often expresses choice, replacement or preference; not so much A as B mainly compares descriptions, causes or emphasis.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "We travelled by train rather than by plane.",
+        "The issue is not so much cost as timing."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss114-benefit-01",
+      "zh": "可以承認 A 有一點道理，同時指出 B 才是更準確的重點，表達更細緻。",
+      "en": "It lets you acknowledge that A has some truth while showing that B is the more accurate emphasis.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss114-benefit-02",
+      "zh": "當事情有兩個可能原因時，能清楚突出真正原因或核心問題。",
+      "en": "When two causes are possible, it clearly highlights the real cause or central issue.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss114-benefit-03",
+      "zh": "可以把 A 和更重要的 B 合併在同一句，令表達更緊密。",
+      "en": "It combines A and the more important B in one sentence, creating a tighter expression.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss114-benefit-04",
+      "zh": "在討論、作文或報告中，能較有禮貌地修正看法，避免武斷地說 A 完全錯誤。",
+      "en": "In discussion, essays or reports, it corrects a view politely without bluntly claiming that A is entirely wrong.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss114-benefit-05",
+      "zh": "特別適合分析真正原因、主要問題、人物感受、政策影響、行為目的和不同解釋。",
+      "en": "It is especially useful for analysing real causes, central problems, feelings, policy effects, purposes and competing explanations.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss114-benefit-06",
+      "zh": "可取代反覆使用 A matters, but B matters more，使作文和口語更成熟自然。",
+      "en": "It replaces repetitive wording such as A matters, but B matters more and adds a more mature, natural pattern.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using not so much A as B to show that B is more accurate, important or central than A.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 not so much A as B 改寫以下句子，表示 B 比 A 更準確、更重要，或更接近真正重點。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss114-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Cost is a concern, but timing is the main issue.",
+      "promptZh": "成本是一項考慮，但時機才是主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The issue is not so much cost as timing.",
+      "answerZh": "問題與其說是成本，不如說是時機。",
+      "answerZhSource": "pdf",
+      "highlight": "The issue is not so much cost as timing."
+    },
+    {
+      "id": "ss114-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "She has enough ability, but she mainly lacks confidence.",
+      "promptZh": "她有足夠能力，但主要欠缺自信。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her difficulty is not so much a lack of ability as a lack of confidence.",
+      "answerZh": "她的困難與其說是能力不足，不如說是缺乏自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Her difficulty is not so much a lack of ability as a lack of confidence."
+    },
+    {
+      "id": "ss114-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The room is not extremely small. Its main problem is its poor organisation.",
+      "promptZh": "房間並非非常細小，主要問題是佈置欠佳。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem with the room is not so much its size as its poor organisation.",
+      "answerZh": "房間的問題與其說是面積，不如說是佈置欠佳。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the room is not so much its size as its poor organisation."
+    },
+    {
+      "id": "ss114-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "He seemed disappointed more than angry.",
+      "promptZh": "他看起來失望多於憤怒。",
+      "promptZhSource": "pdf",
+      "starter": "His",
+      "answer": "His reaction was not so much anger as disappointment.",
+      "answerZh": "他的反應與其說是憤怒，不如說是失望。",
+      "answerZhSource": "pdf",
+      "highlight": "His reaction was not so much anger as disappointment."
+    },
+    {
+      "id": "ss114-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The trip was a little tiring, but it was mainly boring.",
+      "promptZh": "旅程有點令人疲累，但主要是沉悶。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trip was not so much tiring as boring.",
+      "answerZh": "這趟旅程與其說令人疲累，不如說令人沉悶。",
+      "answerZhSource": "pdf",
+      "highlight": "The trip was not so much tiring as boring."
+    },
+    {
+      "id": "ss114-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The task is not very hard; it simply takes a lot of time.",
+      "promptZh": "這項任務並不太困難，只是需要很多時間。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This task is not so much difficult as time-consuming.",
+      "answerZh": "這項任務與其說困難，不如說耗時。",
+      "answerZhSource": "pdf",
+      "highlight": "This task is not so much difficult as time-consuming."
+    },
+    {
+      "id": "ss114-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The film has some funny moments, but it is mainly touching.",
+      "promptZh": "這部電影有一些有趣的情節，但主要是感人的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film is not so much funny as touching.",
+      "answerZh": "這部電影與其說有趣，不如說感人。",
+      "answerZhSource": "pdf",
+      "highlight": "The film is not so much funny as touching."
+    },
+    {
+      "id": "ss114-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Bad luck played a small part, but poor planning caused most of the delay.",
+      "promptZh": "運氣不好造成了一小部分影響，但大部分延誤都是規劃不善所致。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The delay was not so much bad luck as poor planning.",
+      "answerZh": "延誤與其說是運氣不好，不如說是規劃不善。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay was not so much bad luck as poor planning."
+    },
+    {
+      "id": "ss114-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Luck helped a little, but hard work was the main reason for their success.",
+      "promptZh": "運氣提供了一點幫助，但努力才是他們成功的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "Their",
+      "answer": "Their success was not so much luck as hard work.",
+      "answerZh": "他們的成功與其說靠運氣，不如說靠努力。",
+      "answerZhSource": "pdf",
+      "highlight": "Their success was not so much luck as hard work."
+    },
+    {
+      "id": "ss114-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Grammar was included, but clear communication was the main focus of the lesson.",
+      "promptZh": "課堂包括文法，但主要重點是清晰溝通。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lesson was not so much about grammar as about clear communication.",
+      "answerZh": "這堂課與其說是關於文法，不如說是關於清晰溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "The lesson was not so much about grammar as about clear communication."
+    },
+    {
+      "id": "ss114-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Maya cares less about the price and more about the product’s quality.",
+      "promptZh": "瑪雅較少考慮價錢，更重視產品質素。",
+      "promptZhSource": "pdf",
+      "starter": "Maya’s",
+      "answer": "Maya’s concern is not so much the price as the product’s quality.",
+      "answerZh": "瑪雅關心的與其說是價錢，不如說是產品質素。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya’s concern is not so much the price as the product’s quality."
+    },
+    {
+      "id": "ss114-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "People expected a discussion, but the manager mainly announced a decision.",
+      "promptZh": "大家原本預期會進行討論，但經理主要是宣布一項決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting was not so much a discussion as an announcement.",
+      "answerZh": "這次會議與其說是一場討論，不如說是一項宣布。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting was not so much a discussion as an announcement."
+    },
+    {
+      "id": "ss114-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "He seemed rude, but nervousness explained his behaviour better.",
+      "promptZh": "他看起來有點無禮，但緊張更能解釋他的行為。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He was not so much rude as nervous.",
+      "answerZh": "他與其說是無禮，不如說是緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "He was not so much rude as nervous."
+    },
+    {
+      "id": "ss114-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The event did not disappear from the schedule; it was moved to a later date.",
+      "promptZh": "活動並沒有從日程中消失，只是被移至較後日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The event was not so much cancelled as postponed.",
+      "answerZh": "活動與其說被取消，不如說被延期。",
+      "answerZhSource": "pdf",
+      "highlight": "The event was not so much cancelled as postponed."
+    },
+    {
+      "id": "ss114-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The change may cause some difficulty, but it offers a greater opportunity.",
+      "promptZh": "這項改變可能造成一些困難，但同時帶來更大的機會。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The change is not so much a problem as an opportunity.",
+      "answerZh": "這項改變與其說是一個問題，不如說是一個機會。",
+      "answerZhSource": "pdf",
+      "highlight": "The change is not so much a problem as an opportunity."
+    },
+    {
+      "id": "ss114-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The book contains a story, but it mainly brings together the writer’s memories.",
+      "promptZh": "這本書包含故事，但主要是把作者的回憶集合起來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The book is not so much a story as a collection of memories.",
+      "answerZh": "這本書與其說是一個故事，不如說是一本回憶集。",
+      "answerZhSource": "pdf",
+      "highlight": "The book is not so much a story as a collection of memories."
+    },
+    {
+      "id": "ss114-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Daniel’s words sounded less like a complaint and more like a request for help.",
+      "promptZh": "丹尼爾的說話不太像投訴，反而更像是在求助。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel was not so much complaining as asking for help.",
+      "answerZh": "丹尼爾與其說是在投訴，不如說是在求助。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel was not so much complaining as asking for help."
+    },
+    {
+      "id": "ss114-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "She did not attack the whole plan; she only raised questions about one part of it.",
+      "promptZh": "她沒有批評整個計劃，只是對其中一部分提出疑問。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She was not so much criticising the plan as questioning one part of it.",
+      "answerZh": "她與其說是在批評計劃，不如說是在質疑其中一部分。",
+      "answerZhSource": "pdf",
+      "highlight": "She was not so much criticising the plan as questioning one part of it."
+    },
+    {
+      "id": "ss114-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The prices are not extremely low, but customers receive good value for what they pay.",
+      "promptZh": "價格並非非常低，但顧客所付的金錢物有所值。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is not so much cheap as good value for money.",
+      "answerZh": "這間商店與其說價錢便宜，不如說物有所值。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is not so much cheap as good value for money."
+    },
+    {
+      "id": "ss114-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The rule causes trouble mainly because it is unclear, not because it is strict.",
+      "promptZh": "這項規則造成問題，主要是因為內容不清楚，而不是因為太嚴格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule is not so much strict as unclear.",
+      "answerZh": "新規則與其說嚴格，不如說內容不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule is not so much strict as unclear."
+    },
+    {
+      "id": "ss114-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Finding information is fairly easy. Deciding whether to trust it is the real challenge.",
+      "promptZh": "尋找資料相當容易，判斷資料是否可信才是真正的挑戰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main challenge is not so much finding information as judging whether it is reliable.",
+      "answerZh": "主要挑戰與其說是尋找資料，不如說是判斷資料是否可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The main challenge is not so much finding information as judging whether it is reliable."
+    },
+    {
+      "id": "ss114-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We can probably complete the work. The more important question is whether we can do it well.",
+      "promptZh": "我們大概能完成工作，更重要的問題是能否把工作做好。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What we must ask is not so much whether we can finish as whether we can finish well.",
+      "answerZh": "我們要問的與其說是能否完成，不如說是能否把事情做好。",
+      "answerZhSource": "pdf",
+      "highlight": "What we must ask is not so much whether we can finish as whether we can finish well."
+    },
+    {
+      "id": "ss114-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Deciding who is right matters less than deciding what should happen next.",
+      "promptZh": "判斷誰對誰錯不及決定下一步應該怎樣做重要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The debate is not so much about who is right as about what should happen next.",
+      "answerZh": "爭論的重點與其說是誰對誰錯，不如說是下一步應該怎樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "The debate is not so much about who is right as about what should happen next."
+    },
+    {
+      "id": "ss114-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Money influenced her decision a little, but family needs influenced it much more.",
+      "promptZh": "金錢對她的決定有一點影響，但家庭需要的影響大得多。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her decision was based not so much on money as on family needs.",
+      "answerZh": "她的決定與其說是基於金錢，不如說是基於家庭需要。",
+      "answerZhSource": "pdf",
+      "highlight": "Her decision was based not so much on money as on family needs."
+    },
+    {
+      "id": "ss114-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The length of the instructions was a minor issue; their lack of clarity was the main problem.",
+      "promptZh": "指示太長只是一個小問題，內容不清楚才是主要問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The problem was not so much that the instructions were long as that they were unclear.",
+      "answerZh": "問題與其說是指示太長，不如說是指示不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem was not so much that the instructions were long as that they were unclear."
+    },
+    {
+      "id": "ss114-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The programme’s main purpose is to prevent mistakes, although it can also punish them.",
+      "promptZh": "這個計劃的主要目的是防止錯誤，雖然它亦可以懲罰犯錯者。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The programme was designed not so much to punish mistakes as to prevent them.",
+      "answerZh": "這個計劃的設計重點與其說是懲罰錯誤，不如說是防止錯誤發生。",
+      "answerZhSource": "pdf",
+      "highlight": "The programme was designed not so much to punish mistakes as to prevent them."
+    },
+    {
+      "id": "ss114-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Complete beginners may benefit, but the course is mainly intended for learners who need more practice.",
+      "promptZh": "完全初學者可能也會得益，但這個課程主要為需要更多練習的學習者而設。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course is intended not so much for complete beginners as for learners who need more practice.",
+      "answerZh": "這個課程與其說是為完全初學者而設，不如說是為需要更多練習的學習者而設。",
+      "answerZhSource": "pdf",
+      "highlight": "The course is intended not so much for complete beginners as for learners who need more practice."
+    },
+    {
+      "id": "ss114-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Hiring more staff may help, but better communication is what the team needs most.",
+      "promptZh": "聘請更多員工可能有幫助，但團隊最需要的是更好的溝通。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What the team needs is not so much more staff as better communication.",
+      "answerZh": "團隊需要的與其說是更多員工，不如說是更好的溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "What the team needs is not so much more staff as better communication."
+    },
+    {
+      "id": "ss114-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Speed contributed a little, but poor visibility was the main cause of the accident.",
+      "promptZh": "車速造成了一點影響，但能見度低才是意外的主要原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The accident resulted not so much from speed as from poor visibility.",
+      "answerZh": "這宗意外與其說是由車速造成，不如說是由能見度低造成。",
+      "answerZhSource": "pdf",
+      "highlight": "The accident resulted not so much from speed as from poor visibility."
+    },
+    {
+      "id": "ss114-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Large companies are affected, but small local businesses feel the greater impact.",
+      "promptZh": "大型公司受到影響，但本地小型企業受到的影響更大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy affects not so much large companies as small local businesses.",
+      "answerZh": "這項政策影響的與其說是大型公司，不如說是本地小型企業。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy affects not so much large companies as small local businesses."
+    },
+    {
+      "id": "ss114-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The manager did not refuse the proposal completely. She put off making a decision.",
+      "promptZh": "經理沒有完全拒絕建議，只是延遲作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager did not so much reject the proposal as delay the decision.",
+      "answerZh": "經理與其說是拒絕建議，不如說是延遲作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager did not so much reject the proposal as delay the decision."
+    },
+    {
+      "id": "ss114-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Leo remembered the appointment, but he thought it was at a different time.",
+      "promptZh": "里奧記得有這個約會，但他以為約會是在另一個時間。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo did not so much forget the appointment as misunderstand the time.",
+      "answerZh": "里奧與其說是忘記約會，不如說是誤解了約會時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo did not so much forget the appointment as misunderstand the time."
+    },
+    {
+      "id": "ss114-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The speech mainly strengthened their existing beliefs rather than giving them new ones.",
+      "promptZh": "這場演講主要加強了他們原有的信念，而不是令他們產生新的想法。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speech did not so much change their minds as confirm what they already believed.",
+      "answerZh": "這場演講與其說改變了他們的想法，不如說確認了他們原本相信的事情。",
+      "answerZhSource": "pdf",
+      "highlight": "The speech did not so much change their minds as confirm what they already believed."
+    },
+    {
+      "id": "ss114-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The problem returned after a few days, so the repair only hid it temporarily.",
+      "promptZh": "問題幾天後再次出現，因此那次維修只是一時把問題隱藏起來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The repair did not so much solve the problem as hide it for a few days.",
+      "answerZh": "這次維修與其說解決了問題，不如說把問題隱藏了幾天。",
+      "answerZhSource": "pdf",
+      "highlight": "The repair did not so much solve the problem as hide it for a few days."
+    },
+    {
+      "id": "ss114-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The advertisement gives a few facts, but its main purpose is to make people excited.",
+      "promptZh": "這則廣告提供了一些資料，但主要目的是令觀眾感到興奮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The advertisement does not so much provide information as create excitement.",
+      "answerZh": "這則廣告與其說是提供資料，不如說是營造興奮感。",
+      "answerZhSource": "pdf",
+      "highlight": "The advertisement does not so much provide information as create excitement."
+    },
+    {
+      "id": "ss114-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ms Wong avoided stating the answer directly and instead helped the students find it.",
+      "promptZh": "黃老師沒有直接說出答案，而是幫助學生自行找出答案。",
+      "promptZhSource": "pdf",
+      "starter": "Ms",
+      "answer": "Ms Wong did not so much give the answer as guide the students towards it.",
+      "answerZh": "黃老師與其說是直接給予答案，不如說是引導學生找出答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Ms Wong did not so much give the answer as guide the students towards it."
+    },
+    {
+      "id": "ss114-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Her message contained little apology; it mainly explained her reasons.",
+      "promptZh": "她的訊息沒有太多道歉，主要是在解釋自己的理由。",
+      "promptZhSource": "pdf",
+      "starter": "Her",
+      "answer": "Her message did not so much apologise as explain why she acted that way.",
+      "answerZh": "她的訊息與其說是在道歉，不如說是在解釋自己為何那樣做。",
+      "answerZhSource": "pdf",
+      "highlight": "Her message did not so much apologise as explain why she acted that way."
+    },
+    {
+      "id": "ss114-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The app can perform some teaching tasks, but its main role is to support teachers.",
+      "promptZh": "這個應用程式可以執行一些教學工作，但主要作用是支援教師。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new app does not so much replace teachers as support their work.",
+      "answerZh": "這個新應用程式與其說是取代教師，不如說是支援教師的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The new app does not so much replace teachers as support their work."
+    },
+    {
+      "id": "ss114-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No solution was reached, but everyone saw more clearly how serious the problem was.",
+      "promptZh": "會議沒有得出解決方法，但大家更清楚看到問題有多嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The meeting did not so much produce a solution as reveal the size of the problem.",
+      "answerZh": "這次會議與其說得出了解決方法，不如說揭示了問題的嚴重程度。",
+      "answerZhSource": "pdf",
+      "highlight": "The meeting did not so much produce a solution as reveal the size of the problem."
+    },
+    {
+      "id": "ss114-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The delay will cause passengers some inconvenience, but the greater harm may be a loss of trust in the company.",
+      "promptZh": "延誤會為乘客帶來一些不便，但更大的傷害可能是乘客失去對公司的信任。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For passengers, the greater effect of the delay may be not so much inconvenience as a loss of trust in the company.",
+      "answerZh": "對乘客而言，延誤造成的較大影響與其說是不便，不如說是失去對公司的信任。",
+      "answerZhSource": "pdf",
+      "highlight": "For passengers, the greater effect of the delay may be not so much inconvenience as a loss of trust in the company."
+    },
+    {
+      "id": "ss114-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Both sides want the same final result; they mainly disagree about the speed of change.",
+      "promptZh": "雙方都希望得到相同的最終結果，主要分歧在於改變的速度。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The disagreement is not so much about the final goal as about how quickly to reach it.",
+      "answerZh": "雙方的分歧與其說是在於最終目標，不如說是在於應該多快達成目標。",
+      "answerZhSource": "pdf",
+      "highlight": "The disagreement is not so much about the final goal as about how quickly to reach it."
+    },
+    {
+      "id": "ss114-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People are less worried about the existence of the technology than about its use without clear rules.",
+      "promptZh": "人們對科技本身的存在沒有那麼擔心，反而更擔心科技在缺乏清晰規則下被使用。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public concern is not so much that the technology exists as that it may be used without clear rules.",
+      "answerZh": "公眾擔心的與其說是這項科技的存在，不如說是它可能在缺乏清晰規則下被使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Public concern is not so much that the technology exists as that it may be used without clear rules."
+    },
+    {
+      "id": "ss114-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Equipment is limited, but the lack of trained staff is the hospital’s greater difficulty.",
+      "promptZh": "醫院的設備有限，但缺乏受過訓練的員工才是更大的困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital’s difficulty is not so much a shortage of equipment as a shortage of trained staff.",
+      "answerZh": "醫院的困難與其說是缺乏設備，不如說是缺乏受過訓練的員工。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital’s difficulty is not so much a shortage of equipment as a shortage of trained staff."
+    },
+    {
+      "id": "ss114-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The figures are useful, but the report’s greater value lies in the questions it encourages readers to ask.",
+      "promptZh": "數字很有用，但報告更大的價值在於它促使讀者提出的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report is valuable not so much for the figures it contains as for the questions it raises.",
+      "answerZh": "這份報告的價值與其說在於當中的數字，不如說在於它提出的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is valuable not so much for the figures it contains as for the questions it raises."
+    },
+    {
+      "id": "ss114-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The idea had some weaknesses, but the project mainly failed because the team had too little time to test it.",
+      "promptZh": "構思有一些不足，但項目失敗的主要原因是團隊沒有足夠時間進行測試。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The project failed not so much because the idea was weak as because the team lacked time to test it.",
+      "answerZh": "項目失敗與其說是因為構思薄弱，不如說是因為團隊缺乏時間進行測試。",
+      "answerZhSource": "pdf",
+      "highlight": "The project failed not so much because the idea was weak as because the team lacked time to test it."
+    },
+    {
+      "id": "ss114-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The number of study hours matters less than how effectively those hours are used.",
+      "promptZh": "溫習時數不及如何有效運用這些時間重要。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What matters is not so much how many hours you study as how effectively you use them.",
+      "answerZh": "重要的與其說是你溫習多少小時，不如說是你如何有效運用這些時間。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters is not so much how many hours you study as how effectively you use them."
+    },
+    {
+      "id": "ss114-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many people were willing to accept change, but they feared having no voice in the decision.",
+      "promptZh": "很多人願意接受改變，但他們害怕自己無法參與決策。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public response was not so much opposition to change as fear of being excluded from the decision.",
+      "answerZh": "公眾的反應與其說是反對改變，不如說是害怕被排除在決策過程之外。",
+      "answerZhSource": "pdf",
+      "highlight": "The public response was not so much opposition to change as fear of being excluded from the decision."
+    },
+    {
+      "id": "ss114-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The coach did not mainly ask the athletes to increase their training; she stressed careful recovery.",
+      "promptZh": "教練的重點不是要求運動員增加訓練，而是強調小心恢復身體。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach’s advice was not so much to train harder as to recover more carefully.",
+      "answerZh": "教練的建議與其說是更努力訓練，不如說是更小心地恢復身體。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach’s advice was not so much to train harder as to recover more carefully."
+    },
+    {
+      "id": "ss114-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The policy could appear to save money, but it may simply transfer costs from one department to another.",
+      "promptZh": "這項政策表面上可能節省金錢，但實際上可能只是把成本由一個部門轉移至另一個部門。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This policy may not so much reduce costs as move them from one department to another.",
+      "answerZh": "這項政策與其說可以減少成本，不如說可能只是把成本由一個部門轉移至另一個部門。",
+      "answerZhSource": "pdf",
+      "highlight": "This policy may not so much reduce costs as move them from one department to another."
+    },
+    {
+      "id": "ss114-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The system works during normal use. The more important test is whether it remains reliable when several problems occur together.",
+      "promptZh": "系統在正常使用時能夠運作。更重要的考驗是當多個問題同時發生時，它能否保持可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The real test is not so much whether the system works in normal conditions as whether it remains reliable when several problems occur at once.",
+      "answerZh": "真正的考驗與其說是系統能否在正常情況下運作，不如說是當多個問題同時發生時，系統能否保持可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The real test is not so much whether the system works in normal conditions as whether it remains reliable when several problems occur at once."
+    }
+  ]
+}

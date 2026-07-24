@@ -1,0 +1,1263 @@
+{
+  "id": "ss97",
+  "order": 97,
+  "slug": "negative-limiting-adverbial-inversion",
+  "title": "Inversion 倒裝句",
+  "titleZh": "「Inversion 倒裝句」",
+  "titleEn": "Inversion",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 97 -「Inversion 倒裝句」.pdf",
+    "pageCount": 25,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exercisePages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "answerPages": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "omissions": []
+  },
+  "formula": "Negative or limiting expression + auxiliary verb / modal verb / be + subject + remaining information",
+  "formulas": [
+    {
+      "id": "ss97-formula-general",
+      "labelEn": "General formula",
+      "labelZh": "基本公式",
+      "formula": "Negative or limiting expression + auxiliary verb / modal verb / be + subject + remaining information"
+    },
+    {
+      "id": "ss97-formula-main",
+      "labelEn": "With an ordinary main verb",
+      "labelZh": "配合一般主要動詞",
+      "formula": "Negative expression + do / does / did + subject + base verb"
+    },
+    {
+      "id": "ss97-formula-existing",
+      "labelEn": "With an existing auxiliary, modal or be",
+      "labelZh": "句子已有助動詞、情態動詞或 be 動詞",
+      "formula": "Negative expression + existing auxiliary / modal / be + subject + remaining information"
+    }
+  ],
+  "example": "Seldom do I reflect on the meaning of my own life.",
+  "exampleZh": "我很少反思自己人生的意義。",
+  "examples": [
+    {
+      "id": "ss97-example-seldom",
+      "en": "Seldom do I reflect on the meaning of my own life.",
+      "zh": "我很少反思自己人生的意義。",
+      "highlight": "Seldom do I reflect"
+    },
+    {
+      "id": "ss97-example-rarely",
+      "en": "Rarely does Mia complain about her homework.",
+      "zh": "米婭很少抱怨功課。",
+      "highlight": "Rarely does Mia complain"
+    },
+    {
+      "id": "ss97-example-never",
+      "en": "Never should you share your password.",
+      "zh": "你絕不應分享密碼。",
+      "highlight": "Never should you share"
+    },
+    {
+      "id": "ss97-example-only-after",
+      "en": "Only after the teacher gave another example did I understand the rule.",
+      "zh": "直到老師再舉一個例子後，我才明白那條規則。",
+      "highlight": "Only after the teacher gave another example did I understand"
+    }
+  ],
+  "meaning": {
+    "zh": "當否定或限制意思的副詞、短語或子句移到句首時，主要子句通常需要倒裝。"
+  },
+  "rules": [
+    {
+      "id": "ss97-rule-01",
+      "zh": "本練習測試句式，而不是同義詞轉換；原句使用哪一個否定或限制語，答案便必須保留哪一個。",
+      "en": "This exercise tests sentence structure, not synonym replacement. Preserve the exact negative or limiting expression from the source.",
+      "examples": [
+        "Barely had the train left the station when the rain began."
+      ]
+    },
+    {
+      "id": "ss97-rule-02",
+      "zh": "一般主要動詞需要加入 do、does 或 did，並把主要動詞改回原形。",
+      "en": "Add do, does or did when necessary, and use the base form of the main verb.",
+      "examples": [
+        "Rarely does Mia complain about her homework."
+      ]
+    },
+    {
+      "id": "ss97-rule-03",
+      "zh": "如句子已有助動詞、情態動詞或 be 動詞，便把它移到主語前，不應再加入 do、does 或 did。",
+      "en": "Move an existing auxiliary, modal or be verb before the subject; do not add do, does or did.",
+      "examples": [
+        "Never should you share your password.",
+        "Rarely is the library this quiet."
+      ]
+    },
+    {
+      "id": "ss97-rule-04",
+      "zh": "Only 置前後，只倒裝主要子句；after、when 或 if 後面的子句維持正常語序。",
+      "en": "After initial Only, invert only the main clause, not the clause immediately following after, when or if.",
+      "examples": [
+        "Only after the teacher gave another example did I understand the rule."
+      ]
+    },
+    {
+      "id": "ss97-rule-05",
+      "zh": "Not until 置前後，只倒裝主要子句；until 後面的子句維持正常語序。",
+      "en": "After initial Not until, invert only the main clause; keep the clause following until in normal word order.",
+      "examples": [
+        "Not until I began working night shifts did I appreciate the value of sleep."
+      ]
+    },
+    {
+      "id": "ss97-rule-06",
+      "zh": "保留正確的配對連接詞及原句副詞，例如 No sooner...than...、Hardly...when...、Scarcely...when... 和 Barely...when...。",
+      "en": "Keep the correct paired connector and do not replace the original adverb.",
+      "examples": [
+        "No sooner had I sat down than the phone rang.",
+        "Hardly had the doors opened when the crowd moved forward."
+      ]
+    },
+    {
+      "id": "ss97-rule-07",
+      "zh": "Not only 放在句首時需要倒裝，而且只有第一個子句需要倒裝。",
+      "en": "Not only at the beginning requires inversion in the first clause only.",
+      "examples": [
+        "Not only does the new app save time, but it also reduces paperwork."
+      ]
+    },
+    {
+      "id": "ss97-rule-08",
+      "zh": "本練習集中處理由否定或限制語引起的倒裝，不包括條件倒裝、地點倒裝或 so / such 結果倒裝。",
+      "en": "This exercise covers inversion caused by negative or limiting expressions, not conditional, place or result inversion."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss97-benefit-01",
+      "zh": "以 Never、Under no circumstances 或 On no account 開始句子，可以立即突出警告或限制。",
+      "en": "It emphasises an important restriction."
+    },
+    {
+      "id": "ss97-benefit-02",
+      "zh": "Only after、Not until、Barely...when... 和 No sooner...than... 可以更清楚表達事情發生的時間。",
+      "en": "It makes the timing between events clearer."
+    },
+    {
+      "id": "ss97-benefit-03",
+      "zh": "你不需要每句都以主語開始，也可以先寫出最值得注意的意思。",
+      "en": "It gives you another way to begin a sentence."
+    },
+    {
+      "id": "ss97-benefit-04",
+      "zh": "At no time、In no way 和 Under no circumstances 適合用於正式警告及論述。",
+      "en": "It is useful for formal warnings and arguments."
+    },
+    {
+      "id": "ss97-benefit-05",
+      "zh": "配對倒裝結構可以把兩件緊接發生的事情組織在同一句中。",
+      "en": "It helps connect two closely related events."
+    },
+    {
+      "id": "ss97-benefit-06",
+      "zh": "掌握固定倒裝框架後，可以更快組織說話及寫作內容。",
+      "en": "It provides a useful speaking and writing frame."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence by moving the exact negative or limiting expression to the beginning and using inversion.",
+      "Do not replace any word with a synonym.",
+      "Preserve the original meaning, tense, modal meaning and vocabulary.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把原句的否定或限制語完整地移到句首，並使用倒裝句改寫。",
+      "不得把任何詞語改成近義詞。",
+      "答案必須保留原句的意思、時態、情態意思及詞彙。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss97-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "I seldom eat breakfast before seven o’clock.",
+      "promptZh": "我很少在七時前吃早餐。",
+      "promptZhSource": "pdf",
+      "starter": "Seldom",
+      "answer": "Seldom do I eat breakfast before seven o’clock.",
+      "answerZh": "我很少在七時前吃早餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Seldom do I eat breakfast before seven o’clock."
+    },
+    {
+      "id": "ss97-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Mia rarely complains about her homework.",
+      "promptZh": "米婭很少抱怨功課。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely does Mia complain about her homework.",
+      "answerZh": "米婭很少抱怨功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely does Mia complain about her homework."
+    },
+    {
+      "id": "ss97-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We never saw the lost dog again after that day.",
+      "promptZh": "那天之後，我們再也沒有見過那隻走失的狗。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never did we see the lost dog again after that day.",
+      "answerZh": "那天之後，我們再也沒有見過那隻走失的狗。",
+      "answerZhSource": "pdf",
+      "highlight": "Never did we see the lost dog again after that day."
+    },
+    {
+      "id": "ss97-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Leo hardly ever uses cash now.",
+      "promptZh": "里奧現在幾乎不使用現金。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly ever does Leo use cash now.",
+      "answerZh": "里奧現在幾乎不使用現金。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly ever does Leo use cash now."
+    },
+    {
+      "id": "ss97-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The library is rarely this quiet after school.",
+      "promptZh": "圖書館放學後很少如此安靜。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely is the library this quiet after school.",
+      "answerZh": "圖書館放學後很少如此安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely is the library this quiet after school."
+    },
+    {
+      "id": "ss97-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The children had never visited a farm before.",
+      "promptZh": "孩子們以前從未參觀過農場。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never had the children visited a farm before.",
+      "answerZh": "孩子們以前從未參觀過農場。",
+      "answerZhSource": "pdf",
+      "highlight": "Never had the children visited a farm before."
+    },
+    {
+      "id": "ss97-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You should never share your password with strangers.",
+      "promptZh": "你絕不應該把密碼告訴陌生人。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never should you share your password with strangers.",
+      "answerZh": "你絕不應該把密碼告訴陌生人。",
+      "answerZhSource": "pdf",
+      "highlight": "Never should you share your password with strangers."
+    },
+    {
+      "id": "ss97-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Our team seldom practises indoors.",
+      "promptZh": "我們的隊伍很少在室內練習。",
+      "promptZhSource": "pdf",
+      "starter": "Seldom",
+      "answer": "Seldom does our team practise indoors.",
+      "answerZh": "我們的隊伍很少在室內練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Seldom does our team practise indoors."
+    },
+    {
+      "id": "ss97-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The morning bus has rarely arrived late this month.",
+      "promptZh": "這個月，早上的巴士很少遲到。",
+      "promptZhSource": "pdf",
+      "starter": "Rarely",
+      "answer": "Rarely has the morning bus arrived late this month.",
+      "answerZh": "這個月，早上的巴士很少遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "Rarely has the morning bus arrived late this month."
+    },
+    {
+      "id": "ss97-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I have never felt so confident during a presentation.",
+      "promptZh": "我在簡報時從未感到如此有信心。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never have I felt so confident during a presentation.",
+      "answerZh": "我在簡報時從未感到如此有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Never have I felt so confident during a presentation."
+    },
+    {
+      "id": "ss97-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The machine must at no time be operated without its safety cover.",
+      "promptZh": "任何時候都不得在沒有安全罩的情況下操作這部機器。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At no time must the machine be operated without its safety cover.",
+      "answerZh": "任何時候都不得在沒有安全罩的情況下操作這部機器。",
+      "answerZhSource": "pdf",
+      "highlight": "At no time must the machine be operated without its safety cover."
+    },
+    {
+      "id": "ss97-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Visitors must under no circumstances enter the staff area.",
+      "promptZh": "訪客在任何情況下都不得進入職員區。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances must visitors enter the staff area.",
+      "answerZh": "訪客在任何情況下都不得進入職員區。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances must visitors enter the staff area."
+    },
+    {
+      "id": "ss97-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This small error in no way affects the final result.",
+      "promptZh": "這個小錯誤完全不會影響最終結果。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In no way does this small error affect the final result.",
+      "answerZh": "這個小錯誤完全不會影響最終結果。",
+      "answerZhSource": "pdf",
+      "highlight": "In no way does this small error affect the final result."
+    },
+    {
+      "id": "ss97-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "I did not once doubt her honesty.",
+      "promptZh": "我一次也沒有懷疑過她的誠信。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not once did I doubt her honesty.",
+      "answerZh": "我一次也沒有懷疑過她的誠信。",
+      "answerZhSource": "pdf",
+      "highlight": "Not once did I doubt her honesty."
+    },
+    {
+      "id": "ss97-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You should on no account leave valuables unattended.",
+      "promptZh": "你無論如何都不應該讓貴重物品無人看管。",
+      "promptZhSource": "pdf",
+      "starter": "On",
+      "answer": "On no account should you leave valuables unattended.",
+      "answerZh": "你無論如何都不應該讓貴重物品無人看管。",
+      "answerZhSource": "pdf",
+      "highlight": "On no account should you leave valuables unattended."
+    },
+    {
+      "id": "ss97-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school has never before received so many applications.",
+      "promptZh": "學校以前從未收到這麼多申請。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never before has the school received so many applications.",
+      "answerZh": "學校以前從未收到這麼多申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Never before has the school received so many applications."
+    },
+    {
+      "id": "ss97-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The manager can in no way accept this proposal in its present form.",
+      "promptZh": "經理完全不能接受這份目前形式的建議書。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In no way can the manager accept this proposal in its present form.",
+      "answerZh": "經理完全不能接受這份目前形式的建議書。",
+      "answerZhSource": "pdf",
+      "highlight": "In no way can the manager accept this proposal in its present form."
+    },
+    {
+      "id": "ss97-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The patient was at no time left alone.",
+      "promptZh": "病人在任何時候都沒有被單獨留下。",
+      "promptZhSource": "pdf",
+      "starter": "At",
+      "answer": "At no time was the patient left alone.",
+      "answerZh": "病人在任何時候都沒有被單獨留下。",
+      "answerZhSource": "pdf",
+      "highlight": "At no time was the patient left alone."
+    },
+    {
+      "id": "ss97-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "We must under no circumstances ignore the warning signs.",
+      "promptZh": "我們在任何情況下都不得忽視警告訊號。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances must we ignore the warning signs.",
+      "answerZh": "我們在任何情況下都不得忽視警告訊號。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances must we ignore the warning signs."
+    },
+    {
+      "id": "ss97-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The speaker did not once become nervous during the interview.",
+      "promptZh": "講者在面試期間一次也沒有變得緊張。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not once did the speaker become nervous during the interview.",
+      "answerZh": "講者在面試期間一次也沒有變得緊張。",
+      "answerZhSource": "pdf",
+      "highlight": "Not once did the speaker become nervous during the interview."
+    },
+    {
+      "id": "ss97-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I understood the rule only after the teacher gave another example.",
+      "promptZh": "老師再舉一個例子後，我才明白這條規則。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the teacher gave another example did I understand the rule.",
+      "answerZh": "老師再舉一個例子後，我才明白這條規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the teacher gave another example did I understand the rule."
+    },
+    {
+      "id": "ss97-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "I did not appreciate the value of sleep until I began working night shifts.",
+      "promptZh": "直到我開始上夜班，我才明白睡眠的價值。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until I began working night shifts did I appreciate the value of sleep.",
+      "answerZh": "直到我開始上夜班，我才明白睡眠的價值。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until I began working night shifts did I appreciate the value of sleep."
+    },
+    {
+      "id": "ss97-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The lights came on only when the show began.",
+      "promptZh": "表演開始時，燈光才亮起。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when the show began did the lights come on.",
+      "answerZh": "表演開始時，燈光才亮起。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when the show began did the lights come on."
+    },
+    {
+      "id": "ss97-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The road did not reopen until the workers removed the fallen tree.",
+      "promptZh": "直到工人移走倒下的樹木，道路才重開。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the workers removed the fallen tree did the road reopen.",
+      "answerZh": "直到工人移走倒下的樹木，道路才重開。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the workers removed the fallen tree did the road reopen."
+    },
+    {
+      "id": "ss97-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "We can solve this problem only by working together.",
+      "promptZh": "我們只有合作才能解決這個問題。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only by working together can we solve this problem.",
+      "answerZh": "我們只有合作才能解決這個問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Only by working together can we solve this problem."
+    },
+    {
+      "id": "ss97-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Daniel only then noticed his missing wallet.",
+      "promptZh": "丹尼爾到那時才發現銀包不見了。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only then did Daniel notice his missing wallet.",
+      "answerZh": "丹尼爾到那時才發現銀包不見了。",
+      "answerZhSource": "pdf",
+      "highlight": "Only then did Daniel notice his missing wallet."
+    },
+    {
+      "id": "ss97-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "She did not tell us the full story until the meeting ended.",
+      "promptZh": "直到會議結束，她才告訴我們整件事。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the meeting ended did she tell us the full story.",
+      "answerZh": "直到會議結束，她才告訴我們整件事。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the meeting ended did she tell us the full story."
+    },
+    {
+      "id": "ss97-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "You can enter the laboratory only if a teacher is present.",
+      "promptZh": "只有老師在場時，你才可以進入實驗室。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only if a teacher is present can you enter the laboratory.",
+      "answerZh": "只有老師在場時，你才可以進入實驗室。",
+      "answerZhSource": "pdf",
+      "highlight": "Only if a teacher is present can you enter the laboratory."
+    },
+    {
+      "id": "ss97-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The students became quiet only after the bell rang.",
+      "promptZh": "鐘聲響起後，學生才安靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only after the bell rang did the students become quiet.",
+      "answerZh": "鐘聲響起後，學生才安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Only after the bell rang did the students become quiet."
+    },
+    {
+      "id": "ss97-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team did not begin to improve until the new coach changed the training plan.",
+      "promptZh": "直到新教練更改訓練計劃，球隊才開始進步。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until the new coach changed the training plan did the team begin to improve.",
+      "answerZh": "直到新教練更改訓練計劃，球隊才開始進步。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until the new coach changed the training plan did the team begin to improve."
+    },
+    {
+      "id": "ss97-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The new app not only saves time, but it also reduces paperwork.",
+      "promptZh": "這個新應用程式不但節省時間，也減少文書工作。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only does the new app save time, but it also reduces paperwork.",
+      "answerZh": "這個新應用程式不但節省時間，也減少文書工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only does the new app save time, but it also reduces paperwork."
+    },
+    {
+      "id": "ss97-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "I had no sooner sat down than the phone rang.",
+      "promptZh": "我一坐下，電話便響了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had I sat down than the phone rang.",
+      "answerZh": "我一坐下，電話便響了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had I sat down than the phone rang."
+    },
+    {
+      "id": "ss97-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "Nina not only speaks French fluently, but she also writes it well.",
+      "promptZh": "妮娜不但法語說得流利，也寫得很好。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only does Nina speak French fluently, but she also writes it well.",
+      "answerZh": "妮娜不但法語說得流利，也寫得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only does Nina speak French fluently, but she also writes it well."
+    },
+    {
+      "id": "ss97-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The train had barely left the station when the rain began.",
+      "promptZh": "火車剛離開車站，雨便開始下。",
+      "promptZhSource": "pdf",
+      "starter": "Barely",
+      "answer": "Barely had the train left the station when the rain began.",
+      "answerZh": "火車剛離開車站，雨便開始下。",
+      "answerZhSource": "pdf",
+      "highlight": "Barely had the train left the station when the rain began."
+    },
+    {
+      "id": "ss97-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The storm not only damaged several roads, but it also caused power cuts.",
+      "promptZh": "暴風雨不但破壞了數條道路，也造成停電。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only did the storm damage several roads, but it also caused power cuts.",
+      "answerZh": "暴風雨不但破壞了數條道路，也造成停電。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only did the storm damage several roads, but it also caused power cuts."
+    },
+    {
+      "id": "ss97-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The teacher had scarcely finished speaking when the fire alarm rang.",
+      "promptZh": "老師剛說完，火警鐘便響起。",
+      "promptZhSource": "pdf",
+      "starter": "Scarcely",
+      "answer": "Scarcely had the teacher finished speaking when the fire alarm rang.",
+      "answerZh": "老師剛說完，火警鐘便響起。",
+      "answerZhSource": "pdf",
+      "highlight": "Scarcely had the teacher finished speaking when the fire alarm rang."
+    },
+    {
+      "id": "ss97-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The course not only teaches grammar, but it also gives students speaking practice.",
+      "promptZh": "這個課程不但教授文法，也讓學生練習口語。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only does the course teach grammar, but it also gives students speaking practice.",
+      "answerZh": "這個課程不但教授文法，也讓學生練習口語。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only does the course teach grammar, but it also gives students speaking practice."
+    },
+    {
+      "id": "ss97-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The doors had hardly opened when the crowd moved forward.",
+      "promptZh": "門剛打開，人群便向前移動。",
+      "promptZhSource": "pdf",
+      "starter": "Hardly",
+      "answer": "Hardly had the doors opened when the crowd moved forward.",
+      "answerZh": "門剛打開，人群便向前移動。",
+      "answerZhSource": "pdf",
+      "highlight": "Hardly had the doors opened when the crowd moved forward."
+    },
+    {
+      "id": "ss97-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "The hotel was not only clean, but it was also close to the station.",
+      "promptZh": "這間酒店不但很乾淨，也鄰近車站。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only was the hotel clean, but it was also close to the station.",
+      "answerZh": "這間酒店不但很乾淨，也鄰近車站。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only was the hotel clean, but it was also close to the station."
+    },
+    {
+      "id": "ss97-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 23,
+        "answerPage": 23,
+        "answerZhPage": 23
+      },
+      "prompt": "We had no sooner reached home than the electricity went off.",
+      "promptZh": "我們一到家，便停電了。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had we reached home than the electricity went off.",
+      "answerZh": "我們一到家，便停電了。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had we reached home than the electricity went off."
+    },
+    {
+      "id": "ss97-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 23,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "I had never before seen the harbour so empty.",
+      "promptZh": "我以前從未見過海港如此空曠。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never before had I seen the harbour so empty.",
+      "answerZh": "我以前從未見過海港如此空曠。",
+      "answerZhSource": "pdf",
+      "highlight": "Never before had I seen the harbour so empty."
+    },
+    {
+      "id": "ss97-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The company will under no circumstances disclose customers’ personal data.",
+      "promptZh": "公司在任何情況下都不會披露顧客的個人資料。",
+      "promptZhSource": "pdf",
+      "starter": "Under",
+      "answer": "Under no circumstances will the company disclose customers’ personal data.",
+      "answerZh": "公司在任何情況下都不會披露顧客的個人資料。",
+      "answerZhSource": "pdf",
+      "highlight": "Under no circumstances will the company disclose customers’ personal data."
+    },
+    {
+      "id": "ss97-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The residents did not once consider that the noise came from underground.",
+      "promptZh": "居民一次也沒有想過噪音來自地下。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not once did the residents consider that the noise came from underground.",
+      "answerZh": "居民一次也沒有想過噪音來自地下。",
+      "answerZhSource": "pdf",
+      "highlight": "Not once did the residents consider that the noise came from underground."
+    },
+    {
+      "id": "ss97-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "We can understand the scale of the problem only when we compare several years of data.",
+      "promptZh": "只有比較數年的數據，我們才能了解問題的規模。",
+      "promptZhSource": "pdf",
+      "starter": "Only",
+      "answer": "Only when we compare several years of data can we understand the scale of the problem.",
+      "answerZh": "只有比較數年的數據，我們才能了解問題的規模。",
+      "answerZhSource": "pdf",
+      "highlight": "Only when we compare several years of data can we understand the scale of the problem."
+    },
+    {
+      "id": "ss97-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 17,
+        "promptZhPage": 17,
+        "starterPage": 17,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The hospital not only added more beds, but it also extended its opening hours.",
+      "promptZh": "醫院不但增加了病床，也延長了開放時間。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not only did the hospital add more beds, but it also extended its opening hours.",
+      "answerZh": "醫院不但增加了病床，也延長了開放時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Not only did the hospital add more beds, but it also extended its opening hours."
+    },
+    {
+      "id": "ss97-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 17,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The hikers had barely reached the shelter when heavy rain began.",
+      "promptZh": "遠足人士剛到達避雨處，大雨便開始下。",
+      "promptZhSource": "pdf",
+      "starter": "Barely",
+      "answer": "Barely had the hikers reached the shelter when heavy rain began.",
+      "answerZh": "遠足人士剛到達避雨處，大雨便開始下。",
+      "answerZhSource": "pdf",
+      "highlight": "Barely had the hikers reached the shelter when heavy rain began."
+    },
+    {
+      "id": "ss97-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The committee did not approve the plan until all safety concerns had been addressed.",
+      "promptZh": "直到所有安全疑慮獲得處理，委員會才批准計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Not",
+      "answer": "Not until all safety concerns had been addressed did the committee approve the plan.",
+      "answerZh": "直到所有安全疑慮獲得處理，委員會才批准計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Not until all safety concerns had been addressed did the committee approve the plan."
+    },
+    {
+      "id": "ss97-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 24,
+        "answerPage": 24,
+        "answerZhPage": 24
+      },
+      "prompt": "The guide had never before handled such a large group alone.",
+      "promptZh": "導遊以前從未獨自帶領如此龐大的團體。",
+      "promptZhSource": "pdf",
+      "starter": "Never",
+      "answer": "Never before had the guide handled such a large group alone.",
+      "answerZh": "導遊以前從未獨自帶領如此龐大的團體。",
+      "answerZhSource": "pdf",
+      "highlight": "Never before had the guide handled such a large group alone."
+    },
+    {
+      "id": "ss97-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The evidence in no way proves that the policy caused the improvement.",
+      "promptZh": "證據完全不能證明這項政策帶來了改善。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In no way does the evidence prove that the policy caused the improvement.",
+      "answerZh": "證據完全不能證明這項政策帶來了改善。",
+      "answerZhSource": "pdf",
+      "highlight": "In no way does the evidence prove that the policy caused the improvement."
+    },
+    {
+      "id": "ss97-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 18,
+        "questionPage": 18,
+        "promptZhPage": 18,
+        "starterPage": 18,
+        "answerNumberPage": 25,
+        "answerPage": 25,
+        "answerZhPage": 25
+      },
+      "prompt": "The final guest had no sooner left than the staff began preparing the hall for the next event.",
+      "promptZh": "最後一位客人一離開，職員便開始為下一項活動準備禮堂。",
+      "promptZhSource": "pdf",
+      "starter": "No",
+      "answer": "No sooner had the final guest left than the staff began preparing the hall for the next event.",
+      "answerZh": "最後一位客人一離開，職員便開始為下一項活動準備禮堂。",
+      "answerZhSource": "pdf",
+      "highlight": "No sooner had the final guest left than the staff began preparing the hall for the next event."
+    }
+  ]
+}

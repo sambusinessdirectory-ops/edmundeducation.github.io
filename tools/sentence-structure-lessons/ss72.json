@@ -1,0 +1,1196 @@
+{
+  "id": "ss72",
+  "order": 72,
+  "slug": "sentence-structure-72",
+  "title": "「Too + 形容詞 + to + 動詞」句型",
+  "titleZh": "「Too + 形容詞 + to + 動詞」句：表達「太……而不能……」",
+  "titleEn": "Using Too + adjective + to + verb to express that something is too… to do",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 72 -「Too + 形容詞 + to + 動詞」句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + too + adjective + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss72-formula-same-actor",
+      "labelZh": "同一個人或事物進行動作",
+      "labelEn": "The same person or thing performs the action",
+      "formula": "Subject + be + too + adjective + to + base verb + other information"
+    },
+    {
+      "id": "ss72-formula-different-actor",
+      "labelZh": "指出誰不能進行動作",
+      "labelEn": "State who cannot perform the action",
+      "formula": "Subject + be + too + adjective + for + someone + to + base verb + other information"
+    },
+    {
+      "id": "ss72-formula-receiver",
+      "labelZh": "句子的主語是動作的承受者",
+      "labelEn": "The subject receives the action",
+      "formula": "Thing + be + too + adjective + to + base verb"
+    }
+  ],
+  "example": "The soup was too hot to drink.",
+  "exampleZh": "湯太熱，不能喝。",
+  "examples": [
+    {
+      "id": "ss72-example-same",
+      "en": "The soup was too hot to drink.",
+      "zh": "湯太熱，不能喝。",
+      "highlight": "too hot to drink"
+    },
+    {
+      "id": "ss72-example-different",
+      "en": "The night was too cold for us to sleep.",
+      "zh": "晚上太冷，我們無法入睡。",
+      "highlight": "too cold for us to sleep"
+    },
+    {
+      "id": "ss72-example-receiver",
+      "en": "The book was too hard to understand.",
+      "zh": "這本書太難，無法理解。",
+      "highlight": "too hard to understand"
+    }
+  ],
+  "meaning": {
+    "zh": "Too + 形容詞 + to + 動詞 表示某種程度超出可接受的範圍，令動作不能完成、不適合進行或非常困難。"
+  },
+  "rules": [
+    {
+      "id": "ss72-rule-01",
+      "zh": "Too 並不只是表示「非常」；它表示程度超出可以接受的範圍，並因此令某個動作不能完成、不適合進行或非常困難。",
+      "en": "Too does not merely mean very; it shows that a degree prevents or seriously limits an action.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss72-rule-02",
+      "zh": "Too 後面使用形容詞。",
+      "en": "Use an adjective after too.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "too hot",
+        "too difficult"
+      ]
+    },
+    {
+      "id": "ss72-rule-03",
+      "zh": "To 後面的動詞使用原形。",
+      "en": "Use the base form of the verb after to.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "too tired to continue"
+      ]
+    },
+    {
+      "id": "ss72-rule-04",
+      "zh": "當另一個人進行動作時，使用 for + someone。",
+      "en": "Use for + someone when a different person performs the action.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The box is too heavy for Amy to lift."
+      ]
+    },
+    {
+      "id": "ss72-rule-05",
+      "zh": "不要重複動作的受詞。",
+      "en": "Do not repeat the object of the action.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The book is too difficult to understand."
+      ]
+    },
+    {
+      "id": "ss72-rule-06",
+      "zh": "Be 動詞須配合時態。",
+      "en": "Make the verb be agree with the required tense.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss72-rule-07",
+      "zh": "Too…to 與 adjective + enough + to 的意思相反。",
+      "en": "Too + adjective + to and adjective + enough + to express opposite meanings.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss72-benefit-01",
+      "zh": "清楚說明「為甚麼不能做」，讓讀者立即知道哪個情況阻止了動作。",
+      "en": "It clearly explains why an action cannot be performed.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss72-benefit-02",
+      "zh": "把「情況」和「不能進行的動作」放在同一句中，不需要寫成兩句。",
+      "en": "It combines the condition and the impossible action in one sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss72-benefit-03",
+      "zh": "與 so + adjective + that + cannot 相比，這個句型通常更簡潔。",
+      "en": "It makes an explanation shorter and more direct.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss72-benefit-04",
+      "zh": "適合表達物件、食物、道路、工作、價格和個人狀態等日常限制和安全問題。",
+      "en": "It is useful for everyday limitations and safety problems.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss72-benefit-05",
+      "zh": "學會這個句型後，可以用另一種自然方法表達相同意思，增加句式變化。",
+      "en": "It adds sentence variety instead of repeatedly using because, so, cannot or could not.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using too + adjective + to + verb.",
+      "Preserve the original meaning, tense and person performing the action.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 too + 形容詞 + to + 動詞 改寫以下句子。",
+      "答案須保留原句的意思、時態，以及進行動作的人。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss72-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The tea is so hot that nobody can drink it now.",
+      "promptZh": "這杯茶太熱，現在沒有人能喝。",
+      "starter": "The",
+      "answer": "The tea is too hot to drink now.",
+      "answerZh": "這杯茶太熱，現在不能喝。",
+      "answerZhSource": "pdf",
+      "highlight": "The tea is too hot to drink now."
+    },
+    {
+      "id": "ss72-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I cannot carry this bag because it is extremely heavy.",
+      "promptZh": "這個袋子非常重，我拿不動。",
+      "starter": "This",
+      "answer": "This bag is too heavy for me to carry.",
+      "answerZh": "這個袋子太重，我拿不動。",
+      "answerZhSource": "pdf",
+      "highlight": "This bag is too heavy for me to carry."
+    },
+    {
+      "id": "ss72-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia was extremely tired. She could not finish her homework.",
+      "promptZh": "米婭非常疲倦。她無法完成功課。",
+      "starter": "Mia",
+      "answer": "Mia was too tired to finish her homework.",
+      "answerZh": "米婭太疲倦，無法完成功課。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was too tired to finish her homework."
+    },
+    {
+      "id": "ss72-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The music is so loud that we cannot hear the teacher.",
+      "promptZh": "音樂聲太大，我們聽不到老師說話。",
+      "starter": "The",
+      "answer": "The music is too loud for us to hear the teacher.",
+      "answerZh": "音樂聲太大，我們聽不到老師說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The music is too loud for us to hear the teacher."
+    },
+    {
+      "id": "ss72-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ben is not old enough to drive a car.",
+      "promptZh": "本的年齡還未足以駕駛汽車。",
+      "starter": "Ben",
+      "answer": "Ben is too young to drive a car.",
+      "answerZh": "本年紀太小，不能駕駛汽車。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben is too young to drive a car."
+    },
+    {
+      "id": "ss72-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room was so dark that we could not read there.",
+      "promptZh": "房間太暗，我們無法在那裏閱讀。",
+      "starter": "The",
+      "answer": "The room was too dark for us to read in.",
+      "answerZh": "房間太暗，我們無法在裏面閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was too dark for us to read in."
+    },
+    {
+      "id": "ss72-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I cannot go shopping today because I am very busy.",
+      "promptZh": "我今天非常忙，不能去購物。",
+      "starter": "I",
+      "answer": "I am too busy to go shopping today.",
+      "answerZh": "我今天太忙，不能去購物。",
+      "answerZhSource": "pdf",
+      "highlight": "I am too busy to go shopping today."
+    },
+    {
+      "id": "ss72-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shoes are so small that Leo cannot wear them.",
+      "promptZh": "這雙鞋太小，里奧穿不下。",
+      "starter": "The",
+      "answer": "The shoes are too small for Leo to wear.",
+      "answerZh": "這雙鞋太小，里奧穿不下。",
+      "answerZhSource": "pdf",
+      "highlight": "The shoes are too small for Leo to wear."
+    },
+    {
+      "id": "ss72-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is impossible for anyone to answer the question because it is extremely difficult.",
+      "promptZh": "這道問題非常困難，沒有人能回答。",
+      "starter": "The",
+      "answer": "The question is too difficult to answer.",
+      "answerZh": "這道問題太難，無法回答。",
+      "answerZhSource": "pdf",
+      "highlight": "The question is too difficult to answer."
+    },
+    {
+      "id": "ss72-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The water was so cold that we could not swim in it.",
+      "promptZh": "當時水太冷，我們無法在裏面游泳。",
+      "starter": "The",
+      "answer": "The water was too cold for us to swim in.",
+      "answerZh": "當時水太冷，我們無法在裏面游泳。",
+      "answerZhSource": "pdf",
+      "highlight": "The water was too cold for us to swim in."
+    },
+    {
+      "id": "ss72-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Amy cannot lift the box because it is extremely heavy.",
+      "promptZh": "箱子非常重，艾米搬不動。",
+      "starter": "The",
+      "answer": "The box is too heavy for Amy to lift.",
+      "answerZh": "箱子太重，艾米搬不動。",
+      "answerZhSource": "pdf",
+      "highlight": "The box is too heavy for Amy to lift."
+    },
+    {
+      "id": "ss72-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason’s voice was so quiet that we could not hear it clearly.",
+      "promptZh": "傑森的聲音太小，我們聽不清楚。",
+      "starter": "Jason’s",
+      "answer": "Jason’s voice was too quiet for us to hear clearly.",
+      "answerZh": "傑森的聲音太小，我們聽不清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason’s voice was too quiet for us to hear clearly."
+    },
+    {
+      "id": "ss72-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shelf is very high. The child cannot reach it.",
+      "promptZh": "架子很高，孩子碰不到。",
+      "starter": "The",
+      "answer": "The shelf is too high for the child to reach.",
+      "answerZh": "架子太高，孩子碰不到。",
+      "answerZhSource": "pdf",
+      "highlight": "The shelf is too high for the child to reach."
+    },
+    {
+      "id": "ss72-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sarah was so nervous that she could not speak clearly.",
+      "promptZh": "莎拉太緊張，無法清楚說話。",
+      "starter": "Sarah",
+      "answer": "Sarah was too nervous to speak clearly.",
+      "answerZh": "莎拉太緊張，無法清楚說話。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah was too nervous to speak clearly."
+    },
+    {
+      "id": "ss72-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I cannot buy this jacket because it is extremely expensive.",
+      "promptZh": "這件外套非常昂貴，我買不起。",
+      "starter": "This",
+      "answer": "This jacket is too expensive for me to buy.",
+      "answerZh": "這件外套太昂貴，我買不起。",
+      "answerZhSource": "pdf",
+      "highlight": "This jacket is too expensive for me to buy."
+    },
+    {
+      "id": "ss72-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The road is not wide enough for two buses to pass.",
+      "promptZh": "這條路不夠寬，無法讓兩輛巴士同時通過。",
+      "starter": "The",
+      "answer": "The road is too narrow for two buses to pass.",
+      "answerZh": "這條路太窄，無法讓兩輛巴士同時通過。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is too narrow for two buses to pass."
+    },
+    {
+      "id": "ss72-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The soup was so salty that we could not eat it.",
+      "promptZh": "湯太鹹，我們無法食用。",
+      "starter": "The",
+      "answer": "The soup was too salty for us to eat.",
+      "answerZh": "湯太鹹，我們無法食用。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup was too salty for us to eat."
+    },
+    {
+      "id": "ss72-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did Olivia stop walking? She was so tired that she could not continue.",
+      "promptZh": "奧莉花為甚麼停下來？她太疲倦，無法繼續走。",
+      "starter": "Olivia",
+      "answer": "Olivia was too tired to continue walking.",
+      "answerZh": "奧莉花太疲倦，無法繼續走。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia was too tired to continue walking."
+    },
+    {
+      "id": "ss72-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The instructions were so confusing that the students could not follow them.",
+      "promptZh": "指示太混亂，學生無法跟從。",
+      "starter": "The",
+      "answer": "The instructions were too confusing for the students to follow.",
+      "answerZh": "指示太混亂，學生無法跟從。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were too confusing for the students to follow."
+    },
+    {
+      "id": "ss72-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It was impossible for the suitcase to fit in the locker because it was extremely large.",
+      "promptZh": "行李箱非常大，無法放進儲物櫃。",
+      "starter": "The",
+      "answer": "The suitcase was too large to fit in the locker.",
+      "answerZh": "行李箱太大，無法放進儲物櫃。",
+      "answerZhSource": "pdf",
+      "highlight": "The suitcase was too large to fit in the locker."
+    },
+    {
+      "id": "ss72-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient was very weak. He could not stand without help.",
+      "promptZh": "病人非常虛弱，沒有協助便無法站立。",
+      "starter": "The",
+      "answer": "The patient was too weak to stand without help.",
+      "answerZh": "病人太虛弱，沒有協助便無法站立。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient was too weak to stand without help."
+    },
+    {
+      "id": "ss72-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The print is so small that I cannot read it without my glasses.",
+      "promptZh": "字體太小，我沒有眼鏡便無法閱讀。",
+      "starter": "The",
+      "answer": "The print is too small for me to read without my glasses.",
+      "answerZh": "字體太小，我沒有眼鏡便無法閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "The print is too small for me to read without my glasses."
+    },
+    {
+      "id": "ss72-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The ice is not thick enough for us to walk on safely.",
+      "promptZh": "冰層不夠厚，我們無法安全地在上面行走。",
+      "starter": "The",
+      "answer": "The ice is too thin for us to walk on safely.",
+      "answerZh": "冰層太薄，我們無法安全地在上面行走。",
+      "answerZhSource": "pdf",
+      "highlight": "The ice is too thin for us to walk on safely."
+    },
+    {
+      "id": "ss72-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Kevin is not patient enough to wait for the full explanation.",
+      "promptZh": "凱文不夠有耐性，無法等候完整的解釋。",
+      "starter": "Kevin",
+      "answer": "Kevin is too impatient to wait for the full explanation.",
+      "answerZh": "凱文太沒有耐性，無法等候完整的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin is too impatient to wait for the full explanation."
+    },
+    {
+      "id": "ss72-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Beginners cannot use this machine because it is extremely complicated.",
+      "promptZh": "這部機器非常複雜，初學者無法使用。",
+      "starter": "The",
+      "answer": "The machine is too complicated for beginners to use.",
+      "answerZh": "這部機器太複雜，初學者無法使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine is too complicated for beginners to use."
+    },
+    {
+      "id": "ss72-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hall was so crowded that not everyone could find a seat.",
+      "promptZh": "禮堂太擠迫，並非每個人都能找到座位。",
+      "starter": "The",
+      "answer": "The hall was too crowded for everyone to find a seat.",
+      "answerZh": "禮堂太擠迫，並非每個人都能找到座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The hall was too crowded for everyone to find a seat."
+    },
+    {
+      "id": "ss72-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Because the wall is still very wet, it cannot be painted today.",
+      "promptZh": "牆壁仍然非常濕，今天無法髹上油漆。",
+      "starter": "The",
+      "answer": "The wall is too wet to be painted today.",
+      "answerZh": "牆壁太濕，今天無法髹上油漆。",
+      "answerZhSource": "pdf",
+      "highlight": "The wall is too wet to be painted today."
+    },
+    {
+      "id": "ss72-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The maths problem was so difficult that Nina could not solve it alone.",
+      "promptZh": "這道數學題太難，妮娜無法獨自解答。",
+      "starter": "The",
+      "answer": "The maths problem was too difficult for Nina to solve alone.",
+      "answerZh": "這道數學題太難，妮娜無法獨自解答。",
+      "answerZhSource": "pdf",
+      "highlight": "The maths problem was too difficult for Nina to solve alone."
+    },
+    {
+      "id": "ss72-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our car is very old. It cannot make such a long journey safely.",
+      "promptZh": "我們的汽車非常舊，無法安全地完成這麼長的旅程。",
+      "starter": "Our",
+      "answer": "Our car is too old to make such a long journey safely.",
+      "answerZh": "我們的汽車太舊，無法安全地完成這麼長的旅程。",
+      "answerZhSource": "pdf",
+      "highlight": "Our car is too old to make such a long journey safely."
+    },
+    {
+      "id": "ss72-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The vegetables were so hard that we could not cut them with a normal knife.",
+      "promptZh": "蔬菜太硬，我們無法用普通的刀切開。",
+      "starter": "The",
+      "answer": "The vegetables were too hard for us to cut with a normal knife.",
+      "answerZh": "蔬菜太硬，我們無法用普通的刀切開。",
+      "answerZhSource": "pdf",
+      "highlight": "The vegetables were too hard for us to cut with a normal knife."
+    },
+    {
+      "id": "ss72-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "I cannot remember that password because it is extremely complex.",
+      "promptZh": "那個密碼非常複雜，我無法記住。",
+      "starter": "That",
+      "answer": "That password is too complex for me to remember.",
+      "answerZh": "那個密碼太複雜，我無法記住。",
+      "answerZhSource": "pdf",
+      "highlight": "That password is too complex for me to remember."
+    },
+    {
+      "id": "ss72-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The window was so dirty that we could not see through it clearly.",
+      "promptZh": "窗戶太骯髒，我們無法清楚看見外面。",
+      "starter": "The",
+      "answer": "The window was too dirty for us to see through clearly.",
+      "answerZh": "窗戶太骯髒，我們無法清楚看見外面。",
+      "answerZhSource": "pdf",
+      "highlight": "The window was too dirty for us to see through clearly."
+    },
+    {
+      "id": "ss72-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did the child refuse to enter the room alone? He was extremely frightened.",
+      "promptZh": "孩子為甚麼拒絕獨自進入房間？他非常害怕。",
+      "starter": "The",
+      "answer": "The child was too frightened to enter the room alone.",
+      "answerZh": "孩子太害怕，無法獨自進入房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The child was too frightened to enter the room alone."
+    },
+    {
+      "id": "ss72-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "I could not put this bottle in my bag safely because it was completely full.",
+      "promptZh": "這個瓶子完全裝滿了，我無法安全地把它放進袋中。",
+      "starter": "This",
+      "answer": "This bottle was too full for me to put in my bag safely.",
+      "answerZh": "這個瓶子裝得太滿，我無法安全地把它放進袋中。",
+      "answerZhSource": "pdf",
+      "highlight": "This bottle was too full for me to put in my bag safely."
+    },
+    {
+      "id": "ss72-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The queue was extremely long. We could not wait in it.",
+      "promptZh": "隊伍非常長，我們無法繼續排隊等候。",
+      "starter": "The",
+      "answer": "The queue was too long for us to wait in.",
+      "answerZh": "隊伍太長，我們無法繼續排隊等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The queue was too long for us to wait in."
+    },
+    {
+      "id": "ss72-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The floor was so slippery that the players could not run on it safely.",
+      "promptZh": "地面太滑，球員無法安全地在上面跑動。",
+      "starter": "The",
+      "answer": "The floor was too slippery for the players to run on safely.",
+      "answerZh": "地面太滑，球員無法安全地在上面跑動。",
+      "answerZhSource": "pdf",
+      "highlight": "The floor was too slippery for the players to run on safely."
+    },
+    {
+      "id": "ss72-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Emma’s explanation was so technical that the children could not understand it.",
+      "promptZh": "艾瑪的解釋太專業，孩子們無法理解。",
+      "starter": "Emma’s",
+      "answer": "Emma’s explanation was too technical for the children to understand.",
+      "answerZh": "艾瑪的解釋太專業，孩子們無法理解。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma’s explanation was too technical for the children to understand."
+    },
+    {
+      "id": "ss72-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The email was so vague that the manager could not understand what action was needed.",
+      "promptZh": "電郵內容太含糊，經理無法明白需要採取甚麼行動。",
+      "starter": "The",
+      "answer": "The email was too vague for the manager to understand what action was needed.",
+      "answerZh": "電郵內容太含糊，經理無法明白需要採取甚麼行動。",
+      "answerZhSource": "pdf",
+      "highlight": "The email was too vague for the manager to understand what action was needed."
+    },
+    {
+      "id": "ss72-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Heavy vehicles cannot use the old bridge safely because it is very weak.",
+      "promptZh": "舊橋非常脆弱，重型車輛無法安全使用。",
+      "starter": "The",
+      "answer": "The old bridge was too weak for heavy vehicles to use safely.",
+      "answerZh": "舊橋太脆弱，重型車輛無法安全使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The old bridge was too weak for heavy vehicles to use safely."
+    },
+    {
+      "id": "ss72-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The medicine was so bitter that the child could not swallow it.",
+      "promptZh": "藥物太苦，孩子無法吞下。",
+      "starter": "The",
+      "answer": "The medicine was too bitter for the child to swallow.",
+      "answerZh": "藥物太苦，孩子無法吞下。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine was too bitter for the child to swallow."
+    },
+    {
+      "id": "ss72-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Because the classroom was very noisy, we could not make a clear recording.",
+      "promptZh": "課室非常嘈吵，我們無法製作清晰的錄音。",
+      "starter": "The",
+      "answer": "The classroom was too noisy for us to make a clear recording.",
+      "answerZh": "課室太嘈吵，我們無法製作清晰的錄音。",
+      "answerZhSource": "pdf",
+      "highlight": "The classroom was too noisy for us to make a clear recording."
+    },
+    {
+      "id": "ss72-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Many users could not complete the online form without help because it was extremely confusing.",
+      "promptZh": "網上表格非常混亂，很多使用者沒有協助便無法完成。",
+      "starter": "The",
+      "answer": "The online form was too confusing for many users to complete without help.",
+      "answerZh": "網上表格太混亂，很多使用者沒有協助便無法完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The online form was too confusing for many users to complete without help."
+    },
+    {
+      "id": "ss72-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The emergency exit was not wide enough for everyone to leave quickly.",
+      "promptZh": "緊急出口不夠寬，無法讓所有人迅速離開。",
+      "starter": "The",
+      "answer": "The emergency exit was too narrow for everyone to leave quickly.",
+      "answerZh": "緊急出口太窄，無法讓所有人迅速離開。",
+      "answerZhSource": "pdf",
+      "highlight": "The emergency exit was too narrow for everyone to leave quickly."
+    },
+    {
+      "id": "ss72-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The report was so long that the team could not discuss it fully in one meeting.",
+      "promptZh": "報告太長，團隊無法在一次會議中完成討論。",
+      "starter": "The",
+      "answer": "The report was too long for the team to discuss fully in one meeting.",
+      "answerZh": "報告太長，團隊無法在一次會議中完成討論。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was too long for the team to discuss fully in one meeting."
+    },
+    {
+      "id": "ss72-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It was impossible for the delivery van to climb the hill safely because the hill was extremely steep.",
+      "promptZh": "山坡非常陡峭，送貨車無法安全駛上去。",
+      "starter": "The",
+      "answer": "The hill was too steep for the delivery van to climb safely.",
+      "answerZh": "山坡太陡峭，送貨車無法安全駛上去。",
+      "answerZhSource": "pdf",
+      "highlight": "The hill was too steep for the delivery van to climb safely."
+    },
+    {
+      "id": "ss72-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The warning sign was so small that drivers could not notice it from a distance.",
+      "promptZh": "警告牌太小，駕駛者無法從遠處看見。",
+      "starter": "The",
+      "answer": "The warning sign was too small for drivers to notice from a distance.",
+      "answerZh": "警告牌太小，駕駛者無法從遠處看見。",
+      "answerZhSource": "pdf",
+      "highlight": "The warning sign was too small for drivers to notice from a distance."
+    },
+    {
+      "id": "ss72-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The damaged road was so dangerous that it could not be reopened before the weekend.",
+      "promptZh": "損毀的道路太危險，無法在週末前重新開放。",
+      "starter": "The",
+      "answer": "The damaged road was too dangerous to be reopened before the weekend.",
+      "answerZh": "損毀的道路太危險，無法在週末前重新開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The damaged road was too dangerous to be reopened before the weekend."
+    },
+    {
+      "id": "ss72-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The instructions were extremely detailed. New staff could not remember them after one reading.",
+      "promptZh": "指示非常詳細，新員工閱讀一次後無法全部記住。",
+      "starter": "The",
+      "answer": "The instructions were too detailed for new staff to remember after one reading.",
+      "answerZh": "指示太詳細，新員工閱讀一次後無法全部記住。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were too detailed for new staff to remember after one reading."
+    },
+    {
+      "id": "ss72-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The plan was so costly that the small charity could not carry it out that year.",
+      "promptZh": "計劃的費用太高，該小型慈善機構當年無法推行。",
+      "starter": "The",
+      "answer": "The plan was too costly for the small charity to carry out that year.",
+      "answerZh": "計劃的費用太高，該小型慈善機構當年無法推行。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan was too costly for the small charity to carry out that year."
+    },
+    {
+      "id": "ss72-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school hall was not large enough for all the families to attend the event together.",
+      "promptZh": "學校禮堂不夠大，無法讓所有家庭一同參加活動。",
+      "starter": "The",
+      "answer": "The school hall was too small for all the families to attend the event together.",
+      "answerZh": "學校禮堂太小，無法讓所有家庭一同參加活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The school hall was too small for all the families to attend the event together."
+    }
+  ]
+}

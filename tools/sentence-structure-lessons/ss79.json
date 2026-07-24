@@ -1,0 +1,1169 @@
+{
+  "id": "ss79",
+  "order": 79,
+  "slug": "sentence-structure-79",
+  "title": "「雙重否定」句型",
+  "titleZh": "「雙重否定句型」",
+  "titleEn": "Double-Negative Structures",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 79 -「雙重否定句」 Double-Negative Structures.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + not + negative adjective",
+  "formulas": [
+    {
+      "id": "ss79-formula-adjective",
+      "labelZh": "Not + 帶否定意思的形容詞",
+      "labelEn": "Not + a negative adjective",
+      "formula": "Subject + be + not + negative adjective"
+    },
+    {
+      "id": "ss79-formula-not-without",
+      "labelZh": "Not without + 名詞",
+      "labelEn": "Not without + noun",
+      "formula": "Subject + be + not without + noun"
+    },
+    {
+      "id": "ss79-formula-no-without",
+      "labelZh": "No + 名詞 + without",
+      "labelEn": "No + noun + without",
+      "formula": "No + singular noun + be + without + noun"
+    }
+  ],
+  "example": "A painting without a title is not unusual.",
+  "exampleZh": "沒有標題的畫並不罕見。",
+  "examples": [
+    {
+      "id": "ss79-example-unusual",
+      "en": "A painting without a title is not unusual.",
+      "zh": "沒有標題的畫並不罕見。",
+      "highlight": "not unusual"
+    },
+    {
+      "id": "ss79-example-uncommon",
+      "en": "It is not uncommon to see people wearing jackets.",
+      "zh": "看見人們穿外套並不罕見。",
+      "highlight": "not uncommon"
+    }
+  ],
+  "meaning": {
+    "zh": "本課的標準雙重否定利用兩個帶否定意思的部分，婉轉地表達較溫和的肯定意思。"
+  },
+  "rules": [
+    {
+      "id": "ss79-rule-01",
+      "zh": "本課所指的是標準英語中的雙重否定，不包括 I don’t know nothing 等非標準形式。",
+      "en": "This lesson teaches standard-English double negatives, not non-standard forms such as I don’t know nothing.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss79-rule-02",
+      "zh": "雙重否定通常表達較溫和的肯定意思；not uncommon 並不一定等於 very common。",
+      "en": "A double negative normally expresses a milder positive meaning.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss79-rule-03",
+      "zh": "Not impossible 只表示事情有可能做到，並不表示容易或一定會發生。",
+      "en": "Not impossible means possible, but it does not mean easy or certain.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss79-rule-04",
+      "zh": "Not unlikely 表示「頗有可能」，但不是肯定。",
+      "en": "Not unlikely means fairly likely, but it is not certain.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss79-rule-05",
+      "zh": "Not without 表示某事物確實具有某種特點。",
+      "en": "Not without means that something does have the stated feature.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss79-rule-06",
+      "zh": "No X is without Y 表示「每一個 X 都有 Y」。",
+      "en": "No X is without Y means that every X has Y.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss79-benefit-01",
+      "zh": "它能避免把說法講得過於絕對，令表達更加謹慎。",
+      "en": "It helps you avoid making claims that are too strong."
+    },
+    {
+      "id": "ss79-benefit-02",
+      "zh": "Not impossible 可以更準確地表示某件事有可能發生，而不暗示它容易或必定成功。",
+      "en": "It helps you express possibility more accurately."
+    },
+    {
+      "id": "ss79-benefit-03",
+      "zh": "它能承認一件事情有價值、風險、困難或弱點，同時避免過於極端的判斷。",
+      "en": "It helps you present a balanced opinion."
+    },
+    {
+      "id": "ss79-benefit-04",
+      "zh": "評價計劃、證據、結果或不同觀點時，這些句型可以令表達顯得更有分寸。",
+      "en": "It is useful in essays, reports and discussions."
+    },
+    {
+      "id": "ss79-benefit-05",
+      "zh": "它讓你不用反覆使用 common、possible、important 或 risky，也能表達相近意思。",
+      "en": "It gives you more sentence variety."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a standard double-negative structure.",
+      "You may use structures such as not uncommon, not unusual, not impossible, not unlikely, not unreasonable, not insignificant, not unfamiliar, not unhelpful, not unsuccessful, not unexpected, not without or No...without....",
+      "Preserve the original meaning. Do not make the statement stronger or more certain.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用標準的雙重否定句改寫以下句子。",
+      "你可以使用 not uncommon、not unusual、not impossible、not unlikely、not unreasonable、not insignificant、not unfamiliar、not unhelpful、not unsuccessful、not unexpected、not without 或 No...without... 等句式。",
+      "答案必須保留原意，不可令語氣變得更強烈或更肯定。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss79-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Students often feel nervous before important exams.",
+      "promptZh": "學生在重要考試前感到緊張是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not uncommon for students to feel nervous before important exams.",
+      "answerZh": "學生在重要考試前感到緊張並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for students to feel nervous before important exams."
+    },
+    {
+      "id": "ss79-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Seeing people carry umbrellas on sunny days is quite normal in summer.",
+      "promptZh": "夏天在晴天看見人們帶雨傘是頗為正常的。",
+      "starter": "It",
+      "answer": "It is not unusual to see people carrying umbrellas on sunny days in summer.",
+      "answerZh": "夏天在晴天看見人們帶雨傘並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not unusual to see people carrying umbrellas on sunny days in summer."
+    },
+    {
+      "id": "ss79-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You can finish this short book in a week.",
+      "promptZh": "你有可能在一星期內看完這本短篇書籍。",
+      "starter": "It",
+      "answer": "It is not impossible to finish this short book in a week.",
+      "answerZh": "在一星期內看完這本短篇書籍並非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not impossible to finish this short book in a week."
+    },
+    {
+      "id": "ss79-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A painting may have no title, and this is fairly common.",
+      "promptZh": "一幅畫可能沒有標題，而這種情況頗為常見。",
+      "starter": "A",
+      "answer": "A painting without a title is not unusual.",
+      "answerZh": "沒有標題的畫並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "A painting without a title is not unusual."
+    },
+    {
+      "id": "ss79-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Buses sometimes arrive a few minutes late. This happens quite often.",
+      "promptZh": "巴士有時會遲到幾分鐘。這種情況頗為常見。",
+      "starter": "It",
+      "answer": "It is not uncommon for buses to arrive a few minutes late.",
+      "answerZh": "巴士遲到幾分鐘並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for buses to arrive a few minutes late."
+    },
+    {
+      "id": "ss79-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You may still find a quiet seat in the library at lunchtime.",
+      "promptZh": "你仍然有可能在午膳時間於圖書館找到安靜的座位。",
+      "starter": "It",
+      "answer": "It is not impossible to find a quiet seat in the library at lunchtime.",
+      "answerZh": "在午膳時間於圖書館找到安靜的座位並非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not impossible to find a quiet seat in the library at lunchtime."
+    },
+    {
+      "id": "ss79-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "People quite often wear jackets indoors in strongly air-conditioned places.",
+      "promptZh": "人們在冷氣較強的室內地方穿外套是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not unusual for people to wear jackets indoors in strongly air-conditioned places.",
+      "answerZh": "人們在冷氣較強的室內地方穿外套並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not unusual for people to wear jackets indoors in strongly air-conditioned places."
+    },
+    {
+      "id": "ss79-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A meal that contains no meat is fairly common at this restaurant.",
+      "promptZh": "在這間餐廳，不含肉類的餐點頗為常見。",
+      "starter": "A",
+      "answer": "A meal without meat is not uncommon at this restaurant.",
+      "answerZh": "在這間餐廳，不含肉類的餐點並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "A meal without meat is not uncommon at this restaurant."
+    },
+    {
+      "id": "ss79-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The plan involves some risk.",
+      "promptZh": "這個計劃存在一些風險。",
+      "starter": "The",
+      "answer": "The plan is not without risk.",
+      "answerZh": "這個計劃並非沒有風險。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan is not without risk."
+    },
+    {
+      "id": "ss79-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The weather may change this afternoon.",
+      "promptZh": "今午的天氣有可能出現變化。",
+      "starter": "It",
+      "answer": "It is not impossible for the weather to change this afternoon.",
+      "answerZh": "今午的天氣出現變化並非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not impossible for the weather to change this afternoon."
+    },
+    {
+      "id": "ss79-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "New workers often need time to learn the system.",
+      "promptZh": "新員工需要時間學習這個系統是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not uncommon for new workers to need time to learn the system.",
+      "answerZh": "新員工需要時間學習這個系統並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for new workers to need time to learn the system."
+    },
+    {
+      "id": "ss79-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The old shop still has some charm.",
+      "promptZh": "這間舊店仍然有一些魅力。",
+      "starter": "The",
+      "answer": "The old shop is not without charm.",
+      "answerZh": "這間舊店並非毫無魅力。",
+      "answerZhSource": "pdf",
+      "highlight": "The old shop is not without charm."
+    },
+    {
+      "id": "ss79-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Clara’s suggestion is quite reasonable.",
+      "promptZh": "克拉拉的建議頗為合理。",
+      "starter": "Clara’s",
+      "answer": "Clara’s suggestion is not unreasonable.",
+      "answerZh": "克拉拉的建議並非不合理。",
+      "answerZhSource": "pdf",
+      "highlight": "Clara’s suggestion is not unreasonable."
+    },
+    {
+      "id": "ss79-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People sometimes queue before the doors open.",
+      "promptZh": "人們有時會在開門前排隊。",
+      "starter": "It",
+      "answer": "It is not unusual for people to queue before the doors open.",
+      "answerZh": "人們在開門前排隊並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not unusual for people to queue before the doors open."
+    },
+    {
+      "id": "ss79-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team has a fair chance of winning the final.",
+      "promptZh": "這支球隊頗有可能在決賽中勝出。",
+      "starter": "It",
+      "answer": "It is not unlikely that the team will win the final.",
+      "answerZh": "這支球隊在決賽中勝出並非不大可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not unlikely that the team will win the final."
+    },
+    {
+      "id": "ss79-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This small change has a meaningful effect.",
+      "promptZh": "這項小改變帶來了值得注意的影響。",
+      "starter": "The",
+      "answer": "The effect of this small change is not insignificant.",
+      "answerZh": "這項小改變所帶來的影響並非微不足道。",
+      "answerZhSource": "pdf",
+      "highlight": "The effect of this small change is not insignificant."
+    },
+    {
+      "id": "ss79-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Family members quite often eat dinner at different times.",
+      "promptZh": "家庭成員在不同時間吃晚飯是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not uncommon for family members to eat dinner at different times.",
+      "answerZh": "家庭成員在不同時間吃晚飯並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for family members to eat dinner at different times."
+    },
+    {
+      "id": "ss79-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The journey included several delays.",
+      "promptZh": "這段旅程出現了數次延誤。",
+      "starter": "The",
+      "answer": "The journey was not without delays.",
+      "answerZh": "這段旅程並非沒有延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The journey was not without delays."
+    },
+    {
+      "id": "ss79-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The area looks somewhat familiar to me.",
+      "promptZh": "這個地方對我來說有點熟悉。",
+      "starter": "The",
+      "answer": "The area is not unfamiliar to me.",
+      "answerZh": "這個地方對我來說並不陌生。",
+      "answerZhSource": "pdf",
+      "highlight": "The area is not unfamiliar to me."
+    },
+    {
+      "id": "ss79-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "With some help, you should be able to complete the form.",
+      "promptZh": "在得到一些協助的情況下，你應該有可能完成這份表格。",
+      "starter": "It",
+      "answer": "It should not be impossible to complete the form with some help.",
+      "answerZh": "在得到一些協助的情況下，完成這份表格應該並非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It should not be impossible to complete the form with some help."
+    },
+    {
+      "id": "ss79-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Older buildings often have narrow stairs.",
+      "promptZh": "較舊的建築物設有狹窄樓梯是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not uncommon for older buildings to have narrow stairs.",
+      "answerZh": "較舊的建築物設有狹窄樓梯並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for older buildings to have narrow stairs."
+    },
+    {
+      "id": "ss79-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Despite its cost, the proposal has some benefits.",
+      "promptZh": "儘管成本不低，這項建議仍有一些好處。",
+      "starter": "The",
+      "answer": "The proposal is not without benefits despite its cost.",
+      "answerZh": "儘管成本不低，這項建議並非毫無好處。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal is not without benefits despite its cost."
+    },
+    {
+      "id": "ss79-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "His comment matters to some extent.",
+      "promptZh": "他的評論在某程度上是重要的。",
+      "starter": "His",
+      "answer": "His comment is not unimportant.",
+      "answerZh": "他的評論並非不重要。",
+      "answerZhSource": "pdf",
+      "highlight": "His comment is not unimportant."
+    },
+    {
+      "id": "ss79-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "There is a reasonable chance that the train will be full.",
+      "promptZh": "這班火車頗有可能滿座。",
+      "starter": "It",
+      "answer": "It is not unlikely that the train will be full.",
+      "answerZh": "這班火車滿座並非不大可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not unlikely that the train will be full."
+    },
+    {
+      "id": "ss79-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The small room still has some value as a meeting space.",
+      "promptZh": "這個小房間作為會議空間仍有一些價值。",
+      "starter": "The",
+      "answer": "The small room is not without value as a meeting space.",
+      "answerZh": "這個小房間作為會議空間並非毫無價值。",
+      "answerZhSource": "pdf",
+      "highlight": "The small room is not without value as a meeting space."
+    },
+    {
+      "id": "ss79-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Basic cooking skills can be learnt even if you do not have expensive equipment.",
+      "promptZh": "即使沒有昂貴的設備，你仍有可能學會基本烹飪技巧。",
+      "starter": "It",
+      "answer": "It is not impossible to learn basic cooking skills without expensive equipment.",
+      "answerZh": "在沒有昂貴設備的情況下學會基本烹飪技巧並非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not impossible to learn basic cooking skills without expensive equipment."
+    },
+    {
+      "id": "ss79-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Her face was somewhat familiar, although I could not remember her name.",
+      "promptZh": "她的樣貌有點熟悉，雖然我記不起她的名字。",
+      "starter": "Her",
+      "answer": "Her face was not unfamiliar, although I could not remember her name.",
+      "answerZh": "她的樣貌並不陌生，雖然我記不起她的名字。",
+      "answerZhSource": "pdf",
+      "highlight": "Her face was not unfamiliar, although I could not remember her name."
+    },
+    {
+      "id": "ss79-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Online meetings often begin with a short delay.",
+      "promptZh": "網上會議延遲一會才開始是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not uncommon for online meetings to begin with a short delay.",
+      "answerZh": "網上會議延遲一會才開始並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for online meetings to begin with a short delay."
+    },
+    {
+      "id": "ss79-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new rule has some disadvantages.",
+      "promptZh": "這項新規則有一些缺點。",
+      "starter": "The",
+      "answer": "The new rule is not without disadvantages.",
+      "answerZh": "這項新規則並非沒有缺點。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule is not without disadvantages."
+    },
+    {
+      "id": "ss79-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Their first event achieved some success.",
+      "promptZh": "他們的首次活動取得了一些成功。",
+      "starter": "Their",
+      "answer": "Their first event was not unsuccessful.",
+      "answerZh": "他們的首次活動並非不成功。",
+      "answerZhSource": "pdf",
+      "highlight": "Their first event was not unsuccessful."
+    },
+    {
+      "id": "ss79-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "People often forget their passwords.",
+      "promptZh": "人們忘記密碼是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not uncommon for people to forget their passwords.",
+      "answerZh": "人們忘記密碼並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for people to forget their passwords."
+    },
+    {
+      "id": "ss79-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The repair may be possible, but it will take time.",
+      "promptZh": "這項維修可能做得到，但需要一些時間。",
+      "starter": "The",
+      "answer": "The repair is not impossible, but it will take time.",
+      "answerZh": "這項維修並非不可能，但需要一些時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The repair is not impossible, but it will take time."
+    },
+    {
+      "id": "ss79-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This idea contains some humour.",
+      "promptZh": "這個想法帶有一些幽默感。",
+      "starter": "This",
+      "answer": "This idea is not without humour.",
+      "answerZh": "這個想法並非毫無幽默感。",
+      "answerZhSource": "pdf",
+      "highlight": "This idea is not without humour."
+    },
+    {
+      "id": "ss79-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Because of the storm, the delay was somewhat expected.",
+      "promptZh": "由於暴風雨的關係，這次延誤在某程度上是預料之內的。",
+      "starter": "The",
+      "answer": "The delay was not entirely unexpected because of the storm.",
+      "answerZh": "由於暴風雨的關係，這次延誤並非完全出乎意料。",
+      "answerZhSource": "pdf",
+      "highlight": "The delay was not entirely unexpected because of the storm."
+    },
+    {
+      "id": "ss79-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The evidence has a meaningful effect on the decision.",
+      "promptZh": "這項證據對決定有值得注意的影響。",
+      "starter": "The",
+      "answer": "The effect of the evidence on the decision is not insignificant.",
+      "answerZh": "這項證據對決定造成的影響並非微不足道。",
+      "answerZhSource": "pdf",
+      "highlight": "The effect of the evidence on the decision is not insignificant."
+    },
+    {
+      "id": "ss79-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The park still has some charm despite the traffic noise.",
+      "promptZh": "儘管有交通噪音，這個公園仍然有一些魅力。",
+      "starter": "The",
+      "answer": "The park is not without charm despite the traffic noise.",
+      "answerZh": "儘管有交通噪音，這個公園並非毫無魅力。",
+      "answerZhSource": "pdf",
+      "highlight": "The park is not without charm despite the traffic noise."
+    },
+    {
+      "id": "ss79-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Staff sometimes answer emails after office hours.",
+      "promptZh": "員工有時會在辦公時間後回覆電郵。",
+      "starter": "It",
+      "answer": "It is not unheard of for staff to answer emails after office hours.",
+      "answerZh": "員工在辦公時間後回覆電郵並非前所未聞。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not unheard of for staff to answer emails after office hours."
+    },
+    {
+      "id": "ss79-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The teacher’s explanation was helpful to some students.",
+      "promptZh": "老師的解釋對部分學生有幫助。",
+      "starter": "The",
+      "answer": "The teacher’s explanation was not unhelpful to some students.",
+      "answerZh": "老師的解釋對部分學生並非毫無幫助。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher’s explanation was not unhelpful to some students."
+    },
+    {
+      "id": "ss79-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You can complete the task without special software.",
+      "promptZh": "你有可能在沒有特別軟件的情況下完成這項任務。",
+      "starter": "It",
+      "answer": "It is not impossible to complete the task without special software.",
+      "answerZh": "在沒有特別軟件的情況下完成這項任務並非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not impossible to complete the task without special software."
+    },
+    {
+      "id": "ss79-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Every neighbourhood has some noise.",
+      "promptZh": "每個社區都有一些噪音。",
+      "starter": "No",
+      "answer": "No neighbourhood is without noise.",
+      "answerZh": "沒有任何社區是完全沒有噪音的。",
+      "answerZhSource": "pdf",
+      "highlight": "No neighbourhood is without noise."
+    },
+    {
+      "id": "ss79-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The project had difficulties, but the team finished it on time.",
+      "promptZh": "這個項目遇到了一些困難，但團隊仍然按時完成了它。",
+      "starter": "The",
+      "answer": "The project was not without difficulties, but the team finished it on time.",
+      "answerZh": "這個項目並非沒有困難，但團隊仍然按時完成了它。",
+      "answerZhSource": "pdf",
+      "highlight": "The project was not without difficulties, but the team finished it on time."
+    },
+    {
+      "id": "ss79-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Patients quite often feel tired after this simple test.",
+      "promptZh": "病人在完成這項簡單測試後感到疲倦是頗為常見的。",
+      "starter": "It",
+      "answer": "It is not uncommon for patients to feel tired after this simple test.",
+      "answerZh": "病人在完成這項簡單測試後感到疲倦並不罕見。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not uncommon for patients to feel tired after this simple test."
+    },
+    {
+      "id": "ss79-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager’s concern is reasonable, even if we disagree with her solution.",
+      "promptZh": "即使我們不同意經理的解決方法，她的憂慮仍然頗為合理。",
+      "starter": "The",
+      "answer": "The manager’s concern is not unreasonable, even if we disagree with her solution.",
+      "answerZh": "即使我們不同意經理的解決方法，她的憂慮亦並非不合理。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager’s concern is not unreasonable, even if we disagree with her solution."
+    },
+    {
+      "id": "ss79-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "There is a real possibility that the small business will recover next year.",
+      "promptZh": "這間小型企業明年確實有可能恢復過來。",
+      "starter": "It",
+      "answer": "It is not impossible that the small business will recover next year.",
+      "answerZh": "這間小型企業明年恢復過來並非不可能。",
+      "answerZhSource": "pdf",
+      "highlight": "It is not impossible that the small business will recover next year."
+    },
+    {
+      "id": "ss79-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The early results are important, although more data is needed.",
+      "promptZh": "初步結果相當重要，儘管我們仍需要更多數據。",
+      "starter": "The",
+      "answer": "The early results are not insignificant, although more data is needed.",
+      "answerZh": "初步結果並非無關緊要，儘管我們仍需要更多數據。",
+      "answerZhSource": "pdf",
+      "highlight": "The early results are not insignificant, although more data is needed."
+    },
+    {
+      "id": "ss79-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The old map looks somewhat familiar to many visitors because it resembles the modern one.",
+      "promptZh": "這張舊地圖令不少訪客感到有點熟悉，因為它與現代地圖相似。",
+      "starter": "The",
+      "answer": "The old map is not unfamiliar to many visitors because it resembles the modern one.",
+      "answerZh": "這張舊地圖對不少訪客來說並不陌生，因為它與現代地圖相似。",
+      "answerZhSource": "pdf",
+      "highlight": "The old map is not unfamiliar to many visitors because it resembles the modern one."
+    },
+    {
+      "id": "ss79-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Every major decision involves some risk.",
+      "promptZh": "每項重大決定都涉及一些風險。",
+      "starter": "No",
+      "answer": "No major decision is without risk.",
+      "answerZh": "沒有任何重大決定是完全沒有風險的。",
+      "answerZhSource": "pdf",
+      "highlight": "No major decision is without risk."
+    },
+    {
+      "id": "ss79-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The system was useful in some ways, although it did not solve every problem.",
+      "promptZh": "這個系統在某些方面有幫助，雖然它未能解決所有問題。",
+      "starter": "The",
+      "answer": "The system was not unhelpful, although it did not solve every problem.",
+      "answerZh": "這個系統並非毫無幫助，雖然它未能解決所有問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The system was not unhelpful, although it did not solve every problem."
+    },
+    {
+      "id": "ss79-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The campaign achieved some success despite its limited budget.",
+      "promptZh": "儘管預算有限，這項宣傳活動仍取得了一些成功。",
+      "starter": "The",
+      "answer": "The campaign was not unsuccessful despite its limited budget.",
+      "answerZh": "儘管預算有限，這項宣傳活動並非不成功。",
+      "answerZhSource": "pdf",
+      "highlight": "The campaign was not unsuccessful despite its limited budget."
+    },
+    {
+      "id": "ss79-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The report has weaknesses, but it also offers useful evidence and practical ideas.",
+      "promptZh": "這份報告有一些弱點，但亦提供了有用的證據和實際可行的想法。",
+      "starter": "The",
+      "answer": "The report is not without weaknesses, but it also offers useful evidence and practical ideas.",
+      "answerZh": "這份報告並非沒有弱點，但亦提供了有用的證據和實際可行的想法。",
+      "answerZhSource": "pdf",
+      "highlight": "The report is not without weaknesses, but it also offers useful evidence and practical ideas."
+    }
+  ]
+}

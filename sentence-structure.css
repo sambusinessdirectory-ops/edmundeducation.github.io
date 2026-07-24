@@ -802,6 +802,17 @@ summary:focus-visible {
 .question-prompt { margin-top: 13px; }
 .question-prompt .english { margin: 0; color: var(--navy-deep); font-size: clamp(17px, 2vw, 22px); font-weight: 800; }
 .question-prompt .chinese { margin: 6px 0 0; color: var(--muted); font-size: 14px; }
+.question-prompt .question-cue {
+  display: inline-block;
+  margin: 10px 0 0;
+  border: 1px solid rgba(49, 95, 179, .2);
+  border-radius: 999px;
+  padding: 6px 10px;
+  color: var(--blue);
+  background: var(--blue-soft);
+  font-size: 12px;
+  font-weight: 900;
+}
 .starter-hint { margin-top: 12px; color: var(--blue); font-size: 13px; font-weight: 800; }
 .answer-input {
   width: 100%;
@@ -887,6 +898,7 @@ summary:focus-visible {
 .bookmark-row h3 { margin: 0; color: var(--navy); font-size: 18px; }
 .bookmark-row .bookmark-prompt { margin: 5px 0 0; color: var(--ink); font-weight: 750; }
 .bookmark-row .bookmark-zh { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+.bookmark-row .bookmark-cue { margin: 7px 0 0; color: var(--blue); font-size: 12px; font-weight: 850; }
 .bookmark-answer { margin-top: 12px; border-left: 4px solid var(--coral); padding-left: 12px; }
 .bookmark-answer p { margin: 3px 0; }
 .bookmark-answer p:last-child { color: var(--muted); font-size: 13px; }

@@ -1,0 +1,1162 @@
+{
+  "id": "ss80",
+  "order": 80,
+  "slug": "sentence-structure-80",
+  "title": "「… is that …」句型",
+  "titleZh": "「… is that …」句",
+  "titleEn": "Using … is that … to introduce an explanation",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 80 -「… is that …」句.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "answerPages": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Summary noun phrase + be + that + complete clause",
+  "formulas": [
+    {
+      "id": "ss80-formula-basic",
+      "labelZh": "基本句式",
+      "labelEn": "Basic pattern",
+      "formula": "Summary noun phrase + be + that + complete clause"
+    },
+    {
+      "id": "ss80-formula-advanced",
+      "labelZh": "進階句式",
+      "labelEn": "Advanced pattern",
+      "formula": "What + clause + be + that + complete clause"
+    }
+  ],
+  "example": "The problem is that we don’t have enough support from the crowd.",
+  "exampleZh": "問題是，我們沒有得到群眾足夠的支持。",
+  "examples": [
+    {
+      "id": "ss80-example-main",
+      "en": "The problem is that we don’t have enough support from the crowd.",
+      "zh": "問題是，我們沒有得到群眾足夠的支持。",
+      "highlight": "The problem is that"
+    },
+    {
+      "id": "ss80-example-clarification",
+      "en": "The problem is not that the work is difficult; it is that we have too little time.",
+      "zh": "問題不在於工作困難，而在於我們的時間太少。",
+      "highlight": "it is that"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型先以 problem、reason、fact、advantage 等名詞概括資料，再用 that 完整子句解釋內容。"
+  },
+  "rules": [
+    {
+      "id": "ss80-rule-01",
+      "zh": "本課句型中的 is that 不是問句，而是連接概括重點和後面的詳細解釋。",
+      "en": "In this structure, is that is not a question.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss80-rule-02",
+      "zh": "that 後面必須是包含主語和動詞的完整子句。",
+      "en": "A complete clause with its own subject and verb must follow that.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss80-rule-03",
+      "zh": "be 要配合時態和單複數。",
+      "en": "Make be agree with the tense and number.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss80-rule-04",
+      "zh": "本練習的目標是掌握 be + that-clause，因此答案必須保留 that。",
+      "en": "Keep that in every answer in this exercise.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss80-rule-05",
+      "zh": "在清晰、正式的英語中，本練習採用 The reason is that，不採用 The reason is because。",
+      "en": "Use The reason is that rather than The reason is because in this exercise.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss80-rule-06",
+      "zh": "名詞必須準確概括後面的內容，例如 problem、reason、advantage、risk 或 fact。",
+      "en": "Choose a noun that accurately summarises the clause that follows.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss80-rule-07",
+      "zh": "可用 not that X; it is that Y 澄清真正重點。",
+      "en": "Use not that X; it is that Y to clarify the real point.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss80-benefit-01",
+      "zh": "使用 problem、reason、advantage 和 risk 等字眼，可以先告訴讀者接下來的是哪一類資料。",
+      "en": "It tells the reader what kind of information is coming."
+    },
+    {
+      "id": "ss80-benefit-02",
+      "zh": "它可以把兩句較短、較零散的句子合併成一句，使關係更加清楚。",
+      "en": "It combines two short sentences clearly."
+    },
+    {
+      "id": "ss80-benefit-03",
+      "zh": "它適合用來解釋看法、指出問題、交代原因或提出重點。",
+      "en": "It helps organise explanations and arguments."
+    },
+    {
+      "id": "ss80-benefit-04",
+      "zh": "選擇不同的概括名詞，可以準確表達說話者對後面內容的態度。",
+      "en": "It helps control the tone of the message."
+    },
+    {
+      "id": "ss80-benefit-05",
+      "zh": "它能減少重複使用 I think、because、but 或連續短句，令表達更有變化。",
+      "en": "It gives you alternatives to repetitive expressions."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using be + that-clause. Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 be + that 子句 改寫以下句子，並保留原意。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss80-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We do not have enough support from the crowd. This is the problem.",
+      "promptZh": "我們沒有得到群眾足夠的支持。這就是問題所在。",
+      "starter": "The",
+      "answer": "The problem is that we do not have enough support from the crowd.",
+      "answerZh": "問題是，我們沒有得到群眾足夠的支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem is that we do not have enough support from the crowd."
+    },
+    {
+      "id": "ss80-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 12,
+        "answerZhPage": 12
+      },
+      "prompt": "We must leave now because the shop closes at six.",
+      "promptZh": "我們必須現在離開，因為商店六時關門。",
+      "starter": "One",
+      "answer": "One reason we must leave now is that the shop closes at six.",
+      "answerZh": "我們必須現在離開的一個原因是，商店六時關門。",
+      "answerZhSource": "pdf",
+      "highlight": "One reason we must leave now is that the shop closes at six."
+    },
+    {
+      "id": "ss80-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 12,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Fortunately, everyone passed the test.",
+      "promptZh": "幸好，每個人都通過了測驗。",
+      "starter": "The",
+      "answer": "The good news is that everyone passed the test.",
+      "answerZh": "好消息是，每個人都通過了測驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The good news is that everyone passed the test."
+    },
+    {
+      "id": "ss80-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Unfortunately, the lift is out of order.",
+      "promptZh": "不幸的是，升降機發生故障。",
+      "starter": "The",
+      "answer": "The bad news is that the lift is out of order.",
+      "answerZh": "壞消息是，升降機發生故障。",
+      "answerZhSource": "pdf",
+      "highlight": "The bad news is that the lift is out of order."
+    },
+    {
+      "id": "ss80-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We can study whenever we have time. This is one major advantage of the online course.",
+      "promptZh": "我們可以在任何有空的時候學習。這是網上課程的一項主要優點。",
+      "starter": "One",
+      "answer": "One major advantage of the online course is that we can study whenever we have time.",
+      "answerZh": "網上課程的一項主要優點是，我們可以在任何有空的時候學習。",
+      "answerZhSource": "pdf",
+      "highlight": "One major advantage of the online course is that we can study whenever we have time."
+    },
+    {
+      "id": "ss80-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The room has no windows. This is its biggest disadvantage.",
+      "promptZh": "房間沒有窗戶。這是它最大的缺點。",
+      "starter": "This",
+      "answer": "This room’s biggest disadvantage is that it has no windows.",
+      "answerZh": "這個房間最大的缺點是，它沒有窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "This room’s biggest disadvantage is that it has no windows."
+    },
+    {
+      "id": "ss80-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I think the new rule is fair.",
+      "promptZh": "我認為新規則是公平的。",
+      "starter": "My",
+      "answer": "My opinion is that the new rule is fair.",
+      "answerZh": "我的看法是，新規則是公平的。",
+      "answerZhSource": "pdf",
+      "highlight": "My opinion is that the new rule is fair."
+    },
+    {
+      "id": "ss80-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "In fact, the keys were in my bag all along.",
+      "promptZh": "事實上，鎖匙一直都在我的袋裏。",
+      "starter": "The",
+      "answer": "The truth is that the keys were in my bag all along.",
+      "answerZh": "真相是，鎖匙一直都在我的袋裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The truth is that the keys were in my bag all along."
+    },
+    {
+      "id": "ss80-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We may miss the last bus. This is the risk.",
+      "promptZh": "我們可能會錯過尾班巴士。這就是風險。",
+      "starter": "The",
+      "answer": "The risk is that we may miss the last bus.",
+      "answerZh": "風險是，我們可能會錯過尾班巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "The risk is that we may miss the last bus."
+    },
+    {
+      "id": "ss80-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Please remember this important point: the password is case-sensitive.",
+      "promptZh": "請記住這個重要重點：密碼區分英文字母的大小寫。",
+      "starter": "One",
+      "answer": "One important point to remember is that the password is case-sensitive.",
+      "answerZh": "要記住的一個重要重點是，密碼區分英文字母的大小寫。",
+      "answerZhSource": "pdf",
+      "highlight": "One important point to remember is that the password is case-sensitive."
+    },
+    {
+      "id": "ss80-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "What is wrong with the printer? It keeps stopping.",
+      "promptZh": "打印機有甚麼問題？它不斷停止運作。",
+      "starter": "The",
+      "answer": "The problem with the printer is that it keeps stopping.",
+      "answerZh": "打印機的問題是，它不斷停止運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem with the printer is that it keeps stopping."
+    },
+    {
+      "id": "ss80-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia was upset because nobody had told her about the change.",
+      "promptZh": "米婭很不高興，因為沒有人告訴她這項改動。",
+      "starter": "Mia’s",
+      "answer": "Mia’s reason for being upset was that nobody had told her about the change.",
+      "answerZh": "米婭不高興的原因是，沒有人告訴她這項改動。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia’s reason for being upset was that nobody had told her about the change."
+    },
+    {
+      "id": "ss80-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The two phones differ in one main way: one has a larger screen.",
+      "promptZh": "兩部手機有一項主要分別：其中一部的螢幕較大。",
+      "starter": "The",
+      "answer": "The main difference between the two phones is that one has a larger screen.",
+      "answerZh": "兩部手機的主要分別是，其中一部的螢幕較大。",
+      "answerZhSource": "pdf",
+      "highlight": "The main difference between the two phones is that one has a larger screen."
+    },
+    {
+      "id": "ss80-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "One helpful feature of this app is its ability to work offline.",
+      "promptZh": "這個應用程式其中一項實用功能，是可以離線運作。",
+      "starter": "One",
+      "answer": "One helpful feature of this app is that it works offline.",
+      "answerZh": "這個應用程式其中一項實用功能是，它可以離線運作。",
+      "answerZhSource": "pdf",
+      "highlight": "One helpful feature of this app is that it works offline."
+    },
+    {
+      "id": "ss80-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We are mainly worried about possible rain during the outdoor event.",
+      "promptZh": "我們最擔心的是戶外活動期間可能下雨。",
+      "starter": "Our",
+      "answer": "Our main concern is that it may rain during the outdoor event.",
+      "answerZh": "我們主要擔心的是，戶外活動期間可能下雨。",
+      "answerZhSource": "pdf",
+      "highlight": "Our main concern is that it may rain during the outdoor event."
+    },
+    {
+      "id": "ss80-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We hope all the guests will arrive safely.",
+      "promptZh": "我們希望所有賓客都能安全抵達。",
+      "starter": "Our",
+      "answer": "Our hope is that all the guests will arrive safely.",
+      "answerZh": "我們的希望是，所有賓客都能安全抵達。",
+      "answerZhSource": "pdf",
+      "highlight": "Our hope is that all the guests will arrive safely."
+    },
+    {
+      "id": "ss80-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The teacher’s main message was clear: students should ask questions when they are confused.",
+      "promptZh": "老師的主要訊息很清楚：學生感到困惑時應該提問。",
+      "starter": "The",
+      "answer": "The teacher’s main message was that students should ask questions when they are confused.",
+      "answerZh": "老師的主要訊息是，學生感到困惑時應該提問。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher’s main message was that students should ask questions when they are confused."
+    },
+    {
+      "id": "ss80-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The event was successful mainly because more than 500 people attended.",
+      "promptZh": "活動之所以成功，主要是因為有超過五百人出席。",
+      "starter": "The",
+      "answer": "The main reason the event was successful was that more than 500 people attended.",
+      "answerZh": "活動成功的主要原因是，有超過五百人出席。",
+      "answerZhSource": "pdf",
+      "highlight": "The main reason the event was successful was that more than 500 people attended."
+    },
+    {
+      "id": "ss80-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We do not need to pay for delivery. That is the best part of this offer.",
+      "promptZh": "我們不需要支付運費。這是這項優惠最好的地方。",
+      "starter": "What",
+      "answer": "What makes this offer especially attractive is that we do not need to pay for delivery.",
+      "answerZh": "這項優惠特別吸引的地方是，我們不需要支付運費。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes this offer especially attractive is that we do not need to pay for delivery."
+    },
+    {
+      "id": "ss80-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "According to the latest update, the road will reopen tomorrow.",
+      "promptZh": "根據最新消息，道路將於明天重開。",
+      "starter": "The",
+      "answer": "The latest update is that the road will reopen tomorrow.",
+      "answerZh": "最新消息是，道路將於明天重開。",
+      "answerZhSource": "pdf",
+      "highlight": "The latest update is that the road will reopen tomorrow."
+    },
+    {
+      "id": "ss80-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager was concerned because the figures did not match.",
+      "promptZh": "經理感到擔心，因為數字並不吻合。",
+      "starter": "The",
+      "answer": "The manager’s concern was that the figures did not match.",
+      "answerZh": "經理所擔心的是，數字並不吻合。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager’s concern was that the figures did not match."
+    },
+    {
+      "id": "ss80-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The project may cost more than expected. We must consider this possibility.",
+      "promptZh": "項目成本可能高於預期。我們必須考慮這個可能性。",
+      "starter": "One",
+      "answer": "One possibility we must consider is that the project may cost more than expected.",
+      "answerZh": "我們必須考慮的一個可能性是，項目成本可能高於預期。",
+      "answerZhSource": "pdf",
+      "highlight": "One possibility we must consider is that the project may cost more than expected."
+    },
+    {
+      "id": "ss80-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The medicine can make some people feel sleepy. This is an important warning.",
+      "promptZh": "這種藥物可能使部分人感到昏昏欲睡。這是一項重要警告。",
+      "starter": "An",
+      "answer": "An important warning is that the medicine can make some people feel sleepy.",
+      "answerZh": "一項重要警告是，這種藥物可能使部分人感到昏昏欲睡。",
+      "answerZhSource": "pdf",
+      "highlight": "An important warning is that the medicine can make some people feel sleepy."
+    },
+    {
+      "id": "ss80-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The council finally decided to keep the library open on Sundays.",
+      "promptZh": "議會最終決定讓圖書館逢星期日開放。",
+      "starter": "The",
+      "answer": "The final decision was that the council would keep the library open on Sundays.",
+      "answerZh": "最終決定是，議會會讓圖書館逢星期日開放。",
+      "answerZhSource": "pdf",
+      "highlight": "The final decision was that the council would keep the library open on Sundays."
+    },
+    {
+      "id": "ss80-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Under the old policy, workers could choose their starting time. This was a major benefit.",
+      "promptZh": "根據舊政策，員工可以選擇上班時間。這是一項主要好處。",
+      "starter": "A",
+      "answer": "A major benefit of the old policy was that workers could choose their starting time.",
+      "answerZh": "舊政策的一項主要好處是，員工可以選擇上班時間。",
+      "answerZhSource": "pdf",
+      "highlight": "A major benefit of the old policy was that workers could choose their starting time."
+    },
+    {
+      "id": "ss80-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The old system often lost customer records. This was its greatest weakness.",
+      "promptZh": "舊系統經常遺失顧客紀錄。這是它最大的弱點。",
+      "starter": "Its",
+      "answer": "Its greatest weakness was that it often lost customer records.",
+      "answerZh": "它最大的弱點是，經常遺失顧客紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Its greatest weakness was that it often lost customer records."
+    },
+    {
+      "id": "ss80-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The building needs major repairs. This is one clear fact.",
+      "promptZh": "大樓需要進行大型維修。這是一個明確的事實。",
+      "starter": "One",
+      "answer": "One clear fact is that the building needs major repairs.",
+      "answerZh": "一個明確的事實是，大樓需要進行大型維修。",
+      "answerZhSource": "pdf",
+      "highlight": "One clear fact is that the building needs major repairs."
+    },
+    {
+      "id": "ss80-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We will lend you the hall on one condition: you must clean it afterwards.",
+      "promptZh": "我們可以把禮堂借給你，但有一個條件：你之後必須清潔場地。",
+      "starter": "The",
+      "answer": "The condition for lending you the hall is that you must clean it afterwards.",
+      "answerZh": "我們把禮堂借給你的條件是，你之後必須清潔場地。",
+      "answerZhSource": "pdf",
+      "highlight": "The condition for lending you the hall is that you must clean it afterwards."
+    },
+    {
+      "id": "ss80-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The company expects sales to improve next year.",
+      "promptZh": "公司預期明年的銷售額會上升。",
+      "starter": "The",
+      "answer": "The company’s expectation is that sales will improve next year.",
+      "answerZh": "公司的預期是，明年的銷售額會上升。",
+      "answerZhSource": "pdf",
+      "highlight": "The company’s expectation is that sales will improve next year."
+    },
+    {
+      "id": "ss80-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The team suggested that the deadline should be moved to Monday.",
+      "promptZh": "團隊建議把截止日期改為星期一。",
+      "starter": "Their",
+      "answer": "Their suggestion is that the deadline should be moved to Monday.",
+      "answerZh": "他們的建議是，截止日期應改為星期一。",
+      "answerZhSource": "pdf",
+      "highlight": "Their suggestion is that the deadline should be moved to Monday."
+    },
+    {
+      "id": "ss80-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The service is cheap, but it is unreliable. Its price is not the problem.",
+      "promptZh": "服務收費便宜，但並不可靠。價格並不是問題所在。",
+      "starter": "The",
+      "answer": "The problem is not that the service is expensive; it is that it is unreliable.",
+      "answerZh": "問題不在於服務昂貴，而在於它並不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The problem is not that the service is expensive; it is that it is unreliable."
+    },
+    {
+      "id": "ss80-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Some people think the job is difficult because it takes a long time. In fact, it is difficult because it requires careful attention.",
+      "promptZh": "有些人認為這份工作困難，是因為需時很長。事實上，真正的困難在於它需要人保持高度專注。",
+      "starter": "What",
+      "answer": "What makes the job difficult is not that it takes a long time; it is that it requires careful attention.",
+      "answerZh": "令這份工作困難的並不是它需時很長，而是它需要人保持高度專注。",
+      "answerZhSource": "pdf",
+      "highlight": "What makes the job difficult is not that it takes a long time; it is that it requires careful attention."
+    },
+    {
+      "id": "ss80-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The document never reached the client because it was sent to the wrong address.",
+      "promptZh": "文件沒有送達客戶手上，因為它被寄往錯誤地址。",
+      "starter": "The",
+      "answer": "The reason the document never reached the client was that it was sent to the wrong address.",
+      "answerZh": "文件沒有送達客戶手上的原因是，它被寄往錯誤地址。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason the document never reached the client was that it was sent to the wrong address."
+    },
+    {
+      "id": "ss80-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If the temperature falls below zero, the pipes may freeze. This is the main danger.",
+      "promptZh": "如果氣溫降至零度以下，水管可能會結冰。這是主要危險。",
+      "starter": "The",
+      "answer": "The main danger is that the pipes may freeze if the temperature falls below zero.",
+      "answerZh": "主要危險是，如果氣溫降至零度以下，水管可能會結冰。",
+      "answerZhSource": "pdf",
+      "highlight": "The main danger is that the pipes may freeze if the temperature falls below zero."
+    },
+    {
+      "id": "ss80-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The delivery arrived two hours late because the road was flooded.",
+      "promptZh": "送貨遲了兩小時，因為道路水浸。",
+      "starter": "The",
+      "answer": "The reason the delivery arrived two hours late was that the road was flooded.",
+      "answerZh": "送貨遲了兩小時的原因是，道路水浸。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason the delivery arrived two hours late was that the road was flooded."
+    },
+    {
+      "id": "ss80-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum has extended its opening hours, so visitors now have more time to explore.",
+      "promptZh": "博物館延長了開放時間，因此訪客現在有更多時間參觀。",
+      "starter": "One",
+      "answer": "One result of the longer opening hours is that visitors now have more time to explore.",
+      "answerZh": "延長開放時間的一個結果是，訪客現在有更多時間參觀。",
+      "answerZhSource": "pdf",
+      "highlight": "One result of the longer opening hours is that visitors now have more time to explore."
+    },
+    {
+      "id": "ss80-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "At this hotel, breakfast is free, and guests can check out late. These are its two main advantages.",
+      "promptZh": "這間酒店提供免費早餐，住客亦可延遲退房。這是它的兩項主要優點。",
+      "starter": "The",
+      "answer": "The two main advantages of this hotel are that breakfast is free and that guests can check out late.",
+      "answerZh": "這間酒店的兩項主要優點是，早餐免費，而且住客可以延遲退房。",
+      "answerZhSource": "pdf",
+      "highlight": "The two main advantages of this hotel are that breakfast is free and that guests can check out late."
+    },
+    {
+      "id": "ss80-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The software cannot open older files. This is its main limitation.",
+      "promptZh": "軟件無法開啟舊格式的檔案。這是它的主要限制。",
+      "starter": "The",
+      "answer": "The main limitation of the software is that it cannot open older files.",
+      "answerZh": "軟件的主要限制是，它無法開啟舊格式的檔案。",
+      "answerZhSource": "pdf",
+      "highlight": "The main limitation of the software is that it cannot open older files."
+    },
+    {
+      "id": "ss80-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The electricity bill was high because the lights had been left on all night.",
+      "promptZh": "電費很高，因為燈整晚都沒有關掉。",
+      "starter": "The",
+      "answer": "The reason the electricity bill was high was that the lights had been left on all night.",
+      "answerZh": "電費很高的原因是，燈整晚都沒有關掉。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason the electricity bill was high was that the lights had been left on all night."
+    },
+    {
+      "id": "ss80-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regular exercise can improve sleep. This is a well-known fact.",
+      "promptZh": "定期運動可以改善睡眠。這是一個廣為人知的事實。",
+      "starter": "One",
+      "answer": "One well-known fact about regular exercise is that it can improve sleep.",
+      "answerZh": "有關定期運動的一個廣為人知的事實是，它可以改善睡眠。",
+      "answerZhSource": "pdf",
+      "highlight": "One well-known fact about regular exercise is that it can improve sleep."
+    },
+    {
+      "id": "ss80-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Everyone was surprised when the quiet student volunteered to lead the discussion.",
+      "promptZh": "當那名安靜的學生自願帶領討論時，每個人都感到驚訝。",
+      "starter": "What",
+      "answer": "What surprised everyone was that the quiet student volunteered to lead the discussion.",
+      "answerZh": "令每個人感到驚訝的是，那名安靜的學生自願帶領討論。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised everyone was that the quiet student volunteered to lead the discussion."
+    },
+    {
+      "id": "ss80-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The plan must be fair to all staff. That matters most to me.",
+      "promptZh": "計劃必須對所有員工公平。這一點對我最重要。",
+      "starter": "What",
+      "answer": "What matters most to me is that the plan is fair to all staff.",
+      "answerZh": "對我最重要的是，計劃對所有員工公平。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters most to me is that the plan is fair to all staff."
+    },
+    {
+      "id": "ss80-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children remembered the safety rule after their teacher repeated it several times. This pleased the teacher.",
+      "promptZh": "孩子們在老師重複安全守則數次後記住了它。這令老師很高興。",
+      "starter": "What",
+      "answer": "What pleased the teacher was that the children remembered the safety rule after she repeated it several times.",
+      "answerZh": "令老師高興的是，孩子們在她重複安全守則數次後記住了它。",
+      "answerZhSource": "pdf",
+      "highlight": "What pleased the teacher was that the children remembered the safety rule after she repeated it several times."
+    },
+    {
+      "id": "ss80-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "To our surprise, the repairs were completed in two days instead of a week.",
+      "promptZh": "令我們驚訝的是，維修工程只用了兩天便完成，而不是用上一星期。",
+      "starter": "What",
+      "answer": "What surprised us was that the repairs were completed in two days instead of a week.",
+      "answerZh": "令我們驚訝的是，維修工程在兩天內完成，而不是用上一星期。",
+      "answerZhSource": "pdf",
+      "highlight": "What surprised us was that the repairs were completed in two days instead of a week."
+    },
+    {
+      "id": "ss80-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team did not fail because it lacked skill. It failed because it communicated poorly.",
+      "promptZh": "球隊失敗並不是因為缺乏技巧，而是因為溝通不佳。",
+      "starter": "The",
+      "answer": "The reason the team failed was not that it lacked skill; it was that it communicated poorly.",
+      "answerZh": "球隊失敗的原因並不是缺乏技巧，而是溝通不佳。",
+      "answerZhSource": "pdf",
+      "highlight": "The reason the team failed was not that it lacked skill; it was that it communicated poorly."
+    },
+    {
+      "id": "ss80-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We are not worried that the work will cost too much. We are worried that it may not be finished on time.",
+      "promptZh": "我們並不擔心工程費用過高。我們擔心的是工程可能無法按時完成。",
+      "starter": "Our",
+      "answer": "Our concern is not that the work will cost too much; it is that it may not be finished on time.",
+      "answerZh": "我們擔心的並不是工程費用過高，而是工程可能無法按時完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Our concern is not that the work will cost too much; it is that it may not be finished on time."
+    },
+    {
+      "id": "ss80-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new schedule gives staff more choice, but it also makes team meetings harder to arrange.",
+      "promptZh": "新時間表讓員工有更多選擇，但亦令團隊會議更難安排。",
+      "starter": "The",
+      "answer": "The advantage of the new schedule is that it gives staff more choice, while the disadvantage is that it makes team meetings harder to arrange.",
+      "answerZh": "新時間表的優點是，它讓員工有更多選擇；缺點則是，它令團隊會議更難安排。",
+      "answerZhSource": "pdf",
+      "highlight": "The advantage of the new schedule is that it gives staff more choice, while the disadvantage is that it makes team meetings harder to arrange."
+    },
+    {
+      "id": "ss80-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school may have to cancel the trip if the weather warning remains in force.",
+      "promptZh": "如果天氣警告繼續生效，學校可能要取消旅行。",
+      "starter": "The",
+      "answer": "The risk is that the school may have to cancel the trip if the weather warning remains in force.",
+      "answerZh": "風險是，如果天氣警告繼續生效，學校可能要取消旅行。",
+      "answerZhSource": "pdf",
+      "highlight": "The risk is that the school may have to cancel the trip if the weather warning remains in force."
+    },
+    {
+      "id": "ss80-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The report does not claim that the system is perfect. It says that the system is safer than before.",
+      "promptZh": "報告並沒有聲稱系統完美無缺。它指出系統比以前更安全。",
+      "starter": "The",
+      "answer": "The report’s point is not that the system is perfect; it is that the system is safer than before.",
+      "answerZh": "報告的重點並不是系統完美無缺，而是系統比以前更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The report’s point is not that the system is perfect; it is that the system is safer than before."
+    },
+    {
+      "id": "ss80-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public often focuses on how quickly the service responds. However, the accuracy of the information is more important.",
+      "promptZh": "公眾往往集中注意服務的回應速度。然而，資訊的準確性更為重要。",
+      "starter": "What",
+      "answer": "What matters most is not that the service responds quickly; it is that the information it provides is accurate.",
+      "answerZh": "最重要的並不是服務回應得有多快，而是它提供的資訊準確無誤。",
+      "answerZhSource": "pdf",
+      "highlight": "What matters most is not that the service responds quickly; it is that the information it provides is accurate."
+    }
+  ]
+}

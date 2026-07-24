@@ -1,0 +1,1271 @@
+{
+  "id": "ss88",
+  "order": 88,
+  "slug": "verb-comparatives-more-less-than",
+  "title": "「動詞比較句：Verb + more / less than」",
+  "titleZh": "動詞比較句：Verb + more / less than",
+  "titleEn": "Verb + more / less than",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 88 -「動詞比較句：Verb + more _ less than」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "The PDF presents the Important Rules explanations in Traditional Chinese; their English fields are faithful editorial translations."
+    ]
+  },
+  "formula": "A + verb + more / less than + B",
+  "formulas": [
+    {
+      "id": "ss88-formula-subjects",
+      "labelZh": "比較兩個主語或事物",
+      "labelEn": "Compare two subjects or things",
+      "formula": "A + verb + more / less than + B"
+    },
+    {
+      "id": "ss88-formula-actions",
+      "labelZh": "比較兩個動作、對象或選擇",
+      "labelEn": "Compare two actions, objects or choices",
+      "formula": "Subject + verb + X + more / less than + Y"
+    },
+    {
+      "id": "ss88-formula-prepositions",
+      "labelZh": "比較依賴、關注、投資等程度",
+      "labelEn": "Compare degrees of dependence, attention or investment",
+      "formula": "Subject + verb + more / less + preposition + X + than + preposition + Y"
+    },
+    {
+      "id": "ss88-formula-adverbs",
+      "labelZh": "比較動作的頻率或方式",
+      "labelEn": "Compare the frequency or manner of actions",
+      "formula": "Subject + verb + more / less + adverb + than + comparison"
+    }
+  ],
+  "example": "Local standards matter more than private comfort.",
+  "exampleZh": "當地標準比個人舒適更重要。",
+  "examples": [
+    {
+      "id": "ss88-example-subjects",
+      "en": "Local standards matter more than private comfort.",
+      "zh": "當地標準比個人舒適更重要。",
+      "highlight": "matter more than"
+    },
+    {
+      "id": "ss88-example-actions",
+      "en": "I value honesty more than popularity.",
+      "zh": "我重視誠實多於受歡迎。",
+      "highlight": "value honesty more than popularity"
+    },
+    {
+      "id": "ss88-example-prepositions",
+      "en": "The team depends more on preparation than on luck.",
+      "zh": "球隊依賴準備多於運氣。",
+      "highlight": "depends more on preparation than on luck"
+    },
+    {
+      "id": "ss88-example-adverbs",
+      "en": "People remember stories more easily than long lists of facts.",
+      "zh": "人們記住故事通常比記住一長串事實容易。",
+      "highlight": "remember stories more easily than long lists of facts"
+    }
+  ],
+  "rules": [
+    {
+      "id": "ss88-rule-01",
+      "zh": "more 表示較多或較高程度；less 表示較少或較低程度。",
+      "en": "More indicates a greater amount or degree, while less indicates a smaller amount or degree.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "care more: 更加關心",
+        "depend more: 更加依賴",
+        "spend less: 花費較少",
+        "worry less: 擔心得較少"
+      ]
+    },
+    {
+      "id": "ss88-rule-02",
+      "zh": "than 前後的內容應保持同類，例如名詞與名詞比較，或動名詞短語與動名詞短語比較。",
+      "en": "Keep the content before and after than parallel, such as comparing one noun with another or one gerund phrase with another.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Correct: I value honesty more than popularity.",
+        "Correct: Maya cares more about doing the work well than about finishing first.",
+        "Incorrect: I value honesty more than being popular is important."
+      ]
+    },
+    {
+      "id": "ss88-rule-03",
+      "zh": "如動詞後面需要介詞，通常應在 than 後重複介詞，令比較關係更清楚。",
+      "en": "If the verb requires a preposition, normally repeat the preposition after than to make the comparison clearer.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The company invests more in training than in advertising.",
+        "The team depends more on preparation than on luck."
+      ]
+    },
+    {
+      "id": "ss88-rule-04",
+      "zh": "比較動作的頻率或方式時，可以加入副詞，例如 more often than、more frequently than、more easily than、more clearly than 和 more effectively than。",
+      "en": "Add an adverb when comparing the frequency or manner of actions, for example more often than, more frequently than, more easily than, more clearly than and more effectively than.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss88-rule-05",
+      "zh": "不要使用雙重比較。不要寫 more better than；可寫 matters more than 或 is better than。",
+      "en": "Do not use a double comparative. Avoid more better than; use matters more than or is better than.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Incorrect: This matters more better than that.",
+        "Correct: This matters more than that.",
+        "Correct: This is better than that."
+      ]
+    },
+    {
+      "id": "ss88-rule-06",
+      "zh": "本課集中練習「動詞比較」，而不是一般形容詞比較。動詞比較能直接說明主語採取甚麼態度或行動。",
+      "en": "This lesson focuses on verb comparison rather than ordinary adjective comparison. A verb comparative directly states the attitude or action taken by the subject.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Adjective comparison: Safety is more important than appearance.",
+        "Verb comparison: The school prioritises safety more than appearance."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss88-benefit-01",
+      "zh": "清楚指出哪一項事物得到較多重視。這個句型可以清楚指出哪一項事物得到較多重視、關注或資源。",
+      "en": "It shows exactly which thing receives more attention. This structure clearly shows which idea, action or choice is more important.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss88-benefit-02",
+      "zh": "令比較更主動和直接。你不只可以說某件事「較重要」，還可以直接說明某人或機構更重視、依賴、信任或投資哪一方面。",
+      "en": "It makes comparisons more active and direct. Instead of only saying that one thing is more important, you can explain what a person or organisation actually does.",
+      "enSource": "pdf",
+      "examples": [
+        "Safety is more important to the school than appearance.",
+        "The school prioritises safety more than appearance."
+      ]
+    },
+    {
+      "id": "ss88-benefit-03",
+      "zh": "合併兩個相關意思。你可以把兩個相關意思合併，不需要分開寫成兩句。",
+      "en": "It combines two related ideas. Instead of writing two separate sentences, you can join the comparison in one sentence.",
+      "enSource": "pdf",
+      "examples": [
+        "Before: Mia enjoys reading. She does not enjoy gaming as much.",
+        "After: Mia enjoys reading more than gaming."
+      ]
+    },
+    {
+      "id": "ss88-benefit-04",
+      "zh": "幫助解釋選擇和決定。當你需要解釋優先次序、開支、喜好、信任或判斷時，這個句型十分實用。",
+      "en": "It helps you explain choices and decisions. This structure is useful when explaining priorities, spending, preferences, trust and judgement.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss88-benefit-05",
+      "zh": "提供實用的口語和寫作框架。掌握這個框架後，可以較快組織口語答案、作文論點、報告和簡報內容。",
+      "en": "It provides a useful speaking and writing frame. Once you know the pattern, you can quickly insert your own ideas.",
+      "enSource": "pdf",
+      "examples": [
+        "I value ___ more than ___.",
+        "We depend more on ___ than on ___.",
+        "The government should invest more in ___ than in ___."
+      ]
+    }
+  ],
+  "sourceOmissions": [
+    "English Important Rules explanations are faithful editorial translations because the PDF supplies those explanations in Traditional Chinese."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a verb comparative with more … than or less … than.",
+      "Preserve the original meaning and comparison.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用含有 more … than 或 less … than 的動詞比較句改寫以下句子。",
+      "答案必須保留原句的意思及比較關係。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss88-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Local standards are more important than private comfort.",
+      "promptZh": "當地標準比個人舒適更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Local",
+      "answer": "Local standards matter more than private comfort.",
+      "answerZh": "當地標準比個人舒適更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Local standards matter more than private comfort."
+    },
+    {
+      "id": "ss88-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Honesty is more important to me than popularity.",
+      "promptZh": "對我而言，誠實比受歡迎更重要。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I value honesty more than popularity.",
+      "answerZh": "我重視誠實多於受歡迎。",
+      "answerZhSource": "pdf",
+      "highlight": "I value honesty more than popularity."
+    },
+    {
+      "id": "ss88-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia enjoys both reading and gaming. Reading is her stronger preference.",
+      "promptZh": "米婭既喜歡閱讀，也喜歡打機。她較偏愛閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia enjoys reading more than gaming.",
+      "answerZh": "米婭喜歡閱讀多於打機。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia enjoys reading more than gaming."
+    },
+    {
+      "id": "ss88-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Facts seem more trustworthy to Ben than rumours.",
+      "promptZh": "對本而言，事實比傳言更可信。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben trusts facts more than rumours.",
+      "answerZh": "本相信事實多於傳言。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben trusts facts more than rumours."
+    },
+    {
+      "id": "ss88-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Clean water is more necessary for us than luxury goods.",
+      "promptZh": "對我們而言，潔淨食水比奢侈品更不可或缺。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need clean water more than luxury goods.",
+      "answerZh": "我們需要潔淨食水多於奢侈品。",
+      "answerZhSource": "pdf",
+      "highlight": "We need clean water more than luxury goods."
+    },
+    {
+      "id": "ss88-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The children have a stronger liking for outdoor games than for screen time.",
+      "promptZh": "孩子們較喜歡戶外遊戲，而不是螢幕活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children like outdoor games more than screen time.",
+      "answerZh": "孩子們喜歡戶外遊戲多於螢幕活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The children like outdoor games more than screen time."
+    },
+    {
+      "id": "ss88-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Sarah misses both her family and her old neighbourhood. She feels a stronger sense of homesickness for her family.",
+      "promptZh": "莎拉既掛念家人，也掛念以前居住的社區。她對家人的思念更深。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah misses her family more than her old neighbourhood.",
+      "answerZh": "莎拉掛念家人多於以前居住的社區。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah misses her family more than her old neighbourhood."
+    },
+    {
+      "id": "ss88-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Patience is more necessary for this job than physical strength.",
+      "promptZh": "這份工作需要耐性，多於需要體力。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This job requires patience more than physical strength.",
+      "answerZh": "這份工作需要耐性多於體力。",
+      "answerZhSource": "pdf",
+      "highlight": "This job requires patience more than physical strength."
+    },
+    {
+      "id": "ss88-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The school gives greater priority to safety than to appearance.",
+      "promptZh": "學校給予安全的優先程度高於外觀。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school prioritises safety more than appearance.",
+      "answerZh": "學校重視安全多於外觀。",
+      "answerZhSource": "pdf",
+      "highlight": "The school prioritises safety more than appearance."
+    },
+    {
+      "id": "ss88-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Speed is useful. However, good planning is more important.",
+      "promptZh": "速度固然有用，但良好規劃更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good planning matters more than speed.",
+      "answerZh": "良好規劃比速度更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Good planning matters more than speed."
+    },
+    {
+      "id": "ss88-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I use the library frequently. I rarely use the sports centre.",
+      "promptZh": "我經常使用圖書館，但很少使用體育中心。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I use the library more often than I use the sports centre.",
+      "answerZh": "我使用圖書館的次數比使用體育中心多。",
+      "answerZhSource": "pdf",
+      "highlight": "I use the library more often than I use the sports centre."
+    },
+    {
+      "id": "ss88-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Chloe does not spend as much practice time on writing as on speaking.",
+      "promptZh": "克洛伊練習寫作的時間不及練習說話的時間多。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe practises speaking more than writing.",
+      "answerZh": "克洛伊練習說話多於練習寫作。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe practises speaking more than writing."
+    },
+    {
+      "id": "ss88-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo checks the weather forecast every morning. He checks social media only occasionally.",
+      "promptZh": "里奧每天早上查看天氣預報，但只會偶爾查看社交媒體。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo checks the weather forecast more often than he checks social media.",
+      "answerZh": "里奧查看天氣預報的次數比查看社交媒體多。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo checks the weather forecast more often than he checks social media."
+    },
+    {
+      "id": "ss88-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My health causes my parents greater concern than my grades.",
+      "promptZh": "與我的成績相比，我的健康令父母更加擔心。",
+      "promptZhSource": "pdf",
+      "starter": "My",
+      "answer": "My parents worry more about my health than about my grades.",
+      "answerZh": "父母擔心我的健康多於擔心我的成績。",
+      "answerZhSource": "pdf",
+      "highlight": "My parents worry more about my health than about my grades."
+    },
+    {
+      "id": "ss88-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The team’s dependence on preparation is greater than its dependence on luck.",
+      "promptZh": "球隊對準備的依賴程度高於對運氣的依賴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team depends more on preparation than on luck.",
+      "answerZh": "球隊依賴準備多於運氣。",
+      "answerZhSource": "pdf",
+      "highlight": "The team depends more on preparation than on luck."
+    },
+    {
+      "id": "ss88-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Residents do not complain about traffic as much as they complain about noise.",
+      "promptZh": "居民對交通的投訴不及對噪音的投訴多。",
+      "promptZhSource": "pdf",
+      "starter": "Residents",
+      "answer": "Residents complain more about noise than about traffic.",
+      "answerZh": "居民對噪音的投訴多於對交通的投訴。",
+      "answerZhSource": "pdf",
+      "highlight": "Residents complain more about noise than about traffic."
+    },
+    {
+      "id": "ss88-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The company’s investment in training is greater than its investment in advertising.",
+      "promptZh": "公司在培訓方面的投資高於廣告方面的投資。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company invests more in training than in advertising.",
+      "answerZh": "公司投資在培訓方面的資源多於廣告。",
+      "answerZhSource": "pdf",
+      "highlight": "The company invests more in training than in advertising."
+    },
+    {
+      "id": "ss88-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Her teacher’s advice is more valuable to Ava than advice from online influencers.",
+      "promptZh": "對艾娃而言，老師的意見比網上意見領袖的意見更有價值。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava values her teacher’s advice more than advice from online influencers.",
+      "answerZh": "艾娃重視老師的意見多於網上意見領袖的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava values her teacher’s advice more than advice from online influencers."
+    },
+    {
+      "id": "ss88-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mistakes are a greater source of learning for us than easy success.",
+      "promptZh": "對我們而言，錯誤比輕易取得的成功帶來更多學習機會。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We learn more from mistakes than from easy success.",
+      "answerZh": "我們從錯誤中學到的東西比從輕易取得的成功中更多。",
+      "answerZhSource": "pdf",
+      "highlight": "We learn more from mistakes than from easy success."
+    },
+    {
+      "id": "ss88-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Which group finds the museum more appealing, families or young travellers? Families do.",
+      "promptZh": "哪一個群體認為這間博物館較吸引：家庭還是年輕旅客？答案是家庭。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum appeals more to families than to young travellers.",
+      "answerZh": "這間博物館對家庭的吸引力高於對年輕旅客的吸引力。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum appeals more to families than to young travellers."
+    },
+    {
+      "id": "ss88-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I do not trust short comments as much as detailed reports.",
+      "promptZh": "我對簡短評論的信任不及對詳細報告的信任。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I trust detailed reports more than short comments.",
+      "answerZh": "我信任詳細報告多於簡短評論。",
+      "answerZhSource": "pdf",
+      "highlight": "I trust detailed reports more than short comments."
+    },
+    {
+      "id": "ss88-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Prevention receives more of the doctor’s attention than short-term treatment.",
+      "promptZh": "醫生放在預防方面的注意力多於短期治療。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor focuses more on prevention than on short-term treatment.",
+      "answerZh": "醫生較重視預防，而不是短期治療。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor focuses more on prevention than on short-term treatment."
+    },
+    {
+      "id": "ss88-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan’s spending on books is higher than his spending on clothes.",
+      "promptZh": "伊森花在書本上的金錢多於花在衣服上的金錢。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan spends more on books than on clothes.",
+      "answerZh": "伊森花在書本上的金錢多於衣服。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan spends more on books than on clothes."
+    },
+    {
+      "id": "ss88-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The city’s dependence on private cars is lower than it was ten years ago.",
+      "promptZh": "這座城市對私家車的依賴程度低於十年前。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city relies less on private cars than it did ten years ago.",
+      "answerZh": "這座城市目前對私家車的依賴少於十年前。",
+      "answerZhSource": "pdf",
+      "highlight": "The city relies less on private cars than it did ten years ago."
+    },
+    {
+      "id": "ss88-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What receives more discussion in our class, ideas or test scores? Ideas do.",
+      "promptZh": "我們班較常討論哪一項：想法還是測驗分數？答案是想法。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our class discusses ideas more than test scores.",
+      "answerZh": "我們班討論想法多於測驗分數。",
+      "answerZhSource": "pdf",
+      "highlight": "Our class discusses ideas more than test scores."
+    },
+    {
+      "id": "ss88-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "For Maya, doing the work well is more important than finishing first.",
+      "promptZh": "對瑪雅而言，把工作做好比第一個完成更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya cares more about doing the work well than about finishing first.",
+      "answerZh": "瑪雅更在意把工作做好，而不是第一個完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya cares more about doing the work well than about finishing first."
+    },
+    {
+      "id": "ss88-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The coach gives greater praise to effort than to natural talent.",
+      "promptZh": "教練給予努力的讚賞多於天賦。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coach praises effort more than natural talent.",
+      "answerZh": "教練讚賞努力多於天賦。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach praises effort more than natural talent."
+    },
+    {
+      "id": "ss88-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hotline is used more frequently by older residents than by younger adults.",
+      "promptZh": "年長居民使用熱線的頻率高於年輕成年人。",
+      "promptZhSource": "pdf",
+      "starter": "Older",
+      "answer": "Older residents use the hotline more frequently than younger adults do.",
+      "answerZh": "年長居民使用熱線的頻率高於年輕成年人。",
+      "answerZhSource": "pdf",
+      "highlight": "Older residents use the hotline more frequently than younger adults do."
+    },
+    {
+      "id": "ss88-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "For good photographs with this camera, good lighting is a more important requirement than expensive equipment.",
+      "promptZh": "使用這部相機拍攝好照片時，良好光線比昂貴器材更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Good",
+      "answer": "Good photographs with this camera depend more on good lighting than on expensive equipment.",
+      "answerZh": "使用這部相機拍攝好照片時，良好光線比昂貴器材更加重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Good photographs with this camera depend more on good lighting than on expensive equipment."
+    },
+    {
+      "id": "ss88-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People often forget long lists of facts. Personal stories remain in their memory more easily.",
+      "promptZh": "人們經常忘記一長串事實，但個人故事較容易留在記憶中。",
+      "promptZhSource": "pdf",
+      "starter": "People",
+      "answer": "People remember personal stories more easily than long lists of facts.",
+      "answerZh": "人們記住個人故事通常比記住一長串事實容易。",
+      "answerZhSource": "pdf",
+      "highlight": "People remember personal stories more easily than long lists of facts."
+    },
+    {
+      "id": "ss88-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The amount of staff time saved by the new system is greater than the amount saved by the old one.",
+      "promptZh": "新系統為員工節省的時間比舊系統多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system saves staff more time than the old one.",
+      "answerZh": "新系統為員工節省的時間比舊系統多。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system saves staff more time than the old one."
+    },
+    {
+      "id": "ss88-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school’s decoration budget is smaller than its budget for learning materials.",
+      "promptZh": "學校的裝飾預算低於學習材料預算。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school spends less on decoration than on learning materials.",
+      "answerZh": "學校花在裝飾上的金錢少於學習材料。",
+      "answerZhSource": "pdf",
+      "highlight": "The school spends less on decoration than on learning materials."
+    },
+    {
+      "id": "ss88-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Clean streets bring greater benefits to our neighbourhood than large signs.",
+      "promptZh": "整潔街道為我們的社區帶來的好處多於大型招牌。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our neighbourhood benefits more from clean streets than from large signs.",
+      "answerZh": "我們的社區從整潔街道得到的好處多於大型招牌。",
+      "answerZhSource": "pdf",
+      "highlight": "Our neighbourhood benefits more from clean streets than from large signs."
+    },
+    {
+      "id": "ss88-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The patient is afraid of both the operation and the long recovery. The recovery causes greater fear.",
+      "promptZh": "病人既害怕手術，也害怕漫長的康復期，但康復期令他更加害怕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient fears the long recovery more than the operation.",
+      "answerZh": "病人害怕漫長的康復期多於手術。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient fears the long recovery more than the operation."
+    },
+    {
+      "id": "ss88-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Examples remain clearer in students’ memories than definitions.",
+      "promptZh": "與定義相比，例子更清楚地留在學生的記憶中。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students remember examples more clearly than definitions.",
+      "answerZh": "學生對例子的記憶比對定義的記憶更清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Students remember examples more clearly than definitions."
+    },
+    {
+      "id": "ss88-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Frontline workers receive greater attention from the organisation than outside consultants.",
+      "promptZh": "機構給予前線員工的關注多於外部顧問。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organisation listens more to frontline workers than to outside consultants.",
+      "answerZh": "機構聽取前線員工的意見多於外部顧問的意見。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisation listens more to frontline workers than to outside consultants."
+    },
+    {
+      "id": "ss88-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The plan’s results should carry greater weight in our judgement than its promises.",
+      "promptZh": "我們判斷這個計劃時，其實際結果應比承諾佔更大比重。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We should judge the plan more by its results than by its promises.",
+      "answerZh": "我們判斷這個計劃時，應較重視實際結果，而不是承諾。",
+      "answerZhSource": "pdf",
+      "highlight": "We should judge the plan more by its results than by its promises."
+    },
+    {
+      "id": "ss88-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "During the school term, the library is used more frequently by local families than by tourists.",
+      "promptZh": "在學期期間，本地家庭使用圖書館的頻率高於旅客。",
+      "promptZhSource": "pdf",
+      "starter": "During",
+      "answer": "During the school term, local families use the library more frequently than tourists do.",
+      "answerZh": "在學期期間，本地家庭使用圖書館的頻率高於旅客。",
+      "answerZhSource": "pdf",
+      "highlight": "During the school term, local families use the library more frequently than tourists do."
+    },
+    {
+      "id": "ss88-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which method is more helpful for my learning: solving problems or memorising rules? Solving problems is.",
+      "promptZh": "哪一種方法對我的學習更有幫助：解決問題還是背誦規則？答案是解決問題。",
+      "promptZhSource": "pdf",
+      "starter": "Solving",
+      "answer": "Solving problems helps me more than memorising rules.",
+      "answerZh": "解決問題對我的幫助比背誦規則更大。",
+      "answerZhSource": "pdf",
+      "highlight": "Solving problems helps me more than memorising rules."
+    },
+    {
+      "id": "ss88-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Reliable progress is more valuable to the manager than impressive promises.",
+      "promptZh": "對經理而言，可靠的進展比動聽的承諾更有價值。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager values reliable progress more than impressive promises.",
+      "answerZh": "經理重視可靠的進展多於動聽的承諾。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager values reliable progress more than impressive promises."
+    },
+    {
+      "id": "ss88-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital’s dependence on paper records is now lower than it was before the digital system was introduced.",
+      "promptZh": "醫院目前對紙本紀錄的依賴程度低於引入數碼系統之前。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital now relies less on paper records than it did before the digital system was introduced.",
+      "answerZh": "醫院目前對紙本紀錄的依賴少於引入數碼系統之前。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital now relies less on paper records than it did before the digital system was introduced."
+    },
+    {
+      "id": "ss88-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When budgets are tight, basic needs receive greater priority from families than entertainment.",
+      "promptZh": "當預算緊張時，家庭給予基本需要的優先程度高於娛樂。",
+      "promptZhSource": "pdf",
+      "starter": "When",
+      "answer": "When budgets are tight, families prioritise basic needs more than entertainment.",
+      "answerZh": "當預算緊張時，家庭重視基本需要多於娛樂。",
+      "answerZhSource": "pdf",
+      "highlight": "When budgets are tight, families prioritise basic needs more than entertainment."
+    },
+    {
+      "id": "ss88-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Repeatable results are more trustworthy to the research team than exciting claims without evidence.",
+      "promptZh": "對研究團隊而言，可以重複驗證的結果比缺乏證據但令人興奮的說法更可信。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team trusts repeatable results more than exciting claims without evidence.",
+      "answerZh": "研究團隊信任可以重複驗證的結果，多於缺乏證據但令人興奮的說法。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team trusts repeatable results more than exciting claims without evidence."
+    },
+    {
+      "id": "ss88-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In difficult conversations, people’s intended meaning receives more of my attention than their exact choice of words.",
+      "promptZh": "在困難的對話中，我較留意別人的真正意思，而不是他們選擇的確切字眼。",
+      "promptZhSource": "pdf",
+      "starter": "In",
+      "answer": "In difficult conversations, I pay more attention to what people mean than to the exact words they choose.",
+      "answerZh": "在困難的對話中，我較留意別人的真正意思，而不是他們選擇的確切字眼。",
+      "answerZhSource": "pdf",
+      "highlight": "In difficult conversations, I pay more attention to what people mean than to the exact words they choose."
+    },
+    {
+      "id": "ss88-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Who receives greater help from the new timetable, part-time students or full-time students? Part-time students do.",
+      "promptZh": "哪一類學生從新時間表得到較大幫助：兼讀制學生還是全日制學生？答案是兼讀制學生。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable helps part-time students more than full-time students.",
+      "answerZh": "新時間表對兼讀制學生的幫助比對全日制學生更大。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable helps part-time students more than full-time students."
+    },
+    {
+      "id": "ss88-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Consistent action is more important to public confidence than one successful announcement.",
+      "promptZh": "對公眾信心而言，持續一致的行動比一次成功的公布更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public confidence depends more on consistent action than on one successful announcement.",
+      "answerZh": "公眾信心依賴持續一致的行動，多於一次成功的公布。",
+      "answerZhSource": "pdf",
+      "highlight": "Public confidence depends more on consistent action than on one successful announcement."
+    },
+    {
+      "id": "ss88-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Preventing accidents deserves greater council investment than repairing damage afterwards.",
+      "promptZh": "與事後修復損害相比，預防意外更值得議會投放資源。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council should invest more in preventing accidents than in repairing damage afterwards.",
+      "answerZh": "議會應投放較多資源預防意外，而不是事後修復損害。",
+      "answerZhSource": "pdf",
+      "highlight": "The council should invest more in preventing accidents than in repairing damage afterwards."
+    },
+    {
+      "id": "ss88-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For beginners, a clear example is usually more instructive than a long grammatical explanation.",
+      "promptZh": "對初學者而言，清楚的例子通常比冗長的文法解釋更有教學成效。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A clear example often teaches beginners more effectively than a long grammatical explanation does.",
+      "answerZh": "清楚的例子通常比冗長的文法解釋更有效地教導初學者。",
+      "answerZhSource": "pdf",
+      "highlight": "A clear example often teaches beginners more effectively than a long grammatical explanation does."
+    },
+    {
+      "id": "ss88-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although technology can save time, good judgement remains more important than fast results in serious decisions.",
+      "promptZh": "雖然科技可以節省時間，但在重大決定中，良好判斷仍比迅速得到結果更重要。",
+      "promptZhSource": "pdf",
+      "starter": "Although",
+      "answer": "Although technology can save time, good judgement still matters more than fast results in serious decisions.",
+      "answerZh": "雖然科技可以節省時間，但在重大決定中，良好判斷仍比迅速得到結果更重要。",
+      "answerZhSource": "pdf",
+      "highlight": "Although technology can save time, good judgement still matters more than fast results in serious decisions."
+    },
+    {
+      "id": "ss88-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "For organisations, honest communication is a stronger foundation for trust than attractive advertising.",
+      "promptZh": "對機構而言，坦誠溝通比吸引的廣告更能為信任奠定穩固基礎。",
+      "promptZhSource": "pdf",
+      "starter": "Organisations",
+      "answer": "Organisations build trust more through honest communication than through attractive advertising.",
+      "answerZh": "機構透過坦誠溝通建立的信任，多於透過吸引的廣告建立的信任。",
+      "answerZhSource": "pdf",
+      "highlight": "Organisations build trust more through honest communication than through attractive advertising."
+    }
+  ]
+}

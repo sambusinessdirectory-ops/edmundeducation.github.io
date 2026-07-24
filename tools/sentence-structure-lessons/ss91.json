@@ -1,0 +1,1236 @@
+{
+  "id": "ss91",
+  "order": 91,
+  "slug": "sentence-structure-91",
+  "title": "「Superlative」最高級句型",
+  "titleZh": "「Superlative 最高比較型（最高級句型）」",
+  "titleEn": "Superlative Structures",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 91 -「Superlative 最高比較型（最高級句型）」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be + the + adjective-est + noun + comparison group",
+  "formulas": [
+    {
+      "id": "ss91-formula-short-adjective",
+      "labelZh": "短形容詞",
+      "labelEn": "Short adjectives",
+      "formula": "Subject + be + the + adjective-est + noun + comparison group"
+    },
+    {
+      "id": "ss91-formula-long-adjective",
+      "labelZh": "較長形容詞",
+      "labelEn": "Longer adjectives",
+      "formula": "Subject + be + the most / least + adjective + noun + comparison group"
+    },
+    {
+      "id": "ss91-formula-best-way",
+      "labelZh": "表達最佳方法",
+      "labelEn": "Expressing the best method",
+      "formula": "Gerund / noun phrase + be + the best / easiest / safest + way + to + base verb"
+    },
+    {
+      "id": "ss91-formula-one-of",
+      "labelZh": "表達其中一個最……",
+      "labelEn": "Expressing one of the most…",
+      "formula": "Subject + be + one of the + superlative adjective + plural noun + comparison group"
+    }
+  ],
+  "example": "Mia is the fastest runner in the class.",
+  "exampleZh": "米婭是班上跑得最快的跑手。",
+  "examples": [
+    {
+      "id": "ss91-example-short",
+      "en": "Mia is the fastest runner in the class.",
+      "zh": "米婭是班上跑得最快的跑手。",
+      "highlight": "the fastest runner in the class"
+    },
+    {
+      "id": "ss91-example-most",
+      "en": "This is the most important topic in the exam.",
+      "zh": "這是考試中最重要的題目。",
+      "highlight": "the most important topic"
+    },
+    {
+      "id": "ss91-example-way",
+      "en": "Studying is the best way to get rich.",
+      "zh": "讀書是致富的最佳方法。",
+      "highlight": "the best way to get rich"
+    },
+    {
+      "id": "ss91-example-one-of",
+      "en": "I am about to tell you about one of the most important topics in the exam.",
+      "zh": "我正要告訴你考試中其中一個最重要的題目。",
+      "highlight": "one of the most important topics"
+    }
+  ],
+  "meaning": {
+    "zh": "最高級句型用來指出某人、事物或方法在比較範圍內具有最高或最低程度的特質。"
+  },
+  "rules": [
+    {
+      "id": "ss91-rule-01",
+      "zh": "短形容詞通常加 -est；按拼字規則可加 -st、重複最後字母或把 y 改為 i。",
+      "en": "Short adjectives normally take -est, with the appropriate spelling changes.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss91-rule-02",
+      "zh": "較長的形容詞通常使用 most；不要同時使用 most 和 -est。",
+      "en": "Longer adjectives normally use most; do not use most and -est together.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss91-rule-03",
+      "zh": "留意 good → best、bad → worst 等不規則變化；least + adjective 表示程度最低。",
+      "en": "Remember irregular forms such as good → best and bad → worst; least + adjective expresses the lowest degree.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss91-rule-04",
+      "zh": "最高級形容詞前通常要使用 the。",
+      "en": "Normally use the before a superlative adjective.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss91-rule-05",
+      "zh": "one of the 後面必須使用複數名詞。",
+      "en": "Use a plural noun after one of the.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss91-rule-06",
+      "zh": "使用 in 或 of 說明比較範圍：in 常用於地方或群體，of 常用於指定數量或時間。",
+      "en": "Use in or of for the comparison group: in commonly introduces a place or group, while of introduces a specified set or time.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss91-rule-07",
+      "zh": "most 沒有 the 時可表示「大部分」，並不是最高級。",
+      "en": "Without the, most can mean ‘the majority of’ rather than a superlative.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss91-benefit-01",
+      "zh": "直接指出哪一個人、事物或方法在某方面排名最高或最低。",
+      "en": "It clearly identifies the top or bottom choice."
+    },
+    {
+      "id": "ss91-benefit-02",
+      "zh": "用一句話總結整個比較，不需要逐一比較所有選項。",
+      "en": "It shortens repeated comparisons."
+    },
+    {
+      "id": "ss91-benefit-03",
+      "zh": "the best way、the easiest way 和 the safest way 可用來直接提出建議。",
+      "en": "It helps you give clear recommendations."
+    },
+    {
+      "id": "ss91-benefit-04",
+      "zh": "one of the most… 能作出高度評價，同時避免聲稱它是唯一第一名。",
+      "en": "One of the most… makes a strong but careful statement."
+    },
+    {
+      "id": "ss91-benefit-05",
+      "zh": "最高級句型能突出最重要的重點、最大的問題或最有效的方案。",
+      "en": "It helps organise priorities in speaking and writing."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using a superlative structure. Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用最高級句型改寫以下句子，並保留原句的意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss91-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "No other building in our town is as tall as this one.",
+      "promptZh": "我們鎮上沒有其他建築物像這一座那麼高。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is the tallest building in our town.",
+      "answerZh": "這是我們鎮上最高的建築物。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the tallest building in our town."
+    },
+    {
+      "id": "ss91-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia runs faster than every other runner in the class.",
+      "promptZh": "米婭跑得比班上其他所有跑手都快。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is the fastest runner in the class.",
+      "answerZh": "米婭是班上跑得最快的跑手。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is the fastest runner in the class."
+    },
+    {
+      "id": "ss91-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Monday was busier than every other day of the week.",
+      "promptZh": "星期一比本星期其他日子都更忙碌。",
+      "promptZhSource": "pdf",
+      "starter": "Monday",
+      "answer": "Monday was the busiest day of the week.",
+      "answerZh": "星期一是本星期最忙碌的一天。",
+      "answerZhSource": "pdf",
+      "highlight": "Monday was the busiest day of the week."
+    },
+    {
+      "id": "ss91-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This bag costs less than every other bag in the shop.",
+      "promptZh": "這個袋子比店內其他所有袋子都便宜。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is the cheapest bag in the shop.",
+      "answerZh": "這是店內最便宜的袋子。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the cheapest bag in the shop."
+    },
+    {
+      "id": "ss91-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which route to the station is shorter than all the others? The blue route is.",
+      "promptZh": "哪一條前往車站的路線比其他所有路線都短？是藍色路線。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue route is the shortest way to the station.",
+      "answerZh": "藍色路線是前往車站最短的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue route is the shortest way to the station."
+    },
+    {
+      "id": "ss91-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Walking requires less effort than every other way of getting some exercise.",
+      "promptZh": "步行比其他所有做運動的方法都更省力。",
+      "promptZhSource": "pdf",
+      "starter": "Walking",
+      "answer": "Walking is the easiest way to get some exercise.",
+      "answerZh": "步行是做一些運動最容易的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Walking is the easiest way to get some exercise."
+    },
+    {
+      "id": "ss91-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Water is healthier than every other drink on the menu.",
+      "promptZh": "水比餐牌上其他所有飲品都健康。",
+      "promptZhSource": "pdf",
+      "starter": "Water",
+      "answer": "Water is the healthiest drink on the menu.",
+      "answerZh": "水是餐牌上最健康的飲品。",
+      "answerZhSource": "pdf",
+      "highlight": "Water is the healthiest drink on the menu."
+    },
+    {
+      "id": "ss91-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben is younger than every other player on the team.",
+      "promptZh": "本比隊內其他所有球員都年輕。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben is the youngest player on the team.",
+      "answerZh": "本是隊內最年輕的球員。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben is the youngest player on the team."
+    },
+    {
+      "id": "ss91-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In the safety test, this seat performed better than every other seat in the car.",
+      "promptZh": "在安全測試中，這個座位的表現比車內其他所有座位都好。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is the safest seat in the car.",
+      "answerZh": "這是車內最安全的座位。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the safest seat in the car."
+    },
+    {
+      "id": "ss91-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The library is quieter than every other place in the school.",
+      "promptZh": "圖書館比校內其他所有地方都安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is the quietest place in the school.",
+      "answerZh": "圖書館是校內最安靜的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is the quietest place in the school."
+    },
+    {
+      "id": "ss91-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Of all the books in the series, I found this one more interesting than the others.",
+      "promptZh": "在這個系列的所有書籍中，我覺得這一本比其他書更有趣。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This book is the most interesting one in the series.",
+      "answerZh": "這本書是這個系列中最有趣的一本。",
+      "answerZhSource": "pdf",
+      "highlight": "This book is the most interesting one in the series."
+    },
+    {
+      "id": "ss91-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Which seat feels more comfortable than all the others in the room? The red sofa does.",
+      "promptZh": "房間內哪個座位比其他所有座位都舒適？是紅色梳化。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The red sofa is the most comfortable seat in the room.",
+      "answerZh": "紅色梳化是房間內最舒適的座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The red sofa is the most comfortable seat in the room."
+    },
+    {
+      "id": "ss91-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Paying this bill through online banking is more convenient than using any other method.",
+      "promptZh": "透過網上銀行繳付這張帳單，比使用其他任何方法都方便。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online banking is the most convenient way to pay this bill.",
+      "answerZh": "網上銀行是繳付這張帳單最方便的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Online banking is the most convenient way to pay this bill."
+    },
+    {
+      "id": "ss91-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Checking your work helps you avoid simple mistakes better than any other method.",
+      "promptZh": "檢查自己的答案，比其他任何方法都更能幫助你避免簡單錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Checking",
+      "answer": "Checking your work is the best way to avoid simple mistakes.",
+      "answerZh": "檢查自己的答案是避免簡單錯誤的最佳方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Checking your work is the best way to avoid simple mistakes."
+    },
+    {
+      "id": "ss91-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Of the services on this route, the morning train arrives on time more often than all the others.",
+      "promptZh": "在這條路線的各項服務中，早上的火車比其他班次更常準時到達。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The morning train is the most reliable service on this route.",
+      "answerZh": "早上的火車是這條路線上最可靠的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning train is the most reliable service on this route."
+    },
+    {
+      "id": "ss91-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I have not had a meal as bad as this one at any other time this month.",
+      "promptZh": "這個月內，我沒有吃過比這一餐更差的膳食。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is the worst meal I have had this month.",
+      "answerZh": "這是我這個月吃過最差的一餐。",
+      "answerZhSource": "pdf",
+      "highlight": "This is the worst meal I have had this month."
+    },
+    {
+      "id": "ss91-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Who explained the idea more clearly than everyone else in the group? Olivia did.",
+      "promptZh": "誰比小組內其他所有人都更清楚地解釋這個想法？是奧莉花。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia gave the clearest explanation in the group.",
+      "answerZh": "奧莉花在小組中作出了最清楚的解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia gave the clearest explanation in the group."
+    },
+    {
+      "id": "ss91-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "More visitors go to the science museum than to any other attraction in the city.",
+      "promptZh": "前往科學館的訪客，比前往市內其他任何景點的訪客都多。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science museum is the most popular attraction in the city.",
+      "answerZh": "科學館是市內最受歡迎的景點。",
+      "answerZhSource": "pdf",
+      "highlight": "The science museum is the most popular attraction in the city."
+    },
+    {
+      "id": "ss91-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Friday's temperature was higher than the temperature on every other day this month.",
+      "promptZh": "星期五的氣溫比這個月其他每一天都高。",
+      "promptZhSource": "pdf",
+      "starter": "Friday",
+      "answer": "Friday was the hottest day of the month.",
+      "answerZh": "星期五是這個月最熱的一天。",
+      "answerZhSource": "pdf",
+      "highlight": "Friday was the hottest day of the month."
+    },
+    {
+      "id": "ss91-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Of the three phone models, this one can run for more hours between charges than the other two.",
+      "promptZh": "在三款電話中，這一款每次充電後可使用的時間比另外兩款更長。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This phone has the longest battery life of the three models.",
+      "answerZh": "在三款型號中，這部電話的電池續航時間最長。",
+      "answerZhSource": "pdf",
+      "highlight": "This phone has the longest battery life of the three models."
+    },
+    {
+      "id": "ss91-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Reading aloud is an effective way to improve pronunciation. Only a few other methods work as well.",
+      "promptZh": "朗讀是改善發音的有效方法。只有少數其他方法同樣有效。",
+      "promptZhSource": "pdf",
+      "starter": "Reading",
+      "answer": "Reading aloud is one of the best ways to improve pronunciation.",
+      "answerZh": "朗讀是改善發音的最佳方法之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Reading aloud is one of the best ways to improve pronunciation."
+    },
+    {
+      "id": "ss91-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Few parts of a healthy routine matter as much as sleep.",
+      "promptZh": "健康生活習慣中，很少有部分像睡眠一樣重要。",
+      "promptZhSource": "pdf",
+      "starter": "Sleep",
+      "answer": "Sleep is one of the most important parts of a healthy routine.",
+      "answerZh": "睡眠是健康生活習慣中最重要的部分之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Sleep is one of the most important parts of a healthy routine."
+    },
+    {
+      "id": "ss91-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This bridge is older than almost every other structure in the village.",
+      "promptZh": "這座橋比村內幾乎所有其他建築物都古老。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bridge is one of the oldest structures in the village.",
+      "answerZh": "這座橋是村內最古老的建築物之一。",
+      "answerZhSource": "pdf",
+      "highlight": "This bridge is one of the oldest structures in the village."
+    },
+    {
+      "id": "ss91-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Very few students in the class are as helpful as Maya.",
+      "promptZh": "班上很少有學生像瑪雅一樣樂於助人。",
+      "promptZhSource": "pdf",
+      "starter": "Maya",
+      "answer": "Maya is one of the most helpful students in the class.",
+      "answerZh": "瑪雅是班上最樂於助人的學生之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya is one of the most helpful students in the class."
+    },
+    {
+      "id": "ss91-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No other part of the test was as difficult as the final question.",
+      "promptZh": "測驗中沒有其他部分像最後一題那麼困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final question was the most difficult part of the test.",
+      "answerZh": "最後一題是測驗中最困難的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The final question was the most difficult part of the test."
+    },
+    {
+      "id": "ss91-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "When cycling, nothing protects your head more safely than wearing a helmet.",
+      "promptZh": "踏單車時，沒有其他方法能比戴頭盔更安全地保護頭部。",
+      "promptZhSource": "pdf",
+      "starter": "Wearing",
+      "answer": "Wearing a helmet is the safest way to protect your head while cycling.",
+      "answerZh": "踏單車時，戴頭盔是保護頭部最安全的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Wearing a helmet is the safest way to protect your head while cycling."
+    },
+    {
+      "id": "ss91-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Taking notes makes the main points easier to remember than any other method.",
+      "promptZh": "記筆記比其他任何方法都更容易讓人記住重點。",
+      "promptZhSource": "pdf",
+      "starter": "Taking",
+      "answer": "Taking notes is the easiest way to remember the main points.",
+      "answerZh": "記筆記是記住重點最容易的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Taking notes is the easiest way to remember the main points."
+    },
+    {
+      "id": "ss91-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The storm was worse than every other weather event we experienced during the trip.",
+      "promptZh": "這場暴風雨比我們旅程中遇到的其他所有天氣事件都惡劣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm was the worst weather event we experienced during the trip.",
+      "answerZh": "這場暴風雨是我們旅程中遇到最惡劣的天氣事件。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm was the worst weather event we experienced during the trip."
+    },
+    {
+      "id": "ss91-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Only a few tools are as useful to language learners as this app.",
+      "promptZh": "只有少數工具像這個應用程式一樣對語言學習者有用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This app is one of the most useful tools for language learners.",
+      "answerZh": "這個應用程式是對語言學習者最有用的工具之一。",
+      "answerZhSource": "pdf",
+      "highlight": "This app is one of the most useful tools for language learners."
+    },
+    {
+      "id": "ss91-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school hall has more floor space than every other room in the building.",
+      "promptZh": "學校禮堂的地面空間比大樓內其他所有房間都大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school hall is the largest room in the building.",
+      "answerZh": "學校禮堂是大樓內最大的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The school hall is the largest room in the building."
+    },
+    {
+      "id": "ss91-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If you want to avoid heavy traffic, leaving early works better than any other plan.",
+      "promptZh": "如果你想避開繁忙交通，提早出發比其他任何安排都有效。",
+      "promptZhSource": "pdf",
+      "starter": "Leaving",
+      "answer": "Leaving early is the best way to avoid heavy traffic.",
+      "answerZh": "提早出發是避開繁忙交通的最佳方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Leaving early is the best way to avoid heavy traffic."
+    },
+    {
+      "id": "ss91-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Of the four passwords, this one is harder to guess than the other three.",
+      "promptZh": "在四個密碼中，這一個比另外三個更難猜中。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This password is the strongest of the four choices.",
+      "answerZh": "這個密碼是四個選擇中安全性最高的一個。",
+      "answerZhSource": "pdf",
+      "highlight": "This password is the strongest of the four choices."
+    },
+    {
+      "id": "ss91-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Using the hospital's emergency entrance gets you to the accident and emergency department faster than any other route.",
+      "promptZh": "使用醫院的緊急入口，比其他任何路線都能更快到達急症室。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital's emergency entrance is the quickest way to reach the accident and emergency department.",
+      "answerZh": "醫院的緊急入口是前往急症室最快的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital's emergency entrance is the quickest way to reach the accident and emergency department."
+    },
+    {
+      "id": "ss91-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Compared with every other plan, the new timetable is more practical for both teachers and students.",
+      "promptZh": "與其他所有方案相比，新時間表對老師和學生都更實際可行。",
+      "promptZhSource": "pdf",
+      "starter": "For",
+      "answer": "For both teachers and students, the new timetable is the most practical plan.",
+      "answerZh": "對老師和學生而言，新時間表是最實際可行的方案。",
+      "answerZhSource": "pdf",
+      "highlight": "For both teachers and students, the new timetable is the most practical plan."
+    },
+    {
+      "id": "ss91-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Which part of the park do visitors rate as more beautiful than all the others in spring? The river path.",
+      "promptZh": "在春天，訪客認為公園哪個部分比其他所有地方都美麗？河畔小徑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The river path is the most beautiful part of the park in spring.",
+      "answerZh": "河畔小徑是公園在春天最美麗的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The river path is the most beautiful part of the park in spring."
+    },
+    {
+      "id": "ss91-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The broken lift caused more difficulty during the event than any other problem.",
+      "promptZh": "活動期間，壞掉的升降機比其他任何問題都造成更多困難。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The broken lift was the biggest problem during the event.",
+      "answerZh": "壞掉的升降機是活動期間最大的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The broken lift was the biggest problem during the event."
+    },
+    {
+      "id": "ss91-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Very few talks that day impressed the audience as much as Ava's presentation.",
+      "promptZh": "當天很少有演講像艾娃的簡報一樣令觀眾留下深刻印象。",
+      "promptZhSource": "pdf",
+      "starter": "Ava's",
+      "answer": "Ava's presentation was one of the most impressive talks of the day.",
+      "answerZh": "艾娃的簡報是當天最令人印象深刻的演講之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava's presentation was one of the most impressive talks of the day."
+    },
+    {
+      "id": "ss91-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Applicants found the final interview more stressful than every other stage of the application process.",
+      "promptZh": "申請人認為最後面試比申請過程的其他所有階段都更有壓力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The final interview was the most stressful stage of the application process.",
+      "answerZh": "最後面試是申請過程中壓力最大的階段。",
+      "answerZhSource": "pdf",
+      "highlight": "The final interview was the most stressful stage of the application process."
+    },
+    {
+      "id": "ss91-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Few ways of reducing office waste are as simple as recycling paper.",
+      "promptZh": "很少有減少辦公室廢物的方法像回收紙張一樣簡單。",
+      "promptZhSource": "pdf",
+      "starter": "Recycling",
+      "answer": "Recycling paper is one of the simplest ways to reduce office waste.",
+      "answerZh": "回收紙張是減少辦公室廢物最簡單的方法之一。",
+      "answerZhSource": "pdf",
+      "highlight": "Recycling paper is one of the simplest ways to reduce office waste."
+    },
+    {
+      "id": "ss91-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No other place in the house is as safe for keeping these tablets away from children as this medicine cupboard.",
+      "promptZh": "屋內沒有其他地方像這個藥物櫃一樣，能安全地把這些藥片放在兒童接觸不到之處。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This medicine cupboard is the safest place in the house to keep these tablets away from children.",
+      "answerZh": "這個藥物櫃是屋內存放這些藥片、避免兒童接觸的最安全地方。",
+      "answerZhSource": "pdf",
+      "highlight": "This medicine cupboard is the safest place in the house to keep these tablets away from children."
+    },
+    {
+      "id": "ss91-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No other method clears up a misunderstanding as effectively as asking direct questions.",
+      "promptZh": "沒有其他方法能像直接提問一樣有效地消除誤會。",
+      "promptZhSource": "pdf",
+      "starter": "Asking",
+      "answer": "Asking direct questions is the most effective way to clear up a misunderstanding.",
+      "answerZh": "直接提問是消除誤會最有效的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Asking direct questions is the most effective way to clear up a misunderstanding."
+    },
+    {
+      "id": "ss91-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Very few public buildings in the district are as easy for everyone to enter and use as the community centre.",
+      "promptZh": "區內很少有公共建築物像社區中心一樣方便所有人進入和使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre is one of the most accessible public buildings in the district.",
+      "answerZh": "社區中心是區內最方便不同人士使用的公共建築物之一。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre is one of the most accessible public buildings in the district."
+    },
+    {
+      "id": "ss91-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Which part affects this study session more than any other? The first twenty minutes do.",
+      "promptZh": "哪個部分比其他部分都更影響這次溫習的成效？最初二十分鐘。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The first twenty minutes are the most important part of this study session.",
+      "answerZh": "最初二十分鐘是這次溫習最重要的部分。",
+      "answerZhSource": "pdf",
+      "highlight": "The first twenty minutes are the most important part of this study session."
+    },
+    {
+      "id": "ss91-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We faced several problems on our journey. None was as serious as the train delay.",
+      "promptZh": "我們在旅途中遇到數個問題。沒有一個像火車延誤那麼嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train delay was the most serious problem we faced on our journey.",
+      "answerZh": "火車延誤是我們旅途中遇到最嚴重的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The train delay was the most serious problem we faced on our journey."
+    },
+    {
+      "id": "ss91-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Only a few lessons I have learnt from working in a team are as valuable as this one.",
+      "promptZh": "我從團隊合作中學到的道理中，只有少數像這個道理一樣寶貴。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This is one of the most valuable lessons I have learnt from working in a team.",
+      "answerZh": "這是我從團隊合作中學到最寶貴的道理之一。",
+      "answerZhSource": "pdf",
+      "highlight": "This is one of the most valuable lessons I have learnt from working in a team."
+    },
+    {
+      "id": "ss91-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Keeping a written record prevents important details from being forgotten better than any other method.",
+      "promptZh": "保留書面紀錄比其他任何方法都更能防止重要細節被遺忘。",
+      "promptZhSource": "pdf",
+      "starter": "Keeping",
+      "answer": "Keeping a written record is the best way to prevent important details from being forgotten.",
+      "answerZh": "保留書面紀錄是防止重要細節被遺忘的最佳方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Keeping a written record is the best way to prevent important details from being forgotten."
+    },
+    {
+      "id": "ss91-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company has produced several versions of the website, but none is as easy to use as the updated one.",
+      "promptZh": "公司製作過數個網站版本，但沒有一個像更新版本那麼容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The updated website is the most user-friendly version the company has produced.",
+      "answerZh": "更新後的網站是公司製作過最方便使用的版本。",
+      "answerZhSource": "pdf",
+      "highlight": "The updated website is the most user-friendly version the company has produced."
+    },
+    {
+      "id": "ss91-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "After 6 p.m., fewer passengers use the evening bus than any other service.",
+      "promptZh": "晚上六時後，乘搭晚間巴士的乘客比其他任何班次都少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The evening bus is the least crowded service after 6 p.m.",
+      "answerZh": "晚上六時後，晚間巴士是最不擠迫的班次。",
+      "answerZhSource": "pdf",
+      "highlight": "The evening bus is the least crowded service after 6 p.m."
+    },
+    {
+      "id": "ss91-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Only a few tasks the students completed this term gave them as much satisfaction as the science project.",
+      "promptZh": "學生本學期完成的任務中，只有少數像科學專題一樣令他們有滿足感。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science project was one of the most rewarding tasks the students completed this term.",
+      "answerZh": "科學專題是學生本學期完成過最有成就感的任務之一。",
+      "answerZhSource": "pdf",
+      "highlight": "The science project was one of the most rewarding tasks the students completed this term."
+    },
+    {
+      "id": "ss91-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Comparing several sources gives more reliable results than any other method when you decide whether a claim is true.",
+      "promptZh": "當你判斷一項說法是否真確時，比較多個資料來源比其他任何方法都能帶來更可靠的結果。",
+      "promptZhSource": "pdf",
+      "starter": "Comparing",
+      "answer": "Comparing several sources is the most reliable way to decide whether a claim is true.",
+      "answerZh": "比較多個資料來源是判斷一項說法是否真確最可靠的方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Comparing several sources is the most reliable way to decide whether a claim is true."
+    }
+  ]
+}

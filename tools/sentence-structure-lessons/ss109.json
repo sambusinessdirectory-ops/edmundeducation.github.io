@@ -1,0 +1,1204 @@
+{
+  "id": "ss109",
+  "order": 109,
+  "slug": "the-former-the-latter",
+  "title": "「The former / The latter」句型",
+  "titleZh": "「The former / The latter 句：前者／後者」",
+  "titleEn": "Using The former and The latter for the first and second items",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 109 -「The former _ The latter 句：前者／後者」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3
+    ],
+    "exercisePages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": []
+  },
+  "formula": "X + and/or + Y + ... . The former / The latter + verb + ...",
+  "formulas": [
+    {
+      "id": "ss109-formula-subject",
+      "labelEn": "As the subject",
+      "labelZh": "作主語",
+      "formula": "X + and/or + Y + ... . The former / The latter + verb + ..."
+    },
+    {
+      "id": "ss109-formula-object",
+      "labelEn": "As the object",
+      "labelZh": "作受詞",
+      "formula": "X + and/or + Y + ... . Subject + verb + the former / the latter."
+    }
+  ],
+  "example": "I could either get the money now or reinvest it. I chose the latter.",
+  "exampleZh": "我可以現在取走款項，或把款項再投資。我選擇了後者。",
+  "examples": [
+    {
+      "id": "ss109-example-01",
+      "en": "I could either get the money now or reinvest it. I chose the latter.",
+      "zh": "我可以現在取走款項，或把款項再投資。我選擇了後者。",
+      "highlight": "the latter"
+    }
+  ],
+  "meaning": {
+    "zh": "The former 指前面提及的兩個人、事物、選擇或概念中的第一個；the latter 指第二個。"
+  },
+  "rules": [
+    {
+      "id": "ss109-rule-01",
+      "zh": "The former 是前者，即兩項中的第一項；the latter 是後者，即第二項。",
+      "en": "The former means the first one; the latter means the second one.",
+      "examples": []
+    },
+    {
+      "id": "ss109-rule-02",
+      "zh": "只有在剛好談及或比較兩個人、事物、選擇或概念時，才使用這個句型。",
+      "en": "Use this structure only when exactly two people, things, choices or ideas are being compared or discussed.",
+      "examples": []
+    },
+    {
+      "id": "ss109-rule-03",
+      "zh": "不可省略 the；應寫 the former 和 the latter。",
+      "en": "Do not omit the: write the former and the latter, not simply former or latter.",
+      "examples": []
+    },
+    {
+      "id": "ss109-rule-04",
+      "zh": "動詞必須配合所指代的人或事物。",
+      "en": "The verb must agree with the item being replaced.",
+      "examples": [
+        "The former is cheaper.",
+        "The former are easier to update."
+      ]
+    },
+    {
+      "id": "ss109-rule-05",
+      "zh": "兩個項目的先後次序必須清楚；如讀者可能分不清，便應重複名詞。",
+      "en": "Keep the order clear. If the reader may not know which item came first or second, repeat the noun instead.",
+      "examples": []
+    },
+    {
+      "id": "ss109-rule-06",
+      "zh": "本課的 the former 指兩者中的前者；a former teacher 表示前任老師，屬另一種用法。",
+      "en": "In this exercise, the former means the first of two; former + noun, as in a former teacher, is a different use.",
+      "examples": [
+        "a former teacher"
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss109-benefit-01",
+      "zh": "不用重複兩個冗長名稱或概念，可以直接用前者和後者指代。",
+      "en": "Instead of repeating two long names or ideas, you can refer to them as the former and the latter."
+    },
+    {
+      "id": "ss109-benefit-02",
+      "zh": "讀者可以迅速看出哪項描述屬於第一項，哪項屬於第二項。",
+      "en": "The reader can quickly see which comment belongs to the first item and which belongs to the second."
+    },
+    {
+      "id": "ss109-benefit-03",
+      "zh": "它把新一句與前面兩項連接，使文章不顯得零碎或重複。",
+      "en": "The structure links a new sentence to the two items mentioned before, so the writing does not feel broken or repetitive."
+    },
+    {
+      "id": "ss109-benefit-04",
+      "zh": "適合在作文、報告和簡報中討論兩個選擇或觀點及其優缺點。",
+      "en": "It is useful for discussing two choices or viewpoints and their advantages, disadvantages or results."
+    },
+    {
+      "id": "ss109-benefit-05",
+      "zh": "提出兩個選項後，可以簡潔表明偏好或選擇，不必重複整個選項。",
+      "en": "After naming two options, you can state a preference or choice briefly without repeating the whole option."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each item using the former, the latter, or both. Replace the repeated words only when the reference is clear.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 the former、the latter 或兩者改寫每題。只有在指代清楚時，才以這個句型取代重複的字詞。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss109-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Tea and coffee were available. I chose tea.",
+      "promptZh": "當時有茶和咖啡可供選擇。我選了茶。",
+      "promptZhSource": "pdf",
+      "starter": "Tea",
+      "answer": "Tea and coffee were available. I chose the former.",
+      "answerZh": "當時有茶和咖啡可供選擇。我選了前者。",
+      "answerZhSource": "pdf",
+      "highlight": "Tea and coffee were available. I chose the former."
+    },
+    {
+      "id": "ss109-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 14
+      },
+      "prompt": "Amy considered taking the bus or the train. She took the train.",
+      "promptZh": "艾米考慮乘搭巴士或火車。她最後乘搭了火車。",
+      "promptZhSource": "pdf",
+      "starter": "Amy",
+      "answer": "Amy considered taking the bus or the train. She took the latter.",
+      "answerZh": "艾米考慮乘搭巴士或火車。她最後選了後者。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy considered taking the bus or the train. She took the latter."
+    },
+    {
+      "id": "ss109-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The red shirt and the blue shirt were on sale. The red shirt was cheaper.",
+      "promptZh": "紅色恤衫和藍色恤衫正在減價。紅色恤衫較便宜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The red shirt and the blue shirt were on sale. The former was cheaper.",
+      "answerZh": "紅色恤衫和藍色恤衫正在減價。前者較便宜。",
+      "answerZhSource": "pdf",
+      "highlight": "The red shirt and the blue shirt were on sale. The former was cheaper."
+    },
+    {
+      "id": "ss109-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben could read a novel or watch a film. He decided to watch a film.",
+      "promptZh": "本可以看小說或看電影。他決定看電影。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben could read a novel or watch a film. He chose the latter.",
+      "answerZh": "本可以看小說或看電影。他選了後者。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben could read a novel or watch a film. He chose the latter."
+    },
+    {
+      "id": "ss109-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We visited the museum and the park. I enjoyed the museum more.",
+      "promptZh": "我們參觀了博物館和公園。我較喜歡博物館。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We visited the museum and the park. I enjoyed the former more.",
+      "answerZh": "我們參觀了博物館和公園。我較喜歡前者。",
+      "answerZhSource": "pdf",
+      "highlight": "We visited the museum and the park. I enjoyed the former more."
+    },
+    {
+      "id": "ss109-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia bought apples and oranges. The oranges were sweeter.",
+      "promptZh": "米婭買了蘋果和橙。橙比較甜。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia bought apples and oranges. The latter were sweeter.",
+      "answerZh": "米婭買了蘋果和橙。後者比較甜。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia bought apples and oranges. The latter were sweeter."
+    },
+    {
+      "id": "ss109-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "David tried swimming and cycling. He found cycling easier.",
+      "promptZh": "大衛嘗試了游泳和踏單車。他覺得踏單車較容易。",
+      "promptZhSource": "pdf",
+      "starter": "David",
+      "answer": "David tried swimming and cycling. He found the latter easier.",
+      "answerZh": "大衛嘗試了游泳和踏單車。他覺得後者較容易。",
+      "answerZhSource": "pdf",
+      "highlight": "David tried swimming and cycling. He found the latter easier."
+    },
+    {
+      "id": "ss109-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "A laptop and a tablet were on the desk. The laptop belonged to Leo.",
+      "promptZh": "桌上放着一部手提電腦和一部平板電腦。手提電腦屬於里奧。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A laptop and a tablet were on the desk. The former belonged to Leo.",
+      "answerZh": "桌上放着一部手提電腦和一部平板電腦。前者屬於里奧。",
+      "answerZhSource": "pdf",
+      "highlight": "A laptop and a tablet were on the desk. The former belonged to Leo."
+    },
+    {
+      "id": "ss109-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The morning class and the afternoon class were both full. The afternoon class ended later.",
+      "promptZh": "上午班和下午班都已滿額。下午班較遲結束。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The morning class and the afternoon class were both full. The latter ended later.",
+      "answerZh": "上午班和下午班都已滿額。後者較遲結束。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning class and the afternoon class were both full. The latter ended later."
+    },
+    {
+      "id": "ss109-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Sarah could study at home or at the library. She chose to study at home.",
+      "promptZh": "莎拉可以在家中或圖書館溫習。她選擇在家中溫習。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah could study at home or at the library. She chose the former.",
+      "answerZh": "莎拉可以在家中或圖書館溫習。她選了前者。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah could study at home or at the library. She chose the former."
+    },
+    {
+      "id": "ss109-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Which did Noah buy, the black bag or the brown bag? He bought the brown bag.",
+      "promptZh": "諾亞買了哪一個，是黑色袋還是啡色袋？他買了啡色袋。",
+      "promptZhSource": "pdf",
+      "starter": "Which",
+      "answer": "Which did Noah buy, the black bag or the brown bag? He bought the latter.",
+      "answerZh": "諾亞買了哪一個，是黑色袋還是啡色袋？他買了後者。",
+      "answerZhSource": "pdf",
+      "highlight": "Which did Noah buy, the black bag or the brown bag? He bought the latter."
+    },
+    {
+      "id": "ss109-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Two routes lead to the beach: the forest path and the coastal road. The forest path is shorter.",
+      "promptZh": "有兩條路可通往海灘：森林小徑和沿海道路。森林小徑較短。",
+      "promptZhSource": "pdf",
+      "starter": "Two",
+      "answer": "Two routes lead to the beach: the forest path and the coastal road. The former is shorter.",
+      "answerZh": "有兩條路可通往海灘：森林小徑和沿海道路。前者較短。",
+      "answerZhSource": "pdf",
+      "highlight": "Two routes lead to the beach: the forest path and the coastal road. The former is shorter."
+    },
+    {
+      "id": "ss109-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe compared online shopping with shopping in a physical shop. She preferred online shopping.",
+      "promptZh": "克洛伊比較了網上購物和實體店購物。她較喜歡網上購物。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe compared online shopping with shopping in a physical shop. She preferred the former.",
+      "answerZh": "克洛伊比較了網上購物和實體店購物。她較喜歡前者。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe compared online shopping with shopping in a physical shop. She preferred the former."
+    },
+    {
+      "id": "ss109-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The soup and the salad were ready. The salad looked fresher.",
+      "promptZh": "湯和沙律都準備好了。沙律看起來較新鮮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup and the salad were ready. The latter looked fresher.",
+      "answerZh": "湯和沙律都準備好了。後者看起來較新鮮。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup and the salad were ready. The latter looked fresher."
+    },
+    {
+      "id": "ss109-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan had two choices: apologise now or explain later. He decided to apologise now.",
+      "promptZh": "伊森有兩個選擇：現在道歉或稍後解釋。他決定現在道歉。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan had two choices: apologise now or explain later. He selected the former.",
+      "answerZh": "伊森有兩個選擇：現在道歉或稍後解釋。他選了前者。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan had two choices: apologise now or explain later. He selected the former."
+    },
+    {
+      "id": "ss109-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mr Chan discussed homework and class participation. He spent more time on class participation.",
+      "promptZh": "陳先生討論了功課和課堂參與。他用了較多時間談課堂參與。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Chan discussed homework and class participation. He spent more time on the latter.",
+      "answerZh": "陳先生討論了功課和課堂參與。他用了較多時間談後者。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Chan discussed homework and class participation. He spent more time on the latter."
+    },
+    {
+      "id": "ss109-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I can call the customer service hotline or send an email. I prefer sending an email.",
+      "promptZh": "我可以致電顧客服務熱線或發送電郵。我較喜歡發送電郵。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I can call the customer service hotline or send an email. I prefer the latter.",
+      "answerZh": "我可以致電顧客服務熱線或發送電郵。我較喜歡後者。",
+      "answerZhSource": "pdf",
+      "highlight": "I can call the customer service hotline or send an email. I prefer the latter."
+    },
+    {
+      "id": "ss109-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hotel offered a standard room and a family room. We booked the family room.",
+      "promptZh": "酒店提供標準客房和家庭客房。我們預訂了家庭客房。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel offered a standard room and a family room. We booked the latter.",
+      "answerZh": "酒店提供標準客房和家庭客房。我們預訂了後者。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel offered a standard room and a family room. We booked the latter."
+    },
+    {
+      "id": "ss109-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did Grace choose the stairs rather than the lift? She thought the stairs were faster.",
+      "promptZh": "格蕾絲為甚麼選擇樓梯而不是升降機？她認為樓梯較快。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why did Grace choose the stairs rather than the lift? She thought the former was faster.",
+      "answerZh": "格蕾絲為甚麼選擇樓梯而不是升降機？她認為前者較快。",
+      "answerZhSource": "pdf",
+      "highlight": "Why did Grace choose the stairs rather than the lift? She thought the former was faster."
+    },
+    {
+      "id": "ss109-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The science club and the drama club meet on Fridays. The drama club has more members.",
+      "promptZh": "科學學會和戲劇學會都在星期五活動。戲劇學會有較多會員。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science club and the drama club meet on Fridays. The latter has more members.",
+      "answerZh": "科學學會和戲劇學會都在星期五活動。後者有較多會員。",
+      "answerZhSource": "pdf",
+      "highlight": "The science club and the drama club meet on Fridays. The latter has more members."
+    },
+    {
+      "id": "ss109-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The cost-cutting proposal and the service-improvement proposal were discussed. The committee supported the service-improvement proposal.",
+      "promptZh": "會議討論了削減成本方案和改善服務方案。委員會支持改善服務方案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The cost-cutting proposal and the service-improvement proposal were discussed. The committee supported the latter.",
+      "answerZh": "會議討論了削減成本方案和改善服務方案。委員會支持後者。",
+      "answerZhSource": "pdf",
+      "highlight": "The cost-cutting proposal and the service-improvement proposal were discussed. The committee supported the latter."
+    },
+    {
+      "id": "ss109-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Karen spoke to the manager and the assistant manager. The manager answered her question.",
+      "promptZh": "凱倫與經理和助理經理交談。經理解答了她的問題。",
+      "promptZhSource": "pdf",
+      "starter": "Karen",
+      "answer": "Karen spoke to the manager and the assistant manager. The former answered her question.",
+      "answerZh": "凱倫與經理和助理經理交談。前者解答了她的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Karen spoke to the manager and the assistant manager. The former answered her question."
+    },
+    {
+      "id": "ss109-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The library bought printed dictionaries and electronic dictionaries. The electronic dictionaries are easier to update.",
+      "promptZh": "圖書館購買了印刷版字典和電子字典。電子字典較容易更新。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library bought printed dictionaries and electronic dictionaries. The latter are easier to update.",
+      "answerZh": "圖書館購買了印刷版字典和電子字典。後者較容易更新。",
+      "answerZhSource": "pdf",
+      "highlight": "The library bought printed dictionaries and electronic dictionaries. The latter are easier to update."
+    },
+    {
+      "id": "ss109-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We can repair the old computer or replace it. Replacing it will cost more.",
+      "promptZh": "我們可以修理舊電腦或更換它。更換電腦的成本會較高。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We can repair the old computer or replace it. The latter will cost more.",
+      "answerZh": "我們可以修理舊電腦或更換它。後者的成本會較高。",
+      "answerZhSource": "pdf",
+      "highlight": "We can repair the old computer or replace it. The latter will cost more."
+    },
+    {
+      "id": "ss109-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school introduced a reading programme and a sports programme. More students joined the sports programme.",
+      "promptZh": "學校推出了閱讀計劃和體育計劃。較多學生參加了體育計劃。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school introduced a reading programme and a sports programme. More students joined the latter.",
+      "answerZh": "學校推出了閱讀計劃和體育計劃。較多學生參加了後者。",
+      "answerZhSource": "pdf",
+      "highlight": "The school introduced a reading programme and a sports programme. More students joined the latter."
+    },
+    {
+      "id": "ss109-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The clinic offers telephone consultations and face-to-face consultations. Telephone consultations are useful for simple questions.",
+      "promptZh": "診所提供電話診症和面對面診症。電話診症適合處理簡單問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The clinic offers telephone consultations and face-to-face consultations. The former are useful for simple questions.",
+      "answerZh": "診所提供電話診症和面對面診症。前者適合處理簡單問題。",
+      "answerZhSource": "pdf",
+      "highlight": "The clinic offers telephone consultations and face-to-face consultations. The former are useful for simple questions."
+    },
+    {
+      "id": "ss109-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Olivia learnt French and Spanish. She speaks French more confidently.",
+      "promptZh": "奧莉花學習了法語和西班牙語。她說法語時較有信心。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia learnt French and Spanish. She speaks the former more confidently.",
+      "answerZh": "奧莉花學習了法語和西班牙語。她說前者時較有信心。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia learnt French and Spanish. She speaks the former more confidently."
+    },
+    {
+      "id": "ss109-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The team could defend carefully or attack early. The coach preferred the team to attack early.",
+      "promptZh": "球隊可以小心防守或及早進攻。教練較希望球隊及早進攻。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team could defend carefully or attack early. The coach preferred the latter.",
+      "answerZh": "球隊可以小心防守或及早進攻。教練較喜歡後者。",
+      "answerZhSource": "pdf",
+      "highlight": "The team could defend carefully or attack early. The coach preferred the latter."
+    },
+    {
+      "id": "ss109-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Both the old bridge and the new bridge cross the river. The new bridge can carry heavier vehicles.",
+      "promptZh": "舊橋和新橋都橫跨河流。新橋可以承載較重的車輛。",
+      "promptZhSource": "pdf",
+      "starter": "Both",
+      "answer": "Both the old bridge and the new bridge cross the river. The latter can carry heavier vehicles.",
+      "answerZh": "舊橋和新橋都橫跨河流。後者可以承載較重的車輛。",
+      "answerZhSource": "pdf",
+      "highlight": "Both the old bridge and the new bridge cross the river. The latter can carry heavier vehicles."
+    },
+    {
+      "id": "ss109-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Jason was offered a full-time position and a part-time position. He accepted the full-time position because it provided a steadier income.",
+      "promptZh": "傑森獲提供一個全職職位和一個兼職職位。他接受了全職職位，因為收入較穩定。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason was offered a full-time position and a part-time position. He accepted the former because it provided a steadier income.",
+      "answerZh": "傑森獲提供一個全職職位和一個兼職職位。他接受了前者，因為收入較穩定。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason was offered a full-time position and a part-time position. He accepted the former because it provided a steadier income."
+    },
+    {
+      "id": "ss109-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bus and the taxi have different advantages. The bus is cheaper, but the taxi is faster.",
+      "promptZh": "巴士和的士各有不同優點。巴士較便宜，但的士較快。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus and the taxi have different advantages. The former is cheaper, but the latter is faster.",
+      "answerZh": "巴士和的士各有不同優點。前者較便宜，但後者較快。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus and the taxi have different advantages. The former is cheaper, but the latter is faster."
+    },
+    {
+      "id": "ss109-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Paper books and e-books are both useful. Paper books do not need batteries, while e-books are easier to carry.",
+      "promptZh": "紙本書和電子書都很有用。紙本書不需要電池，而電子書較容易攜帶。",
+      "promptZhSource": "pdf",
+      "starter": "Paper",
+      "answer": "Paper books and e-books are both useful. The former do not need batteries, while the latter are easier to carry.",
+      "answerZh": "紙本書和電子書都很有用。前者不需要電池，而後者較容易攜帶。",
+      "answerZhSource": "pdf",
+      "highlight": "Paper books and e-books are both useful. The former do not need batteries, while the latter are easier to carry."
+    },
+    {
+      "id": "ss109-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The morning team and the evening team completed the task. The morning team finished early, but the evening team made fewer mistakes.",
+      "promptZh": "早班團隊和晚班團隊都完成了任務。早班團隊較早完成，但晚班團隊犯的錯誤較少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The morning team and the evening team completed the task. The former finished early, but the latter made fewer mistakes.",
+      "answerZh": "早班團隊和晚班團隊都完成了任務。前者較早完成，但後者犯的錯誤較少。",
+      "answerZhSource": "pdf",
+      "highlight": "The morning team and the evening team completed the task. The former finished early, but the latter made fewer mistakes."
+    },
+    {
+      "id": "ss109-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A public hospital and a private hospital were considered. The public hospital was farther away, whereas the private hospital had a shorter waiting time.",
+      "promptZh": "大家考慮了公立醫院和私家醫院。公立醫院較遠，而私家醫院的輪候時間較短。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A public hospital and a private hospital were considered. The former was farther away, whereas the latter had a shorter waiting time.",
+      "answerZh": "大家考慮了公立醫院和私家醫院。前者較遠，而後者的輪候時間較短。",
+      "answerZhSource": "pdf",
+      "highlight": "A public hospital and a private hospital were considered. The former was farther away, whereas the latter had a shorter waiting time."
+    },
+    {
+      "id": "ss109-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The teacher described group work and independent work. Group work encourages discussion, while independent work allows students to move at their own pace.",
+      "promptZh": "老師介紹了小組學習和獨立學習。小組學習鼓勵討論，而獨立學習讓學生按自己的進度學習。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher described group work and independent work. The former encourages discussion, while the latter allows students to move at their own pace.",
+      "answerZh": "老師介紹了小組學習和獨立學習。前者鼓勵討論，而後者讓學生按自己的進度學習。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher described group work and independent work. The former encourages discussion, while the latter allows students to move at their own pace."
+    },
+    {
+      "id": "ss109-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company tested two delivery methods: air freight and sea freight. Air freight was faster, but sea freight was less expensive.",
+      "promptZh": "公司測試了兩種運送方式：空運和海運。空運較快，但海運較便宜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company tested two delivery methods: air freight and sea freight. The former was faster, but the latter was less expensive.",
+      "answerZh": "公司測試了兩種運送方式：空運和海運。前者較快，但後者較便宜。",
+      "answerZhSource": "pdf",
+      "highlight": "The company tested two delivery methods: air freight and sea freight. The former was faster, but the latter was less expensive."
+    },
+    {
+      "id": "ss109-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The north entrance and the south entrance are open. The north entrance has a ramp, whereas the south entrance is closer to the car park.",
+      "promptZh": "北面入口和南面入口均已開放。北面入口設有斜道，而南面入口較接近停車場。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The north entrance and the south entrance are open. The former has a ramp, whereas the latter is closer to the car park.",
+      "answerZh": "北面入口和南面入口均已開放。前者設有斜道，而後者較接近停車場。",
+      "answerZhSource": "pdf",
+      "highlight": "The north entrance and the south entrance are open. The former has a ramp, whereas the latter is closer to the car park."
+    },
+    {
+      "id": "ss109-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The blue light and the green light show different conditions. The blue light means the machine is ready, while the green light means it is running.",
+      "promptZh": "藍燈和綠燈表示不同狀態。藍燈表示機器已準備好，而綠燈表示機器正在運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The blue light and the green light show different conditions. The former means the machine is ready, while the latter means it is running.",
+      "answerZh": "藍燈和綠燈表示不同狀態。前者表示機器已準備好，而後者表示機器正在運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The blue light and the green light show different conditions. The former means the machine is ready, while the latter means it is running."
+    },
+    {
+      "id": "ss109-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The local supplier and the overseas supplier submitted quotations. The local supplier promised quicker delivery, but the overseas supplier offered a lower price.",
+      "promptZh": "本地供應商和海外供應商提交了報價。本地供應商承諾較快送貨，但海外供應商提供較低價格。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The local supplier and the overseas supplier submitted quotations. The former promised quicker delivery, but the latter offered a lower price.",
+      "answerZh": "本地供應商和海外供應商提交了報價。前者承諾較快送貨，但後者提供較低價格。",
+      "answerZhSource": "pdf",
+      "highlight": "The local supplier and the overseas supplier submitted quotations. The former promised quicker delivery, but the latter offered a lower price."
+    },
+    {
+      "id": "ss109-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The board considered a short-term savings plan and a long-term growth plan. It rejected the short-term savings plan and approved the long-term growth plan.",
+      "promptZh": "董事會考慮了短期節省方案和長期增長方案。董事會否決了短期節省方案，並批准了長期增長方案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board considered a short-term savings plan and a long-term growth plan. It rejected the former and approved the latter.",
+      "answerZh": "董事會考慮了短期節省方案和長期增長方案。董事會否決了前者，並批准了後者。",
+      "answerZhSource": "pdf",
+      "highlight": "The board considered a short-term savings plan and a long-term growth plan. It rejected the former and approved the latter."
+    },
+    {
+      "id": "ss109-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Working from home and working in an office can both be effective. Working from home offers flexibility, while working in an office makes face-to-face teamwork easier.",
+      "promptZh": "在家工作和在辦公室工作都可以有效。在家工作較有彈性，而在辦公室工作令面對面合作更容易。",
+      "promptZhSource": "pdf",
+      "starter": "Working",
+      "answer": "Working from home and working in an office can both be effective. The former offers flexibility, while the latter makes face-to-face teamwork easier.",
+      "answerZh": "在家工作和在辦公室工作都可以有效。前者較有彈性，而後者令面對面合作更容易。",
+      "answerZhSource": "pdf",
+      "highlight": "Working from home and working in an office can both be effective. The former offers flexibility, while the latter makes face-to-face teamwork easier."
+    },
+    {
+      "id": "ss109-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The article presents stricter rules and better public education as possible solutions. The writer believes better public education will have a longer-lasting effect.",
+      "promptZh": "文章提出更嚴格的規則和更完善的公眾教育作為可能的解決方法。作者認為更完善的公眾教育會帶來較持久的效果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The article presents stricter rules and better public education as possible solutions. The writer believes the latter will have a longer-lasting effect.",
+      "answerZh": "文章提出更嚴格的規則和更完善的公眾教育作為可能的解決方法。作者認為後者會帶來較持久的效果。",
+      "answerZhSource": "pdf",
+      "highlight": "The article presents stricter rules and better public education as possible solutions. The writer believes the latter will have a longer-lasting effect."
+    },
+    {
+      "id": "ss109-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council considered building a new car park and improving public transport. Building a new car park would help drivers, but improving public transport would benefit more residents.",
+      "promptZh": "議會考慮興建新停車場和改善公共交通。興建新停車場會幫助駕駛者，但改善公共交通會令更多居民受惠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council considered building a new car park and improving public transport. The former would help drivers, but the latter would benefit more residents.",
+      "answerZh": "議會考慮興建新停車場和改善公共交通。前者會幫助駕駛者，但後者會令更多居民受惠。",
+      "answerZhSource": "pdf",
+      "highlight": "The council considered building a new car park and improving public transport. The former would help drivers, but the latter would benefit more residents."
+    },
+    {
+      "id": "ss109-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "The school can reduce class sizes or hire more teaching assistants. Reducing class sizes is more expensive, but hiring more teaching assistants can be done sooner.",
+      "promptZh": "學校可以縮小班級人數或增聘教學助理。縮小班級人數的成本較高，但增聘教學助理可以更快完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school can reduce class sizes or hire more teaching assistants. The former is more expensive, but the latter can be done sooner.",
+      "answerZh": "學校可以縮小班級人數或增聘教學助理。前者的成本較高，但後者可以更快完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The school can reduce class sizes or hire more teaching assistants. The former is more expensive, but the latter can be done sooner."
+    },
+    {
+      "id": "ss109-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report compares prevention with treatment. Prevention can reduce future cases, whereas treatment helps people who are already ill.",
+      "promptZh": "報告比較預防和治療。預防可以減少日後的病例，而治療則幫助已經患病的人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report compares prevention with treatment. The former can reduce future cases, whereas the latter helps people who are already ill.",
+      "answerZh": "報告比較預防和治療。前者可以減少日後的病例，而後者則幫助已經患病的人。",
+      "answerZhSource": "pdf",
+      "highlight": "The report compares prevention with treatment. The former can reduce future cases, whereas the latter helps people who are already ill."
+    },
+    {
+      "id": "ss109-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Two groups responded differently to the change: younger workers and older workers. Younger workers adapted quickly, but older workers asked for more training.",
+      "promptZh": "兩個群組對轉變有不同反應：較年輕的員工和年長員工。較年輕的員工很快適應，但年長員工要求更多培訓。",
+      "promptZhSource": "pdf",
+      "starter": "Two",
+      "answer": "Two groups responded differently to the change: younger workers and older workers. The former adapted quickly, but the latter asked for more training.",
+      "answerZh": "兩個群組對轉變有不同反應：較年輕的員工和年長員工。前者很快適應，但後者要求更多培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "Two groups responded differently to the change: younger workers and older workers. The former adapted quickly, but the latter asked for more training."
+    },
+    {
+      "id": "ss109-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The university offered scholarships to local students and exchange students. Local students received 40 scholarships, while exchange students received 20.",
+      "promptZh": "大學向本地學生和交流生提供獎學金。本地學生獲得四十份獎學金，而交流生獲得二十份。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The university offered scholarships to local students and exchange students. The former received 40 scholarships, while the latter received 20.",
+      "answerZh": "大學向本地學生和交流生提供獎學金。前者獲得四十份獎學金，而後者獲得二十份。",
+      "answerZhSource": "pdf",
+      "highlight": "The university offered scholarships to local students and exchange students. The former received 40 scholarships, while the latter received 20."
+    },
+    {
+      "id": "ss109-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The debate centred on economic growth and environmental protection. Economic growth was linked to job creation, whereas environmental protection was linked to long-term sustainability.",
+      "promptZh": "辯論集中於經濟增長和環境保護。經濟增長與創造職位有關，而環境保護則與長遠可持續發展有關。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The debate centred on economic growth and environmental protection. The former was linked to job creation, whereas the latter was linked to long-term sustainability.",
+      "answerZh": "辯論集中於經濟增長和環境保護。前者與創造職位有關，而後者則與長遠可持續發展有關。",
+      "answerZhSource": "pdf",
+      "highlight": "The debate centred on economic growth and environmental protection. The former was linked to job creation, whereas the latter was linked to long-term sustainability."
+    },
+    {
+      "id": "ss109-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The policy offers immediate financial relief and long-term skills training. Immediate financial relief helps families now, while long-term skills training may improve future employment.",
+      "promptZh": "政策提供即時經濟援助和長期技能培訓。即時經濟援助目前可幫助家庭，而長期技能培訓可能改善日後的就業情況。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy offers immediate financial relief and long-term skills training. The former helps families now, while the latter may improve future employment.",
+      "answerZh": "政策提供即時經濟援助和長期技能培訓。前者目前可幫助家庭，而後者可能改善日後的就業情況。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy offers immediate financial relief and long-term skills training. The former helps families now, while the latter may improve future employment."
+    },
+    {
+      "id": "ss109-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 21
+      },
+      "prompt": "The committee had to choose between expanding the existing hospital and building a new one outside the town centre. Expanding the existing hospital would be quicker, but building a new hospital would create more space.",
+      "promptZh": "委員會必須在擴建現有醫院和在市中心外興建新醫院之間作出選擇。擴建現有醫院會較快，但興建新醫院會提供更多空間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee had to choose between expanding the existing hospital and building a new one outside the town centre. The former would be quicker, but the latter would create more space.",
+      "answerZh": "委員會必須在擴建現有醫院和在市中心外興建新醫院之間作出選擇。前者會較快，但後者會提供更多空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee had to choose between expanding the existing hospital and building a new one outside the town centre. The former would be quicker, but the latter would create more space."
+    }
+  ]
+}

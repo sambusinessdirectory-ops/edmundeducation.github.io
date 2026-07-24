@@ -4,9 +4,9 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const lessonDirectory = new URL("sentence-structure-lessons/", import.meta.url);
-const outputUrl = new URL("sentence-structure-lessons-5-70.js", root);
+const outputUrl = new URL("sentence-structure-lessons-5-114.js", root);
 const FIRST_LESSON = 5;
-const LAST_LESSON = 70;
+const LAST_LESSON = 114;
 const QUESTIONS_PER_LESSON = 50;
 const REQUIRED_QUESTION_FIELDS = [
   "id",
@@ -107,6 +107,7 @@ function validateLesson(lesson, number) {
   const ids = new Set();
   const prompts = new Set();
   const answers = new Set();
+  const answerOwners = new Map();
   const highlights = new Set();
   lesson.questions.forEach((question, index) => {
     const expectedNumber = index + 1;
@@ -132,6 +133,20 @@ function validateLesson(lesson, number) {
       normalText(question.promptZhSource || "pdf") !== "",
       `${expectedId}: promptZhSource is invalid`
     );
+    if (
+      question.cue !== undefined
+      || question.cueSource !== undefined
+      || question.source?.cuePage !== undefined
+    ) {
+      requireCondition(normalText(question.cue), `${expectedId}: cue is missing`);
+      requireCondition(question.cueSource === "pdf", `${expectedId}: cueSource must be pdf`);
+      requireCondition(
+        Number.isInteger(question.source?.cuePage)
+          && question.source.cuePage >= 1
+          && question.source.cuePage <= source.pageCount,
+        `${expectedId}: invalid source.cuePage`
+      );
+    }
     for (const field of SOURCE_PAGE_FIELDS) {
       const page = question.source?.[field];
       requireCondition(
@@ -201,11 +216,22 @@ function validateLesson(lesson, number) {
     const answerKey = `${question.answer}\u0000${question.answerZh}`;
     requireCondition(!ids.has(question.id), `${expectedId}: duplicate id`);
     requireCondition(!prompts.has(promptKey), `${expectedId}: duplicate bilingual prompt`);
-    requireCondition(!answers.has(answerKey), `${expectedId}: duplicate bilingual answer`);
+    if (answers.has(answerKey)) {
+      requireCondition(
+        question.duplicateAnswerOf === answerOwners.get(answerKey),
+        `${expectedId}: duplicate bilingual answer is not linked to its source-identical predecessor`
+      );
+    } else {
+      requireCondition(
+        question.duplicateAnswerOf === undefined,
+        `${expectedId}: duplicateAnswerOf is present without a duplicate bilingual answer`
+      );
+    }
     requireCondition(!highlights.has(question.highlight), `${expectedId}: duplicate highlight`);
     ids.add(question.id);
     prompts.add(promptKey);
     answers.add(answerKey);
+    if (!answerOwners.has(answerKey)) answerOwners.set(answerKey, question.id);
     highlights.add(question.highlight);
   });
 
@@ -219,7 +245,7 @@ for (let number = FIRST_LESSON; number <= LAST_LESSON; number += 1) {
   lessons.push(validateLesson(lesson, number));
 }
 
-const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss70.json.\n`
+const output = `// Generated from tools/sentence-structure-lessons/ss05.json through ss114.json.\n`
   + `// Run tools/build-sentence-structure-expansion.mjs after editing an imported lesson.\n`
   + `(function () {\n`
   + `  "use strict";\n`

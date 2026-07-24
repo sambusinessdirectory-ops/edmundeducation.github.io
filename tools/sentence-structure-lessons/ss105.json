@@ -1,0 +1,1239 @@
+{
+  "id": "ss105",
+  "order": 105,
+  "slug": "neither-nor-both-negative",
+  "title": "「Neither...nor...」句型",
+  "titleZh": "「Neither...nor...」表示「兩者都不」",
+  "titleEn": "Using Neither...nor... to make both alternatives negative",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 105 -「Neither...nor...」表示「兩者都不」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Neither + Subject A + nor + Subject B + verb + other information",
+  "formulas": [
+    {
+      "id": "ss105-formula-subjects",
+      "labelEn": "Pattern 1: joining two subjects",
+      "labelZh": "Pattern 1：連接兩個主詞",
+      "formula": "Neither + Subject A + nor + Subject B + verb + other information"
+    },
+    {
+      "id": "ss105-formula-parallel",
+      "labelEn": "Pattern 2: joining parallel elements",
+      "labelZh": "Pattern 2：連接受詞、形容詞或其他平行成分",
+      "formula": "Subject + verb + neither + A + nor + B"
+    },
+    {
+      "id": "ss105-formula-actions",
+      "labelEn": "Pattern 3: joining two actions",
+      "labelZh": "Pattern 3：連接兩個動作",
+      "formula": "Subject + auxiliary verb + neither + verb phrase A + nor + verb phrase B"
+    }
+  ],
+  "example": "Neither the manager nor the employees were happy with the new policy.",
+  "exampleZh": "經理和員工都不滿意這項新政策。",
+  "examples": [
+    {
+      "id": "ss105-example-subjects",
+      "en": "Neither the manager nor the employees were happy with the new policy.",
+      "zh": "經理和員工都不滿意這項新政策。",
+      "highlight": "Neither the manager nor the employees"
+    },
+    {
+      "id": "ss105-example-parallel",
+      "en": "He speaks neither English nor French.",
+      "zh": "他既不會說英文，也不會說法文。",
+      "highlight": "neither English nor French"
+    },
+    {
+      "id": "ss105-example-actions",
+      "en": "She has neither called me nor sent me a message.",
+      "zh": "她既沒有致電給我，也沒有傳訊息給我。",
+      "highlight": "neither called me nor sent me a message"
+    }
+  ],
+  "meaning": {
+    "zh": "Neither A nor B 明確表示 A 不成立，B 也不成立。"
+  },
+  "rules": [
+    {
+      "id": "ss105-rule-01",
+      "zh": "Neither...nor... 已表示兩項都是否定，不要在句中再加入另一個否定詞。",
+      "en": "Neither...nor... already makes both items negative, so do not add another negative word.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The shop accepts neither cash nor cheques."
+      ]
+    },
+    {
+      "id": "ss105-rule-02",
+      "zh": "Neither 和 nor 後面的 A 和 B 必須保持相同的文法形式。",
+      "en": "The elements after neither and nor must use matching grammatical forms.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She likes neither singing nor dancing.",
+        "She wants neither to sing nor to dance."
+      ]
+    },
+    {
+      "id": "ss105-rule-03",
+      "zh": "連接兩個主詞時，動詞通常配合較接近動詞的主詞，稱為就近一致。",
+      "en": "When joining two subjects, the verb normally agrees with the nearer subject.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Neither the manager nor the employees were ready.",
+        "Neither the employees nor the manager was ready."
+      ]
+    },
+    {
+      "id": "ss105-rule-04",
+      "zh": "連接兩個動作時，助動詞通常只需出現一次，避免不必要的重複。",
+      "en": "When joining two actions, the auxiliary normally appears only once, avoiding unnecessary repetition.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She has neither called me nor sent a message.",
+        "The machine can neither print in colour nor scan documents."
+      ]
+    },
+    {
+      "id": "ss105-rule-05",
+      "zh": "Neither A nor B 明確表示 A 和 B 都不成立，不等於較含糊的 not both A and B。",
+      "en": "Neither A nor B clearly means that both A and B are false; it is not equivalent to the less specific not both A and B.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Neither Tom nor Amy attended the meeting."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss105-benefit-01",
+      "zh": "可以把兩項否定資料清楚合併，不需要重複兩個完整否定句。",
+      "en": "It combines two negative ideas clearly without repeating two complete negative sentences.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss105-benefit-02",
+      "zh": "提供 does not、is not、cannot 和 did not 以外的自然表達方法，避免重複 not。",
+      "en": "It offers a natural alternative to repeatedly using does not, is not, cannot or did not.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss105-benefit-03",
+      "zh": "能準確指出哪兩個選項都不成立。",
+      "en": "It identifies exactly which two alternatives are both excluded.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss105-benefit-04",
+      "zh": "Neither 和 nor 把兩項相同形式的資料並列，令句子更平衡、更容易理解。",
+      "en": "Neither and nor place matching information in parallel, creating a more balanced and readable sentence.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss105-benefit-05",
+      "zh": "這個句型適合在說話、作文和報告中否定兩個人物、選擇、特點、行動或結果。",
+      "en": "The structure is useful in speaking, essays and reports for rejecting two people, choices, qualities, actions or results.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using neither...nor....",
+      "Preserve the original meaning and tense.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 neither...nor... 改寫以下句子。",
+      "答案必須保留原句的意思和時態。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss105-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia does not like tea, and she does not like coffee.",
+      "promptZh": "米婭不喜歡茶，也不喜歡咖啡。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia likes neither tea nor coffee.",
+      "answerZh": "米婭既不喜歡茶，也不喜歡咖啡。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia likes neither tea nor coffee."
+    },
+    {
+      "id": "ss105-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben is not at home. Leo is not at home either.",
+      "promptZh": "本不在家。里奧也不在家。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither Ben nor Leo is at home.",
+      "answerZh": "本和里奧都不在家。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither Ben nor Leo is at home."
+    },
+    {
+      "id": "ss105-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The bag is not heavy, and it is not expensive.",
+      "promptZh": "這個袋子不重，也不昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bag is neither heavy nor expensive.",
+      "answerZh": "這個袋子既不重，也不昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "The bag is neither heavy nor expensive."
+    },
+    {
+      "id": "ss105-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Lily cannot swim. She cannot ride a bicycle either.",
+      "promptZh": "莉莉不會游泳，也不會踏單車。",
+      "promptZhSource": "pdf",
+      "starter": "Lily",
+      "answer": "Lily can neither swim nor ride a bicycle.",
+      "answerZh": "莉莉既不會游泳，也不會踏單車。",
+      "answerZhSource": "pdf",
+      "highlight": "Lily can neither swim nor ride a bicycle."
+    },
+    {
+      "id": "ss105-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We did not visit the museum, and we did not visit the zoo.",
+      "promptZh": "我們沒有參觀博物館，也沒有參觀動物園。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We visited neither the museum nor the zoo.",
+      "answerZh": "我們既沒有參觀博物館，也沒有參觀動物園。",
+      "answerZhSource": "pdf",
+      "highlight": "We visited neither the museum nor the zoo."
+    },
+    {
+      "id": "ss105-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The teacher was not ready. The students were not ready either.",
+      "promptZh": "老師沒有準備好，學生也沒有準備好。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the teacher nor the students were ready.",
+      "answerZh": "老師和學生都沒有準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the teacher nor the students were ready."
+    },
+    {
+      "id": "ss105-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room does not have a window or a balcony.",
+      "promptZh": "這個房間沒有窗戶，也沒有露台。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room has neither a window nor a balcony.",
+      "answerZh": "這個房間既沒有窗戶，也沒有露台。",
+      "answerZhSource": "pdf",
+      "highlight": "The room has neither a window nor a balcony."
+    },
+    {
+      "id": "ss105-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Jason does not speak Japanese or Korean.",
+      "promptZh": "傑森不會說日語，也不會說韓語。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason speaks neither Japanese nor Korean.",
+      "answerZh": "傑森既不會說日語，也不會說韓語。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason speaks neither Japanese nor Korean."
+    },
+    {
+      "id": "ss105-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Anna is not hungry, and Tom is not hungry.",
+      "promptZh": "安娜不餓，湯姆也不餓。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither Anna nor Tom is hungry.",
+      "answerZh": "安娜和湯姆都不餓。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither Anna nor Tom is hungry."
+    },
+    {
+      "id": "ss105-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The film was not funny, and it was not exciting.",
+      "promptZh": "這部電影不好笑，也不刺激。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The film was neither funny nor exciting.",
+      "answerZh": "這部電影既不好笑，也不刺激。",
+      "answerZhSource": "pdf",
+      "highlight": "The film was neither funny nor exciting."
+    },
+    {
+      "id": "ss105-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Emma did not buy the red dress or the blue dress.",
+      "promptZh": "艾瑪沒有購買紅色連身裙，也沒有購買藍色連身裙。",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma bought neither the red dress nor the blue dress.",
+      "answerZh": "艾瑪既沒有購買紅色連身裙，也沒有購買藍色連身裙。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma bought neither the red dress nor the blue dress."
+    },
+    {
+      "id": "ss105-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The bus was not running. The train was not running either.",
+      "promptZh": "巴士沒有行駛，火車也沒有行駛。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the bus nor the train was running.",
+      "answerZh": "巴士和火車都沒有行駛。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the bus nor the train was running."
+    },
+    {
+      "id": "ss105-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The child did not cry or complain.",
+      "promptZh": "那個孩子沒有哭，也沒有抱怨。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child neither cried nor complained.",
+      "answerZh": "那個孩子既沒有哭，也沒有抱怨。",
+      "answerZhSource": "pdf",
+      "highlight": "The child neither cried nor complained."
+    },
+    {
+      "id": "ss105-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "This phone is not cheap, and it is not easy to use.",
+      "promptZh": "這部電話不便宜，也不容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This phone is neither cheap nor easy to use.",
+      "answerZh": "這部電話既不便宜，也不容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "This phone is neither cheap nor easy to use."
+    },
+    {
+      "id": "ss105-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Kevin did not invite Sam or Peter.",
+      "promptZh": "凱文沒有邀請森，也沒有邀請彼得。",
+      "promptZhSource": "pdf",
+      "starter": "Kevin",
+      "answer": "Kevin invited neither Sam nor Peter.",
+      "answerZh": "凱文既沒有邀請森，也沒有邀請彼得。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin invited neither Sam nor Peter."
+    },
+    {
+      "id": "ss105-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our neighbours do not know the cause. Our landlord does not know it either.",
+      "promptZh": "我們的鄰居不知道原因，業主也不知道。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither our neighbours nor our landlord knows the cause.",
+      "answerZh": "我們的鄰居和業主都不知道原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither our neighbours nor our landlord knows the cause."
+    },
+    {
+      "id": "ss105-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The restaurant does not serve meat or fish.",
+      "promptZh": "這間餐廳不供應肉類，也不供應魚類。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The restaurant serves neither meat nor fish.",
+      "answerZh": "這間餐廳既不供應肉類，也不供應魚類。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant serves neither meat nor fish."
+    },
+    {
+      "id": "ss105-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The plan will not save time, and it will not reduce costs.",
+      "promptZh": "這個計劃不會節省時間，也不會降低成本。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan will neither save time nor reduce costs.",
+      "answerZh": "這個計劃既不會節省時間，也不會降低成本。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan will neither save time nor reduce costs."
+    },
+    {
+      "id": "ss105-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The library is not open. The computer rooms are not open either.",
+      "promptZh": "圖書館沒有開放，電腦室也沒有開放。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the library nor the computer rooms are open.",
+      "answerZh": "圖書館和電腦室都沒有開放。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the library nor the computer rooms are open."
+    },
+    {
+      "id": "ss105-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "She has not called me, and she has not sent me a message.",
+      "promptZh": "她沒有致電給我，也沒有傳訊息給我。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She has neither called me nor sent me a message.",
+      "answerZh": "她既沒有致電給我，也沒有傳訊息給我。",
+      "answerZhSource": "pdf",
+      "highlight": "She has neither called me nor sent me a message."
+    },
+    {
+      "id": "ss105-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager was not informed about the change. The assistants were not informed either.",
+      "promptZh": "經理沒有獲告知這項改動，助理們也沒有獲告知。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the manager nor the assistants were informed about the change.",
+      "answerZh": "經理和助理們都沒有獲告知這項改動。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the manager nor the assistants were informed about the change."
+    },
+    {
+      "id": "ss105-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new rule does not benefit students or teachers.",
+      "promptZh": "這項新規則對學生和老師都沒有好處。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new rule benefits neither students nor teachers.",
+      "answerZh": "這項新規則對學生和老師都沒有好處。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rule benefits neither students nor teachers."
+    },
+    {
+      "id": "ss105-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Daniel is not interested in football or basketball.",
+      "promptZh": "丹尼爾對足球和籃球都沒有興趣。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel is interested in neither football nor basketball.",
+      "answerZh": "丹尼爾對足球和籃球都沒有興趣。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel is interested in neither football nor basketball."
+    },
+    {
+      "id": "ss105-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The rain did not stop the race. The strong winds did not stop it either.",
+      "promptZh": "雨水沒有令比賽停止，強風也沒有令比賽停止。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the rain nor the strong winds stopped the race.",
+      "answerZh": "雨水和強風都沒有令比賽停止。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the rain nor the strong winds stopped the race."
+    },
+    {
+      "id": "ss105-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The machine cannot print in colour or scan documents.",
+      "promptZh": "這部機器不能彩色打印，也不能掃描文件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine can neither print in colour nor scan documents.",
+      "answerZh": "這部機器既不能彩色打印，也不能掃描文件。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine can neither print in colour nor scan documents."
+    },
+    {
+      "id": "ss105-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "My parents do not agree with the decision. My sister does not agree with it either.",
+      "promptZh": "我的父母不同意這項決定，我的妹妹也不同意。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither my parents nor my sister agrees with the decision.",
+      "answerZh": "我的父母和妹妹都不同意這項決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither my parents nor my sister agrees with the decision."
+    },
+    {
+      "id": "ss105-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report was not clear enough, and it was not detailed enough.",
+      "promptZh": "這份報告不夠清楚，也不夠詳細。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report was neither clear enough nor detailed enough.",
+      "answerZh": "這份報告既不夠清楚，也不夠詳細。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was neither clear enough nor detailed enough."
+    },
+    {
+      "id": "ss105-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Zoe did not choose to complain or to leave early.",
+      "promptZh": "佐伊沒有選擇投訴，也沒有選擇提早離開。",
+      "promptZhSource": "pdf",
+      "starter": "Zoe",
+      "answer": "Zoe chose neither to complain nor to leave early.",
+      "answerZh": "佐伊既沒有選擇投訴，也沒有選擇提早離開。",
+      "answerZhSource": "pdf",
+      "highlight": "Zoe chose neither to complain nor to leave early."
+    },
+    {
+      "id": "ss105-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The medicine has not improved his condition. The exercises have not improved it either.",
+      "promptZh": "藥物沒有改善他的情況，那些運動也沒有改善他的情況。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the medicine nor the exercises have improved his condition.",
+      "answerZh": "藥物和那些運動都沒有改善他的情況。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the medicine nor the exercises have improved his condition."
+    },
+    {
+      "id": "ss105-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The company did not offer us a refund or a replacement.",
+      "promptZh": "公司沒有向我們提供退款，也沒有提供替換貨品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company offered us neither a refund nor a replacement.",
+      "answerZh": "公司既沒有向我們提供退款，也沒有提供替換貨品。",
+      "answerZhSource": "pdf",
+      "highlight": "The company offered us neither a refund nor a replacement."
+    },
+    {
+      "id": "ss105-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The speaker did not answer the question, and he did not explain the delay.",
+      "promptZh": "講者沒有回答問題，也沒有解釋延誤的原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker neither answered the question nor explained the delay.",
+      "answerZh": "講者既沒有回答問題，也沒有解釋延誤的原因。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker neither answered the question nor explained the delay."
+    },
+    {
+      "id": "ss105-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The website is not working properly. Its mobile app is not working properly either.",
+      "promptZh": "網站運作不正常，其手機應用程式也運作不正常。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the website nor its mobile app is working properly.",
+      "answerZh": "網站及其手機應用程式都運作不正常。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the website nor its mobile app is working properly."
+    },
+    {
+      "id": "ss105-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The trip was not suitable for young children or elderly travellers.",
+      "promptZh": "這次旅程不適合年幼兒童，也不適合年長旅客。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The trip was suitable for neither young children nor elderly travellers.",
+      "answerZh": "這次旅程既不適合年幼兒童，也不適合年長旅客。",
+      "answerZhSource": "pdf",
+      "highlight": "The trip was suitable for neither young children nor elderly travellers."
+    },
+    {
+      "id": "ss105-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We could not find the missing key or the spare one.",
+      "promptZh": "我們找不到遺失的鑰匙，也找不到後備鑰匙。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We could find neither the missing key nor the spare one.",
+      "answerZh": "我們既找不到遺失的鑰匙，也找不到後備鑰匙。",
+      "answerZhSource": "pdf",
+      "highlight": "We could find neither the missing key nor the spare one."
+    },
+    {
+      "id": "ss105-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coach was not satisfied with the result. The players were not satisfied either.",
+      "promptZh": "教練對結果不滿意，球員也不滿意。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the coach nor the players were satisfied with the result.",
+      "answerZh": "教練和球員都不滿意這個結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the coach nor the players were satisfied with the result."
+    },
+    {
+      "id": "ss105-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The instructions were not clearly written, and they were not logically arranged.",
+      "promptZh": "這些指示寫得不清楚，編排也不合邏輯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were neither clearly written nor logically arranged.",
+      "answerZh": "這些指示既沒有寫得清楚，也沒有按邏輯編排。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were neither clearly written nor logically arranged."
+    },
+    {
+      "id": "ss105-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The policy will not improve safety, and it will not make services faster.",
+      "promptZh": "這項政策不會改善安全，也不會令服務加快。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The policy will neither improve safety nor make services faster.",
+      "answerZh": "這項政策既不會改善安全，也不會令服務加快。",
+      "answerZhSource": "pdf",
+      "highlight": "The policy will neither improve safety nor make services faster."
+    },
+    {
+      "id": "ss105-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The main entrance was not unlocked. The side doors were not unlocked either.",
+      "promptZh": "正門沒有解鎖，側門也沒有解鎖。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the main entrance nor the side doors were unlocked.",
+      "answerZh": "正門和側門都沒有解鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the main entrance nor the side doors were unlocked."
+    },
+    {
+      "id": "ss105-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "She did not admit the mistake or apologise for it.",
+      "promptZh": "她沒有承認錯誤，也沒有為此道歉。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She neither admitted the mistake nor apologised for it.",
+      "answerZh": "她既沒有承認錯誤，也沒有為此道歉。",
+      "answerZhSource": "pdf",
+      "highlight": "She neither admitted the mistake nor apologised for it."
+    },
+    {
+      "id": "ss105-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The course does not require previous experience or special equipment.",
+      "promptZh": "這個課程不需要相關經驗，也不需要特別設備。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course requires neither previous experience nor special equipment.",
+      "answerZh": "這個課程既不需要相關經驗，也不需要特別設備。",
+      "answerZhSource": "pdf",
+      "highlight": "The course requires neither previous experience nor special equipment."
+    },
+    {
+      "id": "ss105-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The information provided by the website was not accurate. The advice from the hotline was not accurate either.",
+      "promptZh": "網站提供的資料不準確，熱線提供的建議也不準確。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the information provided by the website nor the advice from the hotline was accurate.",
+      "answerZh": "網站提供的資料和熱線提供的建議都不準確。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the information provided by the website nor the advice from the hotline was accurate."
+    },
+    {
+      "id": "ss105-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school has not reduced the amount of homework. It has not given students more time to complete it either.",
+      "promptZh": "學校沒有減少功課量，也沒有給予學生更多時間完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has neither reduced the amount of homework nor given students more time to complete it.",
+      "answerZh": "學校既沒有減少功課量，也沒有給予學生更多時間完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has neither reduced the amount of homework nor given students more time to complete it."
+    },
+    {
+      "id": "ss105-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The nurses on duty were not aware of the error. The doctor in charge was not aware of it either.",
+      "promptZh": "當值護士不知道這項錯誤，主管醫生也不知道。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the nurses on duty nor the doctor in charge was aware of the error.",
+      "answerZh": "當值護士和主管醫生都不知道這項錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the nurses on duty nor the doctor in charge was aware of the error."
+    },
+    {
+      "id": "ss105-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The finance team did not support the proposal. The operations department did not support it either.",
+      "promptZh": "財務團隊不支持這項建議，營運部門也不支持。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal was supported by neither the finance team nor the operations department.",
+      "answerZh": "這項建議既不獲財務團隊支持，也不獲營運部門支持。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal was supported by neither the finance team nor the operations department."
+    },
+    {
+      "id": "ss105-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The new system is not simple enough for beginners. It is not powerful enough for advanced users either.",
+      "promptZh": "這個新系統對初學者而言不夠簡單，對進階使用者而言也不夠強大。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new system is neither simple enough for beginners nor powerful enough for advanced users.",
+      "answerZh": "這個新系統對初學者而言既不夠簡單，對進階使用者而言也不夠強大。",
+      "answerZhSource": "pdf",
+      "highlight": "The new system is neither simple enough for beginners nor powerful enough for advanced users."
+    },
+    {
+      "id": "ss105-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The committee could not identify the cause of the problem or agree on a practical solution.",
+      "promptZh": "委員會未能找出問題的原因，也未能就實際可行的解決方法達成共識。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The committee could neither identify the cause of the problem nor agree on a practical solution.",
+      "answerZh": "委員會既未能找出問題的原因，也未能就實際可行的解決方法達成共識。",
+      "answerZhSource": "pdf",
+      "highlight": "The committee could neither identify the cause of the problem nor agree on a practical solution."
+    },
+    {
+      "id": "ss105-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The documents that arrived yesterday have not been checked yet. The parcel from Singapore has not been checked either.",
+      "promptZh": "昨天收到的文件仍未經檢查，來自新加坡的包裹也仍未經檢查。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither the documents that arrived yesterday nor the parcel from Singapore has been checked yet.",
+      "answerZh": "昨天收到的文件和來自新加坡的包裹都仍未經檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither the documents that arrived yesterday nor the parcel from Singapore has been checked yet."
+    },
+    {
+      "id": "ss105-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The charity did not receive the funding it expected or the volunteers it needed.",
+      "promptZh": "這間慈善機構沒有獲得預期的資金，也沒有得到所需的義工。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity received neither the funding it expected nor the volunteers it needed.",
+      "answerZh": "這間慈善機構既沒有獲得預期的資金，也沒有得到所需的義工。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity received neither the funding it expected nor the volunteers it needed."
+    },
+    {
+      "id": "ss105-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The manager did not confirm when the office would reopen. He did not explain how staff should work in the meantime either.",
+      "promptZh": "經理沒有確認辦公室何時重開，也沒有解釋員工在此期間應如何工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager neither confirmed when the office would reopen nor explained how staff should work in the meantime.",
+      "answerZh": "經理既沒有確認辦公室何時重開，也沒有解釋員工在此期間應如何工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager neither confirmed when the office would reopen nor explained how staff should work in the meantime."
+    },
+    {
+      "id": "ss105-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Stricter rules alone cannot completely prevent human error. Additional training alone cannot completely prevent human error either.",
+      "promptZh": "單靠更嚴格的規則不能完全防止人為錯誤，單靠額外培訓也不能完全防止人為錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "Neither",
+      "answer": "Neither stricter rules alone nor additional training alone can completely prevent human error.",
+      "answerZh": "單靠更嚴格的規則或額外培訓，都不能完全防止人為錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Neither stricter rules alone nor additional training alone can completely prevent human error."
+    }
+  ]
+}

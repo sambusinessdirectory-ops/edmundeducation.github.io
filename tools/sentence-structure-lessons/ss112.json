@@ -1,0 +1,1255 @@
+{
+  "id": "ss112",
+  "order": 112,
+  "slug": "such-adjective-noun-that",
+  "title": "「Such...that...」句型",
+  "titleZh": "「Such...that...」表示程度與結果",
+  "titleEn": "Using Such...that... to express degree and result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 112 -「Such...that...」表示程度與結果.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + verb / be + such + a/an + adjective + singular countable noun + that + result clause",
+  "formulas": [
+    {
+      "id": "ss112-formula-singular",
+      "labelEn": "Singular countable noun",
+      "labelZh": "單數可數名詞",
+      "formula": "Subject + verb / be + such + a/an + adjective + singular countable noun + that + result clause"
+    },
+    {
+      "id": "ss112-formula-plural",
+      "labelEn": "Plural countable noun",
+      "labelZh": "複數可數名詞",
+      "formula": "Subject + verb / be + such + adjective + plural noun + that + result clause"
+    },
+    {
+      "id": "ss112-formula-uncountable",
+      "labelEn": "Uncountable noun",
+      "labelZh": "不可數名詞",
+      "formula": "Subject + verb / be + such + adjective + uncountable noun + that + result clause"
+    }
+  ],
+  "example": "It was such a difficult question that nobody answered it.",
+  "exampleZh": "那是一道如此困難的問題，結果沒有人回答。",
+  "examples": [
+    {
+      "id": "ss112-example-01",
+      "en": "It was such a difficult question that nobody answered it.",
+      "zh": "那是一道如此困難的問題，結果沒有人回答。",
+      "highlight": "such a difficult question that"
+    }
+  ],
+  "meaning": {
+    "zh": "Such...that... 以 such 修飾完整名詞詞組，表示某種特質或程度強得造成後面的結果。"
+  },
+  "rules": [
+    {
+      "id": "ss112-rule-01",
+      "zh": "單數可數名詞必須使用 a 或 an；選擇取決於後面形容詞的讀音。",
+      "en": "A singular countable noun requires a or an, chosen according to the sound of the following adjective.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "such a difficult question",
+        "such an interesting book"
+      ]
+    },
+    {
+      "id": "ss112-rule-02",
+      "zh": "複數名詞和不可數名詞前不用 a 或 an。",
+      "en": "Do not use a or an before plural or uncountable nouns.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "such useful examples",
+        "such heavy rain"
+      ]
+    },
+    {
+      "id": "ss112-rule-03",
+      "zh": "形容詞必須放在名詞前面。",
+      "en": "Place the adjective before the noun.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "such a difficult question",
+        "such strong wind",
+        "such clear instructions"
+      ]
+    },
+    {
+      "id": "ss112-rule-04",
+      "zh": "That 後面必須是包括主語和動詞的完整結果子句。",
+      "en": "That must be followed by a complete result clause containing a subject and verb.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It was such a crowded bus that we could not find any seats."
+      ]
+    },
+    {
+      "id": "ss112-rule-05",
+      "zh": "前半句描述非常強烈的特質，後半句說明該程度所造成的結果。",
+      "en": "The first part describes a very strong quality and the second states the result produced by that degree.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The chef served such hot soup that I could not drink it."
+      ]
+    },
+    {
+      "id": "ss112-rule-06",
+      "zh": "Such...that... 的 such 後面有名詞詞組；such that 則表示安排方式或以 be such that 概括影響造成的結果。",
+      "en": "In Such...that..., such is followed by a noun phrase; such that instead describes an arrangement or uses be such that to summarise a resulting impact.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The teacher asked such a difficult question that nobody answered it.",
+        "We structured the schedule such that everyone gets a lunch break."
+      ]
+    },
+    {
+      "id": "ss112-rule-07",
+      "zh": "So that 表達目的；such...that... 不表示目的，而表示某個程度造成的結果。",
+      "en": "So that expresses purpose; such...that... expresses a result caused by a strong degree rather than a purpose.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I started studying for IELTS so that I could get a job.",
+        "It was such a difficult test that many students needed extra time."
+      ]
+    },
+    {
+      "id": "ss112-rule-08",
+      "zh": "So + adjective + that 主要修飾形容詞；such + adjective + noun + that 修飾完整名詞詞組。",
+      "en": "So + adjective + that primarily modifies an adjective; such + adjective + noun + that modifies a complete noun phrase.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The question was so difficult that nobody answered it.",
+        "It was such a difficult question that nobody answered it."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss112-benefit-01",
+      "zh": "先指出非常強烈的特質，再清楚交代由此產生的結果。",
+      "en": "This structure shows that a person, thing or situation had a very strong quality, and then explains what happened because of it."
+    },
+    {
+      "id": "ss112-benefit-02",
+      "zh": "除了突出形容詞，還可同時指出被描述的具體人物、物件或情況。",
+      "en": "Instead of describing only a quality, you can also name the exact person, object or situation being described."
+    },
+    {
+      "id": "ss112-benefit-03",
+      "zh": "把事物的特質和其後結果合併成一句，不需要連續寫兩個短句。",
+      "en": "You can connect the strong quality and its result in one complete sentence instead of writing two separate sentences."
+    },
+    {
+      "id": "ss112-benefit-04",
+      "zh": "提供另一種自然表達程度和結果的方法，避免反覆使用 so...that。",
+      "en": "This structure gives you another natural way to express degree and result instead of repeatedly using so...that."
+    },
+    {
+      "id": "ss112-benefit-05",
+      "zh": "適合描述難忘事情、強烈感受、嚴重問題和意外結果，使內容更具體生動。",
+      "en": "You can use it to describe memorable events, strong feelings, serious problems and surprising results."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using such...that to show a strong degree and its result.",
+      "You may make small changes to the word order, articles or sentence subject when necessary, but you must preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 such...that 改寫以下句子，以表達強烈程度及其造成的結果。",
+      "你可以按需要稍微改變字序、冠詞或句子主語，但必須保留原句意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss112-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The teacher asked a question that was so difficult that nobody answered it.",
+      "promptZh": "老師問的問題太難了，結果沒有人回答。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher asked such a difficult question that nobody answered it.",
+      "answerZh": "老師問了一道如此困難的問題，結果沒有人回答。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher asked such a difficult question that nobody answered it."
+    },
+    {
+      "id": "ss112-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The film we chose was so funny that we watched it twice.",
+      "promptZh": "我們選的電影非常好笑，所以我們看了兩次。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We chose such a funny film that we watched it twice.",
+      "answerZh": "我們選了一部如此好笑的電影，結果看了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "We chose such a funny film that we watched it twice."
+    },
+    {
+      "id": "ss112-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The soup the chef served was so hot that I could not drink it.",
+      "promptZh": "廚師端上的湯太熱了，我喝不下。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef served such hot soup that I could not drink it.",
+      "answerZh": "廚師端上的湯熱得令我喝不下。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef served such hot soup that I could not drink it."
+    },
+    {
+      "id": "ss112-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did all the children want to pet the dog? It was extremely friendly.",
+      "promptZh": "為甚麼所有孩子都想摸那隻狗？因為牠非常友善。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a friendly dog that all the children wanted to pet it.",
+      "answerZh": "那是一隻非常友善的狗，令所有孩子都想摸牠。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a friendly dog that all the children wanted to pet it."
+    },
+    {
+      "id": "ss112-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The test our teacher gave us was so easy that everyone finished early.",
+      "promptZh": "老師給我們的測驗非常容易，所以所有人都提早完成。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher gave us such an easy test that everyone finished early.",
+      "answerZh": "老師給了我們一份非常容易的測驗，所有人都提早完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher gave us such an easy test that everyone finished early."
+    },
+    {
+      "id": "ss112-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The music the band played was so loud that we could not talk.",
+      "promptZh": "樂隊演奏的音樂非常響亮，令我們無法交談。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The band played such loud music that we could not talk.",
+      "answerZh": "樂隊演奏的音樂非常響亮，令我們無法交談。",
+      "answerZhSource": "pdf",
+      "highlight": "The band played such loud music that we could not talk."
+    },
+    {
+      "id": "ss112-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The day was so beautiful that we had lunch outside.",
+      "promptZh": "那天天氣非常好，所以我們在戶外吃午餐。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a beautiful day that we had lunch outside.",
+      "answerZh": "那天天氣非常好，所以我們在戶外吃午餐。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a beautiful day that we had lunch outside."
+    },
+    {
+      "id": "ss112-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The road we drove along was so narrow that two cars could not pass each other.",
+      "promptZh": "我們駛過的道路非常狹窄，兩輛車無法同時通過。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We drove along such a narrow road that two cars could not pass each other.",
+      "answerZh": "我們駛過一條非常狹窄的道路，兩輛車無法同時通過。",
+      "answerZhSource": "pdf",
+      "highlight": "We drove along such a narrow road that two cars could not pass each other."
+    },
+    {
+      "id": "ss112-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why did Mia finish the book she chose in one day? It was very interesting.",
+      "promptZh": "米婭為甚麼在一天內看完她選的書？因為那本書非常有趣。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia chose such an interesting book that she finished it in one day.",
+      "answerZh": "米婭選了一本非常有趣的書，結果在一天內便看完了。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia chose such an interesting book that she finished it in one day."
+    },
+    {
+      "id": "ss112-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The rain was so heavy that the football match was cancelled.",
+      "promptZh": "雨勢非常大，所以足球賽事被取消了。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was such heavy rain that the football match was cancelled.",
+      "answerZh": "雨勢非常大，結果足球賽事被取消了。",
+      "answerZhSource": "pdf",
+      "highlight": "There was such heavy rain that the football match was cancelled."
+    },
+    {
+      "id": "ss112-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The hotel room was extremely comfortable, so we slept very well.",
+      "promptZh": "酒店房間非常舒適，所以我們睡得很好。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a comfortable hotel room that we slept very well.",
+      "answerZh": "那是一間非常舒適的酒店房間，令我們睡得很好。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a comfortable hotel room that we slept very well."
+    },
+    {
+      "id": "ss112-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Very low prices were offered by the shop, so a long queue formed outside.",
+      "promptZh": "店舖提供非常低的價格，所以外面排起了長隊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop offered such low prices that a long queue formed outside.",
+      "answerZh": "店舖提供非常低的價格，結果外面排起了長隊。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop offered such low prices that a long queue formed outside."
+    },
+    {
+      "id": "ss112-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The child told a very strange story, so nobody believed him.",
+      "promptZh": "那個孩子說了一個非常奇怪的故事，所以沒有人相信他。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child told such a strange story that nobody believed him.",
+      "answerZh": "那個孩子說了一個非常奇怪的故事，結果沒有人相信他。",
+      "answerZhSource": "pdf",
+      "highlight": "The child told such a strange story that nobody believed him."
+    },
+    {
+      "id": "ss112-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The wind was extremely strong. Several trees fell.",
+      "promptZh": "風勢非常強勁，幾棵樹倒下了。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was such strong wind that several trees fell.",
+      "answerZh": "風勢非常強勁，結果幾棵樹倒下了。",
+      "answerZhSource": "pdf",
+      "highlight": "There was such strong wind that several trees fell."
+    },
+    {
+      "id": "ss112-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did we accept Sarah’s offer immediately? It was very generous.",
+      "promptZh": "我們為甚麼立即接受莎拉的提議？因為她的提議非常慷慨。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah made such a generous offer that we accepted it immediately.",
+      "answerZh": "莎拉提出了一個非常慷慨的提議，令我們立即接受。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah made such a generous offer that we accepted it immediately."
+    },
+    {
+      "id": "ss112-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The instructions were very clear. Even beginners could follow them.",
+      "promptZh": "指示非常清楚，連初學者也能夠跟從。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They were such clear instructions that even beginners could follow them.",
+      "answerZh": "那些指示非常清楚，連初學者也能夠跟從。",
+      "answerZhSource": "pdf",
+      "highlight": "They were such clear instructions that even beginners could follow them."
+    },
+    {
+      "id": "ss112-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bus was too crowded for us to find seats.",
+      "promptZh": "巴士太擠迫了，我們找不到座位。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a crowded bus that we could not find any seats.",
+      "answerZh": "那輛巴士非常擠迫，令我們找不到任何座位。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a crowded bus that we could not find any seats."
+    },
+    {
+      "id": "ss112-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The students asked very thoughtful questions. The speaker stayed longer to answer them.",
+      "promptZh": "學生提出了非常有深度的問題，所以講者留下來更長時間回答。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The students asked such thoughtful questions that the speaker stayed longer to answer them.",
+      "answerZh": "學生提出了非常有深度的問題，令講者留下來更長時間回答。",
+      "answerZhSource": "pdf",
+      "highlight": "The students asked such thoughtful questions that the speaker stayed longer to answer them."
+    },
+    {
+      "id": "ss112-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 18
+      },
+      "prompt": "The meal was extremely delicious, so everyone asked for the recipe.",
+      "promptZh": "這頓飯非常美味，所以每個人都詢問食譜。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a delicious meal that everyone asked for the recipe.",
+      "answerZh": "那是一頓非常美味的飯，令每個人都詢問食譜。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a delicious meal that everyone asked for the recipe."
+    },
+    {
+      "id": "ss112-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The fog was very thick, so drivers were forced to slow down.",
+      "promptZh": "霧非常濃厚，所以司機被迫減速。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was such thick fog that drivers were forced to slow down.",
+      "answerZh": "霧非常濃厚，令司機被迫減速。",
+      "answerZhSource": "pdf",
+      "highlight": "There was such thick fog that drivers were forced to slow down."
+    },
+    {
+      "id": "ss112-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Because the queue was extremely long, we missed the start of the film.",
+      "promptZh": "由於隊伍非常長，我們錯過了電影的開場。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a long queue that we missed the start of the film.",
+      "answerZh": "隊伍非常長，令我們錯過了電影的開場。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a long queue that we missed the start of the film."
+    },
+    {
+      "id": "ss112-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The explanation was very confusing, and several students asked for help.",
+      "promptZh": "這個解釋非常令人困惑，因此幾名學生尋求協助。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a confusing explanation that several students asked for help.",
+      "answerZh": "那是一個非常令人困惑的解釋，結果幾名學生尋求協助。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a confusing explanation that several students asked for help."
+    },
+    {
+      "id": "ss112-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did everyone turn around? The machine made a very strange noise.",
+      "promptZh": "為甚麼所有人都回頭看？因為機器發出了非常奇怪的聲音。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine made such a strange noise that everyone turned around.",
+      "answerZh": "機器發出了非常奇怪的聲音，令所有人都回頭看。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine made such a strange noise that everyone turned around."
+    },
+    {
+      "id": "ss112-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The news was extremely surprising. I checked it twice.",
+      "promptZh": "這個消息非常令人驚訝，所以我核實了兩次。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such surprising news that I checked it twice.",
+      "answerZh": "那是一個非常令人驚訝的消息，令我核實了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such surprising news that I checked it twice."
+    },
+    {
+      "id": "ss112-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The children were so well-behaved that the guide praised them.",
+      "promptZh": "孩子們非常守規矩，所以導遊稱讚了他們。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They were such well-behaved children that the guide praised them.",
+      "answerZh": "他們是非常守規矩的孩子，因此導遊稱讚了他們。",
+      "answerZhSource": "pdf",
+      "highlight": "They were such well-behaved children that the guide praised them."
+    },
+    {
+      "id": "ss112-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The homework Leo received was so difficult that he needed three hours to finish it.",
+      "promptZh": "里奧收到的功課非常困難，他需要三小時才能完成。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo received such difficult homework that he needed three hours to finish it.",
+      "answerZh": "里奧收到非常困難的功課，需要三小時才能完成。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo received such difficult homework that he needed three hours to finish it."
+    },
+    {
+      "id": "ss112-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The traffic was so bad that we arrived an hour late.",
+      "promptZh": "交通非常擠塞，令我們遲到了一小時。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was such bad traffic that we arrived an hour late.",
+      "answerZh": "交通非常擠塞，令我們遲到了一小時。",
+      "answerZhSource": "pdf",
+      "highlight": "There was such bad traffic that we arrived an hour late."
+    },
+    {
+      "id": "ss112-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The lecture was so boring that two students fell asleep.",
+      "promptZh": "講座非常沉悶，結果有兩名學生睡着了。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a boring lecture that two students fell asleep.",
+      "answerZh": "那是一場非常沉悶的講座，結果有兩名學生睡着了。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a boring lecture that two students fell asleep."
+    },
+    {
+      "id": "ss112-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why could I not finish the coffee served by the café? It was extremely strong.",
+      "promptZh": "我為甚麼喝不完咖啡店端上的咖啡？因為咖啡味道非常濃烈。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café served such strong coffee that I could not finish it.",
+      "answerZh": "咖啡店端上的咖啡味道非常濃烈，令我無法喝完。",
+      "answerZhSource": "pdf",
+      "highlight": "The café served such strong coffee that I could not finish it."
+    },
+    {
+      "id": "ss112-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team’s determination was so great that it came back from two goals down.",
+      "promptZh": "球隊的決心非常強，結果在落後兩球的情況下扭轉了劣勢。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team showed such great determination that it came back from two goals down.",
+      "answerZh": "球隊展現了非常強大的決心，結果在落後兩球的情況下扭轉了劣勢。",
+      "answerZhSource": "pdf",
+      "highlight": "The team showed such great determination that it came back from two goals down."
+    },
+    {
+      "id": "ss112-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The park was kept closed for a week because the storm caused extremely serious damage.",
+      "promptZh": "由於暴風雨造成非常嚴重的破壞，公園關閉了一星期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm caused such serious damage that the park was kept closed for a week.",
+      "answerZh": "暴風雨造成了非常嚴重的破壞，令公園關閉了一星期。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm caused such serious damage that the park was kept closed for a week."
+    },
+    {
+      "id": "ss112-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The manager spoke in a very calm voice. Everyone stopped arguing.",
+      "promptZh": "經理以非常冷靜的聲線說話，所有人都停止了爭論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager spoke in such a calm voice that everyone stopped arguing.",
+      "answerZh": "經理以非常冷靜的聲線說話，令所有人都停止爭論。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager spoke in such a calm voice that everyone stopped arguing."
+    },
+    {
+      "id": "ss112-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The library was so quiet that we could hear the clock ticking.",
+      "promptZh": "圖書館非常安靜，我們甚至能聽到時鐘滴答作響。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such a quiet library that we could hear the clock ticking.",
+      "answerZh": "那是一間非常安靜的圖書館，我們甚至能聽到時鐘滴答作響。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such a quiet library that we could hear the clock ticking."
+    },
+    {
+      "id": "ss112-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The baby’s cry was so loud that everyone woke up.",
+      "promptZh": "嬰兒的哭聲非常響亮，所有人都醒來了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The baby gave such a loud cry that everyone woke up.",
+      "answerZh": "嬰兒發出了非常響亮的哭聲，令所有人都醒來了。",
+      "answerZhSource": "pdf",
+      "highlight": "The baby gave such a loud cry that everyone woke up."
+    },
+    {
+      "id": "ss112-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "An enormous number of applications were received by the school, so it added another interview day.",
+      "promptZh": "學校收到大量申請，因此增加了一天面試時間。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school received such a large number of applications that it added another interview day.",
+      "answerZh": "學校收到非常大量的申請，因此增加了一天面試時間。",
+      "answerZhSource": "pdf",
+      "highlight": "The school received such a large number of applications that it added another interview day."
+    },
+    {
+      "id": "ss112-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Our company’s progress was very rapid, so it finished the project early.",
+      "promptZh": "我們公司的進度非常快，因此提早完成了項目。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our company made such rapid progress that it finished the project early.",
+      "answerZh": "我們公司的進度非常快，因此提早完成了項目。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company made such rapid progress that it finished the project early."
+    },
+    {
+      "id": "ss112-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Why did the audience become silent? The singer had an exceptionally powerful voice.",
+      "promptZh": "觀眾為甚麼安靜下來？因為歌手的聲音格外有力量。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The singer had such a powerful voice that the audience became silent.",
+      "answerZh": "歌手擁有非常有力量的聲音，令觀眾安靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The singer had such a powerful voice that the audience became silent."
+    },
+    {
+      "id": "ss112-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Flooding in the village was so severe that many families had to leave their homes.",
+      "promptZh": "村內的水浸非常嚴重，很多家庭被迫離開家園。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The village experienced such severe flooding that many families had to leave their homes.",
+      "answerZh": "村內經歷了非常嚴重的水浸，令很多家庭被迫離開家園。",
+      "answerZhSource": "pdf",
+      "highlight": "The village experienced such severe flooding that many families had to leave their homes."
+    },
+    {
+      "id": "ss112-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The new phone was so expensive that few students could afford it.",
+      "promptZh": "這部新電話非常昂貴，幾乎沒有學生能夠負擔。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such an expensive new phone that few students could afford it.",
+      "answerZh": "那是一部非常昂貴的新電話，幾乎沒有學生能夠負擔。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such an expensive new phone that few students could afford it."
+    },
+    {
+      "id": "ss112-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The teacher showed us very useful examples, so we understood the rule quickly.",
+      "promptZh": "老師向我們展示了非常實用的例子，因此我們很快便明白規則。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher showed us such useful examples that we understood the rule quickly.",
+      "answerZh": "老師向我們展示了非常實用的例子，令我們很快便明白規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher showed us such useful examples that we understood the rule quickly."
+    },
+    {
+      "id": "ss112-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A patient experienced pain that was so severe that the doctor ordered more tests.",
+      "promptZh": "一名病人的痛楚非常嚴重，因此醫生安排了更多檢查。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A patient experienced such severe pain that the doctor ordered more tests.",
+      "answerZh": "一名病人經歷了非常嚴重的痛楚，因此醫生安排了更多檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "A patient experienced such severe pain that the doctor ordered more tests."
+    },
+    {
+      "id": "ss112-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "So many angry complaints were received by the council that it held an urgent public meeting.",
+      "promptZh": "市政當局收到大量憤怒的投訴，因此召開了緊急公眾會議。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council received such a large number of angry complaints that it held an urgent public meeting.",
+      "answerZh": "市政當局收到非常大量的憤怒投訴，因此召開了緊急公眾會議。",
+      "answerZhSource": "pdf",
+      "highlight": "The council received such a large number of angry complaints that it held an urgent public meeting."
+    },
+    {
+      "id": "ss112-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The charity received an extremely generous donation, so it could keep the centre open.",
+      "promptZh": "慈善機構收到了一筆非常慷慨的捐款，因此能夠維持中心運作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The charity received such a generous donation that it could keep the centre open.",
+      "answerZh": "慈善機構收到了一筆非常慷慨的捐款，因此能夠維持中心運作。",
+      "answerZhSource": "pdf",
+      "highlight": "The charity received such a generous donation that it could keep the centre open."
+    },
+    {
+      "id": "ss112-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The safety instructions were written in very simple language, so even young children could understand them.",
+      "promptZh": "安全指示以非常淺白的語言寫成，連年幼的孩子也能明白。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The safety instructions were written in such simple language that even young children could understand them.",
+      "answerZh": "安全指示以非常淺白的語言寫成，連年幼的孩子也能明白。",
+      "answerZhSource": "pdf",
+      "highlight": "The safety instructions were written in such simple language that even young children could understand them."
+    },
+    {
+      "id": "ss112-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The science experiment produced results that were so unusual that the class repeated it.",
+      "promptZh": "科學實驗產生了非常不尋常的結果，因此全班再次進行實驗。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science experiment produced such unusual results that the class repeated it.",
+      "answerZh": "科學實驗產生了非常不尋常的結果，因此全班再次進行實驗。",
+      "answerZhSource": "pdf",
+      "highlight": "The science experiment produced such unusual results that the class repeated it."
+    },
+    {
+      "id": "ss112-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Why did several parents write to the school? The new timetable was very inconvenient.",
+      "promptZh": "為甚麼幾名家長寫信給學校？因為新時間表非常不方便。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It was such an inconvenient new timetable that several parents wrote to the school.",
+      "answerZh": "那是一份非常不方便的新時間表，因此幾名家長寫信給學校。",
+      "answerZhSource": "pdf",
+      "highlight": "It was such an inconvenient new timetable that several parents wrote to the school."
+    },
+    {
+      "id": "ss112-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The speaker’s explanation was so clear that even people unfamiliar with the topic followed the argument.",
+      "promptZh": "講者的解釋非常清楚，連不熟悉這個議題的人也能理解論點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speaker gave such a clear explanation that even people unfamiliar with the topic followed the argument.",
+      "answerZh": "講者作出了非常清楚的解釋，連不熟悉這個議題的人也能理解論點。",
+      "answerZhSource": "pdf",
+      "highlight": "The speaker gave such a clear explanation that even people unfamiliar with the topic followed the argument."
+    },
+    {
+      "id": "ss112-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The neighbourhood had very poor street lighting, so residents avoided the park after dark.",
+      "promptZh": "該社區的街道照明非常不足，因此居民在入夜後避開公園。",
+      "promptZhSource": "pdf",
+      "starter": "There",
+      "answer": "There was such poor street lighting in the neighbourhood that residents avoided the park after dark.",
+      "answerZh": "該社區的街道照明非常不足，因此居民在入夜後避開公園。",
+      "answerZhSource": "pdf",
+      "highlight": "There was such poor street lighting in the neighbourhood that residents avoided the park after dark."
+    },
+    {
+      "id": "ss112-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The company had to choose between closing a branch and reducing staff hours. The choice was extremely difficult, so the directors debated for two days.",
+      "promptZh": "公司需要在關閉一家分店和減少員工工時之間作出選擇。這個選擇非常困難，因此董事商討了兩天。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company faced such a difficult choice between closing a branch and reducing staff hours that its directors debated for two days.",
+      "answerZh": "公司面對一個非常困難的選擇，需要在關閉一家分店和減少員工工時之間取捨，令董事商討了兩天。",
+      "answerZhSource": "pdf",
+      "highlight": "The company faced such a difficult choice between closing a branch and reducing staff hours that its directors debated for two days."
+    },
+    {
+      "id": "ss112-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The rescue team worked in conditions that were so dangerous that the operation had to be stopped twice.",
+      "promptZh": "救援隊在非常危險的環境下工作，行動更兩度被迫停止。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rescue team worked in such dangerous conditions that the operation had to be stopped twice.",
+      "answerZh": "救援隊在非常危險的環境下工作，令行動兩度被迫停止。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team worked in such dangerous conditions that the operation had to be stopped twice."
+    }
+  ]
+}

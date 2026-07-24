@@ -1,0 +1,1232 @@
+{
+  "id": "ss113",
+  "order": 113,
+  "slug": "so-much-so-that",
+  "title": "「So much so that」句型",
+  "titleZh": "「So much so that」表示程度強烈及帶出明顯結果",
+  "titleEn": "Using So much so that for an extreme degree and clear result",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 113 -「So much so that」表示程度強烈及帶出明顯結果.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "exercisePages": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Complete clause 1, so much so that + complete result/evidence clause 2",
+  "formulas": [
+    {
+      "id": "ss113-formula-core",
+      "labelEn": "Target Structure",
+      "labelZh": "目標句型",
+      "formula": "Complete clause 1, so much so that + complete result/evidence clause 2"
+    }
+  ],
+  "example": "He loved the city, so much so that he moved there.",
+  "exampleZh": "他非常喜愛這個城市，喜愛到甚至搬到那裏居住。",
+  "examples": [
+    {
+      "id": "ss113-example-01",
+      "en": "He loved the city, so much so that he moved there.",
+      "zh": "他非常喜愛這個城市，喜愛到甚至搬到那裏居住。",
+      "highlight": "so much so that he moved there"
+    }
+  ],
+  "meaning": {
+    "zh": "第一個分句表達情況、感受或行動的程度非常強烈；第二個分句帶出明顯結果或具體證據。"
+  },
+  "rules": [
+    {
+      "id": "ss113-rule-01",
+      "zh": "So much so that 回指前面的整個完整意思，不直接修飾單一形容詞或名詞。",
+      "en": "So much so that refers back to the whole preceding clause rather than directly modifying one adjective or noun.",
+      "examples": [
+        "She trusted him, so much so that she gave him the only key."
+      ]
+    },
+    {
+      "id": "ss113-rule-02",
+      "zh": "第二個分句必須顯示第一個情況的程度有多強，成為該強烈程度的結果或證明。",
+      "en": "The second clause should show how serious, strong or extreme the first idea was.",
+      "examples": [
+        "The road was icy, so much so that several cars could not move."
+      ]
+    },
+    {
+      "id": "ss113-rule-03",
+      "zh": "兩個意思合併成一句時，通常在 so much so that 前使用逗號。",
+      "en": "Use a comma before so much so that when the two ideas appear in one sentence.",
+      "examples": [
+        "The room was quiet, so much so that we could hear the clock ticking."
+      ]
+    },
+    {
+      "id": "ss113-rule-04",
+      "zh": "前面的分句本身應是完整陳述，that 後面亦必須包括主語和動詞。",
+      "en": "Clause 1 should already contain a complete statement, and the clause after that must also contain a subject and verb.",
+      "examples": [
+        "The film impressed Daniel, so much so that he watched it again."
+      ]
+    },
+    {
+      "id": "ss113-rule-05",
+      "zh": "So much so that 已表示程度很深，改寫時通常刪去 very、extremely、so、such 和 to such an extent 等重複程度字眼。",
+      "en": "Words such as very, extremely, so, such and to such an extent are normally removed because so much so that already expresses extreme degree.",
+      "examples": [
+        "The room was quiet, so much so that we could hear the clock."
+      ]
+    },
+    {
+      "id": "ss113-rule-06",
+      "zh": "Such...that 直接修飾名詞詞組；so much so that 則先完成整個陳述，再加入結果或證明。",
+      "en": "Such...that directly describes a noun phrase; so much so that refers back to a completed clause and adds a striking result or proof.",
+      "examples": [
+        "It was such a difficult question that nobody could answer it.",
+        "The question was difficult, so much so that nobody could answer it."
+      ]
+    },
+    {
+      "id": "ss113-rule-07",
+      "zh": "Such that 通常直接連接 structured、designed、influence 或 effect 等詞，表示安排方式或影響結果，而不是回指獨立完成分句。",
+      "en": "Such that is normally grammatically connected to words such as structured, designed, influence or effect rather than commenting on a separate completed clause.",
+      "examples": [
+        "We structured the schedule such that everyone gets a lunch break."
+      ]
+    },
+    {
+      "id": "ss113-rule-08",
+      "zh": "So that 說明預期目的；so much so that 提出實際結果或證據，而不是目標。",
+      "en": "So that explains an intended purpose; so much so that presents a result or evidence, not an intended goal.",
+      "examples": [
+        "I studied hard so that I could pass.",
+        "I studied hard, so much so that I forgot to eat."
+      ]
+    },
+    {
+      "id": "ss113-rule-09",
+      "zh": "So + adjective/adverb + that 直接加強形容詞或副詞；so much so that 回指整個分句，再補充結果。",
+      "en": "So + adjective/adverb + that directly intensifies an adjective or adverb; so much so that refers back to the whole clause and then adds a result.",
+      "examples": [
+        "Dad was so angry that he broke his phone.",
+        "Dad was angry, so much so that he broke his phone."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss113-benefit-01",
+      "zh": "能有力地強調第一個情況並非一般程度，而是足以帶來明顯結果。",
+      "en": "This structure tells the listener that the first situation was strong enough to cause a surprising or noticeable result."
+    },
+    {
+      "id": "ss113-benefit-02",
+      "zh": "不只說感受很強烈，還能加入具體行動，作為程度的清楚證明。",
+      "en": "Instead of simply stating a strong feeling, you can add an action that proves how strong it was."
+    },
+    {
+      "id": "ss113-benefit-03",
+      "zh": "可以把情況及其結果清楚合併，不需要寫成兩句分散短句。",
+      "en": "Instead of writing two separate sentences, you can connect the situation and its result clearly."
+    },
+    {
+      "id": "ss113-benefit-04",
+      "zh": "在說話或寫作時，可先提出概括說法，再加入明顯例子或後果，使解釋更完整。",
+      "en": "In speaking and writing, you can first make a general statement and then add a strong example or consequence."
+    },
+    {
+      "id": "ss113-benefit-05",
+      "zh": "它提供 so + adjective + that 以外的另一種程度和結果句式，增加變化。",
+      "en": "This structure gives you another way to express degree and result instead of repeatedly using so + adjective + that."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using so much so that to show that the first idea was true to an extreme degree and led to the second result.",
+      "Use one complete sentence.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 so much so that 改寫以下句子，表示第一個情況的程度非常強烈，並帶來第二個明顯結果。",
+      "答案必須寫成一個完整句子。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss113-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "He loved the city so much that he moved there.",
+      "promptZh": "他非常喜愛這個城市，甚至搬到那裏居住。",
+      "promptZhSource": "pdf",
+      "starter": "He",
+      "answer": "He loved the city, so much so that he moved there.",
+      "answerZh": "他非常喜愛這個城市，喜愛到甚至搬到那裏居住。",
+      "answerZhSource": "pdf",
+      "highlight": "He loved the city, so much so that he moved there."
+    },
+    {
+      "id": "ss113-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia was so tired that she fell asleep on the bus.",
+      "promptZh": "米婭非常疲倦，結果在巴士上睡著了。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia was tired, so much so that she fell asleep on the bus.",
+      "answerZh": "米婭非常疲倦，疲倦到在巴士上睡著了。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia was tired, so much so that she fell asleep on the bus."
+    },
+    {
+      "id": "ss113-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The soup was so spicy that Leo drank three glasses of water.",
+      "promptZh": "這碗湯非常辣，里奧因此喝了三杯水。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup was spicy, so much so that Leo drank three glasses of water.",
+      "answerZh": "這碗湯非常辣，辣得里奧喝了三杯水。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup was spicy, so much so that Leo drank three glasses of water."
+    },
+    {
+      "id": "ss113-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ava enjoyed the film so much that she watched it twice.",
+      "promptZh": "艾娃非常喜歡這部電影，所以看了兩次。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava enjoyed the film, so much so that she watched it twice.",
+      "answerZh": "艾娃非常喜歡這部電影，甚至看了兩次。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava enjoyed the film, so much so that she watched it twice."
+    },
+    {
+      "id": "ss113-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The rain was so heavy that the football match was cancelled.",
+      "promptZh": "雨勢非常大，足球比賽因此取消了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The rain was heavy, so much so that the football match was cancelled.",
+      "answerZh": "雨勢非常大，大得足球比賽也取消了。",
+      "answerZhSource": "pdf",
+      "highlight": "The rain was heavy, so much so that the football match was cancelled."
+    },
+    {
+      "id": "ss113-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben was such a helpful neighbour that he fixed our broken gate.",
+      "promptZh": "本是一位非常樂於助人的鄰居，甚至替我們修理了壞掉的大閘。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben was a helpful neighbour, so much so that he fixed our broken gate.",
+      "answerZh": "本是一位非常樂於助人的鄰居，甚至替我們修理了壞掉的大閘。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben was a helpful neighbour, so much so that he fixed our broken gate."
+    },
+    {
+      "id": "ss113-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop was so popular that customers waited outside.",
+      "promptZh": "這間店非常受歡迎，顧客要在店外等候。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop was popular, so much so that customers waited outside.",
+      "answerZh": "這間店非常受歡迎，甚至有顧客在店外等候。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop was popular, so much so that customers waited outside."
+    },
+    {
+      "id": "ss113-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Nina was extremely nervous. As a result, her hands shook during the speech.",
+      "promptZh": "妮娜非常緊張。因此，她演講時雙手發抖。",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina was nervous, so much so that her hands shook during the speech.",
+      "answerZh": "妮娜非常緊張，緊張得演講時雙手發抖。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina was nervous, so much so that her hands shook during the speech."
+    },
+    {
+      "id": "ss113-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did the puppy hide under the sofa? It was extremely frightened.",
+      "promptZh": "小狗為甚麼躲在梳化下面？牠非常害怕。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The puppy was frightened, so much so that it hid under the sofa.",
+      "answerZh": "小狗非常害怕，害怕得躲在梳化下面。",
+      "answerZhSource": "pdf",
+      "highlight": "The puppy was frightened, so much so that it hid under the sofa."
+    },
+    {
+      "id": "ss113-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The room was so quiet that we could hear the clock ticking.",
+      "promptZh": "房間非常安靜，我們甚至聽到時鐘滴答作響。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room was quiet, so much so that we could hear the clock ticking.",
+      "answerZh": "房間非常安靜，安靜得我們連時鐘滴答聲也聽得到。",
+      "answerZhSource": "pdf",
+      "highlight": "The room was quiet, so much so that we could hear the clock ticking."
+    },
+    {
+      "id": "ss113-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The book interested Chloe to such an extent that she finished it in one night.",
+      "promptZh": "這本書令克洛伊非常感興趣，她一晚便看完了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The book interested Chloe, so much so that she finished it in one night.",
+      "answerZh": "這本書令克洛伊非常感興趣，甚至令她一晚便看完了。",
+      "answerZhSource": "pdf",
+      "highlight": "The book interested Chloe, so much so that she finished it in one night."
+    },
+    {
+      "id": "ss113-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Omar’s joke was so funny that even the teacher laughed.",
+      "promptZh": "奧馬爾的笑話非常有趣，連老師也笑了。",
+      "promptZhSource": "pdf",
+      "starter": "Omar’s",
+      "answer": "Omar’s joke was funny, so much so that even the teacher laughed.",
+      "answerZh": "奧馬爾的笑話非常有趣，有趣得連老師也笑了。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar’s joke was funny, so much so that even the teacher laughed."
+    },
+    {
+      "id": "ss113-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It was such a difficult puzzle that nobody solved it before lunch.",
+      "promptZh": "這是一個非常困難的謎題，午飯前沒有人能解開。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The puzzle was difficult, so much so that nobody solved it before lunch.",
+      "answerZh": "這個謎題非常困難，困難得午飯前沒有人能解開。",
+      "answerZhSource": "pdf",
+      "highlight": "The puzzle was difficult, so much so that nobody solved it before lunch."
+    },
+    {
+      "id": "ss113-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The road was extremely icy. As a result, several cars could not move.",
+      "promptZh": "路面結冰情況非常嚴重。因此，多輛汽車無法前進。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road was icy, so much so that several cars could not move.",
+      "answerZh": "路面結冰情況非常嚴重，嚴重得多輛汽車無法前進。",
+      "answerZhSource": "pdf",
+      "highlight": "The road was icy, so much so that several cars could not move."
+    },
+    {
+      "id": "ss113-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Grace cared deeply about the project. She worked on it every weekend.",
+      "promptZh": "格蕾絲非常重視這個項目。她每個週末都為此工作。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace cared about the project, so much so that she worked on it every weekend.",
+      "answerZh": "格蕾絲非常重視這個項目，甚至每個週末都為此工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace cared about the project, so much so that she worked on it every weekend."
+    },
+    {
+      "id": "ss113-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The beach was so crowded that we could not find a place to sit.",
+      "promptZh": "沙灘非常擠迫，我們找不到地方坐下。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The beach was crowded, so much so that we could not find a place to sit.",
+      "answerZh": "沙灘非常擠迫，擠迫得我們連坐下的地方也找不到。",
+      "answerZhSource": "pdf",
+      "highlight": "The beach was crowded, so much so that we could not find a place to sit."
+    },
+    {
+      "id": "ss113-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why did Daniel recommend the restaurant to all his friends? He liked it very much.",
+      "promptZh": "丹尼爾為甚麼把這間餐廳推薦給所有朋友？他非常喜歡這間餐廳。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel liked the restaurant, so much so that he recommended it to all his friends.",
+      "answerZh": "丹尼爾非常喜歡這間餐廳，甚至把它推薦給所有朋友。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel liked the restaurant, so much so that he recommended it to all his friends."
+    },
+    {
+      "id": "ss113-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The music was loud to such a degree that people outside could hear it.",
+      "promptZh": "音樂聲非常大，連外面的人也聽得到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The music was loud, so much so that people outside could hear it.",
+      "answerZh": "音樂聲非常大，大得連外面的人也聽得到。",
+      "answerZhSource": "pdf",
+      "highlight": "The music was loud, so much so that people outside could hear it."
+    },
+    {
+      "id": "ss113-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Sofia was such a patient tutor that she explained the same point five times.",
+      "promptZh": "蘇菲亞是一位非常有耐性的導師，同一個重點也解釋了五次。",
+      "promptZhSource": "pdf",
+      "starter": "Sofia",
+      "answer": "Sofia was a patient tutor, so much so that she explained the same point five times.",
+      "answerZh": "蘇菲亞是一位非常有耐性的導師，甚至把同一個重點解釋了五次。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia was a patient tutor, so much so that she explained the same point five times."
+    },
+    {
+      "id": "ss113-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The news surprised Ethan greatly. He read the message three times.",
+      "promptZh": "這則消息令伊森非常驚訝。他把訊息看了三次。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The news surprised Ethan, so much so that he read the message three times.",
+      "answerZh": "這則消息令伊森非常驚訝，甚至令他把訊息看了三次。",
+      "answerZhSource": "pdf",
+      "highlight": "The news surprised Ethan, so much so that he read the message three times."
+    },
+    {
+      "id": "ss113-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new phone became so popular that it sold out in two hours.",
+      "promptZh": "這款新手機變得非常受歡迎，兩小時內便售罄。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new phone became popular, so much so that it sold out in two hours.",
+      "answerZh": "這款新手機變得非常受歡迎，受歡迎到兩小時內便售罄。",
+      "answerZhSource": "pdf",
+      "highlight": "The new phone became popular, so much so that it sold out in two hours."
+    },
+    {
+      "id": "ss113-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Aisha trusted Marcus so completely that she gave him the only spare key.",
+      "promptZh": "艾莎完全信任馬庫斯，甚至把唯一的後備鑰匙交給他。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha trusted Marcus, so much so that she gave him the only spare key.",
+      "answerZh": "艾莎非常信任馬庫斯，甚至把唯一的後備鑰匙交給他。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha trusted Marcus, so much so that she gave him the only spare key."
+    },
+    {
+      "id": "ss113-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The temperature dropped to such an extent that the lake began to freeze.",
+      "promptZh": "氣溫大幅下降，湖面開始結冰。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The temperature dropped, so much so that the lake began to freeze.",
+      "answerZh": "氣溫大幅下降，下降到湖面也開始結冰。",
+      "answerZhSource": "pdf",
+      "highlight": "The temperature dropped, so much so that the lake began to freeze."
+    },
+    {
+      "id": "ss113-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Students were extremely excited about the trip. They packed their bags a week early.",
+      "promptZh": "學生對這次旅行非常興奮。他們提早一星期收拾行李。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students were excited about the trip, so much so that they packed their bags a week early.",
+      "answerZh": "學生對這次旅行非常興奮，甚至提早一星期收拾行李。",
+      "answerZhSource": "pdf",
+      "highlight": "Students were excited about the trip, so much so that they packed their bags a week early."
+    },
+    {
+      "id": "ss113-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The effect of the speech on the audience was so strong that many people donated money immediately.",
+      "promptZh": "這場演講對觀眾的影響非常強烈，很多人立即捐款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The speech affected the audience, so much so that many people donated money immediately.",
+      "answerZh": "這場演講深深影響觀眾，甚至令很多人立即捐款。",
+      "answerZhSource": "pdf",
+      "highlight": "The speech affected the audience, so much so that many people donated money immediately."
+    },
+    {
+      "id": "ss113-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The bus service was so unreliable that Maya started cycling to work.",
+      "promptZh": "巴士服務非常不可靠，瑪雅因此開始踏單車上班。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus service was unreliable, so much so that Maya started cycling to work.",
+      "answerZh": "巴士服務非常不可靠，甚至令瑪雅開始踏單車上班。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus service was unreliable, so much so that Maya started cycling to work."
+    },
+    {
+      "id": "ss113-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Noah was deeply embarrassed by the mistake. He avoided the office kitchen all day.",
+      "promptZh": "諾亞因這個錯誤感到非常尷尬。他整天避開辦公室茶水間。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah was embarrassed by the mistake, so much so that he avoided the office kitchen all day.",
+      "answerZh": "諾亞因這個錯誤感到非常尷尬，甚至整天避開辦公室茶水間。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah was embarrassed by the mistake, so much so that he avoided the office kitchen all day."
+    },
+    {
+      "id": "ss113-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The library was such a peaceful place that Olivia visited it every afternoon.",
+      "promptZh": "圖書館是一個非常寧靜的地方，奧莉花每天下午都去那裏。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library was peaceful, so much so that Olivia visited it every afternoon.",
+      "answerZh": "圖書館非常寧靜，寧靜得奧莉花每天下午都去那裏。",
+      "answerZhSource": "pdf",
+      "highlight": "The library was peaceful, so much so that Olivia visited it every afternoon."
+    },
+    {
+      "id": "ss113-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Several students found the online lesson so confusing that they emailed the teacher afterwards.",
+      "promptZh": "幾名學生覺得網上課堂非常混亂，課後便向老師發電郵。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several students found the online lesson confusing, so much so that they emailed the teacher afterwards.",
+      "answerZh": "幾名學生覺得網上課堂非常混亂，甚至在課後向老師發電郵。",
+      "answerZhSource": "pdf",
+      "highlight": "Several students found the online lesson confusing, so much so that they emailed the teacher afterwards."
+    },
+    {
+      "id": "ss113-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The storm damaged the village to such a degree that some families had to leave their homes.",
+      "promptZh": "風暴嚴重破壞村莊，一些家庭被迫離開家園。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The storm damaged the village, so much so that some families had to leave their homes.",
+      "answerZh": "風暴嚴重破壞村莊，甚至令一些家庭被迫離開家園。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm damaged the village, so much so that some families had to leave their homes."
+    },
+    {
+      "id": "ss113-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Senior managers valued the idea so highly that they created a team to develop it.",
+      "promptZh": "高級管理人員非常重視這個構思，並成立了一個團隊加以發展。",
+      "promptZhSource": "pdf",
+      "starter": "Senior",
+      "answer": "Senior managers valued the idea, so much so that they created a team to develop it.",
+      "answerZh": "高級管理人員非常重視這個構思，甚至成立了一個團隊加以發展。",
+      "answerZhSource": "pdf",
+      "highlight": "Senior managers valued the idea, so much so that they created a team to develop it."
+    },
+    {
+      "id": "ss113-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old bridge had become so unsafe that the council closed it immediately.",
+      "promptZh": "這座舊橋已變得非常不安全，地方議會立即把它封閉。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The old bridge had become unsafe, so much so that the council closed it immediately.",
+      "answerZh": "這座舊橋已變得非常不安全，甚至令地方議會立即把它封閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The old bridge had become unsafe, so much so that the council closed it immediately."
+    },
+    {
+      "id": "ss113-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new timetable improved punctuality so greatly that fewer students arrived late.",
+      "promptZh": "新時間表大幅改善了準時情況，遲到的學生因而減少。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new timetable improved punctuality, so much so that fewer students arrived late.",
+      "answerZh": "新時間表大幅改善了準時情況，甚至令遲到的學生減少。",
+      "answerZhSource": "pdf",
+      "highlight": "The new timetable improved punctuality, so much so that fewer students arrived late."
+    },
+    {
+      "id": "ss113-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The smell from the kitchen was so inviting that people stopped outside the café.",
+      "promptZh": "廚房傳出的香味非常吸引，途人也在咖啡店外停下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The smell from the kitchen was inviting, so much so that people stopped outside the café.",
+      "answerZh": "廚房傳出的香味非常吸引，吸引得途人也在咖啡店外停下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The smell from the kitchen was inviting, so much so that people stopped outside the café."
+    },
+    {
+      "id": "ss113-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did Priya plan every meal carefully? She strongly disliked wasting food.",
+      "promptZh": "普里亞為甚麼仔細計劃每一餐？她非常討厭浪費食物。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya disliked wasting food, so much so that she planned every meal carefully.",
+      "answerZh": "普里亞非常討厭浪費食物，甚至仔細計劃每一餐。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya disliked wasting food, so much so that she planned every meal carefully."
+    },
+    {
+      "id": "ss113-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The instructions were extremely unclear. Even experienced staff made mistakes.",
+      "promptZh": "這些指示非常不清楚。連有經驗的員工也犯錯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions were unclear, so much so that even experienced staff made mistakes.",
+      "answerZh": "這些指示非常不清楚，不清楚得連有經驗的員工也犯錯。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions were unclear, so much so that even experienced staff made mistakes."
+    },
+    {
+      "id": "ss113-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Confidence within the team grew so much that the players entered the final without fear.",
+      "promptZh": "團隊內的信心大增，球員毫不畏懼地參加決賽。",
+      "promptZhSource": "pdf",
+      "starter": "Confidence",
+      "answer": "Confidence within the team grew, so much so that the players entered the final without fear.",
+      "answerZh": "團隊內的信心大增，甚至令球員毫不畏懼地參加決賽。",
+      "answerZhSource": "pdf",
+      "highlight": "Confidence within the team grew, so much so that the players entered the final without fear."
+    },
+    {
+      "id": "ss113-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The website was designed so badly that many users could not find the payment page.",
+      "promptZh": "這個網站的設計非常差，很多使用者找不到付款頁面。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website was badly designed, so much so that many users could not find the payment page.",
+      "answerZh": "這個網站的設計非常差，差得很多使用者找不到付款頁面。",
+      "answerZhSource": "pdf",
+      "highlight": "The website was badly designed, so much so that many users could not find the payment page."
+    },
+    {
+      "id": "ss113-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The patient improved to such a degree that the doctor allowed her to go home.",
+      "promptZh": "病人的情況大幅改善，醫生因此准許她回家。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient improved, so much so that the doctor allowed her to go home.",
+      "answerZh": "病人的情況大幅改善，甚至令醫生准許她回家。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient improved, so much so that the doctor allowed her to go home."
+    },
+    {
+      "id": "ss113-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Visitors showed such interest in the museum’s free exhibition that extra opening hours were added.",
+      "promptZh": "訪客對博物館的免費展覽非常感興趣，開放時間因而延長。",
+      "promptZhSource": "pdf",
+      "starter": "Visitors",
+      "answer": "Visitors showed interest in the museum’s free exhibition, so much so that extra opening hours were added.",
+      "answerZh": "訪客對博物館的免費展覽非常感興趣，甚至令開放時間延長。",
+      "answerZhSource": "pdf",
+      "highlight": "Visitors showed interest in the museum’s free exhibition, so much so that extra opening hours were added."
+    },
+    {
+      "id": "ss113-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school depended heavily on the computer system. When it failed, classes had to stop for the afternoon.",
+      "promptZh": "學校非常依賴電腦系統。系統故障時，下午的課堂被迫停止。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school depended on the computer system, so much so that when it failed, classes had to stop for the afternoon.",
+      "answerZh": "學校非常依賴電腦系統，依賴到系統一旦故障，下午的課堂便被迫停止。",
+      "answerZhSource": "pdf",
+      "highlight": "The school depended on the computer system, so much so that when it failed, classes had to stop for the afternoon."
+    },
+    {
+      "id": "ss113-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Marcus was so determined to improve his English that he recorded and reviewed every practice conversation.",
+      "promptZh": "馬庫斯改善英語的決心非常堅定，甚至錄下並重溫每次練習對話。",
+      "promptZhSource": "pdf",
+      "starter": "Marcus",
+      "answer": "Marcus was determined to improve his English, so much so that he recorded and reviewed every practice conversation.",
+      "answerZh": "馬庫斯改善英語的決心非常堅定，甚至錄下並重溫每次練習對話。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus was determined to improve his English, so much so that he recorded and reviewed every practice conversation."
+    },
+    {
+      "id": "ss113-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public response to the charity appeal was so generous that the organisers reached their monthly target in one day.",
+      "promptZh": "公眾對慈善募捐的反應非常慷慨，主辦單位一天內便達到整月目標。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public response to the charity appeal was generous, so much so that the organisers reached their monthly target in one day.",
+      "answerZh": "公眾對慈善募捐的反應非常慷慨，慷慨到主辦單位一天內便達到整月目標。",
+      "answerZhSource": "pdf",
+      "highlight": "The public response to the charity appeal was generous, so much so that the organisers reached their monthly target in one day."
+    },
+    {
+      "id": "ss113-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The train delays became so serious that some commuters began working from home twice a week.",
+      "promptZh": "列車延誤變得非常嚴重，一些通勤人士開始每星期在家工作兩天。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train delays became serious, so much so that some commuters began working from home twice a week.",
+      "answerZh": "列車延誤變得非常嚴重，嚴重得一些通勤人士開始每星期在家工作兩天。",
+      "answerZhSource": "pdf",
+      "highlight": "The train delays became serious, so much so that some commuters began working from home twice a week."
+    },
+    {
+      "id": "ss113-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Elena believed strongly in the local project. She invested most of her savings in it.",
+      "promptZh": "埃琳娜非常相信這個本地項目。她把大部分積蓄投資其中。",
+      "promptZhSource": "pdf",
+      "starter": "Elena",
+      "answer": "Elena believed in the local project, so much so that she invested most of her savings in it.",
+      "answerZh": "埃琳娜非常相信這個本地項目，甚至把大部分積蓄投資其中。",
+      "answerZhSource": "pdf",
+      "highlight": "Elena believed in the local project, so much so that she invested most of her savings in it."
+    },
+    {
+      "id": "ss113-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Why did every department need extra training? The new safety rule was a major change.",
+      "promptZh": "為甚麼每個部門都需要額外培訓？新的安全規則是一項重大改變。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The new safety rule was a major change, so much so that every department needed extra training.",
+      "answerZh": "新的安全規則是一項重大改變，甚至令每個部門都需要額外培訓。",
+      "answerZhSource": "pdf",
+      "highlight": "The new safety rule was a major change, so much so that every department needed extra training."
+    },
+    {
+      "id": "ss113-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Air quality in the town improved to such an extent that residents began opening their windows again.",
+      "promptZh": "鎮內的空氣質素大幅改善，居民開始再次打開窗戶。",
+      "promptZhSource": "pdf",
+      "starter": "Air",
+      "answer": "Air quality in the town improved, so much so that residents began opening their windows again.",
+      "answerZh": "鎮內的空氣質素大幅改善，甚至令居民開始再次打開窗戶。",
+      "answerZhSource": "pdf",
+      "highlight": "Air quality in the town improved, so much so that residents began opening their windows again."
+    },
+    {
+      "id": "ss113-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The mistake affected customer trust so severely that the company apologised publicly and offered refunds.",
+      "promptZh": "這個錯誤嚴重影響顧客信任，公司公開道歉並提供退款。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The mistake affected customer trust, so much so that the company apologised publicly and offered refunds.",
+      "answerZh": "這個錯誤嚴重影響顧客信任，甚至令公司公開道歉並提供退款。",
+      "answerZhSource": "pdf",
+      "highlight": "The mistake affected customer trust, so much so that the company apologised publicly and offered refunds."
+    },
+    {
+      "id": "ss113-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Several audience members were so moved by the final scene that they stayed silent after the lights came on.",
+      "promptZh": "幾名觀眾深受最後一幕感動，燈亮後仍保持沉默。",
+      "promptZhSource": "pdf",
+      "starter": "Several",
+      "answer": "Several audience members were moved by the final scene, so much so that they stayed silent after the lights came on.",
+      "answerZh": "幾名觀眾深受最後一幕感動，甚至在燈亮後仍保持沉默。",
+      "answerZhSource": "pdf",
+      "highlight": "Several audience members were moved by the final scene, so much so that they stayed silent after the lights came on."
+    },
+    {
+      "id": "ss113-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The research findings challenged the team’s original plan to such a degree that they redesigned the entire project before continuing.",
+      "promptZh": "研究結果大大挑戰了團隊原來的計劃，他們在繼續之前重新設計整個項目。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research findings challenged the team’s original plan, so much so that they redesigned the entire project before continuing.",
+      "answerZh": "研究結果大大挑戰了團隊原來的計劃，甚至令他們在繼續之前重新設計整個項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The research findings challenged the team’s original plan, so much so that they redesigned the entire project before continuing."
+    }
+  ]
+}

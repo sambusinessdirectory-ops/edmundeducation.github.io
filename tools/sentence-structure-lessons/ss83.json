@@ -1,0 +1,1189 @@
+{
+  "id": "ss83",
+  "order": 83,
+  "slug": "sentence-structure-83",
+  "title": "「Whenever / Whatever / Whichever / However / Whoever / Wherever」句型",
+  "titleZh": "「Whenever / Whatever / Whichever / However / Whoever / Wherever」句",
+  "titleEn": "Whenever / Whatever / Whichever / However / Whoever / Wherever clauses",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 83 -「Whenever _ Whatever _ Whichever _ However _ Whoever _ Wherever 句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Whenever + subject + verb, main clause",
+  "formulas": [
+    {
+      "id": "ss83-formula-whenever",
+      "labelZh": "無論何時／每當",
+      "labelEn": "Whenever",
+      "formula": "Whenever + subject + verb, main clause"
+    },
+    {
+      "id": "ss83-formula-whatever",
+      "labelZh": "無論甚麼",
+      "labelEn": "Whatever",
+      "formula": "Whatever + subject + verb, main clause"
+    },
+    {
+      "id": "ss83-formula-whichever",
+      "labelZh": "無論哪一個",
+      "labelEn": "Whichever",
+      "formula": "Whichever + singular noun + subject + verb, main clause"
+    },
+    {
+      "id": "ss83-formula-however",
+      "labelZh": "無論多麼／無論怎樣",
+      "labelEn": "However",
+      "formula": "However + adjective/adverb + subject + verb, main clause"
+    },
+    {
+      "id": "ss83-formula-whoever",
+      "labelZh": "無論誰",
+      "labelEn": "Whoever",
+      "formula": "Whoever + verb, main clause"
+    },
+    {
+      "id": "ss83-formula-wherever",
+      "labelZh": "無論哪裏",
+      "labelEn": "Wherever",
+      "formula": "Wherever + subject + verb, main clause"
+    }
+  ],
+  "example": "Whenever the evidence changes, responsible people adjust their view.",
+  "exampleZh": "每當證據改變，負責任的人就會調整自己的看法。",
+  "examples": [
+    {
+      "id": "ss83-example-whenever",
+      "en": "Whenever the evidence changes, responsible people adjust their view.",
+      "zh": "每當證據改變，負責任的人就會調整自己的看法。",
+      "highlight": "Whenever"
+    },
+    {
+      "id": "ss83-example-whatever",
+      "en": "Whatever you decide, explain the reason clearly.",
+      "zh": "無論你作出甚麼決定，都要清楚說明原因。",
+      "highlight": "Whatever"
+    },
+    {
+      "id": "ss83-example-however",
+      "en": "However difficult the task seems, it becomes manageable when broken into steps.",
+      "zh": "無論任務看起來多困難，只要把它分成步驟，就會變得容易處理。",
+      "highlight": "However difficult"
+    }
+  ],
+  "meaning": {
+    "zh": "這些句型通常用來表達「無論……」、「任何……」或「每當……」的意思。"
+  },
+  "rules": [
+    {
+      "id": "ss83-rule-01",
+      "zh": "六個句型分別表示時間、事物或想法、有限選擇、程度或方式、人物及地點。",
+      "en": "The six structures refer respectively to time, things or ideas, limited choices, degree or manner, people and places."
+    },
+    {
+      "id": "ss83-rule-02",
+      "zh": "選擇沒有明確範圍時使用 whatever；選擇來自已知或有限組別時使用 whichever。",
+      "en": "Use whatever for choices without a clear limit and whichever for a known or limited group."
+    },
+    {
+      "id": "ss83-rule-03",
+      "zh": "However 後面接形容詞或副詞。",
+      "en": "However is followed by an adjective or adverb."
+    },
+    {
+      "id": "ss83-rule-04",
+      "zh": "Whenever 引出未來情況時，使用現在式而不是 will。",
+      "en": "Use the present tense after whenever for future situations."
+    },
+    {
+      "id": "ss83-rule-05",
+      "zh": "當 whoever 是動作的執行者時，後面通常使用單數動詞。",
+      "en": "When whoever performs the action, it is normally followed by a singular verb."
+    },
+    {
+      "id": "ss83-rule-06",
+      "zh": "Wh-ever 子句放在句首時使用逗號；主句在前時通常不需要逗號。",
+      "en": "Use a comma when the wh-ever clause comes first; a comma is normally unnecessary when the main clause comes first."
+    },
+    {
+      "id": "ss83-rule-07",
+      "zh": "正確拼法是 wherever，不是 whereever。",
+      "en": "The correct spelling is wherever, not whereever."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss83-benefit-01",
+      "zh": "每個句型都能清楚指出所談論的是時間、事物、選擇、人物、地點還是程度。",
+      "en": "It makes the exact meaning clearer."
+    },
+    {
+      "id": "ss83-benefit-02",
+      "zh": "這些句型可以把一個情況和相應結果自然地連接在同一句中。",
+      "en": "It joins two related ideas naturally."
+    },
+    {
+      "id": "ss83-benefit-03",
+      "zh": "它們能代替「誰並不重要」、「在任何地方」或「每一次」等較長說法。",
+      "en": "It shortens repeated explanations."
+    },
+    {
+      "id": "ss83-benefit-04",
+      "zh": "Whatever you decide… 和 However difficult it is… 等句型可成為現成的說話框架。",
+      "en": "It provides a useful speaking frame."
+    },
+    {
+      "id": "ss83-benefit-05",
+      "zh": "它能先承認不同情況或可能性，再清楚指出主要結論不變。",
+      "en": "It helps you express a firm or balanced position."
+    },
+    {
+      "id": "ss83-benefit-06",
+      "zh": "它讓你可以用時間、選擇、程度、人物或地點開始句子，避免每句都以主語開始。",
+      "en": "It gives your sentences more variety."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using whenever, whatever, whichever, however, whoever or wherever.",
+      "Keep the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 whenever、whatever、whichever、however、whoever 或 wherever 改寫以下句子。",
+      "答案必須保留原句的意思。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss83-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Every time I feel tired, I take a short break.",
+      "promptZh": "每當我感到疲倦，我便休息一會。",
+      "starter": "Whenever",
+      "answer": "Whenever I feel tired, I take a short break.",
+      "answerZh": "每當我感到疲倦，我便休息一會。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever I feel tired, I take a short break."
+    },
+    {
+      "id": "ss83-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It does not matter what you choose. I will support you.",
+      "promptZh": "你選擇甚麼並不重要。我都會支持你。",
+      "starter": "Whatever",
+      "answer": "Whatever you choose, I will support you.",
+      "answerZh": "無論你選擇甚麼，我都會支持你。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever you choose, I will support you."
+    },
+    {
+      "id": "ss83-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You may borrow any one of these books, but you must return it on time.",
+      "promptZh": "你可以借這些書中的任何一本，但必須準時歸還。",
+      "starter": "Whichever",
+      "answer": "Whichever book you borrow, return it on time.",
+      "answerZh": "無論你借哪一本書，都要準時歸還。",
+      "answerZhSource": "pdf",
+      "highlight": "Whichever book you borrow, return it on time."
+    },
+    {
+      "id": "ss83-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Maya may be very busy, but she still calls her grandmother.",
+      "promptZh": "瑪雅可能非常忙，但她仍會致電祖母。",
+      "starter": "However",
+      "answer": "However busy Maya is, she calls her grandmother.",
+      "answerZh": "無論瑪雅多忙，她都會致電祖母。",
+      "answerZhSource": "pdf",
+      "highlight": "However busy Maya is, she calls her grandmother."
+    },
+    {
+      "id": "ss83-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Any person who finishes first can leave the room.",
+      "promptZh": "任何最先完成的人都可以離開房間。",
+      "starter": "Whoever",
+      "answer": "Whoever finishes first can leave the room.",
+      "answerZh": "無論誰最先完成，都可以離開房間。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever finishes first can leave the room."
+    },
+    {
+      "id": "ss83-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We take a map to every place we travel to.",
+      "promptZh": "我們每到一個旅行地點都會帶備地圖。",
+      "starter": "Wherever",
+      "answer": "Wherever we travel, we take a map.",
+      "answerZh": "無論我們到哪裏旅行，都會帶備地圖。",
+      "answerZhSource": "pdf",
+      "highlight": "Wherever we travel, we take a map."
+    },
+    {
+      "id": "ss83-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Each time the bell rings, the students line up.",
+      "promptZh": "每次鐘聲響起，學生便會排隊。",
+      "starter": "Whenever",
+      "answer": "Whenever the bell rings, the students line up.",
+      "answerZh": "每當鐘聲響起，學生便會排隊。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever the bell rings, the students line up."
+    },
+    {
+      "id": "ss83-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "No matter what happens, stay calm.",
+      "promptZh": "無論發生甚麼事，都要保持冷靜。",
+      "starter": "Whatever",
+      "answer": "Whatever happens, stay calm.",
+      "answerZh": "無論發生甚麼事，都要保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever happens, stay calm."
+    },
+    {
+      "id": "ss83-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It does not matter which seat you take. You will have a clear view.",
+      "promptZh": "你坐哪個座位並不重要。你都會看得很清楚。",
+      "starter": "Whichever",
+      "answer": "Whichever seat you take, you will have a clear view.",
+      "answerZh": "無論你坐哪個座位，都會看得很清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Whichever seat you take, you will have a clear view."
+    },
+    {
+      "id": "ss83-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo’s dog follows him to every place he goes.",
+      "promptZh": "里奧的狗會跟着他到每一個他去的地方。",
+      "starter": "Wherever",
+      "answer": "Wherever Leo goes, his dog follows him.",
+      "answerZh": "無論里奧到哪裏，他的狗都會跟着他。",
+      "answerZhSource": "pdf",
+      "highlight": "Wherever Leo goes, his dog follows him."
+    },
+    {
+      "id": "ss83-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Even if you walk very slowly, you will reach the station if you keep moving.",
+      "promptZh": "即使你走得非常慢，只要繼續前進，仍會到達車站。",
+      "starter": "However",
+      "answer": "However slowly you walk, you will reach the station if you keep moving.",
+      "answerZh": "無論你走得多慢，只要繼續前進，仍會到達車站。",
+      "answerZhSource": "pdf",
+      "highlight": "However slowly you walk, you will reach the station if you keep moving."
+    },
+    {
+      "id": "ss83-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The person who answers correctly will get one point.",
+      "promptZh": "答對的人會獲得一分。",
+      "starter": "Whoever",
+      "answer": "Whoever answers correctly will get one point.",
+      "answerZh": "無論誰答對，都會獲得一分。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever answers correctly will get one point."
+    },
+    {
+      "id": "ss83-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Every time Amy visits the library, she borrows a mystery novel.",
+      "promptZh": "艾米每次到圖書館，都會借一本推理小說。",
+      "starter": "Whenever",
+      "answer": "Whenever Amy visits the library, she borrows a mystery novel.",
+      "answerZh": "每當艾米到圖書館，她都會借一本推理小說。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever Amy visits the library, she borrows a mystery novel."
+    },
+    {
+      "id": "ss83-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The players listen carefully to any advice the coach gives.",
+      "promptZh": "球員會仔細聆聽教練提出的任何建議。",
+      "starter": "Whatever",
+      "answer": "Whatever advice the coach gives, the players listen carefully.",
+      "answerZh": "無論教練提出甚麼建議，球員都會仔細聆聽。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever advice the coach gives, the players listen carefully."
+    },
+    {
+      "id": "ss83-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The price will be the same no matter which colour you select.",
+      "promptZh": "無論你選哪種顏色，價錢都一樣。",
+      "starter": "Whichever",
+      "answer": "Whichever colour you select, the price will be the same.",
+      "answerZh": "無論你選哪種顏色，價錢都一樣。",
+      "answerZhSource": "pdf",
+      "highlight": "Whichever colour you select, the price will be the same."
+    },
+    {
+      "id": "ss83-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "I will wait for you at any bus stop where you get off.",
+      "promptZh": "我會在你下車的任何一個巴士站等你。",
+      "starter": "Wherever",
+      "answer": "Wherever you get off the bus, I will wait for you.",
+      "answerZh": "無論你在哪個巴士站下車，我都會等你。",
+      "answerZhSource": "pdf",
+      "highlight": "Wherever you get off the bus, I will wait for you."
+    },
+    {
+      "id": "ss83-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Even if the water is extremely cold, Ben swims every morning.",
+      "promptZh": "即使水非常冷，本每天早上仍會游泳。",
+      "starter": "However",
+      "answer": "However cold the water is, Ben swims every morning.",
+      "answerZh": "無論水多冷，本每天早上都會游泳。",
+      "answerZhSource": "pdf",
+      "highlight": "However cold the water is, Ben swims every morning."
+    },
+    {
+      "id": "ss83-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ask the receptionist for anything you need.",
+      "promptZh": "你需要任何東西，都可以向接待員提出要求。",
+      "starter": "Whatever",
+      "answer": "Whatever you need, ask the receptionist.",
+      "answerZh": "無論你需要甚麼，都可以向接待員提出。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever you need, ask the receptionist."
+    },
+    {
+      "id": "ss83-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We will congratulate the players regardless of which team wins.",
+      "promptZh": "不論哪一隊勝出，我們都會祝賀球員。",
+      "starter": "Whichever",
+      "answer": "Whichever team wins, we will congratulate the players.",
+      "answerZh": "無論哪一隊勝出，我們都會祝賀球員。",
+      "answerZhSource": "pdf",
+      "highlight": "Whichever team wins, we will congratulate the players."
+    },
+    {
+      "id": "ss83-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Please take a message for any person who calls.",
+      "promptZh": "請替任何致電的人留言。",
+      "starter": "Whoever",
+      "answer": "Whoever calls, please take a message.",
+      "answerZh": "無論誰致電，都請留言。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever calls, please take a message."
+    },
+    {
+      "id": "ss83-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The workers continue the repairs every time the weather improves.",
+      "promptZh": "天氣每次好轉，工人便繼續維修工作。",
+      "starter": "Whenever",
+      "answer": "Whenever the weather improves, the workers continue the repairs.",
+      "answerZh": "每當天氣好轉，工人便繼續維修工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever the weather improves, the workers continue the repairs."
+    },
+    {
+      "id": "ss83-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya keeps the receipt for anything she buys.",
+      "promptZh": "瑪雅會保留她所購買任何物品的收據。",
+      "starter": "Whatever",
+      "answer": "Whatever Maya buys, she keeps the receipt.",
+      "answerZh": "無論瑪雅買甚麼，她都會保留收據。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever Maya buys, she keeps the receipt."
+    },
+    {
+      "id": "ss83-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You may use any computer that is free.",
+      "promptZh": "你可以使用任何一部空置的電腦。",
+      "starter": "You",
+      "answer": "You may use whichever computer is free.",
+      "answerZh": "你可以使用任何一部空置的電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "You may use whichever computer is free."
+    },
+    {
+      "id": "ss83-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No matter how carefully Noah plans, unexpected problems can still occur.",
+      "promptZh": "無論諾亞計劃得多仔細，仍可能出現意料之外的問題。",
+      "starter": "However",
+      "answer": "However carefully Noah plans, unexpected problems can still occur.",
+      "answerZh": "無論諾亞計劃得多仔細，仍可能出現意料之外的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "However carefully Noah plans, unexpected problems can still occur."
+    },
+    {
+      "id": "ss83-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The person who is responsible must report the mistake.",
+      "promptZh": "負責的人必須報告這個錯誤。",
+      "starter": "Whoever",
+      "answer": "Whoever is responsible must report the mistake.",
+      "answerZh": "無論誰需要負責，都必須報告這個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever is responsible must report the mistake."
+    },
+    {
+      "id": "ss83-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The rescue team will search in any place where the signal leads them.",
+      "promptZh": "救援隊會搜尋訊號引領他們前往的任何地方。",
+      "starter": "The",
+      "answer": "The rescue team will search wherever the signal leads them.",
+      "answerZh": "救援隊會搜尋訊號引領他們前往的任何地方。",
+      "answerZhSource": "pdf",
+      "highlight": "The rescue team will search wherever the signal leads them."
+    },
+    {
+      "id": "ss83-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Wear safety glasses every time you use this machine.",
+      "promptZh": "每次使用這部機器時，都要戴上護目鏡。",
+      "starter": "Whenever",
+      "answer": "Whenever you use this machine, wear safety glasses.",
+      "answerZh": "每當你使用這部機器，都要戴上護目鏡。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever you use this machine, wear safety glasses."
+    },
+    {
+      "id": "ss83-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The manager will check the facts regardless of the explanation Daniel offers.",
+      "promptZh": "不論丹尼爾提出甚麼解釋，經理都會核實事實。",
+      "starter": "Whatever",
+      "answer": "Whatever explanation Daniel offers, the manager will check the facts.",
+      "answerZh": "無論丹尼爾提出甚麼解釋，經理都會核實事實。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever explanation Daniel offers, the manager will check the facts."
+    },
+    {
+      "id": "ss83-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The journey lasts about an hour regardless of which route the driver takes.",
+      "promptZh": "不論司機選哪條路線，車程都大約一小時。",
+      "starter": "Whichever",
+      "answer": "Whichever route the driver takes, the journey lasts about an hour.",
+      "answerZh": "無論司機選哪條路線，車程都大約一小時。",
+      "answerZhSource": "pdf",
+      "highlight": "Whichever route the driver takes, the journey lasts about an hour."
+    },
+    {
+      "id": "ss83-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The school must fix the broken lift regardless of how expensive the repair is.",
+      "promptZh": "不論維修費多昂貴，學校都必須修理損壞的升降機。",
+      "starter": "However",
+      "answer": "However expensive the repair is, the school must fix the broken lift.",
+      "answerZh": "無論維修費多昂貴，學校都必須修理損壞的升降機。",
+      "answerZhSource": "pdf",
+      "highlight": "However expensive the repair is, the school must fix the broken lift."
+    },
+    {
+      "id": "ss83-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The person who left this note forgot to sign it.",
+      "promptZh": "留下這張字條的人忘記簽名。",
+      "starter": "Whoever",
+      "answer": "Whoever left this note forgot to sign it.",
+      "answerZh": "無論是誰留下這張字條，那人都忘記了簽名。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever left this note forgot to sign it."
+    },
+    {
+      "id": "ss83-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "It does not matter where the medicine is stored; it must be kept away from children.",
+      "promptZh": "藥物存放在哪裏並不重要；它必須放在兒童接觸不到的地方。",
+      "starter": "Wherever",
+      "answer": "Wherever the medicine is stored, it must be kept away from children.",
+      "answerZh": "無論藥物存放在哪裏，都必須放在兒童接觸不到的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "Wherever the medicine is stored, it must be kept away from children."
+    },
+    {
+      "id": "ss83-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The lights switch on every time someone enters the corridor.",
+      "promptZh": "每次有人走進走廊，燈便會亮起。",
+      "starter": "The",
+      "answer": "The lights switch on whenever someone enters the corridor.",
+      "answerZh": "每當有人走進走廊，燈便會亮起。",
+      "answerZhSource": "pdf",
+      "highlight": "The lights switch on whenever someone enters the corridor."
+    },
+    {
+      "id": "ss83-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee must explain the reasons for any decision it makes.",
+      "promptZh": "委員會必須為它作出的任何決定解釋原因。",
+      "starter": "Whatever",
+      "answer": "Whatever decision the committee makes, it must explain the reasons.",
+      "answerZh": "無論委員會作出甚麼決定，都必須解釋原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever decision the committee makes, it must explain the reasons."
+    },
+    {
+      "id": "ss83-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You may choose any of the available payment methods. Select the one that is most convenient for you.",
+      "promptZh": "你可以在現有的付款方式中任選一種。請選擇對你最方便的一種。",
+      "starter": "Choose",
+      "answer": "Choose whichever payment method is most convenient for you.",
+      "answerZh": "請選擇對你最方便的任何一種付款方式。",
+      "answerZhSource": "pdf",
+      "highlight": "Choose whichever payment method is most convenient for you."
+    },
+    {
+      "id": "ss83-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The audience should examine the evidence no matter how confidently the speaker presents the claim.",
+      "promptZh": "不論講者多有自信地提出這項主張，聽眾都應檢視證據。",
+      "starter": "However",
+      "answer": "However confidently the speaker presents the claim, the audience should examine the evidence.",
+      "answerZh": "無論講者多有自信地提出這項主張，聽眾都應檢視證據。",
+      "answerZhSource": "pdf",
+      "highlight": "However confidently the speaker presents the claim, the audience should examine the evidence."
+    },
+    {
+      "id": "ss83-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Any person who receives the parcel should check the address.",
+      "promptZh": "收到包裹的人應核對地址。",
+      "starter": "Whoever",
+      "answer": "Whoever receives the parcel should check the address.",
+      "answerZh": "無論誰收到包裹，都應核對地址。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever receives the parcel should check the address."
+    },
+    {
+      "id": "ss83-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We can hold the meeting in any place that has enough space.",
+      "promptZh": "我們可以在任何有足夠空間的地方舉行會議。",
+      "starter": "We",
+      "answer": "We can hold the meeting wherever there is enough space.",
+      "answerZh": "我們可以在任何有足夠空間的地方舉行會議。",
+      "answerZhSource": "pdf",
+      "highlight": "We can hold the meeting wherever there is enough space."
+    },
+    {
+      "id": "ss83-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A complaint is recorded in the system every time it is received.",
+      "promptZh": "每次收到投訴，投訴都會記錄在系統內。",
+      "starter": "Whenever",
+      "answer": "Whenever a complaint is received, it is recorded in the system.",
+      "answerZh": "每當收到投訴，投訴都會記錄在系統內。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever a complaint is received, it is recorded in the system."
+    },
+    {
+      "id": "ss83-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The final result may be good or bad, but the team has learnt from the project in either case.",
+      "promptZh": "最終結果可能好，也可能不好，但無論如何，團隊都從這個項目中汲取了經驗。",
+      "starter": "Whatever",
+      "answer": "Whatever the final result may be, the team has learnt from the project.",
+      "answerZh": "無論最終結果如何，團隊都從這個項目中汲取了經驗。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever the final result may be, the team has learnt from the project."
+    },
+    {
+      "id": "ss83-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new manager will need time to learn the role regardless of which candidate the company appoints.",
+      "promptZh": "公司不論委任哪位候選人，新任經理都需要時間熟習職務。",
+      "starter": "Whichever",
+      "answer": "Whichever candidate the company appoints, the new manager will need time to learn the role.",
+      "answerZh": "無論公司委任哪位候選人，新任經理都需要時間熟習職務。",
+      "answerZhSource": "pdf",
+      "highlight": "Whichever candidate the company appoints, the new manager will need time to learn the role."
+    },
+    {
+      "id": "ss83-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The programme should protect essential services regardless of how limited the budget is.",
+      "promptZh": "不論預算多有限，該計劃仍應保障基本服務。",
+      "starter": "However",
+      "answer": "However limited the budget is, the programme should protect essential services.",
+      "answerZh": "無論預算多有限，該計劃都應保障基本服務。",
+      "answerZhSource": "pdf",
+      "highlight": "However limited the budget is, the programme should protect essential services."
+    },
+    {
+      "id": "ss83-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Any person who uses the shared kitchen is expected to clean it afterwards.",
+      "promptZh": "使用共用廚房的人都應在之後清潔廚房。",
+      "starter": "Whoever",
+      "answer": "Whoever uses the shared kitchen is expected to clean it afterwards.",
+      "answerZh": "無論誰使用共用廚房，都應在之後清潔廚房。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever uses the shared kitchen is expected to clean it afterwards."
+    },
+    {
+      "id": "ss83-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The researcher must record the result, regardless of what it shows.",
+      "promptZh": "不論結果顯示甚麼，研究人員都必須記錄該結果。",
+      "starter": "The",
+      "answer": "The researcher must record the result whatever it shows.",
+      "answerZh": "無論結果顯示甚麼，研究人員都必須記錄該結果。",
+      "answerZhSource": "pdf",
+      "highlight": "The researcher must record the result whatever it shows."
+    },
+    {
+      "id": "ss83-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It does not matter where the new clinic is built. It should be easy to reach by public transport.",
+      "promptZh": "新診所建在哪裏並不重要；它都應該方便乘搭公共交通前往。",
+      "starter": "Wherever",
+      "answer": "Wherever the new clinic is built, it should be easy to reach by public transport.",
+      "answerZh": "無論新診所建在哪裏，都應方便乘搭公共交通前往。",
+      "answerZhSource": "pdf",
+      "highlight": "Wherever the new clinic is built, it should be easy to reach by public transport."
+    },
+    {
+      "id": "ss83-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Responsible decision-makers should reconsider their position each time new evidence appears.",
+      "promptZh": "每次出現新證據，負責任的決策者都應重新考慮自己的立場。",
+      "starter": "Whenever",
+      "answer": "Whenever new evidence appears, responsible decision-makers should reconsider their position.",
+      "answerZh": "每當出現新證據，負責任的決策者都應重新考慮自己的立場。",
+      "answerZhSource": "pdf",
+      "highlight": "Whenever new evidence appears, responsible decision-makers should reconsider their position."
+    },
+    {
+      "id": "ss83-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The council should respond with clear information to any concerns raised by residents.",
+      "promptZh": "議會應以清晰資料回應居民提出的任何憂慮。",
+      "starter": "Whatever",
+      "answer": "Whatever concerns residents raise, the council should respond with clear information.",
+      "answerZh": "無論居民提出甚麼憂慮，議會都應以清晰資料回應。",
+      "answerZhSource": "pdf",
+      "highlight": "Whatever concerns residents raise, the council should respond with clear information."
+    },
+    {
+      "id": "ss83-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The team must publish a realistic timetable regardless of which proposal receives approval.",
+      "promptZh": "不論哪份建議獲得批准，團隊都必須公布切實可行的時間表。",
+      "starter": "Whichever",
+      "answer": "Whichever proposal receives approval, the team must publish a realistic timetable.",
+      "answerZh": "無論哪份建議獲得批准，團隊都必須公布切實可行的時間表。",
+      "answerZhSource": "pdf",
+      "highlight": "Whichever proposal receives approval, the team must publish a realistic timetable."
+    },
+    {
+      "id": "ss83-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Both sides should continue to speak respectfully no matter how serious the disagreement becomes.",
+      "promptZh": "不論分歧變得多嚴重，雙方仍應繼續互相尊重地溝通。",
+      "starter": "However",
+      "answer": "However serious the disagreement becomes, both sides should continue to speak respectfully.",
+      "answerZh": "無論分歧變得多嚴重，雙方都應繼續互相尊重地溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "However serious the disagreement becomes, both sides should continue to speak respectfully."
+    },
+    {
+      "id": "ss83-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Any person who leads the project must make sure that support is available in every place where problems arise.",
+      "promptZh": "領導這個項目的人必須確保在出現問題的每個地方都能獲得支援。",
+      "starter": "Whoever",
+      "answer": "Whoever leads the project must make sure that support is available wherever problems arise.",
+      "answerZh": "無論誰領導這個項目，都必須確保無論哪裏出現問題，都能獲得支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Whoever leads the project must make sure that support is available wherever problems arise."
+    }
+  ]
+}

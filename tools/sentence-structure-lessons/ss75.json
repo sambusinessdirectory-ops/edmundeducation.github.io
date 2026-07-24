@@ -1,0 +1,1174 @@
+{
+  "id": "ss75",
+  "order": 75,
+  "slug": "sentence-structure-75",
+  "title": "「Not to mention」句型",
+  "titleZh": "「Not to mention」句",
+  "titleEn": "Using Not to mention to add another relevant point",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 75 - 「Not to mention 句」.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Main statement + , not to mention + noun / noun phrase",
+  "formulas": [
+    {
+      "id": "ss75-formula-noun",
+      "labelZh": "加入名詞或名詞詞組",
+      "labelEn": "Add a noun or noun phrase",
+      "formula": "Main statement + , not to mention + noun / noun phrase"
+    },
+    {
+      "id": "ss75-formula-action",
+      "labelZh": "加入另一項行動",
+      "labelEn": "Add another action",
+      "formula": "Main statement + , not to mention + verb-ing phrase"
+    },
+    {
+      "id": "ss75-formula-adjective",
+      "labelZh": "加入另一項特點",
+      "labelEn": "Add another characteristic",
+      "formula": "Main statement + , not to mention + adjective / adjective phrase"
+    },
+    {
+      "id": "ss75-formula-fact",
+      "labelZh": "加入一項完整事實",
+      "labelEn": "Add a complete fact",
+      "formula": "Main statement + , not to mention + the fact that + clause"
+    }
+  ],
+  "example": "He can speak English and Spanish, not to mention his native French.",
+  "exampleZh": "他會說英文和西班牙文，更不用說他的母語法文了。",
+  "examples": [
+    {
+      "id": "ss75-example-noun",
+      "en": "He can speak English and Spanish, not to mention his native French.",
+      "zh": "他會說英文和西班牙文，更不用說他的母語法文了。",
+      "highlight": "not to mention his native French"
+    },
+    {
+      "id": "ss75-example-action",
+      "en": "She has to manage the entire team, not to mention handling all customer complaints.",
+      "zh": "她必須管理整個團隊，更不用說還要處理所有顧客投訴了。",
+      "highlight": "not to mention handling"
+    },
+    {
+      "id": "ss75-example-adjective",
+      "en": "The flat is small, not to mention expensive.",
+      "zh": "這個單位很小，更不用說價錢還很昂貴了。",
+      "highlight": "not to mention expensive"
+    }
+  ],
+  "meaning": {
+    "zh": "Not to mention 用來在第一項資料後加入另一項相關資料；後面的資料通常更值得注意、更令人意外，或能進一步加強前面的意思。"
+  },
+  "rules": [
+    {
+      "id": "ss75-rule-01",
+      "zh": "Not to mention 是固定詞組，不要改成 not mention、not mentioning 或 not to mentioning。",
+      "en": "Not to mention is a fixed expression.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-rule-02",
+      "zh": "Not to mention 前面通常使用逗號。",
+      "en": "A comma is normally used before not to mention.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-rule-03",
+      "zh": "後面的資料必須與前面的資料相關，而不是突然轉換話題。",
+      "en": "The information after not to mention must be related to the first point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-rule-04",
+      "zh": "當 not to mention 後面是一項行動時，本練習使用 not to mention + verb-ing。",
+      "en": "In this exercise, use a verb-ing phrase to add another action.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-rule-05",
+      "zh": "Not to mention 主要加入另一項相關資料；let alone 通常包含更明顯的程度差距。",
+      "en": "Not to mention adds another relevant point; let alone normally expresses a clearer scale of difficulty or possibility.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss75-benefit-01",
+      "zh": "這個句型可以加入另一項更值得注意的資料，令你的意思更有說服力。",
+      "en": "It adds a stronger supporting point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-benefit-02",
+      "zh": "你可以把兩項相關資料放進同一句，不需要寫成數個短句。",
+      "en": "It combines related ideas.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-benefit-03",
+      "zh": "它能避免反覆使用 and、also 或 in addition，使句式更多變。",
+      "en": "It avoids repeatedly using and also.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-benefit-04",
+      "zh": "放在 not to mention 後面的資料會得到較大的注意。",
+      "en": "It places emphasis on the second point.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss75-benefit-05",
+      "zh": "它可用於日常對話、作文、報告和簡報，幫助你自然地發展一個觀點。",
+      "en": "It is useful in speaking and writing.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using not to mention. Keep the original meaning unchanged.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 not to mention 改寫以下句子，並保持原意不變。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss75-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Liam can cook simple meals, and he can also bake bread.",
+      "promptZh": "利亞姆會煮簡單的飯菜，而且還會烘焙麵包。",
+      "starter": "Liam",
+      "answer": "Liam can cook simple meals, not to mention baking bread.",
+      "answerZh": "利亞姆會煮簡單的飯菜，更不用說還會烘焙麵包了。",
+      "answerZhSource": "pdf",
+      "highlight": "Liam can cook simple meals, not to mention baking bread."
+    },
+    {
+      "id": "ss75-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Emma owns a laptop and also a tablet.",
+      "promptZh": "艾瑪擁有一部手提電腦，還有一部平板電腦。",
+      "starter": "Emma",
+      "answer": "Emma owns a laptop, not to mention a tablet.",
+      "answerZh": "艾瑪擁有一部手提電腦，更不用說還有一部平板電腦了。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma owns a laptop, not to mention a tablet."
+    },
+    {
+      "id": "ss75-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "This bag is heavy and also expensive.",
+      "promptZh": "這個袋子很重，而且也很昂貴。",
+      "starter": "This",
+      "answer": "This bag is heavy, not to mention expensive.",
+      "answerZh": "這個袋子很重，更不用說還很昂貴了。",
+      "answerZhSource": "pdf",
+      "highlight": "This bag is heavy, not to mention expensive."
+    },
+    {
+      "id": "ss75-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Noah cleaned his bedroom and also washed the windows.",
+      "promptZh": "諾亞清潔了睡房，還把窗戶洗乾淨。",
+      "starter": "Noah",
+      "answer": "Noah cleaned his bedroom, not to mention washing the windows.",
+      "answerZh": "諾亞清潔了睡房，更不用說還把窗戶洗乾淨了。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah cleaned his bedroom, not to mention washing the windows."
+    },
+    {
+      "id": "ss75-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Our school has a library and also a swimming pool.",
+      "promptZh": "我們的學校設有圖書館，還有游泳池。",
+      "starter": "Our",
+      "answer": "Our school has a library, not to mention a swimming pool.",
+      "answerZh": "我們的學校設有圖書館，更不用說還有游泳池了。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school has a library, not to mention a swimming pool."
+    },
+    {
+      "id": "ss75-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Maya studies English and also practises Spanish every day.",
+      "promptZh": "瑪雅學習英語，還每天練習西班牙語。",
+      "starter": "Maya",
+      "answer": "Maya studies English, not to mention practising Spanish every day.",
+      "answerZh": "瑪雅學習英語，更不用說還每天練習西班牙語了。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya studies English, not to mention practising Spanish every day."
+    },
+    {
+      "id": "ss75-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The café sells sandwiches and also fresh cakes.",
+      "promptZh": "這間咖啡店售賣三文治，還有新鮮蛋糕。",
+      "starter": "The",
+      "answer": "The café sells sandwiches, not to mention fresh cakes.",
+      "answerZh": "這間咖啡店售賣三文治，更不用說還有新鮮蛋糕了。",
+      "answerZhSource": "pdf",
+      "highlight": "The café sells sandwiches, not to mention fresh cakes."
+    },
+    {
+      "id": "ss75-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I have to finish my homework and also prepare for tomorrow’s test.",
+      "promptZh": "我必須完成家課，還要準備明天的測驗。",
+      "starter": "I",
+      "answer": "I have to finish my homework, not to mention preparing for tomorrow’s test.",
+      "answerZh": "我必須完成家課，更不用說還要準備明天的測驗了。",
+      "answerZhSource": "pdf",
+      "highlight": "I have to finish my homework, not to mention preparing for tomorrow’s test."
+    },
+    {
+      "id": "ss75-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben can run five kilometres, and he can also cycle twenty kilometres.",
+      "promptZh": "本可以跑五公里，還可以踏單車二十公里。",
+      "starter": "Ben",
+      "answer": "Ben can run five kilometres, not to mention cycling twenty kilometres.",
+      "answerZh": "本可以跑五公里，更不用說還可以踏單車二十公里了。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben can run five kilometres, not to mention cycling twenty kilometres."
+    },
+    {
+      "id": "ss75-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Why is the job tiring? Workers have to stand all day and also carry heavy boxes.",
+      "promptZh": "為甚麼這份工作很累人？工人要整天站立，還要搬運沉重的箱子。",
+      "starter": "Workers",
+      "answer": "Workers have to stand all day, not to mention carrying heavy boxes.",
+      "answerZh": "工人要整天站立，更不用說還要搬運沉重的箱子了。",
+      "answerZhSource": "pdf",
+      "highlight": "Workers have to stand all day, not to mention carrying heavy boxes."
+    },
+    {
+      "id": "ss75-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah pays the rent as well as all the electricity bills.",
+      "promptZh": "莎拉要交租，也要支付所有電費。",
+      "starter": "Sarah",
+      "answer": "Sarah pays the rent, not to mention all the electricity bills.",
+      "answerZh": "莎拉要交租，更不用說還要支付所有電費了。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah pays the rent, not to mention all the electricity bills."
+    },
+    {
+      "id": "ss75-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "In addition to teaching three classes, Mr Lee runs the school club.",
+      "promptZh": "除了教授三個班別外，李老師還負責校內學會。",
+      "starter": "Mr",
+      "answer": "Mr Lee teaches three classes, not to mention running the school club.",
+      "answerZh": "李老師教授三個班別，更不用說還要負責校內學會了。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Lee teaches three classes, not to mention running the school club."
+    },
+    {
+      "id": "ss75-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The trip was long and, on top of that, uncomfortable.",
+      "promptZh": "這趟旅程很漫長，而且還很不舒適。",
+      "starter": "The",
+      "answer": "The trip was long, not to mention uncomfortable.",
+      "answerZh": "這趟旅程很漫長，更不用說還很不舒適了。",
+      "answerZhSource": "pdf",
+      "highlight": "The trip was long, not to mention uncomfortable."
+    },
+    {
+      "id": "ss75-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Daniel packed clothes, food and also a first-aid kit.",
+      "promptZh": "丹尼爾收拾了衣物和食物，還帶上急救箱。",
+      "starter": "Daniel",
+      "answer": "Daniel packed clothes and food, not to mention a first-aid kit.",
+      "answerZh": "丹尼爾收拾了衣物和食物，更不用說還帶上急救箱了。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel packed clothes and food, not to mention a first-aid kit."
+    },
+    {
+      "id": "ss75-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe not only designed the poster but also printed 200 copies.",
+      "promptZh": "克洛伊不但設計了海報，還印製了二百份。",
+      "starter": "Chloe",
+      "answer": "Chloe designed the poster, not to mention printing 200 copies.",
+      "answerZh": "克洛伊設計了海報，更不用說還印製了二百份了。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe designed the poster, not to mention printing 200 copies."
+    },
+    {
+      "id": "ss75-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The phone is cheap. It also has a very good camera.",
+      "promptZh": "這部手機價錢便宜，而且相機質素也很好。",
+      "starter": "The",
+      "answer": "The phone is cheap, not to mention its very good camera.",
+      "answerZh": "這部手機價錢便宜，更不用說它的相機質素也很好了。",
+      "answerZhSource": "pdf",
+      "highlight": "The phone is cheap, not to mention its very good camera."
+    },
+    {
+      "id": "ss75-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Apart from arranging the meeting, Olivia wrote the full report.",
+      "promptZh": "除了安排會議外，奧莉花還撰寫了完整報告。",
+      "starter": "Olivia",
+      "answer": "Olivia arranged the meeting, not to mention writing the full report.",
+      "answerZh": "奧莉花安排了會議，更不用說還撰寫了完整報告了。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia arranged the meeting, not to mention writing the full report."
+    },
+    {
+      "id": "ss75-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Leo has visited Japan, Korea and even Iceland.",
+      "promptZh": "里奧到訪過日本和韓國，甚至還去過冰島。",
+      "starter": "Leo",
+      "answer": "Leo has visited Japan and Korea, not to mention Iceland.",
+      "answerZh": "里奧到訪過日本和韓國，更不用說還去過冰島了。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo has visited Japan and Korea, not to mention Iceland."
+    },
+    {
+      "id": "ss75-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We need to buy the train tickets. We also need to book a hotel.",
+      "promptZh": "我們需要購買火車票，也需要預訂酒店。",
+      "starter": "We",
+      "answer": "We need to buy the train tickets, not to mention booking a hotel.",
+      "answerZh": "我們需要購買火車票，更不用說還要預訂酒店了。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to buy the train tickets, not to mention booking a hotel."
+    },
+    {
+      "id": "ss75-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Besides being noisy, the flat is extremely small.",
+      "promptZh": "這個單位不但嘈吵，而且非常狹小。",
+      "starter": "The",
+      "answer": "The flat is noisy, not to mention extremely small.",
+      "answerZh": "這個單位很嘈吵，更不用說還非常狹小了。",
+      "answerZhSource": "pdf",
+      "highlight": "The flat is noisy, not to mention extremely small."
+    },
+    {
+      "id": "ss75-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The storm damaged several roads and also destroyed a bridge.",
+      "promptZh": "暴風雨破壞了數條道路，還摧毀了一座橋。",
+      "starter": "The",
+      "answer": "The storm damaged several roads, not to mention destroying a bridge.",
+      "answerZh": "暴風雨破壞了數條道路，更不用說還摧毀了一座橋了。",
+      "answerZhSource": "pdf",
+      "highlight": "The storm damaged several roads, not to mention destroying a bridge."
+    },
+    {
+      "id": "ss75-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Aisha must answer emails, handle orders and train two new staff members.",
+      "promptZh": "艾莎必須回覆電郵、處理訂單，並培訓兩名新員工。",
+      "starter": "Aisha",
+      "answer": "Aisha must answer emails and handle orders, not to mention training two new staff members.",
+      "answerZh": "艾莎必須回覆電郵和處理訂單，更不用說還要培訓兩名新員工了。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha must answer emails and handle orders, not to mention training two new staff members."
+    },
+    {
+      "id": "ss75-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The museum offers free entry and also provides guided tours.",
+      "promptZh": "博物館提供免費入場，也提供導賞團。",
+      "starter": "The",
+      "answer": "The museum offers free entry, not to mention providing guided tours.",
+      "answerZh": "博物館提供免費入場，更不用說還提供導賞團了。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum offers free entry, not to mention providing guided tours."
+    },
+    {
+      "id": "ss75-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Jason had no time to eat lunch, and he certainly had no time to rest.",
+      "promptZh": "傑森連吃午餐的時間也沒有，當然更沒有時間休息。",
+      "starter": "Jason",
+      "answer": "Jason had no time to eat lunch, not to mention resting.",
+      "answerZh": "傑森連吃午餐的時間也沒有，更不用說休息了。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason had no time to eat lunch, not to mention resting."
+    },
+    {
+      "id": "ss75-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The old computer is slow. It also crashes frequently.",
+      "promptZh": "這部舊電腦運作緩慢，而且經常當機。",
+      "starter": "The",
+      "answer": "The old computer is slow, not to mention the fact that it crashes frequently.",
+      "answerZh": "這部舊電腦運作緩慢，更不用說它還經常當機了。",
+      "answerZhSource": "pdf",
+      "highlight": "The old computer is slow, not to mention the fact that it crashes frequently."
+    },
+    {
+      "id": "ss75-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why is the event difficult to organise? The organisers need many volunteers and also a large venue.",
+      "promptZh": "為甚麼這項活動難以籌辦？主辦者需要大量義工，還需要一個大型場地。",
+      "starter": "The",
+      "answer": "The organisers need many volunteers, not to mention a large venue.",
+      "answerZh": "主辦者需要大量義工，更不用說還需要一個大型場地了。",
+      "answerZhSource": "pdf",
+      "highlight": "The organisers need many volunteers, not to mention a large venue."
+    },
+    {
+      "id": "ss75-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace has to study for two exams as well as complete a science project.",
+      "promptZh": "格蕾絲要為兩個考試溫習，還要完成一個科學專題。",
+      "starter": "Grace",
+      "answer": "Grace has to study for two exams, not to mention completing a science project.",
+      "answerZh": "格蕾絲要為兩個考試溫習，更不用說還要完成一個科學專題了。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace has to study for two exams, not to mention completing a science project."
+    },
+    {
+      "id": "ss75-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The new policy affects teachers, parents and students too.",
+      "promptZh": "新政策影響教師和家長，也影響學生。",
+      "starter": "The",
+      "answer": "The new policy affects teachers and parents, not to mention students.",
+      "answerZh": "新政策影響教師和家長，更不用說學生了。",
+      "answerZhSource": "pdf",
+      "highlight": "The new policy affects teachers and parents, not to mention students."
+    },
+    {
+      "id": "ss75-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My brother cannot afford a new car, and a house is even further beyond his budget.",
+      "promptZh": "我哥哥連新車也負擔不起，買樓就更超出他的預算。",
+      "starter": "My",
+      "answer": "My brother cannot afford a new car, not to mention a house.",
+      "answerZh": "我哥哥連新車也負擔不起，更不用說買樓了。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother cannot afford a new car, not to mention a house."
+    },
+    {
+      "id": "ss75-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The restaurant was crowded, and the service was also very slow.",
+      "promptZh": "餐廳十分擠迫，而且服務也非常緩慢。",
+      "starter": "The",
+      "answer": "The restaurant was crowded, not to mention the very slow service.",
+      "answerZh": "餐廳十分擠迫，更不用說服務還非常緩慢了。",
+      "answerZhSource": "pdf",
+      "highlight": "The restaurant was crowded, not to mention the very slow service."
+    },
+    {
+      "id": "ss75-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The report was translated into Chinese, and it was also checked by a lawyer.",
+      "promptZh": "報告被翻譯成中文，並由律師核對。",
+      "starter": "The",
+      "answer": "The report was translated into Chinese, not to mention being checked by a lawyer.",
+      "answerZh": "報告被翻譯成中文，更不用說還由律師核對了。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was translated into Chinese, not to mention being checked by a lawyer."
+    },
+    {
+      "id": "ss75-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "If you organise the school fair, you will have to contact the stallholders and also arrange the tables.",
+      "promptZh": "如果你籌辦學校市集，便要聯絡攤位負責人，還要安排桌子。",
+      "starter": "If",
+      "answer": "If you organise the school fair, you will have to contact the stallholders, not to mention arranging the tables.",
+      "answerZh": "如果你籌辦學校市集，便要聯絡攤位負責人，更不用說還要安排桌子了。",
+      "answerZhSource": "pdf",
+      "highlight": "If you organise the school fair, you will have to contact the stallholders, not to mention arranging the tables."
+    },
+    {
+      "id": "ss75-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why was Nina proud? She won the race and broke the school record as well.",
+      "promptZh": "妮娜為甚麼感到自豪？她贏得比賽，還打破了學校紀錄。",
+      "starter": "Nina",
+      "answer": "Nina won the race, not to mention breaking the school record.",
+      "answerZh": "妮娜贏得了比賽，更不用說還打破了學校紀錄了。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina won the race, not to mention breaking the school record."
+    },
+    {
+      "id": "ss75-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital needs more nurses. It also needs newer equipment.",
+      "promptZh": "醫院需要更多護士，也需要更新的設備。",
+      "starter": "The",
+      "answer": "The hospital needs more nurses, not to mention newer equipment.",
+      "answerZh": "醫院需要更多護士，更不用說還需要更新的設備了。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital needs more nurses, not to mention newer equipment."
+    },
+    {
+      "id": "ss75-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Ethan has been working late. In addition, he has been answering calls at weekends.",
+      "promptZh": "伊森一直工作至很晚，此外還在週末接聽電話。",
+      "starter": "Ethan",
+      "answer": "Ethan has been working late, not to mention answering calls at weekends.",
+      "answerZh": "伊森一直工作至很晚，更不用說還要在週末接聽電話了。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan has been working late, not to mention answering calls at weekends."
+    },
+    {
+      "id": "ss75-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new app saves time and, more importantly, protects users’ personal information.",
+      "promptZh": "這個新應用程式能節省時間，更重要的是能保護用戶的個人資料。",
+      "starter": "The",
+      "answer": "The new app saves time, not to mention protecting users’ personal information.",
+      "answerZh": "這個新應用程式能節省時間，更不用說還能保護用戶的個人資料了。",
+      "answerZhSource": "pdf",
+      "highlight": "The new app saves time, not to mention protecting users’ personal information."
+    },
+    {
+      "id": "ss75-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The local council repaired the playground and also added lights for safety.",
+      "promptZh": "地區議會修葺了遊樂場，還加裝照明設備以提高安全性。",
+      "starter": "The",
+      "answer": "The local council repaired the playground, not to mention adding lights for safety.",
+      "answerZh": "地區議會修葺了遊樂場，更不用說還加裝了照明設備以提高安全性。",
+      "answerZhSource": "pdf",
+      "highlight": "The local council repaired the playground, not to mention adding lights for safety."
+    },
+    {
+      "id": "ss75-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The course includes weekly lessons, individual feedback and free practice tests.",
+      "promptZh": "這個課程包括每週課堂、個別意見和免費練習測驗。",
+      "starter": "The",
+      "answer": "The course includes weekly lessons and individual feedback, not to mention free practice tests.",
+      "answerZh": "這個課程包括每週課堂和個別意見，更不用說還有免費練習測驗了。",
+      "answerZhSource": "pdf",
+      "highlight": "The course includes weekly lessons and individual feedback, not to mention free practice tests."
+    },
+    {
+      "id": "ss75-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You should bring water as well as a hat for the walk.",
+      "promptZh": "你步行時應帶備食水，也要帶帽子。",
+      "starter": "You",
+      "answer": "You should bring water, not to mention a hat for the walk.",
+      "answerZh": "你步行時應帶備食水，更不用說還要帶帽子了。",
+      "answerZhSource": "pdf",
+      "highlight": "You should bring water, not to mention a hat for the walk."
+    },
+    {
+      "id": "ss75-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach is experienced and also very patient with beginners.",
+      "promptZh": "這位教練經驗豐富，而且對初學者很有耐性。",
+      "starter": "The",
+      "answer": "The coach is experienced, not to mention very patient with beginners.",
+      "answerZh": "這位教練經驗豐富，更不用說對初學者還很有耐性了。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach is experienced, not to mention very patient with beginners."
+    },
+    {
+      "id": "ss75-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our company has reduced waste, and it has also lowered its energy costs by 20 per cent.",
+      "promptZh": "我們的公司減少了廢物，能源成本也降低了百分之二十。",
+      "starter": "Our",
+      "answer": "Our company has reduced waste, not to mention the fact that it has lowered its energy costs by 20 per cent.",
+      "answerZh": "我們的公司減少了廢物，更不用說能源成本還降低了百分之二十。",
+      "answerZhSource": "pdf",
+      "highlight": "Our company has reduced waste, not to mention the fact that it has lowered its energy costs by 20 per cent."
+    },
+    {
+      "id": "ss75-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The public library stays open until 10 p.m. and provides free internet access as well.",
+      "promptZh": "公共圖書館開放至晚上十時，還提供免費上網服務。",
+      "starter": "The",
+      "answer": "The public library stays open until 10 p.m., not to mention providing free internet access.",
+      "answerZh": "公共圖書館開放至晚上十時，更不用說還提供免費上網服務了。",
+      "answerZhSource": "pdf",
+      "highlight": "The public library stays open until 10 p.m., not to mention providing free internet access."
+    },
+    {
+      "id": "ss75-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This charity supplies hot meals and also helps families find temporary housing.",
+      "promptZh": "這間慈善機構提供熱食，還協助家庭尋找臨時住所。",
+      "starter": "This",
+      "answer": "This charity supplies hot meals, not to mention helping families find temporary housing.",
+      "answerZh": "這間慈善機構提供熱食，更不用說還協助家庭尋找臨時住所了。",
+      "answerZhSource": "pdf",
+      "highlight": "This charity supplies hot meals, not to mention helping families find temporary housing."
+    },
+    {
+      "id": "ss75-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new rail line will shorten journey times, and it will also reduce traffic in the city centre.",
+      "promptZh": "新鐵路線將縮短行程時間，也會減少市中心的交通流量。",
+      "starter": "The",
+      "answer": "The new rail line will shorten journey times, not to mention reducing traffic in the city centre.",
+      "answerZh": "新鐵路線將縮短行程時間，更不用說還會減少市中心的交通流量了。",
+      "answerZhSource": "pdf",
+      "highlight": "The new rail line will shorten journey times, not to mention reducing traffic in the city centre."
+    },
+    {
+      "id": "ss75-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did the manager reject the plan? It was too expensive, and it would also take six months to complete.",
+      "promptZh": "經理為甚麼拒絕這個計劃？計劃成本太高，而且需要六個月才能完成。",
+      "starter": "The",
+      "answer": "The manager rejected the plan because it was too expensive, not to mention the fact that it would take six months to complete.",
+      "answerZh": "經理拒絕這個計劃，因為成本太高，更不用說還需要六個月才能完成了。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager rejected the plan because it was too expensive, not to mention the fact that it would take six months to complete."
+    },
+    {
+      "id": "ss75-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Sofia is responsible for checking every order, dealing with suppliers and training the new assistant.",
+      "promptZh": "蘇菲亞負責核對每張訂單、與供應商聯絡，以及培訓新助理。",
+      "starter": "Sofia",
+      "answer": "Sofia is responsible for checking every order and dealing with suppliers, not to mention training the new assistant.",
+      "answerZh": "蘇菲亞負責核對每張訂單和與供應商聯絡，更不用說還要培訓新助理了。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia is responsible for checking every order and dealing with suppliers, not to mention training the new assistant."
+    },
+    {
+      "id": "ss75-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our school has introduced smaller classes. It has also created a quiet study area for students who need extra support.",
+      "promptZh": "我們的學校推行了小班教學，還為需要額外支援的學生設立安靜的自修區。",
+      "starter": "Our",
+      "answer": "Our school has introduced smaller classes, not to mention creating a quiet study area for students who need extra support.",
+      "answerZh": "我們的學校推行了小班教學，更不用說還為需要額外支援的學生設立了安靜的自修區。",
+      "answerZhSource": "pdf",
+      "highlight": "Our school has introduced smaller classes, not to mention creating a quiet study area for students who need extra support."
+    },
+    {
+      "id": "ss75-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Marcus completed the project ahead of schedule. He also managed to stay within the original budget.",
+      "promptZh": "馬庫斯提早完成了項目，而且成功把開支控制在原定預算之內。",
+      "starter": "Marcus",
+      "answer": "Marcus completed the project ahead of schedule, not to mention staying within the original budget.",
+      "answerZh": "馬庫斯提早完成了項目，更不用說還把開支控制在原定預算之內了。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus completed the project ahead of schedule, not to mention staying within the original budget."
+    },
+    {
+      "id": "ss75-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "An emergency team worked through the night, and it also helped more than 100 residents leave the area safely.",
+      "promptZh": "一支緊急應變隊伍通宵工作，還協助超過一百名居民安全離開該區。",
+      "starter": "An",
+      "answer": "An emergency team worked through the night, not to mention helping more than 100 residents leave the area safely.",
+      "answerZh": "一支緊急應變隊伍通宵工作，更不用說還協助超過一百名居民安全離開該區了。",
+      "answerZhSource": "pdf",
+      "highlight": "An emergency team worked through the night, not to mention helping more than 100 residents leave the area safely."
+    },
+    {
+      "id": "ss75-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This community programme has improved children’s reading skills. It has also given parents practical ways to support learning at home.",
+      "promptZh": "這個社區計劃提升了兒童的閱讀能力，還為家長提供在家支援學習的實用方法。",
+      "starter": "This",
+      "answer": "This community programme has improved children’s reading skills, not to mention giving parents practical ways to support learning at home.",
+      "answerZh": "這個社區計劃提升了兒童的閱讀能力，更不用說還為家長提供了在家支援學習的實用方法。",
+      "answerZhSource": "pdf",
+      "highlight": "This community programme has improved children’s reading skills, not to mention giving parents practical ways to support learning at home."
+    }
+  ]
+}

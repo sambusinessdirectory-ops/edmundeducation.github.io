@@ -1,0 +1,1230 @@
+{
+  "id": "ss110",
+  "order": 110,
+  "slug": "as-such-result-role",
+  "title": "「As such」句型",
+  "titleZh": "「As such 句」",
+  "titleEn": "Using As such for a consequence or role",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 110 -「As such 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Fact or situation. As such, + logical result or consequence.",
+  "formulas": [
+    {
+      "id": "ss110-formula-result",
+      "labelEn": "A result or conclusion",
+      "labelZh": "用法一：表示結果或結論",
+      "formula": "Fact or situation. As such, + logical result or consequence."
+    },
+    {
+      "id": "ss110-formula-role",
+      "labelEn": "In that role or capacity",
+      "labelZh": "用法二：表示以這個身份／基於這種性質",
+      "formula": "Subject + be + role, position or status, and as such, + responsibility, right or expected action."
+    }
+  ],
+  "example": "The company is facing a severe financial shortage. As such, we must cut our budget.",
+  "exampleZh": "公司正面臨嚴重的資金短缺。因此，我們必須縮減預算。",
+  "examples": [
+    {
+      "id": "ss110-example-result",
+      "en": "The company is facing a severe financial shortage. As such, we must cut our budget.",
+      "zh": "公司正面臨嚴重的資金短缺。因此，我們必須縮減預算。",
+      "highlight": "As such, we must cut our budget."
+    },
+    {
+      "id": "ss110-example-role",
+      "en": "You are the manager of this team, and as such, you are responsible for the project’s success.",
+      "zh": "你是這個團隊的經理，而身為經理，你要為項目的成功負責。",
+      "highlight": "as such, you are responsible for the project’s success."
+    }
+  ],
+  "meaning": {
+    "zh": "As such 可表示前述事實帶來的直接結果，也可代替前面已說明的身份、職位或性質。"
+  },
+  "rules": [
+    {
+      "id": "ss110-rule-01",
+      "zh": "當前一句描述事實或情況，而後一句是直接結果時，可以在第二句開首使用 As such,。",
+      "en": "Use As such, at the beginning of the second sentence when it states a direct result of the preceding fact or situation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The road is blocked. As such, drivers must use another route."
+      ]
+    },
+    {
+      "id": "ss110-rule-02",
+      "zh": "前面已說明身份、職位或角色時，as such 可代替重複該身份並帶出責任、權利或行動。",
+      "en": "After a role, position or status has been stated, as such can replace repetition of that identity and introduce its responsibility, right or expected action.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "You are the team leader, and as such, you must guide the other members."
+      ]
+    },
+    {
+      "id": "ss110-rule-03",
+      "zh": "放在新句開首時後面通常加逗號；放在句中時常寫成 and, as such, 或較簡單的 and as such,。",
+      "en": "At the beginning of a sentence, As such is normally followed by a comma; mid-sentence it commonly appears as and, as such, or the simpler and as such,.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "As such, we must act quickly.",
+        "The building is a historic site and, as such, must be protected."
+      ]
+    },
+    {
+      "id": "ss110-rule-04",
+      "zh": "As such 表示因此或以這個身份；such as 表示例如，兩者不可混淆。",
+      "en": "As such means therefore or in that capacity; such as means for example.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Many sports, such as football and tennis, require regular practice."
+      ]
+    },
+    {
+      "id": "ss110-rule-05",
+      "zh": "本練習不包括 not...as such 表示嚴格來說不算是或並非真正是的用法。",
+      "en": "This exercise does not cover not...as such, meaning not strictly or truly that thing.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "It is not a restaurant as such."
+      ]
+    },
+    {
+      "id": "ss110-rule-06",
+      "zh": "前後內容必須有直接因果或身份關係，不要用 As such 連接無關資料。",
+      "en": "The ideas must have a direct causal or role-based relationship; do not use As such to join unrelated information.",
+      "enSource": "editorial-translation",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss110-benefit-01",
+      "zh": "As such 能清楚表示後面的內容是由前面的情況直接引起。",
+      "en": "As such clearly shows that what follows is a direct result of the preceding situation.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss110-benefit-02",
+      "zh": "它能清楚連接某人的身份和該身份帶來的責任。",
+      "en": "It clearly connects a person’s role with the responsibility that role brings.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss110-benefit-03",
+      "zh": "可以避免重複同一身份，使句子更加流暢。",
+      "en": "It avoids repeating the same role or identity and makes the sentence smoother.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss110-benefit-04",
+      "zh": "在作文、報告、電郵和簡報中，能自然連接一項情況和它的影響。",
+      "en": "In essays, reports, emails and presentations, it naturally links a situation with its effect.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss110-benefit-05",
+      "zh": "它提供 therefore、so、because of this 和 as a result 以外的另一種表達方法。",
+      "en": "It provides an alternative to therefore, so, because of this and as a result.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using as such. Use it either to show a logical result or to show the responsibility or consequence connected with a role, position or status.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 as such 改寫以下句子。你可以用它表示合理的結果，或表示某個身份、職位或性質帶來的責任或影響。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss110-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The road is covered with ice. Therefore, drivers must slow down.",
+      "promptZh": "道路被冰覆蓋。因此，駕駛者必須減速。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road is covered with ice. As such, drivers must slow down.",
+      "answerZh": "道路被冰覆蓋。因此，駕駛者必須減速。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is covered with ice. As such, drivers must slow down."
+    },
+    {
+      "id": "ss110-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The shop is closed today. For this reason, we cannot buy the book there.",
+      "promptZh": "商店今天休息。因此，我們不能在那裏購買那本書。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The shop is closed today. As such, we cannot buy the book there.",
+      "answerZh": "商店今天休息。因此，我們不能在那裏購買那本書。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop is closed today. As such, we cannot buy the book there."
+    },
+    {
+      "id": "ss110-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tom has a fever. That is why he should stay at home.",
+      "promptZh": "湯姆發燒。因此，他應該留在家中。",
+      "promptZhSource": "pdf",
+      "starter": "Tom",
+      "answer": "Tom has a fever. As such, he should stay at home.",
+      "answerZh": "湯姆發燒。因此，他應該留在家中。",
+      "answerZhSource": "pdf",
+      "highlight": "Tom has a fever. As such, he should stay at home."
+    },
+    {
+      "id": "ss110-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The train is delayed by thirty minutes, so we will arrive late.",
+      "promptZh": "火車延誤三十分鐘，所以我們將會遲到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The train is delayed by thirty minutes. As such, we will arrive late.",
+      "answerZh": "火車延誤三十分鐘。因此，我們將會遲到。",
+      "answerZhSource": "pdf",
+      "highlight": "The train is delayed by thirty minutes. As such, we will arrive late."
+    },
+    {
+      "id": "ss110-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "I do not have a ticket. Because of this, I cannot enter the concert hall.",
+      "promptZh": "我沒有門票。因此，我不能進入音樂廳。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not have a ticket. As such, I cannot enter the concert hall.",
+      "answerZh": "我沒有門票。因此，我不能進入音樂廳。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not have a ticket. As such, I cannot enter the concert hall."
+    },
+    {
+      "id": "ss110-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The phone battery is empty. This means I cannot call you.",
+      "promptZh": "電話已沒有電。這表示我不能打電話給你。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The phone battery is empty. As such, I cannot call you.",
+      "answerZh": "電話已沒有電。因此，我不能打電話給你。",
+      "answerZhSource": "pdf",
+      "highlight": "The phone battery is empty. As such, I cannot call you."
+    },
+    {
+      "id": "ss110-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tomorrow is a school holiday. Therefore, students do not need to attend classes.",
+      "promptZh": "明天是學校假期。因此，學生不需要上課。",
+      "promptZhSource": "pdf",
+      "starter": "Tomorrow",
+      "answer": "Tomorrow is a school holiday. As such, students do not need to attend classes.",
+      "answerZh": "明天是學校假期。因此，學生不需要上課。",
+      "answerZhSource": "pdf",
+      "highlight": "Tomorrow is a school holiday. As such, students do not need to attend classes."
+    },
+    {
+      "id": "ss110-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "It is raining heavily. As a result, the football match has been cancelled.",
+      "promptZh": "現在下着大雨。因此，足球比賽已被取消。",
+      "promptZhSource": "pdf",
+      "starter": "It",
+      "answer": "It is raining heavily. As such, the football match has been cancelled.",
+      "answerZh": "現在下着大雨。因此，足球比賽已被取消。",
+      "answerZhSource": "pdf",
+      "highlight": "It is raining heavily. As such, the football match has been cancelled."
+    },
+    {
+      "id": "ss110-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We have spent our travel budget. Consequently, we cannot book another hotel.",
+      "promptZh": "我們已用完整筆旅遊預算。因此，我們不能再預訂另一間酒店。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have spent our travel budget. As such, we cannot book another hotel.",
+      "answerZh": "我們已用完整筆旅遊預算。因此，我們不能再預訂另一間酒店。",
+      "answerZhSource": "pdf",
+      "highlight": "We have spent our travel budget. As such, we cannot book another hotel."
+    },
+    {
+      "id": "ss110-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The library is a quiet place. For that reason, visitors should speak softly.",
+      "promptZh": "圖書館是一個安靜的地方。因此，訪客應該輕聲說話。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is a quiet place. As such, visitors should speak softly.",
+      "answerZh": "圖書館是一個安靜的地方。因此，訪客應該輕聲說話。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is a quiet place. As such, visitors should speak softly."
+    },
+    {
+      "id": "ss110-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "You are the class monitor. In this role, you must collect the homework.",
+      "promptZh": "你是班長。身為班長，你必須收集功課。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You are the class monitor, and as such, you must collect the homework.",
+      "answerZh": "你是班長，而身為班長，你必須收集功課。",
+      "answerZhSource": "pdf",
+      "highlight": "You are the class monitor, and as such, you must collect the homework."
+    },
+    {
+      "id": "ss110-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia is the team captain. Because she holds this position, she should encourage the other players.",
+      "promptZh": "米婭是隊長。因為她擔任這個職位，所以她應該鼓勵其他球員。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia is the team captain, and as such, she should encourage the other players.",
+      "answerZh": "米婭是隊長，而身為隊長，她應該鼓勵其他球員。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia is the team captain, and as such, she should encourage the other players."
+    },
+    {
+      "id": "ss110-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mr Chan owns the restaurant. As the owner, he is responsible for its safety.",
+      "promptZh": "陳先生擁有這間餐廳。身為東主，他要為餐廳的安全負責。",
+      "promptZhSource": "pdf",
+      "starter": "Mr",
+      "answer": "Mr Chan is the owner of the restaurant, and as such, he is responsible for its safety.",
+      "answerZh": "陳先生是餐廳東主，而身為東主，他要為餐廳的安全負責。",
+      "answerZhSource": "pdf",
+      "highlight": "Mr Chan is the owner of the restaurant, and as such, he is responsible for its safety."
+    },
+    {
+      "id": "ss110-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The school nurse is the only trained medical worker on site. In that capacity, she must handle minor injuries.",
+      "promptZh": "校護是現場唯一受過醫療訓練的人員。以這個身份，她必須處理輕微受傷個案。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school nurse is the only trained medical worker on site, and as such, she must handle minor injuries.",
+      "answerZh": "校護是現場唯一受過醫療訓練的人員，而以這個身份，她必須處理輕微受傷個案。",
+      "answerZhSource": "pdf",
+      "highlight": "The school nurse is the only trained medical worker on site, and as such, she must handle minor injuries."
+    },
+    {
+      "id": "ss110-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe is the chairperson of the meeting. Therefore, she will lead the discussion.",
+      "promptZh": "克洛伊是會議主席。因此，她將主持討論。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe is the chairperson of the meeting, and as such, she will lead the discussion.",
+      "answerZh": "克洛伊是會議主席，而身為主席，她將主持討論。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe is the chairperson of the meeting, and as such, she will lead the discussion."
+    },
+    {
+      "id": "ss110-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The website is under maintenance. This means users cannot log in at the moment.",
+      "promptZh": "網站正在維修。這表示用戶目前不能登入。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website is under maintenance. As such, users cannot log in at the moment.",
+      "answerZh": "網站正在維修。因此，用戶目前不能登入。",
+      "answerZhSource": "pdf",
+      "highlight": "The website is under maintenance. As such, users cannot log in at the moment."
+    },
+    {
+      "id": "ss110-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Some important figures are missing from the report. Because of this, it cannot be submitted yet.",
+      "promptZh": "報告缺少了一些重要數字。因此，報告暫時不能提交。",
+      "promptZhSource": "pdf",
+      "starter": "Some",
+      "answer": "Some important figures are missing from the report. As such, it cannot be submitted yet.",
+      "answerZh": "報告缺少了一些重要數字。因此，報告暫時不能提交。",
+      "answerZhSource": "pdf",
+      "highlight": "Some important figures are missing from the report. As such, it cannot be submitted yet."
+    },
+    {
+      "id": "ss110-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Ethan is the club treasurer. In this role, he must keep accurate financial records.",
+      "promptZh": "伊森是學會司庫。身為司庫，他必須保存準確的財務紀錄。",
+      "promptZhSource": "pdf",
+      "starter": "Ethan",
+      "answer": "Ethan is the club treasurer, and as such, he must keep accurate financial records.",
+      "answerZh": "伊森是學會司庫，而身為司庫，他必須保存準確的財務紀錄。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan is the club treasurer, and as such, he must keep accurate financial records."
+    },
+    {
+      "id": "ss110-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel is the most experienced member of the group. For this reason, the others often ask him for advice.",
+      "promptZh": "丹尼爾是小組中最有經驗的成員。因此，其他人經常向他請教。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel is the most experienced member of the group. As such, the others often ask him for advice.",
+      "answerZh": "丹尼爾是小組中最有經驗的成員。因此，其他人經常向他請教。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel is the most experienced member of the group. As such, the others often ask him for advice."
+    },
+    {
+      "id": "ss110-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The main entrance is closed for repairs. Therefore, visitors must use the side door.",
+      "promptZh": "正門因維修而關閉。因此，訪客必須使用側門。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The main entrance is closed for repairs. As such, visitors must use the side door.",
+      "answerZh": "正門因維修而關閉。因此，訪客必須使用側門。",
+      "answerZhSource": "pdf",
+      "highlight": "The main entrance is closed for repairs. As such, visitors must use the side door."
+    },
+    {
+      "id": "ss110-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Dr Lee is the senior surgeon on duty. Because of this position, she must approve the treatment plan.",
+      "promptZh": "李醫生是當值的高級外科醫生。由於她擔任這個職位，她必須批准治療方案。",
+      "promptZhSource": "pdf",
+      "starter": "Dr",
+      "answer": "Dr Lee is the senior surgeon on duty, and as such, she must approve the treatment plan.",
+      "answerZh": "李醫生是當值的高級外科醫生，而以這個身份，她必須批准治療方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Dr Lee is the senior surgeon on duty, and as such, she must approve the treatment plan."
+    },
+    {
+      "id": "ss110-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This dessert contains nuts. Therefore, people with nut allergies should not eat it.",
+      "promptZh": "這款甜品含有果仁。因此，對果仁敏感的人不應食用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This dessert contains nuts. As such, people with nut allergies should not eat it.",
+      "answerZh": "這款甜品含有果仁。因此，對果仁敏感的人不應食用。",
+      "answerZhSource": "pdf",
+      "highlight": "This dessert contains nuts. As such, people with nut allergies should not eat it."
+    },
+    {
+      "id": "ss110-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The building is a protected historic site. Because of this status, it cannot be changed without official approval.",
+      "promptZh": "這座建築物是受保護的歷史遺址。由於具有這個身份，未經官方批准便不能改動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The building is a protected historic site and, as such, cannot be changed without official approval.",
+      "answerZh": "這座建築物是受保護的歷史遺址，因此未經官方批准便不能改動。",
+      "answerZhSource": "pdf",
+      "highlight": "The building is a protected historic site and, as such, cannot be changed without official approval."
+    },
+    {
+      "id": "ss110-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Your passport has expired. As a result, you cannot travel abroad with it.",
+      "promptZh": "你的護照已經過期。因此，你不能使用它前往外地。",
+      "promptZhSource": "pdf",
+      "starter": "Your",
+      "answer": "Your passport has expired. As such, you cannot travel abroad with it.",
+      "answerZh": "你的護照已經過期。因此，你不能使用它前往外地。",
+      "answerZhSource": "pdf",
+      "highlight": "Your passport has expired. As such, you cannot travel abroad with it."
+    },
+    {
+      "id": "ss110-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace is the editor of the school magazine. In this capacity, she makes the final decision about each article.",
+      "promptZh": "格蕾絲是校刊編輯。以這個身份，她會就每篇文章作出最終決定。",
+      "promptZhSource": "pdf",
+      "starter": "Grace",
+      "answer": "Grace is the editor of the school magazine, and as such, she makes the final decision about each article.",
+      "answerZh": "格蕾絲是校刊編輯，而以這個身份，她會就每篇文章作出最終決定。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace is the editor of the school magazine, and as such, she makes the final decision about each article."
+    },
+    {
+      "id": "ss110-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The instructions are unclear. Therefore, several students have completed the task incorrectly.",
+      "promptZh": "指示不清楚。因此，數名學生錯誤地完成了任務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The instructions are unclear. As such, several students have completed the task incorrectly.",
+      "answerZh": "指示不清楚。因此，數名學生錯誤地完成了任務。",
+      "answerZhSource": "pdf",
+      "highlight": "The instructions are unclear. As such, several students have completed the task incorrectly."
+    },
+    {
+      "id": "ss110-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "You are the only witness to the accident. Because of that, your account is especially important.",
+      "promptZh": "你是這宗意外的唯一目擊者。因此，你的說法尤其重要。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You are the only witness to the accident, and as such, your account is especially important.",
+      "answerZh": "你是這宗意外的唯一目擊者，而基於這個身份，你的說法尤其重要。",
+      "answerZhSource": "pdf",
+      "highlight": "You are the only witness to the accident, and as such, your account is especially important."
+    },
+    {
+      "id": "ss110-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The bus does not have a wheelchair ramp. Therefore, some passengers may be unable to use it.",
+      "promptZh": "這輛巴士沒有輪椅斜台。因此，部分乘客可能無法使用這項服務。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus does not have a wheelchair ramp. As such, some passengers may be unable to use it.",
+      "answerZh": "這輛巴士沒有輪椅斜台。因此，部分乘客可能無法使用這項服務。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus does not have a wheelchair ramp. As such, some passengers may be unable to use it."
+    },
+    {
+      "id": "ss110-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Our department is responsible for data security. This responsibility means we must report any serious risk immediately.",
+      "promptZh": "我們的部門負責資料保安。這項責任表示我們必須立即報告任何嚴重風險。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our department is responsible for data security and, as such, we must report any serious risk immediately.",
+      "answerZh": "我們的部門負責資料保安，因此我們必須立即報告任何嚴重風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Our department is responsible for data security and, as such, we must report any serious risk immediately."
+    },
+    {
+      "id": "ss110-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The council has cut the budget. Consequently, the library renovation must be postponed.",
+      "promptZh": "議會已削減預算。因此，圖書館翻新工程必須延期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council has cut the budget. As such, the library renovation must be postponed.",
+      "answerZh": "議會已削減預算。因此，圖書館翻新工程必須延期。",
+      "answerZhSource": "pdf",
+      "highlight": "The council has cut the budget. As such, the library renovation must be postponed."
+    },
+    {
+      "id": "ss110-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why did the office close early? The power supply had failed, so the staff could not continue working.",
+      "promptZh": "辦公室為甚麼提早關閉？電力供應出現故障，所以員工不能繼續工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The power supply had failed. As such, the staff could not continue working, and the office closed early.",
+      "answerZh": "電力供應出現故障。因此，員工不能繼續工作，而辦公室亦提早關閉。",
+      "answerZhSource": "pdf",
+      "highlight": "The power supply had failed. As such, the staff could not continue working, and the office closed early."
+    },
+    {
+      "id": "ss110-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Aisha is Leo’s legal guardian. This position gives her the authority to sign the form for him.",
+      "promptZh": "艾莎是里奧的法定監護人。這個身份使她有權代他簽署表格。",
+      "promptZhSource": "pdf",
+      "starter": "Aisha",
+      "answer": "Aisha is Leo’s legal guardian, and as such, she has the authority to sign the form for him.",
+      "answerZh": "艾莎是里奧的法定監護人，而以這個身份，她有權代他簽署表格。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha is Leo’s legal guardian, and as such, she has the authority to sign the form for him."
+    },
+    {
+      "id": "ss110-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hall was declared unsafe. Therefore, it cannot be used until the repairs are complete.",
+      "promptZh": "禮堂被宣布為不安全。因此，在維修完成前不能使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hall was declared unsafe. As such, it cannot be used until the repairs are complete.",
+      "answerZh": "禮堂被宣布為不安全。因此，在維修完成前不能使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The hall was declared unsafe. As such, it cannot be used until the repairs are complete."
+    },
+    {
+      "id": "ss110-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The committee chose Omar as its spokesperson. In this capacity, he will answer questions from the press.",
+      "promptZh": "委員會選擇奧馬爾擔任發言人。以這個身份，他將回答傳媒的問題。",
+      "promptZhSource": "pdf",
+      "starter": "Omar",
+      "answer": "Omar is the committee’s spokesperson, and as such, he will answer questions from the press.",
+      "answerZh": "奧馬爾是委員會的發言人，而以這個身份，他將回答傳媒的問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Omar is the committee’s spokesperson, and as such, he will answer questions from the press."
+    },
+    {
+      "id": "ss110-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The deadline has been moved forward by one week. Because of this, the team needs to finish the design sooner.",
+      "promptZh": "截止日期已提前一星期。因此，團隊需要更早完成設計。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The deadline has been moved forward by one week. As such, the team needs to finish the design sooner.",
+      "answerZh": "截止日期已提前一星期。因此，團隊需要更早完成設計。",
+      "answerZhSource": "pdf",
+      "highlight": "The deadline has been moved forward by one week. As such, the team needs to finish the design sooner."
+    },
+    {
+      "id": "ss110-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The bank account is a joint account. This means both holders must approve any large withdrawal.",
+      "promptZh": "這個銀行戶口是聯名戶口。這表示任何大額提款都必須得到兩名戶口持有人批准。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bank account is a joint account. As such, both holders must approve any large withdrawal.",
+      "answerZh": "這個銀行戶口是聯名戶口。因此，任何大額提款都必須得到兩名戶口持有人批准。",
+      "answerZhSource": "pdf",
+      "highlight": "The bank account is a joint account. As such, both holders must approve any large withdrawal."
+    },
+    {
+      "id": "ss110-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The available evidence is incomplete, so no final conclusion should be drawn yet.",
+      "promptZh": "現有證據並不完整，所以暫時不應作出最終結論。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The available evidence is incomplete. As such, no final conclusion should be drawn yet.",
+      "answerZh": "現有證據並不完整。因此，暫時不應作出最終結論。",
+      "answerZhSource": "pdf",
+      "highlight": "The available evidence is incomplete. As such, no final conclusion should be drawn yet."
+    },
+    {
+      "id": "ss110-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Lena is serving as acting manager this week. Because of that role, she may approve urgent requests.",
+      "promptZh": "莉娜本星期擔任署理經理。由於她擔任這個職位，她可以批准緊急申請。",
+      "promptZhSource": "pdf",
+      "starter": "Lena",
+      "answer": "Lena is the acting manager this week, and as such, she may approve urgent requests.",
+      "answerZh": "莉娜是本星期的署理經理，而以這個身份，她可以批准緊急申請。",
+      "answerZhSource": "pdf",
+      "highlight": "Lena is the acting manager this week, and as such, she may approve urgent requests."
+    },
+    {
+      "id": "ss110-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why must the package be checked by customs? It is an international shipment.",
+      "promptZh": "這件包裹為甚麼必須接受海關檢查？因為它是一件國際貨件。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The package is an international shipment and, as such, must be checked by customs.",
+      "answerZh": "這件包裹是國際貨件，因此必須接受海關檢查。",
+      "answerZhSource": "pdf",
+      "highlight": "The package is an international shipment and, as such, must be checked by customs."
+    },
+    {
+      "id": "ss110-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This software is no longer supported. Therefore, it will not receive future security updates.",
+      "promptZh": "這套軟件已不再獲得支援。因此，它將不會收到日後的保安更新。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This software is no longer supported. As such, it will not receive future security updates.",
+      "answerZh": "這套軟件已不再獲得支援。因此，它將不會收到日後的保安更新。",
+      "answerZhSource": "pdf",
+      "highlight": "This software is no longer supported. As such, it will not receive future security updates."
+    },
+    {
+      "id": "ss110-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school is the lead organiser of the festival. In that role, it must coordinate the other participating groups.",
+      "promptZh": "學校是文化節的主要籌辦單位。以這個身份，學校必須協調其他參與團體。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school is the lead organiser of the festival, and as such, it must coordinate the other participating groups.",
+      "answerZh": "學校是文化節的主要籌辦單位，而以這個身份，學校必須協調其他參與團體。",
+      "answerZhSource": "pdf",
+      "highlight": "The school is the lead organiser of the festival, and as such, it must coordinate the other participating groups."
+    },
+    {
+      "id": "ss110-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The patient showed signs of severe dehydration. Consequently, the doctor admitted him to hospital for observation.",
+      "promptZh": "病人出現嚴重脫水的徵狀。因此，醫生安排他入院觀察。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The patient showed signs of severe dehydration. As such, the doctor admitted him to hospital for observation.",
+      "answerZh": "病人出現嚴重脫水的徵狀。因此，醫生安排他入院觀察。",
+      "answerZhSource": "pdf",
+      "highlight": "The patient showed signs of severe dehydration. As such, the doctor admitted him to hospital for observation."
+    },
+    {
+      "id": "ss110-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "You are named as the guarantor in the contract. This legal role makes you responsible if the borrower fails to pay.",
+      "promptZh": "合約列明你是擔保人。這個法律身份表示，如果借款人未能付款，你便需要承擔責任。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You are the guarantor named in the contract, and as such, you are responsible if the borrower fails to pay.",
+      "answerZh": "你是合約列明的擔保人，而基於這個法律身份，如果借款人未能付款，你便需要承擔責任。",
+      "answerZhSource": "pdf",
+      "highlight": "You are the guarantor named in the contract, and as such, you are responsible if the borrower fails to pay."
+    },
+    {
+      "id": "ss110-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The company’s only supplier has stopped production. Therefore, the company has no reliable source of raw materials, and several orders may be delayed.",
+      "promptZh": "公司唯一的供應商已停止生產。因此，公司沒有可靠的原材料來源，而數張訂單可能會延誤。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company’s only supplier has stopped production. As such, the company has no reliable source of raw materials, and several orders may be delayed.",
+      "answerZh": "公司唯一的供應商已停止生產。因此，公司沒有可靠的原材料來源，而數張訂單可能會延誤。",
+      "answerZhSource": "pdf",
+      "highlight": "The company’s only supplier has stopped production. As such, the company has no reliable source of raw materials, and several orders may be delayed."
+    },
+    {
+      "id": "ss110-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This information is confidential. Because of its status, it must not be shared outside the team.",
+      "promptZh": "這些資料屬於機密。由於具有這種性質，資料不得向團隊以外的人披露。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This information is confidential and, as such, must not be shared outside the team.",
+      "answerZh": "這些資料屬於機密，因此不得向團隊以外的人披露。",
+      "answerZhSource": "pdf",
+      "highlight": "This information is confidential and, as such, must not be shared outside the team."
+    },
+    {
+      "id": "ss110-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The latest forecast says a typhoon may approach the city. Therefore, the outdoor event may need to be moved indoors.",
+      "promptZh": "最新預報表示颱風可能接近本市。因此，戶外活動可能需要移到室內舉行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The latest forecast says a typhoon may approach the city. As such, the outdoor event may need to be moved indoors.",
+      "answerZh": "最新預報表示颱風可能接近本市。因此，戶外活動可能需要移到室內舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The latest forecast says a typhoon may approach the city. As such, the outdoor event may need to be moved indoors."
+    },
+    {
+      "id": "ss110-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Priya is the elected chairperson of the council. In this position, she is expected to remain neutral during debates.",
+      "promptZh": "普里亞是議會選出的主席。擔任這個職位時，她應該在辯論期間保持中立。",
+      "promptZhSource": "pdf",
+      "starter": "Priya",
+      "answer": "Priya is the elected chairperson of the council, and as such, she is expected to remain neutral during debates.",
+      "answerZh": "普里亞是議會選出的主席，而身為主席，她應該在辯論期間保持中立。",
+      "answerZhSource": "pdf",
+      "highlight": "Priya is the elected chairperson of the council, and as such, she is expected to remain neutral during debates."
+    },
+    {
+      "id": "ss110-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Two safety checks have failed. For that reason, the launch cannot proceed until the faults are fixed.",
+      "promptZh": "兩項安全檢查未能通過。因此，在問題修正前，發布程序不能繼續。",
+      "promptZhSource": "pdf",
+      "starter": "Two",
+      "answer": "Two safety checks have failed. As such, the launch cannot proceed until the faults are fixed.",
+      "answerZh": "兩項安全檢查未能通過。因此，在問題修正前，發布程序不能繼續。",
+      "answerZhSource": "pdf",
+      "highlight": "Two safety checks have failed. As such, the launch cannot proceed until the faults are fixed."
+    },
+    {
+      "id": "ss110-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The library is a public facility. Because it has that role, it must remain accessible to people with different needs.",
+      "promptZh": "圖書館是一項公共設施。由於具有這個角色，它必須讓有不同需要的人士都能使用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The library is a public facility and, as such, must remain accessible to people with different needs.",
+      "answerZh": "圖書館是一項公共設施，因此必須讓有不同需要的人士都能使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The library is a public facility and, as such, must remain accessible to people with different needs."
+    },
+    {
+      "id": "ss110-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The community centre is the city’s emergency shelter. In that capacity, it must remain ready to receive residents at short notice.",
+      "promptZh": "社區中心是本市的緊急庇護中心。以這個身份，它必須隨時準備在短時間內接收居民。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre is the city’s emergency shelter, and as such, it must remain ready to receive residents at short notice.",
+      "answerZh": "社區中心是本市的緊急庇護中心，而以這個身份，它必須隨時準備在短時間內接收居民。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre is the city’s emergency shelter, and as such, it must remain ready to receive residents at short notice."
+    }
+  ]
+}

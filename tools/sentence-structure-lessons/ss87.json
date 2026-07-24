@@ -1,0 +1,1251 @@
+{
+  "id": "ss87",
+  "order": 87,
+  "slug": "rhetorical-questions",
+  "title": "「Rhetorical Question 句（反問句）」",
+  "titleZh": "反問句",
+  "titleEn": "Rhetorical Questions",
+  "titleEnSource": "pdf",
+  "source": {
+    "file": "Sentence Structure 87 -「Rhetorical Question 句（反問句）」.pdf",
+    "pageCount": 21,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "exercisePages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "omissions": []
+  },
+  "formula": "Be / Auxiliary verb / Modal verb + not + subject + other information?",
+  "formulas": [
+    {
+      "id": "ss87-formula-negative-yes-no",
+      "labelZh": "否定一般反問句",
+      "labelEn": "Negative Yes–No Rhetorical Question",
+      "formula": "Be / Auxiliary verb / Modal verb + not + subject + other information?"
+    },
+    {
+      "id": "ss87-formula-positive-yes-no",
+      "labelZh": "肯定一般反問句",
+      "labelEn": "Positive Yes–No Rhetorical Question",
+      "formula": "Be / Auxiliary verb / Modal verb + subject + other information?"
+    },
+    {
+      "id": "ss87-formula-wh",
+      "labelZh": "疑問詞反問句",
+      "labelEn": "Wh- Rhetorical Question",
+      "formula": "Who / What / Why / How + auxiliary or modal verb + subject + base verb + other information?"
+    }
+  ],
+  "example": "I mean, shouldn’t life be about yourself?",
+  "exampleZh": "我的意思是，人生難道不應該是關於你自己嗎？",
+  "examples": [
+    {
+      "id": "ss87-example-main",
+      "en": "I mean, shouldn’t life be about yourself?",
+      "zh": "我的意思是，人生難道不應該是關於你自己嗎？",
+      "highlight": "shouldn’t life be about yourself?"
+    }
+  ],
+  "meaning": {
+    "zh": "反問句是一種用來強調想法、表達立場或引導對方思考的問句。說話者通常並非真正要求對方回答。"
+  },
+  "rules": [
+    {
+      "id": "ss87-rule-01",
+      "zh": "說話者已經有預期答案。反問句的形式像一般問句，但說話者通常認為答案已經非常明顯。",
+      "en": "The speaker already has an expected answer. A rhetorical question looks like a question, but the speaker normally believes that the answer is already obvious.",
+      "enSource": "pdf",
+      "examples": [
+        "Shouldn’t everyone be treated fairly?",
+        "Expected answer: Yes, everyone should be treated fairly."
+      ]
+    },
+    {
+      "id": "ss87-rule-02",
+      "zh": "否定反問句通常邀請對方認同。以 isn’t、doesn’t、shouldn’t、wouldn’t 或 can’t 開始的否定反問句，通常是希望對方同意一個肯定的觀點。",
+      "en": "Negative rhetorical questions normally invite agreement. Negative questions beginning with isn’t, doesn’t, shouldn’t, wouldn’t or can’t often encourage the listener to agree with a positive idea.",
+      "enSource": "pdf",
+      "examples": [
+        "Isn’t honesty important?",
+        "Meaning: Honesty is important."
+      ]
+    },
+    {
+      "id": "ss87-rule-03",
+      "zh": "肯定形式的反問句可能暗示否定答案。部分肯定形式的反問句，其預期答案是「不」或「沒有人」。",
+      "en": "Positive rhetorical questions may suggest a negative answer. Some positive questions are used when the expected answer is no or nobody.",
+      "enSource": "pdf",
+      "examples": [
+        "Would anyone want to be treated unfairly?",
+        "Meaning: Nobody would want to be treated unfairly."
+      ]
+    },
+    {
+      "id": "ss87-rule-04",
+      "zh": "使用問句語序。大部分反問句都把助動詞或情態動詞放在主語之前。",
+      "en": "Use question word order. In most rhetorical questions, the auxiliary or modal verb comes before the subject.",
+      "enSource": "pdf",
+      "examples": [
+        "Statement: We should protect the environment.",
+        "Rhetorical question: Shouldn’t we protect the environment?"
+      ]
+    },
+    {
+      "id": "ss87-rule-05",
+      "zh": "保留原意。改寫時，不要改變人物、時態、時間、地點、程度、可能性或原本的主要觀點。",
+      "en": "Preserve the original meaning. Do not change the person, tense, time, place, degree, possibility or main opinion when rewriting the sentence.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss87-rule-06",
+      "zh": "否定問句不一定是反問句，也可能是真正要求資料的問題。反問句則用來表達說話者認為答案明顯的立場。",
+      "en": "A negative question is not always rhetorical; it may be a genuine request for information. A rhetorical question instead expresses a position whose answer the speaker considers obvious.",
+      "enSource": "pdf-plus-editorial-translation",
+      "examples": [
+        "Genuine question: Haven’t you finished the report yet?",
+        "Rhetorical question: Shouldn’t everyone receive a fair chance?"
+      ]
+    },
+    {
+      "id": "ss87-rule-07",
+      "zh": "小心使用反問句。反問句可以令語氣更有力量和說服力，但使用過多可能令人感到咄咄逼人、帶有諷刺意味或過分情緒化。",
+      "en": "Use rhetorical questions carefully. A rhetorical question can sound powerful and persuasive, but too many may sound aggressive, sarcastic or overly emotional.",
+      "enSource": "pdf"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss87-benefit-01",
+      "zh": "令重要觀點更突出。直接陳述句能說明資料，而反問句能把讀者或聽眾的注意力集中在重要觀點上，令觀點更有力量。",
+      "en": "It makes an important opinion stand out. A direct statement gives information, while a rhetorical question places stronger attention on the idea.",
+      "enSource": "pdf",
+      "examples": [
+        "Statement: We should protect children’s privacy.",
+        "Rhetorical question: Shouldn’t we protect children’s privacy?"
+      ]
+    },
+    {
+      "id": "ss87-benefit-02",
+      "zh": "鼓勵聽眾思考。反問句不只是直接告訴別人應該相信甚麼，也會引導他們自行思考這個觀點。",
+      "en": "It encourages the listener to think. Instead of simply telling people what to believe, a rhetorical question invites them to consider the idea for themselves.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss87-benefit-03",
+      "zh": "邀請對方認同。反問句可以令聽眾感到自己正在參與討論，並鼓勵他們認同一個合理的觀點。",
+      "en": "It can invite agreement. A rhetorical question can make the listener feel involved in the discussion and encourage them to agree with a reasonable point.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss87-benefit-04",
+      "zh": "幫助挑戰不合理的觀點。反問句可以指出某個行動、規則或觀點似乎不公平、不合理或難以成立。",
+      "en": "It helps challenge unreasonable ideas. You can use a rhetorical question to point out that an action, rule or belief seems unfair, illogical or difficult to defend.",
+      "enSource": "pdf",
+      "examples": [
+        "How can a rule be fair if it punishes honest people?"
+      ]
+    },
+    {
+      "id": "ss87-benefit-05",
+      "zh": "提供另一種表達意見的方法。你不需要反覆以 I think、I believe 或 we should 開始句子，有時可以透過反問句表達相同立場。",
+      "en": "It gives you another way to present an opinion. Instead of repeatedly beginning sentences with I think, I believe or we should, you can sometimes express the same position through a rhetorical question.",
+      "enSource": "pdf"
+    },
+    {
+      "id": "ss87-benefit-06",
+      "zh": "適合用於說話和說服性寫作。反問句適合演說、討論、簡報、議論文和廣告，因為它能令重要訊息更容易讓人記住。",
+      "en": "It is useful in speaking and persuasive writing. Rhetorical questions are useful in speeches, discussions, presentations, opinion essays and advertisements because they can make a key message more memorable.",
+      "enSource": "pdf"
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each statement as a rhetorical question to emphasise the same idea.",
+      "Do not provide an answer to the rhetorical question.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "把每個陳述句改寫成反問句，以強調相同的意思。",
+      "不要回答反問句。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss87-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Honesty is important in every friendship.",
+      "promptZh": "誠實在每段友誼中都很重要。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t honesty important in every friendship?",
+      "answerZh": "難道誠實在每段友誼中都不重要嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t honesty important in every friendship?"
+    },
+    {
+      "id": "ss87-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "We should listen before judging someone.",
+      "promptZh": "我們在評斷別人之前應先聆聽。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t we listen before judging someone?",
+      "answerZh": "我們在評斷別人之前，難道不應先聆聽嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t we listen before judging someone?"
+    },
+    {
+      "id": "ss87-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Everyone deserves a fair chance.",
+      "promptZh": "每個人都應得到公平的機會。",
+      "promptZhSource": "pdf",
+      "starter": "Doesn’t",
+      "answer": "Doesn’t everyone deserve a fair chance?",
+      "answerZh": "每個人難道不應得到公平的機會嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Doesn’t everyone deserve a fair chance?"
+    },
+    {
+      "id": "ss87-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "It is wiser to check the facts first.",
+      "promptZh": "先核實事實是較明智的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t it wiser to check the facts first?",
+      "answerZh": "先核實事實，不是較明智嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t it wiser to check the facts first?"
+    },
+    {
+      "id": "ss87-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "No one wants to be treated unfairly.",
+      "promptZh": "沒有人想受到不公平對待。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who wants to be treated unfairly?",
+      "answerZh": "有誰想受到不公平對待？",
+      "answerZhSource": "pdf",
+      "highlight": "Who wants to be treated unfairly?"
+    },
+    {
+      "id": "ss87-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We cannot truly learn without making mistakes.",
+      "promptZh": "我們不可能完全不犯錯便真正學會東西。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can we truly learn without making mistakes?",
+      "answerZh": "我們真的可以完全不犯錯便學會東西嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can we truly learn without making mistakes?"
+    },
+    {
+      "id": "ss87-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We should not ignore advice that could protect us.",
+      "promptZh": "我們不應忽視可能保護我們的建議。",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why should we ignore advice that could protect us?",
+      "answerZh": "我們為甚麼要忽視可能保護我們的建議？",
+      "answerZhSource": "pdf",
+      "highlight": "Why should we ignore advice that could protect us?"
+    },
+    {
+      "id": "ss87-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Nothing is more valuable than good health.",
+      "promptZh": "沒有甚麼比良好健康更寶貴。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What could be more valuable than good health?",
+      "answerZh": "有甚麼能比良好健康更寶貴？",
+      "answerZhSource": "pdf",
+      "highlight": "What could be more valuable than good health?"
+    },
+    {
+      "id": "ss87-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Helping others is a meaningful use of time.",
+      "promptZh": "花時間幫助別人是一件有意義的事。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t helping others a meaningful use of time?",
+      "answerZh": "花時間幫助別人，難道不是一件有意義的事嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t helping others a meaningful use of time?"
+    },
+    {
+      "id": "ss87-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 16
+      },
+      "prompt": "It makes sense to ask questions when we are unsure.",
+      "promptZh": "當我們不肯定時，提出問題是合理的。",
+      "promptZhSource": "pdf",
+      "starter": "Doesn’t",
+      "answer": "Doesn’t it make sense to ask questions when we are unsure?",
+      "answerZh": "當我們不肯定時，提出問題不是很合理嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Doesn’t it make sense to ask questions when we are unsure?"
+    },
+    {
+      "id": "ss87-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Students need enough sleep to learn well.",
+      "promptZh": "學生需要有充足睡眠，才能好好學習。",
+      "promptZhSource": "pdf",
+      "starter": "Don’t",
+      "answer": "Don’t students need enough sleep to learn well?",
+      "answerZh": "學生難道不需要有充足睡眠，才能好好學習嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Don’t students need enough sleep to learn well?"
+    },
+    {
+      "id": "ss87-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Blaming one person without evidence would be unfair.",
+      "promptZh": "在沒有證據的情況下責怪一個人並不公平。",
+      "promptZhSource": "pdf",
+      "starter": "Wouldn’t",
+      "answer": "Wouldn’t blaming one person without evidence be unfair?",
+      "answerZh": "在沒有證據的情況下責怪一個人，難道不公平嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wouldn’t blaming one person without evidence be unfair?"
+    },
+    {
+      "id": "ss87-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "No sensible driver would text while driving.",
+      "promptZh": "沒有理智的司機會在駕駛時傳送訊息。",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would any sensible driver text while driving?",
+      "answerZh": "任何理智的司機會在駕駛時傳送訊息嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Would any sensible driver text while driving?"
+    },
+    {
+      "id": "ss87-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "We all want our work to be respected.",
+      "promptZh": "我們都希望自己的工作受到尊重。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who doesn’t want their work to be respected?",
+      "answerZh": "有誰不希望自己的工作受到尊重？",
+      "answerZhSource": "pdf",
+      "highlight": "Who doesn’t want their work to be respected?"
+    },
+    {
+      "id": "ss87-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There is no good reason to hide a serious mistake.",
+      "promptZh": "沒有任何合理理由隱瞞嚴重錯誤。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What good reason is there to hide a serious mistake?",
+      "answerZh": "有甚麼合理理由要隱瞞嚴重錯誤？",
+      "answerZhSource": "pdf",
+      "highlight": "What good reason is there to hide a serious mistake?"
+    },
+    {
+      "id": "ss87-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "A small act of kindness can change someone’s day.",
+      "promptZh": "一個小小的善舉可以改變別人的一天。",
+      "promptZhSource": "pdf",
+      "starter": "Can’t",
+      "answer": "Can’t a small act of kindness change someone’s day?",
+      "answerZh": "一個小小的善舉，難道不能改變別人的一天嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can’t a small act of kindness change someone’s day?"
+    },
+    {
+      "id": "ss87-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "People should consider the long-term effects before making decisions.",
+      "promptZh": "人們在作出決定前應考慮長遠影響。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t people consider the long-term effects before making decisions?",
+      "answerZh": "人們在作出決定前，難道不應考慮長遠影響嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t people consider the long-term effects before making decisions?"
+    },
+    {
+      "id": "ss87-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Clean public spaces benefit everyone.",
+      "promptZh": "整潔的公共空間對每個人都有好處。",
+      "promptZhSource": "pdf",
+      "starter": "Don’t",
+      "answer": "Don’t clean public spaces benefit everyone?",
+      "answerZh": "整潔的公共空間難道不是對每個人都有好處嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Don’t clean public spaces benefit everyone?"
+    },
+    {
+      "id": "ss87-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nobody enjoys being interrupted constantly.",
+      "promptZh": "沒有人喜歡不斷被人打斷。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who enjoys being interrupted constantly?",
+      "answerZh": "有誰喜歡不斷被人打斷？",
+      "answerZhSource": "pdf",
+      "highlight": "Who enjoys being interrupted constantly?"
+    },
+    {
+      "id": "ss87-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Verifying the information first is the safer choice.",
+      "promptZh": "先核實資料是較安全的選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t verifying the information first the safer choice?",
+      "answerZh": "先核實資料，難道不是較安全的選擇嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t verifying the information first the safer choice?"
+    },
+    {
+      "id": "ss87-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Success should not be measured only by money.",
+      "promptZh": "成功不應只以金錢衡量。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should success be measured only by money?",
+      "answerZh": "成功難道只應以金錢衡量嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Should success be measured only by money?"
+    },
+    {
+      "id": "ss87-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Nothing matters more to children than feeling safe.",
+      "promptZh": "對兒童而言，沒有甚麼比感到安全更重要。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What could matter more to children than feeling safe?",
+      "answerZh": "對兒童而言，有甚麼能比感到安全更重要？",
+      "answerZhSource": "pdf",
+      "highlight": "What could matter more to children than feeling safe?"
+    },
+    {
+      "id": "ss87-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "No organisation can build trust while hiding important facts.",
+      "promptZh": "任何組織都不可能在隱瞞重要事實的同時建立信任。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can any organisation build trust while hiding important facts?",
+      "answerZh": "任何組織能夠在隱瞞重要事實的同時建立信任嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can any organisation build trust while hiding important facts?"
+    },
+    {
+      "id": "ss87-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We cannot reasonably expect perfect results without proper preparation.",
+      "promptZh": "沒有適當準備，我們不能合理地期望得到完美結果。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can we reasonably expect perfect results without proper preparation?",
+      "answerZh": "沒有適當準備，我們又怎能合理地期望得到完美結果？",
+      "answerZhSource": "pdf",
+      "highlight": "How can we reasonably expect perfect results without proper preparation?"
+    },
+    {
+      "id": "ss87-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Technology should serve people rather than control them.",
+      "promptZh": "科技應該服務人類，而不是控制人類。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t technology serve people rather than control them?",
+      "answerZh": "科技難道不應該服務人類，而不是控制人類嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t technology serve people rather than control them?"
+    },
+    {
+      "id": "ss87-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A decision that affects everyone deserves open discussion.",
+      "promptZh": "一個影響所有人的決定值得公開討論。",
+      "promptZhSource": "pdf",
+      "starter": "Doesn’t",
+      "answer": "Doesn’t a decision that affects everyone deserve open discussion?",
+      "answerZh": "一個影響所有人的決定，難道不值得公開討論嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Doesn’t a decision that affects everyone deserve open discussion?"
+    },
+    {
+      "id": "ss87-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We would be foolish to repeat the same mistake after seeing the evidence.",
+      "promptZh": "看過證據後仍重犯同一錯誤，是愚蠢的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Wouldn’t",
+      "answer": "Wouldn’t we be foolish to repeat the same mistake after seeing the evidence?",
+      "answerZh": "看過證據後仍重犯同一錯誤，我們難道不是很愚蠢嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wouldn’t we be foolish to repeat the same mistake after seeing the evidence?"
+    },
+    {
+      "id": "ss87-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "No customer wants to wait for hours without an explanation.",
+      "promptZh": "沒有顧客願意在沒有解釋的情況下等候數小時。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What customer wants to wait for hours without an explanation?",
+      "answerZh": "有甚麼顧客願意在沒有解釋的情況下等候數小時？",
+      "answerZhSource": "pdf",
+      "highlight": "What customer wants to wait for hours without an explanation?"
+    },
+    {
+      "id": "ss87-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "We cannot call a system fair when only a few people benefit.",
+      "promptZh": "當只有少數人受益時，我們不能稱這個制度為公平。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can we call a system fair when only a few people benefit?",
+      "answerZh": "當只有少數人受益時，我們又怎能稱這個制度為公平？",
+      "answerZhSource": "pdf",
+      "highlight": "How can we call a system fair when only a few people benefit?"
+    },
+    {
+      "id": "ss87-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There is no point in saving time if accuracy is lost.",
+      "promptZh": "如果失去準確性，節省時間便沒有意義。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What is the point of saving time if accuracy is lost?",
+      "answerZh": "如果失去準確性，節省時間又有甚麼意義？",
+      "answerZhSource": "pdf",
+      "highlight": "What is the point of saving time if accuracy is lost?"
+    },
+    {
+      "id": "ss87-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Silence can also send a powerful message.",
+      "promptZh": "沉默也可以傳達強而有力的訊息。",
+      "promptZhSource": "pdf",
+      "starter": "Can’t",
+      "answer": "Can’t silence also send a powerful message?",
+      "answerZh": "沉默難道不也可以傳達強而有力的訊息嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can’t silence also send a powerful message?"
+    },
+    {
+      "id": "ss87-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "A promise means nothing if no action follows it.",
+      "promptZh": "如果沒有實際行動，承諾便毫無意義。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What does a promise mean if no action follows it?",
+      "answerZh": "如果沒有實際行動，承諾又有甚麼意義？",
+      "answerZhSource": "pdf",
+      "highlight": "What does a promise mean if no action follows it?"
+    },
+    {
+      "id": "ss87-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 19
+      },
+      "prompt": "No parent wants a child to feel afraid at school.",
+      "promptZh": "沒有家長希望孩子在學校感到害怕。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What parent wants a child to feel afraid at school?",
+      "answerZh": "有甚麼家長希望孩子在學校感到害怕？",
+      "answerZhSource": "pdf",
+      "highlight": "What parent wants a child to feel afraid at school?"
+    },
+    {
+      "id": "ss87-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is better to solve the cause of a problem than to hide its symptoms.",
+      "promptZh": "解決問題的根源，比掩飾其表面徵狀更好。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t it better to solve the cause of a problem than to hide its symptoms?",
+      "answerZh": "解決問題的根源，難道不比掩飾其表面徵狀更好嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t it better to solve the cause of a problem than to hide its symptoms?"
+    },
+    {
+      "id": "ss87-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We cannot call something progress if it leaves the weakest people behind.",
+      "promptZh": "如果一件事把最弱勢的人拋在後面，我們便不能稱它為進步。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can we call something progress if it leaves the weakest people behind?",
+      "answerZh": "如果一件事把最弱勢的人拋在後面，我們還能稱它為進步嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Can we call something progress if it leaves the weakest people behind?"
+    },
+    {
+      "id": "ss87-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Anyone would question a rule that punishes honesty.",
+      "promptZh": "任何人都會質疑一項懲罰誠實行為的規則。",
+      "promptZhSource": "pdf",
+      "starter": "Who",
+      "answer": "Who wouldn’t question a rule that punishes honesty?",
+      "answerZh": "有誰不會質疑一項懲罰誠實行為的規則？",
+      "answerZhSource": "pdf",
+      "highlight": "Who wouldn’t question a rule that punishes honesty?"
+    },
+    {
+      "id": "ss87-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is strange to demand respect while showing none to others.",
+      "promptZh": "要求別人尊重自己，卻完全不尊重別人，是奇怪的。",
+      "promptZhSource": "pdf",
+      "starter": "Isn’t",
+      "answer": "Isn’t it strange to demand respect while showing none to others?",
+      "answerZh": "要求別人尊重自己，卻完全不尊重別人，難道不奇怪嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Isn’t it strange to demand respect while showing none to others?"
+    },
+    {
+      "id": "ss87-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "There is no value in speaking quickly if nobody understands.",
+      "promptZh": "如果沒有人明白，說話再快也沒有價值。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What value is there in speaking quickly if nobody understands?",
+      "answerZh": "如果沒有人明白，說話再快又有甚麼價值？",
+      "answerZhSource": "pdf",
+      "highlight": "What value is there in speaking quickly if nobody understands?"
+    },
+    {
+      "id": "ss87-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A team cannot succeed when its members refuse to communicate.",
+      "promptZh": "如果團隊成員拒絕溝通，團隊便不可能成功。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can a team succeed when its members refuse to communicate?",
+      "answerZh": "如果團隊成員拒絕溝通，團隊又怎能成功？",
+      "answerZhSource": "pdf",
+      "highlight": "How can a team succeed when its members refuse to communicate?"
+    },
+    {
+      "id": "ss87-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Convenience is not worth the loss of privacy.",
+      "promptZh": "便利並不值得我們犧牲私隱。",
+      "promptZhSource": "pdf",
+      "starter": "Is",
+      "answer": "Is convenience really worth the loss of privacy?",
+      "answerZh": "便利真的值得我們犧牲私隱嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Is convenience really worth the loss of privacy?"
+    },
+    {
+      "id": "ss87-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "A society that ignores young people’s concerns cannot expect their trust.",
+      "promptZh": "一個忽視年輕人關注的社會不能期望得到他們的信任。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can a society that ignores young people’s concerns expect their trust?",
+      "answerZh": "一個忽視年輕人關注的社會，又怎能期望得到他們的信任？",
+      "answerZhSource": "pdf",
+      "highlight": "How can a society that ignores young people’s concerns expect their trust?"
+    },
+    {
+      "id": "ss87-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Cutting training simply to save money today would be short-sighted.",
+      "promptZh": "單純為了節省眼前的金錢而削減培訓，是目光短淺的做法。",
+      "promptZhSource": "pdf",
+      "starter": "Wouldn’t",
+      "answer": "Wouldn’t cutting training simply to save money today be short-sighted?",
+      "answerZh": "單純為了節省眼前的金錢而削減培訓，難道不是目光短淺嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Wouldn’t cutting training simply to save money today be short-sighted?"
+    },
+    {
+      "id": "ss87-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No responsible leader would announce a major change without considering its effects.",
+      "promptZh": "沒有負責任的領袖會在未考慮影響前宣布重大改變。",
+      "promptZhSource": "pdf",
+      "starter": "Would",
+      "answer": "Would any responsible leader announce a major change without considering its effects?",
+      "answerZh": "任何負責任的領袖會在未考慮影響前宣布重大改變嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Would any responsible leader announce a major change without considering its effects?"
+    },
+    {
+      "id": "ss87-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We cannot believe that a policy is effective when the same problem keeps returning.",
+      "promptZh": "當同一問題不斷重現時，我們不能相信一項政策是有效的。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can we believe that a policy is effective when the same problem keeps returning?",
+      "answerZh": "當同一問題不斷重現時，我們又怎能相信一項政策是有效的？",
+      "answerZhSource": "pdf",
+      "highlight": "How can we believe that a policy is effective when the same problem keeps returning?"
+    },
+    {
+      "id": "ss87-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "We should not celebrate higher output when workers’ health is being harmed.",
+      "promptZh": "當工人的健康正受到損害時，我們不應慶祝更高的產出。",
+      "promptZhSource": "pdf",
+      "starter": "Should",
+      "answer": "Should we celebrate higher output when workers’ health is being harmed?",
+      "answerZh": "當工人的健康正受到損害時，我們難道還應慶祝更高的產出嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Should we celebrate higher output when workers’ health is being harmed?"
+    },
+    {
+      "id": "ss87-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "No one can deny that public trust takes years to build but moments to lose.",
+      "promptZh": "沒有人能否認，公眾信任需要多年建立，卻可以在一瞬間失去。",
+      "promptZhSource": "pdf",
+      "starter": "Can",
+      "answer": "Can anyone deny that public trust takes years to build but moments to lose?",
+      "answerZh": "有誰能否認，公眾信任需要多年建立，卻可以在一瞬間失去？",
+      "answerZhSource": "pdf",
+      "highlight": "Can anyone deny that public trust takes years to build but moments to lose?"
+    },
+    {
+      "id": "ss87-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "If evidence points in another direction, we should be willing to change our minds.",
+      "promptZh": "如果證據指向另一個方向，我們應願意改變自己的看法。",
+      "promptZhSource": "pdf",
+      "starter": "Shouldn’t",
+      "answer": "Shouldn’t we be willing to change our minds if evidence points in another direction?",
+      "answerZh": "如果證據指向另一個方向，我們難道不應願意改變自己的看法嗎？",
+      "answerZhSource": "pdf",
+      "highlight": "Shouldn’t we be willing to change our minds if evidence points in another direction?"
+    },
+    {
+      "id": "ss87-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "It makes no sense to demand creativity while punishing every unusual idea.",
+      "promptZh": "一方面要求創意，另一方面卻懲罰所有不尋常的想法，是毫無道理的。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can it make sense to demand creativity while punishing every unusual idea?",
+      "answerZh": "一方面要求創意，另一方面卻懲罰所有不尋常的想法，這又怎會合理？",
+      "answerZhSource": "pdf",
+      "highlight": "How can it make sense to demand creativity while punishing every unusual idea?"
+    },
+    {
+      "id": "ss87-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "A system cannot be called inclusive if people with disabilities cannot use it independently.",
+      "promptZh": "如果殘疾人士不能獨立使用一個系統，這個系統便不能稱為共融。",
+      "promptZhSource": "pdf",
+      "starter": "How",
+      "answer": "How can a system be called inclusive if people with disabilities cannot use it independently?",
+      "answerZh": "如果殘疾人士不能獨立使用一個系統，這個系統又怎能稱為共融？",
+      "answerZhSource": "pdf",
+      "highlight": "How can a system be called inclusive if people with disabilities cannot use it independently?"
+    },
+    {
+      "id": "ss87-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Success means nothing if it costs us our values.",
+      "promptZh": "如果成功令我們失去自己的價值觀，這種成功便毫無意義。",
+      "promptZhSource": "pdf",
+      "starter": "What",
+      "answer": "What does success mean if it costs us our values?",
+      "answerZh": "如果成功令我們失去自己的價值觀，這種成功又有甚麼意義？",
+      "answerZhSource": "pdf",
+      "highlight": "What does success mean if it costs us our values?"
+    }
+  ]
+}

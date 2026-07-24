@@ -1,0 +1,1284 @@
+{
+  "id": "ss84",
+  "order": 84,
+  "slug": "adjective-adverb-enough-to",
+  "title": "「形容詞／副詞 + enough + to 句」",
+  "titleZh": "「形容詞／副詞 + enough + to」句型",
+  "titleEn": "Adjective / Adverb + enough + to Clauses",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 84 -「形容詞／副詞 + enough + to 句」.pdf",
+    "pageCount": 22,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "answerPages": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "omissions": [
+      "The PDF does not provide a standalone English lesson title; titleEn is a faithful editorial translation.",
+      "The PDF presents the Important Rules and Benefits explanations primarily in Traditional Chinese; their English fields are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + be / linking verb + adjective + enough + (for + person) + to + base verb + other information",
+  "formulas": [
+    {
+      "id": "ss84-formula-adjective",
+      "labelZh": "形容詞",
+      "labelEn": "Adjective",
+      "formula": "Subject + be / linking verb + adjective + enough + (for + person) + to + base verb + other information"
+    },
+    {
+      "id": "ss84-formula-adverb",
+      "labelZh": "副詞",
+      "labelEn": "Adverb",
+      "formula": "Subject + action verb + adverb + enough + (for + person) + to + base verb + other information"
+    },
+    {
+      "id": "ss84-formula-negative",
+      "labelZh": "否定形式",
+      "labelEn": "Negative Form",
+      "formula": "Subject + be / verb + not + adjective / adverb + enough + (for + person) + to + base verb"
+    }
+  ],
+  "example": "She was calm enough to explain everything.",
+  "exampleZh": "她夠冷靜，能夠解釋一切。",
+  "examples": [
+    {
+      "id": "ss84-example-adjective-calm",
+      "en": "She was calm enough to explain everything.",
+      "zh": "她夠冷靜，能夠解釋一切。",
+      "highlight": "calm enough to explain"
+    },
+    {
+      "id": "ss84-example-adjective-old",
+      "en": "He is old enough to drive a car.",
+      "zh": "他的年齡夠大，可以駕駛汽車。",
+      "highlight": "old enough to drive"
+    },
+    {
+      "id": "ss84-example-final-preposition",
+      "en": "The water is warm enough to swim in.",
+      "zh": "水夠暖，可以在裏面游泳。",
+      "highlight": "warm enough to swim in"
+    },
+    {
+      "id": "ss84-example-adverb-loudly",
+      "en": "She spoke loudly enough to be heard at the back of the room.",
+      "zh": "她說話夠大聲，房間後方的人也聽得到。",
+      "highlight": "loudly enough to be heard"
+    },
+    {
+      "id": "ss84-example-adverb-fast",
+      "en": "He ran fast enough to catch the last train.",
+      "zh": "他跑得夠快，趕上了尾班車。",
+      "highlight": "fast enough to catch"
+    }
+  ],
+  "meaning": {
+    "zh": "這個句型表示某種特質、狀態或做事方式已經達到進行某項動作所需的程度。"
+  },
+  "rules": [
+    {
+      "id": "ss84-rule-01",
+      "zh": "Enough 放在形容詞或副詞之後，例如 calm enough、tall enough、quickly enough 和 carefully enough；不要寫 enough calm、enough tall 或 enough quickly。但是，enough 放在名詞前面，例如 enough time、enough money 和 enough confidence。因此，enough confidence 和 confident enough 屬於不同結構。",
+      "en": "Place enough after an adjective or adverb, as in calm enough, tall enough, quickly enough and carefully enough; do not write enough calm, enough tall or enough quickly. However, enough comes before a noun, as in enough time, enough money and enough confidence. Therefore, enough confidence and confident enough are different structures.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss84-rule-02",
+      "zh": "To 後面使用動詞原形。正確形式包括 strong enough to lift、clearly enough to understand 和 fast enough to catch；不要寫 strong enough to lifted、clearly enough to understanding 或 fast enough to caught。",
+      "en": "Use the base form of the verb after to. Correct forms include strong enough to lift, clearly enough to understand and fast enough to catch; do not write strong enough to lifted, clearly enough to understanding or fast enough to caught.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss84-rule-03",
+      "zh": "形容詞和副詞的位置不同。形容詞通常放在 be 後面，描述人物或事物；副詞放在動作動詞後面，描述動作進行的方式。",
+      "en": "Adjectives and adverbs occupy different positions. An adjective normally follows be and describes a person or thing, while an adverb follows an action verb and describes how the action is performed.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Adjective: She is patient enough to wait.",
+        "Adverb: She waited patiently enough to remain calm."
+      ]
+    },
+    {
+      "id": "ss84-rule-04",
+      "zh": "動作由另一個人完成時，使用 for + person。主句和 to 動詞由同一人完成時，不需要加入 for + person。",
+      "en": "Use for + person when another person performs the action. When the subject of the main clause also performs the to-infinitive action, for + person is unnecessary.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Same person: Ben ran fast enough to catch the bus.",
+        "Another person: The bag was light enough for Leo to carry."
+      ]
+    },
+    {
+      "id": "ss84-rule-05",
+      "zh": "某些句子需要保留句末介詞，例如 swim in、walk on 和 record the interview in；不要隨意刪去這些介詞。",
+      "en": "Some sentences require a final preposition, as in swim in, walk on and record the interview in. Do not remove these prepositions.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The water was warm enough to swim in.",
+        "The path was safe enough to walk on.",
+        "The room was quiet enough to record the interview in."
+      ]
+    },
+    {
+      "id": "ss84-rule-06",
+      "zh": "否定形式表示程度未達要求。",
+      "en": "The negative form shows that the required degree has not been reached.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The coffee is not cool enough to drink.",
+        "The instructions were not clear enough to follow."
+      ]
+    },
+    {
+      "id": "ss84-rule-07",
+      "zh": "Enough to 和 too…to 的意思相反。adjective / adverb + enough to 表示程度足夠，動作可以進行；too + adjective / adverb + to 表示程度過高或過低，動作不能進行。",
+      "en": "Enough to and too…to have opposite meanings. Adjective / adverb + enough to shows that the degree is sufficient and the action is possible, while too + adjective / adverb + to shows that the degree is excessive or insufficient and the action is not possible.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Enough: The box is light enough to carry.",
+        "Too: The box is too heavy to carry."
+      ]
+    },
+    {
+      "id": "ss84-rule-08",
+      "zh": "To + 動詞不一定表示「目的」。在 He is tall enough to reach the shelf. 中，to reach the shelf 表示身高令這項動作成為可能，而不是解釋他「為甚麼」這麼高。",
+      "en": "To + verb does not always express purpose. In He is tall enough to reach the shelf, to reach the shelf shows that his height makes the action possible; it does not explain why he is tall.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss84-benefit-01",
+      "zh": "清楚表達「程度是否足夠」。這個句型能清楚說明某種身高、速度、力量、清晰程度或其他條件，是否已達到進行某項動作所需的水平。",
+      "en": "It clearly shows whether a degree is sufficient. The structure explains whether a height, speed, strength, level of clarity or another condition has reached the level needed for an action.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "This bridge is strong enough for heavy lorries to cross."
+      ]
+    },
+    {
+      "id": "ss84-benefit-02",
+      "zh": "把條件和可以進行的動作連接起來。你可以在同一句中說明某項特質，以及該特質所帶來的能力或結果，讓讀者立即明白兩者的關係。",
+      "en": "It connects a condition with the action that becomes possible. In one sentence, you can state a quality and the ability or result that quality produces, making the relationship immediately clear.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The room is quiet enough to study in."
+      ]
+    },
+    {
+      "id": "ss84-benefit-03",
+      "zh": "把較長的 so…that 句縮短。She was calm enough to explain everything. 與較長的 She was so calm that she could explain everything. 意思相近，但 enough to 句更直接。",
+      "en": "It shortens a longer so…that sentence. She was calm enough to explain everything has a similar meaning to She was so calm that she could explain everything, but the enough to version is more direct.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss84-benefit-04",
+      "zh": "可以表達正面和負面判斷。正面形式表示條件已經足夠；否定形式表示條件仍未達要求，對表達實際限制、問題和建議非常有用。",
+      "en": "It can express positive and negative judgements. The positive form shows that a condition is sufficient, while the negative form shows that the requirement has not yet been met, which is useful for describing practical limits, problems and suggestions.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Positive: The screen is large enough for everyone to see.",
+        "Negative: The screen is not large enough for everyone to see."
+      ]
+    },
+    {
+      "id": "ss84-benefit-05",
+      "zh": "幫助你更準確地描述特質和動作。可以使用 patient enough、strong enough 和 clear enough 等形容詞結構描述人物或事物，亦可以使用 carefully enough、quickly enough 和 clearly enough 等副詞結構描述動作，增加句式變化並避免每句只使用 very、can 或 because。",
+      "en": "It helps you describe qualities and actions more precisely. Adjective patterns such as patient enough, strong enough and clear enough describe people or things, while adverb patterns such as carefully enough, quickly enough and clearly enough describe actions. This adds sentence variety and avoids relying on very, can or because in every sentence.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "titleEn is a faithful editorial translation because the PDF does not provide a standalone English lesson title.",
+    "English Important Rules and Benefits explanations are faithful editorial translations because the PDF supplies those teaching explanations primarily in Traditional Chinese."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using adjective or adverb + enough + to.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用「形容詞／副詞 + enough + to」改寫以下句子，表達某種特質、狀態或做事方式已達到或未達到進行該動作所需的程度。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss84-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "She was so calm that she could explain everything clearly.",
+      "promptZh": "她非常冷靜，因此能夠清楚解釋一切。",
+      "promptZhSource": "pdf",
+      "starter": "She",
+      "answer": "She was calm enough to explain everything clearly.",
+      "answerZh": "她夠冷靜，能夠清楚解釋一切。",
+      "answerZhSource": "pdf",
+      "highlight": "She was calm enough to explain everything clearly."
+    },
+    {
+      "id": "ss84-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben was so tall that he could reach the top shelf.",
+      "promptZh": "本非常高，因此能夠到達最上層的架子。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben was tall enough to reach the top shelf.",
+      "answerZh": "本夠高，能夠到達最上層的架子。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben was tall enough to reach the top shelf."
+    },
+    {
+      "id": "ss84-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "This water was so warm that we could swim in it.",
+      "promptZh": "這些水非常暖，所以我們可以在裏面游泳。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This water was warm enough for us to swim in.",
+      "answerZh": "這些水夠暖，我們可以在裏面游泳。",
+      "answerZhSource": "pdf",
+      "highlight": "This water was warm enough for us to swim in."
+    },
+    {
+      "id": "ss84-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Mia spoke very loudly. As a result, everyone could hear her.",
+      "promptZh": "米婭說話很大聲。因此，每個人都聽得到她。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia spoke loudly enough for everyone to hear her.",
+      "answerZh": "米婭說話夠大聲，讓每個人都聽得到她。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia spoke loudly enough for everyone to hear her."
+    },
+    {
+      "id": "ss84-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 17
+      },
+      "prompt": "This bag was so light that Leo could carry it.",
+      "promptZh": "這個袋子非常輕，所以里奧拿得動。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bag was light enough for Leo to carry.",
+      "answerZh": "這個袋子夠輕，里奧拿得動。",
+      "answerZhSource": "pdf",
+      "highlight": "This bag was light enough for Leo to carry."
+    },
+    {
+      "id": "ss84-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Owen ran so fast that he caught the bus.",
+      "promptZh": "歐文跑得非常快，因此趕上了巴士。",
+      "promptZhSource": "pdf",
+      "starter": "Owen",
+      "answer": "Owen ran fast enough to catch the bus.",
+      "answerZh": "歐文跑得夠快，趕上了巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "Owen ran fast enough to catch the bus."
+    },
+    {
+      "id": "ss84-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This room was so bright that we could read in it.",
+      "promptZh": "這個房間非常明亮，所以我們可以在裏面閱讀。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This room was bright enough for us to read in.",
+      "answerZh": "這個房間夠明亮，我們可以在裏面閱讀。",
+      "answerZhSource": "pdf",
+      "highlight": "This room was bright enough for us to read in."
+    },
+    {
+      "id": "ss84-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Can we eat the soup now? Yes, because it has cooled.",
+      "promptZh": "我們現在可以喝湯嗎？可以，因為湯已經放涼了。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The soup is cool enough to eat now.",
+      "answerZh": "湯已夠涼，現在可以喝了。",
+      "answerZhSource": "pdf",
+      "highlight": "The soup is cool enough to eat now."
+    },
+    {
+      "id": "ss84-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Eva’s writing was so clear that the teacher could read her answer.",
+      "promptZh": "伊娃的字寫得非常清楚，所以老師能看懂她的答案。",
+      "promptZhSource": "pdf",
+      "starter": "Eva",
+      "answer": "Eva wrote clearly enough for the teacher to read her answer.",
+      "answerZh": "伊娃寫得夠清楚，讓老師能看懂她的答案。",
+      "answerZhSource": "pdf",
+      "highlight": "Eva wrote clearly enough for the teacher to read her answer."
+    },
+    {
+      "id": "ss84-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This chair is so strong that it can support the box.",
+      "promptZh": "這張椅子非常堅固，可以承托這個箱子。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This chair is strong enough to support the box.",
+      "answerZh": "這張椅子夠堅固，可以承托這個箱子。",
+      "answerZhSource": "pdf",
+      "highlight": "This chair is strong enough to support the box."
+    },
+    {
+      "id": "ss84-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The child has enough patience to wait quietly.",
+      "promptZh": "這個孩子有足夠耐性安靜地等待。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The child is patient enough to wait quietly.",
+      "answerZh": "這個孩子夠有耐性，能安靜地等待。",
+      "answerZhSource": "pdf",
+      "highlight": "The child is patient enough to wait quietly."
+    },
+    {
+      "id": "ss84-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "This road is so wide that two buses can pass each other.",
+      "promptZh": "這條路非常寬，兩輛巴士可以相向駛過。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This road is wide enough for two buses to pass each other.",
+      "answerZh": "這條路夠寬，讓兩輛巴士可以相向駛過。",
+      "answerZhSource": "pdf",
+      "highlight": "This road is wide enough for two buses to pass each other."
+    },
+    {
+      "id": "ss84-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "How did Jason notice the mistake? He listened very carefully.",
+      "promptZh": "傑森怎樣留意到那個錯誤？他聽得非常仔細。",
+      "promptZhSource": "pdf",
+      "starter": "Jason",
+      "answer": "Jason listened carefully enough to notice the mistake.",
+      "answerZh": "傑森聽得夠仔細，留意到那個錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason listened carefully enough to notice the mistake."
+    },
+    {
+      "id": "ss84-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "These instructions could be followed by new students because they were very simple.",
+      "promptZh": "這些指示非常簡單，因此新生也能理解。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions were simple enough for new students to follow.",
+      "answerZh": "這些指示夠簡單，新生也能理解。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions were simple enough for new students to follow."
+    },
+    {
+      "id": "ss84-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The coffee is still too hot to drink.",
+      "promptZh": "咖啡仍然太熱，不能喝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The coffee is not cool enough to drink yet.",
+      "answerZh": "咖啡還未夠涼，暫時不能喝。",
+      "answerZhSource": "pdf",
+      "highlight": "The coffee is not cool enough to drink yet."
+    },
+    {
+      "id": "ss84-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Chloe answered in such a polite way that she calmed the customer.",
+      "promptZh": "克洛伊回答得非常有禮，因此令顧客平靜下來。",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe answered politely enough to calm the customer.",
+      "answerZh": "克洛伊回答得夠有禮，令顧客平靜下來。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe answered politely enough to calm the customer."
+    },
+    {
+      "id": "ss84-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "That box was so small that it fitted under the desk.",
+      "promptZh": "那個箱子非常小，所以能放到書桌下面。",
+      "promptZhSource": "pdf",
+      "starter": "That",
+      "answer": "That box was small enough to fit under the desk.",
+      "answerZh": "那個箱子夠小，可以放到書桌下面。",
+      "answerZhSource": "pdf",
+      "highlight": "That box was small enough to fit under the desk."
+    },
+    {
+      "id": "ss84-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Noah explained the rule slowly, and the class was able to understand it.",
+      "promptZh": "諾亞慢慢解釋規則，而全班都能夠明白。",
+      "promptZhSource": "pdf",
+      "starter": "Noah",
+      "answer": "Noah explained the rule slowly enough for the class to understand it.",
+      "answerZh": "諾亞解釋得夠慢，讓全班都能明白規則。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah explained the rule slowly enough for the class to understand it."
+    },
+    {
+      "id": "ss84-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "This path was no longer too wet, so we could walk on it safely.",
+      "promptZh": "這條小徑已不再太濕，所以我們可以安全地在上面行走。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This path was dry enough for us to walk on safely.",
+      "answerZh": "這條小徑夠乾，我們可以安全地在上面行走。",
+      "answerZhSource": "pdf",
+      "highlight": "This path was dry enough for us to walk on safely."
+    },
+    {
+      "id": "ss84-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why did the singer reach the final? She performed very well.",
+      "promptZh": "歌手為甚麼能晉身決賽？她的表現非常出色。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The singer performed well enough to reach the final.",
+      "answerZh": "歌手表現得夠好，晉身決賽。",
+      "answerZhSource": "pdf",
+      "highlight": "The singer performed well enough to reach the final."
+    },
+    {
+      "id": "ss84-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This screen was so large that everyone at the back could see it.",
+      "promptZh": "這個螢幕非常大，所以坐在後排的每個人都看得到。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This screen was large enough for everyone at the back to see.",
+      "answerZh": "這個螢幕夠大，坐在後排的每個人都看得到。",
+      "answerZhSource": "pdf",
+      "highlight": "This screen was large enough for everyone at the back to see."
+    },
+    {
+      "id": "ss84-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The medicine acted so quickly that it reduced the pain within an hour.",
+      "promptZh": "藥物生效得非常快，因此在一小時內減輕了痛楚。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The medicine acted quickly enough to reduce the pain within an hour.",
+      "answerZh": "藥物生效得夠快，在一小時內減輕了痛楚。",
+      "answerZhSource": "pdf",
+      "highlight": "The medicine acted quickly enough to reduce the pain within an hour."
+    },
+    {
+      "id": "ss84-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "This table was so low that the children could use it comfortably.",
+      "promptZh": "這張桌子非常矮，所以孩子們可以舒適地使用。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This table was low enough for the children to use comfortably.",
+      "answerZh": "這張桌子夠矮，孩子們可以舒適地使用。",
+      "answerZhSource": "pdf",
+      "highlight": "This table was low enough for the children to use comfortably."
+    },
+    {
+      "id": "ss84-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The sign could be seen from across the street because it was very clear.",
+      "promptZh": "這個標誌非常清晰，所以從街道對面也看得到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The sign was clear enough to be seen from across the street.",
+      "answerZh": "這個標誌夠清晰，從街道對面也看得到。",
+      "answerZhSource": "pdf",
+      "highlight": "The sign was clear enough to be seen from across the street."
+    },
+    {
+      "id": "ss84-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The music was too loud, so the baby could not sleep.",
+      "promptZh": "音樂太大聲，所以嬰兒無法入睡。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The music was not quiet enough for the baby to sleep.",
+      "answerZh": "音樂不夠安靜，嬰兒無法入睡。",
+      "answerZhSource": "pdf",
+      "highlight": "The music was not quiet enough for the baby to sleep."
+    },
+    {
+      "id": "ss84-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Olivia had enough confidence to ask the first question.",
+      "promptZh": "奧莉花有足夠信心提出第一條問題。",
+      "promptZhSource": "pdf",
+      "starter": "Olivia",
+      "answer": "Olivia was confident enough to ask the first question.",
+      "answerZh": "奧莉花夠有信心，提出第一條問題。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia was confident enough to ask the first question."
+    },
+    {
+      "id": "ss84-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The driver reacted very quickly, so he avoided the fallen branch.",
+      "promptZh": "司機反應非常快，因此避開了倒下的樹枝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The driver reacted quickly enough to avoid the fallen branch.",
+      "answerZh": "司機反應夠快，避開了倒下的樹枝。",
+      "answerZhSource": "pdf",
+      "highlight": "The driver reacted quickly enough to avoid the fallen branch."
+    },
+    {
+      "id": "ss84-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 20
+      },
+      "prompt": "This bridge is so strong that heavy lorries can cross it safely.",
+      "promptZh": "這座橋非常堅固，重型貨車可以安全駛過。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bridge is strong enough for heavy lorries to cross safely.",
+      "answerZh": "這座橋夠堅固，重型貨車可以安全駛過。",
+      "answerZhSource": "pdf",
+      "highlight": "This bridge is strong enough for heavy lorries to cross safely."
+    },
+    {
+      "id": "ss84-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Although the readers were young, they could understand the text because it was very simple.",
+      "promptZh": "雖然讀者年紀小，但他們能夠理解這篇文字，因為內容非常簡單。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The text was simple enough for young readers to understand.",
+      "answerZh": "這篇文字夠簡單，年幼讀者能夠理解。",
+      "answerZhSource": "pdf",
+      "highlight": "The text was simple enough for young readers to understand."
+    },
+    {
+      "id": "ss84-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This bottle opening was so wide that we could pour the rice through it.",
+      "promptZh": "這個瓶口非常寬，所以我們可以把米從那裏倒進瓶內。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This bottle opening was wide enough for us to pour the rice through.",
+      "answerZh": "這個瓶口夠寬，我們可以把米倒進瓶內。",
+      "answerZhSource": "pdf",
+      "highlight": "This bottle opening was wide enough for us to pour the rice through."
+    },
+    {
+      "id": "ss84-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Hold the camera very steadily; then you will be able to take a clear photograph.",
+      "promptZh": "把相機拿得非常穩；這樣你便能拍出清晰的照片。",
+      "promptZhSource": "pdf",
+      "starter": "Hold",
+      "answer": "Hold the camera steadily enough to take a clear photograph.",
+      "answerZh": "把相機拿得夠穩，以拍出清晰的照片。",
+      "answerZhSource": "pdf",
+      "highlight": "Hold the camera steadily enough to take a clear photograph."
+    },
+    {
+      "id": "ss84-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "You must speak slowly, or the interpreter will not be able to follow you.",
+      "promptZh": "你必須說得慢一點，否則傳譯員將無法跟上你。",
+      "promptZhSource": "pdf",
+      "starter": "You",
+      "answer": "You must speak slowly enough for the interpreter to follow you.",
+      "answerZh": "你必須說得夠慢，讓傳譯員能跟上你。",
+      "answerZhSource": "pdf",
+      "highlight": "You must speak slowly enough for the interpreter to follow you."
+    },
+    {
+      "id": "ss84-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "After the workers leave, the hall will become so quiet that we can record the interview there.",
+      "promptZh": "工人離開後，禮堂會變得非常安靜，我們便可以在那裏錄製訪問。",
+      "promptZhSource": "pdf",
+      "starter": "After",
+      "answer": "After the workers leave, the hall will be quiet enough for us to record the interview in.",
+      "answerZh": "工人離開後，禮堂會夠安靜，讓我們在裏面錄製訪問。",
+      "answerZhSource": "pdf",
+      "highlight": "After the workers leave, the hall will be quiet enough for us to record the interview in."
+    },
+    {
+      "id": "ss84-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "This shelf is too low to keep the medicines away from children.",
+      "promptZh": "這個架子太低，不能把藥物放在兒童接觸不到的地方。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This shelf is not high enough to keep the medicines away from children.",
+      "answerZh": "這個架子不夠高，無法把藥物放在兒童接觸不到的地方。",
+      "answerZhSource": "pdf",
+      "highlight": "This shelf is not high enough to keep the medicines away from children."
+    },
+    {
+      "id": "ss84-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The report contained sufficient detail for the manager to make a decision.",
+      "promptZh": "報告包含足夠詳細資料，讓經理作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report was detailed enough for the manager to make a decision.",
+      "answerZh": "報告夠詳細，讓經理作出決定。",
+      "answerZhSource": "pdf",
+      "highlight": "The report was detailed enough for the manager to make a decision."
+    },
+    {
+      "id": "ss84-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "This emergency exit was made very wide, so people could leave quickly.",
+      "promptZh": "這個緊急出口設計得非常寬闊，讓人們能夠迅速離開。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This emergency exit was wide enough for people to leave quickly.",
+      "answerZh": "這個緊急出口夠寬，讓人們能夠迅速離開。",
+      "answerZhSource": "pdf",
+      "highlight": "This emergency exit was wide enough for people to leave quickly."
+    },
+    {
+      "id": "ss84-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The robot moved with such accuracy that it placed each part in the correct position.",
+      "promptZh": "機械人移動得非常準確，所以把每個零件放到正確位置。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The robot moved accurately enough to place each part in the correct position.",
+      "answerZh": "機械人移動得夠準確，把每個零件放到正確位置。",
+      "answerZhSource": "pdf",
+      "highlight": "The robot moved accurately enough to place each part in the correct position."
+    },
+    {
+      "id": "ss84-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The classroom was still too cold for the children to remove their coats.",
+      "promptZh": "課室仍然太冷，孩子們不能脫下外套。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The classroom was not warm enough for the children to remove their coats.",
+      "answerZh": "課室不夠暖，孩子們不能脫下外套。",
+      "answerZhSource": "pdf",
+      "highlight": "The classroom was not warm enough for the children to remove their coats."
+    },
+    {
+      "id": "ss84-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "This explanation was so clear that it answered most of our questions.",
+      "promptZh": "這個解釋非常清楚，解答了我們大部分問題。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This explanation was clear enough to answer most of our questions.",
+      "answerZh": "這個解釋夠清楚，解答了我們大部分問題。",
+      "answerZhSource": "pdf",
+      "highlight": "This explanation was clear enough to answer most of our questions."
+    },
+    {
+      "id": "ss84-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The players trained so hard that their fitness improved before the tournament.",
+      "promptZh": "球員訓練得非常刻苦，因此在賽事前提升了體能。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The players trained hard enough to improve their fitness before the tournament.",
+      "answerZh": "球員訓練得夠刻苦，在賽事前提升了體能。",
+      "answerZhSource": "pdf",
+      "highlight": "The players trained hard enough to improve their fitness before the tournament."
+    },
+    {
+      "id": "ss84-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "This online form is so simple that first-time users can complete it without help.",
+      "promptZh": "這份網上表格非常簡單，首次使用的人無需協助也能完成。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This online form is simple enough for first-time users to complete without help.",
+      "answerZh": "這份網上表格夠簡單，首次使用的人無需協助也能完成。",
+      "answerZhSource": "pdf",
+      "highlight": "This online form is simple enough for first-time users to complete without help."
+    },
+    {
+      "id": "ss84-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "Why were the passengers able to make the connecting train? The bus arrived earlier than expected.",
+      "promptZh": "乘客為甚麼能趕上接駁火車？巴士比預期早到。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The bus arrived early enough for the passengers to make the connecting train.",
+      "answerZh": "巴士到達得夠早，讓乘客趕上接駁火車。",
+      "answerZhSource": "pdf",
+      "highlight": "The bus arrived early enough for the passengers to make the connecting train."
+    },
+    {
+      "id": "ss84-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 15,
+        "answerNumberPage": 21,
+        "answerPage": 21,
+        "answerZhPage": 21
+      },
+      "prompt": "The nurse spoke in such a gentle way that she reassured the frightened child.",
+      "promptZh": "護士說話非常溫柔，因此令受驚的孩子安心下來。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse spoke gently enough to reassure the frightened child.",
+      "answerZh": "護士說話夠溫柔，令受驚的孩子安心下來。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse spoke gently enough to reassure the frightened child."
+    },
+    {
+      "id": "ss84-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This public announcement could be heard throughout the station because it was very loud.",
+      "promptZh": "這段公共廣播非常響亮，所以整個車站都聽得到。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This public announcement was loud enough to be heard throughout the station.",
+      "answerZh": "這段公共廣播夠響亮，整個車站都聽得到。",
+      "answerZhSource": "pdf",
+      "highlight": "This public announcement was loud enough to be heard throughout the station."
+    },
+    {
+      "id": "ss84-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The community hall has enough space to hold both workshops at the same time.",
+      "promptZh": "社區禮堂有足夠空間同時舉行兩個工作坊。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community hall is large enough to hold both workshops at the same time.",
+      "answerZh": "社區禮堂夠大，可以同時舉行兩個工作坊。",
+      "answerZhSource": "pdf",
+      "highlight": "The community hall is large enough to hold both workshops at the same time."
+    },
+    {
+      "id": "ss84-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "Why could the technician not identify the fault? The instructions were too vague.",
+      "promptZh": "技術員為甚麼無法找出故障？因為指示太含糊。",
+      "promptZhSource": "pdf",
+      "starter": "These",
+      "answer": "These instructions were not precise enough for the technician to identify the fault.",
+      "answerZh": "這些指示不夠精確，技術員無法找出故障。",
+      "answerZhSource": "pdf",
+      "highlight": "These instructions were not precise enough for the technician to identify the fault."
+    },
+    {
+      "id": "ss84-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The team’s rapid response prevented the small problem from becoming serious.",
+      "promptZh": "團隊迅速作出回應，避免小問題變得嚴重。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The team responded quickly enough to prevent the small problem from becoming serious.",
+      "answerZh": "團隊回應得夠快，避免小問題變得嚴重。",
+      "answerZhSource": "pdf",
+      "highlight": "The team responded quickly enough to prevent the small problem from becoming serious."
+    },
+    {
+      "id": "ss84-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 15,
+        "starterPage": 15,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This new pavement is so smooth that wheelchair users can move along it safely.",
+      "promptZh": "這條新行人路非常平滑，輪椅使用者可以安全地沿路前進。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This new pavement is smooth enough for wheelchair users to move along safely.",
+      "answerZh": "這條新行人路夠平滑，輪椅使用者可以安全地沿路前進。",
+      "answerZhSource": "pdf",
+      "highlight": "This new pavement is smooth enough for wheelchair users to move along safely."
+    },
+    {
+      "id": "ss84-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 15,
+        "questionPage": 15,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "The researchers were able to include the data in their report because it proved reliable.",
+      "promptZh": "數據證實可靠，因此研究人員能夠把它納入報告。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The data was reliable enough for the researchers to include in their report.",
+      "answerZh": "數據夠可靠，研究人員可以把它納入報告。",
+      "answerZhSource": "pdf",
+      "highlight": "The data was reliable enough for the researchers to include in their report."
+    },
+    {
+      "id": "ss84-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 16,
+        "questionPage": 16,
+        "promptZhPage": 16,
+        "starterPage": 16,
+        "answerNumberPage": 22,
+        "answerPage": 22,
+        "answerZhPage": 22
+      },
+      "prompt": "This training programme must be highly flexible because it has to meet the needs of staff working different shifts.",
+      "promptZh": "這個培訓課程必須非常靈活，因為它要配合不同輪班員工的需要。",
+      "promptZhSource": "pdf",
+      "starter": "This",
+      "answer": "This training programme must be flexible enough to meet the needs of staff working different shifts.",
+      "answerZh": "這個培訓課程必須夠靈活，才能配合不同輪班員工的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "This training programme must be flexible enough to meet the needs of staff working different shifts."
+    }
+  ]
+}

@@ -1,0 +1,1236 @@
+{
+  "id": "ss106",
+  "order": 106,
+  "slug": "whether-or-options-situations",
+  "title": "「Whether... or...」句型",
+  "titleZh": "「Whether... or... 句」",
+  "titleEn": "Using Whether...or... for alternatives and unchanged results",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 106 -「Whether... or... 句」.pdf",
+    "pageCount": 18,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Main clause + whether + alternative A + or + alternative B",
+  "formulas": [
+    {
+      "id": "ss106-formula-uncertain",
+      "labelEn": "Uncertain alternatives",
+      "labelZh": "用法一：表達兩種未確定的選擇或可能",
+      "formula": "Main clause + whether + alternative A + or + alternative B"
+    },
+    {
+      "id": "ss106-formula-regardless",
+      "labelEn": "Whichever situation applies",
+      "labelZh": "用法二：表示無論是哪一種情況",
+      "formula": "Whether + situation A + or + situation B, + main clause"
+    },
+    {
+      "id": "ss106-formula-infinitive",
+      "labelEn": "Whether + to-infinitive",
+      "labelZh": "用法三：whether + to-infinitive",
+      "formula": "Main clause + whether + to + base verb + or + base verb"
+    }
+  ],
+  "example": "I do not know whether I should stay or leave.",
+  "exampleZh": "我不知道我應該留下還是離開。",
+  "examples": [
+    {
+      "id": "ss106-example-uncertain",
+      "en": "I do not know whether I should stay or leave.",
+      "zh": "我不知道我應該留下還是離開。",
+      "highlight": "whether I should stay or leave"
+    },
+    {
+      "id": "ss106-example-regardless",
+      "en": "Whether it rains or shines, the game will go on.",
+      "zh": "無論下雨還是天晴，比賽都會繼續進行。",
+      "highlight": "Whether it rains or shines"
+    },
+    {
+      "id": "ss106-example-infinitive",
+      "en": "She cannot decide whether to stay or leave.",
+      "zh": "她無法決定應該留下還是離開。",
+      "highlight": "whether to stay or leave"
+    }
+  ],
+  "meaning": {
+    "zh": "Whether...or... 可表示兩個未確定選項，也可表示無論哪種情況出現，主要結果都不會改變。"
+  },
+  "rules": [
+    {
+      "id": "ss106-rule-01",
+      "zh": "放在 know、decide、ask、wonder、check 等動詞後時，通常表示兩個未確定選項；放在句首時，通常表示無論哪種情況，主要結果都不變。",
+      "en": "After verbs such as know, decide, ask, wonder and check, it normally presents two uncertain options; at the beginning, it normally means the main result is unchanged in either situation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I wonder whether the shop is open or closed.",
+        "Whether the shop is open or closed, we will go there."
+      ]
+    },
+    {
+      "id": "ss106-rule-02",
+      "zh": "Or 前後的兩個選項應使用相同或相近的文法形式。",
+      "en": "The two alternatives around or should use matching or closely parallel grammatical forms.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "She cannot decide whether to walk or take a bus."
+      ]
+    },
+    {
+      "id": "ss106-rule-03",
+      "zh": "同一人選擇兩個行動時，可以使用 whether to；第二個 to 可以省略。",
+      "en": "Use whether to when the same person is choosing between actions; the second to may be omitted.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I have not decided whether to call him or send a message."
+      ]
+    },
+    {
+      "id": "ss106-rule-04",
+      "zh": "間接問句中的 whether 後面使用一般陳述句語序，而不是直接問句語序。",
+      "en": "After whether in an indirect question, use statement word order rather than direct-question word order.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "I do not know whether the library is open or closed."
+      ]
+    },
+    {
+      "id": "ss106-rule-05",
+      "zh": "Either...or... 直接提出兩個選項；Whether...or... 表示不知道哪個選項正確，或表示兩種情況下結果相同。",
+      "en": "Either...or... directly presents two alternatives; Whether...or... expresses uncertainty about which is true or an unchanged result in either situation.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Either Amy or Ben will call you.",
+        "I do not know whether Amy or Ben will call you."
+      ]
+    },
+    {
+      "id": "ss106-rule-06",
+      "zh": "本練習集中使用兩個清楚列出的選項，不以 whether...or not 為主要目標。",
+      "en": "This exercise focuses on two explicitly stated alternatives rather than whether...or not.",
+      "enSource": "editorial-translation",
+      "examples": []
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss106-benefit-01",
+      "zh": "把兩個選項或可能性放在一起，讓聽者立即明白不確定的是甚麼。",
+      "en": "This structure places two choices or possibilities together, so the listener can immediately understand what is uncertain."
+    },
+    {
+      "id": "ss106-benefit-02",
+      "zh": "不需要直接重複問題，也可以把問題自然地放進另一個完整句子。",
+      "en": "Instead of repeating a direct question, you can place the question inside a longer sentence."
+    },
+    {
+      "id": "ss106-benefit-03",
+      "zh": "可在 decide、consider、discuss 和 wonder 等動詞後清楚說明正在考慮哪些選項。",
+      "en": "You can use whether...or... after decide, consider, discuss and wonder to explain the exact choices being considered."
+    },
+    {
+      "id": "ss106-benefit-04",
+      "zh": "句首的 Whether...or... 可以表示無論哪種情況，主要結果都不改變。",
+      "en": "A sentence beginning with Whether...or... can show that the same result applies in both situations."
+    },
+    {
+      "id": "ss106-benefit-05",
+      "zh": "它能把兩種可能和一個決定或結果合併成一個有組織的句子。",
+      "en": "The structure can combine two possibilities and one decision or result, making the message easier to follow."
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using whether...or.... Preserve the original meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 whether...or... 改寫以下句子，並保留原意。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss106-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Is the shop open, or is it closed? I do not know.",
+      "promptZh": "商店是開門還是關門？我不知道。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I do not know whether the shop is open or closed.",
+      "answerZh": "我不知道商店是開門還是關門。",
+      "answerZhSource": "pdf",
+      "highlight": "I do not know whether the shop is open or closed."
+    },
+    {
+      "id": "ss106-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Mia cannot decide which dress to wear: the blue one or the black one.",
+      "promptZh": "米婭無法決定應該穿藍色連身裙還是黑色連身裙。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia cannot decide whether to wear the blue dress or the black one.",
+      "answerZh": "米婭無法決定應該穿藍色連身裙還是黑色連身裙。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia cannot decide whether to wear the blue dress or the black one."
+    },
+    {
+      "id": "ss106-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Ben is wondering: Does the bus stop here, or does it stop at the next corner?",
+      "promptZh": "本正在想：這班巴士是在這裏停站，還是在下一個街角停站？",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben is wondering whether the bus stops here or at the next corner.",
+      "answerZh": "本正在想這班巴士是在這裏停站，還是在下一個街角停站。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben is wondering whether the bus stops here or at the next corner."
+    },
+    {
+      "id": "ss106-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "We may eat at home, or we may go to a restaurant. We have not decided.",
+      "promptZh": "我們可能在家吃飯，也可能到餐廳吃飯。我們還未決定。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have not decided whether to eat at home or go to a restaurant.",
+      "answerZh": "我們還未決定應該在家吃飯，還是到餐廳吃飯。",
+      "answerZhSource": "pdf",
+      "highlight": "We have not decided whether to eat at home or go to a restaurant."
+    },
+    {
+      "id": "ss106-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The students may understand the rule, or they may need another example. The teacher wants to know which is true.",
+      "promptZh": "學生可能已明白這條規則，也可能需要另一個例子。老師想知道是哪一種情況。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher wants to know whether the students understand the rule or need another example.",
+      "answerZh": "老師想知道學生是否已明白這條規則，還是需要另一個例子。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher wants to know whether the students understand the rule or need another example."
+    },
+    {
+      "id": "ss106-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "It may rain, or the sun may shine. The picnic will take place in either case.",
+      "promptZh": "可能會下雨，也可能會天晴。無論如何，野餐都會如期舉行。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether it rains or the sun shines, the picnic will take place.",
+      "answerZh": "無論下雨還是天晴，野餐都會如期舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether it rains or the sun shines, the picnic will take place."
+    },
+    {
+      "id": "ss106-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Jack may come early, or he may arrive late. We will save him a seat in either case.",
+      "promptZh": "傑克可能提早到達，也可能遲到。無論如何，我們都會為他保留座位。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether Jack comes early or arrives late, we will save him a seat.",
+      "answerZh": "無論傑克提早到達還是遲到，我們都會為他保留座位。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether Jack comes early or arrives late, we will save him a seat."
+    },
+    {
+      "id": "ss106-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Did the sound come from upstairs or from outside? Sarah cannot tell.",
+      "promptZh": "聲音是從樓上傳來，還是從外面傳來？莎拉無法分辨。",
+      "promptZhSource": "pdf",
+      "starter": "Sarah",
+      "answer": "Sarah cannot tell whether the sound came from upstairs or outside.",
+      "answerZh": "莎拉無法分辨聲音是從樓上還是從外面傳來。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah cannot tell whether the sound came from upstairs or outside."
+    },
+    {
+      "id": "ss106-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Please check the door. Is it locked or unlocked?",
+      "promptZh": "請檢查房門。房門是已上鎖還是沒有上鎖？",
+      "promptZhSource": "pdf",
+      "starter": "Please",
+      "answer": "Please check whether the door is locked or unlocked.",
+      "answerZh": "請檢查房門是已上鎖還是沒有上鎖。",
+      "answerZhSource": "pdf",
+      "highlight": "Please check whether the door is locked or unlocked."
+    },
+    {
+      "id": "ss106-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "They are discussing two travel plans: travelling by train and taking a coach.",
+      "promptZh": "他們正在討論兩個旅遊方案：乘火車或乘長途巴士。",
+      "promptZhSource": "pdf",
+      "starter": "They",
+      "answer": "They are discussing whether to travel by train or take a coach.",
+      "answerZh": "他們正在討論應該乘火車還是乘長途巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "They are discussing whether to travel by train or take a coach."
+    },
+    {
+      "id": "ss106-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Is this answer correct or incorrect? I am unsure.",
+      "promptZh": "這個答案是正確還是錯誤？我不確定。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I am unsure whether this answer is correct or incorrect.",
+      "answerZh": "我不確定這個答案是正確還是錯誤。",
+      "answerZhSource": "pdf",
+      "highlight": "I am unsure whether this answer is correct or incorrect."
+    },
+    {
+      "id": "ss106-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "You may agree or disagree. Please listen to the whole explanation in either case.",
+      "promptZh": "你可能同意，也可能不同意。無論如何，請先聽完整個解釋。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether you agree or disagree, please listen to the whole explanation.",
+      "answerZh": "無論你同意還是不同意，請先聽完整個解釋。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether you agree or disagree, please listen to the whole explanation."
+    },
+    {
+      "id": "ss106-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo has not chosen between studying science and studying history.",
+      "promptZh": "里奧還未在修讀科學和修讀歷史之間作出選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Leo",
+      "answer": "Leo has not chosen whether to study science or history.",
+      "answerZh": "里奧還未選擇應該修讀科學還是歷史。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo has not chosen whether to study science or history."
+    },
+    {
+      "id": "ss106-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The doctor asked, “Is the pain sharp or dull?”",
+      "promptZh": "醫生問：「疼痛是尖銳的還是隱隱作痛的？」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The doctor asked whether the pain was sharp or dull.",
+      "answerZh": "醫生詢問疼痛是尖銳的還是隱隱作痛的。",
+      "answerZhSource": "pdf",
+      "highlight": "The doctor asked whether the pain was sharp or dull."
+    },
+    {
+      "id": "ss106-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The room needs good lighting whatever its size.",
+      "promptZh": "無論房間大小如何，都需要良好的照明。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the room is large or small, it needs good lighting.",
+      "answerZh": "無論房間是大還是小，都需要良好的照明。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the room is large or small, it needs good lighting."
+    },
+    {
+      "id": "ss106-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Emma wants to know: Has the parcel arrived, or is it still on the way?",
+      "promptZh": "艾瑪想知道：包裹已經送到，還是仍在運送途中？",
+      "promptZhSource": "pdf",
+      "starter": "Emma",
+      "answer": "Emma wants to know whether the parcel has arrived or is still on the way.",
+      "answerZh": "艾瑪想知道包裹已經送到，還是仍在運送途中。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma wants to know whether the parcel has arrived or is still on the way."
+    },
+    {
+      "id": "ss106-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "We have two choices: leave now or wait for the rain to stop. We must decide.",
+      "promptZh": "我們有兩個選擇：現在離開，或等待雨停。我們必須作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We must decide whether to leave now or wait for the rain to stop.",
+      "answerZh": "我們必須決定應該現在離開，還是等待雨停。",
+      "answerZhSource": "pdf",
+      "highlight": "We must decide whether to leave now or wait for the rain to stop."
+    },
+    {
+      "id": "ss106-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The team may win or lose. The coach will review the match in either case.",
+      "promptZh": "球隊可能勝出，也可能落敗。無論如何，教練都會檢討比賽。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the team wins or loses, the coach will review the match.",
+      "answerZh": "無論球隊勝出還是落敗，教練都會檢討比賽。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the team wins or loses, the coach will review the match."
+    },
+    {
+      "id": "ss106-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe could not remember: Had she turned off the cooker, or had she left it on?",
+      "promptZh": "克洛伊記不起來：她關掉了煮食爐，還是讓它一直開着？",
+      "promptZhSource": "pdf",
+      "starter": "Chloe",
+      "answer": "Chloe could not remember whether she had turned off the cooker or left it on.",
+      "answerZh": "克洛伊記不起自己是關掉了煮食爐，還是讓它一直開着。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe could not remember whether she had turned off the cooker or left it on."
+    },
+    {
+      "id": "ss106-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Should we repair the old computer or replace it? That is the question.",
+      "promptZh": "我們應該修理舊電腦，還是更換它？這就是需要考慮的問題。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The question is whether we should repair the old computer or replace it.",
+      "answerZh": "問題在於我們應該修理舊電腦，還是更換它。",
+      "answerZhSource": "pdf",
+      "highlight": "The question is whether we should repair the old computer or replace it."
+    },
+    {
+      "id": "ss106-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The manager is considering two options: hiring another assistant or sharing the work differently.",
+      "promptZh": "經理正在考慮兩個選項：聘請另一名助理，或以不同方式分配工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The manager is considering whether to hire another assistant or share the work differently.",
+      "answerZh": "經理正在考慮應該聘請另一名助理，還是以不同方式分配工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The manager is considering whether to hire another assistant or share the work differently."
+    },
+    {
+      "id": "ss106-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The price may rise or fall. I will stay within my budget in either case.",
+      "promptZh": "價格可能上升，也可能下跌。無論如何，我都不會超出預算。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the price rises or falls, I will stay within my budget.",
+      "answerZh": "無論價格上升還是下跌，我都不會超出預算。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the price rises or falls, I will stay within my budget."
+    },
+    {
+      "id": "ss106-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The guide asked us, “Do you prefer the shorter route or the more scenic one?”",
+      "promptZh": "導遊問我們：「你們喜歡較短的路線，還是景色較優美的路線？」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The guide asked us whether we preferred the shorter route or the more scenic one.",
+      "answerZh": "導遊問我們喜歡較短的路線，還是景色較優美的路線。",
+      "answerZhSource": "pdf",
+      "highlight": "The guide asked us whether we preferred the shorter route or the more scenic one."
+    },
+    {
+      "id": "ss106-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Was the message sent by mistake or on purpose? I cannot tell.",
+      "promptZh": "這則訊息是錯誤發送，還是故意發送的？我無法判斷。",
+      "promptZhSource": "pdf",
+      "starter": "I",
+      "answer": "I cannot tell whether the message was sent by mistake or on purpose.",
+      "answerZh": "我無法判斷這則訊息是錯誤發送，還是故意發送的。",
+      "answerZhSource": "pdf",
+      "highlight": "I cannot tell whether the message was sent by mistake or on purpose."
+    },
+    {
+      "id": "ss106-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The meeting may be held online or in person. Everyone must prepare in either case.",
+      "promptZh": "會議可能在網上舉行，也可能以實體形式舉行。無論如何，每個人都必須做好準備。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the meeting is held online or in person, everyone must prepare.",
+      "answerZh": "無論會議在網上還是以實體形式舉行，每個人都必須做好準備。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the meeting is held online or in person, everyone must prepare."
+    },
+    {
+      "id": "ss106-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Will the school trip take place on Friday or Saturday? The school has not announced the date.",
+      "promptZh": "學校旅行會在星期五還是星期六舉行？學校尚未公布日期。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school has not announced whether the trip will take place on Friday or Saturday.",
+      "answerZh": "學校尚未公布旅行會在星期五還是星期六舉行。",
+      "answerZhSource": "pdf",
+      "highlight": "The school has not announced whether the trip will take place on Friday or Saturday."
+    },
+    {
+      "id": "ss106-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Nina wondered, “Should I apologise immediately or wait until the next day?”",
+      "promptZh": "妮娜心想：「我應該立即道歉，還是等到翌日？」",
+      "promptZhSource": "pdf",
+      "starter": "Nina",
+      "answer": "Nina wondered whether she should apologise immediately or wait until the next day.",
+      "answerZh": "妮娜想知道自己應該立即道歉，還是等到翌日。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina wondered whether she should apologise immediately or wait until the next day."
+    },
+    {
+      "id": "ss106-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "You can choose either tea or coffee. The drink is included in the meal.",
+      "promptZh": "你可以選擇茶或咖啡。飲品已包括在餐點內。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether you choose tea or coffee, the drink is included in the meal.",
+      "answerZh": "無論你選擇茶還是咖啡，飲品都已包括在餐點內。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether you choose tea or coffee, the drink is included in the meal."
+    },
+    {
+      "id": "ss106-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The police are investigating this question: Was the window broken from inside or outside?",
+      "promptZh": "警方正在調查這個問題：窗戶是從內還是從外被打破的？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The police are investigating whether the window was broken from inside or outside.",
+      "answerZh": "警方正在調查窗戶是從內還是從外被打破的。",
+      "answerZhSource": "pdf",
+      "highlight": "The police are investigating whether the window was broken from inside or outside."
+    },
+    {
+      "id": "ss106-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Does the problem affect one computer or the whole network? We need to find out.",
+      "promptZh": "這個問題只影響一部電腦，還是影響整個網絡？我們需要查明。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We need to find out whether the problem affects one computer or the whole network.",
+      "answerZh": "我們需要查明這個問題只影響一部電腦，還是影響整個網絡。",
+      "answerZhSource": "pdf",
+      "highlight": "We need to find out whether the problem affects one computer or the whole network."
+    },
+    {
+      "id": "ss106-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The audience may ask many questions, or it may remain silent. The speaker should stay calm in either situation.",
+      "promptZh": "觀眾可能會提出很多問題，也可能保持沉默。無論是哪一種情況，講者都應保持冷靜。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the audience asks many questions or remains silent, the speaker should stay calm.",
+      "answerZh": "無論觀眾提出很多問題還是保持沉默，講者都應保持冷靜。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the audience asks many questions or remains silent, the speaker should stay calm."
+    },
+    {
+      "id": "ss106-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel has two options: accept the offer or ask for more time. He has not decided.",
+      "promptZh": "丹尼爾有兩個選項：接受提議，或要求更多時間。他還未作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "Daniel",
+      "answer": "Daniel has not decided whether to accept the offer or ask for more time.",
+      "answerZh": "丹尼爾還未決定應該接受提議，還是要求更多時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel has not decided whether to accept the offer or ask for more time."
+    },
+    {
+      "id": "ss106-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Public support may increase or decrease. The committee will review the policy in either case.",
+      "promptZh": "公眾支持可能增加，也可能減少。無論如何，委員會都會檢討這項政策。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether public support increases or decreases, the committee will review the policy.",
+      "answerZh": "無論公眾支持增加還是減少，委員會都會檢討這項政策。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether public support increases or decreases, the committee will review the policy."
+    },
+    {
+      "id": "ss106-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The nurse asked the patient, “Did you take the medicine, or did you forget it?”",
+      "promptZh": "護士問病人：「你服了藥，還是忘記服藥？」",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The nurse asked whether the patient had taken the medicine or forgotten it.",
+      "answerZh": "護士詢問病人是服了藥，還是忘記服藥。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurse asked whether the patient had taken the medicine or forgotten it."
+    },
+    {
+      "id": "ss106-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The train may be delayed or cancelled. Staff must keep passengers informed in either case.",
+      "promptZh": "列車可能延誤，也可能取消。無論是哪一種情況，職員都必須向乘客提供最新消息。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the train is delayed or cancelled, staff must keep passengers informed.",
+      "answerZh": "無論列車延誤還是取消，職員都必須向乘客提供最新消息。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the train is delayed or cancelled, staff must keep passengers informed."
+    },
+    {
+      "id": "ss106-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Do the figures show real growth, or do they show a temporary change? Ava is trying to work it out.",
+      "promptZh": "這些數字顯示真正的增長，還是只顯示短暫的變化？艾娃正嘗試找出答案。",
+      "promptZhSource": "pdf",
+      "starter": "Ava",
+      "answer": "Ava is trying to work out whether the figures show real growth or a temporary change.",
+      "answerZh": "艾娃正嘗試找出這些數字顯示真正的增長，還是短暫的變化。",
+      "answerZhSource": "pdf",
+      "highlight": "Ava is trying to work out whether the figures show real growth or a temporary change."
+    },
+    {
+      "id": "ss106-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The judges must decide: Does the entry follow the rules, or does it break them?",
+      "promptZh": "評判必須決定：這份參賽作品符合規則，還是違反規則？",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The judges must decide whether the entry follows the rules or breaks them.",
+      "answerZh": "評判必須決定這份參賽作品符合規則，還是違反規則。",
+      "answerZhSource": "pdf",
+      "highlight": "The judges must decide whether the entry follows the rules or breaks them."
+    },
+    {
+      "id": "ss106-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The new system may save time or create extra work. The company will measure the results carefully in either case.",
+      "promptZh": "新系統可能節省時間，也可能增加額外工作。無論如何，公司都會仔細衡量結果。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the new system saves time or creates extra work, the company will measure the results carefully.",
+      "answerZh": "無論新系統節省時間還是增加額外工作，公司都會仔細衡量結果。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the new system saves time or creates extra work, the company will measure the results carefully."
+    },
+    {
+      "id": "ss106-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Rachel asked, “Will the refund be sent to my card, or will it be paid in cash?”",
+      "promptZh": "瑞秋問：「退款會退回我的付款卡，還是以現金發放？」",
+      "promptZhSource": "pdf",
+      "starter": "Rachel",
+      "answer": "Rachel asked whether the refund would be sent to her card or paid in cash.",
+      "answerZh": "瑞秋詢問退款會退回她的付款卡，還是以現金發放。",
+      "answerZhSource": "pdf",
+      "highlight": "Rachel asked whether the refund would be sent to her card or paid in cash."
+    },
+    {
+      "id": "ss106-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We have to consider this: Will changing the timetable help students, or will it cause more confusion?",
+      "promptZh": "我們必須考慮這一點：更改時間表會幫助學生，還是造成更多混亂？",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We have to consider whether changing the timetable will help students or cause more confusion.",
+      "answerZh": "我們必須考慮更改時間表會幫助學生，還是造成更多混亂。",
+      "answerZhSource": "pdf",
+      "highlight": "We have to consider whether changing the timetable will help students or cause more confusion."
+    },
+    {
+      "id": "ss106-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The road may reopen this evening, or it may remain closed until tomorrow. The delivery team needs a backup plan in either case.",
+      "promptZh": "道路可能在今晚重開，也可能繼續封閉至明天。無論如何，送貨團隊都需要後備計劃。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the road reopens this evening or remains closed until tomorrow, the delivery team needs a backup plan.",
+      "answerZh": "無論道路在今晚重開，還是繼續封閉至明天，送貨團隊都需要後備計劃。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the road reopens this evening or remains closed until tomorrow, the delivery team needs a backup plan."
+    },
+    {
+      "id": "ss106-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The board is choosing between merging the two departments and keeping them separate, but no decision has been made.",
+      "promptZh": "董事會正在合併兩個部門和維持兩個部門獨立之間作出選擇，但尚未作出決定。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The board has not decided whether to merge the two departments or keep them separate.",
+      "answerZh": "董事會尚未決定應該合併兩個部門，還是維持兩個部門獨立。",
+      "answerZhSource": "pdf",
+      "highlight": "The board has not decided whether to merge the two departments or keep them separate."
+    },
+    {
+      "id": "ss106-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new rule may benefit most residents, or it may help only a small group. The council should examine the evidence in either case.",
+      "promptZh": "新規則可能令大部分居民受惠，也可能只幫助一小群人。無論如何，議會都應審視證據。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the new rule benefits most residents or helps only a small group, the council should examine the evidence.",
+      "answerZh": "無論新規則令大部分居民受惠，還是只幫助一小群人，議會都應審視證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the new rule benefits most residents or helps only a small group, the council should examine the evidence."
+    },
+    {
+      "id": "ss106-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Did the new method cause the change, or did it happen by chance? The researcher could not confirm the reason.",
+      "promptZh": "這項改變是由新方法引起，還是偶然發生？研究人員無法確認原因。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The researcher could not confirm whether the change was caused by the new method or happened by chance.",
+      "answerZh": "研究人員無法確認這項改變是由新方法引起，還是偶然發生。",
+      "answerZhSource": "pdf",
+      "highlight": "The researcher could not confirm whether the change was caused by the new method or happened by chance."
+    },
+    {
+      "id": "ss106-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Employees may work from home or come to the office. They should receive the same information in both situations.",
+      "promptZh": "僱員可能在家工作，也可能回到辦公室工作。在兩種情況下，他們都應收到相同的資訊。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether employees work from home or come to the office, they should receive the same information.",
+      "answerZh": "無論僱員在家工作還是回到辦公室工作，他們都應收到相同的資訊。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether employees work from home or come to the office, they should receive the same information."
+    },
+    {
+      "id": "ss106-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Can the hall hold all the guests, or do we need a larger venue? The organiser needs to know.",
+      "promptZh": "禮堂能否容納所有賓客，還是我們需要一個較大的場地？主辦人需要知道。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The organiser needs to know whether the hall can hold all the guests or a larger venue is required.",
+      "answerZh": "主辦人需要知道禮堂能否容納所有賓客，還是需要一個較大的場地。",
+      "answerZhSource": "pdf",
+      "highlight": "The organiser needs to know whether the hall can hold all the guests or a larger venue is required."
+    },
+    {
+      "id": "ss106-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The proposal may be accepted or rejected. The team will record the reasons in either case.",
+      "promptZh": "提案可能獲得接納，也可能遭到拒絕。無論如何，團隊都會記錄原因。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the proposal is accepted or rejected, the team will record the reasons.",
+      "answerZh": "無論提案獲得接納還是遭到拒絕，團隊都會記錄原因。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the proposal is accepted or rejected, the team will record the reasons."
+    },
+    {
+      "id": "ss106-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Did the service become faster, or did it only appear more efficient? The review will examine this.",
+      "promptZh": "服務是真的變快了，還是只是看起來效率更高？是次檢討將審視這一點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The review will examine whether the service became faster or simply appeared more efficient.",
+      "answerZh": "是次檢討將審視服務是真的變快了，還是只是看起來效率更高。",
+      "answerZhSource": "pdf",
+      "highlight": "The review will examine whether the service became faster or simply appeared more efficient."
+    },
+    {
+      "id": "ss106-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The school must choose between extending the programme to all classes and continuing with a smaller trial.",
+      "promptZh": "學校必須在把計劃擴展至所有班級和繼續進行較小規模試行之間作出選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school must decide whether to extend the programme to all classes or continue with a smaller trial.",
+      "answerZh": "學校必須決定應該把計劃擴展至所有班級，還是繼續進行較小規模的試行。",
+      "answerZhSource": "pdf",
+      "highlight": "The school must decide whether to extend the programme to all classes or continue with a smaller trial."
+    },
+    {
+      "id": "ss106-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The final result may be better or worse than expected. We should honestly explain how it was reached in either case.",
+      "promptZh": "最終結果可能比預期好，也可能比預期差。無論如何，我們都應誠實解釋結果是如何得出的。",
+      "promptZhSource": "pdf",
+      "starter": "Whether",
+      "answer": "Whether the final result is better or worse than expected, we should honestly explain how it was reached.",
+      "answerZh": "無論最終結果比預期好還是差，我們都應誠實解釋結果是如何得出的。",
+      "answerZhSource": "pdf",
+      "highlight": "Whether the final result is better or worse than expected, we should honestly explain how it was reached."
+    }
+  ]
+}

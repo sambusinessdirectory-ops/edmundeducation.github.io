@@ -1,0 +1,1272 @@
+{
+  "id": "ss100",
+  "order": 100,
+  "slug": "different-kinds-sorts-types-forms-of",
+  "title": "「Different X of」句型",
+  "titleZh": "「Different X of 句」",
+  "titleEn": "Using different kinds, sorts, types and forms of",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 100 -「Different X of 句」.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerPages": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Different + kinds / sorts / types / forms + of + noun + verb + other information",
+  "formulas": [
+    {
+      "id": "ss100-formula-subject",
+      "labelEn": "Pattern A: as the subject",
+      "labelZh": "Pattern A：作為主語",
+      "formula": "Different + kinds / sorts / types / forms + of + noun + verb + other information"
+    },
+    {
+      "id": "ss100-formula-object",
+      "labelEn": "Pattern B: after the verb",
+      "labelZh": "Pattern B：放在動詞後",
+      "formula": "Subject + verb + different + kinds / sorts / types / forms + of + noun"
+    }
+  ],
+  "example": "Different forms of fashion reflect age or status.",
+  "exampleZh": "不同形式的時尚反映年齡或身分。",
+  "examples": [
+    {
+      "id": "ss100-example-subject",
+      "en": "Different forms of fashion reflect age or status.",
+      "zh": "不同形式的時尚反映年齡或身分。",
+      "highlight": "Different forms of fashion"
+    },
+    {
+      "id": "ss100-example-object-sorts",
+      "en": "This shop has different sorts of snacks.",
+      "zh": "這間店有不同種類的小食。",
+      "highlight": "different sorts of snacks"
+    },
+    {
+      "id": "ss100-example-object-kinds",
+      "en": "This restaurant has different kinds of dishes.",
+      "zh": "這間餐廳有不同種類的菜式。",
+      "highlight": "different kinds of dishes"
+    }
+  ],
+  "meaning": {
+    "zh": "X 可以是 kinds、sorts、types 或 forms；這個結構表示某類事物包含多個種類、類別或形式。"
+  },
+  "rules": [
+    {
+      "id": "ss100-rule-01",
+      "zh": "由於 different 表示多於一個種類，X 通常使用複數形式：different kinds / sorts / types / forms of。",
+      "en": "Because different refers to more than one category, X normally takes the plural form: different kinds / sorts / types / forms of.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Different kinds of books are available."
+      ]
+    },
+    {
+      "id": "ss100-rule-02",
+      "zh": "Of 後面可以接複數可數名詞；在本練習中，可數名詞一般使用複數形式。",
+      "en": "A plural countable noun may follow of; in this exercise, countable nouns normally use the plural form.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "different kinds of dishes",
+        "different sorts of games",
+        "different types of books",
+        "different forms of exercise"
+      ]
+    },
+    {
+      "id": "ss100-rule-03",
+      "zh": "Of 後面亦可以接不可數名詞；不可數名詞不需要加 -s。",
+      "en": "An uncountable noun may also follow of and does not take -s.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "different kinds of music",
+        "different types of information",
+        "different forms of transport",
+        "different sorts of equipment"
+      ]
+    },
+    {
+      "id": "ss100-rule-04",
+      "zh": "Kinds 和 types 適用於一般種類；sorts 在英式日常表達中常見；forms 常表示較抽象事物存在、出現或表達的不同形式。並非每題都可隨意交換四個字。",
+      "en": "Kinds and types cover general categories; sorts is common in everyday British English; forms often describes ways in which abstract things exist, appear or are expressed. The four words are not freely interchangeable in every sentence.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "different kinds of food",
+        "different types of machines",
+        "different sorts of activities",
+        "different forms of communication"
+      ]
+    },
+    {
+      "id": "ss100-rule-05",
+      "zh": "真正的主語是複數的 kinds、sorts、types 或 forms，所以動詞要與這個複數主語一致。",
+      "en": "The true subject is the plural kinds, sorts, types or forms, so the verb must agree with that plural subject.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "Different kinds of food are available."
+      ]
+    },
+    {
+      "id": "ss100-rule-06",
+      "zh": "Different books 表示不同的個別書籍；different kinds of books 表示不同類別的書籍。",
+      "en": "Different books means separate individual books; different kinds of books means different categories of books.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "different books",
+        "different kinds of books"
+      ]
+    },
+    {
+      "id": "ss100-rule-07",
+      "zh": "本練習集中使用 different kinds / sorts / types / forms of 的複數結構，不以 a different kind/type of 或 another form of 為主要目標。",
+      "en": "This exercise focuses on the plural structure different kinds / sorts / types / forms of rather than singular patterns such as a different kind/type of or another form of.",
+      "enSource": "editorial-translation",
+      "examples": []
+    },
+    {
+      "id": "ss100-rule-08",
+      "zh": "部分句子可自然使用多於一個分類詞；參考答案提供其中一個文法正確、用字自然並保留原意的建議答案。",
+      "en": "Some sentences naturally allow more than one category word; the key supplies one suggested answer that is grammatical, natural and preserves the original meaning.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The shop sells different kinds of bread.",
+        "The shop sells different types of bread."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss100-benefit-01",
+      "zh": "這個句型不只是表示數量多，而是清楚說明事物可分成不同類別。",
+      "en": "This structure does more than express quantity; it clearly shows that things belong to different categories.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss100-benefit-02",
+      "zh": "當具體例子並不重要時，可以把它們歸納成不同種類，不必逐一列出。",
+      "en": "When individual examples are unimportant, you can group them into categories instead of listing every item.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss100-benefit-03",
+      "zh": "加入目標句型能令概括句更準確，表明各人的選擇或事物的形式並不完全相同。",
+      "en": "Adding the target structure makes a general statement more precise by showing variation in choices or forms.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss100-benefit-04",
+      "zh": "這個句型適合先介紹類別，再比較它們的用途、特點或影響。",
+      "en": "The structure helps introduce categories before comparing their uses, features or effects.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss100-benefit-05",
+      "zh": "可以根據意思選用 kinds、sorts、types 或 forms，增加句式和用字變化。",
+      "en": "Choosing among kinds, sorts, types and forms adds structural and lexical variety.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss100-benefit-06",
+      "zh": "There are different kinds of…、We use different types of… 等框架能幫助更快組織口語答案。",
+      "en": "Frames such as There are different kinds of… and We use different types of… help organise spoken answers quickly.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using different + kinds / sorts / types / forms + of.",
+      "Choose the category word that best matches the meaning.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 different + kinds / sorts / types / forms + of 改寫以下句子。",
+      "請選擇最符合句意的分類詞。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss100-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The small shop sells a variety of snacks.",
+      "promptZh": "這間小店售賣多種小食。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The small shop sells different kinds of snacks.",
+      "answerZh": "這間小店售賣不同種類的小食。",
+      "answerZhSource": "pdf",
+      "highlight": "The small shop sells different kinds of snacks."
+    },
+    {
+      "id": "ss100-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Our library has books from several categories.",
+      "promptZh": "我們的圖書館藏有幾個類別的書籍。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our library has different types of books.",
+      "answerZh": "我們的圖書館藏有不同類型的書籍。",
+      "answerZhSource": "pdf",
+      "highlight": "Our library has different types of books."
+    },
+    {
+      "id": "ss100-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "What does the café serve? It serves several varieties of drinks.",
+      "promptZh": "這間咖啡店供應甚麼？它供應多種飲品。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The café serves different sorts of drinks.",
+      "answerZh": "這間咖啡店供應不同種類的飲品。",
+      "answerZhSource": "pdf",
+      "highlight": "The café serves different sorts of drinks."
+    },
+    {
+      "id": "ss100-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Several ways of travelling are available here.",
+      "promptZh": "這裏有幾種出行方式可供選擇。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different forms of transport are available here.",
+      "answerZh": "這裏有不同的交通方式可供選擇。",
+      "answerZhSource": "pdf",
+      "highlight": "Different forms of transport are available here."
+    },
+    {
+      "id": "ss100-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Mia enjoys music in many styles.",
+      "promptZh": "米婭喜歡多種風格的音樂。",
+      "promptZhSource": "pdf",
+      "starter": "Mia",
+      "answer": "Mia enjoys different kinds of music.",
+      "answerZh": "米婭喜歡不同種類的音樂。",
+      "answerZhSource": "pdf",
+      "highlight": "Mia enjoys different kinds of music."
+    },
+    {
+      "id": "ss100-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The market sells several varieties of fruit.",
+      "promptZh": "市場售賣多個品種的水果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The market sells different types of fruit.",
+      "answerZh": "市場售賣不同類型的水果。",
+      "answerZhSource": "pdf",
+      "highlight": "The market sells different types of fruit."
+    },
+    {
+      "id": "ss100-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "At the party, we tried a range of games.",
+      "promptZh": "在派對上，我們玩了多種遊戲。",
+      "promptZhSource": "pdf",
+      "starter": "We",
+      "answer": "We tried different sorts of games at the party.",
+      "answerZh": "我們在派對上玩了不同種類的遊戲。",
+      "answerZhSource": "pdf",
+      "highlight": "We tried different sorts of games at the party."
+    },
+    {
+      "id": "ss100-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Several ways of exercising keep the class interesting.",
+      "promptZh": "多種運動方式令課堂保持有趣。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different forms of exercise keep the class interesting.",
+      "answerZh": "不同形式的運動令課堂保持有趣。",
+      "answerZhSource": "pdf",
+      "highlight": "Different forms of exercise keep the class interesting."
+    },
+    {
+      "id": "ss100-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "What does the museum display? It displays paintings in many styles.",
+      "promptZh": "博物館展出甚麼？它展出多種風格的畫作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The museum displays different kinds of paintings.",
+      "answerZh": "博物館展出不同種類的畫作。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum displays different kinds of paintings."
+    },
+    {
+      "id": "ss100-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Students use pens from several categories in art class.",
+      "promptZh": "學生在美術課使用幾種類型的筆。",
+      "promptZhSource": "pdf",
+      "starter": "Students",
+      "answer": "Students use different types of pens in art class.",
+      "answerZh": "學生在美術課使用不同類型的筆。",
+      "answerZhSource": "pdf",
+      "highlight": "Students use different types of pens in art class."
+    },
+    {
+      "id": "ss100-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The school canteen offers a wide variety of meals.",
+      "promptZh": "學校飯堂提供多種餐點。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school canteen offers different kinds of meals.",
+      "answerZh": "學校飯堂提供不同種類的餐點。",
+      "answerZhSource": "pdf",
+      "highlight": "The school canteen offers different kinds of meals."
+    },
+    {
+      "id": "ss100-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "There are many varieties of flowers in the garden.",
+      "promptZh": "花園裏有多個品種的花。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The garden contains different sorts of flowers.",
+      "answerZh": "花園裏有不同種類的花。",
+      "answerZhSource": "pdf",
+      "highlight": "The garden contains different sorts of flowers."
+    },
+    {
+      "id": "ss100-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Various weather conditions require different clothes.",
+      "promptZh": "不同的天氣情況需要不同的衣物。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different types of weather require different clothes.",
+      "answerZh": "不同類型的天氣需要不同的衣物。",
+      "answerZhSource": "pdf",
+      "highlight": "Different types of weather require different clothes."
+    },
+    {
+      "id": "ss100-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Our teacher used several practice methods during the lesson.",
+      "promptZh": "老師在課堂中使用了幾種練習方法。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our teacher used different forms of practice during the lesson.",
+      "answerZh": "老師在課堂中使用了不同形式的練習。",
+      "answerZhSource": "pdf",
+      "highlight": "Our teacher used different forms of practice during the lesson."
+    },
+    {
+      "id": "ss100-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The website provides a variety of learning activities.",
+      "promptZh": "該網站提供多種學習活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The website provides different kinds of learning activities.",
+      "answerZh": "該網站提供不同種類的學習活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The website provides different kinds of learning activities."
+    },
+    {
+      "id": "ss100-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Ben bought several varieties of bread for breakfast.",
+      "promptZh": "本為早餐買了多個種類的麵包。",
+      "promptZhSource": "pdf",
+      "starter": "Ben",
+      "answer": "Ben bought different types of bread for breakfast.",
+      "answerZh": "本為早餐買了不同類型的麵包。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben bought different types of bread for breakfast."
+    },
+    {
+      "id": "ss100-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The festival included a wide range of performances.",
+      "promptZh": "節慶活動包括多種表演。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The festival included different sorts of performances.",
+      "answerZh": "節慶活動包括不同種類的表演。",
+      "answerZhSource": "pdf",
+      "highlight": "The festival included different sorts of performances."
+    },
+    {
+      "id": "ss100-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Art appears in several forms, and each can express a different emotion.",
+      "promptZh": "藝術以多種形式出現，而每種形式都可以表達不同的情感。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different forms of art can express different emotions.",
+      "answerZh": "不同形式的藝術可以表達不同的情感。",
+      "answerZhSource": "pdf",
+      "highlight": "Different forms of art can express different emotions."
+    },
+    {
+      "id": "ss100-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What choices do guests have at the hotel? They can choose among several room categories.",
+      "promptZh": "住客在酒店有甚麼選擇？他們可以從幾個房間類別中選擇。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hotel has different kinds of rooms for its guests.",
+      "answerZh": "酒店為住客提供不同種類的房間。",
+      "answerZhSource": "pdf",
+      "highlight": "The hotel has different kinds of rooms for its guests."
+    },
+    {
+      "id": "ss100-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The children made a variety of models from recycled materials.",
+      "promptZh": "孩子們用回收物料製作了多種模型。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The children made different types of models from recycled materials.",
+      "answerZh": "孩子們用回收物料製作了不同類型的模型。",
+      "answerZhSource": "pdf",
+      "highlight": "The children made different types of models from recycled materials."
+    },
+    {
+      "id": "ss100-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Energy comes in several forms and can be used to power homes.",
+      "promptZh": "能源有多種形式，並可用來為住宅供能。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different forms of energy can power homes.",
+      "answerZh": "不同形式的能源可以為住宅供能。",
+      "answerZhSource": "pdf",
+      "highlight": "Different forms of energy can power homes."
+    },
+    {
+      "id": "ss100-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The hospital uses a range of equipment to treat patients.",
+      "promptZh": "醫院使用多種設備治療病人。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The hospital uses different types of equipment to treat patients.",
+      "answerZh": "醫院使用不同類型的設備來治療病人。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital uses different types of equipment to treat patients."
+    },
+    {
+      "id": "ss100-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Different reading skills are tested by questions from several categories.",
+      "promptZh": "幾個類別的題目會測試不同的閱讀能力。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different kinds of questions test different reading skills.",
+      "answerZh": "不同種類的題目測試不同的閱讀能力。",
+      "answerZhSource": "pdf",
+      "highlight": "Different kinds of questions test different reading skills."
+    },
+    {
+      "id": "ss100-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What can students do after school? The club offers a wide range of activities.",
+      "promptZh": "學生放學後可以做甚麼？該社團提供多種活動。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The club offers different sorts of activities after school.",
+      "answerZh": "該社團在放學後提供不同種類的活動。",
+      "answerZhSource": "pdf",
+      "highlight": "The club offers different sorts of activities after school."
+    },
+    {
+      "id": "ss100-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why do people choose among several ways of paying?",
+      "promptZh": "為甚麼人們會從多種付款方法中作出選擇？",
+      "promptZhSource": "pdf",
+      "starter": "Why",
+      "answer": "Why do people choose different forms of payment?",
+      "answerZh": "為甚麼人們會選擇不同的付款方式？",
+      "answerZhSource": "pdf",
+      "highlight": "Why do people choose different forms of payment?"
+    },
+    {
+      "id": "ss100-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The report compares several categories of public transport.",
+      "promptZh": "報告比較幾個類別的公共交通工具。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The report compares different types of public transport.",
+      "answerZh": "報告比較不同類型的公共交通工具。",
+      "answerZhSource": "pdf",
+      "highlight": "The report compares different types of public transport."
+    },
+    {
+      "id": "ss100-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Several categories of medicine must be stored carefully.",
+      "promptZh": "幾個類別的藥物都必須小心存放。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different kinds of medicine must be stored carefully.",
+      "answerZh": "不同種類的藥物必須小心存放。",
+      "answerZhSource": "pdf",
+      "highlight": "Different kinds of medicine must be stored carefully."
+    },
+    {
+      "id": "ss100-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The workshop taught us several ways to communicate.",
+      "promptZh": "工作坊教導我們幾種溝通方式。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The workshop taught us different forms of communication.",
+      "answerZh": "工作坊教導我們不同形式的溝通。",
+      "answerZhSource": "pdf",
+      "highlight": "The workshop taught us different forms of communication."
+    },
+    {
+      "id": "ss100-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The app lets users create several chart types.",
+      "promptZh": "這個應用程式讓使用者建立多種類型的圖表。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The app allows users to create different types of charts.",
+      "answerZh": "這個應用程式讓使用者建立不同類型的圖表。",
+      "answerZhSource": "pdf",
+      "highlight": "The app allows users to create different types of charts."
+    },
+    {
+      "id": "ss100-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Problems are not all the same. They may therefore need different solutions.",
+      "promptZh": "問題並非全部相同，因此可能需要不同的解決方法。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different sorts of problems may require different solutions.",
+      "answerZh": "不同種類的問題可能需要不同的解決方法。",
+      "answerZhSource": "pdf",
+      "highlight": "Different sorts of problems may require different solutions."
+    },
+    {
+      "id": "ss100-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "In its exhibition, the science centre shows light appearing in several forms.",
+      "promptZh": "科學中心在展覽中展示以多種形式出現的光。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The science centre shows different forms of light in its exhibition.",
+      "answerZh": "科學中心在展覽中展示不同形式的光。",
+      "answerZhSource": "pdf",
+      "highlight": "The science centre shows different forms of light in its exhibition."
+    },
+    {
+      "id": "ss100-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Waste from separate categories should be placed in separate bins.",
+      "promptZh": "不同類別的廢物應放入分開的垃圾桶。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different types of waste should be placed in separate bins.",
+      "answerZh": "不同類型的廢物應放入分開的垃圾桶。",
+      "answerZhSource": "pdf",
+      "highlight": "Different types of waste should be placed in separate bins."
+    },
+    {
+      "id": "ss100-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Before making a decision, our team considered a range of plans.",
+      "promptZh": "在作出決定前，我們的團隊考慮了多個方案。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team considered different kinds of plans before making a decision.",
+      "answerZh": "我們的團隊在作出決定前考慮了不同種類的方案。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team considered different kinds of plans before making a decision."
+    },
+    {
+      "id": "ss100-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The teacher explained that writing comes in several forms, each with its own purpose.",
+      "promptZh": "老師解釋，寫作有多種形式，而每種形式都有本身的目的。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The teacher explained that different forms of writing have different purposes.",
+      "answerZh": "老師解釋，不同形式的寫作有不同的目的。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher explained that different forms of writing have different purposes."
+    },
+    {
+      "id": "ss100-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Customers are not all alike and may expect different levels of service.",
+      "promptZh": "顧客並非全部相同，並可能期望不同水平的服務。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different sorts of customers may expect different levels of service.",
+      "answerZh": "不同種類的顧客可能期望不同水平的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Different sorts of customers may expect different levels of service."
+    },
+    {
+      "id": "ss100-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What does the course introduce? It introduces several categories of jobs in the health sector.",
+      "promptZh": "該課程介紹甚麼？它介紹醫療界幾個類別的工作。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The course introduces different types of jobs in the health sector.",
+      "answerZh": "該課程介紹醫療界不同類型的工作。",
+      "answerZhSource": "pdf",
+      "highlight": "The course introduces different types of jobs in the health sector."
+    },
+    {
+      "id": "ss100-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Exercise comes in several forms, and each affects the body in a different way.",
+      "promptZh": "運動有多種形式，而每種形式會以不同方式影響身體。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different forms of exercise affect the body in different ways.",
+      "answerZh": "不同形式的運動會以不同方式影響身體。",
+      "answerZhSource": "pdf",
+      "highlight": "Different forms of exercise affect the body in different ways."
+    },
+    {
+      "id": "ss100-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To improve road safety, the council is testing a variety of signs.",
+      "promptZh": "為了改善道路安全，議會正在測試多種標誌。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The council is testing different kinds of signs to improve road safety.",
+      "answerZh": "議會正在測試不同種類的標誌，以改善道路安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The council is testing different kinds of signs to improve road safety."
+    },
+    {
+      "id": "ss100-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Not all information should be shared in the same way because it belongs to separate categories.",
+      "promptZh": "並非所有資料都應以相同方式分享，因為它們屬於不同類別。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different types of information should not be shared in the same way.",
+      "answerZh": "不同類型的資料不應以相同方式分享。",
+      "answerZhSource": "pdf",
+      "highlight": "Different types of information should not be shared in the same way."
+    },
+    {
+      "id": "ss100-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "To match the main dishes, the chef prepared a range of sauces.",
+      "promptZh": "為了配搭主菜，廚師準備了多種醬汁。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The chef prepared different sorts of sauces to match the main dishes.",
+      "answerZh": "廚師準備了不同種類的醬汁，以配搭主菜。",
+      "answerZhSource": "pdf",
+      "highlight": "The chef prepared different sorts of sauces to match the main dishes."
+    },
+    {
+      "id": "ss100-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Communication can take several forms, and each can be useful in a different situation.",
+      "promptZh": "溝通可以採用多種形式，而每種形式都可能適合不同情況。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different forms of communication can be useful in different situations.",
+      "answerZh": "不同形式的溝通在不同情況下都可能有用。",
+      "answerZhSource": "pdf",
+      "highlight": "Different forms of communication can be useful in different situations."
+    },
+    {
+      "id": "ss100-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Students have different needs, so the school provides several categories of support.",
+      "promptZh": "學生有不同需要，因此學校提供幾個類別的支援。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The school provides different types of support for students with different needs.",
+      "answerZh": "學校為有不同需要的學生提供不同類型的支援。",
+      "answerZhSource": "pdf",
+      "highlight": "The school provides different types of support for students with different needs."
+    },
+    {
+      "id": "ss100-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When the economy changes, businesses from separate categories face different risks.",
+      "promptZh": "經濟出現變化時，來自不同類別的企業會面對不同風險。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different kinds of businesses face different risks when the economy changes.",
+      "answerZh": "經濟出現變化時，不同種類的企業會面對不同風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Different kinds of businesses face different risks when the economy changes."
+    },
+    {
+      "id": "ss100-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The community centre runs a wide range of programmes for people of all ages.",
+      "promptZh": "社區中心為各年齡層人士舉辦多種活動項目。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The community centre runs different sorts of programmes for people of all ages.",
+      "answerZh": "社區中心為各年齡層人士舉辦不同種類的活動項目。",
+      "answerZhSource": "pdf",
+      "highlight": "The community centre runs different sorts of programmes for people of all ages."
+    },
+    {
+      "id": "ss100-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Workplace performance can be affected by several forms of stress. The research team examined them.",
+      "promptZh": "工作表現可能受到多種形式的壓力影響。研究團隊研究了這些壓力。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The research team examined different forms of stress that affect workplace performance.",
+      "answerZh": "研究團隊研究了會影響工作表現的不同形式的壓力。",
+      "answerZhSource": "pdf",
+      "highlight": "The research team examined different forms of stress that affect workplace performance."
+    },
+    {
+      "id": "ss100-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "What should researchers do before reaching a conclusion? They should examine evidence from several categories.",
+      "promptZh": "研究人員在得出結論前應該做甚麼？他們應檢視幾個類別的證據。",
+      "promptZhSource": "pdf",
+      "starter": "Researchers",
+      "answer": "Researchers should examine different types of evidence before reaching a conclusion.",
+      "answerZh": "研究人員在得出結論前，應檢視不同類型的證據。",
+      "answerZhSource": "pdf",
+      "highlight": "Researchers should examine different types of evidence before reaching a conclusion."
+    },
+    {
+      "id": "ss100-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "To reduce damage during delivery, the company tested a variety of packaging.",
+      "promptZh": "為了減少貨物在運送期間受損，公司測試了多種包裝。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The company tested different kinds of packaging to reduce damage during delivery.",
+      "answerZh": "公司測試了不同種類的包裝，以減少貨物在運送期間受損。",
+      "answerZhSource": "pdf",
+      "highlight": "The company tested different kinds of packaging to reduce damage during delivery."
+    },
+    {
+      "id": "ss100-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Online learning takes several forms and gives students several ways to participate.",
+      "promptZh": "網上學習有多種形式，並為學生提供多種參與方式。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different forms of online learning give students different ways to participate.",
+      "answerZh": "不同形式的網上學習為學生提供不同的參與方式。",
+      "answerZhSource": "pdf",
+      "highlight": "Different forms of online learning give students different ways to participate."
+    },
+    {
+      "id": "ss100-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Public spaces from several categories are used by the city to meet residents’ needs.",
+      "promptZh": "城市利用幾個類別的公共空間來滿足居民的需要。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The city uses different types of public spaces to meet residents’ needs.",
+      "answerZh": "城市利用不同類型的公共空間來滿足居民的需要。",
+      "answerZhSource": "pdf",
+      "highlight": "The city uses different types of public spaces to meet residents’ needs."
+    },
+    {
+      "id": "ss100-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Decisions are not all alike. Their requirements for time, evidence and discussion differ.",
+      "promptZh": "決定並非全部相同；它們對時間、證據和討論的要求各有不同。",
+      "promptZhSource": "pdf",
+      "starter": "Different",
+      "answer": "Different sorts of decisions have different requirements for time, evidence and discussion.",
+      "answerZh": "不同種類的決定對時間、證據和討論有不同要求。",
+      "answerZhSource": "pdf",
+      "highlight": "Different sorts of decisions have different requirements for time, evidence and discussion."
+    }
+  ]
+}

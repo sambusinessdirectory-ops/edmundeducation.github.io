@@ -1,0 +1,1174 @@
+{
+  "id": "ss71",
+  "order": 71,
+  "slug": "sentence-structure-71",
+  "title": "「Wish + Past Tense」句型",
+  "titleZh": "「Wish + Past Tense」表達與現在事實不同的願望",
+  "titleEn": "Using Wish + Past Tense to express wishes that differ from present reality",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 71 -「Wish + Past Tense」表達與現在事實不同的願望.pdf",
+    "pageCount": 19,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "omissions": []
+  },
+  "formula": "Subject 1 + wish / wishes + Subject 2 + past simple + other information",
+  "formulas": [
+    {
+      "id": "ss71-formula-positive",
+      "labelZh": "肯定形式",
+      "labelEn": "Positive form",
+      "formula": "Subject 1 + wish / wishes + Subject 2 + past simple"
+    },
+    {
+      "id": "ss71-formula-negative",
+      "labelZh": "一般動詞否定形式",
+      "labelEn": "Negative form with an ordinary verb",
+      "formula": "Subject 1 + wish / wishes + Subject 2 + did not + base verb"
+    },
+    {
+      "id": "ss71-formula-be-negative",
+      "labelZh": "Be 動詞否定形式",
+      "labelEn": "Negative form with be",
+      "formula": "Subject 1 + wish / wishes + Subject 2 + were not + complement"
+    }
+  ],
+  "example": "I wish I knew the answer.",
+  "exampleZh": "我真希望我知道答案。",
+  "examples": [
+    {
+      "id": "ss71-example-main",
+      "en": "I wish I knew the answer.",
+      "zh": "我真希望我知道答案。",
+      "highlight": "wish I knew"
+    },
+    {
+      "id": "ss71-example-third-person",
+      "en": "Amy wishes she had more time.",
+      "zh": "Amy 真希望自己有更多時間。",
+      "highlight": "wishes she had"
+    },
+    {
+      "id": "ss71-example-negative",
+      "en": "He wishes the room were not so noisy.",
+      "zh": "他真希望房間沒有那麼嘈吵。",
+      "highlight": "wishes the room were not"
+    }
+  ],
+  "meaning": {
+    "zh": "Wish 後面的過去式通常不是表示過去，而是表示現在的情況與說話者的願望不同。"
+  },
+  "rules": [
+    {
+      "id": "ss71-rule-01",
+      "zh": "wish 後面的過去式通常不是表示過去發生的事情，而是表示現在的情況與說話者的願望不同。",
+      "en": "The past tense after wish describes an unreal present situation rather than a past event.",
+      "examples": [
+        "I wish I knew the answer."
+      ]
+    },
+    {
+      "id": "ss71-rule-02",
+      "zh": "使用這個句型時，現實情況通常與願望相反。",
+      "en": "The present reality is normally the opposite of the wish.",
+      "examples": [
+        "I wish I had more time."
+      ]
+    },
+    {
+      "id": "ss71-rule-03",
+      "zh": "本練習中，be 動詞在 wish 後面一律使用 were。",
+      "en": "In this exercise, use were after wish for every subject when the verb is be.",
+      "examples": [
+        "I wish I were taller."
+      ]
+    },
+    {
+      "id": "ss71-rule-04",
+      "zh": "I、you、we、they 後使用 wish；he、she、it 或單數人名後使用 wishes。",
+      "en": "Use wish with I, you, we and they; use wishes with he, she, it or a singular name.",
+      "examples": [
+        "Amy wishes she had more time."
+      ]
+    },
+    {
+      "id": "ss71-rule-05",
+      "zh": "wish 後面必須有主語，不能直接接過去式動詞。",
+      "en": "A subject is required after wish.",
+      "examples": [
+        "I wish I knew the answer."
+      ]
+    },
+    {
+      "id": "ss71-rule-06",
+      "zh": "本練習只集中訓練「對現在情況的願望」，不包括 wish + past perfect、wish + would 或 wish + could。",
+      "en": "This exercise focuses only on present unreal wishes, not wish + past perfect, wish + would or wish + could."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss71-benefit-01",
+      "zh": "這個句型能清楚表達「現在的現實」與「心中的願望」之間的分別。",
+      "en": "It clearly shows the difference between reality and desire."
+    },
+    {
+      "id": "ss71-benefit-02",
+      "zh": "你可以把「現實情況」和「個人願望」合併成一句自然的句子。",
+      "en": "It combines a fact and a desire in one natural sentence."
+    },
+    {
+      "id": "ss71-benefit-03",
+      "zh": "wish 句通常比直接提出要求更溫和。",
+      "en": "A wish sentence can make the tone softer than a direct demand."
+    },
+    {
+      "id": "ss71-benefit-04",
+      "zh": "這個句型能讓你避免不斷重複使用 I want 或 I would like，令句式更有變化。",
+      "en": "It helps you avoid repeatedly using I want or I would like."
+    },
+    {
+      "id": "ss71-benefit-05",
+      "zh": "這個句型適合用於日常對話、作文、反思文章、意見表達和口語考試，幫助你自然地談論希望改變的事情。",
+      "en": "It is useful in both speaking and writing when discussing changes you would like to see."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using wish + past tense to express a present situation that the person wants to be different.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 wish + 過去式 改寫以下句子，以表達當事人希望現在的情況有所不同。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss71-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "I do not know the answer, but I want to know it.",
+      "promptZh": "我不知道答案，但我希望自己知道。",
+      "starter": "I",
+      "answer": "I wish I knew the answer.",
+      "answerZh": "我真希望我知道答案。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish I knew the answer."
+    },
+    {
+      "id": "ss71-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Amy has very little free time. She wants more.",
+      "promptZh": "艾米的空閒時間很少。她希望有更多空閒時間。",
+      "starter": "Amy",
+      "answer": "Amy wishes she had more free time.",
+      "answerZh": "艾米真希望自己有更多空閒時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Amy wishes she had more free time."
+    },
+    {
+      "id": "ss71-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Ben lives far from school, although he would like to live closer.",
+      "promptZh": "本住得離學校很遠，雖然他希望住得近一些。",
+      "starter": "Ben",
+      "answer": "Ben wishes he lived closer to school.",
+      "answerZh": "本真希望自己住得離學校近一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Ben wishes he lived closer to school."
+    },
+    {
+      "id": "ss71-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The weather is cold today. We would prefer warmer weather.",
+      "promptZh": "今天天氣很冷。我們希望天氣暖和一些。",
+      "starter": "We",
+      "answer": "We wish the weather were warmer today.",
+      "answerZh": "我們真希望今天天氣暖和一些。",
+      "answerZhSource": "pdf",
+      "highlight": "We wish the weather were warmer today."
+    },
+    {
+      "id": "ss71-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Leo is not as tall as he wants to be.",
+      "promptZh": "里奧沒有自己期望的那麼高。",
+      "starter": "Leo",
+      "answer": "Leo wishes he were taller.",
+      "answerZh": "里奧真希望自己高一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Leo wishes he were taller."
+    },
+    {
+      "id": "ss71-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Nina is not confident when she speaks English. She wants to speak more confidently.",
+      "promptZh": "妮娜說英語時缺乏自信。她希望自己說得更有自信。",
+      "starter": "Nina",
+      "answer": "Nina wishes she spoke English more confidently.",
+      "answerZh": "妮娜真希望自己說英語時更有自信。",
+      "answerZhSource": "pdf",
+      "highlight": "Nina wishes she spoke English more confidently."
+    },
+    {
+      "id": "ss71-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The bus does not come very often. They want it to come more often.",
+      "promptZh": "巴士班次不太頻密。他們希望巴士更常到站。",
+      "starter": "They",
+      "answer": "They wish the bus came more often.",
+      "answerZh": "他們真希望巴士班次更頻密。",
+      "answerZhSource": "pdf",
+      "highlight": "They wish the bus came more often."
+    },
+    {
+      "id": "ss71-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "My brother shares a room, but he wants a room of his own.",
+      "promptZh": "我的弟弟與別人共用房間，但他希望有自己的房間。",
+      "starter": "My",
+      "answer": "My brother wishes he had his own room.",
+      "answerZh": "我的弟弟真希望自己有獨立房間。",
+      "answerZhSource": "pdf",
+      "highlight": "My brother wishes he had his own room."
+    },
+    {
+      "id": "ss71-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This bag is heavier than I would like.",
+      "promptZh": "這個袋比我希望的更重。",
+      "starter": "I",
+      "answer": "I wish this bag were lighter.",
+      "answerZh": "我真希望這個袋輕一些。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish this bag were lighter."
+    },
+    {
+      "id": "ss71-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The library closes early, and the students want it to stay open later.",
+      "promptZh": "圖書館很早關門，學生希望它開放至更晚。",
+      "starter": "The",
+      "answer": "The students wish the library stayed open later.",
+      "answerZh": "學生真希望圖書館開放至更晚。",
+      "answerZhSource": "pdf",
+      "highlight": "The students wish the library stayed open later."
+    },
+    {
+      "id": "ss71-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Sarah does not understand maths very well, but she wants to understand it better.",
+      "promptZh": "莎拉不太明白數學，但她希望自己明白得更好。",
+      "starter": "Sarah",
+      "answer": "Sarah wishes she understood maths better.",
+      "answerZh": "莎拉真希望自己更明白數學。",
+      "answerZhSource": "pdf",
+      "highlight": "Sarah wishes she understood maths better."
+    },
+    {
+      "id": "ss71-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "David thinks it is a pity that his neighbours are so noisy.",
+      "promptZh": "大衛認為鄰居這麼嘈吵實在可惜。",
+      "starter": "David",
+      "answer": "David wishes his neighbours were not so noisy.",
+      "answerZh": "大衛真希望鄰居沒有那麼嘈吵。",
+      "answerZhSource": "pdf",
+      "highlight": "David wishes his neighbours were not so noisy."
+    },
+    {
+      "id": "ss71-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My phone battery does not last long enough. I would like it to last longer.",
+      "promptZh": "我的電話電池不夠耐用。我希望它能用得更久。",
+      "starter": "I",
+      "answer": "I wish my phone battery lasted longer.",
+      "answerZh": "我真希望電話電池更耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish my phone battery lasted longer."
+    },
+    {
+      "id": "ss71-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Chloe is unhappy because she feels nervous before tests, and she wants to feel calmer.",
+      "promptZh": "克洛伊因為在測驗前感到緊張而不開心，她希望自己冷靜一些。",
+      "starter": "Chloe",
+      "answer": "Chloe wishes she felt calmer before tests.",
+      "answerZh": "克洛伊真希望自己在測驗前冷靜一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Chloe wishes she felt calmer before tests."
+    },
+    {
+      "id": "ss71-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The train station is farther from our home than we would like.",
+      "promptZh": "火車站離我們家比我們所希望的更遠。",
+      "starter": "We",
+      "answer": "We wish the train station were nearer to our home.",
+      "answerZh": "我們真希望火車站離我們家近一些。",
+      "answerZhSource": "pdf",
+      "highlight": "We wish the train station were nearer to our home."
+    },
+    {
+      "id": "ss71-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Kevin would take the course if he had enough money, but he does not have enough.",
+      "promptZh": "如果凱文有足夠金錢，他便會修讀這個課程，但他目前沒有足夠金錢。",
+      "starter": "Kevin",
+      "answer": "Kevin wishes he had enough money to take the course.",
+      "answerZh": "凱文真希望自己有足夠金錢修讀這個課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Kevin wishes he had enough money to take the course."
+    },
+    {
+      "id": "ss71-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The players are often unprepared when practice begins. The coach wants them to be ready at the start of every practice.",
+      "promptZh": "球員在訓練開始時經常未準備好。教練希望他們每次訓練開始時都準備好。",
+      "starter": "The",
+      "answer": "The coach wishes the players were ready at the start of every practice.",
+      "answerZh": "教練真希望球員在每次訓練開始時都準備好。",
+      "answerZhSource": "pdf",
+      "highlight": "The coach wishes the players were ready at the start of every practice."
+    },
+    {
+      "id": "ss71-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Olivia would prefer a less crowded desk, but hers is full of books and papers.",
+      "promptZh": "奧莉花希望書桌沒有那麼擠迫，但她的書桌放滿了書本和文件。",
+      "starter": "Olivia",
+      "answer": "Olivia wishes there were fewer books and papers on her desk.",
+      "answerZh": "奧莉花真希望書桌上的書本和文件少一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Olivia wishes there were fewer books and papers on her desk."
+    },
+    {
+      "id": "ss71-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "My parents think I am not helpful enough at home. They want me to be more helpful.",
+      "promptZh": "我的父母認為我在家中不夠幫得上忙。他們希望我更願意幫忙。",
+      "starter": "My",
+      "answer": "My parents wish I were more helpful at home.",
+      "answerZh": "我的父母真希望我在家中更幫得上忙。",
+      "answerZhSource": "pdf",
+      "highlight": "My parents wish I were more helpful at home."
+    },
+    {
+      "id": "ss71-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The shop owner would like card payments to be more common because few customers use them.",
+      "promptZh": "很少顧客以卡付款，因此店主希望這種付款方式更普遍。",
+      "starter": "The",
+      "answer": "The shop owner wishes card payments were more common.",
+      "answerZh": "店主真希望以卡付款的情況更普遍。",
+      "answerZhSource": "pdf",
+      "highlight": "The shop owner wishes card payments were more common."
+    },
+    {
+      "id": "ss71-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Daniel has to work this weekend, although he wants to be free.",
+      "promptZh": "丹尼爾這個週末需要工作，雖然他希望有空。",
+      "starter": "Daniel",
+      "answer": "Daniel wishes he did not have to work this weekend.",
+      "answerZh": "丹尼爾真希望這個週末不需要工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Daniel wishes he did not have to work this weekend."
+    },
+    {
+      "id": "ss71-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why are the museum staff disappointed? Few young people visit on weekdays, and they want more to come.",
+      "promptZh": "博物館職員為甚麼感到失望？平日很少年輕人到訪，而他們希望有更多年輕人前來。",
+      "starter": "The",
+      "answer": "The museum staff wish more young people visited on weekdays.",
+      "answerZh": "博物館職員真希望平日有更多年輕人到訪。",
+      "answerZhSource": "pdf",
+      "highlight": "The museum staff wish more young people visited on weekdays."
+    },
+    {
+      "id": "ss71-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "My parents do not fully understand my worries. It would make me happier if they understood them better.",
+      "promptZh": "我的父母不完全明白我的憂慮。如果他們更明白，我會開心一些。",
+      "starter": "I",
+      "answer": "I wish my parents understood my worries better.",
+      "answerZh": "我真希望父母更明白我的憂慮。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish my parents understood my worries better."
+    },
+    {
+      "id": "ss71-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Grace is disappointed because the school offers very few art classes. She wants it to offer more.",
+      "promptZh": "格蕾絲因學校只提供很少藝術課而感到失望。她希望學校提供更多。",
+      "starter": "Grace",
+      "answer": "Grace wishes the school offered more art classes.",
+      "answerZh": "格蕾絲真希望學校提供更多藝術課。",
+      "answerZhSource": "pdf",
+      "highlight": "Grace wishes the school offered more art classes."
+    },
+    {
+      "id": "ss71-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The poor air conditioning makes the office uncomfortable for Ethan. He wants better air conditioning.",
+      "promptZh": "冷氣不足令辦公室對伊森來說很不舒服。他希望冷氣好一些。",
+      "starter": "Ethan",
+      "answer": "Ethan wishes the office had better air conditioning.",
+      "answerZh": "伊森真希望辦公室有更好的冷氣。",
+      "answerZhSource": "pdf",
+      "highlight": "Ethan wishes the office had better air conditioning."
+    },
+    {
+      "id": "ss71-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The residents think it is a shame that the road is unsafe at night.",
+      "promptZh": "居民認為這條道路晚上並不安全，實在可惜。",
+      "starter": "The",
+      "answer": "The residents wish the road were safer at night.",
+      "answerZh": "居民真希望這條道路晚上更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The residents wish the road were safer at night."
+    },
+    {
+      "id": "ss71-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Maya finds it frustrating that her laptop works so slowly. She wants it to work faster.",
+      "promptZh": "瑪雅覺得手提電腦運作太慢，令人沮喪。她希望它運作快一些。",
+      "starter": "Maya",
+      "answer": "Maya wishes her laptop worked faster.",
+      "answerZh": "瑪雅真希望手提電腦運作快一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Maya wishes her laptop worked faster."
+    },
+    {
+      "id": "ss71-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "If I could change one thing about the morning journey, public transport would be less crowded.",
+      "promptZh": "如果我可以改變早上行程中的一件事，我會令公共交通沒有那麼擠迫。",
+      "starter": "I",
+      "answer": "I wish public transport were less crowded in the morning.",
+      "answerZh": "我真希望早上的公共交通沒有那麼擠迫。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish public transport were less crowded in the morning."
+    },
+    {
+      "id": "ss71-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "According to the nurses, there are too few seats in the waiting area. They want more seats there.",
+      "promptZh": "護士表示，等候區的座位太少。他們希望那裏有更多座位。",
+      "starter": "The",
+      "answer": "The nurses wish there were more seats in the waiting area.",
+      "answerZh": "護士真希望等候區有更多座位。",
+      "answerZhSource": "pdf",
+      "highlight": "The nurses wish there were more seats in the waiting area."
+    },
+    {
+      "id": "ss71-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Jason has to share a computer at work. His ideal situation is to have one of his own.",
+      "promptZh": "傑森在工作時需要與別人共用電腦。他理想的情況是有一部自己的電腦。",
+      "starter": "Jason",
+      "answer": "Jason wishes he had his own computer at work.",
+      "answerZh": "傑森真希望自己在工作時有一部自己的電腦。",
+      "answerZhSource": "pdf",
+      "highlight": "Jason wishes he had his own computer at work."
+    },
+    {
+      "id": "ss71-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Aisha says, “I often forget people’s names, but I want to remember them more easily.”",
+      "promptZh": "艾莎說：「我經常忘記別人的名字，但我希望自己更容易記住。」",
+      "starter": "Aisha",
+      "answer": "Aisha wishes she remembered people’s names more easily.",
+      "answerZh": "艾莎真希望自己更容易記住別人的名字。",
+      "answerZhSource": "pdf",
+      "highlight": "Aisha wishes she remembered people’s names more easily."
+    },
+    {
+      "id": "ss71-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The instructions from Marcus’s manager are often unclear. Marcus would prefer clearer instructions.",
+      "promptZh": "馬庫斯的經理所給的指示經常不清楚。馬庫斯希望指示更清晰。",
+      "starter": "Marcus",
+      "answer": "Marcus wishes his manager’s instructions were clearer.",
+      "answerZh": "馬庫斯真希望經理的指示更清晰。",
+      "answerZhSource": "pdf",
+      "highlight": "Marcus wishes his manager’s instructions were clearer."
+    },
+    {
+      "id": "ss71-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "We would like the online form to be easier to complete because it is difficult now.",
+      "promptZh": "網上表格目前很難填寫，我們希望它容易填寫一些。",
+      "starter": "We",
+      "answer": "We wish the online form were easier to complete.",
+      "answerZh": "我們真希望網上表格容易填寫一些。",
+      "answerZhSource": "pdf",
+      "highlight": "We wish the online form were easier to complete."
+    },
+    {
+      "id": "ss71-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Because the practice ground has poor lighting, the team wants better lighting there.",
+      "promptZh": "由於訓練場地的照明不足，球隊希望那裏有更好的照明。",
+      "starter": "The",
+      "answer": "The team wishes its practice ground had better lighting.",
+      "answerZh": "球隊真希望訓練場地有更好的照明。",
+      "answerZhSource": "pdf",
+      "highlight": "The team wishes its practice ground had better lighting."
+    },
+    {
+      "id": "ss71-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Sofia hates getting travel sick on long journeys and wants this problem to disappear.",
+      "promptZh": "蘇菲亞討厭在長途旅程中暈浪，並希望這個問題消失。",
+      "starter": "Sofia",
+      "answer": "Sofia wishes she did not get travel sick on long journeys.",
+      "answerZh": "蘇菲亞真希望自己在長途旅程中不會暈浪。",
+      "answerZhSource": "pdf",
+      "highlight": "Sofia wishes she did not get travel sick on long journeys."
+    },
+    {
+      "id": "ss71-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The café owner says there is not enough storage space in the kitchen and wants more.",
+      "promptZh": "咖啡店店主表示，廚房的儲物空間不足，並希望有更多空間。",
+      "starter": "The",
+      "answer": "The café owner wishes the kitchen had more storage space.",
+      "answerZh": "咖啡店店主真希望廚房有更多儲物空間。",
+      "answerZhSource": "pdf",
+      "highlight": "The café owner wishes the kitchen had more storage space."
+    },
+    {
+      "id": "ss71-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "What would I change about my younger brother? I would make him more careful with my things.",
+      "promptZh": "我會改變弟弟哪一點？我會令他更小心處理我的物品。",
+      "starter": "I",
+      "answer": "I wish my younger brother were more careful with my things.",
+      "answerZh": "我真希望弟弟更小心處理我的物品。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish my younger brother were more careful with my things."
+    },
+    {
+      "id": "ss71-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The teacher would like more natural light because the classroom is quite dark.",
+      "promptZh": "課室相當昏暗，因此老師希望有更多自然光。",
+      "starter": "The",
+      "answer": "The teacher wishes the classroom had more natural light.",
+      "answerZh": "老師真希望課室有更多自然光。",
+      "answerZhSource": "pdf",
+      "highlight": "The teacher wishes the classroom had more natural light."
+    },
+    {
+      "id": "ss71-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Local residents say, “If only the community centre offered evening classes.”",
+      "promptZh": "本區居民說：「要是社區中心提供晚間課程就好了。」",
+      "starter": "Local",
+      "answer": "Local residents wish the community centre offered evening classes.",
+      "answerZh": "本區居民真希望社區中心提供晚間課程。",
+      "answerZhSource": "pdf",
+      "highlight": "Local residents wish the community centre offered evening classes."
+    },
+    {
+      "id": "ss71-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Our family would prefer a flat with a second bathroom, but our current flat has only one.",
+      "promptZh": "我們一家希望單位有第二個浴室，但目前的單位只有一個浴室。",
+      "starter": "Our",
+      "answer": "Our family wishes our flat had a second bathroom.",
+      "answerZh": "我們一家真希望單位有第二個浴室。",
+      "answerZhSource": "pdf",
+      "highlight": "Our family wishes our flat had a second bathroom."
+    },
+    {
+      "id": "ss71-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Emma would be happier if her journey to work took less time.",
+      "promptZh": "如果上班路程所需時間較短，艾瑪會更開心。",
+      "starter": "Emma",
+      "answer": "Emma wishes her journey to work took less time.",
+      "answerZh": "艾瑪真希望上班路程所需時間短一些。",
+      "answerZhSource": "pdf",
+      "highlight": "Emma wishes her journey to work took less time."
+    },
+    {
+      "id": "ss71-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The hospital staff believe the appointment system is too difficult for elderly patients to use. They want it to be easier.",
+      "promptZh": "醫院職員認為預約系統對年長病人來說太難使用。他們希望系統容易使用一些。",
+      "starter": "The",
+      "answer": "The hospital staff wish the appointment system were easier for elderly patients to use.",
+      "answerZh": "醫院職員真希望預約系統讓年長病人更容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "The hospital staff wish the appointment system were easier for elderly patients to use."
+    },
+    {
+      "id": "ss71-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "It is frustrating that the information on this website is out of date. I want more current information.",
+      "promptZh": "這個網站的資料已經過時，令人沮喪。我希望有較新的資料。",
+      "starter": "I",
+      "answer": "I wish the information on this website were more up to date.",
+      "answerZh": "我真希望這個網站的資料更新一些。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish the information on this website were more up to date."
+    },
+    {
+      "id": "ss71-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The project manager is dissatisfied with the weekly reports because their figures are unclear. She wants the reports to contain clearer figures.",
+      "promptZh": "項目經理不滿每週報告，因為當中的數字不清晰。她希望報告包含更清晰的數字。",
+      "starter": "The",
+      "answer": "The project manager wishes the weekly reports contained clearer figures.",
+      "answerZh": "項目經理真希望每週報告包含更清晰的數字。",
+      "answerZhSource": "pdf",
+      "highlight": "The project manager wishes the weekly reports contained clearer figures."
+    },
+    {
+      "id": "ss71-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why are the passengers unhappy with the airport route? There are too few direct buses, and they want more.",
+      "promptZh": "乘客為甚麼不滿前往機場的路線？直達巴士太少，而他們希望有更多。",
+      "starter": "The",
+      "answer": "The passengers wish there were more direct buses to the airport.",
+      "answerZh": "乘客真希望有更多前往機場的直達巴士。",
+      "answerZhSource": "pdf",
+      "highlight": "The passengers wish there were more direct buses to the airport."
+    },
+    {
+      "id": "ss71-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Noah chose the course, but he is disappointed that it includes very little practical training. He wants more.",
+      "promptZh": "諾亞選擇了這個課程，但他因課程只包含很少實務訓練而感到失望。他希望有更多。",
+      "starter": "Noah",
+      "answer": "Noah wishes his course included more practical training.",
+      "answerZh": "諾亞真希望課程包含更多實務訓練。",
+      "answerZhSource": "pdf",
+      "highlight": "Noah wishes his course included more practical training."
+    },
+    {
+      "id": "ss71-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The small business owners say bank fees are too high. They want the fees to be lower.",
+      "promptZh": "小企業東主表示銀行收費太高。他們希望收費較低。",
+      "starter": "The",
+      "answer": "The small business owners wish bank fees were lower.",
+      "answerZh": "小企業東主真希望銀行收費較低。",
+      "answerZhSource": "pdf",
+      "highlight": "The small business owners wish bank fees were lower."
+    },
+    {
+      "id": "ss71-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "We find the new recycling rules difficult to understand. It would be much better if they were easier.",
+      "promptZh": "我們覺得新的回收規則很難明白。如果規則容易理解一些，情況會好得多。",
+      "starter": "We",
+      "answer": "We wish the new recycling rules were easier to understand.",
+      "answerZh": "我們真希望新的回收規則容易明白一些。",
+      "answerZhSource": "pdf",
+      "highlight": "We wish the new recycling rules were easier to understand."
+    },
+    {
+      "id": "ss71-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The school staff are unhappy because the lift does not reach every floor. They want it to do so.",
+      "promptZh": "學校職員因升降機不能到達每一層而不滿。他們希望升降機可以到達所有樓層。",
+      "starter": "The",
+      "answer": "The school staff wish the lift reached every floor.",
+      "answerZh": "學校職員真希望升降機能到達每一層。",
+      "answerZhSource": "pdf",
+      "highlight": "The school staff wish the lift reached every floor."
+    },
+    {
+      "id": "ss71-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "What improvement would I make to our neighbourhood? I would add more quiet public spaces for studying.",
+      "promptZh": "我會為社區作出甚麼改善？我會增加更多可供溫習的安靜公共空間。",
+      "starter": "I",
+      "answer": "I wish our neighbourhood had more quiet public spaces for studying.",
+      "answerZh": "我真希望社區有更多可供溫習的安靜公共空間。",
+      "answerZhSource": "pdf",
+      "highlight": "I wish our neighbourhood had more quiet public spaces for studying."
+    }
+  ]
+}

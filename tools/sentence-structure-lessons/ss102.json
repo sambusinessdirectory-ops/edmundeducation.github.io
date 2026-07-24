@@ -1,0 +1,1250 @@
+{
+  "id": "ss102",
+  "order": 102,
+  "slug": "adjective-with-without",
+  "title": "「Adjective + with / without」句型",
+  "titleZh": "「Adjective + with / without」描述條件與程度",
+  "titleEn": "Using adjective + with / without for conditions and degree",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 102 -「Adjective + with _ without」描述條件與程度.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "exercisePages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "answerPages": [
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": [
+      "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+    ]
+  },
+  "formula": "Subject + linking verb + adjective + with + noun phrase",
+  "formulas": [
+    {
+      "id": "ss102-formula-condition",
+      "labelEn": "A state created by a condition",
+      "labelZh": "描述某項條件帶來的狀態",
+      "formula": "Subject + linking verb + adjective + with + noun phrase"
+    },
+    {
+      "id": "ss102-formula-degree",
+      "labelEn": "A changing degree",
+      "labelZh": "描述程度隨某項因素而改變",
+      "formula": "Subject + get / become / grow + comparative adjective + with + noun phrase"
+    },
+    {
+      "id": "ss102-formula-absence",
+      "labelEn": "A missing necessary condition",
+      "labelZh": "表達缺少某項必要條件",
+      "formula": "Subject + linking verb + adjective + without + noun phrase"
+    }
+  ],
+  "example": "Bookings get more expensive with more participants.",
+  "exampleZh": "參加者越多，預訂費用就會越昂貴。",
+  "examples": [
+    {
+      "id": "ss102-example-condition",
+      "en": "Bookings get more expensive with more participants.",
+      "zh": "參加者越多，預訂費用就會越昂貴。",
+      "highlight": "more expensive with more participants"
+    },
+    {
+      "id": "ss102-example-degree",
+      "en": "The wine’s aroma becomes more pronounced with longer breathing time.",
+      "zh": "葡萄酒的香氣會隨着醒酒時間延長而變得更明顯。",
+      "highlight": "more pronounced with longer breathing time"
+    },
+    {
+      "id": "ss102-example-without",
+      "en": "Deep understanding is impossible without effort.",
+      "zh": "沒有努力，就不可能有深入的理解。",
+      "highlight": "impossible without effort"
+    }
+  ],
+  "meaning": {
+    "zh": "形容詞後接 with 可指出影響狀態或程度的條件；接 without 則指出缺少某項條件時的狀態。"
+  },
+  "rules": [
+    {
+      "id": "ss102-rule-01",
+      "zh": "With 後面接名詞或名詞詞組，不要直接使用完整句子。",
+      "en": "Follow with with a noun or noun phrase, not a complete clause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "with more practice",
+        "with clear instructions",
+        "with higher demand"
+      ]
+    },
+    {
+      "id": "ss102-rule-02",
+      "zh": "Without 表示缺少某項條件，常可改寫 if there is no、if someone does not have、when something is unavailable 或 unless something is provided。",
+      "en": "Without expresses a missing condition and often corresponds to if there is no, if someone does not have, when something is unavailable or unless something is provided.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The plan is impossible without enough time."
+      ]
+    },
+    {
+      "id": "ss102-rule-03",
+      "zh": "程度發生變化時通常使用比較級；短形容詞加 -er，較長形容詞使用 more 或 less。",
+      "en": "When degree changes, normally use a comparative: add -er to short adjectives and use more or less with longer adjectives.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "brighter",
+        "safer",
+        "more effective",
+        "less reliable"
+      ]
+    },
+    {
+      "id": "ss102-rule-04",
+      "zh": "With 可表示伴隨條件、環境或影響因素，不一定表示唯一或直接原因。",
+      "en": "With may introduce an accompanying condition, environment or influence and does not necessarily identify the only or direct cause.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The room is quieter with soundproof windows."
+      ]
+    },
+    {
+      "id": "ss102-rule-05",
+      "zh": "使用 without 時要保留原句的否定程度，例如 unreliable 不可擅自加強為 impossible。",
+      "en": "When using without, preserve the original degree of negativity; for example, do not strengthen unreliable into impossible.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "An experiment is unreliable without accurate measurements."
+      ]
+    },
+    {
+      "id": "ss102-rule-06",
+      "zh": "The more..., the more... 結構經常可以改寫成比較級形容詞 + with 的句子。",
+      "en": "A the more..., the more... structure can often be rewritten with a comparative adjective + with.",
+      "enSource": "editorial-translation",
+      "examples": [
+        "The wine’s aroma becomes more pronounced with longer breathing time."
+      ]
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss102-benefit-01",
+      "zh": "把一項特質和影響該特質的條件直接連接，讓讀者立即看出兩者關係。",
+      "en": "It directly connects a quality with the condition affecting it.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss102-benefit-02",
+      "zh": "可以更簡潔地描述人數、時間、需求或投入增加時的趨勢和程度變化。",
+      "en": "It describes changes in trend or degree more concisely as numbers, time, demand or input increase.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss102-benefit-03",
+      "zh": "Without 能直接指出缺少哪項必要條件便會令事情困難、無效、不安全或不可能。",
+      "en": "Without directly identifies the missing condition that makes something difficult, ineffective, unsafe or impossible.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss102-benefit-04",
+      "zh": "這個句型適合描述成本、需求、效率、安全、可靠程度、政策成效和研究可信度。",
+      "en": "The structure suits writing about cost, demand, efficiency, safety, reliability, policy effectiveness and research validity.",
+      "enSource": "editorial-translation"
+    },
+    {
+      "id": "ss102-benefit-05",
+      "zh": "它提供 because、when、if 和 as 以外的自然表達方法，增加句式變化。",
+      "en": "It offers a natural alternative to repeatedly using because, when, if and as.",
+      "enSource": "editorial-translation"
+    }
+  ],
+  "sourceOmissions": [
+    "English versions of Chinese-only Important Rules and Benefits explanations are faithful editorial translations."
+  ],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence using an adjective followed by with or without.",
+      "You may need to change a verb or an adverb into an adjective. Preserve the original meaning and degree.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用「形容詞＋with」或「形容詞＋without」改寫以下句子。",
+      "你可能需要把動詞或副詞改為形容詞。答案必須保留原句的意思和程度。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss102-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The room receives more sunlight, so it is brighter.",
+      "promptZh": "房間得到更多陽光，因此更加明亮。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room is brighter with more sunlight.",
+      "answerZh": "房間有更多陽光時會更加明亮。",
+      "answerZhSource": "pdf",
+      "highlight": "The room is brighter with more sunlight."
+    },
+    {
+      "id": "ss102-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Fresh herbs make the soup taste better.",
+      "promptZh": "新鮮香草令湯的味道更佳。",
+      "promptZhSource": "pdf",
+      "starter": "Soup",
+      "answer": "Soup tastes better with fresh herbs.",
+      "answerZh": "湯加入新鮮香草後味道更佳。",
+      "answerZhSource": "pdf",
+      "highlight": "Soup tastes better with fresh herbs."
+    },
+    {
+      "id": "ss102-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "If the lighting is improved, the road is safer.",
+      "promptZh": "如果照明得到改善，道路會更安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The road is safer with better lighting.",
+      "answerZh": "道路有更好的照明時會更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The road is safer with better lighting."
+    },
+    {
+      "id": "ss102-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Clear instructions make the task easier.",
+      "promptZh": "清晰的指示令任務更容易完成。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The task is easier with clear instructions.",
+      "answerZh": "有清晰指示時，任務會更容易完成。",
+      "answerZhSource": "pdf",
+      "highlight": "The task is easier with clear instructions."
+    },
+    {
+      "id": "ss102-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Regular watering makes the garden look healthier.",
+      "promptZh": "定期澆水令花園看起來更有生氣。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The garden looks healthier with regular watering.",
+      "answerZh": "花園在定期澆水下看起來更有生氣。",
+      "answerZhSource": "pdf",
+      "highlight": "The garden looks healthier with regular watering."
+    },
+    {
+      "id": "ss102-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A phone cannot be used if it has no power.",
+      "promptZh": "如果電話沒有電力，便無法使用。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A phone is useless without power.",
+      "answerZh": "電話沒有電力便毫無用處。",
+      "answerZhSource": "pdf",
+      "highlight": "A phone is useless without power."
+    },
+    {
+      "id": "ss102-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Why is the lesson difficult? It does not include any examples.",
+      "promptZh": "為甚麼這一課很難？因為當中沒有任何例子。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The lesson is difficult without examples.",
+      "answerZh": "沒有例子時，這一課會較難。",
+      "answerZhSource": "pdf",
+      "highlight": "The lesson is difficult without examples."
+    },
+    {
+      "id": "ss102-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The journey is uncomfortable if you do not have enough water.",
+      "promptZh": "如果你沒有足夠的水，這段旅程會很不舒服。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The journey is uncomfortable without enough water.",
+      "answerZh": "這段旅程中沒有足夠的水會令人不舒服。",
+      "answerZhSource": "pdf",
+      "highlight": "The journey is uncomfortable without enough water."
+    },
+    {
+      "id": "ss102-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The plan cannot be carried out if there is not enough time.",
+      "promptZh": "如果時間不足，這個計劃便無法執行。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The plan is impossible without enough time.",
+      "answerZh": "沒有足夠時間，這個計劃便不可能實行。",
+      "answerZhSource": "pdf",
+      "highlight": "The plan is impossible without enough time."
+    },
+    {
+      "id": "ss102-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "If the captain is absent, our team is weaker.",
+      "promptZh": "如果隊長缺席，我們的隊伍會較弱。",
+      "promptZhSource": "pdf",
+      "starter": "Our",
+      "answer": "Our team is weaker without its captain.",
+      "answerZh": "我們的隊伍沒有隊長時會較弱。",
+      "answerZhSource": "pdf",
+      "highlight": "Our team is weaker without its captain."
+    },
+    {
+      "id": "ss102-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "A stronger internet connection makes an online lesson smoother.",
+      "promptZh": "較強的網絡連線令網上課堂更順暢。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An online lesson is smoother with a stronger internet connection.",
+      "answerZh": "網絡連線較強時，網上課堂會更順暢。",
+      "answerZhSource": "pdf",
+      "highlight": "An online lesson is smoother with a stronger internet connection."
+    },
+    {
+      "id": "ss102-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The longer the wine is allowed to breathe, the more pronounced its aroma becomes.",
+      "promptZh": "葡萄酒醒酒的時間越長，香氣就越明顯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The wine’s aroma becomes more pronounced with longer breathing time.",
+      "answerZh": "葡萄酒的香氣會隨着醒酒時間延長而變得更明顯。",
+      "answerZhSource": "pdf",
+      "highlight": "The wine’s aroma becomes more pronounced with longer breathing time."
+    },
+    {
+      "id": "ss102-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "As the number of participants increases, a group booking gets more expensive.",
+      "promptZh": "隨着參加者人數增加，團體預訂費用會變得更昂貴。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A group booking gets more expensive with more participants.",
+      "answerZh": "參加者越多，團體預訂費用就會越昂貴。",
+      "answerZhSource": "pdf",
+      "highlight": "A group booking gets more expensive with more participants."
+    },
+    {
+      "id": "ss102-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The revision method works more effectively when it is used regularly.",
+      "promptZh": "這種溫習方法在定期使用時會發揮更佳效果。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The revision method is more effective with regular use.",
+      "answerZh": "這種溫習方法在定期使用下會更有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The revision method is more effective with regular use."
+    },
+    {
+      "id": "ss102-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Adding a simple diagram makes the explanation clearer.",
+      "promptZh": "加入一幅簡單圖表會令解釋更清楚。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An explanation becomes clearer with a simple diagram.",
+      "answerZh": "解釋配上一幅簡單圖表後會變得更清楚。",
+      "answerZhSource": "pdf",
+      "highlight": "An explanation becomes clearer with a simple diagram."
+    },
+    {
+      "id": "ss102-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Thicker curtains make the room feel warmer.",
+      "promptZh": "較厚的窗簾令房間感覺更溫暖。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room feels warmer with thicker curtains.",
+      "answerZh": "房間使用較厚的窗簾時感覺會更溫暖。",
+      "answerZhSource": "pdf",
+      "highlight": "The room feels warmer with thicker curtains."
+    },
+    {
+      "id": "ss102-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Every additional book makes the bag heavier.",
+      "promptZh": "每多放一本書，袋子便會更重。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A bag gets heavier with each additional book.",
+      "answerZh": "袋子會隨着每一本額外加入的書而變得更重。",
+      "answerZhSource": "pdf",
+      "highlight": "A bag gets heavier with each additional book."
+    },
+    {
+      "id": "ss102-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The service becomes less reliable when there are fewer staff members.",
+      "promptZh": "員工人數減少時，服務會變得較不可靠。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The service becomes less reliable with fewer staff members.",
+      "answerZh": "員工人數較少時，服務會變得較不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "The service becomes less reliable with fewer staff members."
+    },
+    {
+      "id": "ss102-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Proper refrigeration keeps fresh food safer.",
+      "promptZh": "妥善冷藏能令新鮮食物更安全。",
+      "promptZhSource": "pdf",
+      "starter": "Fresh",
+      "answer": "Fresh food stays safer with proper refrigeration.",
+      "answerZh": "新鮮食物在妥善冷藏下會較安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Fresh food stays safer with proper refrigeration."
+    },
+    {
+      "id": "ss102-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Why is the discussion less productive? It has no clear goal.",
+      "promptZh": "為甚麼這場討論成效較低？因為它沒有清晰目標。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The discussion is less productive without a clear goal.",
+      "answerZh": "這場討論沒有清晰目標時，成效會較低。",
+      "answerZhSource": "pdf",
+      "highlight": "The discussion is less productive without a clear goal."
+    },
+    {
+      "id": "ss102-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "More frequent services make public transport more convenient.",
+      "promptZh": "更頻密的班次令公共交通更方便。",
+      "promptZhSource": "pdf",
+      "starter": "Public",
+      "answer": "Public transport becomes more convenient with more frequent services.",
+      "answerZh": "公共交通會隨着班次增加而變得更方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Public transport becomes more convenient with more frequent services."
+    },
+    {
+      "id": "ss102-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Better communication allows a workplace to operate more efficiently.",
+      "promptZh": "更好的溝通讓工作場所運作得更有效率。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A workplace is more efficient with better communication.",
+      "answerZh": "工作場所具備更好的溝通時，運作會更有效率。",
+      "answerZhSource": "pdf",
+      "highlight": "A workplace is more efficient with better communication."
+    },
+    {
+      "id": "ss102-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The proposal is not as convincing if it has no supporting evidence.",
+      "promptZh": "如果建議沒有支持證據，說服力便會較低。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The proposal is less convincing without supporting evidence.",
+      "answerZh": "建議沒有支持證據時，說服力會較低。",
+      "answerZhSource": "pdf",
+      "highlight": "The proposal is less convincing without supporting evidence."
+    },
+    {
+      "id": "ss102-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Accurate measurements are necessary for the experiment to be reliable.",
+      "promptZh": "準確的測量數據是確保實驗可靠的必要條件。",
+      "promptZhSource": "pdf",
+      "starter": "An",
+      "answer": "An experiment is unreliable without accurate measurements.",
+      "answerZh": "沒有準確的測量數據，實驗便不可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "An experiment is unreliable without accurate measurements."
+    },
+    {
+      "id": "ss102-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "More street patrols make the neighbourhood feel safer.",
+      "promptZh": "增加街道巡邏令社區感覺更安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The neighbourhood feels safer with more street patrols.",
+      "answerZh": "社區有更多街道巡邏時會令人感覺更安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The neighbourhood feels safer with more street patrols."
+    },
+    {
+      "id": "ss102-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Recorded lessons make online learning more accessible.",
+      "promptZh": "錄影課堂令網上學習更容易使用。",
+      "promptZhSource": "pdf",
+      "starter": "Online",
+      "answer": "Online learning is more accessible with recorded lessons.",
+      "answerZh": "網上學習配合錄影課堂時會更容易使用。",
+      "answerZhSource": "pdf",
+      "highlight": "Online learning is more accessible with recorded lessons."
+    },
+    {
+      "id": "ss102-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Why is the decision harder? Complete information is unavailable.",
+      "promptZh": "為甚麼這個決定更難作出？因為完整資料並不可得。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The decision is harder without complete information.",
+      "answerZh": "沒有完整資料時，這個決定會更難作出。",
+      "answerZhSource": "pdf",
+      "highlight": "The decision is harder without complete information."
+    },
+    {
+      "id": "ss102-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Regular updates make the software more useful.",
+      "promptZh": "定期更新令這套軟件更加實用。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The software becomes more useful with regular updates.",
+      "answerZh": "這套軟件會隨着定期更新而變得更加實用。",
+      "answerZhSource": "pdf",
+      "highlight": "The software becomes more useful with regular updates."
+    },
+    {
+      "id": "ss102-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "When there are fewer cars on the road, the air is cleaner.",
+      "promptZh": "道路上的車輛較少時，空氣會更潔淨。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The air is cleaner with fewer cars on the road.",
+      "answerZh": "道路上的車輛較少時，空氣會更潔淨。",
+      "answerZhSource": "pdf",
+      "highlight": "The air is cleaner with fewer cars on the road."
+    },
+    {
+      "id": "ss102-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The presentation is less engaging if it contains no visual examples.",
+      "promptZh": "如果簡報沒有視覺例子，吸引力便會較低。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A presentation is less engaging without visual examples.",
+      "answerZh": "簡報沒有視覺例子時，吸引力會較低。",
+      "answerZhSource": "pdf",
+      "highlight": "A presentation is less engaging without visual examples."
+    },
+    {
+      "id": "ss102-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The wine tastes smoother after it has had more time to breathe.",
+      "promptZh": "葡萄酒經過較長時間醒酒後，口感會更順滑。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The wine tastes smoother with more time to breathe.",
+      "answerZh": "葡萄酒有更多時間醒酒時，口感會更順滑。",
+      "answerZhSource": "pdf",
+      "highlight": "The wine tastes smoother with more time to breathe."
+    },
+    {
+      "id": "ss102-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Two-step verification makes the system more secure.",
+      "promptZh": "雙重驗證令系統更加安全。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The system is more secure with two-step verification.",
+      "answerZh": "系統採用雙重驗證時會更加安全。",
+      "answerZhSource": "pdf",
+      "highlight": "The system is more secure with two-step verification."
+    },
+    {
+      "id": "ss102-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "If early testing is not carried out, the project becomes riskier.",
+      "promptZh": "如果沒有進行早期測試，項目會變得風險更高。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A project becomes riskier without early testing.",
+      "answerZh": "項目沒有早期測試時會變得風險更高。",
+      "answerZhSource": "pdf",
+      "highlight": "A project becomes riskier without early testing."
+    },
+    {
+      "id": "ss102-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Soundproof windows make the room quieter.",
+      "promptZh": "隔音窗令房間更加安靜。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The room is quieter with soundproof windows.",
+      "answerZh": "房間裝有隔音窗時會更加安靜。",
+      "answerZhSource": "pdf",
+      "highlight": "The room is quieter with soundproof windows."
+    },
+    {
+      "id": "ss102-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Numbered steps make the instructions easier to follow.",
+      "promptZh": "編上號碼的步驟令指示更容易跟從。",
+      "promptZhSource": "pdf",
+      "starter": "Instructions",
+      "answer": "Instructions are easier to follow with numbered steps.",
+      "answerZh": "指示配上編號步驟後會更容易跟從。",
+      "answerZhSource": "pdf",
+      "highlight": "Instructions are easier to follow with numbered steps."
+    },
+    {
+      "id": "ss102-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Proper enforcement is necessary for the policy to be effective.",
+      "promptZh": "妥善執法是政策發揮成效的必要條件。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A policy is ineffective without proper enforcement.",
+      "answerZh": "政策沒有妥善執行便無法發揮成效。",
+      "answerZhSource": "pdf",
+      "highlight": "A policy is ineffective without proper enforcement."
+    },
+    {
+      "id": "ss102-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Regular maintenance allows the machine to work more accurately.",
+      "promptZh": "定期保養讓機器運作得更準確。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The machine is more accurate with regular maintenance.",
+      "answerZh": "機器在定期保養下會更準確。",
+      "answerZhSource": "pdf",
+      "highlight": "The machine is more accurate with regular maintenance."
+    },
+    {
+      "id": "ss102-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Clearer communication leads to a more positive public response.",
+      "promptZh": "更清晰的溝通會帶來更正面的公眾反應。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The public response becomes more positive with clearer communication.",
+      "answerZh": "公眾反應會隨着溝通變得更清晰而更加正面。",
+      "answerZhSource": "pdf",
+      "highlight": "The public response becomes more positive with clearer communication."
+    },
+    {
+      "id": "ss102-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The more effort the team spends on development, the more effective the product becomes.",
+      "promptZh": "團隊在開發上投入越多努力，產品就會變得越有效。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The product becomes more effective with more effort spent on development.",
+      "answerZh": "產品會隨着開發方面投入更多努力而變得更有效。",
+      "answerZhSource": "pdf",
+      "highlight": "The product becomes more effective with more effort spent on development."
+    },
+    {
+      "id": "ss102-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Why is the warning less useful? It gives no specific advice.",
+      "promptZh": "為甚麼這項警告較沒有用？因為它沒有提供具體建議。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A warning is less useful without specific advice.",
+      "answerZh": "警告沒有具體建議時，作用會較小。",
+      "answerZhSource": "pdf",
+      "highlight": "A warning is less useful without specific advice."
+    },
+    {
+      "id": "ss102-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Careful planning reduces the risk of long-term projects.",
+      "promptZh": "周詳規劃能降低長期項目的風險。",
+      "promptZhSource": "pdf",
+      "starter": "Long-term",
+      "answer": "Long-term projects are less risky with careful planning.",
+      "answerZh": "長期項目配合周詳規劃時，風險會較低。",
+      "answerZhSource": "pdf",
+      "highlight": "Long-term projects are less risky with careful planning."
+    },
+    {
+      "id": "ss102-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Meaningful examples make a language lesson easier to remember.",
+      "promptZh": "有意義的例子令語言課堂更容易記住。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A language lesson is more memorable with meaningful examples.",
+      "answerZh": "語言課堂配合有意義的例子時會更令人印象深刻。",
+      "answerZhSource": "pdf",
+      "highlight": "A language lesson is more memorable with meaningful examples."
+    },
+    {
+      "id": "ss102-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "When a hospital has enough emergency supplies, it is better prepared.",
+      "promptZh": "醫院有足夠緊急物資時，準備會更充分。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A hospital is better prepared with enough emergency supplies.",
+      "answerZh": "醫院備有足夠緊急物資時，會有更充分的準備。",
+      "answerZhSource": "pdf",
+      "highlight": "A hospital is better prepared with enough emergency supplies."
+    },
+    {
+      "id": "ss102-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Evidence from several sources makes the research conclusion more trustworthy.",
+      "promptZh": "來自多個來源的證據令研究結論更可信。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A research conclusion is more trustworthy with evidence from several sources.",
+      "answerZh": "研究結論有多個來源的證據支持時會更可信。",
+      "answerZhSource": "pdf",
+      "highlight": "A research conclusion is more trustworthy with evidence from several sources."
+    },
+    {
+      "id": "ss102-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A city becomes less liveable if affordable housing is unavailable.",
+      "promptZh": "如果缺乏可負擔房屋，城市會變得較不宜居。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A city becomes less liveable without affordable housing.",
+      "answerZh": "城市沒有可負擔房屋時會變得較不宜居。",
+      "answerZhSource": "pdf",
+      "highlight": "A city becomes less liveable without affordable housing."
+    },
+    {
+      "id": "ss102-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Team decisions are fairer when different members provide input.",
+      "promptZh": "不同成員提供意見時，團隊決定會更公平。",
+      "promptZhSource": "pdf",
+      "starter": "Team",
+      "answer": "Team decisions are fairer with input from different members.",
+      "answerZh": "團隊決定在有不同成員提供意見時會更公平。",
+      "answerZhSource": "pdf",
+      "highlight": "Team decisions are fairer with input from different members."
+    },
+    {
+      "id": "ss102-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "A training programme works more effectively when enough time is provided for practice.",
+      "promptZh": "如果提供足夠練習時間，培訓課程會發揮更佳成效。",
+      "promptZhSource": "pdf",
+      "starter": "A",
+      "answer": "A training programme is more effective with enough time for practice.",
+      "answerZh": "培訓課程有足夠練習時間時會更有效。",
+      "answerZhSource": "pdf",
+      "highlight": "A training programme is more effective with enough time for practice."
+    },
+    {
+      "id": "ss102-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The longer the sauce rests, the more pronounced its flavour becomes.",
+      "promptZh": "醬汁靜置的時間越長，味道就越明顯。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The flavour becomes more pronounced with a longer resting period.",
+      "answerZh": "味道會隨着靜置時間延長而變得更明顯。",
+      "answerZhSource": "pdf",
+      "highlight": "The flavour becomes more pronounced with a longer resting period."
+    },
+    {
+      "id": "ss102-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "As demand increases, the tickets become less affordable.",
+      "promptZh": "隨着需求上升，門票會變得較難負擔。",
+      "promptZhSource": "pdf",
+      "starter": "The",
+      "answer": "The tickets become less affordable with higher demand.",
+      "answerZh": "需求較高時，門票會變得較難負擔。",
+      "answerZhSource": "pdf",
+      "highlight": "The tickets become less affordable with higher demand."
+    },
+    {
+      "id": "ss102-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 14,
+        "questionPage": 14,
+        "promptZhPage": 14,
+        "starterPage": 14,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Long-term public support is essential for sustainable development.",
+      "promptZh": "長期公眾支持是可持續發展的必要條件。",
+      "promptZhSource": "pdf",
+      "starter": "Sustainable",
+      "answer": "Sustainable development is impossible without long-term public support.",
+      "answerZh": "沒有長期公眾支持，可持續發展便不可能實現。",
+      "answerZhSource": "pdf",
+      "highlight": "Sustainable development is impossible without long-term public support."
+    }
+  ]
+}

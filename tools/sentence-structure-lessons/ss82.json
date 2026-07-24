@@ -1,0 +1,1154 @@
+{
+  "id": "ss82",
+  "order": 82,
+  "slug": "sentence-structure-82",
+  "title": "「Granted, … However, …」句型",
+  "titleZh": "「Granted, … However, …」先讓步、後轉折句",
+  "titleEn": "Using Granted, … However, … to concede a point before presenting a contrast",
+  "titleEnSource": "editorial-translation",
+  "source": {
+    "file": "Sentence Structure 82 -「Granted, … However, …」先讓步、後轉折句.pdf",
+    "pageCount": 20,
+    "lessonPages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "exercisePages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "answerPages": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "omissions": []
+  },
+  "formula": "Granted, + complete clause. However, + complete clause.",
+  "formulas": [
+    {
+      "id": "ss82-formula-main",
+      "labelZh": "先讓步、後轉折",
+      "labelEn": "Concession followed by contrast",
+      "formula": "Granted, + complete clause. However, + complete clause."
+    }
+  ],
+  "example": "Granted, the short-term cost is high. However, the long-term return is stronger.",
+  "exampleZh": "誠然，短期成本很高；然而，長遠回報更強。",
+  "examples": [
+    {
+      "id": "ss82-example-main",
+      "en": "Granted, the short-term cost is high. However, the long-term return is stronger.",
+      "zh": "誠然，短期成本很高；然而，長遠回報更強。",
+      "highlight": "Granted,"
+    },
+    {
+      "id": "ss82-example-plan",
+      "en": "Granted, the plan is expensive. However, it may save money later.",
+      "zh": "誠然，這個計劃很昂貴；然而，日後可能節省金錢。",
+      "highlight": "However,"
+    }
+  ],
+  "meaning": {
+    "zh": "使用 Granted 承認某一點是真實或合理的，再使用 However 提出真正想強調的主要觀點。"
+  },
+  "rules": [
+    {
+      "id": "ss82-rule-01",
+      "zh": "Granted 後面通常要使用包含主語和動詞的完整句子。",
+      "en": "Use a complete clause after Granted."
+    },
+    {
+      "id": "ss82-rule-02",
+      "zh": "使用 Granted 後要加逗號。",
+      "en": "Put a comma after Granted."
+    },
+    {
+      "id": "ss82-rule-03",
+      "zh": "第一句結束後要使用句號；第二句以 However, 開始。",
+      "en": "End the first sentence with a full stop and begin the second sentence with However,."
+    },
+    {
+      "id": "ss82-rule-04",
+      "zh": "第一句承認限制、缺點或相反觀點；第二句通常提出更想強調的主要立場。",
+      "en": "Put the main message after However."
+    },
+    {
+      "id": "ss82-rule-05",
+      "zh": "使用 Granted 代表承認其中一點合理，並不代表完全同意整個立場。",
+      "en": "Granted accepts one particular point and does not necessarily mean complete agreement."
+    },
+    {
+      "id": "ss82-rule-06",
+      "zh": "改寫時要保留原句的時態、人物、動作、可能性、確定程度和語意強弱。",
+      "en": "Preserve the original tense, people, actions, possibility, certainty and degree of meaning."
+    },
+    {
+      "id": "ss82-rule-07",
+      "zh": "每個答案都必須以 Granted 開始，第二句必須以 However 開始；不要改用 although、but、yet 或 nevertheless。",
+      "en": "Every answer must begin with Granted and its second sentence with However; do not substitute although, but, yet or nevertheless."
+    }
+  ],
+  "benefits": [
+    {
+      "id": "ss82-benefit-01",
+      "zh": "它能顯示你有考慮事情的兩面，令論述聽起來更全面。",
+      "en": "It makes your argument sound balanced."
+    },
+    {
+      "id": "ss82-benefit-02",
+      "zh": "However 後面的內容會得到較強的注意，讓讀者清楚知道你的真正立場。",
+      "en": "It makes your main opinion clear."
+    },
+    {
+      "id": "ss82-benefit-03",
+      "zh": "它先承認一點，再作出回應，把兩個觀點分成清楚的步驟。",
+      "en": "It organises two ideas into clear steps."
+    },
+    {
+      "id": "ss82-benefit-04",
+      "zh": "這個兩句式結構能增加句式變化，避免每次表達轉折都使用 but。",
+      "en": "It provides an alternative to repeatedly using but."
+    },
+    {
+      "id": "ss82-benefit-05",
+      "zh": "它讓你先承認合理觀點，再解釋自己的不同結論，令反駁更有禮貌。",
+      "en": "It helps you disagree more politely."
+    },
+    {
+      "id": "ss82-benefit-06",
+      "zh": "它可作為現成框架，用於分析利弊、回應相反觀點及評估不同選擇。",
+      "en": "It is useful in essays, discussions and presentations."
+    }
+  ],
+  "sourceOmissions": [],
+  "instructions": {
+    "en": [
+      "Rewrite each sentence or pair of sentences using Granted, … However, ….",
+      "Preserve the original meaning, tense and degree of certainty.",
+      "The first word of each answer has been provided."
+    ],
+    "zh": [
+      "使用 Granted, … However, … 改寫以下句子或句子組合。",
+      "保留原句的意思、時態和確定程度。",
+      "每題已提供答案的第一個字。"
+    ]
+  },
+  "questions": [
+    {
+      "id": "ss82-q01",
+      "number": 1,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 4,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "The bag is cheap, but it is not very strong.",
+      "promptZh": "這個袋價格便宜，但不太耐用。",
+      "starter": "Granted",
+      "answer": "Granted, the bag is cheap. However, it is not very strong.",
+      "answerZh": "誠然，這個袋價格便宜；然而，它不太耐用。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the bag is cheap. However, it is not very strong."
+    },
+    {
+      "id": "ss82-q02",
+      "number": 2,
+      "source": {
+        "numberPage": 4,
+        "questionPage": 4,
+        "promptZhPage": 4,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 13,
+        "answerZhPage": 13
+      },
+      "prompt": "Although the room is small, it is comfortable.",
+      "promptZh": "雖然房間很小，但很舒適。",
+      "starter": "Granted",
+      "answer": "Granted, the room is small. However, it is comfortable.",
+      "answerZh": "誠然，房間很小；然而，它很舒適。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the room is small. However, it is comfortable."
+    },
+    {
+      "id": "ss82-q03",
+      "number": 3,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 13,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Mia is tired, but she will finish her homework.",
+      "promptZh": "米婭很疲倦，但她會完成家課。",
+      "starter": "Granted",
+      "answer": "Granted, Mia is tired. However, she will finish her homework.",
+      "answerZh": "誠然，米婭很疲倦；然而，她會完成家課。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, Mia is tired. However, she will finish her homework."
+    },
+    {
+      "id": "ss82-q04",
+      "number": 4,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The bus is slow. Even so, it is reliable.",
+      "promptZh": "這班巴士行駛得很慢。即使如此，它仍然很可靠。",
+      "starter": "Granted",
+      "answer": "Granted, the bus is slow. However, it is reliable.",
+      "answerZh": "誠然，這班巴士行駛得很慢；然而，它很可靠。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the bus is slow. However, it is reliable."
+    },
+    {
+      "id": "ss82-q05",
+      "number": 5,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "This book is long, yet it is easy to understand.",
+      "promptZh": "這本書很長，但內容容易明白。",
+      "starter": "Granted",
+      "answer": "Granted, this book is long. However, it is easy to understand.",
+      "answerZh": "誠然，這本書很長；然而，內容容易明白。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, this book is long. However, it is easy to understand."
+    },
+    {
+      "id": "ss82-q06",
+      "number": 6,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The soup looks plain, but it tastes delicious.",
+      "promptZh": "這道湯看起來很普通，但味道很好。",
+      "starter": "Granted",
+      "answer": "Granted, the soup looks plain. However, it tastes delicious.",
+      "answerZh": "誠然，這道湯看起來很普通；然而，味道很好。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the soup looks plain. However, it tastes delicious."
+    },
+    {
+      "id": "ss82-q07",
+      "number": 7,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 5,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Even though the shop is far away, its prices are reasonable.",
+      "promptZh": "雖然商店距離很遠，但價格合理。",
+      "starter": "Granted",
+      "answer": "Granted, the shop is far away. However, its prices are reasonable.",
+      "answerZh": "誠然，商店距離很遠；然而，價格合理。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the shop is far away. However, its prices are reasonable."
+    },
+    {
+      "id": "ss82-q08",
+      "number": 8,
+      "source": {
+        "numberPage": 5,
+        "questionPage": 5,
+        "promptZhPage": 5,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Tom made a mistake. Nevertheless, he corrected it quickly.",
+      "promptZh": "湯姆犯了一個錯誤。儘管如此，他很快便改正了。",
+      "starter": "Granted",
+      "answer": "Granted, Tom made a mistake. However, he corrected it quickly.",
+      "answerZh": "誠然，湯姆犯了一個錯誤；然而，他很快便改正了。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, Tom made a mistake. However, he corrected it quickly."
+    },
+    {
+      "id": "ss82-q09",
+      "number": 9,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "Although the weather is cold, the children still want to play outside.",
+      "promptZh": "雖然天氣寒冷，但孩子們仍然想在戶外玩耍。",
+      "starter": "Granted",
+      "answer": "Granted, the weather is cold. However, the children still want to play outside.",
+      "answerZh": "誠然，天氣寒冷；然而，孩子們仍然想在戶外玩耍。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the weather is cold. However, the children still want to play outside."
+    },
+    {
+      "id": "ss82-q10",
+      "number": 10,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 14,
+        "answerZhPage": 14
+      },
+      "prompt": "The phone is old, but it still works well.",
+      "promptZh": "這部電話很舊，但仍然運作良好。",
+      "starter": "Granted",
+      "answer": "Granted, the phone is old. However, it still works well.",
+      "answerZh": "誠然，這部電話很舊；然而，它仍然運作良好。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the phone is old. However, it still works well."
+    },
+    {
+      "id": "ss82-q11",
+      "number": 11,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 14,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Despite the difficulty of the test, most students completed it.",
+      "promptZh": "儘管測驗很困難，大部分學生仍然完成了。",
+      "starter": "Granted",
+      "answer": "Granted, the test was difficult. However, most students completed it.",
+      "answerZh": "誠然，測驗很困難；然而，大部分學生仍然完成了。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the test was difficult. However, most students completed it."
+    },
+    {
+      "id": "ss82-q12",
+      "number": 12,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Grace has little experience, yet she learns quickly.",
+      "promptZh": "格蕾絲經驗不多，但學習得很快。",
+      "starter": "Granted",
+      "answer": "Granted, Grace has little experience. However, she learns quickly.",
+      "answerZh": "誠然，格蕾絲經驗不多；然而，她學習得很快。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, Grace has little experience. However, she learns quickly."
+    },
+    {
+      "id": "ss82-q13",
+      "number": 13,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 6,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Though the train was crowded, it arrived on time.",
+      "promptZh": "雖然火車很擠迫，但仍然準時到達。",
+      "starter": "Granted",
+      "answer": "Granted, the train was crowded. However, it arrived on time.",
+      "answerZh": "誠然，火車很擠迫；然而，它仍然準時到達。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the train was crowded. However, it arrived on time."
+    },
+    {
+      "id": "ss82-q14",
+      "number": 14,
+      "source": {
+        "numberPage": 6,
+        "questionPage": 6,
+        "promptZhPage": 6,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The film started slowly, but it became exciting later.",
+      "promptZh": "這部電影開頭節奏緩慢，但後來變得刺激。",
+      "starter": "Granted",
+      "answer": "Granted, the film started slowly. However, it became exciting later.",
+      "answerZh": "誠然，這部電影開頭節奏緩慢；然而，後來變得刺激。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the film started slowly. However, it became exciting later."
+    },
+    {
+      "id": "ss82-q15",
+      "number": 15,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The hotel is basic. Still, it is clean and convenient.",
+      "promptZh": "這間酒店設備簡單。不過，它乾淨而且方便。",
+      "starter": "Granted",
+      "answer": "Granted, the hotel is basic. However, it is clean and convenient.",
+      "answerZh": "誠然，這間酒店設備簡單；然而，它乾淨而且方便。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the hotel is basic. However, it is clean and convenient."
+    },
+    {
+      "id": "ss82-q16",
+      "number": 16,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "Exercise can be tiring, but it improves your health.",
+      "promptZh": "做運動可能令人疲倦，但能改善健康。",
+      "starter": "Granted",
+      "answer": "Granted, exercise can be tiring. However, it improves your health.",
+      "answerZh": "誠然，做運動可能令人疲倦；然而，它能改善你的健康。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, exercise can be tiring. However, it improves your health."
+    },
+    {
+      "id": "ss82-q17",
+      "number": 17,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "While online lessons lack face-to-face contact, they offer greater flexibility.",
+      "promptZh": "網上課堂雖然缺乏面對面交流，但提供更大的彈性。",
+      "starter": "Granted",
+      "answer": "Granted, online lessons lack face-to-face contact. However, they offer greater flexibility.",
+      "answerZh": "誠然，網上課堂缺乏面對面交流；然而，它們提供更大的彈性。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, online lessons lack face-to-face contact. However, they offer greater flexibility."
+    },
+    {
+      "id": "ss82-q18",
+      "number": 18,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 15,
+        "answerZhPage": 15
+      },
+      "prompt": "The new rule is strict, yet it may improve safety.",
+      "promptZh": "這項新規則很嚴格，但可能提升安全。",
+      "starter": "Granted",
+      "answer": "Granted, the new rule is strict. However, it may improve safety.",
+      "answerZh": "誠然，這項新規則很嚴格；然而，它可能提升安全。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the new rule is strict. However, it may improve safety."
+    },
+    {
+      "id": "ss82-q19",
+      "number": 19,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 7,
+        "answerNumberPage": 15,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although Leo did not win the race, he achieved his best time.",
+      "promptZh": "雖然里奧沒有在比賽中勝出，但他造出了個人最佳時間。",
+      "starter": "Granted",
+      "answer": "Granted, Leo did not win the race. However, he achieved his best time.",
+      "answerZh": "誠然，里奧沒有在比賽中勝出；然而，他造出了個人最佳時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, Leo did not win the race. However, he achieved his best time."
+    },
+    {
+      "id": "ss82-q20",
+      "number": 20,
+      "source": {
+        "numberPage": 7,
+        "questionPage": 7,
+        "promptZhPage": 7,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The restaurant was busy. Nevertheless, the staff remained polite.",
+      "promptZh": "餐廳當時很繁忙。儘管如此，職員仍然保持有禮。",
+      "starter": "Granted",
+      "answer": "Granted, the restaurant was busy. However, the staff remained polite.",
+      "answerZh": "誠然，餐廳當時很繁忙；然而，職員仍然保持有禮。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the restaurant was busy. However, the staff remained polite."
+    },
+    {
+      "id": "ss82-q21",
+      "number": 21,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Admittedly, the plan will cost more at first, but it should save money later.",
+      "promptZh": "無可否認，這個計劃最初會花費較多，但日後應能節省金錢。",
+      "starter": "Granted",
+      "answer": "Granted, the plan will cost more at first. However, it should save money later.",
+      "answerZh": "誠然，這個計劃最初會花費較多；然而，日後應能節省金錢。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the plan will cost more at first. However, it should save money later."
+    },
+    {
+      "id": "ss82-q22",
+      "number": 22,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "It is true that the team missed its first target, but its overall progress remains strong.",
+      "promptZh": "球隊確實未能達成第一個目標，但整體進展仍然理想。",
+      "starter": "Granted",
+      "answer": "Granted, the team missed its first target. However, its overall progress remains strong.",
+      "answerZh": "誠然，球隊未能達成第一個目標；然而，整體進展仍然理想。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the team missed its first target. However, its overall progress remains strong."
+    },
+    {
+      "id": "ss82-q23",
+      "number": 23,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Public transport is sometimes uncomfortable. On the other hand, it reduces traffic and pollution.",
+      "promptZh": "公共交通有時不太舒適。另一方面，它能減少交通擠塞和污染。",
+      "starter": "Granted",
+      "answer": "Granted, public transport is sometimes uncomfortable. However, it reduces traffic and pollution.",
+      "answerZh": "誠然，公共交通有時不太舒適；然而，它能減少交通擠塞和污染。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, public transport is sometimes uncomfortable. However, it reduces traffic and pollution."
+    },
+    {
+      "id": "ss82-q24",
+      "number": 24,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "I accept that the laptop is heavier than expected, but its battery lasts all day.",
+      "promptZh": "我承認這部手提電腦比預期中重，但它的電池可以維持一整天。",
+      "starter": "Granted",
+      "answer": "Granted, the laptop is heavier than expected. However, its battery lasts all day.",
+      "answerZh": "誠然，這部手提電腦比預期中重；然而，它的電池可以維持一整天。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the laptop is heavier than expected. However, its battery lasts all day."
+    },
+    {
+      "id": "ss82-q25",
+      "number": 25,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 8,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "The medicine may cause mild drowsiness. Even so, it can reduce the pain.",
+      "promptZh": "這種藥物可能令人有輕微睡意。即使如此，它能減輕痛楚。",
+      "starter": "Granted",
+      "answer": "Granted, the medicine may cause mild drowsiness. However, it can reduce the pain.",
+      "answerZh": "誠然，這種藥物可能令人有輕微睡意；然而，它能減輕痛楚。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the medicine may cause mild drowsiness. However, it can reduce the pain."
+    },
+    {
+      "id": "ss82-q26",
+      "number": 26,
+      "source": {
+        "numberPage": 8,
+        "questionPage": 8,
+        "promptZhPage": 8,
+        "starterPage": 9,
+        "answerNumberPage": 16,
+        "answerPage": 16,
+        "answerZhPage": 16
+      },
+      "prompt": "Although working from home can feel lonely, it saves commuting time.",
+      "promptZh": "雖然在家工作有時會令人感到孤單，但可以節省通勤時間。",
+      "starter": "Granted",
+      "answer": "Granted, working from home can feel lonely. However, it saves commuting time.",
+      "answerZh": "誠然，在家工作有時會令人感到孤單；然而，它可以節省通勤時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, working from home can feel lonely. However, it saves commuting time."
+    },
+    {
+      "id": "ss82-q27",
+      "number": 27,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The proposal is not perfect, but it offers a practical starting point.",
+      "promptZh": "這項建議並不完美，但提供了一個實際的起點。",
+      "starter": "Granted",
+      "answer": "Granted, the proposal is not perfect. However, it offers a practical starting point.",
+      "answerZh": "誠然，這項建議並不完美；然而，它提供了一個實際的起點。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the proposal is not perfect. However, it offers a practical starting point."
+    },
+    {
+      "id": "ss82-q28",
+      "number": 28,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The museum charges an entrance fee. Still, students can enter at a reduced price.",
+      "promptZh": "博物館收取入場費。不過，學生可以優惠價入場。",
+      "starter": "Granted",
+      "answer": "Granted, the museum charges an entrance fee. However, students can enter at a reduced price.",
+      "answerZh": "誠然，博物館收取入場費；然而，學生可以優惠價入場。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the museum charges an entrance fee. However, students can enter at a reduced price."
+    },
+    {
+      "id": "ss82-q29",
+      "number": 29,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The coach was disappointed with the result, but she praised the players' effort.",
+      "promptZh": "教練對賽果感到失望，但她讚揚了球員的努力。",
+      "starter": "Granted",
+      "answer": "Granted, the coach was disappointed with the result. However, she praised the players' effort.",
+      "answerZh": "誠然，教練對賽果感到失望；然而，她讚揚了球員的努力。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the coach was disappointed with the result. However, she praised the players' effort."
+    },
+    {
+      "id": "ss82-q30",
+      "number": 30,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The old building needs repairs. Nevertheless, it has great historical value.",
+      "promptZh": "這座舊建築需要維修。儘管如此，它仍具有重大的歷史價值。",
+      "starter": "Granted",
+      "answer": "Granted, the old building needs repairs. However, it has great historical value.",
+      "answerZh": "誠然，這座舊建築需要維修；然而，它仍具有重大的歷史價值。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the old building needs repairs. However, it has great historical value."
+    },
+    {
+      "id": "ss82-q31",
+      "number": 31,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 9,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "Although the software takes time to learn, it can make daily tasks much faster.",
+      "promptZh": "雖然這套軟件需要時間學習，但能大幅加快日常工作。",
+      "starter": "Granted",
+      "answer": "Granted, the software takes time to learn. However, it can make daily tasks much faster.",
+      "answerZh": "誠然，這套軟件需要時間學習；然而，它能大幅加快日常工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the software takes time to learn. However, it can make daily tasks much faster."
+    },
+    {
+      "id": "ss82-q32",
+      "number": 32,
+      "source": {
+        "numberPage": 9,
+        "questionPage": 9,
+        "promptZhPage": 9,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The roadworks will cause short-term delays. Even so, the new road should improve traffic flow.",
+      "promptZh": "道路工程會造成短期延誤。即使如此，新道路應能改善交通流量。",
+      "starter": "Granted",
+      "answer": "Granted, the roadworks will cause short-term delays. However, the new road should improve traffic flow.",
+      "answerZh": "誠然，道路工程會造成短期延誤；然而，新道路應能改善交通流量。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the roadworks will cause short-term delays. However, the new road should improve traffic flow."
+    },
+    {
+      "id": "ss82-q33",
+      "number": 33,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 17,
+        "answerZhPage": 17
+      },
+      "prompt": "The class is demanding, but students receive plenty of support.",
+      "promptZh": "這個課程要求很高，但學生會獲得充足支援。",
+      "starter": "Granted",
+      "answer": "Granted, the class is demanding. However, students receive plenty of support.",
+      "answerZh": "誠然，這個課程要求很高；然而，學生會獲得充足支援。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the class is demanding. However, students receive plenty of support."
+    },
+    {
+      "id": "ss82-q34",
+      "number": 34,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 17,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The company did not meet every goal, yet its sales increased by twelve per cent.",
+      "promptZh": "公司未能達成所有目標，但銷售額增加了百分之十二。",
+      "starter": "Granted",
+      "answer": "Granted, the company did not meet every goal. However, its sales increased by twelve per cent.",
+      "answerZh": "誠然，公司未能達成所有目標；然而，銷售額增加了百分之十二。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the company did not meet every goal. However, its sales increased by twelve per cent."
+    },
+    {
+      "id": "ss82-q35",
+      "number": 35,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Solar panels are expensive to install. On the other hand, they can lower electricity bills over time.",
+      "promptZh": "安裝太陽能板的費用很高。另一方面，長遠而言，它們能降低電費。",
+      "starter": "Granted",
+      "answer": "Granted, solar panels are expensive to install. However, they can lower electricity bills over time.",
+      "answerZh": "誠然，安裝太陽能板的費用很高；然而，長遠而言，它們能降低電費。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, solar panels are expensive to install. However, they can lower electricity bills over time."
+    },
+    {
+      "id": "ss82-q36",
+      "number": 36,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The new timetable may inconvenience some parents, but it gives students more time for lunch.",
+      "promptZh": "新時間表可能會為部分家長帶來不便，但讓學生有更多午膳時間。",
+      "starter": "Granted",
+      "answer": "Granted, the new timetable may inconvenience some parents. However, it gives students more time for lunch.",
+      "answerZh": "誠然，新時間表可能會為部分家長帶來不便；然而，它讓學生有更多午膳時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the new timetable may inconvenience some parents. However, it gives students more time for lunch."
+    },
+    {
+      "id": "ss82-q37",
+      "number": 37,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 10,
+        "promptZhPage": 10,
+        "starterPage": 10,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "Although the report contains a few minor errors, its main conclusion is still valid.",
+      "promptZh": "雖然報告有幾個小錯誤，但主要結論仍然成立。",
+      "starter": "Granted",
+      "answer": "Granted, the report contains a few minor errors. However, its main conclusion is still valid.",
+      "answerZh": "誠然，報告有幾個小錯誤；然而，主要結論仍然成立。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the report contains a few minor errors. However, its main conclusion is still valid."
+    },
+    {
+      "id": "ss82-q38",
+      "number": 38,
+      "source": {
+        "numberPage": 10,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The community project depends on volunteers. Nevertheless, it has already helped hundreds of residents.",
+      "promptZh": "這個社區計劃依賴義工。儘管如此，它已經幫助了數百名居民。",
+      "starter": "Granted",
+      "answer": "Granted, the community project depends on volunteers. However, it has already helped hundreds of residents.",
+      "answerZh": "誠然，這個社區計劃依賴義工；然而，它已經幫助了數百名居民。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the community project depends on volunteers. However, it has already helped hundreds of residents."
+    },
+    {
+      "id": "ss82-q39",
+      "number": 39,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "The machine cannot replace skilled workers, but it can handle repetitive tasks safely.",
+      "promptZh": "這部機器不能取代技術熟練的工人，但可以安全地處理重複性工作。",
+      "starter": "Granted",
+      "answer": "Granted, the machine cannot replace skilled workers. However, it can handle repetitive tasks safely.",
+      "answerZh": "誠然，這部機器不能取代技術熟練的工人；然而，它可以安全地處理重複性工作。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the machine cannot replace skilled workers. However, it can handle repetitive tasks safely."
+    },
+    {
+      "id": "ss82-q40",
+      "number": 40,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 18,
+        "answerPage": 18,
+        "answerZhPage": 18
+      },
+      "prompt": "There is no doubt that the policy limits individual choice. Even so, it protects people from a serious health risk.",
+      "promptZh": "毫無疑問，這項政策限制了個人選擇。即使如此，它能保護人們免受嚴重的健康風險。",
+      "starter": "Granted",
+      "answer": "Granted, the policy limits individual choice. However, it protects people from a serious health risk.",
+      "answerZh": "誠然，這項政策限制了個人選擇；然而，它能保護人們免受嚴重的健康風險。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the policy limits individual choice. However, it protects people from a serious health risk."
+    },
+    {
+      "id": "ss82-q41",
+      "number": 41,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Some critics point out that smaller classes require more teachers and classrooms. Even so, they can give students more individual attention.",
+      "promptZh": "有批評者指出，較小的班級需要更多教師和課室。即使如此，它們能讓學生獲得更多個別關注。",
+      "starter": "Granted",
+      "answer": "Granted, smaller classes require more teachers and classrooms. However, they can give students more individual attention.",
+      "answerZh": "誠然，較小的班級需要更多教師和課室；然而，它們能讓學生獲得更多個別關注。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, smaller classes require more teachers and classrooms. However, they can give students more individual attention."
+    },
+    {
+      "id": "ss82-q42",
+      "number": 42,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 11,
+        "promptZhPage": 11,
+        "starterPage": 11,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "The hospital's new booking system may confuse some patients at first, but it should reduce waiting times once people become familiar with it.",
+      "promptZh": "醫院的新預約系統最初可能令部分病人感到困惑，但當人們熟習系統後，它應能縮短輪候時間。",
+      "starter": "Granted",
+      "answer": "Granted, the hospital's new booking system may confuse some patients at first. However, it should reduce waiting times once people become familiar with it.",
+      "answerZh": "誠然，醫院的新預約系統最初可能令部分病人感到困惑；然而，當人們熟習系統後，它應能縮短輪候時間。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the hospital's new booking system may confuse some patients at first. However, it should reduce waiting times once people become familiar with it."
+    },
+    {
+      "id": "ss82-q43",
+      "number": 43,
+      "source": {
+        "numberPage": 11,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Although stricter recycling rules create extra work for businesses, they can significantly reduce waste sent to landfill.",
+      "promptZh": "雖然更嚴格的回收規則會增加商戶的工作量，但能大幅減少送往堆填區的廢物。",
+      "starter": "Granted",
+      "answer": "Granted, stricter recycling rules create extra work for businesses. However, they can significantly reduce waste sent to landfill.",
+      "answerZh": "誠然，更嚴格的回收規則會增加商戶的工作量；然而，它們能大幅減少送往堆填區的廢物。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, stricter recycling rules create extra work for businesses. However, they can significantly reduce waste sent to landfill."
+    },
+    {
+      "id": "ss82-q44",
+      "number": 44,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Artificial intelligence can produce useful first drafts, yet human judgement is still needed to check facts and context.",
+      "promptZh": "人工智能可以製作有用的初稿，但仍需要人類判斷來核實事實和背景。",
+      "starter": "Granted",
+      "answer": "Granted, artificial intelligence can produce useful first drafts. However, human judgement is still needed to check facts and context.",
+      "answerZh": "誠然，人工智能可以製作有用的初稿；然而，仍需要人類判斷來核實事實和背景。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, artificial intelligence can produce useful first drafts. However, human judgement is still needed to check facts and context."
+    },
+    {
+      "id": "ss82-q45",
+      "number": 45,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "It is understandable that raising the minimum wage may increase costs for some employers. Nevertheless, it can improve the living standards of low-paid workers.",
+      "promptZh": "可以理解的是，提高最低工資可能會增加部分僱主的成本。儘管如此，這能改善低薪工人的生活水平。",
+      "starter": "Granted",
+      "answer": "Granted, raising the minimum wage may increase costs for some employers. However, it can improve the living standards of low-paid workers.",
+      "answerZh": "誠然，提高最低工資可能會增加部分僱主的成本；然而，這能改善低薪工人的生活水平。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, raising the minimum wage may increase costs for some employers. However, it can improve the living standards of low-paid workers."
+    },
+    {
+      "id": "ss82-q46",
+      "number": 46,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 19,
+        "answerZhPage": 19
+      },
+      "prompt": "Tourism certainly brings noise and crowding to popular areas, but it also supports local jobs and small businesses.",
+      "promptZh": "旅遊業確實會為熱門地區帶來噪音和擠迫，但亦能支持本地就業和小型企業。",
+      "starter": "Granted",
+      "answer": "Granted, tourism brings noise and crowding to popular areas. However, it also supports local jobs and small businesses.",
+      "answerZh": "誠然，旅遊業會為熱門地區帶來噪音和擠迫；然而，它亦能支持本地就業和小型企業。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, tourism brings noise and crowding to popular areas. However, it also supports local jobs and small businesses."
+    },
+    {
+      "id": "ss82-q47",
+      "number": 47,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 12,
+        "promptZhPage": 12,
+        "starterPage": 12,
+        "answerNumberPage": 19,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The school cannot solve every problem faced by families. Even so, it can provide early support and connect parents with suitable services.",
+      "promptZh": "學校不能解決家庭面對的每一個問題。即使如此，它可以提供早期支援，並協助家長聯絡合適的服務。",
+      "starter": "Granted",
+      "answer": "Granted, the school cannot solve every problem faced by families. However, it can provide early support and connect parents with suitable services.",
+      "answerZh": "誠然，學校不能解決家庭面對的每一個問題；然而，它可以提供早期支援，並協助家長聯絡合適的服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the school cannot solve every problem faced by families. However, it can provide early support and connect parents with suitable services."
+    },
+    {
+      "id": "ss82-q48",
+      "number": 48,
+      "source": {
+        "numberPage": 12,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The research involved only a small number of participants. Still, its findings may guide larger studies.",
+      "promptZh": "這項研究只有少量參與者。不過，研究結果仍可能為更大型的研究提供方向。",
+      "starter": "Granted",
+      "answer": "Granted, the research involved only a small number of participants. However, its findings may guide larger studies.",
+      "answerZh": "誠然，這項研究只有少量參與者；然而，研究結果仍可能為更大型的研究提供方向。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the research involved only a small number of participants. However, its findings may guide larger studies."
+    },
+    {
+      "id": "ss82-q49",
+      "number": 49,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "The proposed transport project will disrupt several neighbourhoods during construction. On the other hand, it could provide faster and cleaner travel for decades.",
+      "promptZh": "擬議的交通項目在施工期間會影響多個社區。另一方面，它可能在未來數十年提供更快捷和更環保的交通。",
+      "starter": "Granted",
+      "answer": "Granted, the proposed transport project will disrupt several neighbourhoods during construction. However, it could provide faster and cleaner travel for decades.",
+      "answerZh": "誠然，擬議的交通項目在施工期間會影響多個社區；然而，它可能在未來數十年提供更快捷和更環保的交通。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, the proposed transport project will disrupt several neighbourhoods during construction. However, it could provide faster and cleaner travel for decades."
+    },
+    {
+      "id": "ss82-q50",
+      "number": 50,
+      "source": {
+        "numberPage": 13,
+        "questionPage": 13,
+        "promptZhPage": 13,
+        "starterPage": 13,
+        "answerNumberPage": 20,
+        "answerPage": 20,
+        "answerZhPage": 20
+      },
+      "prompt": "Economic growth does not automatically benefit every citizen. Nevertheless, it gives governments more resources to improve public services when the gains are managed fairly.",
+      "promptZh": "經濟增長不會自動令每名市民受惠。儘管如此，如果增長成果得到公平管理，它能為政府提供更多資源來改善公共服務。",
+      "starter": "Granted",
+      "answer": "Granted, economic growth does not automatically benefit every citizen. However, it gives governments more resources to improve public services when the gains are managed fairly.",
+      "answerZh": "誠然，經濟增長不會自動令每名市民受惠；然而，如果增長成果得到公平管理，它能為政府提供更多資源來改善公共服務。",
+      "answerZhSource": "pdf",
+      "highlight": "Granted, economic growth does not automatically benefit every citizen. However, it gives governments more resources to improve public services when the gains are managed fairly."
+    }
+  ]
+}
