@@ -5266,13 +5266,13 @@ Device: concession 讓步
     let activeEssayBoundaryFrame = 0;
     let activeEssayStopTime = null;
     let activeEssaySegmentEnd = null;
+    let activeEssayReleasePending = false;
+    let activeEssayReleaseToken = 0;
     const ESSAY_AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
     const PRACTICE_LISTENING_PREROLL = 0.20;
     const PRACTICE_LISTENING_PREVIOUS_GUARD = 0.10;
     const PRACTICE_LISTENING_NEXT_GUARD = 0.08;
-    // Intentionally keep source audio running after each timed sentence ending.
-    // The recordings have shorter pauses, so this can overlap the next sentence.
-    const PRACTICE_LISTENING_POSTROLL = 2.00;
+    const PRACTICE_LISTENING_RELEASE_BUFFER = 2.00;
     const PRACTICE_LISTENING_START_TIMEOUT = 10000;
     const ESSAY_AUDIO_RATE_KEY = "edmundWritingAudioRate";
     const ESSAY_AUDIO_HIGHLIGHT_KEY = "edmundWritingAudioHighlight";
@@ -5906,6 +5906,9 @@ Device: concession 讓步
       }
       if (practiceState?.submitted) {
         return { text: "本輪答案已提交。", tone: "complete" };
+      }
+      if (activeEssayAudioContext === "listening" && activeEssayReleasePending) {
+        return { text: `第 ${index + 1} 句播放完畢；句尾緩衝中。`, tone: "playing" };
       }
       if (practiceState?.listeningPlaying) {
         return { text: `正在播放第 ${index + 1} / ${total} 個填充句子。`, tone: "playing" };
@@ -7383,10 +7386,7 @@ Device: concession 讓步
           Math.min(rawStartTime, Math.max(earliestSafeStart, rawStartTime - PRACTICE_LISTENING_PREROLL))
         );
         const stopTime = Number.isFinite(nextWordStart)
-          ? Math.max(
-              rawEndTime + PRACTICE_LISTENING_POSTROLL,
-              nextWordStart - PRACTICE_LISTENING_NEXT_GUARD
-            )
+          ? Math.max(rawEndTime, nextWordStart - PRACTICE_LISTENING_NEXT_GUARD)
           : null;
         return {
           startWordIndex,
@@ -7744,6 +7744,32 @@ Device: concession 讓步
       activeEssaySegmentEnd = null;
     }
 
+    function schedulePracticeListeningRelease(audio, onRelease) {
+      if (
+        activeEssayAudio !== audio
+        || activeEssayAudioContext !== "listening"
+        || typeof onRelease !== "function"
+        || activeEssayReleasePending
+      ) return false;
+      const releaseToken = ++activeEssayReleaseToken;
+      activeEssayReleasePending = true;
+      if (practiceState?.listeningEnabled && practiceState.screen === "practice") {
+        practiceState.listeningPlaying = false;
+        practiceState.listeningPlaybackError = "";
+        syncPracticeListeningUi();
+      }
+      window.setTimeout(() => {
+        if (
+          activeEssayAudio !== audio
+          || !activeEssayReleasePending
+          || activeEssayReleaseToken !== releaseToken
+        ) return;
+        activeEssayReleasePending = false;
+        onRelease();
+      }, PRACTICE_LISTENING_RELEASE_BUFFER * 1000);
+      return true;
+    }
+
     function startEssayAudioBoundaryLoop() {
       pauseEssayAudioBoundaryLoop();
       if (!activeEssayAudio || !Number.isFinite(activeEssayStopTime)) return;
@@ -7756,8 +7782,11 @@ Device: concession 讓步
         if (audio.currentTime >= activeEssayStopTime) {
           const onSegmentEnd = activeEssaySegmentEnd;
           clearEssayAudioBoundary();
+          const delayedListeningEnd = schedulePracticeListeningRelease(audio, onSegmentEnd);
           audio.pause();
-          if (typeof onSegmentEnd === "function") onSegmentEnd();
+          if (!delayedListeningEnd && typeof onSegmentEnd === "function") {
+            onSegmentEnd();
+          }
           return;
         }
         if (audio.paused || audio.ended) {
@@ -7790,6 +7819,8 @@ Device: concession 讓步
     function stopEssayAudio() {
       stopEssayHighlightLoop({ clear: true });
       clearEssayAudioBoundary();
+      activeEssayReleasePending = false;
+      activeEssayReleaseToken += 1;
       if (activeEssayAudio) {
         activeEssayAudio.onplay = null;
         activeEssayAudio.onplaying = null;
@@ -7927,7 +7958,9 @@ Device: concession 讓步
         stopEssayHighlightLoop();
         pauseEssayAudioBoundaryLoop();
         syncEssayAudioButton();
-        if (context === "listening" && !audio.ended) syncPracticeListeningPlaybackState(false);
+        if (context === "listening" && !audio.ended && !activeEssayReleasePending) {
+          syncPracticeListeningPlaybackState(false);
+        }
       };
       audio.onended = () => {
         if (activeEssayAudio !== audio) return;
@@ -7944,7 +7977,7 @@ Device: concession 讓步
           if (typeof onSegmentEnd === "function") onSegmentEnd();
         };
         if (context === "listening" && typeof onSegmentEnd === "function") {
-          window.setTimeout(finishNaturalEnd, PRACTICE_LISTENING_POSTROLL * 1000);
+          schedulePracticeListeningRelease(audio, finishNaturalEnd);
         } else {
           finishNaturalEnd();
         }
@@ -8194,6 +8227,7 @@ Device: concession 讓步
         activeEssayAudioContext !== "listening"
         || !activeEssayAudio
         || activeEssayAudio.ended
+        || activeEssayReleasePending
         || !practiceState?.listeningEnabled
         || practiceState.listeningUnitFinished
       ) return false;
@@ -8217,17 +8251,19 @@ Device: concession 讓步
     }
 
     function stopAudioForPageInterruption() {
-      const finalReleaseBuffer = Boolean(
+      const releaseBuffer = Boolean(
         activeEssayAudioContext === "listening"
-        && activeEssayAudio?.ended
+        && activeEssayAudio
+        && activeEssayReleasePending
         && practiceState?.listeningEnabled
         && !practiceState.listeningUnitFinished
       );
-      if (finalReleaseBuffer) return;
+      if (releaseBuffer) return;
       const interruptedListening = Boolean(
         activeEssayAudioContext === "listening"
         && activeEssayAudio
         && !activeEssayAudio.ended
+        && !activeEssayReleasePending
         && practiceState?.listeningEnabled
         && !practiceState.listeningUnitFinished
       );

@@ -3,6 +3,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
 
+const LISTENING_RELEASE_BUFFER = 2.00;
 const repository = process.env.WRITING_REPO_PATH || fileURLToPath(new URL("../", import.meta.url));
 const html = readFileSync(`${repository}/writing-practice.html`, "utf8");
 const writingDataFiles = [...html.matchAll(/<script src="(writing-practice[^"?]+-data\.js)(?:\?[^"}]*)?"/g)]
@@ -181,6 +182,23 @@ function createHarness(applicationSource, dataFiles) {
   }
   const windowListeners = new Map();
   let windowScrollCalls = 0;
+  const releaseTimers = new Map();
+  const releaseTimerDelays = [];
+  let nextReleaseTimerId = -1;
+  const windowSetTimeout = (callback, delay, ...args) => {
+    if (Number(delay) === LISTENING_RELEASE_BUFFER * 1000) {
+      const timerId = nextReleaseTimerId;
+      nextReleaseTimerId -= 1;
+      releaseTimers.set(timerId, () => callback(...args));
+      releaseTimerDelays.push(Number(delay));
+      return timerId;
+    }
+    return setTimeout(callback, delay, ...args);
+  };
+  const windowClearTimeout = timerId => {
+    if (releaseTimers.delete(timerId)) return;
+    clearTimeout(timerId);
+  };
   const window = {
     document,
     localStorage,
@@ -191,8 +209,8 @@ function createHarness(applicationSource, dataFiles) {
     matchMedia: () => ({ matches: false }),
     requestAnimationFrame,
     cancelAnimationFrame,
-    setTimeout,
-    clearTimeout,
+    setTimeout: windowSetTimeout,
+    clearTimeout: windowClearTimeout,
     setInterval,
     clearInterval,
     scrollTo() { windowScrollCalls += 1; },
@@ -328,6 +346,19 @@ function createHarness(applicationSource, dataFiles) {
       document.visibilityState = value;
       (documentListeners.get("visibilitychange") || []).forEach(listener => listener());
     },
+    emitWindowEvent(type) {
+      const listeners = windowListeners.get(type) || [];
+      listeners.forEach(listener => listener());
+      return listeners.length;
+    },
+    flushReleaseTimers() {
+      const callbacks = [...releaseTimers.values()];
+      releaseTimers.clear();
+      callbacks.forEach(callback => callback());
+    },
+    releaseTimerDelays() {
+      return [...releaseTimerDelays];
+    },
     rejectOldestDeferredPlay(error = new Error("Delayed fixture rejection")) {
       deferredAudioPlays.shift()?.reject(error);
     }
@@ -346,7 +377,6 @@ const MODES = ["blank", "start", "end", "both"];
 const LISTENING_PREROLL = 0.20;
 const LISTENING_PREVIOUS_GUARD = 0.10;
 const LISTENING_NEXT_GUARD = 0.08;
-const LISTENING_POSTROLL = 2.00;
 
 function fixtureExercise() {
   const english = [
@@ -645,15 +675,12 @@ assert.equal(segments[0].startTime, 0, "pre-roll at the beginning of an audio fi
 assert.ok(segments[0].stopTime > firstSentenceFinalWordEnd, "the final answer needs protected release time");
 assert.equal(
   segments[0].stopTime,
-  Math.max(
-    firstSentenceFinalWordEnd + LISTENING_POSTROLL,
-    firstSentenceNextWordStart - LISTENING_NEXT_GUARD
-  ),
-  "a non-final sentence should retain at least two seconds after its final timed word"
+  Math.max(firstSentenceFinalWordEnd, firstSentenceNextWordStart - LISTENING_NEXT_GUARD),
+  "a non-final sentence should use the full silent gap before the next sentence"
 );
 assert.ok(
-  segments[0].stopTime - firstSentenceFinalWordEnd >= LISTENING_POSTROLL,
-  "every non-final sentence needs at least two seconds of post-roll"
+  segments[0].stopTime < firstSentenceNextWordStart,
+  "a non-final sentence must stop before the next sentence begins"
 );
 assert.equal(
   segments.at(-1).stopTime,
@@ -704,12 +731,12 @@ assert.doesNotMatch(replayButtonAtStart, /\bdisabled\b/, "replay should be avail
 assert.match(activePracticeHtml, /上一句/, "the listening panel should label the previous-sentence control");
 assert.match(activePracticeHtml, /重播本句/, "the listening panel should label the replay control");
 
-harness.createdAudios[0].currentTime = firstSentenceFinalWordEnd + LISTENING_POSTROLL - 0.01;
+harness.createdAudios[0].currentTime = segments[0].stopTime - 0.01;
 harness.runAnimationFrames();
 assert.equal(
   harness.createdAudios[0].paused,
   false,
-  "playback must continue for the full two-second safety tail after a sentence-final answer"
+  "playback should use the available silence immediately before the next sentence"
 );
 const audioCountAtFirstUnit = harness.createdAudios.length;
 await clickHandler({ target: clickTarget("data-previous-practice-listening"), preventDefault() {} });
@@ -756,8 +783,36 @@ const windowScrollCallsBeforeSentenceEnd = harness.windowScrollCalls();
 harness.createdAudios[1].currentTime = segments[0].stopTime + 0.02;
 harness.runAnimationFrames();
 assert.equal(harness.createdAudios[1].paused, true, "the audio should pause at the sentence boundary");
-assert.equal(hooks.state().listeningUnitFinished, true, "the first sentence should become ready for answers");
+assert.equal(hooks.state().listeningUnitFinished, false, "the first sentence should remain unfinished during its quiet release buffer");
 assert.equal(hooks.state().listeningPlaying, false);
+assert.equal(hooks.state().listeningPlaybackError, "", "the intentional quiet release must not look like a playback error");
+assert.match(hooks.renderRound(), /句尾緩衝中/, "the quiet release buffer should have a clear status");
+assert.match(
+  elementOpeningTag(hooks.renderRound(), "data-next-practice-listening"),
+  /\bdisabled\b/,
+  "continue should remain disabled during the quiet release buffer"
+);
+const keydownHandler = harness.documentListeners.get("keydown")?.[0];
+assert.equal(typeof keydownHandler, "function", "the Space-key playback handler should be registered");
+const manualReleasePlayCalls = harness.createdAudios[1].playCalls;
+let manualReleasePreventDefaultCalls = 0;
+keydownHandler({
+  code: "Space",
+  repeat: false,
+  target: { closest() { return null; } },
+  preventDefault() { manualReleasePreventDefaultCalls += 1; }
+});
+assert.equal(
+  harness.createdAudios[1].playCalls,
+  manualReleasePlayCalls,
+  "Space must not restart a sentence during its quiet release buffer"
+);
+assert.equal(manualReleasePreventDefaultCalls, 1, "Space should be safely consumed during the quiet release");
+assert.equal(harness.emitWindowEvent("pagehide"), 1, "the pagehide interruption handler should be registered");
+assert.equal(hooks.state().listeningPlaybackError, "", "page hiding must preserve an intentional quiet release");
+assert.equal(hooks.state().listeningUnitFinished, false);
+harness.flushReleaseTimers();
+assert.equal(hooks.state().listeningUnitFinished, true, "the first sentence should become ready after the quiet release");
 assert.equal(automaticAnswerFocusCalls, 0, "sentence completion must not force focus or move the learner to an answer field");
 assert.equal(automaticAnswerScrollCalls, 0, "sentence completion must not scroll an answer field into view");
 assert.equal(
@@ -833,11 +888,15 @@ assert.match(
 
 harness.createdAudios[3].currentTime = segments[0].stopTime + 0.02;
 harness.runAnimationFrames();
+assert.equal(hooks.state().listeningUnitFinished, false, "replayed sentences should also enter the quiet release buffer");
+harness.flushReleaseTimers();
 await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
 assert.equal(hooks.state().listeningUnitIndex, 1);
 assert.equal(harness.createdAudios[4].currentTime, segments[1].startTime);
 harness.createdAudios[4].currentTime = segments[1].stopTime + 0.02;
 harness.runAnimationFrames();
+assert.equal(hooks.state().listeningUnitFinished, false);
+harness.flushReleaseTimers();
 await clickHandler({ target: clickTarget("data-next-practice-listening"), preventDefault() {} });
 assert.equal(hooks.state().listeningUnitIndex, 2);
 assert.equal(harness.createdAudios[5].currentTime, segments[2].startTime);
@@ -863,26 +922,32 @@ assert.equal(
   "the natural ending should retain the final audio element during its two-second release buffer"
 );
 const finalAudioPlayCalls = harness.createdAudios[5].playCalls;
-const keydownHandler = harness.documentListeners.get("keydown")?.[0];
-keydownHandler?.({
+let finalReleasePreventDefaultCalls = 0;
+keydownHandler({
   code: "Space",
   repeat: false,
   target: { closest() { return null; } },
-  preventDefault() {}
+  preventDefault() { finalReleasePreventDefaultCalls += 1; }
 });
 assert.equal(
   harness.createdAudios[5].playCalls,
   finalAudioPlayCalls,
   "Space must not restart an ended recording during its final release buffer"
 );
+assert.equal(finalReleasePreventDefaultCalls, 1, "Space should be safely consumed during the final release");
+assert.equal(hooks.state().listeningUnitFinished, false, "Space must not short-circuit the final release buffer");
 harness.setVisibilityState("hidden");
 assert.equal(
   hooks.state().listeningPlaybackError,
   "",
   "hiding the page during the final release buffer must not create a false interruption"
 );
+assert.equal(hooks.state().listeningUnitFinished, false, "visibility changes must preserve the final release buffer");
 harness.setVisibilityState("visible");
-await new Promise(resolve => setTimeout(resolve, LISTENING_POSTROLL * 1000 + 20));
+assert.equal(harness.emitWindowEvent("pagehide"), 1, "pagehide should exercise the registered interruption handler");
+assert.equal(hooks.state().listeningPlaybackError, "");
+assert.equal(hooks.state().listeningUnitFinished, false, "pagehide must not short-circuit the final release buffer");
+harness.flushReleaseTimers();
 assert.equal(hooks.state().listeningUnitFinished, true);
 listeningHtml = hooks.renderRound();
 const completedButton = elementOpeningTag(listeningHtml, "data-next-practice-listening");
@@ -910,7 +975,7 @@ harness.createdAudios[6].onpause?.();
 assert.equal(hooks.state().listeningPlaybackError, "", "a natural media ending must not announce a false pause error");
 harness.createdAudios[6].onended?.();
 assert.equal(hooks.state().listeningUnitFinished, false, "a replayed final sentence should keep the same release buffer");
-await new Promise(resolve => setTimeout(resolve, LISTENING_POSTROLL * 1000 + 20));
+harness.flushReleaseTimers();
 assert.equal(hooks.state().listeningUnitFinished, true, "the replayed final sentence should complete normally");
 listeningHtml = hooks.renderRound();
 assert.match(
@@ -919,6 +984,26 @@ assert.match(
   "the next button should return to its completed state after replaying the final sentence"
 );
 assert.match(listeningHtml, /聆聽練習已完成/, "the completed status should return after final-sentence replay");
+
+await clickHandler({ target: clickTarget("data-previous-practice-listening"), preventDefault() {} });
+const manualReleaseBeforeReplay = harness.createdAudios.at(-1);
+assert.equal(hooks.state().listeningUnitIndex, 1, "previous should reopen the preceding listening sentence");
+manualReleaseBeforeReplay.currentTime = segments[1].stopTime + 0.02;
+harness.runAnimationFrames();
+assert.equal(manualReleaseBeforeReplay.paused, true);
+assert.equal(hooks.state().listeningUnitFinished, false, "the reopened sentence should enter its manual release buffer");
+await clickHandler({ target: clickTarget("data-replay-practice-listening"), preventDefault() {} });
+const replacementAfterPendingRelease = harness.createdAudios.at(-1);
+assert.notEqual(replacementAfterPendingRelease, manualReleaseBeforeReplay, "replay should replace the pending audio player");
+harness.flushReleaseTimers();
+assert.equal(replacementAfterPendingRelease.paused, false, "a stale release timer must not stop replacement playback");
+assert.equal(hooks.state().listeningUnitFinished, false, "a stale release timer must not complete the replayed sentence");
+assert.equal(hooks.state().listeningUnitIndex, 1, "a stale release timer must not change the active sentence");
+assert.ok(harness.releaseTimerDelays().length >= 6, "manual and natural endings should both schedule quiet release buffers");
+assert.ok(
+  harness.releaseTimerDelays().every(delay => delay === LISTENING_RELEASE_BUFFER * 1000),
+  "every listening release buffer should last exactly two seconds"
+);
 
 await clickHandler({ target: clickTarget("data-toggle-practice-listening"), preventDefault() {} });
 assert.equal(hooks.state().listeningEnabled, false, "students should be able to turn listening mode back OFF");
@@ -981,14 +1066,12 @@ hooks.exerciseIds().forEach(exerciseId => {
       );
       const expectedStopTime = isFinalAudioWord
         ? null
-        : Math.max(
-            finalWordEnd + LISTENING_POSTROLL,
-            nextWordStart - LISTENING_NEXT_GUARD
-          );
+        : Math.max(finalWordEnd, nextWordStart - LISTENING_NEXT_GUARD);
       return Math.abs(segment.startTime - expectedStartTime) > 0.001
         || (isFinalAudioWord
           ? segment.stopTime !== null
-          : Math.abs(segment.stopTime - expectedStopTime) > 0.001);
+          : Math.abs(segment.stopTime - expectedStopTime) > 0.001
+            || segment.stopTime >= nextWordStart);
     })) {
       listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} violates the protected sentence playback boundary`);
     }
