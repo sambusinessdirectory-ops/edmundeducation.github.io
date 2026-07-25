@@ -162,9 +162,9 @@ function createHarness(applicationSource, dataFiles) {
     removeEventListener(type, listener) {
       this.listeners.set(type, (this.listeners.get(type) || []).filter(item => item !== listener));
     }
-    completeDeferredSeek() {
+    completeDeferredSeek(offset = 0) {
       if (this.pendingCurrentTime === null) return false;
-      this._currentTime = this.pendingCurrentTime;
+      this._currentTime = this.pendingCurrentTime + Number(offset || 0);
       this.pendingCurrentTime = null;
       this.deferMetadataAudioSeek = false;
       this.seeking = false;
@@ -327,8 +327,8 @@ function createHarness(applicationSource, dataFiles) {
     deferNextMetadataAudioSeek() {
       deferNextMetadataAudioSeek = true;
     },
-    completeLatestAudioSeek() {
-      return createdAudios.at(-1)?.completeDeferredSeek() || false;
+    completeLatestAudioSeek(offset = 0) {
+      return createdAudios.at(-1)?.completeDeferredSeek(offset) || false;
     },
     emitLatestAudioPlaying() {
       createdAudios.at(-1)?.emitPlaying();
@@ -602,7 +602,8 @@ function listeningFixture() {
         sentences: [
           { parts: ["Listen ", { answer: "carefully" }, "."] },
           { parts: ["This bridge sentence has no blank."] },
-          { parts: ["Write ", { answer: "the answer" }, " now."] }
+          { parts: ["Write ", { answer: "the answer" }, " now."] },
+          { parts: ["Carry this context into the next paragraph."] }
         ]
       },
       {
@@ -660,11 +661,64 @@ assert.equal(
   "listening mode should expose all six playback speeds before the round"
 );
 
+const isolatedState = hooks.state();
+const isolatedTarget = hooks.exercise().paragraphs[0].sentences[2].parts
+  .find(part => part && typeof part === "object" && part.answer);
+isolatedState.screen = "practice";
+isolatedState.round = 2;
+isolatedState.mode = "blank";
+isolatedState.targetBlankIds = [isolatedTarget.id];
+const [isolatedSegment] = hooks.listeningSegments();
+assert.equal(isolatedSegment.startSentenceIndex, 2, "the remedial unit should target the late mistake sentence");
+assert.equal(
+  isolatedSegment.playbackStartSentenceIndex,
+  2,
+  "a remedial unit must not replay hidden, already-mastered sentences"
+);
+isolatedState.screen = "mode";
+isolatedState.round = 1;
+isolatedState.mode = "";
+isolatedState.targetBlankIds = null;
+
 harness.deferNextAudioPlay();
 hooks.startMode("blank", "");
 let segments = hooks.listeningSegments();
 assert.equal(segments.length, 3, "only target-bearing sentences should become listening units");
 assert.equal(segments[2].blankIds.length, 2, "multiple blanks in one sentence should share one listening unit");
+assert.equal(
+  segments[1].playbackStartSentenceIndex,
+  1,
+  "an unblanked bridge sentence should lead into the next target-bearing listening unit"
+);
+assert.equal(segments[1].startSentenceIndex, 2, "the second unit should retain its actual target sentence index");
+assert.equal(
+  listenExerciseAudio.words[segments[1].startWordIndex][0],
+  "This",
+  "the bridge sentence must be spoken instead of skipped"
+);
+assert.equal(
+  listenExerciseAudio.words[segments[1].endWordIndex][0],
+  "now",
+  "the bridge unit should stop only after the target-bearing sentence is complete"
+);
+assert.equal(
+  segments[2].playbackStartParagraphIndex,
+  0,
+  "a trailing blank-free sentence should carry across the paragraph boundary"
+);
+assert.equal(segments[2].playbackStartSentenceIndex, 3);
+assert.equal(segments[2].playbackEndParagraphIndex, 1);
+assert.equal(
+  listenExerciseAudio.words[segments[2].startWordIndex][0],
+  "Carry",
+  "cross-paragraph playback should not omit the prior paragraph's trailing sentence"
+);
+assert.equal(
+  listenExerciseAudio.words[segments[2].endWordIndex][0],
+  "today",
+  "cross-paragraph playback should stop after the next target-bearing sentence"
+);
+assert.ok(segments.every(segment => segment.blankIds.length > 0), "every listening unit must end on an active blank");
 assert.equal(hooks.state().listeningPlaying, true, "the first listening sentence should start automatically");
 assert.equal(hooks.state().listeningUnitIndex, 0);
 assert.equal(harness.createdAudios.length, 1, "automatic listening should create one audio player");
@@ -839,26 +893,36 @@ assert.equal(hooks.state().answers[`${listenExercise.id}-q1`], "carefully", "con
 assert.equal(harness.createdAudios.length, 3);
 assert.equal(harness.createdAudios[2].seeking, true, "the next sentence should wait while its metadata seek is pending");
 assert.equal(
+  harness.createdAudios[2].muted,
+  true,
+  "a metadata-dependent seek must keep time-zero opening audio silent"
+);
+assert.equal(
   hooks.state().listeningPlaying,
   false,
   "a pending seek must not be reported as audible playback"
 );
-assert.equal(harness.completeLatestAudioSeek(), true, "the pending sentence seek should be completable");
+assert.equal(
+  harness.completeLatestAudioSeek(0.3),
+  true,
+  "an overshooting metadata seek should be detected and corrected"
+);
 assert.equal(
   harness.createdAudios[2].currentTime,
   segments[1].startTime,
-  "metadata-ready retry should recover after the browser finishes an asynchronous sentence seek"
+  "metadata-ready retry should return to the protected pre-roll instead of clipping the first word"
 );
 assert.equal(
   hooks.state().listeningPlaying,
-  false,
-  "a completed seek must still wait for evidence of audible playback"
+  true,
+  "a completed seek should begin at the verified sentence boundary without clipping its first word"
 );
+assert.equal(harness.createdAudios[2].muted, false, "verified sentence playback should unmute immediately");
 harness.advanceLatestAudio(0.05);
 assert.equal(
   hooks.state().listeningPlaying,
   true,
-  "verified media-time progression should recover even when the browser omits a second playing event"
+  "verified media-time progression should keep the correctly sought sentence active"
 );
 assert.equal(harness.createdAudios[2].playbackRate, 0.5, "the selected speed should carry into the next sentence");
 const secondUnitHtml = hooks.renderRound();
@@ -1021,6 +1085,80 @@ vm.runInNewContext(readFileSync(`${repository}/writing-audio-manifest.js`, "utf8
 const fullAudioManifest = audioManifestWindow.EDMUND_WRITING_AUDIO;
 assert.equal(Object.keys(fullAudioManifest).length, 235, "the complete writing audio manifest should contain 235 essays");
 hooks.setAudioManifest(fullAudioManifest);
+[
+  {
+    id: "dse-writing-2022-part-b-q3",
+    paragraphStartWordIndex: 10,
+    paragraphFirstWord: "Your",
+    firstTargetSentenceIndex: 0,
+    firstTargetFinalWord: "decision"
+  },
+  {
+    id: "dse-writing-2024-part-b-q5",
+    paragraphStartWordIndex: 11,
+    paragraphFirstWord: "At",
+    firstTargetSentenceIndex: 0,
+    firstTargetFinalWord: "friends"
+  },
+  {
+    id: "dse-writing-2025-part-b-q3",
+    paragraphStartWordIndex: 6,
+    paragraphFirstWord: "In",
+    firstTargetSentenceIndex: 1,
+    firstTargetFinalWord: "drilling"
+  }
+].forEach(testCase => {
+  hooks.useExercise(testCase.id);
+  const [firstSegment] = hooks.useDifficulty("");
+  const manifestEntry = fullAudioManifest[testCase.id];
+  assert.ok(firstSegment, `${testCase.id} should expose a first listening segment`);
+  assert.equal(
+    firstSegment.playbackStartSentenceIndex,
+    0,
+    `${testCase.id} should begin with the paragraph's first sentence, even when it has no blank`
+  );
+  assert.equal(
+    firstSegment.startSentenceIndex,
+    testCase.firstTargetSentenceIndex,
+    `${testCase.id} should retain the sentence containing its first blank`
+  );
+  assert.equal(
+    firstSegment.startWordIndex,
+    testCase.paragraphStartWordIndex,
+    `${testCase.id} should exclude its title and salutation from listening playback`
+  );
+  assert.equal(
+    manifestEntry.words[firstSegment.startWordIndex][0],
+    testCase.paragraphFirstWord,
+    `${testCase.id} should start on the first word of its essay body`
+  );
+  assert.equal(
+    manifestEntry.words[firstSegment.endWordIndex][0],
+    testCase.firstTargetFinalWord,
+    `${testCase.id} should stop after the full first target-bearing sentence`
+  );
+});
+hooks.useExercise("dse-writing-2022-part-b-q3");
+const dse2022Segments = hooks.useDifficulty("");
+const dse2022Manifest = fullAudioManifest["dse-writing-2022-part-b-q3"];
+const dse2022MultiBridge = dse2022Segments.find(segment => (
+  segment.paragraphIndex === 3 && segment.startSentenceIndex === 3
+));
+assert.ok(dse2022MultiBridge, "DSE 2022 should expose its multi-sentence bridge unit");
+assert.equal(dse2022MultiBridge.playbackStartParagraphIndex, 3);
+assert.equal(dse2022MultiBridge.playbackStartSentenceIndex, 1);
+assert.equal(dse2022Manifest.words[dse2022MultiBridge.startWordIndex][0], "You");
+assert.equal(dse2022Manifest.words[dse2022MultiBridge.endWordIndex][0], "forever");
+const dse2022FinalSegment = dse2022Segments.at(-1);
+assert.equal(dse2022FinalSegment.playbackEndParagraphIndex, 4);
+assert.equal(dse2022FinalSegment.playbackEndSentenceIndex, 3);
+assert.equal(dse2022FinalSegment.endWordIndex, 688);
+assert.equal(dse2022Manifest.words[dse2022FinalSegment.endWordIndex][0], "discipline");
+assert.equal(
+  dse2022Manifest.words[dse2022FinalSegment.endWordIndex + 1][0],
+  "Brew",
+  "listening should stop at the final active blank sentence, not append answerless tail prose"
+);
 const listeningMappingGaps = [];
 let checkedListeningConfigurations = 0;
 hooks.exerciseIds().forEach(exerciseId => {
@@ -1037,8 +1175,17 @@ hooks.exerciseIds().forEach(exerciseId => {
     if (!exerciseSegments.length) {
       listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has no listening segments`);
     }
+    if (
+      exerciseSegments[0]?.playbackStartParagraphIndex !== 0
+      || exerciseSegments[0]?.playbackStartSentenceIndex !== 0
+    ) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} skips the first body sentence`);
+    }
     if (exerciseSegments.some(segment => segment.startSentenceIndex !== segment.endSentenceIndex)) {
       listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} crosses a sentence boundary`);
+    }
+    if (exerciseSegments.some(segment => !segment.blankIds.length)) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} contains an answerless listening unit`);
     }
     if (exerciseSegments.some(segment => {
       const manifestEntry = fullAudioManifest[exerciseId];
@@ -1077,6 +1224,11 @@ hooks.exerciseIds().forEach(exerciseId => {
     }
     if (exerciseSegments.some((segment, index) => index > 0 && segment.startTime <= exerciseSegments[index - 1].startTime)) {
       listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} has out-of-order playback ranges`);
+    }
+    if (exerciseSegments.some((segment, index) => (
+      index > 0 && segment.startWordIndex !== exerciseSegments[index - 1].endWordIndex + 1
+    ))) {
+      listeningMappingGaps.push(`${exerciseId}: ${difficultyKey || "default"} omits body words between listening units`);
     }
   });
 });

@@ -5899,7 +5899,7 @@ Device: concession 讓步
         return { text: practiceState.listeningPlaybackError, tone: "error" };
       }
       if (practiceState?.screen !== "practice") {
-        return { text: "開始練習後，錄音會自動播放第一個有填充題的句子。", tone: "" };
+        return { text: "開始練習後，錄音會從所選正文的第一句開始，並在每個有填充題的句尾停下。", tone: "" };
       }
       if (!total) {
         return { text: "這個練習暫時未能配對逐句錄音。", tone: "error" };
@@ -5908,18 +5908,18 @@ Device: concession 讓步
         return { text: "本輪答案已提交。", tone: "complete" };
       }
       if (activeEssayAudioContext === "listening" && activeEssayReleasePending) {
-        return { text: `第 ${index + 1} 句播放完畢；句尾緩衝中。`, tone: "playing" };
+        return { text: `第 ${index + 1} 個聆聽段落播放完畢；句尾緩衝中。`, tone: "playing" };
       }
       if (practiceState?.listeningPlaying) {
-        return { text: `正在播放第 ${index + 1} / ${total} 個填充句子。`, tone: "playing" };
+        return { text: `正在播放第 ${index + 1} / ${total} 個聆聽段落。`, tone: "playing" };
       }
       if (practiceState?.listeningUnitFinished && index >= total - 1) {
-        return { text: "所有填充句子已播放完畢；請完成答案後提交。", tone: "complete" };
+        return { text: "所有聆聽段落已播放完畢；請完成答案後提交。", tone: "complete" };
       }
       if (practiceState?.listeningUnitFinished) {
-        return { text: `第 ${index + 1} 句播放完畢；填寫答案後，請按「繼續下一句」。`, tone: "complete" };
+        return { text: `第 ${index + 1} 個聆聽段落播放完畢；填寫答案後，請按「繼續下一句」。`, tone: "complete" };
       }
-      return { text: `準備播放第 ${index + 1} / ${total} 個填充句子。`, tone: "" };
+      return { text: `準備播放第 ${index + 1} / ${total} 個聆聽段落。`, tone: "" };
     }
 
     function renderPracticeListeningToggle(exercise) {
@@ -7437,6 +7437,7 @@ Device: concession 讓步
       const practiceParagraphs = practiceParagraphsForExercise(exercise, practiceState.difficultyKey || "");
       const segments = [];
       const mappedTargetIds = new Set();
+      const targetUnits = [];
 
       practiceParagraphs.forEach((practiceParagraph, paragraphIndex) => {
         if (!selectedParagraphs.has(paragraphIndex)) return;
@@ -7444,14 +7445,13 @@ Device: concession 讓步
         const canonicalRanges = paragraphSentenceCharacterRanges(canonicalParagraph);
         const blankSpans = practiceParagraphBlankSpans(practiceParagraph)
           .filter(span => targetIds.has(span.id));
-        const paragraphUnits = [];
 
         blankSpans.forEach(span => {
           const overlapping = canonicalRanges.filter(range => span.start < range.end && span.end > range.start);
           if (!overlapping.length) return;
           mappedTargetIds.add(span.id);
           overlapping.forEach(range => {
-            paragraphUnits.push({
+            targetUnits.push({
               paragraphIndex,
               startSentenceIndex: range.sentenceIndex,
               endSentenceIndex: range.sentenceIndex,
@@ -7459,34 +7459,113 @@ Device: concession 讓步
             });
           });
         });
+      });
 
-        paragraphUnits
-          .sort((left, right) => left.startSentenceIndex - right.startSentenceIndex || left.endSentenceIndex - right.endSentenceIndex)
-          .forEach(unit => {
-            const previous = segments[segments.length - 1];
-            if (
-              previous
-              && previous.paragraphIndex === unit.paragraphIndex
-              && unit.startSentenceIndex <= previous.endSentenceIndex
-            ) {
-              previous.endSentenceIndex = Math.max(previous.endSentenceIndex, unit.endSentenceIndex);
-              previous.blankIds = [...new Set([...previous.blankIds, ...unit.blankIds])];
-              const endTiming = sentenceTimings[unit.paragraphIndex][previous.endSentenceIndex];
-              previous.stopTime = endTiming.stopTime;
-              previous.endWordIndex = endTiming.endWordIndex;
-              return;
-            }
-            const startTiming = sentenceTimings[unit.paragraphIndex][unit.startSentenceIndex];
-            const endTiming = sentenceTimings[unit.paragraphIndex][unit.endSentenceIndex];
-            segments.push({
-              ...unit,
-              blankIds: [...unit.blankIds],
-              startTime: startTiming.startTime,
-              stopTime: endTiming.stopTime,
-              startWordIndex: startTiming.startWordIndex,
-              endWordIndex: endTiming.endWordIndex
-            });
+      const mergedUnits = [];
+      targetUnits
+        .sort((left, right) => (
+          left.paragraphIndex - right.paragraphIndex
+          || left.startSentenceIndex - right.startSentenceIndex
+          || left.endSentenceIndex - right.endSentenceIndex
+        ))
+        .forEach(unit => {
+          const previous = mergedUnits[mergedUnits.length - 1];
+          if (
+            previous
+            && previous.paragraphIndex === unit.paragraphIndex
+            && unit.startSentenceIndex <= previous.endSentenceIndex
+          ) {
+            previous.endSentenceIndex = Math.max(previous.endSentenceIndex, unit.endSentenceIndex);
+            previous.blankIds = [...new Set([...previous.blankIds, ...unit.blankIds])];
+            return;
+          }
+          mergedUnits.push({ ...unit, blankIds: [...unit.blankIds] });
+        });
+
+      const continuousPassageListening = (
+        Number(practiceState.round) === 1
+        && practiceState.mode !== "sentence"
+        && !practiceState.sentenceKeys?.length
+        && !practiceState.targetBlankIds?.length
+      );
+      if (!continuousPassageListening) {
+        mergedUnits.forEach(unit => {
+          const startTiming = sentenceTimings[unit.paragraphIndex][unit.startSentenceIndex];
+          const endTiming = sentenceTimings[unit.paragraphIndex][unit.endSentenceIndex];
+          segments.push({
+            ...unit,
+            blankIds: [...unit.blankIds],
+            playbackStartParagraphIndex: unit.paragraphIndex,
+            playbackStartSentenceIndex: unit.startSentenceIndex,
+            playbackEndParagraphIndex: unit.paragraphIndex,
+            playbackEndSentenceIndex: unit.endSentenceIndex,
+            startTime: startTiming.startTime,
+            stopTime: endTiming.stopTime,
+            startWordIndex: startTiming.startWordIndex,
+            endWordIndex: endTiming.endWordIndex
           });
+        });
+        return mappedTargetIds.size === targetIds.size ? segments : [];
+      }
+
+      const selectedRuns = [...selectedParagraphs]
+        .sort((left, right) => left - right)
+        .reduce((runs, paragraphIndex) => {
+          const currentRun = runs[runs.length - 1];
+          if (currentRun && paragraphIndex === currentRun.end + 1) {
+            currentRun.end = paragraphIndex;
+          } else {
+            runs.push({ start: paragraphIndex, end: paragraphIndex });
+          }
+          return runs;
+        }, []);
+
+      // Preserve the spoken body sequence in each selected contiguous run:
+      // blank-free sentences lead into the next target-bearing unit instead of
+      // disappearing, while every unit still ends on a sentence with an answer.
+      selectedRuns.forEach(run => {
+        const runUnits = mergedUnits.filter(unit => (
+          unit.paragraphIndex >= run.start && unit.paragraphIndex <= run.end
+        ));
+        if (!runUnits.length) return;
+
+        let playbackParagraphIndex = run.start;
+        let playbackSentenceIndex = 0;
+        const advancePlaybackCursor = (paragraphIndex, sentenceIndex) => {
+          let nextParagraphIndex = paragraphIndex;
+          let nextSentenceIndex = sentenceIndex + 1;
+          while (
+            nextParagraphIndex <= run.end
+            && nextSentenceIndex >= sentenceTimings[nextParagraphIndex].length
+          ) {
+            nextParagraphIndex += 1;
+            nextSentenceIndex = 0;
+          }
+          return nextParagraphIndex <= run.end
+            ? { paragraphIndex: nextParagraphIndex, sentenceIndex: nextSentenceIndex }
+            : null;
+        };
+
+        runUnits.forEach(unit => {
+          const startTiming = sentenceTimings[playbackParagraphIndex][playbackSentenceIndex];
+          const endTiming = sentenceTimings[unit.paragraphIndex][unit.endSentenceIndex];
+          segments.push({
+            ...unit,
+            blankIds: [...unit.blankIds],
+            playbackStartParagraphIndex: playbackParagraphIndex,
+            playbackStartSentenceIndex: playbackSentenceIndex,
+            playbackEndParagraphIndex: unit.paragraphIndex,
+            playbackEndSentenceIndex: unit.endSentenceIndex,
+            startTime: startTiming.startTime,
+            stopTime: endTiming.stopTime,
+            startWordIndex: startTiming.startWordIndex,
+            endWordIndex: endTiming.endWordIndex
+          });
+
+          const nextCursor = advancePlaybackCursor(unit.paragraphIndex, unit.endSentenceIndex);
+          playbackParagraphIndex = nextCursor?.paragraphIndex ?? null;
+          playbackSentenceIndex = nextCursor?.sentenceIndex ?? null;
+        });
       });
 
       return mappedTargetIds.size === targetIds.size ? segments : [];
@@ -7849,6 +7928,12 @@ Device: concession 讓步
       activeEssayAudioContext = context;
       const requestedStartTime = Math.max(0, Number(startTime) || 0);
       const requestedStopTime = Number(options.stopTime);
+      const requestedLatestStartTime = Number(options.latestStartTime);
+      // Calling play() synchronously preserves the user's autoplay permission,
+      // but some browsers begin at time zero before a metadata-dependent seek
+      // completes. Keep that warm-up silent and unmute only at the verified
+      // sentence boundary so titles and salutations cannot leak into practice.
+      audio.muted = context === "listening" && requestedStartTime > 0;
       activeEssaySegmentEnd = typeof options.onSegmentEnd === "function" ? options.onSegmentEnd : null;
       if (Number.isFinite(requestedStopTime) && requestedStopTime > requestedStartTime) {
         activeEssayStopTime = requestedStopTime;
@@ -7875,7 +7960,11 @@ Device: concession 讓步
           const currentTime = Number(audio.currentTime);
           return !audio.seeking
             && Number.isFinite(currentTime)
-            && currentTime >= requestedStartTime - startTimeTolerance;
+            && currentTime >= requestedStartTime - startTimeTolerance
+            && (
+              !Number.isFinite(requestedLatestStartTime)
+              || currentTime <= requestedLatestStartTime + startTimeTolerance
+            );
         } catch (error) {
           return false;
         }
@@ -7904,6 +7993,7 @@ Device: concession 讓步
           playbackHasStarted = true;
           clearStartupTimer();
         }
+        audio.muted = false;
         syncEssayAudioButton();
         if (context === "listening") stopEssayHighlightLoop({ clear: true });
         else startEssayHighlightLoop();
@@ -7934,10 +8024,17 @@ Device: concession 讓步
           activeEssayAudio !== audio ||
           playbackHasStarted ||
           audio.paused ||
-          audio.ended ||
-          !requestedStartIsReady()
+          audio.ended
         ) return;
+        if (!requestedStartIsReady()) {
+          const startState = applyRequestedStart();
+          if (startState === "failed") {
+            failAudioStartup(new Error("Audio could not seek to the requested sentence."));
+          }
+          if (startState !== "ready") return;
+        }
         seekedProgressFloor = Number(audio.currentTime);
+        beginAudiblePlayback();
       };
       audio.ontimeupdate = () => {
         if (
@@ -8138,9 +8235,11 @@ Device: concession 讓步
       practiceState.listeningUnitFinished = false;
       practiceState.listeningPlaybackError = "";
       syncPracticeListeningUi();
+      const firstWordStart = Number(entry.words?.[segment.startWordIndex]?.[1]);
       const started = startEssayAudioAt(exercise, entry, segment.startTime, {
         context: "listening",
         stopTime: segment.stopTime,
+        latestStartTime: firstWordStart,
         onSegmentEnd: () => finishPracticeListeningUnit(index),
         onError: () => failPracticeListeningPlayback()
       });
