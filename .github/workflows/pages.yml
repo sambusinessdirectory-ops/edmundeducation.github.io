@@ -81,5 +81,5 @@ jobs:
         uses: actions/deploy-pages@v5
         with:
           artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
-          timeout: 600000
-          error_count: 20
+          timeout: 900000
+          error_count: 30
