@@ -259,10 +259,17 @@ begin
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
       or coalesce(v_item ->> 'lessonId', '') !~ '^ss([1-9]|[1-9][0-9]|10[0-9]|11[0-4])$'
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
-      or coalesce(v_item ->> 'questionId', '') !~ (
-        '^' || (v_item ->> 'lessonId') || '-q(0[1-9]|[1-4][0-9]|50)$'
+      or (
+        coalesce(v_item ->> 'questionId', '') <> '__section__'
+        and coalesce(v_item ->> 'questionId', '') !~ (
+          '^' || (v_item ->> 'lessonId') || '-q(0[1-9]|[1-4][0-9]|50)$'
+        )
       )
       or jsonb_typeof(v_item -> 'includeAnswer') <> 'boolean'
+      or (
+        coalesce(v_item ->> 'questionId', '') = '__section__'
+        and v_item -> 'includeAnswer' <> 'false'::jsonb
+      )
     then
       return false;
     end if;
@@ -364,8 +371,28 @@ create table if not exists public.sentence_structure_bookmarks (
   primary key (student_id, lesson_id, question_id),
   constraint sentence_structure_bookmarks_lesson_id_check
     check (lesson_id ~ '^ss([1-9]|[1-9][0-9]|10[0-9]|11[0-4])$'),
-  check (question_id ~ ('^' || lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$'))
+  constraint sentence_structure_bookmarks_question_id_check
+    check (
+      (question_id = '__section__' and include_answer = false)
+      or question_id ~ ('^' || lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$')
+    )
 );
+
+-- Earlier installations allowed only individual-question bookmarks. Replace
+-- that constraint idempotently so a lesson-level sentinel can share the same
+-- account-isolated table and primary key without changing existing rows.
+-- The first production migration used an unnamed CHECK, which PostgreSQL named
+-- `sentence_structure_bookmarks_check`; drop that legacy name as well.
+alter table public.sentence_structure_bookmarks
+  drop constraint if exists sentence_structure_bookmarks_check;
+alter table public.sentence_structure_bookmarks
+  drop constraint if exists sentence_structure_bookmarks_question_id_check;
+alter table public.sentence_structure_bookmarks
+  add constraint sentence_structure_bookmarks_question_id_check
+  check (
+    (question_id = '__section__' and include_answer = false)
+    or question_id ~ ('^' || lesson_id || '-q(0[1-9]|[1-4][0-9]|50)$')
+  );
 
 create index if not exists sentence_structure_bookmarks_student_created_idx
   on public.sentence_structure_bookmarks (student_id, created_at desc, lesson_id, question_id);
@@ -949,7 +976,7 @@ begin
     now(),
     now()
   from jsonb_array_elements(p_bookmarks) item
-  on conflict (student_id, lesson_id, question_id) do update
+  on conflict on constraint sentence_structure_bookmarks_pkey do update
   set include_answer = excluded.include_answer,
       updated_at = now();
 

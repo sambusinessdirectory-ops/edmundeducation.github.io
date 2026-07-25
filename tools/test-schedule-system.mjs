@@ -13,6 +13,9 @@ import {
   weekDates
 } from "../schedule-calendar.mjs";
 import {
+  COUNTDOWN_BATCH_SIZE,
+  COUNTDOWN_INITIAL_CAPACITY,
+  COUNTDOWN_MAX_CAPACITY,
   countdownBreakdown,
   formatEstimatedMinutes,
   isAdjacentSpanTarget,
@@ -57,6 +60,9 @@ assert.equal(supportedDays, 9131, "2026-01-01 through 2050-12-31 must contain 9,
 assert.equal(formatEstimatedMinutes(45), "45 分鐘");
 assert.equal(formatEstimatedMinutes(60), "1 小時");
 assert.equal(formatEstimatedMinutes(123), "2 小時 3 分鐘");
+assert.equal(COUNTDOWN_INITIAL_CAPACITY, 6);
+assert.equal(COUNTDOWN_BATCH_SIZE, 5);
+assert.equal(COUNTDOWN_MAX_CAPACITY, 101);
 const spanEntries = [
   { id: "a", spanGroupId: "project", scheduleDate: "2026-07-13" },
   { id: "b", spanGroupId: "project", scheduleDate: "2026-07-14" },
@@ -94,27 +100,28 @@ assert.deepEqual(countdownBreakdown("2026-07-26", "2026-08-25"), {
 });
 assert.equal(studyHoursBefore("2026-07-26", "2026-08-25", 1.5), 45);
 assert.equal(countdownBreakdown("2026-08-25", "2026-07-26").days, 0);
-assert.deepEqual(planCountdownCapacityChange(5, 5), {
+assert.deepEqual(planCountdownCapacityChange(6, 5), {
   allowed: true,
   reason: "ok",
-  current: 5,
-  target: 10,
-  createdPositions: [6, 7, 8, 9, 10],
+  current: 6,
+  target: 11,
+  createdPositions: [7, 8, 9, 10, 11],
   removedPositions: []
 });
-assert.deepEqual(planCountdownCapacityChange(10, -5), {
+assert.deepEqual(planCountdownCapacityChange(11, -5), {
   allowed: true,
   reason: "ok",
-  current: 10,
-  target: 5,
+  current: 11,
+  target: 6,
   createdPositions: [],
-  removedPositions: [6, 7, 8, 9, 10]
+  removedPositions: [7, 8, 9, 10, 11]
 });
-assert.equal(planCountdownCapacityChange(10, -5, { dirtyPositions: [8] }).reason, "dirty");
+assert.equal(planCountdownCapacityChange(11, -5, { dirtyPositions: [8] }).reason, "dirty");
 assert.deepEqual(
-  planCountdownCapacityChange(10, -5, { savedPositions: [9] }).blockedPositions,
+  planCountdownCapacityChange(11, -5, { savedPositions: [9] }).blockedPositions,
   [9]
 );
+assert.equal(planCountdownCapacityChange(5, 5).reason, "invalid", "legacy five-clock capacity must migrate to six");
 
 for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 7)) {
   const dates = weekDates(toISODate(week));
@@ -203,9 +210,15 @@ assert.match(scheduleHtml, /重大事件倒數/);
 assert.match(scheduleHtml, /data-countdown-grid/);
 assert.match(scheduleHtml, /data-add-countdowns/);
 assert.match(scheduleHtml, /data-remove-countdowns/);
+assert.match(scheduleHtml, />增加 5 個倒數鐘</);
+assert.match(scheduleHtml, />減少 5 個倒數鐘</);
+assert.match(scheduleHtml, /按住 Shift 再拖到相鄰日期即可延伸/);
 assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-in-progress/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-touch-action/);
 assert.match(scheduleHtml, /\.schedule-slot\.is-span-project/);
+assert.match(scheduleHtml, /\.schedule-slot\.is-span-project\.span-start\s*\{[^}]*width:\s*var\(--span-project-width/s);
+assert.match(scheduleHtml, /\.schedule-slot\.is-span-project\.span-continuation\s*\{[^}]*visibility:\s*hidden[^}]*pointer-events:\s*none/s);
+assert.doesNotMatch(scheduleHtml, /span-continues-right/, "multi-day projects must render as one continuous rectangle");
 assert.match(scheduleHtml, /\.span-lane-placeholder\s*\{[^}]*height:\s*142px/s);
 assert.match(scheduleHtml, /@media\s*\(pointer:\s*coarse\)[\s\S]*?\.schedule-slot\.has-entry\.can-touch-drag\s*\{[^}]*touch-action:\s*none/s);
 assert.match(scheduleHtml, /\.span-drop-zone\s*\{/);
@@ -222,6 +235,7 @@ assert.match(scheduleHtml, /\.day-mascot\b/);
 assert.match(scheduleHtml, /\.unused-day-note\s*\{[^}]*white-space:\s*pre-line/s);
 assert.match(scheduleHtml, /\.print-entry-admin\s*\{[^}]*#f4dfc2/i);
 assert.match(scheduleHtml, /\.print-entry-student\s*\{[^}]*#dfe9ff/i);
+assert.match(scheduleHtml, /data-toggle-countdown-collapse|countdown-collapse-toggle/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -314,6 +328,12 @@ assert.match(scheduleJs, /isAdjacentSpanTarget/);
 assert.match(scheduleJs, /is-swap-target/);
 assert.match(scheduleJs, /schedule_student_extend_entry_span/);
 assert.match(scheduleJs, /schedule_admin_extend_entry_span/);
+assert.match(scheduleJs, /const shiftExtension = event\.shiftKey/);
+assert.doesNotMatch(scheduleJs, /shiftExtensionMode/, "Shift extension mode must follow each DragEvent instead of becoming sticky");
+assert.match(scheduleJs, /extendEntryToDay\(entry, column\.dataset\.columnDate, \{ adjacentOnly: true \}\)/);
+assert.match(scheduleJs, /--span-project-width/);
+assert.match(scheduleJs, /bounds\.length \* 100/);
+assert.match(scheduleJs, /classList\.add\("span-continuation"\)/);
 assert.match(scheduleJs, /schedule_student_set_entry_in_progress/);
 assert.match(scheduleJs, /schedule_admin_set_entry_in_progress/);
 assert.match(scheduleJs, /p_estimated_minutes/);
@@ -335,6 +355,10 @@ assert.match(scheduleJs, /p_target_expected_updated_at:\s*targetEntry\?\.updated
 assert.match(scheduleJs, /schedule_student_move_entry_checked/);
 assert.match(scheduleJs, /schedule_admin_move_entry_checked/);
 assert.match(scheduleJs, /countdownDrafts:\s*new Map\(\)/);
+assert.match(scheduleJs, /countdownCollapsedPositions:\s*new Set\(\)/);
+assert.match(scheduleJs, /COUNTDOWN_COLLAPSED_KEY/);
+assert.match(scheduleJs, /function setCountdownCardCollapsed\(/);
+assert.match(scheduleJs, /localStorage\.setItem\([\s\S]*?countdownCollapseStorageKey/s);
 assert.match(scheduleJs, /function captureCountdownDrafts\(/);
 assert.match(scheduleJs, /planCountdownCapacityChange\(current, delta/);
 assert.match(scheduleJs, /schedule_student_change_countdown_capacity_checked/);
@@ -468,6 +492,11 @@ assert.match(scheduleSql, /span_group_id uuid/);
 assert.match(scheduleSql, /schedule_entries_progress_state_check/);
 assert.match(scheduleSql, /create table if not exists public\.schedule_countdowns/);
 assert.match(scheduleSql, /create table if not exists public\.schedule_countdown_capacity/);
+assert.match(scheduleSql, /clock_count smallint not null default 6/);
+assert.match(scheduleSql, /mod\(clock_count - 6, 5\) = 0/);
+assert.match(scheduleSql, /where mod\(capacity\.clock_count, 5\) = 0/);
+assert.match(scheduleSql, /set clock_count = least\(101, capacity\.clock_count \+ 1\)/);
+assert.match(scheduleSql, /check \(position between 1 and 101\)/);
 assert.match(scheduleSql, /start_date between date '2026-01-01' and date '2050-12-31'/);
 assert.match(scheduleSql, /end_date between start_date and date '2050-12-31'/);
 assert.match(scheduleSql, /create or replace function public\._schedule_set_entry_in_progress/);

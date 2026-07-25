@@ -18,6 +18,7 @@ const [
   indexHtml,
   workerSource,
   supabaseSchema,
+  bookmarkMigration,
   correctionMigration,
   lessonMigration
 ] = await Promise.all([
@@ -29,6 +30,7 @@ const [
   read("index.html"),
   read("workers/sentence-structure/src/index.js"),
   read("supabase-sentence-structure.sql"),
+  read("supabase-sentence-structure-section-bookmarks.sql"),
   read("supabase-sentence-structure-correction-state.sql"),
   read("supabase-sentence-structure-lessons-71-114.sql")
 ]);
@@ -118,6 +120,7 @@ function createFrontendHarness() {
     "[data-login-button]", "[data-login-status]", "#sentence-structure-username",
     "#sentence-structure-password", "[data-password-toggle]", "[data-dashboard-welcome]",
     "[data-lesson-count]", "[data-lesson-choice-grid]", "[data-history-list]", "[data-lesson-round]",
+    "[data-sentence-progress-toggle]", "[data-sentence-progress-toggle-label]", "[data-sentence-progress-panel]",
     "[data-sentence-progress-chart]", "[data-sentence-progress-period-total]",
     "[data-sentence-progress-all-total]", "[data-sentence-progress-active-days]",
     "[data-sentence-progress-day-panel]", "[data-sentence-progress-day-title]",
@@ -165,6 +168,12 @@ function createFrontendHarness() {
     setItem: (key, value) => sessionValues.set(key, String(value)),
     removeItem: (key) => sessionValues.delete(key)
   };
+  const localValues = new Map();
+  const localStorage = {
+    getItem: (key) => localValues.get(key) ?? null,
+    setItem: (key, value) => localValues.set(key, String(value)),
+    removeItem: (key) => localValues.delete(key)
+  };
   const apiCalls = [];
   let apiHandler = async (url, options = {}) => {
     const pathname = new URL(url).pathname;
@@ -191,6 +200,7 @@ function createFrontendHarness() {
     EDMUND_SUPABASE: { url: "https://supabase.test", anonKey: "anon" },
     EDMUND_SENTENCE_STRUCTURE_DATA: content,
     sessionStorage,
+    localStorage,
     scrollY: 0,
     scrollTo() {},
     setTimeout: () => 1,
@@ -203,6 +213,7 @@ function createFrontendHarness() {
     window,
     document,
     sessionStorage,
+    localStorage,
     fetch,
     Headers,
     crypto: webcrypto,
@@ -236,6 +247,7 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   state, elements, LESSON_PAGES, MAX_BOOKMARKS,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
   studentLogin, openLesson, setLessonPage, renderLessonPage, renderExercisePage, renderLessonChoices,
+  currentProgressQuestionId, focusExerciseQuestion,
   syncExerciseButtons, submitExercise, startNextRound,
   startCorrectionRound, exitCorrectionRound, toggleCorrectCard, toggleAllCorrectCards,
   clearQuestionAnswer,
@@ -243,8 +255,9 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
   highlightedAnswerHtml, questionAnswerParts, storedAnswerPartValues,
   combinedAnswerPartValue, suggestedAnswerHtml, missingAnswerMarkup, comparedAnswerHtml, normalizeAnswer, answersMatch,
   normalizeBookmark, normalizeAttempt, attemptHistoryHtml,
-  renderBookmarks, bookmarkAnswerAvailable, toggleBookmark, saveBookmarks, renderAdminStudents, openAdminStudent,
-  loadAllAttempts, questionActivityRows, buildQuestionProgressSeries, questionProgressChartSvg,
+  renderBookmarks, bookmarkAnswerAvailable, toggleBookmark, toggleSectionBookmark, saveBookmarks, renderAdminStudents, openAdminStudent,
+  readProgressPanelPreference, writeProgressPanelPreference, renderProgressPanelDisclosure, toggleProgressPanel,
+  loadAllAttempts, loadDashboardData, questionActivityRows, buildQuestionProgressSeries, questionProgressChartSvg,
   renderProgressDashboard, renderProgressDayPanel, renderAttemptHistory,
   serializeExerciseResult, persistExercise
 };
@@ -258,6 +271,7 @@ window.__SENTENCE_STRUCTURE_TEST__ = {
     steps,
     selectorMap,
     sessionValues,
+    localValues,
     sut: window.__SENTENCE_STRUCTURE_TEST__,
     setApiHandler(handler) { apiHandler = handler; }
   };
@@ -301,6 +315,15 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
   assert.match(workerSource, /const MAX_BOOKMARKS = 6000;/, "Worker bookmark capacity must match the frontend");
   assert.match(supabaseSchema, /jsonb_array_length\(p_bookmarks\) > 6000/, "Supabase bookmark capacity must match the frontend");
   assert.match(supabaseSchema, /octet_length\(p_bookmarks::text\) > 524288/, "Supabase bookmark payload size must cover the expanded corpus");
+  assert.match(workerSource, /const SECTION_BOOKMARK_ID = "__section__";/);
+  assert.match(supabaseSchema, /question_id = '__section__'/);
+  assert.match(bookmarkMigration, /question_id = '__section__' and include_answer = false/,
+    "the database constraint must prevent a lesson bookmark from exposing a synthetic answer");
+  assert.match(bookmarkMigration, /drop constraint if exists sentence_structure_bookmarks_check/i,
+    "the migration must remove the unnamed legacy question-id constraint used in production");
+  assert.match(bookmarkMigration, /on conflict on constraint sentence_structure_bookmarks_pkey do update/i,
+    "bookmark replacement must avoid PL/pgSQL output-column ambiguity");
+  assert.doesNotMatch(bookmarkMigration, /on conflict \(student_id, lesson_id, question_id\)/i);
 
   const functionSql = (source, functionName) => {
     const functionMarker = `create or replace function public.${functionName}(`;
@@ -314,6 +337,16 @@ test("frontend, Worker, and Supabase attempt-result contracts stay aligned", () 
     correctionMigration,
     "_sentence_structure_result_valid"
   );
+  for (const functionName of [
+    "_sentence_structure_bookmark_payload_valid",
+    "sentence_structure_replace_bookmarks"
+  ]) {
+    assert.equal(
+      functionSql(bookmarkMigration, functionName),
+      functionSql(supabaseSchema, functionName),
+      `${functionName} bookmark migration must match the base schema`
+    );
+  }
   for (const key of ["correctionMode", "correctionIds", "collapsedCorrectIds"]) {
     assert.ok(
       historicalCorrectionValidator.includes(`'${key}'`),
@@ -449,6 +482,12 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.equal((html.match(/data-step="[1-4]"/g) || []).length, 4);
   assert.match(html, /data-history-list/);
   assert.match(html, /data-sentence-progress-chart/);
+  assert.match(html, /data-sentence-progress-toggle[^>]+aria-expanded="false"/);
+  assert.match(html, /data-sentence-progress-panel[^>]+hidden/);
+  assert.ok(
+    html.indexOf("data-sentence-progress-toggle") < html.indexOf("data-lesson-choice-grid"),
+    "progress disclosure must sit immediately above the long lesson grid"
+  );
   assert.equal((html.match(/data-sentence-progress-range=/g) || []).length, 6);
   assert.match(html, /data-sentence-progress-day-list/);
   assert.match(html, /data-bookmark-list/);
@@ -474,6 +513,8 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(css, /\.rule-card \.chinese\s*\{[^}]*font-size:\s*clamp\(16px,[^}]*18px\)[^}]*font-weight:\s*800/i);
   assert.match(css, /\.rule-card \.english\s*\{[^}]*color:\s*var\(--muted\)[^}]*font-size:\s*14px/i);
   assert.match(css, /\.lesson-choice\.is-complete\s*\{[^}]*linear-gradient/i);
+  assert.match(css, /\.lesson-section-bookmark\s*\{/);
+  assert.match(css, /\.bookmark-columns\s*\{[^}]*grid-template-columns:\s*repeat\(2/i);
   assert.match(css, /\.missing-answer-highlight\s*\{[^}]*background:\s*#ffe56f/i);
   assert.doesNotMatch(frontendSource, /choice-icon/);
   assert.doesNotMatch(frontendSource, /題練習<\/span>/);
@@ -487,7 +528,10 @@ test("frontend source keeps shared login, persistence, and click wiring intact",
   assert.match(frontendSource, /p_password:\s*password/);
   assert.match(frontendSource, /row\?\.session_token/);
   assert.match(frontendSource, /sessionStorage\.setItem\(SESSION_KEY/);
-  assert.doesNotMatch(frontendSource, /localStorage/);
+  assert.match(frontendSource, /localStorage\.setItem\(key, expanded \? "expanded" : "collapsed"\)/,
+    "only the account-keyed dashboard disclosure preference should persist locally");
+  assert.doesNotMatch(frontendSource, /localStorage\.setItem\(SESSION_KEY/,
+    "authentication must remain session-scoped");
   assert.match(frontendSource, /const LESSON_PAGES = 4/);
   assert.match(frontendSource, /data-submit-partial[^\n]+submitExercise\("partial"\)/);
   assert.match(frontendSource, /data-submit-all[^\n]+submitExercise\("all"\)/);
@@ -999,7 +1043,8 @@ test("bookmark is pinned first and every completed 50-question lesson turns gold
   assert.ok(html.indexOf("data-open-bookmarks-card") < html.indexOf('data-open-lesson="ss1"'));
   assert.match(html, /data-open-lesson="ss1"[^>]+data-tone="gold"/);
   assert.match(html, /50 \/ 50 題已完成/);
-  assert.match(html, /1 個收藏題目/);
+  assert.match(html, /0 個句型/);
+  assert.match(html, /1 道題目/);
 });
 
 test("attempt history pagination loads every dashboard page", async () => {
@@ -1053,6 +1098,14 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
     { lessonId: "ss1", questionId: question.id, includeAnswer: true, createdAt: "" }
   );
   assert.equal(sut.normalizeBookmark({ lessonId: "ss1", questionId: "missing" }), null);
+  assert.deepEqual(
+    JSON.parse(JSON.stringify(sut.normalizeBookmark({ lessonId: "ss1", questionId: "__section__", includeAnswer: false }))),
+    { lessonId: "ss1", questionId: "__section__", includeAnswer: false, createdAt: "" }
+  );
+  assert.equal(
+    sut.normalizeBookmark({ lessonId: "missing", questionId: "__section__", includeAnswer: false }),
+    null
+  );
 
   sut.state.currentView = "dashboard";
   sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
@@ -1092,6 +1145,76 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   await sut.toggleBookmark("ss1", "ss1-q02");
   assert.equal(sut.state.bookmarks.length, sut.MAX_BOOKMARKS);
   assert.match(sut.elements.toast.textContent, /最多可儲存 6000 個書簽/);
+});
+
+test("dashboard progress disclosure is collapsed by default and persists per student account", () => {
+  const harness = createFrontendHarness();
+  const { sut, localValues } = harness;
+  sut.state.user = { id: "student-a", name: "Student A", role: "student" };
+  sut.renderProgressPanelDisclosure();
+  assert.equal(sut.elements.progressPanel.hidden, true);
+  assert.equal(sut.elements.progressToggle.getAttribute("aria-expanded"), "false");
+
+  sut.toggleProgressPanel();
+  assert.equal(sut.state.progressPanelExpanded, true);
+  assert.equal(sut.elements.progressPanel.hidden, false);
+  assert.equal(sut.elements.progressToggleLabel.textContent, "收起 −");
+  assert.equal(sut.readProgressPanelPreference(), true);
+  assert.equal([...localValues.values()].at(-1), "expanded");
+
+  sut.state.user = { id: "student-b", name: "Student B", role: "student" };
+  assert.equal(sut.readProgressPanelPreference(), false, "Student A's preference must not leak into Student B's account");
+  sut.writeProgressPanelPreference(false);
+  sut.state.user = { id: "student-a", name: "Student A", role: "student" };
+  assert.equal(sut.readProgressPanelPreference(), true);
+});
+
+test("lesson bookmarks render as card stars and a separate left bookmark column", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  sut.state.currentView = "dashboard";
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
+  sut.state.authToken = "student-token";
+
+  await sut.toggleSectionBookmark("ss1");
+  assert.equal(sut.state.bookmarks[0].questionId, "__section__");
+  assert.match(sut.elements.lessonChoiceGrid.innerHTML, /data-toggle-section-bookmark="ss1"[^>]+aria-pressed="true"/);
+  assert.match(sut.elements.lessonChoiceGrid.innerHTML, /1 個句型/);
+
+  sut.state.bookmarks.push({ lessonId: "ss2", questionId: "ss2-q01", includeAnswer: false, createdAt: "" });
+  sut.renderBookmarks();
+  const html = sut.elements.bookmarkList.innerHTML;
+  assert.match(html, /class="bookmark-columns"/);
+  assert.ok(html.indexOf("收藏句型") < html.indexOf("收藏題目"));
+  assert.match(html, /data-open-section-bookmark="ss1"/);
+  assert.match(html, /data-open-bookmark="ss2\|ss2-q01"/);
+});
+
+test("returning to an exercise targets its next unfinished question", () => {
+  const { sut } = createFrontendHarness();
+  const lesson = sut.getLesson("ss1");
+  sut.state.lessonId = lesson.id;
+  sut.state.exercise = sut.createExercise(lesson);
+  sut.state.exercise.correctIds = lesson.questions.slice(0, 25).map((question) => question.id);
+  assert.equal(sut.currentProgressQuestionId(lesson), "ss1-q26");
+
+  sut.state.exercise.correctIds = lesson.questions.slice(1, 25).map((question) => question.id);
+  sut.state.exercise.questionState["ss1-q01"] = { status: "wrong", lastAnswer: "an earlier wrong answer", reveal: true };
+  assert.equal(
+    sut.currentProgressQuestionId(lesson),
+    "ss1-q26",
+    "an earlier wrong answer must not send a returning student back before the next unanswered question"
+  );
+
+  sut.state.exercise.correctionMode = true;
+  sut.state.exercise.correctionIds = ["ss1-q07", "ss1-q31"];
+  assert.equal(sut.currentProgressQuestionId(lesson), "ss1-q31", "correction mode must target the first unresolved correction");
+  sut.state.exercise.correctIds.push("ss1-q31");
+  assert.equal(sut.currentProgressQuestionId(lesson), "", "a finished correction scope should keep its summary visible");
+
+  sut.state.exercise.correctionMode = false;
+  sut.state.exercise.correctIds = lesson.questions.map((question) => question.id);
+  assert.equal(sut.currentProgressQuestionId(lesson), "", "a completed lesson should keep its completion summary visible");
 });
 
 test("rapid bookmark changes are serialized so an older Supabase response cannot overwrite the latest state", async () => {
@@ -1150,6 +1273,90 @@ test("queued bookmark writes keep the account token captured when the edit was m
   assert.equal(apiCalls.length, 2);
   assert.equal(apiCalls[0].options.headers.get("Authorization"), "Bearer token-a");
   assert.equal(apiCalls[1].options.headers.get("Authorization"), "Bearer token-a", "the queued replacement must never use Student B's token");
+});
+
+test("a late bookmark failure from another account cannot roll back or notify the active student", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  sut.state.currentView = "dashboard";
+  sut.state.user = { id: "student-a", name: "Student A", role: "student" };
+  sut.state.authToken = "token-a";
+  let releaseRequest;
+  const requestGate = new Promise((resolve) => { releaseRequest = resolve; });
+  harness.setApiHandler(async () => {
+    await requestGate;
+    return jsonResponse({ error: "Temporary failure", code: "SUPABASE_UNAVAILABLE" }, 502);
+  });
+
+  const oldAccountWrite = sut.toggleBookmark("ss1", "ss1-q01");
+  await Promise.resolve();
+  sut.state.user = { id: "student-b", name: "Student B", role: "student" };
+  sut.state.authToken = "token-b";
+  sut.state.bookmarks = [{ lessonId: "ss2", questionId: "ss2-q01", includeAnswer: false, createdAt: "" }];
+  sut.elements.toast.textContent = "";
+  releaseRequest();
+  await oldAccountWrite;
+
+  assert.deepEqual(Array.from(sut.state.bookmarks, ({ lessonId, questionId }) => ({ lessonId, questionId })), [
+    { lessonId: "ss2", questionId: "ss2-q01" }
+  ]);
+  assert.equal(sut.elements.toast.textContent, "", "Student B must not see Student A's late sync failure");
+});
+
+test("a late dashboard response cannot copy one student's attempts or bookmarks into another account", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  sut.state.user = { id: "student-a", name: "Student A", role: "student" };
+  sut.state.authToken = "token-a";
+  let releaseResponses;
+  const responseGate = new Promise((resolve) => { releaseResponses = resolve; });
+  harness.setApiHandler(async (url, options) => {
+    assert.equal(options.headers.get("Authorization"), "Bearer token-a");
+    await responseGate;
+    const pathname = new URL(url).pathname;
+    if (pathname === "/v1/attempts") return jsonResponse({ attempts: [], hasMore: false });
+    if (pathname === "/v1/bookmarks") return jsonResponse({
+      bookmarks: [{ lessonId: "ss1", questionId: "ss1-q01", includeAnswer: false }]
+    });
+    throw new Error(`Unexpected request: ${pathname}`);
+  });
+
+  const oldDashboardLoad = sut.loadDashboardData();
+  await Promise.resolve();
+  sut.state.user = { id: "student-b", name: "Student B", role: "student" };
+  sut.state.authToken = "token-b";
+  sut.state.bookmarks = [{ lessonId: "ss2", questionId: "ss2-q01", includeAnswer: false, createdAt: "" }];
+  sut.state.syncedBookmarks = sut.state.bookmarks.map((bookmark) => ({ ...bookmark }));
+  releaseResponses();
+  await oldDashboardLoad;
+
+  assert.deepEqual(Array.from(sut.state.bookmarks, (bookmark) => bookmark.questionId), ["ss2-q01"]);
+  assert.deepEqual(Array.from(sut.state.syncedBookmarks, (bookmark) => bookmark.questionId), ["ss2-q01"]);
+  assert.equal(sut.state.dashboardLoaded, false);
+});
+
+test("a failed latest bookmark replacement rolls back to the last confirmed server snapshot", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  sut.state.currentView = "dashboard";
+  sut.state.user = { id: "student-a", name: "Student A", role: "student" };
+  sut.state.authToken = "token-a";
+  let requestCount = 0;
+  harness.setApiHandler(async (_url, options) => {
+    requestCount += 1;
+    const bookmarks = JSON.parse(options.body).bookmarks;
+    if (requestCount === 1) return jsonResponse({ bookmarks });
+    return jsonResponse({ error: "Temporary failure", code: "SUPABASE_UNAVAILABLE" }, 502);
+  });
+
+  const first = sut.toggleBookmark("ss1", "ss1-q01");
+  const second = sut.toggleBookmark("ss1", "ss1-q02");
+  await Promise.all([first, second]);
+
+  assert.deepEqual(Array.from(sut.state.syncedBookmarks, (bookmark) => bookmark.questionId), ["ss1-q01"]);
+  assert.deepEqual(Array.from(sut.state.bookmarks, (bookmark) => bookmark.questionId), ["ss1-q01"],
+    "the unsaved second change must not leave a phantom local bookmark");
+  assert.match(sut.elements.toast.textContent, /未能同步書簽/);
 });
 
 test("attempt history is expandable and only unfinished attempts can resume", () => {

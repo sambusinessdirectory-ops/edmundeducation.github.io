@@ -3,6 +3,8 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || { version: "missing", lessons: [] };
 
 const SESSION_KEY = "edmund-sentence-structure-session-v1";
+const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-sentence-structure-progress-panel-v1";
+const SECTION_BOOKMARK_ID = "__section__";
 const MAX_BOOKMARKS = 6000;
 const LESSON_PAGES = 4;
 const ATTEMPT_PAGE_SIZE = 100;
@@ -50,6 +52,9 @@ const elements = {
   lessonCount: document.querySelector("[data-lesson-count]"),
   lessonChoiceGrid: document.querySelector("[data-lesson-choice-grid]"),
   historyList: document.querySelector("[data-history-list]"),
+  progressToggle: document.querySelector("[data-sentence-progress-toggle]"),
+  progressToggleLabel: document.querySelector("[data-sentence-progress-toggle-label]"),
+  progressPanel: document.querySelector("[data-sentence-progress-panel]"),
   progressChart: document.querySelector("[data-sentence-progress-chart]"),
   progressPeriodTotal: document.querySelector("[data-sentence-progress-period-total]"),
   progressAllTotal: document.querySelector("[data-sentence-progress-all-total]"),
@@ -81,9 +86,11 @@ const state = {
   exercise: null,
   exerciseClockStartedAt: 0,
   bookmarks: [],
+  syncedBookmarks: [],
   attempts: [],
   dashboardLoaded: false,
   attemptHistoryComplete: true,
+  progressPanelExpanded: false,
   progressRange: "month",
   selectedProgressDay: "",
   bookmarkSaveQueue: Promise.resolve(),
@@ -140,6 +147,38 @@ function lessonTitle(lesson) {
 
 function lessonEnglishTitle(lesson) {
   return String(lesson?.titleEn || lesson?.englishTitle || "Sentence Structure");
+}
+
+function progressPanelPreferenceStorageKey() {
+  const userId = String(state.user?.id || "").trim();
+  return userId ? `${PROGRESS_PANEL_PREFERENCE_KEY}:${userId}` : "";
+}
+
+function readProgressPanelPreference() {
+  const key = progressPanelPreferenceStorageKey();
+  if (!key) return false;
+  try { return localStorage.getItem(key) === "expanded"; } catch { return false; }
+}
+
+function writeProgressPanelPreference(expanded) {
+  const key = progressPanelPreferenceStorageKey();
+  if (!key) return;
+  try { localStorage.setItem(key, expanded ? "expanded" : "collapsed"); } catch { /* Preference can remain in memory. */ }
+}
+
+function renderProgressPanelDisclosure() {
+  if (!elements.progressToggle || !elements.progressPanel) return;
+  const expanded = state.progressPanelExpanded === true;
+  elements.progressToggle.setAttribute("aria-expanded", String(expanded));
+  elements.progressPanel.hidden = !expanded;
+  if (elements.progressToggleLabel) elements.progressToggleLabel.textContent = expanded ? "收起 −" : "展開 ＋";
+}
+
+function toggleProgressPanel() {
+  state.progressPanelExpanded = !state.progressPanelExpanded;
+  writeProgressPanelPreference(state.progressPanelExpanded);
+  renderProgressPanelDisclosure();
+  if (state.progressPanelExpanded) renderProgressDashboard();
 }
 
 function setConnection(text, status = "checking") {
@@ -320,9 +359,11 @@ function clearSession() {
   state.lessonPage = 1;
   state.exercise = null;
   state.bookmarks = [];
+  state.syncedBookmarks = [];
   state.attempts = [];
   state.dashboardLoaded = false;
   state.attemptHistoryComplete = true;
+  state.progressPanelExpanded = false;
   state.progressRange = "month";
   state.selectedProgressDay = "";
   state.bookmarkWriteRevision += 1;
@@ -460,11 +501,12 @@ function normalizeBookmark(value) {
   if (!isPlainObject(value)) return null;
   const lessonId = String(value.lessonId || value.lesson_id || "");
   const questionId = String(value.questionId || value.question_id || "");
-  if (!getQuestion(lessonId, questionId)) return null;
+  const sectionBookmark = questionId === SECTION_BOOKMARK_ID;
+  if (!getLesson(lessonId) || (!sectionBookmark && !getQuestion(lessonId, questionId))) return null;
   return {
     lessonId,
     questionId,
-    includeAnswer: value.includeAnswer === true || value.include_answer === true,
+    includeAnswer: !sectionBookmark && (value.includeAnswer === true || value.include_answer === true),
     createdAt: String(value.createdAt || value.created_at || "")
   };
 }
@@ -487,12 +529,12 @@ function normalizeAttempt(value) {
   };
 }
 
-async function loadAllAttempts() {
+async function loadAllAttempts(authToken = state.authToken) {
   const rows = [];
   const seen = new Set();
   let complete = true;
   for (let page = 1; page <= 100; page += 1) {
-    const payload = await apiJson(`/v1/attempts?page=${page}&pageSize=${ATTEMPT_PAGE_SIZE}`);
+    const payload = await apiJson(`/v1/attempts?page=${page}&pageSize=${ATTEMPT_PAGE_SIZE}`, {}, true, authToken);
     const attempts = Array.isArray(payload?.attempts) ? payload.attempts : [];
     for (const attempt of attempts) {
       const id = String(attempt?.id || "");
@@ -510,10 +552,13 @@ async function loadAllAttempts() {
 async function loadDashboardData({ force = false } = {}) {
   if (state.user?.role !== "student") return;
   if (state.dashboardLoaded && !force) return;
+  const userId = String(state.user?.id || "");
+  const authToken = String(state.authToken || "");
   const [attemptPayload, bookmarkPayload] = await Promise.all([
-    loadAllAttempts(),
-    apiJson("/v1/bookmarks")
+    loadAllAttempts(authToken),
+    apiJson("/v1/bookmarks", {}, true, authToken)
   ]);
+  if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
   state.attempts = (Array.isArray(attemptPayload?.attempts) ? attemptPayload.attempts : [])
     .map(normalizeAttempt)
     .filter((attempt) => attempt.id && getLesson(attempt.lessonId));
@@ -522,22 +567,29 @@ async function loadDashboardData({ force = false } = {}) {
     .map(normalizeBookmark)
     .filter(Boolean)
     .slice(0, MAX_BOOKMARKS);
+  state.syncedBookmarks = state.bookmarks.map((bookmark) => ({ ...bookmark }));
   state.dashboardLoaded = true;
 }
 
 async function openDashboard({ force = false } = {}) {
   if (state.user?.role !== "student") return;
+  const userId = String(state.user?.id || "");
+  const authToken = String(state.authToken || "");
   pauseExerciseClock();
+  state.progressPanelExpanded = readProgressPanelPreference();
+  renderProgressPanelDisclosure();
   showView("dashboard");
   elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個句型，由概念開始，再完成 50 題分輪練習。`;
   renderLessonChoices();
   if (!state.dashboardLoaded || force) elements.historyList.innerHTML = loadingHtml();
   try {
     await loadDashboardData({ force });
+    if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
     renderLessonChoices();
     renderProgressDashboard();
     renderAttemptHistory();
   } catch (error) {
+    if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
     console.warn("Sentence Structure dashboard failed", error);
     elements.historyList.innerHTML = '<p class="empty-state">未能載入練習記錄，請稍後按「重新整理」。</p>';
     renderProgressDashboard();
@@ -553,16 +605,22 @@ function renderLessonChoices() {
       && attempt.status === "completed"
       && attempt.correctCount >= Math.min(50, attempt.totalCount || 50)
     ));
+    const bookmarked = isSectionBookmarked(lesson.id);
     return `
-      <button class="lesson-choice ${complete ? "is-complete" : ""}" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${complete ? "gold" : index % 2 ? "violet" : "blue"}">
-        <h2>${escapeHtml(lessonTitle(lesson))}<span>${escapeHtml(lessonEnglishTitle(lesson))}</span></h2>
-        ${complete ? '<span class="lesson-choice-complete">✓ 50 / 50 題已完成</span>' : ""}
-      </button>
+      <article class="lesson-choice-card ${complete ? "is-complete" : ""}">
+        <button class="lesson-choice ${complete ? "is-complete" : ""}" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${complete ? "gold" : index % 2 ? "violet" : "blue"}">
+          <h2>${escapeHtml(lessonTitle(lesson))}<span>${escapeHtml(lessonEnglishTitle(lesson))}</span></h2>
+          ${complete ? '<span class="lesson-choice-complete">✓ 50 / 50 題已完成</span>' : ""}
+        </button>
+        <button class="lesson-section-bookmark" type="button" data-toggle-section-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除句型書簽" : "收藏整個句型"}">${bookmarked ? "★" : "☆"}</button>
+      </article>
     `;
   }).join("");
+  const sectionBookmarkCount = state.bookmarks.filter((bookmark) => bookmark.questionId === SECTION_BOOKMARK_ID).length;
+  const questionBookmarkCount = state.bookmarks.length - sectionBookmarkCount;
   elements.lessonChoiceGrid.innerHTML = `<button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
       <h2>書簽<span>Bookmarks</span></h2>
-      <span class="choice-meta"><span>${escapeHtml(state.bookmarks.length)} 個收藏題目</span><span>跟隨帳戶同步</span></span>
+      <span class="choice-meta"><span>${escapeHtml(sectionBookmarkCount)} 個句型</span><span>${escapeHtml(questionBookmarkCount)} 道題目</span><span>跟隨帳戶同步</span></span>
     </button>${cards}`;
 }
 
@@ -819,11 +877,8 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
   elements.lessonTitle.textContent = lessonTitle(lesson);
   showView("lesson");
   renderLessonPage();
-  if (questionId) {
-    window.setTimeout(() => {
-      document.querySelector(`[data-question-id="${CSS.escape(questionId)}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
-    }, 50);
-  }
+  const targetQuestionId = questionId || (state.lessonPage === 4 ? currentProgressQuestionId(lesson) : "");
+  if (targetQuestionId) focusExerciseQuestion(targetQuestionId);
 }
 
 function setLessonPage(page) {
@@ -831,6 +886,35 @@ function setLessonPage(page) {
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
   renderLessonPage();
   window.scrollTo({ top: 0, behavior: "smooth" });
+  if (state.lessonPage === 4) {
+    const targetQuestionId = currentProgressQuestionId();
+    if (targetQuestionId) focusExerciseQuestion(targetQuestionId);
+  }
+}
+
+function currentProgressQuestionId(lesson = getLesson()) {
+  if (!lesson || !state.exercise) return "";
+  const questions = state.exercise.correctionMode ? correctionQuestions(lesson) : lesson.questions || [];
+  const unresolved = questions.filter((question) => !state.exercise.correctIds.includes(question.id));
+  if (state.exercise.correctionMode) return String(unresolved[0]?.id || "");
+  const unanswered = unresolved.find((question) => {
+    const saved = questionState(question.id);
+    const draft = state.exercise.drafts?.[question.id];
+    return saved.status === "pending" && !String(draft ?? saved.lastAnswer ?? "").trim();
+  });
+  const pending = unanswered || unresolved.find((question) => questionState(question.id).status === "pending");
+  const next = pending || unresolved.find((question) => questionState(question.id).status === "wrong") || unresolved[0];
+  return String(next?.id || "");
+}
+
+function focusExerciseQuestion(questionId) {
+  if (!questionId) return;
+  window.setTimeout(() => {
+    const card = document.querySelector(`[data-question-id="${CSS.escape(questionId)}"]`);
+    card?.scrollIntoView?.({ behavior: "smooth", block: "center" });
+    const input = card?.querySelector?.("[data-answer-input]:not([disabled])");
+    input?.focus?.({ preventScroll: true });
+  }, 50);
 }
 
 function updateLessonStepper() {
@@ -1015,6 +1099,10 @@ function questionState(questionId) {
 
 function isBookmarked(lessonId, questionId) {
   return state.bookmarks.some((bookmark) => bookmark.lessonId === lessonId && bookmark.questionId === questionId);
+}
+
+function isSectionBookmarked(lessonId) {
+  return isBookmarked(lessonId, SECTION_BOOKMARK_ID);
 }
 
 function highlightedAnswerHtml(answer, highlight) {
@@ -1633,10 +1721,12 @@ async function saveBookmarks() {
   state.bookmarkSaveQueue = pending.catch(() => undefined);
   try {
     const payload = await pending;
-    if (revision === state.bookmarkWriteRevision && String(state.user?.id || "") === userId) {
-      state.bookmarks = (Array.isArray(payload?.bookmarks) ? payload.bookmarks : snapshot)
+    if (String(state.user?.id || "") === userId) {
+      const normalized = (Array.isArray(payload?.bookmarks) ? payload.bookmarks : snapshot)
         .map(normalizeBookmark)
         .filter(Boolean);
+      state.syncedBookmarks = normalized.map((bookmark) => ({ ...bookmark }));
+      if (revision === state.bookmarkWriteRevision) state.bookmarks = normalized;
     }
     return payload;
   } catch (error) {
@@ -1646,27 +1736,57 @@ async function saveBookmarks() {
 }
 
 async function toggleBookmark(lessonId, questionId, includeAnswer = false) {
+  const sectionBookmark = questionId === SECTION_BOOKMARK_ID;
+  if (!getLesson(lessonId) || (!sectionBookmark && !getQuestion(lessonId, questionId))) return;
+  const operationUserId = String(state.user?.id || "");
   const existingIndex = state.bookmarks.findIndex((bookmark) => bookmark.lessonId === lessonId && bookmark.questionId === questionId);
-  const previous = state.bookmarks.map((bookmark) => ({ ...bookmark }));
   if (existingIndex >= 0) state.bookmarks.splice(existingIndex, 1);
   else {
     if (state.bookmarks.length >= MAX_BOOKMARKS) {
       showToast(`最多可儲存 ${MAX_BOOKMARKS} 個書簽。`, "error");
       return;
     }
-    state.bookmarks.push({ lessonId, questionId, includeAnswer, createdAt: new Date().toISOString() });
+    state.bookmarks.push({ lessonId, questionId, includeAnswer: sectionBookmark ? false : includeAnswer, createdAt: new Date().toISOString() });
   }
   if (state.currentView === "lesson") renderExercisePage(getLesson(), { preserveScroll: true });
+  if (state.currentView === "dashboard") {
+    renderLessonChoices();
+    if (sectionBookmark) restoreSectionBookmarkFocus(lessonId);
+  }
   if (state.currentView === "bookmarks") renderBookmarks();
   try {
     await saveBookmarks();
-    showToast(existingIndex >= 0 ? "已移除書簽。" : "已加入書簽。");
+    if (String(state.user?.id || "") === operationUserId) {
+      showToast(existingIndex >= 0
+        ? (sectionBookmark ? "已移除句型書簽。" : "已移除題目書簽。")
+        : (sectionBookmark ? "已收藏整個句型。" : "已加入題目書簽。"));
+    }
   } catch (error) {
-    if (error.bookmarkRevision === state.bookmarkWriteRevision) state.bookmarks = previous;
+    const sameAccount = String(state.user?.id || "") === operationUserId;
+    if (!sameAccount) return;
+    if (error.bookmarkRevision !== state.bookmarkWriteRevision) return;
+    state.bookmarks = state.syncedBookmarks.map((bookmark) => ({ ...bookmark }));
     if (state.currentView === "lesson") renderExercisePage(getLesson(), { preserveScroll: true });
+    if (state.currentView === "dashboard") {
+      renderLessonChoices();
+      if (sectionBookmark) restoreSectionBookmarkFocus(lessonId);
+    }
     if (state.currentView === "bookmarks") renderBookmarks();
+    console.warn("Sentence Structure bookmark sync failed", error);
     showToast("未能同步書簽，請稍後再試。", "error");
   }
+}
+
+function toggleSectionBookmark(lessonId) {
+  return toggleBookmark(lessonId, SECTION_BOOKMARK_ID, false);
+}
+
+function restoreSectionBookmarkFocus(lessonId) {
+  if (!lessonId) return;
+  requestAnimationFrame(() => {
+    document.querySelector(`[data-toggle-section-bookmark="${CSS.escape(lessonId)}"]`)
+      ?.focus?.({ preventScroll: true });
+  });
 }
 
 function upgradeBookmarkAnswer(lessonId, questionId) {
@@ -1700,11 +1820,24 @@ function openBookmarks() {
 }
 
 function renderBookmarks() {
-  if (!state.bookmarks.length) {
-    elements.bookmarkList.innerHTML = '<p class="empty-state">暫時未有書簽。你可以在任何練習題右上角按 ☆ 收藏題目。</p>';
-    return;
-  }
-  elements.bookmarkList.innerHTML = state.bookmarks.map((bookmark) => {
+  const sectionBookmarks = state.bookmarks.filter((bookmark) => bookmark.questionId === SECTION_BOOKMARK_ID);
+  const questionBookmarks = state.bookmarks.filter((bookmark) => bookmark.questionId !== SECTION_BOOKMARK_ID);
+  const sectionRows = sectionBookmarks.map((bookmark) => {
+    const lesson = getLesson(bookmark.lessonId);
+    if (!lesson) return "";
+    return `<article class="bookmark-section-row">
+      <span class="bookmark-section-star" aria-hidden="true">★</span>
+      <div>
+        <h3>${escapeHtml(lessonTitle(lesson))}</h3>
+        <p>${escapeHtml(lessonEnglishTitle(lesson))}</p>
+      </div>
+      <div class="bookmark-row-actions">
+        <button class="icon-button" type="button" data-open-section-bookmark="${escapeHtml(bookmark.lessonId)}">開啟</button>
+        <button class="icon-button danger" type="button" data-remove-section-bookmark="${escapeHtml(bookmark.lessonId)}">移除</button>
+      </div>
+    </article>`;
+  }).join("");
+  const questionRows = questionBookmarks.map((bookmark) => {
     const lesson = getLesson(bookmark.lessonId);
     const question = getQuestion(bookmark.lessonId, bookmark.questionId);
     if (!lesson || !question) return "";
@@ -1723,6 +1856,22 @@ function renderBookmarks() {
       </div>
     </article>`;
   }).join("");
+  elements.bookmarkList.innerHTML = `<div class="bookmark-columns">
+    <section class="bookmark-column" aria-labelledby="section-bookmark-heading">
+      <header class="bookmark-column-heading">
+        <span>01</span>
+        <div><h2 id="section-bookmark-heading">收藏句型</h2><p>整個句子結構課題</p></div>
+      </header>
+      <div class="bookmark-column-list">${sectionRows || '<p class="empty-state">暫時未收藏句型。可在學習首頁的句型卡右上角按 ☆。</p>'}</div>
+    </section>
+    <section class="bookmark-column" aria-labelledby="question-bookmark-heading">
+      <header class="bookmark-column-heading">
+        <span>02</span>
+        <div><h2 id="question-bookmark-heading">收藏題目</h2><p>各句型內的個別練習題</p></div>
+      </header>
+      <div class="bookmark-column-list">${questionRows || '<p class="empty-state">暫時未收藏題目。可在任何練習題右上角按 ☆。</p>'}</div>
+    </section>
+  </div>`;
 }
 
 function resumeAttempt(attemptId) {
@@ -1787,6 +1936,11 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  if (event.target.closest("[data-sentence-progress-toggle]")) return toggleProgressPanel();
+
+  const sectionBookmarkButton = event.target.closest("[data-toggle-section-bookmark]");
+  if (sectionBookmarkButton) return toggleSectionBookmark(sectionBookmarkButton.dataset.toggleSectionBookmark);
+
   const openLessonButton = event.target.closest("[data-open-lesson]");
   if (openLessonButton) return openLesson(openLessonButton.dataset.openLesson);
   if (event.target.closest("[data-open-bookmarks-card], [data-open-bookmarks]")) return openBookmarks();
@@ -1846,6 +2000,10 @@ function handleClick(event) {
     const [lessonId, questionId] = String(removeBookmark.dataset.removeBookmark || "").split("|");
     return toggleBookmark(lessonId, questionId);
   }
+  const openSectionBookmark = event.target.closest("[data-open-section-bookmark]");
+  if (openSectionBookmark) return openLesson(openSectionBookmark.dataset.openSectionBookmark, { page: 1 });
+  const removeSectionBookmark = event.target.closest("[data-remove-section-bookmark]");
+  if (removeSectionBookmark) return toggleSectionBookmark(removeSectionBookmark.dataset.removeSectionBookmark);
 
   const adminStudent = event.target.closest("[data-admin-student]");
   if (adminStudent) return openAdminStudent(adminStudent.dataset.adminStudent);

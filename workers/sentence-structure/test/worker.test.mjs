@@ -310,6 +310,59 @@ test("bookmark replacement reloads every page instead of truncating at PostgREST
   assert.equal(body.bookmarks.at(-1).questionId, "ss114-q50");
 });
 
+test("lesson-level bookmarks are accepted without exposing a synthetic answer", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+
+  let replaceCalls = 0;
+  const sectionRow = {
+    lesson_id: "ss7",
+    question_id: "__section__",
+    include_answer: false,
+    created_at: "2026-07-26T00:00:00.000Z"
+  };
+  globalThis.fetch = async (input, init = {}) => {
+    const url = new URL(String(input));
+    const functionName = decodeURIComponent(url.pathname.split("/").at(-1));
+    const body = JSON.parse(String(init.body || "{}"));
+    if (functionName === "sentence_structure_student_profile") {
+      return jsonResponse([{ id: STUDENT_ID, name: "Test Student", session_expires_at: "2026-07-27T00:00:00.000Z" }]);
+    }
+    if (functionName === "sentence_structure_replace_bookmarks") {
+      replaceCalls += 1;
+      assert.deepEqual(body.p_bookmarks, [{ lessonId: "ss7", questionId: "__section__", includeAnswer: false }]);
+      return jsonResponse([sectionRow]);
+    }
+    if (functionName === "sentence_structure_list_bookmarks_page") return jsonResponse([sectionRow]);
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  };
+
+  const valid = new Request("https://worker.example/v1/bookmarks", {
+    method: "PUT",
+    headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      bookmarks: [{ lessonId: "ss7", questionId: "__section__", includeAnswer: false }]
+    })
+  });
+  const validResponse = await worker.fetch(valid, environment());
+  assert.equal(validResponse.status, 200);
+  assert.deepEqual((await validResponse.json()).bookmarks, [{
+    lessonId: "ss7", questionId: "__section__", includeAnswer: false, createdAt: sectionRow.created_at
+  }]);
+
+  const invalid = new Request("https://worker.example/v1/bookmarks", {
+    method: "PUT",
+    headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      bookmarks: [{ lessonId: "ss7", questionId: "__section__", includeAnswer: true }]
+    })
+  });
+  const invalidResponse = await worker.fetch(invalid, environment());
+  assert.equal(invalidResponse.status, 400);
+  assert.equal((await invalidResponse.json()).code, "INVALID_BOOKMARKS");
+  assert.equal(replaceCalls, 1, "invalid lesson bookmarks must be rejected before the replacement RPC");
+});
+
 test("attempt byte validation matches PostgreSQL jsonb text spacing", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });

@@ -5,6 +5,7 @@ const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-
 const LESSON_IDS = new Set(Array.from({ length: 114 }, (_, index) => `ss${index + 1}`));
 const CONTENT_VERSION = "1";
 const QUESTIONS_PER_LESSON = 50;
+const SECTION_BOOKMARK_ID = "__section__";
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
@@ -995,11 +996,13 @@ function normalizeBookmarks(value) {
   }
   const seen = new Set();
   return value.map(bookmark => {
+    const sectionBookmark = bookmark?.questionId === SECTION_BOOKMARK_ID;
     if (
       !hasExactKeys(bookmark, ["lessonId", "questionId", "includeAnswer"])
       || !LESSON_IDS.has(bookmark.lessonId)
-      || !validQuestionId(bookmark.lessonId, bookmark.questionId)
+      || (!sectionBookmark && !validQuestionId(bookmark.lessonId, bookmark.questionId))
       || typeof bookmark.includeAnswer !== "boolean"
+      || (sectionBookmark && bookmark.includeAnswer !== false)
     ) {
       throw new HttpError(400, "INVALID_BOOKMARKS", "bookmarks contains an invalid item");
     }

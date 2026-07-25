@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#233a78">
   <title>句子結構學習系統｜EdmundEducation</title>
   <link rel="icon" href="Company Logo for Cover Page.png">
-  <link rel="stylesheet" href="sentence-structure.css?v=20260726-1">
+  <link rel="stylesheet" href="sentence-structure.css?v=20260726-2">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -93,9 +93,15 @@
         </div>
       </section>
 
-      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="句型選擇"></section>
+      <button class="sentence-progress-disclosure glass-panel" type="button" data-sentence-progress-toggle aria-expanded="false" aria-controls="sentence-progress-panel">
+        <span>
+          <strong>查看練習進展</strong>
+          <small>完成題目走勢、每日詳情及累計紀錄</small>
+        </span>
+        <span class="sentence-progress-disclosure-state" data-sentence-progress-toggle-label>展開 ＋</span>
+      </button>
 
-      <section class="sentence-progress-panel glass-panel" aria-labelledby="sentence-progress-heading">
+      <section class="sentence-progress-panel glass-panel" id="sentence-progress-panel" data-sentence-progress-panel aria-labelledby="sentence-progress-heading" hidden>
         <div class="sentence-progress-toolbar">
           <div>
             <p class="eyebrow">QUESTION ACTIVITY</p>
@@ -130,6 +136,8 @@
           <div class="sentence-progress-day-list" data-sentence-progress-day-list></div>
         </section>
       </section>
+
+      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="句型選擇"></section>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
         <div class="section-heading">
@@ -174,7 +182,7 @@
           <div>
             <p class="eyebrow">SAVED QUESTIONS</p>
             <h1>書簽</h1>
-            <p>你收藏的題目會跟隨學生帳戶同步。</p>
+            <p>收藏整個句型作溫習，或保留個別題目稍後再做；兩類書簽都會跟隨學生帳戶同步。</p>
           </div>
           <button class="secondary-button compact-button" type="button" data-bookmarks-back>返回學習首頁</button>
         </div>
@@ -231,6 +239,6 @@
   <script src="sentence-structure-lessons-5-114.js?v=20260724-1"></script>
   <script src="sentence-structure-data.js?v=20260723-4"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script type="module" src="sentence-structure.js?v=20260726-1"></script>
+  <script type="module" src="sentence-structure.js?v=20260726-2"></script>
 </body>
 </html>

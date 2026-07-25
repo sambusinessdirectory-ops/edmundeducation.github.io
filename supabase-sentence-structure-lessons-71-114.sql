@@ -231,10 +231,17 @@ begin
       or jsonb_typeof(v_item -> 'lessonId') <> 'string'
       or coalesce(v_item ->> 'lessonId', '') !~ '^ss([1-9]|[1-9][0-9]|10[0-9]|11[0-4])$'
       or jsonb_typeof(v_item -> 'questionId') <> 'string'
-      or coalesce(v_item ->> 'questionId', '') !~ (
-        '^' || (v_item ->> 'lessonId') || '-q(0[1-9]|[1-4][0-9]|50)$'
+      or (
+        coalesce(v_item ->> 'questionId', '') <> '__section__'
+        and coalesce(v_item ->> 'questionId', '') !~ (
+          '^' || (v_item ->> 'lessonId') || '-q(0[1-9]|[1-4][0-9]|50)$'
+        )
       )
       or jsonb_typeof(v_item -> 'includeAnswer') <> 'boolean'
+      or (
+        coalesce(v_item ->> 'questionId', '') = '__section__'
+        and v_item -> 'includeAnswer' <> 'false'::jsonb
+      )
     then
       return false;
     end if;

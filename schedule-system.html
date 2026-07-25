@@ -541,6 +541,8 @@
 
     .week-grid {
       min-width: 1295px;
+      position: relative;
+      isolation: isolate;
       display: grid;
       grid-template-columns: repeat(7, minmax(175px, 1fr));
       gap: 10px;
@@ -704,19 +706,20 @@
       z-index: 4;
       height: 142px;
       min-height: 142px;
-      overflow: visible;
-      border-radius: 10px;
+      overflow: hidden;
+      border-radius: 14px;
+      box-shadow: 0 10px 24px rgba(45, 72, 128, .16);
     }
 
     .schedule-slot.is-span-project .entry-message { -webkit-line-clamp: 2; }
-    .schedule-slot.is-span-project.span-start { border-radius: 14px 0 0 14px; }
-    .schedule-slot.is-span-project.span-middle { border-radius: 0; }
-    .schedule-slot.is-span-project.span-end { border-radius: 0 14px 14px 0; }
-    .schedule-slot.is-span-project.span-continues-right { width: calc(100% + 39px); padding-right: 50px; }
-    .schedule-slot.is-span-project:not(.span-start) .entry-source,
-    .schedule-slot.is-span-project:not(.span-start) .entry-message,
-    .schedule-slot.is-span-project:not(.span-start) .estimated-time,
-    .schedule-slot.is-span-project:not(.span-start) .slot-topline { visibility: hidden; }
+    .schedule-slot.is-span-project.span-start {
+      width: var(--span-project-width, 100%);
+      border-radius: 14px;
+    }
+    .schedule-slot.is-span-project.span-continuation {
+      visibility: hidden;
+      pointer-events: none;
+    }
 
     .schedule-slot.is-selected,
     .schedule-slot[aria-pressed="true"] {
@@ -818,7 +821,26 @@
     .countdown-card { border: 1px solid rgba(82, 55, 40, .16); border-radius: 20px; padding: 18px; background: rgba(255, 253, 248, .88); box-shadow: 0 10px 26px rgba(54, 31, 18, .08); }
     .countdown-card[data-countdown-dirty="true"] { border-color: rgba(180, 123, 22, .5); }
     .countdown-card.is-draft-beyond-capacity { box-shadow: inset 0 0 0 2px rgba(180, 123, 22, .18), 0 10px 26px rgba(54, 31, 18, .08); }
-    .countdown-card h3 { margin: 0 0 14px; color: var(--amber-dark); font-size: 20px; }
+    .countdown-card-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .countdown-card h3 { margin: 0; color: var(--amber-dark); font-size: 20px; }
+    .countdown-collapse-toggle {
+      width: 34px;
+      height: 34px;
+      flex: 0 0 34px;
+      border: 1px solid rgba(109, 60, 34, .22);
+      border-radius: 50%;
+      padding: 0;
+      color: var(--amber-dark);
+      background: rgba(248, 235, 218, .82);
+      cursor: pointer;
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 1;
+    }
+    .countdown-collapse-toggle:hover,
+    .countdown-collapse-toggle:focus-visible { background: #f2d5b4; outline: 3px solid rgba(64, 92, 151, .22); }
+    .countdown-card-body { margin-top: 14px; }
+    .countdown-card.is-collapsed { padding-block: 14px; }
     .countdown-form-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(145px, .55fr); gap: 10px; }
     .countdown-card label { display: grid; gap: 5px; color: #5f4b41; font-size: 12px; font-weight: 850; }
     .countdown-card input { width: 100%; min-height: 42px; border: 1px solid rgba(82, 55, 40, .2); border-radius: 11px; padding: 9px 10px; color: var(--ink); background: #fff; font: inherit; }
@@ -1045,7 +1067,7 @@
             </div>
             <button class="subtle-toggle selection-toggle" type="button" data-toggle-selection aria-pressed="false">select multiple</button>
           </div>
-          <span id="schedule-export-help">每一天預設 10 格；按「＋5 格／－5 格」調整。電腦可拖曳安排；手機或平板長按 2 秒，藍色外框出現後即可移動、交換，或放到該日的「延伸多日項目」區逐日延伸。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
+          <span id="schedule-export-help">每一天預設 10 格；按「＋5 格／－5 格」調整。電腦可拖曳安排；按住 Shift 再拖到相鄰日期即可延伸。手機或平板長按 2 秒，藍色外框出現後即可移動、交換，或放到該日的「延伸多日項目」區逐日延伸。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
         </div>
 
         <div class="selection-actions" data-selection-actions role="region" aria-label="多項選擇操作" hidden>
@@ -1164,6 +1186,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script type="module" src="schedule-system.js?v=20260726-1"></script>
+  <script type="module" src="schedule-system.js?v=20260726-2"></script>
 </body>
 </html>

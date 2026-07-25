@@ -14,6 +14,9 @@ import {
   weekDates
 } from "./schedule-calendar.mjs";
 import {
+  COUNTDOWN_BATCH_SIZE,
+  COUNTDOWN_INITIAL_CAPACITY,
+  COUNTDOWN_MAX_CAPACITY,
   countdownBreakdown,
   formatEstimatedMinutes,
   isAdjacentSpanTarget,
@@ -21,13 +24,18 @@ import {
   spanBounds,
   spanLaneLayout,
   studyHoursBefore
-} from "./schedule-enhancements.mjs";
+} from "./schedule-enhancements.mjs?v=20260726-2";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
 const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
+const COUNTDOWN_COLLAPSED_KEY = "edmund-schedule-countdown-collapsed-v1";
 const MAX_SLOTS_PER_DAY = 100;
-const MAX_COUNTDOWNS = 100;
+const MIN_COUNTDOWNS = COUNTDOWN_INITIAL_CAPACITY;
+const MAX_COUNTDOWNS = COUNTDOWN_MAX_CAPACITY;
+const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
+// 10px grid gap + 10px inner padding on both columns + two 1px column borders.
+const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const WEEKDAY_MASCOTS = [
   "assets/schedule/weekdays/monday-walking-to-school.webp",
@@ -136,7 +144,9 @@ const state = {
   displayPreferenceRequestId: 0,
   suppressClickUntil: 0,
   countdownDraftOwner: "",
-  countdownDrafts: new Map()
+  countdownDrafts: new Map(),
+  countdownCollapsedOwner: "",
+  countdownCollapsedPositions: new Set()
 };
 
 function emptyWeekPayload() {
@@ -150,7 +160,7 @@ function emptyWeekPayload() {
       weekCompleted: 0,
       totalCompleted: 0
     },
-    countdownCapacity: 5,
+    countdownCapacity: MIN_COUNTDOWNS,
     countdowns: []
   };
 }
@@ -222,6 +232,8 @@ function clearRenderedSchedule() {
   state.touchActionEntryId = null;
   state.countdownDraftOwner = "";
   state.countdownDrafts.clear();
+  state.countdownCollapsedOwner = "";
+  state.countdownCollapsedPositions.clear();
   resetSelectionMode();
   elements.weekGrid.replaceChildren();
   elements.exportPdf.disabled = true;
@@ -486,6 +498,62 @@ function countdownOwnerKey() {
   return student?.id ? String(student.id) : "";
 }
 
+function countdownCollapseStorageKey(owner) {
+  return `${COUNTDOWN_COLLAPSED_KEY}:${owner}`;
+}
+
+function ensureCountdownCollapseOwner() {
+  const owner = countdownOwnerKey();
+  if (owner === state.countdownCollapsedOwner) return owner;
+  state.countdownCollapsedOwner = owner;
+  state.countdownCollapsedPositions.clear();
+  if (!owner) return "";
+  try {
+    const saved = JSON.parse(localStorage.getItem(countdownCollapseStorageKey(owner)) || "[]");
+    if (Array.isArray(saved)) {
+      saved.forEach((position) => {
+        const normalized = Number(position);
+        if (Number.isInteger(normalized) && normalized >= 1 && normalized <= MAX_COUNTDOWNS) {
+          state.countdownCollapsedPositions.add(normalized);
+        }
+      });
+    }
+  } catch {
+    // A malformed or unavailable local preference should never block the clocks.
+  }
+  return owner;
+}
+
+function saveCountdownCollapsePreferences() {
+  const owner = ensureCountdownCollapseOwner();
+  if (!owner) return;
+  try {
+    localStorage.setItem(
+      countdownCollapseStorageKey(owner),
+      JSON.stringify([...state.countdownCollapsedPositions].sort((left, right) => left - right))
+    );
+  } catch {
+    // Collapse controls still work for the current page when storage is unavailable.
+  }
+}
+
+function setCountdownCardCollapsed(card, collapsed, { persist = true } = {}) {
+  if (!card) return;
+  const position = Number(card.dataset.countdownPosition);
+  const body = card.querySelector("[data-countdown-card-body]");
+  const toggle = card.querySelector("[data-toggle-countdown-collapse]");
+  if (!body || !toggle || !Number.isInteger(position)) return;
+  body.hidden = Boolean(collapsed);
+  card.classList.toggle("is-collapsed", Boolean(collapsed));
+  toggle.textContent = collapsed ? "+" : "−";
+  toggle.setAttribute("aria-expanded", String(!collapsed));
+  toggle.setAttribute("aria-label", `${collapsed ? "展開" : "收起"} Clock ${position}`);
+  toggle.title = `${collapsed ? "展開" : "收起"} Clock ${position}`;
+  if (collapsed) state.countdownCollapsedPositions.add(position);
+  else state.countdownCollapsedPositions.delete(position);
+  if (persist) saveCountdownCollapsePreferences();
+}
+
 function ensureCountdownDraftOwner() {
   const owner = countdownOwnerKey();
   if (owner !== state.countdownDraftOwner) {
@@ -537,12 +605,16 @@ function discardCountdownDraft(position) {
 function renderCountdowns() {
   if (!elements.countdownGrid) return;
   ensureCountdownDraftOwner();
+  ensureCountdownCollapseOwner();
   elements.countdownGrid.replaceChildren();
-  const persistedCapacity = Math.max(5, Math.min(MAX_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || 5));
+  const persistedCapacity = Math.max(MIN_COUNTDOWNS, Math.min(MAX_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || MIN_COUNTDOWNS));
   const furthestDraft = Math.max(0, ...state.countdownDrafts.keys());
-  const capacity = Math.min(MAX_COUNTDOWNS, Math.max(persistedCapacity, Math.ceil(furthestDraft / 5) * 5));
+  const draftCapacity = furthestDraft <= MIN_COUNTDOWNS
+    ? MIN_COUNTDOWNS
+    : MIN_COUNTDOWNS + Math.ceil((furthestDraft - MIN_COUNTDOWNS) / COUNTDOWN_STEP) * COUNTDOWN_STEP;
+  const capacity = Math.min(MAX_COUNTDOWNS, Math.max(persistedCapacity, draftCapacity));
   elements.addCountdowns.disabled = state.mutationInFlight || persistedCapacity >= MAX_COUNTDOWNS;
-  elements.removeCountdowns.disabled = state.mutationInFlight || persistedCapacity <= 5;
+  elements.removeCountdowns.disabled = state.mutationInFlight || persistedCapacity <= MIN_COUNTDOWNS;
 
   for (let position = 1; position <= capacity; position += 1) {
     const card = createCountdownCard(position, countdownByPosition(position), state.countdownDrafts.get(position));
@@ -559,8 +631,20 @@ function createCountdownCard(position, countdown, draft = null) {
   card.dataset.countdownDirty = String(draft?.dirty === true);
   if (countdown?.id) card.dataset.countdownId = countdown.id;
 
+  const cardHeader = document.createElement("header");
+  cardHeader.className = "countdown-card-header";
   const heading = document.createElement("h3");
   heading.textContent = `Clock ${position}`;
+  const collapse = document.createElement("button");
+  collapse.type = "button";
+  collapse.className = "countdown-collapse-toggle";
+  collapse.dataset.toggleCountdownCollapse = "";
+  const body = document.createElement("div");
+  body.className = "countdown-card-body";
+  body.dataset.countdownCardBody = "";
+  body.id = `schedule-countdown-body-${position}`;
+  collapse.setAttribute("aria-controls", body.id);
+  cardHeader.append(heading, collapse);
   const fields = document.createElement("div");
   fields.className = "countdown-form-grid";
 
@@ -675,7 +759,8 @@ function createCountdownCard(position, countdown, draft = null) {
     : countdown
       ? "已儲存於雲端"
       : "尚未設定；填寫後按儲存。";
-  card.append(heading, fields, days, detailGrid, calculator, actions, note);
+  body.append(fields, days, detailGrid, calculator, actions, note);
+  card.append(cardHeader, body);
 
   const update = () => updateCountdownCard(card);
   card.addEventListener("input", (event) => {
@@ -700,8 +785,12 @@ function createCountdownCard(position, countdown, draft = null) {
     update();
     rememberCountdownDraft(card, { dirty: card.dataset.countdownDirty === "true" });
   });
+  collapse.addEventListener("click", () => {
+    setCountdownCardCollapsed(card, !body.hidden);
+  });
   toggle.setAttribute("aria-expanded", String(!breakdown.hidden));
   update();
+  setCountdownCardCollapsed(card, state.countdownCollapsedPositions.has(position), { persist: false });
   return card;
 }
 
@@ -757,7 +846,7 @@ function setCountdownCardBusy(card, busy) {
 async function saveCountdown(card) {
   if (state.mutationInFlight) return;
   const values = countdownCardValues(card);
-  const persistedCapacity = Math.max(5, Number(state.weekPayload.countdownCapacity) || 5);
+  const persistedCapacity = Math.max(MIN_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || MIN_COUNTDOWNS);
   if (values.position > persistedCapacity) {
     setStatus(elements.countdownStatus, `Clock ${values.position} 的草稿仍在；請先按「增加 5 個倒數鐘」再儲存。`, "error");
     return;
@@ -851,9 +940,9 @@ async function deleteCountdown(card) {
 }
 
 async function changeCountdownCapacity(delta) {
-  if (state.mutationInFlight || ![-5, 5].includes(delta)) return;
+  if (state.mutationInFlight || ![-COUNTDOWN_STEP, COUNTDOWN_STEP].includes(delta)) return;
   captureCountdownDrafts();
-  const current = Math.max(5, Number(state.weekPayload.countdownCapacity) || 5);
+  const current = Math.max(MIN_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || MIN_COUNTDOWNS);
   const plan = planCountdownCapacityChange(current, delta, {
     savedPositions: state.weekPayload.countdowns.map((countdown) => countdown.position),
     dirtyPositions: [...state.countdownDrafts.entries()]
@@ -1224,7 +1313,7 @@ async function loadWeek(focusTarget = null) {
             totalCompleted: Number(payload.metrics.totalCompleted) || 0
           }
         : emptyWeekPayload().metrics,
-      countdownCapacity: Math.max(5, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || 5)),
+      countdownCapacity: Math.max(MIN_COUNTDOWNS, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || MIN_COUNTDOWNS)),
       countdowns: Array.isArray(payload.countdowns) ? payload.countdowns : []
     };
     renderWeek();
@@ -1455,10 +1544,19 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
       const bounds = spanBounds(state.weekPayload.entries, entry);
       button.classList.add("is-span-project");
       if (spanBottomStart) button.classList.add("span-bottom-start");
-      if (entry.scheduleDate === bounds.start) button.classList.add("span-start");
-      else if (entry.scheduleDate === bounds.end) button.classList.add("span-end");
-      else button.classList.add("span-middle");
-      if (entry.scheduleDate !== bounds.end) button.classList.add("span-continues-right");
+      if (entry.scheduleDate === bounds.start) {
+        button.classList.add("span-start");
+        button.style.setProperty(
+          "--span-project-width",
+          `calc(${bounds.length * 100}% + ${(bounds.length - 1) * SPAN_COLUMN_BRIDGE_PX}px)`
+        );
+      } else {
+        button.classList.add("span-continuation");
+        button.classList.add(entry.scheduleDate === bounds.end ? "span-end" : "span-middle");
+        button.draggable = false;
+        button.tabIndex = -1;
+        button.setAttribute("aria-hidden", "true");
+      }
       button.dataset.spanGroupId = entry.spanGroupId;
       const spanBadge = document.createElement("span");
       spanBadge.className = "span-badge";
@@ -2221,17 +2319,29 @@ elements.weekGrid.addEventListener("dragstart", (event) => {
   leaveTouchActionMode();
   state.draggingEntryId = entry.id;
   slot.classList.add("is-dragging");
-  event.dataTransfer.effectAllowed = "move";
+  event.dataTransfer.effectAllowed = "copyMove";
   event.dataTransfer.setData("text/plain", entry.id);
 });
 
 elements.weekGrid.addEventListener("dragover", (event) => {
   if (!state.draggingEntryId || state.mutationInFlight) return;
+  const column = event.target.closest("[data-column-date]");
   const spanDropZone = event.target.closest("[data-span-drop-date]");
   const slot = event.target.closest("[data-slot-date]");
-  if (!slot && !spanDropZone) return;
+  if (!slot && !spanDropZone && !column) return;
   const entry = findEntryById(state.draggingEntryId);
-  if (spanDropZone) {
+  const shiftExtension = event.shiftKey;
+  elements.weekGrid.querySelectorAll(".day-column.is-span-target").forEach((candidate) => {
+    if (!shiftExtension || candidate !== column) candidate.classList.remove("is-span-target");
+  });
+  if (shiftExtension && column) {
+    const targetDate = column.dataset.columnDate;
+    if (isAdjacentSpanTarget(state.weekPayload.entries, entry, targetDate)) {
+      event.preventDefault();
+      event.dataTransfer.dropEffect = "copy";
+      column.classList.add("is-span-target");
+    }
+  } else if (spanDropZone) {
     const bounds = spanBounds(state.weekPayload.entries, entry);
     const targetDate = spanDropZone.dataset.spanDropDate;
     if (targetDate < bounds.start || targetDate > bounds.end) {
@@ -2254,16 +2364,22 @@ elements.weekGrid.addEventListener("dragleave", (event) => {
   if (slot && !slot.contains(event.relatedTarget)) slot.classList.remove("is-drop-target", "is-swap-target");
   const spanDropZone = event.target.closest("[data-span-drop-date]");
   if (spanDropZone && !spanDropZone.contains(event.relatedTarget)) spanDropZone.classList.remove("is-span-target");
+  const column = event.target.closest("[data-column-date]");
+  if (column && !column.contains(event.relatedTarget)) column.classList.remove("is-span-target");
 });
 
 elements.weekGrid.addEventListener("drop", (event) => {
+  const column = event.target.closest("[data-column-date]");
   const spanDropZone = event.target.closest("[data-span-drop-date]");
   const slot = event.target.closest("[data-slot-date]");
-  if ((!slot && !spanDropZone) || !state.draggingEntryId) return;
+  if ((!slot && !spanDropZone && !column) || !state.draggingEntryId) return;
   event.preventDefault();
   elements.weekGrid.querySelectorAll(".is-drop-target, .is-swap-target, .is-span-target").forEach((item) => item.classList.remove("is-drop-target", "is-swap-target", "is-span-target"));
   const entry = findEntryById(state.draggingEntryId);
-  if (spanDropZone) extendEntryToDay(entry, spanDropZone.dataset.spanDropDate);
+  const shiftExtension = event.shiftKey;
+  if (shiftExtension && column) {
+    extendEntryToDay(entry, column.dataset.columnDate, { adjacentOnly: true });
+  } else if (spanDropZone) extendEntryToDay(entry, spanDropZone.dataset.spanDropDate);
   else moveEntryTo(entry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
 });
 
@@ -2385,8 +2501,8 @@ elements.batchComplete?.addEventListener("click", batchSetCompletion);
 elements.moveSelected?.addEventListener("click", beginMoveSelected);
 elements.batchDelete?.addEventListener("click", batchDeleteEntries);
 elements.cancelSelection?.addEventListener("click", cancelSelectionMode);
-elements.addCountdowns?.addEventListener("click", () => changeCountdownCapacity(5));
-elements.removeCountdowns?.addEventListener("click", () => changeCountdownCapacity(-5));
+elements.addCountdowns?.addEventListener("click", () => changeCountdownCapacity(COUNTDOWN_STEP));
+elements.removeCountdowns?.addEventListener("click", () => changeCountdownCapacity(-COUNTDOWN_STEP));
 elements.countdownGrid?.addEventListener("click", (event) => {
   const card = event.target.closest("[data-countdown-position]");
   if (!card) return;

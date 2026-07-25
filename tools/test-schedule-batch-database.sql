@@ -487,16 +487,16 @@ begin
     or (select entry.slot_index from public.schedule_entries entry where entry.id = v_swap_b) <> 1
   then raise exception 'Exact-slot swap returned an unexpected result: %', v_result; end if;
 
-  if public._schedule_change_countdown_capacity_checked(v_student_id, 5, 5) <> 10 then
+  if public._schedule_change_countdown_capacity_checked(v_student_id, 6, 5) <> 11 then
     raise exception 'Countdown capacity did not increase by five';
   end if;
   begin
-    perform public._schedule_change_countdown_capacity_checked(v_student_id, 5, 5);
+    perform public._schedule_change_countdown_capacity_checked(v_student_id, 6, 5);
     raise exception 'Expected stale countdown-capacity rejection';
   exception when sqlstate '40001' then null;
   end;
   v_result := public._schedule_upsert_countdown(
-    v_student_id, 10, 'Public examination', date '2049-01-04', date '2049-12-31',
+    v_student_id, 11, 'Public examination', date '2049-01-04', date '2049-12-31',
     1.5, 0.5, 0.5, 0.5, null
   );
   v_countdown_id := (v_result ->> 'id')::uuid;
@@ -504,9 +504,9 @@ begin
 
   begin
     perform public._schedule_change_countdown_capacity(v_student_id, -5);
-    raise exception 'Expected a countdown shrink failure while Clock 10 contains data';
+    raise exception 'Expected a countdown shrink failure while Clock 11 contains data';
   exception when others then
-    if sqlerrm = 'Expected a countdown shrink failure while Clock 10 contains data' then raise; end if;
+    if sqlerrm = 'Expected a countdown shrink failure while Clock 11 contains data' then raise; end if;
   end;
 
   begin
@@ -519,7 +519,7 @@ begin
   end;
 
   v_payload := public._schedule_week_payload(v_student_id, date '2049-01-04');
-  if (v_payload ->> 'countdownCapacity')::integer <> 10
+  if (v_payload ->> 'countdownCapacity')::integer <> 11
     or pg_catalog.jsonb_array_length(v_payload -> 'countdowns') <> 1
     or not exists (
       select 1 from pg_catalog.jsonb_array_elements(v_payload -> 'entries') item
@@ -532,8 +532,8 @@ begin
   if not public._schedule_delete_countdown(v_student_id, v_countdown_id, v_countdown_updated) then
     raise exception 'Countdown delete helper returned false';
   end if;
-  if public._schedule_change_countdown_capacity_checked(v_student_id, 10, -5) <> 5 then
-    raise exception 'Countdown capacity did not shrink after Clock 10 was cleared';
+  if public._schedule_change_countdown_capacity_checked(v_student_id, 11, -5) <> 6 then
+    raise exception 'Countdown capacity did not shrink after Clock 11 was cleared';
   end if;
 
   raise notice 'Schedule enhancement database smoke test passed';

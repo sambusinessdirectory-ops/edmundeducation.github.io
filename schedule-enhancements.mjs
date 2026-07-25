@@ -1,5 +1,9 @@
 const DAY_MS = 86_400_000;
 
+export const COUNTDOWN_INITIAL_CAPACITY = 6;
+export const COUNTDOWN_BATCH_SIZE = 5;
+export const COUNTDOWN_MAX_CAPACITY = 101;
+
 function parseDateOnly(value) {
   const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value || ""));
   if (!match) return null;
@@ -124,15 +128,31 @@ export function studyHoursBefore(startValue, endValue, dailyHours) {
 export function planCountdownCapacityChange(
   currentValue,
   deltaValue,
-  { savedPositions = [], dirtyPositions = [], maximum = 100 } = {}
+  {
+    savedPositions = [],
+    dirtyPositions = [],
+    maximum = COUNTDOWN_MAX_CAPACITY,
+    batchSize = COUNTDOWN_BATCH_SIZE,
+    initialCapacity = COUNTDOWN_INITIAL_CAPACITY
+  } = {}
 ) {
   const current = Number(currentValue);
   const delta = Number(deltaValue);
-  if (!Number.isInteger(current) || current < 5 || current > maximum || current % 5 !== 0 || ![-5, 5].includes(delta)) {
+  if (
+    !Number.isInteger(batchSize)
+    || batchSize < 1
+    || !Number.isInteger(current)
+    || !Number.isInteger(initialCapacity)
+    || initialCapacity < 1
+    || current < initialCapacity
+    || current > maximum
+    || (current - initialCapacity) % batchSize !== 0
+    || ![-batchSize, batchSize].includes(delta)
+  ) {
     return { allowed: false, reason: "invalid", current, target: current };
   }
   const target = current + delta;
-  if (target < 5 || target > maximum) return { allowed: false, reason: "bounds", current, target };
+  if (target < initialCapacity || target > maximum) return { allowed: false, reason: "bounds", current, target };
 
   const dirtyAbove = dirtyPositions.map(Number).filter((position) => position > target).sort((a, b) => a - b);
   if (delta < 0 && dirtyAbove.length) {
@@ -148,10 +168,10 @@ export function planCountdownCapacityChange(
     current,
     target,
     createdPositions: delta > 0
-      ? Array.from({ length: 5 }, (_, index) => current + index + 1)
+      ? Array.from({ length: batchSize }, (_, index) => current + index + 1)
       : [],
     removedPositions: delta < 0
-      ? Array.from({ length: 5 }, (_, index) => target + index + 1)
+      ? Array.from({ length: batchSize }, (_, index) => target + index + 1)
       : []
   };
 }

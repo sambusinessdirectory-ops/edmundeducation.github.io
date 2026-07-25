@@ -95,10 +95,10 @@ create table if not exists public.schedule_entries (
 
 create table if not exists public.schedule_countdown_capacity (
   student_id uuid primary key references public.flashcard_students(id) on delete cascade,
-  clock_count smallint not null default 5,
+  clock_count smallint not null default 6,
   updated_at timestamptz not null default now(),
-  check (clock_count between 5 and 100),
-  check (mod(clock_count, 5) = 0)
+  check (clock_count between 6 and 101),
+  check (mod(clock_count - 6, 5) = 0)
 );
 
 create table if not exists public.schedule_countdowns (
@@ -115,7 +115,7 @@ create table if not exists public.schedule_countdowns (
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
   unique (student_id, position),
-  check (position between 1 and 100),
+  check (position between 1 and 101),
   check (char_length(btrim(title)) between 1 and 160),
   check (start_date between date '2026-01-01' and date '2050-12-31'),
   check (end_date between start_date and date '2050-12-31'),
@@ -124,6 +124,34 @@ create table if not exists public.schedule_countdowns (
   check (afternoon_hours between 0 and 24),
   check (evening_hours between 0 and 24)
 );
+
+-- The first countdown row now contains six cards, while subsequent controls
+-- continue to add or remove five. Existing 5/10/15… capacities move to
+-- 6/11/16… without deleting or renumbering any saved countdown.
+alter table public.schedule_countdown_capacity
+  drop constraint if exists schedule_countdown_capacity_clock_count_check;
+alter table public.schedule_countdown_capacity
+  drop constraint if exists schedule_countdown_capacity_clock_count_check1;
+alter table public.schedule_countdown_capacity
+  alter column clock_count set default 6;
+
+update public.schedule_countdown_capacity capacity
+set clock_count = least(101, capacity.clock_count + 1),
+    updated_at = now()
+where mod(capacity.clock_count, 5) = 0;
+
+alter table public.schedule_countdown_capacity
+  add constraint schedule_countdown_capacity_clock_count_check
+  check (clock_count between 6 and 101);
+alter table public.schedule_countdown_capacity
+  add constraint schedule_countdown_capacity_clock_count_check1
+  check (mod(clock_count - 6, 5) = 0);
+
+alter table public.schedule_countdowns
+  drop constraint if exists schedule_countdowns_position_check;
+alter table public.schedule_countdowns
+  add constraint schedule_countdowns_position_check
+  check (position between 1 and 101);
 
 alter table public.schedule_day_capacity
   add column if not exists version bigint not null default 0;
@@ -2437,7 +2465,7 @@ as $$
     'countdownCapacity', coalesce((
       select capacity.clock_count from public.schedule_countdown_capacity capacity
       where capacity.student_id = p_student_id
-    ), 5),
+    ), 6),
     'countdowns', coalesce((
       select pg_catalog.jsonb_agg(
         pg_catalog.jsonb_build_object(
@@ -2897,7 +2925,7 @@ begin
   then raise exception 'Study hours must be between 0 and 24' using errcode = '22023'; end if;
 
   insert into public.schedule_countdown_capacity (student_id, clock_count)
-  values (p_student_id, 5) on conflict (student_id) do nothing;
+  values (p_student_id, 6) on conflict (student_id) do nothing;
   select capacity.clock_count into v_capacity
   from public.schedule_countdown_capacity capacity
   where capacity.student_id = p_student_id for update;
@@ -2976,11 +3004,13 @@ begin
   perform public._schedule_lock_student_mutations(p_student_id);
   if p_delta not in (-5, 5) then raise exception 'Countdown capacity changes must use five clocks' using errcode = '22023'; end if;
   insert into public.schedule_countdown_capacity (student_id, clock_count)
-  values (p_student_id, 5) on conflict (student_id) do nothing;
+  values (p_student_id, 6) on conflict (student_id) do nothing;
   select * into v_capacity from public.schedule_countdown_capacity capacity
   where capacity.student_id = p_student_id for update;
   v_target := v_capacity.clock_count + p_delta;
-  if v_target not between 5 and 100 then raise exception 'Countdown capacity is outside the supported range' using errcode = '22023'; end if;
+  if v_target not between 6 and 101 or mod(v_target - 6, 5) <> 0 then
+    raise exception 'Countdown capacity is outside the supported range' using errcode = '22023';
+  end if;
   if p_delta < 0 and exists (
     select 1 from public.schedule_countdowns countdown
     where countdown.student_id = p_student_id and countdown.position > v_target
@@ -3007,14 +3037,14 @@ as $$
 declare v_capacity public.schedule_countdown_capacity%rowtype;
 begin
   perform public._schedule_lock_student_mutations(p_student_id);
-  if p_expected_count is null or p_expected_count not between 5 and 100
-    or mod(p_expected_count, 5) <> 0
+  if p_expected_count is null or p_expected_count not between 6 and 101
+    or mod(p_expected_count - 6, 5) <> 0
   then
     raise exception 'Invalid expected countdown capacity' using errcode = '22023';
   end if;
 
   insert into public.schedule_countdown_capacity (student_id, clock_count)
-  values (p_student_id, 5)
+  values (p_student_id, 6)
   on conflict (student_id) do nothing;
 
   select * into v_capacity
