@@ -64,6 +64,11 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         "dse/paper-3/part-b-data-file-b2/2024",
     ),
     (
+        "flashcards-dse-paper3-b2-2025-data.js",
+        'window.EDMUND_FLASHCARD_SEED["dse/paper-3/part-b-data-file-b2/2025"] = ',
+        "dse/paper-3/part-b-data-file-b2/2025",
+    ),
+    (
         "flashcards-dse-speaking-2012-data.js",
         "window.EDMUND_DSE_SPEAKING_2012_SEED = ",
         None,
