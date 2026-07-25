@@ -54,6 +54,10 @@ def main() -> int:
         "COVID-19 and IELTS": "COVID nineteen and eye elts",
         "after World War II": "after World War Two",
         "cooperate with CARB": "cooperate with CARB",
+        "Jianzi": "jee yen dzuh",
+        "Kabaddi": "kuh buh dee",
+        "Sepak Takraw": "suh pack tack raw",
+        "Wushu": "woo shoo",
     }
     failures = []
     for display_text, expected in cases.items():
