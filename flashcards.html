@@ -3608,6 +3608,10 @@
                 40 卡
                 <span>隨機抽 40 張未綠勾卡，適合長一點的練習。</span>
               </button>
+              <button class="mode-card" type="button" data-start-mode="red-only">
+                只練習紅卡
+                <span>只練習這個卡組內目前標記為紅叉的卡片。</span>
+              </button>
             </div>
           </div>
           <div class="mode-block">
@@ -3616,9 +3620,9 @@
                 1-30 張卡
                 <span>按原定次序練習第 1 至 30 張卡。</span>
               </button>
-              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="21" data-range-end="60" data-range-label="21-60 張卡">
-                21-60 張卡
-                <span>按原定次序練習第 21 至 60 張卡。</span>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="31" data-range-end="60" data-range-label="31-60 張卡">
+                31-60 張卡
+                <span>按原定次序練習第 31 至 60 張卡。</span>
               </button>
               <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="61" data-range-end="90" data-range-label="61-90 張卡">
                 61-90 張卡
@@ -3636,9 +3640,25 @@
                 151-180 張卡
                 <span>按原定次序練習第 151 至 180 張卡。</span>
               </button>
-              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="181" data-range-label="餘下 Flash card">
-                餘下 Flash card
-                <span>練習第 181 張之後的所有卡。</span>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="181" data-range-end="210" data-range-label="181-210 張卡">
+                181-210 張卡
+                <span>按原定次序練習第 181 至 210 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="211" data-range-end="240" data-range-label="211-240 張卡">
+                211-240 張卡
+                <span>按原定次序練習第 211 至 240 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="241" data-range-end="270" data-range-label="241-270 張卡">
+                241-270 張卡
+                <span>按原定次序練習第 241 至 270 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="271" data-range-end="300" data-range-label="271-300 張卡">
+                271-300 張卡
+                <span>按原定次序練習第 271 至 300 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="301" data-range-label="餘下卡片">
+                餘下卡片
+                <span>練習第 301 張之後的所有卡。</span>
               </button>
             </div>
           </div>
@@ -184648,52 +184668,82 @@ window.EDMUND_FLASHCARD_SEED = {
       queueSupabaseStateSave(key, value);
     }
 
+    function captureSupabaseStateSaveContext() {
+      if (currentUser?.impersonatedByAdmin && adminPasswordForSession) {
+        return {
+          type: "admin",
+          owner: `admin:${String(currentUser.id || currentUser.name || "student")}`,
+          adminName: ADMIN_NAME,
+          adminPassword: adminPasswordForSession,
+          studentName: currentUser.name
+        };
+      }
+      if (currentUser?.role === "student" && studentSessionToken) {
+        return {
+          type: "student",
+          owner: `student:${String(currentUser.id || currentUser.name || "student")}:${studentSessionToken}`,
+          token: studentSessionToken
+        };
+      }
+      return null;
+    }
+
+    function supabaseStateSaveTimerKey(key, context) {
+      return `${context?.owner || "no-account"}::${key}`;
+    }
+
     function queueSupabaseStateSave(key, value) {
       if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !supabaseState.loaded) return;
-      window.clearTimeout(supabaseSaveTimers.get(key));
-      supabaseSaveTimers.set(key, window.setTimeout(() => {
-        saveSupabaseState(key, value);
+      const context = captureSupabaseStateSaveContext();
+      if (!context) return;
+      const timerKey = supabaseStateSaveTimerKey(key, context);
+      window.clearTimeout(supabaseSaveTimers.get(timerKey));
+      supabaseSaveTimers.set(timerKey, window.setTimeout(() => {
+        supabaseSaveTimers.delete(timerKey);
+        saveSupabaseState(key, value, { context });
       }, 250));
     }
 
     async function saveSupabaseState(key, value, options = {}) {
       if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key)) return false;
-      if (!options.silent) updateSupabaseStatus("Supabase: saving", "warning");
+      const context = options.context || captureSupabaseStateSaveContext();
+      if (!context) return false;
+      const stillActive = () => captureSupabaseStateSaveContext()?.owner === context.owner;
+      if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: saving", "warning");
 
-      if (currentUser?.impersonatedByAdmin && adminPasswordForSession) {
+      if (context.type === "admin") {
         try {
           const saved = await callSupabaseRpc("flashcard_admin_upsert_student_state", {
-            p_admin_name: ADMIN_NAME,
-            p_admin_password: adminPasswordForSession,
-            p_student_name: currentUser.name,
+            p_admin_name: context.adminName,
+            p_admin_password: context.adminPassword,
+            p_student_name: context.studentName,
             p_key: key,
             p_value: value
           });
           if (saved !== true) throw new Error("Admin state save returned false.");
-          if (!options.silent) updateSupabaseStatus("Supabase: live", "live");
+          if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
           return true;
         } catch (error) {
           console.warn("Supabase admin flashcard save failed:", error);
-          updateSupabaseStatus("Supabase: admin state SQL needed", "error");
+          if (stillActive()) updateSupabaseStatus("Supabase: admin state SQL needed", "error");
           return false;
         }
       }
 
-      if (!studentSessionToken) return false;
       try {
         const { data, error } = await supabaseClient.rpc("flashcard_student_upsert_state", {
-          p_token: studentSessionToken,
+          p_token: context.token,
           p_key: key,
           p_value: value
         });
         if (error || data !== true) throw error || new Error("Student state save returned false.");
       } catch (error) {
         console.warn("Supabase flashcard save failed:", error);
-        updateSupabaseStatus("Supabase: save failed", "error");
+        if (stillActive()) updateSupabaseStatus("Supabase: save failed", "error");
         return false;
       }
 
-      if (!options.silent) updateSupabaseStatus("Supabase: live", "live");
+      if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
       return true;
     }
 
@@ -184719,8 +184769,10 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function resetFlashcardDisplayPreferences() {
-      window.clearTimeout(supabaseSaveTimers.get(DISPLAY_PREFERENCES_KEY));
-      supabaseSaveTimers.delete(DISPLAY_PREFERENCES_KEY);
+      const context = captureSupabaseStateSaveContext();
+      const timerKey = supabaseStateSaveTimerKey(DISPLAY_PREFERENCES_KEY, context);
+      window.clearTimeout(supabaseSaveTimers.get(timerKey));
+      supabaseSaveTimers.delete(timerKey);
       delete remoteStore[DISPLAY_PREFERENCES_KEY];
       hideLockedSections = false;
       displayPreferenceSaveInFlight = false;
@@ -188980,8 +189032,14 @@ window.EDMUND_FLASHCARD_SEED = {
       return result;
     }
 
+    function cardIndexesWithStatus(allIndexes, statusIndexes) {
+      const selected = new Set((Array.isArray(statusIndexes) ? statusIndexes : []).map(String));
+      return allIndexes.filter(index => selected.has(String(index)));
+    }
+
     function modeLabel(mode, cardLimit = 0, rangeLabel = "") {
       if (mode === "range") return rangeLabel || "指定範圍";
+      if (mode === "red-only") return "只練習紅卡";
       if (cardLimit) return `隨機 ${cardLimit} 卡`;
       return mode === "random" ? "隨機排序" : "依原定次序";
     }
@@ -189353,6 +189411,13 @@ window.EDMUND_FLASHCARD_SEED = {
         order = allIndexes.filter(index => index >= startIndex && index <= endIndex);
         if (!order.length) {
           if (status) status.textContent = "這個範圍暫時未有卡片。";
+          return;
+        }
+      }
+      if (mode === "red-only") {
+        order = cardIndexesWithStatus(allIndexes, getDeckFamiliarity(currentDeckId).red);
+        if (!order.length) {
+          if (status) status.textContent = "這個卡組目前未有紅叉卡片。";
           return;
         }
       }

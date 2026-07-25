@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#233a78">
   <title>句子結構學習系統｜EdmundEducation</title>
   <link rel="icon" href="Company Logo for Cover Page.png">
-  <link rel="stylesheet" href="sentence-structure.css?v=20260724-1">
+  <link rel="stylesheet" href="sentence-structure.css?v=20260726-1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
@@ -94,6 +94,42 @@
       </section>
 
       <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="句型選擇"></section>
+
+      <section class="sentence-progress-panel glass-panel" aria-labelledby="sentence-progress-heading">
+        <div class="sentence-progress-toolbar">
+          <div>
+            <p class="eyebrow">QUESTION ACTIVITY</p>
+            <h2 id="sentence-progress-heading">完成題目走勢</h2>
+            <p>把滑鼠移到日期上查看數量；按日期可查看當日完成過的題目。</p>
+          </div>
+          <div class="sentence-progress-ranges" data-sentence-progress-ranges aria-label="選擇統計時段">
+            <button type="button" data-sentence-progress-range="week">Week</button>
+            <button type="button" data-sentence-progress-range="month" aria-pressed="true">Month</button>
+            <button type="button" data-sentence-progress-range="half-year">Half a Year</button>
+            <button type="button" data-sentence-progress-range="ytd">Year to Date</button>
+            <button type="button" data-sentence-progress-range="year">1 Year</button>
+            <button type="button" data-sentence-progress-range="all">All Time</button>
+          </div>
+        </div>
+        <div class="sentence-progress-chart-shell">
+          <svg data-sentence-progress-chart viewBox="0 0 900 320" role="group" aria-label="句子結構每日完成題目數量圖表；每個日期均可開啟詳情"></svg>
+        </div>
+        <div class="sentence-progress-stats" aria-label="題目統計">
+          <div><strong data-sentence-progress-period-total>0</strong><span>所選時段完成題數</span></div>
+          <div><strong data-sentence-progress-all-total>0</strong><span>累計完成題數</span></div>
+          <div><strong data-sentence-progress-active-days>0</strong><span>所選時段學習日數</span></div>
+        </div>
+        <section class="sentence-progress-day" data-sentence-progress-day-panel hidden aria-live="polite">
+          <div class="sentence-progress-day-heading">
+            <div>
+              <p class="eyebrow">DAILY DETAILS</p>
+              <h3 data-sentence-progress-day-title>當日完成題目</h3>
+            </div>
+            <button class="small-button" type="button" data-close-sentence-progress-day>關閉</button>
+          </div>
+          <div class="sentence-progress-day-list" data-sentence-progress-day-list></div>
+        </section>
+      </section>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
         <div class="section-heading">
@@ -195,6 +231,6 @@
   <script src="sentence-structure-lessons-5-114.js?v=20260724-1"></script>
   <script src="sentence-structure-data.js?v=20260723-4"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script type="module" src="sentence-structure.js?v=20260724-1"></script>
+  <script type="module" src="sentence-structure.js?v=20260726-1"></script>
 </body>
 </html>

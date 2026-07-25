@@ -12,6 +12,15 @@ import {
   toISODate,
   weekDates
 } from "../schedule-calendar.mjs";
+import {
+  countdownBreakdown,
+  formatEstimatedMinutes,
+  isAdjacentSpanTarget,
+  planCountdownCapacityChange,
+  spanBounds,
+  spanLaneLayout,
+  studyHoursBefore
+} from "../schedule-enhancements.mjs";
 
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
@@ -44,6 +53,68 @@ while (cursor <= finalDate) {
   cursor = addDays(cursor, 1);
 }
 assert.equal(supportedDays, 9131, "2026-01-01 through 2050-12-31 must contain 9,131 days");
+
+assert.equal(formatEstimatedMinutes(45), "45 分鐘");
+assert.equal(formatEstimatedMinutes(60), "1 小時");
+assert.equal(formatEstimatedMinutes(123), "2 小時 3 分鐘");
+const spanEntries = [
+  { id: "a", spanGroupId: "project", scheduleDate: "2026-07-13" },
+  { id: "b", spanGroupId: "project", scheduleDate: "2026-07-14" },
+  { id: "c", spanGroupId: "project", scheduleDate: "2026-07-15" }
+];
+assert.deepEqual(spanBounds(spanEntries, spanEntries[1]), {
+  start: "2026-07-13", end: "2026-07-15", length: 3
+});
+assert.equal(isAdjacentSpanTarget(spanEntries, spanEntries[1], "2026-07-12"), true);
+assert.equal(isAdjacentSpanTarget(spanEntries, spanEntries[1], "2026-07-16"), true);
+assert.equal(isAdjacentSpanTarget(spanEntries, spanEntries[1], "2026-07-17"), false);
+const laneDates = ["2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17"];
+const laneLayout = spanLaneLayout([
+  { id: "a1", spanGroupId: "alpha", scheduleDate: "2026-07-13" },
+  { id: "a2", spanGroupId: "alpha", scheduleDate: "2026-07-14" },
+  { id: "a3", spanGroupId: "alpha", scheduleDate: "2026-07-15" },
+  { id: "b1", spanGroupId: "beta", scheduleDate: "2026-07-14" },
+  { id: "b2", spanGroupId: "beta", scheduleDate: "2026-07-15" },
+  { id: "b3", spanGroupId: "beta", scheduleDate: "2026-07-16" },
+  { id: "c1", spanGroupId: "charlie", scheduleDate: "2026-07-16" },
+  { id: "c2", spanGroupId: "charlie", scheduleDate: "2026-07-17" }
+], laneDates);
+assert.equal(laneLayout.laneCount, 2, "overlapping spans must reserve separate global lanes");
+assert.equal(laneLayout.laneByGroup.alpha, laneLayout.laneByGroup.charlie, "non-overlapping spans may reuse a lane");
+assert.notEqual(laneLayout.laneByGroup.alpha, laneLayout.laneByGroup.beta);
+assert.deepEqual(
+  laneLayout.cells["2026-07-13"],
+  ["alpha", null],
+  "every date must expose placeholder cells for inactive global span lanes"
+);
+assert.deepEqual(laneLayout.cells["2026-07-16"], ["charlie", "beta"]);
+assert.deepEqual(countdownBreakdown("2026-07-26", "2026-08-25"), {
+  days: 30, months: 1, monthWeeks: 0, weeks: 4, weekDays: 2,
+  hours: 720, hourMinutes: 0, minutes: 43200
+});
+assert.equal(studyHoursBefore("2026-07-26", "2026-08-25", 1.5), 45);
+assert.equal(countdownBreakdown("2026-08-25", "2026-07-26").days, 0);
+assert.deepEqual(planCountdownCapacityChange(5, 5), {
+  allowed: true,
+  reason: "ok",
+  current: 5,
+  target: 10,
+  createdPositions: [6, 7, 8, 9, 10],
+  removedPositions: []
+});
+assert.deepEqual(planCountdownCapacityChange(10, -5), {
+  allowed: true,
+  reason: "ok",
+  current: 10,
+  target: 5,
+  createdPositions: [],
+  removedPositions: [6, 7, 8, 9, 10]
+});
+assert.equal(planCountdownCapacityChange(10, -5, { dirtyPositions: [8] }).reason, "dirty");
+assert.deepEqual(
+  planCountdownCapacityChange(10, -5, { savedPositions: [9] }).blockedPositions,
+  [9]
+);
 
 for (let week = firstWeekStart(); week <= lastWeekStart(); week = addDays(week, 7)) {
   const dates = weekDates(toISODate(week));
@@ -124,6 +195,20 @@ assert.match(scheduleHtml, /data-toggle-complete/);
 assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-completed/);
 assert.match(scheduleHtml, /\.completion-badge/);
 assert.match(scheduleHtml, />標記完成</);
+assert.match(scheduleHtml, /data-toggle-progress/);
+assert.match(scheduleHtml, />標記進行中</);
+assert.match(scheduleHtml, /schedule-estimated-minutes/);
+assert.match(scheduleHtml, /預計需時/);
+assert.match(scheduleHtml, /重大事件倒數/);
+assert.match(scheduleHtml, /data-countdown-grid/);
+assert.match(scheduleHtml, /data-add-countdowns/);
+assert.match(scheduleHtml, /data-remove-countdowns/);
+assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-in-progress/);
+assert.match(scheduleHtml, /\.schedule-slot\.is-touch-action/);
+assert.match(scheduleHtml, /\.schedule-slot\.is-span-project/);
+assert.match(scheduleHtml, /\.span-lane-placeholder\s*\{[^}]*height:\s*142px/s);
+assert.match(scheduleHtml, /@media\s*\(pointer:\s*coarse\)[\s\S]*?\.schedule-slot\.has-entry\.can-touch-drag\s*\{[^}]*touch-action:\s*none/s);
+assert.match(scheduleHtml, /\.span-drop-zone\s*\{/);
 assert.match(scheduleHtml, /data-toggle-selection[^>]*aria-pressed="false"/);
 assert.match(scheduleHtml, />select multiple</);
 assert.match(scheduleHtml, /data-selection-actions/);
@@ -212,11 +297,48 @@ assert.match(scheduleJs, /function batchSetCompletion\(/);
 assert.match(scheduleJs, /function batchDeleteEntries\(/);
 assert.match(scheduleJs, /function beginMoveSelected\(/);
 assert.match(scheduleJs, /function moveEntryTo\(/);
+assert.match(scheduleJs, /function extendEntryToDay\(/);
+assert.match(scheduleJs, /spanLaneLayout\(state\.weekPayload\.entries, dates\)/);
+assert.match(scheduleJs, /span-lane-placeholder/);
+assert.match(scheduleJs, /dataSpanDropDate|spanDropDate|data-span-drop-date/);
+assert.match(scheduleJs, /LONG_PRESS_MS\s*=\s*2000/);
+assert.match(scheduleJs, /addEventListener\("pointerdown"/);
+assert.match(scheduleJs, /addEventListener\("pointermove"/);
+assert.match(scheduleJs, /setPointerCapture\(event\.pointerId\)/);
+assert.match(
+  scheduleJs,
+  /weekGrid\.addEventListener\("click",[\s\S]*?Date\.now\(\) < state\.suppressClickUntil[\s\S]*?const slot[\s\S]*?if \(state\.touchActionEntryId\)/,
+  "the synthesized click after a two-second long press must be consumed before touch action-mode handling"
+);
+assert.match(scheduleJs, /isAdjacentSpanTarget/);
+assert.match(scheduleJs, /is-swap-target/);
+assert.match(scheduleJs, /schedule_student_extend_entry_span/);
+assert.match(scheduleJs, /schedule_admin_extend_entry_span/);
+assert.match(scheduleJs, /schedule_student_set_entry_in_progress/);
+assert.match(scheduleJs, /schedule_admin_set_entry_in_progress/);
+assert.match(scheduleJs, /p_estimated_minutes/);
+assert.match(scheduleJs, /function renderCountdowns\(/);
+assert.match(scheduleJs, /function updateCountdownCard\(/);
+assert.match(scheduleJs, /start\.min\s*=\s*SCHEDULE_MIN_DATE/);
+assert.match(scheduleJs, /start\.max\s*=\s*SCHEDULE_MAX_DATE/);
+assert.match(scheduleJs, /end\.min\s*=\s*SCHEDULE_MIN_DATE/);
+assert.match(scheduleJs, /end\.max\s*=\s*SCHEDULE_MAX_DATE/);
+assert.match(scheduleJs, /values\.endDate < values\.startDate/);
+assert.match(scheduleJs, /schedule_student_upsert_countdown/);
+assert.match(scheduleJs, /schedule_admin_upsert_countdown/);
 assert.match(scheduleJs, /addEventListener\("dragstart"/);
 assert.match(scheduleJs, /addEventListener\("drop"/);
 assert.match(scheduleJs, /state\.currentUser\?\.role === "student" && entry\.source === "admin"/);
 assert.match(scheduleJs, /p_source_capacity_version/);
 assert.match(scheduleJs, /p_target_capacity_version/);
+assert.match(scheduleJs, /p_target_expected_updated_at:\s*targetEntry\?\.updatedAt\s*\|\|\s*null/);
+assert.match(scheduleJs, /schedule_student_move_entry_checked/);
+assert.match(scheduleJs, /schedule_admin_move_entry_checked/);
+assert.match(scheduleJs, /countdownDrafts:\s*new Map\(\)/);
+assert.match(scheduleJs, /function captureCountdownDrafts\(/);
+assert.match(scheduleJs, /planCountdownCapacityChange\(current, delta/);
+assert.match(scheduleJs, /schedule_student_change_countdown_capacity_checked/);
+assert.match(scheduleJs, /schedule_admin_change_countdown_capacity_checked/);
 assert.match(scheduleJs, /const dayEntries = state\.weekPayload\.entries/);
 assert.doesNotMatch(scheduleJs, /const maxSlots =/, "print rendering must not recreate unused slot rows");
 assert.doesNotMatch(scheduleJs, /elements\.printHead|elements\.printBody/);
@@ -234,6 +356,13 @@ const rpcNames = [
   "schedule_admin_batch_delete_entries",
   "schedule_admin_batch_set_entries_completed",
   "schedule_admin_move_entry",
+  "schedule_admin_move_entry_checked",
+  "schedule_admin_set_entry_in_progress",
+  "schedule_admin_extend_entry_span",
+  "schedule_admin_upsert_countdown",
+  "schedule_admin_delete_countdown",
+  "schedule_admin_change_countdown_capacity",
+  "schedule_admin_change_countdown_capacity_checked",
   "schedule_admin_set_display_preferences",
   "schedule_student_profile",
   "schedule_student_logout",
@@ -245,6 +374,13 @@ const rpcNames = [
   "schedule_student_batch_delete_entries",
   "schedule_student_batch_set_entries_completed",
   "schedule_student_move_entry",
+  "schedule_student_move_entry_checked",
+  "schedule_student_set_entry_in_progress",
+  "schedule_student_extend_entry_span",
+  "schedule_student_upsert_countdown",
+  "schedule_student_delete_countdown",
+  "schedule_student_change_countdown_capacity",
+  "schedule_student_change_countdown_capacity_checked",
   "schedule_student_set_display_preferences"
 ];
 for (const name of rpcNames) {
@@ -261,6 +397,12 @@ assert.match(scheduleSql, /revoke all on table public\.schedule_entries/);
 assert.match(scheduleSql, /schedule_date between date '2026-01-01' and date '2050-12-31'/);
 assert.match(scheduleSql, /slot_count between 10 and 100/);
 assert.match(scheduleSql, /for update/);
+assert.match(scheduleSql, /create or replace function public\._schedule_lock_student_mutations\b/);
+assert.match(scheduleSql, /pg_advisory_xact_lock\([\s\S]*?hashtextextended\('edmund-schedule:'/);
+assert.ok(
+  (scheduleSql.match(/perform public\._schedule_lock_student_mutations\(p_student_id\)/g) || []).length >= 10,
+  "all schedule mutation families must acquire the per-student advisory lock"
+);
 assert.match(scheduleSql, /version bigint not null default 0/);
 assert.match(scheduleSql, /add column if not exists version bigint not null default 0/);
 assert.match(scheduleSql, /is_completed boolean not null default false/);
@@ -299,6 +441,11 @@ assert.match(scheduleSql, /entry\.slot_index > v_target/);
 assert.match(scheduleSql, /version = capacity\.version \+ 1/);
 assert.match(scheduleSql, /v_reopens_completion := v_existing\.message is distinct from v_message/);
 assert.match(scheduleSql, /is_completed = case when v_reopens_completion then false else v_existing\.is_completed end/);
+assert.match(
+  scheduleSql,
+  /create or replace function public\._schedule_upsert_entry\([\s\S]*?p_expected_updated_at timestamptz,[\s\S]*?if v_existing\.span_group_id is not null then[\s\S]*?entry\.span_group_id = v_existing\.span_group_id/s,
+  "the legacy upsert path must propagate edits across every member of a span group"
+);
 assert.doesNotMatch(scheduleSql, /create or replace function public\.schedule_(?:student|admin)_add_slots\b/);
 assert.match(
   scheduleSql,
@@ -315,6 +462,34 @@ assert.match(scheduleSql, /jsonb_array_length\(p_items\)/);
 assert.match(scheduleSql, /expected_updated_at/);
 assert.match(scheduleSql, /order by schedule_entry\.id[\s\S]*?for update/);
 assert.match(scheduleSql, /Target slot is occupied/);
+assert.match(scheduleSql, /is_in_progress boolean not null default false/);
+assert.match(scheduleSql, /estimated_minutes integer/);
+assert.match(scheduleSql, /span_group_id uuid/);
+assert.match(scheduleSql, /schedule_entries_progress_state_check/);
+assert.match(scheduleSql, /create table if not exists public\.schedule_countdowns/);
+assert.match(scheduleSql, /create table if not exists public\.schedule_countdown_capacity/);
+assert.match(scheduleSql, /start_date between date '2026-01-01' and date '2050-12-31'/);
+assert.match(scheduleSql, /end_date between start_date and date '2050-12-31'/);
+assert.match(scheduleSql, /create or replace function public\._schedule_set_entry_in_progress/);
+assert.match(scheduleSql, /create or replace function public\._schedule_extend_entry_span/);
+assert.match(scheduleSql, /p_target_date between v_start and v_end/);
+assert.match(scheduleJs, /adjacentOnly && !isAdjacentSpanTarget/);
+assert.match(scheduleSql, /v_common_slot/);
+assert.match(scheduleSql, /create or replace function public\._schedule_upsert_countdown/);
+assert.match(scheduleSql, /create or replace function public\._schedule_change_countdown_capacity/);
+assert.match(scheduleSql, /'countdownCapacity'/);
+assert.match(scheduleSql, /'countdowns'/);
+assert.match(scheduleSql, /'estimatedMinutes'/);
+assert.match(scheduleSql, /'spanGroupId'/);
+assert.match(scheduleSql, /'isInProgress'/);
+assert.match(scheduleSql, /'swapped'/);
+assert.match(scheduleSql, /create or replace function public\._schedule_move_entry_checked\b/);
+assert.match(scheduleSql, /p_target_expected_updated_at timestamptz/);
+assert.match(scheduleSql, /Swap target changed in another session/);
+assert.match(scheduleSql, /create or replace function public\.schedule_student_move_entry\b/);
+assert.match(scheduleSql, /create or replace function public\.schedule_student_move_entry_checked\b/);
+assert.match(scheduleSql, /create or replace function public\._schedule_change_countdown_capacity_checked\b/);
+assert.match(scheduleSql, /v_capacity\.clock_count <> p_expected_count/);
 assert.match(databaseSmokeTest, /^begin;/m);
 assert.match(databaseSmokeTest, /^rollback;/m);
 assert.match(databaseSmokeTest, /_schedule_batch_set_entries_completed/);
@@ -325,6 +500,13 @@ assert.match(databaseSmokeTest, /schedule_student_set_display_preferences/);
 assert.match(databaseSmokeTest, /schedule_admin_set_display_preferences/);
 assert.match(databaseSmokeTest, /flashcardHideLockedSections/);
 assert.match(databaseSmokeTest, /schedule preference isolation/i);
+assert.match(databaseSmokeTest, /Schedule enhancement database smoke test passed/);
+assert.match(databaseSmokeTest, /Three-day project/);
+assert.match(databaseSmokeTest, /Exact-slot swap/);
+assert.match(databaseSmokeTest, /Legacy group-aware edit/);
+assert.match(databaseSmokeTest, /Expected stale swap-target rejection/);
+assert.match(databaseSmokeTest, /Expected stale countdown-capacity rejection/);
+assert.match(databaseSmokeTest, /Expected invalid countdown-date rejection/);
 assert.match(databaseSmokeTest, /when sqlstate '40001'/);
 assert.match(databaseSmokeTest, /when sqlstate '42501'/);
 assert.match(

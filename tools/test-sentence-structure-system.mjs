@@ -118,6 +118,10 @@ function createFrontendHarness() {
     "[data-login-button]", "[data-login-status]", "#sentence-structure-username",
     "#sentence-structure-password", "[data-password-toggle]", "[data-dashboard-welcome]",
     "[data-lesson-count]", "[data-lesson-choice-grid]", "[data-history-list]", "[data-lesson-round]",
+    "[data-sentence-progress-chart]", "[data-sentence-progress-period-total]",
+    "[data-sentence-progress-all-total]", "[data-sentence-progress-active-days]",
+    "[data-sentence-progress-day-panel]", "[data-sentence-progress-day-title]",
+    "[data-sentence-progress-day-list]",
     "[data-lesson-kicker]", "[data-lesson-title]", "[data-lesson-stepper]",
     "[data-lesson-content]", "[data-bookmark-list]", "[data-admin-search]",
     "[data-admin-student-count]", "[data-admin-student-list]", "[data-admin-detail]",
@@ -148,6 +152,8 @@ function createFrontendHarness() {
     querySelectorAll(selector) {
       if (selector === "[data-view]") return views;
       if (selector === "[data-answer-input]") return answerInputs;
+      const inputMatch = selector.match(/^\[data-answer-input="(.+)"\]$/);
+      if (inputMatch) return answerInputs.filter((input) => input.dataset.answerInput === inputMatch[1].replaceAll("\\", ""));
       return [];
     },
     addEventListener(type, callback) { documentListeners.set(type, callback); }
@@ -229,14 +235,17 @@ function createFrontendHarness() {
 window.__SENTENCE_STRUCTURE_TEST__ = {
   state, elements, LESSON_PAGES, MAX_BOOKMARKS,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,
-  studentLogin, openLesson, setLessonPage, renderLessonPage, renderExercisePage,
+  studentLogin, openLesson, setLessonPage, renderLessonPage, renderExercisePage, renderLessonChoices,
   syncExerciseButtons, submitExercise, startNextRound,
   startCorrectionRound, exitCorrectionRound, toggleCorrectCard, toggleAllCorrectCards,
+  clearQuestionAnswer,
   wrongQuestionIds, correctionQuestions, submissionQuestions,
   highlightedAnswerHtml, questionAnswerParts, storedAnswerPartValues,
-  combinedAnswerPartValue, suggestedAnswerHtml, normalizeAnswer, answersMatch,
+  combinedAnswerPartValue, suggestedAnswerHtml, missingAnswerMarkup, comparedAnswerHtml, normalizeAnswer, answersMatch,
   normalizeBookmark, normalizeAttempt, attemptHistoryHtml,
-  renderBookmarks, bookmarkAnswerAvailable, toggleBookmark, renderAdminStudents, openAdminStudent,
+  renderBookmarks, bookmarkAnswerAvailable, toggleBookmark, saveBookmarks, renderAdminStudents, openAdminStudent,
+  loadAllAttempts, questionActivityRows, buildQuestionProgressSeries, questionProgressChartSvg,
+  renderProgressDashboard, renderProgressDayPanel, renderAttemptHistory,
   serializeExerciseResult, persistExercise
 };
 `);
@@ -439,6 +448,9 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   }
   assert.equal((html.match(/data-step="[1-4]"/g) || []).length, 4);
   assert.match(html, /data-history-list/);
+  assert.match(html, /data-sentence-progress-chart/);
+  assert.equal((html.match(/data-sentence-progress-range=/g) || []).length, 6);
+  assert.match(html, /data-sentence-progress-day-list/);
   assert.match(html, /data-bookmark-list/);
   assert.match(html, /data-admin-student-list/);
   assert.match(html, /data-admin-detail/);
@@ -461,6 +473,8 @@ test("HTML, CSS, and navigation expose all required system surfaces", () => {
   assert.match(css, /\.benefit-card \.english\s*\{[^}]*color:\s*var\(--muted\)[^}]*font-size:\s*14px/i);
   assert.match(css, /\.rule-card \.chinese\s*\{[^}]*font-size:\s*clamp\(16px,[^}]*18px\)[^}]*font-weight:\s*800/i);
   assert.match(css, /\.rule-card \.english\s*\{[^}]*color:\s*var\(--muted\)[^}]*font-size:\s*14px/i);
+  assert.match(css, /\.lesson-choice\.is-complete\s*\{[^}]*linear-gradient/i);
+  assert.match(css, /\.missing-answer-highlight\s*\{[^}]*background:\s*#ffe56f/i);
   assert.doesNotMatch(frontendSource, /choice-icon/);
   assert.doesNotMatch(frontendSource, /題練習<\/span>/);
   assert.doesNotMatch(frontendSource, /由公式開始/);
@@ -483,6 +497,7 @@ test("frontend source keeps shared login, persistence, and click wiring intact",
 test("answer normalization and red target markup are safe and deterministic", () => {
   const { sut } = createFrontendHarness();
   assert.equal(sut.normalizeAnswer("  “HELLO”  world ! "), '"hello" world');
+  assert.equal(sut.normalizeAnswer("I eat           apples."), "i eat apples");
   const studentVariant = sut.normalizeAnswer("Lily got up early to catch the first bus!");
   const modelVariant = sut.normalizeAnswer("lily got up early to catch the first bus.");
   assert.equal(studentVariant, modelVariant);
@@ -494,9 +509,31 @@ test("answer normalization and red target markup are safe and deterministic", ()
     acceptedAnswers: ["An accepted variant."]
   }));
   assert.ok(!sut.answersMatch("almost right", { answer: "right" }));
+  assert.ok(sut.answersMatch("I practice English every day.", { answer: "I practise English every day." }));
+  assert.ok(sut.answersMatch("The center has colorful programs.", { answer: "The centre has colourful programmes." }));
+  assert.match(workerSource, /practise:\s*"practice"/);
+  assert.match(workerSource, /normalised|normalized/);
   assert.equal(
     sut.highlightedAnswerHtml("A <tag> target & end.", "target"),
     "A &lt;tag&gt; <span class=\"target-highlight\">target</span> &amp; end."
+  );
+});
+
+test("wrong-answer hints mark missing words, articles, and plural corrections in yellow", () => {
+  const { sut } = createFrontendHarness();
+  const missingVerb = sut.missingAnswerMarkup("I eat apples.", "I apples.");
+  assert.equal(missingVerb.missingCount, 1);
+  assert.match(missingVerb.html, /<mark class="missing-answer-highlight">eat<\/mark>/);
+  const missingArticle = sut.missingAnswerMarkup("She bought an umbrella.", "She bought umbrella.");
+  assert.match(missingArticle.html, /<mark class="missing-answer-highlight">an<\/mark>/);
+  const missingPlural = sut.missingAnswerMarkup("I eat apples.", "I eat apple.");
+  assert.match(missingPlural.html, /apple<mark class="missing-answer-highlight">s<\/mark>/);
+  const spellingVariant = sut.missingAnswerMarkup("We practised in the centre.", "We practiced in the center.");
+  assert.equal(spellingVariant.missingCount, 0, "British and American variants must align in the hint diff");
+  assert.equal(
+    sut.missingAnswerMarkup("I <eat> apples.", "I apples.").html,
+    "I &lt;<mark class=\"missing-answer-highlight\">eat</mark>&gt; apples.",
+    "hint markup must escape source punctuation safely"
   );
 });
 
@@ -648,8 +685,7 @@ test("partial submit checks only filled answers, reveals targets, and preserves 
   assert.deepEqual(Array.from(sut.state.exercise.rounds[0].incorrectIds), [q2.id]);
   assert.equal(sut.state.bookmarks[0].includeAnswer, true, "correct bookmarked answers should be upgraded");
   assert.equal(sut.state.bookmarks[1].includeAnswer, false, "wrong bookmarked answers must remain question-only");
-  assert.match(sut.elements.lessonContent.innerHTML, /target-highlight/);
-  assert.ok(sut.elements.lessonContent.innerHTML.includes(`<span class="target-highlight">${q2.highlight}</span>`));
+  assert.match(sut.elements.lessonContent.innerHTML, /missing-answer-highlight/);
   assert.ok(sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(q3.answer));
   assert.match(sut.elements.lessonContent.innerHTML, /question-card is-correct/);
@@ -822,7 +858,7 @@ test("wrong answers can enter an immediate correction round and return to the un
   assert.deepEqual(Array.from(sut.submissionQuestions(), (question) => question.id), [q2.id]);
   assert.equal((sut.elements.lessonContent.innerHTML.match(/data-question-id=/g) || []).length, 1);
   assert.match(sut.elements.lessonContent.innerHTML, /Correction Round · 改正輪/);
-  assert.match(sut.elements.lessonContent.innerHTML, /參考答案會暫時隱藏/);
+  assert.match(sut.elements.lessonContent.innerHTML, /暫時隱藏參考答案/);
   assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /answer-reveal/);
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answer));
   assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
@@ -844,9 +880,16 @@ test("wrong answers can enter an immediate correction round and return to the un
 
   await sut.submitExercise("all");
   assert.equal(sut.state.exercise.questionState[q2.id].status, "wrong");
-  assert.doesNotMatch(sut.elements.lessonContent.innerHTML, /answer-reveal/);
-  assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answer));
-  assert.ok(!sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
+  assert.equal(sut.state.exercise.round, 3, "an unsuccessful correction submission must advance to the next correction round");
+  assert.match(sut.elements.lessonContent.innerHTML, /answer-reveal/);
+  assert.match(sut.elements.lessonContent.innerHTML, /missing-answer-highlight/);
+  assert.ok(sut.elements.lessonContent.innerHTML.includes("first bus"));
+  assert.ok(sut.elements.lessonContent.innerHTML.includes(q2.answerZh));
+  assert.match(sut.elements.lessonContent.innerHTML, /data-clear-question-answer=/);
+
+  sut.clearQuestionAnswer(q2.id);
+  assert.equal(sut.state.exercise.drafts[q2.id], "");
+  assert.equal(answerInputs.find((input) => input.dataset.answerInput === q2.id).value, "");
 
   answerInputs.find((input) => input.dataset.answerInput === q2.id).value = q2.answer;
   await sut.submitExercise("all");
@@ -876,6 +919,129 @@ test("wrong answers can enter an immediate correction round and return to the un
     "awaitingNextRound", "collapsedCorrectIds", "contentVersion", "correctIds", "correctionIds",
     "correctionMode", "questionState", "round", "rounds"
   ], "the Worker/database result contract preserves correction and manual-collapse state");
+});
+
+test("the dashboard charts daily question activity and drills into the selected date", () => {
+  const { sut } = createFrontendHarness();
+  const submitted = new Date();
+  submitted.setHours(10, 30, 0, 0);
+  const dateKey = `${submitted.getFullYear()}-${String(submitted.getMonth() + 1).padStart(2, "0")}-${String(submitted.getDate()).padStart(2, "0")}`;
+  const [q1, q2] = sut.getLesson("ss1").questions;
+  sut.state.attempts = [sut.normalizeAttempt({
+    id: "activity-1",
+    lessonId: "ss1",
+    status: "in_progress",
+    roundNumber: 2,
+    correctCount: 1,
+    totalCount: 50,
+    startedAt: submitted.toISOString(),
+    result: {
+      round: 2,
+      correctIds: [q1.id],
+      rounds: [{
+        round: 2,
+        kind: "partial",
+        checkedIds: [q1.id, q2.id],
+        correctIds: [q1.id],
+        incorrectIds: [q2.id],
+        submittedAt: submitted.toISOString()
+      }]
+    }
+  })];
+  const activity = sut.questionActivityRows();
+  assert.equal(activity.length, 2);
+  assert.deepEqual(Array.from(activity, (row) => row.status), ["correct", "wrong"]);
+  const series = sut.buildQuestionProgressSeries("week");
+  assert.equal(series.periodTotal, 2);
+  assert.equal(series.activeDays, 1);
+  assert.equal(series.points.length, 7);
+  assert.equal(sut.buildQuestionProgressSeries("month").points.length, 30);
+  assert.equal(sut.buildQuestionProgressSeries("half-year").points.length, 182);
+  assert.equal(sut.buildQuestionProgressSeries("year").points.length, 365);
+  assert.equal(
+    sut.buildQuestionProgressSeries("ytd").points.length,
+    Math.floor((new Date(submitted.getFullYear(), submitted.getMonth(), submitted.getDate()) - new Date(submitted.getFullYear(), 0, 1)) / 86400000) + 1
+  );
+  assert.equal(sut.buildQuestionProgressSeries("all").points.length, 1);
+  const svg = sut.questionProgressChartSvg(series);
+  assert.ok(svg.includes(`data-sentence-progress-day="${dateKey}"`));
+  assert.match(svg, /完成：2 題/);
+  assert.equal((svg.match(/tabindex="0" role="button"/g) || []).length, 1, "only dates with activity belong in the keyboard tab order");
+  assert.equal((svg.match(/aria-hidden="true"/g) || []).length, 6, "zero-activity dates remain visual but non-interactive");
+  assert.match(frontendSource, /\["Enter", " "\]\.includes\(event\.key\)/);
+
+  sut.state.progressRange = "week";
+  sut.state.selectedProgressDay = dateKey;
+  sut.renderProgressDashboard();
+  assert.equal(sut.elements.progressPeriodTotal.textContent, "2");
+  assert.equal(sut.elements.progressAllTotal.textContent, "2");
+  assert.equal(sut.elements.progressActiveDays.textContent, "1");
+  assert.equal(sut.elements.progressDayPanel.hidden, false);
+  assert.ok(sut.elements.progressDayList.innerHTML.includes(q1.prompt));
+  assert.ok(sut.elements.progressDayList.innerHTML.includes(q2.prompt));
+  assert.match(sut.elements.progressDayList.innerHTML, /答對/);
+  assert.match(sut.elements.progressDayList.innerHTML, /待改正/);
+});
+
+test("bookmark is pinned first and every completed 50-question lesson turns gold", () => {
+  const { sut } = createFrontendHarness();
+  sut.state.bookmarks = [{ lessonId: "ss1", questionId: "ss1-q01", includeAnswer: false, createdAt: "" }];
+  sut.state.attempts = [sut.normalizeAttempt({
+    id: "complete-ss1",
+    lessonId: "ss1",
+    status: "completed",
+    correctCount: 50,
+    totalCount: 50,
+    result: { correctIds: sut.getLesson("ss1").questions.map((question) => question.id) }
+  })];
+  sut.renderLessonChoices();
+  const html = sut.elements.lessonChoiceGrid.innerHTML;
+  assert.ok(html.indexOf("data-open-bookmarks-card") < html.indexOf('data-open-lesson="ss1"'));
+  assert.match(html, /data-open-lesson="ss1"[^>]+data-tone="gold"/);
+  assert.match(html, /50 \/ 50 題已完成/);
+  assert.match(html, /1 個收藏題目/);
+});
+
+test("attempt history pagination loads every dashboard page", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  let calls = 0;
+  harness.setApiHandler(async (url) => {
+    const parsed = new URL(url);
+    assert.equal(parsed.pathname, "/v1/attempts");
+    calls += 1;
+    const page = Number(parsed.searchParams.get("page"));
+    const count = page === 1 ? 100 : 1;
+    return jsonResponse({
+      attempts: Array.from({ length: count }, (_, index) => ({ id: `${page}-${index}` })),
+      hasMore: page === 1
+    });
+  });
+  const result = await sut.loadAllAttempts();
+  assert.equal(calls, 2);
+  assert.equal(result.attempts.length, 101);
+  assert.equal(result.complete, true);
+});
+
+test("attempt history reports its explicit 10,000-row dashboard cap", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  harness.setApiHandler(async (url) => {
+    const parsed = new URL(url);
+    const page = Number(parsed.searchParams.get("page"));
+    return jsonResponse({
+      attempts: Array.from({ length: 100 }, (_, index) => ({ id: `${page}-${index}` })),
+      hasMore: true
+    });
+  });
+  const result = await sut.loadAllAttempts();
+  assert.equal(result.attempts.length, 10000);
+  assert.equal(result.complete, false);
+  sut.state.attempts = [];
+  sut.state.attemptHistoryComplete = false;
+  sut.renderAttemptHistory();
+  assert.match(sut.elements.historyList.innerHTML, /超過 10,000 次/);
+  assert.match(sut.elements.historyList.innerHTML, /較早記錄仍保留在系統內/);
 });
 
 test("bookmark normalization, secrecy, reveal, synchronization, and limit all hold", async () => {
@@ -926,6 +1092,64 @@ test("bookmark normalization, secrecy, reveal, synchronization, and limit all ho
   await sut.toggleBookmark("ss1", "ss1-q02");
   assert.equal(sut.state.bookmarks.length, sut.MAX_BOOKMARKS);
   assert.match(sut.elements.toast.textContent, /最多可儲存 6000 個書簽/);
+});
+
+test("rapid bookmark changes are serialized so an older Supabase response cannot overwrite the latest state", async () => {
+  const harness = createFrontendHarness();
+  const { sut } = harness;
+  sut.state.currentView = "dashboard";
+  sut.state.user = { id: "student-1", name: "Test Student", role: "student" };
+  sut.state.authToken = "student-token";
+  let releaseFirst;
+  const firstGate = new Promise((resolve) => { releaseFirst = resolve; });
+  const payloads = [];
+  harness.setApiHandler(async (url, options) => {
+    assert.equal(new URL(url).pathname, "/v1/bookmarks");
+    const bookmarks = JSON.parse(options.body).bookmarks;
+    payloads.push(bookmarks);
+    if (payloads.length === 1) await firstGate;
+    return jsonResponse({ bookmarks });
+  });
+
+  const first = sut.toggleBookmark("ss1", "ss1-q01");
+  const second = sut.toggleBookmark("ss1", "ss1-q02");
+  await Promise.resolve();
+  assert.equal(payloads.length, 1, "only the first replacement may be in flight");
+  releaseFirst();
+  await Promise.all([first, second]);
+  assert.equal(payloads.length, 2);
+  assert.equal(payloads[0].length, 1);
+  assert.equal(payloads[1].length, 2);
+  assert.deepEqual(Array.from(sut.state.bookmarks, (bookmark) => bookmark.questionId), ["ss1-q01", "ss1-q02"]);
+});
+
+test("queued bookmark writes keep the account token captured when the edit was made", async () => {
+  const harness = createFrontendHarness();
+  const { sut, apiCalls } = harness;
+  sut.state.currentView = "dashboard";
+  sut.state.user = { id: "student-a", name: "Student A", role: "student" };
+  sut.state.authToken = "token-a";
+  let releaseFirst;
+  const firstGate = new Promise((resolve) => { releaseFirst = resolve; });
+  let requestCount = 0;
+  harness.setApiHandler(async (url, options) => {
+    assert.equal(new URL(url).pathname, "/v1/bookmarks");
+    requestCount += 1;
+    if (requestCount === 1) await firstGate;
+    return jsonResponse({ bookmarks: JSON.parse(options.body).bookmarks });
+  });
+
+  const first = sut.toggleBookmark("ss1", "ss1-q01");
+  const second = sut.toggleBookmark("ss1", "ss1-q02");
+  await Promise.resolve();
+  sut.state.user = { id: "student-b", name: "Student B", role: "student" };
+  sut.state.authToken = "token-b";
+  releaseFirst();
+  await Promise.all([first, second]);
+
+  assert.equal(apiCalls.length, 2);
+  assert.equal(apiCalls[0].options.headers.get("Authorization"), "Bearer token-a");
+  assert.equal(apiCalls[1].options.headers.get("Authorization"), "Bearer token-a", "the queued replacement must never use Student B's token");
 });
 
 test("attempt history is expandable and only unfinished attempts can resume", () => {

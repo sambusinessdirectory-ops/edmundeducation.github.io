@@ -18,6 +18,31 @@ const MAX_DURATION_MS = 7 * 24 * 60 * 60 * 1000;
 const MAX_RESULT_ROUNDS = 250;
 const decoder = new TextDecoder("utf-8", { fatal: true });
 const encoder = new TextEncoder();
+const SPELLING_EQUIVALENTS = Object.freeze({
+  analyse: "analyze", analysed: "analyzed", analysing: "analyzing",
+  apologise: "apologize", apologised: "apologized", apologising: "apologizing",
+  behaviour: "behavior", behaviours: "behaviors",
+  cancelled: "canceled", cancelling: "canceling",
+  catalogue: "catalog", catalogues: "catalogs",
+  centre: "center", centres: "centers",
+  colour: "color", colours: "colors", coloured: "colored", colouring: "coloring", colourful: "colorful", colourless: "colorless",
+  counsellor: "counselor", counsellors: "counselors",
+  defence: "defense", defences: "defenses",
+  dialogue: "dialog", dialogues: "dialogs",
+  favour: "favor", favours: "favors", favourite: "favorite", favourites: "favorites",
+  honour: "honor", honours: "honors", honoured: "honored",
+  labour: "labor", labours: "labors",
+  licence: "license", licences: "licenses",
+  neighbour: "neighbor", neighbours: "neighbors", neighbourhood: "neighborhood",
+  organise: "organize", organised: "organized", organises: "organizes", organising: "organizing",
+  organisation: "organization", organisations: "organizations",
+  practise: "practice", practised: "practiced", practises: "practices", practising: "practicing",
+  programme: "program", programmes: "programs",
+  realise: "realize", realised: "realized", realises: "realizes", realising: "realizing",
+  recognise: "recognize", recognised: "recognized", recognises: "recognizes", recognising: "recognizing",
+  theatre: "theater", theatres: "theaters",
+  travelled: "traveled", travelling: "traveling", traveller: "traveler", travellers: "travelers"
+});
 
 export default {
   async fetch(request, env) {
@@ -530,7 +555,7 @@ function validQuestionId(lessonId, questionId) {
 }
 
 function normalizeAnswer(value) {
-  return String(value || "")
+  const normalized = String(value || "")
     .normalize("NFKC")
     .replace(/[‘’]/g, "'")
     .replace(/[“”]/g, "\"")
@@ -539,6 +564,7 @@ function normalizeAnswer(value) {
     .trim()
     .replace(/[.!?]+$/g, "")
     .toLocaleLowerCase();
+  return normalized.replace(/[a-z]+(?:'[a-z]+)*/g, token => SPELLING_EQUIVALENTS[token] || token);
 }
 
 function answerMatchesCatalog(questionId, answer) {

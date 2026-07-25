@@ -1,0 +1,157 @@
+const DAY_MS = 86_400_000;
+
+function parseDateOnly(value) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value || ""));
+  if (!match) return null;
+  const date = new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])));
+  return Number.isNaN(date.getTime()) ? null : date;
+}
+
+export function formatEstimatedMinutes(value) {
+  const minutes = Math.max(0, Math.round(Number(value) || 0));
+  if (!minutes) return "";
+  if (minutes < 60) return `${minutes} 分鐘`;
+  const hours = Math.floor(minutes / 60);
+  const remainder = minutes % 60;
+  return remainder ? `${hours} 小時 ${remainder} 分鐘` : `${hours} 小時`;
+}
+
+export function spanBounds(entries, entry) {
+  if (!entry) return null;
+  const members = entry.spanGroupId
+    ? entries.filter((candidate) => candidate.spanGroupId === entry.spanGroupId)
+    : [entry];
+  const dates = members.map((member) => member.scheduleDate).sort();
+  return {
+    start: dates[0],
+    end: dates[dates.length - 1],
+    length: dates.length
+  };
+}
+
+export function isAdjacentSpanTarget(entries, entry, targetDate) {
+  const bounds = spanBounds(entries, entry);
+  const target = parseDateOnly(targetDate);
+  const start = parseDateOnly(bounds?.start);
+  const end = parseDateOnly(bounds?.end);
+  if (!target || !start || !end) return false;
+  const targetTime = target.getTime();
+  return targetTime === start.getTime() - DAY_MS || targetTime === end.getTime() + DAY_MS;
+}
+
+export function spanLaneLayout(entries, dates = []) {
+  const dateSet = new Set(dates.map(String));
+  const groups = new Map();
+
+  for (const entry of Array.isArray(entries) ? entries : []) {
+    if (!entry?.spanGroupId || !entry.scheduleDate) continue;
+    if (dateSet.size && !dateSet.has(String(entry.scheduleDate))) continue;
+    const id = String(entry.spanGroupId);
+    if (!groups.has(id)) groups.set(id, { id, dates: new Set() });
+    groups.get(id).dates.add(String(entry.scheduleDate));
+  }
+
+  const orderedGroups = [...groups.values()]
+    .map((group) => {
+      const memberDates = [...group.dates].sort();
+      return { id: group.id, dates: memberDates, start: memberDates[0], end: memberDates.at(-1) };
+    })
+    .sort((left, right) => (
+      left.start.localeCompare(right.start)
+      || left.end.localeCompare(right.end)
+      || left.id.localeCompare(right.id)
+    ));
+
+  const laneEnds = [];
+  const laneByGroup = {};
+  for (const group of orderedGroups) {
+    let lane = laneEnds.findIndex((end) => end < group.start);
+    if (lane < 0) lane = laneEnds.length;
+    laneEnds[lane] = group.end;
+    laneByGroup[group.id] = lane;
+  }
+
+  const visibleDates = dateSet.size
+    ? [...dateSet]
+    : [...new Set(orderedGroups.flatMap((group) => group.dates))].sort();
+  const cells = Object.fromEntries(visibleDates.map((date) => [date, Array(laneEnds.length).fill(null)]));
+  for (const group of orderedGroups) {
+    const lane = laneByGroup[group.id];
+    for (const date of group.dates) {
+      if (cells[date]) cells[date][lane] = group.id;
+    }
+  }
+
+  return {
+    laneCount: laneEnds.length,
+    laneByGroup,
+    cells
+  };
+}
+
+export function countdownBreakdown(startValue, endValue) {
+  const start = parseDateOnly(startValue);
+  const end = parseDateOnly(endValue);
+  if (!start || !end || end < start) {
+    return { days: 0, months: 0, monthWeeks: 0, weeks: 0, weekDays: 0, hours: 0, hourMinutes: 0, minutes: 0 };
+  }
+
+  const days = Math.floor((end.getTime() - start.getTime()) / DAY_MS);
+  const months = Math.floor(days / 30);
+  const monthWeeks = Math.floor((days % 30) / 7);
+  const weeks = Math.floor(days / 7);
+  const weekDays = days % 7;
+  const minutes = days * 24 * 60;
+  const hours = Math.floor(minutes / 60);
+  return {
+    days,
+    months,
+    monthWeeks,
+    weeks,
+    weekDays,
+    hours,
+    hourMinutes: minutes % 60,
+    minutes
+  };
+}
+
+export function studyHoursBefore(startValue, endValue, dailyHours) {
+  const { days } = countdownBreakdown(startValue, endValue);
+  const hours = Math.max(0, Number(dailyHours) || 0) * days;
+  return Math.round(hours * 100) / 100;
+}
+
+export function planCountdownCapacityChange(
+  currentValue,
+  deltaValue,
+  { savedPositions = [], dirtyPositions = [], maximum = 100 } = {}
+) {
+  const current = Number(currentValue);
+  const delta = Number(deltaValue);
+  if (!Number.isInteger(current) || current < 5 || current > maximum || current % 5 !== 0 || ![-5, 5].includes(delta)) {
+    return { allowed: false, reason: "invalid", current, target: current };
+  }
+  const target = current + delta;
+  if (target < 5 || target > maximum) return { allowed: false, reason: "bounds", current, target };
+
+  const dirtyAbove = dirtyPositions.map(Number).filter((position) => position > target).sort((a, b) => a - b);
+  if (delta < 0 && dirtyAbove.length) {
+    return { allowed: false, reason: "dirty", current, target, blockedPositions: dirtyAbove };
+  }
+  const savedAbove = savedPositions.map(Number).filter((position) => position > target).sort((a, b) => a - b);
+  if (delta < 0 && savedAbove.length) {
+    return { allowed: false, reason: "saved", current, target, blockedPositions: savedAbove };
+  }
+  return {
+    allowed: true,
+    reason: "ok",
+    current,
+    target,
+    createdPositions: delta > 0
+      ? Array.from({ length: 5 }, (_, index) => current + index + 1)
+      : [],
+    removedPositions: delta < 0
+      ? Array.from({ length: 5 }, (_, index) => target + index + 1)
+      : []
+  };
+}

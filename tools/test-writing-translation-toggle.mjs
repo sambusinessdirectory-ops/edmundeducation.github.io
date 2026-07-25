@@ -6,6 +6,7 @@ import vm from "node:vm";
 const LISTENING_RELEASE_BUFFER = 2.00;
 const repository = process.env.WRITING_REPO_PATH || fileURLToPath(new URL("../", import.meta.url));
 const html = readFileSync(`${repository}/writing-practice.html`, "utf8");
+const writingAttemptsSql = readFileSync(`${repository}/supabase-writing-practice-attempts.sql`, "utf8");
 const writingDataFiles = [...html.matchAll(/<script src="(writing-practice[^"?]+-data\.js)(?:\?[^"}]*)?"/g)]
   .map(match => match[1]);
 assert.ok(writingDataFiles.length >= 10, "writing page should declare its exercise data files");
@@ -39,6 +40,7 @@ function createHarness(applicationSource, dataFiles) {
   };
   const documentListeners = new Map();
   const localValues = new Map();
+  let failLocalStorageWrites = false;
   let trackedAnswerInputs = [];
   const document = {
     visibilityState: "visible",
@@ -72,7 +74,10 @@ function createHarness(applicationSource, dataFiles) {
   };
   const localStorage = {
     getItem(key) { return localValues.has(key) ? localValues.get(key) : null; },
-    setItem(key, value) { localValues.set(key, String(value)); },
+    setItem(key, value) {
+      if (failLocalStorageWrites) throw new Error("Simulated localStorage quota failure");
+      localValues.set(key, String(value));
+    },
     removeItem(key) { localValues.delete(key); }
   };
   const animationFrames = new Map();
@@ -272,6 +277,42 @@ function createHarness(applicationSource, dataFiles) {
         practiceState.targetBlankIds = null;
         return practiceListeningSegments(currentExercise());
       },
+      setProgressResults(studentName, results) {
+        currentUser = { name: studentName, role: "student" };
+        writingPracticeResults = normalizeWritingPracticeResults(results);
+        writingAttemptHistoryComplete = true;
+      },
+      progressSeries: (rangeKey, nowValue) => buildWritingProgressSeries(rangeKey, currentUser?.name, nowValue),
+      progressDayKey: value => writingProgressDayKey(value),
+      selectedProgressDay: () => selectedWritingProgressDayKey,
+      setCurrentStudent(user) { currentUser = { ...user, role: "student" }; },
+      setRawWritingState(value) { localStorage.setItem(WRITING_STATE_KEY, JSON.stringify(value)); },
+      rawWritingState: () => readJson(WRITING_STATE_KEY, {}),
+      accountKey: () => writingStateAccountKey(),
+      localAccountState: () => getWritingLocalAccountState(),
+      migrateNameAccount: () => migrateWritingNameAccountToId(currentUser),
+      loadStudentState: () => loadWritingStudentState(),
+      saveAttempt: result => savePracticeResult(result),
+      progressResults: () => [...writingPracticeResults],
+      attemptOutbox: () => [...writingAttemptOutbox],
+      setAttemptOutbox(results) { writingAttemptOutbox = normalizeWritingPracticeResults(results); },
+      attemptOutboxCapacity: () => MAX_WRITING_ATTEMPT_OUTBOX,
+      boundedAttemptCache: results => boundedWritingAttemptCache(results),
+      normalizeDeleteRequests: value => normalizeWritingAttemptDeleteRequests(value),
+      attemptCoveredByDelete: (result, requests) => writingAttemptCoveredByDelete(result, requests),
+      setDashboardUiState(range, day, open, visibleCount) {
+        selectedWritingProgressRange = range;
+        selectedWritingProgressDayKey = day;
+        writingAttemptLogOpen = open;
+        writingAttemptLogVisibleCount = visibleCount;
+      },
+      dashboardUiState: () => ({
+        range: selectedWritingProgressRange,
+        day: selectedWritingProgressDayKey,
+        open: writingAttemptLogOpen,
+        visibleCount: writingAttemptLogVisibleCount
+      }),
+      resetPersonalState: () => resetWritingPersonalState(),
       setAudioRate: rate => setEssayAudioRate(rate),
       setupEvents: () => setupEvents()
     };
@@ -313,6 +354,9 @@ function createHarness(applicationSource, dataFiles) {
     panel,
     documentListeners,
     createdAudios,
+    setLocalStorageWriteFailure(value) {
+      failLocalStorageWrites = Boolean(value);
+    },
     runAnimationFrames() {
       const callbacks = [...animationFrames.values()];
       animationFrames.clear();
@@ -1239,4 +1283,166 @@ assert.deepEqual(
 );
 assert.ok(checkedListeningConfigurations >= 900, "the listening audit should cover every normal and exceptional difficulty");
 
-console.log(`Writing translation/listening tests passed: safe translation, protected audio tails, speed control, continuation, ${checkedListeningConfigurations} corpus configurations and no answer leakage.`);
+const dashboardStudent = "Writing Dashboard Student";
+const dashboardNow = new Date(2026, 6, 26, 12, 0, 0).getTime();
+const dashboardDayOne = new Date(2026, 6, 20, 9, 30, 0).getTime();
+const dashboardDayTwo = new Date(2026, 6, 25, 18, 0, 0).getTime();
+const dashboardOldDay = new Date(2026, 5, 1, 8, 0, 0).getTime();
+const dashboardPriorYearDay = new Date(2025, 6, 27, 8, 0, 0).getTime();
+const dashboardVeryOldDay = new Date(2024, 0, 5, 8, 0, 0).getTime();
+hooks.setProgressResults(dashboardStudent, [
+  { id: "dash-1", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard A", studentName: dashboardStudent, total: 7, correct: 6, round: 1, createdAt: dashboardDayOne },
+  { id: "dash-2", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard B", studentName: dashboardStudent, total: 5, correct: 4, round: 2, createdAt: dashboardDayOne + 60_000 },
+  { id: "dash-3", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard C", studentName: dashboardStudent, total: 3, correct: 3, round: 1, createdAt: dashboardDayTwo },
+  { id: "dash-old", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Old", studentName: dashboardStudent, total: 9, correct: 7, round: 1, createdAt: dashboardOldDay },
+  { id: "dash-prior-year", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Prior Year", studentName: dashboardStudent, total: 4, correct: 3, round: 1, createdAt: dashboardPriorYearDay },
+  { id: "dash-very-old", exerciseId: fixtureExercise().id, exerciseTitle: "Dashboard Very Old", studentName: dashboardStudent, total: 6, correct: 4, round: 1, createdAt: dashboardVeryOldDay },
+  { id: "dash-other", exerciseId: fixtureExercise().id, exerciseTitle: "Other Student", studentName: "Another Student", total: 99, correct: 99, round: 1, createdAt: dashboardDayTwo }
+]);
+const weekSeries = hooks.progressSeries("week", dashboardNow);
+assert.equal(weekSeries.points.length, 7, "Writing dashboard week range should contain seven local calendar days");
+assert.equal(weekSeries.totalQuestions, 15, "Writing dashboard should total every attempted question in the selected range");
+assert.equal(weekSeries.attemptCount, 3, "Writing dashboard should count attempts separately from questions");
+const dashboardFirstPoint = weekSeries.points.find(point => point.key === hooks.progressDayKey(dashboardDayOne));
+assert.equal(dashboardFirstPoint?.questions, 12, "Writing dashboard should combine same-day question totals");
+assert.equal(dashboardFirstPoint?.attempts, 2, "Writing dashboard should combine same-day attempts");
+const monthSeries = hooks.progressSeries("month", dashboardNow);
+assert.equal(monthSeries.points.length, 30, "Writing dashboard month range should contain 30 local calendar days");
+assert.equal(monthSeries.totalQuestions, 15, "Month range should exclude older records");
+const halfYearSeries = hooks.progressSeries("half-year", dashboardNow);
+assert.equal(halfYearSeries.points.length, 182, "Half Year should match the Flashcard dashboard's 182-day range");
+assert.equal(halfYearSeries.totalQuestions, 24, "Half Year should include records within its boundary");
+const ytdSeries = hooks.progressSeries("ytd", dashboardNow);
+assert.equal(ytdSeries.points.length, 207, "Year to Date should start on January 1");
+assert.equal(ytdSeries.totalQuestions, 24, "Year to Date should exclude the prior calendar year");
+const yearSeries = hooks.progressSeries("year", dashboardNow);
+assert.equal(yearSeries.points.length, 365, "1 Year should contain 365 inclusive local days");
+assert.equal(yearSeries.totalQuestions, 28, "1 Year should include its first-day boundary");
+const allSeries = hooks.progressSeries("all", dashboardNow);
+assert.equal(allSeries.totalQuestions, 34, "All Time should include the student's complete older history");
+assert.equal(allSeries.attemptCount, 6, "All Time should exclude another student's records");
+const progressKeyHandler = harness.documentListeners.get("keydown")?.[0];
+let progressKeyPrevented = false;
+progressKeyHandler?.({
+  target: clickTarget("data-writing-progress-day", hooks.progressDayKey(dashboardDayOne)),
+  key: "Enter",
+  code: "Enter",
+  repeat: false,
+  preventDefault() { progressKeyPrevented = true; }
+});
+assert.equal(progressKeyPrevented, true, "Keyboard activation should prevent the default action for a chart day");
+assert.equal(hooks.selectedProgressDay(), hooks.progressDayKey(dashboardDayOne), "Enter should open the selected chart day's drilldown");
+assert.match(html, /data-writing-progress-chart/, "Writing dashboard should render a progress chart");
+assert.match(html, /data-toggle-writing-attempt-log/, "Writing dashboard should expose a collapsible all-attempt log");
+assert.match(html, /data-load-more-writing-attempts/, "The all-attempt log should render in bounded pages");
+assert.match(html, /writing_student_append_attempt/, "Writing attempts should append through the dedicated student RPC");
+assert.match(html, /writing_student_list_attempts/, "Writing history should load through a paginated dedicated RPC");
+assert.match(html, /writing_student_delete_attempts_by_exercise/, "Exercise resets should delete dedicated attempt rows");
+assert.match(html, /p_reset_at:\s*resetAtIso/, "Exercise reset RPC calls should carry the client action time");
+assert.match(writingAttemptsSql, /state\.key\s*=\s*'writing-attempts-v1'/, "The dedicated attempt migration should import the legacy Supabase state key");
+assert.match(writingAttemptsSql, /writing_student_append_attempt\([\s\S]*?returns text/i, "The student append RPC should report inserted, existing, or ignored_reset");
+assert.match(html, /writeStatus\s*===\s*"ignored_reset"/, "The client should remove an attempt from memory when a reset barrier intentionally rejects it");
+assert.match(writingAttemptsSql, /attempt_row\.created_at\s*<=\s*p_reset_at/, "Exercise resets should only delete attempts at or before the client reset time");
+assert.doesNotMatch(writingAttemptsSql, /v_existing\.attempt\s*<>\s*p_attempt/, "A compact client retry should not conflict with the richer JSON imported from legacy state");
+assert.match(writingAttemptsSql, /v_existing\.total_count\s*<>\s*v_total/, "Idempotent retries should still reject a core score mismatch for the same attempt ID");
+
+const migrationStudent = { id: "11111111-1111-4111-8111-111111111111", name: "Migration Student" };
+const migrationAttempt = {
+  exerciseId: fixtureExercise().id,
+  exerciseTitle: "Migrated attempt",
+  studentName: migrationStudent.name,
+  total: 4,
+  correct: 3,
+  mistakes: 1,
+  round: 1,
+  createdAt: dashboardDayOne
+};
+hooks.setRawWritingState({
+  version: 2,
+  accounts: {
+    "name:migration student": {
+      bookmarks: [fixtureExercise().id],
+      paragraphMastery: {},
+      practiceResults: [migrationAttempt],
+      pendingAttempts: true
+    }
+  }
+});
+hooks.setCurrentStudent(migrationStudent);
+assert.equal(hooks.migrateNameAccount(), true, "A name-scoped account should migrate to its stable Supabase ID key");
+const migratedRoot = hooks.rawWritingState();
+assert.ok(migratedRoot.accounts[`id:${migrationStudent.id}`], "The ID-scoped Writing state should be created");
+assert.equal(migratedRoot.accounts["name:migration student"], undefined, "The superseded name-scoped state should be removed after a successful migration");
+await hooks.loadStudentState();
+assert.equal(hooks.localAccountState().attemptStoreMigrated, true, "Legacy cached attempts should be marked for one-time dedicated-table migration");
+assert.equal(hooks.attemptOutbox().length, 1, "The migrated attempt should remain in the durable append outbox while offline");
+
+const oversizedCache = Array.from({ length: 260 }, (_, index) => ({
+  ...migrationAttempt,
+  id: `bounded-${index}`,
+  createdAt: dashboardDayOne + index
+}));
+assert.equal(hooks.boundedAttemptCache(oversizedCache).length, 200, "The account-local attempt fallback should remain bounded");
+const resetBoundary = dashboardDayTwo;
+const resetRequests = hooks.normalizeDeleteRequests([{ exerciseId: fixtureExercise().id, resetAt: resetBoundary }]);
+assert.equal(
+  hooks.attemptCoveredByDelete({ exerciseId: fixtureExercise().id, createdAt: resetBoundary - 1 }, resetRequests),
+  true,
+  "A pre-reset offline attempt should remain hidden while its reset is pending"
+);
+assert.equal(
+  hooks.attemptCoveredByDelete({ exerciseId: fixtureExercise().id, createdAt: resetBoundary + 1 }, resetRequests),
+  false,
+  "A post-reset offline attempt should survive even if the reset RPC reaches Supabase later"
+);
+
+harness.setLocalStorageWriteFailure(true);
+const originalConsoleWarn = console.warn;
+console.warn = () => {};
+let quotaSaveResult;
+try {
+  assert.doesNotThrow(() => {
+    quotaSaveResult = hooks.saveAttempt({
+      ...migrationAttempt,
+      id: "quota-safe-attempt",
+      createdAt: dashboardDayTwo
+    });
+  }, "A localStorage quota failure must be handled without an uncaught exception");
+} finally {
+  console.warn = originalConsoleWarn;
+}
+harness.setLocalStorageWriteFailure(false);
+assert.equal(quotaSaveResult, false, "An attempt should not claim to be saved when its durable device fallback failed");
+assert.equal(
+  hooks.progressResults().some(result => result.id === "quota-safe-attempt"),
+  false,
+  "A quota failure should roll back the cache rather than create an unsyncable cache-only result"
+);
+
+const fullAttemptOutbox = Array.from({ length: hooks.attemptOutboxCapacity() }, (_, index) => ({
+  ...migrationAttempt,
+  id: `outbox-full-${index}`,
+  createdAt: dashboardDayOne + index
+}));
+hooks.setAttemptOutbox(fullAttemptOutbox);
+assert.equal(hooks.saveAttempt({
+  ...migrationAttempt,
+  id: "must-not-be-cache-only",
+  createdAt: dashboardDayTwo + 1
+}), false, "A full durable outbox should explicitly refuse a new saved result");
+assert.equal(
+  hooks.progressResults().some(result => result.id === "must-not-be-cache-only"),
+  false,
+  "A refused attempt must not enter the cache with no durable retry path"
+);
+assert.equal(hooks.attemptOutbox().length, hooks.attemptOutboxCapacity(), "The bounded outbox must not silently evict an older unsynced attempt");
+
+hooks.setDashboardUiState("all", "2026-07-20", true, 100);
+hooks.resetPersonalState();
+const resetDashboardState = hooks.dashboardUiState();
+assert.equal(resetDashboardState.range, "month", "Switching accounts should restore the default progress range");
+assert.equal(resetDashboardState.day, "", "Switching accounts should close the prior account's day drilldown");
+assert.equal(resetDashboardState.open, false, "Switching accounts should collapse the prior account's all-attempt log");
+assert.equal(resetDashboardState.visibleCount, 25, "Switching accounts should reset attempt-log pagination");
+
+console.log(`Writing tests passed: safe translation, protected audio tails, speed control, continuation, ${checkedListeningConfigurations} corpus configurations, progress dashboard and attempt log.`);

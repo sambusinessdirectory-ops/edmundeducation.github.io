@@ -13,11 +13,22 @@ import {
   toISODate,
   weekDates
 } from "./schedule-calendar.mjs";
+import {
+  countdownBreakdown,
+  formatEstimatedMinutes,
+  isAdjacentSpanTarget,
+  planCountdownCapacityChange,
+  spanBounds,
+  spanLaneLayout,
+  studyHoursBefore
+} from "./schedule-enhancements.mjs";
 
 const ADMIN_NAME = "Sam Admind Schedule";
 const SESSION_KEY = "edmund-schedule-session-v1";
 const TABLE_HIDDEN_KEY = "edmund-schedule-table-hidden-v1";
 const MAX_SLOTS_PER_DAY = 100;
+const MAX_COUNTDOWNS = 100;
+const LONG_PRESS_MS = 2000;
 const WEEKDAY_MASCOTS = [
   "assets/schedule/weekdays/monday-walking-to-school.webp",
   "assets/schedule/weekdays/tuesday-basketball.webp",
@@ -73,16 +84,22 @@ const elements = {
   metricTotalGoals: document.querySelector("[data-metric-total-goals]"),
   metricWeekCompleted: document.querySelector("[data-metric-week-completed]"),
   metricTotalCompleted: document.querySelector("[data-metric-total-completed]"),
+  countdownGrid: document.querySelector("[data-countdown-grid]"),
+  countdownStatus: document.querySelector("[data-countdown-status]"),
+  addCountdowns: document.querySelector("[data-add-countdowns]"),
+  removeCountdowns: document.querySelector("[data-remove-countdowns]"),
   entryDialog: document.querySelector("[data-entry-dialog]"),
   entryForm: document.querySelector("[data-entry-form]"),
   entryTitle: document.querySelector("[data-entry-title]"),
   entryMeta: document.querySelector("[data-entry-meta]"),
   entryMessage: document.querySelector("#schedule-message"),
+  entryEstimatedMinutes: document.querySelector("#schedule-estimated-minutes"),
   entryHint: document.querySelector("[data-entry-hint]"),
   entryStatus: document.querySelector("[data-entry-status]"),
   closeEntry: document.querySelector("[data-close-entry]"),
   deleteEntry: document.querySelector("[data-delete-entry]"),
   toggleComplete: document.querySelector("[data-toggle-complete]"),
+  toggleProgress: document.querySelector("[data-toggle-progress]"),
   saveEntry: document.querySelector("[data-save-entry]"),
   deleteDialog: document.querySelector("[data-delete-dialog]"),
   cancelDelete: document.querySelector("[data-cancel-delete]"),
@@ -111,9 +128,15 @@ const state = {
   selectedEntryIds: new Set(),
   moveEntryId: null,
   draggingEntryId: null,
+  touchActionEntryId: null,
+  longPressTimer: null,
+  longPressPointerId: null,
+  longPressOrigin: null,
   mutationInFlight: false,
   displayPreferenceRequestId: 0,
-  suppressClickUntil: 0
+  suppressClickUntil: 0,
+  countdownDraftOwner: "",
+  countdownDrafts: new Map()
 };
 
 function emptyWeekPayload() {
@@ -126,7 +149,9 @@ function emptyWeekPayload() {
       totalGoals: 0,
       weekCompleted: 0,
       totalCompleted: 0
-    }
+    },
+    countdownCapacity: 5,
+    countdowns: []
   };
 }
 
@@ -193,12 +218,17 @@ function clearRenderedSchedule() {
   state.hideMascots = false;
   state.showUnusedTemporarily = false;
   state.editing = null;
+  clearLongPress();
+  state.touchActionEntryId = null;
+  state.countdownDraftOwner = "";
+  state.countdownDrafts.clear();
   resetSelectionMode();
   elements.weekGrid.replaceChildren();
   elements.exportPdf.disabled = true;
   if (elements.deleteDialog.open) elements.deleteDialog.close();
   if (elements.entryDialog.open) elements.entryDialog.close();
   elements.entryMessage.value = "";
+  elements.entryEstimatedMinutes.value = "";
   elements.entryMessage.readOnly = false;
   elements.saveEntry.hidden = false;
   elements.deleteEntry.hidden = true;
@@ -206,6 +236,12 @@ function clearRenderedSchedule() {
   elements.toggleComplete.dataset.completed = "false";
   elements.toggleComplete.setAttribute("aria-pressed", "false");
   elements.toggleComplete.textContent = "標記完成";
+  elements.toggleProgress.hidden = true;
+  elements.toggleProgress.dataset.inProgress = "false";
+  elements.toggleProgress.setAttribute("aria-pressed", "false");
+  elements.toggleProgress.textContent = "標記進行中";
+  elements.countdownGrid?.replaceChildren();
+  setStatus(elements.countdownStatus, "");
   setMetricsUnavailable();
   applyDisplayPreferences();
   setStatus(elements.entryStatus, "");
@@ -261,11 +297,36 @@ function canMoveEntry(entry) {
   );
 }
 
+function spanMemberIds(entry) {
+  if (!entry) return new Set();
+  return new Set(state.weekPayload.entries
+    .filter((candidate) => entry.spanGroupId
+      ? candidate.spanGroupId === entry.spanGroupId
+      : candidate.id === entry.id)
+    .map((candidate) => candidate.id));
+}
+
+function clearLongPress() {
+  window.clearTimeout(state.longPressTimer);
+  state.longPressTimer = null;
+  state.longPressPointerId = null;
+  state.longPressOrigin = null;
+}
+
+function leaveTouchActionMode() {
+  clearLongPress();
+  state.touchActionEntryId = null;
+  elements.weekGrid?.querySelectorAll(".is-touch-action, .is-span-target, .is-swap-target, .is-drop-target")
+    .forEach((element) => element.classList.remove("is-touch-action", "is-span-target", "is-swap-target", "is-drop-target"));
+}
+
 function resetSelectionMode() {
   state.selectionMode = false;
   state.selectedEntryIds.clear();
   state.moveEntryId = null;
   state.draggingEntryId = null;
+  clearLongPress();
+  state.touchActionEntryId = null;
   updateSelectionControls();
 }
 
@@ -410,6 +471,435 @@ function setMetricsUnavailable() {
   elements.metricTotalGoals.textContent = "—";
   elements.metricWeekCompleted.textContent = "—";
   elements.metricTotalCompleted.textContent = "—";
+}
+
+function todayISO() {
+  return toISODate(new Date());
+}
+
+function countdownByPosition(position) {
+  return state.weekPayload.countdowns.find((countdown) => Number(countdown.position) === Number(position)) || null;
+}
+
+function countdownOwnerKey() {
+  const student = activeStudent();
+  return student?.id ? String(student.id) : "";
+}
+
+function ensureCountdownDraftOwner() {
+  const owner = countdownOwnerKey();
+  if (owner !== state.countdownDraftOwner) {
+    state.countdownDraftOwner = owner;
+    state.countdownDrafts.clear();
+  }
+  return owner;
+}
+
+function rememberCountdownDraft(card, { dirty = true } = {}) {
+  if (!card || !ensureCountdownDraftOwner()) return;
+  const position = Number(card.dataset.countdownPosition);
+  if (!Number.isInteger(position)) return;
+  const existing = state.countdownDrafts.get(position);
+  const isDirty = dirty || existing?.dirty === true || card.dataset.countdownDirty === "true";
+  card.dataset.countdownDirty = String(isDirty);
+  if (isDirty) {
+    const note = card.querySelector("[data-countdown-note]");
+    if (note) note.textContent = "尚未儲存的草稿已保留。";
+    const discard = card.querySelector("[data-delete-countdown]");
+    if (discard && !card.dataset.countdownId) {
+      discard.hidden = false;
+      discard.textContent = "捨棄草稿";
+    }
+  }
+  state.countdownDrafts.set(position, {
+    values: countdownCardValues(card),
+    expanded: !card.querySelector("[data-countdown-study-breakdown]")?.hidden,
+    dirty: isDirty
+  });
+}
+
+function captureCountdownDrafts() {
+  if (!elements.countdownGrid || !ensureCountdownDraftOwner()) return;
+  elements.countdownGrid.querySelectorAll("[data-countdown-position]").forEach((card) => {
+    const position = Number(card.dataset.countdownPosition);
+    if (card.dataset.countdownDirty === "true" || state.countdownDrafts.has(position)) {
+      rememberCountdownDraft(card, { dirty: card.dataset.countdownDirty === "true" });
+    }
+  });
+}
+
+function discardCountdownDraft(position) {
+  state.countdownDrafts.delete(Number(position));
+  const card = elements.countdownGrid?.querySelector(`[data-countdown-position="${Number(position)}"]`);
+  if (card) card.dataset.countdownDirty = "false";
+}
+
+function renderCountdowns() {
+  if (!elements.countdownGrid) return;
+  ensureCountdownDraftOwner();
+  elements.countdownGrid.replaceChildren();
+  const persistedCapacity = Math.max(5, Math.min(MAX_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || 5));
+  const furthestDraft = Math.max(0, ...state.countdownDrafts.keys());
+  const capacity = Math.min(MAX_COUNTDOWNS, Math.max(persistedCapacity, Math.ceil(furthestDraft / 5) * 5));
+  elements.addCountdowns.disabled = state.mutationInFlight || persistedCapacity >= MAX_COUNTDOWNS;
+  elements.removeCountdowns.disabled = state.mutationInFlight || persistedCapacity <= 5;
+
+  for (let position = 1; position <= capacity; position += 1) {
+    const card = createCountdownCard(position, countdownByPosition(position), state.countdownDrafts.get(position));
+    if (position > persistedCapacity) card.classList.add("is-draft-beyond-capacity");
+    elements.countdownGrid.append(card);
+  }
+}
+
+function createCountdownCard(position, countdown, draft = null) {
+  const initial = draft?.values || countdown || {};
+  const card = document.createElement("article");
+  card.className = "countdown-card";
+  card.dataset.countdownPosition = String(position);
+  card.dataset.countdownDirty = String(draft?.dirty === true);
+  if (countdown?.id) card.dataset.countdownId = countdown.id;
+
+  const heading = document.createElement("h3");
+  heading.textContent = `Clock ${position}`;
+  const fields = document.createElement("div");
+  fields.className = "countdown-form-grid";
+
+  const makeField = (labelText, input) => {
+    const label = document.createElement("label");
+    label.append(labelText, input);
+    return label;
+  };
+  const title = document.createElement("input");
+  title.type = "text";
+  title.maxLength = 160;
+  title.placeholder = "Title／事件名稱";
+  title.dataset.countdownTitle = "";
+  title.value = initial.title || "";
+
+  const start = document.createElement("input");
+  start.type = "date";
+  start.min = SCHEDULE_MIN_DATE;
+  start.max = SCHEDULE_MAX_DATE;
+  start.dataset.countdownStart = "";
+  start.value = initial.startDate || todayISO();
+  const end = document.createElement("input");
+  end.type = "date";
+  end.min = SCHEDULE_MIN_DATE;
+  end.max = SCHEDULE_MAX_DATE;
+  end.dataset.countdownEnd = "";
+  end.value = initial.endDate || todayISO();
+  fields.append(makeField("事件名稱", title), makeField("開始日期（可更改）", start), makeField("結束日期", end));
+
+  const days = document.createElement("p");
+  days.className = "countdown-days";
+  days.dataset.countdownDays = "";
+  const detailGrid = document.createElement("div");
+  detailGrid.className = "countdown-details-grid";
+  ["months", "weeks", "hours", "minutes"].forEach((key) => {
+    const value = document.createElement("span");
+    value.dataset.countdownBreakdown = key;
+    detailGrid.append(value);
+  });
+
+  const calculator = document.createElement("div");
+  calculator.className = "study-calculator";
+  const studyMain = document.createElement("div");
+  studyMain.className = "study-main";
+  const studyPrefix = document.createElement("span");
+  studyPrefix.textContent = "如果我每天溫習";
+  const daily = document.createElement("input");
+  daily.type = "number";
+  daily.min = "0";
+  daily.max = "24";
+  daily.step = "0.25";
+  daily.inputMode = "decimal";
+  daily.dataset.countdownDailyHours = "";
+  daily.value = String(Number(initial.dailyHours) || 0);
+  const result = document.createElement("span");
+  result.className = "study-result";
+  result.dataset.countdownStudyResult = "";
+  studyMain.append(studyPrefix, daily, result);
+
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "countdown-detail-toggle";
+  toggle.dataset.countdownDetailToggle = "";
+  toggle.textContent = "詳細設定：早上／下午／晚上";
+  toggle.setAttribute("aria-expanded", "false");
+  const breakdown = document.createElement("div");
+  breakdown.className = "study-breakdown";
+  breakdown.dataset.countdownStudyBreakdown = "";
+  breakdown.hidden = draft?.expanded !== true;
+  for (const [key, labelText] of [["morning", "早上"], ["afternoon", "下午"], ["evening", "晚上"]]) {
+    const label = document.createElement("label");
+    const copy = document.createElement("span");
+    copy.textContent = `如果我每天${labelText}溫習`;
+    const input = document.createElement("input");
+    input.type = "number";
+    input.min = "0";
+    input.max = "24";
+    input.step = "0.25";
+    input.inputMode = "decimal";
+    input.dataset.countdownPart = key;
+    input.value = String(Number(initial[`${key}Hours`]) || 0);
+    const suffix = document.createElement("span");
+    suffix.textContent = "小時";
+    const partResult = document.createElement("span");
+    partResult.className = "study-part-result";
+    partResult.dataset.countdownPartResult = key;
+    label.append(copy, input, suffix, partResult);
+    breakdown.append(label);
+  }
+  calculator.append(studyMain, toggle, breakdown);
+
+  const actions = document.createElement("div");
+  actions.className = "countdown-actions";
+  const remove = document.createElement("button");
+  remove.type = "button";
+  remove.className = "secondary-button";
+  remove.dataset.deleteCountdown = "";
+  remove.textContent = countdown ? "清除" : "捨棄草稿";
+  remove.hidden = !countdown && !draft?.dirty;
+  const save = document.createElement("button");
+  save.type = "button";
+  save.className = "primary-button";
+  save.dataset.saveCountdown = "";
+  save.textContent = "儲存倒數鐘";
+  actions.append(remove, save);
+
+  const note = document.createElement("p");
+  note.className = "countdown-empty-note";
+  note.dataset.countdownNote = "";
+  note.textContent = draft?.dirty
+    ? "尚未儲存的草稿已保留。"
+    : countdown
+      ? "已儲存於雲端"
+      : "尚未設定；填寫後按儲存。";
+  card.append(heading, fields, days, detailGrid, calculator, actions, note);
+
+  const update = () => updateCountdownCard(card);
+  card.addEventListener("input", (event) => {
+    if (event.target === daily && breakdown.hidden) {
+      breakdown.querySelectorAll("[data-countdown-part]").forEach((input) => { input.value = "0"; });
+    }
+    update();
+    rememberCountdownDraft(card);
+  });
+  card.addEventListener("change", () => {
+    update();
+    rememberCountdownDraft(card);
+  });
+  toggle.addEventListener("click", () => {
+    breakdown.hidden = !breakdown.hidden;
+    toggle.setAttribute("aria-expanded", String(!breakdown.hidden));
+    if (!breakdown.hidden) {
+      const sum = [...breakdown.querySelectorAll("[data-countdown-part]")]
+        .reduce((total, input) => total + (Number(input.value) || 0), 0);
+      if (sum > 0) daily.value = String(Math.round(sum * 100) / 100);
+    }
+    update();
+    rememberCountdownDraft(card, { dirty: card.dataset.countdownDirty === "true" });
+  });
+  toggle.setAttribute("aria-expanded", String(!breakdown.hidden));
+  update();
+  return card;
+}
+
+function updateCountdownCard(card) {
+  const start = card.querySelector("[data-countdown-start]").value;
+  const end = card.querySelector("[data-countdown-end]").value;
+  const title = card.querySelector("[data-countdown-title]").value.trim() || "此事件";
+  const detail = countdownBreakdown(start, end);
+  card.querySelector("[data-countdown-days]").textContent = `${detail.days} 日剩餘`;
+  card.querySelector('[data-countdown-breakdown="months"]').textContent = `${detail.months} 個月 ${detail.monthWeeks} 星期`;
+  card.querySelector('[data-countdown-breakdown="weeks"]').textContent = `${detail.weeks} 星期 ${detail.weekDays} 日`;
+  card.querySelector('[data-countdown-breakdown="hours"]').textContent = `${detail.hours} 小時 ${detail.hourMinutes} 分鐘`;
+  card.querySelector('[data-countdown-breakdown="minutes"]').textContent = `${detail.minutes.toLocaleString()} 分鐘`;
+
+  const breakdown = card.querySelector("[data-countdown-study-breakdown]");
+  const daily = card.querySelector("[data-countdown-daily-hours]");
+  if (!breakdown.hidden) {
+    const total = [...breakdown.querySelectorAll("[data-countdown-part]")]
+      .reduce((sum, input) => sum + (Number(input.value) || 0), 0);
+    daily.value = String(Math.round(total * 100) / 100);
+  }
+  const studyHours = studyHoursBefore(start, end, daily.value);
+  card.querySelector("[data-countdown-study-result]").textContent = `小時，每天累計可在「${title}」前溫習 ${studyHours.toLocaleString()} 小時`;
+  breakdown.querySelectorAll("[data-countdown-part]").forEach((input) => {
+    const partResult = breakdown.querySelector(`[data-countdown-part-result="${input.dataset.countdownPart}"]`);
+    partResult.textContent = `可在「${title}」前溫習 ${studyHoursBefore(start, end, input.value).toLocaleString()} 小時`;
+  });
+}
+
+function countdownCardValues(card) {
+  const parts = Object.fromEntries([...card.querySelectorAll("[data-countdown-part]")]
+    .map((input) => [input.dataset.countdownPart, Math.max(0, Number(input.value) || 0)]));
+  return {
+    position: Number(card.dataset.countdownPosition),
+    title: card.querySelector("[data-countdown-title]").value.trim(),
+    startDate: card.querySelector("[data-countdown-start]").value,
+    endDate: card.querySelector("[data-countdown-end]").value,
+    dailyHours: Math.max(0, Number(card.querySelector("[data-countdown-daily-hours]").value) || 0),
+    morningHours: parts.morning || 0,
+    afternoonHours: parts.afternoon || 0,
+    eveningHours: parts.evening || 0
+  };
+}
+
+function setCountdownCardBusy(card, busy) {
+  if (!card) return;
+  card.setAttribute("aria-busy", String(Boolean(busy)));
+  card.querySelectorAll("input, button").forEach((control) => {
+    control.disabled = Boolean(busy);
+  });
+}
+
+async function saveCountdown(card) {
+  if (state.mutationInFlight) return;
+  const values = countdownCardValues(card);
+  const persistedCapacity = Math.max(5, Number(state.weekPayload.countdownCapacity) || 5);
+  if (values.position > persistedCapacity) {
+    setStatus(elements.countdownStatus, `Clock ${values.position} 的草稿仍在；請先按「增加 5 個倒數鐘」再儲存。`, "error");
+    return;
+  }
+  if (!values.title) {
+    setStatus(elements.countdownStatus, `Clock ${values.position} 請輸入事件名稱。`, "error");
+    return;
+  }
+  if (!values.startDate || !values.endDate || values.endDate < values.startDate) {
+    setStatus(elements.countdownStatus, `Clock ${values.position} 的結束日期不可早於開始日期。`, "error");
+    return;
+  }
+  if ([values.dailyHours, values.morningHours, values.afternoonHours, values.eveningHours]
+    .some((hours) => hours < 0 || hours > 24)) {
+    setStatus(elements.countdownStatus, `Clock ${values.position} 的每日時數須為 0 至 24 小時。`, "error");
+    return;
+  }
+  setMutationInFlight(true);
+  setCountdownCardBusy(card, true);
+  setStatus(elements.countdownStatus, `正在儲存 Clock ${values.position}…`);
+  try {
+    const common = {
+      p_position: values.position,
+      p_title: values.title,
+      p_start_date: values.startDate,
+      p_end_date: values.endDate,
+      p_daily_hours: values.dailyHours,
+      p_morning_hours: values.morningHours,
+      p_afternoon_hours: values.afternoonHours,
+      p_evening_hours: values.eveningHours,
+      p_expected_updated_at: countdownByPosition(values.position)?.updatedAt || null
+    };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_upsert_countdown", { ...common, p_admin_token: state.currentUser.adminToken, p_student_id: activeStudent().id });
+    } else {
+      await callRpc("schedule_student_upsert_countdown", { ...common, p_token: state.currentUser.studentToken });
+    }
+    discardCountdownDraft(values.position);
+    showToast(`Clock ${values.position} 已儲存。`);
+    await loadWeek();
+  } catch (error) {
+    if (isConcurrencyError(error)) {
+      showToast("倒數鐘已在另一個頁面更新；草稿會保留並重新載入。", "error");
+      await loadWeek();
+    } else {
+      setStatus(elements.countdownStatus, error.message || "未能儲存倒數鐘。", "error");
+      if (isExpiredSessionError(error)) await logout();
+    }
+  } finally {
+    setCountdownCardBusy(card, false);
+    setMutationInFlight(false);
+  }
+}
+
+async function deleteCountdown(card) {
+  const position = Number(card.dataset.countdownPosition);
+  const countdown = countdownByPosition(position);
+  if (state.mutationInFlight) return;
+  if (!countdown) {
+    if (card.dataset.countdownDirty !== "true") return;
+    if (!window.confirm(`確定要捨棄 Clock ${position} 的未儲存草稿嗎？`)) return;
+    discardCountdownDraft(position);
+    renderCountdowns();
+    showToast(`Clock ${position} 的草稿已捨棄。`);
+    return;
+  }
+  if (!window.confirm(`確定要清除 Clock ${countdown.position}「${countdown.title}」嗎？`)) return;
+  setMutationInFlight(true);
+  setCountdownCardBusy(card, true);
+  try {
+    const common = { p_countdown_id: countdown.id, p_expected_updated_at: countdown.updatedAt };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_delete_countdown", { ...common, p_admin_token: state.currentUser.adminToken, p_student_id: activeStudent().id });
+    } else {
+      await callRpc("schedule_student_delete_countdown", { ...common, p_token: state.currentUser.studentToken });
+    }
+    discardCountdownDraft(countdown.position);
+    showToast(`Clock ${countdown.position} 已清除。`);
+    await loadWeek();
+  } catch (error) {
+    if (isConcurrencyError(error)) {
+      showToast("倒數鐘已在另一個頁面更新；已重新載入。", "error");
+      await loadWeek();
+    } else {
+      setStatus(elements.countdownStatus, error.message || "未能清除倒數鐘。", "error");
+    }
+  } finally {
+    setCountdownCardBusy(card, false);
+    setMutationInFlight(false);
+  }
+}
+
+async function changeCountdownCapacity(delta) {
+  if (state.mutationInFlight || ![-5, 5].includes(delta)) return;
+  captureCountdownDrafts();
+  const current = Math.max(5, Number(state.weekPayload.countdownCapacity) || 5);
+  const plan = planCountdownCapacityChange(current, delta, {
+    savedPositions: state.weekPayload.countdowns.map((countdown) => countdown.position),
+    dirtyPositions: [...state.countdownDrafts.entries()]
+      .filter(([, draft]) => draft?.dirty)
+      .map(([position]) => position),
+    maximum: MAX_COUNTDOWNS
+  });
+  if (!plan.allowed && plan.reason === "dirty") {
+    setStatus(
+      elements.countdownStatus,
+      `Clock ${Math.min(...plan.blockedPositions)}–${Math.max(...plan.blockedPositions)} 仍有未儲存草稿，請先儲存或清除。`,
+      "error"
+    );
+    return;
+  }
+  if (!plan.allowed && plan.reason === "saved") {
+    setStatus(elements.countdownStatus, "最後 5 個倒數鐘仍有資料，請先清除。", "error");
+    return;
+  }
+  if (!plan.allowed) return;
+  const { target } = plan;
+  setMutationInFlight(true);
+  try {
+    const common = { p_expected_count: current, p_delta: delta };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_change_countdown_capacity_checked", { ...common, p_admin_token: state.currentUser.adminToken, p_student_id: activeStudent().id });
+    } else {
+      await callRpc("schedule_student_change_countdown_capacity_checked", { ...common, p_token: state.currentUser.studentToken });
+    }
+    if (delta < 0) {
+      [...state.countdownDrafts.keys()].forEach((position) => {
+        if (position > target) state.countdownDrafts.delete(position);
+      });
+    }
+    showToast(delta > 0 ? "已增加 5 個倒數鐘。" : "已減少 5 個空白倒數鐘。");
+    await loadWeek();
+  } catch (error) {
+    if (isConcurrencyError(error)) {
+      showToast("倒數鐘數目已在另一個頁面更新；草稿會保留並重新載入。", "error");
+      await loadWeek();
+    } else {
+      setStatus(elements.countdownStatus, error.message || "未能調整倒數鐘數目。", "error");
+    }
+  } finally {
+    setMutationInFlight(false);
+  }
 }
 
 function saveSession() {
@@ -683,6 +1173,7 @@ function activeStudent() {
 async function loadWeek(focusTarget = null) {
   const student = activeStudent();
   if (!student) return;
+  captureCountdownDrafts();
   resetSelectionMode();
   const requestedWeek = state.weekStart;
   const requestId = state.weekRequestId + 1;
@@ -717,7 +1208,14 @@ async function loadWeek(focusTarget = null) {
       capacityVersions: payload.capacityVersions && typeof payload.capacityVersions === "object"
         ? payload.capacityVersions
         : {},
-      entries: Array.isArray(payload.entries) ? payload.entries : [],
+      entries: Array.isArray(payload.entries)
+        ? payload.entries.map((entry) => ({
+            ...entry,
+            estimatedMinutes: Number(entry.estimatedMinutes) || null,
+            isInProgress: entry.isInProgress === true,
+            spanGroupId: entry.spanGroupId || null
+          }))
+        : [],
       metrics: payload.metrics && typeof payload.metrics === "object"
         ? {
             weekGoals: Number(payload.metrics.weekGoals) || 0,
@@ -725,10 +1223,13 @@ async function loadWeek(focusTarget = null) {
             weekCompleted: Number(payload.metrics.weekCompleted) || 0,
             totalCompleted: Number(payload.metrics.totalCompleted) || 0
           }
-        : emptyWeekPayload().metrics
+        : emptyWeekPayload().metrics,
+      countdownCapacity: Math.max(5, Math.min(MAX_COUNTDOWNS, Number(payload.countdownCapacity) || 5)),
+      countdowns: Array.isArray(payload.countdowns) ? payload.countdowns : []
     };
     renderWeek();
     renderMetrics();
+    renderCountdowns();
     restoreCalendarFocus(focusTarget);
     elements.exportPdf.disabled = false;
     setStatus(elements.calendarStatus, `已儲存於雲端 · ${state.weekPayload.entries.length} 項安排`);
@@ -787,6 +1288,13 @@ function renderWeek() {
   const dates = weekDates(state.weekStart);
   const today = toISODate(new Date());
   const hideUnusedNow = unusedSlotsAreHidden();
+  const spanLayout = spanLaneLayout(state.weekPayload.entries, dates);
+  const spanEntriesByCell = new Map(state.weekPayload.entries
+    .filter((entry) => entry.spanGroupId && spanLayout.laneByGroup[entry.spanGroupId] !== undefined)
+    .map((entry) => [
+      `${entry.scheduleDate}:${spanLayout.laneByGroup[entry.spanGroupId]}`,
+      entry
+    ]));
   elements.weekGrid.replaceChildren();
 
   dates.forEach((date, dayIndex) => {
@@ -798,6 +1306,7 @@ function renderWeek() {
 
     const column = document.createElement("section");
     column.className = "day-column";
+    column.dataset.columnDate = date;
     column.setAttribute("aria-labelledby", `schedule-day-${date}`);
     if (dayIndex >= 5) column.classList.add("is-weekend");
     if (!active) column.classList.add("is-outside-range");
@@ -820,18 +1329,44 @@ function renderWeek() {
     const slots = document.createElement("div");
     slots.className = "day-slots";
     if (active) {
+      const ordinarySlots = document.createElement("div");
+      ordinarySlots.className = "ordinary-slot-list";
       let visibleSlots = 0;
       for (let slotIndex = 1; slotIndex <= capacity; slotIndex += 1) {
         const entry = entries.get(`${date}:${slotIndex}`);
+        if (entry?.spanGroupId) continue;
         if (hideUnusedNow && !entry) continue;
-        slots.append(createSlotButton(date, dayIndex, slotIndex, entry));
+        ordinarySlots.append(createSlotButton(date, dayIndex, slotIndex, entry));
         visibleSlots += 1;
+      }
+      slots.append(ordinarySlots);
+
+      if (spanLayout.laneCount) {
+        const spanLanes = document.createElement("div");
+        spanLanes.className = "span-lane-list";
+        spanLanes.dataset.spanLaneCount = String(spanLayout.laneCount);
+        for (let lane = 0; lane < spanLayout.laneCount; lane += 1) {
+          const entry = spanEntriesByCell.get(`${date}:${lane}`);
+          if (entry) {
+            const spanSlot = createSlotButton(date, dayIndex, Number(entry.slotIndex), entry);
+            spanSlot.dataset.spanLane = String(lane);
+            spanLanes.append(spanSlot);
+            visibleSlots += 1;
+          } else {
+            const placeholder = document.createElement("div");
+            placeholder.className = "span-lane-placeholder";
+            placeholder.dataset.spanLane = String(lane);
+            placeholder.setAttribute("aria-hidden", "true");
+            spanLanes.append(placeholder);
+          }
+        }
+        slots.append(spanLanes);
       }
       if (hideUnusedNow && visibleSlots === 0) {
         const note = document.createElement("p");
         note.className = "unused-day-note";
         note.textContent = "本日未有安排；\n未使用格已隱藏。";
-        slots.append(note);
+        ordinarySlots.append(note);
       }
     } else {
       const note = document.createElement("p");
@@ -842,6 +1377,14 @@ function renderWeek() {
 
     column.append(header, slots);
     if (active) {
+      const spanDropZone = document.createElement("button");
+      spanDropZone.type = "button";
+      spanDropZone.className = "span-drop-zone";
+      spanDropZone.dataset.spanDropDate = date;
+      spanDropZone.textContent = "拖放至此延伸多日項目";
+      spanDropZone.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}：拖放或在操作模式按此延伸多日項目`);
+      column.append(spanDropZone);
+
       const controls = document.createElement("div");
       controls.className = "capacity-controls";
 
@@ -868,7 +1411,7 @@ function renderWeek() {
   updateSelectionControls();
 }
 
-function createSlotButton(date, dayIndex, slotIndex, entry) {
+function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = false) {
   const button = document.createElement("button");
   button.type = "button";
   button.className = "schedule-slot";
@@ -876,7 +1419,7 @@ function createSlotButton(date, dayIndex, slotIndex, entry) {
   button.dataset.slotIndex = String(slotIndex);
   button.setAttribute(
     "aria-label",
-    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${entry.message}${entry.isCompleted ? "，已完成" : ""}` : "，新增安排"}`
+    `${WEEKDAY_LABELS[dayIndex]} ${formatDayDate(date)} 第 ${slotIndex} 格${entry ? `：${entry.message}${entry.isCompleted ? "，已完成" : entry.isInProgress ? "，進行中" : ""}` : "，新增安排"}`
   );
 
   const topLine = document.createElement("span");
@@ -891,6 +1434,12 @@ function createSlotButton(date, dayIndex, slotIndex, entry) {
     completion.className = "completion-badge";
     completion.textContent = "已完成";
     topLine.append(completion);
+  } else if (entry?.isInProgress) {
+    button.classList.add("is-in-progress");
+    const progress = document.createElement("span");
+    progress.className = "progress-badge";
+    progress.textContent = "進行中";
+    topLine.append(progress);
   }
   button.append(topLine);
 
@@ -898,6 +1447,24 @@ function createSlotButton(date, dayIndex, slotIndex, entry) {
     button.classList.add("has-entry");
     button.dataset.entryId = entry.id;
     button.draggable = canMoveEntry(entry);
+    if (canMoveEntry(entry)) button.classList.add("can-touch-drag");
+    if (state.touchActionEntryId && spanMemberIds(findEntryById(state.touchActionEntryId)).has(entry.id)) {
+      button.classList.add("is-touch-action");
+    }
+    if (entry.spanGroupId) {
+      const bounds = spanBounds(state.weekPayload.entries, entry);
+      button.classList.add("is-span-project");
+      if (spanBottomStart) button.classList.add("span-bottom-start");
+      if (entry.scheduleDate === bounds.start) button.classList.add("span-start");
+      else if (entry.scheduleDate === bounds.end) button.classList.add("span-end");
+      else button.classList.add("span-middle");
+      if (entry.scheduleDate !== bounds.end) button.classList.add("span-continues-right");
+      button.dataset.spanGroupId = entry.spanGroupId;
+      const spanBadge = document.createElement("span");
+      spanBadge.className = "span-badge";
+      spanBadge.textContent = `${bounds.length} 日項目`;
+      topLine.append(spanBadge);
+    }
     if (state.selectedEntryIds.has(entry.id)) {
       button.classList.add("is-selected");
       button.setAttribute("aria-pressed", "true");
@@ -913,6 +1480,12 @@ function createSlotButton(date, dayIndex, slotIndex, entry) {
     message.className = "entry-message";
     message.textContent = entry.message;
     button.append(source, message);
+    if (entry.estimatedMinutes) {
+      const time = document.createElement("span");
+      time.className = "estimated-time";
+      time.textContent = `預計需時：${formatEstimatedMinutes(entry.estimatedMinutes)}`;
+      button.append(time);
+    }
   } else {
     if (state.moveEntryId) button.classList.add("is-move-target");
     const placeholder = document.createElement("span");
@@ -953,8 +1526,12 @@ function cancelSelectionMode() {
 
 function toggleEntrySelection(entry) {
   if (!entry || state.mutationInFlight) return;
-  if (state.selectedEntryIds.has(entry.id)) state.selectedEntryIds.delete(entry.id);
-  else state.selectedEntryIds.add(entry.id);
+  const memberIds = spanMemberIds(entry);
+  const shouldSelect = ![...memberIds].every((id) => state.selectedEntryIds.has(id));
+  memberIds.forEach((id) => {
+    if (shouldSelect) state.selectedEntryIds.add(id);
+    else state.selectedEntryIds.delete(id);
+  });
   state.moveEntryId = null;
   renderWeek();
 }
@@ -1061,13 +1638,18 @@ function beginMoveSelected() {
 
 async function moveEntryTo(entry, targetDate, targetSlotIndex) {
   if (!entry || state.mutationInFlight || !canMoveEntry(entry)) return;
+  if (entry.spanGroupId) {
+    showToast("多日項目已固定在各日最底；可拖到相鄰日期繼續延伸。", "error");
+    return;
+  }
   const targetSlot = Number(targetSlotIndex);
   if (entry.scheduleDate === targetDate && Number(entry.slotIndex) === targetSlot) {
     showToast("安排已在這一格。", "error");
     return;
   }
-  if (findEntry(targetDate, targetSlot)) {
-    showToast("目標格已有安排，請選擇另一個空白格。", "error");
+  const targetEntry = findEntry(targetDate, targetSlot);
+  if (targetEntry && !canMoveEntry(targetEntry)) {
+    showToast("老師安排只可由管理員移動或交換。", "error");
     return;
   }
 
@@ -1084,29 +1666,32 @@ async function moveEntryTo(entry, targetDate, targetSlotIndex) {
       p_target_date: targetDate,
       p_target_slot_index: targetSlot,
       p_source_capacity_version: sourceVersion,
-      p_target_capacity_version: targetVersion
+      p_target_capacity_version: targetVersion,
+      p_target_expected_updated_at: targetEntry?.updatedAt || null
     };
     if (state.currentUser.role === "admin") {
-      await callRpc("schedule_admin_move_entry", {
+      await callRpc("schedule_admin_move_entry_checked", {
         ...common,
         p_admin_token: state.currentUser.adminToken,
         p_student_id: activeStudent().id
       });
     } else {
-      await callRpc("schedule_student_move_entry", {
+      await callRpc("schedule_student_move_entry_checked", {
         ...common,
         p_token: state.currentUser.studentToken
       });
     }
     state.suppressClickUntil = Date.now() + 400;
     state.showUnusedTemporarily = false;
-    showToast(`安排已移到 ${formatDayDate(targetDate)} 第 ${targetSlot} 格。`);
+    showToast(targetEntry
+      ? `兩項安排已交換位置。`
+      : `安排已移到 ${formatDayDate(targetDate)} 第 ${targetSlot} 格。`);
     await loadWeek({ date: targetDate, slotIndex: targetSlot });
   } catch (error) {
     console.warn("Schedule move failed", error);
     const message = String(error?.message || "");
-    if (/occupied|already contains|target slot/i.test(message)) {
-      showToast("目標格已有安排，請選擇另一個空白格。", "error");
+    if (/protected|teacher assignment/i.test(message)) {
+      showToast("老師安排只可由管理員移動或交換。", "error");
       await loadWeek();
     } else if (isConcurrencyError(error)) {
       showToast("日程已在另一個頁面更新；已重新載入。", "error");
@@ -1117,6 +1702,61 @@ async function moveEntryTo(entry, targetDate, targetSlotIndex) {
     }
   } finally {
     state.draggingEntryId = null;
+    setMutationInFlight(false);
+  }
+}
+
+async function extendEntryToDay(entry, targetDate, { adjacentOnly = false } = {}) {
+  if (!entry || state.mutationInFlight || !canMoveEntry(entry)) return;
+  const bounds = spanBounds(state.weekPayload.entries, entry);
+  if (adjacentOnly && !isAdjacentSpanTarget(state.weekPayload.entries, entry, targetDate)) {
+    showToast("多日項目每次只可延伸至相鄰的一天。", "error");
+    return;
+  }
+  if (!weekDates(state.weekStart).includes(targetDate)) {
+    showToast("多日項目只可在目前星期內延伸。", "error");
+    return;
+  }
+  if (targetDate >= bounds.start && targetDate <= bounds.end) {
+    showToast("這一天已包括在多日項目內。", "error");
+    return;
+  }
+
+  setMutationInFlight(true);
+  setStatus(elements.calendarStatus, "正在延伸多日項目…");
+  try {
+    const common = {
+      p_entry_id: entry.id,
+      p_expected_updated_at: entry.updatedAt,
+      p_target_date: targetDate
+    };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_extend_entry_span", {
+        ...common,
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id
+      });
+    } else {
+      await callRpc("schedule_student_extend_entry_span", {
+        ...common,
+        p_token: state.currentUser.studentToken
+      });
+    }
+    state.suppressClickUntil = Date.now() + 450;
+    leaveTouchActionMode();
+    showToast(`項目已延伸至 ${formatDayDate(targetDate)}，並排列在各日最底。`);
+    await loadWeek({ date: targetDate });
+  } catch (error) {
+    console.warn("Schedule span extension failed", error);
+    const message = String(error?.message || "");
+    if (isConcurrencyError(error)) {
+      showToast("日程已在另一個頁面更新；已重新載入。", "error");
+      await loadWeek();
+    } else {
+      setStatus(elements.calendarStatus, message || "未能延伸多日項目。", "error");
+      if (isExpiredSessionError(error)) await logout();
+    }
+  } finally {
     setMutationInFlight(false);
   }
 }
@@ -1132,6 +1772,8 @@ function openEntryDialog(date, slotIndex) {
   elements.entryMeta.textContent = `${WEEKDAY_LABELS[dayIndex] || "日期"} · ${formatDayDate(date)} · 第 ${slotIndex} 格`;
   elements.entryMessage.value = entry?.message || "";
   elements.entryMessage.readOnly = protectedTeacherEntry;
+  elements.entryEstimatedMinutes.value = entry?.estimatedMinutes || "";
+  elements.entryEstimatedMinutes.readOnly = protectedTeacherEntry;
   elements.entryHint.textContent = protectedTeacherEntry
     ? "老師安排只可由管理員修改或刪除；您仍可標記完成。"
     : "按 Enter 儲存；如要換行請按 Shift + Enter。";
@@ -1141,6 +1783,10 @@ function openEntryDialog(date, slotIndex) {
   elements.toggleComplete.dataset.completed = String(Boolean(entry?.isCompleted));
   elements.toggleComplete.setAttribute("aria-pressed", String(Boolean(entry?.isCompleted)));
   elements.toggleComplete.textContent = entry?.isCompleted ? "取消完成" : "標記完成";
+  elements.toggleProgress.hidden = !entry;
+  elements.toggleProgress.dataset.inProgress = String(Boolean(entry?.isInProgress));
+  elements.toggleProgress.setAttribute("aria-pressed", String(Boolean(entry?.isInProgress)));
+  elements.toggleProgress.textContent = entry?.isInProgress ? "取消進行中" : "標記進行中";
   setStatus(elements.entryStatus, "");
   elements.entryDialog.showModal();
   window.setTimeout(() => {
@@ -1161,6 +1807,13 @@ async function saveEntry(event) {
     setStatus(elements.entryStatus, "請輸入功課或溫習內容。", "error");
     return;
   }
+  const estimatedMinutes = elements.entryEstimatedMinutes.value === ""
+    ? null
+    : Math.round(Number(elements.entryEstimatedMinutes.value));
+  if (estimatedMinutes !== null && (!Number.isFinite(estimatedMinutes) || estimatedMinutes < 1 || estimatedMinutes > 10080)) {
+    setStatus(elements.entryStatus, "預計需時請輸入 1 至 10080 分鐘。", "error");
+    return;
+  }
 
   const submit = elements.entryForm.querySelector("[data-save-entry]");
   submit.disabled = true;
@@ -1173,6 +1826,7 @@ async function saveEntry(event) {
         p_schedule_date: state.editing.date,
         p_slot_index: state.editing.slotIndex,
         p_message: message,
+        p_estimated_minutes: estimatedMinutes,
         p_expected_updated_at: state.editing.entry?.updatedAt || null
       });
     } else {
@@ -1181,6 +1835,7 @@ async function saveEntry(event) {
         p_schedule_date: state.editing.date,
         p_slot_index: state.editing.slotIndex,
         p_message: message,
+        p_estimated_minutes: estimatedMinutes,
         p_expected_updated_at: state.editing.entry?.updatedAt || null
       });
     }
@@ -1292,6 +1947,49 @@ async function toggleEntryCompletion() {
   }
 }
 
+async function toggleEntryProgress() {
+  if (!state.editing?.entry) return;
+  const entry = state.editing.entry;
+  const inProgress = !Boolean(entry.isInProgress);
+  const focusTarget = { date: state.editing.date, slotIndex: state.editing.slotIndex };
+  elements.toggleProgress.disabled = true;
+  setStatus(elements.entryStatus, inProgress ? "正在標記進行中…" : "正在取消進行中標記…");
+  try {
+    const common = {
+      p_entry_id: entry.id,
+      p_expected_updated_at: entry.updatedAt,
+      p_in_progress: inProgress
+    };
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_set_entry_in_progress", {
+        ...common,
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: activeStudent().id
+      });
+    } else {
+      await callRpc("schedule_student_set_entry_in_progress", {
+        ...common,
+        p_token: state.currentUser.studentToken
+      });
+    }
+    elements.entryDialog.close();
+    showToast(inProgress ? "這項安排已標記為進行中。" : "已取消進行中標記。");
+    await loadWeek(focusTarget);
+  } catch (error) {
+    console.warn("Schedule progress update failed", error);
+    if (isConcurrencyError(error)) {
+      elements.entryDialog.close();
+      showToast("這一格已在另一個頁面更新；日程已重新載入。", "error");
+      await loadWeek(focusTarget);
+      return;
+    }
+    setStatus(elements.entryStatus, error.message || "未能更新進行中狀態，請再試一次。", "error");
+    if (isExpiredSessionError(error)) await logout();
+  } finally {
+    elements.toggleProgress.disabled = false;
+  }
+}
+
 async function changeCapacity(date, delta, button) {
   if (state.mutationInFlight || ![5, -5].includes(delta)) return;
   button.disabled = true;
@@ -1396,14 +2094,15 @@ function preparePrintSheet() {
         const card = document.createElement("article");
         card.className = `print-entry-card ${entry.source === "admin" ? "print-entry-admin" : "print-entry-student"}`;
         if (entry.isCompleted) card.classList.add("print-entry-completed");
+        if (entry.isInProgress) card.classList.add("print-entry-progress");
         const label = document.createElement("span");
         label.className = "print-slot-label";
         label.textContent = `第 ${entry.slotIndex} 格`;
         const source = document.createElement("span");
         source.className = "print-source";
-        source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : ""}`;
+        source.textContent = `${entry.source === "admin" ? "老師安排" : "學生安排"}${entry.isCompleted ? " · 已完成" : entry.isInProgress ? " · 進行中" : ""}`;
         const message = document.createElement("p");
-        message.textContent = entry.message;
+        message.textContent = `${entry.message}${entry.estimatedMinutes ? `\n預計需時：${formatEstimatedMinutes(entry.estimatedMinutes)}` : ""}`;
         card.append(label, source, message);
         list.append(card);
       });
@@ -1459,16 +2158,39 @@ elements.passwordToggle.addEventListener("click", () => {
 
 elements.weekGrid.addEventListener("click", (event) => {
   if (state.mutationInFlight) return;
+  // A long-press release synthesizes a click on the source slot. Consume that
+  // click before action-mode handling so the blue mode remains active for the
+  // user's following adjacent-day tap.
+  if (Date.now() < state.suppressClickUntil) return;
+  const spanDropZone = event.target.closest("[data-span-drop-date]");
   const slot = event.target.closest("[data-slot-date]");
+  if (state.touchActionEntryId) {
+    const actionEntry = findEntryById(state.touchActionEntryId);
+    if (spanDropZone) {
+      extendEntryToDay(actionEntry, spanDropZone.dataset.spanDropDate, { adjacentOnly: true });
+      return;
+    }
+    if (slot) {
+      const targetEntry = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+      if (targetEntry && spanMemberIds(actionEntry).has(targetEntry.id)) {
+        leaveTouchActionMode();
+        renderWeek();
+        showToast("已退出操作模式。");
+      } else {
+        moveEntryTo(actionEntry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+      }
+      return;
+    }
+  }
+  if (spanDropZone) {
+    showToast("請先拖曳一項安排到此處；手機或平板可長按安排 2 秒。", "success");
+    return;
+  }
   if (slot) {
-    if (Date.now() < state.suppressClickUntil || state.mutationInFlight) return;
     const entry = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
     if (state.moveEntryId) {
-      if (entry) {
-        showToast(entry.id === state.moveEntryId ? "請選擇另一個空白格。" : "目標格已有安排，請選擇空白格。", "error");
-      } else {
-        moveEntryTo(findEntryById(state.moveEntryId), slot.dataset.slotDate, Number(slot.dataset.slotIndex));
-      }
+      if (entry?.id === state.moveEntryId) showToast("請選擇另一個安排格。", "error");
+      else moveEntryTo(findEntryById(state.moveEntryId), slot.dataset.slotDate, Number(slot.dataset.slotIndex));
       return;
     }
     if (state.selectionMode) {
@@ -1496,14 +2218,7 @@ elements.weekGrid.addEventListener("dragstart", (event) => {
     event.preventDefault();
     return;
   }
-  if (unusedSlotsAreHidden()) {
-    event.preventDefault();
-    state.showUnusedTemporarily = true;
-    applyDisplayPreferences();
-    renderWeek();
-    showToast("已顯示所有格，請再拖曳一次。", "success");
-    return;
-  }
+  leaveTouchActionMode();
   state.draggingEntryId = entry.id;
   slot.classList.add("is-dragging");
   event.dataTransfer.effectAllowed = "move";
@@ -1512,37 +2227,132 @@ elements.weekGrid.addEventListener("dragstart", (event) => {
 
 elements.weekGrid.addEventListener("dragover", (event) => {
   if (!state.draggingEntryId || state.mutationInFlight) return;
+  const spanDropZone = event.target.closest("[data-span-drop-date]");
   const slot = event.target.closest("[data-slot-date]");
-  if (!slot) return;
-  event.preventDefault();
-  const occupied = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
-  event.dataTransfer.dropEffect = occupied ? "none" : "move";
-  slot.classList.toggle("is-drop-target", !occupied);
+  if (!slot && !spanDropZone) return;
+  const entry = findEntryById(state.draggingEntryId);
+  if (spanDropZone) {
+    const bounds = spanBounds(state.weekPayload.entries, entry);
+    const targetDate = spanDropZone.dataset.spanDropDate;
+    if (targetDate < bounds.start || targetDate > bounds.end) {
+      event.preventDefault();
+      event.dataTransfer.dropEffect = "copy";
+      spanDropZone.classList.add("is-span-target");
+    }
+  } else if (slot) {
+    const occupied = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+    if (occupied && (!canMoveEntry(occupied) || occupied.spanGroupId)) return;
+    event.preventDefault();
+    event.dataTransfer.dropEffect = "move";
+    slot.classList.toggle("is-swap-target", Boolean(occupied && occupied.id !== entry?.id));
+    slot.classList.toggle("is-drop-target", !occupied);
+  }
 });
 
 elements.weekGrid.addEventListener("dragleave", (event) => {
   const slot = event.target.closest("[data-slot-date]");
-  if (slot && !slot.contains(event.relatedTarget)) slot.classList.remove("is-drop-target");
+  if (slot && !slot.contains(event.relatedTarget)) slot.classList.remove("is-drop-target", "is-swap-target");
+  const spanDropZone = event.target.closest("[data-span-drop-date]");
+  if (spanDropZone && !spanDropZone.contains(event.relatedTarget)) spanDropZone.classList.remove("is-span-target");
 });
 
 elements.weekGrid.addEventListener("drop", (event) => {
+  const spanDropZone = event.target.closest("[data-span-drop-date]");
   const slot = event.target.closest("[data-slot-date]");
-  if (!slot || !state.draggingEntryId) return;
+  if ((!slot && !spanDropZone) || !state.draggingEntryId) return;
   event.preventDefault();
-  elements.weekGrid.querySelectorAll(".is-drop-target").forEach((item) => item.classList.remove("is-drop-target"));
+  elements.weekGrid.querySelectorAll(".is-drop-target, .is-swap-target, .is-span-target").forEach((item) => item.classList.remove("is-drop-target", "is-swap-target", "is-span-target"));
   const entry = findEntryById(state.draggingEntryId);
-  if (findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex))) {
-    showToast("目標格已有安排，請選擇另一個空白格。", "error");
-    return;
-  }
-  moveEntryTo(entry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+  if (spanDropZone) extendEntryToDay(entry, spanDropZone.dataset.spanDropDate);
+  else moveEntryTo(entry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
 });
 
 elements.weekGrid.addEventListener("dragend", () => {
   state.draggingEntryId = null;
-  elements.weekGrid.querySelectorAll(".is-dragging, .is-drop-target").forEach((item) => {
-    item.classList.remove("is-dragging", "is-drop-target");
+  elements.weekGrid.querySelectorAll(".is-dragging, .is-drop-target, .is-swap-target, .is-span-target").forEach((item) => {
+    item.classList.remove("is-dragging", "is-drop-target", "is-swap-target", "is-span-target");
   });
+});
+
+elements.weekGrid.addEventListener("pointerdown", (event) => {
+  if (!['touch', 'pen'].includes(event.pointerType) || state.mutationInFlight) return;
+  if (state.touchActionEntryId) return;
+  const slot = event.target.closest("[data-entry-id]");
+  if (!slot) return;
+  const entry = findEntryById(slot.dataset.entryId);
+  if (!canMoveEntry(entry)) return;
+  clearLongPress();
+  state.longPressPointerId = event.pointerId;
+  state.longPressOrigin = { x: event.clientX, y: event.clientY };
+  state.longPressTimer = window.setTimeout(() => {
+    state.longPressTimer = null;
+    state.touchActionEntryId = entry.id;
+    state.suppressClickUntil = Date.now() + 500;
+    try {
+      slot.setPointerCapture(event.pointerId);
+    } catch {
+      // Some older touch browsers do not expose pointer capture on buttons.
+    }
+    const memberIds = spanMemberIds(entry);
+    elements.weekGrid.querySelectorAll("[data-entry-id]").forEach((candidate) => {
+      if (memberIds.has(candidate.dataset.entryId)) candidate.classList.add("is-touch-action");
+    });
+    if (navigator.vibrate) navigator.vibrate(35);
+    showToast("操作模式已開啟：拖到安排格可移動／交換；放到相鄰日期的延伸區可建立多日項目。", "success");
+  }, LONG_PRESS_MS);
+});
+
+elements.weekGrid.addEventListener("pointermove", (event) => {
+  if (event.pointerId !== state.longPressPointerId) return;
+  if (state.longPressTimer && state.longPressOrigin) {
+    const distance = Math.hypot(event.clientX - state.longPressOrigin.x, event.clientY - state.longPressOrigin.y);
+    if (distance > 14) clearLongPress();
+    return;
+  }
+  if (!state.touchActionEntryId) return;
+  event.preventDefault();
+  const target = document.elementFromPoint(event.clientX, event.clientY);
+  elements.weekGrid.querySelectorAll(".is-drop-target, .is-swap-target, .is-span-target")
+    .forEach((element) => element.classList.remove("is-drop-target", "is-swap-target", "is-span-target"));
+  const spanDropZone = target?.closest?.("[data-span-drop-date]");
+  const slot = target?.closest?.("[data-slot-date]");
+  const actionEntry = findEntryById(state.touchActionEntryId);
+  if (spanDropZone && isAdjacentSpanTarget(state.weekPayload.entries, actionEntry, spanDropZone.dataset.spanDropDate)) {
+    spanDropZone.classList.add("is-span-target");
+  } else if (slot) {
+    const occupied = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+    slot.classList.add(occupied ? "is-swap-target" : "is-drop-target");
+  }
+}, { passive: false });
+
+elements.weekGrid.addEventListener("pointerup", (event) => {
+  if (event.pointerId !== state.longPressPointerId) return;
+  const wasPending = Boolean(state.longPressTimer);
+  try {
+    event.target.releasePointerCapture?.(event.pointerId);
+  } catch {
+    // Pointer capture can already be released by the browser.
+  }
+  clearLongPress();
+  if (wasPending || !state.touchActionEntryId) return;
+  state.suppressClickUntil = Date.now() + 500;
+  const target = document.elementFromPoint(event.clientX, event.clientY);
+  const spanDropZone = target?.closest?.("[data-span-drop-date]");
+  const slot = target?.closest?.("[data-slot-date]");
+  const entry = findEntryById(state.touchActionEntryId);
+  if (spanDropZone && isAdjacentSpanTarget(state.weekPayload.entries, entry, spanDropZone.dataset.spanDropDate)) {
+    extendEntryToDay(entry, spanDropZone.dataset.spanDropDate, { adjacentOnly: true });
+  } else if (slot) {
+    const targetEntry = findEntry(slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+    if (!targetEntry || !spanMemberIds(entry).has(targetEntry.id)) {
+      moveEntryTo(entry, slot.dataset.slotDate, Number(slot.dataset.slotIndex));
+    }
+  }
+});
+
+elements.weekGrid.addEventListener("pointercancel", clearLongPress);
+elements.weekGrid.addEventListener("contextmenu", (event) => {
+  if (state.touchActionEntryId || state.longPressTimer) event.preventDefault();
 });
 
 elements.entryForm.addEventListener("submit", saveEntry);
@@ -1555,6 +2365,7 @@ elements.entryMessage.addEventListener("keydown", (event) => {
 elements.closeEntry.addEventListener("click", () => elements.entryDialog.close());
 elements.deleteEntry.addEventListener("click", () => elements.deleteDialog.showModal());
 elements.toggleComplete.addEventListener("click", toggleEntryCompletion);
+elements.toggleProgress.addEventListener("click", toggleEntryProgress);
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
@@ -1574,6 +2385,14 @@ elements.batchComplete?.addEventListener("click", batchSetCompletion);
 elements.moveSelected?.addEventListener("click", beginMoveSelected);
 elements.batchDelete?.addEventListener("click", batchDeleteEntries);
 elements.cancelSelection?.addEventListener("click", cancelSelectionMode);
+elements.addCountdowns?.addEventListener("click", () => changeCountdownCapacity(5));
+elements.removeCountdowns?.addEventListener("click", () => changeCountdownCapacity(-5));
+elements.countdownGrid?.addEventListener("click", (event) => {
+  const card = event.target.closest("[data-countdown-position]");
+  if (!card) return;
+  if (event.target.closest("[data-save-countdown]")) saveCountdown(card);
+  else if (event.target.closest("[data-delete-countdown]")) deleteCountdown(card);
+});
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && state.selectionMode && !elements.entryDialog.open && !elements.deleteDialog.open) {
