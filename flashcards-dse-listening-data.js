@@ -1,4 +1,4 @@
-/* Generated from the 48 DSE Listening PDFs by import_dse_listening.py. */
+/* Generated from 48 DSE Listening PDFs and 6 DSE Podcast PDFs. */
 window.EDMUND_DSE_LISTENING_SEED = {
   "dse/paper-3/part-a-listening/2012 DSE/Task 1 (Transcript)": [
     {
@@ -157632,7 +157632,23847 @@ window.EDMUND_DSE_LISTENING_SEED = {
       "source": "Flash Card - DSE Listening - 2025 - Task 4.pdf",
       "sourcePage": 10
     }
-  ]
+  ],
+  "dse/paper-3/podcast/2019": [
+  {
+    "front": "Visual Media Festival",
+    "meaning": "視覺媒體節",
+    "examples": [
+      {
+        "en": "Mira wants to discuss the Visual Media Festival.",
+        "zh": "Mira 想討論視覺媒體節。"
+      },
+      {
+        "en": "A Visual Media Festival is an event that celebrates films, videos, digital images, and other screen-based works.",
+        "zh": "Visual Media Festival 指慶祝電影、影片、數碼影像和其他螢幕作品的活動。"
+      },
+      {
+        "en": "Students may join a Visual Media Festival to watch short films and learn about storytelling.",
+        "zh": "學生可以參加視覺媒體節，觀看短片並學習敘事技巧。"
+      },
+      {
+        "en": "A Visual Media Festival can attract young creators because it gives them a place to show their work.",
+        "zh": "視覺媒體節可以吸引年輕創作者，因為它給他們展示作品的平台。"
+      },
+      {
+        "en": "This phrase is useful when talking about arts events involving film, video, photography, or digital media.",
+        "zh": "當談論涉及電影、影片、攝影或數碼媒體的藝術活動時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "follow up on",
+    "meaning": "跟進……",
+    "examples": [
+      {
+        "en": "We should follow up on the committee meeting we had last week.",
+        "zh": "我們應該跟進上星期的委員會會議。"
+      },
+      {
+        "en": "To follow up on something means to continue dealing with it after it has already been discussed or started.",
+        "zh": "follow up on something 指在某事已經討論或開始後，繼續處理它。"
+      },
+      {
+        "en": "After a parent meeting, a teacher may follow up on the issues by sending an email.",
+        "zh": "家長會後，老師可能會透過電郵跟進相關問題。"
+      },
+      {
+        "en": "If nobody follows up on a decision, the plan may stop at the discussion stage.",
+        "zh": "如果沒有人跟進一項決定，計劃可能只停留在討論階段。"
+      },
+      {
+        "en": "This phrase is useful when checking progress, solving unfinished problems, or continuing previous work.",
+        "zh": "當檢查進度、處理未完成問題或延續之前工作時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "committee meeting",
+    "meaning": "委員會會議",
+    "examples": [
+      {
+        "en": "We should follow up on the committee meeting we had last week.",
+        "zh": "我們應該跟進上星期的委員會會議。"
+      },
+      {
+        "en": "A committee meeting is a formal discussion held by a group responsible for making decisions or giving advice.",
+        "zh": "committee meeting 指由負責作決定或提供意見的小組舉行的正式討論。"
+      },
+      {
+        "en": "The school held a committee meeting to discuss the annual open day.",
+        "zh": "學校舉行委員會會議，討論年度開放日。"
+      },
+      {
+        "en": "A committee meeting can produce action points that need to be followed up later.",
+        "zh": "委員會會議可以產生之後需要跟進的行動事項。"
+      },
+      {
+        "en": "This phrase is common in schools, organisations, clubs, and public bodies.",
+        "zh": "這個說法常見於學校、機構、學會和公共組織。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "see where we are at",
+    "meaning": "了解目前進度",
+    "examples": [
+      {
+        "en": "We need to see where we are at as regards the Visual Media Festival.",
+        "zh": "關於視覺媒體節，我們需要了解目前進度。"
+      },
+      {
+        "en": "To see where we are at means to check the current progress or situation.",
+        "zh": "see where we are at 指查看目前進度或情況。"
+      },
+      {
+        "en": "Before planning new tasks, the team should see where they are at with the project.",
+        "zh": "在規劃新任務前，團隊應先了解項目的目前進度。"
+      },
+      {
+        "en": "Seeing where we are at helps people notice what is finished and what still needs work.",
+        "zh": "了解目前進度可以幫助人知道哪些已完成，哪些仍需要處理。"
+      },
+      {
+        "en": "This phrase is useful in meetings when people need a progress update.",
+        "zh": "當會議中需要進度更新時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "as regards",
+    "meaning": "關於；至於",
+    "examples": [
+      {
+        "en": "We need to see where we are at as regards the Visual Media Festival.",
+        "zh": "關於視覺媒體節，我們需要了解目前進度。"
+      },
+      {
+        "en": "As regards means concerning or in relation to a particular topic.",
+        "zh": "as regards 指關於某個特定題目。"
+      },
+      {
+        "en": "As regards the school trip, parents will receive a full schedule tomorrow.",
+        "zh": "關於學校旅行，家長明天會收到完整時間表。"
+      },
+      {
+        "en": "This phrase helps introduce the exact topic being discussed.",
+        "zh": "這個說法有助引入正在討論的具體題目。"
+      },
+      {
+        "en": "It is more formal than “about” and is common in meetings or written updates.",
+        "zh": "它比 “about” 較正式，常見於會議或書面更新。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "discuss both parts",
+    "meaning": "討論兩個部分",
+    "examples": [
+      {
+        "en": "We need to discuss both parts of the festival.",
+        "zh": "我們需要討論這個節日的兩個部分。"
+      },
+      {
+        "en": "To discuss both parts means to talk about the two separate sections of something.",
+        "zh": "discuss both parts 指討論某事的兩個獨立部分。"
+      },
+      {
+        "en": "In a school event, teachers may need to discuss both parts: the performance and the prize ceremony.",
+        "zh": "在學校活動中，老師可能需要討論兩個部分：表演和頒獎禮。"
+      },
+      {
+        "en": "Discussing both parts prevents one section from being planned carefully while the other is forgotten.",
+        "zh": "討論兩個部分可以避免一部分被仔細安排，而另一部分被遺忘。"
+      },
+      {
+        "en": "This phrase is useful when an event has two main components.",
+        "zh": "當活動有兩個主要組成部分時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "Youth by Youth Short Video Competition",
+    "meaning": "Youth by Youth 短片比賽",
+    "examples": [
+      {
+        "en": "The Youth by Youth Short Video Competition is part of the festival.",
+        "zh": "Youth by Youth 短片比賽是這個節日的一部分。"
+      },
+      {
+        "en": "The Youth by Youth Short Video Competition is a competition where young people create and submit short videos.",
+        "zh": "Youth by Youth Short Video Competition 指年輕人創作並提交短片的比賽。"
+      },
+      {
+        "en": "Students may join the Youth by Youth Short Video Competition to express ideas about their lives.",
+        "zh": "學生可以參加 Youth by Youth 短片比賽，表達關於自己生活的想法。"
+      },
+      {
+        "en": "A youth video competition can encourage creativity because participants tell stories in their own voice.",
+        "zh": "青少年短片比賽可以鼓勵創意，因為參加者用自己的聲音說故事。"
+      },
+      {
+        "en": "This name should be kept in English because it is the official title of the competition.",
+        "zh": "這個名稱應保留英文，因為它是比賽的正式名稱。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "screening of the film",
+    "meaning": "電影放映",
+    "examples": [
+      {
+        "en": "We need to discuss the screening of the film The Electronic Durian.",
+        "zh": "我們需要討論電影 The Electronic Durian 的放映。"
+      },
+      {
+        "en": "The screening of a film is the event where the film is shown to an audience.",
+        "zh": "screening of a film 指向觀眾播放電影的活動。"
+      },
+      {
+        "en": "The school arranged a screening of the film in the hall after lessons.",
+        "zh": "學校在放學後於禮堂安排電影放映。"
+      },
+      {
+        "en": "A film screening needs a venue, equipment, tickets, and a clear schedule.",
+        "zh": "電影放映需要場地、設備、門票和清楚時間表。"
+      },
+      {
+        "en": "This phrase is useful when talking about cinema events or public showings.",
+        "zh": "當談論戲院活動或公開放映時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "The Electronic Durian",
+    "meaning": "The Electronic Durian",
+    "examples": [
+      {
+        "en": "The Electronic Durian will be screened at the festival.",
+        "zh": "The Electronic Durian 將會在視覺媒體節放映。"
+      },
+      {
+        "en": "The Electronic Durian is the title of the film being discussed in the meeting.",
+        "zh": "The Electronic Durian 是會議中討論的電影名稱。"
+      },
+      {
+        "en": "Viewers may attend the festival specifically to watch The Electronic Durian.",
+        "zh": "觀眾可能專程參加這個節日觀看 The Electronic Durian。"
+      },
+      {
+        "en": "If The Electronic Durian uses special viewing equipment, the organisers must prepare carefully.",
+        "zh": "如果 The Electronic Durian 使用特別觀影設備，主辦方必須仔細準備。"
+      },
+      {
+        "en": "This title should be kept in English because it is the film’s proper name.",
+        "zh": "這個名稱應保留英文，因為它是電影的專有名稱。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "let’s start with",
+    "meaning": "我們先由……開始",
+    "examples": [
+      {
+        "en": "Let’s start with the Youth by Youth Short Video Competition.",
+        "zh": "我們先由 Youth by Youth 短片比賽開始。"
+      },
+      {
+        "en": "Let’s start with means let us discuss or do this thing first.",
+        "zh": "let’s start with 指我們先討論或先做某件事。"
+      },
+      {
+        "en": "In a meeting, a manager may say, “Let’s start with the budget.”",
+        "zh": "在會議中，經理可能會說：「我們先由預算開始。」"
+      },
+      {
+        "en": "Starting with one clear topic helps everyone follow the discussion.",
+        "zh": "由一個清晰題目開始，可以幫助大家跟上討論。"
+      },
+      {
+        "en": "This phrase is useful when organising several agenda items.",
+        "zh": "當整理幾個議程項目時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "short video competition",
+    "meaning": "短片比賽",
+    "examples": [
+      {
+        "en": "The entries for the short video competition are not coming in quickly.",
+        "zh": "短片比賽的參賽作品提交速度不快。"
+      },
+      {
+        "en": "A short video competition is a contest where people submit brief videos for judging.",
+        "zh": "short video competition 指參加者提交短片供評審的比賽。"
+      },
+      {
+        "en": "A school may hold a short video competition about environmental protection.",
+        "zh": "學校可能舉辦一個關於環保的短片比賽。"
+      },
+      {
+        "en": "If few people join a short video competition, organisers may need stronger promotion.",
+        "zh": "如果很少人參加短片比賽，主辦方可能需要更強宣傳。"
+      },
+      {
+        "en": "This phrase is useful for youth events, festivals, and online campaigns.",
+        "zh": "這個說法適用於青年活動、節日和網上宣傳。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "entries for the competition",
+    "meaning": "比賽參賽作品",
+    "examples": [
+      {
+        "en": "How are the entries for the competition coming along?",
+        "zh": "比賽參賽作品的進展如何？"
+      },
+      {
+        "en": "Entries for the competition are the works or applications submitted by participants.",
+        "zh": "entries for the competition 指參加者提交的作品或申請。"
+      },
+      {
+        "en": "The teacher checked the entries for the competition before sending them to the judges.",
+        "zh": "老師在把作品交給評判前，檢查了比賽參賽作品。"
+      },
+      {
+        "en": "If the entries for the competition are too few, the organiser may extend the deadline.",
+        "zh": "如果比賽參賽作品太少，主辦方可能會延長截止日期。"
+      },
+      {
+        "en": "This phrase is common when discussing contests, awards, and creative events.",
+        "zh": "這個說法常見於討論比賽、獎項和創意活動。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "come along",
+    "meaning": "進展如何",
+    "examples": [
+      {
+        "en": "How are the entries coming along?",
+        "zh": "參賽作品進展如何？"
+      },
+      {
+        "en": "To come along means to develop, progress, or move forward.",
+        "zh": "come along 指發展、進展或向前推進。"
+      },
+      {
+        "en": "The teacher asked, “How is your science project coming along?”",
+        "zh": "老師問：「你的科學專題進展如何？」"
+      },
+      {
+        "en": "If a plan is not coming along well, the team may need more time or support.",
+        "zh": "如果計劃進展不理想，團隊可能需要更多時間或支援。"
+      },
+      {
+        "en": "This phrase is useful when checking progress in a friendly way.",
+        "zh": "這個說法適合用於友善地詢問進度。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "not great",
+    "meaning": "不太理想",
+    "examples": [
+      {
+        "en": "The number of entries is not great.",
+        "zh": "參賽作品數量不太理想。"
+      },
+      {
+        "en": "Not great means not very good or not satisfactory.",
+        "zh": "not great 指不是很好或不令人滿意。"
+      },
+      {
+        "en": "My test result was not great, so I need to revise more carefully.",
+        "zh": "我的測驗成績不太理想，所以我需要更仔細溫習。"
+      },
+      {
+        "en": "If ticket sales are not great, organisers may need to improve publicity.",
+        "zh": "如果門票銷售不太理想，主辦方可能需要改善宣傳。"
+      },
+      {
+        "en": "This phrase is softer than saying something is terrible.",
+        "zh": "這個說法比直接說某事很差較溫和。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "only had three entries so far",
+    "meaning": "到目前為止只有三份參賽作品",
+    "examples": [
+      {
+        "en": "We have only had three entries so far.",
+        "zh": "我們到目前為止只有三份參賽作品。"
+      },
+      {
+        "en": "Only had three entries so far means only three works have been received up to now.",
+        "zh": "only had three entries so far 指到現在為止只收到三份作品。"
+      },
+      {
+        "en": "The teacher was worried because the class had only had three entries so far for the poster contest.",
+        "zh": "老師很擔心，因為班上的海報比賽到目前為止只有三份參賽作品。"
+      },
+      {
+        "en": "If a competition has only had three entries so far, the deadline or promotion may need to change.",
+        "zh": "如果比賽到目前為止只有三份參賽作品，截止日期或宣傳可能需要改變。"
+      },
+      {
+        "en": "This phrase shows that the current number is lower than expected.",
+        "zh": "這個說法顯示目前數量低於預期。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "so far",
+    "meaning": "到目前為止",
+    "examples": [
+      {
+        "en": "We have only had three entries so far.",
+        "zh": "我們到目前為止只有三份參賽作品。"
+      },
+      {
+        "en": "So far means up to this point in time.",
+        "zh": "so far 指截至目前這一刻。"
+      },
+      {
+        "en": "The lesson has been easy so far, but the next part may be harder.",
+        "zh": "這堂課到目前為止很容易，但下一部分可能較難。"
+      },
+      {
+        "en": "If only a few people have signed up so far, the organiser still has time to promote the event.",
+        "zh": "如果到目前為止只有少數人報名，主辦方仍有時間宣傳活動。"
+      },
+      {
+        "en": "This phrase is useful when the situation may change later.",
+        "zh": "當情況之後可能會改變時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "change the design of",
+    "meaning": "更改……的設計",
+    "examples": [
+      {
+        "en": "Maude needs to change the design of the poster.",
+        "zh": "Maude 需要更改海報的設計。"
+      },
+      {
+        "en": "To change the design of something means to alter how it looks, is arranged, or is presented.",
+        "zh": "change the design of something 指改變某物的外觀、排列或呈現方式。"
+      },
+      {
+        "en": "The school changed the design of the noticeboard to make information easier to read.",
+        "zh": "學校更改通告板的設計，令資訊更容易閱讀。"
+      },
+      {
+        "en": "Changing the design of a poster can help correct mistakes and attract more attention.",
+        "zh": "更改海報設計可以幫助更正錯誤並吸引更多注意。"
+      },
+      {
+        "en": "This phrase is useful when talking about visual materials, websites, or products.",
+        "zh": "當談論視覺材料、網站或產品時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "poster design",
+    "meaning": "海報設計",
+    "examples": [
+      {
+        "en": "Mira was thinking more about Maude’s poster design.",
+        "zh": "Mira 進一步思考 Maude 的海報設計。"
+      },
+      {
+        "en": "Poster design means the visual layout, colours, images, and text arrangement of a poster.",
+        "zh": "poster design 指海報的視覺版面、顏色、圖片和文字安排。"
+      },
+      {
+        "en": "Good poster design helps people understand the event quickly.",
+        "zh": "好的海報設計幫助人快速了解活動。"
+      },
+      {
+        "en": "If the poster design is confusing, viewers may miss important information like the date or website.",
+        "zh": "如果海報設計混亂，觀眾可能會錯過日期或網站等重要資訊。"
+      },
+      {
+        "en": "This phrase is common in advertising, school projects, and event planning.",
+        "zh": "這個說法常見於廣告、學校專題和活動策劃。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "encourage more entries",
+    "meaning": "鼓勵更多人參賽",
+    "examples": [
+      {
+        "en": "The poster should encourage more entries.",
+        "zh": "海報應該鼓勵更多人參賽。"
+      },
+      {
+        "en": "To encourage more entries means to make more people want to submit their work.",
+        "zh": "encourage more entries 指令更多人想提交作品。"
+      },
+      {
+        "en": "A clear prize and deadline can encourage more entries for a writing competition.",
+        "zh": "清楚的獎項和截止日期可以鼓勵更多人參加寫作比賽。"
+      },
+      {
+        "en": "If a poster does not encourage more entries, the competition may receive too few works.",
+        "zh": "如果海報不能鼓勵更多人參賽，比賽可能會收到太少作品。"
+      },
+      {
+        "en": "This phrase is useful when discussing how to increase participation.",
+        "zh": "當討論如何提高參與度時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "notice that",
+    "meaning": "留意到",
+    "examples": [
+      {
+        "en": "Mira noticed that the website on the poster was wrong.",
+        "zh": "Mira 留意到海報上的網站是錯的。"
+      },
+      {
+        "en": "To notice that means to become aware of a fact or detail.",
+        "zh": "notice that 指察覺某個事實或細節。"
+      },
+      {
+        "en": "The student noticed that the answer sheet had the wrong date.",
+        "zh": "學生留意到答題紙上的日期錯了。"
+      },
+      {
+        "en": "Noticing a mistake early can prevent bigger problems later.",
+        "zh": "及早留意到錯誤，可以防止之後出現更大問題。"
+      },
+      {
+        "en": "This phrase is useful when someone spots information that others may have missed.",
+        "zh": "當某人發現其他人可能錯過的資訊時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "the wrong one",
+    "meaning": "錯的那一個",
+    "examples": [
+      {
+        "en": "The website on the poster is the wrong one.",
+        "zh": "海報上的網站是錯的那一個。"
+      },
+      {
+        "en": "The wrong one means the incorrect item, choice, or version.",
+        "zh": "the wrong one 指不正確的項目、選擇或版本。"
+      },
+      {
+        "en": "I picked up the wrong one, so I brought my brother’s notebook instead of mine.",
+        "zh": "我拿錯了，所以帶了弟弟的筆記簿，而不是自己的。"
+      },
+      {
+        "en": "If a poster uses the wrong one, people may visit an old or unrelated website.",
+        "zh": "如果海報使用錯的那一個網址，人們可能會進入舊網站或無關網站。"
+      },
+      {
+        "en": "This phrase is useful when comparing two or more possible options.",
+        "zh": "當比較兩個或以上可能選項時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "change the URL",
+    "meaning": "更改網址",
+    "examples": [
+      {
+        "en": "We changed the URL, remember?",
+        "zh": "我們更改了網址，記得嗎？"
+      },
+      {
+        "en": "To change the URL means to replace the website address with a new one.",
+        "zh": "change the URL 指用新網址取代原本的網站地址。"
+      },
+      {
+        "en": "The club changed the URL after moving its website to a new platform.",
+        "zh": "學會把網站移到新平台後，更改了網址。"
+      },
+      {
+        "en": "If organisers change the URL, they must update posters, emails, and social media pages.",
+        "zh": "如果主辦方更改網址，就必須更新海報、電郵和社交媒體頁面。"
+      },
+      {
+        "en": "This phrase is useful when discussing websites and online information.",
+        "zh": "當討論網站和網上資訊時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "the old one",
+    "meaning": "舊的那個",
+    "examples": [
+      {
+        "en": "The old URL is still on the poster.",
+        "zh": "舊網址仍然在海報上。"
+      },
+      {
+        "en": "The old one means the previous item or version, not the new one.",
+        "zh": "the old one 指之前的項目或版本，而不是新的那個。"
+      },
+      {
+        "en": "I saved the old one by mistake, so the document does not include the latest changes.",
+        "zh": "我錯誤地儲存了舊的那個，所以文件沒有包括最新改動。"
+      },
+      {
+        "en": "If the old one remains on public materials, people may receive outdated information.",
+        "zh": "如果舊的那個仍出現在公開材料上，人們可能會收到過時資訊。"
+      },
+      {
+        "en": "This phrase helps contrast an earlier version with the current one.",
+        "zh": "這個說法有助把較早版本與目前版本作對比。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "give it to me again",
+    "meaning": "再給我一次",
+    "examples": [
+      {
+        "en": "Can you give the website address to me again?",
+        "zh": "你可以把網站地址再給我一次嗎？"
+      },
+      {
+        "en": "Give it to me again means tell or send the information one more time.",
+        "zh": "give it to me again 指把資訊再說一次或再發一次給我。"
+      },
+      {
+        "en": "If you did not hear the phone number clearly, you can say, “Can you give it to me again?”",
+        "zh": "如果你沒有清楚聽到電話號碼，可以說：「你可以再給我一次嗎？」"
+      },
+      {
+        "en": "Asking someone to give it to you again helps prevent mistakes in important details.",
+        "zh": "請對方再給你一次，可以防止重要細節出錯。"
+      },
+      {
+        "en": "This phrase is useful for checking names, numbers, addresses, and instructions.",
+        "zh": "這個說法適合用於確認姓名、號碼、地址和指示。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "need it to",
+    "meaning": "需要……去",
+    "examples": [
+      {
+        "en": "Nico will need the URL to tell Maude.",
+        "zh": "Nico 需要那個網址去告訴 Maude。"
+      },
+      {
+        "en": "Need it to means require that information or thing in order to do another action.",
+        "zh": "need it to 指需要某資訊或物件，才能做另一個行動。"
+      },
+      {
+        "en": "I need the receipt to return the item at the shop.",
+        "zh": "我需要收據去商店退貨。"
+      },
+      {
+        "en": "If Nico does not have the URL, he cannot pass the correct website to Maude.",
+        "zh": "如果 Nico 沒有網址，他就不能把正確網站告訴 Maude。"
+      },
+      {
+        "en": "This phrase connects a necessary item with its purpose.",
+        "zh": "這個說法把必要物件和用途連接起來。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "just to make sure",
+    "meaning": "只是確認一下",
+    "examples": [
+      {
+        "en": "Just to make sure, the URL is www.isvms.hk, right?",
+        "zh": "只是確認一下，網址是 www.isvms.hk，對嗎？"
+      },
+      {
+        "en": "Just to make sure means I want to check something so there is no mistake.",
+        "zh": "just to make sure 指我想確認某事，以免出錯。"
+      },
+      {
+        "en": "Just to make sure, the meeting starts at nine, doesn’t it?",
+        "zh": "只是確認一下，會議九點開始，對嗎？"
+      },
+      {
+        "en": "This phrase is useful when confirming details before taking action.",
+        "zh": "這個說法適合在採取行動前確認細節。"
+      },
+      {
+        "en": "It sounds polite because it shows carefulness rather than doubt.",
+        "zh": "它聽起來有禮貌，因為它顯示謹慎，而不是懷疑。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "www.isvms.hk",
+    "meaning": "www.isvms.hk",
+    "examples": [
+      {
+        "en": "The correct website is www.isvms.hk.",
+        "zh": "正確網站是 www.isvms.hk。"
+      },
+      {
+        "en": "www.isvms.hk is the website address that should appear on the festival poster.",
+        "zh": "www.isvms.hk 是應該出現在視覺媒體節海報上的網站地址。"
+      },
+      {
+        "en": "Visitors can use www.isvms.hk to find information about the event.",
+        "zh": "訪客可以使用 www.isvms.hk 查找活動資訊。"
+      },
+      {
+        "en": "If the poster shows a different website from www.isvms.hk, participants may go to the wrong page.",
+        "zh": "如果海報顯示的網站不是 www.isvms.hk，參加者可能會進入錯誤頁面。"
+      },
+      {
+        "en": "A website address must be checked carefully before printing public materials.",
+        "zh": "在印刷公開材料前，網站地址必須仔細檢查。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "something else I just thought of",
+    "meaning": "我剛剛想到的另一件事",
+    "examples": [
+      {
+        "en": "There is something else I just thought of.",
+        "zh": "我剛剛想到另一件事。"
+      },
+      {
+        "en": "Something else I just thought of means another point has just come into my mind.",
+        "zh": "something else I just thought of 指另一個重點剛剛浮現在腦中。"
+      },
+      {
+        "en": "In a meeting, someone may say this when they remember an extra detail.",
+        "zh": "在會議中，有人想起額外細節時可能會這樣說。"
+      },
+      {
+        "en": "This phrase helps add a new point naturally without sounding abrupt.",
+        "zh": "這個說法有助自然地加入新重點，而不會顯得突兀。"
+      },
+      {
+        "en": "It is useful when a forgotten item becomes important during discussion.",
+        "zh": "當被忘記的事項在討論中變得重要時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "QR code",
+    "meaning": "QR code；二維碼",
+    "examples": [
+      {
+        "en": "Did Maude put a QR code on the poster?",
+        "zh": "Maude 有在海報上放 QR code 嗎？"
+      },
+      {
+        "en": "A QR code is a square code that people can scan with a phone to open a website or information page.",
+        "zh": "QR code 指一種方形二維碼，人們可以用手機掃描，打開網站或資訊頁面。"
+      },
+      {
+        "en": "Restaurants often use QR codes so customers can read menus on their phones.",
+        "zh": "餐廳常使用 QR code，讓顧客用手機閱讀餐牌。"
+      },
+      {
+        "en": "If a poster has a QR code, people can reach the event website more quickly.",
+        "zh": "如果海報有 QR code，人們可以更快進入活動網站。"
+      },
+      {
+        "en": "This phrase is useful in advertising, tickets, payments, and public information.",
+        "zh": "這個說法適用於廣告、門票、付款和公共資訊。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "need to check",
+    "meaning": "需要查一查",
+    "examples": [
+      {
+        "en": "Ringo will need to check whether the QR code is on the poster.",
+        "zh": "Ringo 需要查一查 QR code 是否在海報上。"
+      },
+      {
+        "en": "Need to check means must look carefully to confirm whether something is correct or present.",
+        "zh": "need to check 指必須仔細查看，以確認某事是否正確或存在。"
+      },
+      {
+        "en": "Before leaving home, you need to check whether you have your keys.",
+        "zh": "離家前，你需要查一查自己有沒有帶鎖匙。"
+      },
+      {
+        "en": "Checking details early can prevent printing or communication mistakes.",
+        "zh": "及早查核細節可以防止印刷或溝通錯誤。"
+      },
+      {
+        "en": "This phrase is useful when accuracy matters.",
+        "zh": "當準確性很重要時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "make sure",
+    "meaning": "確保",
+    "examples": [
+      {
+        "en": "Make sure the QR code is on the poster.",
+        "zh": "確保 QR code 在海報上。"
+      },
+      {
+        "en": "Make sure means check carefully and confirm that something happens or is correct.",
+        "zh": "make sure 指仔細檢查並確認某事發生或正確。"
+      },
+      {
+        "en": "Make sure you lock the door before leaving the classroom.",
+        "zh": "離開課室前，確保你鎖好門。"
+      },
+      {
+        "en": "If you make sure the information is correct, fewer people will ask confused questions later.",
+        "zh": "如果你確保資訊正確，之後就會較少人提出混亂問題。"
+      },
+      {
+        "en": "This phrase is useful for instructions, reminders, and safety rules.",
+        "zh": "這個說法適合用於指示、提醒和安全規則。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "bottom left-hand corner",
+    "meaning": "左下角",
+    "examples": [
+      {
+        "en": "The QR code should be on the bottom left-hand corner of the poster.",
+        "zh": "QR code 應該放在海報的左下角。"
+      },
+      {
+        "en": "The bottom left-hand corner is the lower left part of a page, screen, or object.",
+        "zh": "bottom left-hand corner 指頁面、螢幕或物件的左下方位置。"
+      },
+      {
+        "en": "The page number is printed in the bottom left-hand corner of the worksheet.",
+        "zh": "頁碼印在工作紙的左下角。"
+      },
+      {
+        "en": "Placing a QR code in the bottom left-hand corner can keep it visible without covering the main image.",
+        "zh": "把 QR code 放在左下角，可以保持清晰可見，又不遮住主要圖片。"
+      },
+      {
+        "en": "This phrase is useful when giving exact layout instructions.",
+        "zh": "當給予準確版面指示時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "make a note of",
+    "meaning": "記低",
+    "examples": [
+      {
+        "en": "I will make a note of that.",
+        "zh": "我會記低那件事。"
+      },
+      {
+        "en": "To make a note of something means to write it down so you will remember it.",
+        "zh": "make a note of something 指把某事寫下來，以便記得。"
+      },
+      {
+        "en": "During a meeting, staff should make a note of deadlines and action points.",
+        "zh": "在會議期間，員工應記低截止日期和行動事項。"
+      },
+      {
+        "en": "Making a note of a detail can prevent people from forgetting it later.",
+        "zh": "記低細節可以防止人們之後忘記。"
+      },
+      {
+        "en": "This phrase is useful when receiving instructions or important information.",
+        "zh": "當收到指示或重要資訊時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "enter the competition",
+    "meaning": "參加比賽",
+    "examples": [
+      {
+        "en": "Only three people have entered the competition so far.",
+        "zh": "到目前為止，只有三個人參加比賽。"
+      },
+      {
+        "en": "To enter the competition means to officially join it by submitting an application or work.",
+        "zh": "enter the competition 指透過提交申請或作品正式參加比賽。"
+      },
+      {
+        "en": "Students can enter the competition by uploading a short video before the deadline.",
+        "zh": "學生可以在截止日期前上載短片參加比賽。"
+      },
+      {
+        "en": "If few people enter the competition, the organiser may need to promote it more widely.",
+        "zh": "如果很少人參加比賽，主辦方可能需要更廣泛宣傳。"
+      },
+      {
+        "en": "This phrase is common in contests, sports events, and creative awards.",
+        "zh": "這個說法常見於競賽、體育活動和創意獎項。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "a bit disappointing",
+    "meaning": "有點令人失望",
+    "examples": [
+      {
+        "en": "The number of entries is a bit disappointing.",
+        "zh": "參賽作品數量有點令人失望。"
+      },
+      {
+        "en": "A bit disappointing means slightly unsatisfactory or lower than expected.",
+        "zh": "a bit disappointing 指有點不令人滿意，或低於預期。"
+      },
+      {
+        "en": "The exam result was a bit disappointing because I studied hard but made careless mistakes.",
+        "zh": "考試成績有點令人失望，因為我努力溫習了，但犯了粗心錯誤。"
+      },
+      {
+        "en": "If ticket sales are a bit disappointing, organisers may still have time to improve them.",
+        "zh": "如果門票銷售有點令人失望，主辦方可能仍有時間改善。"
+      },
+      {
+        "en": "This phrase is softer than saying something is very bad.",
+        "zh": "這個說法比說某事非常差較溫和。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "wonder whether",
+    "meaning": "在想是否",
+    "examples": [
+      {
+        "en": "Ringo was wondering whether they should extend the deadline.",
+        "zh": "Ringo 在想他們是否應該延長截止日期。"
+      },
+      {
+        "en": "To wonder whether means to think about whether something is true or should happen.",
+        "zh": "wonder whether 指思考某事是否真實或是否應該發生。"
+      },
+      {
+        "en": "I wonder whether we should leave earlier because the traffic may be heavy.",
+        "zh": "我在想我們是否應該早點出發，因為交通可能繁忙。"
+      },
+      {
+        "en": "People use this phrase when they are considering an option but have not decided yet.",
+        "zh": "當人們正在考慮一個選項但尚未決定時，會使用這個說法。"
+      },
+      {
+        "en": "It sounds thoughtful and less direct than saying, “We should do this.”",
+        "zh": "它聽起來較深思，也比直接說「我們應該這樣做」柔和。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "extend the deadline",
+    "meaning": "延長截止日期",
+    "examples": [
+      {
+        "en": "They should extend the deadline to 13 May.",
+        "zh": "他們應該把截止日期延長至 5 月 13 日。"
+      },
+      {
+        "en": "To extend the deadline means to give people more time before the final date.",
+        "zh": "extend the deadline 指把最後日期推遲，給人更多時間。"
+      },
+      {
+        "en": "The teacher extended the deadline because many students were sick.",
+        "zh": "老師因許多學生生病而延長截止日期。"
+      },
+      {
+        "en": "Extending the deadline can increase participation, but it may delay judging or results.",
+        "zh": "延長截止日期可以增加參與度，但可能會延遲評審或結果公布。"
+      },
+      {
+        "en": "This phrase is common in schoolwork, applications, competitions, and projects.",
+        "zh": "這個說法常見於功課、申請、比賽和項目。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "to the thirteenth of May",
+    "meaning": "至五月十三日",
+    "examples": [
+      {
+        "en": "They want to extend the deadline to the thirteenth of May.",
+        "zh": "他們想把截止日期延長至五月十三日。"
+      },
+      {
+        "en": "To the thirteenth of May means until May 13 as the new final date.",
+        "zh": "to the thirteenth of May 指直到 5 月 13 日作為新的最後日期。"
+      },
+      {
+        "en": "The school moved the application deadline to the thirteenth of May.",
+        "zh": "學校把申請截止日期改至五月十三日。"
+      },
+      {
+        "en": "If the deadline is extended to the thirteenth of May, students have extra time to finish their work.",
+        "zh": "如果截止日期延長至五月十三日，學生就有額外時間完成作品。"
+      },
+      {
+        "en": "This phrase is useful when stating a new date clearly.",
+        "zh": "當清楚說明新日期時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "Are you sure?",
+    "meaning": "你肯定嗎？",
+    "examples": [
+      {
+        "en": "Are you sure about extending the deadline to the thirteenth of May?",
+        "zh": "你肯定要把截止日期延長至五月十三日嗎？"
+      },
+      {
+        "en": "Are you sure? asks whether someone is confident about a decision or statement.",
+        "zh": "Are you sure? 用來問某人是否對決定或說法有信心。"
+      },
+      {
+        "en": "Are you sure this is the right classroom for the exam?",
+        "zh": "你肯定這是考試的正確課室嗎？"
+      },
+      {
+        "en": "People ask this when they want to confirm something before taking action.",
+        "zh": "人們在採取行動前想確認某事時，會這樣問。"
+      },
+      {
+        "en": "The tone can be caring, doubtful, or cautious depending on the situation.",
+        "zh": "語氣可以是關心、懷疑或謹慎，視乎情況而定。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "unlucky number",
+    "meaning": "不吉利的數字",
+    "examples": [
+      {
+        "en": "Some people think thirteen is an unlucky number.",
+        "zh": "有些人認為十三是不吉利的數字。"
+      },
+      {
+        "en": "An unlucky number is a number that some people believe brings bad luck.",
+        "zh": "unlucky number 指有些人相信會帶來壞運的數字。"
+      },
+      {
+        "en": "In some cultures, people avoid using an unlucky number for rooms or event dates.",
+        "zh": "在某些文化中，人們會避免使用不吉利的數字作房號或活動日期。"
+      },
+      {
+        "en": "Believing in an unlucky number can affect choices even when there is no real evidence.",
+        "zh": "相信不吉利的數字，即使沒有真實證據，也可能影響選擇。"
+      },
+      {
+        "en": "This phrase is useful when discussing superstition or cultural beliefs.",
+        "zh": "當討論迷信或文化信念時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "superstitious",
+    "meaning": "迷信的",
+    "examples": [
+      {
+        "en": "Don’t be so superstitious.",
+        "zh": "不要那麼迷信。"
+      },
+      {
+        "en": "Superstitious means believing that certain signs, numbers, or actions can bring good or bad luck without logical proof.",
+        "zh": "superstitious 指相信某些徵兆、數字或行動在沒有邏輯證據下會帶來好運或壞運。"
+      },
+      {
+        "en": "A superstitious person may avoid walking under a ladder.",
+        "zh": "迷信的人可能會避免走在梯子下面。"
+      },
+      {
+        "en": "Being too superstitious can make simple decisions feel unnecessarily stressful.",
+        "zh": "太迷信會令簡單決定變得不必要地有壓力。"
+      },
+      {
+        "en": "This word is useful when talking about beliefs based on luck rather than reason.",
+        "zh": "當談論基於運氣而非理性的信念時，這個字很有用。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "go with",
+    "meaning": "選用；採用",
+    "examples": [
+      {
+        "en": "Let’s go with the thirteenth, then.",
+        "zh": "那我們就選用十三日吧。"
+      },
+      {
+        "en": "To go with something means to choose it from the available options.",
+        "zh": "go with something 指從可選項目中選擇某一個。"
+      },
+      {
+        "en": "For the poster colour, let’s go with blue because it is clearer.",
+        "zh": "海報顏色方面，我們選用藍色吧，因為它較清楚。"
+      },
+      {
+        "en": "Once a team goes with one option, they can start making detailed arrangements.",
+        "zh": "一旦團隊採用某個選項，就可以開始作詳細安排。"
+      },
+      {
+        "en": "This phrase is common in everyday decisions and meetings.",
+        "zh": "這個說法常見於日常決定和會議。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "as well",
+    "meaning": "也；同樣",
+    "examples": [
+      {
+        "en": "We will have to change the deadline on the poster as well.",
+        "zh": "我們也要更改海報上的截止日期。"
+      },
+      {
+        "en": "As well means also or in addition.",
+        "zh": "as well 指也、同樣或此外。"
+      },
+      {
+        "en": "If the time changes, we must update the website and the email as well.",
+        "zh": "如果時間改變，我們也必須更新網站和電郵。"
+      },
+      {
+        "en": "Forgetting one place as well can cause people to receive mixed information.",
+        "zh": "如果同樣有一個地方忘記更新，人們可能會收到混亂資訊。"
+      },
+      {
+        "en": "This phrase is useful when adding another item to the same action.",
+        "zh": "當把另一項加入同一行動時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "bad stuff does happen",
+    "meaning": "壞事確實會發生",
+    "examples": [
+      {
+        "en": "Bad stuff does happen on the thirteenth.",
+        "zh": "壞事在十三日確實會發生。"
+      },
+      {
+        "en": "Bad stuff does happen means unpleasant things really can occur.",
+        "zh": "bad stuff does happen 指不愉快的事情真的可能發生。"
+      },
+      {
+        "en": "Bad stuff does happen when people ignore safety rules on a trip.",
+        "zh": "當人們在旅行中忽視安全規則，壞事確實會發生。"
+      },
+      {
+        "en": "The word “does” adds emphasis and shows the speaker strongly believes the statement.",
+        "zh": "“does” 加強語氣，表示說話者強烈相信這個說法。"
+      },
+      {
+        "en": "This phrase is informal and is often used in casual conversation.",
+        "zh": "這個說法較口語，常用於日常對話。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "director of",
+    "meaning": "……的導演",
+    "examples": [
+      {
+        "en": "Isabel Luna is the director of The Electronic Durian.",
+        "zh": "Isabel Luna 是 The Electronic Durian 的導演。"
+      },
+      {
+        "en": "The director of a film is the person responsible for guiding the creative decisions during production.",
+        "zh": "director of a film 指在製作期間負責指導創作決定的人。"
+      },
+      {
+        "en": "The director of the school play helped actors understand their roles.",
+        "zh": "學校劇的導演幫助演員理解角色。"
+      },
+      {
+        "en": "A director’s choices can affect the story, mood, acting, and visual style.",
+        "zh": "導演的選擇可以影響故事、氣氛、演技和視覺風格。"
+      },
+      {
+        "en": "This phrase identifies the person who leads a film, play, or production.",
+        "zh": "這個說法指出領導電影、戲劇或製作的人。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "skateboarding accident",
+    "meaning": "滑板意外",
+    "examples": [
+      {
+        "en": "Isabel Luna had her skateboarding accident on the thirteenth.",
+        "zh": "Isabel Luna 的滑板意外發生在十三日。"
+      },
+      {
+        "en": "A skateboarding accident is an injury or crash that happens while someone is riding a skateboard.",
+        "zh": "skateboarding accident 指某人玩滑板時發生的受傷或碰撞事故。"
+      },
+      {
+        "en": "A teenager had a skateboarding accident because the pavement was wet.",
+        "zh": "一名青少年因行人路濕滑而發生滑板意外。"
+      },
+      {
+        "en": "A serious skateboarding accident can lead to broken bones or temporary use of a wheelchair.",
+        "zh": "嚴重滑板意外可能導致骨折或暫時需要使用輪椅。"
+      },
+      {
+        "en": "This phrase is useful when describing accidents involving sports or street activities.",
+        "zh": "當描述涉及運動或街頭活動的意外時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "There you go then",
+    "meaning": "你看吧；那就說得通了",
+    "examples": [
+      {
+        "en": "There you go then.",
+        "zh": "你看吧。"
+      },
+      {
+        "en": "“There you go then” is used when someone thinks new information supports what they just said.",
+        "zh": "“There you go then” 用於某人認為新資訊支持自己剛才的說法。"
+      },
+      {
+        "en": "If someone says Friday is unlucky and then hears a problem happened on Friday, they may say, “There you go then.”",
+        "zh": "如果有人說星期五不吉利，然後聽到問題發生在星期五，他可能會說：「你看吧。」"
+      },
+      {
+        "en": "This phrase can sound playful, smug, or joking depending on tone.",
+        "zh": "這個說法可以聽起來像玩笑、自滿或半開玩笑，視乎語氣而定。"
+      },
+      {
+        "en": "It is informal and should be used carefully in serious discussions.",
+        "zh": "它較口語，在嚴肅討論中應小心使用。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "move onto the next thing",
+    "meaning": "繼續下一項",
+    "examples": [
+      {
+        "en": "Let’s move onto the next thing.",
+        "zh": "我們繼續下一項吧。"
+      },
+      {
+        "en": "To move onto the next thing means to stop discussing the current topic and begin the next one.",
+        "zh": "move onto the next thing 指停止討論目前題目，開始下一個題目。"
+      },
+      {
+        "en": "After confirming the date, the team moved onto the next thing: the venue.",
+        "zh": "確認日期後，團隊繼續下一項：場地。"
+      },
+      {
+        "en": "This phrase keeps a meeting moving when one topic has been settled.",
+        "zh": "當一個題目已處理好時，這個說法可以令會議繼續推進。"
+      },
+      {
+        "en": "It is useful for organising discussions with several agenda items.",
+        "zh": "它適合用於整理有多個議程項目的討論。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "as you will remember from",
+    "meaning": "正如你從……記得",
+    "examples": [
+      {
+        "en": "As you will remember from the meeting, the committee prefers Brighthouse Cinema.",
+        "zh": "正如你從會議中記得，委員會較喜歡 Brighthouse Cinema。"
+      },
+      {
+        "en": "As you will remember from means as you probably recall from a previous event or discussion.",
+        "zh": "as you will remember from 指正如你大概從之前的事件或討論中記得。"
+      },
+      {
+        "en": "As you will remember from last week’s lesson, the essay needs a clear introduction.",
+        "zh": "正如你從上星期課堂中記得，文章需要清楚引言。"
+      },
+      {
+        "en": "This phrase helps connect current discussion to earlier information.",
+        "zh": "這個說法幫助把目前討論連接到較早資訊。"
+      },
+      {
+        "en": "It sounds formal and assumes the listener already knows the point.",
+        "zh": "它聽起來較正式，並假設聽者已知道該重點。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "be keen for someone to",
+    "meaning": "很希望某人去……",
+    "examples": [
+      {
+        "en": "The committee is still keen for us to choose Brighthouse Cinema.",
+        "zh": "委員會仍然很希望我們選擇 Brighthouse Cinema。"
+      },
+      {
+        "en": "To be keen for someone to do something means to strongly want or encourage them to do it.",
+        "zh": "be keen for someone to do something 指很想或鼓勵某人做某事。"
+      },
+      {
+        "en": "The teacher is keen for students to read more books during the holiday.",
+        "zh": "老師很希望學生在假期多閱讀。"
+      },
+      {
+        "en": "If a committee is keen for a team to choose one option, it may have strong reasons behind it.",
+        "zh": "如果委員會很希望團隊選擇某個選項，背後可能有強烈原因。"
+      },
+      {
+        "en": "This phrase is useful when expressing preference in a polite way.",
+        "zh": "當以禮貌方式表達偏好時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "choose something for",
+    "meaning": "選擇……作為",
+    "examples": [
+      {
+        "en": "The committee is keen for us to choose Brighthouse for the screening.",
+        "zh": "委員會很希望我們選擇 Brighthouse 作為放映場地。"
+      },
+      {
+        "en": "To choose something for a purpose means to select it because it suits that use.",
+        "zh": "choose something for a purpose 指因某物適合某用途而選擇它。"
+      },
+      {
+        "en": "The school chose the hall for the prize ceremony because it was large enough.",
+        "zh": "學校選擇禮堂作為頒獎典禮場地，因為它夠大。"
+      },
+      {
+        "en": "Choosing the right venue for a screening can affect comfort, timing, and audience experience.",
+        "zh": "選擇合適場地作放映用途，可以影響舒適度、時間安排和觀眾體驗。"
+      },
+      {
+        "en": "This phrase connects a choice with its intended purpose.",
+        "zh": "這個說法把選擇和預定用途連接起來。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "Brighthouse Cinema",
+    "meaning": "Brighthouse Cinema",
+    "examples": [
+      {
+        "en": "Alia will do a site visit of Brighthouse Cinema tomorrow.",
+        "zh": "Alia 明天會到 Brighthouse Cinema 進行場地視察。"
+      },
+      {
+        "en": "Brighthouse Cinema is the cinema being considered as the venue for the film screening.",
+        "zh": "Brighthouse Cinema 是正在被考慮作電影放映場地的戲院。"
+      },
+      {
+        "en": "The team needs to check whether Brighthouse Cinema can support special equipment and wheelchair access.",
+        "zh": "團隊需要檢查 Brighthouse Cinema 是否能支援特別設備和輪椅通道。"
+      },
+      {
+        "en": "If Brighthouse Cinema fails the site visit, the organisers may need another venue.",
+        "zh": "如果 Brighthouse Cinema 未能通過場地視察，主辦方可能需要另一個場地。"
+      },
+      {
+        "en": "This name should be kept in English because it is the cinema’s proper name.",
+        "zh": "這個名稱應保留英文，因為它是戲院的專有名稱。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "site visit",
+    "meaning": "場地視察",
+    "examples": [
+      {
+        "en": "Alia is going to do a site visit tomorrow.",
+        "zh": "Alia 明天會進行場地視察。"
+      },
+      {
+        "en": "A site visit is a visit to a place to check whether it is suitable for a project or event.",
+        "zh": "site visit 指到某地方實地查看它是否適合某個項目或活動。"
+      },
+      {
+        "en": "Before the school fair, teachers did a site visit to check electricity, toilets, and exits.",
+        "zh": "學校賣物會前，老師進行場地視察，檢查電力、洗手間和出口。"
+      },
+      {
+        "en": "A site visit can reveal problems that are not obvious from photos or brochures.",
+        "zh": "場地視察可以揭示照片或小冊子中不明顯的問題。"
+      },
+      {
+        "en": "This phrase is common in event planning, construction, and workplace safety.",
+        "zh": "這個說法常見於活動策劃、建築和職場安全。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s the first I’ve heard",
+    "meaning": "我第一次聽到這件事",
+    "examples": [
+      {
+        "en": "That is the first I have heard about Isabel Luna’s accident.",
+        "zh": "這是我第一次聽到 Isabel Luna 的意外。"
+      },
+      {
+        "en": "“That’s the first I’ve heard” means I did not know this information until now.",
+        "zh": "“That’s the first I’ve heard” 指我到現在才知道這個資訊。"
+      },
+      {
+        "en": "If a colleague mentions a changed deadline, you may say, “That’s the first I’ve heard of it.”",
+        "zh": "如果同事提到截止日期改了，你可以說：「這是我第一次聽到這件事。」"
+      },
+      {
+        "en": "This phrase can show surprise because the information is new to the speaker.",
+        "zh": "這個說法可以表示驚訝，因為資訊對說話者來說是新的。"
+      },
+      {
+        "en": "It is useful when someone has not been updated before.",
+        "zh": "當某人之前未收到更新時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "does it mean",
+    "meaning": "這是否代表",
+    "examples": [
+      {
+        "en": "Does it mean she will not be able to come to the screening?",
+        "zh": "這是否代表她不能來到放映會？"
+      },
+      {
+        "en": "Does it mean asks whether one situation leads to a particular result or interpretation.",
+        "zh": "does it mean 用來詢問某情況是否導致某個結果或解讀。"
+      },
+      {
+        "en": "If the bus is cancelled, does it mean we have to take the train?",
+        "zh": "如果巴士取消，這是否代表我們要乘火車？"
+      },
+      {
+        "en": "People use this phrase to check the practical effect of new information.",
+        "zh": "人們用這個說法來確認新資訊的實際影響。"
+      },
+      {
+        "en": "It helps prevent wrong assumptions.",
+        "zh": "它有助防止錯誤假設。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "be able to come to",
+    "meaning": "能夠來到",
+    "examples": [
+      {
+        "en": "Isabel Luna will still be able to come to the screening.",
+        "zh": "Isabel Luna 仍然能夠來到放映會。"
+      },
+      {
+        "en": "To be able to come to an event means to have the ability or opportunity to attend it.",
+        "zh": "be able to come to an event 指有能力或機會出席某活動。"
+      },
+      {
+        "en": "I will be able to come to the meeting if it starts after work.",
+        "zh": "如果會議在下班後開始，我就能夠來到。"
+      },
+      {
+        "en": "If a guest is not able to come to an event, the organiser may need to change the programme.",
+        "zh": "如果嘉賓不能夠來到活動，主辦方可能需要更改流程。"
+      },
+      {
+        "en": "This phrase is useful when discussing attendance.",
+        "zh": "當討論出席安排時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "quite serious",
+    "meaning": "頗嚴重",
+    "examples": [
+      {
+        "en": "The accident was quite serious.",
+        "zh": "那宗意外頗嚴重。"
+      },
+      {
+        "en": "Quite serious means fairly severe and not minor.",
+        "zh": "quite serious 指相當嚴重，不是小事。"
+      },
+      {
+        "en": "The injury was quite serious, so the student had to go to hospital.",
+        "zh": "傷勢頗嚴重，所以學生需要去醫院。"
+      },
+      {
+        "en": "If an accident is quite serious, organisers may need to review safety arrangements.",
+        "zh": "如果意外頗嚴重，主辦方可能需要檢討安全安排。"
+      },
+      {
+        "en": "This phrase is softer than “very serious” but still shows concern.",
+        "zh": "這個說法比 “very serious” 稍柔和，但仍表示關注。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "in a wheelchair",
+    "meaning": "坐輪椅",
+    "examples": [
+      {
+        "en": "Isabel Luna is in a wheelchair.",
+        "zh": "Isabel Luna 坐輪椅。"
+      },
+      {
+        "en": "To be in a wheelchair means to use a wheelchair to move around, either temporarily or permanently.",
+        "zh": "in a wheelchair 指使用輪椅移動，可以是暫時或永久。"
+      },
+      {
+        "en": "After the surgery, my grandfather was in a wheelchair for two weeks.",
+        "zh": "手術後，我的祖父坐了兩星期輪椅。"
+      },
+      {
+        "en": "If a guest is in a wheelchair, the venue must provide accessible paths and suitable seating.",
+        "zh": "如果嘉賓坐輪椅，場地必須提供無障礙通道和合適座位。"
+      },
+      {
+        "en": "This phrase is useful when discussing accessibility and mobility needs.",
+        "zh": "當討論無障礙設施和行動需要時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "be a problem for",
+    "meaning": "對……構成問題",
+    "examples": [
+      {
+        "en": "Will the wheelchair be a problem for Brighthouse Cinema?",
+        "zh": "輪椅會對 Brighthouse Cinema 構成問題嗎？"
+      },
+      {
+        "en": "To be a problem for someone or something means to create difficulty for them.",
+        "zh": "be a problem for someone or something 指對某人或某事造成困難。"
+      },
+      {
+        "en": "The narrow entrance may be a problem for parents with baby strollers.",
+        "zh": "狹窄入口可能對使用嬰兒車的家長構成問題。"
+      },
+      {
+        "en": "If wheelchair access is poor, the venue may be a problem for disabled guests.",
+        "zh": "如果輪椅通道不足，場地可能會對殘疾嘉賓構成問題。"
+      },
+      {
+        "en": "This phrase is useful when checking whether an arrangement is suitable.",
+        "zh": "當檢查安排是否合適時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "find out from",
+    "meaning": "從……得知",
+    "examples": [
+      {
+        "en": "We will find out from Alia’s report.",
+        "zh": "我們會從 Alia 的報告中得知。"
+      },
+      {
+        "en": "To find out from something means to get information by reading, asking, or checking that source.",
+        "zh": "find out from something 指透過閱讀、詢問或查核某來源而得知資訊。"
+      },
+      {
+        "en": "We can find out from the timetable whether the bus stops near the school.",
+        "zh": "我們可以從時間表得知巴士是否停在學校附近。"
+      },
+      {
+        "en": "If the report is detailed, the team can find out from it whether the venue is suitable.",
+        "zh": "如果報告詳細，團隊可以從中得知場地是否合適。"
+      },
+      {
+        "en": "This phrase clearly shows the source of information.",
+        "zh": "這個說法清楚指出資訊來源。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "report on",
+    "meaning": "關於……的報告",
+    "examples": [
+      {
+        "en": "We will find out from Alia’s report on her site visit.",
+        "zh": "我們會從 Alia 關於場地視察的報告中得知。"
+      },
+      {
+        "en": "A report on something is a written or spoken account that gives information about that topic.",
+        "zh": "report on something 指提供關於某題目的書面或口頭資料。"
+      },
+      {
+        "en": "The teacher wrote a report on the school trip after checking student feedback.",
+        "zh": "老師查看學生意見後，寫了一份關於學校旅行的報告。"
+      },
+      {
+        "en": "A report on a site visit can help organisers make a better venue decision.",
+        "zh": "關於場地視察的報告，可以幫助主辦方作出更好場地決定。"
+      },
+      {
+        "en": "This phrase is common in work, school, research, and event planning.",
+        "zh": "這個說法常見於工作、學校、研究和活動策劃。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "stipulate",
+    "meaning": "明確規定",
+    "examples": [
+      {
+        "en": "They stipulated wheelchair access to the stage in the venue requirements.",
+        "zh": "他們在場地要求中明確規定要有通往舞台的輪椅通道。"
+      },
+      {
+        "en": "To stipulate something means to state clearly that it is required, especially in rules or agreements.",
+        "zh": "stipulate something 指清楚列明某事是必要要求，尤其在規則或協議中。"
+      },
+      {
+        "en": "The contract stipulates that payment must be made within thirty days.",
+        "zh": "合約明確規定款項必須在三十天內支付。"
+      },
+      {
+        "en": "If organisers stipulate wheelchair access, venues without ramps may not qualify.",
+        "zh": "如果主辦方明確規定要有輪椅通道，沒有斜台的場地可能不合資格。"
+      },
+      {
+        "en": "This word is formal and useful for requirements, contracts, and official instructions.",
+        "zh": "這個字較正式，適合用於要求、合約和官方指示。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "wheelchair access",
+    "meaning": "輪椅通道",
+    "examples": [
+      {
+        "en": "The venue requirements include wheelchair access to the stage.",
+        "zh": "場地要求包括通往舞台的輪椅通道。"
+      },
+      {
+        "en": "Wheelchair access means paths, entrances, ramps, or lifts that allow wheelchair users to move safely.",
+        "zh": "wheelchair access 指讓輪椅使用者安全移動的通道、入口、斜台或升降機。"
+      },
+      {
+        "en": "A school hall with wheelchair access can welcome students, parents, and guests with mobility needs.",
+        "zh": "有輪椅通道的學校禮堂可以歡迎有行動需要的學生、家長和嘉賓。"
+      },
+      {
+        "en": "Without wheelchair access, some people may be unable to join an event fully.",
+        "zh": "沒有輪椅通道，部分人士可能無法完整參與活動。"
+      },
+      {
+        "en": "This phrase is important when discussing accessibility and equal participation.",
+        "zh": "當討論無障礙設施和平等參與時，這個說法很重要。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "venue requirements",
+    "meaning": "場地要求",
+    "examples": [
+      {
+        "en": "Wheelchair access is included in the venue requirements.",
+        "zh": "輪椅通道包括在場地要求之中。"
+      },
+      {
+        "en": "Venue requirements are the conditions a place must meet before it can be used for an event.",
+        "zh": "venue requirements 指一個地方在可用作活動場地前必須符合的條件。"
+      },
+      {
+        "en": "Venue requirements may include seating, toilets, safety exits, sound systems, and accessibility.",
+        "zh": "場地要求可能包括座位、洗手間、安全出口、音響系統和無障礙設施。"
+      },
+      {
+        "en": "Clear venue requirements help organisers reject unsuitable places early.",
+        "zh": "清楚的場地要求幫助主辦方及早排除不合適地點。"
+      },
+      {
+        "en": "This phrase is useful in event planning and facility selection.",
+        "zh": "這個說法適合用於活動策劃和設施選擇。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "I did wonder why",
+    "meaning": "我之前確實疑惑為何",
+    "examples": [
+      {
+        "en": "I did wonder why we put that in the venue requirements.",
+        "zh": "我之前確實疑惑為何我們把那項加入場地要求。"
+      },
+      {
+        "en": "I did wonder why means I was actually curious or puzzled about the reason.",
+        "zh": "I did wonder why 指我確實曾經好奇或不明白原因。"
+      },
+      {
+        "en": "I did wonder why the school asked everyone to arrive so early.",
+        "zh": "我之前確實疑惑為何學校要求大家那麼早到達。"
+      },
+      {
+        "en": "The word “did” adds emphasis and shows the thought was real.",
+        "zh": "“did” 加強語氣，顯示這個想法是真實存在過的。"
+      },
+      {
+        "en": "This phrase is useful when a later explanation makes an earlier detail clearer.",
+        "zh": "當之後的解釋令之前的細節變得清楚時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "obviously",
+    "meaning": "顯然",
+    "examples": [
+      {
+        "en": "Obviously, Isabel Luna will need a ramp to get onto the stage.",
+        "zh": "顯然，Isabel Luna 需要斜台才能上台。"
+      },
+      {
+        "en": "Obviously means clearly or in a way that is easy to understand.",
+        "zh": "obviously 指很清楚或容易理解地。"
+      },
+      {
+        "en": "Obviously, students need water during outdoor sports on a hot day.",
+        "zh": "顯然，學生在炎熱天氣進行戶外運動時需要水。"
+      },
+      {
+        "en": "This word can show that the speaker thinks the point should be clear to everyone.",
+        "zh": "這個字可以顯示說話者認為該重點應該人人都明白。"
+      },
+      {
+        "en": "It should be used carefully because it may sound impatient if the listener did not know the fact.",
+        "zh": "它應小心使用，因為如果聽者不知道該事實，語氣可能聽起來不耐煩。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "need a ramp",
+    "meaning": "需要斜台",
+    "examples": [
+      {
+        "en": "They will need a ramp to get Isabel Luna onto the stage.",
+        "zh": "他們需要斜台，讓 Isabel Luna 上台。"
+      },
+      {
+        "en": "To need a ramp means to require a sloping surface so someone or something can move between different levels.",
+        "zh": "need a ramp 指需要一個斜面，讓人或物件可以在不同高度之間移動。"
+      },
+      {
+        "en": "A wheelchair user may need a ramp to enter a building without stairs.",
+        "zh": "輪椅使用者可能需要斜台才能不經樓梯進入建築物。"
+      },
+      {
+        "en": "If a stage has no ramp, guests with mobility needs may not be able to reach it safely.",
+        "zh": "如果舞台沒有斜台，有行動需要的嘉賓可能無法安全到達。"
+      },
+      {
+        "en": "This phrase is useful when discussing accessibility.",
+        "zh": "當討論無障礙設施時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "get someone onto the stage",
+    "meaning": "讓某人上台",
+    "examples": [
+      {
+        "en": "The ramp will help Isabel Luna get onto the stage.",
+        "zh": "斜台會幫助 Isabel Luna 上台。"
+      },
+      {
+        "en": "To get someone onto the stage means to help or allow that person to reach the stage area.",
+        "zh": "get someone onto the stage 指幫助或讓某人到達舞台。"
+      },
+      {
+        "en": "Staff helped the elderly guest get onto the stage before the award presentation.",
+        "zh": "頒獎前，職員協助年長嘉賓上台。"
+      },
+      {
+        "en": "If the stage is high, organisers may need equipment to get speakers onto the stage safely.",
+        "zh": "如果舞台很高，主辦方可能需要設備讓講者安全上台。"
+      },
+      {
+        "en": "This phrase is useful when discussing event access and stage arrangements.",
+        "zh": "當討論活動通道和舞台安排時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "discussion after the screening",
+    "meaning": "放映後的討論",
+    "examples": [
+      {
+        "en": "Isabel Luna will join the discussion after the screening.",
+        "zh": "Isabel Luna 會參加放映後的討論。"
+      },
+      {
+        "en": "A discussion after the screening is a conversation held after a film has been shown.",
+        "zh": "discussion after the screening 指電影播放完畢後舉行的討論。"
+      },
+      {
+        "en": "Students joined a discussion after the screening to share what they thought about the film.",
+        "zh": "學生參加放映後的討論，分享他們對電影的看法。"
+      },
+      {
+        "en": "A discussion after the screening can help the audience understand the director’s choices.",
+        "zh": "放映後的討論可以幫助觀眾理解導演的選擇。"
+      },
+      {
+        "en": "This phrase is common in film festivals, schools, and cultural events.",
+        "zh": "這個說法常見於電影節、學校和文化活動。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "a terrible cinema",
+    "meaning": "很差的戲院",
+    "examples": [
+      {
+        "en": "Ringo thinks Brighthouse is a terrible cinema.",
+        "zh": "Ringo 認為 Brighthouse 是一間很差的戲院。"
+      },
+      {
+        "en": "A terrible cinema means a cinema that is very poor in quality, comfort, service, or facilities.",
+        "zh": "a terrible cinema 指在質素、舒適度、服務或設施方面很差的戲院。"
+      },
+      {
+        "en": "A cinema with broken seats and poor sound may be called a terrible cinema.",
+        "zh": "一間座位破爛、聲音質素差的戲院可能會被稱為很差的戲院。"
+      },
+      {
+        "en": "If the cinema is terrible, the audience may focus on discomfort instead of the film.",
+        "zh": "如果戲院很差，觀眾可能會專注於不舒服，而不是電影。"
+      },
+      {
+        "en": "This phrase is direct and negative, so it should be used carefully.",
+        "zh": "這個說法直接而負面，所以應小心使用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "You don’t need to tell me",
+    "meaning": "你不用告訴我；我早就知道",
+    "examples": [
+      {
+        "en": "You don’t need to tell me that Brighthouse is a terrible cinema.",
+        "zh": "你不用告訴我 Brighthouse 是很差的戲院。"
+      },
+      {
+        "en": "You don’t need to tell me means I already know or strongly agree with what you are saying.",
+        "zh": "You don’t need to tell me 指我已經知道，或非常同意你所說的事。"
+      },
+      {
+        "en": "If someone says traffic is bad, a tired driver may reply, “You don’t need to tell me.”",
+        "zh": "如果有人說交通很差，疲倦的司機可能回答：「你不用告訴我。」"
+      },
+      {
+        "en": "This phrase can sound humorous, impatient, or strongly agreeing depending on tone.",
+        "zh": "這個說法可以聽起來幽默、不耐煩或強烈同意，視乎語氣而定。"
+      },
+      {
+        "en": "It is common in spoken English.",
+        "zh": "它常見於口語英語。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "be worried about",
+    "meaning": "擔心……",
+    "examples": [
+      {
+        "en": "Mira is worried about another issue.",
+        "zh": "Mira 擔心另一個問題。"
+      },
+      {
+        "en": "To be worried about something means to feel concerned that it may cause a problem.",
+        "zh": "be worried about something 指擔心某事可能造成問題。"
+      },
+      {
+        "en": "Parents may be worried about children crossing a busy road alone.",
+        "zh": "家長可能擔心孩子獨自橫過繁忙馬路。"
+      },
+      {
+        "en": "If organisers are worried about a risk, they should discuss it before the event.",
+        "zh": "如果主辦方擔心某個風險，就應在活動前討論。"
+      },
+      {
+        "en": "This phrase is useful for expressing concern clearly.",
+        "zh": "這個說法適合用於清楚表達憂慮。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "the big thing about",
+    "meaning": "……最重要的一點",
+    "examples": [
+      {
+        "en": "The big thing about the screening is the use of 3D headsets.",
+        "zh": "這次放映最重要的一點是使用 3D 頭戴裝置。"
+      },
+      {
+        "en": "The big thing about something means the most important or most noticeable point about it.",
+        "zh": "the big thing about something 指某事最重要或最明顯的一點。"
+      },
+      {
+        "en": "The big thing about the new library is that students can use it after school.",
+        "zh": "新圖書館最重要的一點是學生放學後也可以使用。"
+      },
+      {
+        "en": "If the big thing about an event is technology, organisers must test it carefully.",
+        "zh": "如果一個活動最重要的一點是科技，主辦方必須仔細測試。"
+      },
+      {
+        "en": "This phrase is informal and useful when highlighting the key issue.",
+        "zh": "這個說法較口語，適合用於突出關鍵問題。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "audience",
+    "meaning": "觀眾",
+    "examples": [
+      {
+        "en": "The audience will be wearing 3D headsets.",
+        "zh": "觀眾會戴上 3D 頭戴裝置。"
+      },
+      {
+        "en": "The audience is the group of people watching a performance, film, talk, or event.",
+        "zh": "audience 指觀看表演、電影、演講或活動的一群人。"
+      },
+      {
+        "en": "The audience clapped when the speaker finished her story.",
+        "zh": "講者完成故事後，觀眾拍手。"
+      },
+      {
+        "en": "If the audience cannot see or hear clearly, the event experience will suffer.",
+        "zh": "如果觀眾看不清或聽不清，活動體驗就會受影響。"
+      },
+      {
+        "en": "This word is common in films, theatres, speeches, concerts, and presentations.",
+        "zh": "這個字常見於電影、劇場、演講、音樂會和簡報。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "wear 3D headsets",
+    "meaning": "戴上 3D 頭戴裝置",
+    "examples": [
+      {
+        "en": "The audience will be wearing 3D headsets.",
+        "zh": "觀眾會戴上 3D 頭戴裝置。"
+      },
+      {
+        "en": "To wear 3D headsets means to put special viewing devices on the head to experience 3D visuals or sound.",
+        "zh": "wear 3D headsets 指戴上特別觀影裝置，以體驗 3D 影像或聲音。"
+      },
+      {
+        "en": "Visitors may wear 3D headsets during a virtual museum tour.",
+        "zh": "訪客可能在虛擬博物館導覽中戴上 3D 頭戴裝置。"
+      },
+      {
+        "en": "If many people need to wear 3D headsets, staff must hand them out quickly and safely.",
+        "zh": "如果很多人需要戴上 3D 頭戴裝置，職員必須快速而安全地派發。"
+      },
+      {
+        "en": "This phrase is useful when talking about immersive media experiences.",
+        "zh": "當談論沉浸式媒體體驗時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "3D headsets",
+    "meaning": "3D 頭戴裝置",
+    "examples": [
+      {
+        "en": "The audience will use 3D headsets during the screening.",
+        "zh": "觀眾會在放映期間使用 3D 頭戴裝置。"
+      },
+      {
+        "en": "3D headsets are devices worn on the head to create a three-dimensional viewing experience.",
+        "zh": "3D headsets 指戴在頭上、用來創造立體觀影體驗的裝置。"
+      },
+      {
+        "en": "Some games and films use 3D headsets to make viewers feel inside the scene.",
+        "zh": "有些遊戲和電影使用 3D 頭戴裝置，令觀眾感覺置身場景之中。"
+      },
+      {
+        "en": "If 3D headsets are not working, the main experience of the event may fail.",
+        "zh": "如果 3D 頭戴裝置不能正常運作，活動的主要體驗可能會失敗。"
+      },
+      {
+        "en": "This phrase is common in virtual reality, digital media, and special film screenings.",
+        "zh": "這個說法常見於虛擬實境、數碼媒體和特別電影放映。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "critical on the night",
+    "meaning": "當晚非常關鍵",
+    "examples": [
+      {
+        "en": "It will be critical on the night that the headsets are handed out quickly.",
+        "zh": "當晚快速派發頭戴裝置會非常關鍵。"
+      },
+      {
+        "en": "Critical on the night means extremely important during the evening of the event.",
+        "zh": "critical on the night 指在活動當晚極其重要。"
+      },
+      {
+        "en": "It will be critical on the night that volunteers guide guests to the correct seats.",
+        "zh": "當晚義工引導嘉賓到正確座位會非常關鍵。"
+      },
+      {
+        "en": "If a task is critical on the night, a delay can affect the whole programme.",
+        "zh": "如果某項任務在當晚非常關鍵，延誤就可能影響整個流程。"
+      },
+      {
+        "en": "This phrase is useful when identifying what must go right during an event.",
+        "zh": "當指出活動期間必須順利完成的事情時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "hand out",
+    "meaning": "派發",
+    "examples": [
+      {
+        "en": "The ushers need to hand out the 3D headsets quickly.",
+        "zh": "帶位員需要快速派發 3D 頭戴裝置。"
+      },
+      {
+        "en": "To hand out something means to give items to several people, usually one by one.",
+        "zh": "hand out something 指把物品逐一派給多人。"
+      },
+      {
+        "en": "The teacher handed out worksheets before the lesson began.",
+        "zh": "老師在課堂開始前派發工作紙。"
+      },
+      {
+        "en": "If staff hand out equipment too slowly, the event may start late.",
+        "zh": "如果職員派發設備太慢，活動可能會遲開始。"
+      },
+      {
+        "en": "This phrase is useful for distributing papers, tickets, food, or devices.",
+        "zh": "這個說法適用於派發文件、門票、食物或裝置。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "otherwise",
+    "meaning": "否則",
+    "examples": [
+      {
+        "en": "The headsets must be handed out quickly, otherwise everything will be delayed.",
+        "zh": "頭戴裝置必須快速派發，否則所有事情都會延誤。"
+      },
+      {
+        "en": "Otherwise means if that does not happen, a different and usually negative result will follow.",
+        "zh": "otherwise 指如果那件事沒有發生，就會出現另一個通常較負面的結果。"
+      },
+      {
+        "en": "Please arrive before seven; otherwise, you may miss the opening speech.",
+        "zh": "請在七點前到達；否則，你可能會錯過開場演講。"
+      },
+      {
+        "en": "In event planning, “otherwise” often introduces the problem that will happen if a task fails.",
+        "zh": "在活動策劃中，otherwise 常用來引出任務失敗後會發生的問題。"
+      },
+      {
+        "en": "This word clearly connects a condition with a consequence.",
+        "zh": "這個字清楚連接條件和後果。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "take far too long",
+    "meaning": "花太長時間",
+    "examples": [
+      {
+        "en": "Handing out the headsets could take far too long.",
+        "zh": "派發頭戴裝置可能會花太長時間。"
+      },
+      {
+        "en": "To take far too long means to use much more time than is acceptable or expected.",
+        "zh": "take far too long 指所用時間遠超可接受或預期程度。"
+      },
+      {
+        "en": "Printing the tickets took far too long because the printer kept stopping.",
+        "zh": "印門票花了太長時間，因為打印機一直停頓。"
+      },
+      {
+        "en": "If registration takes far too long, guests may become impatient before the event begins.",
+        "zh": "如果登記花太長時間，嘉賓在活動開始前可能已經不耐煩。"
+      },
+      {
+        "en": "This phrase is stronger than simply saying “take a long time.”",
+        "zh": "這個說法比單純說 “take a long time” 語氣更強。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "delay everything",
+    "meaning": "令所有事情延誤",
+    "examples": [
+      {
+        "en": "Slow distribution will delay everything.",
+        "zh": "派發速度慢會令所有事情延誤。"
+      },
+      {
+        "en": "To delay everything means to make all parts of a plan start or finish later than expected.",
+        "zh": "delay everything 指令計劃的所有部分比預期更遲開始或完成。"
+      },
+      {
+        "en": "A late bus can delay everything on a school trip.",
+        "zh": "巴士遲到可能會令學校旅行所有事情延誤。"
+      },
+      {
+        "en": "If one key task delays everything, the whole schedule may become stressful.",
+        "zh": "如果一項關鍵任務令所有事情延誤，整個時間表可能會變得很有壓力。"
+      },
+      {
+        "en": "This phrase is useful when one problem affects many later steps.",
+        "zh": "當一個問題影響很多後續步驟時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "end up being a nightmare",
+    "meaning": "最終變成災難",
+    "examples": [
+      {
+        "en": "The process could end up being a nightmare.",
+        "zh": "這個過程可能最終變成災難。"
+      },
+      {
+        "en": "To end up being a nightmare means to finally become extremely difficult, stressful, or chaotic.",
+        "zh": "end up being a nightmare 指最後變得極其困難、有壓力或混亂。"
+      },
+      {
+        "en": "Without clear signs, the school open day could end up being a nightmare for visitors.",
+        "zh": "沒有清楚指示牌，學校開放日可能最終對訪客變成災難。"
+      },
+      {
+        "en": "A simple task can end up being a nightmare if nobody plans the details.",
+        "zh": "如果沒有人安排細節，簡單任務也可能最終變成災難。"
+      },
+      {
+        "en": "This phrase is informal and shows strong concern about a bad outcome.",
+        "zh": "這個說法較口語，表示對壞結果有強烈擔憂。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "at least ten ushers",
+    "meaning": "最少十名帶位員",
+    "examples": [
+      {
+        "en": "They will need at least ten ushers.",
+        "zh": "他們需要最少十名帶位員。"
+      },
+      {
+        "en": "At least ten ushers means ten ushers or more, but not fewer than ten.",
+        "zh": "at least ten ushers 指十名或以上帶位員，不能少於十名。"
+      },
+      {
+        "en": "A large school concert may need at least ten ushers to guide parents to their seats.",
+        "zh": "大型學校音樂會可能需要最少十名帶位員引導家長入座。"
+      },
+      {
+        "en": "If an event needs at least ten ushers, fewer staff may cause delays and confusion.",
+        "zh": "如果活動需要最少十名帶位員，職員不足可能造成延誤和混亂。"
+      },
+      {
+        "en": "This phrase is useful when stating a minimum number.",
+        "zh": "當說明最低數量時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "usher",
+    "meaning": "帶位員；場務員",
+    "examples": [
+      {
+        "en": "An usher can help hand out the 3D headsets.",
+        "zh": "帶位員可以幫忙派發 3D 頭戴裝置。"
+      },
+      {
+        "en": "An usher is a person who helps guests find seats, enter the venue, or receive items at an event.",
+        "zh": "usher 指在活動中協助嘉賓找座位、入場或領取物品的人。"
+      },
+      {
+        "en": "At a cinema, an usher may check tickets and guide people to the right theatre.",
+        "zh": "在戲院，帶位員可能會查票並引導觀眾到正確影廳。"
+      },
+      {
+        "en": "Good ushers can make an event feel organised and welcoming.",
+        "zh": "好的帶位員可以令活動感覺有組織並令人受歡迎。"
+      },
+      {
+        "en": "This word is common in cinemas, theatres, ceremonies, and conferences.",
+        "zh": "這個字常見於戲院、劇院、典禮和會議。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "find out how many",
+    "meaning": "查明有多少",
+    "examples": [
+      {
+        "en": "Alia will find out how many ushers Brighthouse has.",
+        "zh": "Alia 會查明 Brighthouse 有多少名帶位員。"
+      },
+      {
+        "en": "To find out how many means to check the number of people or things.",
+        "zh": "find out how many 指查清楚人或物的數量。"
+      },
+      {
+        "en": "The teacher will find out how many students need lunch before ordering food.",
+        "zh": "老師會在訂餐前查明有多少學生需要午餐。"
+      },
+      {
+        "en": "Finding out how many staff are available helps organisers plan the workload.",
+        "zh": "查明有多少職員可用，可以幫助主辦方安排工作量。"
+      },
+      {
+        "en": "This phrase is useful when numbers affect practical arrangements.",
+        "zh": "當數量影響實際安排時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "to do with",
+    "meaning": "與……有關",
+    "examples": [
+      {
+        "en": "Another concern is to do with the noodles.",
+        "zh": "另一個憂慮與麵條有關。"
+      },
+      {
+        "en": "To do with means related to or connected with something.",
+        "zh": "to do with 指與某事相關或有關。"
+      },
+      {
+        "en": "The problem is to do with the sound system, not the speakers.",
+        "zh": "問題與音響系統有關，而不是與講者有關。"
+      },
+      {
+        "en": "If a concern is to do with food, organisers may need to check venue rules.",
+        "zh": "如果憂慮與食物有關，主辦方可能需要查看場地規則。"
+      },
+      {
+        "en": "This phrase is common in spoken English when explaining the topic of a problem.",
+        "zh": "這個說法常見於口語英語，用來解釋問題的主題。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "give out to",
+    "meaning": "派發給……",
+    "examples": [
+      {
+        "en": "They plan to give noodles out to the audience.",
+        "zh": "他們計劃把麵條派發給觀眾。"
+      },
+      {
+        "en": "To give something out to people means to distribute it to them.",
+        "zh": "give something out to people 指把某物分發給人。"
+      },
+      {
+        "en": "Volunteers gave water out to runners after the race.",
+        "zh": "比賽後，義工把水派發給跑手。"
+      },
+      {
+        "en": "If food is given out to the audience, staff must consider hygiene and timing.",
+        "zh": "如果食物派發給觀眾，職員必須考慮衛生和時間安排。"
+      },
+      {
+        "en": "This phrase is useful when talking about distributing items at events.",
+        "zh": "當談論在活動中分發物品時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "during the showing of",
+    "meaning": "在……放映期間",
+    "examples": [
+      {
+        "en": "The audience will eat noodles during the showing of The Electronic Durian.",
+        "zh": "觀眾會在 The Electronic Durian 放映期間吃麵。"
+      },
+      {
+        "en": "During the showing of a film means while the film is being shown.",
+        "zh": "during the showing of a film 指電影正在播放的期間。"
+      },
+      {
+        "en": "Phones should be switched off during the showing of the documentary.",
+        "zh": "在紀錄片放映期間，手機應關掉。"
+      },
+      {
+        "en": "If food is served during the showing of a film, it may affect cleanliness and audience focus.",
+        "zh": "如果在電影放映期間供應食物，可能會影響清潔和觀眾專注。"
+      },
+      {
+        "en": "This phrase is common when talking about cinema rules or film events.",
+        "zh": "這個說法常用於談論戲院規則或電影活動。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "metal noodles scene",
+    "meaning": "金屬麵條場景",
+    "examples": [
+      {
+        "en": "The noodles are connected to the metal noodles scene.",
+        "zh": "這些麵條與金屬麵條場景有關。"
+      },
+      {
+        "en": "The metal noodles scene is a scene in the film where metal noodles are shown or mentioned.",
+        "zh": "metal noodles scene 指電影中展示或提及金屬麵條的場景。"
+      },
+      {
+        "en": "A special food item can make a film scene feel more memorable for the audience.",
+        "zh": "特別食物可以令電影場景對觀眾更難忘。"
+      },
+      {
+        "en": "If the audience eats noodles during the metal noodles scene, the experience becomes playful and interactive.",
+        "zh": "如果觀眾在金屬麵條場景期間吃麵，體驗會變得有趣而互動。"
+      },
+      {
+        "en": "This phrase refers to a specific scene inside the film.",
+        "zh": "這個說法指電影中的特定場景。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "be allowed to",
+    "meaning": "獲准",
+    "examples": [
+      {
+        "en": "They need to know whether they will be allowed to bring in outside food.",
+        "zh": "他們需要知道是否獲准帶外來食物入場。"
+      },
+      {
+        "en": "To be allowed to do something means to have permission to do it.",
+        "zh": "be allowed to do something 指獲得做某事的許可。"
+      },
+      {
+        "en": "Students are allowed to bring water into the exam room, but not snacks.",
+        "zh": "學生獲准帶水進入試場，但不准帶小食。"
+      },
+      {
+        "en": "If outside food is not allowed, the organisers must change their plan.",
+        "zh": "如果不獲准帶外來食物，主辦方必須改變計劃。"
+      },
+      {
+        "en": "This phrase is useful when discussing rules and permission.",
+        "zh": "當討論規則和許可時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "bring in outside food",
+    "meaning": "帶外來食物入場",
+    "examples": [
+      {
+        "en": "They want to bring in outside food for the audience.",
+        "zh": "他們想為觀眾帶外來食物入場。"
+      },
+      {
+        "en": "To bring in outside food means to take food from outside into a venue.",
+        "zh": "bring in outside food 指把場地外的食物帶入場內。"
+      },
+      {
+        "en": "Some cinemas do not allow customers to bring in outside food.",
+        "zh": "有些戲院不容許顧客帶外來食物入場。"
+      },
+      {
+        "en": "If organisers bring in outside food, they may need permission from the venue manager.",
+        "zh": "如果主辦方帶外來食物入場，可能需要得到場地經理批准。"
+      },
+      {
+        "en": "This phrase is useful when discussing venue rules, catering, and hygiene.",
+        "zh": "當討論場地規則、餐飲和衛生時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "ask the manager",
+    "meaning": "詢問經理",
+    "examples": [
+      {
+        "en": "Alia will ask the manager at Brighthouse about outside food.",
+        "zh": "Alia 會詢問 Brighthouse 的經理關於外來食物的事。"
+      },
+      {
+        "en": "To ask the manager means to check with the person responsible for running the place or service.",
+        "zh": "ask the manager 指向負責管理該地方或服務的人查詢。"
+      },
+      {
+        "en": "If you are not sure whether dogs are allowed, ask the manager before entering the café.",
+        "zh": "如果你不確定是否可以帶狗進入咖啡店，入內前應詢問經理。"
+      },
+      {
+        "en": "Asking the manager prevents staff from making decisions they are not authorised to make.",
+        "zh": "詢問經理可以避免員工作出沒有權限的決定。"
+      },
+      {
+        "en": "This phrase is useful when permission or rules are unclear.",
+        "zh": "當許可或規則不清楚時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "I can imagine what they’ll say",
+    "meaning": "我大概想像到他們會怎樣說",
+    "examples": [
+      {
+        "en": "I can imagine what they will say about outside food.",
+        "zh": "我大概想像到他們會怎樣說外來食物的事。"
+      },
+      {
+        "en": "I can imagine what they’ll say means I can guess their likely response.",
+        "zh": "I can imagine what they’ll say 指我可以猜到他們可能的回應。"
+      },
+      {
+        "en": "If a student asks for another deadline extension, the teacher may say, “I can imagine what they’ll say.”",
+        "zh": "如果學生要求再延長截止日期，老師可能會說：「我大概想像到他們會怎樣說。」"
+      },
+      {
+        "en": "This phrase suggests the answer may be predictable, often because of rules or past experience.",
+        "zh": "這個說法暗示答案可能容易預測，通常因為規則或過往經驗。"
+      },
+      {
+        "en": "It is common in spoken English.",
+        "zh": "它常見於口語英語。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "be supposed to be",
+    "meaning": "本應是",
+    "examples": [
+      {
+        "en": "The noodles are supposed to be one of the key fun elements.",
+        "zh": "這些麵條本應是其中一個主要趣味元素。"
+      },
+      {
+        "en": "Be supposed to be means something is intended or expected to be a certain thing.",
+        "zh": "be supposed to be 指某事按原意或預期應該是某種東西。"
+      },
+      {
+        "en": "The school trip is supposed to be educational, not just relaxing.",
+        "zh": "學校旅行本應有教育意義，而不只是放鬆。"
+      },
+      {
+        "en": "If an activity is supposed to be fun but becomes stressful, organisers should review the plan.",
+        "zh": "如果活動本應有趣卻變得有壓力，主辦方應檢討計劃。"
+      },
+      {
+        "en": "This phrase is useful when comparing intention with reality.",
+        "zh": "當比較原意和現實時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "key fun elements",
+    "meaning": "主要趣味元素",
+    "examples": [
+      {
+        "en": "The noodles are one of the key fun elements of the evening.",
+        "zh": "這些麵條是當晚其中一個主要趣味元素。"
+      },
+      {
+        "en": "Key fun elements are the main parts that make an event enjoyable or memorable.",
+        "zh": "key fun elements 指令活動有趣或難忘的主要部分。"
+      },
+      {
+        "en": "Games and small prizes are key fun elements of many school fairs.",
+        "zh": "遊戲和小獎品是許多學校賣物會的主要趣味元素。"
+      },
+      {
+        "en": "If key fun elements are removed, the event may feel less special.",
+        "zh": "如果主要趣味元素被移除，活動可能會感覺不那麼特別。"
+      },
+      {
+        "en": "This phrase is useful when planning entertainment or audience experience.",
+        "zh": "當策劃娛樂或觀眾體驗時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "while watching",
+    "meaning": "一邊觀看……一邊……",
+    "examples": [
+      {
+        "en": "The audience will eat noodles while watching the metal noodles scene.",
+        "zh": "觀眾會一邊觀看金屬麵條場景，一邊吃麵。"
+      },
+      {
+        "en": "While watching means at the same time as watching something.",
+        "zh": "while watching 指在觀看某物的同時。"
+      },
+      {
+        "en": "Many people like eating snacks while watching a film at home.",
+        "zh": "許多人喜歡在家一邊看電影，一邊吃小食。"
+      },
+      {
+        "en": "If viewers do another activity while watching, it can either make the experience more fun or more distracting.",
+        "zh": "如果觀眾一邊觀看一邊做另一件事，這可以令體驗更有趣，也可能更令人分心。"
+      },
+      {
+        "en": "This phrase is useful when describing two actions happening together.",
+        "zh": "當描述兩個動作同時發生時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "hilarious",
+    "meaning": "非常好笑",
+    "examples": [
+      {
+        "en": "It will be hilarious to see people eating noodles with headsets on.",
+        "zh": "看見人們戴着頭戴裝置吃麵會非常好笑。"
+      },
+      {
+        "en": "Hilarious means extremely funny.",
+        "zh": "hilarious 指極其有趣、非常好笑。"
+      },
+      {
+        "en": "The class found the teacher’s acting hilarious during the drama game.",
+        "zh": "在戲劇遊戲中，全班覺得老師的演出非常好笑。"
+      },
+      {
+        "en": "A hilarious moment can make an event feel relaxed and memorable.",
+        "zh": "一個非常好笑的時刻可以令活動感覺輕鬆而難忘。"
+      },
+      {
+        "en": "This word is stronger than simply saying “funny.”",
+        "zh": "這個字比單純說 “funny” 語氣更強。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "with their 3D headsets on",
+    "meaning": "戴着 3D 頭戴裝置",
+    "examples": [
+      {
+        "en": "People will try to eat noodles with their 3D headsets on.",
+        "zh": "人們會嘗試戴着 3D 頭戴裝置吃麵。"
+      },
+      {
+        "en": "With their 3D headsets on means while they are wearing their 3D headsets.",
+        "zh": "with their 3D headsets on 指在他們戴着 3D 頭戴裝置的情況下。"
+      },
+      {
+        "en": "Visitors walked around the exhibition with their audio guides on.",
+        "zh": "訪客戴着語音導覽裝置在展覽中四處走動。"
+      },
+      {
+        "en": "Eating with 3D headsets on may be funny because the equipment can make normal actions awkward.",
+        "zh": "戴着 3D 頭戴裝置吃東西可能很有趣，因為設備會令普通動作變得笨拙。"
+      },
+      {
+        "en": "This structure describes what someone is wearing or using while doing another action.",
+        "zh": "這個結構描述某人在做另一個動作時穿戴或使用甚麼。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "a big loss for",
+    "meaning": "對……是一大損失",
+    "examples": [
+      {
+        "en": "It would be a big loss for the event if outside food is not allowed.",
+        "zh": "如果不容許外來食物，這對活動會是一大損失。"
+      },
+      {
+        "en": "A big loss for something means something important or valuable would be missing from it.",
+        "zh": "a big loss for something 指某個重要或有價值的東西會從中缺失。"
+      },
+      {
+        "en": "Losing the main speaker would be a big loss for the conference.",
+        "zh": "失去主講嘉賓會對會議是一大損失。"
+      },
+      {
+        "en": "If a key activity is cancelled, it can be a big loss for the whole programme.",
+        "zh": "如果關鍵活動取消，這可能對整個節目是一大損失。"
+      },
+      {
+        "en": "This phrase shows that the missing item matters a lot.",
+        "zh": "這個說法顯示缺少的東西非常重要。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "the whole event",
+    "meaning": "整個活動",
+    "examples": [
+      {
+        "en": "It would be a big loss for the whole event.",
+        "zh": "這對整個活動會是一大損失。"
+      },
+      {
+        "en": "The whole event means every part of the event, not just one section.",
+        "zh": "the whole event 指活動的所有部分，而不只是其中一節。"
+      },
+      {
+        "en": "Rain affected the whole event because most activities were outdoors.",
+        "zh": "雨影響了整個活動，因為大部分項目都在戶外。"
+      },
+      {
+        "en": "If one major problem affects the whole event, organisers need a backup plan.",
+        "zh": "如果一個重大問題影響整個活動，主辦方需要後備計劃。"
+      },
+      {
+        "en": "This phrase is useful when talking about the overall experience.",
+        "zh": "當談論整體體驗時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "wait and see",
+    "meaning": "等着看結果",
+    "examples": [
+      {
+        "en": "Let’s wait and see what they say.",
+        "zh": "我們等着看他們怎樣說吧。"
+      },
+      {
+        "en": "To wait and see means to delay judgement or action until more information is available.",
+        "zh": "wait and see 指在有更多資訊前，暫時不作判斷或行動。"
+      },
+      {
+        "en": "We do not know if the picnic can happen yet, so let’s wait and see what the weather is like.",
+        "zh": "我們還不知道野餐能否舉行，所以先等着看天氣如何。"
+      },
+      {
+        "en": "Waiting and seeing can be sensible when the decision depends on someone else’s reply.",
+        "zh": "當決定取決於別人的回覆時，等着看結果可能是明智的。"
+      },
+      {
+        "en": "This phrase is useful when the outcome is uncertain.",
+        "zh": "當結果不確定時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "Prize Giving Ceremony",
+    "meaning": "頒獎典禮",
+    "examples": [
+      {
+        "en": "The Prize Giving Ceremony needs a confirmed venue.",
+        "zh": "頒獎典禮需要確認場地。"
+      },
+      {
+        "en": "A Prize Giving Ceremony is an event where awards or prizes are presented to winners.",
+        "zh": "Prize Giving Ceremony 指向得獎者頒發獎項或獎品的活動。"
+      },
+      {
+        "en": "Schools often hold a Prize Giving Ceremony to recognise students’ effort and achievement.",
+        "zh": "學校常舉行頒獎典禮，以表揚學生的努力和成就。"
+      },
+      {
+        "en": "A Prize Giving Ceremony needs a suitable venue, clear seating, and a smooth programme.",
+        "zh": "頒獎典禮需要合適場地、清楚座位安排和流暢流程。"
+      },
+      {
+        "en": "This phrase is common in schools, competitions, festivals, and formal events.",
+        "zh": "這個說法常見於學校、比賽、節日和正式活動。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "news on the venue",
+    "meaning": "關於場地的消息",
+    "examples": [
+      {
+        "en": "Is there any news on the venue for the Prize Giving Ceremony?",
+        "zh": "關於頒獎典禮場地有沒有任何消息？"
+      },
+      {
+        "en": "News on the venue means any update or information about the place where the event will happen.",
+        "zh": "news on the venue 指關於活動舉行地點的任何更新或資料。"
+      },
+      {
+        "en": "Parents asked if there was any news on the venue for the graduation dinner.",
+        "zh": "家長詢問畢業晚宴場地有沒有任何消息。"
+      },
+      {
+        "en": "If there is no news on the venue, organisers may not be able to print invitations yet.",
+        "zh": "如果沒有關於場地的消息，主辦方可能還不能印製邀請函。"
+      },
+      {
+        "en": "This phrase is useful when waiting for confirmation.",
+        "zh": "當等待確認時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "get confirmation",
+    "meaning": "得到確認",
+    "examples": [
+      {
+        "en": "Mira got confirmation today.",
+        "zh": "Mira 今天得到確認。"
+      },
+      {
+        "en": "To get confirmation means to receive clear proof or official agreement that something is true or decided.",
+        "zh": "get confirmation 指收到清楚證明或正式同意，確認某事是真實或已決定。"
+      },
+      {
+        "en": "The school got confirmation that the coach would arrive at eight.",
+        "zh": "學校得到確認，旅遊巴會在八點到達。"
+      },
+      {
+        "en": "Once organisers get confirmation, they can update posters and emails confidently.",
+        "zh": "一旦主辦方得到確認，就可以有信心地更新海報和電郵。"
+      },
+      {
+        "en": "This phrase is useful when a plan depends on approval or final information.",
+        "zh": "當計劃取決於批准或最終資訊時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "Cultural Plaza in Central",
+    "meaning": "中環 Cultural Plaza",
+    "examples": [
+      {
+        "en": "The Prize Giving Ceremony will be held at the Cultural Plaza in Central.",
+        "zh": "頒獎典禮將於中環 Cultural Plaza 舉行。"
+      },
+      {
+        "en": "Cultural Plaza in Central is the venue chosen for the Prize Giving Ceremony.",
+        "zh": "Cultural Plaza in Central 是頒獎典禮選定的場地。"
+      },
+      {
+        "en": "Guests may find Cultural Plaza in Central convenient because Central is easy to reach.",
+        "zh": "嘉賓可能覺得中環 Cultural Plaza 方便，因為中環容易到達。"
+      },
+      {
+        "en": "If the ceremony is at Cultural Plaza in Central, organisers should provide clear transport directions.",
+        "zh": "如果典禮在中環 Cultural Plaza 舉行，主辦方應提供清楚交通指引。"
+      },
+      {
+        "en": "This name should be kept in English because it is the venue’s proper name.",
+        "zh": "這個名稱應保留英文，因為它是場地的專有名稱。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "after all",
+    "meaning": "終於；結果還是",
+    "examples": [
+      {
+        "en": "They got the Cultural Plaza after all.",
+        "zh": "他們終於訂到 Cultural Plaza。"
+      },
+      {
+        "en": "After all means in the end, despite earlier uncertainty or difficulty.",
+        "zh": "after all 指儘管之前有不確定或困難，最後仍然成功或發生。"
+      },
+      {
+        "en": "We thought the hall was fully booked, but we got it after all.",
+        "zh": "我們以為禮堂已經被訂滿，但結果還是訂到了。"
+      },
+      {
+        "en": "This phrase can express relief when something works out in the end.",
+        "zh": "當事情最後成功時，這個說法可以表達安心。"
+      },
+      {
+        "en": "It is useful when the final result is better than expected.",
+        "zh": "當最終結果比預期好時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "the best choice",
+    "meaning": "最佳選擇",
+    "examples": [
+      {
+        "en": "Ringo thinks the Cultural Plaza was the best choice.",
+        "zh": "Ringo 認為 Cultural Plaza 是最佳選擇。"
+      },
+      {
+        "en": "The best choice means the most suitable option among the available possibilities.",
+        "zh": "the best choice 指在可選項目中最合適的選擇。"
+      },
+      {
+        "en": "For a large ceremony, the school hall may be the best choice because it has enough seats.",
+        "zh": "對大型典禮來說，學校禮堂可能是最佳選擇，因為它有足夠座位。"
+      },
+      {
+        "en": "The best choice usually balances cost, location, size, and convenience.",
+        "zh": "最佳選擇通常會平衡成本、地點、大小和便利性。"
+      },
+      {
+        "en": "This phrase is useful when comparing options.",
+        "zh": "當比較選項時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "amazing venue",
+    "meaning": "非常好的場地",
+    "examples": [
+      {
+        "en": "The Cultural Plaza is an amazing venue.",
+        "zh": "Cultural Plaza 是非常好的場地。"
+      },
+      {
+        "en": "An amazing venue is a very good place for holding an event.",
+        "zh": "amazing venue 指非常適合舉行活動的地方。"
+      },
+      {
+        "en": "A theatre with comfortable seats and excellent sound can be an amazing venue for a concert.",
+        "zh": "有舒適座位和出色音響的劇院，可以是音樂會的非常好場地。"
+      },
+      {
+        "en": "Choosing an amazing venue can make guests feel excited before the programme even begins.",
+        "zh": "選擇非常好的場地，可以在節目開始前已令嘉賓感到期待。"
+      },
+      {
+        "en": "This phrase is positive and useful when praising a place.",
+        "zh": "這個說法語氣正面，適合用來稱讚地方。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "convenient location",
+    "meaning": "方便的地點",
+    "examples": [
+      {
+        "en": "Central is such a convenient location.",
+        "zh": "中環真是一個方便的地點。"
+      },
+      {
+        "en": "A convenient location is a place that is easy to reach and suitable for many people.",
+        "zh": "convenient location 指容易到達並適合許多人的地點。"
+      },
+      {
+        "en": "A school near an MTR station is in a convenient location for students.",
+        "zh": "靠近港鐵站的學校，對學生來說位於方便的地點。"
+      },
+      {
+        "en": "A convenient location can increase attendance because people do not need to travel too far.",
+        "zh": "方便的地點可以提高出席率，因為人們不需要走太遠。"
+      },
+      {
+        "en": "This phrase is useful when discussing venues, shops, offices, and events.",
+        "zh": "當討論場地、商店、辦公室和活動時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "compared to",
+    "meaning": "與……相比",
+    "examples": [
+      {
+        "en": "Central is convenient compared to the other locations.",
+        "zh": "與其他地點相比，中環很方便。"
+      },
+      {
+        "en": "Compared to means when considered in relation to another person or thing.",
+        "zh": "compared to 指與另一人或事物作比較時。"
+      },
+      {
+        "en": "This classroom is quiet compared to the one near the playground.",
+        "zh": "與操場附近的課室相比，這間課室很安靜。"
+      },
+      {
+        "en": "Compared to a remote venue, a central venue may attract more guests.",
+        "zh": "與偏遠場地相比，市中心場地可能吸引更多嘉賓。"
+      },
+      {
+        "en": "This phrase is useful when showing contrast between two options.",
+        "zh": "當展示兩個選項之間的對比時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "have a date finalised",
+    "meaning": "敲定日期",
+    "examples": [
+      {
+        "en": "Has a date been finalised?",
+        "zh": "日期已經敲定了嗎？"
+      },
+      {
+        "en": "To have a date finalised means to have the final date officially decided.",
+        "zh": "have a date finalised 指最終日期已經正式決定。"
+      },
+      {
+        "en": "The school cannot print invitations until the date has been finalised.",
+        "zh": "在日期敲定之前，學校不能印製邀請函。"
+      },
+      {
+        "en": "Once a date is finalised, people can book rooms, invite guests, and arrange transport.",
+        "zh": "一旦日期敲定，人們就可以訂房間、邀請嘉賓和安排交通。"
+      },
+      {
+        "en": "This phrase is useful when planning events.",
+        "zh": "當策劃活動時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "Saturday June the twenty-second",
+    "meaning": "六月二十二日星期六",
+    "examples": [
+      {
+        "en": "The ceremony will be held on Saturday, June the twenty-second.",
+        "zh": "典禮將於六月二十二日星期六舉行。"
+      },
+      {
+        "en": "Saturday, June the twenty-second states both the day of the week and the date.",
+        "zh": "Saturday, June the twenty-second 同時說明星期幾和日期。"
+      },
+      {
+        "en": "The school concert will be held on Saturday, June the twenty-second, so families can attend more easily.",
+        "zh": "學校音樂會將於六月二十二日星期六舉行，讓家庭更容易出席。"
+      },
+      {
+        "en": "Giving both the weekday and date helps prevent confusion.",
+        "zh": "同時列出星期和日期，可以避免混淆。"
+      },
+      {
+        "en": "This phrase is useful in formal event announcements.",
+        "zh": "這個說法適合用於正式活動公告。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "note that down",
+    "meaning": "記低",
+    "examples": [
+      {
+        "en": "Let me just note that down.",
+        "zh": "讓我先記低那件事。"
+      },
+      {
+        "en": "To note that down means to write something so you do not forget it.",
+        "zh": "note that down 指把某事寫下，以免忘記。"
+      },
+      {
+        "en": "The receptionist noted down the visitor’s name and phone number.",
+        "zh": "接待員記低訪客的姓名和電話號碼。"
+      },
+      {
+        "en": "Noting details down during a meeting helps people remember action points.",
+        "zh": "在會議期間記低細節，可以幫助人記住行動事項。"
+      },
+      {
+        "en": "This phrase is common when someone receives important information.",
+        "zh": "當某人收到重要資訊時，這個說法很常用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "half past seven",
+    "meaning": "七點半",
+    "examples": [
+      {
+        "en": "The Prize Giving Ceremony will start at half past seven.",
+        "zh": "頒獎典禮將於七點半開始。"
+      },
+      {
+        "en": "Half past seven means 7:30.",
+        "zh": "half past seven 指 7:30。"
+      },
+      {
+        "en": "The evening class begins at half past seven, so students should arrive a little earlier.",
+        "zh": "晚間課堂七點半開始，所以學生應稍早到達。"
+      },
+      {
+        "en": "If the ceremony starts at half past seven, guests may need to eat dinner before coming.",
+        "zh": "如果典禮七點半開始，嘉賓可能需要先吃晚飯再來。"
+      },
+      {
+        "en": "This phrase is common in spoken British English.",
+        "zh": "這個說法常見於英式口語英語。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "bring up",
+    "meaning": "提出；提起",
+    "examples": [
+      {
+        "en": "The other thing Ringo wanted to bring up was the introductory speech.",
+        "zh": "Ringo 想提出的另一件事是開場演講。"
+      },
+      {
+        "en": "To bring up something means to mention it for discussion.",
+        "zh": "bring up something 指提出某事以便討論。"
+      },
+      {
+        "en": "A student may bring up a timetable problem during class council.",
+        "zh": "學生可能在班會中提出時間表問題。"
+      },
+      {
+        "en": "If nobody brings up an issue, the team may forget to solve it.",
+        "zh": "如果沒有人提出一個問題，團隊可能會忘記解決它。"
+      },
+      {
+        "en": "This phrase is common in meetings and conversations.",
+        "zh": "這個說法常見於會議和對話。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "introductory speech",
+    "meaning": "開場演講",
+    "examples": [
+      {
+        "en": "Nico will give the introductory speech.",
+        "zh": "Nico 會作開場演講。"
+      },
+      {
+        "en": "An introductory speech is a speech at the beginning of an event that explains the topic or welcomes the audience.",
+        "zh": "introductory speech 指活動開始時用來介紹題目或歡迎觀眾的演講。"
+      },
+      {
+        "en": "The principal gave an introductory speech before the school concert began.",
+        "zh": "校長在學校音樂會開始前作開場演講。"
+      },
+      {
+        "en": "A good introductory speech helps the audience understand what to expect.",
+        "zh": "好的開場演講幫助觀眾明白接下來會發生甚麼。"
+      },
+      {
+        "en": "This phrase is useful in ceremonies, talks, panels, and formal events.",
+        "zh": "這個說法適用於典禮、講座、座談會和正式活動。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "current state of cinema",
+    "meaning": "電影業的現況",
+    "examples": [
+      {
+        "en": "The introductory speech will discuss the current state of cinema.",
+        "zh": "開場演講將討論電影業的現況。"
+      },
+      {
+        "en": "The current state of cinema means the present situation of the film industry and cinema-going culture.",
+        "zh": "current state of cinema 指電影業和入戲院觀影文化的目前情況。"
+      },
+      {
+        "en": "A speech about the current state of cinema may mention streaming, ticket prices, and audience habits.",
+        "zh": "關於電影業現況的演講，可能會提到串流平台、票價和觀眾習慣。"
+      },
+      {
+        "en": "Understanding the current state of cinema helps people see why festivals and screenings matter.",
+        "zh": "了解電影業的現況，可以幫助人明白電影節和放映活動的重要性。"
+      },
+      {
+        "en": "This phrase is useful when discussing trends and challenges in film.",
+        "zh": "當討論電影趨勢和挑戰時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "introduce the discussion",
+    "meaning": "引入討論",
+    "examples": [
+      {
+        "en": "Nico will give a speech to introduce the discussion.",
+        "zh": "Nico 會作演講來引入討論。"
+      },
+      {
+        "en": "To introduce the discussion means to give background and prepare people for the conversation that follows.",
+        "zh": "introduce the discussion 指提供背景，讓大家準備好參與之後的對話。"
+      },
+      {
+        "en": "A teacher may introduce the discussion by explaining the key question first.",
+        "zh": "老師可能先解釋關鍵問題，以引入討論。"
+      },
+      {
+        "en": "Introducing the discussion well helps speakers stay focused and helps the audience follow.",
+        "zh": "好好引入討論，可以幫助講者保持焦點，也幫助觀眾跟上。"
+      },
+      {
+        "en": "This phrase is useful in panels, classes, meetings, and public talks.",
+        "zh": "這個說法適用於座談會、課堂、會議和公開講座。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "struggle for ideas",
+    "meaning": "苦於想不到點子",
+    "examples": [
+      {
+        "en": "Nico is struggling a bit for ideas.",
+        "zh": "Nico 有點苦於想不到點子。"
+      },
+      {
+        "en": "To struggle for ideas means to find it difficult to think of good points or suggestions.",
+        "zh": "struggle for ideas 指難以想到好觀點或建議。"
+      },
+      {
+        "en": "A student may struggle for ideas when writing an essay about an unfamiliar topic.",
+        "zh": "當學生寫一個不熟悉題目的文章時，可能會苦於想不到點子。"
+      },
+      {
+        "en": "If someone struggles for ideas, examples, questions, or brainstorming can help.",
+        "zh": "如果某人苦於想不到點子，例子、問題或腦震盪可以有幫助。"
+      },
+      {
+        "en": "This phrase is useful when discussing writing, speeches, projects, and planning.",
+        "zh": "當討論寫作、演講、項目和策劃時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "to tell you the truth",
+    "meaning": "說實話",
+    "examples": [
+      {
+        "en": "Nico is struggling a bit for ideas, to tell you the truth.",
+        "zh": "說實話，Nico 有點苦於想不到點子。"
+      },
+      {
+        "en": "To tell you the truth means to be honest about what you really think or feel.",
+        "zh": "to tell you the truth 指誠實地說出自己真正的想法或感受。"
+      },
+      {
+        "en": "To tell you the truth, I found the meeting useful but too long.",
+        "zh": "說實話，我覺得會議有用，但太長。"
+      },
+      {
+        "en": "People use this phrase before saying something honest, personal, or slightly difficult.",
+        "zh": "人們在說出誠實、個人或稍微難開口的話之前，會使用這個說法。"
+      },
+      {
+        "en": "It is common in spoken English and softens a direct comment.",
+        "zh": "它常見於口語英語，並能軟化直接評論。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "film viewing habits",
+    "meaning": "觀影習慣",
+    "examples": [
+      {
+        "en": "Nico could talk about film viewing habits.",
+        "zh": "Nico 可以談觀影習慣。"
+      },
+      {
+        "en": "Film viewing habits are the ways people usually watch films, such as at home, online, or in cinemas.",
+        "zh": "film viewing habits 指人們通常觀看電影的方式，例如在家、網上或戲院。"
+      },
+      {
+        "en": "Teenagers’ film viewing habits have changed because streaming services are easy to use.",
+        "zh": "因為串流服務容易使用，青少年的觀影習慣已經改變。"
+      },
+      {
+        "en": "Studying film viewing habits can help organisers understand what audiences expect.",
+        "zh": "研究觀影習慣可以幫助主辦方了解觀眾期望。"
+      },
+      {
+        "en": "This phrase is useful when discussing media, cinema, and audience behaviour.",
+        "zh": "當討論媒體、電影和觀眾行為時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "watch films at home",
+    "meaning": "在家看電影",
+    "examples": [
+      {
+        "en": "Many people now watch films at home.",
+        "zh": "現在許多人在家看電影。"
+      },
+      {
+        "en": "To watch films at home means to see movies on a television, computer, tablet, or phone instead of going to a cinema.",
+        "zh": "watch films at home 指在電視、電腦、平板或手機上看電影，而不是去戲院。"
+      },
+      {
+        "en": "Families often watch films at home because it is cheaper and more comfortable.",
+        "zh": "家庭常在家看電影，因為較便宜也較舒服。"
+      },
+      {
+        "en": "If more people watch films at home, cinemas may need to offer a more special experience.",
+        "zh": "如果更多人在家看電影，戲院可能需要提供更特別的體驗。"
+      },
+      {
+        "en": "This phrase is useful when discussing modern viewing habits.",
+        "zh": "當討論現代觀影習慣時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "go to the cinema",
+    "meaning": "去戲院看電影",
+    "examples": [
+      {
+        "en": "Some people still go to the cinema to watch films.",
+        "zh": "有些人仍然去戲院看電影。"
+      },
+      {
+        "en": "To go to the cinema means to visit a movie theatre to watch a film.",
+        "zh": "go to the cinema 指到電影院觀看電影。"
+      },
+      {
+        "en": "Friends may go to the cinema together on a weekend evening.",
+        "zh": "朋友可能在週末晚上一起去戲院看電影。"
+      },
+      {
+        "en": "People still go to the cinema when they want a large screen, strong sound, and a shared atmosphere.",
+        "zh": "當人們想要大螢幕、強音效和共同氣氛時，仍會去戲院。"
+      },
+      {
+        "en": "This phrase is common in everyday English.",
+        "zh": "這個說法常見於日常英語。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "nowadays",
+    "meaning": "如今",
+    "examples": [
+      {
+        "en": "People watch films differently nowadays.",
+        "zh": "如今，人們觀看電影的方式不同了。"
+      },
+      {
+        "en": "Nowadays means at the present time, especially compared with the past.",
+        "zh": "nowadays 指現今，尤其是與過去相比。"
+      },
+      {
+        "en": "Nowadays, many students use tablets instead of paper dictionaries.",
+        "zh": "如今，許多學生使用平板電腦，而不是紙本字典。"
+      },
+      {
+        "en": "Using “nowadays” often shows that something has changed over time.",
+        "zh": "使用 nowadays 通常表示某事隨時間改變了。"
+      },
+      {
+        "en": "This word is useful when discussing modern habits, trends, or technology.",
+        "zh": "當討論現代習慣、趨勢或科技時，這個字很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "low-budget films",
+    "meaning": "低成本電影",
+    "examples": [
+      {
+        "en": "Nico could compare low-budget films with blockbusters.",
+        "zh": "Nico 可以把低成本電影與賣座大片作比較。"
+      },
+      {
+        "en": "Low-budget films are films made with relatively little money.",
+        "zh": "low-budget films 指以相對較少資金製作的電影。"
+      },
+      {
+        "en": "A low-budget film may rely on a strong story rather than expensive effects.",
+        "zh": "低成本電影可能依靠強故事，而不是昂貴特效。"
+      },
+      {
+        "en": "Low-budget films can struggle to reach audiences if they lack marketing support.",
+        "zh": "如果缺乏市場推廣支援，低成本電影可能難以接觸觀眾。"
+      },
+      {
+        "en": "This phrase is useful when discussing film production and industry inequality.",
+        "zh": "當討論電影製作和行業不平等時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "compared to",
+    "meaning": "與……相比",
+    "examples": [
+      {
+        "en": "Nico could talk about low-budget films compared to blockbusters.",
+        "zh": "Nico 可以談低成本電影與賣座大片相比的情況。"
+      },
+      {
+        "en": "Compared to means when measured or considered against something else.",
+        "zh": "compared to 指與另一事物衡量或考慮時。"
+      },
+      {
+        "en": "Compared to a large school, a small school may feel more personal.",
+        "zh": "與大型學校相比，小型學校可能感覺更有人情味。"
+      },
+      {
+        "en": "Low-budget films may seem less visible compared to blockbusters with huge advertising campaigns.",
+        "zh": "與有龐大宣傳活動的賣座大片相比，低成本電影可能較不顯眼。"
+      },
+      {
+        "en": "This phrase is useful when explaining similarities or differences.",
+        "zh": "當解釋相似或不同之處時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "blockbusters",
+    "meaning": "賣座大片",
+    "examples": [
+      {
+        "en": "Big studios often focus on expensive blockbusters.",
+        "zh": "大型電影公司常集中製作高成本賣座大片。"
+      },
+      {
+        "en": "Blockbusters are very popular films that usually attract large audiences and earn a lot of money.",
+        "zh": "blockbusters 指非常受歡迎、通常吸引大量觀眾並賺取很多收入的電影。"
+      },
+      {
+        "en": "Many summer blockbusters use famous actors, action scenes, and strong visual effects.",
+        "zh": "許多暑期賣座大片使用著名演員、動作場面和強烈視覺特效。"
+      },
+      {
+        "en": "Blockbusters can dominate cinemas and leave less space for smaller films.",
+        "zh": "賣座大片可能主導戲院，令小型電影的空間變少。"
+      },
+      {
+        "en": "This word is common when discussing the commercial film industry.",
+        "zh": "這個字常用於討論商業電影業。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "the other night",
+    "meaning": "前幾晚",
+    "examples": [
+      {
+        "en": "Mira went to the screening the other night.",
+        "zh": "Mira 前幾晚去了放映會。"
+      },
+      {
+        "en": "The other night means a recent evening, usually a few nights ago.",
+        "zh": "the other night 指最近某個晚上，通常是幾晚前。"
+      },
+      {
+        "en": "I saw my old teacher at the supermarket the other night.",
+        "zh": "我前幾晚在超市見到以前的老師。"
+      },
+      {
+        "en": "This phrase is useful when the exact date is not important.",
+        "zh": "當準確日期不重要時，這個說法很有用。"
+      },
+      {
+        "en": "It is common in casual spoken English.",
+        "zh": "它常見於日常口語英語。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "360-degree headsets",
+    "meaning": "360 度頭戴裝置",
+    "examples": [
+      {
+        "en": "The audience will use 360-degree headsets.",
+        "zh": "觀眾會使用 360 度頭戴裝置。"
+      },
+      {
+        "en": "360-degree headsets allow viewers to look around in all directions inside a digital scene.",
+        "zh": "360-degree headsets 讓觀眾在數碼場景中向各個方向觀看。"
+      },
+      {
+        "en": "Museums may use 360-degree headsets to show visitors historical places virtually.",
+        "zh": "博物館可能使用 360 度頭戴裝置，向訪客虛擬展示歷史地點。"
+      },
+      {
+        "en": "If 360-degree headsets are part of the event, staff must explain how to use them safely.",
+        "zh": "如果 360 度頭戴裝置是活動一部分，職員必須解釋如何安全使用。"
+      },
+      {
+        "en": "This phrase is useful when talking about immersive viewing technology.",
+        "zh": "當談論沉浸式觀影科技時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "absolutely fantastic",
+    "meaning": "非常出色",
+    "examples": [
+      {
+        "en": "The Janus headsets are absolutely fantastic.",
+        "zh": "Janus 頭戴裝置非常出色。"
+      },
+      {
+        "en": "Absolutely fantastic means extremely good or impressive.",
+        "zh": "absolutely fantastic 指極好或非常令人印象深刻。"
+      },
+      {
+        "en": "The school choir was absolutely fantastic at the concert.",
+        "zh": "學校合唱團在音樂會上表現非常出色。"
+      },
+      {
+        "en": "People use this phrase when they want to praise something strongly.",
+        "zh": "當人們想強烈稱讚某事時，會使用這個說法。"
+      },
+      {
+        "en": "It is more enthusiastic than simply saying “good.”",
+        "zh": "它比單純說 “good” 更熱情。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "it struck me",
+    "meaning": "我突然想到",
+    "examples": [
+      {
+        "en": "It struck me that I could have the same experience at home.",
+        "zh": "我突然想到，我可以在家有相同體驗。"
+      },
+      {
+        "en": "It struck me means I suddenly realised or thought of something.",
+        "zh": "it struck me 指我突然意識到或想到某事。"
+      },
+      {
+        "en": "It struck me during the lesson that I had misunderstood the question.",
+        "zh": "上課期間，我突然想到自己誤解了題目。"
+      },
+      {
+        "en": "This phrase often introduces a sudden idea, realisation, or observation.",
+        "zh": "這個說法常用來引入突然出現的想法、領悟或觀察。"
+      },
+      {
+        "en": "It is useful when explaining how a thought came to mind.",
+        "zh": "當解釋一個想法如何出現時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "have exactly the same experience",
+    "meaning": "有完全相同的體驗",
+    "examples": [
+      {
+        "en": "Mira could have exactly the same experience at home.",
+        "zh": "Mira 可以在家有完全相同的體驗。"
+      },
+      {
+        "en": "To have exactly the same experience means to feel or receive no real difference between two situations.",
+        "zh": "have exactly the same experience 指在兩種情況下感受或得到的東西沒有真正差別。"
+      },
+      {
+        "en": "If a student can watch the lecture recording clearly, they may have almost the same experience at home.",
+        "zh": "如果學生可以清楚觀看講座錄影，他們在家可能也有幾乎相同的體驗。"
+      },
+      {
+        "en": "If people can have exactly the same experience at home, they may question why they need to travel.",
+        "zh": "如果人們在家可以有完全相同的體驗，他們可能會質疑為何需要出門。"
+      },
+      {
+        "en": "This phrase is useful when comparing physical and digital experiences.",
+        "zh": "當比較實體和數碼體驗時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "sitting at home",
+    "meaning": "坐在家中",
+    "examples": [
+      {
+        "en": "Mira could have the same experience sitting at home.",
+        "zh": "Mira 坐在家中也可以有相同體驗。"
+      },
+      {
+        "en": "Sitting at home means staying at home while doing something, often comfortably and without travelling.",
+        "zh": "sitting at home 指留在家中做某事，通常帶有舒適和不用出門的意思。"
+      },
+      {
+        "en": "Many people now attend online courses sitting at home.",
+        "zh": "現在許多人坐在家中參加網上課程。"
+      },
+      {
+        "en": "If people can enjoy films sitting at home, cinemas must offer something extra.",
+        "zh": "如果人們坐在家中也能享受電影，戲院就必須提供額外體驗。"
+      },
+      {
+        "en": "This phrase is useful when contrasting home convenience with going out.",
+        "zh": "當對比居家方便和外出時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "in my living room",
+    "meaning": "在客廳裏",
+    "examples": [
+      {
+        "en": "Mira could watch the film in her living room.",
+        "zh": "Mira 可以在客廳裏觀看電影。"
+      },
+      {
+        "en": "In my living room means inside the main room at home where people usually relax or watch television.",
+        "zh": "in my living room 指在家中通常用來放鬆或看電視的主要房間內。"
+      },
+      {
+        "en": "I watched the concert livestream in my living room with my family.",
+        "zh": "我和家人在客廳裏觀看音樂會直播。"
+      },
+      {
+        "en": "Watching films in the living room can be comfortable, but it may lack the cinema atmosphere.",
+        "zh": "在客廳裏看電影可以很舒服，但可能缺少戲院氣氛。"
+      },
+      {
+        "en": "This phrase gives a clear home setting.",
+        "zh": "這個說法提供清楚的家居場景。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "on my sofa",
+    "meaning": "在梳化上",
+    "examples": [
+      {
+        "en": "Mira could watch the film on her sofa.",
+        "zh": "Mira 可以在梳化上觀看電影。"
+      },
+      {
+        "en": "On my sofa means sitting or lying on the sofa at home.",
+        "zh": "on my sofa 指坐在或躺在家中的梳化上。"
+      },
+      {
+        "en": "After dinner, I like reading on my sofa because it feels relaxing.",
+        "zh": "晚飯後，我喜歡在梳化上閱讀，因為感覺放鬆。"
+      },
+      {
+        "en": "Watching a film on the sofa is convenient, but it may feel less special than going to a cinema.",
+        "zh": "在梳化上看電影很方便，但可能不如去戲院那麼特別。"
+      },
+      {
+        "en": "This phrase creates a comfortable home image.",
+        "zh": "這個說法營造舒適的家居畫面。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "There’s no point",
+    "meaning": "……沒有意思；沒有必要",
+    "examples": [
+      {
+        "en": "There is no point going to the cinema.",
+        "zh": "去戲院沒有必要。"
+      },
+      {
+        "en": "There’s no point means something is not useful or worth doing.",
+        "zh": "There’s no point 指某事沒有用或不值得做。"
+      },
+      {
+        "en": "There is no point bringing an umbrella if the rain has already stopped.",
+        "zh": "如果雨已經停了，帶傘就沒有必要。"
+      },
+      {
+        "en": "If people can get the same experience at home, they may feel there is no point going out.",
+        "zh": "如果人們在家也能得到相同體驗，他們可能覺得沒有必要出門。"
+      },
+      {
+        "en": "This phrase is useful when explaining why an action seems unnecessary.",
+        "zh": "當解釋某個行動為何看似不必要時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "stay at home",
+    "meaning": "留在家中",
+    "examples": [
+      {
+        "en": "People may choose to stay at home instead of going to the cinema.",
+        "zh": "人們可能選擇留在家中，而不是去戲院。"
+      },
+      {
+        "en": "To stay at home means to remain at home instead of going out.",
+        "zh": "stay at home 指留在家裏，而不是外出。"
+      },
+      {
+        "en": "During heavy rain, families may stay at home and watch a film together.",
+        "zh": "大雨期間，家庭可能留在家中一起看電影。"
+      },
+      {
+        "en": "If staying at home is cheaper and easier, some businesses must work harder to attract visitors.",
+        "zh": "如果留在家中更便宜、更方便，一些企業就必須更努力吸引訪客。"
+      },
+      {
+        "en": "This phrase is useful when contrasting home activities with outside activities.",
+        "zh": "當對比家中活動和外出活動時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "in the last decade or so",
+    "meaning": "在過去十年左右",
+    "examples": [
+      {
+        "en": "In the last decade or so, big studios have focused on blockbusters.",
+        "zh": "在過去十年左右，大型電影公司集中製作賣座大片。"
+      },
+      {
+        "en": "In the last decade or so means during roughly the past ten years.",
+        "zh": "in the last decade or so 指大約在過去十年期間。"
+      },
+      {
+        "en": "In the last decade or so, many students have started using online learning tools.",
+        "zh": "在過去十年左右，許多學生開始使用網上學習工具。"
+      },
+      {
+        "en": "This phrase is useful when talking about recent trends without giving an exact year.",
+        "zh": "當談論近期趨勢但不需要準確年份時，這個說法很有用。"
+      },
+      {
+        "en": "It often introduces changes that have happened gradually.",
+        "zh": "它常用來引入逐漸發生的改變。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "big studios",
+    "meaning": "大型電影公司",
+    "examples": [
+      {
+        "en": "Big studios have focused more resources on blockbusters.",
+        "zh": "大型電影公司把更多資源集中在賣座大片上。"
+      },
+      {
+        "en": "Big studios are large film companies with major funding, staff, and distribution power.",
+        "zh": "big studios 指擁有大量資金、員工和發行能力的大型電影公司。"
+      },
+      {
+        "en": "Big studios can afford expensive actors, special effects, and global marketing campaigns.",
+        "zh": "大型電影公司負擔得起昂貴演員、特效和全球市場推廣活動。"
+      },
+      {
+        "en": "When big studios dominate cinemas, smaller filmmakers may struggle to get attention.",
+        "zh": "當大型電影公司主導戲院時，小型電影製作人可能難以獲得注意。"
+      },
+      {
+        "en": "This phrase is useful when discussing the film industry and commercial power.",
+        "zh": "當討論電影業和商業力量時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "tend to focus on",
+    "meaning": "傾向集中於",
+    "examples": [
+      {
+        "en": "Big studios tend to focus on expensive blockbusters.",
+        "zh": "大型電影公司傾向集中於高成本賣座大片。"
+      },
+      {
+        "en": "Tend to focus on means usually give most attention or resources to something.",
+        "zh": "tend to focus on 指通常把大部分注意力或資源放在某事上。"
+      },
+      {
+        "en": "Students tend to focus on exam questions when the test is near.",
+        "zh": "考試臨近時，學生傾向集中於考試題目。"
+      },
+      {
+        "en": "If companies tend to focus on profit only, they may ignore smaller creative projects.",
+        "zh": "如果公司只傾向集中於利潤，可能會忽略較小型創意項目。"
+      },
+      {
+        "en": "This phrase describes a common pattern rather than an absolute rule.",
+        "zh": "這個說法描述常見模式，而不是絕對規則。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "more and more of their resources",
+    "meaning": "越來越多資源",
+    "examples": [
+      {
+        "en": "Studios put more and more of their resources into blockbusters.",
+        "zh": "電影公司把越來越多資源投放於賣座大片。"
+      },
+      {
+        "en": "More and more of their resources means an increasing amount of their money, time, staff, or attention.",
+        "zh": "more and more of their resources 指越來越多金錢、時間、人手或注意力。"
+      },
+      {
+        "en": "Schools are putting more and more of their resources into digital learning.",
+        "zh": "學校正在把越來越多資源投放於數碼學習。"
+      },
+      {
+        "en": "If studios put more and more resources into blockbusters, fewer resources may remain for smaller films.",
+        "zh": "如果電影公司把越來越多資源投放於賣座大片，留給小型電影的資源可能更少。"
+      },
+      {
+        "en": "This phrase is useful when describing a growing trend.",
+        "zh": "當描述逐漸增長的趨勢時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "expensive blockbusters",
+    "meaning": "高成本賣座大片",
+    "examples": [
+      {
+        "en": "Studios make expensive blockbusters for the cinema.",
+        "zh": "電影公司為戲院製作高成本賣座大片。"
+      },
+      {
+        "en": "Expensive blockbusters are high-cost films designed to attract large audiences and earn high profits.",
+        "zh": "expensive blockbusters 指成本高、設計來吸引大量觀眾並賺取高利潤的電影。"
+      },
+      {
+        "en": "Expensive blockbusters often include famous actors, action scenes, and advanced visual effects.",
+        "zh": "高成本賣座大片通常包括著名演員、動作場面和先進視覺特效。"
+      },
+      {
+        "en": "If cinemas rely too much on expensive blockbusters, low-budget films may receive fewer screenings.",
+        "zh": "如果戲院過度依賴高成本賣座大片，低成本電影可能獲得較少放映場次。"
+      },
+      {
+        "en": "This phrase is useful when discussing commercial film strategy.",
+        "zh": "當討論商業電影策略時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "make bigger profits",
+    "meaning": "賺取更大利潤",
+    "examples": [
+      {
+        "en": "Studios make blockbusters so that they can make bigger profits.",
+        "zh": "電影公司製作賣座大片，以便賺取更大利潤。"
+      },
+      {
+        "en": "To make bigger profits means to earn more money after costs are paid.",
+        "zh": "make bigger profits 指扣除成本後賺取更多金錢。"
+      },
+      {
+        "en": "A shop may sell popular products to make bigger profits during the holidays.",
+        "zh": "商店可能在假期售賣熱門產品，以賺取更大利潤。"
+      },
+      {
+        "en": "When companies focus only on making bigger profits, they may take fewer creative risks.",
+        "zh": "當公司只集中於賺取更大利潤時，可能會較少承擔創意風險。"
+      },
+      {
+        "en": "This phrase is useful when explaining business motivation.",
+        "zh": "當解釋商業動機時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "put all its energy into",
+    "meaning": "將所有精力投放於",
+    "examples": [
+      {
+        "en": "A studio may put all its energy into one successful blockbuster.",
+        "zh": "一間電影公司可能將所有精力投放於一部成功的賣座大片。"
+      },
+      {
+        "en": "To put all its energy into something means to focus almost all effort, time, and resources on it.",
+        "zh": "put all its energy into something 指把幾乎所有努力、時間和資源集中在某事上。"
+      },
+      {
+        "en": "A student may put all her energy into preparing for one important interview.",
+        "zh": "學生可能將所有精力投放於準備一場重要面試。"
+      },
+      {
+        "en": "If a company puts all its energy into one product, other projects may be neglected.",
+        "zh": "如果公司將所有精力投放於一件產品，其他項目可能會被忽略。"
+      },
+      {
+        "en": "This phrase is useful when describing strong focus or overconcentration.",
+        "zh": "當描述強烈專注或過度集中時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "successful blockbuster",
+    "meaning": "成功的賣座大片",
+    "examples": [
+      {
+        "en": "A successful blockbuster can bring a studio huge profits.",
+        "zh": "一部成功的賣座大片可以為電影公司帶來巨大利潤。"
+      },
+      {
+        "en": "A successful blockbuster is a popular big-budget film that attracts many viewers and earns a lot of money.",
+        "zh": "successful blockbuster 指受歡迎、吸引大量觀眾並賺取很多收入的大製作電影。"
+      },
+      {
+        "en": "A successful blockbuster can create sequels, merchandise, and global attention.",
+        "zh": "成功的賣座大片可以帶來續集、商品和全球關注。"
+      },
+      {
+        "en": "If a studio produces a successful blockbuster, it may become more willing to repeat the same formula.",
+        "zh": "如果電影公司製作出成功的賣座大片，可能會更願意重複相同公式。"
+      },
+      {
+        "en": "This phrase is useful when discussing film business success.",
+        "zh": "當討論電影商業成功時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "the bottom line is",
+    "meaning": "重點是；說到底",
+    "examples": [
+      {
+        "en": "The bottom line is that a successful blockbuster can make bigger profits.",
+        "zh": "重點是，一部成功的賣座大片可以賺取更大利潤。"
+      },
+      {
+        "en": "The bottom line is means the most important point is.",
+        "zh": "the bottom line is 指最重要的一點是。"
+      },
+      {
+        "en": "The bottom line is that students need enough sleep before exams.",
+        "zh": "重點是，學生在考試前需要足夠睡眠。"
+      },
+      {
+        "en": "People use this phrase to simplify a discussion and focus on the main conclusion.",
+        "zh": "人們用這個說法來簡化討論，集中於主要結論。"
+      },
+      {
+        "en": "It is useful when a topic has many details but one key message.",
+        "zh": "當一個題目有很多細節但只有一個關鍵訊息時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "launch advertising and marketing campaigns",
+    "meaning": "推出廣告及市場推廣活動",
+    "examples": [
+      {
+        "en": "Studios launch advertising and marketing campaigns for blockbusters.",
+        "zh": "電影公司為賣座大片推出廣告及市場推廣活動。"
+      },
+      {
+        "en": "To launch advertising and marketing campaigns means to start organised promotional activities for a product, event, or film.",
+        "zh": "launch advertising and marketing campaigns 指為產品、活動或電影開始有組織的宣傳工作。"
+      },
+      {
+        "en": "A school may launch a campaign to encourage students to join a reading programme.",
+        "zh": "學校可能推出宣傳活動，鼓勵學生參加閱讀計劃。"
+      },
+      {
+        "en": "Big campaigns can make more people aware of a film before it is released.",
+        "zh": "大型宣傳活動可以在電影上映前令更多人知道它。"
+      },
+      {
+        "en": "This phrase is useful in business, media, events, and publicity.",
+        "zh": "這個說法適用於商業、媒體、活動和宣傳。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "absolutely enormous",
+    "meaning": "極其龐大的",
+    "examples": [
+      {
+        "en": "Studios launch absolutely enormous campaigns for blockbusters.",
+        "zh": "電影公司為賣座大片推出極其龐大的宣傳活動。"
+      },
+      {
+        "en": "Absolutely enormous means extremely large in size, scale, or amount.",
+        "zh": "absolutely enormous 指在大小、規模或數量上極其巨大。"
+      },
+      {
+        "en": "The shopping mall had an absolutely enormous Christmas display.",
+        "zh": "商場有一個極其龐大的聖誕展示。"
+      },
+      {
+        "en": "An absolutely enormous campaign can make a film impossible to ignore.",
+        "zh": "極其龐大的宣傳活動可以令一部電影難以被忽視。"
+      },
+      {
+        "en": "This phrase is strong and emphatic, often used to show surprise or scale.",
+        "zh": "這個說法語氣強烈，常用來表示驚訝或規模龐大。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "multi-million-dollar campaigns",
+    "meaning": "數百萬元級的宣傳活動",
+    "examples": [
+      {
+        "en": "Studios launch multi-million-dollar advertising and marketing campaigns.",
+        "zh": "電影公司推出數百萬元級的廣告及市場推廣活動。"
+      },
+      {
+        "en": "Multi-million-dollar campaigns are promotional campaigns that cost several million dollars.",
+        "zh": "multi-million-dollar campaigns 指耗資數百萬元的宣傳活動。"
+      },
+      {
+        "en": "A global brand may use a multi-million-dollar campaign to introduce a new product.",
+        "zh": "全球品牌可能使用數百萬元級的宣傳活動推出新產品。"
+      },
+      {
+        "en": "Low-budget filmmakers cannot easily compete with multi-million-dollar campaigns.",
+        "zh": "低成本電影製作人很難與數百萬元級的宣傳活動競爭。"
+      },
+      {
+        "en": "This phrase is useful when discussing the financial power behind promotion.",
+        "zh": "當討論宣傳背後的財力時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "low-budget filmmakers",
+    "meaning": "低成本電影製作人",
+    "examples": [
+      {
+        "en": "Low-budget filmmakers cannot compete with big studios.",
+        "zh": "低成本電影製作人無法與大型電影公司競爭。"
+      },
+      {
+        "en": "Low-budget filmmakers are people who make films with limited money and resources.",
+        "zh": "low-budget filmmakers 指以有限金錢和資源製作電影的人。"
+      },
+      {
+        "en": "Low-budget filmmakers often use small crews, real locations, and simple equipment.",
+        "zh": "低成本電影製作人通常使用小型團隊、真實地點和簡單設備。"
+      },
+      {
+        "en": "If low-budget filmmakers lack marketing support, audiences may never hear about their films.",
+        "zh": "如果低成本電影製作人缺乏市場推廣支援，觀眾可能永遠不會聽過他們的電影。"
+      },
+      {
+        "en": "This phrase is useful when discussing independent cinema and creative limitations.",
+        "zh": "當討論獨立電影和創作限制時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "simply cannot compete with",
+    "meaning": "根本無法與……競爭",
+    "examples": [
+      {
+        "en": "Small filmmakers simply cannot compete with those campaigns.",
+        "zh": "小型電影製作人根本無法與那些宣傳活動競爭。"
+      },
+      {
+        "en": "Simply cannot compete with means have no realistic chance against something stronger or larger.",
+        "zh": "simply cannot compete with 指面對更強或更大的對手時，實際上沒有競爭機會。"
+      },
+      {
+        "en": "A small shop simply cannot compete with a large chain on advertising budget.",
+        "zh": "小店在廣告預算上根本無法與大型連鎖店競爭。"
+      },
+      {
+        "en": "If one side has far more money and attention, the other side may simply not be able to compete.",
+        "zh": "如果一方擁有多得多的金錢和關注，另一方可能根本無法競爭。"
+      },
+      {
+        "en": "This phrase strongly shows an unfair or difficult comparison.",
+        "zh": "這個說法強烈顯示一種不公平或困難的比較。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "add something more optimistic",
+    "meaning": "加入較樂觀的內容",
+    "examples": [
+      {
+        "en": "Nico should add something more optimistic to the speech.",
+        "zh": "Nico 應該在演講中加入較樂觀的內容。"
+      },
+      {
+        "en": "To add something more optimistic means to include a more hopeful or positive point.",
+        "zh": "add something more optimistic 指加入更有希望或更正面的重點。"
+      },
+      {
+        "en": "A teacher may add something more optimistic after discussing students’ exam difficulties.",
+        "zh": "老師在討論學生考試困難後，可能會加入較樂觀的內容。"
+      },
+      {
+        "en": "Adding something more optimistic can stop a speech from feeling too negative.",
+        "zh": "加入較樂觀的內容，可以防止演講感覺太負面。"
+      },
+      {
+        "en": "This phrase is useful when balancing criticism with hope.",
+        "zh": "當平衡批評和希望時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "not all doom and gloom",
+    "meaning": "不應全是悲觀消息",
+    "examples": [
+      {
+        "en": "The speech should not be all doom and gloom.",
+        "zh": "這篇演講不應全是悲觀消息。"
+      },
+      {
+        "en": "Not all doom and gloom means not completely negative, hopeless, or depressing.",
+        "zh": "not all doom and gloom 指不是完全負面、無望或令人沮喪。"
+      },
+      {
+        "en": "The report mentions problems, but it is not all doom and gloom because some results improved.",
+        "zh": "報告提到問題，但並非全是悲觀消息，因為部分結果有所改善。"
+      },
+      {
+        "en": "If a talk is all doom and gloom, the audience may feel discouraged.",
+        "zh": "如果講座全是悲觀消息，觀眾可能會感到氣餒。"
+      },
+      {
+        "en": "This phrase is informal and useful when adding balance to bad news.",
+        "zh": "這個說法較口語，適合用來為壞消息加入平衡。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  },
+  {
+    "front": "pass on your message",
+    "meaning": "轉達你的訊息",
+    "examples": [
+      {
+        "en": "Ringo will pass on Mira’s message to Nico.",
+        "zh": "Ringo 會把 Mira 的訊息轉達給 Nico。"
+      },
+      {
+        "en": "To pass on your message means to tell another person what someone has said.",
+        "zh": "pass on your message 指把某人所說的話告訴另一個人。"
+      },
+      {
+        "en": "I will pass on your message to the teacher when she returns.",
+        "zh": "老師回來時，我會把你的訊息轉達給她。"
+      },
+      {
+        "en": "Passing on a message clearly can prevent misunderstanding and missed action.",
+        "zh": "清楚轉達訊息可以防止誤解和遺漏行動。"
+      },
+      {
+        "en": "This phrase is useful when the person who needs the information is not present.",
+        "zh": "當需要知道資訊的人不在場時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2019 DSE Podcast.pdf"
+  }
+],
+  "dse/paper-3/podcast/2020": [
+  {
+    "front": "lots of interesting things to talk about",
+    "meaning": "很多有趣的事情可以討論",
+    "examples": [
+      {
+        "en": "We’ve got lots of interesting things to talk about today on the Star Pod podcast.",
+        "zh": "今天在 Star Pod 播客中，我們有很多有趣的事情可以討論。"
+      },
+      {
+        "en": "“Lots of interesting things to talk about” means there are many topics worth discussing.",
+        "zh": "“Lots of interesting things to talk about” 意思是有很多值得討論的話題。"
+      },
+      {
+        "en": "At the class meeting, we had lots of interesting things to talk about, including the school fair and the new library.",
+        "zh": "在班會上，我們有很多有趣的事情可以討論，包括學校市集和新圖書館。"
+      },
+      {
+        "en": "When guests bring unusual experiences, a podcast has lots of interesting things to talk about.",
+        "zh": "當嘉賓帶來不尋常的經驗，播客就會有很多有趣的事情可以討論。"
+      },
+      {
+        "en": "If a topic is boring, people run out of ideas quickly; if it is rich, there are lots of interesting things to talk about.",
+        "zh": "如果話題沉悶，人們很快沒有想法；如果內容豐富，就會有很多有趣的事情可以討論。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "special guests",
+    "meaning": "特別嘉賓",
+    "examples": [
+      {
+        "en": "Ellen has two special guests on the podcast.",
+        "zh": "Ellen 在播客中有兩位特別嘉賓。"
+      },
+      {
+        "en": "Special guests are invited people who are important, interesting, or suitable for a programme or event.",
+        "zh": "“Special guests” 指被邀請到節目或活動中，重要、有趣或合適的人。"
+      },
+      {
+        "en": "The school invited two special guests to speak at the science day.",
+        "zh": "學校邀請了兩位特別嘉賓在科學日演講。"
+      },
+      {
+        "en": "Special guests can make an event more exciting because they bring experience ordinary speakers may not have.",
+        "zh": "特別嘉賓可以令活動更精彩，因為他們帶來一般講者未必有的經驗。"
+      },
+      {
+        "en": "A special guest does not always need to be famous; they just need to add value to the occasion.",
+        "zh": "特別嘉賓不一定要出名；他們只需要為場合增添價值。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "needs no introduction",
+    "meaning": "無需介紹；大家都認識",
+    "examples": [
+      {
+        "en": "Captain Trillion Choi needs no introduction.",
+        "zh": "Trillion Choi 隊長無需介紹。"
+      },
+      {
+        "en": "If someone needs no introduction, they are already very well known to the audience.",
+        "zh": "如果某人 needs no introduction，意思是觀眾已經非常熟悉那個人。"
+      },
+      {
+        "en": "Our head prefect needs no introduction because every student knows her.",
+        "zh": "我們的領袖生隊長無需介紹，因為每位學生都認識她。"
+      },
+      {
+        "en": "A speaker may say this before introducing a famous guest to show respect and excitement.",
+        "zh": "講者在介紹著名嘉賓前，可能會這樣說，以表示尊重和期待。"
+      },
+      {
+        "en": "This phrase means the person is so familiar or impressive that a long introduction is unnecessary.",
+        "zh": "這個說法表示那個人非常為人熟悉或令人印象深刻，因此不需要長篇介紹。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "an astronomer at",
+    "meaning": "在……工作的天文學家",
+    "examples": [
+      {
+        "en": "Professor Marvin Adams is an astronomer at the Hong Kong Space Observatory.",
+        "zh": "Marvin Adams 教授是在香港太空館／香港天文觀測機構工作的天文學家。"
+      },
+      {
+        "en": "An astronomer at an organisation is a scientist who studies stars, planets, space, or the universe there.",
+        "zh": "“An astronomer at” 某機構，指在那裡研究恆星、行星、太空或宇宙的科學家。"
+      },
+      {
+        "en": "She is an astronomer at a university and teaches students about galaxies.",
+        "zh": "她是在一所大學工作的天文學家，教授學生有關星系的知識。"
+      },
+      {
+        "en": "If someone works as an astronomer at a research centre, they may study telescopes, planets, or space data.",
+        "zh": "如果某人在研究中心擔任天文學家，他可能會研究望遠鏡、行星或太空數據。"
+      },
+      {
+        "en": "This phrase tells us both the person’s job and the place where they work.",
+        "zh": "這個說法同時告訴我們那個人的職業和工作地點。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Hong Kong Space Observatory",
+    "meaning": "香港太空館／香港天文觀測機構",
+    "examples": [
+      {
+        "en": "Professor Marvin Adams works at the Hong Kong Space Observatory.",
+        "zh": "Marvin Adams 教授在香港太空館／香港天文觀測機構工作。"
+      },
+      {
+        "en": "The Hong Kong Space Observatory is the place where Marvin works and studies space-related topics.",
+        "zh": "“The Hong Kong Space Observatory” 是 Marvin 工作並研究太空相關題目的地方。"
+      },
+      {
+        "en": "Students may visit the Hong Kong Space Observatory to learn more about planets and stars.",
+        "zh": "學生可能會參觀香港太空館／香港天文觀測機構，以了解更多關於行星和恆星的知識。"
+      },
+      {
+        "en": "If a scientist works at the Hong Kong Space Observatory, he may explain space facts to the public.",
+        "zh": "如果科學家在香港太空館／香港天文觀測機構工作，他可能會向公眾解釋太空知識。"
+      },
+      {
+        "en": "This name is used as the organisation connected with astronomy and space education in the passage.",
+        "zh": "在文章中，這個名稱用作與天文和太空教育有關的機構。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "Lovely to be back again",
+    "meaning": "很高興再次回來",
+    "examples": [
+      {
+        "en": "Lovely to be back again, Ellen.",
+        "zh": "Ellen，很高興再次回來。"
+      },
+      {
+        "en": "“Lovely to be back again” means the speaker is happy to return to a place or programme.",
+        "zh": "“Lovely to be back again” 意思是說話者很高興再次回到某個地方或節目。"
+      },
+      {
+        "en": "Lovely to be back again at this school after so many years.",
+        "zh": "這麼多年後再次回到這間學校，很高興。"
+      },
+      {
+        "en": "A guest may say this when they have visited the same event before and feel warmly welcomed.",
+        "zh": "嘉賓以前曾參加同一活動，並感到受歡迎時，可能會這樣說。"
+      },
+      {
+        "en": "This phrase sounds friendly because it shows the speaker has good feelings about returning.",
+        "zh": "這個說法聽起來友善，因為它表達了說話者對再次回來的好感。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "one of the most exciting activities",
+    "meaning": "最令人興奮的活動之一",
+    "examples": [
+      {
+        "en": "The Mars Experience Room is one of the most exciting activities at Adventure Camp.",
+        "zh": "火星體驗室是歷奇營中最令人興奮的活動之一。"
+      },
+      {
+        "en": "“One of the most exciting activities” means it is among the activities that people find the most enjoyable or thrilling.",
+        "zh": "“One of the most exciting activities” 表示它屬於最令人享受或興奮的一批活動。"
+      },
+      {
+        "en": "The treasure hunt is one of the most exciting activities during the school picnic.",
+        "zh": "尋寶遊戲是學校旅行中最令人興奮的活動之一。"
+      },
+      {
+        "en": "If many students talk about an activity before and after the event, it may be one of the most exciting activities.",
+        "zh": "如果很多學生在活動前後都談論某活動，它可能是最令人興奮的活動之一。"
+      },
+      {
+        "en": "This phrase does not mean it is the only exciting activity; it means it is among the best ones.",
+        "zh": "這個說法不是指它是唯一令人興奮的活動，而是指它屬於最好的一類。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "Adventure Camp",
+    "meaning": "歷奇營；冒險營",
+    "examples": [
+      {
+        "en": "Some listeners have signed up for Adventure Camp.",
+        "zh": "有些聽眾已經報名參加歷奇營。"
+      },
+      {
+        "en": "Adventure Camp is a camp where children join active, challenging, or unusual activities.",
+        "zh": "“Adventure Camp” 指孩子參加活躍、有挑戰性或不尋常活動的營地。"
+      },
+      {
+        "en": "At Adventure Camp, students may climb, solve problems, and learn teamwork.",
+        "zh": "在歷奇營中，學生可能會攀爬、解難和學習團隊合作。"
+      },
+      {
+        "en": "Adventure Camp can help children become braver because they try activities outside normal classroom life.",
+        "zh": "歷奇營可以幫助孩子變得更勇敢，因為他們會嘗試課室以外的活動。"
+      },
+      {
+        "en": "Parents should check what children need to bring before sending them to Adventure Camp.",
+        "zh": "家長送孩子去歷奇營前，應檢查孩子需要帶甚麼。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Mars Experience Room",
+    "meaning": "火星體驗室",
+    "examples": [
+      {
+        "en": "Children can visit the Mars Experience Room at Adventure Camp.",
+        "zh": "孩子可以在歷奇營參觀火星體驗室。"
+      },
+      {
+        "en": "The Mars Experience Room is an activity space designed to help children imagine life on Mars.",
+        "zh": "“The Mars Experience Room” 是一個活動空間，設計用來幫助孩子想像火星上的生活。"
+      },
+      {
+        "en": "In the Mars Experience Room, students may learn why people need space suits.",
+        "zh": "在火星體驗室中，學生可能會學到人們為何需要太空衣。"
+      },
+      {
+        "en": "If the room shows dust storms and low oxygen, it can make Mars feel more real to children.",
+        "zh": "如果房間展示沙塵暴和低氧環境，它可以令孩子覺得火星更真實。"
+      },
+      {
+        "en": "This kind of room teaches science through experience, not only through reading.",
+        "zh": "這類房間透過體驗教授科學，而不只是透過閱讀。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "get to feel what it would be like to",
+    "meaning": "可以感受……會是怎樣",
+    "examples": [
+      {
+        "en": "Children get to feel what it would be like to be on Mars.",
+        "zh": "孩子可以感受身處火星會是怎樣。"
+      },
+      {
+        "en": "“Get to feel what it would be like to” means people can experience or imagine a situation more directly.",
+        "zh": "“Get to feel what it would be like to” 意思是人們可以更直接地體驗或想像某種情況。"
+      },
+      {
+        "en": "In a flight simulator, students get to feel what it would be like to fly a plane.",
+        "zh": "在飛行模擬器中，學生可以感受駕駛飛機會是怎樣。"
+      },
+      {
+        "en": "Practical activities help learners get to feel what it would be like to use knowledge in real life.",
+        "zh": "實踐活動幫助學習者感受在現實生活中運用知識會是怎樣。"
+      },
+      {
+        "en": "This phrase is useful when an activity gives people a taste of an unusual experience.",
+        "zh": "當活動讓人初步體驗不尋常經驗時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "be on Mars",
+    "meaning": "身處火星",
+    "examples": [
+      {
+        "en": "The Mars Experience Room shows children what it would be like to be on Mars.",
+        "zh": "火星體驗室向孩子展示身處火星會是怎樣。"
+      },
+      {
+        "en": "To be on Mars means to be physically present on the planet Mars.",
+        "zh": "“Be on Mars” 意思是實際身處火星這個星球。"
+      },
+      {
+        "en": "If humans were on Mars, they would need protection from the cold and the thin atmosphere.",
+        "zh": "如果人類身處火星，他們需要保護自己免受寒冷和稀薄大氣影響。"
+      },
+      {
+        "en": "Being on Mars would be very different from being on Earth because the environment is harsher.",
+        "zh": "身處火星會與身處地球非常不同，因為環境更嚴酷。"
+      },
+      {
+        "en": "This phrase helps students imagine the real conditions of another planet.",
+        "zh": "這個說法幫助學生想像另一個星球的真實環境。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a dangerous place",
+    "meaning": "危險的地方",
+    "examples": [
+      {
+        "en": "Mars is quite a dangerous place.",
+        "zh": "火星是一個相當危險的地方。"
+      },
+      {
+        "en": "A dangerous place is somewhere that may harm people or put them at risk.",
+        "zh": "“A dangerous place” 指可能傷害人或令人面對風險的地方。"
+      },
+      {
+        "en": "A road without lights can be a dangerous place at night.",
+        "zh": "沒有街燈的道路在晚上可以是一個危險的地方。"
+      },
+      {
+        "en": "Mars is a dangerous place because humans cannot breathe there without equipment.",
+        "zh": "火星是一個危險的地方，因為人類沒有設備就不能在那裡呼吸。"
+      },
+      {
+        "en": "Calling a place dangerous means people should prepare carefully before going there.",
+        "zh": "說某地方危險，意思是人們前往之前應仔細準備。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "from what I can gather",
+    "meaning": "據我所知；按我理解",
+    "examples": [
+      {
+        "en": "From what I can gather, Mars is a dangerous place.",
+        "zh": "據我所知，火星是一個危險的地方。"
+      },
+      {
+        "en": "“From what I can gather” means based on the information I have understood so far.",
+        "zh": "“From what I can gather” 意思是根據我目前理解到的資料。"
+      },
+      {
+        "en": "From what I can gather, the meeting has been moved to Friday.",
+        "zh": "據我所知，會議已改到星期五。"
+      },
+      {
+        "en": "People use this phrase when they are not claiming perfect knowledge but have formed a reasonable understanding.",
+        "zh": "當人們不是聲稱自己完全掌握資料，但已形成合理理解時，會使用這個說法。"
+      },
+      {
+        "en": "It sounds careful because the speaker leaves room for more information.",
+        "zh": "這個說法聽起來謹慎，因為說話者為更多資料留有空間。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the dangers of being on",
+    "meaning": "身處……的危險",
+    "examples": [
+      {
+        "en": "Ellen asks about the dangers of being on Mars.",
+        "zh": "Ellen 問到身處火星的危險。"
+      },
+      {
+        "en": "“The dangers of being on” a place means the risks people face while they are there.",
+        "zh": "“The dangers of being on” 某地方，指人在那裡時會面對的風險。"
+      },
+      {
+        "en": "The dangers of being on a mountain include cold weather, falling rocks, and getting lost.",
+        "zh": "身處高山的危險包括寒冷天氣、落石和迷路。"
+      },
+      {
+        "en": "Knowing the dangers of being on Mars helps children understand why astronauts need training.",
+        "zh": "了解身處火星的危險，幫助孩子明白太空人為何需要訓練。"
+      },
+      {
+        "en": "This phrase focuses on the risks of staying in a place, not just travelling to it.",
+        "zh": "這個說法集中於身處某地方的風險，而不只是前往那裡的風險。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "no oxygen",
+    "meaning": "沒有氧氣",
+    "examples": [
+      {
+        "en": "There is no oxygen on Mars.",
+        "zh": "火星上沒有氧氣。"
+      },
+      {
+        "en": "“No oxygen” means there is none of the gas humans need to breathe.",
+        "zh": "“No oxygen” 意思是沒有任何人類呼吸所需的氣體。"
+      },
+      {
+        "en": "If a room had no oxygen, people inside would be in serious danger.",
+        "zh": "如果一個房間沒有氧氣，裡面的人會有嚴重危險。"
+      },
+      {
+        "en": "No oxygen on Mars means humans must carry or produce breathable air.",
+        "zh": "火星沒有氧氣，表示人類必須攜帶或製造可呼吸的空氣。"
+      },
+      {
+        "en": "This phrase explains one of the most basic reasons Mars is unsafe for humans.",
+        "zh": "這個說法解釋了火星對人類不安全的其中一個最基本原因。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "without oxygen",
+    "meaning": "沒有氧氣的情況下",
+    "examples": [
+      {
+        "en": "Without oxygen, you cannot breathe.",
+        "zh": "沒有氧氣的情況下，你不能呼吸。"
+      },
+      {
+        "en": "“Without oxygen” means when oxygen is not present or not available.",
+        "zh": "“Without oxygen” 意思是在沒有氧氣或氧氣不可用的情況下。"
+      },
+      {
+        "en": "Without oxygen, a fire cannot continue burning.",
+        "zh": "沒有氧氣，火就不能繼續燃燒。"
+      },
+      {
+        "en": "Without oxygen in a space suit, an astronaut would not survive long.",
+        "zh": "如果太空衣沒有氧氣，太空人不能長時間生存。"
+      },
+      {
+        "en": "This phrase often explains what becomes impossible when oxygen is missing.",
+        "zh": "這個說法常用來解釋缺少氧氣時甚麼會變得不可能。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "not able to breathe",
+    "meaning": "無法呼吸",
+    "examples": [
+      {
+        "en": "Not being able to breathe on Mars would be deadly.",
+        "zh": "在火星上無法呼吸會致命。"
+      },
+      {
+        "en": "Not able to breathe means unable to take in air properly.",
+        "zh": "“Not able to breathe” 意思是不能正常吸入空氣。"
+      },
+      {
+        "en": "A person trapped in thick smoke may not be able to breathe.",
+        "zh": "被困在濃煙中的人可能會無法呼吸。"
+      },
+      {
+        "en": "If someone is not able to breathe, they need help immediately because it can be life-threatening.",
+        "zh": "如果某人無法呼吸，他需要立即得到幫助，因為這可能危及生命。"
+      },
+      {
+        "en": "This phrase describes a serious condition, not just mild discomfort.",
+        "zh": "這個說法描述嚴重狀況，而不只是輕微不適。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "walk around on the surface of",
+    "meaning": "在……表面四處行走",
+    "examples": [
+      {
+        "en": "You cannot walk around on the surface of Mars without a space suit.",
+        "zh": "沒有太空衣，你不能在火星表面四處行走。"
+      },
+      {
+        "en": "To walk around on the surface of a planet means to move about on its outer ground.",
+        "zh": "“Walk around on the surface of” 某星球，意思是在它外層地面上移動。"
+      },
+      {
+        "en": "Astronauts walked around on the surface of the Moon during space missions.",
+        "zh": "太空人在太空任務期間曾在月球表面四處行走。"
+      },
+      {
+        "en": "On Mars, people cannot safely walk around on the surface because the air and temperature are dangerous.",
+        "zh": "在火星上，人們不能安全地在表面四處行走，因為空氣和溫度都很危險。"
+      },
+      {
+        "en": "This phrase helps describe physical movement on a planet, not travel around it in space.",
+        "zh": "這個說法描述在星球上的實際移動，而不是在太空中繞行它。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the surface of Mars",
+    "meaning": "火星表面",
+    "examples": [
+      {
+        "en": "Humans cannot walk around on the surface of Mars without protection.",
+        "zh": "沒有保護，人類不能在火星表面四處行走。"
+      },
+      {
+        "en": "The surface of Mars is the outer ground of the planet Mars.",
+        "zh": "“The surface of Mars” 指火星這個星球的外層地面。"
+      },
+      {
+        "en": "Pictures from space missions show rocks and dust on the surface of Mars.",
+        "zh": "太空任務的照片顯示火星表面有岩石和塵土。"
+      },
+      {
+        "en": "The surface of Mars is dangerous for humans because it lacks breathable air and has extreme conditions.",
+        "zh": "火星表面對人類很危險，因為它沒有可呼吸的空氣，而且環境極端。"
+      },
+      {
+        "en": "When scientists study the surface of Mars, they look for signs of water, rocks, and past changes.",
+        "zh": "科學家研究火星表面時，會尋找水、岩石和過往變化的跡象。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "without a space suit",
+    "meaning": "沒有太空衣",
+    "examples": [
+      {
+        "en": "You cannot survive on Mars without a space suit.",
+        "zh": "沒有太空衣，你不能在火星上生存。"
+      },
+      {
+        "en": "“Without a space suit” means not wearing the special clothing needed to stay alive in space or on another planet.",
+        "zh": "“Without a space suit” 意思是沒有穿上在太空或其他星球維持生命所需的特殊衣服。"
+      },
+      {
+        "en": "An astronaut cannot leave the spacecraft without a space suit.",
+        "zh": "太空人沒有太空衣，不能離開太空船。"
+      },
+      {
+        "en": "Without a space suit, Mars would expose people to cold, low pressure, and no breathable air.",
+        "zh": "沒有太空衣，火星會令人暴露於寒冷、低氣壓和沒有可呼吸空氣的環境。"
+      },
+      {
+        "en": "This phrase shows that normal clothes are not enough in extreme space environments.",
+        "zh": "這個說法顯示在極端太空環境中，普通衣服並不足夠。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the temperature on Mars",
+    "meaning": "火星上的溫度",
+    "examples": [
+      {
+        "en": "Ellen asks about the temperature on Mars.",
+        "zh": "Ellen 問到火星上的溫度。"
+      },
+      {
+        "en": "The temperature on Mars means how hot or cold it is on that planet.",
+        "zh": "“The temperature on Mars” 指火星這個星球有多熱或多冷。"
+      },
+      {
+        "en": "Scientists study the temperature on Mars to understand whether machines can work there.",
+        "zh": "科學家研究火星上的溫度，以了解機器是否能在那裡運作。"
+      },
+      {
+        "en": "If the temperature on Mars is too low, humans and equipment need strong protection.",
+        "zh": "如果火星上的溫度太低，人類和設備都需要強力保護。"
+      },
+      {
+        "en": "This phrase is useful when discussing whether Mars is safe or suitable for life.",
+        "zh": "這個說法適合用於討論火星是否安全或適合生命。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "too cold for humans",
+    "meaning": "對人類來說太冷",
+    "examples": [
+      {
+        "en": "Mars is too cold for humans.",
+        "zh": "火星對人類來說太冷。"
+      },
+      {
+        "en": "“Too cold for humans” means the temperature is so low that people cannot live safely there.",
+        "zh": "“Too cold for humans” 意思是溫度低得令人不能安全生活。"
+      },
+      {
+        "en": "A frozen mountain without shelter may be too cold for humans at night.",
+        "zh": "沒有避寒地方的冰冷高山，在晚上可能對人類來說太冷。"
+      },
+      {
+        "en": "If a place is too cold for humans, people need heating, clothing, or special equipment.",
+        "zh": "如果一個地方對人類來說太冷，人們需要暖氣、衣物或特殊設備。"
+      },
+      {
+        "en": "This phrase shows that the problem is not just discomfort, but survival.",
+        "zh": "這個說法顯示問題不只是舒服與否，而是生存問題。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "freeze to death",
+    "meaning": "凍死",
+    "examples": [
+      {
+        "en": "You would freeze to death unless you had a space suit on.",
+        "zh": "除非你穿上太空衣，否則你會凍死。"
+      },
+      {
+        "en": "To freeze to death means to die because the body becomes too cold.",
+        "zh": "“Freeze to death” 意思是因身體變得太冷而死亡。"
+      },
+      {
+        "en": "A lost hiker could freeze to death in a snowstorm without shelter.",
+        "zh": "迷路的行山者如果在暴雪中沒有避寒地方，可能會凍死。"
+      },
+      {
+        "en": "On Mars, extreme cold could make a person freeze to death without protection.",
+        "zh": "在火星上，沒有保護的情況下，極端寒冷可能令人凍死。"
+      },
+      {
+        "en": "This phrase describes a deadly result of very low temperature.",
+        "zh": "這個說法描述極低溫造成的致命結果。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "unless you had",
+    "meaning": "除非你有……",
+    "examples": [
+      {
+        "en": "You would freeze to death unless you had a space suit on.",
+        "zh": "除非你有穿上太空衣，否則你會凍死。"
+      },
+      {
+        "en": "“Unless you had” means if you did not have something, a different or bad result would happen.",
+        "zh": "“Unless you had” 意思是如果你沒有某物，就會出現不同或不好的結果。"
+      },
+      {
+        "en": "You could not enter the building unless you had an access card.",
+        "zh": "除非你有通行證，否則不能進入大樓。"
+      },
+      {
+        "en": "A camper might get badly sunburnt unless they had sunscreen with them.",
+        "zh": "露營者除非有帶防曬用品，否則可能會嚴重曬傷。"
+      },
+      {
+        "en": "This structure shows the condition needed to avoid a problem.",
+        "zh": "這個結構顯示避免問題所需的條件。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "wear a space suit",
+    "meaning": "穿上太空衣",
+    "examples": [
+      {
+        "en": "You would need to wear a space suit at all times.",
+        "zh": "你需要任何時候都穿上太空衣。"
+      },
+      {
+        "en": "To wear a space suit means to put on special protective clothing for space conditions.",
+        "zh": "“Wear a space suit” 意思是穿上用於太空環境的特殊保護衣物。"
+      },
+      {
+        "en": "Astronauts wear a space suit when they leave the spacecraft.",
+        "zh": "太空人離開太空船時會穿上太空衣。"
+      },
+      {
+        "en": "People would need to wear a space suit on Mars because the air is not safe to breathe.",
+        "zh": "人們在火星上需要穿上太空衣，因為那裡的空氣不能安全呼吸。"
+      },
+      {
+        "en": "This phrase is about protection, not fashion.",
+        "zh": "這個說法關乎保護，而不是時尚。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "at all times",
+    "meaning": "任何時候；一直",
+    "examples": [
+      {
+        "en": "You would need to wear a space suit at all times on Mars.",
+        "zh": "在火星上，你需要任何時候都穿上太空衣。"
+      },
+      {
+        "en": "“At all times” means always, without stopping or taking breaks.",
+        "zh": "“At all times” 意思是一直，沒有停止或休息。"
+      },
+      {
+        "en": "Students must wear their name badges at all times during the school trip.",
+        "zh": "學生在學校旅行期間必須任何時候都佩戴名牌。"
+      },
+      {
+        "en": "On Mars, danger is constant, so astronauts would need protection at all times.",
+        "zh": "在火星上，危險一直存在，所以太空人需要任何時候都有保護。"
+      },
+      {
+        "en": "This phrase is stronger than “often” because it means every moment.",
+        "zh": "這個說法比 “often” 更強，因為它指每一刻。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "even then",
+    "meaning": "即使如此",
+    "examples": [
+      {
+        "en": "Even then, Mars would still be a dangerous place.",
+        "zh": "即使如此，火星仍然會是一個危險的地方。"
+      },
+      {
+        "en": "“Even then” means even after that condition or action has happened.",
+        "zh": "“Even then” 意思是即使在那個條件或行動發生之後。"
+      },
+      {
+        "en": "You can study hard for the test; even then, you still need to read the questions carefully.",
+        "zh": "你可以努力溫習考試；即使如此，你仍需要仔細閱讀題目。"
+      },
+      {
+        "en": "Even then shows that a problem may remain after one solution is used.",
+        "zh": "“Even then” 顯示即使用了一個解決方法，問題仍可能存在。"
+      },
+      {
+        "en": "On Mars, a space suit helps, but even then, many dangers still exist.",
+        "zh": "在火星上，太空衣有幫助；即使如此，仍然存在許多危險。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a pretty dangerous place to be",
+    "meaning": "一個相當危險的地方",
+    "examples": [
+      {
+        "en": "Mars would still be a pretty dangerous place to be.",
+        "zh": "火星仍然會是一個相當危險的地方。"
+      },
+      {
+        "en": "A pretty dangerous place to be is a place that is quite risky for someone to stay in.",
+        "zh": "“A pretty dangerous place to be” 指一個對人停留來說相當有風險的地方。"
+      },
+      {
+        "en": "A busy road without crossings is a pretty dangerous place to be for young children.",
+        "zh": "沒有過路處的繁忙道路，對小孩子來說是一個相當危險的地方。"
+      },
+      {
+        "en": "If a place has no oxygen, extreme cold, and dust storms, it is a pretty dangerous place to be.",
+        "zh": "如果一個地方沒有氧氣、極度寒冷，又有沙塵暴，它就是一個相當危險的地方。"
+      },
+      {
+        "en": "“Pretty” here means “quite,” not “beautiful.”",
+        "zh": "這裡的 “pretty” 意思是「相當」，不是「漂亮」。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "Really, how so?",
+    "meaning": "真的嗎？怎樣說？",
+    "examples": [
+      {
+        "en": "Ellen asks, “Really, how so?”",
+        "zh": "Ellen 問：「真的嗎？怎樣說？」"
+      },
+      {
+        "en": "“Really, how so?” means the speaker is surprised and wants an explanation.",
+        "zh": "“Really, how so?” 意思是說話者感到驚訝，並想聽解釋。"
+      },
+      {
+        "en": "Really, how so? I thought the plan was simple.",
+        "zh": "真的嗎？怎樣說？我以為這個計劃很簡單。"
+      },
+      {
+        "en": "A listener may ask this when someone says something unexpected.",
+        "zh": "當有人說出意料之外的事，聽者可能會這樣問。"
+      },
+      {
+        "en": "This phrase invites the other person to explain their reason more clearly.",
+        "zh": "這個說法邀請對方更清楚解釋原因。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "dust storms",
+    "meaning": "沙塵暴",
+    "examples": [
+      {
+        "en": "There are dust storms on Mars.",
+        "zh": "火星上有沙塵暴。"
+      },
+      {
+        "en": "Dust storms are storms where strong wind carries large amounts of dust through the air.",
+        "zh": "“Dust storms” 指強風吹起大量塵土並把它們帶到空氣中的風暴。"
+      },
+      {
+        "en": "A desert road can become dangerous during dust storms because drivers cannot see clearly.",
+        "zh": "在沙塵暴期間，沙漠道路可能變得危險，因為司機看不清楚。"
+      },
+      {
+        "en": "Dust storms on Mars could make it hard for astronauts to move, see, or find their way.",
+        "zh": "火星上的沙塵暴可能令太空人難以移動、看清楚或找路。"
+      },
+      {
+        "en": "This phrase describes a weather danger caused by dust and wind.",
+        "zh": "這個說法描述由塵土和風造成的天氣危險。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "That doesn’t sound so bad",
+    "meaning": "聽起來不算太糟",
+    "examples": [
+      {
+        "en": "That doesn’t sound so bad at first.",
+        "zh": "起初聽起來不算太糟。"
+      },
+      {
+        "en": "“That doesn’t sound so bad” means something seems not very serious when you first hear it.",
+        "zh": "“That doesn’t sound so bad” 意思是某事初聽之下似乎不太嚴重。"
+      },
+      {
+        "en": "Walking for ten minutes does not sound so bad until you realise it is uphill in heavy rain.",
+        "zh": "走十分鐘聽起來不算太糟，直到你發現那是大雨中的上坡路。"
+      },
+      {
+        "en": "People use this phrase when the danger or difficulty is not immediately obvious.",
+        "zh": "當危險或困難不是一開始就明顯時，人們會使用這個說法。"
+      },
+      {
+        "en": "This phrase often comes before someone explains why the situation is actually worse.",
+        "zh": "這個說法常出現在有人解釋情況其實更糟之前。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "for one thing",
+    "meaning": "首先；其中一點是",
+    "examples": [
+      {
+        "en": "For one thing, it would be very easy to get lost in a dust storm.",
+        "zh": "首先，在沙塵暴中會很容易迷路。"
+      },
+      {
+        "en": "“For one thing” introduces one reason or example among several possible points.",
+        "zh": "“For one thing” 用來引出眾多可能重點中的一個原因或例子。"
+      },
+      {
+        "en": "I do not want to go hiking today; for one thing, the weather is unstable.",
+        "zh": "我今天不想去行山；首先，天氣不穩定。"
+      },
+      {
+        "en": "A speaker uses this phrase when starting to explain why an idea is true.",
+        "zh": "說話者開始解釋某個想法為何成立時，會使用這個說法。"
+      },
+      {
+        "en": "It suggests there may be more reasons after the first one.",
+        "zh": "它暗示第一個原因之後可能還有更多原因。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "get lost in",
+    "meaning": "在……中迷路",
+    "examples": [
+      {
+        "en": "It would be very easy to get lost in a dust storm.",
+        "zh": "在沙塵暴中會很容易迷路。"
+      },
+      {
+        "en": "To get lost in a place or situation means to lose your way or not know where you are.",
+        "zh": "“Get lost in” 某地方或情況，意思是迷失方向或不知道自己在哪裡。"
+      },
+      {
+        "en": "Tourists can get lost in a new city if they do not check the map.",
+        "zh": "如果遊客不查看地圖，可能會在新城市中迷路。"
+      },
+      {
+        "en": "In a dust storm, poor visibility can make people get lost very quickly.",
+        "zh": "在沙塵暴中，視線不清可以令人很快迷路。"
+      },
+      {
+        "en": "This phrase can describe physical location or confusion in a complicated situation.",
+        "zh": "這個說法可以描述實際位置，也可以描述在複雜情況中感到混亂。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "bad news",
+    "meaning": "糟糕的事",
+    "examples": [
+      {
+        "en": "Getting lost on Mars would be very bad news.",
+        "zh": "在火星上迷路會是非常糟糕的事。"
+      },
+      {
+        "en": "“Bad news” means a serious problem or an unpleasant situation.",
+        "zh": "“Bad news” 意思是嚴重問題或令人不快的情況。"
+      },
+      {
+        "en": "Losing your passport before a flight is bad news.",
+        "zh": "飛行前遺失護照是糟糕的事。"
+      },
+      {
+        "en": "If a space explorer gets lost, it is bad news because rescue may be difficult.",
+        "zh": "如果太空探險者迷路，那會是糟糕的事，因為救援可能很困難。"
+      },
+      {
+        "en": "This phrase is conversational and often means something is much worse than it first sounds.",
+        "zh": "這個說法較口語，通常表示事情比一開始聽起來更嚴重。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "Good point",
+    "meaning": "說得好；有道理",
+    "examples": [
+      {
+        "en": "Good point. Getting lost on any planet is bad news.",
+        "zh": "說得好。在任何星球上迷路都是糟糕的事。"
+      },
+      {
+        "en": "“Good point” means the speaker agrees that someone has made a useful or sensible comment.",
+        "zh": "“Good point” 表示說話者同意對方提出了有用或合理的意見。"
+      },
+      {
+        "en": "Good point; we should check the weather before booking the outdoor area.",
+        "zh": "說得好；我們預訂戶外場地前應查看天氣。"
+      },
+      {
+        "en": "People say “good point” in discussions when another person notices something important.",
+        "zh": "當另一個人注意到重要事情時，人們會在討論中說 “good point”。"
+      },
+      {
+        "en": "This phrase helps show agreement without repeating the whole idea.",
+        "zh": "這個說法幫助人表示同意，而不用重複整個想法。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "carry on with",
+    "meaning": "繼續談論……",
+    "examples": [
+      {
+        "en": "Let’s carry on with the topic of planets.",
+        "zh": "讓我們繼續談論行星這個話題。"
+      },
+      {
+        "en": "To carry on with something means to continue doing or discussing it.",
+        "zh": "“Carry on with” 某事，意思是繼續做或討論那件事。"
+      },
+      {
+        "en": "After the short break, the teacher carried on with the lesson.",
+        "zh": "短暫休息後，老師繼續上課。"
+      },
+      {
+        "en": "If a meeting goes off topic, the chair may ask everyone to carry on with the main discussion.",
+        "zh": "如果會議離題，主席可能會請大家繼續主要討論。"
+      },
+      {
+        "en": "This phrase is useful when returning to something that was already in progress.",
+        "zh": "這個說法適合用於回到已經開始的事情。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the topic of",
+    "meaning": "……這個話題",
+    "examples": [
+      {
+        "en": "They carry on with the topic of planets.",
+        "zh": "他們繼續談論行星這個話題。"
+      },
+      {
+        "en": "“The topic of” something means the subject being discussed or studied.",
+        "zh": "“The topic of” 某事，意思是正在討論或學習的主題。"
+      },
+      {
+        "en": "The topic of today’s lesson is healthy eating.",
+        "zh": "今天課堂的話題是健康飲食。"
+      },
+      {
+        "en": "If people understand the topic of a meeting, they can prepare useful ideas.",
+        "zh": "如果人們明白會議的話題，就可以準備有用的想法。"
+      },
+      {
+        "en": "This phrase helps name exactly what the conversation is about.",
+        "zh": "這個說法幫助清楚指出對話關於甚麼。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a bit of an expert on",
+    "meaning": "頗熟悉……的人",
+    "examples": [
+      {
+        "en": "Marvin is a bit of an expert on Tarkov.",
+        "zh": "Marvin 是頗熟悉 Tarkov 的人。"
+      },
+      {
+        "en": "“A bit of an expert on” something means someone knows quite a lot about it.",
+        "zh": "“A bit of an expert on” 某事，意思是某人對它相當了解。"
+      },
+      {
+        "en": "My brother is a bit of an expert on old video games.",
+        "zh": "我哥哥頗熟悉舊電子遊戲。"
+      },
+      {
+        "en": "If a person studies a topic for years, others may see them as a bit of an expert on it.",
+        "zh": "如果一個人研究某題目多年，別人可能會視他為頗熟悉該題目的人。"
+      },
+      {
+        "en": "This phrase sounds modest because it avoids saying someone is a complete expert.",
+        "zh": "這個說法聽起來謙和，因為它沒有說某人是完全專家。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the planet Tarkov",
+    "meaning": "Tarkov 這個星球",
+    "examples": [
+      {
+        "en": "Another activity at Adventure Camp is about the planet Tarkov.",
+        "zh": "歷奇營另一項活動是關於 Tarkov 這個星球。"
+      },
+      {
+        "en": "The planet Tarkov is the fictional or imagined planet discussed in the camp activity.",
+        "zh": "“The planet Tarkov” 是營地活動中討論的虛構或想像星球。"
+      },
+      {
+        "en": "Students solve problems about the planet Tarkov by thinking about its extreme seasons.",
+        "zh": "學生透過思考 Tarkov 這個星球的極端季節來解決問題。"
+      },
+      {
+        "en": "If the planet Tarkov has boiling summers and freezing winters, children must plan carefully to survive there.",
+        "zh": "如果 Tarkov 這個星球有沸騰的夏天和冰冷的冬天，孩子必須仔細計劃才能生存。"
+      },
+      {
+        "en": "This phrase names the specific planet used in the story or activity.",
+        "zh": "這個說法指出故事或活動中的特定星球名稱。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "design the problem-solving activity",
+    "meaning": "設計解難活動",
+    "examples": [
+      {
+        "en": "Marvin helped design the problem-solving activity.",
+        "zh": "Marvin 協助設計解難活動。"
+      },
+      {
+        "en": "To design the problem-solving activity means to plan an activity where people must think through a challenge.",
+        "zh": "“Design the problem-solving activity” 指計劃一個讓人思考挑戰的活動。"
+      },
+      {
+        "en": "The teacher designed the problem-solving activity so students had to work in teams.",
+        "zh": "老師設計解難活動，讓學生必須團隊合作。"
+      },
+      {
+        "en": "A well-designed problem-solving activity can make students practise logic, communication, and decision-making.",
+        "zh": "一個設計良好的解難活動可以讓學生練習邏輯、溝通和決策。"
+      },
+      {
+        "en": "This phrase focuses on planning the activity, not just joining it.",
+        "zh": "這個說法集中於計劃活動，而不只是參加活動。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "problem-solving activity",
+    "meaning": "解難活動",
+    "examples": [
+      {
+        "en": "The camp runs a problem-solving activity about Tarkov.",
+        "zh": "營地舉辦一項關於 Tarkov 的解難活動。"
+      },
+      {
+        "en": "A problem-solving activity is a task where people find solutions to a challenge.",
+        "zh": "“Problem-solving activity” 指讓人為挑戰尋找解決方法的任務。"
+      },
+      {
+        "en": "Building a bridge from paper can be a problem-solving activity in a science lesson.",
+        "zh": "在科學課中，用紙建橋可以是一項解難活動。"
+      },
+      {
+        "en": "Problem-solving activities help students learn because they must test ideas and improve them.",
+        "zh": "解難活動幫助學生學習，因為他們必須測試想法並改進。"
+      },
+      {
+        "en": "This kind of activity is different from listening only; students have to think and act.",
+        "zh": "這類活動不同於只聆聽；學生需要思考和行動。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "run at the camp",
+    "meaning": "在營地舉辦",
+    "examples": [
+      {
+        "en": "The problem-solving activity is run at the camp.",
+        "zh": "解難活動在營地舉辦。"
+      },
+      {
+        "en": "If an activity is run at the camp, it is organised and held there.",
+        "zh": "如果活動 is run at the camp，意思是它在營地被組織和舉行。"
+      },
+      {
+        "en": "A first-aid workshop may be run at the camp for all new students.",
+        "zh": "急救工作坊可能會在營地為所有新學生舉辦。"
+      },
+      {
+        "en": "Activities run at the camp need staff, space, equipment, and safety rules.",
+        "zh": "在營地舉辦的活動需要職員、空間、設備和安全規則。"
+      },
+      {
+        "en": "This phrase tells us where the activity is held and organised.",
+        "zh": "這個說法告訴我們活動在哪裡舉行和組織。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "incredibly extreme seasons",
+    "meaning": "極端得難以置信的季節",
+    "examples": [
+      {
+        "en": "Tarkov has incredibly extreme seasons.",
+        "zh": "Tarkov 有極端得難以置信的季節。"
+      },
+      {
+        "en": "Incredibly extreme seasons are seasons with weather that is far beyond normal conditions.",
+        "zh": "“Incredibly extreme seasons” 指天氣遠遠超出正常情況的季節。"
+      },
+      {
+        "en": "A planet with incredibly extreme seasons may be burning hot in summer and freezing cold in winter.",
+        "zh": "一個有極端得難以置信的季節的星球，夏天可能灼熱，冬天可能冰冷。"
+      },
+      {
+        "en": "Incredibly extreme seasons can make farming, travel, and survival very difficult.",
+        "zh": "極端得難以置信的季節可以令耕作、交通和生存非常困難。"
+      },
+      {
+        "en": "This phrase is stronger than simply saying the seasons are “different.”",
+        "zh": "這個說法比單純說季節「不同」強烈得多。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "much more extreme than",
+    "meaning": "比……極端得多",
+    "examples": [
+      {
+        "en": "The seasons on Tarkov are much more extreme than anything on Earth.",
+        "zh": "Tarkov 上的季節比地球上任何情況都極端得多。"
+      },
+      {
+        "en": "“Much more extreme than” means far stronger, harsher, or more unusual than something else.",
+        "zh": "“Much more extreme than” 意思是比某事強烈、嚴酷或異常得多。"
+      },
+      {
+        "en": "The storm was much more extreme than the normal rain we get in summer.",
+        "zh": "那場風暴比我們夏天通常遇到的雨極端得多。"
+      },
+      {
+        "en": "If a climate is much more extreme than Earth’s, humans need special protection to survive.",
+        "zh": "如果氣候比地球極端得多，人類需要特殊保護才能生存。"
+      },
+      {
+        "en": "This phrase makes the comparison very clear and strong.",
+        "zh": "這個說法令比較非常清楚和強烈。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "anywhere on Earth",
+    "meaning": "地球上任何地方",
+    "examples": [
+      {
+        "en": "Tarkov is more extreme than anywhere on Earth.",
+        "zh": "Tarkov 比地球上任何地方都更極端。"
+      },
+      {
+        "en": "“Anywhere on Earth” means any place in the whole world.",
+        "zh": "“Anywhere on Earth” 意思是整個世界上的任何地方。"
+      },
+      {
+        "en": "This desert is hotter than almost anywhere on Earth.",
+        "zh": "這個沙漠比地球上幾乎任何地方都更熱。"
+      },
+      {
+        "en": "If a planet is colder than anywhere on Earth, normal human clothing will not be enough.",
+        "zh": "如果一個星球比地球上任何地方都更冷，普通人類衣物並不足夠。"
+      },
+      {
+        "en": "This phrase helps show that the comparison includes the entire planet Earth.",
+        "zh": "這個說法幫助顯示比較包括整個地球。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "what would that mean if",
+    "meaning": "如果……，那會代表甚麼？",
+    "examples": [
+      {
+        "en": "What would that mean if you were living on Tarkov?",
+        "zh": "如果你住在 Tarkov，那會代表甚麼？"
+      },
+      {
+        "en": "“What would that mean if” asks someone to think about the result of an imaginary situation.",
+        "zh": "“What would that mean if” 是要求某人思考一個假設情況的結果。"
+      },
+      {
+        "en": "What would that mean if our school moved all lessons online?",
+        "zh": "如果我們學校把所有課堂改為網上進行，那會代表甚麼？"
+      },
+      {
+        "en": "This question helps people connect a fact with its practical effects.",
+        "zh": "這個問題幫助人把事實與實際影響連接起來。"
+      },
+      {
+        "en": "It is useful in science, planning, and problem-solving because it asks about consequences.",
+        "zh": "它在科學、計劃和解難中很有用，因為它詢問後果。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "temperatures are so high that",
+    "meaning": "溫度高得……",
+    "examples": [
+      {
+        "en": "In summer, the temperatures are so high that the oceans boil.",
+        "zh": "在夏天，溫度高得令海洋沸騰。"
+      },
+      {
+        "en": "“Temperatures are so high that” means the heat is extreme enough to cause a serious result.",
+        "zh": "“Temperatures are so high that” 意思是熱度極端到足以造成嚴重結果。"
+      },
+      {
+        "en": "The temperatures were so high that the school cancelled outdoor sports.",
+        "zh": "溫度高得學校取消了戶外運動。"
+      },
+      {
+        "en": "If temperatures are so high that roads soften, travel can become dangerous.",
+        "zh": "如果溫度高得令道路變軟，交通可以變得危險。"
+      },
+      {
+        "en": "This structure links a high temperature with its consequence.",
+        "zh": "這個結構把高溫與其後果連接起來。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the oceans boil",
+    "meaning": "海洋沸騰",
+    "examples": [
+      {
+        "en": "In summer on Tarkov, the oceans boil.",
+        "zh": "在 Tarkov 的夏天，海洋會沸騰。"
+      },
+      {
+        "en": "If the oceans boil, the water becomes so hot that it turns into steam.",
+        "zh": "如果 the oceans boil，意思是海水熱到變成蒸氣。"
+      },
+      {
+        "en": "In a science-fiction story, a planet may be so hot that the oceans boil.",
+        "zh": "在科幻故事中，一個星球可能熱得海洋沸騰。"
+      },
+      {
+        "en": "If the oceans boil, the air could fill with dangerous steam and become impossible to breathe.",
+        "zh": "如果海洋沸騰，空氣可能充滿危險蒸氣，變得無法呼吸。"
+      },
+      {
+        "en": "This phrase describes an extreme and deadly level of heat.",
+        "zh": "這個說法描述極端而致命的高溫。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "huge amounts of steam",
+    "meaning": "大量蒸氣",
+    "examples": [
+      {
+        "en": "Boiling oceans produce huge amounts of steam.",
+        "zh": "沸騰的海洋會產生大量蒸氣。"
+      },
+      {
+        "en": "Huge amounts of steam means a very large quantity of hot water vapour.",
+        "zh": "“Huge amounts of steam” 指非常大量的熱水蒸氣。"
+      },
+      {
+        "en": "A broken pipe in a factory may release huge amounts of steam.",
+        "zh": "工廠中的破裂管道可能釋放大量蒸氣。"
+      },
+      {
+        "en": "Huge amounts of steam can burn people and make it hard to see or breathe.",
+        "zh": "大量蒸氣可以燙傷人，並令人難以看清或呼吸。"
+      },
+      {
+        "en": "This phrase suggests both quantity and danger when the steam is very hot.",
+        "zh": "這個說法在蒸氣很熱時，同時暗示數量和危險。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "kill you in an instant",
+    "meaning": "立即殺死你",
+    "examples": [
+      {
+        "en": "The steam would kill you in an instant.",
+        "zh": "蒸氣會立即殺死你。"
+      },
+      {
+        "en": "To kill you in an instant means to cause death immediately or almost immediately.",
+        "zh": "“Kill you in an instant” 意思是立即或幾乎立即造成死亡。"
+      },
+      {
+        "en": "A powerful electric shock can kill a person in an instant.",
+        "zh": "強烈電擊可以立即殺死人。"
+      },
+      {
+        "en": "On Tarkov, boiling steam would kill you in an instant because it is extremely hot.",
+        "zh": "在 Tarkov 上，沸騰蒸氣會立即殺死你，因為它極度高溫。"
+      },
+      {
+        "en": "This phrase shows that the danger is sudden and not survivable.",
+        "zh": "這個說法顯示危險是突然而且無法生還的。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "in an instant",
+    "meaning": "一瞬間；立即",
+    "examples": [
+      {
+        "en": "On Tarkov, the steam would kill you in an instant.",
+        "zh": "在 Tarkov 上，蒸氣會一瞬間殺死你。"
+      },
+      {
+        "en": "“In an instant” means very quickly, almost immediately.",
+        "zh": "“In an instant” 意思是非常快，幾乎立即。"
+      },
+      {
+        "en": "A phone can be stolen in an instant if you leave it on a café table.",
+        "zh": "如果你把電話留在咖啡店桌上，它可以一瞬間被偷走。"
+      },
+      {
+        "en": "In an emergency, conditions can change in an instant.",
+        "zh": "在緊急情況中，情況可以一瞬間改變。"
+      },
+      {
+        "en": "This phrase stresses that something happens with almost no delay.",
+        "zh": "這個說法強調某事幾乎沒有延遲地發生。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "boiling oceans",
+    "meaning": "沸騰的海洋",
+    "examples": [
+      {
+        "en": "Boiling oceans would make Tarkov extremely dangerous in summer.",
+        "zh": "沸騰的海洋會令 Tarkov 在夏天極度危險。"
+      },
+      {
+        "en": "Boiling oceans are oceans so hot that the water is turning into steam.",
+        "zh": "“Boiling oceans” 指熱到海水正在變成蒸氣的海洋。"
+      },
+      {
+        "en": "Boiling oceans would make a planet impossible for ordinary humans to live on.",
+        "zh": "沸騰的海洋會令一個星球不可能讓普通人類居住。"
+      },
+      {
+        "en": "If oceans were boiling, ships, animals, and coastal areas would all be destroyed.",
+        "zh": "如果海洋沸騰，船隻、動物和沿海地區都會被摧毀。"
+      },
+      {
+        "en": "This phrase describes an imagined but very extreme environmental danger.",
+        "zh": "這個說法描述想像中但非常極端的環境危險。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "what happens then",
+    "meaning": "那時會發生甚麼",
+    "examples": [
+      {
+        "en": "Ellen asks what happens in winter on Tarkov.",
+        "zh": "Ellen 問 Tarkov 的冬天那時會發生甚麼。"
+      },
+      {
+        "en": "“What happens then?” asks what will happen next or at that time.",
+        "zh": "“What happens then?” 是詢問接下來或在那個時候會發生甚麼。"
+      },
+      {
+        "en": "If the bus is cancelled, what happens then?",
+        "zh": "如果巴士取消，那時會發生甚麼？"
+      },
+      {
+        "en": "This question is useful when someone wants to understand the next stage of a situation.",
+        "zh": "當某人想了解情況的下一階段時，這個問題很有用。"
+      },
+      {
+        "en": "It often follows surprising information and asks for the next result.",
+        "zh": "它常跟在令人驚訝的資料後，用來詢問下一個結果。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "I’m imagining",
+    "meaning": "我在想像；我猜想",
+    "examples": [
+      {
+        "en": "I’m imagining it is not going to be good.",
+        "zh": "我在想像，情況應該不會好。"
+      },
+      {
+        "en": "“I’m imagining” means I am picturing or guessing something in my mind.",
+        "zh": "“I’m imagining” 意思是我正在心中想像或推測某事。"
+      },
+      {
+        "en": "I’m imagining the classroom will be noisy if thirty children play games at once.",
+        "zh": "我在想像，如果三十個孩子同時玩遊戲，課室會很嘈吵。"
+      },
+      {
+        "en": "People use this phrase when they do not know for sure but can guess from the situation.",
+        "zh": "當人們不確定但能根據情況推測時，會用這個說法。"
+      },
+      {
+        "en": "It sounds more careful than saying “I know.”",
+        "zh": "它比說 “I know” 更謹慎。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "you’re right there",
+    "meaning": "這一點你說得對",
+    "examples": [
+      {
+        "en": "You’re right there: winter on Tarkov is dangerous too.",
+        "zh": "這一點你說得對：Tarkov 的冬天也很危險。"
+      },
+      {
+        "en": "“You’re right there” means you are correct about that point.",
+        "zh": "“You’re right there” 意思是你在那一點上是正確的。"
+      },
+      {
+        "en": "You’re right there; the deadline is the biggest problem.",
+        "zh": "這一點你說得對；截止日期是最大的問題。"
+      },
+      {
+        "en": "A speaker may say this before adding more information to someone’s correct idea.",
+        "zh": "說話者在補充某人正確想法前，可能會這樣說。"
+      },
+      {
+        "en": "This phrase confirms agreement with one specific part of what someone said.",
+        "zh": "這個說法確認同意對方說法中的某一點。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "temperatures would drop so low that",
+    "meaning": "溫度低得……",
+    "examples": [
+      {
+        "en": "The temperatures would drop so low that the oceans would freeze.",
+        "zh": "溫度會低得令海洋結冰。"
+      },
+      {
+        "en": "“Temperatures would drop so low that” means it would become cold enough to cause a serious result.",
+        "zh": "“Temperatures would drop so low that” 意思是氣溫會低到造成嚴重結果。"
+      },
+      {
+        "en": "Temperatures dropped so low that the water pipes froze overnight.",
+        "zh": "溫度低得水管一夜之間結冰。"
+      },
+      {
+        "en": "If temperatures drop so low that roads become icy, travel becomes dangerous.",
+        "zh": "如果溫度低得道路結冰，交通會變得危險。"
+      },
+      {
+        "en": "This structure connects extreme cold with its consequence.",
+        "zh": "這個結構把極端寒冷與其後果連接起來。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "frozen solid",
+    "meaning": "完全結冰",
+    "examples": [
+      {
+        "en": "The oceans would be frozen solid.",
+        "zh": "海洋會完全結冰。"
+      },
+      {
+        "en": "If something is frozen solid, it is completely hard because of freezing.",
+        "zh": "如果某物 is frozen solid，意思是它因結冰而完全變硬。"
+      },
+      {
+        "en": "The bottle of water was frozen solid after a night in the freezer.",
+        "zh": "那瓶水在冰箱中放了一晚後完全結冰。"
+      },
+      {
+        "en": "If lakes are frozen solid, boats cannot move through them.",
+        "zh": "如果湖泊完全結冰，船隻就不能通過。"
+      },
+      {
+        "en": "This phrase means the object is not just cold; it has fully turned hard from ice.",
+        "zh": "這個說法表示物件不只是寒冷，而是已經完全變成冰硬狀態。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the amazing thing",
+    "meaning": "最神奇的是",
+    "examples": [
+      {
+        "en": "The amazing thing is that spring and autumn are quite pleasant.",
+        "zh": "最神奇的是，春天和秋天頗宜人。"
+      },
+      {
+        "en": "“The amazing thing is that” introduces something surprising or impressive.",
+        "zh": "“The amazing thing is that” 用來引出令人驚訝或印象深刻的事情。"
+      },
+      {
+        "en": "The amazing thing is that the small robot can carry heavy boxes.",
+        "zh": "最神奇的是，這個小機械人可以搬運重箱。"
+      },
+      {
+        "en": "A speaker uses this phrase when the next fact is unexpected compared with what came before.",
+        "zh": "當下一個事實與之前內容相比很出乎意料時，說話者會使用這個說法。"
+      },
+      {
+        "en": "This phrase helps listeners notice a surprising contrast.",
+        "zh": "這個說法幫助聽眾注意到令人驚訝的對比。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "spring and autumn",
+    "meaning": "春天和秋天",
+    "examples": [
+      {
+        "en": "Spring and autumn on Tarkov are quite pleasant.",
+        "zh": "Tarkov 的春天和秋天頗宜人。"
+      },
+      {
+        "en": "Spring and autumn are the seasons between winter and summer.",
+        "zh": "“Spring and autumn” 是冬天與夏天之間的季節。"
+      },
+      {
+        "en": "Many schools hold outdoor activities in spring and autumn because the weather is mild.",
+        "zh": "很多學校在春天和秋天舉辦戶外活動，因為天氣溫和。"
+      },
+      {
+        "en": "If spring and autumn are comfortable, they may be the safest seasons for travel.",
+        "zh": "如果春天和秋天氣候舒適，它們可能是最安全的旅行季節。"
+      },
+      {
+        "en": "This phrase usually refers to two moderate seasons, not the hottest or coldest parts of the year.",
+        "zh": "這個說法通常指兩個較溫和的季節，而不是一年中最熱或最冷的時候。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "quite pleasant",
+    "meaning": "頗舒適；頗宜人",
+    "examples": [
+      {
+        "en": "The spring and autumn on Tarkov are really quite pleasant.",
+        "zh": "Tarkov 的春天和秋天真的頗舒適。"
+      },
+      {
+        "en": "“Quite pleasant” means fairly comfortable, enjoyable, or nice.",
+        "zh": "“Quite pleasant” 意思是相當舒適、愉快或不錯。"
+      },
+      {
+        "en": "The weather was quite pleasant, so the class held the activity outside.",
+        "zh": "天氣頗宜人，所以班級在戶外舉行活動。"
+      },
+      {
+        "en": "A place feels quite pleasant when it is not too hot, too cold, or too crowded.",
+        "zh": "當一個地方不太熱、不太冷，也不太擠迫時，它會感覺頗舒適。"
+      },
+      {
+        "en": "This phrase is positive but not too strong; it means something is comfortably good.",
+        "zh": "這個說法是正面的，但不算非常強烈；意思是某事舒適地好。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "average temperatures",
+    "meaning": "平均氣溫",
+    "examples": [
+      {
+        "en": "Average temperatures are around 25 degrees Celsius.",
+        "zh": "平均氣溫約為攝氏 25 度。"
+      },
+      {
+        "en": "Average temperatures are the usual or middle temperatures calculated from many measurements.",
+        "zh": "“Average temperatures” 指從多次量度中計算出的通常或中間氣溫。"
+      },
+      {
+        "en": "Average temperatures in summer are higher than in winter.",
+        "zh": "夏天的平均氣溫比冬天高。"
+      },
+      {
+        "en": "If average temperatures rise over time, a place may become hotter and harder to live in.",
+        "zh": "如果平均氣溫隨時間上升，一個地方可能變得更熱、更難居住。"
+      },
+      {
+        "en": "This phrase is useful because one day’s temperature may not show the normal pattern.",
+        "zh": "這個說法很有用，因為一天的氣溫未必能顯示正常模式。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "degrees Celsius",
+    "meaning": "攝氏……度",
+    "examples": [
+      {
+        "en": "Average temperatures are around 25 degrees Celsius.",
+        "zh": "平均氣溫約為攝氏 25 度。"
+      },
+      {
+        "en": "Degrees Celsius is a unit used to measure temperature.",
+        "zh": "“Degrees Celsius” 是用來量度溫度的單位。"
+      },
+      {
+        "en": "Water freezes at 0 degrees Celsius and boils at 100 degrees Celsius.",
+        "zh": "水在攝氏 0 度結冰，在攝氏 100 度沸騰。"
+      },
+      {
+        "en": "If the temperature is 35 degrees Celsius, outdoor exercise may feel tiring and unsafe.",
+        "zh": "如果氣溫是攝氏 35 度，戶外運動可能會令人疲倦並不安全。"
+      },
+      {
+        "en": "This phrase tells us the scale being used, especially in science and weather reports.",
+        "zh": "這個說法告訴我們所使用的溫標，特別常見於科學和天氣報告。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "an interesting place",
+    "meaning": "有趣的地方",
+    "examples": [
+      {
+        "en": "Tarkov is certainly an interesting place.",
+        "zh": "Tarkov 肯定是一個有趣的地方。"
+      },
+      {
+        "en": "An interesting place is somewhere that makes people curious or gives them something unusual to learn.",
+        "zh": "“An interesting place” 指令人好奇或有不尋常事情可學的地方。"
+      },
+      {
+        "en": "A museum can be an interesting place if it lets visitors touch and test objects.",
+        "zh": "如果博物館讓訪客觸摸和測試物件，它可以是一個有趣的地方。"
+      },
+      {
+        "en": "Tarkov is an interesting place because its seasons are extremely different from Earth’s.",
+        "zh": "Tarkov 是一個有趣的地方，因為它的季節與地球極度不同。"
+      },
+      {
+        "en": "This phrase does not always mean the place is safe; it means it is worth learning about.",
+        "zh": "這個說法不一定表示地方安全；它表示那地方值得了解。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "an exciting time for",
+    "meaning": "對……來說是令人興奮的時刻",
+    "examples": [
+      {
+        "en": "It is an exciting time for some of the listeners.",
+        "zh": "對一些聽眾來說，這是令人興奮的時刻。"
+      },
+      {
+        "en": "“An exciting time for” someone means a period when that person has something enjoyable or important to look forward to.",
+        "zh": "“An exciting time for” 某人，指那個人有令人期待、愉快或重要事情的一段時期。"
+      },
+      {
+        "en": "Exam results week can be an exciting time for students entering university.",
+        "zh": "放榜週對即將升讀大學的學生來說，可以是令人興奮的時刻。"
+      },
+      {
+        "en": "It is an exciting time for children who have just signed up for camp.",
+        "zh": "對剛報名參加營地的孩子來說，這是令人興奮的時刻。"
+      },
+      {
+        "en": "This phrase connects a special period with the people who feel excited about it.",
+        "zh": "這個說法把特別時期與對它感到興奮的人連接起來。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "signed up for",
+    "meaning": "報名參加",
+    "examples": [
+      {
+        "en": "Some listeners have signed up for one of the Adventure Camps.",
+        "zh": "有些聽眾已報名參加其中一個歷奇營。"
+      },
+      {
+        "en": "To sign up for something means to register or put your name down for it.",
+        "zh": "“Sign up for” 某事，意思是登記或報名參加它。"
+      },
+      {
+        "en": "I signed up for the school photography club last week.",
+        "zh": "我上星期報名參加學校攝影學會。"
+      },
+      {
+        "en": "If many students sign up for the trip, the school may need another bus.",
+        "zh": "如果很多學生報名參加旅行，學校可能需要另一輛巴士。"
+      },
+      {
+        "en": "This phrase is used before an activity, class, event, or programme that requires registration.",
+        "zh": "這個說法用於需要登記的活動、課程、事件或計劃。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "I hope you don’t mind me",
+    "meaning": "希望你不介意我……",
+    "examples": [
+      {
+        "en": "I hope you don’t mind me telling everyone.",
+        "zh": "希望你不介意我告訴大家。"
+      },
+      {
+        "en": "“I hope you don’t mind me” is a polite way to check that someone is comfortable with what you are doing.",
+        "zh": "“I hope you don’t mind me” 是禮貌地確認對方是否接受你正在做的事。"
+      },
+      {
+        "en": "I hope you don’t mind me asking a personal question.",
+        "zh": "希望你不介意我問一個私人問題。"
+      },
+      {
+        "en": "People use this phrase when they want to be respectful before sharing, asking, or doing something.",
+        "zh": "人們在分享、提問或做某事前想表現尊重時，會使用這個說法。"
+      },
+      {
+        "en": "It softens the sentence because the speaker shows concern for the other person’s feelings.",
+        "zh": "它令句子語氣更柔和，因為說話者照顧對方感受。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "attend Adventure Camp",
+    "meaning": "參加歷奇營",
+    "examples": [
+      {
+        "en": "Trillion attended Adventure Camp when she was a teenager.",
+        "zh": "Trillion 在青少年時參加過歷奇營。"
+      },
+      {
+        "en": "To attend Adventure Camp means to go to and take part in the camp.",
+        "zh": "“Attend Adventure Camp” 意思是前往並參與歷奇營。"
+      },
+      {
+        "en": "Many students hope to attend Adventure Camp during the summer holiday.",
+        "zh": "很多學生希望在暑假參加歷奇營。"
+      },
+      {
+        "en": "Children who attend Adventure Camp may learn teamwork, confidence, and outdoor skills.",
+        "zh": "參加歷奇營的孩子可能會學到團隊合作、信心和戶外技能。"
+      },
+      {
+        "en": "This phrase focuses on participation, not just visiting the camp for a short time.",
+        "zh": "這個說法集中於參與，而不只是短暫參觀營地。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "when you were a teenager",
+    "meaning": "當你還是青少年時",
+    "examples": [
+      {
+        "en": "Trillion attended the camp when she was a teenager.",
+        "zh": "Trillion 當她還是青少年時參加過那個營。"
+      },
+      {
+        "en": "“When you were a teenager” means during the period when you were between childhood and adulthood.",
+        "zh": "“When you were a teenager” 意思是在你介乎童年和成年之間的那段時期。"
+      },
+      {
+        "en": "What sports did you enjoy when you were a teenager?",
+        "zh": "當你還是青少年時，你喜歡甚麼運動？"
+      },
+      {
+        "en": "Experiences from when you were a teenager can shape your confidence later in life.",
+        "zh": "當你還是青少年時的經歷，可能會塑造你日後的信心。"
+      },
+      {
+        "en": "This phrase helps place a memory in an earlier stage of life.",
+        "zh": "這個說法幫助把回憶放在人生較早階段。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a few years back",
+    "meaning": "幾年前",
+    "examples": [
+      {
+        "en": "Trillion attended Adventure Camp a few years back.",
+        "zh": "Trillion 幾年前參加過歷奇營。"
+      },
+      {
+        "en": "“A few years back” means a few years ago.",
+        "zh": "“A few years back” 意思是幾年前。"
+      },
+      {
+        "en": "I visited that museum a few years back, before it was renovated.",
+        "zh": "我幾年前參觀過那間博物館，當時它還未翻新。"
+      },
+      {
+        "en": "People use this phrase when referring casually to something that happened in the past.",
+        "zh": "人們輕鬆提到過去發生的事情時，會使用這個說法。"
+      },
+      {
+        "en": "It is less exact than giving a specific year.",
+        "zh": "它沒有說出具體年份那麼精確。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "make someone feel old",
+    "meaning": "令某人覺得自己老了",
+    "examples": [
+      {
+        "en": "Ellen’s comment makes Trillion feel old.",
+        "zh": "Ellen 的說話令 Trillion 覺得自己老了。"
+      },
+      {
+        "en": "To make someone feel old means to remind them that much time has passed.",
+        "zh": "“Make someone feel old” 意思是提醒某人時間已過了很久。"
+      },
+      {
+        "en": "Seeing my old primary school photos makes me feel old.",
+        "zh": "看到我小學時的舊照片令我覺得自己老了。"
+      },
+      {
+        "en": "A joke about something from many years ago can make someone feel old.",
+        "zh": "關於很多年前的事情的玩笑，可能會令某人覺得自己老了。"
+      },
+      {
+        "en": "This phrase is often light-hearted, not necessarily serious or hurtful.",
+        "zh": "這個說法通常帶輕鬆語氣，不一定嚴肅或傷人。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the one thing you wish you had taken",
+    "meaning": "你希望當時有帶去的一樣東西",
+    "examples": [
+      {
+        "en": "Ellen asks Trillion about the one thing she wishes she had taken to camp.",
+        "zh": "Ellen 問 Trillion，她希望當時有帶去營地的一樣東西是甚麼。"
+      },
+      {
+        "en": "“The one thing you wish you had taken” means the single item you regret not bringing.",
+        "zh": "“The one thing you wish you had taken” 指你後悔沒有帶去的一件物品。"
+      },
+      {
+        "en": "After the rainy trip, the one thing I wish I had taken was a waterproof jacket.",
+        "zh": "那次下雨旅行後，我希望當時有帶去的一樣東西是防水外套。"
+      },
+      {
+        "en": "People ask this question to learn from someone’s past mistake or experience.",
+        "zh": "人們問這個問題，是為了從別人的過往錯誤或經驗中學習。"
+      },
+      {
+        "en": "This phrase looks back on the past and focuses on regret or advice.",
+        "zh": "這個說法回望過去，並集中於後悔或建議。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "take with you",
+    "meaning": "隨身帶去",
+    "examples": [
+      {
+        "en": "Trillion wishes she had taken sunscreen with her.",
+        "zh": "Trillion 希望自己當時有隨身帶防曬用品。"
+      },
+      {
+        "en": "To take something with you means to bring it when you go somewhere.",
+        "zh": "“Take something with you” 意思是前往某地時把某物帶在身邊。"
+      },
+      {
+        "en": "Remember to take your student card with you on the school trip.",
+        "zh": "學校旅行時，記得隨身帶學生證。"
+      },
+      {
+        "en": "If you do not take water with you on a long walk, you may become thirsty and tired.",
+        "zh": "如果你長途步行時沒有隨身帶水，可能會口渴和疲倦。"
+      },
+      {
+        "en": "This phrase focuses on bringing something along, not leaving it behind.",
+        "zh": "這個說法集中於把某物帶在身邊，而不是留下它。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "sunscreen",
+    "meaning": "防曬用品",
+    "examples": [
+      {
+        "en": "Trillion wishes she had taken lots of sunscreen.",
+        "zh": "Trillion 希望自己當時有帶很多防曬用品。"
+      },
+      {
+        "en": "Sunscreen is a cream or lotion that protects skin from strong sunlight.",
+        "zh": "“Sunscreen” 是保護皮膚免受強烈陽光傷害的乳霜或乳液。"
+      },
+      {
+        "en": "Children should put on sunscreen before playing outside on a sunny day.",
+        "zh": "孩子在晴天外出玩耍前，應塗上防曬用品。"
+      },
+      {
+        "en": "Forgetting sunscreen can lead to painful sunburn after hours in the sun.",
+        "zh": "忘記帶防曬用品，可能會在曬了幾小時後造成疼痛曬傷。"
+      },
+      {
+        "en": "Sunscreen is especially important at beaches, swimming pools, and outdoor camps.",
+        "zh": "防曬用品在海灘、游泳池和戶外營地尤其重要。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "spend the morning in",
+    "meaning": "在……度過早上",
+    "examples": [
+      {
+        "en": "Trillion spent the morning in the swimming pool.",
+        "zh": "Trillion 在游泳池度過早上。"
+      },
+      {
+        "en": "To spend the morning in a place means to use the morning there.",
+        "zh": "“Spend the morning in” 某地方，意思是在那裡使用或度過早上的時間。"
+      },
+      {
+        "en": "We spent the morning in the library finishing our project.",
+        "zh": "我們在圖書館度過早上，完成專題。"
+      },
+      {
+        "en": "If children spend the morning in the sun, they should drink water and use sunscreen.",
+        "zh": "如果孩子在陽光下度過早上，他們應喝水並使用防曬用品。"
+      },
+      {
+        "en": "This phrase tells us where someone was during the morning.",
+        "zh": "這個說法告訴我們某人早上在哪裡。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "forget to bring",
+    "meaning": "忘記帶",
+    "examples": [
+      {
+        "en": "Trillion forgot to bring sunscreen.",
+        "zh": "Trillion 忘記帶防曬用品。"
+      },
+      {
+        "en": "To forget to bring something means to leave it behind by mistake.",
+        "zh": "“Forget to bring” 某物，意思是錯誤地把它留在原處，沒有帶來。"
+      },
+      {
+        "en": "I forgot to bring my homework, so I had to explain it to the teacher.",
+        "zh": "我忘記帶功課，所以要向老師解釋。"
+      },
+      {
+        "en": "If campers forget to bring warm clothes, they may feel cold at night.",
+        "zh": "如果露營者忘記帶保暖衣物，晚上可能會覺得冷。"
+      },
+      {
+        "en": "This phrase often explains why a later problem happened.",
+        "zh": "這個說法常用來解釋之後問題發生的原因。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "get badly sunburnt",
+    "meaning": "嚴重曬傷",
+    "examples": [
+      {
+        "en": "Trillion got badly sunburnt because she forgot sunscreen.",
+        "zh": "Trillion 因為忘記防曬用品而嚴重曬傷。"
+      },
+      {
+        "en": "To get badly sunburnt means to have painful red skin after too much sunlight.",
+        "zh": "“Get badly sunburnt” 意思是在過度日曬後皮膚疼痛發紅。"
+      },
+      {
+        "en": "A child can get badly sunburnt after swimming outdoors for hours without protection.",
+        "zh": "孩子在戶外游泳數小時又沒有保護，可能會嚴重曬傷。"
+      },
+      {
+        "en": "Forgetting sunscreen can make someone get badly sunburnt, especially near water.",
+        "zh": "忘記防曬用品可能令人嚴重曬傷，尤其是在水邊。"
+      },
+      {
+        "en": "This phrase describes a stronger problem than simply getting a little red.",
+        "zh": "這個說法描述比只是皮膚有點紅更嚴重的問題。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "remind someone to",
+    "meaning": "提醒某人……",
+    "examples": [
+      {
+        "en": "Ellen will remind parents to bring sunscreen.",
+        "zh": "Ellen 會提醒家長帶防曬用品。"
+      },
+      {
+        "en": "To remind someone to do something means to help them remember to do it.",
+        "zh": "“Remind someone to” 做某事，意思是幫助某人記得去做。"
+      },
+      {
+        "en": "Please remind me to submit the form before Friday.",
+        "zh": "請提醒我在星期五前提交表格。"
+      },
+      {
+        "en": "Teachers remind students to bring water before outdoor activities because some students may forget.",
+        "zh": "老師在戶外活動前提醒學生帶水，因為有些學生可能會忘記。"
+      },
+      {
+        "en": "This phrase is useful when forgetting could cause a problem.",
+        "zh": "當忘記某事可能造成問題時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "help us at the camp on occasion",
+    "meaning": "間中在營地幫忙",
+    "examples": [
+      {
+        "en": "Marvin helps at the camp on occasion.",
+        "zh": "Marvin 間中在營地幫忙。"
+      },
+      {
+        "en": "“Help us at the camp on occasion” means to help at the camp sometimes, but not all the time.",
+        "zh": "“Help us at the camp on occasion” 意思是有時在營地幫忙，但不是一直都在。"
+      },
+      {
+        "en": "Former students help us at the camp on occasion when we need extra leaders.",
+        "zh": "當我們需要額外領袖時，舊生會間中在營地幫忙。"
+      },
+      {
+        "en": "If experts help at the camp on occasion, children can learn from real experience.",
+        "zh": "如果專家間中在營地幫忙，孩子可以從真實經驗中學習。"
+      },
+      {
+        "en": "This phrase shows occasional support rather than a regular full-time role.",
+        "zh": "這個說法表示偶爾支援，而不是固定全職角色。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "on occasion",
+    "meaning": "間中；偶爾",
+    "examples": [
+      {
+        "en": "Marvin helps at Adventure Camp on occasion.",
+        "zh": "Marvin 偶爾在歷奇營幫忙。"
+      },
+      {
+        "en": "“On occasion” means sometimes or from time to time.",
+        "zh": "“On occasion” 意思是有時或間中。"
+      },
+      {
+        "en": "My uncle visits our school on occasion to give career talks.",
+        "zh": "我叔叔間中來我們學校做職業講座。"
+      },
+      {
+        "en": "A volunteer may help on occasion when the organisation is short of staff.",
+        "zh": "當機構人手不足時，義工可能會偶爾幫忙。"
+      },
+      {
+        "en": "This phrase is more formal than “sometimes.”",
+        "zh": "這個說法比 “sometimes” 更正式。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "recommend that someone bring",
+    "meaning": "建議某人帶……",
+    "examples": [
+      {
+        "en": "Marvin recommends that children bring comfortable clothes.",
+        "zh": "Marvin 建議孩子帶舒適衣服。"
+      },
+      {
+        "en": "To recommend that someone bring something means to advise them to take it with them.",
+        "zh": "“Recommend that someone bring” 某物，意思是建議某人隨身帶那件東西。"
+      },
+      {
+        "en": "The teacher recommends that students bring a notebook to the workshop.",
+        "zh": "老師建議學生帶筆記簿參加工作坊。"
+      },
+      {
+        "en": "If the trip involves walking, staff may recommend that everyone bring sports shoes.",
+        "zh": "如果旅行涉及步行，職員可能會建議每個人帶運動鞋。"
+      },
+      {
+        "en": "This phrase is useful for giving practical advice before an activity.",
+        "zh": "這個說法適合用於活動前給予實用建議。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "let me see",
+    "meaning": "讓我想一想",
+    "examples": [
+      {
+        "en": "Let me see what children should bring to Adventure Camp.",
+        "zh": "讓我想一想孩子應該帶甚麼去歷奇營。"
+      },
+      {
+        "en": "“Let me see” means the speaker is thinking, checking, or trying to remember.",
+        "zh": "“Let me see” 意思是說話者正在思考、查看或嘗試記起。"
+      },
+      {
+        "en": "Let me see which classroom is free this afternoon.",
+        "zh": "讓我看看今天下午哪間課室有空。"
+      },
+      {
+        "en": "People say this when they need a moment before answering.",
+        "zh": "當人們回答前需要一點時間時，會這樣說。"
+      },
+      {
+        "en": "It makes the conversation sound natural because the speaker is not rushing the answer.",
+        "zh": "它令對話聽起來自然，因為說話者沒有急着回答。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "turn up in",
+    "meaning": "穿着……出現",
+    "examples": [
+      {
+        "en": "One boy turned up in his school uniform.",
+        "zh": "一個男孩穿着校服出現。"
+      },
+      {
+        "en": "To turn up in certain clothes means to arrive wearing those clothes.",
+        "zh": "“Turn up in” 某些衣服，意思是穿着那些衣服到達。"
+      },
+      {
+        "en": "She turned up in sports shoes because the activity involved running.",
+        "zh": "她穿着運動鞋出現，因為活動涉及跑步。"
+      },
+      {
+        "en": "If someone turns up in unsuitable clothes, they may not be able to join the activity comfortably.",
+        "zh": "如果某人穿着不合適的衣服出現，可能無法舒服地參與活動。"
+      },
+      {
+        "en": "This phrase focuses on how someone appears when they arrive.",
+        "zh": "這個說法集中於某人到達時的穿着樣子。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "school uniform",
+    "meaning": "校服",
+    "examples": [
+      {
+        "en": "One boy turned up in his school uniform.",
+        "zh": "一個男孩穿着校服出現。"
+      },
+      {
+        "en": "A school uniform is the set of clothes students must wear at school.",
+        "zh": "“School uniform” 是學生在學校必須穿着的一套衣服。"
+      },
+      {
+        "en": "Students wear school uniform so they look tidy and belong to the same school community.",
+        "zh": "學生穿校服，讓自己看起來整齊，並屬於同一個學校社群。"
+      },
+      {
+        "en": "A school uniform may not be suitable for sports or outdoor camp activities.",
+        "zh": "校服可能不適合運動或戶外營地活動。"
+      },
+      {
+        "en": "This phrase usually refers to official school clothing, not casual clothes.",
+        "zh": "這個說法通常指正式學校服裝，而不是便服。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "smart shoes",
+    "meaning": "皮鞋；較正式的鞋",
+    "examples": [
+      {
+        "en": "The boy arrived in smart shoes instead of sports shoes.",
+        "zh": "那個男孩穿着皮鞋，而不是運動鞋到達。"
+      },
+      {
+        "en": "Smart shoes are neat, formal shoes, usually not designed for exercise.",
+        "zh": "“Smart shoes” 指整齊、正式，通常不是為運動而設計的鞋。"
+      },
+      {
+        "en": "Students may wear smart shoes for a ceremony, but not for hiking.",
+        "zh": "學生可能會在典禮穿皮鞋，但不會在行山時穿。"
+      },
+      {
+        "en": "If a child wears smart shoes to a camp, running and climbing may become uncomfortable.",
+        "zh": "如果孩子穿正式鞋去營地，跑步和攀爬可能會變得不舒服。"
+      },
+      {
+        "en": "This phrase often contrasts with trainers or sports shoes.",
+        "zh": "這個說法常與 trainers 或 sports shoes 作對比。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "comfortable clothes for doing exercise in",
+    "meaning": "適合做運動的舒適衣服",
+    "examples": [
+      {
+        "en": "Children should bring comfortable clothes for doing exercise in.",
+        "zh": "孩子應帶適合做運動的舒適衣服。"
+      },
+      {
+        "en": "Comfortable clothes for doing exercise in are clothes that allow people to move easily.",
+        "zh": "“Comfortable clothes for doing exercise in” 指讓人容易活動的衣服。"
+      },
+      {
+        "en": "A T-shirt and shorts can be comfortable clothes for doing exercise in on a hot day.",
+        "zh": "在炎熱日子，T-shirt 和短褲可以是適合做運動的舒適衣服。"
+      },
+      {
+        "en": "If children wear tight or formal clothes, they may find it hard to run, climb, or stretch.",
+        "zh": "如果孩子穿緊身或正式衣服，他們可能會覺得跑步、攀爬或伸展很困難。"
+      },
+      {
+        "en": "This phrase reminds people to dress for movement, not appearance.",
+        "zh": "這個說法提醒人們為活動而穿着，而不是只為外觀而穿着。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "sports shoes",
+    "meaning": "運動鞋",
+    "examples": [
+      {
+        "en": "Children should bring sports shoes to Adventure Camp.",
+        "zh": "孩子應帶運動鞋去歷奇營。"
+      },
+      {
+        "en": "Sports shoes are shoes designed for running, exercise, or active movement.",
+        "zh": "“Sports shoes” 是為跑步、運動或活躍活動而設計的鞋。"
+      },
+      {
+        "en": "Students should wear sports shoes for PE lessons.",
+        "zh": "學生上體育課應穿運動鞋。"
+      },
+      {
+        "en": "Sports shoes can reduce the risk of slipping or hurting your feet during activities.",
+        "zh": "運動鞋可以減低活動時滑倒或弄傷腳的風險。"
+      },
+      {
+        "en": "They are more suitable than smart shoes for camps, games, and outdoor tasks.",
+        "zh": "對營地、遊戲和戶外任務來說，它們比皮鞋更合適。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "what not to bring",
+    "meaning": "不應該帶甚麼",
+    "examples": [
+      {
+        "en": "Ellen tells children what not to bring to camp.",
+        "zh": "Ellen 告訴孩子不應該帶甚麼去營地。"
+      },
+      {
+        "en": "“What not to bring” means the items people should leave at home.",
+        "zh": "“What not to bring” 意思是人們應留在家中、不應帶去的物品。"
+      },
+      {
+        "en": "The school notice explains what not to bring on the trip, including expensive jewellery.",
+        "zh": "學校通告解釋旅行不應該帶甚麼，包括昂貴首飾。"
+      },
+      {
+        "en": "Knowing what not to bring can prevent loss, distraction, or safety problems.",
+        "zh": "知道不應該帶甚麼可以避免遺失、分心或安全問題。"
+      },
+      {
+        "en": "This phrase is used when rules are about things people should avoid carrying.",
+        "zh": "當規則關於人們應避免攜帶的東西時，會使用這個說法。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a strict no-mobile-phone policy",
+    "meaning": "嚴格禁止使用手機的政策",
+    "examples": [
+      {
+        "en": "The camp has a strict no-mobile-phone policy.",
+        "zh": "營地有嚴格禁止使用手機的政策。"
+      },
+      {
+        "en": "A strict no-mobile-phone policy means mobile phones are clearly not allowed.",
+        "zh": "“A strict no-mobile-phone policy” 意思是明確不准使用手機。"
+      },
+      {
+        "en": "The exam hall has a strict no-mobile-phone policy to prevent cheating.",
+        "zh": "考試場地有嚴格禁止使用手機的政策，以防作弊。"
+      },
+      {
+        "en": "If a camp has a strict no-mobile-phone policy, children may focus better on activities and friends.",
+        "zh": "如果營地有嚴格禁止使用手機的政策，孩子可能更能專注於活動和朋友。"
+      },
+      {
+        "en": "“Strict” shows that the rule is serious and should not be ignored.",
+        "zh": "“Strict” 顯示這條規則很嚴肅，不應被忽視。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a no-mobile-phone zone",
+    "meaning": "禁止使用手機的地方",
+    "examples": [
+      {
+        "en": "The Adventure Camp is a no-mobile-phone zone.",
+        "zh": "歷奇營是一個禁止使用手機的地方。"
+      },
+      {
+        "en": "A no-mobile-phone zone is a place where people are not allowed to use mobile phones.",
+        "zh": "“A no-mobile-phone zone” 指不准人們使用手機的地方。"
+      },
+      {
+        "en": "The library reading room is a no-mobile-phone zone during exam season.",
+        "zh": "考試季期間，圖書館閱讀室是禁止使用手機的地方。"
+      },
+      {
+        "en": "A no-mobile-phone zone helps reduce noise and distraction.",
+        "zh": "禁止使用手機的地方有助減少噪音和分心。"
+      },
+      {
+        "en": "This phrase describes a place, while “policy” describes the rule.",
+        "zh": "這個說法描述地點，而 “policy” 描述規則。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "focus on",
+    "meaning": "專注於……",
+    "examples": [
+      {
+        "en": "Without their mobile phones, children can focus on the activities.",
+        "zh": "沒有手機，孩子可以專注於活動。"
+      },
+      {
+        "en": "To focus on something means to give it your attention.",
+        "zh": "“Focus on” 某事，意思是把注意力放在那件事上。"
+      },
+      {
+        "en": "Students should focus on the teacher’s instructions before starting the experiment.",
+        "zh": "學生開始實驗前，應專注於老師的指示。"
+      },
+      {
+        "en": "If children put away their phones, they can focus on games, teamwork, and learning.",
+        "zh": "如果孩子收起手機，他們可以專注於遊戲、團隊合作和學習。"
+      },
+      {
+        "en": "This phrase often contrasts attention with distraction.",
+        "zh": "這個說法常把注意力與分心作對比。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the activities at hand",
+    "meaning": "手頭上的活動；眼前的活動",
+    "examples": [
+      {
+        "en": "Children can focus on the activities at hand.",
+        "zh": "孩子可以專注於眼前的活動。"
+      },
+      {
+        "en": "The activities at hand are the activities happening now or needing attention now.",
+        "zh": "“The activities at hand” 指現在正在進行或現在需要注意的活動。"
+      },
+      {
+        "en": "During the workshop, students should focus on the activity at hand instead of checking messages.",
+        "zh": "在工作坊期間，學生應專注於手頭上的活動，而不是查看訊息。"
+      },
+      {
+        "en": "If people pay attention to the task at hand, they usually make fewer mistakes.",
+        "zh": "如果人們專注於眼前任務，通常會犯較少錯誤。"
+      },
+      {
+        "en": "This phrase points to the present task, not future plans or unrelated matters.",
+        "zh": "這個說法指向當前任務，而不是未來計劃或無關事情。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "one other thing before we go",
+    "meaning": "在結束前還有一件事",
+    "examples": [
+      {
+        "en": "There is one other thing before we go.",
+        "zh": "在結束前還有一件事。"
+      },
+      {
+        "en": "“One other thing before we go” introduces one final point before ending a conversation or programme.",
+        "zh": "“One other thing before we go” 用來在結束對話或節目前引入最後一個重點。"
+      },
+      {
+        "en": "One other thing before we go: please return the forms by Friday.",
+        "zh": "在結束前還有一件事：請在星期五前交回表格。"
+      },
+      {
+        "en": "A host may use this phrase to add an announcement near the end.",
+        "zh": "主持人可能會在接近結尾時用這個說法加入公告。"
+      },
+      {
+        "en": "This phrase signals that the main discussion is almost finished.",
+        "zh": "這個說法表示主要討論差不多結束。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "coming up soon",
+    "meaning": "即將舉行",
+    "examples": [
+      {
+        "en": "The Star Pod Open Day is coming up soon.",
+        "zh": "Star Pod 開放日即將舉行。"
+      },
+      {
+        "en": "If an event is coming up soon, it will happen in the near future.",
+        "zh": "如果活動 is coming up soon，意思是它很快會發生。"
+      },
+      {
+        "en": "The school concert is coming up soon, so students are practising every day.",
+        "zh": "學校音樂會即將舉行，所以學生每天練習。"
+      },
+      {
+        "en": "When an event is coming up soon, people need to check tickets, times, and preparation.",
+        "zh": "當活動即將舉行，人們需要檢查門票、時間和準備工作。"
+      },
+      {
+        "en": "This phrase creates a feeling that the date is close.",
+        "zh": "這個說法營造日期接近的感覺。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "later this month",
+    "meaning": "本月稍後",
+    "examples": [
+      {
+        "en": "The Star Pod Open Day will be held later this month.",
+        "zh": "Star Pod 開放日會在本月稍後舉行。"
+      },
+      {
+        "en": "“Later this month” means sometime before the end of the current month, but not immediately now.",
+        "zh": "“Later this month” 意思是在本月結束前的某個時間，但不是馬上。"
+      },
+      {
+        "en": "The parent meeting will take place later this month.",
+        "zh": "家長會將在本月稍後舉行。"
+      },
+      {
+        "en": "If an event is later this month, people still have some time to prepare.",
+        "zh": "如果活動在本月稍後舉行，人們仍有一些時間準備。"
+      },
+      {
+        "en": "This phrase is less exact than giving a specific date.",
+        "zh": "這個說法沒有說出具體日期那麼精確。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "happy to announce",
+    "meaning": "很高興宣佈",
+    "examples": [
+      {
+        "en": "Ellen is happy to announce the mystery special guest.",
+        "zh": "Ellen 很高興宣佈神秘特別嘉賓。"
+      },
+      {
+        "en": "“Happy to announce” means pleased to share important or good news.",
+        "zh": "“Happy to announce” 意思是很高興分享重要或好消息。"
+      },
+      {
+        "en": "We are happy to announce that the school fair raised enough money for charity.",
+        "zh": "我們很高興宣佈學校市集為慈善籌得足夠款項。"
+      },
+      {
+        "en": "A host uses this phrase when the announcement is positive and worth attention.",
+        "zh": "當公告是正面而值得注意時，主持人會使用這個說法。"
+      },
+      {
+        "en": "It sounds formal enough for public speaking but still warm.",
+        "zh": "它聽起來足夠正式，適合公開發言，同時仍然溫暖。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "mystery special guest",
+    "meaning": "神秘特別嘉賓",
+    "examples": [
+      {
+        "en": "The mystery special guest is Trillion Choi.",
+        "zh": "神秘特別嘉賓是 Trillion Choi。"
+      },
+      {
+        "en": "A mystery special guest is a guest whose identity is kept secret until it is revealed.",
+        "zh": "“Mystery special guest” 指身份在揭曉前被保密的嘉賓。"
+      },
+      {
+        "en": "The school concert will have a mystery special guest at the end.",
+        "zh": "學校音樂會最後會有一位神秘特別嘉賓。"
+      },
+      {
+        "en": "A mystery special guest can make an event more exciting because people want to know who it is.",
+        "zh": "神秘特別嘉賓可以令活動更令人期待，因為人們想知道那是誰。"
+      },
+      {
+        "en": "This phrase combines surprise with the importance of a special guest.",
+        "zh": "這個說法結合了驚喜和特別嘉賓的重要性。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "none other than",
+    "meaning": "正是；不是別人，正是",
+    "examples": [
+      {
+        "en": "The special guest is none other than Trillion Choi.",
+        "zh": "特別嘉賓不是別人，正是 Trillion Choi。"
+      },
+      {
+        "en": "“None other than” is used to reveal someone important or surprising.",
+        "zh": "“None other than” 用於揭曉重要或令人驚喜的人物。"
+      },
+      {
+        "en": "The winner was none other than our quietest classmate.",
+        "zh": "勝出者不是別人，正是我們班最安靜的同學。"
+      },
+      {
+        "en": "A host may use this phrase to make a guest announcement sound dramatic.",
+        "zh": "主持人可能會用這個說法令嘉賓公布更有戲劇感。"
+      },
+      {
+        "en": "It means “exactly this person,” with a sense of excitement.",
+        "zh": "它的意思是「正正就是這個人」，並帶有興奮感。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "if any of our listeners want to",
+    "meaning": "如果我們任何聽眾想……",
+    "examples": [
+      {
+        "en": "If any of our listeners want to meet Trillion, they should come to the Open Day.",
+        "zh": "如果我們任何聽眾想見 Trillion，就應該來開放日。"
+      },
+      {
+        "en": "“If any of our listeners want to” introduces an invitation or instruction for interested listeners.",
+        "zh": "“If any of our listeners want to” 用來向有興趣的聽眾提出邀請或指示。"
+      },
+      {
+        "en": "If any of our listeners want to ask questions, they can email us before Friday.",
+        "zh": "如果我們任何聽眾想提問，可以在星期五前電郵我們。"
+      },
+      {
+        "en": "A host uses this phrase when speaking to a wide audience and not knowing who is interested.",
+        "zh": "主持人面向廣泛觀眾，而且不知道誰有興趣時，會使用這個說法。"
+      },
+      {
+        "en": "This structure makes the message open to everyone in the audience.",
+        "zh": "這個結構令訊息向所有觀眾開放。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Star Pod Open Day",
+    "meaning": "Star Pod 開放日",
+    "examples": [
+      {
+        "en": "Listeners can meet Trillion at the Star Pod Open Day.",
+        "zh": "聽眾可以在 Star Pod 開放日見到 Trillion。"
+      },
+      {
+        "en": "The Star Pod Open Day is an event where listeners or visitors can come, meet people, and learn more about Star Pod.",
+        "zh": "“The Star Pod Open Day” 是讓聽眾或訪客前來、見人和了解 Star Pod 的活動。"
+      },
+      {
+        "en": "Families may attend the Star Pod Open Day to see activities and meet special guests.",
+        "zh": "家庭可能會參加 Star Pod 開放日，觀看活動並見特別嘉賓。"
+      },
+      {
+        "en": "An open day can help people feel closer to a programme because they see it in person.",
+        "zh": "開放日可以幫助人更接近一個節目，因為他們能親身看到它。"
+      },
+      {
+        "en": "This phrase names the specific event being promoted.",
+        "zh": "這個說法指出正在宣傳的特定活動。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "just in case",
+    "meaning": "以防；萬一",
+    "examples": [
+      {
+        "en": "Just in case our listeners need reminding, Trillion is an astronaut.",
+        "zh": "以防我們的聽眾需要提醒，Trillion 是一位太空人。"
+      },
+      {
+        "en": "“Just in case” means to prepare for a possibility, even if it may not happen.",
+        "zh": "“Just in case” 意思是為某種可能性作準備，即使它未必發生。"
+      },
+      {
+        "en": "Bring an umbrella just in case it rains.",
+        "zh": "帶一把雨傘，以防下雨。"
+      },
+      {
+        "en": "Speakers use this phrase when they give information that some people may already know but others may need.",
+        "zh": "說話者提供某些人可能已知道，但另一些人可能需要的資料時，會使用這個說法。"
+      },
+      {
+        "en": "It often means “to be safe” or “to avoid a problem.”",
+        "zh": "它通常意思是「為安全起見」或「避免問題」。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "need reminding",
+    "meaning": "需要提醒",
+    "examples": [
+      {
+        "en": "The listeners may need reminding that Trillion is an astronaut.",
+        "zh": "聽眾可能需要提醒，Trillion 是一位太空人。"
+      },
+      {
+        "en": "If people need reminding, they may have forgotten something or may not be thinking about it.",
+        "zh": "如果人們 need reminding，意思是他們可能忘記了某事，或沒有正在想起它。"
+      },
+      {
+        "en": "Students need reminding to bring their PE clothes after a long holiday.",
+        "zh": "長假後，學生需要提醒帶體育服。"
+      },
+      {
+        "en": "A host may repeat important information because some listeners need reminding.",
+        "zh": "主持人可能會重複重要資料，因為有些聽眾需要提醒。"
+      },
+      {
+        "en": "This phrase is often used gently, not as a harsh criticism.",
+        "zh": "這個說法通常語氣溫和，不是嚴厲批評。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a real live astronaut",
+    "meaning": "一位真正的現役／真人太空人",
+    "examples": [
+      {
+        "en": "Children can meet a real live astronaut.",
+        "zh": "孩子可以見到一位真正的真人太空人。"
+      },
+      {
+        "en": "A real live astronaut means an actual astronaut whom people can meet in person.",
+        "zh": "“A real live astronaut” 指一位人們可以親身見到的真正太空人。"
+      },
+      {
+        "en": "Meeting a real live astronaut can make space science feel more exciting to children.",
+        "zh": "見到一位真正的真人太空人，可以令孩子覺得太空科學更令人興奮。"
+      },
+      {
+        "en": "If students only read about astronauts, the idea may feel distant; meeting a real live astronaut feels much more personal.",
+        "zh": "如果學生只是閱讀關於太空人的內容，這個概念可能感覺遙遠；見到真人太空人則更個人化。"
+      },
+      {
+        "en": "This phrase adds excitement because the person is not just in a book or video.",
+        "zh": "這個說法增加興奮感，因為那個人不只是書本或影片中的人物。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "look forward to",
+    "meaning": "期待",
+    "examples": [
+      {
+        "en": "Trillion is looking forward to answering the children’s questions.",
+        "zh": "Trillion 期待回答孩子們的問題。"
+      },
+      {
+        "en": "To look forward to something means to feel happy or excited about something that will happen.",
+        "zh": "“Look forward to” 某事，意思是對將會發生的事情感到高興或期待。"
+      },
+      {
+        "en": "I look forward to seeing my friends at the school picnic.",
+        "zh": "我期待在學校旅行見到朋友。"
+      },
+      {
+        "en": "People look forward to events when they expect them to be enjoyable or meaningful.",
+        "zh": "當人們預期活動會愉快或有意義時，就會期待它。"
+      },
+      {
+        "en": "This phrase is followed by a noun or an -ing verb, such as “meeting” or “answering.”",
+        "zh": "這個說法後面接名詞或 -ing 動詞，例如 “meeting” 或 “answering”。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "answer your questions",
+    "meaning": "回答你們的問題",
+    "examples": [
+      {
+        "en": "Trillion is looking forward to answering all the children’s questions.",
+        "zh": "Trillion 期待回答所有孩子的問題。"
+      },
+      {
+        "en": "To answer your questions means to respond to what you ask and give information.",
+        "zh": "“Answer your questions” 意思是回應你提出的問題並提供資料。"
+      },
+      {
+        "en": "The teacher stayed after class to answer students’ questions.",
+        "zh": "老師課後留下來回答學生的問題。"
+      },
+      {
+        "en": "If guests answer your questions clearly, you can understand the topic better.",
+        "zh": "如果嘉賓清楚回答你們的問題，你們就能更好理解題目。"
+      },
+      {
+        "en": "This phrase is common in talks, interviews, lessons, and question-and-answer sessions.",
+        "zh": "這個說法常見於講座、訪問、課堂和問答環節。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "famous because",
+    "meaning": "因為……而出名",
+    "examples": [
+      {
+        "en": "Trillion is famous because she was the sixth female Asian astronaut.",
+        "zh": "Trillion 因為是第六位亞洲女性太空人而出名。"
+      },
+      {
+        "en": "“Famous because” explains the reason someone or something is well known.",
+        "zh": "“Famous because” 解釋某人或某物為何有名。"
+      },
+      {
+        "en": "The restaurant is famous because it serves handmade noodles.",
+        "zh": "這間餐廳因為供應手工麵而出名。"
+      },
+      {
+        "en": "A person may be famous because of a rare achievement, special talent, or important event.",
+        "zh": "一個人可能因為罕見成就、特殊才能或重要事件而出名。"
+      },
+      {
+        "en": "This phrase connects fame with its cause.",
+        "zh": "這個說法把名氣與原因連接起來。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "wait till I get this right",
+    "meaning": "等我先把這個說對",
+    "examples": [
+      {
+        "en": "Wait till I get this right: Trillion was the sixth female Asian astronaut.",
+        "zh": "等我先把這個說對：Trillion 是第六位亞洲女性太空人。"
+      },
+      {
+        "en": "“Wait till I get this right” means give me a moment to say the information correctly.",
+        "zh": "“Wait till I get this right” 意思是給我一點時間，把資料正確說出來。"
+      },
+      {
+        "en": "Wait till I get this right: the meeting is on Thursday, not Tuesday.",
+        "zh": "等我先把這個說對：會議是星期四，不是星期二。"
+      },
+      {
+        "en": "Speakers use this phrase when the detail is long, exact, or easy to say wrongly.",
+        "zh": "當細節很長、很準確或容易說錯時，說話者會使用這個說法。"
+      },
+      {
+        "en": "It shows the speaker wants to be accurate before continuing.",
+        "zh": "它顯示說話者想先確保準確，然後才繼續。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "the sixth female Asian astronaut",
+    "meaning": "第六位亞洲女性太空人",
+    "examples": [
+      {
+        "en": "Trillion was the sixth female Asian astronaut to go into space.",
+        "zh": "Trillion 是第六位進入太空的亞洲女性太空人。"
+      },
+      {
+        "en": "The sixth female Asian astronaut means the sixth Asian woman to become an astronaut and travel into space.",
+        "zh": "“The sixth female Asian astronaut” 指第六位成為太空人並進入太空的亞洲女性。"
+      },
+      {
+        "en": "Being the sixth female Asian astronaut is a rare achievement because space travel is difficult and selective.",
+        "zh": "成為第六位亞洲女性太空人是一項罕見成就，因為太空旅行困難而且篩選嚴格。"
+      },
+      {
+        "en": "Titles like this can be long because they describe gender, region, order, and achievement.",
+        "zh": "這類稱號可能很長，因為它描述性別、地區、次序和成就。"
+      },
+      {
+        "en": "This phrase identifies Trillion’s place in space history.",
+        "zh": "這個說法指出 Trillion 在太空歷史中的位置。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "quite a mouthful",
+    "meaning": "說起來很拗口",
+    "examples": [
+      {
+        "en": "The title “the sixth female Asian astronaut” is quite a mouthful.",
+        "zh": "“The sixth female Asian astronaut” 這個稱號說起來很拗口。"
+      },
+      {
+        "en": "If a phrase is quite a mouthful, it is long or difficult to say smoothly.",
+        "zh": "如果一個詞組 is quite a mouthful，意思是它很長或很難順口說出來。"
+      },
+      {
+        "en": "The name of the science competition is quite a mouthful, so students use a shorter version.",
+        "zh": "那個科學比賽的名稱說起來很拗口，所以學生使用較短版本。"
+      },
+      {
+        "en": "A phrase can be quite a mouthful when it has many words or difficult sounds.",
+        "zh": "當詞組有很多字或困難發音時，它可以說起來很拗口。"
+      },
+      {
+        "en": "This phrase is informal and often used with humour.",
+        "zh": "這個說法較口語，常帶幽默感。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "be proud of",
+    "meaning": "為……感到自豪",
+    "examples": [
+      {
+        "en": "Trillion is very proud of being the sixth female Asian astronaut.",
+        "zh": "Trillion 對自己成為第六位亞洲女性太空人感到非常自豪。"
+      },
+      {
+        "en": "To be proud of something means to feel pleased because it shows achievement, effort, or value.",
+        "zh": "“Be proud of” 某事，意思是因它展現成就、努力或價值而感到高興。"
+      },
+      {
+        "en": "Students should be proud of their progress, even if they have not reached the top yet.",
+        "zh": "即使學生尚未達到最高水平，也應為自己的進步感到自豪。"
+      },
+      {
+        "en": "A person may be proud of an award because it represents years of work.",
+        "zh": "一個人可能會為一個獎項感到自豪，因為它代表多年的努力。"
+      },
+      {
+        "en": "This phrase can describe personal achievement, family honour, or team success.",
+        "zh": "這個說法可以描述個人成就、家庭榮耀或團隊成功。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "go into space",
+    "meaning": "進入太空",
+    "examples": [
+      {
+        "en": "Trillion was the sixth female Asian astronaut to go into space.",
+        "zh": "Trillion 是第六位進入太空的亞洲女性太空人。"
+      },
+      {
+        "en": "To go into space means to travel beyond Earth’s atmosphere.",
+        "zh": "“Go into space” 意思是離開地球大氣層並前往太空。"
+      },
+      {
+        "en": "Astronauts need years of training before they can go into space.",
+        "zh": "太空人在進入太空前需要多年訓練。"
+      },
+      {
+        "en": "Going into space is dangerous because people leave the normal conditions of Earth.",
+        "zh": "進入太空很危險，因為人們離開了地球的正常環境。"
+      },
+      {
+        "en": "This phrase describes actual space travel, not just studying space from Earth.",
+        "zh": "這個說法描述真正的太空旅行，而不只是從地球研究太空。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a gold medallist at the Olympics",
+    "meaning": "奧運金牌得主",
+    "examples": [
+      {
+        "en": "Trillion is also famous for being a gold medallist at the Olympics.",
+        "zh": "Trillion 也因為是奧運金牌得主而出名。"
+      },
+      {
+        "en": "A gold medallist at the Olympics is an athlete who has won first place in an Olympic event.",
+        "zh": "“A gold medallist at the Olympics” 指在奧運項目中取得第一名的運動員。"
+      },
+      {
+        "en": "A gold medallist at the Olympics often trains for many years before winning.",
+        "zh": "奧運金牌得主通常在勝出前訓練多年。"
+      },
+      {
+        "en": "Winning Olympic gold can make an athlete famous around the world.",
+        "zh": "贏得奧運金牌可以令運動員聞名世界。"
+      },
+      {
+        "en": "This phrase identifies someone by a major sporting achievement.",
+        "zh": "這個說法以重大體育成就來識別一個人。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "a proud moment",
+    "meaning": "令人自豪的一刻",
+    "examples": [
+      {
+        "en": "Winning at the Olympics must have been a proud moment.",
+        "zh": "在奧運勝出一定是令人自豪的一刻。"
+      },
+      {
+        "en": "A proud moment is a time when someone feels deep satisfaction about an achievement.",
+        "zh": "“A proud moment” 指某人因成就而感到深深滿足的一刻。"
+      },
+      {
+        "en": "Seeing her child graduate was a proud moment for the whole family.",
+        "zh": "看見孩子畢業，是全家令人自豪的一刻。"
+      },
+      {
+        "en": "A proud moment often comes after long effort, sacrifice, or teamwork.",
+        "zh": "令人自豪的一刻通常出現在長期努力、犧牲或團隊合作之後。"
+      },
+      {
+        "en": "This phrase describes the emotional meaning of success.",
+        "zh": "這個說法描述成功的情感意義。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "win at the Olympics",
+    "meaning": "在奧運勝出",
+    "examples": [
+      {
+        "en": "Winning at the Olympics was a proud moment for Trillion.",
+        "zh": "在奧運勝出是 Trillion 令人自豪的一刻。"
+      },
+      {
+        "en": "To win at the Olympics means to achieve victory in an Olympic event.",
+        "zh": "“Win at the Olympics” 意思是在奧運項目中取得勝利。"
+      },
+      {
+        "en": "Athletes train for years because they dream of winning at the Olympics.",
+        "zh": "運動員訓練多年，因為他們夢想在奧運勝出。"
+      },
+      {
+        "en": "Winning at the Olympics can change an athlete’s life and inspire younger players.",
+        "zh": "在奧運勝出可以改變運動員的人生，並啟發年輕選手。"
+      },
+      {
+        "en": "This phrase refers to success at one of the world’s most important sports events.",
+        "zh": "這個說法指在世界上最重要的體育賽事之一中取得成功。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "many moons ago",
+    "meaning": "很久以前",
+    "examples": [
+      {
+        "en": "That was many moons ago now.",
+        "zh": "那已經是很久以前的事了。"
+      },
+      {
+        "en": "“Many moons ago” means a long time ago.",
+        "zh": "“Many moons ago” 意思是很久以前。"
+      },
+      {
+        "en": "I learnt to swim many moons ago, when I was in primary school.",
+        "zh": "我很久以前學會游泳，那時我還在讀小學。"
+      },
+      {
+        "en": "People use this phrase playfully when talking about something from the distant past.",
+        "zh": "人們談到久遠過去的事情時，會用這個帶玩味的說法。"
+      },
+      {
+        "en": "It sounds more colourful and informal than simply saying “a long time ago.”",
+        "zh": "它比單純說 “a long time ago” 更生動和口語化。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "come and speak to",
+    "meaning": "前來跟……交談",
+    "examples": [
+      {
+        "en": "Listeners can come and speak to Trillion at the Open Day.",
+        "zh": "聽眾可以在開放日前來跟 Trillion 交談。"
+      },
+      {
+        "en": "To come and speak to someone means to visit a place and talk with that person.",
+        "zh": "“Come and speak to” 某人，意思是前往某地方並與那個人交談。"
+      },
+      {
+        "en": "Parents can come and speak to the teachers after the information session.",
+        "zh": "家長可以在簡介會後前來跟老師交談。"
+      },
+      {
+        "en": "If students come and speak to the guest, they may get advice they cannot find in books.",
+        "zh": "如果學生前來跟嘉賓交談，他們可能會得到書本中找不到的建議。"
+      },
+      {
+        "en": "This phrase sounds welcoming because it invites direct conversation.",
+        "zh": "這個說法聽起來親切，因為它邀請人直接對話。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "hear more of her stories",
+    "meaning": "聽更多她的故事",
+    "examples": [
+      {
+        "en": "Children can hear more of Trillion’s stories at the Open Day.",
+        "zh": "孩子可以在開放日聽更多 Trillion 的故事。"
+      },
+      {
+        "en": "To hear more of someone’s stories means to listen to additional experiences or memories from that person.",
+        "zh": "“Hear more of someone’s stories” 意思是聆聽那個人更多經歷或回憶。"
+      },
+      {
+        "en": "Students wanted to hear more of the athlete’s stories after the talk.",
+        "zh": "講座後，學生想聽更多那位運動員的故事。"
+      },
+      {
+        "en": "Hearing more of a guest’s stories can make a topic feel more real and human.",
+        "zh": "聽更多嘉賓的故事，可以令題目感覺更真實和有人情味。"
+      },
+      {
+        "en": "This phrase suggests there are interesting experiences still to be shared.",
+        "zh": "這個說法暗示仍有有趣經歷可以分享。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "thank you to both my guests",
+    "meaning": "感謝兩位嘉賓",
+    "examples": [
+      {
+        "en": "Ellen says thank you to both her guests.",
+        "zh": "Ellen 感謝她的兩位嘉賓。"
+      },
+      {
+        "en": "“Thank you to both my guests” is a polite way to thank two invited speakers or visitors.",
+        "zh": "“Thank you to both my guests” 是禮貌地感謝兩位受邀講者或訪客的說法。"
+      },
+      {
+        "en": "At the end of the interview, the host said thank you to both my guests for sharing their time.",
+        "zh": "在訪問結尾，主持人說感謝兩位嘉賓抽時間分享。"
+      },
+      {
+        "en": "A presenter uses this phrase to close a discussion warmly and respectfully.",
+        "zh": "主持人使用這個說法，以溫暖和尊重的方式結束討論。"
+      },
+      {
+        "en": "This phrase is used when there are exactly two guests being thanked.",
+        "zh": "當要感謝的嘉賓剛好有兩位時，會使用這個說法。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "hope to see you soon",
+    "meaning": "希望很快見到你",
+    "examples": [
+      {
+        "en": "We hope to see you soon at Star Pod.",
+        "zh": "我們希望很快在 Star Pod 見到你。"
+      },
+      {
+        "en": "“Hope to see you soon” means the speaker would like to meet the listener in the near future.",
+        "zh": "“Hope to see you soon” 意思是說話者希望在不久將來見到聽者。"
+      },
+      {
+        "en": "Thank you for joining the club; we hope to see you soon at our next event.",
+        "zh": "謝謝你加入學會；我們希望很快在下一次活動見到你。"
+      },
+      {
+        "en": "This phrase is often used in friendly invitations, emails, and event announcements.",
+        "zh": "這個說法常用於友善邀請、電郵和活動公告。"
+      },
+      {
+        "en": "It sounds warmer than simply saying goodbye because it suggests future contact.",
+        "zh": "它比單純說再見更溫暖，因為它暗示將來仍會見面。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  },
+  {
+    "front": "Bye for now",
+    "meaning": "暫時再見",
+    "examples": [
+      {
+        "en": "Bye for now.",
+        "zh": "暫時再見。"
+      },
+      {
+        "en": "“Bye for now” means goodbye at this moment, with the feeling that you may speak again later.",
+        "zh": "“Bye for now” 意思是此刻先道別，並帶有之後可能再談的感覺。"
+      },
+      {
+        "en": "Thanks for listening to today’s episode. Bye for now.",
+        "zh": "謝謝收聽今天的一集。暫時再見。"
+      },
+      {
+        "en": "A presenter may use this phrase to end a programme in a friendly way.",
+        "zh": "主持人可能會用這個說法友善地結束節目。"
+      },
+      {
+        "en": "It sounds less final than “goodbye” because it suggests the conversation may continue another time.",
+        "zh": "它比 “goodbye” 感覺較不終結，因為它暗示對話日後可能會繼續。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2020 DSE Podcast.pdf"
+  }
+],
+  "dse/paper-3/podcast/2021": [
+  {
+    "front": "this is Anthony from",
+    "meaning": "我是來自……的 Anthony",
+    "examples": [
+      {
+        "en": "This is Anthony from Events Horizon.",
+        "zh": "我是來自 Events Horizon 的 Anthony。"
+      },
+      {
+        "en": "“This is Anthony from…” is used when introducing yourself and your organisation on a call.",
+        "zh": "“This is Anthony from…” 用於在通話中介紹自己和所屬機構。"
+      },
+      {
+        "en": "This is Karen from the school office; I am calling about tomorrow’s trip.",
+        "zh": "我是來自學校辦公室的 Karen；我打來是關於明天旅行的事。"
+      },
+      {
+        "en": "Saying “This is Anthony from Events Horizon” helps the listener know who is speaking and which company he represents.",
+        "zh": "說 “This is Anthony from Events Horizon” 可以幫助聽者知道誰在說話，以及他代表哪間公司。"
+      },
+      {
+        "en": "This phrase is useful at the beginning of phone calls, Zoom meetings, and formal messages.",
+        "zh": "這個說法適合用於電話、Zoom 會議和正式訊息的開頭。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "can you hear me?",
+    "meaning": "你聽到我說話嗎？",
+    "examples": [
+      {
+        "en": "Can you hear me clearly on Zoom?",
+        "zh": "你在 Zoom 上清楚聽到我說話嗎？"
+      },
+      {
+        "en": "“Can you hear me?” is used to check whether your voice is reaching the other person.",
+        "zh": "“Can you hear me?” 用來確認對方是否聽到你的聲音。"
+      },
+      {
+        "en": "At the start of an online lesson, a teacher may ask, “Can you hear me?”",
+        "zh": "在網課開始時，老師可能會問：「你們聽到我說話嗎？」"
+      },
+      {
+        "en": "If the microphone is not working, people may answer that they cannot hear you clearly.",
+        "zh": "如果咪高峰沒有正常運作，對方可能會回答聽不清楚。"
+      },
+      {
+        "en": "This question is useful when a call begins or when the sound suddenly becomes poor.",
+        "zh": "這個問題適合在通話開始時，或聲音突然變差時使用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "we can hear you",
+    "meaning": "我們聽到你說話",
+    "examples": [
+      {
+        "en": "Yes, we can hear you.",
+        "zh": "是的，我們聽到你說話。"
+      },
+      {
+        "en": "“We can hear you” means the speaker’s sound is coming through clearly enough.",
+        "zh": "“We can hear you” 指說話者的聲音已經傳到對方，而且足夠清楚。"
+      },
+      {
+        "en": "After the manager tested her microphone, the team said, “We can hear you.”",
+        "zh": "經理測試咪高峰後，團隊說：「我們聽到你說話。」"
+      },
+      {
+        "en": "Saying this quickly helps the meeting begin without wasting time on technical checks.",
+        "zh": "迅速這樣回答，可以讓會議不用浪費時間在技術檢查上。"
+      },
+      {
+        "en": "If the sound is weak, people may say, “We can hear you, but not very clearly.”",
+        "zh": "如果聲音較弱，人們可能會說：「我們聽到你說話，但不是很清楚。」"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "How are things in Hong Kong?",
+    "meaning": "香港那邊情況怎樣？",
+    "examples": [
+      {
+        "en": "How are things in Hong Kong at the moment?",
+        "zh": "香港那邊目前情況怎樣？"
+      },
+      {
+        "en": "“How are things in Hong Kong?” asks about the general situation in Hong Kong.",
+        "zh": "“How are things in Hong Kong?” 是詢問香港整體情況的說法。"
+      },
+      {
+        "en": "A colleague overseas may ask, “How are things in Hong Kong?” before discussing business.",
+        "zh": "海外同事可能在談公事前問：「香港那邊情況怎樣？」"
+      },
+      {
+        "en": "This question can refer to work, weather, public mood, transport, or daily life.",
+        "zh": "這個問題可以指工作、天氣、社會氣氛、交通或日常生活。"
+      },
+      {
+        "en": "It sounds friendlier than immediately asking for updates or reports.",
+        "zh": "它比一開始就要求更新或報告更友善。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "we’ve got a few things to run through",
+    "meaning": "我們有幾件事要快速過一遍",
+    "examples": [
+      {
+        "en": "We’ve got a few things to run through about the tournament.",
+        "zh": "關於錦標賽，我們有幾件事要快速過一遍。"
+      },
+      {
+        "en": "“We’ve got a few things to run through” means there are several points to discuss quickly.",
+        "zh": "“We’ve got a few things to run through” 指有幾個重點需要快速討論。"
+      },
+      {
+        "en": "Before the school trip, the teacher said, “We’ve got a few things to run through.”",
+        "zh": "學校旅行前，老師說：「我們有幾件事要快速過一遍。」"
+      },
+      {
+        "en": "This phrase prepares people for a short but organised discussion.",
+        "zh": "這個說法讓大家知道接下來會有簡短而有條理的討論。"
+      },
+      {
+        "en": "It is useful when a meeting has several practical details to cover.",
+        "zh": "當會議有幾個實際細節要處理時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "run through",
+    "meaning": "快速講解；逐項過一遍",
+    "examples": [
+      {
+        "en": "Anthony wants to run through the arrangements with Victor and Lara.",
+        "zh": "Anthony 想和 Victor 及 Lara 逐項過一遍安排。"
+      },
+      {
+        "en": "To run through something means to explain or review it quickly, step by step.",
+        "zh": "run through something 指快速而逐步地解釋或檢視某事。"
+      },
+      {
+        "en": "The coach ran through the rules before the match began.",
+        "zh": "教練在比賽開始前快速講解規則。"
+      },
+      {
+        "en": "Running through a plan can help people notice missing details before it is too late.",
+        "zh": "逐項過一遍計劃，可以幫助大家在太遲之前發現遺漏細節。"
+      },
+      {
+        "en": "This phrase is common in meetings, rehearsals, briefings, and preparation sessions.",
+        "zh": "這個說法常見於會議、綵排、簡報和準備環節。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "coming to Hong Kong for",
+    "meaning": "來香港參加……；因……來香港",
+    "examples": [
+      {
+        "en": "Lara is coming to Hong Kong for the Victoria Cup.",
+        "zh": "Lara 會來香港參加維多利亞盃。"
+      },
+      {
+        "en": "To come to Hong Kong for something means to travel to Hong Kong because of that event or purpose.",
+        "zh": "come to Hong Kong for something 指因某活動或目的而來香港。"
+      },
+      {
+        "en": "Many visitors are coming to Hong Kong for a music festival this summer.",
+        "zh": "今年夏天，許多訪客會來香港參加音樂節。"
+      },
+      {
+        "en": "If athletes are coming to Hong Kong for a tournament, organisers must prepare transport and accommodation.",
+        "zh": "如果運動員來香港參加錦標賽，主辦方必須準備交通和住宿。"
+      },
+      {
+        "en": "This phrase clearly explains the reason for someone’s visit.",
+        "zh": "這個說法清楚說明某人來訪的原因。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Victoria Cup",
+    "meaning": "維多利亞盃",
+    "examples": [
+      {
+        "en": "The Victoria Cup will be held in Hong Kong.",
+        "zh": "維多利亞盃將於香港舉行。"
+      },
+      {
+        "en": "The Victoria Cup is the name of the tournament being discussed in the meeting.",
+        "zh": "The Victoria Cup 是會議中討論的錦標賽名稱。"
+      },
+      {
+        "en": "Players coming for the Victoria Cup need information about the schedule, venue, and safety rules.",
+        "zh": "來參加維多利亞盃的球員需要知道賽程、場地和安全規則。"
+      },
+      {
+        "en": "If the Victoria Cup attracts international players, the organisers must communicate clearly in English.",
+        "zh": "如果維多利亞盃吸引國際球員，主辦方必須用清楚英文溝通。"
+      },
+      {
+        "en": "A named event like the Victoria Cup is usually written with capital letters.",
+        "zh": "像 Victoria Cup 這類具名活動，通常會用大寫字母書寫。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "start with",
+    "meaning": "由……開始",
+    "examples": [
+      {
+        "en": "Anthony suggests that they start with Lara’s concerns.",
+        "zh": "Anthony 建議他們由 Lara 的憂慮開始。"
+      },
+      {
+        "en": "To start with something means to discuss or do that thing first.",
+        "zh": "start with something 指先討論或先做某事。"
+      },
+      {
+        "en": "In a meeting, it is sensible to start with the most urgent problem.",
+        "zh": "在會議中，由最緊急的問題開始是合理的。"
+      },
+      {
+        "en": "Starting with simple questions can help nervous students feel more confident.",
+        "zh": "由簡單問題開始，可以幫助緊張的學生更有信心。"
+      },
+      {
+        "en": "This phrase helps organise a discussion in a clear order.",
+        "zh": "這個說法有助把討論安排得更有條理。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "any concerns you’ve got about",
+    "meaning": "對……有的任何憂慮",
+    "examples": [
+      {
+        "en": "Anthony asks about any concerns they have about coming to Hong Kong.",
+        "zh": "Anthony 詢問他們對來香港有的任何憂慮。"
+      },
+      {
+        "en": "Any concerns you’ve got about something means any worries or doubts you have about it.",
+        "zh": "any concerns you’ve got about something 指你對某事有的任何擔心或疑慮。"
+      },
+      {
+        "en": "Before the exam, students can tell the teacher any concerns they’ve got about the format.",
+        "zh": "考試前，學生可以告訴老師他們對考試形式有的任何憂慮。"
+      },
+      {
+        "en": "Asking about concerns early helps organisers solve problems before the event begins.",
+        "zh": "及早詢問憂慮，可以幫助主辦方在活動開始前解決問題。"
+      },
+      {
+        "en": "This phrase sounds open because it invites people to speak honestly.",
+        "zh": "這個說法聽起來開放，因為它邀請人坦誠發言。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "at all",
+    "meaning": "到底；任何一點",
+    "examples": [
+      {
+        "en": "Do you have any concerns about the tournament at all?",
+        "zh": "你對錦標賽到底有沒有任何憂慮？"
+      },
+      {
+        "en": "At all adds emphasis and means even a little or in any way.",
+        "zh": "at all 用來加強語氣，意思是任何一點或以任何方式。"
+      },
+      {
+        "en": "If you have any questions at all, please ask before we begin.",
+        "zh": "如果你有任何問題，哪怕只是一點點，請在我們開始前提出。"
+      },
+      {
+        "en": "Adding “at all” can make an invitation sound more open and reassuring.",
+        "zh": "加上 “at all” 可以令邀請聽起來更開放、更令人安心。"
+      },
+      {
+        "en": "In negative sentences, “at all” can mean not even slightly.",
+        "zh": "在否定句中，at all 可以表示一點也不。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "my main worry",
+    "meaning": "我主要擔心的是",
+    "examples": [
+      {
+        "en": "Lara’s main worry is the weather in Hong Kong.",
+        "zh": "Lara 主要擔心的是香港的天氣。"
+      },
+      {
+        "en": "My main worry means the thing I am most concerned about.",
+        "zh": "my main worry 指我最擔心的事情。"
+      },
+      {
+        "en": "My main worry before the interview is that I may not answer clearly.",
+        "zh": "面試前，我主要擔心的是自己可能回答得不夠清楚。"
+      },
+      {
+        "en": "Identifying your main worry helps other people understand what problem matters most to you.",
+        "zh": "說出主要憂慮，可以幫助別人明白哪個問題對你最重要。"
+      },
+      {
+        "en": "This phrase is useful when there are several concerns but one is the most important.",
+        "zh": "當有幾個憂慮，但其中一個最重要時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "hot and humid",
+    "meaning": "又熱又潮濕",
+    "examples": [
+      {
+        "en": "Hong Kong can be hot and humid during the tournament.",
+        "zh": "錦標賽期間，香港可能又熱又潮濕。"
+      },
+      {
+        "en": "Hot and humid means the weather is very warm and the air feels wet or heavy.",
+        "zh": "hot and humid 指天氣很熱，而且空氣感覺潮濕或沉重。"
+      },
+      {
+        "en": "People often sweat quickly when the weather is hot and humid.",
+        "zh": "天氣又熱又潮濕時，人們通常很快流汗。"
+      },
+      {
+        "en": "Hot and humid conditions can make outdoor sports more tiring.",
+        "zh": "又熱又潮濕的環境會令戶外運動更疲累。"
+      },
+      {
+        "en": "This phrase is common when describing summer weather in cities near the sea.",
+        "zh": "這個說法常用來描述近海城市的夏天天氣。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "get ill from",
+    "meaning": "因……而病倒",
+    "examples": [
+      {
+        "en": "Lara does not want to get ill from being too hot.",
+        "zh": "Lara 不想因為身體過熱而病倒。"
+      },
+      {
+        "en": "To get ill from something means to become sick because of it.",
+        "zh": "get ill from something 指因某事而生病。"
+      },
+      {
+        "en": "A child may get ill from eating food that has been left outside too long.",
+        "zh": "孩子可能因吃了放在外面太久的食物而病倒。"
+      },
+      {
+        "en": "Players can get ill from heat if they do not rest or drink enough water.",
+        "zh": "如果運動員沒有休息或喝足夠的水，可能會因炎熱而病倒。"
+      },
+      {
+        "en": "This phrase clearly connects a cause with someone becoming unwell.",
+        "zh": "這個說法清楚連接原因和生病的結果。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "being too hot",
+    "meaning": "太熱；身體過熱",
+    "examples": [
+      {
+        "en": "Players may feel unwell from being too hot.",
+        "zh": "運動員可能因身體過熱而感到不適。"
+      },
+      {
+        "en": "Being too hot means the body is overheated and uncomfortable.",
+        "zh": "being too hot 指身體過熱並感到不舒服。"
+      },
+      {
+        "en": "Children may become tired and dizzy from being too hot during outdoor activities.",
+        "zh": "孩子在戶外活動中可能因太熱而疲倦和頭暈。"
+      },
+      {
+        "en": "Being too hot can be dangerous if people ignore signs like headache or weakness.",
+        "zh": "如果人們忽視頭痛或乏力等徵兆，身體過熱可能會很危險。"
+      },
+      {
+        "en": "This phrase is often used when talking about health, weather, and physical activity.",
+        "zh": "這個說法常用於談論健康、天氣和體能活動。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "last year was quite bad",
+    "meaning": "去年的情況頗差",
+    "examples": [
+      {
+        "en": "Lara says that last year’s conditions were quite bad.",
+        "zh": "Lara 說去年的情況頗差。"
+      },
+      {
+        "en": "Last year was quite bad means the situation in the previous year was rather unpleasant or difficult.",
+        "zh": "last year was quite bad 指上一年的情況相當不愉快或困難。"
+      },
+      {
+        "en": "Last year was quite bad for the school team because many matches were cancelled.",
+        "zh": "對校隊來說，去年情況頗差，因為很多比賽被取消。"
+      },
+      {
+        "en": "If last year was quite bad, organisers should change the plan this year.",
+        "zh": "如果去年情況頗差，主辦方今年應該改變計劃。"
+      },
+      {
+        "en": "This phrase gives background for why someone is worried now.",
+        "zh": "這個說法交代背景，解釋為何某人現在會擔心。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "discuss this issue quite extensively",
+    "meaning": "相當詳盡地討論這個問題",
+    "examples": [
+      {
+        "en": "The committee has discussed this issue quite extensively.",
+        "zh": "委員會已相當詳盡地討論這個問題。"
+      },
+      {
+        "en": "To discuss this issue quite extensively means to talk about this problem in detail and from many angles.",
+        "zh": "discuss this issue quite extensively 指從多個角度詳細討論這個問題。"
+      },
+      {
+        "en": "The school discussed the bullying issue quite extensively before changing its rules.",
+        "zh": "學校在更改規則前，相當詳盡地討論了欺凌問題。"
+      },
+      {
+        "en": "If a team discusses an issue quite extensively, its final decision may be more careful.",
+        "zh": "如果團隊相當詳盡地討論一個問題，最後決定可能會更審慎。"
+      },
+      {
+        "en": "This phrase suggests the matter was not handled quickly or casually.",
+        "zh": "這個說法表示事情不是被草率或隨便處理。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "this issue",
+    "meaning": "這個問題",
+    "examples": [
+      {
+        "en": "The organisers have been discussing this issue since last year.",
+        "zh": "主辦方自去年起一直在討論這個問題。"
+      },
+      {
+        "en": "This issue means the particular problem or topic being discussed now.",
+        "zh": "this issue 指目前正在討論的特定問題或題目。"
+      },
+      {
+        "en": "This issue affects both students and teachers, so the school must listen to both sides.",
+        "zh": "這個問題同時影響學生和老師，所以學校必須聆聽雙方意見。"
+      },
+      {
+        "en": "If this issue is ignored, the same complaints may appear again next year.",
+        "zh": "如果這個問題被忽視，明年可能會再次出現相同投訴。"
+      },
+      {
+        "en": "The phrase helps speakers avoid repeating the full name of a problem.",
+        "zh": "這個說法幫助說話者避免重複完整問題名稱。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "quite extensively",
+    "meaning": "相當詳盡地",
+    "examples": [
+      {
+        "en": "The committee discussed the safety arrangements quite extensively.",
+        "zh": "委員會相當詳盡地討論了安全安排。"
+      },
+      {
+        "en": "Quite extensively means in a fairly detailed and thorough way.",
+        "zh": "quite extensively 指以相當詳細和全面的方式。"
+      },
+      {
+        "en": "The class studied the poem quite extensively before writing the essay.",
+        "zh": "班上在寫文章前，相當詳盡地研讀了那首詩。"
+      },
+      {
+        "en": "Discussing a plan quite extensively can reveal risks that were not obvious at first.",
+        "zh": "相當詳盡地討論一個計劃，可以揭示最初不明顯的風險。"
+      },
+      {
+        "en": "This phrase is stronger than “briefly” and weaker than “completely.”",
+        "zh": "這個說法比 briefly 強，但比 completely 弱。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "it was decided by the committee to",
+    "meaning": "委員會決定……",
+    "examples": [
+      {
+        "en": "It was decided by the committee to allow longer breaks.",
+        "zh": "委員會決定容許更長休息時間。"
+      },
+      {
+        "en": "This structure means the committee officially made a decision to do something.",
+        "zh": "這個句式表示委員會正式決定做某事。"
+      },
+      {
+        "en": "It was decided by the committee to postpone the school concert because of bad weather.",
+        "zh": "委員會決定因天氣惡劣而押後學校音樂會。"
+      },
+      {
+        "en": "Using this passive structure focuses on the decision rather than on individual members.",
+        "zh": "使用這個被動句式，重點會放在決定本身，而不是個別成員。"
+      },
+      {
+        "en": "It is common in formal reports and meeting summaries.",
+        "zh": "它常見於正式報告和會議摘要。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "allow the players to",
+    "meaning": "容許運動員……",
+    "examples": [
+      {
+        "en": "The organisers will allow the players to take longer breaks.",
+        "zh": "主辦方會容許運動員休息更長時間。"
+      },
+      {
+        "en": "To allow the players to do something means to give them permission to do it.",
+        "zh": "allow the players to do something 指給予運動員做某事的許可。"
+      },
+      {
+        "en": "The coach allowed the players to rest after a difficult training session.",
+        "zh": "教練在艱苦訓練後容許運動員休息。"
+      },
+      {
+        "en": "Allowing players to recover properly can reduce the risk of injury.",
+        "zh": "容許運動員適當恢復，可以降低受傷風險。"
+      },
+      {
+        "en": "This phrase is useful when talking about rules, permission, and safety.",
+        "zh": "這個說法適合用於談論規則、許可和安全。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "take longer breaks",
+    "meaning": "休息更長時間",
+    "examples": [
+      {
+        "en": "Players will be allowed to take longer breaks between games.",
+        "zh": "運動員將獲准在每局／每場之間休息更長時間。"
+      },
+      {
+        "en": "To take longer breaks means to rest for more time than usual.",
+        "zh": "take longer breaks 指比平時休息更久。"
+      },
+      {
+        "en": "Students may take longer breaks during exam revision to avoid mental tiredness.",
+        "zh": "學生在考試溫習期間可能需要休息更長時間，以避免精神疲勞。"
+      },
+      {
+        "en": "Longer breaks can help players cool down and return with better focus.",
+        "zh": "更長休息時間可以幫助運動員降溫，並以更好專注力回到比賽。"
+      },
+      {
+        "en": "This phrase is often used when people need recovery time.",
+        "zh": "當人們需要恢復時間時，這個說法很常用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "between games",
+    "meaning": "在每局／每場之間",
+    "examples": [
+      {
+        "en": "Players will have eight minutes between games.",
+        "zh": "運動員在每局／每場之間會有八分鐘。"
+      },
+      {
+        "en": "Between games means in the time after one game ends and before the next begins.",
+        "zh": "between games 指一局／一場結束後，到下一局／下一場開始前的時間。"
+      },
+      {
+        "en": "The team reviewed its strategy between games.",
+        "zh": "球隊在每場之間檢討策略。"
+      },
+      {
+        "en": "Resting between games can help players recover physically and mentally.",
+        "zh": "在比賽之間休息，可以幫助運動員在身體和精神上恢復。"
+      },
+      {
+        "en": "This phrase is common in sports competitions with several rounds or sets.",
+        "zh": "這個說法常見於有多輪或多局的體育比賽。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "a sensible idea",
+    "meaning": "明智的做法",
+    "examples": [
+      {
+        "en": "Lara thinks longer breaks sound like a sensible idea.",
+        "zh": "Lara 認為較長休息時間聽起來是明智的做法。"
+      },
+      {
+        "en": "A sensible idea is a practical and reasonable suggestion.",
+        "zh": "a sensible idea 指實際而合理的建議。"
+      },
+      {
+        "en": "Bringing extra water on a hot day is a sensible idea.",
+        "zh": "在炎熱天氣多帶水是明智的做法。"
+      },
+      {
+        "en": "A sensible idea can prevent problems before they happen.",
+        "zh": "明智的做法可以在問題發生前預防它。"
+      },
+      {
+        "en": "This phrase praises an idea without sounding overly emotional.",
+        "zh": "這個說法能稱讚想法，同時語氣不會過度情緒化。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "will be allowed eight minutes",
+    "meaning": "將獲准有八分鐘",
+    "examples": [
+      {
+        "en": "Players will be allowed eight minutes between games.",
+        "zh": "運動員在每局／每場之間將獲准有八分鐘。"
+      },
+      {
+        "en": "Will be allowed eight minutes means someone will officially receive eight minutes for a purpose.",
+        "zh": "will be allowed eight minutes 指某人將正式獲得八分鐘作某用途。"
+      },
+      {
+        "en": "Students will be allowed ten minutes to read the questions before writing.",
+        "zh": "學生將獲准有十分鐘閱讀題目，然後才開始寫作。"
+      },
+      {
+        "en": "If players are allowed eight minutes, they can drink water, cool down, and prepare again.",
+        "zh": "如果運動員獲准有八分鐘，他們可以喝水、降溫並重新準備。"
+      },
+      {
+        "en": "This structure is often used in rules and official arrangements.",
+        "zh": "這個句式常用於規則和正式安排。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "playing schedule",
+    "meaning": "比賽時間表",
+    "examples": [
+      {
+        "en": "Victor asks about the playing schedule.",
+        "zh": "Victor 詢問比賽時間表。"
+      },
+      {
+        "en": "A playing schedule is the timetable that shows when matches or games will happen.",
+        "zh": "playing schedule 指顯示比賽或賽事何時進行的時間表。"
+      },
+      {
+        "en": "The playing schedule tells athletes which court they need to go to and when.",
+        "zh": "比賽時間表告訴運動員何時要到哪個球場。"
+      },
+      {
+        "en": "If the playing schedule changes, players may need to adjust their meals and rest time.",
+        "zh": "如果比賽時間表改變，運動員可能需要調整用餐和休息時間。"
+      },
+      {
+        "en": "This phrase is useful in tournaments with many matches.",
+        "zh": "這個說法適用於有多場比賽的錦標賽。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "play in the evening",
+    "meaning": "在晚上比賽",
+    "examples": [
+      {
+        "en": "Victor asks whether Lara could play in the evening.",
+        "zh": "Victor 問 Lara 是否可以在晚上比賽。"
+      },
+      {
+        "en": "To play in the evening means to have a match or game later in the day.",
+        "zh": "play in the evening 指在一天較晚的晚上時間進行比賽。"
+      },
+      {
+        "en": "Some tennis players prefer to play in the evening because the weather is cooler.",
+        "zh": "有些網球員喜歡在晚上比賽，因為天氣較涼。"
+      },
+      {
+        "en": "If players play in the evening, spectators may be able to come after work.",
+        "zh": "如果運動員在晚上比賽，觀眾可能下班後也能前來。"
+      },
+      {
+        "en": "This phrase is common when discussing sports schedules.",
+        "zh": "這個說法常用於討論體育賽程。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "another major change",
+    "meaning": "另一項重大改動",
+    "examples": [
+      {
+        "en": "Another major change is that all matches will be played in the evenings.",
+        "zh": "另一項重大改動是所有比賽都會在晚上進行。"
+      },
+      {
+        "en": "Another major change means one more important difference from the original plan.",
+        "zh": "another major change 指相對原本計劃的另一個重要改變。"
+      },
+      {
+        "en": "Another major change is that students must now submit homework online.",
+        "zh": "另一項重大改動是學生現在必須在網上交功課。"
+      },
+      {
+        "en": "Major changes should be explained clearly because they affect many people.",
+        "zh": "重大改動應清楚解釋，因為它們會影響很多人。"
+      },
+      {
+        "en": "This phrase helps introduce an important new point in a discussion.",
+        "zh": "這個說法有助在討論中引入新的重要重點。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "be played in the evenings",
+    "meaning": "會在晚上進行",
+    "examples": [
+      {
+        "en": "All matches will be played in the evenings.",
+        "zh": "所有比賽都會在晚上進行。"
+      },
+      {
+        "en": "Be played in the evenings means the matches will take place during evening hours.",
+        "zh": "be played in the evenings 指比賽會在晚上時段舉行。"
+      },
+      {
+        "en": "The finals will be played in the evenings so more fans can attend after work.",
+        "zh": "決賽會在晚上進行，讓更多球迷下班後可以到場。"
+      },
+      {
+        "en": "If matches are played in the evenings, organisers must arrange lighting and transport.",
+        "zh": "如果比賽在晚上進行，主辦方必須安排燈光和交通。"
+      },
+      {
+        "en": "This passive structure focuses on the timing of the matches.",
+        "zh": "這個被動句式把重點放在比賽時間。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "avoid the heat of the afternoon",
+    "meaning": "避開下午的炎熱天氣",
+    "examples": [
+      {
+        "en": "Players can avoid the heat of the afternoon.",
+        "zh": "運動員可以避開下午的炎熱天氣。"
+      },
+      {
+        "en": "To avoid the heat of the afternoon means to stay away from the hottest part of the day.",
+        "zh": "avoid the heat of the afternoon 指避開一天中最炎熱的下午時段。"
+      },
+      {
+        "en": "Hikers often start early to avoid the heat of the afternoon.",
+        "zh": "遠足者常早點出發，以避開下午的炎熱天氣。"
+      },
+      {
+        "en": "Avoiding afternoon heat can reduce tiredness, dehydration, and health risks.",
+        "zh": "避開下午炎熱天氣可以減少疲勞、脫水和健康風險。"
+      },
+      {
+        "en": "This phrase is useful when planning outdoor activities in hot weather.",
+        "zh": "這個說法適合用於在炎熱天氣中規劃戶外活動。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "evening games",
+    "meaning": "晚上比賽",
+    "examples": [
+      {
+        "en": "Lara always prefers evening games.",
+        "zh": "Lara 一向較喜歡晚上比賽。"
+      },
+      {
+        "en": "Evening games are matches played later in the day, usually after daytime heat has passed.",
+        "zh": "evening games 指在一天較晚時間進行的比賽，通常是在日間炎熱過後。"
+      },
+      {
+        "en": "Evening games can feel more comfortable for players in hot weather.",
+        "zh": "在炎熱天氣中，晚上比賽對運動員來說可能更舒服。"
+      },
+      {
+        "en": "Fans may enjoy evening games because they can attend after school or work.",
+        "zh": "球迷可能喜歡晚上比賽，因為他們可以放學或下班後入場。"
+      },
+      {
+        "en": "This phrase is common in sports schedules and tournament planning.",
+        "zh": "這個說法常見於體育賽程和錦標賽規劃。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "did you want to say something?",
+    "meaning": "你是不是想說些甚麼？",
+    "examples": [
+      {
+        "en": "Victor, did you want to say something?",
+        "zh": "Victor，你是不是想說些甚麼？"
+      },
+      {
+        "en": "“Did you want to say something?” is a polite way to invite someone to speak.",
+        "zh": "“Did you want to say something?” 是禮貌地邀請某人發言的說法。"
+      },
+      {
+        "en": "In a meeting, a manager may ask this if someone looks ready to comment.",
+        "zh": "在會議中，如果某人看起來想發表意見，經理可能會這樣問。"
+      },
+      {
+        "en": "This question gives the other person space without putting too much pressure on them.",
+        "zh": "這個問題給對方發言空間，但不會給太大壓力。"
+      },
+      {
+        "en": "It is softer than saying, “What do you want?”",
+        "zh": "它比 “What do you want?” 更柔和。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "another concern is",
+    "meaning": "另一個憂慮是",
+    "examples": [
+      {
+        "en": "Another concern is the air quality.",
+        "zh": "另一個憂慮是空氣質素。"
+      },
+      {
+        "en": "Another concern is used to introduce one more worry or problem.",
+        "zh": "another concern is 用來引入另一個憂慮或問題。"
+      },
+      {
+        "en": "Another concern is that students may not have enough time to travel between campuses.",
+        "zh": "另一個憂慮是學生可能沒有足夠時間在校園之間移動。"
+      },
+      {
+        "en": "Using this phrase helps organise several worries one by one.",
+        "zh": "使用這個說法有助把幾個憂慮逐一整理。"
+      },
+      {
+        "en": "It is useful in meetings, complaints, reports, and planning discussions.",
+        "zh": "它適合用於會議、投訴、報告和規劃討論。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "air quality",
+    "meaning": "空氣質素",
+    "examples": [
+      {
+        "en": "Victor is concerned about the air quality in Hong Kong.",
+        "zh": "Victor 擔心香港的空氣質素。"
+      },
+      {
+        "en": "Air quality means how clean or polluted the air is.",
+        "zh": "air quality 指空氣是清潔還是受污染。"
+      },
+      {
+        "en": "Poor air quality can make outdoor exercise uncomfortable or unsafe.",
+        "zh": "空氣質素差會令戶外運動變得不舒服或不安全。"
+      },
+      {
+        "en": "Schools may keep children indoors when air quality becomes very bad.",
+        "zh": "當空氣質素變得很差時，學校可能會讓孩子留在室內。"
+      },
+      {
+        "en": "This phrase is often used in weather reports, health advice, and event planning.",
+        "zh": "這個說法常用於天氣報告、健康建議和活動規劃。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the pollution",
+    "meaning": "空氣污染；污染",
+    "examples": [
+      {
+        "en": "Anthony asks whether Victor means the pollution.",
+        "zh": "Anthony 問 Victor 是否指空氣污染。"
+      },
+      {
+        "en": "The pollution means the dirty or harmful substances in the air, water, or environment.",
+        "zh": "the pollution 指空氣、水或環境中的有害污染物。"
+      },
+      {
+        "en": "The pollution near a busy road can affect people who walk there every day.",
+        "zh": "繁忙道路附近的污染可能影響每天在那裡行走的人。"
+      },
+      {
+        "en": "If the pollution is serious, outdoor events may need extra safety measures.",
+        "zh": "如果污染嚴重，戶外活動可能需要額外安全措施。"
+      },
+      {
+        "en": "This phrase usually refers to a specific pollution problem already mentioned.",
+        "zh": "這個說法通常指之前已提及的特定污染問題。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "from our past experience",
+    "meaning": "根據我們過往的經驗",
+    "examples": [
+      {
+        "en": "From their past experience in the Far East, pollution levels can be high.",
+        "zh": "根據他們在遠東地區過往的經驗，污染水平可能很高。"
+      },
+      {
+        "en": "From our past experience means based on what we have seen or gone through before.",
+        "zh": "from our past experience 指根據我們以前見過或經歷過的事情。"
+      },
+      {
+        "en": "From our past experience, students arrive earlier when the meeting point is simple.",
+        "zh": "根據我們過往的經驗，集合地點簡單時，學生會更早到達。"
+      },
+      {
+        "en": "Using past experience can help people make better decisions this time.",
+        "zh": "運用過往經驗，可以幫助人們今次作出更好決定。"
+      },
+      {
+        "en": "This phrase is useful when explaining why you expect a certain problem.",
+        "zh": "當你解釋為何預期某個問題會出現時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Far East",
+    "meaning": "遠東地區",
+    "examples": [
+      {
+        "en": "Victor mentions his past experience in the Far East.",
+        "zh": "Victor 提到他在遠東地區的過往經驗。"
+      },
+      {
+        "en": "The Far East is a traditional term for East and Southeast Asia, used from a Western viewpoint.",
+        "zh": "the Far East 是一個傳統說法，從西方角度指東亞和東南亞地區。"
+      },
+      {
+        "en": "Some older travel guides use “the Far East” when talking about places such as Hong Kong, Japan, or Singapore.",
+        "zh": "一些較舊的旅遊指南會用 “the Far East” 來談香港、日本或新加坡等地方。"
+      },
+      {
+        "en": "In modern writing, people often prefer more specific names like East Asia or Southeast Asia.",
+        "zh": "在現代寫作中，人們通常較喜歡使用 East Asia 或 Southeast Asia 等更具體名稱。"
+      },
+      {
+        "en": "This phrase may sound formal or slightly old-fashioned.",
+        "zh": "這個說法可能聽起來正式或稍微老派。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "pollution levels",
+    "meaning": "污染水平",
+    "examples": [
+      {
+        "en": "The pollution levels are often really high.",
+        "zh": "污染水平經常非常高。"
+      },
+      {
+        "en": "Pollution levels mean the amount of pollution measured in the air, water, or environment.",
+        "zh": "pollution levels 指空氣、水或環境中污染的程度。"
+      },
+      {
+        "en": "Pollution levels may rise when traffic is heavy and the weather is still.",
+        "zh": "當交通繁忙而天氣無風時，污染水平可能上升。"
+      },
+      {
+        "en": "High pollution levels can affect children, older people, and athletes more seriously.",
+        "zh": "高污染水平可能對孩子、長者和運動員造成更嚴重影響。"
+      },
+      {
+        "en": "This phrase is useful when discussing health risks and environmental safety.",
+        "zh": "這個說法適合用於討論健康風險和環境安全。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "make it difficult for someone to",
+    "meaning": "令某人難以……",
+    "examples": [
+      {
+        "en": "High pollution levels make it difficult for players to breathe.",
+        "zh": "高污染水平令運動員難以呼吸。"
+      },
+      {
+        "en": "To make it difficult for someone to do something means to create a problem that stops them from doing it easily.",
+        "zh": "make it difficult for someone to do something 指製造障礙，令某人難以輕易做到某事。"
+      },
+      {
+        "en": "Loud noise can make it difficult for students to concentrate.",
+        "zh": "嘈雜聲音會令學生難以集中。"
+      },
+      {
+        "en": "If instructions are unclear, they make it difficult for people to follow the plan.",
+        "zh": "如果指示不清楚，會令人難以跟從計劃。"
+      },
+      {
+        "en": "This structure clearly shows how one problem affects someone’s ability.",
+        "zh": "這個句式清楚顯示一個問題如何影響某人的能力。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "breathe",
+    "meaning": "呼吸",
+    "examples": [
+      {
+        "en": "Pollution can make it difficult for players to breathe.",
+        "zh": "污染會令運動員難以呼吸。"
+      },
+      {
+        "en": "To breathe means to take air into the lungs and let it out again.",
+        "zh": "breathe 指把空氣吸入肺部，再呼出來。"
+      },
+      {
+        "en": "People may find it hard to breathe when the air is smoky or very polluted.",
+        "zh": "當空氣有煙或污染嚴重時，人們可能會覺得難以呼吸。"
+      },
+      {
+        "en": "Athletes need to breathe smoothly during exercise so their bodies get enough oxygen.",
+        "zh": "運動員在運動期間需要順暢呼吸，讓身體得到足夠氧氣。"
+      },
+      {
+        "en": "If someone cannot breathe properly, they should stop exercising and seek help.",
+        "zh": "如果某人不能正常呼吸，應停止運動並尋求協助。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "a lot of the time",
+    "meaning": "很多時候",
+    "examples": [
+      {
+        "en": "The pollution makes it difficult to breathe a lot of the time.",
+        "zh": "污染很多時候令人難以呼吸。"
+      },
+      {
+        "en": "A lot of the time means often or during many moments.",
+        "zh": "a lot of the time 指經常或在很多時候。"
+      },
+      {
+        "en": "A busy parent may feel tired a lot of the time.",
+        "zh": "忙碌的家長很多時候可能會感到疲倦。"
+      },
+      {
+        "en": "If transport is late a lot of the time, people may stop trusting the service.",
+        "zh": "如果交通服務很多時候遲到，人們可能會不再信任它。"
+      },
+      {
+        "en": "This phrase describes something that happens frequently, but not always.",
+        "zh": "這個說法描述某事經常發生，但不是永遠發生。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "point taken",
+    "meaning": "明白你的意思；意見收到",
+    "examples": [
+      {
+        "en": "Anthony says, “Point taken,” after hearing Victor’s concern.",
+        "zh": "Anthony 聽到 Victor 的憂慮後說：「明白你的意思。」"
+      },
+      {
+        "en": "“Point taken” means I understand your point and accept that it matters.",
+        "zh": "“Point taken” 指我明白你的觀點，也接受它是重要的。"
+      },
+      {
+        "en": "If a student says the homework deadline is too short, a teacher may reply, “Point taken.”",
+        "zh": "如果學生說功課限期太短，老師可能回答：「意見收到。」"
+      },
+      {
+        "en": "This phrase shows respect even if the speaker has not yet given a solution.",
+        "zh": "這個說法表示尊重，即使說話者還未提出解決方法。"
+      },
+      {
+        "en": "It is useful in meetings when someone raises a reasonable concern.",
+        "zh": "當有人在會議中提出合理憂慮時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "talk about something with",
+    "meaning": "與……討論某事",
+    "examples": [
+      {
+        "en": "The committee has talked about pollution with the government.",
+        "zh": "委員會已經與政府討論污染問題。"
+      },
+      {
+        "en": "To talk about something with someone means to discuss that topic together.",
+        "zh": "talk about something with someone 指與某人一起討論某個題目。"
+      },
+      {
+        "en": "Parents should talk about screen time with their children before setting rules.",
+        "zh": "家長在制定規則前，應與孩子討論使用螢幕時間。"
+      },
+      {
+        "en": "If a company talks about safety with staff, workers may understand the risks better.",
+        "zh": "如果公司與員工討論安全，工人可能更了解風險。"
+      },
+      {
+        "en": "This phrase shows both the topic and the person involved in the discussion.",
+        "zh": "這個說法同時指出討論題目和討論對象。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "what has been decided is as follows",
+    "meaning": "決定如下",
+    "examples": [
+      {
+        "en": "What has been decided is as follows.",
+        "zh": "決定如下。"
+      },
+      {
+        "en": "“What has been decided is as follows” introduces an official list of decisions.",
+        "zh": "“What has been decided is as follows” 用來引出正式決定清單。"
+      },
+      {
+        "en": "After the meeting, the chairperson wrote, “What has been decided is as follows.”",
+        "zh": "會議後，主席寫道：「決定如下。」"
+      },
+      {
+        "en": "This phrase prepares readers or listeners for clear points that come next.",
+        "zh": "這個說法讓讀者或聽者準備接收之後的清晰重點。"
+      },
+      {
+        "en": "It is formal and suitable for reports, emails, and meeting summaries.",
+        "zh": "它語氣正式，適合用於報告、電郵和會議摘要。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "as follows",
+    "meaning": "如下",
+    "examples": [
+      {
+        "en": "The safety rule is as follows.",
+        "zh": "安全規則如下。"
+      },
+      {
+        "en": "As follows means the details will be stated immediately after this phrase.",
+        "zh": "as follows 指詳情會在這個說法之後立即列出。"
+      },
+      {
+        "en": "The steps are as follows: log in, choose the class, and submit the form.",
+        "zh": "步驟如下：登入、選擇課堂，然後提交表格。"
+      },
+      {
+        "en": "Using “as follows” helps make instructions sound organised and formal.",
+        "zh": "使用 “as follows” 可以令指示聽起來有條理而正式。"
+      },
+      {
+        "en": "This phrase is usually followed by a list, rule, or explanation.",
+        "zh": "這個說法後面通常接清單、規則或解釋。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "API level",
+    "meaning": "空氣污染指數水平",
+    "examples": [
+      {
+        "en": "The API level will be checked during the event.",
+        "zh": "活動期間會檢查空氣污染指數水平。"
+      },
+      {
+        "en": "API level means the air pollution index level used to show how polluted the air is.",
+        "zh": "API level 指用來顯示空氣污染程度的空氣污染指數水平。"
+      },
+      {
+        "en": "Organisers may check the API level before allowing outdoor sports to continue.",
+        "zh": "主辦方可能在容許戶外運動繼續前檢查空氣污染指數水平。"
+      },
+      {
+        "en": "A high API level can lead to health warnings and changes in outdoor plans.",
+        "zh": "高空氣污染指數水平可能引致健康警告和戶外計劃改動。"
+      },
+      {
+        "en": "This phrase is useful when discussing air quality and safety arrangements.",
+        "zh": "這個說法適合用於討論空氣質素和安全安排。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "during the event",
+    "meaning": "活動期間",
+    "examples": [
+      {
+        "en": "The organisers will monitor the API level during the event.",
+        "zh": "主辦方會在活動期間監察空氣污染指數水平。"
+      },
+      {
+        "en": "During the event means while the event is happening.",
+        "zh": "during the event 指活動正在進行的時候。"
+      },
+      {
+        "en": "Volunteers will guide visitors during the event.",
+        "zh": "義工會在活動期間引導訪客。"
+      },
+      {
+        "en": "If problems happen during the event, staff should report them immediately.",
+        "zh": "如果活動期間發生問題，職員應立即報告。"
+      },
+      {
+        "en": "This phrase clearly marks the time period of an action.",
+        "zh": "這個說法清楚標示某個行動發生的時間段。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "above 200",
+    "meaning": "高於 200",
+    "examples": [
+      {
+        "en": "If the API level is above 200, the match can move indoors.",
+        "zh": "如果空氣污染指數水平高於 200，比賽可以移到室內。"
+      },
+      {
+        "en": "Above 200 means higher than the number 200.",
+        "zh": "above 200 指數字高過 200。"
+      },
+      {
+        "en": "If the temperature rises above 35 degrees, outdoor training may be cancelled.",
+        "zh": "如果氣溫升至高於 35 度，戶外訓練可能會取消。"
+      },
+      {
+        "en": "A number above 200 may trigger a safety rule if that rule uses 200 as the limit.",
+        "zh": "如果某條安全規則以 200 為界線，高於 200 的數字可能會觸發該規則。"
+      },
+      {
+        "en": "This phrase is often used when a measurement passes a fixed level.",
+        "zh": "當某個測量值超過固定水平時，這個說法很常用。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "use an indoor court",
+    "meaning": "使用室內球場",
+    "examples": [
+      {
+        "en": "The organisers can use an indoor court if the air is too polluted.",
+        "zh": "如果空氣污染太嚴重，主辦方可以使用室內球場。"
+      },
+      {
+        "en": "To use an indoor court means to play or hold the match inside a covered sports facility.",
+        "zh": "use an indoor court 指在有上蓋的室內運動設施中比賽或舉行賽事。"
+      },
+      {
+        "en": "The school used an indoor court when heavy rain made the outdoor court unsafe.",
+        "zh": "當大雨令戶外球場不安全時，學校使用了室內球場。"
+      },
+      {
+        "en": "Using an indoor court can protect players from bad weather and poor air quality.",
+        "zh": "使用室內球場可以保護運動員免受惡劣天氣和差空氣質素影響。"
+      },
+      {
+        "en": "This phrase is common in sports event planning.",
+        "zh": "這個說法常見於體育活動規劃。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "indoor court",
+    "meaning": "室內球場",
+    "examples": [
+      {
+        "en": "An indoor court has been booked for poor air conditions.",
+        "zh": "主辦方已為空氣情況差的情況預訂室內球場。"
+      },
+      {
+        "en": "An indoor court is a sports court inside a building.",
+        "zh": "indoor court 指位於建築物內的運動球場。"
+      },
+      {
+        "en": "Tennis, basketball, and badminton can all be played on different types of indoor courts.",
+        "zh": "網球、籃球和羽毛球都可以在不同種類的室內球場進行。"
+      },
+      {
+        "en": "An indoor court is useful when rain, heat, or pollution makes outdoor play difficult.",
+        "zh": "當雨、炎熱或污染令戶外比賽困難時，室內球場很有用。"
+      },
+      {
+        "en": "Booking an indoor court in advance can prevent last-minute problems.",
+        "zh": "提前預訂室內球場可以避免臨時問題。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "in case",
+    "meaning": "以防；萬一",
+    "examples": [
+      {
+        "en": "An indoor court has been booked in case it is too polluted.",
+        "zh": "已經預訂了室內球場，以防污染太嚴重。"
+      },
+      {
+        "en": "In case means to prepare for something that might happen.",
+        "zh": "in case 指為可能發生的事情作準備。"
+      },
+      {
+        "en": "Bring an umbrella in case it rains after school.",
+        "zh": "帶一把傘，以防放學後下雨。"
+      },
+      {
+        "en": "Organisers prepare backup plans in case the original plan becomes unsafe.",
+        "zh": "主辦方會準備後備計劃，以防原本計劃變得不安全。"
+      },
+      {
+        "en": "This phrase is useful when talking about prevention and preparation.",
+        "zh": "這個說法適合用於談論預防和準備。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "too polluted",
+    "meaning": "污染太嚴重",
+    "examples": [
+      {
+        "en": "The organisers will move the match indoors if it is too polluted.",
+        "zh": "如果污染太嚴重，主辦方會把比賽移到室內。"
+      },
+      {
+        "en": "Too polluted means the air, water, or place has too much pollution to be safe or comfortable.",
+        "zh": "too polluted 指空氣、水或地方污染過多，不再安全或舒適。"
+      },
+      {
+        "en": "If the beach is too polluted, people should not swim there.",
+        "zh": "如果沙灘污染太嚴重，人們不應在那裡游泳。"
+      },
+      {
+        "en": "Air that is too polluted can make outdoor sports risky.",
+        "zh": "污染太嚴重的空氣會令戶外運動有風險。"
+      },
+      {
+        "en": "This phrase shows that the pollution has passed an acceptable level.",
+        "zh": "這個說法表示污染已經超過可接受水平。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s right.",
+    "meaning": "沒錯",
+    "examples": [
+      {
+        "en": "Anthony confirms the plan by saying, “That’s right.”",
+        "zh": "Anthony 說「沒錯」來確認計劃。"
+      },
+      {
+        "en": "“That’s right” means what someone just said is correct.",
+        "zh": "“That’s right” 指對方剛才說的是正確的。"
+      },
+      {
+        "en": "If a student repeats the answer accurately, the teacher may say, “That’s right.”",
+        "zh": "如果學生準確重複答案，老師可能會說：「沒錯。」"
+      },
+      {
+        "en": "This phrase is a simple way to confirm information in a conversation.",
+        "zh": "這個說法是在對話中確認資訊的簡單方式。"
+      },
+      {
+        "en": "It can sound warmer than only saying “yes.”",
+        "zh": "它可以比單純說 “yes” 更溫和。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "only use it if",
+    "meaning": "只有在……才使用",
+    "examples": [
+      {
+        "en": "They will only use the indoor court if the API level is above 200.",
+        "zh": "他們只有在空氣污染指數水平高於 200 時才使用室內球場。"
+      },
+      {
+        "en": "Only use it if means use it only under a particular condition.",
+        "zh": "only use it if 指只有在某個特定條件下才使用它。"
+      },
+      {
+        "en": "Only use the emergency exit if there is real danger.",
+        "zh": "只有在真正危險時才使用緊急出口。"
+      },
+      {
+        "en": "Rules with “only use it if” help prevent people from using backup options unnecessarily.",
+        "zh": "帶有 “only use it if” 的規則，可以防止人們不必要地使用後備選項。"
+      },
+      {
+        "en": "This phrase makes the condition for using something very clear.",
+        "zh": "這個說法令使用某物的條件非常清楚。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "all players will appreciate",
+    "meaning": "所有運動員都會欣賞；所有運動員都會感謝",
+    "examples": [
+      {
+        "en": "All players will appreciate the organisers’ safety measures.",
+        "zh": "所有運動員都會欣賞主辦方的安全措施。"
+      },
+      {
+        "en": "All players will appreciate means every player will value or be thankful for something.",
+        "zh": "all players will appreciate 指所有運動員都會重視或感謝某事。"
+      },
+      {
+        "en": "All students will appreciate clear instructions before a difficult exam.",
+        "zh": "在困難考試前，所有學生都會感謝清楚指示。"
+      },
+      {
+        "en": "Players appreciate safety measures because they show that organisers care about their health.",
+        "zh": "運動員會欣賞安全措施，因為這顯示主辦方關心他們的健康。"
+      },
+      {
+        "en": "This phrase is useful when predicting a positive reaction from a whole group.",
+        "zh": "當預測整個群體會有正面反應時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "go the extra mile",
+    "meaning": "額外付出；多走一步",
+    "examples": [
+      {
+        "en": "The organisers are going the extra mile to protect players’ health.",
+        "zh": "主辦方正在額外付出，以保障運動員健康。"
+      },
+      {
+        "en": "To go the extra mile means to do more than what is normally required.",
+        "zh": "go the extra mile 指做得比一般要求更多。"
+      },
+      {
+        "en": "A teacher goes the extra mile when she gives extra help after class.",
+        "zh": "老師課後提供額外幫助，就是額外付出。"
+      },
+      {
+        "en": "Going the extra mile can build trust because people see real effort.",
+        "zh": "額外多走一步可以建立信任，因為人們看見真實努力。"
+      },
+      {
+        "en": "This phrase is often used to praise service, care, or responsibility.",
+        "zh": "這個說法常用來稱讚服務、關心或責任感。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "avoid putting someone’s health in danger",
+    "meaning": "避免危害某人的健康",
+    "examples": [
+      {
+        "en": "The organisers want to avoid putting players’ health in danger.",
+        "zh": "主辦方想避免危害運動員的健康。"
+      },
+      {
+        "en": "To avoid putting someone’s health in danger means to prevent actions or conditions that may harm them.",
+        "zh": "avoid putting someone’s health in danger 指避免會傷害某人健康的行動或情況。"
+      },
+      {
+        "en": "Schools avoid putting children’s health in danger by cancelling outdoor activities during extreme heat.",
+        "zh": "學校在極端炎熱天氣取消戶外活動，以避免危害孩子健康。"
+      },
+      {
+        "en": "If organisers ignore air pollution, they may put players’ health in danger.",
+        "zh": "如果主辦方忽視空氣污染，就可能危害運動員健康。"
+      },
+      {
+        "en": "This phrase is useful when safety is the main concern.",
+        "zh": "當安全是主要關注時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "put someone’s health in danger",
+    "meaning": "危害某人的健康",
+    "examples": [
+      {
+        "en": "Extreme heat and pollution can put players’ health in danger.",
+        "zh": "極端炎熱和污染可能危害運動員健康。"
+      },
+      {
+        "en": "To put someone’s health in danger means to create a risk to their body or well-being.",
+        "zh": "put someone’s health in danger 指對某人的身體或健康造成風險。"
+      },
+      {
+        "en": "Serving unsafe food can put customers’ health in danger.",
+        "zh": "提供不安全食物可能危害顧客健康。"
+      },
+      {
+        "en": "Long working hours without rest may put workers’ health in danger.",
+        "zh": "長時間工作而沒有休息，可能危害工人健康。"
+      },
+      {
+        "en": "This phrase is stronger than saying something is merely uncomfortable.",
+        "zh": "這個說法比單純說某事令人不舒服更強。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "I agree one hundred percent",
+    "meaning": "我百分百同意",
+    "examples": [
+      {
+        "en": "Lara says that she agrees one hundred percent.",
+        "zh": "Lara 說她百分百同意。"
+      },
+      {
+        "en": "“I agree one hundred percent” means I completely agree.",
+        "zh": "“I agree one hundred percent” 指我完全同意。"
+      },
+      {
+        "en": "If a friend says sleep is important before an exam, you may reply, “I agree one hundred percent.”",
+        "zh": "如果朋友說考試前睡眠很重要，你可以回答：「我百分百同意。」"
+      },
+      {
+        "en": "This phrase shows strong support for another person’s opinion.",
+        "zh": "這個說法表示強烈支持對方意見。"
+      },
+      {
+        "en": "It is more emphatic than simply saying “I agree.”",
+        "zh": "它比單純說 “I agree” 更有強調語氣。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "I remember what I was going to say",
+    "meaning": "我記得我剛才想說甚麼了",
+    "examples": [
+      {
+        "en": "Lara remembers what she was going to say about the fans.",
+        "zh": "Lara 記得她剛才想說關於球迷的事情了。"
+      },
+      {
+        "en": "“I remember what I was going to say” means the speaker has recalled a point they nearly forgot.",
+        "zh": "“I remember what I was going to say” 指說話者想起了剛才差點忘記的重點。"
+      },
+      {
+        "en": "In a meeting, someone may say this after being interrupted or distracted.",
+        "zh": "在會議中，有人被打斷或分心後可能會這樣說。"
+      },
+      {
+        "en": "This phrase helps the speaker return to an earlier thought.",
+        "zh": "這個說法幫助說話者回到較早前的想法。"
+      },
+      {
+        "en": "It is natural in spoken English when ideas come back during conversation.",
+        "zh": "在對話中想法重新浮現時，這是自然的英語說法。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "one of my other concerns is",
+    "meaning": "我另一個憂慮是",
+    "examples": [
+      {
+        "en": "One of Lara’s other concerns is the behaviour of the fans.",
+        "zh": "Lara 另一個憂慮是球迷的行為。"
+      },
+      {
+        "en": "One of my other concerns is means I have another worry in addition to the first one.",
+        "zh": "one of my other concerns is 指除了第一個憂慮之外，我還有另一個擔心。"
+      },
+      {
+        "en": "One of my other concerns is whether students will have enough time for lunch.",
+        "zh": "我另一個憂慮是學生是否有足夠時間吃午飯。"
+      },
+      {
+        "en": "This phrase helps people add a new worry without sounding disorganised.",
+        "zh": "這個說法幫助人加入新的憂慮，同時不會顯得混亂。"
+      },
+      {
+        "en": "It is useful when discussing several problems in a calm way.",
+        "zh": "當以冷靜方式討論幾個問題時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "how shall I put this",
+    "meaning": "我該怎樣說才好呢？",
+    "examples": [
+      {
+        "en": "Lara says, “How shall I put this?” before raising a delicate concern.",
+        "zh": "Lara 在提出敏感憂慮前說：「我該怎樣說才好呢？」"
+      },
+      {
+        "en": "“How shall I put this?” means the speaker is thinking of a polite or careful way to say something.",
+        "zh": "“How shall I put this?” 指說話者正在想一個禮貌或謹慎的方式來表達某事。"
+      },
+      {
+        "en": "A manager may say, “How shall I put this?” before giving sensitive feedback.",
+        "zh": "經理在給敏感意見前可能會說：「我該怎樣說才好呢？」"
+      },
+      {
+        "en": "This phrase softens a comment that might sound rude or uncomfortable.",
+        "zh": "這個說法可以緩和可能聽起來無禮或令人不舒服的評論。"
+      },
+      {
+        "en": "It shows the speaker wants to be honest but careful.",
+        "zh": "它顯示說話者想誠實，但也想小心。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the behaviour of the fans",
+    "meaning": "球迷的行為",
+    "examples": [
+      {
+        "en": "Lara is worried about the behaviour of the fans.",
+        "zh": "Lara 擔心球迷的行為。"
+      },
+      {
+        "en": "The behaviour of the fans means how spectators act before, during, or after a match.",
+        "zh": "the behaviour of the fans 指觀眾在比賽前、期間或之後的行為。"
+      },
+      {
+        "en": "Good behaviour from fans includes cheering at suitable times and respecting players.",
+        "zh": "球迷的良好行為包括在合適時間打氣，以及尊重運動員。"
+      },
+      {
+        "en": "Poor behaviour from fans can distract players and damage the atmosphere.",
+        "zh": "球迷的不良行為可能令運動員分心，並破壞氣氛。"
+      },
+      {
+        "en": "This phrase is useful when discussing crowd control and sports etiquette.",
+        "zh": "這個說法適合用於討論人群管理和體育禮儀。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the last time I was in Hong Kong",
+    "meaning": "我上次在香港的時候",
+    "examples": [
+      {
+        "en": "The last time Lara was in Hong Kong, some fans talked loudly during the game.",
+        "zh": "Lara 上次在香港時，有些球迷在比賽期間很大聲說話。"
+      },
+      {
+        "en": "The last time I was in Hong Kong refers to the previous occasion when I visited Hong Kong.",
+        "zh": "the last time I was in Hong Kong 指我上一次到訪香港的時候。"
+      },
+      {
+        "en": "The last time I was in Hong Kong, the weather was much cooler than today.",
+        "zh": "我上次在香港的時候，天氣比今天涼爽得多。"
+      },
+      {
+        "en": "This phrase is useful when comparing a past visit with the current situation.",
+        "zh": "這個說法適合用於比較過往到訪和目前情況。"
+      },
+      {
+        "en": "It helps explain why someone has a particular memory or concern.",
+        "zh": "它幫助解釋某人為何有某個記憶或憂慮。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "talk really loudly during the game",
+    "meaning": "在比賽期間很大聲說話",
+    "examples": [
+      {
+        "en": "Some fans talked really loudly during the game.",
+        "zh": "有些球迷在比賽期間很大聲說話。"
+      },
+      {
+        "en": "To talk really loudly during the game means to speak at a high volume while the match is happening.",
+        "zh": "talk really loudly during the game 指比賽進行時以很大聲量說話。"
+      },
+      {
+        "en": "Students should not talk really loudly during a test because it disturbs others.",
+        "zh": "學生不應在測驗期間很大聲說話，因為會騷擾別人。"
+      },
+      {
+        "en": "Talking loudly during a game can break players’ concentration.",
+        "zh": "在比賽期間大聲說話，可能會破壞運動員的專注。"
+      },
+      {
+        "en": "This phrase describes behaviour that may be rude in quiet sports settings.",
+        "zh": "這個說法描述在安靜體育場景中可能無禮的行為。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "during the game",
+    "meaning": "比賽期間",
+    "examples": [
+      {
+        "en": "The fans were talking loudly during the game.",
+        "zh": "球迷在比賽期間很大聲說話。"
+      },
+      {
+        "en": "During the game means while the match or game is happening.",
+        "zh": "during the game 指比賽正在進行的時候。"
+      },
+      {
+        "en": "Players should stay focused during the game, not think about the next match.",
+        "zh": "運動員在比賽期間應保持專注，不應想著下一場比賽。"
+      },
+      {
+        "en": "If fans make noise during the game, it may affect the players.",
+        "zh": "如果球迷在比賽期間發出噪音，可能會影響運動員。"
+      },
+      {
+        "en": "This phrase clearly marks the time when an action happens.",
+        "zh": "這個說法清楚標示某個行動發生的時間。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "very distracting",
+    "meaning": "非常令人分心",
+    "examples": [
+      {
+        "en": "Loud talking during play is very distracting.",
+        "zh": "比賽進行期間大聲說話非常令人分心。"
+      },
+      {
+        "en": "Very distracting means something strongly takes attention away from what someone is doing.",
+        "zh": "very distracting 指某事嚴重分散某人的注意力。"
+      },
+      {
+        "en": "A ringing phone can be very distracting during a lesson.",
+        "zh": "上課期間電話響起會非常令人分心。"
+      },
+      {
+        "en": "If a player finds the crowd very distracting, their performance may suffer.",
+        "zh": "如果運動員覺得觀眾非常令人分心，表現可能會受影響。"
+      },
+      {
+        "en": "This phrase is useful when explaining why quiet or focus is needed.",
+        "zh": "當解釋為何需要安靜或專注時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "You know what I mean?",
+    "meaning": "你明白我的意思嗎？",
+    "examples": [
+      {
+        "en": "Lara asks, “You know what I mean?” after explaining the problem.",
+        "zh": "Lara 解釋問題後問：「你明白我的意思嗎？」"
+      },
+      {
+        "en": "“You know what I mean?” checks whether the listener understands the speaker’s point.",
+        "zh": "“You know what I mean?” 用來確認聽者是否明白說話者的意思。"
+      },
+      {
+        "en": "People often use this phrase after describing something difficult to explain.",
+        "zh": "人們常在描述難以解釋的事情後使用這個說法。"
+      },
+      {
+        "en": "It can make a conversation feel more natural and interactive.",
+        "zh": "它可以令對話感覺更自然、更有互動。"
+      },
+      {
+        "en": "In formal writing, it is usually better to explain the point clearly instead of using this phrase.",
+        "zh": "在正式寫作中，通常最好清楚解釋重點，而不是使用這個說法。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "not the majority",
+    "meaning": "不是大多數",
+    "examples": [
+      {
+        "en": "Lara knows that noisy fans are not the majority.",
+        "zh": "Lara 知道吵鬧球迷不是大多數。"
+      },
+      {
+        "en": "Not the majority means they are not most of the group.",
+        "zh": "not the majority 指他們不是群體中的大部分人。"
+      },
+      {
+        "en": "A few late students are not the majority of the class.",
+        "zh": "少數遲到學生不是班上的大多數。"
+      },
+      {
+        "en": "Saying a group is not the majority can prevent unfairly blaming everyone.",
+        "zh": "說某群人不是大多數，可以避免不公平地責怪所有人。"
+      },
+      {
+        "en": "This phrase is useful when separating a small group from the whole group.",
+        "zh": "當要把少數人和整個群體分開時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "we get it",
+    "meaning": "我們明白",
+    "examples": [
+      {
+        "en": "Anthony says, “We get it,” after Lara explains the issue.",
+        "zh": "Lara 解釋問題後，Anthony 說：「我們明白。」"
+      },
+      {
+        "en": "“We get it” means we understand what you mean.",
+        "zh": "“We get it” 指我們明白你的意思。"
+      },
+      {
+        "en": "If a customer explains why the delay is stressful, staff may say, “We get it.”",
+        "zh": "如果顧客解釋延誤為何令人有壓力，職員可能會說：「我們明白。」"
+      },
+      {
+        "en": "This phrase can show sympathy and understanding in a simple way.",
+        "zh": "這個說法可以用簡單方式表示同理和理解。"
+      },
+      {
+        "en": "It is casual, so “we understand” may be better in very formal writing.",
+        "zh": "它比較口語，所以在非常正式寫作中，we understand 可能更合適。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "receive a letter from",
+    "meaning": "收到來自……的信",
+    "examples": [
+      {
+        "en": "The organisers received a letter from a fan on this topic.",
+        "zh": "主辦方收到一封來自球迷、關於這個題目的信。"
+      },
+      {
+        "en": "To receive a letter from someone means to get a written message sent by that person.",
+        "zh": "receive a letter from someone 指收到某人寄來的書面訊息。"
+      },
+      {
+        "en": "The school received a letter from a parent about lunch arrangements.",
+        "zh": "學校收到一封來自家長、關於午餐安排的信。"
+      },
+      {
+        "en": "Receiving a letter from a fan can show organisers what spectators care about.",
+        "zh": "收到來自球迷的信，可以讓主辦方知道觀眾關心甚麼。"
+      },
+      {
+        "en": "This phrase is useful when identifying the source of written feedback.",
+        "zh": "當指出書面意見來源時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "on this very topic",
+    "meaning": "正正關於這個題目",
+    "examples": [
+      {
+        "en": "The organisers received a letter on this very topic.",
+        "zh": "主辦方收到一封正正關於這個題目的信。"
+      },
+      {
+        "en": "On this very topic means about exactly the same subject being discussed now.",
+        "zh": "on this very topic 指正正關於現在正在討論的同一個題目。"
+      },
+      {
+        "en": "The newspaper published an article on this very topic last week.",
+        "zh": "報章上星期刊登了一篇正正關於這個題目的文章。"
+      },
+      {
+        "en": "This phrase shows that the current concern is not new or unrelated.",
+        "zh": "這個說法顯示目前的憂慮並不是新的或無關的。"
+      },
+      {
+        "en": "It can make the speaker’s point feel more relevant and timely.",
+        "zh": "它可以令說話者的重點顯得更相關、更及時。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "break the rules",
+    "meaning": "違反規則",
+    "examples": [
+      {
+        "en": "Any fan who breaks the rules will be removed from the venue.",
+        "zh": "任何違反規則的球迷都會被帶離場地。"
+      },
+      {
+        "en": "To break the rules means to do something that is not allowed.",
+        "zh": "break the rules 指做了不被容許的事情。"
+      },
+      {
+        "en": "Students who break the rules during an exam may lose marks or face punishment.",
+        "zh": "在考試期間違反規則的學生可能會被扣分或受處分。"
+      },
+      {
+        "en": "Clear rules make it easier to know when someone has broken them.",
+        "zh": "清楚規則可以讓人更容易知道某人是否違規。"
+      },
+      {
+        "en": "This phrase is common in schools, sports, workplaces, and public places.",
+        "zh": "這個說法常見於學校、體育、工作場所和公共地方。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "concerning making noise",
+    "meaning": "關於發出噪音的",
+    "examples": [
+      {
+        "en": "The rules concerning making noise will be enforced.",
+        "zh": "關於發出噪音的規則將會被執行。"
+      },
+      {
+        "en": "Concerning making noise means related to the issue of making noise.",
+        "zh": "concerning making noise 指與發出噪音這個問題有關。"
+      },
+      {
+        "en": "The school sent parents a notice concerning making noise near exam rooms.",
+        "zh": "學校向家長發出一份關於在試場附近發出噪音的通告。"
+      },
+      {
+        "en": "Rules concerning making noise are important in places where people need silence.",
+        "zh": "在需要安靜的地方，關於發出噪音的規則很重要。"
+      },
+      {
+        "en": "This phrase is formal and often appears in written notices.",
+        "zh": "這個說法較正式，常見於書面通告。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "during play",
+    "meaning": "比賽進行期間",
+    "examples": [
+      {
+        "en": "Fans must not make noise during play.",
+        "zh": "球迷不得在比賽進行期間發出噪音。"
+      },
+      {
+        "en": "During play means while the ball is in action or while the game is actively continuing.",
+        "zh": "during play 指球正在運行或比賽正積極進行時。"
+      },
+      {
+        "en": "In tennis, silence during play helps players concentrate.",
+        "zh": "在網球中，比賽進行期間保持安靜有助運動員集中。"
+      },
+      {
+        "en": "If spectators shout during play, the referee may warn them.",
+        "zh": "如果觀眾在比賽進行期間大叫，裁判可能會警告他們。"
+      },
+      {
+        "en": "This phrase is often used in sports rules.",
+        "zh": "這個說法常用於體育規則。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "be removed from the venue",
+    "meaning": "被帶離場地",
+    "examples": [
+      {
+        "en": "Noisy fans will be removed from the venue.",
+        "zh": "吵鬧的球迷會被帶離場地。"
+      },
+      {
+        "en": "To be removed from the venue means to be taken out of the place where the event is held.",
+        "zh": "be removed from the venue 指被帶離活動舉行的地方。"
+      },
+      {
+        "en": "A person who behaves aggressively may be removed from the venue by security staff.",
+        "zh": "行為具攻擊性的人可能會被保安人員帶離場地。"
+      },
+      {
+        "en": "Removing rule-breakers from the venue can protect other people’s experience.",
+        "zh": "把違規者帶離場地，可以保障其他人的體驗。"
+      },
+      {
+        "en": "This phrase is common in event rules and safety announcements.",
+        "zh": "這個說法常見於活動規則和安全公告。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "venue",
+    "meaning": "場地",
+    "examples": [
+      {
+        "en": "Fans who break the rules will be removed from the venue.",
+        "zh": "違反規則的球迷會被帶離場地。"
+      },
+      {
+        "en": "A venue is the place where an event, meeting, concert, or match happens.",
+        "zh": "venue 指活動、會議、音樂會或比賽舉行的地方。"
+      },
+      {
+        "en": "The school hall is a suitable venue for a graduation ceremony.",
+        "zh": "學校禮堂是畢業典禮的合適場地。"
+      },
+      {
+        "en": "Choosing the right venue can make an event safer and easier to manage.",
+        "zh": "選擇合適場地可以令活動更安全、更容易管理。"
+      },
+      {
+        "en": "This word is common in event planning.",
+        "zh": "這個字常用於活動策劃。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "be interested to see how that goes",
+    "meaning": "會有興趣看看事情進展如何",
+    "examples": [
+      {
+        "en": "Lara will be interested to see how the new rule goes.",
+        "zh": "Lara 會有興趣看看新規則進展如何。"
+      },
+      {
+        "en": "To be interested to see how that goes means to want to know how a plan works out in practice.",
+        "zh": "be interested to see how that goes 指想知道一個計劃在實際執行後效果如何。"
+      },
+      {
+        "en": "After a school introduces a new lunch system, parents may be interested to see how that goes.",
+        "zh": "學校引入新午餐制度後，家長可能會有興趣看看事情進展如何。"
+      },
+      {
+        "en": "This phrase shows curiosity, but not complete confidence yet.",
+        "zh": "這個說法表示好奇，但未必表示完全有信心。"
+      },
+      {
+        "en": "It is useful when a new rule, idea, or system is being tested.",
+        "zh": "當新規則、想法或制度正在試行時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "hopefully help this year",
+    "meaning": "希望今年會有幫助",
+    "examples": [
+      {
+        "en": "The new ticketing system will hopefully help this year.",
+        "zh": "新訂票制度希望今年會有幫助。"
+      },
+      {
+        "en": "Hopefully help this year means people expect something to improve the situation this year.",
+        "zh": "hopefully help this year 指人們期望某事今年能改善情況。"
+      },
+      {
+        "en": "Extra revision classes will hopefully help students this year.",
+        "zh": "額外溫習課希望今年會幫到學生。"
+      },
+      {
+        "en": "If a new plan hopefully helps this year, people will watch the results carefully.",
+        "zh": "如果新計劃希望今年會有幫助，人們會仔細觀察結果。"
+      },
+      {
+        "en": "This phrase shows hope without promising success.",
+        "zh": "這個說法表達希望，但不是保證成功。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "introduce a system whereby",
+    "meaning": "引入一套制度，讓……",
+    "examples": [
+      {
+        "en": "The organisers have introduced a system whereby local club members get priority.",
+        "zh": "主辦方引入一套制度，讓本地網球會會員享有優先權。"
+      },
+      {
+        "en": "To introduce a system whereby something happens means to create a system in which that thing is possible or required.",
+        "zh": "introduce a system whereby something happens 指建立一套制度，讓某事可以或必須發生。"
+      },
+      {
+        "en": "The school introduced a system whereby students book library seats online.",
+        "zh": "學校引入一套制度，讓學生在網上預訂圖書館座位。"
+      },
+      {
+        "en": "A system whereby members get priority can reward people who support the activity regularly.",
+        "zh": "讓會員享有優先權的制度，可以回饋經常支持活動的人。"
+      },
+      {
+        "en": "This phrase is formal and useful for explaining policies.",
+        "zh": "這個說法較正式，適合用於解釋政策。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "local tennis clubs",
+    "meaning": "本地網球會",
+    "examples": [
+      {
+        "en": "Members of local tennis clubs will get priority in booking tickets.",
+        "zh": "本地網球會會員在訂票時將享有優先權。"
+      },
+      {
+        "en": "Local tennis clubs are tennis groups or organisations based in the local community.",
+        "zh": "local tennis clubs 指設於本地社區的網球團體或組織。"
+      },
+      {
+        "en": "Local tennis clubs may train young players and organise friendly matches.",
+        "zh": "本地網球會可能訓練年輕球員，並舉辦友誼賽。"
+      },
+      {
+        "en": "Supporting local tennis clubs can help develop the sport in the community.",
+        "zh": "支持本地網球會可以幫助社區發展這項運動。"
+      },
+      {
+        "en": "This phrase refers to clubs nearby, not international organisations.",
+        "zh": "這個說法指附近或本地的球會，不是國際組織。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "get priority in booking tickets",
+    "meaning": "優先訂票",
+    "examples": [
+      {
+        "en": "Local tennis club members get priority in booking tickets.",
+        "zh": "本地網球會會員可優先訂票。"
+      },
+      {
+        "en": "To get priority in booking tickets means to have the chance to book before other people.",
+        "zh": "get priority in booking tickets 指比其他人更早獲得訂票機會。"
+      },
+      {
+        "en": "Club members may get priority in booking tickets for popular concerts.",
+        "zh": "會員可能可優先訂購熱門音樂會門票。"
+      },
+      {
+        "en": "Giving priority in booking tickets can make loyal supporters feel valued.",
+        "zh": "提供優先訂票權，可以令忠實支持者感到被重視。"
+      },
+      {
+        "en": "This phrase is useful when discussing ticketing systems and membership benefits.",
+        "zh": "這個說法適合用於討論售票制度和會員福利。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "real fans",
+    "meaning": "真正的球迷",
+    "examples": [
+      {
+        "en": "The new system should help real fans get tickets.",
+        "zh": "新制度應該可以幫助真正的球迷買到門票。"
+      },
+      {
+        "en": "Real fans are people who genuinely care about the sport, player, or event.",
+        "zh": "real fans 指真心關心某項運動、球員或活動的人。"
+      },
+      {
+        "en": "Real fans often support a team even when it loses.",
+        "zh": "真正的球迷即使球隊輸了，也常會繼續支持。"
+      },
+      {
+        "en": "If real fans cannot get tickets, the atmosphere at the event may suffer.",
+        "zh": "如果真正的球迷買不到門票，活動氣氛可能會受影響。"
+      },
+      {
+        "en": "This phrase contrasts genuine supporters with people who only want profit or attention.",
+        "zh": "這個說法把真心支持者與只追求利益或注意的人作對比。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "a bit of support for",
+    "meaning": "對……的一點支持",
+    "examples": [
+      {
+        "en": "The system gives a bit of support for local tennis.",
+        "zh": "這套制度給予本地網球一點支持。"
+      },
+      {
+        "en": "A bit of support for something means some help or encouragement for it.",
+        "zh": "a bit of support for something 指對某事提供一些幫助或鼓勵。"
+      },
+      {
+        "en": "Buying from small shops gives a bit of support for the local economy.",
+        "zh": "向小店購物，就是對本地經濟的一點支持。"
+      },
+      {
+        "en": "Even a small discount can give a bit of support for families under financial pressure.",
+        "zh": "即使小小折扣，也可以給予有財政壓力的家庭一點支持。"
+      },
+      {
+        "en": "This phrase suggests help that is useful, though not huge.",
+        "zh": "這個說法表示幫助有用，但不一定很大。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "local tennis",
+    "meaning": "本地網球",
+    "examples": [
+      {
+        "en": "The organisers want to support local tennis.",
+        "zh": "主辦方想支持本地網球。"
+      },
+      {
+        "en": "Local tennis means tennis activities, players, clubs, and development in the local area.",
+        "zh": "local tennis 指本地區域內的網球活動、球員、球會和發展。"
+      },
+      {
+        "en": "Local tennis can grow when young people have affordable places to practise.",
+        "zh": "當年輕人有負擔得起的地方練習，本地網球就能發展。"
+      },
+      {
+        "en": "Supporting local tennis may create more future players and coaches.",
+        "zh": "支持本地網球可能培養更多未來球員和教練。"
+      },
+      {
+        "en": "This phrase focuses on the sport at community level.",
+        "zh": "這個說法聚焦於社區層面的網球運動。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "Would you be willing to",
+    "meaning": "你是否願意……",
+    "examples": [
+      {
+        "en": "Anthony asks whether Lara would be willing to meet young fans.",
+        "zh": "Anthony 問 Lara 是否願意與年輕球迷見面。"
+      },
+      {
+        "en": "“Would you be willing to…” is a polite way to ask if someone agrees to do something.",
+        "zh": "“Would you be willing to…” 是禮貌地詢問某人是否同意做某事的說法。"
+      },
+      {
+        "en": "Would you be willing to help new students on the first day of school?",
+        "zh": "你是否願意在開學第一天幫助新生？"
+      },
+      {
+        "en": "This question sounds respectful because it gives the person a choice.",
+        "zh": "這個問題聽起來尊重，因為它給對方選擇。"
+      },
+      {
+        "en": "It is softer than saying, “You must do this.”",
+        "zh": "它比說 “You must do this” 更柔和。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "spend some time doing something",
+    "meaning": "花一些時間做某事",
+    "examples": [
+      {
+        "en": "Lara may spend some time meeting and teaching young fans.",
+        "zh": "Lara 可能會花一些時間與年輕球迷見面並教導他們。"
+      },
+      {
+        "en": "To spend some time doing something means to use part of your time for that activity.",
+        "zh": "spend some time doing something 指用一部分時間做某項活動。"
+      },
+      {
+        "en": "Students should spend some time reading every day to build vocabulary.",
+        "zh": "學生應每天花一些時間閱讀，以建立詞彙量。"
+      },
+      {
+        "en": "Spending time teaching young fans can make an event more meaningful.",
+        "zh": "花時間教導年輕球迷，可以令活動更有意義。"
+      },
+      {
+        "en": "This phrase is useful for talking about time use and effort.",
+        "zh": "這個說法適合用於談論時間運用和付出。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "meet and teach",
+    "meaning": "見面並教導",
+    "examples": [
+      {
+        "en": "Lara is invited to meet and teach her young Hong Kong fans.",
+        "zh": "Lara 受邀與她的年輕香港球迷見面並教導他們。"
+      },
+      {
+        "en": "To meet and teach someone means to spend time with them and give them guidance or instruction.",
+        "zh": "meet and teach someone 指與某人見面，並給予指導或教學。"
+      },
+      {
+        "en": "A famous chef may meet and teach young students at a cooking workshop.",
+        "zh": "一位著名廚師可能在烹飪工作坊與年輕學生見面並教導他們。"
+      },
+      {
+        "en": "Meeting and teaching fans can turn a sports event into a learning experience.",
+        "zh": "與球迷見面並教導他們，可以把體育活動變成學習體驗。"
+      },
+      {
+        "en": "This phrase combines personal interaction with practical learning.",
+        "zh": "這個說法結合個人互動和實際學習。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "young Hong Kong fans",
+    "meaning": "年輕香港球迷",
+    "examples": [
+      {
+        "en": "Lara is willing to meet her young Hong Kong fans.",
+        "zh": "Lara 願意與她的年輕香港球迷見面。"
+      },
+      {
+        "en": "Young Hong Kong fans are young supporters from Hong Kong.",
+        "zh": "young Hong Kong fans 指來自香港的年輕支持者。"
+      },
+      {
+        "en": "Young Hong Kong fans may feel inspired when they meet an international player.",
+        "zh": "年輕香港球迷見到國際球員時，可能會受到鼓舞。"
+      },
+      {
+        "en": "Meeting young Hong Kong fans can help promote tennis among teenagers.",
+        "zh": "與年輕香港球迷見面，可以幫助在青少年之中推廣網球。"
+      },
+      {
+        "en": "This phrase identifies both the age group and the place they come from.",
+        "zh": "這個說法同時指出年齡群體和來源地。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "organise a Tennis Activity Day",
+    "meaning": "舉辦網球活動日",
+    "examples": [
+      {
+        "en": "The team is organising a Tennis Activity Day.",
+        "zh": "團隊正在舉辦網球活動日。"
+      },
+      {
+        "en": "To organise a Tennis Activity Day means to plan a special day of tennis-related activities.",
+        "zh": "organise a Tennis Activity Day 指策劃一個與網球相關的特別活動日。"
+      },
+      {
+        "en": "A school may organise a Tennis Activity Day to introduce students to the sport.",
+        "zh": "學校可能舉辦網球活動日，向學生介紹這項運動。"
+      },
+      {
+        "en": "Organising a Tennis Activity Day requires coaches, equipment, a venue, and a clear schedule.",
+        "zh": "舉辦網球活動日需要教練、器材、場地和清楚時間表。"
+      },
+      {
+        "en": "This phrase is useful when talking about sports promotion events.",
+        "zh": "這個說法適合用於談論體育推廣活動。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "I’d love to",
+    "meaning": "我很樂意",
+    "examples": [
+      {
+        "en": "Lara says she’d love to join the Tennis Activity Day.",
+        "zh": "Lara 說她很樂意參加網球活動日。"
+      },
+      {
+        "en": "“I’d love to” means I would be very happy to do it.",
+        "zh": "“I’d love to” 指我非常樂意做這件事。"
+      },
+      {
+        "en": "If a friend invites you to dinner, you may say, “I’d love to.”",
+        "zh": "如果朋友邀請你吃晚飯，你可以說：「我很樂意。」"
+      },
+      {
+        "en": "This phrase sounds warmer and more enthusiastic than simply saying “yes.”",
+        "zh": "這個說法比單純說 “yes” 更溫暖、更熱情。"
+      },
+      {
+        "en": "It is useful when accepting an invitation politely.",
+        "zh": "它適合用於禮貌地接受邀請。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "sounds fun",
+    "meaning": "聽起來有趣",
+    "examples": [
+      {
+        "en": "The Tennis Activity Day sounds fun to Lara.",
+        "zh": "網球活動日對 Lara 來說聽起來有趣。"
+      },
+      {
+        "en": "Sounds fun means an activity seems enjoyable or interesting.",
+        "zh": "sounds fun 指某項活動聽起來令人愉快或有意思。"
+      },
+      {
+        "en": "A picnic with games and music sounds fun.",
+        "zh": "有遊戲和音樂的野餐聽起來很有趣。"
+      },
+      {
+        "en": "When something sounds fun, people may be more willing to join.",
+        "zh": "當某事聽起來有趣，人們可能更願意參加。"
+      },
+      {
+        "en": "This phrase is casual and positive.",
+        "zh": "這個說法口語而正面。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "send us the details",
+    "meaning": "把詳情發給我們",
+    "examples": [
+      {
+        "en": "Lara asks Anthony to send them the details.",
+        "zh": "Lara 請 Anthony 把詳情發給他們。"
+      },
+      {
+        "en": "To send us the details means to give us the full information, usually by email or message.",
+        "zh": "send us the details 指把完整資料發給我們，通常透過電郵或訊息。"
+      },
+      {
+        "en": "Please send us the details about the time, place, and fee.",
+        "zh": "請把時間、地點和費用的詳情發給我們。"
+      },
+      {
+        "en": "If organisers send the details early, participants can prepare properly.",
+        "zh": "如果主辦方提早發出詳情，參加者就能適當準備。"
+      },
+      {
+        "en": "This phrase is common when people need clear information before making plans.",
+        "zh": "當人們在計劃前需要清楚資料時，這個說法很常用。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "participants",
+    "meaning": "參加者",
+    "examples": [
+      {
+        "en": "Lara asks how old the participants are.",
+        "zh": "Lara 詢問參加者的年齡。"
+      },
+      {
+        "en": "Participants are people who take part in an activity, event, or programme.",
+        "zh": "participants 指參與活動、事件或計劃的人。"
+      },
+      {
+        "en": "The participants in the workshop received a name tag and a worksheet.",
+        "zh": "工作坊的參加者收到名牌和工作紙。"
+      },
+      {
+        "en": "If participants are young, organisers should give clearer instructions and more supervision.",
+        "zh": "如果參加者年紀較小，主辦方應給予更清楚指示和更多監督。"
+      },
+      {
+        "en": "This word is useful in event planning, school activities, and competitions.",
+        "zh": "這個字適合用於活動策劃、學校活動和比賽。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "age requirement",
+    "meaning": "年齡要求",
+    "examples": [
+      {
+        "en": "The activity has an age requirement for the children.",
+        "zh": "這項活動對孩子有年齡要求。"
+      },
+      {
+        "en": "An age requirement is a rule about how old someone must be to join or qualify.",
+        "zh": "age requirement 指關於參加者必須達到某個年齡的規則。"
+      },
+      {
+        "en": "The swimming class has an age requirement because younger children need different safety support.",
+        "zh": "游泳班有年齡要求，因為較年幼孩子需要不同安全支援。"
+      },
+      {
+        "en": "Age requirements help organisers choose activities suitable for the group.",
+        "zh": "年齡要求幫助主辦方選擇適合該群體的活動。"
+      },
+      {
+        "en": "This phrase is common in courses, competitions, jobs, and events.",
+        "zh": "這個說法常見於課程、比賽、工作和活動。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "between twelve and sixteen",
+    "meaning": "介乎十二至十六歲",
+    "examples": [
+      {
+        "en": "The children have to be between twelve and sixteen.",
+        "zh": "孩子必須介乎十二至十六歲。"
+      },
+      {
+        "en": "Between twelve and sixteen means not younger than twelve and not older than sixteen.",
+        "zh": "between twelve and sixteen 指不小於十二歲，也不大於十六歲。"
+      },
+      {
+        "en": "The camp is open to students between twelve and sixteen.",
+        "zh": "這個營隊開放予介乎十二至十六歲的學生參加。"
+      },
+      {
+        "en": "If participants must be between twelve and sixteen, younger children cannot join this round.",
+        "zh": "如果參加者必須介乎十二至十六歲，較年幼孩子今次不能參加。"
+      },
+      {
+        "en": "This phrase is useful when setting an age range.",
+        "zh": "這個說法適合用於設定年齡範圍。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "twelve to sixteen years old",
+    "meaning": "十二至十六歲",
+    "examples": [
+      {
+        "en": "The participants must be twelve to sixteen years old.",
+        "zh": "參加者必須是十二至十六歲。"
+      },
+      {
+        "en": "Twelve to sixteen years old describes an age range from age twelve through age sixteen.",
+        "zh": "twelve to sixteen years old 指十二歲至十六歲的年齡範圍。"
+      },
+      {
+        "en": "The reading club is designed for teenagers who are twelve to sixteen years old.",
+        "zh": "這個閱讀小組是為十二至十六歲的青少年設計的。"
+      },
+      {
+        "en": "Activities for twelve to sixteen-year-olds should match their maturity and energy level.",
+        "zh": "為十二至十六歲人士設計的活動，應配合他們的成熟程度和精力。"
+      },
+      {
+        "en": "This phrase is common in notices for youth programmes.",
+        "zh": "這個說法常見於青少年活動通告。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "take part",
+    "meaning": "參加",
+    "examples": [
+      {
+        "en": "Many teenagers want to take part in the activity.",
+        "zh": "許多青少年想參加這項活動。"
+      },
+      {
+        "en": "To take part means to join or participate in an activity.",
+        "zh": "take part 指參與或加入某項活動。"
+      },
+      {
+        "en": "Students can take part in the debate competition if they register before Friday.",
+        "zh": "學生如果在星期五前報名，就可以參加辯論比賽。"
+      },
+      {
+        "en": "Taking part in activities helps young people build confidence and meet others.",
+        "zh": "參加活動可以幫助年輕人建立信心和認識別人。"
+      },
+      {
+        "en": "This phrase is more formal than “join in.”",
+        "zh": "這個說法比 “join in” 較正式。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "be happy to do that",
+    "meaning": "很樂意這樣做",
+    "examples": [
+      {
+        "en": "Lara says she would be happy to help select the participants.",
+        "zh": "Lara 說她很樂意幫忙挑選參加者。"
+      },
+      {
+        "en": "To be happy to do that means to be willing and pleased to do it.",
+        "zh": "be happy to do that 指願意而且樂意做那件事。"
+      },
+      {
+        "en": "I would be happy to explain the instructions again if anyone is confused.",
+        "zh": "如果有人不明白，我很樂意再次解釋指示。"
+      },
+      {
+        "en": "This phrase sounds polite and cooperative when accepting a request.",
+        "zh": "這個說法在接受請求時聽起來禮貌而合作。"
+      },
+      {
+        "en": "It is useful in emails, meetings, and customer service conversations.",
+        "zh": "它適合用於電郵、會議和客戶服務對話。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "let me know the details later",
+    "meaning": "稍後告訴我詳情",
+    "examples": [
+      {
+        "en": "Lara asks Anthony to let her know the details later.",
+        "zh": "Lara 請 Anthony 稍後告訴她詳情。"
+      },
+      {
+        "en": "Let me know the details later means tell me the full information at a later time.",
+        "zh": "let me know the details later 指稍後把完整資料告訴我。"
+      },
+      {
+        "en": "Please let me know the details later when the schedule is confirmed.",
+        "zh": "時間表確認後，請稍後告訴我詳情。"
+      },
+      {
+        "en": "This phrase is useful when the information is not ready yet.",
+        "zh": "當資料尚未準備好時，這個說法很有用。"
+      },
+      {
+        "en": "It shows that the speaker is interested but does not need the answer immediately.",
+        "zh": "它表示說話者有興趣，但不需要立即得到答案。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the other thing I wanted to talk to you about",
+    "meaning": "我想跟你談的另一件事是",
+    "examples": [
+      {
+        "en": "The other thing Anthony wanted to talk about was the donations.",
+        "zh": "Anthony 想談的另一件事是捐款。"
+      },
+      {
+        "en": "“The other thing I wanted to talk to you about” introduces another topic the speaker planned to discuss.",
+        "zh": "“The other thing I wanted to talk to you about” 用來引入說話者原本打算討論的另一個題目。"
+      },
+      {
+        "en": "The other thing I wanted to talk to you about is next month’s timetable.",
+        "zh": "我想跟你談的另一件事是下個月的時間表。"
+      },
+      {
+        "en": "This phrase helps move from one topic to another smoothly.",
+        "zh": "這個說法幫助對話順暢地由一個題目轉到另一個題目。"
+      },
+      {
+        "en": "It sounds natural in meetings when several items must be covered.",
+        "zh": "當會議有幾個事項要處理時，這個說法很自然。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "donations to",
+    "meaning": "給……的捐款",
+    "examples": [
+      {
+        "en": "Anthony wants to discuss the donations to two Hong Kong charities.",
+        "zh": "Anthony 想討論給兩間香港慈善機構的捐款。"
+      },
+      {
+        "en": "Donations to an organisation are money, goods, or support given to help it.",
+        "zh": "donations to an organisation 指給予某機構以提供幫助的金錢、物資或支援。"
+      },
+      {
+        "en": "The company made donations to local schools after the charity run.",
+        "zh": "公司在慈善跑後向本地學校作出捐款。"
+      },
+      {
+        "en": "Donations to charities can fund services, equipment, or community programmes.",
+        "zh": "給慈善機構的捐款可以資助服務、設備或社區計劃。"
+      },
+      {
+        "en": "This phrase clearly shows who receives the support.",
+        "zh": "這個說法清楚指出誰是支援的接受者。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "Hong Kong charities",
+    "meaning": "香港慈善機構",
+    "examples": [
+      {
+        "en": "The donations will go to two Hong Kong charities.",
+        "zh": "捐款將會給兩間香港慈善機構。"
+      },
+      {
+        "en": "Hong Kong charities are charitable organisations based in Hong Kong or serving people there.",
+        "zh": "Hong Kong charities 指設於香港或服務香港人的慈善組織。"
+      },
+      {
+        "en": "Hong Kong charities may support children, refugees, older people, or low-income families.",
+        "zh": "香港慈善機構可能支援兒童、難民、長者或低收入家庭。"
+      },
+      {
+        "en": "Donations to Hong Kong charities can help local communities directly.",
+        "zh": "給香港慈善機構的捐款可以直接幫助本地社區。"
+      },
+      {
+        "en": "This phrase identifies both the type of organisation and its location.",
+        "zh": "這個說法同時指出機構類型和所在地。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "Refugee Sanctuary",
+    "meaning": "Refugee Sanctuary 慈善機構",
+    "examples": [
+      {
+        "en": "Refugee Sanctuary is one of the charities mentioned in the meeting.",
+        "zh": "Refugee Sanctuary 是會議中提到的慈善機構之一。"
+      },
+      {
+        "en": "Refugee Sanctuary is the name of a charity discussed by Anthony, Victor, and Lara.",
+        "zh": "Refugee Sanctuary 是 Anthony、Victor 和 Lara 討論的一間慈善機構名稱。"
+      },
+      {
+        "en": "A charity such as Refugee Sanctuary may support people who have had to leave their home country.",
+        "zh": "像 Refugee Sanctuary 這樣的慈善機構，可能支援被迫離開自己國家的人。"
+      },
+      {
+        "en": "Before donating to Refugee Sanctuary, the players looked at the details of the charity.",
+        "zh": "在向 Refugee Sanctuary 捐款前，球員查看了該慈善機構的詳情。"
+      },
+      {
+        "en": "This name should be kept in English because it is the organisation’s proper name.",
+        "zh": "這個名稱應保留英文，因為它是機構專有名稱。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "Change Young Lives",
+    "meaning": "Change Young Lives 慈善機構",
+    "examples": [
+      {
+        "en": "Change Young Lives is one of the charities mentioned in the meeting.",
+        "zh": "Change Young Lives 是會議中提到的慈善機構之一。"
+      },
+      {
+        "en": "Change Young Lives is the name of a charity discussed in the donation plan.",
+        "zh": "Change Young Lives 是捐款計劃中討論的一間慈善機構名稱。"
+      },
+      {
+        "en": "A charity called Change Young Lives may focus on helping children or teenagers improve their future.",
+        "zh": "名為 Change Young Lives 的慈善機構，可能專注於幫助兒童或青少年改善未來。"
+      },
+      {
+        "en": "Donating to Change Young Lives can be part of a player’s community support work.",
+        "zh": "向 Change Young Lives 捐款，可以成為球員社區支援工作的一部分。"
+      },
+      {
+        "en": "This name should be kept in English because it is a proper name.",
+        "zh": "這個名稱應保留英文，因為它是專有名稱。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "look at the details of",
+    "meaning": "查看……的詳情",
+    "examples": [
+      {
+        "en": "Victor has looked at the details of the charities.",
+        "zh": "Victor 已經查看了那些慈善機構的詳情。"
+      },
+      {
+        "en": "To look at the details of something means to examine the information carefully.",
+        "zh": "look at the details of something 指仔細查看某事的資料。"
+      },
+      {
+        "en": "Before joining a course, students should look at the details of the timetable and fees.",
+        "zh": "參加課程前，學生應查看時間表和費用的詳情。"
+      },
+      {
+        "en": "Looking at the details of a charity helps donors understand how money may be used.",
+        "zh": "查看慈善機構的詳情，可以幫助捐款者了解款項可能如何使用。"
+      },
+      {
+        "en": "This phrase is useful before making decisions or commitments.",
+        "zh": "在作決定或承諾之前，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "go ahead with",
+    "meaning": "繼續進行；落實",
+    "examples": [
+      {
+        "en": "Victor says they would like to go ahead with making the donation.",
+        "zh": "Victor 說他們想落實捐款。"
+      },
+      {
+        "en": "To go ahead with something means to continue with a plan after deciding to do it.",
+        "zh": "go ahead with something 指決定做某事後繼續推行計劃。"
+      },
+      {
+        "en": "The school will go ahead with the picnic if the weather is safe.",
+        "zh": "如果天氣安全，學校會繼續舉行野餐。"
+      },
+      {
+        "en": "Once people go ahead with a plan, they usually start arranging the practical details.",
+        "zh": "一旦人們落實計劃，通常就會開始安排實際細節。"
+      },
+      {
+        "en": "This phrase suggests approval and action.",
+        "zh": "這個說法帶有批准和行動的意思。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "make the donation to",
+    "meaning": "向……作出捐款",
+    "examples": [
+      {
+        "en": "They would like to make the donation to both charities.",
+        "zh": "他們想向兩間慈善機構作出捐款。"
+      },
+      {
+        "en": "To make the donation to someone means to give money or support to that person or organisation.",
+        "zh": "make the donation to someone 指向某人或某機構提供金錢或支援。"
+      },
+      {
+        "en": "The class decided to make the donation to a local animal shelter.",
+        "zh": "班上決定向本地動物收容所作出捐款。"
+      },
+      {
+        "en": "Making the donation to a trusted charity can ensure the money reaches people in need.",
+        "zh": "向可信的慈善機構作出捐款，可以確保款項送到有需要人士手中。"
+      },
+      {
+        "en": "This phrase is useful when naming the receiver of a donation.",
+        "zh": "當指出捐款接受者時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "both of them",
+    "meaning": "兩者都",
+    "examples": [
+      {
+        "en": "Victor wants to donate to both of them.",
+        "zh": "Victor 想向兩者都捐款。"
+      },
+      {
+        "en": "Both of them means the two people, groups, or things already mentioned.",
+        "zh": "both of them 指之前提到的兩個人、團體或事物。"
+      },
+      {
+        "en": "I like both of them, so I cannot choose only one book.",
+        "zh": "我兩本書都喜歡，所以不能只選一本。"
+      },
+      {
+        "en": "Donating to both of them means neither charity is left out.",
+        "zh": "向兩者都捐款，表示沒有任何一間慈善機構被排除。"
+      },
+      {
+        "en": "This phrase avoids repeating the names of the two items.",
+        "zh": "這個說法避免重複兩個項目的名稱。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "great news",
+    "meaning": "好消息",
+    "examples": [
+      {
+        "en": "Anthony says the donation plan is great news.",
+        "zh": "Anthony 說捐款計劃是好消息。"
+      },
+      {
+        "en": "Great news means very good or welcome information.",
+        "zh": "great news 指非常好的或令人歡迎的消息。"
+      },
+      {
+        "en": "It is great news that the missing student has been found safely.",
+        "zh": "失蹤學生安全尋回是好消息。"
+      },
+      {
+        "en": "When people hear great news, they may feel relieved, excited, or grateful.",
+        "zh": "當人們聽到好消息，可能會感到安心、興奮或感激。"
+      },
+      {
+        "en": "This phrase is common in friendly and professional conversations.",
+        "zh": "這個說法常見於友善和專業對話。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "discuss the details",
+    "meaning": "討論細節",
+    "examples": [
+      {
+        "en": "Anthony asks whether they can discuss the details now.",
+        "zh": "Anthony 問他們是否可以現在討論細節。"
+      },
+      {
+        "en": "To discuss the details means to talk about the specific parts of a plan.",
+        "zh": "discuss the details 指討論計劃中的具體部分。"
+      },
+      {
+        "en": "After agreeing on the trip, the teachers discussed the details such as transport and lunch.",
+        "zh": "同意舉辦旅行後，老師們討論交通和午餐等細節。"
+      },
+      {
+        "en": "Discussing the details prevents people from misunderstanding what has been agreed.",
+        "zh": "討論細節可以避免人們誤解已同意的內容。"
+      },
+      {
+        "en": "This phrase is useful when moving from a general idea to practical arrangements.",
+        "zh": "當由大方向轉到實際安排時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "what we would want to do is",
+    "meaning": "我們想做的是",
+    "examples": [
+      {
+        "en": "Victor explains what they would want to do with the donations.",
+        "zh": "Victor 解釋他們想用捐款做甚麼。"
+      },
+      {
+        "en": "“What we would want to do is…” introduces the action or plan the speaker prefers.",
+        "zh": "“What we would want to do is…” 用來引入說話者較希望採取的行動或計劃。"
+      },
+      {
+        "en": "What we would want to do is use the money for student support.",
+        "zh": "我們想做的是把這筆錢用於學生支援。"
+      },
+      {
+        "en": "This structure helps present a proposal clearly before giving details.",
+        "zh": "這個句式有助在交代細節前清楚提出建議。"
+      },
+      {
+        "en": "It sounds careful and polite, especially in discussions involving money or decisions.",
+        "zh": "它聽起來謹慎而禮貌，特別適合涉及金錢或決定的討論。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "something similar to",
+    "meaning": "與……相似的事情",
+    "examples": [
+      {
+        "en": "They want to do something similar to what Suzie Gilmour did last year.",
+        "zh": "他們想做與 Suzie Gilmour 去年所做的相似的事情。"
+      },
+      {
+        "en": "Something similar to means something that is like another thing but not exactly the same.",
+        "zh": "something similar to 指與另一件事相似，但不完全一樣的事情。"
+      },
+      {
+        "en": "The school wants to organise something similar to last year’s reading day.",
+        "zh": "學校想舉辦與去年閱讀日相似的活動。"
+      },
+      {
+        "en": "Doing something similar to a successful plan can save time and reduce risk.",
+        "zh": "做與成功計劃相似的事情，可以節省時間並降低風險。"
+      },
+      {
+        "en": "This phrase is useful when using an old example as a model.",
+        "zh": "當使用舊例子作為參考時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "last year in Hong Kong",
+    "meaning": "去年在香港",
+    "examples": [
+      {
+        "en": "Suzie Gilmour made a similar donation last year in Hong Kong.",
+        "zh": "Suzie Gilmour 去年在香港作出過類似捐款。"
+      },
+      {
+        "en": "Last year in Hong Kong refers to something that happened in Hong Kong during the previous year.",
+        "zh": "last year in Hong Kong 指某事在上一年於香港發生。"
+      },
+      {
+        "en": "Last year in Hong Kong, the festival attracted many overseas visitors.",
+        "zh": "去年在香港，這個節日吸引了許多海外訪客。"
+      },
+      {
+        "en": "This phrase gives both time and place information.",
+        "zh": "這個說法同時提供時間和地點資料。"
+      },
+      {
+        "en": "It is useful when comparing a past event with a current plan.",
+        "zh": "當比較過去事件與目前計劃時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "propose to donate",
+    "meaning": "提議捐出",
+    "examples": [
+      {
+        "en": "Victor proposes to donate money to each charity.",
+        "zh": "Victor 提議向每間慈善機構捐款。"
+      },
+      {
+        "en": "To propose to donate means to suggest giving money or support.",
+        "zh": "propose to donate 指建議捐出金錢或支援。"
+      },
+      {
+        "en": "The company proposed to donate computers to a rural school.",
+        "zh": "公司提議向一間鄉村學校捐出電腦。"
+      },
+      {
+        "en": "A proposal to donate may still need approval before the money is sent.",
+        "zh": "捐款提議在款項送出前，可能仍需要批准。"
+      },
+      {
+        "en": "This phrase is more formal than “want to give.”",
+        "zh": "這個說法比 “want to give” 更正式。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "in Hong Kong dollars",
+    "meaning": "以港元計算",
+    "examples": [
+      {
+        "en": "The donation amount is stated in Hong Kong dollars.",
+        "zh": "捐款金額以港元計算。"
+      },
+      {
+        "en": "In Hong Kong dollars means the amount is measured using Hong Kong’s currency.",
+        "zh": "in Hong Kong dollars 指金額以香港貨幣計算。"
+      },
+      {
+        "en": "Please write the price in Hong Kong dollars so local customers can understand it easily.",
+        "zh": "請以港元列出價格，讓本地顧客容易理解。"
+      },
+      {
+        "en": "Stating the amount in Hong Kong dollars avoids confusion with other currencies.",
+        "zh": "以港元列明金額，可以避免與其他貨幣混淆。"
+      },
+      {
+        "en": "This phrase is useful in finance, donations, invoices, and event budgets.",
+        "zh": "這個說法適用於財務、捐款、發票和活動預算。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "half a million Hong Kong dollars",
+    "meaning": "五十萬港元",
+    "examples": [
+      {
+        "en": "They propose to donate half a million Hong Kong dollars to each charity.",
+        "zh": "他們提議向每間慈善機構捐出五十萬港元。"
+      },
+      {
+        "en": "Half a million Hong Kong dollars means 500,000 Hong Kong dollars.",
+        "zh": "half a million Hong Kong dollars 指 500,000 港元。"
+      },
+      {
+        "en": "A donation of half a million Hong Kong dollars can fund equipment, staff, or renovation work.",
+        "zh": "五十萬港元的捐款可以資助設備、員工或翻新工程。"
+      },
+      {
+        "en": "If two charities each receive half a million Hong Kong dollars, the total donation is one million dollars.",
+        "zh": "如果兩間慈善機構各收到五十萬港元，總捐款就是一百萬港元。"
+      },
+      {
+        "en": "This phrase is used when describing a large amount of money.",
+        "zh": "這個說法用於描述一筆大額金錢。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "to each charity",
+    "meaning": "給每間慈善機構",
+    "examples": [
+      {
+        "en": "They will donate half a million Hong Kong dollars to each charity.",
+        "zh": "他們會給每間慈善機構捐出五十萬港元。"
+      },
+      {
+        "en": "To each charity means every charity mentioned will receive the amount.",
+        "zh": "to each charity 指每一間被提及的慈善機構都會收到該金額。"
+      },
+      {
+        "en": "The company gave 10,000 dollars to each charity on the list.",
+        "zh": "公司向名單上的每間慈善機構捐出 10,000 元。"
+      },
+      {
+        "en": "Giving the same amount to each charity can make the arrangement feel fair.",
+        "zh": "給每間慈善機構相同金額，可以令安排感覺公平。"
+      },
+      {
+        "en": "This phrase is useful when distributing money or resources equally.",
+        "zh": "當平均分配金錢或資源時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "on the condition that",
+    "meaning": "條件是……",
+    "examples": [
+      {
+        "en": "The donation is on the condition that the money is used to build a gym.",
+        "zh": "這筆捐款的條件是款項用於建設健身室。"
+      },
+      {
+        "en": "On the condition that means only if a specific requirement is met.",
+        "zh": "on the condition that 指只有在某個特定要求被滿足時才可以。"
+      },
+      {
+        "en": "The school can use the hall on the condition that students keep it clean.",
+        "zh": "學生可以使用禮堂，條件是保持地方清潔。"
+      },
+      {
+        "en": "A donation with conditions ensures the money is used for the intended purpose.",
+        "zh": "附帶條件的捐款，可以確保款項用於原定目的。"
+      },
+      {
+        "en": "This phrase is formal and often used in agreements.",
+        "zh": "這個說法較正式，常用於協議。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "use the money to",
+    "meaning": "用這筆錢去……",
+    "examples": [
+      {
+        "en": "The charities must use the money to convert a room into a gym.",
+        "zh": "慈善機構必須用這筆錢把一個房間改建成健身室。"
+      },
+      {
+        "en": "To use the money to do something means to spend the money for that purpose.",
+        "zh": "use the money to do something 指把錢花在某個目的上。"
+      },
+      {
+        "en": "The school used the money to buy new library books.",
+        "zh": "學校用這筆錢購買新的圖書館書籍。"
+      },
+      {
+        "en": "If donors give money for a purpose, the organisation should use the money to support that purpose.",
+        "zh": "如果捐款者為某目的捐錢，機構應用這筆錢支持該目的。"
+      },
+      {
+        "en": "This phrase clearly connects funding with action.",
+        "zh": "這個說法清楚連接資金和行動。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "convert something into",
+    "meaning": "把……改建成……；把……轉變成……",
+    "examples": [
+      {
+        "en": "Each charity will convert one of its rooms into a gym.",
+        "zh": "每間慈善機構會把其中一個房間改建成健身室。"
+      },
+      {
+        "en": "To convert something into something else means to change its form, use, or purpose.",
+        "zh": "convert something into something else 指改變某物的形式、用途或目的。"
+      },
+      {
+        "en": "The family converted the spare room into a study area.",
+        "zh": "這個家庭把空置房間改成書房。"
+      },
+      {
+        "en": "Converting an unused room into a gym can make better use of space.",
+        "zh": "把閒置房間改建成健身室，可以更好地運用空間。"
+      },
+      {
+        "en": "This phrase is useful when talking about renovation or transformation.",
+        "zh": "這個說法適合用於談論翻新或轉變。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "one of their rooms",
+    "meaning": "他們其中一個房間",
+    "examples": [
+      {
+        "en": "Each charity will convert one of its rooms into a gym.",
+        "zh": "每間慈善機構會把他們其中一個房間改建成健身室。"
+      },
+      {
+        "en": "One of their rooms means one room belonging to them or under their control.",
+        "zh": "one of their rooms 指屬於他們或由他們管理的其中一個房間。"
+      },
+      {
+        "en": "The school used one of its rooms as a temporary medical room.",
+        "zh": "學校把其中一個房間用作臨時醫療室。"
+      },
+      {
+        "en": "If a charity converts one of its rooms, it does not need to rent a new building.",
+        "zh": "如果慈善機構改建其中一個房間，就不需要租用新建築物。"
+      },
+      {
+        "en": "This phrase refers to a single room from several available rooms.",
+        "zh": "這個說法指多個可用房間中的一個。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "towards setting up",
+    "meaning": "用於設立……",
+    "examples": [
+      {
+        "en": "The money will go towards setting up a gym.",
+        "zh": "這筆錢將用於設立健身室。"
+      },
+      {
+        "en": "Towards setting up means used to help create, start, or prepare something.",
+        "zh": "towards setting up 指用來幫助建立、開始或準備某事物。"
+      },
+      {
+        "en": "The donation will go towards setting up a reading corner for children.",
+        "zh": "這筆捐款將用於為孩子設立閱讀角。"
+      },
+      {
+        "en": "Money towards setting up a new facility may cover equipment, decoration, and installation.",
+        "zh": "用於設立新設施的款項，可能涵蓋設備、裝修和安裝。"
+      },
+      {
+        "en": "This phrase shows the purpose of financial support.",
+        "zh": "這個說法顯示財政支援的用途。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "set up a gym",
+    "meaning": "設立健身室",
+    "examples": [
+      {
+        "en": "The donation will help each charity set up a gym.",
+        "zh": "這筆捐款會幫助每間慈善機構設立健身室。"
+      },
+      {
+        "en": "To set up a gym means to create and prepare a space for exercise equipment and activities.",
+        "zh": "set up a gym 指建立並準備一個放置運動器材和進行運動活動的空間。"
+      },
+      {
+        "en": "A school may set up a gym so students can exercise safely indoors.",
+        "zh": "學校可能設立健身室，讓學生可以在室內安全運動。"
+      },
+      {
+        "en": "Setting up a gym requires space, equipment, safety rules, and maintenance.",
+        "zh": "設立健身室需要空間、設備、安全規則和維護。"
+      },
+      {
+        "en": "This phrase is useful when talking about creating a new facility.",
+        "zh": "這個說法適合用於談論建立新設施。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "in return",
+    "meaning": "作為回報",
+    "examples": [
+      {
+        "en": "In return, the gym is to be called the Lara Taranova Gym.",
+        "zh": "作為回報，該健身室將被命名為 Lara Taranova Gym。"
+      },
+      {
+        "en": "In return means as something given back because of help, money, or support received.",
+        "zh": "in return 指因收到幫助、金錢或支援而給予的回報。"
+      },
+      {
+        "en": "The volunteer helped at the event, and in return the organiser gave her a certificate.",
+        "zh": "義工在活動中幫忙，作為回報，主辦方給她一張證書。"
+      },
+      {
+        "en": "In return can show an exchange, reward, or form of appreciation.",
+        "zh": "in return 可以表示交換、獎勵或感謝形式。"
+      },
+      {
+        "en": "This phrase is common when one action leads to a response or benefit.",
+        "zh": "當一個行動帶來回應或好處時，這個說法很常用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "is to be called",
+    "meaning": "將被命名為",
+    "examples": [
+      {
+        "en": "The gym is to be called the Lara Taranova Gym.",
+        "zh": "該健身室將被命名為 Lara Taranova Gym。"
+      },
+      {
+        "en": "Is to be called means will officially be named.",
+        "zh": "is to be called 指將正式被命名為。"
+      },
+      {
+        "en": "The new library is to be called the Community Learning Centre.",
+        "zh": "新圖書館將被命名為社區學習中心。"
+      },
+      {
+        "en": "This structure sounds formal and is often used in announcements or agreements.",
+        "zh": "這個句式聽起來正式，常用於公告或協議。"
+      },
+      {
+        "en": "It focuses on the official name that something will receive.",
+        "zh": "它強調某事物將獲得的正式名稱。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "That should be OK.",
+    "meaning": "那應該可以",
+    "examples": [
+      {
+        "en": "Anthony says that the naming arrangement should be OK.",
+        "zh": "Anthony 說命名安排應該可以。"
+      },
+      {
+        "en": "“That should be OK” means the speaker thinks something is probably acceptable.",
+        "zh": "“That should be OK” 指說話者認為某事大概可以接受。"
+      },
+      {
+        "en": "If the meeting starts ten minutes later, that should be OK for most people.",
+        "zh": "如果會議遲十分鐘開始，對大多數人來說應該可以。"
+      },
+      {
+        "en": "This phrase shows agreement but still leaves a little room for checking.",
+        "zh": "這個說法表示同意，但仍保留一點確認空間。"
+      },
+      {
+        "en": "It is softer than saying, “That is definitely approved.”",
+        "zh": "它比說 “That is definitely approved” 更柔和。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "set up a short courtesy visit",
+    "meaning": "安排一次簡短禮節性探訪",
+    "examples": [
+      {
+        "en": "Anthony asks whether they can set up a short courtesy visit.",
+        "zh": "Anthony 問他們是否可以安排一次簡短禮節性探訪。"
+      },
+      {
+        "en": "To set up a short courtesy visit means to arrange a brief polite visit.",
+        "zh": "set up a short courtesy visit 指安排一次簡短而禮貌的探訪。"
+      },
+      {
+        "en": "The school set up a short courtesy visit for the guest speaker before the ceremony.",
+        "zh": "學校在典禮前為嘉賓講者安排一次簡短禮節性探訪。"
+      },
+      {
+        "en": "A short courtesy visit can show respect without taking too much time.",
+        "zh": "簡短禮節性探訪可以表示尊重，又不會花太多時間。"
+      },
+      {
+        "en": "This phrase is common in formal, charitable, or official contexts.",
+        "zh": "這個說法常見於正式、慈善或官方場合。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "courtesy visit",
+    "meaning": "禮節性探訪",
+    "examples": [
+      {
+        "en": "Lara agrees to make a courtesy visit to the charity centres.",
+        "zh": "Lara 同意到慈善中心作禮節性探訪。"
+      },
+      {
+        "en": "A courtesy visit is a polite visit made to show respect, thanks, or goodwill.",
+        "zh": "courtesy visit 指為表示尊重、感謝或善意而進行的禮貌探訪。"
+      },
+      {
+        "en": "The new principal made a courtesy visit to nearby community leaders.",
+        "zh": "新校長對附近社區領袖作禮節性探訪。"
+      },
+      {
+        "en": "A courtesy visit may be short, but it can strengthen relationships.",
+        "zh": "禮節性探訪可能很短，但可以加強關係。"
+      },
+      {
+        "en": "This phrase is formal and often used in public or organisational settings.",
+        "zh": "這個說法較正式，常用於公共或機構場合。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "charity centres",
+    "meaning": "慈善中心",
+    "examples": [
+      {
+        "en": "Lara may visit the charity centres during the tournament.",
+        "zh": "Lara 可能在比賽期間探訪慈善中心。"
+      },
+      {
+        "en": "Charity centres are places where charities provide services or meet the people they support.",
+        "zh": "charity centres 指慈善機構提供服務或接觸受助者的地方。"
+      },
+      {
+        "en": "A charity centre may offer classes, counselling, food support, or community activities.",
+        "zh": "慈善中心可能提供課程、輔導、食物支援或社區活動。"
+      },
+      {
+        "en": "Visiting charity centres can help donors understand how their money is used.",
+        "zh": "探訪慈善中心可以幫助捐款者了解款項如何使用。"
+      },
+      {
+        "en": "This phrase refers to physical locations connected to charitable work.",
+        "zh": "這個說法指與慈善工作有關的實體地點。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "during the tournament",
+    "meaning": "比賽期間",
+    "examples": [
+      {
+        "en": "The courtesy visit will take place during the tournament.",
+        "zh": "禮節性探訪將於比賽期間進行。"
+      },
+      {
+        "en": "During the tournament means while the sports competition is happening.",
+        "zh": "during the tournament 指體育錦標賽正在舉行的期間。"
+      },
+      {
+        "en": "Players should check their rest schedule during the tournament.",
+        "zh": "運動員在比賽期間應檢查自己的休息時間表。"
+      },
+      {
+        "en": "If media events happen during the tournament, they should not affect performance.",
+        "zh": "如果媒體活動在比賽期間舉行，就不應影響表現。"
+      },
+      {
+        "en": "This phrase clearly marks the period of the competition.",
+        "zh": "這個說法清楚標示比賽的時間段。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "go ahead and organise that",
+    "meaning": "繼續安排那件事",
+    "examples": [
+      {
+        "en": "Lara asks Anthony to go ahead and organise the visit.",
+        "zh": "Lara 請 Anthony 繼續安排那次探訪。"
+      },
+      {
+        "en": "To go ahead and organise that means to continue and make the arrangements.",
+        "zh": "go ahead and organise that 指繼續並作出相關安排。"
+      },
+      {
+        "en": "If everyone agrees on the plan, the teacher can go ahead and organise the trip.",
+        "zh": "如果所有人都同意計劃，老師就可以繼續安排旅行。"
+      },
+      {
+        "en": "This phrase gives permission for the next practical step.",
+        "zh": "這個說法表示批准對方採取下一個實際步驟。"
+      },
+      {
+        "en": "It is useful when a decision has been made and action is needed.",
+        "zh": "當決定已經作出並需要行動時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "Is there anything else?",
+    "meaning": "還有其他事嗎？",
+    "examples": [
+      {
+        "en": "Anthony asks whether there is anything else to discuss.",
+        "zh": "Anthony 問是否還有其他事要討論。"
+      },
+      {
+        "en": "“Is there anything else?” asks if there are any remaining points, questions, or problems.",
+        "zh": "“Is there anything else?” 用來詢問是否還有任何剩餘重點、問題或麻煩。"
+      },
+      {
+        "en": "At the end of a meeting, the chairperson may ask, “Is there anything else?”",
+        "zh": "在會議結尾，主席可能會問：「還有其他事嗎？」"
+      },
+      {
+        "en": "This question gives people one final chance to add information.",
+        "zh": "這個問題給大家最後一次補充資料的機會。"
+      },
+      {
+        "en": "It helps close a conversation politely.",
+        "zh": "它有助禮貌地結束對話。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "I think that’s everything",
+    "meaning": "我想事情都談完了",
+    "examples": [
+      {
+        "en": "Victor says he thinks that’s everything.",
+        "zh": "Victor 說他想事情都談完了。"
+      },
+      {
+        "en": "“I think that’s everything” means I believe there is nothing more to discuss.",
+        "zh": "“I think that’s everything” 指我認為沒有其他事情要討論。"
+      },
+      {
+        "en": "After checking the list, the organiser said, “I think that’s everything.”",
+        "zh": "檢查清單後，主辦方說：「我想事情都談完了。」"
+      },
+      {
+        "en": "This phrase helps signal that a meeting or conversation is nearly finished.",
+        "zh": "這個說法有助表示會議或對話快將結束。"
+      },
+      {
+        "en": "It sounds less abrupt than simply saying, “We are done.”",
+        "zh": "它比直接說 “We are done” 較不突兀。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the advert",
+    "meaning": "廣告",
+    "examples": [
+      {
+        "en": "Lara wants to discuss the advert for the tournament.",
+        "zh": "Lara 想討論錦標賽的廣告。"
+      },
+      {
+        "en": "The advert means the advertisement being discussed.",
+        "zh": "the advert 指正在討論的那則廣告。"
+      },
+      {
+        "en": "The advert shows the date, venue, and main player of the event.",
+        "zh": "這則廣告展示活動日期、場地和主要球員。"
+      },
+      {
+        "en": "If the advert has wrong information, organisers should correct it quickly.",
+        "zh": "如果廣告有錯誤資訊，主辦方應迅速更正。"
+      },
+      {
+        "en": "This word is common in British English; American English often uses “ad.”",
+        "zh": "這個字常見於英式英語；美式英語常用 “ad”。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "tell him myself",
+    "meaning": "親自告訴他",
+    "examples": [
+      {
+        "en": "Lara says she can tell Anthony herself.",
+        "zh": "Lara 說她可以親自告訴 Anthony。"
+      },
+      {
+        "en": "To tell him myself means to personally give him the information instead of asking someone else to do it.",
+        "zh": "tell him myself 指親自把資訊告訴他，而不是請別人代為轉達。"
+      },
+      {
+        "en": "I will tell the teacher myself so the message is clear.",
+        "zh": "我會親自告訴老師，讓訊息更清楚。"
+      },
+      {
+        "en": "Telling someone yourself can prevent mistakes or misunderstandings.",
+        "zh": "親自告訴某人可以防止錯誤或誤解。"
+      },
+      {
+        "en": "This phrase shows personal responsibility for delivering a message.",
+        "zh": "這個說法顯示說話者親自負責傳達訊息。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "a bit surprised to see",
+    "meaning": "看到……時有點驚訝",
+    "examples": [
+      {
+        "en": "Lara was a bit surprised to see the advertisements.",
+        "zh": "Lara 看到那些廣告時有點驚訝。"
+      },
+      {
+        "en": "To be a bit surprised to see something means to feel slightly unexpected when noticing it.",
+        "zh": "be a bit surprised to see something 指看到某事時感到有點意外。"
+      },
+      {
+        "en": "I was a bit surprised to see my name on the class noticeboard.",
+        "zh": "我看到自己的名字出現在班房通告板上時有點驚訝。"
+      },
+      {
+        "en": "People may feel a bit surprised to see information that differs from what they were told.",
+        "zh": "當人們看到與之前被告知不同的資訊時，可能會有點驚訝。"
+      },
+      {
+        "en": "This phrase is softer than saying “shocked.”",
+        "zh": "這個說法比 “shocked” 語氣較溫和。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "advertisements for the tournament",
+    "meaning": "錦標賽廣告",
+    "examples": [
+      {
+        "en": "Lara was surprised by the advertisements for the tournament.",
+        "zh": "Lara 對錦標賽廣告感到驚訝。"
+      },
+      {
+        "en": "Advertisements for the tournament are promotional materials used to attract attention to the event.",
+        "zh": "advertisements for the tournament 指用來吸引人注意該活動的宣傳材料。"
+      },
+      {
+        "en": "Advertisements for the tournament may appear online, on posters, or in sports magazines.",
+        "zh": "錦標賽廣告可能出現在網上、海報上或體育雜誌中。"
+      },
+      {
+        "en": "If advertisements for the tournament feature the wrong player, people may complain.",
+        "zh": "如果錦標賽廣告展示了錯誤球員，人們可能會投訴。"
+      },
+      {
+        "en": "This phrase identifies both the promotional material and the event being promoted.",
+        "zh": "這個說法同時指出宣傳材料和被宣傳的活動。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "be told by my sponsor that",
+    "meaning": "我的贊助商告訴我",
+    "examples": [
+      {
+        "en": "Lara was told by her sponsor that her image would appear on the advert.",
+        "zh": "Lara 的贊助商告訴她，她的肖像會出現在廣告上。"
+      },
+      {
+        "en": "To be told by my sponsor that means to receive information from the company or person supporting me.",
+        "zh": "be told by my sponsor that 指從支持自己的公司或人士那裡得知某事。"
+      },
+      {
+        "en": "The athlete was told by her sponsor that she needed to attend a photo shoot.",
+        "zh": "贊助商告訴那名運動員，她需要出席拍攝。"
+      },
+      {
+        "en": "If someone is told by their sponsor that something will happen, they may expect the organisers to follow it.",
+        "zh": "如果某人被贊助商告知某事會發生，他們可能會期望主辦方跟從。"
+      },
+      {
+        "en": "This passive structure focuses on the information received.",
+        "zh": "這個被動句式把重點放在收到的資訊。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "sponsor",
+    "meaning": "贊助商",
+    "examples": [
+      {
+        "en": "Lara’s sponsor told her that her image would appear on the advert.",
+        "zh": "Lara 的贊助商告訴她，她的肖像會出現在廣告上。"
+      },
+      {
+        "en": "A sponsor is a person or company that gives money or support to an event, team, or athlete.",
+        "zh": "sponsor 指向活動、隊伍或運動員提供金錢或支援的人或公司。"
+      },
+      {
+        "en": "A sportswear company may become a sponsor of a tennis player.",
+        "zh": "一間運動服裝公司可能成為網球員的贊助商。"
+      },
+      {
+        "en": "Sponsors often expect their name, logo, or athlete to appear in promotional materials.",
+        "zh": "贊助商通常期望其名稱、標誌或運動員出現在宣傳材料中。"
+      },
+      {
+        "en": "This word is common in sports, events, charities, and media.",
+        "zh": "這個字常見於體育、活動、慈善和媒體。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "my image would appear on",
+    "meaning": "我的肖像會出現在……上",
+    "examples": [
+      {
+        "en": "Lara expected that her image would appear on the advert.",
+        "zh": "Lara 預期她的肖像會出現在廣告上。"
+      },
+      {
+        "en": "My image would appear on something means my photo or likeness would be shown there.",
+        "zh": "my image would appear on something 指我的照片或肖像會展示在某物上。"
+      },
+      {
+        "en": "The singer was told that her image would appear on the concert poster.",
+        "zh": "那位歌手被告知，她的肖像會出現在演唱會海報上。"
+      },
+      {
+        "en": "If an athlete’s image appears on an advert, people may think they are officially connected to it.",
+        "zh": "如果運動員的肖像出現在廣告上，人們可能會認為他們與該廣告有正式關係。"
+      },
+      {
+        "en": "This phrase is useful when discussing publicity and image rights.",
+        "zh": "這個說法適合用於討論宣傳和肖像權。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "appear on the advert",
+    "meaning": "出現在廣告上",
+    "examples": [
+      {
+        "en": "Lara’s image was expected to appear on the advert.",
+        "zh": "Lara 的肖像原本預期會出現在廣告上。"
+      },
+      {
+        "en": "To appear on the advert means to be shown in the advertisement.",
+        "zh": "appear on the advert 指在廣告中被展示出來。"
+      },
+      {
+        "en": "The product logo should appear on the advert clearly.",
+        "zh": "產品標誌應清楚出現在廣告上。"
+      },
+      {
+        "en": "If the wrong person appears on the advert, the public message may become confusing.",
+        "zh": "如果錯誤人物出現在廣告上，公眾訊息可能會變得混亂。"
+      },
+      {
+        "en": "This phrase is useful when talking about advertising design.",
+        "zh": "這個說法適合用於談論廣告設計。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "highest-ranking player",
+    "meaning": "排名最高的球員",
+    "examples": [
+      {
+        "en": "Lara is the highest-ranking player taking part.",
+        "zh": "Lara 是參賽者中排名最高的球員。"
+      },
+      {
+        "en": "The highest-ranking player is the player with the best official ranking among the group.",
+        "zh": "highest-ranking player 指在該群體中官方排名最高的球員。"
+      },
+      {
+        "en": "The highest-ranking player usually receives more media attention.",
+        "zh": "排名最高的球員通常獲得更多媒體關注。"
+      },
+      {
+        "en": "If the highest-ranking player is not shown on the poster, people may question the design choice.",
+        "zh": "如果排名最高的球員沒有出現在海報上，人們可能會質疑設計選擇。"
+      },
+      {
+        "en": "This phrase is common in sports competitions.",
+        "zh": "這個說法常見於體育比賽。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "taking part",
+    "meaning": "參加",
+    "examples": [
+      {
+        "en": "Lara is the highest-ranking player taking part in the tournament.",
+        "zh": "Lara 是參加錦標賽的球員中排名最高的一位。"
+      },
+      {
+        "en": "Taking part means participating in an event, activity, or competition.",
+        "zh": "taking part 指參與活動、事件或比賽。"
+      },
+      {
+        "en": "Students taking part in the drama show must attend rehearsals.",
+        "zh": "參加戲劇表演的學生必須出席綵排。"
+      },
+      {
+        "en": "Players taking part in a tournament need clear rules and schedules.",
+        "zh": "參加錦標賽的球員需要清楚規則和賽程。"
+      },
+      {
+        "en": "This phrase identifies the people who are involved in the activity.",
+        "zh": "這個說法指出參與活動的人。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "should therefore be featured on the poster",
+    "meaning": "因此應該出現在海報上",
+    "examples": [
+      {
+        "en": "The highest-ranking player should therefore be featured on the poster.",
+        "zh": "排名最高的球員因此應該出現在海報上。"
+      },
+      {
+        "en": "Should therefore be featured on the poster means should be shown on the poster as a result of that reason.",
+        "zh": "should therefore be featured on the poster 指基於該原因，應該被展示在海報上。"
+      },
+      {
+        "en": "The guest speaker is the main attraction and should therefore be featured on the poster.",
+        "zh": "那位嘉賓講者是主要吸引點，因此應該出現在海報上。"
+      },
+      {
+        "en": "“Therefore” connects the reason with the expected action.",
+        "zh": "“Therefore” 把原因和預期行動連接起來。"
+      },
+      {
+        "en": "This phrase is useful when explaining why someone deserves a place in publicity material.",
+        "zh": "當解釋為何某人值得出現在宣傳材料上時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "the poster",
+    "meaning": "海報",
+    "examples": [
+      {
+        "en": "Lara believes the highest-ranking player should be featured on the poster.",
+        "zh": "Lara 認為排名最高的球員應該出現在海報上。"
+      },
+      {
+        "en": "The poster is a printed or digital design used to advertise information or an event.",
+        "zh": "poster 指用來宣傳資訊或活動的印刷或數碼設計。"
+      },
+      {
+        "en": "The poster for the school concert includes the date, time, venue, and performers.",
+        "zh": "學校音樂會海報包括日期、時間、場地和表演者。"
+      },
+      {
+        "en": "A poster can attract attention quickly if its design is clear and eye-catching.",
+        "zh": "如果海報設計清楚而搶眼，就能迅速吸引注意。"
+      },
+      {
+        "en": "This word is common in advertising, schools, events, and public notices.",
+        "zh": "這個字常見於廣告、學校、活動和公共通告。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "certainly isn’t",
+    "meaning": "肯定不是",
+    "examples": [
+      {
+        "en": "Lara says that the highest-ranking player certainly isn’t Suzie Gilmour.",
+        "zh": "Lara 說排名最高的球員肯定不是 Suzie Gilmour。"
+      },
+      {
+        "en": "Certainly isn’t means definitely is not.",
+        "zh": "certainly isn’t 指絕對不是。"
+      },
+      {
+        "en": "This answer certainly isn’t correct because it ignores the main question.",
+        "zh": "這個答案肯定不是正確的，因為它忽略了主要問題。"
+      },
+      {
+        "en": "Using “certainly isn’t” shows strong confidence in a negative statement.",
+        "zh": "使用 “certainly isn’t” 表示對否定陳述非常有信心。"
+      },
+      {
+        "en": "This phrase can sound direct, so it should be used carefully in polite situations.",
+        "zh": "這個說法可能聽起來直接，所以在禮貌場合應小心使用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "sorry about that",
+    "meaning": "對此感到抱歉",
+    "examples": [
+      {
+        "en": "Anthony apologises by saying, “Sorry about that.”",
+        "zh": "Anthony 說「對此感到抱歉」來道歉。"
+      },
+      {
+        "en": "“Sorry about that” is used to apologise for a mistake, inconvenience, or problem.",
+        "zh": "“Sorry about that” 用來為錯誤、不便或問題道歉。"
+      },
+      {
+        "en": "If the meeting link does not work, the host may say, “Sorry about that.”",
+        "zh": "如果會議連結不能使用，主持人可能會說：「對此感到抱歉。」"
+      },
+      {
+        "en": "This phrase shows responsibility without making a long apology.",
+        "zh": "這個說法顯示責任感，而不需要長篇道歉。"
+      },
+      {
+        "en": "It is useful in service, meetings, and everyday conversations.",
+        "zh": "它適合用於服務、會議和日常對話。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "all sorts of problems with",
+    "meaning": "在……方面遇到各種問題",
+    "examples": [
+      {
+        "en": "The organisers have been having all sorts of problems with the poster.",
+        "zh": "主辦方在海報方面一直遇到各種問題。"
+      },
+      {
+        "en": "All sorts of problems with something means many different kinds of problems connected to it.",
+        "zh": "all sorts of problems with something 指與某事相關的各種不同問題。"
+      },
+      {
+        "en": "The school had all sorts of problems with the new online system.",
+        "zh": "學校在新的網上系統方面遇到各種問題。"
+      },
+      {
+        "en": "If a team has all sorts of problems with a design, the final version may be delayed.",
+        "zh": "如果團隊在設計方面遇到各種問題，最終版本可能會延遲。"
+      },
+      {
+        "en": "This phrase is informal and suggests repeated or varied trouble.",
+        "zh": "這個說法較口語，表示問題反覆或種類很多。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "pass on your message to",
+    "meaning": "把你的訊息轉達給……",
+    "examples": [
+      {
+        "en": "Anthony will pass on Lara’s message to the PR department.",
+        "zh": "Anthony 會把 Lara 的訊息轉達給公關部。"
+      },
+      {
+        "en": "To pass on your message to someone means to tell another person what you said.",
+        "zh": "pass on your message to someone 指把你的話轉告另一個人。"
+      },
+      {
+        "en": "I will pass on your message to the teacher when she returns.",
+        "zh": "老師回來時，我會把你的訊息轉達給她。"
+      },
+      {
+        "en": "Passing on a message accurately prevents misunderstandings.",
+        "zh": "準確轉達訊息可以避免誤解。"
+      },
+      {
+        "en": "This phrase is useful when the person who needs to hear the message is not present.",
+        "zh": "當需要聽到訊息的人不在場時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "PR department",
+    "meaning": "公關部",
+    "examples": [
+      {
+        "en": "Anthony will speak to the PR department about the poster.",
+        "zh": "Anthony 會和公關部談關於海報的事。"
+      },
+      {
+        "en": "The PR department is the team that manages public communication and the organisation’s image.",
+        "zh": "PR department 指負責公共溝通和機構形象的團隊。"
+      },
+      {
+        "en": "The PR department may handle advertisements, media questions, and public complaints.",
+        "zh": "公關部可能處理廣告、媒體提問和公眾投訴。"
+      },
+      {
+        "en": "If a poster damages someone’s image, the PR department should respond carefully.",
+        "zh": "如果海報損害某人的形象，公關部應謹慎回應。"
+      },
+      {
+        "en": "PR stands for public relations.",
+        "zh": "PR 是 public relations 的縮寫。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "in case we have any other questions",
+    "meaning": "以防我們有其他問題",
+    "examples": [
+      {
+        "en": "Victor asks for Anthony’s phone number in case they have any other questions.",
+        "zh": "Victor 索取 Anthony 的電話號碼，以防他們有其他問題。"
+      },
+      {
+        "en": "In case we have any other questions means so that we can contact you if more questions come up later.",
+        "zh": "in case we have any other questions 指如果之後出現更多問題，我們可以聯絡你。"
+      },
+      {
+        "en": "Please give us your email in case we have any other questions after the meeting.",
+        "zh": "請給我們你的電郵，以防會議後我們有其他問題。"
+      },
+      {
+        "en": "This phrase is useful when people want a backup way to get information.",
+        "zh": "當人們想保留後備查詢方式時，這個說法很有用。"
+      },
+      {
+        "en": "It shows that the discussion may not be completely finished.",
+        "zh": "它表示討論可能還未完全結束。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "later on",
+    "meaning": "稍後",
+    "examples": [
+      {
+        "en": "Victor may have other questions later on.",
+        "zh": "Victor 稍後可能會有其他問題。"
+      },
+      {
+        "en": "Later on means at a later time, not immediately.",
+        "zh": "later on 指在之後的時間，不是立即。"
+      },
+      {
+        "en": "We can discuss the budget later on after we confirm the venue.",
+        "zh": "我們可以在確認場地後，稍後再討論預算。"
+      },
+      {
+        "en": "Some problems only become clear later on, after people start working on the plan.",
+        "zh": "有些問題只有在人們開始執行計劃後，稍後才會變得清楚。"
+      },
+      {
+        "en": "This phrase is common in spoken English.",
+        "zh": "這個說法常見於口語英語。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "player enquiries",
+    "meaning": "球員查詢",
+    "examples": [
+      {
+        "en": "The organisers have a new number for all player enquiries.",
+        "zh": "主辦方有一個新的號碼處理所有球員查詢。"
+      },
+      {
+        "en": "Player enquiries are questions or requests made by players.",
+        "zh": "player enquiries 指球員提出的問題或請求。"
+      },
+      {
+        "en": "Player enquiries may include questions about schedules, training courts, transport, or accommodation.",
+        "zh": "球員查詢可能包括賽程、訓練球場、交通或住宿問題。"
+      },
+      {
+        "en": "Having a separate number for player enquiries can make communication faster.",
+        "zh": "為球員查詢設立獨立號碼，可以令溝通更快。"
+      },
+      {
+        "en": "This phrase is common in sports event administration.",
+        "zh": "這個說法常見於體育活動行政安排。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "Let me repeat it back to you",
+    "meaning": "讓我跟你複述一次",
+    "examples": [
+      {
+        "en": "Victor says, “Let me repeat it back to you.”",
+        "zh": "Victor 說：「讓我跟你複述一次。」"
+      },
+      {
+        "en": "“Let me repeat it back to you” means I will say the information again to check that I heard it correctly.",
+        "zh": "“Let me repeat it back to you” 指我會把資訊再說一次，以確認自己聽得正確。"
+      },
+      {
+        "en": "After writing down a phone number, a receptionist may say, “Let me repeat it back to you.”",
+        "zh": "寫下電話號碼後，接待員可能會說：「讓我跟你複述一次。」"
+      },
+      {
+        "en": "Repeating information back can prevent mistakes in names, dates, and numbers.",
+        "zh": "複述資訊可以避免姓名、日期和數字出錯。"
+      },
+      {
+        "en": "This phrase is very useful in phone calls and customer service.",
+        "zh": "這個說法在電話和客戶服務中非常有用。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "repeat it back to",
+    "meaning": "向……複述一次",
+    "examples": [
+      {
+        "en": "Victor repeats the phone number back to Anthony.",
+        "zh": "Victor 向 Anthony 複述了一次電話號碼。"
+      },
+      {
+        "en": "To repeat it back to someone means to say the same information again so they can confirm it.",
+        "zh": "repeat it back to someone 指把相同資訊再向某人說一次，讓對方確認。"
+      },
+      {
+        "en": "The nurse repeated the appointment time back to the patient.",
+        "zh": "護士向病人複述了一次預約時間。"
+      },
+      {
+        "en": "If you repeat a number back to someone, they can correct you immediately if it is wrong.",
+        "zh": "如果你向某人複述一次號碼，若有錯對方可以立即更正。"
+      },
+      {
+        "en": "This phrase is useful when accuracy matters.",
+        "zh": "當準確性很重要時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s it.",
+    "meaning": "就是這樣；沒錯",
+    "examples": [
+      {
+        "en": "Anthony confirms the phone number by saying, “That’s it.”",
+        "zh": "Anthony 說「沒錯」來確認電話號碼。"
+      },
+      {
+        "en": "“That’s it” means that is correct, or there is nothing more to add.",
+        "zh": "“That’s it” 指那是正確的，或沒有其他要補充。"
+      },
+      {
+        "en": "After a student gives the right answer, the teacher may say, “That’s it.”",
+        "zh": "學生答對後，老師可能會說：「就是這樣。」"
+      },
+      {
+        "en": "This phrase can confirm information quickly in conversation.",
+        "zh": "這個說法可以在對話中快速確認資訊。"
+      },
+      {
+        "en": "The meaning depends on context: it can mean “correct” or “finished.”",
+        "zh": "它的意思視乎語境而定：可以指「正確」，也可以指「完成了」。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "otherwise",
+    "meaning": "否則；另外",
+    "examples": [
+      {
+        "en": "Otherwise, Victor can send Anthony an email any time.",
+        "zh": "另外，Victor 可以隨時給 Anthony 發電郵。"
+      },
+      {
+        "en": "Otherwise means if not, or in another situation.",
+        "zh": "otherwise 指否則，或在另一種情況下。"
+      },
+      {
+        "en": "Please finish the form today; otherwise, your application may be delayed.",
+        "zh": "請今天完成表格；否則，你的申請可能會延誤。"
+      },
+      {
+        "en": "In this context, “otherwise” introduces another way to contact Anthony.",
+        "zh": "在這個語境中，otherwise 引入另一種聯絡 Anthony 的方法。"
+      },
+      {
+        "en": "This word often connects a main option with a different result or alternative.",
+        "zh": "這個字常把主要選項與不同結果或替代方法連接起來。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "feel free to",
+    "meaning": "隨時可以……",
+    "examples": [
+      {
+        "en": "Victor can feel free to send Anthony an email any time.",
+        "zh": "Victor 可以隨時給 Anthony 發電郵。"
+      },
+      {
+        "en": "Feel free to means you are welcome to do something without needing to feel worried.",
+        "zh": "feel free to 指你可以放心做某事，不需要感到拘謹。"
+      },
+      {
+        "en": "Feel free to ask questions if any instruction is unclear.",
+        "zh": "如果任何指示不清楚，請隨時提問。"
+      },
+      {
+        "en": "This phrase makes an invitation sound friendly and relaxed.",
+        "zh": "這個說法令邀請聽起來友善而放鬆。"
+      },
+      {
+        "en": "It is useful in emails, meetings, and customer service messages.",
+        "zh": "它適合用於電郵、會議和客戶服務訊息。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "send me an email",
+    "meaning": "給我發電郵",
+    "examples": [
+      {
+        "en": "Anthony tells Victor to send him an email any time.",
+        "zh": "Anthony 告訴 Victor 可以隨時給他發電郵。"
+      },
+      {
+        "en": "To send me an email means to contact me by writing an email message.",
+        "zh": "send me an email 指透過電郵訊息聯絡我。"
+      },
+      {
+        "en": "If you need the form again, send me an email and I will attach it.",
+        "zh": "如果你再次需要表格，給我發電郵，我會把它附上。"
+      },
+      {
+        "en": "Sending an email creates a written record of the request.",
+        "zh": "發電郵可以為請求留下書面紀錄。"
+      },
+      {
+        "en": "This phrase is common in work, school, and customer support.",
+        "zh": "這個說法常見於工作、學校和客戶支援。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "any time",
+    "meaning": "任何時候；隨時",
+    "examples": [
+      {
+        "en": "Victor can email Anthony any time.",
+        "zh": "Victor 可以任何時候給 Anthony 發電郵。"
+      },
+      {
+        "en": "Any time means whenever you need to, without a strict time limit.",
+        "zh": "any time 指在你需要時都可以，沒有嚴格時間限制。"
+      },
+      {
+        "en": "You can call the office any time during opening hours.",
+        "zh": "你可以在辦公時間內任何時候致電辦公室。"
+      },
+      {
+        "en": "Saying “any time” can make help or contact feel more available.",
+        "zh": "說 “any time” 可以令幫助或聯絡方式感覺更方便。"
+      },
+      {
+        "en": "In polite conversation, it can also mean “you’re welcome.”",
+        "zh": "在禮貌對話中，它也可以表示「不用客氣」。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  },
+  {
+    "front": "bye for now",
+    "meaning": "暫時再見",
+    "examples": [
+      {
+        "en": "Anthony ends the call by saying, “Bye for now.”",
+        "zh": "Anthony 說「暫時再見」來結束通話。"
+      },
+      {
+        "en": "Bye for now means goodbye for the present moment, with the possibility of speaking again later.",
+        "zh": "bye for now 指暫時道別，帶有之後可能再談的意思。"
+      },
+      {
+        "en": "At the end of a Zoom meeting, a host may say, “Bye for now.”",
+        "zh": "在 Zoom 會議結束時，主持人可能會說：「暫時再見。」"
+      },
+      {
+        "en": "This phrase sounds warmer and less final than simply saying goodbye.",
+        "zh": "這個說法比單純說 goodbye 更溫暖，也沒有那麼終結。"
+      },
+      {
+        "en": "It is useful when ending a friendly or professional conversation.",
+        "zh": "它適合用於結束友善或專業對話。"
+      }
+    ],
+    "sourcePage": 15,
+    "source": "Flash Card 2021 DSE Podcast.pdf"
+  }
+],
+  "dse/paper-3/podcast/2022": [
+  {
+    "front": "wherever you are",
+    "meaning": "無論你身在何處",
+    "examples": [
+      {
+        "en": "Hello, listeners, wherever you are.",
+        "zh": "各位聽眾，無論你身在何處，你好。"
+      },
+      {
+        "en": "“Wherever you are” means in any place or location.",
+        "zh": "“Wherever you are” 意思是在任何地方。"
+      },
+      {
+        "en": "Wherever you are, you can listen to the programme online.",
+        "zh": "無論你身在何處，你都可以在網上收聽這個節目。"
+      },
+      {
+        "en": "A teacher may say “wherever you are” when speaking to students in different cities.",
+        "zh": "老師向身處不同城市的學生說話時，可能會說「無論你身在何處」。"
+      },
+      {
+        "en": "This phrase is useful when the speaker does not know exactly where the listener is.",
+        "zh": "當說話者不知道聽者確實位置時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "once again",
+    "meaning": "再一次；又一次",
+    "examples": [
+      {
+        "en": "Once again, welcome to the I Wish You Were Here podcast.",
+        "zh": "再一次歡迎大家收聽《I Wish You Were Here》播客。"
+      },
+      {
+        "en": "“Once again” means one more time or again.",
+        "zh": "“Once again” 意思是再一次或又一次。"
+      },
+      {
+        "en": "Once again, thank you for joining our school event.",
+        "zh": "再一次感謝你參加我們的學校活動。"
+      },
+      {
+        "en": "A host may say “once again” when repeating a welcome or reminder.",
+        "zh": "主持人重複歡迎或提醒時，可能會說 “once again”。"
+      },
+      {
+        "en": "Once again, please check your name before submitting the form.",
+        "zh": "再一次提醒，提交表格前請檢查你的姓名。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "spectacular guests",
+    "meaning": "非常出色的嘉賓",
+    "examples": [
+      {
+        "en": "Julia introduces her two spectacular guests.",
+        "zh": "Julia 介紹她兩位非常出色的嘉賓。"
+      },
+      {
+        "en": "Spectacular guests are very impressive, exciting, or outstanding guests.",
+        "zh": "“Spectacular guests” 指非常令人印象深刻、精彩或出色的嘉賓。"
+      },
+      {
+        "en": "The school invited two spectacular guests to speak about space science.",
+        "zh": "學校邀請了兩位非常出色的嘉賓來談太空科學。"
+      },
+      {
+        "en": "Spectacular guests can make a programme more interesting because they bring special experience.",
+        "zh": "非常出色的嘉賓可以令節目更有趣，因為他們帶來特別經驗。"
+      },
+      {
+        "en": "A guest does not need to be famous to be spectacular; they just need to offer something valuable.",
+        "zh": "嘉賓不一定要出名才算非常出色；他們只需要提供有價值的內容。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "owner of",
+    "meaning": "……的東主；……的老闆",
+    "examples": [
+      {
+        "en": "Pris Fong is the owner of Shiny Diamond Lighting.",
+        "zh": "Pris Fong 是 Shiny Diamond Lighting 的東主。"
+      },
+      {
+        "en": "The owner of a business is the person who owns or runs it.",
+        "zh": "“The owner of” 某企業，指擁有或經營它的人。"
+      },
+      {
+        "en": "My aunt is the owner of a small bakery near the station.",
+        "zh": "我姑母是車站附近一間小麵包店的老闆。"
+      },
+      {
+        "en": "If someone is the owner of a shop, they usually make important decisions about it.",
+        "zh": "如果某人是店舖的東主，他通常會為店舖作重要決定。"
+      },
+      {
+        "en": "The owner of the restaurant spoke to customers about the new menu.",
+        "zh": "餐廳老闆向顧客介紹新餐牌。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "chief designer",
+    "meaning": "首席設計師",
+    "examples": [
+      {
+        "en": "Rick Lai is the company’s chief designer.",
+        "zh": "Rick Lai 是公司的首席設計師。"
+      },
+      {
+        "en": "A chief designer is the main designer responsible for leading design work.",
+        "zh": "“Chief designer” 指負責帶領設計工作的主要設計師。"
+      },
+      {
+        "en": "The chief designer chose the colours for the new school logo.",
+        "zh": "首席設計師為新的學校標誌選擇顏色。"
+      },
+      {
+        "en": "If a project has many designers, the chief designer helps keep the style consistent.",
+        "zh": "如果一個項目有很多設計師，首席設計師會幫助保持風格一致。"
+      },
+      {
+        "en": "The chief designer must understand both beauty and practical use.",
+        "zh": "首席設計師必須同時理解美感和實際用途。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "neon artist",
+    "meaning": "霓虹藝術家",
+    "examples": [
+      {
+        "en": "Rick works as a chief designer and neon artist.",
+        "zh": "Rick 擔任首席設計師和霓虹藝術家。"
+      },
+      {
+        "en": "A neon artist creates signs, lights, or artworks using neon lighting.",
+        "zh": "“Neon artist” 指使用霓虹燈光創作招牌、燈飾或藝術品的人。"
+      },
+      {
+        "en": "A neon artist may bend glass tubes to form words or pictures.",
+        "zh": "霓虹藝術家可能會彎曲玻璃管，製成文字或圖案。"
+      },
+      {
+        "en": "Neon artists need patience because small mistakes can damage the whole sign.",
+        "zh": "霓虹藝術家需要耐性，因為小錯誤也可能破壞整個招牌。"
+      },
+      {
+        "en": "In Hong Kong, neon artists helped shape the look of many old streets.",
+        "zh": "在香港，霓虹藝術家曾塑造許多舊街道的面貌。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "It’s my pleasure to be here",
+    "meaning": "很高興能夠來到這裏",
+    "examples": [
+      {
+        "en": "It’s my pleasure to be here, Julia.",
+        "zh": "Julia，很高興能夠來到這裏。"
+      },
+      {
+        "en": "“It’s my pleasure to be here” is a polite way to say you are happy to attend.",
+        "zh": "“It’s my pleasure to be here” 是禮貌地表示很高興出席的說法。"
+      },
+      {
+        "en": "It’s my pleasure to be here and share my experience with the students.",
+        "zh": "很高興能夠來到這裏，與學生分享我的經驗。"
+      },
+      {
+        "en": "A guest speaker may say this at the beginning of an interview.",
+        "zh": "嘉賓講者在訪問開始時可能會這樣說。"
+      },
+      {
+        "en": "This phrase sounds warm and respectful in a formal conversation.",
+        "zh": "這個說法在正式對話中聽起來親切而有禮。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "not only…but also…",
+    "meaning": "不但……而且……",
+    "examples": [
+      {
+        "en": "The company has not only been a sparkling success but has also won many prestigious awards.",
+        "zh": "這間公司不但非常成功，而且贏得許多具聲望的獎項。"
+      },
+      {
+        "en": "“Not only…but also…” links two strong points and gives both importance.",
+        "zh": "“Not only…but also…” 連接兩個重要優點，並突出兩者。"
+      },
+      {
+        "en": "The course is not only useful but also enjoyable.",
+        "zh": "這個課程不但有用，而且有趣。"
+      },
+      {
+        "en": "This structure can make praise stronger because it adds a second reason.",
+        "zh": "這個句式可以令讚賞更有力，因為它加入第二個理由。"
+      },
+      {
+        "en": "She is not only a good designer but also a patient teacher.",
+        "zh": "她不但是一位好設計師，而且是一位有耐性的老師。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "a sparkling success",
+    "meaning": "耀眼的成功；非常成功",
+    "examples": [
+      {
+        "en": "Shiny Diamond Lighting has been a sparkling success.",
+        "zh": "Shiny Diamond Lighting 取得了耀眼的成功。"
+      },
+      {
+        "en": "A sparkling success is a very bright, impressive, or exciting success.",
+        "zh": "“A sparkling success” 指非常耀眼、令人印象深刻或令人興奮的成功。"
+      },
+      {
+        "en": "The school concert was a sparkling success, with every seat filled.",
+        "zh": "學校音樂會非常成功，每個座位都坐滿了人。"
+      },
+      {
+        "en": "A product can become a sparkling success when customers talk about it happily.",
+        "zh": "當顧客開心地談論某產品時，它可能成為耀眼的成功。"
+      },
+      {
+        "en": "This phrase is especially suitable for creative or impressive achievements.",
+        "zh": "這個說法特別適合形容有創意或令人印象深刻的成就。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "win prestigious awards",
+    "meaning": "贏得具聲望的獎項",
+    "examples": [
+      {
+        "en": "The company has won many prestigious awards.",
+        "zh": "這間公司贏得許多具聲望的獎項。"
+      },
+      {
+        "en": "To win prestigious awards means to receive highly respected prizes.",
+        "zh": "“Win prestigious awards” 指獲得備受尊重的獎項。"
+      },
+      {
+        "en": "The student won prestigious awards for her science project.",
+        "zh": "那名學生憑科學專題贏得具聲望的獎項。"
+      },
+      {
+        "en": "Winning prestigious awards can help a company gain trust from customers.",
+        "zh": "贏得具聲望的獎項可以幫助公司取得顧客信任。"
+      },
+      {
+        "en": "Prestigious awards matter because people see them as signs of quality.",
+        "zh": "具聲望的獎項重要，因為人們視它們為質素的標誌。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "mean the most to someone",
+    "meaning": "對某人意義最重大",
+    "examples": [
+      {
+        "en": "Which award means the most to you?",
+        "zh": "哪個獎項對你意義最重大？"
+      },
+      {
+        "en": "If something means the most to someone, it has the greatest personal importance to them.",
+        "zh": "如果某事 means the most to someone，意思是它對那個人有最大的個人意義。"
+      },
+      {
+        "en": "This thank-you letter means the most to me because my students wrote it.",
+        "zh": "這封感謝信對我意義最重大，因為它是我的學生寫的。"
+      },
+      {
+        "en": "An award may mean the most to an artist when it recognises years of hard work.",
+        "zh": "當一個獎項肯定藝術家多年的努力時，它可能對藝術家意義最重大。"
+      },
+      {
+        "en": "The most expensive gift is not always the one that means the most to someone.",
+        "zh": "最昂貴的禮物不一定是對某人意義最重大的禮物。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "it has to be",
+    "meaning": "一定是；非……莫屬",
+    "examples": [
+      {
+        "en": "It has to be the 2021 Neon Award.",
+        "zh": "一定是 2021 年霓虹獎。"
+      },
+      {
+        "en": "“It has to be” means the speaker feels one answer is clearly the best or only choice.",
+        "zh": "“It has to be” 表示說話者認為某答案明顯是最好或唯一選擇。"
+      },
+      {
+        "en": "If I choose my favourite subject, it has to be English.",
+        "zh": "如果要我選最喜歡的科目，一定是英文。"
+      },
+      {
+        "en": "When someone asks for the best restaurant nearby, my answer has to be the noodle shop downstairs.",
+        "zh": "當有人問附近最好的餐廳，我的答案一定是樓下的麵店。"
+      },
+      {
+        "en": "This phrase shows strong certainty, not just a casual preference.",
+        "zh": "這個說法顯示很強的肯定，而不只是普通偏好。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be awarded",
+    "meaning": "獲頒",
+    "examples": [
+      {
+        "en": "The company was awarded the 2021 Neon Award last year.",
+        "zh": "這間公司去年獲頒 2021 年霓虹獎。"
+      },
+      {
+        "en": "If someone is awarded a prize, they are officially given it.",
+        "zh": "如果某人 is awarded 一個獎項，意思是他正式獲得該獎。"
+      },
+      {
+        "en": "The student was awarded a medal for helping the community.",
+        "zh": "那名學生因幫助社區而獲頒獎牌。"
+      },
+      {
+        "en": "A company may be awarded a contract after presenting the best plan.",
+        "zh": "公司提出最佳方案後，可能會獲批合約。"
+      },
+      {
+        "en": "“Be awarded” is often used in formal writing about prizes, honours, or contracts.",
+        "zh": "“Be awarded” 常用於關於獎項、榮譽或合約的正式寫作。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "as in",
+    "meaning": "就是……中的；正如……所指",
+    "examples": [
+      {
+        "en": "That is neon, as in the gas used in lighting.",
+        "zh": "那是 neon，就是照明中使用的氣體。"
+      },
+      {
+        "en": "“As in” explains exactly which meaning of a word you are using.",
+        "zh": "“As in” 用來清楚解釋你使用某個字的哪個意思。"
+      },
+      {
+        "en": "I mean bass, as in the musical instrument, not the fish.",
+        "zh": "我指的是 bass，就是樂器，不是魚。"
+      },
+      {
+        "en": "This phrase helps avoid confusion when one word has more than one meaning.",
+        "zh": "當一個字有多個意思時，這個說法有助避免混淆。"
+      },
+      {
+        "en": "She said “coach,” as in a sports trainer, not a bus.",
+        "zh": "她說的 “coach”，是指運動教練，不是巴士。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "neon gas",
+    "meaning": "氖氣",
+    "examples": [
+      {
+        "en": "Neon gas is used in some illuminated signs.",
+        "zh": "氖氣用於一些發光招牌。"
+      },
+      {
+        "en": "Neon gas is a gas that can glow brightly when electricity passes through it.",
+        "zh": "氖氣是一種在通電時可以發出明亮光芒的氣體。"
+      },
+      {
+        "en": "Old shop signs often used neon gas to create colourful light.",
+        "zh": "舊式店舖招牌常使用氖氣製造彩色燈光。"
+      },
+      {
+        "en": "When neon gas glows, it can make letters stand out at night.",
+        "zh": "當氖氣發光時，它可以令文字在夜晚突出。"
+      },
+      {
+        "en": "Neon gas is important in traditional neon sign making.",
+        "zh": "氖氣在傳統霓虹招牌製作中很重要。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "an award given to",
+    "meaning": "頒發予……的獎項",
+    "examples": [
+      {
+        "en": "The Neon Award is an award given to companies that make neon lights.",
+        "zh": "霓虹獎是頒發予製作霓虹燈公司的獎項。"
+      },
+      {
+        "en": "“An award given to” someone means a prize presented to that person or group.",
+        "zh": "“An award given to” 某人，意思是頒發給該人或團體的獎項。"
+      },
+      {
+        "en": "This is an award given to students who show strong leadership.",
+        "zh": "這是頒發予展現強領導能力學生的獎項。"
+      },
+      {
+        "en": "An award given to small businesses can help them become better known.",
+        "zh": "頒發予小企業的獎項可以幫助它們提高知名度。"
+      },
+      {
+        "en": "The phrase explains who receives the prize and why.",
+        "zh": "這個說法解釋誰獲獎以及為甚麼獲獎。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "make neon lights",
+    "meaning": "製作霓虹燈",
+    "examples": [
+      {
+        "en": "The award recognises companies that make neon lights.",
+        "zh": "這個獎項表揚製作霓虹燈的公司。"
+      },
+      {
+        "en": "To make neon lights means to produce lighting signs or artworks using neon tubes.",
+        "zh": "“Make neon lights” 指使用霓虹管製作燈光招牌或藝術品。"
+      },
+      {
+        "en": "Some craftsmen still make neon lights by hand.",
+        "zh": "有些工匠仍然手工製作霓虹燈。"
+      },
+      {
+        "en": "Companies that make neon lights need both technical skill and artistic sense.",
+        "zh": "製作霓虹燈的公司需要技術和藝術感。"
+      },
+      {
+        "en": "Making neon lights can take time because the tubes must be shaped carefully.",
+        "zh": "製作霓虹燈可能需要時間，因為燈管必須小心塑形。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be proud of",
+    "meaning": "為……感到自豪",
+    "examples": [
+      {
+        "en": "Winning the award is something the company is very proud of.",
+        "zh": "贏得這個獎項是公司非常自豪的事。"
+      },
+      {
+        "en": "If you are proud of something, you feel pleased because it shows achievement or value.",
+        "zh": "如果你 are proud of 某事，意思是你因它展現成就或價值而感到高興。"
+      },
+      {
+        "en": "Parents are often proud of their children’s effort, not only their results.",
+        "zh": "家長通常為孩子的努力感到自豪，而不只是成績。"
+      },
+      {
+        "en": "A team may be proud of a project after months of hard work.",
+        "zh": "團隊經過數月努力後，可能會為項目感到自豪。"
+      },
+      {
+        "en": "Being proud of success can motivate people to keep improving.",
+        "zh": "為成功感到自豪可以推動人繼續進步。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "have a look at",
+    "meaning": "看看……",
+    "examples": [
+      {
+        "en": "Let’s have a look at some of the products.",
+        "zh": "讓我們看看其中一些產品。"
+      },
+      {
+        "en": "To have a look at something means to look at it briefly or examine it.",
+        "zh": "“Have a look at” 某物，意思是簡單看看或檢查它。"
+      },
+      {
+        "en": "Let’s have a look at the timetable before choosing a date.",
+        "zh": "在選日期前，讓我們看看時間表。"
+      },
+      {
+        "en": "A doctor may have a look at a patient’s report before giving advice.",
+        "zh": "醫生給建議前，可能會看看病人的報告。"
+      },
+      {
+        "en": "This phrase is friendlier and more casual than “examine”.",
+        "zh": "這個說法比 “examine” 更親切和口語化。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "bring in",
+    "meaning": "帶來",
+    "examples": [
+      {
+        "en": "The guests have brought in several neon products.",
+        "zh": "嘉賓帶來了幾件霓虹產品。"
+      },
+      {
+        "en": "To bring in something means to carry or introduce it into a place.",
+        "zh": "“Bring in” 某物，意思是把它帶進某地方或引入某場合。"
+      },
+      {
+        "en": "The teacher brought in old photos for the history lesson.",
+        "zh": "老師為歷史課帶來了舊照片。"
+      },
+      {
+        "en": "If guests bring in real products, listeners or viewers can understand them better.",
+        "zh": "如果嘉賓帶來真實產品，聽眾或觀眾會更容易理解。"
+      },
+      {
+        "en": "Please bring in your permission form before Friday.",
+        "zh": "請在星期五前帶來你的同意書。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "make something in different colours",
+    "meaning": "製作不同顏色的……",
+    "examples": [
+      {
+        "en": "The company makes the UFO design in different colours.",
+        "zh": "這間公司製作不同顏色的 UFO 設計。"
+      },
+      {
+        "en": "To make something in different colours means to produce the same item in several colour options.",
+        "zh": "“Make something in different colours” 指把同一件物品製成幾種顏色選擇。"
+      },
+      {
+        "en": "The shop makes this school bag in different colours.",
+        "zh": "這間店製作不同顏色的這款書包。"
+      },
+      {
+        "en": "Products made in different colours can suit different tastes.",
+        "zh": "有不同顏色的產品可以配合不同喜好。"
+      },
+      {
+        "en": "A team may make posters in different colours to see which one looks best.",
+        "zh": "團隊可能會製作不同顏色的海報，看看哪一款最好看。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be available in yellow",
+    "meaning": "有黃色款式",
+    "examples": [
+      {
+        "en": "The UFO design is also available in yellow.",
+        "zh": "UFO 設計也有黃色款式。"
+      },
+      {
+        "en": "If something is available in yellow, customers can choose a yellow version of it.",
+        "zh": "如果某物 is available in yellow，意思是顧客可以選擇黃色版本。"
+      },
+      {
+        "en": "This phone case is available in yellow and blue.",
+        "zh": "這款電話殼有黃色和藍色款式。"
+      },
+      {
+        "en": "A product available in yellow may attract customers who like bright colours.",
+        "zh": "有黃色款式的產品可能吸引喜歡鮮明顏色的顧客。"
+      },
+      {
+        "en": "The jacket is not available in yellow anymore because it has sold out.",
+        "zh": "這件外套已經沒有黃色款式，因為售罄了。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "in different sizes",
+    "meaning": "有不同尺寸",
+    "examples": [
+      {
+        "en": "The UFO design is available in different sizes.",
+        "zh": "UFO 設計有不同尺寸。"
+      },
+      {
+        "en": "“In different sizes” means there is more than one size option.",
+        "zh": "“In different sizes” 表示有多於一種尺寸選擇。"
+      },
+      {
+        "en": "The T-shirt comes in different sizes, from small to extra large.",
+        "zh": "這件 T-shirt 有不同尺寸，由細碼到加大碼都有。"
+      },
+      {
+        "en": "Products in different sizes can fit different rooms, bodies, or needs.",
+        "zh": "有不同尺寸的產品可以配合不同房間、身形或需要。"
+      },
+      {
+        "en": "Please check whether the poster can be printed in different sizes.",
+        "zh": "請檢查海報是否可以印成不同尺寸。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "measure 95 cm by 65 cm",
+    "meaning": "尺寸為95厘米乘65厘米",
+    "examples": [
+      {
+        "en": "The large UFO model measures 95 cm by 65 cm.",
+        "zh": "大型 UFO 型號的尺寸為 95 厘米乘 65 厘米。"
+      },
+      {
+        "en": "“Measures 95 cm by 65 cm” means its length and width are 95 centimetres and 65 centimetres.",
+        "zh": "“Measures 95 cm by 65 cm” 指它的長和闊是 95 厘米和 65 厘米。"
+      },
+      {
+        "en": "The poster measures 60 cm by 40 cm, so it fits the noticeboard.",
+        "zh": "這張海報尺寸為 60 厘米乘 40 厘米，所以適合告示板。"
+      },
+      {
+        "en": "If a sign measures 95 cm by 65 cm, buyers should check whether their wall has enough space.",
+        "zh": "如果招牌尺寸為 95 厘米乘 65 厘米，買家應檢查牆上是否有足夠空間。"
+      },
+      {
+        "en": "Always measure the space before ordering a large product.",
+        "zh": "訂購大型產品前，應先量度空間。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "let me just check",
+    "meaning": "讓我先確認一下",
+    "examples": [
+      {
+        "en": "Let me just check the measurements again.",
+        "zh": "讓我先再確認一下尺寸。"
+      },
+      {
+        "en": "“Let me just check” means the speaker wants to confirm something quickly.",
+        "zh": "“Let me just check” 表示說話者想快速確認某事。"
+      },
+      {
+        "en": "Let me just check the meeting time before I reply.",
+        "zh": "讓我先確認一下會議時間，然後才回覆。"
+      },
+      {
+        "en": "A shop assistant may say this before checking stock.",
+        "zh": "店員查看存貨前，可能會這樣說。"
+      },
+      {
+        "en": "This phrase sounds careful and helpful because it avoids guessing.",
+        "zh": "這個說法聽起來細心而有幫助，因為它避免亂猜。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "use a tape measure",
+    "meaning": "使用捲尺",
+    "examples": [
+      {
+        "en": "Rick uses a tape measure to check the size.",
+        "zh": "Rick 使用捲尺檢查尺寸。"
+      },
+      {
+        "en": "To use a tape measure means to measure length, width, or height with a flexible measuring tool.",
+        "zh": "“Use a tape measure” 指使用柔軟的量度工具量度長度、闊度或高度。"
+      },
+      {
+        "en": "My father used a tape measure before buying a new table.",
+        "zh": "我爸爸買新桌子前使用捲尺量度。"
+      },
+      {
+        "en": "If you use a tape measure carefully, you can avoid buying furniture that is too large.",
+        "zh": "如果你小心使用捲尺，就能避免買到太大的家具。"
+      },
+      {
+        "en": "Designers often use a tape measure before installing signs or decorations.",
+        "zh": "設計師安裝招牌或裝飾前，常使用捲尺。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "How much would this one cost?",
+    "meaning": "這一件要多少錢？",
+    "examples": [
+      {
+        "en": "How much would this small UFO cost?",
+        "zh": "這個小型 UFO 要多少錢？"
+      },
+      {
+        "en": "“How much would this one cost?” asks for the price of a particular item.",
+        "zh": "“How much would this one cost?” 是詢問某件特定物品的價格。"
+      },
+      {
+        "en": "How much would this one cost if I ordered it in a larger size?",
+        "zh": "如果我訂購大一點的尺寸，這一件要多少錢？"
+      },
+      {
+        "en": "A customer may ask this when comparing two products in a shop.",
+        "zh": "顧客在店內比較兩件產品時，可能會這樣問。"
+      },
+      {
+        "en": "This question is polite because “would” makes it sound less direct.",
+        "zh": "這個問題很有禮貌，因為 “would” 令語氣沒有那麼直接。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s a bargain!",
+    "meaning": "真划算；很抵買",
+    "examples": [
+      {
+        "en": "The small UFO costs only $600, so Julia says, “That’s a bargain!”",
+        "zh": "小型 UFO 只需 600 元，所以 Julia 說：「真划算！」"
+      },
+      {
+        "en": "“That’s a bargain!” means the price is very good for what you get.",
+        "zh": "“That’s a bargain!” 表示以這個價錢買到這件東西很值得。"
+      },
+      {
+        "en": "This jacket is only $100. That’s a bargain!",
+        "zh": "這件外套只需 100 元。真划算！"
+      },
+      {
+        "en": "People say this when something is cheaper than expected.",
+        "zh": "當某物比預期便宜時，人們會這樣說。"
+      },
+      {
+        "en": "A bargain is not just cheap; it also feels worth the money.",
+        "zh": "抵買不只是便宜，也表示物有所值。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "I wish you were here",
+    "meaning": "真希望你在這裏",
+    "examples": [
+      {
+        "en": "I wish you were here so that you could see the Hong Kong Skyline.",
+        "zh": "真希望你在這裏，這樣你就可以看到香港天際線。"
+      },
+      {
+        "en": "“I wish you were here” means I want you to be in this place with me now.",
+        "zh": "“I wish you were here” 意思是我希望你現在和我一起在這個地方。"
+      },
+      {
+        "en": "I wish you were here to enjoy this beautiful sunset.",
+        "zh": "真希望你在這裏，可以欣賞這個美麗日落。"
+      },
+      {
+        "en": "People often say this when describing a place that someone absent would enjoy.",
+        "zh": "人們描述某個不在場的人會喜歡的地方時，常這樣說。"
+      },
+      {
+        "en": "The phrase can sound warm, emotional, and personal.",
+        "zh": "這個說法聽起來溫暖、感性而個人化。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "so that someone could",
+    "meaning": "好讓某人可以……",
+    "examples": [
+      {
+        "en": "Julia describes the sign so that listeners could picture it.",
+        "zh": "Julia 描述那個招牌，好讓聽眾可以想像它。"
+      },
+      {
+        "en": "“So that someone could” explains the purpose of an action.",
+        "zh": "“So that someone could” 用來解釋某個行動的目的。"
+      },
+      {
+        "en": "The teacher spoke slowly so that students could follow the instructions.",
+        "zh": "老師說得很慢，好讓學生可以跟上指示。"
+      },
+      {
+        "en": "We took photos so that absent classmates could see the event.",
+        "zh": "我們拍了照片，好讓缺席同學可以看到活動。"
+      },
+      {
+        "en": "This structure shows the intended result of what someone does.",
+        "zh": "這個結構顯示某人做某事想達到的結果。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be used to cover a wall",
+    "meaning": "可用來覆蓋整面牆",
+    "examples": [
+      {
+        "en": "The Hong Kong Skyline could be used to cover an entire wall.",
+        "zh": "香港天際線可以用來覆蓋整面牆。"
+      },
+      {
+        "en": "If something is used to cover a wall, it is placed over the wall as decoration or protection.",
+        "zh": "如果某物 is used to cover a wall，意思是它被放在牆上作裝飾或保護。"
+      },
+      {
+        "en": "A large poster can be used to cover a wall in a classroom.",
+        "zh": "一張大型海報可以用來覆蓋課室的一面牆。"
+      },
+      {
+        "en": "Wallpaper is used to cover a wall and change the look of a room.",
+        "zh": "牆紙用來覆蓋牆壁並改變房間外觀。"
+      },
+      {
+        "en": "Before using a design to cover a wall, check the wall size carefully.",
+        "zh": "使用設計覆蓋牆壁前，應仔細檢查牆身尺寸。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "not be available yet",
+    "meaning": "尚未推出；暫時未有供應",
+    "examples": [
+      {
+        "en": "The Hong Kong Skyline is not available yet.",
+        "zh": "香港天際線尚未推出。"
+      },
+      {
+        "en": "If a product is not available yet, customers cannot buy or use it now.",
+        "zh": "如果產品 is not available yet，意思是顧客現在還不能購買或使用。"
+      },
+      {
+        "en": "The new school app is not available yet because testing is not finished.",
+        "zh": "新學校應用程式尚未推出，因為測試還未完成。"
+      },
+      {
+        "en": "When a product is not available yet, customers may need to wait for the launch date.",
+        "zh": "當產品尚未推出時，顧客可能需要等到發布日期。"
+      },
+      {
+        "en": "This phrase is useful when something has been announced but not released.",
+        "zh": "這個說法適合用於某物已公布但尚未推出的情況。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "wait until",
+    "meaning": "等到……",
+    "examples": [
+      {
+        "en": "Customers will need to wait until the 7th of June.",
+        "zh": "顧客需要等到六月七日。"
+      },
+      {
+        "en": "“Wait until” means not doing something before a particular time or event.",
+        "zh": "“Wait until” 表示在某個特定時間或事件之前不做某事。"
+      },
+      {
+        "en": "Please wait until the teacher finishes speaking before asking questions.",
+        "zh": "請等到老師說完才提問。"
+      },
+      {
+        "en": "Customers may wait until a sale begins before buying expensive items.",
+        "zh": "顧客可能會等到減價開始才買昂貴物品。"
+      },
+      {
+        "en": "If we wait until Friday, we may have more information.",
+        "zh": "如果我們等到星期五，可能會有更多資料。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "go in the calendar",
+    "meaning": "記在日曆上",
+    "examples": [
+      {
+        "en": "The product launch date is going in Julia’s calendar.",
+        "zh": "產品發布日期會記在 Julia 的日曆上。"
+      },
+      {
+        "en": "If a date goes in the calendar, someone records it so they will remember it.",
+        "zh": "如果日期 goes in the calendar，意思是某人把它記下來，以免忘記。"
+      },
+      {
+        "en": "The parents’ meeting is going in my calendar now.",
+        "zh": "家長會現在要記在我的日曆上。"
+      },
+      {
+        "en": "Important deadlines should go in the calendar to avoid last-minute panic.",
+        "zh": "重要截止日期應記在日曆上，以避免最後一刻慌亂。"
+      },
+      {
+        "en": "When a date is going in the calendar, it means it is worth remembering.",
+        "zh": "當某日期要記在日曆上，表示它值得記住。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "besides the products you design",
+    "meaning": "除了你們設計的產品之外",
+    "examples": [
+      {
+        "en": "Besides the products the company designs, it also produces customer-supplied designs.",
+        "zh": "除了公司設計的產品之外，它也製作客戶提供的設計。"
+      },
+      {
+        "en": "“Besides the products you design” means in addition to the products created by you or your company.",
+        "zh": "“Besides the products you design” 意思是除了你或你公司創作的產品之外。"
+      },
+      {
+        "en": "Besides the products you design, do you also repair old signs?",
+        "zh": "除了你們設計的產品之外，你們也維修舊招牌嗎？"
+      },
+      {
+        "en": "This phrase helps add another service after mentioning the main products.",
+        "zh": "這個說法有助在提到主要產品後加入另一項服務。"
+      },
+      {
+        "en": "Besides the products you design, customers may want custom-made items.",
+        "zh": "除了你們設計的產品之外，顧客可能也想要訂製產品。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "have just looked at",
+    "meaning": "剛剛看過",
+    "examples": [
+      {
+        "en": "Julia refers to the products they have just looked at.",
+        "zh": "Julia 提到他們剛剛看過的產品。"
+      },
+      {
+        "en": "“Have just looked at” means someone looked at something a very short time ago.",
+        "zh": "“Have just looked at” 意思是某人不久之前剛看過某物。"
+      },
+      {
+        "en": "The teacher asked questions about the chart we had just looked at.",
+        "zh": "老師就我們剛剛看過的圖表提問。"
+      },
+      {
+        "en": "After you have just looked at a design, your comments are usually fresh.",
+        "zh": "你剛剛看過設計後，意見通常會很新鮮。"
+      },
+      {
+        "en": "This phrase connects the present discussion with something seen moments earlier.",
+        "zh": "這個說法把現在的討論與剛才看到的東西連接起來。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "customer-supplied designs",
+    "meaning": "客戶提供的設計",
+    "examples": [
+      {
+        "en": "The company turns customer-supplied designs into neon signs.",
+        "zh": "這間公司把客戶提供的設計製成霓虹招牌。"
+      },
+      {
+        "en": "Customer-supplied designs are designs provided by customers, not by the company.",
+        "zh": "“Customer-supplied designs” 指由客戶提供，而不是由公司設計的圖案。"
+      },
+      {
+        "en": "A bakery may use customer-supplied designs for birthday cakes.",
+        "zh": "麵包店可能會為生日蛋糕使用客戶提供的設計。"
+      },
+      {
+        "en": "Customer-supplied designs allow people to create something more personal.",
+        "zh": "客戶提供的設計讓人創作更個人化的東西。"
+      },
+      {
+        "en": "The company should check customer-supplied designs carefully before production.",
+        "zh": "公司在生產前應仔細檢查客戶提供的設計。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "through our website",
+    "meaning": "透過我們的網站",
+    "examples": [
+      {
+        "en": "Customers can submit their designs through the company’s website.",
+        "zh": "顧客可以透過公司網站提交他們的設計。"
+      },
+      {
+        "en": "“Through our website” means by using the website as the method.",
+        "zh": "“Through our website” 表示使用網站作為方法。"
+      },
+      {
+        "en": "Parents can register for the talk through our website.",
+        "zh": "家長可以透過我們的網站報名參加講座。"
+      },
+      {
+        "en": "If customers order through our website, the company can keep records more easily.",
+        "zh": "如果顧客透過我們的網站下單，公司可以更容易保存紀錄。"
+      },
+      {
+        "en": "This phrase is common when explaining online services.",
+        "zh": "這個說法常用於解釋網上服務。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "send someone a design",
+    "meaning": "把設計傳給某人",
+    "examples": [
+      {
+        "en": "Customers can send the company their own designs.",
+        "zh": "顧客可以把自己的設計傳給公司。"
+      },
+      {
+        "en": "To send someone a design means to give or email a design to that person or organisation.",
+        "zh": "“Send someone a design” 意思是把設計交給或電郵給某人或機構。"
+      },
+      {
+        "en": "Please send me your design before Friday.",
+        "zh": "請在星期五前把你的設計傳給我。"
+      },
+      {
+        "en": "If customers send the company a clear design, the production team can work faster.",
+        "zh": "如果顧客把清晰設計傳給公司，生產團隊可以更快工作。"
+      },
+      {
+        "en": "Before you send someone a design, check the file name and size.",
+        "zh": "在把設計傳給某人前，應檢查檔案名稱和大小。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "make something into a neon sign",
+    "meaning": "把……製成霓虹招牌",
+    "examples": [
+      {
+        "en": "The neon artists can make a customer’s design into a neon sign.",
+        "zh": "霓虹藝術家可以把客戶的設計製成霓虹招牌。"
+      },
+      {
+        "en": "To make something into a neon sign means to turn a design or image into a sign made with neon light.",
+        "zh": "“Make something into a neon sign” 指把設計或圖像變成用霓虹燈製成的招牌。"
+      },
+      {
+        "en": "The shop can make your name into a neon sign for your room.",
+        "zh": "這間店可以把你的名字製成房間用的霓虹招牌。"
+      },
+      {
+        "en": "Simple designs are easier to make into neon signs because the lines are clearer.",
+        "zh": "簡單設計較容易製成霓虹招牌，因為線條更清楚。"
+      },
+      {
+        "en": "Before making a drawing into a neon sign, designers may need to simplify it.",
+        "zh": "把圖畫製成霓虹招牌前，設計師可能需要簡化它。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "what’s special about",
+    "meaning": "……有甚麼特別之處",
+    "examples": [
+      {
+        "en": "Julia asks what is special about the birthday cake signs.",
+        "zh": "Julia 問生日蛋糕造型招牌有甚麼特別之處。"
+      },
+      {
+        "en": "“What’s special about” asks what makes something different, interesting, or better than usual.",
+        "zh": "“What’s special about” 是詢問某事有甚麼不同、有趣或比一般更好的地方。"
+      },
+      {
+        "en": "What’s special about this school programme?",
+        "zh": "這個學校計劃有甚麼特別之處？"
+      },
+      {
+        "en": "Customers may ask what is special about a product before deciding to buy it.",
+        "zh": "顧客在決定購買前，可能會問產品有甚麼特別之處。"
+      },
+      {
+        "en": "This question invites someone to explain the unique value of something.",
+        "zh": "這個問題邀請別人解釋某事的獨特價值。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "birthday cake sign",
+    "meaning": "生日蛋糕造型霓虹招牌",
+    "examples": [
+      {
+        "en": "The company can personalise a birthday cake sign.",
+        "zh": "公司可以把生日蛋糕造型霓虹招牌個人化。"
+      },
+      {
+        "en": "A birthday cake sign is a sign shaped like or designed around a birthday cake.",
+        "zh": "“Birthday cake sign” 指形狀像生日蛋糕或以生日蛋糕為設計主題的招牌。"
+      },
+      {
+        "en": "The shop made a birthday cake sign for a child’s party.",
+        "zh": "店舖為小朋友派對製作了一個生日蛋糕造型霓虹招牌。"
+      },
+      {
+        "en": "A birthday cake sign can make a celebration feel brighter and more personal.",
+        "zh": "生日蛋糕造型霓虹招牌可以令慶祝活動更明亮和個人化。"
+      },
+      {
+        "en": "Customers may choose a birthday cake sign with a name and age on it.",
+        "zh": "顧客可能會選擇上面有姓名和年齡的生日蛋糕造型霓虹招牌。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "birthday boy or girl",
+    "meaning": "生日主角",
+    "examples": [
+      {
+        "en": "Customers can provide the name and age of the birthday boy or girl.",
+        "zh": "顧客可以提供生日主角的姓名和年齡。"
+      },
+      {
+        "en": "The birthday boy or girl is the person whose birthday is being celebrated.",
+        "zh": "“Birthday boy or girl” 指生日慶祝活動中的主角。"
+      },
+      {
+        "en": "Everyone sang when the birthday boy entered the room.",
+        "zh": "當生日主角走進房間時，大家一起唱歌。"
+      },
+      {
+        "en": "A party feels more personal when the birthday boy or girl sees their name on the decoration.",
+        "zh": "當生日主角在裝飾上看到自己的名字，派對會更個人化。"
+      },
+      {
+        "en": "This phrase can refer to a child, teenager, or adult in a birthday celebration.",
+        "zh": "這個說法可以指生日慶祝中的小孩、青少年或成年人。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "tell someone the name and age of",
+    "meaning": "告訴某人……的姓名和年齡",
+    "examples": [
+      {
+        "en": "The customer tells the company the name and age of the birthday boy or girl.",
+        "zh": "顧客告訴公司生日主角的姓名和年齡。"
+      },
+      {
+        "en": "To tell someone the name and age of a person means to give those details to them.",
+        "zh": "“Tell someone the name and age of” 某人，意思是向某人提供該人的姓名和年齡資料。"
+      },
+      {
+        "en": "Please tell the teacher the name and age of each student joining the trip.",
+        "zh": "請告訴老師每位參加旅行學生的姓名和年齡。"
+      },
+      {
+        "en": "If customers tell the company the name and age early, the sign can be made correctly.",
+        "zh": "如果顧客早點告訴公司姓名和年齡，招牌就可以正確製作。"
+      },
+      {
+        "en": "This phrase is useful when personal details are needed for a form or design.",
+        "zh": "當表格或設計需要個人資料時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "put someone’s name and age on",
+    "meaning": "把某人的姓名和年齡放在……上",
+    "examples": [
+      {
+        "en": "The artists put the person’s name and age on the birthday cake sign.",
+        "zh": "藝術家把那個人的姓名和年齡放在生日蛋糕造型招牌上。"
+      },
+      {
+        "en": "To put someone’s name and age on something means to add those details to it.",
+        "zh": "“Put someone’s name and age on” 某物，意思是把那些資料加到它上面。"
+      },
+      {
+        "en": "The teacher put each student’s name and class on the certificate.",
+        "zh": "老師把每位學生的姓名和班別放在證書上。"
+      },
+      {
+        "en": "If you put someone’s name and age on a gift, it feels more personal.",
+        "zh": "如果你把某人的姓名和年齡放在禮物上，它會感覺更個人化。"
+      },
+      {
+        "en": "Before printing, check that the name and age on the sign are correct.",
+        "zh": "印製前，請檢查招牌上的姓名和年齡是否正確。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "with your name and age on it",
+    "meaning": "上面有你的姓名和年齡",
+    "examples": [
+      {
+        "en": "Would you like a neon birthday cake with your name and age on it?",
+        "zh": "你想要一個上面有你姓名和年齡的霓虹生日蛋糕嗎？"
+      },
+      {
+        "en": "“With your name and age on it” means the item includes your personal details.",
+        "zh": "“With your name and age on it” 意思是物品上包含你的個人資料。"
+      },
+      {
+        "en": "The child wanted a birthday card with her name and age on it.",
+        "zh": "那個孩子想要一張上面有她姓名和年齡的生日卡。"
+      },
+      {
+        "en": "A gift with your name and age on it feels specially made for you.",
+        "zh": "上面有你姓名和年齡的禮物，感覺像是特別為你製作的。"
+      },
+      {
+        "en": "This phrase often appears when people describe personalised products.",
+        "zh": "這個說法常出現在描述個人化產品時。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "Would you like to receive…?",
+    "meaning": "你想收到……嗎？",
+    "examples": [
+      {
+        "en": "Would you like to receive a personalised neon sign?",
+        "zh": "你想收到一個個人化霓虹招牌嗎？"
+      },
+      {
+        "en": "“Would you like to receive…?” is a polite way to ask whether someone wants to get something.",
+        "zh": "“Would you like to receive…?” 是禮貌地詢問某人是否想收到某物的說法。"
+      },
+      {
+        "en": "Would you like to receive updates by email?",
+        "zh": "你想透過電郵收到更新嗎？"
+      },
+      {
+        "en": "A shop may ask this question before sending customers a catalogue.",
+        "zh": "店舖在寄產品目錄給顧客前，可能會這樣問。"
+      },
+      {
+        "en": "The phrase sounds more polite than “Do you want to get…?”",
+        "zh": "這個說法比 “Do you want to get…?” 更有禮貌。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "I know I would",
+    "meaning": "我就一定會",
+    "examples": [
+      {
+        "en": "Julia says that she would certainly like one: “I know I would.”",
+        "zh": "Julia 說她一定會想要一個：「我就一定會。」"
+      },
+      {
+        "en": "“I know I would” means I am sure I would like, do, or choose that thing.",
+        "zh": "“I know I would” 意思是我肯定自己會喜歡、會做或會選擇那件事。"
+      },
+      {
+        "en": "Would you enjoy a free weekend trip? I know I would.",
+        "zh": "你會享受免費週末旅行嗎？我就一定會。"
+      },
+      {
+        "en": "People use this phrase to give a strong personal response.",
+        "zh": "人們用這個說法表達強烈的個人回應。"
+      },
+      {
+        "en": "It often sounds friendly, enthusiastic, and conversational.",
+        "zh": "它通常聽起來友善、熱情和口語化。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be very popular",
+    "meaning": "很受歡迎",
+    "examples": [
+      {
+        "en": "The personalised birthday cake sign is very popular.",
+        "zh": "個人化生日蛋糕造型招牌很受歡迎。"
+      },
+      {
+        "en": "If something is very popular, many people like it, buy it, or use it.",
+        "zh": "如果某物 is very popular，意思是很多人喜歡、購買或使用它。"
+      },
+      {
+        "en": "The new reading corner is very popular with junior students.",
+        "zh": "新閱讀角很受初中學生歡迎。"
+      },
+      {
+        "en": "A product can become very popular when people share photos of it online.",
+        "zh": "當人們在網上分享某產品的照片時，它可能變得很受歡迎。"
+      },
+      {
+        "en": "Being very popular can also create high demand and longer waiting times.",
+        "zh": "很受歡迎也可能帶來高需求和較長等候時間。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "let’s talk about",
+    "meaning": "讓我們談談……",
+    "examples": [
+      {
+        "en": "Let’s talk about the company’s history and beginnings.",
+        "zh": "讓我們談談公司的歷史和創立經過。"
+      },
+      {
+        "en": "“Let’s talk about” is used to introduce a topic for discussion.",
+        "zh": "“Let’s talk about” 用於引入一個討論題目。"
+      },
+      {
+        "en": "Let’s talk about the plan for next week’s event.",
+        "zh": "讓我們談談下星期活動的計劃。"
+      },
+      {
+        "en": "A host may use this phrase to move the interview to a new topic.",
+        "zh": "主持人可能會用這個說法把訪問帶到新話題。"
+      },
+      {
+        "en": "This phrase is simple, direct, and useful in meetings or conversations.",
+        "zh": "這個說法簡單直接，適合用於會議或對話。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "the company’s history and beginnings",
+    "meaning": "公司的歷史和創立經過",
+    "examples": [
+      {
+        "en": "Julia asks about the company’s history and beginnings.",
+        "zh": "Julia 詢問公司的歷史和創立經過。"
+      },
+      {
+        "en": "The company’s history and beginnings means how the company started and developed over time.",
+        "zh": "“The company’s history and beginnings” 指公司如何創立以及之後如何發展。"
+      },
+      {
+        "en": "A founder may tell the company’s history and beginnings during an interview.",
+        "zh": "創辦人在訪問中可能會講述公司的歷史和創立經過。"
+      },
+      {
+        "en": "Understanding a company’s history and beginnings can help customers trust its experience.",
+        "zh": "了解公司的歷史和創立經過，可以幫助顧客信任它的經驗。"
+      },
+      {
+        "en": "This phrase is useful when discussing a business story from the start.",
+        "zh": "這個說法適合用於從起點談論一間公司的故事。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "have known each other for quite a while",
+    "meaning": "相識已有一段時間",
+    "examples": [
+      {
+        "en": "Pris and Rick have known each other for quite a while.",
+        "zh": "Pris 和 Rick 相識已有一段時間。"
+      },
+      {
+        "en": "If people have known each other for quite a while, they met some time ago and have stayed connected.",
+        "zh": "如果人們 have known each other for quite a while，意思是他們早前已認識，並一直有聯繫。"
+      },
+      {
+        "en": "My parents and our neighbour have known each other for quite a while.",
+        "zh": "我的父母和我們的鄰居相識已有一段時間。"
+      },
+      {
+        "en": "People who have known each other for quite a while often understand each other’s habits.",
+        "zh": "相識已有一段時間的人，通常了解彼此的習慣。"
+      },
+      {
+        "en": "This phrase suggests a relationship that is not new.",
+        "zh": "這個說法表示一段關係並不是新的。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "My goodness",
+    "meaning": "我的天；天啊",
+    "examples": [
+      {
+        "en": "Pris responds, “My goodness, yes,” when Julia asks about their long friendship.",
+        "zh": "當 Julia 問到他們的長久友誼時，Pris 回應：「我的天，是的。」"
+      },
+      {
+        "en": "“My goodness” expresses surprise, emotion, or strong reaction.",
+        "zh": "“My goodness” 用來表達驚訝、情緒或強烈反應。"
+      },
+      {
+        "en": "My goodness, the hall is already full!",
+        "zh": "天啊，禮堂已經坐滿了！"
+      },
+      {
+        "en": "Someone may say “my goodness” after hearing unexpected news.",
+        "zh": "有人聽到意想不到的消息後，可能會說 “my goodness”。"
+      },
+      {
+        "en": "It is softer and more polite than many stronger expressions of surprise.",
+        "zh": "它比許多較強烈的驚訝表達更溫和、更有禮貌。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "decide to start one’s own company",
+    "meaning": "決定創立自己的公司",
+    "examples": [
+      {
+        "en": "Pris decided to start her own company in 1980.",
+        "zh": "Pris 在 1980 年決定創立自己的公司。"
+      },
+      {
+        "en": "To decide to start one’s own company means to choose to create and run a new business.",
+        "zh": "“Decide to start one’s own company” 指選擇創立並經營一間新企業。"
+      },
+      {
+        "en": "After years of working in a bakery, she decided to start her own company.",
+        "zh": "在麵包店工作多年後，她決定創立自己的公司。"
+      },
+      {
+        "en": "People may decide to start their own company when they have a clear idea and enough experience.",
+        "zh": "當人們有清晰想法和足夠經驗時，可能會決定創立自己的公司。"
+      },
+      {
+        "en": "Starting one’s own company can be exciting but also risky.",
+        "zh": "創立自己的公司可以令人興奮，但也有風險。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "realise that",
+    "meaning": "意識到",
+    "examples": [
+      {
+        "en": "She realised that she needed professional training first.",
+        "zh": "她意識到自己首先需要專業培訓。"
+      },
+      {
+        "en": "“Realise that” means to understand or become aware of something.",
+        "zh": "“Realise that” 意思是明白或察覺到某事。"
+      },
+      {
+        "en": "I realised that I had left my homework at home.",
+        "zh": "我意識到自己把功課留在家裡了。"
+      },
+      {
+        "en": "A student may realise that more practice is needed after receiving feedback.",
+        "zh": "學生收到回饋後，可能會意識到需要更多練習。"
+      },
+      {
+        "en": "This phrase often shows a new understanding or discovery.",
+        "zh": "這個說法常顯示新的理解或發現。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "need training from the best",
+    "meaning": "需要向最頂尖的人接受訓練",
+    "examples": [
+      {
+        "en": "Pris believed that she needed training from the best.",
+        "zh": "Pris 相信自己需要向最頂尖的人接受訓練。"
+      },
+      {
+        "en": "To need training from the best means to require teaching from highly skilled people.",
+        "zh": "“Need training from the best” 指需要由技術高超的人教授。"
+      },
+      {
+        "en": "A young chef may need training from the best to learn fine techniques.",
+        "zh": "年輕廚師可能需要向最頂尖的人接受訓練，學習精細技巧。"
+      },
+      {
+        "en": "If a craft is difficult, training from the best can prevent bad habits.",
+        "zh": "如果一門工藝很困難，向最頂尖的人接受訓練可以避免壞習慣。"
+      },
+      {
+        "en": "This phrase shows respect for experts and the value of proper learning.",
+        "zh": "這個說法表現對專家的尊重，以及正規學習的價值。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "back in 1980",
+    "meaning": "早在1980年",
+    "examples": [
+      {
+        "en": "Rick was already a leading neon master back in 1980.",
+        "zh": "早在 1980 年，Rick 已經是頂尖霓虹大師。"
+      },
+      {
+        "en": "“Back in 1980” means in the year 1980, usually looking back from the present.",
+        "zh": "“Back in 1980” 指在 1980 年，通常是從現在回望過去。"
+      },
+      {
+        "en": "Back in 1980, computers were much less common in homes.",
+        "zh": "早在 1980 年，電腦在家庭中遠沒有現在普遍。"
+      },
+      {
+        "en": "People use this phrase when talking about a past time with some distance.",
+        "zh": "人們談論一段較久遠的過去時間時，會使用這個說法。"
+      },
+      {
+        "en": "Back in 1980, the company had not yet become famous.",
+        "zh": "早在 1980 年，這間公司還未成名。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "to this day",
+    "meaning": "直至今天；時至今日",
+    "examples": [
+      {
+        "en": "Rick was highly respected in 1980 and remains so to this day.",
+        "zh": "Rick 在 1980 年已備受尊重，時至今日仍然如此。"
+      },
+      {
+        "en": "“To this day” means until now or even today.",
+        "zh": "“To this day” 意思是直到現在或時至今日。"
+      },
+      {
+        "en": "My grandmother still remembers her first teacher to this day.",
+        "zh": "我的祖母時至今日仍記得她的第一位老師。"
+      },
+      {
+        "en": "A strong tradition can remain meaningful to this day if people continue practising it.",
+        "zh": "如果人們繼續實踐，一個強大的傳統可以直至今天仍有意義。"
+      },
+      {
+        "en": "This phrase often shows that something has lasted for a long time.",
+        "zh": "這個說法通常表示某事持續了很長時間。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "think about starting a company",
+    "meaning": "考慮創辦公司",
+    "examples": [
+      {
+        "en": "Pris began thinking about starting a company in 1980.",
+        "zh": "Pris 在 1980 年開始考慮創辦公司。"
+      },
+      {
+        "en": "To think about starting a company means to consider creating a new business.",
+        "zh": "“Think about starting a company” 指考慮創立一間新企業。"
+      },
+      {
+        "en": "My friend is thinking about starting a company that sells handmade soap.",
+        "zh": "我的朋友正在考慮創辦一間銷售手工肥皂的公司。"
+      },
+      {
+        "en": "People should think about costs, customers, and skills before starting a company.",
+        "zh": "人們在創辦公司前，應考慮成本、顧客和技能。"
+      },
+      {
+        "en": "Thinking about starting a company is the first step before making a real plan.",
+        "zh": "考慮創辦公司是制定真正計劃之前的第一步。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "found a company",
+    "meaning": "創立公司",
+    "examples": [
+      {
+        "en": "Pris did not actually found the company until 1981.",
+        "zh": "Pris 實際上直到 1981 年才創立公司。"
+      },
+      {
+        "en": "To found a company means to start or establish it.",
+        "zh": "“Found a company” 意思是創辦或成立一間公司。"
+      },
+      {
+        "en": "Two engineers founded a company to develop low-cost medical tools.",
+        "zh": "兩名工程師創立了一間公司，開發低成本醫療工具。"
+      },
+      {
+        "en": "A person may need money, skills, and partners before founding a company.",
+        "zh": "一個人在創立公司前，可能需要資金、技能和合作伙伴。"
+      },
+      {
+        "en": "“Found” is more formal than “start” when talking about creating an organisation.",
+        "zh": "談論創立機構時，“found” 比 “start” 更正式。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "the following year",
+    "meaning": "翌年；第二年",
+    "examples": [
+      {
+        "en": "She founded the company the following year.",
+        "zh": "她翌年創立了公司。"
+      },
+      {
+        "en": "“The following year” means the year after the one just mentioned.",
+        "zh": "“The following year” 指剛才提到的年份之後一年。"
+      },
+      {
+        "en": "He moved to Canada in 2019 and started university the following year.",
+        "zh": "他在 2019 年移居加拿大，翌年開始讀大學。"
+      },
+      {
+        "en": "If a project begins in December, the following year may bring its first results.",
+        "zh": "如果項目在十二月開始，第二年可能會帶來首批成果。"
+      },
+      {
+        "en": "This phrase helps writers avoid repeating exact years too often.",
+        "zh": "這個說法幫助寫作者避免過度重複確實年份。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "You see",
+    "meaning": "你要知道；其實",
+    "examples": [
+      {
+        "en": "“You see, I needed to get trained first,” Pris explains.",
+        "zh": "Pris 解釋說：「你要知道，我需要先接受訓練。」"
+      },
+      {
+        "en": "“You see” is used before explaining the reason behind something.",
+        "zh": "“You see” 用於解釋某事背後原因之前。"
+      },
+      {
+        "en": "You see, the shop closes early on Sundays.",
+        "zh": "你要知道，這間店星期日會提早關門。"
+      },
+      {
+        "en": "A speaker may say “you see” when helping listeners understand the background.",
+        "zh": "說話者幫助聽者理解背景時，可能會說 “you see”。"
+      },
+      {
+        "en": "This phrase sounds conversational and slightly explanatory.",
+        "zh": "這個說法聽起來口語化，而且帶有解釋語氣。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "get trained first",
+    "meaning": "先接受訓練",
+    "examples": [
+      {
+        "en": "Pris needed to get trained first.",
+        "zh": "Pris 需要先接受訓練。"
+      },
+      {
+        "en": "To get trained first means to receive instruction before doing a job or task.",
+        "zh": "“Get trained first” 意思是在做工作或任務前先接受指導。"
+      },
+      {
+        "en": "New volunteers must get trained first before helping children.",
+        "zh": "新義工在幫助兒童前，必須先接受訓練。"
+      },
+      {
+        "en": "If workers get trained first, they are less likely to make dangerous mistakes.",
+        "zh": "如果員工先接受訓練，他們較不容易犯危險錯誤。"
+      },
+      {
+        "en": "This phrase shows that learning should happen before independent action.",
+        "zh": "這個說法表示學習應在獨立行動之前發生。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "the leading neon master in Asia",
+    "meaning": "亞洲頂尖的霓虹大師",
+    "examples": [
+      {
+        "en": "Rick was the leading neon master in Asia at the time.",
+        "zh": "Rick 當時是亞洲頂尖的霓虹大師。"
+      },
+      {
+        "en": "The leading neon master in Asia means one of the most respected experts in neon work across Asia.",
+        "zh": "“The leading neon master in Asia” 指亞洲範圍內最受尊重的霓虹工藝專家之一。"
+      },
+      {
+        "en": "A young artist would be lucky to learn from the leading neon master in Asia.",
+        "zh": "年輕藝術家能向亞洲頂尖的霓虹大師學習，會很幸運。"
+      },
+      {
+        "en": "Being called the leading neon master in Asia suggests great skill and reputation.",
+        "zh": "被稱為亞洲頂尖的霓虹大師，表示擁有高超技術和名望。"
+      },
+      {
+        "en": "This phrase is used to describe someone at the top of a craft.",
+        "zh": "這個說法用來形容某人在一門工藝中處於頂尖水平。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be extremely lucky that",
+    "meaning": "非常幸運地……",
+    "examples": [
+      {
+        "en": "Pris felt extremely lucky that Rick agreed to train her.",
+        "zh": "Pris 覺得非常幸運，Rick 願意培訓她。"
+      },
+      {
+        "en": "“Be extremely lucky that” means to feel very fortunate because something good happened.",
+        "zh": "“Be extremely lucky that” 表示因某件好事發生而感到非常幸運。"
+      },
+      {
+        "en": "I was extremely lucky that my teacher had time to help me.",
+        "zh": "我非常幸運，老師有時間幫助我。"
+      },
+      {
+        "en": "A young designer may feel extremely lucky that an expert gives honest feedback.",
+        "zh": "年輕設計師可能會覺得非常幸運，因為專家給予真誠回饋。"
+      },
+      {
+        "en": "This phrase shows strong gratitude for a rare chance.",
+        "zh": "這個說法表達對難得機會的強烈感激。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "take someone on",
+    "meaning": "收某人為徒；聘用某人",
+    "examples": [
+      {
+        "en": "Rick took Pris on as a trainee.",
+        "zh": "Rick 收 Pris 為見習生。"
+      },
+      {
+        "en": "To take someone on means to accept or hire them for a role.",
+        "zh": "“Take someone on” 指接受或聘用某人擔任某個角色。"
+      },
+      {
+        "en": "The company took three students on as summer interns.",
+        "zh": "公司聘用了三名學生作暑期實習生。"
+      },
+      {
+        "en": "A master may take a beginner on if they show patience and talent.",
+        "zh": "如果初學者展現耐性和天分，大師可能會收他為徒。"
+      },
+      {
+        "en": "This phrase is often used when someone is accepted into a job, course, or training role.",
+        "zh": "這個說法常用於某人被接受入職、入讀課程或加入培訓角色。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "once I’d finished my training",
+    "meaning": "我完成培訓後",
+    "examples": [
+      {
+        "en": "Once Pris had finished her training, she founded Shiny Diamond Lighting.",
+        "zh": "Pris 完成培訓後，創立了 Shiny Diamond Lighting。"
+      },
+      {
+        "en": "“Once I’d finished my training” means after I had completed my training.",
+        "zh": "“Once I’d finished my training” 意思是我完成培訓之後。"
+      },
+      {
+        "en": "Once I’d finished my training, I started working with real customers.",
+        "zh": "我完成培訓後，開始與真實顧客合作。"
+      },
+      {
+        "en": "People often use this structure to show what happened after a preparation stage.",
+        "zh": "人們常用這個結構表示準備階段後發生的事。"
+      },
+      {
+        "en": "Once the students had finished their training, they could help at the event.",
+        "zh": "學生完成培訓後，就可以在活動中幫忙。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "incredible artistic talent",
+    "meaning": "非凡的藝術天分",
+    "examples": [
+      {
+        "en": "Rick says that Pris had incredible artistic talent.",
+        "zh": "Rick 說 Pris 有非凡的藝術天分。"
+      },
+      {
+        "en": "Incredible artistic talent means an unusually strong natural ability in art or design.",
+        "zh": "“Incredible artistic talent” 指在藝術或設計方面有異常出色的天生能力。"
+      },
+      {
+        "en": "The student showed incredible artistic talent in her first painting.",
+        "zh": "那名學生在第一幅畫中展現非凡的藝術天分。"
+      },
+      {
+        "en": "Incredible artistic talent still needs training to become professional skill.",
+        "zh": "非凡的藝術天分仍需要訓練，才能變成專業技能。"
+      },
+      {
+        "en": "This phrase gives strong praise for someone’s creative ability.",
+        "zh": "這個說法強烈讚賞某人的創作能力。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "What can I say?",
+    "meaning": "我還能說甚麼呢？",
+    "examples": [
+      {
+        "en": "Pris modestly replies, “What can I say? I had the best master.”",
+        "zh": "Pris 謙虛地回答：「我還能說甚麼呢？我有最好的師傅。」"
+      },
+      {
+        "en": "“What can I say?” can show modesty, surprise, or that the answer is obvious.",
+        "zh": "“What can I say?” 可以表示謙虛、驚訝，或答案很明顯。"
+      },
+      {
+        "en": "What can I say? My team did most of the hard work.",
+        "zh": "我還能說甚麼呢？大部分辛苦工作都是我的團隊做的。"
+      },
+      {
+        "en": "People may use this phrase when they do not want to praise themselves directly.",
+        "zh": "人們不想直接稱讚自己時，可能會用這個說法。"
+      },
+      {
+        "en": "In this context, it helps Pris give credit to her teacher.",
+        "zh": "在這個情境中，它幫助 Pris 把功勞歸給她的老師。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "learn from the best",
+    "meaning": "向最頂尖的人學習",
+    "examples": [
+      {
+        "en": "Pris was fortunate enough to learn from the best.",
+        "zh": "Pris 很幸運，能夠向最頂尖的人學習。"
+      },
+      {
+        "en": "To learn from the best means to be taught by people with excellent skill or experience.",
+        "zh": "“Learn from the best” 指由技術或經驗非常出色的人教導。"
+      },
+      {
+        "en": "Young chefs dream of learning from the best in famous kitchens.",
+        "zh": "年輕廚師夢想在著名廚房向最頂尖的人學習。"
+      },
+      {
+        "en": "If you learn from the best, you may develop good habits early.",
+        "zh": "如果你向最頂尖的人學習，可能會早早建立好習慣。"
+      },
+      {
+        "en": "This phrase shows admiration for the teacher or mentor.",
+        "zh": "這個說法表達對老師或導師的敬佩。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "train someone for six months",
+    "meaning": "培訓某人六個月",
+    "examples": [
+      {
+        "en": "Rick trained Pris for six months.",
+        "zh": "Rick 培訓 Pris 六個月。"
+      },
+      {
+        "en": "To train someone for six months means to teach them skills over a six-month period.",
+        "zh": "“Train someone for six months” 指在六個月期間教授某人技能。"
+      },
+      {
+        "en": "The company trained new staff for six months before letting them serve customers alone.",
+        "zh": "公司培訓新員工六個月後，才讓他們獨自服務顧客。"
+      },
+      {
+        "en": "Training someone for six months allows enough time to practise basic and advanced skills.",
+        "zh": "培訓某人六個月，可以有足夠時間練習基本和進階技能。"
+      },
+      {
+        "en": "A long training period can help beginners become more confident.",
+        "zh": "長時間培訓可以幫助初學者變得更有信心。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "six long months of training",
+    "meaning": "漫長的六個月培訓",
+    "examples": [
+      {
+        "en": "Pris completed six long months of training and hard work.",
+        "zh": "Pris 完成了漫長的六個月培訓和艱苦努力。"
+      },
+      {
+        "en": "“Six long months of training” means six months that felt demanding, serious, or difficult.",
+        "zh": "“Six long months of training” 指六個月感覺很艱辛、認真或困難的培訓。"
+      },
+      {
+        "en": "After six long months of training, the athletes were ready for the competition.",
+        "zh": "經過漫長的六個月訓練後，運動員準備好參加比賽。"
+      },
+      {
+        "en": "This phrase emphasises the effort and patience needed during the period.",
+        "zh": "這個說法強調那段時間所需的努力和耐性。"
+      },
+      {
+        "en": "Six long months of training can turn a beginner into a stronger worker.",
+        "zh": "漫長的六個月培訓可以把初學者變成更強的工作者。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "hard work",
+    "meaning": "努力工作；艱苦訓練",
+    "examples": [
+      {
+        "en": "Becoming a skilled neon artist requires hard work.",
+        "zh": "成為熟練的霓虹藝術家需要艱苦訓練。"
+      },
+      {
+        "en": "Hard work means steady effort, patience, and time spent improving.",
+        "zh": "“Hard work” 指持續努力、耐性，以及花時間進步。"
+      },
+      {
+        "en": "Learning a new language takes hard work, not just talent.",
+        "zh": "學習一門新語言需要努力，而不只是天分。"
+      },
+      {
+        "en": "Hard work can help students improve even if they start later than others.",
+        "zh": "即使學生起步比別人遲，努力也可以幫助他們進步。"
+      },
+      {
+        "en": "Without hard work, natural ability may not become real achievement.",
+        "zh": "沒有努力，天生能力未必會變成真正成就。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "I imagine that",
+    "meaning": "我想；我估計",
+    "examples": [
+      {
+        "en": "I imagine that some listeners may be interested in becoming neon artists.",
+        "zh": "我想有些聽眾可能有興趣成為霓虹藝術家。"
+      },
+      {
+        "en": "“I imagine that” means I think something is probably true.",
+        "zh": "“I imagine that” 意思是我認為某事很可能是真的。"
+      },
+      {
+        "en": "I imagine that parents will want more details before signing the form.",
+        "zh": "我想家長簽表前會想要更多細節。"
+      },
+      {
+        "en": "A speaker may use this phrase when making a reasonable guess about listeners.",
+        "zh": "說話者對聽眾作合理推測時，可能會使用這個說法。"
+      },
+      {
+        "en": "It sounds softer than saying “I know that”.",
+        "zh": "它比 “I know that” 語氣更柔和。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be interested in becoming",
+    "meaning": "有興趣成為……",
+    "examples": [
+      {
+        "en": "Some young listeners may be interested in becoming neon artists.",
+        "zh": "有些年輕聽眾可能有興趣成為霓虹藝術家。"
+      },
+      {
+        "en": "To be interested in becoming something means to want to learn about or move toward that role.",
+        "zh": "“Be interested in becoming” 某角色，意思是想了解或朝那個角色發展。"
+      },
+      {
+        "en": "My sister is interested in becoming a nurse.",
+        "zh": "我妹妹有興趣成為護士。"
+      },
+      {
+        "en": "Students interested in becoming designers should build a portfolio early.",
+        "zh": "有興趣成為設計師的學生應及早建立作品集。"
+      },
+      {
+        "en": "This phrase is useful when talking about career hopes.",
+        "zh": "這個說法適合用於談論職業期望。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be going to college soon",
+    "meaning": "即將升讀大專或大學",
+    "examples": [
+      {
+        "en": "The advice may appeal to young people who are going to college soon.",
+        "zh": "這些建議可能吸引即將升讀大專或大學的年輕人。"
+      },
+      {
+        "en": "If someone is going to college soon, they will start college in the near future.",
+        "zh": "如果某人 is going to college soon，意思是他不久後會開始大專或大學生活。"
+      },
+      {
+        "en": "My cousin is going to college soon, so she is choosing her courses.",
+        "zh": "我的表妹即將升讀大學，所以她正在選科。"
+      },
+      {
+        "en": "Students going to college soon may think seriously about career paths.",
+        "zh": "即將升讀大專或大學的學生，可能會認真思考職業方向。"
+      },
+      {
+        "en": "This phrase often refers to an important life transition.",
+        "zh": "這個說法通常指人生中一個重要轉變。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "What would you say to anyone who…?",
+    "meaning": "你會對……的人說甚麼？",
+    "examples": [
+      {
+        "en": "What would you say to anyone who wants to enter the lighting industry?",
+        "zh": "你會對想進入照明行業的人說甚麼？"
+      },
+      {
+        "en": "“What would you say to anyone who…?” asks for advice for people in a certain situation.",
+        "zh": "“What would you say to anyone who…?” 是向處於某情況的人尋求建議。"
+      },
+      {
+        "en": "What would you say to anyone who feels nervous before exams?",
+        "zh": "你會對考試前感到緊張的人說甚麼？"
+      },
+      {
+        "en": "Interviewers use this question to invite practical advice from guests.",
+        "zh": "訪問者使用這個問題，邀請嘉賓提供實用建議。"
+      },
+      {
+        "en": "This structure is useful because it turns personal experience into guidance for others.",
+        "zh": "這個結構很有用，因為它把個人經驗變成給別人的指引。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "work in the lighting industry",
+    "meaning": "從事照明行業",
+    "examples": [
+      {
+        "en": "Some listeners may want to work in the lighting industry.",
+        "zh": "有些聽眾可能想從事照明行業。"
+      },
+      {
+        "en": "To work in the lighting industry means to have a job connected with lights, lamps, signs, or lighting design.",
+        "zh": "“Work in the lighting industry” 指從事與燈具、照明、招牌或燈光設計有關的工作。"
+      },
+      {
+        "en": "Engineers, designers, and technicians can all work in the lighting industry.",
+        "zh": "工程師、設計師和技術員都可以從事照明行業。"
+      },
+      {
+        "en": "People who work in the lighting industry need to understand both safety and design.",
+        "zh": "從事照明行業的人需要同時理解安全和設計。"
+      },
+      {
+        "en": "This industry includes creative work as well as technical work.",
+        "zh": "這個行業包括創意工作，也包括技術工作。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be hiring at the moment",
+    "meaning": "目前正在招聘",
+    "examples": [
+      {
+        "en": "The company is hiring at the moment.",
+        "zh": "公司目前正在招聘。"
+      },
+      {
+        "en": "If a company is hiring at the moment, it is looking for new workers now.",
+        "zh": "如果公司 is hiring at the moment，意思是它現在正在尋找新員工。"
+      },
+      {
+        "en": "The café is hiring at the moment because two staff members left.",
+        "zh": "那間咖啡店目前正在招聘，因為有兩名員工離職。"
+      },
+      {
+        "en": "When a company is hiring at the moment, interested people should apply quickly.",
+        "zh": "當公司目前正在招聘時，有興趣的人應盡快申請。"
+      },
+      {
+        "en": "This phrase is useful when talking about current job openings.",
+        "zh": "這個說法適合用於談論目前的職位空缺。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "look for trainees",
+    "meaning": "招募見習生",
+    "examples": [
+      {
+        "en": "The company is looking for trainees.",
+        "zh": "公司正在招募見習生。"
+      },
+      {
+        "en": "To look for trainees means to search for people who can learn a job through training.",
+        "zh": "“Look for trainees” 指尋找可以透過培訓學習工作的人。"
+      },
+      {
+        "en": "The hotel is looking for trainees for its front desk team.",
+        "zh": "酒店正在為前台團隊招募見習生。"
+      },
+      {
+        "en": "Companies look for trainees when they want to train new talent from the beginning.",
+        "zh": "公司想從零開始培訓新人才時，會招募見習生。"
+      },
+      {
+        "en": "Trainees are usually expected to learn, practise, and improve.",
+        "zh": "見習生通常需要學習、練習和進步。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "particularly young people",
+    "meaning": "尤其是年輕人",
+    "examples": [
+      {
+        "en": "The company particularly wants to recruit young people.",
+        "zh": "公司尤其想招聘年輕人。"
+      },
+      {
+        "en": "“Particularly young people” means especially young people.",
+        "zh": "“Particularly young people” 意思是尤其是年輕人。"
+      },
+      {
+        "en": "The workshop is open to everyone, particularly young people who enjoy design.",
+        "zh": "這個工作坊向所有人開放，尤其是喜歡設計的年輕人。"
+      },
+      {
+        "en": "A programme may target particularly young people if the industry needs fresh talent.",
+        "zh": "如果行業需要新人才，計劃可能會特別針對年輕人。"
+      },
+      {
+        "en": "This phrase highlights one group more than others.",
+        "zh": "這個說法比其他群體更突出某一類人。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "become neon sign makers",
+    "meaning": "成為霓虹招牌製作員",
+    "examples": [
+      {
+        "en": "The trainees will learn to become neon sign makers.",
+        "zh": "見習生會學習成為霓虹招牌製作員。"
+      },
+      {
+        "en": "To become neon sign makers means to learn how to produce neon signs professionally.",
+        "zh": "“Become neon sign makers” 指學習如何專業地製作霓虹招牌。"
+      },
+      {
+        "en": "Young artists can become neon sign makers through hands-on training.",
+        "zh": "年輕藝術家可以透過實習訓練成為霓虹招牌製作員。"
+      },
+      {
+        "en": "People who become neon sign makers need steady hands and strong attention to detail.",
+        "zh": "成為霓虹招牌製作員的人需要手穩和高度注重細節。"
+      },
+      {
+        "en": "This phrase describes a career goal in a specialised craft.",
+        "zh": "這個說法描述一門專門工藝中的職業目標。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "offer excellent benefits",
+    "meaning": "提供優厚福利",
+    "examples": [
+      {
+        "en": "The company offers excellent benefits to its trainees.",
+        "zh": "公司為見習生提供優厚福利。"
+      },
+      {
+        "en": "To offer excellent benefits means to provide very good extra support, pay, or conditions.",
+        "zh": "“Offer excellent benefits” 指提供非常好的額外支援、薪酬或條件。"
+      },
+      {
+        "en": "The school offers excellent benefits to teachers, including training and medical support.",
+        "zh": "學校為老師提供優厚福利，包括培訓和醫療支援。"
+      },
+      {
+        "en": "Excellent benefits can attract strong applicants to a company.",
+        "zh": "優厚福利可以吸引優秀申請者加入公司。"
+      },
+      {
+        "en": "Benefits are important because salary is not the only thing workers consider.",
+        "zh": "福利很重要，因為薪金不是員工唯一考慮的事情。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "receive paid training",
+    "meaning": "接受有薪培訓",
+    "examples": [
+      {
+        "en": "Each trainee will receive six months of paid training.",
+        "zh": "每位見習生會接受六個月有薪培訓。"
+      },
+      {
+        "en": "To receive paid training means to be paid while learning the skills for a job.",
+        "zh": "“Receive paid training” 指在學習工作技能期間仍獲得薪酬。"
+      },
+      {
+        "en": "New nurses may receive paid training before working independently.",
+        "zh": "新護士在獨立工作前，可能會接受有薪培訓。"
+      },
+      {
+        "en": "Paid training helps trainees learn without worrying as much about income.",
+        "zh": "有薪培訓幫助見習生學習，同時減少對收入的擔憂。"
+      },
+      {
+        "en": "This phrase is attractive to job seekers because training time is also paid.",
+        "zh": "這個說法對求職者很吸引，因為培訓時間也有薪酬。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "throughout the six months",
+    "meaning": "整個六個月期間",
+    "examples": [
+      {
+        "en": "Trainees will be paid throughout the six months.",
+        "zh": "見習生在整個六個月期間都會獲得薪酬。"
+      },
+      {
+        "en": "“Throughout the six months” means during the whole six-month period.",
+        "zh": "“Throughout the six months” 意思是在整個六個月期間。"
+      },
+      {
+        "en": "Students kept a reading diary throughout the six months of the project.",
+        "zh": "學生在整個六個月項目期間都保持閱讀日記。"
+      },
+      {
+        "en": "If support continues throughout the six months, trainees may feel more secure.",
+        "zh": "如果支援在整個六個月期間持續，見習生可能會更安心。"
+      },
+      {
+        "en": "This phrase stresses that something lasts from beginning to end.",
+        "zh": "這個說法強調某事由開始到結束都持續。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "That sounds like…",
+    "meaning": "聽起來像……",
+    "examples": [
+      {
+        "en": "That sounds like a wonderful opportunity.",
+        "zh": "聽起來像一個難得的好機會。"
+      },
+      {
+        "en": "“That sounds like…” is used to give an opinion based on what you have just heard.",
+        "zh": "“That sounds like…” 用於根據剛聽到的內容作出評價。"
+      },
+      {
+        "en": "That sounds like a difficult but useful course.",
+        "zh": "聽起來像一個困難但有用的課程。"
+      },
+      {
+        "en": "A listener may say this after someone explains a plan or idea.",
+        "zh": "當有人解釋計劃或想法後，聽者可能會這樣說。"
+      },
+      {
+        "en": "This phrase helps respond naturally without sounding too direct.",
+        "zh": "這個說法幫助人自然回應，而不會太直接。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "a wonderful opportunity",
+    "meaning": "難得的好機會",
+    "examples": [
+      {
+        "en": "Julia describes the training programme as a wonderful opportunity.",
+        "zh": "Julia 形容這個培訓計劃是難得的好機會。"
+      },
+      {
+        "en": "A wonderful opportunity is a very good chance to learn, grow, or succeed.",
+        "zh": "“A wonderful opportunity” 指一個學習、成長或成功的好機會。"
+      },
+      {
+        "en": "Studying abroad can be a wonderful opportunity for language learners.",
+        "zh": "出國留學對語言學習者來說可以是難得的好機會。"
+      },
+      {
+        "en": "A wonderful opportunity may not come often, so people should prepare well.",
+        "zh": "難得的好機會未必經常出現，所以人們應好好準備。"
+      },
+      {
+        "en": "This phrase shows that the chance is valuable and exciting.",
+        "zh": "這個說法表示機會有價值，而且令人期待。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "You know what",
+    "meaning": "你知道嗎；說真的",
+    "examples": [
+      {
+        "en": "Julia says, “You know what, I would love to join the programme.”",
+        "zh": "Julia 說：「你知道嗎，我很想參加這個計劃。」"
+      },
+      {
+        "en": "“You know what” is used before sharing a sudden thought, honest feeling, or decision.",
+        "zh": "“You know what” 用於分享突然想到的想法、真實感受或決定之前。"
+      },
+      {
+        "en": "You know what, I think we should start earlier.",
+        "zh": "說真的，我覺得我們應該早點開始。"
+      },
+      {
+        "en": "People often use this phrase in casual conversation when they become excited about an idea.",
+        "zh": "人們在日常對話中對某想法感到興奮時，常用這個說法。"
+      },
+      {
+        "en": "It makes the speaker sound spontaneous and conversational.",
+        "zh": "它令說話者聽起來自然和口語化。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "If I weren’t…, I would…",
+    "meaning": "如果我不是……，我便會……",
+    "examples": [
+      {
+        "en": "If I weren’t working here, I would sign up as a trainee.",
+        "zh": "如果我不是在這裏工作，我便會報名成為見習生。"
+      },
+      {
+        "en": "“If I weren’t…, I would…” describes an imaginary situation that is not true now.",
+        "zh": "“If I weren’t…, I would…” 描述現在並不真實的假設情況。"
+      },
+      {
+        "en": "If I weren’t busy this weekend, I would join the trip.",
+        "zh": "如果我這個週末不忙，我便會參加旅行。"
+      },
+      {
+        "en": "This structure helps people talk about unreal choices or dreams.",
+        "zh": "這個結構幫助人談論不真實的選擇或夢想。"
+      },
+      {
+        "en": "If she weren’t studying abroad, she would help with the family business.",
+        "zh": "如果她不是在海外讀書，她便會幫忙家族生意。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "sign up as",
+    "meaning": "報名成為……",
+    "examples": [
+      {
+        "en": "Julia would love to sign up as one of the trainees.",
+        "zh": "Julia 很想報名成為其中一名見習生。"
+      },
+      {
+        "en": "To sign up as something means to register for a role or position.",
+        "zh": "“Sign up as” 某角色，意思是報名擔任某個身份或職位。"
+      },
+      {
+        "en": "My brother signed up as a volunteer for the charity walk.",
+        "zh": "我哥哥報名成為慈善步行活動的義工。"
+      },
+      {
+        "en": "If you sign up as a trainee, you should be ready to learn from the beginning.",
+        "zh": "如果你報名成為見習生，就應準備從基礎開始學習。"
+      },
+      {
+        "en": "This phrase is useful when joining a programme in a specific role.",
+        "zh": "這個說法適合用於以特定身份加入計劃。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "start the training programme",
+    "meaning": "開展培訓計劃",
+    "examples": [
+      {
+        "en": "The company will start the training programme in September.",
+        "zh": "公司會在九月開展培訓計劃。"
+      },
+      {
+        "en": "To start the training programme means to begin a planned course for teaching skills.",
+        "zh": "“Start the training programme” 指開始一個有計劃的技能培訓課程。"
+      },
+      {
+        "en": "The hospital will start the training programme for new assistants next month.",
+        "zh": "醫院下個月會為新助理開展培訓計劃。"
+      },
+      {
+        "en": "If a company starts the training programme early, trainees can become useful sooner.",
+        "zh": "如果公司早點開展培訓計劃，見習生可以更快發揮作用。"
+      },
+      {
+        "en": "This phrase is often used in job, school, or professional training contexts.",
+        "zh": "這個說法常用於工作、學校或專業培訓情境。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "What about the future?",
+    "meaning": "未來又如何？",
+    "examples": [
+      {
+        "en": "Julia asks, “What about the future?”",
+        "zh": "Julia 問：「未來又如何？」"
+      },
+      {
+        "en": "“What about the future?” asks what may happen next or later.",
+        "zh": "“What about the future?” 是詢問接下來或之後可能發生甚麼。"
+      },
+      {
+        "en": "We have discussed this year’s plan, but what about the future?",
+        "zh": "我們已討論今年的計劃，但未來又如何？"
+      },
+      {
+        "en": "A host may ask this when moving from history to upcoming developments.",
+        "zh": "主持人由歷史轉到未來發展時，可能會問這個問題。"
+      },
+      {
+        "en": "This question invites people to think beyond the present.",
+        "zh": "這個問題邀請人們思考現在以外的事情。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "what can we expect from",
+    "meaning": "我們可以對……有何期待",
+    "examples": [
+      {
+        "en": "What can we expect from future light displays?",
+        "zh": "我們可以對未來的燈光展示有何期待？"
+      },
+      {
+        "en": "“What can we expect from” something asks what people are likely to see, receive, or experience from it.",
+        "zh": "“What can we expect from” 某事，是詢問人們可能從它看到、得到或經歷甚麼。"
+      },
+      {
+        "en": "What can we expect from the new school policy?",
+        "zh": "我們可以對新的學校政策有何期待？"
+      },
+      {
+        "en": "Customers ask this question when they want to know the future value of a product.",
+        "zh": "顧客想知道產品的未來價值時，會問這個問題。"
+      },
+      {
+        "en": "This phrase is useful for discussing future plans or predictions.",
+        "zh": "這個說法適合用於討論未來計劃或預測。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "light displays",
+    "meaning": "燈光展示",
+    "examples": [
+      {
+        "en": "Future light displays may use advanced projection technology.",
+        "zh": "未來的燈光展示可能會使用先進投影技術。"
+      },
+      {
+        "en": "Light displays are visual shows or decorations created with lights.",
+        "zh": "“Light displays” 指用燈光製作的視覺表演或裝飾。"
+      },
+      {
+        "en": "The city puts on light displays during major festivals.",
+        "zh": "城市在大型節日期間舉辦燈光展示。"
+      },
+      {
+        "en": "Light displays can attract visitors because they are colourful and easy to enjoy.",
+        "zh": "燈光展示可以吸引訪客，因為它們色彩繽紛，而且容易欣賞。"
+      },
+      {
+        "en": "Good light displays need planning, safety checks, and strong visual design.",
+        "zh": "好的燈光展示需要計劃、安全檢查和強烈視覺設計。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "science fiction films",
+    "meaning": "科幻電影",
+    "examples": [
+      {
+        "en": "Science fiction films often show spectacular visual technology.",
+        "zh": "科幻電影常展示壯觀的視覺科技。"
+      },
+      {
+        "en": "Science fiction films are movies about imagined futures, space, advanced technology, or unusual scientific ideas.",
+        "zh": "“Science fiction films” 指關於想像中的未來、太空、先進科技或特殊科學概念的電影。"
+      },
+      {
+        "en": "Students may watch science fiction films to imagine future cities.",
+        "zh": "學生可能會觀看科幻電影，想像未來城市。"
+      },
+      {
+        "en": "Science fiction films can inspire real designers, even if the technology is not possible yet.",
+        "zh": "即使當中的科技暫時未能實現，科幻電影也可以啟發真實設計師。"
+      },
+      {
+        "en": "These films often mix imagination with questions about society.",
+        "zh": "這類電影常把想像力與社會問題結合起來。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "huge 3D projections",
+    "meaning": "巨型3D投影",
+    "examples": [
+      {
+        "en": "Julia imagines huge 3D projections that appear to walk around.",
+        "zh": "Julia 想像巨型 3D 投影好像會四處走動。"
+      },
+      {
+        "en": "Huge 3D projections are very large images that seem to have depth in space.",
+        "zh": "“Huge 3D projections” 指看起來有空間深度的大型影像。"
+      },
+      {
+        "en": "A concert may use huge 3D projections behind the stage.",
+        "zh": "音樂會可能會在舞台後方使用巨型 3D 投影。"
+      },
+      {
+        "en": "Huge 3D projections can make an audience feel surrounded by the show.",
+        "zh": "巨型 3D 投影可以令觀眾感覺被表演包圍。"
+      },
+      {
+        "en": "This phrase describes a futuristic and visually dramatic effect.",
+        "zh": "這個說法描述一種充滿未來感而視覺震撼的效果。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "Not yet, unfortunately",
+    "meaning": "很可惜，暫時還未可以",
+    "examples": [
+      {
+        "en": "“Not yet, unfortunately,” Pris replies.",
+        "zh": "Pris 回答：「很可惜，暫時還未可以。」"
+      },
+      {
+        "en": "“Not yet, unfortunately” means something is not possible now, and the speaker feels sorry about it.",
+        "zh": "“Not yet, unfortunately” 意思是某事現在還未可以，而說話者對此感到遺憾。"
+      },
+      {
+        "en": "Can we buy the new model today? Not yet, unfortunately.",
+        "zh": "我們今天可以買新型號嗎？很可惜，暫時還未可以。"
+      },
+      {
+        "en": "A company may use this phrase when a product is still being developed.",
+        "zh": "當產品仍在開發時，公司可能會使用這個說法。"
+      },
+      {
+        "en": "It sounds polite because it gives bad news gently.",
+        "zh": "它聽起來有禮貌，因為它溫和地傳達壞消息。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "the technology to produce",
+    "meaning": "用來製作……的技術",
+    "examples": [
+      {
+        "en": "The technology to produce such projections does not currently exist.",
+        "zh": "用來製作這類投影的技術目前尚未存在。"
+      },
+      {
+        "en": "“The technology to produce” something means the tools, methods, or knowledge needed to make it.",
+        "zh": "“The technology to produce” 某物，指製作它所需的工具、方法或知識。"
+      },
+      {
+        "en": "The technology to produce safer batteries is improving quickly.",
+        "zh": "用來製作更安全電池的技術正在快速進步。"
+      },
+      {
+        "en": "If the technology to produce a design is not ready, the idea must wait.",
+        "zh": "如果用來製作某設計的技術尚未成熟，這個想法就必須等待。"
+      },
+      {
+        "en": "This phrase is useful when separating imagination from practical ability.",
+        "zh": "這個說法適合用於區分想像和實際能力。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "the kind of…we see",
+    "meaning": "我們所看到的那種……",
+    "examples": [
+      {
+        "en": "The kind of 3D projection we see in science fiction films is not yet possible.",
+        "zh": "我們在科幻電影中看到的那種 3D 投影還未能實現。"
+      },
+      {
+        "en": "“The kind of…we see” refers to a type of thing that appears in a particular place or situation.",
+        "zh": "“The kind of…we see” 指在某個地方或情況中出現的某一類事物。"
+      },
+      {
+        "en": "The kind of teamwork we see in sports can also help in school projects.",
+        "zh": "我們在運動中看到的那種團隊合作，也可以幫助學校專題。"
+      },
+      {
+        "en": "People may want the kind of service they see in luxury hotels.",
+        "zh": "人們可能想要他們在豪華酒店看到的那種服務。"
+      },
+      {
+        "en": "This structure helps compare real life with examples people already know.",
+        "zh": "這個結構幫助把現實生活與人們已知道的例子作比較。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "does not currently exist",
+    "meaning": "目前尚未存在",
+    "examples": [
+      {
+        "en": "The required technology does not currently exist.",
+        "zh": "所需技術目前尚未存在。"
+      },
+      {
+        "en": "“Does not currently exist” means something is not available or real at the present time.",
+        "zh": "“Does not currently exist” 意思是某物目前還未可用或還未成為現實。"
+      },
+      {
+        "en": "A perfect machine that never breaks does not currently exist.",
+        "zh": "永不損壞的完美機器目前尚未存在。"
+      },
+      {
+        "en": "If a solution does not currently exist, researchers may need years to develop it.",
+        "zh": "如果某個解決方案目前尚未存在，研究人員可能需要多年開發它。"
+      },
+      {
+        "en": "This phrase is more formal than saying “we don’t have it now”.",
+        "zh": "這個說法比 “we don’t have it now” 更正式。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "after all",
+    "meaning": "畢竟",
+    "examples": [
+      {
+        "en": "Science fiction films are fiction, after all.",
+        "zh": "科幻電影畢竟是虛構作品。"
+      },
+      {
+        "en": "“After all” gives a reason or reminds people of an obvious point.",
+        "zh": "“After all” 用來提出理由，或提醒別人一個明顯重點。"
+      },
+      {
+        "en": "We should bring umbrellas; it is rainy season, after all.",
+        "zh": "我們應該帶雨傘；畢竟現在是雨季。"
+      },
+      {
+        "en": "A teacher may say “after all” to explain why a decision makes sense.",
+        "zh": "老師可能會用 “after all” 解釋某個決定為何合理。"
+      },
+      {
+        "en": "This phrase often softens an explanation by making it sound reasonable.",
+        "zh": "這個說法常令解釋聽起來較自然合理。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "However",
+    "meaning": "不過；然而",
+    "examples": [
+      {
+        "en": "However, the company can imitate a 3D effect by using certain tricks.",
+        "zh": "不過，公司可以運用某些技巧模仿 3D 效果。"
+      },
+      {
+        "en": "“However” introduces a contrast or different point.",
+        "zh": "“However” 用於引入對比或不同觀點。"
+      },
+      {
+        "en": "The plan is expensive. However, it may save money later.",
+        "zh": "這個計劃很昂貴。然而，它之後可能節省金錢。"
+      },
+      {
+        "en": "Writers use “however” when the next sentence changes direction.",
+        "zh": "當下一句改變方向時，寫作者會使用 “however”。"
+      },
+      {
+        "en": "This word is more formal than “but” at the start of a sentence.",
+        "zh": "這個字在句首比 “but” 更正式。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "create a kind of",
+    "meaning": "製造出某種……",
+    "examples": [
+      {
+        "en": "The designers can create a kind of 3D projection.",
+        "zh": "設計師可以製造出某種 3D 投影。"
+      },
+      {
+        "en": "“Create a kind of” means produce something similar to, but not exactly the same as, another thing.",
+        "zh": "“Create a kind of” 意思是製造出類似某物，但不完全相同的效果。"
+      },
+      {
+        "en": "Soft music can create a kind of calm atmosphere in a classroom.",
+        "zh": "柔和音樂可以在課室中製造出某種平靜氣氛。"
+      },
+      {
+        "en": "Designers use lights and shadows to create a kind of depth.",
+        "zh": "設計師使用光影製造出某種深度。"
+      },
+      {
+        "en": "This phrase is useful when the effect is approximate rather than exact.",
+        "zh": "當效果是近似而非完全一樣時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "using certain tricks",
+    "meaning": "運用某些技巧",
+    "examples": [
+      {
+        "en": "They create the effect using certain tricks.",
+        "zh": "他們運用某些技巧製造這種效果。"
+      },
+      {
+        "en": "“Using certain tricks” means achieving a result by applying special methods or techniques.",
+        "zh": "“Using certain tricks” 指透過特別方法或技巧達到某種效果。"
+      },
+      {
+        "en": "Photographers can make small rooms look larger using certain tricks.",
+        "zh": "攝影師可以運用某些技巧令細房間看起來較大。"
+      },
+      {
+        "en": "Using certain tricks with lighting can make a flat image seem deeper.",
+        "zh": "運用某些燈光技巧可以令平面影像看起來更有深度。"
+      },
+      {
+        "en": "The phrase suggests clever practical methods, not magic.",
+        "zh": "這個說法表示聰明的實用方法，而不是魔法。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "current product brochure",
+    "meaning": "現有產品小冊子",
+    "examples": [
+      {
+        "en": "The company describes these products in its current product brochure.",
+        "zh": "公司在現有產品小冊子中描述這些產品。"
+      },
+      {
+        "en": "A current product brochure is the latest booklet or document showing a company’s products.",
+        "zh": "“Current product brochure” 指展示公司產品的最新小冊子或文件。"
+      },
+      {
+        "en": "Customers can find prices and sizes in the current product brochure.",
+        "zh": "顧客可以在現有產品小冊子中找到價格和尺寸。"
+      },
+      {
+        "en": "If the current product brochure is outdated, customers may receive wrong information.",
+        "zh": "如果現有產品小冊子已過時，顧客可能會收到錯誤資料。"
+      },
+      {
+        "en": "This phrase is common in sales, marketing, and product discussions.",
+        "zh": "這個說法常見於銷售、市場推廣和產品討論。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "highlight a couple of",
+    "meaning": "重點介紹兩款……",
+    "examples": [
+      {
+        "en": "The brochure highlights a couple of futuristic products.",
+        "zh": "小冊子重點介紹兩款充滿未來感的產品。"
+      },
+      {
+        "en": "To highlight a couple of things means to draw attention to two or a few important examples.",
+        "zh": "“Highlight a couple of” 某些事物，意思是突出兩個或幾個重要例子。"
+      },
+      {
+        "en": "The teacher highlighted a couple of common grammar mistakes.",
+        "zh": "老師重點指出幾個常見文法錯誤。"
+      },
+      {
+        "en": "A brochure may highlight a couple of products to make choices easier for customers.",
+        "zh": "小冊子可能會重點介紹幾款產品，讓顧客更容易選擇。"
+      },
+      {
+        "en": "This phrase suggests a small number of selected points, not a full list.",
+        "zh": "這個說法表示精選少量重點，而不是完整清單。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "futuristic products",
+    "meaning": "充滿未來感的產品",
+    "examples": [
+      {
+        "en": "The company sells several futuristic projection products.",
+        "zh": "公司銷售幾款充滿未來感的投影產品。"
+      },
+      {
+        "en": "Futuristic products look or feel advanced, modern, or connected with the future.",
+        "zh": "“Futuristic products” 指看起來或感覺先進、現代或與未來相關的產品。"
+      },
+      {
+        "en": "A phone with a folding screen may look like a futuristic product.",
+        "zh": "有摺疊屏幕的電話可能看起來像充滿未來感的產品。"
+      },
+      {
+        "en": "Futuristic products can attract customers who enjoy new technology.",
+        "zh": "充滿未來感的產品可以吸引喜歡新科技的顧客。"
+      },
+      {
+        "en": "The word does not always mean the product is from the future; it means it looks future-focused.",
+        "zh": "這個字不一定表示產品來自未來；它表示產品看起來面向未來。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "3D projection products",
+    "meaning": "3D投影產品",
+    "examples": [
+      {
+        "en": "The brochure features two 3D projection products.",
+        "zh": "小冊子介紹兩款 3D 投影產品。"
+      },
+      {
+        "en": "3D projection products are products that use projected images to create a sense of depth.",
+        "zh": "“3D projection products” 指使用投射影像製造深度感的產品。"
+      },
+      {
+        "en": "A museum may use 3D projection products to explain old buildings.",
+        "zh": "博物館可能使用 3D 投影產品解釋舊建築。"
+      },
+      {
+        "en": "3D projection products can make displays more exciting than flat posters.",
+        "zh": "3D 投影產品可以令展示比平面海報更精彩。"
+      },
+      {
+        "en": "These products need good lighting control to work well.",
+        "zh": "這些產品需要良好的燈光控制才能運作良好。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "have a future",
+    "meaning": "有發展前景；有未來",
+    "examples": [
+      {
+        "en": "Julia asks whether neon lights still have a future.",
+        "zh": "Julia 問霓虹燈是否仍然有未來。"
+      },
+      {
+        "en": "If something has a future, it is likely to remain useful, successful, or important later.",
+        "zh": "如果某事 has a future，意思是它日後可能仍然有用、成功或重要。"
+      },
+      {
+        "en": "Traditional crafts can still have a future if young people learn them.",
+        "zh": "如果年輕人學習傳統工藝，傳統工藝仍然可以有未來。"
+      },
+      {
+        "en": "A product has a future when customers continue to see value in it.",
+        "zh": "當顧客繼續看見產品的價值，它就有發展前景。"
+      },
+      {
+        "en": "This phrase is often used when people wonder whether something old can survive.",
+        "zh": "當人們想知道舊事物能否延續時，常用這個說法。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be made in the hearts of stars",
+    "meaning": "在恆星核心中形成",
+    "examples": [
+      {
+        "en": "Neon is formed in the hearts of stars.",
+        "zh": "霓虹是在恆星核心中形成的。"
+      },
+      {
+        "en": "“Be made in the hearts of stars” means to be created deep inside stars.",
+        "zh": "“Be made in the hearts of stars” 意思是在恆星深處被創造出來。"
+      },
+      {
+        "en": "Some chemical elements are made in the hearts of stars before spreading through space.",
+        "zh": "有些化學元素在散布到太空之前，是在恆星核心中形成的。"
+      },
+      {
+        "en": "This phrase sounds poetic, but it can describe a real scientific process.",
+        "zh": "這個說法聽起來富詩意，但可以描述真實科學過程。"
+      },
+      {
+        "en": "It helps listeners imagine where a material originally comes from.",
+        "zh": "它幫助聽眾想像某種物質最初來自哪裡。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s a fact",
+    "meaning": "這是事實",
+    "examples": [
+      {
+        "en": "Pris emphasises that this is not a metaphor: “That’s a fact.”",
+        "zh": "Pris 強調這不是比喻：「這是事實。」"
+      },
+      {
+        "en": "“That’s a fact” means the statement is true, not just an opinion or image.",
+        "zh": "“That’s a fact” 表示這句話是真實的，而不只是意見或想像。"
+      },
+      {
+        "en": "Water freezes at zero degrees Celsius. That’s a fact.",
+        "zh": "水在攝氏零度結冰。這是事實。"
+      },
+      {
+        "en": "People may say this to stress that something surprising is actually true.",
+        "zh": "人們可能會用這個說法強調某件令人驚訝的事其實是真的。"
+      },
+      {
+        "en": "This phrase makes the speaker sound confident and certain.",
+        "zh": "這個說法令說話者聽起來有信心和肯定。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "come from inside stars",
+    "meaning": "來自恆星內部",
+    "examples": [
+      {
+        "en": "The neon found in nature ultimately comes from inside stars.",
+        "zh": "自然界中的霓虹最終來自恆星內部。"
+      },
+      {
+        "en": "To come from inside stars means to originate from deep within stars.",
+        "zh": "“Come from inside stars” 意思是源自恆星深處。"
+      },
+      {
+        "en": "Some elements in our bodies come from inside stars.",
+        "zh": "我們身體中的一些元素來自恆星內部。"
+      },
+      {
+        "en": "Knowing that materials come from inside stars can make science feel more amazing.",
+        "zh": "知道物質來自恆星內部，可以令科學感覺更神奇。"
+      },
+      {
+        "en": "This phrase connects everyday matter with the wider universe.",
+        "zh": "這個說法把日常物質與更廣闊的宇宙連接起來。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "blow someone’s mind",
+    "meaning": "令某人大為震撼",
+    "examples": [
+      {
+        "en": "The fact about neon often blows customers’ minds.",
+        "zh": "關於霓虹的事實常令顧客大為震撼。"
+      },
+      {
+        "en": "To blow someone’s mind means to greatly surprise or amaze them.",
+        "zh": "“Blow someone’s mind” 意思是令某人非常驚訝或震撼。"
+      },
+      {
+        "en": "The size of the universe can blow a child’s mind.",
+        "zh": "宇宙的大小可以令孩子大為震撼。"
+      },
+      {
+        "en": "A simple fact can blow someone’s mind if it changes how they see the world.",
+        "zh": "如果一個簡單事實改變了某人看世界的方式，它可以令那人大為震撼。"
+      },
+      {
+        "en": "This phrase is informal and strong, so it suits excited conversation.",
+        "zh": "這個說法較口語而強烈，適合興奮的對話。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be amazed that",
+    "meaning": "對……感到驚訝",
+    "examples": [
+      {
+        "en": "Customers are amazed that neon originates inside stars.",
+        "zh": "顧客對霓虹源自恆星內部感到驚訝。"
+      },
+      {
+        "en": "If someone is amazed that something is true, they feel very surprised by it.",
+        "zh": "如果某人 is amazed that 某事是真的，意思是他對此感到非常驚訝。"
+      },
+      {
+        "en": "Students were amazed that a small seed could become a huge tree.",
+        "zh": "學生對一粒小種子能長成大樹感到驚訝。"
+      },
+      {
+        "en": "People may be amazed that old skills still require so much science.",
+        "zh": "人們可能對舊技藝仍然需要這麼多科學感到驚訝。"
+      },
+      {
+        "en": "This phrase connects surprise with a fact or discovery.",
+        "zh": "這個說法把驚訝與事實或發現連接起來。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "the art and craft of neon",
+    "meaning": "霓虹製作的藝術與工藝",
+    "examples": [
+      {
+        "en": "Customers also love the art and craft of neon.",
+        "zh": "顧客也喜愛霓虹製作的藝術與工藝。"
+      },
+      {
+        "en": "The art and craft of neon means both the creative design and the skilled making of neon signs.",
+        "zh": "“The art and craft of neon” 指霓虹招牌的創意設計和熟練製作技術。"
+      },
+      {
+        "en": "A museum exhibition can teach visitors about the art and craft of neon.",
+        "zh": "博物館展覽可以教訪客認識霓虹製作的藝術與工藝。"
+      },
+      {
+        "en": "The art and craft of neon takes time because artists must shape light carefully.",
+        "zh": "霓虹製作的藝術與工藝需要時間，因為藝術家必須細心塑造光線。"
+      },
+      {
+        "en": "This phrase respects neon as both artwork and skilled handwork.",
+        "zh": "這個說法把霓虹視為藝術品，也視為精湛手工。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "This is why",
+    "meaning": "這就是為甚麼",
+    "examples": [
+      {
+        "en": "Rick says that the craftsmanship is why many customers choose neon.",
+        "zh": "Rick 說，這種工藝就是為甚麼許多顧客選擇霓虹。"
+      },
+      {
+        "en": "“This is why” introduces the reason for a result.",
+        "zh": "“This is why” 用於引出某個結果的原因。"
+      },
+      {
+        "en": "The hall is close to the station. This is why many parents prefer it.",
+        "zh": "禮堂接近車站。這就是為甚麼許多家長較喜歡它。"
+      },
+      {
+        "en": "A speaker uses this phrase to connect an explanation to a conclusion.",
+        "zh": "說話者使用這個說法，把解釋連接到結論。"
+      },
+      {
+        "en": "This phrase helps listeners follow the logic clearly.",
+        "zh": "這個說法幫助聽眾清楚跟上邏輯。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "prefer A to B",
+    "meaning": "比起B更喜歡A",
+    "examples": [
+      {
+        "en": "Many customers prefer neon signs to newer lighting technologies.",
+        "zh": "許多顧客比起較新的照明技術，更喜歡霓虹招牌。"
+      },
+      {
+        "en": "“Prefer A to B” means to like or choose A more than B.",
+        "zh": "“Prefer A to B” 意思是比起 B 更喜歡或選擇 A。"
+      },
+      {
+        "en": "Some students prefer reading printed books to reading on screens.",
+        "zh": "有些學生比起在螢幕上閱讀，更喜歡閱讀紙本書。"
+      },
+      {
+        "en": "Customers may prefer handmade products to machine-made ones because they feel more personal.",
+        "zh": "顧客比起機器製產品，可能更喜歡手工產品，因為感覺更個人化。"
+      },
+      {
+        "en": "This structure clearly compares two choices.",
+        "zh": "這個結構清楚比較兩個選擇。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "newer technologies",
+    "meaning": "較新的技術",
+    "examples": [
+      {
+        "en": "Neon signs compete with newer technologies.",
+        "zh": "霓虹招牌與較新的技術競爭。"
+      },
+      {
+        "en": "Newer technologies are more recent tools, systems, or methods developed after older ones.",
+        "zh": "“Newer technologies” 指在舊技術之後發展出來的較新工具、系統或方法。"
+      },
+      {
+        "en": "Schools use newer technologies such as tablets and online learning platforms.",
+        "zh": "學校使用平板電腦和網上學習平台等較新的技術。"
+      },
+      {
+        "en": "Newer technologies can make work faster, but they do not always replace older skills.",
+        "zh": "較新的技術可以令工作更快，但不一定會取代舊技能。"
+      },
+      {
+        "en": "This phrase is useful when comparing tradition with modern development.",
+        "zh": "這個說法適合用於比較傳統和現代發展。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "such as LEDs",
+    "meaning": "例如LED",
+    "examples": [
+      {
+        "en": "Customers may choose between neon and newer technologies such as LEDs.",
+        "zh": "顧客可以在霓虹和例如 LED 這類較新技術之間選擇。"
+      },
+      {
+        "en": "“Such as LEDs” gives LEDs as an example of a larger group.",
+        "zh": "“Such as LEDs” 是把 LED 作為較大類別中的例子。"
+      },
+      {
+        "en": "Shops use energy-saving lights such as LEDs to reduce electricity costs.",
+        "zh": "店舖使用例如 LED 這類節能燈來減低電費。"
+      },
+      {
+        "en": "When giving examples, “such as” helps readers understand the category more clearly.",
+        "zh": "舉例時，“such as” 幫助讀者更清楚理解類別。"
+      },
+      {
+        "en": "LEDs are one example, not the only newer lighting technology.",
+        "zh": "LED 是其中一個例子，不是唯一較新的照明技術。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "be absolutely right",
+    "meaning": "完全正確",
+    "examples": [
+      {
+        "en": "Pris says that Rick is absolutely right.",
+        "zh": "Pris 說 Rick 完全正確。"
+      },
+      {
+        "en": "If someone is absolutely right, they are completely correct.",
+        "zh": "如果某人 is absolutely right，意思是他完全正確。"
+      },
+      {
+        "en": "You are absolutely right; we should check the safety rules first.",
+        "zh": "你完全正確；我們應該先檢查安全規則。"
+      },
+      {
+        "en": "A speaker may say this to show strong agreement with another person.",
+        "zh": "說話者可能會用這個說法表示強烈同意另一個人。"
+      },
+      {
+        "en": "This phrase is stronger than simply saying “you are right”.",
+        "zh": "這個說法比單純說 “you are right” 更強。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "thank you both very much for",
+    "meaning": "非常感謝兩位……",
+    "examples": [
+      {
+        "en": "Julia thanks both guests very much for joining the discussion.",
+        "zh": "Julia 非常感謝兩位嘉賓參與討論。"
+      },
+      {
+        "en": "“Thank you both very much for” is used to politely thank two people for doing something.",
+        "zh": "“Thank you both very much for” 用於禮貌地感謝兩個人做了某事。"
+      },
+      {
+        "en": "Thank you both very much for helping with the event.",
+        "zh": "非常感謝兩位幫忙籌辦活動。"
+      },
+      {
+        "en": "A host may use this phrase at the end of an interview with two guests.",
+        "zh": "主持人在兩位嘉賓的訪問結尾，可能會使用這個說法。"
+      },
+      {
+        "en": "This phrase is formal enough for public speaking and warm enough for conversation.",
+        "zh": "這個說法既適合正式公開發言，也保留親切語氣。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "I’m sure…will agree that",
+    "meaning": "我相信……都會同意",
+    "examples": [
+      {
+        "en": "I’m sure our listeners will agree that it has been an illuminating discussion.",
+        "zh": "我相信我們的聽眾都會同意，這是一場富啟發性的討論。"
+      },
+      {
+        "en": "“I’m sure…will agree that” means the speaker believes a group will share the same opinion.",
+        "zh": "“I’m sure…will agree that” 表示說話者相信某群人會有相同看法。"
+      },
+      {
+        "en": "I’m sure parents will agree that safety should come first.",
+        "zh": "我相信家長都會同意安全應放在第一位。"
+      },
+      {
+        "en": "A presenter may use this phrase to include the audience in a conclusion.",
+        "zh": "主持人可能會用這個說法，把觀眾包含在結論之中。"
+      },
+      {
+        "en": "This structure sounds confident but still polite.",
+        "zh": "這個結構聽起來有信心，同時仍然有禮貌。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "an illuminating discussion",
+    "meaning": "一場富啟發性的討論",
+    "examples": [
+      {
+        "en": "The interview has been an illuminating discussion about neon art.",
+        "zh": "這次訪問是一場關於霓虹藝術的富啟發性討論。"
+      },
+      {
+        "en": "An illuminating discussion is a conversation that helps people understand something more clearly.",
+        "zh": "“An illuminating discussion” 指幫助人更清楚理解某事的對話。"
+      },
+      {
+        "en": "The class had an illuminating discussion about online privacy.",
+        "zh": "班上就網上私隱進行了一場富啟發性的討論。"
+      },
+      {
+        "en": "A discussion becomes illuminating when speakers explain ideas with clear examples.",
+        "zh": "當發言者用清晰例子解釋想法時，討論會變得富啟發性。"
+      },
+      {
+        "en": "This phrase is suitable for thoughtful interviews, talks, or lessons.",
+        "zh": "這個說法適合用於有深度的訪問、講座或課堂。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "tune in next week",
+    "meaning": "下星期繼續收聽",
+    "examples": [
+      {
+        "en": "Listeners are invited to tune in next week.",
+        "zh": "聽眾被邀請下星期繼續收聽。"
+      },
+      {
+        "en": "To tune in next week means to listen to or watch the programme again next week.",
+        "zh": "“Tune in next week” 意思是下星期再次收聽或觀看節目。"
+      },
+      {
+        "en": "Tune in next week for our interview with a local chef.",
+        "zh": "下星期繼續收聽我們對本地廚師的訪問。"
+      },
+      {
+        "en": "Hosts say this to encourage the audience to return for the next episode.",
+        "zh": "主持人會這樣說，以鼓勵觀眾回來收聽下一集。"
+      },
+      {
+        "en": "This phrase is common in radio, television, podcasts, and online shows.",
+        "zh": "這個說法常見於電台、電視、播客和網上節目。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  },
+  {
+    "front": "Goodbye for now",
+    "meaning": "暫且再見",
+    "examples": [
+      {
+        "en": "Julia ends the programme by saying, “Goodbye for now!”",
+        "zh": "Julia 以「暫且再見！」結束節目。"
+      },
+      {
+        "en": "“Goodbye for now” means goodbye at this moment, with the feeling that we may meet or speak again later.",
+        "zh": "“Goodbye for now” 意思是此刻先道別，帶有之後可能再見或再談的感覺。"
+      },
+      {
+        "en": "Goodbye for now, and thank you for joining today’s lesson.",
+        "zh": "暫且再見，謝謝你參加今天的課堂。"
+      },
+      {
+        "en": "A presenter may use this phrase at the end of a programme.",
+        "zh": "主持人可能會在節目結尾使用這個說法。"
+      },
+      {
+        "en": "It sounds warmer than a final goodbye because it suggests future contact.",
+        "zh": "它比最終告別更溫暖，因為它暗示將來仍會聯繫。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2022 DSE Podcast.pdf"
+  }
+],
+  "dse/paper-3/podcast/2024": [
+  {
+    "front": "monthly Zoom meeting",
+    "meaning": "每月 Zoom 會議",
+    "examples": [
+      {
+        "en": "Welcome to our monthly Zoom meeting.",
+        "zh": "歡迎參加我們每月的 Zoom 會議。"
+      },
+      {
+        "en": "A monthly Zoom meeting is an online meeting held once every month.",
+        "zh": "monthly Zoom meeting 指每月舉行一次的網上會議。"
+      },
+      {
+        "en": "Our team uses a monthly Zoom meeting to review progress and discuss problems.",
+        "zh": "我們團隊用每月 Zoom 會議來檢視進度和討論問題。"
+      },
+      {
+        "en": "A monthly Zoom meeting helps remote workers stay connected even when they work in different places.",
+        "zh": "每月 Zoom 會議可以幫助遙距工作的員工保持聯繫，即使他們在不同地方工作。"
+      },
+      {
+        "en": "If the project is long, a monthly Zoom meeting can keep everyone updated.",
+        "zh": "如果項目時間很長，每月 Zoom 會議可以讓大家保持更新。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "How are we all doing today?",
+    "meaning": "大家今天狀態如何？",
+    "examples": [
+      {
+        "en": "How are we all doing today?",
+        "zh": "大家今天狀態如何？"
+      },
+      {
+        "en": "“How are we all doing today?” is a friendly way to ask a group how they feel.",
+        "zh": "“How are we all doing today?” 是友善地問一群人今天感覺如何的說法。"
+      },
+      {
+        "en": "A teacher may say, “How are we all doing today?” before starting the lesson.",
+        "zh": "老師可能會在開始上課前說：「大家今天狀態如何？」"
+      },
+      {
+        "en": "This question helps people relax before a meeting begins.",
+        "zh": "這個問題有助大家在會議開始前放鬆。"
+      },
+      {
+        "en": "It sounds warmer than simply saying, “Are you ready?”",
+        "zh": "它聽起來比單純說「準備好了嗎？」更溫和。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "feel great so far",
+    "meaning": "到目前為止感覺很好",
+    "examples": [
+      {
+        "en": "I am feeling great so far.",
+        "zh": "到目前為止，我感覺很好。"
+      },
+      {
+        "en": "To feel great so far means to feel good up to this point.",
+        "zh": "feel great so far 指到目前這一刻為止感覺良好。"
+      },
+      {
+        "en": "After the first week at school, Jason said he felt great so far.",
+        "zh": "開學第一週後，Jason 說他到目前為止感覺很好。"
+      },
+      {
+        "en": "If the weather is good and the plan is smooth, people may feel great so far during a trip.",
+        "zh": "如果天氣好，計劃又順利，人們在旅途中可能會覺得到目前為止都很好。"
+      },
+      {
+        "en": "The phrase does not promise the whole day will be perfect; it only describes the situation up to now.",
+        "zh": "這個說法不是保證整天都完美，只是描述到現在為止的情況。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "I wish I could say the same",
+    "meaning": "我也希望自己可以這樣說",
+    "examples": [
+      {
+        "en": "I wish I could say the same, David.",
+        "zh": "David，我也希望自己可以這樣說。"
+      },
+      {
+        "en": "“I wish I could say the same” means I cannot honestly say I feel the same way.",
+        "zh": "“I wish I could say the same” 的意思是：我不能真心說自己也一樣。"
+      },
+      {
+        "en": "If one friend says he slept well, another may reply, “I wish I could say the same.”",
+        "zh": "如果一位朋友說自己睡得很好，另一位可能回應：「我也希望自己可以這樣說。」"
+      },
+      {
+        "en": "People use this phrase when someone else has a better situation than they do.",
+        "zh": "當別人的情況比自己好時，人們會使用這句話。"
+      },
+      {
+        "en": "It is a polite way to say, “My situation is not as good.”",
+        "zh": "這是禮貌地表示「我的情況沒有那麼好」的說法。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "have quite a bit going on",
+    "meaning": "有不少事情在處理",
+    "examples": [
+      {
+        "en": "We have quite a bit going on at the moment.",
+        "zh": "我們目前有不少事情在處理。"
+      },
+      {
+        "en": "To have quite a bit going on means to have many things to handle.",
+        "zh": "have quite a bit going on 指有很多事情要處理。"
+      },
+      {
+        "en": "A student has quite a bit going on when exams, homework, and club activities all come together.",
+        "zh": "當考試、功課和社團活動同時出現時，學生就有不少事情在處理。"
+      },
+      {
+        "en": "When a company has quite a bit going on, staff may need to prioritise their tasks carefully.",
+        "zh": "當公司有很多事情在進行，員工可能需要小心安排優先次序。"
+      },
+      {
+        "en": "This phrase usually suggests busyness, pressure, or many active matters.",
+        "zh": "這個說法通常帶有忙碌、壓力或多件事情同時發生的意思。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "at the moment",
+    "meaning": "目前；現在",
+    "examples": [
+      {
+        "en": "We have quite a bit going on at the moment.",
+        "zh": "我們目前有不少事情在處理。"
+      },
+      {
+        "en": "At the moment means now or during this present period.",
+        "zh": "at the moment 指現在或目前這段時間。"
+      },
+      {
+        "en": "I cannot talk for long at the moment because I am in a meeting.",
+        "zh": "我現在不能談太久，因為我正在開會。"
+      },
+      {
+        "en": "The shop is very busy at the moment, so customers may need to wait.",
+        "zh": "這間店目前非常忙，所以顧客可能需要等候。"
+      },
+      {
+        "en": "This phrase is useful when the situation may change later.",
+        "zh": "當情況之後可能會改變時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "a busy period",
+    "meaning": "忙碌的一段時間",
+    "examples": [
+      {
+        "en": "It has been a busy period for Avery.",
+        "zh": "這段時間對 Avery 來說一直很忙。"
+      },
+      {
+        "en": "A busy period is a time when someone has many tasks or events to handle.",
+        "zh": "a busy period 指某人有很多任務或活動要處理的一段時間。"
+      },
+      {
+        "en": "The weeks before exams are a busy period for many students.",
+        "zh": "考試前幾星期對許多學生來說都是忙碌的一段時間。"
+      },
+      {
+        "en": "During a busy period, people may need to plan their time more carefully.",
+        "zh": "在忙碌時期，人們可能需要更仔細安排時間。"
+      },
+      {
+        "en": "A busy period can be tiring, but it usually does not last forever.",
+        "zh": "忙碌的一段時間可能令人疲倦，但通常不會永遠持續。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Let’s get right into it",
+    "meaning": "我們直接開始吧",
+    "examples": [
+      {
+        "en": "Let’s get right into it, shall we?",
+        "zh": "我們直接開始吧，好嗎？"
+      },
+      {
+        "en": "“Let’s get right into it” means let us start the main topic immediately.",
+        "zh": "“Let’s get right into it” 的意思是我們立刻開始主要內容。"
+      },
+      {
+        "en": "A manager may say this when the meeting agenda is long.",
+        "zh": "當會議議程很長時，經理可能會這樣說。"
+      },
+      {
+        "en": "This phrase helps people stop small talk and focus on the task.",
+        "zh": "這個說法幫助大家停止寒暄，專注在任務上。"
+      },
+      {
+        "en": "It is useful when everyone already knows why they are there.",
+        "zh": "當所有人都已經知道開會目的時，這句話很有用。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "shall we?",
+    "meaning": "好嗎？；我們……吧？",
+    "examples": [
+      {
+        "en": "Let’s get right into it, shall we?",
+        "zh": "我們直接開始吧，好嗎？"
+      },
+      {
+        "en": "“Shall we?” is added to a suggestion to make it sound polite and inviting.",
+        "zh": "“shall we?” 加在建議後面，可以令語氣更禮貌、更像邀請。"
+      },
+      {
+        "en": "We can begin with the first question, shall we?",
+        "zh": "我們可以由第一條問題開始，好嗎？"
+      },
+      {
+        "en": "A speaker may use “shall we?” to gently guide a group forward.",
+        "zh": "發言者可能用 “shall we?” 來溫和地帶領一群人繼續。"
+      },
+      {
+        "en": "It often makes an instruction sound softer.",
+        "zh": "它通常可以令指示聽起來較柔和。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Guided Nature Walk",
+    "meaning": "導賞自然步行活動",
+    "examples": [
+      {
+        "en": "The Guided Nature Walk at the Hong Kong Wetland Park is coming up soon.",
+        "zh": "香港濕地公園的導賞自然步行活動即將舉行。"
+      },
+      {
+        "en": "A Guided Nature Walk is an outdoor walk led by a guide who explains plants, animals, and the environment.",
+        "zh": "Guided Nature Walk 指由導賞員帶領，並解釋植物、動物和環境的戶外步行活動。"
+      },
+      {
+        "en": "Students can join a Guided Nature Walk to learn about birds, insects, and trees.",
+        "zh": "學生可以參加導賞自然步行活動，學習鳥類、昆蟲和樹木。"
+      },
+      {
+        "en": "A Guided Nature Walk helps visitors understand nature instead of just looking around.",
+        "zh": "導賞自然步行活動幫助訪客理解自然，而不只是四處看看。"
+      },
+      {
+        "en": "It is suitable for people who want a simple learning activity outdoors.",
+        "zh": "它適合想參加簡單戶外學習活動的人。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Hong Kong Wetland Park",
+    "meaning": "香港濕地公園",
+    "examples": [
+      {
+        "en": "The Guided Nature Walk will take place at the Hong Kong Wetland Park.",
+        "zh": "導賞自然步行活動將於香港濕地公園舉行。"
+      },
+      {
+        "en": "Hong Kong Wetland Park is a place where visitors can learn about wetlands and wildlife.",
+        "zh": "香港濕地公園是一個讓訪客學習濕地和野生生物的地方。"
+      },
+      {
+        "en": "Schools may take students to Hong Kong Wetland Park for outdoor learning.",
+        "zh": "學校可能帶學生到香港濕地公園進行戶外學習。"
+      },
+      {
+        "en": "Holding a nature walk at Hong Kong Wetland Park makes sense because the setting matches the activity.",
+        "zh": "在香港濕地公園舉行自然步行活動很合理，因為場地與活動配合。"
+      },
+      {
+        "en": "Visitors should arrive early if the event at Hong Kong Wetland Park is popular.",
+        "zh": "如果香港濕地公園的活動很受歡迎，訪客應該提早到達。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "come up soon",
+    "meaning": "即將舉行；即將到來",
+    "examples": [
+      {
+        "en": "The Guided Nature Walk is coming up soon.",
+        "zh": "導賞自然步行活動即將舉行。"
+      },
+      {
+        "en": "If an event is coming up soon, it will happen in the near future.",
+        "zh": "如果一項活動 is coming up soon，意思是它很快就會發生。"
+      },
+      {
+        "en": "The school picnic is coming up soon, so students need to return the reply slip.",
+        "zh": "學校旅行即將舉行，所以學生需要交回回條。"
+      },
+      {
+        "en": "When a deadline is coming up soon, people should not wait until the last minute.",
+        "zh": "當截止日期即將到來，人們不應等到最後一刻。"
+      },
+      {
+        "en": "This phrase reminds listeners that preparation time is limited.",
+        "zh": "這個說法提醒聽者準備時間有限。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "finalise all the details",
+    "meaning": "敲定所有細節",
+    "examples": [
+      {
+        "en": "Have we finalised all the details yet?",
+        "zh": "我們已經敲定所有細節了嗎？"
+      },
+      {
+        "en": "To finalise all the details means to make all decisions clearly and leave nothing uncertain.",
+        "zh": "finalise all the details 指清楚作出所有決定，不留下不確定的地方。"
+      },
+      {
+        "en": "Before the school fair, teachers must finalise all the details about time, venue, and duties.",
+        "zh": "在學校賣物會前，老師必須敲定時間、地點和職責等所有細節。"
+      },
+      {
+        "en": "If a team does not finalise all the details, participants may receive confusing information.",
+        "zh": "如果團隊沒有敲定所有細節，參加者可能會收到混亂的資訊。"
+      },
+      {
+        "en": "This phrase is often used before an event, a trip, or an official plan.",
+        "zh": "這個說法常用於活動、旅行或正式計劃之前。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "be held on",
+    "meaning": "於……舉行",
+    "examples": [
+      {
+        "en": "The Guided Nature Walk will be held on 27 April at 10 am.",
+        "zh": "導賞自然步行活動將於 4 月 27 日上午 10 時舉行。"
+      },
+      {
+        "en": "“Be held on” is used to say the date or time of an event.",
+        "zh": "“be held on” 用來說明活動的日期或時間。"
+      },
+      {
+        "en": "The parent meeting will be held on Friday evening.",
+        "zh": "家長會將於星期五晚上舉行。"
+      },
+      {
+        "en": "If an activity is held on a public holiday, more families may be able to join.",
+        "zh": "如果活動於公眾假期舉行，可能會有更多家庭能夠參加。"
+      },
+      {
+        "en": "This phrase is common in notices, emails, and announcements.",
+        "zh": "這個說法常見於通告、電郵和公告。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "a sensible time to meet",
+    "meaning": "合理的集合時間",
+    "examples": [
+      {
+        "en": "April 27th at 10 am is a very sensible time to meet.",
+        "zh": "4 月 27 日上午 10 時是一個非常合理的集合時間。"
+      },
+      {
+        "en": "A sensible time to meet is a reasonable time that suits the event and most people.",
+        "zh": "a sensible time to meet 指適合活動和大多數人的合理集合時間。"
+      },
+      {
+        "en": "For a morning hike, 8 am may be a sensible time to meet.",
+        "zh": "對早上遠足來說，上午 8 時可能是合理的集合時間。"
+      },
+      {
+        "en": "Choosing a sensible time to meet can reduce lateness and confusion.",
+        "zh": "選擇合理的集合時間可以減少遲到和混亂。"
+      },
+      {
+        "en": "A time that is too early or too late may not be sensible for families.",
+        "zh": "太早或太晚的時間對家庭來說可能不算合理。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "as usual",
+    "meaning": "如常；像平時一樣",
+    "examples": [
+      {
+        "en": "As usual, the walk will be two hours long.",
+        "zh": "如常，步行活動將長達兩小時。"
+      },
+      {
+        "en": "As usual means in the same way as before or as people expect.",
+        "zh": "as usual 指像之前一樣，或像大家預期的一樣。"
+      },
+      {
+        "en": "As usual, the library will close at 6 pm on weekdays.",
+        "zh": "如常，圖書館會在平日下午 6 時關門。"
+      },
+      {
+        "en": "If a teacher says “as usual,” students know the normal rule still applies.",
+        "zh": "如果老師說 “as usual”，學生就知道正常規則仍然適用。"
+      },
+      {
+        "en": "This phrase is useful when something has not changed.",
+        "zh": "當某件事沒有改變時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "be two hours long",
+    "meaning": "長達兩小時",
+    "examples": [
+      {
+        "en": "The walk will be two hours long.",
+        "zh": "這次步行活動將長達兩小時。"
+      },
+      {
+        "en": "To be two hours long means to last for two hours.",
+        "zh": "be two hours long 指持續兩小時。"
+      },
+      {
+        "en": "The workshop is two hours long, so students should bring water.",
+        "zh": "工作坊長達兩小時，所以學生應該帶水。"
+      },
+      {
+        "en": "If a tour is two hours long, the organiser should include a short break.",
+        "zh": "如果導賞團長達兩小時，主辦方應該安排短暫休息。"
+      },
+      {
+        "en": "This pattern can describe the length of a class, film, meeting, or activity.",
+        "zh": "這個句式可以描述課堂、電影、會議或活動的長度。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "sound about right",
+    "meaning": "聽起來差不多；聽起來合理",
+    "examples": [
+      {
+        "en": "A two-hour walk sounds about right.",
+        "zh": "兩小時的步行聽起來差不多。"
+      },
+      {
+        "en": "If something sounds about right, it seems reasonable or suitable.",
+        "zh": "sound about right 指某事聽起來合理或合適。"
+      },
+      {
+        "en": "Thirty minutes for lunch sounds about right for a short school trip.",
+        "zh": "對短途學校旅行來說，三十分鐘午膳時間聽起來差不多。"
+      },
+      {
+        "en": "When a plan sounds about right, people usually agree without much argument.",
+        "zh": "當計劃聽起來合理，人們通常不會有太多爭論。"
+      },
+      {
+        "en": "This phrase shows approval, but not strong excitement.",
+        "zh": "這個說法表示認同，但不是非常興奮。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "meeting venue",
+    "meaning": "集合地點；會議地點",
+    "examples": [
+      {
+        "en": "The meeting venue this time will be the visitor centre.",
+        "zh": "這次的集合地點將會是遊客中心。"
+      },
+      {
+        "en": "A meeting venue is the place where people gather for a meeting or event.",
+        "zh": "meeting venue 指人們集合開會或參加活動的地點。"
+      },
+      {
+        "en": "The school hall is a good meeting venue for large parent talks.",
+        "zh": "學校禮堂是大型家長講座的好會議地點。"
+      },
+      {
+        "en": "Choosing the wrong meeting venue can make people late or confused.",
+        "zh": "選錯集合地點可能會令人遲到或混亂。"
+      },
+      {
+        "en": "A good meeting venue should be easy to find, safe, and suitable for the group size.",
+        "zh": "好的集合地點應該容易找到、安全，並適合團體人數。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "main entrance",
+    "meaning": "正門；主要入口",
+    "examples": [
+      {
+        "en": "The main entrance of the park is much too busy.",
+        "zh": "公園的正門太繁忙了。"
+      },
+      {
+        "en": "The main entrance is the primary entrance that most people use.",
+        "zh": "main entrance 指大多數人使用的主要入口。"
+      },
+      {
+        "en": "Visitors often wait near the main entrance because it is easy to find.",
+        "zh": "訪客常在正門附近等候，因為那裡容易找到。"
+      },
+      {
+        "en": "If the main entrance is crowded, organisers may choose another meeting point.",
+        "zh": "如果正門很擠，主辦方可能會選擇另一個集合點。"
+      },
+      {
+        "en": "Signs near the main entrance help first-time visitors enter the building correctly.",
+        "zh": "正門附近的指示牌可以幫助首次到訪者正確進入大樓。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "much too busy",
+    "meaning": "太繁忙",
+    "examples": [
+      {
+        "en": "The main entrance is much too busy.",
+        "zh": "正門太繁忙了。"
+      },
+      {
+        "en": "Much too busy means far too crowded, active, or difficult to manage.",
+        "zh": "much too busy 指過於擁擠、繁忙或難以管理。"
+      },
+      {
+        "en": "The café is much too busy at lunchtime for a quiet meeting.",
+        "zh": "這間咖啡店在午餐時間太繁忙，不適合安靜開會。"
+      },
+      {
+        "en": "If a road is much too busy, students may need an adult to help them cross.",
+        "zh": "如果道路太繁忙，學生可能需要成人協助過馬路。"
+      },
+      {
+        "en": "This phrase is stronger than simply saying “busy.”",
+        "zh": "這個說法比單純說 “busy” 語氣更強。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "visitor centre",
+    "meaning": "遊客中心",
+    "examples": [
+      {
+        "en": "The meeting venue this time will be the visitor centre.",
+        "zh": "這次的集合地點將會是遊客中心。"
+      },
+      {
+        "en": "A visitor centre is a place where visitors can get information, maps, tickets, or help.",
+        "zh": "visitor centre 指訪客可以獲取資訊、地圖、門票或協助的地方。"
+      },
+      {
+        "en": "At a country park, the visitor centre may show displays about plants and animals.",
+        "zh": "在郊野公園，遊客中心可能會展示植物和動物資料。"
+      },
+      {
+        "en": "Meeting at the visitor centre is useful because staff can guide late arrivals.",
+        "zh": "在遊客中心集合很有用，因為職員可以指引遲到的人。"
+      },
+      {
+        "en": "A clear visitor centre can make a trip feel more organised.",
+        "zh": "清楚易找的遊客中心可以令旅程感覺更有組織。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "a much better choice",
+    "meaning": "好得多的選擇",
+    "examples": [
+      {
+        "en": "The visitor centre is a much better choice.",
+        "zh": "遊客中心是好得多的選擇。"
+      },
+      {
+        "en": "A much better choice means an option that is clearly more suitable than another one.",
+        "zh": "a much better choice 指明顯比另一個選項更合適的選擇。"
+      },
+      {
+        "en": "For a rainy day, an indoor playground is a much better choice than an outdoor park.",
+        "zh": "在雨天，室內遊樂場比戶外公園是好得多的選擇。"
+      },
+      {
+        "en": "A much better choice can save time, reduce problems, and make people happier.",
+        "zh": "好得多的選擇可以節省時間、減少問題，並令大家更滿意。"
+      },
+      {
+        "en": "This phrase is often used after comparing two options.",
+        "zh": "這個說法常用於比較兩個選項之後。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "a sensible decision",
+    "meaning": "合理的決定",
+    "examples": [
+      {
+        "en": "Using the visitor centre is a sensible decision.",
+        "zh": "使用遊客中心是一個合理的決定。"
+      },
+      {
+        "en": "A sensible decision is a practical and reasonable choice.",
+        "zh": "a sensible decision 指實際而合理的選擇。"
+      },
+      {
+        "en": "Bringing an umbrella before a storm is a sensible decision.",
+        "zh": "暴風雨前帶傘是一個合理的決定。"
+      },
+      {
+        "en": "A sensible decision can prevent small problems from becoming serious.",
+        "zh": "合理的決定可以防止小問題變得嚴重。"
+      },
+      {
+        "en": "It may not be exciting, but it usually protects people from trouble.",
+        "zh": "它未必令人興奮，但通常能避免麻煩。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "email all the details to",
+    "meaning": "將所有細節電郵給……",
+    "examples": [
+      {
+        "en": "We will email all the details to the participants soon.",
+        "zh": "我們很快會將所有細節電郵給參加者。"
+      },
+      {
+        "en": "To email all the details to someone means to send them the full information by email.",
+        "zh": "email all the details to someone 指用電郵把完整資料發送給某人。"
+      },
+      {
+        "en": "The teacher will email all the details to parents before the school trip.",
+        "zh": "老師會在學校旅行前將所有細節電郵給家長。"
+      },
+      {
+        "en": "If organisers email all the details to participants early, fewer people will ask the same questions.",
+        "zh": "如果主辦方提早將所有細節電郵給參加者，就會較少人問相同問題。"
+      },
+      {
+        "en": "This phrase is useful for schedules, venues, fees, and instructions.",
+        "zh": "這個說法適用於時間表、地點、費用和指示。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "participants",
+    "meaning": "參加者",
+    "examples": [
+      {
+        "en": "We will email all the details to the participants soon.",
+        "zh": "我們很快會將所有細節電郵給參加者。"
+      },
+      {
+        "en": "Participants are people who take part in an event, activity, or programme.",
+        "zh": "participants 指參與活動、事件或計劃的人。"
+      },
+      {
+        "en": "The participants in the workshop received a worksheet and a name tag.",
+        "zh": "工作坊的參加者收到一份工作紙和一個名牌。"
+      },
+      {
+        "en": "If participants do not know the meeting point, they may arrive late.",
+        "zh": "如果參加者不知道集合地點，他們可能會遲到。"
+      },
+      {
+        "en": "Organisers should give participants clear instructions before an activity begins.",
+        "zh": "主辦方應在活動開始前給參加者清晰指示。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "now that",
+    "meaning": "既然……",
+    "examples": [
+      {
+        "en": "Now that all the details are finalised, we can move on.",
+        "zh": "既然所有細節都已敲定，我們可以繼續下一部分。"
+      },
+      {
+        "en": "Now that means because something has happened or is now true.",
+        "zh": "now that 指因為某事已經發生或現在成為事實。"
+      },
+      {
+        "en": "Now that the exam is over, students can relax for a while.",
+        "zh": "既然考試結束了，學生可以放鬆一會兒。"
+      },
+      {
+        "en": "Now that the rain has stopped, the children can play outside.",
+        "zh": "既然雨停了，孩子們可以到外面玩。"
+      },
+      {
+        "en": "This phrase connects a completed situation with the next action.",
+        "zh": "這個說法把已完成的情況與下一個行動連接起來。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "move on to",
+    "meaning": "轉到；繼續討論",
+    "examples": [
+      {
+        "en": "Shall we move on to the Bird Watching Tour?",
+        "zh": "我們轉到觀鳥團，好嗎？"
+      },
+      {
+        "en": "To move on to something means to stop discussing one topic and start discussing the next.",
+        "zh": "move on to something 指停止討論一個主題，開始討論下一個。"
+      },
+      {
+        "en": "After checking the budget, the team moved on to the schedule.",
+        "zh": "檢查預算後，團隊轉到時間表部分。"
+      },
+      {
+        "en": "In class, a teacher may move on to a new exercise when students understand the first one.",
+        "zh": "在課堂中，當學生明白第一個練習後，老師可能會轉到新練習。"
+      },
+      {
+        "en": "This phrase helps keep a meeting or lesson organised.",
+        "zh": "這個說法有助會議或課堂保持有組織。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Bird Watching Tour",
+    "meaning": "觀鳥團",
+    "examples": [
+      {
+        "en": "We are discussing the Bird Watching Tour at the Hong Kong Botanical Gardens.",
+        "zh": "我們正在討論香港植物園的觀鳥團。"
+      },
+      {
+        "en": "A Bird Watching Tour is a guided trip where people observe birds in their natural surroundings.",
+        "zh": "Bird Watching Tour 指由導賞員帶領，讓人觀察自然環境中鳥類的活動。"
+      },
+      {
+        "en": "Children can join a Bird Watching Tour to learn how to identify birds by colour and sound.",
+        "zh": "孩子可以參加觀鳥團，學習用顏色和聲音辨認鳥類。"
+      },
+      {
+        "en": "A Bird Watching Tour often starts early because many birds are active in the morning.",
+        "zh": "觀鳥團通常較早開始，因為許多鳥在早上較活躍。"
+      },
+      {
+        "en": "Participants should stay quiet during a Bird Watching Tour so they do not scare the birds away.",
+        "zh": "參加觀鳥團時，參加者應保持安靜，以免嚇走鳥類。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Hong Kong Botanical Gardens",
+    "meaning": "香港植物園",
+    "examples": [
+      {
+        "en": "The Bird Watching Tour will take place at the Hong Kong Botanical Gardens.",
+        "zh": "觀鳥團將於香港植物園舉行。"
+      },
+      {
+        "en": "Hong Kong Botanical Gardens is a suitable place for learning about plants, birds, and nature.",
+        "zh": "香港植物園是學習植物、鳥類和自然的合適地方。"
+      },
+      {
+        "en": "A school may organise an outdoor lesson at Hong Kong Botanical Gardens.",
+        "zh": "學校可能在香港植物園安排戶外課堂。"
+      },
+      {
+        "en": "Visitors going to Hong Kong Botanical Gardens should check the meeting point before arriving.",
+        "zh": "前往香港植物園的訪客應在到達前確認集合地點。"
+      },
+      {
+        "en": "Events at Hong Kong Botanical Gardens can help city residents connect with nature.",
+        "zh": "香港植物園的活動可以幫助城市居民接觸自然。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "write an email to",
+    "meaning": "寫電郵給……",
+    "examples": [
+      {
+        "en": "We are planning to write an email to Peter Chan.",
+        "zh": "我們正計劃寫電郵給 Peter Chan。"
+      },
+      {
+        "en": "To write an email to someone means to send them a message by email.",
+        "zh": "write an email to someone 指用電郵向某人發送訊息。"
+      },
+      {
+        "en": "The student wrote an email to the teacher to ask about the homework.",
+        "zh": "學生寫電郵給老師詢問功課。"
+      },
+      {
+        "en": "If a plan changes, organisers should write an email to everyone affected.",
+        "zh": "如果計劃有變，主辦方應寫電郵給所有受影響的人。"
+      },
+      {
+        "en": "This phrase is useful for formal updates, requests, and explanations.",
+        "zh": "這個說法適用於正式更新、請求和解釋。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "manager of",
+    "meaning": "……的經理",
+    "examples": [
+      {
+        "en": "Peter Chan is the manager of the Botanical Gardens.",
+        "zh": "Peter Chan 是植物園的經理。"
+      },
+      {
+        "en": "The manager of a place or team is the person responsible for running it.",
+        "zh": "manager of a place or team 指負責管理某地方或團隊的人。"
+      },
+      {
+        "en": "The manager of the restaurant handles staff, bookings, and customer problems.",
+        "zh": "餐廳經理負責員工、訂座和顧客問題。"
+      },
+      {
+        "en": "If you need permission for an event, you may need to contact the manager of the venue.",
+        "zh": "如果你需要活動許可，可能要聯絡場地經理。"
+      },
+      {
+        "en": "This phrase identifies the person in charge of something.",
+        "zh": "這個說法用來指出負責某事的人。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "tend to",
+    "meaning": "通常會；傾向於",
+    "examples": [
+      {
+        "en": "This is a tour we tend to start bright and early in the morning.",
+        "zh": "這是一個我們通常會在一大清早開始的旅行團。"
+      },
+      {
+        "en": "Tend to means usually do something or be likely to do something.",
+        "zh": "tend to 指通常會做某事，或傾向於做某事。"
+      },
+      {
+        "en": "Young children tend to ask many questions when they are curious.",
+        "zh": "小孩子好奇時通常會問很多問題。"
+      },
+      {
+        "en": "People tend to arrive late when the meeting point is unclear.",
+        "zh": "當集合地點不清楚，人們通常會遲到。"
+      },
+      {
+        "en": "This phrase describes a common habit or pattern, not a strict rule.",
+        "zh": "這個說法描述常見習慣或模式，不是嚴格規則。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "bright and early",
+    "meaning": "一大清早",
+    "examples": [
+      {
+        "en": "We tend to start the tour bright and early in the morning.",
+        "zh": "我們通常會一大清早開始這個旅行團。"
+      },
+      {
+        "en": "Bright and early means very early in the morning, often with an energetic feeling.",
+        "zh": "bright and early 指一大清早，通常帶有精神地開始的感覺。"
+      },
+      {
+        "en": "The hikers met bright and early to avoid the afternoon heat.",
+        "zh": "遠足者一大清早集合，以避開下午的炎熱。"
+      },
+      {
+        "en": "If a flight leaves bright and early, passengers may need to wake up before sunrise.",
+        "zh": "如果航班一大清早出發，乘客可能要在日出前起床。"
+      },
+      {
+        "en": "This phrase is often used for trips, work, or activities that begin early.",
+        "zh": "這個說法常用於早開始的旅行、工作或活動。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "isn’t it?",
+    "meaning": "對嗎？；不是嗎？",
+    "examples": [
+      {
+        "en": "The tour starts at 7:30 am, isn’t it?",
+        "zh": "這個旅行團早上 7 時 30 分開始，對嗎？"
+      },
+      {
+        "en": "“Isn’t it?” is a question tag used to check or invite agreement, especially after “it is.”",
+        "zh": "“isn’t it?” 是附加問句，用來確認或邀請對方同意，尤其在前面是 “it is” 時使用。"
+      },
+      {
+        "en": "It is a beautiful garden, isn’t it?",
+        "zh": "這是一個美麗的花園，不是嗎？"
+      },
+      {
+        "en": "A question tag can make a statement sound more like a request for confirmation.",
+        "zh": "附加問句可以令陳述聽起來更像在請對方確認。"
+      },
+      {
+        "en": "In standard English, the tag should match the main verb, so “The tour starts at 7:30” normally takes “doesn’t it?”",
+        "zh": "在標準英語中，附加問句應配合主要動詞，所以 “The tour starts at 7:30” 通常應用 “doesn’t it?”。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "not the case anymore",
+    "meaning": "情況已經不再是這樣",
+    "examples": [
+      {
+        "en": "I believe that is not the case anymore, David.",
+        "zh": "David，我相信情況已經不再是這樣。"
+      },
+      {
+        "en": "If something is not the case anymore, it used to be true but is no longer true now.",
+        "zh": "not the case anymore 指某事以前是真的，但現在不再是真的。"
+      },
+      {
+        "en": "The shop used to close on Sundays, but that is not the case anymore.",
+        "zh": "這間店以前星期日休息，但現在情況已經不再是這樣。"
+      },
+      {
+        "en": "When rules change, old information may not be the case anymore.",
+        "zh": "當規則改變，舊資訊可能已經不再適用。"
+      },
+      {
+        "en": "This phrase is useful for correcting outdated information politely.",
+        "zh": "這個說法適合用來禮貌地更正過時資訊。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Am I right?",
+    "meaning": "我說得對嗎？",
+    "examples": [
+      {
+        "en": "Am I right, Avery?",
+        "zh": "Avery，我說得對嗎？"
+      },
+      {
+        "en": "“Am I right?” is used to ask whether your understanding is correct.",
+        "zh": "“Am I right?” 用來詢問自己的理解是否正確。"
+      },
+      {
+        "en": "The meeting starts at nine, am I right?",
+        "zh": "會議九點開始，我說得對嗎？"
+      },
+      {
+        "en": "People say “Am I right?” when they want quick confirmation.",
+        "zh": "當人們想快速確認時，會說 “Am I right?”。"
+      },
+      {
+        "en": "It is more direct than saying, “Could you please confirm this?”",
+        "zh": "它比 “Could you please confirm this?” 更直接。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "change the time from ... to ...",
+    "meaning": "將時間由……改為……",
+    "examples": [
+      {
+        "en": "We are changing the time from 7:30 am to 9:30 am.",
+        "zh": "我們正將時間由早上 7 時 30 分改為早上 9 時 30 分。"
+      },
+      {
+        "en": "To change the time from one time to another means to move an event to a new time.",
+        "zh": "change the time from one time to another 指把活動時間改到另一個時間。"
+      },
+      {
+        "en": "The school changed the time from 3 pm to 4 pm because many parents were working.",
+        "zh": "學校因為很多家長仍在工作，將時間由下午 3 時改為下午 4 時。"
+      },
+      {
+        "en": "If organisers change the time from morning to afternoon, they must inform everyone clearly.",
+        "zh": "如果主辦方將時間由早上改為下午，必須清楚通知所有人。"
+      },
+      {
+        "en": "This phrase is useful when explaining schedule changes.",
+        "zh": "這個說法適合用來解釋時間表改動。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "inform someone of",
+    "meaning": "通知某人……",
+    "examples": [
+      {
+        "en": "We need to inform Peter Chan of this change.",
+        "zh": "我們需要通知 Peter Chan 這項改動。"
+      },
+      {
+        "en": "To inform someone of something means to officially tell them about it.",
+        "zh": "inform someone of something 指正式告知某人某事。"
+      },
+      {
+        "en": "The school informed parents of the new exam date.",
+        "zh": "學校通知家長新的考試日期。"
+      },
+      {
+        "en": "If a venue changes its rules, it should inform organisers of the change quickly.",
+        "zh": "如果場地更改規則，應盡快通知主辦方有關改動。"
+      },
+      {
+        "en": "This phrase sounds more formal than “tell someone about.”",
+        "zh": "這個說法比 “tell someone about” 更正式。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "quite a big change",
+    "meaning": "相當大的改動",
+    "examples": [
+      {
+        "en": "Changing the tour time is quite a big change.",
+        "zh": "更改旅行團時間是一個相當大的改動。"
+      },
+      {
+        "en": "Quite a big change means a change that is fairly important or noticeable.",
+        "zh": "quite a big change 指相當重要或明顯的改動。"
+      },
+      {
+        "en": "Moving from face-to-face lessons to online lessons is quite a big change for some students.",
+        "zh": "對一些學生來說，由面授課改為網課是相當大的改動。"
+      },
+      {
+        "en": "A quite big change may require clear explanation so people understand the reason.",
+        "zh": "相當大的改動可能需要清楚解釋，讓大家明白原因。"
+      },
+      {
+        "en": "This phrase is softer than “a huge change” but stronger than “a small change.”",
+        "zh": "這個說法比 “a huge change” 較溫和，但比 “a small change” 更強。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "want to know why",
+    "meaning": "想知道原因",
+    "examples": [
+      {
+        "en": "Peter will want to know why.",
+        "zh": "Peter 會想知道原因。"
+      },
+      {
+        "en": "To want to know why means to need or expect a reason.",
+        "zh": "want to know why 指需要或期望知道原因。"
+      },
+      {
+        "en": "If a class is cancelled suddenly, students will want to know why.",
+        "zh": "如果課堂突然取消，學生會想知道原因。"
+      },
+      {
+        "en": "People want to know why when a decision affects their time, money, or plans.",
+        "zh": "當決定影響時間、金錢或計劃時，人們會想知道原因。"
+      },
+      {
+        "en": "This phrase often shows that an explanation is necessary.",
+        "zh": "這個說法通常表示有必要作出解釋。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "important reasons for",
+    "meaning": "……的重要原因",
+    "examples": [
+      {
+        "en": "We have some important reasons for the change in time.",
+        "zh": "我們有一些更改時間的重要原因。"
+      },
+      {
+        "en": "Important reasons for something are strong explanations that justify it.",
+        "zh": "important reasons for something 指能夠支持某事的有力解釋。"
+      },
+      {
+        "en": "There are important reasons for wearing seat belts, including safety and legal responsibility.",
+        "zh": "佩戴安全帶有重要原因，包括安全和法律責任。"
+      },
+      {
+        "en": "If a school changes a rule, it should give important reasons for the change.",
+        "zh": "如果學校更改規則，應說明改動的重要原因。"
+      },
+      {
+        "en": "This phrase helps show that a decision was not made carelessly.",
+        "zh": "這個說法有助顯示決定不是草率作出的。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "quite simply",
+    "meaning": "簡單來說",
+    "examples": [
+      {
+        "en": "Quite simply, not enough people are signing up.",
+        "zh": "簡單來說，報名人數不足。"
+      },
+      {
+        "en": "Quite simply means the explanation is direct and not complicated.",
+        "zh": "quite simply 指解釋很直接，並不複雜。"
+      },
+      {
+        "en": "Quite simply, the room is too small for fifty people.",
+        "zh": "簡單來說，這個房間容納不了五十人。"
+      },
+      {
+        "en": "People use “quite simply” before giving the main reason without extra detail.",
+        "zh": "人們在直接說出主要原因前，會使用 “quite simply”。"
+      },
+      {
+        "en": "It can make an explanation sound clear and firm.",
+        "zh": "它可以令解釋聽起來清楚而堅定。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "sign up to join",
+    "meaning": "報名參加",
+    "examples": [
+      {
+        "en": "Not enough people are signing up to join the Bird Watching Tour.",
+        "zh": "報名參加觀鳥團的人數不足。"
+      },
+      {
+        "en": "To sign up to join means to register so that you can take part in an activity.",
+        "zh": "sign up to join 指登記以參與某項活動。"
+      },
+      {
+        "en": "Students must sign up to join the drama club before Friday.",
+        "zh": "學生必須在星期五前報名參加戲劇學會。"
+      },
+      {
+        "en": "If few people sign up to join a workshop, the organiser may cancel it.",
+        "zh": "如果很少人報名參加工作坊，主辦方可能會取消它。"
+      },
+      {
+        "en": "This phrase is useful for clubs, tours, classes, and competitions.",
+        "zh": "這個說法適用於學會、旅行團、課程和比賽。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "not enough people are signing up",
+    "meaning": "報名人數不足",
+    "examples": [
+      {
+        "en": "Not enough people are signing up to join the tour.",
+        "zh": "報名參加這個旅行團的人數不足。"
+      },
+      {
+        "en": "Not enough people are signing up means the number of registrations is too low.",
+        "zh": "not enough people are signing up 指登記人數太少。"
+      },
+      {
+        "en": "If not enough people are signing up for the class, the school may combine two groups.",
+        "zh": "如果報名參加課程的人數不足，學校可能會合併兩組。"
+      },
+      {
+        "en": "When not enough people are signing up, organisers may change the time, price, or promotion method.",
+        "zh": "當報名人數不足，主辦方可能會更改時間、價格或宣傳方式。"
+      },
+      {
+        "en": "This phrase usually suggests that action is needed to attract more people.",
+        "zh": "這個說法通常表示需要採取行動吸引更多人。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "increase the number of",
+    "meaning": "增加……的數目",
+    "examples": [
+      {
+        "en": "We definitely want to increase the number of people signing up.",
+        "zh": "我們絕對想增加報名人數。"
+      },
+      {
+        "en": "To increase the number of something means to make the amount larger.",
+        "zh": "increase the number of something 指令某物或某類人的數量增加。"
+      },
+      {
+        "en": "The school wants to increase the number of students joining sports teams.",
+        "zh": "學校想增加參加運動隊的學生人數。"
+      },
+      {
+        "en": "Better advertising can increase the number of visitors to a museum.",
+        "zh": "更好的宣傳可以增加博物館訪客數目。"
+      },
+      {
+        "en": "This phrase is useful when talking about growth, participation, or demand.",
+        "zh": "這個說法適用於談論增長、參與度或需求。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "definitely want to",
+    "meaning": "絕對想要",
+    "examples": [
+      {
+        "en": "We definitely want to increase the number of people signing up.",
+        "zh": "我們絕對想增加報名人數。"
+      },
+      {
+        "en": "Definitely want to means strongly and clearly want to do something.",
+        "zh": "definitely want to 指強烈而清楚地想做某事。"
+      },
+      {
+        "en": "I definitely want to improve my speaking before the interview.",
+        "zh": "我絕對想在面試前改善口語能力。"
+      },
+      {
+        "en": "A company may definitely want to keep good customers by improving service.",
+        "zh": "公司可能絕對想透過改善服務留住好顧客。"
+      },
+      {
+        "en": "This phrase shows a clear intention, not just a weak preference.",
+        "zh": "這個說法顯示清晰意圖，而不只是微弱偏好。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "complaints from participants",
+    "meaning": "來自參加者的投訴",
+    "examples": [
+      {
+        "en": "We have had complaints from participants in previous tours.",
+        "zh": "我們在過往活動中收到過來自參加者的投訴。"
+      },
+      {
+        "en": "Complaints from participants are negative comments or reports made by people who joined an activity.",
+        "zh": "complaints from participants 指參加活動的人提出的負面意見或報告。"
+      },
+      {
+        "en": "The organiser received complaints from participants about the unclear meeting point.",
+        "zh": "主辦方收到參加者對集合地點不清楚的投訴。"
+      },
+      {
+        "en": "Complaints from participants can help a team find problems and improve future events.",
+        "zh": "來自參加者的投訴可以幫助團隊找出問題，改善未來活動。"
+      },
+      {
+        "en": "Ignoring complaints from participants may damage trust.",
+        "zh": "忽視參加者的投訴可能會損害信任。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "previous tours",
+    "meaning": "之前的旅行團；過往的活動",
+    "examples": [
+      {
+        "en": "Participants in previous tours said that the tour started too early.",
+        "zh": "過往活動的參加者說旅行團開始得太早。"
+      },
+      {
+        "en": "Previous tours are tours that happened before the current one.",
+        "zh": "previous tours 指在目前這次之前已舉行的旅行團。"
+      },
+      {
+        "en": "Feedback from previous tours can help organisers plan better routes.",
+        "zh": "過往旅行團的意見可以幫助主辦方規劃更好的路線。"
+      },
+      {
+        "en": "If previous tours were too long, the next tour may need more breaks.",
+        "zh": "如果之前的旅行團太長，下一次可能需要更多休息時間。"
+      },
+      {
+        "en": "This phrase is useful when comparing past activities with a new plan.",
+        "zh": "這個說法適合用於比較過去活動與新計劃。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "start too early",
+    "meaning": "開始得太早",
+    "examples": [
+      {
+        "en": "The Bird Watching Tour starts too early.",
+        "zh": "觀鳥團開始得太早。"
+      },
+      {
+        "en": "To start too early means to begin at a time that is earlier than many people can accept.",
+        "zh": "start too early 指開始時間早得讓許多人難以接受。"
+      },
+      {
+        "en": "A weekend class may start too early if students need to wake up before sunrise.",
+        "zh": "如果學生需要在日出前起床，週末課程可能開始得太早。"
+      },
+      {
+        "en": "If an activity starts too early, fewer families may sign up.",
+        "zh": "如果活動開始得太早，可能會有較少家庭報名。"
+      },
+      {
+        "en": "This phrase often explains why people feel tired, rushed, or unwilling to join.",
+        "zh": "這個說法常用來解釋為何人們感到疲倦、趕急或不想參加。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "the right decision",
+    "meaning": "正確的決定",
+    "examples": [
+      {
+        "en": "Changing the time is the right decision.",
+        "zh": "更改時間是正確的決定。"
+      },
+      {
+        "en": "The right decision is the best or most suitable choice in a situation.",
+        "zh": "the right decision 指在某情況下最好或最合適的選擇。"
+      },
+      {
+        "en": "Cancelling an outdoor activity during a thunderstorm is the right decision.",
+        "zh": "在雷暴期間取消戶外活動是正確的決定。"
+      },
+      {
+        "en": "The right decision may disappoint some people but protect the whole group.",
+        "zh": "正確的決定可能令部分人失望，但能保護整個團體。"
+      },
+      {
+        "en": "This phrase shows confidence that a choice is sensible and justified.",
+        "zh": "這個說法顯示說話者相信選擇合理並有充分理由。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "an early start",
+    "meaning": "一大早開始",
+    "examples": [
+      {
+        "en": "An early start is not for everyone.",
+        "zh": "一大早開始並非人人都適合。"
+      },
+      {
+        "en": "An early start means beginning an activity early in the day.",
+        "zh": "an early start 指在一天較早時間開始活動。"
+      },
+      {
+        "en": "An early start can help hikers avoid strong afternoon sun.",
+        "zh": "一大早開始可以幫助遠足者避開下午猛烈陽光。"
+      },
+      {
+        "en": "Some people dislike an early start because transport is limited in the morning.",
+        "zh": "有些人不喜歡一大早開始，因為早上交通選擇有限。"
+      },
+      {
+        "en": "This phrase can refer to trips, workdays, classes, or meetings.",
+        "zh": "這個說法可以指旅行、工作日、課堂或會議。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "not for everyone",
+    "meaning": "並非人人都適合",
+    "examples": [
+      {
+        "en": "An early start is not for everyone.",
+        "zh": "一大早開始並非人人都適合。"
+      },
+      {
+        "en": "Not for everyone means not suitable for all people.",
+        "zh": "not for everyone 指不是適合所有人。"
+      },
+      {
+        "en": "Spicy food is not for everyone, especially young children.",
+        "zh": "辛辣食物並非人人都適合，特別是小孩子。"
+      },
+      {
+        "en": "A difficult mountain trail is not for everyone because it requires strong fitness.",
+        "zh": "困難的山路並非人人都適合，因為它需要良好體能。"
+      },
+      {
+        "en": "This phrase is polite because it avoids saying something is simply bad.",
+        "zh": "這個說法較禮貌，因為它避免直接說某事很差。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s settled",
+    "meaning": "那就決定了",
+    "examples": [
+      {
+        "en": "That’s settled, then.",
+        "zh": "那就決定了。"
+      },
+      {
+        "en": "“That’s settled” means a decision has been made and people no longer need to discuss it.",
+        "zh": "“That’s settled” 指事情已經決定，不需要再討論。"
+      },
+      {
+        "en": "If everyone agrees on the venue, the chairperson may say, “That’s settled.”",
+        "zh": "如果所有人都同意場地，主席可能會說：「那就決定了。」"
+      },
+      {
+        "en": "This phrase helps a meeting move forward after a decision.",
+        "zh": "這個說法有助會議在作出決定後繼續前進。"
+      },
+      {
+        "en": "It is useful when closing one topic clearly.",
+        "zh": "它適合用來清楚結束一個主題。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "anything else I need to know",
+    "meaning": "我還有甚麼需要知道？",
+    "examples": [
+      {
+        "en": "Is there anything else I need to know about the tour?",
+        "zh": "關於這個旅行團，我還有甚麼需要知道？"
+      },
+      {
+        "en": "“Anything else I need to know” asks whether there is more important information.",
+        "zh": "“anything else I need to know” 用來詢問是否還有其他重要資訊。"
+      },
+      {
+        "en": "Before signing a contract, you may ask, “Is there anything else I need to know?”",
+        "zh": "簽合約前，你可以問：「我還有甚麼需要知道？」"
+      },
+      {
+        "en": "This question helps avoid missing details that may matter later.",
+        "zh": "這個問題有助避免遺漏日後可能重要的細節。"
+      },
+      {
+        "en": "It sounds practical and careful, especially before making a decision.",
+        "zh": "它聽起來實際而謹慎，尤其適合在作決定之前使用。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "slightly less fortunate",
+    "meaning": "稍為不太幸運的；稍為不太好的",
+    "examples": [
+      {
+        "en": "Let’s move on to a slightly less fortunate topic.",
+        "zh": "我們轉到一個稍為不太好的話題吧。"
+      },
+      {
+        "en": "Slightly less fortunate means a little less positive, pleasant, or lucky.",
+        "zh": "slightly less fortunate 指稍微不太正面、不太愉快或不太幸運。"
+      },
+      {
+        "en": "After discussing good news, the manager moved on to a slightly less fortunate issue.",
+        "zh": "討論好消息後，經理轉到一個稍為不太好的議題。"
+      },
+      {
+        "en": "This phrase softens bad news before giving the details.",
+        "zh": "這個說法在交代詳情前，先把壞消息說得較委婉。"
+      },
+      {
+        "en": "It is more polite than suddenly saying, “Now let’s talk about a problem.”",
+        "zh": "它比突然說「現在談一個問題」更禮貌。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "refer to",
+    "meaning": "指的是……",
+    "examples": [
+      {
+        "en": "Are you referring to the accident?",
+        "zh": "你指的是那宗事故嗎？"
+      },
+      {
+        "en": "To refer to something means to mention it or mean it.",
+        "zh": "refer to something 指提及某事，或意思是某事。"
+      },
+      {
+        "en": "When you say “the problem,” are you referring to the late delivery?",
+        "zh": "當你說「那個問題」時，你指的是延遲送貨嗎？"
+      },
+      {
+        "en": "People use this phrase to check exactly what someone is talking about.",
+        "zh": "人們用這個說法來確認對方到底在談甚麼。"
+      },
+      {
+        "en": "It helps prevent misunderstanding in meetings and conversations.",
+        "zh": "它有助防止會議和對話中的誤解。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "be involved in",
+    "meaning": "牽涉入……；參與……",
+    "examples": [
+      {
+        "en": "The World City Travel catamaran was involved in an accident.",
+        "zh": "World City Travel 的雙體船牽涉入一宗事故。"
+      },
+      {
+        "en": "To be involved in something means to take part in it or be connected to it.",
+        "zh": "be involved in something 指參與某事或與某事有關。"
+      },
+      {
+        "en": "A student was involved in a school project about recycling.",
+        "zh": "一名學生參與了一個關於回收的學校項目。"
+      },
+      {
+        "en": "If a vehicle is involved in an accident, the driver may need to give a report.",
+        "zh": "如果車輛牽涉入事故，司機可能需要提交報告。"
+      },
+      {
+        "en": "This phrase does not always mean someone caused the event.",
+        "zh": "這個說法不一定表示某人造成了事件。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "catamaran",
+    "meaning": "雙體船",
+    "examples": [
+      {
+        "en": "The World City Travel catamaran was involved in an accident.",
+        "zh": "World City Travel 的雙體船牽涉入一宗事故。"
+      },
+      {
+        "en": "A catamaran is a boat with two parallel hulls.",
+        "zh": "catamaran 指有兩個平行船體的船。"
+      },
+      {
+        "en": "Tour companies may use a catamaran because it can feel stable on the water.",
+        "zh": "旅行公司可能使用雙體船，因為它在水上可以較穩定。"
+      },
+      {
+        "en": "If a catamaran carries passengers, safety checks are especially important.",
+        "zh": "如果雙體船載客，安全檢查尤其重要。"
+      },
+      {
+        "en": "Catamarans are often used for cruises, tours, or water activities.",
+        "zh": "雙體船常用於遊船、旅行團或水上活動。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "hear a little bit about",
+    "meaning": "聽說了一點關於……的事",
+    "examples": [
+      {
+        "en": "David heard a little bit about the accident from Captain Moby.",
+        "zh": "David 從 Captain Moby 那裡聽說了一點關於事故的事。"
+      },
+      {
+        "en": "To hear a little bit about something means to receive some information, but not the full story.",
+        "zh": "hear a little bit about something 指收到一些資訊，但不是完整情況。"
+      },
+      {
+        "en": "I heard a little bit about the school event, but I do not know the schedule yet.",
+        "zh": "我聽說了一點關於學校活動的事，但還不知道時間表。"
+      },
+      {
+        "en": "When people hear a little bit about a problem, they may ask for more details.",
+        "zh": "當人們只聽說了一點問題，他們可能會要求更多詳情。"
+      },
+      {
+        "en": "This phrase shows that someone has limited information.",
+        "zh": "這個說法表示某人掌握的資訊有限。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Sydney Harbour",
+    "meaning": "悉尼港",
+    "examples": [
+      {
+        "en": "The catamaran accident happened in Sydney Harbour.",
+        "zh": "雙體船事故發生在悉尼港。"
+      },
+      {
+        "en": "Sydney Harbour is the harbour area in Sydney where many boats and ferries travel.",
+        "zh": "Sydney Harbour 指悉尼的海港區，許多船隻和渡輪都會在那裡航行。"
+      },
+      {
+        "en": "Tourists often visit Sydney Harbour to see the water, bridges, and city views.",
+        "zh": "遊客常到悉尼港欣賞海景、橋樑和城市景色。"
+      },
+      {
+        "en": "If an accident happens in Sydney Harbour, marine safety rules become very important.",
+        "zh": "如果事故發生在悉尼港，海上安全規則就變得非常重要。"
+      },
+      {
+        "en": "Events in Sydney Harbour may affect cruises, tours, and ferry services.",
+        "zh": "悉尼港的事件可能影響遊船、旅行團和渡輪服務。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "such a shame",
+    "meaning": "真可惜；真遺憾",
+    "examples": [
+      {
+        "en": "Such a shame.",
+        "zh": "真可惜。"
+      },
+      {
+        "en": "“Such a shame” means something is disappointing or unfortunate.",
+        "zh": "“such a shame” 指某事令人失望或遺憾。"
+      },
+      {
+        "en": "The picnic was cancelled because of rain; such a shame.",
+        "zh": "野餐因下雨而取消；真可惜。"
+      },
+      {
+        "en": "People say “such a shame” to show sympathy without giving a long explanation.",
+        "zh": "人們說 “such a shame” 來表示同情，而不需要長篇解釋。"
+      },
+      {
+        "en": "It is softer than blaming someone for what happened.",
+        "zh": "它比責怪某人更溫和。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "speaking of which",
+    "meaning": "說到這件事",
+    "examples": [
+      {
+        "en": "Speaking of which, we need to write the incident report.",
+        "zh": "說到這件事，我們需要寫事故報告。"
+      },
+      {
+        "en": "Speaking of which is used to connect a related topic to what was just mentioned.",
+        "zh": "speaking of which 用來把剛剛提到的事連接到相關話題。"
+      },
+      {
+        "en": "The library is closed tomorrow. Speaking of which, have you returned your books?",
+        "zh": "圖書館明天休息。說到這件事，你還書了嗎？"
+      },
+      {
+        "en": "This phrase helps a conversation move naturally from one related point to another.",
+        "zh": "這個說法幫助對話自然地從一個相關重點轉到另一個。"
+      },
+      {
+        "en": "It often introduces something the speaker has just remembered.",
+        "zh": "它常用來帶出說話者剛剛想起的事情。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "incident report",
+    "meaning": "事故報告",
+    "examples": [
+      {
+        "en": "We need to write the incident report.",
+        "zh": "我們需要寫事故報告。"
+      },
+      {
+        "en": "An incident report is a written record of what happened in an accident or unusual event.",
+        "zh": "incident report 指記錄事故或異常事件發生經過的書面文件。"
+      },
+      {
+        "en": "A school writes an incident report if a student is injured during an activity.",
+        "zh": "如果學生在活動中受傷，學校會寫事故報告。"
+      },
+      {
+        "en": "An incident report helps managers understand the facts and prevent similar problems.",
+        "zh": "事故報告幫助管理人員了解事實，並防止類似問題再次發生。"
+      },
+      {
+        "en": "It should include the date, place, people involved, and actions taken.",
+        "zh": "它應包括日期、地點、相關人士和已採取的行動。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Review Board",
+    "meaning": "審查委員會",
+    "examples": [
+      {
+        "en": "The Review Board has reached a conclusion.",
+        "zh": "審查委員會已經得出結論。"
+      },
+      {
+        "en": "A Review Board is a group of people who examine facts and make a judgement.",
+        "zh": "Review Board 指審查事實並作出判斷的一組人。"
+      },
+      {
+        "en": "The Review Board studied the complaints before deciding what to do next.",
+        "zh": "審查委員會研究投訴後，才決定下一步怎樣做。"
+      },
+      {
+        "en": "A Review Board can make a decision seem fairer because several people review the evidence.",
+        "zh": "審查委員會可以令決定看起來更公平，因為有幾個人一起審視證據。"
+      },
+      {
+        "en": "This phrase is often used in formal organisations.",
+        "zh": "這個說法常用於正式機構。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "investigation into",
+    "meaning": "對……的調查",
+    "examples": [
+      {
+        "en": "The Review Board conducted an investigation into Captain Moby.",
+        "zh": "審查委員會對 Captain Moby 進行了調查。"
+      },
+      {
+        "en": "An investigation into something is a careful process of finding out the facts.",
+        "zh": "investigation into something 指仔細查明事實的過程。"
+      },
+      {
+        "en": "The school began an investigation into the missing equipment.",
+        "zh": "學校開始對遺失器材一事進行調查。"
+      },
+      {
+        "en": "An investigation into an accident may include interviews, photos, and written records.",
+        "zh": "對事故的調查可能包括訪談、照片和書面紀錄。"
+      },
+      {
+        "en": "This phrase sounds formal and is often used for serious matters.",
+        "zh": "這個說法語氣正式，常用於嚴肅事情。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "reach a conclusion",
+    "meaning": "得出結論",
+    "examples": [
+      {
+        "en": "The Review Board has reached a conclusion.",
+        "zh": "審查委員會已經得出結論。"
+      },
+      {
+        "en": "To reach a conclusion means to decide what is true or what should be done after thinking about the facts.",
+        "zh": "reach a conclusion 指在思考事實後，決定甚麼是真實的或應該怎樣做。"
+      },
+      {
+        "en": "After reading all the evidence, the teacher reached a conclusion about the dispute.",
+        "zh": "閱讀所有證據後，老師對爭議得出結論。"
+      },
+      {
+        "en": "A team should not reach a conclusion before checking the details carefully.",
+        "zh": "團隊不應在仔細檢查細節前就得出結論。"
+      },
+      {
+        "en": "This phrase suggests a decision has been made after consideration.",
+        "zh": "這個說法表示決定是在考慮後作出的。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "not be at fault",
+    "meaning": "並無過失",
+    "examples": [
+      {
+        "en": "The conclusion is that Captain Moby is not at fault.",
+        "zh": "結論是 Captain Moby 並無過失。"
+      },
+      {
+        "en": "To not be at fault means not to be responsible for causing a problem or accident.",
+        "zh": "not be at fault 指沒有責任造成某個問題或事故。"
+      },
+      {
+        "en": "The driver was not at fault because the traffic light was broken.",
+        "zh": "司機並無過失，因為交通燈壞了。"
+      },
+      {
+        "en": "If someone is not at fault, blaming them would be unfair.",
+        "zh": "如果某人並無過失，責怪他就是不公平。"
+      },
+      {
+        "en": "This phrase is often used after an investigation.",
+        "zh": "這個說法常用於調查之後。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "be relieved to hear that",
+    "meaning": "聽到後會鬆一口氣",
+    "examples": [
+      {
+        "en": "Captain Moby will be relieved to hear that.",
+        "zh": "Captain Moby 聽到後會鬆一口氣。"
+      },
+      {
+        "en": "To be relieved to hear that means to feel less worried after receiving good or reassuring news.",
+        "zh": "be relieved to hear that 指聽到好消息或令人安心的消息後感到不再那麼擔心。"
+      },
+      {
+        "en": "Parents were relieved to hear that all students were safe.",
+        "zh": "家長聽到所有學生安全後都鬆一口氣。"
+      },
+      {
+        "en": "If a doctor says the test result is normal, the patient may be relieved to hear that.",
+        "zh": "如果醫生說檢查結果正常，病人聽到後可能會鬆一口氣。"
+      },
+      {
+        "en": "This phrase shows that someone was worried before.",
+        "zh": "這個說法表示某人之前是擔心的。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s not all",
+    "meaning": "還不止如此",
+    "examples": [
+      {
+        "en": "That’s not all, David.",
+        "zh": "David，還不止如此。"
+      },
+      {
+        "en": "“That’s not all” means there is more information to add.",
+        "zh": "“That’s not all” 指還有更多資訊要補充。"
+      },
+      {
+        "en": "The hotel is cheap, and that’s not all; breakfast is included too.",
+        "zh": "這間酒店很便宜，還不止如此；早餐也包括在內。"
+      },
+      {
+        "en": "In a meeting, this phrase signals that the speaker has another important point.",
+        "zh": "在會議中，這個說法表示說話者還有另一個重要重點。"
+      },
+      {
+        "en": "It can introduce either good news or bad news.",
+        "zh": "它可以引出好消息，也可以引出壞消息。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "insist that",
+    "meaning": "堅持認為；堅持要求",
+    "examples": [
+      {
+        "en": "The Review Board has insisted that we mention Captain Moby’s professionalism.",
+        "zh": "審查委員會堅持要求我們提及 Captain Moby 的專業表現。"
+      },
+      {
+        "en": "To insist that something happen means to strongly require or demand it.",
+        "zh": "insist that something happen 指強烈要求某事發生。"
+      },
+      {
+        "en": "The teacher insisted that students submit their work on time.",
+        "zh": "老師堅持要求學生準時交功課。"
+      },
+      {
+        "en": "A manager may insist that safety rules be followed after an accident.",
+        "zh": "事故後，經理可能堅持要求大家遵守安全規則。"
+      },
+      {
+        "en": "This phrase shows that the speaker thinks the matter is important and not optional.",
+        "zh": "這個說法顯示說話者認為事情重要，並非可有可無。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "explicitly mention",
+    "meaning": "明確提及",
+    "examples": [
+      {
+        "en": "We need to explicitly mention Captain Moby’s professionalism in the report.",
+        "zh": "我們需要在報告中明確提及 Captain Moby 的專業表現。"
+      },
+      {
+        "en": "To explicitly mention something means to state it clearly and directly.",
+        "zh": "explicitly mention something 指清楚而直接地說明某事。"
+      },
+      {
+        "en": "The notice should explicitly mention the deadline so nobody misses it.",
+        "zh": "通告應明確提及截止日期，讓沒有人錯過。"
+      },
+      {
+        "en": "If a report does not explicitly mention the reason, readers may misunderstand the decision.",
+        "zh": "如果報告沒有明確提及原因，讀者可能會誤解決定。"
+      },
+      {
+        "en": "This phrase is useful when clarity is important.",
+        "zh": "當清晰度很重要時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "extremely professional",
+    "meaning": "非常專業",
+    "examples": [
+      {
+        "en": "Captain Moby was extremely professional in handling the situation.",
+        "zh": "Captain Moby 在處理情況時非常專業。"
+      },
+      {
+        "en": "Extremely professional means showing very high standards, calm judgement, and proper behaviour at work.",
+        "zh": "extremely professional 指在工作中表現出很高標準、冷靜判斷和恰當行為。"
+      },
+      {
+        "en": "The nurse was extremely professional when she explained the treatment calmly.",
+        "zh": "護士冷靜解釋治療時非常專業。"
+      },
+      {
+        "en": "Being extremely professional during a crisis can help others stay calm.",
+        "zh": "在危機中非常專業，可以幫助其他人保持冷靜。"
+      },
+      {
+        "en": "This phrase praises both skill and behaviour.",
+        "zh": "這個說法同時稱讚技能和行為。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "handle the situation",
+    "meaning": "處理情況",
+    "examples": [
+      {
+        "en": "Captain Moby was extremely professional in handling the situation.",
+        "zh": "Captain Moby 在處理情況時非常專業。"
+      },
+      {
+        "en": "To handle the situation means to deal with what is happening, especially when it is difficult.",
+        "zh": "handle the situation 指處理正在發生的事情，尤其是困難情況。"
+      },
+      {
+        "en": "The teacher handled the situation calmly when two students argued.",
+        "zh": "當兩名學生爭吵時，老師冷靜地處理情況。"
+      },
+      {
+        "en": "If staff handle the situation badly, a small complaint can become a serious problem.",
+        "zh": "如果員工處理情況不當，小投訴可能會變成嚴重問題。"
+      },
+      {
+        "en": "This phrase focuses on action, judgement, and response.",
+        "zh": "這個說法強調行動、判斷和回應。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "do an amazing job",
+    "meaning": "做得非常出色",
+    "examples": [
+      {
+        "en": "Captain Moby must have done an amazing job.",
+        "zh": "Captain Moby 一定做得非常出色。"
+      },
+      {
+        "en": "To do an amazing job means to perform extremely well.",
+        "zh": "do an amazing job 指表現非常好。"
+      },
+      {
+        "en": "The volunteers did an amazing job organising the charity fair.",
+        "zh": "義工在籌辦慈善賣物會方面做得非常出色。"
+      },
+      {
+        "en": "Someone who does an amazing job often solves problems and exceeds expectations.",
+        "zh": "做得非常出色的人通常能解決問題，並超出期望。"
+      },
+      {
+        "en": "This phrase is a warm and strong compliment.",
+        "zh": "這個說法是一種溫暖而強烈的稱讚。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "knowing Captain Moby",
+    "meaning": "以我對 Captain Moby 的了解",
+    "examples": [
+      {
+        "en": "Knowing Captain Moby, I am not surprised.",
+        "zh": "以我對 Captain Moby 的了解，我並不驚訝。"
+      },
+      {
+        "en": "Knowing someone means based on what you know about that person’s character or habits.",
+        "zh": "knowing someone 指根據你對某人性格或習慣的了解。"
+      },
+      {
+        "en": "Knowing Sarah, she probably arrived early to prepare everything.",
+        "zh": "以我對 Sarah 的了解，她大概已經提早到達準備一切。"
+      },
+      {
+        "en": "People use this phrase when a person’s action matches their usual personality.",
+        "zh": "當某人的行為符合其一貫性格時，人們會使用這個說法。"
+      },
+      {
+        "en": "It suggests the speaker already understands the person well.",
+        "zh": "它表示說話者已經很了解這個人。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "indeed",
+    "meaning": "確實",
+    "examples": [
+      {
+        "en": "He is indeed extremely professional.",
+        "zh": "他確實非常專業。"
+      },
+      {
+        "en": "Indeed means truly or really, often used to emphasise agreement or confirmation.",
+        "zh": "indeed 指確實、真的，常用來強調同意或確認。"
+      },
+      {
+        "en": "The task was difficult, and indeed it took the whole team two days.",
+        "zh": "這項任務很困難，確實用了整個團隊兩天時間。"
+      },
+      {
+        "en": "If someone says the service was excellent, you can reply, “Indeed, it was.”",
+        "zh": "如果有人說服務非常好，你可以回答：「確實如此。」"
+      },
+      {
+        "en": "This word adds emphasis in a formal or thoughtful way.",
+        "zh": "這個字以較正式或深思的方式增加強調語氣。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "be lucky to have",
+    "meaning": "很幸運有……",
+    "examples": [
+      {
+        "en": "We are lucky to have him with our company.",
+        "zh": "我們公司很幸運有他。"
+      },
+      {
+        "en": "To be lucky to have someone means to feel fortunate that the person is part of your team or life.",
+        "zh": "be lucky to have someone 指很慶幸某人成為自己團隊或生活的一部分。"
+      },
+      {
+        "en": "The school is lucky to have teachers who care deeply about students.",
+        "zh": "學校很幸運有真心關心學生的老師。"
+      },
+      {
+        "en": "A company is lucky to have staff who stay calm during emergencies.",
+        "zh": "公司很幸運有在緊急情況下保持冷靜的員工。"
+      },
+      {
+        "en": "This phrase expresses appreciation for someone’s value.",
+        "zh": "這個說法表達對某人價值的欣賞。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "cause the cancellation of",
+    "meaning": "導致……取消",
+    "examples": [
+      {
+        "en": "The accident caused the cancellation of the next cruise.",
+        "zh": "這宗事故導致下一次遊船活動取消。"
+      },
+      {
+        "en": "To cause the cancellation of something means to make an event unable to continue as planned.",
+        "zh": "cause the cancellation of something 指令某活動無法按計劃繼續而被取消。"
+      },
+      {
+        "en": "Heavy rain caused the cancellation of the outdoor concert.",
+        "zh": "大雨導致戶外音樂會取消。"
+      },
+      {
+        "en": "If a safety issue causes the cancellation of a tour, organisers must inform participants quickly.",
+        "zh": "如果安全問題導致旅行團取消，主辦方必須迅速通知參加者。"
+      },
+      {
+        "en": "This phrase clearly connects a reason with a cancelled event.",
+        "zh": "這個說法清楚連接原因和被取消的活動。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Sydney Whale Watching Cruise",
+    "meaning": "悉尼觀鯨遊船活動",
+    "examples": [
+      {
+        "en": "The accident caused the cancellation of the Sydney Whale Watching Cruise.",
+        "zh": "這宗事故導致悉尼觀鯨遊船活動取消。"
+      },
+      {
+        "en": "The Sydney Whale Watching Cruise is a boat trip in Sydney for people who want to see whales.",
+        "zh": "Sydney Whale Watching Cruise 指在悉尼舉行、讓人觀賞鯨魚的遊船活動。"
+      },
+      {
+        "en": "Families may join the Sydney Whale Watching Cruise during the whale-watching season.",
+        "zh": "家庭可能會在觀鯨季節參加悉尼觀鯨遊船活動。"
+      },
+      {
+        "en": "If the Sydney Whale Watching Cruise is cancelled, participants may expect a refund or new date.",
+        "zh": "如果悉尼觀鯨遊船活動取消，參加者可能會期待退款或改期。"
+      },
+      {
+        "en": "This activity depends heavily on weather, safety, and sea conditions.",
+        "zh": "這項活動很受天氣、安全和海面情況影響。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "inform someone about",
+    "meaning": "通知某人關於……",
+    "examples": [
+      {
+        "en": "We have informed the participants about the cancellation.",
+        "zh": "我們已通知參加者關於取消安排。"
+      },
+      {
+        "en": "To inform someone about something means to tell them the relevant information.",
+        "zh": "inform someone about something 指告知某人相關資訊。"
+      },
+      {
+        "en": "The school informed parents about the new uniform rules.",
+        "zh": "學校通知家長關於新的校服規則。"
+      },
+      {
+        "en": "If a bus route changes, the company should inform passengers about it.",
+        "zh": "如果巴士路線改變，公司應通知乘客有關情況。"
+      },
+      {
+        "en": "This phrase is clear and slightly formal.",
+        "zh": "這個說法清楚，而且略帶正式語氣。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "follow-up email",
+    "meaning": "跟進電郵",
+    "examples": [
+      {
+        "en": "We need to write a follow-up email to the participants.",
+        "zh": "我們需要寫一封跟進電郵給參加者。"
+      },
+      {
+        "en": "A follow-up email is an email sent after an earlier message, meeting, or event to give more information or continue the discussion.",
+        "zh": "follow-up email 指在之前的訊息、會議或事件後發出的電郵，用來提供更多資料或繼續討論。"
+      },
+      {
+        "en": "After the interview, Maria sent a follow-up email to thank the manager.",
+        "zh": "面試後，Maria 發了一封跟進電郵感謝經理。"
+      },
+      {
+        "en": "A follow-up email can clarify next steps and prevent confusion.",
+        "zh": "跟進電郵可以澄清下一步，避免混亂。"
+      },
+      {
+        "en": "It is often used after meetings, complaints, bookings, or cancellations.",
+        "zh": "它常用於會議、投訴、預訂或取消安排之後。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "talk about compensation",
+    "meaning": "談及賠償",
+    "examples": [
+      {
+        "en": "We should talk about compensation in the email.",
+        "zh": "我們應在電郵中談及賠償。"
+      },
+      {
+        "en": "To talk about compensation means to discuss money, benefits, or support given because someone suffered loss or inconvenience.",
+        "zh": "talk about compensation 指討論因他人蒙受損失或不便而提供的金錢、福利或支援。"
+      },
+      {
+        "en": "After the delayed flight, passengers wanted to talk about compensation.",
+        "zh": "航班延誤後，乘客想談及賠償。"
+      },
+      {
+        "en": "If a service fails, talking about compensation can help repair trust.",
+        "zh": "如果服務出問題，談及賠償可以幫助修補信任。"
+      },
+      {
+        "en": "This phrase is useful in customer service and complaint handling.",
+        "zh": "這個說法適用於客戶服務和投訴處理。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "reputation is everything",
+    "meaning": "名聲就是一切",
+    "examples": [
+      {
+        "en": "Reputation is everything in our business.",
+        "zh": "在我們的行業中，名聲就是一切。"
+      },
+      {
+        "en": "Reputation is everything means public trust and good opinion are extremely important.",
+        "zh": "reputation is everything 指公眾信任和良好評價極其重要。"
+      },
+      {
+        "en": "For a small restaurant, reputation is everything because customers rely on reviews.",
+        "zh": "對小餐廳來說，名聲就是一切，因為顧客依賴評價。"
+      },
+      {
+        "en": "If reputation is everything, one careless mistake can damage future business.",
+        "zh": "如果名聲就是一切，一次粗心錯誤就可能損害未來生意。"
+      },
+      {
+        "en": "This phrase is common in service industries where trust matters.",
+        "zh": "這個說法常見於重視信任的服務行業。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "have a bad impression of",
+    "meaning": "對……有壞印象",
+    "examples": [
+      {
+        "en": "We do not want people to have a bad impression of us.",
+        "zh": "我們不希望人們對我們有壞印象。"
+      },
+      {
+        "en": "To have a bad impression of someone means to think poorly of them after seeing or experiencing something.",
+        "zh": "have a bad impression of someone 指在看見或經歷某事後，對某人有負面看法。"
+      },
+      {
+        "en": "Customers may have a bad impression of a shop if staff are rude.",
+        "zh": "如果店員無禮，顧客可能會對店舖有壞印象。"
+      },
+      {
+        "en": "A late reply can make clients have a bad impression of a company.",
+        "zh": "遲回覆可能會令客戶對公司有壞印象。"
+      },
+      {
+        "en": "This phrase explains how actions affect people’s opinion.",
+        "zh": "這個說法解釋行動如何影響別人的看法。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "because of this incident",
+    "meaning": "因為這次事件",
+    "examples": [
+      {
+        "en": "We do not want people to have a bad impression of us because of this incident.",
+        "zh": "我們不希望人們因為這次事件而對我們有壞印象。"
+      },
+      {
+        "en": "Because of this incident means as a result of this event, usually an unpleasant one.",
+        "zh": "because of this incident 指因為這次事件而造成某結果，通常指不愉快事件。"
+      },
+      {
+        "en": "Because of this incident, the school reviewed its safety rules.",
+        "zh": "因為這次事件，學校檢討了安全規則。"
+      },
+      {
+        "en": "Customers may lose confidence because of this incident if the company responds poorly.",
+        "zh": "如果公司回應不當，顧客可能會因為這次事件而失去信心。"
+      },
+      {
+        "en": "This phrase connects a specific event with its result.",
+        "zh": "這個說法把特定事件和結果連接起來。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "go the extra mile",
+    "meaning": "額外多做一步；付出額外努力",
+    "examples": [
+      {
+        "en": "We want to go the extra mile for this.",
+        "zh": "我們想為這件事額外多做一步。"
+      },
+      {
+        "en": "To go the extra mile means to do more than what is required or expected.",
+        "zh": "go the extra mile 指做得比要求或預期更多。"
+      },
+      {
+        "en": "A teacher goes the extra mile when she gives extra help after class.",
+        "zh": "老師課後提供額外幫助，就是付出額外努力。"
+      },
+      {
+        "en": "Companies that go the extra mile often win customer loyalty.",
+        "zh": "願意額外多做一步的公司，通常能贏得顧客忠誠。"
+      },
+      {
+        "en": "This phrase suggests extra effort, care, and responsibility.",
+        "zh": "這個說法帶有額外努力、關心和責任感的意思。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "as part of",
+    "meaning": "作為……的一部分",
+    "examples": [
+      {
+        "en": "As part of the additional compensation package, participants will receive lifetime membership.",
+        "zh": "作為額外賠償方案的一部分，參加者將獲得終身會籍。"
+      },
+      {
+        "en": "As part of means included within a larger plan, package, or arrangement.",
+        "zh": "as part of 指包含在較大的計劃、方案或安排之中。"
+      },
+      {
+        "en": "As part of the school programme, students visit a museum every term.",
+        "zh": "作為學校計劃的一部分，學生每學期參觀一次博物館。"
+      },
+      {
+        "en": "A company may offer free training as part of a staff development plan.",
+        "zh": "公司可能提供免費培訓，作為員工發展計劃的一部分。"
+      },
+      {
+        "en": "This phrase shows that one item belongs to a bigger whole.",
+        "zh": "這個說法表示某一項目屬於更大的整體。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "additional compensation package",
+    "meaning": "額外賠償方案",
+    "examples": [
+      {
+        "en": "Participants will receive an additional compensation package.",
+        "zh": "參加者將收到額外賠償方案。"
+      },
+      {
+        "en": "An additional compensation package is extra support, benefits, or payment offered after a problem.",
+        "zh": "additional compensation package 指問題發生後提供的額外支援、福利或款項。"
+      },
+      {
+        "en": "The airline offered an additional compensation package after a long delay.",
+        "zh": "航空公司在長時間延誤後提供額外賠償方案。"
+      },
+      {
+        "en": "An additional compensation package can reduce anger and show responsibility.",
+        "zh": "額外賠償方案可以減少憤怒，並顯示責任感。"
+      },
+      {
+        "en": "It may include refunds, discounts, vouchers, or free services.",
+        "zh": "它可能包括退款、折扣、代用券或免費服務。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "on top of",
+    "meaning": "除了……之外",
+    "examples": [
+      {
+        "en": "On top of what we have pledged already, we will offer lifetime membership.",
+        "zh": "除了我們已經承諾的之外，我們還會提供終身會籍。"
+      },
+      {
+        "en": "On top of means in addition to something else.",
+        "zh": "on top of 指除了某事之外再加上另一樣東西。"
+      },
+      {
+        "en": "On top of free delivery, the shop gave customers a discount coupon.",
+        "zh": "除了免費送貨之外，店舖還給顧客折扣券。"
+      },
+      {
+        "en": "If a hotel offers breakfast on top of a room upgrade, guests may feel well treated.",
+        "zh": "如果酒店除了房間升級之外還提供早餐，住客可能會覺得受到重視。"
+      },
+      {
+        "en": "This phrase shows that something extra is being added.",
+        "zh": "這個說法表示有額外東西加入。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "pledge already",
+    "meaning": "已經承諾",
+    "examples": [
+      {
+        "en": "We will offer lifetime membership on top of what we have pledged already.",
+        "zh": "除了我們已經承諾的之外，我們還會提供終身會籍。"
+      },
+      {
+        "en": "What we have pledged already means what we have already promised to provide.",
+        "zh": "what we have pledged already 指我們已經承諾會提供的東西。"
+      },
+      {
+        "en": "The charity must deliver what it has pledged already before making new promises.",
+        "zh": "慈善機構在作出新承諾前，必須先履行已經承諾的事項。"
+      },
+      {
+        "en": "If a company adds benefits beyond what it has pledged already, customers may feel respected.",
+        "zh": "如果公司在已經承諾的內容之外再增加福利，顧客可能會感到受尊重。"
+      },
+      {
+        "en": "This phrase focuses on promises that have already been made.",
+        "zh": "這個說法強調已經作出的承諾。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "lifetime membership",
+    "meaning": "終身會籍",
+    "examples": [
+      {
+        "en": "Participants will receive lifetime membership of World City Travel.",
+        "zh": "參加者將獲得 World City Travel 的終身會籍。"
+      },
+      {
+        "en": "Lifetime membership means membership that lasts for the rest of a person’s life.",
+        "zh": "lifetime membership 指持續至一生的會籍。"
+      },
+      {
+        "en": "A museum may offer lifetime membership to long-term supporters.",
+        "zh": "博物館可能向長期支持者提供終身會籍。"
+      },
+      {
+        "en": "Lifetime membership can make customers feel valued because they receive lasting benefits.",
+        "zh": "終身會籍可以令顧客覺得被重視，因為他們獲得長期福利。"
+      },
+      {
+        "en": "It is usually more valuable than a short-term discount.",
+        "zh": "它通常比短期折扣更有價值。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "World City Travel",
+    "meaning": "World City Travel",
+    "examples": [
+      {
+        "en": "Participants will receive lifetime membership of World City Travel.",
+        "zh": "參加者將獲得 World City Travel 的終身會籍。"
+      },
+      {
+        "en": "World City Travel is the travel company being discussed in the meeting.",
+        "zh": "World City Travel 是會議中討論的旅行公司。"
+      },
+      {
+        "en": "Customers may contact World City Travel to ask about tours and cruises.",
+        "zh": "顧客可以聯絡 World City Travel 查詢旅行團和遊船活動。"
+      },
+      {
+        "en": "If World City Travel responds well after an incident, it can rebuild trust.",
+        "zh": "如果 World City Travel 在事件後回應得好，就能重建信任。"
+      },
+      {
+        "en": "The name is used when referring to the company, its services, or its membership.",
+        "zh": "這個名稱用於指該公司、其服務或其會籍。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "get a 30% discount on",
+    "meaning": "在……享有七折優惠",
+    "examples": [
+      {
+        "en": "Participants can get a 30% discount on all tours.",
+        "zh": "參加者可以在所有旅行團享有七折優惠。"
+      },
+      {
+        "en": "To get a 30% discount on something means to pay 30% less than the original price.",
+        "zh": "get a 30% discount on something 指以原價少 30% 的價格購買某物，即享有七折優惠。"
+      },
+      {
+        "en": "Students can get a 30% discount on selected books during the school fair.",
+        "zh": "學生可以在學校賣物會期間於指定書籍享有七折優惠。"
+      },
+      {
+        "en": "A 30% discount on future tours can encourage customers to return.",
+        "zh": "未來旅行團的七折優惠可以鼓勵顧客再次光顧。"
+      },
+      {
+        "en": "This phrase is useful when explaining prices and special offers.",
+        "zh": "這個說法適合用於解釋價格和特別優惠。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "all tours that we provide",
+    "meaning": "我們提供的所有旅行團",
+    "examples": [
+      {
+        "en": "Members can get a discount on all tours that we provide.",
+        "zh": "會員可以在我們提供的所有旅行團享有折扣。"
+      },
+      {
+        "en": "All tours that we provide means every tour offered by our company.",
+        "zh": "all tours that we provide 指我們公司提供的每一個旅行團。"
+      },
+      {
+        "en": "The brochure lists all tours that we provide during the summer holiday.",
+        "zh": "小冊子列出我們在暑假期間提供的所有旅行團。"
+      },
+      {
+        "en": "If a discount applies to all tours that we provide, customers have more choices.",
+        "zh": "如果折扣適用於我們提供的所有旅行團，顧客就有更多選擇。"
+      },
+      {
+        "en": "This phrase makes the offer sound broad and clear.",
+        "zh": "這個說法令優惠範圍聽起來廣泛而清楚。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "for life",
+    "meaning": "終身",
+    "examples": [
+      {
+        "en": "Participants can get a 30% discount for life.",
+        "zh": "參加者可以終身享有七折優惠。"
+      },
+      {
+        "en": "For life means for the rest of a person’s life.",
+        "zh": "for life 指在一個人餘生中一直持續。"
+      },
+      {
+        "en": "Some members receive free entry for life after making a large donation.",
+        "zh": "有些會員在作出大額捐款後可終身免費入場。"
+      },
+      {
+        "en": "A benefit that lasts for life feels more valuable than a one-time offer.",
+        "zh": "終身福利比一次性優惠感覺更有價值。"
+      },
+      {
+        "en": "This phrase is often used for permanent rights, benefits, or memberships.",
+        "zh": "這個說法常用於永久權利、福利或會籍。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "30% off",
+    "meaning": "七折優惠",
+    "examples": [
+      {
+        "en": "Thirty percent off is an amazing deal.",
+        "zh": "七折優惠是非常好的優惠。"
+      },
+      {
+        "en": "30% off means the price is reduced by 30%.",
+        "zh": "30% off 指價格減少 30%，即七折。"
+      },
+      {
+        "en": "If a jacket is 30% off, a customer pays less than the original price.",
+        "zh": "如果一件外套有七折優惠，顧客會以低於原價的價格購買。"
+      },
+      {
+        "en": "A sign saying “30% off” can attract shoppers quickly.",
+        "zh": "寫著「七折優惠」的標誌可以迅速吸引購物者。"
+      },
+      {
+        "en": "This phrase is common in shops, online stores, and advertisements.",
+        "zh": "這個說法常見於商店、網店和廣告。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "an amazing deal",
+    "meaning": "非常好的優惠",
+    "examples": [
+      {
+        "en": "Thirty percent off is an amazing deal.",
+        "zh": "七折是非常好的優惠。"
+      },
+      {
+        "en": "An amazing deal is a very good offer, usually because the price or benefit is attractive.",
+        "zh": "an amazing deal 指非常好的優惠，通常因為價格或福利很吸引。"
+      },
+      {
+        "en": "A free hotel upgrade with breakfast is an amazing deal for travellers.",
+        "zh": "免費酒店升級加早餐，對旅客來說是非常好的優惠。"
+      },
+      {
+        "en": "Customers may buy quickly when they think something is an amazing deal.",
+        "zh": "當顧客覺得某物是非常好的優惠時，可能會很快購買。"
+      },
+      {
+        "en": "This phrase is positive and often used in sales or casual conversation.",
+        "zh": "這個說法語氣正面，常用於銷售或日常對話。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "put all this behind us",
+    "meaning": "把這件事拋諸腦後；放下這件事",
+    "examples": [
+      {
+        "en": "Hopefully, that will help us put all this behind us.",
+        "zh": "希望那會幫助我們把這件事拋諸腦後。"
+      },
+      {
+        "en": "To put all this behind us means to stop being affected by a difficult event and move forward.",
+        "zh": "put all this behind us 指不再受困難事件影響，並向前走。"
+      },
+      {
+        "en": "After apologising and fixing the problem, the team hoped to put all this behind them.",
+        "zh": "道歉並解決問題後，團隊希望能把這件事放下。"
+      },
+      {
+        "en": "Fair compensation can help customers put a bad experience behind them.",
+        "zh": "公平賠償可以幫助顧客放下不愉快經歷。"
+      },
+      {
+        "en": "This phrase suggests recovery after trouble.",
+        "zh": "這個說法帶有在困難後恢復過來的意思。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "have a lot to look forward to",
+    "meaning": "有很多值得期待的事",
+    "examples": [
+      {
+        "en": "We have a lot to look forward to with the new exhibition.",
+        "zh": "關於新展覽，我們有很多值得期待的事。"
+      },
+      {
+        "en": "To have a lot to look forward to means there are many good things expected in the future.",
+        "zh": "have a lot to look forward to 指未來有很多好事值得期待。"
+      },
+      {
+        "en": "Students have a lot to look forward to before the school camp.",
+        "zh": "學生在學校營前有很多值得期待的事。"
+      },
+      {
+        "en": "A new project can help a team feel they have a lot to look forward to after a difficult month.",
+        "zh": "在艱難的一個月後，新項目可以令團隊覺得有很多值得期待的事。"
+      },
+      {
+        "en": "This phrase creates a hopeful and positive feeling.",
+        "zh": "這個說法營造希望和正面的感覺。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Insects and Reptiles Exhibition",
+    "meaning": "昆蟲及爬蟲類展覽",
+    "examples": [
+      {
+        "en": "We need to continue promoting the new Insects and Reptiles Exhibition.",
+        "zh": "我們需要繼續宣傳新的昆蟲及爬蟲類展覽。"
+      },
+      {
+        "en": "An Insects and Reptiles Exhibition is a display where visitors learn about insects, snakes, lizards, and similar animals.",
+        "zh": "Insects and Reptiles Exhibition 指讓訪客學習昆蟲、蛇、蜥蜴和類似動物的展覽。"
+      },
+      {
+        "en": "Families may visit the Insects and Reptiles Exhibition to see animals they rarely meet in daily life.",
+        "zh": "家庭可能參觀昆蟲及爬蟲類展覽，觀看日常生活中很少遇見的動物。"
+      },
+      {
+        "en": "A clear introduction can make the Insects and Reptiles Exhibition less scary and more educational.",
+        "zh": "清楚的介紹可以令昆蟲及爬蟲類展覽不那麼可怕，並更具教育意義。"
+      },
+      {
+        "en": "This kind of exhibition can teach people to respect small or misunderstood creatures.",
+        "zh": "這類展覽可以教人尊重細小或被誤解的生物。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "continue promoting",
+    "meaning": "繼續宣傳",
+    "examples": [
+      {
+        "en": "We need to continue promoting the new exhibition.",
+        "zh": "我們需要繼續宣傳新展覽。"
+      },
+      {
+        "en": "To continue promoting something means to keep advertising or encouraging people to support it.",
+        "zh": "continue promoting something 指繼續宣傳某事或鼓勵人支持它。"
+      },
+      {
+        "en": "The school will continue promoting the reading programme after the opening week.",
+        "zh": "學校會在開幕週後繼續宣傳閱讀計劃。"
+      },
+      {
+        "en": "If ticket sales are low, organisers may need to continue promoting the event online.",
+        "zh": "如果門票銷售低，主辦方可能需要在網上繼續宣傳活動。"
+      },
+      {
+        "en": "This phrase shows that promotion has already started and should not stop yet.",
+        "zh": "這個說法表示宣傳已經開始，而且暫時不應停止。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "have an idea about",
+    "meaning": "對……有一個想法",
+    "examples": [
+      {
+        "en": "David had an idea about the dragonflies in the exhibition.",
+        "zh": "David 對展覽中的蜻蜓有一個想法。"
+      },
+      {
+        "en": "To have an idea about something means to think of a possible plan or suggestion related to it.",
+        "zh": "have an idea about something 指想到與某事相關的可能計劃或建議。"
+      },
+      {
+        "en": "Lily had an idea about how to make the class noticeboard more interesting.",
+        "zh": "Lily 對如何令班房壁報板更有趣有一個想法。"
+      },
+      {
+        "en": "When people have an idea about a problem, they should explain it clearly to the team.",
+        "zh": "當人們對一個問題有想法時，應向團隊清楚解釋。"
+      },
+      {
+        "en": "This phrase introduces a suggestion before giving details.",
+        "zh": "這個說法用來在交代詳情前引入建議。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "tell us a bit more",
+    "meaning": "多告訴我們一點",
+    "examples": [
+      {
+        "en": "Can you tell us a bit more about your idea?",
+        "zh": "你可以多告訴我們一點你的想法嗎？"
+      },
+      {
+        "en": "To tell us a bit more means to give extra information or explanation.",
+        "zh": "tell us a bit more 指提供更多資訊或解釋。"
+      },
+      {
+        "en": "The teacher asked the student to tell the class a bit more about her project.",
+        "zh": "老師請學生多告訴全班一點她的項目。"
+      },
+      {
+        "en": "If an idea is interesting but unclear, people may ask you to tell them a bit more.",
+        "zh": "如果一個想法有趣但不清楚，人們可能會請你多告訴他們一點。"
+      },
+      {
+        "en": "This phrase is polite and encourages the speaker to continue.",
+        "zh": "這個說法很禮貌，並鼓勵說話者繼續。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "dragonflies",
+    "meaning": "蜻蜓",
+    "examples": [
+      {
+        "en": "People see a lot of dragonflies around Hong Kong.",
+        "zh": "人們在香港各處看到很多蜻蜓。"
+      },
+      {
+        "en": "Dragonflies are insects with long bodies and clear wings that often fly near water.",
+        "zh": "dragonflies 指身體細長、有透明翅膀，常在水邊飛行的昆蟲。"
+      },
+      {
+        "en": "Children may see dragonflies near ponds, parks, and wetlands.",
+        "zh": "孩子可能在池塘、公園和濕地附近看到蜻蜓。"
+      },
+      {
+        "en": "Dragonflies can attract nature lovers because their colours and movements are easy to notice.",
+        "zh": "蜻蜓因顏色和飛行動作容易被注意，能吸引自然愛好者。"
+      },
+      {
+        "en": "Learning about dragonflies can help people pay more attention to small wildlife.",
+        "zh": "學習蜻蜓可以幫助人們更留意細小的野生生物。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "around Hong Kong",
+    "meaning": "在香港各處",
+    "examples": [
+      {
+        "en": "People see a lot of dragonflies around Hong Kong.",
+        "zh": "人們在香港各處看到很多蜻蜓。"
+      },
+      {
+        "en": "Around Hong Kong means in different places across Hong Kong.",
+        "zh": "around Hong Kong 指在香港不同地方。"
+      },
+      {
+        "en": "There are hiking trails around Hong Kong for people who enjoy nature.",
+        "zh": "香港各處都有遠足徑，適合喜歡自然的人。"
+      },
+      {
+        "en": "A campaign around Hong Kong can reach people in many districts.",
+        "zh": "在香港各處進行的宣傳活動可以接觸多個地區的人。"
+      },
+      {
+        "en": "This phrase suggests a wide area, not just one location.",
+        "zh": "這個說法表示範圍較廣，不只是單一地點。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "especially in parks",
+    "meaning": "特別是在公園",
+    "examples": [
+      {
+        "en": "People see a lot of dragonflies around Hong Kong, especially in parks.",
+        "zh": "人們在香港各處看到很多蜻蜓，特別是在公園。"
+      },
+      {
+        "en": "Especially in parks means parks are a particularly common place for this to happen.",
+        "zh": "especially in parks 指公園是這件事特別常見的地方。"
+      },
+      {
+        "en": "Children like outdoor activities, especially in parks where they have space to run.",
+        "zh": "孩子喜歡戶外活動，特別是在有空間奔跑的公園。"
+      },
+      {
+        "en": "If insects are common especially in parks, visitors may notice them during walks.",
+        "zh": "如果昆蟲特別常見於公園，訪客散步時可能會注意到牠們。"
+      },
+      {
+        "en": "This phrase highlights one place as more important than others.",
+        "zh": "這個說法突出某個地方比其他地方更重要。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "encounter at",
+    "meaning": "在……遇見；看到",
+    "examples": [
+      {
+        "en": "People will encounter two special dragonflies at the exhibition.",
+        "zh": "人們會在展覽中看到兩種特別的蜻蜓。"
+      },
+      {
+        "en": "To encounter something at a place means to meet, see, or experience it there.",
+        "zh": "encounter something at a place 指在某地方遇見、看到或經歷某事物。"
+      },
+      {
+        "en": "Visitors may encounter rare plants at the nature reserve.",
+        "zh": "訪客可能在自然保護區看到稀有植物。"
+      },
+      {
+        "en": "If students encounter new ideas at a museum, they may ask more questions.",
+        "zh": "如果學生在博物館接觸到新想法，他們可能會問更多問題。"
+      },
+      {
+        "en": "This phrase is slightly more formal than “see” or “meet.”",
+        "zh": "這個說法比 “see” 或 “meet” 稍正式。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "at the exhibition",
+    "meaning": "在展覽中",
+    "examples": [
+      {
+        "en": "People will see the Red Baller at the exhibition.",
+        "zh": "人們會在展覽中看到 Red Baller。"
+      },
+      {
+        "en": "At the exhibition means during or inside the exhibition event.",
+        "zh": "at the exhibition 指在展覽活動期間或展覽場地內。"
+      },
+      {
+        "en": "Visitors can learn about ancient tools at the exhibition.",
+        "zh": "訪客可以在展覽中學習古代工具。"
+      },
+      {
+        "en": "If a rare animal model is shown at the exhibition, it may attract many children.",
+        "zh": "如果展覽中展示稀有動物模型，可能會吸引許多孩子。"
+      },
+      {
+        "en": "This phrase tells the reader where the experience happens.",
+        "zh": "這個說法告訴讀者經歷發生在甚麼地方。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "along with that",
+    "meaning": "除此之外",
+    "examples": [
+      {
+        "en": "Along with that, people will get to see the Blue Tail.",
+        "zh": "除此之外，人們還有機會看到 Blue Tail。"
+      },
+      {
+        "en": "Along with that means in addition to the thing just mentioned.",
+        "zh": "along with that 指除了剛提到的事情之外。"
+      },
+      {
+        "en": "The workshop teaches basic cooking; along with that, students learn kitchen safety.",
+        "zh": "工作坊教授基本烹飪；除此之外，學生還學習廚房安全。"
+      },
+      {
+        "en": "This phrase helps add another point smoothly.",
+        "zh": "這個說法幫助順暢地加入另一個重點。"
+      },
+      {
+        "en": "It is useful when listing related benefits, features, or details.",
+        "zh": "它適合用於列出相關好處、特色或細節。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "get to see",
+    "meaning": "有機會看到",
+    "examples": [
+      {
+        "en": "People will get to see the Blue Tail.",
+        "zh": "人們將有機會看到 Blue Tail。"
+      },
+      {
+        "en": "To get to see something means to have the chance or opportunity to see it.",
+        "zh": "get to see something 指有機會看到某事物。"
+      },
+      {
+        "en": "On the school trip, students got to see how bread is made.",
+        "zh": "在學校旅行中，學生有機會看到麵包是如何製作的。"
+      },
+      {
+        "en": "Visitors are excited when they get to see something rare.",
+        "zh": "當訪客有機會看到稀有事物時，他們會很興奮。"
+      },
+      {
+        "en": "This phrase suggests the experience is special or enjoyable.",
+        "zh": "這個說法暗示該經歷特別或令人愉快。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Red Baller",
+    "meaning": "Red Baller（蜻蜓名稱）",
+    "examples": [
+      {
+        "en": "Visitors will see the Red Baller at the exhibition.",
+        "zh": "訪客會在展覽中看到 Red Baller。"
+      },
+      {
+        "en": "Red Baller is the name of a special dragonfly featured in the exhibition.",
+        "zh": "Red Baller 是展覽中介紹的一種特別蜻蜓的名稱。"
+      },
+      {
+        "en": "A clear sign can help visitors identify the Red Baller quickly.",
+        "zh": "清楚的標示可以幫助訪客迅速辨認 Red Baller。"
+      },
+      {
+        "en": "If children remember the name Red Baller, they may look for similar dragonflies in parks.",
+        "zh": "如果孩子記得 Red Baller 這個名稱，他們可能會在公園尋找相似的蜻蜓。"
+      },
+      {
+        "en": "The name makes the dragonfly sound more memorable to visitors.",
+        "zh": "這個名稱令蜻蜓對訪客來說更容易記住。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Blue Tail",
+    "meaning": "Blue Tail（蜻蜓名稱）",
+    "examples": [
+      {
+        "en": "Visitors will also get to see the Blue Tail.",
+        "zh": "訪客也有機會看到 Blue Tail。"
+      },
+      {
+        "en": "Blue Tail is the name of another special dragonfly in the exhibition.",
+        "zh": "Blue Tail 是展覽中另一種特別蜻蜓的名稱。"
+      },
+      {
+        "en": "The Blue Tail may attract attention because of its colour.",
+        "zh": "Blue Tail 可能因其顏色而吸引注意。"
+      },
+      {
+        "en": "If the guide explains the Blue Tail clearly, visitors can remember its features better.",
+        "zh": "如果導賞員清楚解釋 Blue Tail，訪客就能更好記住它的特徵。"
+      },
+      {
+        "en": "Naming the Blue Tail helps people talk about the dragonfly more easily.",
+        "zh": "為 Blue Tail 命名，可以幫助人們更容易談論這種蜻蜓。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "interesting names for",
+    "meaning": "……的有趣名稱",
+    "examples": [
+      {
+        "en": "Red Baller and Blue Tail are interesting names for interesting dragonflies.",
+        "zh": "Red Baller 和 Blue Tail 是有趣蜻蜓的有趣名稱。"
+      },
+      {
+        "en": "Interesting names for something are names that make people curious or help them remember it.",
+        "zh": "interesting names for something 指令人好奇或幫助人記住某事物的名稱。"
+      },
+      {
+        "en": "Teachers sometimes use interesting names for grammar games to make students more willing to join.",
+        "zh": "老師有時會為文法遊戲使用有趣名稱，令學生更願意參與。"
+      },
+      {
+        "en": "Interesting names for animals in an exhibition can attract children’s attention.",
+        "zh": "展覽中動物的有趣名稱可以吸引孩子注意。"
+      },
+      {
+        "en": "A good name can make a simple idea feel more exciting.",
+        "zh": "好名稱可以令簡單想法感覺更有趣。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "encourage someone to",
+    "meaning": "鼓勵某人去……",
+    "examples": [
+      {
+        "en": "We will encourage people to look out for the dragonflies.",
+        "zh": "我們會鼓勵人們留意尋找那些蜻蜓。"
+      },
+      {
+        "en": "To encourage someone to do something means to give support or motivation so they are more willing to do it.",
+        "zh": "encourage someone to do something 指給予支持或動力，令某人更願意做某事。"
+      },
+      {
+        "en": "Parents can encourage children to read by keeping books at home.",
+        "zh": "家長可以在家中放書，鼓勵孩子閱讀。"
+      },
+      {
+        "en": "A teacher’s praise can encourage students to speak more confidently.",
+        "zh": "老師的稱讚可以鼓勵學生更有信心地說話。"
+      },
+      {
+        "en": "This phrase usually has a positive and supportive meaning.",
+        "zh": "這個說法通常帶有正面和支持的意思。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "look out for",
+    "meaning": "留意尋找",
+    "examples": [
+      {
+        "en": "We will encourage people to look out for the dragonflies.",
+        "zh": "我們會鼓勵人們留意尋找那些蜻蜓。"
+      },
+      {
+        "en": "To look out for something means to watch carefully so you can find or notice it.",
+        "zh": "look out for something 指仔細留意，以便找到或注意到某物。"
+      },
+      {
+        "en": "When walking in the park, look out for signs that explain the plants.",
+        "zh": "在公園散步時，請留意尋找介紹植物的標示。"
+      },
+      {
+        "en": "If visitors look out for small insects, they may discover more than they expected.",
+        "zh": "如果訪客留意尋找細小昆蟲，他們可能會發現比預期更多的東西。"
+      },
+      {
+        "en": "This phrase is useful when telling people to pay attention.",
+        "zh": "這個說法適合用於提醒人集中注意。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "photo-taking competition",
+    "meaning": "攝影比賽",
+    "examples": [
+      {
+        "en": "We will have a photo-taking competition.",
+        "zh": "我們會舉辦攝影比賽。"
+      },
+      {
+        "en": "A photo-taking competition is a contest where people take photos and the best photo wins.",
+        "zh": "photo-taking competition 指參加者拍攝照片，並由最佳照片勝出的比賽。"
+      },
+      {
+        "en": "The school held a photo-taking competition about life in the neighbourhood.",
+        "zh": "學校舉辦了一個關於社區生活的攝影比賽。"
+      },
+      {
+        "en": "A photo-taking competition can make participants observe their surroundings more carefully.",
+        "zh": "攝影比賽可以令參加者更仔細觀察周圍環境。"
+      },
+      {
+        "en": "It is a simple way to add fun to an event or exhibition.",
+        "zh": "它是為活動或展覽增添樂趣的簡單方法。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "at lunch last week",
+    "meaning": "上星期午餐時",
+    "examples": [
+      {
+        "en": "You told me about the competition at lunch last week.",
+        "zh": "你上星期午餐時告訴過我關於比賽的事。"
+      },
+      {
+        "en": "At lunch last week means during lunchtime in the previous week.",
+        "zh": "at lunch last week 指上星期午餐時間期間。"
+      },
+      {
+        "en": "We discussed the school picnic at lunch last week.",
+        "zh": "我們上星期午餐時討論過學校野餐。"
+      },
+      {
+        "en": "People use this phrase to remind others when a conversation happened.",
+        "zh": "人們用這個說法提醒別人對話是在何時發生。"
+      },
+      {
+        "en": "It gives a clear time context without needing an exact date.",
+        "zh": "它提供清楚時間背景，而不需要準確日期。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "the best dragonfly photo",
+    "meaning": "最佳蜻蜓照片",
+    "examples": [
+      {
+        "en": "The best dragonfly photo wins 500 dollars.",
+        "zh": "最佳蜻蜓照片可贏得 500 元。"
+      },
+      {
+        "en": "The best dragonfly photo means the photo of a dragonfly judged to be the most impressive.",
+        "zh": "the best dragonfly photo 指被評為最出色的蜻蜓照片。"
+      },
+      {
+        "en": "Judges may choose the best dragonfly photo based on clarity, colour, and timing.",
+        "zh": "評判可能根據清晰度、顏色和拍攝時機選出最佳蜻蜓照片。"
+      },
+      {
+        "en": "A competition for the best dragonfly photo encourages people to observe nature closely.",
+        "zh": "最佳蜻蜓照片比賽鼓勵人們仔細觀察自然。"
+      },
+      {
+        "en": "The phrase points to the winning photo, not just any photo of a dragonfly.",
+        "zh": "這個說法指勝出的照片，而不只是任何一張蜻蜓照片。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "win 500 dollars",
+    "meaning": "贏得 500 元",
+    "examples": [
+      {
+        "en": "The participant with the best dragonfly photo wins 500 dollars.",
+        "zh": "擁有最佳蜻蜓照片的參加者可贏得 500 元。"
+      },
+      {
+        "en": "To win 500 dollars means to receive 500 dollars as a prize.",
+        "zh": "win 500 dollars 指獲得 500 元作為獎金。"
+      },
+      {
+        "en": "The student who writes the best story will win 500 dollars.",
+        "zh": "寫出最佳故事的學生將贏得 500 元。"
+      },
+      {
+        "en": "A clear prize like 500 dollars can make more people join a competition.",
+        "zh": "像 500 元這樣清楚的獎金，可以令更多人參加比賽。"
+      },
+      {
+        "en": "This phrase is often used in contests, lucky draws, and games.",
+        "zh": "這個說法常用於比賽、抽獎和遊戲。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "add a little excitement",
+    "meaning": "增添一點刺激感；增添一點樂趣",
+    "examples": [
+      {
+        "en": "The competition should add a little excitement for the participants.",
+        "zh": "這個比賽應該會為參加者增添一點刺激感。"
+      },
+      {
+        "en": "To add a little excitement means to make something more fun, lively, or interesting.",
+        "zh": "add a little excitement 指令某事更有趣、更熱鬧或更吸引。"
+      },
+      {
+        "en": "A quiz can add a little excitement to a long lesson.",
+        "zh": "小測驗可以為漫長課堂增添一點樂趣。"
+      },
+      {
+        "en": "Small prizes can add a little excitement without making an event too expensive.",
+        "zh": "小獎品可以增添一點刺激感，而不會令活動太昂貴。"
+      },
+      {
+        "en": "This phrase suggests a small but positive improvement in mood.",
+        "zh": "這個說法表示在氣氛上帶來小小但正面的改善。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "one last thing",
+    "meaning": "最後一件事",
+    "examples": [
+      {
+        "en": "There is one last thing I want to talk about.",
+        "zh": "我還有最後一件事想談。"
+      },
+      {
+        "en": "One last thing introduces a final point before ending a conversation or meeting.",
+        "zh": "one last thing 用來在結束對話或會議前引入最後一個重點。"
+      },
+      {
+        "en": "One last thing: please bring your student card tomorrow.",
+        "zh": "最後一件事：明天請帶學生證。"
+      },
+      {
+        "en": "This phrase helps add an important reminder at the end.",
+        "zh": "這個說法有助在結尾加入重要提醒。"
+      },
+      {
+        "en": "It signals that the discussion is nearly finished.",
+        "zh": "它表示討論快將結束。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "wrap up the meeting",
+    "meaning": "結束會議",
+    "examples": [
+      {
+        "en": "There is one last thing to discuss before we wrap up the meeting.",
+        "zh": "在我們結束會議前，還有最後一件事要討論。"
+      },
+      {
+        "en": "To wrap up the meeting means to finish the meeting.",
+        "zh": "wrap up the meeting 指結束會議。"
+      },
+      {
+        "en": "Before we wrap up the meeting, let’s confirm the next deadline.",
+        "zh": "在我們結束會議前，先確認下一個截止日期。"
+      },
+      {
+        "en": "A chairperson may wrap up the meeting by summarising the decisions.",
+        "zh": "主席可能透過總結決定來結束會議。"
+      },
+      {
+        "en": "This phrase is useful for ending a meeting in an organised way.",
+        "zh": "這個說法適合用於有條理地結束會議。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "Adventure Fishing Tour",
+    "meaning": "探險釣魚團",
+    "examples": [
+      {
+        "en": "Our new Adventure Fishing Tour starts soon in Sydney.",
+        "zh": "我們新的探險釣魚團即將在悉尼開始。"
+      },
+      {
+        "en": "An Adventure Fishing Tour is a fishing trip designed to feel active, exciting, and outdoorsy.",
+        "zh": "Adventure Fishing Tour 指設計得較活躍、刺激和戶外感較強的釣魚旅行團。"
+      },
+      {
+        "en": "Families may join an Adventure Fishing Tour to learn basic fishing skills safely.",
+        "zh": "家庭可能參加探險釣魚團，安全地學習基本釣魚技巧。"
+      },
+      {
+        "en": "An Adventure Fishing Tour should include clear safety instructions because water activities carry risks.",
+        "zh": "探險釣魚團應包括清楚安全指示，因為水上活動有風險。"
+      },
+      {
+        "en": "This type of tour attracts people who want a more hands-on experience.",
+        "zh": "這類旅行團吸引想要更多親身體驗的人。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "start soon",
+    "meaning": "即將開始",
+    "examples": [
+      {
+        "en": "The new Adventure Fishing Tour starts soon in Sydney.",
+        "zh": "新的探險釣魚團即將在悉尼開始。"
+      },
+      {
+        "en": "Start soon means begin in the near future.",
+        "zh": "start soon 指在不久的將來開始。"
+      },
+      {
+        "en": "The summer course starts soon, so students should buy their books now.",
+        "zh": "暑期課程即將開始，所以學生現在應該買書。"
+      },
+      {
+        "en": "If an event starts soon, organisers must finish preparations quickly.",
+        "zh": "如果活動即將開始，主辦方必須迅速完成準備。"
+      },
+      {
+        "en": "This phrase creates a sense that time is close.",
+        "zh": "這個說法營造時間很接近的感覺。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "last time",
+    "meaning": "上次",
+    "examples": [
+      {
+        "en": "Last time, we discussed adding stops along the route.",
+        "zh": "上次，我們討論過沿途加設停留點。"
+      },
+      {
+        "en": "Last time means during the previous meeting, conversation, or occasion.",
+        "zh": "last time 指在上一次會議、對話或場合中。"
+      },
+      {
+        "en": "Last time, the class learned how to write introductions.",
+        "zh": "上次，班上學習了如何寫引言。"
+      },
+      {
+        "en": "People say “last time” to connect the current discussion with an earlier one.",
+        "zh": "人們說 “last time” 來把目前討論與之前的討論連接起來。"
+      },
+      {
+        "en": "It is useful when reminding others of what was already discussed.",
+        "zh": "它適合用來提醒別人已經討論過甚麼。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "add stops along the route",
+    "meaning": "沿途加設停留點",
+    "examples": [
+      {
+        "en": "We discussed adding stops along the route.",
+        "zh": "我們討論過沿途加設停留點。"
+      },
+      {
+        "en": "To add stops along the route means to include extra places where a trip will pause.",
+        "zh": "add stops along the route 指在旅程路線中加入額外停留的地方。"
+      },
+      {
+        "en": "The bus company added stops along the route so elderly passengers could travel more easily.",
+        "zh": "巴士公司沿途加設停留點，讓年長乘客更容易出行。"
+      },
+      {
+        "en": "Adding stops along the route can make a tour more interesting but also longer.",
+        "zh": "沿途加設停留點可以令旅行團更有趣，但也會令時間更長。"
+      },
+      {
+        "en": "This phrase is useful when planning transport, tours, or journeys.",
+        "zh": "這個說法適用於規劃交通、旅行團或旅程。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "what became of",
+    "meaning": "……後來怎樣了？",
+    "examples": [
+      {
+        "en": "What became of the plan to add stops along the route?",
+        "zh": "沿途加設停留點的計劃後來怎樣了？"
+      },
+      {
+        "en": "What became of something means what happened to it after it was discussed or started.",
+        "zh": "what became of something 指某事在被討論或開始之後後來怎樣了。"
+      },
+      {
+        "en": "What became of the school garden project we talked about last term?",
+        "zh": "我們上學期談過的校園花園計劃後來怎樣了？"
+      },
+      {
+        "en": "People use this phrase when they want an update on an old idea or plan.",
+        "zh": "當人們想知道舊想法或計劃的最新情況時，會使用這個說法。"
+      },
+      {
+        "en": "It suggests the speaker is not sure whether the plan continued, changed, or disappeared.",
+        "zh": "它表示說話者不確定該計劃是繼續、改變還是消失了。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "yacht",
+    "meaning": "遊艇",
+    "examples": [
+      {
+        "en": "The yacht will stop at two white sand beaches.",
+        "zh": "遊艇將在兩個白沙灘停留。"
+      },
+      {
+        "en": "A yacht is a boat used for leisure, travel, or private trips on the water.",
+        "zh": "yacht 指用於休閒、旅行或私人水上旅程的船。"
+      },
+      {
+        "en": "Tourists may rent a yacht for a small group celebration.",
+        "zh": "遊客可能租用遊艇作小型團體慶祝。"
+      },
+      {
+        "en": "If a yacht carries passengers, safety equipment must be ready.",
+        "zh": "如果遊艇載客，安全設備必須準備好。"
+      },
+      {
+        "en": "Yachts are often associated with relaxing trips, sea views, and private travel.",
+        "zh": "遊艇常令人聯想到休閒旅程、海景和私人旅行。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "white sand beaches",
+    "meaning": "白沙灘",
+    "examples": [
+      {
+        "en": "The yacht will stop at two white sand beaches.",
+        "zh": "遊艇將在兩個白沙灘停留。"
+      },
+      {
+        "en": "White sand beaches are beaches with light-coloured sand that often look clean and attractive.",
+        "zh": "white sand beaches 指沙色較淺、通常看起來乾淨而吸引的沙灘。"
+      },
+      {
+        "en": "Many travellers enjoy white sand beaches because the water often looks clearer there.",
+        "zh": "許多旅客喜歡白沙灘，因為那裡的海水常看起來更清澈。"
+      },
+      {
+        "en": "Stopping at white sand beaches can make a fishing tour feel more relaxing.",
+        "zh": "在白沙灘停留可以令釣魚團感覺更放鬆。"
+      },
+      {
+        "en": "This phrase is often used in travel descriptions.",
+        "zh": "這個說法常用於旅遊描述。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "any particular reason for",
+    "meaning": "有沒有特別原因",
+    "examples": [
+      {
+        "en": "Is there any particular reason for this choice?",
+        "zh": "這個選擇有沒有特別原因？"
+      },
+      {
+        "en": "Any particular reason for something asks whether there is a specific reason behind it.",
+        "zh": "any particular reason for something 用來詢問某事背後是否有具體原因。"
+      },
+      {
+        "en": "Is there any particular reason for choosing Friday instead of Saturday?",
+        "zh": "選擇星期五而不是星期六，有沒有特別原因？"
+      },
+      {
+        "en": "People ask this question when they want to understand a decision more clearly.",
+        "zh": "當人們想更清楚理解一個決定時，會問這個問題。"
+      },
+      {
+        "en": "It sounds polite and curious rather than accusing.",
+        "zh": "它聽起來禮貌而好奇，不像指責。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "some sort of",
+    "meaning": "某種……",
+    "examples": [
+      {
+        "en": "Why not stop at some sort of outlying island?",
+        "zh": "為甚麼不停在某種離島呢？"
+      },
+      {
+        "en": "Some sort of means a type of something, when the speaker is not being very exact.",
+        "zh": "some sort of 指某一類事物，但說話者沒有說得很精確。"
+      },
+      {
+        "en": "We need some sort of plan before inviting the guests.",
+        "zh": "在邀請客人前，我們需要某種計劃。"
+      },
+      {
+        "en": "A teacher may use some sort of game to make revision less boring.",
+        "zh": "老師可能使用某種遊戲，令溫習不那麼沉悶。"
+      },
+      {
+        "en": "This phrase is useful when the speaker has a rough idea but no exact detail yet.",
+        "zh": "當說話者有大概想法但未有準確細節時，這個說法很有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "outlying islands",
+    "meaning": "離島",
+    "examples": [
+      {
+        "en": "Why not stop at some sort of outlying island?",
+        "zh": "為甚麼不停在某種離島呢？"
+      },
+      {
+        "en": "Outlying islands are islands located away from the main city or mainland area.",
+        "zh": "outlying islands 指位於主要城市或大陸地區以外的島嶼。"
+      },
+      {
+        "en": "People visit outlying islands for beaches, seafood, and quieter scenery.",
+        "zh": "人們到離島遊覽沙灘、海鮮和較寧靜的景色。"
+      },
+      {
+        "en": "Adding outlying islands to a tour can make the route more special but may increase travel time.",
+        "zh": "在旅行團加入離島可以令路線更特別，但可能增加交通時間。"
+      },
+      {
+        "en": "This phrase is often used in geography, transport, and tourism.",
+        "zh": "這個說法常用於地理、交通和旅遊。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "catch shellfish",
+    "meaning": "捕捉貝類",
+    "examples": [
+      {
+        "en": "Participants can catch shellfish at these stops.",
+        "zh": "參加者可以在這些停留點捕捉貝類。"
+      },
+      {
+        "en": "To catch shellfish means to collect small sea animals such as clams, mussels, or crabs.",
+        "zh": "catch shellfish 指採集或捕捉蜆、青口、蟹等小型海洋動物。"
+      },
+      {
+        "en": "Children should learn safety rules before they catch shellfish on a beach.",
+        "zh": "孩子在沙灘捕捉貝類前，應學習安全規則。"
+      },
+      {
+        "en": "If participants can catch shellfish, the tour becomes more hands-on.",
+        "zh": "如果參加者可以捕捉貝類，旅行團會變得更具親身體驗感。"
+      },
+      {
+        "en": "This activity may require permission, clean water, and careful guidance.",
+        "zh": "這項活動可能需要許可、乾淨水域和小心指導。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "at these stops",
+    "meaning": "在這些停留點",
+    "examples": [
+      {
+        "en": "Participants can catch shellfish at these stops.",
+        "zh": "參加者可以在這些停留點捕捉貝類。"
+      },
+      {
+        "en": "At these stops means at the places where the tour or journey pauses.",
+        "zh": "at these stops 指在旅行團或旅程停下來的那些地方。"
+      },
+      {
+        "en": "At these stops, passengers can use the toilet and buy snacks.",
+        "zh": "在這些停留點，乘客可以使用洗手間和買小食。"
+      },
+      {
+        "en": "If activities are planned at these stops, the schedule must allow enough time.",
+        "zh": "如果在這些停留點安排活動，時間表必須預留足夠時間。"
+      },
+      {
+        "en": "This phrase links an activity to specific stopping points.",
+        "zh": "這個說法把活動與特定停留點連接起來。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "choose something especially for",
+    "meaning": "特別為……而選擇",
+    "examples": [
+      {
+        "en": "We chose these two beaches especially for that.",
+        "zh": "我們特別為了那個原因而選擇這兩個沙灘。"
+      },
+      {
+        "en": "To choose something especially for a purpose means to select it mainly because it suits that purpose.",
+        "zh": "choose something especially for a purpose 指主要因為某物適合某目的而選擇它。"
+      },
+      {
+        "en": "The teacher chose this story especially for beginners because the language is simple.",
+        "zh": "老師特別為初學者選擇這個故事，因為語言簡單。"
+      },
+      {
+        "en": "If organisers choose a venue especially for safety, participants may feel more comfortable.",
+        "zh": "如果主辦方特別為安全而選擇場地，參加者可能會更安心。"
+      },
+      {
+        "en": "This phrase explains the reason behind a choice.",
+        "zh": "這個說法解釋選擇背後的原因。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "That’s very clever",
+    "meaning": "這很聰明",
+    "examples": [
+      {
+        "en": "That is very clever, Avery.",
+        "zh": "Avery，這很聰明。"
+      },
+      {
+        "en": "“That’s very clever” means an idea is smart, practical, or well thought out.",
+        "zh": "“That’s very clever” 指一個想法聰明、實用或經過周詳思考。"
+      },
+      {
+        "en": "Using colour labels to organise homework is very clever.",
+        "zh": "用顏色標籤整理功課很聰明。"
+      },
+      {
+        "en": "People say this when a solution solves a problem in a neat way.",
+        "zh": "當解決方法巧妙地解決問題時，人們會這樣說。"
+      },
+      {
+        "en": "It is a positive comment on someone’s thinking.",
+        "zh": "這是對某人思考方式的正面評價。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "places where",
+    "meaning": "……的地方",
+    "examples": [
+      {
+        "en": "We chose places where participants can catch shellfish.",
+        "zh": "我們選擇了參加者可以捕捉貝類的地方。"
+      },
+      {
+        "en": "Places where introduces locations connected to a particular action or feature.",
+        "zh": "places where 用來引入與某個行動或特徵相關的地方。"
+      },
+      {
+        "en": "Parks are places where children can run, play, and relax.",
+        "zh": "公園是孩子可以跑步、玩耍和放鬆的地方。"
+      },
+      {
+        "en": "A museum is a place where visitors can learn from objects and stories.",
+        "zh": "博物館是訪客可以從物件和故事中學習的地方。"
+      },
+      {
+        "en": "This structure helps describe what happens in a location.",
+        "zh": "這個句式幫助描述某個地點會發生甚麼。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "love this idea",
+    "meaning": "很喜歡這個想法",
+    "examples": [
+      {
+        "en": "I am sure the participants will love this idea.",
+        "zh": "我肯定參加者會很喜歡這個想法。"
+      },
+      {
+        "en": "To love this idea means to like the idea very much.",
+        "zh": "love this idea 指非常喜歡這個想法。"
+      },
+      {
+        "en": "Students will love this idea if it makes homework feel like a game.",
+        "zh": "如果這個想法令功課像遊戲一樣，學生會很喜歡它。"
+      },
+      {
+        "en": "If customers love this idea, they may tell their friends about it.",
+        "zh": "如果顧客很喜歡這個想法，他們可能會告訴朋友。"
+      },
+      {
+        "en": "This phrase shows strong approval and excitement.",
+        "zh": "這個說法表示強烈認同和興奮。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "anything to add",
+    "meaning": "有甚麼要補充",
+    "examples": [
+      {
+        "en": "Do you have anything to add, David?",
+        "zh": "David，你有甚麼要補充嗎？"
+      },
+      {
+        "en": "Anything to add asks whether someone has more information, comments, or suggestions.",
+        "zh": "anything to add 用來詢問某人是否有更多資訊、意見或建議。"
+      },
+      {
+        "en": "Before ending the meeting, the chairperson asked if anyone had anything to add.",
+        "zh": "在結束會議前，主席問大家有沒有甚麼要補充。"
+      },
+      {
+        "en": "This question gives others a chance to speak before a decision is final.",
+        "zh": "這個問題在作最後決定前給其他人發言機會。"
+      },
+      {
+        "en": "It sounds open and respectful in group discussions.",
+        "zh": "它在小組討論中聽起來開放而尊重。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "be good for now",
+    "meaning": "暫時可以了",
+    "examples": [
+      {
+        "en": "I think we are good for now.",
+        "zh": "我想我們暫時可以了。"
+      },
+      {
+        "en": "To be good for now means the current situation is acceptable and nothing more is needed at this moment.",
+        "zh": "be good for now 指目前情況可以接受，暫時不需要再做其他事。"
+      },
+      {
+        "en": "We have enough chairs for now, but we may need more later.",
+        "zh": "我們暫時有足夠椅子，但之後可能需要更多。"
+      },
+      {
+        "en": "If a team is good for now, they can continue without making more changes immediately.",
+        "zh": "如果團隊暫時可以，就可以先繼續，而不必立即作更多改動。"
+      },
+      {
+        "en": "This phrase leaves room for future updates.",
+        "zh": "這個說法保留日後更新的空間。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "get to work",
+    "meaning": "開始工作",
+    "examples": [
+      {
+        "en": "Let’s get to work and prepare the necessary documents.",
+        "zh": "我們開始工作，準備所需文件吧。"
+      },
+      {
+        "en": "To get to work means to start doing the tasks that need to be done.",
+        "zh": "get to work 指開始做需要完成的任務。"
+      },
+      {
+        "en": "After the plan is clear, the team can get to work immediately.",
+        "zh": "計劃清楚後，團隊可以立即開始工作。"
+      },
+      {
+        "en": "If people keep talking but never get to work, the project will be delayed.",
+        "zh": "如果人們一直說話但不開始工作，項目就會延誤。"
+      },
+      {
+        "en": "This phrase encourages action after discussion.",
+        "zh": "這個說法鼓勵人在討論後採取行動。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "prepare the necessary documents",
+    "meaning": "準備所需文件",
+    "examples": [
+      {
+        "en": "We need to prepare the necessary documents.",
+        "zh": "我們需要準備所需文件。"
+      },
+      {
+        "en": "To prepare the necessary documents means to get the required papers or files ready.",
+        "zh": "prepare the necessary documents 指準備好所要求的文件或檔案。"
+      },
+      {
+        "en": "Before applying for a visa, travellers must prepare the necessary documents.",
+        "zh": "申請簽證前，旅客必須準備所需文件。"
+      },
+      {
+        "en": "If a company does not prepare the necessary documents, approval may be delayed.",
+        "zh": "如果公司沒有準備所需文件，審批可能會延誤。"
+      },
+      {
+        "en": "This phrase is common in schools, offices, travel, and official procedures.",
+        "zh": "這個說法常見於學校、辦公室、旅行和正式程序。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "meet again on Zoom",
+    "meaning": "再次在 Zoom 開會",
+    "examples": [
+      {
+        "en": "We will meet again on Zoom next month.",
+        "zh": "我們下個月會再次在 Zoom 開會。"
+      },
+      {
+        "en": "To meet again on Zoom means to have another online meeting using Zoom.",
+        "zh": "meet again on Zoom 指使用 Zoom 再舉行一次網上會議。"
+      },
+      {
+        "en": "The study group will meet again on Zoom before the exam.",
+        "zh": "溫習小組會在考試前再次在 Zoom 開會。"
+      },
+      {
+        "en": "If members live far apart, meeting again on Zoom is easier than meeting in person.",
+        "zh": "如果成員住得很遠，再次在 Zoom 開會比親身見面容易。"
+      },
+      {
+        "en": "This phrase is useful when confirming the next online meeting.",
+        "zh": "這個說法適合用於確認下一次網上會議。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "keep in touch",
+    "meaning": "保持聯絡",
+    "examples": [
+      {
+        "en": "Let’s keep in touch in the meantime.",
+        "zh": "在此期間，我們保持聯絡吧。"
+      },
+      {
+        "en": "To keep in touch means to continue communicating with someone.",
+        "zh": "keep in touch 指繼續與某人溝通。"
+      },
+      {
+        "en": "Friends who study in different countries can keep in touch through messages.",
+        "zh": "在不同國家讀書的朋友可以透過訊息保持聯絡。"
+      },
+      {
+        "en": "Teams keep in touch between meetings so problems do not wait too long.",
+        "zh": "團隊在會議之間保持聯絡，問題就不會拖太久。"
+      },
+      {
+        "en": "This phrase is friendly and useful when people will not meet for a while.",
+        "zh": "當人們一段時間不會見面時，這個說法友善而實用。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "in the meantime",
+    "meaning": "在此期間",
+    "examples": [
+      {
+        "en": "Let’s keep in touch in the meantime.",
+        "zh": "在此期間，我們保持聯絡吧。"
+      },
+      {
+        "en": "In the meantime means during the period before the next event happens.",
+        "zh": "in the meantime 指在下一件事發生之前的這段時間。"
+      },
+      {
+        "en": "The repair will take two days; in the meantime, you can use this spare computer.",
+        "zh": "維修需要兩天；在此期間，你可以使用這部備用電腦。"
+      },
+      {
+        "en": "If the next meeting is next month, team members should share updates in the meantime.",
+        "zh": "如果下次會議在下個月，團隊成員應在此期間分享更新。"
+      },
+      {
+        "en": "This phrase connects a temporary period with what people should do during it.",
+        "zh": "這個說法把一段臨時時間與期間應做的事連接起來。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  },
+  {
+    "front": "goodbye for now",
+    "meaning": "暫時再見",
+    "examples": [
+      {
+        "en": "Goodbye for now.",
+        "zh": "暫時再見。"
+      },
+      {
+        "en": "Goodbye for now means saying goodbye temporarily, with the idea that people may speak again later.",
+        "zh": "goodbye for now 指暫時道別，帶有之後可能再談的意思。"
+      },
+      {
+        "en": "At the end of an online meeting, the host may say, “Goodbye for now.”",
+        "zh": "在網上會議結束時，主持人可能會說：「暫時再見。」"
+      },
+      {
+        "en": "This phrase sounds warmer than a very final goodbye.",
+        "zh": "這個說法比非常終結式的 goodbye 更溫暖。"
+      },
+      {
+        "en": "It is useful when ending a friendly or professional conversation.",
+        "zh": "它適合用於結束友善或專業對話。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2024 DSE Podcast.pdf"
+  }
+],
+  "dse/paper-3/podcast/2025": [
+  {
+    "front": "good to see you both",
+    "meaning": "很高興見到你們兩位",
+    "examples": [
+      {
+        "en": "Good to see you both today.",
+        "zh": "今天很高興見到你們兩位。"
+      },
+      {
+        "en": "“Good to see you both” is a friendly greeting for two people you are meeting.",
+        "zh": "“Good to see you both” 是見到兩個人時使用的友善問候語。"
+      },
+      {
+        "en": "Good to see you both at the workshop this morning.",
+        "zh": "今天早上在工作坊見到你們兩位很高興。"
+      },
+      {
+        "en": "A teacher may say “Good to see you both” when two students arrive for a meeting.",
+        "zh": "當兩名學生來開會時，老師可能會說「很高興見到你們兩位」。"
+      },
+      {
+        "en": "Good to see you both again after such a long holiday.",
+        "zh": "這麼長的假期後再次見到你們兩位很高興。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "let’s get started",
+    "meaning": "我們開始吧",
+    "examples": [
+      {
+        "en": "Alright, let’s get started.",
+        "zh": "好了，我們開始吧。"
+      },
+      {
+        "en": "“Let’s get started” means it is time to begin an activity or discussion.",
+        "zh": "“Let’s get started” 表示現在是開始活動或討論的時候。"
+      },
+      {
+        "en": "When everyone has arrived, the coach says, “Let’s get started.”",
+        "zh": "當所有人到齊後，教練說：「我們開始吧。」"
+      },
+      {
+        "en": "A meeting may begin late if no one says, “Let’s get started.”",
+        "zh": "如果沒有人說「我們開始吧」，會議可能會遲遲未開始。"
+      },
+      {
+        "en": "Let’s get started before we run out of time.",
+        "zh": "在時間不夠之前，我們開始吧。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "as you know",
+    "meaning": "如你所知",
+    "examples": [
+      {
+        "en": "As you know, the purpose of this meeting is to discuss two school events.",
+        "zh": "如你所知，這次會議的目的是討論兩個學校活動。"
+      },
+      {
+        "en": "“As you know” is used before information the listener probably already knows.",
+        "zh": "“As you know” 用於提出聽者大概已經知道的資料。"
+      },
+      {
+        "en": "As you know, our exam starts next Monday.",
+        "zh": "如你所知，我們的考試下星期一開始。"
+      },
+      {
+        "en": "A manager may say “as you know” before reminding the team about an old decision.",
+        "zh": "經理在提醒團隊一個舊決定前，可能會說「如你所知」。"
+      },
+      {
+        "en": "As you know, the library closes earlier during the holidays.",
+        "zh": "如你所知，圖書館在假期期間會較早關門。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the purpose of this meeting is to",
+    "meaning": "這次會議的目的是……",
+    "examples": [
+      {
+        "en": "The purpose of this meeting is to discuss the preparations for the Asian Games Week.",
+        "zh": "這次會議的目的是討論亞運週的籌備工作。"
+      },
+      {
+        "en": "“The purpose of this meeting is to” clearly states why a meeting is being held.",
+        "zh": "“The purpose of this meeting is to” 清楚說明舉行會議的原因。"
+      },
+      {
+        "en": "The purpose of this meeting is to choose a date for the school concert.",
+        "zh": "這次會議的目的是為學校音樂會選定日期。"
+      },
+      {
+        "en": "If people know the purpose of the meeting, they can prepare better.",
+        "zh": "如果大家知道會議的目的，就能準備得更好。"
+      },
+      {
+        "en": "The purpose of this meeting is to solve the timetable problem before Friday.",
+        "zh": "這次會議的目的是在星期五前解決時間表問題。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "discuss the preparations for",
+    "meaning": "討論……的籌備工作",
+    "examples": [
+      {
+        "en": "We need to discuss the preparations for the Asian Games Week and the Wellness Month.",
+        "zh": "我們需要討論亞運週和身心健康月的籌備工作。"
+      },
+      {
+        "en": "To discuss the preparations for an event means to talk about what needs to be arranged before it happens.",
+        "zh": "“Discuss the preparations for” 某活動，意思是在活動舉行前討論需要安排的事項。"
+      },
+      {
+        "en": "The teachers met to discuss the preparations for the open day.",
+        "zh": "老師們開會討論開放日的籌備工作。"
+      },
+      {
+        "en": "If we do not discuss the preparations for the trip, we may forget transport or food.",
+        "zh": "如果我們不討論旅行的籌備工作，可能會忘記交通或食物安排。"
+      },
+      {
+        "en": "Parents and staff should discuss the preparations for the graduation ceremony early.",
+        "zh": "家長和職員應及早討論畢業典禮的籌備工作。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Asian Games Week",
+    "meaning": "亞運週",
+    "examples": [
+      {
+        "en": "The school is preparing for the Asian Games Week in October.",
+        "zh": "學校正在籌備十月的亞運週。"
+      },
+      {
+        "en": "The Asian Games Week is a school event or themed week about the Asian Games.",
+        "zh": "亞運週是關於亞運會的學校活動或主題週。"
+      },
+      {
+        "en": "During the Asian Games Week, students may learn about different sports and athletes.",
+        "zh": "在亞運週期間，學生可能會學習不同運動和運動員。"
+      },
+      {
+        "en": "The Asian Games Week can help students become more interested in regional sports events.",
+        "zh": "亞運週可以幫助學生對區域體育賽事更感興趣。"
+      },
+      {
+        "en": "Posters, talks, and games can all be part of the Asian Games Week.",
+        "zh": "海報、講座和遊戲都可以成為亞運週的一部分。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Wellness Month",
+    "meaning": "身心健康月",
+    "examples": [
+      {
+        "en": "The school is also preparing for the Wellness Month in July.",
+        "zh": "學校也正在籌備七月的身心健康月。"
+      },
+      {
+        "en": "The Wellness Month is a period when the school focuses on students’ health and wellbeing.",
+        "zh": "身心健康月是一段學校集中關注學生健康和身心狀態的時期。"
+      },
+      {
+        "en": "During the Wellness Month, students may join yoga, talks, and relaxing activities.",
+        "zh": "在身心健康月期間，學生可能會參加瑜伽、講座和放鬆活動。"
+      },
+      {
+        "en": "The Wellness Month can remind students to care for both their bodies and minds.",
+        "zh": "身心健康月可以提醒學生照顧身體和心理。"
+      },
+      {
+        "en": "A school may hold the Wellness Month after exams to help students recover.",
+        "zh": "學校可能在考試後舉辦身心健康月，幫助學生恢復狀態。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "decide on a slogan",
+    "meaning": "決定口號",
+    "examples": [
+      {
+        "en": "Have we decided on a slogan for the Asian Games Week yet?",
+        "zh": "我們決定了亞運週的口號了嗎？"
+      },
+      {
+        "en": "To decide on a slogan means to choose the short phrase used to represent an event or campaign.",
+        "zh": "“Decide on a slogan” 指選定代表活動或宣傳計劃的短句。"
+      },
+      {
+        "en": "The class needs to decide on a slogan for the recycling campaign.",
+        "zh": "班級需要為回收活動決定口號。"
+      },
+      {
+        "en": "If we decide on a slogan early, the design team can make the posters sooner.",
+        "zh": "如果我們早點決定口號，設計團隊就能更早製作海報。"
+      },
+      {
+        "en": "The club could not print the banner until it decided on a slogan.",
+        "zh": "學會在決定口號之前，無法印製橫額。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "start preparing the marketing for",
+    "meaning": "開始籌備……的宣傳工作",
+    "examples": [
+      {
+        "en": "John would like to start preparing the marketing for the event soon.",
+        "zh": "John 希望很快開始籌備活動的宣傳工作。"
+      },
+      {
+        "en": "To start preparing the marketing for an event means to begin planning how to promote it.",
+        "zh": "“Start preparing the marketing for” 某活動，意思是開始計劃如何推廣它。"
+      },
+      {
+        "en": "We should start preparing the marketing for the school fair next week.",
+        "zh": "我們下星期應開始籌備學校市集的宣傳工作。"
+      },
+      {
+        "en": "If we start preparing the marketing for the concert late, fewer people may come.",
+        "zh": "如果我們太遲開始籌備音樂會的宣傳工作，可能會較少人參加。"
+      },
+      {
+        "en": "The team used posters and emails when they started preparing the marketing for the workshop.",
+        "zh": "團隊開始籌備工作坊的宣傳工作時，使用了海報和電郵。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "be open to suggestions",
+    "meaning": "願意聽取建議",
+    "examples": [
+      {
+        "en": "John is open to suggestions for the slogan.",
+        "zh": "John 願意聽取關於口號的建議。"
+      },
+      {
+        "en": "If someone is open to suggestions, they are willing to listen to other people’s ideas.",
+        "zh": "如果某人 is open to suggestions，意思是他願意聽取別人的想法。"
+      },
+      {
+        "en": "The teacher is open to suggestions about the class project.",
+        "zh": "老師願意聽取關於班級專題的建議。"
+      },
+      {
+        "en": "A leader who is open to suggestions can improve a plan before problems appear.",
+        "zh": "願意聽取建議的領袖，可以在問題出現前改善計劃。"
+      },
+      {
+        "en": "I have one idea, but I am open to suggestions.",
+        "zh": "我有一個想法，但我願意聽取建議。"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "How about…?",
+    "meaning": "……怎樣？",
+    "examples": [
+      {
+        "en": "How about Passion, Pride, Performance?",
+        "zh": "「Passion, Pride, Performance」怎樣？"
+      },
+      {
+        "en": "“How about…?” is used to suggest an idea and ask what others think.",
+        "zh": "“How about…?” 用於提出建議並詢問別人的看法。"
+      },
+      {
+        "en": "How about holding the meeting after lunch?",
+        "zh": "午飯後開會怎樣？"
+      },
+      {
+        "en": "If nobody has a plan, you can say “How about…” and offer one.",
+        "zh": "如果沒有人有計劃，你可以說 “How about…” 並提出一個想法。"
+      },
+      {
+        "en": "How about inviting the school nurse to give a short talk?",
+        "zh": "邀請校護做一個簡短講座怎樣？"
+      }
+    ],
+    "sourcePage": 1,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the values of",
+    "meaning": "……的價值",
+    "examples": [
+      {
+        "en": "Passion, pride and performance are the values of the Asian Games.",
+        "zh": "熱情、自豪和表現是亞運會的價值。"
+      },
+      {
+        "en": "The values of a group or event are the important ideas it wants to show.",
+        "zh": "某團體或活動的 values 指它想展示的重要理念。"
+      },
+      {
+        "en": "Honesty and teamwork are the values of our class project.",
+        "zh": "誠實和團隊合作是我們班級專題的價值。"
+      },
+      {
+        "en": "A slogan should match the values of the event, or it may feel empty.",
+        "zh": "口號應配合活動的價值，否則可能會顯得空洞。"
+      },
+      {
+        "en": "The values of a school can be seen in how it treats students.",
+        "zh": "一間學校的價值可以從它如何對待學生看出來。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "I was thinking we could",
+    "meaning": "我在想我們可以……",
+    "examples": [
+      {
+        "en": "I was thinking we could use the official slogan of the Asian Games.",
+        "zh": "我在想我們可以使用亞運會的官方口號。"
+      },
+      {
+        "en": "“I was thinking we could” is a polite way to suggest an idea.",
+        "zh": "“I was thinking we could” 是一種禮貌地提出建議的方法。"
+      },
+      {
+        "en": "I was thinking we could start the meeting with a short video.",
+        "zh": "我在想我們可以用一段短片開始會議。"
+      },
+      {
+        "en": "In a group discussion, this phrase makes a suggestion sound less forceful.",
+        "zh": "在小組討論中，這個說法令建議聽起來沒有那麼強硬。"
+      },
+      {
+        "en": "I was thinking we could ask students to vote before making the final decision.",
+        "zh": "我在想我們可以在作出最終決定前，請學生投票。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the official slogan of",
+    "meaning": "……的官方口號",
+    "examples": [
+      {
+        "en": "Melissa suggests using the official slogan of the Asian Games.",
+        "zh": "Melissa 建議使用亞運會的官方口號。"
+      },
+      {
+        "en": "The official slogan of an event is the slogan formally chosen by the organisers.",
+        "zh": "某活動的 official slogan 指主辦單位正式選定的口號。"
+      },
+      {
+        "en": "The official slogan of the campaign appears on all posters.",
+        "zh": "該宣傳活動的官方口號出現在所有海報上。"
+      },
+      {
+        "en": "Using the official slogan of the event can make the promotion look more professional.",
+        "zh": "使用活動的官方口號，可以令宣傳看起來更專業。"
+      },
+      {
+        "en": "Students checked the website to confirm the official slogan of the competition.",
+        "zh": "學生查看網站，以確認比賽的官方口號。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "That would work too",
+    "meaning": "那也行得通",
+    "examples": [
+      {
+        "en": "That would work too, Melissa.",
+        "zh": "那也行得通，Melissa。"
+      },
+      {
+        "en": "“That would work too” means another idea is also acceptable or practical.",
+        "zh": "“That would work too” 表示另一個想法也可以接受或可行。"
+      },
+      {
+        "en": "We can meet in the library, but the classroom would work too.",
+        "zh": "我們可以在圖書館見面，但課室也行得通。"
+      },
+      {
+        "en": "If the first plan is not possible, a simpler plan might work too.",
+        "zh": "如果第一個計劃不可行，較簡單的計劃也可能行得通。"
+      },
+      {
+        "en": "Your design is different from mine, but that would work too.",
+        "zh": "你的設計和我的不同，但那也行得通。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "there’s a comma in between",
+    "meaning": "中間有逗號",
+    "examples": [
+      {
+        "en": "There’s a comma in between One Games and One Asia.",
+        "zh": "“One Games” 和 “One Asia” 中間有逗號。"
+      },
+      {
+        "en": "“There’s a comma in between” means a comma is placed between two words or phrases.",
+        "zh": "“There’s a comma in between” 表示兩個字或詞組中間放了一個逗號。"
+      },
+      {
+        "en": "There’s a comma in between the city and the date on the poster.",
+        "zh": "海報上的城市和日期中間有逗號。"
+      },
+      {
+        "en": "If there is a comma in between two ideas, the reader may pause briefly.",
+        "zh": "如果兩個意思中間有逗號，讀者可能會稍微停頓。"
+      },
+      {
+        "en": "Please check whether there’s a comma in between the two names.",
+        "zh": "請檢查兩個名字中間是否有逗號。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "look good on the poster",
+    "meaning": "放在海報上會很好看",
+    "examples": [
+      {
+        "en": "The slogan will look very good on the poster.",
+        "zh": "這個口號放在海報上會很好看。"
+      },
+      {
+        "en": "If something looks good on the poster, it fits the poster visually and makes it more attractive.",
+        "zh": "如果某東西 looks good on the poster，意思是它在視覺上適合海報，令海報更吸引。"
+      },
+      {
+        "en": "This bright title will look good on the poster for the concert.",
+        "zh": "這個鮮明的標題放在音樂會海報上會很好看。"
+      },
+      {
+        "en": "A long sentence may not look good on the poster because it is hard to read.",
+        "zh": "太長的句子放在海報上可能不好看，因為難以閱讀。"
+      },
+      {
+        "en": "The logo looks good on the poster when it is placed near the top.",
+        "zh": "標誌放在海報上方附近會很好看。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "go with",
+    "meaning": "選用；採用",
+    "examples": [
+      {
+        "en": "We’re going with One Games, One Asia for the slogan.",
+        "zh": "我們會選用 “One Games, One Asia” 作為口號。"
+      },
+      {
+        "en": "To go with an idea means to choose or use it.",
+        "zh": "“Go with” 某想法，意思是選擇或採用它。"
+      },
+      {
+        "en": "Let’s go with the blue design because it is clearer.",
+        "zh": "我們選用藍色設計吧，因為它更清楚。"
+      },
+      {
+        "en": "The team went with the cheaper venue to save money.",
+        "zh": "團隊採用較便宜的場地，以節省金錢。"
+      },
+      {
+        "en": "We had three options, but we finally went with the simplest one.",
+        "zh": "我們有三個選項，但最後採用了最簡單的一個。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "Sounds good",
+    "meaning": "聽起來不錯",
+    "examples": [
+      {
+        "en": "Absolutely. Sounds good.",
+        "zh": "當然。聽起來不錯。"
+      },
+      {
+        "en": "“Sounds good” means the speaker agrees with an idea or thinks it is suitable.",
+        "zh": "“Sounds good” 表示說話者同意某個想法，或認為它合適。"
+      },
+      {
+        "en": "We can meet at nine. Sounds good.",
+        "zh": "我們可以九點見。聽起來不錯。"
+      },
+      {
+        "en": "A student may say “sounds good” when they accept a group plan.",
+        "zh": "學生接受小組計劃時，可能會說 “sounds good”。"
+      },
+      {
+        "en": "If the schedule sounds good to everyone, we can confirm it now.",
+        "zh": "如果這個時間表對大家來說聽起來不錯，我們現在就可以確認。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the next item on the agenda",
+    "meaning": "議程上的下一項",
+    "examples": [
+      {
+        "en": "The next item on the agenda is the opening event.",
+        "zh": "議程上的下一項是開幕活動。"
+      },
+      {
+        "en": "The next item on the agenda is the next topic to discuss in a meeting.",
+        "zh": "“The next item on the agenda” 指會議中下一個要討論的議題。"
+      },
+      {
+        "en": "The next item on the agenda is the budget for the school trip.",
+        "zh": "議程上的下一項是學校旅行的預算。"
+      },
+      {
+        "en": "A chairperson uses this phrase to move the meeting to a new topic.",
+        "zh": "主席使用這個說法，把會議帶到新議題。"
+      },
+      {
+        "en": "Before we leave, there is one more item on the agenda.",
+        "zh": "在我們離開前，議程上還有一項。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the opening event",
+    "meaning": "開幕活動",
+    "examples": [
+      {
+        "en": "The opening event of the Asian Games Week still needs to be discussed.",
+        "zh": "亞運週的開幕活動仍需要討論。"
+      },
+      {
+        "en": "The opening event is the first activity that begins a larger programme.",
+        "zh": "“Opening event” 指一個大型計劃開始時的第一項活動。"
+      },
+      {
+        "en": "The opening event for the reading week will be a guest talk.",
+        "zh": "閱讀週的開幕活動會是一場嘉賓講座。"
+      },
+      {
+        "en": "A strong opening event can make students excited about the whole programme.",
+        "zh": "一個精彩的開幕活動可以令學生對整個計劃感到興奮。"
+      },
+      {
+        "en": "If the opening event is delayed, the rest of the schedule may also change.",
+        "zh": "如果開幕活動延遲，之後的時間表也可能改變。"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "What needs to be decided?",
+    "meaning": "有甚麼需要決定？",
+    "examples": [
+      {
+        "en": "John asks what needs to be decided for the opening event.",
+        "zh": "John 問開幕活動有甚麼需要決定。"
+      },
+      {
+        "en": "“What needs to be decided?” asks which choices still have to be made.",
+        "zh": "“What needs to be decided?” 是詢問還有甚麼選擇需要作出。"
+      },
+      {
+        "en": "What needs to be decided before we print the posters?",
+        "zh": "在我們印海報前，有甚麼需要決定？"
+      },
+      {
+        "en": "This question helps a team find the unfinished parts of a plan.",
+        "zh": "這個問題幫助團隊找出計劃中未完成的部分。"
+      },
+      {
+        "en": "For the trip, what needs to be decided: the date, the cost, or the route?",
+        "zh": "關於旅行，有甚麼需要決定：日期、費用，還是路線？"
+      }
+    ],
+    "sourcePage": 2,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "first things first",
+    "meaning": "先處理最重要的事",
+    "examples": [
+      {
+        "en": "First things first: have we decided on a date yet?",
+        "zh": "先處理最重要的事：我們決定日期了嗎？"
+      },
+      {
+        "en": "“First things first” means we should deal with the most important or basic matter first.",
+        "zh": "“First things first” 表示我們應先處理最重要或最基本的事情。"
+      },
+      {
+        "en": "First things first: we need to know how many students are joining.",
+        "zh": "先處理最重要的事：我們需要知道有多少學生參加。"
+      },
+      {
+        "en": "If the room is not booked, first things first: secure the venue.",
+        "zh": "如果房間還未預訂，先處理最重要的事：確定場地。"
+      },
+      {
+        "en": "First things first, finish the application form before planning the celebration.",
+        "zh": "先處理最重要的事，在計劃慶祝前先完成申請表。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "decide on a date",
+    "meaning": "決定日期",
+    "examples": [
+      {
+        "en": "They need to decide on a date for the opening event.",
+        "zh": "他們需要為開幕活動決定日期。"
+      },
+      {
+        "en": "To decide on a date means to choose the day when something will happen.",
+        "zh": "“Decide on a date” 指選定某事發生的日子。"
+      },
+      {
+        "en": "We must decide on a date for the parent meeting.",
+        "zh": "我們必須為家長會決定日期。"
+      },
+      {
+        "en": "If we decide on a date early, more people can arrange their time.",
+        "zh": "如果我們早點決定日期，更多人可以安排時間。"
+      },
+      {
+        "en": "The club cannot book the hall until it decides on a date.",
+        "zh": "學會在決定日期前，不能預訂禮堂。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "currently considering",
+    "meaning": "目前正在考慮",
+    "examples": [
+      {
+        "en": "They are currently considering the 6th or the 13th of October.",
+        "zh": "他們目前正在考慮十月六日或十月十三日。"
+      },
+      {
+        "en": "If people are currently considering options, they are thinking about them now but have not decided yet.",
+        "zh": "如果人們 are currently considering 一些選項，意思是他們現在正在考慮，但仍未決定。"
+      },
+      {
+        "en": "The school is currently considering two venues for the concert.",
+        "zh": "學校目前正在考慮兩個音樂會場地。"
+      },
+      {
+        "en": "We are currently considering whether to hold the workshop online or in person.",
+        "zh": "我們目前正在考慮工作坊應網上舉行還是實體舉行。"
+      },
+      {
+        "en": "The company is currently considering several designs before choosing one.",
+        "zh": "公司目前正在考慮幾個設計，然後才選擇其中一個。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "Either of those would be fine",
+    "meaning": "兩個選項都可以",
+    "examples": [
+      {
+        "en": "Either of those would be fine for the opening event.",
+        "zh": "那兩個選項用作開幕活動日期都可以。"
+      },
+      {
+        "en": "“Either of those would be fine” means both choices are acceptable.",
+        "zh": "“Either of those would be fine” 表示兩個選擇都可以接受。"
+      },
+      {
+        "en": "We can meet on Monday or Tuesday; either of those would be fine.",
+        "zh": "我們可以星期一或星期二見面；兩個選項都可以。"
+      },
+      {
+        "en": "If both rooms are available, either of those would be fine for the interview.",
+        "zh": "如果兩個房間都有空，任何一個用作面試都可以。"
+      },
+      {
+        "en": "You can send the form by email or by hand; either of those would be fine.",
+        "zh": "你可以用電郵或親手交表格；兩個方式都可以。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "earlier is better for",
+    "meaning": "對……來說越早越好",
+    "examples": [
+      {
+        "en": "Earlier is better for the students.",
+        "zh": "對學生來說越早越好。"
+      },
+      {
+        "en": "“Earlier is better for” someone means an earlier time suits that person more.",
+        "zh": "“Earlier is better for” 某人，意思是較早的時間更適合那個人。"
+      },
+      {
+        "en": "Earlier is better for parents because many need to arrange childcare.",
+        "zh": "對家長來說越早越好，因為很多人需要安排照顧孩子。"
+      },
+      {
+        "en": "Earlier is better for the design team, as they need time to print materials.",
+        "zh": "對設計團隊來說越早越好，因為他們需要時間印製材料。"
+      },
+      {
+        "en": "If students are tired after lunch, earlier is better for a morning activity.",
+        "zh": "如果學生午飯後會疲倦，上午活動越早越好。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "public holiday",
+    "meaning": "公眾假期",
+    "examples": [
+      {
+        "en": "The 7th of October is a public holiday.",
+        "zh": "十月七日是公眾假期。"
+      },
+      {
+        "en": "A public holiday is a day when many schools, offices, and public services are closed.",
+        "zh": "公眾假期是許多學校、辦公室和公共服務暫停的日子。"
+      },
+      {
+        "en": "Banks are usually closed on a public holiday.",
+        "zh": "銀行通常在公眾假期關門。"
+      },
+      {
+        "en": "If the event falls on a public holiday, fewer staff may be available.",
+        "zh": "如果活動落在公眾假期，可能會較少職員有空。"
+      },
+      {
+        "en": "Families often make travel plans during a public holiday.",
+        "zh": "家庭常在公眾假期安排旅行計劃。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "Let me check",
+    "meaning": "讓我查一查",
+    "examples": [
+      {
+        "en": "Let me check whether the 7th is a public holiday.",
+        "zh": "讓我查一查七日是否公眾假期。"
+      },
+      {
+        "en": "“Let me check” means the speaker wants to confirm information before answering.",
+        "zh": "“Let me check” 表示說話者想先確認資料才回答。"
+      },
+      {
+        "en": "Let me check the timetable before I promise anything.",
+        "zh": "讓我查一查時間表，然後才答應任何事情。"
+      },
+      {
+        "en": "A receptionist may say “let me check” before looking for an available room.",
+        "zh": "接待員在查看是否有空房前，可能會說「讓我查一查」。"
+      },
+      {
+        "en": "Let me check the spelling so we do not print the wrong name.",
+        "zh": "讓我查一查串法，這樣我們才不會印錯名字。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "you’re right",
+    "meaning": "你是對的",
+    "examples": [
+      {
+        "en": "Oh yes, you’re right.",
+        "zh": "對，你是對的。"
+      },
+      {
+        "en": "“You’re right” means the speaker agrees that another person’s information or opinion is correct.",
+        "zh": "“You’re right” 表示說話者同意另一個人的資料或意見是正確的。"
+      },
+      {
+        "en": "You’re right; the meeting is on Thursday, not Friday.",
+        "zh": "你是對的；會議是在星期四，不是星期五。"
+      },
+      {
+        "en": "A student may say “you’re right” after checking the answer again.",
+        "zh": "學生再次檢查答案後，可能會說「你是對的」。"
+      },
+      {
+        "en": "You’re right about the deadline, so we should submit the form today.",
+        "zh": "關於截止日期，你是對的，所以我們今天應該交表。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "start something on",
+    "meaning": "在……開始某事",
+    "examples": [
+      {
+        "en": "They will start the Asian Games Week on the 13th of October.",
+        "zh": "他們會在十月十三日開始亞運週。"
+      },
+      {
+        "en": "To start something on a date means to begin it on that day.",
+        "zh": "“Start something on” 某日期，意思是在那一天開始某事。"
+      },
+      {
+        "en": "The school will start the reading programme on Monday.",
+        "zh": "學校會在星期一開始閱讀計劃。"
+      },
+      {
+        "en": "If we start the campaign on the first day of term, more students will notice it.",
+        "zh": "如果我們在開學第一天開始宣傳活動，更多學生會注意到。"
+      },
+      {
+        "en": "The club decided to start the training course on 5 May.",
+        "zh": "學會決定在五月五日開始訓練課程。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "invite someone to speak at",
+    "meaning": "邀請某人到……演講",
+    "examples": [
+      {
+        "en": "Melissa was thinking of inviting someone to speak at the school.",
+        "zh": "Melissa 在想邀請某人到學校演講。"
+      },
+      {
+        "en": "To invite someone to speak at an event means to ask them to give a talk there.",
+        "zh": "“Invite someone to speak at” 某活動，意思是請那個人在該場合發表講話。"
+      },
+      {
+        "en": "The teacher invited a doctor to speak at the health seminar.",
+        "zh": "老師邀請一位醫生到健康講座演講。"
+      },
+      {
+        "en": "If we invite someone to speak at the assembly, students can learn from real experience.",
+        "zh": "如果我們邀請某人到週會演講，學生可以從真實經驗中學習。"
+      },
+      {
+        "en": "The club wants to invite an athlete to speak at the sports day.",
+        "zh": "學會想邀請一位運動員到運動日演講。"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "is that right?",
+    "meaning": "是這樣嗎？",
+    "examples": [
+      {
+        "en": "Melissa, you were thinking of inviting someone to speak at the school, is that right?",
+        "zh": "Melissa，你在想邀請某人到學校演講，是這樣嗎？"
+      },
+      {
+        "en": "“Is that right?” is used to check whether your understanding is correct.",
+        "zh": "“Is that right?” 用於確認自己的理解是否正確。"
+      },
+      {
+        "en": "You said the meeting starts at ten, is that right?",
+        "zh": "你說會議十點開始，是這樣嗎？"
+      },
+      {
+        "en": "A teacher may use “is that right?” to confirm a student’s idea.",
+        "zh": "老師可能會用 “is that right?” 來確認學生的想法。"
+      },
+      {
+        "en": "The form must be signed by Friday, is that right?",
+        "zh": "表格必須在星期五前簽署，是這樣嗎？"
+      }
+    ],
+    "sourcePage": 3,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "take a whole day",
+    "meaning": "花一整天",
+    "examples": [
+      {
+        "en": "David asks whether the talk will take a whole day.",
+        "zh": "David 問講座會否花一整天。"
+      },
+      {
+        "en": "If something takes a whole day, it uses all or nearly all of one day.",
+        "zh": "如果某事 takes a whole day，意思是它會用上一整天或接近一整天。"
+      },
+      {
+        "en": "The hiking trip may take a whole day if the route is long.",
+        "zh": "如果路線很長，遠足旅行可能會花一整天。"
+      },
+      {
+        "en": "A project can take a whole day when many people need to be interviewed.",
+        "zh": "如果需要訪問很多人，專題可能會花一整天。"
+      },
+      {
+        "en": "The workshop will not take a whole day; it should finish before lunch.",
+        "zh": "工作坊不會花一整天；應該午飯前完成。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "It can be just an afternoon",
+    "meaning": "只需一個下午",
+    "examples": [
+      {
+        "en": "The guest speaker event can be just an afternoon.",
+        "zh": "嘉賓講者活動可以只需一個下午。"
+      },
+      {
+        "en": "“It can be just an afternoon” means the activity does not need to last the whole day.",
+        "zh": "“It can be just an afternoon” 表示活動不需要持續一整天。"
+      },
+      {
+        "en": "The training session can be just an afternoon if we keep it simple.",
+        "zh": "如果我們保持簡單，訓練課節可以只需一個下午。"
+      },
+      {
+        "en": "A school fair can be just an afternoon, not a full-day event.",
+        "zh": "學校市集可以只需一個下午，不一定是全日活動。"
+      },
+      {
+        "en": "If students are busy, the workshop can be just an afternoon.",
+        "zh": "如果學生很忙，工作坊可以只需一個下午。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "indoors or outdoors",
+    "meaning": "室內還是戶外",
+    "examples": [
+      {
+        "en": "David asks whether the event will be held indoors or outdoors.",
+        "zh": "David 問活動會在室內還是戶外舉行。"
+      },
+      {
+        "en": "“Indoors or outdoors” asks whether something will happen inside a building or outside.",
+        "zh": "“Indoors or outdoors” 是詢問某事會在建築物內還是在戶外發生。"
+      },
+      {
+        "en": "Will the drama practice be indoors or outdoors?",
+        "zh": "戲劇練習會在室內還是戶外？"
+      },
+      {
+        "en": "Weather matters when we decide whether an activity is indoors or outdoors.",
+        "zh": "當我們決定活動在室內還是戶外時，天氣很重要。"
+      },
+      {
+        "en": "The picnic is outdoors, but the backup plan is indoors.",
+        "zh": "野餐是在戶外，但後備計劃是在室內。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "generally quite good",
+    "meaning": "一般都頗好",
+    "examples": [
+      {
+        "en": "The weather in October is generally quite good.",
+        "zh": "十月的天氣一般都頗好。"
+      },
+      {
+        "en": "“Generally quite good” means something is usually good, though not perfect every time.",
+        "zh": "“Generally quite good” 表示某事通常不錯，雖然不是每次都完美。"
+      },
+      {
+        "en": "The food in that canteen is generally quite good.",
+        "zh": "那間飯堂的食物一般都頗好。"
+      },
+      {
+        "en": "If the transport is generally quite good, students can arrive on time most days.",
+        "zh": "如果交通一般都頗好，學生大多數日子可以準時到達。"
+      },
+      {
+        "en": "The school’s exam results are generally quite good, but some subjects need support.",
+        "zh": "學校的考試成績一般都頗好，但有些科目需要支援。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "think about holding it",
+    "meaning": "考慮舉行……",
+    "examples": [
+      {
+        "en": "Melissa did think about holding it on the sports ground.",
+        "zh": "Melissa 的確考慮過在運動場舉行。"
+      },
+      {
+        "en": "To think about holding it somewhere means to consider using that place for an event.",
+        "zh": "“Think about holding it” 在某處，意思是考慮使用該地點舉行活動。"
+      },
+      {
+        "en": "We are thinking about holding it in the library because it is quiet.",
+        "zh": "我們正在考慮在圖書館舉行，因為那裡安靜。"
+      },
+      {
+        "en": "The club thought about holding it outdoors, but rain became a concern.",
+        "zh": "學會考慮過在戶外舉行，但下雨成為一個憂慮。"
+      },
+      {
+        "en": "Before booking the hall, they thought about holding it in a classroom.",
+        "zh": "在預訂禮堂前，他們考慮過在課室舉行。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the sports ground",
+    "meaning": "運動場",
+    "examples": [
+      {
+        "en": "Melissa considered holding the event on the sports ground.",
+        "zh": "Melissa 考慮過在運動場舉行活動。"
+      },
+      {
+        "en": "The sports ground is an outdoor area used for sports, games, or school events.",
+        "zh": "運動場是用作體育、遊戲或學校活動的戶外地方。"
+      },
+      {
+        "en": "Students practise football on the sports ground after school.",
+        "zh": "學生放學後在運動場練習足球。"
+      },
+      {
+        "en": "If it rains heavily, the sports ground may not be safe for activities.",
+        "zh": "如果下大雨，運動場可能不適合活動，甚至不安全。"
+      },
+      {
+        "en": "The school uses the sports ground for sports day and large outdoor gatherings.",
+        "zh": "學校使用運動場舉辦運動會和大型戶外聚會。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "to be safe",
+    "meaning": "為安全起見",
+    "examples": [
+      {
+        "en": "To be safe, they should hold the event in the Main Hall.",
+        "zh": "為安全起見，他們應該在禮堂舉行活動。"
+      },
+      {
+        "en": "“To be safe” means choosing the option that avoids risk.",
+        "zh": "“To be safe” 表示選擇較能避免風險的做法。"
+      },
+      {
+        "en": "To be safe, bring an umbrella even if the sky looks clear.",
+        "zh": "為安全起見，即使天空看起來晴朗，也帶一把雨傘。"
+      },
+      {
+        "en": "The teacher kept an extra copy of the file to be safe.",
+        "zh": "老師為安全起見，保留了一份額外檔案。"
+      },
+      {
+        "en": "To be safe, we should check the microphone before the talk begins.",
+        "zh": "為安全起見，我們應在講座開始前檢查麥克風。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "we’d better",
+    "meaning": "我們最好……",
+    "examples": [
+      {
+        "en": "We’d better hold it in the Main Hall.",
+        "zh": "我們最好在禮堂舉行。"
+      },
+      {
+        "en": "“We’d better” means we should do something because it is safer, wiser, or more necessary.",
+        "zh": "“We’d better” 表示我們應該做某事，因為那樣較安全、明智或必要。"
+      },
+      {
+        "en": "We’d better leave now, or we may miss the bus.",
+        "zh": "我們最好現在離開，否則可能會錯過巴士。"
+      },
+      {
+        "en": "If the deadline is tomorrow, we’d better finish the report today.",
+        "zh": "如果截止日期是明天，我們最好今天完成報告。"
+      },
+      {
+        "en": "We’d better ask for permission before using the music room.",
+        "zh": "我們最好在使用音樂室前先徵求批准。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "hold it in the Main Hall",
+    "meaning": "在禮堂舉行",
+    "examples": [
+      {
+        "en": "They decide to hold it in the Main Hall.",
+        "zh": "他們決定在禮堂舉行。"
+      },
+      {
+        "en": "To hold it in the Main Hall means to arrange the event in the school’s main indoor venue.",
+        "zh": "“Hold it in the Main Hall” 指安排活動在學校主要室內場地舉行。"
+      },
+      {
+        "en": "The school will hold the prize ceremony in the Main Hall.",
+        "zh": "學校會在禮堂舉行頒獎典禮。"
+      },
+      {
+        "en": "If the event is large, it may be better to hold it in the Main Hall.",
+        "zh": "如果活動規模很大，在禮堂舉行可能較好。"
+      },
+      {
+        "en": "They chose to hold it in the Main Hall because it has enough seats.",
+        "zh": "他們選擇在禮堂舉行，因為那裡有足夠座位。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "We never know what the skies will bring",
+    "meaning": "天氣難以預料",
+    "examples": [
+      {
+        "en": "We never know what the skies will bring in October.",
+        "zh": "十月的天氣難以預料。"
+      },
+      {
+        "en": "“We never know what the skies will bring” means the weather is uncertain.",
+        "zh": "“We never know what the skies will bring” 表示天氣不確定。"
+      },
+      {
+        "en": "We never know what the skies will bring, so we should prepare a backup plan.",
+        "zh": "天氣難以預料，所以我們應準備後備計劃。"
+      },
+      {
+        "en": "A picnic may be risky because we never know what the skies will bring.",
+        "zh": "野餐可能有風險，因為天氣難以預料。"
+      },
+      {
+        "en": "Even in summer, we never know what the skies will bring in the afternoon.",
+        "zh": "即使在夏天，下午的天氣也難以預料。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "Better safe than sorry",
+    "meaning": "小心駛得萬年船",
+    "examples": [
+      {
+        "en": "Better safe than sorry, so the event should be indoors.",
+        "zh": "小心駛得萬年船，所以活動應在室內舉行。"
+      },
+      {
+        "en": "“Better safe than sorry” means it is wiser to avoid risk than regret a problem later.",
+        "zh": "“Better safe than sorry” 表示寧願先避免風險，也不要事後後悔。"
+      },
+      {
+        "en": "Bring your student card just in case; better safe than sorry.",
+        "zh": "以防萬一，帶上學生證；小心駛得萬年船。"
+      },
+      {
+        "en": "We should test the speakers before the show. Better safe than sorry.",
+        "zh": "我們應在表演前測試揚聲器。小心駛得萬年船。"
+      },
+      {
+        "en": "The teacher checked the attendance twice because it is better safe than sorry.",
+        "zh": "老師點名兩次，因為小心駛得萬年船。"
+      }
+    ],
+    "sourcePage": 4,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a reliable venue for",
+    "meaning": "適合……的可靠場地",
+    "examples": [
+      {
+        "en": "The Main Hall is a reliable venue for big school events.",
+        "zh": "禮堂是適合大型學校活動的可靠場地。"
+      },
+      {
+        "en": "A reliable venue for an event is a place that is safe, suitable, and unlikely to cause problems.",
+        "zh": "“A reliable venue for” 某活動，指一個安全、合適且不容易出問題的地方。"
+      },
+      {
+        "en": "The library is a reliable venue for small reading talks.",
+        "zh": "圖書館是適合小型閱讀講座的可靠場地。"
+      },
+      {
+        "en": "If rain is likely, an indoor room is a reliable venue for the workshop.",
+        "zh": "如果可能下雨，室內房間就是適合工作坊的可靠場地。"
+      },
+      {
+        "en": "The community centre is a reliable venue for meetings because it has enough chairs and equipment.",
+        "zh": "社區中心是適合會議的可靠場地，因為有足夠椅子和設備。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "big school events",
+    "meaning": "大型學校活動",
+    "examples": [
+      {
+        "en": "The Main Hall is useful for big school events.",
+        "zh": "禮堂對大型學校活動很有用。"
+      },
+      {
+        "en": "Big school events are activities involving many students, teachers, or parents.",
+        "zh": "大型學校活動是涉及許多學生、老師或家長的活動。"
+      },
+      {
+        "en": "Speech day and sports day are big school events.",
+        "zh": "頒獎日和運動會都是大型學校活動。"
+      },
+      {
+        "en": "Big school events need clear schedules because many people are involved.",
+        "zh": "大型學校活動需要清晰時間表，因為涉及很多人。"
+      },
+      {
+        "en": "The school prepares extra staff for big school events to keep students safe.",
+        "zh": "學校會為大型學校活動安排額外職員，以確保學生安全。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "Speaking of",
+    "meaning": "說到……",
+    "examples": [
+      {
+        "en": "Speaking of the Wellness Month, what theme are we using this year?",
+        "zh": "說到身心健康月，我們今年會用甚麼主題？"
+      },
+      {
+        "en": "“Speaking of” is used to connect the current topic to a related topic.",
+        "zh": "“Speaking of” 用於把目前話題連接到相關話題。"
+      },
+      {
+        "en": "Speaking of exams, have you started revising?",
+        "zh": "說到考試，你開始溫習了嗎？"
+      },
+      {
+        "en": "A person may say “speaking of food” when a conversation reminds them of lunch plans.",
+        "zh": "當對話令人想起午飯計劃時，一個人可能會說「說到食物」。"
+      },
+      {
+        "en": "Speaking of volunteers, we still need three more helpers.",
+        "zh": "說到義工，我們仍需要多三名幫手。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "what theme are we using",
+    "meaning": "我們會用甚麼主題",
+    "examples": [
+      {
+        "en": "David asks what theme they are using for the Wellness Month.",
+        "zh": "David 問他們身心健康月會用甚麼主題。"
+      },
+      {
+        "en": "“What theme are we using?” asks which main idea will guide an event or project.",
+        "zh": "“What theme are we using?” 是詢問哪個主要概念會引導活動或專題。"
+      },
+      {
+        "en": "What theme are we using for the class display?",
+        "zh": "我們班級展示會用甚麼主題？"
+      },
+      {
+        "en": "If we know what theme we are using, we can choose matching activities.",
+        "zh": "如果我們知道會用甚麼主題，就能選擇配合的活動。"
+      },
+      {
+        "en": "The committee asked what theme they were using before designing the posters.",
+        "zh": "委員會在設計海報前，問他們會用甚麼主題。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "use the theme of",
+    "meaning": "採用……作為主題",
+    "examples": [
+      {
+        "en": "Melissa was thinking of using the theme of hiking.",
+        "zh": "Melissa 在想採用遠足作為主題。"
+      },
+      {
+        "en": "To use the theme of something means to make that idea the main focus of an event.",
+        "zh": "“Use the theme of” 某事，意思是把該想法作為活動的主要焦點。"
+      },
+      {
+        "en": "The school may use the theme of kindness for the campaign.",
+        "zh": "學校可能採用善意作為宣傳活動的主題。"
+      },
+      {
+        "en": "If we use the theme of friendship, the activities should help students work together.",
+        "zh": "如果我們採用友誼作為主題，活動應幫助學生合作。"
+      },
+      {
+        "en": "The art club used the theme of nature for its exhibition.",
+        "zh": "藝術學會採用大自然作為展覽主題。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "since we haven’t done that theme yet",
+    "meaning": "因為我們還未做過那個主題",
+    "examples": [
+      {
+        "en": "Melissa suggests hiking since they haven’t done that theme yet.",
+        "zh": "Melissa 建議遠足，因為他們還未做過那個主題。"
+      },
+      {
+        "en": "“Since we haven’t done that theme yet” gives a reason: the theme is new for the group.",
+        "zh": "“Since we haven’t done that theme yet” 提供原因：這個主題對團體來說是新的。"
+      },
+      {
+        "en": "We could choose photography since we haven’t done that theme yet.",
+        "zh": "我們可以選擇攝影，因為我們還未做過那個主題。"
+      },
+      {
+        "en": "Students may feel more interested since we haven’t done that theme yet.",
+        "zh": "因為我們還未做過那個主題，學生可能會更感興趣。"
+      },
+      {
+        "en": "The club avoided recycling because they had done it before, and chose music since they hadn’t done that theme yet.",
+        "zh": "學會避開回收主題，因為之前做過，並選擇音樂，因為還未做過那個主題。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "I’m happy for us to",
+    "meaning": "我不反對我們……",
+    "examples": [
+      {
+        "en": "John is happy for the school to have a few outdoor events.",
+        "zh": "John 不反對學校舉辦幾個戶外活動。"
+      },
+      {
+        "en": "“I’m happy for us to” means I do not object to the plan and I accept it.",
+        "zh": "“I’m happy for us to” 表示我不反對這個計劃，並且接受它。"
+      },
+      {
+        "en": "I’m happy for us to meet online if the weather is bad.",
+        "zh": "如果天氣不好，我不反對我們網上見面。"
+      },
+      {
+        "en": "A teacher may say “I’m happy for us to try this method” when accepting a student’s idea.",
+        "zh": "老師接受學生的想法時，可能會說「我不反對我們試試這個方法」。"
+      },
+      {
+        "en": "I’m happy for us to invite parents, as long as we have enough space.",
+        "zh": "只要我們有足夠空間，我不反對我們邀請家長。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "much too hot for",
+    "meaning": "對……來說實在太熱",
+    "examples": [
+      {
+        "en": "July is much too hot for hiking.",
+        "zh": "七月對遠足來說實在太熱。"
+      },
+      {
+        "en": "“Much too hot for” something means the temperature is far too high for that activity.",
+        "zh": "“Much too hot for” 某活動，表示溫度對該活動來說高得太多。"
+      },
+      {
+        "en": "The playground is much too hot for outdoor games at noon.",
+        "zh": "中午的操場對戶外遊戲來說實在太熱。"
+      },
+      {
+        "en": "If the hall has no air conditioning, it may be much too hot for a long talk.",
+        "zh": "如果禮堂沒有冷氣，對長時間講座來說可能實在太熱。"
+      },
+      {
+        "en": "This soup is much too hot for a child to drink right now.",
+        "zh": "這碗湯現在對小孩來說實在太熱，不能喝。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "just after",
+    "meaning": "剛好在……之後",
+    "examples": [
+      {
+        "en": "The Wellness Month is just after the students finish their exams.",
+        "zh": "身心健康月剛好在學生完成考試之後。"
+      },
+      {
+        "en": "“Just after” means very soon after something happens.",
+        "zh": "“Just after” 表示某事發生後不久。"
+      },
+      {
+        "en": "The meeting is just after lunch, so do not be late.",
+        "zh": "會議剛好在午飯之後，所以不要遲到。"
+      },
+      {
+        "en": "Students often feel tired just after exams.",
+        "zh": "學生剛考完試之後通常會感到疲倦。"
+      },
+      {
+        "en": "The bus arrived just after we reached the stop.",
+        "zh": "我們到達巴士站之後不久，巴士就到了。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "finish their exams",
+    "meaning": "完成考試",
+    "examples": [
+      {
+        "en": "The students finish their exams before the Wellness Month.",
+        "zh": "學生在身心健康月之前完成考試。"
+      },
+      {
+        "en": "To finish their exams means students have completed all their tests for that period.",
+        "zh": "“Finish their exams” 表示學生已完成該時期所有考試。"
+      },
+      {
+        "en": "Many students relax after they finish their exams.",
+        "zh": "很多學生完成考試後會放鬆。"
+      },
+      {
+        "en": "If students finish their exams on Friday, the school can hold activities the next week.",
+        "zh": "如果學生星期五完成考試，學校可以下星期舉辦活動。"
+      },
+      {
+        "en": "Parents may plan a family meal when their children finish their exams.",
+        "zh": "當孩子完成考試後，家長可能會安排家庭晚餐。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a theme of",
+    "meaning": "以……為主題",
+    "examples": [
+      {
+        "en": "David suggests a theme of Relax and Recover.",
+        "zh": "David 建議以 “Relax and Recover” 為主題。"
+      },
+      {
+        "en": "“A theme of” introduces the main idea behind an event, activity, or project.",
+        "zh": "“A theme of” 用於介紹活動、活動項目或專題背後的主要概念。"
+      },
+      {
+        "en": "The exhibition has a theme of city life.",
+        "zh": "這個展覽以城市生活為主題。"
+      },
+      {
+        "en": "A theme of teamwork would suit a sports camp.",
+        "zh": "以團隊合作為主題會適合運動營。"
+      },
+      {
+        "en": "If the event has a theme of health, the activities should support healthy habits.",
+        "zh": "如果活動以健康為主題，活動內容應支持健康習慣。"
+      }
+    ],
+    "sourcePage": 5,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "fit in well with",
+    "meaning": "與……十分配合",
+    "examples": [
+      {
+        "en": "Relax and Recover fits in well with this part of the school year.",
+        "zh": "“Relax and Recover” 與學年這個階段十分配合。"
+      },
+      {
+        "en": "If something fits in well with another thing, they match naturally.",
+        "zh": "如果某事 fits in well with 另一事，表示兩者自然配合。"
+      },
+      {
+        "en": "The quiet music fits in well with the meditation session.",
+        "zh": "安靜的音樂與冥想課節十分配合。"
+      },
+      {
+        "en": "A short talk fits in well with a busy exam schedule because it does not take too long.",
+        "zh": "簡短講座與忙碌的考試時間表十分配合，因為不會花太久。"
+      },
+      {
+        "en": "The theme of kindness fits in well with the school’s values.",
+        "zh": "善意這個主題與學校的價值十分配合。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "this part of the school year",
+    "meaning": "學年這個階段",
+    "examples": [
+      {
+        "en": "The theme fits this part of the school year.",
+        "zh": "這個主題配合學年這個階段。"
+      },
+      {
+        "en": "“This part of the school year” means this period in the school calendar.",
+        "zh": "“This part of the school year” 指校曆中的這段時期。"
+      },
+      {
+        "en": "This part of the school year is busy because students are preparing for exams.",
+        "zh": "學年這個階段很忙，因為學生正在準備考試。"
+      },
+      {
+        "en": "A relaxing activity suits this part of the school year after tests are finished.",
+        "zh": "考試完成後，放鬆活動很適合學年這個階段。"
+      },
+      {
+        "en": "Teachers often review progress during this part of the school year.",
+        "zh": "老師常在學年這個階段檢視進度。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "Let’s go with that",
+    "meaning": "我們就採用那個吧",
+    "examples": [
+      {
+        "en": "Let’s go with that theme for the Wellness Month.",
+        "zh": "身心健康月我們就採用那個主題吧。"
+      },
+      {
+        "en": "“Let’s go with that” means let’s choose that idea.",
+        "zh": "“Let’s go with that” 表示我們就選擇那個想法。"
+      },
+      {
+        "en": "The blue poster is clearer, so let’s go with that.",
+        "zh": "藍色海報較清楚，所以我們就採用那個吧。"
+      },
+      {
+        "en": "After discussing three dates, the team said, “Let’s go with that.”",
+        "zh": "討論三個日期後，團隊說：「我們就採用那個吧。」"
+      },
+      {
+        "en": "If everyone agrees with the plan, let’s go with that and move on.",
+        "zh": "如果大家都同意這個計劃，我們就採用那個，然後繼續下一項。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "if you say so",
+    "meaning": "既然你這樣說",
+    "examples": [
+      {
+        "en": "OK, Dr Chan, if you say so.",
+        "zh": "好的，Chan 博士，既然你這樣說。"
+      },
+      {
+        "en": "“If you say so” means the speaker accepts another person’s view, sometimes without full confidence.",
+        "zh": "“If you say so” 表示說話者接受別人的看法，有時帶點未完全信服的語氣。"
+      },
+      {
+        "en": "If you say so, I will send the email today.",
+        "zh": "既然你這樣說，我今天就發電郵。"
+      },
+      {
+        "en": "A student may say “if you say so” when they trust the teacher’s decision but are still unsure.",
+        "zh": "學生信任老師的決定但仍有點不確定時，可能會說 “if you say so”。"
+      },
+      {
+        "en": "The phrase can sound reluctant, so use it carefully in formal situations.",
+        "zh": "這個說法可能聽起來有點勉強，所以在正式場合要小心使用。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a pretty good idea",
+    "meaning": "一個頗好的主意",
+    "examples": [
+      {
+        "en": "That’s a pretty good idea, Melissa.",
+        "zh": "那是一個頗好的主意，Melissa。"
+      },
+      {
+        "en": "A pretty good idea is an idea that is quite useful or suitable.",
+        "zh": "“A pretty good idea” 指一個相當有用或合適的想法。"
+      },
+      {
+        "en": "Holding the talk after exams is a pretty good idea.",
+        "zh": "在考試後舉行講座是一個頗好的主意。"
+      },
+      {
+        "en": "A pretty good idea can become an excellent plan after more details are added.",
+        "zh": "一個頗好的主意在加入更多細節後，可以變成出色計劃。"
+      },
+      {
+        "en": "Using student helpers is a pretty good idea because they understand what classmates like.",
+        "zh": "使用學生幫手是一個頗好的主意，因為他們明白同學喜歡甚麼。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "yoga and meditation sessions",
+    "meaning": "瑜伽和冥想課節",
+    "examples": [
+      {
+        "en": "Last year’s yoga and meditation sessions were a big hit with students.",
+        "zh": "去年的瑜伽和冥想課節深受學生歡迎。"
+      },
+      {
+        "en": "Yoga and meditation sessions are classes where people stretch, breathe, and calm their minds.",
+        "zh": "瑜伽和冥想課節是讓人伸展、呼吸和安定心神的課堂。"
+      },
+      {
+        "en": "The school offers yoga and meditation sessions after exams.",
+        "zh": "學校在考試後提供瑜伽和冥想課節。"
+      },
+      {
+        "en": "Yoga and meditation sessions can help students relax after a stressful week.",
+        "zh": "瑜伽和冥想課節可以幫助學生在壓力大的一星期後放鬆。"
+      },
+      {
+        "en": "Beginners can join yoga and meditation sessions even if they have never tried them before.",
+        "zh": "即使從未試過，初學者也可以參加瑜伽和冥想課節。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a big hit with",
+    "meaning": "深受……歡迎",
+    "examples": [
+      {
+        "en": "The yoga and meditation sessions were a big hit with students.",
+        "zh": "瑜伽和冥想課節深受學生歡迎。"
+      },
+      {
+        "en": "If something is a big hit with a group, that group likes it very much.",
+        "zh": "如果某事 is a big hit with 某群人，意思是那群人非常喜歡它。"
+      },
+      {
+        "en": "The new lunch menu was a big hit with parents and students.",
+        "zh": "新午餐餐單深受家長和學生歡迎。"
+      },
+      {
+        "en": "A game becomes a big hit with children when it is simple and fun.",
+        "zh": "當遊戲簡單又有趣時，它會深受孩子歡迎。"
+      },
+      {
+        "en": "The guest speaker was a big hit with the audience because her stories were honest.",
+        "zh": "嘉賓講者深受觀眾歡迎，因為她的故事很真誠。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "run these again",
+    "meaning": "再次舉辦這些活動",
+    "examples": [
+      {
+        "en": "They should run these sessions again this year.",
+        "zh": "他們今年應再次舉辦這些課節。"
+      },
+      {
+        "en": "To run these again means to organise the same activities another time.",
+        "zh": "“Run these again” 指再次組織同樣的活動。"
+      },
+      {
+        "en": "The workshop was useful, so we should run it again next term.",
+        "zh": "工作坊很有用，所以我們下學期應再次舉辦。"
+      },
+      {
+        "en": "If many students missed the talk, the school may run it again.",
+        "zh": "如果很多學生錯過講座，學校可能會再次舉辦。"
+      },
+      {
+        "en": "The club will run these games again because the first event was popular.",
+        "zh": "學會會再次舉辦這些遊戲，因為第一次活動很受歡迎。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "fit the theme",
+    "meaning": "切合主題",
+    "examples": [
+      {
+        "en": "The yoga and meditation sessions fit the theme as well.",
+        "zh": "瑜伽和冥想課節也切合主題。"
+      },
+      {
+        "en": "If an activity fits the theme, it matches the main idea of the event.",
+        "zh": "如果某活動 fits the theme，意思是它配合活動的主要概念。"
+      },
+      {
+        "en": "A breathing workshop fits the theme of wellness.",
+        "zh": "呼吸工作坊切合身心健康這個主題。"
+      },
+      {
+        "en": "If a game does not fit the theme, students may feel confused about the event.",
+        "zh": "如果遊戲不切合主題，學生可能會對活動感到困惑。"
+      },
+      {
+        "en": "Healthy cooking lessons fit the theme of balanced living.",
+        "zh": "健康烹飪課切合平衡生活這個主題。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "focus on another benefit of",
+    "meaning": "集中宣傳……的另一個好處",
+    "examples": [
+      {
+        "en": "They can focus on another benefit of yoga this time.",
+        "zh": "他們今次可以集中宣傳瑜伽的另一個好處。"
+      },
+      {
+        "en": "To focus on another benefit of something means to talk about a different good effect it has.",
+        "zh": "“Focus on another benefit of” 某事，意思是談論它另一個不同的好處。"
+      },
+      {
+        "en": "This year, the campaign will focus on another benefit of reading: better imagination.",
+        "zh": "今年，宣傳活動會集中宣傳閱讀的另一個好處：更好的想像力。"
+      },
+      {
+        "en": "If students already know exercise improves fitness, we can focus on another benefit of exercise: better mood.",
+        "zh": "如果學生已知道運動改善體能，我們可以集中宣傳運動的另一個好處：心情更好。"
+      },
+      {
+        "en": "The poster focuses on another benefit of sleep, which is stronger memory.",
+        "zh": "海報集中宣傳睡眠的另一個好處，就是記憶力更強。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "do the promotion",
+    "meaning": "做宣傳",
+    "examples": [
+      {
+        "en": "They will mention the benefit when they do the promotion.",
+        "zh": "他們做宣傳時會提及這個好處。"
+      },
+      {
+        "en": "To do the promotion means to advertise or publicise an event, product, or idea.",
+        "zh": "“Do the promotion” 指為活動、產品或想法做廣告或宣傳。"
+      },
+      {
+        "en": "The committee will do the promotion through posters and morning announcements.",
+        "zh": "委員會會透過海報和早會公告做宣傳。"
+      },
+      {
+        "en": "If we do the promotion too late, students may not have time to sign up.",
+        "zh": "如果我們太遲做宣傳，學生可能沒有時間報名。"
+      },
+      {
+        "en": "The club asked two students to do the promotion on social media.",
+        "zh": "學會請兩名學生在社交媒體上做宣傳。"
+      }
+    ],
+    "sourcePage": 6,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "What most people don’t know is that",
+    "meaning": "大多數人不知道的是……",
+    "examples": [
+      {
+        "en": "What most people don’t know is that yoga can improve focus.",
+        "zh": "大多數人不知道的是，瑜伽可以提升專注力。"
+      },
+      {
+        "en": "“What most people don’t know is that” introduces a surprising or less-known fact.",
+        "zh": "“What most people don’t know is that” 用於引出令人意外或較少人知道的事實。"
+      },
+      {
+        "en": "What most people don’t know is that sleep can affect memory.",
+        "zh": "大多數人不知道的是，睡眠可以影響記憶。"
+      },
+      {
+        "en": "This phrase is useful in speeches because it makes listeners curious.",
+        "zh": "這個說法在演講中很有用，因為它會令聽眾好奇。"
+      },
+      {
+        "en": "What most people don’t know is that small habits can change stress levels over time.",
+        "zh": "大多數人不知道的是，小習慣可以隨時間改變壓力水平。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "improve your focus",
+    "meaning": "提升專注力",
+    "examples": [
+      {
+        "en": "Yoga can improve your focus.",
+        "zh": "瑜伽可以提升你的專注力。"
+      },
+      {
+        "en": "To improve your focus means to help you pay attention better and for longer.",
+        "zh": "“Improve your focus” 意思是幫助你更好、更持久地集中注意力。"
+      },
+      {
+        "en": "Turning off your phone can improve your focus while studying.",
+        "zh": "溫習時關掉手機可以提升你的專注力。"
+      },
+      {
+        "en": "Short breaks may improve your focus because your mind gets time to rest.",
+        "zh": "短暫休息可能提升你的專注力，因為頭腦有時間休息。"
+      },
+      {
+        "en": "Reading in a quiet room can improve your focus before an exam.",
+        "zh": "考試前在安靜房間閱讀可以提升你的專注力。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "attention span",
+    "meaning": "持續專注時間",
+    "examples": [
+      {
+        "en": "Yoga can also improve your attention span.",
+        "zh": "瑜伽也可以改善你的持續專注時間。"
+      },
+      {
+        "en": "Attention span is the length of time someone can stay focused on one thing.",
+        "zh": "“Attention span” 指一個人能夠集中於一件事的時間長度。"
+      },
+      {
+        "en": "Children may have a shorter attention span when they are tired.",
+        "zh": "孩子疲倦時，持續專注時間可能較短。"
+      },
+      {
+        "en": "Too many phone notifications can reduce a student’s attention span.",
+        "zh": "太多電話通知可能會縮短學生的持續專注時間。"
+      },
+      {
+        "en": "Reading longer books may help students build a stronger attention span.",
+        "zh": "閱讀較長的書可能幫助學生建立更強的持續專注時間。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a great selling point",
+    "meaning": "很好的賣點",
+    "examples": [
+      {
+        "en": "That is a great selling point for the yoga event.",
+        "zh": "那是瑜伽活動的一個很好賣點。"
+      },
+      {
+        "en": "A great selling point is a strong reason that makes people interested in something.",
+        "zh": "“A great selling point” 指一個令人對某事感興趣的有力理由。"
+      },
+      {
+        "en": "Free transport is a great selling point for the school trip.",
+        "zh": "免費交通是學校旅行的一個很好賣點。"
+      },
+      {
+        "en": "If the workshop teaches exam skills, that is a great selling point for students.",
+        "zh": "如果工作坊教授考試技巧，那對學生來說是一個很好賣點。"
+      },
+      {
+        "en": "The small class size is a great selling point because students can ask more questions.",
+        "zh": "小班教學是一個很好賣點，因為學生可以問更多問題。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "plenty of students",
+    "meaning": "很多學生",
+    "examples": [
+      {
+        "en": "David knows plenty of students who struggle with focus.",
+        "zh": "David 認識很多在專注方面有困難的學生。"
+      },
+      {
+        "en": "“Plenty of students” means many students.",
+        "zh": "“Plenty of students” 意思是很多學生。"
+      },
+      {
+        "en": "Plenty of students use the library after school.",
+        "zh": "很多學生放學後使用圖書館。"
+      },
+      {
+        "en": "If plenty of students want to join, the school may need a larger room.",
+        "zh": "如果很多學生想參加，學校可能需要更大的房間。"
+      },
+      {
+        "en": "Plenty of students feel nervous before speaking in public.",
+        "zh": "很多學生在公開演說前會緊張。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "struggle with",
+    "meaning": "在……方面有困難",
+    "examples": [
+      {
+        "en": "Many students struggle with focus and attention.",
+        "zh": "很多學生在專注和注意力方面有困難。"
+      },
+      {
+        "en": "To struggle with something means to find it difficult to deal with or do well.",
+        "zh": "“Struggle with” 某事，意思是在處理或做好某事方面有困難。"
+      },
+      {
+        "en": "Some students struggle with maths because they missed the basics.",
+        "zh": "有些學生在數學方面有困難，因為錯過了基礎。"
+      },
+      {
+        "en": "People may struggle with sleep when they feel stressed.",
+        "zh": "人在感到壓力時，可能在睡眠方面有困難。"
+      },
+      {
+        "en": "If a child struggles with reading, extra support can help.",
+        "zh": "如果孩子在閱讀方面有困難，額外支援可以幫助他。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "help someone out with",
+    "meaning": "幫助某人處理……",
+    "examples": [
+      {
+        "en": "This event can help students out with their focus.",
+        "zh": "這個活動可以幫助學生處理專注力問題。"
+      },
+      {
+        "en": "To help someone out with something means to give practical help with a problem.",
+        "zh": "“Help someone out with” 某事，意思是在某個問題上給予實際幫助。"
+      },
+      {
+        "en": "My brother helped me out with my homework.",
+        "zh": "我哥哥幫助我處理功課。"
+      },
+      {
+        "en": "A teacher can help students out with exam planning by giving a clear timetable.",
+        "zh": "老師可以透過提供清晰時間表，幫助學生處理考試計劃。"
+      },
+      {
+        "en": "If you are busy, a classmate may help you out with the group presentation.",
+        "zh": "如果你很忙，同學可能會幫助你處理小組匯報。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "all the better",
+    "meaning": "那就更好了",
+    "examples": [
+      {
+        "en": "If the event helps students focus, all the better.",
+        "zh": "如果活動能幫助學生專注，那就更好了。"
+      },
+      {
+        "en": "“All the better” means that an extra good result makes the situation even better.",
+        "zh": "“All the better” 表示額外的好結果會令情況更好。"
+      },
+      {
+        "en": "If the talk is useful and short, all the better.",
+        "zh": "如果講座有用而且簡短，那就更好了。"
+      },
+      {
+        "en": "We need volunteers, and if they have first-aid training, all the better.",
+        "zh": "我們需要義工，如果他們有急救訓練，那就更好了。"
+      },
+      {
+        "en": "If the activity helps students relax as well as learn, all the better.",
+        "zh": "如果活動既幫助學生放鬆又幫助他們學習，那就更好了。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "mention this benefit",
+    "meaning": "提及這個好處",
+    "examples": [
+      {
+        "en": "They should mention this benefit when they promote the sessions.",
+        "zh": "他們推廣課節時應提及這個好處。"
+      },
+      {
+        "en": "To mention this benefit means to talk about this advantage briefly or clearly.",
+        "zh": "“Mention this benefit” 意思是簡短或清楚地說出這個優點。"
+      },
+      {
+        "en": "Please mention this benefit in the poster so parents understand the value.",
+        "zh": "請在海報中提及這個好處，讓家長明白價值。"
+      },
+      {
+        "en": "If we mention this benefit during assembly, more students may sign up.",
+        "zh": "如果我們在早會提及這個好處，更多學生可能會報名。"
+      },
+      {
+        "en": "The teacher forgot to mention this benefit, so some students did not see why the activity mattered.",
+        "zh": "老師忘記提及這個好處，所以有些學生不明白活動的重要性。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "promote the sessions",
+    "meaning": "推廣這些課節",
+    "examples": [
+      {
+        "en": "John will promote the yoga and meditation sessions.",
+        "zh": "John 會推廣瑜伽和冥想課節。"
+      },
+      {
+        "en": "To promote the sessions means to advertise the classes and encourage people to join.",
+        "zh": "“Promote the sessions” 指宣傳這些課堂並鼓勵人參加。"
+      },
+      {
+        "en": "The school will promote the sessions through posters and announcements.",
+        "zh": "學校會透過海報和公告推廣這些課節。"
+      },
+      {
+        "en": "If we promote the sessions early, students can reserve time for them.",
+        "zh": "如果我們早點推廣這些課節，學生可以預留時間。"
+      },
+      {
+        "en": "The club asked senior students to promote the sessions to younger students.",
+        "zh": "學會請高年級學生向低年級學生推廣這些課節。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "celebrity yoga instructors",
+    "meaning": "名人瑜伽導師",
+    "examples": [
+      {
+        "en": "The event was popular because of the celebrity yoga instructors.",
+        "zh": "這個活動受歡迎，是因為有名人瑜伽導師。"
+      },
+      {
+        "en": "Celebrity yoga instructors are well-known yoga teachers who may attract more people to an event.",
+        "zh": "名人瑜伽導師是知名的瑜伽老師，可能會吸引更多人參加活動。"
+      },
+      {
+        "en": "The school invited celebrity yoga instructors to make the wellness event more exciting.",
+        "zh": "學校邀請名人瑜伽導師，令身心健康活動更吸引。"
+      },
+      {
+        "en": "If celebrity yoga instructors attend, students who rarely try yoga may become interested.",
+        "zh": "如果名人瑜伽導師出席，很少嘗試瑜伽的學生也可能會感興趣。"
+      },
+      {
+        "en": "The poster should not use the celebrity yoga instructors’ names until they confirm.",
+        "zh": "在名人瑜伽導師確認之前，海報不應使用他們的名字。"
+      }
+    ],
+    "sourcePage": 7,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "not one, but two",
+    "meaning": "不是一個，而是兩個",
+    "examples": [
+      {
+        "en": "Having not one, but two famous instructors was a huge success.",
+        "zh": "不是一位，而是兩位著名導師，這非常成功。"
+      },
+      {
+        "en": "“Not one, but two” emphasises that there are two of something, not just one.",
+        "zh": "“Not one, but two” 強調有兩個，而不只是一個。"
+      },
+      {
+        "en": "The school invited not one, but two authors to the reading week.",
+        "zh": "學校邀請了不是一位，而是兩位作家參加閱讀週。"
+      },
+      {
+        "en": "Students were excited because they received not one, but two free workshops.",
+        "zh": "學生很興奮，因為他們得到不是一個，而是兩個免費工作坊。"
+      },
+      {
+        "en": "The phrase makes the number sound impressive or surprising.",
+        "zh": "這個說法令數量聽起來令人印象深刻或意外。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a huge hit",
+    "meaning": "非常受歡迎",
+    "examples": [
+      {
+        "en": "The two famous instructors were a huge hit last year.",
+        "zh": "兩位著名導師去年非常受歡迎。"
+      },
+      {
+        "en": "If something is a huge hit, it is extremely popular or successful.",
+        "zh": "如果某事 is a huge hit，意思是它非常受歡迎或非常成功。"
+      },
+      {
+        "en": "The drama show was a huge hit with parents.",
+        "zh": "戲劇表演非常受家長歡迎。"
+      },
+      {
+        "en": "A school event can become a huge hit if students help design it.",
+        "zh": "如果學生幫忙設計，學校活動可以變得非常受歡迎。"
+      },
+      {
+        "en": "The new reading corner was a huge hit because students used it every day.",
+        "zh": "新閱讀角非常受歡迎，因為學生每天都使用它。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "invite them again",
+    "meaning": "再次邀請他們",
+    "examples": [
+      {
+        "en": "Melissa could invite the instructors again this year.",
+        "zh": "Melissa 今年可以再次邀請那些導師。"
+      },
+      {
+        "en": "To invite them again means to ask the same people to come another time.",
+        "zh": "“Invite them again” 指再次邀請同一批人來。"
+      },
+      {
+        "en": "The speaker was excellent, so we should invite her again next year.",
+        "zh": "那位講者很出色，所以我們明年應再次邀請她。"
+      },
+      {
+        "en": "If the volunteers were helpful, the school may invite them again.",
+        "zh": "如果義工很有幫助，學校可能會再次邀請他們。"
+      },
+      {
+        "en": "The club wants to invite them again because students enjoyed the session.",
+        "zh": "學會想再次邀請他們，因為學生很享受那次課節。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "help out",
+    "meaning": "幫忙",
+    "examples": [
+      {
+        "en": "Melissa knows a few people who would love to help out.",
+        "zh": "Melissa 認識幾個很願意幫忙的人。"
+      },
+      {
+        "en": "To help out means to give support or assistance, often in a practical way.",
+        "zh": "“Help out” 指提供支援或協助，通常是實際上的幫忙。"
+      },
+      {
+        "en": "Parents can help out during the school fair.",
+        "zh": "家長可以在學校市集期間幫忙。"
+      },
+      {
+        "en": "If many students help out, the event will run more smoothly.",
+        "zh": "如果很多學生幫忙，活動會運作得更順暢。"
+      },
+      {
+        "en": "My friend helped out by carrying the equipment.",
+        "zh": "我的朋友透過搬運器材來幫忙。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "just yet",
+    "meaning": "暫時還未",
+    "examples": [
+      {
+        "en": "They cannot use the instructors’ names just yet.",
+        "zh": "他們暫時還未能使用導師的名字。"
+      },
+      {
+        "en": "“Just yet” means not at this moment, though it may be possible later.",
+        "zh": "“Just yet” 表示目前還未可以，但之後可能可以。"
+      },
+      {
+        "en": "We should not announce the date just yet because the hall is not confirmed.",
+        "zh": "我們暫時還未應公布日期，因為禮堂尚未確認。"
+      },
+      {
+        "en": "The teacher cannot share the results just yet.",
+        "zh": "老師暫時還未能分享成績。"
+      },
+      {
+        "en": "Do not print the poster just yet; the title may still change.",
+        "zh": "暫時還未要印海報；標題可能仍會改。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "until they’ve confirmed",
+    "meaning": "直到他們確認為止",
+    "examples": [
+      {
+        "en": "They cannot use the names until the instructors have confirmed.",
+        "zh": "直到導師確認為止，他們不能使用名字。"
+      },
+      {
+        "en": "“Until they’ve confirmed” means before they say yes officially, something cannot happen.",
+        "zh": "“Until they’ve confirmed” 表示在他們正式答應之前，某事不能發生。"
+      },
+      {
+        "en": "We cannot book the bus until the parents have confirmed.",
+        "zh": "直到家長確認為止，我們不能預訂巴士。"
+      },
+      {
+        "en": "Do not announce the speaker until she has confirmed the date.",
+        "zh": "直到講者確認日期為止，不要公布講者資料。"
+      },
+      {
+        "en": "The school will not print the programme until all guests have confirmed.",
+        "zh": "直到所有嘉賓確認為止，學校不會印製程序表。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "for sure",
+    "meaning": "肯定；一定",
+    "examples": [
+      {
+        "en": "Melissa can get two famous instructors for sure.",
+        "zh": "Melissa 肯定可以請到兩位著名導師。"
+      },
+      {
+        "en": "“For sure” means definitely or certainly.",
+        "zh": "“For sure” 意思是肯定或一定。"
+      },
+      {
+        "en": "I will attend the meeting for sure.",
+        "zh": "我一定會出席會議。"
+      },
+      {
+        "en": "If the room is already booked, we can use it for sure.",
+        "zh": "如果房間已經預訂，我們肯定可以使用它。"
+      },
+      {
+        "en": "Ask the office first so we know for sure.",
+        "zh": "先問辦公室，這樣我們就能肯定知道。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "speaking of invitations",
+    "meaning": "說到邀請",
+    "examples": [
+      {
+        "en": "Speaking of invitations, they missed an agenda item.",
+        "zh": "說到邀請，他們遺漏了一項議程。"
+      },
+      {
+        "en": "“Speaking of invitations” connects the topic of invitations to another related point.",
+        "zh": "“Speaking of invitations” 把邀請這個話題連接到另一個相關重點。"
+      },
+      {
+        "en": "Speaking of invitations, have we sent one to the principal?",
+        "zh": "說到邀請，我們向校長發出邀請了嗎？"
+      },
+      {
+        "en": "A meeting chair may say this when the discussion reminds them of an invitation issue.",
+        "zh": "當討論令人想起邀請問題時，會議主席可能會這樣說。"
+      },
+      {
+        "en": "Speaking of invitations, we still need to confirm the guest list.",
+        "zh": "說到邀請，我們仍需要確認嘉賓名單。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "miss an agenda item",
+    "meaning": "遺漏一項議程",
+    "examples": [
+      {
+        "en": "They missed an agenda item about the Asian Games Week.",
+        "zh": "他們遺漏了一項關於亞運週的議程。"
+      },
+      {
+        "en": "To miss an agenda item means to forget to discuss one topic listed for a meeting.",
+        "zh": "“Miss an agenda item” 指忘記討論會議清單上的某個議題。"
+      },
+      {
+        "en": "We missed an agenda item about the budget.",
+        "zh": "我們遺漏了一項關於預算的議程。"
+      },
+      {
+        "en": "If a team misses an agenda item, an important decision may be delayed.",
+        "zh": "如果團隊遺漏一項議程，重要決定可能會延遲。"
+      },
+      {
+        "en": "The chair checked the list again to make sure they did not miss an agenda item.",
+        "zh": "主席再次檢查清單，確保他們沒有遺漏任何議程。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "just now",
+    "meaning": "剛才",
+    "examples": [
+      {
+        "en": "Just now, they did not finish discussing the guest speaker.",
+        "zh": "剛才，他們還未討論完嘉賓講者。"
+      },
+      {
+        "en": "“Just now” means a short time ago.",
+        "zh": "“Just now” 意思是不久之前。"
+      },
+      {
+        "en": "I saw your teacher just now near the office.",
+        "zh": "我剛才在辦公室附近見到你的老師。"
+      },
+      {
+        "en": "Just now, we agreed to change the date.",
+        "zh": "剛才，我們同意更改日期。"
+      },
+      {
+        "en": "If someone explained it just now, you may only need a quick reminder.",
+        "zh": "如果有人剛才解釋過，你可能只需要簡短提醒。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "finish discussing",
+    "meaning": "討論完",
+    "examples": [
+      {
+        "en": "They did not finish discussing who to invite to the opening event.",
+        "zh": "他們還未討論完邀請誰參加開幕活動。"
+      },
+      {
+        "en": "To finish discussing something means to complete the conversation about it.",
+        "zh": "“Finish discussing” 某事，意思是完成關於它的討論。"
+      },
+      {
+        "en": "We need to finish discussing the budget before lunch.",
+        "zh": "我們需要在午飯前討論完預算。"
+      },
+      {
+        "en": "If we do not finish discussing the safety plan, we cannot confirm the trip.",
+        "zh": "如果我們不討論完安全計劃，就不能確認旅行。"
+      },
+      {
+        "en": "The class finished discussing the project and started writing.",
+        "zh": "班級討論完專題後，開始寫作。"
+      }
+    ],
+    "sourcePage": 8,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "be about to",
+    "meaning": "正要……",
+    "examples": [
+      {
+        "en": "Melissa was just about to talk about the guest speaker.",
+        "zh": "Melissa 正要談嘉賓講者。"
+      },
+      {
+        "en": "“Be about to” means someone is going to do something very soon.",
+        "zh": "“Be about to” 表示某人很快就會做某事。"
+      },
+      {
+        "en": "I was about to call you when your message arrived.",
+        "zh": "你的訊息到達時，我正要打電話給你。"
+      },
+      {
+        "en": "The lesson was about to start, so students sat down quickly.",
+        "zh": "課堂正要開始，所以學生很快坐下。"
+      },
+      {
+        "en": "We were about to leave when it began to rain.",
+        "zh": "我們正要離開時，開始下雨。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "guest speaker",
+    "meaning": "嘉賓講者",
+    "examples": [
+      {
+        "en": "They need to choose a guest speaker for the opening event.",
+        "zh": "他們需要為開幕活動選擇一位嘉賓講者。"
+      },
+      {
+        "en": "A guest speaker is a person invited to give a talk at an event.",
+        "zh": "嘉賓講者是受邀在活動中發表講話的人。"
+      },
+      {
+        "en": "The school invited a nurse as the guest speaker for the health talk.",
+        "zh": "學校邀請一位護士擔任健康講座的嘉賓講者。"
+      },
+      {
+        "en": "A good guest speaker can make students interested in a topic.",
+        "zh": "一位好的嘉賓講者可以令學生對題目感興趣。"
+      },
+      {
+        "en": "The guest speaker shared real stories from her career.",
+        "zh": "嘉賓講者分享了她職業中的真實故事。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "any ideas?",
+    "meaning": "有沒有任何想法？",
+    "examples": [
+      {
+        "en": "Melissa asks whether anyone has any ideas for the guest speaker.",
+        "zh": "Melissa 問有沒有人對嘉賓講者有任何想法。"
+      },
+      {
+        "en": "“Any ideas?” is a short way to ask people for suggestions.",
+        "zh": "“Any ideas?” 是簡短地詢問別人建議的方法。"
+      },
+      {
+        "en": "We need a theme for the party. Any ideas?",
+        "zh": "我們需要一個派對主題。有沒有任何想法？"
+      },
+      {
+        "en": "A leader may ask “any ideas?” when the group is trying to solve a problem.",
+        "zh": "當小組嘗試解決問題時，領袖可能會問 “any ideas?”。"
+      },
+      {
+        "en": "If nobody has any ideas, we can look at last year’s plan.",
+        "zh": "如果沒有人有任何想法，我們可以看看去年的計劃。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "add new sports",
+    "meaning": "加入新的運動項目",
+    "examples": [
+      {
+        "en": "The Asian Games are adding new sports all the time.",
+        "zh": "亞運會一直加入新的運動項目。"
+      },
+      {
+        "en": "To add new sports means to include sports that were not part of the event before.",
+        "zh": "“Add new sports” 指加入以前不屬於活動的運動項目。"
+      },
+      {
+        "en": "Schools may add new sports to encourage different students to join.",
+        "zh": "學校可能會加入新的運動項目，以鼓勵不同學生參加。"
+      },
+      {
+        "en": "When an event adds new sports, it can attract new audiences.",
+        "zh": "當一個活動加入新的運動項目時，可以吸引新的觀眾。"
+      },
+      {
+        "en": "The committee will add new sports if enough students show interest.",
+        "zh": "如果有足夠學生表示有興趣，委員會會加入新的運動項目。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "all the time",
+    "meaning": "一直；經常",
+    "examples": [
+      {
+        "en": "New sports are being added to the Asian Games all the time.",
+        "zh": "新運動項目一直被加入亞運會。"
+      },
+      {
+        "en": "“All the time” means very often or continuously.",
+        "zh": "“All the time” 意思是經常或持續地。"
+      },
+      {
+        "en": "The timetable changes all the time, so check it daily.",
+        "zh": "時間表經常改變，所以每天都要查看。"
+      },
+      {
+        "en": "Students use their phones all the time if no clear rules are set.",
+        "zh": "如果沒有清晰規則，學生會一直使用電話。"
+      },
+      {
+        "en": "New ideas appear all the time when people work together.",
+        "zh": "當人們一起合作時，新想法經常出現。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "represent an interesting sport",
+    "meaning": "代表一項有趣的運動",
+    "examples": [
+      {
+        "en": "They could invite an athlete who represents an interesting sport.",
+        "zh": "他們可以邀請一位代表一項有趣運動的運動員。"
+      },
+      {
+        "en": "To represent an interesting sport means to be a person connected with that sport and able to speak for it.",
+        "zh": "“Represent an interesting sport” 指一個人與該運動有關，並能為它發聲。"
+      },
+      {
+        "en": "The school invited a coach who represents an interesting sport called climbing.",
+        "zh": "學校邀請了一位代表攀石這項有趣運動的教練。"
+      },
+      {
+        "en": "An athlete who represents an interesting sport can explain why it deserves attention.",
+        "zh": "代表一項有趣運動的運動員，可以解釋它為何值得關注。"
+      },
+      {
+        "en": "Students may learn more if the guest represents an interesting sport they have never tried.",
+        "zh": "如果嘉賓代表一項學生從未嘗試過的有趣運動，學生可能會學到更多。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "I like the sound of that",
+    "meaning": "我覺得那個聽起來不錯",
+    "examples": [
+      {
+        "en": "John says he likes the sound of that idea.",
+        "zh": "John 說他覺得那個想法聽起來不錯。"
+      },
+      {
+        "en": "“I like the sound of that” means the idea sounds good or attractive.",
+        "zh": "“I like the sound of that” 表示某個想法聽起來好或吸引。"
+      },
+      {
+        "en": "A shorter workshop with games? I like the sound of that.",
+        "zh": "一個較短而有遊戲的工作坊？我覺得那個聽起來不錯。"
+      },
+      {
+        "en": "This phrase is a friendly way to show interest in someone’s suggestion.",
+        "zh": "這個說法是一種友善地表示對別人建議感興趣的方法。"
+      },
+      {
+        "en": "If the plan saves time and money, I like the sound of that.",
+        "zh": "如果這個計劃能節省時間和金錢，我覺得那個聽起來不錯。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "talk about why",
+    "meaning": "談論……的原因",
+    "examples": [
+      {
+        "en": "The athlete could talk about why their sport should be added.",
+        "zh": "運動員可以談論為甚麼他們的運動應被加入。"
+      },
+      {
+        "en": "To talk about why means to explain the reasons for something.",
+        "zh": "“Talk about why” 意思是解釋某事的原因。"
+      },
+      {
+        "en": "The speaker will talk about why sleep is important for students.",
+        "zh": "講者會談論為甚麼睡眠對學生重要。"
+      },
+      {
+        "en": "If students talk about why they chose an answer, teachers can understand their thinking.",
+        "zh": "如果學生談論為甚麼選擇某個答案，老師就能理解他們的思路。"
+      },
+      {
+        "en": "The coach talked about why warm-ups reduce injuries.",
+        "zh": "教練談論為甚麼熱身可以減少受傷。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "be added to",
+    "meaning": "被加入……",
+    "examples": [
+      {
+        "en": "The sport could be added to the Asian Games.",
+        "zh": "這項運動可以被加入亞運會。"
+      },
+      {
+        "en": "If something is added to a list or event, it becomes part of it.",
+        "zh": "如果某事 is added to 清單或活動，意思是它成為其中一部分。"
+      },
+      {
+        "en": "A new activity was added to the school fair.",
+        "zh": "一項新活動被加入學校市集。"
+      },
+      {
+        "en": "More seats will be added to the hall if many parents come.",
+        "zh": "如果很多家長來，禮堂會加入更多座位。"
+      },
+      {
+        "en": "The student’s name was added to the volunteer list.",
+        "zh": "那名學生的名字被加入義工名單。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "give reasons for",
+    "meaning": "提出……的理由",
+    "examples": [
+      {
+        "en": "The athlete could give reasons for adding their sport to the Asian Games.",
+        "zh": "運動員可以提出把他們的運動加入亞運會的理由。"
+      },
+      {
+        "en": "To give reasons for something means to explain why it should happen or why it is true.",
+        "zh": "“Give reasons for” 某事，意思是解釋為甚麼它應該發生或為甚麼它是真確的。"
+      },
+      {
+        "en": "Students must give reasons for their answers in the essay.",
+        "zh": "學生必須在文章中提出答案的理由。"
+      },
+      {
+        "en": "If you give reasons for your suggestion, people are more likely to accept it.",
+        "zh": "如果你提出建議的理由，人們更可能接受它。"
+      },
+      {
+        "en": "The coach gave reasons for changing the training schedule.",
+        "zh": "教練提出更改訓練時間表的理由。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "set up a survey",
+    "meaning": "設立問卷調查",
+    "examples": [
+      {
+        "en": "David will set up a survey for the students.",
+        "zh": "David 會為學生設立問卷調查。"
+      },
+      {
+        "en": "To set up a survey means to create questions so people can give their opinions or information.",
+        "zh": "“Set up a survey” 指建立問題，讓人提供意見或資料。"
+      },
+      {
+        "en": "The teacher set up a survey to ask students about lunch choices.",
+        "zh": "老師設立問卷調查，詢問學生午餐選擇。"
+      },
+      {
+        "en": "If we set up a survey before planning, we can understand what students want.",
+        "zh": "如果我們在計劃前設立問卷調查，就能了解學生想要甚麼。"
+      },
+      {
+        "en": "The club used an online form to set up a survey quickly.",
+        "zh": "學會使用網上表格快速設立問卷調查。"
+      }
+    ],
+    "sourcePage": 9,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "be interested in hearing about",
+    "meaning": "有興趣聽關於……的內容",
+    "examples": [
+      {
+        "en": "The survey will show which sports students are most interested in hearing about.",
+        "zh": "問卷會顯示學生最有興趣聽關於哪些運動的內容。"
+      },
+      {
+        "en": "If people are interested in hearing about something, they want to listen and learn more about it.",
+        "zh": "如果人們 are interested in hearing about 某事，意思是他們想聽並了解更多。"
+      },
+      {
+        "en": "Students are interested in hearing about careers in medicine.",
+        "zh": "學生有興趣聽關於醫學職業的內容。"
+      },
+      {
+        "en": "A survey can show what parents are interested in hearing about at a seminar.",
+        "zh": "問卷可以顯示家長在講座中有興趣聽關於甚麼的內容。"
+      },
+      {
+        "en": "If students are not interested in hearing about a topic, the talk may feel boring.",
+        "zh": "如果學生對某題目沒有興趣聽，講座可能會顯得沉悶。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "get students more involved in",
+    "meaning": "令學生更投入參與……",
+    "examples": [
+      {
+        "en": "John wants to get students more involved in the Asian Games Week.",
+        "zh": "John 想令學生更投入參與亞運週。"
+      },
+      {
+        "en": "To get students more involved in something means to make them take part more actively.",
+        "zh": "“Get students more involved in” 某事，意思是令學生更積極參與。"
+      },
+      {
+        "en": "The teacher used group tasks to get students more involved in the lesson.",
+        "zh": "老師使用小組任務，令學生更投入參與課堂。"
+      },
+      {
+        "en": "If students vote on the topic, they may become more involved in the event.",
+        "zh": "如果學生可以投票選題目，他們可能會更投入參與活動。"
+      },
+      {
+        "en": "The school invited student leaders to get students more involved in planning.",
+        "zh": "學校邀請學生領袖，令學生更投入參與計劃。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "make the event more interactive",
+    "meaning": "令活動更具互動性",
+    "examples": [
+      {
+        "en": "They want to make the event more interactive.",
+        "zh": "他們想令活動更具互動性。"
+      },
+      {
+        "en": "To make the event more interactive means to let the audience take part instead of only watching or listening.",
+        "zh": "“Make the event more interactive” 指讓觀眾參與，而不只是觀看或聆聽。"
+      },
+      {
+        "en": "Adding quizzes can make the event more interactive.",
+        "zh": "加入問答遊戲可以令活動更具互動性。"
+      },
+      {
+        "en": "If students can ask questions, it will make the event more interactive.",
+        "zh": "如果學生可以提問，就會令活動更具互動性。"
+      },
+      {
+        "en": "A discussion after the speech can make the event more interactive and memorable.",
+        "zh": "演講後的討論可以令活動更具互動性，也更令人難忘。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "hold a discussion about",
+    "meaning": "就……舉行討論",
+    "examples": [
+      {
+        "en": "They could hold a discussion about the sport after the speech.",
+        "zh": "他們可以在演講後就該項運動舉行討論。"
+      },
+      {
+        "en": "To hold a discussion about something means to organise a talk where people share ideas about it.",
+        "zh": "“Hold a discussion about” 某事，意思是組織一次讓人分享想法的討論。"
+      },
+      {
+        "en": "The class will hold a discussion about online safety.",
+        "zh": "班級會就網上安全舉行討論。"
+      },
+      {
+        "en": "If we hold a discussion about the problem, students can suggest solutions.",
+        "zh": "如果我們就問題舉行討論，學生可以提出解決方法。"
+      },
+      {
+        "en": "The club held a discussion about healthy habits after the video.",
+        "zh": "學會在短片後就健康習慣舉行討論。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "after the speaker has finished",
+    "meaning": "在講者完成後",
+    "examples": [
+      {
+        "en": "Students can discuss the sport after the speaker has finished the speech.",
+        "zh": "學生可以在講者完成演講後討論該項運動。"
+      },
+      {
+        "en": "“After the speaker has finished” means when the talk is over.",
+        "zh": "“After the speaker has finished” 表示講座結束之後。"
+      },
+      {
+        "en": "Students may ask questions after the speaker has finished.",
+        "zh": "學生可以在講者完成後提問。"
+      },
+      {
+        "en": "We should not start the survey until after the speaker has finished.",
+        "zh": "我們應在講者完成後才開始問卷調查。"
+      },
+      {
+        "en": "After the speaker has finished, the teacher will lead a short discussion.",
+        "zh": "在講者完成後，老師會帶領一個簡短討論。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a great way for someone to",
+    "meaning": "讓某人……的好方法",
+    "examples": [
+      {
+        "en": "Holding a discussion would be a great way for students to learn more.",
+        "zh": "舉行討論會是讓學生了解更多的好方法。"
+      },
+      {
+        "en": "“A great way for someone to” means a very useful method that helps someone do something.",
+        "zh": "“A great way for someone to” 指幫助某人做某事的非常有用方法。"
+      },
+      {
+        "en": "Reading aloud is a great way for students to improve pronunciation.",
+        "zh": "大聲朗讀是讓學生改善發音的好方法。"
+      },
+      {
+        "en": "Volunteering is a great way for young people to learn responsibility.",
+        "zh": "做義工是讓年輕人學習責任感的好方法。"
+      },
+      {
+        "en": "Asking questions is a great way for students to understand a speaker’s ideas.",
+        "zh": "提問是讓學生理解講者想法的好方法。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "learn more",
+    "meaning": "了解更多",
+    "examples": [
+      {
+        "en": "Students can learn more about the sport through the discussion.",
+        "zh": "學生可以透過討論了解更多關於該項運動的內容。"
+      },
+      {
+        "en": "To learn more means to gain extra information or a deeper understanding.",
+        "zh": "“Learn more” 意思是得到更多資料或更深入理解。"
+      },
+      {
+        "en": "Students can learn more about careers by talking to professionals.",
+        "zh": "學生可以透過與專業人士交談了解更多關於職業的內容。"
+      },
+      {
+        "en": "If visitors scan the QR code, they can learn more about the exhibition.",
+        "zh": "如果訪客掃描 QR code，就可以了解更多關於展覽的內容。"
+      },
+      {
+        "en": "The workshop helped parents learn more about exam stress.",
+        "zh": "工作坊幫助家長了解更多關於考試壓力的內容。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "allow time for",
+    "meaning": "預留時間給……",
+    "examples": [
+      {
+        "en": "Make sure we allow time for students to ask questions.",
+        "zh": "請確保我們預留時間給學生提問。"
+      },
+      {
+        "en": "To allow time for something means to leave enough time for it in the schedule.",
+        "zh": "“Allow time for” 某事，意思是在時間表中為它留下足夠時間。"
+      },
+      {
+        "en": "Please allow time for travel when you plan the visit.",
+        "zh": "計劃參觀時，請預留交通時間。"
+      },
+      {
+        "en": "If we do not allow time for questions, students may leave confused.",
+        "zh": "如果我們不預留時間提問，學生離開時可能仍感到困惑。"
+      },
+      {
+        "en": "The timetable should allow time for a short break between sessions.",
+        "zh": "時間表應在課節之間預留短暫休息時間。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "ask questions",
+    "meaning": "提問",
+    "examples": [
+      {
+        "en": "Students should have time to ask questions after the speech.",
+        "zh": "學生在演講後應有時間提問。"
+      },
+      {
+        "en": "To ask questions means to request information or clarification.",
+        "zh": "“Ask questions” 意思是要求資料或澄清。"
+      },
+      {
+        "en": "Students should ask questions when they do not understand the instructions.",
+        "zh": "學生不明白指示時應提問。"
+      },
+      {
+        "en": "If no one asks questions, the teacher may not know what is unclear.",
+        "zh": "如果沒有人提問，老師可能不知道哪裡不清楚。"
+      },
+      {
+        "en": "A good speaker welcomes the audience to ask questions.",
+        "zh": "好的講者會歡迎觀眾提問。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "handle this",
+    "meaning": "處理這件事",
+    "examples": [
+      {
+        "en": "John can handle the question-and-answer arrangement.",
+        "zh": "John 可以處理問答環節的安排。"
+      },
+      {
+        "en": "To handle this means to take responsibility for dealing with this matter.",
+        "zh": "“Handle this” 意思是負責處理這件事。"
+      },
+      {
+        "en": "I can handle this email, so you can focus on the posters.",
+        "zh": "我可以處理這封電郵，所以你可以專注海報。"
+      },
+      {
+        "en": "If one person handles this task, the team will avoid confusion.",
+        "zh": "如果一個人處理這項任務，團隊就能避免混亂。"
+      },
+      {
+        "en": "The teacher asked the class monitor to handle this part of the event.",
+        "zh": "老師請班長處理活動的這一部分。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "plenty of time for",
+    "meaning": "充足時間給……",
+    "examples": [
+      {
+        "en": "There should be plenty of time for students to ask questions.",
+        "zh": "應該有充足時間給學生提問。"
+      },
+      {
+        "en": "“Plenty of time for” means enough time, or more than enough time, for an activity.",
+        "zh": "“Plenty of time for” 表示有足夠，甚至多於足夠的時間做某事。"
+      },
+      {
+        "en": "We have plenty of time for a short break before the next lesson.",
+        "zh": "下一堂課前，我們有充足時間短暫休息。"
+      },
+      {
+        "en": "If we start early, there will be plenty of time for discussion.",
+        "zh": "如果我們早點開始，就會有充足時間討論。"
+      },
+      {
+        "en": "The timetable gives parents plenty of time for registration.",
+        "zh": "時間表給家長充足時間登記。"
+      }
+    ],
+    "sourcePage": 10,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "back to",
+    "meaning": "回到……",
+    "examples": [
+      {
+        "en": "Back to the Wellness Month, there are a few more things to discuss.",
+        "zh": "回到身心健康月，我們還有幾件事要討論。"
+      },
+      {
+        "en": "“Back to” is used to return to an earlier topic.",
+        "zh": "“Back to” 用於回到較早前的話題。"
+      },
+      {
+        "en": "Back to the school trip, have we confirmed the bus?",
+        "zh": "回到學校旅行，我們確認巴士了嗎？"
+      },
+      {
+        "en": "A chairperson may say “back to the budget” when the meeting goes off topic.",
+        "zh": "當會議離題時，主席可能會說「回到預算」。"
+      },
+      {
+        "en": "Back to your question, the deadline is next Friday.",
+        "zh": "回到你的問題，截止日期是下星期五。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a few more things to",
+    "meaning": "還有幾件事要……",
+    "examples": [
+      {
+        "en": "There are a few more things to talk about.",
+        "zh": "還有幾件事要談。"
+      },
+      {
+        "en": "“A few more things to” means several additional matters still need to be done or discussed.",
+        "zh": "“A few more things to” 表示還有幾項額外事情需要做或討論。"
+      },
+      {
+        "en": "We have a few more things to check before the event starts.",
+        "zh": "活動開始前，我們還有幾件事要檢查。"
+      },
+      {
+        "en": "There are a few more things to prepare, including name tags and chairs.",
+        "zh": "還有幾件事要準備，包括名牌和椅子。"
+      },
+      {
+        "en": "If we finish these few more things today, the plan will be ready.",
+        "zh": "如果我們今天完成這幾件事，計劃就會準備好。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "be definitely going to need",
+    "meaning": "肯定會需要",
+    "examples": [
+      {
+        "en": "They are definitely going to need some help once the Wellness Month begins.",
+        "zh": "身心健康月一開始，他們肯定會需要一些幫忙。"
+      },
+      {
+        "en": "“Be definitely going to need” means it is almost certain that help or something else will be needed.",
+        "zh": "“Be definitely going to need” 表示幾乎可以肯定會需要幫助或其他東西。"
+      },
+      {
+        "en": "We are definitely going to need more chairs for the talk.",
+        "zh": "我們肯定會需要更多椅子給講座使用。"
+      },
+      {
+        "en": "If fifty parents come, we are definitely going to need extra staff.",
+        "zh": "如果五十位家長來，我們肯定會需要額外職員。"
+      },
+      {
+        "en": "The team is definitely going to need a clear checklist before the event.",
+        "zh": "團隊在活動前肯定會需要一份清晰清單。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "once something begins",
+    "meaning": "一旦……開始",
+    "examples": [
+      {
+        "en": "They will need help once the Wellness Month begins.",
+        "zh": "一旦身心健康月開始，他們會需要幫忙。"
+      },
+      {
+        "en": "“Once something begins” means from the time that thing starts.",
+        "zh": "“Once something begins” 表示從某事開始的時候起。"
+      },
+      {
+        "en": "Once the lesson begins, students should stop using their phones.",
+        "zh": "一旦課堂開始，學生應停止使用電話。"
+      },
+      {
+        "en": "Once the event begins, volunteers must stay near the entrance.",
+        "zh": "一旦活動開始，義工必須留在入口附近。"
+      },
+      {
+        "en": "Problems are easier to handle if roles are clear before the programme begins.",
+        "zh": "如果在計劃開始前角色清晰，問題會更容易處理。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "have parents involved in",
+    "meaning": "讓家長參與……",
+    "examples": [
+      {
+        "en": "Last year, the school had some parents involved in the events.",
+        "zh": "去年，學校讓一些家長參與活動。"
+      },
+      {
+        "en": "To have parents involved in an event means to let parents take part or help with it.",
+        "zh": "“Have parents involved in” 某活動，意思是讓家長參加或協助該活動。"
+      },
+      {
+        "en": "The school had parents involved in reading activities.",
+        "zh": "學校讓家長參與閱讀活動。"
+      },
+      {
+        "en": "If we have parents involved in planning, they may support the event more.",
+        "zh": "如果我們讓家長參與計劃，他們可能會更支持活動。"
+      },
+      {
+        "en": "Having parents involved in school life can build stronger trust.",
+        "zh": "讓家長參與學校生活，可以建立更強信任。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "responsibilities",
+    "meaning": "職責",
+    "examples": [
+      {
+        "en": "Melissa does not remember exactly what the parents’ responsibilities were.",
+        "zh": "Melissa 不太記得家長的職責到底是甚麼。"
+      },
+      {
+        "en": "Responsibilities are duties or tasks that someone is expected to do.",
+        "zh": "“Responsibilities” 指某人應該完成的職務或任務。"
+      },
+      {
+        "en": "A volunteer’s responsibilities may include welcoming guests and checking names.",
+        "zh": "義工的職責可能包括歡迎嘉賓和核對姓名。"
+      },
+      {
+        "en": "If responsibilities are unclear, people may repeat work or forget important tasks.",
+        "zh": "如果職責不清楚，人們可能會重複工作或忘記重要任務。"
+      },
+      {
+        "en": "Students should understand their responsibilities before joining a group project.",
+        "zh": "學生參加小組專題前，應明白自己的職責。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "get in touch with",
+    "meaning": "聯絡",
+    "examples": [
+      {
+        "en": "David will get in touch with Mr Singh on the Events Team.",
+        "zh": "David 會聯絡活動小組的 Singh 先生。"
+      },
+      {
+        "en": "To get in touch with someone means to contact them.",
+        "zh": "“Get in touch with” 某人，意思是聯絡他。"
+      },
+      {
+        "en": "Please get in touch with the office if you lose your student card.",
+        "zh": "如果你遺失學生證，請聯絡辦公室。"
+      },
+      {
+        "en": "If we get in touch with the coach early, we can confirm the training time.",
+        "zh": "如果我們早點聯絡教練，就能確認訓練時間。"
+      },
+      {
+        "en": "The teacher got in touch with parents by email.",
+        "zh": "老師透過電郵聯絡家長。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "the Events Team",
+    "meaning": "活動小組",
+    "examples": [
+      {
+        "en": "Mr Singh is on the Events Team.",
+        "zh": "Singh 先生是活動小組成員。"
+      },
+      {
+        "en": "The Events Team is the group responsible for planning or supporting events.",
+        "zh": "活動小組是負責計劃或支援活動的團隊。"
+      },
+      {
+        "en": "The Events Team booked the hall for the ceremony.",
+        "zh": "活動小組為典禮預訂了禮堂。"
+      },
+      {
+        "en": "If the Events Team has clear records, future activities are easier to plan.",
+        "zh": "如果活動小組有清晰紀錄，未來活動會更容易計劃。"
+      },
+      {
+        "en": "Students should contact the Events Team if they want to volunteer.",
+        "zh": "如果學生想做義工，應聯絡活動小組。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "check our records",
+    "meaning": "查閱紀錄",
+    "examples": [
+      {
+        "en": "David will check the records to see what responsibilities the parents had.",
+        "zh": "David 會查閱紀錄，看看家長之前有甚麼職責。"
+      },
+      {
+        "en": "To check our records means to look at past information kept by the school or organisation.",
+        "zh": "“Check our records” 指查看學校或機構保存的過往資料。"
+      },
+      {
+        "en": "We need to check our records before confirming who paid.",
+        "zh": "我們需要先查閱紀錄，才確認誰已付款。"
+      },
+      {
+        "en": "If we check our records, we can see how many students joined last year.",
+        "zh": "如果我們查閱紀錄，就能知道去年有多少學生參加。"
+      },
+      {
+        "en": "The office checked its records to find the old permission form.",
+        "zh": "辦公室查閱紀錄，以找到舊的同意書。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "attend a briefing session",
+    "meaning": "出席簡介會",
+    "examples": [
+      {
+        "en": "Parents were asked to attend a briefing session last year.",
+        "zh": "去年，家長被要求出席簡介會。"
+      },
+      {
+        "en": "To attend a briefing session means to go to a meeting where important instructions are explained.",
+        "zh": "“Attend a briefing session” 指出席一個講解重要指示的會議。"
+      },
+      {
+        "en": "New volunteers must attend a briefing session before helping at the event.",
+        "zh": "新義工在活動幫忙前，必須出席簡介會。"
+      },
+      {
+        "en": "If parents attend a briefing session, they will understand safety rules better.",
+        "zh": "如果家長出席簡介會，他們會更明白安全規則。"
+      },
+      {
+        "en": "The school held a briefing session to explain each helper’s role.",
+        "zh": "學校舉行簡介會，解釋每位幫手的角色。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "before they could help out",
+    "meaning": "在可以幫忙之前",
+    "examples": [
+      {
+        "en": "Parents had to attend a briefing session before they could help out.",
+        "zh": "家長在可以幫忙之前，必須出席簡介會。"
+      },
+      {
+        "en": "“Before they could help out” means something had to happen first before they were allowed to help.",
+        "zh": "“Before they could help out” 表示在他們被允許幫忙前，必須先發生某事。"
+      },
+      {
+        "en": "Students had to sign a form before they could help out at the fair.",
+        "zh": "學生在可以於市集幫忙之前，必須簽署表格。"
+      },
+      {
+        "en": "Before they could help out, volunteers needed to learn the safety rules.",
+        "zh": "在可以幫忙之前，義工需要學習安全規則。"
+      },
+      {
+        "en": "Parents could not enter the activity area before they completed the briefing.",
+        "zh": "家長在完成簡介會之前，不能進入活動區域。"
+      }
+    ],
+    "sourcePage": 11,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a similar arrangement",
+    "meaning": "類似安排",
+    "examples": [
+      {
+        "en": "They may have a similar arrangement this year.",
+        "zh": "他們今年可能會有類似安排。"
+      },
+      {
+        "en": "A similar arrangement is a plan that is close to a previous plan.",
+        "zh": "“A similar arrangement” 指與過往計劃相近的安排。"
+      },
+      {
+        "en": "Last year, parents helped at the entrance; we may use a similar arrangement.",
+        "zh": "去年家長在入口幫忙；我們今年可能使用類似安排。"
+      },
+      {
+        "en": "A similar arrangement can save time because people already understand how it works.",
+        "zh": "類似安排可以節省時間，因為人們已經明白如何運作。"
+      },
+      {
+        "en": "The school used a similar arrangement for the sports day and the open day.",
+        "zh": "學校在運動會和開放日使用了類似安排。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "take part in",
+    "meaning": "參與",
+    "examples": [
+      {
+        "en": "The briefing session was useful for parents to take part in.",
+        "zh": "這個簡介會對家長參與活動很有用。"
+      },
+      {
+        "en": "To take part in something means to join or participate in it.",
+        "zh": "“Take part in” 某事，意思是加入或參與它。"
+      },
+      {
+        "en": "Students can take part in the debate competition.",
+        "zh": "學生可以參與辯論比賽。"
+      },
+      {
+        "en": "Parents who take part in school events often understand the school better.",
+        "zh": "參與學校活動的家長通常會更了解學校。"
+      },
+      {
+        "en": "If more students take part in the survey, the results will be more useful.",
+        "zh": "如果更多學生參與問卷調查，結果會更有用。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a bit difficult to",
+    "meaning": "有點難……",
+    "examples": [
+      {
+        "en": "It was a bit difficult to get parents to sign up.",
+        "zh": "要家長報名有點難。"
+      },
+      {
+        "en": "“A bit difficult to” means something is somewhat hard, but not impossible.",
+        "zh": "“A bit difficult to” 表示某事有點困難，但不是不可能。"
+      },
+      {
+        "en": "It is a bit difficult to find a quiet room after school.",
+        "zh": "放學後要找一間安靜房間有點難。"
+      },
+      {
+        "en": "The instructions were a bit difficult to follow because they were too long.",
+        "zh": "指示有點難跟，因為太長。"
+      },
+      {
+        "en": "It may be a bit difficult to change the date after posters are printed.",
+        "zh": "海報印好後要改日期可能有點難。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "sign up",
+    "meaning": "報名",
+    "examples": [
+      {
+        "en": "Parents can sign up through the school app.",
+        "zh": "家長可以透過學校應用程式報名。"
+      },
+      {
+        "en": "To sign up means to register or put your name down for an activity.",
+        "zh": "“Sign up” 意思是為活動登記或報名。"
+      },
+      {
+        "en": "Students must sign up before joining the workshop.",
+        "zh": "學生參加工作坊前必須報名。"
+      },
+      {
+        "en": "If too many people sign up, the school may open another session.",
+        "zh": "如果太多人報名，學校可能會加開另一節。"
+      },
+      {
+        "en": "Please sign up by Friday so we can prepare enough materials.",
+        "zh": "請在星期五前報名，這樣我們可以準備足夠材料。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "show their interest in",
+    "meaning": "表示有興趣……",
+    "examples": [
+      {
+        "en": "Parents need a way to show their interest in being involved.",
+        "zh": "家長需要一個方法表示有興趣參與。"
+      },
+      {
+        "en": "To show their interest in something means to let others know they want to join or learn more.",
+        "zh": "“Show their interest in” 某事，意思是讓別人知道他們想參加或了解更多。"
+      },
+      {
+        "en": "Students can show their interest in the club by filling in a form.",
+        "zh": "學生可以透過填寫表格表示有興趣加入學會。"
+      },
+      {
+        "en": "If parents show their interest in volunteering, the school can contact them later.",
+        "zh": "如果家長表示有興趣做義工，學校之後可以聯絡他們。"
+      },
+      {
+        "en": "A survey helps students show their interest in different activities.",
+        "zh": "問卷幫助學生表示對不同活動有興趣。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "through the school app",
+    "meaning": "透過學校應用程式",
+    "examples": [
+      {
+        "en": "Parents should sign up through the school app.",
+        "zh": "家長應透過學校應用程式報名。"
+      },
+      {
+        "en": "“Through the school app” means using the school’s mobile application as the method.",
+        "zh": "“Through the school app” 表示使用學校手機應用程式作為方法。"
+      },
+      {
+        "en": "Students can check announcements through the school app.",
+        "zh": "學生可以透過學校應用程式查看公告。"
+      },
+      {
+        "en": "If parents sign up through the school app, the office can collect responses quickly.",
+        "zh": "如果家長透過學校應用程式報名，辦公室可以快速收集回覆。"
+      },
+      {
+        "en": "The school sends reminders through the school app before major events.",
+        "zh": "學校在大型活動前，透過學校應用程式發送提醒。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "get more parents involved",
+    "meaning": "讓更多家長參與",
+    "examples": [
+      {
+        "en": "They are planning to get more parents involved this year.",
+        "zh": "他們計劃今年讓更多家長參與。"
+      },
+      {
+        "en": "To get more parents involved means to encourage more parents to take part or help.",
+        "zh": "“Get more parents involved” 意思是鼓勵更多家長參加或幫忙。"
+      },
+      {
+        "en": "The school used a family picnic to get more parents involved.",
+        "zh": "學校透過家庭野餐讓更多家長參與。"
+      },
+      {
+        "en": "If we explain the benefits clearly, we may get more parents involved.",
+        "zh": "如果我們清楚解釋好處，可能可以讓更多家長參與。"
+      },
+      {
+        "en": "Getting more parents involved can make school activities warmer and better supported.",
+        "zh": "讓更多家長參與，可以令學校活動更有溫度，也得到更好支援。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "a letter from",
+    "meaning": "由……寫的一封信",
+    "examples": [
+      {
+        "en": "A letter from one of the students could be effective.",
+        "zh": "由其中一名學生寫的一封信可能會有效。"
+      },
+      {
+        "en": "“A letter from” someone means a written message sent by that person.",
+        "zh": "“A letter from” 某人，指由那個人發出的書面訊息。"
+      },
+      {
+        "en": "A letter from the principal explained the new school rules.",
+        "zh": "由校長寫的一封信解釋了新的校規。"
+      },
+      {
+        "en": "Parents may respond warmly to a letter from their own child.",
+        "zh": "家長可能會對由自己孩子寫的一封信作出溫暖回應。"
+      },
+      {
+        "en": "A letter from the student council can make the invitation feel more personal.",
+        "zh": "由學生會寫的一封信可以令邀請感覺更個人化。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "be effective in persuading",
+    "meaning": "有效說服……",
+    "examples": [
+      {
+        "en": "A student’s letter may be effective in persuading parents.",
+        "zh": "學生寫的信可能有效說服家長。"
+      },
+      {
+        "en": "If something is effective in persuading people, it helps change their minds or encourages them to act.",
+        "zh": "如果某事 is effective in persuading people，意思是它有助改變他們的想法或鼓勵他們行動。"
+      },
+      {
+        "en": "Real stories are often effective in persuading people to donate.",
+        "zh": "真實故事通常有效說服人捐款。"
+      },
+      {
+        "en": "A clear poster can be effective in persuading students to join an event.",
+        "zh": "清晰海報可以有效說服學生參加活動。"
+      },
+      {
+        "en": "The speech was effective in persuading parents because it explained the benefits simply.",
+        "zh": "那場演講有效說服家長，因為它簡單解釋了好處。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "especially once",
+    "meaning": "尤其是一旦……",
+    "examples": [
+      {
+        "en": "The letter may persuade parents, especially once they hear about the benefits.",
+        "zh": "這封信可能會說服家長，尤其是一旦他們聽到有關好處。"
+      },
+      {
+        "en": "“Especially once” means particularly after a certain thing happens.",
+        "zh": "“Especially once” 表示特別是在某事發生之後。"
+      },
+      {
+        "en": "Students may enjoy the workshop, especially once they try the first activity.",
+        "zh": "學生可能會喜歡工作坊，尤其是一旦他們試過第一個活動。"
+      },
+      {
+        "en": "Parents may support the plan, especially once they understand the safety measures.",
+        "zh": "家長可能會支持計劃，尤其是一旦他們了解安全措施。"
+      },
+      {
+        "en": "The event will feel easier, especially once volunteers know their roles.",
+        "zh": "活動會變得較容易，尤其是一旦義工知道自己的角色。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "hear about the benefits",
+    "meaning": "聽到有關好處",
+    "examples": [
+      {
+        "en": "Parents may be more willing once they hear about the benefits.",
+        "zh": "家長一旦聽到有關好處，可能會更願意參與。"
+      },
+      {
+        "en": "To hear about the benefits means to learn what good results something can bring.",
+        "zh": "“Hear about the benefits” 意思是了解某事可以帶來甚麼好結果。"
+      },
+      {
+        "en": "Students may join the reading club after they hear about the benefits.",
+        "zh": "學生聽到有關閱讀學會的好處後，可能會加入。"
+      },
+      {
+        "en": "If parents hear about the benefits of volunteering, they may sign up.",
+        "zh": "如果家長聽到有關做義工的好處，他們可能會報名。"
+      },
+      {
+        "en": "The poster helps people hear about the benefits before they decide.",
+        "zh": "海報幫助人們在決定前聽到有關好處。"
+      }
+    ],
+    "sourcePage": 12,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "have someone in mind",
+    "meaning": "心目中有人選",
+    "examples": [
+      {
+        "en": "David asks whether John has someone in mind for the letter.",
+        "zh": "David 問 John 心目中是否有寫信的人選。"
+      },
+      {
+        "en": "To have someone in mind means to already be thinking of a particular person.",
+        "zh": "“Have someone in mind” 意思是已經想到某個特定的人。"
+      },
+      {
+        "en": "Do you have someone in mind for the class representative role?",
+        "zh": "對於班代表這個角色，你心目中有人選嗎？"
+      },
+      {
+        "en": "If we need a speaker, I have someone in mind who knows the topic well.",
+        "zh": "如果我們需要講者，我心目中有一位很熟悉題目的人選。"
+      },
+      {
+        "en": "The teacher had a student in mind for the opening speech.",
+        "zh": "老師心目中有一位學生負責開場演講。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "president of the Healthy Living Club",
+    "meaning": "健康生活學會主席",
+    "examples": [
+      {
+        "en": "Nico Lin is president of the Healthy Living Club.",
+        "zh": "Nico Lin 是健康生活學會主席。"
+      },
+      {
+        "en": "The president of the Healthy Living Club is the student leader of that club.",
+        "zh": "健康生活學會主席是該學會的學生領袖。"
+      },
+      {
+        "en": "The president of the Healthy Living Club helps plan activities about health and wellbeing.",
+        "zh": "健康生活學會主席協助計劃有關健康和身心狀態的活動。"
+      },
+      {
+        "en": "If the president of the Healthy Living Club writes the letter, parents may trust the message more.",
+        "zh": "如果健康生活學會主席寫信，家長可能會更信任訊息。"
+      },
+      {
+        "en": "The president of the Healthy Living Club spoke about sleep and exercise at assembly.",
+        "zh": "健康生活學會主席在早會上談到睡眠和運動。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "tasks related to",
+    "meaning": "與……相關的任務",
+    "examples": [
+      {
+        "en": "Nico is helping with tasks related to the Wellness Month and the Asian Games Week.",
+        "zh": "Nico 正在幫忙處理與身心健康月和亞運週相關的任務。"
+      },
+      {
+        "en": "Tasks related to an event are jobs connected with that event.",
+        "zh": "“Tasks related to” 某活動，指與該活動有關的工作。"
+      },
+      {
+        "en": "Students helped with tasks related to poster design and registration.",
+        "zh": "學生幫忙處理與海報設計和登記相關的任務。"
+      },
+      {
+        "en": "If many tasks are related to safety, the teacher should check them carefully.",
+        "zh": "如果很多任務與安全相關，老師應仔細檢查。"
+      },
+      {
+        "en": "The club divided tasks related to the school fair among different members.",
+        "zh": "學會把與學校市集相關的任務分配給不同成員。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "good experience for",
+    "meaning": "對……來說是很好的經驗",
+    "examples": [
+      {
+        "en": "This will be good experience for Nico.",
+        "zh": "這對 Nico 來說會是很好的經驗。"
+      },
+      {
+        "en": "If something is good experience for someone, it helps them learn and grow through practice.",
+        "zh": "如果某事 is good experience for 某人，意思是它透過實踐幫助那個人學習和成長。"
+      },
+      {
+        "en": "Helping at the school fair is good experience for student leaders.",
+        "zh": "在學校市集幫忙對學生領袖來說是很好的經驗。"
+      },
+      {
+        "en": "Speaking to parents can be good experience for students who want to build confidence.",
+        "zh": "與家長溝通對想建立信心的學生來說可以是很好的經驗。"
+      },
+      {
+        "en": "This project is good experience for Nico because he can practise planning and communication.",
+        "zh": "這個專題對 Nico 來說是很好的經驗，因為他可以練習計劃和溝通。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "give someone the recording of",
+    "meaning": "把……的錄音給某人",
+    "examples": [
+      {
+        "en": "John will give Nico the recording of today’s meeting.",
+        "zh": "John 會把今天會議的錄音給 Nico。"
+      },
+      {
+        "en": "To give someone the recording of a meeting means to share the audio or video record with that person.",
+        "zh": "“Give someone the recording of” 某會議，意思是把該會議的音訊或影片紀錄分享給那個人。"
+      },
+      {
+        "en": "The teacher gave absent students the recording of the lesson.",
+        "zh": "老師把課堂錄音給缺席學生。"
+      },
+      {
+        "en": "If Nico gets the recording of the meeting, he can check the details later.",
+        "zh": "如果 Nico 得到會議錄音，他之後可以核對細節。"
+      },
+      {
+        "en": "The secretary gave the team the recording of the interview for reference.",
+        "zh": "秘書把面試錄音給團隊作參考。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "make quite a few decisions",
+    "meaning": "作出不少決定",
+    "examples": [
+      {
+        "en": "They have made quite a few decisions about the two events today.",
+        "zh": "他們今天就兩個活動作出了不少決定。"
+      },
+      {
+        "en": "To make quite a few decisions means to decide several things, not just one or two.",
+        "zh": "“Make quite a few decisions” 意思是決定了幾件事，而不只是一兩件。"
+      },
+      {
+        "en": "The committee made quite a few decisions about the concert schedule.",
+        "zh": "委員會就音樂會時間表作出了不少決定。"
+      },
+      {
+        "en": "If a meeting makes quite a few decisions, the team should write them down clearly.",
+        "zh": "如果會議作出不少決定，團隊應清楚記錄下來。"
+      },
+      {
+        "en": "We made quite a few decisions today, including the date, venue, and theme.",
+        "zh": "我們今天作出了不少決定，包括日期、場地和主題。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "cover everything we need to",
+    "meaning": "處理完目前需要處理的事",
+    "examples": [
+      {
+        "en": "They have covered everything they need to for now.",
+        "zh": "他們已經處理完目前需要處理的事。"
+      },
+      {
+        "en": "To cover everything we need to means to discuss or deal with all necessary points.",
+        "zh": "“Cover everything we need to” 意思是討論或處理所有必要事項。"
+      },
+      {
+        "en": "We covered everything we need to before sending the final plan.",
+        "zh": "在發出最終計劃前，我們處理完需要處理的事。"
+      },
+      {
+        "en": "If we do not cover everything we need to, the event may have missing details.",
+        "zh": "如果我們沒有處理完需要處理的事，活動可能會有遺漏細節。"
+      },
+      {
+        "en": "The teacher checked the agenda to make sure they covered everything they needed to.",
+        "zh": "老師檢查議程，確保他們處理完需要處理的事。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "for now",
+    "meaning": "暫時；目前",
+    "examples": [
+      {
+        "en": "They have covered everything they need to for now.",
+        "zh": "他們暫時已處理完需要處理的事。"
+      },
+      {
+        "en": "“For now” means at the present time, though the situation may change later.",
+        "zh": "“For now” 表示目前是這樣，但情況之後可能會改變。"
+      },
+      {
+        "en": "We will keep the meeting online for now.",
+        "zh": "我們暫時會保持網上會議。"
+      },
+      {
+        "en": "For now, please use the old form until the new one is ready.",
+        "zh": "目前請使用舊表格，直到新表格準備好。"
+      },
+      {
+        "en": "The plan is good enough for now, but we may review it next week.",
+        "zh": "這個計劃目前已經足夠，但我們可能下星期再檢視。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "keep in touch",
+    "meaning": "保持聯絡",
+    "examples": [
+      {
+        "en": "They will keep in touch as things progress.",
+        "zh": "隨着事情進展，他們會保持聯絡。"
+      },
+      {
+        "en": "To keep in touch means to continue communicating with someone.",
+        "zh": "“Keep in touch” 意思是繼續與某人溝通。"
+      },
+      {
+        "en": "Please keep in touch after the meeting so we can update each other.",
+        "zh": "會議後請保持聯絡，這樣我們可以互相更新。"
+      },
+      {
+        "en": "If parents keep in touch with the school, problems can be solved earlier.",
+        "zh": "如果家長與學校保持聯絡，問題可以更早解決。"
+      },
+      {
+        "en": "The team kept in touch through email during the holiday.",
+        "zh": "團隊在假期期間透過電郵保持聯絡。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "as things progress",
+    "meaning": "隨着事情進展",
+    "examples": [
+      {
+        "en": "They will update each other as things progress.",
+        "zh": "隨着事情進展，他們會互相更新。"
+      },
+      {
+        "en": "“As things progress” means while the situation develops or moves forward.",
+        "zh": "“As things progress” 表示隨着情況發展或推進。"
+      },
+      {
+        "en": "We will make changes as things progress.",
+        "zh": "隨着事情進展，我們會作出改動。"
+      },
+      {
+        "en": "As things progress, the school may need more volunteers.",
+        "zh": "隨着事情進展，學校可能需要更多義工。"
+      },
+      {
+        "en": "The team will review the plan as things progress and new information appears.",
+        "zh": "團隊會隨着事情進展和新資料出現而檢視計劃。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "Speak soon",
+    "meaning": "遲些再談",
+    "examples": [
+      {
+        "en": "Speak soon, Dr Chan.",
+        "zh": "遲些再談，Chan 博士。"
+      },
+      {
+        "en": "“Speak soon” is a friendly way to say you expect to talk again soon.",
+        "zh": "“Speak soon” 是友善地表示很快會再談的方法。"
+      },
+      {
+        "en": "Thanks for the update. Speak soon.",
+        "zh": "謝謝你的更新。遲些再談。"
+      },
+      {
+        "en": "At the end of an email, “speak soon” sounds warmer than a plain goodbye.",
+        "zh": "在電郵結尾，“speak soon” 比單純說再見更親切。"
+      },
+      {
+        "en": "We still need to confirm the details, so speak soon.",
+        "zh": "我們仍需要確認細節，所以遲些再談。"
+      }
+    ],
+    "sourcePage": 13,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  },
+  {
+    "front": "See you later",
+    "meaning": "遲些見",
+    "examples": [
+      {
+        "en": "See you later.",
+        "zh": "遲些見。"
+      },
+      {
+        "en": "“See you later” is a casual goodbye used when you expect to meet or speak again later.",
+        "zh": "“See you later” 是一種輕鬆告別語，用於預期稍後再見或再談時。"
+      },
+      {
+        "en": "I have to go to class now. See you later.",
+        "zh": "我現在要去上課。遲些見。"
+      },
+      {
+        "en": "Friends often say “see you later” when leaving school.",
+        "zh": "朋友離開學校時常說 “see you later”。"
+      },
+      {
+        "en": "See you later at the meeting this afternoon.",
+        "zh": "今天下午會議上遲些見。"
+      }
+    ],
+    "sourcePage": 14,
+    "source": "Flash Card 2025 DSE Podcast.pdf"
+  }
+]
 };
 window.EDMUND_FLASHCARD_SEED = window.EDMUND_FLASHCARD_SEED || {};
 Object.assign(window.EDMUND_FLASHCARD_SEED, window.EDMUND_DSE_LISTENING_SEED);

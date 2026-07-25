@@ -101,7 +101,7 @@ for (const [index, source] of inlineScripts.entries()) {
 assert(html.includes('const IELTS_READING_PASSAGE_1_DATA_URL = "flashcards-ielts-reading-passage-1-data.js?v=20260722-1"'), "Passage 1 lazy-load URL is missing");
 assert(!html.includes('<script src="flashcards-ielts-reading-passage-1-data.js'), "Passage 1 data should not block the login page");
 assert(html.includes("await ensureIeltsReadingPassage1Data()"), "IELTS Reading does not wait for its Passage 1 data");
-assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260725-1"></script>'), "Flashcard audio cache key is stale");
+assert(html.includes('<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260726-1"></script>'), "Flashcard audio cache key is stale");
 assert(html.includes("ieltsReadingPracticesForPassage(passage)"), "IELTS Reading chooser is not using passage-specific decks");
 assert(html.includes("ieltsReadingPracticeLabel(passage, practice)"), "IELTS Reading chooser is not rendering passage titles");
 const inlineSeed = parseAssignment(html, "window.EDMUND_FLASHCARD_SEED = ", ";\n  </script>");
@@ -121,7 +121,7 @@ if (!dataOnly) {
     ");\n"
   );
   assert(audioMeta.complete === true, "Flashcard audio manifest is incomplete");
-  assert(audioMeta.count === 62213, `Expected 62,213 manifest entries, found ${audioMeta.count}`);
+  assert(audioMeta.count === 62933, `Expected 62,933 manifest entries, found ${audioMeta.count}`);
   const cloudIndex = JSON.parse(read("workers/edmund-audio/src/flashcard-pack-index.json"));
   assert(cloudIndex.schemaVersion === 1, "Flashcard cloud-pack index schema is invalid");
   assert(cloudIndex.meta?.entryCount === 27280, `Expected 27,280 cloud recordings, found ${cloudIndex.meta?.entryCount}`);

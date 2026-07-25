@@ -58,6 +58,12 @@ def main() -> int:
         "Kabaddi": "kuh buh dee",
         "Sepak Takraw": "suh pack tack raw",
         "Wushu": "woo shoo",
+        "API level": "A P I level",
+        "PR department": "P R department",
+        "change the URL": "change the U R L",
+        "such as LEDs": "such as L E D lights",
+        "back in 1980": "back in nineteen eighty",
+        "measure 95 cm by 65 cm": "measure ninety-five centimetres by sixty-five centimetres",
     }
     failures = []
     for display_text, expected in cases.items():

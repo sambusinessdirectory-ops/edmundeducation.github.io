@@ -131,6 +131,9 @@ SPOKEN_OVERRIDES = {
     "o-daiko": "oh dye koh",
     "officers from the AFCD": "officers from the A F C D",
     "QR codes": "Q R codes",
+    "such as LEDs": "such as L E D lights",
+    "back in 1980": "back in nineteen eighty",
+    "measure 95 cm by 65 cm": "measure ninety-five centimetres by sixty-five centimetres",
     "start at A5": "start at A five",
     "start on A4": "start on A four",
     "Study at AC": "Study at A C",
@@ -275,7 +278,7 @@ def spoken_text(display_text: str) -> str:
         "USA", "DIY", "LED", "DSE", "RAE", "US", "UK", "HK", "IQ", "EQ", "DS", "BC",
         "BCE", "UN", "CD", "AFM", "GDP", "HIV", "GM", "ADHD", "EV", "SMS", "MTV", "ID",
         "ZEV", "GSM", "IPCC", "DC", "ESA", "ATM", "LPG", "LP", "USB", "MRI", "FA", "WA",
-        "EP", "AMP", "AD",
+        "EP", "AMP", "AD", "API", "PR", "URL",
     ):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
     text = re.sub(r"£\s*([\d,]+)", r"\1 pounds", text)

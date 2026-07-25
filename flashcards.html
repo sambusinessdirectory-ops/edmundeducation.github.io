@@ -183506,7 +183506,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-ielts-writing-opinions-3-38-express-32-43-data.js?v=20260714-1"></script>
   <script src="flashcards-ielts-writing-opinions-39-82-data.js?v=20260713-1"></script>
   <script src="flashcards-dse-writing-2025-data.js?v=20260711-1"></script>
-  <script src="flashcards-dse-listening-data.js?v=20260712-2"></script>
+  <script src="flashcards-dse-listening-data.js?v=20260726-1"></script>
   <script src="flashcards-dse-paper3-b2-2024-data.js?v=20260725-1"></script>
   <script src="flashcards-dse-paper3-b2-2025-data.js?v=20260725-1"></script>
   <script src="flashcards-dse-speaking-2012-data.js?v=20260713-1"></script>
@@ -183519,7 +183519,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260725-1"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260726-1"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -183614,6 +183614,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const dseListeningYears = dseYears.filter(
       year => !["2012 Sample", "2012 Practice"].includes(year)
     );
+    const dsePodcastYears = ["2019", "2020", "2021", "2022", "2024", "2025"];
 
     function dseListeningYearLabel(year) {
       return year === "2012 DSE" ? "2012" : year;
@@ -186471,7 +186472,7 @@ window.EDMUND_FLASHCARD_SEED = {
         questions.forEach(question => addExact(`${yearId}/${question}`, `DSE / Writing / Part B / ${year} / ${dseWritingPartBQuestionTitle(year, question)}`));
       });
 
-      addAggregate("dse/paper-3", "DSE / Paper 3", 4);
+      addAggregate("dse/paper-3", "DSE / Paper 3", 5);
       const paper3Sections = [
         { id: "part-a-listening", label: "Part A (Listening)", taskMode: true },
         { id: "part-b-data-file-b1", label: "Part B (Data File) - B1" },
@@ -186491,6 +186492,11 @@ window.EDMUND_FLASHCARD_SEED = {
             addExact(yearId, `DSE / Paper 3 / ${section.label} / ${displayYear}`);
           }
         });
+      });
+      const podcastId = "dse/paper-3/podcast";
+      addAggregate(podcastId, "DSE / Paper 3 / Podcast", dsePodcastYears.length);
+      dsePodcastYears.forEach(year => {
+        addExact(`${podcastId}/${year}`, `DSE / Paper 3 / Podcast / ${year}`);
       });
       const practicalWritingId = "dse/paper-3/practical-english-writing";
       const practicalWritingTitle = "DSE / Paper 3 / 實用文格式 + 範文 Practical English Writing";
@@ -187887,13 +187893,23 @@ window.EDMUND_FLASHCARD_SEED = {
     function showDsePaper3() {
       showOptions(
         "DSE Paper 3",
-        "先選擇 Listening 或 Data File 部分。",
+        "先選擇 Listening、Data File、Podcast 或實用文部分。",
         () => routeColumnHtml("Paper 3", [
           { label: "Part A (Listening)", route: "dse-paper3-part-a", metaPrefix: "dse/paper-3/part-a-listening" },
           { label: "Part B (Data File) - B1", route: "dse-paper3-b1", metaPrefix: "dse/paper-3/part-b-data-file-b1" },
           { label: "Part B (Data File) - B2", route: "dse-paper3-b2", metaPrefix: "dse/paper-3/part-b-data-file-b2" },
+          { label: "Podcast", route: "dse-paper3-podcast", metaPrefix: "dse/paper-3/podcast" },
           { label: "實用文格式 + 範文\nPractical English Writing", route: "dse-paper3-practical-writing", metaPrefix: "dse/paper-3/practical-english-writing" }
         ]),
+        "columns-grid one"
+      );
+    }
+
+    function showDsePaper3Podcast() {
+      showOptions(
+        "DSE Paper 3 Podcast",
+        "選擇年份。",
+        () => columnHtml("Podcast", dsePodcastYears, "dse/paper-3/podcast"),
         "columns-grid one"
       );
     }
@@ -190777,6 +190793,7 @@ window.EDMUND_FLASHCARD_SEED = {
           if (route === "dse-paper3-part-a") showDsePaper3Years("part-a");
           if (route === "dse-paper3-b1") showDsePaper3Years("b1");
           if (route === "dse-paper3-b2") showDsePaper3Years("b2");
+          if (route === "dse-paper3-podcast") showDsePaper3Podcast();
           if (route === "dse-paper3-practical-writing") showDsePaper3PracticalWriting();
           if (route === "dse-paper3-practical-formats") showDsePaper3PracticalFormats();
           if (route.startsWith("dse-paper3-tasks|")) showDsePaper3Tasks(route.split("|")[1]);
