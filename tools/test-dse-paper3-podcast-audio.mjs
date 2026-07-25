@@ -8,7 +8,10 @@ import { fileURLToPath } from "node:url";
 
 const toolsDir = path.dirname(fileURLToPath(import.meta.url));
 const siteDir = path.resolve(toolsDir, "..");
-const years = ["2019", "2020", "2021", "2022", "2024", "2025"];
+const years = [
+  "2012", "2013", "2014", "2015", "2016", "2017", "2018",
+  "2019", "2020", "2021", "2022", "2024", "2025",
+];
 const sandbox = { window: {} };
 
 function run(relativePath) {
@@ -63,5 +66,5 @@ for (const year of years) {
 }
 
 assert.deepEqual(missing, [], `Missing Podcast audio:\n${missing.join("\n")}`);
-assert.equal(checkedCards, 851, "All 851 Podcast card rows must have neural audio");
-console.log("DSE Paper 3 Podcast audio checks passed: 851/851 card rows covered.");
+assert.equal(checkedCards, 1714, "All 1,714 Podcast card rows must have neural audio");
+console.log("DSE Paper 3 Podcast audio checks passed: 1,714/1,714 card rows covered.");

@@ -133,6 +133,7 @@ SPOKEN_OVERRIDES = {
     "QR codes": "Q R codes",
     "such as LEDs": "such as L E D lights",
     "back in 1980": "back in nineteen eighty",
+    "by the 1980s": "by the nineteen eighties",
     "measure 95 cm by 65 cm": "measure ninety-five centimetres by sixty-five centimetres",
     "start at A5": "start at A five",
     "start on A4": "start on A four",

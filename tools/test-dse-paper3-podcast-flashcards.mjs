@@ -12,6 +12,48 @@ const dataFile = "flashcards-dse-listening-data.js";
 const html = fs.readFileSync(path.join(siteDir, "flashcards.html"), "utf8");
 const dataSource = fs.readFileSync(path.join(siteDir, dataFile), "utf8");
 const expected = {
+  "2012": {
+    count: 122,
+    pages: 12,
+    first: "be delighted to have",
+    last: "thanks for coming into",
+  },
+  "2013": {
+    count: 134,
+    pages: 13,
+    first: "this week’s edition",
+    last: "see you all next week",
+  },
+  "2014": {
+    count: 137,
+    pages: 13,
+    first: "exotic pets in Hong Kong",
+    last: "keeping goldfish",
+  },
+  "2015": {
+    count: 115,
+    pages: 11,
+    first: "conference call transcript",
+    last: "Bye for now",
+  },
+  "2016": {
+    count: 109,
+    pages: 10,
+    first: "leading weekly podcast",
+    last: "good luck with",
+  },
+  "2017": {
+    count: 130,
+    pages: 12,
+    first: "listeners",
+    last: "come in",
+  },
+  "2018": {
+    count: 116,
+    pages: 11,
+    first: "welcome to today’s edition of",
+    last: "chat to us",
+  },
   "2019": {
     count: 154,
     pages: 14,
@@ -88,13 +130,13 @@ for (const [year, details] of Object.entries(expected)) {
   }
 }
 
-assert.equal(checkedCards, 851, "All six Podcast PDFs must contribute 851 cards");
+assert.equal(checkedCards, 1714, "All 13 Podcast PDFs must contribute 1,714 cards");
 assert.match(
   html,
-  /const dsePodcastYears = \["2019", "2020", "2021", "2022", "2024", "2025"\];/
+  /const dsePodcastYears = \["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2024", "2025"\];/
 );
 assert.match(html, /route: "dse-paper3-podcast", metaPrefix: "dse\/paper-3\/podcast"/);
 assert.match(html, /if \(route === "dse-paper3-podcast"\) showDsePaper3Podcast\(\);/);
-assert.match(html, /flashcards-dse-listening-data\.js\?v=20260726-1/);
+assert.match(html, /flashcards-dse-listening-data\.js\?v=20260726-2/);
 
-console.log("DSE Paper 3 Podcast checks passed: 851 cards across six year decks.");
+console.log("DSE Paper 3 Podcast checks passed: 1,714 cards across 13 year decks.");
