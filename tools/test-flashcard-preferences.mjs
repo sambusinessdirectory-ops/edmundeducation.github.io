@@ -16,6 +16,10 @@ function sourceBetween(startMarker, endMarker) {
 }
 
 assert.match(source, /const DISPLAY_PREFERENCES_KEY = "edmundFlashcardUiPreferences";/);
+assert.match(
+  source,
+  /const DISPLAY_PREFERENCES_LOCAL_PREFIX = "edmundFlashcardUiPreferences::account::";/
+);
 assert.doesNotMatch(
   sourceBetween("const DISPLAY_PREFERENCES_KEY", "const BOOKMARK_DECK_ID"),
   /edmundStudentDisplayPreferences/,
@@ -40,11 +44,19 @@ assert.match(renderControl, /toggle\.disabled = displayPreferenceSaveInFlight \|
 
 const resetPreferences = sourceBetween(
   "function resetFlashcardDisplayPreferences()",
-  "function hydrateFlashcardDisplayPreferences()"
+  "function hydrateFlashcardDisplayPreferences(options = {})"
 );
 assert.match(resetPreferences, /delete remoteStore\[DISPLAY_PREFERENCES_KEY\]/);
 assert.match(resetPreferences, /hideLockedSections = false/);
 assert.match(resetPreferences, /displayPreferencesHydratedOwner = ""/);
+
+const hydratePreferences = sourceBetween(
+  "function hydrateFlashcardDisplayPreferences(options = {})",
+  "async function persistFlashcardHideLockedSections(nextHidden)"
+);
+assert.match(hydratePreferences, /freshestDisplayPreferences\(options\)/);
+assert.match(hydratePreferences, /cacheAccountDisplayPreferences\(preferences\)/);
+assert.match(hydratePreferences, /options\.localOnly/);
 
 const persistPreferences = sourceBetween(
   "async function persistFlashcardHideLockedSections(nextHidden)",
@@ -52,16 +64,16 @@ const persistPreferences = sourceBetween(
 );
 assert.match(
   persistPreferences,
-  /const nextPreferences = \{\s*\.\.\.previousPreferences,\s*flashcardHideLockedSections: Boolean\(nextHidden\)/s
+  /const nextPreferences = \{\s*\.\.\.previousPreferences,\s*flashcardHideLockedSections: Boolean\(nextHidden\),\s*flashcardUiPreferencesUpdatedAt: Date\.now\(\)/s
 );
 assert.match(
   persistPreferences,
   /await saveSupabaseState\(DISPLAY_PREFERENCES_KEY, nextPreferences, \{ silent: true \}\)/
 );
 assert.match(persistPreferences, /if \(!saved\) \{/);
-assert.match(persistPreferences, /hideLockedSections = previousHidden/);
-assert.match(persistPreferences, /remoteStore\[DISPLAY_PREFERENCES_KEY\] = previousPreferences/);
-assert.match(persistPreferences, /Supabase: preference save failed/);
+assert.match(persistPreferences, /cacheAccountDisplayPreferences\(nextPreferences\)/);
+assert.doesNotMatch(persistPreferences, /hideLockedSections = previousHidden/);
+assert.match(persistPreferences, /Supabase: preference saved on this device/);
 
 const normalLogin = sourceBetween("async function login(username, password)", "function getKnownDeckIds()");
 const loginLoad = normalLogin.indexOf("await loadStudentStateFromSupabase()");
@@ -77,6 +89,20 @@ assert.match(
 assert.match(
   restoredLoad,
   /loadStudentStateFromSupabase\(\)[\s\S]*hydrateFlashcardDisplayPreferences\(\)/
+);
+
+const sessionSetup = sourceBetween("function setSession(user)", "function clearSession()");
+assert.match(
+  sessionSetup,
+  /currentUser = user;[\s\S]*hydrateFlashcardDisplayPreferences\(\{ localOnly: true \}\)[\s\S]*sessionStorage\.setItem/s,
+  "Account-scoped local preferences must hydrate before the session can render its dashboard"
+);
+
+const restoredSession = sourceBetween("function restoreSession()", "function discardRestoredStudentForUniversalSession");
+assert.match(
+  restoredSession,
+  /saved\.role === "student"[\s\S]*hydrateFlashcardDisplayPreferences\(\{ localOnly: true \}\)/,
+  "A restored student session must hydrate local preferences before the first dashboard paint"
 );
 
 const adminSwitch = sourceBetween("async function switchAdminToStudent(studentName)", "function returnToAdminAccount()");

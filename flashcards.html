@@ -29,6 +29,7 @@
       --orange: #f97316;
       --orange-dark: #c2410c;
       --shadow: rgba(17,43,85,0.14);
+      --flashcard-sticky-header-height: 76px;
     }
 
     html { scroll-behavior: smooth; }
@@ -2372,6 +2373,77 @@
       box-shadow:
         inset 0 2px 0 rgba(255,255,255,0.88),
         0 18px 38px rgba(17,43,85,0.12);
+      scroll-margin-top: 18px;
+      touch-action: pan-y pinch-zoom;
+      transform: translate3d(0, 0, 0);
+      transform-origin: 50% 72%;
+      transition:
+        transform 0.24s cubic-bezier(0.22, 0.78, 0.24, 1),
+        opacity 0.2s ease,
+        border-color 0.18s ease,
+        box-shadow 0.18s ease;
+      will-change: transform;
+    }
+
+    .flash-frame::after {
+      content: attr(data-swipe-label);
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      z-index: 8;
+      min-width: 132px;
+      padding: 10px 18px;
+      border: 4px solid currentColor;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.94);
+      color: transparent;
+      font-size: clamp(24px, 3.2vw, 42px);
+      line-height: 1;
+      font-weight: 950;
+      text-align: center;
+      opacity: var(--swipe-intensity, 0);
+      pointer-events: none;
+      transform: translateX(-50%) rotate(var(--swipe-stamp-rotation, 0deg)) scale(calc(0.84 + (var(--swipe-intensity, 0) * 0.16)));
+      transition: opacity 0.08s linear, transform 0.08s linear;
+    }
+
+    .flash-frame.swipe-right::after {
+      color: #15803d;
+      box-shadow: 0 14px 30px rgba(22,163,74,0.18);
+    }
+
+    .flash-frame.swipe-left::after {
+      color: #b91c1c;
+      box-shadow: 0 14px 30px rgba(220,38,38,0.18);
+    }
+
+    .flash-frame.swipe-dragging {
+      transition: none;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    .flash-frame.swipe-committing {
+      pointer-events: none;
+      opacity: 0.08;
+      transition:
+        transform 0.22s cubic-bezier(0.32, 0.72, 0, 1),
+        opacity 0.2s ease;
+    }
+
+    .flash-frame.swipe-entering {
+      animation: study-card-enter 0.28s cubic-bezier(0.22, 0.78, 0.24, 1);
+    }
+
+    @keyframes study-card-enter {
+      from {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0) scale(0.985);
+      }
+      to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+      }
     }
 
     .flash-frame.front {
@@ -2463,8 +2535,41 @@
       gap: 18px;
       align-content: start;
       min-width: 0;
-      position: relative;
+      position: sticky;
+      top: calc(var(--flashcard-sticky-header-height) + 16px);
+      align-self: start;
+      max-height: calc(100dvh - var(--flashcard-sticky-header-height) - 32px);
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+      padding: 4px 4px 14px;
       z-index: 2;
+    }
+
+    .study-action-dock {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: start;
+    }
+
+    .mobile-study-tools {
+      display: none;
+      width: 104px;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .mobile-study-tools .secondary-button {
+      width: 100%;
+      min-height: 42px;
+      padding: 0 8px;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .mobile-countdown {
+      display: none;
     }
 
     .card-note-panel {
@@ -3050,6 +3155,42 @@
       display: none !important;
     }
 
+    @media (max-width: 1080px), (any-pointer: coarse) {
+      .front-stage > .card-nav,
+      .desktop-countdown {
+        display: none !important;
+      }
+
+      .mobile-study-tools {
+        display: grid;
+      }
+
+      .mobile-countdown:not(.hidden) {
+        display: block;
+      }
+
+      .mobile-countdown {
+        position: relative;
+        inset: auto;
+        width: 90px;
+        min-height: 84px;
+        margin: 0 auto;
+        z-index: 1;
+      }
+
+      .mobile-countdown img {
+        width: 78px;
+      }
+
+      .mobile-countdown strong {
+        left: 54.5%;
+        top: 54px;
+        width: 32px;
+        height: 32px;
+        font-size: 17px;
+      }
+    }
+
     @media (max-width: 1080px) {
       html, body, a, button, input, textarea { cursor: auto; }
       .custom-cursor { display: none; }
@@ -3082,15 +3223,18 @@
       }
 
       .study-layout {
-        grid-template-columns: minmax(0, 1fr);
+        grid-template-columns: minmax(0, 1fr) minmax(250px, 300px);
+        gap: 16px;
       }
 
       .study-side {
-        grid-column: auto;
-        width: min(100%, 380px);
+        grid-column: 2;
+        width: 100%;
+        top: calc(var(--flashcard-sticky-header-height) + 12px);
+        max-height: calc(100dvh - var(--flashcard-sticky-header-height) - 24px);
       }
 
-      .countdown-clock {
+      .desktop-countdown {
         position: fixed;
         left: 8px;
         top: clamp(230px, 30vh, 340px);
@@ -3098,11 +3242,11 @@
         min-height: 100px;
       }
 
-      .countdown-clock img {
+      .desktop-countdown img {
         width: 82px;
       }
 
-      .countdown-clock strong {
+      .desktop-countdown strong {
         left: 54.5%;
         top: 57px;
         width: 34px;
@@ -3120,16 +3264,51 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
-      .front-stage .card-nav {
-        flex-direction: column;
-        left: -124px;
-        width: 108px;
+      .action-rail {
+        grid-template-columns: minmax(0, 1fr);
+        justify-content: start;
+        justify-items: start;
       }
 
-      .action-rail {
-        grid-template-columns: repeat(2, minmax(0, auto));
-        justify-content: center;
-        justify-items: center;
+      .round-button {
+        width: 82px;
+        height: 82px;
+        font-size: 40px;
+      }
+
+      .mouse-click-icon {
+        width: 46px;
+        height: 66px;
+      }
+
+      .mouse-click-icon::before {
+        width: 19px;
+        height: 26px;
+      }
+
+      .mobile-study-tools {
+        width: 92px;
+      }
+
+      .mobile-countdown {
+        position: relative;
+        inset: auto;
+        width: 82px;
+        min-height: 78px;
+        margin: 0 auto;
+        z-index: 1;
+      }
+
+      .mobile-countdown img {
+        width: 72px;
+      }
+
+      .mobile-countdown strong {
+        left: 54.5%;
+        top: 50px;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
       }
     }
 
@@ -3173,6 +3352,10 @@
         padding: 22px;
       }
 
+      .deck-card[data-deck-view] {
+        padding: 14px;
+      }
+
       .form-row,
       .exam-grid,
       .resource-columns,
@@ -3199,10 +3382,12 @@
       }
 
       .study-layout {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
       }
 
-      .countdown-clock {
+      .desktop-countdown {
         position: fixed;
         left: 4px;
         top: 146px;
@@ -3211,11 +3396,11 @@
         margin: 0;
       }
 
-      .countdown-clock img {
+      .desktop-countdown img {
         width: 68px;
       }
 
-      .countdown-clock strong {
+      .desktop-countdown strong {
         left: 54.5%;
         top: 47px;
         width: 28px;
@@ -3224,13 +3409,152 @@
       }
 
       .study-side {
-        grid-column: auto;
+        order: -1;
         width: 100%;
+        grid-template-columns: minmax(142px, 1fr) minmax(100px, 0.72fr);
+        gap: 8px;
+        position: sticky;
+        top: calc(var(--flashcard-sticky-header-height) + max(6px, env(safe-area-inset-top)));
+        max-height: none;
+        overflow: visible;
+        padding: 8px;
+        border: 1px solid rgba(47,128,237,0.18);
+        border-radius: 18px;
+        background: rgba(247,251,255,0.94);
+        box-shadow: 0 16px 34px rgba(17,43,85,0.16);
+        backdrop-filter: blur(14px);
+        z-index: 45;
+      }
+
+      .study-main {
+        order: 1;
+      }
+
+      .study-action-dock {
+        grid-template-columns: minmax(76px, 1fr) 62px;
+        gap: 6px;
+      }
+
+      .action-rail {
+        gap: 8px;
+        padding-top: 0;
+      }
+
+      .action-row {
+        gap: 5px;
+      }
+
+      .round-button {
+        width: 48px;
+        height: 48px;
+        font-size: 28px;
+      }
+
+      .mouse-click-icon {
+        width: 28px;
+        height: 42px;
+        border-radius: 14px 14px 16px 16px;
+      }
+
+      .mouse-click-icon::before {
+        top: 3px;
+        width: 12px;
+        height: 17px;
+      }
+
+      .mouse-click-icon.left::before {
+        left: 3px;
+      }
+
+      .mouse-click-icon.right::before {
+        right: 3px;
+      }
+
+      .mouse-click-icon::after {
+        top: 3px;
+        width: 4px;
+        height: 21px;
+      }
+
+      .mobile-study-tools {
+        width: 62px;
+        gap: 4px;
+      }
+
+      .mobile-study-tools .secondary-button {
+        min-height: 30px;
+        padding: 0 3px;
+        font-size: 10px;
+      }
+
+      .mobile-countdown {
+        width: 56px;
+        min-height: 48px;
+      }
+
+      .mobile-countdown img {
+        width: 50px;
+      }
+
+      .mobile-countdown strong {
+        top: 35px;
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+      }
+
+      .card-note-panel {
+        gap: 5px;
+        padding: 8px;
+        border-radius: 14px;
+      }
+
+      .card-note-panel h3 {
+        font-size: 15px;
+      }
+
+      .card-note-panel p {
+        display: none;
+      }
+
+      .card-note-panel textarea {
+        min-height: 46px;
+        max-height: 72px;
+        padding: 7px;
+        border-radius: 10px;
+        font-size: 11px;
+      }
+
+      .card-note-panel .secondary-button {
+        min-height: 32px;
+        padding: 0 6px;
+        font-size: 11px;
+      }
+
+      .card-note-status {
+        min-height: 0;
+        font-size: 9px;
+      }
+
+      .flash-frame.back {
+        scroll-margin-top: 170px;
       }
 
       .front-term,
       .back-term {
         font-size: clamp(34px, 12vw, 58px);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      .flash-frame,
+      .flash-frame::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
       }
     }
   </style>
@@ -3724,7 +4048,7 @@
             </div>
           </div>
 
-          <div class="countdown-clock hidden" data-countdown-clock>
+          <div class="countdown-clock desktop-countdown hidden" data-countdown-clock>
             <img src="assets/flashcards/mascot-clock.png" alt="" aria-hidden="true">
             <strong data-countdown-number></strong>
           </div>
@@ -3754,14 +4078,25 @@
             </div>
 
             <aside class="study-side">
-              <div class="action-rail">
-                <div class="action-row">
-                  <button class="round-button green" type="button" data-mark-card="green" disabled aria-label="I know this card">✓</button>
-                  <span class="mouse-click-icon left" aria-label="Left click for green tick" title="左鍵：綠勾"></span>
+              <div class="study-action-dock">
+                <div class="action-rail">
+                  <div class="action-row">
+                    <button class="round-button green" type="button" data-mark-card="green" disabled aria-label="I know this card">✓</button>
+                    <span class="mouse-click-icon left" aria-label="Left click for green tick" title="左鍵：綠勾"></span>
+                  </div>
+                  <div class="action-row">
+                    <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
+                    <span class="mouse-click-icon right" aria-label="Right click for red cross" title="右鍵：紅叉"></span>
+                  </div>
                 </div>
-                <div class="action-row">
-                  <button class="round-button red" type="button" data-mark-card="red" disabled aria-label="Review this card again">×</button>
-                  <span class="mouse-click-icon right" aria-label="Right click for red cross" title="右鍵：紅叉"></span>
+                <div class="mobile-study-tools" aria-label="流動裝置溫習控制">
+                  <div class="countdown-clock mobile-countdown hidden" data-countdown-clock>
+                    <img src="assets/flashcards/mascot-clock.png" alt="" aria-hidden="true">
+                    <strong data-countdown-number></strong>
+                  </div>
+                  <button class="secondary-button" type="button" data-prev-study-card>上一張</button>
+                  <button class="secondary-button" type="button" data-reveal-study-card>翻開答案</button>
+                  <button class="secondary-button" type="button" data-next-study-card>下一張</button>
                 </div>
               </div>
               <form class="card-note-panel" data-card-note-form>
@@ -183576,6 +183911,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const STUDENT_MESSAGE_KEY = "edmundFlashcardStudentMessages";
     const DASHBOARD_LAYOUT_KEY = "edmundFlashcardDashboardLayouts";
     const DISPLAY_PREFERENCES_KEY = "edmundFlashcardUiPreferences";
+    const DISPLAY_PREFERENCES_LOCAL_PREFIX = "edmundFlashcardUiPreferences::account::";
     const BOOKMARK_DECK_ID = "__private-bookmarks__";
     const REBUILT_LISTENING_DECK_REVISION = "dse-listening-rebuild-20260712-v1";
     const REBUILT_WRITING_PART_A_2025_DECK_ID = "dse/writing/part-a/2025";
@@ -184432,6 +184768,12 @@ window.EDMUND_FLASHCARD_SEED = {
     let dashboardSelectedMoveKey = "";
     let customCardDragDeckId = "";
     let customCardDragIndex = -1;
+    let studyCardSwipeState = null;
+    let studyCardSwipeAnimationTimer = 0;
+    let studyCardSwipeAnimating = false;
+    let suppressStudyCardClickUntil = 0;
+    let suppressStudyCardContextMenuUntil = 0;
+    let studyHeaderResizeObserver = null;
     let deckCountdownEnabled = localStorage.getItem("edmund-deck-countdown-enabled") === "true";
     let deckCountdownSeconds = Number(localStorage.getItem("edmund-deck-countdown-seconds") || 0);
     let deckReversalEnabled = localStorage.getItem("edmund-deck-reversal-enabled") === "true";
@@ -184780,9 +185122,44 @@ window.EDMUND_FLASHCARD_SEED = {
       return `${String(user.id || "").trim()}::${String(user.name).trim().toLocaleLowerCase()}`;
     }
 
+    function displayPreferenceLocalKey(user = currentUser) {
+      const owner = displayPreferenceOwner(user);
+      return owner ? `${DISPLAY_PREFERENCES_LOCAL_PREFIX}${encodeURIComponent(owner)}` : "";
+    }
+
+    function readAccountDisplayPreferences() {
+      const key = displayPreferenceLocalKey();
+      if (!key) return {};
+      try {
+        const value = JSON.parse(localStorage.getItem(key) || "null");
+        return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+      } catch {
+        return {};
+      }
+    }
+
+    function cacheAccountDisplayPreferences(value) {
+      const key = displayPreferenceLocalKey();
+      if (!key) return false;
+      return cacheJsonLocally(key, value);
+    }
+
+    function displayPreferencesUpdatedAt(value) {
+      return Math.max(0, Number(value?.flashcardUiPreferencesUpdatedAt || 0));
+    }
+
     function currentDisplayPreferences() {
       const value = remoteStore[DISPLAY_PREFERENCES_KEY];
       return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+    }
+
+    function freshestDisplayPreferences(options = {}) {
+      const localPreferences = readAccountDisplayPreferences();
+      if (options.localOnly) return localPreferences;
+      const remotePreferences = currentDisplayPreferences();
+      return displayPreferencesUpdatedAt(localPreferences) > displayPreferencesUpdatedAt(remotePreferences)
+        ? { ...remotePreferences, ...localPreferences }
+        : { ...localPreferences, ...remotePreferences };
     }
 
     function updateLockedVisibilityControl() {
@@ -184826,14 +185203,30 @@ window.EDMUND_FLASHCARD_SEED = {
       updateLockedVisibilityControl();
     }
 
-    function hydrateFlashcardDisplayPreferences() {
-      const preferences = currentDisplayPreferences();
+    function hydrateFlashcardDisplayPreferences(options = {}) {
+      const remotePreferences = currentDisplayPreferences();
+      const localPreferences = readAccountDisplayPreferences();
+      const preferences = freshestDisplayPreferences(options);
       hideLockedSections = preferences.flashcardHideLockedSections === true;
       showCumulativeProgress = preferences.flashcardShowCumulativeProgress === true;
       yearSortDirection = preferences.flashcardYearSortDirection === "desc" ? "desc" : "asc";
       displayPreferenceSaveInFlight = false;
       displayPreferencesHydratedOwner = displayPreferenceOwner();
+      if (displayPreferencesHydratedOwner) {
+        remoteStore[DISPLAY_PREFERENCES_KEY] = preferences;
+        cacheJsonLocally(DISPLAY_PREFERENCES_KEY, preferences);
+        cacheAccountDisplayPreferences(preferences);
+      }
       updateLockedVisibilityControl();
+
+      if (
+        !options.localOnly
+        && displayPreferencesUpdatedAt(localPreferences) > displayPreferencesUpdatedAt(remotePreferences)
+        && captureSupabaseStateSaveContext()
+        && supabaseState.loaded
+      ) {
+        void saveSupabaseState(DISPLAY_PREFERENCES_KEY, preferences, { silent: true });
+      }
     }
 
     async function persistFlashcardHideLockedSections(nextHidden) {
@@ -184843,27 +185236,25 @@ window.EDMUND_FLASHCARD_SEED = {
         || displayPreferencesHydratedOwner !== displayPreferenceOwner()
       ) return;
       const owner = displayPreferenceOwner();
-      const previousHidden = hideLockedSections;
       const previousPreferences = { ...currentDisplayPreferences() };
       const nextPreferences = {
         ...previousPreferences,
-        flashcardHideLockedSections: Boolean(nextHidden)
+        flashcardHideLockedSections: Boolean(nextHidden),
+        flashcardUiPreferencesUpdatedAt: Date.now()
       };
 
       hideLockedSections = Boolean(nextHidden);
       displayPreferenceSaveInFlight = true;
       remoteStore[DISPLAY_PREFERENCES_KEY] = nextPreferences;
       cacheJsonLocally(DISPLAY_PREFERENCES_KEY, nextPreferences);
+      cacheAccountDisplayPreferences(nextPreferences);
       if (currentView === "dashboard") renderDashboard();
 
       const saved = await saveSupabaseState(DISPLAY_PREFERENCES_KEY, nextPreferences, { silent: true });
       if (displayPreferenceOwner() !== owner) return;
 
       if (!saved) {
-        hideLockedSections = previousHidden;
-        remoteStore[DISPLAY_PREFERENCES_KEY] = previousPreferences;
-        cacheJsonLocally(DISPLAY_PREFERENCES_KEY, previousPreferences);
-        updateSupabaseStatus("Supabase: preference save failed", "error");
+        updateSupabaseStatus("Supabase: preference saved on this device", "warning");
       } else {
         updateSupabaseStatus("Supabase: live", "live");
       }
@@ -184879,26 +185270,24 @@ window.EDMUND_FLASHCARD_SEED = {
         || displayPreferencesHydratedOwner !== displayPreferenceOwner()
       ) return;
       const owner = displayPreferenceOwner();
-      const previousVisible = showCumulativeProgress;
       const previousPreferences = { ...currentDisplayPreferences() };
       const nextPreferences = {
         ...previousPreferences,
-        flashcardShowCumulativeProgress: Boolean(nextVisible)
+        flashcardShowCumulativeProgress: Boolean(nextVisible),
+        flashcardUiPreferencesUpdatedAt: Date.now()
       };
 
       showCumulativeProgress = Boolean(nextVisible);
       displayPreferenceSaveInFlight = true;
       remoteStore[DISPLAY_PREFERENCES_KEY] = nextPreferences;
       cacheJsonLocally(DISPLAY_PREFERENCES_KEY, nextPreferences);
+      cacheAccountDisplayPreferences(nextPreferences);
       renderProgressDashboard();
 
       const saved = await saveSupabaseState(DISPLAY_PREFERENCES_KEY, nextPreferences, { silent: true });
       if (displayPreferenceOwner() !== owner) return;
       if (!saved) {
-        showCumulativeProgress = previousVisible;
-        remoteStore[DISPLAY_PREFERENCES_KEY] = previousPreferences;
-        cacheJsonLocally(DISPLAY_PREFERENCES_KEY, previousPreferences);
-        updateSupabaseStatus("Supabase: preference save failed", "error");
+        updateSupabaseStatus("Supabase: preference saved on this device", "warning");
       } else {
         updateSupabaseStatus("Supabase: live", "live");
       }
@@ -184914,26 +185303,24 @@ window.EDMUND_FLASHCARD_SEED = {
         || displayPreferencesHydratedOwner !== displayPreferenceOwner()
       ) return;
       const owner = displayPreferenceOwner();
-      const previousDirection = yearSortDirection;
       const previousPreferences = { ...currentDisplayPreferences() };
       const nextPreferences = {
         ...previousPreferences,
-        flashcardYearSortDirection: normalizedDirection
+        flashcardYearSortDirection: normalizedDirection,
+        flashcardUiPreferencesUpdatedAt: Date.now()
       };
 
       yearSortDirection = normalizedDirection;
       displayPreferenceSaveInFlight = true;
       remoteStore[DISPLAY_PREFERENCES_KEY] = nextPreferences;
       cacheJsonLocally(DISPLAY_PREFERENCES_KEY, nextPreferences);
+      cacheAccountDisplayPreferences(nextPreferences);
       if (currentView === "options-view") renderOptionsContent();
 
       const saved = await saveSupabaseState(DISPLAY_PREFERENCES_KEY, nextPreferences, { silent: true });
       if (displayPreferenceOwner() !== owner) return;
       if (!saved) {
-        yearSortDirection = previousDirection;
-        remoteStore[DISPLAY_PREFERENCES_KEY] = previousPreferences;
-        cacheJsonLocally(DISPLAY_PREFERENCES_KEY, previousPreferences);
-        updateSupabaseStatus("Supabase: preference save failed", "error");
+        updateSupabaseStatus("Supabase: preference saved on this device", "warning");
       } else {
         updateSupabaseStatus("Supabase: live", "live");
       }
@@ -185622,6 +186009,9 @@ window.EDMUND_FLASHCARD_SEED = {
     function setSession(user) {
       resetFlashcardDisplayPreferences();
       currentUser = user;
+      if (currentUser?.role === "student") {
+        hydrateFlashcardDisplayPreferences({ localOnly: true });
+      }
       sessionStorage.setItem(SESSION_KEY, JSON.stringify(user));
       if (user.role === "student" && user.sessionToken) {
         window.EdmundSystemNav?.rememberStudentSession({
@@ -185663,6 +186053,7 @@ window.EDMUND_FLASHCARD_SEED = {
             if (saved.impersonatedByAdmin) {
               adminPasswordForSession = sessionStorage.getItem(ADMIN_SESSION_PASSWORD_KEY) || "";
             }
+            hydrateFlashcardDisplayPreferences({ localOnly: true });
           }
         }
       } catch {
@@ -185928,6 +186319,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (view === "advanced-search-view") renderAdvancedSearchPage();
       if (view === "deck-view") startStudyTimer();
       if (view !== "deck-view") {
+        cancelStudyCardSwipe();
         stopStudyTimer();
         if (activeSpeechAudio) stopNeuralSpeech({ refresh: false });
       }
@@ -189274,17 +189666,19 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function updateCountdownClock(value, muted = false) {
-      const clock = document.querySelector("[data-countdown-clock]");
-      const number = document.querySelector("[data-countdown-number]");
-      if (!clock || !number) return;
-      clock.classList.remove("hidden");
-      clock.classList.toggle("reviewing", muted);
-      number.textContent = String(Math.max(0, Math.ceil(value)));
+      document.querySelectorAll("[data-countdown-clock]").forEach(clock => {
+        const number = clock.querySelector("[data-countdown-number]");
+        if (!number) return;
+        clock.classList.remove("hidden");
+        clock.classList.toggle("reviewing", muted);
+        number.textContent = String(Math.max(0, Math.ceil(value)));
+      });
     }
 
     function hideCountdownClock() {
-      const clock = document.querySelector("[data-countdown-clock]");
-      if (clock) clock.classList.add("hidden");
+      document.querySelectorAll("[data-countdown-clock]").forEach(clock => {
+        clock.classList.add("hidden");
+      });
     }
 
     function deckTimerSeconds() {
@@ -189350,6 +189744,7 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function advanceAfterCountdownReview() {
       if (!studySession) return;
+      cancelStudyCardSwipe();
       stopCountdownTimers();
       if (answerCounts().answered >= studySession.roundQueue.length) {
         finishRound();
@@ -189359,6 +189754,7 @@ window.EDMUND_FLASHCARD_SEED = {
       studySession.flipped = false;
       saveCurrentProgress();
       renderStudyCard();
+      scheduleCurrentFrontCardScroll();
     }
 
     function startAnswerCheckCountdown() {
@@ -189388,6 +189784,7 @@ window.EDMUND_FLASHCARD_SEED = {
       studySession.flipped = true;
       saveCurrentProgress();
       renderStudyCard();
+      scheduleRevealedBackCardScroll();
       startAnswerCheckCountdown();
     }
 
@@ -189914,8 +190311,9 @@ window.EDMUND_FLASHCARD_SEED = {
       const backCard = document.querySelector("[data-back-card]");
       const greenButton = document.querySelector("[data-mark-card='green']");
       const redButton = document.querySelector("[data-mark-card='red']");
-      const prevButton = document.querySelector("[data-prev-study-card]");
-      const nextButton = document.querySelector("[data-next-study-card]");
+      const prevButtons = document.querySelectorAll("[data-prev-study-card]");
+      const nextButtons = document.querySelectorAll("[data-next-study-card]");
+      const revealButtons = document.querySelectorAll("[data-reveal-study-card]");
       const speakButton = document.querySelector("[data-speak-card]");
       const bookmarkButton = document.querySelector("[data-toggle-card-bookmark]");
       const cardHint = document.querySelector("[data-card-hint]");
@@ -189952,8 +190350,12 @@ window.EDMUND_FLASHCARD_SEED = {
         backCard.classList.add("hidden");
         greenButton.disabled = true;
         redButton.disabled = true;
-        if (prevButton) prevButton.disabled = true;
-        if (nextButton) nextButton.disabled = true;
+        prevButtons.forEach(button => { button.disabled = true; });
+        nextButtons.forEach(button => { button.disabled = true; });
+        revealButtons.forEach(button => {
+          button.disabled = true;
+          button.textContent = "翻開答案";
+        });
         if (speakButton) speakButton.disabled = true;
         if (bookmarkButton) {
           bookmarkButton.disabled = true;
@@ -190004,8 +190406,16 @@ window.EDMUND_FLASHCARD_SEED = {
       backCard.classList.toggle("hidden", !studySession.flipped);
       greenButton.disabled = !studySession.flipped;
       redButton.disabled = !studySession.flipped;
-      if (prevButton) prevButton.disabled = studySession.currentPosition <= 0;
-      if (nextButton) nextButton.disabled = studySession.currentPosition >= studySession.roundQueue.length - 1;
+      prevButtons.forEach(button => {
+        button.disabled = studySession.currentPosition <= 0;
+      });
+      nextButtons.forEach(button => {
+        button.disabled = studySession.currentPosition >= studySession.roundQueue.length - 1;
+      });
+      revealButtons.forEach(button => {
+        button.disabled = studySession.flipped;
+        button.textContent = studySession.flipped ? "已翻開" : "翻開答案";
+      });
       if (speakButton) speakButton.disabled = !canSpeakCard();
       renderNeuralSpeechState();
       if (bookmarkButton) {
@@ -190016,8 +190426,8 @@ window.EDMUND_FLASHCARD_SEED = {
         bookmarkButton.setAttribute("title", bookmarked ? "移除書簽" : "加入書簽");
       }
       if (cardHint) cardHint.textContent = reversalMode
-        ? "中英反轉模式：先看中文，點擊後才顯示例句與英文答案。"
-        : "點擊卡片即可揭示答案。翻開後才可選擇綠勾或紅叉。";
+        ? "中英反轉模式：先看中文，點擊後顯示例句與英文答案；向右掃為綠勾，向左掃為紅叉。"
+        : "點擊卡片即可揭示答案。翻開後可按綠勾／紅叉，或向右／左掃卡。";
       greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
       redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
       if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
@@ -190152,19 +190562,281 @@ window.EDMUND_FLASHCARD_SEED = {
       return playNeuralSpeechText(currentCard()?.front || "");
     }
 
+    function prefersReducedStudyMotion() {
+      return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    }
+
+    function updateStudyStickyHeaderOffset() {
+      const header = document.querySelector(".edmund-system-header");
+      const height = header ? Math.max(0, Math.ceil(header.getBoundingClientRect().height)) : 0;
+      document.documentElement.style.setProperty("--flashcard-sticky-header-height", `${height}px`);
+    }
+
+    function setupStudyStickyHeaderOffset() {
+      updateStudyStickyHeaderOffset();
+      window.requestAnimationFrame(updateStudyStickyHeaderOffset);
+      window.addEventListener("resize", updateStudyStickyHeaderOffset, { passive: true });
+      if (window.ResizeObserver) {
+        studyHeaderResizeObserver?.disconnect();
+        studyHeaderResizeObserver = new ResizeObserver(updateStudyStickyHeaderOffset);
+        const header = document.querySelector(".edmund-system-header");
+        if (header) studyHeaderResizeObserver.observe(header);
+      }
+    }
+
+    function currentStudyCardToken() {
+      if (!studySession || !currentCard()) return "";
+      const cardIndex = studySession.roundQueue[studySession.currentPosition];
+      return [
+        studySession.roundNumber,
+        studySession.currentPosition,
+        cardIndex,
+        studySession.flipped ? "back" : "front"
+      ].join(":");
+    }
+
+    function scrollStudyTargetIntoView(target, options = {}) {
+      if (!target || currentView !== "deck-view") return;
+      const rect = target.getBoundingClientRect();
+      const mobileDock = window.matchMedia("(max-width: 680px)").matches
+        ? document.querySelector(".study-side")
+        : null;
+      const header = document.querySelector(".edmund-system-header");
+      const headerBottom = header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
+      const visibleTop = mobileDock
+        ? Math.max(12, headerBottom + 12, mobileDock.getBoundingClientRect().bottom + 10)
+        : Math.max(12, headerBottom + 12);
+      const fullyVisible = rect.top >= visibleTop && rect.bottom <= window.innerHeight - 12;
+      if (!options.force && fullyVisible) return;
+      const top = Math.max(0, window.scrollY + rect.top - visibleTop);
+      window.scrollTo({
+        top,
+        behavior: prefersReducedStudyMotion() ? "auto" : "smooth"
+      });
+    }
+
+    function scheduleStudyScroll(selector, options = {}) {
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => {
+          scrollStudyTargetIntoView(document.querySelector(selector), options);
+        });
+      });
+    }
+
+    function scheduleRevealedBackCardScroll() {
+      scheduleStudyScroll("[data-back-card]", { force: true });
+    }
+
+    function scheduleCurrentFrontCardScroll() {
+      scheduleStudyScroll("[data-front-card]", { force: true });
+    }
+
+    function classifyStudyCardSwipe(deltaX, deltaY, elapsedMs, cardWidth) {
+      const absX = Math.abs(Number(deltaX || 0));
+      const absY = Math.abs(Number(deltaY || 0));
+      const width = Math.max(1, Number(cardWidth || 1));
+      const elapsed = Math.max(1, Number(elapsedMs || 1));
+      const distanceThreshold = Math.min(118, Math.max(72, width * 0.2));
+      const fastEnough = absX / elapsed >= 0.65 && absX >= 48;
+      if (absX < 48 || absX <= absY * 1.08) return "";
+      if (absX < distanceThreshold && !fastEnough) return "";
+      return deltaX > 0 ? "green" : "red";
+    }
+
+    function studySwipeStartedOnControl(target) {
+      return Boolean(target?.closest?.(
+        "button, a, input, textarea, select, label, [contenteditable='true'], [data-speak-card], [data-toggle-card-bookmark]"
+      ));
+    }
+
+    function clearStudyCardSwipeVisual(frame) {
+      if (!frame) return;
+      frame.classList.remove(
+        "swipe-dragging",
+        "swipe-committing",
+        "swipe-left",
+        "swipe-right"
+      );
+      frame.removeAttribute("data-swipe-label");
+      frame.style.removeProperty("--swipe-intensity");
+      frame.style.removeProperty("--swipe-stamp-rotation");
+      frame.style.removeProperty("transform");
+      frame.style.removeProperty("opacity");
+    }
+
+    function cancelStudyCardSwipe() {
+      window.clearTimeout(studyCardSwipeAnimationTimer);
+      studyCardSwipeAnimationTimer = 0;
+      const frame = studyCardSwipeState?.frame
+        || document.querySelector(".flash-frame.swipe-dragging, .flash-frame.swipe-committing");
+      clearStudyCardSwipeVisual(frame);
+      studyCardSwipeState = null;
+      studyCardSwipeAnimating = false;
+    }
+
+    function renderStudyCardSwipe(frame, deltaX) {
+      const width = Math.max(1, frame.getBoundingClientRect().width);
+      const boundedX = Math.max(-width * 0.72, Math.min(width * 0.72, deltaX));
+      const intensity = Math.min(1, Math.abs(boundedX) / Math.min(118, Math.max(72, width * 0.2)));
+      const direction = boundedX >= 0 ? "right" : "left";
+      frame.classList.toggle("swipe-right", direction === "right");
+      frame.classList.toggle("swipe-left", direction === "left");
+      frame.setAttribute("data-swipe-label", direction === "right" ? "✓ 綠勾" : "× 紅叉");
+      frame.style.setProperty("--swipe-intensity", String(intensity));
+      frame.style.setProperty("--swipe-stamp-rotation", direction === "right" ? "-4deg" : "4deg");
+      frame.style.transform = `translate3d(${boundedX}px, 0, 0) rotate(${boundedX / width * 8}deg)`;
+    }
+
+    function animateNextStudyCardEntrance() {
+      if (prefersReducedStudyMotion()) return;
+      const frontCard = document.querySelector("[data-front-card]");
+      if (!frontCard) return;
+      frontCard.classList.remove("swipe-entering");
+      window.requestAnimationFrame(() => {
+        frontCard.classList.add("swipe-entering");
+        window.setTimeout(() => frontCard.classList.remove("swipe-entering"), 320);
+      });
+    }
+
+    function commitStudyCardSwipe(state, result) {
+      const frame = state.frame;
+      const direction = result === "green" ? 1 : -1;
+      const travel = Math.max(window.innerWidth, frame.getBoundingClientRect().width) + 180;
+      studyCardSwipeAnimating = true;
+      frame.classList.remove("swipe-dragging");
+      frame.classList.add("swipe-committing");
+      frame.style.setProperty("--swipe-intensity", "1");
+      frame.style.transform = `translate3d(${direction * travel}px, 0, 0) rotate(${direction * 12}deg)`;
+      frame.style.opacity = "0.08";
+
+      const finish = () => {
+        studyCardSwipeAnimationTimer = 0;
+        const stillSameCard = currentStudyCardToken() === state.cardToken;
+        clearStudyCardSwipeVisual(frame);
+        studyCardSwipeAnimating = false;
+        if (!stillSameCard || !studySession?.flipped) return;
+        markCard(result);
+        animateNextStudyCardEntrance();
+      };
+
+      const duration = prefersReducedStudyMotion() ? 0 : 220;
+      studyCardSwipeAnimationTimer = window.setTimeout(finish, duration);
+    }
+
+    function handleStudyCardPointerDown(event) {
+      if (
+        studyCardSwipeAnimating
+        || currentView !== "deck-view"
+        || !studySession?.flipped
+        || !currentCard()
+        || event.isPrimary === false
+        || event.button !== 0
+        || studySwipeStartedOnControl(event.target)
+      ) return;
+
+      if (event.pointerType === "touch" || event.pointerType === "pen") {
+        suppressStudyCardContextMenuUntil = Date.now() + 1400;
+      }
+      studyCardSwipeState = {
+        pointerId: event.pointerId,
+        frame: event.currentTarget,
+        startX: event.clientX,
+        startY: event.clientY,
+        startedAt: Date.now(),
+        axis: "",
+        captured: false,
+        cardToken: currentStudyCardToken()
+      };
+    }
+
+    function handleStudyCardPointerMove(event) {
+      const state = studyCardSwipeState;
+      if (!state || state.pointerId !== event.pointerId || state.frame !== event.currentTarget) return;
+      const deltaX = event.clientX - state.startX;
+      const deltaY = event.clientY - state.startY;
+      const absX = Math.abs(deltaX);
+      const absY = Math.abs(deltaY);
+
+      if (!state.axis && Math.max(absX, absY) >= 10) {
+        if (absY > absX * 1.08) {
+          studyCardSwipeState = null;
+          clearStudyCardSwipeVisual(state.frame);
+          return;
+        }
+        if (absX > absY * 1.08) {
+          state.axis = "horizontal";
+          state.frame.classList.add("swipe-dragging");
+          if (!state.captured && state.frame.setPointerCapture) {
+            state.frame.setPointerCapture(event.pointerId);
+            state.captured = true;
+          }
+        }
+      }
+
+      if (state.axis !== "horizontal") return;
+      if (event.cancelable) event.preventDefault();
+      renderStudyCardSwipe(state.frame, deltaX);
+    }
+
+    function handleStudyCardPointerEnd(event) {
+      const state = studyCardSwipeState;
+      if (!state || state.pointerId !== event.pointerId || state.frame !== event.currentTarget) return;
+      studyCardSwipeState = null;
+      if (state.captured && state.frame.releasePointerCapture) {
+        try {
+          state.frame.releasePointerCapture(event.pointerId);
+        } catch {
+          // The browser may already have released capture after pointercancel.
+        }
+      }
+
+      if (event.type === "pointercancel" || state.axis !== "horizontal") {
+        clearStudyCardSwipeVisual(state.frame);
+        return;
+      }
+
+      if (event.cancelable) event.preventDefault();
+      suppressStudyCardClickUntil = Date.now() + 700;
+      const deltaX = event.clientX - state.startX;
+      const deltaY = event.clientY - state.startY;
+      const result = classifyStudyCardSwipe(
+        deltaX,
+        deltaY,
+        Date.now() - state.startedAt,
+        state.frame.getBoundingClientRect().width
+      );
+
+      if (!result || currentStudyCardToken() !== state.cardToken) {
+        clearStudyCardSwipeVisual(state.frame);
+        return;
+      }
+      commitStudyCardSwipe(state, result);
+    }
+
+    function setupStudyCardSwipeHandlers() {
+      document.querySelectorAll("[data-front-card], [data-back-card]").forEach(frame => {
+        frame.addEventListener("pointerdown", handleStudyCardPointerDown);
+        frame.addEventListener("pointermove", handleStudyCardPointerMove, { passive: false });
+        frame.addEventListener("pointerup", handleStudyCardPointerEnd);
+        frame.addEventListener("pointercancel", handleStudyCardPointerEnd);
+      });
+    }
+
     function flipCurrentCard() {
-      if (!studySession || !currentCard()) return;
+      if (!studySession || !currentCard() || studySession.flipped) return;
       stopCountdownTimers();
       hideCountdownClock();
       studySession.flipped = true;
       saveCurrentProgress();
       renderStudyCard();
+      scheduleRevealedBackCardScroll();
     }
 
     function moveStudyCard(delta) {
       if (!studySession || !currentCard()) return;
       const nextPosition = studySession.currentPosition + delta;
       if (nextPosition < 0 || nextPosition >= studySession.roundQueue.length) return;
+      cancelStudyCardSwipe();
       stopNeuralSpeech({ refresh: false });
       stopCountdownTimers();
       hideCountdownClock();
@@ -190172,6 +190844,7 @@ window.EDMUND_FLASHCARD_SEED = {
       studySession.flipped = false;
       saveCurrentProgress();
       renderStudyCard();
+      scheduleCurrentFrontCardScroll();
     }
 
     function findNextUnansweredPosition(startPosition) {
@@ -190185,7 +190858,8 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function markCard(result) {
-      if (!studySession || !studySession.flipped || !currentCard()) return;
+      if (studyCardSwipeAnimating || !studySession || !studySession.flipped || !currentCard()) return;
+      cancelStudyCardSwipe();
       stopNeuralSpeech({ refresh: false });
       stopCountdownTimers();
       hideCountdownClock();
@@ -190213,11 +190887,16 @@ window.EDMUND_FLASHCARD_SEED = {
       studySession.flipped = false;
       saveCurrentProgress();
       renderStudyCard();
+      scheduleCurrentFrontCardScroll();
     }
 
     function handleCardPrimaryAction(event) {
       if (event?.target?.closest?.("[data-speak-card]")) return;
       if (event?.target?.closest?.("[data-toggle-card-bookmark]")) return;
+      if (Date.now() < suppressStudyCardClickUntil || studyCardSwipeAnimating) {
+        event?.preventDefault?.();
+        return;
+      }
       if (currentView !== "deck-view" || !studySession || !currentCard()) return;
       if (!studySession.flipped) {
         flipCurrentCard();
@@ -190229,6 +190908,10 @@ window.EDMUND_FLASHCARD_SEED = {
     function handleCardSecondaryAction(event) {
       if (event?.target?.closest?.("[data-speak-card]")) return;
       if (event?.target?.closest?.("[data-toggle-card-bookmark]")) return;
+      if (Date.now() < suppressStudyCardContextMenuUntil || studyCardSwipeAnimating) {
+        event.preventDefault();
+        return;
+      }
       if (currentView !== "deck-view" || !studySession || !currentCard()) return;
       event.preventDefault();
       if (!studySession.flipped) {
@@ -190251,6 +190934,7 @@ window.EDMUND_FLASHCARD_SEED = {
         studySession.flipped = false;
         saveCurrentProgress();
         renderStudyCard();
+        scheduleCurrentFrontCardScroll();
         return;
       }
 
@@ -190272,6 +190956,7 @@ window.EDMUND_FLASHCARD_SEED = {
       if (frontTerm) frontTerm.textContent = completed ? "本卡組已完成。" : "本次溫習已結束。";
       if (frontExamples) frontExamples.innerHTML = completed ? completionSummaryHtml() : "";
       window.requestAnimationFrame(fitVisibleCardTerms);
+      scheduleCurrentFrontCardScroll();
       if (lastOptions) renderOptionsContent();
     }
 
@@ -190313,6 +190998,7 @@ window.EDMUND_FLASHCARD_SEED = {
     }
 
     function setupEvents() {
+      setupStudyStickyHeaderOffset();
       document.querySelector("[data-login-form]")?.addEventListener("submit", async event => {
         event.preventDefault();
         const status = document.querySelector("[data-login-status]");
@@ -191209,6 +191895,11 @@ window.EDMUND_FLASHCARD_SEED = {
           return;
         }
 
+        if (event.target.closest("[data-reveal-study-card]")) {
+          flipCurrentCard();
+          return;
+        }
+
         const markButton = event.target.closest("[data-mark-card]");
         if (markButton) {
           markCard(markButton.getAttribute("data-mark-card"));
@@ -191232,6 +191923,7 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelector("[data-back-card]")?.addEventListener("click", handleCardPrimaryAction);
       document.querySelector("[data-front-card]")?.addEventListener("contextmenu", handleCardSecondaryAction);
       document.querySelector("[data-back-card]")?.addEventListener("contextmenu", handleCardSecondaryAction);
+      setupStudyCardSwipeHandlers();
 
       document.addEventListener("keydown", event => {
         if (event.key !== "Enter" || currentView !== "deck-view") return;
