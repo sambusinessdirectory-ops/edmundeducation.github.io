@@ -18,10 +18,10 @@ from pathlib import Path
 R2_PREFIX = "DSE Writing Part A"
 EXPECTED_YEARS = {
     2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019,
-    2021, 2022, 2023, 2024, 2025,
+    2020, 2021, 2022, 2023, 2024, 2025,
 }
 FILENAME_PATTERN = re.compile(
-    r"(20\d{2}) DSE writing task 1 _ part A - 5\*\* - Edmund\.pdf",
+    r"(20\d{2}) DSE writing task 1 _ part A - (?:5\*\*|5__) - Edmund\.pdf",
     flags=re.IGNORECASE,
 )
 
@@ -135,7 +135,7 @@ def validate_inventory(entries: list[dict[str, object]]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("source", type=Path, help="Folder containing the 13 model-answer PDFs")
+    parser.add_argument("source", type=Path, help="Folder containing the 14 model-answer PDFs")
     parser.add_argument("--site-root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--workers", type=int, default=6)
     args = parser.parse_args()

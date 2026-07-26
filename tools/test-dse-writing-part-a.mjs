@@ -17,6 +17,7 @@ const expected = new Map([
   ["dse-writing-2017-part-a", [32, 45, 75, 40]],
   ["dse-writing-2018-part-a", [33, 45, 75, 59]],
   ["dse-writing-2019-part-a", [33, 45, 75, 38]],
+  ["dse-writing-2020-part-a", [32, 45, 75, 63]],
   ["dse-writing-2021-part-a", [30, 45, 75, 40]],
   ["dse-writing-2022-part-a", [33, 45, 75, 47]],
   ["dse-writing-2023-part-a", [29, 45, 75, 39]],
@@ -85,7 +86,7 @@ function normalized(value) {
 
 const dataWindow = loadWindowScript(dataPath);
 const exercises = dataWindow.EDMUND_DSE_WRITING_PART_A_EXERCISES;
-assert.equal(Object.keys(exercises).length, 14, "exactly 14 Part A exercises should be exported");
+assert.equal(Object.keys(exercises).length, 15, "exactly 15 Part A exercises should be exported");
 assert.deepEqual(new Set(Object.keys(exercises)), new Set(expected.keys()), "exercise IDs should match the route catalog");
 
 for (const [id, counts] of expected) {
@@ -157,4 +158,4 @@ if (process.argv.includes("--audio")) {
   }
 }
 
-console.log("DSE Writing Part A validation passed: 14 exercises, 56 difficulty sets, 224 rendered combinations.");
+console.log("DSE Writing Part A validation passed: 15 exercises, 60 difficulty sets, 240 rendered combinations.");

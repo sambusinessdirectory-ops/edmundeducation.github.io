@@ -77,7 +77,7 @@
       emptyTitle: "找不到符合條件的 DSE Writing Part A 示範答案",
       emptyCopy: "請嘗試另一個年份或關鍵字。",
       allTitle: "確定下載全部 Writing Part A 示範答案？",
-      allCopy: "系統會把 13 份 DSE Writing Part A 5** 示範答案整理成一個 ZIP 檔案。",
+      allCopy: "系統會把 14 份 DSE Writing Part A 5** 示範答案整理成一個 ZIP 檔案。",
       allZipName: "Edmund-DSE-Writing-Part-A-All-Model-Answers.zip",
       selectedZipPrefix: "Edmund-DSE-Writing-Part-A-Selected",
       kicker: item => `${item.year} DSE WRITING PART A`,

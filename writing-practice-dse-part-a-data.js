@@ -6324,6 +6324,519 @@ window.EDMUND_DSE_WRITING_PART_A_EXERCISES = {
       ]
     }
   },
+  "dse-writing-2020-part-a": {
+    "id": "dse-writing-2020-part-a",
+    "title": "Restaurant Review: Dim Sum One",
+    "exam": "DSE Writing Part A 2020",
+    "taskType": "Part A · Online restaurant review",
+    "questionPrompt": [
+      "PART A",
+      "For question 1, write about 200 words in the space provided on pages 2 and 3.",
+      "① You finally got the chance to eat at Hong Kong’s hottest new restaurant, Dim Sum One. Write a review for Eat & Drink, an online food guide that allows users to write their own reviews.",
+      "• Write about what you liked, what you didn’t like and if you would recommend this restaurant.",
+      "• You can choose to write about any of the following in your review.",
+      "Food",
+      "Service",
+      "Dining environment",
+      "Price",
+      "Eat & Drink",
+      "Name: Dim Sum One",
+      "Type of Cuisine: Chinese dim sum",
+      "Best for:",
+      "Children/Family",
+      "Romantic Date",
+      "Business",
+      "Special Occasions"
+    ],
+    "questionImages": [
+      {
+        "src": "assets/writing-practice/questions/dse-part-a/dse-writing-part-a-2020-question.webp",
+        "alt": "2020 DSE Writing Part A Dim Sum One restaurant-review prompt, suggested review topics, and Eat & Drink form"
+      }
+    ],
+    "essayLeadLines": [],
+    "essayClosingLines": [],
+    "paragraphs": [
+      {
+        "label": "Title",
+        "displayClass": "essay-letter-title",
+        "sentences": [
+          {
+            "displayRoleEnglish": "Title",
+            "displayRoleChinese": "標題",
+            "parts": [
+              "Restaurant Review: Dim Sum One"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Introduction",
+        "sentences": [
+          {
+            "parts": [
+              "I recently visited Dim Sum One, Hong Kong’s hottest new dim sum restaurant, and was eager to find out if it lived up to its impressive reputation."
+            ]
+          },
+          {
+            "parts": [
+              "From the moment I walked in, I was greeted by a friendly hostess and ushered to a sleek, modern dining area that still managed to feel remarkably cozy."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Food and Service",
+        "sentences": [
+          {
+            "parts": [
+              "The food was simply outstanding, with delicate shrimp dumplings and perfectly steamed barbecue pork buns stealing the spotlight."
+            ]
+          },
+          {
+            "parts": [
+              "Each dish was artfully presented and bursting with authentic Cantonese flavors."
+            ]
+          },
+          {
+            "parts": [
+              "Furthermore, the service was top-notch; staff members politely explained each item on the menu and kept our teapots filled without delay."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Drawbacks",
+        "sentences": [
+          {
+            "parts": [
+              "Nevertheless, I found the prices slightly steep compared to other dim sum spots in the city."
+            ]
+          },
+          {
+            "parts": [
+              "Additionally, the seating felt a bit cramped during peak hours, which might diminish the otherwise relaxed ambiance."
+            ]
+          },
+          {
+            "parts": [
+              "Despite these drawbacks, the overall dining environment remained inviting and well-lit."
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Recommendation",
+        "sentences": [
+          {
+            "parts": [
+              "In my opinion, Dim Sum One is an excellent choice for small gatherings and special occasions, thanks to its premium food quality and warm hospitality."
+            ]
+          },
+          {
+            "parts": [
+              "I wholeheartedly recommend it if you are willing to pay a little extra for a memorable feast."
+            ]
+          }
+        ]
+      }
+    ],
+    "translationSections": [
+      {
+        "title": "Title",
+        "subtitle": "標題",
+        "tone": "gold",
+        "items": [
+          {
+            "label": "Title",
+            "english": "Restaurant Review: Dim Sum One",
+            "chinese": "餐廳評論：Dim Sum One"
+          }
+        ]
+      },
+      {
+        "title": "Introduction",
+        "subtitle": "引言",
+        "tone": "blue",
+        "items": [
+          {
+            "label": "Introduction",
+            "english": "I recently visited Dim Sum One, Hong Kong’s hottest new dim sum restaurant, and was eager to find out if it lived up to its impressive reputation.",
+            "chinese": "我最近到訪了 Dim Sum One，這間香港最炙手可熱的新點心餐廳，並十分期待看看它是否名副其實，配得上那令人印象深刻的聲譽。"
+          },
+          {
+            "label": "Introduction",
+            "english": "From the moment I walked in, I was greeted by a friendly hostess and ushered to a sleek, modern dining area that still managed to feel remarkably cozy.",
+            "chinese": "從我走進餐廳的一刻起，一位友善的女接待員便向我打招呼，並帶我前往一個設計時尚現代、卻仍然令人感到格外舒適的用餐區。"
+          }
+        ]
+      },
+      {
+        "title": "Food and Service",
+        "subtitle": "食物與服務",
+        "tone": "orange",
+        "items": [
+          {
+            "label": "Food and Service",
+            "english": "The food was simply outstanding, with delicate shrimp dumplings and perfectly steamed barbecue pork buns stealing the spotlight.",
+            "chinese": "食物實在非常出色，其中精緻的蝦餃和蒸得恰到好處的叉燒包尤其搶眼。"
+          },
+          {
+            "label": "Food and Service",
+            "english": "Each dish was artfully presented and bursting with authentic Cantonese flavors.",
+            "chinese": "每一道菜都擺盤講究，並充滿正宗的廣東風味。"
+          },
+          {
+            "label": "Food and Service",
+            "english": "Furthermore, the service was top-notch; staff members politely explained each item on the menu and kept our teapots filled without delay.",
+            "chinese": "此外，服務也是一流的；職員有禮貌地講解餐牌上每一款食品，並且總是及時為我們添茶"
+          }
+        ]
+      },
+      {
+        "title": "Drawbacks",
+        "subtitle": "不足之處",
+        "tone": "red",
+        "items": [
+          {
+            "label": "Drawbacks",
+            "english": "Nevertheless, I found the prices slightly steep compared to other dim sum spots in the city.",
+            "chinese": "不過，與城中其他點心店相比，我覺得這裏的價格略為偏高。"
+          },
+          {
+            "label": "Drawbacks",
+            "english": "Additionally, the seating felt a bit cramped during peak hours, which might diminish the otherwise relaxed ambiance.",
+            "chinese": "此外，在繁忙時段，座位感覺有點擠迫，這可能會削弱原本輕鬆的氣氛。"
+          },
+          {
+            "label": "Drawbacks",
+            "english": "Despite these drawbacks, the overall dining environment remained inviting and well-lit.",
+            "chinese": "儘管有這些不足之處，整體用餐環境仍然舒適宜人，而且光線充足。"
+          }
+        ]
+      },
+      {
+        "title": "Recommendation",
+        "subtitle": "推薦",
+        "tone": "green",
+        "items": [
+          {
+            "label": "Recommendation",
+            "english": "In my opinion, Dim Sum One is an excellent choice for small gatherings and special occasions, thanks to its premium food quality and warm hospitality.",
+            "chinese": "在我看來，Dim Sum One 是小型聚會和特別場合的絕佳選擇，因為它擁有高質素的食物和親切周到的款待。"
+          },
+          {
+            "label": "Recommendation",
+            "english": "I wholeheartedly recommend it if you are willing to pay a little extra for a memorable feast.",
+            "chinese": "如果你願意多花一點錢，享受一頓難忘的盛宴，我會衷心推薦這間餐廳。"
+          }
+        ]
+      }
+    ],
+    "practiceModes": [
+      "blank",
+      "start",
+      "end",
+      "both"
+    ],
+    "practiceModeDetails": {
+      "blank": {
+        "title": "標準模式",
+        "description": "只有編號空格，不顯示字母提示。"
+      },
+      "start": {
+        "title": "顯示開首字母",
+        "description": "每格顯示答案的第一個字母。"
+      },
+      "end": {
+        "title": "顯示結尾字母",
+        "description": "每格顯示答案的最後一個字母。"
+      },
+      "both": {
+        "title": "顯示開首及結尾字母",
+        "description": "每格顯示答案的第一及最後一個字母。"
+      }
+    },
+    "practiceDifficultySets": [
+      {
+        "key": "standard",
+        "title": "Standard Difficulty",
+        "titleZh": "標準難度",
+        "description": "32 prepared blanks from source exercises 1–4.",
+        "sourceExerciseNumbers": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "answers": [
+          "hottest",
+          "restaurant",
+          "lived up to",
+          "reputation",
+          "greeted",
+          "friendly hostess",
+          "sleek",
+          "cozy",
+          "outstanding",
+          "shrimp dumplings",
+          "steamed",
+          "barbecue pork buns",
+          "spotlight",
+          "artfully presented",
+          "Cantonese flavors",
+          "top-notch",
+          "politely",
+          "without delay",
+          "Nevertheless",
+          "slightly steep",
+          "cramped",
+          "peak hours",
+          "diminish",
+          "relaxed ambiance",
+          "drawbacks",
+          "inviting",
+          "well-lit",
+          "excellent choice",
+          "premium food quality",
+          "warm hospitality",
+          "wholeheartedly recommend",
+          "memorable feast"
+        ]
+      },
+      {
+        "key": "medium",
+        "title": "Medium Difficulty",
+        "titleZh": "中等難度",
+        "description": "45 prepared blanks from source exercises 5–8.",
+        "sourceExerciseNumbers": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "answers": [
+          "recently",
+          "hottest",
+          "restaurant",
+          "eager",
+          "lived up to",
+          "impressive reputation",
+          "From the moment",
+          "walked in",
+          "greeted",
+          "friendly hostess",
+          "ushered",
+          "sleek",
+          "modern",
+          "dining area",
+          "remarkably cozy",
+          "simply outstanding",
+          "delicate shrimp dumplings",
+          "perfectly steamed",
+          "barbecue pork buns",
+          "stealing the spotlight",
+          "artfully presented",
+          "authentic Cantonese flavors",
+          "Furthermore",
+          "top-notch",
+          "staff members",
+          "politely explained",
+          "teapots filled",
+          "without delay",
+          "Nevertheless",
+          "slightly steep",
+          "dim sum spots",
+          "Additionally",
+          "a bit cramped",
+          "peak hours",
+          "which might diminish",
+          "relaxed ambiance",
+          "Despite these drawbacks",
+          "dining environment",
+          "inviting and well-lit",
+          "In my opinion",
+          "excellent choice",
+          "premium food quality",
+          "warm hospitality",
+          "wholeheartedly recommend",
+          "memorable feast"
+        ]
+      },
+      {
+        "key": "hard",
+        "title": "Hard Difficulty",
+        "titleZh": "困難難度",
+        "description": "75 prepared blanks from source exercises 9–12.",
+        "sourceExerciseNumbers": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "answers": [
+          "Restaurant Review",
+          "Dim Sum One",
+          "recently",
+          "visited",
+          "hottest",
+          "restaurant",
+          "eager",
+          "find out",
+          "lived up to",
+          "impressive",
+          "reputation",
+          "From the moment",
+          "walked in",
+          "greeted",
+          "friendly hostess",
+          "ushered",
+          "sleek",
+          "modern",
+          "dining area",
+          "remarkably cozy",
+          "food",
+          "simply",
+          "outstanding",
+          "delicate",
+          "shrimp dumplings",
+          "perfectly",
+          "steamed",
+          "barbecue pork buns",
+          "stealing the spotlight",
+          "Each dish",
+          "artfully",
+          "presented",
+          "bursting",
+          "authentic Cantonese flavors",
+          "Furthermore",
+          "service",
+          "top-notch",
+          "staff members",
+          "politely explained",
+          "item",
+          "kept our teapots filled",
+          "Nevertheless",
+          "prices",
+          "slightly steep",
+          "compared to",
+          "dim sum spots",
+          "city",
+          "Additionally",
+          "seating",
+          "a bit cramped",
+          "peak hours",
+          "which might diminish",
+          "relaxed ambiance",
+          "Despite these drawbacks",
+          "overall dining environment",
+          "remained",
+          "inviting",
+          "well-lit",
+          "In my opinion",
+          "Dim Sum One",
+          "excellent choice",
+          "small gatherings",
+          "special occasions",
+          "thanks to",
+          "premium",
+          "food quality",
+          "warm",
+          "hospitality",
+          "wholeheartedly",
+          "recommend",
+          "willing",
+          "to pay",
+          "little extra",
+          "memorable",
+          "feast"
+        ]
+      },
+      {
+        "key": "hell",
+        "title": "Hell Difficulty",
+        "titleZh": "地獄難度",
+        "description": "63 prepared blanks from source exercises 13–16.",
+        "sourceExerciseNumbers": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "answers": [
+          "Restaurant Review",
+          "Dim Sum One",
+          "recently visited",
+          "Dim Sum One",
+          "hottest new",
+          "dim sum restaurant",
+          "was eager to",
+          "find out",
+          "lived up to",
+          "its impressive reputation",
+          "the moment I",
+          "walked in",
+          "I was",
+          "greeted by",
+          "a friendly hostess",
+          "ushered to",
+          "a sleek, modern",
+          "dining area",
+          "still managed to",
+          "feel remarkably cozy",
+          "food was simply outstanding",
+          "delicate shrimp dumplings",
+          "perfectly steamed",
+          "barbecue pork buns",
+          "stealing the spotlight",
+          "dish was artfully presented",
+          "bursting with",
+          "authentic Cantonese flavors",
+          "Furthermore",
+          "the service",
+          "was top-notch",
+          "staff members",
+          "politely explained each item",
+          "on the menu",
+          "kept our teapots filled",
+          "without delay",
+          "Nevertheless",
+          "found the prices",
+          "slightly steep",
+          "compared to",
+          "other dim sum spots",
+          "in the city",
+          "Additionally",
+          "the seating felt",
+          "a bit cramped",
+          "peak hours",
+          "which might diminish",
+          "the otherwise relaxed ambiance",
+          "Despite",
+          "these drawbacks",
+          "overall dining environment",
+          "inviting and well-lit",
+          "In my opinion",
+          "an excellent choice",
+          "small gatherings",
+          "special occasions",
+          "thanks to",
+          "its premium food quality",
+          "and warm hospitality",
+          "wholeheartedly recommend",
+          "willing to pay",
+          "a little extra",
+          "a memorable feast"
+        ]
+      }
+    ],
+    "questionCount": 32,
+    "showWordBank": false,
+    "learningContentAtomicGroups": true,
+    "synonymGuide": [],
+    "studyTabs": {},
+    "learningContent": {}
+  },
   "dse-writing-2021-part-a": {
     "id": "dse-writing-2021-part-a",
     "title": "Annual School Fair Announcement",
