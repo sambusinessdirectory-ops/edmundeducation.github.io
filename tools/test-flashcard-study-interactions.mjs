@@ -64,7 +64,12 @@ assert.match(source, /function setupStudyStickyHeaderOffset\(\)/);
 assert.match(source, /new ResizeObserver\(updateStudyStickyHeaderOffset\)/);
 assert.match(source, /setupStudyStickyHeaderOffset\(\);/);
 assert.match(source, /\.flash-frame\s*\{[\s\S]*?touch-action:\s*pan-y pinch-zoom;/);
+assert.match(source, /\.study-main::before\s*\{[\s\S]*?position:\s*absolute;[\s\S]*?opacity:\s*0;[\s\S]*?pointer-events:\s*none;/);
+assert.match(source, /\.study-main\.swipe-underlay-right::before\s*\{[\s\S]*?background:\s*linear-gradient\([^;]*#ecfdf5[^;]*#bbf7d0/);
+assert.match(source, /\.study-main\.swipe-underlay-left::before\s*\{[\s\S]*?background:\s*linear-gradient\([^;]*#fff1f2[^;]*#fecaca/);
+assert.match(source, /\.study-main > \.front-stage,[\s\S]*?\.study-main > \.flash-frame,[\s\S]*?z-index:\s*1;/);
 assert.match(source, /@media \(prefers-reduced-motion: reduce\)/);
+assert.match(source, /@media \(prefers-reduced-motion: reduce\)[\s\S]*?\.study-main::before,[\s\S]*?transition-duration:\s*0\.01ms !important;/);
 
 const studyMarkup = sourceBetween(
   '<section class="deck-card hidden" data-deck-view>',
@@ -217,6 +222,64 @@ assert.equal(preventedVerticalMove, false);
 assert.equal(swipeRuntime.abortCount, 1);
 assert.equal(swipeRuntime.studyCardSwipeState, null);
 
+function makeClassList() {
+  const values = new Set();
+  return {
+    add: (...tokens) => tokens.forEach(token => values.add(token)),
+    remove: (...tokens) => tokens.forEach(token => values.delete(token)),
+    toggle: (token, enabled) => enabled ? values.add(token) : values.delete(token),
+    contains: token => values.has(token)
+  };
+}
+
+function makeStyle() {
+  const values = new Map();
+  return {
+    setProperty: (name, value) => values.set(name, value),
+    removeProperty: name => values.delete(name),
+    getPropertyValue: name => values.get(name) || ""
+  };
+}
+
+const underlayMain = {
+  classList: makeClassList(),
+  style: makeStyle(),
+  getBoundingClientRect: () => ({ top: 100, left: 20 })
+};
+const underlayFrame = {
+  closest: selector => selector === ".study-main" ? underlayMain : null,
+  getBoundingClientRect: () => ({ top: 180, left: 45, width: 320, height: 540 })
+};
+const underlayRuntime = { Number, Math, Array, document: { querySelectorAll: () => [] } };
+const positionStudyCardSwipeUnderlay = vm.runInNewContext(
+  `(${extractFunction("positionStudyCardSwipeUnderlay")})`,
+  underlayRuntime
+);
+const renderStudyCardSwipeUnderlay = vm.runInNewContext(
+  `(${extractFunction("renderStudyCardSwipeUnderlay")})`,
+  underlayRuntime
+);
+const clearStudyCardSwipeUnderlay = vm.runInNewContext(
+  `(${extractFunction("clearStudyCardSwipeUnderlay")})`,
+  underlayRuntime
+);
+positionStudyCardSwipeUnderlay(underlayFrame, underlayFrame.getBoundingClientRect());
+assert.equal(underlayMain.style.getPropertyValue("--swipe-underlay-top"), "80px");
+assert.equal(underlayMain.style.getPropertyValue("--swipe-underlay-left"), "25px");
+assert.equal(underlayMain.style.getPropertyValue("--swipe-underlay-width"), "320px");
+assert.equal(underlayMain.style.getPropertyValue("--swipe-underlay-height"), "540px");
+renderStudyCardSwipeUnderlay(underlayFrame, "right", 0.5);
+assert.equal(underlayMain.classList.contains("swipe-underlay-right"), true);
+assert.equal(underlayMain.classList.contains("swipe-underlay-left"), false);
+assert.equal(underlayMain.style.getPropertyValue("--swipe-underlay-opacity"), "0.250");
+renderStudyCardSwipeUnderlay(underlayFrame, "left", 1);
+assert.equal(underlayMain.classList.contains("swipe-underlay-right"), false);
+assert.equal(underlayMain.classList.contains("swipe-underlay-left"), true);
+assert.equal(underlayMain.style.getPropertyValue("--swipe-underlay-opacity"), "0.420");
+clearStudyCardSwipeUnderlay(underlayFrame);
+assert.equal(underlayMain.classList.contains("swipe-underlay-left"), false);
+assert.equal(underlayMain.style.getPropertyValue("--swipe-underlay-opacity"), "");
+
 const swipeStart = sourceBetween(
   "function handleStudyCardPointerDown(event)",
   "function handleStudyCardPointerMove(event)"
@@ -232,6 +295,10 @@ assert.doesNotMatch(source, /width \* 0\.72/);
 assert.match(source, /const travelLimit = viewportWidth \* 1\.25;/);
 assert.match(source, /-webkit-touch-callout:\s*none;/);
 assert.match(source, /overscroll-behavior-x:\s*none;/);
+assert.match(source, /renderStudyCardSwipeUnderlay\(frame, direction, intensity\)/);
+assert.match(source, /renderStudyCardSwipeUnderlay\(frame, result === "green" \? "right" : "left", 1\)/);
+assert.match(source, /positionStudyCardSwipeUnderlay\(frame, rect\)/);
+assert.match(source, /clearStudyCardSwipeUnderlay\(frame\)/);
 
 const swipeCommit = sourceBetween(
   "function commitStudyCardSwipe(state, result)",
