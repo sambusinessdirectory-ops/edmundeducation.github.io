@@ -541,17 +541,22 @@
 
     .week-grid {
       min-width: 1295px;
+      position: relative;
+      isolation: isolate;
       display: grid;
       grid-template-columns: repeat(7, minmax(175px, 1fr));
       gap: 10px;
-      align-items: start;
+      align-items: stretch;
     }
 
     .day-column {
+      position: relative;
+      display: flex;
+      flex-direction: column;
       border: 1px solid rgba(90, 55, 34, .16);
       border-radius: 19px;
       background: rgba(255, 253, 248, .8);
-      overflow: hidden;
+      overflow: visible;
       box-shadow: 0 12px 30px rgba(54, 31, 18, .09);
     }
 
@@ -594,7 +599,17 @@
     .day-column.is-today .day-header { color: #fff; background: linear-gradient(135deg, var(--amber-dark), #a66739); }
     .day-column.is-today .day-header span { color: rgba(255, 255, 255, .78); }
 
-    .day-slots { display: grid; gap: 8px; padding: 10px; }
+    .day-slots { flex: 1; display: flex; flex-direction: column; padding: 10px; }
+    .ordinary-slot-list,
+    .span-lane-list { display: flex; flex-direction: column; gap: 8px; }
+    .span-lane-list { margin-top: auto; padding-top: 8px; }
+    .span-lane-placeholder {
+      width: 100%;
+      height: 142px;
+      min-height: 142px;
+      visibility: hidden;
+      pointer-events: none;
+    }
 
     .schedule-slot {
       width: 100%;
@@ -636,6 +651,76 @@
       box-shadow: inset 0 0 0 1px rgba(39, 126, 71, .08);
     }
 
+    .schedule-slot.has-entry.is-in-progress {
+      border-color: rgba(183, 132, 13, .55);
+      background: linear-gradient(145deg, rgba(255, 254, 244, .98), rgba(255, 232, 143, .95));
+      box-shadow: inset 0 0 0 1px rgba(183, 132, 13, .1);
+    }
+
+    .schedule-slot.is-touch-action {
+      border-color: #4ebcf0 !important;
+      outline: 4px solid rgba(78, 188, 240, .7) !important;
+      outline-offset: 2px;
+      box-shadow: 0 0 0 7px rgba(78, 188, 240, .14), 0 12px 30px rgba(30, 129, 178, .24) !important;
+      touch-action: none;
+    }
+
+    @media (pointer: coarse) {
+      .schedule-slot.has-entry.can-touch-drag { touch-action: none; }
+    }
+
+    .schedule-slot.is-swap-target {
+      border-color: #b47b16;
+      outline: 3px dashed rgba(180, 123, 22, .72);
+      outline-offset: 3px;
+      background: rgba(255, 244, 199, .96);
+    }
+
+    .day-column.is-span-target {
+      box-shadow: inset 0 0 0 4px rgba(78, 188, 240, .72), 0 12px 30px rgba(54, 31, 18, .09);
+    }
+
+    .span-drop-zone {
+      min-height: 42px;
+      margin: 0 10px 8px;
+      border: 2px dashed rgba(64, 92, 151, .32);
+      border-radius: 12px;
+      color: #405c97;
+      background: rgba(239, 245, 255, .72);
+      cursor: copy;
+      font-size: 12px;
+      font-weight: 850;
+      transition: border-color .18s ease, background .18s ease, box-shadow .18s ease;
+    }
+    .span-drop-zone:hover,
+    .span-drop-zone:focus-visible,
+    .span-drop-zone.is-span-target {
+      border-color: #4ebcf0;
+      outline: none;
+      background: rgba(218, 244, 255, .96);
+      box-shadow: inset 0 0 0 2px rgba(78, 188, 240, .2);
+    }
+
+    .schedule-slot.is-span-project {
+      position: relative;
+      z-index: 4;
+      height: 142px;
+      min-height: 142px;
+      overflow: hidden;
+      border-radius: 14px;
+      box-shadow: 0 10px 24px rgba(45, 72, 128, .16);
+    }
+
+    .schedule-slot.is-span-project .entry-message { -webkit-line-clamp: 2; }
+    .schedule-slot.is-span-project.span-start {
+      width: var(--span-project-width, 100%);
+      border-radius: 14px;
+    }
+    .schedule-slot.is-span-project.span-continuation {
+      visibility: hidden;
+      pointer-events: none;
+    }
+
     .schedule-slot.is-selected,
     .schedule-slot[aria-pressed="true"] {
       border-style: solid;
@@ -663,7 +748,10 @@
 
     .slot-topline { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
     .slot-number { display: block; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
-    .completion-badge { border-radius: 999px; padding: 2px 7px; color: #1d6d3a; background: rgba(220, 245, 226, .96); font-size: 10px; font-weight: 900; letter-spacing: .04em; }
+    .completion-badge, .progress-badge, .span-badge { border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 900; letter-spacing: .04em; }
+    .completion-badge { color: #1d6d3a; background: rgba(220, 245, 226, .96); }
+    .progress-badge { color: #745104; background: rgba(255, 237, 159, .98); }
+    .span-badge { color: #1a6487; background: rgba(218, 244, 255, .98); }
     .slot-placeholder { color: #6f5a4e; font-size: 13px; }
     .entry-message {
       margin: 6px 0 0;
@@ -676,6 +764,7 @@
       font-weight: 760;
       line-height: 1.38;
     }
+    .estimated-time { display: block; margin-top: 8px; color: #685248; font-size: 11px; font-weight: 850; }
 
     .capacity-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; padding: 2px 10px 12px; }
     .add-slots-button, .remove-slots-button { min-height: 44px; border: 1px solid rgba(155, 94, 49, .25); }
@@ -702,12 +791,18 @@
     .dialog-card h2 { margin: 0 0 6px; font-size: 29px; }
     .dialog-meta { margin: 0 0 20px; color: var(--muted); }
     .dialog-card textarea { min-height: 180px; resize: vertical; }
+    .duration-field { margin-top: 14px; }
+    .duration-control { display: flex; align-items: center; gap: 10px; }
+    .duration-control input { max-width: 180px; }
+    .duration-control span { color: var(--muted); font-weight: 800; }
     .dialog-hint { margin: -5px 0 18px; color: var(--muted); font-size: 12px; }
     .dialog-actions { display: flex; align-items: center; justify-content: flex-end; gap: 9px; flex-wrap: wrap; }
     .dialog-actions .danger-button { margin-right: auto; }
     .dialog-actions .primary-button { width: auto; min-height: 42px; padding: 10px 18px; }
     .complete-button { min-height: 42px; border: 1px solid rgba(39, 126, 71, .3); border-radius: 14px; padding: 10px 14px; color: #1f6b3a; background: #e4f5e8; cursor: pointer; font-weight: 850; }
     .complete-button[data-completed="true"] { color: #fff; background: #397d50; }
+    .progress-button { min-height: 42px; border: 1px solid rgba(183, 132, 13, .35); border-radius: 14px; padding: 10px 14px; color: #745104; background: #fff3bf; cursor: pointer; font-weight: 850; }
+    .progress-button[data-in-progress="true"] { color: #fff; background: #ba8618; }
 
     .progress-dashboard { margin-top: 20px; padding: clamp(22px, 3vw, 34px); }
     .progress-heading { margin-bottom: 16px; }
@@ -718,6 +813,51 @@
     .metric-card span { display: block; color: #5f4b41; font-size: 13px; font-weight: 800; }
     .metric-card strong { display: block; margin-top: 10px; color: var(--amber-dark); font-size: clamp(34px, 4vw, 50px); line-height: 1; }
     .metric-card.completed strong { color: #2e7749; }
+
+    .countdown-dashboard { margin-top: 20px; padding: clamp(22px, 3vw, 34px); }
+    .countdown-toolbar { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+    .countdown-capacity-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .countdown-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .countdown-card { border: 1px solid rgba(82, 55, 40, .16); border-radius: 20px; padding: 18px; background: rgba(255, 253, 248, .88); box-shadow: 0 10px 26px rgba(54, 31, 18, .08); }
+    .countdown-card[data-countdown-dirty="true"] { border-color: rgba(180, 123, 22, .5); }
+    .countdown-card.is-draft-beyond-capacity { box-shadow: inset 0 0 0 2px rgba(180, 123, 22, .18), 0 10px 26px rgba(54, 31, 18, .08); }
+    .countdown-card-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .countdown-card h3 { margin: 0; color: var(--amber-dark); font-size: 20px; }
+    .countdown-collapse-toggle {
+      width: 34px;
+      height: 34px;
+      flex: 0 0 34px;
+      border: 1px solid rgba(109, 60, 34, .22);
+      border-radius: 50%;
+      padding: 0;
+      color: var(--amber-dark);
+      background: rgba(248, 235, 218, .82);
+      cursor: pointer;
+      font-size: 22px;
+      font-weight: 900;
+      line-height: 1;
+    }
+    .countdown-collapse-toggle:hover,
+    .countdown-collapse-toggle:focus-visible { background: #f2d5b4; outline: 3px solid rgba(64, 92, 151, .22); }
+    .countdown-card-body { margin-top: 14px; }
+    .countdown-card.is-collapsed { padding-block: 14px; }
+    .countdown-form-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(145px, .55fr); gap: 10px; }
+    .countdown-card label { display: grid; gap: 5px; color: #5f4b41; font-size: 12px; font-weight: 850; }
+    .countdown-card input { width: 100%; min-height: 42px; border: 1px solid rgba(82, 55, 40, .2); border-radius: 11px; padding: 9px 10px; color: var(--ink); background: #fff; font: inherit; }
+    .countdown-days { margin: 18px 0 12px; color: var(--amber-dark); text-align: center; font-size: clamp(30px, 4vw, 48px); font-weight: 900; line-height: 1.05; }
+    .countdown-details-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
+    .countdown-details-grid span { border-radius: 10px; padding: 8px; color: #59463d; background: rgba(239, 229, 216, .62); font-size: 12px; font-weight: 750; }
+    .study-calculator { margin-top: 14px; border-top: 1px solid rgba(82, 55, 40, .12); padding-top: 13px; }
+    .study-main { display: grid; grid-template-columns: auto 90px 1fr; align-items: center; gap: 7px; color: #4f3d35; font-size: 13px; font-weight: 760; }
+    .study-main input { min-height: 38px; }
+    .study-result { color: #2e7749; font-weight: 900; }
+    .countdown-detail-toggle { margin-top: 10px; border: 0; padding: 4px 0; color: #405c97; background: transparent; cursor: pointer; font-weight: 850; }
+    .study-breakdown { display: grid; gap: 8px; margin-top: 9px; }
+    .study-breakdown[hidden] { display: none; }
+    .study-breakdown label { grid-template-columns: 1fr 90px auto minmax(130px, 1fr); align-items: center; }
+    .study-part-result { color: #2e7749; font-size: 11px; font-weight: 850; }
+    .countdown-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+    .countdown-empty-note { margin: 13px 0 0; color: var(--muted); font-size: 12px; }
 
     .toast {
       position: fixed;
@@ -745,6 +885,7 @@
       .calendar-toolbar { grid-template-columns: 1fr; }
       .viewing-student, .toolbar-actions { text-align: center; justify-content: center; }
       .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .countdown-grid { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 680px) {
@@ -770,6 +911,12 @@
       .selection-actions { position: static; align-items: flex-start; flex-direction: column; }
       .selection-action-buttons { width: 100%; justify-content: flex-start; }
       .dialog-card { padding: 22px; }
+      .countdown-toolbar { align-items: flex-start; flex-direction: column; }
+      .countdown-form-grid { grid-template-columns: 1fr; }
+      .study-main { grid-template-columns: 1fr 90px; }
+      .study-main .study-result { grid-column: 1 / -1; }
+      .study-breakdown label { grid-template-columns: 1fr 80px auto; }
+      .study-part-result { grid-column: 1 / -1; }
     }
 
     @media (max-width: 520px) {
@@ -799,6 +946,7 @@
       .print-entry-admin { border-color: #c79a64; background: #f4dfc2 !important; }
       .print-entry-student { border-color: #91a9dc; background: #dfe9ff !important; }
       .print-entry-completed { border-color: #397d50 !important; box-shadow: inset 0 0 0 .35mm #397d50; }
+      .print-entry-progress { border-color: #b78014 !important; background: #fff0b8 !important; box-shadow: inset 0 0 0 .35mm #b78014; }
       .print-empty-day { margin: 0; padding: 4mm 1.5mm; color: #777; text-align: center; font-size: 7pt; line-height: 1.45; }
       .print-slot-label { display: block; margin-bottom: .7mm; color: #666; font-size: 6.5pt; }
       .print-source { display: block; margin-bottom: .8mm; font-weight: 800; font-size: 6.5pt; }
@@ -919,7 +1067,7 @@
             </div>
             <button class="subtle-toggle selection-toggle" type="button" data-toggle-selection aria-pressed="false">select multiple</button>
           </div>
-          <span id="schedule-export-help">每一天預設 10 格；按該日底部的「＋5 格」即可繼續增加，也可按「－5 格」收起空白格。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
+          <span id="schedule-export-help">每一天預設 10 格；按「＋5 格／－5 格」調整。電腦可拖曳安排；按住 Shift 再拖到相鄰日期即可延伸。手機或平板長按 2 秒，藍色外框出現後即可移動、交換，或放到該日的「延伸多日項目」區逐日延伸。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
         </div>
 
         <div class="selection-actions" data-selection-actions role="region" aria-label="多項選擇操作" hidden>
@@ -964,6 +1112,21 @@
           </article>
         </div>
       </section>
+
+      <section class="countdown-dashboard glass-card" aria-labelledby="schedule-countdown-heading">
+        <div class="countdown-toolbar">
+          <div class="progress-heading">
+            <p>IMPORTANT EVENT COUNTDOWN</p>
+            <h2 id="schedule-countdown-heading">重大事件倒數</h2>
+          </div>
+          <div class="countdown-capacity-actions">
+            <button class="secondary-button" type="button" data-remove-countdowns>減少 5 個倒數鐘</button>
+            <button class="secondary-button" type="button" data-add-countdowns>增加 5 個倒數鐘</button>
+          </div>
+        </div>
+        <div class="countdown-grid" data-countdown-grid aria-live="polite"></div>
+        <p class="calendar-status" data-countdown-status role="status" aria-live="polite"></p>
+      </section>
     </section>
   </main>
 
@@ -975,10 +1138,18 @@
         <label for="schedule-message">功課或溫習內容</label>
         <textarea id="schedule-message" name="message" maxlength="2000" required placeholder="例如：完成 IELTS Writing Task 2 Opinion Essay；溫習第 3–5 課生字。"></textarea>
       </div>
+      <div class="field duration-field">
+        <label for="schedule-estimated-minutes">預計需時</label>
+        <div class="duration-control">
+          <input id="schedule-estimated-minutes" name="estimatedMinutes" type="number" min="1" max="10080" step="1" inputmode="numeric" placeholder="例如：90">
+          <span>分鐘</span>
+        </div>
+      </div>
       <p class="dialog-hint" data-entry-hint>按 Enter 儲存；如要換行請按 Shift + Enter。</p>
       <p class="form-status" data-entry-status role="status" aria-live="polite"></p>
       <div class="dialog-actions">
         <button class="danger-button" type="button" data-delete-entry hidden>刪除</button>
+        <button class="progress-button" type="button" data-toggle-progress hidden data-in-progress="false" aria-pressed="false">標記進行中</button>
         <button class="complete-button" type="button" data-toggle-complete hidden data-completed="false" aria-pressed="false">標記完成</button>
         <button class="secondary-button" type="button" data-close-entry>取消</button>
         <button class="primary-button" type="submit" data-save-entry>儲存</button>
@@ -1015,6 +1186,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script type="module" src="schedule-system.js?v=20260722-2"></script>
+  <script type="module" src="schedule-system.js?v=20260726-2"></script>
 </body>
 </html>

@@ -134,15 +134,15 @@ begin
     raise exception 'Stale batch completion was not atomic';
   end if;
 
-  -- Occupied destinations and student attempts to move teacher work are rejected.
+  -- Students cannot swap with, or directly move, teacher-created work.
   begin
     perform public._schedule_move_entry(
       v_student_id, v_student_b, v_student_b_updated,
       v_source_date, 99, v_source_date, 100,
       v_source_version, v_source_version, 'student'
     );
-    raise exception 'Expected an occupied-target move failure';
-  exception when sqlstate '40001' then
+    raise exception 'Expected a teacher-target swap failure';
+  exception when sqlstate '42501' then
     null;
   end;
 
@@ -382,5 +382,162 @@ begin
   raise notice 'Schedule display-preference database smoke test passed';
 end;
 $schedule_preferences_test$;
+
+do $schedule_enhancements_test$
+declare
+  v_marker text := 'codex-schedule-enhancements-' || gen_random_uuid()::text;
+  v_student_id uuid;
+  v_entry_id uuid;
+  v_entry_updated timestamptz;
+  v_group_id uuid;
+  v_countdown_id uuid;
+  v_countdown_updated timestamptz;
+  v_swap_a uuid;
+  v_swap_b uuid;
+  v_swap_a_updated timestamptz;
+  v_swap_b_updated timestamptz;
+  v_capacity_version bigint;
+  v_result jsonb;
+  v_payload jsonb;
+begin
+  insert into public.flashcard_students (name, password_hash, access)
+  values (v_marker, 'rollback-test-only', '{}'::jsonb)
+  returning id into v_student_id;
+
+  insert into public.schedule_day_capacity (student_id, schedule_date, slot_count, version)
+  select v_student_id, day.schedule_date::date, 10, 0
+  from pg_catalog.generate_series(date '2049-01-04'::timestamp, date '2049-01-10'::timestamp, interval '1 day') day(schedule_date);
+
+  v_result := public._schedule_upsert_entry(
+    v_student_id, date '2049-01-04', 1, 'Three-day project', 123,
+    null, 'student', null
+  );
+  v_entry_id := (v_result ->> 'id')::uuid;
+  select entry.updated_at into v_entry_updated from public.schedule_entries entry where entry.id = v_entry_id;
+
+  v_result := public._schedule_set_entry_in_progress(v_student_id, v_entry_id, v_entry_updated, true);
+  if v_result ->> 'isInProgress' <> 'true' or v_result ->> 'isCompleted' <> 'false' then
+    raise exception 'Progress state did not persist: %', v_result;
+  end if;
+  select entry.updated_at into v_entry_updated from public.schedule_entries entry where entry.id = v_entry_id;
+
+  -- Desktop may span several days in one drop; the helper fills every date in between.
+  v_result := public._schedule_extend_entry_span(
+    v_student_id, v_entry_id, v_entry_updated, date '2049-01-06', 'student'
+  );
+  v_group_id := (v_result ->> 'spanGroupId')::uuid;
+  if (select count(*) from public.schedule_entries entry where entry.span_group_id = v_group_id) <> 3 then
+    raise exception 'Multi-day project did not fill all three contiguous dates';
+  end if;
+  if (select count(distinct entry.slot_index) from public.schedule_entries entry
+      where entry.span_group_id = v_group_id) <> 1
+  then
+    raise exception 'Multi-day project members did not reserve one aligned database lane';
+  end if;
+  if exists (
+    select 1 from public.schedule_entries entry
+    where entry.span_group_id = v_group_id
+      and (entry.estimated_minutes <> 123 or not entry.is_in_progress)
+  ) then
+    raise exception 'Multi-day project did not preserve estimate/progress state';
+  end if;
+
+  -- The legacy no-estimate upsert remains compatible and must update every
+  -- member of an existing multi-day project, not only the clicked day.
+  select entry.updated_at into v_entry_updated
+  from public.schedule_entries entry where entry.id = v_entry_id;
+  v_result := public._schedule_upsert_entry(
+    v_student_id, date '2049-01-04',
+    (select entry.slot_index from public.schedule_entries entry where entry.id = v_entry_id),
+    'Legacy group-aware edit', v_entry_updated, 'student', null
+  );
+  if (select count(*) from public.schedule_entries entry
+      where entry.span_group_id = v_group_id and entry.message = 'Legacy group-aware edit') <> 3
+  then
+    raise exception 'Legacy upsert did not propagate across the span group';
+  end if;
+
+  -- Two ordinary entries swap atomically when dropped onto one another.
+  insert into public.schedule_entries (student_id, schedule_date, slot_index, message, source)
+  values (v_student_id, date '2049-01-07', 1, 'Swap A', 'student')
+  returning id, updated_at into v_swap_a, v_swap_a_updated;
+  insert into public.schedule_entries (student_id, schedule_date, slot_index, message, source)
+  values (v_student_id, date '2049-01-07', 2, 'Swap B', 'student')
+  returning id, updated_at into v_swap_b, v_swap_b_updated;
+  select capacity.version into v_capacity_version from public.schedule_day_capacity capacity
+  where capacity.student_id = v_student_id and capacity.schedule_date = date '2049-01-07';
+  begin
+    perform public._schedule_move_entry_checked(
+      v_student_id, v_swap_a, v_swap_a_updated,
+      date '2049-01-07', 1, date '2049-01-07', 2,
+      v_capacity_version, v_capacity_version,
+      v_swap_b_updated - interval '1 second', 'student'
+    );
+    raise exception 'Expected stale swap-target rejection';
+  exception when sqlstate '40001' then null;
+  end;
+
+  v_result := public._schedule_move_entry_checked(
+    v_student_id, v_swap_a, v_swap_a_updated,
+    date '2049-01-07', 1, date '2049-01-07', 2,
+    v_capacity_version, v_capacity_version, v_swap_b_updated, 'student'
+  );
+  if v_result ->> 'swapped' <> 'true'
+    or (select entry.slot_index from public.schedule_entries entry where entry.id = v_swap_a) <> 2
+    or (select entry.slot_index from public.schedule_entries entry where entry.id = v_swap_b) <> 1
+  then raise exception 'Exact-slot swap returned an unexpected result: %', v_result; end if;
+
+  if public._schedule_change_countdown_capacity_checked(v_student_id, 6, 5) <> 11 then
+    raise exception 'Countdown capacity did not increase by five';
+  end if;
+  begin
+    perform public._schedule_change_countdown_capacity_checked(v_student_id, 6, 5);
+    raise exception 'Expected stale countdown-capacity rejection';
+  exception when sqlstate '40001' then null;
+  end;
+  v_result := public._schedule_upsert_countdown(
+    v_student_id, 11, 'Public examination', date '2049-01-04', date '2049-12-31',
+    1.5, 0.5, 0.5, 0.5, null
+  );
+  v_countdown_id := (v_result ->> 'id')::uuid;
+  v_countdown_updated := (v_result ->> 'updatedAt')::timestamptz;
+
+  begin
+    perform public._schedule_change_countdown_capacity(v_student_id, -5);
+    raise exception 'Expected a countdown shrink failure while Clock 11 contains data';
+  exception when others then
+    if sqlerrm = 'Expected a countdown shrink failure while Clock 11 contains data' then raise; end if;
+  end;
+
+  begin
+    perform public._schedule_upsert_countdown(
+      v_student_id, 1, 'Invalid dates', date '2049-02-01', date '2049-01-01',
+      0, 0, 0, 0, null
+    );
+    raise exception 'Expected invalid countdown-date rejection';
+  exception when sqlstate '22023' then null;
+  end;
+
+  v_payload := public._schedule_week_payload(v_student_id, date '2049-01-04');
+  if (v_payload ->> 'countdownCapacity')::integer <> 11
+    or pg_catalog.jsonb_array_length(v_payload -> 'countdowns') <> 1
+    or not exists (
+      select 1 from pg_catalog.jsonb_array_elements(v_payload -> 'entries') item
+      where item ->> 'estimatedMinutes' = '123'
+        and item ->> 'isInProgress' = 'true'
+        and item ->> 'spanGroupId' = v_group_id::text
+    )
+  then raise exception 'Enhanced week payload omitted persisted data: %', v_payload; end if;
+
+  if not public._schedule_delete_countdown(v_student_id, v_countdown_id, v_countdown_updated) then
+    raise exception 'Countdown delete helper returned false';
+  end if;
+  if public._schedule_change_countdown_capacity_checked(v_student_id, 11, -5) <> 6 then
+    raise exception 'Countdown capacity did not shrink after Clock 11 was cleared';
+  end if;
+
+  raise notice 'Schedule enhancement database smoke test passed';
+end;
+$schedule_enhancements_test$;
 
 rollback;

@@ -3,9 +3,37 @@ const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
 const CONTENT = window.EDMUND_SENTENCE_STRUCTURE_DATA || { version: "missing", lessons: [] };
 
 const SESSION_KEY = "edmund-sentence-structure-session-v1";
+const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-sentence-structure-progress-panel-v1";
+const SECTION_BOOKMARK_ID = "__section__";
 const MAX_BOOKMARKS = 6000;
 const LESSON_PAGES = 4;
+const ATTEMPT_PAGE_SIZE = 100;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+const SPELLING_EQUIVALENTS = Object.freeze({
+  analyse: "analyze", analysed: "analyzed", analysing: "analyzing",
+  apologise: "apologize", apologised: "apologized", apologising: "apologizing",
+  behaviour: "behavior", behaviours: "behaviors",
+  cancelled: "canceled", cancelling: "canceling",
+  catalogue: "catalog", catalogues: "catalogs",
+  centre: "center", centres: "centers",
+  colour: "color", colours: "colors", coloured: "colored", colouring: "coloring", colourful: "colorful", colourless: "colorless",
+  counsellor: "counselor", counsellors: "counselors",
+  defence: "defense", defences: "defenses",
+  dialogue: "dialog", dialogues: "dialogs",
+  favour: "favor", favours: "favors", favourite: "favorite", favourites: "favorites",
+  honour: "honor", honours: "honors", honoured: "honored",
+  labour: "labor", labours: "labors",
+  licence: "license", licences: "licenses",
+  neighbour: "neighbor", neighbours: "neighbors", neighbourhood: "neighborhood",
+  organise: "organize", organised: "organized", organises: "organizes", organising: "organizing",
+  organisation: "organization", organisations: "organizations",
+  practise: "practice", practised: "practiced", practises: "practices", practising: "practicing",
+  programme: "program", programmes: "programs",
+  realise: "realize", realised: "realized", realises: "realizes", realising: "realizing",
+  recognise: "recognize", recognised: "recognized", recognises: "recognizes", recognising: "recognizing",
+  theatre: "theater", theatres: "theaters",
+  travelled: "traveled", travelling: "traveling", traveller: "traveler", travellers: "travelers"
+});
 
 const elements = {
   views: [...document.querySelectorAll("[data-view]")],
@@ -24,6 +52,16 @@ const elements = {
   lessonCount: document.querySelector("[data-lesson-count]"),
   lessonChoiceGrid: document.querySelector("[data-lesson-choice-grid]"),
   historyList: document.querySelector("[data-history-list]"),
+  progressToggle: document.querySelector("[data-sentence-progress-toggle]"),
+  progressToggleLabel: document.querySelector("[data-sentence-progress-toggle-label]"),
+  progressPanel: document.querySelector("[data-sentence-progress-panel]"),
+  progressChart: document.querySelector("[data-sentence-progress-chart]"),
+  progressPeriodTotal: document.querySelector("[data-sentence-progress-period-total]"),
+  progressAllTotal: document.querySelector("[data-sentence-progress-all-total]"),
+  progressActiveDays: document.querySelector("[data-sentence-progress-active-days]"),
+  progressDayPanel: document.querySelector("[data-sentence-progress-day-panel]"),
+  progressDayTitle: document.querySelector("[data-sentence-progress-day-title]"),
+  progressDayList: document.querySelector("[data-sentence-progress-day-list]"),
   lessonRound: document.querySelector("[data-lesson-round]"),
   lessonKicker: document.querySelector("[data-lesson-kicker]"),
   lessonTitle: document.querySelector("[data-lesson-title]"),
@@ -48,8 +86,15 @@ const state = {
   exercise: null,
   exerciseClockStartedAt: 0,
   bookmarks: [],
+  syncedBookmarks: [],
   attempts: [],
   dashboardLoaded: false,
+  attemptHistoryComplete: true,
+  progressPanelExpanded: false,
+  progressRange: "month",
+  selectedProgressDay: "",
+  bookmarkSaveQueue: Promise.resolve(),
+  bookmarkWriteRevision: 0,
   saveInFlight: false,
   exercisePersistTimer: null,
   toastTimer: null,
@@ -102,6 +147,38 @@ function lessonTitle(lesson) {
 
 function lessonEnglishTitle(lesson) {
   return String(lesson?.titleEn || lesson?.englishTitle || "Sentence Structure");
+}
+
+function progressPanelPreferenceStorageKey() {
+  const userId = String(state.user?.id || "").trim();
+  return userId ? `${PROGRESS_PANEL_PREFERENCE_KEY}:${userId}` : "";
+}
+
+function readProgressPanelPreference() {
+  const key = progressPanelPreferenceStorageKey();
+  if (!key) return false;
+  try { return localStorage.getItem(key) === "expanded"; } catch { return false; }
+}
+
+function writeProgressPanelPreference(expanded) {
+  const key = progressPanelPreferenceStorageKey();
+  if (!key) return;
+  try { localStorage.setItem(key, expanded ? "expanded" : "collapsed"); } catch { /* Preference can remain in memory. */ }
+}
+
+function renderProgressPanelDisclosure() {
+  if (!elements.progressToggle || !elements.progressPanel) return;
+  const expanded = state.progressPanelExpanded === true;
+  elements.progressToggle.setAttribute("aria-expanded", String(expanded));
+  elements.progressPanel.hidden = !expanded;
+  if (elements.progressToggleLabel) elements.progressToggleLabel.textContent = expanded ? "收起 −" : "展開 ＋";
+}
+
+function toggleProgressPanel() {
+  state.progressPanelExpanded = !state.progressPanelExpanded;
+  writeProgressPanelPreference(state.progressPanelExpanded);
+  renderProgressPanelDisclosure();
+  if (state.progressPanelExpanded) renderProgressDashboard();
 }
 
 function setConnection(text, status = "checking") {
@@ -220,9 +297,9 @@ async function parseApiError(response) {
   return error;
 }
 
-async function apiJson(path, options = {}, includeAuth = true) {
+async function apiJson(path, options = {}, includeAuth = true, authToken = state.authToken) {
   const headers = new Headers(options.headers || {});
-  if (includeAuth && state.authToken) headers.set("Authorization", `Bearer ${state.authToken}`);
+  if (includeAuth && authToken) headers.set("Authorization", `Bearer ${authToken}`);
   if (options.body && !headers.has("Content-Type")) headers.set("Content-Type", "application/json");
   let response;
   try {
@@ -238,7 +315,7 @@ async function apiJson(path, options = {}, includeAuth = true) {
   }
   if (!response.ok) {
     const error = await parseApiError(response);
-    if (includeAuth && response.status === 401) {
+    if (includeAuth && response.status === 401 && authToken === state.authToken) {
       if (state.user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
       clearSession();
       setStatus(elements.loginStatus, "登入時段已結束，請重新登入。", "error");
@@ -282,8 +359,15 @@ function clearSession() {
   state.lessonPage = 1;
   state.exercise = null;
   state.bookmarks = [];
+  state.syncedBookmarks = [];
   state.attempts = [];
   state.dashboardLoaded = false;
+  state.attemptHistoryComplete = true;
+  state.progressPanelExpanded = false;
+  state.progressRange = "month";
+  state.selectedProgressDay = "";
+  state.bookmarkWriteRevision += 1;
+  state.bookmarkSaveQueue = Promise.resolve();
   state.adminStudents = [];
   state.selectedAdminStudentId = "";
   try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Ignore unavailable storage. */ }
@@ -417,11 +501,12 @@ function normalizeBookmark(value) {
   if (!isPlainObject(value)) return null;
   const lessonId = String(value.lessonId || value.lesson_id || "");
   const questionId = String(value.questionId || value.question_id || "");
-  if (!getQuestion(lessonId, questionId)) return null;
+  const sectionBookmark = questionId === SECTION_BOOKMARK_ID;
+  if (!getLesson(lessonId) || (!sectionBookmark && !getQuestion(lessonId, questionId))) return null;
   return {
     lessonId,
     questionId,
-    includeAnswer: value.includeAnswer === true || value.include_answer === true,
+    includeAnswer: !sectionBookmark && (value.includeAnswer === true || value.include_answer === true),
     createdAt: String(value.createdAt || value.created_at || "")
   };
 }
@@ -444,37 +529,70 @@ function normalizeAttempt(value) {
   };
 }
 
+async function loadAllAttempts(authToken = state.authToken) {
+  const rows = [];
+  const seen = new Set();
+  let complete = true;
+  for (let page = 1; page <= 100; page += 1) {
+    const payload = await apiJson(`/v1/attempts?page=${page}&pageSize=${ATTEMPT_PAGE_SIZE}`, {}, true, authToken);
+    const attempts = Array.isArray(payload?.attempts) ? payload.attempts : [];
+    for (const attempt of attempts) {
+      const id = String(attempt?.id || "");
+      if (id && !seen.has(id)) {
+        seen.add(id);
+        rows.push(attempt);
+      }
+    }
+    if (payload?.hasMore !== true || attempts.length < ATTEMPT_PAGE_SIZE) break;
+    if (page === 100) complete = false;
+  }
+  return { attempts: rows, complete };
+}
+
 async function loadDashboardData({ force = false } = {}) {
   if (state.user?.role !== "student") return;
   if (state.dashboardLoaded && !force) return;
+  const userId = String(state.user?.id || "");
+  const authToken = String(state.authToken || "");
   const [attemptPayload, bookmarkPayload] = await Promise.all([
-    apiJson("/v1/attempts?page=1&pageSize=100"),
-    apiJson("/v1/bookmarks")
+    loadAllAttempts(authToken),
+    apiJson("/v1/bookmarks", {}, true, authToken)
   ]);
+  if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
   state.attempts = (Array.isArray(attemptPayload?.attempts) ? attemptPayload.attempts : [])
     .map(normalizeAttempt)
     .filter((attempt) => attempt.id && getLesson(attempt.lessonId));
+  state.attemptHistoryComplete = attemptPayload?.complete !== false;
   state.bookmarks = (Array.isArray(bookmarkPayload?.bookmarks) ? bookmarkPayload.bookmarks : [])
     .map(normalizeBookmark)
     .filter(Boolean)
     .slice(0, MAX_BOOKMARKS);
+  state.syncedBookmarks = state.bookmarks.map((bookmark) => ({ ...bookmark }));
   state.dashboardLoaded = true;
 }
 
 async function openDashboard({ force = false } = {}) {
   if (state.user?.role !== "student") return;
+  const userId = String(state.user?.id || "");
+  const authToken = String(state.authToken || "");
   pauseExerciseClock();
+  state.progressPanelExpanded = readProgressPanelPreference();
+  renderProgressPanelDisclosure();
   showView("dashboard");
   elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個句型，由概念開始，再完成 50 題分輪練習。`;
   renderLessonChoices();
   if (!state.dashboardLoaded || force) elements.historyList.innerHTML = loadingHtml();
   try {
     await loadDashboardData({ force });
+    if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
     renderLessonChoices();
+    renderProgressDashboard();
     renderAttemptHistory();
   } catch (error) {
+    if (String(state.user?.id || "") !== userId || String(state.authToken || "") !== authToken) return;
     console.warn("Sentence Structure dashboard failed", error);
     elements.historyList.innerHTML = '<p class="empty-state">未能載入練習記錄，請稍後按「重新整理」。</p>';
+    renderProgressDashboard();
     showToast("未能同步練習記錄。", "error");
   }
 }
@@ -482,17 +600,213 @@ async function openDashboard({ force = false } = {}) {
 function renderLessonChoices() {
   if (elements.lessonCount) elements.lessonCount.textContent = String(lessonList().length);
   const cards = lessonList().map((lesson, index) => {
+    const complete = state.attempts.some((attempt) => (
+      attempt.lessonId === lesson.id
+      && attempt.status === "completed"
+      && attempt.correctCount >= Math.min(50, attempt.totalCount || 50)
+    ));
+    const bookmarked = isSectionBookmarked(lesson.id);
     return `
-      <button class="lesson-choice" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${index % 2 ? "violet" : "blue"}">
-        <h2>${escapeHtml(lessonTitle(lesson))}<span>${escapeHtml(lessonEnglishTitle(lesson))}</span></h2>
-      </button>
+      <article class="lesson-choice-card ${complete ? "is-complete" : ""}">
+        <button class="lesson-choice ${complete ? "is-complete" : ""}" type="button" data-open-lesson="${escapeHtml(lesson.id)}" data-number="${index + 1}" data-tone="${complete ? "gold" : index % 2 ? "violet" : "blue"}">
+          <h2>${escapeHtml(lessonTitle(lesson))}<span>${escapeHtml(lessonEnglishTitle(lesson))}</span></h2>
+          ${complete ? '<span class="lesson-choice-complete">✓ 50 / 50 題已完成</span>' : ""}
+        </button>
+        <button class="lesson-section-bookmark" type="button" data-toggle-section-bookmark="${escapeHtml(lesson.id)}" aria-pressed="${bookmarked}" aria-label="${bookmarked ? "移除句型書簽" : "收藏整個句型"}">${bookmarked ? "★" : "☆"}</button>
+      </article>
     `;
   }).join("");
-  elements.lessonChoiceGrid.innerHTML = `${cards}
-    <button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
+  const sectionBookmarkCount = state.bookmarks.filter((bookmark) => bookmark.questionId === SECTION_BOOKMARK_ID).length;
+  const questionBookmarkCount = state.bookmarks.length - sectionBookmarkCount;
+  elements.lessonChoiceGrid.innerHTML = `<button class="lesson-choice" type="button" data-open-bookmarks-card data-number="★" data-tone="bookmark">
       <h2>書簽<span>Bookmarks</span></h2>
-      <span class="choice-meta"><span>${escapeHtml(state.bookmarks.length)} 個收藏題目</span><span>跟隨帳戶同步</span></span>
-    </button>`;
+      <span class="choice-meta"><span>${escapeHtml(sectionBookmarkCount)} 個句型</span><span>${escapeHtml(questionBookmarkCount)} 道題目</span><span>跟隨帳戶同步</span></span>
+    </button>${cards}`;
+}
+
+function localDayKey(value) {
+  const date = value instanceof Date ? value : new Date(value);
+  if (!Number.isFinite(date.getTime())) return "";
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+}
+
+function questionActivityRows(attempts = state.attempts) {
+  const rows = [];
+  for (const attempt of attempts) {
+    const rounds = Array.isArray(attempt.result?.rounds) ? attempt.result.rounds : [];
+    const represented = new Set();
+    for (const round of rounds) {
+      const time = Date.parse(round?.submittedAt || "");
+      if (!Number.isFinite(time)) continue;
+      const correctIds = new Set(Array.isArray(round.correctIds) ? round.correctIds.map(String) : []);
+      const incorrectIds = new Set(Array.isArray(round.incorrectIds) ? round.incorrectIds.map(String) : []);
+      for (const rawQuestionId of Array.isArray(round.checkedIds) ? round.checkedIds : []) {
+        const questionId = String(rawQuestionId || "");
+        const question = getQuestion(attempt.lessonId, questionId);
+        if (!question) continue;
+        represented.add(questionId);
+        rows.push({
+          attemptId: attempt.id,
+          lessonId: attempt.lessonId,
+          questionId,
+          round: Number(round.round || 1),
+          time,
+          status: correctIds.has(questionId) ? "correct" : incorrectIds.has(questionId) ? "wrong" : "checked"
+        });
+      }
+    }
+
+    if (!rounds.length) {
+      const time = Date.parse(attempt.completedAt || attempt.updatedAt || attempt.startedAt || "");
+      if (!Number.isFinite(time)) continue;
+      const correctIds = Array.isArray(attempt.result?.correctIds) ? attempt.result.correctIds : [];
+      for (const rawQuestionId of correctIds) {
+        const questionId = String(rawQuestionId || "");
+        if (represented.has(questionId) || !getQuestion(attempt.lessonId, questionId)) continue;
+        rows.push({
+          attemptId: attempt.id,
+          lessonId: attempt.lessonId,
+          questionId,
+          round: Number(attempt.roundNumber || 1),
+          time,
+          status: "correct"
+        });
+      }
+    }
+  }
+  return rows.sort((a, b) => a.time - b.time || a.lessonId.localeCompare(b.lessonId) || a.questionId.localeCompare(b.questionId));
+}
+
+function progressRangeStart(rangeKey, rows) {
+  const today = new Date();
+  const end = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const addDays = (date, days) => {
+    const copy = new Date(date);
+    copy.setDate(copy.getDate() + days);
+    return copy;
+  };
+  if (rangeKey === "week") return addDays(end, -6);
+  if (rangeKey === "month") return addDays(end, -29);
+  if (rangeKey === "half-year") return addDays(end, -181);
+  if (rangeKey === "ytd") return new Date(end.getFullYear(), 0, 1);
+  if (rangeKey === "year") return addDays(end, -364);
+  if (rangeKey === "all" && rows.length) {
+    const first = new Date(rows[0].time);
+    return new Date(first.getFullYear(), first.getMonth(), first.getDate());
+  }
+  return addDays(end, -6);
+}
+
+function buildQuestionProgressSeries(rangeKey = state.progressRange) {
+  const activity = questionActivityRows();
+  const start = progressRangeStart(rangeKey, activity);
+  const today = new Date();
+  const end = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const buckets = new Map();
+  for (const row of activity) {
+    const date = new Date(row.time);
+    const rowDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    if (rowDate < start || rowDate > end) continue;
+    const key = localDayKey(rowDate);
+    buckets.set(key, (buckets.get(key) || 0) + 1);
+  }
+  const points = [];
+  for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
+    const date = new Date(cursor);
+    const key = localDayKey(date);
+    points.push({ date, key, total: buckets.get(key) || 0 });
+  }
+  return {
+    activity,
+    points,
+    periodTotal: points.reduce((sum, point) => sum + point.total, 0),
+    allTotal: activity.length,
+    activeDays: points.filter((point) => point.total > 0).length
+  };
+}
+
+function compactProgressDate(date) {
+  return date.toLocaleDateString("en-HK", { month: "short", day: "numeric" });
+}
+
+function questionProgressChartSvg(series) {
+  const width = 900;
+  const height = 320;
+  const dimensions = { left: 58, right: 28, top: 28, bottom: 52 };
+  const chartWidth = width - dimensions.left - dimensions.right;
+  const chartHeight = height - dimensions.top - dimensions.bottom;
+  const points = series.points;
+  const maximum = Math.max(5, ...points.map((point) => point.total));
+  const yMax = Math.max(5, Math.ceil(maximum / 5) * 5);
+  const xFor = (index) => dimensions.left + (chartWidth * index / Math.max(points.length - 1, 1));
+  const yFor = (value) => dimensions.top + chartHeight - (chartHeight * value / yMax);
+  const coords = points.map((point, index) => ({ point, x: xFor(index), y: yFor(point.total) }));
+  const path = coords.map(({ x, y }) => `${x.toFixed(2)},${y.toFixed(2)}`).join(" ");
+  const yLabels = [...new Set([0, Math.round(yMax / 2), yMax])];
+  const grid = yLabels.map((value) => `
+    <line x1="${dimensions.left}" y1="${yFor(value).toFixed(2)}" x2="${width - dimensions.right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(49,95,179,.16)" stroke-width="1" />
+    <text x="${dimensions.left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#68728a" font-size="13" font-weight="800">${value}</text>
+  `).join("");
+  const labelIndexes = points.length ? [...new Set([0, Math.floor((points.length - 1) / 2), points.length - 1])] : [];
+  const labels = labelIndexes.map((index) => `
+    <text x="${xFor(index).toFixed(2)}" y="${height - 17}" text-anchor="middle" fill="#68728a" font-size="13" font-weight="800">${escapeHtml(compactProgressDate(points[index].date))}</text>
+  `).join("");
+  const hoverPoints = coords.map(({ point, x, y }) => {
+    const boxX = Math.min(Math.max(x - 62, dimensions.left), width - dimensions.right - 124);
+    const boxY = Math.max(dimensions.top + 4, y - 54);
+    const interactionAttributes = point.total > 0
+      ? `tabindex="0" role="button" aria-label="${escapeHtml(point.key)}，完成 ${escapeHtml(point.total)} 題" data-sentence-progress-day="${escapeHtml(point.key)}"`
+      : 'aria-hidden="true"';
+    return `<g class="sentence-chart-hover" ${interactionAttributes}>
+      <circle class="sentence-chart-hit" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="15" />
+      <circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4.5" fill="#315fb3" />
+      <g class="sentence-chart-tooltip">
+        <line x1="${x.toFixed(2)}" y1="${dimensions.top}" x2="${x.toFixed(2)}" y2="${height - dimensions.bottom}" stroke="rgba(23,33,58,.24)" stroke-width="1" stroke-dasharray="4 5" />
+        <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="124" height="40" rx="8" fill="#17213a" opacity=".94" />
+        <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 17).toFixed(2)}" fill="#fff" font-size="11" font-weight="900">完成：${escapeHtml(point.total)} 題</text>
+        <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 31).toFixed(2)}" fill="#dbe5f6" font-size="10" font-weight="800">${escapeHtml(point.key)}</text>
+      </g>
+    </g>`;
+  }).join("");
+  const empty = series.periodTotal ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#68728a" font-size="20" font-weight="900">這個時段暫時未有完成題目</text>`;
+  return `<rect x="0" y="0" width="${width}" height="${height}" fill="rgba(255,255,255,.62)" />
+    ${grid}
+    <line x1="${dimensions.left}" y1="${dimensions.top}" x2="${dimensions.left}" y2="${height - dimensions.bottom}" stroke="rgba(23,33,58,.16)" stroke-width="1.4" />
+    <line x1="${dimensions.left}" y1="${height - dimensions.bottom}" x2="${width - dimensions.right}" y2="${height - dimensions.bottom}" stroke="rgba(23,33,58,.16)" stroke-width="1.4" />
+    <polyline points="${path}" fill="none" stroke="#315fb3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    ${hoverPoints}${labels}
+    <text x="${dimensions.left}" y="19" fill="#162a5b" font-size="13" font-weight="900">完成題數</text>
+    ${empty}`;
+}
+
+function renderProgressDayPanel(activity = questionActivityRows()) {
+  if (!elements.progressDayPanel || !elements.progressDayList) return;
+  const key = state.selectedProgressDay;
+  elements.progressDayPanel.hidden = !key;
+  if (!key) return;
+  const rows = activity.filter((row) => localDayKey(row.time) === key);
+  if (elements.progressDayTitle) elements.progressDayTitle.textContent = `${key} 完成題目（${rows.length} 題）`;
+  elements.progressDayList.innerHTML = rows.length ? rows.map((row) => {
+    const lesson = getLesson(row.lessonId);
+    const question = getQuestion(row.lessonId, row.questionId);
+    return `<div class="sentence-progress-day-row">
+      <strong>${escapeHtml(lessonTitle(lesson))} · Question ${escapeHtml(question?.number || "")}</strong>
+      <span>${escapeHtml(question?.prompt || question?.english || "")}</span>
+      <em class="${row.status === "correct" ? "is-correct" : ""}">${row.status === "correct" ? "答對" : row.status === "wrong" ? "待改正" : "已提交"} · 第 ${escapeHtml(row.round)} 輪</em>
+    </div>`;
+  }).join("") : '<p class="empty-state">這一天暫時未有完成題目。</p>';
+}
+
+function renderProgressDashboard() {
+  document.querySelectorAll("[data-sentence-progress-range]").forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.sentenceProgressRange === state.progressRange));
+  });
+  const series = buildQuestionProgressSeries();
+  if (elements.progressChart) elements.progressChart.innerHTML = questionProgressChartSvg(series);
+  if (elements.progressPeriodTotal) elements.progressPeriodTotal.textContent = String(series.periodTotal);
+  if (elements.progressAllTotal) elements.progressAllTotal.textContent = String(series.allTotal);
+  if (elements.progressActiveDays) elements.progressActiveDays.textContent = String(series.activeDays);
+  renderProgressDayPanel(series.activity);
 }
 
 function formatDateTime(value) {
@@ -546,7 +860,10 @@ function attemptHistoryHtml(attempts, { allowResume = true } = {}) {
 }
 
 function renderAttemptHistory() {
-  elements.historyList.innerHTML = attemptHistoryHtml(state.attempts);
+  const visible = state.attempts.slice(0, ATTEMPT_PAGE_SIZE);
+  elements.historyList.innerHTML = `${state.attemptHistoryComplete ? "" : '<p class="history-warning" role="status">練習記錄超過 10,000 次；圖表及下方記錄目前只計算最近 10,000 次。較早記錄仍保留在系統內。</p>'}${attemptHistoryHtml(visible)}${state.attempts.length > visible.length
+    ? `<p class="history-note">圖表已計算全部記錄；下方只顯示最近 ${ATTEMPT_PAGE_SIZE} 次練習。</p>`
+    : ""}`;
 }
 
 function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}) {
@@ -560,11 +877,8 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
   elements.lessonTitle.textContent = lessonTitle(lesson);
   showView("lesson");
   renderLessonPage();
-  if (questionId) {
-    window.setTimeout(() => {
-      document.querySelector(`[data-question-id="${CSS.escape(questionId)}"]`)?.scrollIntoView({ behavior: "smooth", block: "center" });
-    }, 50);
-  }
+  const targetQuestionId = questionId || (state.lessonPage === 4 ? currentProgressQuestionId(lesson) : "");
+  if (targetQuestionId) focusExerciseQuestion(targetQuestionId);
 }
 
 function setLessonPage(page) {
@@ -572,6 +886,35 @@ function setLessonPage(page) {
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
   renderLessonPage();
   window.scrollTo({ top: 0, behavior: "smooth" });
+  if (state.lessonPage === 4) {
+    const targetQuestionId = currentProgressQuestionId();
+    if (targetQuestionId) focusExerciseQuestion(targetQuestionId);
+  }
+}
+
+function currentProgressQuestionId(lesson = getLesson()) {
+  if (!lesson || !state.exercise) return "";
+  const questions = state.exercise.correctionMode ? correctionQuestions(lesson) : lesson.questions || [];
+  const unresolved = questions.filter((question) => !state.exercise.correctIds.includes(question.id));
+  if (state.exercise.correctionMode) return String(unresolved[0]?.id || "");
+  const unanswered = unresolved.find((question) => {
+    const saved = questionState(question.id);
+    const draft = state.exercise.drafts?.[question.id];
+    return saved.status === "pending" && !String(draft ?? saved.lastAnswer ?? "").trim();
+  });
+  const pending = unanswered || unresolved.find((question) => questionState(question.id).status === "pending");
+  const next = pending || unresolved.find((question) => questionState(question.id).status === "wrong") || unresolved[0];
+  return String(next?.id || "");
+}
+
+function focusExerciseQuestion(questionId) {
+  if (!questionId) return;
+  window.setTimeout(() => {
+    const card = document.querySelector(`[data-question-id="${CSS.escape(questionId)}"]`);
+    card?.scrollIntoView?.({ behavior: "smooth", block: "center" });
+    const input = card?.querySelector?.("[data-answer-input]:not([disabled])");
+    input?.focus?.({ preventScroll: true });
+  }, 50);
 }
 
 function updateLessonStepper() {
@@ -758,6 +1101,10 @@ function isBookmarked(lessonId, questionId) {
   return state.bookmarks.some((bookmark) => bookmark.lessonId === lessonId && bookmark.questionId === questionId);
 }
 
+function isSectionBookmarked(lessonId) {
+  return isBookmarked(lessonId, SECTION_BOOKMARK_ID);
+}
+
 function highlightedAnswerHtml(answer, highlight) {
   const full = String(answer || "");
   const target = String(highlight || "");
@@ -765,6 +1112,95 @@ function highlightedAnswerHtml(answer, highlight) {
   const index = full.toLocaleLowerCase().indexOf(target.toLocaleLowerCase());
   if (index < 0) return escapeHtml(full);
   return `${escapeHtml(full.slice(0, index))}<span class="target-highlight">${escapeHtml(full.slice(index, index + target.length))}</span>${escapeHtml(full.slice(index + target.length))}`;
+}
+
+function canonicalSpellingToken(value) {
+  const token = String(value || "")
+    .normalize("NFKC")
+    .replace(/[‘’]/g, "'")
+    .toLocaleLowerCase();
+  return SPELLING_EQUIVALENTS[token] || token;
+}
+
+function answerWordSegments(value) {
+  const text = String(value || "");
+  const words = [];
+  const matcher = /[\p{L}\p{N}]+(?:['’][\p{L}\p{N}]+)*/gu;
+  for (const match of text.matchAll(matcher)) {
+    words.push({ text: match[0], start: match.index, end: match.index + match[0].length, comparable: canonicalSpellingToken(match[0]) });
+  }
+  return { text, words };
+}
+
+function missingAnswerMarkup(answer, studentAnswer) {
+  const model = answerWordSegments(answer);
+  const student = answerWordSegments(studentAnswer);
+  const rows = model.words.length;
+  const columns = student.words.length;
+  const lengths = Array.from({ length: rows + 1 }, () => new Uint16Array(columns + 1));
+  for (let row = rows - 1; row >= 0; row -= 1) {
+    for (let column = columns - 1; column >= 0; column -= 1) {
+      lengths[row][column] = model.words[row].comparable === student.words[column].comparable
+        ? lengths[row + 1][column + 1] + 1
+        : Math.max(lengths[row + 1][column], lengths[row][column + 1]);
+    }
+  }
+  const matched = new Set();
+  const matchedStudent = new Set();
+  let row = 0;
+  let column = 0;
+  while (row < rows && column < columns) {
+    if (model.words[row].comparable === student.words[column].comparable) {
+      matched.add(row);
+      matchedStudent.add(column);
+      row += 1;
+      column += 1;
+    } else if (lengths[row + 1][column] >= lengths[row][column + 1]) {
+      row += 1;
+    } else {
+      column += 1;
+    }
+  }
+  const missing = model.words.map((_, index) => index).filter((index) => !matched.has(index));
+  const partialSuffixes = new Map();
+  for (const modelIndex of missing) {
+    const modelToken = model.words[modelIndex].comparable;
+    let best = null;
+    for (let studentIndex = 0; studentIndex < student.words.length; studentIndex += 1) {
+      if (matchedStudent.has(studentIndex)) continue;
+      const studentToken = student.words[studentIndex].comparable;
+      const suffixLength = modelToken.endsWith("s") && studentToken === modelToken.slice(0, -1)
+        ? 1
+        : modelToken.endsWith("es") && studentToken === modelToken.slice(0, -2)
+          ? 2
+          : 0;
+      if (!suffixLength) continue;
+      const distance = Math.abs(modelIndex - studentIndex);
+      if (!best || distance < best.distance) best = { studentIndex, suffixLength, distance };
+    }
+    if (best) {
+      matchedStudent.add(best.studentIndex);
+      partialSuffixes.set(modelIndex, best.suffixLength);
+    }
+  }
+  if (!missing.length) return { html: escapeHtml(model.text), missingCount: 0 };
+  let cursor = 0;
+  const html = model.words.map((word, index) => {
+    const prefix = escapeHtml(model.text.slice(cursor, word.start));
+    cursor = word.end;
+    const escaped = escapeHtml(word.text);
+    const suffixLength = partialSuffixes.get(index) || 0;
+    const marked = suffixLength
+      ? `${escapeHtml(word.text.slice(0, -suffixLength))}<mark class="missing-answer-highlight">${escapeHtml(word.text.slice(-suffixLength))}</mark>`
+      : `<mark class="missing-answer-highlight">${escaped}</mark>`;
+    return `${prefix}${matched.has(index) ? escaped : marked}`;
+  }).join("") + escapeHtml(model.text.slice(cursor));
+  return { html, missingCount: missing.length };
+}
+
+function comparedAnswerHtml(answer, studentAnswer, fallbackHighlight = "") {
+  const compared = missingAnswerMarkup(answer, studentAnswer);
+  return compared.missingCount ? compared.html : highlightedAnswerHtml(answer, fallbackHighlight);
 }
 
 function questionAnswerParts(question) {
@@ -794,15 +1230,19 @@ function combinedAnswerPartValue(question, values) {
     .join(" || ");
 }
 
-function suggestedAnswerHtml(question) {
+function suggestedAnswerHtml(question, studentAnswer = null) {
   const parts = questionAnswerParts(question);
   if (!parts.length) {
-    return `<p>${highlightedAnswerHtml(question.answer, question.highlight)}</p><p>${escapeHtml(question.answerZh || "")}</p>`;
+    const answerHtml = studentAnswer === null
+      ? highlightedAnswerHtml(question.answer, question.highlight)
+      : comparedAnswerHtml(question.answer, studentAnswer, question.highlight);
+    return `<p>${answerHtml}</p><p>${escapeHtml(question.answerZh || "")}</p>`;
   }
-  return `<div class="multi-answer-reveal">${parts.map((part) => `
+  const studentParts = studentAnswer === null ? [] : storedAnswerPartValues(question, studentAnswer);
+  return `<div class="multi-answer-reveal">${parts.map((part, index) => `
     <div>
       <strong>${escapeHtml(part.label)}</strong>
-      <p>${highlightedAnswerHtml(part.answer, part.highlight || part.answer)}</p>
+      <p>${studentAnswer === null ? highlightedAnswerHtml(part.answer, part.highlight || part.answer) : comparedAnswerHtml(part.answer, studentParts[index] || "", part.highlight || part.answer)}</p>
       <p>${escapeHtml(part.answerZh || "")}</p>
     </div>
   `).join("")}</div>`;
@@ -816,7 +1256,7 @@ function questionHtml(question) {
   const unresolvedCorrection = state.exercise.correctionMode
     && state.exercise.correctionIds.includes(question.id)
     && !correct;
-  const revealAnswer = qState.reveal === true && !unresolvedCorrection;
+  const revealAnswer = qState.reveal === true;
   const value = state.exercise.drafts[question.id] ?? qState.lastAnswer ?? "";
   const answerParts = questionAnswerParts(question);
   const partValues = storedAnswerPartValues(question, value);
@@ -842,8 +1282,9 @@ function questionHtml(question) {
           <input class="answer-input" type="text" maxlength="450" data-answer-input="${escapeHtml(question.id)}" data-answer-part-index="${index}" value="${escapeHtml(partValues[index] || "")}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題 ${escapeHtml(part.label)} 答案">
         </label>
       `).join("")}</div>` : `<input class="answer-input" type="text" maxlength="1000" data-answer-input="${escapeHtml(question.id)}" value="${escapeHtml(value)}" ${correct ? "disabled" : ""} autocomplete="off" spellcheck="true" aria-label="第 ${escapeHtml(question.number)} 題答案">`}
+      ${wrong && !correct ? `<button class="clear-answer-button" type="button" data-clear-question-answer="${escapeHtml(question.id)}">清除答案，重新輸入</button>` : ""}
       <p class="question-feedback" aria-live="polite">${correct ? "✓ 答案正確，這題已完成。" : wrong ? unresolvedCorrection ? "答案未完全符合句型；請再次修改後提交。" : "答案未完全符合句型；請參考答案並修改。" : ""}</p>
-      ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案</span>${suggestedAnswerHtml(question)}</div>` : ""}
+      ${revealAnswer ? `<div class="answer-reveal"><span>SUGGESTED ANSWER · 參考答案（黃色為遺漏或需修改部分）</span>${suggestedAnswerHtml(question, value)}</div>` : ""}
     </div>
   </article>`;
 }
@@ -879,6 +1320,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   const wrongIds = wrongQuestionIds(lesson);
   const correctionScope = state.exercise.correctionMode ? correctionQuestions(lesson) : [];
   const correctionRemaining = correctionScope.filter((question) => !state.exercise.correctIds.includes(question.id));
+  const correctionAnswerVisible = correctionRemaining.some((question) => questionState(question.id).reveal === true);
   const displayQuestions = completed
     ? lesson.questions
     : state.exercise.correctionMode
@@ -920,7 +1362,7 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
     ${!completed && state.exercise.correctionMode ? `<section class="correction-round-banner">
       <div>
         <h3>${correctionRemaining.length ? "Correction Round · 改正輪" : "本次錯題已全部改正"}</h3>
-        <p>${correctionRemaining.length ? `集中修正 ${escapeHtml(correctionRemaining.length)} 題；參考答案會暫時隱藏，答對後題卡會保留為淡綠色，方便核對。` : "你可以查看已完成的綠色題卡，或返回其餘題目繼續練習。"}</p>
+        <p>${correctionRemaining.length ? correctionAnswerVisible ? `仍有 ${escapeHtml(correctionRemaining.length)} 題需要改正；黃色會標示遺漏或需修改部分，提交後可繼續下一改正輪。` : `集中修正 ${escapeHtml(correctionRemaining.length)} 題；首次提交前會暫時隱藏參考答案，答錯後會顯示提示並自動進入下一改正輪。` : "你可以查看已完成的綠色題卡，或返回其餘題目繼續練習。"}</p>
       </div>
       <button class="secondary-button" type="button" data-exit-correction>返回其餘題目</button>
     </section>` : ""}
@@ -1000,7 +1442,7 @@ function syncExerciseButtons() {
 }
 
 function normalizeAnswer(value) {
-  return String(value || "")
+  const normalized = String(value || "")
     .normalize("NFKC")
     .replace(/[‘’]/g, "'")
     .replace(/[“”]/g, '"')
@@ -1009,6 +1451,7 @@ function normalizeAnswer(value) {
     .trim()
     .replace(/[.!?]+$/g, "")
     .toLocaleLowerCase();
+  return normalized.replace(/[a-z]+(?:'[a-z]+)*/g, (token) => canonicalSpellingToken(token));
 }
 
 function answersMatch(studentAnswer, question) {
@@ -1136,6 +1579,10 @@ async function submitExercise(kind) {
     state.exercise.correctionIds = [];
   } else if (kind === "all" && !state.exercise.correctionMode) {
     state.exercise.awaitingNextRound = true;
+  } else if (state.exercise.correctionMode) {
+    const stillWrongInCorrection = correctionQuestions(lesson)
+      .some((question) => !state.exercise.correctIds.includes(question.id));
+    if (stillWrongInCorrection) state.exercise.round += 1;
   }
 
   state.saveInFlight = true;
@@ -1167,6 +1614,9 @@ async function startCorrectionRound() {
   state.exercise.awaitingNextRound = false;
   state.exercise.correctionMode = true;
   state.exercise.correctionIds = ids;
+  ids.forEach((id) => {
+    if (state.exercise.questionState[id]) state.exercise.questionState[id].reveal = false;
+  });
   state.exercise.collapsedCorrectIds = state.exercise.collapsedCorrectIds.filter((id) => !ids.includes(id));
   renderExercisePage(lesson);
   try {
@@ -1233,6 +1683,15 @@ async function toggleAllCorrectCards() {
   });
 }
 
+function clearQuestionAnswer(questionId) {
+  if (!state.exercise || !getQuestion(state.lessonId, questionId)) return;
+  state.exercise.drafts[questionId] = "";
+  const inputs = [...document.querySelectorAll(`[data-answer-input="${CSS.escape(questionId)}"]`)];
+  inputs.forEach((input) => { input.value = ""; });
+  syncExerciseButtons();
+  inputs[0]?.focus?.();
+}
+
 async function startNextRound() {
   if (!state.exercise?.awaitingNextRound) return;
   const lesson = getLesson();
@@ -1250,37 +1709,84 @@ async function startNextRound() {
 }
 
 async function saveBookmarks() {
-  const payload = await apiJson("/v1/bookmarks", {
+  const revision = ++state.bookmarkWriteRevision;
+  const userId = String(state.user?.id || "");
+  const authToken = String(state.authToken || "");
+  const snapshot = state.bookmarks.map(({ lessonId, questionId, includeAnswer }) => ({ lessonId, questionId, includeAnswer }));
+  const write = async () => apiJson("/v1/bookmarks", {
     method: "PUT",
-    body: JSON.stringify({ bookmarks: state.bookmarks.map(({ lessonId, questionId, includeAnswer }) => ({ lessonId, questionId, includeAnswer })) })
-  });
-  state.bookmarks = (Array.isArray(payload?.bookmarks) ? payload.bookmarks : state.bookmarks)
-    .map(normalizeBookmark)
-    .filter(Boolean);
+    body: JSON.stringify({ bookmarks: snapshot })
+  }, true, authToken);
+  const pending = state.bookmarkSaveQueue.then(write, write);
+  state.bookmarkSaveQueue = pending.catch(() => undefined);
+  try {
+    const payload = await pending;
+    if (String(state.user?.id || "") === userId) {
+      const normalized = (Array.isArray(payload?.bookmarks) ? payload.bookmarks : snapshot)
+        .map(normalizeBookmark)
+        .filter(Boolean);
+      state.syncedBookmarks = normalized.map((bookmark) => ({ ...bookmark }));
+      if (revision === state.bookmarkWriteRevision) state.bookmarks = normalized;
+    }
+    return payload;
+  } catch (error) {
+    error.bookmarkRevision = revision;
+    throw error;
+  }
 }
 
 async function toggleBookmark(lessonId, questionId, includeAnswer = false) {
+  const sectionBookmark = questionId === SECTION_BOOKMARK_ID;
+  if (!getLesson(lessonId) || (!sectionBookmark && !getQuestion(lessonId, questionId))) return;
+  const operationUserId = String(state.user?.id || "");
   const existingIndex = state.bookmarks.findIndex((bookmark) => bookmark.lessonId === lessonId && bookmark.questionId === questionId);
-  const previous = state.bookmarks.map((bookmark) => ({ ...bookmark }));
   if (existingIndex >= 0) state.bookmarks.splice(existingIndex, 1);
   else {
     if (state.bookmarks.length >= MAX_BOOKMARKS) {
       showToast(`最多可儲存 ${MAX_BOOKMARKS} 個書簽。`, "error");
       return;
     }
-    state.bookmarks.push({ lessonId, questionId, includeAnswer, createdAt: new Date().toISOString() });
+    state.bookmarks.push({ lessonId, questionId, includeAnswer: sectionBookmark ? false : includeAnswer, createdAt: new Date().toISOString() });
   }
   if (state.currentView === "lesson") renderExercisePage(getLesson(), { preserveScroll: true });
+  if (state.currentView === "dashboard") {
+    renderLessonChoices();
+    if (sectionBookmark) restoreSectionBookmarkFocus(lessonId);
+  }
   if (state.currentView === "bookmarks") renderBookmarks();
   try {
     await saveBookmarks();
-    showToast(existingIndex >= 0 ? "已移除書簽。" : "已加入書簽。");
+    if (String(state.user?.id || "") === operationUserId) {
+      showToast(existingIndex >= 0
+        ? (sectionBookmark ? "已移除句型書簽。" : "已移除題目書簽。")
+        : (sectionBookmark ? "已收藏整個句型。" : "已加入題目書簽。"));
+    }
   } catch (error) {
-    state.bookmarks = previous;
+    const sameAccount = String(state.user?.id || "") === operationUserId;
+    if (!sameAccount) return;
+    if (error.bookmarkRevision !== state.bookmarkWriteRevision) return;
+    state.bookmarks = state.syncedBookmarks.map((bookmark) => ({ ...bookmark }));
     if (state.currentView === "lesson") renderExercisePage(getLesson(), { preserveScroll: true });
+    if (state.currentView === "dashboard") {
+      renderLessonChoices();
+      if (sectionBookmark) restoreSectionBookmarkFocus(lessonId);
+    }
     if (state.currentView === "bookmarks") renderBookmarks();
+    console.warn("Sentence Structure bookmark sync failed", error);
     showToast("未能同步書簽，請稍後再試。", "error");
   }
+}
+
+function toggleSectionBookmark(lessonId) {
+  return toggleBookmark(lessonId, SECTION_BOOKMARK_ID, false);
+}
+
+function restoreSectionBookmarkFocus(lessonId) {
+  if (!lessonId) return;
+  requestAnimationFrame(() => {
+    document.querySelector(`[data-toggle-section-bookmark="${CSS.escape(lessonId)}"]`)
+      ?.focus?.({ preventScroll: true });
+  });
 }
 
 function upgradeBookmarkAnswer(lessonId, questionId) {
@@ -1314,11 +1820,24 @@ function openBookmarks() {
 }
 
 function renderBookmarks() {
-  if (!state.bookmarks.length) {
-    elements.bookmarkList.innerHTML = '<p class="empty-state">暫時未有書簽。你可以在任何練習題右上角按 ☆ 收藏題目。</p>';
-    return;
-  }
-  elements.bookmarkList.innerHTML = state.bookmarks.map((bookmark) => {
+  const sectionBookmarks = state.bookmarks.filter((bookmark) => bookmark.questionId === SECTION_BOOKMARK_ID);
+  const questionBookmarks = state.bookmarks.filter((bookmark) => bookmark.questionId !== SECTION_BOOKMARK_ID);
+  const sectionRows = sectionBookmarks.map((bookmark) => {
+    const lesson = getLesson(bookmark.lessonId);
+    if (!lesson) return "";
+    return `<article class="bookmark-section-row">
+      <span class="bookmark-section-star" aria-hidden="true">★</span>
+      <div>
+        <h3>${escapeHtml(lessonTitle(lesson))}</h3>
+        <p>${escapeHtml(lessonEnglishTitle(lesson))}</p>
+      </div>
+      <div class="bookmark-row-actions">
+        <button class="icon-button" type="button" data-open-section-bookmark="${escapeHtml(bookmark.lessonId)}">開啟</button>
+        <button class="icon-button danger" type="button" data-remove-section-bookmark="${escapeHtml(bookmark.lessonId)}">移除</button>
+      </div>
+    </article>`;
+  }).join("");
+  const questionRows = questionBookmarks.map((bookmark) => {
     const lesson = getLesson(bookmark.lessonId);
     const question = getQuestion(bookmark.lessonId, bookmark.questionId);
     if (!lesson || !question) return "";
@@ -1337,6 +1856,22 @@ function renderBookmarks() {
       </div>
     </article>`;
   }).join("");
+  elements.bookmarkList.innerHTML = `<div class="bookmark-columns">
+    <section class="bookmark-column" aria-labelledby="section-bookmark-heading">
+      <header class="bookmark-column-heading">
+        <span>01</span>
+        <div><h2 id="section-bookmark-heading">收藏句型</h2><p>整個句子結構課題</p></div>
+      </header>
+      <div class="bookmark-column-list">${sectionRows || '<p class="empty-state">暫時未收藏句型。可在學習首頁的句型卡右上角按 ☆。</p>'}</div>
+    </section>
+    <section class="bookmark-column" aria-labelledby="question-bookmark-heading">
+      <header class="bookmark-column-heading">
+        <span>02</span>
+        <div><h2 id="question-bookmark-heading">收藏題目</h2><p>各句型內的個別練習題</p></div>
+      </header>
+      <div class="bookmark-column-list">${questionRows || '<p class="empty-state">暫時未收藏題目。可在任何練習題右上角按 ☆。</p>'}</div>
+    </section>
+  </div>`;
 }
 
 function resumeAttempt(attemptId) {
@@ -1401,6 +1936,11 @@ async function openAdminStudent(studentId) {
 }
 
 function handleClick(event) {
+  if (event.target.closest("[data-sentence-progress-toggle]")) return toggleProgressPanel();
+
+  const sectionBookmarkButton = event.target.closest("[data-toggle-section-bookmark]");
+  if (sectionBookmarkButton) return toggleSectionBookmark(sectionBookmarkButton.dataset.toggleSectionBookmark);
+
   const openLessonButton = event.target.closest("[data-open-lesson]");
   if (openLessonButton) return openLesson(openLessonButton.dataset.openLesson);
   if (event.target.closest("[data-open-bookmarks-card], [data-open-bookmarks]")) return openBookmarks();
@@ -1417,6 +1957,25 @@ function handleClick(event) {
   if (event.target.closest("[data-exit-correction]")) return exitCorrectionRound();
   if (event.target.closest("[data-next-round]")) return startNextRound();
   if (event.target.closest("[data-toggle-all-correct-cards]")) return toggleAllCorrectCards();
+
+  const clearAnswerButton = event.target.closest("[data-clear-question-answer]");
+  if (clearAnswerButton) return clearQuestionAnswer(clearAnswerButton.dataset.clearQuestionAnswer);
+
+  const progressRange = event.target.closest("[data-sentence-progress-range]");
+  if (progressRange) {
+    state.progressRange = progressRange.dataset.sentenceProgressRange || "month";
+    state.selectedProgressDay = "";
+    return renderProgressDashboard();
+  }
+  const progressDay = event.target.closest("[data-sentence-progress-day]");
+  if (progressDay) {
+    state.selectedProgressDay = progressDay.dataset.sentenceProgressDay || "";
+    return renderProgressDashboard();
+  }
+  if (event.target.closest("[data-close-sentence-progress-day]")) {
+    state.selectedProgressDay = "";
+    return renderProgressDayPanel();
+  }
 
   const correctCardButton = event.target.closest("[data-toggle-correct-card]");
   if (correctCardButton) return toggleCorrectCard(correctCardButton.dataset.toggleCorrectCard);
@@ -1441,6 +2000,10 @@ function handleClick(event) {
     const [lessonId, questionId] = String(removeBookmark.dataset.removeBookmark || "").split("|");
     return toggleBookmark(lessonId, questionId);
   }
+  const openSectionBookmark = event.target.closest("[data-open-section-bookmark]");
+  if (openSectionBookmark) return openLesson(openSectionBookmark.dataset.openSectionBookmark, { page: 1 });
+  const removeSectionBookmark = event.target.closest("[data-remove-section-bookmark]");
+  if (removeSectionBookmark) return toggleSectionBookmark(removeSectionBookmark.dataset.removeSectionBookmark);
 
   const adminStudent = event.target.closest("[data-admin-student]");
   if (adminStudent) return openAdminStudent(adminStudent.dataset.adminStudent);
@@ -1460,6 +2023,13 @@ function bindEvents() {
   document.addEventListener("click", handleClick);
   document.addEventListener("input", (event) => {
     if (event.target.matches("[data-answer-input]")) syncExerciseButtons();
+  });
+  document.addEventListener("keydown", (event) => {
+    const point = event.target.closest?.("[data-sentence-progress-day]");
+    if (!point || !["Enter", " "].includes(event.key)) return;
+    event.preventDefault();
+    state.selectedProgressDay = point.dataset.sentenceProgressDay || "";
+    renderProgressDashboard();
   });
   elements.adminSearch?.addEventListener("input", renderAdminStudents);
   window.addEventListener("pagehide", pauseExerciseClock);

@@ -987,6 +987,22 @@
       box-shadow: 0 12px 24px rgba(47,128,237,0.18);
     }
 
+    .range-tab.cumulative-toggle {
+      border-color: rgba(126, 34, 206, 0.3);
+      color: #6b21a8;
+    }
+
+    .range-tab.cumulative-toggle:hover,
+    .range-tab.cumulative-toggle.active {
+      background: #7e22ce;
+      color: #fff;
+      box-shadow: 0 12px 24px rgba(126, 34, 206, 0.2);
+    }
+
+    .year-sort-toggle {
+      white-space: nowrap;
+    }
+
     .progress-chart-shell {
       min-height: 310px;
       border: 1px solid rgba(47,128,237,0.14);
@@ -1039,6 +1055,7 @@
     .legend-total { background: #2563eb; }
     .legend-green { background: #16a34a; }
     .legend-red { background: #dc2626; }
+    .legend-cumulative { background: #7e22ce; }
     .legend-time { background: #ff914d; }
 
     .progress-stat-grid {
@@ -3382,6 +3399,7 @@
                 <button class="range-tab" type="button" data-progress-range="ytd">Year to Date</button>
                 <button class="range-tab" type="button" data-progress-range="year">1 Year</button>
                 <button class="range-tab" type="button" data-progress-range="all">All Time</button>
+                <button class="range-tab cumulative-toggle" type="button" data-toggle-cumulative-progress aria-pressed="false">顯示累積總數</button>
               </div>
             </div>
             <div class="progress-chart-shell">
@@ -3391,6 +3409,7 @@
               <span><i class="legend-dot legend-total"></i>總完成卡片</span>
               <span><i class="legend-dot legend-green"></i>綠勾卡片</span>
               <span><i class="legend-dot legend-red"></i>紅叉卡片</span>
+              <span data-cumulative-legend hidden><i class="legend-dot legend-cumulative"></i>累積完成卡片</span>
             </div>
             <div class="progress-stat-grid">
               <div class="progress-stat actionable" role="button" tabindex="0" data-dashboard-toggle="attempted">
@@ -3551,6 +3570,7 @@
               <h2 data-options-title></h2>
               <p data-options-desc></p>
             </div>
+            <button class="secondary-button compact-toggle year-sort-toggle" type="button" data-toggle-year-sort hidden aria-pressed="false">年份：由舊至新</button>
           </div>
           <div data-options-grid></div>
         </section>
@@ -3608,6 +3628,10 @@
                 40 卡
                 <span>隨機抽 40 張未綠勾卡，適合長一點的練習。</span>
               </button>
+              <button class="mode-card" type="button" data-start-mode="red-only">
+                只練習紅卡
+                <span>只練習這個卡組內目前標記為紅叉的卡片。</span>
+              </button>
             </div>
           </div>
           <div class="mode-block">
@@ -3616,9 +3640,9 @@
                 1-30 張卡
                 <span>按原定次序練習第 1 至 30 張卡。</span>
               </button>
-              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="21" data-range-end="60" data-range-label="21-60 張卡">
-                21-60 張卡
-                <span>按原定次序練習第 21 至 60 張卡。</span>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="31" data-range-end="60" data-range-label="31-60 張卡">
+                31-60 張卡
+                <span>按原定次序練習第 31 至 60 張卡。</span>
               </button>
               <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="61" data-range-end="90" data-range-label="61-90 張卡">
                 61-90 張卡
@@ -3636,9 +3660,25 @@
                 151-180 張卡
                 <span>按原定次序練習第 151 至 180 張卡。</span>
               </button>
-              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="181" data-range-label="餘下 Flash card">
-                餘下 Flash card
-                <span>練習第 181 張之後的所有卡。</span>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="181" data-range-end="210" data-range-label="181-210 張卡">
+                181-210 張卡
+                <span>按原定次序練習第 181 至 210 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="211" data-range-end="240" data-range-label="211-240 張卡">
+                211-240 張卡
+                <span>按原定次序練習第 211 至 240 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="241" data-range-end="270" data-range-label="241-270 張卡">
+                241-270 張卡
+                <span>按原定次序練習第 241 至 270 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="271" data-range-end="300" data-range-label="271-300 張卡">
+                271-300 張卡
+                <span>按原定次序練習第 271 至 300 張卡。</span>
+              </button>
+              <button class="mode-card range-card" type="button" data-start-mode="range" data-range-start="301" data-range-label="餘下卡片">
+                餘下卡片
+                <span>練習第 301 張之後的所有卡。</span>
               </button>
             </div>
           </div>
@@ -184365,6 +184405,8 @@ window.EDMUND_FLASHCARD_SEED = {
     let lastOptions = null;
     let activeReviewStatus = "";
     let selectedProgressRange = "month";
+    let showCumulativeProgress = false;
+    let yearSortDirection = "asc";
     let redDashboardOpen = false;
     let studentsCache = [];
     let studentsLoadedFromSupabase = false;
@@ -184654,52 +184696,82 @@ window.EDMUND_FLASHCARD_SEED = {
       queueSupabaseStateSave(key, value);
     }
 
+    function captureSupabaseStateSaveContext() {
+      if (currentUser?.impersonatedByAdmin && adminPasswordForSession) {
+        return {
+          type: "admin",
+          owner: `admin:${String(currentUser.id || currentUser.name || "student")}`,
+          adminName: ADMIN_NAME,
+          adminPassword: adminPasswordForSession,
+          studentName: currentUser.name
+        };
+      }
+      if (currentUser?.role === "student" && studentSessionToken) {
+        return {
+          type: "student",
+          owner: `student:${String(currentUser.id || currentUser.name || "student")}:${studentSessionToken}`,
+          token: studentSessionToken
+        };
+      }
+      return null;
+    }
+
+    function supabaseStateSaveTimerKey(key, context) {
+      return `${context?.owner || "no-account"}::${key}`;
+    }
+
     function queueSupabaseStateSave(key, value) {
       if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key) || !supabaseState.loaded) return;
-      window.clearTimeout(supabaseSaveTimers.get(key));
-      supabaseSaveTimers.set(key, window.setTimeout(() => {
-        saveSupabaseState(key, value);
+      const context = captureSupabaseStateSaveContext();
+      if (!context) return;
+      const timerKey = supabaseStateSaveTimerKey(key, context);
+      window.clearTimeout(supabaseSaveTimers.get(timerKey));
+      supabaseSaveTimers.set(timerKey, window.setTimeout(() => {
+        supabaseSaveTimers.delete(timerKey);
+        saveSupabaseState(key, value, { context });
       }, 250));
     }
 
     async function saveSupabaseState(key, value, options = {}) {
       if (!supabaseClient || !SUPABASE_SYNC_KEYS.includes(key)) return false;
-      if (!options.silent) updateSupabaseStatus("Supabase: saving", "warning");
+      const context = options.context || captureSupabaseStateSaveContext();
+      if (!context) return false;
+      const stillActive = () => captureSupabaseStateSaveContext()?.owner === context.owner;
+      if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: saving", "warning");
 
-      if (currentUser?.impersonatedByAdmin && adminPasswordForSession) {
+      if (context.type === "admin") {
         try {
           const saved = await callSupabaseRpc("flashcard_admin_upsert_student_state", {
-            p_admin_name: ADMIN_NAME,
-            p_admin_password: adminPasswordForSession,
-            p_student_name: currentUser.name,
+            p_admin_name: context.adminName,
+            p_admin_password: context.adminPassword,
+            p_student_name: context.studentName,
             p_key: key,
             p_value: value
           });
           if (saved !== true) throw new Error("Admin state save returned false.");
-          if (!options.silent) updateSupabaseStatus("Supabase: live", "live");
+          if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
           return true;
         } catch (error) {
           console.warn("Supabase admin flashcard save failed:", error);
-          updateSupabaseStatus("Supabase: admin state SQL needed", "error");
+          if (stillActive()) updateSupabaseStatus("Supabase: admin state SQL needed", "error");
           return false;
         }
       }
 
-      if (!studentSessionToken) return false;
       try {
         const { data, error } = await supabaseClient.rpc("flashcard_student_upsert_state", {
-          p_token: studentSessionToken,
+          p_token: context.token,
           p_key: key,
           p_value: value
         });
         if (error || data !== true) throw error || new Error("Student state save returned false.");
       } catch (error) {
         console.warn("Supabase flashcard save failed:", error);
-        updateSupabaseStatus("Supabase: save failed", "error");
+        if (stillActive()) updateSupabaseStatus("Supabase: save failed", "error");
         return false;
       }
 
-      if (!options.silent) updateSupabaseStatus("Supabase: live", "live");
+      if (!options.silent && stillActive()) updateSupabaseStatus("Supabase: live", "live");
       return true;
     }
 
@@ -184715,27 +184787,50 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function updateLockedVisibilityControl() {
       const toggle = document.querySelector("[data-toggle-locked-visibility]");
-      if (!toggle) return;
       const owner = displayPreferenceOwner();
       const waitingForPreferences = Boolean(owner && displayPreferencesHydratedOwner !== owner);
-      toggle.textContent = hideLockedSections ? "顯示尚未開啟範圍" : "隱藏尚未開啟範圍";
-      toggle.setAttribute("aria-pressed", String(hideLockedSections));
-      toggle.disabled = displayPreferenceSaveInFlight || waitingForPreferences;
-      toggle.title = waitingForPreferences ? "正在同步您的顯示設定" : "";
+      if (toggle) {
+        toggle.textContent = hideLockedSections ? "顯示尚未開啟範圍" : "隱藏尚未開啟範圍";
+        toggle.setAttribute("aria-pressed", String(hideLockedSections));
+        toggle.disabled = displayPreferenceSaveInFlight || waitingForPreferences;
+        toggle.title = waitingForPreferences ? "正在同步您的顯示設定" : "";
+      }
+      const cumulativeToggle = document.querySelector("[data-toggle-cumulative-progress]");
+      if (cumulativeToggle) {
+        cumulativeToggle.textContent = showCumulativeProgress ? "隱藏累積總數" : "顯示累積總數";
+        cumulativeToggle.setAttribute("aria-pressed", String(showCumulativeProgress));
+        cumulativeToggle.classList.toggle("active", showCumulativeProgress);
+        cumulativeToggle.disabled = displayPreferenceSaveInFlight || waitingForPreferences;
+        cumulativeToggle.title = waitingForPreferences ? "正在同步您的顯示設定" : "";
+      }
+      const yearSortToggle = document.querySelector("[data-toggle-year-sort]");
+      if (yearSortToggle) {
+        yearSortToggle.textContent = yearSortDirection === "desc" ? "年份：由新至舊" : "年份：由舊至新";
+        yearSortToggle.setAttribute("aria-pressed", String(yearSortDirection === "desc"));
+        yearSortToggle.disabled = displayPreferenceSaveInFlight || waitingForPreferences;
+        yearSortToggle.title = waitingForPreferences ? "正在同步您的顯示設定" : "";
+      }
     }
 
     function resetFlashcardDisplayPreferences() {
-      window.clearTimeout(supabaseSaveTimers.get(DISPLAY_PREFERENCES_KEY));
-      supabaseSaveTimers.delete(DISPLAY_PREFERENCES_KEY);
+      const context = captureSupabaseStateSaveContext();
+      const timerKey = supabaseStateSaveTimerKey(DISPLAY_PREFERENCES_KEY, context);
+      window.clearTimeout(supabaseSaveTimers.get(timerKey));
+      supabaseSaveTimers.delete(timerKey);
       delete remoteStore[DISPLAY_PREFERENCES_KEY];
       hideLockedSections = false;
+      showCumulativeProgress = false;
+      yearSortDirection = "asc";
       displayPreferenceSaveInFlight = false;
       displayPreferencesHydratedOwner = "";
       updateLockedVisibilityControl();
     }
 
     function hydrateFlashcardDisplayPreferences() {
-      hideLockedSections = currentDisplayPreferences().flashcardHideLockedSections === true;
+      const preferences = currentDisplayPreferences();
+      hideLockedSections = preferences.flashcardHideLockedSections === true;
+      showCumulativeProgress = preferences.flashcardShowCumulativeProgress === true;
+      yearSortDirection = preferences.flashcardYearSortDirection === "desc" ? "desc" : "asc";
       displayPreferenceSaveInFlight = false;
       displayPreferencesHydratedOwner = displayPreferenceOwner();
       updateLockedVisibilityControl();
@@ -184775,6 +184870,75 @@ window.EDMUND_FLASHCARD_SEED = {
 
       displayPreferenceSaveInFlight = false;
       if (currentView === "dashboard") renderDashboard();
+    }
+
+    async function persistFlashcardCumulativeProgress(nextVisible) {
+      if (
+        displayPreferenceSaveInFlight
+        || !displayPreferenceOwner()
+        || displayPreferencesHydratedOwner !== displayPreferenceOwner()
+      ) return;
+      const owner = displayPreferenceOwner();
+      const previousVisible = showCumulativeProgress;
+      const previousPreferences = { ...currentDisplayPreferences() };
+      const nextPreferences = {
+        ...previousPreferences,
+        flashcardShowCumulativeProgress: Boolean(nextVisible)
+      };
+
+      showCumulativeProgress = Boolean(nextVisible);
+      displayPreferenceSaveInFlight = true;
+      remoteStore[DISPLAY_PREFERENCES_KEY] = nextPreferences;
+      cacheJsonLocally(DISPLAY_PREFERENCES_KEY, nextPreferences);
+      renderProgressDashboard();
+
+      const saved = await saveSupabaseState(DISPLAY_PREFERENCES_KEY, nextPreferences, { silent: true });
+      if (displayPreferenceOwner() !== owner) return;
+      if (!saved) {
+        showCumulativeProgress = previousVisible;
+        remoteStore[DISPLAY_PREFERENCES_KEY] = previousPreferences;
+        cacheJsonLocally(DISPLAY_PREFERENCES_KEY, previousPreferences);
+        updateSupabaseStatus("Supabase: preference save failed", "error");
+      } else {
+        updateSupabaseStatus("Supabase: live", "live");
+      }
+      displayPreferenceSaveInFlight = false;
+      if (currentView === "dashboard") renderProgressDashboard();
+    }
+
+    async function persistFlashcardYearSortDirection(nextDirection) {
+      const normalizedDirection = nextDirection === "desc" ? "desc" : "asc";
+      if (
+        displayPreferenceSaveInFlight
+        || !displayPreferenceOwner()
+        || displayPreferencesHydratedOwner !== displayPreferenceOwner()
+      ) return;
+      const owner = displayPreferenceOwner();
+      const previousDirection = yearSortDirection;
+      const previousPreferences = { ...currentDisplayPreferences() };
+      const nextPreferences = {
+        ...previousPreferences,
+        flashcardYearSortDirection: normalizedDirection
+      };
+
+      yearSortDirection = normalizedDirection;
+      displayPreferenceSaveInFlight = true;
+      remoteStore[DISPLAY_PREFERENCES_KEY] = nextPreferences;
+      cacheJsonLocally(DISPLAY_PREFERENCES_KEY, nextPreferences);
+      if (currentView === "options-view") renderOptionsContent();
+
+      const saved = await saveSupabaseState(DISPLAY_PREFERENCES_KEY, nextPreferences, { silent: true });
+      if (displayPreferenceOwner() !== owner) return;
+      if (!saved) {
+        yearSortDirection = previousDirection;
+        remoteStore[DISPLAY_PREFERENCES_KEY] = previousPreferences;
+        cacheJsonLocally(DISPLAY_PREFERENCES_KEY, previousPreferences);
+        updateSupabaseStatus("Supabase: preference save failed", "error");
+      } else {
+        updateSupabaseStatus("Supabase: live", "live");
+      }
+      displayPreferenceSaveInFlight = false;
+      if (currentView === "options-view") renderOptionsContent();
     }
 
     function applyRemoteStateRow(row) {
@@ -187028,22 +187192,31 @@ window.EDMUND_FLASHCARD_SEED = {
 
     function buildProgressSeries(rangeKey = selectedProgressRange, studentName = currentUser?.name) {
       const rows = progressRowsForStudent(studentName);
-      const start = progressRangeStart(rangeKey, rows);
       const today = new Date();
       const end = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+      const eligibleRows = rows.filter(row => {
+        const rowDay = new Date(row.time);
+        if (Number.isNaN(rowDay.getTime())) return false;
+        return new Date(rowDay.getFullYear(), rowDay.getMonth(), rowDay.getDate()) <= end;
+      });
+      const start = progressRangeStart(rangeKey, eligibleRows);
       const dayMs = 24 * 60 * 60 * 1000;
       const buckets = new Map();
-      const allTime = rows.reduce((totals, row) => {
+      let cumulativeBeforeStart = 0;
+      const allTime = eligibleRows.reduce((totals, row) => {
         totals.total += row.total;
         totals.green += row.green;
         totals.red += row.red;
         return totals;
       }, { total: 0, green: 0, red: 0 });
 
-      rows.forEach(row => {
+      eligibleRows.forEach(row => {
         const rowDay = new Date(row.time);
         const rowDate = new Date(rowDay.getFullYear(), rowDay.getMonth(), rowDay.getDate());
-        if (rowDate < start || rowDate > end) return;
+        if (rowDate < start) {
+          cumulativeBeforeStart += row.total;
+          return;
+        }
         const key = dayKey(rowDate);
         const current = buckets.get(key) || { total: 0, green: 0, red: 0 };
         current.total += row.total;
@@ -187055,10 +187228,19 @@ window.EDMUND_FLASHCARD_SEED = {
       const points = [];
       for (let cursor = new Date(start); cursor <= end; cursor = new Date(cursor.getTime() + dayMs)) {
         const key = dayKey(cursor);
-        points.push({ date: new Date(cursor), key, ...(buckets.get(key) || { total: 0, green: 0, red: 0 }) });
+        const bucket = buckets.get(key) || { total: 0, green: 0, red: 0 };
+        points.push({ date: new Date(cursor), key, ...bucket });
       }
 
-      return { points, allTime };
+      return { points: appendCumulativeProgress(points, cumulativeBeforeStart), allTime, cumulativeBeforeStart };
+    }
+
+    function appendCumulativeProgress(points, initialTotal = 0) {
+      let cumulative = Math.max(0, Number(initialTotal || 0));
+      return points.map(point => {
+        cumulative += Math.max(0, Number(point.total || 0));
+        return { ...point, cumulative };
+      });
     }
 
     function compactDateLabel(date) {
@@ -187095,12 +187277,15 @@ window.EDMUND_FLASHCARD_SEED = {
       const width = 900;
       const height = 340;
       const dimensions = { width, height, left: 58, right: 26, top: 26, bottom: 54 };
-      const maxValue = Math.max(5, ...points.flatMap(point => [point.total, point.green, point.red]));
+      const chartKeys = showCumulativeProgress
+        ? ["total", "green", "red", "cumulative"]
+        : ["total", "green", "red"];
+      const maxValue = Math.max(5, ...points.flatMap(point => chartKeys.map(key => point[key] || 0)));
       const yMax = Math.ceil(maxValue / 5) * 5;
       const { left, right, top, bottom } = dimensions;
       const chartWidth = width - left - right;
       const chartHeight = height - top - bottom;
-      const hasData = points.some(point => point.total > 0);
+      const hasData = points.some(point => point.total > 0 || (showCumulativeProgress && point.cumulative > 0));
       const lastPoint = points[points.length - 1] || { total: 0, green: 0, red: 0 };
       const xLabels = points.length
         ? [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]]
@@ -187119,11 +187304,12 @@ window.EDMUND_FLASHCARD_SEED = {
       const hoverSeries = [
         { key: "total", label: "總完成", color: "#2563eb", offset: -42 },
         { key: "green", label: "綠勾", color: "#16a34a", offset: 0 },
-        { key: "red", label: "紅叉", color: "#dc2626", offset: 42 }
+        { key: "red", label: "紅叉", color: "#dc2626", offset: 42 },
+        ...(showCumulativeProgress ? [{ key: "cumulative", label: "累積完成", color: "#7e22ce", offset: 84 }] : [])
       ];
       const hoverPoints = hoverSeries.flatMap(seriesItem => chartPointCoords(points, seriesItem.key, dimensions, yMax).map(item => {
         const boxX = Math.min(Math.max(item.x - 58, left), width - right - 116);
-        const boxY = Math.max(top + 4, item.y + seriesItem.offset - 48);
+        const boxY = Math.min(height - bottom - 42, Math.max(top + 4, item.y + seriesItem.offset - 48));
         return `
           <g class="chart-hover-group" tabindex="0" role="button" data-progress-day="${escapeHtml(item.point.key)}" data-progress-series="${escapeHtml(seriesItem.key)}">
             <circle class="chart-hover-target" cx="${item.x.toFixed(2)}" cy="${item.y.toFixed(2)}" r="15" />
@@ -187146,9 +187332,11 @@ window.EDMUND_FLASHCARD_SEED = {
         <polyline points="${chartPolyline(points, "total", dimensions, yMax)}" fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
         <polyline points="${chartPolyline(points, "green", dimensions, yMax)}" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
         <polyline points="${chartPolyline(points, "red", dimensions, yMax)}" fill="none" stroke="#dc2626" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        ${showCumulativeProgress ? `<polyline points="${chartPolyline(points, "cumulative", dimensions, yMax)}" fill="none" stroke="#7e22ce" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />` : ""}
         <circle cx="${lastX}" cy="${yFor(lastPoint.total).toFixed(2)}" r="5" fill="#2563eb" />
         <circle cx="${lastX}" cy="${yFor(lastPoint.green).toFixed(2)}" r="5" fill="#16a34a" />
         <circle cx="${lastX}" cy="${yFor(lastPoint.red).toFixed(2)}" r="5" fill="#dc2626" />
+        ${showCumulativeProgress ? `<circle cx="${lastX}" cy="${yFor(lastPoint.cumulative || 0).toFixed(2)}" r="5" fill="#7e22ce" />` : ""}
         ${hoverPoints}
         ${axisLabels}
         <text x="${left}" y="18" fill="#0e2d55" font-size="13" font-weight="900">卡片數量</text>
@@ -187431,6 +187619,9 @@ window.EDMUND_FLASHCARD_SEED = {
       document.querySelectorAll("[data-progress-range]").forEach(button => {
         button.classList.toggle("active", button.getAttribute("data-progress-range") === selectedProgressRange);
       });
+      updateLockedVisibilityControl();
+      const cumulativeLegend = document.querySelector("[data-cumulative-legend]");
+      if (cumulativeLegend) cumulativeLegend.hidden = !showCumulativeProgress;
       const series = buildProgressSeries(selectedProgressRange);
       const chart = document.querySelector("[data-progress-chart]");
       if (chart) chart.innerHTML = progressChartSvg(series);
@@ -187843,6 +188034,43 @@ window.EDMUND_FLASHCARD_SEED = {
       `;
     }
 
+    function optionYearSortValue(label) {
+      const match = String(label || "").match(/(?:^|[^\d])((?:19|20)\d{2})(?=$|[^\d])/);
+      return match ? Number(match[1]) : null;
+    }
+
+    function sortYearOptionRows(rows, direction = yearSortDirection) {
+      const prepared = [...rows].map((row, index) => ({
+        row,
+        index,
+        year: optionYearSortValue(row?.dataset?.optionLabel)
+      }));
+      const yearRows = prepared.filter(item => item.year !== null);
+      const minimumYearRows = Math.max(2, Math.ceil(prepared.length * 0.4));
+      if (yearRows.length < minimumYearRows) return null;
+      const multiplier = direction === "desc" ? -1 : 1;
+      const sortedYearRows = yearRows
+        .sort((left, right) => multiplier * (left.year - right.year) || left.index - right.index);
+      let sortedIndex = 0;
+      return prepared.map(item => item.year === null ? item.row : sortedYearRows[sortedIndex++].row);
+    }
+
+    function applyYearSortToOptions() {
+      const grid = document.querySelector("[data-options-grid]");
+      const toggle = document.querySelector("[data-toggle-year-sort]");
+      if (!grid || !toggle) return;
+      let sortable = false;
+      grid.querySelectorAll(".option-column").forEach(column => {
+        const rows = [...column.children].filter(child => child.matches?.(".option-row"));
+        const sortedRows = sortYearOptionRows(rows, yearSortDirection);
+        if (!sortedRows) return;
+        sortable = true;
+        sortedRows.forEach(row => column.append(row));
+      });
+      toggle.hidden = !sortable;
+      updateLockedVisibilityControl();
+    }
+
     function renderOptionsContent() {
       if (!lastOptions) return;
       document.querySelector("[data-options-title]").textContent = lastOptions.title;
@@ -187850,6 +188078,7 @@ window.EDMUND_FLASHCARD_SEED = {
       const grid = document.querySelector("[data-options-grid]");
       grid.className = lastOptions.columnsClass;
       grid.innerHTML = lastOptions.htmlFactory();
+      applyYearSortToOptions();
       renderBreadcrumbs();
     }
 
@@ -188986,8 +189215,14 @@ window.EDMUND_FLASHCARD_SEED = {
       return result;
     }
 
+    function cardIndexesWithStatus(allIndexes, statusIndexes) {
+      const selected = new Set((Array.isArray(statusIndexes) ? statusIndexes : []).map(String));
+      return allIndexes.filter(index => selected.has(String(index)));
+    }
+
     function modeLabel(mode, cardLimit = 0, rangeLabel = "") {
       if (mode === "range") return rangeLabel || "指定範圍";
+      if (mode === "red-only") return "只練習紅卡";
       if (cardLimit) return `隨機 ${cardLimit} 卡`;
       return mode === "random" ? "隨機排序" : "依原定次序";
     }
@@ -189359,6 +189594,13 @@ window.EDMUND_FLASHCARD_SEED = {
         order = allIndexes.filter(index => index >= startIndex && index <= endIndex);
         if (!order.length) {
           if (status) status.textContent = "這個範圍暫時未有卡片。";
+          return;
+        }
+      }
+      if (mode === "red-only") {
+        order = cardIndexesWithStatus(allIndexes, getDeckFamiliarity(currentDeckId).red);
+        if (!order.length) {
+          if (status) status.textContent = "這個卡組目前未有紅叉卡片。";
           return;
         }
       }
@@ -190604,6 +190846,16 @@ window.EDMUND_FLASHCARD_SEED = {
         const toggleLockedButton = event.target.closest("[data-toggle-locked-visibility]");
         if (toggleLockedButton) {
           await persistFlashcardHideLockedSections(!hideLockedSections);
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-cumulative-progress]")) {
+          await persistFlashcardCumulativeProgress(!showCumulativeProgress);
+          return;
+        }
+
+        if (event.target.closest("[data-toggle-year-sort]")) {
+          await persistFlashcardYearSortDirection(yearSortDirection === "asc" ? "desc" : "asc");
           return;
         }
 

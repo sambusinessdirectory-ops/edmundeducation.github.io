@@ -187,6 +187,74 @@ test("a valid new-lesson correctIds array reaches the attempt RPC unchanged", as
   assert.deepEqual(responseBody.attempt.result.correctIds, [questionId]);
 });
 
+test("British and American spellings validate identically on the Worker", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+
+  let upsertPayload = null;
+  globalThis.fetch = async (input, init = {}) => {
+    const url = new URL(String(input));
+    const functionName = decodeURIComponent(url.pathname.split("/").at(-1));
+    const body = JSON.parse(String(init.body || "{}"));
+    if (functionName === "sentence_structure_student_profile") {
+      return jsonResponse([{ id: STUDENT_ID, name: "Test Student", session_expires_at: "2026-07-23T00:00:00.000Z" }]);
+    }
+    if (functionName === "sentence_structure_upsert_attempt") {
+      upsertPayload = body;
+      return jsonResponse([{
+        id: ATTEMPT_ID,
+        lesson_id: body.p_lesson_id,
+        lesson_version: body.p_lesson_version,
+        status: body.p_status,
+        round_number: body.p_round_number,
+        correct_count: body.p_correct_count,
+        total_count: body.p_total_count,
+        duration_ms: body.p_duration_ms,
+        started_at: body.p_started_at,
+        completed_at: null,
+        updated_at: body.p_started_at,
+        result: body.p_result
+      }]);
+    }
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  };
+
+  const questionId = "ss1-q10";
+  const british = ACCEPTED_ANSWERS[questionId][0];
+  assert.match(british, /practised/i);
+  const american = british.replace(/practised/gi, "practiced");
+  const startedAt = new Date().toISOString();
+  const request = new Request(`https://worker.example/v1/attempts/${ATTEMPT_ID}`, {
+    method: "PUT",
+    headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      lessonId: "ss1",
+      lessonVersion: "1",
+      status: "in_progress",
+      roundNumber: 1,
+      correctCount: 1,
+      totalCount: 50,
+      durationMs: 1000,
+      startedAt,
+      completedAt: null,
+      result: {
+        round: 1,
+        correctIds: [questionId],
+        questionState: { [questionId]: { status: "correct", lastAnswer: american, reveal: true } },
+        rounds: [{ round: 1, kind: "partial", checkedIds: [questionId], correctIds: [questionId], incorrectIds: [], submittedAt: startedAt }],
+        awaitingNextRound: false,
+        correctionMode: false,
+        correctionIds: [],
+        collapsedCorrectIds: [],
+        contentVersion: "1"
+      }
+    })
+  });
+  const response = await worker.fetch(request, environment());
+  assert.equal(response.status, 200);
+  assert.equal(upsertPayload.p_result.questionState[questionId].lastAnswer, american);
+});
+
 test("bookmark replacement reloads every page instead of truncating at PostgREST limits", async t => {
   const originalFetch = globalThis.fetch;
   t.after(() => { globalThis.fetch = originalFetch; });
@@ -240,6 +308,59 @@ test("bookmark replacement reloads every page instead of truncating at PostgREST
   const body = await response.json();
   assert.equal(body.bookmarks.length, 5700);
   assert.equal(body.bookmarks.at(-1).questionId, "ss114-q50");
+});
+
+test("lesson-level bookmarks are accepted without exposing a synthetic answer", async t => {
+  const originalFetch = globalThis.fetch;
+  t.after(() => { globalThis.fetch = originalFetch; });
+
+  let replaceCalls = 0;
+  const sectionRow = {
+    lesson_id: "ss7",
+    question_id: "__section__",
+    include_answer: false,
+    created_at: "2026-07-26T00:00:00.000Z"
+  };
+  globalThis.fetch = async (input, init = {}) => {
+    const url = new URL(String(input));
+    const functionName = decodeURIComponent(url.pathname.split("/").at(-1));
+    const body = JSON.parse(String(init.body || "{}"));
+    if (functionName === "sentence_structure_student_profile") {
+      return jsonResponse([{ id: STUDENT_ID, name: "Test Student", session_expires_at: "2026-07-27T00:00:00.000Z" }]);
+    }
+    if (functionName === "sentence_structure_replace_bookmarks") {
+      replaceCalls += 1;
+      assert.deepEqual(body.p_bookmarks, [{ lessonId: "ss7", questionId: "__section__", includeAnswer: false }]);
+      return jsonResponse([sectionRow]);
+    }
+    if (functionName === "sentence_structure_list_bookmarks_page") return jsonResponse([sectionRow]);
+    throw new Error(`Unexpected RPC: ${functionName}`);
+  };
+
+  const valid = new Request("https://worker.example/v1/bookmarks", {
+    method: "PUT",
+    headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      bookmarks: [{ lessonId: "ss7", questionId: "__section__", includeAnswer: false }]
+    })
+  });
+  const validResponse = await worker.fetch(valid, environment());
+  assert.equal(validResponse.status, 200);
+  assert.deepEqual((await validResponse.json()).bookmarks, [{
+    lessonId: "ss7", questionId: "__section__", includeAnswer: false, createdAt: sectionRow.created_at
+  }]);
+
+  const invalid = new Request("https://worker.example/v1/bookmarks", {
+    method: "PUT",
+    headers: { Origin: ORIGIN, Authorization: `Bearer ${STUDENT_TOKEN}`, "Content-Type": "application/json" },
+    body: JSON.stringify({
+      bookmarks: [{ lessonId: "ss7", questionId: "__section__", includeAnswer: true }]
+    })
+  });
+  const invalidResponse = await worker.fetch(invalid, environment());
+  assert.equal(invalidResponse.status, 400);
+  assert.equal((await invalidResponse.json()).code, "INVALID_BOOKMARKS");
+  assert.equal(replaceCalls, 1, "invalid lesson bookmarks must be rejected before the replacement RPC");
 });
 
 test("attempt byte validation matches PostgreSQL jsonb text spacing", async t => {
