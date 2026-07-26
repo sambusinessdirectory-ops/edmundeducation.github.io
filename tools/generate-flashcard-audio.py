@@ -49,9 +49,9 @@ EXTERNAL_SEED_ASSIGNMENTS = (
         None,
     ),
     (
-        "flashcards-dse-writing-2025-data.js",
-        'window.EDMUND_FLASHCARD_SEED["dse/writing/part-a/2025"] = ',
-        "dse/writing/part-a/2025",
+        "flashcards-dse-writing-part-a-data.js",
+        "window.EDMUND_DSE_WRITING_PART_A_SEED = ",
+        None,
     ),
     (
         "flashcards-dse-listening-data.js",

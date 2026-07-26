@@ -1,7 +1,7 @@
 # Edmund model-essay download Worker
 
 This Worker exposes the private `edmund-model-essays-private` R2 bucket and the
-`IELTS Speaking All Parts/` and `IELTS Reading/` prefixes in the `edmund-assets`
+`DSE Writing Part A/`, `IELTS Speaking All Parts/`, and `IELTS Reading/` prefixes in the `edmund-assets`
 R2 bucket through `edmund-model-essay-downloads.edmundeducation.workers.dev`.
 It validates the Flashcard student session,
 rate-limits and proxies the admin password check, forces single PDFs to download,
@@ -36,7 +36,7 @@ Deployment notes:
 5. Deploy with Wrangler 4.36.0 or later so the configured admin-login rate
    limiting binding is available: `npx wrangler@latest deploy`.
 6. Test the Worker URL, login, one PDF, 11 selected PDFs, and download-all for
-   Task 2, IELTS Speaking, and each IELTS Reading passage, plus the matching
+   DSE Writing Part A, Task 2, IELTS Speaking, and each IELTS Reading passage, plus the matching
    admin audit rows.
 7. Keep the Task 2 bucket private. The existing IELTS Speaking objects may
    remain on the public `r2.dev` domain, as may the IELTS Reading objects, but
@@ -47,7 +47,8 @@ Deployment notes:
 
 The browser sends only catalog IDs to the ZIP endpoints. The Worker-owned
 catalogs fix each ID to one exact R2 key, size, CRC-32 value, and archive name.
-Regenerate Task 2 with `tools/build-model-essay-catalog.py` and IELTS Speaking
+Regenerate DSE Writing Part A with `tools/build-dse-writing-part-a-download-catalog.py`,
+Task 2 with `tools/build-model-essay-catalog.py`, and IELTS Speaking
 with `tools/build-ielts-speaking-download-catalog.py` whenever PDFs change.
 Regenerate all three IELTS Reading passage catalogs with
 `tools/build-ielts-reading-download-catalog.py` whenever their PDFs or passage
@@ -59,3 +60,8 @@ archives cannot cross passage boundaries:
 - `/v1/reading/passage-1/files/:id` and `/v1/reading/passage-1/zip`
 - `/v1/reading/passage-2/files/:id` and `/v1/reading/passage-2/zip`
 - `/v1/reading/passage-3/files/:id` and `/v1/reading/passage-3/zip`
+
+DSE Writing Part A downloads use:
+
+- `/v1/dse/writing-part-a/files/:id`
+- `/v1/dse/writing-part-a/zip`

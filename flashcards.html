@@ -183505,7 +183505,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-ielts-writing-express-4-31-data.js?v=20260714-1"></script>
   <script src="flashcards-ielts-writing-opinions-3-38-express-32-43-data.js?v=20260714-1"></script>
   <script src="flashcards-ielts-writing-opinions-39-82-data.js?v=20260713-1"></script>
-  <script src="flashcards-dse-writing-2025-data.js?v=20260711-1"></script>
+  <script src="flashcards-dse-writing-part-a-data.js?v=20260726-1"></script>
   <script src="flashcards-dse-listening-data.js?v=20260726-2"></script>
   <script src="flashcards-dse-paper3-b2-2024-data.js?v=20260725-1"></script>
   <script src="flashcards-dse-paper3-b2-2025-data.js?v=20260725-1"></script>
@@ -183519,7 +183519,7 @@ window.EDMUND_FLASHCARD_SEED = {
   <script src="flashcards-dse-speaking-2019-data.js?v=20260713-1"></script>
   <script src="flashcards-hkpf-data.js?v=20260715-1"></script>
   <script src="edmund-audio-config.js?v=1"></script>
-  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260726-2"></script>
+  <script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20260726-3"></script>
   <script>
     const ADMIN_NAME = "Sam";
     const STUDENTS_KEY = "edmundFlashcardStudents";
@@ -183538,6 +183538,8 @@ window.EDMUND_FLASHCARD_SEED = {
     const DISPLAY_PREFERENCES_KEY = "edmundFlashcardUiPreferences";
     const BOOKMARK_DECK_ID = "__private-bookmarks__";
     const REBUILT_LISTENING_DECK_REVISION = "dse-listening-rebuild-20260712-v1";
+    const REBUILT_WRITING_PART_A_2025_DECK_ID = "dse/writing/part-a/2025";
+    const REBUILT_WRITING_PART_A_2025_DECK_REVISION = "dse-writing-part-a-2025-rebuild-20260726-v1";
     const REBUILT_LISTENING_DECK_IDS = new Set([
       "dse/paper-3/part-a-listening/2023/Task 1 (Transcript)",
       "dse/paper-3/part-a-listening/2023/Task 2 (Transcript)",
@@ -183575,6 +183577,9 @@ window.EDMUND_FLASHCARD_SEED = {
     };
 
     function deckDataRevision(deckId) {
+      if (deckId === REBUILT_WRITING_PART_A_2025_DECK_ID) {
+        return REBUILT_WRITING_PART_A_2025_DECK_REVISION;
+      }
       return REBUILT_LISTENING_DECK_IDS.has(deckId)
         ? REBUILT_LISTENING_DECK_REVISION
         : "";
@@ -183611,6 +183616,7 @@ window.EDMUND_FLASHCARD_SEED = {
     const ieltsWritingTask2Questions = window.EDMUND_IELTS_WRITING_TASK2 || {};
     const deckTitleLabels = new Map();
     const dseYears = ["2012 Sample", "2012 Practice", "2012 DSE", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025", "2026"];
+    const dseWritingYears = Array.from({ length: 15 }, (_, index) => String(2012 + index));
     const dseListeningYears = dseYears.filter(
       year => !["2012 Sample", "2012 Practice"].includes(year)
     );
@@ -186462,10 +186468,10 @@ window.EDMUND_FLASHCARD_SEED = {
       });
 
       addAggregate("dse/writing", "DSE / Writing", 2);
-      addAggregate("dse/writing/part-a", "DSE / Writing / Part A", dseYears.length);
-      dseYears.forEach(year => addExact(`dse/writing/part-a/${year}`, `DSE / Writing / Part A / ${year}`));
-      addAggregate("dse/writing/part-b", "DSE / Writing / Part B", dseYears.length);
-      dseYears.forEach(year => {
+      addAggregate("dse/writing/part-a", "DSE / Writing / Part A", dseWritingYears.length);
+      dseWritingYears.forEach(year => addExact(`dse/writing/part-a/${year}`, `DSE / Writing / Part A / ${year}`));
+      addAggregate("dse/writing/part-b", "DSE / Writing / Part B", dseWritingYears.length);
+      dseWritingYears.forEach(year => {
         const yearId = `dse/writing/part-b/${year}`;
         const questions = dseWritingPartBQuestionsForYear(year);
         addAggregate(yearId, `DSE / Writing / Part B / ${year}`, questions.length);
@@ -187868,8 +187874,8 @@ window.EDMUND_FLASHCARD_SEED = {
       showOptions(
         "DSE Writing",
         "Part A / Part B",
-        () => columnHtml("Part A", dseYears, "dse/writing/part-a") +
-          routeColumnHtml("Part B", dseYears.map(year => ({
+        () => columnHtml("Part A", dseWritingYears, "dse/writing/part-a") +
+          routeColumnHtml("Part B", dseWritingYears.map(year => ({
             label: year,
             route: `dse-writing-part-b-year|${year}`,
             metaPrefix: `dse/writing/part-b/${year}`

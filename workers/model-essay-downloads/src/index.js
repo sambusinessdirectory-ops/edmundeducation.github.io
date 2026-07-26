@@ -1,9 +1,18 @@
 import { CATALOG } from "./catalog.js";
+import { DSE_WRITING_PART_A_CATALOG } from "./dse-writing-part-a-catalog.js";
 import { READING_CATALOG } from "./reading-catalog.js";
 import { SPEAKING_CATALOG } from "./speaking-catalog.js";
 
 const encoder = new TextEncoder();
 const COLLECTIONS = Object.freeze({
+  "dse-writing-part-a": Object.freeze({
+    catalog: DSE_WRITING_PART_A_CATALOG,
+    byId: new Map(DSE_WRITING_PART_A_CATALOG.map(item => [item.id, item])),
+    bucketBinding: "SPEAKING_ASSETS",
+    auditSection: "dse",
+    auditTask: "writing-part-a",
+    defaultZipName: "Edmund-DSE-Writing-Part-A-All-Model-Answers.zip"
+  }),
   task2: Object.freeze({
     catalog: CATALOG,
     byId: new Map(CATALOG.map(item => [item.id, item])),
@@ -43,7 +52,7 @@ const COLLECTIONS = Object.freeze({
 const COOKIE_NAME = "__Host-edmund_dl";
 const SESSION_TTL_SECONDS = 15 * 60;
 const ZIP_UTF8_FLAG = 0x0800;
-const ZIP_BUILD_DATE = new Date("2026-07-14T00:00:00Z");
+const ZIP_BUILD_DATE = new Date("2026-07-26T00:00:00Z");
 
 export default {
   async fetch(request, env, ctx) {
@@ -74,9 +83,14 @@ async function route(request, env, ctx) {
     );
     return json({
       ok: true,
-      files: CATALOG.length + SPEAKING_CATALOG.length
+      files: DSE_WRITING_PART_A_CATALOG.length + CATALOG.length + SPEAKING_CATALOG.length
         + Object.values(readingCounts).reduce((sum, count) => sum + count, 0),
-      collections: { task2: CATALOG.length, speaking: SPEAKING_CATALOG.length, ...readingCounts },
+      collections: {
+        "dse-writing-part-a": DSE_WRITING_PART_A_CATALOG.length,
+        task2: CATALOG.length,
+        speaking: SPEAKING_CATALOG.length,
+        ...readingCounts
+      },
       service: "edmund-model-essay-downloads"
     }, 200, request, env);
   }
@@ -95,6 +109,25 @@ async function route(request, env, ctx) {
 
   if (url.pathname === "/v1/admin/login" && request.method === "POST") {
     return adminLogin(request, env);
+  }
+
+  if (url.pathname.startsWith("/v1/dse/writing-part-a/files/") && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    const id = decodeURIComponent(url.pathname.slice("/v1/dse/writing-part-a/files/".length));
+    return downloadFile(request, env, ctx, student, id, COLLECTIONS["dse-writing-part-a"]);
+  }
+
+  if (url.pathname === "/v1/dse/writing-part-a/zip" && request.method === "POST") {
+    if (!isAllowedOrigin(origin, env)) return json({ error: "Origin not allowed" }, 403, request, env);
+    const form = await parseDownloadForm(request, env);
+    if (form instanceof Response) return form;
+    const student = await authenticateRequest(request, env, form);
+    if (!student) return json({ error: "Authentication required" }, 401, request, env);
+    return downloadZip(request, env, ctx, student, form, COLLECTIONS["dse-writing-part-a"]);
   }
 
   if (url.pathname.startsWith("/v1/files/") && request.method === "POST") {
@@ -304,7 +337,9 @@ async function createDownloadSession(request, env) {
 
   const student = await validateStudentSession(token, accessToken, env);
   if (!student) return json({ error: "Invalid or expired student session" }, 401, request, env);
-  if (!student.ielts) return json({ error: "IELTS access is not enabled for this account" }, 403, request, env);
+  if (!student.dse && !student.ielts) {
+    return json({ error: "Download access is not enabled for this account" }, 403, request, env);
+  }
 
   const expiresAt = Math.floor(Date.now() / 1000) + SESSION_TTL_SECONDS;
   const cookieValue = await signCookie({ sub: student.id, exp: expiresAt }, env.SESSION_SIGNING_KEY);
@@ -334,7 +369,7 @@ async function validateStudentSession(token, accessToken, env) {
     if (!Array.isArray(rows) || !rows.length) return null;
     const profile = rows[0];
     return typeof profile.id === "string" && /^[0-9a-f-]{36}$/i.test(profile.id)
-      ? { id: profile.id, ielts: profile.ielts === true }
+      ? { id: profile.id, dse: profile.dse === true, ielts: profile.ielts === true }
       : null;
   } catch (error) {
     return null;
@@ -403,7 +438,14 @@ async function downloadFile(request, env, ctx, student, id, collection) {
   const item = collection.byId.get(id);
   if (!item) return json({ error: "File not found" }, 404, request, env);
 
-  const requestId = await recordDownload(env, student, [item], "single_pdf", collection.auditTask);
+  const requestId = await recordDownload(
+    env,
+    student,
+    [item],
+    "single_pdf",
+    collection.auditTask,
+    collection.auditSection || "ielts"
+  );
   if (!requestId) return json({ error: "Download access could not be verified" }, 403, request, env);
   let object;
   try {
@@ -487,7 +529,14 @@ async function downloadZip(request, env, ctx, student, form, collection) {
 
   const zip = prepareZip(items);
   if (zip.totalLength >= 0xFFFFFFFF) return json({ error: "Archive is too large for ZIP32" }, 413, request, env);
-  const requestId = await recordDownload(env, student, items, all ? "all_bundle" : "selected_zip", collection.auditTask);
+  const requestId = await recordDownload(
+    env,
+    student,
+    items,
+    all ? "all_bundle" : "selected_zip",
+    collection.auditTask,
+    collection.auditSection || "ielts"
+  );
   if (!requestId) return json({ error: "Download access could not be verified" }, 403, request, env);
 
   const requestedName = String(form.get("filename") || collection.defaultZipName);
@@ -534,7 +583,7 @@ async function downloadZip(request, env, ctx, student, form, collection) {
   return new Response(readable, { status: 200, headers });
 }
 
-async function recordDownload(env, student, items, eventType, auditTask) {
+async function recordDownload(env, student, items, eventType, auditTask, auditSection) {
   const endpoint = `${String(env.SUPABASE_URL || "").replace(/\/+$/, "")}/rest/v1/rpc/model_essay_record_download`;
   if (!endpoint.startsWith("https://") || !env.SUPABASE_ANON_KEY || !env.MODEL_ESSAY_SERVICE_SECRET) return null;
   const requestId = crypto.randomUUID();
@@ -542,7 +591,7 @@ async function recordDownload(env, student, items, eventType, auditTask) {
     p_service_secret: env.MODEL_ESSAY_SERVICE_SECRET,
     p_request_id: requestId,
     p_student_id: student.sub,
-    p_section: "ielts",
+    p_section: auditSection,
     p_task: auditTask,
     p_event_type: eventType,
     p_essay_ids: items.map(item => item.id),

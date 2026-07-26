@@ -11,10 +11,14 @@
   const readingFiles = Array.isArray(window.EDMUND_IELTS_READING_DOWNLOADS)
     ? window.EDMUND_IELTS_READING_DOWNLOADS
     : [];
+  const dseWritingPartAFiles = Array.isArray(window.EDMUND_DSE_WRITING_PART_A_DOWNLOADS)
+    ? window.EDMUND_DSE_WRITING_PART_A_DOWNLOADS
+    : [];
   const questionData = window.EDMUND_MODEL_ESSAY_QUESTION_DATA || {};
   const task2Meta = window.EDMUND_MODEL_ESSAY_META || {};
   const speakingMeta = window.EDMUND_IELTS_SPEAKING_META || {};
   const readingMeta = window.EDMUND_IELTS_READING_META || {};
+  const dseWritingPartAMeta = window.EDMUND_DSE_WRITING_PART_A_META || {};
   const supabaseConfig = window.EDMUND_SUPABASE || {};
   const apiBase = String(window.EDMUND_DOWNLOAD_API_BASE || "").replace(/\/+$/, "");
   const supabaseClient = window.supabase?.createClient && supabaseConfig.url && supabaseConfig.anonKey
@@ -38,6 +42,7 @@
   ];
 
   const readingFilters = [{ key: "all", label: "全部" }];
+  const dseWritingFilters = [{ key: "all", label: "全部年份" }];
   const readingItems = passage => readingFiles.filter(item => item.passage === passage);
   const readingCatalogMeta = passage => {
     const category = `passage-${passage}`;
@@ -50,6 +55,34 @@
   };
 
   const catalogs = Object.freeze({
+    "dse-writing-part-a": Object.freeze({
+      key: "dse-writing-part-a",
+      parentView: "dse",
+      section: "dse",
+      isDseWritingPartA: true,
+      items: dseWritingPartAFiles,
+      meta: dseWritingPartAMeta,
+      filters: dseWritingFilters,
+      initialSort: "number-desc",
+      endpointPrefix: "/dse/writing-part-a",
+      breadcrumb: "Writing Part A",
+      eyebrow: "DSE WRITING · PART A",
+      titleHtml: "DSE Writing Part A<br>5** 示範答案下載庫",
+      totalUnit: "份 PDF 示範答案",
+      itemNoun: "示範答案",
+      filterLabel: "DSE Writing Part A 年份",
+      searchLabel: "搜尋 DSE 年份或檔案名稱",
+      searchPlaceholder: "搜尋年份，例如 2025...",
+      categorySortLabel: "按年份分類",
+      emptyTitle: "找不到符合條件的 DSE Writing Part A 示範答案",
+      emptyCopy: "請嘗試另一個年份或關鍵字。",
+      allTitle: "確定下載全部 Writing Part A 示範答案？",
+      allCopy: "系統會把 13 份 DSE Writing Part A 5** 示範答案整理成一個 ZIP 檔案。",
+      allZipName: "Edmund-DSE-Writing-Part-A-All-Model-Answers.zip",
+      selectedZipPrefix: "Edmund-DSE-Writing-Part-A-Selected",
+      kicker: item => `${item.year} DSE WRITING PART A`,
+      detailFallback: "DSE Writing Part A 5** 示範答案 PDF。"
+    }),
     task2: Object.freeze({
       key: "task2",
       items: task2Essays,
@@ -185,10 +218,15 @@
   let meta = activeCatalog.meta;
   let filters = activeCatalog.filters;
   let byId = new Map(essays.map(item => [item.id, item]));
-  const allItemsById = new Map([...task2Essays, ...speakingFiles, ...readingFiles].map(item => [item.id, item]));
+  const allItemsById = new Map([
+    ...dseWritingPartAFiles,
+    ...task2Essays,
+    ...speakingFiles,
+    ...readingFiles
+  ].map(item => [item.id, item]));
 
   const exams = [
-    { key: "dse", label: "DSE", subline: "英文文憑試範文", contentAvailable: false },
+    { key: "dse", label: "DSE", subline: "英文文憑試教材", contentAvailable: true, featured: true },
     { key: "ielts", label: "IELTS", subline: "雅思寫作及口試教材", contentAvailable: true, featured: true },
     { key: "toeic", label: "TOEIC", subline: "職場英語寫作範文", contentAvailable: false },
     { key: "toefl", label: "TOEFL", subline: "托福寫作範文", contentAvailable: false },
@@ -268,6 +306,12 @@
   const allDownloadCopy = document.querySelector("[data-all-download-copy]");
 
   function essayQuestion(essay) {
+    if (activeCatalog.isDseWritingPartA) {
+      return {
+        question: `${essay?.year} DSE Writing Part A 5** 示範答案。`,
+        tags: []
+      };
+    }
     if (activeCatalog.isReading) {
       return {
         question: `IELTS Reading Passage ${essay?.passage} · Practice ${essay?.number} · 檔案：${essay?.filename}`,
@@ -284,10 +328,18 @@
   }
 
   function itemDisplayTitle(item) {
-    return activeCatalog.isReading && item?.title ? item.title : item?.filename || "PDF";
+    return (activeCatalog.isReading || activeCatalog.isDseWritingPartA) && item?.title
+      ? item.title
+      : item?.filename || "PDF";
   }
 
   function configureCatalogUi() {
+    const parentView = activeCatalog.parentView || "ielts";
+    const parentButton = document.querySelector("[data-catalog-parent]");
+    if (parentButton) {
+      parentButton.dataset.go = parentView;
+      parentButton.textContent = parentView === "dse" ? "DSE" : "IELTS";
+    }
     if (catalogBreadcrumb) catalogBreadcrumb.textContent = activeCatalog.breadcrumb;
     if (catalogEyebrow) catalogEyebrow.textContent = activeCatalog.eyebrow;
     if (catalogTitle) catalogTitle.innerHTML = activeCatalog.titleHtml;
@@ -433,7 +485,10 @@
     if (name !== "login" && !state.currentUser) name = "login";
     if (state.currentUser?.role === "admin" && name !== "login" && name !== "admin") name = "admin";
     if (name === "admin" && state.currentUser?.role !== "admin") name = state.currentUser ? "dashboard" : "login";
-    if ((name === "ielts" || name === "catalog") && state.currentUser?.access?.ielts !== true) name = "dashboard";
+    const catalogParent = activeCatalog.parentView || "ielts";
+    if (name === "dse" && state.currentUser?.access?.dse !== true) name = "dashboard";
+    if (name === "ielts" && state.currentUser?.access?.ielts !== true) name = "dashboard";
+    if (name === "catalog" && state.currentUser?.access?.[catalogParent] !== true) name = "dashboard";
     views.forEach(view => { view.hidden = view.dataset.view !== name; });
     document.body.dataset.currentView = name;
     if (name === "catalog") renderCatalog();
@@ -530,15 +585,23 @@
         setLoginStatus("登入時限已過，請重新登入。", "error");
         return;
       }
-      const previousIelts = state.currentUser.access?.ielts === true;
+      const previousAccess = {
+        dse: state.currentUser.access?.dse === true,
+        ielts: state.currentUser.access?.ielts === true
+      };
       state.currentUser.access = normalizeAccess(profiles[0]);
       sessionStorage.setItem(SESSION_KEY, JSON.stringify(state.currentUser));
       renderExamGrid();
       lastPermissionRefreshAt = Date.now();
-      if (previousIelts && !state.currentUser.access.ielts
-        && ["ielts", "catalog"].includes(document.body.dataset.currentView)) {
+      const currentView = document.body.dataset.currentView;
+      const catalogParent = activeCatalog.parentView || "ielts";
+      const lostIelts = previousAccess.ielts && !state.currentUser.access.ielts
+        && (currentView === "ielts" || (currentView === "catalog" && catalogParent === "ielts"));
+      const lostDse = previousAccess.dse && !state.currentUser.access.dse
+        && (currentView === "dse" || (currentView === "catalog" && catalogParent === "dse"));
+      if (lostIelts || lostDse) {
         showView("dashboard", { scroll: false });
-        showToast("IELTS 教材權限已更新。", "default", 4500);
+        showToast(`${lostDse ? "DSE" : "IELTS"} 教材權限已更新。`, "default", 4500);
       }
     })().finally(() => { permissionRefreshPromise = null; });
     return permissionRefreshPromise;
@@ -598,7 +661,7 @@
       if (response.status === 403) {
         state.downloadToken = "";
         state.downloadTokenExpiresAt = 0;
-        showToast("此帳戶未獲授權下載 IELTS 教材。", "error", 5600);
+        showToast("此帳戶未獲授權下載這個教材區。", "error", 5600);
         return false;
       }
       if (!response.ok) return false;
@@ -963,8 +1026,11 @@
     const ids = Array.isArray(event.essay_ids) ? event.essay_ids : [];
     const isSpeaking = event.task === "speaking";
     const isReading = String(event.task || "").startsWith("reading-passage-");
+    const isDseWritingPartA = event.section === "dse" && event.task === "writing-part-a";
     if (event.event_type === "all_bundle") {
-      const label = isSpeaking
+      const label = isDseWritingPartA
+        ? "All DSE Writing Part A bundle"
+        : isSpeaking
         ? "All IELTS Speaking bundle"
         : isReading
           ? `All IELTS Reading Passage ${String(event.task).slice(-1)} bundle`
@@ -977,7 +1043,13 @@
     });
     if (event.event_type === "single_pdf") return escapeHtml(names[0] || "PDF");
     const items = names.map(name => `<li>${escapeHtml(name)}</li>`).join("");
-    const noun = isSpeaking ? "Speaking 教材" : isReading ? "閱讀練習" : "範文";
+    const noun = isDseWritingPartA
+      ? "DSE Writing Part A 示範答案"
+      : isSpeaking
+        ? "Speaking 教材"
+        : isReading
+          ? "閱讀練習"
+          : "範文";
     return `<details><summary>${names.length} 份已選${noun}</summary><ul>${items}</ul></details>`;
   }
 
@@ -1157,8 +1229,8 @@
   examGrid?.addEventListener("click", event => {
     const button = event.target.closest("[data-exam-key]");
     if (!button || button.disabled) return;
-    if (button.dataset.examKey === "ielts") {
-      showView("ielts");
+    if (["dse", "ielts"].includes(button.dataset.examKey)) {
+      showView(button.dataset.examKey);
     } else {
       showToast("此教材區暫未有可下載內容。", "default", 4200);
     }

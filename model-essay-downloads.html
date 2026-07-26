@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="EdmundEducation IELTS 下載區：Writing Task 2 Band 9 範文及 Speaking Part 1、2、3 教材，支援搜尋、篩選及批量下載。">
+  <meta name="description" content="EdmundEducation DSE / IELTS 教材下載區：DSE Writing Part A、IELTS Writing、Speaking 及 Reading 教材，支援搜尋、篩選及批量下載。">
   <meta name="theme-color" content="#4f75e8">
   <meta property="og:type" content="website">
   <meta property="og:title" content="學生教材下載區 | EdmundEducation">
@@ -1078,6 +1078,46 @@
       </div>
     </section>
 
+    <section data-view="dse" hidden>
+      <nav class="breadcrumb" aria-label="目前位置">
+        <button class="crumb-button" type="button" data-go="dashboard">教材下載區</button>
+        <span aria-hidden="true">/</span>
+        <span>DSE</span>
+      </nav>
+      <div class="section-hero glass-card">
+        <div>
+          <p>DSE DOWNLOADS</p>
+          <h1>選擇 DSE 教材類別</h1>
+        </div>
+      </div>
+      <div class="task-grid">
+        <button class="task-card featured" type="button" data-open-catalog="dse-writing-part-a">
+          <strong class="task-number">01</strong>
+          <strong>Writing Part A</strong>
+          <span>歷屆 5** 示範答案</span>
+          <span class="card-tag">13 份 PDF</span>
+        </button>
+        <button class="task-card" type="button" disabled>
+          <strong class="task-number">02</strong>
+          <strong>Writing Part B</strong>
+          <span>長文寫作示範及解說</span>
+          <span class="card-tag">即將推出</span>
+        </button>
+        <button class="task-card" type="button" disabled>
+          <strong class="task-number">03</strong>
+          <strong>Listening 解說</strong>
+          <span>聆聽卷重點分析</span>
+          <span class="card-tag">即將推出</span>
+        </button>
+        <button class="task-card" type="button" disabled>
+          <strong class="task-number">04</strong>
+          <strong>Speaking 解說</strong>
+          <span>口試題型及應答分析</span>
+          <span class="card-tag">即將推出</span>
+        </button>
+      </div>
+    </section>
+
     <section data-view="ielts" hidden>
       <nav class="breadcrumb" aria-label="目前位置">
         <button class="crumb-button" type="button" data-go="dashboard">教材下載區</button>
@@ -1133,7 +1173,7 @@
       <nav class="breadcrumb" aria-label="目前位置">
         <button class="crumb-button" type="button" data-go="dashboard">教材下載區</button>
         <span aria-hidden="true">/</span>
-        <button class="crumb-button" type="button" data-go="ielts">IELTS</button>
+        <button class="crumb-button" type="button" data-go="ielts" data-catalog-parent>IELTS</button>
         <span aria-hidden="true">/</span>
         <span data-catalog-breadcrumb>Task 2</span>
       </nav>
@@ -1241,8 +1281,9 @@
   <script src="ielts-task2-question-data.js"></script>
   <script src="ielts-speaking-downloads.js"></script>
   <script src="ielts-reading-downloads.js"></script>
+  <script src="dse-writing-part-a-downloads.js?v=20260726-1"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script src="model-essay-downloads.js?v=20260722-2"></script>
+  <script src="model-essay-downloads.js?v=20260726-1"></script>
   <script src="page-loader.js"></script>
 </body>
 </html>
