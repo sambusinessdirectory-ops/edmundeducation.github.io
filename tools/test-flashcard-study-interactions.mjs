@@ -121,13 +121,117 @@ assert.equal(classifyStudyCardSwipe(-130, 8, 400, 420), "red");
 assert.equal(classifyStudyCardSwipe(25, 1, 100, 420), "");
 assert.equal(classifyStudyCardSwipe(70, 120, 250, 420), "");
 assert.equal(classifyStudyCardSwipe(58, 3, 70, 420), "green");
+assert.equal(classifyStudyCardSwipe(50, 6, 500, 340, "touch"), "green");
+assert.equal(classifyStudyCardSwipe(-74, 8, 650, 720, "touch"), "red");
+assert.equal(classifyStudyCardSwipe(36, 3, 80, 720, "touch"), "green");
+assert.equal(classifyStudyCardSwipe(36, 3, 500, 720, "touch"), "");
+assert.equal(classifyStudyCardSwipe(46, 2, 500, 340, "mouse"), "");
+assert.equal(classifyStudyCardSwipe(70, 90, 200, 340, "touch"), "");
+
+const classifyAxisSource = extractFunction("classifyStudySwipeAxis");
+const classifyStudySwipeAxis = vm.runInNewContext(`(${classifyAxisSource})`);
+assert.equal(classifyStudySwipeAxis("", 8, 11, "touch"), "");
+assert.equal(classifyStudySwipeAxis("", 8, 7, "touch"), "");
+assert.equal(classifyStudySwipeAxis("", 45, 14, "touch"), "horizontal");
+assert.equal(classifyStudySwipeAxis("", 3, 22, "touch"), "vertical");
+assert.equal(classifyStudySwipeAxis("horizontal", 45, 80, "touch"), "horizontal");
+
+const swipeRuntime = {
+  Date: { now: () => 1000 },
+  Number,
+  Math,
+  classifyStudyCardSwipe,
+  classifyStudySwipeAxis,
+  studyCardSwipeState: null,
+  suppressStudyCardClickUntil: 0,
+  currentStudyCardToken: () => "card-1",
+  releaseStudyCardPointer: () => {},
+  clearStudyCardSwipeVisual: () => {},
+  abortStudyCardSwipe: state => {
+    if (swipeRuntime.studyCardSwipeState === state) swipeRuntime.studyCardSwipeState = null;
+    swipeRuntime.abortCount += 1;
+  },
+  commitStudyCardSwipe: (_state, result) => swipeRuntime.commits.push(result),
+  renderStudyCardSwipe: () => { swipeRuntime.renderCount += 1; },
+  commits: [],
+  abortCount: 0,
+  renderCount: 0
+};
+const finishStudyCardSwipe = vm.runInNewContext(`(${extractFunction("finishStudyCardSwipe")})`, swipeRuntime);
+const updateStudyCardSwipe = vm.runInNewContext(`(${extractFunction("updateStudyCardSwipe")})`, swipeRuntime);
+const completedTouchState = {
+  axis: "horizontal",
+  startX: 0,
+  startY: 0,
+  lastX: 74,
+  lastY: 8,
+  startedAt: 300,
+  cardWidth: 720,
+  pointerType: "touch",
+  cardToken: "card-1",
+  frame: { classList: { add() {} } }
+};
+swipeRuntime.studyCardSwipeState = completedTouchState;
+finishStudyCardSwipe(completedTouchState, 74, 8, { type: "touchend", cancelable: true, preventDefault() {} });
+assert.deepEqual(swipeRuntime.commits, ["green"]);
+assert.equal(swipeRuntime.studyCardSwipeState, null);
+
+const jitterThenSwipeState = {
+  axis: "",
+  startX: 0,
+  startY: 0,
+  lastX: 0,
+  lastY: 0,
+  cardWidth: 340,
+  pointerType: "touch",
+  frame: { classList: { add() {} } }
+};
+let preventedTouchMove = false;
+swipeRuntime.studyCardSwipeState = jitterThenSwipeState;
+updateStudyCardSwipe(jitterThenSwipeState, 8, 11, { cancelable: true, preventDefault() { preventedTouchMove = true; } });
+assert.equal(jitterThenSwipeState.axis, "");
+assert.equal(preventedTouchMove, false);
+assert.equal(swipeRuntime.renderCount, 0);
+updateStudyCardSwipe(jitterThenSwipeState, 45, 14, { cancelable: true, preventDefault() { preventedTouchMove = true; } });
+assert.equal(jitterThenSwipeState.axis, "horizontal");
+assert.equal(preventedTouchMove, true);
+assert.equal(swipeRuntime.renderCount, 1);
+
+const verticalIntentState = {
+  axis: "",
+  startX: 0,
+  startY: 0,
+  lastX: 0,
+  lastY: 0,
+  cardWidth: 340,
+  pointerType: "touch",
+  frame: { classList: { add() {} } }
+};
+let preventedVerticalMove = false;
+swipeRuntime.studyCardSwipeState = verticalIntentState;
+updateStudyCardSwipe(verticalIntentState, 8, 7, { cancelable: true, preventDefault() { preventedVerticalMove = true; } });
+assert.equal(verticalIntentState.axis, "");
+updateStudyCardSwipe(verticalIntentState, 10, 50, { cancelable: true, preventDefault() { preventedVerticalMove = true; } });
+assert.equal(verticalIntentState.axis, "vertical");
+assert.equal(preventedVerticalMove, false);
+assert.equal(swipeRuntime.abortCount, 1);
+assert.equal(swipeRuntime.studyCardSwipeState, null);
 
 const swipeStart = sourceBetween(
   "function handleStudyCardPointerDown(event)",
   "function handleStudyCardPointerMove(event)"
 );
-assert.match(swipeStart, /!studySession\?\.flipped/);
-assert.match(swipeStart, /studySwipeStartedOnControl\(event\.target\)/);
+const canStartSwipe = extractFunction("canStartStudyCardSwipe");
+assert.match(canStartSwipe, /!studySession\?\.flipped/);
+assert.match(canStartSwipe, /studySwipeStartedOnControl\(target\)/);
+assert.match(swipeStart, /try \{[\s\S]*?setPointerCapture/);
+assert.match(source, /state\.lastX = clientX;/);
+assert.match(source, /state\.lastY = clientY;/);
+assert.match(source, /classifyStudyCardSwipe\([\s\S]*?state\.pointerType/);
+assert.doesNotMatch(source, /width \* 0\.72/);
+assert.match(source, /const travelLimit = viewportWidth \* 1\.25;/);
+assert.match(source, /-webkit-touch-callout:\s*none;/);
+assert.match(source, /overscroll-behavior-x:\s*none;/);
 
 const swipeCommit = sourceBetween(
   "function commitStudyCardSwipe(state, result)",
@@ -137,6 +241,32 @@ assert.match(swipeCommit, /currentStudyCardToken\(\) === state\.cardToken/);
 assert.match(swipeCommit, /markCard\(result\)/);
 assert.equal((swipeCommit.match(/markCard\(/g) || []).length, 1);
 
+const pointerEnd = sourceBetween(
+  "function handleStudyCardPointerEnd(event)",
+  "function handleStudyCardLostPointerCapture(event)"
+);
+assert.match(pointerEnd, /event\.type === "pointercancel"[\s\S]*?abortStudyCardSwipe\(state\)/);
+assert.match(pointerEnd, /finishStudyCardSwipe\(state, event\.clientX, event\.clientY, event\)/);
+
+const lostCapture = sourceBetween(
+  "function handleStudyCardLostPointerCapture(event)",
+  "function handleStudyCardTouchStart(event)"
+);
+assert.match(lostCapture, /abortStudyCardSwipe\(state\)/);
+
+const touchStart = sourceBetween(
+  "function handleStudyCardTouchStart(event)",
+  "function handleStudyCardTouchMove(event)"
+);
+assert.match(touchStart, /event\.touches\.length !== 1[\s\S]*?abortStudyCardSwipe\(activeState\)/);
+
+const touchEnd = sourceBetween(
+  "function handleStudyCardTouchEnd(event)",
+  "function setupStudyCardSwipeHandlers()"
+);
+assert.match(touchEnd, /event\.type === "touchcancel"[\s\S]*?abortStudyCardSwipe\(state\)/);
+assert.match(touchEnd, /if \(!touch\) return;/);
+
 const swipeSetup = sourceBetween(
   "function setupStudyCardSwipeHandlers()",
   "function flipCurrentCard()"
@@ -145,6 +275,12 @@ assert.match(swipeSetup, /pointerdown/);
 assert.match(swipeSetup, /pointermove/);
 assert.match(swipeSetup, /passive: false/);
 assert.match(swipeSetup, /pointercancel/);
+assert.match(swipeSetup, /lostpointercapture/);
+assert.match(swipeSetup, /touchstart/);
+assert.match(swipeSetup, /touchmove/);
+assert.match(swipeSetup, /touchend/);
+assert.match(swipeSetup, /touchcancel/);
+assert.match(swipeSetup, /handleStudyCardTouchMove, \{ passive: false \}/);
 
 const primaryAction = sourceBetween(
   "function handleCardPrimaryAction(event)",

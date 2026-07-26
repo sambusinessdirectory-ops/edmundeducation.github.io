@@ -32,7 +32,10 @@
       --flashcard-sticky-header-height: 76px;
     }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+      overscroll-behavior-x: none;
+    }
     html, body, a, button, input, textarea { cursor: none; }
 
     body {
@@ -46,6 +49,7 @@
       font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
       font-weight: 760;
       overflow-x: hidden;
+      overscroll-behavior-x: none;
     }
 
     body.admin-background-active {
@@ -2376,7 +2380,7 @@
       scroll-margin-top: 18px;
       touch-action: pan-y pinch-zoom;
       transform: translate3d(0, 0, 0);
-      transform-origin: 50% 72%;
+      transform-origin: 50% var(--swipe-origin-y, 50%);
       transition:
         transform 0.24s cubic-bezier(0.22, 0.78, 0.24, 1),
         opacity 0.2s ease,
@@ -2421,6 +2425,14 @@
       transition: none;
       user-select: none;
       -webkit-user-select: none;
+    }
+
+    @media (any-pointer: coarse) {
+      .flash-frame {
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+      }
     }
 
     .flash-frame.swipe-committing {
@@ -190631,16 +190643,38 @@ window.EDMUND_FLASHCARD_SEED = {
       scheduleStudyScroll("[data-front-card]", { force: true });
     }
 
-    function classifyStudyCardSwipe(deltaX, deltaY, elapsedMs, cardWidth) {
+    function classifyStudyCardSwipe(deltaX, deltaY, elapsedMs, cardWidth, pointerType = "mouse") {
       const absX = Math.abs(Number(deltaX || 0));
       const absY = Math.abs(Number(deltaY || 0));
       const width = Math.max(1, Number(cardWidth || 1));
       const elapsed = Math.max(1, Number(elapsedMs || 1));
-      const distanceThreshold = Math.min(118, Math.max(72, width * 0.2));
-      const fastEnough = absX / elapsed >= 0.65 && absX >= 48;
-      if (absX < 48 || absX <= absY * 1.08) return "";
+      const touchLike = pointerType === "touch" || pointerType === "pen";
+      const distanceThreshold = touchLike
+        ? Math.min(72, Math.max(42, width * 0.1))
+        : Math.min(118, Math.max(72, width * 0.2));
+      const minimumDistance = touchLike ? 30 : 48;
+      const fastEnough = touchLike
+        ? absX / elapsed >= 0.32 && absX >= minimumDistance
+        : absX / elapsed >= 0.65 && absX >= minimumDistance;
+      const horizontalDominance = touchLike ? 1.02 : 1.08;
+      if (absX < minimumDistance || absX <= absY * horizontalDominance) return "";
       if (absX < distanceThreshold && !fastEnough) return "";
       return deltaX > 0 ? "green" : "red";
+    }
+
+    function classifyStudySwipeAxis(currentAxis, deltaX, deltaY, pointerType = "mouse") {
+      if (currentAxis) return currentAxis;
+      const absX = Math.abs(Number(deltaX || 0));
+      const absY = Math.abs(Number(deltaY || 0));
+      const touchLike = pointerType === "touch" || pointerType === "pen";
+      const horizontalStart = touchLike ? 12 : 10;
+      const horizontalDominance = touchLike ? 1.2 : 1.08;
+      if (absX >= horizontalStart && absX > absY * horizontalDominance) return "horizontal";
+
+      const verticalStart = touchLike ? 18 : 10;
+      const verticalDominance = touchLike ? 1.42 : 1.08;
+      if (absY >= verticalStart && absY > absX * verticalDominance) return "vertical";
+      return "";
     }
 
     function studySwipeStartedOnControl(target) {
@@ -190660,6 +190694,7 @@ window.EDMUND_FLASHCARD_SEED = {
       frame.removeAttribute("data-swipe-label");
       frame.style.removeProperty("--swipe-intensity");
       frame.style.removeProperty("--swipe-stamp-rotation");
+      frame.style.removeProperty("--swipe-origin-y");
       frame.style.removeProperty("transform");
       frame.style.removeProperty("opacity");
     }
@@ -190674,10 +190709,16 @@ window.EDMUND_FLASHCARD_SEED = {
       studyCardSwipeAnimating = false;
     }
 
-    function renderStudyCardSwipe(frame, deltaX) {
-      const width = Math.max(1, frame.getBoundingClientRect().width);
-      const boundedX = Math.max(-width * 0.72, Math.min(width * 0.72, deltaX));
-      const intensity = Math.min(1, Math.abs(boundedX) / Math.min(118, Math.max(72, width * 0.2)));
+    function renderStudyCardSwipe(frame, deltaX, cardWidth, pointerType = "mouse") {
+      const width = Math.max(1, Number(cardWidth || frame.getBoundingClientRect().width));
+      const viewportWidth = Math.max(width, Number(window.innerWidth || width));
+      const travelLimit = viewportWidth * 1.25;
+      const boundedX = Math.max(-travelLimit, Math.min(travelLimit, deltaX));
+      const touchLike = pointerType === "touch" || pointerType === "pen";
+      const feedbackThreshold = touchLike
+        ? Math.min(72, Math.max(42, width * 0.1))
+        : Math.min(118, Math.max(72, width * 0.2));
+      const intensity = Math.min(1, Math.abs(boundedX) / feedbackThreshold);
       const direction = boundedX >= 0 ? "right" : "left";
       frame.classList.toggle("swipe-right", direction === "right");
       frame.classList.toggle("swipe-left", direction === "left");
@@ -190723,87 +190764,95 @@ window.EDMUND_FLASHCARD_SEED = {
       studyCardSwipeAnimationTimer = window.setTimeout(finish, duration);
     }
 
-    function handleStudyCardPointerDown(event) {
-      if (
+    function canStartStudyCardSwipe(target) {
+      return !(
         studyCardSwipeAnimating
         || currentView !== "deck-view"
         || !studySession?.flipped
         || !currentCard()
-        || event.isPrimary === false
-        || event.button !== 0
-        || studySwipeStartedOnControl(event.target)
-      ) return;
+        || studySwipeStartedOnControl(target)
+      );
+    }
 
-      if (event.pointerType === "touch" || event.pointerType === "pen") {
-        suppressStudyCardContextMenuUntil = Date.now() + 1400;
-      }
+    function beginStudyCardSwipe({ frame, target, inputType, pointerType, pointerId, touchId, clientX, clientY }) {
+      if (!canStartStudyCardSwipe(target)) return null;
+      const rect = frame.getBoundingClientRect();
+      const originY = Math.max(72, Math.min(Math.max(72, rect.height - 72), clientY - rect.top));
+      frame.style.setProperty("--swipe-origin-y", `${originY}px`);
       studyCardSwipeState = {
-        pointerId: event.pointerId,
-        frame: event.currentTarget,
-        startX: event.clientX,
-        startY: event.clientY,
+        inputType,
+        pointerType,
+        pointerId,
+        touchId,
+        frame,
+        startX: clientX,
+        startY: clientY,
+        lastX: clientX,
+        lastY: clientY,
+        cardWidth: Math.max(1, rect.width),
         startedAt: Date.now(),
         axis: "",
         captured: false,
         cardToken: currentStudyCardToken()
       };
+      return studyCardSwipeState;
     }
 
-    function handleStudyCardPointerMove(event) {
-      const state = studyCardSwipeState;
-      if (!state || state.pointerId !== event.pointerId || state.frame !== event.currentTarget) return;
-      const deltaX = event.clientX - state.startX;
-      const deltaY = event.clientY - state.startY;
-      const absX = Math.abs(deltaX);
-      const absY = Math.abs(deltaY);
-
-      if (!state.axis && Math.max(absX, absY) >= 10) {
-        if (absY > absX * 1.08) {
-          studyCardSwipeState = null;
-          clearStudyCardSwipeVisual(state.frame);
-          return;
-        }
-        if (absX > absY * 1.08) {
-          state.axis = "horizontal";
-          state.frame.classList.add("swipe-dragging");
-          if (!state.captured && state.frame.setPointerCapture) {
-            state.frame.setPointerCapture(event.pointerId);
-            state.captured = true;
-          }
-        }
+    function releaseStudyCardPointer(state) {
+      if (!state?.captured || !state.frame?.releasePointerCapture) return;
+      try {
+        state.frame.releasePointerCapture(state.pointerId);
+      } catch {
+        // WebKit may release capture before pointercancel reaches the card.
       }
+      state.captured = false;
+    }
 
+    function abortStudyCardSwipe(state) {
+      if (!state) return;
+      if (studyCardSwipeState === state) studyCardSwipeState = null;
+      releaseStudyCardPointer(state);
+      clearStudyCardSwipeVisual(state.frame);
+    }
+
+    function updateStudyCardSwipe(state, clientX, clientY, event) {
+      state.lastX = clientX;
+      state.lastY = clientY;
+      const deltaX = clientX - state.startX;
+      const deltaY = clientY - state.startY;
+      state.axis = classifyStudySwipeAxis(state.axis, deltaX, deltaY, state.pointerType);
+
+      if (state.axis === "vertical") {
+        abortStudyCardSwipe(state);
+        return;
+      }
       if (state.axis !== "horizontal") return;
-      if (event.cancelable) event.preventDefault();
-      renderStudyCardSwipe(state.frame, deltaX);
+
+      state.frame.classList.add("swipe-dragging");
+      if (event?.cancelable) event.preventDefault();
+      renderStudyCardSwipe(state.frame, deltaX, state.cardWidth, state.pointerType);
     }
 
-    function handleStudyCardPointerEnd(event) {
-      const state = studyCardSwipeState;
-      if (!state || state.pointerId !== event.pointerId || state.frame !== event.currentTarget) return;
-      studyCardSwipeState = null;
-      if (state.captured && state.frame.releasePointerCapture) {
-        try {
-          state.frame.releasePointerCapture(event.pointerId);
-        } catch {
-          // The browser may already have released capture after pointercancel.
-        }
-      }
+    function finishStudyCardSwipe(state, clientX, clientY, event) {
+      if (!state) return;
+      if (studyCardSwipeState === state) studyCardSwipeState = null;
+      state.lastX = Number.isFinite(clientX) ? clientX : state.lastX;
+      state.lastY = Number.isFinite(clientY) ? clientY : state.lastY;
+      releaseStudyCardPointer(state);
 
-      if (event.type === "pointercancel" || state.axis !== "horizontal") {
+      if (state.axis !== "horizontal") {
         clearStudyCardSwipeVisual(state.frame);
         return;
       }
 
-      if (event.cancelable) event.preventDefault();
+      if (event?.cancelable) event.preventDefault();
       suppressStudyCardClickUntil = Date.now() + 700;
-      const deltaX = event.clientX - state.startX;
-      const deltaY = event.clientY - state.startY;
       const result = classifyStudyCardSwipe(
-        deltaX,
-        deltaY,
+        state.lastX - state.startX,
+        state.lastY - state.startY,
         Date.now() - state.startedAt,
-        state.frame.getBoundingClientRect().width
+        state.cardWidth,
+        state.pointerType
       );
 
       if (!result || currentStudyCardToken() !== state.cardToken) {
@@ -190813,12 +190862,144 @@ window.EDMUND_FLASHCARD_SEED = {
       commitStudyCardSwipe(state, result);
     }
 
+    function hasNativeStudyTouchEvents() {
+      return "ontouchstart" in window || Number(navigator.maxTouchPoints || 0) > 0;
+    }
+
+    function findStudyTouch(touchList, touchId) {
+      return Array.from(touchList || []).find(touch => touch.identifier === touchId) || null;
+    }
+
+    function handleStudyCardPointerDown(event) {
+      if (
+        (event.pointerType === "touch" && hasNativeStudyTouchEvents())
+        || event.isPrimary === false
+        || event.button !== 0
+      ) return;
+
+      if (event.pointerType === "touch" || event.pointerType === "pen") {
+        suppressStudyCardContextMenuUntil = Date.now() + 1400;
+      }
+      const state = beginStudyCardSwipe({
+        frame: event.currentTarget,
+        target: event.target,
+        inputType: "pointer",
+        pointerType: event.pointerType || "mouse",
+        pointerId: event.pointerId,
+        touchId: null,
+        clientX: event.clientX,
+        clientY: event.clientY
+      });
+      if (
+        state
+        && (state.pointerType === "touch" || state.pointerType === "pen")
+        && state.frame.setPointerCapture
+      ) {
+        try {
+          state.frame.setPointerCapture(event.pointerId);
+          state.captured = true;
+        } catch {
+          // Continue without capture; the last touch point is retained as a fallback.
+        }
+      }
+    }
+
+    function handleStudyCardPointerMove(event) {
+      const state = studyCardSwipeState;
+      if (
+        !state
+        || state.inputType !== "pointer"
+        || state.pointerId !== event.pointerId
+        || state.frame !== event.currentTarget
+      ) return;
+      updateStudyCardSwipe(state, event.clientX, event.clientY, event);
+    }
+
+    function handleStudyCardPointerEnd(event) {
+      const state = studyCardSwipeState;
+      if (
+        !state
+        || state.inputType !== "pointer"
+        || state.pointerId !== event.pointerId
+        || state.frame !== event.currentTarget
+      ) return;
+      if (event.type === "pointercancel") {
+        abortStudyCardSwipe(state);
+        return;
+      }
+      finishStudyCardSwipe(state, event.clientX, event.clientY, event);
+    }
+
+    function handleStudyCardLostPointerCapture(event) {
+      const state = studyCardSwipeState;
+      if (
+        !state
+        || state.inputType !== "pointer"
+        || state.pointerId !== event.pointerId
+        || state.frame !== event.currentTarget
+      ) return;
+      abortStudyCardSwipe(state);
+    }
+
+    function handleStudyCardTouchStart(event) {
+      if (!hasNativeStudyTouchEvents()) return;
+      if (event.touches.length !== 1) {
+        const activeState = studyCardSwipeState;
+        if (activeState?.inputType === "touch" && activeState.frame === event.currentTarget) {
+          abortStudyCardSwipe(activeState);
+        }
+        return;
+      }
+      const touch = event.changedTouches[0] || event.touches[0];
+      if (!touch) return;
+      suppressStudyCardContextMenuUntil = Date.now() + 1400;
+      beginStudyCardSwipe({
+        frame: event.currentTarget,
+        target: event.target,
+        inputType: "touch",
+        pointerType: "touch",
+        pointerId: null,
+        touchId: touch.identifier,
+        clientX: touch.clientX,
+        clientY: touch.clientY
+      });
+    }
+
+    function handleStudyCardTouchMove(event) {
+      const state = studyCardSwipeState;
+      if (!state || state.inputType !== "touch" || state.frame !== event.currentTarget) return;
+      if (event.touches.length !== 1) {
+        abortStudyCardSwipe(state);
+        return;
+      }
+      const touch = findStudyTouch(event.touches, state.touchId);
+      if (!touch) return;
+      updateStudyCardSwipe(state, touch.clientX, touch.clientY, event);
+    }
+
+    function handleStudyCardTouchEnd(event) {
+      const state = studyCardSwipeState;
+      if (!state || state.inputType !== "touch" || state.frame !== event.currentTarget) return;
+      if (event.type === "touchcancel") {
+        abortStudyCardSwipe(state);
+        return;
+      }
+      const touch = findStudyTouch(event.changedTouches, state.touchId);
+      if (!touch) return;
+      finishStudyCardSwipe(state, touch.clientX, touch.clientY, event);
+    }
+
     function setupStudyCardSwipeHandlers() {
       document.querySelectorAll("[data-front-card], [data-back-card]").forEach(frame => {
         frame.addEventListener("pointerdown", handleStudyCardPointerDown);
         frame.addEventListener("pointermove", handleStudyCardPointerMove, { passive: false });
         frame.addEventListener("pointerup", handleStudyCardPointerEnd);
         frame.addEventListener("pointercancel", handleStudyCardPointerEnd);
+        frame.addEventListener("lostpointercapture", handleStudyCardLostPointerCapture);
+        frame.addEventListener("touchstart", handleStudyCardTouchStart, { passive: true });
+        frame.addEventListener("touchmove", handleStudyCardTouchMove, { passive: false });
+        frame.addEventListener("touchend", handleStudyCardTouchEnd, { passive: false });
+        frame.addEventListener("touchcancel", handleStudyCardTouchEnd, { passive: false });
       });
     }
 
