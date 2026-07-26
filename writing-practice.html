@@ -1616,6 +1616,47 @@
       font-weight: 760;
     }
 
+    .writing-question-images {
+      display: grid;
+      gap: 12px;
+    }
+
+    .writing-question-image {
+      display: block;
+      width: min(100%, 980px);
+      height: auto;
+      margin: 0 auto;
+      border: 1px solid rgba(23, 49, 83, .14);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 8px 22px rgba(17, 43, 85, .08);
+    }
+
+    .writing-question-transcript {
+      border-top: 1px solid rgba(37, 99, 235, .13);
+      padding-top: 10px;
+    }
+
+    .writing-question-transcript summary {
+      width: fit-content;
+      cursor: pointer;
+      color: #1559a8;
+      font-weight: 900;
+    }
+
+    .writing-question-transcript[open] summary {
+      margin-bottom: 8px;
+    }
+
+    .essay-content .essay-section-heading,
+    .practice-text .essay-section-heading {
+      margin: 22px 0 8px;
+      color: #0e2d55;
+      font-size: clamp(18px, 1.35vw, 22px);
+      line-height: 1.35;
+      font-weight: 950;
+    }
+
     .practice-word-bank {
       display: grid;
       gap: 13px;
@@ -3169,7 +3210,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=2"></script>
-  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260716-1"></script>
+  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260726-1"></script>
+  <script src="writing-practice-dse-part-a-data.js?v=20260726-1"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20260722-1"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20260712-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20260722-1"></script>
@@ -3557,6 +3599,24 @@
         { key: "Q5", label: "Q5", exerciseId: "" }
       ]
     };
+    const dseWritingPartAQuestionsByYear = {
+      "2012": [{ key: "2012", label: "2012", exerciseId: "dse-writing-2012-part-a" }],
+      "2013": [{ key: "2013", label: "2013", exerciseId: "dse-writing-2013-part-a" }],
+      "2014": [{ key: "2014", label: "2014", exerciseId: "dse-writing-2014-part-a" }],
+      "2015": [
+        { key: "2015-for", label: "2015 - Argument for", exerciseId: "dse-writing-2015-part-a-argument-for" },
+        { key: "2015-against", label: "2015 - Argument against", exerciseId: "dse-writing-2015-part-a-argument-against" }
+      ],
+      "2016": [{ key: "2016", label: "2016", exerciseId: "dse-writing-2016-part-a" }],
+      "2017": [{ key: "2017", label: "2017", exerciseId: "dse-writing-2017-part-a" }],
+      "2018": [{ key: "2018", label: "2018", exerciseId: "dse-writing-2018-part-a" }],
+      "2019": [{ key: "2019", label: "2019", exerciseId: "dse-writing-2019-part-a" }],
+      "2021": [{ key: "2021", label: "2021", exerciseId: "dse-writing-2021-part-a" }],
+      "2022": [{ key: "2022", label: "2022", exerciseId: "dse-writing-2022-part-a" }],
+      "2023": [{ key: "2023", label: "2023", exerciseId: "dse-writing-2023-part-a" }],
+      "2024": [{ key: "2024", label: "2024", exerciseId: "dse-writing-2024-part-a" }],
+      "2025": [{ key: "2025", label: "2025", exerciseId: "dse-writing-2025-part-a" }]
+    };
 
     const essayTabOrder = [
       { key: "essay", zh: "文章", en: "Essay" },
@@ -3582,6 +3642,7 @@
     const writingExercises = {};
 
     [
+      window.EDMUND_DSE_WRITING_PART_A_EXERCISES,
       window.EDMUND_DSE_WRITING_EXERCISES,
       window.EDMUND_DSE_WRITING_2022_EXERCISES,
       window.EDMUND_DSE_WRITING_2024_EXERCISES,
@@ -6389,6 +6450,7 @@ Device: concession 讓步
       const answerState = { index: 0 };
       const paragraphs = exercise.paragraphs.map(paragraph => ({
         label: paragraph.label,
+        displayClass: paragraph.displayClass,
         sentences: paragraph.sentences.map(sentence => {
           const text = plainSentence(sentence);
           return { parts: splitSentenceByDifficultyAnswers(text, answers, answerState) };
@@ -6403,6 +6465,7 @@ Device: concession 讓步
         const text = plainParagraph(paragraph);
         return {
           label: paragraph.label,
+          displayClass: paragraph.displayClass,
           sentences: [{ parts: splitSentenceByDifficultyAnswers(text, answers, answerState) }]
         };
       });
@@ -6727,8 +6790,9 @@ Device: concession 讓步
     }
 
     function dseWritingQuestions(partKey, year) {
-      if (partKey !== "part-b") return [];
-      return dseWritingQuestionsByYear[String(year)] || [];
+      if (partKey === "part-a") return dseWritingPartAQuestionsByYear[String(year)] || [];
+      if (partKey === "part-b") return dseWritingQuestionsByYear[String(year)] || [];
+      return [];
     }
 
     function dseWritingExerciseIdsForYear(partKey, year) {
@@ -6771,9 +6835,14 @@ Device: concession 讓步
       if (!id) return {};
 
       if (sectionKey === "dse-writing") {
-        for (const [year, questions] of Object.entries(dseWritingQuestionsByYear)) {
-          if ((questions || []).some(question => question.exerciseId === id)) {
-            return { partKey: "part-b", year };
+        for (const [partKey, questionsByYear] of [
+          ["part-a", dseWritingPartAQuestionsByYear],
+          ["part-b", dseWritingQuestionsByYear]
+        ]) {
+          for (const [year, questions] of Object.entries(questionsByYear)) {
+            if ((questions || []).some(question => question.exerciseId === id)) {
+              return { partKey, year };
+            }
           }
         }
         return {};
@@ -7669,22 +7738,56 @@ Device: concession 讓步
       const promptLines = Array.isArray(exercise?.questionPrompt)
         ? exercise.questionPrompt.map(line => String(line || "").trim()).filter(Boolean)
         : [];
-      if (!promptLines.length) return "";
+      const promptImages = Array.isArray(exercise?.questionImages)
+        ? exercise.questionImages
+          .map(image => typeof image === "string" ? { src: image } : image)
+          .filter(image => image && String(image.src || "").trim())
+        : [];
+      if (!promptLines.length && !promptImages.length) return "";
       const year = String(exercise?.exam || "").match(/\b(20\d{2})\b/)?.[1] || "";
       const question = String(exercise?.title || "").match(/^Q\d+/i)?.[0]?.toUpperCase() || "";
       const taskLabel = [year, question].filter(Boolean).join(" ") || "Writing";
+      const promptText = promptLines.map(line => `<p>${escapeHtml(line)}</p>`).join("");
       return `
         <section class="writing-question-prompt" aria-label="Writing question">
           <strong>${escapeHtml(taskLabel)} · Writing Task</strong>
-          ${promptLines.map(line => `<p>${escapeHtml(line)}</p>`).join("")}
+          ${promptImages.length ? `
+            <div class="writing-question-images">
+              ${promptImages.map((image, index) => `
+                <img
+                  class="writing-question-image"
+                  src="${escapeHtml(image.src)}"
+                  alt="${escapeHtml(image.alt || `${taskLabel} source prompt${promptImages.length > 1 ? `, part ${index + 1}` : ""}`)}"
+                  loading="lazy"
+                  decoding="async"
+                >
+              `).join("")}
+            </div>
+          ` : ""}
+          ${promptLines.length
+            ? promptImages.length
+              ? `<details class="writing-question-transcript"><summary>顯示文字版題目</summary>${promptText}</details>`
+              : promptText
+            : ""}
         </section>
       `;
     }
 
-    function renderEssayTabs() {
+    function essayTabsForExercise(exercise) {
+      return essayTabOrder.filter(tab => {
+        if (tab.key === "essay") return true;
+        if (tab.key === "translation") {
+          return Boolean(exercise?.translationSections?.length || exercise?.translation?.length);
+        }
+        if (tab.key === "synonyms") return Boolean(exercise?.synonymGuide?.length);
+        return Boolean(exercise?.learningContent?.[tab.key] || exercise?.studyTabs?.[tab.key]?.length);
+      });
+    }
+
+    function renderEssayTabs(exercise) {
       return `
         <div class="essay-tabs" role="tablist" aria-label="Essay sections">
-          ${essayTabOrder.map(tab => `
+          ${essayTabsForExercise(exercise).map(tab => `
             <button class="essay-tab ${currentEssayTab === tab.key ? "active" : ""}" type="button" role="tab" data-essay-tab="${escapeHtml(tab.key)}">
               <span class="tab-label">
                 <span class="tab-zh">${escapeHtml(tab.zh)}</span>
@@ -8094,7 +8197,13 @@ Device: concession 讓步
           text,
           className: index === 0 ? "essay-letter-title" : "essay-letter-salutation"
         })),
-        ...exercise.paragraphs.map(paragraph => ({ text: plainParagraph(paragraph), className: "" })),
+        ...exercise.paragraphs.map(paragraph => ({
+          text: plainParagraph(paragraph),
+          className: ["essay-letter-title", "essay-letter-salutation", "essay-section-heading", "essay-letter-closing", "essay-letter-signature"]
+            .includes(paragraph?.displayClass)
+            ? paragraph.displayClass
+            : ""
+        })),
         ...closingLines.map((text, index) => ({
           text,
           className: `essay-letter-closing${index === closingLines.length - 1 ? " essay-letter-signature" : ""}`
@@ -9174,7 +9283,7 @@ Device: concession 讓步
       return `
         ${renderExerciseHeader(exercise)}
         ${renderQuestionPrompt(exercise)}
-        ${renderEssayTabs()}
+        ${renderEssayTabs(exercise)}
         <div class="practice-strip">
           <div>
             <strong>練習系統</strong>
@@ -9356,7 +9465,7 @@ Device: concession 讓步
             }).join("")).join(" ");
             return `
               <div class="practice-paragraph">
-                <p>${paragraphHtml}</p>
+                <p class="${escapeHtml(["essay-letter-title", "essay-letter-salutation", "essay-section-heading", "essay-letter-closing", "essay-letter-signature"].includes(paragraph?.displayClass) ? paragraph.displayClass : "")}">${paragraphHtml}</p>
                 ${renderPracticeTranslation(practiceTranslationLinesForParagraph(exercise, paragraphIndex))}
               </div>
             `;
@@ -10337,7 +10446,8 @@ Device: concession 讓步
     function sectionKeyForWritingExercise(exerciseId) {
       const id = String(exerciseId || "");
       if (!id) return "";
-      const dseIds = Object.values(dseWritingQuestionsByYear)
+      const dseIds = [dseWritingPartAQuestionsByYear, dseWritingQuestionsByYear]
+        .flatMap(questionsByYear => Object.values(questionsByYear))
         .flat()
         .map(question => question.exerciseId)
         .filter(Boolean);

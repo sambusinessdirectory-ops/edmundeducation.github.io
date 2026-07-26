@@ -207,6 +207,25 @@ def extract_essays(source_root: Path) -> dict[str, dict[str, object]]:
 
 def spoken_text(value: str) -> str:
     text = re.sub(r"(?:\.{3}|…+)", ", ", value)
+    # Kokoro renders this long comma-linked clause clearly when it is spoken as
+    # two breath groups. The visible essay remains unchanged, including "so".
+    text = text.replace(
+        "before sunrise, so breakfast",
+        "before sunrise. So breakfast",
+    )
+    text = text.replace(
+        "with a senior “cooking mentor,” we can provide",
+        "with a senior cooking mentor. We can provide",
+    ).replace(
+        "one-on-one interaction, enabling both parties",
+        "one-on-one interaction. Enabling both parties",
+    )
+    if text in {
+        "Our background",
+        "A club member’s most memorable experience",
+        "Our future activities",
+    }:
+        text = f"{text}."
     text = re.sub(r"\bIELTS\b", "eye elts", text)
     for initialism in ("DNA", "DSE", "QR", "UK", "US", "HK"):
         text = re.sub(rf"\b{initialism}\b", " ".join(initialism), text)
@@ -422,7 +441,7 @@ def write_manifest(
         "language": language,
         "speed": speed,
         "count": len(entries),
-        "complete": True,
+        "complete": len(entries) == len(essays),
         "corpusSha256": corpus_hash,
         "sampleRate": 24000,
         "format": "audio/mpeg",
@@ -552,6 +571,16 @@ def main() -> int:
                 "duration": round(elapsed_samples / sample_rate, 3),
                 "words": word_timings,
             }
+            # Checkpoint each completed recording. If a later alignment fails,
+            # the next run can resume without regenerating earlier essays.
+            write_manifest(
+                manifest_path,
+                essays,
+                complete_entries,
+                voice=args.voice,
+                language=args.lang,
+                speed=args.speed,
+            )
             print(f"Generated {index}/{len(pending)}: {exercise_id}", flush=True)
 
     if any(not valid_existing_audio(output_root / path) for path in expected_paths):
