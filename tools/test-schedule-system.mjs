@@ -28,12 +28,22 @@ import {
 const root = new URL("../", import.meta.url);
 const read = (path) => readFile(new URL(path, root), "utf8");
 
-const [homepage, modelEssayHtml, scheduleHtml, scheduleJs, scheduleSql, databaseSmokeTest, worker] = await Promise.all([
+const [
+  homepage,
+  modelEssayHtml,
+  scheduleHtml,
+  scheduleJs,
+  scheduleSql,
+  massEditSql,
+  databaseSmokeTest,
+  worker
+] = await Promise.all([
   read("index.html"),
   read("model-essay-downloads.html"),
   read("schedule-system.html"),
   read("schedule-system.js"),
   read("supabase-schedule-system.sql"),
+  read("supabase-schedule-mass-edit.sql"),
   read("tools/test-schedule-batch-database.sql"),
   read("workers/schedule-system/src/index.js")
 ]);
@@ -236,6 +246,14 @@ assert.match(scheduleHtml, /\.unused-day-note\s*\{[^}]*white-space:\s*pre-line/s
 assert.match(scheduleHtml, /\.print-entry-admin\s*\{[^}]*#f4dfc2/i);
 assert.match(scheduleHtml, /\.print-entry-student\s*\{[^}]*#dfe9ff/i);
 assert.match(scheduleHtml, /data-toggle-countdown-collapse|countdown-collapse-toggle/);
+assert.match(scheduleHtml, /data-toggle-mass-edit[^>]*aria-pressed="false"/);
+assert.match(scheduleHtml, />Mass Edit</);
+assert.match(scheduleHtml, /data-mass-edit-actions/);
+assert.match(scheduleHtml, /data-save-mass-edit/);
+assert.match(scheduleHtml, /data-cancel-mass-edit/);
+assert.match(scheduleHtml, />一次儲存全部</);
+assert.match(scheduleHtml, /\.schedule-slot\.has-entry\.is-mass-edit-draft/);
+assert.match(scheduleHtml, /\.draft-badge/);
 
 const metricCards = [...scheduleHtml.matchAll(/<article\s+class="metric-card(?:\s[^"]*)?"/g)];
 assert.equal(metricCards.length, 4, "schedule progress dashboard must contain exactly four metric cards");
@@ -366,6 +384,48 @@ assert.match(scheduleJs, /schedule_admin_change_countdown_capacity_checked/);
 assert.match(scheduleJs, /const dayEntries = state\.weekPayload\.entries/);
 assert.doesNotMatch(scheduleJs, /const maxSlots =/, "print rendering must not recreate unused slot rows");
 assert.doesNotMatch(scheduleJs, /elements\.printHead|elements\.printBody/);
+assert.match(scheduleJs, /massEditChanges:\s*new Map\(\)/);
+assert.match(scheduleJs, /function beginMassEdit\(/);
+assert.match(scheduleJs, /function rebuildMassEditPreview\(/);
+assert.match(scheduleJs, /function queueMassEditUpsert\(/);
+assert.match(scheduleJs, /function queueMassEditDelete\(/);
+assert.match(scheduleJs, /async function saveMassEdit\(/);
+assert.match(scheduleJs, /schedule_student_apply_entry_batch/);
+assert.match(scheduleJs, /schedule_admin_apply_entry_batch/);
+assert.match(scheduleJs, /window\.addEventListener\("beforeunload"/);
+assert.match(
+  scheduleJs,
+  /weekIsLoading[\s\S]*?elements\.toggleMassEdit\.disabled[\s\S]*?childElementCount === 0/,
+  "Mass Edit must stay unavailable until a complete week baseline has rendered"
+);
+assert.match(
+  scheduleJs,
+  /const source = originalEntry\?\.source[\s\S]*?state\.currentUser\?\.role === "admin"/,
+  "editing an existing task must preserve its student or teacher ownership"
+);
+assert.match(
+  scheduleJs,
+  /if \(isConcurrencyError\(error\)\)[\s\S]*?您的草稿仍保留/s,
+  "a concurrent Mass Edit conflict must keep the local draft visible"
+);
+assert.match(
+  scheduleJs,
+  /leaveMassEdit\(\{ restoreOriginal: false \}\);[\s\S]*?await loadWeek\(\);/s,
+  "a successful Mass Edit must leave draft mode and reload the week once"
+);
+const massEditSaveBody = scheduleJs.match(
+  /async function saveMassEdit\(\)\s*\{([\s\S]*?)\n\}\n\nfunction openEntryDialog/
+)?.[1] || "";
+assert.equal(
+  (massEditSaveBody.match(/await callRpc\(/g) || []).length,
+  2,
+  "Mass Edit save should contain one role-specific RPC per branch, not a per-slot RPC loop"
+);
+assert.doesNotMatch(
+  massEditSaveBody,
+  /schedule_(?:student|admin)_(?:upsert|delete)_entry/,
+  "Mass Edit must use the atomic batch RPC instead of sequential slot mutations"
+);
 
 const rpcNames = [
   "schedule_admin_login",
@@ -387,6 +447,7 @@ const rpcNames = [
   "schedule_admin_delete_countdown",
   "schedule_admin_change_countdown_capacity",
   "schedule_admin_change_countdown_capacity_checked",
+  "schedule_admin_apply_entry_batch",
   "schedule_admin_set_display_preferences",
   "schedule_student_profile",
   "schedule_student_logout",
@@ -405,6 +466,7 @@ const rpcNames = [
   "schedule_student_delete_countdown",
   "schedule_student_change_countdown_capacity",
   "schedule_student_change_countdown_capacity_checked",
+  "schedule_student_apply_entry_batch",
   "schedule_student_set_display_preferences"
 ];
 for (const name of rpcNames) {
@@ -519,6 +581,33 @@ assert.match(scheduleSql, /create or replace function public\.schedule_student_m
 assert.match(scheduleSql, /create or replace function public\.schedule_student_move_entry_checked\b/);
 assert.match(scheduleSql, /create or replace function public\._schedule_change_countdown_capacity_checked\b/);
 assert.match(scheduleSql, /v_capacity\.clock_count <> p_expected_count/);
+assert.match(scheduleSql, /create or replace function public\._schedule_apply_entry_batch\b/);
+assert.match(scheduleSql, /Mass Edit contains duplicate schedule slots/);
+assert.match(scheduleSql, /schedule_student_apply_entry_batch\(uuid, date, jsonb\) to authenticated/);
+assert.match(scheduleSql, /schedule_admin_apply_entry_batch\(uuid, uuid, date, jsonb\) to authenticated/);
+assert.match(massEditSql, /^begin;/m);
+assert.match(massEditSql, /^commit;/m);
+assert.match(massEditSql, /create or replace function public\._schedule_apply_entry_batch\b/);
+assert.match(massEditSql, /perform public\._schedule_lock_student_mutations\(p_student_id\)/);
+assert.match(massEditSql, /pg_catalog\.jsonb_array_length\(p_changes\) not between 1 and 700/);
+assert.match(massEditSql, /Mass Edit contains duplicate schedule slots/);
+assert.match(massEditSql, /using errcode = '40001'/);
+assert.match(massEditSql, /v_effective_source := v_existing\.source/);
+assert.match(massEditSql, /group_entry\.updated_at <> v_expected_updated_at/);
+assert.match(massEditSql, /Teacher assignments can only be changed by an administrator[\s\S]*?errcode = '42501'/);
+assert.match(massEditSql, /Teacher assignments can only be deleted by an administrator[\s\S]*?errcode = '42501'/);
+assert.match(
+  massEditSql,
+  /revoke all on function public\._schedule_apply_entry_batch\(uuid, date, jsonb, text, uuid\)[\s\S]*?from public, anon, authenticated/
+);
+assert.match(
+  massEditSql,
+  /grant execute on function public\.schedule_student_apply_entry_batch\(uuid, date, jsonb\)\s+to authenticated/
+);
+assert.match(
+  massEditSql,
+  /grant execute on function public\.schedule_admin_apply_entry_batch\(uuid, uuid, date, jsonb\)\s+to authenticated/
+);
 assert.match(databaseSmokeTest, /^begin;/m);
 assert.match(databaseSmokeTest, /^rollback;/m);
 assert.match(databaseSmokeTest, /_schedule_batch_set_entries_completed/);
@@ -536,6 +625,14 @@ assert.match(databaseSmokeTest, /Legacy group-aware edit/);
 assert.match(databaseSmokeTest, /Expected stale swap-target rejection/);
 assert.match(databaseSmokeTest, /Expected stale countdown-capacity rejection/);
 assert.match(databaseSmokeTest, /Expected invalid countdown-date rejection/);
+assert.match(databaseSmokeTest, /Schedule Mass Edit database smoke test passed/);
+assert.match(databaseSmokeTest, /Expected stale Mass Edit rejection/);
+assert.match(databaseSmokeTest, /Stale Mass Edit was not atomic/);
+assert.match(databaseSmokeTest, /Mass Edit transferred student-entry ownership/);
+assert.match(databaseSmokeTest, /Protected Mass Edit rejection was not atomic/);
+assert.match(databaseSmokeTest, /Expected protected Mass Edit delete rejection/);
+assert.match(databaseSmokeTest, /Expected stale Mass Edit span rejection/);
+assert.match(databaseSmokeTest, /Stale Mass Edit span overwrote another member change/);
 assert.match(databaseSmokeTest, /when sqlstate '40001'/);
 assert.match(databaseSmokeTest, /when sqlstate '42501'/);
 assert.match(

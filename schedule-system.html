@@ -472,6 +472,13 @@
     .legend-badge.student, .entry-source.student { color: #334d84; background: var(--blue-soft); }
 
     .selection-toggle { min-width: 118px; }
+    .mass-edit-toggle { min-width: 112px; }
+    .mass-edit-toggle[aria-pressed="true"] {
+      color: #fff;
+      border-color: rgba(103, 73, 151, .45);
+      background: linear-gradient(135deg, #70549b, #8d6eba);
+      box-shadow: 0 8px 20px rgba(82, 58, 125, .2);
+    }
     .selection-actions {
       position: sticky;
       top: 88px;
@@ -506,6 +513,50 @@
     .selection-action-button:hover,
     .selection-action-button:focus-visible { border-color: #405c97; box-shadow: 0 6px 15px rgba(49, 71, 119, .12); }
     .selection-action-button.danger { color: #9c2d25; border-color: rgba(180, 35, 24, .24); background: #fff8f7; }
+
+    .mass-edit-actions {
+      position: sticky;
+      top: 88px;
+      z-index: 16;
+      margin: 0 0 12px;
+      border: 1px solid rgba(103, 73, 151, .28);
+      border-radius: 17px;
+      padding: 12px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      color: #3f2f59;
+      background: linear-gradient(135deg, rgba(251, 248, 255, .97), rgba(241, 233, 255, .96));
+      box-shadow: 0 12px 30px rgba(71, 47, 111, .16);
+      backdrop-filter: blur(14px);
+    }
+    .mass-edit-summary { display: grid; gap: 3px; }
+    .mass-edit-summary strong { font-size: 15px; }
+    .mass-edit-summary span { color: #68557f; font-size: 12px; font-weight: 750; }
+    .mass-edit-buttons { display: flex; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
+    .mass-edit-save,
+    .mass-edit-cancel {
+      min-height: 40px;
+      border-radius: 12px;
+      padding: 9px 14px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .mass-edit-save {
+      border: 0;
+      color: #fff;
+      background: linear-gradient(135deg, #70549b, #8d6eba);
+      box-shadow: 0 8px 18px rgba(82, 58, 125, .2);
+    }
+    .mass-edit-cancel {
+      border: 1px solid rgba(103, 73, 151, .26);
+      color: #5d467d;
+      background: #fff;
+    }
+    .mass-edit-status { min-height: 20px; margin: 0 0 10px; color: #5d467d; font-size: 12px; font-weight: 800; }
+    .mass-edit-status[data-state="error"] { color: var(--danger); }
 
     #schedule-export-help {
       display: inline-block;
@@ -745,13 +796,20 @@
     .schedule-slot.is-move-blocked { opacity: .62; }
 
     .schedule-slot.is-dragging { opacity: .58; cursor: grabbing; }
+    .schedule-slot.has-entry.is-mass-edit-draft {
+      border-color: rgba(112, 84, 155, .72);
+      outline: 3px solid rgba(139, 105, 188, .24);
+      outline-offset: -3px;
+      box-shadow: 0 10px 26px rgba(82, 58, 125, .18);
+    }
 
     .slot-topline { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
     .slot-number { display: block; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; }
-    .completion-badge, .progress-badge, .span-badge { border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 900; letter-spacing: .04em; }
+    .completion-badge, .progress-badge, .span-badge, .draft-badge { border-radius: 999px; padding: 2px 7px; font-size: 10px; font-weight: 900; letter-spacing: .04em; }
     .completion-badge { color: #1d6d3a; background: rgba(220, 245, 226, .96); }
     .progress-badge { color: #745104; background: rgba(255, 237, 159, .98); }
     .span-badge { color: #1a6487; background: rgba(218, 244, 255, .98); }
+    .draft-badge { color: #5d467d; background: rgba(237, 225, 255, .98); }
     .slot-placeholder { color: #6f5a4e; font-size: 13px; }
     .entry-message {
       margin: 6px 0 0;
@@ -910,6 +968,8 @@
       .legend-controls { width: 100%; justify-content: space-between; }
       .selection-actions { position: static; align-items: flex-start; flex-direction: column; }
       .selection-action-buttons { width: 100%; justify-content: flex-start; }
+      .mass-edit-actions { position: static; align-items: flex-start; flex-direction: column; }
+      .mass-edit-buttons { width: 100%; justify-content: flex-start; }
       .dialog-card { padding: 22px; }
       .countdown-toolbar { align-items: flex-start; flex-direction: column; }
       .countdown-form-grid { grid-template-columns: 1fr; }
@@ -1065,6 +1125,7 @@
               <span class="legend-badge admin">老師安排</span>
               <span class="legend-badge student">學生安排</span>
             </div>
+            <button class="subtle-toggle mass-edit-toggle" type="button" data-toggle-mass-edit aria-pressed="false">Mass Edit</button>
             <button class="subtle-toggle selection-toggle" type="button" data-toggle-selection aria-pressed="false">select multiple</button>
           </div>
           <span id="schedule-export-help">每一天預設 10 格；按「＋5 格／－5 格」調整。電腦可拖曳安排；按住 Shift 再拖到相鄰日期即可延伸。手機或平板長按 2 秒，藍色外框出現後即可移動、交換，或放到該日的「延伸多日項目」區逐日延伸。匯出時可在列印視窗選擇「儲存為 PDF」。</span>
@@ -1079,6 +1140,18 @@
             <button class="selection-action-button" type="button" data-cancel-selection>取消選擇</button>
           </div>
         </div>
+
+        <div class="mass-edit-actions" data-mass-edit-actions role="region" aria-label="Mass Edit 批量編輯" hidden>
+          <div class="mass-edit-summary">
+            <strong data-mass-edit-count aria-live="polite">尚未有待儲存修改</strong>
+            <span>逐格新增、修改或刪除；完成後一次儲存全部，期間不會重新載入日程。</span>
+          </div>
+          <div class="mass-edit-buttons">
+            <button class="mass-edit-cancel" type="button" data-cancel-mass-edit>取消所有修改</button>
+            <button class="mass-edit-save" type="button" data-save-mass-edit>一次儲存全部</button>
+          </div>
+        </div>
+        <p class="mass-edit-status" data-mass-edit-status role="status" aria-live="polite"></p>
 
         <div class="calendar-panel glass-card">
           <div class="calendar-scroll" data-calendar-scroll tabindex="0" aria-label="每週功課及溫習安排表，可左右捲動">
@@ -1186,6 +1259,6 @@
   <script src="supabase-config.js"></script>
   <script src="schedule-system-config.js"></script>
   <script src="shared-system-nav.js?v=20260722-1"></script>
-  <script type="module" src="schedule-system.js?v=20260726-2"></script>
+  <script type="module" src="schedule-system.js?v=20260727-1"></script>
 </body>
 </html>

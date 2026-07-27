@@ -85,6 +85,12 @@ const elements = {
   moveSelected: document.querySelector("[data-move-selected]"),
   batchDelete: document.querySelector("[data-batch-delete]"),
   cancelSelection: document.querySelector("[data-cancel-selection]"),
+  toggleMassEdit: document.querySelector("[data-toggle-mass-edit]"),
+  massEditActions: document.querySelector("[data-mass-edit-actions]"),
+  massEditCount: document.querySelector("[data-mass-edit-count]"),
+  massEditSave: document.querySelector("[data-save-mass-edit]"),
+  massEditCancel: document.querySelector("[data-cancel-mass-edit]"),
+  massEditStatus: document.querySelector("[data-mass-edit-status]"),
   tableRegion: document.querySelector("[data-table-region]"),
   weekGrid: document.querySelector("[data-week-grid]"),
   calendarStatus: document.querySelector("[data-calendar-status]"),
@@ -146,7 +152,11 @@ const state = {
   countdownDraftOwner: "",
   countdownDrafts: new Map(),
   countdownCollapsedOwner: "",
-  countdownCollapsedPositions: new Set()
+  countdownCollapsedPositions: new Set(),
+  massEditMode: false,
+  massEditOriginalEntries: [],
+  massEditChanges: new Map(),
+  massEditPreviousShowUnusedTemporarily: false
 };
 
 function emptyWeekPayload() {
@@ -219,6 +229,180 @@ function showView(name) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
+function cloneScheduleEntries(entries = []) {
+  return entries.map((entry) => ({ ...entry }));
+}
+
+function massEditOriginalEntry(date, slotIndex, entry = null) {
+  const exact = state.massEditOriginalEntries.find((candidate) => (
+    candidate.scheduleDate === date && Number(candidate.slotIndex) === Number(slotIndex)
+  ));
+  if (exact) return exact;
+  if (entry?.spanGroupId) {
+    return state.massEditOriginalEntries
+      .filter((candidate) => candidate.spanGroupId === entry.spanGroupId)
+      .sort((left, right) => left.scheduleDate.localeCompare(right.scheduleDate))[0] || null;
+  }
+  return null;
+}
+
+function massEditChangeKey(date, slotIndex, originalEntry = null) {
+  return originalEntry?.spanGroupId
+    ? `span:${originalEntry.spanGroupId}`
+    : `cell:${date}:${Number(slotIndex)}`;
+}
+
+function rebuildMassEditPreview() {
+  if (!state.massEditMode) return;
+  let entries = cloneScheduleEntries(state.massEditOriginalEntries);
+
+  for (const change of state.massEditChanges.values()) {
+    const target = entries.find((entry) => (
+      entry.scheduleDate === change.scheduleDate
+      && Number(entry.slotIndex) === Number(change.slotIndex)
+    ));
+    const targetGroupId = target?.spanGroupId || change.spanGroupId || null;
+
+    if (change.action === "delete") {
+      entries = targetGroupId
+        ? entries.filter((entry) => entry.spanGroupId !== targetGroupId)
+        : entries.filter((entry) => !(
+            entry.scheduleDate === change.scheduleDate
+            && Number(entry.slotIndex) === Number(change.slotIndex)
+          ));
+      continue;
+    }
+
+    if (target) {
+      const contentChanged = target.message !== change.message || target.source !== change.source;
+      entries = entries.map((entry) => {
+        const matches = targetGroupId
+          ? entry.spanGroupId === targetGroupId
+          : entry.scheduleDate === change.scheduleDate
+            && Number(entry.slotIndex) === Number(change.slotIndex);
+        if (!matches) return entry;
+        return {
+          ...entry,
+          message: change.message,
+          estimatedMinutes: change.estimatedMinutes,
+          source: change.source,
+          isCompleted: contentChanged ? false : entry.isCompleted,
+          massEditDraft: true
+        };
+      });
+    } else {
+      entries.push({
+        id: `draft:${change.scheduleDate}:${change.slotIndex}`,
+        scheduleDate: change.scheduleDate,
+        slotIndex: change.slotIndex,
+        message: change.message,
+        estimatedMinutes: change.estimatedMinutes,
+        source: change.source,
+        isCompleted: false,
+        isInProgress: false,
+        spanGroupId: null,
+        updatedAt: null,
+        massEditDraft: true
+      });
+    }
+  }
+
+  state.weekPayload.entries = entries;
+}
+
+function updateMassEditControls() {
+  if (!elements.toggleMassEdit) return;
+  const active = state.massEditMode;
+  const changeCount = state.massEditChanges.size;
+  const weekIsLoading = elements.weekGrid.getAttribute("aria-busy") === "true";
+  elements.toggleMassEdit.setAttribute("aria-pressed", String(active));
+  elements.toggleMassEdit.textContent = active ? "退出 Mass Edit" : "Mass Edit";
+  elements.toggleMassEdit.disabled = state.mutationInFlight
+    || weekIsLoading
+    || !activeStudent()
+    || elements.weekGrid.childElementCount === 0;
+  elements.massEditActions.hidden = !active;
+  elements.massEditCount.textContent = changeCount
+    ? `已暫存 ${changeCount} 項修改`
+    : "尚未有待儲存修改";
+  elements.massEditSave.disabled = state.mutationInFlight || changeCount === 0;
+  elements.massEditCancel.disabled = state.mutationInFlight;
+  elements.toggleUnused.disabled = active || state.mutationInFlight || Boolean(state.moveEntryId);
+  elements.exportPdf.disabled = active
+    || elements.weekGrid.getAttribute("aria-busy") === "true"
+    || !activeStudent()
+    || elements.weekGrid.childElementCount === 0;
+  elements.adminStudentsButton.disabled = active;
+  elements.currentWeek.disabled = active;
+  const countdownCapacity = Math.max(
+    MIN_COUNTDOWNS,
+    Math.min(MAX_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || MIN_COUNTDOWNS)
+  );
+  elements.addCountdowns.disabled = active || state.mutationInFlight || countdownCapacity >= MAX_COUNTDOWNS;
+  elements.removeCountdowns.disabled = active || state.mutationInFlight || countdownCapacity <= MIN_COUNTDOWNS;
+  if (elements.countdownGrid) elements.countdownGrid.inert = active;
+}
+
+function leaveMassEdit({ restoreOriginal = true } = {}) {
+  if (restoreOriginal) state.weekPayload.entries = cloneScheduleEntries(state.massEditOriginalEntries);
+  state.massEditMode = false;
+  state.massEditOriginalEntries = [];
+  state.massEditChanges.clear();
+  state.showUnusedTemporarily = state.massEditPreviousShowUnusedTemporarily;
+  state.massEditPreviousShowUnusedTemporarily = false;
+  setStatus(elements.massEditStatus, "");
+  updateMassEditControls();
+}
+
+function discardMassEdit({ requireConfirmation = true } = {}) {
+  if (!state.massEditMode) return true;
+  if (
+    requireConfirmation
+    && state.massEditChanges.size
+    && !window.confirm("您確定要放棄所有尚未儲存的 Mass Edit 修改嗎？")
+  ) {
+    return false;
+  }
+  leaveMassEdit({ restoreOriginal: true });
+  renderWeek();
+  showToast("已取消所有未儲存修改。");
+  return true;
+}
+
+function guardMassEditNavigation() {
+  if (!state.massEditMode) return true;
+  return discardMassEdit({ requireConfirmation: true });
+}
+
+function beginMassEdit() {
+  if (
+    state.massEditMode
+    || state.mutationInFlight
+    || elements.weekGrid.getAttribute("aria-busy") === "true"
+    || !activeStudent()
+    || elements.weekGrid.childElementCount === 0
+  ) return;
+  if (state.selectionMode) {
+    if (state.moveEntryId) state.showUnusedTemporarily = false;
+    resetSelectionMode();
+  }
+  leaveTouchActionMode();
+  state.draggingEntryId = null;
+  state.massEditMode = true;
+  state.massEditOriginalEntries = cloneScheduleEntries(state.weekPayload.entries);
+  state.massEditChanges.clear();
+  state.massEditPreviousShowUnusedTemporarily = state.showUnusedTemporarily;
+  state.showUnusedTemporarily = true;
+  setStatus(elements.massEditStatus, "Mass Edit 已開啟：修改會先暫存在本頁。");
+  renderWeek();
+  showToast("Mass Edit 已開啟；完成後按「一次儲存全部」。");
+}
+
+function toggleMassEdit() {
+  if (state.massEditMode) discardMassEdit({ requireConfirmation: true });
+  else beginMassEdit();
+}
+
 function clearRenderedSchedule() {
   state.weekRequestId += 1;
   state.displayPreferenceRequestId += 1;
@@ -234,6 +418,10 @@ function clearRenderedSchedule() {
   state.countdownDrafts.clear();
   state.countdownCollapsedOwner = "";
   state.countdownCollapsedPositions.clear();
+  state.massEditMode = false;
+  state.massEditOriginalEntries = [];
+  state.massEditChanges.clear();
+  state.massEditPreviousShowUnusedTemporarily = false;
   resetSelectionMode();
   elements.weekGrid.replaceChildren();
   elements.exportPdf.disabled = true;
@@ -257,7 +445,9 @@ function clearRenderedSchedule() {
   setMetricsUnavailable();
   applyDisplayPreferences();
   setStatus(elements.entryStatus, "");
+  setStatus(elements.massEditStatus, "");
   setStatus(elements.calendarStatus, "");
+  updateMassEditControls();
 }
 
 function applyDisplayPreferences() {
@@ -271,6 +461,7 @@ function applyDisplayPreferences() {
   elements.toggleMascots.setAttribute("aria-pressed", String(state.hideMascots));
   elements.weekGrid.classList.toggle("mascots-hidden", state.hideMascots);
   updateSelectionControls();
+  updateMassEditControls();
 }
 
 function unusedSlotsAreHidden() {
@@ -304,7 +495,7 @@ function selectedEntries() {
 }
 
 function canMoveEntry(entry) {
-  return Boolean(entry) && !(
+  return Boolean(entry) && !state.massEditMode && !(
     state.currentUser?.role === "student" && entry.source === "admin"
   );
 }
@@ -366,6 +557,7 @@ function updateSelectionControls() {
   elements.cancelSelection.disabled = state.mutationInFlight;
   elements.toggleUnused.disabled = state.mutationInFlight || moving;
   elements.toggleMascots.disabled = state.mutationInFlight;
+  elements.toggleSelection.disabled = state.mutationInFlight || state.massEditMode;
 }
 
 function setMutationInFlight(busy) {
@@ -374,6 +566,7 @@ function setMutationInFlight(busy) {
   elements.toggleMascots.disabled = busy;
   elements.toggleSelection.disabled = busy;
   updateSelectionControls();
+  updateMassEditControls();
 }
 
 function toggleTableVisibility() {
@@ -844,6 +1037,7 @@ function setCountdownCardBusy(card, busy) {
 }
 
 async function saveCountdown(card) {
+  if (state.massEditMode) return;
   if (state.mutationInFlight) return;
   const values = countdownCardValues(card);
   const persistedCapacity = Math.max(MIN_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || MIN_COUNTDOWNS);
@@ -902,6 +1096,7 @@ async function saveCountdown(card) {
 }
 
 async function deleteCountdown(card) {
+  if (state.massEditMode) return;
   const position = Number(card.dataset.countdownPosition);
   const countdown = countdownByPosition(position);
   if (state.mutationInFlight) return;
@@ -940,6 +1135,7 @@ async function deleteCountdown(card) {
 }
 
 async function changeCountdownCapacity(delta) {
+  if (state.massEditMode) return;
   if (state.mutationInFlight || ![-COUNTDOWN_STEP, COUNTDOWN_STEP].includes(delta)) return;
   captureCountdownDrafts();
   const current = Math.max(MIN_COUNTDOWNS, Number(state.weekPayload.countdownCapacity) || MIN_COUNTDOWNS);
@@ -1158,6 +1354,11 @@ async function login(event) {
 }
 
 async function logout() {
+  if (state.mutationInFlight) {
+    showToast("正在儲存修改，請稍候。", "error");
+    return;
+  }
+  if (!guardMassEditNavigation()) return;
   const user = state.currentUser;
   if (user?.role === "student") window.EdmundSystemNav?.forgetStudentSession();
   state.currentUser = null;
@@ -1188,6 +1389,7 @@ async function logout() {
 
 async function openAdminPanel() {
   if (state.currentUser?.role !== "admin") return;
+  if (!guardMassEditNavigation()) return;
   clearRenderedSchedule();
   state.selectedStudent = null;
   showView("admin");
@@ -1245,6 +1447,7 @@ function renderStudentList() {
 async function openStudentSchedule(studentId) {
   const student = state.adminStudents.find((item) => item.id === studentId);
   if (!student || state.currentUser?.role !== "admin") return;
+  if (!guardMassEditNavigation()) return;
   clearRenderedSchedule();
   state.selectedStudent = { id: student.id, name: student.name };
   state.weekStart = defaultWeekStart();
@@ -1273,6 +1476,7 @@ async function loadWeek(focusTarget = null) {
   elements.exportPdf.disabled = true;
   setStatus(elements.calendarStatus, "正在載入本星期安排…");
   elements.weekGrid.setAttribute("aria-busy", "true");
+  updateMassEditControls();
   updateCalendarHeading();
 
   try {
@@ -1330,6 +1534,7 @@ async function loadWeek(focusTarget = null) {
   } finally {
     if (requestId === state.weekRequestId) {
       elements.weekGrid.removeAttribute("aria-busy");
+      updateMassEditControls();
     }
   }
 }
@@ -1362,6 +1567,11 @@ function updateCalendarHeading() {
   const last = toISODate(lastWeekStart());
   elements.previousWeek.disabled = state.weekStart <= first;
   elements.nextWeek.disabled = state.weekStart >= last;
+  if (state.massEditMode) {
+    elements.previousWeek.disabled = true;
+    elements.nextWeek.disabled = true;
+    elements.currentWeek.disabled = true;
+  }
 }
 
 function entryMap() {
@@ -1472,6 +1682,7 @@ function renderWeek() {
       spanDropZone.dataset.spanDropDate = date;
       spanDropZone.textContent = "拖放至此延伸多日項目";
       spanDropZone.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}：拖放或在操作模式按此延伸多日項目`);
+      spanDropZone.disabled = state.massEditMode;
       column.append(spanDropZone);
 
       const controls = document.createElement("div");
@@ -1482,7 +1693,7 @@ function renderWeek() {
       removeButton.className = "remove-slots-button";
       removeButton.dataset.removeSlotsDate = date;
       removeButton.textContent = capacity <= 10 ? "最少 10 格" : "－5 格";
-      removeButton.disabled = capacity <= 10;
+      removeButton.disabled = state.massEditMode || capacity <= 10;
       removeButton.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}收起 5 個空白安排格`);
 
       const addButton = document.createElement("button");
@@ -1490,7 +1701,7 @@ function renderWeek() {
       addButton.className = "add-slots-button";
       addButton.dataset.addSlotsDate = date;
       addButton.textContent = capacity >= MAX_SLOTS_PER_DAY ? "已達每日上限" : "＋5 格";
-      addButton.disabled = capacity >= MAX_SLOTS_PER_DAY;
+      addButton.disabled = state.massEditMode || capacity >= MAX_SLOTS_PER_DAY;
       addButton.setAttribute("aria-label", `${WEEKDAY_LABELS[dayIndex]}增加 5 個安排格`);
       controls.append(removeButton, addButton);
       column.append(controls);
@@ -1498,6 +1709,7 @@ function renderWeek() {
     elements.weekGrid.append(column);
   });
   updateSelectionControls();
+  updateMassEditControls();
 }
 
 function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = false) {
@@ -1563,6 +1775,13 @@ function createSlotButton(date, dayIndex, slotIndex, entry, spanBottomStart = fa
       spanBadge.textContent = `${bounds.length} 日項目`;
       topLine.append(spanBadge);
     }
+    if (entry.massEditDraft) {
+      button.classList.add("is-mass-edit-draft");
+      const draftBadge = document.createElement("span");
+      draftBadge.className = "draft-badge";
+      draftBadge.textContent = "未儲存";
+      topLine.append(draftBadge);
+    }
     if (state.selectedEntryIds.has(entry.id)) {
       button.classList.add("is-selected");
       button.setAttribute("aria-pressed", "true");
@@ -1605,7 +1824,7 @@ function findEntryById(entryId) {
 }
 
 function toggleSelectionMode() {
-  if (state.mutationInFlight) return;
+  if (state.mutationInFlight || state.massEditMode) return;
   if (state.selectionMode) {
     if (state.moveEntryId) state.showUnusedTemporarily = false;
     resetSelectionMode();
@@ -1616,14 +1835,14 @@ function toggleSelectionMode() {
 }
 
 function cancelSelectionMode() {
-  if (state.mutationInFlight) return;
+  if (state.mutationInFlight || state.massEditMode) return;
   if (state.moveEntryId) state.showUnusedTemporarily = false;
   resetSelectionMode();
   renderWeek();
 }
 
 function toggleEntrySelection(entry) {
-  if (!entry || state.mutationInFlight) return;
+  if (!entry || state.mutationInFlight || state.massEditMode) return;
   const memberIds = spanMemberIds(entry);
   const shouldSelect = ![...memberIds].every((id) => state.selectedEntryIds.has(id));
   memberIds.forEach((id) => {
@@ -1642,6 +1861,7 @@ function batchItems(entries) {
 }
 
 async function batchSetCompletion() {
+  if (state.massEditMode) return;
   const entries = selectedEntries();
   if (!entries.length || state.mutationInFlight) return;
   const completed = entries.some((entry) => !entry.isCompleted);
@@ -1681,6 +1901,7 @@ async function batchSetCompletion() {
 }
 
 async function batchDeleteEntries() {
+  if (state.massEditMode) return;
   const entries = selectedEntries();
   if (!entries.length || state.mutationInFlight) return;
   if (state.currentUser.role === "student" && entries.some((entry) => entry.source === "admin")) {
@@ -1723,6 +1944,7 @@ async function batchDeleteEntries() {
 }
 
 function beginMoveSelected() {
+  if (state.massEditMode) return;
   const entries = selectedEntries();
   if (entries.length !== 1 || !canMoveEntry(entries[0]) || state.mutationInFlight) return;
   state.moveEntryId = entries[0].id;
@@ -1735,6 +1957,7 @@ function beginMoveSelected() {
 }
 
 async function moveEntryTo(entry, targetDate, targetSlotIndex) {
+  if (state.massEditMode) return;
   if (!entry || state.mutationInFlight || !canMoveEntry(entry)) return;
   if (entry.spanGroupId) {
     showToast("多日項目已固定在各日最底；可拖到相鄰日期繼續延伸。", "error");
@@ -1805,6 +2028,7 @@ async function moveEntryTo(entry, targetDate, targetSlotIndex) {
 }
 
 async function extendEntryToDay(entry, targetDate, { adjacentOnly = false } = {}) {
+  if (state.massEditMode) return;
   if (!entry || state.mutationInFlight || !canMoveEntry(entry)) return;
   const bounds = spanBounds(state.weekPayload.entries, entry);
   if (adjacentOnly && !isAdjacentSpanTarget(state.weekPayload.entries, entry, targetDate)) {
@@ -1859,10 +2083,127 @@ async function extendEntryToDay(entry, targetDate, { adjacentOnly = false } = {}
   }
 }
 
+function queueMassEditUpsert(message, estimatedMinutes) {
+  if (!state.massEditMode || !state.editing) return;
+  const { date, slotIndex, entry } = state.editing;
+  const originalEntry = massEditOriginalEntry(date, slotIndex, entry);
+  // Editing must not transfer ownership: only a newly-created entry belongs to
+  // the current actor. This keeps an administrator's correction to a student's
+  // own plan from turning it into a protected teacher assignment.
+  const source = originalEntry?.source
+    || (state.currentUser?.role === "admin" ? "admin" : "student");
+  const key = massEditChangeKey(date, slotIndex, originalEntry);
+  const unchanged = Boolean(originalEntry)
+    && originalEntry.message === message
+    && (Number(originalEntry.estimatedMinutes) || null) === estimatedMinutes;
+
+  if (unchanged) {
+    state.massEditChanges.delete(key);
+  } else {
+    state.massEditChanges.set(key, {
+      action: "upsert",
+      scheduleDate: originalEntry?.scheduleDate || date,
+      slotIndex: Number(originalEntry?.slotIndex || slotIndex),
+      message,
+      estimatedMinutes,
+      expectedUpdatedAt: originalEntry?.updatedAt || null,
+      spanGroupId: originalEntry?.spanGroupId || null,
+      source
+    });
+  }
+  rebuildMassEditPreview();
+  renderWeek();
+}
+
+function queueMassEditDelete() {
+  if (!state.massEditMode || !state.editing?.entry) return;
+  const { date, slotIndex, entry } = state.editing;
+  const originalEntry = massEditOriginalEntry(date, slotIndex, entry);
+  const key = massEditChangeKey(date, slotIndex, originalEntry);
+
+  if (!originalEntry) {
+    state.massEditChanges.delete(key);
+  } else {
+    state.massEditChanges.set(key, {
+      action: "delete",
+      scheduleDate: originalEntry.scheduleDate,
+      slotIndex: Number(originalEntry.slotIndex),
+      message: null,
+      estimatedMinutes: null,
+      expectedUpdatedAt: originalEntry.updatedAt,
+      spanGroupId: originalEntry.spanGroupId || null,
+      source: originalEntry.source
+    });
+  }
+  rebuildMassEditPreview();
+  renderWeek();
+}
+
+async function saveMassEdit() {
+  if (!state.massEditMode || !state.massEditChanges.size || state.mutationInFlight) return;
+  const student = activeStudent();
+  if (!student) return;
+  const changes = [...state.massEditChanges.values()].map((change) => ({
+    action: change.action,
+    scheduleDate: change.scheduleDate,
+    slotIndex: change.slotIndex,
+    message: change.message,
+    estimatedMinutes: change.estimatedMinutes,
+    expectedUpdatedAt: change.expectedUpdatedAt
+  }));
+  const owner = `${state.currentUser?.role || ""}:${student.id}:${state.weekStart}`;
+  const changeCount = changes.length;
+  let shouldLogout = false;
+
+  setMutationInFlight(true);
+  setStatus(elements.massEditStatus, `正在一次儲存 ${changeCount} 項修改…`);
+  try {
+    if (state.currentUser.role === "admin") {
+      await callRpc("schedule_admin_apply_entry_batch", {
+        p_admin_token: state.currentUser.adminToken,
+        p_student_id: student.id,
+        p_week_start: state.weekStart,
+        p_changes: changes
+      });
+    } else {
+      await callRpc("schedule_student_apply_entry_batch", {
+        p_token: state.currentUser.studentToken,
+        p_week_start: state.weekStart,
+        p_changes: changes
+      });
+    }
+
+    const currentStudent = activeStudent();
+    const currentOwner = `${state.currentUser?.role || ""}:${currentStudent?.id || ""}:${state.weekStart}`;
+    if (owner !== currentOwner) return;
+    leaveMassEdit({ restoreOriginal: false });
+    showToast(`${changeCount} 項安排已一次儲存至雲端。`);
+    await loadWeek();
+  } catch (error) {
+    console.warn("Schedule mass edit save failed", error);
+    if (isConcurrencyError(error)) {
+      setStatus(
+        elements.massEditStatus,
+        "其中一格已在另一個頁面更新；您的草稿仍保留。請取消 Mass Edit、重新載入後再修改。",
+        "error"
+      );
+    } else {
+      setStatus(elements.massEditStatus, error.message || "未能一次儲存修改，草稿仍保留。", "error");
+    }
+    shouldLogout = isExpiredSessionError(error);
+  } finally {
+    setMutationInFlight(false);
+  }
+  if (shouldLogout) await logout();
+}
+
 function openEntryDialog(date, slotIndex) {
   const dayIndex = weekDates(state.weekStart).indexOf(date);
   const entry = findEntry(date, slotIndex);
-  state.editing = { date, slotIndex: Number(slotIndex), entry };
+  const originalEntry = state.massEditMode
+    ? massEditOriginalEntry(date, slotIndex, entry)
+    : entry;
+  state.editing = { date, slotIndex: Number(slotIndex), entry, originalEntry };
   const protectedTeacherEntry = Boolean(
     entry?.source === "admin" && state.currentUser?.role === "student"
   );
@@ -1874,14 +2215,18 @@ function openEntryDialog(date, slotIndex) {
   elements.entryEstimatedMinutes.readOnly = protectedTeacherEntry;
   elements.entryHint.textContent = protectedTeacherEntry
     ? "老師安排只可由管理員修改或刪除；您仍可標記完成。"
-    : "按 Enter 儲存；如要換行請按 Shift + Enter。";
+    : state.massEditMode
+      ? "按 Enter 暫存本格；完成所有修改後，再按「一次儲存全部」。"
+      : "按 Enter 儲存；如要換行請按 Shift + Enter。";
   elements.deleteEntry.hidden = !entry || protectedTeacherEntry;
   elements.saveEntry.hidden = protectedTeacherEntry;
-  elements.toggleComplete.hidden = !entry;
+  elements.saveEntry.textContent = state.massEditMode ? "暫存本格" : "儲存";
+  elements.deleteEntry.textContent = state.massEditMode ? "加入待刪除" : "刪除";
+  elements.toggleComplete.hidden = state.massEditMode || !entry;
   elements.toggleComplete.dataset.completed = String(Boolean(entry?.isCompleted));
   elements.toggleComplete.setAttribute("aria-pressed", String(Boolean(entry?.isCompleted)));
   elements.toggleComplete.textContent = entry?.isCompleted ? "取消完成" : "標記完成";
-  elements.toggleProgress.hidden = !entry;
+  elements.toggleProgress.hidden = state.massEditMode || !entry;
   elements.toggleProgress.dataset.inProgress = String(Boolean(entry?.isInProgress));
   elements.toggleProgress.setAttribute("aria-pressed", String(Boolean(entry?.isInProgress)));
   elements.toggleProgress.textContent = entry?.isInProgress ? "取消進行中" : "標記進行中";
@@ -1910,6 +2255,14 @@ async function saveEntry(event) {
     : Math.round(Number(elements.entryEstimatedMinutes.value));
   if (estimatedMinutes !== null && (!Number.isFinite(estimatedMinutes) || estimatedMinutes < 1 || estimatedMinutes > 10080)) {
     setStatus(elements.entryStatus, "預計需時請輸入 1 至 10080 分鐘。", "error");
+    return;
+  }
+
+  if (state.massEditMode) {
+    queueMassEditUpsert(message, estimatedMinutes);
+    elements.entryDialog.close();
+    showToast("本格已暫存；尚未上傳至雲端。");
+    restoreCalendarFocus(focusTarget);
     return;
   }
 
@@ -1961,6 +2314,15 @@ async function deleteEntry() {
     date: state.editing.date,
     slotIndex: state.editing.slotIndex
   };
+  if (state.massEditMode) {
+    queueMassEditDelete();
+    elements.deleteDialog.close();
+    elements.entryDialog.close();
+    state.editing = null;
+    showToast("刪除已加入待儲存修改；尚未上傳至雲端。");
+    restoreCalendarFocus(focusTarget);
+    return;
+  }
   elements.confirmDelete.disabled = true;
   try {
     if (state.currentUser.role === "admin") {
@@ -2089,7 +2451,7 @@ async function toggleEntryProgress() {
 }
 
 async function changeCapacity(date, delta, button) {
-  if (state.mutationInFlight || ![5, -5].includes(delta)) return;
+  if (state.mutationInFlight || state.massEditMode || ![5, -5].includes(delta)) return;
   button.disabled = true;
   const previousCapacity = Math.max(10, Number(state.weekPayload.capacities[date]) || 10);
   const expectedVersion = Math.max(0, Number(state.weekPayload.capacityVersions[date]) || 0);
@@ -2147,6 +2509,7 @@ async function changeCapacity(date, delta, button) {
 
 async function changeWeek(amount) {
   if (state.mutationInFlight) return;
+  if (!guardMassEditNavigation()) return;
   const next = addDays(parseISODate(state.weekStart), amount);
   const first = firstWeekStart();
   const last = lastWeekStart();
@@ -2211,7 +2574,7 @@ function preparePrintSheet() {
 }
 
 function exportPdf() {
-  if (!activeStudent() || !state.weekPayload) return;
+  if (!activeStudent() || !state.weekPayload || state.massEditMode) return;
   preparePrintSheet();
   const originalTitle = document.title;
   const safeName = String(activeStudent().name || "student").replace(/[\\/:*?"<>|]+/g, "-");
@@ -2488,6 +2851,7 @@ elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
 elements.currentWeek.addEventListener("click", async () => {
   if (state.mutationInFlight) return;
+  if (!guardMassEditNavigation()) return;
   state.showUnusedTemporarily = false;
   state.weekStart = defaultWeekStart();
   await loadWeek();
@@ -2497,6 +2861,9 @@ elements.toggleTable.addEventListener("click", toggleTableVisibility);
 elements.toggleUnused.addEventListener("click", toggleUnusedSlots);
 elements.toggleMascots.addEventListener("click", toggleMascots);
 elements.toggleSelection?.addEventListener("click", toggleSelectionMode);
+elements.toggleMassEdit?.addEventListener("click", toggleMassEdit);
+elements.massEditSave?.addEventListener("click", saveMassEdit);
+elements.massEditCancel?.addEventListener("click", () => discardMassEdit({ requireConfirmation: true }));
 elements.batchComplete?.addEventListener("click", batchSetCompletion);
 elements.moveSelected?.addEventListener("click", beginMoveSelected);
 elements.batchDelete?.addEventListener("click", batchDeleteEntries);
@@ -2504,6 +2871,7 @@ elements.cancelSelection?.addEventListener("click", cancelSelectionMode);
 elements.addCountdowns?.addEventListener("click", () => changeCountdownCapacity(COUNTDOWN_STEP));
 elements.removeCountdowns?.addEventListener("click", () => changeCountdownCapacity(-COUNTDOWN_STEP));
 elements.countdownGrid?.addEventListener("click", (event) => {
+  if (state.massEditMode) return;
   const card = event.target.closest("[data-countdown-position]");
   if (!card) return;
   if (event.target.closest("[data-save-countdown]")) saveCountdown(card);
@@ -2514,6 +2882,12 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && state.selectionMode && !elements.entryDialog.open && !elements.deleteDialog.open) {
     cancelSelectionMode();
   }
+});
+
+window.addEventListener("beforeunload", (event) => {
+  if (!state.massEditMode || !state.massEditChanges.size) return;
+  event.preventDefault();
+  event.returnValue = "";
 });
 
 elements.entryDialog.addEventListener("close", () => {

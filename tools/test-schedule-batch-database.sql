@@ -540,4 +540,376 @@ begin
 end;
 $schedule_enhancements_test$;
 
+do $schedule_mass_edit_test$
+declare
+  v_marker text := 'codex-schedule-mass-edit-' || gen_random_uuid()::text;
+  v_student_id uuid;
+  v_week_start date := date_trunc('week', date '2049-03-01')::date;
+  v_first_updated timestamptz;
+  v_second_updated timestamptz;
+  v_third_updated timestamptz;
+  v_teacher_updated timestamptz;
+  v_admin_actor uuid := gen_random_uuid();
+  v_span_group uuid := gen_random_uuid();
+  v_span_updated timestamptz;
+  v_result jsonb;
+begin
+  insert into public.flashcard_students (name, password_hash, access)
+  values (v_marker, 'rollback-test-only', '{}'::jsonb)
+  returning id into v_student_id;
+
+  insert into public.schedule_entries (
+    student_id, schedule_date, slot_index, message, source, estimated_minutes
+  )
+  values (
+    v_student_id, v_week_start, 1, 'Mass Edit original one', 'student', 20
+  )
+  returning updated_at into v_first_updated;
+
+  insert into public.schedule_entries (
+    student_id, schedule_date, slot_index, message, source, estimated_minutes
+  )
+  values (
+    v_student_id, v_week_start, 2, 'Mass Edit original two', 'student', 30
+  )
+  returning updated_at into v_second_updated;
+
+  v_result := public._schedule_apply_entry_batch(
+    v_student_id,
+    v_week_start,
+    pg_catalog.jsonb_build_array(
+      pg_catalog.jsonb_build_object(
+        'action', 'upsert',
+        'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+        'slotIndex', 1,
+        'message', 'Mass Edit updated one',
+        'estimatedMinutes', 45,
+        'expectedUpdatedAt', v_first_updated
+      ),
+      pg_catalog.jsonb_build_object(
+        'action', 'delete',
+        'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+        'slotIndex', 2,
+        'message', null,
+        'estimatedMinutes', null,
+        'expectedUpdatedAt', v_second_updated
+      ),
+      pg_catalog.jsonb_build_object(
+        'action', 'upsert',
+        'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+        'slotIndex', 3,
+        'message', 'Mass Edit created three',
+        'estimatedMinutes', 60,
+        'expectedUpdatedAt', null
+      )
+    ),
+    'student',
+    null
+  );
+
+  if v_result <> pg_catalog.jsonb_build_object(
+    'appliedCount', 3,
+    'createdCount', 1,
+    'updatedCount', 1,
+    'deletedCount', 1
+  ) then
+    raise exception 'Unexpected Mass Edit result: %', v_result;
+  end if;
+
+  if not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 1
+      and entry.message = 'Mass Edit updated one'
+      and entry.estimated_minutes = 45
+  ) or exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 2
+  ) or not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 3
+      and entry.message = 'Mass Edit created three'
+      and entry.estimated_minutes = 60
+  ) then
+    raise exception 'Mass Edit did not apply its mixed operations';
+  end if;
+
+  select entry.updated_at
+  into v_first_updated
+  from public.schedule_entries entry
+  where entry.student_id = v_student_id
+    and entry.schedule_date = v_week_start
+    and entry.slot_index = 1;
+
+  select entry.updated_at
+  into v_third_updated
+  from public.schedule_entries entry
+  where entry.student_id = v_student_id
+    and entry.schedule_date = v_week_start
+    and entry.slot_index = 3;
+
+  begin
+    perform public._schedule_apply_entry_batch(
+      v_student_id,
+      v_week_start,
+      pg_catalog.jsonb_build_array(
+        pg_catalog.jsonb_build_object(
+          'action', 'upsert',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 1,
+          'message', 'This valid update must roll back',
+          'estimatedMinutes', 90,
+          'expectedUpdatedAt', v_first_updated
+        ),
+        pg_catalog.jsonb_build_object(
+          'action', 'upsert',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 2,
+          'message', 'This valid create must roll back',
+          'estimatedMinutes', 90,
+          'expectedUpdatedAt', null
+        ),
+        pg_catalog.jsonb_build_object(
+          'action', 'delete',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 3,
+          'message', null,
+          'estimatedMinutes', null,
+          'expectedUpdatedAt', v_third_updated - interval '1 second'
+        )
+      ),
+      'student',
+      null
+    );
+    raise exception 'Expected stale Mass Edit rejection';
+  exception when sqlstate '40001' then
+    null;
+  end;
+
+  if not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 1
+      and entry.message = 'Mass Edit updated one'
+      and entry.estimated_minutes = 45
+  ) or exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 2
+  ) or not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 3
+      and entry.message = 'Mass Edit created three'
+  ) then
+    raise exception 'Stale Mass Edit was not atomic';
+  end if;
+
+  select entry.updated_at
+  into v_first_updated
+  from public.schedule_entries entry
+  where entry.student_id = v_student_id
+    and entry.schedule_date = v_week_start
+    and entry.slot_index = 1;
+
+  -- An administrator may correct a student's entry without turning it into a
+  -- protected teacher assignment.
+  perform public._schedule_apply_entry_batch(
+    v_student_id,
+    v_week_start,
+    pg_catalog.jsonb_build_array(
+      pg_catalog.jsonb_build_object(
+        'action', 'upsert',
+        'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+        'slotIndex', 1,
+        'message', 'Admin corrected student-owned entry',
+        'estimatedMinutes', 50,
+        'expectedUpdatedAt', v_first_updated
+      )
+    ),
+    'admin',
+    v_admin_actor
+  );
+
+  if not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 1
+      and entry.message = 'Admin corrected student-owned entry'
+      and entry.source = 'student'
+      and entry.created_by_admin is null
+  ) then
+    raise exception 'Mass Edit transferred student-entry ownership to the administrator';
+  end if;
+
+  select entry.updated_at
+  into v_first_updated
+  from public.schedule_entries entry
+  where entry.student_id = v_student_id
+    and entry.schedule_date = v_week_start
+    and entry.slot_index = 1;
+
+  insert into public.schedule_entries (
+    student_id, schedule_date, slot_index, message, source, estimated_minutes
+  ) values (
+    v_student_id, v_week_start, 4, 'Protected teacher assignment', 'admin', 25
+  ) returning updated_at into v_teacher_updated;
+
+  -- A protected teacher edit must reject the entire student batch, including
+  -- a valid operation that was applied earlier in the function loop.
+  begin
+    perform public._schedule_apply_entry_batch(
+      v_student_id,
+      v_week_start,
+      pg_catalog.jsonb_build_array(
+        pg_catalog.jsonb_build_object(
+          'action', 'upsert',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 1,
+          'message', 'This ownership batch update must roll back',
+          'estimatedMinutes', 55,
+          'expectedUpdatedAt', v_first_updated
+        ),
+        pg_catalog.jsonb_build_object(
+          'action', 'upsert',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 4,
+          'message', 'Student must not edit this teacher assignment',
+          'estimatedMinutes', 30,
+          'expectedUpdatedAt', v_teacher_updated
+        )
+      ),
+      'student',
+      null
+    );
+    raise exception 'Expected protected Mass Edit rejection';
+  exception when sqlstate '42501' then
+    null;
+  end;
+
+  if not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 1
+      and entry.message = 'Admin corrected student-owned entry'
+  ) or not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 4
+      and entry.message = 'Protected teacher assignment'
+      and entry.source = 'admin'
+  ) then
+    raise exception 'Protected Mass Edit rejection was not atomic';
+  end if;
+
+  begin
+    perform public._schedule_apply_entry_batch(
+      v_student_id,
+      v_week_start,
+      pg_catalog.jsonb_build_array(
+        pg_catalog.jsonb_build_object(
+          'action', 'delete',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 4,
+          'message', null,
+          'estimatedMinutes', null,
+          'expectedUpdatedAt', v_teacher_updated
+        )
+      ),
+      'student',
+      null
+    );
+    raise exception 'Expected protected Mass Edit delete rejection';
+  exception when sqlstate '42501' then
+    null;
+  end;
+
+  if not exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.schedule_date = v_week_start
+      and entry.slot_index = 4
+      and entry.message = 'Protected teacher assignment'
+  ) then
+    raise exception 'Protected teacher assignment was deleted by student Mass Edit';
+  end if;
+
+  insert into public.schedule_entries (
+    student_id, schedule_date, slot_index, message, source, span_group_id, updated_at
+  ) values
+    (
+      v_student_id, v_week_start, 5, 'Mass Edit span original',
+      'student', v_span_group, now()
+    ),
+    (
+      v_student_id, v_week_start + 1, 5, 'Mass Edit span original',
+      'student', v_span_group, now() + interval '1 second'
+    );
+
+  select entry.updated_at
+  into v_span_updated
+  from public.schedule_entries entry
+  where entry.student_id = v_student_id
+    and entry.schedule_date = v_week_start
+    and entry.slot_index = 5;
+
+  -- The second member's later version simulates a change in another session
+  -- without changing the clicked member. The whole edit must be rejected.
+  begin
+    perform public._schedule_apply_entry_batch(
+      v_student_id,
+      v_week_start,
+      pg_catalog.jsonb_build_array(
+        pg_catalog.jsonb_build_object(
+          'action', 'upsert',
+          'scheduleDate', pg_catalog.to_char(v_week_start, 'YYYY-MM-DD'),
+          'slotIndex', 5,
+          'message', 'Stale span edit must not apply',
+          'estimatedMinutes', 40,
+          'expectedUpdatedAt', v_span_updated
+        )
+      ),
+      'student',
+      null
+    );
+    raise exception 'Expected stale Mass Edit span rejection';
+  exception when sqlstate '40001' then
+    null;
+  end;
+
+  if exists (
+    select 1
+    from public.schedule_entries entry
+    where entry.student_id = v_student_id
+      and entry.span_group_id = v_span_group
+      and entry.message <> 'Mass Edit span original'
+  ) then
+    raise exception 'Stale Mass Edit span overwrote another member change';
+  end if;
+
+  raise notice 'Schedule Mass Edit database smoke test passed';
+end;
+$schedule_mass_edit_test$;
+
 rollback;
