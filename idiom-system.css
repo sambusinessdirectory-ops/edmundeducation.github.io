@@ -269,39 +269,6 @@ body > .site-header.edmund-system-header {
   letter-spacing: .13em;
 }
 
-.hero-symbol {
-  align-self: center;
-  margin: 34px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  transform: rotate(-2deg);
-}
-
-.hero-symbol span {
-  min-width: clamp(126px, 14vw, 202px);
-  min-height: clamp(92px, 9vw, 132px);
-  border: 1px solid rgba(255, 255, 255, .42);
-  border-radius: 28px;
-  padding: 18px;
-  display: grid;
-  place-items: center;
-  color: #8f2013;
-  background: linear-gradient(145deg, #fffdf5, #ffe09f);
-  box-shadow: 0 18px 35px rgba(94, 25, 12, .26), inset 0 -7px 0 rgba(232, 74, 27, .13);
-  font-size: clamp(25px, 3.6vw, 48px);
-  font-weight: 900;
-  letter-spacing: -.02em;
-}
-
-.hero-symbol i {
-  color: #fff0c7;
-  font-size: clamp(28px, 3vw, 42px);
-  font-style: normal;
-  font-weight: 900;
-}
-
 .student-label {
   width: max-content;
   margin: 0 0 11px;
@@ -323,7 +290,7 @@ body > .site-header.edmund-system-header {
 
 .hero-copy h1 span {
   color: #ffd26a;
-  font-size: .56em;
+  font-size: .84em;
   letter-spacing: -.01em;
 }
 
@@ -685,6 +652,11 @@ body > .site-header.edmund-system-header {
 
 .lesson-choice h2 { position: relative; z-index: 1; margin: 0; font-size: clamp(23px, 2.25vw, 33px); line-height: 1.25; }
 .lesson-choice h2 span { display: block; margin-top: 7px; color: var(--muted); font-size: 13px; font-weight: 700; }
+.lesson-choice:has(.lesson-choice-illustration) h2 span {
+  margin-top: 6px;
+  font-size: .84em;
+  line-height: 1.18;
+}
 .lesson-choice[data-tone="bookmark"] h2 span { color: rgba(255, 255, 255, .72); }
 .choice-meta { position: relative; z-index: 1; display: flex; gap: 9px; flex-wrap: wrap; }
 .choice-meta span { border-radius: 999px; padding: 5px 10px; color: var(--muted); background: rgba(255, 237, 214, .88); font-size: 11px; font-weight: 800; }
@@ -988,6 +960,14 @@ body > .site-header.edmund-system-header {
 .info-page-header { max-width: 900px; }
 .info-page-header .page-label { color: var(--accent-text); font-size: 12px; font-weight: 900; letter-spacing: .13em; }
 .info-page-header h2 { margin: 7px 0 0; color: var(--navy-deep); font-size: clamp(30px, 4vw, 50px); line-height: 1.15; }
+.info-page-header h2 small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: .56em;
+  font-weight: 750;
+  letter-spacing: -.01em;
+}
 .info-page-header p { margin: 12px 0 0; color: var(--muted); }
 
 .formula-card {
@@ -1010,8 +990,26 @@ body > .site-header.edmund-system-header {
 .example-block p { margin: 7px 0 0; color: var(--ink); font-size: clamp(18px, 2.4vw, 27px); font-weight: 750; }
 .example-block p:last-child { color: var(--muted); font-size: 15px; font-weight: 600; }
 .meaning-block { margin-top: 24px; border: 1px solid rgba(214, 72, 25, .18); border-radius: 16px; padding: 18px 20px; background: rgba(255, 239, 216, .88); }
-.meaning-block strong { display: block; color: var(--violet); font-size: 11px; letter-spacing: .1em; }
+.meaning-block h3 { margin: 0; color: var(--navy-deep); font-size: 20px; }
+.meaning-block h3 small { display: block; margin-top: 2px; color: var(--muted); font-size: 11px; letter-spacing: .08em; }
 .meaning-block p { margin: 8px 0 0; color: var(--ink); font-size: 15px; font-weight: 650; line-height: 1.7; }
+.meaning-block .chinese-primary { color: var(--navy); font-size: clamp(16px, 1.6vw, 19px); font-weight: 800; }
+.meaning-block .english-secondary { color: var(--muted); font-size: 14px; font-weight: 600; }
+
+.chinese-primary {
+  color: var(--navy);
+  font-size: clamp(16px, 1.6vw, 19px);
+  font-weight: 800;
+  line-height: 1.65;
+}
+
+.english-secondary {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.65;
+}
 
 .meaning-list,
 .teaching-list {
@@ -1022,6 +1020,15 @@ body > .site-header.edmund-system-header {
 
 .meaning-list li,
 .teaching-list li { margin: 5px 0; }
+
+.bilingual-list {
+  margin: 12px 0 0;
+  padding-left: 1.3em;
+}
+
+.bilingual-list li { margin: 9px 0; color: var(--navy); }
+.bilingual-list strong { display: block; font-size: 16px; line-height: 1.5; }
+.bilingual-list small { display: block; margin-top: 1px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 
 .lesson-prose-grid {
   margin-top: 28px;
@@ -1052,15 +1059,15 @@ body > .site-header.edmund-system-header {
 .origin-card h3 small {
   display: block;
   margin-top: 2px;
-  color: var(--accent-text);
+  color: var(--muted);
   font-size: 11px;
   letter-spacing: .06em;
 }
 
 .lesson-prose-card p,
 .origin-card p { margin: 10px 0 0; }
-.lesson-prose-card p + p,
-.origin-card p + p { color: var(--muted); }
+.lesson-prose-card .english-secondary,
+.origin-card .english-secondary { color: var(--muted); }
 
 .form-table {
   width: 100%;
@@ -1080,7 +1087,8 @@ body > .site-header.edmund-system-header {
 }
 
 .form-table th { color: var(--navy); background: #fff1df; font-size: 12px; }
-.form-table td:first-child { width: 24%; color: var(--accent-text); font-weight: 900; }
+.form-table th small { display: block; margin-top: 1px; color: var(--muted); font-size: 10px; }
+.form-table td:first-child { width: 24%; color: var(--navy); font-weight: 900; }
 
 .specific-form-list {
   margin: 27px 0 0;
@@ -1127,7 +1135,7 @@ body > .site-header.edmund-system-header {
   font: 800 15px/1.5 "Edmund Serif TC", serif;
 }
 .specific-form-card p { margin: 11px 0 0; }
-.specific-form-card p + p { color: var(--muted); }
+.specific-form-card .english-secondary { color: var(--muted); }
 
 .origin-memory {
   margin-top: 16px;
@@ -1180,17 +1188,30 @@ body > .site-header.edmund-system-header {
 .benefit-card h3,
 .rule-card h3 { margin: 0 0 8px; color: var(--navy-deep); font-size: 18px; overflow-wrap: anywhere; word-break: break-word; }
 .benefit-card h3 small,
-.rule-card h3 small { display: block; margin-top: 2px; color: var(--accent-text); font-size: 11px; }
+.rule-card h3 small { display: block; margin-top: 2px; color: var(--muted); font-size: 11px; }
 .benefit-card .chinese,
-.rule-card .chinese { margin-top: 7px; color: var(--navy); font-size: clamp(16px, 1.6vw, 18px); font-weight: 800; line-height: 1.65; }
+.rule-card .chinese { color: var(--navy); font-size: clamp(16px, 1.6vw, 18px); font-weight: 800; line-height: 1.65; }
 .benefit-card .english,
-.rule-card .english { color: var(--muted); font-size: 14px; font-weight: 600; line-height: 1.65; }
+.rule-card .english { margin-top: 7px; color: var(--muted); font-size: 14px; font-weight: 600; line-height: 1.65; }
 .benefit-card .examples,
 .rule-card .examples { margin-top: 10px; display: grid; gap: 6px; }
 .benefit-card .examples code,
-.rule-card .examples code { width: fit-content; max-width: 100%; border-radius: 8px; padding: 5px 9px; color: var(--coral); background: var(--coral-soft); white-space: normal; overflow-wrap: anywhere; word-break: break-word; font-family: inherit; font-weight: 800; }
-.benefit-card .examples span,
-.rule-card .examples span { color: var(--muted); font-size: 12px; }
+.rule-card .examples code {
+  width: fit-content;
+  max-width: 100%;
+  padding: 0;
+  color: var(--ink);
+  background: transparent;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.benefit-card .examples > span,
+.rule-card .examples > span { color: var(--muted); font-size: 12px; }
 
 .lesson-navigation { margin-top: 28px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
 .lesson-navigation .primary-button,
@@ -1300,7 +1321,7 @@ body > .site-header.edmund-system-header {
 .multi-answer-reveal { margin-top: 8px; display: grid; gap: 11px; }
 .multi-answer-reveal > div { border-left: 3px solid rgba(232, 74, 27, .22); padding-left: 12px; }
 .multi-answer-reveal strong { color: var(--accent-text); font-size: 12px; }
-.target-highlight { color: #d32727; font-weight: 900; text-decoration: underline; text-decoration-color: rgba(211, 39, 39, .24); text-decoration-thickness: 4px; text-underline-offset: 3px; }
+.target-highlight { color: #2468c9; font-weight: 900; text-decoration: underline; text-decoration-color: rgba(36, 104, 201, .22); text-decoration-thickness: 3px; text-underline-offset: 3px; }
 
 .exercise-actions {
   position: sticky;
@@ -1466,8 +1487,6 @@ body > .site-header.edmund-system-header {
   .admin-list-panel,
   .admin-detail-panel { border-radius: 20px; padding: 22px; }
   .login-hero { min-height: 510px; }
-  .hero-symbol { width: 100%; margin: 28px 0; gap: 9px; }
-  .hero-symbol span { min-width: min(35vw, 160px); min-height: 86px; border-radius: 20px; padding: 13px; }
   .hero-copy h1 { font-size: 45px; }
   .dashboard-hero,
   .admin-hero { align-items: flex-start; flex-direction: column; }
@@ -1520,9 +1539,6 @@ body > .site-header.edmund-system-header {
 }
 
 @media (max-width: 430px) {
-  .hero-symbol { gap: 5px; }
-  .hero-symbol span { min-width: 0; min-height: 78px; flex: 1 1 0; padding: 10px 7px; font-size: clamp(20px, 7.4vw, 27px); }
-  .hero-symbol i { font-size: 20px; }
   .hero-copy h1 { font-size: 39px; }
   .login-heading { grid-template-columns: 1fr; }
   .section-number { width: 39px; height: 39px; }

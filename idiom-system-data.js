@@ -69,21 +69,6 @@
           "打開局面",
           "踏出第一步",
           "帶動其他人參與"
-        ],
-        "noteEn": "The expression does not simply mean begin. It usually highlights the first action that creates movement or progress. Cambridge describes it as beginning an activity, particularly one involving other people, while Merriam-Webster defines the wider family of expressions as beginning an activity or process."
-      },
-      "communication": {
-        "en": [
-          "identify the person or action that begins a process",
-          "volunteer to take the first step",
-          "encourage a group to begin",
-          "explain what caused a discussion, project or campaign to move forward"
-        ],
-        "zh": [
-          "指出誰或甚麼行動啟動了一個過程；",
-          "主動表示自己願意踏出第一步；",
-          "鼓勵一群人開始行動；",
-          "說明甚麼事情令討論、項目或活動正式展開。"
         ]
       },
       "register": {
@@ -463,8 +448,6 @@
       "origin": {
         "statusEn": "Gradual Development; Exact First Use Uncertain",
         "statusZh": "逐漸形成；確切首次用法不明",
-        "imageEn": "The expression creates a simple picture: a ball remains still until somebody gives it the first push. Once it begins rolling, movement has started and can continue.",
-        "imageZh": "這個表達帶出一個簡單畫面：球在有人推動前會保持靜止；當有人把球推動後，整個活動便會開始，並可以繼續發展。",
         "history": [
           {
             "titleEn": "The Historical Background",

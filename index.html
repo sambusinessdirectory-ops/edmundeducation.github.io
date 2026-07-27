@@ -774,16 +774,12 @@
     .idiom-system-card {
       --category-key-lip: #c53b16;
       --category-key-shadow: rgba(160,48,17,0.28);
-      color: #5b160f;
-      border-color: rgba(218,62,20,0.34);
-      background:
-        linear-gradient(90deg, transparent 0 35px, rgba(190,58,33,0.24) 36px, transparent 38px),
-        repeating-linear-gradient(180deg, transparent 0 27px, rgba(232,74,27,0.11) 28px, transparent 29px),
-        radial-gradient(circle at 84% 18%, rgba(255,226,92,0.50), transparent 31%),
-        linear-gradient(145deg, #fffaf0 0%, #ffe1a4 58%, #ffad45 100%);
+      color: #fff;
+      border-color: rgba(255,255,255,0.38);
+      background: linear-gradient(145deg, #b52216 0%, #ed471b 52%, #ffa51f 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.90),
-        inset 0 -8px 0 rgba(146,35,14,0.15),
+        inset 0 2px 0 rgba(255,255,255,0.52),
+        inset 0 -8px 0 rgba(146,35,14,0.20),
         0 8px 0 #c53b16,
         0 22px 34px rgba(160,48,17,0.24);
       overflow: hidden;
@@ -791,69 +787,29 @@
 
     .idiom-system-card::before {
       z-index: 5;
-      color: rgba(91,22,15,0.35);
-      text-shadow: 0 1px 0 rgba(255,255,255,0.45);
+      color: rgba(255,255,255,0.48);
+      text-shadow: 0 2px 0 rgba(91,22,15,0.20);
     }
 
     .idiom-system-card::after { display: none; }
 
     .idiom-system-card:hover,
     .idiom-system-card:focus-visible {
-      background:
-        linear-gradient(90deg, transparent 0 35px, rgba(190,58,33,0.30) 36px, transparent 38px),
-        repeating-linear-gradient(180deg, transparent 0 27px, rgba(232,74,27,0.15) 28px, transparent 29px),
-        radial-gradient(circle at 84% 18%, rgba(255,235,124,0.60), transparent 31%),
-        linear-gradient(145deg, #fffdf6 0%, #ffd98d 58%, #ff9d2b 100%);
+      background: linear-gradient(145deg, #a91d13 0%, #e83f16 50%, #ff9418 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.94),
-        inset 0 -8px 0 rgba(146,35,14,0.17),
+        inset 0 2px 0 rgba(255,255,255,0.58),
+        inset 0 -8px 0 rgba(146,35,14,0.22),
         0 12px 0 #c53b16,
         0 30px 46px rgba(160,48,17,0.31);
-    }
-
-    .idiom-wordmark {
-      position: absolute;
-      top: clamp(17px, 1.2vw, 22px);
-      left: clamp(20px, 1.5vw, 27px);
-      z-index: 1;
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      color: #8f2013;
-      pointer-events: none;
-      transform: rotate(-2deg);
-    }
-
-    .idiom-wordmark span {
-      min-width: clamp(58px, 4.4vw, 74px);
-      border: 1px solid rgba(169,47,23,0.31);
-      border-radius: 9px;
-      padding: 9px 10px;
-      display: grid;
-      place-items: center;
-      background: rgba(255,255,255,0.88);
-      box-shadow: 0 4px 0 rgba(197,59,22,0.13);
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(11px, 0.78vw, 14px);
-      font-weight: 900;
-      letter-spacing: 0.08em;
-    }
-
-    .idiom-wordmark i {
-      color: #c53b16;
-      font-size: clamp(17px, 1.25vw, 23px);
-      font-style: normal;
-      font-weight: 900;
     }
 
     .idiom-system-card .category-name {
       z-index: 3;
       max-width: 92%;
-      margin-top: clamp(76px, 5.4vw, 90px);
-      color: #5b160f;
-      font-size: clamp(20px, 1.13vw, 25px);
+      color: #fff;
+      font-size: clamp(22px, 1.28vw, 28px);
       line-height: 1.07;
-      text-shadow: 0 1px 0 rgba(255,255,255,0.68);
+      text-shadow: 0 2px 0 rgba(91,22,15,0.22), 0 10px 20px rgba(91,22,15,0.24);
     }
 
     .schedule-system-card {
@@ -1722,7 +1678,6 @@
         </a>
 
         <a class="category idiom-system-card" href="idiom-system.html" aria-label="(學生使用) 英文慣用語 Idiom 學習系統">
-          <span class="idiom-wordmark" aria-hidden="true"><span>START</span><i>→</i><span>ROLL</span></span>
           <span class="category-name">(學生使用)<br>英文慣用語<br>Idiom<br>學習系統</span>
         </a>
 

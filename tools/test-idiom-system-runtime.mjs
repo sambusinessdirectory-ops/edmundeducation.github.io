@@ -20,6 +20,53 @@ const tests = [];
 const test = (name, run) => tests.push({ name, run });
 const occurrences = (text, fragment) => String(text).split(String(fragment)).length - 1;
 
+function renderedText(value) {
+  return String(value || "")
+    .replace(/<[^>]*>/g, "")
+    .replaceAll("&amp;", "&")
+    .replaceAll("&lt;", "<")
+    .replaceAll("&gt;", ">")
+    .replaceAll("&quot;", '"')
+    .replaceAll("&#039;", "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function assertChineseBeforeEnglish(renderedHtml, chinese, english, label) {
+  const text = renderedText(renderedHtml);
+  const chineseAt = text.indexOf(chinese);
+  const englishAt = text.indexOf(english);
+  assert.ok(chineseAt >= 0, `${label}: Chinese material must render`);
+  assert.ok(englishAt >= 0, `${label}: English material must render`);
+  assert.ok(chineseAt < englishAt, `${label}: Chinese must precede English`);
+}
+
+function cssColorValue(source, ruleBody) {
+  let value = ruleBody.match(/(?:^|;)\s*color:\s*([^;]+)/i)?.[1]?.trim() || "";
+  const variable = value.match(/^var\((--[\w-]+)\)$/)?.[1];
+  if (variable) {
+    const escaped = variable.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    value = source.match(new RegExp(`${escaped}\\s*:\\s*([^;]+)`))?.[1]?.trim() || value;
+  }
+  return value;
+}
+
+function rgbFromCssColor(value) {
+  const hex = String(value).match(/^#([\da-f]{3}|[\da-f]{6})$/i)?.[1];
+  if (hex) {
+    const expanded = hex.length === 3 ? [...hex].map((digit) => digit + digit).join("") : hex;
+    return [0, 2, 4].map((offset) => Number.parseInt(expanded.slice(offset, offset + 2), 16));
+  }
+  const rgb = String(value).match(/^rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)/i);
+  return rgb ? rgb.slice(1, 4).map(Number) : null;
+}
+
+function assertBlueColor(value, label) {
+  const rgb = rgbFromCssColor(value);
+  assert.ok(rgb, `${label}: expected a literal or resolved blue colour, received ${value || "nothing"}`);
+  assert.ok(rgb[2] > rgb[0] && rgb[2] >= rgb[1], `${label}: ${value} is not blue-dominant`);
+}
+
 function loadContent() {
   const sandbox = { window: {} };
   vm.createContext(sandbox);
@@ -29,6 +76,9 @@ function loadContent() {
 
 const content = loadContent();
 const lesson = content.lessons[0];
+const rejectedMeaningNote = "The expression does not simply mean begin. It usually highlights the first action that creates movement or progress. Cambridge describes it as beginning an activity, particularly one involving other people, while Merriam-Webster defines the wider family of expressions as beginning an activity or process.";
+const rejectedOriginImageEn = "The expression creates a simple picture: a ball remains still until somebody gives it the first push. Once it begins rolling, movement has started and can continue.";
+const rejectedOriginImageZh = "這個表達帶出一個簡單畫面：球在有人推動前會保持靜止；當有人把球推動後，整個活動便會開始，並可以繼續發展。";
 
 function makeElement(seed = {}) {
   const attributes = new Map();
@@ -372,23 +422,194 @@ test("Pages 1, 5, and 7 render cleanly without duplicated titles or object coerc
   sut.openLesson(lesson.id, { page: 1, attempt: attemptSeed() });
 
   const pageOne = sut.elements.lessonContent.innerHTML;
-  assert.equal(occurrences(pageOne, "<h2>Formula(s) + Example(s) 句式及例子</h2>"), 1);
+  assert.equal(occurrences(renderedText(pageOne), "Formula(s) + Example(s)"), 1);
+  assert.equal(occurrences(renderedText(pageOne), "句式及例子"), 1);
   assert.equal(occurrences(pageOne, lesson.examples[0].zh), 1);
   assert.doesNotMatch(pageOne, /\[object Object\]/);
 
   sut.setLessonPage(5);
   const pageFive = sut.elements.lessonContent.innerHTML;
-  assert.equal(occurrences(pageFive, "<h2>Benefits 表達好處</h2>"), 1);
+  assert.equal(occurrences(renderedText(pageFive), "Benefits"), 1);
+  assert.equal(occurrences(renderedText(pageFive), "表達好處"), 1);
   assert.equal(occurrences(pageFive, lesson.benefits[0].titleEn), 1);
   assert.equal(occurrences(pageFive, lesson.benefits[0].titleZh), 1);
   assert.doesNotMatch(pageFive, /\[object Object\]/);
 
   sut.setLessonPage(7);
   const pageSeven = sut.elements.lessonContent.innerHTML;
-  assert.equal(occurrences(pageSeven, "<h2>Important Rules 重要規則</h2>"), 1);
+  assert.equal(occurrences(renderedText(pageSeven), "Important Rules"), 1);
+  assert.equal(occurrences(renderedText(pageSeven), "重要規則"), 1);
   assert.equal(occurrences(pageSeven, lesson.rules[0].titleEn), 1);
   assert.equal(occurrences(pageSeven, lesson.rules[0].titleZh), 1);
   assert.doesNotMatch(pageSeven, /\[object Object\]/);
+});
+
+test("only the specifically rejected lesson content is removed from the rendered UI", () => {
+  const { sut } = createFrontendHarness();
+  const publicLessonData = JSON.stringify(lesson);
+  assert.ok(!publicLessonData.includes(rejectedMeaningNote));
+  assert.ok(!publicLessonData.includes(rejectedOriginImageEn));
+  assert.ok(!publicLessonData.includes(rejectedOriginImageZh));
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 1, attempt: attemptSeed() });
+
+  const pageOne = renderedText(sut.elements.lessonContent.innerHTML);
+  assert.ok(pageOne.includes(lesson.meaning.zh), "the retained Chinese core meaning must remain");
+  assert.ok(pageOne.includes(lesson.meaning.en), "the retained English core meaning must remain");
+  assert.ok(pageOne.includes(lesson.meaning.naturalZh[0]), "the retained natural Chinese meanings must remain");
+  assert.ok(!Object.hasOwn(lesson.meaning, "noteEn"), "the rejected meaning note must not remain in public lesson data");
+  assert.ok(!pageOne.includes(rejectedMeaningNote), "the rejected long 'does not simply mean begin' paragraph must be absent");
+  assert.doesNotMatch(pageOne, /Communicative Function|溝通功能/i);
+  assert.ok(!Object.hasOwn(lesson, "communication"), "the removed Communicative Function data block must be absent");
+
+  sut.setLessonPage(6);
+  const pageSix = renderedText(sut.elements.lessonContent.innerHTML);
+  assert.doesNotMatch(pageSix, /The Original Image|原來的畫面/i);
+  assert.ok(!Object.hasOwn(lesson.origin, "imageEn"));
+  assert.ok(!Object.hasOwn(lesson.origin, "imageZh"));
+  assert.ok(!pageSix.includes(rejectedOriginImageEn));
+  assert.ok(!pageSix.includes(rejectedOriginImageZh));
+  assert.ok(pageSix.includes(lesson.origin.statusZh), "origin status must remain after removing the image block");
+  assert.ok(pageSix.includes(lesson.origin.history[0].zh), "historical content must remain after removing the image block");
+  assert.ok(pageSix.includes(lesson.origin.memoryZh), "the memory link must remain after removing the image block");
+});
+
+test("lesson Pages 1–7 consistently present Chinese before their English counterpart", () => {
+  const { sut } = createFrontendHarness();
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 1, attempt: attemptSeed() });
+
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.meaning.zh,
+    lesson.meaning.en,
+    "Page 1 core meaning"
+  );
+  sut.setLessonPage(2);
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.register.summaryZh,
+    lesson.register.summaryEn,
+    "Page 2 register summary"
+  );
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.register.formalZh,
+    lesson.register.formalEn,
+    "Page 2 formal alternative"
+  );
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.register.contextsZh[0],
+    lesson.register.contextsEn[0],
+    "Page 2 natural contexts"
+  );
+
+  sut.setLessonPage(3);
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.fixedVariable.fixedZh,
+    lesson.fixedVariable.fixedEn,
+    "Page 3 fixed part"
+  );
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.fixedVariable.variableZh,
+    lesson.fixedVariable.variableEn,
+    "Page 3 variable part"
+  );
+
+  sut.setLessonPage(4);
+  const firstForm = lesson.specificForms[0];
+  assertChineseBeforeEnglish(sut.elements.lessonContent.innerHTML, firstForm.titleZh, firstForm.titleEn, "Page 4 form title");
+  assertChineseBeforeEnglish(sut.elements.lessonContent.innerHTML, firstForm.descriptionZh, firstForm.descriptionEn, "Page 4 form explanation");
+  const formWithNote = lesson.specificForms.find((form) => form.notes?.some((note) => note.zh && note.en));
+  assert.ok(formWithNote, "test material must include a bilingual Page 4 note");
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    formWithNote.notes[0].zh,
+    formWithNote.notes[0].en,
+    "Page 4 grammar note"
+  );
+
+  sut.setLessonPage(5);
+  const firstBenefit = lesson.benefits[0];
+  const firstBenefitCard = sut.elements.lessonContent.innerHTML.match(/<li class="benefit-card"[\s\S]*?<\/li>/)?.[0] || "";
+  assertChineseBeforeEnglish(firstBenefitCard, firstBenefit.titleZh, firstBenefit.titleEn, "Page 5 benefit title");
+  assertChineseBeforeEnglish(firstBenefitCard, firstBenefit.zh, firstBenefit.en, "Page 5 benefit explanation");
+  assert.ok(
+    firstBenefitCard.indexOf('class="chinese"') < firstBenefitCard.indexOf('class="english"'),
+    "Page 5 must use Chinese-primary then English-secondary renderer classes"
+  );
+  sut.setLessonPage(6);
+  assertChineseBeforeEnglish(sut.elements.lessonContent.innerHTML, lesson.origin.statusZh, lesson.origin.statusEn, "Page 6 origin status");
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.origin.history[0].titleZh,
+    lesson.origin.history[0].titleEn,
+    "Page 6 history title"
+  );
+  assertChineseBeforeEnglish(
+    sut.elements.lessonContent.innerHTML,
+    lesson.origin.history[0].zh,
+    lesson.origin.history[0].en,
+    "Page 6 history explanation"
+  );
+  assertChineseBeforeEnglish(sut.elements.lessonContent.innerHTML, lesson.origin.memoryZh, lesson.origin.memoryEn, "Page 6 memory link");
+
+  sut.setLessonPage(7);
+  const firstRule = lesson.rules[0];
+  const firstRuleCard = sut.elements.lessonContent.innerHTML.match(/<li class="rule-card"[\s\S]*?<\/li>/)?.[0] || "";
+  assertChineseBeforeEnglish(firstRuleCard, firstRule.titleZh, firstRule.titleEn, "Page 7 rule title");
+  assertChineseBeforeEnglish(firstRuleCard, firstRule.zh, firstRule.en, "Page 7 rule explanation");
+  assert.ok(
+    firstRuleCard.indexOf('class="chinese"') < firstRuleCard.indexOf('class="english"'),
+    "Page 7 must use Chinese-primary then English-secondary renderer classes"
+  );
+});
+
+test("Benefits and Rules colour only nested idiom spans blue, never whole sentences", () => {
+  const { sut } = createFrontendHarness();
+  authenticateStudent(sut);
+  sut.openLesson(lesson.id, { page: 5, attempt: attemptSeed() });
+  const pageFive = sut.elements.lessonContent.innerHTML;
+  sut.setLessonPage(7);
+  const pageSeven = sut.elements.lessonContent.innerHTML;
+  const pages = `${pageFive}${pageSeven}`;
+
+  assert.doesNotMatch(pages, /<(?:p|code)[^>]*class="[^"]*target-highlight/i);
+  const highlighted = [...pages.matchAll(/<span[^>]*class="[^"]*\btarget-highlight\b[^"]*"[^>]*>([\s\S]*?)<\/span>/gi)]
+    .map((match) => renderedText(match[1]));
+  assert.ok(highlighted.length >= 2, "Benefits and Rules must visibly mark their relevant idiom phrases");
+  const idiomOnly = /^(?:(?:has|have|had|will|would|can|could|should|shall|may|might)\s+)?(?:start|starts|started|starting|get|gets|got|getting|set|sets|setting|keep|keeps|kept|keeping)\s+the ball rolling$/i;
+  highlighted.forEach((text) => {
+    assert.match(text, idiomOnly, `highlight must contain only an idiom phrase, not the whole sentence: ${text}`);
+  });
+
+  const benefitExample = pageFive.match(/<code[^>]*>[^<]*Idiomatic:\s*Maya[\s\S]*?<\/code>/i)?.[0] || "";
+  assert.ok(benefitExample, "the representative idiomatic Benefits example must render");
+  assert.match(benefitExample, /Maya\s*<span[^>]*target-highlight[^>]*>started the ball rolling<\/span>\s*by asking a question/i);
+  assert.ok(renderedText(benefitExample).length > "started the ball rolling".length, "the surrounding Benefits sentence must stay outside the highlight");
+
+  const ruleExample = pageSeven.match(/<code[^>]*>[^<]*She[\s\S]*?starts the ball rolling[\s\S]*?<\/code>/i)?.[0] || "";
+  assert.ok(ruleExample, "the representative Rules sentence must render");
+  assert.match(ruleExample, /She\s*<span[^>]*target-highlight[^>]*>starts the ball rolling<\/span>/i);
+  assert.ok(renderedText(ruleExample).length > "starts the ball rolling".length, "the surrounding Rules sentence must stay outside the highlight");
+
+  const targetRule = css.match(/\.target-highlight\s*\{([^}]*)\}/i)?.[1] || "";
+  assert.ok(targetRule, "the idiom target highlight style must exist");
+  assertBlueColor(cssColorValue(css, targetRule), "idiom target highlight");
+
+  const exampleRule = css.match(/\.benefit-card \.examples code,\s*\.rule-card \.examples code\s*\{([^}]*)\}/i)?.[1]
+    || css.match(/\.benefit-card \.examples code\s*\{([^}]*)\}/i)?.[1]
+    || "";
+  assert.ok(exampleRule, "Benefits and Rules example sentences need an explicit neutral style");
+  assert.doesNotMatch(exampleRule, /color:\s*var\(--(?:coral|blue|accent-text)\)/i);
+  const exampleColour = cssColorValue(css, exampleRule);
+  const exampleRgb = rgbFromCssColor(exampleColour);
+  if (exampleRgb) {
+    assert.ok(!(exampleRgb[2] > exampleRgb[0] && exampleRgb[2] >= exampleRgb[1]), "whole example sentences must not be blue");
+  }
 });
 
 test("correct and wrong answers support immediate correction, explicit exit, and successful correction", async () => {

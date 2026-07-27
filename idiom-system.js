@@ -1208,12 +1208,51 @@ function updateLessonStepper() {
   if (exerciseVisible) elements.lessonRound.textContent = `第 ${state.exercise.round} 輪 · ${state.exercise.correctIds.length}/${getLesson()?.questions?.length || 0} 題完成`;
 }
 
-function infoPageHeader(number, title, english, description = "") {
+function infoPageHeader(number, titleZh, titleEn, english, description = "") {
   return `<header class="info-page-header">
     <span class="page-label">PAGE ${escapeHtml(number)} · ${escapeHtml(english)}</span>
-    <h2>${escapeHtml(title)}</h2>
+    <h2>${escapeHtml(titleZh)}<small>${escapeHtml(titleEn)}</small></h2>
     ${description ? `<p>${escapeHtml(description)}</p>` : ""}
   </header>`;
+}
+
+function bilingualHeadingHtml(chinese, english) {
+  return `${escapeHtml(chinese || "")}${english ? `<small>${escapeHtml(english)}</small>` : ""}`;
+}
+
+function bilingualCopyHtml(chinese, english) {
+  return `${chinese ? `<p class="chinese-primary">${escapeHtml(chinese)}</p>` : ""}${english ? `<p class="english-secondary">${escapeHtml(english)}</p>` : ""}`;
+}
+
+function bilingualListHtml(chineseItems, englishItems) {
+  const count = Math.max(chineseItems.length, englishItems.length);
+  return `<ul class="bilingual-list">${Array.from({ length: count }, (_, index) => {
+    const chinese = chineseItems[index] || "";
+    const english = englishItems[index] || "";
+    return `<li>${chinese ? `<strong>${escapeHtml(chinese)}</strong>` : ""}${english ? `<small>${escapeHtml(english)}</small>` : ""}</li>`;
+  }).join("")}</ul>`;
+}
+
+function relevantExampleHtml(value, explicitHighlight = "") {
+  const full = String(value || "");
+  if (explicitHighlight) return highlightedAnswerHtml(full, explicitHighlight);
+  if (/^\s*Literal:/i.test(full)) return escapeHtml(full);
+  const pattern = /\b(?:start(?:s|ed|ing)?|get(?:s|ting|got)?|set(?:s|ting)?|keep(?:s|ing)?|kept)\s+the\s+ball\s+rolling\b/gi;
+  const matches = Array.from(full.matchAll(pattern));
+  if (!matches.length) return escapeHtml(full);
+  let cursor = 0;
+  let html = "";
+  matches.forEach((match) => {
+    const index = Number(match.index || 0);
+    html += escapeHtml(full.slice(cursor, index));
+    html += `<span class="target-highlight">${escapeHtml(match[0])}</span>`;
+    cursor = index + match[0].length;
+  });
+  return `${html}${escapeHtml(full.slice(cursor))}`;
+}
+
+function bilingualLearningNoteHtml(chinese, english) {
+  return `${chinese ? `<p class="chinese-primary">${escapeHtml(chinese)}</p>` : ""}${english ? `<p class="english-secondary">${relevantExampleHtml(english)}</p>` : ""}`;
 }
 
 function navHtml(page) {
@@ -1232,12 +1271,10 @@ function renderFormulaPage(lesson) {
     : [{ english: lesson.example, chinese: lesson.exampleZh }];
   const meaning = lesson.meaning || {};
   const naturalMeanings = Array.isArray(meaning.naturalZh) ? meaning.naturalZh : [];
-  const communicationEn = Array.isArray(lesson.communication?.en) ? lesson.communication.en : [];
-  const communicationZh = Array.isArray(lesson.communication?.zh) ? lesson.communication.zh : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(1, "Formula(s) + Example(s) 句式及例子", "CORE MEANING + FORMULA", "先掌握慣用語的核心意思、固定骨架及溝通功能。")}
+    ${infoPageHeader(1, "句式及例子", "Formula(s) + Example(s)", "CORE MEANING + FORMULA", "先掌握慣用語的核心意思及固定骨架。")}
     <section class="formula-card">
-      <span class="formula-label">FORMULA · 慣用語句式</span>
+      <span class="formula-label">慣用語句式 · FORMULA</span>
       <div class="formula-display">${formulaRows.filter((row) => row?.formula || typeof row === "string").map((row) => {
         const formula = typeof row === "string" ? row : row.formula;
         const label = typeof row === "string" ? "" : (row.labelZh || row.labelEn || "");
@@ -1245,28 +1282,15 @@ function renderFormulaPage(lesson) {
       }).join("")}</div>
       ${examples.filter((example) => example?.english || example?.en || example?.answer).map((example) => `
         <div class="example-block">
-          <strong>${escapeHtml(example.labelEn || "EXAMPLE")} · ${escapeHtml(example.labelZh || "例句")}</strong>
-          <p>${highlightedAnswerHtml(example.english || example.en || example.answer, example.highlight)}</p>
+          <strong>${escapeHtml(example.labelZh || "例句")} · ${escapeHtml(example.labelEn || "EXAMPLE")}</strong>
+          <p>${relevantExampleHtml(example.english || example.en || example.answer, example.highlight)}</p>
           <p>${escapeHtml(example.chinese || example.zh || example.answerZh || "")}</p>
         </div>`).join("")}
       <aside class="meaning-block">
-        <strong>CORE MEANING · 核心意思</strong>
-        ${meaning.en ? `<p>${escapeHtml(meaning.en)}</p>` : ""}
-        ${meaning.zh ? `<p>${escapeHtml(meaning.zh)}</p>` : ""}
+        <h3>核心意思<small>CORE MEANING</small></h3>
+        ${bilingualCopyHtml(meaning.zh, meaning.en)}
         ${naturalMeanings.length ? `<ul class="meaning-list">${naturalMeanings.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
-        ${meaning.noteEn ? `<p>${escapeHtml(meaning.noteEn)}</p>` : ""}
-        ${meaning.noteZh ? `<p>${escapeHtml(meaning.noteZh)}</p>` : ""}
       </aside>
-    </section>
-    <section class="lesson-prose-grid">
-      <article class="lesson-prose-card">
-        <h3>Communicative Function <small>溝通功能</small></h3>
-        <ul class="teaching-list">${communicationEn.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-      </article>
-      <article class="lesson-prose-card">
-        <h3>說話者使用這個慣用語，是為了 <small>COMMUNICATIVE FUNCTION</small></h3>
-        <ul class="teaching-list">${communicationZh.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-      </article>
     </section>
     ${navHtml(1)}
   </article>`;
@@ -1286,25 +1310,19 @@ function renderRegisterPage(lesson) {
   const contextsEn = Array.isArray(register.contextsEn) ? register.contextsEn : [];
   const contextsZh = Array.isArray(register.contextsZh) ? register.contextsZh : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(2, "Register and Tone 語域及語氣", "INFORMAL TO NEUTRAL", "了解這個慣用語最自然的場合，以及何時應改用較正式的字詞。")}
+    ${infoPageHeader(2, "語域及語氣", "Register and Tone", "INFORMAL TO NEUTRAL", "了解這個慣用語最自然的場合，以及何時應改用較正式的字詞。")}
     <section class="lesson-prose-grid">
       <article class="lesson-prose-card is-wide">
-        <h3>${escapeHtml(register.labelEn || "Informal to Neutral")} <small>${escapeHtml(register.labelZh || "非正式至中性")}</small></h3>
-        ${register.summaryEn ? `<p>${escapeHtml(register.summaryEn)}</p>` : ""}
-        ${register.summaryZh ? `<p>${escapeHtml(register.summaryZh)}</p>` : ""}
-      </article>
-      <article class="lesson-prose-card">
-        <h3>Especially Natural In <small>常見自然場合</small></h3>
-        <ul class="teaching-list">${contextsEn.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-      </article>
-      <article class="lesson-prose-card">
-        <h3>在以下情境尤其自然 <small>REGISTER</small></h3>
-        <ul class="teaching-list">${contextsZh.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+        <h3>${bilingualHeadingHtml(register.labelZh || "非正式至中性", register.labelEn || "Informal to Neutral")}</h3>
+        ${bilingualCopyHtml(register.summaryZh, register.summaryEn)}
       </article>
       <article class="lesson-prose-card is-wide">
-        <h3>More Formal Alternatives <small>較正式的替代字詞</small></h3>
-        ${register.formalEn ? `<p>${escapeHtml(register.formalEn)}</p>` : ""}
-        ${register.formalZh ? `<p>${escapeHtml(register.formalZh)}</p>` : ""}
+        <h3>常見自然場合 <small>Especially Natural In</small></h3>
+        ${bilingualListHtml(contextsZh, contextsEn)}
+      </article>
+      <article class="lesson-prose-card is-wide">
+        <h3>較正式的替代字詞 <small>More Formal Alternatives</small></h3>
+        ${bilingualCopyHtml(register.formalZh, register.formalEn)}
       </article>
     </section>
     ${navHtml(2)}
@@ -1315,23 +1333,21 @@ function renderFixedVariablePage(lesson) {
   const parts = lesson.fixedVariable || {};
   const forms = Array.isArray(parts.forms) ? parts.forms : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(3, "Fixed and Variable Parts 固定部分及可變部分", "WHAT STAYS + WHAT CHANGES", "固定 the ball rolling 的字序，並按主語、時態或情態動詞改變 start。")}
+    ${infoPageHeader(3, "固定部分及可變部分", "Fixed and Variable Parts", "WHAT STAYS + WHAT CHANGES", "固定 the ball rolling 的字序，並按主語、時態或情態動詞改變 start。")}
     <section class="lesson-prose-grid">
       <article class="lesson-prose-card">
-        <h3>Fixed Part <small>固定部分</small></h3>
+        <h3>固定部分 <small>Fixed Part</small></h3>
         <div class="formula-display"><p>${escapeHtml(parts.fixed || "the ball rolling")}</p></div>
-        ${parts.fixedEn ? `<p>${escapeHtml(parts.fixedEn)}</p>` : ""}
-        ${parts.fixedZh ? `<p>${escapeHtml(parts.fixedZh)}</p>` : ""}
+        ${bilingualCopyHtml(parts.fixedZh, parts.fixedEn)}
       </article>
       <article class="lesson-prose-card">
-        <h3>Variable Part <small>可變部分</small></h3>
-        ${parts.variableEn ? `<p>${escapeHtml(parts.variableEn)}</p>` : ""}
-        ${parts.variableZh ? `<p>${escapeHtml(parts.variableZh)}</p>` : ""}
+        <h3>可變部分 <small>Variable Part</small></h3>
+        ${bilingualCopyHtml(parts.variableZh, parts.variableEn)}
       </article>
     </section>
     <table class="form-table">
-      <thead><tr><th>Form · 形式</th><th>Example · 例句</th></tr></thead>
-      <tbody>${forms.map((row) => `<tr><td>${escapeHtml(row.form)}</td><td>${escapeHtml(row.example)}</td></tr>`).join("")}</tbody>
+      <thead><tr><th>形式<small>Form</small></th><th>例句<small>Example</small></th></tr></thead>
+      <tbody>${forms.map((row) => `<tr><td>${escapeHtml(row.form)}</td><td>${relevantExampleHtml(row.example)}</td></tr>`).join("")}</tbody>
     </table>
     ${navHtml(3)}
   </article>`;
@@ -1340,18 +1356,17 @@ function renderFixedVariablePage(lesson) {
 function renderSpecificFormsPage(lesson) {
   const forms = Array.isArray(lesson.specificForms) ? lesson.specificForms : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(4, "Formulas and All Specific Forms 所有特定句式", "EIGHT USEFUL FORMULAS", "由基本形式到 by、with、on、情態動詞及句首短語，逐一掌握八個常用句式。")}
+    ${infoPageHeader(4, "所有特定句式", "Formulas and All Specific Forms", "EIGHT USEFUL FORMULAS", "由基本形式到 by、with、on、情態動詞及句首短語，逐一掌握八個常用句式。")}
     <div class="specific-form-list">${forms.map((form, index) => `
       <article class="specific-form-card">
         <header>
           <span>${escapeHtml(form.number || index + 1)}</span>
-          <h3>${escapeHtml(form.titleEn || "")}<small>${escapeHtml(form.titleZh || "")}</small></h3>
+          <h3>${bilingualHeadingHtml(form.titleZh, form.titleEn)}</h3>
         </header>
         <code>${escapeHtml(form.formula || "")}</code>
-        ${form.descriptionEn ? `<p>${escapeHtml(form.descriptionEn)}</p>` : ""}
-        ${form.descriptionZh ? `<p>${escapeHtml(form.descriptionZh)}</p>` : ""}
-        ${(form.examples || []).map((example) => `<div class="example-block"><strong>EXAMPLE · 例句</strong><p>${escapeHtml(example.en || "")}</p><p>${escapeHtml(example.zh || "")}</p></div>`).join("")}
-        ${(form.notes || []).map((note) => `<div class="origin-memory"><p>${escapeHtml(note.en || "")}</p>${note.zh ? `<p>${escapeHtml(note.zh)}</p>` : ""}</div>`).join("")}
+        ${bilingualCopyHtml(form.descriptionZh, form.descriptionEn)}
+        ${(form.examples || []).map((example) => `<div class="example-block"><strong>例句 · EXAMPLE</strong><p>${relevantExampleHtml(example.en || "")}</p><p>${escapeHtml(example.zh || "")}</p></div>`).join("")}
+        ${(form.notes || []).map((note) => `<div class="origin-memory">${bilingualLearningNoteHtml(note.zh, note.en)}</div>`).join("")}
       </article>`).join("")}</div>
     ${navHtml(4)}
   </article>`;
@@ -1360,15 +1375,15 @@ function renderSpecificFormsPage(lesson) {
 function renderBenefitsPage(lesson) {
   const benefits = Array.isArray(lesson.benefits) ? lesson.benefits : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(5, "Benefits 表達好處", "WHY THIS IDIOM HELPS", "理解這個慣用語如何突出第一步、主動性、團隊合作及後續進展。")}
+    ${infoPageHeader(5, "表達好處", "Benefits", "WHY THIS IDIOM HELPS", "理解這個慣用語如何突出第一步、主動性、團隊合作及後續進展。")}
     <ol class="benefit-list">
       ${benefits.map((raw, index) => {
         const item = bilingualItem(raw);
         return `<li class="benefit-card"><span>${index + 1}</span><div>
-          ${(raw?.titleEn || raw?.titleZh) ? `<h3>${escapeHtml(raw.titleEn || "")}<small>${escapeHtml(raw.titleZh || "")}</small></h3>` : ""}
-          ${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}
+          ${(raw?.titleEn || raw?.titleZh) ? `<h3>${bilingualHeadingHtml(raw.titleZh, raw.titleEn)}</h3>` : ""}
           ${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}
-          ${(raw?.examples || []).map((example) => `<div class="examples"><code>${escapeHtml(example.en || example)}</code>${example.zh ? `<span>${escapeHtml(example.zh)}</span>` : ""}</div>`).join("")}
+          ${item.english ? `<p class="english">${relevantExampleHtml(item.english)}</p>` : ""}
+          ${(raw?.examples || []).map((example) => `<div class="examples"><code>${relevantExampleHtml(example.en || example, example.highlight)}</code>${example.zh ? `<span>${escapeHtml(example.zh)}</span>` : ""}</div>`).join("")}
         </div></li>`;
       }).join("")}
     </ol>
@@ -1380,22 +1395,16 @@ function renderOriginPage(lesson) {
   const origin = lesson.origin || {};
   const history = Array.isArray(origin.history) ? origin.history : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(6, "History and Origin 歷史及來源", "THE FIRST PUSH", "從球的第一下推動，理解這個慣用語如何發展成「踏出第一步」。")}
+    ${infoPageHeader(6, "歷史及來源", "History and Origin", "THE FIRST PUSH", "從球的第一下推動，理解這個慣用語如何發展成「踏出第一步」。")}
     <section class="lesson-prose-grid">
       <article class="origin-card">
-        <h3>Origin Status <small>來源可信度</small></h3>
-        <p>${escapeHtml(origin.statusEn || "")}</p>
-        <p>${escapeHtml(origin.statusZh || "")}</p>
+        <h3>來源可信度 <small>Origin Status</small></h3>
+        ${bilingualCopyHtml(origin.statusZh, origin.statusEn)}
       </article>
-      <article class="origin-card">
-        <h3>The Original Image <small>原來的畫面</small></h3>
-        <p>${escapeHtml(origin.imageEn || "")}</p>
-        <p>${escapeHtml(origin.imageZh || "")}</p>
-      </article>
-      ${history.map((item) => `<article class="origin-card is-wide"><h3>${escapeHtml(item.titleEn || "")}<small>${escapeHtml(item.titleZh || "")}</small></h3><p>${escapeHtml(item.en || "")}</p><p>${escapeHtml(item.zh || "")}</p></article>`).join("")}
+      ${history.map((item) => `<article class="origin-card is-wide"><h3>${bilingualHeadingHtml(item.titleZh, item.titleEn)}</h3>${bilingualCopyHtml(item.zh, item.en)}</article>`).join("")}
       <article class="origin-card is-wide">
-        <h3>Memory Link <small>記憶提示</small></h3>
-        <div class="origin-memory">${escapeHtml(origin.memoryEn || "")}<br>${escapeHtml(origin.memoryZh || "")}</div>
+        <h3>記憶提示 <small>Memory Link</small></h3>
+        <div class="origin-memory">${bilingualCopyHtml(origin.memoryZh, origin.memoryEn)}</div>
       </article>
     </section>
     ${navHtml(6)}
@@ -1405,16 +1414,16 @@ function renderOriginPage(lesson) {
 function renderRulesPage(lesson) {
   const rules = Array.isArray(lesson.rules) ? lesson.rules : [];
   elements.lessonContent.innerHTML = `<article class="info-page">
-    ${infoPageHeader(7, "Important Rules 重要規則", "TWELVE IMPORTANT REMINDERS", "留意固定字序、介詞、時態、邏輯主語、字面意思及自然使用情境。")}
+    ${infoPageHeader(7, "重要規則", "Important Rules", "TWELVE IMPORTANT REMINDERS", "留意固定字序、介詞、時態、邏輯主語、字面意思及自然使用情境。")}
     <ol class="rule-list">
       ${rules.map((raw, index) => {
         const item = bilingualItem(raw);
         const examples = Array.isArray(raw?.examples) ? raw.examples : item.examples;
         return `<li class="rule-card"><span>${index + 1}</span><div>
-          ${(raw?.titleEn || raw?.titleZh) ? `<h3>${escapeHtml(raw.titleEn || "")}<small>${escapeHtml(raw.titleZh || "")}</small></h3>` : ""}
-          ${item.english ? `<p class="english">${escapeHtml(item.english)}</p>` : ""}
+          ${(raw?.titleEn || raw?.titleZh) ? `<h3>${bilingualHeadingHtml(raw.titleZh, raw.titleEn)}</h3>` : ""}
           ${item.chinese ? `<p class="chinese">${escapeHtml(item.chinese)}</p>` : ""}
-          ${examples.length ? `<div class="examples">${examples.map((example) => `<code>${escapeHtml(example.en || example)}</code>${example.zh ? `<span>${escapeHtml(example.zh)}</span>` : ""}`).join("")}</div>` : ""}
+          ${item.english ? `<p class="english">${relevantExampleHtml(item.english)}</p>` : ""}
+          ${examples.length ? `<div class="examples">${examples.map((example) => `<code>${relevantExampleHtml(example.en || example, example.highlight)}</code>${example.zh ? `<span>${escapeHtml(example.zh)}</span>` : ""}`).join("")}</div>` : ""}
         </div></li>`;
       }).join("")}
     </ol>
