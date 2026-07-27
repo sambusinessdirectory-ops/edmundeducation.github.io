@@ -985,6 +985,7 @@ body > .site-header.edmund-system-header {
 .formula-display { margin: 12px 0 0; display: grid; gap: 15px; color: var(--navy); font-size: clamp(22px, 3.3vw, 39px); font-weight: 900; line-height: 1.35; }
 .formula-display p { margin: 0; }
 .formula-display small { display: block; margin-bottom: 3px; color: var(--muted); font-size: 10px; font-weight: 850; letter-spacing: .05em; }
+.formula-display small span { display: block; margin-top: 1px; font-size: .9em; font-weight: 700; letter-spacing: .03em; }
 .example-block { margin-top: 30px; border-left: 5px solid var(--coral); padding: 2px 0 2px 19px; }
 .example-block strong { display: block; color: var(--coral); font-size: 11px; letter-spacing: .1em; }
 .example-block p { margin: 7px 0 0; color: var(--ink); font-size: clamp(18px, 2.4vw, 27px); font-weight: 750; }

@@ -1277,8 +1277,11 @@ function renderFormulaPage(lesson) {
       <span class="formula-label">慣用語句式 · FORMULA</span>
       <div class="formula-display">${formulaRows.filter((row) => row?.formula || typeof row === "string").map((row) => {
         const formula = typeof row === "string" ? row : row.formula;
-        const label = typeof row === "string" ? "" : (row.labelZh || row.labelEn || "");
-        return `<p>${label ? `<small>${escapeHtml(label)}</small>` : ""}${escapeHtml(formula)}</p>`;
+        const labelZh = typeof row === "string" ? "" : (row.labelZh || "");
+        const labelEn = typeof row === "string" ? "" : (row.labelEn || "");
+        const primaryLabel = labelZh || labelEn;
+        const secondaryLabel = labelZh && labelEn ? labelEn : "";
+        return `<p>${primaryLabel ? `<small>${escapeHtml(primaryLabel)}${secondaryLabel ? `<span>${escapeHtml(secondaryLabel)}</span>` : ""}</small>` : ""}${escapeHtml(formula)}</p>`;
       }).join("")}</div>
       ${examples.filter((example) => example?.english || example?.en || example?.answer).map((example) => `
         <div class="example-block">
