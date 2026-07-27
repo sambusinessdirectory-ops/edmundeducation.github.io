@@ -58,6 +58,7 @@ test("shared student login safely bridges every Flashcard-token portal", () => {
 
   assert.equal(read(sessionStorage, "edmundSpeakingSessionV1").token, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmund-sentence-structure-session-v1").name, "Student One");
+  assert.equal(read(sessionStorage, "edmund-idiom-system-session-v1").name, "Student One");
   assert.equal(read(sessionStorage, "edmund-schedule-session-v1").studentToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(read(sessionStorage, "edmundModelEssayDownloadSession").sessionToken, "11111111-1111-4111-8111-111111111111");
   assert.equal(sessionStorage.getItem("edmundFlashcardSession"), null);
@@ -114,6 +115,7 @@ test("student logout removes the universal and app-specific browser sessions", (
     "edmundFlashcardSession",
     "edmundSpeakingSessionV1",
     "edmund-sentence-structure-session-v1",
+    "edmund-idiom-system-session-v1",
     "edmund-schedule-session-v1",
     "edmundModelEssayDownloadSession"
   ].forEach(key => assert.equal(sessionStorage.getItem(key), null));
@@ -126,6 +128,7 @@ test("student bridging and logout never overwrite active admin sessions", () => 
     edmundFlashcardSession: { name: "Student Preview", role: "student", impersonatedByAdmin: true },
     edmundSpeakingSessionV1: { name: "Speaking Admin", role: "admin", token: "admin-speaking" },
     "edmund-sentence-structure-session-v1": { name: "Sentence Admin", role: "admin", token: "admin-sentence" },
+    "edmund-idiom-system-session-v1": { name: "Idiom Admin", role: "admin", token: "admin-idiom" },
     "edmund-schedule-session-v1": { name: "Schedule Admin", role: "admin", adminToken: "admin-schedule" },
     edmundModelEssayDownloadSession: { name: "Download Admin", role: "admin", adminToken: "admin-download" }
   };
@@ -144,19 +147,20 @@ test("student bridging and logout never overwrite active admin sessions", () => 
   assert.deepEqual(read(localStorage, "edmundWritingSession"), { name: "Writing Preview", role: "student", impersonatedByAdmin: true });
 });
 
-test("all six student portals load the shared accessible switcher", () => {
+test("all seven student portals load the shared accessible switcher", () => {
   const pages = {
     "flashcards.html": "flashcards",
     "writing-practice.html": "writing",
     "speaking-system.html": "speaking",
     "sentence-structure.html": "sentence",
+    "idiom-system.html": "idioms",
     "schedule-system.html": "schedule",
     "model-essay-downloads.html": "downloads"
   };
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
     assert.match(html, /shared-system-nav\.css/);
-    assert.match(html, /shared-system-nav\.js/);
+    assert.match(html, /shared-system-nav\.js\?v=20260727-1/);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
@@ -169,6 +173,7 @@ test("menu behavior covers hover, focus, Escape and click-outside", () => {
     "writing-practice.html",
     "speaking-system.html",
     "sentence-structure.html",
+    "idiom-system.html",
     "schedule-system.html",
     "model-essay-downloads.html"
   ]);

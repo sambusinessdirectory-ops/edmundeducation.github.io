@@ -7,6 +7,7 @@
     { id: "writing", href: "writing-practice.html", zh: "英文寫作練習", en: "Writing Practice" },
     { id: "speaking", href: "speaking-system.html", zh: "Speaking 說話練習", en: "Speaking System" },
     { id: "sentence", href: "sentence-structure.html", zh: "句子結構", en: "Sentence Structure" },
+    { id: "idioms", href: "idiom-system.html", zh: "英文慣用語", en: "Idiom Learning" },
     { id: "schedule", href: "schedule-system.html", zh: "功課及溫習安排", en: "Study Schedule" },
     { id: "downloads", href: "model-essay-downloads.html", zh: "教材下載區", en: "Downloads" }
   ]);
@@ -15,6 +16,7 @@
     flashcards: "edmundFlashcardSession",
     speaking: "edmundSpeakingSessionV1",
     sentence: "edmund-sentence-structure-session-v1",
+    idioms: "edmund-idiom-system-session-v1",
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession"
   });
@@ -76,6 +78,12 @@
           ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
           : null;
       },
+      idioms() {
+        const value = storageJson(storage, SESSION_KEYS.idioms);
+        return value?.role === "student" && value.impersonatedByAdmin !== true && value.token && value.name
+          ? { token: String(value.token), id: String(value.id || ""), name: String(value.name), role: "student" }
+          : null;
+      },
       schedule() {
         const value = storageJson(storage, SESSION_KEYS.schedule);
         return value?.role === "student" && value.impersonatedByAdmin !== true && value.studentToken && value.name
@@ -94,7 +102,7 @@
     if (universal?.role === "student" && universal.token && universal.name) return universal;
     const active = candidates[activeSystem]?.();
     if (active) return active;
-    return candidates.flashcards() || candidates.speaking() || candidates.sentence() || candidates.schedule() || candidates.downloads() || null;
+    return candidates.flashcards() || candidates.speaking() || candidates.sentence() || candidates.idioms() || candidates.schedule() || candidates.downloads() || null;
   }
 
   function rememberStudentSession(value) {
@@ -158,6 +166,12 @@
       role: "student"
     }, overwrite);
     writeStudentSession(storage, SESSION_KEYS.sentence, {
+      token: universal.token,
+      id: universal.id,
+      name: universal.name,
+      role: "student"
+    }, overwrite);
+    writeStudentSession(storage, SESSION_KEYS.idioms, {
       token: universal.token,
       id: universal.id,
       name: universal.name,

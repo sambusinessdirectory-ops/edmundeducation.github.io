@@ -3,24 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="EdmundEducation 學生句子結構 Sentence Structure 學習系統">
-  <meta name="theme-color" content="#233a78">
-  <title>句子結構學習系統｜EdmundEducation</title>
+  <meta name="description" content="EdmundEducation 學生英文慣用語 Idiom System 學習系統">
+  <meta name="theme-color" content="#e84a1b">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-idiom-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>英文慣用語學習系統｜EdmundEducation</title>
   <link rel="icon" href="Company Logo for Cover Page.png">
-  <link rel="stylesheet" href="sentence-structure.css?v=20260727-1">
+  <link rel="stylesheet" href="idiom-system.css?v=20260727-1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20260722-1">
 </head>
 <body>
-  <a class="skip-link" href="#sentence-structure-main">跳至主要內容</a>
+  <a class="skip-link" href="#idiom-system-main">跳至主要內容</a>
 
   <header class="site-header edmund-system-header">
     <div class="header-inner edmund-system-header__inner">
-      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="sentence">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="idioms">
         <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
           <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
           <span class="edmund-system-switcher__copy">
           <strong>EdmundEducation</strong>
-          <small>Sentence Structure System</small>
+          <small>Idiom Learning System</small>
           </span>
           <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
         </button>
@@ -35,19 +36,19 @@
     </div>
   </header>
 
-  <main class="app-shell" id="sentence-structure-main">
+  <main class="app-shell" id="idiom-system-main">
     <section class="view" data-view="login">
       <div class="login-layout">
         <article class="login-hero glass-panel">
           <div class="hero-grid" aria-hidden="true"></div>
-          <p class="eyebrow">EDMUND SENTENCE LAB</p>
-          <div class="hero-symbol" aria-hidden="true">
-            <span>S</span><i>＋</i><span>V</span><i>＋</i><span>?</span>
-          </div>
+          <p class="eyebrow">EDMUND IDIOM LAB</p>
+          <figure class="hero-illustration">
+            <img src="assets/idiom-system/start-the-ball-rolling.webp" alt="A person pushing a huge stone ball to start it rolling" width="1535" height="1024" decoding="async" fetchpriority="high">
+          </figure>
           <div class="hero-copy">
             <p class="student-label">(學生使用)</p>
-            <h1>句子結構<br><span>Sentence Structure</span><br>學習系統</h1>
-            <p>由公式、例句及重要規則開始，再透過分輪句子改寫練習，把英文句型真正變成自己的能力。</p>
+            <h1>英文慣用語<br><span>Idiom</span><br>學習系統</h1>
+            <p>由意思、語氣、固定結構及歷史開始，再透過 50 題分輪改寫練習，把慣用語真正變成自己的表達能力。</p>
           </div>
         </article>
 
@@ -57,18 +58,18 @@
             <div>
               <p class="eyebrow">STUDENT / ADMIN LOGIN</p>
               <h2 id="login-title">登入學習系統</h2>
-              <p>使用 Flashcard、寫作練習或教材下載區的同一個學生帳戶登入。</p>
+              <p>使用 Flashcard、寫作練習、Speaking、功課系統或教材下載區的同一個學生帳戶登入。</p>
             </div>
           </div>
           <form class="login-form" data-login-form novalidate>
             <label class="field">
               <span>用戶名稱</span>
-              <input id="sentence-structure-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
+              <input id="idiom-system-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
             </label>
             <label class="field">
               <span>密碼</span>
               <span class="password-field">
-                <input id="sentence-structure-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
+                <input id="idiom-system-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
                 <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
               </span>
             </label>
@@ -83,25 +84,37 @@
     <section class="view" data-view="dashboard" hidden>
       <section class="dashboard-hero glass-panel">
         <div>
-          <p class="eyebrow">CHOOSE A STRUCTURE</p>
-          <h1>句子結構學習系統</h1>
-          <p data-dashboard-welcome>選擇一個句型，由概念開始，再完成 50 題分輪練習。</p>
+          <p class="eyebrow">CHOOSE AN IDIOM</p>
+          <h1>英文慣用語學習系統</h1>
+          <p data-dashboard-welcome>選擇一個慣用語，由完整概念開始，再完成 50 題分輪練習。</p>
         </div>
         <div class="dashboard-metric" aria-label="可選課題數量">
-          <strong data-lesson-count>114</strong>
-          <span>個核心句型</span>
+          <strong data-lesson-count>1</strong>
+          <span>個慣用語課題</span>
         </div>
       </section>
 
       <button class="sentence-progress-disclosure glass-panel" type="button" data-sentence-progress-toggle aria-expanded="false" aria-controls="sentence-progress-panel">
         <span>
           <strong>查看練習進展</strong>
-          <small>完成題目走勢、每日詳情及累計紀錄</small>
+          <small>Questions done 與 Time spent 兩項核心指標</small>
         </span>
         <span class="sentence-progress-disclosure-state" data-sentence-progress-toggle-label>展開 ＋</span>
       </button>
 
       <section class="sentence-progress-panel glass-panel" id="sentence-progress-panel" data-sentence-progress-panel aria-labelledby="sentence-progress-heading" hidden>
+        <div class="progress-summary-metrics" aria-label="練習進度總覽">
+          <article>
+            <span>QUESTIONS DONE · 已完成題目</span>
+            <strong data-sentence-progress-all-total>0</strong>
+            <small>累計提交及完成的題目數</small>
+          </article>
+          <article>
+            <span>TIME SPENT · 練習時間</span>
+            <strong data-sentence-time-all-total>0 分 00 秒</strong>
+            <small>累計用於慣用語練習的時間</small>
+          </article>
+        </div>
         <div class="sentence-progress-toolbar">
           <div>
             <p class="eyebrow">QUESTION ACTIVITY</p>
@@ -119,16 +132,11 @@
           </div>
         </div>
         <div class="sentence-progress-chart-shell">
-          <svg data-sentence-progress-chart viewBox="0 0 900 320" role="group" aria-label="句子結構每日完成題目數量圖表；每個日期均可開啟詳情"></svg>
+          <svg data-sentence-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文慣用語每日完成題目數量圖表；每個日期均可開啟詳情"></svg>
         </div>
         <div class="sentence-progress-legend" aria-label="完成題目圖表圖例">
           <span><i class="sentence-legend-dot sentence-legend-daily"></i>每日完成題目</span>
           <span data-sentence-cumulative-legend hidden><i class="sentence-legend-dot sentence-legend-cumulative"></i>累積完成題目</span>
-        </div>
-        <div class="sentence-progress-stats" aria-label="題目統計">
-          <div><strong data-sentence-progress-period-total>0</strong><span>所選時段完成題數</span></div>
-          <div><strong data-sentence-progress-all-total>0</strong><span>累計完成題數</span></div>
-          <div><strong data-sentence-progress-active-days>0</strong><span>所選時段學習日數</span></div>
         </div>
         <section class="sentence-progress-day" data-sentence-progress-day-panel hidden aria-live="polite">
           <div class="sentence-progress-day-heading">
@@ -146,7 +154,7 @@
             <div>
               <p class="eyebrow">EXERCISE TIME</p>
               <h2 id="sentence-time-progress-heading">練習時間走勢</h2>
-              <p>查看每天用於句子結構練習的時間；把滑鼠移到日期上查看時間，按日期可查看當日練習。</p>
+              <p>查看每天用於英文慣用語練習的時間；把滑鼠移到日期上查看時間，按日期可查看當日練習。</p>
             </div>
             <div class="sentence-progress-ranges" data-sentence-time-progress-ranges aria-label="選擇練習時間統計時段">
               <button type="button" data-sentence-time-progress-range="week">Week</button>
@@ -158,17 +166,10 @@
             </div>
           </div>
           <div class="sentence-progress-chart-shell sentence-time-chart-shell">
-            <svg data-sentence-time-progress-chart viewBox="0 0 900 320" role="group" aria-label="句子結構每日練習時間圖表；每個有練習的日期均可開啟詳情"></svg>
+            <svg data-sentence-time-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文慣用語每日練習時間圖表；每個有練習的日期均可開啟詳情"></svg>
           </div>
           <div class="sentence-progress-legend" aria-label="練習時間圖表圖例">
             <span><i class="sentence-legend-dot sentence-legend-time"></i>每日練習時間</span>
-          </div>
-          <div class="sentence-time-stats" aria-label="練習時間統計">
-            <div class="is-wide"><strong data-sentence-time-all-total>0 分 00 秒</strong><span>累計總練習時間</span></div>
-            <div><strong data-sentence-time-period-total>0 分 00 秒</strong><span>所選時段練習時間</span></div>
-            <div><strong data-sentence-time-average>0 分 00 秒</strong><span>平均每次練習時間</span></div>
-            <div><strong data-sentence-time-median>0 分 00 秒</strong><span>每次練習時間中位數</span></div>
-            <div><strong data-sentence-time-maximum>0 分 00 秒</strong><span>單次最長練習時間</span></div>
           </div>
           <section class="sentence-progress-day sentence-time-day" data-sentence-time-day-panel hidden aria-live="polite">
             <div class="sentence-progress-day-heading">
@@ -183,7 +184,7 @@
         </section>
       </section>
 
-      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="句型選擇"></section>
+      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="慣用語選擇"></section>
 
       <section class="history-panel glass-panel" aria-labelledby="history-heading">
         <div class="section-heading">
@@ -202,21 +203,28 @@
     <section class="view" data-view="lesson" hidden>
       <section class="lesson-shell glass-panel">
         <div class="lesson-topbar">
-          <button class="text-button" type="button" data-back-to-dashboard>← 返回句型選擇</button>
+          <button class="text-button" type="button" data-back-to-dashboard>← 返回慣用語選擇</button>
           <span class="lesson-round" data-lesson-round hidden></span>
         </div>
         <div class="lesson-title-row">
           <div>
-            <p class="eyebrow" data-lesson-kicker>SENTENCE STRUCTURE</p>
+            <p class="eyebrow" data-lesson-kicker>IDIOM STUDY</p>
             <h1 data-lesson-title></h1>
           </div>
-          <button class="bookmark-library-button" type="button" data-open-bookmarks>☆ 查看書簽</button>
+          <div class="lesson-title-actions">
+            <button class="jump-exercise-button" type="button" data-jump-to-exercise>直接跳到練習 →</button>
+            <button class="bookmark-library-button" type="button" data-open-bookmarks>☆ 查看書簽</button>
+          </div>
         </div>
         <nav class="lesson-stepper" data-lesson-stepper aria-label="課堂頁面">
           <button type="button" data-step="1"><span>1</span><strong>公式＋例句</strong><small>Formula + Example</small></button>
-          <button type="button" data-step="2"><span>2</span><strong>學習好處</strong><small>Benefits</small></button>
-          <button type="button" data-step="3"><span>3</span><strong>重要規則</strong><small>Important Rules</small></button>
-          <button type="button" data-step="4"><span>4</span><strong>句子練習</strong><small>Exercise</small></button>
+          <button type="button" data-step="2"><span>2</span><strong>語域及語氣</strong><small>Register + Tone</small></button>
+          <button type="button" data-step="3"><span>3</span><strong>固定及可變部分</strong><small>Fixed + Variable</small></button>
+          <button type="button" data-step="4"><span>4</span><strong>所有特定句式</strong><small>All Forms</small></button>
+          <button type="button" data-step="5"><span>5</span><strong>表達好處</strong><small>Benefits</small></button>
+          <button type="button" data-step="6"><span>6</span><strong>歷史及來源</strong><small>History + Origin</small></button>
+          <button type="button" data-step="7"><span>7</span><strong>重要規則</strong><small>Important Rules</small></button>
+          <button type="button" data-step="8"><span>8</span><strong>句子練習</strong><small>Exercise</small></button>
         </nav>
         <div class="lesson-content" data-lesson-content></div>
       </section>
@@ -228,7 +236,7 @@
           <div>
             <p class="eyebrow">SAVED QUESTIONS</p>
             <h1>書簽</h1>
-            <p>收藏整個句型作溫習，或保留個別題目稍後再做；兩類書簽都會跟隨學生帳戶同步。</p>
+            <p>收藏整個慣用語作溫習，或保留個別題目稍後再做；兩類書簽都會跟隨學生帳戶同步。</p>
           </div>
           <button class="secondary-button compact-button" type="button" data-bookmarks-back>返回學習首頁</button>
         </div>
@@ -240,8 +248,8 @@
       <section class="admin-hero glass-panel">
         <div>
           <p class="eyebrow">ADMIN CONTROL</p>
-          <h1>句子結構學習記錄</h1>
-          <p>查看使用共用 EdmundEducation 帳戶的學生及其句型練習進度。</p>
+          <h1>英文慣用語學習記錄</h1>
+          <p>查看使用共用 EdmundEducation 帳戶的學生及其慣用語練習進度。</p>
         </div>
         <label class="admin-search">
           <span>搜尋學生</span>
@@ -270,7 +278,7 @@
     </section>
   </main>
 
-  <template id="sentence-structure-loading-template">
+  <template id="idiom-system-loading-template">
     <div class="loading-state" role="status">
       <span class="loading-spinner" aria-hidden="true"></span>
       <p>正在載入…</p>
@@ -279,12 +287,11 @@
 
   <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
 
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script src="sentence-structure-config.js"></script>
-  <script src="sentence-structure-lessons-5-114.js?v=20260724-1"></script>
-  <script src="sentence-structure-data.js?v=20260723-4"></script>
+  <script src="idiom-system-config.js"></script>
+  <script src="idiom-system-data.js?v=20260727-1"></script>
   <script src="shared-system-nav.js?v=20260727-1"></script>
-  <script type="module" src="sentence-structure.js?v=20260727-1"></script>
+  <script type="module" src="idiom-system.js?v=20260727-1"></script>
 </body>
 </html>
