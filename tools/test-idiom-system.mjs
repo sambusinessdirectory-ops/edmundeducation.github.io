@@ -46,12 +46,19 @@ test("lesson data contains one complete eight-page lesson and all 50 questions",
   }
 });
 
-test("portal exposes the eight-step flow, direct exercise jump, artwork, and two summary metrics", () => {
+test("portal exposes the eight-step flow, post-login artwork, and two summary metrics", () => {
   const html = read("idiom-system.html");
+  const app = read("idiom-system.js");
+  const data = read("idiom-system-data.js");
+  const loginView = html.match(/<section class="view" data-view="login">[\s\S]*?<section class="view" data-view="dashboard"/)?.[0] || "";
 
   assert.equal((html.match(/data-step="/g) || []).length, 8);
   assert.match(html, /data-jump-to-exercise/);
-  assert.match(html, /assets\/idiom-system\/start-the-ball-rolling\.webp/);
+  assert.match(loginView, /class="hero-symbol"/);
+  assert.doesNotMatch(loginView, /start-the-ball-rolling\.webp|hero-illustration/);
+  assert.match(data, /assets\/idiom-system\/start-the-ball-rolling\.webp/);
+  assert.match(app, /class="lesson-choice-illustration"/);
+  assert.match(app, /class="exercise-idiom-illustration"/);
   assert.match(html, /QUESTIONS DONE/i);
   assert.match(html, /TIME SPENT/i);
   assert.match(html, /data-system="idioms"/);
@@ -101,9 +108,12 @@ test("visual system uses the warm apple-juice palette and preserves gold complet
 test("homepage and shared switcher both link to the Idiom portal", () => {
   const home = read("index.html");
   const sharedNav = read("shared-system-nav.js");
+  const idiomCard = home.match(/<a class="category idiom-system-card"[\s\S]*?<\/a>/)?.[0] || "";
 
   assert.match(home, /href="idiom-system\.html"/);
   assert.match(home, /英文慣用語[\s\S]*?Idiom[\s\S]*?學習系統/);
+  assert.match(idiomCard, /class="idiom-wordmark"/);
+  assert.doesNotMatch(idiomCard, /<img|start-the-ball-rolling\.webp/);
   assert.match(sharedNav, /id:\s*"idioms"/);
   assert.match(sharedNav, /href:\s*"idiom-system\.html"/);
   assert.match(sharedNav, /edmund-idiom-system-session-v1/);
