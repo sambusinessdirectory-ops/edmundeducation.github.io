@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import vm from "node:vm";
@@ -23,6 +24,19 @@ assert.deepEqual([...rows].map((row) => row.number), Array.from({ length: 238 },
 const keys = rows.map((row) => row.essayKey);
 assert.equal(new Set(keys).size, 238, "every canonical essay must appear exactly once");
 assert.deepEqual([...new Set(keys)].sort(), Object.keys(questions).sort());
+
+// This digest anchors all four source-of-truth fields (position, printed type,
+// topic and canonical key) to the exact PDF order. Inventory-only assertions
+// would not catch an accidental reordering or a topic being attached to the
+// wrong canonical essay.
+const orderedProgressionDigest = createHash("sha256")
+  .update(rows.map((row) => [row.number, row.type, row.topic, row.essayKey].join("\t")).join("\n"))
+  .digest("hex");
+assert.equal(
+  orderedProgressionDigest,
+  "291d3a3486f8ba57717dd1ee6b89929c1ac4a2b390840fee032fd60b0212a874",
+  "the progression must preserve the PDF's exact 238-row order and topics"
+);
 const categoryCounts = keys.reduce((counts, key) => {
   const category = key.slice(0, key.lastIndexOf(":"));
   counts[category] = (counts[category] || 0) + 1;
@@ -45,7 +59,28 @@ assert.equal(rows[237].essayKey, "discuss-both-views:41");
 
 assert.equal(rows.filter((row) => portals.hasWritingPractice(row.essayKey)).length, 228);
 assert.equal(rows.filter((row) => portals.hasFlashcards(row.essayKey)).length, 232);
-assert.ok(rows.every((row) => portals.href("downloads", row.essayKey)));
+for (const row of rows) {
+  const encodedKey = encodeURIComponent(row.essayKey);
+  assert.equal(
+    portals.href("downloads", row.essayKey),
+    `model-essay-downloads.html?essay=${encodedKey}`,
+    `row ${row.number} must have an exact download destination`
+  );
+  if (portals.hasFlashcards(row.essayKey)) {
+    assert.equal(
+      portals.href("flashcards", row.essayKey),
+      `flashcards.html?essay=${encodedKey}`,
+      `row ${row.number} must have an exact Flash Cards destination`
+    );
+  }
+  if (portals.hasWritingPractice(row.essayKey)) {
+    assert.match(
+      portals.writingExerciseId(row.essayKey),
+      /^model-essay-\d+-ielts-(?:advantage-disadvantage|opinion|discuss-both-views|cause-solution|direct-question)$/,
+      `row ${row.number} must resolve to a safe Writing Practice exercise id`
+    );
+  }
+}
 
 const writingSource = await readFile(path.join(root, "writing-practice.html"), "utf8");
 assert.match(writingSource, /writing-progression-data\.js\?v=/);
